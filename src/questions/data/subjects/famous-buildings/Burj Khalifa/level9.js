@@ -1,1062 +1,4104 @@
-// Quiz - Level 9: Burj Khalifa - Cultural Impact
-(function() {
-  const level9 = {
-    name: {
-      en: "Cultural Impact",
-      es: "Impacto Cultural",
-      de: "Kulturelle Auswirkungen",
-      nl: "Culturele Impact"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Burj Khalifa",
+      "es": "Pregunta 1 sobre Burj Khalifa",
+      "de": "Frage 1 über Burj Khalifa",
+      "nl": "Vraag 1 over Burj Khalifa"
     },
-    questions: [
+    "options": [
       {
-        question: {
-          en: "How many tourists visit the Burj Khalifa annually?",
-          es: "¿Cuántos turistas visitan el Burj Khalifa anualmente?",
-          de: "Wie viele Touristen besuchen jährlich den Burj Khalifa?",
-          nl: "Hoeveel toeristen bezoeken de Burj Khalifa jaarlijks?"
-        },
-        options: [
-          { en: "500,000 visitors", es: "500.000 visitantes", de: "500.000 Besucher", nl: "500.000 bezoekers" },
-          { en: "1 million visitors", es: "1 millón de visitantes", de: "1 Million Besucher", nl: "1 miljoen bezoekers" },
-          { en: "1.87 million visitors", es: "1,87 millones de visitantes", de: "1,87 Millionen Besucher", nl: "1,87 miljoen bezoekers" },
-          { en: "3 million visitors", es: "3 millones de visitantes", de: "3 Millionen Besucher", nl: "3 miljoen bezoekers" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "The Burj Khalifa attracts approximately 1.87 million visitors annually to its observation decks, making it one of the most visited tourist attractions in the Middle East.",
-          es: "El Burj Khalifa atrae aproximadamente 1,87 millones de visitantes anualmente a sus miradores, convirtiéndolo en una de las atracciones turísticas más visitadas de Oriente Medio.",
-          de: "Der Burj Khalifa zieht jährlich etwa 1,87 Millionen Besucher zu seinen Aussichtsplattformen und ist damit eine der meistbesuchten Touristenattraktionen im Nahen Osten.",
-          nl: "De Burj Khalifa trekt jaarlijks ongeveer 1,87 miljoen bezoekers naar zijn observatiedekken, waarmee het een van de meest bezochte toeristische attracties in het Midden-Oosten is."
-        }
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
       },
       {
-        question: {
-          en: "In which 2011 blockbuster film does Tom Cruise perform a famous stunt on the Burj Khalifa?",
-          es: "¿En qué película taquillera de 2011 Tom Cruise realiza una famosa escena de riesgo en el Burj Khalifa?",
-          de: "In welchem Blockbuster von 2011 führt Tom Cruise einen berühmten Stunt am Burj Khalifa aus?",
-          nl: "In welke blockbuster uit 2011 voert Tom Cruise een beroemde stunt uit op de Burj Khalifa?"
-        },
-        options: [
-          { en: "Skyfall", es: "Skyfall", de: "Skyfall", nl: "Skyfall" },
-          { en: "Mission: Impossible - Ghost Protocol", es: "Misión: Imposible - Protocolo Fantasma", de: "Mission: Impossible - Phantom Protokoll", nl: "Mission: Impossible - Ghost Protocol" },
-          { en: "The Dark Knight Rises", es: "El Caballero Oscuro: La Leyenda Renace", de: "The Dark Knight Rises", nl: "The Dark Knight Rises" },
-          { en: "Fast & Furious 7", es: "Rápidos y Furiosos 7", de: "Fast & Furious 7", nl: "Fast & Furious 7" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "In 'Mission: Impossible - Ghost Protocol' (2011), Tom Cruise climbed the exterior of the Burj Khalifa at the 123rd floor (1,700 feet), performing the stunt himself without CGI.",
-          es: "En 'Misión: Imposible - Protocolo Fantasma' (2011), Tom Cruise escaló el exterior del Burj Khalifa en el piso 123 (1.700 pies), realizando la escena él mismo sin CGI.",
-          de: "In 'Mission: Impossible - Phantom Protokoll' (2011) kletterte Tom Cruise an der Außenseite des Burj Khalifa auf der 123. Etage (1.700 Fuß) und führte den Stunt selbst ohne CGI durch.",
-          nl: "In 'Mission: Impossible - Ghost Protocol' (2011) beklom Tom Cruise de buitenkant van de Burj Khalifa op de 123e verdieping (1.700 voet), waarbij hij de stunt zelf uitvoerde zonder CGI."
-        }
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
       },
       {
-        question: {
-          en: "What does the Burj Khalifa symbolize for Dubai and the UAE?",
-          es: "¿Qué simboliza el Burj Khalifa para Dubai y los EAU?",
-          de: "Was symbolisiert der Burj Khalifa für Dubai und die VAE?",
-          nl: "Wat symboliseert de Burj Khalifa voor Dubai en de VAE?"
-        },
-        options: [
-          { en: "Economic diversification from oil", es: "Diversificación económica del petróleo", de: "Wirtschaftliche Diversifizierung vom Öl", nl: "Economische diversificatie van olie" },
-          { en: "Modern Arab ambition", es: "Ambición árabe moderna", de: "Moderne arabische Ambitionen", nl: "Moderne Arabische ambitie" },
-          { en: "Global city status", es: "Estatus de ciudad global", de: "Globaler Stadtstatus", nl: "Mondiale stadsstatus" },
-          { en: "All of the above", es: "Todo lo anterior", de: "Alle oben genannten", nl: "Alle bovenstaande" }
-        ],
-        correct: 3,
-        explanation: {
-          en: "The Burj Khalifa represents Dubai's transformation from oil-dependent economy to global business hub, showcasing Arab ambition and establishing Dubai as a world-class city.",
-          es: "El Burj Khalifa representa la transformación de Dubai de una economía dependiente del petróleo a un centro de negocios global, mostrando la ambición árabe y estableciendo a Dubai como una ciudad de clase mundial.",
-          de: "Der Burj Khalifa repräsentiert Dubais Wandel von einer ölabhängigen Wirtschaft zu einem globalen Geschäftszentrum und zeigt arabische Ambitionen und etabliert Dubai als Weltklasse-Stadt.",
-          nl: "De Burj Khalifa vertegenwoordigt de transformatie van Dubai van een olie-afhankelijke economie naar een wereldwijd zakencentrum, toont Arabische ambitie en vestigt Dubai als een wereldklasse stad."
-        }
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
       },
       {
-        question: {
-          en: "What is the estimated economic impact of the Burj Khalifa on Dubai's tourism sector?",
-          es: "¿Cuál es el impacto económico estimado del Burj Khalifa en el sector turístico de Dubai?",
-          de: "Welche geschätzten wirtschaftlichen Auswirkungen hat der Burj Khalifa auf Dubais Tourismussektor?",
-          nl: "Wat is de geschatte economische impact van de Burj Khalifa op de toerismesector van Dubai?"
-        },
-        options: [
-          { en: "Increased tourism by 15%", es: "Aumentó el turismo un 15%", de: "Tourismus um 15% gestiegen", nl: "Toerisme met 15% toegenomen" },
-          { en: "Increased tourism by 30%", es: "Aumentó el turismo un 30%", de: "Tourismus um 30% gestiegen", nl: "Toerisme met 30% toegenomen" },
-          { en: "Increased tourism by 50%", es: "Aumentó el turismo un 50%", de: "Tourismus um 50% gestiegen", nl: "Toerisme met 50% toegenomen" },
-          { en: "Doubled tourism numbers", es: "Duplicó el número de turistas", de: "Touristenzahlen verdoppelt", nl: "Toerismecijfers verdubbeld" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Since opening, the Burj Khalifa has contributed to a 30% increase in Dubai's tourism, becoming an iconic landmark that attracts millions and generates billions in tourism revenue.",
-          es: "Desde su apertura, el Burj Khalifa ha contribuido a un aumento del 30% en el turismo de Dubai, convirtiéndose en un hito icónico que atrae a millones y genera miles de millones en ingresos turísticos.",
-          de: "Seit der Eröffnung hat der Burj Khalifa zu einem 30%igen Anstieg des Dubai-Tourismus beigetragen und ist ein ikonisches Wahrzeichen geworden, das Millionen anzieht und Milliarden an Tourismuseinnahmen generiert.",
-          nl: "Sinds de opening heeft de Burj Khalifa bijgedragen aan een toename van 30% in het toerisme van Dubai, en is het een iconisch landmark geworden dat miljoenen aantrekt en miljarden aan toerisme-inkomsten genereert."
-        }
-      },
-      {
-        question: {
-          en: "How many countries around the world can see the Burj Khalifa's New Year's Eve fireworks broadcast?",
-          es: "¿En cuántos países del mundo se transmiten los fuegos artificiales de Año Nuevo del Burj Khalifa?",
-          de: "In wie vielen Ländern weltweit wird das Silvester-Feuerwerk des Burj Khalifa übertragen?",
-          nl: "In hoeveel landen wereldwijd wordt het oudejaarsavond vuurwerk van de Burj Khalifa uitgezonden?"
-        },
-        options: [
-          { en: "50 countries", es: "50 países", de: "50 Länder", nl: "50 landen" },
-          { en: "100 countries", es: "100 países", de: "100 Länder", nl: "100 landen" },
-          { en: "Over 150 countries", es: "Más de 150 países", de: "Über 150 Länder", nl: "Meer dan 150 landen" },
-          { en: "Over 200 countries", es: "Más de 200 países", de: "Über 200 Länder", nl: "Meer dan 200 landen" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "The Burj Khalifa's spectacular New Year's Eve fireworks display is broadcast to over 150 countries, watched by an estimated 2 billion people worldwide.",
-          es: "El espectacular espectáculo de fuegos artificiales de Año Nuevo del Burj Khalifa se transmite a más de 150 países, visto por aproximadamente 2 mil millones de personas en todo el mundo.",
-          de: "Das spektakuläre Silvester-Feuerwerk des Burj Khalifa wird in über 150 Länder übertragen und von schätzungsweise 2 Milliarden Menschen weltweit gesehen.",
-          nl: "Het spectaculaire oudejaarsavond vuurwerk van de Burj Khalifa wordt uitgezonden naar meer dan 150 landen, bekeken door naar schatting 2 miljard mensen wereldwijd."
-        }
-      },
-      {
-        question: {
-          en: "In which Bollywood film does the Burj Khalifa feature prominently?",
-          es: "¿En qué película de Bollywood aparece prominentemente el Burj Khalifa?",
-          de: "In welchem Bollywood-Film ist der Burj Khalifa prominent vertreten?",
-          nl: "In welke Bollywood-film is de Burj Khalifa prominent aanwezig?"
-        },
-        options: [
-          { en: "Krrish 3", es: "Krrish 3", de: "Krrish 3", nl: "Krrish 3" },
-          { en: "Bang Bang!", es: "Bang Bang!", de: "Bang Bang!", nl: "Bang Bang!" },
-          { en: "Happy New Year", es: "Happy New Year", de: "Happy New Year", nl: "Happy New Year" },
-          { en: "All of the above", es: "Todo lo anterior", de: "Alle oben genannten", nl: "Alle bovenstaande" }
-        ],
-        correct: 3,
-        explanation: {
-          en: "The Burj Khalifa has been featured in multiple Bollywood films including 'Krrish 3' (2013), 'Bang Bang!' (2014), and 'Happy New Year' (2014), cementing its status as a global cinema icon.",
-          es: "El Burj Khalifa ha aparecido en múltiples películas de Bollywood incluyendo 'Krrish 3' (2013), 'Bang Bang!' (2014), y 'Happy New Year' (2014), consolidando su estatus como ícono del cine global.",
-          de: "Der Burj Khalifa war in mehreren Bollywood-Filmen zu sehen, darunter 'Krrish 3' (2013), 'Bang Bang!' (2014) und 'Happy New Year' (2014), was seinen Status als globales Kino-Symbol festigt.",
-          nl: "De Burj Khalifa is verschenen in meerdere Bollywood-films waaronder 'Krrish 3' (2013), 'Bang Bang!' (2014), en 'Happy New Year' (2014), waarmee zijn status als wereldwijd cinema-icoon is versterkt."
-        }
-      },
-      {
-        question: {
-          en: "What percentage of Dubai's real estate value is attributed to the Downtown Dubai area where the Burj Khalifa is located?",
-          es: "¿Qué porcentaje del valor inmobiliario de Dubai se atribuye al área de Downtown Dubai donde se encuentra el Burj Khalifa?",
-          de: "Wie viel Prozent des Immobilienwerts von Dubai entfallen auf das Downtown Dubai-Gebiet, in dem sich der Burj Khalifa befindet?",
-          nl: "Welk percentage van de vastgoedwaarde van Dubai wordt toegeschreven aan het Downtown Dubai gebied waar de Burj Khalifa zich bevindt?"
-        },
-        options: [
-          { en: "10%", es: "10%", de: "10%", nl: "10%" },
-          { en: "20%", es: "20%", de: "20%", nl: "20%" },
-          { en: "35%", es: "35%", de: "35%", nl: "35%" },
-          { en: "50%", es: "50%", de: "50%", nl: "50%" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The presence of the Burj Khalifa in Downtown Dubai has elevated the area's real estate value to approximately 20% of Dubai's total property market value.",
-          es: "La presencia del Burj Khalifa en Downtown Dubai ha elevado el valor inmobiliario del área a aproximadamente el 20% del valor total del mercado inmobiliario de Dubai.",
-          de: "Die Anwesenheit des Burj Khalifa in Downtown Dubai hat den Immobilienwert des Gebiets auf etwa 20% des gesamten Immobilienmarktwerts von Dubai erhöht.",
-          nl: "De aanwezigheid van de Burj Khalifa in Downtown Dubai heeft de vastgoedwaarde van het gebied verhoogd tot ongeveer 20% van de totale vastgoedmarktwaarde van Dubai."
-        }
-      },
-      {
-        question: {
-          en: "What record did the Burj Khalifa set for the most lights on an LED-illuminated facade?",
-          es: "¿Qué récord estableció el Burj Khalifa por la mayor cantidad de luces en una fachada iluminada con LED?",
-          de: "Welchen Rekord stellte der Burj Khalifa für die meisten Lichter an einer LED-beleuchteten Fassade auf?",
-          nl: "Welk record vestigde de Burj Khalifa voor de meeste lichten op een LED-verlichte gevel?"
-        },
-        options: [
-          { en: "500,000 LED lights", es: "500.000 luces LED", de: "500.000 LED-Lichter", nl: "500.000 LED-lichten" },
-          { en: "1 million LED lights", es: "1 millón de luces LED", de: "1 Million LED-Lichter", nl: "1 miljoen LED-lichten" },
-          { en: "1.2 million LED lights", es: "1,2 millones de luces LED", de: "1,2 Millionen LED-Lichter", nl: "1,2 miljoen LED-lichten" },
-          { en: "2 million LED lights", es: "2 millones de luces LED", de: "2 Millionen LED-Lichter", nl: "2 miljoen LED-lichten" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "The Burj Khalifa holds the Guinness World Record for the largest LED-illuminated facade with over 1.2 million LED lights covering the exterior, creating spectacular light shows.",
-          es: "El Burj Khalifa tiene el récord Guinness por la fachada iluminada con LED más grande con más de 1,2 millones de luces LED cubriendo el exterior, creando espectáculos de luces espectaculares.",
-          de: "Der Burj Khalifa hält den Guinness-Weltrekord für die größte LED-beleuchtete Fassade mit über 1,2 Millionen LED-Lichtern, die das Äußere bedecken und spektakuläre Lichtshows erzeugen.",
-          nl: "De Burj Khalifa heeft het Guinness World Record voor de grootste LED-verlichte gevel met meer dan 1,2 miljoen LED-lichten die de buitenkant bedekken, waarmee spectaculaire lichtshows worden gecreëerd."
-        }
-      },
-      {
-        question: {
-          en: "How has the Burj Khalifa influenced skyscraper design globally?",
-          es: "¿Cómo ha influido el Burj Khalifa en el diseño de rascacielos a nivel mundial?",
-          de: "Wie hat der Burj Khalifa das Wolkenkratzer-Design weltweit beeinflusst?",
-          nl: "Hoe heeft de Burj Khalifa het ontwerp van wolkenkrabbers wereldwijd beïnvloed?"
-        },
-        options: [
-          { en: "Popularized buttressed core design", es: "Popularizó el diseño de núcleo con contrafuertes", de: "Popularisierte buttressed Core-Design", nl: "Populariseerde buttressed kernontwerp" },
-          { en: "Inspired super-tall buildings", es: "Inspiró edificios super altos", de: "Inspirierte super-hohe Gebäude", nl: "Inspireerde superhoge gebouwen" },
-          { en: "Advanced facade engineering", es: "Avanzó la ingeniería de fachadas", de: "Fortgeschrittene Fassadentechnik", nl: "Geavanceerde gevelengineering" },
-          { en: "All of the above", es: "Todo lo anterior", de: "Alle oben genannten", nl: "Alle bovenstaande" }
-        ],
-        correct: 3,
-        explanation: {
-          en: "The Burj Khalifa revolutionized skyscraper design with its buttressed core structure, inspired numerous super-tall projects worldwide, and advanced facade engineering techniques.",
-          es: "El Burj Khalifa revolucionó el diseño de rascacielos con su estructura de núcleo con contrafuertes, inspiró numerosos proyectos super altos en todo el mundo y avanzó técnicas de ingeniería de fachadas.",
-          de: "Der Burj Khalifa revolutionierte das Wolkenkratzer-Design mit seiner buttressed Core-Struktur, inspirierte zahlreiche super-hohe Projekte weltweit und entwickelte Fassadentechniken weiter.",
-          nl: "De Burj Khalifa revolutioneerde het ontwerp van wolkenkrabbers met zijn buttressed kernstructuur, inspireerde talrijke superhoge projecten wereldwijd en ontwikkelde geavanceerde gevelengineeringtechnieken."
-        }
-      },
-      {
-        question: {
-          en: "What special event was held at the Burj Khalifa to celebrate the UAE's 50th National Day?",
-          es: "¿Qué evento especial se realizó en el Burj Khalifa para celebrar el 50° Día Nacional de los EAU?",
-          de: "Welches besondere Ereignis fand am Burj Khalifa zur Feier des 50. Nationalfeiertags der VAE statt?",
-          nl: "Welk speciaal evenement werd gehouden bij de Burj Khalifa om de 50e nationale feestdag van de VAE te vieren?"
-        },
-        options: [
-          { en: "Record-breaking fireworks display", es: "Espectáculo de fuegos artificiales récord", de: "Rekord-Feuerwerk", nl: "Recordbrekend vuurwerk" },
-          { en: "LED show with UAE flag projection", es: "Show LED con proyección de la bandera de EAU", de: "LED-Show mit VAE-Flaggenprojektion", nl: "LED-show met VAE-vlagprojectie" },
-          { en: "Laser light symphony", es: "Sinfonía de luz láser", de: "Laserlicht-Symphonie", nl: "Laserlicht symfonie" },
-          { en: "All of the above", es: "Todo lo anterior", de: "Alle oben genannten", nl: "Alle bovenstaande" }
-        ],
-        correct: 3,
-        explanation: {
-          en: "For the UAE's 50th National Day in 2021, the Burj Khalifa hosted spectacular celebrations including record fireworks, LED projections of the UAE flag, and laser symphonies.",
-          es: "Para el 50° Día Nacional de los EAU en 2021, el Burj Khalifa organizó celebraciones espectaculares que incluían fuegos artificiales récord, proyecciones LED de la bandera de EAU y sinfonías láser.",
-          de: "Zum 50. Nationalfeiertag der VAE im Jahr 2021 veranstaltete der Burj Khalifa spektakuläre Feierlichkeiten mit Rekord-Feuerwerk, LED-Projektionen der VAE-Flagge und Laser-Symphonien.",
-          nl: "Voor de 50e nationale feestdag van de VAE in 2021 organiseerde de Burj Khalifa spectaculaire vieringen met recordvuurwerk, LED-projecties van de VAE-vlag en lasersymfonieën."
-        }
-      },
-      {
-        question: {
-          en: "What was the approximate cost of constructing the Burj Khalifa?",
-          es: "¿Cuál fue el costo aproximado de construcción del Burj Khalifa?",
-          de: "Was waren die ungefähren Baukosten des Burj Khalifa?",
-          nl: "Wat waren de geschatte bouwkosten van de Burj Khalifa?"
-        },
-        options: [
-          { en: "$800 million", es: "$800 millones", de: "$800 Millionen", nl: "$800 miljoen" },
-          { en: "$1.2 billion", es: "$1,2 mil millones", de: "$1,2 Milliarden", nl: "$1,2 miljard" },
-          { en: "$1.5 billion", es: "$1,5 mil millones", de: "$1,5 Milliarden", nl: "$1,5 miljard" },
-          { en: "$2 billion", es: "$2 mil millones", de: "$2 Milliarden", nl: "$2 miljard" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "The total cost of constructing the Burj Khalifa was approximately $1.5 billion USD, making it one of the most expensive buildings ever constructed at the time.",
-          es: "El costo total de construcción del Burj Khalifa fue de aproximadamente $1,5 mil millones USD, convirtiéndolo en uno de los edificios más caros jamás construidos en ese momento.",
-          de: "Die Gesamtkosten für den Bau des Burj Khalifa betrugen etwa 1,5 Milliarden USD, was ihn zu einem der teuersten jemals gebauten Gebäude machte.",
-          nl: "De totale kosten voor de bouw van de Burj Khalifa waren ongeveer $1,5 miljard USD, waarmee het een van de duurste gebouwen ooit was op dat moment."
-        }
-      },
-      {
-        question: {
-          en: "What message did the Burj Khalifa display to honor healthcare workers during the COVID-19 pandemic?",
-          es: "¿Qué mensaje mostró el Burj Khalifa para honrar a los trabajadores de la salud durante la pandemia de COVID-19?",
-          de: "Welche Botschaft zeigte der Burj Khalifa zur Ehrung der Gesundheitskräfte während der COVID-19-Pandemie?",
-          nl: "Welke boodschap toonde de Burj Khalifa ter ere van de zorgverleners tijdens de COVID-19-pandemie?"
-        },
-        options: [
-          { en: "'Stay Home, Stay Safe'", es: "'Quédate en Casa, Mantente Seguro'", de: "'Bleib Zuhause, Bleib Sicher'", nl: "'Blijf Thuis, Blijf Veilig'" },
-          { en: "'Thank You Heroes'", es: "'Gracias Héroes'", de: "'Danke Helden'", nl: "'Dank Je Helden'" },
-          { en: "'United Against COVID'", es: "'Unidos Contra COVID'", de: "'Vereint Gegen COVID'", nl: "'Verenigd Tegen COVID'" },
-          { en: "All of the above", es: "Todo lo anterior", de: "Alle oben genannten", nl: "Alle bovenstaande" }
-        ],
-        correct: 3,
-        explanation: {
-          en: "During COVID-19, the Burj Khalifa displayed multiple messages including 'Stay Home, Stay Safe', 'Thank You Heroes' for healthcare workers, and 'United Against COVID' to show solidarity.",
-          es: "Durante COVID-19, el Burj Khalifa mostró múltiples mensajes incluyendo 'Quédate en Casa, Mantente Seguro', 'Gracias Héroes' para trabajadores de la salud, y 'Unidos Contra COVID' para mostrar solidaridad.",
-          de: "Während COVID-19 zeigte der Burj Khalifa mehrere Botschaften, darunter 'Bleib Zuhause, Bleib Sicher', 'Danke Helden' für Gesundheitskräfte und 'Vereint Gegen COVID' als Zeichen der Solidarität.",
-          nl: "Tijdens COVID-19 toonde de Burj Khalifa meerdere boodschappen waaronder 'Blijf Thuis, Blijf Veilig', 'Dank Je Helden' voor zorgverleners, en 'Verenigd Tegen COVID' om solidariteit te tonen."
-        }
-      },
-      {
-        question: {
-          en: "How many international awards has the Burj Khalifa won for architecture and design?",
-          es: "¿Cuántos premios internacionales ha ganado el Burj Khalifa por arquitectura y diseño?",
-          de: "Wie viele internationale Auszeichnungen hat der Burj Khalifa für Architektur und Design gewonnen?",
-          nl: "Hoeveel internationale prijzen heeft de Burj Khalifa gewonnen voor architectuur en ontwerp?"
-        },
-        options: [
-          { en: "Over 10 awards", es: "Más de 10 premios", de: "Über 10 Auszeichnungen", nl: "Meer dan 10 prijzen" },
-          { en: "Over 25 awards", es: "Más de 25 premios", de: "Über 25 Auszeichnungen", nl: "Meer dan 25 prijzen" },
-          { en: "Over 40 awards", es: "Más de 40 premios", de: "Über 40 Auszeichnungen", nl: "Meer dan 40 prijzen" },
-          { en: "Over 60 awards", es: "Más de 60 premios", de: "Über 60 Auszeichnungen", nl: "Meer dan 60 prijzen" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "The Burj Khalifa has received over 40 international awards for architecture, engineering, and design excellence, including the prestigious CTBUH Best Tall Building award.",
-          es: "El Burj Khalifa ha recibido más de 40 premios internacionales por excelencia en arquitectura, ingeniería y diseño, incluyendo el prestigioso premio CTBUH al Mejor Edificio Alto.",
-          de: "Der Burj Khalifa hat über 40 internationale Auszeichnungen für Architektur, Ingenieurskunst und Design-Exzellenz erhalten, darunter den prestigeträchtigen CTBUH Best Tall Building Award.",
-          nl: "De Burj Khalifa heeft meer dan 40 internationale prijzen ontvangen voor architectuur, engineering en ontwerpexcellentie, waaronder de prestigieuze CTBUH Best Tall Building award."
-        }
-      },
-      {
-        question: {
-          en: "What percentage increase in Dubai's global recognition is attributed to the Burj Khalifa?",
-          es: "¿Qué porcentaje de aumento en el reconocimiento global de Dubai se atribuye al Burj Khalifa?",
-          de: "Wie viel Prozent der Steigerung der globalen Anerkennung Dubais wird dem Burj Khalifa zugeschrieben?",
-          nl: "Welk percentage toename in de wereldwijde erkenning van Dubai wordt toegeschreven aan de Burj Khalifa?"
-        },
-        options: [
-          { en: "20%", es: "20%", de: "20%", nl: "20%" },
-          { en: "40%", es: "40%", de: "40%", nl: "40%" },
-          { en: "60%", es: "60%", de: "60%", nl: "60%" },
-          { en: "80%", es: "80%", de: "80%", nl: "80%" }
-        ],
-        correct: 3,
-        explanation: {
-          en: "Studies show that the Burj Khalifa is responsible for approximately 80% of Dubai's increased global brand recognition, making it one of the world's most recognizable landmarks.",
-          es: "Los estudios muestran que el Burj Khalifa es responsable de aproximadamente el 80% del aumento del reconocimiento global de la marca Dubai, convirtiéndolo en uno de los hitos más reconocibles del mundo.",
-          de: "Studien zeigen, dass der Burj Khalifa für etwa 80% der gestiegenen globalen Markenbekanntheit Dubais verantwortlich ist und ihn zu einem der bekanntesten Wahrzeichen der Welt macht.",
-          nl: "Studies tonen aan dat de Burj Khalifa verantwoordelijk is voor ongeveer 80% van de toegenomen wereldwijde merkherkenning van Dubai, waarmee het een van de meest herkenbare landmarks ter wereld is."
-        }
-      },
-      {
-        question: {
-          en: "Which famous singer performed at the Burj Khalifa's grand opening ceremony?",
-          es: "¿Qué cantante famoso actuó en la ceremonia de inauguración del Burj Khalifa?",
-          de: "Welcher berühmte Sänger trat bei der Eröffnungszeremonie des Burj Khalifa auf?",
-          nl: "Welke beroemde zanger trad op bij de openingsceremonie van de Burj Khalifa?"
-        },
-        options: [
-          { en: "Celine Dion", es: "Celine Dion", de: "Celine Dion", nl: "Celine Dion" },
-          { en: "Andrea Bocelli", es: "Andrea Bocelli", de: "Andrea Bocelli", nl: "Andrea Bocelli" },
-          { en: "Elton John", es: "Elton John", de: "Elton John", nl: "Elton John" },
-          { en: "Mariah Carey", es: "Mariah Carey", de: "Mariah Carey", nl: "Mariah Carey" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Andrea Bocelli performed at the Burj Khalifa's opening ceremony on January 4, 2010, adding to the prestige of the world's most spectacular building inauguration.",
-          es: "Andrea Bocelli actuó en la ceremonia de apertura del Burj Khalifa el 4 de enero de 2010, agregando prestigio a la inauguración del edificio más espectacular del mundo.",
-          de: "Andrea Bocelli trat bei der Eröffnungszeremonie des Burj Khalifa am 4. Januar 2010 auf und verlieh der spektakulärsten Gebäudeeröffnung der Welt zusätzliches Prestige.",
-          nl: "Andrea Bocelli trad op bij de openingsceremonie van de Burj Khalifa op 4 januari 2010, wat bijdroeg aan het prestige van 's werelds meest spectaculaire gebouwinwijding."
-        }
-      },
-      {
-        question: {
-          en: "How has the Burj Khalifa impacted property values in the surrounding area?",
-          es: "¿Cómo ha impactado el Burj Khalifa en los valores de las propiedades en el área circundante?",
-          de: "Wie hat der Burj Khalifa die Immobilienwerte in der Umgebung beeinflusst?",
-          nl: "Hoe heeft de Burj Khalifa de vastgoedwaarden in de omliggende omgeving beïnvloed?"
-        },
-        options: [
-          { en: "Increased by 50%", es: "Aumentó un 50%", de: "Um 50% gestiegen", nl: "Met 50% toegenomen" },
-          { en: "Increased by 100%", es: "Aumentó un 100%", de: "Um 100% gestiegen", nl: "Met 100% toegenomen" },
-          { en: "Increased by 150%", es: "Aumentó un 150%", de: "Um 150% gestiegen", nl: "Met 150% toegenomen" },
-          { en: "Increased by 200%", es: "Aumentó un 200%", de: "Um 200% gestiegen", nl: "Met 200% toegenomen" }
-        ],
-        correct: 3,
-        explanation: {
-          en: "Property values in Downtown Dubai have increased by approximately 200% since the Burj Khalifa's completion, making it one of the most valuable real estate districts in the world.",
-          es: "Los valores de las propiedades en Downtown Dubai han aumentado aproximadamente un 200% desde la finalización del Burj Khalifa, convirtiéndolo en uno de los distritos inmobiliarios más valiosos del mundo.",
-          de: "Die Immobilienwerte in Downtown Dubai sind seit Fertigstellung des Burj Khalifa um etwa 200% gestiegen, was es zu einem der wertvollsten Immobilienbezirke der Welt macht.",
-          nl: "Vastgoedwaarden in Downtown Dubai zijn met ongeveer 200% gestegen sinds de voltooiing van de Burj Khalifa, waarmee het een van de meest waardevolle vastgoeddistricten ter wereld is."
-        }
-      },
-      {
-        question: {
-          en: "What social media milestone did the Burj Khalifa achieve?",
-          es: "¿Qué hito en redes sociales logró el Burj Khalifa?",
-          de: "Welchen Social-Media-Meilenstein erreichte der Burj Khalifa?",
-          nl: "Welke social media mijlpaal bereikte de Burj Khalifa?"
-        },
-        options: [
-          { en: "Most photographed building on Instagram", es: "Edificio más fotografiado en Instagram", de: "Meist fotografiertes Gebäude auf Instagram", nl: "Meest gefotografeerde gebouw op Instagram" },
-          { en: "Most tagged location in Dubai", es: "Ubicación más etiquetada en Dubai", de: "Meist getaggter Ort in Dubai", nl: "Meest getagde locatie in Dubai" },
-          { en: "Over 10 million hashtags", es: "Más de 10 millones de hashtags", de: "Über 10 Millionen Hashtags", nl: "Meer dan 10 miljoen hashtags" },
-          { en: "All of the above", es: "Todo lo anterior", de: "Alle oben genannten", nl: "Alle bovenstaande" }
-        ],
-        correct: 3,
-        explanation: {
-          en: "The Burj Khalifa is the most photographed building on Instagram, the most tagged location in Dubai, with over 10 million hashtags, making it a global social media phenomenon.",
-          es: "El Burj Khalifa es el edificio más fotografiado en Instagram, la ubicación más etiquetada en Dubai, con más de 10 millones de hashtags, convirtiéndolo en un fenómeno global de redes sociales.",
-          de: "Der Burj Khalifa ist das meist fotografierte Gebäude auf Instagram, der meist getaggte Ort in Dubai, mit über 10 Millionen Hashtags, was ihn zu einem globalen Social-Media-Phänomen macht.",
-          nl: "De Burj Khalifa is het meest gefotografeerde gebouw op Instagram, de meest getagde locatie in Dubai, met meer dan 10 miljoen hashtags, waarmee het een wereldwijd social media fenomeen is."
-        }
-      },
-      {
-        question: {
-          en: "What is the Burj Khalifa's contribution to Dubai's annual GDP?",
-          es: "¿Cuál es la contribución del Burj Khalifa al PIB anual de Dubai?",
-          de: "Was ist der Beitrag des Burj Khalifa zum jährlichen BIP Dubais?",
-          nl: "Wat is de bijdrage van de Burj Khalifa aan het jaarlijkse BBP van Dubai?"
-        },
-        options: [
-          { en: "$500 million", es: "$500 millones", de: "$500 Millionen", nl: "$500 miljoen" },
-          { en: "$1 billion", es: "$1 mil millones", de: "$1 Milliarde", nl: "$1 miljard" },
-          { en: "$2.5 billion", es: "$2,5 mil millones", de: "$2,5 Milliarden", nl: "$2,5 miljard" },
-          { en: "$5 billion", es: "$5 mil millones", de: "$5 Milliarden", nl: "$5 miljard" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Through tourism, real estate appreciation, business activity, and brand value, the Burj Khalifa contributes approximately $2.5 billion annually to Dubai's GDP.",
-          es: "A través del turismo, apreciación inmobiliaria, actividad comercial y valor de marca, el Burj Khalifa contribuye aproximadamente $2,5 mil millones anualmente al PIB de Dubai.",
-          de: "Durch Tourismus, Immobilienwertsteigerung, Geschäftstätigkeit und Markenwert trägt der Burj Khalifa jährlich etwa 2,5 Milliarden Dollar zum BIP Dubais bei.",
-          nl: "Door toerisme, vastgoedwaardestijging, zakelijke activiteit en merkwaarde draagt de Burj Khalifa jaarlijks ongeveer $2,5 miljard bij aan het BBP van Dubai."
-        }
-      },
-      {
-        question: {
-          en: "What was the global television audience for the Burj Khalifa's opening ceremony?",
-          es: "¿Cuál fue la audiencia televisiva global para la ceremonia de apertura del Burj Khalifa?",
-          de: "Wie groß war das weltweite Fernsehpublikum für die Eröffnungszeremonie des Burj Khalifa?",
-          nl: "Wat was het wereldwijde televisiepubliek voor de openingsceremonie van de Burj Khalifa?"
-        },
-        options: [
-          { en: "500 million viewers", es: "500 millones de espectadores", de: "500 Millionen Zuschauer", nl: "500 miljoen kijkers" },
-          { en: "750 million viewers", es: "750 millones de espectadores", de: "750 Millionen Zuschauer", nl: "750 miljoen kijkers" },
-          { en: "1 billion viewers", es: "1 mil millones de espectadores", de: "1 Milliarde Zuschauer", nl: "1 miljard kijkers" },
-          { en: "1.5 billion viewers", es: "1,5 mil millones de espectadores", de: "1,5 Milliarden Zuschauer", nl: "1,5 miljard kijkers" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "The Burj Khalifa's opening ceremony was broadcast live to approximately 1 billion viewers worldwide, making it one of the most-watched building inaugurations in history.",
-          es: "La ceremonia de apertura del Burj Khalifa se transmitió en vivo a aproximadamente 1 mil millones de espectadores en todo el mundo, convirtiéndola en una de las inauguraciones de edificios más vistas de la historia.",
-          de: "Die Eröffnungszeremonie des Burj Khalifa wurde live an etwa 1 Milliarde Zuschauer weltweit übertragen und war damit eine der meistgesehenen Gebäudeeröffnungen der Geschichte.",
-          nl: "De openingsceremonie van de Burj Khalifa werd live uitgezonden naar ongeveer 1 miljard kijkers wereldwijd, waarmee het een van de meest bekeken gebouwinwijdingen in de geschiedenis was."
-        }
-      },
-      {
-        question: {
-          en: "How many books and academic papers have been written about the Burj Khalifa's construction and cultural significance?",
-          es: "¿Cuántos libros y artículos académicos se han escrito sobre la construcción y el significado cultural del Burj Khalifa?",
-          de: "Wie viele Bücher und wissenschaftliche Arbeiten wurden über den Bau und die kulturelle Bedeutung des Burj Khalifa geschrieben?",
-          nl: "Hoeveel boeken en academische papers zijn er geschreven over de bouw en culturele betekenis van de Burj Khalifa?"
-        },
-        options: [
-          { en: "Over 50 publications", es: "Más de 50 publicaciones", de: "Über 50 Veröffentlichungen", nl: "Meer dan 50 publicaties" },
-          { en: "Over 150 publications", es: "Más de 150 publicaciones", de: "Über 150 Veröffentlichungen", nl: "Meer dan 150 publicaties" },
-          { en: "Over 300 publications", es: "Más de 300 publicaciones", de: "Über 300 Veröffentlichungen", nl: "Meer dan 300 publicaties" },
-          { en: "Over 500 publications", es: "Más de 500 publicaciones", de: "Über 500 Veröffentlichungen", nl: "Meer dan 500 publicaties" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Over 300 books, research papers, and academic studies have been published about the Burj Khalifa, covering engineering, architecture, economics, and cultural impact.",
-          es: "Se han publicado más de 300 libros, artículos de investigación y estudios académicos sobre el Burj Khalifa, cubriendo ingeniería, arquitectura, economía e impacto cultural.",
-          de: "Über 300 Bücher, Forschungsarbeiten und akademische Studien wurden über den Burj Khalifa veröffentlicht, die Ingenieurwesen, Architektur, Wirtschaft und kulturelle Auswirkungen abdecken.",
-          nl: "Meer dan 300 boeken, onderzoekspapers en academische studies zijn gepubliceerd over de Burj Khalifa, over engineering, architectuur, economie en culturele impact."
-        }
-      },
-      {
-        question: {
-          en: "What role does the Burj Khalifa play in Dubai's New Year celebrations annually?",
-          es: "¿Qué papel juega el Burj Khalifa en las celebraciones de Año Nuevo de Dubai anualmente?",
-          de: "Welche Rolle spielt der Burj Khalifa bei den jährlichen Neujahrsfeierlichkeiten in Dubai?",
-          nl: "Welke rol speelt de Burj Khalifa in de jaarlijkse nieuwjaarsfeesten van Dubai?"
-        },
-        options: [
-          { en: "Hosts largest fireworks show", es: "Organiza el mayor espectáculo de fuegos artificiales", de: "Veranstaltet größte Feuerwerksshow", nl: "Organiseert grootste vuurwerkshow" },
-          { en: "Centerpiece of global broadcasts", es: "Pieza central de transmisiones globales", de: "Mittelpunkt globaler Übertragungen", nl: "Middelpunt van wereldwijde uitzendingen" },
-          { en: "Attracts millions of spectators", es: "Atrae millones de espectadores", de: "Zieht Millionen von Zuschauern an", nl: "Trekt miljoenen toeschouwers" },
-          { en: "All of the above", es: "Todo lo anterior", de: "Alle oben genannten", nl: "Alle bovenstaande" }
-        ],
-        correct: 3,
-        explanation: {
-          en: "The Burj Khalifa serves as the centerpiece of Dubai's New Year celebrations, hosting spectacular fireworks displays that are broadcast globally and attract millions of spectators both on-site and worldwide.",
-          es: "El Burj Khalifa sirve como pieza central de las celebraciones de Año Nuevo de Dubai, organizando espectaculares espectáculos de fuegos artificiales que se transmiten globalmente y atraen millones de espectadores tanto en el sitio como en todo el mundo.",
-          de: "Der Burj Khalifa dient als Mittelpunkt der Neujahrsfeiern in Dubai und veranstaltet spektakuläre Feuerwerksshows, die weltweit übertragen werden und Millionen von Zuschauern vor Ort und weltweit anziehen.",
-          nl: "De Burj Khalifa dient als middelpunt van de nieuwjaarsfeesten in Dubai, met spectaculaire vuurwerkshows die wereldwijd worden uitgezonden en miljoenen toeschouwers ter plaatse en wereldwijd aantrekken."
-        }
-      },
-      {
-        question: {
-          en: "Which international music artists have performed special concerts projected on the Burj Khalifa's facade?",
-          es: "¿Qué artistas musicales internacionales han realizado conciertos especiales proyectados en la fachada del Burj Khalifa?",
-          de: "Welche internationalen Musikkünstler haben Sonderkonzerte aufgeführt, die auf die Fassade des Burj Khalifa projiziert wurden?",
-          nl: "Welke internationale muziekartisten hebben speciale concerten uitgevoerd die op de gevel van de Burj Khalifa werden geprojecteerd?"
-        },
-        options: [
-          { en: "Only local UAE artists", es: "Solo artistas locales de EAU", de: "Nur lokale VAE-Künstler", nl: "Alleen lokale VAE-artiesten" },
-          { en: "Arabic music stars exclusively", es: "Exclusivamente estrellas de música árabe", de: "Ausschließlich arabische Musikstars", nl: "Uitsluitend Arabische muzieksterren" },
-          { en: "Multiple international artists", es: "Múltiples artistas internacionales", de: "Mehrere internationale Künstler", nl: "Meerdere internationale artiesten" },
-          { en: "No concerts have been projected", es: "No se han proyectado conciertos", de: "Keine Konzerte wurden projiziert", nl: "Geen concerten zijn geprojecteerd" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "The Burj Khalifa has featured projection concerts by multiple international artists including Andrea Bocelli, Lang Lang, and other world-renowned performers as part of cultural celebrations and special events.",
-          es: "El Burj Khalifa ha presentado conciertos de proyección de múltiples artistas internacionales incluyendo Andrea Bocelli, Lang Lang, y otros artistas de renombre mundial como parte de celebraciones culturales y eventos especiales.",
-          de: "Der Burj Khalifa hat Projektionskonzerte mehrerer internationaler Künstler präsentiert, darunter Andrea Bocelli, Lang Lang und andere weltberühmte Interpreten im Rahmen kultureller Feierlichkeiten und besonderer Veranstaltungen.",
-          nl: "De Burj Khalifa heeft projectieconcerten gepresenteerd van meerdere internationale artiesten waaronder Andrea Bocelli, Lang Lang en andere wereldberoemde artiesten als onderdeel van culturele vieringen en speciale evenementen."
-        }
-      },
-      {
-        question: {
-          en: "How has the Burj Khalifa been used as a platform for charitable and social causes?",
-          es: "¿Cómo se ha utilizado el Burj Khalifa como plataforma para causas benéficas y sociales?",
-          de: "Wie wurde der Burj Khalifa als Plattform für wohltätige und soziale Zwecke genutzt?",
-          nl: "Hoe is de Burj Khalifa gebruikt als platform voor goede doelen en sociale kwesties?"
-        },
-        options: [
-          { en: "Cancer awareness campaigns", es: "Campañas de concienciación sobre el cáncer", de: "Krebsaufklärungskampagnen", nl: "Kankervoorlichtingscampagnes" },
-          { en: "Environmental conservation messages", es: "Mensajes de conservación ambiental", de: "Umweltschutzbotschaften", nl: "Milieubeschermingsboodschappen" },
-          { en: "International solidarity displays", es: "Exhibiciones de solidaridad internacional", de: "Internationale Solidaritätsbekundungen", nl: "Internationale solidariteitsbetuigingen" },
-          { en: "All of the above", es: "Todo lo anterior", de: "Alle oben genannten", nl: "Alle bovenstaande" }
-        ],
-        correct: 3,
-        explanation: {
-          en: "The Burj Khalifa has been used extensively for charitable causes including breast cancer awareness (pink illumination), Earth Hour environmental campaigns, and solidarity displays for global humanitarian crises and disasters.",
-          es: "El Burj Khalifa se ha utilizado extensamente para causas benéficas incluyendo concienciación sobre cáncer de mama (iluminación rosa), campañas ambientales de la Hora del Planeta, y exhibiciones de solidaridad para crisis humanitarias y desastres globales.",
-          de: "Der Burj Khalifa wurde ausgiebig für wohltätige Zwecke genutzt, darunter Brustkrebsbewusstsein (rosa Beleuchtung), Earth Hour-Umweltkampagnen und Solidaritätsbekundungen für globale humanitäre Krisen und Katastrophen.",
-          nl: "De Burj Khalifa is uitgebreid gebruikt voor goede doelen waaronder borstkankervoorlichting (roze verlichting), Earth Hour milieucampagnes, en solidariteitsbetuigingen voor wereldwijde humanitaire crises en rampen."
-        }
-      },
-      {
-        question: {
-          en: "What impact has the Burj Khalifa had on engineering education globally?",
-          es: "¿Qué impacto ha tenido el Burj Khalifa en la educación de ingeniería a nivel global?",
-          de: "Welchen Einfluss hatte der Burj Khalifa auf die Ingenieurausbildung weltweit?",
-          nl: "Welke impact heeft de Burj Khalifa gehad op engineering onderwijs wereldwijd?"
-        },
-        options: [
-          { en: "Featured in university curricula", es: "Incluido en planes de estudio universitarios", de: "In Universitätslehrplänen aufgenommen", nl: "Opgenomen in universitaire curricula" },
-          { en: "Case study in engineering courses", es: "Estudio de caso en cursos de ingeniería", de: "Fallstudie in Ingenieurkursen", nl: "Casestudy in engineering cursussen" },
-          { en: "Inspired new research areas", es: "Inspiró nuevas áreas de investigación", de: "Inspirierte neue Forschungsbereiche", nl: "Inspireerde nieuwe onderzoeksgebieden" },
-          { en: "All of the above", es: "Todo lo anterior", de: "Alle oben genannten", nl: "Alle bovenstaande" }
-        ],
-        correct: 3,
-        explanation: {
-          en: "The Burj Khalifa is extensively featured in structural engineering curricula worldwide, serves as a primary case study for super-tall building design, and has inspired new research in areas like wind engineering, high-strength concrete, and vertical transportation systems.",
-          es: "El Burj Khalifa aparece extensamente en planes de estudio de ingeniería estructural en todo el mundo, sirve como estudio de caso principal para el diseño de edificios super altos, y ha inspirado nueva investigación en áreas como ingeniería del viento, concreto de alta resistencia, y sistemas de transporte vertical.",
-          de: "Der Burj Khalifa wird ausführlich in Lehrplänen für Bauingenieurwesen weltweit behandelt, dient als primäre Fallstudie für den Entwurf superhöher Gebäude und hat neue Forschung in Bereichen wie Windtechnik, Hochleistungsbeton und vertikale Transportsysteme inspiriert.",
-          nl: "De Burj Khalifa is uitgebreid opgenomen in curricula voor constructieve engineering wereldwijd, dient als primaire casestudy voor het ontwerp van superhoge gebouwen, en heeft nieuw onderzoek geïnspireerd op gebieden als windengineering, hoge-sterkte beton, en verticale transportsystemen."
-        }
-      },
-      {
-        question: {
-          en: "What percentage of Dubai's postcard and souvenir sales feature the Burj Khalifa?",
-          es: "¿Qué porcentaje de las ventas de postales y souvenirs de Dubai presenta el Burj Khalifa?",
-          de: "Wie viel Prozent der Postkarten- und Souvenirverkäufe in Dubai zeigen den Burj Khalifa?",
-          nl: "Welk percentage van de ansichtkaart- en souvenirverkopen van Dubai toont de Burj Khalifa?"
-        },
-        options: [
-          { en: "Over 50%", es: "Más del 50%", de: "Über 50%", nl: "Meer dan 50%" },
-          { en: "Over 70%", es: "Más del 70%", de: "Über 70%", nl: "Meer dan 70%" },
-          { en: "Over 85%", es: "Más del 85%", de: "Über 85%", nl: "Meer dan 85%" },
-          { en: "Over 95%", es: "Más del 95%", de: "Über 95%", nl: "Meer dan 95%" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "The Burj Khalifa appears on over 85% of Dubai's tourist postcards, souvenirs, and merchandise, making it the single most represented landmark in Dubai's tourism industry and demonstrating its overwhelming dominance as the city's cultural icon.",
-          es: "El Burj Khalifa aparece en más del 85% de las postales turísticas, souvenirs y mercancía de Dubai, convirtiéndolo en el hito más representado en la industria turística de Dubai y demostrando su dominio abrumador como ícono cultural de la ciudad.",
-          de: "Der Burj Khalifa erscheint auf über 85% der Touristen-Postkarten, Souvenirs und Merchandise von Dubai und ist damit das am häufigsten dargestellte Wahrzeichen in Dubais Tourismusindustrie, was seine überwältigende Dominanz als kulturelles Symbol der Stadt demonstriert.",
-          nl: "De Burj Khalifa verschijnt op meer dan 85% van de toeristische ansichtkaarten, souvenirs en merchandise van Dubai, waarmee het het meest vertegenwoordigde landmark in Dubai's toerisme-industrie is en zijn overweldigende dominantie als cultureel icoon van de stad aantoont."
-        }
-      },
-      {
-        question: {
-          en: "How has the Burj Khalifa influenced urban planning in other Gulf cities?",
-          es: "¿Cómo ha influido el Burj Khalifa en la planificación urbana en otras ciudades del Golfo?",
-          de: "Wie hat der Burj Khalifa die Stadtplanung in anderen Golfstädten beeinflusst?",
-          nl: "Hoe heeft de Burj Khalifa stadsplanning in andere Golfsteden beïnvloed?"
-        },
-        options: [
-          { en: "Inspired rival supertall projects", es: "Inspiró proyectos super altos rivales", de: "Inspirierte rivalisierende Superhochhäuser", nl: "Inspireerde rivaliserende superhoge projecten" },
-          { en: "Promoted mixed-use developments", es: "Promovió desarrollos de uso mixto", de: "Förderte gemischt genutzte Entwicklungen", nl: "Bevorderde gemengde ontwikkelingen" },
-          { en: "Established iconic architecture trend", es: "Estableció tendencia de arquitectura icónica", de: "Etablierte ikonischen Architekturtrend", nl: "Vestigde iconische architectuurtrend" },
-          { en: "All of the above", es: "Todo lo anterior", de: "Alle oben genannten", nl: "Alle bovenstaande" }
-        ],
-        correct: 3,
-        explanation: {
-          en: "The Burj Khalifa's success inspired numerous supertall projects across the Gulf region including Kingdom Tower in Jeddah, promoted integrated mixed-use developments combining residential, commercial, and hospitality, and established the trend of iconic signature architecture as essential for modern Gulf cities.",
-          es: "El éxito del Burj Khalifa inspiró numerosos proyectos super altos en toda la región del Golfo incluyendo Kingdom Tower en Jeddah, promovió desarrollos integrados de uso mixto combinando residencial, comercial y hospitalidad, y estableció la tendencia de arquitectura icónica distintiva como esencial para las ciudades modernas del Golfo.",
-          de: "Der Erfolg des Burj Khalifa inspirierte zahlreiche Superhochhäuser in der gesamten Golfregion einschließlich des Kingdom Tower in Dschidda, förderte integrierte gemischt genutzte Entwicklungen, die Wohn-, Geschäfts- und Gastgewerbe kombinieren, und etablierte den Trend ikonischer Signaturarchitektur als wesentlich für moderne Golfstädte.",
-          nl: "Het succes van de Burj Khalifa inspireerde talrijke superhoge projecten in de hele Golfregio waaronder Kingdom Tower in Jeddah, bevorderde geïntegreerde gemengde ontwikkelingen die residentieel, commercieel en horeca combineren, en vestigde de trend van iconische kenmerkende architectuur als essentieel voor moderne Golfsteden."
-        }
-      },
-      {
-        question: {
-          en: "What special tribute did the Burj Khalifa display after the death of Queen Elizabeth II in 2022?",
-          es: "¿Qué tributo especial mostró el Burj Khalifa después de la muerte de la Reina Isabel II en 2022?",
-          de: "Welche besondere Ehrung zeigte der Burj Khalifa nach dem Tod von Königin Elizabeth II. im Jahr 2022?",
-          nl: "Welk speciaal eerbetoon toonde de Burj Khalifa na de dood van Koningin Elizabeth II in 2022?"
-        },
-        options: [
-          { en: "Portrait projection of the Queen", es: "Proyección de retrato de la Reina", de: "Porträtprojektion der Königin", nl: "Portretprojectie van de Koningin" },
-          { en: "British flag illumination", es: "Iluminación de la bandera británica", de: "Britische Flaggenbeleuchtung", nl: "Britse vlagverlichting" },
-          { en: "Black mourning display", es: "Exhibición de luto negro", de: "Schwarze Traueranzeige", nl: "Zwarte rouwbetuiging" },
-          { en: "All of the above", es: "Todo lo anterior", de: "Alle oben genannten", nl: "Alle bovenstaande" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Following Queen Elizabeth II's death in September 2022, the Burj Khalifa displayed a respectful portrait projection of Her Majesty, demonstrating Dubai's international diplomatic relations and the tower's role as a platform for global tributes.",
-          es: "Tras la muerte de la Reina Isabel II en septiembre de 2022, el Burj Khalifa mostró una proyección respetuosa del retrato de Su Majestad, demostrando las relaciones diplomáticas internacionales de Dubai y el papel de la torre como plataforma para tributos globales.",
-          de: "Nach dem Tod von Königin Elizabeth II. im September 2022 zeigte der Burj Khalifa eine respektvolle Porträtprojektion Ihrer Majestät, was Dubais internationale diplomatische Beziehungen und die Rolle des Turms als Plattform für globale Ehrungen demonstrierte.",
-          nl: "Na de dood van Koningin Elizabeth II in september 2022 toonde de Burj Khalifa een respectvolle portretprojectie van Hare Majesteit, wat de internationale diplomatieke betrekkingen van Dubai en de rol van de toren als platform voor wereldwijde eerbetonen aantoonde."
-        }
-      },
-      {
-        question: {
-          en: "How many LED displays and light shows does the Burj Khalifa perform annually for various cultural events?",
-          es: "¿Cuántas exhibiciones LED y espectáculos de luces realiza el Burj Khalifa anualmente para varios eventos culturales?",
-          de: "Wie viele LED-Displays und Lichtshows führt der Burj Khalifa jährlich für verschiedene kulturelle Veranstaltungen durch?",
-          nl: "Hoeveel LED-displays en lichtshows voert de Burj Khalifa jaarlijks uit voor verschillende culturele evenementen?"
-        },
-        options: [
-          { en: "Over 50 shows", es: "Más de 50 espectáculos", de: "Über 50 Shows", nl: "Meer dan 50 shows" },
-          { en: "Over 100 shows", es: "Más de 100 espectáculos", de: "Über 100 Shows", nl: "Meer dan 100 shows" },
-          { en: "Over 200 shows", es: "Más de 200 espectáculos", de: "Über 200 Shows", nl: "Meer dan 200 shows" },
-          { en: "Over 300 shows", es: "Más de 300 espectáculos", de: "Über 300 Shows", nl: "Meer dan 300 shows" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "The Burj Khalifa hosts over 200 LED light shows and displays annually, celebrating events ranging from National Day, Eid, New Year, international holidays, sporting victories, and special cultural commemorations, making it one of the world's most active architectural display platforms.",
-          es: "El Burj Khalifa organiza más de 200 espectáculos y exhibiciones de luces LED anualmente, celebrando eventos que van desde el Día Nacional, Eid, Año Nuevo, fiestas internacionales, victorias deportivas y conmemoraciones culturales especiales, convirtiéndolo en una de las plataformas de exhibición arquitectónica más activas del mundo.",
-          de: "Der Burj Khalifa veranstaltet jährlich über 200 LED-Lichtshows und Displays, die Ereignisse vom Nationalfeiertag über Eid, Neujahr, internationale Feiertage, Sportsiege bis hin zu besonderen kulturellen Gedenkfeiern feiern, was ihn zu einer der aktivsten architektonischen Ausstellungsplattformen der Welt macht.",
-          nl: "De Burj Khalifa organiseert jaarlijks meer dan 200 LED-lichtshows en displays, ter viering van evenementen variërend van Nationale Feestdag, Eid, Nieuwjaar, internationale feestdagen, sportieve overwinningen en speciale culturele herdenkingen, waarmee het een van 's werelds meest actieve architectonische displayplatforms is."
-        }
-      },
-      {
-        question: {
-          en: "What distinction does the Burj Khalifa hold in terms of wedding proposals and marriage ceremonies?",
-          es: "¿Qué distinción tiene el Burj Khalifa en términos de propuestas de matrimonio y ceremonias nupciales?",
-          de: "Welche Auszeichnung hat der Burj Khalifa in Bezug auf Heiratsanträge und Hochzeitszeremonien?",
-          nl: "Welke onderscheiding heeft de Burj Khalifa wat betreft huwelijksaanzoeken en huwelijksceremonies?"
-        },
-        options: [
-          { en: "Most popular proposal location in Middle East", es: "Ubicación de propuesta más popular en Medio Oriente", de: "Beliebtester Antragort im Nahen Osten", nl: "Populairste aanzoeklocatie in het Midden-Oosten" },
-          { en: "Hosts exclusive sky-high ceremonies", es: "Organiza ceremonias exclusivas en las alturas", de: "Veranstaltet exklusive Hochzeitszeremonien in luftiger Höhe", nl: "Organiseert exclusieve ceremonies in de lucht" },
-          { en: "Featured in numerous wedding films", es: "Aparece en numerosas películas de bodas", de: "In zahlreichen Hochzeitsfilmen zu sehen", nl: "Verschijnt in talrijke bruiloftsfilms" },
-          { en: "All of the above", es: "Todo lo anterior", de: "Alle oben genannten", nl: "Alle bovenstaande" }
-        ],
-        correct: 3,
-        explanation: {
-          en: "The Burj Khalifa has become the Middle East's most popular location for marriage proposals, offers exclusive ceremony packages at its observation decks and At.mosphere restaurant, and is featured in countless wedding films and photographs, making it an iconic romantic destination with thousands of proposals occurring annually.",
-          es: "El Burj Khalifa se ha convertido en la ubicación más popular de Medio Oriente para propuestas de matrimonio, ofrece paquetes de ceremonia exclusivos en sus miradores y restaurante At.mosphere, y aparece en innumerables películas y fotografías de bodas, convirtiéndolo en un destino romántico icónico con miles de propuestas que ocurren anualmente.",
-          de: "Der Burj Khalifa ist zum beliebtesten Ort im Nahen Osten für Heiratsanträge geworden, bietet exklusive Zeremonienpakete auf seinen Aussichtsplattformen und im At.mosphere-Restaurant an und ist in unzähligen Hochzeitsfilmen und -fotografien zu sehen, was ihn zu einem ikonischen romantischen Ziel mit jährlich Tausenden von Anträgen macht.",
-          nl: "De Burj Khalifa is de populairste locatie in het Midden-Oosten geworden voor huwelijksaanzoeken, biedt exclusieve ceremoniepakketten op zijn observatiedekken en At.mosphere restaurant, en verschijnt in talloze bruiloftsfilms en foto's, waarmee het een iconische romantische bestemming is met duizenden aanzoeken die jaarlijks plaatsvinden."
-        }
-      },
-      {
-        question: {
-          en: "What environmental awareness initiative did the Burj Khalifa participate in by dimming its lights?",
-          es: "¿En qué iniciativa de concienciación ambiental participó el Burj Khalifa al atenuar sus luces?",
-          de: "An welcher Umweltbewusstseinsinitiative nahm der Burj Khalifa teil, indem er seine Lichter dimmt?",
-          nl: "Aan welk milieuvoorzieningsinitiatief nam de Burj Khalifa deel door zijn lichten te dimmen?"
-        },
-        options: [
-          { en: "Earth Hour", es: "Hora del Planeta", de: "Earth Hour", nl: "Earth Hour" },
-          { en: "World Environment Day", es: "Día Mundial del Medio Ambiente", de: "Weltumwelttag", nl: "Wereldmilieudag" },
-          { en: "Climate Action Week", es: "Semana de Acción Climática", de: "Klimaaktionswoche", nl: "Klimaatactieweek" },
-          { en: "All of the above", es: "Todo lo anterior", de: "Alle oben genannten", nl: "Alle bovenstaande" }
-        ],
-        correct: 3,
-        explanation: {
-          en: "The Burj Khalifa actively participates in multiple environmental initiatives including Earth Hour (annual lights-off event), World Environment Day celebrations with green displays, and Climate Action Week campaigns, using its prominent visibility to promote global sustainability messages and environmental consciousness to millions worldwide.",
-          es: "El Burj Khalifa participa activamente en múltiples iniciativas ambientales incluyendo la Hora del Planeta (evento anual de apagar luces), celebraciones del Día Mundial del Medio Ambiente con exhibiciones verdes, y campañas de la Semana de Acción Climática, usando su visibilidad prominente para promover mensajes de sostenibilidad global y conciencia ambiental a millones en todo el mundo.",
-          de: "Der Burj Khalifa beteiligt sich aktiv an mehreren Umweltinitiativen, darunter Earth Hour (jährliche Licht-aus-Veranstaltung), Weltumwelttagsfeiern mit grünen Displays und Klimaaktionswochenkampagnen, und nutzt seine prominente Sichtbarkeit, um globale Nachhaltigkeitsbotschaften und Umweltbewusstsein an Millionen weltweit zu fördern.",
-          nl: "De Burj Khalifa neemt actief deel aan meerdere milieuinitiatieven waaronder Earth Hour (jaarlijks licht-uit evenement), Wereldmilieudag vieringen met groene displays, en Klimaatactieweek campagnes, waarbij zijn prominente zichtbaarheid wordt gebruikt om wereldwijde duurzaamheidsboodschappen en milieubewustzijn te bevorderen bij miljoenen wereldwijd."
-        }
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
       }
-    ,
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Burj Khalifa",
+      "es": "Pregunta 2 sobre Burj Khalifa",
+      "de": "Frage 2 über Burj Khalifa",
+      "nl": "Vraag 2 over Burj Khalifa"
+    },
+    "options": [
       {
-        question: {
-                  "en": "When was Burj Khalifa completed?",
-                  "es": "When was Burj Khalifa completed?",
-                  "de": "When was Burj Khalifa completed?",
-                  "nl": "When was Burj Khalifa completed?"
-        },
-        options: [
-          {
-                    "en": "In the correct year",
-                    "es": "In the correct year",
-                    "de": "In the correct year",
-                    "nl": "In the correct year"
-          },
-          {
-                    "en": "10 years earlier",
-                    "es": "10 years earlier",
-                    "de": "10 years earlier",
-                    "nl": "10 years earlier"
-          },
-          {
-                    "en": "10 years later",
-                    "es": "10 years later",
-                    "de": "10 years later",
-                    "nl": "10 years later"
-          },
-          {
-                    "en": "20 years later",
-                    "es": "20 years later",
-                    "de": "20 years later",
-                    "nl": "20 years later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Burj Khalifa was completed in its historically accurate year.",
-                  "es": "Burj Khalifa was completed in its historically accurate year.",
-                  "de": "Burj Khalifa was completed in its historically accurate year.",
-                  "nl": "Burj Khalifa was completed in its historically accurate year."
-        }
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
       },
       {
-        question: {
-                  "en": "What is the primary material used in Burj Khalifa?",
-                  "es": "What is the primary material used in Burj Khalifa?",
-                  "de": "What is the primary material used in Burj Khalifa?",
-                  "nl": "What is the primary material used in Burj Khalifa?"
-        },
-        options: [
-          {
-                    "en": "The correct material",
-                    "es": "The correct material",
-                    "de": "The correct material",
-                    "nl": "The correct material"
-          },
-          {
-                    "en": "Wood",
-                    "es": "Wood",
-                    "de": "Wood",
-                    "nl": "Wood"
-          },
-          {
-                    "en": "Glass",
-                    "es": "Glass",
-                    "de": "Glass",
-                    "nl": "Glass"
-          },
-          {
-                    "en": "Concrete",
-                    "es": "Concrete",
-                    "de": "Concrete",
-                    "nl": "Concrete"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Burj Khalifa was primarily constructed using its characteristic material.",
-                  "es": "Burj Khalifa was primarily constructed using its characteristic material.",
-                  "de": "Burj Khalifa was primarily constructed using its characteristic material.",
-                  "nl": "Burj Khalifa was primarily constructed using its characteristic material."
-        }
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
       },
       {
-        question: {
-                  "en": "How tall is Burj Khalifa?",
-                  "es": "How tall is Burj Khalifa?",
-                  "de": "How tall is Burj Khalifa?",
-                  "nl": "How tall is Burj Khalifa?"
-        },
-        options: [
-          {
-                    "en": "The correct height",
-                    "es": "The correct height",
-                    "de": "The correct height",
-                    "nl": "The correct height"
-          },
-          {
-                    "en": "Half the height",
-                    "es": "Half the height",
-                    "de": "Half the height",
-                    "nl": "Half the height"
-          },
-          {
-                    "en": "Double the height",
-                    "es": "Double the height",
-                    "de": "Double the height",
-                    "nl": "Double the height"
-          },
-          {
-                    "en": "Triple the height",
-                    "es": "Triple the height",
-                    "de": "Triple the height",
-                    "nl": "Triple the height"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Burj Khalifa stands at its iconic height.",
-                  "es": "Burj Khalifa stands at its iconic height.",
-                  "de": "Burj Khalifa stands at its iconic height.",
-                  "nl": "Burj Khalifa stands at its iconic height."
-        }
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
       },
       {
-        question: {
-                  "en": "Who was the main architect of Burj Khalifa?",
-                  "es": "Who was the main architect of Burj Khalifa?",
-                  "de": "Who was the main architect of Burj Khalifa?",
-                  "nl": "Who was the main architect of Burj Khalifa?"
-        },
-        options: [
-          {
-                    "en": "The correct architect",
-                    "es": "The correct architect",
-                    "de": "The correct architect",
-                    "nl": "The correct architect"
-          },
-          {
-                    "en": "Frank Lloyd Wright",
-                    "es": "Frank Lloyd Wright",
-                    "de": "Frank Lloyd Wright",
-                    "nl": "Frank Lloyd Wright"
-          },
-          {
-                    "en": "Le Corbusier",
-                    "es": "Le Corbusier",
-                    "de": "Le Corbusier",
-                    "nl": "Le Corbusier"
-          },
-          {
-                    "en": "Antoni Gaudí",
-                    "es": "Antoni Gaudí",
-                    "de": "Antoni Gaudí",
-                    "nl": "Antoni Gaudí"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Burj Khalifa was designed by its renowned architect.",
-                  "es": "Burj Khalifa was designed by its renowned architect.",
-                  "de": "Burj Khalifa was designed by its renowned architect.",
-                  "nl": "Burj Khalifa was designed by its renowned architect."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the original purpose of Burj Khalifa?",
-                  "es": "What was the original purpose of Burj Khalifa?",
-                  "de": "What was the original purpose of Burj Khalifa?",
-                  "nl": "What was the original purpose of Burj Khalifa?"
-        },
-        options: [
-          {
-                    "en": "Its correct purpose",
-                    "es": "Its correct purpose",
-                    "de": "Its correct purpose",
-                    "nl": "Its correct purpose"
-          },
-          {
-                    "en": "Military defense",
-                    "es": "Military defense",
-                    "de": "Military defense",
-                    "nl": "Military defense"
-          },
-          {
-                    "en": "Religious worship",
-                    "es": "Religious worship",
-                    "de": "Religious worship",
-                    "nl": "Religious worship"
-          },
-          {
-                    "en": "Royal residence",
-                    "es": "Royal residence",
-                    "de": "Royal residence",
-                    "nl": "Royal residence"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Burj Khalifa was originally built for its specific historical purpose.",
-                  "es": "Burj Khalifa was originally built for its specific historical purpose.",
-                  "de": "Burj Khalifa was originally built for its specific historical purpose.",
-                  "nl": "Burj Khalifa was originally built for its specific historical purpose."
-        }
-      ,
-      {
-        question: {
-                  "en": "In which century was Burj Khalifa built?",
-                  "es": "In which century was Burj Khalifa built?",
-                  "de": "In which century was Burj Khalifa built?",
-                  "nl": "In which century was Burj Khalifa built?"
-        },
-        options: [
-          {
-                    "en": "Correct century",
-                    "es": "Correct century",
-                    "de": "Correct century",
-                    "nl": "Correct century"
-          },
-          {
-                    "en": "One century earlier",
-                    "es": "One century earlier",
-                    "de": "One century earlier",
-                    "nl": "One century earlier"
-          },
-          {
-                    "en": "One century later",
-                    "es": "One century later",
-                    "de": "One century later",
-                    "nl": "One century later"
-          },
-          {
-                    "en": "Two centuries later",
-                    "es": "Two centuries later",
-                    "de": "Two centuries later",
-                    "nl": "Two centuries later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Burj Khalifa is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Burj Khalifa es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Burj Khalifa ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Burj Khalifa is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "How long did it take to build Burj Khalifa?",
-                  "es": "How long did it take to build Burj Khalifa?",
-                  "de": "How long did it take to build Burj Khalifa?",
-                  "nl": "How long did it take to build Burj Khalifa?"
-        },
-        options: [
-          {
-                    "en": "Correct duration",
-                    "es": "Correct duration",
-                    "de": "Correct duration",
-                    "nl": "Correct duration"
-          },
-          {
-                    "en": "Half the time",
-                    "es": "Half the time",
-                    "de": "Half the time",
-                    "nl": "Half the time"
-          },
-          {
-                    "en": "Double the time",
-                    "es": "Double the time",
-                    "de": "Double the time",
-                    "nl": "Double the time"
-          },
-          {
-                    "en": "Triple the time",
-                    "es": "Triple the time",
-                    "de": "Triple the time",
-                    "nl": "Triple the time"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Burj Khalifa is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Burj Khalifa es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Burj Khalifa ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Burj Khalifa is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Which ruler commissioned Burj Khalifa?",
-                  "es": "Which ruler commissioned Burj Khalifa?",
-                  "de": "Which ruler commissioned Burj Khalifa?",
-                  "nl": "Which ruler commissioned Burj Khalifa?"
-        },
-        options: [
-          {
-                    "en": "Correct ruler",
-                    "es": "Correct ruler",
-                    "de": "Correct ruler",
-                    "nl": "Correct ruler"
-          },
-          {
-                    "en": "Previous ruler",
-                    "es": "Previous ruler",
-                    "de": "Previous ruler",
-                    "nl": "Previous ruler"
-          },
-          {
-                    "en": "Next ruler",
-                    "es": "Next ruler",
-                    "de": "Next ruler",
-                    "nl": "Next ruler"
-          },
-          {
-                    "en": "Famous contemporary",
-                    "es": "Famous contemporary",
-                    "de": "Famous contemporary",
-                    "nl": "Famous contemporary"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Burj Khalifa is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Burj Khalifa es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Burj Khalifa ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Burj Khalifa is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What year did construction begin on Burj Khalifa?",
-                  "es": "What year did construction begin on Burj Khalifa?",
-                  "de": "What year did construction begin on Burj Khalifa?",
-                  "nl": "What year did construction begin on Burj Khalifa?"
-        },
-        options: [
-          {
-                    "en": "Correct year",
-                    "es": "Correct year",
-                    "de": "Correct year",
-                    "nl": "Correct year"
-          },
-          {
-                    "en": "10 years earlier",
-                    "es": "10 years earlier",
-                    "de": "10 years earlier",
-                    "nl": "10 years earlier"
-          },
-          {
-                    "en": "10 years later",
-                    "es": "10 years later",
-                    "de": "10 years later",
-                    "nl": "10 years later"
-          },
-          {
-                    "en": "20 years later",
-                    "es": "20 years later",
-                    "de": "20 years later",
-                    "nl": "20 years later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Burj Khalifa is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Burj Khalifa es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Burj Khalifa ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Burj Khalifa is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What year was Burj Khalifa completed?",
-                  "es": "What year was Burj Khalifa completed?",
-                  "de": "What year was Burj Khalifa completed?",
-                  "nl": "What year was Burj Khalifa completed?"
-        },
-        options: [
-          {
-                    "en": "Correct year",
-                    "es": "Correct year",
-                    "de": "Correct year",
-                    "nl": "Correct year"
-          },
-          {
-                    "en": "5 years earlier",
-                    "es": "5 years earlier",
-                    "de": "5 years earlier",
-                    "nl": "5 years earlier"
-          },
-          {
-                    "en": "5 years later",
-                    "es": "5 years later",
-                    "de": "5 years later",
-                    "nl": "5 years later"
-          },
-          {
-                    "en": "15 years later",
-                    "es": "15 years later",
-                    "de": "15 years later",
-                    "nl": "15 years later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Burj Khalifa is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Burj Khalifa es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Burj Khalifa ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Burj Khalifa is historisch accuraat en goed gedocumenteerd."
-        }
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Burj Khalifa",
+      "es": "Pregunta 3 sobre Burj Khalifa",
+      "de": "Frage 3 über Burj Khalifa",
+      "nl": "Vraag 3 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
       }
-    ]
-  };
-
-  // Export for use in the quiz application
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level9;
-  } else if (typeof window !== 'undefined') {
-    window.level9 = level9;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Burj Khalifa",
+      "es": "Pregunta 4 sobre Burj Khalifa",
+      "de": "Frage 4 über Burj Khalifa",
+      "nl": "Vraag 4 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Burj Khalifa",
+      "es": "Pregunta 5 sobre Burj Khalifa",
+      "de": "Frage 5 über Burj Khalifa",
+      "nl": "Vraag 5 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Burj Khalifa",
+      "es": "Pregunta 6 sobre Burj Khalifa",
+      "de": "Frage 6 über Burj Khalifa",
+      "nl": "Vraag 6 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Burj Khalifa",
+      "es": "Pregunta 7 sobre Burj Khalifa",
+      "de": "Frage 7 über Burj Khalifa",
+      "nl": "Vraag 7 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Burj Khalifa",
+      "es": "Pregunta 8 sobre Burj Khalifa",
+      "de": "Frage 8 über Burj Khalifa",
+      "nl": "Vraag 8 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Burj Khalifa",
+      "es": "Pregunta 9 sobre Burj Khalifa",
+      "de": "Frage 9 über Burj Khalifa",
+      "nl": "Vraag 9 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Burj Khalifa",
+      "es": "Pregunta 10 sobre Burj Khalifa",
+      "de": "Frage 10 über Burj Khalifa",
+      "nl": "Vraag 10 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Burj Khalifa",
+      "es": "Pregunta 11 sobre Burj Khalifa",
+      "de": "Frage 11 über Burj Khalifa",
+      "nl": "Vraag 11 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Burj Khalifa",
+      "es": "Pregunta 12 sobre Burj Khalifa",
+      "de": "Frage 12 über Burj Khalifa",
+      "nl": "Vraag 12 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Burj Khalifa",
+      "es": "Pregunta 13 sobre Burj Khalifa",
+      "de": "Frage 13 über Burj Khalifa",
+      "nl": "Vraag 13 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Burj Khalifa",
+      "es": "Pregunta 14 sobre Burj Khalifa",
+      "de": "Frage 14 über Burj Khalifa",
+      "nl": "Vraag 14 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Burj Khalifa",
+      "es": "Pregunta 15 sobre Burj Khalifa",
+      "de": "Frage 15 über Burj Khalifa",
+      "nl": "Vraag 15 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Burj Khalifa",
+      "es": "Pregunta 16 sobre Burj Khalifa",
+      "de": "Frage 16 über Burj Khalifa",
+      "nl": "Vraag 16 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Burj Khalifa",
+      "es": "Pregunta 17 sobre Burj Khalifa",
+      "de": "Frage 17 über Burj Khalifa",
+      "nl": "Vraag 17 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Burj Khalifa",
+      "es": "Pregunta 18 sobre Burj Khalifa",
+      "de": "Frage 18 über Burj Khalifa",
+      "nl": "Vraag 18 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Burj Khalifa",
+      "es": "Pregunta 19 sobre Burj Khalifa",
+      "de": "Frage 19 über Burj Khalifa",
+      "nl": "Vraag 19 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Burj Khalifa",
+      "es": "Pregunta 20 sobre Burj Khalifa",
+      "de": "Frage 20 über Burj Khalifa",
+      "nl": "Vraag 20 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Burj Khalifa",
+      "es": "Pregunta 21 sobre Burj Khalifa",
+      "de": "Frage 21 über Burj Khalifa",
+      "nl": "Vraag 21 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Burj Khalifa",
+      "es": "Pregunta 22 sobre Burj Khalifa",
+      "de": "Frage 22 über Burj Khalifa",
+      "nl": "Vraag 22 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Burj Khalifa",
+      "es": "Pregunta 23 sobre Burj Khalifa",
+      "de": "Frage 23 über Burj Khalifa",
+      "nl": "Vraag 23 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Burj Khalifa",
+      "es": "Pregunta 24 sobre Burj Khalifa",
+      "de": "Frage 24 über Burj Khalifa",
+      "nl": "Vraag 24 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Burj Khalifa",
+      "es": "Pregunta 25 sobre Burj Khalifa",
+      "de": "Frage 25 über Burj Khalifa",
+      "nl": "Vraag 25 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Burj Khalifa",
+      "es": "Pregunta 26 sobre Burj Khalifa",
+      "de": "Frage 26 über Burj Khalifa",
+      "nl": "Vraag 26 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Burj Khalifa",
+      "es": "Pregunta 27 sobre Burj Khalifa",
+      "de": "Frage 27 über Burj Khalifa",
+      "nl": "Vraag 27 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Burj Khalifa",
+      "es": "Pregunta 28 sobre Burj Khalifa",
+      "de": "Frage 28 über Burj Khalifa",
+      "nl": "Vraag 28 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Burj Khalifa",
+      "es": "Pregunta 29 sobre Burj Khalifa",
+      "de": "Frage 29 über Burj Khalifa",
+      "nl": "Vraag 29 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Burj Khalifa",
+      "es": "Pregunta 30 sobre Burj Khalifa",
+      "de": "Frage 30 über Burj Khalifa",
+      "nl": "Vraag 30 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Burj Khalifa",
+      "es": "Pregunta 31 sobre Burj Khalifa",
+      "de": "Frage 31 über Burj Khalifa",
+      "nl": "Vraag 31 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Burj Khalifa",
+      "es": "Pregunta 32 sobre Burj Khalifa",
+      "de": "Frage 32 über Burj Khalifa",
+      "nl": "Vraag 32 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Burj Khalifa",
+      "es": "Pregunta 33 sobre Burj Khalifa",
+      "de": "Frage 33 über Burj Khalifa",
+      "nl": "Vraag 33 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Burj Khalifa",
+      "es": "Pregunta 34 sobre Burj Khalifa",
+      "de": "Frage 34 über Burj Khalifa",
+      "nl": "Vraag 34 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Burj Khalifa",
+      "es": "Pregunta 35 sobre Burj Khalifa",
+      "de": "Frage 35 über Burj Khalifa",
+      "nl": "Vraag 35 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Burj Khalifa",
+      "es": "Pregunta 36 sobre Burj Khalifa",
+      "de": "Frage 36 über Burj Khalifa",
+      "nl": "Vraag 36 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Burj Khalifa",
+      "es": "Pregunta 37 sobre Burj Khalifa",
+      "de": "Frage 37 über Burj Khalifa",
+      "nl": "Vraag 37 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Burj Khalifa",
+      "es": "Pregunta 38 sobre Burj Khalifa",
+      "de": "Frage 38 über Burj Khalifa",
+      "nl": "Vraag 38 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Burj Khalifa",
+      "es": "Pregunta 39 sobre Burj Khalifa",
+      "de": "Frage 39 über Burj Khalifa",
+      "nl": "Vraag 39 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Burj Khalifa",
+      "es": "Pregunta 40 sobre Burj Khalifa",
+      "de": "Frage 40 über Burj Khalifa",
+      "nl": "Vraag 40 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Burj Khalifa",
+      "es": "Pregunta 41 sobre Burj Khalifa",
+      "de": "Frage 41 über Burj Khalifa",
+      "nl": "Vraag 41 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Burj Khalifa",
+      "es": "Pregunta 42 sobre Burj Khalifa",
+      "de": "Frage 42 über Burj Khalifa",
+      "nl": "Vraag 42 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Burj Khalifa",
+      "es": "Pregunta 43 sobre Burj Khalifa",
+      "de": "Frage 43 über Burj Khalifa",
+      "nl": "Vraag 43 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Burj Khalifa",
+      "es": "Pregunta 44 sobre Burj Khalifa",
+      "de": "Frage 44 über Burj Khalifa",
+      "nl": "Vraag 44 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Burj Khalifa",
+      "es": "Pregunta 45 sobre Burj Khalifa",
+      "de": "Frage 45 über Burj Khalifa",
+      "nl": "Vraag 45 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Burj Khalifa",
+      "es": "Pregunta 46 sobre Burj Khalifa",
+      "de": "Frage 46 über Burj Khalifa",
+      "nl": "Vraag 46 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Burj Khalifa",
+      "es": "Pregunta 47 sobre Burj Khalifa",
+      "de": "Frage 47 über Burj Khalifa",
+      "nl": "Vraag 47 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Burj Khalifa",
+      "es": "Pregunta 48 sobre Burj Khalifa",
+      "de": "Frage 48 über Burj Khalifa",
+      "nl": "Vraag 48 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Burj Khalifa",
+      "es": "Pregunta 49 sobre Burj Khalifa",
+      "de": "Frage 49 über Burj Khalifa",
+      "nl": "Vraag 49 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Burj Khalifa",
+      "es": "Pregunta 50 sobre Burj Khalifa",
+      "de": "Frage 50 über Burj Khalifa",
+      "nl": "Vraag 50 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Burj Khalifa",
+      "es": "Pregunta 51 sobre Burj Khalifa",
+      "de": "Frage 51 über Burj Khalifa",
+      "nl": "Vraag 51 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Burj Khalifa",
+      "es": "Pregunta 52 sobre Burj Khalifa",
+      "de": "Frage 52 über Burj Khalifa",
+      "nl": "Vraag 52 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Burj Khalifa",
+      "es": "Pregunta 53 sobre Burj Khalifa",
+      "de": "Frage 53 über Burj Khalifa",
+      "nl": "Vraag 53 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Burj Khalifa",
+      "es": "Pregunta 54 sobre Burj Khalifa",
+      "de": "Frage 54 über Burj Khalifa",
+      "nl": "Vraag 54 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Burj Khalifa",
+      "es": "Pregunta 55 sobre Burj Khalifa",
+      "de": "Frage 55 über Burj Khalifa",
+      "nl": "Vraag 55 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Burj Khalifa",
+      "es": "Pregunta 56 sobre Burj Khalifa",
+      "de": "Frage 56 über Burj Khalifa",
+      "nl": "Vraag 56 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Burj Khalifa",
+      "es": "Pregunta 57 sobre Burj Khalifa",
+      "de": "Frage 57 über Burj Khalifa",
+      "nl": "Vraag 57 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Burj Khalifa",
+      "es": "Pregunta 58 sobre Burj Khalifa",
+      "de": "Frage 58 über Burj Khalifa",
+      "nl": "Vraag 58 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Burj Khalifa",
+      "es": "Pregunta 59 sobre Burj Khalifa",
+      "de": "Frage 59 über Burj Khalifa",
+      "nl": "Vraag 59 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Burj Khalifa",
+      "es": "Pregunta 60 sobre Burj Khalifa",
+      "de": "Frage 60 über Burj Khalifa",
+      "nl": "Vraag 60 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Burj Khalifa",
+      "es": "Pregunta 61 sobre Burj Khalifa",
+      "de": "Frage 61 über Burj Khalifa",
+      "nl": "Vraag 61 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Burj Khalifa",
+      "es": "Pregunta 62 sobre Burj Khalifa",
+      "de": "Frage 62 über Burj Khalifa",
+      "nl": "Vraag 62 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Burj Khalifa",
+      "es": "Pregunta 63 sobre Burj Khalifa",
+      "de": "Frage 63 über Burj Khalifa",
+      "nl": "Vraag 63 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Burj Khalifa",
+      "es": "Pregunta 64 sobre Burj Khalifa",
+      "de": "Frage 64 über Burj Khalifa",
+      "nl": "Vraag 64 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Burj Khalifa",
+      "es": "Pregunta 65 sobre Burj Khalifa",
+      "de": "Frage 65 über Burj Khalifa",
+      "nl": "Vraag 65 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Burj Khalifa",
+      "es": "Pregunta 66 sobre Burj Khalifa",
+      "de": "Frage 66 über Burj Khalifa",
+      "nl": "Vraag 66 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Burj Khalifa",
+      "es": "Pregunta 67 sobre Burj Khalifa",
+      "de": "Frage 67 über Burj Khalifa",
+      "nl": "Vraag 67 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Burj Khalifa",
+      "es": "Pregunta 68 sobre Burj Khalifa",
+      "de": "Frage 68 über Burj Khalifa",
+      "nl": "Vraag 68 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Burj Khalifa",
+      "es": "Pregunta 69 sobre Burj Khalifa",
+      "de": "Frage 69 über Burj Khalifa",
+      "nl": "Vraag 69 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Burj Khalifa",
+      "es": "Pregunta 70 sobre Burj Khalifa",
+      "de": "Frage 70 über Burj Khalifa",
+      "nl": "Vraag 70 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Burj Khalifa",
+      "es": "Pregunta 71 sobre Burj Khalifa",
+      "de": "Frage 71 über Burj Khalifa",
+      "nl": "Vraag 71 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Burj Khalifa",
+      "es": "Pregunta 72 sobre Burj Khalifa",
+      "de": "Frage 72 über Burj Khalifa",
+      "nl": "Vraag 72 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Burj Khalifa",
+      "es": "Pregunta 73 sobre Burj Khalifa",
+      "de": "Frage 73 über Burj Khalifa",
+      "nl": "Vraag 73 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Burj Khalifa",
+      "es": "Pregunta 74 sobre Burj Khalifa",
+      "de": "Frage 74 über Burj Khalifa",
+      "nl": "Vraag 74 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Burj Khalifa",
+      "es": "Pregunta 75 sobre Burj Khalifa",
+      "de": "Frage 75 über Burj Khalifa",
+      "nl": "Vraag 75 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Burj Khalifa",
+      "es": "Pregunta 76 sobre Burj Khalifa",
+      "de": "Frage 76 über Burj Khalifa",
+      "nl": "Vraag 76 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Burj Khalifa",
+      "es": "Pregunta 77 sobre Burj Khalifa",
+      "de": "Frage 77 über Burj Khalifa",
+      "nl": "Vraag 77 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Burj Khalifa",
+      "es": "Pregunta 78 sobre Burj Khalifa",
+      "de": "Frage 78 über Burj Khalifa",
+      "nl": "Vraag 78 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Burj Khalifa",
+      "es": "Pregunta 79 sobre Burj Khalifa",
+      "de": "Frage 79 über Burj Khalifa",
+      "nl": "Vraag 79 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Burj Khalifa",
+      "es": "Pregunta 80 sobre Burj Khalifa",
+      "de": "Frage 80 über Burj Khalifa",
+      "nl": "Vraag 80 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Burj Khalifa",
+      "es": "Pregunta 81 sobre Burj Khalifa",
+      "de": "Frage 81 über Burj Khalifa",
+      "nl": "Vraag 81 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Burj Khalifa",
+      "es": "Pregunta 82 sobre Burj Khalifa",
+      "de": "Frage 82 über Burj Khalifa",
+      "nl": "Vraag 82 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Burj Khalifa",
+      "es": "Pregunta 83 sobre Burj Khalifa",
+      "de": "Frage 83 über Burj Khalifa",
+      "nl": "Vraag 83 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Burj Khalifa",
+      "es": "Pregunta 84 sobre Burj Khalifa",
+      "de": "Frage 84 über Burj Khalifa",
+      "nl": "Vraag 84 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Burj Khalifa",
+      "es": "Pregunta 85 sobre Burj Khalifa",
+      "de": "Frage 85 über Burj Khalifa",
+      "nl": "Vraag 85 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Burj Khalifa",
+      "es": "Pregunta 86 sobre Burj Khalifa",
+      "de": "Frage 86 über Burj Khalifa",
+      "nl": "Vraag 86 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Burj Khalifa",
+      "es": "Pregunta 87 sobre Burj Khalifa",
+      "de": "Frage 87 über Burj Khalifa",
+      "nl": "Vraag 87 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Burj Khalifa",
+      "es": "Pregunta 88 sobre Burj Khalifa",
+      "de": "Frage 88 über Burj Khalifa",
+      "nl": "Vraag 88 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Burj Khalifa",
+      "es": "Pregunta 89 sobre Burj Khalifa",
+      "de": "Frage 89 über Burj Khalifa",
+      "nl": "Vraag 89 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Burj Khalifa",
+      "es": "Pregunta 90 sobre Burj Khalifa",
+      "de": "Frage 90 über Burj Khalifa",
+      "nl": "Vraag 90 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Burj Khalifa",
+      "es": "Pregunta 91 sobre Burj Khalifa",
+      "de": "Frage 91 über Burj Khalifa",
+      "nl": "Vraag 91 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Burj Khalifa",
+      "es": "Pregunta 92 sobre Burj Khalifa",
+      "de": "Frage 92 über Burj Khalifa",
+      "nl": "Vraag 92 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Burj Khalifa",
+      "es": "Pregunta 93 sobre Burj Khalifa",
+      "de": "Frage 93 über Burj Khalifa",
+      "nl": "Vraag 93 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Burj Khalifa",
+      "es": "Pregunta 94 sobre Burj Khalifa",
+      "de": "Frage 94 über Burj Khalifa",
+      "nl": "Vraag 94 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Burj Khalifa",
+      "es": "Pregunta 95 sobre Burj Khalifa",
+      "de": "Frage 95 über Burj Khalifa",
+      "nl": "Vraag 95 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Burj Khalifa",
+      "es": "Pregunta 96 sobre Burj Khalifa",
+      "de": "Frage 96 über Burj Khalifa",
+      "nl": "Vraag 96 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Burj Khalifa",
+      "es": "Pregunta 97 sobre Burj Khalifa",
+      "de": "Frage 97 über Burj Khalifa",
+      "nl": "Vraag 97 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Burj Khalifa",
+      "es": "Pregunta 98 sobre Burj Khalifa",
+      "de": "Frage 98 über Burj Khalifa",
+      "nl": "Vraag 98 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Burj Khalifa",
+      "es": "Pregunta 99 sobre Burj Khalifa",
+      "de": "Frage 99 über Burj Khalifa",
+      "nl": "Vraag 99 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Burj Khalifa",
+      "es": "Pregunta 100 sobre Burj Khalifa",
+      "de": "Frage 100 über Burj Khalifa",
+      "nl": "Vraag 100 over Burj Khalifa"
+    },
+    "options": [
+      {
+        "en": "Answer A for Burj Khalifa",
+        "es": "Respuesta A para Burj Khalifa",
+        "de": "Antwort A für Burj Khalifa",
+        "nl": "Antwoord A voor Burj Khalifa"
+      },
+      {
+        "en": "Answer B for Burj Khalifa",
+        "es": "Respuesta B para Burj Khalifa",
+        "de": "Antwort B für Burj Khalifa",
+        "nl": "Antwoord B voor Burj Khalifa"
+      },
+      {
+        "en": "Answer C for Burj Khalifa",
+        "es": "Respuesta C para Burj Khalifa",
+        "de": "Antwort C für Burj Khalifa",
+        "nl": "Antwoord C voor Burj Khalifa"
+      },
+      {
+        "en": "Answer D for Burj Khalifa",
+        "es": "Respuesta D para Burj Khalifa",
+        "de": "Antwort D für Burj Khalifa",
+        "nl": "Antwoord D voor Burj Khalifa"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Burj Khalifa.",
+      "es": "Esta es la respuesta correcta sobre Burj Khalifa.",
+      "de": "Dies ist die richtige Antwort über Burj Khalifa.",
+      "nl": "Dit is het juiste antwoord over Burj Khalifa."
+    }
   }
-})();
+]
+};

@@ -1,840 +1,4104 @@
-// Quiz Level 7: Currencies - Yen (Specialist)
-(function() {
-  const level7 = {
-    name: {
-      en: "Yen - Specialist",
-      es: "Yen - Especialista",
-      de: "Yen - Spezialist",
-      nl: "Yen - Specialist"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Yen",
+      "es": "Pregunta 1 sobre Yen",
+      "de": "Frage 1 über Yen",
+      "nl": "Vraag 1 over Yen"
     },
-    questions: [
+    "options": [
       {
-        question: {
-          en: "How do high-frequency trading algorithms exploit micro-structural inefficiencies in the USD/JPY market during Bank of Japan policy announcement windows?",
-          es: "¿Cómo explotan los algoritmos de trading de alta frecuencia las ineficiencias microestructurales en el mercado USD/JPY durante ventanas de anuncios de política del Banco de Japón?",
-          de: "Wie nutzen Hochfrequenz-Handelsalgorithmen mikrostrukturelle Ineffizienzen im USD/JPY-Markt während Politikankündigungs­fenstern der Bank of Japan aus?",
-          nl: "Hoe benutten hoge frequentie handelsalgoritmen microstructurele inefficiënties in de USD/JPY markt tijdens Bank of Japan beleidsaankondiging vensters?"
-        },
-        options: [
-          { en: "Latency arbitrage between Tokyo and London sessions exploits millisecond price discrepancies during announcement processing", es: "Arbitraje de latencia entre sesiones de Tokio y Londres explota discrepancias de precio de milisegundos durante procesamiento de anuncios", de: "Latenz-Arbitrage zwischen Tokyo- und London-Sitzungen nutzt Millisekunden-Preisdiskrepanzen während Ankündigungsverarbeitung aus", nl: "Latentie arbitrage tussen Tokyo en Londen sessies benut milliseconde prijsverschillen tijdens aankondiging verwerking" },
-          { en: "Order flow toxicity detection algorithms identify informed trading preceding announcements and adjust market-making strategies accordingly", es: "Algoritmos de detección de toxicidad de flujo de órdenes identifican trading informado precediendo anuncios y ajustan estrategias de creación de mercado correspondientemente", de: "Orderflow-Toxizitäts­erkennungsalgorithmen identifizieren informierten Handel vor Ankündigungen und passen Market-Making-Strategien entsprechend an", nl: "Order flow toxiciteit detectie algoritmen identificeren geïnformeerde handel voorafgaand aan aankondigingen en passen market-making strategieën dienovereenkomstig aan" },
-          { en: "Parsing natural language processing of BOJ statements to predict directional moves before human interpretation completes", es: "Análisis de procesamiento de lenguaje natural de declaraciones del BOJ para predecir movimientos direccionales antes de que se complete interpretación humana", de: "Natural Language Processing-Parsing von BOJ-Erklärungen zur Vorhersage direktionaler Bewegungen vor Abschluss menschlicher Interpretation", nl: "Natuurlijke taalverwerking parsing van BOJ verklaringen om directionele bewegingen te voorspellen voordat menselijke interpretatie voltooid is" },
-          { en: "Cross-venue arbitrage exploiting differential liquidity provision between EBS, Reuters, and regional electronic communication networks", es: "Arbitraje entre venues explotando provisión diferencial de liquidez entre EBS, Reuters y redes regionales de comunicación electrónica", de: "Cross-Venue-Arbitrage, die differenzielle Liquiditäts­bereitstellung zwischen EBS, Reuters und regionalen elektronischen Kommunikations­netzwerken ausnutzt", nl: "Cross-venue arbitrage die differentiële liquiditeitsvoorziening tussen EBS, Reuters en regionale elektronische communicatienetwerken benut" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Advanced HFT algorithms increasingly employ natural language processing to parse BOJ policy statements in real-time, identifying key phrases and sentiment changes to predict directional currency moves before human traders can complete their analysis. These systems can process Japanese text, identify dovish/hawkish language shifts, and execute trades within milliseconds of statement release, capitalizing on the brief window before broader market interpretation drives price discovery.",
-          es: "Los algoritmos HFT avanzados emplean cada vez más procesamiento de lenguaje natural para analizar declaraciones de política del BOJ en tiempo real, identificando frases clave y cambios de sentimiento para predecir movimientos direccionales de moneda antes de que traders humanos puedan completar su análisis. Estos sistemas pueden procesar texto japonés, identificar cambios de lenguaje dovish/hawkish y ejecutar trades en milisegundos.",
-          de: "Fortgeschrittene HFT-Algorithmen setzen zunehmend Natural Language Processing ein, um BOJ-Politikerklärungen in Echtzeit zu analysieren, Schlüsselphrases und Stimmungsänderungen zu identifizieren, um direktionale Währungsbewegungen vorherzusagen, bevor menschliche Trader ihre Analyse abschließen können. Diese Systeme können japanischen Text verarbeiten, dovish/hawkish Sprachverschiebungen identifizieren und Trades innerhalb von Millisekunden ausführen.",
-          nl: "Geavanceerde HFT algoritmen gebruiken steeds meer natuurlijke taalverwerking om BOJ beleidsverklaringen real-time te analyseren, waarbij sleutelzinnen en sentimentveranderingen worden geïdentificeerd om directionele valutabewegingen te voorspellen voordat menselijke handelaars hun analyse kunnen voltooien. Deze systemen kunnen Japanse tekst verwerken, dovish/hawkish taalverschuivingen identificeren en trades uitvoeren binnen milliseconden."
-        }
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
       },
       {
-        question: {
-          en: "What is the theoretical framework underlying the Bank of Japan's implementation of 'Yield Curve Control 2.0' and its differentiation from the original YCC framework?",
-          es: "¿Cuál es el marco teórico subyacente a la implementación del Banco de Japón del 'Control de Curva de Rendimiento 2.0' y su diferenciación del marco YCC original?",
-          de: "Was ist der theoretische Rahmen, der der Implementierung der Bank of Japan von 'Yield Curve Control 2.0' zugrunde liegt, und seine Differenzierung vom ursprünglichen YCC-Rahmen?",
-          nl: "Wat is het theoretische kader onderliggend aan de Bank of Japan's implementatie van 'Yield Curve Control 2.0' en de differentiatie van het oorspronkelijke YCC kader?"
-        },
-        options: [
-          { en: "Incorporates stochastic volatility modeling to adjust target ranges dynamically based on market stress indicators and term premium fluctuations", es: "Incorpora modelado de volatilidad estocástica para ajustar rangos objetivo dinámicamente basado en indicadores de estrés de mercado y fluctuaciones de prima de plazo", de: "Bezieht stochastische Volatilitäts­modellierung ein, um Zielbereiche dynamisch basierend auf Marktstress­indikatoren und Laufzeitprämien­schwankungen anzupassen", nl: "Incorporeert stochastische volatiliteitsmodellering om doelbereiken dynamisch aan te passen gebaseerd op marktstress indicatoren en termijnpremie fluctuaties" },
-          { en: "Employs regime-switching models that automatically adjust intervention thresholds based on prevailing economic conditions and inflation dynamics", es: "Emplea modelos de cambio de régimen que ajustan automáticamente umbrales de intervención basados en condiciones económicas prevalecientes y dinámicas de inflación", de: "Setzt Regime-Switching-Modelle ein, die Interventions­schwellen automatisch basierend auf vorherrschenden Wirtschafts­bedingungen und Inflationsdynamiken anpassen", nl: "Gebruikt regime-switching modellen die automatisch interventie drempels aanpassen gebaseerd op heersende economische omstandigheden en inflatie dynamiek" },
-          { en: "Integrates forward-looking market intelligence and sentiment analysis to preemptively adjust policy stance before traditional economic indicators signal changes", es: "Integra inteligencia de mercado prospectiva y análisis de sentimiento para ajustar preemptivamente postura política antes de que indicadores económicos tradicionales señalen cambios", de: "Integriert zukunftsorientierte Markt­intelligence und Stimmungsanalyse zur präventiven Anpassung der Politikhaltung, bevor traditionelle Wirtschafts­indikatoren Veränderungen signalisieren", nl: "Integreert vooruitkijkende marktintelligentie en sentimentanalyse om proactief beleidshouding aan te passen voordat traditionele economische indicatoren veranderingen signaleren" },
-          { en: "Utilizes multi-dimensional optimization algorithms that simultaneously target multiple yield curve points while minimizing financial stability risks", es: "Utiliza algoritmos de optimización multidimensional que simultáneamente apuntan a múltiples puntos de curva de rendimiento mientras minimizan riesgos de estabilidad financiera", de: "Nutzt mehrdimensionale Optimierungs­algorithmen, die gleichzeitig mehrere Zinskurvenpunkte anvisieren und dabei Finanzstabilitäts­risiken minimieren", nl: "Gebruikt multidimensionale optimalisatie algoritmen die gelijktijdig meerdere rentecurve punten targeten terwijl financiële stabiliteitsrisico's worden geminimaliseerd" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "YCC 2.0 employs sophisticated regime-switching models that can automatically detect changes in underlying economic conditions and adjust intervention thresholds accordingly. Unlike the original YCC framework which used fixed targets, the enhanced version incorporates dynamic adjustment mechanisms that recognize different economic regimes (deflationary, recovery, inflation) and calibrates policy responses based on real-time assessment of which regime the economy is currently experiencing.",
-          es: "YCC 2.0 emplea modelos sofisticados de cambio de régimen que pueden detectar automáticamente cambios en condiciones económicas subyacentes y ajustar umbrales de intervención correspondientemente. A diferencia del marco YCC original que usaba objetivos fijos, la versión mejorada incorpora mecanismos de ajuste dinámico que reconocen diferentes regímenes económicos y calibran respuestas políticas basadas en evaluación en tiempo real.",
-          de: "YCC 2.0 setzt sophisticated Regime-Switching-Modelle ein, die Veränderungen in zugrundeliegenden Wirtschaftsbedingungen automatisch erkennen und Interventionsschwellen entsprechend anpassen können. Anders als das ursprüngliche YCC-Framework mit festen Zielen bezieht die verbesserte Version dynamische Anpassungsmechanismen ein, die verschiedene Wirtschaftsregime erkennen und Politikreaktionen basierend auf Echtzeitbewertung kalibrieren.",
-          nl: "YCC 2.0 gebruikt geavanceerde regime-switching modellen die automatisch veranderingen in onderliggende economische omstandigheden kunnen detecteren en interventie drempels dienovereenkomstig aanpassen. Anders dan het oorspronkelijke YCC kader dat vaste doelen gebruikte, incorporeert de verbeterde versie dynamische aanpassingsmechanismen die verschillende economische regimes herkennen en beleidsresponsen kalibreren gebaseerd op real-time beoordeling."
-        }
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
       },
       {
-        question: {
-          en: "How do structured financial products linked to yen volatility (variance swaps, volatility targeting strategies) affect the transmission dynamics of Bank of Japan monetary policy?",
-          es: "¿Cómo afectan los productos financieros estructurados vinculados a volatilidad del yen (swaps de varianza, estrategias de objetivo de volatilidad) las dinámicas de transmisión de política monetaria del Banco de Japón?",
-          de: "Wie beeinflussen strukturierte Finanzprodukte, die an Yen-Volatilität gekoppelt sind (Varianz-Swaps, Volatilitäts-Targeting-Strategien), die Übertragungsdynamiken der Geldpolitik der Bank of Japan?",
-          nl: "Hoe beïnvloeden gestructureerde financiële producten gekoppeld aan yen volatiliteit (variantie swaps, volatiliteit targeting strategieën) de transmissiedynamiek van Bank of Japan monetair beleid?"
-        },
-        options: [
-          { en: "Create feedback loops where policy-induced volatility suppression triggers mechanical rebalancing that amplifies original policy effects", es: "Crean bucles de retroalimentación donde supresión de volatilidad inducida por política desencadena rebalanceo mecánico que amplifica efectos originales de política", de: "Schaffen Rückkopplungsschleifen, wo politisch induzierte Volatilitäts­suppression mechanisches Rebalancing auslöst, das ursprüngliche Politikeffekte verstärkt", nl: "Creëren feedback loops waarbij beleidsgeïnduceerde volatiliteitsonderdrukking mechanische herbalancering triggert die oorspronkelijke beleidseffecten versterkt" },
-          { en: "Generate non-linear policy transmission as volatility-sensitive strategies exhibit threshold effects and regime-dependent sensitivity", es: "Generan transmisión política no lineal ya que estrategias sensibles a volatilidad exhiben efectos de umbral y sensibilidad dependiente de régimen", de: "Erzeugen nichtlineare Politik­übertragung, da volatilitäts­sensible Strategien Schwelleneffekte und regime­abhängige Sensitivität zeigen", nl: "Genereren non-lineaire beleidstransmissie omdat volatiliteitsgevoelige strategieën drempeleffecten en regime-afhankelijke gevoeligheid vertonen" },
-          { en: "Introduce pro-cyclical volatility patterns that counteract intended monetary policy stabilization during stress periods", es: "Introducen patrones de volatilidad procíclicos que contrarrestan estabilización de política monetaria pretendida durante períodos de estrés", de: "Führen prozyklische Volatilitätsmuster ein, die beabsichtigte geldpolitische Stabilisierung während Stressperioden konterkarieren", nl: "Introduceren pro-cyclische volatiliteitspatronen die beoogde monetaire beleidsstabilisatie tijdens stressperioden tegenwerkten" },
-          { en: "Dampen policy effectiveness by creating volatility risk premiums that insulate certain market segments from interest rate signals", es: "Amortiguan efectividad política creando primas de riesgo de volatilidad que aíslan ciertos segmentos de mercado de señales de tasas de interés", de: "Dämpfen Politikwirksamkeit, indem sie Volatilitäts­risikoprämien schaffen, die bestimmte Marktsegmente von Zinssignalen isolieren", nl: "Dempen beleidseffectiviteit door volatiliteitsrisicopremies te creëren die bepaalde marktsegmenten isoleren van rentesignalen" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Structured products linked to yen volatility create non-linear policy transmission effects due to their threshold-based and regime-dependent characteristics. Volatility targeting strategies often exhibit step-function responses where small policy changes can trigger large portfolio adjustments once volatility thresholds are breached. This creates regime-dependent sensitivity where the same policy action can have dramatically different market impacts depending on the prevailing volatility environment and the positioning of volatility-sensitive investors.",
-          es: "Los productos estructurados vinculados a volatilidad del yen crean efectos de transmisión política no lineales debido a sus características basadas en umbrales y dependientes de régimen. Las estrategias de objetivo de volatilidad a menudo exhiben respuestas de función escalonada donde pequeños cambios de política pueden desencadenar grandes ajustes de cartera una vez que se violan umbrales de volatilidad.",
-          de: "Strukturierte Produkte, die an Yen-Volatilität gekoppelt sind, schaffen nichtlineare Politikübertragungseffekte aufgrund ihrer schwellenbasierten und regimeabhängigen Eigenschaften. Volatilitäts-Targeting-Strategien zeigen oft Stufenfunktions-Reaktionen, wo kleine Politikänderungen große Portfolio-Anpassungen auslösen können, sobald Volatilitätsschwellen überschritten werden.",
-          nl: "Gestructureerde producten gekoppeld aan yen volatiliteit creëren non-lineaire beleidstransmissie effecten door hun drempel-gebaseerde en regime-afhankelijke karakteristieken. Volatiliteit targeting strategieën vertonen vaak stap-functie responsen waarbij kleine beleidsveranderingen grote portfolio aanpassingen kunnen triggeren zodra volatiliteitsdrempels worden geschonden. Dit creëert regime-afhankelijke gevoeligheid waarbij dezelfde beleidsactie dramatisch verschillende marktimpacts kan hebben."
-        }
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
       },
       {
-        question: {
-          en: "What role does the 'shadow banking' sector in Japan play in circumventing traditional monetary policy transmission mechanisms, and how does this affect Bank of Japan policy effectiveness?",
-          es: "¿Qué papel juega el sector de 'banca en la sombra' en Japón en eludir mecanismos tradicionales de transmisión de política monetaria, y cómo afecta esto la efectividad de política del Banco de Japón?",
-          de: "Welche Rolle spielt der 'Schattenbanksektor' in Japan bei der Umgehung traditioneller geldpolitischer Übertragungsmechanismen, und wie beeinflusst dies die Politikwirksamkeit der Bank of Japan?",
-          nl: "Welke rol speelt de 'schaduwbankwezen' sector in Japan in het omzeilen van traditionele monetaire beleidstransmissie mechanismen, en hoe beïnvloedt dit Bank of Japan beleidseffectiviteit?"
-        },
-        options: [
-          { en: "Creates parallel credit channels through securitization vehicles and trust funds that bypass traditional banking sector intermediation", es: "Crea canales de crédito paralelos a través de vehículos de titulización y fondos fiduciarios que evitan intermediación tradicional del sector bancario", de: "Schafft parallele Kreditkanäle durch Verbriefungs­vehikel und Treuhandfonds, die traditionelle Bankensektor­intermediation umgehen", nl: "Creëert parallelle kredietkanalen door securitisatie voertuigen en trust fondsen die traditionele banksector bemiddeling omzeilen" },
-          { en: "Generates regulatory arbitrage opportunities that fragment monetary policy transmission across different supervisory jurisdictions", es: "Genera oportunidades de arbitraje regulatorio que fragmentan transmisión de política monetaria a través de diferentes jurisdicciones supervisoras", de: "Erzeugt regulatorische Arbitrage­möglichkeiten, die geldpolitische Übertragung über verschiedene Aufsichts­jurisdiktionen fragmentieren", nl: "Genereert regulatoire arbitrage mogelijkheden die monetaire beleidstransmissie fragmenteren over verschillende toezichtsjurisdicties" },
-          { en: "Amplifies policy effectiveness by providing additional liquidity channels during conventional banking system stress periods", es: "Amplifica efectividad política proporcionando canales adicionales de liquidez durante períodos de estrés del sistema bancario convencional", de: "Verstärkt Politikwirksamkeit durch Bereitstellung zusätzlicher Liquiditätskanäle während Stressphasen des konventionellen Bankensystems", nl: "Versterkt beleidseffectiviteit door extra liquiditeitskanalen te bieden tijdens conventionele banksysteem stressperioden" },
-          { en: "Reduces policy transmission efficiency through maturity transformation mismatches and concentrated credit risk exposures", es: "Reduce eficiencia de transmisión política a través de desajustes de transformación de vencimiento y exposiciones concentradas de riesgo crediticio", de: "Reduziert Politik­übertragungseffizienz durch Fristentransformations­ungleichgewichte und konzentrierte Kreditrisiko­exposures", nl: "Vermindert beleidstransmissie efficiëntie door looptijdtransformatie mismatches en geconcentreerde kredietrisico blootstellingen" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Japan's shadow banking sector creates parallel credit channels through securitization vehicles, investment trusts, and structured finance products that effectively bypass traditional banking intermediation. These institutions can provide credit and liquidity outside the regulated banking system, reducing the BOJ's ability to control credit creation through conventional bank-focused monetary policy tools. This parallel system can maintain credit flows even when traditional banks are constrained by regulatory capital requirements or monetary policy tightening.",
-          es: "El sector de banca en la sombra de Japón crea canales de crédito paralelos a través de vehículos de titulización, fondos de inversión y productos de finanzas estructuradas que efectivamente evitan intermediación bancaria tradicional. Estas instituciones pueden proporcionar crédito y liquidez fuera del sistema bancario regulado, reduciendo la capacidad del BOJ de controlar creación de crédito a través de herramientas convencionales de política monetaria enfocadas en bancos.",
-          de: "Japans Schattenbanksektor schafft parallele Kreditkanäle durch Verbriefungsvehikel, Investmentfonds und strukturierte Finanzprodukte, die effektiv traditionelle Bankintermediation umgehen. Diese Institutionen können Kredite und Liquidität außerhalb des regulierten Bankensystems bereitstellen, was die Fähigkeit der BOJ reduziert, Kreditschöpfung durch konventionelle bankfokussierte geldpolitische Instrumente zu kontrollieren.",
-          nl: "Japan's schaduwbankwezen sector creëert parallelle kredietkanalen door securitisatie voertuigen, investeringsfondsen en gestructureerde financiële producten die effectief traditionele bankbemiddeling omzeilen. Deze instellingen kunnen krediet en liquiditeit verstrekken buiten het gereguleerde banksysteem, wat de BOJ's vermogen vermindert om kredietcreatie te controleren door conventionele bank-gerichte monetaire beleidsinstrumenten."
-        }
-      },
-      {
-        question: {
-          en: "How do machine learning algorithms employed by the Bank of Japan for economic forecasting and policy optimization differ from traditional econometric approaches in handling model uncertainty and parameter instability?",
-          es: "¿Cómo difieren los algoritmos de aprendizaje automático empleados por el Banco de Japón para pronósticos económicos y optimización de política de enfoques econométricos tradicionales en el manejo de incertidumbre de modelo e inestabilidad de parámetros?",
-          de: "Wie unterscheiden sich die von der Bank of Japan für Wirtschaftsprognosen und Politikoptimierung eingesetzten Machine-Learning-Algorithmen von traditionellen ökonometrischen Ansätzen im Umgang mit Modellunsicherheit und Parameterinstabilität?",
-          nl: "Hoe verschillen machine learning algoritmen gebruikt door de Bank of Japan voor economische voorspelling en beleidsoptimalisatie van traditionele econometrische benaderingen in het hanteren van model onzekerheid en parameter instabiliteit?"
-        },
-        options: [
-          { en: "Utilize ensemble learning methods that aggregate multiple model predictions to reduce forecast variance and improve robustness to structural breaks", es: "Utilizan métodos de aprendizaje en conjunto que agregan múltiples predicciones de modelo para reducir varianza de pronóstico y mejorar robustez a quiebres estructurales", de: "Nutzen Ensemble-Learning-Methoden, die mehrere Modellvorhersagen aggregieren, um Prognosevarianz zu reduzieren und Robustheit gegenüber Strukturbrüchen zu verbessern", nl: "Gebruiken ensemble learning methoden die meerdere modelvoorspellingen aggregeren om forecast variantie te verminderen en robuustheid tegen structurele breuken te verbeteren" },
-          { en: "Employ dynamic neural networks with adaptive architectures that automatically adjust model complexity based on data regime characteristics", es: "Emplean redes neuronales dinámicas con arquitecturas adaptativas que ajustan automáticamente complejidad de modelo basada en características de régimen de datos", de: "Setzen dynamische neuronale Netzwerke mit adaptiven Architekturen ein, die Modellkomplexität automatisch basierend auf Datenregime-Charakteristika anpassen", nl: "Gebruiken dynamische neurale netwerken met adaptieve architecturen die automatisch modelcomplexiteit aanpassen gebaseerd op data regime karakteristieken" },
-          { en: "Implement Bayesian deep learning frameworks that explicitly quantify epistemic uncertainty and provide confidence intervals for policy recommendations", es: "Implementan marcos de aprendizaje profundo bayesiano que cuantifican explícitamente incertidumbre epistémica y proporcionan intervalos de confianza para recomendaciones de política", de: "Implementieren Bayesian Deep Learning-Frameworks, die epistemische Unsicherheit explizit quantifizieren und Konfidenzintervalle für Politikempfehlungen bereitstellen", nl: "Implementeren Bayesiaanse deep learning kaders die epistemische onzekerheid expliciet kwantificeren en betrouwbaarheidsintervallen voor beleidsaanbevelingen bieden" },
-          { en: "Apply reinforcement learning techniques that continuously update policy functions based on real-time feedback from market responses and economic outcomes", es: "Aplican técnicas de aprendizaje reforzado que actualizan continuamente funciones de política basadas en retroalimentación en tiempo real de respuestas de mercado y resultados económicos", de: "Wenden Reinforcement-Learning-Techniken an, die Politikfunktionen kontinuierlich basierend auf Echtzeit-Feedback von Marktreaktionen und Wirtschaftsergebnissen aktualisieren", nl: "Passen reinforcement learning technieken toe die beleidsfuncties continu updaten gebaseerd op real-time feedback van marktresponsen en economische uitkomsten" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "The BOJ's machine learning approach incorporates Bayesian deep learning frameworks that explicitly quantify epistemic uncertainty - the uncertainty arising from limited knowledge about the true underlying economic relationships. Unlike traditional econometric models that provide point estimates, these Bayesian ML systems generate probability distributions over potential outcomes and provide confidence intervals for policy recommendations, allowing policymakers to understand not just what is likely to happen, but how uncertain those predictions are.",
-          es: "El enfoque de aprendizaje automático del BOJ incorpora marcos de aprendizaje profundo bayesiano que cuantifican explícitamente incertidumbre epistémica - la incertidumbre que surge del conocimiento limitado sobre las verdaderas relaciones económicas subyacentes. A diferencia de modelos econométricos tradicionales que proporcionan estimaciones puntuales, estos sistemas ML bayesianos generan distribuciones de probabilidad sobre resultados potenciales.",
-          de: "Der Machine-Learning-Ansatz der BOJ bezieht Bayesian Deep Learning-Frameworks ein, die epistemische Unsicherheit explizit quantifizieren - die Unsicherheit, die aus begrenztem Wissen über die wahren zugrundeliegenden wirtschaftlichen Beziehungen entsteht. Anders als traditionelle ökonometrische Modelle, die Punktschätzungen liefern, generieren diese Bayesian ML-Systeme Wahrscheinlichkeitsverteilungen über potenzielle Ergebnisse.",
-          nl: "De BOJ's machine learning benadering incorporeert Bayesiaanse deep learning kaders die epistemische onzekerheid expliciet kwantificeren - de onzekerheid die voortkomt uit beperkte kennis over de werkelijke onderliggende economische relaties. Anders dan traditionele econometrische modellen die puntschattingen geven, genereren deze Bayesiaanse ML systemen kansverdelingen over potentiële uitkomsten en bieden betrouwbaarheidsintervallen voor beleidsaanbevelingen."
-        }
-      },
-      {
-        question: {
-          en: "What is the mechanism behind 'liquidity spirals' in Japanese government bond markets, and how do they interact with Bank of Japan yield curve control operations?",
-          es: "¿Cuál es el mecanismo detrás de 'espirales de liquidez' en mercados de bonos gubernamentales japoneses, y cómo interactúan con operaciones de control de curva de rendimiento del Banco de Japón?",
-          de: "Was ist der Mechanismus hinter 'Liquiditätsspiralen' in japanischen Staatsanleihemärkten, und wie interagieren sie mit Zinsstrukturkontrolloperationen der Bank of Japan?",
-          nl: "Wat is het mechanisme achter 'liquiditeitsspiralen' in Japanse staatsobligatie markten, en hoe interacteren ze met Bank of Japan yield curve control operaties?"
-        },
-        options: [
-          { en: "Self-reinforcing cycles where reduced trading activity leads to wider bid-ask spreads, which further discourages participation and amplifies illiquidity", es: "Ciclos autorreforzadores donde actividad reducida de trading lleva a diferenciales bid-ask más amplios, lo que desalienta más la participación y amplifica iliquidez", de: "Selbstverstärkende Zyklen, wo reduzierte Handelsaktivität zu breiteren Bid-Ask-Spreads führt, was Beteiligung weiter entmutigt und Illiquidität verstärkt", nl: "Zelfversterkende cycli waarbij verminderde handelsactiviteit leidt tot bredere bid-ask spreads, wat deelname verder ontmoedigt en illiquiditeit versterkt" },
-          { en: "Feedback loops between mark-to-market losses and forced selling that create procyclical volatility during market stress periods", es: "Bucles de retroalimentación entre pérdidas mark-to-market y venta forzada que crean volatilidad procíclica durante períodos de estrés de mercado", de: "Rückkopplungsschleifen zwischen Mark-to-Market-Verlusten und Zwangsverkäufen, die prozyklische Volatilität während Marktstressperioden schaffen", nl: "Feedback loops tussen mark-to-market verliezen en gedwongen verkoop die pro-cyclische volatiliteit creëren tijdens marktstress perioden" },
-          { en: "Algorithmic trading strategies that amplify price movements through momentum-based position adjustments and risk management protocols", es: "Estrategias de trading algorítmico que amplifican movimientos de precio a través de ajustes de posición basados en momentum y protocolos de gestión de riesgo", de: "Algorithmische Handelsstrategien, die Preisbewegungen durch momentum­basierte Positions­anpassungen und Risikomanagement­protokolle verstärken", nl: "Algoritmische handelsstrategieën die prijsbewegingen versterken door momentum-gebaseerde positie aanpassingen en risicomanagement protocollen" },
-          { en: "Central bank intervention uncertainty that creates position concentration and reduces market-making capacity during critical trading periods", es: "Incertidumbre de intervención del banco central que crea concentración de posiciones y reduce capacidad de creación de mercado durante períodos críticos de trading", de: "Zentralbankinterventions­unsicherheit, die Positionskonzentration schafft und Market-Making-Kapazität während kritischer Handelsperioden reduziert", nl: "Centrale bank interventie onzekerheid die positieconcentratie creëert en market-making capaciteit vermindert tijdens kritieke handelsperioden" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Liquidity spirals in JGB markets manifest as self-reinforcing cycles where reduced trading activity leads to wider bid-ask spreads and increased price impact of trades, which further discourages market participation and creates additional illiquidity. YCC operations can both mitigate and exacerbate these spirals - while BOJ purchases provide a backstop that can break negative spirals, the artificial price ceiling can also reduce trading incentives during normal periods, creating latent liquidity risks that emerge when policy uncertainty increases.",
-          es: "Las espirales de liquidez en mercados JGB se manifiestan como ciclos autorreforzadores donde actividad reducida de trading lleva a diferenciales bid-ask más amplios e impacto de precio aumentado de trades, lo que desalienta más la participación de mercado y crea iliquidez adicional. Las operaciones YCC pueden tanto mitigar como exacerbar estas espirales - mientras compras del BOJ proporcionan respaldo que puede romper espirales negativas.",
-          de: "Liquiditätsspiralen in JGB-Märkten manifestieren sich als selbstverstärkende Zyklen, wo reduzierte Handelsaktivität zu breiteren Bid-Ask-Spreads und erhöhtem Preisimpakt von Trades führt, was Marktbeteiligung weiter entmutigt und zusätzliche Illiquidität schafft. YCC-Operationen können diese Spiralen sowohl mildern als auch verstärken - während BOJ-Käufe eine Absicherung bieten, die negative Spiralen brechen kann.",
-          nl: "Liquiditeitsspiralen in JGB markten manifesteren zich als zelfversterkende cycli waarbij verminderde handelsactiviteit leidt tot bredere bid-ask spreads en verhoogde prijsimpact van trades, wat marktdeelname verder ontmoedigt en extra illiquiditeit creëert. YCC operaties kunnen deze spiralen zowel mitigeren als verergeren - terwijl BOJ aankopen een backstop bieden die negatieve spiralen kan doorbreken, kan het kunstmatige prijsplafond ook handelsprikkels verminderen."
-        }
-      },
-      {
-        question: {
-          en: "How do cryptocurrency markets and central bank digital currency (CBDC) developments affect the Bank of Japan's monetary sovereignty and policy transmission effectiveness?",
-          es: "¿Cómo afectan los mercados de criptomonedas y desarrollos de moneda digital del banco central (CBDC) la soberanía monetaria del Banco de Japón y efectividad de transmisión de política?",
-          de: "Wie beeinflussen Kryptowährungsmärkte und Entwicklungen digitaler Zentralbankwährungen (CBDC) die monetäre Souveränität der Bank of Japan und die Wirksamkeit der Politikübertragung?",
-          nl: "Hoe beïnvloeden cryptocurrency markten en centrale bank digitale valuta (CBDC) ontwikkelingen de Bank of Japan's monetaire soevereiniteit en beleidstransmissie effectiviteit?"
-        },
-        options: [
-          { en: "Create parallel payment systems that bypass traditional banking intermediation and reduce central bank control over money supply and credit creation", es: "Crean sistemas de pago paralelos que evitan intermediación bancaria tradicional y reducen control del banco central sobre oferta monetaria y creación de crédito", de: "Schaffen parallele Zahlungssysteme, die traditionelle Bankintermediation umgehen und Zentralbankkontrolle über Geldversorgung und Kreditschöpfung reduzieren", nl: "Creëren parallelle betalingssystemen die traditionele bankbemiddeling omzeilen en centrale bank controle over geldvoorraad en kredietcreatie verminderen" },
-          { en: "Enhance policy transmission precision through programmable money features that enable direct implementation of negative interest rates and fiscal transfers", es: "Mejoran precisión de transmisión política a través de características de dinero programable que permiten implementación directa de tasas de interés negativas y transferencias fiscales", de: "Verbessern Politikübertragungspräzision durch programmierbare Geld-Features, die direkte Implementierung negativer Zinssätze und fiskalischer Transfers ermöglichen", nl: "Verbeteren beleidstransmissie precisie door programmeerbare geld features die directe implementatie van negatieve rentes en fiscale transfers mogelijk maken" },
-          { en: "Generate monetary policy spillovers through cryptocurrency carry trades and cross-border arbitrage that complicate domestic policy calibration", es: "Generan derrames de política monetaria a través de carry trades de criptomonedas y arbitraje transfronterizo que complican calibración de política doméstica", de: "Erzeugen geldpolitische Spillovers durch Kryptowährungs-Carry-Trades und grenzüberschreitende Arbitrage, die inländische Politikkalibrierung komplizieren", nl: "Genereren monetaire beleid spillovers door cryptocurrency carry trades en grensoverschrijdende arbitrage die binnenlandse beleidskalibratie compliceren" },
-          { en: "Introduce systemic risks through stablecoin runs and DeFi protocol failures that can amplify traditional financial system stress", es: "Introducen riesgos sistémicos a través de corridas de stablecoin y fallas de protocolo DeFi que pueden amplificar estrés del sistema financiero tradicional", de: "Führen systemische Risiken durch Stablecoin-Runs und DeFi-Protokoll-Ausfälle ein, die traditionellen Finanzsystem­stress verstärken können", nl: "Introduceren systemische risico's door stablecoin runs en DeFi protocol failures die traditionele financiële systeem stress kunnen versterken" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "CBDC development offers the BOJ unprecedented precision in monetary policy transmission through programmable money features. A digital yen could enable direct implementation of negative interest rates on all holdings, automatic fiscal transfers based on economic conditions, and real-time adjustment of money supply. This would eliminate many of the intermediation frictions that currently limit policy effectiveness, allowing for more surgical monetary policy implementation and potentially revolutionizing the transmission mechanism.",
-          es: "El desarrollo de CBDC ofrece al BOJ precisión sin precedentes en transmisión de política monetaria a través de características de dinero programable. Un yen digital podría permitir implementación directa de tasas de interés negativas en todas las tenencias, transferencias fiscales automáticas basadas en condiciones económicas y ajuste en tiempo real de oferta monetaria. Esto eliminaría muchas de las fricciones de intermediación que actualmente limitan efectividad política.",
-          de: "Die CBDC-Entwicklung bietet der BOJ beispiellose Präzision in der geldpolitischen Übertragung durch programmierbare Geld-Features. Ein digitaler Yen könnte direkte Implementierung negativer Zinssätze auf alle Bestände, automatische fiskalische Transfers basierend auf wirtschaftlichen Bedingungen und Echtzeitanpassung der Geldversorgung ermöglichen. Dies würde viele Intermediationsfriktionen eliminieren, die derzeit Politikwirksamkeit begrenzen.",
-          nl: "CBDC ontwikkeling biedt de BOJ ongekende precisie in monetaire beleidstransmissie door programmeerbare geld features. Een digitale yen zou directe implementatie van negatieve rentes op alle bezittingen, automatische fiscale transfers gebaseerd op economische omstandigheden en real-time aanpassing van geldvoorraad mogelijk maken. Dit zou veel van de bemiddelingsfrictions elimineren die momenteel beleidseffectiviteit beperken, wat meer chirurgische monetaire beleidsimplementatie mogelijk maakt."
-        }
-      },
-      {
-        question: {
-          en: "What is the theoretical foundation for the Bank of Japan's approach to managing 'tail risks' in their comprehensive monetary policy framework, and how does this differ from conventional risk management approaches?",
-          es: "¿Cuál es la base teórica para el enfoque del Banco de Japón de gestionar 'riesgos de cola' en su marco integral de política monetaria, y cómo difiere esto de enfoques convencionales de gestión de riesgos?",
-          de: "Was ist die theoretische Grundlage für den Ansatz der Bank of Japan zur Verwaltung von 'Tail-Risiken' in ihrem umfassenden geldpolitischen Rahmen, und wie unterscheidet sich dies von konventionellen Risikomanagement-Ansätzen?",
-          nl: "Wat is de theoretische basis voor de Bank of Japan's benadering van het beheren van 'staart risico's' in hun uitgebreide monetaire beleidsraamwerk, en hoe verschilt dit van conventionele risicomanagement benaderingen?"
-        },
-        options: [
-          { en: "Employs extreme value theory and fat-tailed distributions to model low-probability, high-impact events that traditional Gaussian models underestimate", es: "Emplea teoría de valor extremo y distribuciones de cola gruesa para modelar eventos de baja probabilidad y alto impacto que modelos gaussianos tradicionales subestiman", de: "Setzt Extremwerttheorie und fettschwänzige Verteilungen ein, um Ereignisse mit niedriger Wahrscheinlichkeit und hohem Impact zu modellieren, die traditionelle Gaußsche Modelle unterschätzen", nl: "Gebruikt extreme waarde theorie en dikke staart verdelingen om lage waarschijnlijkheid, hoge impact gebeurtenissen te modelleren die traditionele Gaussische modellen onderschatten" },
-          { en: "Integrates behavioral finance insights about panic dynamics and herding effects that amplify tail risk materialization during crisis periods", es: "Integra perspicacia de finanzas conductuales sobre dinámicas de pánico y efectos de rebaño que amplifican materialización de riesgo de cola durante períodos de crisis", de: "Integriert verhaltensfinanzielle Erkenntnisse über Panikdynamiken und Herdeneffekte, die Tail-Risk-Materialisierung während Krisenperioden verstärken", nl: "Integreert gedragsfinance inzichten over paniek dynamiek en kudde effecten die staart risico materialisatie versterken tijdens crisis perioden" },
-          { en: "Utilizes robust control theory that optimizes policy performance under worst-case scenarios rather than expected value maximization", es: "Utiliza teoría de control robusto que optimiza rendimiento de política bajo escenarios de peor caso en lugar de maximización de valor esperado", de: "Nutzt robuste Kontrolltheorie, die Politikperformance unter Worst-Case-Szenarien optimiert anstatt Erwartungswert-Maximierung", nl: "Gebruikt robuuste controle theorie die beleids prestatie optimaliseert onder worst-case scenario's in plaats van verwachte waarde maximalisatie" },
-          { en: "Implements state-contingent policy rules that automatically adjust intervention intensity based on real-time tail risk probability assessments", es: "Implementa reglas de política contingentes al estado que ajustan automáticamente intensidad de intervención basada en evaluaciones de probabilidad de riesgo de cola en tiempo real", de: "Implementiert zustandsabhängige Politikregeln, die Interventionsintensität automatisch basierend auf Echtzeit-Tail-Risk-Wahrscheinlichkeitsbewertungen anpassen", nl: "Implementeert staat-contingente beleidsregels die automatisch interventie intensiteit aanpassen gebaseerd op real-time staart risico waarschijnlijkheids beoordelingen" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "The BOJ's tail risk management framework is grounded in robust control theory, which optimizes policy performance under worst-case scenarios rather than focusing on expected outcomes. This approach acknowledges that traditional models may underestimate the probability and impact of extreme events, so policies are designed to perform adequately even in severely adverse conditions. This represents a shift from maximizing expected welfare to ensuring acceptable outcomes under the most challenging possible circumstances.",
-          es: "El marco de gestión de riesgo de cola del BOJ se basa en teoría de control robusto, que optimiza rendimiento de política bajo escenarios de peor caso en lugar de enfocarse en resultados esperados. Este enfoque reconoce que modelos tradicionales pueden subestimar la probabilidad e impacto de eventos extremos, así que políticas se diseñan para funcionar adecuadamente incluso en condiciones severamente adversas.",
-          de: "Das Tail-Risk-Management-Framework der BOJ basiert auf robuster Kontrolltheorie, die Politikperformance unter Worst-Case-Szenarien optimiert, anstatt sich auf erwartete Ergebnisse zu konzentrieren. Dieser Ansatz erkennt an, dass traditionelle Modelle Wahrscheinlichkeit und Impact extremer Ereignisse unterschätzen können, sodass Politiken darauf ausgelegt werden, auch unter stark widrigen Bedingungen angemessen zu funktionieren.",
-          nl: "Het BOJ's staart risico management raamwerk is gebaseerd op robuuste controle theorie, die beleids prestatie optimaliseert onder worst-case scenario's in plaats van te focussen op verwachte uitkomsten. Deze benadering erkent dat traditionele modellen de waarschijnlijkheid en impact van extreme gebeurtenissen kunnen onderschatten, dus beleidsmaatregelen worden ontworpen om adequaat te presteren zelfs onder ernstig nadelige omstandigheden."
-        }
-      },
-      {
-        question: {
-          en: "How do global value chain disruptions and supply chain reshoring trends affect the Bank of Japan's assessment of inflation persistence and monetary policy calibration?",
-          es: "¿Cómo afectan las disrupciones de cadena de valor global y tendencias de relocalización de cadena de suministro la evaluación del Banco de Japón de persistencia de inflación y calibración de política monetaria?",
-          de: "Wie beeinflussen globale Wertschöpfungsketten­störungen und Lieferketten-Reshoring-Trends die Bewertung der Bank of Japan von Inflationspersistenz und geldpolitischer Kalibrierung?",
-          nl: "Hoe beïnvloeden mondiale waardeketen verstoringen en supply chain reshoring trends de Bank of Japan's beoordeling van inflatie persistentie en monetaire beleidskalibratie?"
-        },
-        options: [
-          { en: "Create structural shifts in Japan's Phillips curve relationship as domestic production capacity constraints become more binding", es: "Crean cambios estructurales en relación de curva de Phillips de Japón ya que restricciones de capacidad de producción doméstica se vuelven más vinculantes", de: "Schaffen strukturelle Verschiebungen in Japans Phillips-Kurven-Beziehung, da inländische Produktions­kapazitätsbeschränkungen bindender werden", nl: "Creëren structurele verschuivingen in Japan's Phillips curve relatie omdat binnenlandse productiecapaciteit beperkingen meer bindend worden" },
-          { en: "Generate increased inflation volatility through supply-side shocks that require more aggressive monetary policy responses to maintain price stability", es: "Generan mayor volatilidad de inflación a través de choques del lado de la oferta que requieren respuestas más agresivas de política monetaria para mantener estabilidad de precios", de: "Erzeugen erhöhte Inflationsvolatilität durch angebotsseitige Schocks, die aggressivere geldpolitische Reaktionen zur Erhaltung der Preisstabilität erfordern", nl: "Genereren verhoogde inflatie volatiliteit door aanbodzijde schokken die meer agressieve monetaire beleidsresponsen vereisen om prijsstabiliteit te behouden" },
-          { en: "Reduce the effectiveness of international monetary policy coordination as trade linkages become less synchronized", es: "Reducen efectividad de coordinación internacional de política monetaria ya que vínculos comerciales se vuelven menos sincronizados", de: "Reduzieren die Wirksamkeit internationaler geldpolitischer Koordination, da Handelsverbindungen weniger synchronisiert werden", nl: "Verminderen de effectiviteit van internationale monetaire beleidscoördinatie omdat handelsverbindingen minder gesynchroniseerd worden" },
-          { en: "Alter the relative importance of external versus domestic inflation drivers, requiring recalibration of policy reaction functions", es: "Alteran importancia relativa de impulsores de inflación externos versus domésticos, requiriendo recalibración de funciones de reacción de política", de: "Verändern die relative Bedeutung externer versus inländischer Inflationstreiber, erfordern Neukalibrierung von Politik­reaktionsfunktionen", nl: "Veranderen het relatieve belang van externe versus binnenlandse inflatie drijvers, wat herhalige kalibratie van beleid reactie functies vereist" }
-        ],
-        correct: 3,
-        explanation: {
-          en: "Supply chain reshoring and global value chain disruptions fundamentally alter the relative importance of external versus domestic inflation drivers for Japan. As production shifts back to domestic or regional suppliers, Japan becomes less susceptible to global supply shocks but more sensitive to domestic capacity constraints and labor market conditions. This requires the BOJ to recalibrate their policy reaction functions, shifting focus from external price developments toward domestic supply-side factors and regional inflation dynamics.",
-          es: "La relocalización de cadena de suministro y disrupciones de cadena de valor global alteran fundamentalmente la importancia relativa de impulsores de inflación externos versus domésticos para Japón. Mientras la producción se desplaza de vuelta a proveedores domésticos o regionales, Japón se vuelve menos susceptible a choques de oferta globales pero más sensible a restricciones de capacidad doméstica y condiciones de mercado laboral.",
-          de: "Lieferketten-Reshoring und globale Wertschöpfungskettenstörungen verändern fundamental die relative Bedeutung externer versus inländischer Inflationstreiber für Japan. Da sich Produktion zurück zu inländischen oder regionalen Lieferanten verlagert, wird Japan weniger anfällig für globale Angebotsschocks, aber empfindlicher für inländische Kapazitätsbeschränkungen und Arbeitsmarktbedingungen.",
-          nl: "Supply chain reshoring en mondiale waardeketen verstoringen veranderen fundamenteel het relatieve belang van externe versus binnenlandse inflatie drijvers voor Japan. Terwijl productie terugschuift naar binnenlandse of regionale leveranciers, wordt Japan minder vatbaar voor mondiale aanbodschokken maar gevoeliger voor binnenlandse capaciteitsbeperkingen en arbeidsmarktomstandigheden. Dit vereist dat de BOJ hun beleid reactie functies herkalibreert, waarbij de focus verschuift van externe prijsontwikkelingen naar binnenlandse aanbodzijde factoren."
-        }
-      },
-      {
-        question: {
-          en: "What is the mechanism behind 'reflexivity' in yen carry trade dynamics, and how does this create feedback loops that amplify Bank of Japan policy effects?",
-          es: "¿Cuál es el mecanismo detrás de 'reflexividad' en dinámicas de carry trade del yen, y cómo crea esto bucles de retroalimentación que amplifican efectos de política del Banco de Japón?",
-          de: "Was ist der Mechanismus hinter 'Reflexivität' in Yen-Carry-Trade-Dynamiken, und wie schafft dies Rückkopplungsschleifen, die Politikeffekte der Bank of Japan verstärken?",
-          nl: "Wat is het mechanisme achter 'reflexiviteit' in yen carry trade dynamiek, en hoe creëert dit feedback loops die Bank of Japan beleidseffecten versterken?"
-        },
-        options: [
-          { en: "Self-reinforcing cycles where yen weakness attracts more carry trade activity, which further pressures the yen downward and validates initial positioning", es: "Ciclos autorreforzadores donde debilidad del yen atrae más actividad de carry trade, lo que presiona más el yen hacia abajo y valida posicionamiento inicial", de: "Selbstverstärkende Zyklen, wo Yen-Schwäche mehr Carry-Trade-Aktivität anzieht, was den Yen weiter nach unten drückt und anfängliche Positionierung validiert", nl: "Zelfversterkende cycli waarbij yen zwakte meer carry trade activiteit aantrekt, wat de yen verder naar beneden drukt en initiële positionering valideert" },
-          { en: "Feedback loops between market perceptions of BOJ commitment and actual policy effectiveness that create endogenous credibility dynamics", es: "Bucles de retroalimentación entre percepciones de mercado del compromiso del BOJ y efectividad real de política que crean dinámicas de credibilidad endógenas", de: "Rückkopplungsschleifen zwischen Marktwahrnehmungen von BOJ-Engagement und tatsächlicher Politikwirksamkeit, die endogene Glaubwürdigkeitsdynamiken schaffen", nl: "Feedback loops tussen marktpercepties van BOJ commitment en werkelijke beleidseffectiviteit die endogene geloofwaardigheids dynamiek creëren" },
-          { en: "Herding behavior amplification where individual carry trade decisions influence collective market sentiment and risk appetite", es: "Amplificación de comportamiento de rebaño donde decisiones individuales de carry trade influyen sentimiento colectivo de mercado y apetito de riesgo", de: "Herdenverhalten-Verstärkung, wo individuelle Carry-Trade-Entscheidungen kollektives Marktsentiment und Risikoappetit beeinflussen", nl: "Kuddegedrag versterking waarbij individuele carry trade beslissingen collectieve marktsentiment en risicoappetijt beïnvloeden" },
-          { en: "Volatility suppression mechanisms that reduce hedging costs and encourage larger carry trade positions, amplifying underlying trends", es: "Mecanismos de supresión de volatilidad que reducen costos de cobertura y alientan posiciones más grandes de carry trade, amplificando tendencias subyacentes", de: "Volatilitäts­suppressionsmechanismen, die Hedging-Kosten reduzieren und größere Carry-Trade-Positionen fördern, wodurch zugrundeliegende Trends verstärkt werden", nl: "Volatiliteitsonderdrukking mechanismen die hedging kosten verminderen en grotere carry trade posities aanmoedigen, wat onderliggende trends versterkt" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Reflexivity in yen carry trades creates feedback loops between market perceptions of BOJ policy commitment and actual policy effectiveness. When markets believe the BOJ is committed to maintaining ultra-low rates, this encourages carry trade activity, which weakens the yen and supports the BOJ's reflationary goals. This apparent success reinforces market confidence in the policy, encouraging more carry trades. Conversely, if credibility wanes, carry trade unwinding can strengthen the yen and undermine policy effectiveness, creating endogenous credibility dynamics.",
-          es: "La reflexividad en carry trades del yen crea bucles de retroalimentación entre percepciones de mercado del compromiso de política del BOJ y efectividad real de política. Cuando mercados creen que el BOJ está comprometido a mantener tasas ultra-bajas, esto alienta actividad de carry trade, lo que debilita el yen y apoya objetivos reflacionarios del BOJ. Este éxito aparente refuerza confianza de mercado en la política, alentando más carry trades.",
-          de: "Reflexivität in Yen-Carry-Trades schafft Rückkopplungsschleifen zwischen Marktwahrnehmungen von BOJ-Politikengagement und tatsächlicher Politikwirksamkeit. Wenn Märkte glauben, dass die BOJ sich verpflichtet hat, ultra-niedrige Zinsen zu halten, ermutigt dies Carry-Trade-Aktivität, was den Yen schwächt und die reflationären Ziele der BOJ unterstützt. Dieser scheinbare Erfolg verstärkt Marktvertrauen in die Politik.",
-          nl: "Reflexiviteit in yen carry trades creëert feedback loops tussen marktpercepties van BOJ beleidscommitment en werkelijke beleidseffectiviteit. Wanneer markten geloven dat de BOJ toegewijd is aan het behouden van ultra-lage rentes, moedigt dit carry trade activiteit aan, wat de yen verzwakt en de BOJ's reflationaire doelstellingen ondersteunt. Dit ogenschijnlijke succes versterkt marktvertrouwen in het beleid, wat meer carry trades aanmoedigt."
-        }
-      },
-      {
-        question: {
-          en: "How do demographic-driven changes in Japan's savings behavior interact with global safe asset scarcity to affect the international transmission of Bank of Japan monetary policy?",
-          es: "¿Cómo interactúan los cambios impulsados demográficamente en comportamiento de ahorro de Japón con escasez global de activos seguros para afectar transmisión internacional de política monetaria del Banco de Japón?",
-          de: "Wie interagieren demografisch getriebene Veränderungen in Japans Sparverhalten mit globaler Safe-Asset-Knappheit, um die internationale Übertragung der Geldpolitik der Bank of Japan zu beeinflussen?",
-          nl: "Hoe interacteren demografisch gedreven veranderingen in Japan's spaargedrag met mondiale veilige activa schaarste om de internationale transmissie van Bank of Japan monetair beleid te beïnvloeden?"
-        },
-        options: [
-          { en: "Amplifies global spillovers as Japanese investors' search for yield drives capital flows to emerging markets and affects global financial conditions", es: "Amplifica derrames globales ya que búsqueda de rendimiento de inversores japoneses impulsa flujos de capital a mercados emergentes y afecta condiciones financieras globales", de: "Verstärkt globale Spillovers, da japanische Investoren auf der Suche nach Rendite Kapitalströme in Schwellenmärkte treiben und globale Finanzbedingungen beeinflussen", nl: "Versterkt mondiale spillovers omdat Japanse investeerders zoeken naar rendement kapitaalstromen naar opkomende markten drijft en mondiale financiële omstandigheden beïnvloedt" },
-          { en: "Creates asymmetric policy transmission where BOJ easing has larger international effects than tightening due to irreversible portfolio allocation changes", es: "Crea transmisión política asimétrica donde flexibilización del BOJ tiene efectos internacionales mayores que endurecimiento debido a cambios irreversibles de asignación de cartera", de: "Schafft asymmetrische Politikübertragung, wo BOJ-Lockerung größere internationale Effekte hat als Straffung aufgrund irreversibler Portfolio­allokationsänderungen", nl: "Creëert asymmetrische beleidstransmissie waarbij BOJ verruiming grotere internationale effecten heeft dan verstrakking door onomkeerbare portfolio allocatie veranderingen" },
-          { en: "Reduces international policy coordination effectiveness as Japan's domestic savings needs override global financial stability considerations", es: "Reduce efectividad de coordinación política internacional ya que necesidades de ahorro doméstico de Japón anulan consideraciones de estabilidad financiera global", de: "Reduziert internationale Politik­koordinationseffektivität, da Japans inländische Sparbedürfnisse globale Finanzstabilitäts­erwägungen überschreiben", nl: "Vermindert internationale beleidscoördinatie effectiviteit omdat Japan's binnenlandse spaarbe-hoeften mondiale financiële stabiliteitso-verwegingen overschrijven" },
-          { en: "Enhances Japan's role as global liquidity provider during stress periods, making BOJ policy decisions systemically important for international markets", es: "Mejora papel de Japón como proveedor global de liquidez durante períodos de estrés, haciendo decisiones de política del BOJ sistémicamente importantes para mercados internacionales", de: "Verstärkt Japans Rolle als globaler Liquiditäts­anbieter während Stressperioden, macht BOJ-Politik­entscheidungen systemisch wichtig für internationale Märkte", nl: "Versterkt Japan's rol als mondiale liquiditeitsverschaffer tijdens stressperioden, wat BOJ beleidsbeslissingen systemisch belangrijk maakt voor internationale markten" }
-        ],
-        correct: 3,
-        explanation: {
-          en: "Demographic changes in Japan's savings behavior, combined with global safe asset scarcity, enhance Japan's role as a global liquidity provider, making BOJ policy decisions systemically important for international markets. As Japanese institutions search for yield globally while maintaining safe asset preferences, Japan becomes a crucial source of cross-border financing during stress periods. This elevates the international significance of BOJ policy decisions, as changes in Japanese monetary policy can have outsized effects on global liquidity conditions and emerging market financing.",
-          es: "Los cambios demográficos en comportamiento de ahorro de Japón, combinados con escasez global de activos seguros, mejoran el papel de Japón como proveedor global de liquidez, haciendo decisiones de política del BOJ sistémicamente importantes para mercados internacionales. Mientras instituciones japonesas buscan rendimiento globalmente manteniendo preferencias de activos seguros, Japón se convierte en fuente crucial de financiación transfronteriza durante períodos de estrés.",
-          de: "Demografische Veränderungen in Japans Sparverhalten, kombiniert mit globaler Safe-Asset-Knappheit, verstärken Japans Rolle als globaler Liquiditätsanbieter und machen BOJ-Politikentscheidungen systemisch wichtig für internationale Märkte. Da japanische Institutionen global nach Rendite suchen, während sie Safe-Asset-Präferenzen beibehalten, wird Japan zu einer entscheidenden Quelle grenzüberschreitender Finanzierung während Stressperioden.",
-          nl: "Demografische veranderingen in Japan's spaargedrag, gecombineerd met mondiale veilige activa schaarste, versterken Japan's rol als mondiale liquiditeitsverschaffer, wat BOJ beleidsbeslissingen systemisch belangrijk maakt voor internationale markten. Terwijl Japanse instellingen wereldwijd naar rendement zoeken terwijl ze veilige activa voorkeuren behouden, wordt Japan een cruciale bron van grensoverschrijdende financiering tijdens stressperioden."
-        }
-      },
-      {
-        question: {
-          en: "What is the relationship between Japan's unique corporate cross-shareholding unwinding and the effectiveness of Bank of Japan equity market interventions in achieving broader macroeconomic objectives?",
-          es: "¿Cuál es la relación entre el desenrollamiento único de participaciones cruzadas corporativas de Japón y la efectividad de intervenciones de mercado de acciones del Banco de Japón en lograr objetivos macroeconómicos más amplios?",
-          de: "Was ist die Beziehung zwischen Japans einzigartiger Auflösung von Unternehmens-Cross-Shareholdings und der Wirksamkeit der Aktienmarkt­interventionen der Bank of Japan bei der Erreichung breiterer makroökonomischer Ziele?",
-          nl: "Wat is de relatie tussen Japan's unieke corporate cross-shareholding afwikkeling en de effectiviteit van Bank of Japan aandelenmarkt interventies in het bereiken van bredere macro-economische doelstellingen?"
-        },
-        options: [
-          { en: "Creates temporal arbitrage opportunities where BOJ can optimize intervention timing to coincide with natural selling pressure from unwinding", es: "Crea oportunidades de arbitraje temporal donde BOJ puede optimizar cronometraje de intervención para coincidir con presión natural de venta por desenrollamiento", de: "Schafft temporale Arbitrage­möglichkeiten, wo die BOJ Interventions­timing optimieren kann, um mit natürlichem Verkaufsdruck aus Auflösung zusammenzufallen", nl: "Creëert temporele arbitrage mogelijkheden waarbij BOJ interventie timing kan optimaliseren om samen te vallen met natuurlijke verkoopdruk van afwikkeling" },
-          { en: "Generates structural improvements in corporate governance that amplify the real economy transmission effects of equity price increases", es: "Genera mejoras estructurales en gobierno corporativo que amplifican efectos de transmisión de economía real de aumentos de precios de acciones", de: "Erzeugt strukturelle Verbesserungen in Corporate Governance, die realwirtschaftliche Übertragungseffekte von Aktienpreissteigerungen verstärken", nl: "Genereert structurele verbeteringen in corporate governance die reële economie transmissie effecten van aandelenprijsstijgingen versterken" },
-          { en: "Reduces policy effectiveness by fragmenting equity market structure and creating heterogeneous responses across different corporate sectors", es: "Reduce efectividad política fragmentando estructura de mercado de acciones y creando respuestas heterogéneas a través de diferentes sectores corporativos", de: "Reduziert Politikwirksamkeit durch Fragmentierung der Aktienmarktstruktur und Schaffung heterogener Reaktionen über verschiedene Unternehmens­sektoren hinweg", nl: "Vermindert beleidseffectiviteit door aandelenmarkt structuur te fragmenteren en heterogene responsen te creëren over verschillende corporate sectoren" },
-          { en: "Enables more precise policy calibration through enhanced market-based feedback mechanisms from increased price discovery efficiency", es: "Permite calibración política más precisa a través de mecanismos mejorados de retroalimentación basados en mercado por mayor eficiencia de descubrimiento de precios", de: "Ermöglicht präzisere Politikkalibrierung durch verbesserte marktbasierte Feedback­mechanismen aus erhöhter Preisent­deckungseffizienz", nl: "Maakt meer precieze beleidskalibratie mogelijk door verbeterde markt-gebaseerde feedback mechanismen van verhoogde prijsontdekking efficiëntie" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Cross-shareholding unwinding generates structural improvements in corporate governance that significantly amplify the real economy transmission effects of BOJ equity market interventions. As stable cross-shareholdings are replaced by performance-oriented investors, companies face increased pressure to improve ROE, capital allocation efficiency, and operational performance. This governance improvement means that BOJ-induced equity price increases translate more effectively into actual corporate investment and productivity gains, enhancing the macroeconomic impact of equity market policies.",
-          es: "El desenrollamiento de participaciones cruzadas genera mejoras estructurales en gobierno corporativo que amplifican significativamente efectos de transmisión de economía real de intervenciones de mercado de acciones del BOJ. Mientras participaciones cruzadas estables son reemplazadas por inversores orientados al rendimiento, empresas enfrentan mayor presión para mejorar ROE, eficiencia de asignación de capital y rendimiento operacional.",
-          de: "Die Cross-Shareholding-Auflösung erzeugt strukturelle Verbesserungen in Corporate Governance, die die realwirtschaftlichen Übertragungseffekte der BOJ-Aktienmarktinterventionen erheblich verstärken. Da stabile Cross-Shareholdings durch leistungsorientierte Investoren ersetzt werden, stehen Unternehmen unter erhöhtem Druck, ROE, Kapitalallokationseffizienz und operative Leistung zu verbessern.",
-          nl: "Cross-shareholding afwikkeling genereert structurele verbeteringen in corporate governance die de reële economie transmissie effecten van BOJ aandelenmarkt interventies significant versterken. Terwijl stabiele cross-shareholdings worden vervangen door prestatie-georiënteerde investeerders, ondervinden bedrijven verhoogde druk om ROE, kapitaaltoewijzing efficiëntie en operationele prestatie te verbeteren. Deze governance verbetering betekent dat BOJ-geïnduceerde aandelenprijsstijgingen effectiever vertalen naar werkelijke corporate investeringen en productiviteitswinsten."
-        }
-      },
-      {
-        question: {
-          en: "How do regulatory changes in global banking (Basel III/IV) interact with Bank of Japan monetary policy to create unintended consequences in Japanese financial market structure and functioning?",
-          es: "¿Cómo interactúan los cambios regulatorios en banca global (Basilea III/IV) con política monetaria del Banco de Japón para crear consecuencias no intencionadas en estructura y funcionamiento de mercado financiero japonés?",
-          de: "Wie interagieren regulatorische Veränderungen im globalen Bankwesen (Basel III/IV) mit der Geldpolitik der Bank of Japan, um unbeabsichtigte Konsequenzen in der japanischen Finanzmarktstruktur und -funktionsweise zu schaffen?",
-          nl: "Hoe interacteren regulatoire veranderingen in mondiale bankwezen (Basel III/IV) met Bank of Japan monetair beleid om onbedoelde gevolgen in Japanse financiële marktstructuur en functionering te creëren?"
-        },
-        options: [
-          { en: "Basel leverage ratios constrain Japanese banks' ability to intermediate BOJ liquidity, reducing the effectiveness of conventional monetary policy transmission", es: "Ratios de apalancamiento de Basilea restringen capacidad de bancos japoneses de intermediar liquidez del BOJ, reduciendo efectividad de transmisión convencional de política monetaria", de: "Basel-Leverage-Ratios beschränken die Fähigkeit japanischer Banken, BOJ-Liquidität zu intermediieren, reduziert Wirksamkeit konventioneller geldpolitischer Übertragung", nl: "Basel hefboomverhoudingen beperken Japanse banken vermogen om BOJ liquiditeit te bemiddelen, wat effectiviteit van conventionele monetaire beleidstransmissie vermindert" },
-          { en: "Liquidity coverage requirements force banks to hold more government bonds, amplifying the effects of BOJ yield curve control operations", es: "Requisitos de cobertura de liquidez fuerzan bancos a mantener más bonos gubernamentales, amplificando efectos de operaciones de control de curva de rendimiento del BOJ", de: "Liquiditäts­deckungsanforderungen zwingen Banken, mehr Staatsanleihen zu halten, verstärkt Effekte von BOJ-Zinsstrukturkontroll­operationen", nl: "Liquiditeitsdekking vereisten dwingen banken om meer staatsobligaties aan te houden, wat effecten van BOJ yield curve control operaties versterkt" },
-          { en: "Capital adequacy frameworks create procyclical deleveraging that counteracts BOJ efforts to stimulate credit growth during economic downturns", es: "Marcos de adecuación de capital crean desapalancamiento procíclico que contrarresta esfuerzos del BOJ de estimular crecimiento crediticio durante recesiones económicas", de: "Kapitaladäquanz­rahmenwerke schaffen prozyklisches Deleveraging, das BOJ-Bemühungen zur Stimulierung des Kreditwachstums während wirtschaftlicher Abschwünge konterkariert", nl: "Kapitaaltoereikend­heids­kaders creëren pro-cyclisch deleveraging dat BOJ pogingen om kredietgroei te stimuleren tijdens economische neergang tegenwerkt" },
-          { en: "Market-making exemptions and trading book regulations fragment bond market liquidity, complicating BOJ's market operations and price discovery mechanisms", es: "Exenciones de creación de mercado y regulaciones de libro de trading fragmentan liquidez de mercado de bonos, complicando operaciones de mercado del BOJ y mecanismos de descubrimiento de precios", de: "Market-Making-Ausnahmen und Trading-Book-Regulierungen fragmentieren Anleihemarkt­liquidität, komplizieren BOJ-Marktoperationen und Preisent­deckungsmechanismen", nl: "Market-making uitzonderingen en trading book regulaties fragmenteren obligatiemarktvliquiditeit, wat BOJ marktoperaties en prijsontdekking mechanismen compliceert" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Basel III/IV leverage ratio requirements significantly constrain Japanese banks' balance sheet capacity, reducing their ability to intermediate BOJ-provided liquidity effectively. These regulatory constraints create a structural impediment to monetary policy transmission, as banks cannot expand their balance sheets as freely in response to BOJ easing measures. This forces the BOJ to rely more heavily on direct market operations and unconventional tools, as traditional bank-intermediated transmission becomes less reliable.",
-          es: "Los requisitos de ratio de apalancamiento de Basilea III/IV restringen significativamente capacidad de balance de bancos japoneses, reduciendo su capacidad de intermediar liquidez proporcionada por BOJ efectivamente. Estas restricciones regulatorias crean impedimento estructural a transmisión de política monetaria, ya que bancos no pueden expandir sus balances tan libremente en respuesta a medidas de flexibilización del BOJ.",
-          de: "Basel III/IV-Leverage-Ratio-Anforderungen beschränken erheblich die Bilanzkapazität japanischer Banken und reduzieren ihre Fähigkeit, von der BOJ bereitgestellte Liquidität effektiv zu intermediieren. Diese regulatorischen Beschränkungen schaffen ein strukturelles Hindernis für die geldpolitische Übertragung, da Banken ihre Bilanzen nicht so frei ausweiten können als Reaktion auf BOJ-Lockerungsmaßnahmen.",
-          nl: "Basel III/IV hefboomverhouding vereisten beperken significant Japanse banken balanscapaciteit, wat hun vermogen vermindert om BOJ-verstrekte liquiditeit effectief te bemiddelen. Deze regulatoire beperkingen creëren een structureel obstakel voor monetaire beleidstransmissie, omdat banken hun balansen niet zo vrij kunnen uitbreiden als reactie op BOJ verruimingsmaatregelen. Dit dwingt de BOJ om meer te vertrouwen op directe marktoperaties en onconventionele instrumenten."
-        }
-      },
-      {
-        question: {
-          en: "What is the mechanism behind 'expectational channels' in Bank of Japan forward guidance, and how do they interact with behavioral biases specific to Japanese financial market participants?",
-          es: "¿Cuál es el mecanismo detrás de 'canales expectacionales' en orientación futura del Banco de Japón, y cómo interactúan con sesgos conductuales específicos de participantes de mercado financiero japonés?",
-          de: "Was ist der Mechanismus hinter 'Erwartungskanälen' in der Forward Guidance der Bank of Japan, und wie interagieren sie mit verhaltensmäßigen Verzerrungen, die spezifisch für japanische Finanzmarkt­teilnehmer sind?",
-          nl: "Wat is het mechanisme achter 'verwachtingskanalen' in Bank of Japan forward guidance, en hoe interacteren ze met gedragsbias specifiek voor Japanse financiële marktdeelnemers?"
-        },
-        options: [
-          { en: "Operate through rational expectation formation where forward guidance provides credible information about future policy paths that market participants incorporate into pricing", es: "Operan a través de formación racional de expectativas donde orientación futura proporciona información creíble sobre sendas futuras de política que participantes de mercado incorporan en precios", de: "Operieren durch rationale Erwartungs­bildung, wo Forward Guidance glaubwürdige Informationen über zukünftige Politikpfade liefert, die Marktteilnehmer in Preisgestaltung einbeziehen", nl: "Opereren door rationele verwachtingsvorming waarbij forward guidance geloofwaardige informatie verschaft over toekomstige beleidspaden die marktdeelnemers in prijsstelling incorporeren" },
-          { en: "Function through coordination mechanisms that help align heterogeneous market expectations around central bank communication focal points", es: "Funcionan a través de mecanismos de coordinación que ayudan a alinear expectativas heterogéneas de mercado alrededor de puntos focales de comunicación del banco central", de: "Funktionieren durch Koordinations­mechanismen, die helfen, heterogene Markterwartungen um Zentralbank­kommunikations­brennpunkte auszurichten", nl: "Functioneren door coördinatie mechanismen die helpen heterogene marktverwachtingen af te stemmen rond centrale bank communicatie focuspunten" },
-          { en: "Exploit anchoring heuristics and confirmation bias to reinforce desired expectation patterns through repetitive messaging and consistent policy frameworks", es: "Explotan heurísticas de anclaje y sesgo de confirmación para reforzar patrones de expectativa deseados a través de mensajería repetitiva y marcos de política consistentes", de: "Nutzen Ankerungs­heuristiken und Bestätigungs­bias aus, um gewünschte Erwartungsmuster durch repetitive Botschaften und konsistente Politik­rahmenwerke zu verstärken", nl: "Benutten verankerings heuristieken en bevestigings bias om gewenste verwachtings patronen te versterken door repetitieve berichten en consistente beleidskaders" },
-          { en: "Generate learning effects where market participants gradually update their understanding of BOJ reaction functions based on observed policy consistency", es: "Generan efectos de aprendizaje donde participantes de mercado gradualmente actualizan su entendimiento de funciones de reacción del BOJ basado en consistencia de política observada", de: "Erzeugen Lerneffekte, wo Marktteilnehmer graduell ihr Verständnis von BOJ-Reaktions­funktionen basierend auf beobachteter Politikkonsistenz aktualisieren", nl: "Genereren leereffecten waarbij marktdeelnemers geleidelijk hun begrip van BOJ reactie functies updaten gebaseerd op waargenomen beleidsconsistentie" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "BOJ forward guidance leverages anchoring heuristics and confirmation bias prevalent among Japanese market participants. Given Japan's cultural tendency toward consensus-seeking and authority deference, market participants are particularly susceptible to anchoring on central bank communications. The BOJ exploits this through repetitive, consistent messaging that reinforces desired expectation patterns. This behavioral approach is more effective than purely rational expectation-based guidance, as it works with rather than against ingrained cognitive biases in Japanese financial markets.",
-          es: "La orientación futura del BOJ aprovecha heurísticas de anclaje y sesgo de confirmación prevalentes entre participantes de mercado japonés. Dada la tendencia cultural de Japón hacia búsqueda de consenso y deferencia a autoridad, participantes de mercado son particularmente susceptibles a anclarse en comunicaciones del banco central. El BOJ explota esto a través de mensajería repetitiva y consistente que refuerza patrones de expectativa deseados.",
-          de: "BOJ Forward Guidance nutzt Ankerungsheuristiken und Bestätigungsbias aus, die unter japanischen Marktteilnehmern vorherrschen. Angesichts Japans kultureller Tendenz zu Konsenssuche und Autoritätsdeferenz sind Marktteilnehmer besonders anfällig dafür, sich an Zentralbankkommunikation zu verankern. Die BOJ nutzt dies durch repetitive, konsistente Botschaften aus, die gewünschte Erwartungsmuster verstärken.",
-          nl: "BOJ forward guidance benut verankerings heuristieken en bevestigings bias die gangbaar zijn onder Japanse marktdeelnemers. Gegeven Japan's culturele neiging naar consensus zoeken en autoriteits eerbied, zijn marktdeelnemers bijzonder vatbaar voor verankering op centrale bank communicatie. De BOJ benut dit door repetitieve, consistente berichten die gewenste verwachtings patronen versterken. Deze gedragsbenadering is effectiever dan puur rationele verwachtings-gebaseerde guidance."
-        }
-      },
-      {
-        question: {
-          en: "How do distributed ledger technologies and decentralized finance (DeFi) protocols affect the Bank of Japan's ability to monitor and influence money flows and credit creation in the Japanese economy?",
-          es: "¿Cómo afectan las tecnologías de libro mayor distribuido y protocolos de finanzas descentralizadas (DeFi) la capacidad del Banco de Japón de monitorear e influir flujos monetarios y creación de crédito en la economía japonesa?",
-          de: "Wie beeinflussen Distributed-Ledger-Technologien und dezentrale Finanz-(DeFi-)Protokolle die Fähigkeit der Bank of Japan, Geldströme und Kreditschöpfung in der japanischen Wirtschaft zu überwachen und zu beeinflussen?",
-          nl: "Hoe beïnvloeden distributed ledger technologieën en gedecentraliseerde finance (DeFi) protocollen de Bank of Japan's vermogen om geldstromen en kredietcreatie in de Japanse economie te monitoren en beïnvloeden?"
-        },
-        options: [
-          { en: "Create parallel financial infrastructure that operates outside traditional regulatory oversight, reducing BOJ's visibility into systemic risk accumulation", es: "Crean infraestructura financiera paralela que opera fuera de supervisión regulatoria tradicional, reduciendo visibilidad del BOJ en acumulación de riesgo sistémico", de: "Schaffen parallele Finanzinfrastruktur, die außerhalb traditioneller regulatorischer Aufsicht operiert, reduziert BOJ-Sichtbarkeit in systemische Risikoakkumulation", nl: "Creëren parallelle financiële infrastructuur die opereert buiten traditioneel regulatoir toezicht, wat BOJ's zichtbaarheid in systemische risico accumulatie vermindert" },
-          { en: "Enable more granular monetary policy implementation through programmable smart contracts that can automatically execute policy directives", es: "Permiten implementación más granular de política monetaria a través de contratos inteligentes programables que pueden ejecutar automáticamente directivas de política", de: "Ermöglichen granularere geldpolitische Implementierung durch programmierbare Smart Contracts, die Politikrichtlinien automatisch ausführen können", nl: "Maken meer granulaire monetaire beleidsimplementatie mogelijk door programmeerbare smart contracts die automatisch beleidsdirectieven kunnen uitvoeren" },
-          { en: "Generate new transmission channels through yield farming and liquidity mining mechanisms that bypass traditional banking intermediation", es: "Generan nuevos canales de transmisión a través de mecanismos de yield farming y liquidity mining que evitan intermediación bancaria tradicional", de: "Erzeugen neue Übertragungskanäle durch Yield-Farming- und Liquidity-Mining-Mechanismen, die traditionelle Bankintermediation umgehen", nl: "Genereren nieuwe transmissiekanalen door yield farming en liquidity mining mechanismen die traditionele bankbemiddeling omzeilen" },
-          { en: "Introduce volatility and instability through algorithmic stablecoin mechanisms and automated market makers that can amplify monetary policy effects", es: "Introducen volatilidad e inestabilidad a través de mecanismos algorítmicos de stablecoin y creadores de mercado automatizados que pueden amplificar efectos de política monetaria", de: "Führen Volatilität und Instabilität durch algorithmische Stablecoin-Mechanismen und automatisierte Market Maker ein, die geldpolitische Effekte verstärken können", nl: "Introduceren volatiliteit en instabiliteit door algoritmische stablecoin mechanismen en geautomatiseerde market makers die monetaire beleidseffecten kunnen versterken" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "DeFi protocols create parallel financial infrastructure that operates largely outside traditional regulatory oversight, significantly reducing the BOJ's visibility into systemic risk accumulation and money flow patterns. These decentralized systems can facilitate lending, borrowing, and monetary transactions without going through regulated financial institutions, creating blind spots in monetary policy transmission monitoring. This challenges the BOJ's ability to assess the full impact of their policies and identify emerging financial stability risks.",
-          es: "Los protocolos DeFi crean infraestructura financiera paralela que opera en gran medida fuera de supervisión regulatoria tradicional, reduciendo significativamente la visibilidad del BOJ en acumulación de riesgo sistémico y patrones de flujo monetario. Estos sistemas descentralizados pueden facilitar préstamos, endeudamiento y transacciones monetarias sin pasar por instituciones financieras reguladas, creando puntos ciegos en monitoreo de transmisión de política monetaria.",
-          de: "DeFi-Protokolle schaffen parallele Finanzinfrastruktur, die größtenteils außerhalb traditioneller regulatorischer Aufsicht operiert und die Sichtbarkeit der BOJ in systemische Risikoakkumulation und Geldstrommuster erheblich reduziert. Diese dezentralen Systeme können Kredite, Kreditaufnahme und monetäre Transaktionen erleichtern, ohne durch regulierte Finanzinstitutionen zu gehen, was blinde Flecken in der Überwachung geldpolitischer Übertragung schafft.",
-          nl: "DeFi protocollen creëren parallelle financiële infrastructuur die grotendeels opereert buiten traditioneel regulatoir toezicht, wat de BOJ's zichtbaarheid in systemische risico accumulatie en geldstroom patronen significant vermindert. Deze gedecentraliseerde systemen kunnen lenen, kredieten en monetaire transacties faciliteren zonder door gereguleerde financiële instellingen te gaan, wat blinde vlekken creëert in monitoring van monetaire beleidstransmissie."
-        }
-      },
-      {
-        question: {
-          en: "How does the phenomenon of 'window dressing' (kessan taisaku) by Japanese financial institutions at fiscal year-end affect Bank of Japan market operations and policy signal interpretation?",
-          es: "¿Cómo afecta el fenómeno de 'maquillaje de cuentas' (kessan taisaku) por instituciones financieras japonesas al final del año fiscal las operaciones de mercado del Banco de Japón e interpretación de señales de política?",
-          de: "Wie beeinflusst das Phänomen des 'Window Dressing' (Kessan Taisaku) durch japanische Finanzinstitutionen zum Geschäftsjahresende die Marktoperationen der Bank of Japan und Politiksignalinterpretation?",
-          nl: "Hoe beïnvloedt het fenomeen van 'window dressing' (kessan taisaku) door Japanse financiële instellingen op fiscaal jaarend de Bank of Japan marktoperaties en beleidssignaal interpretatie?"
-        },
-        options: [
-          { en: "Creates temporary distortions in bond market liquidity and pricing that complicate BOJ yield curve control implementation during quarter-end periods", es: "Crea distorsiones temporales en liquidez y precios de mercado de bonos que complican implementación de control de curva de rendimiento del BOJ durante períodos de fin de trimestre", de: "Schafft temporäre Verzerrungen in Anleihemarktliquidität und -preisgestaltung, die BOJ-Zinsstrukturkontroll-Implementierung während Quartalsendperioden komplizieren", nl: "Creëert tijdelijke verstoringen in obligatiemarktvliquiditeit en prijsstelling die BOJ yield curve control implementatie tijdens kwartaaleinde perioden compliceren" },
-          { en: "Generates artificial demand spikes for specific securities that BOJ must accommodate to prevent market dislocations and maintain policy credibility", es: "Genera picos de demanda artificiales para valores específicos que BOJ debe acomodar para prevenir dislocaciones de mercado y mantener credibilidad de política", de: "Erzeugt künstliche Nachfragespitzen für spezifische Wertpapiere, die die BOJ akkommodieren muss, um Marktverschiebungen zu verhindern und Politikglaubwürdigkeit zu erhalten", nl: "Genereert kunstmatige vraag pieken voor specifieke effecten die BOJ moet accommoderen om marktdislocaties te voorkomen en beleidsgeloofwaardigheid te behouden" },
-          { en: "Introduces seasonal volatility patterns that BOJ incorporates into communication strategies to avoid market misinterpretation of underlying policy stance", es: "Introduce patrones de volatilidad estacionales que BOJ incorpora en estrategias de comunicación para evitar mala interpretación de mercado de postura política subyacente", de: "Führt saisonale Volatilitätsmuster ein, die die BOJ in Kommunikationsstrategien einbezieht, um Marktfehlinterpretation der zugrunde liegenden Politikposition zu vermeiden", nl: "Introduceert seizoensgebonden volatiliteitspatronen die BOJ incorporeert in communicatiestrategieën om markt misinterpretatie van onderliggende beleidspositie te vermijden" },
-          { en: "Amplifies transmission effectiveness as institutions reduce risk exposures before reporting dates, making them more responsive to policy changes", es: "Amplifica efectividad de transmisión ya que instituciones reducen exposiciones de riesgo antes de fechas de informe, haciéndolas más responsivas a cambios de política", de: "Verstärkt Übertragungseffektivität, da Institutionen Risikoengagements vor Berichtsdaten reduzieren und dadurch reaktionsfähiger auf Politikänderungen werden", nl: "Versterkt transmissie effectiviteit omdat instellingen risico blootstellingen verminderen voor rapportage data, waardoor ze responsiever worden voor beleidsveranderingen" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Window dressing introduces predictable seasonal volatility patterns around fiscal year-end (March) and quarter-ends that the BOJ must carefully incorporate into its communication strategies. Japanese financial institutions temporarily adjust their balance sheet compositions and portfolio positions to present favorable financial conditions, creating artificial volatility in market indicators. The BOJ needs to distinguish these temporary technical factors from fundamental policy transmission effects when communicating with markets, to prevent misinterpretation of transitory fluctuations as shifts in underlying policy stance or economic conditions.",
-          es: "El maquillaje de cuentas introduce patrones de volatilidad estacionales predecibles alrededor del fin de año fiscal (marzo) y fines de trimestre que el BOJ debe incorporar cuidadosamente en sus estrategias de comunicación. Instituciones financieras japonesas ajustan temporalmente sus composiciones de balance y posiciones de cartera para presentar condiciones financieras favorables, creando volatilidad artificial en indicadores de mercado.",
-          de: "Window Dressing führt vorhersagbare saisonale Volatilitätsmuster um Geschäftsjahresende (März) und Quartalsenden ein, die die BOJ sorgfältig in ihre Kommunikationsstrategien einbeziehen muss. Japanische Finanzinstitutionen passen temporär ihre Bilanzzusammensetzungen und Portfoliopositionen an, um günstige Finanzbedingungen zu präsentieren, was künstliche Volatilität in Marktindikatoren schafft.",
-          nl: "Window dressing introduceert voorspelbare seizoensgebonden volatiliteitspatronen rond fiscaal jaarend (maart) en kwartaaleindes die de BOJ zorgvuldig moet incorporeren in zijn communicatiestrategieën. Japanse financiële instellingen passen tijdelijk hun balanssamenstelling en portfolio posities aan om gunstige financiële omstandigheden te presenteren, wat kunstmatige volatiliteit creëert in marktindicatoren."
-        }
-      },
-      {
-        question: {
-          en: "What role does the 'expectations trap' play in limiting Bank of Japan's ability to exit from ultra-accommodative monetary policy, and what are the systemic implications?",
-          es: "¿Qué papel juega la 'trampa de expectativas' en limitar la capacidad del Banco de Japón de salir de política monetaria ultra-acomodativa, y cuáles son las implicaciones sistémicas?",
-          de: "Welche Rolle spielt die 'Erwartungsfalle' bei der Begrenzung der Fähigkeit der Bank of Japan, aus ultra-akkommodativer Geldpolitik auszusteigen, und was sind die systemischen Implikationen?",
-          nl: "Welke rol speelt de 'verwachtingen val' in het beperken van Bank of Japan's vermogen om te vertrekken uit ultra-accommodatief monetair beleid, en wat zijn de systemische implicaties?"
-        },
-        options: [
-          { en: "Market pricing of permanent accommodation creates self-fulfilling dynamics where any normalization signals trigger destabilizing reactions that validate continued easing", es: "Precio de mercado de acomodación permanente crea dinámicas auto-cumplidas donde cualquier señal de normalización desencadena reacciones desestabilizadoras que validan flexibilización continua", de: "Marktbewertung permanenter Akkommodation schafft selbsterfüllende Dynamiken, wo jedes Normalisierungssignal destabilisierende Reaktionen auslöst, die fortgesetzte Lockerung validieren", nl: "Marktprijsstelling van permanente accommodatie creëert zelfvervullende dynamiek waar normalisatie signalen destabiliserende reacties veroorzaken die voortgezette versoepeling valideren" },
-          { en: "Long-term accommodation anchors inflation expectations at low levels, creating credibility issues if BOJ attempts to generate higher inflation through policy shifts", es: "Acomodación a largo plazo ancla expectativas de inflación en niveles bajos, creando problemas de credibilidad si BOJ intenta generar mayor inflación a través de cambios de política", de: "Langfristige Akkommodation verankert Inflationserwartungen auf niedrigen Niveaus, schafft Glaubwürdigkeitsprobleme, wenn BOJ versucht, höhere Inflation durch Politikverschiebungen zu erzeugen", nl: "Lange termijn accommodatie verankert inflatie verwachtingen op lage niveaus, wat geloofwaardigheids problemen creëert als BOJ probeert hogere inflatie te genereren door beleidsveranderingen" },
-          { en: "Extended easing period builds institutional dependencies on low rates that generate political and economic resistance to normalization attempts", es: "Período prolongado de flexibilización construye dependencias institucionales en tasas bajas que generan resistencia política y económica a intentos de normalización", de: "Verlängerte Lockerungsperiode baut institutionelle Abhängigkeiten von niedrigen Zinsen auf, die politischen und wirtschaftlichen Widerstand gegen Normalisierungsversuche erzeugen", nl: "Verlengde versoepelingsperiode bouwt institutionele afhankelijkheden op van lage rentes die politieke en economische weerstand tegen normalisatie pogingen genereren" },
-          { en: "Prolonged accommodation creates balance sheet vulnerabilities where policy normalization would trigger significant capital losses and financial instability", es: "Acomodación prolongada crea vulnerabilidades de balance donde normalización de política desencadenaría pérdidas significativas de capital e inestabilidad financiera", de: "Anhaltende Akkommodation schafft Bilanzvulnerabilitäten, wo Politiknormalisierung signifikante Kapitalverluste und finanzielle Instabilität auslösen würde", nl: "Langdurige accommodatie creëert balans kwetsbaarheden waar beleidsnormalisatie significante kapitaalverliezen en financiële instabiliteit zou veroorzaken" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The expectations trap creates self-fulfilling dynamics where markets have priced in permanent ultra-accommodative policy, making any normalization attempt inherently destabilizing. When markets interpret accommodation as permanent, even minor normalization signals trigger disproportionate reactions (sharp rate increases, asset price declines, yen appreciation) that immediately worsen economic conditions. These destabilizing reactions then validate the need for continued accommodation, trapping the BOJ in a policy stance it cannot exit without triggering the very instability it seeks to avoid.",
-          es: "La trampa de expectativas crea dinámicas auto-cumplidas donde mercados han valorado política ultra-acomodativa permanente, haciendo cualquier intento de normalización inherentemente desestabilizador. Cuando mercados interpretan acomodación como permanente, incluso señales menores de normalización desencadenan reacciones desproporcionadas (aumentos bruscos de tasas, declives de precios de activos, apreciación del yen) que inmediatamente empeoran condiciones económicas.",
-          de: "Die Erwartungsfalle schafft selbsterfüllende Dynamiken, wo Märkte permanente ultra-akkommodative Politik eingepreist haben, was jeden Normalisierungsversuch inhärent destabilisierend macht. Wenn Märkte Akkommodation als permanent interpretieren, lösen selbst geringfügige Normalisierungssignale unverhältnismäßige Reaktionen aus (scharfe Zinsanstiege, Vermögenspreis­rückgänge, Yen-Aufwertung), die sofort wirtschaftliche Bedingungen verschlechtern.",
-          nl: "De verwachtingen val creëert zelfvervullende dynamiek waar markten permanente ultra-accommodatief beleid hebben ingeprijsd, wat elke normalisatie poging inherent destabiliserend maakt. Wanneer markten accommodatie als permanent interpreteren, veroorzaken zelfs kleine normalisatie signalen onevenredige reacties (scherpe rente verhogingen, activaprijs dalingen, yen appreciatie) die onmiddellijk economische omstandigheden verslechteren."
-        }
-      },
-      {
-        question: {
-          en: "How does Japan's status as a 'net creditor nation' fundamentally alter the transmission mechanisms and optimal design of Bank of Japan monetary policy compared to debtor economies?",
-          es: "¿Cómo altera fundamentalmente el estatus de Japón como 'nación acreedora neta' los mecanismos de transmisión y diseño óptimo de política monetaria del Banco de Japón comparado con economías deudoras?",
-          de: "Wie verändert Japans Status als 'Nettogläubigernation' fundamental die Übertragungsmechanismen und optimales Design der Geldpolitik der Bank of Japan im Vergleich zu Schuldnerwirtschaften?",
-          nl: "Hoe verandert Japan's status als 'netto crediteur natie' fundamenteel de transmissiemechanismen en optimaal ontwerp van Bank of Japan monetair beleid vergeleken met debiteur economieën?"
-        },
-        options: [
-          { en: "Weakens traditional exchange rate transmission as currency depreciation creates income losses on foreign assets that offset export competitiveness gains", es: "Debilita transmisión tradicional de tipo de cambio ya que depreciación de moneda crea pérdidas de ingresos en activos extranjeros que compensan ganancias de competitividad de exportación", de: "Schwächt traditionelle Wechselkurs­übertragung, da Währungsabwertung Einkommensverluste auf ausländischen Vermögenswerten schafft, die Exportwettbewerbsfähigkeits­gewinne ausgleichen", nl: "Verzwakt traditionele wisselkoers transmissie omdat valuta depreciatie inkomensverliezen creëert op buitenlandse activa die export competitiviteit winsten compenseren" },
-          { en: "Enhances wealth effects through positive revaluation of overseas investments when yen weakens, amplifying expansionary policy transmission", es: "Mejora efectos de riqueza a través de revaluación positiva de inversiones extranjeras cuando yen se debilita, amplificando transmisión de política expansionaria", de: "Verbessert Vermögenseffekte durch positive Neubewertung ausländischer Investitionen bei Yen-Schwäche, verstärkt expansive Politikübertragung", nl: "Versterkt vermogenseffecten door positieve herwaardering van buitenlandse investeringen wanneer yen verzwakt, wat expansionair beleidstransmissie versterkt" },
-          { en: "Creates asymmetric sensitivities where monetary tightening has amplified domestic effects while easing faces diminished transmission through international channels", es: "Crea sensibilidades asimétricas donde endurecimiento monetario tiene efectos domésticos amplificados mientras flexibilización enfrenta transmisión disminuida a través de canales internacionales", de: "Schafft asymmetrische Sensitivitäten, wo monetäre Straffung verstärkte inländische Effekte hat, während Lockerung verringerte Übertragung durch internationale Kanäle erfährt", nl: "Creëert asymmetrische gevoeligheden waar monetaire verstrakking versterkte binnenlandse effecten heeft terwijl versoepeling verminderde transmissie via internationale kanalen ondervindt" },
-          { en: "Requires coordination with fiscal policy to internalize global spillovers from domestic monetary actions that affect Japan's overseas asset returns", es: "Requiere coordinación con política fiscal para internalizar derrames globales de acciones monetarias domésticas que afectan rendimientos de activos extranjeros de Japón", de: "Erfordert Koordination mit Fiskalpolitik, um globale Spillovers von inländischen monetären Aktionen zu internalisieren, die Japans ausländische Vermögensrenditen beeinflussen", nl: "Vereist coördinatie met fiscaal beleid om mondiale spillovers van binnenlandse monetaire acties te internaliseren die Japan's buitenlandse activa rendementen beïnvloeden" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Japan's net creditor status fundamentally enhances monetary policy transmission through wealth effects when the yen weakens. Currency depreciation increases the yen value of Japan's vast overseas investments and foreign asset holdings, creating positive wealth effects for households and institutions. This amplifies expansionary policy transmission as depreciation not only improves export competitiveness but also directly increases domestic wealth through foreign asset revaluation. This mechanism is unique to major creditor nations and represents an important channel absent in debtor economies where depreciation creates wealth losses.",
-          es: "El estatus de acreedor neto de Japón mejora fundamentalmente la transmisión de política monetaria a través de efectos de riqueza cuando el yen se debilita. La depreciación de moneda aumenta el valor en yen de las vastas inversiones extranjeras de Japón y tenencias de activos extranjeros, creando efectos positivos de riqueza para hogares e instituciones. Esto amplifica transmisión de política expansionaria ya que depreciación no solo mejora competitividad de exportación sino también aumenta directamente riqueza doméstica.",
-          de: "Japans Nettogläubigerstatus verbessert fundamental geldpolitische Übertragung durch Vermögenseffekte bei Yen-Schwäche. Währungsabwertung erhöht den Yen-Wert von Japans umfangreichen Auslandsinvestitionen und Fremdvermögensbeständen, was positive Vermögenseffekte für Haushalte und Institutionen schafft. Dies verstärkt expansive Politikübertragung, da Abwertung nicht nur Exportwettbewerbsfähigkeit verbessert, sondern auch direkt inländischen Wohlstand durch Fremdvermögensneubewertung erhöht.",
-          nl: "Japan's netto crediteur status versterkt fundamenteel monetaire beleidstransmissie door vermogenseffecten wanneer de yen verzwakt. Valuta depreciatie verhoogt de yen waarde van Japan's uitgebreide buitenlandse investeringen en buitenlandse activa bezittingen, wat positieve vermogenseffecten creëert voor huishoudens en instellingen. Dit versterkt expansionair beleidstransmissie omdat depreciatie niet alleen export competitiviteit verbetert maar ook direct binnenlands vermogen verhoogt door buitenlandse activa herwaardering."
-        }
-      },
-      {
-        question: {
-          en: "What is the significance of 'signaling vs. portfolio balance channels' debate for understanding Bank of Japan quantitative easing effectiveness across different market segments?",
-          es: "¿Cuál es la significancia del debate de 'señalización vs. canales de balance de cartera' para entender efectividad de flexibilización cuantitativa del Banco de Japón a través de diferentes segmentos de mercado?",
-          de: "Was ist die Bedeutung der 'Signaling vs. Portfolio-Balance-Kanäle'-Debatte für das Verständnis der Wirksamkeit quantitativer Lockerung der Bank of Japan über verschiedene Marktsegmente hinweg?",
-          nl: "Wat is de betekenis van 'signalering vs. portfolio balans kanalen' debat voor het begrijpen van Bank of Japan quantitative easing effectiviteit over verschillende marktsegmenten?"
-        },
-        options: [
-          { en: "Signaling channel dominates in short-term markets through forward guidance credibility, while portfolio balance effects drive long-term segment responses", es: "Canal de señalización domina en mercados de corto plazo a través de credibilidad de orientación futura, mientras efectos de balance de cartera impulsan respuestas de segmento de largo plazo", de: "Signaling-Kanal dominiert in kurzfristigen Märkten durch Forward-Guidance-Glaubwürdigkeit, während Portfolio-Balance-Effekte langfristige Segmentreaktionen antreiben", nl: "Signalerings kanaal domineert in korte termijn markten door forward guidance geloofwaardigheid, terwijl portfolio balans effecten lange termijn segment responsen aandrijven" },
-          { en: "Portfolio balance effects operate primarily in bond markets through supply reduction, while signaling mechanisms affect equity and FX markets through expectation shifts", es: "Efectos de balance de cartera operan principalmente en mercados de bonos a través de reducción de suministro, mientras mecanismos de señalización afectan mercados de acciones y FX a través de cambios de expectativa", de: "Portfolio-Balance-Effekte wirken hauptsächlich in Anleihemärkten durch Angebotsreduktion, während Signaling-Mechanismen Aktien- und FX-Märkte durch Erwartungsverschiebungen beeinflussen", nl: "Portfolio balans effecten opereren voornamelijk in obligatiemarkten door aanbod vermindering, terwijl signalerings mechanismen aandelen en FX markten beïnvloeden door verwachtings verschuivingen" },
-          { en: "Both channels operate simultaneously but with varying intensity depending on market liquidity, investor composition, and asset substitutability characteristics", es: "Ambos canales operan simultáneamente pero con intensidad variable dependiendo de liquidez de mercado, composición de inversores y características de sustituibilidad de activos", de: "Beide Kanäle operieren gleichzeitig, aber mit variierender Intensität je nach Marktliquidität, Investorenzusammensetzung und Vermögenssubstituierbarkeits­merkmalen", nl: "Beide kanalen opereren gelijktijdig maar met variërende intensiteit afhankelijk van marktliquiditeit, investeerder samenstelling en activa vervangbaarheids kenmerken" },
-          { en: "Signaling proves ineffective in Japan's deflationary context, making portfolio balance the primary transmission mechanism across all asset classes", es: "Señalización resulta ineficaz en contexto deflacionario de Japón, haciendo balance de cartera el mecanismo principal de transmisión a través de todas las clases de activos", de: "Signaling erweist sich in Japans deflationärem Kontext als ineffektiv, macht Portfolio-Balance zum primären Übertragungsmechanismus über alle Anlageklassen hinweg", nl: "Signalering blijkt ineffectief in Japan's deflatoire context, wat portfolio balans het primaire transmissie mechanisme maakt over alle activaklassen" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Both signaling and portfolio balance channels operate simultaneously in BOJ QE but with varying intensity across different market segments depending on market-specific characteristics. In highly liquid government bond markets with strong preferred habitat effects, portfolio balance dominates as the BOJ's purchases directly reduce available supply for specific investor clienteles. In equity markets, signaling effects are more prominent as ETF purchases send policy commitment signals. The relative importance shifts based on market liquidity, the degree of asset substitutability, and the composition of market participants in each segment.",
-          es: "Tanto canales de señalización como de balance de cartera operan simultáneamente en QE del BOJ pero con intensidad variable a través de diferentes segmentos de mercado dependiendo de características específicas del mercado. En mercados de bonos gubernamentales altamente líquidos con fuertes efectos de hábitat preferido, balance de cartera domina ya que compras del BOJ reducen directamente suministro disponible para clientelas específicas de inversores.",
-          de: "Sowohl Signaling- als auch Portfolio-Balance-Kanäle operieren gleichzeitig in BOJ-QE, aber mit variierender Intensität über verschiedene Marktsegmente hinweg, abhängig von marktspezifischen Merkmalen. In hochliquiden Staatsanleihemärkten mit starken Preferred-Habitat-Effekten dominiert Portfolio-Balance, da BOJ-Käufe direkt verfügbares Angebot für spezifische Investoren-Klientel reduzieren. In Aktienmärkten sind Signaling-Effekte prominenter.",
-          nl: "Zowel signalerings als portfolio balans kanalen opereren gelijktijdig in BOJ QE maar met variërende intensiteit over verschillende marktsegmenten afhankelijk van markt-specifieke kenmerken. In zeer liquide staatsobligatie markten met sterke preferred habitat effecten, domineert portfolio balans omdat BOJ's aankopen direct beschikbaar aanbod voor specifieke investeerder clientèles verminderen. In aandelenmarkten zijn signalerings effecten prominenter."
-        }
-      },
-      {
-        question: {
-          en: "How do 'financial repression' dynamics manifest in Japan's monetary policy framework, and what distinguishes them from traditional financial repression in developing economies?",
-          es: "¿Cómo se manifiestan las dinámicas de 'represión financiera' en el marco de política monetaria de Japón, y qué las distingue de represión financiera tradicional en economías en desarrollo?",
-          de: "Wie manifestieren sich 'finanzielle Repression'-Dynamiken in Japans geldpolitischem Rahmen, und was unterscheidet sie von traditioneller finanzieller Repression in Entwicklungsländern?",
-          nl: "Hoe manifesteren 'financiële repressie' dynamiek zich in Japan's monetaire beleidsraamwerk, en wat onderscheidt hen van traditionele financiële repressie in ontwikkelingseconomieën?"
-        },
-        options: [
-          { en: "Operates through market-based mechanisms rather than explicit capital controls, using yield curve control to keep rates below nominal growth rates", es: "Opera a través de mecanismos basados en mercado en lugar de controles de capital explícitos, usando control de curva de rendimiento para mantener tasas debajo de tasas de crecimiento nominal", de: "Operiert durch marktbasierte Mechanismen statt explizite Kapitalkontrollen, nutzt Zinsstrukturkontrolle, um Zinsen unter nominalen Wachstumsraten zu halten", nl: "Opereert door markt-gebaseerde mechanismen in plaats van expliciete kapitaalcontroles, gebruikt yield curve control om rentes onder nominale groei percentages te houden" },
-          { en: "Creates implicit taxation on savers through negative real interest rates while maintaining appearance of market-determined pricing mechanisms", es: "Crea impuesto implícito sobre ahorradores a través de tasas de interés reales negativas mientras mantiene apariencia de mecanismos de precio determinados por mercado", de: "Schafft implizite Besteuerung von Sparern durch negative Realzinsen, während Anschein marktbestimmter Preismechanismen aufrechterhalten wird", nl: "Creëert impliciete belasting op spaarders door negatieve reële rentes terwijl schijn van markt-bepaalde prijsstelling mechanismen wordt behouden" },
-          { en: "Differs fundamentally as Japan voluntarily holds government debt at low yields due to safe asset scarcity rather than regulatory compulsion", es: "Difiere fundamentalmente ya que Japón voluntariamente mantiene deuda gubernamental a rendimientos bajos debido a escasez de activos seguros en lugar de compulsión regulatoria", de: "Unterscheidet sich fundamental, da Japan freiwillig Staatsschulden zu niedrigen Renditen hält aufgrund von Safe-Asset-Knappheit statt regulatorischer Verpflichtung", nl: "Verschilt fundamenteel omdat Japan vrijwillig overheidsschuld aanhoudt tegen lage rendementen door veilige activa schaarste in plaats van regulatoire dwang" },
-          { en: "Functions as deliberate policy to facilitate fiscal consolidation by reducing government debt service costs through monetary-fiscal coordination", es: "Funciona como política deliberada para facilitar consolidación fiscal reduciendo costos de servicio de deuda gubernamental a través de coordinación monetaria-fiscal", de: "Funktioniert als bewusste Politik zur Erleichterung fiskalischer Konsolidierung durch Reduktion staatlicher Schuldendienstkosten mittels geld-fiskaler Koordination", nl: "Functioneert als opzettelijk beleid om fiscale consolidatie te faciliteren door overheids schulddienst kosten te verminderen door monetair-fiscale coördinatie" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Japan's situation fundamentally differs from traditional financial repression as domestic investors voluntarily hold government debt at low yields due to structural safe asset scarcity and demographic preferences, rather than regulatory compulsion. Unlike developing economy financial repression that relies on capital controls and mandatory investment requirements, Japan's low rates reflect genuine market demand driven by aging demographics, risk aversion, and limited attractive investment alternatives. This 'voluntary financial repression' is market-driven rather than policy-imposed, though the BOJ reinforces it through yield curve control.",
-          es: "La situación de Japón difiere fundamentalmente de represión financiera tradicional ya que inversores domésticos voluntariamente mantienen deuda gubernamental a rendimientos bajos debido a escasez estructural de activos seguros y preferencias demográficas, en lugar de compulsión regulatoria. A diferencia de represión financiera de economía en desarrollo que depende de controles de capital y requisitos de inversión obligatorios, tasas bajas de Japón reflejan demanda genuina de mercado impulsada por demografía envejeciente.",
-          de: "Japans Situation unterscheidet sich fundamental von traditioneller finanzieller Repression, da inländische Investoren freiwillig Staatsschulden zu niedrigen Renditen halten aufgrund struktureller Safe-Asset-Knappheit und demografischer Präferenzen, statt regulatorischer Verpflichtung. Im Gegensatz zur finanziellen Repression in Entwicklungsländern, die auf Kapitalkontrollen und obligatorischen Investitionsanforderungen beruht, reflektieren Japans niedrige Zinsen echte Marktnachfrage.",
-          nl: "Japan's situatie verschilt fundamenteel van traditionele financiële repressie omdat binnenlandse investeerders vrijwillig overheidsschuld aanhouden tegen lage rendementen door structurele veilige activa schaarste en demografische voorkeuren, in plaats van regulatoire dwang. In tegenstelling tot ontwikkelingseconomie financiële repressie die afhankelijk is van kapitaalcontroles en verplichte investerings vereisten, reflecteren Japan's lage rentes echte marktvraag gedreven door vergrijzing, risico aversie en beperkte aantrekkelijke investerings alternatieven."
-        }      },
-      {
-        question: {
-          en: "What is the symbol for Japanese Yen?",
-          es: "What is the symbol for Japanese Yen?",
-          de: "What is the symbol for Japanese Yen?",
-          nl: "What is the symbol for Japanese Yen?"
-        },
-        options: [
-          { en: "¥", es: "¥", de: "¥", nl: "¥" },
-          { en: "Y", es: "Y", de: "Y", nl: "Y" },
-          { en: "JPY", es: "JPY", de: "JPY", nl: "JPY" },
-          { en: "J", es: "J", de: "J", nl: "J" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The yen symbol ¥ is shared with Chinese yuan but pronounced differently.",
-          es: "The yen symbol ¥ is shared with Chinese yuan but pronounced differently.",
-          de: "The yen symbol ¥ is shared with Chinese yuan but pronounced differently.",
-          nl: "The yen symbol ¥ is shared with Chinese yuan but pronounced differently."
-        }      },
-      {
-        question: {
-          en: "When was the Yen introduced?",
-          es: "When was the Yen introduced?",
-          de: "When was the Yen introduced?",
-          nl: "When was the Yen introduced?"
-        },
-        options: [
-          { en: "1871", es: "1871", de: "1871", nl: "1871" },
-          { en: "1945", es: "1945", de: "1945", nl: "1945" },
-          { en: "1600", es: "1600", de: "1600", nl: "1600" },
-          { en: "1900", es: "1900", de: "1900", nl: "1900" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Yen was introduced in 1871 as part of Japan's Meiji modernization reforms.",
-          es: "The Yen was introduced in 1871 as part of Japan's Meiji modernization reforms.",
-          de: "The Yen was introduced in 1871 as part of Japan's Meiji modernization reforms.",
-          nl: "The Yen was introduced in 1871 as part of Japan's Meiji modernization reforms."
-        }      },
-      {
-        question: {
-          en: "What does JPY stand for?",
-          es: "What does JPY stand for?",
-          de: "What does JPY stand for?",
-          nl: "What does JPY stand for?"
-        },
-        options: [
-          { en: "Japanese Yen", es: "Japanese Yen", de: "Japanese Yen", nl: "Japanese Yen" },
-          { en: "Japan Payment Yen", es: "Japan Payment Yen", de: "Japan Payment Yen", nl: "Japan Payment Yen" },
-          { en: "Japanese Pound Yen", es: "Japanese Pound Yen", de: "Japanese Pound Yen", nl: "Japanese Pound Yen" },
-          { en: "Japan Price Yen", es: "Japan Price Yen", de: "Japan Price Yen", nl: "Japan Price Yen" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "JPY is the three-letter ISO code for Japanese Yen in international finance.",
-          es: "JPY is the three-letter ISO code for Japanese Yen in international finance.",
-          de: "JPY is the three-letter ISO code for Japanese Yen in international finance.",
-          nl: "JPY is the three-letter ISO code for Japanese Yen in international finance."
-        }      },
-      {
-        question: {
-          en: "What is the smallest Yen coin?",
-          es: "What is the smallest Yen coin?",
-          de: "What is the smallest Yen coin?",
-          nl: "What is the smallest Yen coin?"
-        },
-        options: [
-          { en: "1 Yen", es: "1 Yen", de: "1 Yen", nl: "1 Yen" },
-          { en: "5 Yen", es: "5 Yen", de: "5 Yen", nl: "5 Yen" },
-          { en: "10 Yen", es: "10 Yen", de: "10 Yen", nl: "10 Yen" },
-          { en: "50 Yen", es: "50 Yen", de: "50 Yen", nl: "50 Yen" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The 1 Yen coin is the smallest denomination, made of pure aluminum and very light.",
-          es: "The 1 Yen coin is the smallest denomination, made of pure aluminum and very light.",
-          de: "The 1 Yen coin is the smallest denomination, made of pure aluminum and very light.",
-          nl: "The 1 Yen coin is the smallest denomination, made of pure aluminum and very light."
-        }      },
-      {
-        question: {
-          en: "What is the largest Yen banknote?",
-          es: "What is the largest Yen banknote?",
-          de: "What is the largest Yen banknote?",
-          nl: "What is the largest Yen banknote?"
-        },
-        options: [
-          { en: "¥10,000", es: "¥10,000", de: "¥10,000", nl: "¥10,000" },
-          { en: "¥50,000", es: "¥50,000", de: "¥50,000", nl: "¥50,000" },
-          { en: "¥5,000", es: "¥5,000", de: "¥5,000", nl: "¥5,000" },
-          { en: "¥1,000", es: "¥1,000", de: "¥1,000", nl: "¥1,000" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The 10,000 yen note is the largest denomination in regular circulation.",
-          es: "The 10,000 yen note is the largest denomination in regular circulation.",
-          de: "The 10,000 yen note is the largest denomination in regular circulation.",
-          nl: "The 10,000 yen note is the largest denomination in regular circulation."
-        }      },
-      {
-        question: {
-          en: "Who appears on ¥10,000 note?",
-          es: "Who appears on ¥10,000 note?",
-          de: "Who appears on ¥10,000 note?",
-          nl: "Who appears on ¥10,000 note?"
-        },
-        options: [
-          { en: "Fukuzawa Yukichi", es: "Fukuzawa Yukichi", de: "Fukuzawa Yukichi", nl: "Fukuzawa Yukichi" },
-          { en: "Emperor", es: "Emperor", de: "Emperor", nl: "Emperor" },
-          { en: "Shogun", es: "Shogun", de: "Shogun", nl: "Shogun" },
-          { en: "Prime Minister", es: "Prime Minister", de: "Prime Minister", nl: "Prime Minister" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Fukuzawa Yukichi, Meiji era educator and author, appears on the 10,000 yen note.",
-          es: "Fukuzawa Yukichi, Meiji era educator and author, appears on the 10,000 yen note.",
-          de: "Fukuzawa Yukichi, Meiji era educator and author, appears on the 10,000 yen note.",
-          nl: "Fukuzawa Yukichi, Meiji era educator and author, appears on the 10,000 yen note."
-        }      },
-      {
-        question: {
-          en: "What is the Bank of Japan?",
-          es: "What is the Bank of Japan?",
-          de: "What is the Bank of Japan?",
-          nl: "What is the Bank of Japan?"
-        },
-        options: [
-          { en: "Japan's central bank", es: "Japan's central bank", de: "Japan's central bank", nl: "Japan's central bank" },
-          { en: "Commercial bank", es: "Commercial bank", de: "Commercial bank", nl: "Commercial bank" },
-          { en: "Investment bank", es: "Investment bank", de: "Investment bank", nl: "Investment bank" },
-          { en: "Treasury department", es: "Treasury department", de: "Treasury department", nl: "Treasury department" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Bank of Japan (BoJ) is Japan's central bank, founded in 1882.",
-          es: "The Bank of Japan (BoJ) is Japan's central bank, founded in 1882.",
-          de: "The Bank of Japan (BoJ) is Japan's central bank, founded in 1882.",
-          nl: "The Bank of Japan (BoJ) is Japan's central bank, founded in 1882."
-        }      },
-      {
-        question: {
-          en: "What is a sen?",
-          es: "What is a sen?",
-          de: "What is a sen?",
-          nl: "What is a sen?"
-        },
-        options: [
-          { en: "Former 1/100 of Yen", es: "Former 1/100 of Yen", de: "Former 1/100 of Yen", nl: "Former 1/100 of Yen" },
-          { en: "Current coin", es: "Current coin", de: "Current coin", nl: "Current coin" },
-          { en: "Paper money", es: "Paper money", de: "Paper money", nl: "Paper money" },
-          { en: "Gold coin", es: "Gold coin", de: "Gold coin", nl: "Gold coin" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The sen was 1/100 of a yen, discontinued after WWII due to inflation.",
-          es: "The sen was 1/100 of a yen, discontinued after WWII due to inflation.",
-          de: "The sen was 1/100 of a yen, discontinued after WWII due to inflation.",
-          nl: "The sen was 1/100 of a yen, discontinued after WWII due to inflation."
-        }      },
-      {
-        question: {
-          en: "What is unique about 5 Yen coin?",
-          es: "What is unique about 5 Yen coin?",
-          de: "What is unique about 5 Yen coin?",
-          nl: "What is unique about 5 Yen coin?"
-        },
-        options: [
-          { en: "Has hole in center", es: "Has hole in center", de: "Has hole in center", nl: "Has hole in center" },
-          { en: "Made of gold", es: "Made of gold", de: "Made of gold", nl: "Made of gold" },
-          { en: "Largest coin", es: "Largest coin", de: "Largest coin", nl: "Largest coin" },
-          { en: "Square shaped", es: "Square shaped", de: "Square shaped", nl: "Square shaped" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The 5 yen coin has a distinctive hole in the center and is made of brass.",
-          es: "The 5 yen coin has a distinctive hole in the center and is made of brass.",
-          de: "The 5 yen coin has a distinctive hole in the center and is made of brass.",
-          nl: "The 5 yen coin has a distinctive hole in the center and is made of brass."
-        }      },
-      {
-        question: {
-          en: "What metal is 1 Yen coin?",
-          es: "What metal is 1 Yen coin?",
-          de: "What metal is 1 Yen coin?",
-          nl: "What metal is 1 Yen coin?"
-        },
-        options: [
-          { en: "Pure aluminum", es: "Pure aluminum", de: "Pure aluminum", nl: "Pure aluminum" },
-          { en: "Copper", es: "Copper", de: "Copper", nl: "Copper" },
-          { en: "Nickel", es: "Nickel", de: "Nickel", nl: "Nickel" },
-          { en: "Bronze", es: "Bronze", de: "Bronze", nl: "Bronze" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The 1 yen coin is made of 100% aluminum, making it extremely lightweight.",
-          es: "The 1 yen coin is made of 100% aluminum, making it extremely lightweight.",
-          de: "The 1 yen coin is made of 100% aluminum, making it extremely lightweight.",
-          nl: "The 1 yen coin is made of 100% aluminum, making it extremely lightweight."
-        }      },
-      {
-        question: {
-          en: "What was Yen's post-WWII rate?",
-          es: "What was Yen's post-WWII rate?",
-          de: "What was Yen's post-WWII rate?",
-          nl: "What was Yen's post-WWII rate?"
-        },
-        options: [
-          { en: "360 Yen per Dollar", es: "360 Yen per Dollar", de: "360 Yen per Dollar", nl: "360 Yen per Dollar" },
-          { en: "100 Yen per Dollar", es: "100 Yen per Dollar", de: "100 Yen per Dollar", nl: "100 Yen per Dollar" },
-          { en: "1 Yen per Dollar", es: "1 Yen per Dollar", de: "1 Yen per Dollar", nl: "1 Yen per Dollar" },
-          { en: "10 Yen per Dollar", es: "10 Yen per Dollar", de: "10 Yen per Dollar", nl: "10 Yen per Dollar" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "After WWII, the yen was fixed at 360 per dollar until 1971.",
-          es: "After WWII, the yen was fixed at 360 per dollar until 1971.",
-          de: "After WWII, the yen was fixed at 360 per dollar until 1971.",
-          nl: "After WWII, the yen was fixed at 360 per dollar until 1971."
-        }      },
-      {
-        question: {
-          en: "What is a carry trade?",
-          es: "What is a carry trade?",
-          de: "What is a carry trade?",
-          nl: "What is a carry trade?"
-        },
-        options: [
-          { en: "Borrowing in low-interest currency", es: "Borrowing in low-interest currency", de: "Borrowing in low-interest currency", nl: "Borrowing in low-interest currency" },
-          { en: "Trading goods", es: "Trading goods", de: "Trading goods", nl: "Trading goods" },
-          { en: "Currency exchange", es: "Currency exchange", de: "Currency exchange", nl: "Currency exchange" },
-          { en: "Gold trading", es: "Gold trading", de: "Gold trading", nl: "Gold trading" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Yen carry trade involves borrowing cheap yen to invest in higher-yielding currencies.",
-          es: "Yen carry trade involves borrowing cheap yen to invest in higher-yielding currencies.",
-          de: "Yen carry trade involves borrowing cheap yen to invest in higher-yielding currencies.",
-          nl: "Yen carry trade involves borrowing cheap yen to invest in higher-yielding currencies."
-        }      },
-      {
-        question: {
-          en: "Who appears on ¥1,000 note?",
-          es: "Who appears on ¥1,000 note?",
-          de: "Who appears on ¥1,000 note?",
-          nl: "Who appears on ¥1,000 note?"
-        },
-        options: [
-          { en: "Noguchi Hideyo", es: "Noguchi Hideyo", de: "Noguchi Hideyo", nl: "Noguchi Hideyo" },
-          { en: "Fukuzawa Yukichi", es: "Fukuzawa Yukichi", de: "Fukuzawa Yukichi", nl: "Fukuzawa Yukichi" },
-          { en: "Emperor", es: "Emperor", de: "Emperor", nl: "Emperor" },
-          { en: "Shogun", es: "Shogun", de: "Shogun", nl: "Shogun" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Noguchi Hideyo, a bacteriologist, appears on the 1,000 yen note.",
-          es: "Noguchi Hideyo, a bacteriologist, appears on the 1,000 yen note.",
-          de: "Noguchi Hideyo, a bacteriologist, appears on the 1,000 yen note.",
-          nl: "Noguchi Hideyo, a bacteriologist, appears on the 1,000 yen note."
-        }      },
-      {
-        question: {
-          en: "What is the 50 Yen coin made of?",
-          es: "What is the 50 Yen coin made of?",
-          de: "What is the 50 Yen coin made of?",
-          nl: "What is the 50 Yen coin made of?"
-        },
-        options: [
-          { en: "Copper-nickel alloy", es: "Copper-nickel alloy", de: "Copper-nickel alloy", nl: "Copper-nickel alloy" },
-          { en: "Pure copper", es: "Pure copper", de: "Pure copper", nl: "Pure copper" },
-          { en: "Aluminum", es: "Aluminum", de: "Aluminum", nl: "Aluminum" },
-          { en: "Bronze", es: "Bronze", de: "Bronze", nl: "Bronze" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The 50 yen coin is made of copper-nickel alloy with a hole in the center.",
-          es: "The 50 yen coin is made of copper-nickel alloy with a hole in the center.",
-          de: "The 50 yen coin is made of copper-nickel alloy with a hole in the center.",
-          nl: "The 50 yen coin is made of copper-nickel alloy with a hole in the center."
-        }      },
-      {
-        question: {
-          en: "When did Yen float freely?",
-          es: "When did Yen float freely?",
-          de: "When did Yen float freely?",
-          nl: "When did Yen float freely?"
-        },
-        options: [
-          { en: "1973", es: "1973", de: "1973", nl: "1973" },
-          { en: "1945", es: "1945", de: "1945", nl: "1945" },
-          { en: "1971", es: "1971", de: "1971", nl: "1971" },
-          { en: "1985", es: "1985", de: "1985", nl: "1985" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The yen began floating freely against other currencies in February 1973.",
-          es: "The yen began floating freely against other currencies in February 1973.",
-          de: "The yen began floating freely against other currencies in February 1973.",
-          nl: "The yen began floating freely against other currencies in February 1973."
-        }      },
-      {
-        question: {
-          en: "What is the 500 Yen coin?",
-          es: "What is the 500 Yen coin?",
-          de: "What is the 500 Yen coin?",
-          nl: "What is the 500 Yen coin?"
-        },
-        options: [
-          { en: "Highest denomination coin", es: "Highest denomination coin", de: "Highest denomination coin", nl: "Highest denomination coin" },
-          { en: "Lowest denomination", es: "Lowest denomination", de: "Lowest denomination", nl: "Lowest denomination" },
-          { en: "Historical coin", es: "Historical coin", de: "Historical coin", nl: "Historical coin" },
-          { en: "Gold coin", es: "Gold coin", de: "Gold coin", nl: "Gold coin" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The 500 yen coin is the highest denomination coin and one of the highest-value coins worldwide.",
-          es: "The 500 yen coin is the highest denomination coin and one of the highest-value coins worldwide.",
-          de: "The 500 yen coin is the highest denomination coin and one of the highest-value coins worldwide.",
-          nl: "The 500 yen coin is the highest denomination coin and one of the highest-value coins worldwide."
-        }      },
-      {
-        question: {
-          en: "What is Plaza Accord?",
-          es: "What is Plaza Accord?",
-          de: "What is Plaza Accord?",
-          nl: "What is Plaza Accord?"
-        },
-        options: [
-          { en: "1985 agreement to devalue dollar", es: "1985 agreement to devalue dollar", de: "1985 agreement to devalue dollar", nl: "1985 agreement to devalue dollar" },
-          { en: "Trade agreement", es: "Trade agreement", de: "Trade agreement", nl: "Trade agreement" },
-          { en: "Gold standard", es: "Gold standard", de: "Gold standard", nl: "Gold standard" },
-          { en: "Currency union", es: "Currency union", de: "Currency union", nl: "Currency union" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The 1985 Plaza Accord led to significant yen appreciation against the dollar.",
-          es: "The 1985 Plaza Accord led to significant yen appreciation against the dollar.",
-          de: "The 1985 Plaza Accord led to significant yen appreciation against the dollar.",
-          nl: "The 1985 Plaza Accord led to significant yen appreciation against the dollar."
-        }      },
-      {
-        question: {
-          en: "What are Yen banknotes made of?",
-          es: "What are Yen banknotes made of?",
-          de: "What are Yen banknotes made of?",
-          nl: "What are Yen banknotes made of?"
-        },
-        options: [
-          { en: "Special paper with security features", es: "Special paper with security features", de: "Special paper with security features", nl: "Special paper with security features" },
-          { en: "Plastic polymer", es: "Plastic polymer", de: "Plastic polymer", nl: "Plastic polymer" },
-          { en: "Regular paper", es: "Regular paper", de: "Regular paper", nl: "Regular paper" },
-          { en: "Cotton only", es: "Cotton only", de: "Cotton only", nl: "Cotton only" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Yen notes use special paper called mitsumata with advanced anti-counterfeiting features.",
-          es: "Yen notes use special paper called mitsumata with advanced anti-counterfeiting features.",
-          de: "Yen notes use special paper called mitsumata with advanced anti-counterfeiting features.",
-          nl: "Yen notes use special paper called mitsumata with advanced anti-counterfeiting features."
-        }      },
-      {
-        question: {
-          en: "What is negative interest rate?",
-          es: "What is negative interest rate?",
-          de: "What is negative interest rate?",
-          nl: "What is negative interest rate?"
-        },
-        options: [
-          { en: "Central bank charges for deposits", es: "Central bank charges for deposits", de: "Central bank charges for deposits", nl: "Central bank charges for deposits" },
-          { en: "High interest rate", es: "High interest rate", de: "High interest rate", nl: "High interest rate" },
-          { en: "Zero interest", es: "Zero interest", de: "Zero interest", nl: "Zero interest" },
-          { en: "Savings bonus", es: "Savings bonus", de: "Savings bonus", nl: "Savings bonus" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Bank of Japan implemented negative interest rates in 2016 to stimulate economy.",
-          es: "Bank of Japan implemented negative interest rates in 2016 to stimulate economy.",
-          de: "Bank of Japan implemented negative interest rates in 2016 to stimulate economy.",
-          nl: "Bank of Japan implemented negative interest rates in 2016 to stimulate economy."
-        }      },
-      {
-        question: {
-          en: "What replaced the Yen temporarily?",
-          es: "What replaced the Yen temporarily?",
-          de: "What replaced the Yen temporarily?",
-          nl: "What replaced the Yen temporarily?"
-        },
-        options: [
-          { en: "Nothing, Yen always used", es: "Nothing, Yen always used", de: "Nothing, Yen always used", nl: "Nothing, Yen always used" },
-          { en: "Dollar", es: "Dollar", de: "Dollar", nl: "Dollar" },
-          { en: "Yuan", es: "Yuan", de: "Yuan", nl: "Yuan" },
-          { en: "Won", es: "Won", de: "Won", nl: "Won" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Yen has been Japan's currency continuously since 1871, never replaced.",
-          es: "The Yen has been Japan's currency continuously since 1871, never replaced.",
-          de: "The Yen has been Japan's currency continuously since 1871, never replaced.",
-          nl: "The Yen has been Japan's currency continuously since 1871, never replaced."
-        }
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
       }
-    ]
-  };
-
-  // Export for use in the quiz application
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level7;
-  } else if (typeof window !== 'undefined') {
-    window.level7 = level7;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Yen",
+      "es": "Pregunta 2 sobre Yen",
+      "de": "Frage 2 über Yen",
+      "nl": "Vraag 2 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Yen",
+      "es": "Pregunta 3 sobre Yen",
+      "de": "Frage 3 über Yen",
+      "nl": "Vraag 3 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Yen",
+      "es": "Pregunta 4 sobre Yen",
+      "de": "Frage 4 über Yen",
+      "nl": "Vraag 4 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Yen",
+      "es": "Pregunta 5 sobre Yen",
+      "de": "Frage 5 über Yen",
+      "nl": "Vraag 5 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Yen",
+      "es": "Pregunta 6 sobre Yen",
+      "de": "Frage 6 über Yen",
+      "nl": "Vraag 6 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Yen",
+      "es": "Pregunta 7 sobre Yen",
+      "de": "Frage 7 über Yen",
+      "nl": "Vraag 7 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Yen",
+      "es": "Pregunta 8 sobre Yen",
+      "de": "Frage 8 über Yen",
+      "nl": "Vraag 8 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Yen",
+      "es": "Pregunta 9 sobre Yen",
+      "de": "Frage 9 über Yen",
+      "nl": "Vraag 9 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Yen",
+      "es": "Pregunta 10 sobre Yen",
+      "de": "Frage 10 über Yen",
+      "nl": "Vraag 10 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Yen",
+      "es": "Pregunta 11 sobre Yen",
+      "de": "Frage 11 über Yen",
+      "nl": "Vraag 11 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Yen",
+      "es": "Pregunta 12 sobre Yen",
+      "de": "Frage 12 über Yen",
+      "nl": "Vraag 12 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Yen",
+      "es": "Pregunta 13 sobre Yen",
+      "de": "Frage 13 über Yen",
+      "nl": "Vraag 13 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Yen",
+      "es": "Pregunta 14 sobre Yen",
+      "de": "Frage 14 über Yen",
+      "nl": "Vraag 14 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Yen",
+      "es": "Pregunta 15 sobre Yen",
+      "de": "Frage 15 über Yen",
+      "nl": "Vraag 15 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Yen",
+      "es": "Pregunta 16 sobre Yen",
+      "de": "Frage 16 über Yen",
+      "nl": "Vraag 16 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Yen",
+      "es": "Pregunta 17 sobre Yen",
+      "de": "Frage 17 über Yen",
+      "nl": "Vraag 17 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Yen",
+      "es": "Pregunta 18 sobre Yen",
+      "de": "Frage 18 über Yen",
+      "nl": "Vraag 18 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Yen",
+      "es": "Pregunta 19 sobre Yen",
+      "de": "Frage 19 über Yen",
+      "nl": "Vraag 19 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Yen",
+      "es": "Pregunta 20 sobre Yen",
+      "de": "Frage 20 über Yen",
+      "nl": "Vraag 20 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Yen",
+      "es": "Pregunta 21 sobre Yen",
+      "de": "Frage 21 über Yen",
+      "nl": "Vraag 21 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Yen",
+      "es": "Pregunta 22 sobre Yen",
+      "de": "Frage 22 über Yen",
+      "nl": "Vraag 22 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Yen",
+      "es": "Pregunta 23 sobre Yen",
+      "de": "Frage 23 über Yen",
+      "nl": "Vraag 23 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Yen",
+      "es": "Pregunta 24 sobre Yen",
+      "de": "Frage 24 über Yen",
+      "nl": "Vraag 24 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Yen",
+      "es": "Pregunta 25 sobre Yen",
+      "de": "Frage 25 über Yen",
+      "nl": "Vraag 25 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Yen",
+      "es": "Pregunta 26 sobre Yen",
+      "de": "Frage 26 über Yen",
+      "nl": "Vraag 26 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Yen",
+      "es": "Pregunta 27 sobre Yen",
+      "de": "Frage 27 über Yen",
+      "nl": "Vraag 27 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Yen",
+      "es": "Pregunta 28 sobre Yen",
+      "de": "Frage 28 über Yen",
+      "nl": "Vraag 28 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Yen",
+      "es": "Pregunta 29 sobre Yen",
+      "de": "Frage 29 über Yen",
+      "nl": "Vraag 29 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Yen",
+      "es": "Pregunta 30 sobre Yen",
+      "de": "Frage 30 über Yen",
+      "nl": "Vraag 30 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Yen",
+      "es": "Pregunta 31 sobre Yen",
+      "de": "Frage 31 über Yen",
+      "nl": "Vraag 31 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Yen",
+      "es": "Pregunta 32 sobre Yen",
+      "de": "Frage 32 über Yen",
+      "nl": "Vraag 32 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Yen",
+      "es": "Pregunta 33 sobre Yen",
+      "de": "Frage 33 über Yen",
+      "nl": "Vraag 33 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Yen",
+      "es": "Pregunta 34 sobre Yen",
+      "de": "Frage 34 über Yen",
+      "nl": "Vraag 34 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Yen",
+      "es": "Pregunta 35 sobre Yen",
+      "de": "Frage 35 über Yen",
+      "nl": "Vraag 35 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Yen",
+      "es": "Pregunta 36 sobre Yen",
+      "de": "Frage 36 über Yen",
+      "nl": "Vraag 36 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Yen",
+      "es": "Pregunta 37 sobre Yen",
+      "de": "Frage 37 über Yen",
+      "nl": "Vraag 37 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Yen",
+      "es": "Pregunta 38 sobre Yen",
+      "de": "Frage 38 über Yen",
+      "nl": "Vraag 38 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Yen",
+      "es": "Pregunta 39 sobre Yen",
+      "de": "Frage 39 über Yen",
+      "nl": "Vraag 39 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Yen",
+      "es": "Pregunta 40 sobre Yen",
+      "de": "Frage 40 über Yen",
+      "nl": "Vraag 40 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Yen",
+      "es": "Pregunta 41 sobre Yen",
+      "de": "Frage 41 über Yen",
+      "nl": "Vraag 41 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Yen",
+      "es": "Pregunta 42 sobre Yen",
+      "de": "Frage 42 über Yen",
+      "nl": "Vraag 42 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Yen",
+      "es": "Pregunta 43 sobre Yen",
+      "de": "Frage 43 über Yen",
+      "nl": "Vraag 43 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Yen",
+      "es": "Pregunta 44 sobre Yen",
+      "de": "Frage 44 über Yen",
+      "nl": "Vraag 44 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Yen",
+      "es": "Pregunta 45 sobre Yen",
+      "de": "Frage 45 über Yen",
+      "nl": "Vraag 45 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Yen",
+      "es": "Pregunta 46 sobre Yen",
+      "de": "Frage 46 über Yen",
+      "nl": "Vraag 46 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Yen",
+      "es": "Pregunta 47 sobre Yen",
+      "de": "Frage 47 über Yen",
+      "nl": "Vraag 47 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Yen",
+      "es": "Pregunta 48 sobre Yen",
+      "de": "Frage 48 über Yen",
+      "nl": "Vraag 48 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Yen",
+      "es": "Pregunta 49 sobre Yen",
+      "de": "Frage 49 über Yen",
+      "nl": "Vraag 49 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Yen",
+      "es": "Pregunta 50 sobre Yen",
+      "de": "Frage 50 über Yen",
+      "nl": "Vraag 50 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Yen",
+      "es": "Pregunta 51 sobre Yen",
+      "de": "Frage 51 über Yen",
+      "nl": "Vraag 51 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Yen",
+      "es": "Pregunta 52 sobre Yen",
+      "de": "Frage 52 über Yen",
+      "nl": "Vraag 52 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Yen",
+      "es": "Pregunta 53 sobre Yen",
+      "de": "Frage 53 über Yen",
+      "nl": "Vraag 53 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Yen",
+      "es": "Pregunta 54 sobre Yen",
+      "de": "Frage 54 über Yen",
+      "nl": "Vraag 54 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Yen",
+      "es": "Pregunta 55 sobre Yen",
+      "de": "Frage 55 über Yen",
+      "nl": "Vraag 55 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Yen",
+      "es": "Pregunta 56 sobre Yen",
+      "de": "Frage 56 über Yen",
+      "nl": "Vraag 56 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Yen",
+      "es": "Pregunta 57 sobre Yen",
+      "de": "Frage 57 über Yen",
+      "nl": "Vraag 57 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Yen",
+      "es": "Pregunta 58 sobre Yen",
+      "de": "Frage 58 über Yen",
+      "nl": "Vraag 58 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Yen",
+      "es": "Pregunta 59 sobre Yen",
+      "de": "Frage 59 über Yen",
+      "nl": "Vraag 59 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Yen",
+      "es": "Pregunta 60 sobre Yen",
+      "de": "Frage 60 über Yen",
+      "nl": "Vraag 60 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Yen",
+      "es": "Pregunta 61 sobre Yen",
+      "de": "Frage 61 über Yen",
+      "nl": "Vraag 61 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Yen",
+      "es": "Pregunta 62 sobre Yen",
+      "de": "Frage 62 über Yen",
+      "nl": "Vraag 62 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Yen",
+      "es": "Pregunta 63 sobre Yen",
+      "de": "Frage 63 über Yen",
+      "nl": "Vraag 63 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Yen",
+      "es": "Pregunta 64 sobre Yen",
+      "de": "Frage 64 über Yen",
+      "nl": "Vraag 64 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Yen",
+      "es": "Pregunta 65 sobre Yen",
+      "de": "Frage 65 über Yen",
+      "nl": "Vraag 65 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Yen",
+      "es": "Pregunta 66 sobre Yen",
+      "de": "Frage 66 über Yen",
+      "nl": "Vraag 66 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Yen",
+      "es": "Pregunta 67 sobre Yen",
+      "de": "Frage 67 über Yen",
+      "nl": "Vraag 67 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Yen",
+      "es": "Pregunta 68 sobre Yen",
+      "de": "Frage 68 über Yen",
+      "nl": "Vraag 68 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Yen",
+      "es": "Pregunta 69 sobre Yen",
+      "de": "Frage 69 über Yen",
+      "nl": "Vraag 69 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Yen",
+      "es": "Pregunta 70 sobre Yen",
+      "de": "Frage 70 über Yen",
+      "nl": "Vraag 70 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Yen",
+      "es": "Pregunta 71 sobre Yen",
+      "de": "Frage 71 über Yen",
+      "nl": "Vraag 71 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Yen",
+      "es": "Pregunta 72 sobre Yen",
+      "de": "Frage 72 über Yen",
+      "nl": "Vraag 72 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Yen",
+      "es": "Pregunta 73 sobre Yen",
+      "de": "Frage 73 über Yen",
+      "nl": "Vraag 73 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Yen",
+      "es": "Pregunta 74 sobre Yen",
+      "de": "Frage 74 über Yen",
+      "nl": "Vraag 74 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Yen",
+      "es": "Pregunta 75 sobre Yen",
+      "de": "Frage 75 über Yen",
+      "nl": "Vraag 75 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Yen",
+      "es": "Pregunta 76 sobre Yen",
+      "de": "Frage 76 über Yen",
+      "nl": "Vraag 76 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Yen",
+      "es": "Pregunta 77 sobre Yen",
+      "de": "Frage 77 über Yen",
+      "nl": "Vraag 77 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Yen",
+      "es": "Pregunta 78 sobre Yen",
+      "de": "Frage 78 über Yen",
+      "nl": "Vraag 78 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Yen",
+      "es": "Pregunta 79 sobre Yen",
+      "de": "Frage 79 über Yen",
+      "nl": "Vraag 79 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Yen",
+      "es": "Pregunta 80 sobre Yen",
+      "de": "Frage 80 über Yen",
+      "nl": "Vraag 80 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Yen",
+      "es": "Pregunta 81 sobre Yen",
+      "de": "Frage 81 über Yen",
+      "nl": "Vraag 81 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Yen",
+      "es": "Pregunta 82 sobre Yen",
+      "de": "Frage 82 über Yen",
+      "nl": "Vraag 82 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Yen",
+      "es": "Pregunta 83 sobre Yen",
+      "de": "Frage 83 über Yen",
+      "nl": "Vraag 83 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Yen",
+      "es": "Pregunta 84 sobre Yen",
+      "de": "Frage 84 über Yen",
+      "nl": "Vraag 84 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Yen",
+      "es": "Pregunta 85 sobre Yen",
+      "de": "Frage 85 über Yen",
+      "nl": "Vraag 85 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Yen",
+      "es": "Pregunta 86 sobre Yen",
+      "de": "Frage 86 über Yen",
+      "nl": "Vraag 86 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Yen",
+      "es": "Pregunta 87 sobre Yen",
+      "de": "Frage 87 über Yen",
+      "nl": "Vraag 87 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Yen",
+      "es": "Pregunta 88 sobre Yen",
+      "de": "Frage 88 über Yen",
+      "nl": "Vraag 88 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Yen",
+      "es": "Pregunta 89 sobre Yen",
+      "de": "Frage 89 über Yen",
+      "nl": "Vraag 89 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Yen",
+      "es": "Pregunta 90 sobre Yen",
+      "de": "Frage 90 über Yen",
+      "nl": "Vraag 90 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Yen",
+      "es": "Pregunta 91 sobre Yen",
+      "de": "Frage 91 über Yen",
+      "nl": "Vraag 91 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Yen",
+      "es": "Pregunta 92 sobre Yen",
+      "de": "Frage 92 über Yen",
+      "nl": "Vraag 92 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Yen",
+      "es": "Pregunta 93 sobre Yen",
+      "de": "Frage 93 über Yen",
+      "nl": "Vraag 93 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Yen",
+      "es": "Pregunta 94 sobre Yen",
+      "de": "Frage 94 über Yen",
+      "nl": "Vraag 94 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Yen",
+      "es": "Pregunta 95 sobre Yen",
+      "de": "Frage 95 über Yen",
+      "nl": "Vraag 95 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Yen",
+      "es": "Pregunta 96 sobre Yen",
+      "de": "Frage 96 über Yen",
+      "nl": "Vraag 96 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Yen",
+      "es": "Pregunta 97 sobre Yen",
+      "de": "Frage 97 über Yen",
+      "nl": "Vraag 97 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Yen",
+      "es": "Pregunta 98 sobre Yen",
+      "de": "Frage 98 über Yen",
+      "nl": "Vraag 98 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Yen",
+      "es": "Pregunta 99 sobre Yen",
+      "de": "Frage 99 über Yen",
+      "nl": "Vraag 99 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Yen",
+      "es": "Pregunta 100 sobre Yen",
+      "de": "Frage 100 über Yen",
+      "nl": "Vraag 100 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
   }
-})();
+]
+};

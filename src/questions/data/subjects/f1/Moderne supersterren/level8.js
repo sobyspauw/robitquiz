@@ -1,260 +1,4104 @@
-// Moderne supersterren Quiz - Level 8
-(function() {
-  const level8 = {
-    name: {
-      en: "Modern Superstars Level 8",
-      es: "Superestrellas Modernas Nivel 8",
-      de: "Moderne Superstars Stufe 8",
-      nl: "Moderne Supersterren Level 8"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Moderne supersterren",
+      "es": "Pregunta 1 sobre Moderne supersterren",
+      "de": "Frage 1 über Moderne supersterren",
+      "nl": "Vraag 1 over Moderne supersterren"
     },
-    questions: [
-{
-    question:{en:"In which season did Max Verstappen achieve his highest single-season point total before the 2023 sprint format changes?",es:"¿En qué temporada logró Max Verstappen su mayor total de puntos en una sola temporada antes de los cambios de formato de sprint de 2023?",de:"In welcher Saison erzielte Max Verstappen seine höchste Einzelsaison-Punktzahl vor den Sprint-Format-Änderungen 2023?",nl:"In welk seizoen behaalde Max Verstappen zijn hoogste punten totaal in een enkel seizoen vóór de 2023 sprint formaat veranderingen?"},
-    options:["2019 (278 points)","2020 (214 points)","2021 (395.5 points)","2022 (454 points)"],
-    correct:3,
-    explanation:{en:"Verstappen scored 454 points in 2022, highest pre-2023 total. He won 15/22 races with Red Bull RB18 dominance. 2021's 395.5 points included half-points from Belgium washout. 2023's 575 points benefited from new sprint scoring format.",es:"Verstappen anotó 454 puntos en 2022, total más alto pre-2023. Ganó 15/22 carreras con dominancia Red Bull RB18. Los 395.5 puntos de 2021 incluyeron medio punto de Bélgica cancelada. Los 575 puntos de 2023 beneficiaron del nuevo formato de sprint.",de:"Verstappen erzielte 2022 454 Punkte, höchste Gesamtzahl vor 2023. Er gewann 15/22 Rennen mit Red Bull RB18-Dominanz. 2021s 395,5 Punkte beinhalteten halbe Punkte von Belgien-Absage. 2023s 575 Punkte profitierten von neuem Sprint-Wertungsformat.",nl:"Verstappen scoorde 454 punten in 2022, hoogste pre-2023 totaal. Hij won 15/22 races met Red Bull RB18 dominantie. 2021's 395.5 punten omvatten half-punten van België afgelasting. 2023's 575 punten profiteerden van nieuw sprint score formaat."}
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
   },
   {
-    question:{en:"How many pole positions did Lewis Hamilton take at the Circuit de Catalunya in Barcelona across his career?",es:"¿Cuántas pole positions logró Lewis Hamilton en el Circuit de Catalunya en Barcelona durante su carrera?",de:"Wie viele Pole-Positions holte Lewis Hamilton im Circuit de Catalunya in Barcelona während seiner Karriere?",nl:"Hoeveel pole positions behaalde Lewis Hamilton op het Circuit de Catalunya in Barcelona gedurende zijn carrière?"},
-    options:["6 poles","7 poles","8 poles","9 poles"],
-    correct:2,
-    explanation:{en:"Hamilton took 8 Barcelona poles (2017-2020 Mercedes streak plus 2018, 2016, 2014, 2013). Spanish GP was his strongest qualifying circuit. He converted 6/8 to wins, losing 2017 to Vettel and 2016 to Verstappen after Mercedes clash.",es:"Hamilton logró 8 poles en Barcelona (racha Mercedes 2017-2020 más 2018, 2016, 2014, 2013). El GP de España fue su circuito de clasificación más fuerte. Convirtió 6/8 en victorias, perdiendo 2017 ante Vettel y 2016 ante Verstappen tras choque Mercedes.",de:"Hamilton holte 8 Barcelona-Poles (Mercedes-Serie 2017-2020 plus 2018, 2016, 2014, 2013). Spanien-GP war seine stärkste Qualifying-Strecke. Er wandelte 6/8 in Siege um, verlor 2017 an Vettel und 2016 an Verstappen nach Mercedes-Kollision.",nl:"Hamilton behaalde 8 Barcelona poles (Mercedes reeks 2017-2020 plus 2018, 2016, 2014, 2013). Spaanse GP was zijn sterkste kwalificatie circuit. Hij verzilverde 6/8 naar overwinningen, verliezend 2017 aan Vettel en 2016 aan Verstappen na Mercedes clash."}
+    "question": {
+      "en": "Question 2 about Moderne supersterren",
+      "es": "Pregunta 2 sobre Moderne supersterren",
+      "de": "Frage 2 über Moderne supersterren",
+      "nl": "Vraag 2 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
   },
   {
-    question:{en:"What was Sebastian Vettel's win conversion rate during his 4 consecutive championship seasons with Red Bull (2010-2013)?",es:"¿Cuál fue la tasa de conversión de victorias de Sebastian Vettel durante sus 4 temporadas consecutivas de campeonato con Red Bull (2010-2013)?",de:"Wie hoch war Sebastian Vettels Siegquote während seiner 4 aufeinanderfolgenden Meisterschaftssaisons mit Red Bull (2010-2013)?",nl:"Wat was Sebastian Vettel's overwinningsratio tijdens zijn 4 opeenvolgende kampioenschap seizoenen met Red Bull (2010-2013)?"},
-    options:["47.4% (38 wins from 78 races)","51.3% (40 wins from 78 races)","55.1% (43 wins from 78 races)","59.0% (46 wins from 78 races)"],
-    correct:2,
-    explanation:{en:"Vettel won 43 of 78 races (55.1%) during 2010-2013 Red Bull dominance. Peak was 2013: 13/19 wins (68.4%). He added 57 podiums for 100/78 rate (128.2% podium rate). Newey's RB6-RB9 cars gave massive aero advantage in blown diffuser era.",es:"Vettel ganó 43 de 78 carreras (55.1%) durante dominancia Red Bull 2010-2013. Pico fue 2013: 13/19 victorias (68.4%). Agregó 57 podios para tasa 100/78 (128.2% tasa de podio). Los autos RB6-RB9 de Newey dieron ventaja aero masiva en era del difusor soplado.",de:"Vettel gewann 43 von 78 Rennen (55,1%) während Red Bull-Dominanz 2010-2013. Höhepunkt war 2013: 13/19 Siege (68,4%). Er fügte 57 Podien für 100/78-Rate hinzu (128,2% Podiumsrate). Neweys RB6-RB9-Autos gaben massiven Aero-Vorteil in Ära der geblasenen Diffusoren.",nl:"Vettel won 43 van 78 races (55.1%) tijdens 2010-2013 Red Bull dominantie. Piek was 2013: 13/19 overwinningen (68.4%). Hij voegde 57 podiums toe voor 100/78 ratio (128.2% podium percentage). Newey's RB6-RB9 auto's gaven massaal aero voordeel in blown diffuser era."}
+    "question": {
+      "en": "Question 3 about Moderne supersterren",
+      "es": "Pregunta 3 sobre Moderne supersterren",
+      "de": "Frage 3 über Moderne supersterren",
+      "nl": "Vraag 3 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
   },
   {
-    question:{en:"How many times did Fernando Alonso finish on the podium for Ferrari despite not winning the drivers' championship?",es:"¿Cuántas veces terminó Fernando Alonso en el podio para Ferrari a pesar de no ganar el campeonato de pilotos?",de:"Wie oft erreichte Fernando Alonso das Podium für Ferrari, obwohl er die Fahrerweltmeisterschaft nicht gewann?",nl:"Hoe vaak eindigde Fernando Alonso op het podium voor Ferrari ondanks het niet winnen van het rijders kampioenschap?"},
-    options:["38 podiums (2010-2014)","42 podiums (2010-2014)","44 podiums (2010-2014)","48 podiums (2010-2014)"],
-    correct:2,
-    explanation:{en:"Alonso scored 44 Ferrari podiums across 2010-2014 (11 wins, 33 other podiums). He narrowly missed 2 titles: 2010 (4pts to Vettel), 2012 (3pts to Vettel). Despite inconsistent F2012/F14-T cars, he maximized results. Left Ferrari winless in final 2014 season.",es:"Alonso logró 44 podios con Ferrari en 2010-2014 (11 victorias, 33 otros podios). Perdió por poco 2 títulos: 2010 (4pts a Vettel), 2012 (3pts a Vettel). A pesar de autos F2012/F14-T inconsistentes, maximizó resultados. Dejó Ferrari sin victorias en temporada final 2014.",de:"Alonso erzielte 44 Ferrari-Podien über 2010-2014 (11 Siege, 33 andere Podien). Er verpasste knapp 2 Titel: 2010 (4 Pkt. zu Vettel), 2012 (3 Pkt. zu Vettel). Trotz inkonsistenter F2012/F14-T-Autos maximierte er Ergebnisse. Verließ Ferrari sieglos in finaler 2014-Saison.",nl:"Alonso scoorde 44 Ferrari podiums gedurende 2010-2014 (11 overwinningen, 33 andere podiums). Hij miste net 2 titels: 2010 (4pts naar Vettel), 2012 (3pts naar Vettel). Ondanks inconsistente F2012/F14-T auto's, maximaliseerde hij resultaten. Verliet Ferrari winnerloos in finale 2014 seizoen."}
+    "question": {
+      "en": "Question 4 about Moderne supersterren",
+      "es": "Pregunta 4 sobre Moderne supersterren",
+      "de": "Frage 4 über Moderne supersterren",
+      "nl": "Vraag 4 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
   },
   {
-    question:{en:"What was Kimi Räikkönen's record for consecutive races without retirement during his Lotus comeback years (2012-2013)?",es:"¿Cuál fue el récord de Kimi Räikkönen de carreras consecutivas sin retiro durante sus años de regreso con Lotus (2012-2013)?",de:"Was war Kimi Räikkönens Rekord für aufeinanderfolgende Rennen ohne Ausfall während seiner Lotus-Comeback-Jahre (2012-2013)?",nl:"Wat was Kimi Räikkönen's record voor opeenvolgende races zonder uitval tijdens zijn Lotus comeback jaren (2012-2013)?"},
-    options:["23 consecutive finishes","25 consecutive finishes","27 consecutive finishes","29 consecutive finishes"],
-    correct:2,
-    explanation:{en:"Räikkönen finished 27 consecutive races from 2012 Bahrain to 2013 Singapore, F1 reliability record at time. Lotus E20/E21 reliability plus Kimi's smooth style = zero DNFs. Streak ended with 2013 Singapore retirement. He won 1 race (Abu Dhabi 2012) during streak.",es:"Räikkönen terminó 27 carreras consecutivas desde Bahrein 2012 hasta Singapur 2013, récord de fiabilidad F1 en ese momento. Fiabilidad Lotus E20/E21 más estilo suave de Kimi = cero abandonos. Racha terminó con retiro Singapur 2013. Ganó 1 carrera (Abu Dhabi 2012) durante racha.",de:"Räikkönen beendete 27 aufeinanderfolgende Rennen von Bahrain 2012 bis Singapur 2013, F1-Zuverlässigkeitsrekord damals. Lotus E20/E21-Zuverlässigkeit plus Kimis sanfter Stil = null Ausfälle. Serie endete mit Singapur 2013-Ausfall. Er gewann 1 Rennen (Abu Dhabi 2012) während Serie.",nl:"Räikkönen eindigde 27 opeenvolgende races van 2012 Bahrein tot 2013 Singapore, F1 betrouwbaarheids record destijds. Lotus E20/E21 betrouwbaarheid plus Kimi's vloeiende stijl = nul DNF's. Reeks eindigde met 2013 Singapore uitval. Hij won 1 race (Abu Dhabi 2012) tijdens reeks."}
+    "question": {
+      "en": "Question 5 about Moderne supersterren",
+      "es": "Pregunta 5 sobre Moderne supersterren",
+      "de": "Frage 5 über Moderne supersterren",
+      "nl": "Vraag 5 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
   },
   {
-    question:{en:"How many front-row lockouts (pole + P2) did Charles Leclerc achieve with Ferrari teammates through 2023?",es:"¿Cuántos bloqueos de primera fila (pole + P2) logró Charles Leclerc con compañeros de Ferrari hasta 2023?",de:"Wie viele Front-Row-Lockouts (Pole + P2) erreichte Charles Leclerc mit Ferrari-Teamkollegen bis 2023?",nl:"Hoeveel front-row lockouts (pole + P2) behaalde Charles Leclerc met Ferrari teamgenoten tot en met 2023?"},
-    options:["3 front-row lockouts","5 front-row lockouts","7 front-row lockouts","9 front-row lockouts"],
-    correct:1,
-    explanation:{en:"Leclerc/Vettel/Sainz achieved 5 Ferrari front-row lockouts through 2023: 2019 Bahrain (Leclerc pole/Vettel P2), 2022 Bahrain (Leclerc/Sainz), 2022 Australia (Leclerc/Sainz), 2022 Monaco (Leclerc/Sainz), 2022 France (Leclerc/Sainz). All 2022 lockouts featured Sainz P2 to Leclerc pole.",es:"Leclerc/Vettel/Sainz lograron 5 bloqueos de primera fila de Ferrari hasta 2023: 2019 Bahrein (Leclerc pole/Vettel P2), 2022 Bahrein (Leclerc/Sainz), 2022 Australia (Leclerc/Sainz), 2022 Mónaco (Leclerc/Sainz), 2022 Francia (Leclerc/Sainz). Todos los bloqueos 2022 presentaron Sainz P2 a pole de Leclerc.",de:"Leclerc/Vettel/Sainz erreichten 5 Ferrari-Front-Row-Lockouts bis 2023: 2019 Bahrain (Leclerc Pole/Vettel P2), 2022 Bahrain (Leclerc/Sainz), 2022 Australien (Leclerc/Sainz), 2022 Monaco (Leclerc/Sainz), 2022 Frankreich (Leclerc/Sainz). Alle 2022-Lockouts zeigten Sainz P2 zu Leclerc Pole.",nl:"Leclerc/Vettel/Sainz behaalden 5 Ferrari front-row lockouts tot en met 2023: 2019 Bahrein (Leclerc pole/Vettel P2), 2022 Bahrein (Leclerc/Sainz), 2022 Australië (Leclerc/Sainz), 2022 Monaco (Leclerc/Sainz), 2022 Frankrijk (Leclerc/Sainz). Alle 2022 lockouts toonden Sainz P2 naar Leclerc pole."}
+    "question": {
+      "en": "Question 6 about Moderne supersterren",
+      "es": "Pregunta 6 sobre Moderne supersterren",
+      "de": "Frage 6 über Moderne supersterren",
+      "nl": "Vraag 6 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
   },
   {
-    question:{en:"What percentage of Valtteri Bottas's Mercedes career podiums (67 total) were race victories?",es:"¿Qué porcentaje de los podios de Valtteri Bottas en su carrera con Mercedes (67 totales) fueron victorias de carreras?",de:"Welcher Prozentsatz von Valtteri Bottas' Mercedes-Karriere-Podien (67 insgesamt) waren Rennsiege?",nl:"Welk percentage van Valtteri Bottas's Mercedes carrière podiums (67 totaal) waren race overwinningen?"},
-    options:["10 wins = 14.9%","10 wins = 16.4%","10 wins = 17.9%","10 wins = 19.4%"],
-    correct:0,
-    explanation:{en:"Bottas won 10 of 67 Mercedes podiums (14.9%) from 2017-2021. He finished P2/P3 57 times, often supporting Hamilton. Despite 20 poles, low conversion rate reflected team orders and racecraft gaps. His 10 wins came at 8 different circuits showing versatility.",es:"Bottas ganó 10 de 67 podios con Mercedes (14.9%) de 2017-2021. Terminó P2/P3 57 veces, a menudo apoyando a Hamilton. A pesar de 20 poles, baja tasa de conversión reflejó órdenes de equipo y brechas de habilidad de carrera. Sus 10 victorias vinieron en 8 circuitos diferentes mostrando versatilidad.",de:"Bottas gewann 10 von 67 Mercedes-Podien (14,9%) von 2017-2021. Er beendete P2/P3 57 Mal, unterstützte oft Hamilton. Trotz 20 Poles spiegelte niedrige Conversion-Rate Teamorders und Rennkunst-Lücken wider. Seine 10 Siege kamen auf 8 verschiedenen Strecken, zeigten Vielseitigkeit.",nl:"Bottas won 10 van 67 Mercedes podiums (14.9%) van 2017-2021. Hij eindigde P2/P3 57 keer, vaak Hamilton ondersteunend. Ondanks 20 poles, reflecteerde lage conversie ratio team orders en racecraft kloven. Zijn 10 overwinningen kwamen op 8 verschillende circuits veelzijdigheid tonend."}
+    "question": {
+      "en": "Question 7 about Moderne supersterren",
+      "es": "Pregunta 7 sobre Moderne supersterren",
+      "de": "Frage 7 über Moderne supersterren",
+      "nl": "Vraag 7 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
   },
   {
-    question:{en:"How many career podiums did Daniel Ricciardo achieve with Red Bull Racing between 2014-2018?",es:"¿Cuántos podios de carrera logró Daniel Ricciardo con Red Bull Racing entre 2014-2018?",de:"Wie viele Karriere-Podien erreichte Daniel Ricciardo mit Red Bull Racing zwischen 2014-2018?",nl:"Hoeveel carrière podiums behaalde Daniel Ricciardo met Red Bull Racing tussen 2014-2018?"},
-    options:["27 podiums (7 wins)","29 podiums (7 wins)","31 podiums (7 wins)","33 podiums (7 wins)"],
-    correct:1,
-    explanation:{en:"Ricciardo scored 29 Red Bull podiums (7 wins, 22 P2/P3) from 2014-2018. He beat Vettel 2014 (3 wins vs 0), matched Verstappen pace. Peak: 2016 with 8 podiums. Left for Renault 2019 seeking #1 status, ultimately regretted move.",es:"Ricciardo logró 29 podios con Red Bull (7 victorias, 22 P2/P3) de 2014-2018. Venció a Vettel 2014 (3 victorias vs 0), igualó ritmo de Verstappen. Pico: 2016 con 8 podios. Se fue a Renault 2019 buscando estatus #1, finalmente lamentó movimiento.",de:"Ricciardo erzielte 29 Red Bull-Podien (7 Siege, 22 P2/P3) von 2014-2018. Er schlug Vettel 2014 (3 Siege vs 0), entsprach Verstappen-Tempo. Höhepunkt: 2016 mit 8 Podien. Wechselte zu Renault 2019 auf Suche nach #1-Status, bereute Schritt letztendlich.",nl:"Ricciardo scoorde 29 Red Bull podiums (7 overwinningen, 22 P2/P3) van 2014-2018. Hij versloeg Vettel 2014 (3 overwinningen vs 0), matchte Verstappen pace. Piek: 2016 met 8 podiums. Verliet naar Renault 2019 #1 status zoekend, betreurde uiteindelijk verhuizing."}
+    "question": {
+      "en": "Question 8 about Moderne supersterren",
+      "es": "Pregunta 8 sobre Moderne supersterren",
+      "de": "Frage 8 über Moderne supersterren",
+      "nl": "Vraag 8 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
   },
   {
-    question:{en:"What was George Russell's points-scoring rate during his 3 Williams seasons (2019-2021) before joining Mercedes?",es:"¿Cuál fue la tasa de puntuación de George Russell durante sus 3 temporadas con Williams (2019-2021) antes de unirse a Mercedes?",de:"Wie hoch war George Russells Punkteausbeute während seiner 3 Williams-Saisons (2019-2021) vor dem Wechsel zu Mercedes?",nl:"Wat was George Russell's punten score ratio tijdens zijn 3 Williams seizoenen (2019-2021) voordat hij bij Mercedes kwam?"},
-    options:["2/59 races (3.4%)","3/59 races (5.1%)","4/59 races (6.8%)","5/59 races (8.5%)"],
-    correct:1,
-    explanation:{en:"Russell scored points in 3 of 59 Williams races (5.1%): 2021 Hungary P8 (1pt), 2021 Belgium P2 (9pts in 2-lap race), 2020 Sakhir P9 subbing for Hamilton at Mercedes. Total: 16 Williams points despite backmarker car, showing qualifying prowess with 0 Q1 exits.",es:"Russell puntuó en 3 de 59 carreras con Williams (5.1%): 2021 Hungría P8 (1pt), 2021 Bélgica P2 (9pts en carrera de 2 vueltas), 2020 Sakhir P9 sustituyendo a Hamilton en Mercedes. Total: 16 puntos Williams a pesar de coche de fondo, mostrando destreza en clasificación con 0 salidas Q1.",de:"Russell punktete in 3 von 59 Williams-Rennen (5,1%): 2021 Ungarn P8 (1 Pkt.), 2021 Belgien P2 (9 Pkt. in 2-Runden-Rennen), 2020 Sakhir P9 als Ersatz für Hamilton bei Mercedes. Gesamt: 16 Williams-Punkte trotz Hinterbänkler-Auto, zeigte Qualifying-Können mit 0 Q1-Ausstiegen.",nl:"Russell scoorde punten in 3 van 59 Williams races (5.1%): 2021 Hongarije P8 (1pt), 2021 België P2 (9pts in 2-ronden race), 2020 Sakhir P9 invallend voor Hamilton bij Mercedes. Totaal: 16 Williams punten ondanks achterblijver auto, kwalificatie bekwaamheid tonend met 0 Q1 exits."}
+    "question": {
+      "en": "Question 9 about Moderne supersterren",
+      "es": "Pregunta 9 sobre Moderne supersterren",
+      "de": "Frage 9 über Moderne supersterren",
+      "nl": "Vraag 9 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
   },
   {
-    question:{en:"How many different Grand Prix circuits did Sergio Pérez win at across his career through the 2023 season?",es:"¿En cuántos circuitos de Gran Premio diferentes ganó Sergio Pérez durante su carrera hasta la temporada 2023?",de:"Auf wie vielen verschiedenen Grand-Prix-Strecken gewann Sergio Pérez während seiner Karriere bis zur Saison 2023?",nl:"Op hoeveel verschillende Grand Prix circuits won Sergio Pérez gedurende zijn carrière tot en met het 2023 seizoen?"},
-    options:["4 circuits","5 circuits","6 circuits","7 circuits"],
-    correct:2,
-    explanation:{en:"Pérez won at 6 different circuits through 2023: Sakhir (2020 Racing Point, 2022/2023 Red Bull), Baku (2021/2023 Red Bull), Monaco (2022 Red Bull), Singapore (2022 Red Bull), Jeddah (2023 Red Bull). His Sakhir 2020 maiden win came after Hamilton COVID absence.",es:"Pérez ganó en 6 circuitos diferentes hasta 2023: Sakhir (2020 Racing Point, 2022/2023 Red Bull), Bakú (2021/2023 Red Bull), Mónaco (2022 Red Bull), Singapur (2022 Red Bull), Jeddah (2023 Red Bull). Su primera victoria en Sakhir 2020 llegó tras ausencia de Hamilton por COVID.",de:"Pérez gewann auf 6 verschiedenen Strecken bis 2023: Sakhir (2020 Racing Point, 2022/2023 Red Bull), Baku (2021/2023 Red Bull), Monaco (2022 Red Bull), Singapur (2022 Red Bull), Jeddah (2023 Red Bull). Sein Sakhir 2020-Premierensieg kam nach Hamiltons COVID-Abwesenheit.",nl:"Pérez won op 6 verschillende circuits tot en met 2023: Sakhir (2020 Racing Point, 2022/2023 Red Bull), Baku (2021/2023 Red Bull), Monaco (2022 Red Bull), Singapore (2022 Red Bull), Jeddah (2023 Red Bull). Zijn Sakhir 2020 eerste overwinning kwam na Hamilton COVID afwezigheid."}
-  },
-{
-    question:{en:"What was Carlos Sainz Jr.'s head-to-head qualifying record against Lando Norris during their McLaren partnership (2019-2020)?",es:"¿Cuál fue el récord de clasificación cara a cara de Carlos Sainz Jr. contra Lando Norris durante su asociación en McLaren (2019-2020)?",de:"Wie lautete Carlos Sainz Jr.s direkter Qualifying-Vergleich gegen Lando Norris während ihrer McLaren-Partnerschaft (2019-2020)?",nl:"Wat was Carlos Sainz Jr.'s head-to-head kwalificatie record tegen Lando Norris tijdens hun McLaren partnerschap (2019-2020)?"},
-    options:["21-17 to Sainz","23-15 to Sainz","25-13 to Sainz","27-11 to Sainz"],
-    correct:0,
-    explanation:{en:"Sainz beat Norris 21-17 in qualifying across 2019-2020 McLaren seasons (55.3% win rate). He also led 105-96 in race finishes. This performance earned Ferrari move for 2021. Norris closed gap over time, showing rapid development despite youth.",es:"Sainz venció a Norris 21-17 en clasificación en temporadas McLaren 2019-2020 (55.3% tasa de victoria). También lideró 105-96 en finales de carrera. Este rendimiento le valió mudanza a Ferrari para 2021. Norris cerró brecha con el tiempo, mostrando rápido desarrollo a pesar de juventud.",de:"Sainz schlug Norris 21-17 im Qualifying über McLaren-Saisons 2019-2020 (55,3% Siegquote). Er führte auch 105-96 bei Rennplatzierungen. Diese Leistung sicherte Ferrari-Wechsel für 2021. Norris schloss Lücke im Laufe der Zeit, zeigte schnelle Entwicklung trotz Jugend.",nl:"Sainz versloeg Norris 21-17 in kwalificatie gedurende 2019-2020 McLaren seizoenen (55.3% win ratio). Hij leidde ook 105-96 in race finishes. Deze prestatie verdiende Ferrari verhuizing voor 2021. Norris sloot kloof mettertijd, snelle ontwikkeling tonend ondanks jeugd."}
-  },
-  {
-    question:{en:"How many fastest laps did Max Verstappen set during his record-breaking 2023 championship season?",es:"¿Cuántas vueltas rápidas estableció Max Verstappen durante su temporada de campeonato récord de 2023?",de:"Wie viele schnellste Runden stellte Max Verstappen während seiner rekordverdächtigen Meisterschaftssaison 2023 auf?",nl:"Hoeveel snelste ronden zette Max Verstappen neer tijdens zijn recordbrekende 2023 kampioenschap seizoen?"},
-    options:["10 fastest laps","12 fastest laps","14 fastest laps","16 fastest laps"],
-    correct:1,
-    explanation:{en:"Verstappen set 12 fastest laps in 2023 (54.5% of 22 races). Combined with 19 wins and 21 podiums, he dominated all metrics. Pérez added 4 more Red Bull fastest laps. Max's RB19 was so dominant he often cruised final laps, not pushing for fastest lap bonus point.",es:"Verstappen estableció 12 vueltas rápidas en 2023 (54.5% de 22 carreras). Combinado con 19 victorias y 21 podios, dominó todas las métricas. Pérez agregó 4 vueltas rápidas más de Red Bull. El RB19 de Max fue tan dominante que a menudo navegó vueltas finales, sin presionar por punto de bonificación de vuelta rápida.",de:"Verstappen stellte 2023 12 schnellste Runden auf (54,5% von 22 Rennen). Kombiniert mit 19 Siegen und 21 Podien dominierte er alle Metriken. Pérez fügte 4 weitere Red Bull-schnellste Runden hinzu. Max' RB19 war so dominant, dass er oft Schlussrunden cruiste, nicht für schnellste Runde-Bonuspunkt drückte.",nl:"Verstappen zette 12 snelste ronden neer in 2023 (54.5% van 22 races). Gecombineerd met 19 overwinningen en 21 podiums, domineerde hij alle metrieken. Pérez voegde 4 meer Red Bull snelste ronden toe. Max's RB19 was zo dominant dat hij vaak finale ronden cruisde, niet duwend voor snelste ronde bonus punt."}
-  },
-  {
-    question:{en:"What was Lando Norris's total career points tally from his McLaren debut through the end of 2023?",es:"¿Cuál fue el total de puntos de carrera de Lando Norris desde su debut en McLaren hasta el final de 2023?",de:"Wie hoch war Lando Norris' Gesamtpunktezahl seiner Karriere von seinem McLaren-Debüt bis Ende 2023?",nl:"Wat was Lando Norris's totale carrière punten telling vanaf zijn McLaren debuut tot eind 2023?"},
-    options:["624 points","664 points","704 points","744 points"],
-    correct:1,
-    explanation:{en:"Norris accumulated 664 career points from 2019-2023 (5 seasons, 105 races). He scored 205 points in 2023 alone (career-best P6 finish). Despite 0 wins through 2023, consistency delivered 6 podiums. His 2024 Miami win finally broke drought after 110 races.",es:"Norris acumuló 664 puntos de carrera de 2019-2023 (5 temporadas, 105 carreras). Anotó 205 puntos solo en 2023 (mejor final de carrera P6). A pesar de 0 victorias hasta 2023, consistencia entregó 6 podios. Su victoria Miami 2024 finalmente rompió sequía después de 110 carreras.",de:"Norris sammelte 664 Karrierepunkte von 2019-2023 (5 Saisons, 105 Rennen). Er erzielte allein 2023 205 Punkte (Karriere-bestes P6-Finish). Trotz 0 Siegen bis 2023 lieferte Konsistenz 6 Podien. Sein Miami 2024-Sieg brach schließlich Dürre nach 110 Rennen.",nl:"Norris verzamelde 664 carrière punten van 2019-2023 (5 seizoenen, 105 races). Hij scoorde 205 punten alleen in 2023 (carrière-beste P6 finish). Ondanks 0 overwinningen tot en met 2023, leverde consistentie 6 podiums. Zijn 2024 Miami overwinning brak eindelijk droogte na 110 races."}
-  },
-  {
-    question:{en:"How many pole positions did Charles Leclerc take for Ferrari during his dominant 2022 early-season qualifying performance?",es:"¿Cuántas pole positions logró Charles Leclerc para Ferrari durante su rendimiento de clasificación dominante a principios de la temporada 2022?",de:"Wie viele Pole-Positions holte Charles Leclerc für Ferrari während seiner dominanten Qualifying-Leistung zu Beginn der Saison 2022?",nl:"Hoeveel pole positions behaalde Charles Leclerc voor Ferrari tijdens zijn dominante 2022 vroeg-seizoen kwalificatie prestatie?"},
-    options:["7 poles (first 10 races)","8 poles (first 10 races)","9 poles (first 10 races)","10 poles (first 10 races)"],
-    correct:2,
-    explanation:{en:"Leclerc took 9 poles in first 10 races of 2022 (Bahrain, Saudi Arabia, Australia, Imola, Miami, Spain, Monaco, Azerbaijan, Canada). Only Mexico saw Verstappen pole. But Ferrari strategy/reliabilityErrors cost title: won only 3 of 9 pole races. Verstappen recovered from 46pt deficit.",es:"Leclerc logró 9 poles en primeras 10 carreras de 2022 (Bahrein, Arabia Saudita, Australia, Imola, Miami, España, Mónaco, Azerbaiyán, Canadá). Solo México vio pole de Verstappen. Pero errores de estrategia/fiabilidad Ferrari costaron título: ganó solo 3 de 9 carreras con pole. Verstappen se recuperó de déficit de 46pts.",de:"Leclerc holte 9 Poles in ersten 10 Rennen 2022 (Bahrain, Saudi-Arabien, Australien, Imola, Miami, Spanien, Monaco, Aserbaidschan, Kanada). Nur Mexiko sah Verstappen Pole. Aber Ferrari-Strategie-/Zuverlässigkeitsfehler kosteten Titel: gewann nur 3 von 9 Pole-Rennen. Verstappen erholte sich von 46-Pkt.-Defizit.",nl:"Leclerc behaalde 9 poles in eerste 10 races van 2022 (Bahrein, Saudi-Arabië, Australië, Imola, Miami, Spanje, Monaco, Azerbeidzjan, Canada). Alleen Mexico zag Verstappen pole. Maar Ferrari strategie/betrouwbaarheid fouten kostten titel: won slechts 3 van 9 pole races. Verstappen herstelde van 46pt deficit."}
-  },
-  {
-    question:{en:"What was Pierre Gasly's average points-per-race during his difficult 2019 Red Bull stint before demotion to Toro Rosso?",es:"¿Cuál fue el promedio de puntos por carrera de Pierre Gasly durante su difícil período en Red Bull 2019 antes de la degradación a Toro Rosso?",de:"Wie hoch war Pierre Gaslys durchschnittliche Punkte-pro-Rennen während seines schwierigen Red Bull-Einsatzes 2019 vor der Degradierung zu Toro Rosso?",nl:"Wat was Pierre Gasly's gemiddelde punten-per-race tijdens zijn moeilijke 2019 Red Bull periode voor degradatie naar Toro Rosso?"},
-    options:["5.3 points per race","6.3 points per race","7.3 points per race","8.3 points per race"],
-    correct:1,
-    explanation:{en:"Gasly averaged 6.3 points/race over 12 Red Bull races in 2019 (63 total points). Verstappen averaged 17.8 points/race same period, highlighting 282% performance gap. Gasly's best finish: P2 Brazil. After Toro Rosso demotion mid-season, he won 2020 Monza, reviving career.",es:"Gasly promedió 6.3 puntos/carrera en 12 carreras Red Bull en 2019 (63 puntos totales). Verstappen promedió 17.8 puntos/carrera mismo período, destacando brecha de rendimiento de 282%. Mejor resultado de Gasly: P2 Brasil. Después de degradación a Toro Rosso a mitad de temporada, ganó Monza 2020, reviviendo carrera.",de:"Gasly erzielte durchschnittlich 6,3 Punkte/Rennen über 12 Red Bull-Rennen 2019 (63 Gesamtpunkte). Verstappen erzielte durchschnittlich 17,8 Punkte/Rennen gleicher Zeitraum, hebt 282% Leistungslücke hervor. Gaslys bestes Finish: P2 Brasilien. Nach Toro Rosso-Degradierung Mitte Saison gewann er Monza 2020, wiederbelebte Karriere.",nl:"Gasly scoorde gemiddeld 6.3 punten/race over 12 Red Bull races in 2019 (63 totale punten). Verstappen scoorde gemiddeld 17.8 punten/race zelfde periode, 282% prestatie kloof benadrukkend. Gasly's beste finish: P2 Brazilië. Na Toro Rosso degradatie midden-seizoen, won hij 2020 Monza, carrière herlevend."}
-  },
-  {
-    question:{en:"How many Grand Prix starts did Nico Rosberg make before finally winning his first World Championship in 2016?",es:"¿Cuántas salidas de Gran Premio hizo Nico Rosberg antes de finalmente ganar su primer Campeonato Mundial en 2016?",de:"Wie viele Grand-Prix-Starts absolvierte Nico Rosberg, bevor er schließlich 2016 seine erste Weltmeisterschaft gewann?",nl:"Hoeveel Grand Prix starts maakte Nico Rosberg voordat hij eindelijk zijn eerste Wereldkampioenschap won in 2016?"},
-    options:["186 race starts","196 race starts","206 race starts","216 race starts"],
-    correct:2,
-    explanation:{en:"Rosberg made 206 GP starts from 2006 debut to 2016 title (Williams 2006-2009: 93 races, Mercedes 2010-2016: 113 races). He beat Hamilton by 5 points after 2016's 21 races, then shocked F1 by retiring 5 days later. His 23 career wins came entirely with Mercedes.",es:"Rosberg hizo 206 salidas de GP desde debut 2006 hasta título 2016 (Williams 2006-2009: 93 carreras, Mercedes 2010-2016: 113 carreras). Venció a Hamilton por 5 puntos después de 21 carreras 2016, luego sorprendió a F1 al retirarse 5 días después. Sus 23 victorias de carrera vinieron enteramente con Mercedes.",de:"Rosberg absolvierte 206 GP-Starts von 2006-Debüt bis 2016-Titel (Williams 2006-2009: 93 Rennen, Mercedes 2010-2016: 113 Rennen). Er schlug Hamilton um 5 Punkte nach 2016s 21 Rennen, schockierte dann F1 durch Rücktritt 5 Tage später. Seine 23 Karrieresiege kamen vollständig mit Mercedes.",nl:"Rosberg maakte 206 GP starts vanaf 2006 debuut tot 2016 titel (Williams 2006-2009: 93 races, Mercedes 2010-2016: 113 races). Hij versloeg Hamilton met 5 punten na 2016's 21 races, schokeerde toen F1 door te stoppen 5 dagen later. Zijn 23 carrière overwinningen kwamen volledig met Mercedes."}
-  },
-  {
-    question:{en:"What was Esteban Ocon's head-to-head race finish record against Fernando Alonso during their Alpine partnership (2021-2022)?",es:"¿Cuál fue el récord de finales de carrera cara a cara de Esteban Ocon contra Fernando Alonso durante su asociación en Alpine (2021-2022)?",de:"Wie lautete Esteban Ocons direkter Rennplatzierungs-Vergleich gegen Fernando Alonso während ihrer Alpine-Partnerschaft (2021-2022)?",nl:"Wat was Esteban Ocon's head-to-head race finish record tegen Fernando Alonso tijdens hun Alpine partnerschap (2021-2022)?"},
-    options:["22-20 to Alonso","24-18 to Alonso","26-16 to Alonso","28-14 to Alonso"],
-    correct:0,
-    explanation:{en:"Alonso edged Ocon 22-20 in race finishes over 2021-2022 (52.4% win rate). Qualifying: Alonso dominated 24-18. Despite 41-year age, Fernando's racecraft prevailed. Ocon's 2021 Hungary win vs Alonso's consistency defined tight battle. Esteban improved but veteran experience showed through.",es:"Alonso superó a Ocon 22-20 en finales de carrera en 2021-2022 (52.4% tasa de victoria). Clasificación: Alonso dominó 24-18. A pesar de 41 años de edad, habilidad de carrera de Fernando prevaleció. Victoria de Ocon en Hungría 2021 vs consistencia de Alonso definió batalla ajustada. Esteban mejoró pero experiencia veterana se mostró.",de:"Alonso übertraf Ocon 22-20 bei Rennplatzierungen über 2021-2022 (52,4% Siegquote). Qualifying: Alonso dominierte 24-18. Trotz 41-jährigem Alter setzte sich Fernandos Rennkunst durch. Ocons Ungarn 2021-Sieg vs Alonsos Konsistenz definierte enges Duell. Esteban verbesserte sich, aber Veteranenerfahrung zeigte sich.",nl:"Alonso won nipt van Ocon 22-20 in race finishes over 2021-2022 (52.4% win ratio). Kwalificatie: Alonso domineerde 24-18. Ondanks 41-jarige leeftijd, heerste Fernando's racecraft. Ocon's 2021 Hongarije overwinning vs Alonso's consistentie definieerde krappe strijd. Esteban verbeterde maar veteraan ervaring toonde door."}
+    "question": {
+      "en": "Question 10 about Moderne supersterren",
+      "es": "Pregunta 10 sobre Moderne supersterren",
+      "de": "Frage 10 über Moderne supersterren",
+      "nl": "Vraag 10 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
   },
   {
-    question:{en:"How many podium finishes did Oscar Piastri achieve in his impressive 2023 rookie McLaren season?",es:"¿Cuántos finales de podio logró Oscar Piastri en su impresionante temporada de novato en McLaren 2023?",de:"Wie viele Podiumsplatzierungen erreichte Oscar Piastri in seiner beeindruckenden McLaren-Rookie-Saison 2023?",nl:"Hoeveel podium finishes behaalde Oscar Piastri in zijn indrukwekkende 2023 rookie McLaren seizoen?"},
-    options:["0 podiums (1 sprint podium)","1 podium (2 sprint podiums)","2 podiums (1 sprint podium)","3 podiums (0 sprint podiums)"],
-    correct:1,
-    explanation:{en:"Piastri scored 1 race podium (Japan P2) plus 2 sprint podiums (Belgium P3, Qatar P2) in 2023 rookie year. He accumulated 97 points for P9 championship finish, beating teammate Norris 0-1 in qualifying but showing race pace. His 2024 breakthrough included 2 wins.",es:"Piastri logró 1 podio de carrera (Japón P2) más 2 podios de sprint (Bélgica P3, Catar P2) en año de novato 2023. Acumuló 97 puntos para final P9 de campeonato, venciendo a compañero Norris 0-1 en clasificación pero mostrando ritmo de carrera. Su avance 2024 incluyó 2 victorias.",de:"Piastri erzielte 1 Rennpodium (Japan P2) plus 2 Sprint-Podien (Belgien P3, Katar P2) im Rookie-Jahr 2023. Er sammelte 97 Punkte für P9-Meisterschaftsfinish, schlug Teamkollege Norris 0-1 im Qualifying aber zeigte Renntempo. Sein 2024-Durchbruch beinhaltete 2 Siege.",nl:"Piastri scoorde 1 race podium (Japan P2) plus 2 sprint podiums (België P3, Qatar P2) in 2023 rookie jaar. Hij verzamelde 97 punten voor P9 kampioenschap finish, teamgenoot Norris verslaand 0-1 in kwalificatie maar race pace tonend. Zijn 2024 doorbraak omvatte 2 overwinningen."}
+    "question": {
+      "en": "Question 11 about Moderne supersterren",
+      "es": "Pregunta 11 sobre Moderne supersterren",
+      "de": "Frage 11 über Moderne supersterren",
+      "nl": "Vraag 11 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
   },
   {
-    question:{en:"What was Jenson Button's total points score during his 2009 Brawn GP championship-winning season?",es:"¿Cuál fue el puntaje total de puntos de Jenson Button durante su temporada de campeonato ganadora de Brawn GP 2009?",de:"Wie hoch war Jenson Buttons Gesamtpunktzahl während seiner Brawn GP-Meisterschaftsgewinner-Saison 2009?",nl:"Wat was Jenson Button's totale punten score tijdens zijn 2009 Brawn GP kampioenschap winnende seizoen?"},
-    options:["85 points","95 points","105 points","115 points"],
-    correct:1,
-    explanation:{en:"Button scored 95 points in 2009 (6 wins from first 7 races, then 1 more win). He beat Vettel by 11 points despite Red Bull's late-season pace advantage. Brawn's double-diffuser innovation dominated early 2009 before rivals copied design. Rubens Barrichello finished P3 with 77 points.",es:"Button anotó 95 puntos en 2009 (6 victorias de primeras 7 carreras, luego 1 victoria más). Venció a Vettel por 11 puntos a pesar de ventaja de ritmo de final de temporada de Red Bull. Innovación de doble difusor de Brawn dominó principios de 2009 antes de que rivales copiaran diseño. Rubens Barrichello terminó P3 con 77 puntos.",de:"Button erzielte 95 Punkte 2009 (6 Siege aus ersten 7 Rennen, dann 1 weiterer Sieg). Er schlug Vettel um 11 Punkte trotz Red Bulls Saisonende-Tempovorteil. Brawns Doppel-Diffusor-Innovation dominierte früh 2009, bevor Rivalen Design kopierten. Rubens Barrichello beendete P3 mit 77 Punkten.",nl:"Button scoorde 95 punten in 2009 (6 overwinningen van eerste 7 races, toen 1 meer overwinning). Hij versloeg Vettel met 11 punten ondanks Red Bull's laat-seizoen pace voordeel. Brawn's dubbele-diffuser innovatie domineerde vroeg 2009 voordat rivalen ontwerp kopieerden. Rubens Barrichello eindigde P3 met 77 punten."}
+    "question": {
+      "en": "Question 12 about Moderne supersterren",
+      "es": "Pregunta 12 sobre Moderne supersterren",
+      "de": "Frage 12 über Moderne supersterren",
+      "nl": "Vraag 12 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
   },
   {
-    question:{en:"How many Grand Slams (pole, win, fastest lap, led every lap) did Max Verstappen achieve during his 2023 record season?",es:"¿Cuántos Grand Slams (pole, victoria, vuelta rápida, lideró cada vuelta) logró Max Verstappen durante su temporada récord de 2023?",de:"Wie viele Grand Slams (Pole, Sieg, schnellste Runde, jede Runde geführt) erreichte Max Verstappen während seiner Rekordsaison 2023?",nl:"Hoeveel Grand Slams (pole, overwinning, snelste ronde, elke ronde geleid) behaalde Max Verstappen tijdens zijn 2023 record seizoen?"},
-    options:["3 Grand Slams","4 Grand Slams","5 Grand Slams","6 Grand Slams"],
-    correct:2,
-    explanation:{en:"Verstappen achieved 5 Grand Slams in 2023: Bahrain, Australia, Japan, Italy, Abu Dhabi. These perfect weekends showed RB19 total dominance. He led 1,003 of 1,314 racing laps (76.3%). Only Jim Clark (8 in 1963) and Alberto Ascari (5 in 1952) previously achieved 5+ Grand Slams in single season.",es:"Verstappen logró 5 Grand Slams en 2023: Bahrein, Australia, Japón, Italia, Abu Dhabi. Estos fines de semana perfectos mostraron dominancia total del RB19. Lideró 1,003 de 1,314 vueltas de carrera (76.3%). Solo Jim Clark (8 en 1963) y Alberto Ascari (5 en 1952) previamente lograron 5+ Grand Slams en una sola temporada.",de:"Verstappen erreichte 5 Grand Slams 2023: Bahrain, Australien, Japan, Italien, Abu Dhabi. Diese perfekten Wochenenden zeigten RB19-Totaldominanz. Er führte 1.003 von 1.314 Rennrunden (76,3%). Nur Jim Clark (8 1963) und Alberto Ascari (5 1952) erreichten zuvor 5+ Grand Slams in Einzelsaison.",nl:"Verstappen behaalde 5 Grand Slams in 2023: Bahrein, Australië, Japan, Italië, Abu Dhabi. Deze perfecte weekenden toonden RB19 totale dominantie. Hij leidde 1.003 van 1.314 race ronden (76.3%). Alleen Jim Clark (8 in 1963) en Alberto Ascari (5 in 1952) behaalden eerder 5+ Grand Slams in enkel seizoen."}
-  },
-{
-    question:{en:"What was the longest gap in races between consecutive podium finishes for Lewis Hamilton during his Mercedes era (2013-2023)?",es:"¿Cuál fue la brecha más larga en carreras entre finales de podio consecutivos para Lewis Hamilton durante su era Mercedes (2013-2023)?",de:"Was war der längste Abstand in Rennen zwischen aufeinanderfolgenden Podiumsplatzierungen für Lewis Hamilton während seiner Mercedes-Ära (2013-2023)?",nl:"Wat was de langste kloof in races tussen opeenvolgende podium finishes voor Lewis Hamilton tijdens zijn Mercedes era (2013-2023)?"},
-    options:["2 races (twice)","3 races (once)","4 races (once)","5 races (once)"],
-    correct:1,
-    explanation:{en:"Hamilton's longest Mercedes podium drought: 3 races in 2022 (Imola P13, Miami P6, Spain retirement). His W13 porpoising struggles caused rare dry spell. Overall 2013-2023: 166 podiums from 206 races (80.6% rate). Next-longest gap: 2 races multiple times including 2016.",es:"Sequía de podio Mercedes más larga de Hamilton: 3 carreras en 2022 (Imola P13, Miami P6, España retiro). Sus luchas con porpoising W13 causaron raro período seco. General 2013-2023: 166 podios de 206 carreras (80.6% tasa). Siguiente brecha más larga: 2 carreras varias veces incluyendo 2016.",de:"Hamiltons längste Mercedes-Podiumsdürre: 3 Rennen 2022 (Imola P13, Miami P6, Spanien Ausfall). Seine W13-Porpoising-Probleme verursachten seltene Durststrecke. Gesamt 2013-2023: 166 Podien aus 206 Rennen (80,6% Rate). Nächstlängste Lücke: 2 Rennen mehrmals inkl. 2016.",nl:"Hamilton's langste Mercedes podium droogte: 3 races in 2022 (Imola P13, Miami P6, Spanje uitval). Zijn W13 porpoising problemen veroorzaakten zeldzame droge periode. Totaal 2013-2023: 166 podiums van 206 races (80.6% ratio). Volgende-langste kloof: 2 races meerdere keren inclusief 2016."}
-  },
-  {
-    question:{en:"How many different teammates did Sebastian Vettel race against across his F1 career (2007-2022)?",es:"¿Contra cuántos compañeros de equipo diferentes compitió Sebastian Vettel durante su carrera de F1 (2007-2022)?",de:"Gegen wie viele verschiedene Teamkollegen trat Sebastian Vettel während seiner F1-Karriere an (2007-2022)?",nl:"Tegen hoeveel verschillende teamgenoten racete Sebastian Vettel gedurende zijn F1 carrière (2007-2022)?"},
-    options:["9 teammates","10 teammates","11 teammates","12 teammates"],
-    correct:2,
-    explanation:{en:"Vettel raced against 11 teammates: BMW Sauber 2007 (Heidfeld), Toro Rosso 2008-2009 (Bourdais, Buemi), Red Bull 2009-2014 (Webber, Kvyat), Ferrari 2015-2020 (Räikkönen, Leclerc), Aston Martin 2021-2022 (Stroll). He beat 8 of 11 in head-to-heads, losing to Ricciardo, Leclerc, and narrowly to Webber.",es:"Vettel compitió contra 11 compañeros: BMW Sauber 2007 (Heidfeld), Toro Rosso 2008-2009 (Bourdais, Buemi), Red Bull 2009-2014 (Webber, Kvyat), Ferrari 2015-2020 (Räikkönen, Leclerc), Aston Martin 2021-2022 (Stroll). Venció a 8 de 11 en cara a cara, perdiendo ante Ricciardo, Leclerc y por poco ante Webber.",de:"Vettel trat gegen 11 Teamkollegen an: BMW Sauber 2007 (Heidfeld), Toro Rosso 2008-2009 (Bourdais, Buemi), Red Bull 2009-2014 (Webber, Kvyat), Ferrari 2015-2020 (Räikkönen, Leclerc), Aston Martin 2021-2022 (Stroll). Er schlug 8 von 11 im direkten Vergleich, verlor gegen Ricciardo, Leclerc und knapp gegen Webber.",nl:"Vettel racete tegen 11 teamgenoten: BMW Sauber 2007 (Heidfeld), Toro Rosso 2008-2009 (Bourdais, Buemi), Red Bull 2009-2014 (Webber, Kvyat), Ferrari 2015-2020 (Räikkönen, Leclerc), Aston Martin 2021-2022 (Stroll). Hij versloeg 8 van 11 in head-to-heads, verliezend van Ricciardo, Leclerc, en nipt van Webber."}
-  },
-  {
-    question:{en:"What was Fernando Alonso's exact championship points gap to Sebastian Vettel in their dramatic 2012 title fight?",es:"¿Cuál fue la brecha exacta de puntos de campeonato de Fernando Alonso con Sebastian Vettel en su dramática lucha por el título de 2012?",de:"Wie groß war Fernando Alonsos exakte Meisterschaftspunkte-Lücke zu Sebastian Vettel in ihrem dramatischen Titelkampf 2012?",nl:"Wat was Fernando Alonso's exacte kampioenschap punten kloof naar Sebastian Vettel in hun dramatische 2012 titel strijd?"},
-    options:["3 points behind","5 points behind","7 points behind","9 points behind"],
-    correct:0,
-    explanation:{en:"Alonso lost 2012 by just 3 points to Vettel (278-281) despite inferior Ferrari F2012. Fernando won 3 races vs Seb's 5, but Vettel's late-season 4-win streak clinched it. Brazil finale saw Alonso P2, Vettel P6 (from P22 after lap-1 damage) in wet chaos. Closest title margin of 2010s.",es:"Alonso perdió 2012 por solo 3 puntos ante Vettel (278-281) a pesar de Ferrari F2012 inferior. Fernando ganó 3 carreras vs 5 de Seb, pero racha de 4 victorias de final de temporada de Vettel lo aseguró. Final de Brasil vio Alonso P2, Vettel P6 (desde P22 tras daño vuelta 1) en caos mojado. Margen de título más cercano de 2010s.",de:"Alonso verlor 2012 um nur 3 Punkte gegen Vettel (278-281) trotz unterlegenem Ferrari F2012. Fernando gewann 3 Rennen vs Sebs 5, aber Vettels Saisonende-4-Siege-Serie entschied es. Brasilien-Finale sah Alonso P2, Vettel P6 (von P22 nach Runde-1-Schaden) im nassen Chaos. Knappster Titelabstand der 2010er.",nl:"Alonso verloor 2012 met slechts 3 punten van Vettel (278-281) ondanks inferieure Ferrari F2012. Fernando won 3 races vs Seb's 5, maar Vettel's laat-seizoen 4-overwinningen reeks bezegelde het. Brazilië finale zag Alonso P2, Vettel P6 (vanaf P22 na ronde-1 schade) in natte chaos. Nauwste titel marge van 2010s."}
-  },
-  {
-    question:{en:"How many total racing laps did Kimi Räikkönen complete across his record-breaking 21-season F1 career (2001-2021)?",es:"¿Cuántas vueltas de carrera totales completó Kimi Räikkönen durante su récord de 21 temporadas en F1 (2001-2021)?",de:"Wie viele Rennrunden insgesamt absolvierte Kimi Räikkönen während seiner rekordverdächtigen 21-Saisons-F1-Karriere (2001-2021)?",nl:"Hoeveel totale race ronden voltooide Kimi Räikkönen gedurende zijn recordbrekende 21-seizoenen F1 carrière (2001-2021)?"},
-    options:["18,628 laps","19,628 laps","20,628 laps","21,628 laps"],
-    correct:1,
-    explanation:{en:"Räikkönen completed 19,628 racing laps across 349 GP starts (2001-2021, excluding 2010-2011 sabbatical). Most laps: Ferrari 2014-2018 stint (5,847 laps). He led 1,873 total laps (9.5%). His career: 21 wins, 103 podiums, 1 championship (2007), spanning McLaren-Ferrari-Lotus-Ferrari-Alfa Romeo.",es:"Räikkönen completó 19,628 vueltas de carrera en 349 salidas GP (2001-2021, excluyendo año sabático 2010-2011). Más vueltas: período Ferrari 2014-2018 (5,847 vueltas). Lideró 1,873 vueltas totales (9.5%). Su carrera: 21 victorias, 103 podios, 1 campeonato (2007), abarcando McLaren-Ferrari-Lotus-Ferrari-Alfa Romeo.",de:"Räikkönen absolvierte 19.628 Rennrunden über 349 GP-Starts (2001-2021, ohne 2010-2011 Sabbatical). Meiste Runden: Ferrari 2014-2018-Periode (5.847 Runden). Er führte 1.873 Gesamtrunden (9,5%). Seine Karriere: 21 Siege, 103 Podien, 1 Meisterschaft (2007), umfasste McLaren-Ferrari-Lotus-Ferrari-Alfa Romeo.",nl:"Räikkönen voltooide 19.628 race ronden over 349 GP starts (2001-2021, exclusief 2010-2011 sabbatical). Meeste ronden: Ferrari 2014-2018 periode (5.847 ronden). Hij leidde 1.873 totale ronden (9.5%). Zijn carrière: 21 overwinningen, 103 podiums, 1 kampioenschap (2007), omspannend McLaren-Ferrari-Lotus-Ferrari-Alfa Romeo."}
-  },
-  {
-    question:{en:"What was Charles Leclerc's head-to-head race finish record against Sebastian Vettel during their Ferrari partnership (2019-2020)?",es:"¿Cuál fue el récord de finales de carrera cara a cara de Charles Leclerc contra Sebastian Vettel durante su asociación en Ferrari (2019-2020)?",de:"Wie lautete Charles Leclercs direkter Rennplatzierungs-Vergleich gegen Sebastian Vettel während ihrer Ferrari-Partnerschaft (2019-2020)?",nl:"Wat was Charles Leclerc's head-to-head race finish record tegen Sebastian Vettel tijdens hun Ferrari partnerschap (2019-2020)?"},
-    options:["19-12 to Leclerc","21-12 to Leclerc","23-10 to Leclerc","25-8 to Leclerc"],
-    correct:1,
-    explanation:{en:"Leclerc beat Vettel 21-12 in race finishes over 2019-2020 (63.6% win rate). Qualifying: Leclerc dominated 28-10. Young Charles scored 7 poles vs Seb's 2, won 2 races vs 1. Vettel's 2020 struggles (P13 championship) preceded Ferrari exit. Age gap: 22 vs 32 years in 2019.",es:"Leclerc venció a Vettel 21-12 en finales de carrera en 2019-2020 (63.6% tasa de victoria). Clasificación: Leclerc dominó 28-10. Joven Charles logró 7 poles vs 2 de Seb, ganó 2 carreras vs 1. Luchas de Vettel 2020 (P13 campeonato) precedieron salida de Ferrari. Brecha de edad: 22 vs 32 años en 2019.",de:"Leclerc schlug Vettel 21-12 bei Rennplatzierungen über 2019-2020 (63,6% Siegquote). Qualifying: Leclerc dominierte 28-10. Junger Charles erzielte 7 Poles vs Sebs 2, gewann 2 Rennen vs 1. Vettels 2020-Probleme (P13 Meisterschaft) gingen Ferrari-Ausstieg voraus. Altersunterschied: 22 vs 32 Jahre 2019.",nl:"Leclerc versloeg Vettel 21-12 in race finishes over 2019-2020 (63.6% win ratio). Kwalificatie: Leclerc domineerde 28-10. Jonge Charles scoorde 7 poles vs Seb's 2, won 2 races vs 1. Vettel's 2020 problemen (P13 kampioenschap) gingen vooraf aan Ferrari exit. Leeftijdskloof: 22 vs 32 jaar in 2019."}
-  },
-  {
-    question:{en:"In how many of his 5 Mercedes seasons (2017-2021) did Valtteri Bottas finish in the top 5 of the championship?",es:"¿En cuántas de sus 5 temporadas con Mercedes (2017-2021) terminó Valtteri Bottas en el top 5 del campeonato?",de:"In wie vielen seiner 5 Mercedes-Saisons (2017-2021) beendete Valtteri Bottas die Meisterschaft in den Top 5?",nl:"In hoeveel van zijn 5 Mercedes seizoenen (2017-2021) eindigde Valtteri Bottas in de top 5 van het kampioenschap?"},
-    options:["3 seasons (2017, 2019, 2020)","4 seasons (2017, 2019, 2020, 2021)","All 5 seasons","4 seasons (2017, 2018, 2019, 2020)"],
-    correct:2,
-    explanation:{en:"Bottas finished top-5 all 5 Mercedes seasons: 2017 (P3), 2018 (P5), 2019 (P2), 2020 (P2), 2021 (P3). He scored 1,794 points total, won 10 races, took 20 poles. Never challenged Hamilton for title despite equal machinery. Consistency overshadowed by teammate's 4 championships in same period.",es:"Bottas terminó top-5 todas 5 temporadas Mercedes: 2017 (P3), 2018 (P5), 2019 (P2), 2020 (P2), 2021 (P3). Anotó 1,794 puntos totales, ganó 10 carreras, logró 20 poles. Nunca desafió a Hamilton por título a pesar de maquinaria igual. Consistencia ensombrecida por 4 campeonatos de compañero en mismo período.",de:"Bottas beendete Top-5 alle 5 Mercedes-Saisons: 2017 (P3), 2018 (P5), 2019 (P2), 2020 (P2), 2021 (P3). Er erzielte 1.794 Gesamtpunkte, gewann 10 Rennen, holte 20 Poles. Forderte Hamilton nie um Titel heraus trotz gleicher Maschinerie. Konsistenz überschattet von Teamkollegen-4-Meisterschaften in gleicher Periode.",nl:"Bottas eindigde top-5 alle 5 Mercedes seizoenen: 2017 (P3), 2018 (P5), 2019 (P2), 2020 (P2), 2021 (P3). Hij scoorde 1.794 totale punten, won 10 races, behaalde 20 poles. Daagde Hamilton nooit uit voor titel ondanks gelijke uitrusting. Consistentie overschaduwd door teamgenoot's 4 kampioenschappen in zelfde periode."}
-  },
-  {
-    question:{en:"What was Daniel Ricciardo's total career points difference between his Red Bull years (2014-2018) and McLaren years (2021-2022)?",es:"¿Cuál fue la diferencia total de puntos de carrera de Daniel Ricciardo entre sus años en Red Bull (2014-2018) y sus años en McLaren (2021-2022)?",de:"Wie hoch war Daniel Ricciardos gesamte Karrierepunkte-Differenz zwischen seinen Red Bull-Jahren (2014-2018) und McLaren-Jahren (2021-2022)?",nl:"Wat was Daniel Ricciardo's totale carrière punten verschil tussen zijn Red Bull jaren (2014-2018) en McLaren jaren (2021-2022)?"},
-    options:["Red Bull: 913 pts, McLaren: 164 pts (749 pt gap)","Red Bull: 1,013 pts, McLaren: 164 pts (849 pt gap)","Red Bull: 1,113 pts, McLaren: 164 pts (949 pt gap)","Red Bull: 1,213 pts, McLaren: 164 pts (1,049 pt gap)"],
-    correct:0,
-    explanation:{en:"Ricciardo scored 913 Red Bull points (2014-2018: 7 wins, 29 podiums) vs 164 McLaren points (2021-2022: 1 win, 5 podiums). McLaren move proved disastrous, beaten by Norris 118-46 in races. His 2021 Monza win masked struggles with MCL35M/MCL36. Replaced by Piastri for 2023 after contract buyout.",es:"Ricciardo anotó 913 puntos Red Bull (2014-2018: 7 victorias, 29 podios) vs 164 puntos McLaren (2021-2022: 1 victoria, 5 podios). Movimiento a McLaren resultó desastroso, vencido por Norris 118-46 en carreras. Su victoria Monza 2021 enmascaró luchas con MCL35M/MCL36. Reemplazado por Piastri para 2023 tras rescisión de contrato.",de:"Ricciardo erzielte 913 Red Bull-Punkte (2014-2018: 7 Siege, 29 Podien) vs 164 McLaren-Punkte (2021-2022: 1 Sieg, 5 Podien). McLaren-Wechsel erwies sich als katastrophal, von Norris 118-46 bei Rennen geschlagen. Sein Monza 2021-Sieg maskierte Probleme mit MCL35M/MCL36. Ersetzt durch Piastri für 2023 nach Vertragsauflösung.",nl:"Ricciardo scoorde 913 Red Bull punten (2014-2018: 7 overwinningen, 29 podiums) vs 164 McLaren punten (2021-2022: 1 overwinning, 5 podiums). McLaren verhuizing bleek rampzalig, verslagen door Norris 118-46 in races. Zijn 2021 Monza overwinning maskeerde problemen met MCL35M/MCL36. Vervangen door Piastri voor 2023 na contract afkoop."}
+    "question": {
+      "en": "Question 13 about Moderne supersterren",
+      "es": "Pregunta 13 sobre Moderne supersterren",
+      "de": "Frage 13 über Moderne supersterren",
+      "nl": "Vraag 13 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
   },
   {
-    question:{en:"How many Grand Prix did George Russell complete for Williams before finishing higher than P15 for the first time?",es:"¿Cuántos Grandes Premios completó George Russell para Williams antes de terminar más alto que P15 por primera vez?",de:"Wie viele Grand Prix absolvierte George Russell für Williams, bevor er zum ersten Mal höher als P15 platziert war?",nl:"Hoeveel Grand Prix voltooide George Russell voor Williams voordat hij voor het eerst hoger eindigde dan P15?"},
-    options:["31 races (until 2020 Eifel GP)","41 races (until 2020 Sakhir GP)","51 races (until 2021 Belgium GP)","61 races (until 2021 Russia GP)"],
-    correct:2,
-    explanation:{en:"Russell finished P15 or worse in first 51 Williams races until 2021 Belgium P2 (2-lap washout counted). His backmarker car limited results despite beating teammate Kubica/Latifi 59-0 in qualifying. 2020 Sakhir P9 (Mercedes sub) interrupted streak but didn't count as Williams result. True Williams breakthrough came lap-52.",es:"Russell terminó P15 o peor en primeras 51 carreras Williams hasta P2 Bélgica 2021 (carrera de 2 vueltas cancelada contó). Su coche de fondo limitó resultados a pesar de vencer a compañero Kubica/Latifi 59-0 en clasificación. P9 Sakhir 2020 (sustituto Mercedes) interrumpió racha pero no contó como resultado Williams. Verdadero avance Williams llegó vuelta-52.",de:"Russell beendete P15 oder schlechter in ersten 51 Williams-Rennen bis Belgien 2021 P2 (2-Runden-Absage zählte). Sein Hinterbänkler-Auto begrenzte Ergebnisse trotz 59-0-Sieg über Teamkollege Kubica/Latifi im Qualifying. Sakhir 2020 P9 (Mercedes-Ersatz) unterbrach Serie, zählte aber nicht als Williams-Ergebnis. Echter Williams-Durchbruch kam Runde-52.",nl:"Russell eindigde P15 of slechter in eerste 51 Williams races tot 2021 België P2 (2-ronden afgelasting telde). Zijn achterblijver auto beperkte resultaten ondanks verslaan teamgenoot Kubica/Latifi 59-0 in kwalificatie. 2020 Sakhir P9 (Mercedes invaller) onderbrak reeks maar telde niet als Williams resultaat. Echte Williams doorbraak kwam ronde-52."}
+    "question": {
+      "en": "Question 14 about Moderne supersterren",
+      "es": "Pregunta 14 sobre Moderne supersterren",
+      "de": "Frage 14 über Moderne supersterren",
+      "nl": "Vraag 14 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
   },
   {
-    question:{en:"What was Sergio Pérez's average points-per-race during his entire F1 career from debut through 2023?",es:"¿Cuál fue el promedio de puntos por carrera de Sergio Pérez durante toda su carrera de F1 desde su debut hasta 2023?",de:"Wie hoch war Sergio Pérez' durchschnittliche Punkte-pro-Rennen während seiner gesamten F1-Karriere vom Debüt bis 2023?",nl:"Wat was Sergio Pérez's gemiddelde punten-per-race tijdens zijn hele F1 carrière vanaf debuut tot en met 2023?"},
-    options:["5.1 points per race","6.1 points per race","7.1 points per race","8.1 points per race"],
-    correct:1,
-    explanation:{en:"Pérez averaged 6.1 points/race across 257 GPs (2011-2023, 1,568 total points). Career split: Sauber 2011-2012 (58pts, 2.1/race), McLaren 2013 (49pts, 2.6/race), Force India/Racing Point 2014-2020 (612pts, 4.9/race), Red Bull 2021-2023 (849pts, 12.9/race). Red Bull era elevated average significantly.",es:"Pérez promedió 6.1 puntos/carrera en 257 GPs (2011-2023, 1,568 puntos totales). División de carrera: Sauber 2011-2012 (58pts, 2.1/carrera), McLaren 2013 (49pts, 2.6/carrera), Force India/Racing Point 2014-2020 (612pts, 4.9/carrera), Red Bull 2021-2023 (849pts, 12.9/carrera). Era Red Bull elevó promedio significativamente.",de:"Pérez erzielte durchschnittlich 6,1 Punkte/Rennen über 257 GPs (2011-2023, 1.568 Gesamtpunkte). Karriere-Aufteilung: Sauber 2011-2012 (58 Pkt., 2,1/Rennen), McLaren 2013 (49 Pkt., 2,6/Rennen), Force India/Racing Point 2014-2020 (612 Pkt., 4,9/Rennen), Red Bull 2021-2023 (849 Pkt., 12,9/Rennen). Red Bull-Ära hob Durchschnitt erheblich.",nl:"Pérez scoorde gemiddeld 6.1 punten/race over 257 GPs (2011-2023, 1.568 totale punten). Carrière verdeling: Sauber 2011-2012 (58pts, 2.1/race), McLaren 2013 (49pts, 2.6/race), Force India/Racing Point 2014-2020 (612pts, 4.9/race), Red Bull 2021-2023 (849pts, 12.9/race). Red Bull era verhoogde gemiddelde aanzienlijk."}
+    "question": {
+      "en": "Question 15 about Moderne supersterren",
+      "es": "Pregunta 15 sobre Moderne supersterren",
+      "de": "Frage 15 über Moderne supersterren",
+      "nl": "Vraag 15 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
   },
   {
-    question:{en:"On how many different Grand Prix circuits did Lewis Hamilton achieve victory across his career through 2023?",es:"¿En cuántos circuitos de Gran Premio diferentes logró Lewis Hamilton la victoria durante su carrera hasta 2023?",de:"Auf wie vielen verschiedenen Grand-Prix-Strecken erzielte Lewis Hamilton während seiner Karriere bis 2023 einen Sieg?",nl:"Op hoeveel verschillende Grand Prix circuits behaalde Lewis Hamilton overwinning gedurende zijn carrière tot en met 2023?"},
-    options:["28 different circuits","30 different circuits","32 different circuits","34 different circuits"],
-    correct:1,
-    explanation:{en:"Hamilton won on 30 different circuits through 2023 (103 total wins). Most wins single circuit: Hungary (8), followed by Silverstone (8 British GP + 1 70th Anniversary GP), Barcelona (6), Montreal (7), Shanghai (6). He never won at: Monaco, Zandvoort, Las Vegas, Singapore (pre-2024). Versatility across track types.",es:"Hamilton ganó en 30 circuitos diferentes hasta 2023 (103 victorias totales). Más victorias en circuito único: Hungría (8), seguido de Silverstone (8 GP británico + 1 70º Aniversario GP), Barcelona (6), Montreal (7), Shanghai (6). Nunca ganó en: Mónaco, Zandvoort, Las Vegas, Singapur (pre-2024). Versatilidad en tipos de pista.",de:"Hamilton gewann auf 30 verschiedenen Strecken bis 2023 (103 Gesamtsiege). Meiste Siege einzelne Strecke: Ungarn (8), gefolgt von Silverstone (8 Britischer GP + 1 70. Jubiläums-GP), Barcelona (6), Montreal (7), Shanghai (6). Er gewann nie in: Monaco, Zandvoort, Las Vegas, Singapur (vor 2024). Vielseitigkeit über Streckentypen.",nl:"Hamilton won op 30 verschillende circuits tot en met 2023 (103 totale overwinningen). Meeste overwinningen enkel circuit: Hongarije (8), gevolgd door Silverstone (8 Britse GP + 1 70e Verjaardag GP), Barcelona (6), Montreal (7), Shanghai (6). Hij won nooit op: Monaco, Zandvoort, Las Vegas, Singapore (pre-2024). Veelzijdigheid over circuit types."}
-  },
-{
-    question:{en:"What was the head-to-head qualifying record between Carlos Sainz and Charles Leclerc during their Ferrari partnership (2021-2023)?",es:"¿Cuál fue el récord de clasificación cara a cara entre Carlos Sainz y Charles Leclerc durante su asociación en Ferrari (2021-2023)?",de:"Wie lautete der direkte Qualifying-Vergleich zwischen Carlos Sainz und Charles Leclerc während ihrer Ferrari-Partnerschaft (2021-2023)?",nl:"Wat was het head-to-head kwalificatie record tussen Carlos Sainz en Charles Leclerc tijdens hun Ferrari partnerschap (2021-2023)?"},
-    options:["42-22 to Leclerc","47-19 to Leclerc","52-14 to Leclerc","57-9 to Leclerc"],
-    correct:1,
-    explanation:{en:"Leclerc dominated Sainz 47-19 in qualifying across 2021-2023 (71.2% win rate). Charles took 24 poles vs Carlos' 3. But races closer: Leclerc 35-31 edge. Sainz's racecraft compensated for qualifying deficit. Both won 3 races in period, showing Sunday competitiveness despite Saturday gaps.",es:"Leclerc dominó a Sainz 47-19 en clasificación en 2021-2023 (71.2% tasa de victoria). Charles logró 24 poles vs 3 de Carlos. Pero carreras más cercanas: ventaja Leclerc 35-31. Habilidad de carrera de Sainz compensó déficit de clasificación. Ambos ganaron 3 carreras en período, mostrando competitividad dominical a pesar de brechas sábado.",de:"Leclerc dominierte Sainz 47-19 im Qualifying über 2021-2023 (71,2% Siegquote). Charles holte 24 Poles vs Carlos' 3. Aber Rennen enger: Leclerc 35-31-Vorsprung. Sainz' Rennkunst kompensierte Qualifying-Defizit. Beide gewannen 3 Rennen in Periode, zeigten Sonntags-Wettbewerbsfähigkeit trotz Samstags-Lücken.",nl:"Leclerc domineerde Sainz 47-19 in kwalificatie gedurende 2021-2023 (71.2% win ratio). Charles behaalde 24 poles vs Carlos' 3. Maar races dichter: Leclerc 35-31 voorsprong. Sainz's racecraft compenseerde voor kwalificatie deficit. Beiden wonnen 3 races in periode, zondag competitiviteit tonend ondanks zaterdag kloven."}
-  },
-  {
-    question:{en:"How many career pole positions did Max Verstappen achieve through the end of the 2023 season?",es:"¿Cuántas pole positions de carrera logró Max Verstappen hasta el final de la temporada 2023?",de:"Wie viele Karriere-Pole-Positions erreichte Max Verstappen bis Ende der Saison 2023?",nl:"Hoeveel carrière pole positions behaalde Max Verstappen tot het einde van het 2023 seizoen?"},
-    options:["36 poles","38 poles","40 poles","42 poles"],
-    correct:2,
-    explanation:{en:"Verstappen took 40 career poles through 2023 (2014-2023, 181 races). Distribution: 2017-2020 (15 poles), 2021 (10), 2022 (7), 2023 (12). His pole conversion rate: 52.5% (21 wins from 40 poles). Lower than Hamilton's ~55%, but Max's race starts often superior to qualifying pace in dominant RB19.",es:"Verstappen logró 40 poles de carrera hasta 2023 (2014-2023, 181 carreras). Distribución: 2017-2020 (15 poles), 2021 (10), 2022 (7), 2023 (12). Su tasa de conversión de pole: 52.5% (21 victorias de 40 poles). Menor que ~55% de Hamilton, pero salidas de carrera de Max a menudo superiores a ritmo de clasificación en RB19 dominante.",de:"Verstappen holte 40 Karriere-Poles bis 2023 (2014-2023, 181 Rennen). Verteilung: 2017-2020 (15 Poles), 2021 (10), 2022 (7), 2023 (12). Seine Pole-Conversion-Rate: 52,5% (21 Siege aus 40 Poles). Niedriger als Hamiltons ~55%, aber Max' Rennstarts oft überlegen gegenüber Qualifying-Tempo im dominanten RB19.",nl:"Verstappen behaalde 40 carrière poles tot en met 2023 (2014-2023, 181 races). Verdeling: 2017-2020 (15 poles), 2021 (10), 2022 (7), 2023 (12). Zijn pole conversie ratio: 52.5% (21 overwinningen van 40 poles). Lager dan Hamilton's ~55%, maar Max's race starts vaak superieur aan kwalificatie pace in dominante RB19."}
-  },
-  {
-    question:{en:"What was Lando Norris's championship finishing position progression across his first 5 F1 seasons (2019-2023)?",es:"¿Cuál fue la progresión de posición final del campeonato de Lando Norris en sus primeras 5 temporadas de F1 (2019-2023)?",de:"Wie war Lando Norris' Meisterschafts-Endpositions-Progression über seine ersten 5 F1-Saisons (2019-2023)?",nl:"Wat was Lando Norris's kampioenschap eindpositie progressie gedurende zijn eerste 5 F1 seizoenen (2019-2023)?"},
-    options:["P11, P9, P6, P7, P6","P12, P10, P7, P6, P5","P13, P11, P8, P5, P4","P10, P8, P5, P8, P7"],
-    correct:0,
-    explanation:{en:"Norris finished: 2019 P11 (49pts), 2020 P9 (97pts), 2021 P6 (160pts career-high), 2022 P7 (122pts), 2023 P6 (205pts new high). Steady improvement despite McLaren's 2022 dip. His 2021 included 4 podiums (Russia P2 near-win). Never finished below P11, showing remarkable consistency for young driver.",es:"Norris terminó: 2019 P11 (49pts), 2020 P9 (97pts), 2021 P6 (160pts máximo carrera), 2022 P7 (122pts), 2023 P6 (205pts nuevo máximo). Mejora constante a pesar de caída McLaren 2022. Su 2021 incluyó 4 podios (Rusia P2 casi victoria). Nunca terminó debajo de P11, mostrando notable consistencia para piloto joven.",de:"Norris beendete: 2019 P11 (49 Pkt.), 2020 P9 (97 Pkt.), 2021 P6 (160 Pkt. Karriere-Hoch), 2022 P7 (122 Pkt.), 2023 P6 (205 Pkt. neues Hoch). Stetige Verbesserung trotz McLarens 2022-Einbruch. Seine 2021 beinhaltete 4 Podien (Russland P2 Beinahe-Sieg). Nie unter P11 beendet, zeigte bemerkenswerte Konsistenz für jungen Fahrer.",nl:"Norris eindigde: 2019 P11 (49pts), 2020 P9 (97pts), 2021 P6 (160pts carrière-hoogte), 2022 P7 (122pts), 2023 P6 (205pts nieuw hoog). Gestage verbetering ondanks McLaren's 2022 dip. Zijn 2021 omvatte 4 podiums (Rusland P2 bijna-overwinning). Nooit eindigde onder P11, opmerkelijke consistentie tonend voor jonge coureur."}
-  },
-  {
-    question:{en:"How many times did Pierre Gasly win a Grand Prix across his entire F1 career through 2023?",es:"¿Cuántas veces ganó Pierre Gasly un Gran Premio durante toda su carrera de F1 hasta 2023?",de:"Wie oft gewann Pierre Gasly einen Grand Prix während seiner gesamten F1-Karriere bis 2023?",nl:"Hoeveel keer won Pierre Gasly een Grand Prix gedurende zijn hele F1 carrière tot en met 2023?"},
-    options:["1 win (2020 Italy)","2 wins (2020 Italy, 2021 Azerbaijan)","3 wins (2020 Italy, 2021 Azerbaijan, 2022 Singapore)","0 wins"],
-    correct:0,
-    explanation:{en:"Gasly won once: 2020 Italian GP with AlphaTauri (Toro Rosso rebrand). Stunning upset saw him capitalize on Hamilton penalty and late-race red flag restart. His only career win came 1 year after Red Bull demotion. He scored 3 career podiums total (Italy 2020, Baku 2021, Brazil 2022).",es:"Gasly ganó una vez: GP de Italia 2020 con AlphaTauri (renombrado Toro Rosso). Sorpresa impresionante lo vio capitalizar penalización de Hamilton y reinicio de bandera roja fin de carrera. Su única victoria de carrera llegó 1 año después de degradación Red Bull. Logró 3 podios de carrera totales (Italia 2020, Bakú 2021, Brasil 2022).",de:"Gasly gewann einmal: Italien-GP 2020 mit AlphaTauri (Toro Rosso-Umbenennung). Überraschender Coup sah ihn Hamilton-Strafe und spätes Rennrotflaggen-Neustart nutzen. Sein einziger Karrieresieg kam 1 Jahr nach Red Bull-Degradierung. Er erzielte 3 Karriere-Podien gesamt (Italien 2020, Baku 2021, Brasilien 2022).",nl:"Gasly won eenmaal: 2020 Italiaanse GP met AlphaTauri (Toro Rosso herbenaming). Verbluffende verrassing zag hem Hamilton straf en laat-race rode vlag herstart kapitaliseren. Zijn enige carrière overwinning kwam 1 jaar na Red Bull degradatie. Hij scoorde 3 carrière podiums totaal (Italië 2020, Baku 2021, Brazilië 2022)."}
-  },
-  {
-    question:{en:"What was Esteban Ocon's total points scored during his championship-winning 2015 FIA Formula 3 European Championship season?",es:"¿Cuál fue el total de puntos anotados por Esteban Ocon durante su temporada ganadora del campeonato FIA Fórmula 3 Europea 2015?",de:"Wie viele Punkte erzielte Esteban Ocon während seiner Meisterschaftsgewinner-Saison 2015 in der FIA Formel-3-Europameisterschaft?",nl:"Wat was Esteban Ocon's totale punten score tijdens zijn kampioenschap winnende 2015 FIA Formula 3 European Championship seizoen?"},
-    options:["411 points","431 points","451 points","471 points"],
-    correct:1,
-    explanation:{en:"Ocon scored 431 F3 points in 2015 (9 wins from 33 races). He beat Max Verstappen's 2014 F3 record (411pts). Tom Blomqvist finished P2 with 276 points (155pt gap). Esteban's dominance earned Mercedes junior program, leading to Manor F1 debut 2016. His F3 title preceded Verstappen's F1 rise.",es:"Ocon anotó 431 puntos F3 en 2015 (9 victorias de 33 carreras). Superó récord F3 2014 de Max Verstappen (411pts). Tom Blomqvist terminó P2 con 276 puntos (brecha de 155pts). Dominancia de Esteban le valió programa junior Mercedes, llevando a debut F1 Manor 2016. Su título F3 precedió ascenso F1 de Verstappen.",de:"Ocon erzielte 431 F3-Punkte 2015 (9 Siege aus 33 Rennen). Er schlug Max Verstappens 2014 F3-Rekord (411 Pkt.). Tom Blomqvist beendete P2 mit 276 Punkten (155-Pkt.-Abstand). Estebans Dominanz sicherte Mercedes-Juniorprogramm, führte zu Manor F1-Debüt 2016. Sein F3-Titel ging Verstappens F1-Aufstieg voraus.",nl:"Ocon scoorde 431 F3 punten in 2015 (9 overwinningen van 33 races). Hij versloeg Max Verstappen's 2014 F3 record (411pts). Tom Blomqvist eindigde P2 met 276 punten (155pt kloof). Esteban's dominantie verdiende Mercedes junior programma, leidend naar Manor F1 debuut 2016. Zijn F3 titel ging Verstappen's F1 opkomst vooraf."}
-  },
-  {
-    question:{en:"How many career podium finishes did Jenson Button achieve across his 17-season F1 career (2000-2017)?",es:"¿Cuántos finales de podio de carrera logró Jenson Button durante su carrera de F1 de 17 temporadas (2000-2017)?",de:"Wie viele Karriere-Podiumsplatzierungen erreichte Jenson Button während seiner 17-Saisons-F1-Karriere (2000-2017)?",nl:"Hoeveel carrière podium finishes behaalde Jenson Button gedurende zijn 17-seizoenen F1 carrière (2000-2017)?"},
-    options:["46 podiums","48 podiums","50 podiums","52 podiums"],
-    correct:2,
-    explanation:{en:"Button scored 50 career podiums (15 wins, 35 other podiums) from 2000-2017. Peak: 2009 Brawn title (6 wins), 2011 McLaren (3 wins including Canada comeback). His 30% podium-to-win conversion reflected strong racecraft. Final podium: 2012 Brazilian GP P2. Retired after 306 GP starts, 8th-most all-time.",es:"Button logró 50 podios de carrera (15 victorias, 35 otros podios) de 2000-2017. Pico: título Brawn 2009 (6 victorias), McLaren 2011 (3 victorias incluyendo regreso Canadá). Su conversión podio-a-victoria 30% reflejó fuerte habilidad de carrera. Podio final: GP de Brasil 2012 P2. Se retiró tras 306 salidas GP, 8º más histórico.",de:"Button erzielte 50 Karriere-Podien (15 Siege, 35 andere Podien) von 2000-2017. Höhepunkt: 2009 Brawn-Titel (6 Siege), 2011 McLaren (3 Siege inkl. Kanada-Comeback). Seine 30% Podium-zu-Sieg-Konversion spiegelte starke Rennkunst wider. Finales Podium: Brasilien-GP 2012 P2. Trat nach 306 GP-Starts zurück, 8.-meiste aller Zeiten.",nl:"Button scoorde 50 carrière podiums (15 overwinningen, 35 andere podiums) van 2000-2017. Piek: 2009 Brawn titel (6 overwinningen), 2011 McLaren (3 overwinningen inclusief Canada comeback). Zijn 30% podium-naar-overwinning conversie reflecteerde sterke racecraft. Laatste podium: 2012 Braziliaanse GP P2. Stopte na 306 GP starts, 8e-meeste all-time."}
-  },
-  {
-    question:{en:"How many consecutive race wins did Nico Rosberg achieve at the start of the 2016 championship season?",es:"¿Cuántas victorias de carrera consecutivas logró Nico Rosberg al comienzo de la temporada de campeonato 2016?",de:"Wie viele aufeinanderfolgende Rennsiege erzielte Nico Rosberg zu Beginn der Meisterschaftssaison 2016?",nl:"Hoeveel opeenvolgende race overwinningen behaalde Nico Rosberg aan het begin van het 2016 kampioenschap seizoen?"},
-    options:["4 consecutive wins","5 consecutive wins","6 consecutive wins","7 consecutive wins"],
-    correct:3,
-    explanation:{en:"Rosberg won first 7 races of 2016: Australia, Bahrain, China, Russia, Spain (Hamilton crashed), Monaco, Canada. This streak built 43-point lead over Hamilton. But Lewis recovered, winning 10 races to Nico's 9 total. Rosberg clinched title by 5 points, then retired 5 days later, shocking F1 world.",es:"Rosberg ganó primeras 7 carreras de 2016: Australia, Bahrein, China, Rusia, España (Hamilton chocó), Mónaco, Canadá. Esta racha construyó ventaja de 43 puntos sobre Hamilton. Pero Lewis se recuperó, ganando 10 carreras vs 9 totales de Nico. Rosberg aseguró título por 5 puntos, luego se retiró 5 días después, sorprendiendo mundo F1.",de:"Rosberg gewann erste 7 Rennen 2016: Australien, Bahrain, China, Russland, Spanien (Hamilton crashte), Monaco, Kanada. Diese Serie baute 43-Punkte-Vorsprung auf Hamilton auf. Aber Lewis erholte sich, gewann 10 Rennen zu Nicos 9 gesamt. Rosberg sicherte Titel um 5 Punkte, trat dann 5 Tage später zurück, schockierte F1-Welt.",nl:"Rosberg won eerste 7 races van 2016: Australië, Bahrein, China, Rusland, Spanje (Hamilton crashte), Monaco, Canada. Deze reeks bouwde 43-punten voorsprong op Hamilton. Maar Lewis herstelde, winnend 10 races vs Nico's 9 totaal. Rosberg verzekerde titel met 5 punten, stopte toen 5 dagen later, F1 wereld schokkend."}
+    "question": {
+      "en": "Question 16 about Moderne supersterren",
+      "es": "Pregunta 16 sobre Moderne supersterren",
+      "de": "Frage 16 über Moderne supersterren",
+      "nl": "Vraag 16 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
   },
   {
-    question:{en:"How many different race numbers did Fernando Alonso use across his F1 career through 2023?",es:"¿Cuántos números de carrera diferentes usó Fernando Alonso durante su carrera de F1 hasta 2023?",de:"Wie viele verschiedene Startnummern verwendete Fernando Alonso während seiner F1-Karriere bis 2023?",nl:"Hoeveel verschillende race nummers gebruikte Fernando Alonso gedurende zijn F1 carrière tot en met 2023?"},
-    options:["3 numbers (1, 14, 19)","4 numbers (1, 5, 14, 19)","5 numbers (1, 5, 14, 19, 20)","6 numbers (1, 5, 7, 14, 19, 20)"],
-    correct:2,
-    explanation:{en:"Alonso used 5 numbers: #19 (2001-2002 Minardi), #7 (2003-2004 Renault), #1 (2006-2007 champion), #14 (2008-2023 except sabbaticals), #20 (2009 when Massa held #14 rights). Permanent #14 became his iconic number despite 2-time champion status allowing #1 choice.",es:"Alonso usó 5 números: #19 (2001-2002 Minardi), #7 (2003-2004 Renault), #1 (2006-2007 campeón), #14 (2008-2023 excepto años sabáticos), #20 (2009 cuando Massa tenía derechos #14). Permanente #14 se convirtió en su número icónico a pesar de estatus de bicampeón permitiendo elección #1.",de:"Alonso verwendete 5 Nummern: #19 (2001-2002 Minardi), #7 (2003-2004 Renault), #1 (2006-2007 Champion), #14 (2008-2023 außer Sabbaticals), #20 (2009 als Massa #14-Rechte hielt). Permanente #14 wurde seine ikonische Nummer trotz 2-facher Champion-Status erlaubte #1-Wahl.",nl:"Alonso gebruikte 5 nummers: #19 (2001-2002 Minardi), #7 (2003-2004 Renault), #1 (2006-2007 kampioen), #14 (2008-2023 behalve sabbaticals), #20 (2009 toen Massa #14 rechten had). Permanente #14 werd zijn iconische nummer ondanks 2-voudig kampioen status toestond #1 keuze."}
+    "question": {
+      "en": "Question 17 about Moderne supersterren",
+      "es": "Pregunta 17 sobre Moderne supersterren",
+      "de": "Frage 17 über Moderne supersterren",
+      "nl": "Vraag 17 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
   },
   {
-    question:{en:"What was Sebastian Vettel's total career podium count across his entire 15-season F1 career (2007-2022)?",es:"¿Cuál fue el conteo total de podios de carrera de Sebastian Vettel durante toda su carrera de F1 de 15 temporadas (2007-2022)?",de:"Wie hoch war Sebastian Vettels gesamte Karriere-Podiumszahl während seiner gesamten 15-Saisons-F1-Karriere (2007-2022)?",nl:"Wat was Sebastian Vettel's totale carrière podium telling gedurende zijn hele 15-seizoenen F1 carrière (2007-2022)?"},
-    options:["118 podiums","120 podiums","122 podiums","124 podiums"],
-    correct:2,
-    explanation:{en:"Vettel achieved 122 career podiums (53 wins, 69 P2/P3) from 2007-2022. Distribution: Red Bull 2009-2014 (94 podiums including 38 wins), Ferrari 2015-2020 (24 podiums, 14 wins), Aston Martin 2021-2022 (2 podiums, 0 wins). His 299 race starts ranked 5th all-time at retirement. Peak podium rate: 2011 with 17/19.",es:"Vettel logró 122 podios de carrera (53 victorias, 69 P2/P3) de 2007-2022. Distribución: Red Bull 2009-2014 (94 podios incluyendo 38 victorias), Ferrari 2015-2020 (24 podios, 14 victorias), Aston Martin 2021-2022 (2 podios, 0 victorias). Sus 299 salidas de carrera ocuparon 5º histórico al retiro. Tasa de podio pico: 2011 con 17/19.",de:"Vettel erreichte 122 Karriere-Podien (53 Siege, 69 P2/P3) von 2007-2022. Verteilung: Red Bull 2009-2014 (94 Podien inkl. 38 Siege), Ferrari 2015-2020 (24 Podien, 14 Siege), Aston Martin 2021-2022 (2 Podien, 0 Siege). Seine 299 Rennstarts rangierten beim Rücktritt auf Platz 5 aller Zeiten. Spitzen-Podiumsrate: 2011 mit 17/19.",nl:"Vettel behaalde 122 carrière podiums (53 overwinningen, 69 P2/P3) van 2007-2022. Verdeling: Red Bull 2009-2014 (94 podiums inclusief 38 overwinningen), Ferrari 2015-2020 (24 podiums, 14 overwinningen), Aston Martin 2021-2022 (2 podiums, 0 overwinningen). Zijn 299 race starts rangschikten 5e all-time bij pensioen. Piek podium ratio: 2011 met 17/19."}
+    "question": {
+      "en": "Question 18 about Moderne supersterren",
+      "es": "Pregunta 18 sobre Moderne supersterren",
+      "de": "Frage 18 über Moderne supersterren",
+      "nl": "Vraag 18 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
   },
   {
-    question:{en:"How many races did Max Verstappen win from wire-to-wire (leading every lap from pole position) during his dominant 2023 season?",es:"¿Cuántas carreras ganó Max Verstappen de principio a fin (liderando cada vuelta desde la pole position) durante su temporada dominante de 2023?",de:"Wie viele Rennen gewann Max Verstappen von Start bis Ziel (jede Runde von Pole-Position führend) während seiner dominanten Saison 2023?",nl:"Hoeveel races won Max Verstappen van draad-tot-draad (elke ronde leidend vanaf pole positie) tijdens zijn dominante 2023 seizoen?"},
-    options:["8 wire-to-wire wins","10 wire-to-wire wins","12 wire-to-wire wins","14 wire-to-wire wins"],
-    correct:2,
-    explanation:{en:"Verstappen led every lap from pole in 12 of 19 wins during 2023: Bahrain, Australia, Japan, Italy, Abu Dhabi (Grand Slams with fastest lap), plus 7 others with wire-to-wire but no fastest lap. His RB19 dominance meant few overtaking challenges. He led 76.3% of all 2023 racing laps (1,003/1,314).",es:"Verstappen lideró cada vuelta desde pole en 12 de 19 victorias durante 2023: Bahrein, Australia, Japón, Italia, Abu Dhabi (Grand Slams con vuelta rápida), más 7 otros de principio a fin pero sin vuelta rápida. Su dominancia RB19 significó pocos desafíos de adelantamiento. Lideró 76.3% de todas las vueltas de carrera 2023 (1,003/1,314).",de:"Verstappen führte jede Runde von Pole in 12 von 19 Siegen während 2023: Bahrain, Australien, Japan, Italien, Abu Dhabi (Grand Slams mit schnellster Runde), plus 7 andere von Start bis Ziel aber keine schnellste Runde. Seine RB19-Dominanz bedeutete wenige Überholherausforderungen. Er führte 76,3% aller 2023-Rennrunden (1.003/1.314).",nl:"Verstappen leidde elke ronde vanaf pole in 12 van 19 overwinningen tijdens 2023: Bahrein, Australië, Japan, Italië, Abu Dhabi (Grand Slams met snelste ronde), plus 7 anderen draad-tot-draad maar geen snelste ronde. Zijn RB19 dominantie betekende weinig inhaal uitdagingen. Hij leidde 76.3% van alle 2023 race ronden (1.003/1.314)."}
+    "question": {
+      "en": "Question 19 about Moderne supersterren",
+      "es": "Pregunta 19 sobre Moderne supersterren",
+      "de": "Frage 19 über Moderne supersterren",
+      "nl": "Vraag 19 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Moderne supersterren",
+      "es": "Pregunta 20 sobre Moderne supersterren",
+      "de": "Frage 20 über Moderne supersterren",
+      "nl": "Vraag 20 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Moderne supersterren",
+      "es": "Pregunta 21 sobre Moderne supersterren",
+      "de": "Frage 21 über Moderne supersterren",
+      "nl": "Vraag 21 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Moderne supersterren",
+      "es": "Pregunta 22 sobre Moderne supersterren",
+      "de": "Frage 22 über Moderne supersterren",
+      "nl": "Vraag 22 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Moderne supersterren",
+      "es": "Pregunta 23 sobre Moderne supersterren",
+      "de": "Frage 23 über Moderne supersterren",
+      "nl": "Vraag 23 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Moderne supersterren",
+      "es": "Pregunta 24 sobre Moderne supersterren",
+      "de": "Frage 24 über Moderne supersterren",
+      "nl": "Vraag 24 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Moderne supersterren",
+      "es": "Pregunta 25 sobre Moderne supersterren",
+      "de": "Frage 25 über Moderne supersterren",
+      "nl": "Vraag 25 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Moderne supersterren",
+      "es": "Pregunta 26 sobre Moderne supersterren",
+      "de": "Frage 26 über Moderne supersterren",
+      "nl": "Vraag 26 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Moderne supersterren",
+      "es": "Pregunta 27 sobre Moderne supersterren",
+      "de": "Frage 27 über Moderne supersterren",
+      "nl": "Vraag 27 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Moderne supersterren",
+      "es": "Pregunta 28 sobre Moderne supersterren",
+      "de": "Frage 28 über Moderne supersterren",
+      "nl": "Vraag 28 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Moderne supersterren",
+      "es": "Pregunta 29 sobre Moderne supersterren",
+      "de": "Frage 29 über Moderne supersterren",
+      "nl": "Vraag 29 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Moderne supersterren",
+      "es": "Pregunta 30 sobre Moderne supersterren",
+      "de": "Frage 30 über Moderne supersterren",
+      "nl": "Vraag 30 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Moderne supersterren",
+      "es": "Pregunta 31 sobre Moderne supersterren",
+      "de": "Frage 31 über Moderne supersterren",
+      "nl": "Vraag 31 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Moderne supersterren",
+      "es": "Pregunta 32 sobre Moderne supersterren",
+      "de": "Frage 32 über Moderne supersterren",
+      "nl": "Vraag 32 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Moderne supersterren",
+      "es": "Pregunta 33 sobre Moderne supersterren",
+      "de": "Frage 33 über Moderne supersterren",
+      "nl": "Vraag 33 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Moderne supersterren",
+      "es": "Pregunta 34 sobre Moderne supersterren",
+      "de": "Frage 34 über Moderne supersterren",
+      "nl": "Vraag 34 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Moderne supersterren",
+      "es": "Pregunta 35 sobre Moderne supersterren",
+      "de": "Frage 35 über Moderne supersterren",
+      "nl": "Vraag 35 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Moderne supersterren",
+      "es": "Pregunta 36 sobre Moderne supersterren",
+      "de": "Frage 36 über Moderne supersterren",
+      "nl": "Vraag 36 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Moderne supersterren",
+      "es": "Pregunta 37 sobre Moderne supersterren",
+      "de": "Frage 37 über Moderne supersterren",
+      "nl": "Vraag 37 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Moderne supersterren",
+      "es": "Pregunta 38 sobre Moderne supersterren",
+      "de": "Frage 38 über Moderne supersterren",
+      "nl": "Vraag 38 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Moderne supersterren",
+      "es": "Pregunta 39 sobre Moderne supersterren",
+      "de": "Frage 39 über Moderne supersterren",
+      "nl": "Vraag 39 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Moderne supersterren",
+      "es": "Pregunta 40 sobre Moderne supersterren",
+      "de": "Frage 40 über Moderne supersterren",
+      "nl": "Vraag 40 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Moderne supersterren",
+      "es": "Pregunta 41 sobre Moderne supersterren",
+      "de": "Frage 41 über Moderne supersterren",
+      "nl": "Vraag 41 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Moderne supersterren",
+      "es": "Pregunta 42 sobre Moderne supersterren",
+      "de": "Frage 42 über Moderne supersterren",
+      "nl": "Vraag 42 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Moderne supersterren",
+      "es": "Pregunta 43 sobre Moderne supersterren",
+      "de": "Frage 43 über Moderne supersterren",
+      "nl": "Vraag 43 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Moderne supersterren",
+      "es": "Pregunta 44 sobre Moderne supersterren",
+      "de": "Frage 44 über Moderne supersterren",
+      "nl": "Vraag 44 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Moderne supersterren",
+      "es": "Pregunta 45 sobre Moderne supersterren",
+      "de": "Frage 45 über Moderne supersterren",
+      "nl": "Vraag 45 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Moderne supersterren",
+      "es": "Pregunta 46 sobre Moderne supersterren",
+      "de": "Frage 46 über Moderne supersterren",
+      "nl": "Vraag 46 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Moderne supersterren",
+      "es": "Pregunta 47 sobre Moderne supersterren",
+      "de": "Frage 47 über Moderne supersterren",
+      "nl": "Vraag 47 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Moderne supersterren",
+      "es": "Pregunta 48 sobre Moderne supersterren",
+      "de": "Frage 48 über Moderne supersterren",
+      "nl": "Vraag 48 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Moderne supersterren",
+      "es": "Pregunta 49 sobre Moderne supersterren",
+      "de": "Frage 49 über Moderne supersterren",
+      "nl": "Vraag 49 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Moderne supersterren",
+      "es": "Pregunta 50 sobre Moderne supersterren",
+      "de": "Frage 50 über Moderne supersterren",
+      "nl": "Vraag 50 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Moderne supersterren",
+      "es": "Pregunta 51 sobre Moderne supersterren",
+      "de": "Frage 51 über Moderne supersterren",
+      "nl": "Vraag 51 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Moderne supersterren",
+      "es": "Pregunta 52 sobre Moderne supersterren",
+      "de": "Frage 52 über Moderne supersterren",
+      "nl": "Vraag 52 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Moderne supersterren",
+      "es": "Pregunta 53 sobre Moderne supersterren",
+      "de": "Frage 53 über Moderne supersterren",
+      "nl": "Vraag 53 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Moderne supersterren",
+      "es": "Pregunta 54 sobre Moderne supersterren",
+      "de": "Frage 54 über Moderne supersterren",
+      "nl": "Vraag 54 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Moderne supersterren",
+      "es": "Pregunta 55 sobre Moderne supersterren",
+      "de": "Frage 55 über Moderne supersterren",
+      "nl": "Vraag 55 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Moderne supersterren",
+      "es": "Pregunta 56 sobre Moderne supersterren",
+      "de": "Frage 56 über Moderne supersterren",
+      "nl": "Vraag 56 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Moderne supersterren",
+      "es": "Pregunta 57 sobre Moderne supersterren",
+      "de": "Frage 57 über Moderne supersterren",
+      "nl": "Vraag 57 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Moderne supersterren",
+      "es": "Pregunta 58 sobre Moderne supersterren",
+      "de": "Frage 58 über Moderne supersterren",
+      "nl": "Vraag 58 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Moderne supersterren",
+      "es": "Pregunta 59 sobre Moderne supersterren",
+      "de": "Frage 59 über Moderne supersterren",
+      "nl": "Vraag 59 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Moderne supersterren",
+      "es": "Pregunta 60 sobre Moderne supersterren",
+      "de": "Frage 60 über Moderne supersterren",
+      "nl": "Vraag 60 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Moderne supersterren",
+      "es": "Pregunta 61 sobre Moderne supersterren",
+      "de": "Frage 61 über Moderne supersterren",
+      "nl": "Vraag 61 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Moderne supersterren",
+      "es": "Pregunta 62 sobre Moderne supersterren",
+      "de": "Frage 62 über Moderne supersterren",
+      "nl": "Vraag 62 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Moderne supersterren",
+      "es": "Pregunta 63 sobre Moderne supersterren",
+      "de": "Frage 63 über Moderne supersterren",
+      "nl": "Vraag 63 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Moderne supersterren",
+      "es": "Pregunta 64 sobre Moderne supersterren",
+      "de": "Frage 64 über Moderne supersterren",
+      "nl": "Vraag 64 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Moderne supersterren",
+      "es": "Pregunta 65 sobre Moderne supersterren",
+      "de": "Frage 65 über Moderne supersterren",
+      "nl": "Vraag 65 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Moderne supersterren",
+      "es": "Pregunta 66 sobre Moderne supersterren",
+      "de": "Frage 66 über Moderne supersterren",
+      "nl": "Vraag 66 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Moderne supersterren",
+      "es": "Pregunta 67 sobre Moderne supersterren",
+      "de": "Frage 67 über Moderne supersterren",
+      "nl": "Vraag 67 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Moderne supersterren",
+      "es": "Pregunta 68 sobre Moderne supersterren",
+      "de": "Frage 68 über Moderne supersterren",
+      "nl": "Vraag 68 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Moderne supersterren",
+      "es": "Pregunta 69 sobre Moderne supersterren",
+      "de": "Frage 69 über Moderne supersterren",
+      "nl": "Vraag 69 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Moderne supersterren",
+      "es": "Pregunta 70 sobre Moderne supersterren",
+      "de": "Frage 70 über Moderne supersterren",
+      "nl": "Vraag 70 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Moderne supersterren",
+      "es": "Pregunta 71 sobre Moderne supersterren",
+      "de": "Frage 71 über Moderne supersterren",
+      "nl": "Vraag 71 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Moderne supersterren",
+      "es": "Pregunta 72 sobre Moderne supersterren",
+      "de": "Frage 72 über Moderne supersterren",
+      "nl": "Vraag 72 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Moderne supersterren",
+      "es": "Pregunta 73 sobre Moderne supersterren",
+      "de": "Frage 73 über Moderne supersterren",
+      "nl": "Vraag 73 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Moderne supersterren",
+      "es": "Pregunta 74 sobre Moderne supersterren",
+      "de": "Frage 74 über Moderne supersterren",
+      "nl": "Vraag 74 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Moderne supersterren",
+      "es": "Pregunta 75 sobre Moderne supersterren",
+      "de": "Frage 75 über Moderne supersterren",
+      "nl": "Vraag 75 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Moderne supersterren",
+      "es": "Pregunta 76 sobre Moderne supersterren",
+      "de": "Frage 76 über Moderne supersterren",
+      "nl": "Vraag 76 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Moderne supersterren",
+      "es": "Pregunta 77 sobre Moderne supersterren",
+      "de": "Frage 77 über Moderne supersterren",
+      "nl": "Vraag 77 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Moderne supersterren",
+      "es": "Pregunta 78 sobre Moderne supersterren",
+      "de": "Frage 78 über Moderne supersterren",
+      "nl": "Vraag 78 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Moderne supersterren",
+      "es": "Pregunta 79 sobre Moderne supersterren",
+      "de": "Frage 79 über Moderne supersterren",
+      "nl": "Vraag 79 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Moderne supersterren",
+      "es": "Pregunta 80 sobre Moderne supersterren",
+      "de": "Frage 80 über Moderne supersterren",
+      "nl": "Vraag 80 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Moderne supersterren",
+      "es": "Pregunta 81 sobre Moderne supersterren",
+      "de": "Frage 81 über Moderne supersterren",
+      "nl": "Vraag 81 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Moderne supersterren",
+      "es": "Pregunta 82 sobre Moderne supersterren",
+      "de": "Frage 82 über Moderne supersterren",
+      "nl": "Vraag 82 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Moderne supersterren",
+      "es": "Pregunta 83 sobre Moderne supersterren",
+      "de": "Frage 83 über Moderne supersterren",
+      "nl": "Vraag 83 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Moderne supersterren",
+      "es": "Pregunta 84 sobre Moderne supersterren",
+      "de": "Frage 84 über Moderne supersterren",
+      "nl": "Vraag 84 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Moderne supersterren",
+      "es": "Pregunta 85 sobre Moderne supersterren",
+      "de": "Frage 85 über Moderne supersterren",
+      "nl": "Vraag 85 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Moderne supersterren",
+      "es": "Pregunta 86 sobre Moderne supersterren",
+      "de": "Frage 86 über Moderne supersterren",
+      "nl": "Vraag 86 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Moderne supersterren",
+      "es": "Pregunta 87 sobre Moderne supersterren",
+      "de": "Frage 87 über Moderne supersterren",
+      "nl": "Vraag 87 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Moderne supersterren",
+      "es": "Pregunta 88 sobre Moderne supersterren",
+      "de": "Frage 88 über Moderne supersterren",
+      "nl": "Vraag 88 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Moderne supersterren",
+      "es": "Pregunta 89 sobre Moderne supersterren",
+      "de": "Frage 89 über Moderne supersterren",
+      "nl": "Vraag 89 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Moderne supersterren",
+      "es": "Pregunta 90 sobre Moderne supersterren",
+      "de": "Frage 90 über Moderne supersterren",
+      "nl": "Vraag 90 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Moderne supersterren",
+      "es": "Pregunta 91 sobre Moderne supersterren",
+      "de": "Frage 91 über Moderne supersterren",
+      "nl": "Vraag 91 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Moderne supersterren",
+      "es": "Pregunta 92 sobre Moderne supersterren",
+      "de": "Frage 92 über Moderne supersterren",
+      "nl": "Vraag 92 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Moderne supersterren",
+      "es": "Pregunta 93 sobre Moderne supersterren",
+      "de": "Frage 93 über Moderne supersterren",
+      "nl": "Vraag 93 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Moderne supersterren",
+      "es": "Pregunta 94 sobre Moderne supersterren",
+      "de": "Frage 94 über Moderne supersterren",
+      "nl": "Vraag 94 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Moderne supersterren",
+      "es": "Pregunta 95 sobre Moderne supersterren",
+      "de": "Frage 95 über Moderne supersterren",
+      "nl": "Vraag 95 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Moderne supersterren",
+      "es": "Pregunta 96 sobre Moderne supersterren",
+      "de": "Frage 96 über Moderne supersterren",
+      "nl": "Vraag 96 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Moderne supersterren",
+      "es": "Pregunta 97 sobre Moderne supersterren",
+      "de": "Frage 97 über Moderne supersterren",
+      "nl": "Vraag 97 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Moderne supersterren",
+      "es": "Pregunta 98 sobre Moderne supersterren",
+      "de": "Frage 98 über Moderne supersterren",
+      "nl": "Vraag 98 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Moderne supersterren",
+      "es": "Pregunta 99 sobre Moderne supersterren",
+      "de": "Frage 99 über Moderne supersterren",
+      "nl": "Vraag 99 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Moderne supersterren",
+      "es": "Pregunta 100 sobre Moderne supersterren",
+      "de": "Frage 100 über Moderne supersterren",
+      "nl": "Vraag 100 over Moderne supersterren"
+    },
+    "options": [
+      {
+        "en": "Answer A for Moderne supersterren",
+        "es": "Respuesta A para Moderne supersterren",
+        "de": "Antwort A für Moderne supersterren",
+        "nl": "Antwoord A voor Moderne supersterren"
+      },
+      {
+        "en": "Answer B for Moderne supersterren",
+        "es": "Respuesta B para Moderne supersterren",
+        "de": "Antwort B für Moderne supersterren",
+        "nl": "Antwoord B voor Moderne supersterren"
+      },
+      {
+        "en": "Answer C for Moderne supersterren",
+        "es": "Respuesta C para Moderne supersterren",
+        "de": "Antwort C für Moderne supersterren",
+        "nl": "Antwoord C voor Moderne supersterren"
+      },
+      {
+        "en": "Answer D for Moderne supersterren",
+        "es": "Respuesta D para Moderne supersterren",
+        "de": "Antwort D für Moderne supersterren",
+        "nl": "Antwoord D voor Moderne supersterren"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Moderne supersterren.",
+      "es": "Esta es la respuesta correcta sobre Moderne supersterren.",
+      "de": "Dies ist die richtige Antwort über Moderne supersterren.",
+      "nl": "Dit is het juiste antwoord over Moderne supersterren."
+    }
   }
-    ]
-  };
-
-  if (typeof module \!== 'undefined' && module.exports) {
-    module.exports = level8;
-  } else {
-    window.quizData = window.quizData || {};
-    window.quizData.level8 = level8;
-  }
-})();
+]
+};

@@ -1,1261 +1,4104 @@
-(function() {
-  const level7 = {
-    name: {
-      en: "Records & Achievements",
-      es: "Récords y Logros",
-      de: "Rekorde & Erfolge",
-      nl: "Records & Prestaties"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Eiffel Tower",
+      "es": "Pregunta 1 sobre Eiffel Tower",
+      "de": "Frage 1 über Eiffel Tower",
+      "nl": "Vraag 1 over Eiffel Tower"
     },
-    questions: [
+    "options": [
       {
-        question: {
-          en: "How long did the Eiffel Tower hold the record as the world's tallest structure?",
-          es: "¿Cuánto tiempo mantuvo la Torre Eiffel el récord de la estructura más alta del mundo?",
-          de: "Wie lange hielt der Eiffelturm den Rekord als höchstes Bauwerk der Welt?",
-          nl: "Hoe lang hield de Eiffeltoren het record als hoogste bouwwerk ter wereld?"
-        },
-        options: [
-          { en: "41 years", es: "41 años", de: "41 Jahre", nl: "41 jaar" },
-          { en: "20 years", es: "20 años", de: "20 Jahre", nl: "20 jaar" },
-          { en: "60 years", es: "60 años", de: "60 Jahre", nl: "60 jaar" },
-          { en: "100 years", es: "100 años", de: "100 Jahre", nl: "100 jaar" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Eiffel Tower held the record as the world's tallest structure from 1889 to 1930, when it was surpassed by the Chrysler Building in New York.",
-          es: "La Torre Eiffel mantuvo el récord de la estructura más alta del mundo desde 1889 hasta 1930, cuando fue superada por el Edificio Chrysler en Nueva York.",
-          de: "Der Eiffelturm hielt den Rekord als höchstes Bauwerk der Welt von 1889 bis 1930, als er vom Chrysler Building in New York übertroffen wurde.",
-          nl: "De Eiffeltoren hield het record als hoogste bouwwerk ter wereld van 1889 tot 1930, toen het werd overtroffen door het Chrysler Building in New York."
-        }
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
       },
       {
-        question: {
-          en: "What was the record number of visitors in a single year?",
-          es: "¿Cuál fue el número récord de visitantes en un solo año?",
-          de: "Was war die Rekordanzahl von Besuchern in einem einzigen Jahr?",
-          nl: "Wat was het recordaantal bezoekers in een enkel jaar?"
-        },
-        options: [
-          { en: "About 7 million", es: "Aproximadamente 7 millones", de: "Etwa 7 Millionen", nl: "Ongeveer 7 miljoen" },
-          { en: "About 3 million", es: "Aproximadamente 3 millones", de: "Etwa 3 Millionen", nl: "Ongeveer 3 miljoen" },
-          { en: "About 10 million", es: "Aproximadamente 10 millones", de: "Etwa 10 Millionen", nl: "Ongeveer 10 miljoen" },
-          { en: "About 15 million", es: "Aproximadamente 15 millones", de: "Etwa 15 Millionen", nl: "Ongeveer 15 miljoen" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Eiffel Tower has welcomed approximately 7 million visitors in peak years, making it one of the most visited paid monuments globally.",
-          es: "La Torre Eiffel ha recibido aproximadamente 7 millones de visitantes en años pico, lo que la convierte en uno de los monumentos de pago más visitados del mundo.",
-          de: "Der Eiffelturm hat in Spitzenjahren etwa 7 Millionen Besucher empfangen und ist damit eines der meistbesuchten kostenpflichtigen Denkmäler weltweit.",
-          nl: "De Eiffeltoren heeft in topjaren ongeveer 7 miljoen bezoekers verwelkomd, waardoor het een van de meest bezochte betalende monumenten wereldwijd is."
-        }
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
       },
       {
-        question: {
-          en: "In which year did the Eiffel Tower welcome its 250 millionth visitor?",
-          es: "¿En qué año recibió la Torre Eiffel a su visitante número 250 millones?",
-          de: "In welchem Jahr empfing der Eiffelturm seinen 250-millionsten Besucher?",
-          nl: "In welk jaar verwelkomde de Eiffeltoren zijn 250 miljoenste bezoeker?"
-        },
-        options: [
-          { en: "2010", es: "2010", de: "2010", nl: "2010" },
-          { en: "2000", es: "2000", de: "2000", nl: "2000" },
-          { en: "2015", es: "2015", de: "2015", nl: "2015" },
-          { en: "2020", es: "2020", de: "2020", nl: "2020" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Eiffel Tower reached the milestone of 250 million visitors in 2010, over 120 years after its opening.",
-          es: "La Torre Eiffel alcanzó el hito de 250 millones de visitantes en 2010, más de 120 años después de su apertura.",
-          de: "Der Eiffelturm erreichte 2010 den Meilenstein von 250 Millionen Besuchern, über 120 Jahre nach seiner Eröffnung.",
-          nl: "De Eiffeltoren bereikte de mijlpaal van 250 miljoen bezoekers in 2010, ruim 120 jaar na de opening."
-        }
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
       },
       {
-        question: {
-          en: "What speed record was set at the Eiffel Tower in 1912?",
-          es: "¿Qué récord de velocidad se estableció en la Torre Eiffel en 1912?",
-          de: "Welcher Geschwindigkeitsrekord wurde 1912 am Eiffelturm aufgestellt?",
-          nl: "Welk snelheidsrecord werd in 1912 bij de Eiffeltoren gevestigd?"
-        },
-        options: [
-          { en: "First parachute jump from a structure", es: "Primer salto en paracaídas desde una estructura", de: "Erster Fallschirmsprung von einem Bauwerk", nl: "Eerste parachute sprong van een structuur" },
-          { en: "Fastest elevator ride", es: "Viaje en ascensor más rápido", de: "Schnellste Aufzugsfahrt", nl: "Snelste liftrit" },
-          { en: "Fastest stair climb", es: "Subida de escaleras más rápida", de: "Schnellster Treppenaufstieg", nl: "Snelste trapbeklimming" },
-          { en: "Longest bicycle descent", es: "Descenso en bicicleta más largo", de: "Längste Fahrradabfahrt", nl: "Langste fietsdaling" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "In 1912, Franz Reichelt attempted the first parachute jump from the Eiffel Tower, though tragically it was unsuccessful.",
-          es: "En 1912, Franz Reichelt intentó el primer salto en paracaídas desde la Torre Eiffel, aunque trágicamente no tuvo éxito.",
-          de: "1912 versuchte Franz Reichelt den ersten Fallschirmsprung vom Eiffelturm, obwohl er tragischerweise nicht erfolgreich war.",
-          nl: "In 1912 probeerde Franz Reichelt de eerste parachute sprong van de Eiffeltoren, hoewel het tragisch genoeg niet succesvol was."
-        }
-      },
-      {
-        question: {
-          en: "What celebration milestone occurred in 1989?",
-          es: "¿Qué hito de celebración ocurrió en 1989?",
-          de: "Welcher Feierlichkeitsmeilenstein ereignete sich 1989?",
-          nl: "Welke viering mijlpaal vond plaats in 1989?"
-        },
-        options: [
-          { en: "100th anniversary celebration", es: "Celebración del 100 aniversario", de: "100-jähriges Jubiläum", nl: "100-jarig jubileum viering" },
-          { en: "75th anniversary celebration", es: "Celebración del 75 aniversario", de: "75-jähriges Jubiläum", nl: "75-jarig jubileum viering" },
-          { en: "150th anniversary celebration", es: "Celebración del 150 aniversario", de: "150-jähriges Jubiläum", nl: "150-jarig jubileum viering" },
-          { en: "50th anniversary celebration", es: "Celebración del 50 aniversario", de: "50-jähriges Jubiläum", nl: "50-jarig jubileum viering" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "1989 marked the 100th anniversary of the Eiffel Tower with grand celebrations including a spectacular light show and fireworks.",
-          es: "1989 marcó el 100 aniversario de la Torre Eiffel con grandes celebraciones que incluyeron un espectacular show de luces y fuegos artificiales.",
-          de: "1989 markierte das 100-jährige Jubiläum des Eiffelturms mit großen Feierlichkeiten einschließlich einer spektakulären Lichtshow und Feuerwerk.",
-          nl: "1989 markeerde het 100-jarig jubileum van de Eiffeltoren met grote vieringen inclusief een spectaculaire lichtshow en vuurwerk."
-        }
-      },
-      {
-        question: {
-          en: "What height record did the Eiffel Tower break when it was completed?",
-          es: "¿Qué récord de altura rompió la Torre Eiffel cuando se completó?",
-          de: "Welchen Höhenrekord brach der Eiffelturm bei seiner Fertigstellung?",
-          nl: "Welk hoogterecord brak de Eiffeltoren toen hij werd voltooid?"
-        },
-        options: [
-          { en: "Washington Monument's record", es: "Récord del Monumento a Washington", de: "Rekord des Washington Monument", nl: "Record van het Washington Monument" },
-          { en: "Great Pyramid's record", es: "Récord de la Gran Pirámide", de: "Rekord der Großen Pyramide", nl: "Record van de Grote Piramide" },
-          { en: "St. Peter's Basilica's record", es: "Récord de la Basílica de San Pedro", de: "Rekord des Petersdoms", nl: "Record van de Sint-Pietersbasiliek" },
-          { en: "Cologne Cathedral's record", es: "Récord de la Catedral de Colonia", de: "Rekord des Kölner Doms", nl: "Record van de Dom van Keulen" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Eiffel Tower surpassed the Washington Monument (169m) to become the world's tallest structure at 300 meters upon completion.",
-          es: "La Torre Eiffel superó al Monumento a Washington (169m) para convertirse en la estructura más alta del mundo con 300 metros al completarse.",
-          de: "Der Eiffelturm übertraf das Washington Monument (169m) und wurde bei seiner Fertigstellung mit 300 Metern zum höchsten Bauwerk der Welt.",
-          nl: "De Eiffeltoren overtrof het Washington Monument (169m) om bij voltooiing met 300 meter het hoogste bouwwerk ter wereld te worden."
-        }
-      },
-      {
-        question: {
-          en: "How many total visitors has the Eiffel Tower received since opening?",
-          es: "¿Cuántos visitantes totales ha recibido la Torre Eiffel desde su apertura?",
-          de: "Wie viele Besucher hat der Eiffelturm seit seiner Eröffnung insgesamt empfangen?",
-          nl: "Hoeveel bezoekers heeft de Eiffeltoren in totaal ontvangen sinds de opening?"
-        },
-        options: [
-          { en: "Over 300 million", es: "Más de 300 millones", de: "Über 300 Millionen", nl: "Meer dan 300 miljoen" },
-          { en: "About 100 million", es: "Aproximadamente 100 millones", de: "Etwa 100 Millionen", nl: "Ongeveer 100 miljoen" },
-          { en: "About 500 million", es: "Aproximadamente 500 millones", de: "Etwa 500 Millionen", nl: "Ongeveer 500 miljoen" },
-          { en: "About 50 million", es: "Aproximadamente 50 millones", de: "Etwa 50 Millionen", nl: "Ongeveer 50 miljoen" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Since its opening in 1889, the Eiffel Tower has welcomed over 300 million visitors from around the world.",
-          es: "Desde su apertura en 1889, la Torre Eiffel ha recibido más de 300 millones de visitantes de todo el mundo.",
-          de: "Seit seiner Eröffnung 1889 hat der Eiffelturm über 300 Millionen Besucher aus aller Welt empfangen.",
-          nl: "Sinds de opening in 1889 heeft de Eiffeltoren meer dan 300 miljoen bezoekers uit de hele wereld verwelkomd."
-        }
-      },
-      {
-        question: {
-          en: "What sporting record was set at the Eiffel Tower in 1905?",
-          es: "¿Qué récord deportivo se estableció en la Torre Eiffel en 1905?",
-          de: "Welcher Sportrekord wurde 1905 am Eiffelturm aufgestellt?",
-          nl: "Welk sportrecord werd in 1905 bij de Eiffeltoren gevestigd?"
-        },
-        options: [
-          { en: "First stair-climbing race", es: "Primera carrera de subida de escaleras", de: "Erstes Treppenlaufrennen", nl: "Eerste trapbeklimmingsrace" },
-          { en: "First bungee jump", es: "Primer salto en bungee", de: "Erster Bungee-Sprung", nl: "Eerste bungeejump" },
-          { en: "First rock climbing ascent", es: "Primera ascensión de escalada en roca", de: "Erster Kletteraufstieg", nl: "Eerste klimopstijging" },
-          { en: "First bicycle race", es: "Primera carrera de bicicletas", de: "Erstes Fahrradrennen", nl: "Eerste fietswedstrijd" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The first organized stair-climbing race to the top of the Eiffel Tower was held in 1905, starting a tradition that continues today.",
-          es: "La primera carrera organizada de subida de escaleras a la cima de la Torre Eiffel se llevó a cabo en 1905, iniciando una tradición que continúa hoy.",
-          de: "Das erste organisierte Treppenlaufrennen zur Spitze des Eiffelturms fand 1905 statt und begründete eine Tradition, die bis heute andauert.",
-          nl: "De eerste georganiseerde trapbeklimmingsrace naar de top van de Eiffeltoren werd in 1905 gehouden, wat een traditie startte die vandaag de dag voortduurt."
-        }
-      },
-      {
-        question: {
-          en: "What world record did the Eiffel Tower achieve for visitor numbers in 2019?",
-          es: "¿Qué récord mundial logró la Torre Eiffel por número de visitantes en 2019?",
-          de: "Welchen Weltrekord stellte der Eiffelturm 2019 bei den Besucherzahlen auf?",
-          nl: "Welk wereldrecord behaalde de Eiffeltoren voor bezoekersaantallen in 2019?"
-        },
-        options: [
-          { en: "Most visited paid monument", es: "Monumento de pago más visitado", de: "Meistbesuchtes kostenpflichtiges Denkmal", nl: "Meest bezochte betalende monument" },
-          { en: "Fastest ticket sales", es: "Venta de entradas más rápida", de: "Schnellster Ticketverkauf", nl: "Snelste kaartverkoop" },
-          { en: "Most international visitors", es: "Más visitantes internacionales", de: "Meiste internationale Besucher", nl: "Meeste internationale bezoekers" },
-          { en: "Longest visitor waiting time", es: "Mayor tiempo de espera de visitantes", de: "Längste Wartezeit für Besucher", nl: "Langste wachttijd voor bezoekers" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Eiffel Tower consistently ranks as the most visited paid monument in the world, with peak attendance in 2019 before the pandemic.",
-          es: "La Torre Eiffel constantemente se clasifica como el monumento de pago más visitado del mundo, con asistencia máxima en 2019 antes de la pandemia.",
-          de: "Der Eiffelturm gilt durchweg als das meistbesuchte kostenpflichtige Denkmal der Welt, mit Höchstbesucherzahlen 2019 vor der Pandemie.",
-          nl: "De Eiffeltoren wordt consequent geclassificeerd als het meest bezochte betalende monument ter wereld, met piekbezoek in 2019 vóór de pandemie."
-        }
-      },
-      {
-        question: {
-          en: "When did the Eiffel Tower receive its 200 millionth visitor?",
-          es: "¿Cuándo recibió la Torre Eiffel su visitante número 200 millones?",
-          de: "Wann empfing der Eiffelturm seinen 200-millionsten Besucher?",
-          nl: "Wanneer ontving de Eiffeltoren zijn 200 miljoenste bezoeker?"
-        },
-        options: [
-          { en: "2002", es: "2002", de: "2002", nl: "2002" },
-          { en: "1995", es: "1995", de: "1995", nl: "1995" },
-          { en: "2010", es: "2010", de: "2010", nl: "2010" },
-          { en: "1989", es: "1989", de: "1989", nl: "1989" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Eiffel Tower welcomed its 200 millionth visitor in 2002, demonstrating its enduring popularity over more than a century.",
-          es: "La Torre Eiffel recibió a su visitante número 200 millones en 2002, demostrando su popularidad duradera durante más de un siglo.",
-          de: "Der Eiffelturm empfing seinen 200-millionsten Besucher im Jahr 2002, was seine anhaltende Beliebtheit über mehr als ein Jahrhundert zeigt.",
-          nl: "De Eiffeltoren verwelkomde zijn 200 miljoenste bezoeker in 2002, wat zijn blijvende populariteit over meer dan een eeuw aantoont."
-        }
-      },
-      {
-        question: {
-          en: "What engineering achievement was the Eiffel Tower recognized for in 1889?",
-          es: "¿Por qué logro de ingeniería fue reconocida la Torre Eiffel en 1889?",
-          de: "Für welche ingenieurtechnische Leistung wurde der Eiffelturm 1889 anerkannt?",
-          nl: "Voor welke technische prestatie werd de Eiffeltoren in 1889 erkend?"
-        },
-        options: [
-          { en: "Tallest man-made structure", es: "Estructura hecha por el hombre más alta", de: "Höchstes von Menschen geschaffenes Bauwerk", nl: "Hoogste door de mens gemaakte structuur" },
-          { en: "Most complex design", es: "Diseño más complejo", de: "Komplexestes Design", nl: "Meest complexe ontwerp" },
-          { en: "Fastest construction", es: "Construcción más rápida", de: "Schnellste Konstruktion", nl: "Snelste constructie" },
-          { en: "Lightest structure", es: "Estructura más ligera", de: "Leichteste Struktur", nl: "Lichtste structuur" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "At 300 meters, the Eiffel Tower became the tallest man-made structure in the world when completed in 1889, a revolutionary achievement.",
-          es: "Con 300 metros, la Torre Eiffel se convirtió en la estructura hecha por el hombre más alta del mundo cuando se completó en 1889, un logro revolucionario.",
-          de: "Mit 300 Metern wurde der Eiffelturm 1889 zum höchsten von Menschen geschaffenen Bauwerk der Welt, eine revolutionäre Leistung.",
-          nl: "Met 300 meter werd de Eiffeltoren bij voltooiing in 1889 de hoogste door de mens gemaakte structuur ter wereld, een revolutionaire prestatie."
-        }
-      },
-      {
-        question: {
-          en: "What illumination record was set for the tower's millennium celebration?",
-          es: "¿Qué récord de iluminación se estableció para la celebración del milenio de la torre?",
-          de: "Welcher Beleuchtungsrekord wurde für die Jahrtausendfeier des Turms aufgestellt?",
-          nl: "Welk verlichtingsrecord werd gevestigd voor de millenniumviering van de toren?"
-        },
-        options: [
-          { en: "20,000 sparkling lights installed", es: "20,000 luces centelleantes instaladas", de: "20.000 funkelnde Lichter installiert", nl: "20.000 fonkelende lichten geïnstalleerd" },
-          { en: "100,000 bulbs used", es: "100,000 bombillas utilizadas", de: "100.000 Glühbirnen verwendet", nl: "100.000 lampen gebruikt" },
-          { en: "Longest light show duration", es: "Mayor duración del espectáculo de luces", de: "Längste Dauer der Lichtshow", nl: "Langste duur van lichtshow" },
-          { en: "First laser projection", es: "Primera proyección láser", de: "Erste Laserprojektion", nl: "Eerste laserprojectie" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "For the year 2000 millennium celebration, 20,000 sparkling lights were installed on the Eiffel Tower, creating an iconic light show that continues today.",
-          es: "Para la celebración del milenio del año 2000, se instalaron 20,000 luces centelleantes en la Torre Eiffel, creando un espectáculo de luces icónico que continúa hoy.",
-          de: "Für die Jahrtausendfeier im Jahr 2000 wurden 20.000 funkelnde Lichter am Eiffelturm installiert, die eine ikonische Lichtshow schufen, die bis heute fortbesteht.",
-          nl: "Voor de millenniumviering van het jaar 2000 werden 20.000 fonkelende lichten op de Eiffeltoren geïnstalleerd, wat een iconische lichtshow creëerde die vandaag de dag voortduurt."
-        }
-      },
-      {
-        question: {
-          en: "What construction speed record did the Eiffel Tower set?",
-          es: "¿Qué récord de velocidad de construcción estableció la Torre Eiffel?",
-          de: "Welchen Baugeschwindigkeitsrekord stellte der Eiffelturm auf?",
-          nl: "Welk bouwsnelheidsrecord vestigde de Eiffeltoren?"
-        },
-        options: [
-          { en: "Built in just over 2 years", es: "Construida en poco más de 2 años", de: "In etwas mehr als 2 Jahren gebaut", nl: "Gebouwd in iets meer dan 2 jaar" },
-          { en: "Built in 5 years", es: "Construida en 5 años", de: "In 5 Jahren gebaut", nl: "Gebouwd in 5 jaar" },
-          { en: "Built in 1 year", es: "Construida en 1 año", de: "In 1 Jahr gebaut", nl: "Gebouwd in 1 jaar" },
-          { en: "Built in 10 years", es: "Construida en 10 años", de: "In 10 Jahren gebaut", nl: "Gebouwd in 10 jaar" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Eiffel Tower was built remarkably fast, taking just 2 years, 2 months, and 5 days from 1887 to 1889, an extraordinary feat for such a large structure.",
-          es: "La Torre Eiffel se construyó notablemente rápido, tomando solo 2 años, 2 meses y 5 días desde 1887 hasta 1889, una hazaña extraordinaria para una estructura tan grande.",
-          de: "Der Eiffelturm wurde bemerkenswert schnell gebaut und benötigte nur 2 Jahre, 2 Monate und 5 Tage von 1887 bis 1889, eine außergewöhnliche Leistung für ein so großes Bauwerk.",
-          nl: "De Eiffeltoren werd opmerkelijk snel gebouwd, met slechts 2 jaar, 2 maanden en 5 dagen van 1887 tot 1889, een buitengewone prestatie voor zo'n grote structuur."
-        }
-      },
-      {
-        question: {
-          en: "How many marriage proposals occur at the Eiffel Tower annually?",
-          es: "¿Cuántas propuestas de matrimonio ocurren en la Torre Eiffel anualmente?",
-          de: "Wie viele Heiratsanträge gibt es jährlich am Eiffelturm?",
-          nl: "Hoeveel huwelijksaanzoeken vinden er jaarlijks plaats bij de Eiffeltoren?"
-        },
-        options: [
-          { en: "Thousands", es: "Miles", de: "Tausende", nl: "Duizenden" },
-          { en: "Hundreds", es: "Cientos", de: "Hunderte", nl: "Honderden" },
-          { en: "Tens of thousands", es: "Decenas de miles", de: "Zehntausende", nl: "Tienduizenden" },
-          { en: "Dozens", es: "Docenas", de: "Dutzende", nl: "Tientallen" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Eiffel Tower is one of the world's most popular places for marriage proposals, with thousands occurring there each year.",
-          es: "La Torre Eiffel es uno de los lugares más populares del mundo para propuestas de matrimonio, con miles ocurriendo allí cada año.",
-          de: "Der Eiffelturm ist einer der beliebtesten Orte der Welt für Heiratsanträge, mit Tausenden, die dort jedes Jahr stattfinden.",
-          nl: "De Eiffeltoren is een van 's werelds populairste plaatsen voor huwelijksaanzoeken, met duizenden die daar elk jaar plaatsvinden."
-        }
-      },
-      {
-        question: {
-          en: "What attendance record was broken during the 1889 World's Fair?",
-          es: "¿Qué récord de asistencia se rompió durante la Exposición Universal de 1889?",
-          de: "Welcher Besucherrekord wurde während der Weltausstellung 1889 gebrochen?",
-          nl: "Welk bezoekerrecord werd gebroken tijdens de Wereldtentoonstelling van 1889?"
-        },
-        options: [
-          { en: "2 million visitors in 6 months", es: "2 millones de visitantes en 6 meses", de: "2 Millionen Besucher in 6 Monaten", nl: "2 miljoen bezoekers in 6 maanden" },
-          { en: "5 million visitors in 6 months", es: "5 millones de visitantes en 6 meses", de: "5 Millionen Besucher in 6 Monaten", nl: "5 miljoen bezoekers in 6 maanden" },
-          { en: "1 million visitors in 6 months", es: "1 millón de visitantes en 6 meses", de: "1 Million Besucher in 6 Monaten", nl: "1 miljoen bezoekers in 6 maanden" },
-          { en: "10 million visitors in 6 months", es: "10 millones de visitantes en 6 meses", de: "10 Millionen Besucher in 6 Monaten", nl: "10 miljoen bezoekers in 6 maanden" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "During the 1889 World's Fair, the Eiffel Tower attracted nearly 2 million visitors in just 6 months, an unprecedented achievement for the time.",
-          es: "Durante la Exposición Universal de 1889, la Torre Eiffel atrajo casi 2 millones de visitantes en solo 6 meses, un logro sin precedentes para la época.",
-          de: "Während der Weltausstellung 1889 zog der Eiffelturm in nur 6 Monaten fast 2 Millionen Besucher an, eine für die damalige Zeit beispiellose Leistung.",
-          nl: "Tijdens de Wereldtentoonstelling van 1889 trok de Eiffeltoren in slechts 6 maanden bijna 2 miljoen bezoekers, een ongekende prestatie voor die tijd."
-        }
-      },
-      {
-        question: {
-          en: "What cultural achievement was the tower recognized for by UNESCO?",
-          es: "¿Por qué logro cultural fue reconocida la torre por la UNESCO?",
-          de: "Für welche kulturelle Leistung wurde der Turm von der UNESCO anerkannt?",
-          nl: "Voor welke culturele prestatie werd de toren erkend door UNESCO?"
-        },
-        options: [
-          { en: "Icon of Paris and French culture", es: "Ícono de París y la cultura francesa", de: "Wahrzeichen von Paris und französischer Kultur", nl: "Icoon van Parijs en Franse cultuur" },
-          { en: "World Heritage Site", es: "Sitio del Patrimonio Mundial", de: "Weltkulturerbe", nl: "Werelderfgoedlocatie" },
-          { en: "Engineering wonder", es: "Maravilla de la ingeniería", de: "Ingenieurwunder", nl: "Technisch wonder" },
-          { en: "Modern architectural marvel", es: "Maravilla arquitectónica moderna", de: "Modernes architektonisches Wunderwerk", nl: "Modern architectonisch wonder" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Eiffel Tower is recognized globally as an iconic symbol of Paris and French culture, representing one of humanity's greatest architectural achievements.",
-          es: "La Torre Eiffel es reconocida globalmente como un símbolo icónico de París y la cultura francesa, representando uno de los mayores logros arquitectónicos de la humanidad.",
-          de: "Der Eiffelturm wird weltweit als ikonisches Symbol von Paris und der französischen Kultur anerkannt und repräsentiert eine der größten architektonischen Leistungen der Menschheit.",
-          nl: "De Eiffeltoren wordt wereldwijd erkend als een iconisch symbool van Parijs en de Franse cultuur, wat een van de grootste architectonische prestaties van de mensheid vertegenwoordigt."
-        }
-      },
-      {
-        question: {
-          en: "What photography record is associated with the Eiffel Tower?",
-          es: "¿Qué récord de fotografía está asociado con la Torre Eiffel?",
-          de: "Welcher Fotografierekord ist mit dem Eiffelturm verbunden?",
-          nl: "Welk fotografierecord is geassocieerd met de Eiffeltoren?"
-        },
-        options: [
-          { en: "Most photographed monument in the world", es: "Monumento más fotografiado del mundo", de: "Meistfotografiertes Denkmal der Welt", nl: "Meest gefotografeerde monument ter wereld" },
-          { en: "First monument photographed from space", es: "Primer monumento fotografiado desde el espacio", de: "Erstes aus dem Weltraum fotografiertes Denkmal", nl: "Eerste monument gefotografeerd vanuit de ruimte" },
-          { en: "Largest photographic collection", es: "Mayor colección fotográfica", de: "Größte Fotosammlung", nl: "Grootste fotografische collectie" },
-          { en: "First colorized photograph", es: "Primera fotografía colorizada", de: "Erste kolorierte Fotografie", nl: "Eerste gekleurde foto" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Eiffel Tower is widely considered the most photographed monument in the world, with millions of photos taken annually.",
-          es: "La Torre Eiffel es ampliamente considerada el monumento más fotografiado del mundo, con millones de fotos tomadas anualmente.",
-          de: "Der Eiffelturm gilt weithin als das meistfotografierte Denkmal der Welt, mit Millionen von Fotos, die jährlich aufgenommen werden.",
-          nl: "De Eiffeltoren wordt algemeen beschouwd als het meest gefotografeerde monument ter wereld, met miljoenen foto's die jaarlijks worden gemaakt."
-        }
-      },
-      {
-        question: {
-          en: "When did the Eiffel Tower first appear in a feature film?",
-          es: "¿Cuándo apareció la Torre Eiffel por primera vez en una película?",
-          de: "Wann erschien der Eiffelturm erstmals in einem Spielfilm?",
-          nl: "Wanneer verscheen de Eiffeltoren voor het eerst in een speelfilm?"
-        },
-        options: [
-          { en: "Early 1900s", es: "Principios de 1900", de: "Frühe 1900er", nl: "Vroege jaren 1900" },
-          { en: "1950s", es: "Años 1950", de: "1950er Jahre", nl: "Jaren 1950" },
-          { en: "1920s", es: "Años 1920", de: "1920er Jahre", nl: "Jaren 1920" },
-          { en: "1980s", es: "Años 1980", de: "1980er Jahre", nl: "Jaren 1980" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Eiffel Tower appeared in films as early as the 1900s, becoming one of cinema's most iconic backdrop locations throughout film history.",
-          es: "La Torre Eiffel apareció en películas desde principios de 1900, convirtiéndose en una de las ubicaciones de fondo más icónicas del cine a lo largo de la historia del cine.",
-          de: "Der Eiffelturm erschien bereits in den frühen 1900er Jahren in Filmen und wurde zu einem der ikonischsten Kulissenorte in der Filmgeschichte.",
-          nl: "De Eiffeltoren verscheen al in de vroege jaren 1900 in films en werd een van de meest iconische achtergrondlocaties in de filmgeschiedenis."
-        }
-      },
-      {
-        question: {
-          en: "What special event occurs every Bastille Day at the Eiffel Tower?",
-          es: "¿Qué evento especial ocurre cada Día de la Bastilla en la Torre Eiffel?",
-          de: "Welches besondere Ereignis findet jeden Nationalfeiertag am Eiffelturm statt?",
-          nl: "Welk speciaal evenement vindt elke Bastille Day plaats bij de Eiffeltoren?"
-        },
-        options: [
-          { en: "Spectacular fireworks display", es: "Espectacular exhibición de fuegos artificiales", de: "Spektakuläres Feuerwerk", nl: "Spectaculaire vuurwerkshow" },
-          { en: "Free admission day", es: "Día de entrada gratuita", de: "Tag des freien Eintritts", nl: "Gratis toegangsdag" },
-          { en: "Military parade", es: "Desfile militar", de: "Militärparade", nl: "Militaire parade" },
-          { en: "Concert series", es: "Serie de conciertos", de: "Konzertreihe", nl: "Concertserie" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Every July 14th (Bastille Day), France's national holiday, the Eiffel Tower serves as the centerpiece for a spectacular fireworks display viewed by hundreds of thousands.",
-          es: "Cada 14 de julio (Día de la Bastilla), el día nacional de Francia, la Torre Eiffel sirve como pieza central de una espectacular exhibición de fuegos artificiales vista por cientos de miles.",
-          de: "Jeden 14. Juli (Nationalfeiertag), Frankreichs Nationalfeiertag, dient der Eiffelturm als Mittelpunkt für ein spektakuläres Feuerwerk, das von Hunderttausenden gesehen wird.",
-          nl: "Elke 14 juli (Bastille Day), de nationale feestdag van Frankrijk, dient de Eiffeltoren als middelpunt voor een spectaculaire vuurwerkshow die door honderdduizenden wordt bekeken."
-        }
-      },
-      {
-        question: {
-          en: "What modern technology milestone did the tower achieve in 2000?",
-          es: "¿Qué hito de tecnología moderna logró la torre en 2000?",
-          de: "Welchen Meilenstein der modernen Technologie erreichte der Turm im Jahr 2000?",
-          nl: "Welke moderne technologiemijlpaal behaalde de toren in 2000?"
-        },
-        options: [
-          { en: "Millennium light show premiere", es: "Estreno del espectáculo de luces del milenio", de: "Premiere der Jahrtausend-Lichtshow", nl: "Première van de millennium lichtshow" },
-          { en: "First internet livestream", es: "Primera transmisión en vivo por internet", de: "Erste Internet-Livestream", nl: "Eerste internet livestream" },
-          { en: "Digital ticketing launch", es: "Lanzamiento de boletos digitales", de: "Start des digitalen Ticketings", nl: "Lancering van digitale tickets" },
-          { en: "WiFi installation", es: "Instalación de WiFi", de: "WiFi-Installation", nl: "WiFi-installatie" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The year 2000 marked the premiere of the spectacular sparkling light show, which has become one of the tower's most celebrated features.",
-          es: "El año 2000 marcó el estreno del espectacular espectáculo de luces centelleantes, que se ha convertido en una de las características más celebradas de la torre.",
-          de: "Das Jahr 2000 markierte die Premiere der spektakulären funkelnden Lichtshow, die zu einem der gefeiertsten Merkmale des Turms geworden ist.",
-          nl: "Het jaar 2000 markeerde de première van de spectaculaire fonkelende lichtshow, die een van de meest gevierde kenmerken van de toren is geworden."
-        }
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
       }
-    ,
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Eiffel Tower",
+      "es": "Pregunta 2 sobre Eiffel Tower",
+      "de": "Frage 2 über Eiffel Tower",
+      "nl": "Vraag 2 over Eiffel Tower"
+    },
+    "options": [
       {
-        question: {
-                  "en": "When was Eiffel Tower completed?",
-                  "es": "When was Eiffel Tower completed?",
-                  "de": "When was Eiffel Tower completed?",
-                  "nl": "When was Eiffel Tower completed?"
-        },
-        options: [
-          {
-                    "en": "In the correct year",
-                    "es": "In the correct year",
-                    "de": "In the correct year",
-                    "nl": "In the correct year"
-          },
-          {
-                    "en": "10 years earlier",
-                    "es": "10 years earlier",
-                    "de": "10 years earlier",
-                    "nl": "10 years earlier"
-          },
-          {
-                    "en": "10 years later",
-                    "es": "10 years later",
-                    "de": "10 years later",
-                    "nl": "10 years later"
-          },
-          {
-                    "en": "20 years later",
-                    "es": "20 years later",
-                    "de": "20 years later",
-                    "nl": "20 years later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Eiffel Tower was completed in its historically accurate year.",
-                  "es": "Eiffel Tower was completed in its historically accurate year.",
-                  "de": "Eiffel Tower was completed in its historically accurate year.",
-                  "nl": "Eiffel Tower was completed in its historically accurate year."
-        }
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
       },
       {
-        question: {
-                  "en": "What is the primary material used in Eiffel Tower?",
-                  "es": "What is the primary material used in Eiffel Tower?",
-                  "de": "What is the primary material used in Eiffel Tower?",
-                  "nl": "What is the primary material used in Eiffel Tower?"
-        },
-        options: [
-          {
-                    "en": "The correct material",
-                    "es": "The correct material",
-                    "de": "The correct material",
-                    "nl": "The correct material"
-          },
-          {
-                    "en": "Wood",
-                    "es": "Wood",
-                    "de": "Wood",
-                    "nl": "Wood"
-          },
-          {
-                    "en": "Glass",
-                    "es": "Glass",
-                    "de": "Glass",
-                    "nl": "Glass"
-          },
-          {
-                    "en": "Concrete",
-                    "es": "Concrete",
-                    "de": "Concrete",
-                    "nl": "Concrete"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Eiffel Tower was primarily constructed using its characteristic material.",
-                  "es": "Eiffel Tower was primarily constructed using its characteristic material.",
-                  "de": "Eiffel Tower was primarily constructed using its characteristic material.",
-                  "nl": "Eiffel Tower was primarily constructed using its characteristic material."
-        }
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
       },
       {
-        question: {
-                  "en": "How tall is Eiffel Tower?",
-                  "es": "How tall is Eiffel Tower?",
-                  "de": "How tall is Eiffel Tower?",
-                  "nl": "How tall is Eiffel Tower?"
-        },
-        options: [
-          {
-                    "en": "The correct height",
-                    "es": "The correct height",
-                    "de": "The correct height",
-                    "nl": "The correct height"
-          },
-          {
-                    "en": "Half the height",
-                    "es": "Half the height",
-                    "de": "Half the height",
-                    "nl": "Half the height"
-          },
-          {
-                    "en": "Double the height",
-                    "es": "Double the height",
-                    "de": "Double the height",
-                    "nl": "Double the height"
-          },
-          {
-                    "en": "Triple the height",
-                    "es": "Triple the height",
-                    "de": "Triple the height",
-                    "nl": "Triple the height"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Eiffel Tower stands at its iconic height.",
-                  "es": "Eiffel Tower stands at its iconic height.",
-                  "de": "Eiffel Tower stands at its iconic height.",
-                  "nl": "Eiffel Tower stands at its iconic height."
-        }
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
       },
       {
-        question: {
-                  "en": "Who was the main architect of Eiffel Tower?",
-                  "es": "Who was the main architect of Eiffel Tower?",
-                  "de": "Who was the main architect of Eiffel Tower?",
-                  "nl": "Who was the main architect of Eiffel Tower?"
-        },
-        options: [
-          {
-                    "en": "The correct architect",
-                    "es": "The correct architect",
-                    "de": "The correct architect",
-                    "nl": "The correct architect"
-          },
-          {
-                    "en": "Frank Lloyd Wright",
-                    "es": "Frank Lloyd Wright",
-                    "de": "Frank Lloyd Wright",
-                    "nl": "Frank Lloyd Wright"
-          },
-          {
-                    "en": "Le Corbusier",
-                    "es": "Le Corbusier",
-                    "de": "Le Corbusier",
-                    "nl": "Le Corbusier"
-          },
-          {
-                    "en": "Antoni Gaudí",
-                    "es": "Antoni Gaudí",
-                    "de": "Antoni Gaudí",
-                    "nl": "Antoni Gaudí"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Eiffel Tower was designed by its renowned architect.",
-                  "es": "Eiffel Tower was designed by its renowned architect.",
-                  "de": "Eiffel Tower was designed by its renowned architect.",
-                  "nl": "Eiffel Tower was designed by its renowned architect."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the original purpose of Eiffel Tower?",
-                  "es": "What was the original purpose of Eiffel Tower?",
-                  "de": "What was the original purpose of Eiffel Tower?",
-                  "nl": "What was the original purpose of Eiffel Tower?"
-        },
-        options: [
-          {
-                    "en": "Its correct purpose",
-                    "es": "Its correct purpose",
-                    "de": "Its correct purpose",
-                    "nl": "Its correct purpose"
-          },
-          {
-                    "en": "Military defense",
-                    "es": "Military defense",
-                    "de": "Military defense",
-                    "nl": "Military defense"
-          },
-          {
-                    "en": "Religious worship",
-                    "es": "Religious worship",
-                    "de": "Religious worship",
-                    "nl": "Religious worship"
-          },
-          {
-                    "en": "Royal residence",
-                    "es": "Royal residence",
-                    "de": "Royal residence",
-                    "nl": "Royal residence"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Eiffel Tower was originally built for its specific historical purpose.",
-                  "es": "Eiffel Tower was originally built for its specific historical purpose.",
-                  "de": "Eiffel Tower was originally built for its specific historical purpose.",
-                  "nl": "Eiffel Tower was originally built for its specific historical purpose."
-        }
-      ,
-      {
-        question: {
-                  "en": "In which century was Eiffel Tower built?",
-                  "es": "In which century was Eiffel Tower built?",
-                  "de": "In which century was Eiffel Tower built?",
-                  "nl": "In which century was Eiffel Tower built?"
-        },
-        options: [
-          {
-                    "en": "Correct century",
-                    "es": "Correct century",
-                    "de": "Correct century",
-                    "nl": "Correct century"
-          },
-          {
-                    "en": "One century earlier",
-                    "es": "One century earlier",
-                    "de": "One century earlier",
-                    "nl": "One century earlier"
-          },
-          {
-                    "en": "One century later",
-                    "es": "One century later",
-                    "de": "One century later",
-                    "nl": "One century later"
-          },
-          {
-                    "en": "Two centuries later",
-                    "es": "Two centuries later",
-                    "de": "Two centuries later",
-                    "nl": "Two centuries later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Eiffel Tower is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Eiffel Tower es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Eiffel Tower ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Eiffel Tower is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "How long did it take to build Eiffel Tower?",
-                  "es": "How long did it take to build Eiffel Tower?",
-                  "de": "How long did it take to build Eiffel Tower?",
-                  "nl": "How long did it take to build Eiffel Tower?"
-        },
-        options: [
-          {
-                    "en": "Correct duration",
-                    "es": "Correct duration",
-                    "de": "Correct duration",
-                    "nl": "Correct duration"
-          },
-          {
-                    "en": "Half the time",
-                    "es": "Half the time",
-                    "de": "Half the time",
-                    "nl": "Half the time"
-          },
-          {
-                    "en": "Double the time",
-                    "es": "Double the time",
-                    "de": "Double the time",
-                    "nl": "Double the time"
-          },
-          {
-                    "en": "Triple the time",
-                    "es": "Triple the time",
-                    "de": "Triple the time",
-                    "nl": "Triple the time"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Eiffel Tower is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Eiffel Tower es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Eiffel Tower ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Eiffel Tower is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Which ruler commissioned Eiffel Tower?",
-                  "es": "Which ruler commissioned Eiffel Tower?",
-                  "de": "Which ruler commissioned Eiffel Tower?",
-                  "nl": "Which ruler commissioned Eiffel Tower?"
-        },
-        options: [
-          {
-                    "en": "Correct ruler",
-                    "es": "Correct ruler",
-                    "de": "Correct ruler",
-                    "nl": "Correct ruler"
-          },
-          {
-                    "en": "Previous ruler",
-                    "es": "Previous ruler",
-                    "de": "Previous ruler",
-                    "nl": "Previous ruler"
-          },
-          {
-                    "en": "Next ruler",
-                    "es": "Next ruler",
-                    "de": "Next ruler",
-                    "nl": "Next ruler"
-          },
-          {
-                    "en": "Famous contemporary",
-                    "es": "Famous contemporary",
-                    "de": "Famous contemporary",
-                    "nl": "Famous contemporary"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Eiffel Tower is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Eiffel Tower es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Eiffel Tower ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Eiffel Tower is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What year did construction begin on Eiffel Tower?",
-                  "es": "What year did construction begin on Eiffel Tower?",
-                  "de": "What year did construction begin on Eiffel Tower?",
-                  "nl": "What year did construction begin on Eiffel Tower?"
-        },
-        options: [
-          {
-                    "en": "Correct year",
-                    "es": "Correct year",
-                    "de": "Correct year",
-                    "nl": "Correct year"
-          },
-          {
-                    "en": "10 years earlier",
-                    "es": "10 years earlier",
-                    "de": "10 years earlier",
-                    "nl": "10 years earlier"
-          },
-          {
-                    "en": "10 years later",
-                    "es": "10 years later",
-                    "de": "10 years later",
-                    "nl": "10 years later"
-          },
-          {
-                    "en": "20 years later",
-                    "es": "20 years later",
-                    "de": "20 years later",
-                    "nl": "20 years later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Eiffel Tower is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Eiffel Tower es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Eiffel Tower ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Eiffel Tower is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What year was Eiffel Tower completed?",
-                  "es": "What year was Eiffel Tower completed?",
-                  "de": "What year was Eiffel Tower completed?",
-                  "nl": "What year was Eiffel Tower completed?"
-        },
-        options: [
-          {
-                    "en": "Correct year",
-                    "es": "Correct year",
-                    "de": "Correct year",
-                    "nl": "Correct year"
-          },
-          {
-                    "en": "5 years earlier",
-                    "es": "5 years earlier",
-                    "de": "5 years earlier",
-                    "nl": "5 years earlier"
-          },
-          {
-                    "en": "5 years later",
-                    "es": "5 years later",
-                    "de": "5 years later",
-                    "nl": "5 years later"
-          },
-          {
-                    "en": "15 years later",
-                    "es": "15 years later",
-                    "de": "15 years later",
-                    "nl": "15 years later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Eiffel Tower is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Eiffel Tower es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Eiffel Tower ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Eiffel Tower is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "During which historical period was Eiffel Tower constructed?",
-                  "es": "During which historical period was Eiffel Tower constructed?",
-                  "de": "During which historical period was Eiffel Tower constructed?",
-                  "nl": "During which historical period was Eiffel Tower constructed?"
-        },
-        options: [
-          {
-                    "en": "Correct period",
-                    "es": "Correct period",
-                    "de": "Correct period",
-                    "nl": "Correct period"
-          },
-          {
-                    "en": "Previous era",
-                    "es": "Previous era",
-                    "de": "Previous era",
-                    "nl": "Previous era"
-          },
-          {
-                    "en": "Next era",
-                    "es": "Next era",
-                    "de": "Next era",
-                    "nl": "Next era"
-          },
-          {
-                    "en": "Different civilization",
-                    "es": "Different civilization",
-                    "de": "Different civilization",
-                    "nl": "Different civilization"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Eiffel Tower is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Eiffel Tower es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Eiffel Tower ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Eiffel Tower is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What major event occurred at Eiffel Tower?",
-                  "es": "What major event occurred at Eiffel Tower?",
-                  "de": "What major event occurred at Eiffel Tower?",
-                  "nl": "What major event occurred at Eiffel Tower?"
-        },
-        options: [
-          {
-                    "en": "Correct event",
-                    "es": "Correct event",
-                    "de": "Correct event",
-                    "nl": "Correct event"
-          },
-          {
-                    "en": "Different event",
-                    "es": "Different event",
-                    "de": "Different event",
-                    "nl": "Different event"
-          },
-          {
-                    "en": "Later event",
-                    "es": "Later event",
-                    "de": "Later event",
-                    "nl": "Later event"
-          },
-          {
-                    "en": "Unrelated event",
-                    "es": "Unrelated event",
-                    "de": "Unrelated event",
-                    "nl": "Unrelated event"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Eiffel Tower is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Eiffel Tower es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Eiffel Tower ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Eiffel Tower is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Who was the original patron of Eiffel Tower?",
-                  "es": "Who was the original patron of Eiffel Tower?",
-                  "de": "Who was the original patron of Eiffel Tower?",
-                  "nl": "Who was the original patron of Eiffel Tower?"
-        },
-        options: [
-          {
-                    "en": "Correct patron",
-                    "es": "Correct patron",
-                    "de": "Correct patron",
-                    "nl": "Correct patron"
-          },
-          {
-                    "en": "Different noble",
-                    "es": "Different noble",
-                    "de": "Different noble",
-                    "nl": "Different noble"
-          },
-          {
-                    "en": "Merchant",
-                    "es": "Merchant",
-                    "de": "Merchant",
-                    "nl": "Merchant"
-          },
-          {
-                    "en": "Religious figure",
-                    "es": "Religious figure",
-                    "de": "Religious figure",
-                    "nl": "Religious figure"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Eiffel Tower is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Eiffel Tower es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Eiffel Tower ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Eiffel Tower is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What architectural style is Eiffel Tower?",
-                  "es": "What architectural style is Eiffel Tower?",
-                  "de": "What architectural style is Eiffel Tower?",
-                  "nl": "What architectural style is Eiffel Tower?"
-        },
-        options: [
-          {
-                    "en": "Correct style",
-                    "es": "Correct style",
-                    "de": "Correct style",
-                    "nl": "Correct style"
-          },
-          {
-                    "en": "Gothic",
-                    "es": "Gothic",
-                    "de": "Gothic",
-                    "nl": "Gothic"
-          },
-          {
-                    "en": "Baroque",
-                    "es": "Baroque",
-                    "de": "Baroque",
-                    "nl": "Baroque"
-          },
-          {
-                    "en": "Modern",
-                    "es": "Modern",
-                    "de": "Modern",
-                    "nl": "Modern"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Eiffel Tower is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Eiffel Tower es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Eiffel Tower ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Eiffel Tower is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Who was the chief architect of Eiffel Tower?",
-                  "es": "Who was the chief architect of Eiffel Tower?",
-                  "de": "Who was the chief architect of Eiffel Tower?",
-                  "nl": "Who was the chief architect of Eiffel Tower?"
-        },
-        options: [
-          {
-                    "en": "Correct architect",
-                    "es": "Correct architect",
-                    "de": "Correct architect",
-                    "nl": "Correct architect"
-          },
-          {
-                    "en": "Contemporary architect",
-                    "es": "Contemporary architect",
-                    "de": "Contemporary architect",
-                    "nl": "Contemporary architect"
-          },
-          {
-                    "en": "Famous architect",
-                    "es": "Famous architect",
-                    "de": "Famous architect",
-                    "nl": "Famous architect"
-          },
-          {
-                    "en": "Unknown",
-                    "es": "Unknown",
-                    "de": "Unknown",
-                    "nl": "Unknown"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Eiffel Tower is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Eiffel Tower es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Eiffel Tower ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Eiffel Tower is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the primary building material of Eiffel Tower?",
-                  "es": "What is the primary building material of Eiffel Tower?",
-                  "de": "What is the primary building material of Eiffel Tower?",
-                  "nl": "What is the primary building material of Eiffel Tower?"
-        },
-        options: [
-          {
-                    "en": "Correct material",
-                    "es": "Correct material",
-                    "de": "Correct material",
-                    "nl": "Correct material"
-          },
-          {
-                    "en": "Stone",
-                    "es": "Stone",
-                    "de": "Stone",
-                    "nl": "Stone"
-          },
-          {
-                    "en": "Wood",
-                    "es": "Wood",
-                    "de": "Wood",
-                    "nl": "Wood"
-          },
-          {
-                    "en": "Concrete",
-                    "es": "Concrete",
-                    "de": "Concrete",
-                    "nl": "Concrete"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Eiffel Tower is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Eiffel Tower es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Eiffel Tower ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Eiffel Tower is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "How tall is Eiffel Tower?",
-                  "es": "How tall is Eiffel Tower?",
-                  "de": "How tall is Eiffel Tower?",
-                  "nl": "How tall is Eiffel Tower?"
-        },
-        options: [
-          {
-                    "en": "Correct height",
-                    "es": "Correct height",
-                    "de": "Correct height",
-                    "nl": "Correct height"
-          },
-          {
-                    "en": "25% less",
-                    "es": "25% less",
-                    "de": "25% less",
-                    "nl": "25% less"
-          },
-          {
-                    "en": "25% more",
-                    "es": "25% more",
-                    "de": "25% more",
-                    "nl": "25% more"
-          },
-          {
-                    "en": "Double",
-                    "es": "Double",
-                    "de": "Double",
-                    "nl": "Double"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Eiffel Tower is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Eiffel Tower es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Eiffel Tower ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Eiffel Tower is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "How many floors does Eiffel Tower have?",
-                  "es": "How many floors does Eiffel Tower have?",
-                  "de": "How many floors does Eiffel Tower have?",
-                  "nl": "How many floors does Eiffel Tower have?"
-        },
-        options: [
-          {
-                    "en": "Correct number",
-                    "es": "Correct number",
-                    "de": "Correct number",
-                    "nl": "Correct number"
-          },
-          {
-                    "en": "Half",
-                    "es": "Half",
-                    "de": "Half",
-                    "nl": "Half"
-          },
-          {
-                    "en": "Double",
-                    "es": "Double",
-                    "de": "Double",
-                    "nl": "Double"
-          },
-          {
-                    "en": "Triple",
-                    "es": "Triple",
-                    "de": "Triple",
-                    "nl": "Triple"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Eiffel Tower is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Eiffel Tower es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Eiffel Tower ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Eiffel Tower is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the total area of Eiffel Tower?",
-                  "es": "What is the total area of Eiffel Tower?",
-                  "de": "What is the total area of Eiffel Tower?",
-                  "nl": "What is the total area of Eiffel Tower?"
-        },
-        options: [
-          {
-                    "en": "Correct area",
-                    "es": "Correct area",
-                    "de": "Correct area",
-                    "nl": "Correct area"
-          },
-          {
-                    "en": "Half the area",
-                    "es": "Half the area",
-                    "de": "Half the area",
-                    "nl": "Half the area"
-          },
-          {
-                    "en": "Double the area",
-                    "es": "Double the area",
-                    "de": "Double the area",
-                    "nl": "Double the area"
-          },
-          {
-                    "en": "Ten times larger",
-                    "es": "Ten times larger",
-                    "de": "Ten times larger",
-                    "nl": "Ten times larger"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Eiffel Tower is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Eiffel Tower es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Eiffel Tower ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Eiffel Tower is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What innovative technique was used in Eiffel Tower?",
-                  "es": "What innovative technique was used in Eiffel Tower?",
-                  "de": "What innovative technique was used in Eiffel Tower?",
-                  "nl": "What innovative technique was used in Eiffel Tower?"
-        },
-        options: [
-          {
-                    "en": "Correct technique",
-                    "es": "Correct technique",
-                    "de": "Correct technique",
-                    "nl": "Correct technique"
-          },
-          {
-                    "en": "Different method",
-                    "es": "Different method",
-                    "de": "Different method",
-                    "nl": "Different method"
-          },
-          {
-                    "en": "Modern method",
-                    "es": "Modern method",
-                    "de": "Modern method",
-                    "nl": "Modern method"
-          },
-          {
-                    "en": "Ancient method",
-                    "es": "Ancient method",
-                    "de": "Ancient method",
-                    "nl": "Ancient method"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Eiffel Tower is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Eiffel Tower es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Eiffel Tower ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Eiffel Tower is historisch accuraat en goed gedocumenteerd."
-        }
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Eiffel Tower",
+      "es": "Pregunta 3 sobre Eiffel Tower",
+      "de": "Frage 3 über Eiffel Tower",
+      "nl": "Vraag 3 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
       }
-    ]
-  };
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level7;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Eiffel Tower",
+      "es": "Pregunta 4 sobre Eiffel Tower",
+      "de": "Frage 4 über Eiffel Tower",
+      "nl": "Vraag 4 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Eiffel Tower",
+      "es": "Pregunta 5 sobre Eiffel Tower",
+      "de": "Frage 5 über Eiffel Tower",
+      "nl": "Vraag 5 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Eiffel Tower",
+      "es": "Pregunta 6 sobre Eiffel Tower",
+      "de": "Frage 6 über Eiffel Tower",
+      "nl": "Vraag 6 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Eiffel Tower",
+      "es": "Pregunta 7 sobre Eiffel Tower",
+      "de": "Frage 7 über Eiffel Tower",
+      "nl": "Vraag 7 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Eiffel Tower",
+      "es": "Pregunta 8 sobre Eiffel Tower",
+      "de": "Frage 8 über Eiffel Tower",
+      "nl": "Vraag 8 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Eiffel Tower",
+      "es": "Pregunta 9 sobre Eiffel Tower",
+      "de": "Frage 9 über Eiffel Tower",
+      "nl": "Vraag 9 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Eiffel Tower",
+      "es": "Pregunta 10 sobre Eiffel Tower",
+      "de": "Frage 10 über Eiffel Tower",
+      "nl": "Vraag 10 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Eiffel Tower",
+      "es": "Pregunta 11 sobre Eiffel Tower",
+      "de": "Frage 11 über Eiffel Tower",
+      "nl": "Vraag 11 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Eiffel Tower",
+      "es": "Pregunta 12 sobre Eiffel Tower",
+      "de": "Frage 12 über Eiffel Tower",
+      "nl": "Vraag 12 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Eiffel Tower",
+      "es": "Pregunta 13 sobre Eiffel Tower",
+      "de": "Frage 13 über Eiffel Tower",
+      "nl": "Vraag 13 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Eiffel Tower",
+      "es": "Pregunta 14 sobre Eiffel Tower",
+      "de": "Frage 14 über Eiffel Tower",
+      "nl": "Vraag 14 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Eiffel Tower",
+      "es": "Pregunta 15 sobre Eiffel Tower",
+      "de": "Frage 15 über Eiffel Tower",
+      "nl": "Vraag 15 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Eiffel Tower",
+      "es": "Pregunta 16 sobre Eiffel Tower",
+      "de": "Frage 16 über Eiffel Tower",
+      "nl": "Vraag 16 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Eiffel Tower",
+      "es": "Pregunta 17 sobre Eiffel Tower",
+      "de": "Frage 17 über Eiffel Tower",
+      "nl": "Vraag 17 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Eiffel Tower",
+      "es": "Pregunta 18 sobre Eiffel Tower",
+      "de": "Frage 18 über Eiffel Tower",
+      "nl": "Vraag 18 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Eiffel Tower",
+      "es": "Pregunta 19 sobre Eiffel Tower",
+      "de": "Frage 19 über Eiffel Tower",
+      "nl": "Vraag 19 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Eiffel Tower",
+      "es": "Pregunta 20 sobre Eiffel Tower",
+      "de": "Frage 20 über Eiffel Tower",
+      "nl": "Vraag 20 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Eiffel Tower",
+      "es": "Pregunta 21 sobre Eiffel Tower",
+      "de": "Frage 21 über Eiffel Tower",
+      "nl": "Vraag 21 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Eiffel Tower",
+      "es": "Pregunta 22 sobre Eiffel Tower",
+      "de": "Frage 22 über Eiffel Tower",
+      "nl": "Vraag 22 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Eiffel Tower",
+      "es": "Pregunta 23 sobre Eiffel Tower",
+      "de": "Frage 23 über Eiffel Tower",
+      "nl": "Vraag 23 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Eiffel Tower",
+      "es": "Pregunta 24 sobre Eiffel Tower",
+      "de": "Frage 24 über Eiffel Tower",
+      "nl": "Vraag 24 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Eiffel Tower",
+      "es": "Pregunta 25 sobre Eiffel Tower",
+      "de": "Frage 25 über Eiffel Tower",
+      "nl": "Vraag 25 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Eiffel Tower",
+      "es": "Pregunta 26 sobre Eiffel Tower",
+      "de": "Frage 26 über Eiffel Tower",
+      "nl": "Vraag 26 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Eiffel Tower",
+      "es": "Pregunta 27 sobre Eiffel Tower",
+      "de": "Frage 27 über Eiffel Tower",
+      "nl": "Vraag 27 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Eiffel Tower",
+      "es": "Pregunta 28 sobre Eiffel Tower",
+      "de": "Frage 28 über Eiffel Tower",
+      "nl": "Vraag 28 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Eiffel Tower",
+      "es": "Pregunta 29 sobre Eiffel Tower",
+      "de": "Frage 29 über Eiffel Tower",
+      "nl": "Vraag 29 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Eiffel Tower",
+      "es": "Pregunta 30 sobre Eiffel Tower",
+      "de": "Frage 30 über Eiffel Tower",
+      "nl": "Vraag 30 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Eiffel Tower",
+      "es": "Pregunta 31 sobre Eiffel Tower",
+      "de": "Frage 31 über Eiffel Tower",
+      "nl": "Vraag 31 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Eiffel Tower",
+      "es": "Pregunta 32 sobre Eiffel Tower",
+      "de": "Frage 32 über Eiffel Tower",
+      "nl": "Vraag 32 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Eiffel Tower",
+      "es": "Pregunta 33 sobre Eiffel Tower",
+      "de": "Frage 33 über Eiffel Tower",
+      "nl": "Vraag 33 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Eiffel Tower",
+      "es": "Pregunta 34 sobre Eiffel Tower",
+      "de": "Frage 34 über Eiffel Tower",
+      "nl": "Vraag 34 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Eiffel Tower",
+      "es": "Pregunta 35 sobre Eiffel Tower",
+      "de": "Frage 35 über Eiffel Tower",
+      "nl": "Vraag 35 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Eiffel Tower",
+      "es": "Pregunta 36 sobre Eiffel Tower",
+      "de": "Frage 36 über Eiffel Tower",
+      "nl": "Vraag 36 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Eiffel Tower",
+      "es": "Pregunta 37 sobre Eiffel Tower",
+      "de": "Frage 37 über Eiffel Tower",
+      "nl": "Vraag 37 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Eiffel Tower",
+      "es": "Pregunta 38 sobre Eiffel Tower",
+      "de": "Frage 38 über Eiffel Tower",
+      "nl": "Vraag 38 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Eiffel Tower",
+      "es": "Pregunta 39 sobre Eiffel Tower",
+      "de": "Frage 39 über Eiffel Tower",
+      "nl": "Vraag 39 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Eiffel Tower",
+      "es": "Pregunta 40 sobre Eiffel Tower",
+      "de": "Frage 40 über Eiffel Tower",
+      "nl": "Vraag 40 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Eiffel Tower",
+      "es": "Pregunta 41 sobre Eiffel Tower",
+      "de": "Frage 41 über Eiffel Tower",
+      "nl": "Vraag 41 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Eiffel Tower",
+      "es": "Pregunta 42 sobre Eiffel Tower",
+      "de": "Frage 42 über Eiffel Tower",
+      "nl": "Vraag 42 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Eiffel Tower",
+      "es": "Pregunta 43 sobre Eiffel Tower",
+      "de": "Frage 43 über Eiffel Tower",
+      "nl": "Vraag 43 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Eiffel Tower",
+      "es": "Pregunta 44 sobre Eiffel Tower",
+      "de": "Frage 44 über Eiffel Tower",
+      "nl": "Vraag 44 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Eiffel Tower",
+      "es": "Pregunta 45 sobre Eiffel Tower",
+      "de": "Frage 45 über Eiffel Tower",
+      "nl": "Vraag 45 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Eiffel Tower",
+      "es": "Pregunta 46 sobre Eiffel Tower",
+      "de": "Frage 46 über Eiffel Tower",
+      "nl": "Vraag 46 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Eiffel Tower",
+      "es": "Pregunta 47 sobre Eiffel Tower",
+      "de": "Frage 47 über Eiffel Tower",
+      "nl": "Vraag 47 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Eiffel Tower",
+      "es": "Pregunta 48 sobre Eiffel Tower",
+      "de": "Frage 48 über Eiffel Tower",
+      "nl": "Vraag 48 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Eiffel Tower",
+      "es": "Pregunta 49 sobre Eiffel Tower",
+      "de": "Frage 49 über Eiffel Tower",
+      "nl": "Vraag 49 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Eiffel Tower",
+      "es": "Pregunta 50 sobre Eiffel Tower",
+      "de": "Frage 50 über Eiffel Tower",
+      "nl": "Vraag 50 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Eiffel Tower",
+      "es": "Pregunta 51 sobre Eiffel Tower",
+      "de": "Frage 51 über Eiffel Tower",
+      "nl": "Vraag 51 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Eiffel Tower",
+      "es": "Pregunta 52 sobre Eiffel Tower",
+      "de": "Frage 52 über Eiffel Tower",
+      "nl": "Vraag 52 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Eiffel Tower",
+      "es": "Pregunta 53 sobre Eiffel Tower",
+      "de": "Frage 53 über Eiffel Tower",
+      "nl": "Vraag 53 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Eiffel Tower",
+      "es": "Pregunta 54 sobre Eiffel Tower",
+      "de": "Frage 54 über Eiffel Tower",
+      "nl": "Vraag 54 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Eiffel Tower",
+      "es": "Pregunta 55 sobre Eiffel Tower",
+      "de": "Frage 55 über Eiffel Tower",
+      "nl": "Vraag 55 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Eiffel Tower",
+      "es": "Pregunta 56 sobre Eiffel Tower",
+      "de": "Frage 56 über Eiffel Tower",
+      "nl": "Vraag 56 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Eiffel Tower",
+      "es": "Pregunta 57 sobre Eiffel Tower",
+      "de": "Frage 57 über Eiffel Tower",
+      "nl": "Vraag 57 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Eiffel Tower",
+      "es": "Pregunta 58 sobre Eiffel Tower",
+      "de": "Frage 58 über Eiffel Tower",
+      "nl": "Vraag 58 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Eiffel Tower",
+      "es": "Pregunta 59 sobre Eiffel Tower",
+      "de": "Frage 59 über Eiffel Tower",
+      "nl": "Vraag 59 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Eiffel Tower",
+      "es": "Pregunta 60 sobre Eiffel Tower",
+      "de": "Frage 60 über Eiffel Tower",
+      "nl": "Vraag 60 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Eiffel Tower",
+      "es": "Pregunta 61 sobre Eiffel Tower",
+      "de": "Frage 61 über Eiffel Tower",
+      "nl": "Vraag 61 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Eiffel Tower",
+      "es": "Pregunta 62 sobre Eiffel Tower",
+      "de": "Frage 62 über Eiffel Tower",
+      "nl": "Vraag 62 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Eiffel Tower",
+      "es": "Pregunta 63 sobre Eiffel Tower",
+      "de": "Frage 63 über Eiffel Tower",
+      "nl": "Vraag 63 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Eiffel Tower",
+      "es": "Pregunta 64 sobre Eiffel Tower",
+      "de": "Frage 64 über Eiffel Tower",
+      "nl": "Vraag 64 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Eiffel Tower",
+      "es": "Pregunta 65 sobre Eiffel Tower",
+      "de": "Frage 65 über Eiffel Tower",
+      "nl": "Vraag 65 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Eiffel Tower",
+      "es": "Pregunta 66 sobre Eiffel Tower",
+      "de": "Frage 66 über Eiffel Tower",
+      "nl": "Vraag 66 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Eiffel Tower",
+      "es": "Pregunta 67 sobre Eiffel Tower",
+      "de": "Frage 67 über Eiffel Tower",
+      "nl": "Vraag 67 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Eiffel Tower",
+      "es": "Pregunta 68 sobre Eiffel Tower",
+      "de": "Frage 68 über Eiffel Tower",
+      "nl": "Vraag 68 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Eiffel Tower",
+      "es": "Pregunta 69 sobre Eiffel Tower",
+      "de": "Frage 69 über Eiffel Tower",
+      "nl": "Vraag 69 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Eiffel Tower",
+      "es": "Pregunta 70 sobre Eiffel Tower",
+      "de": "Frage 70 über Eiffel Tower",
+      "nl": "Vraag 70 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Eiffel Tower",
+      "es": "Pregunta 71 sobre Eiffel Tower",
+      "de": "Frage 71 über Eiffel Tower",
+      "nl": "Vraag 71 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Eiffel Tower",
+      "es": "Pregunta 72 sobre Eiffel Tower",
+      "de": "Frage 72 über Eiffel Tower",
+      "nl": "Vraag 72 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Eiffel Tower",
+      "es": "Pregunta 73 sobre Eiffel Tower",
+      "de": "Frage 73 über Eiffel Tower",
+      "nl": "Vraag 73 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Eiffel Tower",
+      "es": "Pregunta 74 sobre Eiffel Tower",
+      "de": "Frage 74 über Eiffel Tower",
+      "nl": "Vraag 74 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Eiffel Tower",
+      "es": "Pregunta 75 sobre Eiffel Tower",
+      "de": "Frage 75 über Eiffel Tower",
+      "nl": "Vraag 75 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Eiffel Tower",
+      "es": "Pregunta 76 sobre Eiffel Tower",
+      "de": "Frage 76 über Eiffel Tower",
+      "nl": "Vraag 76 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Eiffel Tower",
+      "es": "Pregunta 77 sobre Eiffel Tower",
+      "de": "Frage 77 über Eiffel Tower",
+      "nl": "Vraag 77 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Eiffel Tower",
+      "es": "Pregunta 78 sobre Eiffel Tower",
+      "de": "Frage 78 über Eiffel Tower",
+      "nl": "Vraag 78 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Eiffel Tower",
+      "es": "Pregunta 79 sobre Eiffel Tower",
+      "de": "Frage 79 über Eiffel Tower",
+      "nl": "Vraag 79 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Eiffel Tower",
+      "es": "Pregunta 80 sobre Eiffel Tower",
+      "de": "Frage 80 über Eiffel Tower",
+      "nl": "Vraag 80 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Eiffel Tower",
+      "es": "Pregunta 81 sobre Eiffel Tower",
+      "de": "Frage 81 über Eiffel Tower",
+      "nl": "Vraag 81 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Eiffel Tower",
+      "es": "Pregunta 82 sobre Eiffel Tower",
+      "de": "Frage 82 über Eiffel Tower",
+      "nl": "Vraag 82 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Eiffel Tower",
+      "es": "Pregunta 83 sobre Eiffel Tower",
+      "de": "Frage 83 über Eiffel Tower",
+      "nl": "Vraag 83 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Eiffel Tower",
+      "es": "Pregunta 84 sobre Eiffel Tower",
+      "de": "Frage 84 über Eiffel Tower",
+      "nl": "Vraag 84 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Eiffel Tower",
+      "es": "Pregunta 85 sobre Eiffel Tower",
+      "de": "Frage 85 über Eiffel Tower",
+      "nl": "Vraag 85 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Eiffel Tower",
+      "es": "Pregunta 86 sobre Eiffel Tower",
+      "de": "Frage 86 über Eiffel Tower",
+      "nl": "Vraag 86 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Eiffel Tower",
+      "es": "Pregunta 87 sobre Eiffel Tower",
+      "de": "Frage 87 über Eiffel Tower",
+      "nl": "Vraag 87 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Eiffel Tower",
+      "es": "Pregunta 88 sobre Eiffel Tower",
+      "de": "Frage 88 über Eiffel Tower",
+      "nl": "Vraag 88 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Eiffel Tower",
+      "es": "Pregunta 89 sobre Eiffel Tower",
+      "de": "Frage 89 über Eiffel Tower",
+      "nl": "Vraag 89 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Eiffel Tower",
+      "es": "Pregunta 90 sobre Eiffel Tower",
+      "de": "Frage 90 über Eiffel Tower",
+      "nl": "Vraag 90 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Eiffel Tower",
+      "es": "Pregunta 91 sobre Eiffel Tower",
+      "de": "Frage 91 über Eiffel Tower",
+      "nl": "Vraag 91 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Eiffel Tower",
+      "es": "Pregunta 92 sobre Eiffel Tower",
+      "de": "Frage 92 über Eiffel Tower",
+      "nl": "Vraag 92 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Eiffel Tower",
+      "es": "Pregunta 93 sobre Eiffel Tower",
+      "de": "Frage 93 über Eiffel Tower",
+      "nl": "Vraag 93 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Eiffel Tower",
+      "es": "Pregunta 94 sobre Eiffel Tower",
+      "de": "Frage 94 über Eiffel Tower",
+      "nl": "Vraag 94 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Eiffel Tower",
+      "es": "Pregunta 95 sobre Eiffel Tower",
+      "de": "Frage 95 über Eiffel Tower",
+      "nl": "Vraag 95 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Eiffel Tower",
+      "es": "Pregunta 96 sobre Eiffel Tower",
+      "de": "Frage 96 über Eiffel Tower",
+      "nl": "Vraag 96 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Eiffel Tower",
+      "es": "Pregunta 97 sobre Eiffel Tower",
+      "de": "Frage 97 über Eiffel Tower",
+      "nl": "Vraag 97 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Eiffel Tower",
+      "es": "Pregunta 98 sobre Eiffel Tower",
+      "de": "Frage 98 über Eiffel Tower",
+      "nl": "Vraag 98 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Eiffel Tower",
+      "es": "Pregunta 99 sobre Eiffel Tower",
+      "de": "Frage 99 über Eiffel Tower",
+      "nl": "Vraag 99 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Eiffel Tower",
+      "es": "Pregunta 100 sobre Eiffel Tower",
+      "de": "Frage 100 über Eiffel Tower",
+      "nl": "Vraag 100 over Eiffel Tower"
+    },
+    "options": [
+      {
+        "en": "Answer A for Eiffel Tower",
+        "es": "Respuesta A para Eiffel Tower",
+        "de": "Antwort A für Eiffel Tower",
+        "nl": "Antwoord A voor Eiffel Tower"
+      },
+      {
+        "en": "Answer B for Eiffel Tower",
+        "es": "Respuesta B para Eiffel Tower",
+        "de": "Antwort B für Eiffel Tower",
+        "nl": "Antwoord B voor Eiffel Tower"
+      },
+      {
+        "en": "Answer C for Eiffel Tower",
+        "es": "Respuesta C para Eiffel Tower",
+        "de": "Antwort C für Eiffel Tower",
+        "nl": "Antwoord C voor Eiffel Tower"
+      },
+      {
+        "en": "Answer D for Eiffel Tower",
+        "es": "Respuesta D para Eiffel Tower",
+        "de": "Antwort D für Eiffel Tower",
+        "nl": "Antwoord D voor Eiffel Tower"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Eiffel Tower.",
+      "es": "Esta es la respuesta correcta sobre Eiffel Tower.",
+      "de": "Dies ist die richtige Antwort über Eiffel Tower.",
+      "nl": "Dit is het juiste antwoord over Eiffel Tower."
+    }
   }
-  if (typeof window !== 'undefined') {
-    window.level7Data = level7;
-  }
-  return level7;
-})();
+]
+};

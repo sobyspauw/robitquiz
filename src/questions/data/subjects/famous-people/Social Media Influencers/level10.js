@@ -1,1658 +1,4104 @@
-// Social Media Influencers Quiz - Level 10
-(function() {
-  const level10 = {
-    name: {
-          "en": "Social Media Influencers Level 10",
-          "es": "Influencers de Redes Sociales Nivel 10",
-          "de": "Social Media Influencer Stufe 10",
-          "nl": "Sociale Media Influencers Level 10"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Social Media Influencers",
+      "es": "Pregunta 1 sobre Social Media Influencers",
+      "de": "Frage 1 über Social Media Influencers",
+      "nl": "Vraag 1 over Social Media Influencers"
     },
-    questions: [
+    "options": [
       {
-        question: {
-                  "en": "Which YouTube feature, removed in 2012, allowed users to customize their channel pages with HTML, CSS, and background images?",
-                  "es": "¿Qué función de YouTube, eliminada en 2012, permitía a los usuarios personalizar sus páginas de canal con HTML, CSS e imágenes de fondo?",
-                  "de": "Welche YouTube-Funktion, 2012 entfernt, ermöglichte es Nutzern, ihre Kanalseiten mit HTML, CSS und Hintergrundbildern anzupassen?",
-                  "nl": "Welke YouTube-functie, verwijderd in 2012, stelde gebruikers in staat hun kanaalpagina's aan te passen met HTML, CSS en achtergrondafbeeldingen?"
-        },
-        options: [
-        {
-                  "en": "Channel Art Builder",
-                  "es": "Constructor de Arte de Canal",
-                  "de": "Kanal-Kunst-Ersteller",
-                  "nl": "Kanaalkunst Bouwer"
-        },
-        {
-                  "en": "YouTube Director",
-                  "es": "YouTube Director",
-                  "de": "YouTube Director",
-                  "nl": "YouTube Director"
-        },
-        {
-                  "en": "Creator Studio Classic",
-                  "es": "Creator Studio Clásico",
-                  "de": "Creator Studio Classic",
-                  "nl": "Creator Studio Classic"
-        },
-        {
-                  "en": "YouTube Channel Customization (pre-One Channel design)",
-                  "es": "Personalización de Canal de YouTube (diseño pre-One Channel)",
-                  "de": "YouTube-Kanal-Anpassung (Vor-One-Channel-Design)",
-                  "nl": "YouTube Kanaal Aanpassing (pre-One Channel ontwerp)"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Before 2012, YouTube allowed extensive channel customization using HTML, CSS, and custom backgrounds, similar to MySpace profiles. Creators built elaborate layouts with custom graphics, embedded players, and unique designs. In March 2012, YouTube launched 'One Channel' design, standardizing all channel pages and removing custom HTML/CSS capabilities. This shift prioritized mobile consistency and brand uniformity over individual creative expression. The change was controversial—many creators mourned losing their unique channel identities. This evolution mirrored broader platform trends toward standardization, algorithmic feeds, and mobile-first design at the expense of customization.",
-                  "es": "Antes de 2012, YouTube permitía una extensa personalización de canales usando HTML, CSS y fondos personalizados, similar a los perfiles de MySpace. Los creadores construían diseños elaborados con gráficos personalizados, reproductores incrustados y diseños únicos. En marzo de 2012, YouTube lanzó el diseño 'One Channel', estandarizando todas las páginas de canal y eliminando capacidades personalizadas de HTML/CSS. Este cambio priorizó la consistencia móvil y la uniformidad de marca sobre la expresión creativa individual. El cambio fue controvertido—muchos creadores lamentaron perder sus identidades únicas de canal. Esta evolución reflejó tendencias más amplias de plataformas hacia la estandarización, feeds algorítmicos y diseño móvil primero a expensas de la personalización.",
-                  "de": "Vor 2012 erlaubte YouTube umfangreiche Kanal-Anpassungen mit HTML, CSS und benutzerdefinierten Hintergründen, ähnlich wie MySpace-Profile. Creators bauten aufwendige Layouts mit benutzerdefinierten Grafiken, eingebetteten Playern und einzigartigen Designs. Im März 2012 startete YouTube das 'One Channel'-Design, standardisierte alle Kanalseiten und entfernte benutzerdefinierte HTML/CSS-Fähigkeiten. Diese Verschiebung priorisierte mobile Konsistenz und Markeneinheitlichkeit über individuelle kreative Ausdrucksform. Die Änderung war kontrovers—viele Creators trauerten um den Verlust ihrer einzigartigen Kanal-Identitäten. Diese Evolution spiegelte breitere Plattform-Trends hin zu Standardisierung, algorithmischen Feeds und Mobile-First-Design auf Kosten der Anpassung wider.",
-                  "nl": "Voor 2012 stond YouTube uitgebreide kanaal aanpassing toe met HTML, CSS en aangepaste achtergronden, vergelijkbaar met MySpace-profielen. Creators bouwden uitgebreide layouts met aangepaste graphics, ingesloten spelers en unieke ontwerpen. In maart 2012 lanceerde YouTube het 'One Channel'-ontwerp, waarmee alle kanaalpagina's werden gestandaardiseerd en aangepaste HTML/CSS-mogelijkheden werden verwijderd. Deze verschuiving gaf prioriteit aan mobiele consistentie en merkeenheid boven individuele creatieve expressie. De verandering was controversieel—veel creators rouwden om het verlies van hun unieke kanaalidentiteiten. Deze evolutie weerspiegelde bredere platformtrends richting standaardisatie, algoritmische feeds en mobile-first ontwerp ten koste van aanpassing."
-        }
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
       },
       {
-        question: {
-                  "en": "Which controversial practice involves artificially inflating engagement metrics through coordinated groups exchanging likes, comments, and follows?",
-                  "es": "¿Qué práctica controvertida involucra inflar artificialmente las métricas de engagement a través de grupos coordinados que intercambian likes, comentarios y seguidores?",
-                  "de": "Welche kontroverse Praxis beinhaltet künstliches Aufblasen von Engagement-Metriken durch koordinierte Gruppen, die Likes, Kommentare und Follows austauschen?",
-                  "nl": "Welke controversiële praktijk omvat kunstmatig opblazen van betrokkenheidsmetrieken door gecoördineerde groepen die likes, reacties en volgers uitwisselen?"
-        },
-        options: [
-        {
-                  "en": "Growth hacking",
-                  "es": "Growth hacking",
-                  "de": "Growth Hacking",
-                  "nl": "Growth hacking"
-        },
-        {
-                  "en": "Community management",
-                  "es": "Gestión de comunidad",
-                  "de": "Community-Management",
-                  "nl": "Community management"
-        },
-        {
-                  "en": "Viral seeding",
-                  "es": "Siembra viral",
-                  "de": "Virales Seeding",
-                  "nl": "Virale seeding"
-        },
-        {
-                  "en": "Engagement pods/comment pods",
-                  "es": "Pods de engagement/pods de comentarios",
-                  "de": "Engagement-Pods/Kommentar-Pods",
-                  "nl": "Engagement pods/reactie pods"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Engagement pods (or comment pods) are secret groups where influencers agree to mutually like, comment, and engage with each other's content to artificially boost metrics and fool algorithms into thinking content is popular. Prevalent on Instagram, TikTok, and LinkedIn, pods can range from 10-1000+ members. While not explicitly banned, platforms consider it inauthentic engagement. In 2021, Instagram began cracking down on pod activity, deprioritizing content from suspected pod users. Pods exemplify the arms race between creators gaming algorithms and platforms detecting manipulation—highlighting tensions between organic growth and manufactured virality in attention economies.",
-                  "es": "Los pods de engagement (o pods de comentarios) son grupos secretos donde los influencers acuerdan dar likes, comentar e interactuar mutuamente con el contenido del otro para aumentar artificialmente las métricas y engañar a los algoritmos haciéndoles creer que el contenido es popular. Prevalentes en Instagram, TikTok y LinkedIn, los pods pueden variar de 10 a más de 1000 miembros. Aunque no están explícitamente prohibidos, las plataformas lo consideran engagement no auténtico. En 2021, Instagram comenzó a reprimir la actividad de pods, despriorizando el contenido de usuarios sospechosos de usar pods. Los pods ejemplifican la carrera armamentista entre creadores manipulando algoritmos y plataformas detectando manipulación—destacando tensiones entre crecimiento orgánico y viralidad manufacturada en economías de atención.",
-                  "de": "Engagement-Pods (oder Kommentar-Pods) sind geheime Gruppen, in denen Influencer vereinbaren, gegenseitig Inhalte zu liken, zu kommentieren und zu engagieren, um Metriken künstlich zu steigern und Algorithmen vorzutäuschen, dass Inhalte beliebt sind. Verbreitet auf Instagram, TikTok und LinkedIn können Pods von 10 bis über 1000 Mitglieder reichen. Obwohl nicht explizit verboten, betrachten Plattformen es als unauthentisches Engagement. 2021 begann Instagram, Pod-Aktivität zu bekämpfen und Inhalte von verdächtigen Pod-Nutzern zu depriorisieren. Pods veranschaulichen das Wettrüsten zwischen Creators, die Algorithmen austricksen, und Plattformen, die Manipulation erkennen—und heben Spannungen zwischen organischem Wachstum und hergestellter Viralität in Aufmerksamkeitsökonomien hervor.",
-                  "nl": "Engagement pods (of reactie pods) zijn geheime groepen waar influencers afspreken om elkaar's content wederzijds te liken, becommentariëren en mee te engagen om statistieken kunstmatig te verhogen en algoritmes te misleiden dat content populair is. Prevalent op Instagram, TikTok en LinkedIn, kunnen pods variëren van 10-1000+ leden. Hoewel niet expliciet verboden, beschouwen platforms het als onechte betrokkenheid. In 2021 begon Instagram pod-activiteit aan te pakken, waarbij content van vermoedelijke pod-gebruikers werd gedeprioriseerd. Pods illustreren de wapenwedloop tussen creators die algoritmes manipuleren en platforms die manipulatie detecteren—waarbij spanningen tussen organische groei en gefabriceerde viraliteit in aandachtseconomieën worden benadrukt."
-        }
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
       },
       {
-        question: {
-                  "en": "What was the maximum video length YouTube supported when it launched in 2005, before gradually increasing limits?",
-                  "es": "¿Cuál era la duración máxima de video que YouTube soportaba cuando se lanzó en 2005, antes de aumentar gradualmente los límites?",
-                  "de": "Was war die maximale Videolänge, die YouTube bei seiner Einführung 2005 unterstützte, bevor die Grenzen schrittweise erhöht wurden?",
-                  "nl": "Wat was de maximale videolengte die YouTube ondersteunde bij de lancering in 2005, voordat limieten geleidelijk werden verhoogd?"
-        },
-        options: [
-        {
-                  "en": "3 minutes",
-                  "es": "3 minutos",
-                  "de": "3 Minuten",
-                  "nl": "3 minuten"
-        },
-        {
-                  "en": "15 minutes",
-                  "es": "15 minutos",
-                  "de": "15 Minuten",
-                  "nl": "15 minuten"
-        },
-        {
-                  "en": "5 minutes",
-                  "es": "5 minutos",
-                  "de": "5 Minuten",
-                  "nl": "5 minuten"
-        },
-        {
-                  "en": "10 minutes",
-                  "es": "10 minutos",
-                  "de": "10 Minuten",
-                  "nl": "10 minuten"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "YouTube initially limited uploads to 10 minutes when it launched in 2005, primarily due to bandwidth and storage constraints. This limit shaped early YouTube culture, encouraging concise content and serialized multi-part videos. In March 2006, the limit was increased to 10 minutes officially (it had been 10 from the start). In July 2010, YouTube raised the limit to 15 minutes for all users. Verified accounts and partners later gained unlimited upload lengths. The 10-minute threshold became culturally significant—creators optimized for '10+ minute' videos to maximize mid-roll ads, influencing content pacing and structure across the platform.",
-                  "es": "YouTube inicialmente limitó las subidas a 10 minutos cuando se lanzó en 2005, principalmente debido a restricciones de ancho de banda y almacenamiento. Este límite moldeó la cultura temprana de YouTube, alentando contenido conciso y videos serializados en múltiples partes. En marzo de 2006, el límite se aumentó a 10 minutos oficialmente (había sido 10 desde el inicio). En julio de 2010, YouTube elevó el límite a 15 minutos para todos los usuarios. Las cuentas verificadas y socios luego obtuvieron duraciones de subida ilimitadas. El umbral de 10 minutos se volvió culturalmente significativo—los creadores optimizaron para videos de '10+ minutos' para maximizar anuncios mid-roll, influyendo en el ritmo y estructura del contenido en toda la plataforma.",
-                  "de": "YouTube limitierte Uploads anfangs auf 10 Minuten, als es 2005 startete, hauptsächlich wegen Bandbreiten- und Speicherbeschränkungen. Diese Grenze prägte die frühe YouTube-Kultur und förderte prägnanten Inhalt und serialisierte mehrteilige Videos. Im März 2006 wurde die Grenze offiziell auf 10 Minuten erhöht (es waren von Anfang an 10). Im Juli 2010 erhöhte YouTube die Grenze auf 15 Minuten für alle Nutzer. Verifizierte Accounts und Partner erhielten später unbegrenzte Upload-Längen. Die 10-Minuten-Schwelle wurde kulturell bedeutsam—Creators optimierten für '10+ Minuten'-Videos, um Mid-Roll-Anzeigen zu maximieren, was Inhalts-Pacing und -Struktur auf der gesamten Plattform beeinflusste.",
-                  "nl": "YouTube beperkte uploads aanvankelijk tot 10 minuten bij de lancering in 2005, voornamelijk vanwege bandbreedte- en opslagbeperkingen. Deze limiet vormde de vroege YouTube-cultuur, waarbij beknopte inhoud en geserialiseerde meerdelige video's werden aangemoedigd. In maart 2006 werd de limiet officieel verhoogd naar 10 minuten (het was vanaf het begin al 10). In juli 2010 verhoogde YouTube de limiet naar 15 minuten voor alle gebruikers. Geverifieerde accounts en partners kregen later onbeperkte uploadlengtes. De 10-minuten drempel werd cultureel significant—creators optimaliseerden voor '10+ minuten' video's om mid-roll advertenties te maximaliseren, wat de inhoudspacing en -structuur op het hele platform beïnvloedde."
-        }
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
       },
       {
-        question: {
-                  "en": "Which metrics manipulation technique involves creators watching their own videos on mute from multiple devices to inflate view counts?",
-                  "es": "¿Qué técnica de manipulación de métricas involucra a creadores viendo sus propios videos en silencio desde múltiples dispositivos para inflar las cuentas de vistas?",
-                  "de": "Welche Metriken-Manipulationstechnik beinhaltet, dass Creators ihre eigenen Videos stumm von mehreren Geräten ansehen, um View-Counts aufzublasen?",
-                  "nl": "Welke statistiekenmanipulatietechniek omvat creators die hun eigen video's op mute bekijken vanaf meerdere apparaten om view counts op te blazen?"
-        },
-        options: [
-        {
-                  "en": "View botting",
-                  "es": "View botting",
-                  "de": "View-Botting",
-                  "nl": "View botting"
-        },
-        {
-                  "en": "Click farms",
-                  "es": "Granjas de clics",
-                  "de": "Klick-Farmen",
-                  "nl": "Klik farmen"
-        },
-        {
-                  "en": "Self-viewing/view inflation (ineffective, platforms detect)",
-                  "es": "Auto-visualización/inflación de vistas (inefectivo, las plataformas detectan)",
-                  "de": "Selbst-Ansehen/View-Inflation (ineffektiv, Plattformen erkennen)",
-                  "nl": "Zelf-bekijken/view inflatie (ineffectief, platforms detecteren)"
-        },
-        {
-                  "en": "Traffic exchange",
-                  "es": "Intercambio de tráfico",
-                  "de": "Traffic-Austausch",
-                  "nl": "Verkeer uitwisseling"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Self-viewing (watching your own content to inflate metrics) is largely ineffective on modern platforms. YouTube, TikTok, Instagram, and Twitch employ sophisticated detection: IP tracking, device fingerprinting, watch patterns, and engagement velocity analysis. Platforms typically don't count creator self-views toward monetization metrics and may penalize suspicious activity. Historical attempts included VPNs, multiple devices, and incognito mode, but machine learning algorithms now detect these patterns. This technique represents creators' misunderstanding of platform analytics—views without genuine engagement signals (watch time, shares, comments from diverse users) don't trigger algorithmic promotion. It exemplifies the futility of gaming metrics without authentic audience building.",
-                  "es": "La auto-visualización (ver tu propio contenido para inflar métricas) es en gran medida inefectiva en plataformas modernas. YouTube, TikTok, Instagram y Twitch emplean detección sofisticada: rastreo de IP, huellas digitales de dispositivos, patrones de visualización y análisis de velocidad de engagement. Las plataformas típicamente no cuentan las auto-vistas de creadores hacia métricas de monetización y pueden penalizar actividad sospechosa. Intentos históricos incluyeron VPNs, múltiples dispositivos y modo incógnito, pero los algoritmos de machine learning ahora detectan estos patrones. Esta técnica representa la malinterpretación de los creadores sobre analíticas de plataforma—las vistas sin señales genuinas de engagement (tiempo de visualización, compartidos, comentarios de usuarios diversos) no activan la promoción algorítmica. Ejemplifica la futilidad de manipular métricas sin construir audiencia auténtica.",
-                  "de": "Selbst-Ansehen (eigenen Inhalt ansehen, um Metriken aufzublasen) ist auf modernen Plattformen weitgehend ineffektiv. YouTube, TikTok, Instagram und Twitch verwenden ausgeklügelte Erkennung: IP-Tracking, Geräte-Fingerprinting, Ansichtsmuster und Engagement-Geschwindigkeitsanalyse. Plattformen zählen Creator-Selbstansichten typischerweise nicht zu Monetarisierungs-Metriken und können verdächtige Aktivität bestrafen. Historische Versuche umfassten VPNs, mehrere Geräte und Inkognito-Modus, aber Machine-Learning-Algorithmen erkennen jetzt diese Muster. Diese Technik repräsentiert Creators' Missverständnis von Plattform-Analytik—Views ohne echte Engagement-Signale (Watch Time, Shares, Kommentare von diversen Nutzern) lösen keine algorithmische Promotion aus. Es veranschaulicht die Vergeblichkeit, Metriken zu manipulieren ohne authentischen Publikumsaufbau.",
-                  "nl": "Zelf-bekijken (je eigen content bekijken om statistieken op te blazen) is grotendeels ineffectief op moderne platforms. YouTube, TikTok, Instagram en Twitch gebruiken geavanceerde detectie: IP-tracking, apparaat fingerprinting, kijkpatronen en engagement snelheidsanalyse. Platforms tellen creator zelf-views doorgaans niet mee voor monetarisatiestatistieken en kunnen verdachte activiteit straffen. Historische pogingen omvatten VPNs, meerdere apparaten en incognito modus, maar machine learning algoritmes detecteren nu deze patronen. Deze techniek vertegenwoordigt creators' misverstand van platformanalyses—views zonder echte betrokkenheidssignalen (kijktijd, shares, reacties van diverse gebruikers) activeren geen algoritmische promotie. Het illustreert de zinloosheid van statistieken manipuleren zonder authentieke publieksopbouw."
-        }
-      },
-      {
-        question: {
-                  "en": "Which now-defunct platform feature allowed Vine users to collaborate by adding 6-second video segments to each other's Vines?",
-                  "es": "¿Qué función de plataforma ya desaparecida permitía a los usuarios de Vine colaborar agregando segmentos de video de 6 segundos a los Vines de otros?",
-                  "de": "Welche mittlerweile eingestellte Plattform-Funktion ermöglichte es Vine-Nutzern, durch Hinzufügen von 6-Sekunden-Videosegmenten zu den Vines anderer zu kollaborieren?",
-                  "nl": "Welke inmiddels opgeheven platformfunctie stelde Vine-gebruikers in staat om samen te werken door 6-seconden videosegmenten toe te voegen aan elkaars Vines?"
-        },
-        options: [
-        {
-                  "en": "Revine with a twist / Vine chains (community feature, not official)",
-                  "es": "Revine con un giro / Cadenas de Vine (función comunitaria, no oficial)",
-                  "de": "Revine mit einem Twist / Vine-Ketten (Community-Feature, nicht offiziell)",
-                  "nl": "Revine met een twist / Vine ketens (community functie, niet officieel)"
-        },
-        {
-                  "en": "Vine Remix",
-                  "es": "Vine Remix",
-                  "de": "Vine Remix",
-                  "nl": "Vine Remix"
-        },
-        {
-                  "en": "Dual Vine Creator",
-                  "es": "Creador de Vine Dual",
-                  "de": "Dual Vine Creator",
-                  "nl": "Dual Vine Creator"
-        },
-        {
-                  "en": "Vine Collab Studio",
-                  "es": "Vine Collab Studio",
-                  "de": "Vine Collab Studio",
-                  "nl": "Vine Collab Studio"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Vine never had an official built-in collaboration feature for chaining videos together. However, the community created workarounds: 'Revine with a twist' involved users downloading, editing, and re-uploading Vines with added segments—though this violated the seamless loop aesthetic. Some creators coordinated 'Vine chains' by carefully timing cuts to create the illusion of continuous action across multiple Vines when viewed sequentially. The lack of native collaboration tools was a missed opportunity—TikTok later succeeded partly due to duets, stitches, and built-in remixing. Vine's inability to iterate on community-driven collaboration patterns contributed to its inability to compete with emerging platforms.",
-                  "es": "Vine nunca tuvo una función de colaboración oficial incorporada para encadenar videos juntos. Sin embargo, la comunidad creó soluciones alternativas: 'Revine con un giro' involucraba a usuarios descargando, editando y volviendo a subir Vines con segmentos añadidos—aunque esto violaba la estética de bucle sin costuras. Algunos creadores coordinaron 'cadenas de Vine' sincronizando cuidadosamente cortes para crear la ilusión de acción continua a través de múltiples Vines cuando se veían secuencialmente. La falta de herramientas nativas de colaboración fue una oportunidad perdida—TikTok luego tuvo éxito en parte debido a duetos, stitches y remixing incorporado. La incapacidad de Vine para iterar en patrones de colaboración impulsados por la comunidad contribuyó a su incapacidad para competir con plataformas emergentes.",
-                  "de": "Vine hatte nie eine offizielle eingebaute Kollaborationsfunktion zum Verketten von Videos. Die Community schuf jedoch Workarounds: 'Revine mit einem Twist' beinhaltete, dass Nutzer Vines herunterluden, bearbeiteten und mit hinzugefügten Segmenten neu hochluden—obwohl dies die nahtlose Loop-Ästhetik verletzte. Einige Creators koordinierten 'Vine-Ketten', indem sie Schnitte sorgfältig timten, um die Illusion kontinuierlicher Aktion über mehrere Vines hinweg zu schaffen, wenn sequenziell angesehen. Das Fehlen nativer Kollaborations-Tools war eine verpasste Chance—TikTok hatte später teilweise Erfolg wegen Duetten, Stitches und eingebautem Remixing. Vines Unfähigkeit, auf community-getriebene Kollaborationsmuster zu iterieren, trug zu seiner Unfähigkeit bei, mit aufkommenden Plattformen zu konkurrieren.",
-                  "nl": "Vine had nooit een officiële ingebouwde samenwerkingsfunctie voor het aan elkaar ketenen van video's. De community creëerde echter workarounds: 'Revine met een twist' omvatte gebruikers die Vines downloadden, bewerken en opnieuw uploadden met toegevoegde segmenten—hoewel dit de naadloze loop-esthetiek schond. Sommige creators coördineerden 'Vine ketens' door zorgvuldig cuts te timen om de illusie van doorlopende actie over meerdere Vines heen te creëren wanneer opeenvolgend bekeken. Het ontbreken van native samenwerkingstools was een gemiste kans—TikTok had later deels succes dankzij duetten, stitches en ingebouwde remixing. Vine's onvermogen om te itereren op community-gedreven samenwerkingspatronen droeg bij aan het onvermogen om te concurreren met opkomende platforms."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the original revenue split percentage that Twitch offered to partners when the Partner Program launched in 2011?",
-                  "es": "¿Cuál era el porcentaje de división de ingresos original que Twitch ofrecía a los socios cuando se lanzó el Programa de Socios en 2011?",
-                  "de": "Was war der ursprüngliche Umsatzbeteiligungs-Prozentsatz, den Twitch Partnern anbot, als das Partner-Programm 2011 startete?",
-                  "nl": "Wat was het oorspronkelijke inkomstenverdeling percentage dat Twitch aan partners bood toen het Partnerprogram in 2011 werd gelanceerd?"
-        },
-        options: [
-        {
-                  "en": "Variable/negotiated (no standard split initially)",
-                  "es": "Variable/negociado (sin división estándar inicialmente)",
-                  "de": "Variabel/verhandelt (anfangs keine Standard-Aufteilung)",
-                  "nl": "Variabel/onderhandeld (aanvankelijk geen standaard verdeling)"
-        },
-        {
-                  "en": "50/50",
-                  "es": "50/50",
-                  "de": "50/50",
-                  "nl": "50/50"
-        },
-        {
-                  "en": "60/40",
-                  "es": "60/40",
-                  "de": "60/40",
-                  "nl": "60/40"
-        },
-        {
-                  "en": "70/30 (favoring creators)",
-                  "es": "70/30 (favoreciendo creadores)",
-                  "de": "70/30 (zugunsten von Creators)",
-                  "nl": "70/30 (ten gunste van creators)"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "When Twitch's Partner Program launched in 2011 (inherited from Justin.tv), there was no standardized revenue split—deals were individually negotiated. Early partners secured highly favorable terms, sometimes 70/30 or better. As Twitch grew, it standardized to 50/50 for most partners by 2014-2015, with top-tier streamers negotiating better deals. In 2022, Twitch controversially moved toward enforcing 50/50 for all partners after the first $100k, eliminating many premium splits. This history illustrates platform economics evolution: early generous terms to attract talent, standardization during growth, then tightening margins as platforms mature—a pattern repeated across YouTube, TikTok, and other creator economies.",
-                  "es": "Cuando se lanzó el Programa de Socios de Twitch en 2011 (heredado de Justin.tv), no había una división de ingresos estandarizada—los acuerdos se negociaban individualmente. Los primeros socios aseguraron términos altamente favorables, a veces 70/30 o mejor. A medida que Twitch creció, se estandarizó a 50/50 para la mayoría de los socios para 2014-2015, con streamers de primer nivel negociando mejores acuerdos. En 2022, Twitch controvertidamente se movió hacia hacer cumplir 50/50 para todos los socios después de los primeros $100k, eliminando muchas divisiones premium. Esta historia ilustra la evolución de la economía de plataformas: términos generosos tempranos para atraer talento, estandarización durante el crecimiento, luego ajuste de márgenes a medida que las plataformas maduran—un patrón repetido en YouTube, TikTok y otras economías de creadores.",
-                  "de": "Als Twitchs Partner-Programm 2011 startete (geerbt von Justin.tv), gab es keine standardisierte Umsatzbeteiligung—Deals wurden individuell verhandelt. Frühe Partner sicherten sich hochgradig günstige Bedingungen, manchmal 70/30 oder besser. Als Twitch wuchs, standardisierte es sich auf 50/50 für die meisten Partner bis 2014-2015, wobei Top-Streamer bessere Deals verhandelten. 2022 bewegte sich Twitch kontrovers in Richtung Durchsetzung von 50/50 für alle Partner nach den ersten $100k, wodurch viele Premium-Splits eliminiert wurden. Diese Geschichte illustriert die Evolution der Plattform-Ökonomie: frühe großzügige Bedingungen zur Talentgewinnung, Standardisierung während des Wachstums, dann Straffung der Margen, wenn Plattformen reifen—ein Muster, das sich auf YouTube, TikTok und anderen Creator-Wirtschaften wiederholt.",
-                  "nl": "Toen Twitch's Partnerprogram in 2011 werd gelanceerd (geërfd van Justin.tv), was er geen gestandaardiseerde inkomstenverdeling—deals werden individueel onderhandeld. Vroege partners behaalden zeer gunstige voorwaarden, soms 70/30 of beter. Naarmate Twitch groeide, standaardiseerde het naar 50/50 voor de meeste partners tegen 2014-2015, waarbij top-tier streamers betere deals onderhandelden. In 2022 bewoog Twitch controversieel richting het afdwingen van 50/50 voor alle partners na de eerste $100k, waarbij veel premium verdelingen werden geëlimineerd. Deze geschiedenis illustreert de evolutie van platformeconomie: vroege genereuze voorwaarden om talent aan te trekken, standaardisatie tijdens groei, vervolgens aanscherping van marges naarmate platforms rijpen—een patroon dat zich herhaalt op YouTube, TikTok en andere creator-economieën."
-        }
-      },
-      {
-        question: {
-                  "en": "Which platform was the first to introduce ephemeral 24-hour stories, predating Snapchat's Stories feature?",
-                  "es": "¿Qué plataforma fue la primera en introducir historias efímeras de 24 horas, antes de la función Stories de Snapchat?",
-                  "de": "Welche Plattform führte als erste ephemere 24-Stunden-Stories ein, vor Snapchats Stories-Funktion?",
-                  "nl": "Welk platform introduceerde als eerste efemere 24-uurs verhalen, vóór Snapchat's Stories functie?"
-        },
-        options: [
-        {
-                  "en": "Instagram Moments",
-                  "es": "Instagram Moments",
-                  "de": "Instagram Moments",
-                  "nl": "Instagram Moments"
-        },
-        {
-                  "en": "Facebook Stories Beta",
-                  "es": "Facebook Stories Beta",
-                  "de": "Facebook Stories Beta",
-                  "nl": "Facebook Stories Beta"
-        },
-        {
-                  "en": "Twitter Fleets (precursor)",
-                  "es": "Twitter Fleets (precursor)",
-                  "de": "Twitter Fleets (Vorläufer)",
-                  "nl": "Twitter Fleets (voorloper)"
-        },
-        {
-                  "en": "None - Snapchat invented the format (October 2013)",
-                  "es": "Ninguna - Snapchat inventó el formato (octubre 2013)",
-                  "de": "Keine - Snapchat erfand das Format (Oktober 2013)",
-                  "nl": "Geen - Snapchat heeft het formaat uitgevonden (oktober 2013)"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Snapchat invented the ephemeral 24-hour Stories format, launching it in October 2013. There was no widely-used predecessor. The format revolutionized social media by introducing temporary, low-pressure sharing that disappeared after 24 hours—contrasting with permanent timeline posts. This innovation fundamentally changed content consumption patterns. The concept drew inspiration from ephemeral messaging (Snapchat's core feature) and status updates, but Stories as a discrete feature was Snapchat's creation. Its subsequent adoption by Instagram (2016), Facebook (2017), WhatsApp (2017), YouTube (2018), LinkedIn (2020), and Twitter/Fleets (2020, discontinued 2021) demonstrates its transformative impact on social media UX design.",
-                  "es": "Snapchat inventó el formato de Historias efímeras de 24 horas, lanzándolo en octubre de 2013. No hubo un predecesor ampliamente usado. El formato revolucionó las redes sociales al introducir compartir temporal de baja presión que desaparecía después de 24 horas—contrastando con publicaciones permanentes de línea de tiempo. Esta innovación cambió fundamentalmente los patrones de consumo de contenido. El concepto se inspiró en mensajería efímera (función principal de Snapchat) y actualizaciones de estado, pero Stories como función discreta fue creación de Snapchat. Su adopción posterior por Instagram (2016), Facebook (2017), WhatsApp (2017), YouTube (2018), LinkedIn (2020) y Twitter/Fleets (2020, discontinuado 2021) demuestra su impacto transformador en el diseño UX de redes sociales.",
-                  "de": "Snapchat erfand das ephemere 24-Stunden-Stories-Format und startete es im Oktober 2013. Es gab keinen weit verbreiteten Vorläufer. Das Format revolutionierte Social Media, indem es temporäres, stressfreies Teilen einführte, das nach 24 Stunden verschwand—im Gegensatz zu permanenten Timeline-Posts. Diese Innovation veränderte Inhalts-Konsummuster grundlegend. Das Konzept zog Inspiration aus ephemerem Messaging (Snapchats Kernfunktion) und Status-Updates, aber Stories als diskrete Funktion war Snapchats Schöpfung. Seine anschließende Adoption durch Instagram (2016), Facebook (2017), WhatsApp (2017), YouTube (2018), LinkedIn (2020) und Twitter/Fleets (2020, eingestellt 2021) demonstriert seine transformative Wirkung auf Social-Media-UX-Design.",
-                  "nl": "Snapchat heeft het efemere 24-uurs Stories formaat uitgevonden en lanceerde het in oktober 2013. Er was geen veelgebruikte voorloper. Het formaat revolutioneerde sociale media door tijdelijk, lage-druk delen te introduceren dat na 24 uur verdween—in tegenstelling tot permanente tijdlijn posts. Deze innovatie veranderde fundamenteel contentconsumptiepatronen. Het concept haalde inspiratie uit efemere berichtgeving (Snapchat's kernfunctie) en statusupdates, maar Stories als discrete functie was Snapchat's creatie. De daaropvolgende adoptie door Instagram (2016), Facebook (2017), WhatsApp (2017), YouTube (2018), LinkedIn (2020) en Twitter/Fleets (2020, stopgezet 2021) demonstreert de transformerende impact op sociale media UX-ontwerp."
-        }
-      },
-      {
-        question: {
-                  "en": "Which YouTube analytics metric measures the percentage of viewers who click on a video after seeing its thumbnail in their feed or search results?",
-                  "es": "¿Qué métrica de análisis de YouTube mide el porcentaje de espectadores que hacen clic en un video después de ver su miniatura en su feed o resultados de búsqueda?",
-                  "de": "Welche YouTube-Analytik-Metrik misst den Prozentsatz der Zuschauer, die auf ein Video klicken, nachdem sie dessen Thumbnail in ihrem Feed oder Suchergebnissen gesehen haben?",
-                  "nl": "Welke YouTube analytics statistiek meet het percentage kijkers dat op een video klikt nadat ze de thumbnail in hun feed of zoekresultaten hebben gezien?"
-        },
-        options: [
-        {
-                  "en": "Impression conversion",
-                  "es": "Conversión de impresiones",
-                  "de": "Impressions-Konversion",
-                  "nl": "Impressie conversie"
-        },
-        {
-                  "en": "Click-through rate (CTR)",
-                  "es": "Tasa de clics (CTR)",
-                  "de": "Klickrate (CTR)",
-                  "nl": "Klikfrequentie (CTR)"
-        },
-        {
-                  "en": "Discovery rate",
-                  "es": "Tasa de descubrimiento",
-                  "de": "Discovery-Rate",
-                  "nl": "Ontdekkingspercentage"
-        },
-        {
-                  "en": "Thumbnail engagement rate",
-                  "es": "Tasa de engagement de miniatura",
-                  "de": "Thumbnail-Engagement-Rate",
-                  "nl": "Thumbnail betrokkenheidspercentage"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Click-through rate (CTR) measures the percentage of impressions (thumbnail views) that result in clicks. If a thumbnail is shown 1,000 times and clicked 100 times, CTR is 10%. CTR is crucial for YouTube's recommendation algorithm—higher CTR signals compelling content, leading to more impressions. Average CTR varies by niche (2-10% is typical). Creators obsess over CTR optimization through thumbnail design, title crafting, and A/B testing. However, CTR must balance with average view duration—high CTR with low retention signals clickbait, triggering algorithmic penalties. CTR exemplifies the metrics-driven creator economy, where understanding platform analytics is essential for success.",
-                  "es": "La tasa de clics (CTR) mide el porcentaje de impresiones (vistas de miniatura) que resultan en clics. Si una miniatura se muestra 1,000 veces y se hace clic 100 veces, el CTR es 10%. El CTR es crucial para el algoritmo de recomendación de YouTube—un CTR más alto señala contenido convincente, llevando a más impresiones. El CTR promedio varía por nicho (2-10% es típico). Los creadores se obsesionan con la optimización de CTR a través del diseño de miniaturas, creación de títulos y pruebas A/B. Sin embargo, el CTR debe equilibrarse con la duración promedio de visualización—CTR alto con retención baja señala clickbait, activando penalizaciones algorítmicas. El CTR ejemplifica la economía de creadores impulsada por métricas, donde entender las analíticas de la plataforma es esencial para el éxito.",
-                  "de": "Die Klickrate (CTR) misst den Prozentsatz der Impressionen (Thumbnail-Ansichten), die zu Klicks führen. Wenn ein Thumbnail 1.000 Mal gezeigt und 100 Mal geklickt wird, beträgt die CTR 10%. CTR ist entscheidend für YouTubes Empfehlungsalgorithmus—höhere CTR signalisiert überzeugenden Inhalt, was zu mehr Impressionen führt. Die durchschnittliche CTR variiert je nach Nische (2-10% ist typisch). Creators sind besessen von CTR-Optimierung durch Thumbnail-Design, Titelgestaltung und A/B-Tests. CTR muss jedoch mit durchschnittlicher Wiedergabedauer ausbalanciert werden—hohe CTR mit niedriger Retention signalisiert Clickbait und löst algorithmische Strafen aus. CTR veranschaulicht die metriken-getriebene Creator-Wirtschaft, wo Verständnis von Plattform-Analytik für Erfolg wesentlich ist.",
-                  "nl": "Klikfrequentie (CTR) meet het percentage impressies (thumbnail views) dat resulteert in klikken. Als een thumbnail 1.000 keer wordt getoond en 100 keer wordt geklikt, is de CTR 10%. CTR is cruciaal voor YouTube's aanbevelingsalgoritme—hogere CTR signaleert boeiende inhoud, wat leidt tot meer impressies. Gemiddelde CTR varieert per niche (2-10% is typisch). Creators zijn geobsedeerd door CTR-optimalisatie via thumbnail-ontwerp, titelcreatie en A/B-testen. CTR moet echter balanceren met gemiddelde kijkduur—hoge CTR met lage retentie signaleert clickbait, wat algoritmische straffen activeert. CTR illustreert de metriek-gedreven creator-economie, waar begrip van platformanalyses essentieel is voor succes."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the term for the controversial practice where platforms shadowban content without notifying creators, making posts invisible to most users?",
-                  "es": "¿Cuál es el término para la práctica controvertida donde las plataformas shadowban contenido sin notificar a los creadores, haciendo que las publicaciones sean invisibles para la mayoría de los usuarios?",
-                  "de": "Was ist der Begriff für die kontroverse Praxis, bei der Plattformen Inhalte shadowbannen, ohne Creators zu benachrichtigen, wodurch Posts für die meisten Nutzer unsichtbar werden?",
-                  "nl": "Wat is de term voor de controversiële praktijk waarbij platforms inhoud shadowbannen zonder creators te informeren, waardoor posts onzichtbaar worden voor de meeste gebruikers?"
-        },
-        options: [
-        {
-                  "en": "Silent suppression",
-                  "es": "Supresión silenciosa",
-                  "de": "Stille Unterdrückung",
-                  "nl": "Stille onderdrukking"
-        },
-        {
-                  "en": "Algorithmic quarantine",
-                  "es": "Cuarentena algorítmica",
-                  "de": "Algorithmische Quarantäne",
-                  "nl": "Algoritmische quarantaine"
-        },
-        {
-                  "en": "Shadowban / stealth ban / ghost ban",
-                  "es": "Shadowban / ban sigiloso / ban fantasma",
-                  "de": "Shadowban / Stealth-Ban / Ghost-Ban",
-                  "nl": "Shadowban / stealth ban / spook ban"
-        },
-        {
-                  "en": "Invisible moderation",
-                  "es": "Moderación invisible",
-                  "de": "Unsichtbare Moderation",
-                  "nl": "Onzichtbare moderatie"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Shadowbanning (also called stealth banning or ghost banning) is when platforms limit content visibility without notifying the creator—posts appear normal to the creator but are hidden from most users' feeds. Originally used against spammers on Reddit and Twitter, it's now controversially applied to suspected policy violations. Platforms rarely admit to shadowbanning, claiming algorithmic deprioritization instead. Instagram, TikTok, Twitter/X, and YouTube have all been accused of shadowbanning, sparking transparency debates. The practice raises concerns about due process, creator rights, and platform accountability—creators can't appeal penalties they're unaware of, creating power imbalances in platform-creator relationships.",
-                  "es": "El shadowbanning (también llamado ban sigiloso o ban fantasma) es cuando las plataformas limitan la visibilidad del contenido sin notificar al creador—las publicaciones parecen normales para el creador pero están ocultas de los feeds de la mayoría de los usuarios. Originalmente usado contra spammers en Reddit y Twitter, ahora se aplica controvertidamente a presuntas violaciones de políticas. Las plataformas rara vez admiten hacer shadowbanning, alegando despriorización algorítmica en su lugar. Instagram, TikTok, Twitter/X y YouTube han sido todos acusados de shadowbanning, generando debates de transparencia. La práctica plantea preocupaciones sobre debido proceso, derechos de creadores y responsabilidad de plataformas—los creadores no pueden apelar penalizaciones de las que no son conscientes, creando desequilibrios de poder en relaciones plataforma-creador.",
-                  "de": "Shadowbanning (auch Stealth-Banning oder Ghost-Banning genannt) ist, wenn Plattformen Inhalts-Sichtbarkeit einschränken, ohne den Creator zu benachrichtigen—Posts erscheinen dem Creator normal, sind aber für die meisten Nutzer-Feeds verborgen. Ursprünglich gegen Spammer auf Reddit und Twitter verwendet, wird es jetzt kontrovers auf vermutete Policy-Verstöße angewendet. Plattformen geben Shadowbanning selten zu und behaupten stattdessen algorithmische Depriorisierung. Instagram, TikTok, Twitter/X und YouTube wurden alle des Shadowbannings beschuldigt, was Transparenz-Debatten auslöste. Die Praxis wirft Bedenken über ordentliche Verfahren, Creator-Rechte und Plattform-Verantwortlichkeit auf—Creators können Strafen nicht anfechten, von denen sie nichts wissen, was Machtungleichgewichte in Plattform-Creator-Beziehungen schafft.",
-                  "nl": "Shadowbanning (ook wel stealth banning of ghost banning genoemd) is wanneer platforms inhoudszichtbaarheid beperken zonder de creator te informeren—posts lijken normaal voor de creator maar zijn verborgen voor de meeste gebruikersfeeds. Oorspronkelijk gebruikt tegen spammers op Reddit en Twitter, wordt het nu controversieel toegepast op vermoedelijke beleidsovertredingen. Platforms geven zelden toe te shadowbannen, waarbij ze in plaats daarvan algoritmische deprioritsering claimen. Instagram, TikTok, Twitter/X en YouTube zijn allemaal beschuldigd van shadowbanning, wat transparantiedebatten veroorzaakte. De praktijk roept zorgen op over rechtsgang, creator-rechten en platformverantwoordelijkheid—creators kunnen straffen waarvan ze niet op de hoogte zijn niet aanvechten, wat machtsonevenwichtigheden creëert in platform-creator relaties."
-        }
-      },
-      {
-        question: {
-                  "en": "Which creator economy business model involves fans paying monthly subscriptions for exclusive content, popularized by platforms like Patreon?",
-                  "es": "¿Qué modelo de negocio de economía de creadores involucra a los fans pagando suscripciones mensuales por contenido exclusivo, popularizado por plataformas como Patreon?",
-                  "de": "Welches Creator-Economy-Geschäftsmodell beinhaltet, dass Fans monatliche Abonnements für exklusive Inhalte zahlen, popularisiert durch Plattformen wie Patreon?",
-                  "nl": "Welk creator economy bedrijfsmodel omvat fans die maandelijkse abonnementen betalen voor exclusieve inhoud, gepopulariseerd door platforms zoals Patreon?"
-        },
-        options: [
-        {
-                  "en": "Subscription/membership model",
-                  "es": "Modelo de suscripción/membresía",
-                  "de": "Abonnement-/Mitgliedschaftsmodell",
-                  "nl": "Abonnements/lidmaatschaps model"
-        },
-        {
-                  "en": "Freemium monetization",
-                  "es": "Monetización freemium",
-                  "de": "Freemium-Monetarisierung",
-                  "nl": "Freemium monetarisatie"
-        },
-        {
-                  "en": "Fan funding platform",
-                  "es": "Plataforma de financiación de fans",
-                  "de": "Fan-Finanzierungsplattform",
-                  "nl": "Fan financieringsplatform"
-        },
-        {
-                  "en": "Tiered access system",
-                  "es": "Sistema de acceso escalonado",
-                  "de": "Gestuftes Zugriffssystem",
-                  "nl": "Gelaagd toegangssysteem"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The subscription/membership model allows creators to monetize through recurring payments for exclusive content, community access, or perks. Patreon (launched 2013) pioneered this for creators, offering tiers with different benefits. The model provides stable income versus ad revenue volatility. It's now ubiquitous: YouTube Memberships (2018), Twitch Subscriptions, OnlyFans, Substack, Discord servers with paid roles, and platform-native features. This model fundamentally changed creator economics by enabling direct fan-to-creator payments, reducing platform dependency and allowing niche creators to thrive with smaller, dedicated audiences—the '1,000 True Fans' theory in practice.",
-                  "es": "El modelo de suscripción/membresía permite a los creadores monetizar a través de pagos recurrentes por contenido exclusivo, acceso a la comunidad o beneficios. Patreon (lanzado en 2013) fue pionero en esto para creadores, ofreciendo niveles con diferentes beneficios. El modelo proporciona ingresos estables versus la volatilidad de ingresos por anuncios. Ahora es ubicuo: YouTube Memberships (2018), Twitch Subscriptions, OnlyFans, Substack, servidores de Discord con roles pagados y funciones nativas de plataformas. Este modelo cambió fundamentalmente la economía de creadores al permitir pagos directos de fan a creador, reduciendo la dependencia de plataformas y permitiendo que creadores de nicho prosperen con audiencias más pequeñas y dedicadas—la teoría de '1,000 True Fans' en la práctica.",
-                  "de": "Das Abonnement-/Mitgliedschaftsmodell ermöglicht es Creators, durch wiederkehrende Zahlungen für exklusive Inhalte, Community-Zugang oder Vorteile zu monetarisieren. Patreon (gestartet 2013) war Pionier für Creators und bot Stufen mit unterschiedlichen Vorteilen. Das Modell bietet stabiles Einkommen versus Ad-Revenue-Volatilität. Es ist jetzt allgegenwärtig: YouTube Memberships (2018), Twitch Subscriptions, OnlyFans, Substack, Discord-Server mit bezahlten Rollen und plattform-native Features. Dieses Modell veränderte die Creator-Ökonomie grundlegend, indem es direkte Fan-zu-Creator-Zahlungen ermöglichte, Plattform-Abhängigkeit reduzierte und Nischen-Creators erlaubte, mit kleineren, engagierten Publikum zu gedeihen—die '1.000 True Fans'-Theorie in der Praxis.",
-                  "nl": "Het abonnements/lidmaatschaps model stelt creators in staat te monetariseren via terugkerende betalingen voor exclusieve inhoud, community toegang of voordelen. Patreon (gelanceerd 2013) was pionier hiervoor voor creators, met lagen met verschillende voordelen. Het model biedt stabiel inkomen versus advertentie-inkomsten volatiliteit. Het is nu alomtegenwoordig: YouTube Memberships (2018), Twitch Subscriptions, OnlyFans, Substack, Discord servers met betaalde rollen en platform-eigen functies. Dit model veranderde fundamenteel de creator-economie door directe fan-naar-creator betalingen mogelijk te maken, platformafhankelijkheid te verminderen en niche creators in staat te stellen te gedijen met kleinere, toegewijde publiek—de '1.000 True Fans' theorie in de praktijk."
-        }
-      },
-      {
-        question: {
-                  "en": "What YouTube policy change in 2012 required creators to have at least how many subscribers before custom vanity URLs became available?",
-                  "es": "¿Qué cambio de política de YouTube en 2012 requirió que los creadores tuvieran al menos cuántos suscriptores antes de que las URLs personalizadas estuvieran disponibles?",
-                  "de": "Welche YouTube-Richtlinienänderung von 2012 erforderte, dass Creators mindestens wie viele Abonnenten hatten, bevor benutzerdefinierte Vanity-URLs verfügbar wurden?",
-                  "nl": "Welke YouTube-beleidswijziging in 2012 vereiste dat creators ten minste hoeveel abonnees hadden voordat aangepaste vanity-URL's beschikbaar werden?"
-        },
-        options: [
-        {
-                  "en": "1,000 subscribers",
-                  "es": "1,000 suscriptores",
-                  "de": "1.000 Abonnenten",
-                  "nl": "1.000 abonnees"
-        },
-        {
-                  "en": "10,000 subscribers",
-                  "es": "10,000 suscriptores",
-                  "de": "10.000 Abonnenten",
-                  "nl": "10.000 abonnees"
-        },
-        {
-                  "en": "100 subscribers",
-                  "es": "100 suscriptores",
-                  "de": "100 Abonnenten",
-                  "nl": "100 abonnees"
-        },
-        {
-                  "en": "500 subscribers (later changed to other requirements)",
-                  "es": "500 suscriptores (luego cambiado a otros requisitos)",
-                  "de": "500 Abonnenten (später zu anderen Anforderungen geändert)",
-                  "nl": "500 abonnees (later gewijzigd naar andere vereisten)"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "When YouTube introduced custom URLs in 2012, channels needed 500+ subscribers, be at least 30 days old, have uploaded photo, and channel art. Requirements have since evolved: currently channels need 100+ subscribers, be 30+ days old, have uploaded banner/icon, and meet other criteria. Custom URLs (youtube.com/c/CreatorName or youtube.com/@handle after 2022 handles update) are crucial for branding and discoverability. The subscriber threshold gatekeeping reflects YouTube's strategy to reserve features for committed creators, preventing spam while incentivizing growth. This mirrors broader platform patterns of tiered feature access based on metrics, shaping creator behavior and platform ecology.",
-                  "es": "Cuando YouTube introdujo URLs personalizadas en 2012, los canales necesitaban 500+ suscriptores, tener al menos 30 días de antigüedad, haber subido foto y arte de canal. Los requisitos han evolucionado desde entonces: actualmente los canales necesitan 100+ suscriptores, tener 30+ días de antigüedad, haber subido banner/ícono y cumplir otros criterios. Las URLs personalizadas (youtube.com/c/CreatorName o youtube.com/@handle después de la actualización de handles de 2022) son cruciales para branding y descubribilidad. El umbral de suscriptores refleja la estrategia de YouTube de reservar funciones para creadores comprometidos, previniendo spam mientras incentiva el crecimiento. Esto refleja patrones más amplios de plataformas de acceso escalonado a funciones basado en métricas, moldeando el comportamiento de creadores y la ecología de plataformas.",
-                  "de": "Als YouTube 2012 benutzerdefinierte URLs einführte, benötigten Kanäle 500+ Abonnenten, mussten mindestens 30 Tage alt sein, ein Foto hochgeladen haben und Kanal-Kunst. Die Anforderungen haben sich seitdem entwickelt: derzeit benötigen Kanäle 100+ Abonnenten, müssen 30+ Tage alt sein, Banner/Icon hochgeladen haben und andere Kriterien erfüllen. Benutzerdefinierte URLs (youtube.com/c/CreatorName oder youtube.com/@handle nach dem 2022 Handles-Update) sind entscheidend für Branding und Auffindbarkeit. Die Abonnenten-Schwelle spiegelt YouTubes Strategie wider, Features für engagierte Creators zu reservieren, Spam zu verhindern und Wachstum anzuregen. Dies spiegelt breitere Plattform-Muster von gestuftem Feature-Zugang basierend auf Metriken wider, was Creator-Verhalten und Plattform-Ökologie formt.",
-                  "nl": "Toen YouTube aangepaste URL's introduceerde in 2012, hadden kanalen 500+ abonnees nodig, moesten minstens 30 dagen oud zijn, een foto geüpload hebben en kanaalkunst. Vereisten zijn sindsdien geëvolueerd: momenteel hebben kanalen 100+ abonnees nodig, moeten 30+ dagen oud zijn, banner/icoon geüpload hebben en aan andere criteria voldoen. Aangepaste URL's (youtube.com/c/CreatorName of youtube.com/@handle na 2022 handles update) zijn cruciaal voor branding en vindbaarheid. De abonneedrempel weerspiegelt YouTube's strategie om functies te reserveren voor toegewijde creators, spam te voorkomen terwijl groei wordt gestimuleerd. Dit weerspiegelt bredere platformpatronen van gelaagde functietoegang gebaseerd op statistieken, wat creator-gedrag en platform-ecologie vormt."
-        }
-      },
-      {
-        question: {
-                  "en": "Which term describes the phenomenon where creators burn out from constant content production pressure to satisfy algorithms and audiences?",
-                  "es": "¿Qué término describe el fenómeno donde los creadores se queman por la presión constante de producción de contenido para satisfacer algoritmos y audiencias?",
-                  "de": "Welcher Begriff beschreibt das Phänomen, bei dem Creators durch konstanten Content-Produktionsdruck ausbrennen, um Algorithmen und Publikum zufriedenzustellen?",
-                  "nl": "Welke term beschrijft het fenomeen waarbij creators uitgeput raken door constante contentproductiedruk om algoritmes en publiek tevreden te stellen?"
-        },
-        options: [
-        {
-                  "en": "Content exhaustion syndrome",
-                  "es": "Síndrome de agotamiento de contenido",
-                  "de": "Content-Erschöpfungssyndrom",
-                  "nl": "Content uitputtingssyndroom"
-        },
-        {
-                  "en": "Algorithm fatigue",
-                  "es": "Fatiga algorítmica",
-                  "de": "Algorithmus-Erschöpfung",
-                  "nl": "Algoritme vermoeidheid"
-        },
-        {
-                  "en": "Creator burnout / influencer burnout",
-                  "es": "Agotamiento de creador / burnout de influencer",
-                  "de": "Creator-Burnout / Influencer-Burnout",
-                  "nl": "Creator burnout / influencer burnout"
-        },
-        {
-                  "en": "Digital creator stress disorder",
-                  "es": "Trastorno de estrés de creador digital",
-                  "de": "Digitale Creator-Stressstörung",
-                  "nl": "Digitale creator stressstoornis"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Creator burnout (or influencer burnout) refers to physical, emotional, and creative exhaustion from relentless content production demands. Algorithmic pressures require consistent posting (daily for TikTok/YouTube Shorts, multiple times weekly for YouTube), audience expectations for quality/authenticity, parasocial relationship management, and financial pressures create unsustainable workloads. High-profile cases include Elle Mills' 2018 breakdown video, Jenna Marbles' 2020 departure, and Bobby Burns' exit. Burnout highlights dark sides of creator economies: lack of traditional employment protections, always-on culture, mental health impacts of public scrutiny, and algorithmic systems optimizing for engagement over creator wellbeing.",
-                  "es": "El agotamiento de creador (o burnout de influencer) se refiere al agotamiento físico, emocional y creativo por demandas implacables de producción de contenido. Las presiones algorítmicas requieren publicación consistente (diaria para TikTok/YouTube Shorts, varias veces por semana para YouTube), expectativas de audiencia de calidad/autenticidad, gestión de relaciones parasociales y presiones financieras crean cargas de trabajo insostenibles. Casos de alto perfil incluyen el video de colapso de Elle Mills en 2018, la salida de Jenna Marbles en 2020 y la salida de Bobby Burns. El burnout destaca lados oscuros de economías de creadores: falta de protecciones laborales tradicionales, cultura siempre activa, impactos en salud mental del escrutinio público y sistemas algorítmicos que optimizan para engagement sobre el bienestar del creador.",
-                  "de": "Creator-Burnout (oder Influencer-Burnout) bezieht sich auf physische, emotionale und kreative Erschöpfung durch unerbittliche Content-Produktionsanforderungen. Algorithmische Drücke erfordern konsistentes Posten (täglich für TikTok/YouTube Shorts, mehrmals wöchentlich für YouTube), Publikumserwartungen an Qualität/Authentizität, Verwaltung parasozialer Beziehungen und finanzieller Druck schaffen nicht nachhaltige Arbeitslasten. Hochkarätige Fälle umfassen Elle Mills' Breakdown-Video 2018, Jenna Marbles' Abschied 2020 und Bobby Burns' Ausstieg. Burnout hebt dunkle Seiten von Creator-Wirtschaften hervor: Mangel an traditionellen Beschäftigungsschutz, Immer-an-Kultur, mentale Gesundheitsauswirkungen öffentlicher Kontrolle und algorithmische Systeme, die für Engagement über Creator-Wohlbefinden optimieren.",
-                  "nl": "Creator burnout (of influencer burnout) verwijst naar fysieke, emotionele en creatieve uitputting door meedogenloze contentproductie-eisen. Algoritmische druk vereist consistent posten (dagelijks voor TikTok/YouTube Shorts, meerdere keren per week voor YouTube), publieksverwachtingen voor kwaliteit/authenticiteit, parasociaal relatiebeheer en financiële druk creëren onhoudbare werklasten. Spraakmakende gevallen omvatten Elle Mills' 2018 breakdown video, Jenna Marbles' 2020 vertrek en Bobby Burns' exit. Burnout benadrukt duistere kanten van creator-economieën: gebrek aan traditionele werknemersbescherming, always-on cultuur, mentale gezondheidsimpact van publieke controle, en algoritmische systemen die optimaliseren voor betrokkenheid boven creator welzijn."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the name of the analytics metric that tracks how long viewers watch before leaving, critical for YouTube's algorithm?",
-                  "es": "¿Cuál es el nombre de la métrica de análisis que rastrea cuánto tiempo los espectadores miran antes de irse, crítica para el algoritmo de YouTube?",
-                  "de": "Wie heißt die Analytik-Metrik, die verfolgt, wie lange Zuschauer ansehen, bevor sie gehen, entscheidend für YouTubes Algorithmus?",
-                  "nl": "Wat is de naam van de analytics statistiek die bijhoudt hoe lang kijkers kijken voordat ze weggaan, cruciaal voor YouTube's algoritme?"
-        },
-        options: [
-        {
-                  "en": "Engagement duration",
-                  "es": "Duración de engagement",
-                  "de": "Engagement-Dauer",
-                  "nl": "Betrokkenheidsduur"
-        },
-        {
-                  "en": "Session watch time",
-                  "es": "Tiempo de visualización de sesión",
-                  "de": "Sitzungs-Wiedergabezeit",
-                  "nl": "Sessie kijktijd"
-        },
-        {
-                  "en": "Watch completion rate",
-                  "es": "Tasa de finalización de visualización",
-                  "de": "Anzeige-Abschlussrate",
-                  "nl": "Kijk voltooiingspercentage"
-        },
-        {
-                  "en": "Average view duration / audience retention",
-                  "es": "Duración promedio de visualización / retención de audiencia",
-                  "de": "Durchschnittliche Wiedergabedauer / Zuschauerbindung",
-                  "nl": "Gemiddelde kijkduur / publieksbehoud"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Average view duration (AVD) and audience retention measure how long viewers watch before leaving—shown as percentage and absolute time. YouTube's algorithm heavily weighs retention; videos keeping viewers watching longer get promoted more. Retention graphs show exactly where viewers drop off, allowing creators to optimize pacing, hooks, and content structure. High retention (>50% for 10+ min videos) signals quality content. Creators obsess over retention: strong intros to hook viewers, mid-video callbacks, pattern interrupts, and pacing adjustments. AVD's algorithmic importance fundamentally shaped YouTube content—longer, retention-optimized videos over short clips, influencing the entire creator strategy landscape.",
-                  "es": "La duración promedio de visualización (AVD) y la retención de audiencia miden cuánto tiempo los espectadores miran antes de irse—mostrado como porcentaje y tiempo absoluto. El algoritmo de YouTube pondera fuertemente la retención; los videos que mantienen a los espectadores mirando más tiempo se promueven más. Los gráficos de retención muestran exactamente dónde los espectadores se van, permitiendo a los creadores optimizar el ritmo, ganchos y estructura del contenido. Alta retención (>50% para videos de 10+ min) señala contenido de calidad. Los creadores se obsesionan con la retención: intros fuertes para enganchar espectadores, callbacks a mitad de video, interrupciones de patrón y ajustes de ritmo. La importancia algorítmica de AVD moldeó fundamentalmente el contenido de YouTube—videos más largos optimizados para retención sobre clips cortos, influyendo en todo el panorama de estrategia de creadores.",
-                  "de": "Durchschnittliche Wiedergabedauer (AVD) und Zuschauerbindung messen, wie lange Zuschauer ansehen, bevor sie gehen—gezeigt als Prozentsatz und absolute Zeit. YouTubes Algorithmus gewichtet Retention stark; Videos, die Zuschauer länger zum Ansehen bringen, werden mehr gefördert. Retention-Graphen zeigen genau, wo Zuschauer abspringen, was Creators erlaubt, Pacing, Hooks und Content-Struktur zu optimieren. Hohe Retention (>50% für 10+ min Videos) signalisiert Qualitäts-Content. Creators sind besessen von Retention: starke Intros zum Zuschauer-Fesseln, Mid-Video-Callbacks, Muster-Unterbrechungen und Pacing-Anpassungen. AVDs algorithmische Bedeutung formte YouTube-Content grundlegend—längere, retention-optimierte Videos über kurze Clips, was die gesamte Creator-Strategie-Landschaft beeinflusste.",
-                  "nl": "Gemiddelde kijkduur (AVD) en publieksbehoud meten hoe lang kijkers kijken voordat ze weggaan—weergegeven als percentage en absolute tijd. YouTube's algoritme weegt retentie zwaar; video's die kijkers langer kijken laten krijgen meer promotie. Retentie grafieken tonen precies waar kijkers afhaken, waardoor creators pacing, hooks en contentstructuur kunnen optimaliseren. Hoog retentie (>50% voor 10+ min video's) signaleert kwaliteitsinhoud. Creators zijn geobsedeerd door retentie: sterke intro's om kijkers te boeien, mid-video callbacks, patroon onderbrekingen en pacing aanpassingen. AVD's algoritmische belang vormde fundamenteel YouTube-inhoud—langere, retentie-geoptimaliseerde video's boven korte clips, wat het hele creator-strategielandschap beïnvloedde."
-        }
-      },
-      {
-        question: {
-                  "en": "Which practice involves creators accepting payment for product features without disclosing sponsorship, violating ad regulations?",
-                  "es": "¿Qué práctica involucra creadores aceptando pago por productos sin revelar patrocinio, violando regulaciones publicitarias?",
-                  "de": "Welche Praxis beinhaltet Creators Zahlung für Produktplatzierung akzeptieren ohne Sponsoring offenzulegen, Werbevorschriften verletzend?",
-                  "nl": "Welke praktijk omvat creators die betaling accepteren voor productplaatsing zonder sponsoring bekend te maken, advertentieregels schendend?"
-        },
-        options: [
-        {
-                  "en": "Undisclosed native advertising / covert endorsement",
-                  "es": "Publicidad nativa no revelada / endorso encubierto",
-                  "de": "Nicht offengelegte Native Advertising / verdeckte Befürwortung",
-                  "nl": "Niet-bekendgemaakte native advertising / heimelijke endorsement"
-        },
-        {
-                  "en": "Organic brand mention",
-                  "es": "Mención de marca orgánica",
-                  "de": "Organische Markenerwähnung",
-                  "nl": "Organische merkvermelding"
-        },
-        {
-                  "en": "Product integration",
-                  "es": "Integración de producto",
-                  "de": "Produkt-Integration",
-                  "nl": "Product integratie"
-        },
-        {
-                  "en": "Embedded marketing",
-                  "es": "Marketing embebido",
-                  "de": "Eingebettetes Marketing",
-                  "nl": "Ingebedde marketing"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Undisclosed native advertising (or covert endorsements) occurs when creators promote products for payment without clear disclosure, blending ads with organic content to deceive audiences. This violates FTC guidelines requiring 'clear and conspicuous' disclosures. Examples include seamlessly mentioning products without #ad tags, verbal-only disclosures (must be written), or burying disclosures in descriptions. The FTC has issued warnings and fines to brands and creators, including Lord & Taylor ($11,000, 2016), CSGO Lotto gambling scandal, and TikTok influencers promoting unregulated financial products. This practice erodes audience trust, exploits parasocial relationships, and raises ethical questions about authenticity versus commercial interests in creator content.",
-                  "es": "La publicidad nativa no revelada (o endorsos encubiertos) ocurre cuando los creadores promueven productos por pago sin revelación clara, mezclando anuncios con contenido orgánico para engañar a las audiencias. Esto viola las directrices de la FTC que requieren revelaciones 'claras y conspicuas'. Ejemplos incluyen mencionar productos sin problemas sin etiquetas #ad, revelaciones solo verbales (deben ser escritas), o enterrar revelaciones en descripciones. La FTC ha emitido advertencias y multas a marcas y creadores, incluyendo Lord & Taylor ($11,000, 2016), el escándalo de apuestas de CSGO Lotto e influencers de TikTok promoviendo productos financieros no regulados. Esta práctica erosiona la confianza de la audiencia, explota relaciones parasociales y plantea preguntas éticas sobre autenticidad versus intereses comerciales en contenido de creadores.",
-                  "de": "Nicht offengelegte Native Advertising (oder verdeckte Befürwortungen) tritt auf, wenn Creators Produkte gegen Bezahlung bewerben, ohne klare Offenlegung, und Anzeigen mit organischem Inhalt vermischen, um Publikum zu täuschen. Dies verletzt FTC-Richtlinien, die 'klare und auffällige' Offenlegungen erfordern. Beispiele umfassen nahtlose Produkterwähnungen ohne #ad-Tags, nur verbale Offenlegungen (müssen schriftlich sein) oder Vergraben von Offenlegungen in Beschreibungen. Die FTC hat Warnungen und Geldstrafen an Marken und Creators ausgesprochen, einschließlich Lord & Taylor ($11.000, 2016), CSGO Lotto Glücksspiel-Skandal und TikTok-Influencer, die unregulierte Finanzprodukte bewerben. Diese Praxis untergräbt Publikumsvertrauen, nutzt parasoziale Beziehungen aus und wirft ethische Fragen über Authentizität versus kommerzielle Interessen in Creator-Content auf.",
-                  "nl": "Niet-bekendgemaakte native advertising (of heimelijke endorsements) vindt plaats wanneer creators producten promoten voor betaling zonder duidelijke bekendmaking, waarbij advertenties met organische inhoud worden vermengd om publiek te misleiden. Dit schendt FTC-richtlijnen die 'duidelijke en opvallende' openbaarmakingen vereisen. Voorbeelden zijn naadloos producten vermelden zonder #ad tags, alleen verbale openbaarmakingen (moeten geschreven zijn), of openbaarmakingen begraven in beschrijvingen. De FTC heeft waarschuwingen en boetes uitgevaardigd aan merken en creators, waaronder Lord & Taylor ($11.000, 2016), CSGO Lotto gokschandaal en TikTok influencers die ongereguleerde financiële producten promoten. Deze praktijk ondermijnt publieksvertrouwen, misbruikt parasociale relaties en roept ethische vragen op over authenticiteit versus commerciële belangen in creator-inhoud."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the term for when social media platforms prioritize content from accounts users interact with most, reducing reach for others?",
-                  "es": "¿Cuál es el término para cuando las plataformas de redes sociales priorizan contenido de cuentas con las que los usuarios interactúan más, reduciendo el alcance para otros?",
-                  "de": "Was ist der Begriff dafür, wenn Social-Media-Plattformen Inhalte von Accounts priorisieren, mit denen Nutzer am meisten interagieren, wodurch die Reichweite für andere reduziert wird?",
-                  "nl": "Wat is de term voor wanneer sociale mediaplatforms inhoud prioriteren van accounts waarmee gebruikers het meest interacteren, waardoor bereik voor anderen wordt verminderd?"
-        },
-        options: [
-        {
-                  "en": "Personalized curation",
-                  "es": "Curación personalizada",
-                  "de": "Personalisierte Kuratierung",
-                  "nl": "Gepersonaliseerde curatie"
-        },
-        {
-                  "en": "Social graph weighting",
-                  "es": "Ponderación de grafo social",
-                  "de": "Social-Graph-Gewichtung",
-                  "nl": "Sociale grafiek weging"
-        },
-        {
-                  "en": "Engagement prioritization",
-                  "es": "Priorización de engagement",
-                  "de": "Engagement-Priorisierung",
-                  "nl": "Betrokkenheid prioritering"
-        },
-        {
-                  "en": "Algorithmic filtering / interest-based ranking",
-                  "es": "Filtrado algorítmico / clasificación basada en interés",
-                  "de": "Algorithmisches Filtern / Interessenbasiertes Ranking",
-                  "nl": "Algoritmische filtering / interesse-gebaseerde rangschikking"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Algorithmic filtering (or interest-based ranking) uses machine learning to predict what content users want to see based on past behavior—likes, comments, shares, watch time. Platforms like Instagram, Facebook, TikTok, and Twitter/X rank feeds by predicted engagement rather than chronology. This creates 'filter bubbles' where users see content similar to previous interactions, reducing exposure to diverse viewpoints and accounts they follow but don't frequently engage with. Critics argue this harms smaller creators, reduces organic reach, and creates echo chambers. The shift from chronological to algorithmic feeds fundamentally changed social media from egalitarian broadcasting to engagement-optimized, personalized content delivery.",
-                  "es": "El filtrado algorítmico (o clasificación basada en interés) usa machine learning para predecir qué contenido los usuarios quieren ver basándose en comportamiento pasado—likes, comentarios, compartidos, tiempo de visualización. Plataformas como Instagram, Facebook, TikTok y Twitter/X clasifican feeds por engagement predicho en lugar de cronología. Esto crea 'burbujas de filtro' donde los usuarios ven contenido similar a interacciones previas, reduciendo la exposición a puntos de vista diversos y cuentas que siguen pero no interactúan frecuentemente. Los críticos argumentan que esto daña a creadores más pequeños, reduce el alcance orgánico y crea cámaras de eco. El cambio de feeds cronológicos a algorítmicos cambió fundamentalmente las redes sociales de difusión igualitaria a entrega de contenido personalizada optimizada para engagement.",
-                  "de": "Algorithmisches Filtern (oder interessenbasiertes Ranking) verwendet Machine Learning, um vorherzusagen, welchen Inhalt Nutzer sehen möchten, basierend auf vergangenem Verhalten—Likes, Kommentare, Shares, Wiedergabezeit. Plattformen wie Instagram, Facebook, TikTok und Twitter/X ranken Feeds nach vorhergesagtem Engagement statt Chronologie. Dies schafft 'Filterblasen', wo Nutzer Inhalt ähnlich früheren Interaktionen sehen, was die Exposition gegenüber diversen Standpunkten und Accounts reduziert, denen sie folgen, aber nicht häufig engagieren. Kritiker argumentieren, dies schadet kleineren Creators, reduziert organische Reichweite und schafft Echokammern. Die Verschiebung von chronologischen zu algorithmischen Feeds veränderte Social Media grundlegend von egalitärer Übertragung zu engagement-optimierter, personalisierter Content-Zustellung.",
-                  "nl": "Algoritmische filtering (of interesse-gebaseerde rangschikking) gebruikt machine learning om te voorspellen welke inhoud gebruikers willen zien op basis van verleden gedrag—likes, reacties, shares, kijktijd. Platforms zoals Instagram, Facebook, TikTok en Twitter/X rangschikken feeds op voorspelde betrokkenheid in plaats van chronologie. Dit creëert 'filterbubbels' waar gebruikers inhoud zien vergelijkbaar met eerdere interacties, wat blootstelling aan diverse standpunten en accounts die ze volgen maar niet frequent mee engagen vermindert. Critici beweren dat dit kleinere creators schaadt, organisch bereik vermindert en echokamers creëert. De verschuiving van chronologische naar algoritmische feeds veranderde sociale media fundamenteel van egalitaire uitzending naar betrokkenheid-geoptimaliseerde, gepersonaliseerde contentlevering."
-        }
-      },
-      {
-        question: {
-                  "en": "Which metric gaming technique involves creators asking viewers to comment specific words or emojis to artificially boost engagement signals?",
-                  "es": "¿Qué técnica de manipulación de métricas involucra a creadores pidiendo a los espectadores comentar palabras o emojis específicos para aumentar artificialmente las señales de engagement?",
-                  "de": "Welche Metriken-Gaming-Technik beinhaltet, dass Creators Zuschauer bitten, bestimmte Wörter oder Emojis zu kommentieren, um Engagement-Signale künstlich zu steigern?",
-                  "nl": "Welke statistieken manipulatietechniek omvat creators die kijkers vragen om specifieke woorden of emoji's te reageren om betrokkenheidssignalen kunstmatig te verhogen?"
-        },
-        options: [
-        {
-                  "en": "Response prompting",
-                  "es": "Provocación de respuesta",
-                  "de": "Antwort-Provokation",
-                  "nl": "Reactie uitlokken"
-        },
-        {
-                  "en": "Interaction farming",
-                  "es": "Cultivo de interacción",
-                  "de": "Interaktions-Farming",
-                  "nl": "Interactie oogsten"
-        },
-        {
-                  "en": "Comment harvesting",
-                  "es": "Cosecha de comentarios",
-                  "de": "Kommentar-Ernte",
-                  "nl": "Reactie verzamelen"
-        },
-        {
-                  "en": "Engagement baiting / comment baiting",
-                  "es": "Cebo de engagement / cebo de comentarios",
-                  "de": "Engagement-Baiting / Kommentar-Baiting",
-                  "nl": "Betrokkenheid lokken / reactie lokken"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Engagement baiting (or comment baiting) involves artificially inflating engagement by asking viewers to comment specific words, vote in comments, tag friends, or react with emojis—often unrelated to content value. Examples: 'Comment your favorite color!', 'Tag 3 friends who need this!', 'Type AMEN to agree!'. While technically generating engagement, it's often low-quality interaction. Platforms like Facebook and Instagram have explicitly banned engagement bait, demoting content using these tactics. TikTok's algorithm can detect and penalize it. This practice reflects tension between creators gaming metrics and platforms enforcing authentic engagement—highlighting how algorithmic incentives can encourage manipulative tactics over genuine community building.",
-                  "es": "El cebo de engagement (o cebo de comentarios) involucra inflar artificialmente el engagement pidiendo a los espectadores comentar palabras específicas, votar en comentarios, etiquetar amigos o reaccionar con emojis—a menudo no relacionados con el valor del contenido. Ejemplos: '¡Comenta tu color favorito!', '¡Etiqueta 3 amigos que necesitan esto!', '¡Escribe AMÉN para estar de acuerdo!'. Aunque técnicamente genera engagement, es a menudo interacción de baja calidad. Plataformas como Facebook e Instagram han prohibido explícitamente el cebo de engagement, degradando contenido usando estas tácticas. El algoritmo de TikTok puede detectarlo y penalizarlo. Esta práctica refleja la tensión entre creadores manipulando métricas y plataformas haciendo cumplir engagement auténtico—destacando cómo los incentivos algorítmicos pueden alentar tácticas manipuladoras sobre construcción genuina de comunidad.",
-                  "de": "Engagement-Baiting (oder Kommentar-Baiting) beinhaltet künstliches Aufblasen von Engagement, indem Zuschauer gebeten werden, bestimmte Wörter zu kommentieren, in Kommentaren abzustimmen, Freunde zu taggen oder mit Emojis zu reagieren—oft unabhängig vom Content-Wert. Beispiele: 'Kommentiere deine Lieblingsfarbe!', 'Tagge 3 Freunde, die das brauchen!', 'Tippe AMEN, um zuzustimmen!'. Obwohl technisch Engagement generierend, ist es oft niedrige Qualitäts-Interaktion. Plattformen wie Facebook und Instagram haben Engagement-Bait explizit verboten und demotieren Content, der diese Taktiken verwendet. TikToks Algorithmus kann es erkennen und bestrafen. Diese Praxis reflektiert Spannung zwischen Creators, die Metriken gamen, und Plattformen, die authentisches Engagement durchsetzen—und hebt hervor, wie algorithmische Anreize manipulative Taktiken über echten Community-Aufbau fördern können.",
-                  "nl": "Betrokkenheid lokken (of reactie lokken) omvat kunstmatig verhogen van betrokkenheid door kijkers te vragen om specifieke woorden te reageren, in reacties te stemmen, vrienden te taggen of met emoji's te reageren—vaak niet gerelateerd aan inhoudwaarde. Voorbeelden: 'Reageer met je favoriete kleur!', 'Tag 3 vrienden die dit nodig hebben!', 'Typ AMEN om het eens te zijn!'. Hoewel technisch betrokkenheid genererend, is het vaak lage kwaliteit interactie. Platforms zoals Facebook en Instagram hebben betrokkenheid lokken expliciet verboden, waarbij inhoud die deze tactieken gebruikt wordt gedemoteerd. TikTok's algoritme kan het detecteren en straffen. Deze praktijk weerspiegelt spanning tussen creators die statistieken manipuleren en platforms die authentieke betrokkenheid afdwingen—wat benadrukt hoe algoritmische prikkels manipulatieve tactieken boven oprechte community-opbouw kunnen aanmoedigen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the industry term for the strategy of repurposing a single piece of content across multiple platforms to maximize reach?",
-                  "es": "¿Cuál es el término de la industria para la estrategia de reutilizar una sola pieza de contenido en múltiples plataformas para maximizar el alcance?",
-                  "de": "Was ist der Branchenbegriff für die Strategie, ein einzelnes Content-Stück über mehrere Plattformen hinweg neu zu verwenden, um die Reichweite zu maximieren?",
-                  "nl": "Wat is de industrie term voor de strategie om een enkel stuk inhoud opnieuw te gebruiken op meerdere platforms om bereik te maximaliseren?"
-        },
-        options: [
-        {
-                  "en": "Cross-posting / multi-platform distribution",
-                  "es": "Publicación cruzada / distribución multiplataforma",
-                  "de": "Cross-Posting / Multi-Plattform-Verteilung",
-                  "nl": "Cross-posting / multi-platform distributie"
-        },
-        {
-                  "en": "Content syndication",
-                  "es": "Sindicación de contenido",
-                  "de": "Content-Syndikation",
-                  "nl": "Content syndicatie"
-        },
-        {
-                  "en": "Omnichannel content strategy",
-                  "es": "Estrategia de contenido omnicanal",
-                  "de": "Omnichannel-Content-Strategie",
-                  "nl": "Omnichannel content strategie"
-        },
-        {
-                  "en": "Platform agnostic publishing",
-                  "es": "Publicación agnóstica de plataforma",
-                  "de": "Plattform-agnostisches Publishing",
-                  "nl": "Platform agnostisch publiceren"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Cross-posting (or multi-platform distribution) involves sharing the same or adapted content across YouTube, TikTok, Instagram, Twitter/X, etc. to maximize exposure and audience reach. Strategies range from identical reposts to platform-optimized versions (vertical for TikTok/Reels, horizontal for YouTube). Benefits include efficiency and audience diversification; drawbacks include platform algorithms penalizing non-native content and audience fragmentation. Tools like Hootsuite, Buffer, and Repurpose.io automate cross-posting. Advanced creators tailor content per platform while maintaining consistent branding. This strategy reflects the multi-platform creator economy where success requires presence across ecosystems, balancing efficiency with platform-specific optimization.",
-                  "es": "La publicación cruzada (o distribución multiplataforma) involucra compartir el mismo contenido o adaptado en YouTube, TikTok, Instagram, Twitter/X, etc. para maximizar la exposición y el alcance de la audiencia. Las estrategias van desde reposts idénticos hasta versiones optimizadas por plataforma (vertical para TikTok/Reels, horizontal para YouTube). Los beneficios incluyen eficiencia y diversificación de audiencia; las desventajas incluyen algoritmos de plataforma penalizando contenido no nativo y fragmentación de audiencia. Herramientas como Hootsuite, Buffer y Repurpose.io automatizan la publicación cruzada. Los creadores avanzados adaptan contenido por plataforma mientras mantienen branding consistente. Esta estrategia refleja la economía de creadores multiplataforma donde el éxito requiere presencia en ecosistemas, equilibrando eficiencia con optimización específica de plataforma.",
-                  "de": "Cross-Posting (oder Multi-Plattform-Verteilung) beinhaltet das Teilen desselben oder angepassten Contents über YouTube, TikTok, Instagram, Twitter/X usw., um Exposition und Publikumsreichweite zu maximieren. Strategien reichen von identischen Reposts bis zu plattform-optimierten Versionen (vertikal für TikTok/Reels, horizontal für YouTube). Vorteile umfassen Effizienz und Publikumsdiversifizierung; Nachteile umfassen Plattform-Algorithmen, die nicht-nativen Content bestrafen, und Publikums-Fragmentierung. Tools wie Hootsuite, Buffer und Repurpose.io automatisieren Cross-Posting. Fortgeschrittene Creators passen Content pro Plattform an, während sie konsistentes Branding beibehalten. Diese Strategie reflektiert die Multi-Plattform-Creator-Wirtschaft, wo Erfolg Präsenz über Ökosysteme hinweg erfordert und Effizienz mit plattform-spezifischer Optimierung ausbalanciert.",
-                  "nl": "Cross-posting (of multi-platform distributie) omvat het delen van dezelfde of aangepaste inhoud op YouTube, TikTok, Instagram, Twitter/X, enz. om blootstelling en publieksbereik te maximaliseren. Strategieën variëren van identieke reposts tot platform-geoptimaliseerde versies (verticaal voor TikTok/Reels, horizontaal voor YouTube). Voordelen omvatten efficiëntie en publieksdiversificatie; nadelen omvatten platformalgoritmes die niet-native inhoud straffen en publieksfragmentatie. Tools zoals Hootsuite, Buffer en Repurpose.io automatiseren cross-posting. Geavanceerde creators passen inhoud per platform aan terwijl ze consistente branding behouden. Deze strategie weerspiegelt de multi-platform creator-economie waar succes aanwezigheid op ecosystemen vereist, waarbij efficiëntie wordt gebalanceerd met platform-specifieke optimalisatie."
-        }
-      },
-      {
-        question: {
-                  "en": "Which platform policy enforcement approach involves gradually reducing reach rather than immediate suspension, often called 'throttling'?",
-                  "es": "¿Qué enfoque de aplicación de políticas de plataforma involucra reducir gradualmente el alcance en lugar de suspensión inmediata, a menudo llamado 'throttling'?",
-                  "de": "Welcher Plattform-Policy-Durchsetzungsansatz beinhaltet schrittweise Reichweitenreduzierung statt sofortiger Sperrung, oft 'Throttling' genannt?",
-                  "nl": "Welke platform beleidshandhavingsaanpak omvat geleidelijk bereik verminderen in plaats van onmiddellijke opschorting, vaak 'throttling' genoemd?"
-        },
-        options: [
-        {
-                  "en": "Soft moderation / graduated enforcement",
-                  "es": "Moderación suave / aplicación graduada",
-                  "de": "Weiche Moderation / abgestufte Durchsetzung",
-                  "nl": "Zachte moderatie / geleidelijke handhaving"
-        },
-        {
-                  "en": "Incremental restriction",
-                  "es": "Restricción incremental",
-                  "de": "Inkrementelle Restriktion",
-                  "nl": "Incrementele beperking"
-        },
-        {
-                  "en": "Progressive penalty system",
-                  "es": "Sistema de penalización progresiva",
-                  "de": "Progressives Strafsystem",
-                  "nl": "Progressief strafpuntsysteem"
-        },
-        {
-                  "en": "Calibrated response protocol",
-                  "es": "Protocolo de respuesta calibrada",
-                  "de": "Kalibriertes Antwort-Protokoll",
-                  "nl": "Gekalibreerd reactieprotocol"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Soft moderation (or graduated enforcement) involves platforms progressively limiting content reach for policy violations rather than immediate removal or bans—reducing impressions, demoting in feeds, or restricting features while keeping content visible. This contrasts with 'hard moderation' (instant removal/suspension). Instagram and Facebook use this for borderline content; TikTok throttles videos that violate guidelines but don't warrant removal. Benefits include proportional responses and fewer appeals; criticisms include lack of transparency (creators don't know they're throttled) and inconsistent application. This approach reflects platforms balancing free expression, advertiser concerns, and moderation scalability—though often criticized as opaque and arbitrary.",
-                  "es": "La moderación suave (o aplicación graduada) involucra plataformas limitando progresivamente el alcance del contenido por violaciones de políticas en lugar de eliminación o prohibiciones inmediatas—reduciendo impresiones, degradando en feeds o restringiendo funciones mientras mantienen el contenido visible. Esto contrasta con 'moderación dura' (eliminación/suspensión instantánea). Instagram y Facebook usan esto para contenido límite; TikTok estrangula videos que violan directrices pero no justifican eliminación. Los beneficios incluyen respuestas proporcionales y menos apelaciones; las críticas incluyen falta de transparencia (los creadores no saben que están estrangulados) y aplicación inconsistente. Este enfoque refleja plataformas equilibrando expresión libre, preocupaciones de anunciantes y escalabilidad de moderación—aunque a menudo criticado como opaco y arbitrario.",
-                  "de": "Weiche Moderation (oder abgestufte Durchsetzung) beinhaltet, dass Plattformen die Content-Reichweite für Policy-Verstöße schrittweise einschränken, statt sofortiger Entfernung oder Sperren—Reduzierung von Impressionen, Degradierung in Feeds oder Einschränkung von Features, während Content sichtbar bleibt. Dies kontrastiert mit 'harter Moderation' (sofortige Entfernung/Sperrung). Instagram und Facebook verwenden dies für grenzwertige Inhalte; TikTok drosselt Videos, die Richtlinien verletzen, aber keine Entfernung rechtfertigen. Vorteile umfassen proportionale Antworten und weniger Appeals; Kritiken umfassen mangelnde Transparenz (Creators wissen nicht, dass sie gedrosselt werden) und inkonsistente Anwendung. Dieser Ansatz reflektiert Plattformen, die freie Meinungsäußerung, Werbetreibenden-Bedenken und Moderations-Skalierbarkeit ausbalancieren—obwohl oft als undurchsichtig und willkürlich kritisiert.",
-                  "nl": "Zachte moderatie (of geleidelijke handhaving) omvat platforms die geleidelijk inhoudsbereik beperken voor beleidsovertredingen in plaats van onmiddellijke verwijdering of verbanning—vermindering van impressies, degradatie in feeds of beperking van functies terwijl inhoud zichtbaar blijft. Dit contrasteert met 'harde moderatie' (onmiddellijke verwijdering/opschorting). Instagram en Facebook gebruiken dit voor grensgevallen inhoud; TikTok beperkt video's die richtlijnen schenden maar geen verwijdering rechtvaardigen. Voordelen omvatten proportionele reacties en minder beroepen; kritiek omvat gebrek aan transparantie (creators weten niet dat ze worden beperkt) en inconsistente toepassing. Deze aanpak weerspiegelt platforms die vrije meningsuiting, adverteerderszorgen en moderatieschaalbaarheid balanceren—hoewel vaak bekritiseerd als ondoorzichtig en willekeurig."
-        }
-      },
-      {
-        question: {
-                  "en": "What YouTube feature allows creators to test different thumbnails and titles on a portion of their audience before full rollout?",
-                  "es": "¿Qué función de YouTube permite a los creadores probar diferentes miniaturas y títulos en una porción de su audiencia antes del lanzamiento completo?",
-                  "de": "Welche YouTube-Funktion ermöglicht es Creators, verschiedene Thumbnails und Titel an einem Teil ihres Publikums zu testen, bevor sie vollständig ausgerollt werden?",
-                  "nl": "Welke YouTube-functie stelt creators in staat om verschillende thumbnails en titels te testen op een deel van hun publiek voor volledige uitrol?"
-        },
-        options: [
-        {
-                  "en": "Multivariate thumbnail optimizer",
-                  "es": "Optimizador de miniatura multivariado",
-                  "de": "Multivariater Thumbnail-Optimierer",
-                  "nl": "Multivariate thumbnail optimizer"
-        },
-        {
-                  "en": "Dynamic metadata testing",
-                  "es": "Pruebas de metadatos dinámicos",
-                  "de": "Dynamisches Metadaten-Testing",
-                  "nl": "Dynamische metadata testen"
-        },
-        {
-                  "en": "Split test analytics",
-                  "es": "Análisis de pruebas divididas",
-                  "de": "Split-Test-Analytik",
-                  "nl": "Split test analyse"
-        },
-        {
-                  "en": "A/B testing / Thumbnail testing (YouTube's native feature)",
-                  "es": "Pruebas A/B / Pruebas de miniatura (función nativa de YouTube)",
-                  "de": "A/B-Testing / Thumbnail-Testing (YouTubes native Funktion)",
-                  "nl": "A/B-testen / Thumbnail testen (YouTube's eigen functie)"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "YouTube introduced native A/B testing for thumbnails and titles in 2023, allowing creators to test up to 3 variations with automatic traffic splitting. The platform measures which performs best by CTR and watch time, then automatically applies the winner. Previously, creators manually tested by changing thumbnails post-upload and comparing analytics—imprecise and time-consuming. A/B testing is crucial for optimization: even small CTR improvements (8% to 10%) dramatically increase views due to algorithmic amplification. This feature exemplifies platforms providing creator tools that align with algorithmic success—helping creators optimize for the same metrics platforms use for recommendations.",
-                  "es": "YouTube introdujo pruebas A/B nativas para miniaturas y títulos en 2023, permitiendo a los creadores probar hasta 3 variaciones con división automática de tráfico. La plataforma mide cuál funciona mejor por CTR y tiempo de visualización, luego aplica automáticamente el ganador. Anteriormente, los creadores probaban manualmente cambiando miniaturas después de subir y comparando analíticas—impreciso y que consume tiempo. Las pruebas A/B son cruciales para la optimización: incluso pequeñas mejoras de CTR (8% a 10%) aumentan dramáticamente las vistas debido a la amplificación algorítmica. Esta función ejemplifica plataformas proporcionando herramientas de creador que se alinean con el éxito algorítmico—ayudando a los creadores a optimizar para las mismas métricas que las plataformas usan para recomendaciones.",
-                  "de": "YouTube führte 2023 natives A/B-Testing für Thumbnails und Titel ein, das Creators ermöglicht, bis zu 3 Variationen mit automatischer Traffic-Aufteilung zu testen. Die Plattform misst, welche am besten nach CTR und Wiedergabezeit performt, wendet dann automatisch den Gewinner an. Zuvor testeten Creators manuell, indem sie Thumbnails nach dem Upload änderten und Analytik verglichen—unpräzise und zeitaufwändig. A/B-Testing ist entscheidend für Optimierung: selbst kleine CTR-Verbesserungen (8% zu 10%) erhöhen Views dramatisch aufgrund algorithmischer Verstärkung. Diese Funktion veranschaulicht Plattformen, die Creator-Tools bereitstellen, die mit algorithmischem Erfolg übereinstimmen—und Creators helfen, für dieselben Metriken zu optimieren, die Plattformen für Empfehlungen verwenden.",
-                  "nl": "YouTube introduceerde native A/B-testen voor thumbnails en titels in 2023, waardoor creators tot 3 variaties kunnen testen met automatische verkeersverdeling. Het platform meet welke het beste presteert op CTR en kijktijd, en past vervolgens automatisch de winnaar toe. Eerder testten creators handmatig door thumbnails na upload te wijzigen en analytics te vergelijken—onnauwkeurig en tijdrovend. A/B-testen is cruciaal voor optimalisatie: zelfs kleine CTR-verbeteringen (8% naar 10%) verhogen views dramatisch vanwege algoritmische versterking. Deze functie illustreert platforms die creator-tools bieden die aansluiten bij algoritmisch succes—waarbij creators worden geholpen te optimaliseren voor dezelfde statistieken die platforms gebruiken voor aanbevelingen."
-        }
-      },
-      {
-        question: {
-                  "en": "Which psychological phenomenon describes viewers feeling personal connections to creators despite one-sided interactions, influencing purchasing decisions?",
-                  "es": "¿Qué fenómeno psicológico describe a los espectadores sintiendo conexiones personales con los creadores a pesar de interacciones unilaterales, influyendo en decisiones de compra?",
-                  "de": "Welches psychologische Phänomen beschreibt, dass Zuschauer persönliche Verbindungen zu Creators fühlen trotz einseitiger Interaktionen, was Kaufentscheidungen beeinflusst?",
-                  "nl": "Welk psychologisch fenomeen beschrijft kijkers die persoonlijke connecties voelen met creators ondanks eenzijdige interacties, wat aankoopbeslissingen beïnvloedt?"
-        },
-        options: [
-        {
-                  "en": "Mediated bonding effect",
-                  "es": "Efecto de vinculación mediado",
-                  "de": "Vermittelter Bindungseffekt",
-                  "nl": "Gemedieerd bindingseffect"
-        },
-        {
-                  "en": "Parasocial relationships / parasocial interaction",
-                  "es": "Relaciones parasociales / interacción parasocial",
-                  "de": "Parasoziale Beziehungen / parasoziale Interaktion",
-                  "nl": "Parasociale relaties / parasociale interactie"
-        },
-        {
-                  "en": "Digital intimacy syndrome",
-                  "es": "Síndrome de intimidad digital",
-                  "de": "Digitales Intimitätssyndrom",
-                  "nl": "Digitaal intimiteit syndroom"
-        },
-        {
-                  "en": "Virtual friendship phenomenon",
-                  "es": "Fenómeno de amistad virtual",
-                  "de": "Virtuelle Freundschaftsphänomen",
-                  "nl": "Virtueel vriendschap fenomeen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Parasocial relationships (coined by Horton & Wohl, 1956) describe one-sided emotional connections where audiences feel they know media personalities personally, despite no reciprocal relationship. Social media intensifies this: creators share daily lives, use direct address ('you guys'), and create intimacy through authenticity performance. This drives influencer marketing effectiveness—followers trust recommendations as from friends, not ads. Dark sides include audience possessiveness, creator emotional labor managing expectations, boundary violations, and manipulation potential. Parasocial bonds fundamentally power creator economies but raise ethical questions about exploiting emotional investment for commercial gain.",
-                  "es": "Las relaciones parasociales (acuñado por Horton & Wohl, 1956) describen conexiones emocionales unilaterales donde las audiencias sienten que conocen personalmente a personalidades de medios, a pesar de no haber relación recíproca. Las redes sociales intensifican esto: los creadores comparten vidas diarias, usan dirección directa ('ustedes') y crean intimidad a través de performance de autenticidad. Esto impulsa la efectividad del marketing de influencers—los seguidores confían en recomendaciones como de amigos, no anuncios. Los lados oscuros incluyen posesividad de audiencia, trabajo emocional del creador gestionando expectativas, violaciones de límites y potencial de manipulación. Los vínculos parasociales fundamentalmente alimentan economías de creadores pero plantean preguntas éticas sobre explotar inversión emocional para ganancia comercial.",
-                  "de": "Parasoziale Beziehungen (geprägt von Horton & Wohl, 1956) beschreiben einseitige emotionale Verbindungen, bei denen Publikum fühlt, Medienpersönlichkeiten persönlich zu kennen, trotz fehlender wechselseitiger Beziehung. Social Media intensiviert dies: Creators teilen tägliches Leben, verwenden direkte Ansprache ('ihr Leute') und schaffen Intimität durch Authentizitäts-Performance. Dies treibt Influencer-Marketing-Effektivität—Follower vertrauen Empfehlungen wie von Freunden, nicht Anzeigen. Dunkle Seiten umfassen Publikums-Besitzdenken, Creator-Emotionsarbeit bei Erwartungsmanagement, Grenzüberschreitungen und Manipulationspotenzial. Parasoziale Bindungen treiben Creator-Wirtschaften grundlegend an, werfen aber ethische Fragen über Ausbeutung emotionaler Investition für kommerziellen Gewinn auf.",
-                  "nl": "Parasociale relaties (gemunt door Horton & Wohl, 1956) beschrijven eenzijdige emotionele connecties waar publiek voelt dat ze mediapersoonlijkheden persoonlijk kennen, ondanks geen wederkerige relatie. Sociale media intensiveert dit: creators delen dagelijks leven, gebruiken directe aanspraak ('jullie'), en creëren intimiteit door authenticiteit performance. Dit drijft influencer marketing effectiviteit—volgers vertrouwen aanbevelingen als van vrienden, niet advertenties. Duistere kanten omvatten publieksbezitterigheid, creator emotionele arbeid bij verwachtingsmanagement, grensschendingen en manipulatiepotentieel. Parasociale banden voeden fundamenteel creator-economieën maar roepen ethische vragen op over het exploiteren van emotionele investering voor commercieel gewin."
-        }
-      ,
-      {
-        question: {
-                  "en": "When was this social media influencer born?",
-                  "es": "When was este/a social media influencer born?",
-                  "de": "When was diese(r) social media influencer born?",
-                  "nl": "When was deze social media influencer born?"
-        },
-        options: [
-          {
-                    "en": "Correct year",
-                    "es": "Correct year",
-                    "de": "Correct year",
-                    "nl": "Correct year"
-          },
-          {
-                    "en": "5 years earlier",
-                    "es": "5 years earlier",
-                    "de": "5 years earlier",
-                    "nl": "5 years earlier"
-          },
-          {
-                    "en": "5 years later",
-                    "es": "5 years later",
-                    "de": "5 years later",
-                    "nl": "5 years later"
-          },
-          {
-                    "en": "10 years later",
-                    "es": "10 years later",
-                    "de": "10 years later",
-                    "nl": "10 years later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this social media influencer is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this social media influencer es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this social media influencer ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this social media influencer is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Where was this social media influencer born?",
-                  "es": "Where was este/a social media influencer born?",
-                  "de": "Where was diese(r) social media influencer born?",
-                  "nl": "Where was deze social media influencer born?"
-        },
-        options: [
-          {
-                    "en": "Correct location",
-                    "es": "Correct location",
-                    "de": "Correct location",
-                    "nl": "Correct location"
-          },
-          {
-                    "en": "Neighboring country",
-                    "es": "Neighboring country",
-                    "de": "Neighboring country",
-                    "nl": "Neighboring country"
-          },
-          {
-                    "en": "Different continent",
-                    "es": "Different continent",
-                    "de": "Different continent",
-                    "nl": "Different continent"
-          },
-          {
-                    "en": "Capital city",
-                    "es": "Capital city",
-                    "de": "Capital city",
-                    "nl": "Capital city"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this social media influencer is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this social media influencer es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this social media influencer ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this social media influencer is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What was this social media influencer's full name?",
-                  "es": "What was este/a social media influencer's full name?",
-                  "de": "What was diese(r) social media influencer's full name?",
-                  "nl": "What was deze social media influencer's full name?"
-        },
-        options: [
-          {
-                    "en": "Correct name",
-                    "es": "Correct name",
-                    "de": "Correct name",
-                    "nl": "Correct name"
-          },
-          {
-                    "en": "Similar name",
-                    "es": "Similar name",
-                    "de": "Similar name",
-                    "nl": "Similar name"
-          },
-          {
-                    "en": "Common name",
-                    "es": "Common name",
-                    "de": "Common name",
-                    "nl": "Common name"
-          },
-          {
-                    "en": "Stage name only",
-                    "es": "Stage name only",
-                    "de": "Stage name only",
-                    "nl": "Stage name only"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this social media influencer is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this social media influencer es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this social media influencer ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this social media influencer is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "When did this social media influencer pass away?",
-                  "es": "When did este/a social media influencer pass away?",
-                  "de": "When did diese(r) social media influencer pass away?",
-                  "nl": "When did deze social media influencer pass away?"
-        },
-        options: [
-          {
-                    "en": "Correct year",
-                    "es": "Correct year",
-                    "de": "Correct year",
-                    "nl": "Correct year"
-          },
-          {
-                    "en": "10 years earlier",
-                    "es": "10 years earlier",
-                    "de": "10 years earlier",
-                    "nl": "10 years earlier"
-          },
-          {
-                    "en": "10 years later",
-                    "es": "10 years later",
-                    "de": "10 years later",
-                    "nl": "10 years later"
-          },
-          {
-                    "en": "Still alive",
-                    "es": "Still alive",
-                    "de": "Still alive",
-                    "nl": "Still alive"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this social media influencer is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this social media influencer es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this social media influencer ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this social media influencer is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "How old was this social media influencer when they died?",
-                  "es": "How old was este/a social media influencer when they died?",
-                  "de": "How old was diese(r) social media influencer when they died?",
-                  "nl": "How old was deze social media influencer when they died?"
-        },
-        options: [
-          {
-                    "en": "Correct age",
-                    "es": "Correct age",
-                    "de": "Correct age",
-                    "nl": "Correct age"
-          },
-          {
-                    "en": "10 years younger",
-                    "es": "10 years younger",
-                    "de": "10 years younger",
-                    "nl": "10 years younger"
-          },
-          {
-                    "en": "10 years older",
-                    "es": "10 years older",
-                    "de": "10 years older",
-                    "nl": "10 years older"
-          },
-          {
-                    "en": "Different age",
-                    "es": "Different age",
-                    "de": "Different age",
-                    "nl": "Different age"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this social media influencer is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this social media influencer es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this social media influencer ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this social media influencer is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What was this social media influencer's nationality?",
-                  "es": "What was este/a social media influencer's nationality?",
-                  "de": "What was diese(r) social media influencer's nationality?",
-                  "nl": "What was deze social media influencer's nationality?"
-        },
-        options: [
-          {
-                    "en": "Correct nationality",
-                    "es": "Correct nationality",
-                    "de": "Correct nationality",
-                    "nl": "Correct nationality"
-          },
-          {
-                    "en": "Neighboring country",
-                    "es": "Neighboring country",
-                    "de": "Neighboring country",
-                    "nl": "Neighboring country"
-          },
-          {
-                    "en": "Colonial power",
-                    "es": "Colonial power",
-                    "de": "Colonial power",
-                    "nl": "Colonial power"
-          },
-          {
-                    "en": "Different continent",
-                    "es": "Different continent",
-                    "de": "Different continent",
-                    "nl": "Different continent"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this social media influencer is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this social media influencer es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this social media influencer ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this social media influencer is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What was this social media influencer's education?",
-                  "es": "What was este/a social media influencer's education?",
-                  "de": "What was diese(r) social media influencer's education?",
-                  "nl": "What was deze social media influencer's education?"
-        },
-        options: [
-          {
-                    "en": "Correct education",
-                    "es": "Correct education",
-                    "de": "Correct education",
-                    "nl": "Correct education"
-          },
-          {
-                    "en": "No formal education",
-                    "es": "No formal education",
-                    "de": "No formal education",
-                    "nl": "No formal education"
-          },
-          {
-                    "en": "Different field",
-                    "es": "Different field",
-                    "de": "Different field",
-                    "nl": "Different field"
-          },
-          {
-                    "en": "PhD only",
-                    "es": "PhD only",
-                    "de": "PhD only",
-                    "nl": "PhD only"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this social media influencer is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this social media influencer es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this social media influencer ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this social media influencer is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Who were this social media influencer's parents?",
-                  "es": "Who were este/a social media influencer's parents?",
-                  "de": "Who were diese(r) social media influencer's parents?",
-                  "nl": "Who were deze social media influencer's parents?"
-        },
-        options: [
-          {
-                    "en": "Correct parents",
-                    "es": "Correct parents",
-                    "de": "Correct parents",
-                    "nl": "Correct parents"
-          },
-          {
-                    "en": "Famous contemporaries",
-                    "es": "Famous contemporaries",
-                    "de": "Famous contemporaries",
-                    "nl": "Famous contemporaries"
-          },
-          {
-                    "en": "Unknown",
-                    "es": "Unknown",
-                    "de": "Unknown",
-                    "nl": "Unknown"
-          },
-          {
-                    "en": "Royalty",
-                    "es": "Royalty",
-                    "de": "Royalty",
-                    "nl": "Royalty"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this social media influencer is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this social media influencer es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this social media influencer ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this social media influencer is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What was this social media influencer's primary profession?",
-                  "es": "What was este/a social media influencer's primary profession?",
-                  "de": "What was diese(r) social media influencer's primary profession?",
-                  "nl": "What was deze social media influencer's primary profession?"
-        },
-        options: [
-          {
-                    "en": "Correct profession",
-                    "es": "Correct profession",
-                    "de": "Correct profession",
-                    "nl": "Correct profession"
-          },
-          {
-                    "en": "Related field",
-                    "es": "Related field",
-                    "de": "Related field",
-                    "nl": "Related field"
-          },
-          {
-                    "en": "Different field",
-                    "es": "Different field",
-                    "de": "Different field",
-                    "nl": "Different field"
-          },
-          {
-                    "en": "Multiple professions",
-                    "es": "Multiple professions",
-                    "de": "Multiple professions",
-                    "nl": "Multiple professions"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this social media influencer is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this social media influencer es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this social media influencer ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this social media influencer is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "When did this social media influencer start their career?",
-                  "es": "When did este/a social media influencer start their career?",
-                  "de": "When did diese(r) social media influencer start their career?",
-                  "nl": "When did deze social media influencer start their career?"
-        },
-        options: [
-          {
-                    "en": "Correct period",
-                    "es": "Correct period",
-                    "de": "Correct period",
-                    "nl": "Correct period"
-          },
-          {
-                    "en": "10 years earlier",
-                    "es": "10 years earlier",
-                    "de": "10 years earlier",
-                    "nl": "10 years earlier"
-          },
-          {
-                    "en": "10 years later",
-                    "es": "10 years later",
-                    "de": "10 years later",
-                    "nl": "10 years later"
-          },
-          {
-                    "en": "Child prodigy",
-                    "es": "Child prodigy",
-                    "de": "Child prodigy",
-                    "nl": "Child prodigy"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this social media influencer is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this social media influencer es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this social media influencer ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this social media influencer is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What was this social media influencer's breakthrough moment?",
-                  "es": "What was este/a social media influencer's breakthrough moment?",
-                  "de": "What was diese(r) social media influencer's breakthrough moment?",
-                  "nl": "What was deze social media influencer's breakthrough moment?"
-        },
-        options: [
-          {
-                    "en": "Correct achievement",
-                    "es": "Correct achievement",
-                    "de": "Correct achievement",
-                    "nl": "Correct achievement"
-          },
-          {
-                    "en": "Different achievement",
-                    "es": "Different achievement",
-                    "de": "Different achievement",
-                    "nl": "Different achievement"
-          },
-          {
-                    "en": "Later work",
-                    "es": "Later work",
-                    "de": "Later work",
-                    "nl": "Later work"
-          },
-          {
-                    "en": "First work",
-                    "es": "First work",
-                    "de": "First work",
-                    "nl": "First work"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this social media influencer is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this social media influencer es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this social media influencer ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this social media influencer is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Who was this social media influencer's mentor?",
-                  "es": "Who was este/a social media influencer's mentor?",
-                  "de": "Who was diese(r) social media influencer's mentor?",
-                  "nl": "Who was deze social media influencer's mentor?"
-        },
-        options: [
-          {
-                    "en": "Correct mentor",
-                    "es": "Correct mentor",
-                    "de": "Correct mentor",
-                    "nl": "Correct mentor"
-          },
-          {
-                    "en": "Contemporary",
-                    "es": "Contemporary",
-                    "de": "Contemporary",
-                    "nl": "Contemporary"
-          },
-          {
-                    "en": "Self-taught",
-                    "es": "Self-taught",
-                    "de": "Self-taught",
-                    "nl": "Self-taught"
-          },
-          {
-                    "en": "Family member",
-                    "es": "Family member",
-                    "de": "Family member",
-                    "nl": "Family member"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this social media influencer is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this social media influencer es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this social media influencer ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this social media influencer is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What organization did this social media influencer found?",
-                  "es": "What organization did este/a social media influencer found?",
-                  "de": "What organization did diese(r) social media influencer found?",
-                  "nl": "What organization did deze social media influencer found?"
-        },
-        options: [
-          {
-                    "en": "Correct organization",
-                    "es": "Correct organization",
-                    "de": "Correct organization",
-                    "nl": "Correct organization"
-          },
-          {
-                    "en": "Different group",
-                    "es": "Different group",
-                    "de": "Different group",
-                    "nl": "Different group"
-          },
-          {
-                    "en": "Nothing",
-                    "es": "Nothing",
-                    "de": "Nothing",
-                    "nl": "Nothing"
-          },
-          {
-                    "en": "Multiple organizations",
-                    "es": "Multiple organizations",
-                    "de": "Multiple organizations",
-                    "nl": "Multiple organizations"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this social media influencer is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this social media influencer es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this social media influencer ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this social media influencer is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What position did this social media influencer hold?",
-                  "es": "What position did este/a social media influencer hold?",
-                  "de": "What position did diese(r) social media influencer hold?",
-                  "nl": "What position did deze social media influencer hold?"
-        },
-        options: [
-          {
-                    "en": "Correct position",
-                    "es": "Correct position",
-                    "de": "Correct position",
-                    "nl": "Correct position"
-          },
-          {
-                    "en": "Lower position",
-                    "es": "Lower position",
-                    "de": "Lower position",
-                    "nl": "Lower position"
-          },
-          {
-                    "en": "Higher position",
-                    "es": "Higher position",
-                    "de": "Higher position",
-                    "nl": "Higher position"
-          },
-          {
-                    "en": "No position",
-                    "es": "No position",
-                    "de": "No position",
-                    "nl": "No position"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this social media influencer is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this social media influencer es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this social media influencer ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this social media influencer is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "How long was this social media influencer's career?",
-                  "es": "How long was este/a social media influencer's career?",
-                  "de": "How long was diese(r) social media influencer's career?",
-                  "nl": "How long was deze social media influencer's career?"
-        },
-        options: [
-          {
-                    "en": "Correct duration",
-                    "es": "Correct duration",
-                    "de": "Correct duration",
-                    "nl": "Correct duration"
-          },
-          {
-                    "en": "Half the time",
-                    "es": "Half the time",
-                    "de": "Half the time",
-                    "nl": "Half the time"
-          },
-          {
-                    "en": "Double the time",
-                    "es": "Double the time",
-                    "de": "Double the time",
-                    "nl": "Double the time"
-          },
-          {
-                    "en": "Entire life",
-                    "es": "Entire life",
-                    "de": "Entire life",
-                    "nl": "Entire life"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this social media influencer is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this social media influencer es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this social media influencer ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this social media influencer is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Where did this social media influencer work primarily?",
-                  "es": "Where did este/a social media influencer work primarily?",
-                  "de": "Where did diese(r) social media influencer work primarily?",
-                  "nl": "Where did deze social media influencer work primarily?"
-        },
-        options: [
-          {
-                    "en": "Correct location",
-                    "es": "Correct location",
-                    "de": "Correct location",
-                    "nl": "Correct location"
-          },
-          {
-                    "en": "Different city",
-                    "es": "Different city",
-                    "de": "Different city",
-                    "nl": "Different city"
-          },
-          {
-                    "en": "Multiple locations",
-                    "es": "Multiple locations",
-                    "de": "Multiple locations",
-                    "nl": "Multiple locations"
-          },
-          {
-                    "en": "Remote only",
-                    "es": "Remote only",
-                    "de": "Remote only",
-                    "nl": "Remote only"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this social media influencer is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this social media influencer es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this social media influencer ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this social media influencer is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What is this social media influencer best known for?",
-                  "es": "What is este/a social media influencer best known for?",
-                  "de": "What is diese(r) social media influencer best known for?",
-                  "nl": "What is deze social media influencer best known for?"
-        },
-        options: [
-          {
-                    "en": "Main achievement",
-                    "es": "Main achievement",
-                    "de": "Main achievement",
-                    "nl": "Main achievement"
-          },
-          {
-                    "en": "Minor work",
-                    "es": "Minor work",
-                    "de": "Minor work",
-                    "nl": "Minor work"
-          },
-          {
-                    "en": "Different person's work",
-                    "es": "Different person's work",
-                    "de": "Different person's work",
-                    "nl": "Different person's work"
-          },
-          {
-                    "en": "Controversy",
-                    "es": "Controversy",
-                    "de": "Controversy",
-                    "nl": "Controversy"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this social media influencer is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this social media influencer es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this social media influencer ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this social media influencer is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What award did this social media influencer receive?",
-                  "es": "What award did este/a social media influencer receive?",
-                  "de": "What award did diese(r) social media influencer receive?",
-                  "nl": "What award did deze social media influencer receive?"
-        },
-        options: [
-          {
-                    "en": "Correct award",
-                    "es": "Correct award",
-                    "de": "Correct award",
-                    "nl": "Correct award"
-          },
-          {
-                    "en": "Different award",
-                    "es": "Different award",
-                    "de": "Different award",
-                    "nl": "Different award"
-          },
-          {
-                    "en": "No awards",
-                    "es": "No awards",
-                    "de": "No awards",
-                    "nl": "No awards"
-          },
-          {
-                    "en": "Posthumous only",
-                    "es": "Posthumous only",
-                    "de": "Posthumous only",
-                    "nl": "Posthumous only"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this social media influencer is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this social media influencer es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this social media influencer ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this social media influencer is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "How many times was this social media influencer nominated?",
-                  "es": "How many times was este/a social media influencer nominated?",
-                  "de": "How many times was diese(r) social media influencer nominated?",
-                  "nl": "How many times was deze social media influencer nominated?"
-        },
-        options: [
-          {
-                    "en": "Correct number",
-                    "es": "Correct number",
-                    "de": "Correct number",
-                    "nl": "Correct number"
-          },
-          {
-                    "en": "Never",
-                    "es": "Never",
-                    "de": "Never",
-                    "nl": "Never"
-          },
-          {
-                    "en": "Once",
-                    "es": "Once",
-                    "de": "Once",
-                    "nl": "Once"
-          },
-          {
-                    "en": "Every year",
-                    "es": "Every year",
-                    "de": "Every year",
-                    "nl": "Every year"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this social media influencer is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this social media influencer es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this social media influencer ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this social media influencer is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What record does this social media influencer hold?",
-                  "es": "What record does este/a social media influencer hold?",
-                  "de": "What record does diese(r) social media influencer hold?",
-                  "nl": "What record does deze social media influencer hold?"
-        },
-        options: [
-          {
-                    "en": "Correct record",
-                    "es": "Correct record",
-                    "de": "Correct record",
-                    "nl": "Correct record"
-          },
-          {
-                    "en": "Different record",
-                    "es": "Different record",
-                    "de": "Different record",
-                    "nl": "Different record"
-          },
-          {
-                    "en": "No records",
-                    "es": "No records",
-                    "de": "No records",
-                    "nl": "No records"
-          },
-          {
-                    "en": "Shared record",
-                    "es": "Shared record",
-                    "de": "Shared record",
-                    "nl": "Shared record"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this social media influencer is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this social media influencer es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this social media influencer ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this social media influencer is historisch accuraat en goed gedocumenteerd."
-        }
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Social Media Influencers",
+      "es": "Pregunta 2 sobre Social Media Influencers",
+      "de": "Frage 2 über Social Media Influencers",
+      "nl": "Vraag 2 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level10;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Social Media Influencers",
+      "es": "Pregunta 3 sobre Social Media Influencers",
+      "de": "Frage 3 über Social Media Influencers",
+      "nl": "Vraag 3 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Social Media Influencers",
+      "es": "Pregunta 4 sobre Social Media Influencers",
+      "de": "Frage 4 über Social Media Influencers",
+      "nl": "Vraag 4 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Social Media Influencers",
+      "es": "Pregunta 5 sobre Social Media Influencers",
+      "de": "Frage 5 über Social Media Influencers",
+      "nl": "Vraag 5 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Social Media Influencers",
+      "es": "Pregunta 6 sobre Social Media Influencers",
+      "de": "Frage 6 über Social Media Influencers",
+      "nl": "Vraag 6 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Social Media Influencers",
+      "es": "Pregunta 7 sobre Social Media Influencers",
+      "de": "Frage 7 über Social Media Influencers",
+      "nl": "Vraag 7 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Social Media Influencers",
+      "es": "Pregunta 8 sobre Social Media Influencers",
+      "de": "Frage 8 über Social Media Influencers",
+      "nl": "Vraag 8 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Social Media Influencers",
+      "es": "Pregunta 9 sobre Social Media Influencers",
+      "de": "Frage 9 über Social Media Influencers",
+      "nl": "Vraag 9 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Social Media Influencers",
+      "es": "Pregunta 10 sobre Social Media Influencers",
+      "de": "Frage 10 über Social Media Influencers",
+      "nl": "Vraag 10 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Social Media Influencers",
+      "es": "Pregunta 11 sobre Social Media Influencers",
+      "de": "Frage 11 über Social Media Influencers",
+      "nl": "Vraag 11 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Social Media Influencers",
+      "es": "Pregunta 12 sobre Social Media Influencers",
+      "de": "Frage 12 über Social Media Influencers",
+      "nl": "Vraag 12 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Social Media Influencers",
+      "es": "Pregunta 13 sobre Social Media Influencers",
+      "de": "Frage 13 über Social Media Influencers",
+      "nl": "Vraag 13 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Social Media Influencers",
+      "es": "Pregunta 14 sobre Social Media Influencers",
+      "de": "Frage 14 über Social Media Influencers",
+      "nl": "Vraag 14 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Social Media Influencers",
+      "es": "Pregunta 15 sobre Social Media Influencers",
+      "de": "Frage 15 über Social Media Influencers",
+      "nl": "Vraag 15 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Social Media Influencers",
+      "es": "Pregunta 16 sobre Social Media Influencers",
+      "de": "Frage 16 über Social Media Influencers",
+      "nl": "Vraag 16 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Social Media Influencers",
+      "es": "Pregunta 17 sobre Social Media Influencers",
+      "de": "Frage 17 über Social Media Influencers",
+      "nl": "Vraag 17 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Social Media Influencers",
+      "es": "Pregunta 18 sobre Social Media Influencers",
+      "de": "Frage 18 über Social Media Influencers",
+      "nl": "Vraag 18 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Social Media Influencers",
+      "es": "Pregunta 19 sobre Social Media Influencers",
+      "de": "Frage 19 über Social Media Influencers",
+      "nl": "Vraag 19 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Social Media Influencers",
+      "es": "Pregunta 20 sobre Social Media Influencers",
+      "de": "Frage 20 über Social Media Influencers",
+      "nl": "Vraag 20 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Social Media Influencers",
+      "es": "Pregunta 21 sobre Social Media Influencers",
+      "de": "Frage 21 über Social Media Influencers",
+      "nl": "Vraag 21 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Social Media Influencers",
+      "es": "Pregunta 22 sobre Social Media Influencers",
+      "de": "Frage 22 über Social Media Influencers",
+      "nl": "Vraag 22 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Social Media Influencers",
+      "es": "Pregunta 23 sobre Social Media Influencers",
+      "de": "Frage 23 über Social Media Influencers",
+      "nl": "Vraag 23 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Social Media Influencers",
+      "es": "Pregunta 24 sobre Social Media Influencers",
+      "de": "Frage 24 über Social Media Influencers",
+      "nl": "Vraag 24 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Social Media Influencers",
+      "es": "Pregunta 25 sobre Social Media Influencers",
+      "de": "Frage 25 über Social Media Influencers",
+      "nl": "Vraag 25 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Social Media Influencers",
+      "es": "Pregunta 26 sobre Social Media Influencers",
+      "de": "Frage 26 über Social Media Influencers",
+      "nl": "Vraag 26 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Social Media Influencers",
+      "es": "Pregunta 27 sobre Social Media Influencers",
+      "de": "Frage 27 über Social Media Influencers",
+      "nl": "Vraag 27 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Social Media Influencers",
+      "es": "Pregunta 28 sobre Social Media Influencers",
+      "de": "Frage 28 über Social Media Influencers",
+      "nl": "Vraag 28 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Social Media Influencers",
+      "es": "Pregunta 29 sobre Social Media Influencers",
+      "de": "Frage 29 über Social Media Influencers",
+      "nl": "Vraag 29 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Social Media Influencers",
+      "es": "Pregunta 30 sobre Social Media Influencers",
+      "de": "Frage 30 über Social Media Influencers",
+      "nl": "Vraag 30 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Social Media Influencers",
+      "es": "Pregunta 31 sobre Social Media Influencers",
+      "de": "Frage 31 über Social Media Influencers",
+      "nl": "Vraag 31 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Social Media Influencers",
+      "es": "Pregunta 32 sobre Social Media Influencers",
+      "de": "Frage 32 über Social Media Influencers",
+      "nl": "Vraag 32 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Social Media Influencers",
+      "es": "Pregunta 33 sobre Social Media Influencers",
+      "de": "Frage 33 über Social Media Influencers",
+      "nl": "Vraag 33 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Social Media Influencers",
+      "es": "Pregunta 34 sobre Social Media Influencers",
+      "de": "Frage 34 über Social Media Influencers",
+      "nl": "Vraag 34 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Social Media Influencers",
+      "es": "Pregunta 35 sobre Social Media Influencers",
+      "de": "Frage 35 über Social Media Influencers",
+      "nl": "Vraag 35 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Social Media Influencers",
+      "es": "Pregunta 36 sobre Social Media Influencers",
+      "de": "Frage 36 über Social Media Influencers",
+      "nl": "Vraag 36 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Social Media Influencers",
+      "es": "Pregunta 37 sobre Social Media Influencers",
+      "de": "Frage 37 über Social Media Influencers",
+      "nl": "Vraag 37 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Social Media Influencers",
+      "es": "Pregunta 38 sobre Social Media Influencers",
+      "de": "Frage 38 über Social Media Influencers",
+      "nl": "Vraag 38 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Social Media Influencers",
+      "es": "Pregunta 39 sobre Social Media Influencers",
+      "de": "Frage 39 über Social Media Influencers",
+      "nl": "Vraag 39 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Social Media Influencers",
+      "es": "Pregunta 40 sobre Social Media Influencers",
+      "de": "Frage 40 über Social Media Influencers",
+      "nl": "Vraag 40 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Social Media Influencers",
+      "es": "Pregunta 41 sobre Social Media Influencers",
+      "de": "Frage 41 über Social Media Influencers",
+      "nl": "Vraag 41 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Social Media Influencers",
+      "es": "Pregunta 42 sobre Social Media Influencers",
+      "de": "Frage 42 über Social Media Influencers",
+      "nl": "Vraag 42 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Social Media Influencers",
+      "es": "Pregunta 43 sobre Social Media Influencers",
+      "de": "Frage 43 über Social Media Influencers",
+      "nl": "Vraag 43 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Social Media Influencers",
+      "es": "Pregunta 44 sobre Social Media Influencers",
+      "de": "Frage 44 über Social Media Influencers",
+      "nl": "Vraag 44 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Social Media Influencers",
+      "es": "Pregunta 45 sobre Social Media Influencers",
+      "de": "Frage 45 über Social Media Influencers",
+      "nl": "Vraag 45 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Social Media Influencers",
+      "es": "Pregunta 46 sobre Social Media Influencers",
+      "de": "Frage 46 über Social Media Influencers",
+      "nl": "Vraag 46 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Social Media Influencers",
+      "es": "Pregunta 47 sobre Social Media Influencers",
+      "de": "Frage 47 über Social Media Influencers",
+      "nl": "Vraag 47 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Social Media Influencers",
+      "es": "Pregunta 48 sobre Social Media Influencers",
+      "de": "Frage 48 über Social Media Influencers",
+      "nl": "Vraag 48 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Social Media Influencers",
+      "es": "Pregunta 49 sobre Social Media Influencers",
+      "de": "Frage 49 über Social Media Influencers",
+      "nl": "Vraag 49 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Social Media Influencers",
+      "es": "Pregunta 50 sobre Social Media Influencers",
+      "de": "Frage 50 über Social Media Influencers",
+      "nl": "Vraag 50 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Social Media Influencers",
+      "es": "Pregunta 51 sobre Social Media Influencers",
+      "de": "Frage 51 über Social Media Influencers",
+      "nl": "Vraag 51 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Social Media Influencers",
+      "es": "Pregunta 52 sobre Social Media Influencers",
+      "de": "Frage 52 über Social Media Influencers",
+      "nl": "Vraag 52 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Social Media Influencers",
+      "es": "Pregunta 53 sobre Social Media Influencers",
+      "de": "Frage 53 über Social Media Influencers",
+      "nl": "Vraag 53 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Social Media Influencers",
+      "es": "Pregunta 54 sobre Social Media Influencers",
+      "de": "Frage 54 über Social Media Influencers",
+      "nl": "Vraag 54 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Social Media Influencers",
+      "es": "Pregunta 55 sobre Social Media Influencers",
+      "de": "Frage 55 über Social Media Influencers",
+      "nl": "Vraag 55 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Social Media Influencers",
+      "es": "Pregunta 56 sobre Social Media Influencers",
+      "de": "Frage 56 über Social Media Influencers",
+      "nl": "Vraag 56 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Social Media Influencers",
+      "es": "Pregunta 57 sobre Social Media Influencers",
+      "de": "Frage 57 über Social Media Influencers",
+      "nl": "Vraag 57 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Social Media Influencers",
+      "es": "Pregunta 58 sobre Social Media Influencers",
+      "de": "Frage 58 über Social Media Influencers",
+      "nl": "Vraag 58 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Social Media Influencers",
+      "es": "Pregunta 59 sobre Social Media Influencers",
+      "de": "Frage 59 über Social Media Influencers",
+      "nl": "Vraag 59 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Social Media Influencers",
+      "es": "Pregunta 60 sobre Social Media Influencers",
+      "de": "Frage 60 über Social Media Influencers",
+      "nl": "Vraag 60 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Social Media Influencers",
+      "es": "Pregunta 61 sobre Social Media Influencers",
+      "de": "Frage 61 über Social Media Influencers",
+      "nl": "Vraag 61 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Social Media Influencers",
+      "es": "Pregunta 62 sobre Social Media Influencers",
+      "de": "Frage 62 über Social Media Influencers",
+      "nl": "Vraag 62 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Social Media Influencers",
+      "es": "Pregunta 63 sobre Social Media Influencers",
+      "de": "Frage 63 über Social Media Influencers",
+      "nl": "Vraag 63 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Social Media Influencers",
+      "es": "Pregunta 64 sobre Social Media Influencers",
+      "de": "Frage 64 über Social Media Influencers",
+      "nl": "Vraag 64 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Social Media Influencers",
+      "es": "Pregunta 65 sobre Social Media Influencers",
+      "de": "Frage 65 über Social Media Influencers",
+      "nl": "Vraag 65 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Social Media Influencers",
+      "es": "Pregunta 66 sobre Social Media Influencers",
+      "de": "Frage 66 über Social Media Influencers",
+      "nl": "Vraag 66 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Social Media Influencers",
+      "es": "Pregunta 67 sobre Social Media Influencers",
+      "de": "Frage 67 über Social Media Influencers",
+      "nl": "Vraag 67 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Social Media Influencers",
+      "es": "Pregunta 68 sobre Social Media Influencers",
+      "de": "Frage 68 über Social Media Influencers",
+      "nl": "Vraag 68 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Social Media Influencers",
+      "es": "Pregunta 69 sobre Social Media Influencers",
+      "de": "Frage 69 über Social Media Influencers",
+      "nl": "Vraag 69 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Social Media Influencers",
+      "es": "Pregunta 70 sobre Social Media Influencers",
+      "de": "Frage 70 über Social Media Influencers",
+      "nl": "Vraag 70 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Social Media Influencers",
+      "es": "Pregunta 71 sobre Social Media Influencers",
+      "de": "Frage 71 über Social Media Influencers",
+      "nl": "Vraag 71 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Social Media Influencers",
+      "es": "Pregunta 72 sobre Social Media Influencers",
+      "de": "Frage 72 über Social Media Influencers",
+      "nl": "Vraag 72 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Social Media Influencers",
+      "es": "Pregunta 73 sobre Social Media Influencers",
+      "de": "Frage 73 über Social Media Influencers",
+      "nl": "Vraag 73 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Social Media Influencers",
+      "es": "Pregunta 74 sobre Social Media Influencers",
+      "de": "Frage 74 über Social Media Influencers",
+      "nl": "Vraag 74 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Social Media Influencers",
+      "es": "Pregunta 75 sobre Social Media Influencers",
+      "de": "Frage 75 über Social Media Influencers",
+      "nl": "Vraag 75 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Social Media Influencers",
+      "es": "Pregunta 76 sobre Social Media Influencers",
+      "de": "Frage 76 über Social Media Influencers",
+      "nl": "Vraag 76 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Social Media Influencers",
+      "es": "Pregunta 77 sobre Social Media Influencers",
+      "de": "Frage 77 über Social Media Influencers",
+      "nl": "Vraag 77 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Social Media Influencers",
+      "es": "Pregunta 78 sobre Social Media Influencers",
+      "de": "Frage 78 über Social Media Influencers",
+      "nl": "Vraag 78 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Social Media Influencers",
+      "es": "Pregunta 79 sobre Social Media Influencers",
+      "de": "Frage 79 über Social Media Influencers",
+      "nl": "Vraag 79 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Social Media Influencers",
+      "es": "Pregunta 80 sobre Social Media Influencers",
+      "de": "Frage 80 über Social Media Influencers",
+      "nl": "Vraag 80 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Social Media Influencers",
+      "es": "Pregunta 81 sobre Social Media Influencers",
+      "de": "Frage 81 über Social Media Influencers",
+      "nl": "Vraag 81 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Social Media Influencers",
+      "es": "Pregunta 82 sobre Social Media Influencers",
+      "de": "Frage 82 über Social Media Influencers",
+      "nl": "Vraag 82 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Social Media Influencers",
+      "es": "Pregunta 83 sobre Social Media Influencers",
+      "de": "Frage 83 über Social Media Influencers",
+      "nl": "Vraag 83 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Social Media Influencers",
+      "es": "Pregunta 84 sobre Social Media Influencers",
+      "de": "Frage 84 über Social Media Influencers",
+      "nl": "Vraag 84 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Social Media Influencers",
+      "es": "Pregunta 85 sobre Social Media Influencers",
+      "de": "Frage 85 über Social Media Influencers",
+      "nl": "Vraag 85 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Social Media Influencers",
+      "es": "Pregunta 86 sobre Social Media Influencers",
+      "de": "Frage 86 über Social Media Influencers",
+      "nl": "Vraag 86 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Social Media Influencers",
+      "es": "Pregunta 87 sobre Social Media Influencers",
+      "de": "Frage 87 über Social Media Influencers",
+      "nl": "Vraag 87 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Social Media Influencers",
+      "es": "Pregunta 88 sobre Social Media Influencers",
+      "de": "Frage 88 über Social Media Influencers",
+      "nl": "Vraag 88 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Social Media Influencers",
+      "es": "Pregunta 89 sobre Social Media Influencers",
+      "de": "Frage 89 über Social Media Influencers",
+      "nl": "Vraag 89 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Social Media Influencers",
+      "es": "Pregunta 90 sobre Social Media Influencers",
+      "de": "Frage 90 über Social Media Influencers",
+      "nl": "Vraag 90 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Social Media Influencers",
+      "es": "Pregunta 91 sobre Social Media Influencers",
+      "de": "Frage 91 über Social Media Influencers",
+      "nl": "Vraag 91 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Social Media Influencers",
+      "es": "Pregunta 92 sobre Social Media Influencers",
+      "de": "Frage 92 über Social Media Influencers",
+      "nl": "Vraag 92 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Social Media Influencers",
+      "es": "Pregunta 93 sobre Social Media Influencers",
+      "de": "Frage 93 über Social Media Influencers",
+      "nl": "Vraag 93 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Social Media Influencers",
+      "es": "Pregunta 94 sobre Social Media Influencers",
+      "de": "Frage 94 über Social Media Influencers",
+      "nl": "Vraag 94 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Social Media Influencers",
+      "es": "Pregunta 95 sobre Social Media Influencers",
+      "de": "Frage 95 über Social Media Influencers",
+      "nl": "Vraag 95 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Social Media Influencers",
+      "es": "Pregunta 96 sobre Social Media Influencers",
+      "de": "Frage 96 über Social Media Influencers",
+      "nl": "Vraag 96 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Social Media Influencers",
+      "es": "Pregunta 97 sobre Social Media Influencers",
+      "de": "Frage 97 über Social Media Influencers",
+      "nl": "Vraag 97 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Social Media Influencers",
+      "es": "Pregunta 98 sobre Social Media Influencers",
+      "de": "Frage 98 über Social Media Influencers",
+      "nl": "Vraag 98 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Social Media Influencers",
+      "es": "Pregunta 99 sobre Social Media Influencers",
+      "de": "Frage 99 über Social Media Influencers",
+      "nl": "Vraag 99 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Social Media Influencers",
+      "es": "Pregunta 100 sobre Social Media Influencers",
+      "de": "Frage 100 über Social Media Influencers",
+      "nl": "Vraag 100 over Social Media Influencers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Social Media Influencers",
+        "es": "Respuesta A para Social Media Influencers",
+        "de": "Antwort A für Social Media Influencers",
+        "nl": "Antwoord A voor Social Media Influencers"
+      },
+      {
+        "en": "Answer B for Social Media Influencers",
+        "es": "Respuesta B para Social Media Influencers",
+        "de": "Antwort B für Social Media Influencers",
+        "nl": "Antwoord B voor Social Media Influencers"
+      },
+      {
+        "en": "Answer C for Social Media Influencers",
+        "es": "Respuesta C para Social Media Influencers",
+        "de": "Antwort C für Social Media Influencers",
+        "nl": "Antwoord C voor Social Media Influencers"
+      },
+      {
+        "en": "Answer D for Social Media Influencers",
+        "es": "Respuesta D para Social Media Influencers",
+        "de": "Antwort D für Social Media Influencers",
+        "nl": "Antwoord D voor Social Media Influencers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Social Media Influencers.",
+      "es": "Esta es la respuesta correcta sobre Social Media Influencers.",
+      "de": "Dies ist die richtige Antwort über Social Media Influencers.",
+      "nl": "Dit is het juiste antwoord over Social Media Influencers."
+    }
   }
-})();
+]
+};

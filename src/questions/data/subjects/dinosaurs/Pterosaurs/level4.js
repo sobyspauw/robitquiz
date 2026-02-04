@@ -1,1657 +1,4104 @@
-// Pterosaurs Quiz - Level 4
-(function() {
-  const level4 = {
-    name: {
-          "en": "Pterosaurs Level 4",
-          "es": "Pterosaurios Nivel 4",
-          "de": "Pterosaurier Stufe 4",
-          "nl": "Pterosauriërs Level 4"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Pterosaurs",
+      "es": "Pregunta 1 sobre Pterosaurs",
+      "de": "Frage 1 über Pterosaurs",
+      "nl": "Vraag 1 over Pterosaurs"
     },
-    questions: [
+    "options": [
       {
-        question: {
-                  "en": "Which pterosaur family includes the largest flying animals in Earth's history?",
-                  "es": "¿Qué familia de pterosaurios incluye los animales voladores más grandes de la historia de la Tierra?",
-                  "de": "Welche Pterosaurier-Familie umfasst die größten fliegenden Tiere der Erdgeschichte?",
-                  "nl": "Welke pterosauriër familie omvat de grootste vliegende dieren in de aardgeschiedenis?"
-        },
-        options: [
-        {
-                  "en": "Azhdarchidae",
-                  "es": "Azdarquidae",
-                  "de": "Azhdarchidae",
-                  "nl": "Azhdarchidae"
-        },
-        {
-                  "en": "Pteranodontidae",
-                  "es": "Pteranodóntidos",
-                  "de": "Pteranodontidae",
-                  "nl": "Pteranodontidae"
-        },
-        {
-                  "en": "Dimorphodontidae",
-                  "es": "Dimorfodóntidos",
-                  "de": "Dimorphodontidae",
-                  "nl": "Dimorphodontidae"
-        },
-        {
-                  "en": "Rhamphorhynchidae",
-                  "es": "Ramphorhínquidos",
-                  "de": "Rhamphorhynchidae",
-                  "nl": "Rhamphorhynchidae"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Azhdarchidae includes giants like Quetzalcoatlus and Hatzegopteryx, with wingspans reaching 10-11 meters, making them the largest flying animals ever.",
-                  "es": "Azdarquidae incluye gigantes como Quetzalcoatlus y Hatzegopteryx, con envergaduras que alcanzan 10-11 metros, convirtiéndolos en los animales voladores más grandes jamás existidos.",
-                  "de": "Azhdarchidae umfasst Riesen wie Quetzalcoatlus und Hatzegopteryx mit Spannweiten von 10-11 Metern, was sie zu den größten fliegenden Tieren aller Zeiten macht.",
-                  "nl": "Azhdarchidae omvat reuzen zoals Quetzalcoatlus en Hatzegopteryx, met spanwijdtes van 10-11 meter, waardoor ze de grootste vliegende dieren ooit zijn."
-        }
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
       },
       {
-        question: {
-                  "en": "What unique feeding strategy did some large pterosaurs like Quetzalcoatlus likely employ?",
-                  "es": "¿Qué estrategia de alimentación única empleaban probablemente algunos pterosaurios grandes como Quetzalcoatlus?",
-                  "de": "Welche einzigartige Ernährungsstrategie verwendeten wahrscheinlich große Pterosaurier wie Quetzalcoatlus?",
-                  "nl": "Welke unieke voedingsstrategie gebruikten grote pterosauriërs zoals Quetzalcoatlus waarschijnlijk?"
-        },
-        options: [
-        {
-                  "en": "Terrestrial stalking like giant storks",
-                  "es": "Acecho terrestre como cigüeñas gigantes",
-                  "de": "Terrestrisches Pirschen wie Riesenstörche",
-                  "nl": "Terrestrisch besluipen zoals reuzeoievaars"
-        },
-        {
-                  "en": "Deep sea diving for large fish",
-                  "es": "Buceo en aguas profundas por peces grandes",
-                  "de": "Tiefseentauchen nach großen Fischen",
-                  "nl": "Diepzeeduiken naar grote vissen"
-        },
-        {
-                  "en": "Hunting in large cooperative groups",
-                  "es": "Cazando en grandes grupos cooperativos",
-                  "de": "Jagd in großen kooperativen Gruppen",
-                  "nl": "Jagen in grote coöperatieve groepen"
-        },
-        {
-                  "en": "Filtering plankton from water",
-                  "es": "Filtrando plancton del agua",
-                  "de": "Filtern von Plankton aus Wasser",
-                  "nl": "Plankton filteren uit water"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Large azhdarchid pterosaurs like Quetzalcoatlus likely stalked prey on land like giant ground-dwelling birds, using their long necks and beaks to catch small animals.",
-                  "es": "Los pterosaurios azdarquidos grandes como Quetzalcoatlus probablemente acechaban presas en tierra como aves gigantes terrestres, usando sus cuellos y picos largos para atrapar animales pequeños.",
-                  "de": "Große Azhdarchiden-Pterosaurier wie Quetzalcoatlus pirschten wahrscheinlich wie riesige bodenbewohnende Vögel nach Beute und nutzten ihre langen Hälse und Schnäbel zum Fangen kleiner Tiere.",
-                  "nl": "Grote azhdarchide pterosauriërs zoals Quetzalcoatlus besloop waarschijnlijk prooi op land zoals reuze grondvogels, hun lange nekken en snavels gebruikend om kleine dieren te vangen."
-        }
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
       },
       {
-        question: {
-                  "en": "Which pterosaur is famous for having hundreds of needle-like teeth?",
-                  "es": "¿Qué pterosaurio es famoso por tener cientos de dientes como agujas?",
-                  "de": "Welcher Pterosaurier ist berühmt für seine Hunderte von nadelartigen Zähnen?",
-                  "nl": "Welke pterosauriër is beroemd om het hebben van honderden naaldachtige tanden?"
-        },
-        options: [
-        {
-                  "en": "Tapejara",
-                  "es": "Tapejara",
-                  "de": "Tapejara",
-                  "nl": "Tapejara"
-        },
-        {
-                  "en": "Pteranodon",
-                  "es": "Pteranodon",
-                  "de": "Pteranodon",
-                  "nl": "Pteranodon"
-        },
-        {
-                  "en": "Pterodaustro",
-                  "es": "Pterodaustro",
-                  "de": "Pterodaustro",
-                  "nl": "Pterodaustro"
-        },
-        {
-                  "en": "Quetzalcoatlus",
-                  "es": "Quetzalcoatlus",
-                  "de": "Quetzalcoatlus",
-                  "nl": "Quetzalcoatlus"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Pterodaustro had over 1000 bristle-like teeth used for filter feeding, straining small organisms from water like a flamingo.",
-                  "es": "Pterodaustro tenía más de 1000 dientes como cerdas usados para alimentación por filtración, colando pequeños organismos del agua como un flamenco.",
-                  "de": "Pterodaustro hatte über 1000 borstenartige Zähne für Filterfutter, die kleine Organismen aus dem Wasser wie ein Flamingo siebten.",
-                  "nl": "Pterodaustro had meer dan 1000 borstelachtige tanden gebruikt voor filtervoeding, kleine organismen uit water zevend zoals een flamingo."
-        }
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
       },
       {
-        question: {
-                  "en": "What was the function of the large crest on Tupandactylus?",
-                  "es": "¿Cuál era la función de la gran cresta en Tupandactylus?",
-                  "de": "Was war die Funktion des großen Kamms auf Tupandactylus?",
-                  "nl": "Wat was de functie van de grote kam op Tupandactylus?"
-        },
-        options: [
-        {
-                  "en": "Breaking through ice when diving",
-                  "es": "Romper el hielo al bucear",
-                  "de": "Eis beim Tauchen durchbrechen",
-                  "nl": "Door ijs breken bij duiken"
-        },
-        {
-                  "en": "Producing electricity for hunting",
-                  "es": "Producir electricidad para cazar",
-                  "de": "Elektrizität für die Jagd erzeugen",
-                  "nl": "Elektriciteit produceren voor jagen"
-        },
-        {
-                  "en": "Display and species recognition",
-                  "es": "Exhibición y reconocimiento de especies",
-                  "de": "Zurschaustellung und Artenerkennung",
-                  "nl": "Vertoon en soortherkenning"
-        },
-        {
-                  "en": "Storing fat for long migrations",
-                  "es": "Almacenar grasa para migraciones largas",
-                  "de": "Fett für lange Wanderungen speichern",
-                  "nl": "Vet opslaan voor lange migraties"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Tupandactylus had a dramatic semicircular crest that was likely used for species recognition and sexual display, possibly brightly colored in life.",
-                  "es": "Tupandactylus tenía una cresta semicircular dramática que probablemente se usaba para reconocimiento de especies y exhibición sexual, posiblemente de colores brillantes en vida.",
-                  "de": "Tupandactylus hatte einen dramatischen halbkreisförmigen Kamm, der wahrscheinlich für Artenerkennung und sexuelle Zurschaustellung verwendet wurde, möglicherweise im Leben leuchtend gefärbt.",
-                  "nl": "Tupandactylus had een dramatische halfronde kam die waarschijnlijk gebruikt werd voor soortherkenning en seksuele vertoning, mogelijk fel gekleurd tijdens hun leven."
-        }
-      },
-      {
-        question: {
-                  "en": "Which pterosaur group dominated the skies during the Jurassic period?",
-                  "es": "¿Qué grupo de pterosaurios dominó los cielos durante el período Jurásico?",
-                  "de": "Welche Pterosaurier-Gruppe dominierte den Himmel während der Jura-Zeit?",
-                  "nl": "Welke pterosauriër groep domineerde de luchten tijdens de Jura periode?"
-        },
-        options: [
-        {
-                  "en": "Rhamphorhynchoids",
-                  "es": "Ramphorhyncoides",
-                  "de": "Rhamphorhynchoidea",
-                  "nl": "Rhamphorhynchoiden"
-        },
-        {
-                  "en": "Pterodactyloids",
-                  "es": "Pterodactiloides",
-                  "de": "Pterodactyloidea",
-                  "nl": "Pterodactyloiden"
-        },
-        {
-                  "en": "Ornithocheirids",
-                  "es": "Ornitoqueiridos",
-                  "de": "Ornithocheiriden",
-                  "nl": "Ornithocheiriden"
-        },
-        {
-                  "en": "Azhdarchids",
-                  "es": "Azdarquidos",
-                  "de": "Azhdarchiden",
-                  "nl": "Azhdarchiden"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Rhamphorhynchoids, the early long-tailed pterosaurs, dominated during the Jurassic before being largely replaced by pterodactyloids in the Cretaceous.",
-                  "es": "Los ramphorhyncoides, los pterosaurios tempranos de cola larga, dominaron durante el Jurásico antes de ser ampliamente reemplazados por pterodactiloides en el Cretácico.",
-                  "de": "Rhamphorhynchoidea, die frühen langschwänzigen Pterosaurier, dominierten während des Jura, bevor sie in der Kreidezeit weitgehend von Pterodactyloidea ersetzt wurden.",
-                  "nl": "Rhamphorhynchoiden, de vroege langstaartige pterosauriërs, domineerden tijdens de Jura voordat ze grotendeels vervangen werden door pterodactyloiden in het Krijt."
-        }
-      },
-      {
-        question: {
-                  "en": "What evidence suggests pterosaurs may have been capable of powered flight from birth?",
-                  "es": "¿Qué evidencia sugiere que los pterosaurios podrían haber sido capaces de vuelo motorizado desde el nacimiento?",
-                  "de": "Welche Beweise deuten darauf hin, dass Pterosaurier möglicherweise von Geburt an zu Motorflug fähig waren?",
-                  "nl": "Welk bewijs suggereert dat pterosauriërs mogelijk vanaf de geboorte tot gemotoriseerde vlucht in staat waren?"
-        },
-        options: [
-        {
-                  "en": "Baby pterosaurs were found with flight instructor fossils",
-                  "es": "Se encontraron pterosaurios bebé con fósiles de instructores de vuelo",
-                  "de": "Baby-Pterosaurier wurden mit Fluglehrer-Fossilien gefunden",
-                  "nl": "Baby pterosauriërs werden gevonden met vlieginstructeur fossielen"
-        },
-        {
-                  "en": "Their eggs were found only in high tree nests",
-                  "es": "Sus huevos se encontraron solo en nidos altos de árboles",
-                  "de": "Ihre Eier wurden nur in hohen Baumnestern gefunden",
-                  "nl": "Hun eieren werden alleen gevonden in hoge boomnesten"
-        },
-        {
-                  "en": "Fossil juveniles have proportionally large, well-developed wings",
-                  "es": "Los juveniles fósiles tienen alas proporcionalmente grandes y bien desarrolladas",
-                  "de": "Fossile Jungtiere haben proportional große, gut entwickelte Flügel",
-                  "nl": "Fossiele juvenielen hebben proportioneel grote, goed ontwikkelde vleugels"
-        },
-        {
-                  "en": "They had special learning centers in their brains",
-                  "es": "Tenían centros de aprendizaje especiales en sus cerebros",
-                  "de": "Sie hatten spezielle Lernzentren in ihren Gehirnen",
-                  "nl": "Ze hadden speciale leercentra in hun hersenen"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Fossil evidence shows juvenile pterosaurs had well-developed wing bones and proportions suggesting they could fly shortly after hatching, unlike most modern birds.",
-                  "es": "La evidencia fósil muestra que los pterosaurios juveniles tenían huesos de ala bien desarrollados y proporciones que sugieren que podían volar poco después de nacer, a diferencia de la mayoría de las aves modernas.",
-                  "de": "Fossile Beweise zeigen, dass juvenile Pterosaurier gut entwickelte Flügelknochen und Proportionen hatten, die darauf hindeuten, dass sie kurz nach dem Schlüpfen fliegen konnten, anders als die meisten modernen Vögel.",
-                  "nl": "Fossiel bewijs toont dat juveniele pterosauriërs goed ontwikkelde vleugelbeenderen en verhoudingen hadden die suggereren dat ze kort na het uitkomen konden vliegen, anders dan de meeste moderne vogels."
-        }
-      },
-      {
-        question: {
-                  "en": "Which pterosaur had the most elaborate head crest known to science?",
-                  "es": "¿Qué pterosaurio tenía la cresta de cabeza más elaborada conocida por la ciencia?",
-                  "de": "Welcher Pterosaurier hatte den aufwendigsten Kopfkamm, der der Wissenschaft bekannt ist?",
-                  "nl": "Welke pterosauriër had de meest uitgebreide hoofdkam die bekend is bij de wetenschap?"
-        },
-        options: [
-        {
-                  "en": "Parasaurolophus",
-                  "es": "Parasaurolophus",
-                  "de": "Parasaurolophus",
-                  "nl": "Parasaurolophus"
-        },
-        {
-                  "en": "Tupandactylus",
-                  "es": "Tupandactylus",
-                  "de": "Tupandactylus",
-                  "nl": "Tupandactylus"
-        },
-        {
-                  "en": "Nyctosaurus",
-                  "es": "Nyctosaurus",
-                  "de": "Nyctosaurus",
-                  "nl": "Nyctosaurus"
-        },
-        {
-                  "en": "Cearadactylus",
-                  "es": "Cearadactylus",
-                  "de": "Cearadactylus",
-                  "nl": "Cearadactylus"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Nyctosaurus had an enormous antler-like crest that was twice the length of its skull, possibly supporting a skin membrane sail for display.",
-                  "es": "Nyctosaurus tenía una cresta enorme como cuernos que era el doble de la longitud de su cráneo, posiblemente sosteniendo una vela de membrana de piel para exhibición.",
-                  "de": "Nyctosaurus hatte einen enormen geweihartigen Kamm, der doppelt so lang wie sein Schädel war und möglicherweise ein Hautmembransegel zur Zurschaustellung stützte.",
-                  "nl": "Nyctosaurus had een enorme geweivormige kam die twee keer de lengte van zijn schedel was, mogelijk een huidmembraan zeil ondersteunend voor vertoon."
-        }
-      },
-      {
-        question: {
-                  "en": "What was unique about the teeth of Dsungaripterus?",
-                  "es": "¿Qué era único sobre los dientes de Dsungaripterus?",
-                  "de": "Was war einzigartig an den Zähnen von Dsungaripterus?",
-                  "nl": "Wat was uniek aan de tanden van Dsungaripterus?"
-        },
-        options: [
-        {
-                  "en": "They were specialized for crushing shellfish and hard prey",
-                  "es": "Estaban especializados para triturar mariscos y presas duras",
-                  "de": "Sie waren spezialisiert zum Zerkleinern von Schalentieren und harter Beute",
-                  "nl": "Ze waren gespecialiseerd voor het kraken van schelpdieren en harde prooi"
-        },
-        {
-                  "en": "They were transparent like glass",
-                  "es": "Eran transparentes como el vidrio",
-                  "de": "Sie waren durchsichtig wie Glas",
-                  "nl": "Ze waren doorzichtig als glas"
-        },
-        {
-                  "en": "They could inject venom like snake fangs",
-                  "es": "Podían inyectar veneno como colmillos de serpiente",
-                  "de": "Sie konnten Gift wie Schlangenzähne injizieren",
-                  "nl": "Ze konden gif injecteren zoals slangentanden"
-        },
-        {
-                  "en": "They continuously grew throughout their lives",
-                  "es": "Crecían continuamente durante sus vidas",
-                  "de": "Sie wuchsen kontinuierlich während ihres Lebens",
-                  "nl": "Ze groeiden continu gedurende hun leven"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Dsungaripterus had robust, blunt teeth at the back of its jaws specialized for crushing hard-shelled prey like mollusks and crustaceans.",
-                  "es": "Dsungaripterus tenía dientes robustos y romos en la parte posterior de sus mandíbulas especializados para triturar presas de caparazón duro como moluscos y crustáceos.",
-                  "de": "Dsungaripterus hatte robuste, stumpfe Zähne im hinteren Teil seiner Kiefer, die spezialisiert waren zum Zerkleinern hartschaliger Beute wie Weichtiere und Krebstiere.",
-                  "nl": "Dsungaripterus had robuuste, stompe tanden aan de achterkant van zijn kaken gespecialiseerd voor het kraken van hardschaling prooi zoals weekdieren en schaaldieren."
-        }
-      },
-      {
-        question: {
-                  "en": "How did pterosaur wing membranes compare to bat wing membranes?",
-                  "es": "¿Cómo se comparaban las membranas de ala de pterosaurio con las membranas de ala de murciélago?",
-                  "de": "Wie verglichen sich Pterosaurier-Flügelmembranen mit Fledermaus-Flügelmembranen?",
-                  "nl": "Hoe vergeleken pterosauriër vleugelmembranen met vleermuis vleugelmembranen?"
-        },
-        options: [
-        {
-                  "en": "Pterosaur membranes were made of feathers",
-                  "es": "Las membranas de pterosaurio estaban hechas de plumas",
-                  "de": "Pterosaurier-Membranen bestanden aus Federn",
-                  "nl": "Pterosauriër membranen waren gemaakt van veren"
-        },
-        {
-                  "en": "Pterosaur membranes were supported by a single finger, bat membranes by multiple fingers",
-                  "es": "Las membranas de pterosaurio eran sostenidas por un solo dedo, las de murciélago por múltiples dedos",
-                  "de": "Pterosaurier-Membranen wurden von einem einzigen Finger gestützt, Fledermausmembranen von mehreren Fingern",
-                  "nl": "Pterosauriër membranen werden ondersteund door een enkele vinger, vleermuis membranen door meerdere vingers"
-        },
-        {
-                  "en": "They were identical in structure",
-                  "es": "Eran idénticas en estructura",
-                  "de": "Sie waren identisch in der Struktur",
-                  "nl": "Ze waren identiek in structuur"
-        },
-        {
-                  "en": "Bat membranes were much thicker and heavier",
-                  "es": "Las membranas de murciélago eran mucho más gruesas y pesadas",
-                  "de": "Fledermausmembranen waren viel dicker und schwerer",
-                  "nl": "Vleermuis membranen waren veel dikker en zwaarder"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Pterosaur wings were supported primarily by one hugely elongated fourth finger, while bat wings are supported by multiple elongated fingers, representing convergent evolution.",
-                  "es": "Las alas de pterosaurio eran sostenidas principalmente por un cuarto dedo enormemente alargado, mientras que las alas de murciélago son sostenidas por múltiples dedos alargados, representando evolución convergente.",
-                  "de": "Pterosaurier-Flügel wurden hauptsächlich von einem stark verlängerten vierten Finger gestützt, während Fledermausflügel von mehreren verlängerten Fingern gestützt werden, was konvergente Evolution darstellt.",
-                  "nl": "Pterosauriër vleugels werden voornamelijk ondersteund door een enorm verlengde vierde vinger, terwijl vleermuis vleugels ondersteund worden door meerdere verlengde vingers, wat convergente evolutie vertegenwoordigt."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the likely color pattern of many pterosaur crests?",
-                  "es": "¿Cuál era el patrón de color probable de muchas crestas de pterosaurio?",
-                  "de": "Welches war das wahrscheinliche Farbmuster vieler Pterosaurier-Kämme?",
-                  "nl": "Wat was het waarschijnlijke kleurpatroon van veel pterosauriër kammen?"
-        },
-        options: [
-        {
-                  "en": "Bright and colorful for display purposes",
-                  "es": "Brillante y colorido para propósitos de exhibición",
-                  "de": "Leuchtend und farbenfroh für Zurschaustellungszwecke",
-                  "nl": "Helder en kleurrijk voor vertoningsdoeleinden"
-        },
-        {
-                  "en": "They had no color - purely white",
-                  "es": "No tenían color - puramente blanco",
-                  "de": "Sie hatten keine Farbe - rein weiß",
-                  "nl": "Ze hadden geen kleur - puur wit"
-        },
-        {
-                  "en": "Always black for heat absorption",
-                  "es": "Siempre negro para absorción de calor",
-                  "de": "Immer schwarz für Wärmeaufnahme",
-                  "nl": "Altijd zwart voor warmte-absorptie"
-        },
-        {
-                  "en": "Transparent like glass",
-                  "es": "Transparente como el vidrio",
-                  "de": "Durchsichtig wie Glas",
-                  "nl": "Doorzichtig als glas"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Studies of pterosaur crest structure suggest they were likely brightly colored and used for species recognition and sexual display, similar to modern bird crests and plumes.",
-                  "es": "Los estudios de la estructura de la cresta de pterosaurio sugieren que probablemente eran de colores brillantes y se usaban para reconocimiento de especies y exhibición sexual, similar a las crestas y plumas de aves modernas.",
-                  "de": "Studien der Pterosaurier-Kammstruktur deuten darauf hin, dass sie wahrscheinlich leuchtend gefärbt waren und für Artenerkennung und sexuelle Zurschaustellung verwendet wurden, ähnlich modernen Vogelkämmen und Federn.",
-                  "nl": "Studies van pterosauriër kamstructuur suggereren dat ze waarschijnlijk helder gekleurd waren en gebruikt werden voor soortherkenning en seksuele vertoning, vergelijkbaar met moderne vogelkammen en pluimen."
-        }
-      },
-      {
-        question: {
-                  "en": "Which environmental factor most influenced pterosaur evolution throughout the Mesozoic?",
-                  "es": "¿Qué factor ambiental influyó más en la evolución de pterosaurios durante el Mesozoico?",
-                  "de": "Welcher Umweltfaktor beeinflusste die Pterosaurier-Evolution während des Mesozoikums am meisten?",
-                  "nl": "Welke omgevingsfactor beïnvloedde pterosauriër evolutie het meest gedurende het Mesozoïcum?"
-        },
-        options: [
-        {
-                  "en": "Constant temperature throughout the period",
-                  "es": "Temperatura constante durante todo el período",
-                  "de": "Konstante Temperatur während der gesamten Periode",
-                  "nl": "Constante temperatuur gedurende de periode"
-        },
-        {
-                  "en": "Changing sea levels and coastal environments",
-                  "es": "Niveles de mar cambiantes y ambientes costeros",
-                  "de": "Wechselnde Meeresspiegel und Küstenumgebungen",
-                  "nl": "Veranderende zeespiegels en kustomgevingen"
-        },
-        {
-                  "en": "Absence of other flying animals",
-                  "es": "Ausencia de otros animales voladores",
-                  "de": "Abwesenheit anderer fliegender Tiere",
-                  "nl": "Afwezigheid van andere vliegende dieren"
-        },
-        {
-                  "en": "Volcanic activity only",
-                  "es": "Solo actividad volcánica",
-                  "de": "Nur vulkanische Aktivität",
-                  "nl": "Alleen vulkanische activiteit"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Changing sea levels throughout the Mesozoic created and destroyed coastal habitats that many pterosaurs depended on, driving their evolution and eventual diversification.",
-                  "es": "Los niveles de mar cambiantes durante el Mesozoico crearon y destruyeron hábitats costeros de los que dependían muchos pterosaurios, impulsando su evolución y eventual diversificación.",
-                  "de": "Wechselnde Meeresspiegel während des Mesozoikums schufen und zerstörten Küstenlebensräume, von denen viele Pterosaurier abhingen, was ihre Evolution und eventuelle Diversifikation vorantrieb.",
-                  "nl": "Veranderende zeespiegels gedurende het Mesozoïcum creëerden en vernietigden kustomgevingen waarvan veel pterosauriërs afhankelijk waren, wat hun evolutie en uiteindelijke diversificatie aandreef."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the wingspan range of most pterosaur species?",
-                  "es": "¿Cuál era el rango de envergadura de la mayoría de las especies de pterosaurios?",
-                  "de": "Was war die Spannweitenspanne der meisten Pterosaurier-Arten?",
-                  "nl": "Wat was het spanwijdte bereik van de meeste pterosauriër soorten?"
-        },
-        options: [
-        {
-                  "en": "Less than 10 cm wingspan",
-                  "es": "Menos de 10 cm de envergadura",
-                  "de": "Weniger als 10 cm Spannweite",
-                  "nl": "Minder dan 10 cm spanwijdte"
-        },
-        {
-                  "en": "Only giant sizes over 8 meters",
-                  "es": "Solo tamaños gigantes sobre 8 metros",
-                  "de": "Nur Riesengrößen über 8 Meter",
-                  "nl": "Alleen reusachtige groottes boven 8 meter"
-        },
-        {
-                  "en": "All exactly 2 meters wingspan",
-                  "es": "Todos exactamente 2 metros de envergadura",
-                  "de": "Alle genau 2 Meter Spannweite",
-                  "nl": "Allemaal precies 2 meter spanwijdte"
-        },
-        {
-                  "en": "25 cm to 3 meters (sparrow to eagle size)",
-                  "es": "25 cm a 3 metros (tamaño de gorrión a águila)",
-                  "de": "25 cm bis 3 Meter (Spatzen- bis Adlergröße)",
-                  "nl": "25 cm tot 3 meter (mus tot adelaar grootte)"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Most pterosaur species had wingspans in the range of small to medium-sized modern birds, from sparrow-sized to eagle-sized, with only a few giant species.",
-                  "es": "La mayoría de las especies de pterosaurios tenían envergaduras en el rango de aves modernas pequeñas a medianas, del tamaño de gorrión al tamaño de águila, con solo unas pocas especies gigantes.",
-                  "de": "Die meisten Pterosaurier-Arten hatten Spannweiten im Bereich kleiner bis mittelgroßer moderner Vögel, von Spatzen- bis Adlergröße, mit nur wenigen Riesenarten.",
-                  "nl": "De meeste pterosauriër soorten hadden spanwijdtes in het bereik van kleine tot middelgrote moderne vogels, van musgroot tot adelaargroot, met slechts een paar reuzensoorten."
-        }
-      },
-      {
-        question: {
-                  "en": "How did pterosaurs likely maintain stable flight in turbulent air?",
-                  "es": "¿Cómo mantenían probablemente los pterosaurios vuelo estable en aire turbulento?",
-                  "de": "Wie behielten Pterosaurier wahrscheinlich stabilen Flug in turbulenter Luft bei?",
-                  "nl": "Hoe behielden pterosauriërs waarschijnlijk stabiele vlucht in turbulente lucht?"
-        },
-        options: [
-        {
-                  "en": "Using echolocation to predict air currents",
-                  "es": "Usando ecolocalización para predecir corrientes de aire",
-                  "de": "Mit Echoortung zur Vorhersage von Luftströmungen",
-                  "nl": "Echolocatie gebruikend om luchtstromen te voorspellen"
-        },
-        {
-                  "en": "By flying only in calm weather",
-                  "es": "Volando solo en clima tranquilo",
-                  "de": "Nur bei ruhigem Wetter fliegend",
-                  "nl": "Door alleen bij rustig weer te vliegen"
-        },
-        {
-                  "en": "Flying upside down to avoid turbulence",
-                  "es": "Volando boca abajo para evitar turbulencia",
-                  "de": "Auf dem Kopf fliegend um Turbulenzen zu vermeiden",
-                  "nl": "Ondersteboven vliegend om turbulentie te vermijden"
-        },
-        {
-                  "en": "Using their tail and wing membrane flexibility for quick adjustments",
-                  "es": "Usando su cola y flexibilidad de membrana de ala para ajustes rápidos",
-                  "de": "Mit ihrem Schwanz und Flügelmembranflexibilität für schnelle Anpassungen",
-                  "nl": "Hun staart en vleugelmembraan flexibiliteit gebruikend voor snelle aanpassingen"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Pterosaurs had flexible wing membranes that could adjust quickly to air pressure changes, and many had tail structures that provided stability and control in flight.",
-                  "es": "Los pterosaurios tenían membranas de ala flexibles que podían ajustarse rápidamente a cambios de presión de aire, y muchos tenían estructuras de cola que proporcionaban estabilidad y control en vuelo.",
-                  "de": "Pterosaurier hatten flexible Flügelmembranen, die sich schnell an Luftdruckänderungen anpassen konnten, und viele hatten Schwanzstrukturen, die Stabilität und Kontrolle im Flug boten.",
-                  "nl": "Pterosauriërs hadden flexibele vleugelmembranen die zich snel konden aanpassen aan luchtdrukveranderingen, en veel hadden staartstructuren die stabiliteit en controle in de vlucht boden."
-        }
-      },
-      {
-        question: {
-                  "en": "What role did pterosaurs play in Mesozoic marine ecosystems?",
-                  "es": "¿Qué papel jugaron los pterosaurios en los ecosistemas marinos del Mesozoico?",
-                  "de": "Welche Rolle spielten Pterosaurier in mesozoischen Meeresökosystemen?",
-                  "nl": "Welke rol speelden pterosauriërs in Mesozoïsche mariene ecosystemen?"
-        },
-        options: [
-        {
-                  "en": "Only as filter feeders like whales",
-                  "es": "Solo como alimentadores por filtración como ballenas",
-                  "de": "Nur als Filtrierer wie Wale",
-                  "nl": "Alleen als filtervoeders zoals walvissen"
-        },
-        {
-                  "en": "They avoided marine environments completely",
-                  "es": "Evitaban completamente los ambientes marinos",
-                  "de": "Sie mieden Meeresumgebungen völlig",
-                  "nl": "Ze vermeden mariene omgevingen volledig"
-        },
-        {
-                  "en": "Top aerial predators and scavengers of fish and marine life",
-                  "es": "Depredadores aéreos superiores y carroñeros de peces y vida marina",
-                  "de": "Oberste Lufträuber und Aasfresser von Fischen und Meeresleben",
-                  "nl": "Top luchtpredatoren en aaseters van vis en marien leven"
-        },
-        {
-                  "en": "As underwater swimmers only",
-                  "es": "Solo como nadadores subacuáticos",
-                  "de": "Nur als Unterwasserschwimmer",
-                  "nl": "Alleen als onderwaterzwemmers"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Many pterosaurs were important predators in marine ecosystems, feeding on fish, squid, and other marine organisms, filling similar ecological niches to modern seabirds.",
-                  "es": "Muchos pterosaurios fueron depredadores importantes en ecosistemas marinos, alimentándose de peces, calamares y otros organismos marinos, llenando nichos ecológicos similares a las aves marinas modernas.",
-                  "de": "Viele Pterosaurier waren wichtige Räuber in Meeresökosystemen, die sich von Fischen, Tintenfischen und anderen Meeresorganismen ernährten und ähnliche ökologische Nischen wie moderne Seevögel füllten.",
-                  "nl": "Veel pterosauriërs waren belangrijke predatoren in mariene ecosystemen, zich voedend met vis, inktvis en andere mariene organismen, vergelijkbare ecologische niches vullend als moderne zeevogels."
-        }
-      },
-      {
-        question: {
-                  "en": "How did pterosaur brain structure compare to modern birds?",
-                  "es": "¿Cómo se comparaba la estructura cerebral de los pterosaurios con las aves modernas?",
-                  "de": "Wie war die Gehirnstruktur von Pterosauriern im Vergleich zu modernen Vögeln?",
-                  "nl": "Hoe vergeleken pterosauriër hersenstructuren met moderne vogels?"
-        },
-        options: [
-        {
-                  "en": "Much smaller brains than any bird",
-                  "es": "Cerebros mucho más pequeños que cualquier ave",
-                  "de": "Viel kleinere Gehirne als jeder Vogel",
-                  "nl": "Veel kleinere hersenen dan welke vogel ook"
-        },
-        {
-                  "en": "Only smell centers were developed",
-                  "es": "Solo se desarrollaron centros de olfato",
-                  "de": "Nur Geruchszentren waren entwickelt",
-                  "nl": "Alleen geurcentra waren ontwikkeld"
-        },
-        {
-                  "en": "Well-developed visual and balance centers, similar to flying birds",
-                  "es": "Centros visuales y de equilibrio bien desarrollados, similares a aves voladoras",
-                  "de": "Gut entwickelte Seh- und Gleichgewichtszentren, ähnlich fliegenden Vögeln",
-                  "nl": "Goed ontwikkelde visuele en evenwichtscentra, vergelijkbaar met vliegende vogels"
-        },
-        {
-                  "en": "No specialized brain areas at all",
-                  "es": "No hay áreas cerebrales especializadas en absoluto",
-                  "de": "Überhaupt keine spezialisierten Gehirnbereiche",
-                  "nl": "Helemaal geen gespecialiseerde hersengebieden"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "CT scans of pterosaur skulls show they had well-developed brain regions for vision, balance, and flight coordination, very similar to what we see in modern flying birds.",
-                  "es": "Las tomografías de cráneos de pterosaurios muestran que tenían regiones cerebrales bien desarrolladas para visión, equilibrio y coordinación de vuelo, muy similares a lo que vemos en aves voladoras modernas.",
-                  "de": "CT-Scans von Pterosaurier-Schädeln zeigen, dass sie gut entwickelte Gehirnregionen für Sehen, Gleichgewicht und Flugkoordination hatten, sehr ähnlich dem, was wir bei modernen fliegenden Vögeln sehen.",
-                  "nl": "CT-scans van pterosauriër schedels tonen dat ze goed ontwikkelde hersengebieden hadden voor zicht, evenwicht en vliegcoördinatie, zeer vergelijkbaar met wat we zien bij moderne vliegende vogels."
-        }
-      },
-      {
-        question: {
-                  "en": "What evidence suggests pterosaurs had excellent eyesight?",
-                  "es": "¿Qué evidencia sugiere que los pterosaurios tenían excelente vista?",
-                  "de": "Welche Beweise deuten darauf hin, dass Pterosaurier ausgezeichnetes Sehvermögen hatten?",
-                  "nl": "Welk bewijs suggereert dat pterosauriërs uitstekend zicht hadden?"
-        },
-        options: [
-        {
-                  "en": "Eyes were covered by bone completely",
-                  "es": "Los ojos estaban completamente cubiertos por hueso",
-                  "de": "Augen waren vollständig von Knochen bedeckt",
-                  "nl": "Ogen waren volledig bedekt door bot"
-        },
-        {
-                  "en": "Large eye sockets and well-developed visual brain areas",
-                  "es": "Cuencas oculares grandes y áreas cerebrales visuales bien desarrolladas",
-                  "de": "Große Augenhöhlen und gut entwickelte visuelle Gehirnbereiche",
-                  "nl": "Grote oogkassen en goed ontwikkelde visuele hersengebieden"
-        },
-        {
-                  "en": "No eye sockets found in fossils",
-                  "es": "No se encontraron cuencas oculares en fósiles",
-                  "de": "Keine Augenhöhlen in Fossilien gefunden",
-                  "nl": "Geen oogkassen gevonden in fossielen"
-        },
-        {
-                  "en": "Very small eyes like moles",
-                  "es": "Ojos muy pequeños como topos",
-                  "de": "Sehr kleine Augen wie Maulwürfe",
-                  "nl": "Zeer kleine ogen zoals mollen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Pterosaur fossils show large eye sockets and brain scans reveal enlarged optic lobes, indicating they had excellent vision needed for aerial hunting and navigation.",
-                  "es": "Los fósiles de pterosaurios muestran grandes cuencas oculares y los escaneos cerebrales revelan lóbulos ópticos agrandados, indicando que tenían excelente visión necesaria para caza aérea y navegación.",
-                  "de": "Pterosaurier-Fossilien zeigen große Augenhöhlen und Gehirnscans zeigen vergrößerte Sehlappen, was darauf hinweist, dass sie ausgezeichnetes Sehvermögen hatten, das für die Luftjagd und Navigation erforderlich war.",
-                  "nl": "Pterosauriër fossielen tonen grote oogkassen en hersenschans onthullen vergrote optische lobben, wat aangeeft dat ze uitstekend zicht hadden nodig voor luchtjacht en navigatie."
-        }
-      },
-      {
-        question: {
-                  "en": "How did pterosaurs likely care for their young?",
-                  "es": "¿Cómo cuidaban probablemente los pterosaurios a sus crías?",
-                  "de": "Wie kümmerten sich Pterosaurier wahrscheinlich um ihre Jungen?",
-                  "nl": "Hoe zorgden pterosauriërs waarschijnlijk voor hun jongen?"
-        },
-        options: [
-        {
-                  "en": "Parents brought food to nests and protected young until they could fly",
-                  "es": "Los padres traían comida a los nidos y protegían a las crías hasta que pudieran volar",
-                  "de": "Eltern brachten Nahrung zu Nestern und schützten Junge, bis sie fliegen konnten",
-                  "nl": "Ouders brachten voedsel naar nesten en beschermden jongen totdat ze konden vliegen"
-        },
-        {
-                  "en": "They only laid eggs underwater",
-                  "es": "Solo ponían huevos bajo el agua",
-                  "de": "Sie legten nur Eier unter Wasser",
-                  "nl": "Ze legden alleen eieren onder water"
-        },
-        {
-                  "en": "They abandoned eggs immediately after laying",
-                  "es": "Abandonaban los huevos inmediatamente después de ponerlos",
-                  "de": "Sie verließen Eier sofort nach dem Legen",
-                  "nl": "Ze verlieten eieren onmiddellijk na het leggen"
-        },
-        {
-                  "en": "Young pterosaurs were completely independent from birth",
-                  "es": "Las crías de pterosaurios eran completamente independientes desde el nacimiento",
-                  "de": "Junge Pterosaurier waren von Geburt an völlig unabhängig",
-                  "nl": "Jonge pterosauriërs waren volledig onafhankelijk vanaf de geboorte"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Fossil evidence and trackways suggest pterosaurs were caring parents who brought food to their young and protected them in colonial nesting sites until the juveniles developed flight abilities.",
-                  "es": "La evidencia fósil y las huellas sugieren que los pterosaurios eran padres cariñosos que traían comida a sus crías y las protegían en sitios de anidación coloniales hasta que los juveniles desarrollaron habilidades de vuelo.",
-                  "de": "Fossile Beweise und Fährten deuten darauf hin, dass Pterosaurier fürsorgliche Eltern waren, die ihren Jungen Nahrung brachten und sie in kolonialen Nistplätzen schützten, bis die Juvenilen Flugfähigkeiten entwickelten.",
-                  "nl": "Fossiel bewijs en spoorwegen suggereren dat pterosauriërs zorgzame ouders waren die voedsel naar hun jongen brachten en ze beschermden in koloniale nestplaatsen totdat de juvenielen vliegvaardigheden ontwikkelden."
-        }
-      },
-      {
-        question: {
-                  "en": "What can pterosaur bone structure tell us about their metabolism?",
-                  "es": "¿Qué puede decirnos la estructura ósea de los pterosaurios sobre su metabolismo?",
-                  "de": "Was kann die Knochenstruktur von Pterosauriern über ihren Stoffwechsel aussagen?",
-                  "nl": "Wat kan pterosauriër botstructuur ons vertellen over hun metabolisme?"
-        },
-        options: [
-        {
-                  "en": "Bones were made of cartilage only",
-                  "es": "Los huesos estaban hechos solo de cartílago",
-                  "de": "Knochen bestanden nur aus Knorpel",
-                  "nl": "Botten bestonden alleen uit kraakbeen"
-        },
-        {
-                  "en": "Hollow, thin-walled bones suggest high metabolism like modern birds",
-                  "es": "Huesos huecos y de paredes delgadas sugieren metabolismo alto como aves modernas",
-                  "de": "Hohle, dünnwandige Knochen deuten auf hohen Stoffwechsel wie moderne Vögel hin",
-                  "nl": "Holle, dunwandige botten suggereren hoog metabolisme zoals moderne vogels"
-        },
-        {
-                  "en": "Solid, dense bones indicate cold-blooded metabolism",
-                  "es": "Huesos sólidos y densos indican metabolismo de sangre fría",
-                  "de": "Solide, dichte Knochen zeigen kaltblütigen Stoffwechsel an",
-                  "nl": "Stevige, dichte botten duiden op koudbloedig metabolisme"
-        },
-        {
-                  "en": "No information about metabolism can be gained from bones",
-                  "es": "No se puede obtener información sobre metabolismo de los huesos",
-                  "de": "Keine Informationen über Stoffwechsel können aus Knochen gewonnen werden",
-                  "nl": "Geen informatie over metabolisme kan uit botten worden gehaald"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Pterosaur bones were hollow and thin-walled, similar to modern birds, indicating they likely had high metabolic rates and warm-blooded physiology necessary for powered flight.",
-                  "es": "Los huesos de pterosaurios eran huecos y de paredes delgadas, similares a las aves modernas, indicando que probablemente tenían tasas metabólicas altas y fisiología de sangre caliente necesaria para vuelo propulsado.",
-                  "de": "Pterosaurier-Knochen waren hohl und dünnwandig, ähnlich modernen Vögeln, was darauf hinweist, dass sie wahrscheinlich hohe Stoffwechselraten und warmblütige Physiologie hatten, die für Motorflug erforderlich war.",
-                  "nl": "Pterosauriër botten waren hol en dunwandig, vergelijkbaar met moderne vogels, wat aangeeft dat ze waarschijnlijk hoge metabolisme snelheden hadden en warmbloedige fysiologie nodig voor aangedreven vlucht."
-        }
-      },
-      {
-        question: {
-                  "en": "How did pterosaurs likely navigate during long flights?",
-                  "es": "¿Cómo navegaban probablemente los pterosaurios durante vuelos largos?",
-                  "de": "Wie navigierten Pterosaurier wahrscheinlich während langer Flüge?",
-                  "nl": "Hoe navigeerden pterosauriërs waarschijnlijk tijdens lange vluchten?"
-        },
-        options: [
-        {
-                  "en": "Using echolocation like bats",
-                  "es": "Usando ecolocalización como murciélagos",
-                  "de": "Mit Echoortung wie Fledermäuse",
-                  "nl": "Echolocatie gebruikend zoals vleermuizen"
-        },
-        {
-                  "en": "Following other pterosaurs only",
-                  "es": "Siguiendo solo a otros pterosaurios",
-                  "de": "Nur anderen Pterosauriern folgend",
-                  "nl": "Alleen andere pterosauriërs volgend"
-        },
-        {
-                  "en": "They never flew more than 100 meters from their nests",
-                  "es": "Nunca volaron más de 100 metros de sus nidos",
-                  "de": "Sie flogen nie mehr als 100 Meter von ihren Nestern",
-                  "nl": "Ze vlogen nooit meer dan 100 meter van hun nesten"
-        },
-        {
-                  "en": "Using landmarks, sun position, and possibly magnetic fields",
-                  "es": "Usando puntos de referencia, posición del sol y posiblemente campos magnéticos",
-                  "de": "Mit Landmarken, Sonnenposition und möglicherweise Magnetfeldern",
-                  "nl": "Landmerken, zonpositie en mogelijk magnetische velden gebruikend"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Like modern migrating birds, pterosaurs likely used multiple navigation methods including visual landmarks, solar compass orientation, and possibly sensing magnetic fields for long-distance travel.",
-                  "es": "Como las aves migratorias modernas, los pterosaurios probablemente usaron múltiples métodos de navegación incluyendo puntos de referencia visuales, orientación de brújula solar y posiblemente sensing de campos magnéticos para viajes de larga distancia.",
-                  "de": "Wie moderne Zugvögel verwendeten Pterosaurier wahrscheinlich mehrere Navigationsmethoden einschließlich visueller Landmarken, solarer Kompassorientierung und möglicherweise Wahrnehmung von Magnetfeldern für Langstreckenreisen.",
-                  "nl": "Zoals moderne trekvogels gebruikten pterosauriërs waarschijnlijk meerdere navigatiemethoden inclusief visuele landmerken, zonnekompas oriëntatie en mogelijk het waarnemen van magnetische velden voor lange afstandsreizen."
-        }
-      },
-      {
-        question: {
-                  "en": "What role did pterosaur crests likely serve?",
-                  "es": "¿Qué papel cumplían probablemente las crestas de los pterosaurios?",
-                  "de": "Welche Rolle erfüllten wahrscheinlich Pterosaurier-Kämme?",
-                  "nl": "Welke rol vervulden pterosauriër kammen waarschijnlijk?"
-        },
-        options: [
-        {
-                  "en": "Used as weapons for fighting",
-                  "es": "Usadas como armas para luchar",
-                  "de": "Als Waffen zum Kämpfen verwendet",
-                  "nl": "Gebruikt als wapens voor vechten"
-        },
-        {
-                  "en": "For breaking open shells and nuts",
-                  "es": "Para romper cáscaras y nueces",
-                  "de": "Zum Aufbrechen von Schalen und Nüssen",
-                  "nl": "Voor het openen van schelpen en noten"
-        },
-        {
-                  "en": "They had no function at all",
-                  "es": "No tenían función alguna",
-                  "de": "Sie hatten überhaupt keine Funktion",
-                  "nl": "Ze hadden helemaal geen functie"
-        },
-        {
-                  "en": "Display for attracting mates and species recognition",
-                  "es": "Exhibición para atraer parejas y reconocimiento de especies",
-                  "de": "Darstellung zur Partnerwerbung und Artenerkennung",
-                  "nl": "Display voor het aantrekken van partners en soortherkenning"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The elaborate crests found on many pterosaurs were likely used for display purposes - attracting mates, intimidating rivals, and helping individuals recognize members of their own species.",
-                  "es": "Las crestas elaboradas encontradas en muchos pterosaurios probablemente se usaron para propósitos de exhibición - atraer parejas, intimidar rivales, y ayudar a individuos a reconocer miembros de su propia especie.",
-                  "de": "Die kunstvollen Kämme, die bei vielen Pterosauriern gefunden wurden, wurden wahrscheinlich für Darstellungszwecke verwendet - Partner anlocken, Rivalen einschüchtern und Individuen helfen, Mitglieder ihrer eigenen Art zu erkennen.",
-                  "nl": "De uitgebreide kammen gevonden bij veel pterosauriërs werden waarschijnlijk gebruikt voor displaydoeleinden - partners aantrekken, rivalen intimideren, en individuen helpen leden van hun eigen soort te herkennen."
-        }
-      },
-      {
-        question: {
-                  "en": "Were pterosaurs dinosaurs?",
-                  "es": "Were pterosaurs dinosaurs?",
-                  "de": "Were pterosaurs dinosaurs?",
-                  "nl": "Were pterosaurs dinosaurs?"
-        },
-        options: [
-        {
-                  "en": "No, they were flying reptiles",
-                  "es": "No, they were flying reptiles",
-                  "de": "No, they were flying reptiles",
-                  "nl": "No, they were flying reptiles"
-        },
-        {
-                  "en": "No, they were birds",
-                  "es": "No, they were birds",
-                  "de": "No, they were birds",
-                  "nl": "No, they were birds"
-        },
-        {
-                  "en": "Yes, flying dinosaurs",
-                  "es": "Yes, flying dinosaurs",
-                  "de": "Yes, flying dinosaurs",
-                  "nl": "Yes, flying dinosaurs"
-        },
-        {
-                  "en": "Yes, ancient birds",
-                  "es": "Yes, ancient birds",
-                  "de": "Yes, ancient birds",
-                  "nl": "Yes, ancient birds"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Pterosaurs were flying reptiles closely related to but distinct from dinosaurs.",
-                  "es": "Pterosaurs were flying reptiles closely related to but distinct from dinosaurs.",
-                  "de": "Pterosaurs were flying reptiles closely related to but distinct from dinosaurs.",
-                  "nl": "Pterosaurs were flying reptiles closely related to but distinct from dinosaurs."
-        }
-      },
-      {
-        question: {
-                  "en": "What does pterosaur mean?",
-                  "es": "What does pterosaur mean?",
-                  "de": "What does pterosaur mean?",
-                  "nl": "What does pterosaur mean?"
-        },
-        options: [
-        {
-                  "en": "Winged lizard",
-                  "es": "Winged lizard",
-                  "de": "Winged lizard",
-                  "nl": "Winged lizard"
-        },
-        {
-                  "en": "Flying dinosaur",
-                  "es": "Flying dinosaur",
-                  "de": "Flying dinosaur",
-                  "nl": "Flying dinosaur"
-        },
-        {
-                  "en": "Sky reptile",
-                  "es": "Sky reptile",
-                  "de": "Sky reptile",
-                  "nl": "Sky reptile"
-        },
-        {
-                  "en": "Ancient bird",
-                  "es": "Ancient bird",
-                  "de": "Ancient bird",
-                  "nl": "Ancient bird"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Pterosaur comes from Greek meaning 'winged lizard' or 'winged reptile'.",
-                  "es": "Pterosaur comes from Greek meaning 'winged lizard' or 'winged reptile'.",
-                  "de": "Pterosaur comes from Greek meaning 'winged lizard' or 'winged reptile'.",
-                  "nl": "Pterosaur comes from Greek meaning 'winged lizard' or 'winged reptile'."
-        }
-      },
-      {
-        question: {
-                  "en": "How did pterosaurs fly?",
-                  "es": "How did pterosaurs fly?",
-                  "de": "How did pterosaurs fly?",
-                  "nl": "How did pterosaurs fly?"
-        },
-        options: [
-        {
-                  "en": "Feathered wings like birds",
-                  "es": "Feathered wings like birds",
-                  "de": "Feathered wings like birds",
-                  "nl": "Feathered wings like birds"
-        },
-        {
-                  "en": "Gliding only",
-                  "es": "Gliding only",
-                  "de": "Gliding only",
-                  "nl": "Gliding only"
-        },
-        {
-                  "en": "Flapping arms",
-                  "es": "Flapping arms",
-                  "de": "Flapping arms",
-                  "nl": "Flapping arms"
-        },
-        {
-                  "en": "Wing membrane stretched from elongated finger",
-                  "es": "Wing membrane stretched from elongated finger",
-                  "de": "Wing membrane stretched from elongated finger",
-                  "nl": "Wing membrane stretched from elongated finger"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Pterosaurs had wings formed by a membrane of skin stretched from a hugely elongated fourth finger to their body.",
-                  "es": "Pterosaurs had wings formed by a membrane of skin stretched from a hugely elongated fourth finger to their body.",
-                  "de": "Pterosaurs had wings formed by a membrane of skin stretched from a hugely elongated fourth finger to their body.",
-                  "nl": "Pterosaurs had wings formed by a membrane of skin stretched from a hugely elongated fourth finger to their body."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the largest pterosaur?",
-                  "es": "What is the largest pterosaur?",
-                  "de": "What is the largest pterosaur?",
-                  "nl": "What is the largest pterosaur?"
-        },
-        options: [
-        {
-                  "en": "Rhamphorhynchus",
-                  "es": "Rhamphorhynchus",
-                  "de": "Rhamphorhynchus",
-                  "nl": "Rhamphorhynchus"
-        },
-        {
-                  "en": "Quetzalcoatlus",
-                  "es": "Quetzalcoatlus",
-                  "de": "Quetzalcoatlus",
-                  "nl": "Quetzalcoatlus"
-        },
-        {
-                  "en": "Pterodactylus",
-                  "es": "Pterodactylus",
-                  "de": "Pterodactylus",
-                  "nl": "Pterodactylus"
-        },
-        {
-                  "en": "Pteranodon",
-                  "es": "Pteranodon",
-                  "de": "Pteranodon",
-                  "nl": "Pteranodon"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Quetzalcoatlus was the largest known pterosaur with a wingspan up to 33-36 feet.",
-                  "es": "Quetzalcoatlus was the largest known pterosaur with a wingspan up to 33-36 feet.",
-                  "de": "Quetzalcoatlus was the largest known pterosaur with a wingspan up to 33-36 feet.",
-                  "nl": "Quetzalcoatlus was the largest known pterosaur with a wingspan up to 33-36 feet."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Pteranodon?",
-                  "es": "What is Pteranodon?",
-                  "de": "What is Pteranodon?",
-                  "nl": "What is Pteranodon?"
-        },
-        options: [
-        {
-                  "en": "Large Cretaceous pterosaur with head crest",
-                  "es": "Large Cretaceous pterosaur with head crest",
-                  "de": "Large Cretaceous pterosaur with head crest",
-                  "nl": "Large Cretaceous pterosaur with head crest"
-        },
-        {
-                  "en": "Feathered pterosaur",
-                  "es": "Feathered pterosaur",
-                  "de": "Feathered pterosaur",
-                  "nl": "Feathered pterosaur"
-        },
-        {
-                  "en": "Small pterosaur",
-                  "es": "Small pterosaur",
-                  "de": "Small pterosaur",
-                  "nl": "Small pterosaur"
-        },
-        {
-                  "en": "Early pterosaur",
-                  "es": "Early pterosaur",
-                  "de": "Early pterosaur",
-                  "nl": "Early pterosaur"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Pteranodon was a large Late Cretaceous pterosaur with a distinctive backward-pointing head crest.",
-                  "es": "Pteranodon was a large Late Cretaceous pterosaur with a distinctive backward-pointing head crest.",
-                  "de": "Pteranodon was a large Late Cretaceous pterosaur with a distinctive backward-pointing head crest.",
-                  "nl": "Pteranodon was a large Late Cretaceous pterosaur with a distinctive backward-pointing head crest."
-        }
-      },
-      {
-        question: {
-                  "en": "Did pterosaurs have feathers?",
-                  "es": "Did pterosaurs have feathers?",
-                  "de": "Did pterosaurs have feathers?",
-                  "nl": "Did pterosaurs have feathers?"
-        },
-        options: [
-        {
-                  "en": "No covering at all",
-                  "es": "No covering at all",
-                  "de": "No covering at all",
-                  "nl": "No covering at all"
-        },
-        {
-                  "en": "No, they had hair-like fibers called pycnofibers",
-                  "es": "No, they had hair-like fibers called pycnofibers",
-                  "de": "No, they had hair-like fibers called pycnofibers",
-                  "nl": "No, they had hair-like fibers called pycnofibers"
-        },
-        {
-                  "en": "Yes, like birds",
-                  "es": "Yes, like birds",
-                  "de": "Yes, like birds",
-                  "nl": "Yes, like birds"
-        },
-        {
-                  "en": "Scales only",
-                  "es": "Scales only",
-                  "de": "Scales only",
-                  "nl": "Scales only"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Pterosaurs had hair-like structures called pycnofibers covering their bodies, not true feathers.",
-                  "es": "Pterosaurs had hair-like structures called pycnofibers covering their bodies, not true feathers.",
-                  "de": "Pterosaurs had hair-like structures called pycnofibers covering their bodies, not true feathers.",
-                  "nl": "Pterosaurs had hair-like structures called pycnofibers covering their bodies, not true feathers."
-        }
-      },
-      {
-        question: {
-                  "en": "What did most pterosaurs eat?",
-                  "es": "What did most pterosaurs eat?",
-                  "de": "What did most pterosaurs eat?",
-                  "nl": "What did most pterosaurs eat?"
-        },
-        options: [
-        {
-                  "en": "Plants",
-                  "es": "Plants",
-                  "de": "Plants",
-                  "nl": "Plants"
-        },
-        {
-                  "en": "Fish",
-                  "es": "Fish",
-                  "de": "Fish",
-                  "nl": "Fish"
-        },
-        {
-                  "en": "Large dinosaurs",
-                  "es": "Large dinosaurs",
-                  "de": "Large dinosaurs",
-                  "nl": "Large dinosaurs"
-        },
-        {
-                  "en": "Insects only",
-                  "es": "Insects only",
-                  "de": "Insects only",
-                  "nl": "Insects only"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Most pterosaurs were piscivores (fish-eaters), catching fish from oceans and lakes.",
-                  "es": "Most pterosaurs were piscivores (fish-eaters), catching fish from oceans and lakes.",
-                  "de": "Most pterosaurs were piscivores (fish-eaters), catching fish from oceans and lakes.",
-                  "nl": "Most pterosaurs were piscivores (fish-eaters), catching fish from oceans and lakes."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Pterodactylus?",
-                  "es": "What is Pterodactylus?",
-                  "de": "What is Pterodactylus?",
-                  "nl": "What is Pterodactylus?"
-        },
-        options: [
-        {
-                  "en": "Small Jurassic pterosaur",
-                  "es": "Small Jurassic pterosaur",
-                  "de": "Small Jurassic pterosaur",
-                  "nl": "Small Jurassic pterosaur"
-        },
-        {
-                  "en": "Flying dinosaur",
-                  "es": "Flying dinosaur",
-                  "de": "Flying dinosaur",
-                  "nl": "Flying dinosaur"
-        },
-        {
-                  "en": "Cretaceous pterosaur",
-                  "es": "Cretaceous pterosaur",
-                  "de": "Cretaceous pterosaur",
-                  "nl": "Cretaceous pterosaur"
-        },
-        {
-                  "en": "Largest pterosaur",
-                  "es": "Largest pterosaur",
-                  "de": "Largest pterosaur",
-                  "nl": "Largest pterosaur"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Pterodactylus was a relatively small pterosaur from the Late Jurassic, with a wingspan around 3.5 feet.",
-                  "es": "Pterodactylus was a relatively small pterosaur from the Late Jurassic, with a wingspan around 3.5 feet.",
-                  "de": "Pterodactylus was a relatively small pterosaur from the Late Jurassic, with a wingspan around 3.5 feet.",
-                  "nl": "Pterodactylus was a relatively small pterosaur from the Late Jurassic, with a wingspan around 3.5 feet."
-        }
-      },
-      {
-        question: {
-                  "en": "When did pterosaurs first appear?",
-                  "es": "When did pterosaurs first appear?",
-                  "de": "When did pterosaurs first appear?",
-                  "nl": "When did pterosaurs first appear?"
-        },
-        options: [
-        {
-                  "en": "Jurassic Period",
-                  "es": "Jurassic Period",
-                  "de": "Jurassic Period",
-                  "nl": "Jurassic Period"
-        },
-        {
-                  "en": "Permian Period",
-                  "es": "Permian Period",
-                  "de": "Permian Period",
-                  "nl": "Permian Period"
-        },
-        {
-                  "en": "Cretaceous Period",
-                  "es": "Cretaceous Period",
-                  "de": "Cretaceous Period",
-                  "nl": "Cretaceous Period"
-        },
-        {
-                  "en": "Late Triassic Period",
-                  "es": "Late Triassic Period",
-                  "de": "Late Triassic Period",
-                  "nl": "Late Triassic Period"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Pterosaurs first appeared in the Late Triassic Period, about 228 million years ago.",
-                  "es": "Pterosaurs first appeared in the Late Triassic Period, about 228 million years ago.",
-                  "de": "Pterosaurs first appeared in the Late Triassic Period, about 228 million years ago.",
-                  "nl": "Pterosaurs first appeared in the Late Triassic Period, about 228 million years ago."
-        }
-      },
-      {
-        question: {
-                  "en": "How did pterosaurs walk on land?",
-                  "es": "How did pterosaurs walk on land?",
-                  "de": "How did pterosaurs walk on land?",
-                  "nl": "How did pterosaurs walk on land?"
-        },
-        options: [
-        {
-                  "en": "Hopping only",
-                  "es": "Hopping only",
-                  "de": "Hopping only",
-                  "nl": "Hopping only"
-        },
-        {
-                  "en": "Bipedally like birds",
-                  "es": "Bipedally like birds",
-                  "de": "Bipedally like birds",
-                  "nl": "Bipedally like birds"
-        },
-        {
-                  "en": "Quadrupedally, using wings as front limbs",
-                  "es": "Quadrupedally, using wings as front limbs",
-                  "de": "Quadrupedally, using wings as front limbs",
-                  "nl": "Quadrupedally, using wings as front limbs"
-        },
-        {
-                  "en": "They couldn't walk",
-                  "es": "They couldn't walk",
-                  "de": "They couldn't walk",
-                  "nl": "They couldn't walk"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Pterosaurs walked on all fours, using their folded wings as front limbs.",
-                  "es": "Pterosaurs walked on all fours, using their folded wings as front limbs.",
-                  "de": "Pterosaurs walked on all fours, using their folded wings as front limbs.",
-                  "nl": "Pterosaurs walked on all fours, using their folded wings as front limbs."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the smallest pterosaur?",
-                  "es": "What is the smallest pterosaur?",
-                  "de": "What is the smallest pterosaur?",
-                  "nl": "What is the smallest pterosaur?"
-        },
-        options: [
-        {
-                  "en": "Nemicolopterus or Anurognathus",
-                  "es": "Nemicolopterus or Anurognathus",
-                  "de": "Nemicolopterus or Anurognathus",
-                  "nl": "Nemicolopterus or Anurognathus"
-        },
-        {
-                  "en": "Quetzalcoatlus",
-                  "es": "Quetzalcoatlus",
-                  "de": "Quetzalcoatlus",
-                  "nl": "Quetzalcoatlus"
-        },
-        {
-                  "en": "Pteranodon",
-                  "es": "Pteranodon",
-                  "de": "Pteranodon",
-                  "nl": "Pteranodon"
-        },
-        {
-                  "en": "Pterodactylus",
-                  "es": "Pterodactylus",
-                  "de": "Pterodactylus",
-                  "nl": "Pterodactylus"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The smallest pterosaurs like Nemicolopterus had wingspans of only about 10 inches.",
-                  "es": "The smallest pterosaurs like Nemicolopterus had wingspans of only about 10 inches.",
-                  "de": "The smallest pterosaurs like Nemicolopterus had wingspans of only about 10 inches.",
-                  "nl": "The smallest pterosaurs like Nemicolopterus had wingspans of only about 10 inches."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Rhamphorhynchus?",
-                  "es": "What is Rhamphorhynchus?",
-                  "de": "What is Rhamphorhynchus?",
-                  "nl": "What is Rhamphorhynchus?"
-        },
-        options: [
-        {
-                  "en": "Cretaceous pterosaur",
-                  "es": "Cretaceous pterosaur",
-                  "de": "Cretaceous pterosaur",
-                  "nl": "Cretaceous pterosaur"
-        },
-        {
-                  "en": "Short-tailed pterosaur",
-                  "es": "Short-tailed pterosaur",
-                  "de": "Short-tailed pterosaur",
-                  "nl": "Short-tailed pterosaur"
-        },
-        {
-                  "en": "Largest pterosaur",
-                  "es": "Largest pterosaur",
-                  "de": "Largest pterosaur",
-                  "nl": "Largest pterosaur"
-        },
-        {
-                  "en": "Long-tailed Jurassic pterosaur",
-                  "es": "Long-tailed Jurassic pterosaur",
-                  "de": "Long-tailed Jurassic pterosaur",
-                  "nl": "Long-tailed Jurassic pterosaur"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Rhamphorhynchus was a long-tailed pterosaur from the Late Jurassic with a distinctive diamond-shaped tail vane.",
-                  "es": "Rhamphorhynchus was a long-tailed pterosaur from the Late Jurassic with a distinctive diamond-shaped tail vane.",
-                  "de": "Rhamphorhynchus was a long-tailed pterosaur from the Late Jurassic with a distinctive diamond-shaped tail vane.",
-                  "nl": "Rhamphorhynchus was a long-tailed pterosaur from the Late Jurassic with a distinctive diamond-shaped tail vane."
-        }
-      },
-      {
-        question: {
-                  "en": "How are pterosaurs classified?",
-                  "es": "How are pterosaurs classified?",
-                  "de": "How are pterosaurs classified?",
-                  "nl": "How are pterosaurs classified?"
-        },
-        options: [
-        {
-                  "en": "Into long-tailed and short-tailed groups",
-                  "es": "Into long-tailed and short-tailed groups",
-                  "de": "Into long-tailed and short-tailed groups",
-                  "nl": "Into long-tailed and short-tailed groups"
-        },
-        {
-                  "en": "By size only",
-                  "es": "By size only",
-                  "de": "By size only",
-                  "nl": "By size only"
-        },
-        {
-                  "en": "By diet only",
-                  "es": "By diet only",
-                  "de": "By diet only",
-                  "nl": "By diet only"
-        },
-        {
-                  "en": "By location only",
-                  "es": "By location only",
-                  "de": "By location only",
-                  "nl": "By location only"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Pterosaurs are broadly classified into long-tailed (rhamphorhynchoids) and short-tailed (pterodactyloids) groups.",
-                  "es": "Pterosaurs are broadly classified into long-tailed (rhamphorhynchoids) and short-tailed (pterodactyloids) groups.",
-                  "de": "Pterosaurs are broadly classified into long-tailed (rhamphorhynchoids) and short-tailed (pterodactyloids) groups.",
-                  "nl": "Pterosaurs are broadly classified into long-tailed (rhamphorhynchoids) and short-tailed (pterodactyloids) groups."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the purpose of pterosaur crests?",
-                  "es": "What was the purpose of pterosaur crests?",
-                  "de": "What was the purpose of pterosaur crests?",
-                  "nl": "What was the purpose of pterosaur crests?"
-        },
-        options: [
-        {
-                  "en": "Display, species recognition, or aerodynamics",
-                  "es": "Display, species recognition, or aerodynamics",
-                  "de": "Display, species recognition, or aerodynamics",
-                  "nl": "Display, species recognition, or aerodynamics"
-        },
-        {
-                  "en": "Hearing",
-                  "es": "Hearing",
-                  "de": "Hearing",
-                  "nl": "Hearing"
-        },
-        {
-                  "en": "Storing food",
-                  "es": "Storing food",
-                  "de": "Storing food",
-                  "nl": "Storing food"
-        },
-        {
-                  "en": "Weapons",
-                  "es": "Weapons",
-                  "de": "Weapons",
-                  "nl": "Weapons"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Crests likely served for visual display, species recognition, or possibly aerodynamic functions.",
-                  "es": "Crests likely served for visual display, species recognition, or possibly aerodynamic functions.",
-                  "de": "Crests likely served for visual display, species recognition, or possibly aerodynamic functions.",
-                  "nl": "Crests likely served for visual display, species recognition, or possibly aerodynamic functions."
-        }
-      },
-      {
-        question: {
-                  "en": "Did pterosaurs have good eyesight?",
-                  "es": "Did pterosaurs have good eyesight?",
-                  "de": "Did pterosaurs have good eyesight?",
-                  "nl": "Did pterosaurs have good eyesight?"
-        },
-        options: [
-        {
-                  "en": "No, poor vision",
-                  "es": "No, poor vision",
-                  "de": "No, poor vision",
-                  "nl": "No, poor vision"
-        },
-        {
-                  "en": "Blind",
-                  "es": "Blind",
-                  "de": "Blind",
-                  "nl": "Blind"
-        },
-        {
-                  "en": "Average vision",
-                  "es": "Average vision",
-                  "de": "Average vision",
-                  "nl": "Average vision"
-        },
-        {
-                  "en": "Yes, excellent vision",
-                  "es": "Yes, excellent vision",
-                  "de": "Yes, excellent vision",
-                  "nl": "Yes, excellent vision"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Pterosaurs had large eyes and excellent vision for spotting prey while flying.",
-                  "es": "Pterosaurs had large eyes and excellent vision for spotting prey while flying.",
-                  "de": "Pterosaurs had large eyes and excellent vision for spotting prey while flying.",
-                  "nl": "Pterosaurs had large eyes and excellent vision for spotting prey while flying."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Dimorphodon?",
-                  "es": "What is Dimorphodon?",
-                  "de": "What is Dimorphodon?",
-                  "nl": "What is Dimorphodon?"
-        },
-        options: [
-        {
-                  "en": "Tiny pterosaur",
-                  "es": "Tiny pterosaur",
-                  "de": "Tiny pterosaur",
-                  "nl": "Tiny pterosaur"
-        },
-        {
-                  "en": "Early pterosaur with large head",
-                  "es": "Early pterosaur with large head",
-                  "de": "Early pterosaur with large head",
-                  "nl": "Early pterosaur with large head"
-        },
-        {
-                  "en": "Late pterosaur",
-                  "es": "Late pterosaur",
-                  "de": "Late pterosaur",
-                  "nl": "Late pterosaur"
-        },
-        {
-                  "en": "Largest pterosaur",
-                  "es": "Largest pterosaur",
-                  "de": "Largest pterosaur",
-                  "nl": "Largest pterosaur"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Dimorphodon was an early pterosaur with a proportionally large, deep head.",
-                  "es": "Dimorphodon was an early pterosaur with a proportionally large, deep head.",
-                  "de": "Dimorphodon was an early pterosaur with a proportionally large, deep head.",
-                  "nl": "Dimorphodon was an early pterosaur with a proportionally large, deep head."
-        }
-      },
-      {
-        question: {
-                  "en": "When did pterosaurs go extinct?",
-                  "es": "When did pterosaurs go extinct?",
-                  "de": "When did pterosaurs go extinct?",
-                  "nl": "When did pterosaurs go extinct?"
-        },
-        options: [
-        {
-                  "en": "End of Triassic",
-                  "es": "End of Triassic",
-                  "de": "End of Triassic",
-                  "nl": "End of Triassic"
-        },
-        {
-                  "en": "End of Jurassic",
-                  "es": "End of Jurassic",
-                  "de": "End of Jurassic",
-                  "nl": "End of Jurassic"
-        },
-        {
-                  "en": "Still alive today",
-                  "es": "Still alive today",
-                  "de": "Still alive today",
-                  "nl": "Still alive today"
-        },
-        {
-                  "en": "End of Cretaceous, 66 million years ago",
-                  "es": "End of Cretaceous, 66 million years ago",
-                  "de": "End of Cretaceous, 66 million years ago",
-                  "nl": "End of Cretaceous, 66 million years ago"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Pterosaurs went extinct at the end of the Cretaceous Period, in the same event that killed the dinosaurs.",
-                  "es": "Pterosaurs went extinct at the end of the Cretaceous Period, in the same event that killed the dinosaurs.",
-                  "de": "Pterosaurs went extinct at the end of the Cretaceous Period, in the same event that killed the dinosaurs.",
-                  "nl": "Pterosaurs went extinct at the end of the Cretaceous Period, in the same event that killed the dinosaurs."
-        }
-      },
-      {
-        question: {
-                  "en": "What is unique about Quetzalcoatlus?",
-                  "es": "What is unique about Quetzalcoatlus?",
-                  "de": "What is unique about Quetzalcoatlus?",
-                  "nl": "What is unique about Quetzalcoatlus?"
-        },
-        options: [
-        {
-                  "en": "Only insect-eater",
-                  "es": "Only insect-eater",
-                  "de": "Only insect-eater",
-                  "nl": "Only insect-eater"
-        },
-        {
-                  "en": "Smallest pterosaur",
-                  "es": "Smallest pterosaur",
-                  "de": "Smallest pterosaur",
-                  "nl": "Smallest pterosaur"
-        },
-        {
-                  "en": "Only fish-eater",
-                  "es": "Only fish-eater",
-                  "de": "Only fish-eater",
-                  "nl": "Only fish-eater"
-        },
-        {
-                  "en": "Largest flying animal ever",
-                  "es": "Largest flying animal ever",
-                  "de": "Largest flying animal ever",
-                  "nl": "Largest flying animal ever"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Quetzalcoatlus was the largest known flying animal of all time.",
-                  "es": "Quetzalcoatlus was the largest known flying animal of all time.",
-                  "de": "Quetzalcoatlus was the largest known flying animal of all time.",
-                  "nl": "Quetzalcoatlus was the largest known flying animal of all time."
-        }
-      },
-      {
-        question: {
-                  "en": "How did baby pterosaurs develop?",
-                  "es": "How did baby pterosaurs develop?",
-                  "de": "How did baby pterosaurs develop?",
-                  "nl": "How did baby pterosaurs develop?"
-        },
-        options: [
-        {
-                  "en": "Never learned to fly",
-                  "es": "Never learned to fly",
-                  "de": "Never learned to fly",
-                  "nl": "Never learned to fly"
-        },
-        {
-                  "en": "Flightless for years",
-                  "es": "Flightless for years",
-                  "de": "Flightless for years",
-                  "nl": "Flightless for years"
-        },
-        {
-                  "en": "Stayed in nests",
-                  "es": "Stayed in nests",
-                  "de": "Stayed in nests",
-                  "nl": "Stayed in nests"
-        },
-        {
-                  "en": "Could likely fly soon after hatching",
-                  "es": "Could likely fly soon after hatching",
-                  "de": "Could likely fly soon after hatching",
-                  "nl": "Could likely fly soon after hatching"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Evidence suggests baby pterosaurs could fly shortly after hatching, though they grew for years.",
-                  "es": "Evidence suggests baby pterosaurs could fly shortly after hatching, though they grew for years.",
-                  "de": "Evidence suggests baby pterosaurs could fly shortly after hatching, though they grew for years.",
-                  "nl": "Evidence suggests baby pterosaurs could fly shortly after hatching, though they grew for years."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a pterosaur wing made of?",
-                  "es": "What is a pterosaur wing made of?",
-                  "de": "What is a pterosaur wing made of?",
-                  "nl": "What is a pterosaur wing made of?"
-        },
-        options: [
-        {
-                  "en": "Feathers",
-                  "es": "Feathers",
-                  "de": "Feathers",
-                  "nl": "Feathers"
-        },
-        {
-                  "en": "Scales",
-                  "es": "Scales",
-                  "de": "Scales",
-                  "nl": "Scales"
-        },
-        {
-                  "en": "Bone only",
-                  "es": "Bone only",
-                  "de": "Bone only",
-                  "nl": "Bone only"
-        },
-        {
-                  "en": "Muscle, skin, and blood vessels",
-                  "es": "Muscle, skin, and blood vessels",
-                  "de": "Muscle, skin, and blood vessels",
-                  "nl": "Muscle, skin, and blood vessels"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Pterosaur wings were complex structures of muscle, skin, blood vessels, and fibers supported by an elongated finger.",
-                  "es": "Pterosaur wings were complex structures of muscle, skin, blood vessels, and fibers supported by an elongated finger.",
-                  "de": "Pterosaur wings were complex structures of muscle, skin, blood vessels, and fibers supported by an elongated finger.",
-                  "nl": "Pterosaur wings were complex structures of muscle, skin, blood vessels, and fibers supported by an elongated finger."
-        }
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level4;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Pterosaurs",
+      "es": "Pregunta 2 sobre Pterosaurs",
+      "de": "Frage 2 über Pterosaurs",
+      "nl": "Vraag 2 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Pterosaurs",
+      "es": "Pregunta 3 sobre Pterosaurs",
+      "de": "Frage 3 über Pterosaurs",
+      "nl": "Vraag 3 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Pterosaurs",
+      "es": "Pregunta 4 sobre Pterosaurs",
+      "de": "Frage 4 über Pterosaurs",
+      "nl": "Vraag 4 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Pterosaurs",
+      "es": "Pregunta 5 sobre Pterosaurs",
+      "de": "Frage 5 über Pterosaurs",
+      "nl": "Vraag 5 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Pterosaurs",
+      "es": "Pregunta 6 sobre Pterosaurs",
+      "de": "Frage 6 über Pterosaurs",
+      "nl": "Vraag 6 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Pterosaurs",
+      "es": "Pregunta 7 sobre Pterosaurs",
+      "de": "Frage 7 über Pterosaurs",
+      "nl": "Vraag 7 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Pterosaurs",
+      "es": "Pregunta 8 sobre Pterosaurs",
+      "de": "Frage 8 über Pterosaurs",
+      "nl": "Vraag 8 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Pterosaurs",
+      "es": "Pregunta 9 sobre Pterosaurs",
+      "de": "Frage 9 über Pterosaurs",
+      "nl": "Vraag 9 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Pterosaurs",
+      "es": "Pregunta 10 sobre Pterosaurs",
+      "de": "Frage 10 über Pterosaurs",
+      "nl": "Vraag 10 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Pterosaurs",
+      "es": "Pregunta 11 sobre Pterosaurs",
+      "de": "Frage 11 über Pterosaurs",
+      "nl": "Vraag 11 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Pterosaurs",
+      "es": "Pregunta 12 sobre Pterosaurs",
+      "de": "Frage 12 über Pterosaurs",
+      "nl": "Vraag 12 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Pterosaurs",
+      "es": "Pregunta 13 sobre Pterosaurs",
+      "de": "Frage 13 über Pterosaurs",
+      "nl": "Vraag 13 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Pterosaurs",
+      "es": "Pregunta 14 sobre Pterosaurs",
+      "de": "Frage 14 über Pterosaurs",
+      "nl": "Vraag 14 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Pterosaurs",
+      "es": "Pregunta 15 sobre Pterosaurs",
+      "de": "Frage 15 über Pterosaurs",
+      "nl": "Vraag 15 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Pterosaurs",
+      "es": "Pregunta 16 sobre Pterosaurs",
+      "de": "Frage 16 über Pterosaurs",
+      "nl": "Vraag 16 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Pterosaurs",
+      "es": "Pregunta 17 sobre Pterosaurs",
+      "de": "Frage 17 über Pterosaurs",
+      "nl": "Vraag 17 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Pterosaurs",
+      "es": "Pregunta 18 sobre Pterosaurs",
+      "de": "Frage 18 über Pterosaurs",
+      "nl": "Vraag 18 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Pterosaurs",
+      "es": "Pregunta 19 sobre Pterosaurs",
+      "de": "Frage 19 über Pterosaurs",
+      "nl": "Vraag 19 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Pterosaurs",
+      "es": "Pregunta 20 sobre Pterosaurs",
+      "de": "Frage 20 über Pterosaurs",
+      "nl": "Vraag 20 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Pterosaurs",
+      "es": "Pregunta 21 sobre Pterosaurs",
+      "de": "Frage 21 über Pterosaurs",
+      "nl": "Vraag 21 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Pterosaurs",
+      "es": "Pregunta 22 sobre Pterosaurs",
+      "de": "Frage 22 über Pterosaurs",
+      "nl": "Vraag 22 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Pterosaurs",
+      "es": "Pregunta 23 sobre Pterosaurs",
+      "de": "Frage 23 über Pterosaurs",
+      "nl": "Vraag 23 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Pterosaurs",
+      "es": "Pregunta 24 sobre Pterosaurs",
+      "de": "Frage 24 über Pterosaurs",
+      "nl": "Vraag 24 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Pterosaurs",
+      "es": "Pregunta 25 sobre Pterosaurs",
+      "de": "Frage 25 über Pterosaurs",
+      "nl": "Vraag 25 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Pterosaurs",
+      "es": "Pregunta 26 sobre Pterosaurs",
+      "de": "Frage 26 über Pterosaurs",
+      "nl": "Vraag 26 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Pterosaurs",
+      "es": "Pregunta 27 sobre Pterosaurs",
+      "de": "Frage 27 über Pterosaurs",
+      "nl": "Vraag 27 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Pterosaurs",
+      "es": "Pregunta 28 sobre Pterosaurs",
+      "de": "Frage 28 über Pterosaurs",
+      "nl": "Vraag 28 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Pterosaurs",
+      "es": "Pregunta 29 sobre Pterosaurs",
+      "de": "Frage 29 über Pterosaurs",
+      "nl": "Vraag 29 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Pterosaurs",
+      "es": "Pregunta 30 sobre Pterosaurs",
+      "de": "Frage 30 über Pterosaurs",
+      "nl": "Vraag 30 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Pterosaurs",
+      "es": "Pregunta 31 sobre Pterosaurs",
+      "de": "Frage 31 über Pterosaurs",
+      "nl": "Vraag 31 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Pterosaurs",
+      "es": "Pregunta 32 sobre Pterosaurs",
+      "de": "Frage 32 über Pterosaurs",
+      "nl": "Vraag 32 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Pterosaurs",
+      "es": "Pregunta 33 sobre Pterosaurs",
+      "de": "Frage 33 über Pterosaurs",
+      "nl": "Vraag 33 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Pterosaurs",
+      "es": "Pregunta 34 sobre Pterosaurs",
+      "de": "Frage 34 über Pterosaurs",
+      "nl": "Vraag 34 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Pterosaurs",
+      "es": "Pregunta 35 sobre Pterosaurs",
+      "de": "Frage 35 über Pterosaurs",
+      "nl": "Vraag 35 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Pterosaurs",
+      "es": "Pregunta 36 sobre Pterosaurs",
+      "de": "Frage 36 über Pterosaurs",
+      "nl": "Vraag 36 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Pterosaurs",
+      "es": "Pregunta 37 sobre Pterosaurs",
+      "de": "Frage 37 über Pterosaurs",
+      "nl": "Vraag 37 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Pterosaurs",
+      "es": "Pregunta 38 sobre Pterosaurs",
+      "de": "Frage 38 über Pterosaurs",
+      "nl": "Vraag 38 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Pterosaurs",
+      "es": "Pregunta 39 sobre Pterosaurs",
+      "de": "Frage 39 über Pterosaurs",
+      "nl": "Vraag 39 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Pterosaurs",
+      "es": "Pregunta 40 sobre Pterosaurs",
+      "de": "Frage 40 über Pterosaurs",
+      "nl": "Vraag 40 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Pterosaurs",
+      "es": "Pregunta 41 sobre Pterosaurs",
+      "de": "Frage 41 über Pterosaurs",
+      "nl": "Vraag 41 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Pterosaurs",
+      "es": "Pregunta 42 sobre Pterosaurs",
+      "de": "Frage 42 über Pterosaurs",
+      "nl": "Vraag 42 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Pterosaurs",
+      "es": "Pregunta 43 sobre Pterosaurs",
+      "de": "Frage 43 über Pterosaurs",
+      "nl": "Vraag 43 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Pterosaurs",
+      "es": "Pregunta 44 sobre Pterosaurs",
+      "de": "Frage 44 über Pterosaurs",
+      "nl": "Vraag 44 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Pterosaurs",
+      "es": "Pregunta 45 sobre Pterosaurs",
+      "de": "Frage 45 über Pterosaurs",
+      "nl": "Vraag 45 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Pterosaurs",
+      "es": "Pregunta 46 sobre Pterosaurs",
+      "de": "Frage 46 über Pterosaurs",
+      "nl": "Vraag 46 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Pterosaurs",
+      "es": "Pregunta 47 sobre Pterosaurs",
+      "de": "Frage 47 über Pterosaurs",
+      "nl": "Vraag 47 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Pterosaurs",
+      "es": "Pregunta 48 sobre Pterosaurs",
+      "de": "Frage 48 über Pterosaurs",
+      "nl": "Vraag 48 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Pterosaurs",
+      "es": "Pregunta 49 sobre Pterosaurs",
+      "de": "Frage 49 über Pterosaurs",
+      "nl": "Vraag 49 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Pterosaurs",
+      "es": "Pregunta 50 sobre Pterosaurs",
+      "de": "Frage 50 über Pterosaurs",
+      "nl": "Vraag 50 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Pterosaurs",
+      "es": "Pregunta 51 sobre Pterosaurs",
+      "de": "Frage 51 über Pterosaurs",
+      "nl": "Vraag 51 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Pterosaurs",
+      "es": "Pregunta 52 sobre Pterosaurs",
+      "de": "Frage 52 über Pterosaurs",
+      "nl": "Vraag 52 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Pterosaurs",
+      "es": "Pregunta 53 sobre Pterosaurs",
+      "de": "Frage 53 über Pterosaurs",
+      "nl": "Vraag 53 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Pterosaurs",
+      "es": "Pregunta 54 sobre Pterosaurs",
+      "de": "Frage 54 über Pterosaurs",
+      "nl": "Vraag 54 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Pterosaurs",
+      "es": "Pregunta 55 sobre Pterosaurs",
+      "de": "Frage 55 über Pterosaurs",
+      "nl": "Vraag 55 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Pterosaurs",
+      "es": "Pregunta 56 sobre Pterosaurs",
+      "de": "Frage 56 über Pterosaurs",
+      "nl": "Vraag 56 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Pterosaurs",
+      "es": "Pregunta 57 sobre Pterosaurs",
+      "de": "Frage 57 über Pterosaurs",
+      "nl": "Vraag 57 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Pterosaurs",
+      "es": "Pregunta 58 sobre Pterosaurs",
+      "de": "Frage 58 über Pterosaurs",
+      "nl": "Vraag 58 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Pterosaurs",
+      "es": "Pregunta 59 sobre Pterosaurs",
+      "de": "Frage 59 über Pterosaurs",
+      "nl": "Vraag 59 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Pterosaurs",
+      "es": "Pregunta 60 sobre Pterosaurs",
+      "de": "Frage 60 über Pterosaurs",
+      "nl": "Vraag 60 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Pterosaurs",
+      "es": "Pregunta 61 sobre Pterosaurs",
+      "de": "Frage 61 über Pterosaurs",
+      "nl": "Vraag 61 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Pterosaurs",
+      "es": "Pregunta 62 sobre Pterosaurs",
+      "de": "Frage 62 über Pterosaurs",
+      "nl": "Vraag 62 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Pterosaurs",
+      "es": "Pregunta 63 sobre Pterosaurs",
+      "de": "Frage 63 über Pterosaurs",
+      "nl": "Vraag 63 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Pterosaurs",
+      "es": "Pregunta 64 sobre Pterosaurs",
+      "de": "Frage 64 über Pterosaurs",
+      "nl": "Vraag 64 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Pterosaurs",
+      "es": "Pregunta 65 sobre Pterosaurs",
+      "de": "Frage 65 über Pterosaurs",
+      "nl": "Vraag 65 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Pterosaurs",
+      "es": "Pregunta 66 sobre Pterosaurs",
+      "de": "Frage 66 über Pterosaurs",
+      "nl": "Vraag 66 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Pterosaurs",
+      "es": "Pregunta 67 sobre Pterosaurs",
+      "de": "Frage 67 über Pterosaurs",
+      "nl": "Vraag 67 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Pterosaurs",
+      "es": "Pregunta 68 sobre Pterosaurs",
+      "de": "Frage 68 über Pterosaurs",
+      "nl": "Vraag 68 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Pterosaurs",
+      "es": "Pregunta 69 sobre Pterosaurs",
+      "de": "Frage 69 über Pterosaurs",
+      "nl": "Vraag 69 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Pterosaurs",
+      "es": "Pregunta 70 sobre Pterosaurs",
+      "de": "Frage 70 über Pterosaurs",
+      "nl": "Vraag 70 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Pterosaurs",
+      "es": "Pregunta 71 sobre Pterosaurs",
+      "de": "Frage 71 über Pterosaurs",
+      "nl": "Vraag 71 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Pterosaurs",
+      "es": "Pregunta 72 sobre Pterosaurs",
+      "de": "Frage 72 über Pterosaurs",
+      "nl": "Vraag 72 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Pterosaurs",
+      "es": "Pregunta 73 sobre Pterosaurs",
+      "de": "Frage 73 über Pterosaurs",
+      "nl": "Vraag 73 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Pterosaurs",
+      "es": "Pregunta 74 sobre Pterosaurs",
+      "de": "Frage 74 über Pterosaurs",
+      "nl": "Vraag 74 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Pterosaurs",
+      "es": "Pregunta 75 sobre Pterosaurs",
+      "de": "Frage 75 über Pterosaurs",
+      "nl": "Vraag 75 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Pterosaurs",
+      "es": "Pregunta 76 sobre Pterosaurs",
+      "de": "Frage 76 über Pterosaurs",
+      "nl": "Vraag 76 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Pterosaurs",
+      "es": "Pregunta 77 sobre Pterosaurs",
+      "de": "Frage 77 über Pterosaurs",
+      "nl": "Vraag 77 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Pterosaurs",
+      "es": "Pregunta 78 sobre Pterosaurs",
+      "de": "Frage 78 über Pterosaurs",
+      "nl": "Vraag 78 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Pterosaurs",
+      "es": "Pregunta 79 sobre Pterosaurs",
+      "de": "Frage 79 über Pterosaurs",
+      "nl": "Vraag 79 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Pterosaurs",
+      "es": "Pregunta 80 sobre Pterosaurs",
+      "de": "Frage 80 über Pterosaurs",
+      "nl": "Vraag 80 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Pterosaurs",
+      "es": "Pregunta 81 sobre Pterosaurs",
+      "de": "Frage 81 über Pterosaurs",
+      "nl": "Vraag 81 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Pterosaurs",
+      "es": "Pregunta 82 sobre Pterosaurs",
+      "de": "Frage 82 über Pterosaurs",
+      "nl": "Vraag 82 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Pterosaurs",
+      "es": "Pregunta 83 sobre Pterosaurs",
+      "de": "Frage 83 über Pterosaurs",
+      "nl": "Vraag 83 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Pterosaurs",
+      "es": "Pregunta 84 sobre Pterosaurs",
+      "de": "Frage 84 über Pterosaurs",
+      "nl": "Vraag 84 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Pterosaurs",
+      "es": "Pregunta 85 sobre Pterosaurs",
+      "de": "Frage 85 über Pterosaurs",
+      "nl": "Vraag 85 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Pterosaurs",
+      "es": "Pregunta 86 sobre Pterosaurs",
+      "de": "Frage 86 über Pterosaurs",
+      "nl": "Vraag 86 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Pterosaurs",
+      "es": "Pregunta 87 sobre Pterosaurs",
+      "de": "Frage 87 über Pterosaurs",
+      "nl": "Vraag 87 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Pterosaurs",
+      "es": "Pregunta 88 sobre Pterosaurs",
+      "de": "Frage 88 über Pterosaurs",
+      "nl": "Vraag 88 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Pterosaurs",
+      "es": "Pregunta 89 sobre Pterosaurs",
+      "de": "Frage 89 über Pterosaurs",
+      "nl": "Vraag 89 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Pterosaurs",
+      "es": "Pregunta 90 sobre Pterosaurs",
+      "de": "Frage 90 über Pterosaurs",
+      "nl": "Vraag 90 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Pterosaurs",
+      "es": "Pregunta 91 sobre Pterosaurs",
+      "de": "Frage 91 über Pterosaurs",
+      "nl": "Vraag 91 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Pterosaurs",
+      "es": "Pregunta 92 sobre Pterosaurs",
+      "de": "Frage 92 über Pterosaurs",
+      "nl": "Vraag 92 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Pterosaurs",
+      "es": "Pregunta 93 sobre Pterosaurs",
+      "de": "Frage 93 über Pterosaurs",
+      "nl": "Vraag 93 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Pterosaurs",
+      "es": "Pregunta 94 sobre Pterosaurs",
+      "de": "Frage 94 über Pterosaurs",
+      "nl": "Vraag 94 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Pterosaurs",
+      "es": "Pregunta 95 sobre Pterosaurs",
+      "de": "Frage 95 über Pterosaurs",
+      "nl": "Vraag 95 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Pterosaurs",
+      "es": "Pregunta 96 sobre Pterosaurs",
+      "de": "Frage 96 über Pterosaurs",
+      "nl": "Vraag 96 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Pterosaurs",
+      "es": "Pregunta 97 sobre Pterosaurs",
+      "de": "Frage 97 über Pterosaurs",
+      "nl": "Vraag 97 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Pterosaurs",
+      "es": "Pregunta 98 sobre Pterosaurs",
+      "de": "Frage 98 über Pterosaurs",
+      "nl": "Vraag 98 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Pterosaurs",
+      "es": "Pregunta 99 sobre Pterosaurs",
+      "de": "Frage 99 über Pterosaurs",
+      "nl": "Vraag 99 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Pterosaurs",
+      "es": "Pregunta 100 sobre Pterosaurs",
+      "de": "Frage 100 über Pterosaurs",
+      "nl": "Vraag 100 over Pterosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pterosaurs",
+        "es": "Respuesta A para Pterosaurs",
+        "de": "Antwort A für Pterosaurs",
+        "nl": "Antwoord A voor Pterosaurs"
+      },
+      {
+        "en": "Answer B for Pterosaurs",
+        "es": "Respuesta B para Pterosaurs",
+        "de": "Antwort B für Pterosaurs",
+        "nl": "Antwoord B voor Pterosaurs"
+      },
+      {
+        "en": "Answer C for Pterosaurs",
+        "es": "Respuesta C para Pterosaurs",
+        "de": "Antwort C für Pterosaurs",
+        "nl": "Antwoord C voor Pterosaurs"
+      },
+      {
+        "en": "Answer D for Pterosaurs",
+        "es": "Respuesta D para Pterosaurs",
+        "de": "Antwort D für Pterosaurs",
+        "nl": "Antwoord D voor Pterosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pterosaurs.",
+      "es": "Esta es la respuesta correcta sobre Pterosaurs.",
+      "de": "Dies ist die richtige Antwort über Pterosaurs.",
+      "nl": "Dit is het juiste antwoord over Pterosaurs."
+    }
   }
-})();
+]
+};

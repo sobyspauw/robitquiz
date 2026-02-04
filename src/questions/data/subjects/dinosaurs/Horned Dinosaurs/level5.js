@@ -1,1657 +1,4104 @@
-// Horned Dinosaurs Quiz - Level 5
-(function() {
-  const level5 = {
-    name: {
-          "en": "Horned Dinosaurs Level 5",
-          "es": "Dinosaurios con Cuernos Nivel 5",
-          "de": "Gehörnte Dinosaurier Stufe 5",
-          "nl": "Gehoornde Dino's Level 5"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Horned Dinosaurs",
+      "es": "Pregunta 1 sobre Horned Dinosaurs",
+      "de": "Frage 1 über Horned Dinosaurs",
+      "nl": "Vraag 1 over Horned Dinosaurs"
     },
-    questions: [
+    "options": [
       {
-        question: {
-                  "en": "Which early ceratopsian is considered the sister taxon to all other ceratopsians?",
-                  "es": "¿Qué ceratopsiano temprano se considera el taxón hermano de todos los demás ceratopsianos?",
-                  "de": "Welcher frühe Ceratopsier wird als Schwestertaxon aller anderen Ceratopsier betrachtet?",
-                  "nl": "Welke vroege ceratopsiër wordt beschouwd als het zustertaxon van alle andere ceratopsiërs?"
-        },
-        options: [
-        {
-                  "en": "Yinlong",
-                  "es": "Yinlong",
-                  "de": "Yinlong",
-                  "nl": "Yinlong"
-        },
-        {
-                  "en": "Triceratops",
-                  "es": "Triceratops",
-                  "de": "Triceratops",
-                  "nl": "Triceratops"
-        },
-        {
-                  "en": "Styracosaurus",
-                  "es": "Styracosaurus",
-                  "de": "Styracosaurus",
-                  "nl": "Styracosaurus"
-        },
-        {
-                  "en": "Protoceratops",
-                  "es": "Protoceratops",
-                  "de": "Protoceratops",
-                  "nl": "Protoceratops"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Yinlong is considered the most basal ceratopsian, representing the earliest known member of the ceratopsian lineage from the Late Jurassic of China.",
-                  "es": "Yinlong se considera el ceratopsiano más basal, representando el miembro más temprano conocido del linaje ceratopsiano del Jurásico Tardío de China.",
-                  "de": "Yinlong gilt als basalster Ceratopsier und repräsentiert das früheste bekannte Mitglied der Ceratopsier-Linie aus dem späten Jura Chinas.",
-                  "nl": "Yinlong wordt beschouwd als de meest basale ceratopsiër, die het vroegst bekende lid van de ceratopsiër-lijn uit het Late Jura van China vertegenwoordigt."
-        }
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
       },
       {
-        question: {
-                  "en": "What major evolutionary transition occurred between Psittacosaurus and Protoceratops?",
-                  "es": "¿Qué transición evolutiva mayor ocurrió entre Psittacosaurus y Protoceratops?",
-                  "de": "Welcher große evolutionäre Übergang ereignete sich zwischen Psittacosaurus und Protoceratops?",
-                  "nl": "Welke grote evolutionaire overgang vond plaats tussen Psittacosaurus en Protoceratops?"
-        },
-        options: [
-        {
-                  "en": "Acquisition of flight",
-                  "es": "Adquisición del vuelo",
-                  "de": "Erlangung des Fluges",
-                  "nl": "Verwerving van vlucht"
-        },
-        {
-                  "en": "Development of carnivorous diet",
-                  "es": "Desarrollo de dieta carnívora",
-                  "de": "Entwicklung einer fleischfressenden Ernährung",
-                  "nl": "Ontwikkeling van carnivoor dieet"
-        },
-        {
-                  "en": "Development of a true frill",
-                  "es": "Desarrollo de un volante verdadero",
-                  "de": "Entwicklung eines echten Kragens",
-                  "nl": "Ontwikkeling van een echte kraag"
-        },
-        {
-                  "en": "Loss of bipedal locomotion",
-                  "es": "Pérdida de locomoción bípeda",
-                  "de": "Verlust der zweibeinigen Fortbewegung",
-                  "nl": "Verlies van tweevoetige voortbeweging"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The evolution from Psittacosaurus to Protoceratops marks the development of a true frill, which became the defining feature of ceratopsians.",
-                  "es": "La evolución de Psittacosaurus a Protoceratops marca el desarrollo de un volante verdadero, que se convirtió en la característica definitoria de los ceratopsianos.",
-                  "de": "Die Evolution von Psittacosaurus zu Protoceratops markiert die Entwicklung eines echten Kragens, der zum definierenden Merkmal der Ceratopsier wurde.",
-                  "nl": "De evolutie van Psittacosaurus naar Protoceratops markeert de ontwikkeling van een echte kraag, die het definiërende kenmerk van ceratopsiërs werd."
-        }
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
       },
       {
-        question: {
-                  "en": "Which ceratopsian represents the earliest known occurrence of facial horns?",
-                  "es": "¿Qué ceratopsiano representa la primera ocurrencia conocida de cuernos faciales?",
-                  "de": "Welcher Ceratopsier repräsentiert das früheste bekannte Vorkommen von Gesichtshörnern?",
-                  "nl": "Welke ceratopsiër vertegenwoordigt het vroegst bekende voorkomen van gezichtshoorns?"
-        },
-        options: [
-        {
-                  "en": "Psittacosaurus",
-                  "es": "Psittacosaurus",
-                  "de": "Psittacosaurus",
-                  "nl": "Psittacosaurus"
-        },
-        {
-                  "en": "Chaoyangsaurus",
-                  "es": "Chaoyangsaurus",
-                  "de": "Chaoyangsaurus",
-                  "nl": "Chaoyangsaurus"
-        },
-        {
-                  "en": "Zuniceratops",
-                  "es": "Zuniceratops",
-                  "de": "Zuniceratops",
-                  "nl": "Zuniceratops"
-        },
-        {
-                  "en": "Yinlong",
-                  "es": "Yinlong",
-                  "de": "Yinlong",
-                  "nl": "Yinlong"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Zuniceratops, from the Turonian stage, represents the earliest ceratopsian with true facial horns, marking a key evolutionary step toward later ceratopsids.",
-                  "es": "Zuniceratops, del estadio Turoniano, representa el ceratopsiano más temprano con cuernos faciales verdaderos, marcando un paso evolutivo clave hacia los ceratópsidos posteriores.",
-                  "de": "Zuniceratops aus dem Turonium repräsentiert den frühesten Ceratopsier mit echten Gesichtshörnern und markiert einen wichtigen evolutionären Schritt zu späteren Ceratopsiden.",
-                  "nl": "Zuniceratops, uit het Turonien, vertegenwoordigt de vroegste ceratopsiër met echte gezichtshoorns, wat een belangrijke evolutionaire stap markeert naar latere ceratopsiden."
-        }
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
       },
       {
-        question: {
-                  "en": "What phylogenetic evidence suggests ceratopsians are closely related to pachycephalosaurs?",
-                  "es": "¿Qué evidencia filogenética sugiere que los ceratopsianos están estrechamente relacionados con los paquicefalosaurios?",
-                  "de": "Welche phylogenetischen Belege deuten darauf hin, dass Ceratopsier eng mit Pachycephalosauriern verwandt sind?",
-                  "nl": "Welk fylogenetisch bewijs suggereert dat ceratopsiërs nauw verwant zijn aan pachycephalosaurs?"
-        },
-        options: [
-        {
-                  "en": "Similar feeding habits",
-                  "es": "Hábitos alimenticios similares",
-                  "de": "Ähnliche Fressgewohnheiten",
-                  "nl": "Vergelijkbare voedingsgewoonten"
-        },
-        {
-                  "en": "Identical body size",
-                  "es": "Tamaño corporal idéntico",
-                  "de": "Identische Körpergröße",
-                  "nl": "Identieke lichaamsgrootte"
-        },
-        {
-                  "en": "Same geographic distribution",
-                  "es": "Misma distribución geográfica",
-                  "de": "Gleiche geografische Verteilung",
-                  "nl": "Dezelfde geografische verspreiding"
-        },
-        {
-                  "en": "Shared marginocephalian characteristics",
-                  "es": "Características marginocefalias compartidas",
-                  "de": "Gemeinsame marginocephale Merkmale",
-                  "nl": "Gedeelde marginocephalische kenmerken"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Both ceratopsians and pachycephalosaurs belong to Marginocephalia, sharing features like thickened skull roofs and similar pelvic structures.",
-                  "es": "Tanto los ceratopsianos como los paquicefalosaurios pertenecen a Marginocephalia, compartiendo características como techos craneales engrosados y estructuras pélvicas similares.",
-                  "de": "Sowohl Ceratopsier als auch Pachycephalosaurier gehören zu Marginocephalia und teilen Merkmale wie verdickte Schädeldächer und ähnliche Beckenstrukturen.",
-                  "nl": "Zowel ceratopsiërs als pachycephalosaurs behoren tot Marginocephalia en delen kenmerken zoals verdikte schedeldaken en vergelijkbare bekkenstructuren."
-        }
-      },
-      {
-        question: {
-                  "en": "Which evolutionary pressure likely drove the diversification of ceratopsian frill ornamentation?",
-                  "es": "¿Qué presión evolutiva probablemente impulsó la diversificación de la ornamentación del volante ceratopsiano?",
-                  "de": "Welcher evolutionäre Druck trieb wahrscheinlich die Diversifikation der Ceratopsier-Kragenverzierung an?",
-                  "nl": "Welke evolutionaire druk dreef waarschijnlijk de diversificatie van ceratopsiër-kraagversiering aan?"
-        },
-        options: [
-        {
-                  "en": "Improved hearing",
-                  "es": "Audición mejorada",
-                  "de": "Verbessertes Hören",
-                  "nl": "Verbeterd gehoor"
-        },
-        {
-                  "en": "Predator avoidance only",
-                  "es": "Solo evitación de depredadores",
-                  "de": "Nur Raubtiervermeidung",
-                  "nl": "Alleen roofdierontwijking"
-        },
-        {
-                  "en": "Sexual selection and species recognition",
-                  "es": "Selección sexual y reconocimiento de especies",
-                  "de": "Sexuelle Selektion und Artenerkennung",
-                  "nl": "Seksuele selectie en soortherkenning"
-        },
-        {
-                  "en": "Thermoregulation",
-                  "es": "Termorregulación",
-                  "de": "Thermoregulation",
-                  "nl": "Thermoregulatie"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The incredible diversity of ceratopsian frill ornamentation suggests strong sexual selection pressures and the need for species recognition in closely related forms.",
-                  "es": "La increíble diversidad de la ornamentación del volante ceratopsiano sugiere fuertes presiones de selección sexual y la necesidad de reconocimiento de especies en formas estrechamente relacionadas.",
-                  "de": "Die unglaubliche Vielfalt der Ceratopsier-Kragenverzierung deutet auf starke sexuelle Selektionsdrücke und die Notwendigkeit der Artenerkennung bei eng verwandten Formen hin.",
-                  "nl": "De ongelooflijke diversiteit van ceratopsiër-kraagversiering suggereert sterke seksuele selectiedruk en de noodzaak van soortherkenning bij nauw verwante vormen."
-        }
-      },
-      {
-        question: {
-                  "en": "What major anatomical change distinguishes derived ceratopsids from basal ceratopsians?",
-                  "es": "¿Qué cambio anatómico mayor distingue los ceratópsidos derivados de los ceratopsianos basales?",
-                  "de": "Welche große anatomische Veränderung unterscheidet abgeleitete Ceratopsiden von basalen Ceratopsiern?",
-                  "nl": "Welke grote anatomische verandering onderscheidt afgeleide ceratopsiden van basale ceratopsiërs?"
-        },
-        options: [
-        {
-                  "en": "Development of large facial horns and expanded frills",
-                  "es": "Desarrollo de grandes cuernos faciales y volantes expandidos",
-                  "de": "Entwicklung großer Gesichtshörner und erweiterter Kragen",
-                  "nl": "Ontwikkeling van grote gezichtshoorns en uitgebreide kragen"
-        },
-        {
-                  "en": "Development of wings",
-                  "es": "Desarrollo de alas",
-                  "de": "Entwicklung von Flügeln",
-                  "nl": "Ontwikkeling van vleugels"
-        },
-        {
-                  "en": "Loss of teeth",
-                  "es": "Pérdida de dientes",
-                  "de": "Zahnverlust",
-                  "nl": "Verlies van tanden"
-        },
-        {
-                  "en": "Return to bipedalism",
-                  "es": "Regreso al bipedalismo",
-                  "de": "Rückkehr zum Zweibeingang",
-                  "nl": "Terugkeer naar tweevoetigheid"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Derived ceratopsids evolved dramatically enlarged facial horns and expanded frills with complex ornamentation, distinguishing them from their smaller, simpler ancestors.",
-                  "es": "Los ceratópsidos derivados evolucionaron cuernos faciales dramáticamente agrandados y volantes expandidos con ornamentación compleja, distinguiéndolos de sus ancestros más pequeños y simples.",
-                  "de": "Abgeleitete Ceratopsiden entwickelten dramatisch vergrößerte Gesichtshörner and erweiterte Kragen mit komplexer Ornamentik, die sie von ihren kleineren, einfacheren Vorfahren unterschieden.",
-                  "nl": "Afgeleide ceratopsiden ontwikkelden dramatisch vergrote gezichtshoorns en uitgebreide kragen met complexe versiering, waardoor ze zich onderscheidden van hun kleinere, eenvoudigere voorouders."
-        }
-      },
-      {
-        question: {
-                  "en": "Which molecular clock analysis suggests ceratopsians diverged from other ornithischians?",
-                  "es": "¿Qué análisis de reloj molecular sugiere que los ceratopsianos divergieron de otros ornitisquios?",
-                  "de": "Welche molekulare Uhr-Analyse legt nahe, dass sich Ceratopsier von anderen Ornithischiern abspalteten?",
-                  "nl": "Welke moleculaire klokanalyse suggereert dat ceratopsiërs zich afsplitsten van andere ornithischiërs?"
-        },
-        options: [
-        {
-                  "en": "During the Cenozoic era",
-                  "es": "Durante la era Cenozoica",
-                  "de": "Während des Känozoikums",
-                  "nl": "Tijdens het Cenozoïcum tijdperk"
-        },
-        {
-                  "en": "During the Middle Jurassic period",
-                  "es": "Durante el período Jurásico Medio",
-                  "de": "Während der mittleren Jurazeit",
-                  "nl": "Tijdens het Midden-Jura tijdperk"
-        },
-        {
-                  "en": "During the Permian period",
-                  "es": "Durante el período Pérmico",
-                  "de": "Während der Perm-Zeit",
-                  "nl": "Tijdens het Perm tijdperk"
-        },
-        {
-                  "en": "During the Cambrian period",
-                  "es": "Durante el período Cámbrico",
-                  "de": "Während des Kambriums",
-                  "nl": "Tijdens het Cambrium tijdperk"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Molecular clock analyses suggest ceratopsians diverged from other marginocephalians during the Middle Jurassic, though the earliest fossils are from the Late Jurassic.",
-                  "es": "Los análisis de reloj molecular sugieren que los ceratopsianos divergieron de otros marginocefalios durante el Jurásico Medio, aunque los primeros fósiles son del Jurásico Tardío.",
-                  "de": "Molekulare Uhr-Analysen deuten darauf hin, dass sich Ceratopsier während des mittleren Jura von anderen Marginocephaliern abspalteten, obwohl die frühesten Fossilien aus dem späten Jura stammen.",
-                  "nl": "Moleculaire klokanalyses suggereren dat ceratopsiërs zich tijdens het Midden-Jura afsplitsten van andere marginocephaliërs, hoewel de vroegste fossielen uit het Late Jura stammen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the significance of Aquilops in ceratopsian evolution?",
-                  "es": "¿Cuál es la importancia de Aquilops en la evolución ceratopsiana?",
-                  "de": "Was ist die Bedeutung von Aquilops in der Ceratopsier-Evolution?",
-                  "nl": "Wat is de betekenis van Aquilops in ceratopsiër-evolutie?"
-        },
-        options: [
-        {
-                  "en": "First ceratopsian found in North America",
-                  "es": "Primer ceratopsiano encontrado en América del Norte",
-                  "de": "Erster in Nordamerika gefundener Ceratopsier",
-                  "nl": "Eerste ceratopsiër gevonden in Noord-Amerika"
-        },
-        {
-                  "en": "Only aquatic ceratopsian",
-                  "es": "Único ceratopsiano acuático",
-                  "de": "Einziger aquatischer Ceratopsier",
-                  "nl": "Enige aquatische ceratopsiër"
-        },
-        {
-                  "en": "Only flying ceratopsian",
-                  "es": "Único ceratopsiano volador",
-                  "de": "Einziger fliegender Ceratopsier",
-                  "nl": "Enige vliegende ceratopsiër"
-        },
-        {
-                  "en": "Largest ceratopsian ever found",
-                  "es": "Ceratopsiano más grande jamás encontrado",
-                  "de": "Größter jemals gefundener Ceratopsier",
-                  "nl": "Grootste ceratopsiër ooit gevonden"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Aquilops represents the earliest known ceratopsian from North America, suggesting an Asian origin for the group followed by migration to North America.",
-                  "es": "Aquilops representa el ceratopsiano más temprano conocido de América del Norte, sugiriendo un origen asiático para el grupo seguido de migración a América del Norte.",
-                  "de": "Aquilops repräsentiert den frühesten bekannten Ceratopsier aus Nordamerika und deutet auf einen asiatischen Ursprung der Gruppe hin, gefolgt von einer Migration nach Nordamerika.",
-                  "nl": "Aquilops vertegenwoordigt de vroegst bekende ceratopsiër uit Noord-Amerika, wat suggereert dat de groep een Aziatische oorsprong had gevolgd door migratie naar Noord-Amerika."
-        }
-      },
-      {
-        question: {
-                  "en": "Which character state is considered ancestral for ceratopsian nasal horns?",
-                  "es": "¿Qué estado de carácter se considera ancestral para los cuernos nasales ceratopsianos?",
-                  "de": "Welcher Merkmalszustand gilt als ancestral für Ceratopsier-Nasenhörner?",
-                  "nl": "Welke karaktertoestand wordt beschouwd als voorouderlijk voor ceratopsiër-neushoorns?"
-        },
-        options: [
-        {
-                  "en": "Curved backward horn",
-                  "es": "Cuerno curvado hacia atrás",
-                  "de": "Nach hinten gekrümmtes Horn",
-                  "nl": "Naar achteren gebogen hoorn"
-        },
-        {
-                  "en": "Absence of prominent nasal horn",
-                  "es": "Ausencia de cuerno nasal prominente",
-                  "de": "Fehlen eines prominenten Nasenhorns",
-                  "nl": "Afwezigheid van prominente neushoorn"
-        },
-        {
-                  "en": "Large forward-pointing horn",
-                  "es": "Gran cuerno apuntando hacia adelante",
-                  "de": "Großes nach vorn zeigendes Horn",
-                  "nl": "Grote naar voren wijzende hoorn"
-        },
-        {
-                  "en": "Multiple nasal horns",
-                  "es": "Múltiples cuernos nasales",
-                  "de": "Mehrere Nasenhörner",
-                  "nl": "Meerdere neushoorns"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Early ceratopsians like Psittacosaurus and Protoceratops lacked prominent nasal horns, suggesting this was the ancestral condition before horn evolution.",
-                  "es": "Los ceratopsianos tempranos como Psittacosaurus y Protoceratops carecían de cuernos nasales prominentes, sugiriendo que esta era la condición ancestral antes de la evolución del cuerno.",
-                  "de": "Frühe Ceratopsier wie Psittacosaurus und Protoceratops fehlten prominente Nasenhörner, was darauf hindeutet, dass dies der ancestrale Zustand vor der Hornentwicklung war.",
-                  "nl": "Vroege ceratopsiërs zoals Psittacosaurus en Protoceratops misten prominente neushoorns, wat suggereert dat dit de voorouderlijke toestand was voor hoorn-evolutie."
-        }
-      },
-      {
-        question: {
-                  "en": "What does the rapid radiation of ceratopsids in the Late Cretaceous suggest?",
-                  "es": "¿Qué sugiere la rápida radiación de los ceratópsidos en el Cretácico Tardío?",
-                  "de": "Was deutet die schnelle Radiation der Ceratopsiden in der späten Kreidezeit an?",
-                  "nl": "Wat suggereert de snelle radiatie van ceratopsiden in het Late Krijt?"
-        },
-        options: [
-        {
-                  "en": "Climate cooling",
-                  "es": "Enfriamiento climático",
-                  "de": "Klimaabkühlung",
-                  "nl": "Klimaatverkoeling"
-        },
-        {
-                  "en": "Asteroid impact",
-                  "es": "Impacto de asteroide",
-                  "de": "Asteroideneinschlag",
-                  "nl": "Asteroïde-inslag"
-        },
-        {
-                  "en": "Mass extinction event",
-                  "es": "Evento de extinción masiva",
-                  "de": "Massenaussterben",
-                  "nl": "Massa-extinctie gebeurtenis"
-        },
-        {
-                  "en": "Adaptive radiation in response to ecological opportunities",
-                  "es": "Radiación adaptativa en respuesta a oportunidades ecológicas",
-                  "de": "Adaptive Radiation als Reaktion auf ökologische Möglichkeiten",
-                  "nl": "Adaptieve radiatie als reactie op ecologische kansen"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The rapid diversification of ceratopsids suggests they underwent adaptive radiation, exploiting new ecological niches and evolving elaborate display structures for species recognition.",
-                  "es": "La rápida diversificación de los ceratópsidos sugiere que experimentaron radiación adaptativa, explotando nuevos nichos ecológicos y evolucionando estructuras de exhibición elaboradas para el reconocimiento de especies.",
-                  "de": "Die schnelle Diversifikation der Ceratopsiden deutet darauf hin, dass sie eine adaptive Radiation durchliefen, neue ökologische Nischen ausbeuteten und elaborate Zurschaustellungsstrukturen für die Artenerkennung entwickelten.",
-                  "nl": "De snelle diversificatie van ceratopsiden suggereert dat ze adaptieve radiatie ondergingen, nieuwe ecologische niches exploiteerden en uitgebreide vertoningsstructuren ontwikkelden voor soortherkenning."
-        }
-      },
-      {
-        question: {
-                  "en": "Which ceratopsian clade is characterized by elaborate frill spikes?",
-                  "es": "¿Qué clado ceratopsiano se caracteriza por púas elaboradas del volante?",
-                  "de": "Welche Ceratopsier-Klade ist durch aufwendige Kragenstacheln charakterisiert?",
-                  "nl": "Welke ceratopsiër-clade wordt gekenmerkt door uitgebreide kraagstekels?"
-        },
-        options: [
-        {
-                  "en": "Psittacosauridae",
-                  "es": "Psittacosauridae",
-                  "de": "Psittacosauridae",
-                  "nl": "Psittacosauridae"
-        },
-        {
-                  "en": "Centrosaurinae",
-                  "es": "Centrosaurinae",
-                  "de": "Centrosaurinae",
-                  "nl": "Centrosaurinae"
-        },
-        {
-                  "en": "Chasmosaurinae",
-                  "es": "Chasmosaurinae",
-                  "de": "Chasmosaurinae",
-                  "nl": "Chasmosaurinae"
-        },
-        {
-                  "en": "Protoceratopsidae",
-                  "es": "Protoceratopsidae",
-                  "de": "Protoceratopsidae",
-                  "nl": "Protoceratopsidae"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Centrosaurinae is characterized by elaborate frill spikes and prominent nasal horns, while Chasmosaurinae typically had smoother frill margins and longer brow horns.",
-                  "es": "Centrosaurinae se caracteriza por púas elaboradas del volante y cuernos nasales prominentes, mientras que Chasmosaurinae típicamente tenía márgenes de volante más lisos y cuernos de las cejas más largos.",
-                  "de": "Centrosaurinae ist durch aufwendige Kragenstacheln und prominente Nasenhörner charakterisiert, während Chasmosaurinae typischerweise glattere Kragenränder und längere Brauenhörner hatte.",
-                  "nl": "Centrosaurinae wordt gekenmerkt door uitgebreide kraagstekels en prominente neushoorns, terwijl Chasmosaurinae typisch gladde kraagmarges en langere wenkbrauwhoorns had."
-        }
-      },
-      {
-        question: {
-                  "en": "What evolutionary trend is observed in ceratopsian frill fenestration?",
-                  "es": "¿Qué tendencia evolutiva se observa en la fenestración del volante ceratopsiano?",
-                  "de": "Welcher evolutionäre Trend wird in der Ceratopsier-Kragenfenestration beobachtet?",
-                  "nl": "Welke evolutionaire trend wordt waargenomen in ceratopsiër-kraagfenestratie?"
-        },
-        options: [
-        {
-                  "en": "Complete loss of fenestrae",
-                  "es": "Pérdida completa de fenestras",
-                  "de": "Vollständiger Verlust der Fenestrae",
-                  "nl": "Volledig verlies van fenestrae"
-        },
-        {
-                  "en": "No change over time",
-                  "es": "Sin cambio a lo largo del tiempo",
-                  "de": "Keine Veränderung über die Zeit",
-                  "nl": "Geen verandering over tijd"
-        },
-        {
-                  "en": "Development of solid bone only",
-                  "es": "Desarrollo de hueso sólido únicamente",
-                  "de": "Entwicklung von nur solidem Knochen",
-                  "nl": "Ontwikkeling van alleen vast bot"
-        },
-        {
-                  "en": "Increase in fenestrae size in derived forms",
-                  "es": "Aumento en el tamaño de las fenestras en formas derivadas",
-                  "de": "Zunahme der Fenestrae-Größe in abgeleiteten Formen",
-                  "nl": "Toename in fenestrae-grootte in afgeleide vormen"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Later ceratopsians, especially chasmosaurines, evolved increasingly large fenestrae to reduce weight while maintaining display surface area.",
-                  "es": "Los ceratopsianos posteriores, especialmente los casmosaurinos, evolucionaron fenestras cada vez más grandes para reducir el peso manteniendo el área de superficie de exhibición.",
-                  "de": "Spätere Ceratopsier, besonders Chasmosaurine, entwickelten zunehmend große Fenestrae, um das Gewicht zu reduzieren und gleichzeitig die Zurschaustellungsoberfläche zu erhalten.",
-                  "nl": "Latere ceratopsiërs, vooral chasmosaurines, ontwikkelden steeds grotere fenestrae om gewicht te verminderen terwijl het vertoningsoppervlak behouden bleef."
-        }
-      },
-      {
-        question: {
-                  "en": "Which biogeographic pattern is observed in ceratopsian evolution?",
-                  "es": "¿Qué patrón biogeográfico se observa en la evolución ceratopsiana?",
-                  "de": "Welches biogeographische Muster wird in der Ceratopsier-Evolution beobachtet?",
-                  "nl": "Welk biogeografisch patroon wordt waargenomen in ceratopsiër-evolutie?"
-        },
-        options: [
-        {
-                  "en": "European origin with global spread",
-                  "es": "Origen europeo con expansión global",
-                  "de": "Europäischer Ursprung mit globaler Ausbreitung",
-                  "nl": "Europese oorsprong met wereldwijde verspreiding"
-        },
-        {
-                  "en": "North American origin only",
-                  "es": "Origen norteamericano únicamente",
-                  "de": "Nur nordamerikanischer Ursprung",
-                  "nl": "Alleen Noord-Amerikaanse oorsprong"
-        },
-        {
-                  "en": "Asian origin with later North American diversification",
-                  "es": "Origen asiático con diversificación norteamericana posterior",
-                  "de": "Asiatischer Ursprung mit späterer nordamerikanischer Diversifikation",
-                  "nl": "Aziatische oorsprong met latere Noord-Amerikaanse diversificatie"
-        },
-        {
-                  "en": "African origin",
-                  "es": "Origen africano",
-                  "de": "Afrikanischer Ursprung",
-                  "nl": "Afrikaanse oorsprong"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Ceratopsians appear to have originated in Asia during the Jurassic and later colonized North America, where they underwent spectacular diversification during the Late Cretaceous.",
-                  "es": "Los ceratopsianos parecen haber originado en Asia durante el Jurásico y posteriormente colonizaron América del Norte, donde experimentaron una diversificación espectacular durante el Cretácico Tardío.",
-                  "de": "Ceratopsier scheinen während des Jura in Asien entstanden zu sein und später Nordamerika kolonisiert zu haben, wo sie während der späten Kreidezeit eine spektakuläre Diversifikation durchliefen.",
-                  "nl": "Ceratopsiërs lijken te zijn ontstaan in Azië tijdens het Jura en later Noord-Amerika te hebben gekoloniseerd, waar ze tijdens het Late Krijt spectaculaire diversificatie ondergingen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the phylogenetic significance of Turanoceratops?",
-                  "es": "¿Cuál es la significancia filogenética de Turanoceratops?",
-                  "de": "Was ist die phylogenetische Bedeutung von Turanoceratops?",
-                  "nl": "Wat is de fylogenetische betekenis van Turanoceratops?"
-        },
-        options: [
-        {
-                  "en": "Represents a European ceratopsid lineage",
-                  "es": "Representa un linaje ceratópsido europeo",
-                  "de": "Repräsentiert eine europäische Ceratopsiden-Linie",
-                  "nl": "Vertegenwoordigt een Europese ceratopside-lijn"
-        },
-        {
-                  "en": "Only nocturnal ceratopsian",
-                  "es": "Único ceratopsiano nocturno",
-                  "de": "Einziger nachtaktiver Ceratopsier",
-                  "nl": "Enige nachtelijke ceratopsiër"
-        },
-        {
-                  "en": "Largest ceratopsian brain",
-                  "es": "Cerebro ceratopsiano más grande",
-                  "de": "Größtes Ceratopsier-Gehirn",
-                  "nl": "Grootste ceratopsiër-brein"
-        },
-        {
-                  "en": "First aquatic ceratopsian",
-                  "es": "Primer ceratopsiano acuático",
-                  "de": "Erster aquatischer Ceratopsier",
-                  "nl": "Eerste aquatische ceratopsiër"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Turanoceratops from Central Asia represents evidence of ceratopsid-grade dinosaurs outside of North America, suggesting broader geographic distribution than previously thought.",
-                  "es": "Turanoceratops de Asia Central representa evidencia de dinosaurios de grado ceratópsido fuera de América del Norte, sugiriendo una distribución geográfica más amplia de lo que se pensaba anteriormente.",
-                  "de": "Turanoceratops aus Zentralasien repräsentiert Belege für Ceratopsiden-Grad-Dinosaurier außerhalb Nordamerikas und deutet auf eine breitere geografische Verteilung hin als zuvor gedacht.",
-                  "nl": "Turanoceratops uit Centraal-Azië vertegenwoordigt bewijs van ceratopside-graad dinosaurussen buiten Noord-Amerika, wat een bredere geografische verspreiding suggereert dan eerder gedacht."
-        }
-      },
-      {
-        question: {
-                  "en": "Which developmental process explains the ontogenetic changes in ceratopsian horn orientation?",
-                  "es": "¿Qué proceso de desarrollo explica los cambios ontogenéticos en la orientación del cuerno ceratopsiano?",
-                  "de": "Welcher Entwicklungsprozess erklärt die ontogenetischen Veränderungen in der Ceratopsier-Hornorientierung?",
-                  "nl": "Welk ontwikkelingsproces verklaart de ontogenetische veranderingen in ceratopsiër-hoornoriëntatie?"
-        },
-        options: [
-        {
-                  "en": "Environmental adaptation",
-                  "es": "Adaptación ambiental",
-                  "de": "Umweltanpassung",
-                  "nl": "Omgevingsaanpassing"
-        },
-        {
-                  "en": "Seasonal migration",
-                  "es": "Migración estacional",
-                  "de": "Saisonale Migration",
-                  "nl": "Seizoensmigratie"
-        },
-        {
-                  "en": "Dietary changes",
-                  "es": "Cambios dietéticos",
-                  "de": "Ernährungsänderungen",
-                  "nl": "Dieetveranderingen"
-        },
-        {
-                  "en": "Differential growth rates and remodeling",
-                  "es": "Tasas de crecimiento diferenciales y remodelación",
-                  "de": "Unterschiedliche Wachstumsraten und Umformung",
-                  "nl": "Differentiële groeisnelheden en hermodellering"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Ontogenetic changes in horn orientation result from differential growth rates and bone remodeling during development, as seen in Triceratops specimens of different ages.",
-                  "es": "Los cambios ontogenéticos en la orientación del cuerno resultan de tasas de crecimiento diferenciales y remodelación ósea durante el desarrollo, como se ve en especímenes de Triceratops de diferentes edades.",
-                  "de": "Ontogenetische Veränderungen in der Hornorientierung resultieren aus unterschiedlichen Wachstumsraten und Knochenumformung während der Entwicklung, wie bei Triceratops-Exemplaren verschiedener Altersstufen zu sehen.",
-                  "nl": "Ontogenetische veranderingen in hoornoriëntatie resulteren uit differentiële groeisnelheden en bothermodellering tijdens ontwikkeling, zoals te zien is in Triceratops-exemplaren van verschillende leeftijden."
-        }
-      },
-      {
-        question: {
-                  "en": "What role did island biogeography play in ceratopsian evolution?",
-                  "es": "¿Qué papel jugó la biogeografía de islas en la evolución ceratopsiana?",
-                  "de": "Welche Rolle spielte die Inselbiogeographie in der Ceratopsier-Evolution?",
-                  "nl": "Welke rol speelde eilandbiogeografie in ceratopsiër-evolutie?"
-        },
-        options: [
-        {
-                  "en": "Prevented all evolution",
-                  "es": "Previno toda evolución",
-                  "de": "Verhinderte alle Evolution",
-                  "nl": "Voorkwam alle evolutie"
-        },
-        {
-                  "en": "Promoted endemic species formation in isolated areas",
-                  "es": "Promovió la formación de especies endémicas en áreas aisladas",
-                  "de": "Förderte die Bildung endemischer Arten in isolierten Gebieten",
-                  "nl": "Bevorderde endemische soortvorming in geïsoleerde gebieden"
-        },
-        {
-                  "en": "Caused global extinction",
-                  "es": "Causó extinción global",
-                  "de": "Verursachte globales Aussterben",
-                  "nl": "Veroorzaakte wereldwijde uitsterving"
-        },
-        {
-                  "en": "Only affected body size",
-                  "es": "Solo afectó el tamaño corporal",
-                  "de": "Beeinflusste nur die Körpergröße",
-                  "nl": "Beïnvloedde alleen lichaamsgrootte"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The fragmented landmasses of the Late Cretaceous created isolated populations that evolved into endemic species, contributing to ceratopsian diversity.",
-                  "es": "Las masas terrestres fragmentadas del Cretácico Tardío crearon poblaciones aisladas que evolucionaron en especies endémicas, contribuyendo a la diversidad ceratopsiana.",
-                  "de": "Die fragmentierten Landmassen der späten Kreidezeit schufen isolierte Populationen, die sich zu endemischen Arten entwickelten und zur Ceratopsier-Vielfalt beitrugen.",
-                  "nl": "De gefragmenteerde landmassa's van het Late Krijt creëerden geïsoleerde populaties die evolueerden tot endemische soorten, wat bijdroeg aan ceratopsiër-diversiteit."
-        }
-      },
-      {
-        question: {
-                  "en": "Which hypothesis best explains the evolution of extreme frill ornamentation?",
-                  "es": "¿Qué hipótesis explica mejor la evolución de la ornamentación extrema del volante?",
-                  "de": "Welche Hypothese erklärt am besten die Evolution extremer Kragenverzierung?",
-                  "nl": "Welke hypothese verklaart het beste de evolutie van extreme kraagversiering?"
-        },
-        options: [
-        {
-                  "en": "Enhanced digestion",
-                  "es": "Digestión mejorada",
-                  "de": "Verbesserte Verdauung",
-                  "nl": "Verbeterde spijsvertering"
-        },
-        {
-                  "en": "Better swimming ability",
-                  "es": "Mejor habilidad de natación",
-                  "de": "Bessere Schwimmfähigkeit",
-                  "nl": "Beter zwemvermogen"
-        },
-        {
-                  "en": "Improved thermoregulation",
-                  "es": "Termorregulación mejorada",
-                  "de": "Verbesserte Thermoregulation",
-                  "nl": "Verbeterde thermoregulatie"
-        },
-        {
-                  "en": "Runaway sexual selection",
-                  "es": "Selección sexual desenfrenada",
-                  "de": "Durchgehende sexuelle Selektion",
-                  "nl": "Ongecontroleerde seksuele selectie"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The elaborate and often impractical frill ornamentations suggest runaway sexual selection, where preference for elaborate displays led to increasingly extreme features.",
-                  "es": "Las ornamentaciones elaboradas y a menudo impracticables del volante sugieren selección sexual desenfrenada, donde la preferencia por exhibiciones elaboradas llevó a características cada vez más extremas.",
-                  "de": "Die aufwendigen und oft unpraktischen Kragenverzierungen deuten auf durchgehende sexuelle Selektion hin, bei der die Präferenz für aufwendige Zurschaustellung zu zunehmend extremen Merkmalen führte.",
-                  "nl": "De uitgebreide en vaak onpraktische kraagversieringen suggereren ongecontroleerde seksuele selectie, waarbij voorkeur voor uitgebreide vertoningen leidde tot steeds extremere kenmerken."
-        }
-      },
-      {
-        question: {
-                  "en": "What evidence supports the hypothesis of ceratopsian parental care?",
-                  "es": "¿Qué evidencia apoya la hipótesis del cuidado parental ceratopsiano?",
-                  "de": "Welche Belege stützen die Hypothese der Ceratopsier-Brutpflege?",
-                  "nl": "Welk bewijs ondersteunt de hypothese van ceratopsiër-ouderlijke zorg?"
-        },
-        options: [
-        {
-                  "en": "Solitary lifestyle",
-                  "es": "Estilo de vida solitario",
-                  "de": "Einzelgängerischer Lebensstil",
-                  "nl": "Solitaire levensstijl"
-        },
-        {
-                  "en": "Nesting sites with multiple age classes",
-                  "es": "Sitios de anidación con múltiples clases de edad",
-                  "de": "Nistplätze mit mehreren Altersklassen",
-                  "nl": "Nestplaatsen met meerdere leeftijdsklassen"
-        },
-        {
-                  "en": "Aquatic adaptations",
-                  "es": "Adaptaciones acuáticas",
-                  "de": "Aquatische Anpassungen",
-                  "nl": "Aquatische aanpassingen"
-        },
-        {
-                  "en": "Carnivorous teeth in adults",
-                  "es": "Dientes carnívoros en adultos",
-                  "de": "Fleischfressende Zähne bei Erwachsenen",
-                  "nl": "Carnivore tanden bij volwassenen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Fossilized nesting sites like those attributed to Maiasaura and evidence of mixed age groups suggest ceratopsians may have exhibited parental care and communal nesting behavior.",
-                  "es": "Los sitios de anidación fosilizados como los atribuidos a Maiasaura y la evidencia de grupos de edad mixta sugieren que los ceratopsianos pueden haber exhibido cuidado parental y comportamiento de anidación comunal.",
-                  "de": "Fossile Nistplätze wie die Maiasaura zugeschriebenen und Belege für gemischte Altersgruppen deuten darauf hin, dass Ceratopsier Brutpflege und gemeinschaftliches Nistverhalten gezeigt haben könnten.",
-                  "nl": "Gefossiliseerde nestplaatsen zoals die toegeschreven aan Maiasaura en bewijs van gemengde leeftijdsgroepen suggereren dat ceratopsiërs ouderlijke zorg en gemeenschappelijk nestgedrag kunnen hebben vertoond."
-        }
-      },
-      {
-        question: {
-                  "en": "How did ceratopsian jaw mechanics adapt for processing tough plant material?",
-                  "es": "¿Cómo se adaptaron las mecánicas mandibulares ceratopsianas para procesar material vegetal duro?",
-                  "de": "Wie passten sich Ceratopsier-Kiefermechanismen zur Verarbeitung harter Pflanzenmaterial an?",
-                  "nl": "Hoe pasten ceratopsiër-kaakmechanismen zich aan voor het verwerken van taai plantmateriaal?"
-        },
-        options: [
-        {
-                  "en": "Swallowing food whole",
-                  "es": "Tragar comida entera",
-                  "de": "Nahrung ganz schlucken",
-                  "nl": "Voedsel heel doorslikken"
-        },
-        {
-                  "en": "Scissor-like shearing action with complex dental batteries",
-                  "es": "Acción de corte tipo tijera con baterías dentales complejas",
-                  "de": "Scherenartige Schneideaktion mit komplexen Zahnbatterien",
-                  "nl": "Schaar-achtige scheer-actie met complexe tandenbatterijen"
-        },
-        {
-                  "en": "Simple up-down crushing only",
-                  "es": "Solo trituración simple hacia arriba y abajo",
-                  "de": "Nur einfaches Auf-und-Ab-Zermalmen",
-                  "nl": "Alleen eenvoudige op-en-neer verpletting"
-        },
-        {
-                  "en": "Suction feeding mechanism",
-                  "es": "Mecanismo de alimentación por succión",
-                  "de": "Saugfütterungsmechanismus",
-                  "nl": "Zuigvoeding mechanisme"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Ceratopsians developed sophisticated jaw mechanics with scissor-like shearing motions and complex dental batteries that allowed efficient processing of tough fibrous plant material through precise cutting and grinding actions.",
-                  "es": "Los ceratopsianos desarrollaron mecánicas mandibulares sofisticadas con movimientos de corte tipo tijera y baterías dentales complejas que permitían procesamiento eficiente de material vegetal fibroso duro a través de acciones precisas de corte y molienda.",
-                  "de": "Ceratopsier entwickelten ausgeklügelte Kiefermechanismen mit scherenartige Schneidebewegungen und komplexe Zahnbatterien, die effiziente Verarbeitung harter faseriger Pflanzenmaterial durch präzise Schneide- und Mahlaktionen ermöglichten.",
-                  "nl": "Ceratopsiërs ontwikkelden geavanceerde kaakmechanismen met schaar-achtige scheerbewegingen en complexe tandenbatterijen die efficiënte verwerking van taai vezelig plantmateriaal mogelijk maakten door precieze snij- en maalacties."
-        }
-      },
-      {
-        question: {
-                  "en": "What does fossil evidence reveal about ceratopsian migration patterns?",
-                  "es": "¿Qué revela la evidencia fósil sobre los patrones de migración ceratopsianos?",
-                  "de": "Was zeigt fossile Beweise über Ceratopsier-Wanderungsmuster?",
-                  "nl": "Wat onthult fossiel bewijs over ceratopsiër-migratiepatronen?"
-        },
-        options: [
-        {
-                  "en": "Seasonal latitudinal migrations following food resources",
-                  "es": "Migraciones latitudinales estacionales siguiendo recursos alimentarios",
-                  "de": "Saisonale latitudinale Wanderungen folgend Nahrungsressourcen",
-                  "nl": "Seizoensgebonden latitudinale migraties volgend voedselgronnen"
-        },
-        {
-                  "en": "No evidence of migration",
-                  "es": "Sin evidencia de migración",
-                  "de": "Keine Beweise für Wanderung",
-                  "nl": "Geen bewijs van migratie"
-        },
-        {
-                  "en": "Only altitudinal movement",
-                  "es": "Solo movimiento altitudinal",
-                  "de": "Nur Höhenbewegung",
-                  "nl": "Alleen hoogte beweging"
-        },
-        {
-                  "en": "Random wandering",
-                  "es": "Vagabundeo aleatorio",
-                  "de": "Zufälliges Wandern",
-                  "nl": "Willekeurig zwerven"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Fossil distributions and bone bed analyses suggest some ceratopsian species may have undergone seasonal latitudinal migrations, similar to modern large herbivores, following the availability of preferred plant foods across different climate zones.",
-                  "es": "Las distribuciones fósiles y análisis de lechos óseos sugieren que algunas especies ceratopsianas pueden haber experimentado migraciones latitudinales estacionales, similares a grandes herbívoros modernos, siguiendo la disponibilidad de alimentos vegetales preferidos a través de diferentes zonas climáticas.",
-                  "de": "Fossilverteilungen und Knochenbett-Analysen deuten darauf hin, dass einige Ceratopsier-Arten saisonale latitudinale Wanderungen durchgemacht haben könnten, ähnlich modernen großen Pflanzenfressern, folgend der Verfügbarkeit bevorzugter Pflanzennahrung über verschiedene Klimazonen hinweg.",
-                  "nl": "Fossielverdelingen en botbed-analyses suggereren dat sommige ceratopsiër-soorten seizoensgebonden latitudinale migraties kunnen hebben ondergaan, vergelijkbaar met moderne grote herbivoren, volgend de beschikbaarheid van geprefereerd plantvoedsel over verschillende klimaatzones."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a Triceratops?",
-                  "es": "What is a Triceratops?",
-                  "de": "What is a Triceratops?",
-                  "nl": "What is a Triceratops?"
-        },
-        options: [
-        {
-                  "en": "Three-horned herbivorous dinosaur",
-                  "es": "Three-horned herbivorous dinosaur",
-                  "de": "Three-horned herbivorous dinosaur",
-                  "nl": "Three-horned herbivorous dinosaur"
-        },
-        {
-                  "en": "Marine reptile",
-                  "es": "Marine reptile",
-                  "de": "Marine reptile",
-                  "nl": "Marine reptile"
-        },
-        {
-                  "en": "Flying dinosaur",
-                  "es": "Flying dinosaur",
-                  "de": "Flying dinosaur",
-                  "nl": "Flying dinosaur"
-        },
-        {
-                  "en": "Carnivorous dinosaur",
-                  "es": "Carnivorous dinosaur",
-                  "de": "Carnivorous dinosaur",
-                  "nl": "Carnivorous dinosaur"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Triceratops was a large herbivorous dinosaur with three horns and a large bony frill.",
-                  "es": "Triceratops was a large herbivorous dinosaur with three horns and a large bony frill.",
-                  "de": "Triceratops was a large herbivorous dinosaur with three horns and a large bony frill.",
-                  "nl": "Triceratops was a large herbivorous dinosaur with three horns and a large bony frill."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the bony plate on horned dinosaurs' heads called?",
-                  "es": "What is the bony plate on horned dinosaurs' heads called?",
-                  "de": "What is the bony plate on horned dinosaurs' heads called?",
-                  "nl": "What is the bony plate on horned dinosaurs' heads called?"
-        },
-        options: [
-        {
-                  "en": "Crown",
-                  "es": "Crown",
-                  "de": "Crown",
-                  "nl": "Crown"
-        },
-        {
-                  "en": "Crest",
-                  "es": "Crest",
-                  "de": "Crest",
-                  "nl": "Crest"
-        },
-        {
-                  "en": "Frill",
-                  "es": "Frill",
-                  "de": "Frill",
-                  "nl": "Frill"
-        },
-        {
-                  "en": "Shield",
-                  "es": "Shield",
-                  "de": "Shield",
-                  "nl": "Shield"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The bony plate extending from the skull of horned dinosaurs is called a frill.",
-                  "es": "The bony plate extending from the skull of horned dinosaurs is called a frill.",
-                  "de": "The bony plate extending from the skull of horned dinosaurs is called a frill.",
-                  "nl": "The bony plate extending from the skull of horned dinosaurs is called a frill."
-        }
-      },
-      {
-        question: {
-                  "en": "What family do horned dinosaurs belong to?",
-                  "es": "What family do horned dinosaurs belong to?",
-                  "de": "What family do horned dinosaurs belong to?",
-                  "nl": "What family do horned dinosaurs belong to?"
-        },
-        options: [
-        {
-                  "en": "Theropoda",
-                  "es": "Theropoda",
-                  "de": "Theropoda",
-                  "nl": "Theropoda"
-        },
-        {
-                  "en": "Ceratopsidae",
-                  "es": "Ceratopsidae",
-                  "de": "Ceratopsidae",
-                  "nl": "Ceratopsidae"
-        },
-        {
-                  "en": "Ornithopoda",
-                  "es": "Ornithopoda",
-                  "de": "Ornithopoda",
-                  "nl": "Ornithopoda"
-        },
-        {
-                  "en": "Sauropoda",
-                  "es": "Sauropoda",
-                  "de": "Sauropoda",
-                  "nl": "Sauropoda"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Horned dinosaurs belong to the family Ceratopsidae.",
-                  "es": "Horned dinosaurs belong to the family Ceratopsidae.",
-                  "de": "Horned dinosaurs belong to the family Ceratopsidae.",
-                  "nl": "Horned dinosaurs belong to the family Ceratopsidae."
-        }
-      },
-      {
-        question: {
-                  "en": "What did horned dinosaurs eat?",
-                  "es": "What did horned dinosaurs eat?",
-                  "de": "What did horned dinosaurs eat?",
-                  "nl": "What did horned dinosaurs eat?"
-        },
-        options: [
-        {
-                  "en": "Insects",
-                  "es": "Insects",
-                  "de": "Insects",
-                  "nl": "Insects"
-        },
-        {
-                  "en": "Plants",
-                  "es": "Plants",
-                  "de": "Plants",
-                  "nl": "Plants"
-        },
-        {
-                  "en": "Fish",
-                  "es": "Fish",
-                  "de": "Fish",
-                  "nl": "Fish"
-        },
-        {
-                  "en": "Meat",
-                  "es": "Meat",
-                  "de": "Meat",
-                  "nl": "Meat"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "All horned dinosaurs were herbivores that fed on plants.",
-                  "es": "All horned dinosaurs were herbivores that fed on plants.",
-                  "de": "All horned dinosaurs were herbivores that fed on plants.",
-                  "nl": "All horned dinosaurs were herbivores that fed on plants."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the largest horned dinosaur?",
-                  "es": "What is the largest horned dinosaur?",
-                  "de": "What is the largest horned dinosaur?",
-                  "nl": "What is the largest horned dinosaur?"
-        },
-        options: [
-        {
-                  "en": "Psittacosaurus",
-                  "es": "Psittacosaurus",
-                  "de": "Psittacosaurus",
-                  "nl": "Psittacosaurus"
-        },
-        {
-                  "en": "Triceratops or Torosaurus",
-                  "es": "Triceratops or Torosaurus",
-                  "de": "Triceratops or Torosaurus",
-                  "nl": "Triceratops or Torosaurus"
-        },
-        {
-                  "en": "Protoceratops",
-                  "es": "Protoceratops",
-                  "de": "Protoceratops",
-                  "nl": "Protoceratops"
-        },
-        {
-                  "en": "Styracosaurus",
-                  "es": "Styracosaurus",
-                  "de": "Styracosaurus",
-                  "nl": "Styracosaurus"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Triceratops and Torosaurus were among the largest horned dinosaurs, up to 30 feet long.",
-                  "es": "Triceratops and Torosaurus were among the largest horned dinosaurs, up to 30 feet long.",
-                  "de": "Triceratops and Torosaurus were among the largest horned dinosaurs, up to 30 feet long.",
-                  "nl": "Triceratops and Torosaurus were among the largest horned dinosaurs, up to 30 feet long."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the purpose of the frill?",
-                  "es": "What was the purpose of the frill?",
-                  "de": "What was the purpose of the frill?",
-                  "nl": "What was the purpose of the frill?"
-        },
-        options: [
-        {
-                  "en": "Swimming",
-                  "es": "Swimming",
-                  "de": "Swimming",
-                  "nl": "Swimming"
-        },
-        {
-                  "en": "Digging",
-                  "es": "Digging",
-                  "de": "Digging",
-                  "nl": "Digging"
-        },
-        {
-                  "en": "Flying",
-                  "es": "Flying",
-                  "de": "Flying",
-                  "nl": "Flying"
-        },
-        {
-                  "en": "Defense, display, and temperature regulation",
-                  "es": "Defense, display, and temperature regulation",
-                  "de": "Defense, display, and temperature regulation",
-                  "nl": "Defense, display, and temperature regulation"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The frill likely served multiple purposes: defense, species recognition, mating display, and possibly temperature regulation.",
-                  "es": "The frill likely served multiple purposes: defense, species recognition, mating display, and possibly temperature regulation.",
-                  "de": "The frill likely served multiple purposes: defense, species recognition, mating display, and possibly temperature regulation.",
-                  "nl": "The frill likely served multiple purposes: defense, species recognition, mating display, and possibly temperature regulation."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Styracosaurus?",
-                  "es": "What is Styracosaurus?",
-                  "de": "What is Styracosaurus?",
-                  "nl": "What is Styracosaurus?"
-        },
-        options: [
-        {
-                  "en": "Hornless dinosaur",
-                  "es": "Hornless dinosaur",
-                  "de": "Hornless dinosaur",
-                  "nl": "Hornless dinosaur"
-        },
-        {
-                  "en": "Horned dinosaur with spiked frill",
-                  "es": "Horned dinosaur with spiked frill",
-                  "de": "Horned dinosaur with spiked frill",
-                  "nl": "Horned dinosaur with spiked frill"
-        },
-        {
-                  "en": "Flying dinosaur",
-                  "es": "Flying dinosaur",
-                  "de": "Flying dinosaur",
-                  "nl": "Flying dinosaur"
-        },
-        {
-                  "en": "Three-horned dinosaur",
-                  "es": "Three-horned dinosaur",
-                  "de": "Three-horned dinosaur",
-                  "nl": "Three-horned dinosaur"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Styracosaurus had a distinctive frill adorned with long spikes radiating from its edge.",
-                  "es": "Styracosaurus had a distinctive frill adorned with long spikes radiating from its edge.",
-                  "de": "Styracosaurus had a distinctive frill adorned with long spikes radiating from its edge.",
-                  "nl": "Styracosaurus had a distinctive frill adorned with long spikes radiating from its edge."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a Protoceratops?",
-                  "es": "What is a Protoceratops?",
-                  "de": "What is a Protoceratops?",
-                  "nl": "What is a Protoceratops?"
-        },
-        options: [
-        {
-                  "en": "Flying reptile",
-                  "es": "Flying reptile",
-                  "de": "Flying reptile",
-                  "nl": "Flying reptile"
-        },
-        {
-                  "en": "Marine dinosaur",
-                  "es": "Marine dinosaur",
-                  "de": "Marine dinosaur",
-                  "nl": "Marine dinosaur"
-        },
-        {
-                  "en": "Small early horned dinosaur",
-                  "es": "Small early horned dinosaur",
-                  "de": "Small early horned dinosaur",
-                  "nl": "Small early horned dinosaur"
-        },
-        {
-                  "en": "Large predator",
-                  "es": "Large predator",
-                  "de": "Large predator",
-                  "nl": "Large predator"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Protoceratops was a small, early ceratopsian from Mongolia, about 6 feet long.",
-                  "es": "Protoceratops was a small, early ceratopsian from Mongolia, about 6 feet long.",
-                  "de": "Protoceratops was a small, early ceratopsian from Mongolia, about 6 feet long.",
-                  "nl": "Protoceratops was a small, early ceratopsian from Mongolia, about 6 feet long."
-        }
-      },
-      {
-        question: {
-                  "en": "How many horns did Triceratops have?",
-                  "es": "How many horns did Triceratops have?",
-                  "de": "How many horns did Triceratops have?",
-                  "nl": "How many horns did Triceratops have?"
-        },
-        options: [
-        {
-                  "en": "One horn",
-                  "es": "One horn",
-                  "de": "One horn",
-                  "nl": "One horn"
-        },
-        {
-                  "en": "Three horns",
-                  "es": "Three horns",
-                  "de": "Three horns",
-                  "nl": "Three horns"
-        },
-        {
-                  "en": "Four horns",
-                  "es": "Four horns",
-                  "de": "Four horns",
-                  "nl": "Four horns"
-        },
-        {
-                  "en": "Two horns",
-                  "es": "Two horns",
-                  "de": "Two horns",
-                  "nl": "Two horns"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Triceratops had three horns: one on its nose and two above its eyes.",
-                  "es": "Triceratops had three horns: one on its nose and two above its eyes.",
-                  "de": "Triceratops had three horns: one on its nose and two above its eyes.",
-                  "nl": "Triceratops had three horns: one on its nose and two above its eyes."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Pachyrhinosaurus?",
-                  "es": "What is Pachyrhinosaurus?",
-                  "de": "What is Pachyrhinosaurus?",
-                  "nl": "What is Pachyrhinosaurus?"
-        },
-        options: [
-        {
-                  "en": "Long-horned dinosaur",
-                  "es": "Long-horned dinosaur",
-                  "de": "Long-horned dinosaur",
-                  "nl": "Long-horned dinosaur"
-        },
-        {
-                  "en": "Flying dinosaur",
-                  "es": "Flying dinosaur",
-                  "de": "Flying dinosaur",
-                  "nl": "Flying dinosaur"
-        },
-        {
-                  "en": "Horned dinosaur with massive nose boss instead of horn",
-                  "es": "Horned dinosaur with massive nose boss instead of horn",
-                  "de": "Horned dinosaur with massive nose boss instead of horn",
-                  "nl": "Horned dinosaur with massive nose boss instead of horn"
-        },
-        {
-                  "en": "Hornless dinosaur",
-                  "es": "Hornless dinosaur",
-                  "de": "Hornless dinosaur",
-                  "nl": "Hornless dinosaur"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Pachyrhinosaurus had a massive bony boss on its nose rather than a horn.",
-                  "es": "Pachyrhinosaurus had a massive bony boss on its nose rather than a horn.",
-                  "de": "Pachyrhinosaurus had a massive bony boss on its nose rather than a horn.",
-                  "nl": "Pachyrhinosaurus had a massive bony boss on its nose rather than a horn."
-        }
-      },
-      {
-        question: {
-                  "en": "Where have most horned dinosaur fossils been found?",
-                  "es": "Where have most horned dinosaur fossils been found?",
-                  "de": "Where have most horned dinosaur fossils been found?",
-                  "nl": "Where have most horned dinosaur fossils been found?"
-        },
-        options: [
-        {
-                  "en": "Antarctica",
-                  "es": "Antarctica",
-                  "de": "Antarctica",
-                  "nl": "Antarctica"
-        },
-        {
-                  "en": "Africa",
-                  "es": "Africa",
-                  "de": "Africa",
-                  "nl": "Africa"
-        },
-        {
-                  "en": "North America and Asia",
-                  "es": "North America and Asia",
-                  "de": "North America and Asia",
-                  "nl": "North America and Asia"
-        },
-        {
-                  "en": "Europe",
-                  "es": "Europe",
-                  "de": "Europe",
-                  "nl": "Europe"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Most horned dinosaur fossils have been discovered in North America and Asia.",
-                  "es": "Most horned dinosaur fossils have been discovered in North America and Asia.",
-                  "de": "Most horned dinosaur fossils have been discovered in North America and Asia.",
-                  "nl": "Most horned dinosaur fossils have been discovered in North America and Asia."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the smallest ceratopsian?",
-                  "es": "What is the smallest ceratopsian?",
-                  "de": "What is the smallest ceratopsian?",
-                  "nl": "What is the smallest ceratopsian?"
-        },
-        options: [
-        {
-                  "en": "Psittacosaurus",
-                  "es": "Psittacosaurus",
-                  "de": "Psittacosaurus",
-                  "nl": "Psittacosaurus"
-        },
-        {
-                  "en": "Triceratops",
-                  "es": "Triceratops",
-                  "de": "Triceratops",
-                  "nl": "Triceratops"
-        },
-        {
-                  "en": "Styracosaurus",
-                  "es": "Styracosaurus",
-                  "de": "Styracosaurus",
-                  "nl": "Styracosaurus"
-        },
-        {
-                  "en": "Torosaurus",
-                  "es": "Torosaurus",
-                  "de": "Torosaurus",
-                  "nl": "Torosaurus"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Psittacosaurus was one of the smallest ceratopsians, only about 6.5 feet long.",
-                  "es": "Psittacosaurus was one of the smallest ceratopsians, only about 6.5 feet long.",
-                  "de": "Psittacosaurus was one of the smallest ceratopsians, only about 6.5 feet long.",
-                  "nl": "Psittacosaurus was one of the smallest ceratopsians, only about 6.5 feet long."
-        }
-      },
-      {
-        question: {
-                  "en": "What dinosaur frequently fought with Triceratops?",
-                  "es": "What dinosaur frequently fought with Triceratops?",
-                  "de": "What dinosaur frequently fought with Triceratops?",
-                  "nl": "What dinosaur frequently fought with Triceratops?"
-        },
-        options: [
-        {
-                  "en": "Allosaurus",
-                  "es": "Allosaurus",
-                  "de": "Allosaurus",
-                  "nl": "Allosaurus"
-        },
-        {
-                  "en": "Spinosaurus",
-                  "es": "Spinosaurus",
-                  "de": "Spinosaurus",
-                  "nl": "Spinosaurus"
-        },
-        {
-                  "en": "Velociraptor",
-                  "es": "Velociraptor",
-                  "de": "Velociraptor",
-                  "nl": "Velociraptor"
-        },
-        {
-                  "en": "Tyrannosaurus Rex",
-                  "es": "Tyrannosaurus Rex",
-                  "de": "Tyrannosaurus Rex",
-                  "nl": "Tyrannosaurus Rex"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Tyrannosaurus Rex and Triceratops lived at the same time and place, and T-Rex likely hunted Triceratops.",
-                  "es": "Tyrannosaurus Rex and Triceratops lived at the same time and place, and T-Rex likely hunted Triceratops.",
-                  "de": "Tyrannosaurus Rex and Triceratops lived at the same time and place, and T-Rex likely hunted Triceratops.",
-                  "nl": "Tyrannosaurus Rex and Triceratops lived at the same time and place, and T-Rex likely hunted Triceratops."
-        }
-      },
-      {
-        question: {
-                  "en": "What is unique about Kosmoceratops?",
-                  "es": "What is unique about Kosmoceratops?",
-                  "de": "What is unique about Kosmoceratops?",
-                  "nl": "What is unique about Kosmoceratops?"
-        },
-        options: [
-        {
-                  "en": "Largest horned dinosaur",
-                  "es": "Largest horned dinosaur",
-                  "de": "Largest horned dinosaur",
-                  "nl": "Largest horned dinosaur"
-        },
-        {
-                  "en": "Smallest horned dinosaur",
-                  "es": "Smallest horned dinosaur",
-                  "de": "Smallest horned dinosaur",
-                  "nl": "Smallest horned dinosaur"
-        },
-        {
-                  "en": "No frill",
-                  "es": "No frill",
-                  "de": "No frill",
-                  "nl": "No frill"
-        },
-        {
-                  "en": "Had most elaborate frill with 15 horns",
-                  "es": "Had most elaborate frill with 15 horns",
-                  "de": "Had most elaborate frill with 15 horns",
-                  "nl": "Had most elaborate frill with 15 horns"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Kosmoceratops had the most ornate skull of any known dinosaur, with 15 horns and horn-like structures.",
-                  "es": "Kosmoceratops had the most ornate skull of any known dinosaur, with 15 horns and horn-like structures.",
-                  "de": "Kosmoceratops had the most ornate skull of any known dinosaur, with 15 horns and horn-like structures.",
-                  "nl": "Kosmoceratops had the most ornate skull of any known dinosaur, with 15 horns and horn-like structures."
-        }
-      },
-      {
-        question: {
-                  "en": "What does 'ceratopsian' mean?",
-                  "es": "What does 'ceratopsian' mean?",
-                  "de": "What does 'ceratopsian' mean?",
-                  "nl": "What does 'ceratopsian' mean?"
-        },
-        options: [
-        {
-                  "en": "Three horns",
-                  "es": "Three horns",
-                  "de": "Three horns",
-                  "nl": "Three horns"
-        },
-        {
-                  "en": "Horned face",
-                  "es": "Horned face",
-                  "de": "Horned face",
-                  "nl": "Horned face"
-        },
-        {
-                  "en": "Plant eater",
-                  "es": "Plant eater",
-                  "de": "Plant eater",
-                  "nl": "Plant eater"
-        },
-        {
-                  "en": "Bird-hipped",
-                  "es": "Bird-hipped",
-                  "de": "Bird-hipped",
-                  "nl": "Bird-hipped"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Ceratopsian comes from Greek meaning 'horned face', referring to their distinctive facial horns.",
-                  "es": "Ceratopsian comes from Greek meaning 'horned face', referring to their distinctive facial horns.",
-                  "de": "Ceratopsian comes from Greek meaning 'horned face', referring to their distinctive facial horns.",
-                  "nl": "Ceratopsian comes from Greek meaning 'horned face', referring to their distinctive facial horns."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a nasal horn?",
-                  "es": "What is a nasal horn?",
-                  "de": "What is a nasal horn?",
-                  "nl": "What is a nasal horn?"
-        },
-        options: [
-        {
-                  "en": "Horn on frill",
-                  "es": "Horn on frill",
-                  "de": "Horn on frill",
-                  "nl": "Horn on frill"
-        },
-        {
-                  "en": "Horn on tail",
-                  "es": "Horn on tail",
-                  "de": "Horn on tail",
-                  "nl": "Horn on tail"
-        },
-        {
-                  "en": "Horn above eyes",
-                  "es": "Horn above eyes",
-                  "de": "Horn above eyes",
-                  "nl": "Horn above eyes"
-        },
-        {
-                  "en": "Horn on the nose",
-                  "es": "Horn on the nose",
-                  "de": "Horn on the nose",
-                  "nl": "Horn on the nose"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The nasal horn is located on the nose of horned dinosaurs.",
-                  "es": "The nasal horn is located on the nose of horned dinosaurs.",
-                  "de": "The nasal horn is located on the nose of horned dinosaurs.",
-                  "nl": "The nasal horn is located on the nose of horned dinosaurs."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Pentaceratops?",
-                  "es": "What is Pentaceratops?",
-                  "de": "What is Pentaceratops?",
-                  "nl": "What is Pentaceratops?"
-        },
-        options: [
-        {
-                  "en": "Three-horned dinosaur",
-                  "es": "Three-horned dinosaur",
-                  "de": "Three-horned dinosaur",
-                  "nl": "Three-horned dinosaur"
-        },
-        {
-                  "en": "Hornless dinosaur",
-                  "es": "Hornless dinosaur",
-                  "de": "Hornless dinosaur",
-                  "nl": "Hornless dinosaur"
-        },
-        {
-                  "en": "Five-horned face dinosaur",
-                  "es": "Five-horned face dinosaur",
-                  "de": "Five-horned face dinosaur",
-                  "nl": "Five-horned face dinosaur"
-        },
-        {
-                  "en": "One-horned dinosaur",
-                  "es": "One-horned dinosaur",
-                  "de": "One-horned dinosaur",
-                  "nl": "One-horned dinosaur"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Pentaceratops means 'five-horned face', though it actually had three true horns plus pointed cheek bones.",
-                  "es": "Pentaceratops means 'five-horned face', though it actually had three true horns plus pointed cheek bones.",
-                  "de": "Pentaceratops means 'five-horned face', though it actually had three true horns plus pointed cheek bones.",
-                  "nl": "Pentaceratops means 'five-horned face', though it actually had three true horns plus pointed cheek bones."
-        }
-      },
-      {
-        question: {
-                  "en": "How did baby horned dinosaurs differ from adults?",
-                  "es": "How did baby horned dinosaurs differ from adults?",
-                  "de": "How did baby horned dinosaurs differ from adults?",
-                  "nl": "How did baby horned dinosaurs differ from adults?"
-        },
-        options: [
-        {
-                  "en": "No horns at all",
-                  "es": "No horns at all",
-                  "de": "No horns at all",
-                  "nl": "No horns at all"
-        },
-        {
-                  "en": "Larger horns",
-                  "es": "Larger horns",
-                  "de": "Larger horns",
-                  "nl": "Larger horns"
-        },
-        {
-                  "en": "Different color",
-                  "es": "Different color",
-                  "de": "Different color",
-                  "nl": "Different color"
-        },
-        {
-                  "en": "Shorter horns and smaller frills",
-                  "es": "Shorter horns and smaller frills",
-                  "de": "Shorter horns and smaller frills",
-                  "nl": "Shorter horns and smaller frills"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Juvenile horned dinosaurs had proportionally smaller frills and shorter horns that grew as they matured.",
-                  "es": "Juvenile horned dinosaurs had proportionally smaller frills and shorter horns that grew as they matured.",
-                  "de": "Juvenile horned dinosaurs had proportionally smaller frills and shorter horns that grew as they matured.",
-                  "nl": "Juvenile horned dinosaurs had proportionally smaller frills and shorter horns that grew as they matured."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the beak of horned dinosaurs used for?",
-                  "es": "What is the beak of horned dinosaurs used for?",
-                  "de": "What is the beak of horned dinosaurs used for?",
-                  "nl": "What is the beak of horned dinosaurs used for?"
-        },
-        options: [
-        {
-                  "en": "Cropping and cutting vegetation",
-                  "es": "Cropping and cutting vegetation",
-                  "de": "Cropping and cutting vegetation",
-                  "nl": "Cropping and cutting vegetation"
-        },
-        {
-                  "en": "Fighting",
-                  "es": "Fighting",
-                  "de": "Fighting",
-                  "nl": "Fighting"
-        },
-        {
-                  "en": "Catching fish",
-                  "es": "Catching fish",
-                  "de": "Catching fish",
-                  "nl": "Catching fish"
-        },
-        {
-                  "en": "Digging",
-                  "es": "Digging",
-                  "de": "Digging",
-                  "nl": "Digging"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Horned dinosaurs had sharp beaks ideal for cropping and cutting tough plant material.",
-                  "es": "Horned dinosaurs had sharp beaks ideal for cropping and cutting tough plant material.",
-                  "de": "Horned dinosaurs had sharp beaks ideal for cropping and cutting tough plant material.",
-                  "nl": "Horned dinosaurs had sharp beaks ideal for cropping and cutting tough plant material."
-        }
-      },
-      {
-        question: {
-                  "en": "What period did horned dinosaurs live in?",
-                  "es": "What period did horned dinosaurs live in?",
-                  "de": "What period did horned dinosaurs live in?",
-                  "nl": "What period did horned dinosaurs live in?"
-        },
-        options: [
-        {
-                  "en": "Jurassic Period",
-                  "es": "Jurassic Period",
-                  "de": "Jurassic Period",
-                  "nl": "Jurassic Period"
-        },
-        {
-                  "en": "Permian Period",
-                  "es": "Permian Period",
-                  "de": "Permian Period",
-                  "nl": "Permian Period"
-        },
-        {
-                  "en": "Cretaceous Period",
-                  "es": "Cretaceous Period",
-                  "de": "Cretaceous Period",
-                  "nl": "Cretaceous Period"
-        },
-        {
-                  "en": "Triassic Period",
-                  "es": "Triassic Period",
-                  "de": "Triassic Period",
-                  "nl": "Triassic Period"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Horned dinosaurs lived during the Late Cretaceous Period.",
-                  "es": "Horned dinosaurs lived during the Late Cretaceous Period.",
-                  "de": "Horned dinosaurs lived during the Late Cretaceous Period.",
-                  "nl": "Horned dinosaurs lived during the Late Cretaceous Period."
-        }
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level5;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Horned Dinosaurs",
+      "es": "Pregunta 2 sobre Horned Dinosaurs",
+      "de": "Frage 2 über Horned Dinosaurs",
+      "nl": "Vraag 2 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Horned Dinosaurs",
+      "es": "Pregunta 3 sobre Horned Dinosaurs",
+      "de": "Frage 3 über Horned Dinosaurs",
+      "nl": "Vraag 3 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Horned Dinosaurs",
+      "es": "Pregunta 4 sobre Horned Dinosaurs",
+      "de": "Frage 4 über Horned Dinosaurs",
+      "nl": "Vraag 4 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Horned Dinosaurs",
+      "es": "Pregunta 5 sobre Horned Dinosaurs",
+      "de": "Frage 5 über Horned Dinosaurs",
+      "nl": "Vraag 5 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Horned Dinosaurs",
+      "es": "Pregunta 6 sobre Horned Dinosaurs",
+      "de": "Frage 6 über Horned Dinosaurs",
+      "nl": "Vraag 6 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Horned Dinosaurs",
+      "es": "Pregunta 7 sobre Horned Dinosaurs",
+      "de": "Frage 7 über Horned Dinosaurs",
+      "nl": "Vraag 7 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Horned Dinosaurs",
+      "es": "Pregunta 8 sobre Horned Dinosaurs",
+      "de": "Frage 8 über Horned Dinosaurs",
+      "nl": "Vraag 8 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Horned Dinosaurs",
+      "es": "Pregunta 9 sobre Horned Dinosaurs",
+      "de": "Frage 9 über Horned Dinosaurs",
+      "nl": "Vraag 9 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Horned Dinosaurs",
+      "es": "Pregunta 10 sobre Horned Dinosaurs",
+      "de": "Frage 10 über Horned Dinosaurs",
+      "nl": "Vraag 10 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Horned Dinosaurs",
+      "es": "Pregunta 11 sobre Horned Dinosaurs",
+      "de": "Frage 11 über Horned Dinosaurs",
+      "nl": "Vraag 11 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Horned Dinosaurs",
+      "es": "Pregunta 12 sobre Horned Dinosaurs",
+      "de": "Frage 12 über Horned Dinosaurs",
+      "nl": "Vraag 12 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Horned Dinosaurs",
+      "es": "Pregunta 13 sobre Horned Dinosaurs",
+      "de": "Frage 13 über Horned Dinosaurs",
+      "nl": "Vraag 13 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Horned Dinosaurs",
+      "es": "Pregunta 14 sobre Horned Dinosaurs",
+      "de": "Frage 14 über Horned Dinosaurs",
+      "nl": "Vraag 14 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Horned Dinosaurs",
+      "es": "Pregunta 15 sobre Horned Dinosaurs",
+      "de": "Frage 15 über Horned Dinosaurs",
+      "nl": "Vraag 15 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Horned Dinosaurs",
+      "es": "Pregunta 16 sobre Horned Dinosaurs",
+      "de": "Frage 16 über Horned Dinosaurs",
+      "nl": "Vraag 16 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Horned Dinosaurs",
+      "es": "Pregunta 17 sobre Horned Dinosaurs",
+      "de": "Frage 17 über Horned Dinosaurs",
+      "nl": "Vraag 17 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Horned Dinosaurs",
+      "es": "Pregunta 18 sobre Horned Dinosaurs",
+      "de": "Frage 18 über Horned Dinosaurs",
+      "nl": "Vraag 18 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Horned Dinosaurs",
+      "es": "Pregunta 19 sobre Horned Dinosaurs",
+      "de": "Frage 19 über Horned Dinosaurs",
+      "nl": "Vraag 19 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Horned Dinosaurs",
+      "es": "Pregunta 20 sobre Horned Dinosaurs",
+      "de": "Frage 20 über Horned Dinosaurs",
+      "nl": "Vraag 20 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Horned Dinosaurs",
+      "es": "Pregunta 21 sobre Horned Dinosaurs",
+      "de": "Frage 21 über Horned Dinosaurs",
+      "nl": "Vraag 21 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Horned Dinosaurs",
+      "es": "Pregunta 22 sobre Horned Dinosaurs",
+      "de": "Frage 22 über Horned Dinosaurs",
+      "nl": "Vraag 22 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Horned Dinosaurs",
+      "es": "Pregunta 23 sobre Horned Dinosaurs",
+      "de": "Frage 23 über Horned Dinosaurs",
+      "nl": "Vraag 23 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Horned Dinosaurs",
+      "es": "Pregunta 24 sobre Horned Dinosaurs",
+      "de": "Frage 24 über Horned Dinosaurs",
+      "nl": "Vraag 24 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Horned Dinosaurs",
+      "es": "Pregunta 25 sobre Horned Dinosaurs",
+      "de": "Frage 25 über Horned Dinosaurs",
+      "nl": "Vraag 25 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Horned Dinosaurs",
+      "es": "Pregunta 26 sobre Horned Dinosaurs",
+      "de": "Frage 26 über Horned Dinosaurs",
+      "nl": "Vraag 26 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Horned Dinosaurs",
+      "es": "Pregunta 27 sobre Horned Dinosaurs",
+      "de": "Frage 27 über Horned Dinosaurs",
+      "nl": "Vraag 27 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Horned Dinosaurs",
+      "es": "Pregunta 28 sobre Horned Dinosaurs",
+      "de": "Frage 28 über Horned Dinosaurs",
+      "nl": "Vraag 28 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Horned Dinosaurs",
+      "es": "Pregunta 29 sobre Horned Dinosaurs",
+      "de": "Frage 29 über Horned Dinosaurs",
+      "nl": "Vraag 29 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Horned Dinosaurs",
+      "es": "Pregunta 30 sobre Horned Dinosaurs",
+      "de": "Frage 30 über Horned Dinosaurs",
+      "nl": "Vraag 30 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Horned Dinosaurs",
+      "es": "Pregunta 31 sobre Horned Dinosaurs",
+      "de": "Frage 31 über Horned Dinosaurs",
+      "nl": "Vraag 31 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Horned Dinosaurs",
+      "es": "Pregunta 32 sobre Horned Dinosaurs",
+      "de": "Frage 32 über Horned Dinosaurs",
+      "nl": "Vraag 32 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Horned Dinosaurs",
+      "es": "Pregunta 33 sobre Horned Dinosaurs",
+      "de": "Frage 33 über Horned Dinosaurs",
+      "nl": "Vraag 33 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Horned Dinosaurs",
+      "es": "Pregunta 34 sobre Horned Dinosaurs",
+      "de": "Frage 34 über Horned Dinosaurs",
+      "nl": "Vraag 34 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Horned Dinosaurs",
+      "es": "Pregunta 35 sobre Horned Dinosaurs",
+      "de": "Frage 35 über Horned Dinosaurs",
+      "nl": "Vraag 35 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Horned Dinosaurs",
+      "es": "Pregunta 36 sobre Horned Dinosaurs",
+      "de": "Frage 36 über Horned Dinosaurs",
+      "nl": "Vraag 36 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Horned Dinosaurs",
+      "es": "Pregunta 37 sobre Horned Dinosaurs",
+      "de": "Frage 37 über Horned Dinosaurs",
+      "nl": "Vraag 37 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Horned Dinosaurs",
+      "es": "Pregunta 38 sobre Horned Dinosaurs",
+      "de": "Frage 38 über Horned Dinosaurs",
+      "nl": "Vraag 38 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Horned Dinosaurs",
+      "es": "Pregunta 39 sobre Horned Dinosaurs",
+      "de": "Frage 39 über Horned Dinosaurs",
+      "nl": "Vraag 39 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Horned Dinosaurs",
+      "es": "Pregunta 40 sobre Horned Dinosaurs",
+      "de": "Frage 40 über Horned Dinosaurs",
+      "nl": "Vraag 40 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Horned Dinosaurs",
+      "es": "Pregunta 41 sobre Horned Dinosaurs",
+      "de": "Frage 41 über Horned Dinosaurs",
+      "nl": "Vraag 41 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Horned Dinosaurs",
+      "es": "Pregunta 42 sobre Horned Dinosaurs",
+      "de": "Frage 42 über Horned Dinosaurs",
+      "nl": "Vraag 42 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Horned Dinosaurs",
+      "es": "Pregunta 43 sobre Horned Dinosaurs",
+      "de": "Frage 43 über Horned Dinosaurs",
+      "nl": "Vraag 43 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Horned Dinosaurs",
+      "es": "Pregunta 44 sobre Horned Dinosaurs",
+      "de": "Frage 44 über Horned Dinosaurs",
+      "nl": "Vraag 44 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Horned Dinosaurs",
+      "es": "Pregunta 45 sobre Horned Dinosaurs",
+      "de": "Frage 45 über Horned Dinosaurs",
+      "nl": "Vraag 45 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Horned Dinosaurs",
+      "es": "Pregunta 46 sobre Horned Dinosaurs",
+      "de": "Frage 46 über Horned Dinosaurs",
+      "nl": "Vraag 46 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Horned Dinosaurs",
+      "es": "Pregunta 47 sobre Horned Dinosaurs",
+      "de": "Frage 47 über Horned Dinosaurs",
+      "nl": "Vraag 47 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Horned Dinosaurs",
+      "es": "Pregunta 48 sobre Horned Dinosaurs",
+      "de": "Frage 48 über Horned Dinosaurs",
+      "nl": "Vraag 48 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Horned Dinosaurs",
+      "es": "Pregunta 49 sobre Horned Dinosaurs",
+      "de": "Frage 49 über Horned Dinosaurs",
+      "nl": "Vraag 49 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Horned Dinosaurs",
+      "es": "Pregunta 50 sobre Horned Dinosaurs",
+      "de": "Frage 50 über Horned Dinosaurs",
+      "nl": "Vraag 50 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Horned Dinosaurs",
+      "es": "Pregunta 51 sobre Horned Dinosaurs",
+      "de": "Frage 51 über Horned Dinosaurs",
+      "nl": "Vraag 51 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Horned Dinosaurs",
+      "es": "Pregunta 52 sobre Horned Dinosaurs",
+      "de": "Frage 52 über Horned Dinosaurs",
+      "nl": "Vraag 52 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Horned Dinosaurs",
+      "es": "Pregunta 53 sobre Horned Dinosaurs",
+      "de": "Frage 53 über Horned Dinosaurs",
+      "nl": "Vraag 53 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Horned Dinosaurs",
+      "es": "Pregunta 54 sobre Horned Dinosaurs",
+      "de": "Frage 54 über Horned Dinosaurs",
+      "nl": "Vraag 54 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Horned Dinosaurs",
+      "es": "Pregunta 55 sobre Horned Dinosaurs",
+      "de": "Frage 55 über Horned Dinosaurs",
+      "nl": "Vraag 55 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Horned Dinosaurs",
+      "es": "Pregunta 56 sobre Horned Dinosaurs",
+      "de": "Frage 56 über Horned Dinosaurs",
+      "nl": "Vraag 56 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Horned Dinosaurs",
+      "es": "Pregunta 57 sobre Horned Dinosaurs",
+      "de": "Frage 57 über Horned Dinosaurs",
+      "nl": "Vraag 57 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Horned Dinosaurs",
+      "es": "Pregunta 58 sobre Horned Dinosaurs",
+      "de": "Frage 58 über Horned Dinosaurs",
+      "nl": "Vraag 58 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Horned Dinosaurs",
+      "es": "Pregunta 59 sobre Horned Dinosaurs",
+      "de": "Frage 59 über Horned Dinosaurs",
+      "nl": "Vraag 59 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Horned Dinosaurs",
+      "es": "Pregunta 60 sobre Horned Dinosaurs",
+      "de": "Frage 60 über Horned Dinosaurs",
+      "nl": "Vraag 60 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Horned Dinosaurs",
+      "es": "Pregunta 61 sobre Horned Dinosaurs",
+      "de": "Frage 61 über Horned Dinosaurs",
+      "nl": "Vraag 61 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Horned Dinosaurs",
+      "es": "Pregunta 62 sobre Horned Dinosaurs",
+      "de": "Frage 62 über Horned Dinosaurs",
+      "nl": "Vraag 62 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Horned Dinosaurs",
+      "es": "Pregunta 63 sobre Horned Dinosaurs",
+      "de": "Frage 63 über Horned Dinosaurs",
+      "nl": "Vraag 63 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Horned Dinosaurs",
+      "es": "Pregunta 64 sobre Horned Dinosaurs",
+      "de": "Frage 64 über Horned Dinosaurs",
+      "nl": "Vraag 64 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Horned Dinosaurs",
+      "es": "Pregunta 65 sobre Horned Dinosaurs",
+      "de": "Frage 65 über Horned Dinosaurs",
+      "nl": "Vraag 65 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Horned Dinosaurs",
+      "es": "Pregunta 66 sobre Horned Dinosaurs",
+      "de": "Frage 66 über Horned Dinosaurs",
+      "nl": "Vraag 66 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Horned Dinosaurs",
+      "es": "Pregunta 67 sobre Horned Dinosaurs",
+      "de": "Frage 67 über Horned Dinosaurs",
+      "nl": "Vraag 67 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Horned Dinosaurs",
+      "es": "Pregunta 68 sobre Horned Dinosaurs",
+      "de": "Frage 68 über Horned Dinosaurs",
+      "nl": "Vraag 68 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Horned Dinosaurs",
+      "es": "Pregunta 69 sobre Horned Dinosaurs",
+      "de": "Frage 69 über Horned Dinosaurs",
+      "nl": "Vraag 69 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Horned Dinosaurs",
+      "es": "Pregunta 70 sobre Horned Dinosaurs",
+      "de": "Frage 70 über Horned Dinosaurs",
+      "nl": "Vraag 70 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Horned Dinosaurs",
+      "es": "Pregunta 71 sobre Horned Dinosaurs",
+      "de": "Frage 71 über Horned Dinosaurs",
+      "nl": "Vraag 71 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Horned Dinosaurs",
+      "es": "Pregunta 72 sobre Horned Dinosaurs",
+      "de": "Frage 72 über Horned Dinosaurs",
+      "nl": "Vraag 72 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Horned Dinosaurs",
+      "es": "Pregunta 73 sobre Horned Dinosaurs",
+      "de": "Frage 73 über Horned Dinosaurs",
+      "nl": "Vraag 73 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Horned Dinosaurs",
+      "es": "Pregunta 74 sobre Horned Dinosaurs",
+      "de": "Frage 74 über Horned Dinosaurs",
+      "nl": "Vraag 74 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Horned Dinosaurs",
+      "es": "Pregunta 75 sobre Horned Dinosaurs",
+      "de": "Frage 75 über Horned Dinosaurs",
+      "nl": "Vraag 75 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Horned Dinosaurs",
+      "es": "Pregunta 76 sobre Horned Dinosaurs",
+      "de": "Frage 76 über Horned Dinosaurs",
+      "nl": "Vraag 76 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Horned Dinosaurs",
+      "es": "Pregunta 77 sobre Horned Dinosaurs",
+      "de": "Frage 77 über Horned Dinosaurs",
+      "nl": "Vraag 77 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Horned Dinosaurs",
+      "es": "Pregunta 78 sobre Horned Dinosaurs",
+      "de": "Frage 78 über Horned Dinosaurs",
+      "nl": "Vraag 78 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Horned Dinosaurs",
+      "es": "Pregunta 79 sobre Horned Dinosaurs",
+      "de": "Frage 79 über Horned Dinosaurs",
+      "nl": "Vraag 79 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Horned Dinosaurs",
+      "es": "Pregunta 80 sobre Horned Dinosaurs",
+      "de": "Frage 80 über Horned Dinosaurs",
+      "nl": "Vraag 80 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Horned Dinosaurs",
+      "es": "Pregunta 81 sobre Horned Dinosaurs",
+      "de": "Frage 81 über Horned Dinosaurs",
+      "nl": "Vraag 81 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Horned Dinosaurs",
+      "es": "Pregunta 82 sobre Horned Dinosaurs",
+      "de": "Frage 82 über Horned Dinosaurs",
+      "nl": "Vraag 82 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Horned Dinosaurs",
+      "es": "Pregunta 83 sobre Horned Dinosaurs",
+      "de": "Frage 83 über Horned Dinosaurs",
+      "nl": "Vraag 83 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Horned Dinosaurs",
+      "es": "Pregunta 84 sobre Horned Dinosaurs",
+      "de": "Frage 84 über Horned Dinosaurs",
+      "nl": "Vraag 84 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Horned Dinosaurs",
+      "es": "Pregunta 85 sobre Horned Dinosaurs",
+      "de": "Frage 85 über Horned Dinosaurs",
+      "nl": "Vraag 85 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Horned Dinosaurs",
+      "es": "Pregunta 86 sobre Horned Dinosaurs",
+      "de": "Frage 86 über Horned Dinosaurs",
+      "nl": "Vraag 86 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Horned Dinosaurs",
+      "es": "Pregunta 87 sobre Horned Dinosaurs",
+      "de": "Frage 87 über Horned Dinosaurs",
+      "nl": "Vraag 87 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Horned Dinosaurs",
+      "es": "Pregunta 88 sobre Horned Dinosaurs",
+      "de": "Frage 88 über Horned Dinosaurs",
+      "nl": "Vraag 88 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Horned Dinosaurs",
+      "es": "Pregunta 89 sobre Horned Dinosaurs",
+      "de": "Frage 89 über Horned Dinosaurs",
+      "nl": "Vraag 89 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Horned Dinosaurs",
+      "es": "Pregunta 90 sobre Horned Dinosaurs",
+      "de": "Frage 90 über Horned Dinosaurs",
+      "nl": "Vraag 90 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Horned Dinosaurs",
+      "es": "Pregunta 91 sobre Horned Dinosaurs",
+      "de": "Frage 91 über Horned Dinosaurs",
+      "nl": "Vraag 91 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Horned Dinosaurs",
+      "es": "Pregunta 92 sobre Horned Dinosaurs",
+      "de": "Frage 92 über Horned Dinosaurs",
+      "nl": "Vraag 92 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Horned Dinosaurs",
+      "es": "Pregunta 93 sobre Horned Dinosaurs",
+      "de": "Frage 93 über Horned Dinosaurs",
+      "nl": "Vraag 93 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Horned Dinosaurs",
+      "es": "Pregunta 94 sobre Horned Dinosaurs",
+      "de": "Frage 94 über Horned Dinosaurs",
+      "nl": "Vraag 94 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Horned Dinosaurs",
+      "es": "Pregunta 95 sobre Horned Dinosaurs",
+      "de": "Frage 95 über Horned Dinosaurs",
+      "nl": "Vraag 95 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Horned Dinosaurs",
+      "es": "Pregunta 96 sobre Horned Dinosaurs",
+      "de": "Frage 96 über Horned Dinosaurs",
+      "nl": "Vraag 96 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Horned Dinosaurs",
+      "es": "Pregunta 97 sobre Horned Dinosaurs",
+      "de": "Frage 97 über Horned Dinosaurs",
+      "nl": "Vraag 97 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Horned Dinosaurs",
+      "es": "Pregunta 98 sobre Horned Dinosaurs",
+      "de": "Frage 98 über Horned Dinosaurs",
+      "nl": "Vraag 98 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Horned Dinosaurs",
+      "es": "Pregunta 99 sobre Horned Dinosaurs",
+      "de": "Frage 99 über Horned Dinosaurs",
+      "nl": "Vraag 99 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Horned Dinosaurs",
+      "es": "Pregunta 100 sobre Horned Dinosaurs",
+      "de": "Frage 100 über Horned Dinosaurs",
+      "nl": "Vraag 100 over Horned Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Horned Dinosaurs",
+        "es": "Respuesta A para Horned Dinosaurs",
+        "de": "Antwort A für Horned Dinosaurs",
+        "nl": "Antwoord A voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer B for Horned Dinosaurs",
+        "es": "Respuesta B para Horned Dinosaurs",
+        "de": "Antwort B für Horned Dinosaurs",
+        "nl": "Antwoord B voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer C for Horned Dinosaurs",
+        "es": "Respuesta C para Horned Dinosaurs",
+        "de": "Antwort C für Horned Dinosaurs",
+        "nl": "Antwoord C voor Horned Dinosaurs"
+      },
+      {
+        "en": "Answer D for Horned Dinosaurs",
+        "es": "Respuesta D para Horned Dinosaurs",
+        "de": "Antwort D für Horned Dinosaurs",
+        "nl": "Antwoord D voor Horned Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Horned Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Horned Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Horned Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Horned Dinosaurs."
+    }
   }
-})();
+]
+};

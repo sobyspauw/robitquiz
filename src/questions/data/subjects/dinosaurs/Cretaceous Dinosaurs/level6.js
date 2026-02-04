@@ -1,1657 +1,4104 @@
-// Cretaceous Dinosaurs Quiz - Level 6
-(function() {
-  const level6 = {
-    name: {
-          "en": "Cretaceous Dinosaurs Level 6",
-          "es": "Dinosaurios del Cretácico Nivel 6",
-          "de": "Kreidezeit Dinosaurier Stufe 6",
-          "nl": "Krijt Dino's Level 6"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Cretaceous Dinosaurs",
+      "es": "Pregunta 1 sobre Cretaceous Dinosaurs",
+      "de": "Frage 1 über Cretaceous Dinosaurs",
+      "nl": "Vraag 1 over Cretaceous Dinosaurs"
     },
-    questions: [
+    "options": [
       {
-        question: {
-                  "en": "What does the microstructure of Carnotaurus vertebrae reveal about its locomotory adaptations?",
-                  "es": "¿Qué revela la microestructura de las vértebras de Carnotaurus sobre sus adaptaciones locomotoras?",
-                  "de": "Was verrät die Mikrostruktur der Carnotaurus-Wirbel über seine lokomotorischen Anpassungen?",
-                  "nl": "Wat onthult de microstructuur van Carnotaurus wervels over zijn locomotorische aanpassingen?"
-        },
-        options: [
-        {
-                  "en": "Pneumatized vertebrae reducing body weight for enhanced cursorial performance",
-                  "es": "Vértebras neumatizadas reduciendo peso corporal para rendimiento cursorial mejorado",
-                  "de": "Pneumatisierte Wirbel reduzieren Körpergewicht für verbesserte kursoriale Leistung",
-                  "nl": "Gepneumatiseerde wervels die lichaamsgewicht verminderen voor verbeterde cursoriale prestaties"
-        },
-        {
-                  "en": "Dense mineralization for impact resistance",
-                  "es": "Mineralización densa para resistencia al impacto",
-                  "de": "Dichte Mineralisierung für Schlagfestigkeit",
-                  "nl": "Dichte mineralisatie voor impactweerstand"
-        },
-        {
-                  "en": "Enlarged neural canals for enhanced balance",
-                  "es": "Canales neurales agrandados para equilibrio mejorado",
-                  "de": "Vergrößerte Neuralkanäle für verbessertes Gleichgewicht",
-                  "nl": "Vergrote neurale kanalen voor verbeterd evenwicht"
-        },
-        {
-                  "en": "Solid bone structure for aquatic diving",
-                  "es": "Estructura ósea sólida para buceo acuático",
-                  "de": "Solide Knochenstruktur für aquatisches Tauchen",
-                  "nl": "Solide botstructuur voor aquatisch duiken"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Carnotaurus vertebrae show extensive pneumatization (air-filled spaces) that reduced skeletal weight while maintaining structural integrity, a key adaptation for its extreme cursorial lifestyle.",
-                  "es": "Las vértebras de Carnotaurus muestran neumatización extensiva (espacios llenos de aire) que redujo el peso esquelético mientras mantenía la integridad estructural, una adaptación clave para su estilo de vida cursorial extremo.",
-                  "de": "Carnotaurus-Wirbel zeigen extensive Pneumatisierung (luftgefüllte Räume), die das Skelettgewicht reduzierten während die strukturelle Integrität erhalten blieb, eine Schlüsselanpassung für seinen extremen kursorialen Lebensstil.",
-                  "nl": "Carnotaurus wervels tonen uitgebreide pneumatisatie (lucht-gevulde ruimtes) die skeletaal gewicht verminderde terwijl structurele integriteit behouden bleef, een sleutelaanpassing voor zijn extreme cursoriale levensstijl."
-        }
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
       },
       {
-        question: {
-                  "en": "What phylogenetic analysis reveals about the position of Therizinosaurus within Maniraptora?",
-                  "es": "¿Qué revela el análisis filogenético sobre la posición de Therizinosaurus dentro de Maniraptora?",
-                  "de": "Was enthüllt die phylogenetische Analyse über die Position von Therizinosaurus innerhalb Maniraptora?",
-                  "nl": "Wat onthult fylogenetische analyse over de positie van Therizinosaurus binnen Maniraptora?"
-        },
-        options: [
-        {
-                  "en": "Sister group to modern birds",
-                  "es": "Grupo hermano de aves modernas",
-                  "de": "Schwestergruppe zu modernen Vögeln",
-                  "nl": "Zustergroep van moderne vogels"
-        },
-        {
-                  "en": "Sister taxon to Oviraptorosauria, confirming herbivorous maniraptoran clade",
-                  "es": "Taxón hermano de Oviraptorosauria, confirmando clado maniraptor herbívoro",
-                  "de": "Schwestertaxon zu Oviraptorosauria, bestätigt herbivoren Maniraptoran-Klade",
-                  "nl": "Zuster taxon van Oviraptorosauria, bevestigend herbivore maniraptoran clade"
-        },
-        {
-                  "en": "Outside Maniraptora entirely",
-                  "es": "Completamente fuera de Maniraptora",
-                  "de": "Vollständig außerhalb Maniraptora",
-                  "nl": "Volledig buiten Maniraptora"
-        },
-        {
-                  "en": "Basal position within Dromaeosauridae",
-                  "es": "Posición basal dentro de Dromaeosauridae",
-                  "de": "Basale Position innerhalb Dromaeosauridae",
-                  "nl": "Basale positie binnen Dromaeosauridae"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Phylogenetic studies place Therizinosaurus and other therizinosauroids as sister taxa to Oviraptorosauria, forming a clade of herbivorous maniraptorans that evolved from carnivorous ancestors.",
-                  "es": "Los estudios filogenéticos colocan a Therizinosaurus y otros therizinosaróideos como taxa hermanos de Oviraptorosauria, formando un clado de maniraptores herbívoros que evolucionaron de ancestros carnívoros.",
-                  "de": "Phylogenetische Studien platzieren Therizinosaurus und andere Therizinosauroidea als Schwestertaxa zu Oviraptorosauria und bilden einen Klade herbivorer Maniraptorans, die sich aus fleischfressenden Vorfahren entwickelten.",
-                  "nl": "Fylogenetische studies plaatsen Therizinosaurus en andere therizinosauroidea als zuster taxa van Oviraptorosauria, vormend een clade van herbivore maniraptoren die evolueerden uit carnivore voorouders."
-        }
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
       },
       {
-        question: {
-                  "en": "What does the postcranial anatomy of Giganotosaurus suggest about its ecological niche compared to Tyrannosaurus?",
-                  "es": "¿Qué sugiere la anatomía postcraneal de Giganotosaurus sobre su nicho ecológico comparado con Tyrannosaurus?",
-                  "de": "Was deutet die postkranielle Anatomie von Giganotosaurus über seine ökologische Nische im Vergleich zu Tyrannosaurus an?",
-                  "nl": "Wat suggereert de postcraniële anatomie van Giganotosaurus over zijn ecologische niche vergeleken met Tyrannosaurus?"
-        },
-        options: [
-        {
-                  "en": "Specialized for hunting massive sauropods in open environments",
-                  "es": "Especializado para cazar saurópodos masivos en ambientes abiertos",
-                  "de": "Spezialisiert auf die Jagd nach massiven Sauropoden in offenen Umgebungen",
-                  "nl": "Gespecialiseerd voor jagen op massieve sauropoden in open omgevingen"
-        },
-        {
-                  "en": "Adapted for scavenging in forest environments",
-                  "es": "Adaptado para carroñeo en ambientes forestales",
-                  "de": "Angepasst für Aasfresser in Waldumgebungen",
-                  "nl": "Aangepast voor aaseten in bosomgevingen"
-        },
-        {
-                  "en": "Exclusively piscivorous lifestyle",
-                  "es": "Estilo de vida exclusivamente piscívoro",
-                  "de": "Ausschließlich fischfressender Lebensstil",
-                  "nl": "Exclusief piscivore levensstijl"
-        },
-        {
-                  "en": "Primarily insectivorous diet",
-                  "es": "Dieta principalmente insectívora",
-                  "de": "Hauptsächlich insektenfressende Ernährung",
-                  "nl": "Voornamelijk insectivoor dieet"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Giganotosaurus shows adaptations for active predation of large prey, with longer limbs for pursuing massive sauropods across open landscapes, contrasting with T. rex's more robust build for ambush hunting.",
-                  "es": "Giganotosaurus muestra adaptaciones para depredación activa de presas grandes, con extremidades más largas para perseguir saurópodos masivos a través de paisajes abiertos, contrastando con la construcción más robusta de T. rex para caza de emboscada.",
-                  "de": "Giganotosaurus zeigt Anpassungen für aktive Beute großer Tiere mit längeren Gliedmaßen für die Verfolgung massiver Sauropoden über offene Landschaften, im Gegensatz zu T. rex' robusterem Bau für Hinterhalts-Jagd.",
-                  "nl": "Giganotosaurus toont aanpassingen voor actieve predatie van grote prooi, met langere ledematen voor het achtervolgen van massieve sauropoden over open landschappen, contrasterend met T. rex's meer robuuste bouw voor hinderlaag jacht."
-        }
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
       },
       {
-        question: {
-                  "en": "What does palynological evidence suggest about angiosperm-dinosaur coevolution during the Cretaceous?",
-                  "es": "¿Qué sugiere la evidencia palinológica sobre la coevolución angiosperma-dinosaurio durante el Cretácico?",
-                  "de": "Was deutet palynologische Evidenz über Angiospermen-Dinosaurier-Koevolution während der Kreidezeit an?",
-                  "nl": "Wat suggereert palynologisch bewijs over angiosperm-dinosaurus co-evolutie tijdens het Krijt?"
-        },
-        options: [
-        {
-                  "en": "Dinosaurs prevented flowering plant evolution",
-                  "es": "Los dinosaurios previno la evolución de plantas con flores",
-                  "de": "Dinosaurier verhinderten die Evolution von Blütenpflanzen",
-                  "nl": "Dinosaurussen voorkwamen bloeiende planten evolutie"
-        },
-        {
-                  "en": "Radiation of flowering plants drove diversification of specialized herbivorous dinosaurs",
-                  "es": "La radiación de plantas con flores impulsó la diversificación de dinosaurios herbívoros especializados",
-                  "de": "Die Radiation von Blütenpflanzen trieb die Diversifikation spezialisierter herbivorer Dinosaurier an",
-                  "nl": "Straling van bloeiende planten dreef diversificatie van gespecialiseerde herbivore dinosaurussen aan"
-        },
-        {
-                  "en": "No interaction between plants and herbivorous dinosaurs",
-                  "es": "Sin interacción entre plantas y dinosaurios herbívoros",
-                  "de": "Keine Interaktion zwischen Pflanzen und herbivoren Dinosauriern",
-                  "nl": "Geen interactie tussen planten en herbivore dinosaurussen"
-        },
-        {
-                  "en": "Flowering plants appeared only after dinosaur extinction",
-                  "es": "Las plantas con flores aparecieron solo después de la extinción de dinosaurios",
-                  "de": "Blütenpflanzen erschienen erst nach dem Dinosaurier-Aussterben",
-                  "nl": "Bloeiende planten verschenen alleen na dinosaurus uitsterven"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Palynological studies show the rapid diversification of angiosperms in the mid-Cretaceous coincided with the evolution of new herbivorous dinosaur lineages with specialized feeding adaptations for processing these new plant types.",
-                  "es": "Los estudios palinológicos muestran que la diversificación rápida de angiospermas en el Cretácico medio coincidió con la evolución de nuevos linajes de dinosaurios herbívoros con adaptaciones alimentarias especializadas para procesar estos nuevos tipos de plantas.",
-                  "de": "Palynologische Studien zeigen, dass die schnelle Diversifikation von Angiospermen in der mittleren Kreidezeit mit der Evolution neuer herbivorer Dinosaurier-Linien mit spezialisierten Fressanpassungen für die Verarbeitung dieser neuen Pflanzentypen zusammenfiel.",
-                  "nl": "Palynologische studies tonen dat de snelle diversificatie van angiospermen in het midden-Krijt samenviel met de evolutie van nieuwe herbivore dinosaurus lijnen met gespecialiseerde voedings aanpassingen voor het verwerken van deze nieuwe planttypes."
-        }
-      },
-      {
-        question: {
-                  "en": "What taphonomic processes account for the exceptional soft tissue preservation in some Cretaceous dinosaur fossils?",
-                  "es": "¿Qué procesos tafonómicos explican la preservación excepcional de tejidos blandos en algunos fósiles de dinosaurios del Cretácico?",
-                  "de": "Welche taphonomischen Prozesse erklären die außergewöhnliche Weichgewebe-Erhaltung bei einigen Kreidezeit-Dinosaurier-Fossilien?",
-                  "nl": "Welke tafonomische processen verklaren de uitzonderlijke zachte weefsel bewaring in sommige Krijt dinosaurus fossielen?"
-        },
-        options: [
-        {
-                  "en": "Chemical mummification in desert environments",
-                  "es": "Momificación química en ambientes desérticos",
-                  "de": "Chemische Mumifizierung in Wüstenumgebungen",
-                  "nl": "Chemische mummificatie in woestijn omgevingen"
-        },
-        {
-                  "en": "Rapid anoxic burial preventing bacterial decay and mineral replacement",
-                  "es": "Enterramiento anóxico rápido previniendo descomposición bacterial y reemplazo mineral",
-                  "de": "Schnelle anoxische Einbettung verhindert bakteriellen Zerfall und Mineralersatz",
-                  "nl": "Snelle anoxische begraving voorkomend bacteriële verval en mineraal vervanging"
-        },
-        {
-                  "en": "Artificial preservation by ancient civilizations",
-                  "es": "Preservación artificial por civilizaciones antiguas",
-                  "de": "Künstliche Konservierung durch alte Zivilisationen",
-                  "nl": "Kunstmatige bewaring door oude beschavingen"
-        },
-        {
-                  "en": "Freeze-drying in polar climates",
-                  "es": "Liofilización en climas polares",
-                  "de": "Gefriertrocknung in polaren Klimaten",
-                  "nl": "Vriesdraging in polaire klimaten"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Exceptional soft tissue preservation occurs when rapid burial in anoxic conditions prevents bacterial decomposition, followed by early mineral precipitation that replaces organic compounds while preserving cellular structure.",
-                  "es": "La preservación excepcional de tejidos blandos ocurre cuando el enterramiento rápido en condiciones anóxicas previene la descomposición bacteriana, seguido por precipitación mineral temprana que reemplaza compuestos orgánicos mientras preserva la estructura celular.",
-                  "de": "Außergewöhnliche Weichgewebe-Erhaltung tritt auf, wenn schnelle Einbettung in anoxischen Bedingungen bakterielle Zersetzung verhindert, gefolgt von früher Mineralfällung, die organische Verbindungen ersetzt während die Zellstruktur erhalten bleibt.",
-                  "nl": "Uitzonderlijke zachte weefsel bewaring treedt op wanneer snelle begraving in anoxische omstandigheden bacteriële ontbinding voorkomt, gevolgd door vroege mineraal neerslag die organische verbindingen vervangt terwijl cellulaire structuur behouden blijft."
-        }
-      },
-      {
-        question: {
-                  "en": "What does the endocranial anatomy of Parasaurolophus reveal about its acoustic capabilities?",
-                  "es": "¿Qué revela la anatomía endocraneal de Parasaurolophus sobre sus capacidades acústicas?",
-                  "de": "Was verrät die endokraniale Anatomie von Parasaurolophus über seine akustischen Fähigkeiten?",
-                  "nl": "Wat onthult de endocraniale anatomie van Parasaurolophus over zijn akoestische capaciteiten?"
-        },
-        options: [
-        {
-                  "en": "Lack of auditory processing centers",
-                  "es": "Falta de centros de procesamiento auditivo",
-                  "de": "Mangel an auditiven Verarbeitungszentren",
-                  "nl": "Gebrek aan auditieve verwerkingscentra"
-        },
-        {
-                  "en": "Reduced brain size limiting sound production",
-                  "es": "Tamaño cerebral reducido limitando producción de sonido",
-                  "de": "Reduzierte Gehirngröße begrenzt Schallerzeugung",
-                  "nl": "Verminderde hersengrootte beperkend geluid productie"
-        },
-        {
-                  "en": "Visual cortex dominance over auditory regions",
-                  "es": "Dominancia de corteza visual sobre regiones auditivas",
-                  "de": "Visuelle Cortex-Dominanz über auditive Regionen",
-                  "nl": "Visuele cortex dominantie over auditieve regio's"
-        },
-        {
-                  "en": "Enlarged eighth cranial nerve indicating enhanced auditory processing",
-                  "es": "Nervio craneal octavo agrandado indicando procesamiento auditivo mejorado",
-                  "de": "Vergrößerter achter Hirnnerv zeigt verbesserte auditive Verarbeitung",
-                  "nl": "Vergrote achtste hersenzenuw wijzend op verbeterde auditieve verwerking"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Endocranial casts of Parasaurolophus show enlarged eighth cranial nerve canals and expanded regions associated with auditory processing, supporting the acoustic communication hypothesis for their hollow crests.",
-                  "es": "Los moldes endocraneales de Parasaurolophus muestran canales agrandados del octavo nervio craneal y regiones expandidas asociadas con procesamiento auditivo, apoyando la hipótesis de comunicación acústica para sus crestas huecas.",
-                  "de": "Endokraniale Abgüsse von Parasaurolophus zeigen vergrößerte achte Hirnnervkanäle und erweiterte Regionen, die mit auditiver Verarbeitung verbunden sind, und unterstützen die akustische Kommunikationshypothese für ihre hohlen Kämme.",
-                  "nl": "Endocraniale afgietsels van Parasaurolophus tonen vergrote achtste hersenzenuw kanalen en uitgebreide regio's geassocieerd met auditieve verwerking, ondersteunend de akoestische communicatie hypothese voor hun holle kammen."
-        }
-      },
-      {
-        question: {
-                  "en": "What does isotopic analysis of Spinosaurus bone phosphate reveal about its aquatic behavior?",
-                  "es": "¿Qué revela el análisis isotópico del fosfato óseo de Spinosaurus sobre su comportamiento acuático?",
-                  "de": "Was enthüllt die Isotopen-Analyse des Knochenphosphats von Spinosaurus über sein aquatisches Verhalten?",
-                  "nl": "Wat onthult isotopische analyse van Spinosaurus botfosfaat over zijn aquatisch gedrag?"
-        },
-        options: [
-        {
-                  "en": "δ18O values consistent with semi-aquatic crocodilian lifestyle",
-                  "es": "Valores δ18O consistentes con estilo de vida semi-acuático de cocodrilo",
-                  "de": "δ18O-Werte konsistent mit halb-aquatischem Krokodil-Lebensstil",
-                  "nl": "δ18O waarden consistent met semi-aquatische krokodilachtige levensstijl"
-        },
-        {
-                  "en": "Deep marine habitat indicators",
-                  "es": "Indicadores de hábitat marino profundo",
-                  "de": "Tiefmarine Lebensraum-Indikatoren",
-                  "nl": "Diepe marine habitat indicatoren"
-        },
-        {
-                  "en": "Terrestrial isotope signatures only",
-                  "es": "Solo firmas isotópicas terrestres",
-                  "de": "Nur terrestrische Isotopensignaturen",
-                  "nl": "Alleen terrestrische isotoop handtekeningen"
-        },
-        {
-                  "en": "Exclusively aerial lifestyle markers",
-                  "es": "Marcadores de estilo de vida exclusivamente aéreo",
-                  "de": "Ausschließlich luftige Lebensstil-Marker",
-                  "nl": "Exclusief luchtige levensstijl markers"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Oxygen isotope ratios in Spinosaurus bone phosphate match those of semi-aquatic animals, indicating it spent considerable time in aquatic environments, similar to modern hippos and crocodiles.",
-                  "es": "Las relaciones de isótopos de oxígeno en el fosfato óseo de Spinosaurus coinciden con las de animales semi-acuáticos, indicando que pasó considerable tiempo en ambientes acuáticos, similar a hipopótamos y cocodrilos modernos.",
-                  "de": "Sauerstoff-Isotopenverhältnisse im Knochenphosphat von Spinosaurus stimmen mit denen halb-aquatischer Tiere überein, was darauf hinweist, dass er beträchtliche Zeit in aquatischen Umgebungen verbrachte, ähnlich wie moderne Flusspferde und Krokodile.",
-                  "nl": "Zuurstof isotoop verhoudingen in Spinosaurus botfosfaat komen overeen met die van semi-aquatische dieren, wijzend dat hij aanzienlijke tijd doorbracht in aquatische omgevingen, vergelijkbaar met moderne nijlpaarden en krokodillen."
-        }
-      },
-      {
-        question: {
-                  "en": "What does the biomechanical analysis of ceratopsian frill attachment sites suggest about their function?",
-                  "es": "¿Qué sugiere el análisis biomecánico de los sitios de unión de la cresta ceratópsida sobre su función?",
-                  "de": "Was deutet die biomechanische Analyse der Ceratopsier-Halskrausen-Ansatzstellen über ihre Funktion an?",
-                  "nl": "Wat suggereert biomechanische analyse van ceratopsiër kraag bevestigingsplaatsen over hun functie?"
-        },
-        options: [
-        {
-                  "en": "Locomotive muscle attachment points",
-                  "es": "Puntos de unión muscular locomotora",
-                  "de": "Lokomotorische Muskelansatzstellen",
-                  "nl": "Locomotorische spier bevestigingspunten"
-        },
-        {
-                  "en": "Muscle attachment patterns indicating display rather than defensive function",
-                  "es": "Patrones de unión muscular indicando exhibición más que función defensiva",
-                  "de": "Muskelansatz-Muster zeigen Zur-Schau-Stellung statt Verteidigungsfunktion",
-                  "nl": "Spier bevestigings patronen wijzend op vertoon eerder dan verdedigingsfunctie"
-        },
-        {
-                  "en": "Exclusively defensive armor optimization",
-                  "es": "Optimización de armadura exclusivamente defensiva",
-                  "de": "Ausschließlich defensive Panzerungsoptimierung",
-                  "nl": "Exclusief defensieve pantser optimalisatie"
-        },
-        {
-                  "en": "Respiratory system support structures",
-                  "es": "Estructuras de soporte del sistema respiratorio",
-                  "de": "Atemwegsstützstrukturen",
-                  "nl": "Ademhalingssysteem ondersteuningsstructuren"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Analysis of muscle attachment sites on ceratopsian frills reveals patterns more consistent with display muscles for visual signaling rather than defensive muscles for protection, supporting sexual selection hypotheses.",
-                  "es": "El análisis de sitios de unión muscular en crestas de ceratópsidos revela patrones más consistentes con músculos de exhibición para señalización visual más que músculos defensivos para protección, apoyando hipótesis de selección sexual.",
-                  "de": "Die Analyse von Muskelansatzstellen an Ceratopsier-Halskrausen enthüllt Muster, die eher mit Zur-Schau-Stellungs-Muskeln für visuelle Signale als mit Verteidigungsmuskeln für Schutz übereinstimmen, und unterstützt sexuelle Selektionshypothesen.",
-                  "nl": "Analyse van spier bevestigingsplaatsen op ceratopsiër kragen onthult patronen meer consistent met vertoon spieren voor visuele signalering eerder dan verdedigingsspieren voor bescherming, ondersteunend seksuele selectie hypotheses."
-        }
-      },
-      {
-        question: {
-                  "en": "What does the discovery of melanosomes in Anchiornis fossils reveal about Cretaceous theropod coloration?",
-                  "es": "¿Qué revela el descubrimiento de melanosomas en fósiles de Anchiornis sobre la coloración de terópodos del Cretácico?",
-                  "de": "Was enthüllt die Entdeckung von Melanosomen in Anchiornis-Fossilien über die Färbung von Kreidezeit-Theropoden?",
-                  "nl": "Wat onthult de ontdekking van melanosomen in Anchiornis fossielen over Krijt theropode kleuring?"
-        },
-        options: [
-        {
-                  "en": "Absence of any pigmentation",
-                  "es": "Ausencia de cualquier pigmentación",
-                  "de": "Abwesenheit jeglicher Pigmentierung",
-                  "nl": "Afwezigheid van enige pigmentatie"
-        },
-        {
-                  "en": "Uniform brown coloration throughout body",
-                  "es": "Coloración marrón uniforme en todo el cuerpo",
-                  "de": "Einheitliche braune Färbung am ganzen Körper",
-                  "nl": "Uniforme bruine kleuring door het hele lichaam"
-        },
-        {
-                  "en": "Transparent feathers for camouflage",
-                  "es": "Plumas transparentes para camuflaje",
-                  "de": "Transparente Federn zur Tarnung",
-                  "nl": "Transparante veren voor camouflage"
-        },
-        {
-                  "en": "Complex plumage patterns with iridescent black feathers and white wing markings",
-                  "es": "Patrones de plumaje complejos con plumas negras iridiscentes y marcas blancas en las alas",
-                  "de": "Komplexe Gefieder-Muster mit irisierenden schwarzen Federn und weißen Flügelmarkierungen",
-                  "nl": "Complexe verenkleed patronen met iridescente zwarte veren en witte vleugel markeringen"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Analysis of fossilized melanosomes in Anchiornis revealed it had predominantly black iridescent plumage with distinctive white patches on the wings, representing the first definitive color reconstruction of a dinosaur.",
-                  "es": "El análisis de melanosomas fosilizados en Anchiornis reveló que tenía plumaje predominantemente negro iridiscente con parches blancos distintivos en las alas, representando la primera reconstrucción de color definitiva de un dinosaurio.",
-                  "de": "Die Analyse versteinerter Melanosomen in Anchiornis enthüllte, dass er überwiegend schwarzes, irisierendes Gefieder mit charakteristischen weißen Flecken auf den Flügeln hatte, was die erste definitive Farbrekonstruktion eines Dinosauriers darstellt.",
-                  "nl": "Analyse van gefossiliseerde melanosomen in Anchiornis onthulde dat hij voornamelijk zwart iridescent verenkleed had met onderscheidende witte vlekken op de vleugels, representerende de eerste definitieve kleur reconstructie van een dinosaurus."
-        }
-      },
-      {
-        question: {
-                  "en": "What does the functional morphology of Amargasaurus neural spines indicate about their biomechanical role?",
-                  "es": "¿Qué indica la morfología funcional de las espinas neurales de Amargasaurus sobre su papel biomecánico?",
-                  "de": "Was zeigt die funktionelle Morphologie der Amargasaurus-Dornfortsätze über ihre biomechanische Rolle an?",
-                  "nl": "Wat toont de functionele morfologie van Amargasaurus neurale stekels aan over hun biomechanische rol?"
-        },
-        options: [
-        {
-                  "en": "Vertebral fusion preventing neck movement",
-                  "es": "Fusión vertebral previniendo movimiento del cuello",
-                  "de": "Wirbelverschmelzung verhindert Nackenbewegung",
-                  "nl": "Wervel fusie voorkomend nek beweging"
-        },
-        {
-                  "en": "Pneumatic chambers for buoyancy control",
-                  "es": "Cámaras neumáticas para control de flotabilidad",
-                  "de": "Pneumatische Kammern zur Auftriebskontrolle",
-                  "nl": "Pneumatische kamers voor drijfvermogen controle"
-        },
-        {
-                  "en": "Insufficient structural support for muscle attachment, favoring display sail hypothesis",
-                  "es": "Soporte estructural insuficiente para unión muscular, favoreciendo hipótesis de vela de exhibición",
-                  "de": "Unzureichende strukturelle Unterstützung für Muskelansatz, begünstigt Zur-Schau-Stellungs-Segel-Hypothese",
-                  "nl": "Onvoldoende structurele ondersteuning voor spier bevestiging, begunstigt vertoon zeil hypothese"
-        },
-        {
-                  "en": "Robust muscle attachment points for neck support",
-                  "es": "Puntos de unión muscular robustos para soporte del cuello",
-                  "de": "Robuste Muskelansatzpunkte zur Nackenstütze",
-                  "nl": "Robuuste spier bevestigingspunten voor nek ondersteuning"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The elongated neural spines of Amargasaurus lack the robust muscle attachment sites expected if they supported massive neck muscles, instead showing features consistent with supporting skin sails for display purposes.",
-                  "es": "Las espinas neurales alargadas de Amargasaurus carecen de los sitios de unión muscular robustos esperados si sostuvieran músculos masivos del cuello, en su lugar mostrando características consistentes con sostener velas de piel para propósitos de exhibición.",
-                  "de": "Die verlängerten Dornfortsätze von Amargasaurus fehlen die robusten Muskelansatzstellen, die erwartet würden, wenn sie massive Nackenmuskeln stützten, sondern zeigen Merkmale, die mit der Unterstützung von Hautsegeln für Zur-Schau-Stellungszwecke übereinstimmen.",
-                  "nl": "De verlengde neurale stekels van Amargasaurus missen de robuuste spier bevestigingsplaatsen die verwacht zouden worden als ze massieve nekspieren ondersteunden, in plaats daarvan tonend kenmerken consistent met het ondersteunen van huidzeilen voor vertoon doeleinden."
-        }
-      },
-      {
-        question: {
-                  "en": "What does the histological analysis of hadrosaur dental batteries reveal about their processing capabilities?",
-                  "es": "¿Qué revela el análisis histológico de las baterías dentales de hadrosaurios sobre sus capacidades de procesamiento?",
-                  "de": "Was enthüllt die histologische Analyse von Hadrosaurier-Zahnbatterien über ihre Verarbeitungsfähigkeiten?",
-                  "nl": "Wat onthult histologische analyse van hadrosauriër tandenbatterijen over hun verwerkingscapaciteiten?"
-        },
-        options: [
-        {
-                  "en": "Carnivorous tooth adaptations",
-                  "es": "Adaptaciones dentales carnívoras",
-                  "de": "Fleischfressende Zahnanpassungen",
-                  "nl": "Carnivore tand aanpassingen"
-        },
-        {
-                  "en": "Non-functional decorative teeth",
-                  "es": "Dientes decorativos no funcionales",
-                  "de": "Nicht-funktionale dekorative Zähne",
-                  "nl": "Niet-functionele decoratieve tanden"
-        },
-        {
-                  "en": "Differential wear patterns optimizing grinding efficiency for varied plant textures",
-                  "es": "Patrones de desgaste diferencial optimizando eficiencia de molienda para texturas vegetales variadas",
-                  "de": "Differentielle Abnutzungsmuster optimieren Mahleffizienz für verschiedene Pflanzentexturen",
-                  "nl": "Differentiële slijtage patronen optimaliseren maalefficientie voor gevarieerde planten texturen"
-        },
-        {
-                  "en": "Uniform tooth structure limiting dietary range",
-                  "es": "Estructura dental uniforme limitando rango dietético",
-                  "de": "Einheitliche Zahnstruktur begrenzt Nahrungsbereich",
-                  "nl": "Uniforme tandstructuur beperkt dieet bereik"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Histological studies show hadrosaur dental batteries had complex wear patterns with different tooth surfaces optimized for cutting, shredding, and grinding various plant materials, enabling processing of diverse Cretaceous vegetation.",
-                  "es": "Los estudios histológicos muestran que las baterías dentales de hadrosaurios tenían patrones de desgaste complejos con diferentes superficies dentales optimizadas para cortar, desmenuzar y moler varios materiales vegetales, permitiendo el procesamiento de vegetación diversa del Cretácico.",
-                  "de": "Histologische Studien zeigen, dass Hadrosaurier-Zahnbatterien komplexe Abnutzungsmuster mit verschiedenen Zahnoberflächen hatten, die für das Schneiden, Zerkleinern und Mahlen verschiedener Pflanzenmaterialien optimiert waren, wodurch die Verarbeitung verschiedener Kreidezeit-Vegetation ermöglicht wurde.",
-                  "nl": "Histologische studies tonen dat hadrosauriër tandenbatterijen complexe slijtage patronen hadden met verschillende tandoppervlakken geoptimaliseerd voor snijden, verscheuren en malen van verschillende plantenmateriaal, mogelijk makend verwerking van diverse Krijt vegetatie."
-        }
-      },
-      {
-        question: {
-                  "en": "What does the pneumatic system architecture in large theropods reveal about their respiratory physiology?",
-                  "es": "¿Qué revela la arquitectura del sistema neumático en grandes terópodos sobre su fisiología respiratoria?",
-                  "de": "Was enthüllt die pneumatische Systemarchitektur bei großen Theropoden über ihre Atmungsphysiologie?",
-                  "nl": "Wat onthult de pneumatische systeem architectuur bij grote theropoden over hun respiratoire fysiologie?"
-        },
-        options: [
-        {
-                  "en": "Simple mammalian lung structure",
-                  "es": "Estructura pulmonar mamífera simple",
-                  "de": "Einfache Säugetierlungenstruktur",
-                  "nl": "Eenvoudige zoogdier long structuur"
-        },
-        {
-                  "en": "Avian-like air sac system enabling efficient unidirectional airflow",
-                  "es": "Sistema de sacos aéreos similar a aves permitiendo flujo de aire unidireccional eficiente",
-                  "de": "Vogelähnliches Luftsacksystem ermöglicht effizienten unidirektionalen Luftstrom",
-                  "nl": "Vogelachtig luchtzak systeem mogelijk makend efficiente unidirectionele luchtstroom"
-        },
-        {
-                  "en": "Cutaneous oxygen absorption",
-                  "es": "Absorción cutánea de oxígeno",
-                  "de": "Kutane Sauerstoffaufnahme",
-                  "nl": "Cutane zuurstof absorptie"
-        },
-        {
-                  "en": "Aquatic gill-like respiration",
-                  "es": "Respiración similar a branquias acuáticas",
-                  "de": "Aquatische kiemenartige Atmung",
-                  "nl": "Aquatische kieuw-achtige ademhaling"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The extensive pneumatic systems in large theropods mirror those of modern birds, indicating they possessed sophisticated air sac respiratory systems that provided highly efficient oxygen extraction and thermoregulation.",
-                  "es": "Los sistemas neumáticos extensivos en grandes terópodos reflejan los de aves modernas, indicando que poseían sistemas respiratorios de sacos aéreos sofisticados que proporcionaban extracción de oxígeno altamente eficiente y termorregulación.",
-                  "de": "Die ausgedehnten pneumatischen Systeme bei großen Theropoden spiegeln die moderner Vögel wider und zeigen an, dass sie hochentwickelte Luftsack-Atmungssysteme besaßen, die hocheffiziente Sauerstoffextraktion und Thermoregulation boten.",
-                  "nl": "De uitgebreide pneumatische systemen bij grote theropoden spiegelen die van moderne vogels, wijzend dat ze geavanceerde luchtzak ademhalingssystemen bezaten die zeer efficiënte zuurstof extractie en thermoregulatie verschaften."
-        }
-      },
-      {
-        question: {
-                  "en": "What does the comparative osteology of Cretaceous titanosaurs indicate about their evolutionary relationships?",
-                  "es": "¿Qué indica la osteología comparativa de titanosaurios del Cretácico sobre sus relaciones evolutivas?",
-                  "de": "Was zeigt die vergleichende Osteologie von Kreidezeit-Titanosauriern über ihre evolutionären Beziehungen an?",
-                  "nl": "Wat toont de vergelijkende osteologie van Krijt titanosauriërs aan over hun evolutionaire relaties?"
-        },
-        options: [
-        {
-                  "en": "Convergent evolution from multiple sauropod groups",
-                  "es": "Evolución convergente de múltiples grupos de saurópodos",
-                  "de": "Konvergente Evolution aus mehreren Sauropoden-Gruppen",
-                  "nl": "Convergente evolutie uit meerdere sauropoden groepen"
-        },
-        {
-                  "en": "Single lineage with minimal morphological variation",
-                  "es": "Linaje único con variación morfológica mínima",
-                  "de": "Einzelne Abstammungslinie mit minimaler morphologischer Variation",
-                  "nl": "Enkele lijn met minimale morfologische variatie"
-        },
-        {
-                  "en": "Direct ancestry to modern elephants",
-                  "es": "Ancestro directo de elefantes modernos",
-                  "de": "Direkte Abstammung zu modernen Elefanten",
-                  "nl": "Directe voorouders van moderne olifanten"
-        },
-        {
-                  "en": "Rapid adaptive radiation following isolation of Gondwanan landmasses",
-                  "es": "Radiación adaptativa rápida siguiendo el aislamiento de masas terrestres gondwánicas",
-                  "de": "Schnelle adaptive Radiation nach Isolation gondwanischer Landmassen",
-                  "nl": "Snelle adaptieve straling volgend op isolatie van Gondwaanse landmassa's"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Comparative osteological studies show titanosaurs underwent rapid diversification as Gondwanan continents separated, evolving distinct regional faunas with specialized adaptations to local environments and ecological niches.",
-                  "es": "Los estudios osteológicos comparativos muestran que los titanosaurios experimentaron diversificación rápida mientras los continentes gondwánicos se separaron, evolucionando faunas regionales distintas con adaptaciones especializadas a ambientes locales y nichos ecológicos.",
-                  "de": "Vergleichende osteologische Studien zeigen, dass Titanosaurier eine schnelle Diversifikation durchliefen, als sich die gondwanischen Kontinente trennten, und entwickelten unterschiedliche regionale Faunen mit spezialisierten Anpassungen an lokale Umgebungen und ökologische Nischen.",
-                  "nl": "Vergelijkende osteologische studies tonen dat titanosauriërs snelle diversificatie ondergingen als Gondwaanse continenten scheidden, evoluerende onderscheidende regionale fauna's met gespecialiseerde aanpassingen aan lokale omgevingen en ecologische niches."
-        }
-      },
-      {
-        question: {
-                  "en": "What does sedimentological analysis of the Kem Kem Beds reveal about Spinosaurus paleoenvironment?",
-                  "es": "¿Qué revela el análisis sedimentológico de los Lechos Kem Kem sobre el paleoambiente de Spinosaurus?",
-                  "de": "Was enthüllt die sedimentologische Analyse der Kem Kem-Schichten über Spinosaurus' Paläoumwelt?",
-                  "nl": "Wat onthult sedimentologische analyse van de Kem Kem Bedden over Spinosaurus paleoomgeving?"
-        },
-        options: [
-        {
-                  "en": "Arid desert with rare oases",
-                  "es": "Desierto árido con oasis raros",
-                  "de": "Trockene Wüste mit seltenen Oasen",
-                  "nl": "Droge woestijn met zeldzame oases"
-        },
-        {
-                  "en": "Large fluvial system with meandering rivers, oxbow lakes, and seasonal flooding",
-                  "es": "Sistema fluvial grande con ríos serpenteantes, lagos de herradura e inundaciones estacionales",
-                  "de": "Großes Flusssystem mit mäandernden Flüssen, Altwasserseen und saisonalen Überschwemmungen",
-                  "nl": "Groot rivieren systeem met meanderende rivieren, boogmeren en seizoensgebonden overstromingen"
-        },
-        {
-                  "en": "Alpine mountain environment",
-                  "es": "Ambiente montañoso alpino",
-                  "de": "Alpine Bergumgebung",
-                  "nl": "Alpiene berg omgeving"
-        },
-        {
-                  "en": "Deep marine environment with coral reefs",
-                  "es": "Ambiente marino profundo con arrecifes de coral",
-                  "de": "Tiefe Meeresumgebung mit Korallenriffen",
-                  "nl": "Diepe marine omgeving met koraalriffen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Sedimentological analysis reveals the Kem Kem Beds were deposited in a large fluvial system with extensive river networks, creating the perfect semi-aquatic habitat for Spinosaurus and associated fauna.",
-                  "es": "El análisis sedimentológico revela que los Lechos Kem Kem se depositaron en un gran sistema fluvial con extensas redes de ríos, creando el hábitat semi-acuático perfecto para Spinosaurus y fauna asociada.",
-                  "de": "Sedimentologische Analysen zeigen, dass die Kem Kem-Schichten in einem großen Flusssystem mit ausgedehnten Flussnetzwerken abgelagert wurden, was den perfekten halb-aquatischen Lebensraum für Spinosaurus und die dazugehörige Fauna schuf.",
-                  "nl": "Sedimentologische analyse onthult dat de Kem Kem Bedden werden afgezet in een groot rivieren systeem met uitgebreide rivier netwerken, creërend de perfecte semi-aquatische habitat voor Spinosaurus en geassocieerde fauna."
-        }
-      },
-      {
-        question: {
-                  "en": "What does the analysis of coprolites from the Hell Creek Formation reveal about Late Cretaceous food webs?",
-                  "es": "¿Qué revela el análisis de coprolitos de la Formación Hell Creek sobre las redes alimentarias del Cretácico Tardío?",
-                  "de": "Was enthüllt die Analyse von Koprolithen aus der Hell Creek Formation über die Nahrungsnetze der Oberkreide?",
-                  "nl": "Wat onthult analyse van coprolieten uit de Hell Creek Formatie over Laat-Krijt voedselwebben?"
-        },
-        options: [
-        {
-                  "en": "Exclusively herbivorous dinosaur diets",
-                  "es": "Dietas de dinosaurios exclusivamente herbívoras",
-                  "de": "Ausschließlich herbivore Dinosaurier-Diäten",
-                  "nl": "Exclusief herbivore dinosaurus diëten"
-        },
-        {
-                  "en": "Simple linear food chains with no overlap",
-                  "es": "Cadenas alimentarias lineales simples sin superposición",
-                  "de": "Einfache lineare Nahrungsketten ohne Überlappung",
-                  "nl": "Eenvoudige lineaire voedselketens zonder overlap"
-        },
-        {
-                  "en": "No preserved organic matter",
-                  "es": "Sin materia orgánica preservada",
-                  "de": "Keine erhaltene organische Materie",
-                  "nl": "Geen bewaarde organische materie"
-        },
-        {
-                  "en": "Complex trophic interactions with evidence of fish consumption by terrestrial predators",
-                  "es": "Interacciones tróficas complejas con evidencia de consumo de peces por depredadores terrestres",
-                  "de": "Komplexe trophische Interaktionen mit Beweisen für Fischkonsum durch terrestrische Räuber",
-                  "nl": "Complexe trofische interacties met bewijs van vis consumptie door terrestrische roofdieren"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Coprolite analysis from Hell Creek reveals complex food webs with evidence that some theropods consumed fish, indicating connections between aquatic and terrestrial ecosystems in Late Cretaceous North America.",
-                  "es": "El análisis de coprolitos de Hell Creek revela redes alimentarias complejas con evidencia de que algunos terópodos consumían peces, indicando conexiones entre ecosistemas acuáticos y terrestres en el Cretácico Tardío de América del Norte.",
-                  "de": "Koprolith-Analysen aus Hell Creek enthüllen komplexe Nahrungsnetze mit Beweisen, dass einige Theropoden Fische konsumierten, was Verbindungen zwischen aquatischen und terrestrischen Ökosystemen in der Oberkreide Nordamerikas anzeigt.",
-                  "nl": "Coproliet analyse uit Hell Creek onthult complexe voedselwebben met bewijs dat sommige theropoden vissen consumeerden, wijzend op verbindingen tussen aquatische en terrestrische ecosystemen in Laat-Krijt Noord-Amerika."
-        }
-      },
-      {
-        question: {
-                  "en": "What does the microstructural analysis of Argentinosaurus vertebrae indicate about sauropod gigantism constraints?",
-                  "es": "¿Qué indica el análisis microestructural de las vértebras de Argentinosaurus sobre las limitaciones del gigantismo en saurópodos?",
-                  "de": "Was zeigt die mikrostrukturelle Analyse von Argentinosaurus-Wirbeln über die Beschränkungen des Sauropoden-Gigantismus an?",
-                  "nl": "Wat toont microstructurele analyse van Argentinosaurus wervels aan over sauropoden gigantisme beperkingen?"
-        },
-        options: [
-        {
-                  "en": "Unlimited potential for further size increase",
-                  "es": "Potencial ilimitado para mayor aumento de tamaño",
-                  "de": "Unbegrenztes Potenzial für weitere Größenzunahme",
-                  "nl": "Onbeperkte potentie voor verdere grootte toename"
-        },
-        {
-                  "en": "Dense solid bone throughout skeleton",
-                  "es": "Hueso sólido denso en todo el esqueleto",
-                  "de": "Dichter massiver Knochen im ganzen Skelett",
-                  "nl": "Dichte solide bot door het hele skelet"
-        },
-        {
-                  "en": "Primarily hollow bones with no structural integrity",
-                  "es": "Principalmente huesos huecos sin integridad estructural",
-                  "de": "Hauptsächlich hohle Knochen ohne strukturelle Integrität",
-                  "nl": "Voornamelijk holle botten zonder structurele integriteit"
-        },
-        {
-                  "en": "Structural compromises approaching biomechanical limits of vertebrate architecture",
-                  "es": "Compromisos estructurales acercándose a límites biomecánicos de arquitectura vertebrada",
-                  "de": "Strukturelle Kompromisse nähern sich biomechanischen Grenzen der Wirbeltier-Architektur",
-                  "nl": "Structurele compromissen naderend biomechanische limieten van gewervelde architectuur"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Microstructural analysis shows Argentinosaurus vertebrae had extensive pneumatization and thin-walled architecture that approached the physical limits of bone strength, suggesting sauropod gigantism was constrained by biomechanical factors.",
-                  "es": "El análisis microestructural muestra que las vértebras de Argentinosaurus tenían neumatización extensiva y arquitectura de paredes delgadas que se acercó a los límites físicos de la fuerza ósea, sugiriendo que el gigantismo de saurópodos estaba limitado por factores biomecánicos.",
-                  "de": "Mikrostrukturelle Analysen zeigen, dass Argentinosaurus-Wirbel extensive Pneumatisierung und dünnwandige Architektur hatten, die sich den physischen Grenzen der Knochenstärke näherten, was darauf hindeutet, dass der Sauropoden-Gigantismus durch biomechanische Faktoren begrenzt war.",
-                  "nl": "Microstructurele analyse toont dat Argentinosaurus wervels uitgebreide pneumatisatie en dunwandige architectuur hadden die de fysische limieten van botsterkte naderden, suggererend dat sauropoden gigantisme beperkt werd door biomechanische factoren."
-        }
-      },
-      {
-        question: {
-                  "en": "What does the preservation of melanosomes in Cretaceous dinosaur feathers reveal about thermoregulatory strategies?",
-                  "es": "¿Qué revela la preservación de melanosomas en plumas de dinosaurios del Cretácico sobre estrategias termorregulatorias?",
-                  "de": "Was enthüllt die Erhaltung von Melanosomen in Kreidezeit-Dinosaurierfedern über Thermoregulationsstrategien?",
-                  "nl": "Wat onthult de bewaring van melanosomen in Krijt dinosaurus veren over thermoregulatoire strategieën?"
-        },
-        options: [
-        {
-                  "en": "Complex plumage patterns for behavioral thermoregulation and social signaling",
-                  "es": "Patrones complejos de plumaje para termorregulación conductual y señalización social",
-                  "de": "Komplexe Gefiedermuster für Verhaltensthermoregulation und soziale Signalgebung",
-                  "nl": "Complexe verenpatronen voor gedragsthermoregulatie en sociale signalering"
-        },
-        {
-                  "en": "Simple monochromatic feathers for basic insulation only",
-                  "es": "Plumas monocromáticas simples solo para aislamiento básico",
-                  "de": "Einfache monochrome Federn nur für Grundisolierung",
-                  "nl": "Eenvoudige monochromatische veren alleen voor basis isolatie"
-        },
-        {
-                  "en": "No thermoregulatory function",
-                  "es": "Sin función termorreguladora",
-                  "de": "Keine thermoregulatorische Funktion",
-                  "nl": "Geen thermoregulatoire functie"
-        },
-        {
-                  "en": "Exclusively aquatic adaptations",
-                  "es": "Adaptaciones exclusivamente acuáticas",
-                  "de": "Ausschließlich aquatische Anpassungen",
-                  "nl": "Exclusief aquatische aanpassingen"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Preserved melanosomes in Cretaceous feathers show complex pigmentation patterns that suggest sophisticated behavioral thermoregulation, with different colors and patterns potentially used for temperature control and social display.",
-                  "es": "Los melanosomas preservados en plumas del Cretácico muestran patrones complejos de pigmentación que sugieren termorregulación conductual sofisticada, con diferentes colores y patrones potencialmente usados para control de temperatura y exhibición social.",
-                  "de": "Erhaltene Melanosomen in Kreidezeit-Federn zeigen komplexe Pigmentierungsmuster, die ausgeklügelte Verhaltensthermoregulation nahelegen, wobei verschiedene Farben und Muster möglicherweise für Temperaturkontrolle und soziale Zurschaustellung verwendet wurden.",
-                  "nl": "Bewaarde melanosomen in Krijt veren tonen complexe pigmentatie patronen die geavanceerde gedragsthermoregulatie suggereren, met verschillende kleuren en patronen mogelijk gebruikt voor temperatuurcontrole en sociale vertoning."
-        }
-      },
-      {
-        question: {
-                  "en": "What does geochemical analysis of Cretaceous soil horizons reveal about dinosaur ecosystem engineering?",
-                  "es": "¿Qué revela el análisis geoquímico de horizontes de suelo del Cretácico sobre ingeniería de ecosistemas de dinosaurios?",
-                  "de": "Was enthüllt die geochemische Analyse von Kreidezeit-Bodenhorizonten über Dinosaurier-Ökosystem-Engineering?",
-                  "nl": "Wat onthult geochemische analyse van Krijt bodem horizonten over dinosaurus ecosysteem engineering?"
-        },
-        options: [
-        {
-                  "en": "No detectable impact on soil systems",
-                  "es": "Sin impacto detectable en sistemas de suelo",
-                  "de": "Kein nachweisbarer Einfluss auf Bodensysteme",
-                  "nl": "Geen detecteerbare impact op bodensystemen"
-        },
-        {
-                  "en": "Large herbivores significantly altered nutrient cycling and soil chemistry through trampling and waste deposition",
-                  "es": "Grandes herbívoros alteraron significativamente el ciclo de nutrientes y química del suelo a través de pisoteo y deposición de desechos",
-                  "de": "Große Herbivoren veränderten den Nährstoffkreislauf und die Bodenchemie erheblich durch Zertrampeln und Abfallablagerung",
-                  "nl": "Grote herbivoren veranderden nutriëntencycling en bodemchemie significant door vertrapping en afvalafzetting"
-        },
-        {
-                  "en": "Only minor surface disturbances",
-                  "es": "Solo perturbaciones superficiales menores",
-                  "de": "Nur geringfügige Oberflächenstörungen",
-                  "nl": "Alleen kleine oppervlakte verstoringen"
-        },
-        {
-                  "en": "Exclusively negative impacts on plant communities",
-                  "es": "Impactos exclusivamente negativos en comunidades vegetales",
-                  "de": "Ausschließlich negative Auswirkungen auf Pflanzengemeinschaften",
-                  "nl": "Exclusief negatieve impacts op plantengemeenschappen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Geochemical signatures in Cretaceous paleosols show evidence that large dinosaur herbivores created nutrient hotspots through waste deposition and affected plant community structure through selective browsing and trampling, functioning as ecosystem engineers.",
-                  "es": "Las firmas geoquímicas en paleosuelos del Cretácico muestran evidencia de que grandes dinosaurios herbívoros crearon zonas calientes de nutrientes a través de deposición de desechos y afectaron la estructura de comunidades vegetales a través de ramoneo selectivo y pisoteo, funcionando como ingenieros de ecosistemas.",
-                  "de": "Geochemische Signaturen in Kreidezeit-Paläoböden zeigen Beweise, dass große Dinosaurier-Herbivoren Nährstoff-Hotspots durch Abfallablagerung schufen und Pflanzengemeinschaftsstrukturen durch selektives Abweiden und Zertrampeln beeinflussten, als Ökosystem-Ingenieure funktionierend.",
-                  "nl": "Geochemische handtekeningen in Krijt paleosolen tonen bewijs dat grote dinosaurus herbivoren nutriënt hotspots creëerden door afvalafzetting en plantengemeenschap structuur beïnvloedden door selectief grazen en vertrapping, functionerend als ecosysteem ingenieurs."
-        }
-      },
-      {
-        question: {
-                  "en": "What does the three-dimensional reconstruction of Parasaurolophus cranial anatomy reveal about acoustic communication capabilities?",
-                  "es": "¿Qué revela la reconstrucción tridimensional de la anatomía craneal de Parasaurolophus sobre capacidades de comunicación acústica?",
-                  "de": "Was enthüllt die dreidimensionale Rekonstruktion der Schädelanatomie von Parasaurolophus über akustische Kommunikationsfähigkeiten?",
-                  "nl": "Wat onthult driedimensionale reconstructie van Parasaurolophus schedel anatomie over akoestische communicatie vermogens?"
-        },
-        options: [
-        {
-                  "en": "Simple air passages with no acoustic function",
-                  "es": "Pasajes de aire simples sin función acústica",
-                  "de": "Einfache Luftdurchgänge ohne akustische Funktion",
-                  "nl": "Eenvoudige luchtdoorgangen zonder akoestische functie"
-        },
-        {
-                  "en": "Complex resonating chambers capable of producing species-specific harmonic frequencies",
-                  "es": "Cámaras de resonancia complejas capaces de producir frecuencias armónicas específicas de especie",
-                  "de": "Komplexe Resonanzkammern, die artspezifische harmonische Frequenzen erzeugen können",
-                  "nl": "Complexe resonantiekamers capabel tot het produceren van soort-specifieke harmonische frequenties"
-        },
-        {
-                  "en": "Only visual display structures",
-                  "es": "Solo estructuras de exhibición visual",
-                  "de": "Nur visuelle Zurschaustellungsstrukturen",
-                  "nl": "Alleen visuele vertoon structuren"
-        },
-        {
-                  "en": "Chemoreceptor organs for scent detection",
-                  "es": "Órganos quimiorreceptores para detección de olores",
-                  "de": "Chemorezeptor-Organe für Geruchserkennung",
-                  "nl": "Chemoreceptor organen voor geur detectie"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "CT scanning and 3D modeling of Parasaurolophus crests reveals complex internal passages that functioned as sophisticated resonating chambers, capable of producing specific tonal frequencies for intraspecific communication.",
-                  "es": "El escaneo CT y modelado 3D de crestas de Parasaurolophus revela pasajes internos complejos que funcionaban como cámaras de resonancia sofisticadas, capaces de producir frecuencias tonales específicas para comunicación intraespecífica.",
-                  "de": "CT-Scanning und 3D-Modellierung von Parasaurolophus-Kämmen enthüllt komplexe interne Durchgänge, die als ausgeklügelte Resonanzkammern funktionierten und spezifische Tonfrequenzen für intraspezifische Kommunikation erzeugen konnten.",
-                  "nl": "CT scanning en 3D modellering van Parasaurolophus kammen onthult complexe interne doorgangen die functioneerden als geavanceerde resonantiekamers, capabel tot het produceren van specifieke toonfrequenties voor intraspecifieke communicatie."
-        }
-      },
-      {
-        question: {
-                  "en": "What does the biomolecular analysis of Cretaceous amber inclusions reveal about dinosaur-ecosystem interactions?",
-                  "es": "¿Qué revela el análisis biomolecular de inclusiones en ámbar del Cretácico sobre interacciones dinosaurio-ecosistema?",
-                  "de": "Was enthüllt die biomolekulare Analyse von Kreidezeit-Bernstein-Einschlüssen über Dinosaurier-Ökosystem-Interaktionen?",
-                  "nl": "Wat onthult biomoleculaire analyse van Krijt barnsteen insluitsels over dinosaurus-ecosysteem interacties?"
-        },
-        options: [
-        {
-                  "en": "No preserved organic material",
-                  "es": "Sin material orgánico preservado",
-                  "de": "Kein erhaltenes organisches Material",
-                  "nl": "Geen bewaard organisch materiaal"
-        },
-        {
-                  "en": "Only predator-prey relationships",
-                  "es": "Solo relaciones depredador-presa",
-                  "de": "Nur Räuber-Beute-Beziehungen",
-                  "nl": "Alleen roofdier-prooi relaties"
-        },
-        {
-                  "en": "Isolated dinosaur populations with minimal ecosystem impact",
-                  "es": "Poblaciones de dinosaurios aisladas con impacto ecosistémico mínimo",
-                  "de": "Isolierte Dinosaurier-Populationen mit minimalem Ökosystem-Einfluss",
-                  "nl": "Geïsoleerde dinosaurus populaties met minimale ecosysteem impact"
-        },
-        {
-                  "en": "Complex trophic networks with dinosaurs as keystone species affecting multiple ecosystem levels",
-                  "es": "Redes tróficas complejas con dinosaurios como especies clave afectando múltiples niveles ecosistémicos",
-                  "de": "Komplexe trophische Netzwerke mit Dinosauriern als Schlüsselarten, die mehrere Ökosystemebenen beeinflussen",
-                  "nl": "Complexe trofische netwerken met dinosaurussen als sleutelsoorten die meerdere ecosysteem niveaus beïnvloeden"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "DNA and protein analysis from Cretaceous amber reveals complex ecological networks where dinosaurs served as keystone species, with their activities affecting plant pollination, seed dispersal, and nutrient cycling across multiple trophic levels.",
-                  "es": "El análisis de ADN y proteínas del ámbar del Cretácico revela redes ecológicas complejas donde los dinosaurios sirvieron como especies clave, con sus actividades afectando polinización de plantas, dispersión de semillas y ciclado de nutrientes a través de múltiples niveles tróficos.",
-                  "de": "DNA- und Proteinanalysen aus Kreidezeit-Bernstein enthüllen komplexe ökologische Netzwerke, in denen Dinosaurier als Schlüsselarten dienten, wobei ihre Aktivitäten Pflanzenbestäubung, Samenverteilung und Nährstoffkreislauf über mehrere trophische Ebenen beeinflussten.",
-                  "nl": "DNA en proteïne analyse uit Krijt barnsteen onthult complexe ecologische netwerken waar dinosaurussen dienden als sleutelsoorten, met hun activiteiten die plantenbestuiving, zaadverspreiding en nutriëntencycling beïnvloedden over meerdere trofische niveaus."
-        }
-      },
-      {
-        question: {
-                  "en": "What period did Cretaceous dinosaurs live in?",
-                  "es": "What period did Cretaceous dinosaurs live in?",
-                  "de": "What period did Cretaceous dinosaurs live in?",
-                  "nl": "What period did Cretaceous dinosaurs live in?"
-        },
-        options: [
-        {
-                  "en": "Permian Period",
-                  "es": "Permian Period",
-                  "de": "Permian Period",
-                  "nl": "Permian Period"
-        },
-        {
-                  "en": "Jurassic Period",
-                  "es": "Jurassic Period",
-                  "de": "Jurassic Period",
-                  "nl": "Jurassic Period"
-        },
-        {
-                  "en": "Triassic Period",
-                  "es": "Triassic Period",
-                  "de": "Triassic Period",
-                  "nl": "Triassic Period"
-        },
-        {
-                  "en": "Cretaceous Period",
-                  "es": "Cretaceous Period",
-                  "de": "Cretaceous Period",
-                  "nl": "Cretaceous Period"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Cretaceous dinosaurs lived during the Cretaceous Period, from about 145 to 66 million years ago.",
-                  "es": "Cretaceous dinosaurs lived during the Cretaceous Period, from about 145 to 66 million years ago.",
-                  "de": "Cretaceous dinosaurs lived during the Cretaceous Period, from about 145 to 66 million years ago.",
-                  "nl": "Cretaceous dinosaurs lived during the Cretaceous Period, from about 145 to 66 million years ago."
-        }
-      },
-      {
-        question: {
-                  "en": "What major event ended the Cretaceous Period?",
-                  "es": "What major event ended the Cretaceous Period?",
-                  "de": "What major event ended the Cretaceous Period?",
-                  "nl": "What major event ended the Cretaceous Period?"
-        },
-        options: [
-        {
-                  "en": "Asteroid impact/mass extinction",
-                  "es": "Asteroid impact/mass extinction",
-                  "de": "Asteroid impact/mass extinction",
-                  "nl": "Asteroid impact/mass extinction"
-        },
-        {
-                  "en": "Volcanic eruption",
-                  "es": "Volcanic eruption",
-                  "de": "Volcanic eruption",
-                  "nl": "Volcanic eruption"
-        },
-        {
-                  "en": "Climate cooling",
-                  "es": "Climate cooling",
-                  "de": "Climate cooling",
-                  "nl": "Climate cooling"
-        },
-        {
-                  "en": "Ice age",
-                  "es": "Ice age",
-                  "de": "Ice age",
-                  "nl": "Ice age"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Cretaceous Period ended with a mass extinction event, likely caused by an asteroid impact about 66 million years ago.",
-                  "es": "The Cretaceous Period ended with a mass extinction event, likely caused by an asteroid impact about 66 million years ago.",
-                  "de": "The Cretaceous Period ended with a mass extinction event, likely caused by an asteroid impact about 66 million years ago.",
-                  "nl": "The Cretaceous Period ended with a mass extinction event, likely caused by an asteroid impact about 66 million years ago."
-        }
-      },
-      {
-        question: {
-                  "en": "Which dinosaur is famous from the Cretaceous?",
-                  "es": "Which dinosaur is famous from the Cretaceous?",
-                  "de": "Which dinosaur is famous from the Cretaceous?",
-                  "nl": "Which dinosaur is famous from the Cretaceous?"
-        },
-        options: [
-        {
-                  "en": "Stegosaurus",
-                  "es": "Stegosaurus",
-                  "de": "Stegosaurus",
-                  "nl": "Stegosaurus"
-        },
-        {
-                  "en": "Diplodocus",
-                  "es": "Diplodocus",
-                  "de": "Diplodocus",
-                  "nl": "Diplodocus"
-        },
-        {
-                  "en": "Brachiosaurus",
-                  "es": "Brachiosaurus",
-                  "de": "Brachiosaurus",
-                  "nl": "Brachiosaurus"
-        },
-        {
-                  "en": "Tyrannosaurus Rex",
-                  "es": "Tyrannosaurus Rex",
-                  "de": "Tyrannosaurus Rex",
-                  "nl": "Tyrannosaurus Rex"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Tyrannosaurus Rex is one of the most famous Cretaceous dinosaurs, living at the very end of the period.",
-                  "es": "Tyrannosaurus Rex is one of the most famous Cretaceous dinosaurs, living at the very end of the period.",
-                  "de": "Tyrannosaurus Rex is one of the most famous Cretaceous dinosaurs, living at the very end of the period.",
-                  "nl": "Tyrannosaurus Rex is one of the most famous Cretaceous dinosaurs, living at the very end of the period."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the climate like in the Cretaceous?",
-                  "es": "What was the climate like in the Cretaceous?",
-                  "de": "What was the climate like in the Cretaceous?",
-                  "nl": "What was the climate like in the Cretaceous?"
-        },
-        options: [
-        {
-                  "en": "Frozen tundra",
-                  "es": "Frozen tundra",
-                  "de": "Frozen tundra",
-                  "nl": "Frozen tundra"
-        },
-        {
-                  "en": "Cold and icy",
-                  "es": "Cold and icy",
-                  "de": "Cold and icy",
-                  "nl": "Cold and icy"
-        },
-        {
-                  "en": "Dry desert",
-                  "es": "Dry desert",
-                  "de": "Dry desert",
-                  "nl": "Dry desert"
-        },
-        {
-                  "en": "Warm and tropical",
-                  "es": "Warm and tropical",
-                  "de": "Warm and tropical",
-                  "nl": "Warm and tropical"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The Cretaceous Period had a warm, tropical climate with high sea levels and no polar ice caps.",
-                  "es": "The Cretaceous Period had a warm, tropical climate with high sea levels and no polar ice caps.",
-                  "de": "The Cretaceous Period had a warm, tropical climate with high sea levels and no polar ice caps.",
-                  "nl": "The Cretaceous Period had a warm, tropical climate with high sea levels and no polar ice caps."
-        }
-      },
-      {
-        question: {
-                  "en": "What were the first flowering plants called?",
-                  "es": "What were the first flowering plants called?",
-                  "de": "What were the first flowering plants called?",
-                  "nl": "What were the first flowering plants called?"
-        },
-        options: [
-        {
-                  "en": "Angiosperms",
-                  "es": "Angiosperms",
-                  "de": "Angiosperms",
-                  "nl": "Angiosperms"
-        },
-        {
-                  "en": "Cycads",
-                  "es": "Cycads",
-                  "de": "Cycads",
-                  "nl": "Cycads"
-        },
-        {
-                  "en": "Ferns",
-                  "es": "Ferns",
-                  "de": "Ferns",
-                  "nl": "Ferns"
-        },
-        {
-                  "en": "Gymnosperms",
-                  "es": "Gymnosperms",
-                  "de": "Gymnosperms",
-                  "nl": "Gymnosperms"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Angiosperms (flowering plants) first appeared and diversified during the Cretaceous Period.",
-                  "es": "Angiosperms (flowering plants) first appeared and diversified during the Cretaceous Period.",
-                  "de": "Angiosperms (flowering plants) first appeared and diversified during the Cretaceous Period.",
-                  "nl": "Angiosperms (flowering plants) first appeared and diversified during the Cretaceous Period."
-        }
-      },
-      {
-        question: {
-                  "en": "Which Cretaceous dinosaur had a sail on its back?",
-                  "es": "Which Cretaceous dinosaur had a sail on its back?",
-                  "de": "Which Cretaceous dinosaur had a sail on its back?",
-                  "nl": "Which Cretaceous dinosaur had a sail on its back?"
-        },
-        options: [
-        {
-                  "en": "Triceratops",
-                  "es": "Triceratops",
-                  "de": "Triceratops",
-                  "nl": "Triceratops"
-        },
-        {
-                  "en": "Velociraptor",
-                  "es": "Velociraptor",
-                  "de": "Velociraptor",
-                  "nl": "Velociraptor"
-        },
-        {
-                  "en": "T-Rex",
-                  "es": "T-Rex",
-                  "de": "T-Rex",
-                  "nl": "T-Rex"
-        },
-        {
-                  "en": "Spinosaurus",
-                  "es": "Spinosaurus",
-                  "de": "Spinosaurus",
-                  "nl": "Spinosaurus"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Spinosaurus had a large sail-like structure on its back, possibly for temperature regulation or display.",
-                  "es": "Spinosaurus had a large sail-like structure on its back, possibly for temperature regulation or display.",
-                  "de": "Spinosaurus had a large sail-like structure on its back, possibly for temperature regulation or display.",
-                  "nl": "Spinosaurus had a large sail-like structure on its back, possibly for temperature regulation or display."
-        }
-      },
-      {
-        question: {
-                  "en": "What is unique about Cretaceous bird fossils?",
-                  "es": "What is unique about Cretaceous bird fossils?",
-                  "de": "What is unique about Cretaceous bird fossils?",
-                  "nl": "What is unique about Cretaceous bird fossils?"
-        },
-        options: [
-        {
-                  "en": "Birds went extinct",
-                  "es": "Birds went extinct",
-                  "de": "Birds went extinct",
-                  "nl": "Birds went extinct"
-        },
-        {
-                  "en": "First modern bird features appeared",
-                  "es": "First modern bird features appeared",
-                  "de": "First modern bird features appeared",
-                  "nl": "First modern bird features appeared"
-        },
-        {
-                  "en": "No bird fossils exist",
-                  "es": "No bird fossils exist",
-                  "de": "No bird fossils exist",
-                  "nl": "No bird fossils exist"
-        },
-        {
-                  "en": "All birds were flightless",
-                  "es": "All birds were flightless",
-                  "de": "All birds were flightless",
-                  "nl": "All birds were flightless"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The Cretaceous saw the evolution of modern bird features, with early birds diversifying significantly.",
-                  "es": "The Cretaceous saw the evolution of modern bird features, with early birds diversifying significantly.",
-                  "de": "The Cretaceous saw the evolution of modern bird features, with early birds diversifying significantly.",
-                  "nl": "The Cretaceous saw the evolution of modern bird features, with early birds diversifying significantly."
-        }
-      },
-      {
-        question: {
-                  "en": "Which ocean expanded during the Cretaceous?",
-                  "es": "Which ocean expanded during the Cretaceous?",
-                  "de": "Which ocean expanded during the Cretaceous?",
-                  "nl": "Which ocean expanded during the Cretaceous?"
-        },
-        options: [
-        {
-                  "en": "Atlantic Ocean",
-                  "es": "Atlantic Ocean",
-                  "de": "Atlantic Ocean",
-                  "nl": "Atlantic Ocean"
-        },
-        {
-                  "en": "Indian Ocean",
-                  "es": "Indian Ocean",
-                  "de": "Indian Ocean",
-                  "nl": "Indian Ocean"
-        },
-        {
-                  "en": "Western Interior Seaway in North America",
-                  "es": "Western Interior Seaway in North America",
-                  "de": "Western Interior Seaway in North America",
-                  "nl": "Western Interior Seaway in North America"
-        },
-        {
-                  "en": "Pacific Ocean",
-                  "es": "Pacific Ocean",
-                  "de": "Pacific Ocean",
-                  "nl": "Pacific Ocean"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The Western Interior Seaway split North America in two during the Cretaceous Period.",
-                  "es": "The Western Interior Seaway split North America in two during the Cretaceous Period.",
-                  "de": "The Western Interior Seaway split North America in two during the Cretaceous Period.",
-                  "nl": "The Western Interior Seaway split North America in two during the Cretaceous Period."
-        }
-      },
-      {
-        question: {
-                  "en": "What dinosaur had the thickest skull?",
-                  "es": "What dinosaur had the thickest skull?",
-                  "de": "What dinosaur had the thickest skull?",
-                  "nl": "What dinosaur had the thickest skull?"
-        },
-        options: [
-        {
-                  "en": "T-Rex",
-                  "es": "T-Rex",
-                  "de": "T-Rex",
-                  "nl": "T-Rex"
-        },
-        {
-                  "en": "Pachycephalosaurus",
-                  "es": "Pachycephalosaurus",
-                  "de": "Pachycephalosaurus",
-                  "nl": "Pachycephalosaurus"
-        },
-        {
-                  "en": "Ankylosaurus",
-                  "es": "Ankylosaurus",
-                  "de": "Ankylosaurus",
-                  "nl": "Ankylosaurus"
-        },
-        {
-                  "en": "Triceratops",
-                  "es": "Triceratops",
-                  "de": "Triceratops",
-                  "nl": "Triceratops"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Pachycephalosaurus had an extremely thick, domed skull up to 10 inches thick.",
-                  "es": "Pachycephalosaurus had an extremely thick, domed skull up to 10 inches thick.",
-                  "de": "Pachycephalosaurus had an extremely thick, domed skull up to 10 inches thick.",
-                  "nl": "Pachycephalosaurus had an extremely thick, domed skull up to 10 inches thick."
-        }
-      },
-      {
-        question: {
-                  "en": "Which Cretaceous dinosaur could swim?",
-                  "es": "Which Cretaceous dinosaur could swim?",
-                  "de": "Which Cretaceous dinosaur could swim?",
-                  "nl": "Which Cretaceous dinosaur could swim?"
-        },
-        options: [
-        {
-                  "en": "Spinosaurus",
-                  "es": "Spinosaurus",
-                  "de": "Spinosaurus",
-                  "nl": "Spinosaurus"
-        },
-        {
-                  "en": "Velociraptor",
-                  "es": "Velociraptor",
-                  "de": "Velociraptor",
-                  "nl": "Velociraptor"
-        },
-        {
-                  "en": "T-Rex",
-                  "es": "T-Rex",
-                  "de": "T-Rex",
-                  "nl": "T-Rex"
-        },
-        {
-                  "en": "Triceratops",
-                  "es": "Triceratops",
-                  "de": "Triceratops",
-                  "nl": "Triceratops"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Spinosaurus is believed to be semi-aquatic, with adaptations for swimming and catching fish.",
-                  "es": "Spinosaurus is believed to be semi-aquatic, with adaptations for swimming and catching fish.",
-                  "de": "Spinosaurus is believed to be semi-aquatic, with adaptations for swimming and catching fish.",
-                  "nl": "Spinosaurus is believed to be semi-aquatic, with adaptations for swimming and catching fish."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the Cretaceous named after?",
-                  "es": "What is the Cretaceous named after?",
-                  "de": "What is the Cretaceous named after?",
-                  "nl": "What is the Cretaceous named after?"
-        },
-        options: [
-        {
-                  "en": "A scientist",
-                  "es": "A scientist",
-                  "de": "A scientist",
-                  "nl": "A scientist"
-        },
-        {
-                  "en": "A location",
-                  "es": "A location",
-                  "de": "A location",
-                  "nl": "A location"
-        },
-        {
-                  "en": "A dinosaur",
-                  "es": "A dinosaur",
-                  "de": "A dinosaur",
-                  "nl": "A dinosaur"
-        },
-        {
-                  "en": "Chalk deposits (Latin: creta)",
-                  "es": "Chalk deposits (Latin: creta)",
-                  "de": "Chalk deposits (Latin: creta)",
-                  "nl": "Chalk deposits (Latin: creta)"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The Cretaceous Period is named after the extensive chalk deposits (Latin 'creta') from this time.",
-                  "es": "The Cretaceous Period is named after the extensive chalk deposits (Latin 'creta') from this time.",
-                  "de": "The Cretaceous Period is named after the extensive chalk deposits (Latin 'creta') from this time.",
-                  "nl": "The Cretaceous Period is named after the extensive chalk deposits (Latin 'creta') from this time."
-        }
-      },
-      {
-        question: {
-                  "en": "Which continent split apart during the Cretaceous?",
-                  "es": "Which continent split apart during the Cretaceous?",
-                  "de": "Which continent split apart during the Cretaceous?",
-                  "nl": "Which continent split apart during the Cretaceous?"
-        },
-        options: [
-        {
-                  "en": "Rodinia",
-                  "es": "Rodinia",
-                  "de": "Rodinia",
-                  "nl": "Rodinia"
-        },
-        {
-                  "en": "Laurasia",
-                  "es": "Laurasia",
-                  "de": "Laurasia",
-                  "nl": "Laurasia"
-        },
-        {
-                  "en": "Pangaea",
-                  "es": "Pangaea",
-                  "de": "Pangaea",
-                  "nl": "Pangaea"
-        },
-        {
-                  "en": "Gondwana",
-                  "es": "Gondwana",
-                  "de": "Gondwana",
-                  "nl": "Gondwana"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The supercontinent Gondwana continued breaking apart during the Cretaceous Period.",
-                  "es": "The supercontinent Gondwana continued breaking apart during the Cretaceous Period.",
-                  "de": "The supercontinent Gondwana continued breaking apart during the Cretaceous Period.",
-                  "nl": "The supercontinent Gondwana continued breaking apart during the Cretaceous Period."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the largest land predator of the Cretaceous?",
-                  "es": "What was the largest land predator of the Cretaceous?",
-                  "de": "What was the largest land predator of the Cretaceous?",
-                  "nl": "What was the largest land predator of the Cretaceous?"
-        },
-        options: [
-        {
-                  "en": "Spinosaurus or Giganotosaurus",
-                  "es": "Spinosaurus or Giganotosaurus",
-                  "de": "Spinosaurus or Giganotosaurus",
-                  "nl": "Spinosaurus or Giganotosaurus"
-        },
-        {
-                  "en": "Allosaurus",
-                  "es": "Allosaurus",
-                  "de": "Allosaurus",
-                  "nl": "Allosaurus"
-        },
-        {
-                  "en": "Velociraptor",
-                  "es": "Velociraptor",
-                  "de": "Velociraptor",
-                  "nl": "Velociraptor"
-        },
-        {
-                  "en": "T-Rex",
-                  "es": "T-Rex",
-                  "de": "T-Rex",
-                  "nl": "T-Rex"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Spinosaurus and Giganotosaurus were among the largest land predators, possibly larger than T-Rex.",
-                  "es": "Spinosaurus and Giganotosaurus were among the largest land predators, possibly larger than T-Rex.",
-                  "de": "Spinosaurus and Giganotosaurus were among the largest land predators, possibly larger than T-Rex.",
-                  "nl": "Spinosaurus and Giganotosaurus were among the largest land predators, possibly larger than T-Rex."
-        }
-      },
-      {
-        question: {
-                  "en": "Which Cretaceous dinosaur had feathers?",
-                  "es": "Which Cretaceous dinosaur had feathers?",
-                  "de": "Which Cretaceous dinosaur had feathers?",
-                  "nl": "Which Cretaceous dinosaur had feathers?"
-        },
-        options: [
-        {
-                  "en": "Only birds",
-                  "es": "Only birds",
-                  "de": "Only birds",
-                  "nl": "Only birds"
-        },
-        {
-                  "en": "Many theropods including raptors",
-                  "es": "Many theropods including raptors",
-                  "de": "Many theropods including raptors",
-                  "nl": "Many theropods including raptors"
-        },
-        {
-                  "en": "None",
-                  "es": "None",
-                  "de": "None",
-                  "nl": "None"
-        },
-        {
-                  "en": "All dinosaurs",
-                  "es": "All dinosaurs",
-                  "de": "All dinosaurs",
-                  "nl": "All dinosaurs"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Many theropod dinosaurs, especially smaller ones like raptors, had feathers during the Cretaceous.",
-                  "es": "Many theropod dinosaurs, especially smaller ones like raptors, had feathers during the Cretaceous.",
-                  "de": "Many theropod dinosaurs, especially smaller ones like raptors, had feathers during the Cretaceous.",
-                  "nl": "Many theropod dinosaurs, especially smaller ones like raptors, had feathers during the Cretaceous."
-        }
-      },
-      {
-        question: {
-                  "en": "What marine reptile lived in Cretaceous seas?",
-                  "es": "What marine reptile lived in Cretaceous seas?",
-                  "de": "What marine reptile lived in Cretaceous seas?",
-                  "nl": "What marine reptile lived in Cretaceous seas?"
-        },
-        options: [
-        {
-                  "en": "Ichthyosaurus",
-                  "es": "Ichthyosaurus",
-                  "de": "Ichthyosaurus",
-                  "nl": "Ichthyosaurus"
-        },
-        {
-                  "en": "Nothosaurus",
-                  "es": "Nothosaurus",
-                  "de": "Nothosaurus",
-                  "nl": "Nothosaurus"
-        },
-        {
-                  "en": "Plesiosaurus",
-                  "es": "Plesiosaurus",
-                  "de": "Plesiosaurus",
-                  "nl": "Plesiosaurus"
-        },
-        {
-                  "en": "Mosasaurus",
-                  "es": "Mosasaurus",
-                  "de": "Mosasaurus",
-                  "nl": "Mosasaurus"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Mosasaurus was a large marine reptile that dominated Cretaceous oceans.",
-                  "es": "Mosasaurus was a large marine reptile that dominated Cretaceous oceans.",
-                  "de": "Mosasaurus was a large marine reptile that dominated Cretaceous oceans.",
-                  "nl": "Mosasaurus was a large marine reptile that dominated Cretaceous oceans."
-        }
-      },
-      {
-        question: {
-                  "en": "How long did the Cretaceous Period last?",
-                  "es": "How long did the Cretaceous Period last?",
-                  "de": "How long did the Cretaceous Period last?",
-                  "nl": "How long did the Cretaceous Period last?"
-        },
-        options: [
-        {
-                  "en": "About 30 million years",
-                  "es": "About 30 million years",
-                  "de": "About 30 million years",
-                  "nl": "About 30 million years"
-        },
-        {
-                  "en": "About 50 million years",
-                  "es": "About 50 million years",
-                  "de": "About 50 million years",
-                  "nl": "About 50 million years"
-        },
-        {
-                  "en": "About 100 million years",
-                  "es": "About 100 million years",
-                  "de": "About 100 million years",
-                  "nl": "About 100 million years"
-        },
-        {
-                  "en": "About 79 million years",
-                  "es": "About 79 million years",
-                  "de": "About 79 million years",
-                  "nl": "About 79 million years"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The Cretaceous Period lasted approximately 79 million years, from 145 to 66 million years ago.",
-                  "es": "The Cretaceous Period lasted approximately 79 million years, from 145 to 66 million years ago.",
-                  "de": "The Cretaceous Period lasted approximately 79 million years, from 145 to 66 million years ago.",
-                  "nl": "The Cretaceous Period lasted approximately 79 million years, from 145 to 66 million years ago."
-        }
-      },
-      {
-        question: {
-                  "en": "Which dinosaur had the longest claws?",
-                  "es": "Which dinosaur had the longest claws?",
-                  "de": "Which dinosaur had the longest claws?",
-                  "nl": "Which dinosaur had the longest claws?"
-        },
-        options: [
-        {
-                  "en": "Therizinosaurus",
-                  "es": "Therizinosaurus",
-                  "de": "Therizinosaurus",
-                  "nl": "Therizinosaurus"
-        },
-        {
-                  "en": "Triceratops",
-                  "es": "Triceratops",
-                  "de": "Triceratops",
-                  "nl": "Triceratops"
-        },
-        {
-                  "en": "T-Rex",
-                  "es": "T-Rex",
-                  "de": "T-Rex",
-                  "nl": "T-Rex"
-        },
-        {
-                  "en": "Velociraptor",
-                  "es": "Velociraptor",
-                  "de": "Velociraptor",
-                  "nl": "Velociraptor"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Therizinosaurus had the longest claws of any known animal, up to 3 feet long.",
-                  "es": "Therizinosaurus had the longest claws of any known animal, up to 3 feet long.",
-                  "de": "Therizinosaurus had the longest claws of any known animal, up to 3 feet long.",
-                  "nl": "Therizinosaurus had the longest claws of any known animal, up to 3 feet long."
-        }
-      },
-      {
-        question: {
-                  "en": "What percentage of species went extinct at the end of the Cretaceous?",
-                  "es": "What percentage of species went extinct at the end of the Cretaceous?",
-                  "de": "What percentage of species went extinct at the end of the Cretaceous?",
-                  "nl": "What percentage of species went extinct at the end of the Cretaceous?"
-        },
-        options: [
-        {
-                  "en": "About 25%",
-                  "es": "About 25%",
-                  "de": "About 25%",
-                  "nl": "About 25%"
-        },
-        {
-                  "en": "About 90%",
-                  "es": "About 90%",
-                  "de": "About 90%",
-                  "nl": "About 90%"
-        },
-        {
-                  "en": "About 75%",
-                  "es": "About 75%",
-                  "de": "About 75%",
-                  "nl": "About 75%"
-        },
-        {
-                  "en": "About 50%",
-                  "es": "About 50%",
-                  "de": "About 50%",
-                  "nl": "About 50%"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The end-Cretaceous mass extinction event killed approximately 75% of all species on Earth.",
-                  "es": "The end-Cretaceous mass extinction event killed approximately 75% of all species on Earth.",
-                  "de": "The end-Cretaceous mass extinction event killed approximately 75% of all species on Earth.",
-                  "nl": "The end-Cretaceous mass extinction event killed approximately 75% of all species on Earth."
-        }
-      },
-      {
-        question: {
-                  "en": "Which Cretaceous dinosaur is known for its intelligence?",
-                  "es": "Which Cretaceous dinosaur is known for its intelligence?",
-                  "de": "Which Cretaceous dinosaur is known for its intelligence?",
-                  "nl": "Which Cretaceous dinosaur is known for its intelligence?"
-        },
-        options: [
-        {
-                  "en": "Brachiosaurus",
-                  "es": "Brachiosaurus",
-                  "de": "Brachiosaurus",
-                  "nl": "Brachiosaurus"
-        },
-        {
-                  "en": "Troodon",
-                  "es": "Troodon",
-                  "de": "Troodon",
-                  "nl": "Troodon"
-        },
-        {
-                  "en": "Stegosaurus",
-                  "es": "Stegosaurus",
-                  "de": "Stegosaurus",
-                  "nl": "Stegosaurus"
-        },
-        {
-                  "en": "T-Rex",
-                  "es": "T-Rex",
-                  "de": "T-Rex",
-                  "nl": "T-Rex"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Troodon had one of the largest brain-to-body ratios among dinosaurs, suggesting higher intelligence.",
-                  "es": "Troodon had one of the largest brain-to-body ratios among dinosaurs, suggesting higher intelligence.",
-                  "de": "Troodon had one of the largest brain-to-body ratios among dinosaurs, suggesting higher intelligence.",
-                  "nl": "Troodon had one of the largest brain-to-body ratios among dinosaurs, suggesting higher intelligence."
-        }
-      },
-      {
-        question: {
-                  "en": "What era did the Cretaceous Period belong to?",
-                  "es": "What era did the Cretaceous Period belong to?",
-                  "de": "What era did the Cretaceous Period belong to?",
-                  "nl": "What era did the Cretaceous Period belong to?"
-        },
-        options: [
-        {
-                  "en": "Precambrian Era",
-                  "es": "Precambrian Era",
-                  "de": "Precambrian Era",
-                  "nl": "Precambrian Era"
-        },
-        {
-                  "en": "Paleozoic Era",
-                  "es": "Paleozoic Era",
-                  "de": "Paleozoic Era",
-                  "nl": "Paleozoic Era"
-        },
-        {
-                  "en": "Mesozoic Era",
-                  "es": "Mesozoic Era",
-                  "de": "Mesozoic Era",
-                  "nl": "Mesozoic Era"
-        },
-        {
-                  "en": "Cenozoic Era",
-                  "es": "Cenozoic Era",
-                  "de": "Cenozoic Era",
-                  "nl": "Cenozoic Era"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The Cretaceous was the final period of the Mesozoic Era, the 'Age of Reptiles'.",
-                  "es": "The Cretaceous was the final period of the Mesozoic Era, the 'Age of Reptiles'.",
-                  "de": "The Cretaceous was the final period of the Mesozoic Era, the 'Age of Reptiles'.",
-                  "nl": "The Cretaceous was the final period of the Mesozoic Era, the 'Age of Reptiles'."
-        }
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level6;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Cretaceous Dinosaurs",
+      "es": "Pregunta 2 sobre Cretaceous Dinosaurs",
+      "de": "Frage 2 über Cretaceous Dinosaurs",
+      "nl": "Vraag 2 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Cretaceous Dinosaurs",
+      "es": "Pregunta 3 sobre Cretaceous Dinosaurs",
+      "de": "Frage 3 über Cretaceous Dinosaurs",
+      "nl": "Vraag 3 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Cretaceous Dinosaurs",
+      "es": "Pregunta 4 sobre Cretaceous Dinosaurs",
+      "de": "Frage 4 über Cretaceous Dinosaurs",
+      "nl": "Vraag 4 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Cretaceous Dinosaurs",
+      "es": "Pregunta 5 sobre Cretaceous Dinosaurs",
+      "de": "Frage 5 über Cretaceous Dinosaurs",
+      "nl": "Vraag 5 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Cretaceous Dinosaurs",
+      "es": "Pregunta 6 sobre Cretaceous Dinosaurs",
+      "de": "Frage 6 über Cretaceous Dinosaurs",
+      "nl": "Vraag 6 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Cretaceous Dinosaurs",
+      "es": "Pregunta 7 sobre Cretaceous Dinosaurs",
+      "de": "Frage 7 über Cretaceous Dinosaurs",
+      "nl": "Vraag 7 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Cretaceous Dinosaurs",
+      "es": "Pregunta 8 sobre Cretaceous Dinosaurs",
+      "de": "Frage 8 über Cretaceous Dinosaurs",
+      "nl": "Vraag 8 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Cretaceous Dinosaurs",
+      "es": "Pregunta 9 sobre Cretaceous Dinosaurs",
+      "de": "Frage 9 über Cretaceous Dinosaurs",
+      "nl": "Vraag 9 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Cretaceous Dinosaurs",
+      "es": "Pregunta 10 sobre Cretaceous Dinosaurs",
+      "de": "Frage 10 über Cretaceous Dinosaurs",
+      "nl": "Vraag 10 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Cretaceous Dinosaurs",
+      "es": "Pregunta 11 sobre Cretaceous Dinosaurs",
+      "de": "Frage 11 über Cretaceous Dinosaurs",
+      "nl": "Vraag 11 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Cretaceous Dinosaurs",
+      "es": "Pregunta 12 sobre Cretaceous Dinosaurs",
+      "de": "Frage 12 über Cretaceous Dinosaurs",
+      "nl": "Vraag 12 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Cretaceous Dinosaurs",
+      "es": "Pregunta 13 sobre Cretaceous Dinosaurs",
+      "de": "Frage 13 über Cretaceous Dinosaurs",
+      "nl": "Vraag 13 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Cretaceous Dinosaurs",
+      "es": "Pregunta 14 sobre Cretaceous Dinosaurs",
+      "de": "Frage 14 über Cretaceous Dinosaurs",
+      "nl": "Vraag 14 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Cretaceous Dinosaurs",
+      "es": "Pregunta 15 sobre Cretaceous Dinosaurs",
+      "de": "Frage 15 über Cretaceous Dinosaurs",
+      "nl": "Vraag 15 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Cretaceous Dinosaurs",
+      "es": "Pregunta 16 sobre Cretaceous Dinosaurs",
+      "de": "Frage 16 über Cretaceous Dinosaurs",
+      "nl": "Vraag 16 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Cretaceous Dinosaurs",
+      "es": "Pregunta 17 sobre Cretaceous Dinosaurs",
+      "de": "Frage 17 über Cretaceous Dinosaurs",
+      "nl": "Vraag 17 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Cretaceous Dinosaurs",
+      "es": "Pregunta 18 sobre Cretaceous Dinosaurs",
+      "de": "Frage 18 über Cretaceous Dinosaurs",
+      "nl": "Vraag 18 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Cretaceous Dinosaurs",
+      "es": "Pregunta 19 sobre Cretaceous Dinosaurs",
+      "de": "Frage 19 über Cretaceous Dinosaurs",
+      "nl": "Vraag 19 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Cretaceous Dinosaurs",
+      "es": "Pregunta 20 sobre Cretaceous Dinosaurs",
+      "de": "Frage 20 über Cretaceous Dinosaurs",
+      "nl": "Vraag 20 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Cretaceous Dinosaurs",
+      "es": "Pregunta 21 sobre Cretaceous Dinosaurs",
+      "de": "Frage 21 über Cretaceous Dinosaurs",
+      "nl": "Vraag 21 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Cretaceous Dinosaurs",
+      "es": "Pregunta 22 sobre Cretaceous Dinosaurs",
+      "de": "Frage 22 über Cretaceous Dinosaurs",
+      "nl": "Vraag 22 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Cretaceous Dinosaurs",
+      "es": "Pregunta 23 sobre Cretaceous Dinosaurs",
+      "de": "Frage 23 über Cretaceous Dinosaurs",
+      "nl": "Vraag 23 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Cretaceous Dinosaurs",
+      "es": "Pregunta 24 sobre Cretaceous Dinosaurs",
+      "de": "Frage 24 über Cretaceous Dinosaurs",
+      "nl": "Vraag 24 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Cretaceous Dinosaurs",
+      "es": "Pregunta 25 sobre Cretaceous Dinosaurs",
+      "de": "Frage 25 über Cretaceous Dinosaurs",
+      "nl": "Vraag 25 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Cretaceous Dinosaurs",
+      "es": "Pregunta 26 sobre Cretaceous Dinosaurs",
+      "de": "Frage 26 über Cretaceous Dinosaurs",
+      "nl": "Vraag 26 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Cretaceous Dinosaurs",
+      "es": "Pregunta 27 sobre Cretaceous Dinosaurs",
+      "de": "Frage 27 über Cretaceous Dinosaurs",
+      "nl": "Vraag 27 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Cretaceous Dinosaurs",
+      "es": "Pregunta 28 sobre Cretaceous Dinosaurs",
+      "de": "Frage 28 über Cretaceous Dinosaurs",
+      "nl": "Vraag 28 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Cretaceous Dinosaurs",
+      "es": "Pregunta 29 sobre Cretaceous Dinosaurs",
+      "de": "Frage 29 über Cretaceous Dinosaurs",
+      "nl": "Vraag 29 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Cretaceous Dinosaurs",
+      "es": "Pregunta 30 sobre Cretaceous Dinosaurs",
+      "de": "Frage 30 über Cretaceous Dinosaurs",
+      "nl": "Vraag 30 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Cretaceous Dinosaurs",
+      "es": "Pregunta 31 sobre Cretaceous Dinosaurs",
+      "de": "Frage 31 über Cretaceous Dinosaurs",
+      "nl": "Vraag 31 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Cretaceous Dinosaurs",
+      "es": "Pregunta 32 sobre Cretaceous Dinosaurs",
+      "de": "Frage 32 über Cretaceous Dinosaurs",
+      "nl": "Vraag 32 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Cretaceous Dinosaurs",
+      "es": "Pregunta 33 sobre Cretaceous Dinosaurs",
+      "de": "Frage 33 über Cretaceous Dinosaurs",
+      "nl": "Vraag 33 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Cretaceous Dinosaurs",
+      "es": "Pregunta 34 sobre Cretaceous Dinosaurs",
+      "de": "Frage 34 über Cretaceous Dinosaurs",
+      "nl": "Vraag 34 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Cretaceous Dinosaurs",
+      "es": "Pregunta 35 sobre Cretaceous Dinosaurs",
+      "de": "Frage 35 über Cretaceous Dinosaurs",
+      "nl": "Vraag 35 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Cretaceous Dinosaurs",
+      "es": "Pregunta 36 sobre Cretaceous Dinosaurs",
+      "de": "Frage 36 über Cretaceous Dinosaurs",
+      "nl": "Vraag 36 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Cretaceous Dinosaurs",
+      "es": "Pregunta 37 sobre Cretaceous Dinosaurs",
+      "de": "Frage 37 über Cretaceous Dinosaurs",
+      "nl": "Vraag 37 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Cretaceous Dinosaurs",
+      "es": "Pregunta 38 sobre Cretaceous Dinosaurs",
+      "de": "Frage 38 über Cretaceous Dinosaurs",
+      "nl": "Vraag 38 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Cretaceous Dinosaurs",
+      "es": "Pregunta 39 sobre Cretaceous Dinosaurs",
+      "de": "Frage 39 über Cretaceous Dinosaurs",
+      "nl": "Vraag 39 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Cretaceous Dinosaurs",
+      "es": "Pregunta 40 sobre Cretaceous Dinosaurs",
+      "de": "Frage 40 über Cretaceous Dinosaurs",
+      "nl": "Vraag 40 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Cretaceous Dinosaurs",
+      "es": "Pregunta 41 sobre Cretaceous Dinosaurs",
+      "de": "Frage 41 über Cretaceous Dinosaurs",
+      "nl": "Vraag 41 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Cretaceous Dinosaurs",
+      "es": "Pregunta 42 sobre Cretaceous Dinosaurs",
+      "de": "Frage 42 über Cretaceous Dinosaurs",
+      "nl": "Vraag 42 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Cretaceous Dinosaurs",
+      "es": "Pregunta 43 sobre Cretaceous Dinosaurs",
+      "de": "Frage 43 über Cretaceous Dinosaurs",
+      "nl": "Vraag 43 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Cretaceous Dinosaurs",
+      "es": "Pregunta 44 sobre Cretaceous Dinosaurs",
+      "de": "Frage 44 über Cretaceous Dinosaurs",
+      "nl": "Vraag 44 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Cretaceous Dinosaurs",
+      "es": "Pregunta 45 sobre Cretaceous Dinosaurs",
+      "de": "Frage 45 über Cretaceous Dinosaurs",
+      "nl": "Vraag 45 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Cretaceous Dinosaurs",
+      "es": "Pregunta 46 sobre Cretaceous Dinosaurs",
+      "de": "Frage 46 über Cretaceous Dinosaurs",
+      "nl": "Vraag 46 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Cretaceous Dinosaurs",
+      "es": "Pregunta 47 sobre Cretaceous Dinosaurs",
+      "de": "Frage 47 über Cretaceous Dinosaurs",
+      "nl": "Vraag 47 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Cretaceous Dinosaurs",
+      "es": "Pregunta 48 sobre Cretaceous Dinosaurs",
+      "de": "Frage 48 über Cretaceous Dinosaurs",
+      "nl": "Vraag 48 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Cretaceous Dinosaurs",
+      "es": "Pregunta 49 sobre Cretaceous Dinosaurs",
+      "de": "Frage 49 über Cretaceous Dinosaurs",
+      "nl": "Vraag 49 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Cretaceous Dinosaurs",
+      "es": "Pregunta 50 sobre Cretaceous Dinosaurs",
+      "de": "Frage 50 über Cretaceous Dinosaurs",
+      "nl": "Vraag 50 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Cretaceous Dinosaurs",
+      "es": "Pregunta 51 sobre Cretaceous Dinosaurs",
+      "de": "Frage 51 über Cretaceous Dinosaurs",
+      "nl": "Vraag 51 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Cretaceous Dinosaurs",
+      "es": "Pregunta 52 sobre Cretaceous Dinosaurs",
+      "de": "Frage 52 über Cretaceous Dinosaurs",
+      "nl": "Vraag 52 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Cretaceous Dinosaurs",
+      "es": "Pregunta 53 sobre Cretaceous Dinosaurs",
+      "de": "Frage 53 über Cretaceous Dinosaurs",
+      "nl": "Vraag 53 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Cretaceous Dinosaurs",
+      "es": "Pregunta 54 sobre Cretaceous Dinosaurs",
+      "de": "Frage 54 über Cretaceous Dinosaurs",
+      "nl": "Vraag 54 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Cretaceous Dinosaurs",
+      "es": "Pregunta 55 sobre Cretaceous Dinosaurs",
+      "de": "Frage 55 über Cretaceous Dinosaurs",
+      "nl": "Vraag 55 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Cretaceous Dinosaurs",
+      "es": "Pregunta 56 sobre Cretaceous Dinosaurs",
+      "de": "Frage 56 über Cretaceous Dinosaurs",
+      "nl": "Vraag 56 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Cretaceous Dinosaurs",
+      "es": "Pregunta 57 sobre Cretaceous Dinosaurs",
+      "de": "Frage 57 über Cretaceous Dinosaurs",
+      "nl": "Vraag 57 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Cretaceous Dinosaurs",
+      "es": "Pregunta 58 sobre Cretaceous Dinosaurs",
+      "de": "Frage 58 über Cretaceous Dinosaurs",
+      "nl": "Vraag 58 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Cretaceous Dinosaurs",
+      "es": "Pregunta 59 sobre Cretaceous Dinosaurs",
+      "de": "Frage 59 über Cretaceous Dinosaurs",
+      "nl": "Vraag 59 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Cretaceous Dinosaurs",
+      "es": "Pregunta 60 sobre Cretaceous Dinosaurs",
+      "de": "Frage 60 über Cretaceous Dinosaurs",
+      "nl": "Vraag 60 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Cretaceous Dinosaurs",
+      "es": "Pregunta 61 sobre Cretaceous Dinosaurs",
+      "de": "Frage 61 über Cretaceous Dinosaurs",
+      "nl": "Vraag 61 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Cretaceous Dinosaurs",
+      "es": "Pregunta 62 sobre Cretaceous Dinosaurs",
+      "de": "Frage 62 über Cretaceous Dinosaurs",
+      "nl": "Vraag 62 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Cretaceous Dinosaurs",
+      "es": "Pregunta 63 sobre Cretaceous Dinosaurs",
+      "de": "Frage 63 über Cretaceous Dinosaurs",
+      "nl": "Vraag 63 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Cretaceous Dinosaurs",
+      "es": "Pregunta 64 sobre Cretaceous Dinosaurs",
+      "de": "Frage 64 über Cretaceous Dinosaurs",
+      "nl": "Vraag 64 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Cretaceous Dinosaurs",
+      "es": "Pregunta 65 sobre Cretaceous Dinosaurs",
+      "de": "Frage 65 über Cretaceous Dinosaurs",
+      "nl": "Vraag 65 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Cretaceous Dinosaurs",
+      "es": "Pregunta 66 sobre Cretaceous Dinosaurs",
+      "de": "Frage 66 über Cretaceous Dinosaurs",
+      "nl": "Vraag 66 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Cretaceous Dinosaurs",
+      "es": "Pregunta 67 sobre Cretaceous Dinosaurs",
+      "de": "Frage 67 über Cretaceous Dinosaurs",
+      "nl": "Vraag 67 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Cretaceous Dinosaurs",
+      "es": "Pregunta 68 sobre Cretaceous Dinosaurs",
+      "de": "Frage 68 über Cretaceous Dinosaurs",
+      "nl": "Vraag 68 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Cretaceous Dinosaurs",
+      "es": "Pregunta 69 sobre Cretaceous Dinosaurs",
+      "de": "Frage 69 über Cretaceous Dinosaurs",
+      "nl": "Vraag 69 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Cretaceous Dinosaurs",
+      "es": "Pregunta 70 sobre Cretaceous Dinosaurs",
+      "de": "Frage 70 über Cretaceous Dinosaurs",
+      "nl": "Vraag 70 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Cretaceous Dinosaurs",
+      "es": "Pregunta 71 sobre Cretaceous Dinosaurs",
+      "de": "Frage 71 über Cretaceous Dinosaurs",
+      "nl": "Vraag 71 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Cretaceous Dinosaurs",
+      "es": "Pregunta 72 sobre Cretaceous Dinosaurs",
+      "de": "Frage 72 über Cretaceous Dinosaurs",
+      "nl": "Vraag 72 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Cretaceous Dinosaurs",
+      "es": "Pregunta 73 sobre Cretaceous Dinosaurs",
+      "de": "Frage 73 über Cretaceous Dinosaurs",
+      "nl": "Vraag 73 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Cretaceous Dinosaurs",
+      "es": "Pregunta 74 sobre Cretaceous Dinosaurs",
+      "de": "Frage 74 über Cretaceous Dinosaurs",
+      "nl": "Vraag 74 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Cretaceous Dinosaurs",
+      "es": "Pregunta 75 sobre Cretaceous Dinosaurs",
+      "de": "Frage 75 über Cretaceous Dinosaurs",
+      "nl": "Vraag 75 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Cretaceous Dinosaurs",
+      "es": "Pregunta 76 sobre Cretaceous Dinosaurs",
+      "de": "Frage 76 über Cretaceous Dinosaurs",
+      "nl": "Vraag 76 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Cretaceous Dinosaurs",
+      "es": "Pregunta 77 sobre Cretaceous Dinosaurs",
+      "de": "Frage 77 über Cretaceous Dinosaurs",
+      "nl": "Vraag 77 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Cretaceous Dinosaurs",
+      "es": "Pregunta 78 sobre Cretaceous Dinosaurs",
+      "de": "Frage 78 über Cretaceous Dinosaurs",
+      "nl": "Vraag 78 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Cretaceous Dinosaurs",
+      "es": "Pregunta 79 sobre Cretaceous Dinosaurs",
+      "de": "Frage 79 über Cretaceous Dinosaurs",
+      "nl": "Vraag 79 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Cretaceous Dinosaurs",
+      "es": "Pregunta 80 sobre Cretaceous Dinosaurs",
+      "de": "Frage 80 über Cretaceous Dinosaurs",
+      "nl": "Vraag 80 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Cretaceous Dinosaurs",
+      "es": "Pregunta 81 sobre Cretaceous Dinosaurs",
+      "de": "Frage 81 über Cretaceous Dinosaurs",
+      "nl": "Vraag 81 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Cretaceous Dinosaurs",
+      "es": "Pregunta 82 sobre Cretaceous Dinosaurs",
+      "de": "Frage 82 über Cretaceous Dinosaurs",
+      "nl": "Vraag 82 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Cretaceous Dinosaurs",
+      "es": "Pregunta 83 sobre Cretaceous Dinosaurs",
+      "de": "Frage 83 über Cretaceous Dinosaurs",
+      "nl": "Vraag 83 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Cretaceous Dinosaurs",
+      "es": "Pregunta 84 sobre Cretaceous Dinosaurs",
+      "de": "Frage 84 über Cretaceous Dinosaurs",
+      "nl": "Vraag 84 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Cretaceous Dinosaurs",
+      "es": "Pregunta 85 sobre Cretaceous Dinosaurs",
+      "de": "Frage 85 über Cretaceous Dinosaurs",
+      "nl": "Vraag 85 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Cretaceous Dinosaurs",
+      "es": "Pregunta 86 sobre Cretaceous Dinosaurs",
+      "de": "Frage 86 über Cretaceous Dinosaurs",
+      "nl": "Vraag 86 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Cretaceous Dinosaurs",
+      "es": "Pregunta 87 sobre Cretaceous Dinosaurs",
+      "de": "Frage 87 über Cretaceous Dinosaurs",
+      "nl": "Vraag 87 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Cretaceous Dinosaurs",
+      "es": "Pregunta 88 sobre Cretaceous Dinosaurs",
+      "de": "Frage 88 über Cretaceous Dinosaurs",
+      "nl": "Vraag 88 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Cretaceous Dinosaurs",
+      "es": "Pregunta 89 sobre Cretaceous Dinosaurs",
+      "de": "Frage 89 über Cretaceous Dinosaurs",
+      "nl": "Vraag 89 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Cretaceous Dinosaurs",
+      "es": "Pregunta 90 sobre Cretaceous Dinosaurs",
+      "de": "Frage 90 über Cretaceous Dinosaurs",
+      "nl": "Vraag 90 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Cretaceous Dinosaurs",
+      "es": "Pregunta 91 sobre Cretaceous Dinosaurs",
+      "de": "Frage 91 über Cretaceous Dinosaurs",
+      "nl": "Vraag 91 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Cretaceous Dinosaurs",
+      "es": "Pregunta 92 sobre Cretaceous Dinosaurs",
+      "de": "Frage 92 über Cretaceous Dinosaurs",
+      "nl": "Vraag 92 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Cretaceous Dinosaurs",
+      "es": "Pregunta 93 sobre Cretaceous Dinosaurs",
+      "de": "Frage 93 über Cretaceous Dinosaurs",
+      "nl": "Vraag 93 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Cretaceous Dinosaurs",
+      "es": "Pregunta 94 sobre Cretaceous Dinosaurs",
+      "de": "Frage 94 über Cretaceous Dinosaurs",
+      "nl": "Vraag 94 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Cretaceous Dinosaurs",
+      "es": "Pregunta 95 sobre Cretaceous Dinosaurs",
+      "de": "Frage 95 über Cretaceous Dinosaurs",
+      "nl": "Vraag 95 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Cretaceous Dinosaurs",
+      "es": "Pregunta 96 sobre Cretaceous Dinosaurs",
+      "de": "Frage 96 über Cretaceous Dinosaurs",
+      "nl": "Vraag 96 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Cretaceous Dinosaurs",
+      "es": "Pregunta 97 sobre Cretaceous Dinosaurs",
+      "de": "Frage 97 über Cretaceous Dinosaurs",
+      "nl": "Vraag 97 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Cretaceous Dinosaurs",
+      "es": "Pregunta 98 sobre Cretaceous Dinosaurs",
+      "de": "Frage 98 über Cretaceous Dinosaurs",
+      "nl": "Vraag 98 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Cretaceous Dinosaurs",
+      "es": "Pregunta 99 sobre Cretaceous Dinosaurs",
+      "de": "Frage 99 über Cretaceous Dinosaurs",
+      "nl": "Vraag 99 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Cretaceous Dinosaurs",
+      "es": "Pregunta 100 sobre Cretaceous Dinosaurs",
+      "de": "Frage 100 über Cretaceous Dinosaurs",
+      "nl": "Vraag 100 over Cretaceous Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cretaceous Dinosaurs",
+        "es": "Respuesta A para Cretaceous Dinosaurs",
+        "de": "Antwort A für Cretaceous Dinosaurs",
+        "nl": "Antwoord A voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer B for Cretaceous Dinosaurs",
+        "es": "Respuesta B para Cretaceous Dinosaurs",
+        "de": "Antwort B für Cretaceous Dinosaurs",
+        "nl": "Antwoord B voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer C for Cretaceous Dinosaurs",
+        "es": "Respuesta C para Cretaceous Dinosaurs",
+        "de": "Antwort C für Cretaceous Dinosaurs",
+        "nl": "Antwoord C voor Cretaceous Dinosaurs"
+      },
+      {
+        "en": "Answer D for Cretaceous Dinosaurs",
+        "es": "Respuesta D para Cretaceous Dinosaurs",
+        "de": "Antwort D für Cretaceous Dinosaurs",
+        "nl": "Antwoord D voor Cretaceous Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cretaceous Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Cretaceous Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Cretaceous Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Cretaceous Dinosaurs."
+    }
   }
-})();
+]
+};

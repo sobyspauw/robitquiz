@@ -1,1650 +1,4104 @@
-(() => {
-    const questions = [
-        {
-            question: {
-                en: "Which lesser-known Picasso painting features African mask influences from his early period?",
-                es: "¿Qué pintura menos conocida de Picasso presenta influencias de máscaras africanas de su período temprano?",
-                de: "Welches weniger bekannte Picasso-Gemälde zeigt afrikanische Maskeneinflüsse aus seiner frühen Periode?",
-                nl: "Welk minder bekend schilderij van Picasso toont Afrikaanse maskerinvloeden uit zijn vroege periode?"
-            },
-            options: [
-                {
-                    en: "Les Demoiselles d'Avignon",
-                    es: "Las Señoritas de Avignon",
-                    de: "Les Demoiselles d'Avignon",
-                    nl: "Les Demoiselles d'Avignon"
-                },
-                {
-                    en: "The Old Guitarist",
-                    es: "El Guitarrista Viejo",
-                    de: "Der alte Gitarrist",
-                    nl: "De Oude Gitarist"
-                },
-                {
-                    en: "Boy with a Pipe",
-                    es: "Niño con Pipa",
-                    de: "Junge mit Pfeife",
-                    nl: "Jongen met Pijp"
-                },
-                {
-                    en: "The Blue Room",
-                    es: "La Habitación Azul",
-                    de: "Das Blaue Zimmer",
-                    nl: "De Blauwe Kamer"
-                }
-            ],
-            correct: 0,
-            explanation: {
-                en: "Les Demoiselles d'Avignon (1907) marked Picasso's transition from his Rose Period to Cubism, heavily influenced by African masks and Iberian sculpture.",
-                es: "Las Señoritas de Avignon (1907) marcó la transición de Picasso de su Período Rosa al Cubismo, fuertemente influenciado por máscaras africanas y escultura ibérica.",
-                de: "Les Demoiselles d'Avignon (1907) markierte Picassos Übergang von seiner Rosa Periode zum Kubismus, stark beeinflusst von afrikanischen Masken und iberischer Skulptur.",
-                nl: "Les Demoiselles d'Avignon (1907) markeerde Picasso's overgang van zijn Roze Periode naar het Kubisme, sterk beïnvloed door Afrikaanse maskers en Iberische beeldhouwkunst."
-            }
-        },
-        {
-            question: {
-                en: "What was the original title of Van Gogh's painting now known as 'The Potato Eaters'?",
-                es: "¿Cuál era el título original de la pintura de Van Gogh ahora conocida como 'Los Comedores de Patatas'?",
-                de: "Wie lautete der ursprüngliche Titel von Van Goghs Gemälde, das heute als 'Die Kartoffelesser' bekannt ist?",
-                nl: "Wat was de oorspronkelijke titel van Van Goghs schilderij dat nu bekend staat als 'De Aardappeleters'?"
-            },
-            options: [
-                {
-                    en: "De Aardappeleters",
-                    es: "De Aardappeleters",
-                    de: "De Aardappeleters",
-                    nl: "De Aardappeleters"
-                },
-                {
-                    en: "Peasant Family at Dinner",
-                    es: "Familia Campesina en la Cena",
-                    de: "Bauernfamilie beim Abendessen",
-                    nl: "Boerenfamilie aan het Diner"
-                },
-                {
-                    en: "The Evening Meal",
-                    es: "La Cena",
-                    de: "Das Abendmahl",
-                    nl: "De Avondmaaltijd"
-                },
-                {
-                    en: "Rural Supper",
-                    es: "Cena Rural",
-                    de: "Ländliches Abendessen",
-                    nl: "Landelijk Avondmaal"
-                }
-            ],
-            correct: 0,
-            explanation: {
-                en: "Van Gogh titled this 1885 painting 'De Aardappeleters' in Dutch. He wanted to show the harsh reality of peasant life and considered it one of his finest works.",
-                es: "Van Gogh tituló esta pintura de 1885 'De Aardappeleters' en holandés. Quería mostrar la dura realidad de la vida campesina y la consideraba una de sus mejores obras.",
-                de: "Van Gogh betitelte dieses Gemälde von 1885 'De Aardappeleters' auf Niederländisch. Er wollte die harte Realität des Bauernlebens zeigen und hielt es für eines seiner besten Werke.",
-                nl: "Van Gogh noemde dit schilderij uit 1885 'De Aardappeleters' in het Nederlands. Hij wilde de harde realiteit van het boerenleven tonen en beschouwde het als een van zijn beste werken."
-            }
-        },
-        {
-            question: {
-                en: "Which Monet series was painted during his stay at the Savoy Hotel in London?",
-                es: "¿Qué serie de Monet fue pintada durante su estancia en el Hotel Savoy en Londres?",
-                de: "Welche Monet-Serie wurde während seines Aufenthalts im Savoy Hotel in London gemalt?",
-                nl: "Welke Monet-serie werd geschilderd tijdens zijn verblijf in het Savoy Hotel in Londen?"
-            },
-            options: [
-                {
-                    en: "Charing Cross Bridge",
-                    es: "Puente de Charing Cross",
-                    de: "Charing Cross Brücke",
-                    nl: "Charing Cross Brug"
-                },
-                {
-                    en: "Rouen Cathedral",
-                    es: "Catedral de Rouen",
-                    de: "Kathedrale von Rouen",
-                    nl: "Kathedraal van Rouen"
-                },
-                {
-                    en: "Poplar Trees",
-                    es: "Álamos",
-                    de: "Pappelbäume",
-                    nl: "Populieren"
-                },
-                {
-                    en: "Haystacks",
-                    es: "Almiares",
-                    de: "Heuhaufen",
-                    nl: "Hooibergen"
-                }
-            ],
-            correct: 0,
-            explanation: {
-                en: "Between 1899-1901, Monet painted his Thames series including Charing Cross Bridge from his room at the Savoy Hotel, capturing London's foggy atmosphere.",
-                es: "Entre 1899-1901, Monet pintó su serie del Támesis incluyendo el Puente de Charing Cross desde su habitación en el Hotel Savoy, capturando la atmósfera brumosa de Londres.",
-                de: "Zwischen 1899-1901 malte Monet seine Themse-Serie einschließlich der Charing Cross Brücke von seinem Zimmer im Savoy Hotel aus und fing Londons neblige Atmosphäre ein.",
-                nl: "Tussen 1899-1901 schilderde Monet zijn Thames-serie inclusief Charing Cross Brug vanuit zijn kamer in het Savoy Hotel, waarbij hij de mistige sfeer van Londen vastlegde."
-            }
-        },
-        {
-            question: {
-                en: "What was Caravaggio's technique of dramatic light and shadow called?",
-                es: "¿Cómo se llamaba la técnica de Caravaggio de luz y sombra dramáticas?",
-                de: "Wie hieß Caravaggios Technik dramatischer Licht- und Schatteneffekte?",
-                nl: "Hoe heette Caravaggio's techniek van dramatisch licht en schaduw?"
-            },
-            options: [
-                {
-                    en: "Chiaroscuro",
-                    es: "Claroscuro",
-                    de: "Chiaroscuro",
-                    nl: "Chiaroscuro"
-                },
-                {
-                    en: "Sfumato",
-                    es: "Sfumato",
-                    de: "Sfumato",
-                    nl: "Sfumato"
-                },
-                {
-                    en: "Tenebrism",
-                    es: "Tenebrismo",
-                    de: "Tenebrismus",
-                    nl: "Tenebrisme"
-                },
-                {
-                    en: "Cangiante",
-                    es: "Cangiante",
-                    de: "Cangiante",
-                    nl: "Cangiante"
-                }
-            ],
-            correct: 2,
-            explanation: {
-                en: "Tenebrism, developed by Caravaggio, uses extreme contrasts of light and dark to create dramatic, theatrical effects. While related to chiaroscuro, tenebrism is more extreme.",
-                es: "El tenebrismo, desarrollado por Caravaggio, usa contrastes extremos de luz y oscuridad para crear efectos dramáticos y teatrales. Aunque relacionado con el claroscuro, el tenebrismo es más extremo.",
-                de: "Der von Caravaggio entwickelte Tenebrismus nutzt extreme Kontraste von Licht und Dunkelheit für dramatische, theatralische Effekte. Obwohl verwandt mit Chiaroscuro, ist Tenebrismus extremer.",
-                nl: "Tenebrisme, ontwikkeld door Caravaggio, gebruikt extreme contrasten van licht en donker om dramatische, theatrale effecten te creëren. Hoewel gerelateerd aan chiaroscuro, is tenebrisme extremer."
-            }
-        },
-        {
-            question: {
-                en: "Which Dalí painting features elephants with spider-like legs?",
-                es: "¿Qué pintura de Dalí presenta elefantes con patas similares a arañas?",
-                de: "Welches Dalí-Gemälde zeigt Elefanten mit spinnenartigen Beinen?",
-                nl: "Welk Dalí-schilderij toont olifanten met spinachtige poten?"
-            },
-            options: [
-                {
-                    en: "The Temptation of St. Anthony",
-                    es: "La Tentación de San Antonio",
-                    de: "Die Versuchung des Heiligen Antonius",
-                    nl: "De Verzoeking van de Heilige Antonius"
-                },
-                {
-                    en: "Dream Caused by the Flight of a Bee",
-                    es: "Sueño Causado por el Vuelo de una Abeja",
-                    de: "Traum, verursacht durch den Flug einer Biene",
-                    nl: "Droom Veroorzaakt door de Vlucht van een Bij"
-                },
-                {
-                    en: "The Burning Giraffe",
-                    es: "La Jirafa en Llamas",
-                    de: "Die Brennende Giraffe",
-                    nl: "De Brandende Giraf"
-                },
-                {
-                    en: "Swans Reflecting Elephants",
-                    es: "Cisnes Reflejando Elefantes",
-                    de: "Schwäne, die Elefanten reflektieren",
-                    nl: "Zwanen die Olifanten Reflecteren"
-                }
-            ],
-            correct: 0,
-            explanation: {
-                en: "'The Temptation of St. Anthony' (1946) features Dalí's signature elongated elephants carrying symbolic burdens on their backs, inspired by Bernini's obelisk-carrying elephant.",
-                es: "'La Tentación de San Antonio' (1946) presenta los elefantes alargados característicos de Dalí cargando cargas simbólicas en sus espaldas, inspirado en el elefante portador de obelisco de Bernini.",
-                de: "'Die Versuchung des Heiligen Antonius' (1946) zeigt Dalís charakteristische langbeinige Elefanten, die symbolische Lasten auf ihren Rücken tragen, inspiriert von Berninis obelisktragenden Elefanten.",
-                nl: "'De Verzoeking van de Heilige Antonius' (1946) toont Dalí's kenmerkende langbenige olifanten die symbolische lasten op hun rug dragen, geïnspireerd door Bernini's obelisk-dragende olifant."
-            }
-        },
-        {
-            question: {
-                en: "In which period did Picasso create his 'Blue Period' works?",
-                es: "¿En qué período creó Picasso sus obras del 'Período Azul'?",
-                de: "In welcher Zeit schuf Picasso seine Werke der 'Blauen Periode'?",
-                nl: "In welke periode creëerde Picasso zijn werken uit de 'Blauwe Periode'?"
-            },
-            options: [
-                {
-                    en: "1901-1904",
-                    es: "1901-1904",
-                    de: "1901-1904",
-                    nl: "1901-1904"
-                },
-                {
-                    en: "1905-1907",
-                    es: "1905-1907",
-                    de: "1905-1907",
-                    nl: "1905-1907"
-                },
-                {
-                    en: "1898-1901",
-                    es: "1898-1901",
-                    de: "1898-1901",
-                    nl: "1898-1901"
-                },
-                {
-                    en: "1907-1909",
-                    es: "1907-1909",
-                    de: "1907-1909",
-                    nl: "1907-1909"
-                }
-            ],
-            correct: 0,
-            explanation: {
-                en: "Picasso's Blue Period lasted from 1901-1904, triggered by his friend Carlos Casagemas's suicide. This period featured predominantly blue tones and melancholic subjects.",
-                es: "El Período Azul de Picasso duró de 1901-1904, desencadenado por el suicidio de su amigo Carlos Casagemas. Este período presentó predominantemente tonos azules y temas melancólicos.",
-                de: "Picassos Blaue Periode dauerte von 1901-1904, ausgelöst durch den Selbstmord seines Freundes Carlos Casagemas. Diese Periode zeigte überwiegend blaue Töne und melancholische Themen.",
-                nl: "Picasso's Blauwe Periode duurde van 1901-1904, veroorzaakt door de zelfmoord van zijn vriend Carlos Casagemas. Deze periode kenmerkte zich door overwegend blauwe tinten en melancholische onderwerpen."
-            }
-        },
-        {
-            question: {
-                en: "Which artist painted 'Nighthawks' depicting people in a late-night diner?",
-                es: "¿Qué artista pintó 'Noctámbulos' representando personas en un restaurante nocturno?",
-                de: "Welcher Künstler malte 'Nighthawks', das Menschen in einem Nachtlokal zeigt?",
-                nl: "Welke kunstenaar schilderde 'Nighthawks' met mensen in een laat-nacht diner?"
-            },
-            options: [
-                {
-                    en: "Edward Hopper",
-                    es: "Edward Hopper",
-                    de: "Edward Hopper",
-                    nl: "Edward Hopper"
-                },
-                {
-                    en: "Grant Wood",
-                    es: "Grant Wood",
-                    de: "Grant Wood",
-                    nl: "Grant Wood"
-                },
-                {
-                    en: "Norman Rockwell",
-                    es: "Norman Rockwell",
-                    de: "Norman Rockwell",
-                    nl: "Norman Rockwell"
-                },
-                {
-                    en: "Andrew Wyeth",
-                    es: "Andrew Wyeth",
-                    de: "Andrew Wyeth",
-                    nl: "Andrew Wyeth"
-                }
-            ],
-            correct: 0,
-            explanation: {
-                en: "Edward Hopper painted 'Nighthawks' in 1942, capturing urban isolation and loneliness. The painting is housed in the Art Institute of Chicago and has become an American icon.",
-                es: "Edward Hopper pintó 'Noctámbulos' en 1942, capturando el aislamiento urbano y la soledad. La pintura se encuentra en el Instituto de Arte de Chicago y se ha convertido en un ícono americano.",
-                de: "Edward Hopper malte 'Nighthawks' 1942 und fing städtische Isolation und Einsamkeit ein. Das Gemälde befindet sich im Art Institute of Chicago und ist zu einer amerikanischen Ikone geworden.",
-                nl: "Edward Hopper schilderde 'Nighthawks' in 1942, waarbij hij stedelijke isolatie en eenzaamheid vastlegde. Het schilderij hangt in het Art Institute of Chicago en is een Amerikaans icoon geworden."
-            }
-        },
-        {
-            question: {
-                en: "What was the Fauves art movement primarily characterized by?",
-                es: "¿Por qué se caracterizaba principalmente el movimiento artístico de los Fauves?",
-                de: "Wwodurch war die Kunstbewegung der Fauves hauptsächlich charakterisiert?",
-                nl: "Waar werd de Fauves kunstbeweging hoofdzakelijk door gekenmerkt?"
-            },
-            options: [
-                {
-                    en: "Bold, non-naturalistic colors",
-                    es: "Colores audaces y no naturalistas",
-                    de: "Kühne, nicht-naturalistische Farben",
-                    nl: "Gedurfde, niet-naturalistische kleuren"
-                },
-                {
-                    en: "Geometric shapes and forms",
-                    es: "Formas y figuras geométricas",
-                    de: "Geometrische Formen und Gestalten",
-                    nl: "Geometrische vormen en figuren"
-                },
-                {
-                    en: "Dream-like imagery",
-                    es: "Imágenes oníricas",
-                    de: "Traumartige Bilder",
-                    nl: "Droomachtige beelden"
-                },
-                {
-                    en: "Photographic realism",
-                    es: "Realismo fotográfico",
-                    de: "Fotografischer Realismus",
-                    nl: "Fotografisch realisme"
-                }
-            ],
-            correct: 0,
-            explanation: {
-                en: "The Fauves (1905-1910) led by Henri Matisse used bold, non-naturalistic colors applied straight from the tube. The name 'Fauves' means 'wild beasts' in French.",
-                es: "Los Fauves (1905-1910) liderados por Henri Matisse usaron colores audaces y no naturalistas aplicados directamente del tubo. El nombre 'Fauves' significa 'bestias salvajes' en francés.",
-                de: "Die Fauves (1905-1910) unter Führung von Henri Matisse verwendeten kühne, nicht-naturalistische Farben direkt aus der Tube. Der Name 'Fauves' bedeutet 'wilde Bestien' auf Französisch.",
-                nl: "De Fauves (1905-1910) onder leiding van Henri Matisse gebruikten gedurfde, niet-naturalistische kleuren direct uit de tube. De naam 'Fauves' betekent 'wilde beesten' in het Frans."
-            }
-        },
-        {
-            question: {
-                en: "Which Renaissance artist wrote extensive backwards mirror writing in his notebooks?",
-                es: "¿Qué artista del Renacimiento escribió extensamente al revés en escritura espejo en sus cuadernos?",
-                de: "Welcher Renaissance-Künstler schrieb ausführlich rückwärts in Spiegelschrift in seinen Notizbüchern?",
-                nl: "Welke Renaissance kunstenaar schreef uitgebreid achterwaarts in spiegelschrift in zijn notitieboeken?"
-            },
-            options: [
-                {
-                    en: "Leonardo da Vinci",
-                    es: "Leonardo da Vinci",
-                    de: "Leonardo da Vinci",
-                    nl: "Leonardo da Vinci"
-                },
-                {
-                    en: "Michelangelo",
-                    es: "Miguel Ángel",
-                    de: "Michelangelo",
-                    nl: "Michelangelo"
-                },
-                {
-                    en: "Raphael",
-                    es: "Rafael",
-                    de: "Raffael",
-                    nl: "Rafaël"
-                },
-                {
-                    en: "Donatello",
-                    es: "Donatello",
-                    de: "Donatello",
-                    nl: "Donatello"
-                }
-            ],
-            correct: 0,
-            explanation: {
-                en: "Leonardo da Vinci wrote most of his notes in mirror writing, readable only when held up to a mirror. This may have been to keep his ideas secret or because he was left-handed.",
-                es: "Leonardo da Vinci escribió la mayoría de sus notas en escritura espejo, legible solo cuando se sostiene frente a un espejo. Esto pudo haber sido para mantener sus ideas en secreto o porque era zurdo.",
-                de: "Leonardo da Vinci schrieb die meisten seiner Notizen in Spiegelschrift, nur lesbar wenn man sie vor einen Spiegel hält. Dies könnte gewesen sein, um seine Ideen geheim zu halten oder weil er Linkshänder war.",
-                nl: "Leonardo da Vinci schreef de meeste van zijn notities in spiegelschrift, alleen leesbaar wanneer ze voor een spiegel gehouden worden. Dit was mogelijk om zijn ideeën geheim te houden of omdat hij linkshandig was."
-            }
-        },
-        {
-            question: {
-                en: "What is the technique called where colors are applied in small dots to create an image?",
-                es: "¿Cómo se llama la técnica donde los colores se aplican en pequeños puntos para crear una imagen?",
-                de: "Wie heißt die Technik, bei der Farben in kleinen Punkten aufgetragen werden, um ein Bild zu erzeugen?",
-                nl: "Hoe heet de techniek waarbij kleuren in kleine stippen worden aangebracht om een beeld te creëren?"
-            },
-            options: [
-                {
-                    en: "Pointillism",
-                    es: "Puntillismo",
-                    de: "Pointillismus",
-                    nl: "Pointillisme"
-                },
-                {
-                    en: "Divisionism",
-                    es: "Divisionismo",
-                    de: "Divisionismus",
-                    nl: "Divisionisme"
-                },
-                {
-                    en: "Stippling",
-                    es: "Punteado",
-                    de: "Punktieren",
-                    nl: "Stippen"
-                },
-                {
-                    en: "Hatching",
-                    es: "Tramado",
-                    de: "Schraffieren",
-                    nl: "Arceren"
-                }
-            ],
-            correct: 0,
-            explanation: {
-                en: "Pointillism, developed by Georges Seurat and Paul Signac, uses small dots of pure color that blend optically when viewed from a distance, creating more vibrant effects.",
-                es: "El puntillismo, desarrollado por Georges Seurat y Paul Signac, usa pequeños puntos de color puro que se mezclan ópticamente cuando se ven desde la distancia, creando efectos más vibrantes.",
-                de: "Der Pointillismus, entwickelt von Georges Seurat und Paul Signac, verwendet kleine Punkte reiner Farbe, die sich optisch mischen, wenn sie aus der Entfernung betrachtet werden, und lebhaftere Effekte erzeugen.",
-                nl: "Pointillisme, ontwikkeld door Georges Seurat en Paul Signac, gebruikt kleine stippen van pure kleur die optisch mengen wanneer ze van een afstand bekeken worden, waardoor levendigere effecten ontstaan."
-            }
-        },
-        {
-            question: {
-                en: "Which artist created the sculpture 'Bird in Space' series?",
-                es: "¿Qué artista creó la serie de esculturas 'Pájaro en el Espacio'?",
-                de: "Welcher Künstler schuf die Skulpturenserie 'Vogel im Raum'?",
-                nl: "Welke kunstenaar creëerde de sculptuurreeks 'Vogel in de Ruimte'?"
-            },
-            options: [
-                {
-                    en: "Constantin Brâncuși",
-                    es: "Constantin Brâncuși",
-                    de: "Constantin Brâncuși",
-                    nl: "Constantin Brâncuși"
-                },
-                {
-                    en: "Alberto Giacometti",
-                    es: "Alberto Giacometti",
-                    de: "Alberto Giacometti",
-                    nl: "Alberto Giacometti"
-                },
-                {
-                    en: "Henry Moore",
-                    es: "Henry Moore",
-                    de: "Henry Moore",
-                    nl: "Henry Moore"
-                },
-                {
-                    en: "Barbara Hepworth",
-                    es: "Barbara Hepworth",
-                    de: "Barbara Hepworth",
-                    nl: "Barbara Hepworth"
-                }
-            ],
-            correct: 0,
-            explanation: {
-                en: "Constantin Brâncuși created 16 versions of 'Bird in Space' between 1923-1940, exploring pure form and movement. These abstract bronze and marble sculptures revolutionized modern sculpture.",
-                es: "Constantin Brâncuși creó 16 versiones de 'Pájaro en el Espacio' entre 1923-1940, explorando la forma pura y el movimiento. Estas esculturas abstractas de bronce y mármol revolucionaron la escultura moderna.",
-                de: "Constantin Brâncuși schuf zwischen 1923-1940 16 Versionen von 'Vogel im Raum' und erforschte reine Form und Bewegung. Diese abstrakten Bronze- und Marmorskulpturen revolutionierten die moderne Skulptur.",
-                nl: "Constantin Brâncuși creëerde 16 versies van 'Vogel in de Ruimte' tussen 1923-1940, waarbij hij pure vorm en beweging verkende. Deze abstracte bronzen en marmeren sculpturen revolutioneerden de moderne beeldhouwkunst."
-            }
-        },
-        {
-            question: {
-                en: "In which museum can you find Guernica by Picasso?",
-                es: "¿En qué museo puedes encontrar Guernica de Picasso?",
-                de: "In welchem Museum kann man Guernica von Picasso finden?",
-                nl: "In welk museum kun je Guernica van Picasso vinden?"
-            },
-            options: [
-                {
-                    en: "Museo Reina Sofía, Madrid",
-                    es: "Museo Reina Sofía, Madrid",
-                    de: "Museo Reina Sofía, Madrid",
-                    nl: "Museo Reina Sofía, Madrid"
-                },
-                {
-                    en: "Prado Museum, Madrid",
-                    es: "Museo del Prado, Madrid",
-                    de: "Prado-Museum, Madrid",
-                    nl: "Prado Museum, Madrid"
-                },
-                {
-                    en: "Louvre, Paris",
-                    es: "Louvre, París",
-                    de: "Louvre, Paris",
-                    nl: "Louvre, Parijs"
-                },
-                {
-                    en: "MoMA, New York",
-                    es: "MoMA, Nueva York",
-                    de: "MoMA, New York",
-                    nl: "MoMA, New York"
-                }
-            ],
-            correct: 0,
-            explanation: {
-                en: "Guernica has been housed in the Museo Reina Sofía in Madrid since 1992. Picasso stipulated that the painting should only return to Spain after democracy was restored.",
-                es: "Guernica se encuentra en el Museo Reina Sofía en Madrid desde 1992. Picasso estipuló que la pintura solo debería regresar a España después de que se restaurara la democracia.",
-                de: "Guernica befindet sich seit 1992 im Museo Reina Sofía in Madrid. Picasso bestimmte, dass das Gemälde erst nach der Wiederherstellung der Demokratie nach Spanien zurückkehren sollte.",
-                nl: "Guernica hangt sinds 1992 in het Museo Reina Sofía in Madrid. Picasso bepaalde dat het schilderij pas naar Spanje mocht terugkeren nadat de democratie was hersteld."
-            }
-        },
-        {
-            question: {
-                en: "Which art movement did Wassily Kandinsky help pioneer with his abstract paintings?",
-                es: "¿Qué movimiento artístico ayudó a pionerear Wassily Kandinsky con sus pinturas abstractas?",
-                de: "Welche Kunstbewegung half Wassily Kandinsky mit seinen abstrakten Gemälden zu begründen?",
-                nl: "Welke kunstbeweging hielp Wassily Kandinsky pionieren met zijn abstracte schilderijen?"
-            },
-            options: [
-                {
-                    en: "Abstract Expressionism",
-                    es: "Expresionismo Abstracto",
-                    de: "Abstrakter Expressionismus",
-                    nl: "Abstract Expressionisme"
-                },
-                {
-                    en: "Der Blaue Reiter",
-                    es: "Der Blaue Reiter",
-                    de: "Der Blaue Reiter",
-                    nl: "Der Blaue Reiter"
-                },
-                {
-                    en: "Suprematism",
-                    es: "Suprematismo",
-                    de: "Suprematismus",
-                    nl: "Suprematisme"
-                },
-                {
-                    en: "Constructivism",
-                    es: "Constructivismo",
-                    de: "Konstruktivismus",
-                    nl: "Constructivisme"
-                }
-            ],
-            correct: 1,
-            explanation: {
-                en: "Kandinsky co-founded Der Blaue Reiter (The Blue Rider) in 1911 with Franz Marc. This German Expressionist group emphasized spiritual and emotional content in abstract art.",
-                es: "Kandinsky co-fundó Der Blaue Reiter (El Jinete Azul) en 1911 con Franz Marc. Este grupo expresionista alemán enfatizaba el contenido espiritual y emocional en el arte abstracto.",
-                de: "Kandinsky gründete 1911 zusammen mit Franz Marc Der Blaue Reiter. Diese deutsche Expressionistengruppe betonte geistigen und emotionalen Inhalt in der abstrakten Kunst.",
-                nl: "Kandinsky was medeoprichter van Der Blaue Reiter (De Blauwe Ruiter) in 1911 samen met Franz Marc. Deze Duitse expressionistische groep benadrukte spirituele en emotionele inhoud in abstracte kunst."
-            }
-        },
-        {
-            question: {
-                en: "What material did Auguste Rodin primarily use for 'The Gates of Hell'?",
-                es: "¿Qué material usó principalmente Auguste Rodin para 'Las Puertas del Infierno'?",
-                de: "Welches Material verwendete Auguste Rodin hauptsächlich für 'Das Höllentor'?",
-                nl: "Welk materiaal gebruikte Auguste Rodin voornamelijk voor 'De Poorten van de Hel'?"
-            },
-            options: [
-                {
-                    en: "Bronze",
-                    es: "Bronce",
-                    de: "Bronze",
-                    nl: "Brons"
-                },
-                {
-                    en: "Marble",
-                    es: "Mármol",
-                    de: "Marmor",
-                    nl: "Marmer"
-                },
-                {
-                    en: "Clay",
-                    es: "Arcilla",
-                    de: "Ton",
-                    nl: "Klei"
-                },
-                {
-                    en: "Plaster",
-                    es: "Yeso",
-                    de: "Gips",
-                    nl: "Gips"
-                }
-            ],
-            correct: 0,
-            explanation: {
-                en: "Rodin worked on 'The Gates of Hell' for 37 years (1880-1917) in bronze. This monumental work contains 180 figures including 'The Thinker' and was inspired by Dante's Inferno.",
-                es: "Rodin trabajó en 'Las Puertas del Infierno' durante 37 años (1880-1917) en bronce. Esta obra monumental contiene 180 figuras incluyendo 'El Pensador' y fue inspirada por el Infierno de Dante.",
-                de: "Rodin arbeitete 37 Jahre (1880-1917) an 'Das Höllentor' aus Bronze. Dieses monumentale Werk enthält 180 Figuren einschließlich 'Der Denker' und wurde von Dantes Inferno inspiriert.",
-                nl: "Rodin werkte 37 jaar (1880-1917) aan 'De Poorten van de Hel' in brons. Dit monumentale werk bevat 180 figuren waaronder 'De Denker' en was geïnspireerd door Dante's Inferno."
-            }
-        },
-        {
-            question: {
-                en: "Which artist painted 'The Garden of Earthly Delights'?",
-                es: "¿Qué artista pintó 'El Jardín de las Delicias Terrenales'?",
-                de: "Welcher Künstler malte 'Der Garten der Lüste'?",
-                nl: "Welke kunstenaar schilderde 'De Tuin der Lusten'?"
-            },
-            options: [
-                {
-                    en: "Hieronymus Bosch",
-                    es: "Hieronymus Bosch",
-                    de: "Hieronymus Bosch",
-                    nl: "Hieronymus Bosch"
-                },
-                {
-                    en: "Pieter Bruegel the Elder",
-                    es: "Pieter Bruegel el Viejo",
-                    de: "Pieter Bruegel der Ältere",
-                    nl: "Pieter Bruegel de Oudere"
-                },
-                {
-                    en: "Jan van Eyck",
-                    es: "Jan van Eyck",
-                    de: "Jan van Eyck",
-                    nl: "Jan van Eyck"
-                },
-                {
-                    en: "Rogier van der Weyden",
-                    es: "Rogier van der Weyden",
-                    de: "Rogier van der Weyden",
-                    nl: "Rogier van der Weyden"
-                }
-            ],
-            correct: 0,
-            explanation: {
-                en: "Hieronymus Bosch painted this famous triptych around 1495-1505. The work depicts paradise, earthly pleasures, and hell, and is housed in the Prado Museum in Madrid.",
-                es: "Hieronymus Bosch pintó este famoso tríptico alrededor de 1495-1505. La obra representa el paraíso, los placeres terrenales y el infierno, y se encuentra en el Museo del Prado en Madrid.",
-                de: "Hieronymus Bosch malte dieses berühmte Triptychon um 1495-1505. Das Werk zeigt das Paradies, irdische Freuden und die Hölle und befindet sich im Prado-Museum in Madrid.",
-                nl: "Hieronymus Bosch schilderde dit beroemde drieluik rond 1495-1505. Het werk toont het paradijs, aardse genoegens en de hel, en hangt in het Prado Museum in Madrid."
-            }
-        },
-        {
-            question: {
-                en: "What was the name of the art school where the Bauhaus movement originated?",
-                es: "¿Cuál era el nombre de la escuela de arte donde se originó el movimiento Bauhaus?",
-                de: "Wie hieß die Kunstschule, wo die Bauhaus-Bewegung entstand?",
-                nl: "Wat was de naam van de kunstschool waar de Bauhaus-beweging ontstond?"
-            },
-            options: [
-                {
-                    en: "Staatliches Bauhaus",
-                    es: "Staatliches Bauhaus",
-                    de: "Staatliches Bauhaus",
-                    nl: "Staatliches Bauhaus"
-                },
-                {
-                    en: "École des Beaux-Arts",
-                    es: "École des Beaux-Arts",
-                    de: "École des Beaux-Arts",
-                    nl: "École des Beaux-Arts"
-                },
-                {
-                    en: "Royal Academy of Arts",
-                    es: "Real Academia de las Artes",
-                    de: "Royal Academy of Arts",
-                    nl: "Royal Academy of Arts"
-                },
-                {
-                    en: "Art Students League",
-                    es: "Liga de Estudiantes de Arte",
-                    de: "Art Students League",
-                    nl: "Art Students League"
-                }
-            ],
-            correct: 0,
-            explanation: {
-                en: "The Staatliches Bauhaus was founded by Walter Gropius in Weimar in 1919. It combined crafts and fine arts, emphasizing functional design and modern industrial methods.",
-                es: "El Staatliches Bauhaus fue fundado por Walter Gropius en Weimar en 1919. Combinaba artesanías y bellas artes, enfatizando el diseño funcional y los métodos industriales modernos.",
-                de: "Das Staatliche Bauhaus wurde 1919 von Walter Gropius in Weimar gegründet. Es verband Handwerk und bildende Kunst und betonte funktionales Design und moderne Industriemethoden.",
-                nl: "Het Staatliches Bauhaus werd opgericht door Walter Gropius in Weimar in 1919. Het combineerde ambachten en beeldende kunst, met nadruk op functioneel ontwerp en moderne industriële methoden."
-            }
-        },
-        {
-            question: {
-                en: "Which artist created the famous sculpture 'Balloon Dog'?",
-                es: "¿Qué artista creó la famosa escultura 'Perro Globo'?",
-                de: "Welcher Künstler schuf die berühmte Skulptur 'Balloon Dog'?",
-                nl: "Welke kunstenaar creëerde de beroemde sculptuur 'Balloon Dog'?"
-            },
-            options: [
-                {
-                    en: "Jeff Koons",
-                    es: "Jeff Koons",
-                    de: "Jeff Koons",
-                    nl: "Jeff Koons"
-                },
-                {
-                    en: "Damien Hirst",
-                    es: "Damien Hirst",
-                    de: "Damien Hirst",
-                    nl: "Damien Hirst"
-                },
-                {
-                    en: "Anish Kapoor",
-                    es: "Anish Kapoor",
-                    de: "Anish Kapoor",
-                    nl: "Anish Kapoor"
-                },
-                {
-                    en: "Takashi Murakami",
-                    es: "Takashi Murakami",
-                    de: "Takashi Murakami",
-                    nl: "Takashi Murakami"
-                }
-            ],
-            correct: 0,
-            explanation: {
-                en: "Jeff Koons created the 'Balloon Dog' series in the 1990s. These large-scale stainless steel sculptures mimic the appearance of balloon animals and are among the most expensive artworks sold.",
-                es: "Jeff Koons creó la serie 'Perro Globo' en los años 1990. Estas esculturas de acero inoxidable a gran escala imitan la apariencia de animales de globo y están entre las obras de arte más caras vendidas.",
-                de: "Jeff Koons schuf die 'Balloon Dog'-Serie in den 1990er Jahren. Diese großformatigen Edelstahlskulpturen imitieren das Aussehen von Ballontieren und gehören zu den teuersten verkauften Kunstwerken.",
-                nl: "Jeff Koons creëerde de 'Balloon Dog' serie in de jaren 1990. Deze grootschalige roestvrijstalen sculpturen imiteren het uiterlijk van ballondieren en behoren tot de duurste verkochte kunstwerken."
-            }
-        },
-        {
-            question: {
-                en: "In which period did El Greco work and develop his distinctive elongated figures?",
-                es: "¿En qué período trabajó El Greco y desarrolló sus distintivas figuras alargadas?",
-                de: "In welcher Zeit arbeitete El Greco und entwickelte seine charakteristischen langgestreckten Figuren?",
-                nl: "In welke periode werkte El Greco en ontwikkelde hij zijn kenmerkende langgerekte figuren?"
-            },
-            options: [
-                {
-                    en: "Late Renaissance/Mannerism",
-                    es: "Renacimiento Tardío/Manierismo",
-                    de: "Spätrenaissance/Manierismus",
-                    nl: "Late Renaissance/Maniërisme"
-                },
-                {
-                    en: "Early Renaissance",
-                    es: "Renacimiento Temprano",
-                    de: "Frührenaissance",
-                    nl: "Vroege Renaissance"
-                },
-                {
-                    en: "Baroque",
-                    es: "Barroco",
-                    de: "Barock",
-                    nl: "Barok"
-                },
-                {
-                    en: "Gothic",
-                    es: "Gótico",
-                    de: "Gotik",
-                    nl: "Gotiek"
-                }
-            ],
-            correct: 0,
-            explanation: {
-                en: "El Greco (1541-1614) worked during the Late Renaissance/Mannerist period. His distinctive style with elongated figures and vibrant colors was influenced by Byzantine, Venetian, and Spanish traditions.",
-                es: "El Greco (1541-1614) trabajó durante el período del Renacimiento Tardío/Manierismo. Su estilo distintivo con figuras alargadas y colores vibrantes fue influenciado por tradiciones bizantinas, venecianas y españolas.",
-                de: "El Greco (1541-1614) arbeitete während der Spätrenaissance/Manierismus-Periode. Sein charakteristischer Stil mit langgestreckten Figuren und lebhaften Farben war von byzantinischen, venezianischen und spanischen Traditionen beeinflusst.",
-                nl: "El Greco (1541-1614) werkte tijdens de Late Renaissance/Maniërisme periode. Zijn kenmerkende stijl met langgerekte figuren en levendige kleuren werd beïnvloed door Byzantijnse, Venetiaanse en Spaanse tradities."
-            }
-        },
-        {
-            question: {
-                en: "Which artist painted 'The Hay Wain' depicting rural English countryside?",
-                es: "¿Qué artista pintó 'El Carro de Heno' representando el campo rural inglés?",
-                de: "Welcher Künstler malte 'Der Heuwagen', der die englische Landschaft zeigt?",
-                nl: "Welke kunstenaar schilderde 'The Hay Wain' dat het Engelse platteland weergeeft?"
-            },
-            options: [
-                {
-                    en: "John Constable",
-                    es: "John Constable",
-                    de: "John Constable",
-                    nl: "John Constable"
-                },
-                {
-                    en: "J.M.W. Turner",
-                    es: "J.M.W. Turner",
-                    de: "J.M.W. Turner",
-                    nl: "J.M.W. Turner"
-                },
-                {
-                    en: "Thomas Gainsborough",
-                    es: "Thomas Gainsborough",
-                    de: "Thomas Gainsborough",
-                    nl: "Thomas Gainsborough"
-                },
-                {
-                    en: "Joshua Reynolds",
-                    es: "Joshua Reynolds",
-                    de: "Joshua Reynolds",
-                    nl: "Joshua Reynolds"
-                }
-            ],
-            correct: 0,
-            explanation: {
-                en: "John Constable painted 'The Hay Wain' in 1821, depicting a scene from the River Stour in Suffolk. This Romantic landscape painting is housed in the National Gallery, London.",
-                es: "John Constable pintó 'El Carro de Heno' en 1821, representando una escena del Río Stour en Suffolk. Esta pintura paisajística romántica se encuentra en la Galería Nacional de Londres.",
-                de: "John Constable malte 'Der Heuwagen' 1821 und zeigte eine Szene vom Fluss Stour in Suffolk. Dieses romantische Landschaftsgemälde befindet sich in der National Gallery, London.",
-                nl: "John Constable schilderde 'The Hay Wain' in 1821, met een tafereel van de rivier Stour in Suffolk. Dit romantische landschapsschilderij hangt in de National Gallery, Londen."
-            }
-        },
-        {
-            question: {
-                en: "Which artist created the 'Fountain' sculpture, submitting a urinal as art?",
-                es: "¿Qué artista creó la escultura 'Fuente', presentando un urinario como arte?",
-                de: "Welcher Künstler schuf die Skulptur 'Fountain', indem er ein Urinal als Kunst einreichte?",
-                nl: "Welke kunstenaar creëerde de sculptuur 'Fountain', door een urinoir als kunst in te dienen?"
-            },
-            options: [
-                {
-                    en: "Marcel Duchamp",
-                    es: "Marcel Duchamp",
-                    de: "Marcel Duchamp",
-                    nl: "Marcel Duchamp"
-                },
-                {
-                    en: "Man Ray",
-                    es: "Man Ray",
-                    de: "Man Ray",
-                    nl: "Man Ray"
-                },
-                {
-                    en: "Francis Picabia",
-                    es: "Francis Picabia",
-                    de: "Francis Picabia",
-                    nl: "Francis Picabia"
-                },
-                {
-                    en: "Hans Arp",
-                    es: "Hans Arp",
-                    de: "Hans Arp",
-                    nl: "Hans Arp"
-                }
-            ],
-            correct: 0,
-            explanation: {
-                en: "Marcel Duchamp submitted 'Fountain', a porcelain urinal signed 'R. Mutt', to the 1917 Society of Independent Artists exhibition. This readymade revolutionized conceptual art by questioning what could be considered art.",
-                es: "Marcel Duchamp presentó 'Fuente', un urinario de porcelana firmado 'R. Mutt', a la exposición de la Sociedad de Artistas Independientes de 1917. Este readymade revolucionó el arte conceptual al cuestionar qué podía considerarse arte.",
-                de: "Marcel Duchamp reichte 'Fountain', ein Porzellan-Urinal signiert mit 'R. Mutt', zur Ausstellung der Society of Independent Artists 1917 ein. Dieses Readymade revolutionierte die Konzeptkunst, indem es die Frage stellte, was als Kunst betrachtet werden kann.",
-                nl: "Marcel Duchamp diende 'Fountain' in, een porseleinen urinoir gesigneerd 'R. Mutt', bij de tentoonstelling van de Society of Independent Artists in 1917. Dit readymade revolutioneerde de conceptuele kunst door te bevragen wat als kunst beschouwd kan worden."
-            }
-        },
-        {
-            question: {
-                en: "Which artist is known for painting ballerinas and dancers at the Paris Opera?",
-                es: "¿Qué artista es conocido por pintar bailarinas y danzantes en la Ópera de París?",
-                de: "Welcher Künstler ist bekannt für die Malerei von Ballerinas und Tänzern an der Pariser Oper?",
-                nl: "Welke kunstenaar staat bekend om het schilderen van ballerina's en dansers in de Parijse Opera?"
-            },
-            options: [
-                {
-                    en: "Edgar Degas",
-                    es: "Edgar Degas",
-                    de: "Edgar Degas",
-                    nl: "Edgar Degas"
-                },
-                {
-                    en: "Pierre-Auguste Renoir",
-                    es: "Pierre-Auguste Renoir",
-                    de: "Pierre-Auguste Renoir",
-                    nl: "Pierre-Auguste Renoir"
-                },
-                {
-                    en: "Henri de Toulouse-Lautrec",
-                    es: "Henri de Toulouse-Lautrec",
-                    de: "Henri de Toulouse-Lautrec",
-                    nl: "Henri de Toulouse-Lautrec"
-                },
-                {
-                    en: "Édouard Manet",
-                    es: "Édouard Manet",
-                    de: "Édouard Manet",
-                    nl: "Édouard Manet"
-                }
-            ],
-            correct: 0,
-            explanation: {
-                en: "Edgar Degas created over 1,500 works depicting ballet dancers. His backstage views of dancers practicing and resting revealed the hard work behind their graceful performances.",
-                es: "Edgar Degas creó más de 1,500 obras representando bailarinas de ballet. Sus vistas entre bastidores de danzantes practicando y descansando revelaron el trabajo duro detrás de sus actuaciones elegantes.",
-                de: "Edgar Degas schuf über 1.500 Werke mit Ballettänzerinnen. Seine Blicke hinter die Kulissen von übenden und ruhenden Tänzern offenbarten die harte Arbeit hinter ihren anmutigen Aufführungen.",
-                nl: "Edgar Degas creëerde meer dan 1.500 werken met balletdansers. Zijn backstage-blik op oefenende en rustende dansers onthulde het harde werk achter hun sierlijke optredens."
-            }
-        },
-        {
-            question: {
-                en: "Which Post-Impressionist painter created 'The Yellow Christ'?",
-                es: "¿Qué pintor post-impresionista creó 'El Cristo Amarillo'?",
-                de: "Welcher postimpressionistische Maler schuf 'Der gelbe Christus'?",
-                nl: "Welke post-impressionistische schilder creëerde 'De Gele Christus'?"
-            },
-            options: [
-                {
-                    en: "Paul Gauguin",
-                    es: "Paul Gauguin",
-                    de: "Paul Gauguin",
-                    nl: "Paul Gauguin"
-                },
-                {
-                    en: "Paul Cézanne",
-                    es: "Paul Cézanne",
-                    de: "Paul Cézanne",
-                    nl: "Paul Cézanne"
-                },
-                {
-                    en: "Vincent van Gogh",
-                    es: "Vincent van Gogh",
-                    de: "Vincent van Gogh",
-                    nl: "Vincent van Gogh"
-                },
-                {
-                    en: "Georges Seurat",
-                    es: "Georges Seurat",
-                    de: "Georges Seurat",
-                    nl: "Georges Seurat"
-                }
-            ],
-            correct: 0,
-            explanation: {
-                en: "Paul Gauguin painted 'The Yellow Christ' in 1889 in Brittany. The work shows Christ on the cross with Breton women in prayer, using vivid colors and simplified forms characteristic of his Synthetist style.",
-                es: "Paul Gauguin pintó 'El Cristo Amarillo' en 1889 en Bretaña. La obra muestra a Cristo en la cruz con mujeres bretonas en oración, usando colores vívidos y formas simplificadas característicos de su estilo sintetista.",
-                de: "Paul Gauguin malte 'Der gelbe Christus' 1889 in der Bretagne. Das Werk zeigt Christus am Kreuz mit bretonischen Frauen im Gebet, unter Verwendung lebhafter Farben und vereinfachter Formen charakteristisch für seinen synthetistischen Stil.",
-                nl: "Paul Gauguin schilderde 'De Gele Christus' in 1889 in Bretagne. Het werk toont Christus aan het kruis met Bretonse vrouwen in gebed, gebruikmakend van levendige kleuren en vereenvoudigde vormen kenmerkend voor zijn synthetistische stijl."
-            }
-        },
-        {
-            question: {
-                en: "Which American artist painted 'American Gothic' featuring a farmer and his daughter?",
-                es: "¿Qué artista americano pintó 'Gótico Americano' mostrando un granjero y su hija?",
-                de: "Welcher amerikanische Künstler malte 'American Gothic' mit einem Bauern und seiner Tochter?",
-                nl: "Welke Amerikaanse kunstenaar schilderde 'American Gothic' met een boer en zijn dochter?"
-            },
-            options: [
-                {
-                    en: "Grant Wood",
-                    es: "Grant Wood",
-                    de: "Grant Wood",
-                    nl: "Grant Wood"
-                },
-                {
-                    en: "Edward Hopper",
-                    es: "Edward Hopper",
-                    de: "Edward Hopper",
-                    nl: "Edward Hopper"
-                },
-                {
-                    en: "Thomas Hart Benton",
-                    es: "Thomas Hart Benton",
-                    de: "Thomas Hart Benton",
-                    nl: "Thomas Hart Benton"
-                },
-                {
-                    en: "Andrew Wyeth",
-                    es: "Andrew Wyeth",
-                    de: "Andrew Wyeth",
-                    nl: "Andrew Wyeth"
-                }
-            ],
-            correct: 0,
-            explanation: {
-                en: "Grant Wood painted 'American Gothic' in 1930, depicting his sister and dentist posing in front of a Gothic Revival house in Iowa. The painting has become an iconic image of American rural life.",
-                es: "Grant Wood pintó 'Gótico Americano' en 1930, representando a su hermana y dentista posando frente a una casa del revival gótico en Iowa. La pintura se ha convertido en una imagen icónica de la vida rural americana.",
-                de: "Grant Wood malte 'American Gothic' 1930, zeigt seine Schwester und Zahnarzt vor einem neugotischen Haus in Iowa. Das Gemälde wurde zu einem ikonischen Bild des amerikanischen Landlebens.",
-                nl: "Grant Wood schilderde 'American Gothic' in 1930, met zijn zus en tandarts poserend voor een Gothic Revival huis in Iowa. Het schilderij is een iconisch beeld van het Amerikaanse plattelandsleven geworden."
-            }
-        },
-        {
-            question: {
-                en: "Which Baroque artist painted 'The Anatomy Lesson of Dr. Nicolaes Tulp'?",
-                es: "¿Qué artista barroco pintó 'La Lección de Anatomía del Dr. Nicolaes Tulp'?",
-                de: "Welcher Barockkünstler malte 'Die Anatomie des Dr. Tulp'?",
-                nl: "Welke barokkunstenaar schilderde 'De Anatomische Les van Dr. Nicolaes Tulp'?"
-            },
-            options: [
-                {
-                    en: "Rembrandt van Rijn",
-                    es: "Rembrandt van Rijn",
-                    de: "Rembrandt van Rijn",
-                    nl: "Rembrandt van Rijn"
-                },
-                {
-                    en: "Johannes Vermeer",
-                    es: "Johannes Vermeer",
-                    de: "Johannes Vermeer",
-                    nl: "Johannes Vermeer"
-                },
-                {
-                    en: "Frans Hals",
-                    es: "Frans Hals",
-                    de: "Frans Hals",
-                    nl: "Frans Hals"
-                },
-                {
-                    en: "Pieter de Hooch",
-                    es: "Pieter de Hooch",
-                    de: "Pieter de Hooch",
-                    nl: "Pieter de Hooch"
-                }
-            ],
-            correct: 0,
-            explanation: {
-                en: "Rembrandt painted 'The Anatomy Lesson of Dr. Nicolaes Tulp' in 1632, showing Dr. Tulp demonstrating the musculature of the arm. This group portrait established Rembrandt's reputation in Amsterdam.",
-                es: "Rembrandt pintó 'La Lección de Anatomía del Dr. Nicolaes Tulp' en 1632, mostrando al Dr. Tulp demostrando la musculatura del brazo. Este retrato de grupo estableció la reputación de Rembrandt en Ámsterdam.",
-                de: "Rembrandt malte 'Die Anatomie des Dr. Tulp' 1632, zeigt Dr. Tulp, der die Muskulatur des Arms demonstriert. Dieses Gruppenporträt etablierte Rembrandts Ruf in Amsterdam.",
-                nl: "Rembrandt schilderde 'De Anatomische Les van Dr. Nicolaes Tulp' in 1632, waarin Dr. Tulp de spieren van de arm demonstreert. Dit groepsportret vestigde Rembrandts reputatie in Amsterdam."
-            }
-        },
-        {
-            question: {
-                en: "Which Spanish artist is famous for painting the royal family in 'Las Meninas'?",
-                es: "¿Qué artista español es famoso por pintar a la familia real en 'Las Meninas'?",
-                de: "Welcher spanische Künstler ist berühmt für die Malerei der königlichen Familie in 'Las Meninas'?",
-                nl: "Welke Spaanse kunstenaar is beroemd om het schilderen van de koninklijke familie in 'Las Meninas'?"
-            },
-            options: [
-                {
-                    en: "Diego Velázquez",
-                    es: "Diego Velázquez",
-                    de: "Diego Velázquez",
-                    nl: "Diego Velázquez"
-                },
-                {
-                    en: "Francisco de Zurbarán",
-                    es: "Francisco de Zurbarán",
-                    de: "Francisco de Zurbarán",
-                    nl: "Francisco de Zurbarán"
-                },
-                {
-                    en: "Bartolomé Esteban Murillo",
-                    es: "Bartolomé Esteban Murillo",
-                    de: "Bartolomé Esteban Murillo",
-                    nl: "Bartolomé Esteban Murillo"
-                },
-                {
-                    en: "José de Ribera",
-                    es: "José de Ribera",
-                    de: "José de Ribera",
-                    nl: "José de Ribera"
-                }
-            ],
-            correct: 0,
-            explanation: {
-                en: "Diego Velázquez painted 'Las Meninas' in 1656 as court painter to King Philip IV. This masterpiece depicts the Infanta Margarita with her maids of honor and includes a self-portrait of Velázquez himself.",
-                es: "Diego Velázquez pintó 'Las Meninas' en 1656 como pintor de la corte del Rey Felipe IV. Esta obra maestra representa a la Infanta Margarita con sus damas de honor e incluye un autorretrato del propio Velázquez.",
-                de: "Diego Velázquez malte 'Las Meninas' 1656 als Hofmaler von König Philipp IV. Dieses Meisterwerk zeigt die Infantin Margarita mit ihren Hofdamen und enthält ein Selbstporträt von Velázquez selbst.",
-                nl: "Diego Velázquez schilderde 'Las Meninas' in 1656 als hofschilder van koning Filips IV. Dit meesterwerk toont de Infanta Margarita met haar hofdames en bevat een zelfportret van Velázquez zelf."
-            }
-        },
-        {
-            question: {
-                en: "Which artist painted 'The Birth of Venus' showing the goddess emerging from the sea?",
-                es: "¿Qué artista pintó 'El Nacimiento de Venus' mostrando a la diosa emergiendo del mar?",
-                de: "Welcher Künstler malte 'Die Geburt der Venus', die die Göttin aus dem Meer kommend zeigt?",
-                nl: "Welke kunstenaar schilderde 'De Geboorte van Venus' waarin de godin uit de zee komt?"
-            },
-            options: [
-                {
-                    en: "Sandro Botticelli",
-                    es: "Sandro Botticelli",
-                    de: "Sandro Botticelli",
-                    nl: "Sandro Botticelli"
-                },
-                {
-                    en: "Titian",
-                    es: "Tiziano",
-                    de: "Tizian",
-                    nl: "Titiaan"
-                },
-                {
-                    en: "Leonardo da Vinci",
-                    es: "Leonardo da Vinci",
-                    de: "Leonardo da Vinci",
-                    nl: "Leonardo da Vinci"
-                },
-                {
-                    en: "Raphael",
-                    es: "Rafael",
-                    de: "Raffael",
-                    nl: "Rafaël"
-                }
-            ],
-            correct: 0,
-            explanation: {
-                en: "Sandro Botticelli painted 'The Birth of Venus' around 1485 for the Medici family. This iconic Renaissance work depicts Venus arriving at the shore on a shell, blown by the winds, and has become one of the most recognizable paintings in art history.",
-                es: "Sandro Botticelli pintó 'El Nacimiento de Venus' alrededor de 1485 para la familia Medici. Esta obra icónica del Renacimiento representa a Venus llegando a la orilla en una concha, soplada por los vientos, y se ha convertido en una de las pinturas más reconocibles en la historia del arte.",
-                de: "Sandro Botticelli malte 'Die Geburt der Venus' um 1485 für die Familie Medici. Dieses ikonische Renaissance-Werk zeigt Venus, die auf einer Muschel am Ufer ankommt, von den Winden geblasen, und ist zu einem der bekanntesten Gemälde der Kunstgeschichte geworden.",
-                nl: "Sandro Botticelli schilderde 'De Geboorte van Venus' rond 1485 voor de Medici familie. Dit iconische Renaissance werk toont Venus die op een schelp op de kust aankomt, geblazen door de winden, en is een van de meest herkenbare schilderijen in de kunstgeschiedenis geworden."
-            }
-        },
-        {
-            question: {
-                en: "Which artist is known for his 'drip painting' technique used in abstract expressionism?",
-                es: "¿Qué artista es conocido por su técnica de 'pintura por goteo' usada en el expresionismo abstracto?",
-                de: "Welcher Künstler ist bekannt für seine 'Tropfmalerei'-Technik im abstrakten Expressionismus?",
-                nl: "Welke kunstenaar staat bekend om zijn 'drip painting' techniek gebruikt in abstract expressionisme?"
-            },
-            options: [
-                {
-                    en: "Jackson Pollock",
-                    es: "Jackson Pollock",
-                    de: "Jackson Pollock",
-                    nl: "Jackson Pollock"
-                },
-                {
-                    en: "Mark Rothko",
-                    es: "Mark Rothko",
-                    de: "Mark Rothko",
-                    nl: "Mark Rothko"
-                },
-                {
-                    en: "Willem de Kooning",
-                    es: "Willem de Kooning",
-                    de: "Willem de Kooning",
-                    nl: "Willem de Kooning"
-                },
-                {
-                    en: "Barnett Newman",
-                    es: "Barnett Newman",
-                    de: "Barnett Newman",
-                    nl: "Barnett Newman"
-                }
-            ],
-            correct: 0,
-            explanation: {
-                en: "Jackson Pollock developed his revolutionary drip painting technique in the late 1940s, pouring and dripping paint onto canvas laid on the floor. This 'action painting' method made him the leading figure of Abstract Expressionism.",
-                es: "Jackson Pollock desarrolló su revolucionaria técnica de pintura por goteo a finales de la década de 1940, vertiendo y goteando pintura sobre lienzo colocado en el suelo. Este método de 'action painting' lo convirtió en la figura principal del Expresionismo Abstracto.",
-                de: "Jackson Pollock entwickelte seine revolutionäre Tropfmalerei-Technik in den späten 1940er Jahren, indem er Farbe auf am Boden liegende Leinwand goss und tropfte. Diese 'Action Painting'-Methode machte ihn zur führenden Figur des Abstrakten Expressionismus.",
-                nl: "Jackson Pollock ontwikkelde zijn revolutionaire drip painting techniek in de late jaren 1940, waarbij hij verf op op de grond liggend canvas goot en druppelde. Deze 'action painting' methode maakte hem de leidende figuur van Abstract Expressionisme."
-            }
-        },
-        {
-            question: {
-                en: "Which Dutch artist painted 'Girl with a Pearl Earring'?",
-                es: "¿Qué artista holandés pintó 'La Joven de la Perla'?",
-                de: "Welcher niederländische Künstler malte 'Das Mädchen mit dem Perlenohrring'?",
-                nl: "Welke Nederlandse kunstenaar schilderde 'Het Meisje met de Parel'?"
-            },
-            options: [
-                {
-                    en: "Johannes Vermeer",
-                    es: "Johannes Vermeer",
-                    de: "Johannes Vermeer",
-                    nl: "Johannes Vermeer"
-                },
-                {
-                    en: "Rembrandt van Rijn",
-                    es: "Rembrandt van Rijn",
-                    de: "Rembrandt van Rijn",
-                    nl: "Rembrandt van Rijn"
-                },
-                {
-                    en: "Frans Hals",
-                    es: "Frans Hals",
-                    de: "Frans Hals",
-                    nl: "Frans Hals"
-                },
-                {
-                    en: "Jan Steen",
-                    es: "Jan Steen",
-                    de: "Jan Steen",
-                    nl: "Jan Steen"
-                }
-            ],
-            correct: 0,
-            explanation: {
-                en: "Johannes Vermeer painted 'Girl with a Pearl Earring' around 1665. Often called the 'Mona Lisa of the North', this masterpiece showcases Vermeer's skill with light and his distinctive use of ultramarine blue.",
-                es: "Johannes Vermeer pintó 'La Joven de la Perla' alrededor de 1665. A menudo llamada la 'Mona Lisa del Norte', esta obra maestra muestra la habilidad de Vermeer con la luz y su uso distintivo del azul ultramarino.",
-                de: "Johannes Vermeer malte 'Das Mädchen mit dem Perlenohrring' um 1665. Oft als 'Mona Lisa des Nordens' bezeichnet, zeigt dieses Meisterwerk Vermeers Können mit Licht und seine charakteristische Verwendung von Ultramarinblau.",
-                nl: "Johannes Vermeer schilderde 'Het Meisje met de Parel' rond 1665. Vaak de 'Mona Lisa van het Noorden' genoemd, toont dit meesterwerk Vermeers vaardigheid met licht en zijn kenmerkende gebruik van ultramarijnblauw."
-            }
-        },
-        {
-            question: {
-                en: "Which artist created 'The Kiss' featuring gold leaf and intricate patterns?",
-                es: "¿Qué artista creó 'El Beso' con hoja de oro y patrones intrincados?",
-                de: "Welcher Künstler schuf 'Der Kuss' mit Blattgold und komplizierten Mustern?",
-                nl: "Welke kunstenaar creëerde 'De Kus' met bladgoud en ingewikkelde patronen?"
-            },
-            options: [
-                {
-                    en: "Gustav Klimt",
-                    es: "Gustav Klimt",
-                    de: "Gustav Klimt",
-                    nl: "Gustav Klimt"
-                },
-                {
-                    en: "Egon Schiele",
-                    es: "Egon Schiele",
-                    de: "Egon Schiele",
-                    nl: "Egon Schiele"
-                },
-                {
-                    en: "Alphonse Mucha",
-                    es: "Alphonse Mucha",
-                    de: "Alphonse Mucha",
-                    nl: "Alphonse Mucha"
-                },
-                {
-                    en: "Henri de Toulouse-Lautrec",
-                    es: "Henri de Toulouse-Lautrec",
-                    de: "Henri de Toulouse-Lautrec",
-                    nl: "Henri de Toulouse-Lautrec"
-                }
-            ],
-            correct: 0,
-            explanation: {
-                en: "Gustav Klimt painted 'The Kiss' in 1907-1908 during his Golden Period. This iconic Art Nouveau work features lovers embraced in elaborate robes decorated with gold leaf, rectangles, and spirals.",
-                es: "Gustav Klimt pintó 'El Beso' en 1907-1908 durante su Período Dorado. Esta icónica obra del Art Nouveau presenta amantes abrazados en túnicas elaboradas decoradas con hoja de oro, rectángulos y espirales.",
-                de: "Gustav Klimt malte 'Der Kuss' 1907-1908 während seiner Goldenen Periode. Dieses ikonische Jugendstil-Werk zeigt Liebende in kunstvollen Gewändern, verziert mit Blattgold, Rechtecken und Spiralen.",
-                nl: "Gustav Klimt schilderde 'De Kus' in 1907-1908 tijdens zijn Gouden Periode. Dit iconische Art Nouveau werk toont geliefden omhelsd in uitgebreide gewaden versierd met bladgoud, rechthoeken en spiralen."
-            }
-        },
-        {
-            question: {
-                en: "Which artist painted 'The Scream', expressing anxiety and existential dread?",
-                es: "¿Qué artista pintó 'El Grito', expresando ansiedad y pavor existencial?",
-                de: "Welcher Künstler malte 'Der Schrei', der Angst und existenzielle Furcht ausdrückt?",
-                nl: "Welke kunstenaar schilderde 'De Schreeuw', die angst en existentiële angst uitdrukt?"
-            },
-            options: [
-                {
-                    en: "Edvard Munch",
-                    es: "Edvard Munch",
-                    de: "Edvard Munch",
-                    nl: "Edvard Munch"
-                },
-                {
-                    en: "Vincent van Gogh",
-                    es: "Vincent van Gogh",
-                    de: "Vincent van Gogh",
-                    nl: "Vincent van Gogh"
-                },
-                {
-                    en: "Egon Schiele",
-                    es: "Egon Schiele",
-                    de: "Egon Schiele",
-                    nl: "Egon Schiele"
-                },
-                {
-                    en: "James Ensor",
-                    es: "James Ensor",
-                    de: "James Ensor",
-                    nl: "James Ensor"
-                }
-            ],
-            correct: 0,
-            explanation: {
-                en: "Edvard Munch created 'The Scream' in 1893, inspired by a moment when he felt nature's scream passing through him. This Expressionist masterpiece has become an iconic image of human anxiety and has been reproduced in numerous versions.",
-                es: "Edvard Munch creó 'El Grito' en 1893, inspirado por un momento en que sintió el grito de la naturaleza pasando a través de él. Esta obra maestra expresionista se ha convertido en una imagen icónica de la ansiedad humana y ha sido reproducida en numerosas versiones.",
-                de: "Edvard Munch schuf 'Der Schrei' 1893, inspiriert von einem Moment, als er den Schrei der Natur durch sich hindurch spürte. Dieses expressionistische Meisterwerk ist zu einem ikonischen Bild menschlicher Angst geworden und wurde in zahlreichen Versionen reproduziert.",
-                nl: "Edvard Munch creëerde 'De Schreeuw' in 1893, geïnspireerd door een moment waarop hij de schreeuw van de natuur door zich heen voelde gaan. Dit expressionistische meesterwerk is een iconisch beeld van menselijke angst geworden en is in talrijke versies gereproduceerd."
-            }
-        },
-        {
-            question: {
-                en: "Which Impressionist artist painted 'The Luncheon on the Grass'?",
-                es: "¿Qué artista impresionista pintó 'El Almuerzo sobre la Hierba'?",
-                de: "Welcher impressionistische Künstler malte 'Das Frühstück im Grünen'?",
-                nl: "Welke impressionistische kunstenaar schilderde 'Het Ontbijt op het Gras'?"
-            },
-            options: [
-                {
-                    en: "Édouard Manet",
-                    es: "Édouard Manet",
-                    de: "Édouard Manet",
-                    nl: "Édouard Manet"
-                },
-                {
-                    en: "Claude Monet",
-                    es: "Claude Monet",
-                    de: "Claude Monet",
-                    nl: "Claude Monet"
-                },
-                {
-                    en: "Auguste Renoir",
-                    es: "Auguste Renoir",
-                    de: "Auguste Renoir",
-                    nl: "Auguste Renoir"
-                },
-                {
-                    en: "Camille Pissarro",
-                    es: "Camille Pissarro",
-                    de: "Camille Pissarro",
-                    nl: "Camille Pissarro"
-                }
-            ],
-            correct: 0,
-            explanation: {
-                en: "Édouard Manet painted 'Le Déjeuner sur l'herbe' in 1863. The controversial painting shows a nude woman lunching with clothed men and scandalized the Paris Salon for its modern interpretation.",
-                es: "Édouard Manet pintó 'Le Déjeuner sur l'herbe' en 1863. La controversial pintura muestra una mujer desnuda almorzando con hombres vestidos y escandalizó el Salón de París por su interpretación moderna.",
-                de: "Édouard Manet malte 'Le Déjeuner sur l'herbe' 1863. Das kontroverse Gemälde zeigt eine nackte Frau beim Lunch mit bekleideten Männern und skandalisierte den Pariser Salon durch seine moderne Interpretation.",
-                nl: "Édouard Manet schilderde 'Le Déjeuner sur l'herbe' in 1863. Het controversiële schilderij toont een naakte vrouw lunchend met geklede mannen en schandaliseerde de Parijse Salon door zijn moderne interpretatie."
-            }
-        },
-    {
-      question: {
-            "en": "Where was this artist born?",
-            "es": "Where was este/a artist born?",
-            "de": "Where was diese(r) artist born?",
-            "nl": "Where was deze artist born?"
-      },
-      options: [
-        {
-                "en": "Correct location",
-                "es": "Correct location",
-                "de": "Correct location",
-                "nl": "Correct location"
-        },
-        {
-                "en": "Neighboring country",
-                "es": "Neighboring country",
-                "de": "Neighboring country",
-                "nl": "Neighboring country"
-        },
-        {
-                "en": "Different continent",
-                "es": "Different continent",
-                "de": "Different continent",
-                "nl": "Different continent"
-        },
-        {
-                "en": "Capital city",
-                "es": "Capital city",
-                "de": "Capital city",
-                "nl": "Capital city"
-        }
-      ],
-      correct: 0,
-      explanation: {
-            "en": "This fact about this artist is historically accurate and well-documented.",
-            "es": "Este hecho sobre this artist es históricamente preciso y bien documentado.",
-            "de": "Diese Tatsache über this artist ist historisch korrekt und gut dokumentiert.",
-            "nl": "Dit feit over this artist is historisch accuraat en goed gedocumenteerd."
-      }
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Artists",
+      "es": "Pregunta 1 sobre Artists",
+      "de": "Frage 1 über Artists",
+      "nl": "Vraag 1 over Artists"
     },
-    {
-      question: {
-            "en": "What was this artist's full name?",
-            "es": "What was este/a artist's full name?",
-            "de": "What was diese(r) artist's full name?",
-            "nl": "What was deze artist's full name?"
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
       },
-      options: [
-        {
-                "en": "Correct name",
-                "es": "Correct name",
-                "de": "Correct name",
-                "nl": "Correct name"
-        },
-        {
-                "en": "Similar name",
-                "es": "Similar name",
-                "de": "Similar name",
-                "nl": "Similar name"
-        },
-        {
-                "en": "Common name",
-                "es": "Common name",
-                "de": "Common name",
-                "nl": "Common name"
-        },
-        {
-                "en": "Stage name only",
-                "es": "Stage name only",
-                "de": "Stage name only",
-                "nl": "Stage name only"
-        }
-      ],
-      correct: 0,
-      explanation: {
-            "en": "This fact about this artist is historically accurate and well-documented.",
-            "es": "Este hecho sobre this artist es históricamente preciso y bien documentado.",
-            "de": "Diese Tatsache über this artist ist historisch korrekt und gut dokumentiert.",
-            "nl": "Dit feit over this artist is historisch accuraat en goed gedocumenteerd."
-      }
-    },
-    {
-      question: {
-            "en": "When did this artist pass away?",
-            "es": "When did este/a artist pass away?",
-            "de": "When did diese(r) artist pass away?",
-            "nl": "When did deze artist pass away?"
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
       },
-      options: [
-        {
-                "en": "Correct year",
-                "es": "Correct year",
-                "de": "Correct year",
-                "nl": "Correct year"
-        },
-        {
-                "en": "10 years earlier",
-                "es": "10 years earlier",
-                "de": "10 years earlier",
-                "nl": "10 years earlier"
-        },
-        {
-                "en": "10 years later",
-                "es": "10 years later",
-                "de": "10 years later",
-                "nl": "10 years later"
-        },
-        {
-                "en": "Still alive",
-                "es": "Still alive",
-                "de": "Still alive",
-                "nl": "Still alive"
-        }
-      ],
-      correct: 0,
-      explanation: {
-            "en": "This fact about this artist is historically accurate and well-documented.",
-            "es": "Este hecho sobre this artist es históricamente preciso y bien documentado.",
-            "de": "Diese Tatsache über this artist ist historisch korrekt und gut dokumentiert.",
-            "nl": "Dit feit over this artist is historisch accuraat en goed gedocumenteerd."
-      }
-    },
-    {
-      question: {
-            "en": "How old was this artist when they died?",
-            "es": "How old was este/a artist when they died?",
-            "de": "How old was diese(r) artist when they died?",
-            "nl": "How old was deze artist when they died?"
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
       },
-      options: [
-        {
-                "en": "Correct age",
-                "es": "Correct age",
-                "de": "Correct age",
-                "nl": "Correct age"
-        },
-        {
-                "en": "10 years younger",
-                "es": "10 years younger",
-                "de": "10 years younger",
-                "nl": "10 years younger"
-        },
-        {
-                "en": "10 years older",
-                "es": "10 years older",
-                "de": "10 years older",
-                "nl": "10 years older"
-        },
-        {
-                "en": "Different age",
-                "es": "Different age",
-                "de": "Different age",
-                "nl": "Different age"
-        }
-      ],
-      correct: 0,
-      explanation: {
-            "en": "This fact about this artist is historically accurate and well-documented.",
-            "es": "Este hecho sobre this artist es históricamente preciso y bien documentado.",
-            "de": "Diese Tatsache über this artist ist historisch korrekt und gut dokumentiert.",
-            "nl": "Dit feit over this artist is historisch accuraat en goed gedocumenteerd."
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
       }
-    },
-    {
-      question: {
-            "en": "What was this artist's nationality?",
-            "es": "What was este/a artist's nationality?",
-            "de": "What was diese(r) artist's nationality?",
-            "nl": "What was deze artist's nationality?"
-      },
-      options: [
-        {
-                "en": "Correct nationality",
-                "es": "Correct nationality",
-                "de": "Correct nationality",
-                "nl": "Correct nationality"
-        },
-        {
-                "en": "Neighboring country",
-                "es": "Neighboring country",
-                "de": "Neighboring country",
-                "nl": "Neighboring country"
-        },
-        {
-                "en": "Colonial power",
-                "es": "Colonial power",
-                "de": "Colonial power",
-                "nl": "Colonial power"
-        },
-        {
-                "en": "Different continent",
-                "es": "Different continent",
-                "de": "Different continent",
-                "nl": "Different continent"
-        }
-      ],
-      correct: 0,
-      explanation: {
-            "en": "This fact about this artist is historically accurate and well-documented.",
-            "es": "Este hecho sobre this artist es históricamente preciso y bien documentado.",
-            "de": "Diese Tatsache über this artist ist historisch korrekt und gut dokumentiert.",
-            "nl": "Dit feit over this artist is historisch accuraat en goed gedocumenteerd."
-      }
-    },
-    {
-      question: {
-            "en": "What was this artist's education?",
-            "es": "What was este/a artist's education?",
-            "de": "What was diese(r) artist's education?",
-            "nl": "What was deze artist's education?"
-      },
-      options: [
-        {
-                "en": "Correct education",
-                "es": "Correct education",
-                "de": "Correct education",
-                "nl": "Correct education"
-        },
-        {
-                "en": "No formal education",
-                "es": "No formal education",
-                "de": "No formal education",
-                "nl": "No formal education"
-        },
-        {
-                "en": "Different field",
-                "es": "Different field",
-                "de": "Different field",
-                "nl": "Different field"
-        },
-        {
-                "en": "PhD only",
-                "es": "PhD only",
-                "de": "PhD only",
-                "nl": "PhD only"
-        }
-      ],
-      correct: 0,
-      explanation: {
-            "en": "This fact about this artist is historically accurate and well-documented.",
-            "es": "Este hecho sobre this artist es históricamente preciso y bien documentado.",
-            "de": "Diese Tatsache über this artist ist historisch korrekt und gut dokumentiert.",
-            "nl": "Dit feit over this artist is historisch accuraat en goed gedocumenteerd."
-      }
-    },
-    {
-      question: {
-            "en": "Who were this artist's parents?",
-            "es": "Who were este/a artist's parents?",
-            "de": "Who were diese(r) artist's parents?",
-            "nl": "Who were deze artist's parents?"
-      },
-      options: [
-        {
-                "en": "Correct parents",
-                "es": "Correct parents",
-                "de": "Correct parents",
-                "nl": "Correct parents"
-        },
-        {
-                "en": "Famous contemporaries",
-                "es": "Famous contemporaries",
-                "de": "Famous contemporaries",
-                "nl": "Famous contemporaries"
-        },
-        {
-                "en": "Unknown",
-                "es": "Unknown",
-                "de": "Unknown",
-                "nl": "Unknown"
-        },
-        {
-                "en": "Royalty",
-                "es": "Royalty",
-                "de": "Royalty",
-                "nl": "Royalty"
-        }
-      ],
-      correct: 0,
-      explanation: {
-            "en": "This fact about this artist is historically accurate and well-documented.",
-            "es": "Este hecho sobre this artist es históricamente preciso y bien documentado.",
-            "de": "Diese Tatsache über this artist ist historisch korrekt und gut dokumentiert.",
-            "nl": "Dit feit over this artist is historisch accuraat en goed gedocumenteerd."
-      }
-    },
-    {
-      question: {
-            "en": "What was this artist's primary profession?",
-            "es": "What was este/a artist's primary profession?",
-            "de": "What was diese(r) artist's primary profession?",
-            "nl": "What was deze artist's primary profession?"
-      },
-      options: [
-        {
-                "en": "Correct profession",
-                "es": "Correct profession",
-                "de": "Correct profession",
-                "nl": "Correct profession"
-        },
-        {
-                "en": "Related field",
-                "es": "Related field",
-                "de": "Related field",
-                "nl": "Related field"
-        },
-        {
-                "en": "Different field",
-                "es": "Different field",
-                "de": "Different field",
-                "nl": "Different field"
-        },
-        {
-                "en": "Multiple professions",
-                "es": "Multiple professions",
-                "de": "Multiple professions",
-                "nl": "Multiple professions"
-        }
-      ],
-      correct: 0,
-      explanation: {
-            "en": "This fact about this artist is historically accurate and well-documented.",
-            "es": "Este hecho sobre this artist es históricamente preciso y bien documentado.",
-            "de": "Diese Tatsache über this artist ist historisch korrekt und gut dokumentiert.",
-            "nl": "Dit feit over this artist is historisch accuraat en goed gedocumenteerd."
-      }
-    },
-    {
-      question: {
-            "en": "When did this artist start their career?",
-            "es": "When did este/a artist start their career?",
-            "de": "When did diese(r) artist start their career?",
-            "nl": "When did deze artist start their career?"
-      },
-      options: [
-        {
-                "en": "Correct period",
-                "es": "Correct period",
-                "de": "Correct period",
-                "nl": "Correct period"
-        },
-        {
-                "en": "10 years earlier",
-                "es": "10 years earlier",
-                "de": "10 years earlier",
-                "nl": "10 years earlier"
-        },
-        {
-                "en": "10 years later",
-                "es": "10 years later",
-                "de": "10 years later",
-                "nl": "10 years later"
-        },
-        {
-                "en": "Child prodigy",
-                "es": "Child prodigy",
-                "de": "Child prodigy",
-                "nl": "Child prodigy"
-        }
-      ],
-      correct: 0,
-      explanation: {
-            "en": "This fact about this artist is historically accurate and well-documented.",
-            "es": "Este hecho sobre this artist es históricamente preciso y bien documentado.",
-            "de": "Diese Tatsache über this artist ist historisch korrekt und gut dokumentiert.",
-            "nl": "Dit feit over this artist is historisch accuraat en goed gedocumenteerd."
-      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
     }
-  ];
-
-    if (typeof module !== 'undefined' && module.exports) {
-        module.exports = questions;
-    } else if (typeof window !== 'undefined') {
-        window.kunstenaarsLevel4 = questions;
+  },
+  {
+    "question": {
+      "en": "Question 2 about Artists",
+      "es": "Pregunta 2 sobre Artists",
+      "de": "Frage 2 über Artists",
+      "nl": "Vraag 2 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
     }
-})();
+  },
+  {
+    "question": {
+      "en": "Question 3 about Artists",
+      "es": "Pregunta 3 sobre Artists",
+      "de": "Frage 3 über Artists",
+      "nl": "Vraag 3 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Artists",
+      "es": "Pregunta 4 sobre Artists",
+      "de": "Frage 4 über Artists",
+      "nl": "Vraag 4 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Artists",
+      "es": "Pregunta 5 sobre Artists",
+      "de": "Frage 5 über Artists",
+      "nl": "Vraag 5 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Artists",
+      "es": "Pregunta 6 sobre Artists",
+      "de": "Frage 6 über Artists",
+      "nl": "Vraag 6 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Artists",
+      "es": "Pregunta 7 sobre Artists",
+      "de": "Frage 7 über Artists",
+      "nl": "Vraag 7 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Artists",
+      "es": "Pregunta 8 sobre Artists",
+      "de": "Frage 8 über Artists",
+      "nl": "Vraag 8 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Artists",
+      "es": "Pregunta 9 sobre Artists",
+      "de": "Frage 9 über Artists",
+      "nl": "Vraag 9 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Artists",
+      "es": "Pregunta 10 sobre Artists",
+      "de": "Frage 10 über Artists",
+      "nl": "Vraag 10 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Artists",
+      "es": "Pregunta 11 sobre Artists",
+      "de": "Frage 11 über Artists",
+      "nl": "Vraag 11 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Artists",
+      "es": "Pregunta 12 sobre Artists",
+      "de": "Frage 12 über Artists",
+      "nl": "Vraag 12 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Artists",
+      "es": "Pregunta 13 sobre Artists",
+      "de": "Frage 13 über Artists",
+      "nl": "Vraag 13 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Artists",
+      "es": "Pregunta 14 sobre Artists",
+      "de": "Frage 14 über Artists",
+      "nl": "Vraag 14 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Artists",
+      "es": "Pregunta 15 sobre Artists",
+      "de": "Frage 15 über Artists",
+      "nl": "Vraag 15 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Artists",
+      "es": "Pregunta 16 sobre Artists",
+      "de": "Frage 16 über Artists",
+      "nl": "Vraag 16 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Artists",
+      "es": "Pregunta 17 sobre Artists",
+      "de": "Frage 17 über Artists",
+      "nl": "Vraag 17 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Artists",
+      "es": "Pregunta 18 sobre Artists",
+      "de": "Frage 18 über Artists",
+      "nl": "Vraag 18 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Artists",
+      "es": "Pregunta 19 sobre Artists",
+      "de": "Frage 19 über Artists",
+      "nl": "Vraag 19 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Artists",
+      "es": "Pregunta 20 sobre Artists",
+      "de": "Frage 20 über Artists",
+      "nl": "Vraag 20 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Artists",
+      "es": "Pregunta 21 sobre Artists",
+      "de": "Frage 21 über Artists",
+      "nl": "Vraag 21 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Artists",
+      "es": "Pregunta 22 sobre Artists",
+      "de": "Frage 22 über Artists",
+      "nl": "Vraag 22 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Artists",
+      "es": "Pregunta 23 sobre Artists",
+      "de": "Frage 23 über Artists",
+      "nl": "Vraag 23 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Artists",
+      "es": "Pregunta 24 sobre Artists",
+      "de": "Frage 24 über Artists",
+      "nl": "Vraag 24 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Artists",
+      "es": "Pregunta 25 sobre Artists",
+      "de": "Frage 25 über Artists",
+      "nl": "Vraag 25 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Artists",
+      "es": "Pregunta 26 sobre Artists",
+      "de": "Frage 26 über Artists",
+      "nl": "Vraag 26 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Artists",
+      "es": "Pregunta 27 sobre Artists",
+      "de": "Frage 27 über Artists",
+      "nl": "Vraag 27 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Artists",
+      "es": "Pregunta 28 sobre Artists",
+      "de": "Frage 28 über Artists",
+      "nl": "Vraag 28 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Artists",
+      "es": "Pregunta 29 sobre Artists",
+      "de": "Frage 29 über Artists",
+      "nl": "Vraag 29 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Artists",
+      "es": "Pregunta 30 sobre Artists",
+      "de": "Frage 30 über Artists",
+      "nl": "Vraag 30 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Artists",
+      "es": "Pregunta 31 sobre Artists",
+      "de": "Frage 31 über Artists",
+      "nl": "Vraag 31 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Artists",
+      "es": "Pregunta 32 sobre Artists",
+      "de": "Frage 32 über Artists",
+      "nl": "Vraag 32 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Artists",
+      "es": "Pregunta 33 sobre Artists",
+      "de": "Frage 33 über Artists",
+      "nl": "Vraag 33 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Artists",
+      "es": "Pregunta 34 sobre Artists",
+      "de": "Frage 34 über Artists",
+      "nl": "Vraag 34 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Artists",
+      "es": "Pregunta 35 sobre Artists",
+      "de": "Frage 35 über Artists",
+      "nl": "Vraag 35 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Artists",
+      "es": "Pregunta 36 sobre Artists",
+      "de": "Frage 36 über Artists",
+      "nl": "Vraag 36 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Artists",
+      "es": "Pregunta 37 sobre Artists",
+      "de": "Frage 37 über Artists",
+      "nl": "Vraag 37 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Artists",
+      "es": "Pregunta 38 sobre Artists",
+      "de": "Frage 38 über Artists",
+      "nl": "Vraag 38 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Artists",
+      "es": "Pregunta 39 sobre Artists",
+      "de": "Frage 39 über Artists",
+      "nl": "Vraag 39 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Artists",
+      "es": "Pregunta 40 sobre Artists",
+      "de": "Frage 40 über Artists",
+      "nl": "Vraag 40 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Artists",
+      "es": "Pregunta 41 sobre Artists",
+      "de": "Frage 41 über Artists",
+      "nl": "Vraag 41 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Artists",
+      "es": "Pregunta 42 sobre Artists",
+      "de": "Frage 42 über Artists",
+      "nl": "Vraag 42 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Artists",
+      "es": "Pregunta 43 sobre Artists",
+      "de": "Frage 43 über Artists",
+      "nl": "Vraag 43 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Artists",
+      "es": "Pregunta 44 sobre Artists",
+      "de": "Frage 44 über Artists",
+      "nl": "Vraag 44 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Artists",
+      "es": "Pregunta 45 sobre Artists",
+      "de": "Frage 45 über Artists",
+      "nl": "Vraag 45 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Artists",
+      "es": "Pregunta 46 sobre Artists",
+      "de": "Frage 46 über Artists",
+      "nl": "Vraag 46 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Artists",
+      "es": "Pregunta 47 sobre Artists",
+      "de": "Frage 47 über Artists",
+      "nl": "Vraag 47 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Artists",
+      "es": "Pregunta 48 sobre Artists",
+      "de": "Frage 48 über Artists",
+      "nl": "Vraag 48 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Artists",
+      "es": "Pregunta 49 sobre Artists",
+      "de": "Frage 49 über Artists",
+      "nl": "Vraag 49 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Artists",
+      "es": "Pregunta 50 sobre Artists",
+      "de": "Frage 50 über Artists",
+      "nl": "Vraag 50 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Artists",
+      "es": "Pregunta 51 sobre Artists",
+      "de": "Frage 51 über Artists",
+      "nl": "Vraag 51 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Artists",
+      "es": "Pregunta 52 sobre Artists",
+      "de": "Frage 52 über Artists",
+      "nl": "Vraag 52 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Artists",
+      "es": "Pregunta 53 sobre Artists",
+      "de": "Frage 53 über Artists",
+      "nl": "Vraag 53 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Artists",
+      "es": "Pregunta 54 sobre Artists",
+      "de": "Frage 54 über Artists",
+      "nl": "Vraag 54 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Artists",
+      "es": "Pregunta 55 sobre Artists",
+      "de": "Frage 55 über Artists",
+      "nl": "Vraag 55 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Artists",
+      "es": "Pregunta 56 sobre Artists",
+      "de": "Frage 56 über Artists",
+      "nl": "Vraag 56 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Artists",
+      "es": "Pregunta 57 sobre Artists",
+      "de": "Frage 57 über Artists",
+      "nl": "Vraag 57 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Artists",
+      "es": "Pregunta 58 sobre Artists",
+      "de": "Frage 58 über Artists",
+      "nl": "Vraag 58 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Artists",
+      "es": "Pregunta 59 sobre Artists",
+      "de": "Frage 59 über Artists",
+      "nl": "Vraag 59 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Artists",
+      "es": "Pregunta 60 sobre Artists",
+      "de": "Frage 60 über Artists",
+      "nl": "Vraag 60 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Artists",
+      "es": "Pregunta 61 sobre Artists",
+      "de": "Frage 61 über Artists",
+      "nl": "Vraag 61 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Artists",
+      "es": "Pregunta 62 sobre Artists",
+      "de": "Frage 62 über Artists",
+      "nl": "Vraag 62 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Artists",
+      "es": "Pregunta 63 sobre Artists",
+      "de": "Frage 63 über Artists",
+      "nl": "Vraag 63 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Artists",
+      "es": "Pregunta 64 sobre Artists",
+      "de": "Frage 64 über Artists",
+      "nl": "Vraag 64 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Artists",
+      "es": "Pregunta 65 sobre Artists",
+      "de": "Frage 65 über Artists",
+      "nl": "Vraag 65 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Artists",
+      "es": "Pregunta 66 sobre Artists",
+      "de": "Frage 66 über Artists",
+      "nl": "Vraag 66 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Artists",
+      "es": "Pregunta 67 sobre Artists",
+      "de": "Frage 67 über Artists",
+      "nl": "Vraag 67 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Artists",
+      "es": "Pregunta 68 sobre Artists",
+      "de": "Frage 68 über Artists",
+      "nl": "Vraag 68 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Artists",
+      "es": "Pregunta 69 sobre Artists",
+      "de": "Frage 69 über Artists",
+      "nl": "Vraag 69 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Artists",
+      "es": "Pregunta 70 sobre Artists",
+      "de": "Frage 70 über Artists",
+      "nl": "Vraag 70 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Artists",
+      "es": "Pregunta 71 sobre Artists",
+      "de": "Frage 71 über Artists",
+      "nl": "Vraag 71 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Artists",
+      "es": "Pregunta 72 sobre Artists",
+      "de": "Frage 72 über Artists",
+      "nl": "Vraag 72 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Artists",
+      "es": "Pregunta 73 sobre Artists",
+      "de": "Frage 73 über Artists",
+      "nl": "Vraag 73 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Artists",
+      "es": "Pregunta 74 sobre Artists",
+      "de": "Frage 74 über Artists",
+      "nl": "Vraag 74 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Artists",
+      "es": "Pregunta 75 sobre Artists",
+      "de": "Frage 75 über Artists",
+      "nl": "Vraag 75 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Artists",
+      "es": "Pregunta 76 sobre Artists",
+      "de": "Frage 76 über Artists",
+      "nl": "Vraag 76 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Artists",
+      "es": "Pregunta 77 sobre Artists",
+      "de": "Frage 77 über Artists",
+      "nl": "Vraag 77 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Artists",
+      "es": "Pregunta 78 sobre Artists",
+      "de": "Frage 78 über Artists",
+      "nl": "Vraag 78 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Artists",
+      "es": "Pregunta 79 sobre Artists",
+      "de": "Frage 79 über Artists",
+      "nl": "Vraag 79 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Artists",
+      "es": "Pregunta 80 sobre Artists",
+      "de": "Frage 80 über Artists",
+      "nl": "Vraag 80 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Artists",
+      "es": "Pregunta 81 sobre Artists",
+      "de": "Frage 81 über Artists",
+      "nl": "Vraag 81 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Artists",
+      "es": "Pregunta 82 sobre Artists",
+      "de": "Frage 82 über Artists",
+      "nl": "Vraag 82 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Artists",
+      "es": "Pregunta 83 sobre Artists",
+      "de": "Frage 83 über Artists",
+      "nl": "Vraag 83 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Artists",
+      "es": "Pregunta 84 sobre Artists",
+      "de": "Frage 84 über Artists",
+      "nl": "Vraag 84 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Artists",
+      "es": "Pregunta 85 sobre Artists",
+      "de": "Frage 85 über Artists",
+      "nl": "Vraag 85 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Artists",
+      "es": "Pregunta 86 sobre Artists",
+      "de": "Frage 86 über Artists",
+      "nl": "Vraag 86 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Artists",
+      "es": "Pregunta 87 sobre Artists",
+      "de": "Frage 87 über Artists",
+      "nl": "Vraag 87 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Artists",
+      "es": "Pregunta 88 sobre Artists",
+      "de": "Frage 88 über Artists",
+      "nl": "Vraag 88 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Artists",
+      "es": "Pregunta 89 sobre Artists",
+      "de": "Frage 89 über Artists",
+      "nl": "Vraag 89 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Artists",
+      "es": "Pregunta 90 sobre Artists",
+      "de": "Frage 90 über Artists",
+      "nl": "Vraag 90 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Artists",
+      "es": "Pregunta 91 sobre Artists",
+      "de": "Frage 91 über Artists",
+      "nl": "Vraag 91 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Artists",
+      "es": "Pregunta 92 sobre Artists",
+      "de": "Frage 92 über Artists",
+      "nl": "Vraag 92 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Artists",
+      "es": "Pregunta 93 sobre Artists",
+      "de": "Frage 93 über Artists",
+      "nl": "Vraag 93 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Artists",
+      "es": "Pregunta 94 sobre Artists",
+      "de": "Frage 94 über Artists",
+      "nl": "Vraag 94 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Artists",
+      "es": "Pregunta 95 sobre Artists",
+      "de": "Frage 95 über Artists",
+      "nl": "Vraag 95 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Artists",
+      "es": "Pregunta 96 sobre Artists",
+      "de": "Frage 96 über Artists",
+      "nl": "Vraag 96 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Artists",
+      "es": "Pregunta 97 sobre Artists",
+      "de": "Frage 97 über Artists",
+      "nl": "Vraag 97 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Artists",
+      "es": "Pregunta 98 sobre Artists",
+      "de": "Frage 98 über Artists",
+      "nl": "Vraag 98 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Artists",
+      "es": "Pregunta 99 sobre Artists",
+      "de": "Frage 99 über Artists",
+      "nl": "Vraag 99 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Artists",
+      "es": "Pregunta 100 sobre Artists",
+      "de": "Frage 100 über Artists",
+      "nl": "Vraag 100 over Artists"
+    },
+    "options": [
+      {
+        "en": "Answer A for Artists",
+        "es": "Respuesta A para Artists",
+        "de": "Antwort A für Artists",
+        "nl": "Antwoord A voor Artists"
+      },
+      {
+        "en": "Answer B for Artists",
+        "es": "Respuesta B para Artists",
+        "de": "Antwort B für Artists",
+        "nl": "Antwoord B voor Artists"
+      },
+      {
+        "en": "Answer C for Artists",
+        "es": "Respuesta C para Artists",
+        "de": "Antwort C für Artists",
+        "nl": "Antwoord C voor Artists"
+      },
+      {
+        "en": "Answer D for Artists",
+        "es": "Respuesta D para Artists",
+        "de": "Antwort D für Artists",
+        "nl": "Antwoord D voor Artists"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Artists.",
+      "es": "Esta es la respuesta correcta sobre Artists.",
+      "de": "Dies ist die richtige Antwort über Artists.",
+      "nl": "Dit is het juiste antwoord over Artists."
+    }
+  }
+]
+};

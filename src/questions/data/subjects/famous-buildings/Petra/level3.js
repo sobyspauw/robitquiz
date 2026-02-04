@@ -1,1659 +1,4104 @@
-// Petra Quiz - Level 3
-(function() {
-  const level3 = {
-    name: {
-          "en": "Trading & Economy",
-          "es": "Comercio y Economía",
-          "de": "Handel & Wirtschaft",
-          "nl": "Handel & Economie"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Petra",
+      "es": "Pregunta 1 sobre Petra",
+      "de": "Frage 1 über Petra",
+      "nl": "Vraag 1 over Petra"
     },
-    questions: [
+    "options": [
       {
-        question: {
-                  "en": "What was the Nabataeans' main source of wealth?",
-                  "es": "¿Cuál era la principal fuente de riqueza de los nabateos?",
-                  "de": "Was war die Haupteinnahmequelle der Nabatäer?",
-                  "nl": "Wat was de belangrijkste bron van welvaart voor de Nabateeërs?"
-        },
-        options: [
-        {
-                  "en": "Control of trade routes",
-                  "es": "Control de rutas comerciales",
-                  "de": "Kontrolle der Handelsrouten",
-                  "nl": "Controle over handelsroutes"
-        },
-        {
-                  "en": "Agriculture",
-                  "es": "Agricultura",
-                  "de": "Landwirtschaft",
-                  "nl": "Landbouw"
-        },
-        {
-                  "en": "Fishing",
-                  "es": "Pesca",
-                  "de": "Fischerei",
-                  "nl": "Visserij"
-        },
-        {
-                  "en": "Mining",
-                  "es": "Minería",
-                  "de": "Bergbau",
-                  "nl": "Mijnbouw"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Nabataeans became wealthy by controlling key trade routes connecting Arabia, Egypt, and the Mediterranean, charging fees and taxes on goods passing through.",
-                  "es": "Los nabateos se enriquecieron controlando las rutas comerciales clave que conectaban Arabia, Egipto y el Mediterráneo, cobrando tarifas e impuestos sobre los bienes que pasaban.",
-                  "de": "Die Nabatäer wurden wohlhabend, indem sie wichtige Handelsrouten kontrollierten, die Arabien, Ägypten und das Mittelmeer verbanden, und Gebühren und Steuern auf durchpassierende Waren erhoben.",
-                  "nl": "De Nabateeërs werden welvarend door het controleren van belangrijke handelsroutes die Arabië, Egypte en de Middellandse Zee verbonden, waarbij ze tarieven en belastingen hieven over passerende goederen."
-        }
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
       },
       {
-        question: {
-                  "en": "What valuable resin was traded through Petra?",
-                  "es": "¿Qué resina valiosa se comerciaba a través de Petra?",
-                  "de": "Welches wertvolle Harz wurde durch Petra gehandelt?",
-                  "nl": "Welke waardevolle hars werd via Petra verhandeld?"
-        },
-        options: [
-        {
-                  "en": "Copal",
-                  "es": "Copal",
-                  "de": "Kopal",
-                  "nl": "Copal"
-        },
-        {
-                  "en": "Pine resin",
-                  "es": "Resina de pino",
-                  "de": "Kiefernharz",
-                  "nl": "Dennenhars"
-        },
-        {
-                  "en": "Amber",
-                  "es": "Ámbar",
-                  "de": "Bernstein",
-                  "nl": "Barnsteen"
-        },
-        {
-                  "en": "Frankincense and myrrh",
-                  "es": "Incienso y mirra",
-                  "de": "Weihrauch und Myrrhe",
-                  "nl": "Wierook en mirre"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Frankincense and myrrh, valuable resins used in religious ceremonies and perfumes, were major commodities traded through Petra from southern Arabia.",
-                  "es": "El incienso y la mirra, resinas valiosas utilizadas en ceremonias religiosas y perfumes, eran mercancías importantes comerciadas a través de Petra desde el sur de Arabia.",
-                  "de": "Weihrauch und Myrrhe, wertvolle Harze für religiöse Zeremonien und Parfums, waren wichtige Waren, die durch Petra aus Südarabien gehandelt wurden.",
-                  "nl": "Wierook en mirre, waardevolle harsen gebruikt in religieuze ceremonies en parfums, waren belangrijke handelswaren via Petra uit Zuid-Arabië."
-        }
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
       },
       {
-        question: {
-                  "en": "From which region did spices pass through Petra?",
-                  "es": "¿De qué región pasaban las especias por Petra?",
-                  "de": "Aus welcher Region kamen die Gewürze, die durch Petra passierten?",
-                  "nl": "Uit welke regio kwamen de specerijen die via Petra gingen?"
-        },
-        options: [
-        {
-                  "en": "Persia and Turkey",
-                  "es": "Persia y Turquía",
-                  "de": "Persien und Türkei",
-                  "nl": "Perzië en Turkije"
-        },
-        {
-                  "en": "India and Arabia",
-                  "es": "India y Arabia",
-                  "de": "Indien und Arabien",
-                  "nl": "India en Arabië"
-        },
-        {
-                  "en": "Africa and Spain",
-                  "es": "África y España",
-                  "de": "Afrika und Spanien",
-                  "nl": "Afrika en Spanje"
-        },
-        {
-                  "en": "China and Mongolia",
-                  "es": "China y Mongolia",
-                  "de": "China und Mongolei",
-                  "nl": "China en Mongolië"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Spices from India and Arabia passed through Petra on their way to Mediterranean markets, making the city a crucial link in the spice trade.",
-                  "es": "Las especias de India y Arabia pasaban por Petra en su camino hacia los mercados mediterráneos, haciendo de la ciudad un eslabón crucial en el comercio de especias.",
-                  "de": "Gewürze aus Indien und Arabien passierten Petra auf ihrem Weg zu den Mittelmeermärkten und machten die Stadt zu einem entscheidenden Glied im Gewürzhandel.",
-                  "nl": "Specerijen uit India en Arabië gingen via Petra op weg naar de Mediterrane markten, waardoor de stad een cruciaal knooppunt was in de specerijenhandel."
-        }
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
       },
       {
-        question: {
-                  "en": "What fee did the Nabataeans charge merchants?",
-                  "es": "¿Qué tarifa cobraban los nabateos a los comerciantes?",
-                  "de": "Welche Gebühr verlangten die Nabatäer von Händlern?",
-                  "nl": "Welke vergoeding vroegen de Nabateeërs van kooplieden?"
-        },
-        options: [
-        {
-                  "en": "Transit taxes and protection fees",
-                  "es": "Impuestos de tránsito y tarifas de protección",
-                  "de": "Durchgangsgebühren und Schutzgelder",
-                  "nl": "Doorvoerbelastingen en beschermingsgelden"
-        },
-        {
-                  "en": "Entry fee only",
-                  "es": "Solo tarifa de entrada",
-                  "de": "Nur Eintrittsgeld",
-                  "nl": "Alleen toegangsgeld"
-        },
-        {
-                  "en": "No fees",
-                  "es": "Sin tarifas",
-                  "de": "Keine Gebühren",
-                  "nl": "Geen vergoedingen"
-        },
-        {
-                  "en": "Storage fee only",
-                  "es": "Solo tarifa de almacenamiento",
-                  "de": "Nur Lagergebühr",
-                  "nl": "Alleen opslaggeld"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Nabataeans charged merchants transit taxes for passing through their territory and protection fees for safe passage through the desert routes.",
-                  "es": "Los nabateos cobraban a los comerciantes impuestos de tránsito por pasar por su territorio y tarifas de protección por el paso seguro a través de las rutas del desierto.",
-                  "de": "Die Nabatäer verlangten von Händlern Durchgangsgebühren für die Durchreise durch ihr Gebiet und Schutzgelder für sichere Passage durch die Wüstenrouten.",
-                  "nl": "De Nabateeërs vroegen kooplieden doorvoerbelastingen voor passage door hun gebied en beschermingsgelden voor veilige doortocht door de woestijnroutes."
-        }
-      },
-      {
-        question: {
-                  "en": "What textile was a major trade item through Petra?",
-                  "es": "¿Qué textil era un artículo comercial importante a través de Petra?",
-                  "de": "Welches Textil war ein wichtiger Handelsartikel durch Petra?",
-                  "nl": "Welk textiel was een belangrijk handelsartikel via Petra?"
-        },
-        options: [
-        {
-                  "en": "Linen",
-                  "es": "Lino",
-                  "de": "Leinen",
-                  "nl": "Linnen"
-        },
-        {
-                  "en": "Wool",
-                  "es": "Lana",
-                  "de": "Wolle",
-                  "nl": "Wol"
-        },
-        {
-                  "en": "Silk",
-                  "es": "Seda",
-                  "de": "Seide",
-                  "nl": "Zijde"
-        },
-        {
-                  "en": "Cotton",
-                  "es": "Algodón",
-                  "de": "Baumwolle",
-                  "nl": "Katoen"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Silk from the East was a highly valuable commodity that passed through Petra's markets on its way to wealthy Roman and Mediterranean buyers.",
-                  "es": "La seda del Este era una mercancía muy valiosa que pasaba por los mercados de Petra en su camino hacia compradores romanos y mediterráneos ricos.",
-                  "de": "Seide aus dem Osten war eine hochwertige Ware, die durch Petras Märkte auf dem Weg zu wohlhabenden römischen und mediterranen Käufern passierte.",
-                  "nl": "Zijde uit het Oosten was een zeer waardevolle handelswaar die via de markten van Petra ging op weg naar welvarende Romeinse en Mediterrane kopers."
-        }
-      },
-      {
-        question: {
-                  "en": "How did Petra's location benefit trade?",
-                  "es": "¿Cómo benefició la ubicación de Petra al comercio?",
-                  "de": "Wie profitierte Petras Lage vom Handel?",
-                  "nl": "Hoe profiteerde Petra's locatie van handel?"
-        },
-        options: [
-        {
-                  "en": "At the crossroads of trade routes",
-                  "es": "En el cruce de rutas comerciales",
-                  "de": "An der Kreuzung von Handelsrouten",
-                  "nl": "Op het kruispunt van handelsroutes"
-        },
-        {
-                  "en": "In a fertile valley",
-                  "es": "En un valle fértil",
-                  "de": "In einem fruchtbaren Tal",
-                  "nl": "In een vruchtbaar dal"
-        },
-        {
-                  "en": "Near the coast",
-                  "es": "Cerca de la costa",
-                  "de": "Nahe der Küste",
-                  "nl": "Dichtbij de kust"
-        },
-        {
-                  "en": "On a major river",
-                  "es": "En un río importante",
-                  "de": "An einem großen Fluss",
-                  "nl": "Aan een grote rivier"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Petra's strategic location at the crossroads of major trade routes between Arabia, Egypt, Syria, and Mediterranean ports made it an ideal trading hub.",
-                  "es": "La ubicación estratégica de Petra en el cruce de importantes rutas comerciales entre Arabia, Egipto, Siria y los puertos mediterráneos la convirtió en un centro comercial ideal.",
-                  "de": "Petras strategische Lage an der Kreuzung wichtiger Handelsrouten zwischen Arabien, Ägypten, Syrien und den Mittelmeerhäfen machte sie zu einem idealen Handelszentrum.",
-                  "nl": "Petra's strategische locatie op het kruispunt van belangrijke handelsroutes tussen Arabië, Egypte, Syrië en de Middellandse Zeehavens maakte het een ideaal handelscentrum."
-        }
-      },
-      {
-        question: {
-                  "en": "What services did the Nabataeans provide to caravans?",
-                  "es": "¿Qué servicios proporcionaban los nabateos a las caravanas?",
-                  "de": "Welche Dienstleistungen boten die Nabatäer den Karawanen?",
-                  "nl": "Welke diensten boden de Nabateeërs aan karavanen?"
-        },
-        options: [
-        {
-                  "en": "Only guides",
-                  "es": "Solo guías",
-                  "de": "Nur Führer",
-                  "nl": "Alleen gidsen"
-        },
-        {
-                  "en": "Water, shelter, and security",
-                  "es": "Agua, refugio y seguridad",
-                  "de": "Wasser, Unterkunft und Sicherheit",
-                  "nl": "Water, onderdak en veiligheid"
-        },
-        {
-                  "en": "Only water",
-                  "es": "Solo agua",
-                  "de": "Nur Wasser",
-                  "nl": "Alleen water"
-        },
-        {
-                  "en": "Only repairs",
-                  "es": "Solo reparaciones",
-                  "de": "Nur Reparaturen",
-                  "nl": "Alleen reparaties"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The Nabataeans provided essential services to caravans including water from their sophisticated systems, shelter in the city, and security along the dangerous desert routes.",
-                  "es": "Los nabateos proporcionaban servicios esenciales a las caravanas incluyendo agua de sus sofisticados sistemas, refugio en la ciudad y seguridad a lo largo de las peligrosas rutas del desierto.",
-                  "de": "Die Nabatäer boten Karawanen wichtige Dienstleistungen einschließlich Wasser aus ihren ausgeklügelten Systemen, Unterkunft in der Stadt und Sicherheit entlang der gefährlichen Wüstenrouten.",
-                  "nl": "De Nabateeërs boden essentiële diensten aan karavanen waaronder water uit hun geavanceerde systemen, onderdak in de stad en veiligheid langs de gevaarlijke woestijnroutes."
-        }
-      },
-      {
-        question: {
-                  "en": "What type of currency did Nabataeans use?",
-                  "es": "¿Qué tipo de moneda usaban los nabateos?",
-                  "de": "Welche Art von Währung verwendeten die Nabatäer?",
-                  "nl": "Welk type valuta gebruikten de Nabateeërs?"
-        },
-        options: [
-        {
-                  "en": "They used only barter",
-                  "es": "Solo usaban trueque",
-                  "de": "Sie nutzten nur Tauschhandel",
-                  "nl": "Ze gebruikten alleen ruilhandel"
-        },
-        {
-                  "en": "Gold bars only",
-                  "es": "Solo lingotes de oro",
-                  "de": "Nur Goldbarren",
-                  "nl": "Alleen goudstaven"
-        },
-        {
-                  "en": "Silver and bronze coins",
-                  "es": "Monedas de plata y bronce",
-                  "de": "Silber- und Bronzemünzen",
-                  "nl": "Zilveren en bronzen munten"
-        },
-        {
-                  "en": "Precious stones",
-                  "es": "Piedras preciosas",
-                  "de": "Edelsteine",
-                  "nl": "Edelstenen"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The Nabataeans minted their own silver and bronze coins, showing their economic sophistication and the importance of Petra as a commercial center.",
-                  "es": "Los nabateos acuñaban sus propias monedas de plata y bronce, mostrando su sofisticación económica y la importancia de Petra como centro comercial.",
-                  "de": "Die Nabatäer prägten ihre eigenen Silber- und Bronzemünzen, was ihre wirtschaftliche Raffinesse und die Bedeutung Petras als Handelszentrum zeigte.",
-                  "nl": "De Nabateeërs muntten hun eigen zilveren en bronzen munten, wat hun economische verfijning en het belang van Petra als handelscentrum toonde."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the primary destination for goods leaving Petra?",
-                  "es": "¿Cuál era el destino principal de los bienes que salían de Petra?",
-                  "de": "Was war das Hauptziel für Waren, die Petra verließen?",
-                  "nl": "Wat was de primaire bestemming voor goederen die Petra verlieten?"
-        },
-        options: [
-        {
-                  "en": "Asia",
-                  "es": "Asia",
-                  "de": "Asien",
-                  "nl": "Azië"
-        },
-        {
-                  "en": "Mediterranean ports and Rome",
-                  "es": "Puertos mediterráneos y Roma",
-                  "de": "Mittelmeerhäfen und Rom",
-                  "nl": "Mediterrane havens en Rome"
-        },
-        {
-                  "en": "Northern Europe",
-                  "es": "Europa del Norte",
-                  "de": "Nordeuropa",
-                  "nl": "Noord-Europa"
-        },
-        {
-                  "en": "Africa",
-                  "es": "África",
-                  "de": "Afrika",
-                  "nl": "Afrika"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Goods from Petra primarily went to Mediterranean ports and ultimately to Rome, where wealthy Romans paid premium prices for exotic goods from the East.",
-                  "es": "Los bienes de Petra iban principalmente a los puertos mediterráneos y finalmente a Roma, donde los romanos ricos pagaban precios premium por bienes exóticos del Este.",
-                  "de": "Waren aus Petra gingen hauptsächlich zu Mittelmeerhäfen und schließlich nach Rom, wo wohlhabende Römer Spitzenpreise für exotische Waren aus dem Osten zahlten.",
-                  "nl": "Goederen uit Petra gingen voornamelijk naar Mediterrane havens en uiteindelijk naar Rome, waar welvarende Romeinen premiumprijzen betaalden voor exotische goederen uit het Oosten."
-        }
-      },
-      {
-        question: {
-                  "en": "What agricultural product did Nabataeans cultivate in the desert?",
-                  "es": "¿Qué producto agrícola cultivaban los nabateos en el desierto?",
-                  "de": "Welches landwirtschaftliche Produkt kultivierten die Nabatäer in der Wüste?",
-                  "nl": "Welk landbouwproduct verbouwden de Nabateeërs in de woestijn?"
-        },
-        options: [
-        {
-                  "en": "Wheat",
-                  "es": "Trigo",
-                  "de": "Weizen",
-                  "nl": "Tarwe"
-        },
-        {
-                  "en": "Corn",
-                  "es": "Maíz",
-                  "de": "Mais",
-                  "nl": "Mais"
-        },
-        {
-                  "en": "Grapes and olives",
-                  "es": "Uvas y aceitunas",
-                  "de": "Trauben und Oliven",
-                  "nl": "Druiven en olijven"
-        },
-        {
-                  "en": "Rice",
-                  "es": "Arroz",
-                  "de": "Reis",
-                  "nl": "Rijst"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Despite the arid environment, Nabataeans successfully cultivated grapes and olives using advanced water management and terrace farming techniques.",
-                  "es": "A pesar del ambiente árido, los nabateos cultivaron con éxito uvas y aceitunas usando técnicas avanzadas de gestión del agua y agricultura en terrazas.",
-                  "de": "Trotz der trockenen Umgebung kultivierten die Nabatäer erfolgreich Trauben und Oliven mit fortschrittlichen Wassermanagement- und Terrassenanbautechniken.",
-                  "nl": "Ondanks de droge omgeving verbouwden de Nabateeërs met succes druiven en olijven met behulp van geavanceerd waterbeheer en terraslandbouwtechnieken."
-        }
-      },
-      {
-        question: {
-                  "en": "What luxury item from Egypt passed through Petra?",
-                  "es": "¿Qué artículo de lujo de Egipto pasaba por Petra?",
-                  "de": "Welcher Luxusartikel aus Ägypten passierte Petra?",
-                  "nl": "Welk luxe artikel uit Egypte ging via Petra?"
-        },
-        options: [
-        {
-                  "en": "Steel",
-                  "es": "Acero",
-                  "de": "Stahl",
-                  "nl": "Staal"
-        },
-        {
-                  "en": "Coal",
-                  "es": "Carbón",
-                  "de": "Kohle",
-                  "nl": "Steenkool"
-        },
-        {
-                  "en": "Rubber",
-                  "es": "Caucho",
-                  "de": "Gummi",
-                  "nl": "Rubber"
-        },
-        {
-                  "en": "Papyrus and glass",
-                  "es": "Papiro y vidrio",
-                  "de": "Papyrus und Glas",
-                  "nl": "Papyrus en glas"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Papyrus for writing and fine glass products from Egypt were luxury items that passed through Petra's markets on their way to other regions.",
-                  "es": "El papiro para escribir y los productos de vidrio fino de Egipto eran artículos de lujo que pasaban por los mercados de Petra en su camino a otras regiones.",
-                  "de": "Papyrus zum Schreiben und feine Glasprodukte aus Ägypten waren Luxusartikel, die durch Petras Märkte auf dem Weg zu anderen Regionen passierten.",
-                  "nl": "Papyrus voor het schrijven en fijne glasproducten uit Egypte waren luxe artikelen die via de markten van Petra gingen op weg naar andere regio's."
-        }
-      },
-      {
-        question: {
-                  "en": "How did Nabataeans protect merchant caravans?",
-                  "es": "¿Cómo protegían los nabateos las caravanas de comerciantes?",
-                  "de": "Wie schützten die Nabatäer Handelskarawanen?",
-                  "nl": "Hoe beschermden de Nabateeërs handelskaravanen?"
-        },
-        options: [
-        {
-                  "en": "Diplomatic agreements only",
-                  "es": "Solo acuerdos diplomáticos",
-                  "de": "Nur diplomatische Vereinbarungen",
-                  "nl": "Alleen diplomatieke overeenkomsten"
-        },
-        {
-                  "en": "Armed escorts and fortified rest stops",
-                  "es": "Escoltas armadas y paradas de descanso fortificadas",
-                  "de": "Bewaffnete Eskorte und befestigte Rastplätze",
-                  "nl": "Gewapende escortes en versterkte rustplaatsen"
-        },
-        {
-                  "en": "They didn't provide protection",
-                  "es": "No proporcionaban protección",
-                  "de": "Sie boten keinen Schutz",
-                  "nl": "Ze boden geen bescherming"
-        },
-        {
-                  "en": "Magic spells only",
-                  "es": "Solo hechizos mágicos",
-                  "de": "Nur Zaubersprüche",
-                  "nl": "Alleen magische spreuken"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The Nabataeans provided armed escorts for caravans and maintained fortified rest stops along routes, ensuring safe passage for merchants paying their fees.",
-                  "es": "Los nabateos proporcionaban escoltas armadas para las caravanas y mantenían paradas de descanso fortificadas a lo largo de las rutas, asegurando el paso seguro para los comerciantes que pagaban sus tarifas.",
-                  "de": "Die Nabatäer stellten bewaffnete Eskorte für Karawanen bereit und unterhielten befestigte Rastplätze entlang der Routen, um sichere Passage für Händler zu gewährleisten, die ihre Gebühren zahlten.",
-                  "nl": "De Nabateeërs boden gewapende escortes voor karavanen en onderhielden versterkte rustplaatsen langs routes, waardoor veilige doortocht werd gegarandeerd voor kooplieden die hun vergoedingen betaalden."
-        }
-      },
-      {
-        question: {
-                  "en": "What happened to Petra's economy after Roman conquest?",
-                  "es": "¿Qué pasó con la economía de Petra después de la conquista romana?",
-                  "de": "Was geschah mit Petras Wirtschaft nach der römischen Eroberung?",
-                  "nl": "Wat gebeurde er met Petra's economie na de Romeinse verovering?"
-        },
-        options: [
-        {
-                  "en": "It initially continued but gradually declined",
-                  "es": "Inicialmente continuó pero gradualmente declinó",
-                  "de": "Sie setzte sich zunächst fort, nahm aber allmählich ab",
-                  "nl": "Het ging aanvankelijk door maar nam geleidelijk af"
-        },
-        {
-                  "en": "It expanded significantly",
-                  "es": "Se expandió significativamente",
-                  "de": "Sie expandierte erheblich",
-                  "nl": "Het breidde aanzienlijk uit"
-        },
-        {
-                  "en": "It remained unchanged",
-                  "es": "Permaneció sin cambios",
-                  "de": "Sie blieb unverändert",
-                  "nl": "Het bleef onveranderd"
-        },
-        {
-                  "en": "It immediately collapsed",
-                  "es": "Colapsó inmediatamente",
-                  "de": "Sie brach sofort zusammen",
-                  "nl": "Het stortte onmiddellijk in"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "After Roman conquest in 106 AD, Petra's economy initially continued as trade remained important, but gradually declined as Romans developed alternative routes and the city lost independence.",
-                  "es": "Después de la conquista romana en 106 d.C., la economía de Petra inicialmente continuó ya que el comercio seguía siendo importante, pero gradualmente declinó a medida que los romanos desarrollaron rutas alternativas y la ciudad perdió independencia.",
-                  "de": "Nach der römischen Eroberung 106 n. Chr. setzte sich Petras Wirtschaft zunächst fort, da der Handel wichtig blieb, nahm aber allmählich ab, als die Römer alternative Routen entwickelten und die Stadt ihre Unabhängigkeit verlor.",
-                  "nl": "Na de Romeinse verovering in 106 n.Chr. ging Petra's economie aanvankelijk door aangezien handel belangrijk bleef, maar nam geleidelijk af toen Romeinen alternatieve routes ontwikkelden en de stad onafhankelijkheid verloor."
-        }
-      },
-      {
-        question: {
-                  "en": "What type of pottery did Nabataeans produce?",
-                  "es": "¿Qué tipo de cerámica producían los nabateos?",
-                  "de": "Welche Art von Keramik stellten die Nabatäer her?",
-                  "nl": "Welk type aardewerk produceerden de Nabateeërs?"
-        },
-        options: [
-        {
-                  "en": "Fine painted pottery",
-                  "es": "Cerámica pintada fina",
-                  "de": "Fein bemalte Keramik",
-                  "nl": "Fijn beschilderd aardewerk"
-        },
-        {
-                  "en": "No pottery",
-                  "es": "Sin cerámica",
-                  "de": "Keine Keramik",
-                  "nl": "Geen aardewerk"
-        },
-        {
-                  "en": "Simple clay pots only",
-                  "es": "Solo vasijas de arcilla simples",
-                  "de": "Nur einfache Tontöpfe",
-                  "nl": "Alleen eenvoudige kleipotten"
-        },
-        {
-                  "en": "Only imported pottery",
-                  "es": "Solo cerámica importada",
-                  "de": "Nur importierte Keramik",
-                  "nl": "Alleen geïmporteerd aardewerk"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Nabataeans produced distinctive fine painted pottery with floral motifs and geometric designs, which was highly valued and traded throughout the region.",
-                  "es": "Los nabateos producían cerámica pintada fina distintiva con motivos florales y diseños geométricos, que era muy valorada y comercializada en toda la región.",
-                  "de": "Die Nabatäer stellten charakteristische fein bemalte Keramik mit floralen Motiven und geometrischen Designs her, die in der gesamten Region hoch geschätzt und gehandelt wurde.",
-                  "nl": "De Nabateeërs produceerden kenmerkend fijn beschilderd aardewerk met bloemenmotieven en geometrische ontwerpen, dat zeer gewaardeerd en verhandeld werd in de hele regio."
-        }
-      },
-      {
-        question: {
-                  "en": "What role did Petra play in the incense trade?",
-                  "es": "¿Qué papel jugó Petra en el comercio del incienso?",
-                  "de": "Welche Rolle spielte Petra im Weihrauchhandel?",
-                  "nl": "Welke rol speelde Petra in de wierookhandel?"
-        },
-        options: [
-        {
-                  "en": "Production site",
-                  "es": "Sitio de producción",
-                  "de": "Produktionsstätte",
-                  "nl": "Productielocatie"
-        },
-        {
-                  "en": "Minor stopover",
-                  "es": "Parada menor",
-                  "de": "Kleinerer Zwischenstopp",
-                  "nl": "Kleine tussenstop"
-        },
-        {
-                  "en": "Major distribution center",
-                  "es": "Centro principal de distribución",
-                  "de": "Wichtiges Verteilungszentrum",
-                  "nl": "Belangrijk distributiecentrum"
-        },
-        {
-                  "en": "No role",
-                  "es": "Ningún papel",
-                  "de": "Keine Rolle",
-                  "nl": "Geen rol"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Petra served as a major distribution center for the lucrative incense trade, controlling the flow of frankincense and myrrh from southern Arabia to Mediterranean markets.",
-                  "es": "Petra sirvió como un importante centro de distribución para el lucrativo comercio del incienso, controlando el flujo de incienso y mirra desde el sur de Arabia hacia los mercados mediterráneos.",
-                  "de": "Petra diente als wichtiges Verteilungszentrum für den lukrativen Weihrauchhandel und kontrollierte den Fluss von Weihrauch und Myrrhe aus Südarabien zu den Mittelmeermärkten.",
-                  "nl": "Petra diende als een belangrijk distributiecentrum voor de winstgevende wierookhandel, waarbij de stroom van wierook en mirre uit Zuid-Arabië naar Mediterrane markten werd gecontroleerd."
-        }
-      },
-      {
-        question: {
-                  "en": "How did trade routes shift after Petra's peak?",
-                  "es": "¿Cómo cambiaron las rutas comerciales después del apogeo de Petra?",
-                  "de": "Wie verschoben sich die Handelsrouten nach Petras Höhepunkt?",
-                  "nl": "Hoe verschoven handelsroutes na Petra's hoogtepunt?"
-        },
-        options: [
-        {
-                  "en": "They remained the same",
-                  "es": "Permanecieron igual",
-                  "de": "Sie blieben gleich",
-                  "nl": "Ze bleven hetzelfde"
-        },
-        {
-                  "en": "Stopped completely",
-                  "es": "Se detuvieron completamente",
-                  "de": "Hörten komplett auf",
-                  "nl": "Stopten volledig"
-        },
-        {
-                  "en": "Moved to the north only",
-                  "es": "Se movieron solo al norte",
-                  "de": "Verlagerten sich nur nach Norden",
-                  "nl": "Verplaatsten alleen naar het noorden"
-        },
-        {
-                  "en": "Shifted to sea routes via Red Sea",
-                  "es": "Cambiaron a rutas marítimas vía Mar Rojo",
-                  "de": "Verlagerten sich auf Seerouten über das Rote Meer",
-                  "nl": "Verschoven naar zeeroutes via de Rode Zee"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Trade routes gradually shifted to Red Sea maritime routes, which were faster and cheaper than overland caravans, contributing to Petra's economic decline.",
-                  "es": "Las rutas comerciales gradualmente cambiaron a rutas marítimas del Mar Rojo, que eran más rápidas y baratas que las caravanas terrestres, contribuyendo al declive económico de Petra.",
-                  "de": "Handelsrouten verlagerten sich allmählich auf maritime Routen des Roten Meeres, die schneller und billiger waren als Landkarawanen, was zu Petras wirtschaftlichem Niedergang beitrug.",
-                  "nl": "Handelsroutes verschoven geleidelijk naar maritieme routes van de Rode Zee, die sneller en goedkoper waren dan landkaravanen, wat bijdroeg aan Petra's economische achteruitgang."
-        }
-      },
-      {
-        question: {
-                  "en": "What metals were traded through Petra?",
-                  "es": "¿Qué metales se comerciaban a través de Petra?",
-                  "de": "Welche Metalle wurden durch Petra gehandelt?",
-                  "nl": "Welke metalen werden via Petra verhandeld?"
-        },
-        options: [
-        {
-                  "en": "Copper and iron",
-                  "es": "Cobre y hierro",
-                  "de": "Kupfer und Eisen",
-                  "nl": "Koper en ijzer"
-        },
-        {
-                  "en": "Only gold",
-                  "es": "Solo oro",
-                  "de": "Nur Gold",
-                  "nl": "Alleen goud"
-        },
-        {
-                  "en": "Platinum",
-                  "es": "Platino",
-                  "de": "Platin",
-                  "nl": "Platina"
-        },
-        {
-                  "en": "Aluminum",
-                  "es": "Aluminio",
-                  "de": "Aluminium",
-                  "nl": "Aluminium"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Copper and iron from regional mines were traded through Petra, along with some precious metals, supplying markets throughout the ancient world.",
-                  "es": "El cobre y el hierro de minas regionales se comerciaban a través de Petra, junto con algunos metales preciosos, suministrando mercados en todo el mundo antiguo.",
-                  "de": "Kupfer und Eisen aus regionalen Minen wurden durch Petra gehandelt, zusammen mit einigen Edelmetallen, und versorgten Märkte in der gesamten antiken Welt.",
-                  "nl": "Koper en ijzer uit regionale mijnen werden via Petra verhandeld, samen met enkele edele metalen, en voorzagen markten in de hele oude wereld."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the Nabataean attitude toward commerce?",
-                  "es": "¿Cuál era la actitud nabatea hacia el comercio?",
-                  "de": "Was war die nabatäische Einstellung zum Handel?",
-                  "nl": "Wat was de Nabatese houding ten opzichte van handel?"
-        },
-        options: [
-        {
-                  "en": "Highly skilled and sophisticated traders",
-                  "es": "Comerciantes altamente capacitados y sofisticados",
-                  "de": "Hochqualifizierte und ausgeklügelte Händler",
-                  "nl": "Zeer bekwame en verfijnde handelaren"
-        },
-        {
-                  "en": "Relied entirely on others",
-                  "es": "Dependían completamente de otros",
-                  "de": "Verließen sich völlig auf andere",
-                  "nl": "Vertrouwden volledig op anderen"
-        },
-        {
-                  "en": "They avoided it",
-                  "es": "Lo evitaban",
-                  "de": "Sie vermieden ihn",
-                  "nl": "Ze vermeden het"
-        },
-        {
-                  "en": "Only traded locally",
-                  "es": "Solo comerciaban localmente",
-                  "de": "Handelten nur lokal",
-                  "nl": "Handelden alleen lokaal"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Nabataeans were highly skilled and sophisticated traders who mastered the art of commerce, diplomacy, and logistics in the challenging desert environment.",
-                  "es": "Los nabateos eran comerciantes altamente capacitados y sofisticados que dominaron el arte del comercio, la diplomacia y la logística en el desafiante ambiente desértico.",
-                  "de": "Die Nabatäer waren hochqualifizierte und ausgeklügelte Händler, die die Kunst des Handels, der Diplomatie und der Logistik in der herausfordernden Wüstenumgebung beherrschten.",
-                  "nl": "De Nabateeërs waren zeer bekwame en verfijnde handelaren die de kunst van handel, diplomatie en logistiek beheersten in de uitdagende woestijnomgeving."
-        }
-      },
-      {
-        question: {
-                  "en": "What beverage commodity passed through Petra?",
-                  "es": "¿Qué mercancía de bebida pasaba por Petra?",
-                  "de": "Welche Getränkeware passierte Petra?",
-                  "nl": "Welke drankwaar ging via Petra?"
-        },
-        options: [
-        {
-                  "en": "Tea",
-                  "es": "Té",
-                  "de": "Tee",
-                  "nl": "Thee"
-        },
-        {
-                  "en": "Beer only",
-                  "es": "Solo cerveza",
-                  "de": "Nur Bier",
-                  "nl": "Alleen bier"
-        },
-        {
-                  "en": "Coffee",
-                  "es": "Café",
-                  "de": "Kaffee",
-                  "nl": "Koffie"
-        },
-        {
-                  "en": "Wine",
-                  "es": "Vino",
-                  "de": "Wein",
-                  "nl": "Wijn"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Wine from various regions was traded through Petra, and the Nabataeans also produced their own wine from vineyards cultivated in the desert.",
-                  "es": "El vino de varias regiones se comerciaba a través de Petra, y los nabateos también producían su propio vino de viñedos cultivados en el desierto.",
-                  "de": "Wein aus verschiedenen Regionen wurde durch Petra gehandelt, und die Nabatäer produzierten auch ihren eigenen Wein aus in der Wüste kultivierten Weinbergen.",
-                  "nl": "Wijn uit verschillende regio's werd via Petra verhandeld, en de Nabateeërs produceerden ook hun eigen wijn uit wijngaarden die in de woestijn werden verbouwd."
-        }
-      },
-      {
-        question: {
-                  "en": "What factor eventually reduced Petra's economic importance?",
-                  "es": "¿Qué factor eventualmente redujo la importancia económica de Petra?",
-                  "de": "Welcher Faktor reduzierte schließlich Petras wirtschaftliche Bedeutung?",
-                  "nl": "Welke factor verminderde uiteindelijk Petra's economische belang?"
-        },
-        options: [
-        {
-                  "en": "Discovery of new overland trade routes",
-                  "es": "Descubrimiento de nuevas rutas comerciales terrestres",
-                  "de": "Entdeckung neuer Landhandelsrouten",
-                  "nl": "Ontdekking van nieuwe overland handelsroutes"
-        },
-        {
-                  "en": "Disease",
-                  "es": "Enfermedad",
-                  "de": "Krankheit",
-                  "nl": "Ziekte"
-        },
-        {
-                  "en": "Development of maritime trade routes",
-                  "es": "Desarrollo de rutas comerciales marítimas",
-                  "de": "Entwicklung maritimer Handelsrouten",
-                  "nl": "Ontwikkeling van maritieme handelsroutes"
-        },
-        {
-                  "en": "War only",
-                  "es": "Solo guerra",
-                  "de": "Nur Krieg",
-                  "nl": "Alleen oorlog"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The development of maritime trade routes, particularly through the Red Sea, made sea transport faster and cheaper than caravans, reducing Petra's role as a trade hub.",
-                  "es": "El desarrollo de rutas comerciales marítimas, particularmente a través del Mar Rojo, hizo que el transporte marítimo fuera más rápido y barato que las caravanas, reduciendo el papel de Petra como centro comercial.",
-                  "de": "Die Entwicklung maritimer Handelsrouten, insbesondere durch das Rote Meer, machte den Seetransport schneller und billiger als Karawanen und reduzierte Petras Rolle als Handelszentrum.",
-                  "nl": "De ontwikkeling van maritieme handelsroutes, met name door de Rode Zee, maakte zeevervoer sneller en goedkoper dan karavanen, wat Petra's rol als handelscentrum verminderde."
-        }
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
       }
-    ,
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Petra",
+      "es": "Pregunta 2 sobre Petra",
+      "de": "Frage 2 über Petra",
+      "nl": "Vraag 2 over Petra"
+    },
+    "options": [
       {
-        question: {
-                  "en": "When was Petra completed?",
-                  "es": "When was Petra completed?",
-                  "de": "When was Petra completed?",
-                  "nl": "When was Petra completed?"
-        },
-        options: [
-          {
-                    "en": "In the correct year",
-                    "es": "In the correct year",
-                    "de": "In the correct year",
-                    "nl": "In the correct year"
-          },
-          {
-                    "en": "10 years earlier",
-                    "es": "10 years earlier",
-                    "de": "10 years earlier",
-                    "nl": "10 years earlier"
-          },
-          {
-                    "en": "10 years later",
-                    "es": "10 years later",
-                    "de": "10 years later",
-                    "nl": "10 years later"
-          },
-          {
-                    "en": "20 years later",
-                    "es": "20 years later",
-                    "de": "20 years later",
-                    "nl": "20 years later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Petra was completed in its historically accurate year.",
-                  "es": "Petra was completed in its historically accurate year.",
-                  "de": "Petra was completed in its historically accurate year.",
-                  "nl": "Petra was completed in its historically accurate year."
-        }
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
       },
       {
-        question: {
-                  "en": "What is the primary material used in Petra?",
-                  "es": "What is the primary material used in Petra?",
-                  "de": "What is the primary material used in Petra?",
-                  "nl": "What is the primary material used in Petra?"
-        },
-        options: [
-          {
-                    "en": "The correct material",
-                    "es": "The correct material",
-                    "de": "The correct material",
-                    "nl": "The correct material"
-          },
-          {
-                    "en": "Wood",
-                    "es": "Wood",
-                    "de": "Wood",
-                    "nl": "Wood"
-          },
-          {
-                    "en": "Glass",
-                    "es": "Glass",
-                    "de": "Glass",
-                    "nl": "Glass"
-          },
-          {
-                    "en": "Concrete",
-                    "es": "Concrete",
-                    "de": "Concrete",
-                    "nl": "Concrete"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Petra was primarily constructed using its characteristic material.",
-                  "es": "Petra was primarily constructed using its characteristic material.",
-                  "de": "Petra was primarily constructed using its characteristic material.",
-                  "nl": "Petra was primarily constructed using its characteristic material."
-        }
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
       },
       {
-        question: {
-                  "en": "How tall is Petra?",
-                  "es": "How tall is Petra?",
-                  "de": "How tall is Petra?",
-                  "nl": "How tall is Petra?"
-        },
-        options: [
-          {
-                    "en": "The correct height",
-                    "es": "The correct height",
-                    "de": "The correct height",
-                    "nl": "The correct height"
-          },
-          {
-                    "en": "Half the height",
-                    "es": "Half the height",
-                    "de": "Half the height",
-                    "nl": "Half the height"
-          },
-          {
-                    "en": "Double the height",
-                    "es": "Double the height",
-                    "de": "Double the height",
-                    "nl": "Double the height"
-          },
-          {
-                    "en": "Triple the height",
-                    "es": "Triple the height",
-                    "de": "Triple the height",
-                    "nl": "Triple the height"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Petra stands at its iconic height.",
-                  "es": "Petra stands at its iconic height.",
-                  "de": "Petra stands at its iconic height.",
-                  "nl": "Petra stands at its iconic height."
-        }
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
       },
       {
-        question: {
-                  "en": "Who was the main architect of Petra?",
-                  "es": "Who was the main architect of Petra?",
-                  "de": "Who was the main architect of Petra?",
-                  "nl": "Who was the main architect of Petra?"
-        },
-        options: [
-          {
-                    "en": "The correct architect",
-                    "es": "The correct architect",
-                    "de": "The correct architect",
-                    "nl": "The correct architect"
-          },
-          {
-                    "en": "Frank Lloyd Wright",
-                    "es": "Frank Lloyd Wright",
-                    "de": "Frank Lloyd Wright",
-                    "nl": "Frank Lloyd Wright"
-          },
-          {
-                    "en": "Le Corbusier",
-                    "es": "Le Corbusier",
-                    "de": "Le Corbusier",
-                    "nl": "Le Corbusier"
-          },
-          {
-                    "en": "Antoni Gaudí",
-                    "es": "Antoni Gaudí",
-                    "de": "Antoni Gaudí",
-                    "nl": "Antoni Gaudí"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Petra was designed by its renowned architect.",
-                  "es": "Petra was designed by its renowned architect.",
-                  "de": "Petra was designed by its renowned architect.",
-                  "nl": "Petra was designed by its renowned architect."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the original purpose of Petra?",
-                  "es": "What was the original purpose of Petra?",
-                  "de": "What was the original purpose of Petra?",
-                  "nl": "What was the original purpose of Petra?"
-        },
-        options: [
-          {
-                    "en": "Its correct purpose",
-                    "es": "Its correct purpose",
-                    "de": "Its correct purpose",
-                    "nl": "Its correct purpose"
-          },
-          {
-                    "en": "Military defense",
-                    "es": "Military defense",
-                    "de": "Military defense",
-                    "nl": "Military defense"
-          },
-          {
-                    "en": "Religious worship",
-                    "es": "Religious worship",
-                    "de": "Religious worship",
-                    "nl": "Religious worship"
-          },
-          {
-                    "en": "Royal residence",
-                    "es": "Royal residence",
-                    "de": "Royal residence",
-                    "nl": "Royal residence"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Petra was originally built for its specific historical purpose.",
-                  "es": "Petra was originally built for its specific historical purpose.",
-                  "de": "Petra was originally built for its specific historical purpose.",
-                  "nl": "Petra was originally built for its specific historical purpose."
-        }
-      ,
-      {
-        question: {
-                  "en": "In which century was Petra built?",
-                  "es": "In which century was Petra built?",
-                  "de": "In which century was Petra built?",
-                  "nl": "In which century was Petra built?"
-        },
-        options: [
-          {
-                    "en": "Correct century",
-                    "es": "Correct century",
-                    "de": "Correct century",
-                    "nl": "Correct century"
-          },
-          {
-                    "en": "One century earlier",
-                    "es": "One century earlier",
-                    "de": "One century earlier",
-                    "nl": "One century earlier"
-          },
-          {
-                    "en": "One century later",
-                    "es": "One century later",
-                    "de": "One century later",
-                    "nl": "One century later"
-          },
-          {
-                    "en": "Two centuries later",
-                    "es": "Two centuries later",
-                    "de": "Two centuries later",
-                    "nl": "Two centuries later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Petra is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Petra es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Petra ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Petra is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "How long did it take to build Petra?",
-                  "es": "How long did it take to build Petra?",
-                  "de": "How long did it take to build Petra?",
-                  "nl": "How long did it take to build Petra?"
-        },
-        options: [
-          {
-                    "en": "Correct duration",
-                    "es": "Correct duration",
-                    "de": "Correct duration",
-                    "nl": "Correct duration"
-          },
-          {
-                    "en": "Half the time",
-                    "es": "Half the time",
-                    "de": "Half the time",
-                    "nl": "Half the time"
-          },
-          {
-                    "en": "Double the time",
-                    "es": "Double the time",
-                    "de": "Double the time",
-                    "nl": "Double the time"
-          },
-          {
-                    "en": "Triple the time",
-                    "es": "Triple the time",
-                    "de": "Triple the time",
-                    "nl": "Triple the time"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Petra is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Petra es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Petra ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Petra is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Which ruler commissioned Petra?",
-                  "es": "Which ruler commissioned Petra?",
-                  "de": "Which ruler commissioned Petra?",
-                  "nl": "Which ruler commissioned Petra?"
-        },
-        options: [
-          {
-                    "en": "Correct ruler",
-                    "es": "Correct ruler",
-                    "de": "Correct ruler",
-                    "nl": "Correct ruler"
-          },
-          {
-                    "en": "Previous ruler",
-                    "es": "Previous ruler",
-                    "de": "Previous ruler",
-                    "nl": "Previous ruler"
-          },
-          {
-                    "en": "Next ruler",
-                    "es": "Next ruler",
-                    "de": "Next ruler",
-                    "nl": "Next ruler"
-          },
-          {
-                    "en": "Famous contemporary",
-                    "es": "Famous contemporary",
-                    "de": "Famous contemporary",
-                    "nl": "Famous contemporary"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Petra is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Petra es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Petra ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Petra is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What year did construction begin on Petra?",
-                  "es": "What year did construction begin on Petra?",
-                  "de": "What year did construction begin on Petra?",
-                  "nl": "What year did construction begin on Petra?"
-        },
-        options: [
-          {
-                    "en": "Correct year",
-                    "es": "Correct year",
-                    "de": "Correct year",
-                    "nl": "Correct year"
-          },
-          {
-                    "en": "10 years earlier",
-                    "es": "10 years earlier",
-                    "de": "10 years earlier",
-                    "nl": "10 years earlier"
-          },
-          {
-                    "en": "10 years later",
-                    "es": "10 years later",
-                    "de": "10 years later",
-                    "nl": "10 years later"
-          },
-          {
-                    "en": "20 years later",
-                    "es": "20 years later",
-                    "de": "20 years later",
-                    "nl": "20 years later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Petra is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Petra es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Petra ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Petra is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What year was Petra completed?",
-                  "es": "What year was Petra completed?",
-                  "de": "What year was Petra completed?",
-                  "nl": "What year was Petra completed?"
-        },
-        options: [
-          {
-                    "en": "Correct year",
-                    "es": "Correct year",
-                    "de": "Correct year",
-                    "nl": "Correct year"
-          },
-          {
-                    "en": "5 years earlier",
-                    "es": "5 years earlier",
-                    "de": "5 years earlier",
-                    "nl": "5 years earlier"
-          },
-          {
-                    "en": "5 years later",
-                    "es": "5 years later",
-                    "de": "5 years later",
-                    "nl": "5 years later"
-          },
-          {
-                    "en": "15 years later",
-                    "es": "15 years later",
-                    "de": "15 years later",
-                    "nl": "15 years later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Petra is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Petra es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Petra ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Petra is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "During which historical period was Petra constructed?",
-                  "es": "During which historical period was Petra constructed?",
-                  "de": "During which historical period was Petra constructed?",
-                  "nl": "During which historical period was Petra constructed?"
-        },
-        options: [
-          {
-                    "en": "Correct period",
-                    "es": "Correct period",
-                    "de": "Correct period",
-                    "nl": "Correct period"
-          },
-          {
-                    "en": "Previous era",
-                    "es": "Previous era",
-                    "de": "Previous era",
-                    "nl": "Previous era"
-          },
-          {
-                    "en": "Next era",
-                    "es": "Next era",
-                    "de": "Next era",
-                    "nl": "Next era"
-          },
-          {
-                    "en": "Different civilization",
-                    "es": "Different civilization",
-                    "de": "Different civilization",
-                    "nl": "Different civilization"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Petra is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Petra es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Petra ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Petra is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What major event occurred at Petra?",
-                  "es": "What major event occurred at Petra?",
-                  "de": "What major event occurred at Petra?",
-                  "nl": "What major event occurred at Petra?"
-        },
-        options: [
-          {
-                    "en": "Correct event",
-                    "es": "Correct event",
-                    "de": "Correct event",
-                    "nl": "Correct event"
-          },
-          {
-                    "en": "Different event",
-                    "es": "Different event",
-                    "de": "Different event",
-                    "nl": "Different event"
-          },
-          {
-                    "en": "Later event",
-                    "es": "Later event",
-                    "de": "Later event",
-                    "nl": "Later event"
-          },
-          {
-                    "en": "Unrelated event",
-                    "es": "Unrelated event",
-                    "de": "Unrelated event",
-                    "nl": "Unrelated event"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Petra is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Petra es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Petra ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Petra is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Who was the original patron of Petra?",
-                  "es": "Who was the original patron of Petra?",
-                  "de": "Who was the original patron of Petra?",
-                  "nl": "Who was the original patron of Petra?"
-        },
-        options: [
-          {
-                    "en": "Correct patron",
-                    "es": "Correct patron",
-                    "de": "Correct patron",
-                    "nl": "Correct patron"
-          },
-          {
-                    "en": "Different noble",
-                    "es": "Different noble",
-                    "de": "Different noble",
-                    "nl": "Different noble"
-          },
-          {
-                    "en": "Merchant",
-                    "es": "Merchant",
-                    "de": "Merchant",
-                    "nl": "Merchant"
-          },
-          {
-                    "en": "Religious figure",
-                    "es": "Religious figure",
-                    "de": "Religious figure",
-                    "nl": "Religious figure"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Petra is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Petra es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Petra ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Petra is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What architectural style is Petra?",
-                  "es": "What architectural style is Petra?",
-                  "de": "What architectural style is Petra?",
-                  "nl": "What architectural style is Petra?"
-        },
-        options: [
-          {
-                    "en": "Correct style",
-                    "es": "Correct style",
-                    "de": "Correct style",
-                    "nl": "Correct style"
-          },
-          {
-                    "en": "Gothic",
-                    "es": "Gothic",
-                    "de": "Gothic",
-                    "nl": "Gothic"
-          },
-          {
-                    "en": "Baroque",
-                    "es": "Baroque",
-                    "de": "Baroque",
-                    "nl": "Baroque"
-          },
-          {
-                    "en": "Modern",
-                    "es": "Modern",
-                    "de": "Modern",
-                    "nl": "Modern"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Petra is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Petra es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Petra ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Petra is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Who was the chief architect of Petra?",
-                  "es": "Who was the chief architect of Petra?",
-                  "de": "Who was the chief architect of Petra?",
-                  "nl": "Who was the chief architect of Petra?"
-        },
-        options: [
-          {
-                    "en": "Correct architect",
-                    "es": "Correct architect",
-                    "de": "Correct architect",
-                    "nl": "Correct architect"
-          },
-          {
-                    "en": "Contemporary architect",
-                    "es": "Contemporary architect",
-                    "de": "Contemporary architect",
-                    "nl": "Contemporary architect"
-          },
-          {
-                    "en": "Famous architect",
-                    "es": "Famous architect",
-                    "de": "Famous architect",
-                    "nl": "Famous architect"
-          },
-          {
-                    "en": "Unknown",
-                    "es": "Unknown",
-                    "de": "Unknown",
-                    "nl": "Unknown"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Petra is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Petra es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Petra ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Petra is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the primary building material of Petra?",
-                  "es": "What is the primary building material of Petra?",
-                  "de": "What is the primary building material of Petra?",
-                  "nl": "What is the primary building material of Petra?"
-        },
-        options: [
-          {
-                    "en": "Correct material",
-                    "es": "Correct material",
-                    "de": "Correct material",
-                    "nl": "Correct material"
-          },
-          {
-                    "en": "Stone",
-                    "es": "Stone",
-                    "de": "Stone",
-                    "nl": "Stone"
-          },
-          {
-                    "en": "Wood",
-                    "es": "Wood",
-                    "de": "Wood",
-                    "nl": "Wood"
-          },
-          {
-                    "en": "Concrete",
-                    "es": "Concrete",
-                    "de": "Concrete",
-                    "nl": "Concrete"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Petra is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Petra es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Petra ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Petra is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "How tall is Petra?",
-                  "es": "How tall is Petra?",
-                  "de": "How tall is Petra?",
-                  "nl": "How tall is Petra?"
-        },
-        options: [
-          {
-                    "en": "Correct height",
-                    "es": "Correct height",
-                    "de": "Correct height",
-                    "nl": "Correct height"
-          },
-          {
-                    "en": "25% less",
-                    "es": "25% less",
-                    "de": "25% less",
-                    "nl": "25% less"
-          },
-          {
-                    "en": "25% more",
-                    "es": "25% more",
-                    "de": "25% more",
-                    "nl": "25% more"
-          },
-          {
-                    "en": "Double",
-                    "es": "Double",
-                    "de": "Double",
-                    "nl": "Double"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Petra is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Petra es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Petra ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Petra is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "How many floors does Petra have?",
-                  "es": "How many floors does Petra have?",
-                  "de": "How many floors does Petra have?",
-                  "nl": "How many floors does Petra have?"
-        },
-        options: [
-          {
-                    "en": "Correct number",
-                    "es": "Correct number",
-                    "de": "Correct number",
-                    "nl": "Correct number"
-          },
-          {
-                    "en": "Half",
-                    "es": "Half",
-                    "de": "Half",
-                    "nl": "Half"
-          },
-          {
-                    "en": "Double",
-                    "es": "Double",
-                    "de": "Double",
-                    "nl": "Double"
-          },
-          {
-                    "en": "Triple",
-                    "es": "Triple",
-                    "de": "Triple",
-                    "nl": "Triple"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Petra is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Petra es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Petra ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Petra is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the total area of Petra?",
-                  "es": "What is the total area of Petra?",
-                  "de": "What is the total area of Petra?",
-                  "nl": "What is the total area of Petra?"
-        },
-        options: [
-          {
-                    "en": "Correct area",
-                    "es": "Correct area",
-                    "de": "Correct area",
-                    "nl": "Correct area"
-          },
-          {
-                    "en": "Half the area",
-                    "es": "Half the area",
-                    "de": "Half the area",
-                    "nl": "Half the area"
-          },
-          {
-                    "en": "Double the area",
-                    "es": "Double the area",
-                    "de": "Double the area",
-                    "nl": "Double the area"
-          },
-          {
-                    "en": "Ten times larger",
-                    "es": "Ten times larger",
-                    "de": "Ten times larger",
-                    "nl": "Ten times larger"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Petra is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Petra es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Petra ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Petra is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What innovative technique was used in Petra?",
-                  "es": "What innovative technique was used in Petra?",
-                  "de": "What innovative technique was used in Petra?",
-                  "nl": "What innovative technique was used in Petra?"
-        },
-        options: [
-          {
-                    "en": "Correct technique",
-                    "es": "Correct technique",
-                    "de": "Correct technique",
-                    "nl": "Correct technique"
-          },
-          {
-                    "en": "Different method",
-                    "es": "Different method",
-                    "de": "Different method",
-                    "nl": "Different method"
-          },
-          {
-                    "en": "Modern method",
-                    "es": "Modern method",
-                    "de": "Modern method",
-                    "nl": "Modern method"
-          },
-          {
-                    "en": "Ancient method",
-                    "es": "Ancient method",
-                    "de": "Ancient method",
-                    "nl": "Ancient method"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Petra is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Petra es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Petra ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Petra is historisch accuraat en goed gedocumenteerd."
-        }
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Petra",
+      "es": "Pregunta 3 sobre Petra",
+      "de": "Frage 3 über Petra",
+      "nl": "Vraag 3 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level3;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Petra",
+      "es": "Pregunta 4 sobre Petra",
+      "de": "Frage 4 über Petra",
+      "nl": "Vraag 4 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Petra",
+      "es": "Pregunta 5 sobre Petra",
+      "de": "Frage 5 über Petra",
+      "nl": "Vraag 5 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Petra",
+      "es": "Pregunta 6 sobre Petra",
+      "de": "Frage 6 über Petra",
+      "nl": "Vraag 6 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Petra",
+      "es": "Pregunta 7 sobre Petra",
+      "de": "Frage 7 über Petra",
+      "nl": "Vraag 7 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Petra",
+      "es": "Pregunta 8 sobre Petra",
+      "de": "Frage 8 über Petra",
+      "nl": "Vraag 8 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Petra",
+      "es": "Pregunta 9 sobre Petra",
+      "de": "Frage 9 über Petra",
+      "nl": "Vraag 9 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Petra",
+      "es": "Pregunta 10 sobre Petra",
+      "de": "Frage 10 über Petra",
+      "nl": "Vraag 10 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Petra",
+      "es": "Pregunta 11 sobre Petra",
+      "de": "Frage 11 über Petra",
+      "nl": "Vraag 11 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Petra",
+      "es": "Pregunta 12 sobre Petra",
+      "de": "Frage 12 über Petra",
+      "nl": "Vraag 12 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Petra",
+      "es": "Pregunta 13 sobre Petra",
+      "de": "Frage 13 über Petra",
+      "nl": "Vraag 13 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Petra",
+      "es": "Pregunta 14 sobre Petra",
+      "de": "Frage 14 über Petra",
+      "nl": "Vraag 14 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Petra",
+      "es": "Pregunta 15 sobre Petra",
+      "de": "Frage 15 über Petra",
+      "nl": "Vraag 15 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Petra",
+      "es": "Pregunta 16 sobre Petra",
+      "de": "Frage 16 über Petra",
+      "nl": "Vraag 16 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Petra",
+      "es": "Pregunta 17 sobre Petra",
+      "de": "Frage 17 über Petra",
+      "nl": "Vraag 17 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Petra",
+      "es": "Pregunta 18 sobre Petra",
+      "de": "Frage 18 über Petra",
+      "nl": "Vraag 18 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Petra",
+      "es": "Pregunta 19 sobre Petra",
+      "de": "Frage 19 über Petra",
+      "nl": "Vraag 19 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Petra",
+      "es": "Pregunta 20 sobre Petra",
+      "de": "Frage 20 über Petra",
+      "nl": "Vraag 20 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Petra",
+      "es": "Pregunta 21 sobre Petra",
+      "de": "Frage 21 über Petra",
+      "nl": "Vraag 21 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Petra",
+      "es": "Pregunta 22 sobre Petra",
+      "de": "Frage 22 über Petra",
+      "nl": "Vraag 22 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Petra",
+      "es": "Pregunta 23 sobre Petra",
+      "de": "Frage 23 über Petra",
+      "nl": "Vraag 23 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Petra",
+      "es": "Pregunta 24 sobre Petra",
+      "de": "Frage 24 über Petra",
+      "nl": "Vraag 24 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Petra",
+      "es": "Pregunta 25 sobre Petra",
+      "de": "Frage 25 über Petra",
+      "nl": "Vraag 25 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Petra",
+      "es": "Pregunta 26 sobre Petra",
+      "de": "Frage 26 über Petra",
+      "nl": "Vraag 26 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Petra",
+      "es": "Pregunta 27 sobre Petra",
+      "de": "Frage 27 über Petra",
+      "nl": "Vraag 27 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Petra",
+      "es": "Pregunta 28 sobre Petra",
+      "de": "Frage 28 über Petra",
+      "nl": "Vraag 28 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Petra",
+      "es": "Pregunta 29 sobre Petra",
+      "de": "Frage 29 über Petra",
+      "nl": "Vraag 29 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Petra",
+      "es": "Pregunta 30 sobre Petra",
+      "de": "Frage 30 über Petra",
+      "nl": "Vraag 30 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Petra",
+      "es": "Pregunta 31 sobre Petra",
+      "de": "Frage 31 über Petra",
+      "nl": "Vraag 31 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Petra",
+      "es": "Pregunta 32 sobre Petra",
+      "de": "Frage 32 über Petra",
+      "nl": "Vraag 32 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Petra",
+      "es": "Pregunta 33 sobre Petra",
+      "de": "Frage 33 über Petra",
+      "nl": "Vraag 33 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Petra",
+      "es": "Pregunta 34 sobre Petra",
+      "de": "Frage 34 über Petra",
+      "nl": "Vraag 34 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Petra",
+      "es": "Pregunta 35 sobre Petra",
+      "de": "Frage 35 über Petra",
+      "nl": "Vraag 35 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Petra",
+      "es": "Pregunta 36 sobre Petra",
+      "de": "Frage 36 über Petra",
+      "nl": "Vraag 36 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Petra",
+      "es": "Pregunta 37 sobre Petra",
+      "de": "Frage 37 über Petra",
+      "nl": "Vraag 37 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Petra",
+      "es": "Pregunta 38 sobre Petra",
+      "de": "Frage 38 über Petra",
+      "nl": "Vraag 38 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Petra",
+      "es": "Pregunta 39 sobre Petra",
+      "de": "Frage 39 über Petra",
+      "nl": "Vraag 39 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Petra",
+      "es": "Pregunta 40 sobre Petra",
+      "de": "Frage 40 über Petra",
+      "nl": "Vraag 40 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Petra",
+      "es": "Pregunta 41 sobre Petra",
+      "de": "Frage 41 über Petra",
+      "nl": "Vraag 41 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Petra",
+      "es": "Pregunta 42 sobre Petra",
+      "de": "Frage 42 über Petra",
+      "nl": "Vraag 42 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Petra",
+      "es": "Pregunta 43 sobre Petra",
+      "de": "Frage 43 über Petra",
+      "nl": "Vraag 43 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Petra",
+      "es": "Pregunta 44 sobre Petra",
+      "de": "Frage 44 über Petra",
+      "nl": "Vraag 44 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Petra",
+      "es": "Pregunta 45 sobre Petra",
+      "de": "Frage 45 über Petra",
+      "nl": "Vraag 45 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Petra",
+      "es": "Pregunta 46 sobre Petra",
+      "de": "Frage 46 über Petra",
+      "nl": "Vraag 46 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Petra",
+      "es": "Pregunta 47 sobre Petra",
+      "de": "Frage 47 über Petra",
+      "nl": "Vraag 47 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Petra",
+      "es": "Pregunta 48 sobre Petra",
+      "de": "Frage 48 über Petra",
+      "nl": "Vraag 48 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Petra",
+      "es": "Pregunta 49 sobre Petra",
+      "de": "Frage 49 über Petra",
+      "nl": "Vraag 49 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Petra",
+      "es": "Pregunta 50 sobre Petra",
+      "de": "Frage 50 über Petra",
+      "nl": "Vraag 50 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Petra",
+      "es": "Pregunta 51 sobre Petra",
+      "de": "Frage 51 über Petra",
+      "nl": "Vraag 51 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Petra",
+      "es": "Pregunta 52 sobre Petra",
+      "de": "Frage 52 über Petra",
+      "nl": "Vraag 52 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Petra",
+      "es": "Pregunta 53 sobre Petra",
+      "de": "Frage 53 über Petra",
+      "nl": "Vraag 53 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Petra",
+      "es": "Pregunta 54 sobre Petra",
+      "de": "Frage 54 über Petra",
+      "nl": "Vraag 54 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Petra",
+      "es": "Pregunta 55 sobre Petra",
+      "de": "Frage 55 über Petra",
+      "nl": "Vraag 55 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Petra",
+      "es": "Pregunta 56 sobre Petra",
+      "de": "Frage 56 über Petra",
+      "nl": "Vraag 56 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Petra",
+      "es": "Pregunta 57 sobre Petra",
+      "de": "Frage 57 über Petra",
+      "nl": "Vraag 57 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Petra",
+      "es": "Pregunta 58 sobre Petra",
+      "de": "Frage 58 über Petra",
+      "nl": "Vraag 58 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Petra",
+      "es": "Pregunta 59 sobre Petra",
+      "de": "Frage 59 über Petra",
+      "nl": "Vraag 59 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Petra",
+      "es": "Pregunta 60 sobre Petra",
+      "de": "Frage 60 über Petra",
+      "nl": "Vraag 60 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Petra",
+      "es": "Pregunta 61 sobre Petra",
+      "de": "Frage 61 über Petra",
+      "nl": "Vraag 61 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Petra",
+      "es": "Pregunta 62 sobre Petra",
+      "de": "Frage 62 über Petra",
+      "nl": "Vraag 62 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Petra",
+      "es": "Pregunta 63 sobre Petra",
+      "de": "Frage 63 über Petra",
+      "nl": "Vraag 63 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Petra",
+      "es": "Pregunta 64 sobre Petra",
+      "de": "Frage 64 über Petra",
+      "nl": "Vraag 64 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Petra",
+      "es": "Pregunta 65 sobre Petra",
+      "de": "Frage 65 über Petra",
+      "nl": "Vraag 65 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Petra",
+      "es": "Pregunta 66 sobre Petra",
+      "de": "Frage 66 über Petra",
+      "nl": "Vraag 66 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Petra",
+      "es": "Pregunta 67 sobre Petra",
+      "de": "Frage 67 über Petra",
+      "nl": "Vraag 67 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Petra",
+      "es": "Pregunta 68 sobre Petra",
+      "de": "Frage 68 über Petra",
+      "nl": "Vraag 68 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Petra",
+      "es": "Pregunta 69 sobre Petra",
+      "de": "Frage 69 über Petra",
+      "nl": "Vraag 69 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Petra",
+      "es": "Pregunta 70 sobre Petra",
+      "de": "Frage 70 über Petra",
+      "nl": "Vraag 70 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Petra",
+      "es": "Pregunta 71 sobre Petra",
+      "de": "Frage 71 über Petra",
+      "nl": "Vraag 71 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Petra",
+      "es": "Pregunta 72 sobre Petra",
+      "de": "Frage 72 über Petra",
+      "nl": "Vraag 72 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Petra",
+      "es": "Pregunta 73 sobre Petra",
+      "de": "Frage 73 über Petra",
+      "nl": "Vraag 73 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Petra",
+      "es": "Pregunta 74 sobre Petra",
+      "de": "Frage 74 über Petra",
+      "nl": "Vraag 74 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Petra",
+      "es": "Pregunta 75 sobre Petra",
+      "de": "Frage 75 über Petra",
+      "nl": "Vraag 75 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Petra",
+      "es": "Pregunta 76 sobre Petra",
+      "de": "Frage 76 über Petra",
+      "nl": "Vraag 76 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Petra",
+      "es": "Pregunta 77 sobre Petra",
+      "de": "Frage 77 über Petra",
+      "nl": "Vraag 77 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Petra",
+      "es": "Pregunta 78 sobre Petra",
+      "de": "Frage 78 über Petra",
+      "nl": "Vraag 78 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Petra",
+      "es": "Pregunta 79 sobre Petra",
+      "de": "Frage 79 über Petra",
+      "nl": "Vraag 79 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Petra",
+      "es": "Pregunta 80 sobre Petra",
+      "de": "Frage 80 über Petra",
+      "nl": "Vraag 80 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Petra",
+      "es": "Pregunta 81 sobre Petra",
+      "de": "Frage 81 über Petra",
+      "nl": "Vraag 81 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Petra",
+      "es": "Pregunta 82 sobre Petra",
+      "de": "Frage 82 über Petra",
+      "nl": "Vraag 82 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Petra",
+      "es": "Pregunta 83 sobre Petra",
+      "de": "Frage 83 über Petra",
+      "nl": "Vraag 83 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Petra",
+      "es": "Pregunta 84 sobre Petra",
+      "de": "Frage 84 über Petra",
+      "nl": "Vraag 84 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Petra",
+      "es": "Pregunta 85 sobre Petra",
+      "de": "Frage 85 über Petra",
+      "nl": "Vraag 85 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Petra",
+      "es": "Pregunta 86 sobre Petra",
+      "de": "Frage 86 über Petra",
+      "nl": "Vraag 86 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Petra",
+      "es": "Pregunta 87 sobre Petra",
+      "de": "Frage 87 über Petra",
+      "nl": "Vraag 87 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Petra",
+      "es": "Pregunta 88 sobre Petra",
+      "de": "Frage 88 über Petra",
+      "nl": "Vraag 88 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Petra",
+      "es": "Pregunta 89 sobre Petra",
+      "de": "Frage 89 über Petra",
+      "nl": "Vraag 89 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Petra",
+      "es": "Pregunta 90 sobre Petra",
+      "de": "Frage 90 über Petra",
+      "nl": "Vraag 90 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Petra",
+      "es": "Pregunta 91 sobre Petra",
+      "de": "Frage 91 über Petra",
+      "nl": "Vraag 91 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Petra",
+      "es": "Pregunta 92 sobre Petra",
+      "de": "Frage 92 über Petra",
+      "nl": "Vraag 92 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Petra",
+      "es": "Pregunta 93 sobre Petra",
+      "de": "Frage 93 über Petra",
+      "nl": "Vraag 93 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Petra",
+      "es": "Pregunta 94 sobre Petra",
+      "de": "Frage 94 über Petra",
+      "nl": "Vraag 94 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Petra",
+      "es": "Pregunta 95 sobre Petra",
+      "de": "Frage 95 über Petra",
+      "nl": "Vraag 95 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Petra",
+      "es": "Pregunta 96 sobre Petra",
+      "de": "Frage 96 über Petra",
+      "nl": "Vraag 96 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Petra",
+      "es": "Pregunta 97 sobre Petra",
+      "de": "Frage 97 über Petra",
+      "nl": "Vraag 97 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Petra",
+      "es": "Pregunta 98 sobre Petra",
+      "de": "Frage 98 über Petra",
+      "nl": "Vraag 98 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Petra",
+      "es": "Pregunta 99 sobre Petra",
+      "de": "Frage 99 über Petra",
+      "nl": "Vraag 99 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Petra",
+      "es": "Pregunta 100 sobre Petra",
+      "de": "Frage 100 über Petra",
+      "nl": "Vraag 100 over Petra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Petra",
+        "es": "Respuesta A para Petra",
+        "de": "Antwort A für Petra",
+        "nl": "Antwoord A voor Petra"
+      },
+      {
+        "en": "Answer B for Petra",
+        "es": "Respuesta B para Petra",
+        "de": "Antwort B für Petra",
+        "nl": "Antwoord B voor Petra"
+      },
+      {
+        "en": "Answer C for Petra",
+        "es": "Respuesta C para Petra",
+        "de": "Antwort C für Petra",
+        "nl": "Antwoord C voor Petra"
+      },
+      {
+        "en": "Answer D for Petra",
+        "es": "Respuesta D para Petra",
+        "de": "Antwort D für Petra",
+        "nl": "Antwoord D voor Petra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Petra.",
+      "es": "Esta es la respuesta correcta sobre Petra.",
+      "de": "Dies ist die richtige Antwort über Petra.",
+      "nl": "Dit is het juiste antwoord over Petra."
+    }
   }
-})();
+]
+};

@@ -1,0 +1,207 @@
+[
+  {
+    "question": {
+      "en": "Which artist pioneered the 'drip painting' technique in abstract expressionism?",
+      "es": "¿Qué artista fue pionero en la técnica de 'pintura por goteo' en el expresionismo abstracto?",
+      "de": "Welcher Künstler war Pionier der 'Drip-Painting'-Technik im abstrakten Expressionismus?",
+      "nl": "Welke kunstenaar pionierde de 'drip painting' techniek in het abstract expressionisme?"
+    },
+    "options": [
+      {
+        "en": "Jackson Pollock",
+        "es": "Jackson Pollock",
+        "de": "Jackson Pollock",
+        "nl": "Jackson Pollock"
+      },
+      {
+        "en": "Willem de Kooning",
+        "es": "Willem de Kooning",
+        "de": "Willem de Kooning",
+        "nl": "Willem de Kooning"
+      },
+      {
+        "en": "Mark Rothko",
+        "es": "Mark Rothko",
+        "de": "Mark Rothko",
+        "nl": "Mark Rothko"
+      },
+      {
+        "en": "Robert Motherwell",
+        "es": "Robert Motherwell",
+        "de": "Robert Motherwell",
+        "nl": "Robert Motherwell"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Jackson Pollock pioneered the revolutionary 'drip painting' technique in the late 1940s, creating his famous action paintings by dripping and pouring paint onto canvases laid on the floor.",
+      "es": "Jackson Pollock fue pionero de la revolucionaria técnica de 'pintura por goteo' a fines de la década de 1940, creando sus famosas pinturas de acción goteando y vertiendo pintura sobre lienzos en el suelo.",
+      "de": "Jackson Pollock war Ende der 1940er Jahre Pionier der revolutionären 'Drip-Painting'-Technik und schuf seine berühmten Action Paintings durch Tropfen und Gießen von Farbe auf am Boden liegende Leinwände.",
+      "nl": "Jackson Pollock pionierde de revolutionaire 'drip painting' techniek in de late jaren 1940, waarbij hij zijn beroemde action paintings creëerde door verf te druppelen en te gieten op doeken op de vloer."
+    }
+  },
+  {
+    "question": {
+      "en": "Who painted 'The Garden of Earthly Delights' triptych?",
+      "es": "¿Quién pintó el tríptico 'El jardín de las delicias'?",
+      "de": "Wer malte das Triptychon 'Der Garten der Lüste'?",
+      "nl": "Wie schilderde het drieluik 'De tuin der lusten'?"
+    },
+    "options": [
+      {
+        "en": "Hieronymus Bosch",
+        "es": "Hieronymus Bosch",
+        "de": "Hieronymus Bosch",
+        "nl": "Hieronymus Bosch"
+      },
+      {
+        "en": "Pieter Bruegel",
+        "es": "Pieter Bruegel",
+        "de": "Pieter Bruegel",
+        "nl": "Pieter Bruegel"
+      },
+      {
+        "en": "Jan van Eyck",
+        "es": "Jan van Eyck",
+        "de": "Jan van Eyck",
+        "nl": "Jan van Eyck"
+      },
+      {
+        "en": "Rogier van der Weyden",
+        "es": "Rogier van der Weyden",
+        "de": "Rogier van der Weyden",
+        "nl": "Rogier van der Weyden"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Hieronymus Bosch painted 'The Garden of Earthly Delights' around 1490-1510. This enigmatic triptych is filled with fantastical imagery and is housed in the Prado Museum.",
+      "es": "Hieronymus Bosch pintó 'El jardín de las delicias' alrededor de 1490-1510. Este enigmático tríptico está lleno de imágenes fantásticas y se encuentra en el Museo del Prado.",
+      "de": "Hieronymus Bosch malte 'Der Garten der Lüste' um 1490-1510. Dieses rätselhafte Triptychon ist voller fantastischer Bilder und befindet sich im Prado-Museum.",
+      "nl": "Hieronymus Bosch schilderde 'De tuin der lusten' rond 1490-1510. Dit raadselachtige drieluik is gevuld met fantastische beelden en bevindt zich in het Prado Museum."
+    }
+  },
+  {
+    "question": {
+      "en": "Which artist created the bronze sculpture 'The Thinker'?",
+      "es": "¿Qué artista creó la escultura de bronce 'El Pensador'?",
+      "de": "Welcher Künstler schuf die Bronzeskulptur 'Der Denker'?",
+      "nl": "Welke kunstenaar creëerde het bronzen beeld 'De Denker'?"
+    },
+    "options": [
+      {
+        "en": "Auguste Rodin",
+        "es": "Auguste Rodin",
+        "de": "Auguste Rodin",
+        "nl": "Auguste Rodin"
+      },
+      {
+        "en": "Alberto Giacometti",
+        "es": "Alberto Giacometti",
+        "de": "Alberto Giacometti",
+        "nl": "Alberto Giacometti"
+      },
+      {
+        "en": "Constantin Brâncuși",
+        "es": "Constantin Brâncuși",
+        "de": "Constantin Brâncuși",
+        "nl": "Constantin Brâncuși"
+      },
+      {
+        "en": "Henry Moore",
+        "es": "Henry Moore",
+        "de": "Henry Moore",
+        "nl": "Henry Moore"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Auguste Rodin created 'The Thinker' in 1902. Originally part of 'The Gates of Hell', it became an independent work and one of the most recognizable sculptures worldwide.",
+      "es": "Auguste Rodin creó 'El Pensador' en 1902. Originalmente parte de 'Las Puertas del Infierno', se convirtió en una obra independiente y una de las esculturas más reconocibles del mundo.",
+      "de": "Auguste Rodin schuf 'Der Denker' 1902. Ursprünglich Teil der 'Höllenpforte', wurde es zu einem eigenständigen Werk und einer der bekanntesten Skulpturen weltweit.",
+      "nl": "Auguste Rodin creëerde 'De Denker' in 1902. Oorspronkelijk onderdeel van 'De Poorten van de Hel', werd het een zelfstandig werk en een van de meest herkenbare sculpturen wereldwijd."
+    }
+  },
+  {
+    "question": {
+      "en": "Who painted 'The Arnolfini Portrait' with its famous mirror reflection?",
+      "es": "¿Quién pintó 'El retrato Arnolfini' con su famoso reflejo en el espejo?",
+      "de": "Wer malte 'Das Arnolfini-Porträt' mit seiner berühmten Spiegelreflexion?",
+      "nl": "Wie schilderde 'Het Arnolfini-portret' met zijn beroemde spiegelreflectie?"
+    },
+    "options": [
+      {
+        "en": "Jan van Eyck",
+        "es": "Jan van Eyck",
+        "de": "Jan van Eyck",
+        "nl": "Jan van Eyck"
+      },
+      {
+        "en": "Rogier van der Weyden",
+        "es": "Rogier van der Weyden",
+        "de": "Rogier van der Weyden",
+        "nl": "Rogier van der Weyden"
+      },
+      {
+        "en": "Robert Campin",
+        "es": "Robert Campin",
+        "de": "Robert Campin",
+        "nl": "Robert Campin"
+      },
+      {
+        "en": "Hans Memling",
+        "es": "Hans Memling",
+        "de": "Hans Memling",
+        "nl": "Hans Memling"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Jan van Eyck painted 'The Arnolfini Portrait' in 1434. The painting is famous for its complex iconography and the artist's signature visible in the convex mirror.",
+      "es": "Jan van Eyck pintó 'El retrato Arnolfini' en 1434. La pintura es famosa por su compleja iconografía y la firma del artista visible en el espejo convexo.",
+      "de": "Jan van Eyck malte 'Das Arnolfini-Porträt' 1434. Das Gemälde ist berühmt für seine komplexe Ikonographie und die im konvexen Spiegel sichtbare Signatur des Künstlers.",
+      "nl": "Jan van Eyck schilderde 'Het Arnolfini-portret' in 1434. Het schilderij is beroemd om zijn complexe iconografie en de handtekening van de kunstenaar zichtbaar in de bolle spiegel."
+    }
+  },
+  {
+    "question": {
+      "en": "Which artist painted 'Guernica' in response to the Spanish Civil War bombing?",
+      "es": "¿Qué artista pintó 'Guernica' en respuesta al bombardeo de la Guerra Civil Española?",
+      "de": "Welcher Künstler malte 'Guernica' als Reaktion auf die Bombardierung im Spanischen Bürgerkrieg?",
+      "nl": "Welke kunstenaar schilderde 'Guernica' als reactie op het bombardement in de Spaanse Burgeroorlog?"
+    },
+    "options": [
+      {
+        "en": "Pablo Picasso",
+        "es": "Pablo Picasso",
+        "de": "Pablo Picasso",
+        "nl": "Pablo Picasso"
+      },
+      {
+        "en": "Salvador Dalí",
+        "es": "Salvador Dalí",
+        "de": "Salvador Dalí",
+        "nl": "Salvador Dalí"
+      },
+      {
+        "en": "Joan Miró",
+        "es": "Joan Miró",
+        "de": "Joan Miró",
+        "nl": "Joan Miró"
+      },
+      {
+        "en": "Juan Gris",
+        "es": "Juan Gris",
+        "de": "Juan Gris",
+        "nl": "Juan Gris"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Pablo Picasso painted 'Guernica' in 1937 as a response to the bombing of Guernica during the Spanish Civil War. This powerful anti-war painting has become an iconic peace symbol.",
+      "es": "Pablo Picasso pintó 'Guernica' en 1937 como respuesta al bombardeo de Guernica durante la Guerra Civil Española. Esta poderosa pintura antibélica se ha convertido en un símbolo icónico de paz.",
+      "de": "Pablo Picasso malte 'Guernica' 1937 als Reaktion auf die Bombardierung von Guernica während des Spanischen Bürgerkriegs. Dieses kraftvolle Anti-Kriegs-Gemälde wurde zu einem ikonischen Friedenssymbol.",
+      "nl": "Pablo Picasso schilderde 'Guernica' in 1937 als reactie op het bombardement van Guernica tijdens de Spaanse Burgeroorlog. Dit krachtige anti-oorlogsschilderij is een iconisch vredessymbool geworden."
+    }
+  }
+]

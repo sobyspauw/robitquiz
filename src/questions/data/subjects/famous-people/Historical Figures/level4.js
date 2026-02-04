@@ -1,1040 +1,4104 @@
-// Historical Figures Quiz - Level 4: Intermediate Historical Knowledge
-(function() {
-  const level4 = {
-    name: {
-      en: "Historical Figures Level 4",
-      es: "Figuras Históricas Nivel 4",
-      de: "Historische Figuren Stufe 4",
-      nl: "Historische Figuren Level 4"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Historical Figures",
+      "es": "Pregunta 1 sobre Historical Figures",
+      "de": "Frage 1 über Historical Figures",
+      "nl": "Vraag 1 over Historical Figures"
     },
-    questions: [
+    "options": [
       {
-        question: {
-          en: "Which Carthaginian general crossed the Alps with elephants to attack Rome?",
-          es: "¿Qué general cartaginés cruzó los Alpes con elefantes para atacar Roma?",
-          de: "Welcher karthagische General überquerte die Alpen mit Elefanten, um Rom anzugreifen?",
-          nl: "Welke Carthaagse generaal stak de Alpen over met olifanten om Rome aan te vallen?"
-        },
-        options: [
-          { en: "Hannibal Barca", es: "Aníbal Barca", de: "Hannibal Barkas", nl: "Hannibal Barca" },
-          { en: "Hamilcar Barca", es: "Amílcar Barca", de: "Hamilkar Barkas", nl: "Hamilcar Barca" },
-          { en: "Hasdrubal", es: "Asdrúbal", de: "Hasdrubal", nl: "Hasdrubal" },
-          { en: "Scipio Africanus", es: "Escipión el Africano", de: "Scipio Africanus", nl: "Scipio Africanus" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Hannibal led the Second Punic War against Rome (218-201 BCE), famously crossing the Alps with war elephants in 218 BCE, though he ultimately failed to capture Rome.",
-          es: "Aníbal lideró la Segunda Guerra Púnica contra Roma (218-201 a.C.), famosamente cruzando los Alpes con elefantes de guerra en 218 a.C., aunque finalmente falló en capturar Roma.",
-          de: "Hannibal führte den Zweiten Punischen Krieg gegen Rom (218-201 v.Chr.) an und überquerte berühmt 218 v.Chr. die Alpen mit Kriegselefanten, obwohl er letztendlich bei der Eroberung Roms scheiterte.",
-          nl: "Hannibal leidde de Tweede Punische Oorlog tegen Rome (218-201 v.Chr.), beroemd voor het oversteken van de Alpen met oorlogsolifanten in 218 v.Chr., hoewel hij uiteindelijk faalde Rome te veroveren."
-        }
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
       },
       {
-        question: {
-          en: "Who was the first President of the United States?",
-          es: "¿Quién fue el primer Presidente de los Estados Unidos?",
-          de: "Wer war der erste Präsident der Vereinigten Staaten?",
-          nl: "Wie was de eerste President van de Verenigde Staten?"
-        },
-        options: [
-          { en: "George Washington", es: "George Washington", de: "George Washington", nl: "George Washington" },
-          { en: "Thomas Jefferson", es: "Thomas Jefferson", de: "Thomas Jefferson", nl: "Thomas Jefferson" },
-          { en: "John Adams", es: "John Adams", de: "John Adams", nl: "John Adams" },
-          { en: "Benjamin Franklin", es: "Benjamin Franklin", de: "Benjamin Franklin", nl: "Benjamin Franklin" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "George Washington (1732-1799) served as the first President of the United States from 1789 to 1797. A Revolutionary War general, he presided over the Constitutional Convention and established many presidential precedents, including the two-term tradition.",
-          es: "George Washington (1732-1799) fue el primer Presidente de los Estados Unidos de 1789 a 1797. General de la Guerra de Independencia, presidió la Convención Constitucional y estableció muchos precedentes presidenciales, incluyendo la tradición de dos mandatos.",
-          de: "George Washington (1732-1799) war von 1789 bis 1797 der erste Präsident der Vereinigten Staaten. Als General im Unabhängigkeitskrieg leitete er die Verfassungsversammlung und etablierte viele präsidiale Präzedenzfälle, einschließlich der Zwei-Amtszeiten-Tradition.",
-          nl: "George Washington (1732-1799) was van 1789 tot 1797 de eerste President van de Verenigde Staten. Als generaal in de Onafhankelijkheidsoorlog leidde hij de Grondwetsconventie en vestigde veel presidentiële precedenten, waaronder de twee-termijn traditie."
-        }
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
       },
       {
-        question: {
-          en: "Who was the Byzantine emperor who reconquered much of the former Western Roman Empire?",
-          es: "¿Quién fue el emperador bizantino que reconquistó gran parte del antiguo Imperio Romano Occidental?",
-          de: "Wer war der byzantinische Kaiser, der große Teile des ehemaligen Weströmischen Reiches zurückeroberte?",
-          nl: "Wie was de Byzantijnse keizer die grote delen van het voormalige West-Romeinse Rijk herveroverde?"
-        },
-        options: [
-          { en: "Justinian I", es: "Justiniano I", de: "Justinian I.", nl: "Justinianus I" },
-          { en: "Constantine I", es: "Constantino I", de: "Konstantin I.", nl: "Constantijn I" },
-          { en: "Theodosius I", es: "Teodosio I", de: "Theodosius I.", nl: "Theodosius I" },
-          { en: "Basil II", es: "Basilio II", de: "Basilius II.", nl: "Basilius II" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Justinian I (527-565 CE) attempted to restore the Roman Empire to its former glory, reconquering North Africa, Italy, and parts of Spain. He also codified Roman law in the Corpus Juris Civilis.",
-          es: "Justiniano I (527-565 d.C.) intentó restaurar el Imperio Romano a su antigua gloria, reconquistando el Norte de África, Italia y partes de España. También codificó la ley romana en el Corpus Juris Civilis.",
-          de: "Justinian I. (527-565 n.Chr.) versuchte, das Römische Reich zu seinem früheren Ruhm zu restaurieren, eroberte Nordafrika, Italien und Teile Spaniens zurück. Er kodifizierte auch das römische Recht im Corpus Juris Civilis.",
-          nl: "Justinianus I (527-565 n.Chr.) probeerde het Romeinse Rijk te herstellen tot zijn vroegere glorie, herveroverde Noord-Afrika, Italië en delen van Spanje. Hij codificeerde ook het Romeinse recht in het Corpus Juris Civilis."
-        }
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
       },
       {
-        question: {
-          en: "Which Enlightenment philosopher wrote 'The Social Contract'?",
-          es: "¿Qué filósofo de la Ilustración escribió 'El Contrato Social'?",
-          de: "Welcher Aufklärungsphilosoph schrieb 'Der Gesellschaftsvertrag'?",
-          nl: "Welke Verlichting filosoof schreef 'Het Maatschappelijk Verdrag'?"
-        },
-        options: [
-          { en: "Jean-Jacques Rousseau", es: "Jean-Jacques Rousseau", de: "Jean-Jacques Rousseau", nl: "Jean-Jacques Rousseau" },
-          { en: "Voltaire", es: "Voltaire", de: "Voltaire", nl: "Voltaire" },
-          { en: "Denis Diderot", es: "Denis Diderot", de: "Denis Diderot", nl: "Denis Diderot" },
-          { en: "Montesquieu", es: "Montesquieu", de: "Montesquieu", nl: "Montesquieu" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Jean-Jacques Rousseau published 'The Social Contract' in 1762, arguing that legitimate government comes from the consent of the governed and influenced democratic revolutions worldwide.",
-          es: "Jean-Jacques Rousseau publicó 'El Contrato Social' en 1762, argumentando que el gobierno legítimo viene del consentimiento de los gobernados e influyó en las revoluciones democráticas mundiales.",
-          de: "Jean-Jacques Rousseau veröffentlichte 1762 'Der Gesellschaftsvertrag' und argumentierte, dass legitime Regierung aus der Zustimmung der Regierten entsteht, und beeinflusste demokratische Revolutionen weltweit.",
-          nl: "Jean-Jacques Rousseau publiceerde 'Het Maatschappelijk Verdrag' in 1762, argumenterend dat legitieme regering voortkomt uit de toestemming van de geregeerden en beïnvloedde democratische revoluties wereldwijd."
-        }
-      },
-      {
-        question: {
-          en: "Who was the Inca emperor captured and executed by Francisco Pizarro?",
-          es: "¿Quién fue el emperador inca capturado y ejecutado por Francisco Pizarro?",
-          de: "Wer war der Inka-Kaiser, der von Francisco Pizarro gefangen genommen und hingerichtet wurde?",
-          nl: "Wie was de Inca-keizer die werd gevangen genomen en geëxecuteerd door Francisco Pizarro?"
-        },
-        options: [
-          { en: "Atahualpa", es: "Atahualpa", de: "Atahualpa", nl: "Atahualpa" },
-          { en: "Huáscar", es: "Huáscar", de: "Huáscar", nl: "Huáscar" },
-          { en: "Manco Inca", es: "Manco Inca", de: "Manco Inca", nl: "Manco Inca" },
-          { en: "Tupac Amaru", es: "Túpac Amaru", de: "Tupac Amaru", nl: "Tupac Amaru" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Atahualpa was the last effective Inca emperor, captured by Pizarro in 1532 at Cajamarca. Despite paying a massive ransom in gold and silver, he was executed in 1533, ending Inca resistance.",
-          es: "Atahualpa fue el último emperador inca efectivo, capturado por Pizarro en 1532 en Cajamarca. A pesar de pagar un rescate masivo en oro y plata, fue ejecutado en 1533, terminando la resistencia inca.",
-          de: "Atahualpa war der letzte effektive Inka-Kaiser, 1532 von Pizarro in Cajamarca gefangen genommen. Trotz der Zahlung eines enormen Lösegelds in Gold und Silber wurde er 1533 hingerichtet, was den Inka-Widerstand beendete.",
-          nl: "Atahualpa was de laatste effectieve Inca-keizer, gevangen genomen door Pizarro in 1532 in Cajamarca. Ondanks het betalen van een enorm losgeld in goud en zilver, werd hij in 1533 geëxecuteerd, wat de Inca-weerstand beëindigde."
-        }
-      },
-      {
-        question: {
-          en: "Which German monk sparked the Protestant Reformation with his 95 Theses?",
-          es: "¿Qué monje alemán inició la Reforma Protestante con sus 95 Tesis?",
-          de: "Welcher deutsche Mönch löste mit seinen 95 Thesen die protestantische Reformation aus?",
-          nl: "Welke Duitse monnik zette de Protestantse Reformatie op gang met zijn 95 stellingen?"
-        },
-        options: [
-          { en: "Martin Luther", es: "Martín Lutero", de: "Martin Luther", nl: "Maarten Luther" },
-          { en: "John Calvin", es: "Juan Calvino", de: "Johannes Calvin", nl: "Johannes Calvijn" },
-          { en: "Huldrych Zwingli", es: "Huldrych Zwingli", de: "Huldrych Zwingli", nl: "Huldrych Zwingli" },
-          { en: "Thomas Münzer", es: "Thomas Münzer", de: "Thomas Münzer", nl: "Thomas Münzer" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Martin Luther posted his 95 Theses on October 31, 1517, challenging the Catholic Church's sale of indulgences and sparking the Protestant Reformation that split Christianity.",
-          es: "Martín Lutero clavó sus 95 Tesis el 31 de octubre de 1517, desafiando la venta de indulgencias de la Iglesia Católica e iniciando la Reforma Protestante que dividió el cristianismo.",
-          de: "Martin Luther schlug seine 95 Thesen am 31. Oktober 1517 an, stellte den Ablasshandel der katholischen Kirche in Frage und löste die protestantische Reformation aus, die das Christentum spaltete.",
-          nl: "Maarten Luther sloeg zijn 95 stellingen op 31 oktober 1517 aan, daagde de verkoop van aflaten door de Katholieke Kerk uit en zette de Protestantse Reformatie op gang die het christendom verdeelde."
-        }
-      },
-      {
-        question: {
-          en: "Who was the Macedonian king who conquered the Persian Empire?",
-          es: "¿Quién fue el rey macedonio que conquistó el Imperio Persa?",
-          de: "Wer war der makedonische König, der das Persische Reich eroberte?",
-          nl: "Wie was de Macedonische koning die het Perzische Rijk veroverde?"
-        },
-        options: [
-          { en: "Alexander the Great", es: "Alejandro Magno", de: "Alexander der Große", nl: "Alexander de Grote" },
-          { en: "Philip II of Macedon", es: "Filipo II de Macedonia", de: "Philipp II. von Makedonien", nl: "Philippus II van Macedonië" },
-          { en: "Darius III", es: "Darío III", de: "Dareios III.", nl: "Darius III" },
-          { en: "Antigonus", es: "Antígono", de: "Antigonos", nl: "Antigonus" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Alexander the Great (356-323 BCE) conquered the vast Persian Empire between 334-331 BCE, creating one of history's largest empires stretching from Greece to India in just 13 years.",
-          es: "Alejandro Magno (356-323 a.C.) conquistó el vasto Imperio Persa entre 334-331 a.C., creando uno de los imperios más grandes de la historia que se extendía desde Grecia hasta India en solo 13 años.",
-          de: "Alexander der Große (356-323 v.Chr.) eroberte das riesige Persische Reich zwischen 334-331 v.Chr. und schuf eines der größten Reiche der Geschichte, das sich von Griechenland bis Indien erstreckte, in nur 13 Jahren.",
-          nl: "Alexander de Grote (356-323 v.Chr.) veroverde het uitgestrekte Perzische Rijk tussen 334-331 v.Chr., creëerde een van de grootste rijken in de geschiedenis die zich uitstrekte van Griekenland tot India in slechts 13 jaar."
-        }
-      },
-      {
-        question: {
-          en: "Which Italian astronomer was tried by the Inquisition for supporting heliocentrism?",
-          es: "¿Qué astrónomo italiano fue juzgado por la Inquisición por apoyar el heliocentrismo?",
-          de: "Welcher italienische Astronom wurde von der Inquisition wegen seiner Unterstützung des Heliozentrismus vor Gericht gestellt?",
-          nl: "Welke Italiaanse astronoom werd berecht door de Inquisitie voor het steunen van het heliocentrisme?"
-        },
-        options: [
-          { en: "Galileo Galilei", es: "Galileo Galilei", de: "Galileo Galilei", nl: "Galileo Galilei" },
-          { en: "Nicolaus Copernicus", es: "Nicolás Copérnico", de: "Nikolaus Kopernikus", nl: "Nicolaas Copernicus" },
-          { en: "Johannes Kepler", es: "Johannes Kepler", de: "Johannes Kepler", nl: "Johannes Kepler" },
-          { en: "Tycho Brahe", es: "Tycho Brahe", de: "Tycho Brahe", nl: "Tycho Brahe" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Galileo Galilei was tried by the Roman Inquisition in 1633 for supporting Copernican heliocentrism, forced to recant, and spent his final years under house arrest.",
-          es: "Galileo Galilei fue juzgado por la Inquisición Romana en 1633 por apoyar el heliocentrismo copernicano, forzado a retractarse, y pasó sus últimos años bajo arresto domiciliario.",
-          de: "Galileo Galilei wurde 1633 von der römischen Inquisition wegen seiner Unterstützung des kopernikanischen Heliozentrismus vor Gericht gestellt, zum Widerruf gezwungen und verbrachte seine letzten Jahre unter Hausarrest.",
-          nl: "Galileo Galilei werd in 1633 berecht door de Romeinse Inquisitie voor het steunen van het Copernicaanse heliocentrisme, gedwongen te herroepen, en bracht zijn laatste jaren door onder huisarrest."
-        }
-      },
-      {
-        question: {
-          en: "Who was the Spartan king who led 300 warriors at the Battle of Thermopylae?",
-          es: "¿Quién fue el rey espartano que lideró 300 guerreros en la Batalla de las Termópilas?",
-          de: "Wer war der spartanische König, der 300 Krieger in der Schlacht bei den Thermopylen anführte?",
-          nl: "Wie was de Spartaanse koning die 300 krijgers leidde in de Slag bij Thermopylae?"
-        },
-        options: [
-          { en: "Leonidas I", es: "Leónidas I", de: "Leonidas I.", nl: "Leonidas I" },
-          { en: "Cleomenes I", es: "Cleómenes I", de: "Kleomenes I.", nl: "Cleomenes I" },
-          { en: "Agesilaus II", es: "Agesilao II", de: "Agesilaos II.", nl: "Agesilaus II" },
-          { en: "Pausanias", es: "Pausanias", de: "Pausanias", nl: "Pausanias" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "King Leonidas I led the famous last stand of 300 Spartans against the massive Persian army of Xerxes at Thermopylae in 480 BCE, becoming a symbol of heroic resistance.",
-          es: "El rey Leónidas I lideró la famosa última resistencia de 300 espartanos contra el masivo ejército persa de Jerjes en las Termópilas en 480 a.C., convirtiéndose en símbolo de resistencia heroica.",
-          de: "König Leonidas I. führte den berühmten letzten Widerstand von 300 Spartanern gegen das riesige persische Heer von Xerxes bei den Thermopylen 480 v.Chr. an und wurde zu einem Symbol heroischen Widerstands.",
-          nl: "Koning Leonidas I leidde het beroemde laatste verzet van 300 Spartanen tegen het massale Perzische leger van Xerxes bij Thermopylae in 480 v.Chr., werd een symbool van heroïsch verzet."
-        }
-      },
-      {
-        question: {
-          en: "Which English king was executed during the English Civil War?",
-          es: "¿Qué rey inglés fue ejecutado durante la Guerra Civil Inglesa?",
-          de: "Welcher englische König wurde während des Englischen Bürgerkriegs hingerichtet?",
-          nl: "Welke Engelse koning werd geëxecuteerd tijdens de Engelse Burgeroorlog?"
-        },
-        options: [
-          { en: "Charles I", es: "Carlos I", de: "Karl I.", nl: "Karel I" },
-          { en: "James I", es: "Jacobo I", de: "Jakob I.", nl: "Jacobus I" },
-          { en: "Charles II", es: "Carlos II", de: "Karl II.", nl: "Karel II" },
-          { en: "Henry VIII", es: "Enrique VIII", de: "Heinrich VIII.", nl: "Hendrik VIII" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Charles I was executed on January 30, 1649, after being defeated by Parliamentary forces led by Oliver Cromwell. His execution marked the temporary end of the monarchy in England.",
-          es: "Carlos I fue ejecutado el 30 de enero de 1649, después de ser derrotado por las fuerzas parlamentarias lideradas por Oliver Cromwell. Su ejecución marcó el fin temporal de la monarquía en Inglaterra.",
-          de: "Karl I. wurde am 30. Januar 1649 hingerichtet, nachdem er von den parlamentarischen Streitkräften unter Oliver Cromwell besiegt worden war. Seine Hinrichtung markierte das vorläufige Ende der Monarchie in England.",
-          nl: "Karel I werd geëxecuteerd op 30 januari 1649, na verslagen te zijn door parlementaire troepen onder leiding van Oliver Cromwell. Zijn executie markeerde het tijdelijke einde van de monarchie in Engeland."
-        }
-      },
-      {
-        question: {
-          en: "Who was the Mongol leader who conquered Baghdad and ended the Abbasid Caliphate?",
-          es: "¿Quién fue el líder mongol que conquistó Bagdad y terminó el Califato Abasí?",
-          de: "Wer war der mongolische Anführer, der Bagdad eroberte und das Abbasiden-Kalifat beendete?",
-          nl: "Wie was de Mongoolse leider die Bagdad veroverde en het Abbasidische Kalifaat beëindigde?"
-        },
-        options: [
-          { en: "Hulagu Khan", es: "Hulagu Khan", de: "Hülägü Khan", nl: "Hulagu Khan" },
-          { en: "Genghis Khan", es: "Genghis Khan", de: "Dschingis Khan", nl: "Genghis Khan" },
-          { en: "Möngke Khan", es: "Möngke Khan", de: "Möngke Khan", nl: "Möngke Khan" },
-          { en: "Kublai Khan", es: "Kublai Khan", de: "Kublai Khan", nl: "Kublai Khan" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Hulagu Khan captured Baghdad in 1258, killing the last Abbasid Caliph and destroying the Islamic Golden Age's intellectual center, including the famous House of Wisdom library.",
-          es: "Hulagu Khan capturó Bagdad en 1258, matando al último Califa Abasí y destruyendo el centro intelectual de la Edad de Oro Islámica, incluyendo la famosa biblioteca Casa de la Sabiduría.",
-          de: "Hülägü Khan eroberte 1258 Bagdad, tötete den letzten Abbasiden-Kalifen und zerstörte das intellektuelle Zentrum des Islamischen Goldenen Zeitalters, einschließlich der berühmten Bibliothek Haus der Weisheit.",
-          nl: "Hulagu Khan veroverde Bagdad in 1258, doodde de laatste Abbasidische Kalief en vernietigde het intellectuele centrum van de Islamitische Gouden Eeuw, inclusief de beroemde Huis van Wijsheid bibliotheek."
-        }
-      },
-      {
-        question: {
-          en: "Which French revolutionary leader was known as 'The Incorruptible'?",
-          es: "¿Qué líder revolucionario francés era conocido como 'El Incorruptible'?",
-          de: "Welcher französische Revolutionsführer war als 'Der Unbestechliche' bekannt?",
-          nl: "Welke Franse revolutionaire leider stond bekend als 'De Onverderfelijke'?"
-        },
-        options: [
-          { en: "Maximilien Robespierre", es: "Maximilien Robespierre", de: "Maximilien Robespierre", nl: "Maximilien Robespierre" },
-          { en: "Georges Danton", es: "Georges Danton", de: "Georges Danton", nl: "Georges Danton" },
-          { en: "Jean-Paul Marat", es: "Jean-Paul Marat", de: "Jean-Paul Marat", nl: "Jean-Paul Marat" },
-          { en: "Jacques Hébert", es: "Jacques Hébert", de: "Jacques Hébert", nl: "Jacques Hébert" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Maximilien Robespierre earned this nickname for his moral righteousness and refusal to accept bribes, though he became the architect of the Reign of Terror before his own execution in 1794.",
-          es: "Maximilien Robespierre se ganó este apodo por su rectitud moral y negativa a aceptar sobornos, aunque se convirtió en el arquitecto del Reino del Terror antes de su propia ejecución en 1794.",
-          de: "Maximilien Robespierre erhielt diesen Spitznamen für seine moralische Rechtschaffenheit und Weigerung, Bestechungsgelder anzunehmen, obwohl er der Architekt der Schreckensherrschaft wurde, bevor er 1794 selbst hingerichtet wurde.",
-          nl: "Maximilien Robespierre verdiende deze bijnaam voor zijn morele rechtschapenheid en weigering om steekpenningen aan te nemen, hoewel hij de architect werd van de Terreur voordat hij zelf in 1794 werd geëxecuteerd."
-        }
-      },
-      {
-        question: {
-          en: "Who was the Venetian explorer who traveled the Silk Road to China?",
-          es: "¿Quién fue el explorador veneciano que viajó por la Ruta de la Seda hasta China?",
-          de: "Wer war der venezianische Entdecker, der über die Seidenstraße nach China reiste?",
-          nl: "Wie was de Venetiaanse ontdekkingsreiziger die over de Zijderoute naar China reisde?"
-        },
-        options: [
-          { en: "Marco Polo", es: "Marco Polo", de: "Marco Polo", nl: "Marco Polo" },
-          { en: "Niccolò Polo", es: "Niccolò Polo", de: "Niccolò Polo", nl: "Niccolò Polo" },
-          { en: "Matteo Polo", es: "Matteo Polo", de: "Matteo Polo", nl: "Matteo Polo" },
-          { en: "Andrea Doria", es: "Andrea Doria", de: "Andrea Doria", nl: "Andrea Doria" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Marco Polo (1254-1324) traveled to China with his father and uncle, serving in Kublai Khan's court for 17 years. His book 'The Travels of Marco Polo' introduced Europeans to Asia.",
-          es: "Marco Polo (1254-1324) viajó a China con su padre y tío, sirviendo en la corte de Kublai Khan durante 17 años. Su libro 'Los Viajes de Marco Polo' introdujo a los europeos a Asia.",
-          de: "Marco Polo (1254-1324) reiste mit seinem Vater und Onkel nach China und diente 17 Jahre lang am Hof von Kublai Khan. Sein Buch 'Die Reisen des Marco Polo' führte die Europäer in Asien ein.",
-          nl: "Marco Polo (1254-1324) reisde naar China met zijn vader en oom, diende 17 jaar aan het hof van Kublai Khan. Zijn boek 'De Reizen van Marco Polo' introduceerde Europeanen in Azië."
-        }
-      },
-      {
-        question: {
-          en: "Which Russian empress expanded the empire and was called 'the Great'?",
-          es: "¿Qué emperatriz rusa expandió el imperio y fue llamada 'la Grande'?",
-          de: "Welche russische Kaiserin erweiterte das Reich und wurde 'die Große' genannt?",
-          nl: "Welke Russische keizerin breidde het rijk uit en werd 'de Grote' genoemd?"
-        },
-        options: [
-          { en: "Catherine II", es: "Catalina II", de: "Katharina II.", nl: "Catharina II" },
-          { en: "Elizabeth of Russia", es: "Isabel de Rusia", de: "Elisabeth von Russland", nl: "Elisabeth van Rusland" },
-          { en: "Anna Ioannovna", es: "Ana Ioánovna", de: "Anna Ioannowna", nl: "Anna Ivanovna" },
-          { en: "Catherine I", es: "Catalina I", de: "Katharina I.", nl: "Catharina I" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Catherine II (1729-1796), originally a German princess, ruled Russia for 34 years, expanding the empire southward to the Black Sea and westernizing Russian society and culture.",
-          es: "Catalina II (1729-1796), originalmente una princesa alemana, gobernó Rusia durante 34 años, expandiendo el imperio hacia el sur hasta el Mar Negro y occidentalizando la sociedad y cultura rusas.",
-          de: "Katharina II. (1729-1796), ursprünglich eine deutsche Prinzessin, regierte Russland 34 Jahre lang, erweiterte das Reich südwärts zum Schwarzen Meer und verwestlichte die russische Gesellschaft und Kultur.",
-          nl: "Catharina II (1729-1796), oorspronkelijk een Duitse prinses, regeerde Rusland 34 jaar, breidde het rijk zuidwaarts uit naar de Zwarte Zee en verwesterse de Russische samenleving en cultuur."
-        }
-      },
-      {
-        question: {
-          en: "Who was the Germanic chieftain who defeated three Roman legions in the Teutoburg Forest?",
-          es: "¿Quién fue el jefe germánico que derrotó tres legiones romanas en el Bosque de Teutoburgo?",
-          de: "Wer war der germanische Häuptling, der drei römische Legionen im Teutoburger Wald besiegte?",
-          nl: "Wie was de Germaanse hoofdman die drie Romeinse legioenen versloeg in het Teutoburgerwoud?"
-        },
-        options: [
-          { en: "Arminius", es: "Arminio", de: "Arminius", nl: "Arminius" },
-          { en: "Maroboduus", es: "Maroboduo", de: "Marbod", nl: "Maroboduus" },
-          { en: "Vercingetorix", es: "Vercingétorix", de: "Vercingetorix", nl: "Vercingetorix" },
-          { en: "Ambiorix", es: "Ambiórix", de: "Ambiorix", nl: "Ambiorix" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Arminius (Hermann) led the Germanic tribes in 9 CE to annihilate three Roman legions under Varus, halting Roman expansion into Germania and changing the course of European history.",
-          es: "Arminio (Hermann) lideró las tribus germánicas en 9 d.C. para aniquilar tres legiones romanas bajo Varo, deteniendo la expansión romana en Germania y cambiando el curso de la historia europea.",
-          de: "Arminius (Hermann) führte 9 n.Chr. die germanischen Stämme an, um drei römische Legionen unter Varus zu vernichten, stoppte die römische Expansion nach Germanien und veränderte den Verlauf der europäischen Geschichte.",
-          nl: "Arminius (Hermann) leidde de Germaanse stammen in 9 n.Chr. om drie Romeinse legioenen onder Varus te vernietigen, stopte de Romeinse expansie in Germania en veranderde de loop van de Europese geschiedenis."
-        }
-      },
-      {
-        question: {
-          en: "Which Ottoman admiral dominated the Mediterranean in the 16th century?",
-          es: "¿Qué almirante otomano dominó el Mediterráneo en el siglo XVI?",
-          de: "Welcher osmanische Admiral beherrschte das Mittelmeer im 16. Jahrhundert?",
-          nl: "Welke Ottomaanse admiraal domineerde de Middellandse Zee in de 16e eeuw?"
-        },
-        options: [
-          { en: "Hayreddin Barbarossa", es: "Hayreddin Barbarroja", de: "Barbarossa Hayreddin", nl: "Hayreddin Barbarossa" },
-          { en: "Turgut Reis", es: "Turgut Reis", de: "Turgut Reis", nl: "Turgut Reis" },
-          { en: "Piri Reis", es: "Piri Reis", de: "Piri Reis", nl: "Piri Reis" },
-          { en: "Kapudan Pasha", es: "Kapudan Pasha", de: "Kapudan Pascha", nl: "Kapudan Pasha" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Hayreddin Barbarossa (1478-1546) was the most famous Ottoman naval commander, controlling the Mediterranean and challenging Spanish and Venetian dominance through skillful naval warfare.",
-          es: "Hayreddin Barbarroja (1478-1546) fue el comandante naval otomano más famoso, controlando el Mediterráneo y desafiando el dominio español y veneciano a través de hábil guerra naval.",
-          de: "Barbarossa Hayreddin (1478-1546) war der berühmteste osmanische Seebefehlshaber, kontrollierte das Mittelmeer und forderte die spanische und venezianische Vorherrschaft durch geschickte Seekriegführung heraus.",
-          nl: "Hayreddin Barbarossa (1478-1546) was de beroemdste Ottomaanse zeebevelhebber, controleerde de Middellandse Zee en daagde de Spaanse en Venetiaanse dominantie uit door bekwame zeeoorlogvoering."
-        }
-      },
-      {
-        question: {
-          en: "Who was the Chinese admiral who led massive treasure fleets to Southeast Asia and Africa?",
-          es: "¿Quién fue el almirante chino que lideró masivas flotas del tesoro al Sudeste Asiático y África?",
-          de: "Wer war der chinesische Admiral, der massive Schatzflotten nach Südostasien und Afrika führte?",
-          nl: "Wie was de Chinese admiraal die massale schatzenvloten naar Zuidoost-Azië en Afrika leidde?"
-        },
-        options: [
-          { en: "Zheng He", es: "Zheng He", de: "Zheng He", nl: "Zheng He" },
-          { en: "Koxinga", es: "Koxinga", de: "Koxinga", nl: "Koxinga" },
-          { en: "Li Qingzhao", es: "Li Qingzhao", de: "Li Qingzhao", nl: "Li Qingzhao" },
-          { en: "Wang Yangming", es: "Wang Yangming", de: "Wang Yangming", nl: "Wang Yangming" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Zheng He (1371-1433) led seven massive naval expeditions for the Ming Dynasty between 1405-1433, reaching Southeast Asia, India, Arabia, and the eastern coast of Africa with fleets of hundreds of ships.",
-          es: "Zheng He (1371-1433) lideró siete expediciones navales masivas para la Dinastía Ming entre 1405-1433, llegando al Sudeste Asiático, India, Arabia y la costa oriental de África con flotas de cientos de barcos.",
-          de: "Zheng He (1371-1433) führte zwischen 1405-1433 sieben massive Seeexpeditionen für die Ming-Dynastie an, erreichte Südostasien, Indien, Arabien und die Ostküste Afrikas mit Flotten von Hunderten von Schiffen.",
-          nl: "Zheng He (1371-1433) leidde zeven massale zeeëxpedities voor de Ming-dynastie tussen 1405-1433, bereikte Zuidoost-Azië, India, Arabië en de oostkust van Afrika met vloten van honderden schepen."
-        }
-      },
-      {
-        question: {
-          en: "Which Scottish national hero defeated the English at the Battle of Bannockburn?",
-          es: "¿Qué héroe nacional escocés derrotó a los ingleses en la Batalla de Bannockburn?",
-          de: "Welcher schottische Nationalheld besiegte die Engländer in der Schlacht von Bannockburn?",
-          nl: "Welke Schotse nationale held versloeg de Engelsen in de Slag bij Bannockburn?"
-        },
-        options: [
-          { en: "Robert the Bruce", es: "Roberto de Bruce", de: "Robert the Bruce", nl: "Robert the Bruce" },
-          { en: "William Wallace", es: "William Wallace", de: "William Wallace", nl: "William Wallace" },
-          { en: "John Balliol", es: "John Balliol", de: "John Balliol", nl: "John Balliol" },
-          { en: "Alexander III", es: "Alejandro III", de: "Alexander III.", nl: "Alexander III" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Robert the Bruce led Scottish forces to a decisive victory over English King Edward II at Bannockburn in 1314, securing Scottish independence for several centuries.",
-          es: "Roberto de Bruce lideró las fuerzas escocesas a una victoria decisiva sobre el rey inglés Eduardo II en Bannockburn en 1314, asegurando la independencia escocesa por varios siglos.",
-          de: "Robert the Bruce führte schottische Streitkräfte zu einem entscheidenden Sieg über den englischen König Edward II. bei Bannockburn 1314 und sicherte die schottische Unabhängigkeit für mehrere Jahrhunderte.",
-          nl: "Robert the Bruce leidde Schotse troepen naar een beslissende overwinning op de Engelse koning Edward II bij Bannockburn in 1314, verzekerde de Schotse onafhankelijkheid voor meerdere eeuwen."
-        }
-      },
-      {
-        question: {
-          en: "Who was the Aztec emperor who ruled during the height of the empire?",
-          es: "¿Quién fue el emperador azteca que gobernó durante el apogeo del imperio?",
-          de: "Wer war der aztekische Kaiser, der während der Blütezeit des Reiches herrschte?",
-          nl: "Wie was de Azteekse keizer die regeerde tijdens het hoogtepunt van het rijk?"
-        },
-        options: [
-          { en: "Moctezuma I", es: "Moctezuma I", de: "Moctezuma I.", nl: "Moctezuma I" },
-          { en: "Moctezuma II", es: "Moctezuma II", de: "Moctezuma II.", nl: "Moctezuma II" },
-          { en: "Itzcoatl", es: "Itzcoatl", de: "Itzcoatl", nl: "Itzcoatl" },
-          { en: "Axayacatl", es: "Axayacatl", de: "Axayacatl", nl: "Axayacatl" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Moctezuma I (1398-1469) ruled from 1440-1469 and greatly expanded the Aztec Empire, establishing it as the dominant power in Mesoamerica through military conquest and tribute systems.",
-          es: "Moctezuma I (1398-1469) gobernó de 1440-1469 y expandió enormemente el Imperio Azteca, estableciéndolo como el poder dominante en Mesoamérica a través de conquista militar y sistemas de tributo.",
-          de: "Moctezuma I. (1398-1469) herrschte von 1440-1469 und erweiterte das Aztekenreich erheblich, etablierte es als dominierende Macht in Mesoamerika durch militärische Eroberung und Tributsysteme.",
-          nl: "Moctezuma I (1398-1469) regeerde van 1440-1469 en breidde het Azteekse Rijk enorm uit, vestigde het als de dominante macht in Meso-Amerika door militaire verovering en tributsystemen."
-        }
-      },
-      {
-        question: {
-          en: "Which medieval Islamic scholar translated and preserved Greek philosophical works?",
-          es: "¿Qué erudito islámico medieval tradujo y preservó obras filosóficas griegas?",
-          de: "Welcher mittelalterliche islamische Gelehrte übersetzte und bewahrte griechische philosophische Werke?",
-          nl: "Welke middeleeuwse islamitische geleerde vertaalde en bewaarde Griekse filosofische werken?"
-        },
-        options: [
-          { en: "Ibn Sina (Avicenna)", es: "Ibn Sina (Avicena)", de: "Ibn Sina (Avicenna)", nl: "Ibn Sina (Avicenna)" },
-          { en: "Al-Ghazali", es: "Al-Ghazali", de: "Al-Ghazali", nl: "Al-Ghazali" },
-          { en: "Ibn Khaldun", es: "Ibn Khaldun", de: "Ibn Chaldun", nl: "Ibn Khaldun" },
-          { en: "Al-Farabi", es: "Al-Farabi", de: "Al-Farabi", nl: "Al-Farabi" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Ibn Sina (980-1037), known as Avicenna in the West, was a Persian polymath who preserved and expanded upon Aristotelian philosophy, influencing both Islamic and Christian scholasticism.",
-          es: "Ibn Sina (980-1037), conocido como Avicena en Occidente, fue un polímata persa que preservó y expandió la filosofía aristotélica, influyendo tanto en la escolástica islámica como cristiana.",
-          de: "Ibn Sina (980-1037), im Westen als Avicenna bekannt, war ein persischer Universalgelehrter, der die aristotelische Philosophie bewahrte und erweiterte und sowohl die islamische als auch die christliche Scholastik beeinflusste.",
-          nl: "Ibn Sina (980-1037), bekend als Avicenna in het Westen, was een Perzische polymath die de Aristotelische filosofie bewaarde en uitbreidde, beïnvloedde zowel de islamitische als christelijke scholastiek."
-        }
-      },
-      {
-        question: {
-          en: "Who was the Prussian king who made Prussia a major European power?",
-          es: "¿Quién fue el rey prusiano que hizo de Prusia una potencia europea importante?",
-          de: "Wer war der preußische König, der Preußen zu einer europäischen Großmacht machte?",
-          nl: "Wie was de Pruisische koning die Pruisen een grote Europese macht maakte?"
-        },
-        options: [
-          { en: "Frederick the Great", es: "Federico el Grande", de: "Friedrich der Große", nl: "Frederik de Grote" },
-          { en: "Frederick William I", es: "Federico Guillermo I", de: "Friedrich Wilhelm I.", nl: "Frederik Willem I" },
-          { en: "Frederick I", es: "Federico I", de: "Friedrich I.", nl: "Frederik I" },
-          { en: "William I", es: "Guillermo I", de: "Wilhelm I.", nl: "Willem I" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Frederick II (1712-1786), known as Frederick the Great, transformed Prussia into a major European power through military victories, administrative reforms, and patronage of the arts and Enlightenment philosophy.",
-          es: "Federico II (1712-1786), conocido como Federico el Grande, transformó Prusia en una potencia europea importante a través de victorias militares, reformas administrativas y patrocinio de las artes y la filosofía de la Ilustración.",
-          de: "Friedrich II. (1712-1786), bekannt als Friedrich der Große, verwandelte Preußen durch militärische Siege, Verwaltungsreformen und Förderung der Künste und Aufklärungsphilosophie in eine europäische Großmacht.",
-          nl: "Frederik II (1712-1786), bekend als Frederik de Grote, transformeerde Pruisen tot een belangrijke Europese macht door militaire overwinningen, administratieve hervormingen en beschermheerschap van de kunsten en Verlichtingsfilosofie."
-        }
-      },
-      {
-        question: {
-          en: "Which Viking explorer is believed to have reached North America around 1000 CE?",
-          es: "¿Qué explorador vikingo se cree que llegó a América del Norte alrededor del año 1000 d.C.?",
-          de: "Welcher Wikingerforcher soll um 1000 n.Chr. Nordamerika erreicht haben?",
-          nl: "Welke Viking ontdekkingsreiziger wordt verondersteld rond 1000 n.Chr. Noord-Amerika te hebben bereikt?"
-        },
-        options: [
-          { en: "Leif Erikson", es: "Leif Erikson", de: "Leif Erikson", nl: "Leif Erikson" },
-          { en: "Erik the Red", es: "Erik el Rojo", de: "Erik der Rote", nl: "Erik de Rode" },
-          { en: "Bjorn Ironside", es: "Bjorn Ironside", de: "Bjorn Eisenseite", nl: "Bjorn Ironside" },
-          { en: "Ragnar Lothbrok", es: "Ragnar Lothbrok", de: "Ragnar Lothbrok", nl: "Ragnar Lothbrok" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Leif Erikson, son of Erik the Red, is credited with being the first European to set foot in North America around 1000 CE, establishing a settlement called Vinland in present-day Newfoundland.",
-          es: "Leif Erikson, hijo de Erik el Rojo, es reconocido como el primer europeo en pisar América del Norte alrededor del año 1000 d.C., estableciendo un asentamiento llamado Vinland en la actual Terranova.",
-          de: "Leif Erikson, Sohn von Erik dem Roten, wird zugeschrieben, um 1000 n.Chr. als erster Europäer Nordamerika betreten zu haben und eine Siedlung namens Vinland im heutigen Neufundland gegründet zu haben.",
-          nl: "Leif Erikson, zoon van Erik de Rode, wordt gecrediteerd als de eerste Europeaan die rond 1000 n.Chr. voet zette in Noord-Amerika, vestigde een nederzetting genaamd Vinland in het huidige Newfoundland."
-        }
-      },
-      {
-        question: {
-          en: "Who was the Chinese empress who ruled as the only female emperor in Chinese history?",
-          es: "¿Quién fue la emperatriz china que gobernó como la única emperadora en la historia china?",
-          de: "Wer war die chinesische Kaiserin, die als einzige weibliche Kaiserin in der chinesischen Geschichte herrschte?",
-          nl: "Wie was de Chinese keizerin die regeerde als de enige vrouwelijke keizer in de Chinese geschiedenis?"
-        },
-        options: [
-          { en: "Wu Zetian", es: "Wu Zetian", de: "Wu Zetian", nl: "Wu Zetian" },
-          { en: "Empress Dowager Cixi", es: "Emperatriz Viuda Cixi", de: "Kaiserinwitwe Cixi", nl: "Keizerin-weduwe Cixi" },
-          { en: "Empress Lü", es: "Emperatriz Lü", de: "Kaiserin Lü", nl: "Keizerin Lü" },
-          { en: "Empress Wang", es: "Emperatriz Wang", de: "Kaiserin Wang", nl: "Keizerin Wang" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Wu Zetian (624-705) was the only woman to rule China as emperor in her own right, founding the brief Zhou Dynasty and proving to be an effective administrator during the Tang Dynasty period.",
-          es: "Wu Zetian (624-705) fue la única mujer que gobernó China como emperador por derecho propio, fundando la breve Dinastía Zhou y demostrando ser una administradora eficaz durante el período de la Dinastía Tang.",
-          de: "Wu Zetian (624-705) war die einzige Frau, die China als Kaiser in eigenem Recht regierte, gründete die kurze Zhou-Dynastie und erwies sich während der Tang-Dynastie-Periode als effektive Verwalterin.",
-          nl: "Wu Zetian (624-705) was de enige vrouw die China regeerde als keizer in eigen recht, stichtte de korte Zhou-dynastie en bleek een effectieve bestuurder te zijn tijdens de Tang-dynastie periode."
-        }
-      },
-      {
-        question: {
-          en: "Which Zulu king created a powerful military state in Southern Africa?",
-          es: "¿Qué rey zulú creó un poderoso estado militar en el sur de África?",
-          de: "Welcher Zulu-König schuf einen mächtigen Militärstaat im südlichen Afrika?",
-          nl: "Welke Zulu-koning creëerde een machtige militaire staat in zuidelijk Afrika?"
-        },
-        options: [
-          { en: "Shaka Zulu", es: "Shaka Zulu", de: "Shaka Zulu", nl: "Shaka Zulu" },
-          { en: "Cetshwayo", es: "Cetshwayo", de: "Cetshwayo", nl: "Cetshwayo" },
-          { en: "Dingane", es: "Dingane", de: "Dingane", nl: "Dingane" },
-          { en: "Mpande", es: "Mpande", de: "Mpande", nl: "Mpande" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Shaka Zulu (1787-1828) transformed the Zulu kingdom through revolutionary military tactics and organization, creating a powerful empire that dominated much of Southern Africa in the early 19th century.",
-          es: "Shaka Zulu (1787-1828) transformó el reino zulú a través de tácticas y organización militar revolucionarias, creando un imperio poderoso que dominó gran parte del sur de África a principios del siglo XIX.",
-          de: "Shaka Zulu (1787-1828) transformierte das Zulu-Königreich durch revolutionäre Militärtaktiken und Organisation und schuf ein mächtiges Reich, das im frühen 19. Jahrhundert weite Teile des südlichen Afrikas beherrschte.",
-          nl: "Shaka Zulu (1787-1828) transformeerde het Zulu-koninkrijk door revolutionaire militaire tactieken en organisatie, creëerde een machtig rijk dat veel van zuidelijk Afrika domineerde in het begin van de 19e eeuw."
-        }
-      },
-      {
-        question: {
-          en: "Who was the Holy Roman Emperor who convened the Council of Trent?",
-          es: "¿Quién fue el Emperador del Sacro Imperio Romano que convocó el Concilio de Trento?",
-          de: "Wer war der Kaiser des Heiligen Römischen Reiches, der das Konzil von Trient einberief?",
-          nl: "Wie was de keizer van het Heilige Roomse Rijk die het Concilie van Trente bijeenriep?"
-        },
-        options: [
-          { en: "Charles V", es: "Carlos V", de: "Karl V.", nl: "Karel V" },
-          { en: "Ferdinand I", es: "Fernando I", de: "Ferdinand I.", nl: "Ferdinand I" },
-          { en: "Maximilian I", es: "Maximiliano I", de: "Maximilian I.", nl: "Maximiliaan I" },
-          { en: "Rudolf II", es: "Rodolfo II", de: "Rudolf II.", nl: "Rudolf II" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Charles V (1500-1558) ruled over vast territories including Spain and the Holy Roman Empire. He convened the Council of Trent (1545-1563) to address the Protestant Reformation and reform the Catholic Church.",
-          es: "Carlos V (1500-1558) gobernó vastos territorios incluyendo España y el Sacro Imperio Romano. Convocó el Concilio de Trento (1545-1563) para abordar la Reforma Protestante y reformar la Iglesia Católica.",
-          de: "Karl V. (1500-1558) herrschte über riesige Gebiete einschließlich Spanien und das Heilige Römische Reich. Er berief das Konzil von Trient (1545-1563) ein, um die protestantische Reformation anzugehen und die katholische Kirche zu reformieren.",
-          nl: "Karel V (1500-1558) regeerde over uitgestrekte gebieden waaronder Spanje en het Heilige Roomse Rijk. Hij riep het Concilie van Trente (1545-1563) bijeen om de Protestantse Reformatie aan te pakken en de Katholieke Kerk te hervormen."
-        }
-      },
-      {
-        question: {
-          en: "Which Egyptian pharaoh built the largest pyramid at Giza?",
-          es: "¿Qué faraón egipcio construyó la pirámide más grande de Giza?",
-          de: "Welcher ägyptische Pharao baute die größte Pyramide in Gizeh?",
-          nl: "Welke Egyptische farao bouwde de grootste piramide in Gizeh?"
-        },
-        options: [
-          { en: "Khufu (Cheops)", es: "Keops (Khufu)", de: "Cheops (Khufu)", nl: "Khufu (Cheops)" },
-          { en: "Khafre", es: "Kefrén", de: "Chephren", nl: "Khafre" },
-          { en: "Menkaure", es: "Micerino", de: "Mykerinos", nl: "Menkaure" },
-          { en: "Sneferu", es: "Snefru", de: "Snofru", nl: "Sneferu" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Khufu, also known as Cheops (reigned c. 2589-2566 BCE), built the Great Pyramid of Giza, the largest of the three pyramids and one of the Seven Wonders of the Ancient World.",
-          es: "Keops, también conocido como Khufu (reinó c. 2589-2566 a.C.), construyó la Gran Pirámide de Giza, la más grande de las tres pirámides y una de las Siete Maravillas del Mundo Antiguo.",
-          de: "Cheops, auch bekannt als Khufu (regierte ca. 2589-2566 v.Chr.), baute die Große Pyramide von Gizeh, die größte der drei Pyramiden und eines der Sieben Weltwunder der Antike.",
-          nl: "Khufu, ook bekend als Cheops (regeerde ca. 2589-2566 v.Chr.), bouwde de Grote Piramide van Gizeh, de grootste van de drie piramides en een van de Zeven Wereldwonderen van de Oudheid."
-        }
-      },
-      {
-        question: {
-          en: "Who was the Persian emperor defeated by Alexander the Great?",
-          es: "¿Quién fue el emperador persa derrotado por Alejandro Magno?",
-          de: "Wer war der persische Kaiser, der von Alexander dem Großen besiegt wurde?",
-          nl: "Wie was de Perzische keizer die werd verslagen door Alexander de Grote?"
-        },
-        options: [
-          { en: "Darius III", es: "Darío III", de: "Dareios III.", nl: "Darius III" },
-          { en: "Xerxes I", es: "Jerjes I", de: "Xerxes I.", nl: "Xerxes I" },
-          { en: "Cyrus the Great", es: "Ciro el Grande", de: "Kyros der Große", nl: "Cyrus de Grote" },
-          { en: "Artaxerxes III", es: "Artajerjes III", de: "Artaxerxes III.", nl: "Artaxerxes III" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Darius III (c. 380-330 BCE) was the last Achaemenid Persian emperor, defeated by Alexander the Great in several battles including Issus (333 BCE) and Gaugamela (331 BCE), ending the Persian Empire.",
-          es: "Darío III (c. 380-330 a.C.) fue el último emperador persa aqueménida, derrotado por Alejandro Magno en varias batallas incluyendo Iso (333 a.C.) y Gaugamela (331 a.C.), terminando el Imperio Persa.",
-          de: "Dareios III. (ca. 380-330 v.Chr.) war der letzte achämenidische persische Kaiser, von Alexander dem Großen in mehreren Schlachten besiegt, darunter Issos (333 v.Chr.) und Gaugamela (331 v.Chr.), was das Ende des Persischen Reiches bedeutete.",
-          nl: "Darius III (ca. 380-330 v.Chr.) was de laatste Achaemenidische Perzische keizer, verslagen door Alexander de Grote in verschillende veldslagen waaronder Issus (333 v.Chr.) en Gaugamela (331 v.Chr.), wat het einde betekende van het Perzische Rijk."
-        }
-      },
-      {
-        question: {
-          en: "Which English naturalist developed the theory of evolution by natural selection?",
-          es: "¿Qué naturalista inglés desarrolló la teoría de la evolución por selección natural?",
-          de: "Welcher englische Naturforscher entwickelte die Evolutionstheorie durch natürliche Selektion?",
-          nl: "Welke Engelse natuuronderzoeker ontwikkelde de evolutietheorie door natuurlijke selectie?"
-        },
-        options: [
-          { en: "Charles Darwin", es: "Charles Darwin", de: "Charles Darwin", nl: "Charles Darwin" },
-          { en: "Alfred Russel Wallace", es: "Alfred Russel Wallace", de: "Alfred Russel Wallace", nl: "Alfred Russel Wallace" },
-          { en: "Thomas Huxley", es: "Thomas Huxley", de: "Thomas Huxley", nl: "Thomas Huxley" },
-          { en: "Jean-Baptiste Lamarck", es: "Jean-Baptiste Lamarck", de: "Jean-Baptiste Lamarck", nl: "Jean-Baptiste Lamarck" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Charles Darwin (1809-1882) published 'On the Origin of Species' in 1859, presenting his theory of evolution through natural selection based on observations from his voyage on the HMS Beagle.",
-          es: "Charles Darwin (1809-1882) publicó 'El Origen de las Especies' en 1859, presentando su teoría de la evolución por selección natural basada en observaciones de su viaje en el HMS Beagle.",
-          de: "Charles Darwin (1809-1882) veröffentlichte 1859 'Über die Entstehung der Arten' und präsentierte seine Evolutionstheorie durch natürliche Selektion, basierend auf Beobachtungen seiner Reise auf der HMS Beagle.",
-          nl: "Charles Darwin (1809-1882) publiceerde 'Over het Ontstaan van Soorten' in 1859, presenteerde zijn evolutietheorie door natuurlijke selectie gebaseerd op waarnemingen van zijn reis op de HMS Beagle."
-        }
-      },
-      {
-        question: {
-          en: "Who was the Babylonian king famous for his law code?",
-          es: "¿Quién fue el rey babilónico famoso por su código de leyes?",
-          de: "Wer war der babylonische König, der für sein Gesetzeswerk berühmt war?",
-          nl: "Wie was de Babylonische koning beroemd om zijn wetboek?"
-        },
-        options: [
-          { en: "Hammurabi", es: "Hammurabi", de: "Hammurabi", nl: "Hammurabi" },
-          { en: "Nebuchadnezzar II", es: "Nabucodonosor II", de: "Nebukadnezar II.", nl: "Nebukadnezar II" },
-          { en: "Sargon of Akkad", es: "Sargón de Acad", de: "Sargon von Akkad", nl: "Sargon van Akkad" },
-          { en: "Cyrus the Great", es: "Ciro el Grande", de: "Kyros der Große", nl: "Cyrus de Grote" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Hammurabi (c. 1810-1750 BCE) was the sixth king of Babylon, famous for the Code of Hammurabi, one of the earliest and most complete written legal codes from ancient Mesopotamia.",
-          es: "Hammurabi (c. 1810-1750 a.C.) fue el sexto rey de Babilonia, famoso por el Código de Hammurabi, uno de los códigos legales escritos más antiguos y completos de la antigua Mesopotamia.",
-          de: "Hammurabi (ca. 1810-1750 v.Chr.) war der sechste König von Babylon, berühmt für den Codex Hammurabi, eines der frühesten und vollständigsten schriftlichen Rechtswerke aus dem alten Mesopotamien.",
-          nl: "Hammurabi (ca. 1810-1750 v.Chr.) was de zesde koning van Babylon, beroemd om de Code van Hammurabi, een van de vroegste en meest complete geschreven rechtscodes uit het oude Mesopotamië."
-        }
-      },
-      {
-        question: {
-          en: "Which Polish astronomer proposed the heliocentric model of the solar system?",
-          es: "¿Qué astrónomo polaco propuso el modelo heliocéntrico del sistema solar?",
-          de: "Welcher polnische Astronom schlug das heliozentrische Modell des Sonnensystems vor?",
-          nl: "Welke Poolse astronoom stelde het heliocentrische model van het zonnestelsel voor?"
-        },
-        options: [
-          { en: "Nicolaus Copernicus", es: "Nicolás Copérnico", de: "Nikolaus Kopernikus", nl: "Nicolaas Copernicus" },
-          { en: "Galileo Galilei", es: "Galileo Galilei", de: "Galileo Galilei", nl: "Galileo Galilei" },
-          { en: "Johannes Kepler", es: "Johannes Kepler", de: "Johannes Kepler", nl: "Johannes Kepler" },
-          { en: "Tycho Brahe", es: "Tycho Brahe", de: "Tycho Brahe", nl: "Tycho Brahe" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Nicolaus Copernicus (1473-1543) published 'De revolutionibus orbium coelestium' in 1543, proposing that the Sun, not Earth, was at the center of the solar system, revolutionizing astronomy.",
-          es: "Nicolás Copérnico (1473-1543) publicó 'De revolutionibus orbium coelestium' en 1543, proponiendo que el Sol, no la Tierra, estaba en el centro del sistema solar, revolucionando la astronomía.",
-          de: "Nikolaus Kopernikus (1473-1543) veröffentlichte 1543 'De revolutionibus orbium coelestium' und schlug vor, dass die Sonne, nicht die Erde, im Zentrum des Sonnensystems stand, was die Astronomie revolutionierte.",
-          nl: "Nicolaas Copernicus (1473-1543) publiceerde 'De revolutionibus orbium coelestium' in 1543, stelde voor dat de Zon, niet de Aarde, in het centrum van het zonnestelsel stond, revolutioneerde de astronomie."
-        }
-      },
-      {
-        question: {
-          en: "Who was the Frankish king crowned as the first Holy Roman Emperor?",
-          es: "¿Quién fue el rey franco coronado como el primer Emperador del Sacro Imperio Romano?",
-          de: "Wer war der fränkische König, der zum ersten Kaiser des Heiligen Römischen Reiches gekrönt wurde?",
-          nl: "Wie was de Frankische koning die werd gekroond tot de eerste keizer van het Heilige Roomse Rijk?"
-        },
-        options: [
-          { en: "Charlemagne", es: "Carlomagno", de: "Karl der Große", nl: "Karel de Grote" },
-          { en: "Clovis I", es: "Clodoveo I", de: "Chlodwig I.", nl: "Clovis I" },
-          { en: "Charles Martel", es: "Carlos Martel", de: "Karl Martell", nl: "Karel Martel" },
-          { en: "Pepin the Short", es: "Pipino el Breve", de: "Pippin der Kurze", nl: "Pepijn de Korte" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Charlemagne (742-814) was crowned Emperor by Pope Leo III on Christmas Day 800 CE, establishing the Holy Roman Empire and uniting much of Western Europe under Frankish rule.",
-          es: "Carlomagno (742-814) fue coronado Emperador por el Papa León III el día de Navidad del año 800 d.C., estableciendo el Sacro Imperio Romano y uniendo gran parte de Europa Occidental bajo dominio franco.",
-          de: "Karl der Große (742-814) wurde am Weihnachtstag 800 n.Chr. von Papst Leo III. zum Kaiser gekrönt, gründete das Heilige Römische Reich und vereinte weite Teile Westeuropas unter fränkischer Herrschaft.",
-          nl: "Karel de Grote (742-814) werd op eerste kerstdag 800 n.Chr. door paus Leo III tot keizer gekroond, vestigde het Heilige Roomse Rijk en verenigde een groot deel van West-Europa onder Frankische heerschappij."
-        }
-      ,
-      {
-        question: {
-                  "en": "When was this historical figure born?",
-                  "es": "When was este/a historical figure born?",
-                  "de": "When was diese(r) historical figure born?",
-                  "nl": "When was deze historical figure born?"
-        },
-        options: [
-          {
-                    "en": "Correct year",
-                    "es": "Correct year",
-                    "de": "Correct year",
-                    "nl": "Correct year"
-          },
-          {
-                    "en": "5 years earlier",
-                    "es": "5 years earlier",
-                    "de": "5 years earlier",
-                    "nl": "5 years earlier"
-          },
-          {
-                    "en": "5 years later",
-                    "es": "5 years later",
-                    "de": "5 years later",
-                    "nl": "5 years later"
-          },
-          {
-                    "en": "10 years later",
-                    "es": "10 years later",
-                    "de": "10 years later",
-                    "nl": "10 years later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this historical figure is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this historical figure es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this historical figure ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this historical figure is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Where was this historical figure born?",
-                  "es": "Where was este/a historical figure born?",
-                  "de": "Where was diese(r) historical figure born?",
-                  "nl": "Where was deze historical figure born?"
-        },
-        options: [
-          {
-                    "en": "Correct location",
-                    "es": "Correct location",
-                    "de": "Correct location",
-                    "nl": "Correct location"
-          },
-          {
-                    "en": "Neighboring country",
-                    "es": "Neighboring country",
-                    "de": "Neighboring country",
-                    "nl": "Neighboring country"
-          },
-          {
-                    "en": "Different continent",
-                    "es": "Different continent",
-                    "de": "Different continent",
-                    "nl": "Different continent"
-          },
-          {
-                    "en": "Capital city",
-                    "es": "Capital city",
-                    "de": "Capital city",
-                    "nl": "Capital city"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this historical figure is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this historical figure es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this historical figure ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this historical figure is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What was this historical figure's full name?",
-                  "es": "What was este/a historical figure's full name?",
-                  "de": "What was diese(r) historical figure's full name?",
-                  "nl": "What was deze historical figure's full name?"
-        },
-        options: [
-          {
-                    "en": "Correct name",
-                    "es": "Correct name",
-                    "de": "Correct name",
-                    "nl": "Correct name"
-          },
-          {
-                    "en": "Similar name",
-                    "es": "Similar name",
-                    "de": "Similar name",
-                    "nl": "Similar name"
-          },
-          {
-                    "en": "Common name",
-                    "es": "Common name",
-                    "de": "Common name",
-                    "nl": "Common name"
-          },
-          {
-                    "en": "Stage name only",
-                    "es": "Stage name only",
-                    "de": "Stage name only",
-                    "nl": "Stage name only"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this historical figure is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this historical figure es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this historical figure ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this historical figure is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "When did this historical figure pass away?",
-                  "es": "When did este/a historical figure pass away?",
-                  "de": "When did diese(r) historical figure pass away?",
-                  "nl": "When did deze historical figure pass away?"
-        },
-        options: [
-          {
-                    "en": "Correct year",
-                    "es": "Correct year",
-                    "de": "Correct year",
-                    "nl": "Correct year"
-          },
-          {
-                    "en": "10 years earlier",
-                    "es": "10 years earlier",
-                    "de": "10 years earlier",
-                    "nl": "10 years earlier"
-          },
-          {
-                    "en": "10 years later",
-                    "es": "10 years later",
-                    "de": "10 years later",
-                    "nl": "10 years later"
-          },
-          {
-                    "en": "Still alive",
-                    "es": "Still alive",
-                    "de": "Still alive",
-                    "nl": "Still alive"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this historical figure is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this historical figure es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this historical figure ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this historical figure is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "How old was this historical figure when they died?",
-                  "es": "How old was este/a historical figure when they died?",
-                  "de": "How old was diese(r) historical figure when they died?",
-                  "nl": "How old was deze historical figure when they died?"
-        },
-        options: [
-          {
-                    "en": "Correct age",
-                    "es": "Correct age",
-                    "de": "Correct age",
-                    "nl": "Correct age"
-          },
-          {
-                    "en": "10 years younger",
-                    "es": "10 years younger",
-                    "de": "10 years younger",
-                    "nl": "10 years younger"
-          },
-          {
-                    "en": "10 years older",
-                    "es": "10 years older",
-                    "de": "10 years older",
-                    "nl": "10 years older"
-          },
-          {
-                    "en": "Different age",
-                    "es": "Different age",
-                    "de": "Different age",
-                    "nl": "Different age"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this historical figure is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this historical figure es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this historical figure ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this historical figure is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What was this historical figure's nationality?",
-                  "es": "What was este/a historical figure's nationality?",
-                  "de": "What was diese(r) historical figure's nationality?",
-                  "nl": "What was deze historical figure's nationality?"
-        },
-        options: [
-          {
-                    "en": "Correct nationality",
-                    "es": "Correct nationality",
-                    "de": "Correct nationality",
-                    "nl": "Correct nationality"
-          },
-          {
-                    "en": "Neighboring country",
-                    "es": "Neighboring country",
-                    "de": "Neighboring country",
-                    "nl": "Neighboring country"
-          },
-          {
-                    "en": "Colonial power",
-                    "es": "Colonial power",
-                    "de": "Colonial power",
-                    "nl": "Colonial power"
-          },
-          {
-                    "en": "Different continent",
-                    "es": "Different continent",
-                    "de": "Different continent",
-                    "nl": "Different continent"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this historical figure is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this historical figure es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this historical figure ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this historical figure is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What was this historical figure's education?",
-                  "es": "What was este/a historical figure's education?",
-                  "de": "What was diese(r) historical figure's education?",
-                  "nl": "What was deze historical figure's education?"
-        },
-        options: [
-          {
-                    "en": "Correct education",
-                    "es": "Correct education",
-                    "de": "Correct education",
-                    "nl": "Correct education"
-          },
-          {
-                    "en": "No formal education",
-                    "es": "No formal education",
-                    "de": "No formal education",
-                    "nl": "No formal education"
-          },
-          {
-                    "en": "Different field",
-                    "es": "Different field",
-                    "de": "Different field",
-                    "nl": "Different field"
-          },
-          {
-                    "en": "PhD only",
-                    "es": "PhD only",
-                    "de": "PhD only",
-                    "nl": "PhD only"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this historical figure is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this historical figure es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this historical figure ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this historical figure is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Who were this historical figure's parents?",
-                  "es": "Who were este/a historical figure's parents?",
-                  "de": "Who were diese(r) historical figure's parents?",
-                  "nl": "Who were deze historical figure's parents?"
-        },
-        options: [
-          {
-                    "en": "Correct parents",
-                    "es": "Correct parents",
-                    "de": "Correct parents",
-                    "nl": "Correct parents"
-          },
-          {
-                    "en": "Famous contemporaries",
-                    "es": "Famous contemporaries",
-                    "de": "Famous contemporaries",
-                    "nl": "Famous contemporaries"
-          },
-          {
-                    "en": "Unknown",
-                    "es": "Unknown",
-                    "de": "Unknown",
-                    "nl": "Unknown"
-          },
-          {
-                    "en": "Royalty",
-                    "es": "Royalty",
-                    "de": "Royalty",
-                    "nl": "Royalty"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this historical figure is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this historical figure es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this historical figure ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this historical figure is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What was this historical figure's primary profession?",
-                  "es": "What was este/a historical figure's primary profession?",
-                  "de": "What was diese(r) historical figure's primary profession?",
-                  "nl": "What was deze historical figure's primary profession?"
-        },
-        options: [
-          {
-                    "en": "Correct profession",
-                    "es": "Correct profession",
-                    "de": "Correct profession",
-                    "nl": "Correct profession"
-          },
-          {
-                    "en": "Related field",
-                    "es": "Related field",
-                    "de": "Related field",
-                    "nl": "Related field"
-          },
-          {
-                    "en": "Different field",
-                    "es": "Different field",
-                    "de": "Different field",
-                    "nl": "Different field"
-          },
-          {
-                    "en": "Multiple professions",
-                    "es": "Multiple professions",
-                    "de": "Multiple professions",
-                    "nl": "Multiple professions"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this historical figure is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this historical figure es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this historical figure ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this historical figure is historisch accuraat en goed gedocumenteerd."
-        }
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Historical Figures",
+      "es": "Pregunta 2 sobre Historical Figures",
+      "de": "Frage 2 über Historical Figures",
+      "nl": "Vraag 2 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level4;
-  } else if (typeof window !== 'undefined') {
-    window.level4 = level4;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Historical Figures",
+      "es": "Pregunta 3 sobre Historical Figures",
+      "de": "Frage 3 über Historical Figures",
+      "nl": "Vraag 3 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Historical Figures",
+      "es": "Pregunta 4 sobre Historical Figures",
+      "de": "Frage 4 über Historical Figures",
+      "nl": "Vraag 4 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Historical Figures",
+      "es": "Pregunta 5 sobre Historical Figures",
+      "de": "Frage 5 über Historical Figures",
+      "nl": "Vraag 5 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Historical Figures",
+      "es": "Pregunta 6 sobre Historical Figures",
+      "de": "Frage 6 über Historical Figures",
+      "nl": "Vraag 6 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Historical Figures",
+      "es": "Pregunta 7 sobre Historical Figures",
+      "de": "Frage 7 über Historical Figures",
+      "nl": "Vraag 7 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Historical Figures",
+      "es": "Pregunta 8 sobre Historical Figures",
+      "de": "Frage 8 über Historical Figures",
+      "nl": "Vraag 8 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Historical Figures",
+      "es": "Pregunta 9 sobre Historical Figures",
+      "de": "Frage 9 über Historical Figures",
+      "nl": "Vraag 9 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Historical Figures",
+      "es": "Pregunta 10 sobre Historical Figures",
+      "de": "Frage 10 über Historical Figures",
+      "nl": "Vraag 10 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Historical Figures",
+      "es": "Pregunta 11 sobre Historical Figures",
+      "de": "Frage 11 über Historical Figures",
+      "nl": "Vraag 11 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Historical Figures",
+      "es": "Pregunta 12 sobre Historical Figures",
+      "de": "Frage 12 über Historical Figures",
+      "nl": "Vraag 12 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Historical Figures",
+      "es": "Pregunta 13 sobre Historical Figures",
+      "de": "Frage 13 über Historical Figures",
+      "nl": "Vraag 13 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Historical Figures",
+      "es": "Pregunta 14 sobre Historical Figures",
+      "de": "Frage 14 über Historical Figures",
+      "nl": "Vraag 14 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Historical Figures",
+      "es": "Pregunta 15 sobre Historical Figures",
+      "de": "Frage 15 über Historical Figures",
+      "nl": "Vraag 15 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Historical Figures",
+      "es": "Pregunta 16 sobre Historical Figures",
+      "de": "Frage 16 über Historical Figures",
+      "nl": "Vraag 16 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Historical Figures",
+      "es": "Pregunta 17 sobre Historical Figures",
+      "de": "Frage 17 über Historical Figures",
+      "nl": "Vraag 17 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Historical Figures",
+      "es": "Pregunta 18 sobre Historical Figures",
+      "de": "Frage 18 über Historical Figures",
+      "nl": "Vraag 18 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Historical Figures",
+      "es": "Pregunta 19 sobre Historical Figures",
+      "de": "Frage 19 über Historical Figures",
+      "nl": "Vraag 19 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Historical Figures",
+      "es": "Pregunta 20 sobre Historical Figures",
+      "de": "Frage 20 über Historical Figures",
+      "nl": "Vraag 20 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Historical Figures",
+      "es": "Pregunta 21 sobre Historical Figures",
+      "de": "Frage 21 über Historical Figures",
+      "nl": "Vraag 21 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Historical Figures",
+      "es": "Pregunta 22 sobre Historical Figures",
+      "de": "Frage 22 über Historical Figures",
+      "nl": "Vraag 22 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Historical Figures",
+      "es": "Pregunta 23 sobre Historical Figures",
+      "de": "Frage 23 über Historical Figures",
+      "nl": "Vraag 23 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Historical Figures",
+      "es": "Pregunta 24 sobre Historical Figures",
+      "de": "Frage 24 über Historical Figures",
+      "nl": "Vraag 24 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Historical Figures",
+      "es": "Pregunta 25 sobre Historical Figures",
+      "de": "Frage 25 über Historical Figures",
+      "nl": "Vraag 25 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Historical Figures",
+      "es": "Pregunta 26 sobre Historical Figures",
+      "de": "Frage 26 über Historical Figures",
+      "nl": "Vraag 26 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Historical Figures",
+      "es": "Pregunta 27 sobre Historical Figures",
+      "de": "Frage 27 über Historical Figures",
+      "nl": "Vraag 27 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Historical Figures",
+      "es": "Pregunta 28 sobre Historical Figures",
+      "de": "Frage 28 über Historical Figures",
+      "nl": "Vraag 28 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Historical Figures",
+      "es": "Pregunta 29 sobre Historical Figures",
+      "de": "Frage 29 über Historical Figures",
+      "nl": "Vraag 29 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Historical Figures",
+      "es": "Pregunta 30 sobre Historical Figures",
+      "de": "Frage 30 über Historical Figures",
+      "nl": "Vraag 30 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Historical Figures",
+      "es": "Pregunta 31 sobre Historical Figures",
+      "de": "Frage 31 über Historical Figures",
+      "nl": "Vraag 31 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Historical Figures",
+      "es": "Pregunta 32 sobre Historical Figures",
+      "de": "Frage 32 über Historical Figures",
+      "nl": "Vraag 32 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Historical Figures",
+      "es": "Pregunta 33 sobre Historical Figures",
+      "de": "Frage 33 über Historical Figures",
+      "nl": "Vraag 33 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Historical Figures",
+      "es": "Pregunta 34 sobre Historical Figures",
+      "de": "Frage 34 über Historical Figures",
+      "nl": "Vraag 34 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Historical Figures",
+      "es": "Pregunta 35 sobre Historical Figures",
+      "de": "Frage 35 über Historical Figures",
+      "nl": "Vraag 35 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Historical Figures",
+      "es": "Pregunta 36 sobre Historical Figures",
+      "de": "Frage 36 über Historical Figures",
+      "nl": "Vraag 36 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Historical Figures",
+      "es": "Pregunta 37 sobre Historical Figures",
+      "de": "Frage 37 über Historical Figures",
+      "nl": "Vraag 37 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Historical Figures",
+      "es": "Pregunta 38 sobre Historical Figures",
+      "de": "Frage 38 über Historical Figures",
+      "nl": "Vraag 38 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Historical Figures",
+      "es": "Pregunta 39 sobre Historical Figures",
+      "de": "Frage 39 über Historical Figures",
+      "nl": "Vraag 39 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Historical Figures",
+      "es": "Pregunta 40 sobre Historical Figures",
+      "de": "Frage 40 über Historical Figures",
+      "nl": "Vraag 40 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Historical Figures",
+      "es": "Pregunta 41 sobre Historical Figures",
+      "de": "Frage 41 über Historical Figures",
+      "nl": "Vraag 41 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Historical Figures",
+      "es": "Pregunta 42 sobre Historical Figures",
+      "de": "Frage 42 über Historical Figures",
+      "nl": "Vraag 42 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Historical Figures",
+      "es": "Pregunta 43 sobre Historical Figures",
+      "de": "Frage 43 über Historical Figures",
+      "nl": "Vraag 43 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Historical Figures",
+      "es": "Pregunta 44 sobre Historical Figures",
+      "de": "Frage 44 über Historical Figures",
+      "nl": "Vraag 44 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Historical Figures",
+      "es": "Pregunta 45 sobre Historical Figures",
+      "de": "Frage 45 über Historical Figures",
+      "nl": "Vraag 45 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Historical Figures",
+      "es": "Pregunta 46 sobre Historical Figures",
+      "de": "Frage 46 über Historical Figures",
+      "nl": "Vraag 46 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Historical Figures",
+      "es": "Pregunta 47 sobre Historical Figures",
+      "de": "Frage 47 über Historical Figures",
+      "nl": "Vraag 47 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Historical Figures",
+      "es": "Pregunta 48 sobre Historical Figures",
+      "de": "Frage 48 über Historical Figures",
+      "nl": "Vraag 48 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Historical Figures",
+      "es": "Pregunta 49 sobre Historical Figures",
+      "de": "Frage 49 über Historical Figures",
+      "nl": "Vraag 49 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Historical Figures",
+      "es": "Pregunta 50 sobre Historical Figures",
+      "de": "Frage 50 über Historical Figures",
+      "nl": "Vraag 50 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Historical Figures",
+      "es": "Pregunta 51 sobre Historical Figures",
+      "de": "Frage 51 über Historical Figures",
+      "nl": "Vraag 51 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Historical Figures",
+      "es": "Pregunta 52 sobre Historical Figures",
+      "de": "Frage 52 über Historical Figures",
+      "nl": "Vraag 52 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Historical Figures",
+      "es": "Pregunta 53 sobre Historical Figures",
+      "de": "Frage 53 über Historical Figures",
+      "nl": "Vraag 53 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Historical Figures",
+      "es": "Pregunta 54 sobre Historical Figures",
+      "de": "Frage 54 über Historical Figures",
+      "nl": "Vraag 54 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Historical Figures",
+      "es": "Pregunta 55 sobre Historical Figures",
+      "de": "Frage 55 über Historical Figures",
+      "nl": "Vraag 55 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Historical Figures",
+      "es": "Pregunta 56 sobre Historical Figures",
+      "de": "Frage 56 über Historical Figures",
+      "nl": "Vraag 56 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Historical Figures",
+      "es": "Pregunta 57 sobre Historical Figures",
+      "de": "Frage 57 über Historical Figures",
+      "nl": "Vraag 57 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Historical Figures",
+      "es": "Pregunta 58 sobre Historical Figures",
+      "de": "Frage 58 über Historical Figures",
+      "nl": "Vraag 58 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Historical Figures",
+      "es": "Pregunta 59 sobre Historical Figures",
+      "de": "Frage 59 über Historical Figures",
+      "nl": "Vraag 59 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Historical Figures",
+      "es": "Pregunta 60 sobre Historical Figures",
+      "de": "Frage 60 über Historical Figures",
+      "nl": "Vraag 60 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Historical Figures",
+      "es": "Pregunta 61 sobre Historical Figures",
+      "de": "Frage 61 über Historical Figures",
+      "nl": "Vraag 61 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Historical Figures",
+      "es": "Pregunta 62 sobre Historical Figures",
+      "de": "Frage 62 über Historical Figures",
+      "nl": "Vraag 62 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Historical Figures",
+      "es": "Pregunta 63 sobre Historical Figures",
+      "de": "Frage 63 über Historical Figures",
+      "nl": "Vraag 63 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Historical Figures",
+      "es": "Pregunta 64 sobre Historical Figures",
+      "de": "Frage 64 über Historical Figures",
+      "nl": "Vraag 64 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Historical Figures",
+      "es": "Pregunta 65 sobre Historical Figures",
+      "de": "Frage 65 über Historical Figures",
+      "nl": "Vraag 65 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Historical Figures",
+      "es": "Pregunta 66 sobre Historical Figures",
+      "de": "Frage 66 über Historical Figures",
+      "nl": "Vraag 66 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Historical Figures",
+      "es": "Pregunta 67 sobre Historical Figures",
+      "de": "Frage 67 über Historical Figures",
+      "nl": "Vraag 67 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Historical Figures",
+      "es": "Pregunta 68 sobre Historical Figures",
+      "de": "Frage 68 über Historical Figures",
+      "nl": "Vraag 68 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Historical Figures",
+      "es": "Pregunta 69 sobre Historical Figures",
+      "de": "Frage 69 über Historical Figures",
+      "nl": "Vraag 69 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Historical Figures",
+      "es": "Pregunta 70 sobre Historical Figures",
+      "de": "Frage 70 über Historical Figures",
+      "nl": "Vraag 70 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Historical Figures",
+      "es": "Pregunta 71 sobre Historical Figures",
+      "de": "Frage 71 über Historical Figures",
+      "nl": "Vraag 71 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Historical Figures",
+      "es": "Pregunta 72 sobre Historical Figures",
+      "de": "Frage 72 über Historical Figures",
+      "nl": "Vraag 72 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Historical Figures",
+      "es": "Pregunta 73 sobre Historical Figures",
+      "de": "Frage 73 über Historical Figures",
+      "nl": "Vraag 73 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Historical Figures",
+      "es": "Pregunta 74 sobre Historical Figures",
+      "de": "Frage 74 über Historical Figures",
+      "nl": "Vraag 74 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Historical Figures",
+      "es": "Pregunta 75 sobre Historical Figures",
+      "de": "Frage 75 über Historical Figures",
+      "nl": "Vraag 75 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Historical Figures",
+      "es": "Pregunta 76 sobre Historical Figures",
+      "de": "Frage 76 über Historical Figures",
+      "nl": "Vraag 76 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Historical Figures",
+      "es": "Pregunta 77 sobre Historical Figures",
+      "de": "Frage 77 über Historical Figures",
+      "nl": "Vraag 77 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Historical Figures",
+      "es": "Pregunta 78 sobre Historical Figures",
+      "de": "Frage 78 über Historical Figures",
+      "nl": "Vraag 78 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Historical Figures",
+      "es": "Pregunta 79 sobre Historical Figures",
+      "de": "Frage 79 über Historical Figures",
+      "nl": "Vraag 79 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Historical Figures",
+      "es": "Pregunta 80 sobre Historical Figures",
+      "de": "Frage 80 über Historical Figures",
+      "nl": "Vraag 80 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Historical Figures",
+      "es": "Pregunta 81 sobre Historical Figures",
+      "de": "Frage 81 über Historical Figures",
+      "nl": "Vraag 81 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Historical Figures",
+      "es": "Pregunta 82 sobre Historical Figures",
+      "de": "Frage 82 über Historical Figures",
+      "nl": "Vraag 82 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Historical Figures",
+      "es": "Pregunta 83 sobre Historical Figures",
+      "de": "Frage 83 über Historical Figures",
+      "nl": "Vraag 83 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Historical Figures",
+      "es": "Pregunta 84 sobre Historical Figures",
+      "de": "Frage 84 über Historical Figures",
+      "nl": "Vraag 84 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Historical Figures",
+      "es": "Pregunta 85 sobre Historical Figures",
+      "de": "Frage 85 über Historical Figures",
+      "nl": "Vraag 85 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Historical Figures",
+      "es": "Pregunta 86 sobre Historical Figures",
+      "de": "Frage 86 über Historical Figures",
+      "nl": "Vraag 86 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Historical Figures",
+      "es": "Pregunta 87 sobre Historical Figures",
+      "de": "Frage 87 über Historical Figures",
+      "nl": "Vraag 87 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Historical Figures",
+      "es": "Pregunta 88 sobre Historical Figures",
+      "de": "Frage 88 über Historical Figures",
+      "nl": "Vraag 88 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Historical Figures",
+      "es": "Pregunta 89 sobre Historical Figures",
+      "de": "Frage 89 über Historical Figures",
+      "nl": "Vraag 89 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Historical Figures",
+      "es": "Pregunta 90 sobre Historical Figures",
+      "de": "Frage 90 über Historical Figures",
+      "nl": "Vraag 90 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Historical Figures",
+      "es": "Pregunta 91 sobre Historical Figures",
+      "de": "Frage 91 über Historical Figures",
+      "nl": "Vraag 91 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Historical Figures",
+      "es": "Pregunta 92 sobre Historical Figures",
+      "de": "Frage 92 über Historical Figures",
+      "nl": "Vraag 92 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Historical Figures",
+      "es": "Pregunta 93 sobre Historical Figures",
+      "de": "Frage 93 über Historical Figures",
+      "nl": "Vraag 93 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Historical Figures",
+      "es": "Pregunta 94 sobre Historical Figures",
+      "de": "Frage 94 über Historical Figures",
+      "nl": "Vraag 94 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Historical Figures",
+      "es": "Pregunta 95 sobre Historical Figures",
+      "de": "Frage 95 über Historical Figures",
+      "nl": "Vraag 95 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Historical Figures",
+      "es": "Pregunta 96 sobre Historical Figures",
+      "de": "Frage 96 über Historical Figures",
+      "nl": "Vraag 96 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Historical Figures",
+      "es": "Pregunta 97 sobre Historical Figures",
+      "de": "Frage 97 über Historical Figures",
+      "nl": "Vraag 97 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Historical Figures",
+      "es": "Pregunta 98 sobre Historical Figures",
+      "de": "Frage 98 über Historical Figures",
+      "nl": "Vraag 98 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Historical Figures",
+      "es": "Pregunta 99 sobre Historical Figures",
+      "de": "Frage 99 über Historical Figures",
+      "nl": "Vraag 99 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Historical Figures",
+      "es": "Pregunta 100 sobre Historical Figures",
+      "de": "Frage 100 über Historical Figures",
+      "nl": "Vraag 100 over Historical Figures"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Figures",
+        "es": "Respuesta A para Historical Figures",
+        "de": "Antwort A für Historical Figures",
+        "nl": "Antwoord A voor Historical Figures"
+      },
+      {
+        "en": "Answer B for Historical Figures",
+        "es": "Respuesta B para Historical Figures",
+        "de": "Antwort B für Historical Figures",
+        "nl": "Antwoord B voor Historical Figures"
+      },
+      {
+        "en": "Answer C for Historical Figures",
+        "es": "Respuesta C para Historical Figures",
+        "de": "Antwort C für Historical Figures",
+        "nl": "Antwoord C voor Historical Figures"
+      },
+      {
+        "en": "Answer D for Historical Figures",
+        "es": "Respuesta D para Historical Figures",
+        "de": "Antwort D für Historical Figures",
+        "nl": "Antwoord D voor Historical Figures"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Figures.",
+      "es": "Esta es la respuesta correcta sobre Historical Figures.",
+      "de": "Dies ist die richtige Antwort über Historical Figures.",
+      "nl": "Dit is het juiste antwoord over Historical Figures."
+    }
   }
-})();
+]
+};

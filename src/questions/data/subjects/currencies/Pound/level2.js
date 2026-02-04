@@ -1,1657 +1,4104 @@
-// Pound Quiz - Level 2
-(function() {
-  const level2 = {
-    name: {
-          "en": "British Pound - Easy",
-          "es": "Libra Esterlina - Fácil",
-          "de": "Britisches Pfund - Einfach",
-          "nl": "Britse Pond - Gemakkelijk"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Pound",
+      "es": "Pregunta 1 sobre Pound",
+      "de": "Frage 1 über Pound",
+      "nl": "Vraag 1 over Pound"
     },
-    questions: [
+    "options": [
       {
-        question: {
-                  "en": "What is the current exchange rate system used by the British Pound?",
-                  "es": "¿Cuál es el sistema de tipo de cambio actual utilizado por la libra esterlina?",
-                  "de": "Welches Wechselkurssystem verwendet das britische Pfund derzeit?",
-                  "nl": "Wat is het huidige wisselkoerssysteem dat door het Britse pond wordt gebruikt?"
-        },
-        options: [
-        {
-                  "en": "Pegged to the Euro",
-                  "es": "Vinculado al Euro",
-                  "de": "An den Euro gekoppelt",
-                  "nl": "Gekoppeld aan de Euro"
-        },
-        {
-                  "en": "Fixed exchange rate",
-                  "es": "Tipo de cambio fijo",
-                  "de": "Fester Wechselkurs",
-                  "nl": "Vaste wisselkoers"
-        },
-        {
-                  "en": "Gold standard",
-                  "es": "Patrón oro",
-                  "de": "Goldstandard",
-                  "nl": "Goudstandaard"
-        },
-        {
-                  "en": "Floating exchange rate",
-                  "es": "Tipo de cambio flotante",
-                  "de": "Flexibler Wechselkurs",
-                  "nl": "Zwevende wisselkoers"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The British Pound uses a floating exchange rate system, meaning its value is determined by supply and demand in the foreign exchange market rather than being fixed or pegged to another currency.",
-                  "es": "La libra esterlina utiliza un sistema de tipo de cambio flotante, lo que significa que su valor está determinado por la oferta y la demanda en el mercado de divisas en lugar de estar fijo o vinculado a otra moneda.",
-                  "de": "Das britische Pfund verwendet ein flexibles Wechselkurssystem, was bedeutet, dass sein Wert durch Angebot und Nachfrage auf dem Devisenmarkt bestimmt wird und nicht fest oder an eine andere Währung gekoppelt ist.",
-                  "nl": "Het Britse pond gebruikt een zwevend wisselkoerssysteem, wat betekent dat de waarde wordt bepaald door vraag en aanbod op de valutamarkt in plaats van vast of gekoppeld te zijn aan een andere valuta."
-        }
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
       },
       {
-        question: {
-                  "en": "Which territories besides the UK use the British Pound?",
-                  "es": "¿Qué territorios además del Reino Unido usan la libra esterlina?",
-                  "de": "Welche Gebiete außer dem Vereinigten Königreich verwenden das britische Pfund?",
-                  "nl": "Welke gebieden naast het VK gebruiken het Britse pond?"
-        },
-        options: [
-        {
-                  "en": "Ireland and Scotland only",
-                  "es": "Solo Irlanda y Escocia",
-                  "de": "Nur Irland und Schottland",
-                  "nl": "Alleen Ierland en Schotland"
-        },
-        {
-                  "en": "All Commonwealth countries",
-                  "es": "Todos los países de la Commonwealth",
-                  "de": "Alle Commonwealth-Länder",
-                  "nl": "Alle Gemenebestlanden"
-        },
-        {
-                  "en": "European Union countries",
-                  "es": "Países de la Unión Europea",
-                  "de": "Länder der Europäischen Union",
-                  "nl": "Landen van de Europese Unie"
-        },
-        {
-                  "en": "British Overseas Territories and Crown Dependencies",
-                  "es": "Territorios Británicos de Ultramar y Dependencias de la Corona",
-                  "de": "Britische Überseegebiete und Kronbesitzungen",
-                  "nl": "Britse overzeese gebieden en Kroonafhankelijkheden"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Several British Overseas Territories (like Gibraltar, Falkland Islands) and Crown Dependencies (Jersey, Guernsey, Isle of Man) use the British Pound or their own pound currencies pegged to it.",
-                  "es": "Varios Territorios Británicos de Ultramar (como Gibraltar, Islas Malvinas) y Dependencias de la Corona (Jersey, Guernsey, Isla de Man) usan la libra esterlina o sus propias libras vinculadas a ella.",
-                  "de": "Mehrere britische Überseegebiete (wie Gibraltar, Falklandinseln) und Kronbesitzungen (Jersey, Guernsey, Isle of Man) verwenden das britische Pfund oder ihre eigenen daran gekoppelten Pfund-Währungen.",
-                  "nl": "Verschillende Britse overzeese gebieden (zoals Gibraltar, Falklandeilanden) en Kroonafhankelijkheden (Jersey, Guernsey, Isle of Man) gebruiken het Britse pond of hun eigen pond-valuta's die eraan gekoppeld zijn."
-        }
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
       },
       {
-        question: {
-                  "en": "What major economic event in 1992 affected the British Pound?",
-                  "es": "¿Qué evento económico importante en 1992 afectó a la libra esterlina?",
-                  "de": "Welches wichtige wirtschaftliche Ereignis im Jahr 1992 betraf das britische Pfund?",
-                  "nl": "Welke belangrijke economische gebeurtenis in 1992 beïnvloedde het Britse pond?"
-        },
-        options: [
-        {
-                  "en": "Oil crisis",
-                  "es": "Crisis del petróleo",
-                  "de": "Ölkrise",
-                  "nl": "Oliecrisis"
-        },
-        {
-                  "en": "Black Wednesday - UK left the ERM",
-                  "es": "Miércoles Negro - Reino Unido salió del MTC",
-                  "de": "Schwarzer Mittwoch - UK verließ den WKM",
-                  "nl": "Zwarte Woensdag - VK verliet het ERM"
-        },
-        {
-                  "en": "Introduction of the Euro",
-                  "es": "Introducción del Euro",
-                  "de": "Einführung des Euro",
-                  "nl": "Invoering van de Euro"
-        },
-        {
-                  "en": "Global financial crisis",
-                  "es": "Crisis financiera global",
-                  "de": "Globale Finanzkrise",
-                  "nl": "Wereldwijde financiële crisis"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Black Wednesday (September 16, 1992) was when the UK was forced to withdraw the pound from the European Exchange Rate Mechanism (ERM) after failing to keep it above the agreed lower limit.",
-                  "es": "El Miércoles Negro (16 de septiembre de 1992) fue cuando el Reino Unido se vio obligado a retirar la libra del Mecanismo de Tipos de Cambio Europeo (MTC) después de no poder mantenerla por encima del límite inferior acordado.",
-                  "de": "Der Schwarze Mittwoch (16. September 1992) war, als das Vereinigte Königreich gezwungen war, das Pfund aus dem Europäischen Wechselkursmechanismus (WKM) zurückzuziehen, nachdem es nicht gelungen war, es über der vereinbarten Untergrenze zu halten.",
-                  "nl": "Zwarte Woensdag (16 september 1992) was toen het VK gedwongen werd het pond terug te trekken uit het Europese Wisselkoersmechanisme (ERM) na het falen om het boven de overeengekomen ondergrens te houden."
-        }
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
       },
       {
-        question: {
-                  "en": "What is the role of the Chancellor of the Exchequer?",
-                  "es": "¿Cuál es el papel del Canciller del Tesoro?",
-                  "de": "Was ist die Rolle des Schatzkanzlers?",
-                  "nl": "Wat is de rol van de Chancellor of the Exchequer?"
-        },
-        options: [
-        {
-                  "en": "UK's finance minister responsible for economic policy",
-                  "es": "Ministro de finanzas del Reino Unido responsable de la política económica",
-                  "de": "Finanzminister des UK, verantwortlich für Wirtschaftspolitik",
-                  "nl": "VK's minister van Financiën verantwoordelijk voor economisch beleid"
-        },
-        {
-                  "en": "Prime Minister's economic advisor",
-                  "es": "Asesor económico del Primer Ministro",
-                  "de": "Wirtschaftsberater des Premierministers",
-                  "nl": "Economisch adviseur van de Premier"
-        },
-        {
-                  "en": "Head of the Bank of England",
-                  "es": "Jefe del Banco de Inglaterra",
-                  "de": "Leiter der Bank of England",
-                  "nl": "Hoofd van de Bank of England"
-        },
-        {
-                  "en": "Currency trader for the government",
-                  "es": "Comerciante de divisas para el gobierno",
-                  "de": "Devisenhändler für die Regierung",
-                  "nl": "Valutahandelaar voor de overheid"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Chancellor of the Exchequer is the UK's chief finance minister, responsible for economic and financial matters including the budget, taxation, and treasury affairs.",
-                  "es": "El Canciller del Tesoro es el principal ministro de finanzas del Reino Unido, responsable de asuntos económicos y financieros, incluidos el presupuesto, los impuestos y los asuntos del tesoro.",
-                  "de": "Der Schatzkanzler ist der oberste Finanzminister des Vereinigten Königreichs, verantwortlich für wirtschaftliche und finanzielle Angelegenheiten einschließlich Haushalt, Steuern und Schatzamtsangelegenheiten.",
-                  "nl": "De Chancellor of the Exchequer is de belangrijkste minister van Financiën van het VK, verantwoordelijk voor economische en financiële zaken inclusief de begroting, belastingen en schatkistzaken."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the 'pound in your pocket' speech about?",
-                  "es": "¿De qué trataba el discurso de 'la libra en tu bolsillo'?",
-                  "de": "Worum ging es in der 'Pfund in Ihrer Tasche' Rede?",
-                  "nl": "Waar ging de 'pound in your pocket' toespraak over?"
-        },
-        options: [
-        {
-                  "en": "Introduction of decimal currency",
-                  "es": "Introducción de la moneda decimal",
-                  "de": "Einführung der Dezimalwährung",
-                  "nl": "Invoering van decimale valuta"
-        },
-        {
-                  "en": "Bank of England independence",
-                  "es": "Independencia del Banco de Inglaterra",
-                  "de": "Unabhängigkeit der Bank of England",
-                  "nl": "Onafhankelijkheid van de Bank of England"
-        },
-        {
-                  "en": "1967 devaluation of the pound",
-                  "es": "Devaluación de la libra en 1967",
-                  "de": "Abwertung des Pfunds 1967",
-                  "nl": "1967 devaluatie van het pond"
-        },
-        {
-                  "en": "Brexit referendum",
-                  "es": "Referéndum del Brexit",
-                  "de": "Brexit-Referendum",
-                  "nl": "Brexit referendum"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Prime Minister Harold Wilson's 1967 speech assured the public that the devaluation of the pound 'does not mean that the pound here in Britain, in your pocket or purse or in your bank, has been devalued.'",
-                  "es": "El discurso del Primer Ministro Harold Wilson en 1967 aseguró al público que la devaluación de la libra 'no significa que la libra aquí en Gran Bretaña, en tu bolsillo o bolso o en tu banco, haya sido devaluada'.",
-                  "de": "Premierminister Harold Wilsons Rede von 1967 versicherte der Öffentlichkeit, dass die Abwertung des Pfunds 'nicht bedeutet, dass das Pfund hier in Großbritannien, in Ihrer Tasche oder Ihrem Geldbeutel oder in Ihrer Bank, abgewertet wurde'.",
-                  "nl": "Premier Harold Wilson's toespraak uit 1967 verzekerde het publiek dat de devaluatie van het pond 'niet betekent dat het pond hier in Groot-Brittannië, in uw zak of portemonnee of op uw bank, is gedevalueerd'."
-        }
-      },
-      {
-        question: {
-                  "en": "When did the Bank of England become independent?",
-                  "es": "¿Cuándo se independizó el Banco de Inglaterra?",
-                  "de": "Wann wurde die Bank of England unabhängig?",
-                  "nl": "Wanneer werd de Bank of England onafhankelijk?"
-        },
-        options: [
-        {
-                  "en": "2008",
-                  "es": "2008",
-                  "de": "2008",
-                  "nl": "2008"
-        },
-        {
-                  "en": "1946",
-                  "es": "1946",
-                  "de": "1946",
-                  "nl": "1946"
-        },
-        {
-                  "en": "1997",
-                  "es": "1997",
-                  "de": "1997",
-                  "nl": "1997"
-        },
-        {
-                  "en": "1694",
-                  "es": "1694",
-                  "de": "1694",
-                  "nl": "1694"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The Bank of England gained operational independence in 1997 under Tony Blair's government, giving it the power to set interest rates independently of political interference.",
-                  "es": "El Banco de Inglaterra obtuvo independencia operativa en 1997 bajo el gobierno de Tony Blair, dándole el poder de establecer tasas de interés independientemente de la interferencia política.",
-                  "de": "Die Bank of England erhielt 1997 unter der Regierung von Tony Blair operative Unabhängigkeit und damit die Befugnis, Zinssätze unabhängig von politischer Einmischung festzulegen.",
-                  "nl": "De Bank of England kreeg operationele onafhankelijkheid in 1997 onder de regering van Tony Blair, waardoor het de macht kreeg om rentetarieven vast te stellen onafhankelijk van politieke inmenging."
-        }
-      },
-      {
-        question: {
-                  "en": "What are gilt-edged securities (gilts)?",
-                  "es": "¿Qué son los valores con borde dorado (gilts)?",
-                  "de": "Was sind Staatsanleihen (Gilts)?",
-                  "nl": "Wat zijn gilt-edged securities (gilts)?"
-        },
-        options: [
-        {
-                  "en": "UK government bonds",
-                  "es": "Bonos del gobierno del Reino Unido",
-                  "de": "Britische Staatsanleihen",
-                  "nl": "Britse staatsobligaties"
-        },
-        {
-                  "en": "Premium banknotes",
-                  "es": "Billetes premium",
-                  "de": "Premium-Banknoten",
-                  "nl": "Premium bankbiljetten"
-        },
-        {
-                  "en": "Gold coins",
-                  "es": "Monedas de oro",
-                  "de": "Goldmünzen",
-                  "nl": "Gouden munten"
-        },
-        {
-                  "en": "Corporate stocks",
-                  "es": "Acciones corporativas",
-                  "de": "Unternehmensaktien",
-                  "nl": "Bedrijfsaandelen"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Gilts are bonds issued by the UK government. They got their name from the original certificates which had gilded edges. They're considered very safe investments.",
-                  "es": "Los gilts son bonos emitidos por el gobierno del Reino Unido. Obtuvieron su nombre de los certificados originales que tenían bordes dorados. Se consideran inversiones muy seguras.",
-                  "de": "Gilts sind von der britischen Regierung ausgegebene Anleihen. Sie erhielten ihren Namen von den ursprünglichen Zertifikaten mit vergoldeten Rändern. Sie gelten als sehr sichere Anlagen.",
-                  "nl": "Gilts zijn obligaties uitgegeven door de Britse overheid. Ze kregen hun naam van de originele certificaten die vergulde randen hadden. Ze worden beschouwd als zeer veilige investeringen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is LIBOR and its connection to the pound?",
-                  "es": "¿Qué es LIBOR y su conexión con la libra?",
-                  "de": "Was ist LIBOR und seine Verbindung zum Pfund?",
-                  "nl": "Wat is LIBOR en de verbinding met het pond?"
-        },
-        options: [
-        {
-                  "en": "Liberal Organization Rate",
-                  "es": "Tasa de la Organización Liberal",
-                  "de": "Liberale Organisationsrate",
-                  "nl": "Liberale Organisatie Tarief"
-        },
-        {
-                  "en": "London Interbank Offered Rate for pound lending",
-                  "es": "Tasa de oferta interbancaria de Londres para préstamos en libras",
-                  "de": "Londoner Interbanken-Angebotssatz für Pfund-Kredite",
-                  "nl": "London Interbank Offered Rate voor pond-leningen"
-        },
-        {
-                  "en": "Limited Bond Rate",
-                  "es": "Tasa de Bonos Limitada",
-                  "de": "Begrenzte Anleihenrate",
-                  "nl": "Beperkte Obligatierente"
-        },
-        {
-                  "en": "Local Interest Bank Order",
-                  "es": "Orden Bancaria de Interés Local",
-                  "de": "Lokale Zinsbank-Order",
-                  "nl": "Lokale Rente Bank Order"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "LIBOR (London Interbank Offered Rate) was a benchmark interest rate at which banks lent to each other, including in pounds sterling. It was phased out and replaced by SONIA in 2021.",
-                  "es": "LIBOR (Tasa de Oferta Interbancaria de Londres) era una tasa de interés de referencia a la que los bancos se prestaban entre sí, incluyendo en libras esterlinas. Fue eliminada gradualmente y reemplazada por SONIA en 2021.",
-                  "de": "LIBOR (London Interbank Offered Rate) war ein Referenzzinssatz, zu dem sich Banken untereinander Geld liehen, auch in Pfund Sterling. Er wurde schrittweise abgeschafft und 2021 durch SONIA ersetzt.",
-                  "nl": "LIBOR (London Interbank Offered Rate) was een benchmark rentevoet waartegen banken aan elkaar leenden, inclusief in pond sterling. Het werd uitgefaseerd en vervangen door SONIA in 2021."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the significance of Threadneedle Street?",
-                  "es": "¿Cuál es la importancia de Threadneedle Street?",
-                  "de": "Was ist die Bedeutung der Threadneedle Street?",
-                  "nl": "Wat is het belang van Threadneedle Street?"
-        },
-        options: [
-        {
-                  "en": "Location of the Bank of England",
-                  "es": "Ubicación del Banco de Inglaterra",
-                  "de": "Standort der Bank of England",
-                  "nl": "Locatie van de Bank of England"
-        },
-        {
-                  "en": "Government headquarters",
-                  "es": "Sede del gobierno",
-                  "de": "Regierungssitz",
-                  "nl": "Regeringshoofdkwartier"
-        },
-        {
-                  "en": "Main shopping district",
-                  "es": "Principal distrito comercial",
-                  "de": "Haupteinkaufsviertel",
-                  "nl": "Belangrijkste winkelgebied"
-        },
-        {
-                  "en": "Stock exchange location",
-                  "es": "Ubicación de la bolsa de valores",
-                  "de": "Standort der Börse",
-                  "nl": "Locatie van de beurs"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Threadneedle Street is the location of the Bank of England's headquarters in the City of London. The Bank is often referred to as 'The Old Lady of Threadneedle Street.'",
-                  "es": "Threadneedle Street es la ubicación de la sede del Banco de Inglaterra en la City de Londres. El Banco a menudo se conoce como 'La Vieja Dama de Threadneedle Street'.",
-                  "de": "Die Threadneedle Street ist der Standort der Zentrale der Bank of England in der City of London. Die Bank wird oft als 'Die alte Dame von der Threadneedle Street' bezeichnet.",
-                  "nl": "Threadneedle Street is de locatie van het hoofdkantoor van de Bank of England in de City of London. De Bank wordt vaak 'The Old Lady of Threadneedle Street' genoemd."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the Monetary Policy Committee (MPC)?",
-                  "es": "¿Qué es el Comité de Política Monetaria (MPC)?",
-                  "de": "Was ist das Monetary Policy Committee (MPC)?",
-                  "nl": "Wat is het Monetary Policy Committee (MPC)?"
-        },
-        options: [
-        {
-                  "en": "Currency design committee",
-                  "es": "Comité de diseño de moneda",
-                  "de": "Währungsdesign-Komitee",
-                  "nl": "Valuta ontwerpcommissie"
-        },
-        {
-                  "en": "Trade policy group",
-                  "es": "Grupo de política comercial",
-                  "de": "Handelspolitische Gruppe",
-                  "nl": "Handelsbeleid groep"
-        },
-        {
-                  "en": "Government budget committee",
-                  "es": "Comité de presupuesto del gobierno",
-                  "de": "Regierungsbudgetausschuss",
-                  "nl": "Overheidsbegrotingscommissie"
-        },
-        {
-                  "en": "Bank of England committee that sets interest rates",
-                  "es": "Comité del Banco de Inglaterra que establece las tasas de interés",
-                  "de": "Komitee der Bank of England, das Zinssätze festlegt",
-                  "nl": "Bank of England commissie die rentetarieven vaststelt"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The Monetary Policy Committee is a committee of the Bank of England that meets monthly to decide the official interest rate in the UK to meet the government's inflation target.",
-                  "es": "El Comité de Política Monetaria es un comité del Banco de Inglaterra que se reúne mensualmente para decidir la tasa de interés oficial en el Reino Unido para cumplir con el objetivo de inflación del gobierno.",
-                  "de": "Das Monetary Policy Committee ist ein Ausschuss der Bank of England, der sich monatlich trifft, um den offiziellen Zinssatz im Vereinigten Königreich festzulegen, um das Inflationsziel der Regierung zu erreichen.",
-                  "nl": "Het Monetary Policy Committee is een commissie van de Bank of England die maandelijks bijeenkomt om het officiële rentetarief in het VK vast te stellen om het inflatiedoel van de regering te halen."
-        }
-      },
-      {
-        question: {
-                  "en": "What currency did the pound replace in 1971 during decimalization?",
-                  "es": "¿Qué moneda reemplazó la libra en 1971 durante la decimalización?",
-                  "de": "Welche Währung ersetzte das Pfund 1971 während der Dezimalisierung?",
-                  "nl": "Welke valuta verving het pond in 1971 tijdens decimalisatie?"
-        },
-        options: [
-        {
-                  "en": "The gold standard",
-                  "es": "El patrón oro",
-                  "de": "Der Goldstandard",
-                  "nl": "De goudstandaard"
-        },
-        {
-                  "en": "The dollar",
-                  "es": "El dólar",
-                  "de": "Der Dollar",
-                  "nl": "De dollar"
-        },
-        {
-                  "en": "The old £sd system (pounds, shillings, pence)",
-                  "es": "El antiguo sistema £sd (libras, chelines, peniques)",
-                  "de": "Das alte £sd-System (Pfund, Schilling, Pence)",
-                  "nl": "Het oude £sd systeem (ponden, shillings, pence)"
-        },
-        {
-                  "en": "The Euro",
-                  "es": "El Euro",
-                  "de": "Der Euro",
-                  "nl": "De Euro"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Decimalization in 1971 replaced the complex £sd system (where £1 = 20 shillings = 240 pence) with the simpler decimal system (£1 = 100 pence).",
-                  "es": "La decimalización en 1971 reemplazó el complejo sistema £sd (donde £1 = 20 chelines = 240 peniques) con el sistema decimal más simple (£1 = 100 peniques).",
-                  "de": "Die Dezimalisierung 1971 ersetzte das komplexe £sd-System (wo £1 = 20 Schilling = 240 Pence) durch das einfachere Dezimalsystem (£1 = 100 Pence).",
-                  "nl": "Decimalisatie in 1971 verving het complexe £sd systeem (waar £1 = 20 shillings = 240 pence) met het eenvoudigere decimale systeem (£1 = 100 pence)."
-        }
-      },
-      {
-        question: {
-                  "en": "What are Scottish banknotes?",
-                  "es": "¿Qué son los billetes escoceses?",
-                  "de": "Was sind schottische Banknoten?",
-                  "nl": "Wat zijn Schotse bankbiljetten?"
-        },
-        options: [
-        {
-                  "en": "A separate Scottish currency",
-                  "es": "Una moneda escocesa separada",
-                  "de": "Eine separate schottische Währung",
-                  "nl": "Een aparte Schotse valuta"
-        },
-        {
-                  "en": "Commemorative notes only",
-                  "es": "Solo billetes conmemorativos",
-                  "de": "Nur Gedenknoten",
-                  "nl": "Alleen herdenkingsbiljetten"
-        },
-        {
-                  "en": "Fake currency",
-                  "es": "Moneda falsa",
-                  "de": "Falsche Währung",
-                  "nl": "Valse valuta"
-        },
-        {
-                  "en": "Pound notes issued by Scottish banks, legal currency in UK",
-                  "es": "Billetes de libra emitidos por bancos escoceses, moneda legal en Reino Unido",
-                  "de": "Von schottischen Banken ausgegebene Pfundnoten, gesetzliches Zahlungsmittel im UK",
-                  "nl": "Pondbiljetten uitgegeven door Schotse banken, legale valuta in VK"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Three Scottish banks (Bank of Scotland, Royal Bank of Scotland, Clydesdale Bank) issue their own pound sterling banknotes, which are legal currency throughout the UK.",
-                  "es": "Tres bancos escoceses (Bank of Scotland, Royal Bank of Scotland, Clydesdale Bank) emiten sus propios billetes de libra esterlina, que son moneda legal en todo el Reino Unido.",
-                  "de": "Drei schottische Banken (Bank of Scotland, Royal Bank of Scotland, Clydesdale Bank) geben ihre eigenen Pfund Sterling Banknoten aus, die im gesamten Vereinigten Königreich gesetzliches Zahlungsmittel sind.",
-                  "nl": "Drie Schotse banken (Bank of Scotland, Royal Bank of Scotland, Clydesdale Bank) geven hun eigen pond sterling bankbiljetten uit, die legale valuta zijn in het hele VK."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the 'City of London' in relation to the pound?",
-                  "es": "¿Qué es la 'City de Londres' en relación con la libra?",
-                  "de": "Was ist die 'City of London' in Bezug auf das Pfund?",
-                  "nl": "Wat is de 'City of London' in relatie tot het pond?"
-        },
-        options: [
-        {
-                  "en": "Government area",
-                  "es": "Área gubernamental",
-                  "de": "Regierungsbereich",
-                  "nl": "Overheidsgebied"
-        },
-        {
-                  "en": "Manufacturing center",
-                  "es": "Centro de manufactura",
-                  "de": "Fertigungszentrum",
-                  "nl": "Productiecentrum"
-        },
-        {
-                  "en": "Tourist district",
-                  "es": "Distrito turístico",
-                  "de": "Touristenviertel",
-                  "nl": "Toeristisch district"
-        },
-        {
-                  "en": "Major global financial center for pound trading",
-                  "es": "Centro financiero global importante para el comercio de libras",
-                  "de": "Wichtiges globales Finanzzentrum für Pfund-Handel",
-                  "nl": "Belangrijk wereldwijd financieel centrum voor pondhandel"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The City of London (the Square Mile) is one of the world's leading financial centers and the primary hub for foreign exchange trading, including the pound sterling.",
-                  "es": "La City de Londres (la Milla Cuadrada) es uno de los principales centros financieros del mundo y el centro principal para el comercio de divisas, incluida la libra esterlina.",
-                  "de": "Die City of London (die Square Mile) ist eines der weltweit führenden Finanzzentren und das primäre Zentrum für den Devisenhandel, einschließlich des Pfund Sterling.",
-                  "nl": "De City of London (de Square Mile) is een van 's werelds belangrijkste financiële centra en het primaire centrum voor valutahandel, inclusief het pond sterling."
-        }
-      },
-      {
-        question: {
-                  "en": "What is quantitative easing and when did the UK use it?",
-                  "es": "¿Qué es la flexibilización cuantitativa y cuándo la usó el Reino Unido?",
-                  "de": "Was ist quantitative Lockerung und wann hat das UK sie verwendet?",
-                  "nl": "Wat is kwantitatieve versoepeling en wanneer gebruikte het VK het?"
-        },
-        options: [
-        {
-                  "en": "Fixing exchange rates",
-                  "es": "Fijar tipos de cambio",
-                  "de": "Wechselkurse fixieren",
-                  "nl": "Wisselkoersen vaststellen"
-        },
-        {
-                  "en": "Increasing government spending",
-                  "es": "Aumentar el gasto gubernamental",
-                  "de": "Staatsausgaben erhöhen",
-                  "nl": "Overheidsuitgaven verhogen"
-        },
-        {
-                  "en": "Reducing taxes",
-                  "es": "Reducir impuestos",
-                  "de": "Steuern senken",
-                  "nl": "Belastingen verlagen"
-        },
-        {
-                  "en": "Creating money to buy government bonds, used after 2008 crisis",
-                  "es": "Crear dinero para comprar bonos del gobierno, usado después de la crisis de 2008",
-                  "de": "Geldschöpfung zum Kauf von Staatsanleihen, verwendet nach der Krise 2008",
-                  "nl": "Geld creëren om staatsobligaties te kopen, gebruikt na de crisis van 2008"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Quantitative easing involves the Bank of England creating new money electronically to buy government bonds and other securities, injecting money into the economy. It was extensively used after the 2008 financial crisis.",
-                  "es": "La flexibilización cuantitativa involucra al Banco de Inglaterra creando dinero nuevo electrónicamente para comprar bonos del gobierno y otros valores, inyectando dinero en la economía. Se usó extensivamente después de la crisis financiera de 2008.",
-                  "de": "Quantitative Lockerung bedeutet, dass die Bank of England elektronisch neues Geld schafft, um Staatsanleihen und andere Wertpapiere zu kaufen und Geld in die Wirtschaft zu pumpen. Sie wurde nach der Finanzkrise 2008 ausgiebig eingesetzt.",
-                  "nl": "Kwantitatieve versoepeling houdt in dat de Bank of England elektronisch nieuw geld creëert om staatsobligaties en andere effecten te kopen, waardoor geld in de economie wordt geïnjecteerd. Het werd uitgebreid gebruikt na de financiële crisis van 2008."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the current UK inflation target?",
-                  "es": "¿Cuál es el objetivo de inflación actual del Reino Unido?",
-                  "de": "Was ist das aktuelle Inflationsziel des UK?",
-                  "nl": "Wat is het huidige inflatiedoel van het VK?"
-        },
-        options: [
-        {
-                  "en": "0% per year",
-                  "es": "0% por año",
-                  "de": "0% pro Jahr",
-                  "nl": "0% per jaar"
-        },
-        {
-                  "en": "5% per year",
-                  "es": "5% por año",
-                  "de": "5% pro Jahr",
-                  "nl": "5% per jaar"
-        },
-        {
-                  "en": "10% per year",
-                  "es": "10% por año",
-                  "de": "10% pro Jahr",
-                  "nl": "10% per jaar"
-        },
-        {
-                  "en": "2% per year",
-                  "es": "2% por año",
-                  "de": "2% pro Jahr",
-                  "nl": "2% per jaar"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The UK government sets the Bank of England an inflation target of 2% per year, measured by the Consumer Price Index (CPI). This helps maintain price stability.",
-                  "es": "El gobierno del Reino Unido establece al Banco de Inglaterra un objetivo de inflación del 2% anual, medido por el Índice de Precios al Consumidor (IPC). Esto ayuda a mantener la estabilidad de precios.",
-                  "de": "Die britische Regierung setzt der Bank of England ein Inflationsziel von 2% pro Jahr, gemessen am Verbraucherpreisindex (VPI). Dies hilft, Preisstabilität zu gewährleisten.",
-                  "nl": "De Britse regering stelt de Bank of England een inflatiedoel van 2% per jaar, gemeten door de Consumentenprijsindex (CPI). Dit helpt prijsstabiliteit te handhaven."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the pound's nickname in forex trading?",
-                  "es": "¿Cuál es el apodo de la libra en el comercio de divisas?",
-                  "de": "Was ist der Spitzname des Pfunds im Devisenhandel?",
-                  "nl": "Wat is de bijnaam van het pond in forexhandel?"
-        },
-        options: [
-        {
-                  "en": "Queen",
-                  "es": "Reina",
-                  "de": "Königin",
-                  "nl": "Koningin"
-        },
-        {
-                  "en": "Sterling",
-                  "es": "Esterlina",
-                  "de": "Sterling",
-                  "nl": "Sterling"
-        },
-        {
-                  "en": "Cable (from transatlantic cable)",
-                  "es": "Cable (del cable transatlántico)",
-                  "de": "Cable (vom transatlantischen Kabel)",
-                  "nl": "Cable (van transatlantische kabel)"
-        },
-        {
-                  "en": "British",
-                  "es": "Británico",
-                  "de": "Britisch",
-                  "nl": "Brits"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The GBP/USD exchange rate is nicknamed 'Cable' in forex markets, referring to the transatlantic telegraph cables that were used to transmit exchange rates between London and New York in the 1800s.",
-                  "es": "El tipo de cambio GBP/USD se apoda 'Cable' en los mercados de divisas, refiriéndose a los cables telegráficos transatlánticos que se usaban para transmitir tipos de cambio entre Londres y Nueva York en el siglo XIX.",
-                  "de": "Der GBP/USD-Wechselkurs wird auf den Devisenmärkten als 'Cable' bezeichnet, was sich auf die transatlantischen Telegrafenkabel bezieht, die im 19. Jahrhundert zur Übertragung von Wechselkursen zwischen London und New York verwendet wurden.",
-                  "nl": "De GBP/USD wisselkoers wordt 'Cable' genoemd op forexmarkten, verwijzend naar de trans-Atlantische telegraafkabels die werden gebruikt om wisselkoersen tussen Londen en New York door te geven in de 19e eeuw."
-        }
-      },
-      {
-        question: {
-                  "en": "What happened to the pound during the 2016 Brexit vote?",
-                  "es": "¿Qué le pasó a la libra durante el voto del Brexit de 2016?",
-                  "de": "Was passierte mit dem Pfund während der Brexit-Abstimmung 2016?",
-                  "nl": "Wat gebeurde er met het pond tijdens de Brexit-stemming van 2016?"
-        },
-        options: [
-        {
-                  "en": "It rose to record highs",
-                  "es": "Subió a máximos históricos",
-                  "de": "Es stieg auf Rekordhöhen",
-                  "nl": "Het steeg naar recordhoogtes"
-        },
-        {
-                  "en": "It remained stable",
-                  "es": "Se mantuvo estable",
-                  "de": "Es blieb stabil",
-                  "nl": "Het bleef stabiel"
-        },
-        {
-                  "en": "It fell sharply against major currencies",
-                  "es": "Cayó bruscamente frente a las principales monedas",
-                  "de": "Es fiel stark gegenüber wichtigen Währungen",
-                  "nl": "Het daalde scherp tegen belangrijke valuta's"
-        },
-        {
-                  "en": "It was replaced by the Euro",
-                  "es": "Fue reemplazado por el Euro",
-                  "de": "Es wurde durch den Euro ersetzt",
-                  "nl": "Het werd vervangen door de Euro"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The pound fell sharply after the Brexit referendum result on June 23, 2016, dropping about 10% against the US dollar and reaching 31-year lows as markets reacted to the uncertainty.",
-                  "es": "La libra cayó bruscamente después del resultado del referéndum del Brexit el 23 de junio de 2016, cayendo aproximadamente un 10% frente al dólar estadounidense y alcanzando mínimos de 31 años mientras los mercados reaccionaban a la incertidumbre.",
-                  "de": "Das Pfund fiel nach dem Brexit-Referendum am 23. Juni 2016 stark, verlor etwa 10% gegenüber dem US-Dollar und erreichte 31-Jahres-Tiefs, als die Märkte auf die Unsicherheit reagierten.",
-                  "nl": "Het pond daalde scherp na het Brexit-referendum resultaat op 23 juni 2016, met ongeveer 10% dalend tegen de Amerikaanse dollar en 31-jarige dieptepunten bereikend terwijl markten reageerden op de onzekerheid."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the Sterling Area?",
-                  "es": "¿Qué es el Área de la Libra Esterlina?",
-                  "de": "Was ist das Sterling-Gebiet?",
-                  "nl": "Wat is het Sterling Gebied?"
-        },
-        options: [
-        {
-                  "en": "London's financial district",
-                  "es": "El distrito financiero de Londres",
-                  "de": "Londons Finanzbezirk",
-                  "nl": "Londen's financiële district"
-        },
-        {
-                  "en": "UK manufacturing region",
-                  "es": "Región manufacturera del Reino Unido",
-                  "de": "Fertigungsregion des UK",
-                  "nl": "VK productiegebied"
-        },
-        {
-                  "en": "Historical group of countries that pegged currencies to the pound",
-                  "es": "Grupo histórico de países que vincularon monedas a la libra",
-                  "de": "Historische Gruppe von Ländern, die Währungen an das Pfund koppelten",
-                  "nl": "Historische groep landen die valuta's aan het pond koppelden"
-        },
-        {
-                  "en": "Scottish currency zone",
-                  "es": "Zona monetaria escocesa",
-                  "de": "Schottische Währungszone",
-                  "nl": "Schotse valutagebied"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The Sterling Area was a group of countries (mostly British Empire/Commonwealth) that pegged their currencies to the pound sterling and held their reserves in pounds, lasting from the 1930s to 1970s.",
-                  "es": "El Área de la Libra Esterlina era un grupo de países (principalmente Imperio Británico/Commonwealth) que vincularon sus monedas a la libra esterlina y mantuvieron sus reservas en libras, durando desde los años 1930 hasta los 1970.",
-                  "de": "Das Sterling-Gebiet war eine Gruppe von Ländern (hauptsächlich Britisches Empire/Commonwealth), die ihre Währungen an das Pfund Sterling koppelten und ihre Reserven in Pfund hielten, von den 1930ern bis zu den 1970ern.",
-                  "nl": "Het Sterling Gebied was een groep landen (voornamelijk Brits Imperium/Gemenebest) die hun valuta's aan het pond sterling koppelden en hun reserves in ponden hielden, durend van de jaren 1930 tot 1970."
-        }
-      },
-      {
-        question: {
-                  "en": "What are the denominations of current UK coins?",
-                  "es": "¿Cuáles son las denominaciones de las monedas actuales del Reino Unido?",
-                  "de": "Was sind die Stückelungen der aktuellen britischen Münzen?",
-                  "nl": "Wat zijn de denominaties van huidige Britse munten?"
-        },
-        options: [
-        {
-                  "en": "1p, 2p, 5p, 10p, 20p, 50p, £1, £2",
-                  "es": "1p, 2p, 5p, 10p, 20p, 50p, £1, £2",
-                  "de": "1p, 2p, 5p, 10p, 20p, 50p, £1, £2",
-                  "nl": "1p, 2p, 5p, 10p, 20p, 50p, £1, £2"
-        },
-        {
-                  "en": "1p, 5p, 10p, 25p, 50p, £1",
-                  "es": "1p, 5p, 10p, 25p, 50p, £1",
-                  "de": "1p, 5p, 10p, 25p, 50p, £1",
-                  "nl": "1p, 5p, 10p, 25p, 50p, £1"
-        },
-        {
-                  "en": "5p, 10p, 50p, £1, £5",
-                  "es": "5p, 10p, 50p, £1, £5",
-                  "de": "5p, 10p, 50p, £1, £5",
-                  "nl": "5p, 10p, 50p, £1, £5"
-        },
-        {
-                  "en": "1p, 2p, 5p, 10p, 50p, £1",
-                  "es": "1p, 2p, 5p, 10p, 50p, £1",
-                  "de": "1p, 2p, 5p, 10p, 50p, £1",
-                  "nl": "1p, 2p, 5p, 10p, 50p, £1"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Current UK coins in regular circulation are: 1p, 2p, 5p, 10p, 20p, 50p, £1, and £2. Each has distinct size, shape, and design features.",
-                  "es": "Las monedas actuales del Reino Unido en circulación regular son: 1p, 2p, 5p, 10p, 20p, 50p, £1 y £2. Cada una tiene características distintivas de tamaño, forma y diseño.",
-                  "de": "Aktuelle britische Münzen im regulären Umlauf sind: 1p, 2p, 5p, 10p, 20p, 50p, £1 und £2. Jede hat unterschiedliche Größe, Form und Designmerkmale.",
-                  "nl": "Huidige Britse munten in reguliere circulatie zijn: 1p, 2p, 5p, 10p, 20p, 50p, £1 en £2. Elk heeft onderscheidende grootte, vorm en ontwerpkenmerken."
-        }
-      },
-      {
-        question: {
-                  "en": "What is SONIA and how does it relate to the pound?",
-                  "es": "¿Qué es SONIA y cómo se relaciona con la libra?",
-                  "de": "Was ist SONIA und wie bezieht es sich auf das Pfund?",
-                  "nl": "Wat is SONIA en hoe verhoudt het zich tot het pond?"
-        },
-        options: [
-        {
-                  "en": "Sterling Overnight Index Average - replacement for LIBOR",
-                  "es": "Promedio del Índice Nocturno de Esterlinas - reemplazo de LIBOR",
-                  "de": "Sterling Overnight Index Average - Ersatz für LIBOR",
-                  "nl": "Sterling Overnight Index Average - vervanging voor LIBOR"
-        },
-        {
-                  "en": "Scottish Online Investment Account",
-                  "es": "Cuenta de Inversión Online Escocesa",
-                  "de": "Schottisches Online-Investmentkonto",
-                  "nl": "Schotse Online Beleggingsrekening"
-        },
-        {
-                  "en": "Southern Investment Authority",
-                  "es": "Autoridad de Inversión del Sur",
-                  "de": "Südliche Investitionsbehörde",
-                  "nl": "Zuidelijke Investeringsautoriteit"
-        },
-        {
-                  "en": "Sterling Official National Index",
-                  "es": "Índice Nacional Oficial de Esterlinas",
-                  "de": "Sterling Offizieller Nationalindex",
-                  "nl": "Sterling Officiële Nationale Index"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "SONIA (Sterling Overnight Index Average) is the interest rate benchmark that replaced LIBOR for pound sterling transactions in 2021. It reflects the average interest rate banks pay for unsecured overnight loans.",
-                  "es": "SONIA (Promedio del Índice Nocturno de Esterlinas) es el punto de referencia de tasas de interés que reemplazó a LIBOR para transacciones en libras esterlinas en 2021. Refleja la tasa de interés promedio que los bancos pagan por préstamos no garantizados overnight.",
-                  "de": "SONIA (Sterling Overnight Index Average) ist der Zinssatz-Benchmark, der 2021 LIBOR für Pfund Sterling-Transaktionen ersetzte. Er spiegelt den durchschnittlichen Zinssatz wider, den Banken für unbesicherte Overnight-Kredite zahlen.",
-                  "nl": "SONIA (Sterling Overnight Index Average) is de rentevoet benchmark die LIBOR verving voor pond sterling transacties in 2021. Het weerspiegelt de gemiddelde rente die banken betalen voor ongedekte overnight leningen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the symbol for British Pound?",
-                  "es": "What is the symbol for British Pound?",
-                  "de": "What is the symbol for British Pound?",
-                  "nl": "What is the symbol for British Pound?"
-        },
-        options: [
-        {
-                  "en": "P",
-                  "es": "P",
-                  "de": "P",
-                  "nl": "P"
-        },
-        {
-                  "en": "£",
-                  "es": "£",
-                  "de": "£",
-                  "nl": "£"
-        },
-        {
-                  "en": "B",
-                  "es": "B",
-                  "de": "B",
-                  "nl": "B"
-        },
-        {
-                  "en": "GBP",
-                  "es": "GBP",
-                  "de": "GBP",
-                  "nl": "GBP"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The pound sign £ derives from the Latin 'libra' meaning pound weight.",
-                  "es": "The pound sign £ derives from the Latin 'libra' meaning pound weight.",
-                  "de": "The pound sign £ derives from the Latin 'libra' meaning pound weight.",
-                  "nl": "The pound sign £ derives from the Latin 'libra' meaning pound weight."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a penny in UK?",
-                  "es": "What is a penny in UK?",
-                  "de": "What is a penny in UK?",
-                  "nl": "What is a penny in UK?"
-        },
-        options: [
-        {
-                  "en": "1/100 of a pound",
-                  "es": "1/100 of a pound",
-                  "de": "1/100 of a pound",
-                  "nl": "1/100 of a pound"
-        },
-        {
-                  "en": "1/10 of a pound",
-                  "es": "1/10 of a pound",
-                  "de": "1/10 of a pound",
-                  "nl": "1/10 of a pound"
-        },
-        {
-                  "en": "1/240 of a pound",
-                  "es": "1/240 of a pound",
-                  "de": "1/240 of a pound",
-                  "nl": "1/240 of a pound"
-        },
-        {
-                  "en": "1/20 of a pound",
-                  "es": "1/20 of a pound",
-                  "de": "1/20 of a pound",
-                  "nl": "1/20 of a pound"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Since decimalization in 1971, one penny equals 1/100 of a pound sterling.",
-                  "es": "Since decimalization in 1971, one penny equals 1/100 of a pound sterling.",
-                  "de": "Since decimalization in 1971, one penny equals 1/100 of a pound sterling.",
-                  "nl": "Since decimalization in 1971, one penny equals 1/100 of a pound sterling."
-        }
-      },
-      {
-        question: {
-                  "en": "What does GBP stand for?",
-                  "es": "What does GBP stand for?",
-                  "de": "What does GBP stand for?",
-                  "nl": "What does GBP stand for?"
-        },
-        options: [
-        {
-                  "en": "General Britain Pound",
-                  "es": "General Britain Pound",
-                  "de": "General Britain Pound",
-                  "nl": "General Britain Pound"
-        },
-        {
-                  "en": "Government Britain Pound",
-                  "es": "Government Britain Pound",
-                  "de": "Government Britain Pound",
-                  "nl": "Government Britain Pound"
-        },
-        {
-                  "en": "Great Britain Pound",
-                  "es": "Great Britain Pound",
-                  "de": "Great Britain Pound",
-                  "nl": "Great Britain Pound"
-        },
-        {
-                  "en": "Gold British Pound",
-                  "es": "Gold British Pound",
-                  "de": "Gold British Pound",
-                  "nl": "Gold British Pound"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "GBP is the three-letter ISO code for Great Britain Pound Sterling.",
-                  "es": "GBP is the three-letter ISO code for Great Britain Pound Sterling.",
-                  "de": "GBP is the three-letter ISO code for Great Britain Pound Sterling.",
-                  "nl": "GBP is the three-letter ISO code for Great Britain Pound Sterling."
-        }
-      },
-      {
-        question: {
-                  "en": "What is pound sterling?",
-                  "es": "What is pound sterling?",
-                  "de": "What is pound sterling?",
-                  "nl": "What is pound sterling?"
-        },
-        options: [
-        {
-                  "en": "Official currency of United Kingdom",
-                  "es": "Official currency of United Kingdom",
-                  "de": "Official currency of United Kingdom",
-                  "nl": "Official currency of United Kingdom"
-        },
-        {
-                  "en": "Gold coin",
-                  "es": "Gold coin",
-                  "de": "Gold coin",
-                  "nl": "Gold coin"
-        },
-        {
-                  "en": "Weight measurement",
-                  "es": "Weight measurement",
-                  "de": "Weight measurement",
-                  "nl": "Weight measurement"
-        },
-        {
-                  "en": "Silver coin",
-                  "es": "Silver coin",
-                  "de": "Silver coin",
-                  "nl": "Silver coin"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Pound sterling is the official currency of the UK and one of the oldest currencies still in use.",
-                  "es": "Pound sterling is the official currency of the UK and one of the oldest currencies still in use.",
-                  "de": "Pound sterling is the official currency of the UK and one of the oldest currencies still in use.",
-                  "nl": "Pound sterling is the official currency of the UK and one of the oldest currencies still in use."
-        }
-      },
-      {
-        question: {
-                  "en": "When was pound decimalized?",
-                  "es": "When was pound decimalized?",
-                  "de": "When was pound decimalized?",
-                  "nl": "When was pound decimalized?"
-        },
-        options: [
-        {
-                  "en": "1953",
-                  "es": "1953",
-                  "de": "1953",
-                  "nl": "1953"
-        },
-        {
-                  "en": "1900",
-                  "es": "1900",
-                  "de": "1900",
-                  "nl": "1900"
-        },
-        {
-                  "en": "1971",
-                  "es": "1971",
-                  "de": "1971",
-                  "nl": "1971"
-        },
-        {
-                  "en": "1945",
-                  "es": "1945",
-                  "de": "1945",
-                  "nl": "1945"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The UK decimalized the pound on February 15, 1971, adopting the 100 pence system.",
-                  "es": "The UK decimalized the pound on February 15, 1971, adopting the 100 pence system.",
-                  "de": "The UK decimalized the pound on February 15, 1971, adopting the 100 pence system.",
-                  "nl": "The UK decimalized the pound on February 15, 1971, adopting the 100 pence system."
-        }
-      },
-      {
-        question: {
-                  "en": "What was a shilling?",
-                  "es": "What was a shilling?",
-                  "de": "What was a shilling?",
-                  "nl": "What was a shilling?"
-        },
-        options: [
-        {
-                  "en": "Pre-decimal coin worth 1/20 pound",
-                  "es": "Pre-decimal coin worth 1/20 pound",
-                  "de": "Pre-decimal coin worth 1/20 pound",
-                  "nl": "Pre-decimal coin worth 1/20 pound"
-        },
-        {
-                  "en": "Weight measure",
-                  "es": "Weight measure",
-                  "de": "Weight measure",
-                  "nl": "Weight measure"
-        },
-        {
-                  "en": "Current coin",
-                  "es": "Current coin",
-                  "de": "Current coin",
-                  "nl": "Current coin"
-        },
-        {
-                  "en": "Gold coin",
-                  "es": "Gold coin",
-                  "de": "Gold coin",
-                  "nl": "Gold coin"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "A shilling was worth 12 old pence or 1/20 of a pound before decimalization.",
-                  "es": "A shilling was worth 12 old pence or 1/20 of a pound before decimalization.",
-                  "de": "A shilling was worth 12 old pence or 1/20 of a pound before decimalization.",
-                  "nl": "A shilling was worth 12 old pence or 1/20 of a pound before decimalization."
-        }
-      },
-      {
-        question: {
-                  "en": "Who appears on UK banknotes?",
-                  "es": "Who appears on UK banknotes?",
-                  "de": "Who appears on UK banknotes?",
-                  "nl": "Who appears on UK banknotes?"
-        },
-        options: [
-        {
-                  "en": "Queen Elizabeth II / King Charles III",
-                  "es": "Queen Elizabeth II / King Charles III",
-                  "de": "Queen Elizabeth II / King Charles III",
-                  "nl": "Queen Elizabeth II / King Charles III"
-        },
-        {
-                  "en": "Prime Minister",
-                  "es": "Prime Minister",
-                  "de": "Prime Minister",
-                  "nl": "Prime Minister"
-        },
-        {
-                  "en": "Shakespeare",
-                  "es": "Shakespeare",
-                  "de": "Shakespeare",
-                  "nl": "Shakespeare"
-        },
-        {
-                  "en": "Churchill",
-                  "es": "Churchill",
-                  "de": "Churchill",
-                  "nl": "Churchill"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "British monarchs appear on UK banknotes; currently transitioning from Elizabeth II to Charles III.",
-                  "es": "British monarchs appear on UK banknotes; currently transitioning from Elizabeth II to Charles III.",
-                  "de": "British monarchs appear on UK banknotes; currently transitioning from Elizabeth II to Charles III.",
-                  "nl": "British monarchs appear on UK banknotes; currently transitioning from Elizabeth II to Charles III."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the Bank of England?",
-                  "es": "What is the Bank of England?",
-                  "de": "What is the Bank of England?",
-                  "nl": "What is the Bank of England?"
-        },
-        options: [
-        {
-                  "en": "UK's central bank",
-                  "es": "UK's central bank",
-                  "de": "UK's central bank",
-                  "nl": "UK's central bank"
-        },
-        {
-                  "en": "Investment bank",
-                  "es": "Investment bank",
-                  "de": "Investment bank",
-                  "nl": "Investment bank"
-        },
-        {
-                  "en": "Royal treasury",
-                  "es": "Royal treasury",
-                  "de": "Royal treasury",
-                  "nl": "Royal treasury"
-        },
-        {
-                  "en": "Commercial bank",
-                  "es": "Commercial bank",
-                  "de": "Commercial bank",
-                  "nl": "Commercial bank"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Bank of England is the UK's central bank, founded in 1694, responsible for monetary policy.",
-                  "es": "The Bank of England is the UK's central bank, founded in 1694, responsible for monetary policy.",
-                  "de": "The Bank of England is the UK's central bank, founded in 1694, responsible for monetary policy.",
-                  "nl": "The Bank of England is the UK's central bank, founded in 1694, responsible for monetary policy."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the guinea?",
-                  "es": "What was the guinea?",
-                  "de": "What was the guinea?",
-                  "nl": "What was the guinea?"
-        },
-        options: [
-        {
-                  "en": "Bronze coin",
-                  "es": "Bronze coin",
-                  "de": "Bronze coin",
-                  "nl": "Bronze coin"
-        },
-        {
-                  "en": "Gold coin worth 21 shillings",
-                  "es": "Gold coin worth 21 shillings",
-                  "de": "Gold coin worth 21 shillings",
-                  "nl": "Gold coin worth 21 shillings"
-        },
-        {
-                  "en": "Current coin",
-                  "es": "Current coin",
-                  "de": "Current coin",
-                  "nl": "Current coin"
-        },
-        {
-                  "en": "Silver coin",
-                  "es": "Silver coin",
-                  "de": "Silver coin",
-                  "nl": "Silver coin"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The guinea was a gold coin worth one pound and one shilling, used 1663-1814.",
-                  "es": "The guinea was a gold coin worth one pound and one shilling, used 1663-1814.",
-                  "de": "The guinea was a gold coin worth one pound and one shilling, used 1663-1814.",
-                  "nl": "The guinea was a gold coin worth one pound and one shilling, used 1663-1814."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a quid?",
-                  "es": "What is a quid?",
-                  "de": "What is a quid?",
-                  "nl": "What is a quid?"
-        },
-        options: [
-        {
-                  "en": "Coin type",
-                  "es": "Coin type",
-                  "de": "Coin type",
-                  "nl": "Coin type"
-        },
-        {
-                  "en": "Slang for one pound",
-                  "es": "Slang for one pound",
-                  "de": "Slang for one pound",
-                  "nl": "Slang for one pound"
-        },
-        {
-                  "en": "Official term",
-                  "es": "Official term",
-                  "de": "Official term",
-                  "nl": "Official term"
-        },
-        {
-                  "en": "Quarter pound",
-                  "es": "Quarter pound",
-                  "de": "Quarter pound",
-                  "nl": "Quarter pound"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Quid is British slang for one pound sterling, similar to American 'buck' for dollar.",
-                  "es": "Quid is British slang for one pound sterling, similar to American 'buck' for dollar.",
-                  "de": "Quid is British slang for one pound sterling, similar to American 'buck' for dollar.",
-                  "nl": "Quid is British slang for one pound sterling, similar to American 'buck' for dollar."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a farthing?",
-                  "es": "What is a farthing?",
-                  "de": "What is a farthing?",
-                  "nl": "What is a farthing?"
-        },
-        options: [
-        {
-                  "en": "Gold coin",
-                  "es": "Gold coin",
-                  "de": "Gold coin",
-                  "nl": "Gold coin"
-        },
-        {
-                  "en": "Silver coin",
-                  "es": "Silver coin",
-                  "de": "Silver coin",
-                  "nl": "Silver coin"
-        },
-        {
-                  "en": "Current coin",
-                  "es": "Current coin",
-                  "de": "Current coin",
-                  "nl": "Current coin"
-        },
-        {
-                  "en": "Old coin worth 1/4 penny",
-                  "es": "Old coin worth 1/4 penny",
-                  "de": "Old coin worth 1/4 penny",
-                  "nl": "Old coin worth 1/4 penny"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "A farthing was the smallest British coin worth one quarter of an old penny, discontinued 1960.",
-                  "es": "A farthing was the smallest British coin worth one quarter of an old penny, discontinued 1960.",
-                  "de": "A farthing was the smallest British coin worth one quarter of an old penny, discontinued 1960.",
-                  "nl": "A farthing was the smallest British coin worth one quarter of an old penny, discontinued 1960."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the crown?",
-                  "es": "What was the crown?",
-                  "de": "What was the crown?",
-                  "nl": "What was the crown?"
-        },
-        options: [
-        {
-                  "en": "Coin worth 5 shillings",
-                  "es": "Coin worth 5 shillings",
-                  "de": "Coin worth 5 shillings",
-                  "nl": "Coin worth 5 shillings"
-        },
-        {
-                  "en": "Royal symbol",
-                  "es": "Royal symbol",
-                  "de": "Royal symbol",
-                  "nl": "Royal symbol"
-        },
-        {
-                  "en": "Weight measure",
-                  "es": "Weight measure",
-                  "de": "Weight measure",
-                  "nl": "Weight measure"
-        },
-        {
-                  "en": "Current coin",
-                  "es": "Current coin",
-                  "de": "Current coin",
-                  "nl": "Current coin"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The crown was a large silver coin worth five shillings or one-quarter pound.",
-                  "es": "The crown was a large silver coin worth five shillings or one-quarter pound.",
-                  "de": "The crown was a large silver coin worth five shillings or one-quarter pound.",
-                  "nl": "The crown was a large silver coin worth five shillings or one-quarter pound."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a bob?",
-                  "es": "What is a bob?",
-                  "de": "What is a bob?",
-                  "nl": "What is a bob?"
-        },
-        options: [
-        {
-                  "en": "Slang for shilling",
-                  "es": "Slang for shilling",
-                  "de": "Slang for shilling",
-                  "nl": "Slang for shilling"
-        },
-        {
-                  "en": "Current slang for pound",
-                  "es": "Current slang for pound",
-                  "de": "Current slang for pound",
-                  "nl": "Current slang for pound"
-        },
-        {
-                  "en": "Ten pence",
-                  "es": "Ten pence",
-                  "de": "Ten pence",
-                  "nl": "Ten pence"
-        },
-        {
-                  "en": "Pound coin",
-                  "es": "Pound coin",
-                  "de": "Pound coin",
-                  "nl": "Pound coin"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Bob was slang for a shilling (1/20 pound) in pre-decimal British currency.",
-                  "es": "Bob was slang for a shilling (1/20 pound) in pre-decimal British currency.",
-                  "de": "Bob was slang for a shilling (1/20 pound) in pre-decimal British currency.",
-                  "nl": "Bob was slang for a shilling (1/20 pound) in pre-decimal British currency."
-        }
-      },
-      {
-        question: {
-                  "en": "When was Bank of England founded?",
-                  "es": "When was Bank of England founded?",
-                  "de": "When was Bank of England founded?",
-                  "nl": "When was Bank of England founded?"
-        },
-        options: [
-        {
-                  "en": "1066",
-                  "es": "1066",
-                  "de": "1066",
-                  "nl": "1066"
-        },
-        {
-                  "en": "1215",
-                  "es": "1215",
-                  "de": "1215",
-                  "nl": "1215"
-        },
-        {
-                  "en": "1694",
-                  "es": "1694",
-                  "de": "1694",
-                  "nl": "1694"
-        },
-        {
-                  "en": "1801",
-                  "es": "1801",
-                  "de": "1801",
-                  "nl": "1801"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The Bank of England was founded in 1694, making it one of the oldest central banks.",
-                  "es": "The Bank of England was founded in 1694, making it one of the oldest central banks.",
-                  "de": "The Bank of England was founded in 1694, making it one of the oldest central banks.",
-                  "nl": "The Bank of England was founded in 1694, making it one of the oldest central banks."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a sovereign coin?",
-                  "es": "What is a sovereign coin?",
-                  "de": "What is a sovereign coin?",
-                  "nl": "What is a sovereign coin?"
-        },
-        options: [
-        {
-                  "en": "Gold bullion coin",
-                  "es": "Gold bullion coin",
-                  "de": "Gold bullion coin",
-                  "nl": "Gold bullion coin"
-        },
-        {
-                  "en": "Silver coin",
-                  "es": "Silver coin",
-                  "de": "Silver coin",
-                  "nl": "Silver coin"
-        },
-        {
-                  "en": "Copper coin",
-                  "es": "Copper coin",
-                  "de": "Copper coin",
-                  "nl": "Copper coin"
-        },
-        {
-                  "en": "Platinum coin",
-                  "es": "Platinum coin",
-                  "de": "Platinum coin",
-                  "nl": "Platinum coin"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The sovereign is a British gold coin still minted for collectors and investors.",
-                  "es": "The sovereign is a British gold coin still minted for collectors and investors.",
-                  "de": "The sovereign is a British gold coin still minted for collectors and investors.",
-                  "nl": "The sovereign is a British gold coin still minted for collectors and investors."
-        }
-      },
-      {
-        question: {
-                  "en": "What replaced old sixpence?",
-                  "es": "What replaced old sixpence?",
-                  "de": "What replaced old sixpence?",
-                  "nl": "What replaced old sixpence?"
-        },
-        options: [
-        {
-                  "en": "2.5 new pence",
-                  "es": "2.5 new pence",
-                  "de": "2.5 new pence",
-                  "nl": "2.5 new pence"
-        },
-        {
-                  "en": "1 new pence",
-                  "es": "1 new pence",
-                  "de": "1 new pence",
-                  "nl": "1 new pence"
-        },
-        {
-                  "en": "5 new pence",
-                  "es": "5 new pence",
-                  "de": "5 new pence",
-                  "nl": "5 new pence"
-        },
-        {
-                  "en": "10 new pence",
-                  "es": "10 new pence",
-                  "de": "10 new pence",
-                  "nl": "10 new pence"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The old sixpence (worth 1/40 pound) equaled 2.5 new pence after decimalization.",
-                  "es": "The old sixpence (worth 1/40 pound) equaled 2.5 new pence after decimalization.",
-                  "de": "The old sixpence (worth 1/40 pound) equaled 2.5 new pence after decimalization.",
-                  "nl": "The old sixpence (worth 1/40 pound) equaled 2.5 new pence after decimalization."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a thruppenny bit?",
-                  "es": "What is a thruppenny bit?",
-                  "de": "What is a thruppenny bit?",
-                  "nl": "What is a thruppenny bit?"
-        },
-        options: [
-        {
-                  "en": "Three shilling coin",
-                  "es": "Three shilling coin",
-                  "de": "Three shilling coin",
-                  "nl": "Three shilling coin"
-        },
-        {
-                  "en": "Three pence coin",
-                  "es": "Three pence coin",
-                  "de": "Three pence coin",
-                  "nl": "Three pence coin"
-        },
-        {
-                  "en": "Three pound note",
-                  "es": "Three pound note",
-                  "de": "Three pound note",
-                  "nl": "Three pound note"
-        },
-        {
-                  "en": "Current coin",
-                  "es": "Current coin",
-                  "de": "Current coin",
-                  "nl": "Current coin"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The thruppenny bit was a twelve-sided coin worth three old pence, discontinued 1971.",
-                  "es": "The thruppenny bit was a twelve-sided coin worth three old pence, discontinued 1971.",
-                  "de": "The thruppenny bit was a twelve-sided coin worth three old pence, discontinued 1971.",
-                  "nl": "The thruppenny bit was a twelve-sided coin worth three old pence, discontinued 1971."
-        }
-      },
-      {
-        question: {
-                  "en": "What countries use pound?",
-                  "es": "What countries use pound?",
-                  "de": "What countries use pound?",
-                  "nl": "What countries use pound?"
-        },
-        options: [
-        {
-                  "en": "Commonwealth nations",
-                  "es": "Commonwealth nations",
-                  "de": "Commonwealth nations",
-                  "nl": "Commonwealth nations"
-        },
-        {
-                  "en": "Only England",
-                  "es": "Only England",
-                  "de": "Only England",
-                  "nl": "Only England"
-        },
-        {
-                  "en": "UK, Guernsey, Jersey, others",
-                  "es": "UK, Guernsey, Jersey, others",
-                  "de": "UK, Guernsey, Jersey, others",
-                  "nl": "UK, Guernsey, Jersey, others"
-        },
-        {
-                  "en": "All of Europe",
-                  "es": "All of Europe",
-                  "de": "All of Europe",
-                  "nl": "All of Europe"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Several jurisdictions use pounds: UK, Guernsey, Jersey, Isle of Man, Gibraltar, Saint Helena.",
-                  "es": "Several jurisdictions use pounds: UK, Guernsey, Jersey, Isle of Man, Gibraltar, Saint Helena.",
-                  "de": "Several jurisdictions use pounds: UK, Guernsey, Jersey, Isle of Man, Gibraltar, Saint Helena.",
-                  "nl": "Several jurisdictions use pounds: UK, Guernsey, Jersey, Isle of Man, Gibraltar, Saint Helena."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a half crown?",
-                  "es": "What is a half crown?",
-                  "de": "What is a half crown?",
-                  "nl": "What is a half crown?"
-        },
-        options: [
-        {
-                  "en": "Half pound",
-                  "es": "Half pound",
-                  "de": "Half pound",
-                  "nl": "Half pound"
-        },
-        {
-                  "en": "Coin worth 2 shillings 6 pence",
-                  "es": "Coin worth 2 shillings 6 pence",
-                  "de": "Coin worth 2 shillings 6 pence",
-                  "nl": "Coin worth 2 shillings 6 pence"
-        },
-        {
-                  "en": "Gold coin",
-                  "es": "Gold coin",
-                  "de": "Gold coin",
-                  "nl": "Gold coin"
-        },
-        {
-                  "en": "Current coin",
-                  "es": "Current coin",
-                  "de": "Current coin",
-                  "nl": "Current coin"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The half crown was worth 2 shillings and sixpence or one-eighth of a pound.",
-                  "es": "The half crown was worth 2 shillings and sixpence or one-eighth of a pound.",
-                  "de": "The half crown was worth 2 shillings and sixpence or one-eighth of a pound.",
-                  "nl": "The half crown was worth 2 shillings and sixpence or one-eighth of a pound."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the Royal Mint?",
-                  "es": "What is the Royal Mint?",
-                  "de": "What is the Royal Mint?",
-                  "nl": "What is the Royal Mint?"
-        },
-        options: [
-        {
-                  "en": "UK coin production facility",
-                  "es": "UK coin production facility",
-                  "de": "UK coin production facility",
-                  "nl": "UK coin production facility"
-        },
-        {
-                  "en": "Bank of England",
-                  "es": "Bank of England",
-                  "de": "Bank of England",
-                  "nl": "Bank of England"
-        },
-        {
-                  "en": "Gold reserve",
-                  "es": "Gold reserve",
-                  "de": "Gold reserve",
-                  "nl": "Gold reserve"
-        },
-        {
-                  "en": "Treasury department",
-                  "es": "Treasury department",
-                  "de": "Treasury department",
-                  "nl": "Treasury department"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Royal Mint produces all UK coins and has operated for over 1,100 years.",
-                  "es": "The Royal Mint produces all UK coins and has operated for over 1,100 years.",
-                  "de": "The Royal Mint produces all UK coins and has operated for over 1,100 years.",
-                  "nl": "The Royal Mint produces all UK coins and has operated for over 1,100 years."
-        }
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level2;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Pound",
+      "es": "Pregunta 2 sobre Pound",
+      "de": "Frage 2 über Pound",
+      "nl": "Vraag 2 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Pound",
+      "es": "Pregunta 3 sobre Pound",
+      "de": "Frage 3 über Pound",
+      "nl": "Vraag 3 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Pound",
+      "es": "Pregunta 4 sobre Pound",
+      "de": "Frage 4 über Pound",
+      "nl": "Vraag 4 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Pound",
+      "es": "Pregunta 5 sobre Pound",
+      "de": "Frage 5 über Pound",
+      "nl": "Vraag 5 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Pound",
+      "es": "Pregunta 6 sobre Pound",
+      "de": "Frage 6 über Pound",
+      "nl": "Vraag 6 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Pound",
+      "es": "Pregunta 7 sobre Pound",
+      "de": "Frage 7 über Pound",
+      "nl": "Vraag 7 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Pound",
+      "es": "Pregunta 8 sobre Pound",
+      "de": "Frage 8 über Pound",
+      "nl": "Vraag 8 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Pound",
+      "es": "Pregunta 9 sobre Pound",
+      "de": "Frage 9 über Pound",
+      "nl": "Vraag 9 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Pound",
+      "es": "Pregunta 10 sobre Pound",
+      "de": "Frage 10 über Pound",
+      "nl": "Vraag 10 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Pound",
+      "es": "Pregunta 11 sobre Pound",
+      "de": "Frage 11 über Pound",
+      "nl": "Vraag 11 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Pound",
+      "es": "Pregunta 12 sobre Pound",
+      "de": "Frage 12 über Pound",
+      "nl": "Vraag 12 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Pound",
+      "es": "Pregunta 13 sobre Pound",
+      "de": "Frage 13 über Pound",
+      "nl": "Vraag 13 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Pound",
+      "es": "Pregunta 14 sobre Pound",
+      "de": "Frage 14 über Pound",
+      "nl": "Vraag 14 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Pound",
+      "es": "Pregunta 15 sobre Pound",
+      "de": "Frage 15 über Pound",
+      "nl": "Vraag 15 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Pound",
+      "es": "Pregunta 16 sobre Pound",
+      "de": "Frage 16 über Pound",
+      "nl": "Vraag 16 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Pound",
+      "es": "Pregunta 17 sobre Pound",
+      "de": "Frage 17 über Pound",
+      "nl": "Vraag 17 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Pound",
+      "es": "Pregunta 18 sobre Pound",
+      "de": "Frage 18 über Pound",
+      "nl": "Vraag 18 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Pound",
+      "es": "Pregunta 19 sobre Pound",
+      "de": "Frage 19 über Pound",
+      "nl": "Vraag 19 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Pound",
+      "es": "Pregunta 20 sobre Pound",
+      "de": "Frage 20 über Pound",
+      "nl": "Vraag 20 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Pound",
+      "es": "Pregunta 21 sobre Pound",
+      "de": "Frage 21 über Pound",
+      "nl": "Vraag 21 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Pound",
+      "es": "Pregunta 22 sobre Pound",
+      "de": "Frage 22 über Pound",
+      "nl": "Vraag 22 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Pound",
+      "es": "Pregunta 23 sobre Pound",
+      "de": "Frage 23 über Pound",
+      "nl": "Vraag 23 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Pound",
+      "es": "Pregunta 24 sobre Pound",
+      "de": "Frage 24 über Pound",
+      "nl": "Vraag 24 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Pound",
+      "es": "Pregunta 25 sobre Pound",
+      "de": "Frage 25 über Pound",
+      "nl": "Vraag 25 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Pound",
+      "es": "Pregunta 26 sobre Pound",
+      "de": "Frage 26 über Pound",
+      "nl": "Vraag 26 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Pound",
+      "es": "Pregunta 27 sobre Pound",
+      "de": "Frage 27 über Pound",
+      "nl": "Vraag 27 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Pound",
+      "es": "Pregunta 28 sobre Pound",
+      "de": "Frage 28 über Pound",
+      "nl": "Vraag 28 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Pound",
+      "es": "Pregunta 29 sobre Pound",
+      "de": "Frage 29 über Pound",
+      "nl": "Vraag 29 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Pound",
+      "es": "Pregunta 30 sobre Pound",
+      "de": "Frage 30 über Pound",
+      "nl": "Vraag 30 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Pound",
+      "es": "Pregunta 31 sobre Pound",
+      "de": "Frage 31 über Pound",
+      "nl": "Vraag 31 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Pound",
+      "es": "Pregunta 32 sobre Pound",
+      "de": "Frage 32 über Pound",
+      "nl": "Vraag 32 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Pound",
+      "es": "Pregunta 33 sobre Pound",
+      "de": "Frage 33 über Pound",
+      "nl": "Vraag 33 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Pound",
+      "es": "Pregunta 34 sobre Pound",
+      "de": "Frage 34 über Pound",
+      "nl": "Vraag 34 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Pound",
+      "es": "Pregunta 35 sobre Pound",
+      "de": "Frage 35 über Pound",
+      "nl": "Vraag 35 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Pound",
+      "es": "Pregunta 36 sobre Pound",
+      "de": "Frage 36 über Pound",
+      "nl": "Vraag 36 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Pound",
+      "es": "Pregunta 37 sobre Pound",
+      "de": "Frage 37 über Pound",
+      "nl": "Vraag 37 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Pound",
+      "es": "Pregunta 38 sobre Pound",
+      "de": "Frage 38 über Pound",
+      "nl": "Vraag 38 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Pound",
+      "es": "Pregunta 39 sobre Pound",
+      "de": "Frage 39 über Pound",
+      "nl": "Vraag 39 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Pound",
+      "es": "Pregunta 40 sobre Pound",
+      "de": "Frage 40 über Pound",
+      "nl": "Vraag 40 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Pound",
+      "es": "Pregunta 41 sobre Pound",
+      "de": "Frage 41 über Pound",
+      "nl": "Vraag 41 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Pound",
+      "es": "Pregunta 42 sobre Pound",
+      "de": "Frage 42 über Pound",
+      "nl": "Vraag 42 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Pound",
+      "es": "Pregunta 43 sobre Pound",
+      "de": "Frage 43 über Pound",
+      "nl": "Vraag 43 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Pound",
+      "es": "Pregunta 44 sobre Pound",
+      "de": "Frage 44 über Pound",
+      "nl": "Vraag 44 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Pound",
+      "es": "Pregunta 45 sobre Pound",
+      "de": "Frage 45 über Pound",
+      "nl": "Vraag 45 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Pound",
+      "es": "Pregunta 46 sobre Pound",
+      "de": "Frage 46 über Pound",
+      "nl": "Vraag 46 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Pound",
+      "es": "Pregunta 47 sobre Pound",
+      "de": "Frage 47 über Pound",
+      "nl": "Vraag 47 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Pound",
+      "es": "Pregunta 48 sobre Pound",
+      "de": "Frage 48 über Pound",
+      "nl": "Vraag 48 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Pound",
+      "es": "Pregunta 49 sobre Pound",
+      "de": "Frage 49 über Pound",
+      "nl": "Vraag 49 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Pound",
+      "es": "Pregunta 50 sobre Pound",
+      "de": "Frage 50 über Pound",
+      "nl": "Vraag 50 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Pound",
+      "es": "Pregunta 51 sobre Pound",
+      "de": "Frage 51 über Pound",
+      "nl": "Vraag 51 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Pound",
+      "es": "Pregunta 52 sobre Pound",
+      "de": "Frage 52 über Pound",
+      "nl": "Vraag 52 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Pound",
+      "es": "Pregunta 53 sobre Pound",
+      "de": "Frage 53 über Pound",
+      "nl": "Vraag 53 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Pound",
+      "es": "Pregunta 54 sobre Pound",
+      "de": "Frage 54 über Pound",
+      "nl": "Vraag 54 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Pound",
+      "es": "Pregunta 55 sobre Pound",
+      "de": "Frage 55 über Pound",
+      "nl": "Vraag 55 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Pound",
+      "es": "Pregunta 56 sobre Pound",
+      "de": "Frage 56 über Pound",
+      "nl": "Vraag 56 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Pound",
+      "es": "Pregunta 57 sobre Pound",
+      "de": "Frage 57 über Pound",
+      "nl": "Vraag 57 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Pound",
+      "es": "Pregunta 58 sobre Pound",
+      "de": "Frage 58 über Pound",
+      "nl": "Vraag 58 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Pound",
+      "es": "Pregunta 59 sobre Pound",
+      "de": "Frage 59 über Pound",
+      "nl": "Vraag 59 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Pound",
+      "es": "Pregunta 60 sobre Pound",
+      "de": "Frage 60 über Pound",
+      "nl": "Vraag 60 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Pound",
+      "es": "Pregunta 61 sobre Pound",
+      "de": "Frage 61 über Pound",
+      "nl": "Vraag 61 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Pound",
+      "es": "Pregunta 62 sobre Pound",
+      "de": "Frage 62 über Pound",
+      "nl": "Vraag 62 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Pound",
+      "es": "Pregunta 63 sobre Pound",
+      "de": "Frage 63 über Pound",
+      "nl": "Vraag 63 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Pound",
+      "es": "Pregunta 64 sobre Pound",
+      "de": "Frage 64 über Pound",
+      "nl": "Vraag 64 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Pound",
+      "es": "Pregunta 65 sobre Pound",
+      "de": "Frage 65 über Pound",
+      "nl": "Vraag 65 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Pound",
+      "es": "Pregunta 66 sobre Pound",
+      "de": "Frage 66 über Pound",
+      "nl": "Vraag 66 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Pound",
+      "es": "Pregunta 67 sobre Pound",
+      "de": "Frage 67 über Pound",
+      "nl": "Vraag 67 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Pound",
+      "es": "Pregunta 68 sobre Pound",
+      "de": "Frage 68 über Pound",
+      "nl": "Vraag 68 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Pound",
+      "es": "Pregunta 69 sobre Pound",
+      "de": "Frage 69 über Pound",
+      "nl": "Vraag 69 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Pound",
+      "es": "Pregunta 70 sobre Pound",
+      "de": "Frage 70 über Pound",
+      "nl": "Vraag 70 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Pound",
+      "es": "Pregunta 71 sobre Pound",
+      "de": "Frage 71 über Pound",
+      "nl": "Vraag 71 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Pound",
+      "es": "Pregunta 72 sobre Pound",
+      "de": "Frage 72 über Pound",
+      "nl": "Vraag 72 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Pound",
+      "es": "Pregunta 73 sobre Pound",
+      "de": "Frage 73 über Pound",
+      "nl": "Vraag 73 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Pound",
+      "es": "Pregunta 74 sobre Pound",
+      "de": "Frage 74 über Pound",
+      "nl": "Vraag 74 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Pound",
+      "es": "Pregunta 75 sobre Pound",
+      "de": "Frage 75 über Pound",
+      "nl": "Vraag 75 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Pound",
+      "es": "Pregunta 76 sobre Pound",
+      "de": "Frage 76 über Pound",
+      "nl": "Vraag 76 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Pound",
+      "es": "Pregunta 77 sobre Pound",
+      "de": "Frage 77 über Pound",
+      "nl": "Vraag 77 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Pound",
+      "es": "Pregunta 78 sobre Pound",
+      "de": "Frage 78 über Pound",
+      "nl": "Vraag 78 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Pound",
+      "es": "Pregunta 79 sobre Pound",
+      "de": "Frage 79 über Pound",
+      "nl": "Vraag 79 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Pound",
+      "es": "Pregunta 80 sobre Pound",
+      "de": "Frage 80 über Pound",
+      "nl": "Vraag 80 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Pound",
+      "es": "Pregunta 81 sobre Pound",
+      "de": "Frage 81 über Pound",
+      "nl": "Vraag 81 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Pound",
+      "es": "Pregunta 82 sobre Pound",
+      "de": "Frage 82 über Pound",
+      "nl": "Vraag 82 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Pound",
+      "es": "Pregunta 83 sobre Pound",
+      "de": "Frage 83 über Pound",
+      "nl": "Vraag 83 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Pound",
+      "es": "Pregunta 84 sobre Pound",
+      "de": "Frage 84 über Pound",
+      "nl": "Vraag 84 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Pound",
+      "es": "Pregunta 85 sobre Pound",
+      "de": "Frage 85 über Pound",
+      "nl": "Vraag 85 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Pound",
+      "es": "Pregunta 86 sobre Pound",
+      "de": "Frage 86 über Pound",
+      "nl": "Vraag 86 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Pound",
+      "es": "Pregunta 87 sobre Pound",
+      "de": "Frage 87 über Pound",
+      "nl": "Vraag 87 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Pound",
+      "es": "Pregunta 88 sobre Pound",
+      "de": "Frage 88 über Pound",
+      "nl": "Vraag 88 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Pound",
+      "es": "Pregunta 89 sobre Pound",
+      "de": "Frage 89 über Pound",
+      "nl": "Vraag 89 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Pound",
+      "es": "Pregunta 90 sobre Pound",
+      "de": "Frage 90 über Pound",
+      "nl": "Vraag 90 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Pound",
+      "es": "Pregunta 91 sobre Pound",
+      "de": "Frage 91 über Pound",
+      "nl": "Vraag 91 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Pound",
+      "es": "Pregunta 92 sobre Pound",
+      "de": "Frage 92 über Pound",
+      "nl": "Vraag 92 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Pound",
+      "es": "Pregunta 93 sobre Pound",
+      "de": "Frage 93 über Pound",
+      "nl": "Vraag 93 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Pound",
+      "es": "Pregunta 94 sobre Pound",
+      "de": "Frage 94 über Pound",
+      "nl": "Vraag 94 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Pound",
+      "es": "Pregunta 95 sobre Pound",
+      "de": "Frage 95 über Pound",
+      "nl": "Vraag 95 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Pound",
+      "es": "Pregunta 96 sobre Pound",
+      "de": "Frage 96 über Pound",
+      "nl": "Vraag 96 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Pound",
+      "es": "Pregunta 97 sobre Pound",
+      "de": "Frage 97 über Pound",
+      "nl": "Vraag 97 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Pound",
+      "es": "Pregunta 98 sobre Pound",
+      "de": "Frage 98 über Pound",
+      "nl": "Vraag 98 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Pound",
+      "es": "Pregunta 99 sobre Pound",
+      "de": "Frage 99 über Pound",
+      "nl": "Vraag 99 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Pound",
+      "es": "Pregunta 100 sobre Pound",
+      "de": "Frage 100 über Pound",
+      "nl": "Vraag 100 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
   }
-})();
+]
+};

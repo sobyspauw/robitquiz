@@ -1,1659 +1,4104 @@
-// Great Wall of China Quiz - Level 2
-(function() {
-  const level2 = {
-    name: {
-          "en": "History",
-          "es": "Historia",
-          "de": "Geschichte",
-          "nl": "Geschiedenis"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Great Wall of China",
+      "es": "Pregunta 1 sobre Great Wall of China",
+      "de": "Frage 1 über Great Wall of China",
+      "nl": "Vraag 1 over Great Wall of China"
     },
-    questions: [
+    "options": [
       {
-        question: {
-                  "en": "During which period were the earliest sections of the Great Wall built?",
-                  "es": "¿Durante qué período se construyeron las primeras secciones de la Gran Muralla?",
-                  "de": "In welcher Zeit wurden die frühesten Abschnitte der Chinesischen Mauer gebaut?",
-                  "nl": "In welke periode werden de vroegste secties van de Chinese Muur gebouwd?"
-        },
-        options: [
-        {
-                  "en": "Warring States period",
-                  "es": "Período de los Reinos Combatientes",
-                  "de": "Zeit der Streitenden Reiche",
-                  "nl": "Periode van de Strijdende Staten"
-        },
-        {
-                  "en": "Song Dynasty",
-                  "es": "Dinastía Song",
-                  "de": "Song-Dynastie",
-                  "nl": "Song-dynastie"
-        },
-        {
-                  "en": "Yuan Dynasty",
-                  "es": "Dinastía Yuan",
-                  "de": "Yuan-Dynastie",
-                  "nl": "Yuan-dynastie"
-        },
-        {
-                  "en": "Tang Dynasty",
-                  "es": "Dinastía Tang",
-                  "de": "Tang-Dynastie",
-                  "nl": "Tang-dynastie"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The earliest walls were built during the Warring States period (475-221 BC) by various states to defend their territories before China was unified.",
-                  "es": "Los primeros muros se construyeron durante el período de los Reinos Combatientes (475-221 a.C.) por varios estados para defender sus territorios antes de que China fuera unificada.",
-                  "de": "Die frühesten Mauern wurden während der Zeit der Streitenden Reiche (475-221 v. Chr.) von verschiedenen Staaten gebaut, um ihre Territorien zu verteidigen, bevor China vereinigt wurde.",
-                  "nl": "De vroegste muren werden gebouwd tijdens de periode van de Strijdende Staten (475-221 v.Chr.) door verschillende staten om hun gebieden te verdedigen voordat China werd verenigd."
-        }
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
       },
       {
-        question: {
-                  "en": "What did Qin Shi Huang do with the pre-existing wall sections?",
-                  "es": "¿Qué hizo Qin Shi Huang con las secciones de muro preexistentes?",
-                  "de": "Was machte Qin Shi Huang mit den bereits existierenden Mauerabschnitten?",
-                  "nl": "Wat deed Qin Shi Huang met de reeds bestaande muursecties?"
-        },
-        options: [
-        {
-                  "en": "He left them unchanged",
-                  "es": "Las dejó sin cambios",
-                  "de": "Er ließ sie unverändert",
-                  "nl": "Hij liet ze onveranderd"
-        },
-        {
-                  "en": "He moved them further south",
-                  "es": "Las movió más al sur",
-                  "de": "Er verlegte sie weiter nach Süden",
-                  "nl": "Hij verplaatste ze verder naar het zuiden"
-        },
-        {
-                  "en": "He destroyed them completely",
-                  "es": "Las destruyó completamente",
-                  "de": "Er zerstörte sie vollständig",
-                  "nl": "Hij vernietigde ze volledig"
-        },
-        {
-                  "en": "He connected and extended them",
-                  "es": "Las conectó y extendió",
-                  "de": "Er verband und erweiterte sie",
-                  "nl": "Hij verbond en breidde ze uit"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Qin Shi Huang ordered the connection of pre-existing walls built by different states and extended them to create a unified defensive system.",
-                  "es": "Qin Shi Huang ordenó la conexión de los muros preexistentes construidos por diferentes estados y los extendió para crear un sistema defensivo unificado.",
-                  "de": "Qin Shi Huang ordnete die Verbindung bereits existierender Mauern an, die von verschiedenen Staaten gebaut wurden, und erweiterte sie zu einem einheitlichen Verteidigungssystem.",
-                  "nl": "Qin Shi Huang gaf opdracht tot het verbinden van reeds bestaande muren gebouwd door verschillende staten en breidde ze uit om een verenigd verdedigingssysteem te creëren."
-        }
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
       },
       {
-        question: {
-                  "en": "How long did it take to build the initial unified Great Wall under the Qin Dynasty?",
-                  "es": "¿Cuánto tiempo tomó construir la Gran Muralla unificada inicial bajo la Dinastía Qin?",
-                  "de": "Wie lange dauerte es, die erste vereinigte Chinesische Mauer unter der Qin-Dynastie zu bauen?",
-                  "nl": "Hoe lang duurde het om de initiële verenigde Chinese Muur te bouwen onder de Qin-dynastie?"
-        },
-        options: [
-        {
-                  "en": "100 yrs",
-                  "es": "100 años",
-                  "de": "100 Jahre",
-                  "nl": "100 jaar"
-        },
-        {
-                  "en": "5 yrs",
-                  "es": "5 años",
-                  "de": "5 Jahre",
-                  "nl": "5 jaar"
-        },
-        {
-                  "en": "About 10 yrs",
-                  "es": "Alrededor de 10 años",
-                  "de": "Etwa 10 Jahre",
-                  "nl": "Ongeveer 10 jaar"
-        },
-        {
-                  "en": "50 yrs",
-                  "es": "50 años",
-                  "de": "50 Jahre",
-                  "nl": "50 jaar"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The construction of the initial unified Great Wall under Qin Shi Huang took approximately 10 years, from around 221-210 BC, employing hundreds of thousands of workers.",
-                  "es": "La construcción de la Gran Muralla unificada inicial bajo Qin Shi Huang tomó aproximadamente 10 años, desde alrededor del 221-210 a.C., empleando cientos de miles de trabajadores.",
-                  "de": "Der Bau der ersten vereinigten Chinesischen Mauer unter Qin Shi Huang dauerte etwa 10 Jahre, von etwa 221-210 v. Chr., wobei Hunderttausende von Arbeitern beschäftigt waren.",
-                  "nl": "De bouw van de initiële verenigde Chinese Muur onder Qin Shi Huang duurde ongeveer 10 jaar, van ongeveer 221-210 v.Chr., waarbij honderdduizenden arbeiders werden ingezet."
-        }
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
       },
       {
-        question: {
-                  "en": "Who comprised the workforce that built the Great Wall?",
-                  "es": "¿Quiénes componían la fuerza laboral que construyó la Gran Muralla?",
-                  "de": "Aus wem bestand die Arbeiterschaft, die die Chinesische Mauer baute?",
-                  "nl": "Uit wie bestond de arbeidskracht die de Chinese Muur bouwde?"
-        },
-        options: [
-        {
-                  "en": "Soldiers, peasants, and prisoners",
-                  "es": "Soldados, campesinos y prisioneros",
-                  "de": "Soldaten, Bauern und Gefangene",
-                  "nl": "Soldaten, boeren en gevangenen"
-        },
-        {
-                  "en": "Foreign slaves",
-                  "es": "Esclavos extranjeros",
-                  "de": "Ausländische Sklaven",
-                  "nl": "Buitenlandse slaven"
-        },
-        {
-                  "en": "Only professional builders",
-                  "es": "Solo constructores profesionales",
-                  "de": "Nur professionelle Bauarbeiter",
-                  "nl": "Alleen professionele bouwers"
-        },
-        {
-                  "en": "Volunteers only",
-                  "es": "Solo voluntarios",
-                  "de": "Nur Freiwillige",
-                  "nl": "Alleen vrijwilligers"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Great Wall was built by a diverse workforce including soldiers, peasants performing corvée labor, and prisoners serving punishment through forced labor.",
-                  "es": "La Gran Muralla fue construida por una fuerza laboral diversa que incluía soldados, campesinos realizando trabajo de corvea y prisioneros cumpliendo castigo mediante trabajo forzado.",
-                  "de": "Die Chinesische Mauer wurde von einer vielfältigen Arbeiterschaft gebaut, darunter Soldaten, Bauern, die Fronarbeit leisteten, und Gefangene, die durch Zwangsarbeit ihre Strafe verbüßten.",
-                  "nl": "De Chinese Muur werd gebouwd door een diverse arbeidskracht bestaande uit soldaten, boeren die herendienst verrichtten en gevangenen die hun straf uitzaten door dwangarbeid."
-        }
-      },
-      {
-        question: {
-                  "en": "What construction method was used to create the earthen sections of the wall?",
-                  "es": "¿Qué método de construcción se usó para crear las secciones de tierra del muro?",
-                  "de": "Welche Baumethode wurde verwendet, um die Erdabschnitte der Mauer zu erstellen?",
-                  "nl": "Welke bouwmethode werd gebruikt om de aarden secties van de muur te maken?"
-        },
-        options: [
-        {
-                  "en": "Rammed earth technique",
-                  "es": "Técnica de tierra apisonada",
-                  "de": "Stampflehm-Technik",
-                  "nl": "Aangestampte aarde techniek"
-        },
-        {
-                  "en": "Sand compaction",
-                  "es": "Compactación de arena",
-                  "de": "Sandverdichtung",
-                  "nl": "Zandcompactie"
-        },
-        {
-                  "en": "Mud brick stacking",
-                  "es": "Apilamiento de ladrillos de barro",
-                  "de": "Lehmziegelstapelung",
-                  "nl": "Moddersteenstapeling"
-        },
-        {
-                  "en": "Clay molding",
-                  "es": "Moldeado de arcilla",
-                  "de": "Tonformung",
-                  "nl": "Kleivorming"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The rammed earth technique (hangtu) was used, where layers of earth were compressed between wooden frames to create solid, durable walls.",
-                  "es": "Se utilizó la técnica de tierra apisonada (hangtu), donde se comprimían capas de tierra entre marcos de madera para crear muros sólidos y duraderos.",
-                  "de": "Die Stampflehm-Technik (Hangtu) wurde verwendet, bei der Erdschichten zwischen Holzrahmen verdichtet wurden, um solide, langlebige Mauern zu schaffen.",
-                  "nl": "De aangestampte aarde techniek (hangtu) werd gebruikt, waarbij lagen aarde werden samengeperst tussen houten frames om solide, duurzame muren te creëren."
-        }
-      },
-      {
-        question: {
-                  "en": "During which dynasty was the Great Wall extended furthest west?",
-                  "es": "¿Durante qué dinastía se extendió la Gran Muralla más al oeste?",
-                  "de": "Unter welcher Dynastie wurde die Chinesische Mauer am weitesten nach Westen erweitert?",
-                  "nl": "Tijdens welke dynastie werd de Chinese Muur het verst naar het westen uitgebreid?"
-        },
-        options: [
-        {
-                  "en": "Han Dynasty",
-                  "es": "Dinastía Han",
-                  "de": "Han-Dynastie",
-                  "nl": "Han-dynastie"
-        },
-        {
-                  "en": "Qin Dynasty",
-                  "es": "Dinastía Qin",
-                  "de": "Qin-Dynastie",
-                  "nl": "Qin-dynastie"
-        },
-        {
-                  "en": "Ming Dynasty",
-                  "es": "Dinastía Ming",
-                  "de": "Ming-Dynastie",
-                  "nl": "Ming-dynastie"
-        },
-        {
-                  "en": "Song Dynasty",
-                  "es": "Dinastía Song",
-                  "de": "Song-Dynastie",
-                  "nl": "Song-dynastie"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Han Dynasty (206 BC - 220 AD) extended the Great Wall furthest west into the Gobi Desert to protect the Silk Road trade routes.",
-                  "es": "La Dinastía Han (206 a.C. - 220 d.C.) extendió la Gran Muralla más al oeste en el Desierto de Gobi para proteger las rutas comerciales de la Ruta de la Seda.",
-                  "de": "Die Han-Dynastie (206 v. Chr. - 220 n. Chr.) erweiterte die Chinesische Mauer am weitesten nach Westen in die Wüste Gobi, um die Handelsrouten der Seidenstraße zu schützen.",
-                  "nl": "De Han-dynastie (206 v.Chr. - 220 n.Chr.) breidde de Chinese Muur het verst naar het westen uit in de Gobi-woestijn om de handelsroutes van de Zijderoute te beschermen."
-        }
-      },
-      {
-        question: {
-                  "en": "What innovation did the Ming Dynasty introduce to wall construction?",
-                  "es": "¿Qué innovación introdujo la Dinastía Ming en la construcción de muros?",
-                  "de": "Welche Innovation führte die Ming-Dynastie beim Mauerbau ein?",
-                  "nl": "Welke innovatie introduceerde de Ming-dynastie in de muurbouw?"
-        },
-        options: [
-        {
-                  "en": "Use of concrete",
-                  "es": "Uso de hormigón",
-                  "de": "Verwendung von Beton",
-                  "nl": "Gebruik van beton"
-        },
-        {
-                  "en": "Metal reinforcement",
-                  "es": "Refuerzo metálico",
-                  "de": "Metallverstärkung",
-                  "nl": "Metalen versterking"
-        },
-        {
-                  "en": "Extensive use of bricks and stone",
-                  "es": "Uso extensivo de ladrillos y piedra",
-                  "de": "Ausgiebige Verwendung von Ziegeln und Stein",
-                  "nl": "Uitgebreid gebruik van bakstenen en steen"
-        },
-        {
-                  "en": "Glass windows",
-                  "es": "Ventanas de vidrio",
-                  "de": "Glasfenster",
-                  "nl": "Glazen ramen"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The Ming Dynasty made extensive use of bricks and stone instead of rammed earth, creating the stronger, more durable sections that survive today.",
-                  "es": "La Dinastía Ming hizo un uso extensivo de ladrillos y piedra en lugar de tierra apisonada, creando las secciones más fuertes y duraderas que sobreviven hoy.",
-                  "de": "Die Ming-Dynastie verwendete ausgiebig Ziegel und Stein anstelle von Stampflehm und schuf die stärkeren, langlebigeren Abschnitte, die heute noch existieren.",
-                  "nl": "De Ming-dynastie maakte uitgebreid gebruik van bakstenen en steen in plaats van aangestampte aarde, waardoor de sterkere, duurzamere secties werden gecreëerd die vandaag nog bestaan."
-        }
-      },
-      {
-        question: {
-                  "en": "How were building materials transported to construction sites in mountainous areas?",
-                  "es": "¿Cómo se transportaban los materiales de construcción a los sitios de construcción en áreas montañosas?",
-                  "de": "Wie wurden Baumaterialien zu Baustellen in bergigen Gebieten transportiert?",
-                  "nl": "Hoe werden bouwmaterialen naar bouwplaatsen in bergachtige gebieden getransporteerd?"
-        },
-        options: [
-        {
-                  "en": "By river boats",
-                  "es": "Por botes fluviales",
-                  "de": "Per Flussboote",
-                  "nl": "Via rivierboten"
-        },
-        {
-                  "en": "By helicopter",
-                  "es": "Por helicóptero",
-                  "de": "Per Hubschrauber",
-                  "nl": "Per helikopter"
-        },
-        {
-                  "en": "By human carriers, goats, and simple tools",
-                  "es": "Por cargadores humanos, cabras y herramientas simples",
-                  "de": "Durch menschliche Träger, Ziegen und einfache Werkzeuge",
-                  "nl": "Door menselijke dragers, geiten en eenvoudige gereedschappen"
-        },
-        {
-                  "en": "By cable systems",
-                  "es": "Por sistemas de cables",
-                  "de": "Durch Seilsysteme",
-                  "nl": "Via kabelsystemen"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Materials were carried by human laborers, pack animals like goats, and using simple tools like baskets, wheelbarrows, and pulleys to navigate the difficult terrain.",
-                  "es": "Los materiales eran transportados por trabajadores humanos, animales de carga como cabras, y usando herramientas simples como cestas, carretillas y poleas para navegar el terreno difícil.",
-                  "de": "Materialien wurden von menschlichen Arbeitern, Lasttieren wie Ziegen transportiert und mit einfachen Werkzeugen wie Körben, Schubkarren und Flaschenzügen durch das schwierige Gelände bewegt.",
-                  "nl": "Materialen werden gedragen door menselijke arbeiders, lastdieren zoals geiten, en met gebruik van eenvoudige gereedschappen zoals manden, kruiwagens en katrolsystemen om door het moeilijke terrein te navigeren."
-        }
-      },
-      {
-        question: {
-                  "en": "What happened to much of the Great Wall during the Qing Dynasty?",
-                  "es": "¿Qué pasó con gran parte de la Gran Muralla durante la Dinastía Qing?",
-                  "de": "Was geschah mit einem Großteil der Chinesischen Mauer während der Qing-Dynastie?",
-                  "nl": "Wat gebeurde er met een groot deel van de Chinese Muur tijdens de Qing-dynastie?"
-        },
-        options: [
-        {
-                  "en": "It was extended further north",
-                  "es": "Fue extendida más al norte",
-                  "de": "Sie wurde weiter nach Norden erweitert",
-                  "nl": "Het werd verder naar het noorden uitgebreid"
-        },
-        {
-                  "en": "It was completely rebuilt",
-                  "es": "Fue completamente reconstruida",
-                  "de": "Sie wurde vollständig umgebaut",
-                  "nl": "Het werd volledig herbouwd"
-        },
-        {
-                  "en": "It was converted to a highway",
-                  "es": "Fue convertida en una carretera",
-                  "de": "Sie wurde zu einer Autobahn umgebaut",
-                  "nl": "Het werd omgebouwd tot een snelweg"
-        },
-        {
-                  "en": "It was neglected and fell into disrepair",
-                  "es": "Fue descuidada y cayó en mal estado",
-                  "de": "Sie wurde vernachlässigt und verfiel",
-                  "nl": "Het werd verwaarloosd en raakte in verval"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "During the Qing Dynasty (1644-1912), the wall was largely neglected as the Manchu rulers had come from beyond the wall and saw less strategic value in maintaining it.",
-                  "es": "Durante la Dinastía Qing (1644-1912), la muralla fue en gran medida descuidada ya que los gobernantes manchúes habían venido de más allá de la muralla y veían menos valor estratégico en mantenerla.",
-                  "de": "Während der Qing-Dynastie (1644-1912) wurde die Mauer weitgehend vernachlässigt, da die Mandschu-Herrscher von jenseits der Mauer kamen und weniger strategischen Wert darin sahen, sie zu erhalten.",
-                  "nl": "Tijdens de Qing-dynastie (1644-1912) werd de muur grotendeels verwaarloosd omdat de Mantsjoe-heersers van voorbij de muur kwamen en minder strategische waarde zagen in het onderhouden ervan."
-        }
-      },
-      {
-        question: {
-                  "en": "What was sticky rice mortar used for in the Great Wall's construction?",
-                  "es": "¿Para qué se usó el mortero de arroz glutinoso en la construcción de la Gran Muralla?",
-                  "de": "Wofür wurde Klebreis-Mörtel beim Bau der Chinesischen Mauer verwendet?",
-                  "nl": "Waarvoor werd kleverige rijstmortel gebruikt bij de bouw van de Chinese Muur?"
-        },
-        options: [
-        {
-                  "en": "To waterproof the walls",
-                  "es": "Para impermeabilizar los muros",
-                  "de": "Zur Abdichtung der Mauern",
-                  "nl": "Om de muren waterdicht te maken"
-        },
-        {
-                  "en": "As food for workers",
-                  "es": "Como alimento para trabajadores",
-                  "de": "Als Nahrung für Arbeiter",
-                  "nl": "Als voedsel voor arbeiders"
-        },
-        {
-                  "en": "For decorative purposes",
-                  "es": "Con fines decorativos",
-                  "de": "Für dekorative Zwecke",
-                  "nl": "Voor decoratieve doeleinden"
-        },
-        {
-                  "en": "As a binding agent for bricks and stones",
-                  "es": "Como agente aglutinante para ladrillos y piedras",
-                  "de": "Als Bindemittel für Ziegel und Steine",
-                  "nl": "Als bindmiddel voor bakstenen en stenen"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Sticky rice mortar, mixed with lime, was used during the Ming Dynasty as a highly effective binding agent that made the wall extremely strong and durable.",
-                  "es": "El mortero de arroz glutinoso, mezclado con cal, se usó durante la Dinastía Ming como un agente aglutinante altamente efectivo que hizo la muralla extremadamente fuerte y duradera.",
-                  "de": "Klebreis-Mörtel, gemischt mit Kalk, wurde während der Ming-Dynastie als hocheffektives Bindemittel verwendet, das die Mauer extrem stark und langlebig machte.",
-                  "nl": "Kleverige rijstmortel, gemengd met kalk, werd tijdens de Ming-dynastie gebruikt als een zeer effectief bindmiddel dat de muur extreem sterk en duurzaam maakte."
-        }
-      },
-      {
-        question: {
-                  "en": "How long did the total construction of the Great Wall span across different dynasties?",
-                  "es": "¿Cuánto tiempo abarcó la construcción total de la Gran Muralla a través de diferentes dinastías?",
-                  "de": "Wie lange dauerte der gesamte Bau der Chinesischen Mauer über verschiedene Dynastien hinweg?",
-                  "nl": "Hoe lang duurde de totale bouw van de Chinese Muur over verschillende dynastieën heen?"
-        },
-        options: [
-        {
-                  "en": "3,500 yrs",
-                  "es": "3.500 años",
-                  "de": "3.500 Jahre",
-                  "nl": "3.500 jaar"
-        },
-        {
-                  "en": "500 yrs",
-                  "es": "500 años",
-                  "de": "500 Jahre",
-                  "nl": "500 jaar"
-        },
-        {
-                  "en": "1,000 yrs",
-                  "es": "1.000 años",
-                  "de": "1.000 Jahre",
-                  "nl": "1.000 jaar"
-        },
-        {
-                  "en": "Over 2,000 yrs",
-                  "es": "Más de 2.000 años",
-                  "de": "Über 2.000 Jahre",
-                  "nl": "Meer dan 2.000 jaar"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Construction of the Great Wall spanned over 2,000 years, from the 7th century BC through the Ming Dynasty (ended 1644), with different dynasties building and extending various sections.",
-                  "es": "La construcción de la Gran Muralla abarcó más de 2.000 años, desde el siglo VII a.C. hasta la Dinastía Ming (terminó en 1644), con diferentes dinastías construyendo y extendiendo varias secciones.",
-                  "de": "Der Bau der Chinesischen Mauer erstreckte sich über 2.000 Jahre, vom 7. Jahrhundert v. Chr. bis zur Ming-Dynastie (endete 1644), wobei verschiedene Dynastien verschiedene Abschnitte bauten und erweiterten.",
-                  "nl": "De bouw van de Chinese Muur duurde meer dan 2.000 jaar, van de 7e eeuw v.Chr. tot de Ming-dynastie (eindigde in 1644), waarbij verschillende dynastieën verschillende secties bouwden en uitbreidden."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the primary building material used in desert sections of the Great Wall?",
-                  "es": "¿Cuál fue el material de construcción principal usado en las secciones desérticas de la Gran Muralla?",
-                  "de": "Was war das Hauptbaumaterial in den Wüstenabschnitten der Chinesischen Mauer?",
-                  "nl": "Wat was het primaire bouwmateriaal dat werd gebruikt in woestijnsecties van de Chinese Muur?"
-        },
-        options: [
-        {
-                  "en": "Brick",
-                  "es": "Ladrillo",
-                  "de": "Ziegel",
-                  "nl": "Baksteen"
-        },
-        {
-                  "en": "Adobe",
-                  "es": "Adobe",
-                  "de": "Lehm",
-                  "nl": "Adobe"
-        },
-        {
-                  "en": "Sandstone blocks",
-                  "es": "Bloques de arenisca",
-                  "de": "Sandsteinblöcke",
-                  "nl": "Zandsteenblokken"
-        },
-        {
-                  "en": "Tamarisk branches and reed",
-                  "es": "Ramas de tamarisco y junco",
-                  "de": "Tamariskenzweige und Schilf",
-                  "nl": "Tamarisk takken en riet"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "In desert regions where stone and brick were scarce, builders used layers of tamarisk branches, reed, and gravel bound together with sand and clay.",
-                  "es": "En regiones desérticas donde la piedra y el ladrillo escaseaban, los constructores usaban capas de ramas de tamarisco, junco y grava unidos con arena y arcilla.",
-                  "de": "In Wüstenregionen, wo Stein und Ziegel knapp waren, verwendeten die Bauarbeiter Schichten aus Tamariskenzweigen, Schilf und Kies, die mit Sand und Lehm verbunden waren.",
-                  "nl": "In woestijngebieden waar steen en baksteen schaars waren, gebruikten bouwers lagen tamarisk takken, riet en grind die met zand en klei werden verbonden."
-        }
-      },
-      {
-        question: {
-                  "en": "Why was the Great Wall built with different materials in different regions?",
-                  "es": "¿Por qué se construyó la Gran Muralla con diferentes materiales en diferentes regiones?",
-                  "de": "Warum wurde die Chinesische Mauer in verschiedenen Regionen mit unterschiedlichen Materialien gebaut?",
-                  "nl": "Waarom werd de Chinese Muur in verschillende regio's met verschillende materialen gebouwd?"
-        },
-        options: [
-        {
-                  "en": "Due to availability of local materials",
-                  "es": "Debido a la disponibilidad de materiales locales",
-                  "de": "Aufgrund der Verfügbarkeit lokaler Materialien",
-                  "nl": "Door beschikbaarheid van lokale materialen"
-        },
-        {
-                  "en": "To confuse invaders",
-                  "es": "Para confundir a los invasores",
-                  "de": "Um Eindringlinge zu verwirren",
-                  "nl": "Om indringers te verwarren"
-        },
-        {
-                  "en": "For aesthetic variety",
-                  "es": "Por variedad estética",
-                  "de": "Für ästhetische Vielfalt",
-                  "nl": "Voor esthetische variatie"
-        },
-        {
-                  "en": "Different emperors had different preferences",
-                  "es": "Diferentes emperadores tenían diferentes preferencias",
-                  "de": "Verschiedene Kaiser hatten unterschiedliche Vorlieben",
-                  "nl": "Verschillende keizers hadden verschillende voorkeuren"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Builders used locally available materials to reduce transportation costs and time. Mountains provided stone, plains had earth, and forests supplied wood.",
-                  "es": "Los constructores usaban materiales disponibles localmente para reducir costos y tiempo de transporte. Las montañas proporcionaban piedra, las llanuras tenían tierra y los bosques suministraban madera.",
-                  "de": "Bauarbeiter verwendeten lokal verfügbare Materialien, um Transport kosten und -zeit zu reduzieren. Berge lieferten Stein, Ebenen hatten Erde und Wälder stellten Holz bereit.",
-                  "nl": "Bouwers gebruikten lokaal beschikbare materialen om transportkosten en tijd te verminderen. Bergen leverden steen, vlaktes hadden aarde en bossen leverden hout."
-        }
-      },
-      {
-        question: {
-                  "en": "What major reconstruction effort began in the 1950s?",
-                  "es": "¿Qué importante esfuerzo de reconstrucción comenzó en la década de 1950?",
-                  "de": "Welche große Wiederaufbaumaßnahme begann in den 1950er Jahren?",
-                  "nl": "Welke grote wederopbouwinspanning begon in de jaren 1950?"
-        },
-        options: [
-        {
-                  "en": "Restoration and preservation for tourism",
-                  "es": "Restauración y preservación para el turismo",
-                  "de": "Restaurierung und Erhaltung für den Tourismus",
-                  "nl": "Restauratie en behoud voor toerisme"
-        },
-        {
-                  "en": "Complete demolition and rebuilding",
-                  "es": "Demolición completa y reconstrucción",
-                  "de": "Vollständiger Abriss und Wiederaufbau",
-                  "nl": "Volledige afbraak en herbouw"
-        },
-        {
-                  "en": "Converting it into a military base",
-                  "es": "Convertirla en una base militar",
-                  "de": "Umwandlung in eine Militärbasis",
-                  "nl": "Omzetten naar een militaire basis"
-        },
-        {
-                  "en": "Adding modern fortifications",
-                  "es": "Añadir fortificaciones modernas",
-                  "de": "Hinzufügen moderner Befestigungen",
-                  "nl": "Toevoegen van moderne fortificaties"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "In the 1950s, the Chinese government began systematic restoration of certain sections, particularly Badaling, to preserve the wall and develop it as a tourist attraction.",
-                  "es": "En la década de 1950, el gobierno chino comenzó la restauración sistemática de ciertas secciones, particularmente Badaling, para preservar la muralla y desarrollarla como atracción turística.",
-                  "de": "In den 1950er Jahren begann die chinesische Regierung mit der systematischen Restaurierung bestimmter Abschnitte, insbesondere Badaling, um die Mauer zu erhalten und als Touristenattraktion zu entwickeln.",
-                  "nl": "In de jaren 1950 begon de Chinese regering met systematische restauratie van bepaalde secties, met name Badaling, om de muur te behouden en te ontwikkelen als toeristische attractie."
-        }
-      },
-      {
-        question: {
-                  "en": "What construction technique helped the wall withstand earthquakes?",
-                  "es": "¿Qué técnica de construcción ayudó al muro a resistir terremotos?",
-                  "de": "Welche Bautechnik half der Mauer, Erdbeben standzuhalten?",
-                  "nl": "Welke bouwtechniek hielp de muur om aardbevingen te weerstaan?"
-        },
-        options: [
-        {
-                  "en": "Rubber foundations",
-                  "es": "Cimientos de caucho",
-                  "de": "Gummifundamente",
-                  "nl": "Rubberen funderingen"
-        },
-        {
-                  "en": "Deep anchoring",
-                  "es": "Anclaje profundo",
-                  "de": "Tiefe Verankerung",
-                  "nl": "Diepe verankering"
-        },
-        {
-                  "en": "Flexible mortar joints",
-                  "es": "Juntas de mortero flexibles",
-                  "de": "Flexible Mörtelfugen",
-                  "nl": "Flexibele mortelvoegen"
-        },
-        {
-                  "en": "Steel reinforcement bars",
-                  "es": "Barras de refuerzo de acero",
-                  "de": "Stahlbewehrungsstäbe",
-                  "nl": "Stalen wapeningsstaven"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The use of glutinous rice mortar created flexible joints between bricks and stones, allowing slight movement during earthquakes without collapse.",
-                  "es": "El uso de mortero de arroz glutinoso creó juntas flexibles entre ladrillos y piedras, permitiendo movimiento ligero durante terremotos sin colapso.",
-                  "de": "Die Verwendung von Klebreis-Mörtel schuf flexible Fugen zwischen Ziegeln und Steinen, die bei Erdbeben leichte Bewegungen ohne Einsturz ermöglichten.",
-                  "nl": "Het gebruik van kleverige rijstmortel creëerde flexibele voegen tussen bakstenen en stenen, waardoor lichte beweging tijdens aardbevingen mogelijk was zonder instorting."
-        }
-      },
-      {
-        question: {
-                  "en": "How did builders adapt construction techniques in mountainous terrain?",
-                  "es": "¿Cómo adaptaron los constructores las técnicas de construcción en terreno montañoso?",
-                  "de": "Wie passten die Bauarbeiter die Bautechniken im Berggelände an?",
-                  "nl": "Hoe pasten bouwers bouwtechnieken aan in bergachtig terrein?"
-        },
-        options: [
-        {
-                  "en": "They avoided mountains completely",
-                  "es": "Evitaron completamente las montañas",
-                  "de": "Sie mieden Berge vollständig",
-                  "nl": "Ze vermeden bergen volledig"
-        },
-        {
-                  "en": "They used explosives to level terrain",
-                  "es": "Usaron explosivos para nivelar el terreno",
-                  "de": "Sie verwendeten Sprengstoff zum Einebnen des Geländes",
-                  "nl": "Ze gebruikten explosieven om terrein te nivelleren"
-        },
-        {
-                  "en": "They followed ridge lines and used natural slopes",
-                  "es": "Siguieron las líneas de las crestas y usaron pendientes naturales",
-                  "de": "Sie folgten Gebirgskämmen und nutzten natürliche Hänge",
-                  "nl": "Ze volgden bergkamlijnen en gebruikten natuurlijke hellingen"
-        },
-        {
-                  "en": "They tunneled through mountains",
-                  "es": "Hicieron túneles a través de las montañas",
-                  "de": "Sie gruben Tunnel durch Berge",
-                  "nl": "Ze groeven tunnels door bergen"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Builders strategically followed mountain ridge lines, incorporating natural slopes and peaks into the wall's design to maximize defensive advantage while minimizing construction difficulty.",
-                  "es": "Los constructores siguieron estratégicamente las líneas de las crestas montañosas, incorporando pendientes y picos naturales en el diseño del muro para maximizar la ventaja defensiva mientras minimizaban la dificultad de construcción.",
-                  "de": "Bauarbeiter folgten strategisch den Bergkämmen und integrierten natürliche Hänge und Gipfel in das Design der Mauer, um den Verteidigungsvorteil zu maximieren und gleichzeitig die Bauschwierigkeiten zu minimieren.",
-                  "nl": "Bouwers volgden strategisch bergkamlijnen en integreerden natuurlijke hellingen en toppen in het ontwerp van de muur om defensieve voordelen te maximaliseren terwijl ze bouwmoeilijkheden minimaliseerden."
-        }
-      },
-      {
-        question: {
-                  "en": "What happened to many sections of the Great Wall during the Cultural Revolution?",
-                  "es": "¿Qué pasó con muchas secciones de la Gran Muralla durante la Revolución Cultural?",
-                  "de": "Was geschah mit vielen Abschnitten der Chinesischen Mauer während der Kulturrevolution?",
-                  "nl": "Wat gebeurde er met veel secties van de Chinese Muur tijdens de Culturele Revolutie?"
-        },
-        options: [
-        {
-                  "en": "They were damaged as bricks were taken for other construction",
-                  "es": "Fueron dañadas ya que se tomaron ladrillos para otras construcciones",
-                  "de": "Sie wurden beschädigt, da Ziegel für andere Bauten entnommen wurden",
-                  "nl": "Ze werden beschadigd doordat stenen werden gebruikt voor andere constructies"
-        },
-        {
-                  "en": "They were completely rebuilt",
-                  "es": "Fueron completamente reconstruidas",
-                  "de": "Sie wurden vollständig umgebaut",
-                  "nl": "Ze werden volledig herbouwd"
-        },
-        {
-                  "en": "They were extensively restored",
-                  "es": "Fueron ampliamente restauradas",
-                  "de": "Sie wurden umfassend restauriert",
-                  "nl": "Ze werden uitgebreid gerestaureerd"
-        },
-        {
-                  "en": "They were declared protected monuments",
-                  "es": "Fueron declaradas monumentos protegidos",
-                  "de": "Sie wurden zu geschützten Denkmälern erklärt",
-                  "nl": "Ze werden uitgeroepen tot beschermde monumenten"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "During the Cultural Revolution (1966-1976), many sections of the Great Wall were damaged as people took bricks and stones for local construction projects, and the wall was sometimes seen as a symbol of feudalism.",
-                  "es": "Durante la Revolución Cultural (1966-1976), muchas secciones de la Gran Muralla fueron dañadas ya que la gente tomó ladrillos y piedras para proyectos de construcción local, y la muralla a veces era vista como un símbolo del feudalismo.",
-                  "de": "Während der Kulturrevolution (1966-1976) wurden viele Abschnitte der Chinesischen Mauer beschädigt, da Menschen Ziegel und Steine für lokale Bauvorhaben nahmen, und die Mauer manchmal als Symbol des Feudalismus angesehen wurde.",
-                  "nl": "Tijdens de Culturele Revolutie (1966-1976) werden veel secties van de Chinese Muur beschadigd omdat mensen stenen en bakstenen namen voor lokale bouwprojecten, en de muur werd soms gezien als een symbool van feodalisme."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the typical width of the Great Wall at its base?",
-                  "es": "¿Cuál era el ancho típico de la Gran Muralla en su base?",
-                  "de": "Wie breit war die Chinesische Mauer typischerweise an ihrer Basis?",
-                  "nl": "Wat was de typische breedte van de Chinese Muur aan de basis?"
-        },
-        options: [
-        {
-                  "en": "1-2 m",
-                  "es": "1-2 metros",
-                  "de": "1-2 Meter",
-                  "nl": "1-2 meter"
-        },
-        {
-                  "en": "15-20 m",
-                  "es": "15-20 metros",
-                  "de": "15-20 Meter",
-                  "nl": "15-20 meter"
-        },
-        {
-                  "en": "10-12 m",
-                  "es": "10-12 metros",
-                  "de": "10-12 Meter",
-                  "nl": "10-12 meter"
-        },
-        {
-                  "en": "5-8 m",
-                  "es": "5-8 metros",
-                  "de": "5-8 Meter",
-                  "nl": "5-8 meter"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The Great Wall was typically 5-8 meters wide at the base, allowing horses and soldiers to pass along the top, while being narrower at the top for easier defense.",
-                  "es": "La Gran Muralla era típicamente de 5-8 metros de ancho en la base, permitiendo que caballos y soldados pasaran por la parte superior, mientras era más estrecha en la parte superior para una defensa más fácil.",
-                  "de": "Die Chinesische Mauer war typischerweise 5-8 Meter breit an der Basis, was es Pferden und Soldaten ermöglichte, oben entlang zu gehen, während sie oben schmaler war für einfachere Verteidigung.",
-                  "nl": "De Chinese Muur was typisch 5-8 meter breed aan de basis, waardoor paarden en soldaten bovenop konden passeren, terwijl deze smaller was bovenaan voor gemakkelijkere verdediging."
-        }
-      },
-      {
-        question: {
-                  "en": "What motivated the Ming Dynasty to invest heavily in wall construction?",
-                  "es": "¿Qué motivó a la Dinastía Ming a invertir fuertemente en la construcción de muros?",
-                  "de": "Was motivierte die Ming-Dynastie, stark in den Mauerbau zu investieren?",
-                  "nl": "Wat motiveerde de Ming-dynastie om zwaar te investeren in muurbouw?"
-        },
-        options: [
-        {
-                  "en": "International prestige",
-                  "es": "Prestigio internacional",
-                  "de": "Internationales Prestige",
-                  "nl": "Internationaal prestige"
-        },
-        {
-                  "en": "Threat from Mongol raids",
-                  "es": "Amenaza de incursiones mongolas",
-                  "de": "Bedrohung durch mongolische Überfälle",
-                  "nl": "Dreiging van Mongoolse invallen"
-        },
-        {
-                  "en": "Economic expansion",
-                  "es": "Expansión económica",
-                  "de": "Wirtschaftliche Expansion",
-                  "nl": "Economische expansie"
-        },
-        {
-                  "en": "Religious purposes",
-                  "es": "Propósitos religiosos",
-                  "de": "Religiöse Zwecke",
-                  "nl": "Religieuze doeleinden"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The Ming Dynasty invested heavily in the Great Wall due to persistent threats from Mongol raids. They built the most extensive and durable sections using brick and stone.",
-                  "es": "La Dinastía Ming invirtió fuertemente en la Gran Muralla debido a las persistentes amenazas de incursiones mongolas. Construyeron las secciones más extensas y duraderas usando ladrillo y piedra.",
-                  "de": "Die Ming-Dynastie investierte stark in die Chinesische Mauer aufgrund anhaltender Bedrohungen durch mongolische Überfälle. Sie bauten die umfangreichsten und langlebigsten Abschnitte aus Ziegeln und Stein.",
-                  "nl": "De Ming-dynastie investeerde zwaar in de Chinese Muur vanwege aanhoudende bedreigingen van Mongoolse invallen. Ze bouwden de meest uitgebreide en duurzame secties met baksteen en steen."
-        }
-      },
-      {
-        question: {
-                  "en": "What construction innovation helped speed up the building process during the Ming Dynasty?",
-                  "es": "¿Qué innovación de construcción ayudó a acelerar el proceso de construcción durante la Dinastía Ming?",
-                  "de": "Welche Bauinnovation beschleunigte den Bauprozess während der Ming-Dynastie?",
-                  "nl": "Welke bouwinnovatie hielp het bouwproces te versnellen tijdens de Ming-dynastie?"
-        },
-        options: [
-        {
-                  "en": "Steam-powered machinery",
-                  "es": "Maquinaria a vapor",
-                  "de": "Dampfbetriebene Maschinen",
-                  "nl": "Stoommachines"
-        },
-        {
-                  "en": "Prefabricated sections",
-                  "es": "Secciones prefabricadas",
-                  "de": "Vorgefertigte Abschnitte",
-                  "nl": "Geprefabriceerde secties"
-        },
-        {
-                  "en": "Standardized brick sizes and kiln networks",
-                  "es": "Tamaños de ladrillo estandarizados y redes de hornos",
-                  "de": "Standardisierte Ziegelgrößen und Brennofennetzwerke",
-                  "nl": "Gestandaardiseerde baksteenformaten en ovennettwerken"
-        },
-        {
-                  "en": "Concrete mixing",
-                  "es": "Mezcla de hormigón",
-                  "de": "Betonmischung",
-                  "nl": "Betonmenging"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The Ming Dynasty established networks of brick kilns near construction sites and standardized brick sizes, which greatly sped up construction and ensured structural consistency.",
-                  "es": "La Dinastía Ming estableció redes de hornos de ladrillos cerca de los sitios de construcción y estandarizó los tamaños de ladrillo, lo que aceleró enormemente la construcción y aseguró consistencia estructural.",
-                  "de": "Die Ming-Dynastie richtete Netzwerke von Ziegelbrennöfen in der Nähe von Baustellen ein und standardisierte Ziegelgrößen, was den Bau erheblich beschleunigte und strukturelle Konsistenz gewährleistete.",
-                  "nl": "De Ming-dynastie richtte netwerken van baksteenovens op nabij bouwplaatsen en standaardiseerde baksteenformaten, wat de bouw aanzienlijk versnelde en structurele consistentie verzekerde."
-        }
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
       }
-    ,
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Great Wall of China",
+      "es": "Pregunta 2 sobre Great Wall of China",
+      "de": "Frage 2 über Great Wall of China",
+      "nl": "Vraag 2 over Great Wall of China"
+    },
+    "options": [
       {
-        question: {
-                  "en": "Which dynasty built most of the current Great Wall?",
-                  "es": "¿Qué dinastía construyó la mayor parte de la Gran Muralla actual?",
-                  "de": "Welche Dynastie baute den größten Teil der heutigen Großen Mauer?",
-                  "nl": "Welke dynastie bouwde het grootste deel van de huidige Chinese Muur?"
-        },
-        options: [
-          {
-                    "en": "Ming Dynasty",
-                    "es": "Dinastía Ming",
-                    "de": "Ming-Dynastie",
-                    "nl": "Ming-dynastie"
-          },
-          {
-                    "en": "Qin Dynasty",
-                    "es": "Dinastía Qin",
-                    "de": "Qin-Dynastie",
-                    "nl": "Qin-dynastie"
-          },
-          {
-                    "en": "Han Dynasty",
-                    "es": "Dinastía Han",
-                    "de": "Han-Dynastie",
-                    "nl": "Han-dynastie"
-          },
-          {
-                    "en": "Tang Dynasty",
-                    "es": "Dinastía Tang",
-                    "de": "Tang-Dynastie",
-                    "nl": "Tang-dynastie"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Ming Dynasty (1368-1644) built most of the wall that exists today, though earlier dynasties started the construction.",
-                  "es": "La Dinastía Ming (1368-1644) construyó la mayor parte del muro que existe hoy, aunque dinastías anteriores comenzaron la construcción.",
-                  "de": "Die Ming-Dynastie (1368-1644) baute den größten Teil der heute existierenden Mauer, obwohl frühere Dynastien mit dem Bau begannen.",
-                  "nl": "De Ming-dynastie (1368-1644) bouwde het grootste deel van de muur die vandaag bestaat, hoewel eerdere dynastieën met de bouw begonnen."
-        }
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
       },
       {
-        question: {
-                  "en": "When was Great Wall of China completed?",
-                  "es": "When was Great Wall of China completed?",
-                  "de": "When was Great Wall of China completed?",
-                  "nl": "When was Great Wall of China completed?"
-        },
-        options: [
-          {
-                    "en": "In the correct year",
-                    "es": "In the correct year",
-                    "de": "In the correct year",
-                    "nl": "In the correct year"
-          },
-          {
-                    "en": "10 years earlier",
-                    "es": "10 years earlier",
-                    "de": "10 years earlier",
-                    "nl": "10 years earlier"
-          },
-          {
-                    "en": "10 years later",
-                    "es": "10 years later",
-                    "de": "10 years later",
-                    "nl": "10 years later"
-          },
-          {
-                    "en": "20 years later",
-                    "es": "20 years later",
-                    "de": "20 years later",
-                    "nl": "20 years later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Great Wall of China was completed in its historically accurate year.",
-                  "es": "Great Wall of China was completed in its historically accurate year.",
-                  "de": "Great Wall of China was completed in its historically accurate year.",
-                  "nl": "Great Wall of China was completed in its historically accurate year."
-        }
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
       },
       {
-        question: {
-                  "en": "What is the primary material used in Great Wall of China?",
-                  "es": "What is the primary material used in Great Wall of China?",
-                  "de": "What is the primary material used in Great Wall of China?",
-                  "nl": "What is the primary material used in Great Wall of China?"
-        },
-        options: [
-          {
-                    "en": "The correct material",
-                    "es": "The correct material",
-                    "de": "The correct material",
-                    "nl": "The correct material"
-          },
-          {
-                    "en": "Wood",
-                    "es": "Wood",
-                    "de": "Wood",
-                    "nl": "Wood"
-          },
-          {
-                    "en": "Glass",
-                    "es": "Glass",
-                    "de": "Glass",
-                    "nl": "Glass"
-          },
-          {
-                    "en": "Concrete",
-                    "es": "Concrete",
-                    "de": "Concrete",
-                    "nl": "Concrete"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Great Wall of China was primarily constructed using its characteristic material.",
-                  "es": "Great Wall of China was primarily constructed using its characteristic material.",
-                  "de": "Great Wall of China was primarily constructed using its characteristic material.",
-                  "nl": "Great Wall of China was primarily constructed using its characteristic material."
-        }
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
       },
       {
-        question: {
-                  "en": "How tall is Great Wall of China?",
-                  "es": "How tall is Great Wall of China?",
-                  "de": "How tall is Great Wall of China?",
-                  "nl": "How tall is Great Wall of China?"
-        },
-        options: [
-          {
-                    "en": "The correct height",
-                    "es": "The correct height",
-                    "de": "The correct height",
-                    "nl": "The correct height"
-          },
-          {
-                    "en": "Half the height",
-                    "es": "Half the height",
-                    "de": "Half the height",
-                    "nl": "Half the height"
-          },
-          {
-                    "en": "Double the height",
-                    "es": "Double the height",
-                    "de": "Double the height",
-                    "nl": "Double the height"
-          },
-          {
-                    "en": "Triple the height",
-                    "es": "Triple the height",
-                    "de": "Triple the height",
-                    "nl": "Triple the height"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Great Wall of China stands at its iconic height.",
-                  "es": "Great Wall of China stands at its iconic height.",
-                  "de": "Great Wall of China stands at its iconic height.",
-                  "nl": "Great Wall of China stands at its iconic height."
-        }
-      },
-      {
-        question: {
-                  "en": "Who was the main architect of Great Wall of China?",
-                  "es": "Who was the main architect of Great Wall of China?",
-                  "de": "Who was the main architect of Great Wall of China?",
-                  "nl": "Who was the main architect of Great Wall of China?"
-        },
-        options: [
-          {
-                    "en": "The correct architect",
-                    "es": "The correct architect",
-                    "de": "The correct architect",
-                    "nl": "The correct architect"
-          },
-          {
-                    "en": "Frank Lloyd Wright",
-                    "es": "Frank Lloyd Wright",
-                    "de": "Frank Lloyd Wright",
-                    "nl": "Frank Lloyd Wright"
-          },
-          {
-                    "en": "Le Corbusier",
-                    "es": "Le Corbusier",
-                    "de": "Le Corbusier",
-                    "nl": "Le Corbusier"
-          },
-          {
-                    "en": "Antoni Gaudí",
-                    "es": "Antoni Gaudí",
-                    "de": "Antoni Gaudí",
-                    "nl": "Antoni Gaudí"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Great Wall of China was designed by its renowned architect.",
-                  "es": "Great Wall of China was designed by its renowned architect.",
-                  "de": "Great Wall of China was designed by its renowned architect.",
-                  "nl": "Great Wall of China was designed by its renowned architect."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the original purpose of Great Wall of China?",
-                  "es": "What was the original purpose of Great Wall of China?",
-                  "de": "What was the original purpose of Great Wall of China?",
-                  "nl": "What was the original purpose of Great Wall of China?"
-        },
-        options: [
-          {
-                    "en": "Its correct purpose",
-                    "es": "Its correct purpose",
-                    "de": "Its correct purpose",
-                    "nl": "Its correct purpose"
-          },
-          {
-                    "en": "Military defense",
-                    "es": "Military defense",
-                    "de": "Military defense",
-                    "nl": "Military defense"
-          },
-          {
-                    "en": "Religious worship",
-                    "es": "Religious worship",
-                    "de": "Religious worship",
-                    "nl": "Religious worship"
-          },
-          {
-                    "en": "Royal residence",
-                    "es": "Royal residence",
-                    "de": "Royal residence",
-                    "nl": "Royal residence"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Great Wall of China was originally built for its specific historical purpose.",
-                  "es": "Great Wall of China was originally built for its specific historical purpose.",
-                  "de": "Great Wall of China was originally built for its specific historical purpose.",
-                  "nl": "Great Wall of China was originally built for its specific historical purpose."
-        }
-      ,
-      {
-        question: {
-                  "en": "In which century was Great Wall of China built?",
-                  "es": "In which century was Great Wall of China built?",
-                  "de": "In which century was Great Wall of China built?",
-                  "nl": "In which century was Great Wall of China built?"
-        },
-        options: [
-          {
-                    "en": "Correct century",
-                    "es": "Correct century",
-                    "de": "Correct century",
-                    "nl": "Correct century"
-          },
-          {
-                    "en": "One century earlier",
-                    "es": "One century earlier",
-                    "de": "One century earlier",
-                    "nl": "One century earlier"
-          },
-          {
-                    "en": "One century later",
-                    "es": "One century later",
-                    "de": "One century later",
-                    "nl": "One century later"
-          },
-          {
-                    "en": "Two centuries later",
-                    "es": "Two centuries later",
-                    "de": "Two centuries later",
-                    "nl": "Two centuries later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Great Wall of China is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Great Wall of China es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Great Wall of China ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Great Wall of China is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "How long did it take to build Great Wall of China?",
-                  "es": "How long did it take to build Great Wall of China?",
-                  "de": "How long did it take to build Great Wall of China?",
-                  "nl": "How long did it take to build Great Wall of China?"
-        },
-        options: [
-          {
-                    "en": "Correct duration",
-                    "es": "Correct duration",
-                    "de": "Correct duration",
-                    "nl": "Correct duration"
-          },
-          {
-                    "en": "Half the time",
-                    "es": "Half the time",
-                    "de": "Half the time",
-                    "nl": "Half the time"
-          },
-          {
-                    "en": "Double the time",
-                    "es": "Double the time",
-                    "de": "Double the time",
-                    "nl": "Double the time"
-          },
-          {
-                    "en": "Triple the time",
-                    "es": "Triple the time",
-                    "de": "Triple the time",
-                    "nl": "Triple the time"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Great Wall of China is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Great Wall of China es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Great Wall of China ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Great Wall of China is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Which ruler commissioned Great Wall of China?",
-                  "es": "Which ruler commissioned Great Wall of China?",
-                  "de": "Which ruler commissioned Great Wall of China?",
-                  "nl": "Which ruler commissioned Great Wall of China?"
-        },
-        options: [
-          {
-                    "en": "Correct ruler",
-                    "es": "Correct ruler",
-                    "de": "Correct ruler",
-                    "nl": "Correct ruler"
-          },
-          {
-                    "en": "Previous ruler",
-                    "es": "Previous ruler",
-                    "de": "Previous ruler",
-                    "nl": "Previous ruler"
-          },
-          {
-                    "en": "Next ruler",
-                    "es": "Next ruler",
-                    "de": "Next ruler",
-                    "nl": "Next ruler"
-          },
-          {
-                    "en": "Famous contemporary",
-                    "es": "Famous contemporary",
-                    "de": "Famous contemporary",
-                    "nl": "Famous contemporary"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Great Wall of China is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Great Wall of China es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Great Wall of China ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Great Wall of China is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What year did construction begin on Great Wall of China?",
-                  "es": "What year did construction begin on Great Wall of China?",
-                  "de": "What year did construction begin on Great Wall of China?",
-                  "nl": "What year did construction begin on Great Wall of China?"
-        },
-        options: [
-          {
-                    "en": "Correct year",
-                    "es": "Correct year",
-                    "de": "Correct year",
-                    "nl": "Correct year"
-          },
-          {
-                    "en": "10 years earlier",
-                    "es": "10 years earlier",
-                    "de": "10 years earlier",
-                    "nl": "10 years earlier"
-          },
-          {
-                    "en": "10 years later",
-                    "es": "10 years later",
-                    "de": "10 years later",
-                    "nl": "10 years later"
-          },
-          {
-                    "en": "20 years later",
-                    "es": "20 years later",
-                    "de": "20 years later",
-                    "nl": "20 years later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Great Wall of China is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Great Wall of China es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Great Wall of China ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Great Wall of China is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What year was Great Wall of China completed?",
-                  "es": "What year was Great Wall of China completed?",
-                  "de": "What year was Great Wall of China completed?",
-                  "nl": "What year was Great Wall of China completed?"
-        },
-        options: [
-          {
-                    "en": "Correct year",
-                    "es": "Correct year",
-                    "de": "Correct year",
-                    "nl": "Correct year"
-          },
-          {
-                    "en": "5 years earlier",
-                    "es": "5 years earlier",
-                    "de": "5 years earlier",
-                    "nl": "5 years earlier"
-          },
-          {
-                    "en": "5 years later",
-                    "es": "5 years later",
-                    "de": "5 years later",
-                    "nl": "5 years later"
-          },
-          {
-                    "en": "15 years later",
-                    "es": "15 years later",
-                    "de": "15 years later",
-                    "nl": "15 years later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Great Wall of China is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Great Wall of China es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Great Wall of China ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Great Wall of China is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "During which historical period was Great Wall of China constructed?",
-                  "es": "During which historical period was Great Wall of China constructed?",
-                  "de": "During which historical period was Great Wall of China constructed?",
-                  "nl": "During which historical period was Great Wall of China constructed?"
-        },
-        options: [
-          {
-                    "en": "Correct period",
-                    "es": "Correct period",
-                    "de": "Correct period",
-                    "nl": "Correct period"
-          },
-          {
-                    "en": "Previous era",
-                    "es": "Previous era",
-                    "de": "Previous era",
-                    "nl": "Previous era"
-          },
-          {
-                    "en": "Next era",
-                    "es": "Next era",
-                    "de": "Next era",
-                    "nl": "Next era"
-          },
-          {
-                    "en": "Different civilization",
-                    "es": "Different civilization",
-                    "de": "Different civilization",
-                    "nl": "Different civilization"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Great Wall of China is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Great Wall of China es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Great Wall of China ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Great Wall of China is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What major event occurred at Great Wall of China?",
-                  "es": "What major event occurred at Great Wall of China?",
-                  "de": "What major event occurred at Great Wall of China?",
-                  "nl": "What major event occurred at Great Wall of China?"
-        },
-        options: [
-          {
-                    "en": "Correct event",
-                    "es": "Correct event",
-                    "de": "Correct event",
-                    "nl": "Correct event"
-          },
-          {
-                    "en": "Different event",
-                    "es": "Different event",
-                    "de": "Different event",
-                    "nl": "Different event"
-          },
-          {
-                    "en": "Later event",
-                    "es": "Later event",
-                    "de": "Later event",
-                    "nl": "Later event"
-          },
-          {
-                    "en": "Unrelated event",
-                    "es": "Unrelated event",
-                    "de": "Unrelated event",
-                    "nl": "Unrelated event"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Great Wall of China is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Great Wall of China es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Great Wall of China ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Great Wall of China is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Who was the original patron of Great Wall of China?",
-                  "es": "Who was the original patron of Great Wall of China?",
-                  "de": "Who was the original patron of Great Wall of China?",
-                  "nl": "Who was the original patron of Great Wall of China?"
-        },
-        options: [
-          {
-                    "en": "Correct patron",
-                    "es": "Correct patron",
-                    "de": "Correct patron",
-                    "nl": "Correct patron"
-          },
-          {
-                    "en": "Different noble",
-                    "es": "Different noble",
-                    "de": "Different noble",
-                    "nl": "Different noble"
-          },
-          {
-                    "en": "Merchant",
-                    "es": "Merchant",
-                    "de": "Merchant",
-                    "nl": "Merchant"
-          },
-          {
-                    "en": "Religious figure",
-                    "es": "Religious figure",
-                    "de": "Religious figure",
-                    "nl": "Religious figure"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Great Wall of China is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Great Wall of China es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Great Wall of China ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Great Wall of China is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What architectural style is Great Wall of China?",
-                  "es": "What architectural style is Great Wall of China?",
-                  "de": "What architectural style is Great Wall of China?",
-                  "nl": "What architectural style is Great Wall of China?"
-        },
-        options: [
-          {
-                    "en": "Correct style",
-                    "es": "Correct style",
-                    "de": "Correct style",
-                    "nl": "Correct style"
-          },
-          {
-                    "en": "Gothic",
-                    "es": "Gothic",
-                    "de": "Gothic",
-                    "nl": "Gothic"
-          },
-          {
-                    "en": "Baroque",
-                    "es": "Baroque",
-                    "de": "Baroque",
-                    "nl": "Baroque"
-          },
-          {
-                    "en": "Modern",
-                    "es": "Modern",
-                    "de": "Modern",
-                    "nl": "Modern"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Great Wall of China is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Great Wall of China es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Great Wall of China ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Great Wall of China is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Who was the chief architect of Great Wall of China?",
-                  "es": "Who was the chief architect of Great Wall of China?",
-                  "de": "Who was the chief architect of Great Wall of China?",
-                  "nl": "Who was the chief architect of Great Wall of China?"
-        },
-        options: [
-          {
-                    "en": "Correct architect",
-                    "es": "Correct architect",
-                    "de": "Correct architect",
-                    "nl": "Correct architect"
-          },
-          {
-                    "en": "Contemporary architect",
-                    "es": "Contemporary architect",
-                    "de": "Contemporary architect",
-                    "nl": "Contemporary architect"
-          },
-          {
-                    "en": "Famous architect",
-                    "es": "Famous architect",
-                    "de": "Famous architect",
-                    "nl": "Famous architect"
-          },
-          {
-                    "en": "Unknown",
-                    "es": "Unknown",
-                    "de": "Unknown",
-                    "nl": "Unknown"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Great Wall of China is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Great Wall of China es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Great Wall of China ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Great Wall of China is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the primary building material of Great Wall of China?",
-                  "es": "What is the primary building material of Great Wall of China?",
-                  "de": "What is the primary building material of Great Wall of China?",
-                  "nl": "What is the primary building material of Great Wall of China?"
-        },
-        options: [
-          {
-                    "en": "Correct material",
-                    "es": "Correct material",
-                    "de": "Correct material",
-                    "nl": "Correct material"
-          },
-          {
-                    "en": "Stone",
-                    "es": "Stone",
-                    "de": "Stone",
-                    "nl": "Stone"
-          },
-          {
-                    "en": "Wood",
-                    "es": "Wood",
-                    "de": "Wood",
-                    "nl": "Wood"
-          },
-          {
-                    "en": "Concrete",
-                    "es": "Concrete",
-                    "de": "Concrete",
-                    "nl": "Concrete"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Great Wall of China is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Great Wall of China es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Great Wall of China ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Great Wall of China is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "How tall is Great Wall of China?",
-                  "es": "How tall is Great Wall of China?",
-                  "de": "How tall is Great Wall of China?",
-                  "nl": "How tall is Great Wall of China?"
-        },
-        options: [
-          {
-                    "en": "Correct height",
-                    "es": "Correct height",
-                    "de": "Correct height",
-                    "nl": "Correct height"
-          },
-          {
-                    "en": "25% less",
-                    "es": "25% less",
-                    "de": "25% less",
-                    "nl": "25% less"
-          },
-          {
-                    "en": "25% more",
-                    "es": "25% more",
-                    "de": "25% more",
-                    "nl": "25% more"
-          },
-          {
-                    "en": "Double",
-                    "es": "Double",
-                    "de": "Double",
-                    "nl": "Double"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Great Wall of China is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Great Wall of China es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Great Wall of China ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Great Wall of China is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "How many floors does Great Wall of China have?",
-                  "es": "How many floors does Great Wall of China have?",
-                  "de": "How many floors does Great Wall of China have?",
-                  "nl": "How many floors does Great Wall of China have?"
-        },
-        options: [
-          {
-                    "en": "Correct number",
-                    "es": "Correct number",
-                    "de": "Correct number",
-                    "nl": "Correct number"
-          },
-          {
-                    "en": "Half",
-                    "es": "Half",
-                    "de": "Half",
-                    "nl": "Half"
-          },
-          {
-                    "en": "Double",
-                    "es": "Double",
-                    "de": "Double",
-                    "nl": "Double"
-          },
-          {
-                    "en": "Triple",
-                    "es": "Triple",
-                    "de": "Triple",
-                    "nl": "Triple"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Great Wall of China is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Great Wall of China es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Great Wall of China ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Great Wall of China is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the total area of Great Wall of China?",
-                  "es": "What is the total area of Great Wall of China?",
-                  "de": "What is the total area of Great Wall of China?",
-                  "nl": "What is the total area of Great Wall of China?"
-        },
-        options: [
-          {
-                    "en": "Correct area",
-                    "es": "Correct area",
-                    "de": "Correct area",
-                    "nl": "Correct area"
-          },
-          {
-                    "en": "Half the area",
-                    "es": "Half the area",
-                    "de": "Half the area",
-                    "nl": "Half the area"
-          },
-          {
-                    "en": "Double the area",
-                    "es": "Double the area",
-                    "de": "Double the area",
-                    "nl": "Double the area"
-          },
-          {
-                    "en": "Ten times larger",
-                    "es": "Ten times larger",
-                    "de": "Ten times larger",
-                    "nl": "Ten times larger"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Great Wall of China is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Great Wall of China es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Great Wall of China ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Great Wall of China is historisch accuraat en goed gedocumenteerd."
-        }
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Great Wall of China",
+      "es": "Pregunta 3 sobre Great Wall of China",
+      "de": "Frage 3 über Great Wall of China",
+      "nl": "Vraag 3 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level2;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Great Wall of China",
+      "es": "Pregunta 4 sobre Great Wall of China",
+      "de": "Frage 4 über Great Wall of China",
+      "nl": "Vraag 4 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Great Wall of China",
+      "es": "Pregunta 5 sobre Great Wall of China",
+      "de": "Frage 5 über Great Wall of China",
+      "nl": "Vraag 5 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Great Wall of China",
+      "es": "Pregunta 6 sobre Great Wall of China",
+      "de": "Frage 6 über Great Wall of China",
+      "nl": "Vraag 6 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Great Wall of China",
+      "es": "Pregunta 7 sobre Great Wall of China",
+      "de": "Frage 7 über Great Wall of China",
+      "nl": "Vraag 7 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Great Wall of China",
+      "es": "Pregunta 8 sobre Great Wall of China",
+      "de": "Frage 8 über Great Wall of China",
+      "nl": "Vraag 8 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Great Wall of China",
+      "es": "Pregunta 9 sobre Great Wall of China",
+      "de": "Frage 9 über Great Wall of China",
+      "nl": "Vraag 9 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Great Wall of China",
+      "es": "Pregunta 10 sobre Great Wall of China",
+      "de": "Frage 10 über Great Wall of China",
+      "nl": "Vraag 10 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Great Wall of China",
+      "es": "Pregunta 11 sobre Great Wall of China",
+      "de": "Frage 11 über Great Wall of China",
+      "nl": "Vraag 11 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Great Wall of China",
+      "es": "Pregunta 12 sobre Great Wall of China",
+      "de": "Frage 12 über Great Wall of China",
+      "nl": "Vraag 12 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Great Wall of China",
+      "es": "Pregunta 13 sobre Great Wall of China",
+      "de": "Frage 13 über Great Wall of China",
+      "nl": "Vraag 13 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Great Wall of China",
+      "es": "Pregunta 14 sobre Great Wall of China",
+      "de": "Frage 14 über Great Wall of China",
+      "nl": "Vraag 14 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Great Wall of China",
+      "es": "Pregunta 15 sobre Great Wall of China",
+      "de": "Frage 15 über Great Wall of China",
+      "nl": "Vraag 15 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Great Wall of China",
+      "es": "Pregunta 16 sobre Great Wall of China",
+      "de": "Frage 16 über Great Wall of China",
+      "nl": "Vraag 16 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Great Wall of China",
+      "es": "Pregunta 17 sobre Great Wall of China",
+      "de": "Frage 17 über Great Wall of China",
+      "nl": "Vraag 17 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Great Wall of China",
+      "es": "Pregunta 18 sobre Great Wall of China",
+      "de": "Frage 18 über Great Wall of China",
+      "nl": "Vraag 18 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Great Wall of China",
+      "es": "Pregunta 19 sobre Great Wall of China",
+      "de": "Frage 19 über Great Wall of China",
+      "nl": "Vraag 19 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Great Wall of China",
+      "es": "Pregunta 20 sobre Great Wall of China",
+      "de": "Frage 20 über Great Wall of China",
+      "nl": "Vraag 20 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Great Wall of China",
+      "es": "Pregunta 21 sobre Great Wall of China",
+      "de": "Frage 21 über Great Wall of China",
+      "nl": "Vraag 21 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Great Wall of China",
+      "es": "Pregunta 22 sobre Great Wall of China",
+      "de": "Frage 22 über Great Wall of China",
+      "nl": "Vraag 22 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Great Wall of China",
+      "es": "Pregunta 23 sobre Great Wall of China",
+      "de": "Frage 23 über Great Wall of China",
+      "nl": "Vraag 23 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Great Wall of China",
+      "es": "Pregunta 24 sobre Great Wall of China",
+      "de": "Frage 24 über Great Wall of China",
+      "nl": "Vraag 24 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Great Wall of China",
+      "es": "Pregunta 25 sobre Great Wall of China",
+      "de": "Frage 25 über Great Wall of China",
+      "nl": "Vraag 25 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Great Wall of China",
+      "es": "Pregunta 26 sobre Great Wall of China",
+      "de": "Frage 26 über Great Wall of China",
+      "nl": "Vraag 26 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Great Wall of China",
+      "es": "Pregunta 27 sobre Great Wall of China",
+      "de": "Frage 27 über Great Wall of China",
+      "nl": "Vraag 27 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Great Wall of China",
+      "es": "Pregunta 28 sobre Great Wall of China",
+      "de": "Frage 28 über Great Wall of China",
+      "nl": "Vraag 28 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Great Wall of China",
+      "es": "Pregunta 29 sobre Great Wall of China",
+      "de": "Frage 29 über Great Wall of China",
+      "nl": "Vraag 29 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Great Wall of China",
+      "es": "Pregunta 30 sobre Great Wall of China",
+      "de": "Frage 30 über Great Wall of China",
+      "nl": "Vraag 30 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Great Wall of China",
+      "es": "Pregunta 31 sobre Great Wall of China",
+      "de": "Frage 31 über Great Wall of China",
+      "nl": "Vraag 31 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Great Wall of China",
+      "es": "Pregunta 32 sobre Great Wall of China",
+      "de": "Frage 32 über Great Wall of China",
+      "nl": "Vraag 32 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Great Wall of China",
+      "es": "Pregunta 33 sobre Great Wall of China",
+      "de": "Frage 33 über Great Wall of China",
+      "nl": "Vraag 33 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Great Wall of China",
+      "es": "Pregunta 34 sobre Great Wall of China",
+      "de": "Frage 34 über Great Wall of China",
+      "nl": "Vraag 34 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Great Wall of China",
+      "es": "Pregunta 35 sobre Great Wall of China",
+      "de": "Frage 35 über Great Wall of China",
+      "nl": "Vraag 35 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Great Wall of China",
+      "es": "Pregunta 36 sobre Great Wall of China",
+      "de": "Frage 36 über Great Wall of China",
+      "nl": "Vraag 36 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Great Wall of China",
+      "es": "Pregunta 37 sobre Great Wall of China",
+      "de": "Frage 37 über Great Wall of China",
+      "nl": "Vraag 37 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Great Wall of China",
+      "es": "Pregunta 38 sobre Great Wall of China",
+      "de": "Frage 38 über Great Wall of China",
+      "nl": "Vraag 38 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Great Wall of China",
+      "es": "Pregunta 39 sobre Great Wall of China",
+      "de": "Frage 39 über Great Wall of China",
+      "nl": "Vraag 39 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Great Wall of China",
+      "es": "Pregunta 40 sobre Great Wall of China",
+      "de": "Frage 40 über Great Wall of China",
+      "nl": "Vraag 40 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Great Wall of China",
+      "es": "Pregunta 41 sobre Great Wall of China",
+      "de": "Frage 41 über Great Wall of China",
+      "nl": "Vraag 41 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Great Wall of China",
+      "es": "Pregunta 42 sobre Great Wall of China",
+      "de": "Frage 42 über Great Wall of China",
+      "nl": "Vraag 42 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Great Wall of China",
+      "es": "Pregunta 43 sobre Great Wall of China",
+      "de": "Frage 43 über Great Wall of China",
+      "nl": "Vraag 43 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Great Wall of China",
+      "es": "Pregunta 44 sobre Great Wall of China",
+      "de": "Frage 44 über Great Wall of China",
+      "nl": "Vraag 44 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Great Wall of China",
+      "es": "Pregunta 45 sobre Great Wall of China",
+      "de": "Frage 45 über Great Wall of China",
+      "nl": "Vraag 45 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Great Wall of China",
+      "es": "Pregunta 46 sobre Great Wall of China",
+      "de": "Frage 46 über Great Wall of China",
+      "nl": "Vraag 46 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Great Wall of China",
+      "es": "Pregunta 47 sobre Great Wall of China",
+      "de": "Frage 47 über Great Wall of China",
+      "nl": "Vraag 47 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Great Wall of China",
+      "es": "Pregunta 48 sobre Great Wall of China",
+      "de": "Frage 48 über Great Wall of China",
+      "nl": "Vraag 48 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Great Wall of China",
+      "es": "Pregunta 49 sobre Great Wall of China",
+      "de": "Frage 49 über Great Wall of China",
+      "nl": "Vraag 49 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Great Wall of China",
+      "es": "Pregunta 50 sobre Great Wall of China",
+      "de": "Frage 50 über Great Wall of China",
+      "nl": "Vraag 50 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Great Wall of China",
+      "es": "Pregunta 51 sobre Great Wall of China",
+      "de": "Frage 51 über Great Wall of China",
+      "nl": "Vraag 51 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Great Wall of China",
+      "es": "Pregunta 52 sobre Great Wall of China",
+      "de": "Frage 52 über Great Wall of China",
+      "nl": "Vraag 52 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Great Wall of China",
+      "es": "Pregunta 53 sobre Great Wall of China",
+      "de": "Frage 53 über Great Wall of China",
+      "nl": "Vraag 53 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Great Wall of China",
+      "es": "Pregunta 54 sobre Great Wall of China",
+      "de": "Frage 54 über Great Wall of China",
+      "nl": "Vraag 54 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Great Wall of China",
+      "es": "Pregunta 55 sobre Great Wall of China",
+      "de": "Frage 55 über Great Wall of China",
+      "nl": "Vraag 55 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Great Wall of China",
+      "es": "Pregunta 56 sobre Great Wall of China",
+      "de": "Frage 56 über Great Wall of China",
+      "nl": "Vraag 56 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Great Wall of China",
+      "es": "Pregunta 57 sobre Great Wall of China",
+      "de": "Frage 57 über Great Wall of China",
+      "nl": "Vraag 57 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Great Wall of China",
+      "es": "Pregunta 58 sobre Great Wall of China",
+      "de": "Frage 58 über Great Wall of China",
+      "nl": "Vraag 58 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Great Wall of China",
+      "es": "Pregunta 59 sobre Great Wall of China",
+      "de": "Frage 59 über Great Wall of China",
+      "nl": "Vraag 59 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Great Wall of China",
+      "es": "Pregunta 60 sobre Great Wall of China",
+      "de": "Frage 60 über Great Wall of China",
+      "nl": "Vraag 60 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Great Wall of China",
+      "es": "Pregunta 61 sobre Great Wall of China",
+      "de": "Frage 61 über Great Wall of China",
+      "nl": "Vraag 61 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Great Wall of China",
+      "es": "Pregunta 62 sobre Great Wall of China",
+      "de": "Frage 62 über Great Wall of China",
+      "nl": "Vraag 62 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Great Wall of China",
+      "es": "Pregunta 63 sobre Great Wall of China",
+      "de": "Frage 63 über Great Wall of China",
+      "nl": "Vraag 63 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Great Wall of China",
+      "es": "Pregunta 64 sobre Great Wall of China",
+      "de": "Frage 64 über Great Wall of China",
+      "nl": "Vraag 64 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Great Wall of China",
+      "es": "Pregunta 65 sobre Great Wall of China",
+      "de": "Frage 65 über Great Wall of China",
+      "nl": "Vraag 65 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Great Wall of China",
+      "es": "Pregunta 66 sobre Great Wall of China",
+      "de": "Frage 66 über Great Wall of China",
+      "nl": "Vraag 66 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Great Wall of China",
+      "es": "Pregunta 67 sobre Great Wall of China",
+      "de": "Frage 67 über Great Wall of China",
+      "nl": "Vraag 67 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Great Wall of China",
+      "es": "Pregunta 68 sobre Great Wall of China",
+      "de": "Frage 68 über Great Wall of China",
+      "nl": "Vraag 68 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Great Wall of China",
+      "es": "Pregunta 69 sobre Great Wall of China",
+      "de": "Frage 69 über Great Wall of China",
+      "nl": "Vraag 69 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Great Wall of China",
+      "es": "Pregunta 70 sobre Great Wall of China",
+      "de": "Frage 70 über Great Wall of China",
+      "nl": "Vraag 70 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Great Wall of China",
+      "es": "Pregunta 71 sobre Great Wall of China",
+      "de": "Frage 71 über Great Wall of China",
+      "nl": "Vraag 71 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Great Wall of China",
+      "es": "Pregunta 72 sobre Great Wall of China",
+      "de": "Frage 72 über Great Wall of China",
+      "nl": "Vraag 72 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Great Wall of China",
+      "es": "Pregunta 73 sobre Great Wall of China",
+      "de": "Frage 73 über Great Wall of China",
+      "nl": "Vraag 73 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Great Wall of China",
+      "es": "Pregunta 74 sobre Great Wall of China",
+      "de": "Frage 74 über Great Wall of China",
+      "nl": "Vraag 74 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Great Wall of China",
+      "es": "Pregunta 75 sobre Great Wall of China",
+      "de": "Frage 75 über Great Wall of China",
+      "nl": "Vraag 75 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Great Wall of China",
+      "es": "Pregunta 76 sobre Great Wall of China",
+      "de": "Frage 76 über Great Wall of China",
+      "nl": "Vraag 76 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Great Wall of China",
+      "es": "Pregunta 77 sobre Great Wall of China",
+      "de": "Frage 77 über Great Wall of China",
+      "nl": "Vraag 77 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Great Wall of China",
+      "es": "Pregunta 78 sobre Great Wall of China",
+      "de": "Frage 78 über Great Wall of China",
+      "nl": "Vraag 78 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Great Wall of China",
+      "es": "Pregunta 79 sobre Great Wall of China",
+      "de": "Frage 79 über Great Wall of China",
+      "nl": "Vraag 79 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Great Wall of China",
+      "es": "Pregunta 80 sobre Great Wall of China",
+      "de": "Frage 80 über Great Wall of China",
+      "nl": "Vraag 80 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Great Wall of China",
+      "es": "Pregunta 81 sobre Great Wall of China",
+      "de": "Frage 81 über Great Wall of China",
+      "nl": "Vraag 81 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Great Wall of China",
+      "es": "Pregunta 82 sobre Great Wall of China",
+      "de": "Frage 82 über Great Wall of China",
+      "nl": "Vraag 82 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Great Wall of China",
+      "es": "Pregunta 83 sobre Great Wall of China",
+      "de": "Frage 83 über Great Wall of China",
+      "nl": "Vraag 83 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Great Wall of China",
+      "es": "Pregunta 84 sobre Great Wall of China",
+      "de": "Frage 84 über Great Wall of China",
+      "nl": "Vraag 84 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Great Wall of China",
+      "es": "Pregunta 85 sobre Great Wall of China",
+      "de": "Frage 85 über Great Wall of China",
+      "nl": "Vraag 85 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Great Wall of China",
+      "es": "Pregunta 86 sobre Great Wall of China",
+      "de": "Frage 86 über Great Wall of China",
+      "nl": "Vraag 86 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Great Wall of China",
+      "es": "Pregunta 87 sobre Great Wall of China",
+      "de": "Frage 87 über Great Wall of China",
+      "nl": "Vraag 87 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Great Wall of China",
+      "es": "Pregunta 88 sobre Great Wall of China",
+      "de": "Frage 88 über Great Wall of China",
+      "nl": "Vraag 88 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Great Wall of China",
+      "es": "Pregunta 89 sobre Great Wall of China",
+      "de": "Frage 89 über Great Wall of China",
+      "nl": "Vraag 89 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Great Wall of China",
+      "es": "Pregunta 90 sobre Great Wall of China",
+      "de": "Frage 90 über Great Wall of China",
+      "nl": "Vraag 90 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Great Wall of China",
+      "es": "Pregunta 91 sobre Great Wall of China",
+      "de": "Frage 91 über Great Wall of China",
+      "nl": "Vraag 91 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Great Wall of China",
+      "es": "Pregunta 92 sobre Great Wall of China",
+      "de": "Frage 92 über Great Wall of China",
+      "nl": "Vraag 92 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Great Wall of China",
+      "es": "Pregunta 93 sobre Great Wall of China",
+      "de": "Frage 93 über Great Wall of China",
+      "nl": "Vraag 93 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Great Wall of China",
+      "es": "Pregunta 94 sobre Great Wall of China",
+      "de": "Frage 94 über Great Wall of China",
+      "nl": "Vraag 94 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Great Wall of China",
+      "es": "Pregunta 95 sobre Great Wall of China",
+      "de": "Frage 95 über Great Wall of China",
+      "nl": "Vraag 95 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Great Wall of China",
+      "es": "Pregunta 96 sobre Great Wall of China",
+      "de": "Frage 96 über Great Wall of China",
+      "nl": "Vraag 96 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Great Wall of China",
+      "es": "Pregunta 97 sobre Great Wall of China",
+      "de": "Frage 97 über Great Wall of China",
+      "nl": "Vraag 97 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Great Wall of China",
+      "es": "Pregunta 98 sobre Great Wall of China",
+      "de": "Frage 98 über Great Wall of China",
+      "nl": "Vraag 98 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Great Wall of China",
+      "es": "Pregunta 99 sobre Great Wall of China",
+      "de": "Frage 99 über Great Wall of China",
+      "nl": "Vraag 99 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Great Wall of China",
+      "es": "Pregunta 100 sobre Great Wall of China",
+      "de": "Frage 100 über Great Wall of China",
+      "nl": "Vraag 100 over Great Wall of China"
+    },
+    "options": [
+      {
+        "en": "Answer A for Great Wall of China",
+        "es": "Respuesta A para Great Wall of China",
+        "de": "Antwort A für Great Wall of China",
+        "nl": "Antwoord A voor Great Wall of China"
+      },
+      {
+        "en": "Answer B for Great Wall of China",
+        "es": "Respuesta B para Great Wall of China",
+        "de": "Antwort B für Great Wall of China",
+        "nl": "Antwoord B voor Great Wall of China"
+      },
+      {
+        "en": "Answer C for Great Wall of China",
+        "es": "Respuesta C para Great Wall of China",
+        "de": "Antwort C für Great Wall of China",
+        "nl": "Antwoord C voor Great Wall of China"
+      },
+      {
+        "en": "Answer D for Great Wall of China",
+        "es": "Respuesta D para Great Wall of China",
+        "de": "Antwort D für Great Wall of China",
+        "nl": "Antwoord D voor Great Wall of China"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Great Wall of China.",
+      "es": "Esta es la respuesta correcta sobre Great Wall of China.",
+      "de": "Dies ist die richtige Antwort über Great Wall of China.",
+      "nl": "Dit is het juiste antwoord over Great Wall of China."
+    }
   }
-})();
+]
+};

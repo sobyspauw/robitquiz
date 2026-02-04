@@ -1,796 +1,4104 @@
-// Pasta Types Quiz - Level 3
-(function() {
-  const level3 = {
-    name: {
-          "en": "Pasta Types Level 3",
-          "es": "Pasta Types Nivel 3",
-          "de": "Pasta Types Stufe 3",
-          "nl": "Pasta Types Level 3"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Pasta Types",
+      "es": "Pregunta 1 sobre Pasta Types",
+      "de": "Frage 1 über Pasta Types",
+      "nl": "Vraag 1 over Pasta Types"
     },
-    questions: [
+    "options": [
       {
-        question: {
-                  "en": "What distinctive shape characterizes orecchiette pasta from Puglia?",
-                  "es": "¿Qué forma distintiva caracteriza a la pasta orecchiette de Puglia?",
-                  "de": "Welche charakteristische Form zeichnet Orecchiette-Nudeln aus Apulien aus?",
-                  "nl": "Welke kenmerkende vorm karakteriseert orecchiette pasta uit Puglia?"
-        },
-        options: [
-        {
-                  "en": "Flat ribbons",
-                  "es": "Cintas planas",
-                  "de": "Flache Bänder",
-                  "nl": "Platte linten"
-        },
-        {
-                  "en": "Small ears",
-                  "es": "Pequeñas orejas",
-                  "de": "Kleine Ohren",
-                  "nl": "Kleine oren"
-        },
-        {
-                  "en": "Twisted tubes",
-                  "es": "Tubos retorcidos",
-                  "de": "Gedrehte Röhren",
-                  "nl": "Gedraaide buisjes"
-        },
-        {
-                  "en": "Thin strings",
-                  "es": "Cuerdas finas",
-                  "de": "Dünne Fäden",
-                  "nl": "Dunne snaartjes"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Orecchiette means 'little ears' in Italian. This ear-shaped pasta from Puglia has a concave center perfect for catching chunky sauces like broccoli rabe or meat ragù.",
-                  "es": "Orecchiette significa 'pequeñas orejas' en italiano. Esta pasta en forma de oreja de Puglia tiene un centro cóncavo perfecto para atrapar salsas con trozos como brócoli rabe o ragú de carne.",
-                  "de": "Orecchiette bedeutet 'kleine Ohren' auf Italienisch. Diese ohrenförmige Nudel aus Apulien hat ein konkaves Zentrum, das perfekt ist, um stückige Soßen wie Stängelkohl oder Fleischragù aufzufangen.",
-                  "nl": "Orecchiette betekent 'kleine oren' in het Italiaans. Deze oorvormige pasta uit Puglia heeft een hol centrum dat perfect is voor het opvangen van grove sauzen zoals broccoli rabe of vlees ragù."
-        }
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
       },
       {
-        question: {
-                  "en": "What is trofie pasta traditionally served with in Liguria?",
-                  "es": "¿Con qué se sirve tradicionalmente la pasta trofie en Liguria?",
-                  "de": "Womit wird Trofie-Pasta traditionell in Ligurien serviert?",
-                  "nl": "Waarmee wordt trofie pasta traditioneel geserveerd in Ligurië?"
-        },
-        options: [
-        {
-                  "en": "Amatriciana",
-                  "es": "Amatriciana",
-                  "de": "Amatriciana",
-                  "nl": "Amatriciana"
-        },
-        {
-                  "en": "Bolognese",
-                  "es": "Boloñesa",
-                  "de": "Bolognese",
-                  "nl": "Bolognese"
-        },
-        {
-                  "en": "Pesto Genovese",
-                  "es": "Pesto Genovés",
-                  "de": "Pesto Genovese",
-                  "nl": "Pesto Genovese"
-        },
-        {
-                  "en": "Carbonara",
-                  "es": "Carbonara",
-                  "de": "Carbonara",
-                  "nl": "Carbonara"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Trofie is a short, twisted pasta from Liguria traditionally served with pesto Genovese, green beans, and potatoes. Its twisted shape helps the basil pesto adhere to every bite.",
-                  "es": "Trofie es una pasta corta y retorcida de Liguria que tradicionalmente se sirve con pesto genovés, judías verdes y patatas. Su forma retorcida ayuda a que el pesto de albahaca se adhiera a cada bocado.",
-                  "de": "Trofie ist eine kurze, gedrehte Nudel aus Ligurien, die traditionell mit Pesto Genovese, grünen Bohnen und Kartoffeln serviert wird. Ihre gedrehte Form hilft dem Basilikumpesto, an jedem Bissen zu haften.",
-                  "nl": "Trofie is een korte, gedraaide pasta uit Ligurië die traditioneel wordt geserveerd met pesto Genovese, sperziebonen en aardappelen. Zijn gedraaide vorm helpt de basilicum pesto aan elke hap te hechten."
-        }
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
       },
       {
-        question: {
-                  "en": "What technique is used to make pici, the hand-rolled pasta from Tuscany?",
-                  "es": "¿Qué técnica se utiliza para hacer pici, la pasta enrollada a mano de la Toscana?",
-                  "de": "Welche Technik wird verwendet, um Pici herzustellen, die handgerollte Nudel aus der Toskana?",
-                  "nl": "Welke techniek wordt gebruikt om pici te maken, de handgerolde pasta uit Toscane?"
-        },
-        options: [
-        {
-                  "en": "Rolling dough between palms",
-                  "es": "Rodar masa entre las palmas",
-                  "de": "Teig zwischen den Handflächen rollen",
-                  "nl": "Deeg tussen handpalmen rollen"
-        },
-        {
-                  "en": "Cutting with a knife",
-                  "es": "Cortar con un cuchillo",
-                  "de": "Mit einem Messer schneiden",
-                  "nl": "Snijden met een mes"
-        },
-        {
-                  "en": "Extruding through a press",
-                  "es": "Extruir a través de una prensa",
-                  "de": "Durch eine Presse extrudieren",
-                  "nl": "Persen door een pers"
-        },
-        {
-                  "en": "Stamping with a mold",
-                  "es": "Estampar con un molde",
-                  "de": "Mit einer Form stanzen",
-                  "nl": "Stempelen met een mal"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Pici is made by rolling small pieces of dough between the palms or on a work surface to create thick, irregular spaghetti-like strands. This rustic Tuscan pasta requires no special equipment.",
-                  "es": "Pici se hace rodando pequeños trozos de masa entre las palmas o sobre una superficie de trabajo para crear hebras gruesas e irregulares similares al espagueti. Esta pasta rústica toscana no requiere equipo especial.",
-                  "de": "Pici wird hergestellt, indem kleine Teigstücke zwischen den Handflächen oder auf einer Arbeitsfläche gerollt werden, um dicke, unregelmäßige spaghettiähnliche Stränge zu erzeugen. Diese rustikale toskanische Nudel benötigt keine spezielle Ausrüstung.",
-                  "nl": "Pici wordt gemaakt door kleine stukjes deeg tussen de handpalmen of op een werkoppervlak te rollen om dikke, onregelmatige spaghetti-achtige strengen te creëren. Deze rustieke Toscaanse pasta vereist geen speciale apparatuur."
-        }
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
       },
       {
-        question: {
-                  "en": "What does the name 'strozzapreti' literally translate to?",
-                  "es": "¿A qué se traduce literalmente el nombre 'strozzapreti'?",
-                  "de": "Was bedeutet der Name 'Strozzapreti' wörtlich übersetzt?",
-                  "nl": "Waar vertaalt de naam 'strozzapreti' letterlijk naar?"
-        },
-        options: [
-        {
-                  "en": "Heavenly pasta",
-                  "es": "Pasta celestial",
-                  "de": "Himmlische Nudeln",
-                  "nl": "Hemelse pasta"
-        },
-        {
-                  "en": "Priest stranglers",
-                  "es": "Estranguladores de sacerdotes",
-                  "de": "Priesterwürger",
-                  "nl": "Priesterwurgers"
-        },
-        {
-                  "en": "Little twists",
-                  "es": "Pequeños giros",
-                  "de": "Kleine Drehungen",
-                  "nl": "Kleine draaiingen"
-        },
-        {
-                  "en": "Blessed noodles",
-                  "es": "Fideos benditos",
-                  "de": "Gesegnete Nudeln",
-                  "nl": "Gezegende noedels"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Strozzapreti means 'priest stranglers' in Italian. Legend says priests would eat them so greedily they'd choke. This hand-rolled twisted pasta is popular in Emilia-Romagna and Tuscany.",
-                  "es": "Strozzapreti significa 'estranguladores de sacerdotes' en italiano. La leyenda dice que los sacerdotes los comían tan ávidamente que se atragantaban. Esta pasta retorcida enrollada a mano es popular en Emilia-Romaña y Toscana.",
-                  "de": "Strozzapreti bedeutet 'Priesterwürger' auf Italienisch. Die Legende besagt, dass Priester sie so gierig aßen, dass sie sich verschluckten. Diese handgerollte gedrehte Nudel ist in der Emilia-Romagna und der Toskana beliebt.",
-                  "nl": "Strozzapreti betekent 'priesterwurgers' in het Italiaans. De legende zegt dat priesters ze zo gretig aten dat ze stikten. Deze handgerolde gedraaide pasta is populair in Emilia-Romagna en Toscane."
-        }
-      },
-      {
-        question: {
-                  "en": "How is cavatelli pasta traditionally shaped?",
-                  "es": "¿Cómo se moldea tradicionalmente la pasta cavatelli?",
-                  "de": "Wie wird Cavatelli-Pasta traditionell geformt?",
-                  "nl": "Hoe wordt cavatelli pasta traditioneel gevormd?"
-        },
-        options: [
-        {
-                  "en": "Pressing with thumb or fork",
-                  "es": "Presionando con el pulgar o tenedor",
-                  "de": "Mit dem Daumen oder einer Gabel drücken",
-                  "nl": "Drukken met duim of vork"
-        },
-        {
-                  "en": "Folding in half",
-                  "es": "Doblando por la mitad",
-                  "de": "In der Mitte falten",
-                  "nl": "Dubbelvouwen"
-        },
-        {
-                  "en": "Cutting with scissors",
-                  "es": "Cortando con tijeras",
-                  "de": "Mit einer Schere schneiden",
-                  "nl": "Knippen met een schaar"
-        },
-        {
-                  "en": "Rolling into balls",
-                  "es": "Enrollando en bolas",
-                  "de": "Zu Kugeln rollen",
-                  "nl": "Rollen tot balletjes"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Cavatelli is made by pressing small pieces of dough with the thumb or a fork to create small, shell-like shapes with ridges. This Southern Italian pasta holds sauces beautifully in its grooves.",
-                  "es": "Cavatelli se hace presionando pequeños trozos de masa con el pulgar o un tenedor para crear pequeñas formas con estrías similares a conchas. Esta pasta del sur de Italia retiene las salsas maravillosamente en sus ranuras.",
-                  "de": "Cavatelli wird hergestellt, indem kleine Teigstücke mit dem Daumen oder einer Gabel gedrückt werden, um kleine muschelähnliche Formen mit Rillen zu erzeugen. Diese süditalienische Nudel hält Soßen wunderbar in ihren Rillen.",
-                  "nl": "Cavatelli wordt gemaakt door kleine stukjes deeg met de duim of een vork te drukken om kleine, schelpachtige vormen met ribbels te creëren. Deze Zuid-Italiaanse pasta houdt sauzen prachtig vast in zijn groeven."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the primary advantage of using a bronze die (trafile di bronzo) for pasta extrusion?",
-                  "es": "¿Cuál es la ventaja principal de usar una matriz de bronce (trafile di bronzo) para la extrusión de pasta?",
-                  "de": "Was ist der Hauptvorteil der Verwendung einer Bronzematrize (trafile di bronzo) für die Nudelextrusion?",
-                  "nl": "Wat is het belangrijkste voordeel van het gebruik van een bronzen matrijs (trafile di bronzo) voor pasta-extrusie?"
-        },
-        options: [
-        {
-                  "en": "Produces perfectly smooth surface",
-                  "es": "Produce superficie perfectamente lisa",
-                  "de": "Erzeugt perfekt glatte Oberfläche",
-                  "nl": "Produceert perfect glad oppervlak"
-        },
-        {
-                  "en": "Creates rough, porous texture",
-                  "es": "Crea textura rugosa y porosa",
-                  "de": "Erzeugt raue, poröse Textur",
-                  "nl": "Creëert ruwe, poreuze textuur"
-        },
-        {
-                  "en": "Increases production speed",
-                  "es": "Aumenta la velocidad de producción",
-                  "de": "Erhöht die Produktionsgeschwindigkeit",
-                  "nl": "Verhoogt productiesnelheid"
-        },
-        {
-                  "en": "Makes pasta cook faster",
-                  "es": "Hace que la pasta se cocine más rápido",
-                  "de": "Lässt die Nudeln schneller kochen",
-                  "nl": "Zorgt dat pasta sneller kookt"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Bronze dies create a rough, porous surface (rugosa) that helps sauce adhere to the pasta. Modern Teflon dies produce smooth pasta that's faster to make but doesn't hold sauce as well.",
-                  "es": "Las matrices de bronce crean una superficie rugosa y porosa (rugosa) que ayuda a que la salsa se adhiera a la pasta. Las matrices modernas de teflón producen pasta lisa que es más rápida de hacer pero no retiene la salsa tan bien.",
-                  "de": "Bronzematrizen erzeugen eine raue, poröse Oberfläche (rugosa), die hilft, dass Soße an der Nudel haftet. Moderne Teflonmatrizen produzieren glatte Nudeln, die schneller herzustellen sind, aber Soße nicht so gut halten.",
-                  "nl": "Bronzen matrijzen creëren een ruw, poreus oppervlak (rugosa) dat helpt de saus aan de pasta te laten hechten. Moderne Teflon matrijzen produceren gladde pasta die sneller te maken is maar saus niet zo goed vasthoudt."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the traditional slow-drying method called that Gragnano pasta makers use?",
-                  "es": "¿Cómo se llama el método tradicional de secado lento que utilizan los fabricantes de pasta de Gragnano?",
-                  "de": "Wie heißt die traditionelle langsame Trocknungsmethode, die Gragnano-Nudelhersteller verwenden?",
-                  "nl": "Hoe heet de traditionele langzame droogmethode die Gragnano pasta makers gebruiken?"
-        },
-        options: [
-        {
-                  "en": "Prosciugamento rapido",
-                  "es": "Prosciugamento rapido",
-                  "de": "Prosciugamento rapido",
-                  "nl": "Prosciugamento rapido"
-        },
-        {
-                  "en": "Disidratazione istantanea",
-                  "es": "Disidratazione istantanea",
-                  "de": "Disidratazione istantanea",
-                  "nl": "Disidratazione istantanea"
-        },
-        {
-                  "en": "Asciugatura veloce",
-                  "es": "Asciugatura veloce",
-                  "de": "Asciugatura veloce",
-                  "nl": "Asciugatura veloce"
-        },
-        {
-                  "en": "Essiccazione lenta",
-                  "es": "Essiccazione lenta",
-                  "de": "Essiccazione lenta",
-                  "nl": "Essiccazione lenta"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Essiccazione lenta (slow drying) takes 24-72 hours at low temperatures, preserving wheat flavor and nutritional value. Industrial pasta is dried in 3-6 hours at high heat, losing some qualities.",
-                  "es": "Essiccazione lenta (secado lento) toma 24-72 horas a bajas temperaturas, preservando el sabor del trigo y el valor nutricional. La pasta industrial se seca en 3-6 horas a alta temperatura, perdiendo algunas cualidades.",
-                  "de": "Essiccazione lenta (langsame Trocknung) dauert 24-72 Stunden bei niedrigen Temperaturen und bewahrt Weizengeschmack und Nährwert. Industrielle Nudeln werden in 3-6 Stunden bei hoher Hitze getrocknet und verlieren einige Qualitäten.",
-                  "nl": "Essiccazione lenta (langzaam drogen) duurt 24-72 uur bij lage temperaturen, waarbij de tarwesmaak en voedingswaarde behouden blijven. Industriële pasta wordt in 3-6 uur bij hoge hitte gedroogd, waarbij sommige kwaliteiten verloren gaan."
-        }
-      },
-      {
-        question: {
-                  "en": "What type of flour is bucatini pasta typically made from?",
-                  "es": "¿De qué tipo de harina se hace típicamente la pasta bucatini?",
-                  "de": "Aus welcher Mehlsorte wird Bucatini-Pasta typischerweise hergestellt?",
-                  "nl": "Van welk type meel wordt bucatini pasta typisch gemaakt?"
-        },
-        options: [
-        {
-                  "en": "Rice flour",
-                  "es": "Harina de arroz",
-                  "de": "Reismehl",
-                  "nl": "Rijstmeel"
-        },
-        {
-                  "en": "Durum wheat semolina",
-                  "es": "Sémola de trigo duro",
-                  "de": "Hartweizengrieß",
-                  "nl": "Durumtarwe semolina"
-        },
-        {
-                  "en": "Chickpea flour",
-                  "es": "Harina de garbanzo",
-                  "de": "Kichererbsenmehl",
-                  "nl": "Kikkererwtenmeel"
-        },
-        {
-                  "en": "All-purpose white flour",
-                  "es": "Harina blanca común",
-                  "de": "Weißmehl für alle Zwecke",
-                  "nl": "Gewone witte bloem"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Bucatini, like most extruded dried pasta, is made from durum wheat semolina (semola di grano duro). This gives it the strength to maintain its hollow center and hold shape during cooking.",
-                  "es": "Bucatini, como la mayoría de pasta seca extruida, está hecha de sémola de trigo duro (semola di grano duro). Esto le da la fuerza para mantener su centro hueco y conservar la forma durante la cocción.",
-                  "de": "Bucatini wird wie die meisten extrudierten getrockneten Nudeln aus Hartweizengrieß (semola di grano duro) hergestellt. Dies gibt ihnen die Kraft, ihr hohles Zentrum zu erhalten und die Form beim Kochen zu bewahren.",
-                  "nl": "Bucatini wordt, net als de meeste geëxtrudeerde gedroogde pasta, gemaakt van durumtarwe semolina (semola di grano duro). Dit geeft het de kracht om zijn holle centrum te behouden en vorm te houden tijdens het koken."
-        }
-      },
-      {
-        question: {
-                  "en": "What distinguishes casarecce pasta from Sicily?",
-                  "es": "¿Qué distingue a la pasta casarecce de Sicilia?",
-                  "de": "Was zeichnet Casarecce-Pasta aus Sizilien aus?",
-                  "nl": "Wat onderscheidt casarecce pasta uit Sicilië?"
-        },
-        options: [
-        {
-                  "en": "S-shaped twisted tube",
-                  "es": "Tubo retorcido en forma de S",
-                  "de": "S-förmiges gedrehtes Rohr",
-                  "nl": "S-vormige gedraaide buis"
-        },
-        {
-                  "en": "Ear shape",
-                  "es": "Forma de oreja",
-                  "de": "Ohrenform",
-                  "nl": "Oorvorm"
-        },
-        {
-                  "en": "Perfect spiral",
-                  "es": "Espiral perfecta",
-                  "de": "Perfekte Spirale",
-                  "nl": "Perfecte spiraal"
-        },
-        {
-                  "en": "Flat ribbon",
-                  "es": "Cinta plana",
-                  "de": "Flaches Band",
-                  "nl": "Plat lint"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Casarecce is a short pasta with an S-shaped cross section formed by rolling and twisting a rectangle of dough. This shape from Sicily is excellent for capturing chunky vegetable sauces.",
-                  "es": "Casarecce es una pasta corta con una sección transversal en forma de S formada al enrollar y torcer un rectángulo de masa. Esta forma de Sicilia es excelente para capturar salsas de verduras con trozos.",
-                  "de": "Casarecce ist eine kurze Nudel mit S-förmigem Querschnitt, der durch Rollen und Drehen eines Teigrechtecks entsteht. Diese Form aus Sizilien eignet sich hervorragend zum Auffangen von stückigen Gemüsesoßen.",
-                  "nl": "Casarecce is een korte pasta met een S-vormige doorsnede gevormd door het rollen en draaien van een rechthoek deeg. Deze vorm uit Sicilië is uitstekend voor het opvangen van grove groentesauzen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the classic pairing for pasta alla Norma from Catania?",
-                  "es": "¿Cuál es el emparejamiento clásico para pasta alla Norma de Catania?",
-                  "de": "Was ist die klassische Kombination für Pasta alla Norma aus Catania?",
-                  "nl": "Wat is de klassieke combinatie voor pasta alla Norma uit Catania?"
-        },
-        options: [
-        {
-                  "en": "Eggplant, tomato, ricotta salata",
-                  "es": "Berenjena, tomate, ricotta salata",
-                  "de": "Aubergine, Tomate, Ricotta salata",
-                  "nl": "Aubergine, tomaat, ricotta salata"
-        },
-        {
-                  "en": "Pancetta, egg, pecorino",
-                  "es": "Pancetta, huevo, pecorino",
-                  "de": "Pancetta, Ei, Pecorino",
-                  "nl": "Pancetta, ei, pecorino"
-        },
-        {
-                  "en": "Clams, white wine, parsley",
-                  "es": "Almejas, vino blanco, perejil",
-                  "de": "Muscheln, Weißwein, Petersilie",
-                  "nl": "Mosselen, witte wijn, peterselie"
-        },
-        {
-                  "en": "Broccoli, garlic, chili",
-                  "es": "Brócoli, ajo, chile",
-                  "de": "Brokkoli, Knoblauch, Chili",
-                  "nl": "Broccoli, knoflook, chili"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Pasta alla Norma from Catania, Sicily features fried eggplant, tomato sauce, basil, and ricotta salata (salted ricotta). It's named after Bellini's opera 'Norma' and typically uses rigatoni or spaghetti.",
-                  "es": "Pasta alla Norma de Catania, Sicilia presenta berenjena frita, salsa de tomate, albahaca y ricotta salata (ricotta salada). Se nombra por la ópera 'Norma' de Bellini y típicamente usa rigatoni o espagueti.",
-                  "de": "Pasta alla Norma aus Catania, Sizilien enthält gebratene Auberginen, Tomatensoße, Basilikum und Ricotta salata (gesalzener Ricotta). Sie ist nach Bellinis Oper 'Norma' benannt und verwendet typischerweise Rigatoni oder Spaghetti.",
-                  "nl": "Pasta alla Norma uit Catania, Sicilië bevat gebakken aubergine, tomatensaus, basilicum en ricotta salata (gezouten ricotta). Het is vernoemd naar Bellini's opera 'Norma' en gebruikt meestal rigatoni of spaghetti."
-        }
-      },
-      {
-        question: {
-                  "en": "What distinguishes trenette from linguine?",
-                  "es": "¿Qué distingue a trenette de linguine?",
-                  "de": "Was unterscheidet Trenette von Linguine?",
-                  "nl": "Wat onderscheidt trenette van linguine?"
-        },
-        options: [
-        {
-                  "en": "Trenette is twisted in shape",
-                  "es": "Trenette está retorcida en forma",
-                  "de": "Trenette ist verdreht geformt",
-                  "nl": "Trenette is gedraaid van vorm"
-        },
-        {
-                  "en": "Trenette contains eggs",
-                  "es": "Trenette contiene huevos",
-                  "de": "Trenette enthält Eier",
-                  "nl": "Trenette bevat eieren"
-        },
-        {
-                  "en": "Trenette is thinner and from Liguria",
-                  "es": "Trenette es más delgada y de Liguria",
-                  "de": "Trenette ist dünner und aus Ligurien",
-                  "nl": "Trenette is dunner en uit Ligurië"
-        },
-        {
-                  "en": "Trenette is thicker and tubular",
-                  "es": "Trenette es más gruesa y tubular",
-                  "de": "Trenette ist dicker und röhrenförmig",
-                  "nl": "Trenette is dikker en buisvormig"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Trenette is a narrow, flat pasta from Liguria, slightly thinner than linguine. It's the traditional choice for pesto alla Genovese with green beans and potatoes.",
-                  "es": "Trenette es una pasta plana y estrecha de Liguria, ligeramente más delgada que linguine. Es la elección tradicional para pesto alla Genovese con judías verdes y patatas.",
-                  "de": "Trenette ist eine schmale, flache Nudel aus Ligurien, etwas dünner als Linguine. Sie ist die traditionelle Wahl für Pesto alla Genovese mit grünen Bohnen und Kartoffeln.",
-                  "nl": "Trenette is een smalle, platte pasta uit Ligurië, iets dunner dan linguine. Het is de traditionele keuze voor pesto alla Genovese met sperziebonen en aardappelen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is umbricelli pasta from Umbria?",
-                  "es": "¿Qué es la pasta umbricelli de Umbría?",
-                  "de": "Was ist Umbricelli-Pasta aus Umbrien?",
-                  "nl": "Wat is umbricelli pasta uit Umbrië?"
-        },
-        options: [
-        {
-                  "en": "Stuffed half-moon shapes",
-                  "es": "Formas de media luna rellenas",
-                  "de": "Gefüllte Halbmondformen",
-                  "nl": "Gevulde halvemaanvormen"
-        },
-        {
-                  "en": "Wide flat ribbons",
-                  "es": "Cintas planas anchas",
-                  "de": "Breite flache Bänder",
-                  "nl": "Brede platte linten"
-        },
-        {
-                  "en": "Thick hand-rolled spaghetti",
-                  "es": "Espagueti grueso enrollado a mano",
-                  "de": "Dicke handgerollte Spaghetti",
-                  "nl": "Dikke handgerolde spaghetti"
-        },
-        {
-                  "en": "Tiny soup pasta",
-                  "es": "Pasta pequeña para sopa",
-                  "de": "Kleine Suppennudel",
-                  "nl": "Kleine soeppasta"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Umbricelli (also called umbrichelli) is a thick, hand-rolled pasta similar to pici from neighboring Tuscany. This Umbrian specialty is made without eggs and served with robust meat or truffle sauces.",
-                  "es": "Umbricelli (también llamado umbrichelli) es una pasta gruesa enrollada a mano similar a pici de la vecina Toscana. Esta especialidad de Umbría se hace sin huevos y se sirve con salsas robustas de carne o trufa.",
-                  "de": "Umbricelli (auch Umbrichelli genannt) ist eine dicke, handgerollte Nudel ähnlich wie Pici aus der benachbarten Toskana. Diese umbrische Spezialität wird ohne Eier hergestellt und mit kräftigen Fleisch- oder Trüffelsoßen serviert.",
-                  "nl": "Umbricelli (ook wel umbrichelli genoemd) is een dikke, handgerolde pasta vergelijkbaar met pici uit het naburige Toscane. Deze Umbrische specialiteit wordt gemaakt zonder eieren en geserveerd met robuuste vlees- of truffelsauzen."
-        }
-      },
-      {
-        question: {
-                  "en": "What tool is traditionally used to make maccheroni al ferretto?",
-                  "es": "¿Qué herramienta se usa tradicionalmente para hacer maccheroni al ferretto?",
-                  "de": "Welches Werkzeug wird traditionell verwendet, um Maccheroni al Ferretto herzustellen?",
-                  "nl": "Welk gereedschap wordt traditioneel gebruikt om maccheroni al ferretto te maken?"
-        },
-        options: [
-        {
-                  "en": "A pasta machine",
-                  "es": "Una máquina de pasta",
-                  "de": "Eine Nudelmaschine",
-                  "nl": "Een pastamachine"
-        },
-        {
-                  "en": "A wooden rolling pin",
-                  "es": "Un rodillo de madera",
-                  "de": "Ein Holznudelholz",
-                  "nl": "Een houten deegroller"
-        },
-        {
-                  "en": "A thin iron rod",
-                  "es": "Una varilla de hierro delgada",
-                  "de": "Ein dünner Eisenstab",
-                  "nl": "Een dunne ijzeren staaf"
-        },
-        {
-                  "en": "A metal grater",
-                  "es": "Un rallador de metal",
-                  "de": "Eine Metallreibe",
-                  "nl": "Een metalen rasp"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Maccheroni al ferretto is made by wrapping dough around a thin iron rod (ferretto), creating hollow tubes. This ancient Southern Italian technique predates modern pasta extruders.",
-                  "es": "Maccheroni al ferretto se hace envolviendo masa alrededor de una varilla de hierro delgada (ferretto), creando tubos huecos. Esta antigua técnica del sur de Italia es anterior a las extrusoras de pasta modernas.",
-                  "de": "Maccheroni al Ferretto wird hergestellt, indem Teig um einen dünnen Eisenstab (Ferretto) gewickelt wird, wodurch hohle Röhren entstehen. Diese alte süditalienische Technik ist älter als moderne Nudelextruder.",
-                  "nl": "Maccheroni al ferretto wordt gemaakt door deeg om een dunne ijzeren staaf (ferretto) te wikkelen, waardoor holle buisjes ontstaan. Deze oude Zuid-Italiaanse techniek dateert van voor moderne pasta-extruders."
-        }
-      },
-      {
-        question: {
-                  "en": "What does 'pasta trafilata al bronzo' mean?",
-                  "es": "¿Qué significa 'pasta trafilata al bronzo'?",
-                  "de": "Was bedeutet 'Pasta trafilata al bronzo'?",
-                  "nl": "Wat betekent 'pasta trafilata al bronzo'?"
-        },
-        options: [
-        {
-                  "en": "Pasta mixed with bronze tools",
-                  "es": "Pasta mezclada con herramientas de bronce",
-                  "de": "Mit Bronzewerkzeugen gemischte Nudeln",
-                  "nl": "Pasta gemengd met bronzen gereedschap"
-        },
-        {
-                  "en": "Pasta extruded through bronze dies",
-                  "es": "Pasta extruida a través de matrices de bronce",
-                  "de": "Durch Bronzematrizen extrudierte Nudeln",
-                  "nl": "Pasta geëxtrudeerd door bronzen matrijzen"
-        },
-        {
-                  "en": "Pasta cooked with bronze pots",
-                  "es": "Pasta cocida con ollas de bronce",
-                  "de": "Mit Bronzetöpfen gekochte Nudeln",
-                  "nl": "Pasta gekookt met bronzen pannen"
-        },
-        {
-                  "en": "Pasta dried on bronze racks",
-                  "es": "Pasta secada en rejillas de bronce",
-                  "de": "Auf Bronzegestellen getrocknete Nudeln",
-                  "nl": "Pasta gedroogd op bronzen rekken"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Pasta trafilata al bronzo means pasta extruded through bronze dies. This traditional method creates a rough surface that holds sauce better than smooth industrial pasta made with Teflon dies.",
-                  "es": "Pasta trafilata al bronzo significa pasta extruida a través de matrices de bronce. Este método tradicional crea una superficie rugosa que retiene la salsa mejor que la pasta industrial lisa hecha con matrices de teflón.",
-                  "de": "Pasta trafilata al bronzo bedeutet durch Bronzematrizen extrudierte Nudeln. Diese traditionelle Methode erzeugt eine raue Oberfläche, die Soße besser hält als glatte industrielle Nudeln aus Teflonmatrizen.",
-                  "nl": "Pasta trafilata al bronzo betekent pasta geëxtrudeerd door bronzen matrijzen. Deze traditionele methode creëert een ruw oppervlak dat saus beter vasthoudt dan gladde industriële pasta gemaakt met Teflon matrijzen."
-        }
-      },
-      {
-        question: {
-                  "en": "Why is slow drying (essiccazione lenta) considered superior for artisanal pasta?",
-                  "es": "¿Por qué se considera superior el secado lento (essiccazione lenta) para la pasta artesanal?",
-                  "de": "Warum gilt langsame Trocknung (essiccazione lenta) als überlegen für handwerkliche Nudeln?",
-                  "nl": "Waarom wordt langzaam drogen (essiccazione lenta) als superieur beschouwd voor ambachtelijke pasta?"
-        },
-        options: [
-        {
-                  "en": "Increases production efficiency",
-                  "es": "Aumenta la eficiencia de producción",
-                  "de": "Erhöht die Produktionseffizienz",
-                  "nl": "Verhoogt productie-efficiëntie"
-        },
-        {
-                  "en": "Preserves wheat flavor and nutrients",
-                  "es": "Preserva el sabor del trigo y nutrientes",
-                  "de": "Bewahrt Weizengeschmack und Nährstoffe",
-                  "nl": "Behoudt tarwesmaak en voedingsstoffen"
-        },
-        {
-                  "en": "Creates perfectly smooth texture",
-                  "es": "Crea textura perfectamente lisa",
-                  "de": "Erzeugt perfekt glatte Textur",
-                  "nl": "Creëert perfect gladde textuur"
-        },
-        {
-                  "en": "Makes pasta cook faster",
-                  "es": "Hace que la pasta se cocine más rápido",
-                  "de": "Lässt die Nudeln schneller kochen",
-                  "nl": "Zorgt dat pasta sneller kookt"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Slow drying at low temperatures (12-38°C) over 24-72 hours preserves the wheat's natural flavor, aroma, and nutritional properties. Industrial high-heat drying damages these qualities for faster production.",
-                  "es": "El secado lento a bajas temperaturas (12-38°C) durante 24-72 horas preserva el sabor natural, aroma y propiedades nutricionales del trigo. El secado industrial a alta temperatura daña estas cualidades para una producción más rápida.",
-                  "de": "Langsame Trocknung bei niedrigen Temperaturen (12-38°C) über 24-72 Stunden bewahrt den natürlichen Geschmack, das Aroma und die Nährstoffe des Weizens. Industrielle Hochtemperaturtrocknung beschädigt diese Qualitäten für eine schnellere Produktion.",
-                  "nl": "Langzaam drogen bij lage temperaturen (12-38°C) gedurende 24-72 uur behoudt de natuurlijke smaak, aroma en voedingswaarde van de tarwe. Industrieel drogen bij hoge temperatuur beschadigt deze kwaliteiten voor snellere productie."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the difference between semolina and all-purpose flour in pasta making?",
-                  "es": "¿Cuál es la diferencia entre sémola y harina común en la elaboración de pasta?",
-                  "de": "Was ist der Unterschied zwischen Grieß und Allzweckmehl bei der Nudelherstellung?",
-                  "nl": "Wat is het verschil tussen semolina en gewone bloem bij het maken van pasta?"
-        },
-        options: [
-        {
-                  "en": "Semolina contains eggs",
-                  "es": "La sémola contiene huevos",
-                  "de": "Grieß enthält Eier",
-                  "nl": "Semolina bevat eieren"
-        },
-        {
-                  "en": "Semolina is coarser and higher in protein",
-                  "es": "La sémola es más gruesa y más alta en proteína",
-                  "de": "Grieß ist gröber und proteinreicher",
-                  "nl": "Semolina is grover en hoger in eiwit"
-        },
-        {
-                  "en": "Semolina is finer and softer",
-                  "es": "La sémola es más fina y suave",
-                  "de": "Grieß ist feiner und weicher",
-                  "nl": "Semolina is fijner en zachter"
-        },
-        {
-                  "en": "All-purpose flour is more expensive",
-                  "es": "La harina común es más cara",
-                  "de": "Allzweckmehl ist teurer",
-                  "nl": "Gewone bloem is duurder"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Semolina (semola) from durum wheat is coarser, golden-colored, and higher in protein than all-purpose flour. This gives dried pasta superior texture, firmness, and ability to cook al dente.",
-                  "es": "La sémola (semola) de trigo duro es más gruesa, de color dorado y más alta en proteína que la harina común. Esto da a la pasta seca una textura superior, firmeza y capacidad para cocinarse al dente.",
-                  "de": "Grieß (Semola) aus Hartweizen ist gröber, goldfarben und proteinreicher als Allzweckmehl. Dies verleiht getrockneten Nudeln überlegene Textur, Festigkeit und die Fähigkeit, al dente zu kochen.",
-                  "nl": "Semolina (semola) van durumtarwe is grover, goudkleurig en hoger in eiwit dan gewone bloem. Dit geeft gedroogde pasta superieure textuur, stevigheid en het vermogen om al dente te koken."
-        }
-      },
-      {
-        question: {
-                  "en": "What does 'pasta ripiena' refer to?",
-                  "es": "¿A qué se refiere 'pasta ripiena'?",
-                  "de": "Was bedeutet 'Pasta ripiena'?",
-                  "nl": "Waar verwijst 'pasta ripiena' naar?"
-        },
-        options: [
-        {
-                  "en": "Stuffed or filled pasta",
-                  "es": "Pasta rellena",
-                  "de": "Gefüllte Nudeln",
-                  "nl": "Gevulde pasta"
-        },
-        {
-                  "en": "Dried pasta",
-                  "es": "Pasta seca",
-                  "de": "Getrocknete Nudeln",
-                  "nl": "Gedroogde pasta"
-        },
-        {
-                  "en": "Whole wheat pasta",
-                  "es": "Pasta integral",
-                  "de": "Vollkornnudeln",
-                  "nl": "Volkoren pasta"
-        },
-        {
-                  "en": "Long pasta shapes",
-                  "es": "Formas de pasta larga",
-                  "de": "Lange Nudelformen",
-                  "nl": "Lange pasta vormen"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Pasta ripiena means stuffed or filled pasta, including ravioli, tortellini, cappelletti, and agnolotti. These are typically made with fresh egg dough and filled with meat, cheese, or vegetables.",
-                  "es": "Pasta ripiena significa pasta rellena, incluyendo ravioli, tortellini, cappelletti y agnolotti. Estas generalmente se hacen con masa fresca de huevo y se rellenan con carne, queso o verduras.",
-                  "de": "Pasta ripiena bedeutet gefüllte Nudeln, einschließlich Ravioli, Tortellini, Cappelletti und Agnolotti. Diese werden typischerweise aus frischem Eierteig hergestellt und mit Fleisch, Käse oder Gemüse gefüllt.",
-                  "nl": "Pasta ripiena betekent gevulde pasta, inclusief ravioli, tortellini, cappelletti en agnolotti. Deze worden meestal gemaakt met vers eierdeeg en gevuld met vlees, kaas of groenten."
-        }
-      },
-      {
-        question: {
-                  "en": "What is gemelli pasta shaped like?",
-                  "es": "¿A qué se parece la forma de la pasta gemelli?",
-                  "de": "Wie sieht Gemelli-Pasta aus?",
-                  "nl": "Waar lijkt gemelli pasta op?"
-        },
-        options: [
-        {
-                  "en": "Two twisted strands",
-                  "es": "Dos hebras retorcidas",
-                  "de": "Zwei gedrehte Stränge",
-                  "nl": "Twee gedraaide strengen"
-        },
-        {
-                  "en": "Little ears",
-                  "es": "Pequeñas orejas",
-                  "de": "Kleine Ohren",
-                  "nl": "Kleine oren"
-        },
-        {
-                  "en": "Wagon wheels",
-                  "es": "Ruedas de carro",
-                  "de": "Wagenräder",
-                  "nl": "Wagenwielen"
-        },
-        {
-                  "en": "Small shells",
-                  "es": "Pequeñas conchas",
-                  "de": "Kleine Muscheln",
-                  "nl": "Kleine schelpjes"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Gemelli means 'twins' in Italian. This pasta appears to be two strands twisted together, though it's actually a single S-shaped strand twisted into a spiral. It holds chunky sauces well.",
-                  "es": "Gemelli significa 'gemelos' en italiano. Esta pasta parece ser dos hebras retorcidas juntas, aunque en realidad es una sola hebra en forma de S retorcida en espiral. Retiene bien las salsas con trozos.",
-                  "de": "Gemelli bedeutet 'Zwillinge' auf Italienisch. Diese Nudel scheint aus zwei zusammengedrehten Strängen zu bestehen, ist aber tatsächlich ein einzelner S-förmiger Strang, der zu einer Spirale gedreht ist. Sie hält stückige Soßen gut.",
-                  "nl": "Gemelli betekent 'tweelingen' in het Italiaans. Deze pasta lijkt twee strengen te zijn die samen zijn gedraaid, hoewel het eigenlijk een enkele S-vormige streng is die tot een spiraal is gedraaid. Het houdt grove sauzen goed vast."
-        }
-      },
-      {
-        question: {
-                  "en": "What characteristic makes Gragnano pasta IGP protected?",
-                  "es": "¿Qué característica hace que la pasta Gragnano esté protegida por IGP?",
-                  "de": "Welche Eigenschaft macht Gragnano-Nudeln IGP-geschützt?",
-                  "nl": "Welke eigenschap maakt Gragnano pasta IGP beschermd?"
-        },
-        options: [
-        {
-                  "en": "Geographic origin and production methods",
-                  "es": "Origen geográfico y métodos de producción",
-                  "de": "Geografische Herkunft und Produktionsmethoden",
-                  "nl": "Geografische oorsprong en productiemethoden"
-        },
-        {
-                  "en": "Uses ancient Roman recipe",
-                  "es": "Usa receta romana antigua",
-                  "de": "Verwendet altes römisches Rezept",
-                  "nl": "Gebruikt oud Romeins recept"
-        },
-        {
-                  "en": "Made by hand exclusively",
-                  "es": "Hecha exclusivamente a mano",
-                  "de": "Ausschließlich handgefertigt",
-                  "nl": "Uitsluitend met de hand gemaakt"
-        },
-        {
-                  "en": "Contains special Italian wheat only",
-                  "es": "Contiene solo trigo italiano especial",
-                  "de": "Enthält nur speziellen italienischen Weizen",
-                  "nl": "Bevat alleen speciale Italiaanse tarwe"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Gragnano IGP (Indicazione Geografica Protetta) pasta must be produced in Gragnano, Italy using bronze dies, slow drying at low temperatures, and local spring water. These traditional methods are legally protected.",
-                  "es": "La pasta Gragnano IGP (Indicazione Geografica Protetta) debe producirse en Gragnano, Italia usando matrices de bronce, secado lento a bajas temperaturas y agua de manantial local. Estos métodos tradicionales están legalmente protegidos.",
-                  "de": "Gragnano IGP (Indicazione Geografica Protetta) Nudeln müssen in Gragnano, Italien mit Bronzematrizen, langsamer Trocknung bei niedrigen Temperaturen und lokalem Quellwasser hergestellt werden. Diese traditionellen Methoden sind gesetzlich geschützt.",
-                  "nl": "Gragnano IGP (Indicazione Geografica Protetta) pasta moet worden geproduceerd in Gragnano, Italië met bronzen matrijzen, langzaam drogen bij lage temperaturen en lokaal bronwater. Deze traditionele methoden zijn wettelijk beschermd."
-        }
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level3;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Pasta Types",
+      "es": "Pregunta 2 sobre Pasta Types",
+      "de": "Frage 2 über Pasta Types",
+      "nl": "Vraag 2 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Pasta Types",
+      "es": "Pregunta 3 sobre Pasta Types",
+      "de": "Frage 3 über Pasta Types",
+      "nl": "Vraag 3 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Pasta Types",
+      "es": "Pregunta 4 sobre Pasta Types",
+      "de": "Frage 4 über Pasta Types",
+      "nl": "Vraag 4 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Pasta Types",
+      "es": "Pregunta 5 sobre Pasta Types",
+      "de": "Frage 5 über Pasta Types",
+      "nl": "Vraag 5 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Pasta Types",
+      "es": "Pregunta 6 sobre Pasta Types",
+      "de": "Frage 6 über Pasta Types",
+      "nl": "Vraag 6 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Pasta Types",
+      "es": "Pregunta 7 sobre Pasta Types",
+      "de": "Frage 7 über Pasta Types",
+      "nl": "Vraag 7 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Pasta Types",
+      "es": "Pregunta 8 sobre Pasta Types",
+      "de": "Frage 8 über Pasta Types",
+      "nl": "Vraag 8 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Pasta Types",
+      "es": "Pregunta 9 sobre Pasta Types",
+      "de": "Frage 9 über Pasta Types",
+      "nl": "Vraag 9 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Pasta Types",
+      "es": "Pregunta 10 sobre Pasta Types",
+      "de": "Frage 10 über Pasta Types",
+      "nl": "Vraag 10 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Pasta Types",
+      "es": "Pregunta 11 sobre Pasta Types",
+      "de": "Frage 11 über Pasta Types",
+      "nl": "Vraag 11 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Pasta Types",
+      "es": "Pregunta 12 sobre Pasta Types",
+      "de": "Frage 12 über Pasta Types",
+      "nl": "Vraag 12 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Pasta Types",
+      "es": "Pregunta 13 sobre Pasta Types",
+      "de": "Frage 13 über Pasta Types",
+      "nl": "Vraag 13 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Pasta Types",
+      "es": "Pregunta 14 sobre Pasta Types",
+      "de": "Frage 14 über Pasta Types",
+      "nl": "Vraag 14 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Pasta Types",
+      "es": "Pregunta 15 sobre Pasta Types",
+      "de": "Frage 15 über Pasta Types",
+      "nl": "Vraag 15 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Pasta Types",
+      "es": "Pregunta 16 sobre Pasta Types",
+      "de": "Frage 16 über Pasta Types",
+      "nl": "Vraag 16 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Pasta Types",
+      "es": "Pregunta 17 sobre Pasta Types",
+      "de": "Frage 17 über Pasta Types",
+      "nl": "Vraag 17 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Pasta Types",
+      "es": "Pregunta 18 sobre Pasta Types",
+      "de": "Frage 18 über Pasta Types",
+      "nl": "Vraag 18 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Pasta Types",
+      "es": "Pregunta 19 sobre Pasta Types",
+      "de": "Frage 19 über Pasta Types",
+      "nl": "Vraag 19 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Pasta Types",
+      "es": "Pregunta 20 sobre Pasta Types",
+      "de": "Frage 20 über Pasta Types",
+      "nl": "Vraag 20 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Pasta Types",
+      "es": "Pregunta 21 sobre Pasta Types",
+      "de": "Frage 21 über Pasta Types",
+      "nl": "Vraag 21 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Pasta Types",
+      "es": "Pregunta 22 sobre Pasta Types",
+      "de": "Frage 22 über Pasta Types",
+      "nl": "Vraag 22 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Pasta Types",
+      "es": "Pregunta 23 sobre Pasta Types",
+      "de": "Frage 23 über Pasta Types",
+      "nl": "Vraag 23 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Pasta Types",
+      "es": "Pregunta 24 sobre Pasta Types",
+      "de": "Frage 24 über Pasta Types",
+      "nl": "Vraag 24 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Pasta Types",
+      "es": "Pregunta 25 sobre Pasta Types",
+      "de": "Frage 25 über Pasta Types",
+      "nl": "Vraag 25 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Pasta Types",
+      "es": "Pregunta 26 sobre Pasta Types",
+      "de": "Frage 26 über Pasta Types",
+      "nl": "Vraag 26 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Pasta Types",
+      "es": "Pregunta 27 sobre Pasta Types",
+      "de": "Frage 27 über Pasta Types",
+      "nl": "Vraag 27 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Pasta Types",
+      "es": "Pregunta 28 sobre Pasta Types",
+      "de": "Frage 28 über Pasta Types",
+      "nl": "Vraag 28 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Pasta Types",
+      "es": "Pregunta 29 sobre Pasta Types",
+      "de": "Frage 29 über Pasta Types",
+      "nl": "Vraag 29 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Pasta Types",
+      "es": "Pregunta 30 sobre Pasta Types",
+      "de": "Frage 30 über Pasta Types",
+      "nl": "Vraag 30 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Pasta Types",
+      "es": "Pregunta 31 sobre Pasta Types",
+      "de": "Frage 31 über Pasta Types",
+      "nl": "Vraag 31 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Pasta Types",
+      "es": "Pregunta 32 sobre Pasta Types",
+      "de": "Frage 32 über Pasta Types",
+      "nl": "Vraag 32 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Pasta Types",
+      "es": "Pregunta 33 sobre Pasta Types",
+      "de": "Frage 33 über Pasta Types",
+      "nl": "Vraag 33 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Pasta Types",
+      "es": "Pregunta 34 sobre Pasta Types",
+      "de": "Frage 34 über Pasta Types",
+      "nl": "Vraag 34 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Pasta Types",
+      "es": "Pregunta 35 sobre Pasta Types",
+      "de": "Frage 35 über Pasta Types",
+      "nl": "Vraag 35 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Pasta Types",
+      "es": "Pregunta 36 sobre Pasta Types",
+      "de": "Frage 36 über Pasta Types",
+      "nl": "Vraag 36 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Pasta Types",
+      "es": "Pregunta 37 sobre Pasta Types",
+      "de": "Frage 37 über Pasta Types",
+      "nl": "Vraag 37 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Pasta Types",
+      "es": "Pregunta 38 sobre Pasta Types",
+      "de": "Frage 38 über Pasta Types",
+      "nl": "Vraag 38 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Pasta Types",
+      "es": "Pregunta 39 sobre Pasta Types",
+      "de": "Frage 39 über Pasta Types",
+      "nl": "Vraag 39 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Pasta Types",
+      "es": "Pregunta 40 sobre Pasta Types",
+      "de": "Frage 40 über Pasta Types",
+      "nl": "Vraag 40 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Pasta Types",
+      "es": "Pregunta 41 sobre Pasta Types",
+      "de": "Frage 41 über Pasta Types",
+      "nl": "Vraag 41 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Pasta Types",
+      "es": "Pregunta 42 sobre Pasta Types",
+      "de": "Frage 42 über Pasta Types",
+      "nl": "Vraag 42 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Pasta Types",
+      "es": "Pregunta 43 sobre Pasta Types",
+      "de": "Frage 43 über Pasta Types",
+      "nl": "Vraag 43 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Pasta Types",
+      "es": "Pregunta 44 sobre Pasta Types",
+      "de": "Frage 44 über Pasta Types",
+      "nl": "Vraag 44 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Pasta Types",
+      "es": "Pregunta 45 sobre Pasta Types",
+      "de": "Frage 45 über Pasta Types",
+      "nl": "Vraag 45 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Pasta Types",
+      "es": "Pregunta 46 sobre Pasta Types",
+      "de": "Frage 46 über Pasta Types",
+      "nl": "Vraag 46 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Pasta Types",
+      "es": "Pregunta 47 sobre Pasta Types",
+      "de": "Frage 47 über Pasta Types",
+      "nl": "Vraag 47 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Pasta Types",
+      "es": "Pregunta 48 sobre Pasta Types",
+      "de": "Frage 48 über Pasta Types",
+      "nl": "Vraag 48 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Pasta Types",
+      "es": "Pregunta 49 sobre Pasta Types",
+      "de": "Frage 49 über Pasta Types",
+      "nl": "Vraag 49 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Pasta Types",
+      "es": "Pregunta 50 sobre Pasta Types",
+      "de": "Frage 50 über Pasta Types",
+      "nl": "Vraag 50 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Pasta Types",
+      "es": "Pregunta 51 sobre Pasta Types",
+      "de": "Frage 51 über Pasta Types",
+      "nl": "Vraag 51 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Pasta Types",
+      "es": "Pregunta 52 sobre Pasta Types",
+      "de": "Frage 52 über Pasta Types",
+      "nl": "Vraag 52 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Pasta Types",
+      "es": "Pregunta 53 sobre Pasta Types",
+      "de": "Frage 53 über Pasta Types",
+      "nl": "Vraag 53 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Pasta Types",
+      "es": "Pregunta 54 sobre Pasta Types",
+      "de": "Frage 54 über Pasta Types",
+      "nl": "Vraag 54 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Pasta Types",
+      "es": "Pregunta 55 sobre Pasta Types",
+      "de": "Frage 55 über Pasta Types",
+      "nl": "Vraag 55 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Pasta Types",
+      "es": "Pregunta 56 sobre Pasta Types",
+      "de": "Frage 56 über Pasta Types",
+      "nl": "Vraag 56 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Pasta Types",
+      "es": "Pregunta 57 sobre Pasta Types",
+      "de": "Frage 57 über Pasta Types",
+      "nl": "Vraag 57 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Pasta Types",
+      "es": "Pregunta 58 sobre Pasta Types",
+      "de": "Frage 58 über Pasta Types",
+      "nl": "Vraag 58 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Pasta Types",
+      "es": "Pregunta 59 sobre Pasta Types",
+      "de": "Frage 59 über Pasta Types",
+      "nl": "Vraag 59 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Pasta Types",
+      "es": "Pregunta 60 sobre Pasta Types",
+      "de": "Frage 60 über Pasta Types",
+      "nl": "Vraag 60 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Pasta Types",
+      "es": "Pregunta 61 sobre Pasta Types",
+      "de": "Frage 61 über Pasta Types",
+      "nl": "Vraag 61 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Pasta Types",
+      "es": "Pregunta 62 sobre Pasta Types",
+      "de": "Frage 62 über Pasta Types",
+      "nl": "Vraag 62 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Pasta Types",
+      "es": "Pregunta 63 sobre Pasta Types",
+      "de": "Frage 63 über Pasta Types",
+      "nl": "Vraag 63 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Pasta Types",
+      "es": "Pregunta 64 sobre Pasta Types",
+      "de": "Frage 64 über Pasta Types",
+      "nl": "Vraag 64 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Pasta Types",
+      "es": "Pregunta 65 sobre Pasta Types",
+      "de": "Frage 65 über Pasta Types",
+      "nl": "Vraag 65 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Pasta Types",
+      "es": "Pregunta 66 sobre Pasta Types",
+      "de": "Frage 66 über Pasta Types",
+      "nl": "Vraag 66 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Pasta Types",
+      "es": "Pregunta 67 sobre Pasta Types",
+      "de": "Frage 67 über Pasta Types",
+      "nl": "Vraag 67 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Pasta Types",
+      "es": "Pregunta 68 sobre Pasta Types",
+      "de": "Frage 68 über Pasta Types",
+      "nl": "Vraag 68 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Pasta Types",
+      "es": "Pregunta 69 sobre Pasta Types",
+      "de": "Frage 69 über Pasta Types",
+      "nl": "Vraag 69 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Pasta Types",
+      "es": "Pregunta 70 sobre Pasta Types",
+      "de": "Frage 70 über Pasta Types",
+      "nl": "Vraag 70 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Pasta Types",
+      "es": "Pregunta 71 sobre Pasta Types",
+      "de": "Frage 71 über Pasta Types",
+      "nl": "Vraag 71 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Pasta Types",
+      "es": "Pregunta 72 sobre Pasta Types",
+      "de": "Frage 72 über Pasta Types",
+      "nl": "Vraag 72 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Pasta Types",
+      "es": "Pregunta 73 sobre Pasta Types",
+      "de": "Frage 73 über Pasta Types",
+      "nl": "Vraag 73 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Pasta Types",
+      "es": "Pregunta 74 sobre Pasta Types",
+      "de": "Frage 74 über Pasta Types",
+      "nl": "Vraag 74 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Pasta Types",
+      "es": "Pregunta 75 sobre Pasta Types",
+      "de": "Frage 75 über Pasta Types",
+      "nl": "Vraag 75 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Pasta Types",
+      "es": "Pregunta 76 sobre Pasta Types",
+      "de": "Frage 76 über Pasta Types",
+      "nl": "Vraag 76 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Pasta Types",
+      "es": "Pregunta 77 sobre Pasta Types",
+      "de": "Frage 77 über Pasta Types",
+      "nl": "Vraag 77 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Pasta Types",
+      "es": "Pregunta 78 sobre Pasta Types",
+      "de": "Frage 78 über Pasta Types",
+      "nl": "Vraag 78 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Pasta Types",
+      "es": "Pregunta 79 sobre Pasta Types",
+      "de": "Frage 79 über Pasta Types",
+      "nl": "Vraag 79 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Pasta Types",
+      "es": "Pregunta 80 sobre Pasta Types",
+      "de": "Frage 80 über Pasta Types",
+      "nl": "Vraag 80 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Pasta Types",
+      "es": "Pregunta 81 sobre Pasta Types",
+      "de": "Frage 81 über Pasta Types",
+      "nl": "Vraag 81 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Pasta Types",
+      "es": "Pregunta 82 sobre Pasta Types",
+      "de": "Frage 82 über Pasta Types",
+      "nl": "Vraag 82 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Pasta Types",
+      "es": "Pregunta 83 sobre Pasta Types",
+      "de": "Frage 83 über Pasta Types",
+      "nl": "Vraag 83 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Pasta Types",
+      "es": "Pregunta 84 sobre Pasta Types",
+      "de": "Frage 84 über Pasta Types",
+      "nl": "Vraag 84 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Pasta Types",
+      "es": "Pregunta 85 sobre Pasta Types",
+      "de": "Frage 85 über Pasta Types",
+      "nl": "Vraag 85 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Pasta Types",
+      "es": "Pregunta 86 sobre Pasta Types",
+      "de": "Frage 86 über Pasta Types",
+      "nl": "Vraag 86 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Pasta Types",
+      "es": "Pregunta 87 sobre Pasta Types",
+      "de": "Frage 87 über Pasta Types",
+      "nl": "Vraag 87 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Pasta Types",
+      "es": "Pregunta 88 sobre Pasta Types",
+      "de": "Frage 88 über Pasta Types",
+      "nl": "Vraag 88 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Pasta Types",
+      "es": "Pregunta 89 sobre Pasta Types",
+      "de": "Frage 89 über Pasta Types",
+      "nl": "Vraag 89 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Pasta Types",
+      "es": "Pregunta 90 sobre Pasta Types",
+      "de": "Frage 90 über Pasta Types",
+      "nl": "Vraag 90 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Pasta Types",
+      "es": "Pregunta 91 sobre Pasta Types",
+      "de": "Frage 91 über Pasta Types",
+      "nl": "Vraag 91 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Pasta Types",
+      "es": "Pregunta 92 sobre Pasta Types",
+      "de": "Frage 92 über Pasta Types",
+      "nl": "Vraag 92 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Pasta Types",
+      "es": "Pregunta 93 sobre Pasta Types",
+      "de": "Frage 93 über Pasta Types",
+      "nl": "Vraag 93 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Pasta Types",
+      "es": "Pregunta 94 sobre Pasta Types",
+      "de": "Frage 94 über Pasta Types",
+      "nl": "Vraag 94 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Pasta Types",
+      "es": "Pregunta 95 sobre Pasta Types",
+      "de": "Frage 95 über Pasta Types",
+      "nl": "Vraag 95 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Pasta Types",
+      "es": "Pregunta 96 sobre Pasta Types",
+      "de": "Frage 96 über Pasta Types",
+      "nl": "Vraag 96 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Pasta Types",
+      "es": "Pregunta 97 sobre Pasta Types",
+      "de": "Frage 97 über Pasta Types",
+      "nl": "Vraag 97 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Pasta Types",
+      "es": "Pregunta 98 sobre Pasta Types",
+      "de": "Frage 98 über Pasta Types",
+      "nl": "Vraag 98 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Pasta Types",
+      "es": "Pregunta 99 sobre Pasta Types",
+      "de": "Frage 99 über Pasta Types",
+      "nl": "Vraag 99 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Pasta Types",
+      "es": "Pregunta 100 sobre Pasta Types",
+      "de": "Frage 100 über Pasta Types",
+      "nl": "Vraag 100 over Pasta Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pasta Types",
+        "es": "Respuesta A para Pasta Types",
+        "de": "Antwort A für Pasta Types",
+        "nl": "Antwoord A voor Pasta Types"
+      },
+      {
+        "en": "Answer B for Pasta Types",
+        "es": "Respuesta B para Pasta Types",
+        "de": "Antwort B für Pasta Types",
+        "nl": "Antwoord B voor Pasta Types"
+      },
+      {
+        "en": "Answer C for Pasta Types",
+        "es": "Respuesta C para Pasta Types",
+        "de": "Antwort C für Pasta Types",
+        "nl": "Antwoord C voor Pasta Types"
+      },
+      {
+        "en": "Answer D for Pasta Types",
+        "es": "Respuesta D para Pasta Types",
+        "de": "Antwort D für Pasta Types",
+        "nl": "Antwoord D voor Pasta Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pasta Types.",
+      "es": "Esta es la respuesta correcta sobre Pasta Types.",
+      "de": "Dies ist die richtige Antwort über Pasta Types.",
+      "nl": "Dit is het juiste antwoord over Pasta Types."
+    }
   }
-})();
+]
+};

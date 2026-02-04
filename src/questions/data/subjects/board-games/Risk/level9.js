@@ -1,1657 +1,4104 @@
-// Risk Quiz - Level 9
-(function() {
-  const level9 = {
-    name: {
-          "en": "Risk - Grandmaster",
-          "es": "Risk - Gran Maestro",
-          "de": "Risk - Großmeister",
-          "nl": "Risk - Grootmeester"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Risk",
+      "es": "Pregunta 1 sobre Risk",
+      "de": "Frage 1 über Risk",
+      "nl": "Vraag 1 over Risk"
     },
-    questions: [
+    "options": [
       {
-        question: {
-                  "en": "What is optimal Risk play?",
-                  "es": "What is optimal Risk play?",
-                  "de": "What is optimal Risk play?",
-                  "nl": "What is optimal Risk play?"
-        },
-        options: [
-        {
-                  "en": "Ignore card sets",
-                  "es": "Ignore card sets",
-                  "de": "Ignore card sets",
-                  "nl": "Ignore card sets"
-        },
-        {
-                  "en": "Random dice",
-                  "es": "Random dice",
-                  "de": "Random dice",
-                  "nl": "Random dice"
-        },
-        {
-                  "en": "Calculate attack probabilities",
-                  "es": "Calculate attack probabilities",
-                  "de": "Calculate attack probabilities",
-                  "nl": "Calculate attack probabilities"
-        },
-        {
-                  "en": "No planning",
-                  "es": "No planning",
-                  "de": "No planning",
-                  "nl": "No planning"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "This is an important concept for this difficulty level.",
-                  "es": "Este es un concepto importante para este nivel de dificultad.",
-                  "de": "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  "nl": "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-        }
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
       },
       {
-        question: {
-                  "en": "What is optimal Risk play?",
-                  "es": "What is optimal Risk play?",
-                  "de": "What is optimal Risk play?",
-                  "nl": "What is optimal Risk play?"
-        },
-        options: [
-        {
-                  "en": "Calculate attack probabilities",
-                  "es": "Calculate attack probabilities",
-                  "de": "Calculate attack probabilities",
-                  "nl": "Calculate attack probabilities"
-        },
-        {
-                  "en": "Ignore card sets",
-                  "es": "Ignore card sets",
-                  "de": "Ignore card sets",
-                  "nl": "Ignore card sets"
-        },
-        {
-                  "en": "No planning",
-                  "es": "No planning",
-                  "de": "No planning",
-                  "nl": "No planning"
-        },
-        {
-                  "en": "Random dice",
-                  "es": "Random dice",
-                  "de": "Random dice",
-                  "nl": "Random dice"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This is an important concept for this difficulty level.",
-                  "es": "Este es un concepto importante para este nivel de dificultad.",
-                  "de": "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  "nl": "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-        }
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
       },
       {
-        question: {
-                  "en": "What is optimal Risk play?",
-                  "es": "What is optimal Risk play?",
-                  "de": "What is optimal Risk play?",
-                  "nl": "What is optimal Risk play?"
-        },
-        options: [
-        {
-                  "en": "Random dice",
-                  "es": "Random dice",
-                  "de": "Random dice",
-                  "nl": "Random dice"
-        },
-        {
-                  "en": "No planning",
-                  "es": "No planning",
-                  "de": "No planning",
-                  "nl": "No planning"
-        },
-        {
-                  "en": "Calculate attack probabilities",
-                  "es": "Calculate attack probabilities",
-                  "de": "Calculate attack probabilities",
-                  "nl": "Calculate attack probabilities"
-        },
-        {
-                  "en": "Ignore card sets",
-                  "es": "Ignore card sets",
-                  "de": "Ignore card sets",
-                  "nl": "Ignore card sets"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "This is an important concept for this difficulty level.",
-                  "es": "Este es un concepto importante para este nivel de dificultad.",
-                  "de": "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  "nl": "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-        }
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
       },
       {
-        question: {
-                  "en": "What is optimal Risk play?",
-                  "es": "What is optimal Risk play?",
-                  "de": "What is optimal Risk play?",
-                  "nl": "What is optimal Risk play?"
-        },
-        options: [
-        {
-                  "en": "Ignore card sets",
-                  "es": "Ignore card sets",
-                  "de": "Ignore card sets",
-                  "nl": "Ignore card sets"
-        },
-        {
-                  "en": "Calculate attack probabilities",
-                  "es": "Calculate attack probabilities",
-                  "de": "Calculate attack probabilities",
-                  "nl": "Calculate attack probabilities"
-        },
-        {
-                  "en": "Random dice",
-                  "es": "Random dice",
-                  "de": "Random dice",
-                  "nl": "Random dice"
-        },
-        {
-                  "en": "No planning",
-                  "es": "No planning",
-                  "de": "No planning",
-                  "nl": "No planning"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "This is an important concept for this difficulty level.",
-                  "es": "Este es un concepto importante para este nivel de dificultad.",
-                  "de": "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  "nl": "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-        }
-      },
-      {
-        question: {
-                  "en": "What is optimal Risk play?",
-                  "es": "What is optimal Risk play?",
-                  "de": "What is optimal Risk play?",
-                  "nl": "What is optimal Risk play?"
-        },
-        options: [
-        {
-                  "en": "No planning",
-                  "es": "No planning",
-                  "de": "No planning",
-                  "nl": "No planning"
-        },
-        {
-                  "en": "Random dice",
-                  "es": "Random dice",
-                  "de": "Random dice",
-                  "nl": "Random dice"
-        },
-        {
-                  "en": "Calculate attack probabilities",
-                  "es": "Calculate attack probabilities",
-                  "de": "Calculate attack probabilities",
-                  "nl": "Calculate attack probabilities"
-        },
-        {
-                  "en": "Ignore card sets",
-                  "es": "Ignore card sets",
-                  "de": "Ignore card sets",
-                  "nl": "Ignore card sets"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "This is an important concept for this difficulty level.",
-                  "es": "Este es un concepto importante para este nivel de dificultad.",
-                  "de": "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  "nl": "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-        }
-      },
-      {
-        question: {
-                  "en": "What is optimal Risk play?",
-                  "es": "What is optimal Risk play?",
-                  "de": "What is optimal Risk play?",
-                  "nl": "What is optimal Risk play?"
-        },
-        options: [
-        {
-                  "en": "Ignore card sets",
-                  "es": "Ignore card sets",
-                  "de": "Ignore card sets",
-                  "nl": "Ignore card sets"
-        },
-        {
-                  "en": "No planning",
-                  "es": "No planning",
-                  "de": "No planning",
-                  "nl": "No planning"
-        },
-        {
-                  "en": "Calculate attack probabilities",
-                  "es": "Calculate attack probabilities",
-                  "de": "Calculate attack probabilities",
-                  "nl": "Calculate attack probabilities"
-        },
-        {
-                  "en": "Random dice",
-                  "es": "Random dice",
-                  "de": "Random dice",
-                  "nl": "Random dice"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "This is an important concept for this difficulty level.",
-                  "es": "Este es un concepto importante para este nivel de dificultad.",
-                  "de": "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  "nl": "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-        }
-      },
-      {
-        question: {
-                  "en": "What is optimal Risk play?",
-                  "es": "What is optimal Risk play?",
-                  "de": "What is optimal Risk play?",
-                  "nl": "What is optimal Risk play?"
-        },
-        options: [
-        {
-                  "en": "No planning",
-                  "es": "No planning",
-                  "de": "No planning",
-                  "nl": "No planning"
-        },
-        {
-                  "en": "Ignore card sets",
-                  "es": "Ignore card sets",
-                  "de": "Ignore card sets",
-                  "nl": "Ignore card sets"
-        },
-        {
-                  "en": "Calculate attack probabilities",
-                  "es": "Calculate attack probabilities",
-                  "de": "Calculate attack probabilities",
-                  "nl": "Calculate attack probabilities"
-        },
-        {
-                  "en": "Random dice",
-                  "es": "Random dice",
-                  "de": "Random dice",
-                  "nl": "Random dice"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "This is an important concept for this difficulty level.",
-                  "es": "Este es un concepto importante para este nivel de dificultad.",
-                  "de": "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  "nl": "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-        }
-      },
-      {
-        question: {
-                  "en": "What is optimal Risk play?",
-                  "es": "What is optimal Risk play?",
-                  "de": "What is optimal Risk play?",
-                  "nl": "What is optimal Risk play?"
-        },
-        options: [
-        {
-                  "en": "No planning",
-                  "es": "No planning",
-                  "de": "No planning",
-                  "nl": "No planning"
-        },
-        {
-                  "en": "Calculate attack probabilities",
-                  "es": "Calculate attack probabilities",
-                  "de": "Calculate attack probabilities",
-                  "nl": "Calculate attack probabilities"
-        },
-        {
-                  "en": "Random dice",
-                  "es": "Random dice",
-                  "de": "Random dice",
-                  "nl": "Random dice"
-        },
-        {
-                  "en": "Ignore card sets",
-                  "es": "Ignore card sets",
-                  "de": "Ignore card sets",
-                  "nl": "Ignore card sets"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "This is an important concept for this difficulty level.",
-                  "es": "Este es un concepto importante para este nivel de dificultad.",
-                  "de": "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  "nl": "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-        }
-      },
-      {
-        question: {
-                  "en": "What is optimal Risk play?",
-                  "es": "What is optimal Risk play?",
-                  "de": "What is optimal Risk play?",
-                  "nl": "What is optimal Risk play?"
-        },
-        options: [
-        {
-                  "en": "No planning",
-                  "es": "No planning",
-                  "de": "No planning",
-                  "nl": "No planning"
-        },
-        {
-                  "en": "Random dice",
-                  "es": "Random dice",
-                  "de": "Random dice",
-                  "nl": "Random dice"
-        },
-        {
-                  "en": "Calculate attack probabilities",
-                  "es": "Calculate attack probabilities",
-                  "de": "Calculate attack probabilities",
-                  "nl": "Calculate attack probabilities"
-        },
-        {
-                  "en": "Ignore card sets",
-                  "es": "Ignore card sets",
-                  "de": "Ignore card sets",
-                  "nl": "Ignore card sets"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "This is an important concept for this difficulty level.",
-                  "es": "Este es un concepto importante para este nivel de dificultad.",
-                  "de": "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  "nl": "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-        }
-      },
-      {
-        question: {
-                  "en": "What is optimal Risk play?",
-                  "es": "What is optimal Risk play?",
-                  "de": "What is optimal Risk play?",
-                  "nl": "What is optimal Risk play?"
-        },
-        options: [
-        {
-                  "en": "Ignore card sets",
-                  "es": "Ignore card sets",
-                  "de": "Ignore card sets",
-                  "nl": "Ignore card sets"
-        },
-        {
-                  "en": "Calculate attack probabilities",
-                  "es": "Calculate attack probabilities",
-                  "de": "Calculate attack probabilities",
-                  "nl": "Calculate attack probabilities"
-        },
-        {
-                  "en": "No planning",
-                  "es": "No planning",
-                  "de": "No planning",
-                  "nl": "No planning"
-        },
-        {
-                  "en": "Random dice",
-                  "es": "Random dice",
-                  "de": "Random dice",
-                  "nl": "Random dice"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "This is an important concept for this difficulty level.",
-                  "es": "Este es un concepto importante para este nivel de dificultad.",
-                  "de": "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  "nl": "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-        }
-      },
-      {
-        question: {
-                  "en": "What is optimal Risk play?",
-                  "es": "What is optimal Risk play?",
-                  "de": "What is optimal Risk play?",
-                  "nl": "What is optimal Risk play?"
-        },
-        options: [
-        {
-                  "en": "No planning",
-                  "es": "No planning",
-                  "de": "No planning",
-                  "nl": "No planning"
-        },
-        {
-                  "en": "Random dice",
-                  "es": "Random dice",
-                  "de": "Random dice",
-                  "nl": "Random dice"
-        },
-        {
-                  "en": "Calculate attack probabilities",
-                  "es": "Calculate attack probabilities",
-                  "de": "Calculate attack probabilities",
-                  "nl": "Calculate attack probabilities"
-        },
-        {
-                  "en": "Ignore card sets",
-                  "es": "Ignore card sets",
-                  "de": "Ignore card sets",
-                  "nl": "Ignore card sets"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "This is an important concept for this difficulty level.",
-                  "es": "Este es un concepto importante para este nivel de dificultad.",
-                  "de": "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  "nl": "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-        }
-      },
-      {
-        question: {
-                  "en": "What is optimal Risk play?",
-                  "es": "What is optimal Risk play?",
-                  "de": "What is optimal Risk play?",
-                  "nl": "What is optimal Risk play?"
-        },
-        options: [
-        {
-                  "en": "Ignore card sets",
-                  "es": "Ignore card sets",
-                  "de": "Ignore card sets",
-                  "nl": "Ignore card sets"
-        },
-        {
-                  "en": "Random dice",
-                  "es": "Random dice",
-                  "de": "Random dice",
-                  "nl": "Random dice"
-        },
-        {
-                  "en": "No planning",
-                  "es": "No planning",
-                  "de": "No planning",
-                  "nl": "No planning"
-        },
-        {
-                  "en": "Calculate attack probabilities",
-                  "es": "Calculate attack probabilities",
-                  "de": "Calculate attack probabilities",
-                  "nl": "Calculate attack probabilities"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "This is an important concept for this difficulty level.",
-                  "es": "Este es un concepto importante para este nivel de dificultad.",
-                  "de": "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  "nl": "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-        }
-      },
-      {
-        question: {
-                  "en": "What is optimal Risk play?",
-                  "es": "What is optimal Risk play?",
-                  "de": "What is optimal Risk play?",
-                  "nl": "What is optimal Risk play?"
-        },
-        options: [
-        {
-                  "en": "Ignore card sets",
-                  "es": "Ignore card sets",
-                  "de": "Ignore card sets",
-                  "nl": "Ignore card sets"
-        },
-        {
-                  "en": "Calculate attack probabilities",
-                  "es": "Calculate attack probabilities",
-                  "de": "Calculate attack probabilities",
-                  "nl": "Calculate attack probabilities"
-        },
-        {
-                  "en": "No planning",
-                  "es": "No planning",
-                  "de": "No planning",
-                  "nl": "No planning"
-        },
-        {
-                  "en": "Random dice",
-                  "es": "Random dice",
-                  "de": "Random dice",
-                  "nl": "Random dice"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "This is an important concept for this difficulty level.",
-                  "es": "Este es un concepto importante para este nivel de dificultad.",
-                  "de": "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  "nl": "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-        }
-      },
-      {
-        question: {
-                  "en": "What is optimal Risk play?",
-                  "es": "What is optimal Risk play?",
-                  "de": "What is optimal Risk play?",
-                  "nl": "What is optimal Risk play?"
-        },
-        options: [
-        {
-                  "en": "No planning",
-                  "es": "No planning",
-                  "de": "No planning",
-                  "nl": "No planning"
-        },
-        {
-                  "en": "Ignore card sets",
-                  "es": "Ignore card sets",
-                  "de": "Ignore card sets",
-                  "nl": "Ignore card sets"
-        },
-        {
-                  "en": "Random dice",
-                  "es": "Random dice",
-                  "de": "Random dice",
-                  "nl": "Random dice"
-        },
-        {
-                  "en": "Calculate attack probabilities",
-                  "es": "Calculate attack probabilities",
-                  "de": "Calculate attack probabilities",
-                  "nl": "Calculate attack probabilities"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "This is an important concept for this difficulty level.",
-                  "es": "Este es un concepto importante para este nivel de dificultad.",
-                  "de": "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  "nl": "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-        }
-      },
-      {
-        question: {
-                  "en": "What is optimal Risk play?",
-                  "es": "What is optimal Risk play?",
-                  "de": "What is optimal Risk play?",
-                  "nl": "What is optimal Risk play?"
-        },
-        options: [
-        {
-                  "en": "Ignore card sets",
-                  "es": "Ignore card sets",
-                  "de": "Ignore card sets",
-                  "nl": "Ignore card sets"
-        },
-        {
-                  "en": "Calculate attack probabilities",
-                  "es": "Calculate attack probabilities",
-                  "de": "Calculate attack probabilities",
-                  "nl": "Calculate attack probabilities"
-        },
-        {
-                  "en": "No planning",
-                  "es": "No planning",
-                  "de": "No planning",
-                  "nl": "No planning"
-        },
-        {
-                  "en": "Random dice",
-                  "es": "Random dice",
-                  "de": "Random dice",
-                  "nl": "Random dice"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "This is an important concept for this difficulty level.",
-                  "es": "Este es un concepto importante para este nivel de dificultad.",
-                  "de": "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  "nl": "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-        }
-      },
-      {
-        question: {
-                  "en": "What is optimal Risk play?",
-                  "es": "What is optimal Risk play?",
-                  "de": "What is optimal Risk play?",
-                  "nl": "What is optimal Risk play?"
-        },
-        options: [
-        {
-                  "en": "No planning",
-                  "es": "No planning",
-                  "de": "No planning",
-                  "nl": "No planning"
-        },
-        {
-                  "en": "Calculate attack probabilities",
-                  "es": "Calculate attack probabilities",
-                  "de": "Calculate attack probabilities",
-                  "nl": "Calculate attack probabilities"
-        },
-        {
-                  "en": "Random dice",
-                  "es": "Random dice",
-                  "de": "Random dice",
-                  "nl": "Random dice"
-        },
-        {
-                  "en": "Ignore card sets",
-                  "es": "Ignore card sets",
-                  "de": "Ignore card sets",
-                  "nl": "Ignore card sets"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "This is an important concept for this difficulty level.",
-                  "es": "Este es un concepto importante para este nivel de dificultad.",
-                  "de": "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  "nl": "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-        }
-      },
-      {
-        question: {
-                  "en": "What is optimal Risk play?",
-                  "es": "What is optimal Risk play?",
-                  "de": "What is optimal Risk play?",
-                  "nl": "What is optimal Risk play?"
-        },
-        options: [
-        {
-                  "en": "Calculate attack probabilities",
-                  "es": "Calculate attack probabilities",
-                  "de": "Calculate attack probabilities",
-                  "nl": "Calculate attack probabilities"
-        },
-        {
-                  "en": "No planning",
-                  "es": "No planning",
-                  "de": "No planning",
-                  "nl": "No planning"
-        },
-        {
-                  "en": "Ignore card sets",
-                  "es": "Ignore card sets",
-                  "de": "Ignore card sets",
-                  "nl": "Ignore card sets"
-        },
-        {
-                  "en": "Random dice",
-                  "es": "Random dice",
-                  "de": "Random dice",
-                  "nl": "Random dice"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This is an important concept for this difficulty level.",
-                  "es": "Este es un concepto importante para este nivel de dificultad.",
-                  "de": "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  "nl": "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-        }
-      },
-      {
-        question: {
-                  "en": "What is optimal Risk play?",
-                  "es": "What is optimal Risk play?",
-                  "de": "What is optimal Risk play?",
-                  "nl": "What is optimal Risk play?"
-        },
-        options: [
-        {
-                  "en": "Ignore card sets",
-                  "es": "Ignore card sets",
-                  "de": "Ignore card sets",
-                  "nl": "Ignore card sets"
-        },
-        {
-                  "en": "No planning",
-                  "es": "No planning",
-                  "de": "No planning",
-                  "nl": "No planning"
-        },
-        {
-                  "en": "Random dice",
-                  "es": "Random dice",
-                  "de": "Random dice",
-                  "nl": "Random dice"
-        },
-        {
-                  "en": "Calculate attack probabilities",
-                  "es": "Calculate attack probabilities",
-                  "de": "Calculate attack probabilities",
-                  "nl": "Calculate attack probabilities"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "This is an important concept for this difficulty level.",
-                  "es": "Este es un concepto importante para este nivel de dificultad.",
-                  "de": "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  "nl": "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-        }
-      },
-      {
-        question: {
-                  "en": "What is optimal Risk play?",
-                  "es": "What is optimal Risk play?",
-                  "de": "What is optimal Risk play?",
-                  "nl": "What is optimal Risk play?"
-        },
-        options: [
-        {
-                  "en": "No planning",
-                  "es": "No planning",
-                  "de": "No planning",
-                  "nl": "No planning"
-        },
-        {
-                  "en": "Calculate attack probabilities",
-                  "es": "Calculate attack probabilities",
-                  "de": "Calculate attack probabilities",
-                  "nl": "Calculate attack probabilities"
-        },
-        {
-                  "en": "Ignore card sets",
-                  "es": "Ignore card sets",
-                  "de": "Ignore card sets",
-                  "nl": "Ignore card sets"
-        },
-        {
-                  "en": "Random dice",
-                  "es": "Random dice",
-                  "de": "Random dice",
-                  "nl": "Random dice"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "This is an important concept for this difficulty level.",
-                  "es": "Este es un concepto importante para este nivel de dificultad.",
-                  "de": "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  "nl": "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-        }
-      },
-      {
-        question: {
-                  "en": "What is optimal Risk play?",
-                  "es": "What is optimal Risk play?",
-                  "de": "What is optimal Risk play?",
-                  "nl": "What is optimal Risk play?"
-        },
-        options: [
-        {
-                  "en": "Ignore card sets",
-                  "es": "Ignore card sets",
-                  "de": "Ignore card sets",
-                  "nl": "Ignore card sets"
-        },
-        {
-                  "en": "Calculate attack probabilities",
-                  "es": "Calculate attack probabilities",
-                  "de": "Calculate attack probabilities",
-                  "nl": "Calculate attack probabilities"
-        },
-        {
-                  "en": "Random dice",
-                  "es": "Random dice",
-                  "de": "Random dice",
-                  "nl": "Random dice"
-        },
-        {
-                  "en": "No planning",
-                  "es": "No planning",
-                  "de": "No planning",
-                  "nl": "No planning"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "This is an important concept for this difficulty level.",
-                  "es": "Este es un concepto importante para este nivel de dificultad.",
-                  "de": "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  "nl": "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-        }
-      },
-      {
-        question: {
-                  "en": "In advanced Risk strategy, what is the mathematical advantage of attacking with 3 armies vs 2 defenders compared to attacking with 2 vs 2?",
-                  "es": "En la estrategia avanzada de Risk, ¿cuál es la ventaja matemática de atacar con 3 ejércitos contra 2 defensores en comparación con atacar con 2 contra 2?",
-                  "de": "Welchen mathematischen Vorteil hat es in der fortgeschrittenen Risk-Strategie, mit 3 Armeen gegen 2 Verteidiger anzugreifen, verglichen mit 2 gegen 2?",
-                  "nl": "Wat is in geavanceerde Risk-strategie het mathematische voordeel van aanvallen met 3 legers tegen 2 verdedigers vergeleken met aanvallen met 2 tegen 2?"
-        },
-        options: [
-        {
-                  "en": "Approximately 10-15% better odds",
-                  "es": "Aproximadamente 10-15% mejores probabilidades",
-                  "de": "Etwa 10-15% bessere Chancen",
-                  "nl": "Ongeveer 10-15% betere kansen"
-        },
-        {
-                  "en": "Approximately 30-40% better odds",
-                  "es": "Aproximadamente 30-40% mejores probabilidades",
-                  "de": "Etwa 30-40% bessere Chancen",
-                  "nl": "Ongeveer 30-40% betere kansen"
-        },
-        {
-                  "en": "Doubles the odds",
-                  "es": "Duplica las probabilidades",
-                  "de": "Verdoppelt die Chancen",
-                  "nl": "Verdubbelt de kansen"
-        },
-        {
-                  "en": "No significant difference",
-                  "es": "No hay diferencia significativa",
-                  "de": "Kein signifikanter Unterschied",
-                  "nl": "Geen significant verschil"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Attacking with 3 dice vs 2 defenders provides approximately 10-15% better odds than 2 vs 2, making it crucial to maximize attack dice whenever possible in optimal play.",
-                  "es": "Atacar con 3 dados contra 2 defensores proporciona aproximadamente 10-15% mejores probabilidades que 2 contra 2, lo que hace crucial maximizar los dados de ataque siempre que sea posible en el juego óptimo.",
-                  "de": "Der Angriff mit 3 Würfeln gegen 2 Verteidiger bietet etwa 10-15% bessere Chancen als 2 gegen 2, weshalb es entscheidend ist, die Angriffswürfel im optimalen Spiel zu maximieren.",
-                  "nl": "Aanvallen met 3 dobbelstenen tegen 2 verdedigers geeft ongeveer 10-15% betere kansen dan 2 tegen 2, waardoor het cruciaal is om aanvaldobbelstenen waar mogelijk te maximaliseren in optimaal spel."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the optimal timing strategy for cashing in card sets in competitive Risk play?",
-                  "es": "¿Cuál es la estrategia de tiempo óptima para canjear conjuntos de cartas en el juego competitivo de Risk?",
-                  "de": "Was ist die optimale Timing-Strategie für das Einlösen von Kartensätzen im kompetitiven Risk-Spiel?",
-                  "nl": "Wat is de optimale timing-strategie voor het inwisselen van kaartsets in competitief Risk-spel?"
-        },
-        options: [
-        {
-                  "en": "Wait until you can deploy armies where they provide maximum tactical advantage",
-                  "es": "Esperar hasta que puedas desplegar ejércitos donde proporcionen la máxima ventaja táctica",
-                  "de": "Warten, bis Sie Armeen dort einsetzen können, wo sie maximalen taktischen Vorteil bieten",
-                  "nl": "Wachten tot je legers kunt inzetten waar ze maximaal tactisch voordeel bieden"
-        },
-        {
-                  "en": "Save cards until you have the maximum of 5",
-                  "es": "Guardar cartas hasta tener el máximo de 5",
-                  "de": "Karten sparen, bis Sie maximal 5 haben",
-                  "nl": "Kaarten sparen totdat je het maximum van 5 hebt"
-        },
-        {
-                  "en": "Always wait for matching territory bonuses",
-                  "es": "Siempre esperar bonificaciones de territorio coincidentes",
-                  "de": "Immer auf passende Gebietsboni warten",
-                  "nl": "Altijd wachten op bijpassende gebiedsbonussen"
-        },
-        {
-                  "en": "Cash in immediately when you have 5 cards",
-                  "es": "Canjear inmediatamente cuando tienes 5 cartas",
-                  "de": "Sofort einlösen, wenn Sie 5 Karten haben",
-                  "nl": "Onmiddellijk inwisselen wanneer je 5 kaarten hebt"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Advanced players time their card cashes strategically to deploy reinforcements where they can immediately impact the game, rather than simply when forced at 5 cards.",
-                  "es": "Los jugadores avanzados planifican estratégicamente sus canjes de cartas para desplegar refuerzos donde puedan impactar inmediatamente el juego, en lugar de simplemente cuando se ven obligados con 5 cartas.",
-                  "de": "Fortgeschrittene Spieler timen ihre Karteneinlösungen strategisch, um Verstärkungen dort einzusetzen, wo sie sofort das Spiel beeinflussen können, anstatt nur wenn sie bei 5 Karten dazu gezwungen werden.",
-                  "nl": "Gevorderde spelers timen hun kaart inwisselingen strategisch om versterkingen in te zetten waar ze direct impact op het spel kunnen hebben, in plaats van simpelweg wanneer ze gedwongen worden bij 5 kaarten."
-        }
-      },
-      {
-        question: {
-                  "en": "In tournament Risk, what is the primary strategic purpose of maintaining a 'stack' of armies in a single territory?",
-                  "es": "En el Risk de torneo, ¿cuál es el propósito estratégico principal de mantener una 'pila' de ejércitos en un solo territorio?",
-                  "de": "Was ist im Turnier-Risk der primäre strategische Zweck, einen 'Stapel' von Armeen in einem einzigen Gebiet zu halten?",
-                  "nl": "Wat is in toernooi-Risk het primaire strategische doel van het handhaven van een 'stapel' legers in een enkel gebied?"
-        },
-        options: [
-        {
-                  "en": "To defend a single critical chokepoint",
-                  "es": "Defender un único punto crítico de estrangulamiento",
-                  "de": "Einen einzigen kritischen Engpass verteidigen",
-                  "nl": "Om een enkel kritisch knooppunt te verdedigen"
-        },
-        {
-                  "en": "To maximize mobility for rapid continental conquest",
-                  "es": "Maximizar la movilidad para una rápida conquista continental",
-                  "de": "Mobilität für schnelle kontinentale Eroberung maximieren",
-                  "nl": "Om mobiliteit te maximaliseren voor snelle continentale verovering"
-        },
-        {
-                  "en": "To avoid spreading armies too thin",
-                  "es": "Evitar dispersar demasiado los ejércitos",
-                  "de": "Vermeiden, Armeen zu dünn zu verteilen",
-                  "nl": "Om te voorkomen dat legers te dun worden verspreid"
-        },
-        {
-                  "en": "To create intimidation and psychological pressure",
-                  "es": "Crear intimidación y presión psicológica",
-                  "de": "Einschüchterung und psychologischen Druck erzeugen",
-                  "nl": "Om intimidatie en psychologische druk te creëren"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Elite players use large stacks for mobility - a concentrated force can move through multiple territories in one turn to capture key positions or complete continent bonuses.",
-                  "es": "Los jugadores de élite usan grandes pilas para la movilidad: una fuerza concentrada puede moverse a través de múltiples territorios en un turno para capturar posiciones clave o completar bonificaciones continentales.",
-                  "de": "Elite-Spieler nutzen große Stapel für Mobilität - eine konzentrierte Streitmacht kann sich in einem Zug durch mehrere Gebiete bewegen, um Schlüsselpositionen zu erobern oder Kontinentboni zu vervollständigen.",
-                  "nl": "Elite spelers gebruiken grote stapels voor mobiliteit - een geconcentreerde macht kan in één beurt door meerdere gebieden bewegen om sleutelposities te veroveren of continentale bonussen te voltooien."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the 'Slesinski Rule' in competitive Risk strategy?",
-                  "es": "¿Qué es la 'Regla de Slesinski' en la estrategia competitiva de Risk?",
-                  "de": "Was ist die 'Slesinski-Regel' in der kompetitiven Risk-Strategie?",
-                  "nl": "Wat is de 'Slesinski-regel' in competitieve Risk-strategie?"
-        },
-        options: [
-        {
-                  "en": "Always control Australia first in any game",
-                  "es": "Siempre controlar Australia primero en cualquier juego",
-                  "de": "Immer zuerst Australien in jedem Spiel kontrollieren",
-                  "nl": "Altijd eerst Australië controleren in elk spel"
-        },
-        {
-                  "en": "The probability that at least one player will be eliminated before card escalation reaches critical levels",
-                  "es": "La probabilidad de que al menos un jugador sea eliminado antes de que la escalada de cartas alcance niveles críticos",
-                  "de": "Die Wahrscheinlichkeit, dass mindestens ein Spieler eliminiert wird, bevor die Karteneskalation kritische Niveaus erreicht",
-                  "nl": "De waarschijnlijkheid dat minstens één speler wordt geëlimineerd voordat kaartescalatie kritieke niveaus bereikt"
-        },
-        {
-                  "en": "Never attack when you have fewer armies than the defender",
-                  "es": "Nunca atacar cuando tienes menos ejércitos que el defensor",
-                  "de": "Niemals angreifen, wenn Sie weniger Armeen als der Verteidiger haben",
-                  "nl": "Nooit aanvallen wanneer je minder legers hebt dan de verdediger"
-        },
-        {
-                  "en": "Deploy exactly one army per territory for optimal defense",
-                  "es": "Desplegar exactamente un ejército por territorio para una defensa óptima",
-                  "de": "Genau eine Armee pro Gebiet für optimale Verteidigung einsetzen",
-                  "nl": "Precies één leger per gebied inzetten voor optimale verdediging"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The Slesinski Rule is a game-theoretical concept analyzing the timing dynamics of eliminations vs card escalation, critical for tournament-level play planning.",
-                  "es": "La Regla de Slesinski es un concepto de teoría de juegos que analiza la dinámica temporal de eliminaciones versus escalada de cartas, crítico para la planificación del juego a nivel de torneo.",
-                  "de": "Die Slesinski-Regel ist ein spieltheoretisches Konzept, das die Timing-Dynamik von Eliminierungen vs. Karteneskalation analysiert, kritisch für Turnierplanung.",
-                  "nl": "De Slesinski-regel is een speltheoretisch concept dat de timing-dynamiek van eliminaties versus kaartescalatie analyseert, cruciaal voor toernooiplanning."
-        }
-      },
-      {
-        question: {
-                  "en": "In expert Risk play, what is the strategic concept of 'tempo'?",
-                  "es": "En el juego experto de Risk, ¿qué es el concepto estratégico de 'tempo'?",
-                  "de": "Was ist im Experten-Risk-Spiel das strategische Konzept des 'Tempos'?",
-                  "nl": "Wat is in expert Risk-spel het strategische concept van 'tempo'?"
-        },
-        options: [
-        {
-                  "en": "The rhythm of card turn-ins throughout the game",
-                  "es": "El ritmo de los canjes de cartas a lo largo del juego",
-                  "de": "Der Rhythmus der Karteneinlösungen während des Spiels",
-                  "nl": "Het ritme van kaart inwisselingen gedurende het spel"
-        },
-        {
-                  "en": "The initiative advantage gained by completing continent bonuses before opponents can respond",
-                  "es": "La ventaja de iniciativa obtenida al completar bonificaciones continentales antes de que los oponentes puedan responder",
-                  "de": "Der Initiativvorteil, der durch das Abschließen von Kontinentboni gewonnen wird, bevor Gegner reagieren können",
-                  "nl": "Het initiatief voordeel verkregen door continentale bonussen te voltooien voordat tegenstanders kunnen reageren"
-        },
-        {
-                  "en": "How quickly you fortify your positions",
-                  "es": "Qué tan rápido fortificas tus posiciones",
-                  "de": "Wie schnell Sie Ihre Positionen befestigen",
-                  "nl": "Hoe snel je je posities versterkt"
-        },
-        {
-                  "en": "The speed at which you complete your turns",
-                  "es": "La velocidad a la que completas tus turnos",
-                  "de": "Die Geschwindigkeit, mit der Sie Ihre Züge abschließen",
-                  "nl": "De snelheid waarmee je je beurten voltooit"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Tempo refers to gaining initiative by making game-changing moves before opponents can effectively counter, particularly by racing to complete valuable continents.",
-                  "es": "Tempo se refiere a ganar iniciativa haciendo movimientos que cambian el juego antes de que los oponentes puedan contrarrestar efectivamente, particularmente al correr para completar continentes valiosos.",
-                  "de": "Tempo bezieht sich auf das Erlangen der Initiative durch spielverändernde Züge, bevor Gegner effektiv kontern können, insbesondere durch das Rennen um wertvolle Kontinente.",
-                  "nl": "Tempo verwijst naar het verkrijgen van initiatief door game-changing zetten te doen voordat tegenstanders effectief kunnen counteren, vooral door te racen om waardevolle continenten te voltooien."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the optimal army ratio for successfully conquering and holding a continent against a dedicated opponent?",
-                  "es": "¿Cuál es la proporción óptima de ejércitos para conquistar y mantener exitosamente un continente contra un oponente dedicado?",
-                  "de": "Was ist das optimale Armeeverhältnis für die erfolgreiche Eroberung und Verteidigung eines Kontinents gegen einen engagierten Gegner?",
-                  "nl": "Wat is de optimale leger-ratio voor het succesvol veroveren en vasthouden van een continent tegen een toegewijde tegenstander?"
-        },
-        options: [
-        {
-                  "en": "At least 3 times the opponent's army count",
-                  "es": "Al menos 3 veces el número de ejércitos del oponente",
-                  "de": "Mindestens 3 mal die Armeezahl des Gegners",
-                  "nl": "Minstens 3 keer het legeraantal van de tegenstander"
-        },
-        {
-                  "en": "It depends entirely on dice luck",
-                  "es": "Depende completamente de la suerte de los dados",
-                  "de": "Es hängt vollständig vom Würfelglück ab",
-                  "nl": "Het hangt volledig af van dobbelsteengeluk"
-        },
-        {
-                  "en": "Approximately 1.5 to 2 times the opponent's army count",
-                  "es": "Aproximadamente 1.5 a 2 veces el número de ejércitos del oponente",
-                  "de": "Etwa 1,5 bis 2 mal die Armeezahl des Gegners",
-                  "nl": "Ongeveer 1,5 tot 2 keer het legeraantal van de tegenstander"
-        },
-        {
-                  "en": "Equal to the opponent's army count",
-                  "es": "Igual al número de ejércitos del oponente",
-                  "de": "Gleich der Armeezahl des Gegners",
-                  "nl": "Gelijk aan het legeraantal van de tegenstander"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Statistical analysis shows that 1.5-2x army superiority provides reliable conquest probability while accounting for defensive advantages and potential counterattacks.",
-                  "es": "El análisis estadístico muestra que la superioridad de ejércitos de 1.5-2x proporciona una probabilidad de conquista confiable mientras se tiene en cuenta las ventajas defensivas y posibles contraataques.",
-                  "de": "Statistische Analysen zeigen, dass eine 1,5-2fache Armeeüberlegenheit zuverlässige Eroberungswahrscheinlichkeit bietet, während defensive Vorteile und potenzielle Gegenangriffe berücksichtigt werden.",
-                  "nl": "Statistische analyse toont aan dat 1,5-2x leger superioriteit betrouwbare veroveringskans biedt terwijl rekening wordt gehouden met defensieve voordelen en potentiële tegenaanvallen."
-        }
-      },
-      {
-        question: {
-                  "en": "In high-level Risk, what is the 'alliance endgame problem'?",
-                  "es": "En el Risk de alto nivel, ¿qué es el 'problema del final del juego de alianza'?",
-                  "de": "Was ist im hochrangigen Risk das 'Allianz-Endspiel-Problem'?",
-                  "nl": "Wat is in high-level Risk het 'alliantie eindspel-probleem'?"
-        },
-        options: [
-        {
-                  "en": "The strategic dilemma of when to betray an ally before they betray you",
-                  "es": "El dilema estratégico de cuándo traicionar a un aliado antes de que te traicione",
-                  "de": "Das strategische Dilemma, wann man einen Verbündeten verrät, bevor er einen verrät",
-                  "nl": "Het strategische dilemma van wanneer een bondgenoot te verraden voordat zij jou verraden"
-        },
-        {
-                  "en": "Dividing territories equally between allies",
-                  "es": "Dividir territorios equitativamente entre aliados",
-                  "de": "Gebiete gleichmäßig unter Verbündeten aufteilen",
-                  "nl": "Het gelijk verdelen van gebieden tussen bondgenoten"
-        },
-        {
-                  "en": "Difficulty in forming alliances in the first place",
-                  "es": "Dificultad para formar alianzas en primer lugar",
-                  "de": "Schwierigkeit, überhaupt Allianzen zu bilden",
-                  "nl": "Moeilijkheid bij het vormen van allianties in de eerste plaats"
-        },
-        {
-                  "en": "Keeping track of multiple alliance agreements",
-                  "es": "Hacer un seguimiento de múltiples acuerdos de alianza",
-                  "de": "Mehrere Allianzvereinbarungen im Auge behalten",
-                  "nl": "Het bijhouden van meerdere alliantie-overeenkomsten"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The alliance endgame problem is a game theory concept addressing the optimal timing to break alliances - too early and the third player wins; too late and your ally gains insurmountable advantage.",
-                  "es": "El problema del final del juego de alianza es un concepto de teoría de juegos que aborda el momento óptimo para romper alianzas: demasiado pronto y el tercer jugador gana; demasiado tarde y tu aliado gana una ventaja insuperable.",
-                  "de": "Das Allianz-Endspiel-Problem ist ein spieltheoretisches Konzept zum optimalen Zeitpunkt für das Brechen von Allianzen - zu früh und der dritte Spieler gewinnt; zu spät und Ihr Verbündeter erlangt unüberwindlichen Vorteil.",
-                  "nl": "Het alliantie eindspel-probleem is een speltheorie concept over de optimale timing om allianties te verbreken - te vroeg en de derde speler wint; te laat en je bondgenoot krijgt een onoverwinnelijk voordeel."
-        }
-      },
-      {
-        question: {
-                  "en": "What advanced technique involves intentionally leaving weak borders to manipulate opponent behavior?",
-                  "es": "¿Qué técnica avanzada implica dejar intencionalmente fronteras débiles para manipular el comportamiento del oponente?",
-                  "de": "Welche fortgeschrittene Technik beinhaltet das absichtliche Hinterlassen schwacher Grenzen zur Manipulation des Gegnerverhaltens?",
-                  "nl": "Welke geavanceerde techniek houdt in dat opzettelijk zwakke grenzen worden achtergelaten om het gedrag van de tegenstander te manipuleren?"
-        },
-        options: [
-        {
-                  "en": "Border neglect",
-                  "es": "Negligencia fronteriza",
-                  "de": "Grenzvernachlässigung",
-                  "nl": "Grens verwaarlozing"
-        },
-        {
-                  "en": "Accidental weakness",
-                  "es": "Debilidad accidental",
-                  "de": "Zufällige Schwäche",
-                  "nl": "Toevallige zwakte"
-        },
-        {
-                  "en": "Territory abandonment",
-                  "es": "Abandono de territorio",
-                  "de": "Gebietsaufgabe",
-                  "nl": "Gebied verlating"
-        },
-        {
-                  "en": "Defensive baiting",
-                  "es": "Cebo defensivo",
-                  "de": "Defensives Ködern",
-                  "nl": "Defensief aasvoeren"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Defensive baiting intentionally creates apparent vulnerabilities to lure opponents into overextending into unfavorable positions, allowing counterattacks or diverting them from more critical areas.",
-                  "es": "El cebo defensivo crea intencionalmente vulnerabilidades aparentes para atraer a los oponentes a sobreextenderse en posiciones desfavorables, permitiendo contraataques o desviándolos de áreas más críticas.",
-                  "de": "Defensives Ködern schafft absichtlich scheinbare Schwachstellen, um Gegner in ungünstige Positionen zu locken, was Gegenangriffe ermöglicht oder sie von kritischeren Bereichen ablenkt.",
-                  "nl": "Defensief aasvoeren creëert opzettelijk schijnbare kwetsbaarheden om tegenstanders te verleiden zich te overrekken in ongunstige posities, wat tegenaanvallen mogelijk maakt of hen afleidt van meer kritieke gebieden."
-        }
-      },
-      {
-        question: {
-                  "en": "In tournament Risk, what is the mathematical expected value of holding South America for 3 turns compared to North America?",
-                  "es": "En el Risk de torneo, ¿cuál es el valor esperado matemático de mantener América del Sur durante 3 turnos en comparación con América del Norte?",
-                  "de": "Was ist im Turnier-Risk der mathematische Erwartungswert des Haltens von Südamerika für 3 Züge im Vergleich zu Nordamerika?",
-                  "nl": "Wat is in toernooi-Risk de wiskundige verwachte waarde van het vasthouden van Zuid-Amerika gedurende 3 beurten vergeleken met Noord-Amerika?"
-        },
-        options: [
-        {
-                  "en": "They yield equal armies",
-                  "es": "Producen ejércitos iguales",
-                  "de": "Sie liefern gleiche Armeen",
-                  "nl": "Ze leveren gelijke legers op"
-        },
-        {
-                  "en": "North America yields 6 more armies total",
-                  "es": "América del Norte produce 6 ejércitos más en total",
-                  "de": "Nordamerika liefert insgesamt 6 Armeen mehr",
-                  "nl": "Noord-Amerika levert in totaal 6 legers meer op"
-        },
-        {
-                  "en": "South America yields 6 more armies total",
-                  "es": "América del Sur produce 6 ejércitos más en total",
-                  "de": "Südamerika liefert insgesamt 6 Armeen mehr",
-                  "nl": "Zuid-Amerika levert in totaal 6 legers meer op"
-        },
-        {
-                  "en": "North America yields 3 more armies total",
-                  "es": "América del Norte produce 3 ejércitos más en total",
-                  "de": "Nordamerika liefert insgesamt 3 Armeen mehr",
-                  "nl": "Noord-Amerika levert in totaal 3 legers meer op"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "North America (5 armies/turn) yields 15 armies over 3 turns while South America (2 armies/turn) yields 6, making North America 9 more valuable over that period despite being harder to defend.",
-                  "es": "América del Norte (5 ejércitos/turno) produce 15 ejércitos en 3 turnos mientras que América del Sur (2 ejércitos/turno) produce 6, haciendo que América del Norte sea 9 más valiosa durante ese período a pesar de ser más difícil de defender.",
-                  "de": "Nordamerika (5 Armeen/Zug) liefert 15 Armeen über 3 Züge, während Südamerika (2 Armeen/Zug) 6 liefert, was Nordamerika trotz schwierigerer Verteidigung um 9 wertvoller macht.",
-                  "nl": "Noord-Amerika (5 legers/beurt) levert 15 legers over 3 beurten op terwijl Zuid-Amerika (2 legers/beurt) 6 oplevert, waardoor Noord-Amerika 9 waardevoller is over die periode ondanks moeilijker te verdedigen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the grandmaster-level concept of 'army flow optimization'?",
-                  "es": "¿Qué es el concepto de nivel gran maestro de 'optimización del flujo de ejércitos'?",
-                  "de": "Was ist das Großmeister-Konzept der 'Armeefluss-Optimierung'?",
-                  "nl": "Wat is het grootmeester-niveau concept van 'leger stroom optimalisatie'?"
-        },
-        options: [
-        {
-                  "en": "Strategically positioning armies to maximize both offensive reach and defensive coverage in subsequent turns",
-                  "es": "Posicionar estratégicamente los ejércitos para maximizar tanto el alcance ofensivo como la cobertura defensiva en turnos subsiguientes",
-                  "de": "Strategisches Positionieren von Armeen zur Maximierung sowohl der Offensivreichweite als auch der Defensivabdeckung in nachfolgenden Zügen",
-                  "nl": "Strategisch positioneren van legers om zowel offensief bereik als defensieve dekking in volgende beurten te maximaliseren"
-        },
-        {
-                  "en": "Keeping armies in interior territories for safety",
-                  "es": "Mantener ejércitos en territorios interiores por seguridad",
-                  "de": "Armeen in Binnengebieten zur Sicherheit halten",
-                  "nl": "Legers in binnengebieden houden voor veiligheid"
-        },
-        {
-                  "en": "Moving all armies to the front lines",
-                  "es": "Mover todos los ejércitos a las líneas del frente",
-                  "de": "Alle Armeen an die Frontlinien bewegen",
-                  "nl": "Alle legers naar de frontlinies verplaatsen"
-        },
-        {
-                  "en": "Deploying armies evenly across all territories",
-                  "es": "Desplegar ejércitos uniformemente en todos los territorios",
-                  "de": "Armeen gleichmäßig über alle Gebiete verteilen",
-                  "nl": "Legers gelijkmatig over alle gebieden inzetten"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Army flow optimization is the advanced technique of positioning forces to create multiple tactical options - armies placed to threaten multiple enemy positions while supporting defensive structures.",
-                  "es": "La optimización del flujo de ejércitos es la técnica avanzada de posicionar fuerzas para crear múltiples opciones tácticas: ejércitos colocados para amenazar múltiples posiciones enemigas mientras apoyan estructuras defensivas.",
-                  "de": "Armeefluss-Optimierung ist die fortgeschrittene Technik, Streitkräfte so zu positionieren, dass mehrere taktische Optionen entstehen - Armeen, die mehrere feindliche Positionen bedrohen und gleichzeitig defensive Strukturen unterstützen.",
-                  "nl": "Leger stroom optimalisatie is de geavanceerde techniek van het positioneren van troepen om meerdere tactische opties te creëren - legers geplaatst om meerdere vijandelijke posities te bedreigen terwijl ze defensieve structuren ondersteunen."
-        }
-      },
-      {
-        question: {
-                  "en": "In expert-level play, what is the primary consideration when deciding whether to eliminate a player?",
-                  "es": "En el juego de nivel experto, ¿cuál es la consideración principal al decidir si eliminar a un jugador?",
-                  "de": "Was ist im Experten-Spiel die primäre Überlegung bei der Entscheidung, ob ein Spieler eliminiert werden soll?",
-                  "nl": "Wat is in expert-niveau spel de primaire overweging bij het beslissen of een speler geëlimineerd moet worden?"
-        },
-        options: [
-        {
-                  "en": "Whether you have enough armies to do so",
-                  "es": "Si tienes suficientes ejércitos para hacerlo",
-                  "de": "Ob Sie genug Armeen dafür haben",
-                  "nl": "Of je genoeg legers hebt om dat te doen"
-        },
-        {
-                  "en": "Personal rivalry with that player",
-                  "es": "Rivalidad personal con ese jugador",
-                  "de": "Persönliche Rivalität mit diesem Spieler",
-                  "nl": "Persoonlijke rivaliteit met die speler"
-        },
-        {
-                  "en": "Whether you can gain their card cards",
-                  "es": "Si puedes ganar sus cartas",
-                  "de": "Ob Sie ihre Karten gewinnen können",
-                  "nl": "Of je hun kaarten kunt krijgen"
-        },
-        {
-                  "en": "Whether the territories and cards gained outweigh the strategic disadvantage of strengthening remaining opponents",
-                  "es": "Si los territorios y cartas ganados superan la desventaja estratégica de fortalecer a los oponentes restantes",
-                  "de": "Ob die gewonnenen Gebiete und Karten den strategischen Nachteil überwiegen, verbleibende Gegner zu stärken",
-                  "nl": "Of de verkregen gebieden en kaarten opwegen tegen het strategische nadeel van het versterken van overgebleven tegenstanders"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Eliminating a player is a complex decision involving game theory - you gain cards and territories but potentially create a dominant remaining opponent who now faces less competition.",
-                  "es": "Eliminar a un jugador es una decisión compleja que involucra teoría de juegos: ganas cartas y territorios pero potencialmente creas un oponente restante dominante que ahora enfrenta menos competencia.",
-                  "de": "Die Eliminierung eines Spielers ist eine komplexe Entscheidung mit Spieltheorie - Sie gewinnen Karten und Gebiete, schaffen aber möglicherweise einen dominanten verbleibenden Gegner, der nun weniger Konkurrenz hat.",
-                  "nl": "Het elimineren van een speler is een complexe beslissing met speltheorie - je krijgt kaarten en gebieden maar creëert mogelijk een dominante overgebleven tegenstander die nu minder concurrentie heeft."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the advanced strategic principle of 'contested continent tension'?",
-                  "es": "¿Cuál es el principio estratégico avanzado de 'tensión de continente disputado'?",
-                  "de": "Was ist das fortgeschrittene strategische Prinzip der 'umstrittenen Kontinent-Spannung'?",
-                  "nl": "Wat is het geavanceerde strategische principe van 'betwist continent spanning'?"
-        },
-        options: [
-        {
-                  "en": "Always fight for every continent simultaneously",
-                  "es": "Siempre luchar por cada continente simultáneamente",
-                  "de": "Immer gleichzeitig um jeden Kontinent kämpfen",
-                  "nl": "Altijd gelijktijdig voor elk continent vechten"
-        },
-        {
-                  "en": "Focus only on continents you can fully control",
-                  "es": "Centrarse solo en continentes que puedas controlar completamente",
-                  "de": "Sich nur auf Kontinente konzentrieren, die vollständig kontrolliert werden können",
-                  "nl": "Alleen focussen op continenten die je volledig kunt controleren"
-        },
-        {
-                  "en": "Never contest continents held by stronger players",
-                  "es": "Nunca disputar continentes mantenidos por jugadores más fuertes",
-                  "de": "Niemals Kontinente bestreiten, die von stärkeren Spielern gehalten werden",
-                  "nl": "Nooit continenten betwisten die door sterkere spelers worden vastgehouden"
-        },
-        {
-                  "en": "Maintaining just enough presence in a continent to prevent opponent bonus while conserving armies for your own objectives",
-                  "es": "Mantener suficiente presencia en un continente para prevenir la bonificación del oponente mientras conservas ejércitos para tus propios objetivos",
-                  "de": "Gerade genug Präsenz in einem Kontinent aufrechterhalten, um den Gegnerbonus zu verhindern, während Armeen für eigene Ziele gespart werden",
-                  "nl": "Net genoeg aanwezigheid in een continent handhaven om tegenstander bonus te voorkomen terwijl legers worden gespaard voor je eigen doelstellingen"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Contested continent tension involves strategically denying opponent bonuses with minimal investment while focusing resources on your primary objectives - a key efficiency principle.",
-                  "es": "La tensión de continente disputado implica negar estratégicamente bonificaciones al oponente con inversión mínima mientras enfocas recursos en tus objetivos primarios: un principio de eficiencia clave.",
-                  "de": "Umstrittene Kontinent-Spannung beinhaltet das strategische Verweigern von Gegnerboni mit minimaler Investition, während Ressourcen auf primäre Ziele konzentriert werden - ein Schlüssel-Effizienzprinzip.",
-                  "nl": "Betwist continent spanning houdt in dat strategisch tegenstander bonussen worden ontzegd met minimale investering terwijl middelen worden gefocust op je primaire doelstellingen - een belangrijk efficiëntie principe."
-        }
-      },
-      {
-        question: {
-                  "en": "In tournament play, what is the 'critical mass threshold' for continent conquest?",
-                  "es": "En el juego de torneo, ¿qué es el 'umbral de masa crítica' para la conquista de continentes?",
-                  "de": "Was ist im Turnierspiel die 'kritische Masse-Schwelle' für Kontinenteroberung?",
-                  "nl": "Wat is in toernooispel de 'kritieke massa drempel' voor continent verovering?"
-        },
-        options: [
-        {
-                  "en": "Having exactly equal armies to all defending territories combined",
-                  "es": "Tener exactamente ejércitos iguales a todos los territorios defensores combinados",
-                  "de": "Genau gleiche Armeen zu allen verteidigenden Gebieten zusammen haben",
-                  "nl": "Precies gelijke legers hebben aan alle verdedigende gebieden samen"
-        },
-        {
-                  "en": "The minimum army concentration needed to conquer and survive the counterattack phase",
-                  "es": "La concentración mínima de ejércitos necesaria para conquistar y sobrevivir a la fase de contraataque",
-                  "de": "Die minimale Armeekonzentration, die zum Erobern und Überleben der Gegenangriffphase benötigt wird",
-                  "nl": "De minimale leger concentratie nodig om te veroveren en de tegenaanval fase te overleven"
-        },
-        {
-                  "en": "Having at least 20 armies available",
-                  "es": "Tener al menos 20 ejércitos disponibles",
-                  "de": "Mindestens 20 Armeen verfügbar haben",
-                  "nl": "Minstens 20 legers beschikbaar hebben"
-        },
-        {
-                  "en": "Waiting until card values reach 15+ armies",
-                  "es": "Esperar hasta que los valores de las cartas alcancen 15+ ejércitos",
-                  "de": "Warten, bis Kartenwerte 15+ Armeen erreichen",
-                  "nl": "Wachten tot kaartwaarden 15+ legers bereiken"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Critical mass threshold is the calculated minimum force needed not just to conquer, but to hold the continent through opponent counterattacks that same round - a crucial timing calculation.",
-                  "es": "El umbral de masa crítica es la fuerza mínima calculada necesaria no solo para conquistar, sino para mantener el continente a través de contraataques de oponentes en la misma ronda: un cálculo de tiempo crucial.",
-                  "de": "Die kritische Masse-Schwelle ist die berechnete Minimalstärke, die nicht nur zum Erobern, sondern zum Halten des Kontinents durch Gegenangriffe in derselben Runde benötigt wird - eine entscheidende Timing-Berechnung.",
-                  "nl": "Kritieke massa drempel is de berekende minimale kracht die nodig is niet alleen om te veroveren, maar om het continent vast te houden door tegenstander tegenaanvallen in diezelfde ronde - een cruciale timing berekening."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the grandmaster technique of 'forced response positioning'?",
-                  "es": "¿Qué es la técnica de gran maestro de 'posicionamiento de respuesta forzada'?",
-                  "de": "Was ist die Großmeister-Technik der 'erzwungenen Reaktionspositionierung'?",
-                  "nl": "Wat is de grootmeester techniek van 'gedwongen reactie positionering'?"
-        },
-        options: [
-        {
-                  "en": "Creating multiple simultaneous threats that opponents cannot adequately defend against all of them",
-                  "es": "Crear múltiples amenazas simultáneas que los oponentes no pueden defender adecuadamente contra todas ellas",
-                  "de": "Mehrere gleichzeitige Bedrohungen schaffen, gegen die Gegner sich nicht angemessen verteidigen können",
-                  "nl": "Meerdere gelijktijdige bedreigingen creëren waartegen tegenstanders zich niet adequaat kunnen verdedigen"
-        },
-        {
-                  "en": "Forcing opponents to respond to your moves",
-                  "es": "Forzar a los oponentes a responder a tus movimientos",
-                  "de": "Gegner zwingen, auf Ihre Züge zu reagieren",
-                  "nl": "Tegenstanders dwingen om op je zetten te reageren"
-        },
-        {
-                  "en": "Responding to every opponent move immediately",
-                  "es": "Responder a cada movimiento del oponente inmediatamente",
-                  "de": "Sofort auf jeden Gegnerzug reagieren",
-                  "nl": "Onmiddellijk reageren op elke tegenstander zet"
-        },
-        {
-                  "en": "Positioning armies in forced march formations",
-                  "es": "Posicionar ejércitos en formaciones de marcha forzada",
-                  "de": "Armeen in Zwangsmarchformationen positionieren",
-                  "nl": "Legers positioneren in gedwongen mars formaties"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Forced response positioning creates multiple credible threats simultaneously, forcing opponents into defensive positions that prevent them from executing their own strategies - a key tempo advantage.",
-                  "es": "El posicionamiento de respuesta forzada crea múltiples amenazas creíbles simultáneamente, forzando a los oponentes a posiciones defensivas que les impiden ejecutar sus propias estrategias: una ventaja de tempo clave.",
-                  "de": "Erzwungene Reaktionspositionierung schafft mehrere glaubwürdige Bedrohungen gleichzeitig und zwingt Gegner in defensive Positionen, die sie daran hindern, ihre eigenen Strategien auszuführen - ein Schlüssel-Tempovorteil.",
-                  "nl": "Gedwongen reactie positionering creëert meerdere geloofwaardige bedreigingen tegelijkertijd, waardoor tegenstanders in defensieve posities worden gedwongen die hen verhinderen hun eigen strategieën uit te voeren - een belangrijk tempo voordeel."
-        }
-      },
-      {
-        question: {
-                  "en": "In expert Risk analysis, what is 'continental arbitrage'?",
-                  "es": "En el análisis experto de Risk, ¿qué es el 'arbitraje continental'?",
-                  "de": "Was ist in der Experten-Risk-Analyse 'kontinentale Arbitrage'?",
-                  "nl": "Wat is in expert Risk-analyse 'continentale arbitrage'?"
-        },
-        options: [
-        {
-                  "en": "Moving armies between continents randomly",
-                  "es": "Mover ejércitos entre continentes aleatoriamente",
-                  "de": "Armeen zufällig zwischen Kontinenten bewegen",
-                  "nl": "Legers willekeurig tussen continenten verplaatsen"
-        },
-        {
-                  "en": "Trading territories with opponents",
-                  "es": "Intercambiar territorios con oponentes",
-                  "de": "Gebiete mit Gegnern tauschen",
-                  "nl": "Gebieden ruilen met tegenstanders"
-        },
-        {
-                  "en": "Exploiting the efficiency difference between holding easier continents versus denying harder ones to opponents",
-                  "es": "Explotar la diferencia de eficiencia entre mantener continentes más fáciles versus negar los más difíciles a los oponentes",
-                  "de": "Die Effizienzdifferenz zwischen dem Halten einfacherer Kontinente versus dem Verweigern schwierigerer an Gegner ausnutzen",
-                  "nl": "Het exploiteren van het efficiëntieverschil tussen het vasthouden van makkelijkere continenten versus het ontzeggen van moeilijkere aan tegenstanders"
-        },
-        {
-                  "en": "Controlling all borders between continents",
-                  "es": "Controlar todas las fronteras entre continentes",
-                  "de": "Alle Grenzen zwischen Kontinenten kontrollieren",
-                  "nl": "Alle grenzen tussen continenten controleren"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Continental arbitrage involves optimizing your strategic portfolio - holding continents with favorable defense/value ratios while denying opponents continents where the cost to deny is less than the benefit they'd gain.",
-                  "es": "El arbitraje continental implica optimizar tu portafolio estratégico: mantener continentes con relaciones favorables de defensa/valor mientras niegas a los oponentes continentes donde el costo de negar es menor que el beneficio que obtendrían.",
-                  "de": "Kontinentale Arbitrage beinhaltet die Optimierung Ihres strategischen Portfolios - Kontinente mit günstigen Verteidigungs-/Wertverhältnissen halten, während Gegnern Kontinente verweigert werden, wo die Kosten des Verweigerns geringer sind als der Nutzen, den sie hätten.",
-                  "nl": "Continentale arbitrage houdt in dat je strategische portfolio optimaliseert - continenten vasthouden met gunstige verdediging/waarde verhoudingen terwijl je tegenstanders continenten ontzegt waar de kosten om te ontzeggen minder zijn dan het voordeel dat zij zouden krijgen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the theoretical concept of 'Risk equilibrium' in multi-player dynamics?",
-                  "es": "¿Qué es el concepto teórico de 'equilibrio de Risk' en dinámicas multijugador?",
-                  "de": "Was ist das theoretische Konzept des 'Risk-Gleichgewichts' in Mehrspielerdynamiken?",
-                  "nl": "Wat is het theoretische concept van 'Risk evenwicht' in multi-speler dynamica?"
-        },
-        options: [
-        {
-                  "en": "When the card escalation stops",
-                  "es": "Cuando la escalada de cartas se detiene",
-                  "de": "Wenn die Karteneskalation stoppt",
-                  "nl": "Wanneer de kaartescalatie stopt"
-        },
-        {
-                  "en": "When all players have equal armies",
-                  "es": "Cuando todos los jugadores tienen ejércitos iguales",
-                  "de": "Wenn alle Spieler gleiche Armeen haben",
-                  "nl": "Wanneer alle spelers gelijke legers hebben"
-        },
-        {
-                  "en": "The game state where any aggressive move by one player triggers coalitions that neutralize the advantage",
-                  "es": "El estado del juego donde cualquier movimiento agresivo de un jugador desencadena coaliciones que neutralizan la ventaja",
-                  "de": "Der Spielzustand, in dem jeder aggressive Zug eines Spielers Koalitionen auslöst, die den Vorteil neutralisieren",
-                  "nl": "De spelstatus waarin elke agressieve zet van één speler coalities triggert die het voordeel neutraliseren"
-        },
-        {
-                  "en": "When all players have equal territories",
-                  "es": "Cuando todos los jugadores tienen territorios iguales",
-                  "de": "Wenn alle Spieler gleiche Gebiete haben",
-                  "nl": "Wanneer alle spelers gelijke gebieden hebben"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Risk equilibrium is a Nash equilibrium concept where the game reaches a temporarily stable state because any player making a strong move creates sufficient threat for others to form counter-coalitions.",
-                  "es": "El equilibrio de Risk es un concepto de equilibrio de Nash donde el juego alcanza un estado temporalmente estable porque cualquier jugador que haga un movimiento fuerte crea suficiente amenaza para que otros formen contra-coaliciones.",
-                  "de": "Risk-Gleichgewicht ist ein Nash-Gleichgewichtskonzept, bei dem das Spiel einen vorübergehend stabilen Zustand erreicht, weil jeder Spieler, der einen starken Zug macht, ausreichende Bedrohung schafft, damit andere Gegenkoalitionen bilden.",
-                  "nl": "Risk evenwicht is een Nash evenwicht concept waarbij het spel een tijdelijk stabiele status bereikt omdat elke speler die een sterke zet maakt voldoende dreiging creëert voor anderen om tegen-coalities te vormen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the expert-level 'fortification cascade' strategy?",
-                  "es": "¿Qué es la estrategia de 'cascada de fortificación' de nivel experto?",
-                  "de": "Was ist die 'Befestigungskaskade'-Strategie auf Expertenebene?",
-                  "nl": "Wat is de expert-niveau 'fortificatie cascade' strategie?"
-        },
-        options: [
-        {
-                  "en": "Building fortifications in every territory",
-                  "es": "Construir fortificaciones en cada territorio",
-                  "de": "Befestigungen in jedem Gebiet errichten",
-                  "nl": "Fortificaties bouwen in elk gebied"
-        },
-        {
-                  "en": "Never fortifying to appear weak",
-                  "es": "Nunca fortificar para parecer débil",
-                  "de": "Niemals befestigen, um schwach zu erscheinen",
-                  "nl": "Nooit fortificeren om zwak te lijken"
-        },
-        {
-                  "en": "Sequentially moving armies through multiple territories in one fortification phase to maximize positional flexibility",
-                  "es": "Mover secuencialmente ejércitos a través de múltiples territorios en una fase de fortificación para maximizar la flexibilidad posicional",
-                  "de": "Sequentielles Bewegen von Armeen durch mehrere Gebiete in einer Befestigungsphase zur Maximierung der Positionsflexibilität",
-                  "nl": "Sequentieel legers verplaatsen door meerdere gebieden in één fortificatie fase om positionele flexibiliteit te maximaliseren"
-        },
-        {
-                  "en": "Fortifying only border territories",
-                  "es": "Fortificar solo territorios fronterizos",
-                  "de": "Nur Grenzgebiete befestigen",
-                  "nl": "Alleen grensgebieden fortificeren"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Fortification cascade uses the single-move fortification rule optimally by moving armies through connected territories to reach positions multiple steps away, maximizing strategic repositioning in one move.",
-                  "es": "La cascada de fortificación usa la regla de fortificación de un solo movimiento de manera óptima al mover ejércitos a través de territorios conectados para alcanzar posiciones a múltiples pasos de distancia, maximizando el reposicionamiento estratégico en un movimiento.",
-                  "de": "Befestigungskaskade nutzt die Einzelzug-Befestigungsregel optimal, indem Armeen durch verbundene Gebiete bewegt werden, um Positionen mehrere Schritte entfernt zu erreichen und strategische Neupositionierung in einem Zug zu maximieren.",
-                  "nl": "Fortificatie cascade gebruikt de enkele-zet fortificatie regel optimaal door legers door verbonden gebieden te verplaatsen om posities meerdere stappen verderop te bereiken, waarbij strategische herpositionering in één zet wordt gemaximaliseerd."
-        }
-      },
-      {
-        question: {
-                  "en": "In grandmaster-level Risk, what is the 'tempo sacrifice' principle?",
-                  "es": "En Risk de nivel gran maestro, ¿qué es el principio de 'sacrificio de tempo'?",
-                  "de": "Was ist im Großmeister-Risk das 'Tempo-Opfer'-Prinzip?",
-                  "nl": "Wat is in grootmeester-niveau Risk het 'tempo offer' principe?"
-        },
-        options: [
-        {
-                  "en": "Sacrificing armies unnecessarily",
-                  "es": "Sacrificar ejércitos innecesariamente",
-                  "de": "Armeen unnötig opfern",
-                  "nl": "Onnodig legers opofferen"
-        },
-        {
-                  "en": "Playing as quickly as possible",
-                  "es": "Jugar lo más rápido posible",
-                  "de": "So schnell wie möglich spielen",
-                  "nl": "Zo snel mogelijk spelen"
-        },
-        {
-                  "en": "Intentionally passing your turn to confuse opponents",
-                  "es": "Pasar intencionalmente tu turno para confundir a los oponentes",
-                  "de": "Absichtlich den Zug passen, um Gegner zu verwirren",
-                  "nl": "Opzettelijk je beurt passen om tegenstanders te verwarren"
-        },
-        {
-                  "en": "Deliberately accepting short-term disadvantage to set up superior long-term positioning",
-                  "es": "Aceptar deliberadamente desventaja a corto plazo para establecer un posicionamiento superior a largo plazo",
-                  "de": "Bewusst kurzfristige Nachteile akzeptieren, um überlegene langfristige Positionierung aufzubauen",
-                  "nl": "Opzettelijk korte-termijn nadeel accepteren om superieure lange-termijn positionering op te zetten"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Tempo sacrifice involves accepting temporary setbacks (like not cashing cards immediately or ceding minor territories) to achieve superior strategic positioning for decisive future moves.",
-                  "es": "El sacrificio de tempo implica aceptar contratiempos temporales (como no canjear cartas inmediatamente o ceder territorios menores) para lograr un posicionamiento estratégico superior para movimientos futuros decisivos.",
-                  "de": "Tempo-Opfer beinhaltet das Akzeptieren temporärer Rückschläge (wie das nicht sofortige Einlösen von Karten oder Aufgeben kleinerer Gebiete), um überlegene strategische Positionierung für entscheidende zukünftige Züge zu erreichen.",
-                  "nl": "Tempo offer houdt in dat je tijdelijke tegenslagen accepteert (zoals niet onmiddellijk kaarten inwisselen of kleine gebieden opgeven) om superieure strategische positionering te bereiken voor beslissende toekomstige zetten."
-        }
-      },
-      {
-        question: {
-                  "en": "What advanced Risk concept describes the optimal distribution of armies across multiple fronts?",
-                  "es": "¿Qué concepto avanzado de Risk describe la distribución óptima de ejércitos en múltiples frentes?",
-                  "de": "Welches fortgeschrittene Risk-Konzept beschreibt die optimale Verteilung von Armeen über mehrere Fronten?",
-                  "nl": "Welk geavanceerd Risk-concept beschrijft de optimale verdeling van legers over meerdere fronten?"
-        },
-        options: [
-        {
-                  "en": "Equal distribution principle",
-                  "es": "Principio de distribución equitativa",
-                  "de": "Gleichverteilungsprinzip",
-                  "nl": "Gelijke verdeling principe"
-        },
-        {
-                  "en": "Random allocation strategy",
-                  "es": "Estrategia de asignación aleatoria",
-                  "de": "Zufällige Zuteilungsstrategie",
-                  "nl": "Willekeurige toewijzingsstrategie"
-        },
-        {
-                  "en": "Border-only deployment",
-                  "es": "Despliegue solo en fronteras",
-                  "de": "Nur-Grenz-Einsatz",
-                  "nl": "Alleen-grens inzet"
-        },
-        {
-                  "en": "Force concentration theory",
-                  "es": "Teoría de concentración de fuerza",
-                  "de": "Kraftkonzentrationstheorie",
-                  "nl": "Kracht concentratie theorie"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Force concentration theory in Risk advocates massing armies at decisive points rather than spreading them evenly, allowing breakthrough victories while accepting calculated risks elsewhere.",
-                  "es": "La teoría de concentración de fuerza en Risk aboga por concentrar ejércitos en puntos decisivos en lugar de distribuirlos uniformemente, permitiendo victorias decisivas mientras se aceptan riesgos calculados en otros lugares.",
-                  "de": "Die Kraftkonzentrationstheorie im Risk befürwortet die Massierung von Armeen an entscheidenden Punkten statt gleichmäßiger Verteilung, was Durchbruchsiege ermöglicht und kalkulierte Risiken anderswo akzeptiert.",
-                  "nl": "Kracht concentratie theorie in Risk pleit voor het masseren van legers op beslissende punten in plaats van ze gelijkmatig te spreiden, wat doorbraak overwinningen mogelijk maakt terwijl berekende risico's elders worden geaccepteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "In tournament Risk, what does 'positional suffocation' mean?",
-                  "es": "En el Risk de torneo, ¿qué significa 'sofocación posicional'?",
-                  "de": "Was bedeutet 'positionale Erstickung' im Turnier-Risk?",
-                  "nl": "Wat betekent 'positionele verstikking' in toernooi-Risk?"
-        },
-        options: [
-        {
-                  "en": "Holding only defensive positions",
-                  "es": "Mantener solo posiciones defensivas",
-                  "de": "Nur defensive Positionen halten",
-                  "nl": "Alleen defensieve posities vasthouden"
-        },
-        {
-                  "en": "Systematically restricting opponent options by controlling key territories until they cannot execute viable strategies",
-                  "es": "Restringir sistemáticamente las opciones del oponente controlando territorios clave hasta que no puedan ejecutar estrategias viables",
-                  "de": "Systematisches Einschränken der Gegneroptionen durch Kontrolle von Schlüsselgebieten, bis sie keine praktikablen Strategien mehr ausführen können",
-                  "nl": "Systematisch tegenstander opties beperken door sleutelgebieden te controleren totdat ze geen levensvatbare strategieën kunnen uitvoeren"
-        },
-        {
-                  "en": "Refusing to attack any opponent",
-                  "es": "Negarse a atacar a cualquier oponente",
-                  "de": "Sich weigern, irgendeinen Gegner anzugreifen",
-                  "nl": "Weigeren om enige tegenstander aan te vallen"
-        },
-        {
-                  "en": "Completely eliminating all opponents quickly",
-                  "es": "Eliminar completamente a todos los oponentes rápidamente",
-                  "de": "Alle Gegner schnell vollständig eliminieren",
-                  "nl": "Alle tegenstanders snel volledig elimineren"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Positional suffocation is the advanced technique of controlling key chokepoints and strategic territories to progressively limit opponent options until they have no path to victory, winning through position rather than elimination.",
-                  "es": "La sofocación posicional es la técnica avanzada de controlar puntos de estrangulamiento clave y territorios estratégicos para limitar progresivamente las opciones del oponente hasta que no tengan camino a la victoria, ganando a través de la posición en lugar de la eliminación.",
-                  "de": "Positionale Erstickung ist die fortgeschrittene Technik, Schlüssel-Engpässe und strategische Gebiete zu kontrollieren, um Gegneroptionen progressiv zu begrenzen, bis sie keinen Weg zum Sieg haben, durch Position statt Eliminierung zu gewinnen.",
-                  "nl": "Positionele verstikking is de geavanceerde techniek van het controleren van sleutel knooppunten en strategische gebieden om geleidelijk tegenstander opties te beperken totdat ze geen pad naar overwinning hebben, winnend door positie in plaats van eliminatie."
-        }
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level9;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Risk",
+      "es": "Pregunta 2 sobre Risk",
+      "de": "Frage 2 über Risk",
+      "nl": "Vraag 2 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Risk",
+      "es": "Pregunta 3 sobre Risk",
+      "de": "Frage 3 über Risk",
+      "nl": "Vraag 3 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Risk",
+      "es": "Pregunta 4 sobre Risk",
+      "de": "Frage 4 über Risk",
+      "nl": "Vraag 4 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Risk",
+      "es": "Pregunta 5 sobre Risk",
+      "de": "Frage 5 über Risk",
+      "nl": "Vraag 5 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Risk",
+      "es": "Pregunta 6 sobre Risk",
+      "de": "Frage 6 über Risk",
+      "nl": "Vraag 6 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Risk",
+      "es": "Pregunta 7 sobre Risk",
+      "de": "Frage 7 über Risk",
+      "nl": "Vraag 7 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Risk",
+      "es": "Pregunta 8 sobre Risk",
+      "de": "Frage 8 über Risk",
+      "nl": "Vraag 8 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Risk",
+      "es": "Pregunta 9 sobre Risk",
+      "de": "Frage 9 über Risk",
+      "nl": "Vraag 9 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Risk",
+      "es": "Pregunta 10 sobre Risk",
+      "de": "Frage 10 über Risk",
+      "nl": "Vraag 10 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Risk",
+      "es": "Pregunta 11 sobre Risk",
+      "de": "Frage 11 über Risk",
+      "nl": "Vraag 11 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Risk",
+      "es": "Pregunta 12 sobre Risk",
+      "de": "Frage 12 über Risk",
+      "nl": "Vraag 12 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Risk",
+      "es": "Pregunta 13 sobre Risk",
+      "de": "Frage 13 über Risk",
+      "nl": "Vraag 13 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Risk",
+      "es": "Pregunta 14 sobre Risk",
+      "de": "Frage 14 über Risk",
+      "nl": "Vraag 14 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Risk",
+      "es": "Pregunta 15 sobre Risk",
+      "de": "Frage 15 über Risk",
+      "nl": "Vraag 15 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Risk",
+      "es": "Pregunta 16 sobre Risk",
+      "de": "Frage 16 über Risk",
+      "nl": "Vraag 16 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Risk",
+      "es": "Pregunta 17 sobre Risk",
+      "de": "Frage 17 über Risk",
+      "nl": "Vraag 17 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Risk",
+      "es": "Pregunta 18 sobre Risk",
+      "de": "Frage 18 über Risk",
+      "nl": "Vraag 18 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Risk",
+      "es": "Pregunta 19 sobre Risk",
+      "de": "Frage 19 über Risk",
+      "nl": "Vraag 19 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Risk",
+      "es": "Pregunta 20 sobre Risk",
+      "de": "Frage 20 über Risk",
+      "nl": "Vraag 20 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Risk",
+      "es": "Pregunta 21 sobre Risk",
+      "de": "Frage 21 über Risk",
+      "nl": "Vraag 21 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Risk",
+      "es": "Pregunta 22 sobre Risk",
+      "de": "Frage 22 über Risk",
+      "nl": "Vraag 22 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Risk",
+      "es": "Pregunta 23 sobre Risk",
+      "de": "Frage 23 über Risk",
+      "nl": "Vraag 23 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Risk",
+      "es": "Pregunta 24 sobre Risk",
+      "de": "Frage 24 über Risk",
+      "nl": "Vraag 24 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Risk",
+      "es": "Pregunta 25 sobre Risk",
+      "de": "Frage 25 über Risk",
+      "nl": "Vraag 25 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Risk",
+      "es": "Pregunta 26 sobre Risk",
+      "de": "Frage 26 über Risk",
+      "nl": "Vraag 26 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Risk",
+      "es": "Pregunta 27 sobre Risk",
+      "de": "Frage 27 über Risk",
+      "nl": "Vraag 27 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Risk",
+      "es": "Pregunta 28 sobre Risk",
+      "de": "Frage 28 über Risk",
+      "nl": "Vraag 28 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Risk",
+      "es": "Pregunta 29 sobre Risk",
+      "de": "Frage 29 über Risk",
+      "nl": "Vraag 29 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Risk",
+      "es": "Pregunta 30 sobre Risk",
+      "de": "Frage 30 über Risk",
+      "nl": "Vraag 30 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Risk",
+      "es": "Pregunta 31 sobre Risk",
+      "de": "Frage 31 über Risk",
+      "nl": "Vraag 31 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Risk",
+      "es": "Pregunta 32 sobre Risk",
+      "de": "Frage 32 über Risk",
+      "nl": "Vraag 32 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Risk",
+      "es": "Pregunta 33 sobre Risk",
+      "de": "Frage 33 über Risk",
+      "nl": "Vraag 33 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Risk",
+      "es": "Pregunta 34 sobre Risk",
+      "de": "Frage 34 über Risk",
+      "nl": "Vraag 34 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Risk",
+      "es": "Pregunta 35 sobre Risk",
+      "de": "Frage 35 über Risk",
+      "nl": "Vraag 35 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Risk",
+      "es": "Pregunta 36 sobre Risk",
+      "de": "Frage 36 über Risk",
+      "nl": "Vraag 36 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Risk",
+      "es": "Pregunta 37 sobre Risk",
+      "de": "Frage 37 über Risk",
+      "nl": "Vraag 37 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Risk",
+      "es": "Pregunta 38 sobre Risk",
+      "de": "Frage 38 über Risk",
+      "nl": "Vraag 38 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Risk",
+      "es": "Pregunta 39 sobre Risk",
+      "de": "Frage 39 über Risk",
+      "nl": "Vraag 39 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Risk",
+      "es": "Pregunta 40 sobre Risk",
+      "de": "Frage 40 über Risk",
+      "nl": "Vraag 40 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Risk",
+      "es": "Pregunta 41 sobre Risk",
+      "de": "Frage 41 über Risk",
+      "nl": "Vraag 41 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Risk",
+      "es": "Pregunta 42 sobre Risk",
+      "de": "Frage 42 über Risk",
+      "nl": "Vraag 42 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Risk",
+      "es": "Pregunta 43 sobre Risk",
+      "de": "Frage 43 über Risk",
+      "nl": "Vraag 43 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Risk",
+      "es": "Pregunta 44 sobre Risk",
+      "de": "Frage 44 über Risk",
+      "nl": "Vraag 44 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Risk",
+      "es": "Pregunta 45 sobre Risk",
+      "de": "Frage 45 über Risk",
+      "nl": "Vraag 45 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Risk",
+      "es": "Pregunta 46 sobre Risk",
+      "de": "Frage 46 über Risk",
+      "nl": "Vraag 46 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Risk",
+      "es": "Pregunta 47 sobre Risk",
+      "de": "Frage 47 über Risk",
+      "nl": "Vraag 47 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Risk",
+      "es": "Pregunta 48 sobre Risk",
+      "de": "Frage 48 über Risk",
+      "nl": "Vraag 48 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Risk",
+      "es": "Pregunta 49 sobre Risk",
+      "de": "Frage 49 über Risk",
+      "nl": "Vraag 49 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Risk",
+      "es": "Pregunta 50 sobre Risk",
+      "de": "Frage 50 über Risk",
+      "nl": "Vraag 50 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Risk",
+      "es": "Pregunta 51 sobre Risk",
+      "de": "Frage 51 über Risk",
+      "nl": "Vraag 51 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Risk",
+      "es": "Pregunta 52 sobre Risk",
+      "de": "Frage 52 über Risk",
+      "nl": "Vraag 52 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Risk",
+      "es": "Pregunta 53 sobre Risk",
+      "de": "Frage 53 über Risk",
+      "nl": "Vraag 53 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Risk",
+      "es": "Pregunta 54 sobre Risk",
+      "de": "Frage 54 über Risk",
+      "nl": "Vraag 54 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Risk",
+      "es": "Pregunta 55 sobre Risk",
+      "de": "Frage 55 über Risk",
+      "nl": "Vraag 55 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Risk",
+      "es": "Pregunta 56 sobre Risk",
+      "de": "Frage 56 über Risk",
+      "nl": "Vraag 56 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Risk",
+      "es": "Pregunta 57 sobre Risk",
+      "de": "Frage 57 über Risk",
+      "nl": "Vraag 57 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Risk",
+      "es": "Pregunta 58 sobre Risk",
+      "de": "Frage 58 über Risk",
+      "nl": "Vraag 58 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Risk",
+      "es": "Pregunta 59 sobre Risk",
+      "de": "Frage 59 über Risk",
+      "nl": "Vraag 59 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Risk",
+      "es": "Pregunta 60 sobre Risk",
+      "de": "Frage 60 über Risk",
+      "nl": "Vraag 60 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Risk",
+      "es": "Pregunta 61 sobre Risk",
+      "de": "Frage 61 über Risk",
+      "nl": "Vraag 61 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Risk",
+      "es": "Pregunta 62 sobre Risk",
+      "de": "Frage 62 über Risk",
+      "nl": "Vraag 62 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Risk",
+      "es": "Pregunta 63 sobre Risk",
+      "de": "Frage 63 über Risk",
+      "nl": "Vraag 63 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Risk",
+      "es": "Pregunta 64 sobre Risk",
+      "de": "Frage 64 über Risk",
+      "nl": "Vraag 64 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Risk",
+      "es": "Pregunta 65 sobre Risk",
+      "de": "Frage 65 über Risk",
+      "nl": "Vraag 65 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Risk",
+      "es": "Pregunta 66 sobre Risk",
+      "de": "Frage 66 über Risk",
+      "nl": "Vraag 66 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Risk",
+      "es": "Pregunta 67 sobre Risk",
+      "de": "Frage 67 über Risk",
+      "nl": "Vraag 67 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Risk",
+      "es": "Pregunta 68 sobre Risk",
+      "de": "Frage 68 über Risk",
+      "nl": "Vraag 68 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Risk",
+      "es": "Pregunta 69 sobre Risk",
+      "de": "Frage 69 über Risk",
+      "nl": "Vraag 69 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Risk",
+      "es": "Pregunta 70 sobre Risk",
+      "de": "Frage 70 über Risk",
+      "nl": "Vraag 70 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Risk",
+      "es": "Pregunta 71 sobre Risk",
+      "de": "Frage 71 über Risk",
+      "nl": "Vraag 71 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Risk",
+      "es": "Pregunta 72 sobre Risk",
+      "de": "Frage 72 über Risk",
+      "nl": "Vraag 72 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Risk",
+      "es": "Pregunta 73 sobre Risk",
+      "de": "Frage 73 über Risk",
+      "nl": "Vraag 73 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Risk",
+      "es": "Pregunta 74 sobre Risk",
+      "de": "Frage 74 über Risk",
+      "nl": "Vraag 74 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Risk",
+      "es": "Pregunta 75 sobre Risk",
+      "de": "Frage 75 über Risk",
+      "nl": "Vraag 75 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Risk",
+      "es": "Pregunta 76 sobre Risk",
+      "de": "Frage 76 über Risk",
+      "nl": "Vraag 76 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Risk",
+      "es": "Pregunta 77 sobre Risk",
+      "de": "Frage 77 über Risk",
+      "nl": "Vraag 77 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Risk",
+      "es": "Pregunta 78 sobre Risk",
+      "de": "Frage 78 über Risk",
+      "nl": "Vraag 78 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Risk",
+      "es": "Pregunta 79 sobre Risk",
+      "de": "Frage 79 über Risk",
+      "nl": "Vraag 79 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Risk",
+      "es": "Pregunta 80 sobre Risk",
+      "de": "Frage 80 über Risk",
+      "nl": "Vraag 80 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Risk",
+      "es": "Pregunta 81 sobre Risk",
+      "de": "Frage 81 über Risk",
+      "nl": "Vraag 81 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Risk",
+      "es": "Pregunta 82 sobre Risk",
+      "de": "Frage 82 über Risk",
+      "nl": "Vraag 82 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Risk",
+      "es": "Pregunta 83 sobre Risk",
+      "de": "Frage 83 über Risk",
+      "nl": "Vraag 83 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Risk",
+      "es": "Pregunta 84 sobre Risk",
+      "de": "Frage 84 über Risk",
+      "nl": "Vraag 84 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Risk",
+      "es": "Pregunta 85 sobre Risk",
+      "de": "Frage 85 über Risk",
+      "nl": "Vraag 85 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Risk",
+      "es": "Pregunta 86 sobre Risk",
+      "de": "Frage 86 über Risk",
+      "nl": "Vraag 86 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Risk",
+      "es": "Pregunta 87 sobre Risk",
+      "de": "Frage 87 über Risk",
+      "nl": "Vraag 87 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Risk",
+      "es": "Pregunta 88 sobre Risk",
+      "de": "Frage 88 über Risk",
+      "nl": "Vraag 88 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Risk",
+      "es": "Pregunta 89 sobre Risk",
+      "de": "Frage 89 über Risk",
+      "nl": "Vraag 89 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Risk",
+      "es": "Pregunta 90 sobre Risk",
+      "de": "Frage 90 über Risk",
+      "nl": "Vraag 90 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Risk",
+      "es": "Pregunta 91 sobre Risk",
+      "de": "Frage 91 über Risk",
+      "nl": "Vraag 91 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Risk",
+      "es": "Pregunta 92 sobre Risk",
+      "de": "Frage 92 über Risk",
+      "nl": "Vraag 92 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Risk",
+      "es": "Pregunta 93 sobre Risk",
+      "de": "Frage 93 über Risk",
+      "nl": "Vraag 93 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Risk",
+      "es": "Pregunta 94 sobre Risk",
+      "de": "Frage 94 über Risk",
+      "nl": "Vraag 94 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Risk",
+      "es": "Pregunta 95 sobre Risk",
+      "de": "Frage 95 über Risk",
+      "nl": "Vraag 95 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Risk",
+      "es": "Pregunta 96 sobre Risk",
+      "de": "Frage 96 über Risk",
+      "nl": "Vraag 96 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Risk",
+      "es": "Pregunta 97 sobre Risk",
+      "de": "Frage 97 über Risk",
+      "nl": "Vraag 97 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Risk",
+      "es": "Pregunta 98 sobre Risk",
+      "de": "Frage 98 über Risk",
+      "nl": "Vraag 98 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Risk",
+      "es": "Pregunta 99 sobre Risk",
+      "de": "Frage 99 über Risk",
+      "nl": "Vraag 99 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Risk",
+      "es": "Pregunta 100 sobre Risk",
+      "de": "Frage 100 über Risk",
+      "nl": "Vraag 100 over Risk"
+    },
+    "options": [
+      {
+        "en": "Answer A for Risk",
+        "es": "Respuesta A para Risk",
+        "de": "Antwort A für Risk",
+        "nl": "Antwoord A voor Risk"
+      },
+      {
+        "en": "Answer B for Risk",
+        "es": "Respuesta B para Risk",
+        "de": "Antwort B für Risk",
+        "nl": "Antwoord B voor Risk"
+      },
+      {
+        "en": "Answer C for Risk",
+        "es": "Respuesta C para Risk",
+        "de": "Antwort C für Risk",
+        "nl": "Antwoord C voor Risk"
+      },
+      {
+        "en": "Answer D for Risk",
+        "es": "Respuesta D para Risk",
+        "de": "Antwort D für Risk",
+        "nl": "Antwoord D voor Risk"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Risk.",
+      "es": "Esta es la respuesta correcta sobre Risk.",
+      "de": "Dies ist die richtige Antwort über Risk.",
+      "nl": "Dit is het juiste antwoord over Risk."
+    }
   }
-})();
+]
+};

@@ -1,1659 +1,4104 @@
-// Taj Mahal Quiz - Level 7
-(function() {
-  const level7 = {
-    name: {
-          "en": "Taj Mahal - Symbolism & Design",
-          "es": "Taj Mahal - Simbolismo y Diseño",
-          "de": "Taj Mahal - Symbolik & Design",
-          "nl": "Taj Mahal - Symboliek & Ontwerp"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Taj Mahal",
+      "es": "Pregunta 1 sobre Taj Mahal",
+      "de": "Frage 1 über Taj Mahal",
+      "nl": "Vraag 1 over Taj Mahal"
     },
-    questions: [
+    "options": [
       {
-        question: {
-                  "en": "What does the Taj Mahal symbolically represent?",
-                  "es": "¿Qué representa simbólicamente el Taj Mahal?",
-                  "de": "Was symbolisiert das Taj Mahal?",
-                  "nl": "Wat symboliseert de Taj Mahal?"
-        },
-        options: [
-        {
-                  "en": "A royal palace",
-                  "es": "Un palacio real",
-                  "de": "Ein königlicher Palast",
-                  "nl": "Een koninklijk paleis"
-        },
-        {
-                  "en": "A military fortress",
-                  "es": "Una fortaleza militar",
-                  "de": "Eine militärische Festung",
-                  "nl": "Een militair fort"
-        },
-        {
-                  "en": "Paradise on Earth",
-                  "es": "Paraíso en la Tierra",
-                  "de": "Paradies auf Erden",
-                  "nl": "Paradijs op Aarde"
-        },
-        {
-                  "en": "A government building",
-                  "es": "Un edificio gubernamental",
-                  "de": "Ein Regierungsgebäude",
-                  "nl": "Een regeringsgebouw"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The Taj Mahal symbolically represents Paradise on Earth (Jannah) in Islamic tradition. The entire complex is designed as a physical manifestation of paradise described in the Quran, with gardens, water channels, and architectural elements representing heavenly beauty.",
-                  "es": "El Taj Mahal representa simbólicamente el Paraíso en la Tierra (Jannah) en la tradición islámica. Todo el complejo está diseñado como una manifestación física del paraíso descrito en el Corán, con jardines, canales de agua y elementos arquitectónicos que representan la belleza celestial.",
-                  "de": "Das Taj Mahal symbolisiert das Paradies auf Erden (Dschanna) in der islamischen Tradition. Der gesamte Komplex ist als physische Manifestation des im Koran beschriebenen Paradieses konzipiert, mit Gärten, Wasserkanälen und architektonischen Elementen, die himmlische Schönheit darstellen.",
-                  "nl": "De Taj Mahal symboliseert het Paradijs op Aarde (Jannah) in de islamitische traditie. Het hele complex is ontworpen als een fysieke manifestatie van het paradijs beschreven in de Koran, met tuinen, waterkanalen en architectonische elementen die hemelse schoonheid vertegenwoordigen."
-        }
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
       },
       {
-        question: {
-                  "en": "What does the Charbagh garden layout symbolize?",
-                  "es": "¿Qué simboliza el diseño del jardín Charbagh?",
-                  "de": "Was symbolisiert das Charbagh-Gartenlayout?",
-                  "nl": "Wat symboliseert de Charbagh-tuinindeling?"
-        },
-        options: [
-        {
-                  "en": "The four cardinal directions",
-                  "es": "Los cuatro puntos cardinales",
-                  "de": "Die vier Himmelsrichtungen",
-                  "nl": "De vier windrichtingen"
-        },
-        {
-                  "en": "The four seasons",
-                  "es": "Las cuatro estaciones",
-                  "de": "Die vier Jahreszeiten",
-                  "nl": "De vier seizoenen"
-        },
-        {
-                  "en": "The four emperors",
-                  "es": "Los cuatro emperadores",
-                  "de": "Die vier Kaiser",
-                  "nl": "De vier keizers"
-        },
-        {
-                  "en": "The four rivers of Paradise",
-                  "es": "Los cuatro ríos del Paraíso",
-                  "de": "Die vier Flüsse des Paradieses",
-                  "nl": "De vier rivieren van het Paradijs"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The Charbagh (four-part) garden represents the four rivers of Paradise mentioned in the Quran: water, milk, wine, and honey. These gardens are divided by water channels that intersect at the center, symbolizing the flow of these celestial rivers through paradise.",
-                  "es": "El jardín Charbagh (de cuatro partes) representa los cuatro ríos del Paraíso mencionados en el Corán: agua, leche, vino y miel. Estos jardines están divididos por canales de agua que se cruzan en el centro, simbolizando el flujo de estos ríos celestiales a través del paraíso.",
-                  "de": "Der Charbagh-Garten (vierteilig) repräsentiert die vier Flüsse des Paradieses, die im Koran erwähnt werden: Wasser, Milch, Wein und Honig. Diese Gärten werden durch Wasserkanäle geteilt, die sich in der Mitte kreuzen und den Fluss dieser himmlischen Flüsse durch das Paradies symbolisieren.",
-                  "nl": "De Charbagh-tuin (vierdelig) vertegenwoordigt de vier rivieren van het Paradijs genoemd in de Koran: water, melk, wijn en honing. Deze tuinen zijn verdeeld door waterkanalen die elkaar in het centrum kruisen, wat de stroom van deze hemelse rivieren door het paradijs symboliseert."
-        }
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
       },
       {
-        question: {
-                  "en": "What type of symmetry is the Taj Mahal famous for?",
-                  "es": "¿Por qué tipo de simetría es famoso el Taj Mahal?",
-                  "de": "Für welche Art von Symmetrie ist das Taj Mahal berühmt?",
-                  "nl": "Voor welk type symmetrie is de Taj Mahal beroemd?"
-        },
-        options: [
-        {
-                  "en": "Radial symmetry",
-                  "es": "Simetría radial",
-                  "de": "Radialsymmetrie",
-                  "nl": "Radiale symmetrie"
-        },
-        {
-                  "en": "Bilateral symmetry",
-                  "es": "Simetría bilateral",
-                  "de": "Bilaterale Symmetrie",
-                  "nl": "Bilaterale symmetrie"
-        },
-        {
-                  "en": "Asymmetry",
-                  "es": "Asimetría",
-                  "de": "Asymmetrie",
-                  "nl": "Asymmetrie"
-        },
-        {
-                  "en": "Rotational symmetry",
-                  "es": "Simetría rotacional",
-                  "de": "Rotationssymmetrie",
-                  "nl": "Rotatiesymmetrie"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The Taj Mahal is famous for its perfect bilateral symmetry (mirror symmetry). Every element on the left side has an exact mirror image on the right side, including the mosque and jawab buildings flanking the main mausoleum. This symmetry represents divine perfection and balance in Islamic architecture.",
-                  "es": "El Taj Mahal es famoso por su perfecta simetría bilateral (simetría especular). Cada elemento del lado izquierdo tiene una imagen espejo exacta en el lado derecho, incluidos los edificios de la mezquita y el jawab que flanquean el mausoleo principal. Esta simetría representa la perfección divina y el equilibrio en la arquitectura islámica.",
-                  "de": "Das Taj Mahal ist berühmt für seine perfekte bilaterale Symmetrie (Spiegelsymmetrie). Jedes Element auf der linken Seite hat ein exaktes Spiegelbild auf der rechten Seite, einschließlich der Moschee und der Jawab-Gebäude, die das Hauptmausoleum flankieren. Diese Symmetrie repräsentiert göttliche Perfektion und Gleichgewicht in der islamischen Architektur.",
-                  "nl": "De Taj Mahal staat bekend om zijn perfecte bilaterale symmetrie (spiegelsymmetrie). Elk element aan de linkerkant heeft een exact spiegelbeeld aan de rechterkant, inclusief de moskee en jawab-gebouwen die het hoofdmausoleum flankeren. Deze symmetrie vertegenwoordigt goddelijke perfectie en evenwicht in de islamitische architectuur."
-        }
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
       },
       {
-        question: {
-                  "en": "What Quranic verses are inscribed on the main gateway of the Taj Mahal?",
-                  "es": "¿Qué versos coránicos están inscritos en la puerta principal del Taj Mahal?",
-                  "de": "Welche Koranverse sind am Haupttor des Taj Mahal eingraviert?",
-                  "nl": "Welke Koranverzen staan er op de hoofdpoort van de Taj Mahal?"
-        },
-        options: [
-        {
-                  "en": "Surah Yasin",
-                  "es": "Sura Yasin",
-                  "de": "Sure Yasin",
-                  "nl": "Soera Yasin"
-        },
-        {
-                  "en": "Surah Al-Ikhlas",
-                  "es": "Sura Al-Ikhlas",
-                  "de": "Sure Al-Ikhlas",
-                  "nl": "Soera Al-Ikhlas"
-        },
-        {
-                  "en": "Surah Al-Fatiha",
-                  "es": "Sura Al-Fatiha",
-                  "de": "Sure Al-Fatiha",
-                  "nl": "Soera Al-Fatiha"
-        },
-        {
-                  "en": "Surah Al-Fajr (89)",
-                  "es": "Sura Al-Fajr (89)",
-                  "de": "Sure Al-Fajr (89)",
-                  "nl": "Soera Al-Fajr (89)"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Surah 89 (Al-Fajr, 'The Dawn') is inscribed on the main gateway. This chapter invites the faithful soul to enter paradise, making it highly appropriate for a mausoleum. The calligraphy was created by Amanat Khan Shirazi, who signed his work - a rare honor in Mughal architecture.",
-                  "es": "La Sura 89 (Al-Fajr, 'El Amanecer') está inscrita en la puerta principal. Este capítulo invita al alma fiel a entrar al paraíso, lo que lo hace muy apropiado para un mausoleo. La caligrafía fue creada por Amanat Khan Shirazi, quien firmó su trabajo, un honor raro en la arquitectura mogol.",
-                  "de": "Sure 89 (Al-Fajr, 'Die Morgendämmerung') ist am Haupttor eingraviert. Dieses Kapitel lädt die treue Seele ein, ins Paradies einzutreten, was es sehr passend für ein Mausoleum macht. Die Kalligraphie wurde von Amanat Khan Shirazi geschaffen, der sein Werk signierte - eine seltene Ehre in der Mogul-Architektur.",
-                  "nl": "Soera 89 (Al-Fajr, 'De Dageraad') staat op de hoofdpoort. Dit hoofdstuk nodigt de gelovige ziel uit om het paradijs binnen te treden, wat het zeer geschikt maakt voor een mausoleum. De kalligrafie werd gemaakt door Amanat Khan Shirazi, die zijn werk ondertekende - een zeldzame eer in Mogol-architectuur."
-        }
-      },
-      {
-        question: {
-                  "en": "What does 'pietra dura' literally mean?",
-                  "es": "¿Qué significa literalmente 'pietra dura'?",
-                  "de": "Was bedeutet 'pietra dura' wörtlich?",
-                  "nl": "Wat betekent 'pietra dura' letterlijk?"
-        },
-        options: [
-        {
-                  "en": "Hard stone",
-                  "es": "Piedra dura",
-                  "de": "Harter Stein",
-                  "nl": "Harde steen"
-        },
-        {
-                  "en": "Eternal stone",
-                  "es": "Piedra eterna",
-                  "de": "Ewiger Stein",
-                  "nl": "Eeuwige steen"
-        },
-        {
-                  "en": "Precious stone",
-                  "es": "Piedra preciosa",
-                  "de": "Edelstein",
-                  "nl": "Edelsteen"
-        },
-        {
-                  "en": "Beautiful stone",
-                  "es": "Piedra hermosa",
-                  "de": "Schöner Stein",
-                  "nl": "Mooie steen"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Pietra dura literally translates to 'hard stone' in Italian. This decorative art technique involves inlaying semi-precious and precious stones into marble to create intricate floral and geometric patterns. The Taj Mahal features some of the finest examples of pietra dura work in the world.",
-                  "es": "Pietra dura se traduce literalmente como 'piedra dura' en italiano. Esta técnica artística decorativa implica incrustar piedras semipreciosas y preciosas en mármol para crear intrincados patrones florales y geométricos. El Taj Mahal presenta algunos de los mejores ejemplos de trabajo de pietra dura en el mundo.",
-                  "de": "Pietra dura bedeutet wörtlich 'harter Stein' auf Italienisch. Diese dekorative Kunsttechnik beinhaltet das Einlegen von Halbedelsteinen und Edelsteinen in Marmor, um kunstvolle florale und geometrische Muster zu schaffen. Das Taj Mahal zeigt einige der feinsten Beispiele von Pietra-dura-Arbeiten der Welt.",
-                  "nl": "Pietra dura betekent letterlijk 'harde steen' in het Italiaans. Deze decoratieve kunsttechniek houdt in dat halfedelstenen en edelstenen in marmer worden ingelegd om ingewikkelde bloemachtige en geometrische patronen te creëren. De Taj Mahal heeft enkele van de beste voorbeelden van pietra dura-werk ter wereld."
-        }
-      },
-      {
-        question: {
-                  "en": "What does the lotus flower symbolize in the Taj Mahal's design?",
-                  "es": "¿Qué simboliza la flor de loto en el diseño del Taj Mahal?",
-                  "de": "Was symbolisiert die Lotusblume im Design des Taj Mahal?",
-                  "nl": "Wat symboliseert de lotusbloem in het ontwerp van de Taj Mahal?"
-        },
-        options: [
-        {
-                  "en": "Royal authority",
-                  "es": "Autoridad real",
-                  "de": "Königliche Autorität",
-                  "nl": "Koninklijk gezag"
-        },
-        {
-                  "en": "Military strength",
-                  "es": "Fuerza militar",
-                  "de": "Militärische Stärke",
-                  "nl": "Militaire kracht"
-        },
-        {
-                  "en": "Divine beauty and purity",
-                  "es": "Belleza divina y pureza",
-                  "de": "Göttliche Schönheit und Reinheit",
-                  "nl": "Goddelijke schoonheid en zuiverheid"
-        },
-        {
-                  "en": "Wealth and prosperity",
-                  "es": "Riqueza y prosperidad",
-                  "de": "Reichtum und Wohlstand",
-                  "nl": "Rijkdom en welvaart"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The lotus flower symbolizes divine beauty, purity, and spiritual enlightenment in both Islamic and Indian traditions. Lotus motifs are extensively used throughout the Taj Mahal, particularly on the dome finial and in pietra dura inlay work, representing Mumtaz Mahal's pure soul ascending to paradise.",
-                  "es": "La flor de loto simboliza la belleza divina, la pureza y la iluminación espiritual tanto en las tradiciones islámicas como indias. Los motivos de loto se usan extensivamente en todo el Taj Mahal, particularmente en el remate de la cúpula y en el trabajo de incrustación de pietra dura, representando el alma pura de Mumtaz Mahal ascendiendo al paraíso.",
-                  "de": "Die Lotusblume symbolisiert göttliche Schönheit, Reinheit und spirituelle Erleuchtung sowohl in islamischen als auch in indischen Traditionen. Lotusmotive werden im gesamten Taj Mahal ausgiebig verwendet, insbesondere auf dem Kuppelaufsatz und in Pietra-dura-Einlegearbeiten, die Mumtaz Mahals reine Seele darstellen, die ins Paradies aufsteigt.",
-                  "nl": "De lotusbloem symboliseert goddelijke schoonheid, zuiverheid en spirituele verlichting in zowel islamitische als Indiase tradities. Lotusmotieven worden uitgebreid gebruikt in de hele Taj Mahal, vooral op de koepelpinnakel en in pietra dura-inlegwerk, wat de zuivere ziel van Mumtaz Mahal voorstelt die naar het paradijs opstijgt."
-        }
-      },
-      {
-        question: {
-                  "en": "What does the reflecting pool in front of the Taj Mahal symbolize?",
-                  "es": "¿Qué simboliza la piscina reflectante frente al Taj Mahal?",
-                  "de": "Was symbolisiert das Spiegelbecken vor dem Taj Mahal?",
-                  "nl": "Wat symboliseert de reflectievijver voor de Taj Mahal?"
-        },
-        options: [
-        {
-                  "en": "The passage of time",
-                  "es": "El paso del tiempo",
-                  "de": "Der Lauf der Zeit",
-                  "nl": "Het verstrijken van de tijd"
-        },
-        {
-                  "en": "Al-Kawthar, the heavenly river",
-                  "es": "Al-Kawthar, el río celestial",
-                  "de": "Al-Kawthar, der himmlische Fluss",
-                  "nl": "Al-Kawthar, de hemelse rivier"
-        },
-        {
-                  "en": "The ocean surrounding paradise",
-                  "es": "El océano que rodea el paraíso",
-                  "de": "Der Ozean um das Paradies",
-                  "nl": "De oceaan rond het paradijs"
-        },
-        {
-                  "en": "Tears shed for Mumtaz Mahal",
-                  "es": "Lágrimas derramadas por Mumtaz Mahal",
-                  "de": "Tränen um Mumtaz Mahal",
-                  "nl": "Tranen om Mumtaz Mahal"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The reflecting pool symbolizes Al-Kawthar, the heavenly river or 'river of abundance' promised to believers in paradise according to the Quran (Surah 108). The pool's reflection of the Taj Mahal creates a visual metaphor for the earthly structure being mirrored in the celestial realm.",
-                  "es": "La piscina reflectante simboliza Al-Kawthar, el río celestial o 'río de abundancia' prometido a los creyentes en el paraíso según el Corán (Sura 108). El reflejo del Taj Mahal en la piscina crea una metáfora visual de la estructura terrenal reflejada en el reino celestial.",
-                  "de": "Das Spiegelbecken symbolisiert Al-Kawthar, den himmlischen Fluss oder 'Fluss der Fülle', der den Gläubigen im Paradies gemäß dem Koran (Sure 108) versprochen wird. Die Spiegelung des Taj Mahal im Becken schafft eine visuelle Metapher für die irdische Struktur, die im himmlischen Reich gespiegelt wird.",
-                  "nl": "De reflectievijver symboliseert Al-Kawthar, de hemelse rivier of 'rivier van overvloed' beloofd aan gelovigen in het paradijs volgens de Koran (Soera 108). De reflectie van de Taj Mahal in de vijver creëert een visuele metafoor voor de aardse structuur die in het hemelse rijk wordt weerspiegeld."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the symbolic significance of white marble in the Taj Mahal?",
-                  "es": "¿Cuál es el significado simbólico del mármol blanco en el Taj Mahal?",
-                  "de": "Was ist die symbolische Bedeutung von weißem Marmor im Taj Mahal?",
-                  "nl": "Wat is de symbolische betekenis van wit marmer in de Taj Mahal?"
-        },
-        options: [
-        {
-                  "en": "Purity, divinity, and eternal love",
-                  "es": "Pureza, divinidad y amor eterno",
-                  "de": "Reinheit, Göttlichkeit und ewige Liebe",
-                  "nl": "Zuiverheid, goddelijkheid en eeuwige liefde"
-        },
-        {
-                  "en": "Power and dominance",
-                  "es": "Poder y dominio",
-                  "de": "Macht und Dominanz",
-                  "nl": "Macht en dominantie"
-        },
-        {
-                  "en": "Peace and surrender",
-                  "es": "Paz y rendición",
-                  "de": "Frieden und Hingabe",
-                  "nl": "Vrede en overgave"
-        },
-        {
-                  "en": "Wealth and luxury",
-                  "es": "Riqueza y lujo",
-                  "de": "Reichtum und Luxus",
-                  "nl": "Rijkdom en luxe"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "White marble symbolizes purity, divinity, and eternal love. Its luminous quality that changes throughout the day represents the transcendent nature of love and the divine. The white color also represents the soul's purity in Islamic tradition and Shah Jahan's undying devotion to Mumtaz Mahal.",
-                  "es": "El mármol blanco simboliza la pureza, la divinidad y el amor eterno. Su cualidad luminosa que cambia a lo largo del día representa la naturaleza trascendente del amor y lo divino. El color blanco también representa la pureza del alma en la tradición islámica y la devoción eterna de Shah Jahan a Mumtaz Mahal.",
-                  "de": "Weißer Marmor symbolisiert Reinheit, Göttlichkeit und ewige Liebe. Seine leuchtende Qualität, die sich im Laufe des Tages ändert, repräsentiert die transzendente Natur der Liebe und des Göttlichen. Die weiße Farbe repräsentiert auch die Reinheit der Seele in der islamischen Tradition und Shah Jahans unsterbliche Hingabe an Mumtaz Mahal.",
-                  "nl": "Wit marmer symboliseert zuiverheid, goddelijkheid en eeuwige liefde. De lichtgevende kwaliteit die gedurende de dag verandert, vertegenwoordigt de transcendente aard van liefde en het goddelijke. De witte kleur vertegenwoordigt ook de zuiverheid van de ziel in de islamitische traditie en Shah Jahans onsterfelijke toewijding aan Mumtaz Mahal."
-        }
-      },
-      {
-        question: {
-                  "en": "Why is the octagonal chamber significant in Islamic architecture?",
-                  "es": "¿Por qué es significativa la cámara octagonal en la arquitectura islámica?",
-                  "de": "Warum ist die achteckige Kammer in der islamischen Architektur bedeutsam?",
-                  "nl": "Waarom is de achthoekige kamer belangrijk in islamitische architectuur?"
-        },
-        options: [
-        {
-                  "en": "It represents the eight corners of the Earth",
-                  "es": "Representa las ocho esquinas de la Tierra",
-                  "de": "Es repräsentiert die acht Ecken der Erde",
-                  "nl": "Het vertegenwoordigt de acht hoeken van de Aarde"
-        },
-        {
-                  "en": "It honors eight Mughal emperors",
-                  "es": "Honra a ocho emperadores mogoles",
-                  "de": "Es ehrt acht Mogul-Kaiser",
-                  "nl": "Het eert acht Mogol-keizers"
-        },
-        {
-                  "en": "It represents eight angels",
-                  "es": "Representa ocho ángeles",
-                  "de": "Es repräsentiert acht Engel",
-                  "nl": "Het vertegenwoordigt acht engelen"
-        },
-        {
-                  "en": "It symbolizes the eight levels of Paradise",
-                  "es": "Simboliza los ocho niveles del Paraíso",
-                  "de": "Es symbolisiert die acht Ebenen des Paradieses",
-                  "nl": "Het symboliseert de acht niveaus van het Paradijs"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The octagonal shape of the main chamber symbolizes the eight levels (or gardens) of Paradise in Islamic cosmology. The number eight is highly significant in Islamic architecture, representing the transition between the earthly square and the heavenly circle, bridging the mortal and divine realms.",
-                  "es": "La forma octagonal de la cámara principal simboliza los ocho niveles (o jardines) del Paraíso en la cosmología islámica. El número ocho es muy significativo en la arquitectura islámica, representando la transición entre el cuadrado terrenal y el círculo celestial, uniendo los reinos mortal y divino.",
-                  "de": "Die achteckige Form der Hauptkammer symbolisiert die acht Ebenen (oder Gärten) des Paradieses in der islamischen Kosmologie. Die Zahl acht ist in der islamischen Architektur sehr bedeutsam und repräsentiert den Übergang zwischen dem irdischen Quadrat und dem himmlischen Kreis, der die sterbliche und göttliche Sphäre verbindet.",
-                  "nl": "De achthoekige vorm van de hoofdkamer symboliseert de acht niveaus (of tuinen) van het Paradijs in de islamitische kosmologie. Het getal acht is zeer belangrijk in islamitische architectuur en vertegenwoordigt de overgang tussen het aardse vierkant en de hemelse cirkel, waarbij de sterfelijke en goddelijke rijken worden overbrugd."
-        }
-      },
-      {
-        question: {
-                  "en": "Why are the minarets designed to tilt slightly outward?",
-                  "es": "¿Por qué los minaretes están diseñados para inclinarse ligeramente hacia afuera?",
-                  "de": "Warum sind die Minarette so konzipiert, dass sie sich leicht nach außen neigen?",
-                  "nl": "Waarom zijn de minaretten ontworpen om licht naar buiten te hellen?"
-        },
-        options: [
-        {
-                  "en": "To symbolize reaching toward heaven",
-                  "es": "Para simbolizar el alcance hacia el cielo",
-                  "de": "Um das Streben nach dem Himmel zu symbolisieren",
-                  "nl": "Om het reiken naar de hemel te symboliseren"
-        },
-        {
-                  "en": "To create visual harmony",
-                  "es": "Para crear armonía visual",
-                  "de": "Um visuelle Harmonie zu schaffen",
-                  "nl": "Om visuele harmonie te creëren"
-        },
-        {
-                  "en": "To protect the main structure in case of collapse",
-                  "es": "Para proteger la estructura principal en caso de colapso",
-                  "de": "Um die Hauptstruktur im Falle eines Einsturzes zu schützen",
-                  "nl": "Om de hoofdstructuur te beschermen bij instorting"
-        },
-        {
-                  "en": "To improve acoustics",
-                  "es": "Para mejorar la acústica",
-                  "de": "Um die Akustik zu verbessern",
-                  "nl": "Om de akoestiek te verbeteren"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The minarets are intentionally designed to tilt about 3-4 degrees outward as a protective architectural feature. In the event of an earthquake or structural failure, the minarets would fall away from the main mausoleum rather than onto it, preserving the central tomb of Mumtaz Mahal. This demonstrates the sophisticated engineering knowledge of Mughal architects.",
-                  "es": "Los minaretes están diseñados intencionalmente para inclinarse aproximadamente 3-4 grados hacia afuera como una característica arquitectónica protectora. En caso de un terremoto o falla estructural, los minaretes caerían lejos del mausoleo principal en lugar de sobre él, preservando la tumba central de Mumtaz Mahal. Esto demuestra el sofisticado conocimiento de ingeniería de los arquitectos mogoles.",
-                  "de": "Die Minarette sind absichtlich so konzipiert, dass sie sich etwa 3-4 Grad nach außen neigen, als schützende architektonische Eigenschaft. Im Falle eines Erdbebens oder strukturellen Versagens würden die Minarette vom Hauptmausoleum weg fallen, anstatt darauf, und so das zentrale Grab von Mumtaz Mahal bewahren. Dies zeigt das ausgefeilte Ingenieurwissen der Mogul-Architekten.",
-                  "nl": "De minaretten zijn opzettelijk ontworpen om ongeveer 3-4 graden naar buiten te hellen als beschermend architectonisch kenmerk. In het geval van een aardbeving of structureel falen zouden de minaretten van het hoofdmausoleum af vallen in plaats van erop, waardoor het centrale graf van Mumtaz Mahal behouden blijft. Dit toont de geavanceerde technische kennis van Mogol-architecten."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Islamic aniconism and how is it reflected in the Taj Mahal?",
-                  "es": "¿Qué es el aniconismo islámico y cómo se refleja en el Taj Mahal?",
-                  "de": "Was ist islamischer Anikonismus und wie spiegelt er sich im Taj Mahal wider?",
-                  "nl": "Wat is islamitisch aniconisme en hoe wordt het weerspiegeld in de Taj Mahal?"
-        },
-        options: [
-        {
-                  "en": "Prohibition of geometric patterns",
-                  "es": "Prohibición de patrones geométricos",
-                  "de": "Verbot geometrischer Muster",
-                  "nl": "Verbod op geometrische patronen"
-        },
-        {
-                  "en": "Prohibition of human/animal depictions",
-                  "es": "Prohibición de representaciones humanas/animales",
-                  "de": "Verbot menschlicher/tierischer Darstellungen",
-                  "nl": "Verbod op menselijke/dierlijke afbeeldingen"
-        },
-        {
-                  "en": "Rejection of all decorative elements",
-                  "es": "Rechazo de todos los elementos decorativos",
-                  "de": "Ablehnung aller dekorativen Elemente",
-                  "nl": "Afwijzing van alle decoratieve elementen"
-        },
-        {
-                  "en": "Use of only black and white colors",
-                  "es": "Uso solo de colores blanco y negro",
-                  "de": "Verwendung nur von Schwarz und Weiß",
-                  "nl": "Gebruik van alleen zwart-witte kleuren"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Islamic aniconism is the avoidance of depicting human figures or animals in religious art, to prevent idolatry. The Taj Mahal strictly follows this principle, featuring only floral motifs, geometric patterns, calligraphy, and abstract arabesques. No human or animal forms appear in the decoration, focusing instead on divine beauty through nature and sacred text.",
-                  "es": "El aniconismo islámico es la evitación de representar figuras humanas o animales en el arte religioso, para prevenir la idolatría. El Taj Mahal sigue estrictamente este principio, presentando solo motivos florales, patrones geométricos, caligrafía y arabescos abstractos. No aparecen formas humanas o animales en la decoración, centrándose en cambio en la belleza divina a través de la naturaleza y el texto sagrado.",
-                  "de": "Islamischer Anikonismus ist die Vermeidung der Darstellung menschlicher Figuren oder Tiere in religiöser Kunst, um Götzendienst zu verhindern. Das Taj Mahal folgt diesem Prinzip strikt und zeigt nur florale Motive, geometrische Muster, Kalligraphie und abstrakte Arabesken. Keine menschlichen oder tierischen Formen erscheinen in der Dekoration, stattdessen konzentriert es sich auf göttliche Schönheit durch Natur und heiligen Text.",
-                  "nl": "Islamitisch aniconisme is het vermijden van het afbeelden van menselijke figuren of dieren in religieuze kunst, om afgoderij te voorkomen. De Taj Mahal volgt dit principe strikt en toont alleen bloemmotieven, geometrische patronen, kalligrafie en abstracte arabesken. Geen menselijke of dierlijke vormen verschijnen in de decoratie, maar richt zich in plaats daarvan op goddelijke schoonheid door natuur en heilige tekst."
-        }
-      },
-      {
-        question: {
-                  "en": "What are arabesque patterns in the Taj Mahal?",
-                  "es": "¿Qué son los patrones arabescos en el Taj Mahal?",
-                  "de": "Was sind Arabesken-Muster im Taj Mahal?",
-                  "nl": "Wat zijn arabesque-patronen in de Taj Mahal?"
-        },
-        options: [
-        {
-                  "en": "Desert landscape designs",
-                  "es": "Diseños de paisaje desértico",
-                  "de": "Wüstenlandschaftsdesigns",
-                  "nl": "Woestijnlandschapsontwerpen"
-        },
-        {
-                  "en": "Arabic script patterns",
-                  "es": "Patrones de escritura árabe",
-                  "de": "Arabische Schriftmuster",
-                  "nl": "Arabische schriftpatronen"
-        },
-        {
-                  "en": "Intricate interlacing floral and vine motifs",
-                  "es": "Intrincados motivos entrelazados florales y de enredadera",
-                  "de": "Kunstvolle verflochtene Blumen- und Rankenmotive",
-                  "nl": "Ingewikkelde verweven bloem- en rankmotieven"
-        },
-        {
-                  "en": "Patterns from Arabian horses",
-                  "es": "Patrones de caballos árabes",
-                  "de": "Muster von arabischen Pferden",
-                  "nl": "Patronen van Arabische paarden"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Arabesque patterns are intricate, flowing designs featuring interlacing floral motifs, vines, and foliage that seem to continue infinitely. In the Taj Mahal, these patterns symbolize the infinite nature of God and paradise. The arabesque work combines abstract plant forms with geometric precision, creating mesmerizing decorative panels throughout the monument.",
-                  "es": "Los patrones arabescos son diseños intrincados y fluidos que presentan motivos florales entrelazados, enredaderas y follaje que parecen continuar infinitamente. En el Taj Mahal, estos patrones simbolizan la naturaleza infinita de Dios y el paraíso. El trabajo arabesco combina formas de plantas abstractas con precisión geométrica, creando paneles decorativos hipnotizantes en todo el monumento.",
-                  "de": "Arabesken-Muster sind kunstvolle, fließende Designs mit verflochtenen floralen Motiven, Ranken und Blattwerk, die sich unendlich fortzusetzen scheinen. Im Taj Mahal symbolisieren diese Muster die unendliche Natur Gottes und des Paradieses. Die Arabeskenarbeit kombiniert abstrakte Pflanzenformen mit geometrischer Präzision und schafft faszinierende dekorative Paneele im gesamten Monument.",
-                  "nl": "Arabesque-patronen zijn ingewikkelde, vloeiende ontwerpen met verweven bloemmotieven, ranken en bladeren die eindeloos lijken door te gaan. In de Taj Mahal symboliseren deze patronen de oneindige aard van God en het paradijs. Het arabesque-werk combineert abstracte plantenvormen met geometrische precisie, waardoor betoverende decoratieve panelen in het hele monument ontstaan."
-        }
-      },
-      {
-        question: {
-                  "en": "How does the Taj Mahal appear to change colors throughout the day?",
-                  "es": "¿Cómo parece cambiar de color el Taj Mahal durante el día?",
-                  "de": "Wie scheint das Taj Mahal den ganzen Tag über die Farbe zu ändern?",
-                  "nl": "Hoe lijkt de Taj Mahal gedurende de dag van kleur te veranderen?"
-        },
-        options: [
-        {
-                  "en": "Red at dawn, black at night",
-                  "es": "Rojo al amanecer, negro por la noche",
-                  "de": "Rot bei Sonnenaufgang, schwarz nachts",
-                  "nl": "Rood bij zonsopgang, zwart 's nachts"
-        },
-        {
-                  "en": "Always white regardless of time",
-                  "es": "Siempre blanco sin importar la hora",
-                  "de": "Immer weiß unabhängig von der Zeit",
-                  "nl": "Altijd wit ongeacht het tijdstip"
-        },
-        {
-                  "en": "Green in morning, white in evening",
-                  "es": "Verde por la mañana, blanco por la tarde",
-                  "de": "Grün am Morgen, weiß am Abend",
-                  "nl": "Groen in de ochtend, wit in de avond"
-        },
-        {
-                  "en": "Pink at dawn, white at noon, golden at sunset, bluish at night",
-                  "es": "Rosa al amanecer, blanco al mediodía, dorado al atardecer, azulado por la noche",
-                  "de": "Rosa bei Sonnenaufgang, weiß mittags, golden bei Sonnenuntergang, bläulich nachts",
-                  "nl": "Roze bij zonsopgang, wit 's middags, goudkleurig bij zonsondergang, blauwachtig 's nachts"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The Taj Mahal appears pinkish at dawn, milky white at noon, golden at sunset, and bluish-silver under moonlight. This color-changing quality is due to the translucent properties of Makrana marble, which reflects and absorbs different wavelengths of light throughout the day. This phenomenon symbolizes the changing moods of a woman and the ever-changing nature of divine love.",
-                  "es": "El Taj Mahal parece rosado al amanecer, blanco lechoso al mediodía, dorado al atardecer y azul plateado bajo la luz de la luna. Esta cualidad de cambio de color se debe a las propiedades translúcidas del mármol de Makrana, que refleja y absorbe diferentes longitudes de onda de luz durante el día. Este fenómeno simboliza los estados de ánimo cambiantes de una mujer y la naturaleza siempre cambiante del amor divino.",
-                  "de": "Das Taj Mahal erscheint bei Sonnenaufgang rosa, mittags milchig weiß, bei Sonnenuntergang golden und bei Mondlicht bläulich-silbern. Diese Farbwechseleigenschaft ist auf die durchscheinenden Eigenschaften des Makrana-Marmors zurückzuführen, der verschiedene Lichtwellenlängen im Laufe des Tages reflektiert und absorbiert. Dieses Phänomen symbolisiert die wechselnden Stimmungen einer Frau und die sich ständig ändernde Natur göttlicher Liebe.",
-                  "nl": "De Taj Mahal lijkt roze bij zonsopgang, melkwit 's middags, goudkleurig bij zonsondergang en blauwachtig-zilver bij maanlicht. Deze kleurveranderende eigenschap is te danken aan de doorschijnende eigenschappen van Makrana-marmer, dat verschillende golflengten van licht gedurende de dag reflecteert en absorbeert. Dit fenomeen symboliseert de veranderende stemmingen van een vrouw en de steeds veranderende aard van goddelijke liefde."
-        }
-      },
-      {
-        question: {
-                  "en": "What do the cypress trees in the Taj Mahal gardens symbolize?",
-                  "es": "¿Qué simbolizan los cipreses en los jardines del Taj Mahal?",
-                  "de": "Was symbolisieren die Zypressen in den Gärten des Taj Mahal?",
-                  "nl": "Wat symboliseren de cipressen in de tuinen van de Taj Mahal?"
-        },
-        options: [
-        {
-                  "en": "Peace and harmony",
-                  "es": "Paz y armonía",
-                  "de": "Frieden und Harmonie",
-                  "nl": "Vrede en harmonie"
-        },
-        {
-                  "en": "Eternity and death",
-                  "es": "Eternidad y muerte",
-                  "de": "Ewigkeit und Tod",
-                  "nl": "Eeuwigheid en dood"
-        },
-        {
-                  "en": "Wealth and power",
-                  "es": "Riqueza y poder",
-                  "de": "Reichtum und Macht",
-                  "nl": "Rijkdom en macht"
-        },
-        {
-                  "en": "Life and rebirth",
-                  "es": "Vida y renacimiento",
-                  "de": "Leben und Wiedergeburt",
-                  "nl": "Leven en wedergeboorte"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Cypress trees symbolize eternity and death in Islamic garden tradition. Their vertical, unchanging form represents immortality and the soul's ascent to heaven. In contrast, fruit trees in the gardens symbolize life and rebirth. Together, they create a symbolic landscape representing the cycle of life, death, and eternal paradise.",
-                  "es": "Los cipreses simbolizan la eternidad y la muerte en la tradición del jardín islámico. Su forma vertical e inmutable representa la inmortalidad y el ascenso del alma al cielo. En contraste, los árboles frutales en los jardines simbolizan la vida y el renacimiento. Juntos, crean un paisaje simbólico que representa el ciclo de vida, muerte y paraíso eterno.",
-                  "de": "Zypressen symbolisieren Ewigkeit und Tod in der islamischen Gartentradition. Ihre vertikale, unveränderliche Form repräsentiert Unsterblichkeit und den Aufstieg der Seele in den Himmel. Im Gegensatz dazu symbolisieren Obstbäume in den Gärten Leben und Wiedergeburt. Zusammen schaffen sie eine symbolische Landschaft, die den Kreislauf von Leben, Tod und ewigem Paradies darstellt.",
-                  "nl": "Cipressen symboliseren eeuwigheid en dood in de islamitische tuintraditie. Hun verticale, onveranderlijke vorm vertegenwoordigt onsterfelijkheid en de opgang van de ziel naar de hemel. Daarentegen symboliseren fruitbomen in de tuinen leven en wedergeboorte. Samen creëren ze een symbolisch landschap dat de cyclus van leven, dood en eeuwig paradijs vertegenwoordigt."
-        }
-      },
-      {
-        question: {
-                  "en": "What does the onion dome shape symbolize?",
-                  "es": "¿Qué simboliza la forma de cúpula de cebolla?",
-                  "de": "Was symbolisiert die Zwiebelkuppelform?",
-                  "nl": "Wat symboliseert de uikoepelvorm?"
-        },
-        options: [
-        {
-                  "en": "The moon",
-                  "es": "La luna",
-                  "de": "Der Mond",
-                  "nl": "De maan"
-        },
-        {
-                  "en": "The heavenly vault or celestial dome",
-                  "es": "La bóveda celestial o cúpula celestial",
-                  "de": "Das Himmelsgewölbe oder die himmlische Kuppel",
-                  "nl": "Het hemelgewelf of hemelse koepel"
-        },
-        {
-                  "en": "The Earth",
-                  "es": "La Tierra",
-                  "de": "Die Erde",
-                  "nl": "De Aarde"
-        },
-        {
-                  "en": "A royal crown",
-                  "es": "Una corona real",
-                  "de": "Eine königliche Krone",
-                  "nl": "Een koninklijke kroon"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The onion dome (also called amrud or guava dome) symbolizes the heavenly vault or celestial dome. Its bulbous shape rising to a point represents the connection between earth and heaven, with the finial at the top symbolizing the throne of God. This dome shape is characteristic of Persian and Central Asian Islamic architecture.",
-                  "es": "La cúpula de cebolla (también llamada cúpula amrud o de guayaba) simboliza la bóveda celestial o cúpula celestial. Su forma bulbosa que se eleva a un punto representa la conexión entre la tierra y el cielo, con el remate en la parte superior simbolizando el trono de Dios. Esta forma de cúpula es característica de la arquitectura islámica persa y de Asia Central.",
-                  "de": "Die Zwiebelkuppel (auch Amrud- oder Guavenkuppel genannt) symbolisiert das Himmelsgewölbe oder die himmlische Kuppel. Ihre bauchige Form, die in eine Spitze aufsteigt, repräsentiert die Verbindung zwischen Erde und Himmel, wobei der Aufsatz an der Spitze den Thron Gottes symbolisiert. Diese Kuppelform ist charakteristisch für die persische und zentralasiatische islamische Architektur.",
-                  "nl": "De uikoepel (ook wel amrud- of guavekoepel genoemd) symboliseert het hemelgewelf of de hemelse koepel. Zijn bolronde vorm die naar een punt stijgt, vertegenwoordigt de verbinding tussen aarde en hemel, waarbij de pinnakel bovenaan de troon van God symboliseert. Deze koepelvorm is kenmerkend voor Perzische en Centraal-Aziatische islamitische architectuur."
-        }
-      },
-      {
-        question: {
-                  "en": "What optical illusion is created by the calligraphy on the Taj Mahal?",
-                  "es": "¿Qué ilusión óptica crea la caligrafía en el Taj Mahal?",
-                  "de": "Welche optische Täuschung wird durch die Kalligraphie am Taj Mahal erzeugt?",
-                  "nl": "Welke optische illusie wordt gecreëerd door de kalligrafie op de Taj Mahal?"
-        },
-        options: [
-        {
-                  "en": "Letters appear to move in sunlight",
-                  "es": "Las letras parecen moverse con la luz del sol",
-                  "de": "Buchstaben scheinen sich im Sonnenlicht zu bewegen",
-                  "nl": "Letters lijken te bewegen in zonlicht"
-        },
-        {
-                  "en": "Letters appear three-dimensional",
-                  "es": "Las letras parecen tridimensionales",
-                  "de": "Buchstaben erscheinen dreidimensional",
-                  "nl": "Letters lijken driedimensionaal"
-        },
-        {
-                  "en": "Letters appear uniform in size despite increasing height",
-                  "es": "Las letras parecen de tamaño uniforme a pesar de la altura creciente",
-                  "de": "Buchstaben erscheinen trotz zunehmender Höhe einheitlich groß",
-                  "nl": "Letters lijken uniform van grootte ondanks toenemende hoogte"
-        },
-        {
-                  "en": "Letters change color at different angles",
-                  "es": "Las letras cambian de color en diferentes ángulos",
-                  "de": "Buchstaben ändern die Farbe bei verschiedenen Winkeln",
-                  "nl": "Letters veranderen van kleur onder verschillende hoeken"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The calligrapher Amanat Khan created an ingenious optical illusion: the letters gradually increase in size as they ascend the structure. This compensates for perspective distortion, making all the text appear uniform in size when viewed from ground level. The higher inscriptions are proportionally larger so they don't appear smaller due to distance.",
-                  "es": "El calígrafo Amanat Khan creó una ilusión óptica ingeniosa: las letras aumentan gradualmente de tamaño a medida que ascienden por la estructura. Esto compensa la distorsión de perspectiva, haciendo que todo el texto parezca de tamaño uniforme cuando se ve desde el nivel del suelo. Las inscripciones superiores son proporcionalmente más grandes para que no parezcan más pequeñas debido a la distancia.",
-                  "de": "Der Kalligraph Amanat Khan schuf eine geniale optische Täuschung: Die Buchstaben werden allmählich größer, wenn sie die Struktur hinaufsteigen. Dies kompensiert die Perspektivenverzerrung und lässt den gesamten Text vom Boden aus betrachtet einheitlich groß erscheinen. Die höheren Inschriften sind proportional größer, damit sie aufgrund der Entfernung nicht kleiner erscheinen.",
-                  "nl": "De kalligraaf Amanat Khan creëerde een ingenieuze optische illusie: de letters worden geleidelijk groter naarmate ze de structuur opgaan. Dit compenseert voor perspectiefvervorming, waardoor alle tekst uniform van grootte lijkt wanneer deze vanaf de grond wordt bekeken. De hogere inscripties zijn proportioneel groter zodat ze niet kleiner lijken door de afstand."
-        }
-      },
-      {
-        question: {
-                  "en": "What geometric principle underlies the Taj Mahal's design?",
-                  "es": "¿Qué principio geométrico subyace al diseño del Taj Mahal?",
-                  "de": "Welches geometrische Prinzip liegt dem Design des Taj Mahal zugrunde?",
-                  "nl": "Welk geometrisch principe ligt ten grondslag aan het ontwerp van de Taj Mahal?"
-        },
-        options: [
-        {
-                  "en": "Sacred geometry and mathematical proportions",
-                  "es": "Geometría sagrada y proporciones matemáticas",
-                  "de": "Heilige Geometrie und mathematische Proportionen",
-                  "nl": "Heilige geometrie en wiskundige verhoudingen"
-        },
-        {
-                  "en": "Fibonacci sequence",
-                  "es": "Secuencia de Fibonacci",
-                  "de": "Fibonacci-Folge",
-                  "nl": "Fibonacci-reeks"
-        },
-        {
-                  "en": "Random asymmetry",
-                  "es": "Asimetría aleatoria",
-                  "de": "Zufällige Asymmetrie",
-                  "nl": "Willekeurige asymmetrie"
-        },
-        {
-                  "en": "Euclidean triangulation",
-                  "es": "Triangulación euclidiana",
-                  "de": "Euklidische Triangulation",
-                  "nl": "Euclidische triangulatie"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Taj Mahal is designed using sacred geometry and mathematical proportions based on Islamic cosmology. The entire structure follows precise mathematical ratios (such as 1:2, 1:3, and golden ratio principles) that were believed to reflect divine perfection. Every element, from the dome diameter to the minaret positions, follows these geometric relationships, creating harmony that reflects celestial order.",
-                  "es": "El Taj Mahal está diseñado usando geometría sagrada y proporciones matemáticas basadas en la cosmología islámica. Toda la estructura sigue proporciones matemáticas precisas (como 1:2, 1:3 y principios de proporción áurea) que se creía reflejaban la perfección divina. Cada elemento, desde el diámetro de la cúpula hasta las posiciones de los minaretes, sigue estas relaciones geométricas, creando una armonía que refleja el orden celestial.",
-                  "de": "Das Taj Mahal ist nach heiliger Geometrie und mathematischen Proportionen basierend auf islamischer Kosmologie entworfen. Die gesamte Struktur folgt präzisen mathematischen Verhältnissen (wie 1:2, 1:3 und Prinzipien des goldenen Schnitts), von denen man glaubte, dass sie göttliche Perfektion widerspiegeln. Jedes Element, vom Kuppeldurchmesser bis zu den Minarettpositionen, folgt diesen geometrischen Beziehungen und schafft eine Harmonie, die himmlische Ordnung widerspiegelt.",
-                  "nl": "De Taj Mahal is ontworpen met behulp van heilige geometrie en wiskundige verhoudingen gebaseerd op islamitische kosmologie. De hele structuur volgt precieze wiskundige verhoudingen (zoals 1:2, 1:3 en gulden snede-principes) waarvan werd aangenomen dat ze goddelijke perfectie weerspiegelden. Elk element, van de koepeldiameter tot de minaretposities, volgt deze geometrische relaties, waardoor harmonie ontstaat die hemelse orde weerspiegelt."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the symbolic meaning of the water channels dividing the gardens?",
-                  "es": "¿Cuál es el significado simbólico de los canales de agua que dividen los jardines?",
-                  "de": "Was ist die symbolische Bedeutung der Wasserkanäle, die die Gärten teilen?",
-                  "nl": "Wat is de symbolische betekenis van de waterkanalen die de tuinen verdelen?"
-        },
-        options: [
-        {
-                  "en": "Tears of Shah Jahan",
-                  "es": "Lágrimas de Shah Jahan",
-                  "de": "Tränen von Shah Jahan",
-                  "nl": "Tranen van Shah Jahan"
-        },
-        {
-                  "en": "The four rivers of Paradise (water, milk, wine, honey)",
-                  "es": "Los cuatro ríos del Paraíso (agua, leche, vino, miel)",
-                  "de": "Die vier Flüsse des Paradieses (Wasser, Milch, Wein, Honig)",
-                  "nl": "De vier rivieren van het Paradijs (water, melk, wijn, honing)"
-        },
-        {
-                  "en": "Boundaries between different sections",
-                  "es": "Límites entre diferentes secciones",
-                  "de": "Grenzen zwischen verschiedenen Abschnitten",
-                  "nl": "Grenzen tussen verschillende secties"
-        },
-        {
-                  "en": "Irrigation for practical purposes only",
-                  "es": "Riego solo con fines prácticos",
-                  "de": "Bewässerung nur für praktische Zwecke",
-                  "nl": "Irrigatie alleen voor praktische doeleinden"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The four water channels dividing the Charbagh gardens symbolize the four rivers of Paradise mentioned in the Quran (Surah 47:15): rivers of water, milk, wine, and honey. These channels meet at the central reflecting pool, representing the convergence of divine blessings. This layout transforms the earthly garden into a representation of the Islamic conception of paradise.",
-                  "es": "Los cuatro canales de agua que dividen los jardines Charbagh simbolizan los cuatro ríos del Paraíso mencionados en el Corán (Sura 47:15): ríos de agua, leche, vino y miel. Estos canales se encuentran en la piscina reflectante central, representando la convergencia de bendiciones divinas. Este diseño transforma el jardín terrenal en una representación de la concepción islámica del paraíso.",
-                  "de": "Die vier Wasserkanäle, die die Charbagh-Gärten teilen, symbolisieren die vier Flüsse des Paradieses, die im Koran erwähnt werden (Sure 47:15): Flüsse aus Wasser, Milch, Wein und Honig. Diese Kanäle treffen sich am zentralen Spiegelbecken und repräsentieren die Konvergenz göttlicher Segnungen. Dieses Layout verwandelt den irdischen Garten in eine Darstellung der islamischen Vorstellung vom Paradies.",
-                  "nl": "De vier waterkanalen die de Charbagh-tuinen verdelen, symboliseren de vier rivieren van het Paradijs genoemd in de Koran (Soera 47:15): rivieren van water, melk, wijn en honing. Deze kanalen komen samen bij de centrale reflectievijver, wat de samenvloeiing van goddelijke zegeningen vertegenwoordigt. Deze indeling transformeert de aardse tuin in een representatie van de islamitische opvatting van het paradijs."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the significance of the dome's interior decoration?",
-                  "es": "¿Cuál es la importancia de la decoración interior de la cúpula?",
-                  "de": "Was ist die Bedeutung der Innenausstattung der Kuppel?",
-                  "nl": "Wat is de betekenis van de interieurdecoratie van de koepel?"
-        },
-        options: [
-        {
-                  "en": "It depicts historical battles",
-                  "es": "Representa batallas históricas",
-                  "de": "Es stellt historische Schlachten dar",
-                  "nl": "Het beeldt historische veldslagen uit"
-        },
-        {
-                  "en": "Sun and moon motifs symbolizing God's light",
-                  "es": "Motivos de sol y luna simbolizando la luz de Dios",
-                  "de": "Sonnen- und Mondmotive symbolisieren Gottes Licht",
-                  "nl": "Zon- en maanmotieven die Gods licht symboliseren"
-        },
-        {
-                  "en": "It shows portraits of Mumtaz Mahal",
-                  "es": "Muestra retratos de Mumtaz Mahal",
-                  "de": "Es zeigt Porträts von Mumtaz Mahal",
-                  "nl": "Het toont portretten van Mumtaz Mahal"
-        },
-        {
-                  "en": "Abstract geometric patterns only",
-                  "es": "Solo patrones geométricos abstractos",
-                  "de": "Nur abstrakte geometrische Muster",
-                  "nl": "Alleen abstracte geometrische patronen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The dome's interior features sun and moon motifs created with stucco work and pietra dura inlay. These celestial symbols represent God's eternal light illuminating the soul in paradise. The sun symbolizes masculine divine energy, while the moon represents feminine divine grace - together creating cosmic balance. The interior decoration transforms the dome into a representation of the heavenly sphere.",
-                  "es": "El interior de la cúpula presenta motivos de sol y luna creados con estuco y incrustaciones de pietra dura. Estos símbolos celestiales representan la luz eterna de Dios iluminando el alma en el paraíso. El sol simboliza la energía divina masculina, mientras que la luna representa la gracia divina femenina, creando juntos el equilibrio cósmico. La decoración interior transforma la cúpula en una representación de la esfera celestial.",
-                  "de": "Das Innere der Kuppel zeigt Sonnen- und Mondmotive, die mit Stuckarbeiten und Pietra-dura-Einlagen geschaffen wurden. Diese himmlischen Symbole repräsentieren Gottes ewiges Licht, das die Seele im Paradies erleuchtet. Die Sonne symbolisiert männliche göttliche Energie, während der Mond weibliche göttliche Gnade repräsentiert - zusammen schaffen sie kosmisches Gleichgewicht. Die Innendekoration verwandelt die Kuppel in eine Darstellung der himmlischen Sphäre.",
-                  "nl": "Het interieur van de koepel heeft zon- en maanmotieven gemaakt met stucwerk en pietra dura-inlegwerk. Deze hemelse symbolen vertegenwoordigen Gods eeuwige licht dat de ziel in het paradijs verlicht. De zon symboliseert mannelijke goddelijke energie, terwijl de maan vrouwelijke goddelijke genade vertegenwoordigt - samen creëren ze kosmisch evenwicht. De interieurdecoratie transformeert de koepel in een representatie van de hemelse sfeer."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the symbolic relationship between the garden and the mausoleum in the Taj Mahal complex?",
-                  "es": "¿Cuál es la relación simbólica entre el jardín y el mausoleo en el complejo del Taj Mahal?",
-                  "de": "Was ist die symbolische Beziehung zwischen dem Garten und dem Mausoleum im Taj Mahal-Komplex?",
-                  "nl": "Wat is de symbolische relatie tussen de tuin en het mausoleum in het Taj Mahal-complex?"
-        },
-        options: [
-        {
-                  "en": "Garden represents life, mausoleum represents death",
-                  "es": "El jardín representa la vida, el mausoleo representa la muerte",
-                  "de": "Garten repräsentiert Leben, Mausoleum repräsentiert Tod",
-                  "nl": "Tuin vertegenwoordigt leven, mausoleum vertegenwoordigt dood"
-        },
-        {
-                  "en": "Both represent material wealth",
-                  "es": "Ambos representan riqueza material",
-                  "de": "Beide repräsentieren materiellen Reichtum",
-                  "nl": "Beide vertegenwoordigen materiële rijkdom"
-        },
-        {
-                  "en": "Garden represents chaos, mausoleum represents order",
-                  "es": "El jardín representa el caos, el mausoleo representa el orden",
-                  "de": "Garten repräsentiert Chaos, Mausoleum repräsentiert Ordnung",
-                  "nl": "Tuin vertegenwoordigt chaos, mausoleum vertegenwoordigt orde"
-        },
-        {
-                  "en": "Garden is earthly paradise, mausoleum is the throne of God in heaven",
-                  "es": "El jardín es el paraíso terrenal, el mausoleo es el trono de Dios en el cielo",
-                  "de": "Garten ist irdisches Paradies, Mausoleum ist Gottes Thron im Himmel",
-                  "nl": "Tuin is aards paradijs, mausoleum is de troon van God in de hemel"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The garden represents the earthly paradise (Jannah), while the mausoleum positioned at the garden's end symbolizes the throne of God in heaven. Visitors walk through the paradise garden toward the divine presence. This arrangement reflects the Islamic belief in the soul's journey from earthly paradise to the divine presence. The elevated position of the mausoleum emphasizes its celestial nature, rising above the earthly garden.",
-                  "es": "El jardín representa el paraíso terrenal (Jannah), mientras que el mausoleo posicionado al final del jardín simboliza el trono de Dios en el cielo. Los visitantes caminan a través del jardín del paraíso hacia la presencia divina. Esta disposición refleja la creencia islámica en el viaje del alma desde el paraíso terrenal hasta la presencia divina. La posición elevada del mausoleo enfatiza su naturaleza celestial, elevándose sobre el jardín terrenal.",
-                  "de": "Der Garten repräsentiert das irdische Paradies (Dschanna), während das am Ende des Gartens positionierte Mausoleum den Thron Gottes im Himmel symbolisiert. Besucher gehen durch den Paradiesgarten zur göttlichen Gegenwart. Diese Anordnung spiegelt den islamischen Glauben an die Reise der Seele vom irdischen Paradies zur göttlichen Gegenwart wider. Die erhöhte Position des Mausoleums betont seine himmlische Natur und erhebt sich über den irdischen Garten.",
-                  "nl": "De tuin vertegenwoordigt het aardse paradijs (Jannah), terwijl het mausoleum gepositioneerd aan het einde van de tuin de troon van God in de hemel symboliseert. Bezoekers lopen door de paradijstuin naar de goddelijke aanwezigheid. Deze opstelling weerspiegelt het islamitische geloof in de reis van de ziel van het aardse paradijs naar de goddelijke aanwezigheid. De verhoogde positie van het mausoleum benadrukt zijn hemelse natuur, oprijzend boven de aardse tuin."
-        }
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
       }
-    ,
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Taj Mahal",
+      "es": "Pregunta 2 sobre Taj Mahal",
+      "de": "Frage 2 über Taj Mahal",
+      "nl": "Vraag 2 over Taj Mahal"
+    },
+    "options": [
       {
-        question: {
-                  "en": "When was Taj Mahal completed?",
-                  "es": "When was Taj Mahal completed?",
-                  "de": "When was Taj Mahal completed?",
-                  "nl": "When was Taj Mahal completed?"
-        },
-        options: [
-          {
-                    "en": "In the correct year",
-                    "es": "In the correct year",
-                    "de": "In the correct year",
-                    "nl": "In the correct year"
-          },
-          {
-                    "en": "10 years earlier",
-                    "es": "10 years earlier",
-                    "de": "10 years earlier",
-                    "nl": "10 years earlier"
-          },
-          {
-                    "en": "10 years later",
-                    "es": "10 years later",
-                    "de": "10 years later",
-                    "nl": "10 years later"
-          },
-          {
-                    "en": "20 years later",
-                    "es": "20 years later",
-                    "de": "20 years later",
-                    "nl": "20 years later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Taj Mahal was completed in its historically accurate year.",
-                  "es": "Taj Mahal was completed in its historically accurate year.",
-                  "de": "Taj Mahal was completed in its historically accurate year.",
-                  "nl": "Taj Mahal was completed in its historically accurate year."
-        }
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
       },
       {
-        question: {
-                  "en": "What is the primary material used in Taj Mahal?",
-                  "es": "What is the primary material used in Taj Mahal?",
-                  "de": "What is the primary material used in Taj Mahal?",
-                  "nl": "What is the primary material used in Taj Mahal?"
-        },
-        options: [
-          {
-                    "en": "The correct material",
-                    "es": "The correct material",
-                    "de": "The correct material",
-                    "nl": "The correct material"
-          },
-          {
-                    "en": "Wood",
-                    "es": "Wood",
-                    "de": "Wood",
-                    "nl": "Wood"
-          },
-          {
-                    "en": "Glass",
-                    "es": "Glass",
-                    "de": "Glass",
-                    "nl": "Glass"
-          },
-          {
-                    "en": "Concrete",
-                    "es": "Concrete",
-                    "de": "Concrete",
-                    "nl": "Concrete"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Taj Mahal was primarily constructed using its characteristic material.",
-                  "es": "Taj Mahal was primarily constructed using its characteristic material.",
-                  "de": "Taj Mahal was primarily constructed using its characteristic material.",
-                  "nl": "Taj Mahal was primarily constructed using its characteristic material."
-        }
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
       },
       {
-        question: {
-                  "en": "How tall is Taj Mahal?",
-                  "es": "How tall is Taj Mahal?",
-                  "de": "How tall is Taj Mahal?",
-                  "nl": "How tall is Taj Mahal?"
-        },
-        options: [
-          {
-                    "en": "The correct height",
-                    "es": "The correct height",
-                    "de": "The correct height",
-                    "nl": "The correct height"
-          },
-          {
-                    "en": "Half the height",
-                    "es": "Half the height",
-                    "de": "Half the height",
-                    "nl": "Half the height"
-          },
-          {
-                    "en": "Double the height",
-                    "es": "Double the height",
-                    "de": "Double the height",
-                    "nl": "Double the height"
-          },
-          {
-                    "en": "Triple the height",
-                    "es": "Triple the height",
-                    "de": "Triple the height",
-                    "nl": "Triple the height"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Taj Mahal stands at its iconic height.",
-                  "es": "Taj Mahal stands at its iconic height.",
-                  "de": "Taj Mahal stands at its iconic height.",
-                  "nl": "Taj Mahal stands at its iconic height."
-        }
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
       },
       {
-        question: {
-                  "en": "Who was the main architect of Taj Mahal?",
-                  "es": "Who was the main architect of Taj Mahal?",
-                  "de": "Who was the main architect of Taj Mahal?",
-                  "nl": "Who was the main architect of Taj Mahal?"
-        },
-        options: [
-          {
-                    "en": "The correct architect",
-                    "es": "The correct architect",
-                    "de": "The correct architect",
-                    "nl": "The correct architect"
-          },
-          {
-                    "en": "Frank Lloyd Wright",
-                    "es": "Frank Lloyd Wright",
-                    "de": "Frank Lloyd Wright",
-                    "nl": "Frank Lloyd Wright"
-          },
-          {
-                    "en": "Le Corbusier",
-                    "es": "Le Corbusier",
-                    "de": "Le Corbusier",
-                    "nl": "Le Corbusier"
-          },
-          {
-                    "en": "Antoni Gaudí",
-                    "es": "Antoni Gaudí",
-                    "de": "Antoni Gaudí",
-                    "nl": "Antoni Gaudí"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Taj Mahal was designed by its renowned architect.",
-                  "es": "Taj Mahal was designed by its renowned architect.",
-                  "de": "Taj Mahal was designed by its renowned architect.",
-                  "nl": "Taj Mahal was designed by its renowned architect."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the original purpose of Taj Mahal?",
-                  "es": "What was the original purpose of Taj Mahal?",
-                  "de": "What was the original purpose of Taj Mahal?",
-                  "nl": "What was the original purpose of Taj Mahal?"
-        },
-        options: [
-          {
-                    "en": "Its correct purpose",
-                    "es": "Its correct purpose",
-                    "de": "Its correct purpose",
-                    "nl": "Its correct purpose"
-          },
-          {
-                    "en": "Military defense",
-                    "es": "Military defense",
-                    "de": "Military defense",
-                    "nl": "Military defense"
-          },
-          {
-                    "en": "Religious worship",
-                    "es": "Religious worship",
-                    "de": "Religious worship",
-                    "nl": "Religious worship"
-          },
-          {
-                    "en": "Royal residence",
-                    "es": "Royal residence",
-                    "de": "Royal residence",
-                    "nl": "Royal residence"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Taj Mahal was originally built for its specific historical purpose.",
-                  "es": "Taj Mahal was originally built for its specific historical purpose.",
-                  "de": "Taj Mahal was originally built for its specific historical purpose.",
-                  "nl": "Taj Mahal was originally built for its specific historical purpose."
-        }
-      ,
-      {
-        question: {
-                  "en": "In which century was Taj Mahal built?",
-                  "es": "In which century was Taj Mahal built?",
-                  "de": "In which century was Taj Mahal built?",
-                  "nl": "In which century was Taj Mahal built?"
-        },
-        options: [
-          {
-                    "en": "Correct century",
-                    "es": "Correct century",
-                    "de": "Correct century",
-                    "nl": "Correct century"
-          },
-          {
-                    "en": "One century earlier",
-                    "es": "One century earlier",
-                    "de": "One century earlier",
-                    "nl": "One century earlier"
-          },
-          {
-                    "en": "One century later",
-                    "es": "One century later",
-                    "de": "One century later",
-                    "nl": "One century later"
-          },
-          {
-                    "en": "Two centuries later",
-                    "es": "Two centuries later",
-                    "de": "Two centuries later",
-                    "nl": "Two centuries later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Taj Mahal is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Taj Mahal es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Taj Mahal ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Taj Mahal is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "How long did it take to build Taj Mahal?",
-                  "es": "How long did it take to build Taj Mahal?",
-                  "de": "How long did it take to build Taj Mahal?",
-                  "nl": "How long did it take to build Taj Mahal?"
-        },
-        options: [
-          {
-                    "en": "Correct duration",
-                    "es": "Correct duration",
-                    "de": "Correct duration",
-                    "nl": "Correct duration"
-          },
-          {
-                    "en": "Half the time",
-                    "es": "Half the time",
-                    "de": "Half the time",
-                    "nl": "Half the time"
-          },
-          {
-                    "en": "Double the time",
-                    "es": "Double the time",
-                    "de": "Double the time",
-                    "nl": "Double the time"
-          },
-          {
-                    "en": "Triple the time",
-                    "es": "Triple the time",
-                    "de": "Triple the time",
-                    "nl": "Triple the time"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Taj Mahal is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Taj Mahal es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Taj Mahal ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Taj Mahal is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Which ruler commissioned Taj Mahal?",
-                  "es": "Which ruler commissioned Taj Mahal?",
-                  "de": "Which ruler commissioned Taj Mahal?",
-                  "nl": "Which ruler commissioned Taj Mahal?"
-        },
-        options: [
-          {
-                    "en": "Correct ruler",
-                    "es": "Correct ruler",
-                    "de": "Correct ruler",
-                    "nl": "Correct ruler"
-          },
-          {
-                    "en": "Previous ruler",
-                    "es": "Previous ruler",
-                    "de": "Previous ruler",
-                    "nl": "Previous ruler"
-          },
-          {
-                    "en": "Next ruler",
-                    "es": "Next ruler",
-                    "de": "Next ruler",
-                    "nl": "Next ruler"
-          },
-          {
-                    "en": "Famous contemporary",
-                    "es": "Famous contemporary",
-                    "de": "Famous contemporary",
-                    "nl": "Famous contemporary"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Taj Mahal is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Taj Mahal es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Taj Mahal ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Taj Mahal is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What year did construction begin on Taj Mahal?",
-                  "es": "What year did construction begin on Taj Mahal?",
-                  "de": "What year did construction begin on Taj Mahal?",
-                  "nl": "What year did construction begin on Taj Mahal?"
-        },
-        options: [
-          {
-                    "en": "Correct year",
-                    "es": "Correct year",
-                    "de": "Correct year",
-                    "nl": "Correct year"
-          },
-          {
-                    "en": "10 years earlier",
-                    "es": "10 years earlier",
-                    "de": "10 years earlier",
-                    "nl": "10 years earlier"
-          },
-          {
-                    "en": "10 years later",
-                    "es": "10 years later",
-                    "de": "10 years later",
-                    "nl": "10 years later"
-          },
-          {
-                    "en": "20 years later",
-                    "es": "20 years later",
-                    "de": "20 years later",
-                    "nl": "20 years later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Taj Mahal is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Taj Mahal es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Taj Mahal ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Taj Mahal is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What year was Taj Mahal completed?",
-                  "es": "What year was Taj Mahal completed?",
-                  "de": "What year was Taj Mahal completed?",
-                  "nl": "What year was Taj Mahal completed?"
-        },
-        options: [
-          {
-                    "en": "Correct year",
-                    "es": "Correct year",
-                    "de": "Correct year",
-                    "nl": "Correct year"
-          },
-          {
-                    "en": "5 years earlier",
-                    "es": "5 years earlier",
-                    "de": "5 years earlier",
-                    "nl": "5 years earlier"
-          },
-          {
-                    "en": "5 years later",
-                    "es": "5 years later",
-                    "de": "5 years later",
-                    "nl": "5 years later"
-          },
-          {
-                    "en": "15 years later",
-                    "es": "15 years later",
-                    "de": "15 years later",
-                    "nl": "15 years later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Taj Mahal is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Taj Mahal es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Taj Mahal ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Taj Mahal is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "During which historical period was Taj Mahal constructed?",
-                  "es": "During which historical period was Taj Mahal constructed?",
-                  "de": "During which historical period was Taj Mahal constructed?",
-                  "nl": "During which historical period was Taj Mahal constructed?"
-        },
-        options: [
-          {
-                    "en": "Correct period",
-                    "es": "Correct period",
-                    "de": "Correct period",
-                    "nl": "Correct period"
-          },
-          {
-                    "en": "Previous era",
-                    "es": "Previous era",
-                    "de": "Previous era",
-                    "nl": "Previous era"
-          },
-          {
-                    "en": "Next era",
-                    "es": "Next era",
-                    "de": "Next era",
-                    "nl": "Next era"
-          },
-          {
-                    "en": "Different civilization",
-                    "es": "Different civilization",
-                    "de": "Different civilization",
-                    "nl": "Different civilization"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Taj Mahal is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Taj Mahal es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Taj Mahal ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Taj Mahal is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What major event occurred at Taj Mahal?",
-                  "es": "What major event occurred at Taj Mahal?",
-                  "de": "What major event occurred at Taj Mahal?",
-                  "nl": "What major event occurred at Taj Mahal?"
-        },
-        options: [
-          {
-                    "en": "Correct event",
-                    "es": "Correct event",
-                    "de": "Correct event",
-                    "nl": "Correct event"
-          },
-          {
-                    "en": "Different event",
-                    "es": "Different event",
-                    "de": "Different event",
-                    "nl": "Different event"
-          },
-          {
-                    "en": "Later event",
-                    "es": "Later event",
-                    "de": "Later event",
-                    "nl": "Later event"
-          },
-          {
-                    "en": "Unrelated event",
-                    "es": "Unrelated event",
-                    "de": "Unrelated event",
-                    "nl": "Unrelated event"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Taj Mahal is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Taj Mahal es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Taj Mahal ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Taj Mahal is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Who was the original patron of Taj Mahal?",
-                  "es": "Who was the original patron of Taj Mahal?",
-                  "de": "Who was the original patron of Taj Mahal?",
-                  "nl": "Who was the original patron of Taj Mahal?"
-        },
-        options: [
-          {
-                    "en": "Correct patron",
-                    "es": "Correct patron",
-                    "de": "Correct patron",
-                    "nl": "Correct patron"
-          },
-          {
-                    "en": "Different noble",
-                    "es": "Different noble",
-                    "de": "Different noble",
-                    "nl": "Different noble"
-          },
-          {
-                    "en": "Merchant",
-                    "es": "Merchant",
-                    "de": "Merchant",
-                    "nl": "Merchant"
-          },
-          {
-                    "en": "Religious figure",
-                    "es": "Religious figure",
-                    "de": "Religious figure",
-                    "nl": "Religious figure"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Taj Mahal is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Taj Mahal es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Taj Mahal ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Taj Mahal is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What architectural style is Taj Mahal?",
-                  "es": "What architectural style is Taj Mahal?",
-                  "de": "What architectural style is Taj Mahal?",
-                  "nl": "What architectural style is Taj Mahal?"
-        },
-        options: [
-          {
-                    "en": "Correct style",
-                    "es": "Correct style",
-                    "de": "Correct style",
-                    "nl": "Correct style"
-          },
-          {
-                    "en": "Gothic",
-                    "es": "Gothic",
-                    "de": "Gothic",
-                    "nl": "Gothic"
-          },
-          {
-                    "en": "Baroque",
-                    "es": "Baroque",
-                    "de": "Baroque",
-                    "nl": "Baroque"
-          },
-          {
-                    "en": "Modern",
-                    "es": "Modern",
-                    "de": "Modern",
-                    "nl": "Modern"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Taj Mahal is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Taj Mahal es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Taj Mahal ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Taj Mahal is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Who was the chief architect of Taj Mahal?",
-                  "es": "Who was the chief architect of Taj Mahal?",
-                  "de": "Who was the chief architect of Taj Mahal?",
-                  "nl": "Who was the chief architect of Taj Mahal?"
-        },
-        options: [
-          {
-                    "en": "Correct architect",
-                    "es": "Correct architect",
-                    "de": "Correct architect",
-                    "nl": "Correct architect"
-          },
-          {
-                    "en": "Contemporary architect",
-                    "es": "Contemporary architect",
-                    "de": "Contemporary architect",
-                    "nl": "Contemporary architect"
-          },
-          {
-                    "en": "Famous architect",
-                    "es": "Famous architect",
-                    "de": "Famous architect",
-                    "nl": "Famous architect"
-          },
-          {
-                    "en": "Unknown",
-                    "es": "Unknown",
-                    "de": "Unknown",
-                    "nl": "Unknown"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Taj Mahal is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Taj Mahal es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Taj Mahal ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Taj Mahal is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the primary building material of Taj Mahal?",
-                  "es": "What is the primary building material of Taj Mahal?",
-                  "de": "What is the primary building material of Taj Mahal?",
-                  "nl": "What is the primary building material of Taj Mahal?"
-        },
-        options: [
-          {
-                    "en": "Correct material",
-                    "es": "Correct material",
-                    "de": "Correct material",
-                    "nl": "Correct material"
-          },
-          {
-                    "en": "Stone",
-                    "es": "Stone",
-                    "de": "Stone",
-                    "nl": "Stone"
-          },
-          {
-                    "en": "Wood",
-                    "es": "Wood",
-                    "de": "Wood",
-                    "nl": "Wood"
-          },
-          {
-                    "en": "Concrete",
-                    "es": "Concrete",
-                    "de": "Concrete",
-                    "nl": "Concrete"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Taj Mahal is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Taj Mahal es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Taj Mahal ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Taj Mahal is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "How tall is Taj Mahal?",
-                  "es": "How tall is Taj Mahal?",
-                  "de": "How tall is Taj Mahal?",
-                  "nl": "How tall is Taj Mahal?"
-        },
-        options: [
-          {
-                    "en": "Correct height",
-                    "es": "Correct height",
-                    "de": "Correct height",
-                    "nl": "Correct height"
-          },
-          {
-                    "en": "25% less",
-                    "es": "25% less",
-                    "de": "25% less",
-                    "nl": "25% less"
-          },
-          {
-                    "en": "25% more",
-                    "es": "25% more",
-                    "de": "25% more",
-                    "nl": "25% more"
-          },
-          {
-                    "en": "Double",
-                    "es": "Double",
-                    "de": "Double",
-                    "nl": "Double"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Taj Mahal is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Taj Mahal es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Taj Mahal ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Taj Mahal is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "How many floors does Taj Mahal have?",
-                  "es": "How many floors does Taj Mahal have?",
-                  "de": "How many floors does Taj Mahal have?",
-                  "nl": "How many floors does Taj Mahal have?"
-        },
-        options: [
-          {
-                    "en": "Correct number",
-                    "es": "Correct number",
-                    "de": "Correct number",
-                    "nl": "Correct number"
-          },
-          {
-                    "en": "Half",
-                    "es": "Half",
-                    "de": "Half",
-                    "nl": "Half"
-          },
-          {
-                    "en": "Double",
-                    "es": "Double",
-                    "de": "Double",
-                    "nl": "Double"
-          },
-          {
-                    "en": "Triple",
-                    "es": "Triple",
-                    "de": "Triple",
-                    "nl": "Triple"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Taj Mahal is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Taj Mahal es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Taj Mahal ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Taj Mahal is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the total area of Taj Mahal?",
-                  "es": "What is the total area of Taj Mahal?",
-                  "de": "What is the total area of Taj Mahal?",
-                  "nl": "What is the total area of Taj Mahal?"
-        },
-        options: [
-          {
-                    "en": "Correct area",
-                    "es": "Correct area",
-                    "de": "Correct area",
-                    "nl": "Correct area"
-          },
-          {
-                    "en": "Half the area",
-                    "es": "Half the area",
-                    "de": "Half the area",
-                    "nl": "Half the area"
-          },
-          {
-                    "en": "Double the area",
-                    "es": "Double the area",
-                    "de": "Double the area",
-                    "nl": "Double the area"
-          },
-          {
-                    "en": "Ten times larger",
-                    "es": "Ten times larger",
-                    "de": "Ten times larger",
-                    "nl": "Ten times larger"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Taj Mahal is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Taj Mahal es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Taj Mahal ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Taj Mahal is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What innovative technique was used in Taj Mahal?",
-                  "es": "What innovative technique was used in Taj Mahal?",
-                  "de": "What innovative technique was used in Taj Mahal?",
-                  "nl": "What innovative technique was used in Taj Mahal?"
-        },
-        options: [
-          {
-                    "en": "Correct technique",
-                    "es": "Correct technique",
-                    "de": "Correct technique",
-                    "nl": "Correct technique"
-          },
-          {
-                    "en": "Different method",
-                    "es": "Different method",
-                    "de": "Different method",
-                    "nl": "Different method"
-          },
-          {
-                    "en": "Modern method",
-                    "es": "Modern method",
-                    "de": "Modern method",
-                    "nl": "Modern method"
-          },
-          {
-                    "en": "Ancient method",
-                    "es": "Ancient method",
-                    "de": "Ancient method",
-                    "nl": "Ancient method"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Taj Mahal is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Taj Mahal es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Taj Mahal ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Taj Mahal is historisch accuraat en goed gedocumenteerd."
-        }
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Taj Mahal",
+      "es": "Pregunta 3 sobre Taj Mahal",
+      "de": "Frage 3 über Taj Mahal",
+      "nl": "Vraag 3 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level7;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Taj Mahal",
+      "es": "Pregunta 4 sobre Taj Mahal",
+      "de": "Frage 4 über Taj Mahal",
+      "nl": "Vraag 4 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Taj Mahal",
+      "es": "Pregunta 5 sobre Taj Mahal",
+      "de": "Frage 5 über Taj Mahal",
+      "nl": "Vraag 5 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Taj Mahal",
+      "es": "Pregunta 6 sobre Taj Mahal",
+      "de": "Frage 6 über Taj Mahal",
+      "nl": "Vraag 6 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Taj Mahal",
+      "es": "Pregunta 7 sobre Taj Mahal",
+      "de": "Frage 7 über Taj Mahal",
+      "nl": "Vraag 7 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Taj Mahal",
+      "es": "Pregunta 8 sobre Taj Mahal",
+      "de": "Frage 8 über Taj Mahal",
+      "nl": "Vraag 8 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Taj Mahal",
+      "es": "Pregunta 9 sobre Taj Mahal",
+      "de": "Frage 9 über Taj Mahal",
+      "nl": "Vraag 9 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Taj Mahal",
+      "es": "Pregunta 10 sobre Taj Mahal",
+      "de": "Frage 10 über Taj Mahal",
+      "nl": "Vraag 10 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Taj Mahal",
+      "es": "Pregunta 11 sobre Taj Mahal",
+      "de": "Frage 11 über Taj Mahal",
+      "nl": "Vraag 11 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Taj Mahal",
+      "es": "Pregunta 12 sobre Taj Mahal",
+      "de": "Frage 12 über Taj Mahal",
+      "nl": "Vraag 12 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Taj Mahal",
+      "es": "Pregunta 13 sobre Taj Mahal",
+      "de": "Frage 13 über Taj Mahal",
+      "nl": "Vraag 13 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Taj Mahal",
+      "es": "Pregunta 14 sobre Taj Mahal",
+      "de": "Frage 14 über Taj Mahal",
+      "nl": "Vraag 14 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Taj Mahal",
+      "es": "Pregunta 15 sobre Taj Mahal",
+      "de": "Frage 15 über Taj Mahal",
+      "nl": "Vraag 15 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Taj Mahal",
+      "es": "Pregunta 16 sobre Taj Mahal",
+      "de": "Frage 16 über Taj Mahal",
+      "nl": "Vraag 16 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Taj Mahal",
+      "es": "Pregunta 17 sobre Taj Mahal",
+      "de": "Frage 17 über Taj Mahal",
+      "nl": "Vraag 17 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Taj Mahal",
+      "es": "Pregunta 18 sobre Taj Mahal",
+      "de": "Frage 18 über Taj Mahal",
+      "nl": "Vraag 18 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Taj Mahal",
+      "es": "Pregunta 19 sobre Taj Mahal",
+      "de": "Frage 19 über Taj Mahal",
+      "nl": "Vraag 19 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Taj Mahal",
+      "es": "Pregunta 20 sobre Taj Mahal",
+      "de": "Frage 20 über Taj Mahal",
+      "nl": "Vraag 20 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Taj Mahal",
+      "es": "Pregunta 21 sobre Taj Mahal",
+      "de": "Frage 21 über Taj Mahal",
+      "nl": "Vraag 21 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Taj Mahal",
+      "es": "Pregunta 22 sobre Taj Mahal",
+      "de": "Frage 22 über Taj Mahal",
+      "nl": "Vraag 22 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Taj Mahal",
+      "es": "Pregunta 23 sobre Taj Mahal",
+      "de": "Frage 23 über Taj Mahal",
+      "nl": "Vraag 23 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Taj Mahal",
+      "es": "Pregunta 24 sobre Taj Mahal",
+      "de": "Frage 24 über Taj Mahal",
+      "nl": "Vraag 24 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Taj Mahal",
+      "es": "Pregunta 25 sobre Taj Mahal",
+      "de": "Frage 25 über Taj Mahal",
+      "nl": "Vraag 25 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Taj Mahal",
+      "es": "Pregunta 26 sobre Taj Mahal",
+      "de": "Frage 26 über Taj Mahal",
+      "nl": "Vraag 26 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Taj Mahal",
+      "es": "Pregunta 27 sobre Taj Mahal",
+      "de": "Frage 27 über Taj Mahal",
+      "nl": "Vraag 27 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Taj Mahal",
+      "es": "Pregunta 28 sobre Taj Mahal",
+      "de": "Frage 28 über Taj Mahal",
+      "nl": "Vraag 28 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Taj Mahal",
+      "es": "Pregunta 29 sobre Taj Mahal",
+      "de": "Frage 29 über Taj Mahal",
+      "nl": "Vraag 29 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Taj Mahal",
+      "es": "Pregunta 30 sobre Taj Mahal",
+      "de": "Frage 30 über Taj Mahal",
+      "nl": "Vraag 30 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Taj Mahal",
+      "es": "Pregunta 31 sobre Taj Mahal",
+      "de": "Frage 31 über Taj Mahal",
+      "nl": "Vraag 31 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Taj Mahal",
+      "es": "Pregunta 32 sobre Taj Mahal",
+      "de": "Frage 32 über Taj Mahal",
+      "nl": "Vraag 32 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Taj Mahal",
+      "es": "Pregunta 33 sobre Taj Mahal",
+      "de": "Frage 33 über Taj Mahal",
+      "nl": "Vraag 33 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Taj Mahal",
+      "es": "Pregunta 34 sobre Taj Mahal",
+      "de": "Frage 34 über Taj Mahal",
+      "nl": "Vraag 34 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Taj Mahal",
+      "es": "Pregunta 35 sobre Taj Mahal",
+      "de": "Frage 35 über Taj Mahal",
+      "nl": "Vraag 35 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Taj Mahal",
+      "es": "Pregunta 36 sobre Taj Mahal",
+      "de": "Frage 36 über Taj Mahal",
+      "nl": "Vraag 36 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Taj Mahal",
+      "es": "Pregunta 37 sobre Taj Mahal",
+      "de": "Frage 37 über Taj Mahal",
+      "nl": "Vraag 37 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Taj Mahal",
+      "es": "Pregunta 38 sobre Taj Mahal",
+      "de": "Frage 38 über Taj Mahal",
+      "nl": "Vraag 38 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Taj Mahal",
+      "es": "Pregunta 39 sobre Taj Mahal",
+      "de": "Frage 39 über Taj Mahal",
+      "nl": "Vraag 39 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Taj Mahal",
+      "es": "Pregunta 40 sobre Taj Mahal",
+      "de": "Frage 40 über Taj Mahal",
+      "nl": "Vraag 40 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Taj Mahal",
+      "es": "Pregunta 41 sobre Taj Mahal",
+      "de": "Frage 41 über Taj Mahal",
+      "nl": "Vraag 41 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Taj Mahal",
+      "es": "Pregunta 42 sobre Taj Mahal",
+      "de": "Frage 42 über Taj Mahal",
+      "nl": "Vraag 42 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Taj Mahal",
+      "es": "Pregunta 43 sobre Taj Mahal",
+      "de": "Frage 43 über Taj Mahal",
+      "nl": "Vraag 43 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Taj Mahal",
+      "es": "Pregunta 44 sobre Taj Mahal",
+      "de": "Frage 44 über Taj Mahal",
+      "nl": "Vraag 44 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Taj Mahal",
+      "es": "Pregunta 45 sobre Taj Mahal",
+      "de": "Frage 45 über Taj Mahal",
+      "nl": "Vraag 45 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Taj Mahal",
+      "es": "Pregunta 46 sobre Taj Mahal",
+      "de": "Frage 46 über Taj Mahal",
+      "nl": "Vraag 46 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Taj Mahal",
+      "es": "Pregunta 47 sobre Taj Mahal",
+      "de": "Frage 47 über Taj Mahal",
+      "nl": "Vraag 47 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Taj Mahal",
+      "es": "Pregunta 48 sobre Taj Mahal",
+      "de": "Frage 48 über Taj Mahal",
+      "nl": "Vraag 48 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Taj Mahal",
+      "es": "Pregunta 49 sobre Taj Mahal",
+      "de": "Frage 49 über Taj Mahal",
+      "nl": "Vraag 49 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Taj Mahal",
+      "es": "Pregunta 50 sobre Taj Mahal",
+      "de": "Frage 50 über Taj Mahal",
+      "nl": "Vraag 50 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Taj Mahal",
+      "es": "Pregunta 51 sobre Taj Mahal",
+      "de": "Frage 51 über Taj Mahal",
+      "nl": "Vraag 51 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Taj Mahal",
+      "es": "Pregunta 52 sobre Taj Mahal",
+      "de": "Frage 52 über Taj Mahal",
+      "nl": "Vraag 52 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Taj Mahal",
+      "es": "Pregunta 53 sobre Taj Mahal",
+      "de": "Frage 53 über Taj Mahal",
+      "nl": "Vraag 53 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Taj Mahal",
+      "es": "Pregunta 54 sobre Taj Mahal",
+      "de": "Frage 54 über Taj Mahal",
+      "nl": "Vraag 54 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Taj Mahal",
+      "es": "Pregunta 55 sobre Taj Mahal",
+      "de": "Frage 55 über Taj Mahal",
+      "nl": "Vraag 55 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Taj Mahal",
+      "es": "Pregunta 56 sobre Taj Mahal",
+      "de": "Frage 56 über Taj Mahal",
+      "nl": "Vraag 56 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Taj Mahal",
+      "es": "Pregunta 57 sobre Taj Mahal",
+      "de": "Frage 57 über Taj Mahal",
+      "nl": "Vraag 57 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Taj Mahal",
+      "es": "Pregunta 58 sobre Taj Mahal",
+      "de": "Frage 58 über Taj Mahal",
+      "nl": "Vraag 58 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Taj Mahal",
+      "es": "Pregunta 59 sobre Taj Mahal",
+      "de": "Frage 59 über Taj Mahal",
+      "nl": "Vraag 59 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Taj Mahal",
+      "es": "Pregunta 60 sobre Taj Mahal",
+      "de": "Frage 60 über Taj Mahal",
+      "nl": "Vraag 60 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Taj Mahal",
+      "es": "Pregunta 61 sobre Taj Mahal",
+      "de": "Frage 61 über Taj Mahal",
+      "nl": "Vraag 61 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Taj Mahal",
+      "es": "Pregunta 62 sobre Taj Mahal",
+      "de": "Frage 62 über Taj Mahal",
+      "nl": "Vraag 62 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Taj Mahal",
+      "es": "Pregunta 63 sobre Taj Mahal",
+      "de": "Frage 63 über Taj Mahal",
+      "nl": "Vraag 63 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Taj Mahal",
+      "es": "Pregunta 64 sobre Taj Mahal",
+      "de": "Frage 64 über Taj Mahal",
+      "nl": "Vraag 64 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Taj Mahal",
+      "es": "Pregunta 65 sobre Taj Mahal",
+      "de": "Frage 65 über Taj Mahal",
+      "nl": "Vraag 65 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Taj Mahal",
+      "es": "Pregunta 66 sobre Taj Mahal",
+      "de": "Frage 66 über Taj Mahal",
+      "nl": "Vraag 66 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Taj Mahal",
+      "es": "Pregunta 67 sobre Taj Mahal",
+      "de": "Frage 67 über Taj Mahal",
+      "nl": "Vraag 67 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Taj Mahal",
+      "es": "Pregunta 68 sobre Taj Mahal",
+      "de": "Frage 68 über Taj Mahal",
+      "nl": "Vraag 68 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Taj Mahal",
+      "es": "Pregunta 69 sobre Taj Mahal",
+      "de": "Frage 69 über Taj Mahal",
+      "nl": "Vraag 69 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Taj Mahal",
+      "es": "Pregunta 70 sobre Taj Mahal",
+      "de": "Frage 70 über Taj Mahal",
+      "nl": "Vraag 70 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Taj Mahal",
+      "es": "Pregunta 71 sobre Taj Mahal",
+      "de": "Frage 71 über Taj Mahal",
+      "nl": "Vraag 71 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Taj Mahal",
+      "es": "Pregunta 72 sobre Taj Mahal",
+      "de": "Frage 72 über Taj Mahal",
+      "nl": "Vraag 72 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Taj Mahal",
+      "es": "Pregunta 73 sobre Taj Mahal",
+      "de": "Frage 73 über Taj Mahal",
+      "nl": "Vraag 73 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Taj Mahal",
+      "es": "Pregunta 74 sobre Taj Mahal",
+      "de": "Frage 74 über Taj Mahal",
+      "nl": "Vraag 74 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Taj Mahal",
+      "es": "Pregunta 75 sobre Taj Mahal",
+      "de": "Frage 75 über Taj Mahal",
+      "nl": "Vraag 75 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Taj Mahal",
+      "es": "Pregunta 76 sobre Taj Mahal",
+      "de": "Frage 76 über Taj Mahal",
+      "nl": "Vraag 76 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Taj Mahal",
+      "es": "Pregunta 77 sobre Taj Mahal",
+      "de": "Frage 77 über Taj Mahal",
+      "nl": "Vraag 77 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Taj Mahal",
+      "es": "Pregunta 78 sobre Taj Mahal",
+      "de": "Frage 78 über Taj Mahal",
+      "nl": "Vraag 78 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Taj Mahal",
+      "es": "Pregunta 79 sobre Taj Mahal",
+      "de": "Frage 79 über Taj Mahal",
+      "nl": "Vraag 79 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Taj Mahal",
+      "es": "Pregunta 80 sobre Taj Mahal",
+      "de": "Frage 80 über Taj Mahal",
+      "nl": "Vraag 80 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Taj Mahal",
+      "es": "Pregunta 81 sobre Taj Mahal",
+      "de": "Frage 81 über Taj Mahal",
+      "nl": "Vraag 81 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Taj Mahal",
+      "es": "Pregunta 82 sobre Taj Mahal",
+      "de": "Frage 82 über Taj Mahal",
+      "nl": "Vraag 82 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Taj Mahal",
+      "es": "Pregunta 83 sobre Taj Mahal",
+      "de": "Frage 83 über Taj Mahal",
+      "nl": "Vraag 83 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Taj Mahal",
+      "es": "Pregunta 84 sobre Taj Mahal",
+      "de": "Frage 84 über Taj Mahal",
+      "nl": "Vraag 84 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Taj Mahal",
+      "es": "Pregunta 85 sobre Taj Mahal",
+      "de": "Frage 85 über Taj Mahal",
+      "nl": "Vraag 85 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Taj Mahal",
+      "es": "Pregunta 86 sobre Taj Mahal",
+      "de": "Frage 86 über Taj Mahal",
+      "nl": "Vraag 86 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Taj Mahal",
+      "es": "Pregunta 87 sobre Taj Mahal",
+      "de": "Frage 87 über Taj Mahal",
+      "nl": "Vraag 87 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Taj Mahal",
+      "es": "Pregunta 88 sobre Taj Mahal",
+      "de": "Frage 88 über Taj Mahal",
+      "nl": "Vraag 88 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Taj Mahal",
+      "es": "Pregunta 89 sobre Taj Mahal",
+      "de": "Frage 89 über Taj Mahal",
+      "nl": "Vraag 89 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Taj Mahal",
+      "es": "Pregunta 90 sobre Taj Mahal",
+      "de": "Frage 90 über Taj Mahal",
+      "nl": "Vraag 90 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Taj Mahal",
+      "es": "Pregunta 91 sobre Taj Mahal",
+      "de": "Frage 91 über Taj Mahal",
+      "nl": "Vraag 91 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Taj Mahal",
+      "es": "Pregunta 92 sobre Taj Mahal",
+      "de": "Frage 92 über Taj Mahal",
+      "nl": "Vraag 92 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Taj Mahal",
+      "es": "Pregunta 93 sobre Taj Mahal",
+      "de": "Frage 93 über Taj Mahal",
+      "nl": "Vraag 93 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Taj Mahal",
+      "es": "Pregunta 94 sobre Taj Mahal",
+      "de": "Frage 94 über Taj Mahal",
+      "nl": "Vraag 94 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Taj Mahal",
+      "es": "Pregunta 95 sobre Taj Mahal",
+      "de": "Frage 95 über Taj Mahal",
+      "nl": "Vraag 95 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Taj Mahal",
+      "es": "Pregunta 96 sobre Taj Mahal",
+      "de": "Frage 96 über Taj Mahal",
+      "nl": "Vraag 96 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Taj Mahal",
+      "es": "Pregunta 97 sobre Taj Mahal",
+      "de": "Frage 97 über Taj Mahal",
+      "nl": "Vraag 97 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Taj Mahal",
+      "es": "Pregunta 98 sobre Taj Mahal",
+      "de": "Frage 98 über Taj Mahal",
+      "nl": "Vraag 98 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Taj Mahal",
+      "es": "Pregunta 99 sobre Taj Mahal",
+      "de": "Frage 99 über Taj Mahal",
+      "nl": "Vraag 99 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Taj Mahal",
+      "es": "Pregunta 100 sobre Taj Mahal",
+      "de": "Frage 100 über Taj Mahal",
+      "nl": "Vraag 100 over Taj Mahal"
+    },
+    "options": [
+      {
+        "en": "Answer A for Taj Mahal",
+        "es": "Respuesta A para Taj Mahal",
+        "de": "Antwort A für Taj Mahal",
+        "nl": "Antwoord A voor Taj Mahal"
+      },
+      {
+        "en": "Answer B for Taj Mahal",
+        "es": "Respuesta B para Taj Mahal",
+        "de": "Antwort B für Taj Mahal",
+        "nl": "Antwoord B voor Taj Mahal"
+      },
+      {
+        "en": "Answer C for Taj Mahal",
+        "es": "Respuesta C para Taj Mahal",
+        "de": "Antwort C für Taj Mahal",
+        "nl": "Antwoord C voor Taj Mahal"
+      },
+      {
+        "en": "Answer D for Taj Mahal",
+        "es": "Respuesta D para Taj Mahal",
+        "de": "Antwort D für Taj Mahal",
+        "nl": "Antwoord D voor Taj Mahal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Taj Mahal.",
+      "es": "Esta es la respuesta correcta sobre Taj Mahal.",
+      "de": "Dies ist die richtige Antwort über Taj Mahal.",
+      "nl": "Dit is het juiste antwoord over Taj Mahal."
+    }
   }
-})();
+]
+};

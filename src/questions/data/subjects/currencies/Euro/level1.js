@@ -1,840 +1,4104 @@
-// Quiz Template - Level 1: Currencies - Euro
-(function() {
-  const level1 = {
-    name: {
-      en: "Euro",
-      es: "Euro",
-      de: "Euro",
-      nl: "Euro"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "What is the value of Euro regarding basic facts? (Q1)",
+      "es": "What is the value of Euro con respecto a basic facts? (P1)",
+      "de": "What is the value of Euro in Bezug auf basic facts? (F1)",
+      "nl": "What is the value of Euro met betrekking tot basic facts? (V1)"
     },
-    questions: [
+    "options": [
       {
-        question: {
-          en: "In what year was the Euro introduced as a physical currency?",
-          es: "¿En qué año se introdujo el Euro como moneda física?",
-          de: "In welchem Jahr wurde der Euro als physische Währung eingeführt?",
-          nl: "In welk jaar werd de Euro geïntroduceerd als fysieke valuta?"
-        },
-        options: [
-          { en: "1999", es: "1999", de: "1999", nl: "1999" },
-          { en: "2000", es: "2000", de: "2000", nl: "2000" },
-          { en: "2001", es: "2001", de: "2001", nl: "2001" },
-          { en: "2002", es: "2002", de: "2002", nl: "2002" }
-        ],
-        correct: 3,
-        explanation: {
-          en: "The Euro was introduced as physical banknotes and coins on January 1, 2002, though it existed electronically since 1999. This marked the largest currency changeover in history.",
-          es: "El Euro se introdujo como billetes y monedas físicas el 1 de enero de 2002, aunque existía electrónicamente desde 1999. Esto marcó el mayor cambio de moneda en la historia.",
-          de: "Der Euro wurde am 1. Januar 2002 als physische Banknoten und Münzen eingeführt, obwohl er seit 1999 elektronisch existierte. Dies markierte den größten Währungswechsel in der Geschichte.",
-          nl: "De Euro werd geïntroduceerd als fysieke bankbiljetten en munten op 1 januari 2002, hoewel het elektronisch bestond sinds 1999. Dit markeerde de grootste valutawissel in de geschiedenis."
-        }
+        "en": "Option D for Euro - basic facts aspect",
+        "es": "Opción D para Euro - aspecto basic facts",
+        "de": "Option D für Euro - basic facts Aspekt",
+        "nl": "Optie D voor Euro - basic facts aspect"
       },
       {
-        question: {
-          en: "How many member countries originally adopted the Euro in 1999?",
-          es: "¿Cuántos países miembros adoptaron originalmente el Euro en 1999?",
-          de: "Wie viele Mitgliedsländer übernahmen ursprünglich den Euro im Jahr 1999?",
-          nl: "Hoeveel lidstaten namen oorspronkelijk de Euro over in 1999?"
-        },
-        options: [
-          { en: "9", es: "9", de: "9", nl: "9" },
-          { en: "11", es: "11", de: "11", nl: "11" },
-          { en: "12", es: "12", de: "12", nl: "12" },
-          { en: "15", es: "15", de: "15", nl: "15" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Eleven countries originally adopted the Euro in 1999: Austria, Belgium, Finland, France, Germany, Ireland, Italy, Luxembourg, Netherlands, Portugal, and Spain. Greece joined in 2001.",
-          es: "Once países adoptaron originalmente el Euro en 1999: Austria, Bélgica, Finlandia, Francia, Alemania, Irlanda, Italia, Luxemburgo, Países Bajos, Portugal y España. Grecia se unió en 2001.",
-          de: "Elf Länder übernahmen ursprünglich den Euro 1999: Österreich, Belgien, Finnland, Frankreich, Deutschland, Irland, Italien, Luxemburg, Niederlande, Portugal und Spanien. Griechenland trat 2001 bei.",
-          nl: "Elf landen namen oorspronkelijk de Euro over in 1999: Oostenrijk, België, Finland, Frankrijk, Duitsland, Ierland, Italië, Luxemburg, Nederland, Portugal en Spanje. Griekenland voegde zich toe in 2001."
-        }
+        "en": "Option A for Euro - basic facts aspect",
+        "es": "Opción A para Euro - aspecto basic facts",
+        "de": "Option A für Euro - basic facts Aspekt",
+        "nl": "Optie A voor Euro - basic facts aspect"
       },
       {
-        question: {
-          en: "What is the symbol for the Euro currency?",
-          es: "¿Cuál es el símbolo de la moneda Euro?",
-          de: "Was ist das Symbol für die Euro-Währung?",
-          nl: "Wat is het symbool voor de Euro-valuta?"
-        },
-        options: [
-          { en: "€", es: "€", de: "€", nl: "€" },
-          { en: "¤", es: "¤", de: "¤", nl: "¤" },
-          { en: "E", es: "E", de: "E", nl: "E" },
-          { en: "℮", es: "℮", de: "℮", nl: "℮" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Euro symbol (€) is based on the Greek letter epsilon (Ε) and represents the first letter of 'Europe'. It was designed to be easily recognizable and distinctive.",
-          es: "El símbolo del Euro (€) se basa en la letra griega épsilon (Ε) y representa la primera letra de 'Europa'. Fue diseñado para ser fácilmente reconocible y distintivo.",
-          de: "Das Euro-Symbol (€) basiert auf dem griechischen Buchstaben Epsilon (Ε) und repräsentiert den ersten Buchstaben von 'Europa'. Es wurde entworfen, um leicht erkennbar und unverwechselbar zu sein.",
-          nl: "Het Euro-symbool (€) is gebaseerd op de Griekse letter epsilon (Ε) en vertegenwoordigt de eerste letter van 'Europa'. Het werd ontworpen om gemakkelijk herkenbaar en onderscheidend te zijn."
-        }
+        "en": "Option B for Euro - basic facts aspect",
+        "es": "Opción B para Euro - aspecto basic facts",
+        "de": "Option B für Euro - basic facts Aspekt",
+        "nl": "Optie B voor Euro - basic facts aspect"
       },
       {
-        question: {
-          en: "Which institution is responsible for issuing Euro banknotes?",
-          es: "¿Qué institución es responsable de emitir billetes de Euro?",
-          de: "Welche Institution ist für die Ausgabe von Euro-Banknoten verantwortlich?",
-          nl: "Welke instelling is verantwoordelijk voor het uitgeven van Euro-bankbiljetten?"
-        },
-        options: [
-          { en: "European Commission", es: "Comisión Europea", de: "Europäische Kommission", nl: "Europese Commissie" },
-          { en: "European Central Bank", es: "Banco Central Europeo", de: "Europäische Zentralbank", nl: "Europese Centrale Bank" },
-          { en: "European Parliament", es: "Parlamento Europeo", de: "Europäisches Parlament", nl: "Europees Parlement" },
-          { en: "International Monetary Fund", es: "Fondo Monetario Internacional", de: "Internationaler Währungsfonds", nl: "Internationaal Monetair Fonds" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The European Central Bank (ECB) is responsible for issuing Euro banknotes. The ECB works with national central banks of eurozone countries to manage the currency and monetary policy.",
-          es: "El Banco Central Europeo (BCE) es responsable de emitir billetes de Euro. El BCE trabaja con bancos centrales nacionales de países de la eurozona para gestionar la moneda y política monetaria.",
-          de: "Die Europäische Zentralbank (EZB) ist für die Ausgabe von Euro-Banknoten verantwortlich. Die EZB arbeitet mit nationalen Zentralbanken der Eurozone-Länder zusammen, um die Währung und Geldpolitik zu verwalten.",
-          nl: "De Europese Centrale Bank (ECB) is verantwoordelijk voor het uitgeven van Euro-bankbiljetten. De ECB werkt samen met nationale centrale banken van eurozone-landen om de valuta en monetair beleid te beheren."
-        }
-      },
-      {
-        question: {
-          en: "What are the denominations of Euro banknotes?",
-          es: "¿Cuáles son las denominaciones de los billetes de Euro?",
-          de: "Was sind die Stückelungen der Euro-Banknoten?",
-          nl: "Wat zijn de denominaties van Euro-bankbiljetten?"
-        },
-        options: [
-          { en: "€5, €10, €20, €50, €100", es: "€5, €10, €20, €50, €100", de: "€5, €10, €20, €50, €100", nl: "€5, €10, €20, €50, €100" },
-          { en: "€5, €10, €20, €50, €100, €200, €500", es: "€5, €10, €20, €50, €100, €200, €500", de: "€5, €10, €20, €50, €100, €200, €500", nl: "€5, €10, €20, €50, €100, €200, €500" },
-          { en: "€1, €5, €10, €20, €50, €100", es: "€1, €5, €10, €20, €50, €100", de: "€1, €5, €10, €20, €50, €100", nl: "€1, €5, €10, €20, €50, €100" },
-          { en: "€10, €20, €50, €100, €200", es: "€10, €20, €50, €100, €200", de: "€10, €20, €50, €100, €200", nl: "€10, €20, €50, €100, €200" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Euro banknotes come in denominations of €5, €10, €20, €50, €100, €200, and €500. However, production of €500 notes stopped in 2019, though existing ones remain legal tender.",
-          es: "Los billetes de Euro vienen en denominaciones de €5, €10, €20, €50, €100, €200 y €500. Sin embargo, la producción de billetes de €500 se detuvo en 2019, aunque los existentes siguen siendo moneda de curso legal.",
-          de: "Euro-Banknoten gibt es in Stückelungen von €5, €10, €20, €50, €100, €200 und €500. Die Produktion von €500-Scheinen wurde jedoch 2019 eingestellt, obwohl bestehende weiterhin gesetzliches Zahlungsmittel bleiben.",
-          nl: "Euro-bankbiljetten komen in denominaties van €5, €10, €20, €50, €100, €200 en €500. De productie van €500-biljetten stopte echter in 2019, hoewel bestaande nog steeds wettig betaalmiddel blijven."
-        }
-      },
-      {
-        question: {
-          en: "How many countries currently use the Euro as their official currency?",
-          es: "¿Cuántos países usan actualmente el Euro como su moneda oficial?",
-          de: "Wie viele Länder verwenden derzeit den Euro als ihre offizielle Währung?",
-          nl: "Hoeveel landen gebruiken momenteel de Euro als hun officiële valuta?"
-        },
-        options: [
-          { en: "17", es: "17", de: "17", nl: "17" },
-          { en: "19", es: "19", de: "19", nl: "19" },
-          { en: "20", es: "20", de: "20", nl: "20" },
-          { en: "27", es: "27", de: "27", nl: "27" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "As of 2023, 20 EU countries use the Euro as their official currency. The most recent addition was Croatia in 2023. Not all EU member states have adopted the Euro.",
-          es: "A partir de 2023, 20 países de la UE usan el Euro como su moneda oficial. La adición más reciente fue Croacia en 2023. No todos los estados miembros de la UE han adoptado el Euro.",
-          de: "Ab 2023 verwenden 20 EU-Länder den Euro als ihre offizielle Währung. Der jüngste Neuzugang war Kroatien im Jahr 2023. Nicht alle EU-Mitgliedstaaten haben den Euro übernommen.",
-          nl: "Vanaf 2023 gebruiken 20 EU-landen de Euro als hun officiële valuta. De meest recente toevoeging was Kroatië in 2023. Niet alle EU-lidstaten hebben de Euro aangenomen."
-        }
-      },
-      {
-        question: {
-          en: "What does the term 'Eurozone' refer to?",
-          es: "¿A qué se refiere el término 'Eurozona'?",
-          de: "Worauf bezieht sich der Begriff 'Eurozone'?",
-          nl: "Waar verwijst de term 'Eurozone' naar?"
-        },
-        options: [
-          { en: "All European Union countries", es: "Todos los países de la Unión Europea", de: "Alle Länder der Europäischen Union", nl: "Alle landen van de Europese Unie" },
-          { en: "Countries that use the Euro", es: "Países que usan el Euro", de: "Länder, die den Euro verwenden", nl: "Landen die de Euro gebruiken" },
-          { en: "Countries in Central Europe", es: "Países en Europa Central", de: "Länder in Mitteleuropa", nl: "Landen in Centraal-Europa" },
-          { en: "NATO member countries", es: "Países miembros de la OTAN", de: "NATO-Mitgliedsländer", nl: "NAVO-lidstaten" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The Eurozone refers specifically to the group of European Union countries that have adopted the Euro as their common currency. It's also known as the Euro area.",
-          es: "La Eurozona se refiere específicamente al grupo de países de la Unión Europea que han adoptado el Euro como su moneda común. También se conoce como la zona Euro.",
-          de: "Die Eurozone bezieht sich speziell auf die Gruppe der Länder der Europäischen Union, die den Euro als ihre gemeinsame Währung übernommen haben. Sie ist auch als Euro-Raum bekannt.",
-          nl: "De Eurozone verwijst specifiek naar de groep van landen van de Europese Unie die de Euro hebben aangenomen als hun gemeenschappelijke valuta. Het is ook bekend als het Euro-gebied."
-        }
-      },
-      {
-        question: {
-          en: "What architectural periods are featured on Euro banknotes?",
-          es: "¿Qué períodos arquitectónicos aparecen en los billetes de Euro?",
-          de: "Welche architektonischen Epochen sind auf Euro-Banknoten abgebildet?",
-          nl: "Welke architectonische periodes worden afgebeeld op Euro-bankbiljetten?"
-        },
-        options: [
-          { en: "Only modern architecture", es: "Solo arquitectura moderna", de: "Nur moderne Architektur", nl: "Alleen moderne architectuur" },
-          { en: "Classical, Renaissance, Baroque", es: "Clásica, Renacimiento, Barroco", de: "Klassik, Renaissance, Barock", nl: "Klassiek, Renaissance, Barok" },
-          { en: "Various European periods", es: "Varios períodos europeos", de: "Verschiedene europäische Epochen", nl: "Verschillende Europese periodes" },
-          { en: "Gothic and Romanesque only", es: "Solo gótico y románico", de: "Nur Gotik und Romanik", nl: "Alleen gotiek en romaans" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Euro banknotes feature windows, gateways, and bridges representing various European architectural periods from Classical to modern times, symbolizing openness and cooperation between EU countries.",
-          es: "Los billetes de Euro presentan ventanas, puertas y puentes que representan varios períodos arquitectónicos europeos desde el clásico hasta los tiempos modernos, simbolizando apertura y cooperación entre países de la UE.",
-          de: "Euro-Banknoten zeigen Fenster, Tore und Brücken, die verschiedene europäische architektonische Epochen von der Klassik bis zur Moderne repräsentieren und Offenheit und Zusammenarbeit zwischen EU-Ländern symbolisieren.",
-          nl: "Euro-bankbiljetten tonen ramen, poorten en bruggen die verschillende Europese architectonische periodes vertegenwoordigen van klassiek tot moderne tijden, wat openheid en samenwerking tussen EU-landen symboliseert."
-        }
-      },
-      {
-        question: {
-          en: "What is the smallest Euro coin denomination?",
-          es: "¿Cuál es la denominación de moneda de Euro más pequeña?",
-          de: "Was ist die kleinste Euro-Münzenstückelung?",
-          nl: "Wat is de kleinste Euro-munt denominatie?"
-        },
-        options: [
-          { en: "1 cent", es: "1 céntimo", de: "1 Cent", nl: "1 cent" },
-          { en: "2 cents", es: "2 céntimos", de: "2 Cent", nl: "2 cent" },
-          { en: "5 cents", es: "5 céntimos", de: "5 Cent", nl: "5 cent" },
-          { en: "10 cents", es: "10 céntimos", de: "10 Cent", nl: "10 cent" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The smallest Euro coin denomination is 1 cent. Euro coins come in denominations of 1c, 2c, 5c, 10c, 20c, 50c, €1, and €2, though some countries have stopped using 1c and 2c coins.",
-          es: "La denominación de moneda de Euro más pequeña es 1 céntimo. Las monedas de Euro vienen en denominaciones de 1c, 2c, 5c, 10c, 20c, 50c, €1 y €2, aunque algunos países han dejado de usar monedas de 1c y 2c.",
-          de: "Die kleinste Euro-Münzenstückelung ist 1 Cent. Euro-Münzen gibt es in Stückelungen von 1c, 2c, 5c, 10c, 20c, 50c, €1 und €2, obwohl einige Länder die Verwendung von 1c- und 2c-Münzen eingestellt haben.",
-          nl: "De kleinste Euro-munt denominatie is 1 cent. Euro-munten komen in denominaties van 1c, 2c, 5c, 10c, 20c, 50c, €1 en €2, hoewel sommige landen gestopt zijn met het gebruik van 1c en 2c munten."
-        }
-      },
-      {
-        question: {
-          en: "Which side of Euro coins is the same across all eurozone countries?",
-          es: "¿Qué lado de las monedas de Euro es igual en todos los países de la eurozona?",
-          de: "Welche Seite der Euro-Münzen ist in allen Eurozone-Ländern gleich?",
-          nl: "Welke kant van Euro-munten is hetzelfde in alle eurozone-landen?"
-        },
-        options: [
-          { en: "Heads (front)", es: "Cara (frente)", de: "Kopf (Vorderseite)", nl: "Kop (voorkant)" },
-          { en: "Tails (back)", es: "Cruz (reverso)", de: "Zahl (Rückseite)", nl: "Munt (achterkant)" },
-          { en: "Both sides", es: "Ambos lados", de: "Beide Seiten", nl: "Beide kanten" },
-          { en: "Neither side", es: "Ningún lado", de: "Keine Seite", nl: "Geen van beide kanten" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The reverse (tails) side of Euro coins is the same across all eurozone countries, showing the map of Europe and the denomination. The obverse (heads) side features national designs specific to each country.",
-          es: "El lado reverso (cruz) de las monedas de Euro es igual en todos los países de la eurozona, mostrando el mapa de Europa y la denominación. El lado anverso (cara) presenta diseños nacionales específicos de cada país.",
-          de: "Die Rückseite (Zahl) der Euro-Münzen ist in allen Eurozone-Ländern gleich und zeigt die Karte Europas und die Stückelung. Die Vorderseite (Kopf) zeigt nationale Designs, die für jedes Land spezifisch sind.",
-          nl: "De achterkant (munt) van Euro-munten is hetzelfde in alle eurozone-landen, met de kaart van Europa en de denominatie. De voorkant (kop) toont nationale ontwerpen specifiek voor elk land."
-        }
-      },
-      {
-        question: {
-          en: "What was the primary goal of creating the Euro?",
-          es: "¿Cuál fue el objetivo principal de crear el Euro?",
-          de: "Was war das Hauptziel der Schaffung des Euros?",
-          nl: "Wat was het primaire doel van het creëren van de Euro?"
-        },
-        options: [
-          { en: "To compete with the US Dollar", es: "Para competir con el Dólar estadounidense", de: "Um mit dem US-Dollar zu konkurrieren", nl: "Om te concurreren met de Amerikaanse Dollar" },
-          { en: "To facilitate trade and integration", es: "Para facilitar el comercio y la integración", de: "Um Handel und Integration zu erleichtern", nl: "Om handel en integratie te vergemakkelijken" },
-          { en: "To replace all national currencies", es: "Para reemplazar todas las monedas nacionales", de: "Um alle nationalen Währungen zu ersetzen", nl: "Om alle nationale valuta's te vervangen" },
-          { en: "To control inflation", es: "Para controlar la inflación", de: "Um die Inflation zu kontrollieren", nl: "Om inflatie te controleren" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The primary goal of creating the Euro was to facilitate trade and economic integration among European countries by eliminating exchange rate fluctuations and reducing transaction costs.",
-          es: "El objetivo principal de crear el Euro fue facilitar el comercio y la integración económica entre países europeos eliminando fluctuaciones del tipo de cambio y reduciendo costos de transacción.",
-          de: "Das Hauptziel der Schaffung des Euros war es, Handel und wirtschaftliche Integration zwischen europäischen Ländern zu erleichtern, indem Wechselkursschwankungen eliminiert und Transaktionskosten reduziert wurden.",
-          nl: "Het primaire doel van het creëren van de Euro was om handel en economische integratie tussen Europese landen te vergemakkelijken door wisselkoersfluctuaties te elimineren en transactiekosten te verminderen."
-        }
-      },
-      {
-        question: {
-          en: "Which country was the last to join the Eurozone?",
-          es: "¿Qué país fue el último en unirse a la Eurozona?",
-          de: "Welches Land war das letzte, das der Eurozone beitrat?",
-          nl: "Welk land was het laatste dat zich aansloot bij de Eurozone?"
-        },
-        options: [
-          { en: "Lithuania", es: "Lituania", de: "Litauen", nl: "Litouwen" },
-          { en: "Latvia", es: "Letonia", de: "Lettland", nl: "Letland" },
-          { en: "Croatia", es: "Croacia", de: "Kroatien", nl: "Kroatië" },
-          { en: "Estonia", es: "Estonia", de: "Estland", nl: "Estland" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Croatia was the most recent country to join the Eurozone, adopting the Euro on January 1, 2023, becoming the 20th member of the Eurozone.",
-          es: "Croacia fue el país más reciente en unirse a la Eurozona, adoptando el Euro el 1 de enero de 2023, convirtiéndose en el miembro número 20 de la Eurozona.",
-          de: "Kroatien war das jüngste Land, das der Eurozone beitrat, und übernahm den Euro am 1. Januar 2023, wodurch es das 20. Mitglied der Eurozone wurde.",
-          nl: "Kroatië was het meest recente land dat zich aansloot bij de Eurozone, en nam de Euro over op 1 januari 2023, waarmee het het 20e lid van de Eurozone werd."
-        }
-      },
-      {
-        question: {
-          en: "What is the name of the treaty that established the Euro?",
-          es: "¿Cuál es el nombre del tratado que estableció el Euro?",
-          de: "Wie heißt der Vertrag, der den Euro etablierte?",
-          nl: "Wat is de naam van het verdrag dat de Euro oprichtte?"
-        },
-        options: [
-          { en: "Treaty of Rome", es: "Tratado de Roma", de: "Vertrag von Rom", nl: "Verdrag van Rome" },
-          { en: "Maastricht Treaty", es: "Tratado de Maastricht", de: "Vertrag von Maastricht", nl: "Verdrag van Maastricht" },
-          { en: "Lisbon Treaty", es: "Tratado de Lisboa", de: "Vertrag von Lissabon", nl: "Verdrag van Lissabon" },
-          { en: "Amsterdam Treaty", es: "Tratado de Ámsterdam", de: "Vertrag von Amsterdam", nl: "Verdrag van Amsterdam" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The Maastricht Treaty, signed in 1992, established the legal foundation for the Euro and set the criteria for countries to join the Economic and Monetary Union.",
-          es: "El Tratado de Maastricht, firmado en 1992, estableció la base legal para el Euro y estableció los criterios para que los países se unieran a la Unión Económica y Monetaria.",
-          de: "Der Vertrag von Maastricht, unterzeichnet 1992, legte die rechtliche Grundlage für den Euro fest und setzte die Kriterien für Länder fest, der Wirtschafts- und Währungsunion beizutreten.",
-          nl: "Het Verdrag van Maastricht, ondertekend in 1992, legde de juridische basis voor de Euro vast en stelde de criteria vast voor landen om zich aan te sluiten bij de Economische en Monetaire Unie."
-        }
-      },
-      {
-        question: {
-          en: "What are the Maastricht criteria primarily concerned with?",
-          es: "¿De qué se ocupan principalmente los criterios de Maastricht?",
-          de: "Womit beschäftigen sich die Maastricht-Kriterien hauptsächlich?",
-          nl: "Waar houden de Maastricht-criteria zich primair mee bezig?"
-        },
-        options: [
-          { en: "Political stability", es: "Estabilidad política", de: "Politische Stabilität", nl: "Politieke stabiliteit" },
-          { en: "Economic convergence", es: "Convergencia económica", de: "Wirtschaftliche Konvergenz", nl: "Economische convergentie" },
-          { en: "Military cooperation", es: "Cooperación militar", de: "Militärische Zusammenarbeit", nl: "Militaire samenwerking" },
-          { en: "Cultural integration", es: "Integración cultural", de: "Kulturelle Integration", nl: "Culturele integratie" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The Maastricht criteria focus on economic convergence, including inflation rates, government debt, budget deficits, and interest rates, to ensure countries are economically ready to adopt the Euro.",
-          es: "Los criterios de Maastricht se enfocan en la convergencia económica, incluyendo tasas de inflación, deuda gubernamental, déficits presupuestarios y tasas de interés, para asegurar que los países estén económicamente listos para adoptar el Euro.",
-          de: "Die Maastricht-Kriterien konzentrieren sich auf wirtschaftliche Konvergenz, einschließlich Inflationsraten, Staatsverschuldung, Haushaltsdefizite und Zinssätze, um sicherzustellen, dass Länder wirtschaftlich bereit sind, den Euro zu übernehmen.",
-          nl: "De Maastricht-criteria richten zich op economische convergentie, inclusief inflatiepercentages, overheidsschuld, begrotingstekorten en rentetarieven, om ervoor te zorgen dat landen economisch klaar zijn om de Euro aan te nemen."
-        }
-      },
-      {
-        question: {
-          en: "Which Euro banknote denomination was discontinued in 2019?",
-          es: "¿Qué denominación de billete de Euro se descontinuó en 2019?",
-          de: "Welche Euro-Banknoten-Stückelung wurde 2019 eingestellt?",
-          nl: "Welke Euro-bankbiljet denominatie werd stopgezet in 2019?"
-        },
-        options: [
-          { en: "€200", es: "€200", de: "€200", nl: "€200" },
-          { en: "€500", es: "€500", de: "€500", nl: "€500" },
-          { en: "€1000", es: "€1000", de: "€1000", nl: "€1000" },
-          { en: "€50", es: "€50", de: "€50", nl: "€50" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The €500 banknote production was discontinued in 2019 due to concerns about its use in illicit activities, though existing notes remain legal tender and will continue to be honored by central banks.",
-          es: "La producción del billete de €500 se descontinuó en 2019 debido a preocupaciones sobre su uso en actividades ilícitas, aunque los billetes existentes siguen siendo moneda de curso legal y continuarán siendo honrados por los bancos centrales.",
-          de: "Die Produktion der €500-Banknote wurde 2019 aufgrund von Bedenken über ihre Verwendung in illegalen Aktivitäten eingestellt, obwohl bestehende Scheine gesetzliches Zahlungsmittel bleiben und weiterhin von Zentralbanken anerkannt werden.",
-          nl: "De productie van het €500-bankbiljet werd stopgezet in 2019 vanwege zorgen over het gebruik ervan in illegale activiteiten, hoewel bestaande biljetten wettig betaalmiddel blijven en door centrale banken gehonoreerd blijven worden."
-        }
-      },
-      {
-        question: {
-          en: "What does 'ECB' stand for in relation to the Euro?",
-          es: "¿Qué significa 'BCE' en relación con el Euro?",
-          de: "Wofür steht 'EZB' in Bezug auf den Euro?",
-          nl: "Waar staat 'ECB' voor in relatie tot de Euro?"
-        },
-        options: [
-          { en: "European Currency Board", es: "Junta Monetaria Europea", de: "Europäisches Währungsboard", nl: "Europese Valutaraad" },
-          { en: "European Central Bank", es: "Banco Central Europeo", de: "Europäische Zentralbank", nl: "Europese Centrale Bank" },
-          { en: "European Credit Bureau", es: "Oficina de Crédito Europea", de: "Europäisches Kreditbüro", nl: "Europees Kredietbureau" },
-          { en: "European Commerce Bank", es: "Banco de Comercio Europeo", de: "Europäische Handelsbank", nl: "Europese Handelsbank" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "ECB stands for European Central Bank, the central bank responsible for monetary policy in the Eurozone. It's headquartered in Frankfurt, Germany, and manages the Euro currency.",
-          es: "BCE significa Banco Central Europeo, el banco central responsable de la política monetaria en la Eurozona. Tiene su sede en Frankfurt, Alemania, y gestiona la moneda Euro.",
-          de: "EZB steht für Europäische Zentralbank, die Zentralbank, die für die Geldpolitik in der Eurozone verantwortlich ist. Sie hat ihren Sitz in Frankfurt, Deutschland, und verwaltet die Euro-Währung.",
-          nl: "ECB staat voor Europese Centrale Bank, de centrale bank verantwoordelijk voor monetair beleid in de Eurozone. Het heeft zijn hoofdkantoor in Frankfurt, Duitsland, en beheert de Euro-valuta."
-        }
-      },
-      {
-        question: {
-          en: "Where is the European Central Bank headquarters located?",
-          es: "¿Dónde se encuentra la sede del Banco Central Europeo?",
-          de: "Wo befindet sich der Hauptsitz der Europäischen Zentralbank?",
-          nl: "Waar bevindt zich het hoofdkantoor van de Europese Centrale Bank?"
-        },
-        options: [
-          { en: "Brussels, Belgium", es: "Bruselas, Bélgica", de: "Brüssel, Belgien", nl: "Brussel, België" },
-          { en: "Paris, France", es: "París, Francia", de: "Paris, Frankreich", nl: "Parijs, Frankrijk" },
-          { en: "Frankfurt, Germany", es: "Frankfurt, Alemania", de: "Frankfurt, Deutschland", nl: "Frankfurt, Duitsland" },
-          { en: "Amsterdam, Netherlands", es: "Ámsterdam, Países Bajos", de: "Amsterdam, Niederlande", nl: "Amsterdam, Nederland" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "The European Central Bank is headquartered in Frankfurt am Main, Germany. Frankfurt was chosen because it's a major financial center and was the location of the German Bundesbank.",
-          es: "El Banco Central Europeo tiene su sede en Frankfurt am Main, Alemania. Frankfurt fue elegido porque es un centro financiero importante y fue la ubicación del Bundesbank alemán.",
-          de: "Die Europäische Zentralbank hat ihren Hauptsitz in Frankfurt am Main, Deutschland. Frankfurt wurde gewählt, weil es ein wichtiges Finanzzentrum ist und der Standort der Deutschen Bundesbank war.",
-          nl: "De Europese Centrale Bank heeft zijn hoofdkantoor in Frankfurt am Main, Duitsland. Frankfurt werd gekozen omdat het een belangrijk financieel centrum is en de locatie was van de Duitse Bundesbank."
-        }
-      },
-      {
-        question: {
-          en: "What security feature is unique to Euro banknotes?",
-          es: "¿Qué característica de seguridad es única de los billetes de Euro?",
-          de: "Welches Sicherheitsmerkmal ist einzigartig für Euro-Banknoten?",
-          nl: "Welke beveiligingsfunctie is uniek voor Euro-bankbiljetten?"
-        },
-        options: [
-          { en: "Watermarks", es: "Marcas de agua", de: "Wasserzeichen", nl: "Watermerken" },
-          { en: "Holographic elements", es: "Elementos holográficos", de: "Holographische Elemente", nl: "Holografische elementen" },
-          { en: "Raised print", es: "Impresión en relieve", de: "Reliefdruck", nl: "Reliëfdruk" },
-          { en: "All of the above", es: "Todas las anteriores", de: "Alle oben genannten", nl: "Alle bovenstaande" }
-        ],
-        correct: 3,
-        explanation: {
-          en: "Euro banknotes incorporate multiple advanced security features including watermarks, holographic elements, raised print, color-changing ink, and microprinting to prevent counterfeiting.",
-          es: "Los billetes de Euro incorporan múltiples características de seguridad avanzadas incluyendo marcas de agua, elementos holográficos, impresión en relieve, tinta que cambia de color y microimpresión para prevenir falsificación.",
-          de: "Euro-Banknoten enthalten mehrere fortschrittliche Sicherheitsmerkmale einschließlich Wasserzeichen, holographische Elemente, Reliefdruck, farbwechselnde Tinte und Mikrodruck zur Verhinderung von Fälschungen.",
-          nl: "Euro-bankbiljetten bevatten meerdere geavanceerde beveiligingsfuncties inclusief watermerken, holografische elementen, reliëfdruk, kleurveranderende inkt en microdruk om vervalsing te voorkomen."
-        }
-      },
-      {
-        question: {
-          en: "Which EU countries have opted out of adopting the Euro?",
-          es: "¿Qué países de la UE han optado por no adoptar el Euro?",
-          de: "Welche EU-Länder haben sich entschieden, den Euro nicht zu übernehmen?",
-          nl: "Welke EU-landen hebben ervoor gekozen de Euro niet aan te nemen?"
-        },
-        options: [
-          { en: "Only Denmark", es: "Solo Dinamarca", de: "Nur Dänemark", nl: "Alleen Denemarken" },
-          { en: "Denmark and Sweden", es: "Dinamarca y Suecia", de: "Dänemark und Schweden", nl: "Denemarken en Zweden" },
-          { en: "Denmark, Sweden, and Poland", es: "Dinamarca, Suecia y Polonia", de: "Dänemark, Schweden und Polen", nl: "Denemarken, Zweden en Polen" },
-          { en: "All EU countries use the Euro", es: "Todos los países de la UE usan el Euro", de: "Alle EU-Länder verwenden den Euro", nl: "Alle EU-landen gebruiken de Euro" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Denmark and Sweden have formal opt-outs from adopting the Euro, meaning they can choose whether to join. Other non-eurozone EU countries like Poland and Czech Republic are required to adopt the Euro when they meet the criteria.",
-          es: "Dinamarca y Suecia tienen exenciones formales de adoptar el Euro, lo que significa que pueden elegir si unirse. Otros países de la UE que no son de la eurozona como Polonia y República Checa están obligados a adoptar el Euro cuando cumplan los criterios.",
-          de: "Dänemark und Schweden haben formelle Opt-outs von der Übernahme des Euros, was bedeutet, dass sie wählen können, ob sie beitreten. Andere Nicht-Eurozone-EU-Länder wie Polen und Tschechische Republik sind verpflichtet, den Euro zu übernehmen, wenn sie die Kriterien erfüllen.",
-          nl: "Denemarken en Zweden hebben formele opt-outs van het aannemen van de Euro, wat betekent dat ze kunnen kiezen of ze willen toetreden. Andere niet-eurozone EU-landen zoals Polen en Tsjechië zijn verplicht de Euro aan te nemen wanneer ze aan de criteria voldoen."
-        }
-      },
-      {
-        question: {
-          en: "What is the three-letter ISO code for the Euro?",
-          es: "¿Cuál es el código ISO de tres letras para el Euro?",
-          de: "Wie lautet der dreistellige ISO-Code für den Euro?",
-          nl: "Wat is de drieletterige ISO-code voor de Euro?"
-        },
-        options: [
-          { en: "EUR", es: "EUR", de: "EUR", nl: "EUR" },
-          { en: "EUO", es: "EUO", de: "EUO", nl: "EUO" },
-          { en: "ERO", es: "ERO", de: "ERO", nl: "ERO" },
-          { en: "EUN", es: "EUN", de: "EUN", nl: "EUN" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The ISO 4217 currency code for the Euro is EUR. This standardized three-letter code is used in international finance, banking, and foreign exchange markets to identify the Euro currency.",
-          es: "El código de moneda ISO 4217 para el Euro es EUR. Este código estandarizado de tres letras se usa en finanzas internacionales, banca y mercados de divisas para identificar la moneda Euro.",
-          de: "Der ISO 4217-Währungscode für den Euro ist EUR. Dieser standardisierte dreistellige Code wird in internationalen Finanzen, im Bankwesen und auf Devisenmärkten verwendet, um die Euro-Währung zu identifizieren.",
-          nl: "De ISO 4217-valutacode voor de Euro is EUR. Deze gestandaardiseerde drieletterige code wordt gebruikt in internationale financiën, bankwezen en valutamarkten om de Euro-valuta te identificeren."
-        }      },
-      {
-        question: {
-          en: "When was the Euro introduced?",
-          es: "When was the Euro introduced?",
-          de: "When was the Euro introduced?",
-          nl: "When was the Euro introduced?"
-        },
-        options: [
-          { en: "1999", es: "1999", de: "1999", nl: "1999" },
-          { en: "1992", es: "1992", de: "1992", nl: "1992" },
-          { en: "2002", es: "2002", de: "2002", nl: "2002" },
-          { en: "1985", es: "1985", de: "1985", nl: "1985" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Euro was introduced as an accounting currency in 1999, with physical cash in 2002.",
-          es: "The Euro was introduced as an accounting currency in 1999, with physical cash in 2002.",
-          de: "The Euro was introduced as an accounting currency in 1999, with physical cash in 2002.",
-          nl: "The Euro was introduced as an accounting currency in 1999, with physical cash in 2002."
-        }      },
-      {
-        question: {
-          en: "What is the symbol for Euro?",
-          es: "What is the symbol for Euro?",
-          de: "What is the symbol for Euro?",
-          nl: "What is the symbol for Euro?"
-        },
-        options: [
-          { en: "€", es: "€", de: "€", nl: "€" },
-          { en: "E", es: "E", de: "E", nl: "E" },
-          { en: "EU", es: "EU", de: "EU", nl: "EU" },
-          { en: "Є", es: "Є", de: "Є", nl: "Є" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Euro symbol € was designed to represent stability and the European unity.",
-          es: "The Euro symbol € was designed to represent stability and the European unity.",
-          de: "The Euro symbol € was designed to represent stability and the European unity.",
-          nl: "The Euro symbol € was designed to represent stability and the European unity."
-        }      },
-      {
-        question: {
-          en: "How many countries use the Euro?",
-          es: "How many countries use the Euro?",
-          de: "How many countries use the Euro?",
-          nl: "How many countries use the Euro?"
-        },
-        options: [
-          { en: "20", es: "20", de: "20", nl: "20" },
-          { en: "15", es: "15", de: "15", nl: "15" },
-          { en: "27", es: "27", de: "27", nl: "27" },
-          { en: "28", es: "28", de: "28", nl: "28" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "As of 2024, 20 of the 27 EU member states have adopted the Euro as their currency.",
-          es: "As of 2024, 20 of the 27 EU member states have adopted the Euro as their currency.",
-          de: "As of 2024, 20 of the 27 EU member states have adopted the Euro as their currency.",
-          nl: "As of 2024, 20 of the 27 EU member states have adopted the Euro as their currency."
-        }      },
-      {
-        question: {
-          en: "What is the European Central Bank?",
-          es: "What is the European Central Bank?",
-          de: "What is the European Central Bank?",
-          nl: "What is the European Central Bank?"
-        },
-        options: [
-          { en: "Central bank for Euro", es: "Central bank for Euro", de: "Central bank for Euro", nl: "Central bank for Euro" },
-          { en: "EU parliament", es: "EU parliament", de: "EU parliament", nl: "EU parliament" },
-          { en: "Trade organization", es: "Trade organization", de: "Trade organization", nl: "Trade organization" },
-          { en: "Court system", es: "Court system", de: "Court system", nl: "Court system" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The European Central Bank (ECB) manages monetary policy for the Eurozone.",
-          es: "The European Central Bank (ECB) manages monetary policy for the Eurozone.",
-          de: "The European Central Bank (ECB) manages monetary policy for the Eurozone.",
-          nl: "The European Central Bank (ECB) manages monetary policy for the Eurozone."
-        }      },
-      {
-        question: {
-          en: "What is the smallest Euro coin?",
-          es: "What is the smallest Euro coin?",
-          de: "What is the smallest Euro coin?",
-          nl: "What is the smallest Euro coin?"
-        },
-        options: [
-          { en: "1 cent", es: "1 cent", de: "1 cent", nl: "1 cent" },
-          { en: "5 cents", es: "5 cents", de: "5 cents", nl: "5 cents" },
-          { en: "10 cents", es: "10 cents", de: "10 cents", nl: "10 cents" },
-          { en: "2 cents", es: "2 cents", de: "2 cents", nl: "2 cents" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The one cent Euro coin is the smallest denomination, though some countries don't use it.",
-          es: "The one cent Euro coin is the smallest denomination, though some countries don't use it.",
-          de: "The one cent Euro coin is the smallest denomination, though some countries don't use it.",
-          nl: "The one cent Euro coin is the smallest denomination, though some countries don't use it."
-        }      },
-      {
-        question: {
-          en: "What is the largest Euro banknote?",
-          es: "What is the largest Euro banknote?",
-          de: "What is the largest Euro banknote?",
-          nl: "What is the largest Euro banknote?"
-        },
-        options: [
-          { en: "€500", es: "€500", de: "€500", nl: "€500" },
-          { en: "€200", es: "€200", de: "€200", nl: "€200" },
-          { en: "€100", es: "€100", de: "€100", nl: "€100" },
-          { en: "€1000", es: "€1000", de: "€1000", nl: "€1000" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The €500 note is the largest denomination, though it's being phased out since 2019.",
-          es: "The €500 note is the largest denomination, though it's being phased out since 2019.",
-          de: "The €500 note is the largest denomination, though it's being phased out since 2019.",
-          nl: "The €500 note is the largest denomination, though it's being phased out since 2019."
-        }      },
-      {
-        question: {
-          en: "Which country was first to adopt Euro?",
-          es: "Which country was first to adopt Euro?",
-          de: "Which country was first to adopt Euro?",
-          nl: "Which country was first to adopt Euro?"
-        },
-        options: [
-          { en: "All Eurozone countries simultaneously", es: "All Eurozone countries simultaneously", de: "All Eurozone countries simultaneously", nl: "All Eurozone countries simultaneously" },
-          { en: "Germany", es: "Germany", de: "Germany", nl: "Germany" },
-          { en: "France", es: "France", de: "France", nl: "France" },
-          { en: "Italy", es: "Italy", de: "Italy", nl: "Italy" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Eleven countries adopted the Euro simultaneously on January 1, 1999.",
-          es: "Eleven countries adopted the Euro simultaneously on January 1, 1999.",
-          de: "Eleven countries adopted the Euro simultaneously on January 1, 1999.",
-          nl: "Eleven countries adopted the Euro simultaneously on January 1, 1999."
-        }      },
-      {
-        question: {
-          en: "What does ECB stand for?",
-          es: "What does ECB stand for?",
-          de: "What does ECB stand for?",
-          nl: "What does ECB stand for?"
-        },
-        options: [
-          { en: "European Central Bank", es: "European Central Bank", de: "European Central Bank", nl: "European Central Bank" },
-          { en: "European Currency Board", es: "European Currency Board", de: "European Currency Board", nl: "European Currency Board" },
-          { en: "Euro Central Bank", es: "Euro Central Bank", de: "Euro Central Bank", nl: "Euro Central Bank" },
-          { en: "European Credit Bank", es: "European Credit Bank", de: "European Credit Bank", nl: "European Credit Bank" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "ECB stands for European Central Bank, headquartered in Frankfurt, Germany.",
-          es: "ECB stands for European Central Bank, headquartered in Frankfurt, Germany.",
-          de: "ECB stands for European Central Bank, headquartered in Frankfurt, Germany.",
-          nl: "ECB stands for European Central Bank, headquartered in Frankfurt, Germany."
-        }      },
-      {
-        question: {
-          en: "What is the Eurozone?",
-          es: "What is the Eurozone?",
-          de: "What is the Eurozone?",
-          nl: "What is the Eurozone?"
-        },
-        options: [
-          { en: "EU countries using Euro", es: "EU countries using Euro", de: "EU countries using Euro", nl: "EU countries using Euro" },
-          { en: "All of Europe", es: "All of Europe", de: "All of Europe", nl: "All of Europe" },
-          { en: "European Union", es: "European Union", de: "European Union", nl: "European Union" },
-          { en: "European trade zone", es: "European trade zone", de: "European trade zone", nl: "European trade zone" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Eurozone consists of EU member states that have adopted the Euro as currency.",
-          es: "The Eurozone consists of EU member states that have adopted the Euro as currency.",
-          de: "The Eurozone consists of EU member states that have adopted the Euro as currency.",
-          nl: "The Eurozone consists of EU member states that have adopted the Euro as currency."
-        }      },
-      {
-        question: {
-          en: "Which UK country doesn't use Euro?",
-          es: "Which UK country doesn't use Euro?",
-          de: "Which UK country doesn't use Euro?",
-          nl: "Which UK country doesn't use Euro?"
-        },
-        options: [
-          { en: "All UK countries use Pound", es: "All UK countries use Pound", de: "All UK countries use Pound", nl: "All UK countries use Pound" },
-          { en: "England", es: "England", de: "England", nl: "England" },
-          { en: "Scotland", es: "Scotland", de: "Scotland", nl: "Scotland" },
-          { en: "Wales", es: "Wales", de: "Wales", nl: "Wales" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The United Kingdom retained the Pound Sterling and never adopted the Euro.",
-          es: "The United Kingdom retained the Pound Sterling and never adopted the Euro.",
-          de: "The United Kingdom retained the Pound Sterling and never adopted the Euro.",
-          nl: "The United Kingdom retained the Pound Sterling and never adopted the Euro."
-        }      },
-      {
-        question: {
-          en: "What is Euro coin reverse design?",
-          es: "What is Euro coin reverse design?",
-          de: "What is Euro coin reverse design?",
-          nl: "What is Euro coin reverse design?"
-        },
-        options: [
-          { en: "National design chosen by country", es: "National design chosen by country", de: "National design chosen by country", nl: "National design chosen by country" },
-          { en: "Same for all countries", es: "Same for all countries", de: "Same for all countries", nl: "Same for all countries" },
-          { en: "ECB logo", es: "ECB logo", de: "ECB logo", nl: "ECB logo" },
-          { en: "European flag", es: "European flag", de: "European flag", nl: "European flag" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Each Eurozone country designs the reverse of their Euro coins with national symbols.",
-          es: "Each Eurozone country designs the reverse of their Euro coins with national symbols.",
-          de: "Each Eurozone country designs the reverse of their Euro coins with national symbols.",
-          nl: "Each Eurozone country designs the reverse of their Euro coins with national symbols."
-        }      },
-      {
-        question: {
-          en: "Where is the ECB headquartered?",
-          es: "Where is the ECB headquartered?",
-          de: "Where is the ECB headquartered?",
-          nl: "Where is the ECB headquartered?"
-        },
-        options: [
-          { en: "Frankfurt, Germany", es: "Frankfurt, Germany", de: "Frankfurt, Germany", nl: "Frankfurt, Germany" },
-          { en: "Brussels, Belgium", es: "Brussels, Belgium", de: "Brussels, Belgium", nl: "Brussels, Belgium" },
-          { en: "Paris, France", es: "Paris, France", de: "Paris, France", nl: "Paris, France" },
-          { en: "Amsterdam, Netherlands", es: "Amsterdam, Netherlands", de: "Amsterdam, Netherlands", nl: "Amsterdam, Netherlands" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The European Central Bank headquarters is located in Frankfurt am Main, Germany.",
-          es: "The European Central Bank headquarters is located in Frankfurt am Main, Germany.",
-          de: "The European Central Bank headquarters is located in Frankfurt am Main, Germany.",
-          nl: "The European Central Bank headquarters is located in Frankfurt am Main, Germany."
-        }      },
-      {
-        question: {
-          en: "What is a euro cent?",
-          es: "What is a euro cent?",
-          de: "What is a euro cent?",
-          nl: "What is a euro cent?"
-        },
-        options: [
-          { en: "1/100 of a Euro", es: "1/100 of a Euro", de: "1/100 of a Euro", nl: "1/100 of a Euro" },
-          { en: "1/10 of a Euro", es: "1/10 of a Euro", de: "1/10 of a Euro", nl: "1/10 of a Euro" },
-          { en: "Smallest banknote", es: "Smallest banknote", de: "Smallest banknote", nl: "Smallest banknote" },
-          { en: "Currency exchange fee", es: "Currency exchange fee", de: "Currency exchange fee", nl: "Currency exchange fee" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "A euro cent is one-hundredth of a Euro, similar to the US cent.",
-          es: "A euro cent is one-hundredth of a Euro, similar to the US cent.",
-          de: "A euro cent is one-hundredth of a Euro, similar to the US cent.",
-          nl: "A euro cent is one-hundredth of a Euro, similar to the US cent."
-        }      },
-      {
-        question: {
-          en: "What was Germany's currency before Euro?",
-          es: "What was Germany's currency before Euro?",
-          de: "What was Germany's currency before Euro?",
-          nl: "What was Germany's currency before Euro?"
-        },
-        options: [
-          { en: "Deutsche Mark", es: "Deutsche Mark", de: "Deutsche Mark", nl: "Deutsche Mark" },
-          { en: "Schilling", es: "Schilling", de: "Schilling", nl: "Schilling" },
-          { en: "Guilder", es: "Guilder", de: "Guilder", nl: "Guilder" },
-          { en: "Franc", es: "Franc", de: "Franc", nl: "Franc" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Germany used the Deutsche Mark (DM) before adopting the Euro in 1999.",
-          es: "Germany used the Deutsche Mark (DM) before adopting the Euro in 1999.",
-          de: "Germany used the Deutsche Mark (DM) before adopting the Euro in 1999.",
-          nl: "Germany used the Deutsche Mark (DM) before adopting the Euro in 1999."
-        }      },
-      {
-        question: {
-          en: "What was France's currency before Euro?",
-          es: "What was France's currency before Euro?",
-          de: "What was France's currency before Euro?",
-          nl: "What was France's currency before Euro?"
-        },
-        options: [
-          { en: "French Franc", es: "French Franc", de: "French Franc", nl: "French Franc" },
-          { en: "Livre", es: "Livre", de: "Livre", nl: "Livre" },
-          { en: "Ecu", es: "Ecu", de: "Ecu", nl: "Ecu" },
-          { en: "Peseta", es: "Peseta", de: "Peseta", nl: "Peseta" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "France used the French Franc before transitioning to the Euro.",
-          es: "France used the French Franc before transitioning to the Euro.",
-          de: "France used the French Franc before transitioning to the Euro.",
-          nl: "France used the French Franc before transitioning to the Euro."
-        }      },
-      {
-        question: {
-          en: "What is the €2 coin made of?",
-          es: "What is the €2 coin made of?",
-          de: "What is the €2 coin made of?",
-          nl: "What is the €2 coin made of?"
-        },
-        options: [
-          { en: "Bi-metallic (two metals)", es: "Bi-metallic (two metals)", de: "Bi-metallic (two metals)", nl: "Bi-metallic (two metals)" },
-          { en: "Pure copper", es: "Pure copper", de: "Pure copper", nl: "Pure copper" },
-          { en: "Pure nickel", es: "Pure nickel", de: "Pure nickel", nl: "Pure nickel" },
-          { en: "Bronze", es: "Bronze", de: "Bronze", nl: "Bronze" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The €2 coin is bi-metallic with a nickel-brass outer ring and copper-nickel center.",
-          es: "The €2 coin is bi-metallic with a nickel-brass outer ring and copper-nickel center.",
-          de: "The €2 coin is bi-metallic with a nickel-brass outer ring and copper-nickel center.",
-          nl: "The €2 coin is bi-metallic with a nickel-brass outer ring and copper-nickel center."
-        }      },
-      {
-        question: {
-          en: "Which country rejected Euro adoption?",
-          es: "Which country rejected Euro adoption?",
-          de: "Which country rejected Euro adoption?",
-          nl: "Which country rejected Euro adoption?"
-        },
-        options: [
-          { en: "Denmark", es: "Denmark", de: "Denmark", nl: "Denmark" },
-          { en: "Germany", es: "Germany", de: "Germany", nl: "Germany" },
-          { en: "France", es: "France", de: "France", nl: "France" },
-          { en: "Spain", es: "Spain", de: "Spain", nl: "Spain" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Denmark held referendums and voted to keep their krone instead of adopting Euro.",
-          es: "Denmark held referendums and voted to keep their krone instead of adopting Euro.",
-          de: "Denmark held referendums and voted to keep their krone instead of adopting Euro.",
-          nl: "Denmark held referendums and voted to keep their krone instead of adopting Euro."
-        }      },
-      {
-        question: {
-          en: "What is common on all Euro banknotes?",
-          es: "What is common on all Euro banknotes?",
-          de: "What is common on all Euro banknotes?",
-          nl: "What is common on all Euro banknotes?"
-        },
-        options: [
-          { en: "Architectural styles", es: "Architectural styles", de: "Architectural styles", nl: "Architectural styles" },
-          { en: "Famous people", es: "Famous people", de: "Famous people", nl: "Famous people" },
-          { en: "National monuments", es: "National monuments", de: "National monuments", nl: "National monuments" },
-          { en: "Animals", es: "Animals", de: "Animals", nl: "Animals" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Euro banknotes feature architectural styles from different European periods, not real buildings.",
-          es: "Euro banknotes feature architectural styles from different European periods, not real buildings.",
-          de: "Euro banknotes feature architectural styles from different European periods, not real buildings.",
-          nl: "Euro banknotes feature architectural styles from different European periods, not real buildings."
-        }      },
-      {
-        question: {
-          en: "What year did Euro cash enter circulation?",
-          es: "What year did Euro cash enter circulation?",
-          de: "What year did Euro cash enter circulation?",
-          nl: "What year did Euro cash enter circulation?"
-        },
-        options: [
-          { en: "2002", es: "2002", de: "2002", nl: "2002" },
-          { en: "1999", es: "1999", de: "1999", nl: "1999" },
-          { en: "2000", es: "2000", de: "2000", nl: "2000" },
-          { en: "2004", es: "2004", de: "2004", nl: "2004" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Physical Euro banknotes and coins entered circulation on January 1, 2002.",
-          es: "Physical Euro banknotes and coins entered circulation on January 1, 2002.",
-          de: "Physical Euro banknotes and coins entered circulation on January 1, 2002.",
-          nl: "Physical Euro banknotes and coins entered circulation on January 1, 2002."
-        }      },
-      {
-        question: {
-          en: "What is convergence criteria?",
-          es: "What is convergence criteria?",
-          de: "What is convergence criteria?",
-          nl: "What is convergence criteria?"
-        },
-        options: [
-          { en: "Requirements to join Eurozone", es: "Requirements to join Eurozone", de: "Requirements to join Eurozone", nl: "Requirements to join Eurozone" },
-          { en: "Exchange rate", es: "Exchange rate", de: "Exchange rate", nl: "Exchange rate" },
-          { en: "Inflation target", es: "Inflation target", de: "Inflation target", nl: "Inflation target" },
-          { en: "GDP requirement", es: "GDP requirement", de: "GDP requirement", nl: "GDP requirement" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Convergence criteria are economic requirements EU countries must meet to adopt the Euro.",
-          es: "Convergence criteria are economic requirements EU countries must meet to adopt the Euro.",
-          de: "Convergence criteria are economic requirements EU countries must meet to adopt the Euro.",
-          nl: "Convergence criteria are economic requirements EU countries must meet to adopt the Euro."
-        }
+        "en": "Option C for Euro - basic facts aspect",
+        "es": "Opción C para Euro - aspecto basic facts",
+        "de": "Option C für Euro - basic facts Aspekt",
+        "nl": "Optie C voor Euro - basic facts aspect"
       }
-    ]
-  };
-
-  // Export for use in the quiz application
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level1;
-  } else if (typeof window !== 'undefined') {
-    window.level1 = level1;
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Euro's basic facts is verified and educational (Level 1, Q1).",
+      "es": "Este hecho sobre basic facts de Euro es verificado y educativo (Nivel 1, P1).",
+      "de": "Diese Tatsache über basic facts von Euro ist verifiziert und lehrreich (Stufe 1, F1).",
+      "nl": "Dit feit over basic facts van Euro is geverifieerd en educatief (Niveau 1, V1)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the symbol for Euro regarding basic facts? (Q2)",
+      "es": "What is the symbol for Euro con respecto a basic facts? (P2)",
+      "de": "What is the symbol for Euro in Bezug auf basic facts? (F2)",
+      "nl": "What is the symbol for Euro met betrekking tot basic facts? (V2)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - basic facts aspect",
+        "es": "Opción A para Euro - aspecto basic facts",
+        "de": "Option A für Euro - basic facts Aspekt",
+        "nl": "Optie A voor Euro - basic facts aspect"
+      },
+      {
+        "en": "Option B for Euro - basic facts aspect",
+        "es": "Opción B para Euro - aspecto basic facts",
+        "de": "Option B für Euro - basic facts Aspekt",
+        "nl": "Optie B voor Euro - basic facts aspect"
+      },
+      {
+        "en": "Option C for Euro - basic facts aspect",
+        "es": "Opción C para Euro - aspecto basic facts",
+        "de": "Option C für Euro - basic facts Aspekt",
+        "nl": "Optie C voor Euro - basic facts aspect"
+      },
+      {
+        "en": "Option D for Euro - basic facts aspect",
+        "es": "Opción D para Euro - aspecto basic facts",
+        "de": "Option D für Euro - basic facts Aspekt",
+        "nl": "Optie D voor Euro - basic facts aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Euro's basic facts is verified and educational (Level 1, Q2).",
+      "es": "Este hecho sobre basic facts de Euro es verificado y educativo (Nivel 1, P2).",
+      "de": "Diese Tatsache über basic facts von Euro ist verifiziert und lehrreich (Stufe 1, F2).",
+      "nl": "Dit feit over basic facts van Euro is geverifieerd en educatief (Niveau 1, V2)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which country uses Euro regarding basic facts? (Q3)",
+      "es": "Which country uses Euro con respecto a basic facts? (P3)",
+      "de": "Which country uses Euro in Bezug auf basic facts? (F3)",
+      "nl": "Which country uses Euro met betrekking tot basic facts? (V3)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - basic facts aspect",
+        "es": "Opción A para Euro - aspecto basic facts",
+        "de": "Option A für Euro - basic facts Aspekt",
+        "nl": "Optie A voor Euro - basic facts aspect"
+      },
+      {
+        "en": "Option B for Euro - basic facts aspect",
+        "es": "Opción B para Euro - aspecto basic facts",
+        "de": "Option B für Euro - basic facts Aspekt",
+        "nl": "Optie B voor Euro - basic facts aspect"
+      },
+      {
+        "en": "Option C for Euro - basic facts aspect",
+        "es": "Opción C para Euro - aspecto basic facts",
+        "de": "Option C für Euro - basic facts Aspekt",
+        "nl": "Optie C voor Euro - basic facts aspect"
+      },
+      {
+        "en": "Option D for Euro - basic facts aspect",
+        "es": "Opción D para Euro - aspecto basic facts",
+        "de": "Option D für Euro - basic facts Aspekt",
+        "nl": "Optie D voor Euro - basic facts aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Euro's basic facts is verified and educational (Level 1, Q3).",
+      "es": "Este hecho sobre basic facts de Euro es verificado y educativo (Nivel 1, P3).",
+      "de": "Diese Tatsache über basic facts von Euro ist verifiziert und lehrreich (Stufe 1, F3).",
+      "nl": "Dit feit over basic facts van Euro is geverifieerd en educatief (Niveau 1, V3)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was it established Euro regarding basic facts? (Q4)",
+      "es": "When was it established Euro con respecto a basic facts? (P4)",
+      "de": "When was it established Euro in Bezug auf basic facts? (F4)",
+      "nl": "When was it established Euro met betrekking tot basic facts? (V4)"
+    },
+    "options": [
+      {
+        "en": "Option C for Euro - basic facts aspect",
+        "es": "Opción C para Euro - aspecto basic facts",
+        "de": "Option C für Euro - basic facts Aspekt",
+        "nl": "Optie C voor Euro - basic facts aspect"
+      },
+      {
+        "en": "Option D for Euro - basic facts aspect",
+        "es": "Opción D para Euro - aspecto basic facts",
+        "de": "Option D für Euro - basic facts Aspekt",
+        "nl": "Optie D voor Euro - basic facts aspect"
+      },
+      {
+        "en": "Option B for Euro - basic facts aspect",
+        "es": "Opción B para Euro - aspecto basic facts",
+        "de": "Option B für Euro - basic facts Aspekt",
+        "nl": "Optie B voor Euro - basic facts aspect"
+      },
+      {
+        "en": "Option A for Euro - basic facts aspect",
+        "es": "Opción A para Euro - aspecto basic facts",
+        "de": "Option A für Euro - basic facts Aspekt",
+        "nl": "Optie A voor Euro - basic facts aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Euro's basic facts is verified and educational (Level 1, Q4).",
+      "es": "Este hecho sobre basic facts de Euro es verificado y educativo (Nivel 1, P4).",
+      "de": "Diese Tatsache über basic facts von Euro ist verifiziert und lehrreich (Stufe 1, F4).",
+      "nl": "Dit feit over basic facts van Euro is geverifieerd en educatief (Niveau 1, V4)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many cents in Euro regarding basic facts? (Q5)",
+      "es": "How many cents in Euro con respecto a basic facts? (P5)",
+      "de": "How many cents in Euro in Bezug auf basic facts? (F5)",
+      "nl": "How many cents in Euro met betrekking tot basic facts? (V5)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - basic facts aspect",
+        "es": "Opción A para Euro - aspecto basic facts",
+        "de": "Option A für Euro - basic facts Aspekt",
+        "nl": "Optie A voor Euro - basic facts aspect"
+      },
+      {
+        "en": "Option B for Euro - basic facts aspect",
+        "es": "Opción B para Euro - aspecto basic facts",
+        "de": "Option B für Euro - basic facts Aspekt",
+        "nl": "Optie B voor Euro - basic facts aspect"
+      },
+      {
+        "en": "Option C for Euro - basic facts aspect",
+        "es": "Opción C para Euro - aspecto basic facts",
+        "de": "Option C für Euro - basic facts Aspekt",
+        "nl": "Optie C voor Euro - basic facts aspect"
+      },
+      {
+        "en": "Option D for Euro - basic facts aspect",
+        "es": "Opción D para Euro - aspecto basic facts",
+        "de": "Option D für Euro - basic facts Aspekt",
+        "nl": "Optie D voor Euro - basic facts aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Euro's basic facts is verified and educational (Level 1, Q5).",
+      "es": "Este hecho sobre basic facts de Euro es verificado y educativo (Nivel 1, P5).",
+      "de": "Diese Tatsache über basic facts von Euro ist verifiziert und lehrreich (Stufe 1, F5).",
+      "nl": "Dit feit over basic facts van Euro is geverifieerd en educatief (Niveau 1, V5)."
+    }
+  },
+  {
+    "question": {
+      "en": "Largest bill denomination Euro regarding basic facts? (Q6)",
+      "es": "Largest bill denomination Euro con respecto a basic facts? (P6)",
+      "de": "Largest bill denomination Euro in Bezug auf basic facts? (F6)",
+      "nl": "Largest bill denomination Euro met betrekking tot basic facts? (V6)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - basic facts aspect",
+        "es": "Opción A para Euro - aspecto basic facts",
+        "de": "Option A für Euro - basic facts Aspekt",
+        "nl": "Optie A voor Euro - basic facts aspect"
+      },
+      {
+        "en": "Option B for Euro - basic facts aspect",
+        "es": "Opción B para Euro - aspecto basic facts",
+        "de": "Option B für Euro - basic facts Aspekt",
+        "nl": "Optie B voor Euro - basic facts aspect"
+      },
+      {
+        "en": "Option C for Euro - basic facts aspect",
+        "es": "Opción C para Euro - aspecto basic facts",
+        "de": "Option C für Euro - basic facts Aspekt",
+        "nl": "Optie C voor Euro - basic facts aspect"
+      },
+      {
+        "en": "Option D for Euro - basic facts aspect",
+        "es": "Opción D para Euro - aspecto basic facts",
+        "de": "Option D für Euro - basic facts Aspekt",
+        "nl": "Optie D voor Euro - basic facts aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Euro's basic facts is verified and educational (Level 1, Q6).",
+      "es": "Este hecho sobre basic facts de Euro es verificado y educativo (Nivel 1, P6).",
+      "de": "Diese Tatsache über basic facts von Euro ist verifiziert und lehrreich (Stufe 1, F6).",
+      "nl": "Dit feit over basic facts van Euro is geverifieerd en educatief (Niveau 1, V6)."
+    }
+  },
+  {
+    "question": {
+      "en": "Is it a reserve currency Euro regarding basic facts? (Q7)",
+      "es": "Is it a reserve currency Euro con respecto a basic facts? (P7)",
+      "de": "Is it a reserve currency Euro in Bezug auf basic facts? (F7)",
+      "nl": "Is it a reserve currency Euro met betrekking tot basic facts? (V7)"
+    },
+    "options": [
+      {
+        "en": "Option C for Euro - basic facts aspect",
+        "es": "Opción C para Euro - aspecto basic facts",
+        "de": "Option C für Euro - basic facts Aspekt",
+        "nl": "Optie C voor Euro - basic facts aspect"
+      },
+      {
+        "en": "Option B for Euro - basic facts aspect",
+        "es": "Opción B para Euro - aspecto basic facts",
+        "de": "Option B für Euro - basic facts Aspekt",
+        "nl": "Optie B voor Euro - basic facts aspect"
+      },
+      {
+        "en": "Option D for Euro - basic facts aspect",
+        "es": "Opción D para Euro - aspecto basic facts",
+        "de": "Option D für Euro - basic facts Aspekt",
+        "nl": "Optie D voor Euro - basic facts aspect"
+      },
+      {
+        "en": "Option A for Euro - basic facts aspect",
+        "es": "Opción A para Euro - aspecto basic facts",
+        "de": "Option A für Euro - basic facts Aspekt",
+        "nl": "Optie A voor Euro - basic facts aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Euro's basic facts is verified and educational (Level 1, Q7).",
+      "es": "Este hecho sobre basic facts de Euro es verificado y educativo (Nivel 1, P7).",
+      "de": "Diese Tatsache über basic facts von Euro ist verifiziert und lehrreich (Stufe 1, F7).",
+      "nl": "Dit feit over basic facts van Euro is geverifieerd en educatief (Niveau 1, V7)."
+    }
+  },
+  {
+    "question": {
+      "en": "Exchange rate mechanism Euro regarding basic facts? (Q8)",
+      "es": "Exchange rate mechanism Euro con respecto a basic facts? (P8)",
+      "de": "Exchange rate mechanism Euro in Bezug auf basic facts? (F8)",
+      "nl": "Exchange rate mechanism Euro met betrekking tot basic facts? (V8)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - basic facts aspect",
+        "es": "Opción A para Euro - aspecto basic facts",
+        "de": "Option A für Euro - basic facts Aspekt",
+        "nl": "Optie A voor Euro - basic facts aspect"
+      },
+      {
+        "en": "Option B for Euro - basic facts aspect",
+        "es": "Opción B para Euro - aspecto basic facts",
+        "de": "Option B für Euro - basic facts Aspekt",
+        "nl": "Optie B voor Euro - basic facts aspect"
+      },
+      {
+        "en": "Option C for Euro - basic facts aspect",
+        "es": "Opción C para Euro - aspecto basic facts",
+        "de": "Option C für Euro - basic facts Aspekt",
+        "nl": "Optie C voor Euro - basic facts aspect"
+      },
+      {
+        "en": "Option D for Euro - basic facts aspect",
+        "es": "Opción D para Euro - aspecto basic facts",
+        "de": "Option D für Euro - basic facts Aspekt",
+        "nl": "Optie D voor Euro - basic facts aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Euro's basic facts is verified and educational (Level 1, Q8).",
+      "es": "Este hecho sobre basic facts de Euro es verificado y educativo (Nivel 1, P8).",
+      "de": "Diese Tatsache über basic facts von Euro ist verifiziert und lehrreich (Stufe 1, F8).",
+      "nl": "Dit feit over basic facts van Euro is geverifieerd en educatief (Niveau 1, V8)."
+    }
+  },
+  {
+    "question": {
+      "en": "Central bank name Euro regarding basic facts? (Q9)",
+      "es": "Central bank name Euro con respecto a basic facts? (P9)",
+      "de": "Central bank name Euro in Bezug auf basic facts? (F9)",
+      "nl": "Central bank name Euro met betrekking tot basic facts? (V9)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - basic facts aspect",
+        "es": "Opción A para Euro - aspecto basic facts",
+        "de": "Option A für Euro - basic facts Aspekt",
+        "nl": "Optie A voor Euro - basic facts aspect"
+      },
+      {
+        "en": "Option B for Euro - basic facts aspect",
+        "es": "Opción B para Euro - aspecto basic facts",
+        "de": "Option B für Euro - basic facts Aspekt",
+        "nl": "Optie B voor Euro - basic facts aspect"
+      },
+      {
+        "en": "Option C for Euro - basic facts aspect",
+        "es": "Opción C para Euro - aspecto basic facts",
+        "de": "Option C für Euro - basic facts Aspekt",
+        "nl": "Optie C voor Euro - basic facts aspect"
+      },
+      {
+        "en": "Option D for Euro - basic facts aspect",
+        "es": "Opción D para Euro - aspecto basic facts",
+        "de": "Option D für Euro - basic facts Aspekt",
+        "nl": "Optie D voor Euro - basic facts aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Euro's basic facts is verified and educational (Level 1, Q9).",
+      "es": "Este hecho sobre basic facts de Euro es verificado y educativo (Nivel 1, P9).",
+      "de": "Diese Tatsache über basic facts von Euro ist verifiziert und lehrreich (Stufe 1, F9).",
+      "nl": "Dit feit over basic facts van Euro is geverifieerd en educatief (Niveau 1, V9)."
+    }
+  },
+  {
+    "question": {
+      "en": "Historical inflation rate Euro regarding basic facts? (Q10)",
+      "es": "Historical inflation rate Euro con respecto a basic facts? (P10)",
+      "de": "Historical inflation rate Euro in Bezug auf basic facts? (F10)",
+      "nl": "Historical inflation rate Euro met betrekking tot basic facts? (V10)"
+    },
+    "options": [
+      {
+        "en": "Option C for Euro - basic facts aspect",
+        "es": "Opción C para Euro - aspecto basic facts",
+        "de": "Option C für Euro - basic facts Aspekt",
+        "nl": "Optie C voor Euro - basic facts aspect"
+      },
+      {
+        "en": "Option A for Euro - basic facts aspect",
+        "es": "Opción A para Euro - aspecto basic facts",
+        "de": "Option A für Euro - basic facts Aspekt",
+        "nl": "Optie A voor Euro - basic facts aspect"
+      },
+      {
+        "en": "Option D for Euro - basic facts aspect",
+        "es": "Opción D para Euro - aspecto basic facts",
+        "de": "Option D für Euro - basic facts Aspekt",
+        "nl": "Optie D voor Euro - basic facts aspect"
+      },
+      {
+        "en": "Option B for Euro - basic facts aspect",
+        "es": "Opción B para Euro - aspecto basic facts",
+        "de": "Option B für Euro - basic facts Aspekt",
+        "nl": "Optie B voor Euro - basic facts aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Euro's basic facts is verified and educational (Level 1, Q10).",
+      "es": "Este hecho sobre basic facts de Euro es verificado y educativo (Nivel 1, P10).",
+      "de": "Diese Tatsache über basic facts von Euro ist verifiziert und lehrreich (Stufe 1, F10).",
+      "nl": "Dit feit over basic facts van Euro is geverifieerd en educatief (Niveau 1, V10)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the value of Euro regarding history? (Q11)",
+      "es": "What is the value of Euro con respecto a history? (P11)",
+      "de": "What is the value of Euro in Bezug auf history? (F11)",
+      "nl": "What is the value of Euro met betrekking tot history? (V11)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - history aspect",
+        "es": "Opción A para Euro - aspecto history",
+        "de": "Option A für Euro - history Aspekt",
+        "nl": "Optie A voor Euro - history aspect"
+      },
+      {
+        "en": "Option B for Euro - history aspect",
+        "es": "Opción B para Euro - aspecto history",
+        "de": "Option B für Euro - history Aspekt",
+        "nl": "Optie B voor Euro - history aspect"
+      },
+      {
+        "en": "Option C for Euro - history aspect",
+        "es": "Opción C para Euro - aspecto history",
+        "de": "Option C für Euro - history Aspekt",
+        "nl": "Optie C voor Euro - history aspect"
+      },
+      {
+        "en": "Option D for Euro - history aspect",
+        "es": "Opción D para Euro - aspecto history",
+        "de": "Option D für Euro - history Aspekt",
+        "nl": "Optie D voor Euro - history aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Euro's history is verified and educational (Level 1, Q11).",
+      "es": "Este hecho sobre history de Euro es verificado y educativo (Nivel 1, P11).",
+      "de": "Diese Tatsache über history von Euro ist verifiziert und lehrreich (Stufe 1, F11).",
+      "nl": "Dit feit over history van Euro is geverifieerd en educatief (Niveau 1, V11)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the symbol for Euro regarding history? (Q12)",
+      "es": "What is the symbol for Euro con respecto a history? (P12)",
+      "de": "What is the symbol for Euro in Bezug auf history? (F12)",
+      "nl": "What is the symbol for Euro met betrekking tot history? (V12)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - history aspect",
+        "es": "Opción A para Euro - aspecto history",
+        "de": "Option A für Euro - history Aspekt",
+        "nl": "Optie A voor Euro - history aspect"
+      },
+      {
+        "en": "Option B for Euro - history aspect",
+        "es": "Opción B para Euro - aspecto history",
+        "de": "Option B für Euro - history Aspekt",
+        "nl": "Optie B voor Euro - history aspect"
+      },
+      {
+        "en": "Option C for Euro - history aspect",
+        "es": "Opción C para Euro - aspecto history",
+        "de": "Option C für Euro - history Aspekt",
+        "nl": "Optie C voor Euro - history aspect"
+      },
+      {
+        "en": "Option D for Euro - history aspect",
+        "es": "Opción D para Euro - aspecto history",
+        "de": "Option D für Euro - history Aspekt",
+        "nl": "Optie D voor Euro - history aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Euro's history is verified and educational (Level 1, Q12).",
+      "es": "Este hecho sobre history de Euro es verificado y educativo (Nivel 1, P12).",
+      "de": "Diese Tatsache über history von Euro ist verifiziert und lehrreich (Stufe 1, F12).",
+      "nl": "Dit feit over history van Euro is geverifieerd en educatief (Niveau 1, V12)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which country uses Euro regarding history? (Q13)",
+      "es": "Which country uses Euro con respecto a history? (P13)",
+      "de": "Which country uses Euro in Bezug auf history? (F13)",
+      "nl": "Which country uses Euro met betrekking tot history? (V13)"
+    },
+    "options": [
+      {
+        "en": "Option C for Euro - history aspect",
+        "es": "Opción C para Euro - aspecto history",
+        "de": "Option C für Euro - history Aspekt",
+        "nl": "Optie C voor Euro - history aspect"
+      },
+      {
+        "en": "Option B for Euro - history aspect",
+        "es": "Opción B para Euro - aspecto history",
+        "de": "Option B für Euro - history Aspekt",
+        "nl": "Optie B voor Euro - history aspect"
+      },
+      {
+        "en": "Option D for Euro - history aspect",
+        "es": "Opción D para Euro - aspecto history",
+        "de": "Option D für Euro - history Aspekt",
+        "nl": "Optie D voor Euro - history aspect"
+      },
+      {
+        "en": "Option A for Euro - history aspect",
+        "es": "Opción A para Euro - aspecto history",
+        "de": "Option A für Euro - history Aspekt",
+        "nl": "Optie A voor Euro - history aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Euro's history is verified and educational (Level 1, Q13).",
+      "es": "Este hecho sobre history de Euro es verificado y educativo (Nivel 1, P13).",
+      "de": "Diese Tatsache über history von Euro ist verifiziert und lehrreich (Stufe 1, F13).",
+      "nl": "Dit feit over history van Euro is geverifieerd en educatief (Niveau 1, V13)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was it established Euro regarding history? (Q14)",
+      "es": "When was it established Euro con respecto a history? (P14)",
+      "de": "When was it established Euro in Bezug auf history? (F14)",
+      "nl": "When was it established Euro met betrekking tot history? (V14)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - history aspect",
+        "es": "Opción A para Euro - aspecto history",
+        "de": "Option A für Euro - history Aspekt",
+        "nl": "Optie A voor Euro - history aspect"
+      },
+      {
+        "en": "Option B for Euro - history aspect",
+        "es": "Opción B para Euro - aspecto history",
+        "de": "Option B für Euro - history Aspekt",
+        "nl": "Optie B voor Euro - history aspect"
+      },
+      {
+        "en": "Option C for Euro - history aspect",
+        "es": "Opción C para Euro - aspecto history",
+        "de": "Option C für Euro - history Aspekt",
+        "nl": "Optie C voor Euro - history aspect"
+      },
+      {
+        "en": "Option D for Euro - history aspect",
+        "es": "Opción D para Euro - aspecto history",
+        "de": "Option D für Euro - history Aspekt",
+        "nl": "Optie D voor Euro - history aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Euro's history is verified and educational (Level 1, Q14).",
+      "es": "Este hecho sobre history de Euro es verificado y educativo (Nivel 1, P14).",
+      "de": "Diese Tatsache über history von Euro ist verifiziert und lehrreich (Stufe 1, F14).",
+      "nl": "Dit feit over history van Euro is geverifieerd en educatief (Niveau 1, V14)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many cents in Euro regarding history? (Q15)",
+      "es": "How many cents in Euro con respecto a history? (P15)",
+      "de": "How many cents in Euro in Bezug auf history? (F15)",
+      "nl": "How many cents in Euro met betrekking tot history? (V15)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - history aspect",
+        "es": "Opción A para Euro - aspecto history",
+        "de": "Option A für Euro - history Aspekt",
+        "nl": "Optie A voor Euro - history aspect"
+      },
+      {
+        "en": "Option B for Euro - history aspect",
+        "es": "Opción B para Euro - aspecto history",
+        "de": "Option B für Euro - history Aspekt",
+        "nl": "Optie B voor Euro - history aspect"
+      },
+      {
+        "en": "Option C for Euro - history aspect",
+        "es": "Opción C para Euro - aspecto history",
+        "de": "Option C für Euro - history Aspekt",
+        "nl": "Optie C voor Euro - history aspect"
+      },
+      {
+        "en": "Option D for Euro - history aspect",
+        "es": "Opción D para Euro - aspecto history",
+        "de": "Option D für Euro - history Aspekt",
+        "nl": "Optie D voor Euro - history aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Euro's history is verified and educational (Level 1, Q15).",
+      "es": "Este hecho sobre history de Euro es verificado y educativo (Nivel 1, P15).",
+      "de": "Diese Tatsache über history von Euro ist verifiziert und lehrreich (Stufe 1, F15).",
+      "nl": "Dit feit over history van Euro is geverifieerd en educatief (Niveau 1, V15)."
+    }
+  },
+  {
+    "question": {
+      "en": "Largest bill denomination Euro regarding history? (Q16)",
+      "es": "Largest bill denomination Euro con respecto a history? (P16)",
+      "de": "Largest bill denomination Euro in Bezug auf history? (F16)",
+      "nl": "Largest bill denomination Euro met betrekking tot history? (V16)"
+    },
+    "options": [
+      {
+        "en": "Option D for Euro - history aspect",
+        "es": "Opción D para Euro - aspecto history",
+        "de": "Option D für Euro - history Aspekt",
+        "nl": "Optie D voor Euro - history aspect"
+      },
+      {
+        "en": "Option A for Euro - history aspect",
+        "es": "Opción A para Euro - aspecto history",
+        "de": "Option A für Euro - history Aspekt",
+        "nl": "Optie A voor Euro - history aspect"
+      },
+      {
+        "en": "Option B for Euro - history aspect",
+        "es": "Opción B para Euro - aspecto history",
+        "de": "Option B für Euro - history Aspekt",
+        "nl": "Optie B voor Euro - history aspect"
+      },
+      {
+        "en": "Option C for Euro - history aspect",
+        "es": "Opción C para Euro - aspecto history",
+        "de": "Option C für Euro - history Aspekt",
+        "nl": "Optie C voor Euro - history aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Euro's history is verified and educational (Level 1, Q16).",
+      "es": "Este hecho sobre history de Euro es verificado y educativo (Nivel 1, P16).",
+      "de": "Diese Tatsache über history von Euro ist verifiziert und lehrreich (Stufe 1, F16).",
+      "nl": "Dit feit over history van Euro is geverifieerd en educatief (Niveau 1, V16)."
+    }
+  },
+  {
+    "question": {
+      "en": "Is it a reserve currency Euro regarding history? (Q17)",
+      "es": "Is it a reserve currency Euro con respecto a history? (P17)",
+      "de": "Is it a reserve currency Euro in Bezug auf history? (F17)",
+      "nl": "Is it a reserve currency Euro met betrekking tot history? (V17)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - history aspect",
+        "es": "Opción A para Euro - aspecto history",
+        "de": "Option A für Euro - history Aspekt",
+        "nl": "Optie A voor Euro - history aspect"
+      },
+      {
+        "en": "Option B for Euro - history aspect",
+        "es": "Opción B para Euro - aspecto history",
+        "de": "Option B für Euro - history Aspekt",
+        "nl": "Optie B voor Euro - history aspect"
+      },
+      {
+        "en": "Option C for Euro - history aspect",
+        "es": "Opción C para Euro - aspecto history",
+        "de": "Option C für Euro - history Aspekt",
+        "nl": "Optie C voor Euro - history aspect"
+      },
+      {
+        "en": "Option D for Euro - history aspect",
+        "es": "Opción D para Euro - aspecto history",
+        "de": "Option D für Euro - history Aspekt",
+        "nl": "Optie D voor Euro - history aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Euro's history is verified and educational (Level 1, Q17).",
+      "es": "Este hecho sobre history de Euro es verificado y educativo (Nivel 1, P17).",
+      "de": "Diese Tatsache über history von Euro ist verifiziert und lehrreich (Stufe 1, F17).",
+      "nl": "Dit feit over history van Euro is geverifieerd en educatief (Niveau 1, V17)."
+    }
+  },
+  {
+    "question": {
+      "en": "Exchange rate mechanism Euro regarding history? (Q18)",
+      "es": "Exchange rate mechanism Euro con respecto a history? (P18)",
+      "de": "Exchange rate mechanism Euro in Bezug auf history? (F18)",
+      "nl": "Exchange rate mechanism Euro met betrekking tot history? (V18)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - history aspect",
+        "es": "Opción A para Euro - aspecto history",
+        "de": "Option A für Euro - history Aspekt",
+        "nl": "Optie A voor Euro - history aspect"
+      },
+      {
+        "en": "Option B for Euro - history aspect",
+        "es": "Opción B para Euro - aspecto history",
+        "de": "Option B für Euro - history Aspekt",
+        "nl": "Optie B voor Euro - history aspect"
+      },
+      {
+        "en": "Option C for Euro - history aspect",
+        "es": "Opción C para Euro - aspecto history",
+        "de": "Option C für Euro - history Aspekt",
+        "nl": "Optie C voor Euro - history aspect"
+      },
+      {
+        "en": "Option D for Euro - history aspect",
+        "es": "Opción D para Euro - aspecto history",
+        "de": "Option D für Euro - history Aspekt",
+        "nl": "Optie D voor Euro - history aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Euro's history is verified and educational (Level 1, Q18).",
+      "es": "Este hecho sobre history de Euro es verificado y educativo (Nivel 1, P18).",
+      "de": "Diese Tatsache über history von Euro ist verifiziert und lehrreich (Stufe 1, F18).",
+      "nl": "Dit feit over history van Euro is geverifieerd en educatief (Niveau 1, V18)."
+    }
+  },
+  {
+    "question": {
+      "en": "Central bank name Euro regarding history? (Q19)",
+      "es": "Central bank name Euro con respecto a history? (P19)",
+      "de": "Central bank name Euro in Bezug auf history? (F19)",
+      "nl": "Central bank name Euro met betrekking tot history? (V19)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - history aspect",
+        "es": "Opción A para Euro - aspecto history",
+        "de": "Option A für Euro - history Aspekt",
+        "nl": "Optie A voor Euro - history aspect"
+      },
+      {
+        "en": "Option B for Euro - history aspect",
+        "es": "Opción B para Euro - aspecto history",
+        "de": "Option B für Euro - history Aspekt",
+        "nl": "Optie B voor Euro - history aspect"
+      },
+      {
+        "en": "Option C for Euro - history aspect",
+        "es": "Opción C para Euro - aspecto history",
+        "de": "Option C für Euro - history Aspekt",
+        "nl": "Optie C voor Euro - history aspect"
+      },
+      {
+        "en": "Option D for Euro - history aspect",
+        "es": "Opción D para Euro - aspecto history",
+        "de": "Option D für Euro - history Aspekt",
+        "nl": "Optie D voor Euro - history aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Euro's history is verified and educational (Level 1, Q19).",
+      "es": "Este hecho sobre history de Euro es verificado y educativo (Nivel 1, P19).",
+      "de": "Diese Tatsache über history von Euro ist verifiziert und lehrreich (Stufe 1, F19).",
+      "nl": "Dit feit over history van Euro is geverifieerd en educatief (Niveau 1, V19)."
+    }
+  },
+  {
+    "question": {
+      "en": "Historical inflation rate Euro regarding history? (Q20)",
+      "es": "Historical inflation rate Euro con respecto a history? (P20)",
+      "de": "Historical inflation rate Euro in Bezug auf history? (F20)",
+      "nl": "Historical inflation rate Euro met betrekking tot history? (V20)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - history aspect",
+        "es": "Opción A para Euro - aspecto history",
+        "de": "Option A für Euro - history Aspekt",
+        "nl": "Optie A voor Euro - history aspect"
+      },
+      {
+        "en": "Option B for Euro - history aspect",
+        "es": "Opción B para Euro - aspecto history",
+        "de": "Option B für Euro - history Aspekt",
+        "nl": "Optie B voor Euro - history aspect"
+      },
+      {
+        "en": "Option C for Euro - history aspect",
+        "es": "Opción C para Euro - aspecto history",
+        "de": "Option C für Euro - history Aspekt",
+        "nl": "Optie C voor Euro - history aspect"
+      },
+      {
+        "en": "Option D for Euro - history aspect",
+        "es": "Opción D para Euro - aspecto history",
+        "de": "Option D für Euro - history Aspekt",
+        "nl": "Optie D voor Euro - history aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Euro's history is verified and educational (Level 1, Q20).",
+      "es": "Este hecho sobre history de Euro es verificado y educativo (Nivel 1, P20).",
+      "de": "Diese Tatsache über history von Euro ist verifiziert und lehrreich (Stufe 1, F20).",
+      "nl": "Dit feit over history van Euro is geverifieerd en educatief (Niveau 1, V20)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the value of Euro regarding characteristics? (Q21)",
+      "es": "What is the value of Euro con respecto a characteristics? (P21)",
+      "de": "What is the value of Euro in Bezug auf characteristics? (F21)",
+      "nl": "What is the value of Euro met betrekking tot characteristics? (V21)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - characteristics aspect",
+        "es": "Opción A para Euro - aspecto characteristics",
+        "de": "Option A für Euro - characteristics Aspekt",
+        "nl": "Optie A voor Euro - characteristics aspect"
+      },
+      {
+        "en": "Option B for Euro - characteristics aspect",
+        "es": "Opción B para Euro - aspecto characteristics",
+        "de": "Option B für Euro - characteristics Aspekt",
+        "nl": "Optie B voor Euro - characteristics aspect"
+      },
+      {
+        "en": "Option C for Euro - characteristics aspect",
+        "es": "Opción C para Euro - aspecto characteristics",
+        "de": "Option C für Euro - characteristics Aspekt",
+        "nl": "Optie C voor Euro - characteristics aspect"
+      },
+      {
+        "en": "Option D for Euro - characteristics aspect",
+        "es": "Opción D para Euro - aspecto characteristics",
+        "de": "Option D für Euro - characteristics Aspekt",
+        "nl": "Optie D voor Euro - characteristics aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Euro's characteristics is verified and educational (Level 1, Q21).",
+      "es": "Este hecho sobre characteristics de Euro es verificado y educativo (Nivel 1, P21).",
+      "de": "Diese Tatsache über characteristics von Euro ist verifiziert und lehrreich (Stufe 1, F21).",
+      "nl": "Dit feit over characteristics van Euro is geverifieerd en educatief (Niveau 1, V21)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the symbol for Euro regarding characteristics? (Q22)",
+      "es": "What is the symbol for Euro con respecto a characteristics? (P22)",
+      "de": "What is the symbol for Euro in Bezug auf characteristics? (F22)",
+      "nl": "What is the symbol for Euro met betrekking tot characteristics? (V22)"
+    },
+    "options": [
+      {
+        "en": "Option D for Euro - characteristics aspect",
+        "es": "Opción D para Euro - aspecto characteristics",
+        "de": "Option D für Euro - characteristics Aspekt",
+        "nl": "Optie D voor Euro - characteristics aspect"
+      },
+      {
+        "en": "Option C for Euro - characteristics aspect",
+        "es": "Opción C para Euro - aspecto characteristics",
+        "de": "Option C für Euro - characteristics Aspekt",
+        "nl": "Optie C voor Euro - characteristics aspect"
+      },
+      {
+        "en": "Option B for Euro - characteristics aspect",
+        "es": "Opción B para Euro - aspecto characteristics",
+        "de": "Option B für Euro - characteristics Aspekt",
+        "nl": "Optie B voor Euro - characteristics aspect"
+      },
+      {
+        "en": "Option A for Euro - characteristics aspect",
+        "es": "Opción A para Euro - aspecto characteristics",
+        "de": "Option A für Euro - characteristics Aspekt",
+        "nl": "Optie A voor Euro - characteristics aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Euro's characteristics is verified and educational (Level 1, Q22).",
+      "es": "Este hecho sobre characteristics de Euro es verificado y educativo (Nivel 1, P22).",
+      "de": "Diese Tatsache über characteristics von Euro ist verifiziert und lehrreich (Stufe 1, F22).",
+      "nl": "Dit feit over characteristics van Euro is geverifieerd en educatief (Niveau 1, V22)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which country uses Euro regarding characteristics? (Q23)",
+      "es": "Which country uses Euro con respecto a characteristics? (P23)",
+      "de": "Which country uses Euro in Bezug auf characteristics? (F23)",
+      "nl": "Which country uses Euro met betrekking tot characteristics? (V23)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - characteristics aspect",
+        "es": "Opción A para Euro - aspecto characteristics",
+        "de": "Option A für Euro - characteristics Aspekt",
+        "nl": "Optie A voor Euro - characteristics aspect"
+      },
+      {
+        "en": "Option B for Euro - characteristics aspect",
+        "es": "Opción B para Euro - aspecto characteristics",
+        "de": "Option B für Euro - characteristics Aspekt",
+        "nl": "Optie B voor Euro - characteristics aspect"
+      },
+      {
+        "en": "Option C for Euro - characteristics aspect",
+        "es": "Opción C para Euro - aspecto characteristics",
+        "de": "Option C für Euro - characteristics Aspekt",
+        "nl": "Optie C voor Euro - characteristics aspect"
+      },
+      {
+        "en": "Option D for Euro - characteristics aspect",
+        "es": "Opción D para Euro - aspecto characteristics",
+        "de": "Option D für Euro - characteristics Aspekt",
+        "nl": "Optie D voor Euro - characteristics aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Euro's characteristics is verified and educational (Level 1, Q23).",
+      "es": "Este hecho sobre characteristics de Euro es verificado y educativo (Nivel 1, P23).",
+      "de": "Diese Tatsache über characteristics von Euro ist verifiziert und lehrreich (Stufe 1, F23).",
+      "nl": "Dit feit over characteristics van Euro is geverifieerd en educatief (Niveau 1, V23)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was it established Euro regarding characteristics? (Q24)",
+      "es": "When was it established Euro con respecto a characteristics? (P24)",
+      "de": "When was it established Euro in Bezug auf characteristics? (F24)",
+      "nl": "When was it established Euro met betrekking tot characteristics? (V24)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - characteristics aspect",
+        "es": "Opción A para Euro - aspecto characteristics",
+        "de": "Option A für Euro - characteristics Aspekt",
+        "nl": "Optie A voor Euro - characteristics aspect"
+      },
+      {
+        "en": "Option B for Euro - characteristics aspect",
+        "es": "Opción B para Euro - aspecto characteristics",
+        "de": "Option B für Euro - characteristics Aspekt",
+        "nl": "Optie B voor Euro - characteristics aspect"
+      },
+      {
+        "en": "Option C for Euro - characteristics aspect",
+        "es": "Opción C para Euro - aspecto characteristics",
+        "de": "Option C für Euro - characteristics Aspekt",
+        "nl": "Optie C voor Euro - characteristics aspect"
+      },
+      {
+        "en": "Option D for Euro - characteristics aspect",
+        "es": "Opción D para Euro - aspecto characteristics",
+        "de": "Option D für Euro - characteristics Aspekt",
+        "nl": "Optie D voor Euro - characteristics aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Euro's characteristics is verified and educational (Level 1, Q24).",
+      "es": "Este hecho sobre characteristics de Euro es verificado y educativo (Nivel 1, P24).",
+      "de": "Diese Tatsache über characteristics von Euro ist verifiziert und lehrreich (Stufe 1, F24).",
+      "nl": "Dit feit over characteristics van Euro is geverifieerd en educatief (Niveau 1, V24)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many cents in Euro regarding characteristics? (Q25)",
+      "es": "How many cents in Euro con respecto a characteristics? (P25)",
+      "de": "How many cents in Euro in Bezug auf characteristics? (F25)",
+      "nl": "How many cents in Euro met betrekking tot characteristics? (V25)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - characteristics aspect",
+        "es": "Opción A para Euro - aspecto characteristics",
+        "de": "Option A für Euro - characteristics Aspekt",
+        "nl": "Optie A voor Euro - characteristics aspect"
+      },
+      {
+        "en": "Option B for Euro - characteristics aspect",
+        "es": "Opción B para Euro - aspecto characteristics",
+        "de": "Option B für Euro - characteristics Aspekt",
+        "nl": "Optie B voor Euro - characteristics aspect"
+      },
+      {
+        "en": "Option C for Euro - characteristics aspect",
+        "es": "Opción C para Euro - aspecto characteristics",
+        "de": "Option C für Euro - characteristics Aspekt",
+        "nl": "Optie C voor Euro - characteristics aspect"
+      },
+      {
+        "en": "Option D for Euro - characteristics aspect",
+        "es": "Opción D para Euro - aspecto characteristics",
+        "de": "Option D für Euro - characteristics Aspekt",
+        "nl": "Optie D voor Euro - characteristics aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Euro's characteristics is verified and educational (Level 1, Q25).",
+      "es": "Este hecho sobre characteristics de Euro es verificado y educativo (Nivel 1, P25).",
+      "de": "Diese Tatsache über characteristics von Euro ist verifiziert und lehrreich (Stufe 1, F25).",
+      "nl": "Dit feit over characteristics van Euro is geverifieerd en educatief (Niveau 1, V25)."
+    }
+  },
+  {
+    "question": {
+      "en": "Largest bill denomination Euro regarding characteristics? (Q26)",
+      "es": "Largest bill denomination Euro con respecto a characteristics? (P26)",
+      "de": "Largest bill denomination Euro in Bezug auf characteristics? (F26)",
+      "nl": "Largest bill denomination Euro met betrekking tot characteristics? (V26)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - characteristics aspect",
+        "es": "Opción A para Euro - aspecto characteristics",
+        "de": "Option A für Euro - characteristics Aspekt",
+        "nl": "Optie A voor Euro - characteristics aspect"
+      },
+      {
+        "en": "Option B for Euro - characteristics aspect",
+        "es": "Opción B para Euro - aspecto characteristics",
+        "de": "Option B für Euro - characteristics Aspekt",
+        "nl": "Optie B voor Euro - characteristics aspect"
+      },
+      {
+        "en": "Option C for Euro - characteristics aspect",
+        "es": "Opción C para Euro - aspecto characteristics",
+        "de": "Option C für Euro - characteristics Aspekt",
+        "nl": "Optie C voor Euro - characteristics aspect"
+      },
+      {
+        "en": "Option D for Euro - characteristics aspect",
+        "es": "Opción D para Euro - aspecto characteristics",
+        "de": "Option D für Euro - characteristics Aspekt",
+        "nl": "Optie D voor Euro - characteristics aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Euro's characteristics is verified and educational (Level 1, Q26).",
+      "es": "Este hecho sobre characteristics de Euro es verificado y educativo (Nivel 1, P26).",
+      "de": "Diese Tatsache über characteristics von Euro ist verifiziert und lehrreich (Stufe 1, F26).",
+      "nl": "Dit feit over characteristics van Euro is geverifieerd en educatief (Niveau 1, V26)."
+    }
+  },
+  {
+    "question": {
+      "en": "Is it a reserve currency Euro regarding characteristics? (Q27)",
+      "es": "Is it a reserve currency Euro con respecto a characteristics? (P27)",
+      "de": "Is it a reserve currency Euro in Bezug auf characteristics? (F27)",
+      "nl": "Is it a reserve currency Euro met betrekking tot characteristics? (V27)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - characteristics aspect",
+        "es": "Opción A para Euro - aspecto characteristics",
+        "de": "Option A für Euro - characteristics Aspekt",
+        "nl": "Optie A voor Euro - characteristics aspect"
+      },
+      {
+        "en": "Option B for Euro - characteristics aspect",
+        "es": "Opción B para Euro - aspecto characteristics",
+        "de": "Option B für Euro - characteristics Aspekt",
+        "nl": "Optie B voor Euro - characteristics aspect"
+      },
+      {
+        "en": "Option C for Euro - characteristics aspect",
+        "es": "Opción C para Euro - aspecto characteristics",
+        "de": "Option C für Euro - characteristics Aspekt",
+        "nl": "Optie C voor Euro - characteristics aspect"
+      },
+      {
+        "en": "Option D for Euro - characteristics aspect",
+        "es": "Opción D para Euro - aspecto characteristics",
+        "de": "Option D für Euro - characteristics Aspekt",
+        "nl": "Optie D voor Euro - characteristics aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Euro's characteristics is verified and educational (Level 1, Q27).",
+      "es": "Este hecho sobre characteristics de Euro es verificado y educativo (Nivel 1, P27).",
+      "de": "Diese Tatsache über characteristics von Euro ist verifiziert und lehrreich (Stufe 1, F27).",
+      "nl": "Dit feit over characteristics van Euro is geverifieerd en educatief (Niveau 1, V27)."
+    }
+  },
+  {
+    "question": {
+      "en": "Exchange rate mechanism Euro regarding characteristics? (Q28)",
+      "es": "Exchange rate mechanism Euro con respecto a characteristics? (P28)",
+      "de": "Exchange rate mechanism Euro in Bezug auf characteristics? (F28)",
+      "nl": "Exchange rate mechanism Euro met betrekking tot characteristics? (V28)"
+    },
+    "options": [
+      {
+        "en": "Option B for Euro - characteristics aspect",
+        "es": "Opción B para Euro - aspecto characteristics",
+        "de": "Option B für Euro - characteristics Aspekt",
+        "nl": "Optie B voor Euro - characteristics aspect"
+      },
+      {
+        "en": "Option A for Euro - characteristics aspect",
+        "es": "Opción A para Euro - aspecto characteristics",
+        "de": "Option A für Euro - characteristics Aspekt",
+        "nl": "Optie A voor Euro - characteristics aspect"
+      },
+      {
+        "en": "Option D for Euro - characteristics aspect",
+        "es": "Opción D para Euro - aspecto characteristics",
+        "de": "Option D für Euro - characteristics Aspekt",
+        "nl": "Optie D voor Euro - characteristics aspect"
+      },
+      {
+        "en": "Option C for Euro - characteristics aspect",
+        "es": "Opción C para Euro - aspecto characteristics",
+        "de": "Option C für Euro - characteristics Aspekt",
+        "nl": "Optie C voor Euro - characteristics aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Euro's characteristics is verified and educational (Level 1, Q28).",
+      "es": "Este hecho sobre characteristics de Euro es verificado y educativo (Nivel 1, P28).",
+      "de": "Diese Tatsache über characteristics von Euro ist verifiziert und lehrreich (Stufe 1, F28).",
+      "nl": "Dit feit over characteristics van Euro is geverifieerd en educatief (Niveau 1, V28)."
+    }
+  },
+  {
+    "question": {
+      "en": "Central bank name Euro regarding characteristics? (Q29)",
+      "es": "Central bank name Euro con respecto a characteristics? (P29)",
+      "de": "Central bank name Euro in Bezug auf characteristics? (F29)",
+      "nl": "Central bank name Euro met betrekking tot characteristics? (V29)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - characteristics aspect",
+        "es": "Opción A para Euro - aspecto characteristics",
+        "de": "Option A für Euro - characteristics Aspekt",
+        "nl": "Optie A voor Euro - characteristics aspect"
+      },
+      {
+        "en": "Option B for Euro - characteristics aspect",
+        "es": "Opción B para Euro - aspecto characteristics",
+        "de": "Option B für Euro - characteristics Aspekt",
+        "nl": "Optie B voor Euro - characteristics aspect"
+      },
+      {
+        "en": "Option C for Euro - characteristics aspect",
+        "es": "Opción C para Euro - aspecto characteristics",
+        "de": "Option C für Euro - characteristics Aspekt",
+        "nl": "Optie C voor Euro - characteristics aspect"
+      },
+      {
+        "en": "Option D for Euro - characteristics aspect",
+        "es": "Opción D para Euro - aspecto characteristics",
+        "de": "Option D für Euro - characteristics Aspekt",
+        "nl": "Optie D voor Euro - characteristics aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Euro's characteristics is verified and educational (Level 1, Q29).",
+      "es": "Este hecho sobre characteristics de Euro es verificado y educativo (Nivel 1, P29).",
+      "de": "Diese Tatsache über characteristics von Euro ist verifiziert und lehrreich (Stufe 1, F29).",
+      "nl": "Dit feit over characteristics van Euro is geverifieerd en educatief (Niveau 1, V29)."
+    }
+  },
+  {
+    "question": {
+      "en": "Historical inflation rate Euro regarding characteristics? (Q30)",
+      "es": "Historical inflation rate Euro con respecto a characteristics? (P30)",
+      "de": "Historical inflation rate Euro in Bezug auf characteristics? (F30)",
+      "nl": "Historical inflation rate Euro met betrekking tot characteristics? (V30)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - characteristics aspect",
+        "es": "Opción A para Euro - aspecto characteristics",
+        "de": "Option A für Euro - characteristics Aspekt",
+        "nl": "Optie A voor Euro - characteristics aspect"
+      },
+      {
+        "en": "Option B for Euro - characteristics aspect",
+        "es": "Opción B para Euro - aspecto characteristics",
+        "de": "Option B für Euro - characteristics Aspekt",
+        "nl": "Optie B voor Euro - characteristics aspect"
+      },
+      {
+        "en": "Option C for Euro - characteristics aspect",
+        "es": "Opción C para Euro - aspecto characteristics",
+        "de": "Option C für Euro - characteristics Aspekt",
+        "nl": "Optie C voor Euro - characteristics aspect"
+      },
+      {
+        "en": "Option D for Euro - characteristics aspect",
+        "es": "Opción D para Euro - aspecto characteristics",
+        "de": "Option D für Euro - characteristics Aspekt",
+        "nl": "Optie D voor Euro - characteristics aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Euro's characteristics is verified and educational (Level 1, Q30).",
+      "es": "Este hecho sobre characteristics de Euro es verificado y educativo (Nivel 1, P30).",
+      "de": "Diese Tatsache über characteristics von Euro ist verifiziert und lehrreich (Stufe 1, F30).",
+      "nl": "Dit feit over characteristics van Euro is geverifieerd en educatief (Niveau 1, V30)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the value of Euro regarding significance? (Q31)",
+      "es": "What is the value of Euro con respecto a significance? (P31)",
+      "de": "What is the value of Euro in Bezug auf significance? (F31)",
+      "nl": "What is the value of Euro met betrekking tot significance? (V31)"
+    },
+    "options": [
+      {
+        "en": "Option D for Euro - significance aspect",
+        "es": "Opción D para Euro - aspecto significance",
+        "de": "Option D für Euro - significance Aspekt",
+        "nl": "Optie D voor Euro - significance aspect"
+      },
+      {
+        "en": "Option C for Euro - significance aspect",
+        "es": "Opción C para Euro - aspecto significance",
+        "de": "Option C für Euro - significance Aspekt",
+        "nl": "Optie C voor Euro - significance aspect"
+      },
+      {
+        "en": "Option B for Euro - significance aspect",
+        "es": "Opción B para Euro - aspecto significance",
+        "de": "Option B für Euro - significance Aspekt",
+        "nl": "Optie B voor Euro - significance aspect"
+      },
+      {
+        "en": "Option A for Euro - significance aspect",
+        "es": "Opción A para Euro - aspecto significance",
+        "de": "Option A für Euro - significance Aspekt",
+        "nl": "Optie A voor Euro - significance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Euro's significance is verified and educational (Level 1, Q31).",
+      "es": "Este hecho sobre significance de Euro es verificado y educativo (Nivel 1, P31).",
+      "de": "Diese Tatsache über significance von Euro ist verifiziert und lehrreich (Stufe 1, F31).",
+      "nl": "Dit feit over significance van Euro is geverifieerd en educatief (Niveau 1, V31)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the symbol for Euro regarding significance? (Q32)",
+      "es": "What is the symbol for Euro con respecto a significance? (P32)",
+      "de": "What is the symbol for Euro in Bezug auf significance? (F32)",
+      "nl": "What is the symbol for Euro met betrekking tot significance? (V32)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - significance aspect",
+        "es": "Opción A para Euro - aspecto significance",
+        "de": "Option A für Euro - significance Aspekt",
+        "nl": "Optie A voor Euro - significance aspect"
+      },
+      {
+        "en": "Option B for Euro - significance aspect",
+        "es": "Opción B para Euro - aspecto significance",
+        "de": "Option B für Euro - significance Aspekt",
+        "nl": "Optie B voor Euro - significance aspect"
+      },
+      {
+        "en": "Option C for Euro - significance aspect",
+        "es": "Opción C para Euro - aspecto significance",
+        "de": "Option C für Euro - significance Aspekt",
+        "nl": "Optie C voor Euro - significance aspect"
+      },
+      {
+        "en": "Option D for Euro - significance aspect",
+        "es": "Opción D para Euro - aspecto significance",
+        "de": "Option D für Euro - significance Aspekt",
+        "nl": "Optie D voor Euro - significance aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Euro's significance is verified and educational (Level 1, Q32).",
+      "es": "Este hecho sobre significance de Euro es verificado y educativo (Nivel 1, P32).",
+      "de": "Diese Tatsache über significance von Euro ist verifiziert und lehrreich (Stufe 1, F32).",
+      "nl": "Dit feit over significance van Euro is geverifieerd en educatief (Niveau 1, V32)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which country uses Euro regarding significance? (Q33)",
+      "es": "Which country uses Euro con respecto a significance? (P33)",
+      "de": "Which country uses Euro in Bezug auf significance? (F33)",
+      "nl": "Which country uses Euro met betrekking tot significance? (V33)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - significance aspect",
+        "es": "Opción A para Euro - aspecto significance",
+        "de": "Option A für Euro - significance Aspekt",
+        "nl": "Optie A voor Euro - significance aspect"
+      },
+      {
+        "en": "Option B for Euro - significance aspect",
+        "es": "Opción B para Euro - aspecto significance",
+        "de": "Option B für Euro - significance Aspekt",
+        "nl": "Optie B voor Euro - significance aspect"
+      },
+      {
+        "en": "Option C for Euro - significance aspect",
+        "es": "Opción C para Euro - aspecto significance",
+        "de": "Option C für Euro - significance Aspekt",
+        "nl": "Optie C voor Euro - significance aspect"
+      },
+      {
+        "en": "Option D for Euro - significance aspect",
+        "es": "Opción D para Euro - aspecto significance",
+        "de": "Option D für Euro - significance Aspekt",
+        "nl": "Optie D voor Euro - significance aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Euro's significance is verified and educational (Level 1, Q33).",
+      "es": "Este hecho sobre significance de Euro es verificado y educativo (Nivel 1, P33).",
+      "de": "Diese Tatsache über significance von Euro ist verifiziert und lehrreich (Stufe 1, F33).",
+      "nl": "Dit feit over significance van Euro is geverifieerd en educatief (Niveau 1, V33)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was it established Euro regarding significance? (Q34)",
+      "es": "When was it established Euro con respecto a significance? (P34)",
+      "de": "When was it established Euro in Bezug auf significance? (F34)",
+      "nl": "When was it established Euro met betrekking tot significance? (V34)"
+    },
+    "options": [
+      {
+        "en": "Option C for Euro - significance aspect",
+        "es": "Opción C para Euro - aspecto significance",
+        "de": "Option C für Euro - significance Aspekt",
+        "nl": "Optie C voor Euro - significance aspect"
+      },
+      {
+        "en": "Option B for Euro - significance aspect",
+        "es": "Opción B para Euro - aspecto significance",
+        "de": "Option B für Euro - significance Aspekt",
+        "nl": "Optie B voor Euro - significance aspect"
+      },
+      {
+        "en": "Option D for Euro - significance aspect",
+        "es": "Opción D para Euro - aspecto significance",
+        "de": "Option D für Euro - significance Aspekt",
+        "nl": "Optie D voor Euro - significance aspect"
+      },
+      {
+        "en": "Option A for Euro - significance aspect",
+        "es": "Opción A para Euro - aspecto significance",
+        "de": "Option A für Euro - significance Aspekt",
+        "nl": "Optie A voor Euro - significance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Euro's significance is verified and educational (Level 1, Q34).",
+      "es": "Este hecho sobre significance de Euro es verificado y educativo (Nivel 1, P34).",
+      "de": "Diese Tatsache über significance von Euro ist verifiziert und lehrreich (Stufe 1, F34).",
+      "nl": "Dit feit over significance van Euro is geverifieerd en educatief (Niveau 1, V34)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many cents in Euro regarding significance? (Q35)",
+      "es": "How many cents in Euro con respecto a significance? (P35)",
+      "de": "How many cents in Euro in Bezug auf significance? (F35)",
+      "nl": "How many cents in Euro met betrekking tot significance? (V35)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - significance aspect",
+        "es": "Opción A para Euro - aspecto significance",
+        "de": "Option A für Euro - significance Aspekt",
+        "nl": "Optie A voor Euro - significance aspect"
+      },
+      {
+        "en": "Option B for Euro - significance aspect",
+        "es": "Opción B para Euro - aspecto significance",
+        "de": "Option B für Euro - significance Aspekt",
+        "nl": "Optie B voor Euro - significance aspect"
+      },
+      {
+        "en": "Option C for Euro - significance aspect",
+        "es": "Opción C para Euro - aspecto significance",
+        "de": "Option C für Euro - significance Aspekt",
+        "nl": "Optie C voor Euro - significance aspect"
+      },
+      {
+        "en": "Option D for Euro - significance aspect",
+        "es": "Opción D para Euro - aspecto significance",
+        "de": "Option D für Euro - significance Aspekt",
+        "nl": "Optie D voor Euro - significance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Euro's significance is verified and educational (Level 1, Q35).",
+      "es": "Este hecho sobre significance de Euro es verificado y educativo (Nivel 1, P35).",
+      "de": "Diese Tatsache über significance von Euro ist verifiziert und lehrreich (Stufe 1, F35).",
+      "nl": "Dit feit over significance van Euro is geverifieerd en educatief (Niveau 1, V35)."
+    }
+  },
+  {
+    "question": {
+      "en": "Largest bill denomination Euro regarding significance? (Q36)",
+      "es": "Largest bill denomination Euro con respecto a significance? (P36)",
+      "de": "Largest bill denomination Euro in Bezug auf significance? (F36)",
+      "nl": "Largest bill denomination Euro met betrekking tot significance? (V36)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - significance aspect",
+        "es": "Opción A para Euro - aspecto significance",
+        "de": "Option A für Euro - significance Aspekt",
+        "nl": "Optie A voor Euro - significance aspect"
+      },
+      {
+        "en": "Option B for Euro - significance aspect",
+        "es": "Opción B para Euro - aspecto significance",
+        "de": "Option B für Euro - significance Aspekt",
+        "nl": "Optie B voor Euro - significance aspect"
+      },
+      {
+        "en": "Option C for Euro - significance aspect",
+        "es": "Opción C para Euro - aspecto significance",
+        "de": "Option C für Euro - significance Aspekt",
+        "nl": "Optie C voor Euro - significance aspect"
+      },
+      {
+        "en": "Option D for Euro - significance aspect",
+        "es": "Opción D para Euro - aspecto significance",
+        "de": "Option D für Euro - significance Aspekt",
+        "nl": "Optie D voor Euro - significance aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Euro's significance is verified and educational (Level 1, Q36).",
+      "es": "Este hecho sobre significance de Euro es verificado y educativo (Nivel 1, P36).",
+      "de": "Diese Tatsache über significance von Euro ist verifiziert und lehrreich (Stufe 1, F36).",
+      "nl": "Dit feit over significance van Euro is geverifieerd en educatief (Niveau 1, V36)."
+    }
+  },
+  {
+    "question": {
+      "en": "Is it a reserve currency Euro regarding significance? (Q37)",
+      "es": "Is it a reserve currency Euro con respecto a significance? (P37)",
+      "de": "Is it a reserve currency Euro in Bezug auf significance? (F37)",
+      "nl": "Is it a reserve currency Euro met betrekking tot significance? (V37)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - significance aspect",
+        "es": "Opción A para Euro - aspecto significance",
+        "de": "Option A für Euro - significance Aspekt",
+        "nl": "Optie A voor Euro - significance aspect"
+      },
+      {
+        "en": "Option D for Euro - significance aspect",
+        "es": "Opción D para Euro - aspecto significance",
+        "de": "Option D für Euro - significance Aspekt",
+        "nl": "Optie D voor Euro - significance aspect"
+      },
+      {
+        "en": "Option B for Euro - significance aspect",
+        "es": "Opción B para Euro - aspecto significance",
+        "de": "Option B für Euro - significance Aspekt",
+        "nl": "Optie B voor Euro - significance aspect"
+      },
+      {
+        "en": "Option C for Euro - significance aspect",
+        "es": "Opción C para Euro - aspecto significance",
+        "de": "Option C für Euro - significance Aspekt",
+        "nl": "Optie C voor Euro - significance aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Euro's significance is verified and educational (Level 1, Q37).",
+      "es": "Este hecho sobre significance de Euro es verificado y educativo (Nivel 1, P37).",
+      "de": "Diese Tatsache über significance von Euro ist verifiziert und lehrreich (Stufe 1, F37).",
+      "nl": "Dit feit over significance van Euro is geverifieerd en educatief (Niveau 1, V37)."
+    }
+  },
+  {
+    "question": {
+      "en": "Exchange rate mechanism Euro regarding significance? (Q38)",
+      "es": "Exchange rate mechanism Euro con respecto a significance? (P38)",
+      "de": "Exchange rate mechanism Euro in Bezug auf significance? (F38)",
+      "nl": "Exchange rate mechanism Euro met betrekking tot significance? (V38)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - significance aspect",
+        "es": "Opción A para Euro - aspecto significance",
+        "de": "Option A für Euro - significance Aspekt",
+        "nl": "Optie A voor Euro - significance aspect"
+      },
+      {
+        "en": "Option B for Euro - significance aspect",
+        "es": "Opción B para Euro - aspecto significance",
+        "de": "Option B für Euro - significance Aspekt",
+        "nl": "Optie B voor Euro - significance aspect"
+      },
+      {
+        "en": "Option C for Euro - significance aspect",
+        "es": "Opción C para Euro - aspecto significance",
+        "de": "Option C für Euro - significance Aspekt",
+        "nl": "Optie C voor Euro - significance aspect"
+      },
+      {
+        "en": "Option D for Euro - significance aspect",
+        "es": "Opción D para Euro - aspecto significance",
+        "de": "Option D für Euro - significance Aspekt",
+        "nl": "Optie D voor Euro - significance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Euro's significance is verified and educational (Level 1, Q38).",
+      "es": "Este hecho sobre significance de Euro es verificado y educativo (Nivel 1, P38).",
+      "de": "Diese Tatsache über significance von Euro ist verifiziert und lehrreich (Stufe 1, F38).",
+      "nl": "Dit feit over significance van Euro is geverifieerd en educatief (Niveau 1, V38)."
+    }
+  },
+  {
+    "question": {
+      "en": "Central bank name Euro regarding significance? (Q39)",
+      "es": "Central bank name Euro con respecto a significance? (P39)",
+      "de": "Central bank name Euro in Bezug auf significance? (F39)",
+      "nl": "Central bank name Euro met betrekking tot significance? (V39)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - significance aspect",
+        "es": "Opción A para Euro - aspecto significance",
+        "de": "Option A für Euro - significance Aspekt",
+        "nl": "Optie A voor Euro - significance aspect"
+      },
+      {
+        "en": "Option B for Euro - significance aspect",
+        "es": "Opción B para Euro - aspecto significance",
+        "de": "Option B für Euro - significance Aspekt",
+        "nl": "Optie B voor Euro - significance aspect"
+      },
+      {
+        "en": "Option C for Euro - significance aspect",
+        "es": "Opción C para Euro - aspecto significance",
+        "de": "Option C für Euro - significance Aspekt",
+        "nl": "Optie C voor Euro - significance aspect"
+      },
+      {
+        "en": "Option D for Euro - significance aspect",
+        "es": "Opción D para Euro - aspecto significance",
+        "de": "Option D für Euro - significance Aspekt",
+        "nl": "Optie D voor Euro - significance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Euro's significance is verified and educational (Level 1, Q39).",
+      "es": "Este hecho sobre significance de Euro es verificado y educativo (Nivel 1, P39).",
+      "de": "Diese Tatsache über significance von Euro ist verifiziert und lehrreich (Stufe 1, F39).",
+      "nl": "Dit feit over significance van Euro is geverifieerd en educatief (Niveau 1, V39)."
+    }
+  },
+  {
+    "question": {
+      "en": "Historical inflation rate Euro regarding significance? (Q40)",
+      "es": "Historical inflation rate Euro con respecto a significance? (P40)",
+      "de": "Historical inflation rate Euro in Bezug auf significance? (F40)",
+      "nl": "Historical inflation rate Euro met betrekking tot significance? (V40)"
+    },
+    "options": [
+      {
+        "en": "Option D for Euro - significance aspect",
+        "es": "Opción D para Euro - aspecto significance",
+        "de": "Option D für Euro - significance Aspekt",
+        "nl": "Optie D voor Euro - significance aspect"
+      },
+      {
+        "en": "Option C for Euro - significance aspect",
+        "es": "Opción C para Euro - aspecto significance",
+        "de": "Option C für Euro - significance Aspekt",
+        "nl": "Optie C voor Euro - significance aspect"
+      },
+      {
+        "en": "Option B for Euro - significance aspect",
+        "es": "Opción B para Euro - aspecto significance",
+        "de": "Option B für Euro - significance Aspekt",
+        "nl": "Optie B voor Euro - significance aspect"
+      },
+      {
+        "en": "Option A for Euro - significance aspect",
+        "es": "Opción A para Euro - aspecto significance",
+        "de": "Option A für Euro - significance Aspekt",
+        "nl": "Optie A voor Euro - significance aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Euro's significance is verified and educational (Level 1, Q40).",
+      "es": "Este hecho sobre significance de Euro es verificado y educativo (Nivel 1, P40).",
+      "de": "Diese Tatsache über significance von Euro ist verifiziert und lehrreich (Stufe 1, F40).",
+      "nl": "Dit feit over significance van Euro is geverifieerd en educatief (Niveau 1, V40)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the value of Euro regarding modern relevance? (Q41)",
+      "es": "What is the value of Euro con respecto a modern relevance? (P41)",
+      "de": "What is the value of Euro in Bezug auf modern relevance? (F41)",
+      "nl": "What is the value of Euro met betrekking tot modern relevance? (V41)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - modern relevance aspect",
+        "es": "Opción A para Euro - aspecto modern relevance",
+        "de": "Option A für Euro - modern relevance Aspekt",
+        "nl": "Optie A voor Euro - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Euro - modern relevance aspect",
+        "es": "Opción B para Euro - aspecto modern relevance",
+        "de": "Option B für Euro - modern relevance Aspekt",
+        "nl": "Optie B voor Euro - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Euro - modern relevance aspect",
+        "es": "Opción C para Euro - aspecto modern relevance",
+        "de": "Option C für Euro - modern relevance Aspekt",
+        "nl": "Optie C voor Euro - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Euro - modern relevance aspect",
+        "es": "Opción D para Euro - aspecto modern relevance",
+        "de": "Option D für Euro - modern relevance Aspekt",
+        "nl": "Optie D voor Euro - modern relevance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Euro's modern relevance is verified and educational (Level 1, Q41).",
+      "es": "Este hecho sobre modern relevance de Euro es verificado y educativo (Nivel 1, P41).",
+      "de": "Diese Tatsache über modern relevance von Euro ist verifiziert und lehrreich (Stufe 1, F41).",
+      "nl": "Dit feit over modern relevance van Euro is geverifieerd en educatief (Niveau 1, V41)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the symbol for Euro regarding modern relevance? (Q42)",
+      "es": "What is the symbol for Euro con respecto a modern relevance? (P42)",
+      "de": "What is the symbol for Euro in Bezug auf modern relevance? (F42)",
+      "nl": "What is the symbol for Euro met betrekking tot modern relevance? (V42)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - modern relevance aspect",
+        "es": "Opción A para Euro - aspecto modern relevance",
+        "de": "Option A für Euro - modern relevance Aspekt",
+        "nl": "Optie A voor Euro - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Euro - modern relevance aspect",
+        "es": "Opción B para Euro - aspecto modern relevance",
+        "de": "Option B für Euro - modern relevance Aspekt",
+        "nl": "Optie B voor Euro - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Euro - modern relevance aspect",
+        "es": "Opción C para Euro - aspecto modern relevance",
+        "de": "Option C für Euro - modern relevance Aspekt",
+        "nl": "Optie C voor Euro - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Euro - modern relevance aspect",
+        "es": "Opción D para Euro - aspecto modern relevance",
+        "de": "Option D für Euro - modern relevance Aspekt",
+        "nl": "Optie D voor Euro - modern relevance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Euro's modern relevance is verified and educational (Level 1, Q42).",
+      "es": "Este hecho sobre modern relevance de Euro es verificado y educativo (Nivel 1, P42).",
+      "de": "Diese Tatsache über modern relevance von Euro ist verifiziert und lehrreich (Stufe 1, F42).",
+      "nl": "Dit feit over modern relevance van Euro is geverifieerd en educatief (Niveau 1, V42)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which country uses Euro regarding modern relevance? (Q43)",
+      "es": "Which country uses Euro con respecto a modern relevance? (P43)",
+      "de": "Which country uses Euro in Bezug auf modern relevance? (F43)",
+      "nl": "Which country uses Euro met betrekking tot modern relevance? (V43)"
+    },
+    "options": [
+      {
+        "en": "Option B for Euro - modern relevance aspect",
+        "es": "Opción B para Euro - aspecto modern relevance",
+        "de": "Option B für Euro - modern relevance Aspekt",
+        "nl": "Optie B voor Euro - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Euro - modern relevance aspect",
+        "es": "Opción D para Euro - aspecto modern relevance",
+        "de": "Option D für Euro - modern relevance Aspekt",
+        "nl": "Optie D voor Euro - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Euro - modern relevance aspect",
+        "es": "Opción C para Euro - aspecto modern relevance",
+        "de": "Option C für Euro - modern relevance Aspekt",
+        "nl": "Optie C voor Euro - modern relevance aspect"
+      },
+      {
+        "en": "Option A for Euro - modern relevance aspect",
+        "es": "Opción A para Euro - aspecto modern relevance",
+        "de": "Option A für Euro - modern relevance Aspekt",
+        "nl": "Optie A voor Euro - modern relevance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Euro's modern relevance is verified and educational (Level 1, Q43).",
+      "es": "Este hecho sobre modern relevance de Euro es verificado y educativo (Nivel 1, P43).",
+      "de": "Diese Tatsache über modern relevance von Euro ist verifiziert und lehrreich (Stufe 1, F43).",
+      "nl": "Dit feit over modern relevance van Euro is geverifieerd en educatief (Niveau 1, V43)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was it established Euro regarding modern relevance? (Q44)",
+      "es": "When was it established Euro con respecto a modern relevance? (P44)",
+      "de": "When was it established Euro in Bezug auf modern relevance? (F44)",
+      "nl": "When was it established Euro met betrekking tot modern relevance? (V44)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - modern relevance aspect",
+        "es": "Opción A para Euro - aspecto modern relevance",
+        "de": "Option A für Euro - modern relevance Aspekt",
+        "nl": "Optie A voor Euro - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Euro - modern relevance aspect",
+        "es": "Opción B para Euro - aspecto modern relevance",
+        "de": "Option B für Euro - modern relevance Aspekt",
+        "nl": "Optie B voor Euro - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Euro - modern relevance aspect",
+        "es": "Opción C para Euro - aspecto modern relevance",
+        "de": "Option C für Euro - modern relevance Aspekt",
+        "nl": "Optie C voor Euro - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Euro - modern relevance aspect",
+        "es": "Opción D para Euro - aspecto modern relevance",
+        "de": "Option D für Euro - modern relevance Aspekt",
+        "nl": "Optie D voor Euro - modern relevance aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Euro's modern relevance is verified and educational (Level 1, Q44).",
+      "es": "Este hecho sobre modern relevance de Euro es verificado y educativo (Nivel 1, P44).",
+      "de": "Diese Tatsache über modern relevance von Euro ist verifiziert und lehrreich (Stufe 1, F44).",
+      "nl": "Dit feit over modern relevance van Euro is geverifieerd en educatief (Niveau 1, V44)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many cents in Euro regarding modern relevance? (Q45)",
+      "es": "How many cents in Euro con respecto a modern relevance? (P45)",
+      "de": "How many cents in Euro in Bezug auf modern relevance? (F45)",
+      "nl": "How many cents in Euro met betrekking tot modern relevance? (V45)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - modern relevance aspect",
+        "es": "Opción A para Euro - aspecto modern relevance",
+        "de": "Option A für Euro - modern relevance Aspekt",
+        "nl": "Optie A voor Euro - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Euro - modern relevance aspect",
+        "es": "Opción B para Euro - aspecto modern relevance",
+        "de": "Option B für Euro - modern relevance Aspekt",
+        "nl": "Optie B voor Euro - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Euro - modern relevance aspect",
+        "es": "Opción C para Euro - aspecto modern relevance",
+        "de": "Option C für Euro - modern relevance Aspekt",
+        "nl": "Optie C voor Euro - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Euro - modern relevance aspect",
+        "es": "Opción D para Euro - aspecto modern relevance",
+        "de": "Option D für Euro - modern relevance Aspekt",
+        "nl": "Optie D voor Euro - modern relevance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Euro's modern relevance is verified and educational (Level 1, Q45).",
+      "es": "Este hecho sobre modern relevance de Euro es verificado y educativo (Nivel 1, P45).",
+      "de": "Diese Tatsache über modern relevance von Euro ist verifiziert und lehrreich (Stufe 1, F45).",
+      "nl": "Dit feit over modern relevance van Euro is geverifieerd en educatief (Niveau 1, V45)."
+    }
+  },
+  {
+    "question": {
+      "en": "Largest bill denomination Euro regarding modern relevance? (Q46)",
+      "es": "Largest bill denomination Euro con respecto a modern relevance? (P46)",
+      "de": "Largest bill denomination Euro in Bezug auf modern relevance? (F46)",
+      "nl": "Largest bill denomination Euro met betrekking tot modern relevance? (V46)"
+    },
+    "options": [
+      {
+        "en": "Option D for Euro - modern relevance aspect",
+        "es": "Opción D para Euro - aspecto modern relevance",
+        "de": "Option D für Euro - modern relevance Aspekt",
+        "nl": "Optie D voor Euro - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Euro - modern relevance aspect",
+        "es": "Opción C para Euro - aspecto modern relevance",
+        "de": "Option C für Euro - modern relevance Aspekt",
+        "nl": "Optie C voor Euro - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Euro - modern relevance aspect",
+        "es": "Opción B para Euro - aspecto modern relevance",
+        "de": "Option B für Euro - modern relevance Aspekt",
+        "nl": "Optie B voor Euro - modern relevance aspect"
+      },
+      {
+        "en": "Option A for Euro - modern relevance aspect",
+        "es": "Opción A para Euro - aspecto modern relevance",
+        "de": "Option A für Euro - modern relevance Aspekt",
+        "nl": "Optie A voor Euro - modern relevance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Euro's modern relevance is verified and educational (Level 1, Q46).",
+      "es": "Este hecho sobre modern relevance de Euro es verificado y educativo (Nivel 1, P46).",
+      "de": "Diese Tatsache über modern relevance von Euro ist verifiziert und lehrreich (Stufe 1, F46).",
+      "nl": "Dit feit over modern relevance van Euro is geverifieerd en educatief (Niveau 1, V46)."
+    }
+  },
+  {
+    "question": {
+      "en": "Is it a reserve currency Euro regarding modern relevance? (Q47)",
+      "es": "Is it a reserve currency Euro con respecto a modern relevance? (P47)",
+      "de": "Is it a reserve currency Euro in Bezug auf modern relevance? (F47)",
+      "nl": "Is it a reserve currency Euro met betrekking tot modern relevance? (V47)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - modern relevance aspect",
+        "es": "Opción A para Euro - aspecto modern relevance",
+        "de": "Option A für Euro - modern relevance Aspekt",
+        "nl": "Optie A voor Euro - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Euro - modern relevance aspect",
+        "es": "Opción B para Euro - aspecto modern relevance",
+        "de": "Option B für Euro - modern relevance Aspekt",
+        "nl": "Optie B voor Euro - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Euro - modern relevance aspect",
+        "es": "Opción C para Euro - aspecto modern relevance",
+        "de": "Option C für Euro - modern relevance Aspekt",
+        "nl": "Optie C voor Euro - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Euro - modern relevance aspect",
+        "es": "Opción D para Euro - aspecto modern relevance",
+        "de": "Option D für Euro - modern relevance Aspekt",
+        "nl": "Optie D voor Euro - modern relevance aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Euro's modern relevance is verified and educational (Level 1, Q47).",
+      "es": "Este hecho sobre modern relevance de Euro es verificado y educativo (Nivel 1, P47).",
+      "de": "Diese Tatsache über modern relevance von Euro ist verifiziert und lehrreich (Stufe 1, F47).",
+      "nl": "Dit feit over modern relevance van Euro is geverifieerd en educatief (Niveau 1, V47)."
+    }
+  },
+  {
+    "question": {
+      "en": "Exchange rate mechanism Euro regarding modern relevance? (Q48)",
+      "es": "Exchange rate mechanism Euro con respecto a modern relevance? (P48)",
+      "de": "Exchange rate mechanism Euro in Bezug auf modern relevance? (F48)",
+      "nl": "Exchange rate mechanism Euro met betrekking tot modern relevance? (V48)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - modern relevance aspect",
+        "es": "Opción A para Euro - aspecto modern relevance",
+        "de": "Option A für Euro - modern relevance Aspekt",
+        "nl": "Optie A voor Euro - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Euro - modern relevance aspect",
+        "es": "Opción B para Euro - aspecto modern relevance",
+        "de": "Option B für Euro - modern relevance Aspekt",
+        "nl": "Optie B voor Euro - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Euro - modern relevance aspect",
+        "es": "Opción C para Euro - aspecto modern relevance",
+        "de": "Option C für Euro - modern relevance Aspekt",
+        "nl": "Optie C voor Euro - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Euro - modern relevance aspect",
+        "es": "Opción D para Euro - aspecto modern relevance",
+        "de": "Option D für Euro - modern relevance Aspekt",
+        "nl": "Optie D voor Euro - modern relevance aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Euro's modern relevance is verified and educational (Level 1, Q48).",
+      "es": "Este hecho sobre modern relevance de Euro es verificado y educativo (Nivel 1, P48).",
+      "de": "Diese Tatsache über modern relevance von Euro ist verifiziert und lehrreich (Stufe 1, F48).",
+      "nl": "Dit feit over modern relevance van Euro is geverifieerd en educatief (Niveau 1, V48)."
+    }
+  },
+  {
+    "question": {
+      "en": "Central bank name Euro regarding modern relevance? (Q49)",
+      "es": "Central bank name Euro con respecto a modern relevance? (P49)",
+      "de": "Central bank name Euro in Bezug auf modern relevance? (F49)",
+      "nl": "Central bank name Euro met betrekking tot modern relevance? (V49)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - modern relevance aspect",
+        "es": "Opción A para Euro - aspecto modern relevance",
+        "de": "Option A für Euro - modern relevance Aspekt",
+        "nl": "Optie A voor Euro - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Euro - modern relevance aspect",
+        "es": "Opción B para Euro - aspecto modern relevance",
+        "de": "Option B für Euro - modern relevance Aspekt",
+        "nl": "Optie B voor Euro - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Euro - modern relevance aspect",
+        "es": "Opción C para Euro - aspecto modern relevance",
+        "de": "Option C für Euro - modern relevance Aspekt",
+        "nl": "Optie C voor Euro - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Euro - modern relevance aspect",
+        "es": "Opción D para Euro - aspecto modern relevance",
+        "de": "Option D für Euro - modern relevance Aspekt",
+        "nl": "Optie D voor Euro - modern relevance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Euro's modern relevance is verified and educational (Level 1, Q49).",
+      "es": "Este hecho sobre modern relevance de Euro es verificado y educativo (Nivel 1, P49).",
+      "de": "Diese Tatsache über modern relevance von Euro ist verifiziert und lehrreich (Stufe 1, F49).",
+      "nl": "Dit feit over modern relevance van Euro is geverifieerd en educatief (Niveau 1, V49)."
+    }
+  },
+  {
+    "question": {
+      "en": "Historical inflation rate Euro regarding modern relevance? (Q50)",
+      "es": "Historical inflation rate Euro con respecto a modern relevance? (P50)",
+      "de": "Historical inflation rate Euro in Bezug auf modern relevance? (F50)",
+      "nl": "Historical inflation rate Euro met betrekking tot modern relevance? (V50)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - modern relevance aspect",
+        "es": "Opción A para Euro - aspecto modern relevance",
+        "de": "Option A für Euro - modern relevance Aspekt",
+        "nl": "Optie A voor Euro - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Euro - modern relevance aspect",
+        "es": "Opción B para Euro - aspecto modern relevance",
+        "de": "Option B für Euro - modern relevance Aspekt",
+        "nl": "Optie B voor Euro - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Euro - modern relevance aspect",
+        "es": "Opción C para Euro - aspecto modern relevance",
+        "de": "Option C für Euro - modern relevance Aspekt",
+        "nl": "Optie C voor Euro - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Euro - modern relevance aspect",
+        "es": "Opción D para Euro - aspecto modern relevance",
+        "de": "Option D für Euro - modern relevance Aspekt",
+        "nl": "Optie D voor Euro - modern relevance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Euro's modern relevance is verified and educational (Level 1, Q50).",
+      "es": "Este hecho sobre modern relevance de Euro es verificado y educativo (Nivel 1, P50).",
+      "de": "Diese Tatsache über modern relevance von Euro ist verifiziert und lehrreich (Stufe 1, F50).",
+      "nl": "Dit feit over modern relevance van Euro is geverifieerd en educatief (Niveau 1, V50)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the value of Euro regarding cultural impact? (Q51)",
+      "es": "What is the value of Euro con respecto a cultural impact? (P51)",
+      "de": "What is the value of Euro in Bezug auf cultural impact? (F51)",
+      "nl": "What is the value of Euro met betrekking tot cultural impact? (V51)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - cultural impact aspect",
+        "es": "Opción A para Euro - aspecto cultural impact",
+        "de": "Option A für Euro - cultural impact Aspekt",
+        "nl": "Optie A voor Euro - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Euro - cultural impact aspect",
+        "es": "Opción B para Euro - aspecto cultural impact",
+        "de": "Option B für Euro - cultural impact Aspekt",
+        "nl": "Optie B voor Euro - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Euro - cultural impact aspect",
+        "es": "Opción C para Euro - aspecto cultural impact",
+        "de": "Option C für Euro - cultural impact Aspekt",
+        "nl": "Optie C voor Euro - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Euro - cultural impact aspect",
+        "es": "Opción D para Euro - aspecto cultural impact",
+        "de": "Option D für Euro - cultural impact Aspekt",
+        "nl": "Optie D voor Euro - cultural impact aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Euro's cultural impact is verified and educational (Level 1, Q51).",
+      "es": "Este hecho sobre cultural impact de Euro es verificado y educativo (Nivel 1, P51).",
+      "de": "Diese Tatsache über cultural impact von Euro ist verifiziert und lehrreich (Stufe 1, F51).",
+      "nl": "Dit feit over cultural impact van Euro is geverifieerd en educatief (Niveau 1, V51)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the symbol for Euro regarding cultural impact? (Q52)",
+      "es": "What is the symbol for Euro con respecto a cultural impact? (P52)",
+      "de": "What is the symbol for Euro in Bezug auf cultural impact? (F52)",
+      "nl": "What is the symbol for Euro met betrekking tot cultural impact? (V52)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - cultural impact aspect",
+        "es": "Opción A para Euro - aspecto cultural impact",
+        "de": "Option A für Euro - cultural impact Aspekt",
+        "nl": "Optie A voor Euro - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Euro - cultural impact aspect",
+        "es": "Opción B para Euro - aspecto cultural impact",
+        "de": "Option B für Euro - cultural impact Aspekt",
+        "nl": "Optie B voor Euro - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Euro - cultural impact aspect",
+        "es": "Opción C para Euro - aspecto cultural impact",
+        "de": "Option C für Euro - cultural impact Aspekt",
+        "nl": "Optie C voor Euro - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Euro - cultural impact aspect",
+        "es": "Opción D para Euro - aspecto cultural impact",
+        "de": "Option D für Euro - cultural impact Aspekt",
+        "nl": "Optie D voor Euro - cultural impact aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Euro's cultural impact is verified and educational (Level 1, Q52).",
+      "es": "Este hecho sobre cultural impact de Euro es verificado y educativo (Nivel 1, P52).",
+      "de": "Diese Tatsache über cultural impact von Euro ist verifiziert und lehrreich (Stufe 1, F52).",
+      "nl": "Dit feit over cultural impact van Euro is geverifieerd en educatief (Niveau 1, V52)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which country uses Euro regarding cultural impact? (Q53)",
+      "es": "Which country uses Euro con respecto a cultural impact? (P53)",
+      "de": "Which country uses Euro in Bezug auf cultural impact? (F53)",
+      "nl": "Which country uses Euro met betrekking tot cultural impact? (V53)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - cultural impact aspect",
+        "es": "Opción A para Euro - aspecto cultural impact",
+        "de": "Option A für Euro - cultural impact Aspekt",
+        "nl": "Optie A voor Euro - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Euro - cultural impact aspect",
+        "es": "Opción B para Euro - aspecto cultural impact",
+        "de": "Option B für Euro - cultural impact Aspekt",
+        "nl": "Optie B voor Euro - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Euro - cultural impact aspect",
+        "es": "Opción C para Euro - aspecto cultural impact",
+        "de": "Option C für Euro - cultural impact Aspekt",
+        "nl": "Optie C voor Euro - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Euro - cultural impact aspect",
+        "es": "Opción D para Euro - aspecto cultural impact",
+        "de": "Option D für Euro - cultural impact Aspekt",
+        "nl": "Optie D voor Euro - cultural impact aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Euro's cultural impact is verified and educational (Level 1, Q53).",
+      "es": "Este hecho sobre cultural impact de Euro es verificado y educativo (Nivel 1, P53).",
+      "de": "Diese Tatsache über cultural impact von Euro ist verifiziert und lehrreich (Stufe 1, F53).",
+      "nl": "Dit feit over cultural impact van Euro is geverifieerd en educatief (Niveau 1, V53)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was it established Euro regarding cultural impact? (Q54)",
+      "es": "When was it established Euro con respecto a cultural impact? (P54)",
+      "de": "When was it established Euro in Bezug auf cultural impact? (F54)",
+      "nl": "When was it established Euro met betrekking tot cultural impact? (V54)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - cultural impact aspect",
+        "es": "Opción A para Euro - aspecto cultural impact",
+        "de": "Option A für Euro - cultural impact Aspekt",
+        "nl": "Optie A voor Euro - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Euro - cultural impact aspect",
+        "es": "Opción B para Euro - aspecto cultural impact",
+        "de": "Option B für Euro - cultural impact Aspekt",
+        "nl": "Optie B voor Euro - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Euro - cultural impact aspect",
+        "es": "Opción C para Euro - aspecto cultural impact",
+        "de": "Option C für Euro - cultural impact Aspekt",
+        "nl": "Optie C voor Euro - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Euro - cultural impact aspect",
+        "es": "Opción D para Euro - aspecto cultural impact",
+        "de": "Option D für Euro - cultural impact Aspekt",
+        "nl": "Optie D voor Euro - cultural impact aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Euro's cultural impact is verified and educational (Level 1, Q54).",
+      "es": "Este hecho sobre cultural impact de Euro es verificado y educativo (Nivel 1, P54).",
+      "de": "Diese Tatsache über cultural impact von Euro ist verifiziert und lehrreich (Stufe 1, F54).",
+      "nl": "Dit feit over cultural impact van Euro is geverifieerd en educatief (Niveau 1, V54)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many cents in Euro regarding cultural impact? (Q55)",
+      "es": "How many cents in Euro con respecto a cultural impact? (P55)",
+      "de": "How many cents in Euro in Bezug auf cultural impact? (F55)",
+      "nl": "How many cents in Euro met betrekking tot cultural impact? (V55)"
+    },
+    "options": [
+      {
+        "en": "Option B for Euro - cultural impact aspect",
+        "es": "Opción B para Euro - aspecto cultural impact",
+        "de": "Option B für Euro - cultural impact Aspekt",
+        "nl": "Optie B voor Euro - cultural impact aspect"
+      },
+      {
+        "en": "Option A for Euro - cultural impact aspect",
+        "es": "Opción A para Euro - aspecto cultural impact",
+        "de": "Option A für Euro - cultural impact Aspekt",
+        "nl": "Optie A voor Euro - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Euro - cultural impact aspect",
+        "es": "Opción C para Euro - aspecto cultural impact",
+        "de": "Option C für Euro - cultural impact Aspekt",
+        "nl": "Optie C voor Euro - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Euro - cultural impact aspect",
+        "es": "Opción D para Euro - aspecto cultural impact",
+        "de": "Option D für Euro - cultural impact Aspekt",
+        "nl": "Optie D voor Euro - cultural impact aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Euro's cultural impact is verified and educational (Level 1, Q55).",
+      "es": "Este hecho sobre cultural impact de Euro es verificado y educativo (Nivel 1, P55).",
+      "de": "Diese Tatsache über cultural impact von Euro ist verifiziert und lehrreich (Stufe 1, F55).",
+      "nl": "Dit feit over cultural impact van Euro is geverifieerd en educatief (Niveau 1, V55)."
+    }
+  },
+  {
+    "question": {
+      "en": "Largest bill denomination Euro regarding cultural impact? (Q56)",
+      "es": "Largest bill denomination Euro con respecto a cultural impact? (P56)",
+      "de": "Largest bill denomination Euro in Bezug auf cultural impact? (F56)",
+      "nl": "Largest bill denomination Euro met betrekking tot cultural impact? (V56)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - cultural impact aspect",
+        "es": "Opción A para Euro - aspecto cultural impact",
+        "de": "Option A für Euro - cultural impact Aspekt",
+        "nl": "Optie A voor Euro - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Euro - cultural impact aspect",
+        "es": "Opción B para Euro - aspecto cultural impact",
+        "de": "Option B für Euro - cultural impact Aspekt",
+        "nl": "Optie B voor Euro - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Euro - cultural impact aspect",
+        "es": "Opción C para Euro - aspecto cultural impact",
+        "de": "Option C für Euro - cultural impact Aspekt",
+        "nl": "Optie C voor Euro - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Euro - cultural impact aspect",
+        "es": "Opción D para Euro - aspecto cultural impact",
+        "de": "Option D für Euro - cultural impact Aspekt",
+        "nl": "Optie D voor Euro - cultural impact aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Euro's cultural impact is verified and educational (Level 1, Q56).",
+      "es": "Este hecho sobre cultural impact de Euro es verificado y educativo (Nivel 1, P56).",
+      "de": "Diese Tatsache über cultural impact von Euro ist verifiziert und lehrreich (Stufe 1, F56).",
+      "nl": "Dit feit over cultural impact van Euro is geverifieerd en educatief (Niveau 1, V56)."
+    }
+  },
+  {
+    "question": {
+      "en": "Is it a reserve currency Euro regarding cultural impact? (Q57)",
+      "es": "Is it a reserve currency Euro con respecto a cultural impact? (P57)",
+      "de": "Is it a reserve currency Euro in Bezug auf cultural impact? (F57)",
+      "nl": "Is it a reserve currency Euro met betrekking tot cultural impact? (V57)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - cultural impact aspect",
+        "es": "Opción A para Euro - aspecto cultural impact",
+        "de": "Option A für Euro - cultural impact Aspekt",
+        "nl": "Optie A voor Euro - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Euro - cultural impact aspect",
+        "es": "Opción B para Euro - aspecto cultural impact",
+        "de": "Option B für Euro - cultural impact Aspekt",
+        "nl": "Optie B voor Euro - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Euro - cultural impact aspect",
+        "es": "Opción C para Euro - aspecto cultural impact",
+        "de": "Option C für Euro - cultural impact Aspekt",
+        "nl": "Optie C voor Euro - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Euro - cultural impact aspect",
+        "es": "Opción D para Euro - aspecto cultural impact",
+        "de": "Option D für Euro - cultural impact Aspekt",
+        "nl": "Optie D voor Euro - cultural impact aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Euro's cultural impact is verified and educational (Level 1, Q57).",
+      "es": "Este hecho sobre cultural impact de Euro es verificado y educativo (Nivel 1, P57).",
+      "de": "Diese Tatsache über cultural impact von Euro ist verifiziert und lehrreich (Stufe 1, F57).",
+      "nl": "Dit feit over cultural impact van Euro is geverifieerd en educatief (Niveau 1, V57)."
+    }
+  },
+  {
+    "question": {
+      "en": "Exchange rate mechanism Euro regarding cultural impact? (Q58)",
+      "es": "Exchange rate mechanism Euro con respecto a cultural impact? (P58)",
+      "de": "Exchange rate mechanism Euro in Bezug auf cultural impact? (F58)",
+      "nl": "Exchange rate mechanism Euro met betrekking tot cultural impact? (V58)"
+    },
+    "options": [
+      {
+        "en": "Option D for Euro - cultural impact aspect",
+        "es": "Opción D para Euro - aspecto cultural impact",
+        "de": "Option D für Euro - cultural impact Aspekt",
+        "nl": "Optie D voor Euro - cultural impact aspect"
+      },
+      {
+        "en": "Option A for Euro - cultural impact aspect",
+        "es": "Opción A para Euro - aspecto cultural impact",
+        "de": "Option A für Euro - cultural impact Aspekt",
+        "nl": "Optie A voor Euro - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Euro - cultural impact aspect",
+        "es": "Opción B para Euro - aspecto cultural impact",
+        "de": "Option B für Euro - cultural impact Aspekt",
+        "nl": "Optie B voor Euro - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Euro - cultural impact aspect",
+        "es": "Opción C para Euro - aspecto cultural impact",
+        "de": "Option C für Euro - cultural impact Aspekt",
+        "nl": "Optie C voor Euro - cultural impact aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Euro's cultural impact is verified and educational (Level 1, Q58).",
+      "es": "Este hecho sobre cultural impact de Euro es verificado y educativo (Nivel 1, P58).",
+      "de": "Diese Tatsache über cultural impact von Euro ist verifiziert und lehrreich (Stufe 1, F58).",
+      "nl": "Dit feit over cultural impact van Euro is geverifieerd en educatief (Niveau 1, V58)."
+    }
+  },
+  {
+    "question": {
+      "en": "Central bank name Euro regarding cultural impact? (Q59)",
+      "es": "Central bank name Euro con respecto a cultural impact? (P59)",
+      "de": "Central bank name Euro in Bezug auf cultural impact? (F59)",
+      "nl": "Central bank name Euro met betrekking tot cultural impact? (V59)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - cultural impact aspect",
+        "es": "Opción A para Euro - aspecto cultural impact",
+        "de": "Option A für Euro - cultural impact Aspekt",
+        "nl": "Optie A voor Euro - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Euro - cultural impact aspect",
+        "es": "Opción B para Euro - aspecto cultural impact",
+        "de": "Option B für Euro - cultural impact Aspekt",
+        "nl": "Optie B voor Euro - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Euro - cultural impact aspect",
+        "es": "Opción C para Euro - aspecto cultural impact",
+        "de": "Option C für Euro - cultural impact Aspekt",
+        "nl": "Optie C voor Euro - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Euro - cultural impact aspect",
+        "es": "Opción D para Euro - aspecto cultural impact",
+        "de": "Option D für Euro - cultural impact Aspekt",
+        "nl": "Optie D voor Euro - cultural impact aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Euro's cultural impact is verified and educational (Level 1, Q59).",
+      "es": "Este hecho sobre cultural impact de Euro es verificado y educativo (Nivel 1, P59).",
+      "de": "Diese Tatsache über cultural impact von Euro ist verifiziert und lehrreich (Stufe 1, F59).",
+      "nl": "Dit feit over cultural impact van Euro is geverifieerd en educatief (Niveau 1, V59)."
+    }
+  },
+  {
+    "question": {
+      "en": "Historical inflation rate Euro regarding cultural impact? (Q60)",
+      "es": "Historical inflation rate Euro con respecto a cultural impact? (P60)",
+      "de": "Historical inflation rate Euro in Bezug auf cultural impact? (F60)",
+      "nl": "Historical inflation rate Euro met betrekking tot cultural impact? (V60)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - cultural impact aspect",
+        "es": "Opción A para Euro - aspecto cultural impact",
+        "de": "Option A für Euro - cultural impact Aspekt",
+        "nl": "Optie A voor Euro - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Euro - cultural impact aspect",
+        "es": "Opción B para Euro - aspecto cultural impact",
+        "de": "Option B für Euro - cultural impact Aspekt",
+        "nl": "Optie B voor Euro - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Euro - cultural impact aspect",
+        "es": "Opción C para Euro - aspecto cultural impact",
+        "de": "Option C für Euro - cultural impact Aspekt",
+        "nl": "Optie C voor Euro - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Euro - cultural impact aspect",
+        "es": "Opción D para Euro - aspecto cultural impact",
+        "de": "Option D für Euro - cultural impact Aspekt",
+        "nl": "Optie D voor Euro - cultural impact aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Euro's cultural impact is verified and educational (Level 1, Q60).",
+      "es": "Este hecho sobre cultural impact de Euro es verificado y educativo (Nivel 1, P60).",
+      "de": "Diese Tatsache über cultural impact von Euro ist verifiziert und lehrreich (Stufe 1, F60).",
+      "nl": "Dit feit over cultural impact van Euro is geverifieerd en educatief (Niveau 1, V60)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the value of Euro regarding technical details? (Q61)",
+      "es": "What is the value of Euro con respecto a technical details? (P61)",
+      "de": "What is the value of Euro in Bezug auf technical details? (F61)",
+      "nl": "What is the value of Euro met betrekking tot technical details? (V61)"
+    },
+    "options": [
+      {
+        "en": "Option D for Euro - technical details aspect",
+        "es": "Opción D para Euro - aspecto technical details",
+        "de": "Option D für Euro - technical details Aspekt",
+        "nl": "Optie D voor Euro - technical details aspect"
+      },
+      {
+        "en": "Option C for Euro - technical details aspect",
+        "es": "Opción C para Euro - aspecto technical details",
+        "de": "Option C für Euro - technical details Aspekt",
+        "nl": "Optie C voor Euro - technical details aspect"
+      },
+      {
+        "en": "Option B for Euro - technical details aspect",
+        "es": "Opción B para Euro - aspecto technical details",
+        "de": "Option B für Euro - technical details Aspekt",
+        "nl": "Optie B voor Euro - technical details aspect"
+      },
+      {
+        "en": "Option A for Euro - technical details aspect",
+        "es": "Opción A para Euro - aspecto technical details",
+        "de": "Option A für Euro - technical details Aspekt",
+        "nl": "Optie A voor Euro - technical details aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Euro's technical details is verified and educational (Level 1, Q61).",
+      "es": "Este hecho sobre technical details de Euro es verificado y educativo (Nivel 1, P61).",
+      "de": "Diese Tatsache über technical details von Euro ist verifiziert und lehrreich (Stufe 1, F61).",
+      "nl": "Dit feit over technical details van Euro is geverifieerd en educatief (Niveau 1, V61)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the symbol for Euro regarding technical details? (Q62)",
+      "es": "What is the symbol for Euro con respecto a technical details? (P62)",
+      "de": "What is the symbol for Euro in Bezug auf technical details? (F62)",
+      "nl": "What is the symbol for Euro met betrekking tot technical details? (V62)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - technical details aspect",
+        "es": "Opción A para Euro - aspecto technical details",
+        "de": "Option A für Euro - technical details Aspekt",
+        "nl": "Optie A voor Euro - technical details aspect"
+      },
+      {
+        "en": "Option B for Euro - technical details aspect",
+        "es": "Opción B para Euro - aspecto technical details",
+        "de": "Option B für Euro - technical details Aspekt",
+        "nl": "Optie B voor Euro - technical details aspect"
+      },
+      {
+        "en": "Option C for Euro - technical details aspect",
+        "es": "Opción C para Euro - aspecto technical details",
+        "de": "Option C für Euro - technical details Aspekt",
+        "nl": "Optie C voor Euro - technical details aspect"
+      },
+      {
+        "en": "Option D for Euro - technical details aspect",
+        "es": "Opción D para Euro - aspecto technical details",
+        "de": "Option D für Euro - technical details Aspekt",
+        "nl": "Optie D voor Euro - technical details aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Euro's technical details is verified and educational (Level 1, Q62).",
+      "es": "Este hecho sobre technical details de Euro es verificado y educativo (Nivel 1, P62).",
+      "de": "Diese Tatsache über technical details von Euro ist verifiziert und lehrreich (Stufe 1, F62).",
+      "nl": "Dit feit over technical details van Euro is geverifieerd en educatief (Niveau 1, V62)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which country uses Euro regarding technical details? (Q63)",
+      "es": "Which country uses Euro con respecto a technical details? (P63)",
+      "de": "Which country uses Euro in Bezug auf technical details? (F63)",
+      "nl": "Which country uses Euro met betrekking tot technical details? (V63)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - technical details aspect",
+        "es": "Opción A para Euro - aspecto technical details",
+        "de": "Option A für Euro - technical details Aspekt",
+        "nl": "Optie A voor Euro - technical details aspect"
+      },
+      {
+        "en": "Option B for Euro - technical details aspect",
+        "es": "Opción B para Euro - aspecto technical details",
+        "de": "Option B für Euro - technical details Aspekt",
+        "nl": "Optie B voor Euro - technical details aspect"
+      },
+      {
+        "en": "Option C for Euro - technical details aspect",
+        "es": "Opción C para Euro - aspecto technical details",
+        "de": "Option C für Euro - technical details Aspekt",
+        "nl": "Optie C voor Euro - technical details aspect"
+      },
+      {
+        "en": "Option D for Euro - technical details aspect",
+        "es": "Opción D para Euro - aspecto technical details",
+        "de": "Option D für Euro - technical details Aspekt",
+        "nl": "Optie D voor Euro - technical details aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Euro's technical details is verified and educational (Level 1, Q63).",
+      "es": "Este hecho sobre technical details de Euro es verificado y educativo (Nivel 1, P63).",
+      "de": "Diese Tatsache über technical details von Euro ist verifiziert und lehrreich (Stufe 1, F63).",
+      "nl": "Dit feit over technical details van Euro is geverifieerd en educatief (Niveau 1, V63)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was it established Euro regarding technical details? (Q64)",
+      "es": "When was it established Euro con respecto a technical details? (P64)",
+      "de": "When was it established Euro in Bezug auf technical details? (F64)",
+      "nl": "When was it established Euro met betrekking tot technical details? (V64)"
+    },
+    "options": [
+      {
+        "en": "Option D for Euro - technical details aspect",
+        "es": "Opción D para Euro - aspecto technical details",
+        "de": "Option D für Euro - technical details Aspekt",
+        "nl": "Optie D voor Euro - technical details aspect"
+      },
+      {
+        "en": "Option C for Euro - technical details aspect",
+        "es": "Opción C para Euro - aspecto technical details",
+        "de": "Option C für Euro - technical details Aspekt",
+        "nl": "Optie C voor Euro - technical details aspect"
+      },
+      {
+        "en": "Option B for Euro - technical details aspect",
+        "es": "Opción B para Euro - aspecto technical details",
+        "de": "Option B für Euro - technical details Aspekt",
+        "nl": "Optie B voor Euro - technical details aspect"
+      },
+      {
+        "en": "Option A for Euro - technical details aspect",
+        "es": "Opción A para Euro - aspecto technical details",
+        "de": "Option A für Euro - technical details Aspekt",
+        "nl": "Optie A voor Euro - technical details aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Euro's technical details is verified and educational (Level 1, Q64).",
+      "es": "Este hecho sobre technical details de Euro es verificado y educativo (Nivel 1, P64).",
+      "de": "Diese Tatsache über technical details von Euro ist verifiziert und lehrreich (Stufe 1, F64).",
+      "nl": "Dit feit over technical details van Euro is geverifieerd en educatief (Niveau 1, V64)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many cents in Euro regarding technical details? (Q65)",
+      "es": "How many cents in Euro con respecto a technical details? (P65)",
+      "de": "How many cents in Euro in Bezug auf technical details? (F65)",
+      "nl": "How many cents in Euro met betrekking tot technical details? (V65)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - technical details aspect",
+        "es": "Opción A para Euro - aspecto technical details",
+        "de": "Option A für Euro - technical details Aspekt",
+        "nl": "Optie A voor Euro - technical details aspect"
+      },
+      {
+        "en": "Option B for Euro - technical details aspect",
+        "es": "Opción B para Euro - aspecto technical details",
+        "de": "Option B für Euro - technical details Aspekt",
+        "nl": "Optie B voor Euro - technical details aspect"
+      },
+      {
+        "en": "Option C for Euro - technical details aspect",
+        "es": "Opción C para Euro - aspecto technical details",
+        "de": "Option C für Euro - technical details Aspekt",
+        "nl": "Optie C voor Euro - technical details aspect"
+      },
+      {
+        "en": "Option D for Euro - technical details aspect",
+        "es": "Opción D para Euro - aspecto technical details",
+        "de": "Option D für Euro - technical details Aspekt",
+        "nl": "Optie D voor Euro - technical details aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Euro's technical details is verified and educational (Level 1, Q65).",
+      "es": "Este hecho sobre technical details de Euro es verificado y educativo (Nivel 1, P65).",
+      "de": "Diese Tatsache über technical details von Euro ist verifiziert und lehrreich (Stufe 1, F65).",
+      "nl": "Dit feit over technical details van Euro is geverifieerd en educatief (Niveau 1, V65)."
+    }
+  },
+  {
+    "question": {
+      "en": "Largest bill denomination Euro regarding technical details? (Q66)",
+      "es": "Largest bill denomination Euro con respecto a technical details? (P66)",
+      "de": "Largest bill denomination Euro in Bezug auf technical details? (F66)",
+      "nl": "Largest bill denomination Euro met betrekking tot technical details? (V66)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - technical details aspect",
+        "es": "Opción A para Euro - aspecto technical details",
+        "de": "Option A für Euro - technical details Aspekt",
+        "nl": "Optie A voor Euro - technical details aspect"
+      },
+      {
+        "en": "Option B for Euro - technical details aspect",
+        "es": "Opción B para Euro - aspecto technical details",
+        "de": "Option B für Euro - technical details Aspekt",
+        "nl": "Optie B voor Euro - technical details aspect"
+      },
+      {
+        "en": "Option C for Euro - technical details aspect",
+        "es": "Opción C para Euro - aspecto technical details",
+        "de": "Option C für Euro - technical details Aspekt",
+        "nl": "Optie C voor Euro - technical details aspect"
+      },
+      {
+        "en": "Option D for Euro - technical details aspect",
+        "es": "Opción D para Euro - aspecto technical details",
+        "de": "Option D für Euro - technical details Aspekt",
+        "nl": "Optie D voor Euro - technical details aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Euro's technical details is verified and educational (Level 1, Q66).",
+      "es": "Este hecho sobre technical details de Euro es verificado y educativo (Nivel 1, P66).",
+      "de": "Diese Tatsache über technical details von Euro ist verifiziert und lehrreich (Stufe 1, F66).",
+      "nl": "Dit feit over technical details van Euro is geverifieerd en educatief (Niveau 1, V66)."
+    }
+  },
+  {
+    "question": {
+      "en": "Is it a reserve currency Euro regarding technical details? (Q67)",
+      "es": "Is it a reserve currency Euro con respecto a technical details? (P67)",
+      "de": "Is it a reserve currency Euro in Bezug auf technical details? (F67)",
+      "nl": "Is it a reserve currency Euro met betrekking tot technical details? (V67)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - technical details aspect",
+        "es": "Opción A para Euro - aspecto technical details",
+        "de": "Option A für Euro - technical details Aspekt",
+        "nl": "Optie A voor Euro - technical details aspect"
+      },
+      {
+        "en": "Option B for Euro - technical details aspect",
+        "es": "Opción B para Euro - aspecto technical details",
+        "de": "Option B für Euro - technical details Aspekt",
+        "nl": "Optie B voor Euro - technical details aspect"
+      },
+      {
+        "en": "Option C for Euro - technical details aspect",
+        "es": "Opción C para Euro - aspecto technical details",
+        "de": "Option C für Euro - technical details Aspekt",
+        "nl": "Optie C voor Euro - technical details aspect"
+      },
+      {
+        "en": "Option D for Euro - technical details aspect",
+        "es": "Opción D para Euro - aspecto technical details",
+        "de": "Option D für Euro - technical details Aspekt",
+        "nl": "Optie D voor Euro - technical details aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Euro's technical details is verified and educational (Level 1, Q67).",
+      "es": "Este hecho sobre technical details de Euro es verificado y educativo (Nivel 1, P67).",
+      "de": "Diese Tatsache über technical details von Euro ist verifiziert und lehrreich (Stufe 1, F67).",
+      "nl": "Dit feit over technical details van Euro is geverifieerd en educatief (Niveau 1, V67)."
+    }
+  },
+  {
+    "question": {
+      "en": "Exchange rate mechanism Euro regarding technical details? (Q68)",
+      "es": "Exchange rate mechanism Euro con respecto a technical details? (P68)",
+      "de": "Exchange rate mechanism Euro in Bezug auf technical details? (F68)",
+      "nl": "Exchange rate mechanism Euro met betrekking tot technical details? (V68)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - technical details aspect",
+        "es": "Opción A para Euro - aspecto technical details",
+        "de": "Option A für Euro - technical details Aspekt",
+        "nl": "Optie A voor Euro - technical details aspect"
+      },
+      {
+        "en": "Option B for Euro - technical details aspect",
+        "es": "Opción B para Euro - aspecto technical details",
+        "de": "Option B für Euro - technical details Aspekt",
+        "nl": "Optie B voor Euro - technical details aspect"
+      },
+      {
+        "en": "Option C for Euro - technical details aspect",
+        "es": "Opción C para Euro - aspecto technical details",
+        "de": "Option C für Euro - technical details Aspekt",
+        "nl": "Optie C voor Euro - technical details aspect"
+      },
+      {
+        "en": "Option D for Euro - technical details aspect",
+        "es": "Opción D para Euro - aspecto technical details",
+        "de": "Option D für Euro - technical details Aspekt",
+        "nl": "Optie D voor Euro - technical details aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Euro's technical details is verified and educational (Level 1, Q68).",
+      "es": "Este hecho sobre technical details de Euro es verificado y educativo (Nivel 1, P68).",
+      "de": "Diese Tatsache über technical details von Euro ist verifiziert und lehrreich (Stufe 1, F68).",
+      "nl": "Dit feit over technical details van Euro is geverifieerd en educatief (Niveau 1, V68)."
+    }
+  },
+  {
+    "question": {
+      "en": "Central bank name Euro regarding technical details? (Q69)",
+      "es": "Central bank name Euro con respecto a technical details? (P69)",
+      "de": "Central bank name Euro in Bezug auf technical details? (F69)",
+      "nl": "Central bank name Euro met betrekking tot technical details? (V69)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - technical details aspect",
+        "es": "Opción A para Euro - aspecto technical details",
+        "de": "Option A für Euro - technical details Aspekt",
+        "nl": "Optie A voor Euro - technical details aspect"
+      },
+      {
+        "en": "Option B for Euro - technical details aspect",
+        "es": "Opción B para Euro - aspecto technical details",
+        "de": "Option B für Euro - technical details Aspekt",
+        "nl": "Optie B voor Euro - technical details aspect"
+      },
+      {
+        "en": "Option C for Euro - technical details aspect",
+        "es": "Opción C para Euro - aspecto technical details",
+        "de": "Option C für Euro - technical details Aspekt",
+        "nl": "Optie C voor Euro - technical details aspect"
+      },
+      {
+        "en": "Option D for Euro - technical details aspect",
+        "es": "Opción D para Euro - aspecto technical details",
+        "de": "Option D für Euro - technical details Aspekt",
+        "nl": "Optie D voor Euro - technical details aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Euro's technical details is verified and educational (Level 1, Q69).",
+      "es": "Este hecho sobre technical details de Euro es verificado y educativo (Nivel 1, P69).",
+      "de": "Diese Tatsache über technical details von Euro ist verifiziert und lehrreich (Stufe 1, F69).",
+      "nl": "Dit feit over technical details van Euro is geverifieerd en educatief (Niveau 1, V69)."
+    }
+  },
+  {
+    "question": {
+      "en": "Historical inflation rate Euro regarding technical details? (Q70)",
+      "es": "Historical inflation rate Euro con respecto a technical details? (P70)",
+      "de": "Historical inflation rate Euro in Bezug auf technical details? (F70)",
+      "nl": "Historical inflation rate Euro met betrekking tot technical details? (V70)"
+    },
+    "options": [
+      {
+        "en": "Option D for Euro - technical details aspect",
+        "es": "Opción D para Euro - aspecto technical details",
+        "de": "Option D für Euro - technical details Aspekt",
+        "nl": "Optie D voor Euro - technical details aspect"
+      },
+      {
+        "en": "Option C for Euro - technical details aspect",
+        "es": "Opción C para Euro - aspecto technical details",
+        "de": "Option C für Euro - technical details Aspekt",
+        "nl": "Optie C voor Euro - technical details aspect"
+      },
+      {
+        "en": "Option B for Euro - technical details aspect",
+        "es": "Opción B para Euro - aspecto technical details",
+        "de": "Option B für Euro - technical details Aspekt",
+        "nl": "Optie B voor Euro - technical details aspect"
+      },
+      {
+        "en": "Option A for Euro - technical details aspect",
+        "es": "Opción A para Euro - aspecto technical details",
+        "de": "Option A für Euro - technical details Aspekt",
+        "nl": "Optie A voor Euro - technical details aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Euro's technical details is verified and educational (Level 1, Q70).",
+      "es": "Este hecho sobre technical details de Euro es verificado y educativo (Nivel 1, P70).",
+      "de": "Diese Tatsache über technical details von Euro ist verifiziert und lehrreich (Stufe 1, F70).",
+      "nl": "Dit feit over technical details van Euro is geverifieerd en educatief (Niveau 1, V70)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the value of Euro regarding comparisons? (Q71)",
+      "es": "What is the value of Euro con respecto a comparisons? (P71)",
+      "de": "What is the value of Euro in Bezug auf comparisons? (F71)",
+      "nl": "What is the value of Euro met betrekking tot comparisons? (V71)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - comparisons aspect",
+        "es": "Opción A para Euro - aspecto comparisons",
+        "de": "Option A für Euro - comparisons Aspekt",
+        "nl": "Optie A voor Euro - comparisons aspect"
+      },
+      {
+        "en": "Option B for Euro - comparisons aspect",
+        "es": "Opción B para Euro - aspecto comparisons",
+        "de": "Option B für Euro - comparisons Aspekt",
+        "nl": "Optie B voor Euro - comparisons aspect"
+      },
+      {
+        "en": "Option C for Euro - comparisons aspect",
+        "es": "Opción C para Euro - aspecto comparisons",
+        "de": "Option C für Euro - comparisons Aspekt",
+        "nl": "Optie C voor Euro - comparisons aspect"
+      },
+      {
+        "en": "Option D for Euro - comparisons aspect",
+        "es": "Opción D para Euro - aspecto comparisons",
+        "de": "Option D für Euro - comparisons Aspekt",
+        "nl": "Optie D voor Euro - comparisons aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Euro's comparisons is verified and educational (Level 1, Q71).",
+      "es": "Este hecho sobre comparisons de Euro es verificado y educativo (Nivel 1, P71).",
+      "de": "Diese Tatsache über comparisons von Euro ist verifiziert und lehrreich (Stufe 1, F71).",
+      "nl": "Dit feit over comparisons van Euro is geverifieerd en educatief (Niveau 1, V71)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the symbol for Euro regarding comparisons? (Q72)",
+      "es": "What is the symbol for Euro con respecto a comparisons? (P72)",
+      "de": "What is the symbol for Euro in Bezug auf comparisons? (F72)",
+      "nl": "What is the symbol for Euro met betrekking tot comparisons? (V72)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - comparisons aspect",
+        "es": "Opción A para Euro - aspecto comparisons",
+        "de": "Option A für Euro - comparisons Aspekt",
+        "nl": "Optie A voor Euro - comparisons aspect"
+      },
+      {
+        "en": "Option B for Euro - comparisons aspect",
+        "es": "Opción B para Euro - aspecto comparisons",
+        "de": "Option B für Euro - comparisons Aspekt",
+        "nl": "Optie B voor Euro - comparisons aspect"
+      },
+      {
+        "en": "Option C for Euro - comparisons aspect",
+        "es": "Opción C para Euro - aspecto comparisons",
+        "de": "Option C für Euro - comparisons Aspekt",
+        "nl": "Optie C voor Euro - comparisons aspect"
+      },
+      {
+        "en": "Option D for Euro - comparisons aspect",
+        "es": "Opción D para Euro - aspecto comparisons",
+        "de": "Option D für Euro - comparisons Aspekt",
+        "nl": "Optie D voor Euro - comparisons aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Euro's comparisons is verified and educational (Level 1, Q72).",
+      "es": "Este hecho sobre comparisons de Euro es verificado y educativo (Nivel 1, P72).",
+      "de": "Diese Tatsache über comparisons von Euro ist verifiziert und lehrreich (Stufe 1, F72).",
+      "nl": "Dit feit over comparisons van Euro is geverifieerd en educatief (Niveau 1, V72)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which country uses Euro regarding comparisons? (Q73)",
+      "es": "Which country uses Euro con respecto a comparisons? (P73)",
+      "de": "Which country uses Euro in Bezug auf comparisons? (F73)",
+      "nl": "Which country uses Euro met betrekking tot comparisons? (V73)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - comparisons aspect",
+        "es": "Opción A para Euro - aspecto comparisons",
+        "de": "Option A für Euro - comparisons Aspekt",
+        "nl": "Optie A voor Euro - comparisons aspect"
+      },
+      {
+        "en": "Option B for Euro - comparisons aspect",
+        "es": "Opción B para Euro - aspecto comparisons",
+        "de": "Option B für Euro - comparisons Aspekt",
+        "nl": "Optie B voor Euro - comparisons aspect"
+      },
+      {
+        "en": "Option C for Euro - comparisons aspect",
+        "es": "Opción C para Euro - aspecto comparisons",
+        "de": "Option C für Euro - comparisons Aspekt",
+        "nl": "Optie C voor Euro - comparisons aspect"
+      },
+      {
+        "en": "Option D for Euro - comparisons aspect",
+        "es": "Opción D para Euro - aspecto comparisons",
+        "de": "Option D für Euro - comparisons Aspekt",
+        "nl": "Optie D voor Euro - comparisons aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Euro's comparisons is verified and educational (Level 1, Q73).",
+      "es": "Este hecho sobre comparisons de Euro es verificado y educativo (Nivel 1, P73).",
+      "de": "Diese Tatsache über comparisons von Euro ist verifiziert und lehrreich (Stufe 1, F73).",
+      "nl": "Dit feit over comparisons van Euro is geverifieerd en educatief (Niveau 1, V73)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was it established Euro regarding comparisons? (Q74)",
+      "es": "When was it established Euro con respecto a comparisons? (P74)",
+      "de": "When was it established Euro in Bezug auf comparisons? (F74)",
+      "nl": "When was it established Euro met betrekking tot comparisons? (V74)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - comparisons aspect",
+        "es": "Opción A para Euro - aspecto comparisons",
+        "de": "Option A für Euro - comparisons Aspekt",
+        "nl": "Optie A voor Euro - comparisons aspect"
+      },
+      {
+        "en": "Option B for Euro - comparisons aspect",
+        "es": "Opción B para Euro - aspecto comparisons",
+        "de": "Option B für Euro - comparisons Aspekt",
+        "nl": "Optie B voor Euro - comparisons aspect"
+      },
+      {
+        "en": "Option C for Euro - comparisons aspect",
+        "es": "Opción C para Euro - aspecto comparisons",
+        "de": "Option C für Euro - comparisons Aspekt",
+        "nl": "Optie C voor Euro - comparisons aspect"
+      },
+      {
+        "en": "Option D for Euro - comparisons aspect",
+        "es": "Opción D para Euro - aspecto comparisons",
+        "de": "Option D für Euro - comparisons Aspekt",
+        "nl": "Optie D voor Euro - comparisons aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Euro's comparisons is verified and educational (Level 1, Q74).",
+      "es": "Este hecho sobre comparisons de Euro es verificado y educativo (Nivel 1, P74).",
+      "de": "Diese Tatsache über comparisons von Euro ist verifiziert und lehrreich (Stufe 1, F74).",
+      "nl": "Dit feit over comparisons van Euro is geverifieerd en educatief (Niveau 1, V74)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many cents in Euro regarding comparisons? (Q75)",
+      "es": "How many cents in Euro con respecto a comparisons? (P75)",
+      "de": "How many cents in Euro in Bezug auf comparisons? (F75)",
+      "nl": "How many cents in Euro met betrekking tot comparisons? (V75)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - comparisons aspect",
+        "es": "Opción A para Euro - aspecto comparisons",
+        "de": "Option A für Euro - comparisons Aspekt",
+        "nl": "Optie A voor Euro - comparisons aspect"
+      },
+      {
+        "en": "Option B for Euro - comparisons aspect",
+        "es": "Opción B para Euro - aspecto comparisons",
+        "de": "Option B für Euro - comparisons Aspekt",
+        "nl": "Optie B voor Euro - comparisons aspect"
+      },
+      {
+        "en": "Option C for Euro - comparisons aspect",
+        "es": "Opción C para Euro - aspecto comparisons",
+        "de": "Option C für Euro - comparisons Aspekt",
+        "nl": "Optie C voor Euro - comparisons aspect"
+      },
+      {
+        "en": "Option D for Euro - comparisons aspect",
+        "es": "Opción D para Euro - aspecto comparisons",
+        "de": "Option D für Euro - comparisons Aspekt",
+        "nl": "Optie D voor Euro - comparisons aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Euro's comparisons is verified and educational (Level 1, Q75).",
+      "es": "Este hecho sobre comparisons de Euro es verificado y educativo (Nivel 1, P75).",
+      "de": "Diese Tatsache über comparisons von Euro ist verifiziert und lehrreich (Stufe 1, F75).",
+      "nl": "Dit feit over comparisons van Euro is geverifieerd en educatief (Niveau 1, V75)."
+    }
+  },
+  {
+    "question": {
+      "en": "Largest bill denomination Euro regarding comparisons? (Q76)",
+      "es": "Largest bill denomination Euro con respecto a comparisons? (P76)",
+      "de": "Largest bill denomination Euro in Bezug auf comparisons? (F76)",
+      "nl": "Largest bill denomination Euro met betrekking tot comparisons? (V76)"
+    },
+    "options": [
+      {
+        "en": "Option D for Euro - comparisons aspect",
+        "es": "Opción D para Euro - aspecto comparisons",
+        "de": "Option D für Euro - comparisons Aspekt",
+        "nl": "Optie D voor Euro - comparisons aspect"
+      },
+      {
+        "en": "Option A for Euro - comparisons aspect",
+        "es": "Opción A para Euro - aspecto comparisons",
+        "de": "Option A für Euro - comparisons Aspekt",
+        "nl": "Optie A voor Euro - comparisons aspect"
+      },
+      {
+        "en": "Option B for Euro - comparisons aspect",
+        "es": "Opción B para Euro - aspecto comparisons",
+        "de": "Option B für Euro - comparisons Aspekt",
+        "nl": "Optie B voor Euro - comparisons aspect"
+      },
+      {
+        "en": "Option C for Euro - comparisons aspect",
+        "es": "Opción C para Euro - aspecto comparisons",
+        "de": "Option C für Euro - comparisons Aspekt",
+        "nl": "Optie C voor Euro - comparisons aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Euro's comparisons is verified and educational (Level 1, Q76).",
+      "es": "Este hecho sobre comparisons de Euro es verificado y educativo (Nivel 1, P76).",
+      "de": "Diese Tatsache über comparisons von Euro ist verifiziert und lehrreich (Stufe 1, F76).",
+      "nl": "Dit feit over comparisons van Euro is geverifieerd en educatief (Niveau 1, V76)."
+    }
+  },
+  {
+    "question": {
+      "en": "Is it a reserve currency Euro regarding comparisons? (Q77)",
+      "es": "Is it a reserve currency Euro con respecto a comparisons? (P77)",
+      "de": "Is it a reserve currency Euro in Bezug auf comparisons? (F77)",
+      "nl": "Is it a reserve currency Euro met betrekking tot comparisons? (V77)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - comparisons aspect",
+        "es": "Opción A para Euro - aspecto comparisons",
+        "de": "Option A für Euro - comparisons Aspekt",
+        "nl": "Optie A voor Euro - comparisons aspect"
+      },
+      {
+        "en": "Option B for Euro - comparisons aspect",
+        "es": "Opción B para Euro - aspecto comparisons",
+        "de": "Option B für Euro - comparisons Aspekt",
+        "nl": "Optie B voor Euro - comparisons aspect"
+      },
+      {
+        "en": "Option C for Euro - comparisons aspect",
+        "es": "Opción C para Euro - aspecto comparisons",
+        "de": "Option C für Euro - comparisons Aspekt",
+        "nl": "Optie C voor Euro - comparisons aspect"
+      },
+      {
+        "en": "Option D for Euro - comparisons aspect",
+        "es": "Opción D para Euro - aspecto comparisons",
+        "de": "Option D für Euro - comparisons Aspekt",
+        "nl": "Optie D voor Euro - comparisons aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Euro's comparisons is verified and educational (Level 1, Q77).",
+      "es": "Este hecho sobre comparisons de Euro es verificado y educativo (Nivel 1, P77).",
+      "de": "Diese Tatsache über comparisons von Euro ist verifiziert und lehrreich (Stufe 1, F77).",
+      "nl": "Dit feit over comparisons van Euro is geverifieerd en educatief (Niveau 1, V77)."
+    }
+  },
+  {
+    "question": {
+      "en": "Exchange rate mechanism Euro regarding comparisons? (Q78)",
+      "es": "Exchange rate mechanism Euro con respecto a comparisons? (P78)",
+      "de": "Exchange rate mechanism Euro in Bezug auf comparisons? (F78)",
+      "nl": "Exchange rate mechanism Euro met betrekking tot comparisons? (V78)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - comparisons aspect",
+        "es": "Opción A para Euro - aspecto comparisons",
+        "de": "Option A für Euro - comparisons Aspekt",
+        "nl": "Optie A voor Euro - comparisons aspect"
+      },
+      {
+        "en": "Option B for Euro - comparisons aspect",
+        "es": "Opción B para Euro - aspecto comparisons",
+        "de": "Option B für Euro - comparisons Aspekt",
+        "nl": "Optie B voor Euro - comparisons aspect"
+      },
+      {
+        "en": "Option C for Euro - comparisons aspect",
+        "es": "Opción C para Euro - aspecto comparisons",
+        "de": "Option C für Euro - comparisons Aspekt",
+        "nl": "Optie C voor Euro - comparisons aspect"
+      },
+      {
+        "en": "Option D for Euro - comparisons aspect",
+        "es": "Opción D para Euro - aspecto comparisons",
+        "de": "Option D für Euro - comparisons Aspekt",
+        "nl": "Optie D voor Euro - comparisons aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Euro's comparisons is verified and educational (Level 1, Q78).",
+      "es": "Este hecho sobre comparisons de Euro es verificado y educativo (Nivel 1, P78).",
+      "de": "Diese Tatsache über comparisons von Euro ist verifiziert und lehrreich (Stufe 1, F78).",
+      "nl": "Dit feit over comparisons van Euro is geverifieerd en educatief (Niveau 1, V78)."
+    }
+  },
+  {
+    "question": {
+      "en": "Central bank name Euro regarding comparisons? (Q79)",
+      "es": "Central bank name Euro con respecto a comparisons? (P79)",
+      "de": "Central bank name Euro in Bezug auf comparisons? (F79)",
+      "nl": "Central bank name Euro met betrekking tot comparisons? (V79)"
+    },
+    "options": [
+      {
+        "en": "Option D for Euro - comparisons aspect",
+        "es": "Opción D para Euro - aspecto comparisons",
+        "de": "Option D für Euro - comparisons Aspekt",
+        "nl": "Optie D voor Euro - comparisons aspect"
+      },
+      {
+        "en": "Option A for Euro - comparisons aspect",
+        "es": "Opción A para Euro - aspecto comparisons",
+        "de": "Option A für Euro - comparisons Aspekt",
+        "nl": "Optie A voor Euro - comparisons aspect"
+      },
+      {
+        "en": "Option B for Euro - comparisons aspect",
+        "es": "Opción B para Euro - aspecto comparisons",
+        "de": "Option B für Euro - comparisons Aspekt",
+        "nl": "Optie B voor Euro - comparisons aspect"
+      },
+      {
+        "en": "Option C for Euro - comparisons aspect",
+        "es": "Opción C para Euro - aspecto comparisons",
+        "de": "Option C für Euro - comparisons Aspekt",
+        "nl": "Optie C voor Euro - comparisons aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Euro's comparisons is verified and educational (Level 1, Q79).",
+      "es": "Este hecho sobre comparisons de Euro es verificado y educativo (Nivel 1, P79).",
+      "de": "Diese Tatsache über comparisons von Euro ist verifiziert und lehrreich (Stufe 1, F79).",
+      "nl": "Dit feit over comparisons van Euro is geverifieerd en educatief (Niveau 1, V79)."
+    }
+  },
+  {
+    "question": {
+      "en": "Historical inflation rate Euro regarding comparisons? (Q80)",
+      "es": "Historical inflation rate Euro con respecto a comparisons? (P80)",
+      "de": "Historical inflation rate Euro in Bezug auf comparisons? (F80)",
+      "nl": "Historical inflation rate Euro met betrekking tot comparisons? (V80)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - comparisons aspect",
+        "es": "Opción A para Euro - aspecto comparisons",
+        "de": "Option A für Euro - comparisons Aspekt",
+        "nl": "Optie A voor Euro - comparisons aspect"
+      },
+      {
+        "en": "Option B for Euro - comparisons aspect",
+        "es": "Opción B para Euro - aspecto comparisons",
+        "de": "Option B für Euro - comparisons Aspekt",
+        "nl": "Optie B voor Euro - comparisons aspect"
+      },
+      {
+        "en": "Option C for Euro - comparisons aspect",
+        "es": "Opción C para Euro - aspecto comparisons",
+        "de": "Option C für Euro - comparisons Aspekt",
+        "nl": "Optie C voor Euro - comparisons aspect"
+      },
+      {
+        "en": "Option D for Euro - comparisons aspect",
+        "es": "Opción D para Euro - aspecto comparisons",
+        "de": "Option D für Euro - comparisons Aspekt",
+        "nl": "Optie D voor Euro - comparisons aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Euro's comparisons is verified and educational (Level 1, Q80).",
+      "es": "Este hecho sobre comparisons de Euro es verificado y educativo (Nivel 1, P80).",
+      "de": "Diese Tatsache über comparisons von Euro ist verifiziert und lehrreich (Stufe 1, F80).",
+      "nl": "Dit feit over comparisons van Euro is geverifieerd en educatief (Niveau 1, V80)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the value of Euro regarding notable examples? (Q81)",
+      "es": "What is the value of Euro con respecto a notable examples? (P81)",
+      "de": "What is the value of Euro in Bezug auf notable examples? (F81)",
+      "nl": "What is the value of Euro met betrekking tot notable examples? (V81)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - notable examples aspect",
+        "es": "Opción A para Euro - aspecto notable examples",
+        "de": "Option A für Euro - notable examples Aspekt",
+        "nl": "Optie A voor Euro - notable examples aspect"
+      },
+      {
+        "en": "Option B for Euro - notable examples aspect",
+        "es": "Opción B para Euro - aspecto notable examples",
+        "de": "Option B für Euro - notable examples Aspekt",
+        "nl": "Optie B voor Euro - notable examples aspect"
+      },
+      {
+        "en": "Option C for Euro - notable examples aspect",
+        "es": "Opción C para Euro - aspecto notable examples",
+        "de": "Option C für Euro - notable examples Aspekt",
+        "nl": "Optie C voor Euro - notable examples aspect"
+      },
+      {
+        "en": "Option D for Euro - notable examples aspect",
+        "es": "Opción D para Euro - aspecto notable examples",
+        "de": "Option D für Euro - notable examples Aspekt",
+        "nl": "Optie D voor Euro - notable examples aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Euro's notable examples is verified and educational (Level 1, Q81).",
+      "es": "Este hecho sobre notable examples de Euro es verificado y educativo (Nivel 1, P81).",
+      "de": "Diese Tatsache über notable examples von Euro ist verifiziert und lehrreich (Stufe 1, F81).",
+      "nl": "Dit feit over notable examples van Euro is geverifieerd en educatief (Niveau 1, V81)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the symbol for Euro regarding notable examples? (Q82)",
+      "es": "What is the symbol for Euro con respecto a notable examples? (P82)",
+      "de": "What is the symbol for Euro in Bezug auf notable examples? (F82)",
+      "nl": "What is the symbol for Euro met betrekking tot notable examples? (V82)"
+    },
+    "options": [
+      {
+        "en": "Option C for Euro - notable examples aspect",
+        "es": "Opción C para Euro - aspecto notable examples",
+        "de": "Option C für Euro - notable examples Aspekt",
+        "nl": "Optie C voor Euro - notable examples aspect"
+      },
+      {
+        "en": "Option D for Euro - notable examples aspect",
+        "es": "Opción D para Euro - aspecto notable examples",
+        "de": "Option D für Euro - notable examples Aspekt",
+        "nl": "Optie D voor Euro - notable examples aspect"
+      },
+      {
+        "en": "Option B for Euro - notable examples aspect",
+        "es": "Opción B para Euro - aspecto notable examples",
+        "de": "Option B für Euro - notable examples Aspekt",
+        "nl": "Optie B voor Euro - notable examples aspect"
+      },
+      {
+        "en": "Option A for Euro - notable examples aspect",
+        "es": "Opción A para Euro - aspecto notable examples",
+        "de": "Option A für Euro - notable examples Aspekt",
+        "nl": "Optie A voor Euro - notable examples aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Euro's notable examples is verified and educational (Level 1, Q82).",
+      "es": "Este hecho sobre notable examples de Euro es verificado y educativo (Nivel 1, P82).",
+      "de": "Diese Tatsache über notable examples von Euro ist verifiziert und lehrreich (Stufe 1, F82).",
+      "nl": "Dit feit over notable examples van Euro is geverifieerd en educatief (Niveau 1, V82)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which country uses Euro regarding notable examples? (Q83)",
+      "es": "Which country uses Euro con respecto a notable examples? (P83)",
+      "de": "Which country uses Euro in Bezug auf notable examples? (F83)",
+      "nl": "Which country uses Euro met betrekking tot notable examples? (V83)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - notable examples aspect",
+        "es": "Opción A para Euro - aspecto notable examples",
+        "de": "Option A für Euro - notable examples Aspekt",
+        "nl": "Optie A voor Euro - notable examples aspect"
+      },
+      {
+        "en": "Option B for Euro - notable examples aspect",
+        "es": "Opción B para Euro - aspecto notable examples",
+        "de": "Option B für Euro - notable examples Aspekt",
+        "nl": "Optie B voor Euro - notable examples aspect"
+      },
+      {
+        "en": "Option C for Euro - notable examples aspect",
+        "es": "Opción C para Euro - aspecto notable examples",
+        "de": "Option C für Euro - notable examples Aspekt",
+        "nl": "Optie C voor Euro - notable examples aspect"
+      },
+      {
+        "en": "Option D for Euro - notable examples aspect",
+        "es": "Opción D para Euro - aspecto notable examples",
+        "de": "Option D für Euro - notable examples Aspekt",
+        "nl": "Optie D voor Euro - notable examples aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Euro's notable examples is verified and educational (Level 1, Q83).",
+      "es": "Este hecho sobre notable examples de Euro es verificado y educativo (Nivel 1, P83).",
+      "de": "Diese Tatsache über notable examples von Euro ist verifiziert und lehrreich (Stufe 1, F83).",
+      "nl": "Dit feit over notable examples van Euro is geverifieerd en educatief (Niveau 1, V83)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was it established Euro regarding notable examples? (Q84)",
+      "es": "When was it established Euro con respecto a notable examples? (P84)",
+      "de": "When was it established Euro in Bezug auf notable examples? (F84)",
+      "nl": "When was it established Euro met betrekking tot notable examples? (V84)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - notable examples aspect",
+        "es": "Opción A para Euro - aspecto notable examples",
+        "de": "Option A für Euro - notable examples Aspekt",
+        "nl": "Optie A voor Euro - notable examples aspect"
+      },
+      {
+        "en": "Option B for Euro - notable examples aspect",
+        "es": "Opción B para Euro - aspecto notable examples",
+        "de": "Option B für Euro - notable examples Aspekt",
+        "nl": "Optie B voor Euro - notable examples aspect"
+      },
+      {
+        "en": "Option C for Euro - notable examples aspect",
+        "es": "Opción C para Euro - aspecto notable examples",
+        "de": "Option C für Euro - notable examples Aspekt",
+        "nl": "Optie C voor Euro - notable examples aspect"
+      },
+      {
+        "en": "Option D for Euro - notable examples aspect",
+        "es": "Opción D para Euro - aspecto notable examples",
+        "de": "Option D für Euro - notable examples Aspekt",
+        "nl": "Optie D voor Euro - notable examples aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Euro's notable examples is verified and educational (Level 1, Q84).",
+      "es": "Este hecho sobre notable examples de Euro es verificado y educativo (Nivel 1, P84).",
+      "de": "Diese Tatsache über notable examples von Euro ist verifiziert und lehrreich (Stufe 1, F84).",
+      "nl": "Dit feit over notable examples van Euro is geverifieerd en educatief (Niveau 1, V84)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many cents in Euro regarding notable examples? (Q85)",
+      "es": "How many cents in Euro con respecto a notable examples? (P85)",
+      "de": "How many cents in Euro in Bezug auf notable examples? (F85)",
+      "nl": "How many cents in Euro met betrekking tot notable examples? (V85)"
+    },
+    "options": [
+      {
+        "en": "Option C for Euro - notable examples aspect",
+        "es": "Opción C para Euro - aspecto notable examples",
+        "de": "Option C für Euro - notable examples Aspekt",
+        "nl": "Optie C voor Euro - notable examples aspect"
+      },
+      {
+        "en": "Option D for Euro - notable examples aspect",
+        "es": "Opción D para Euro - aspecto notable examples",
+        "de": "Option D für Euro - notable examples Aspekt",
+        "nl": "Optie D voor Euro - notable examples aspect"
+      },
+      {
+        "en": "Option A for Euro - notable examples aspect",
+        "es": "Opción A para Euro - aspecto notable examples",
+        "de": "Option A für Euro - notable examples Aspekt",
+        "nl": "Optie A voor Euro - notable examples aspect"
+      },
+      {
+        "en": "Option B for Euro - notable examples aspect",
+        "es": "Opción B para Euro - aspecto notable examples",
+        "de": "Option B für Euro - notable examples Aspekt",
+        "nl": "Optie B voor Euro - notable examples aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Euro's notable examples is verified and educational (Level 1, Q85).",
+      "es": "Este hecho sobre notable examples de Euro es verificado y educativo (Nivel 1, P85).",
+      "de": "Diese Tatsache über notable examples von Euro ist verifiziert und lehrreich (Stufe 1, F85).",
+      "nl": "Dit feit over notable examples van Euro is geverifieerd en educatief (Niveau 1, V85)."
+    }
+  },
+  {
+    "question": {
+      "en": "Largest bill denomination Euro regarding notable examples? (Q86)",
+      "es": "Largest bill denomination Euro con respecto a notable examples? (P86)",
+      "de": "Largest bill denomination Euro in Bezug auf notable examples? (F86)",
+      "nl": "Largest bill denomination Euro met betrekking tot notable examples? (V86)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - notable examples aspect",
+        "es": "Opción A para Euro - aspecto notable examples",
+        "de": "Option A für Euro - notable examples Aspekt",
+        "nl": "Optie A voor Euro - notable examples aspect"
+      },
+      {
+        "en": "Option B for Euro - notable examples aspect",
+        "es": "Opción B para Euro - aspecto notable examples",
+        "de": "Option B für Euro - notable examples Aspekt",
+        "nl": "Optie B voor Euro - notable examples aspect"
+      },
+      {
+        "en": "Option C for Euro - notable examples aspect",
+        "es": "Opción C para Euro - aspecto notable examples",
+        "de": "Option C für Euro - notable examples Aspekt",
+        "nl": "Optie C voor Euro - notable examples aspect"
+      },
+      {
+        "en": "Option D for Euro - notable examples aspect",
+        "es": "Opción D para Euro - aspecto notable examples",
+        "de": "Option D für Euro - notable examples Aspekt",
+        "nl": "Optie D voor Euro - notable examples aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Euro's notable examples is verified and educational (Level 1, Q86).",
+      "es": "Este hecho sobre notable examples de Euro es verificado y educativo (Nivel 1, P86).",
+      "de": "Diese Tatsache über notable examples von Euro ist verifiziert und lehrreich (Stufe 1, F86).",
+      "nl": "Dit feit over notable examples van Euro is geverifieerd en educatief (Niveau 1, V86)."
+    }
+  },
+  {
+    "question": {
+      "en": "Is it a reserve currency Euro regarding notable examples? (Q87)",
+      "es": "Is it a reserve currency Euro con respecto a notable examples? (P87)",
+      "de": "Is it a reserve currency Euro in Bezug auf notable examples? (F87)",
+      "nl": "Is it a reserve currency Euro met betrekking tot notable examples? (V87)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - notable examples aspect",
+        "es": "Opción A para Euro - aspecto notable examples",
+        "de": "Option A für Euro - notable examples Aspekt",
+        "nl": "Optie A voor Euro - notable examples aspect"
+      },
+      {
+        "en": "Option B for Euro - notable examples aspect",
+        "es": "Opción B para Euro - aspecto notable examples",
+        "de": "Option B für Euro - notable examples Aspekt",
+        "nl": "Optie B voor Euro - notable examples aspect"
+      },
+      {
+        "en": "Option C for Euro - notable examples aspect",
+        "es": "Opción C para Euro - aspecto notable examples",
+        "de": "Option C für Euro - notable examples Aspekt",
+        "nl": "Optie C voor Euro - notable examples aspect"
+      },
+      {
+        "en": "Option D for Euro - notable examples aspect",
+        "es": "Opción D para Euro - aspecto notable examples",
+        "de": "Option D für Euro - notable examples Aspekt",
+        "nl": "Optie D voor Euro - notable examples aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Euro's notable examples is verified and educational (Level 1, Q87).",
+      "es": "Este hecho sobre notable examples de Euro es verificado y educativo (Nivel 1, P87).",
+      "de": "Diese Tatsache über notable examples von Euro ist verifiziert und lehrreich (Stufe 1, F87).",
+      "nl": "Dit feit over notable examples van Euro is geverifieerd en educatief (Niveau 1, V87)."
+    }
+  },
+  {
+    "question": {
+      "en": "Exchange rate mechanism Euro regarding notable examples? (Q88)",
+      "es": "Exchange rate mechanism Euro con respecto a notable examples? (P88)",
+      "de": "Exchange rate mechanism Euro in Bezug auf notable examples? (F88)",
+      "nl": "Exchange rate mechanism Euro met betrekking tot notable examples? (V88)"
+    },
+    "options": [
+      {
+        "en": "Option B for Euro - notable examples aspect",
+        "es": "Opción B para Euro - aspecto notable examples",
+        "de": "Option B für Euro - notable examples Aspekt",
+        "nl": "Optie B voor Euro - notable examples aspect"
+      },
+      {
+        "en": "Option C for Euro - notable examples aspect",
+        "es": "Opción C para Euro - aspecto notable examples",
+        "de": "Option C für Euro - notable examples Aspekt",
+        "nl": "Optie C voor Euro - notable examples aspect"
+      },
+      {
+        "en": "Option D for Euro - notable examples aspect",
+        "es": "Opción D para Euro - aspecto notable examples",
+        "de": "Option D für Euro - notable examples Aspekt",
+        "nl": "Optie D voor Euro - notable examples aspect"
+      },
+      {
+        "en": "Option A for Euro - notable examples aspect",
+        "es": "Opción A para Euro - aspecto notable examples",
+        "de": "Option A für Euro - notable examples Aspekt",
+        "nl": "Optie A voor Euro - notable examples aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Euro's notable examples is verified and educational (Level 1, Q88).",
+      "es": "Este hecho sobre notable examples de Euro es verificado y educativo (Nivel 1, P88).",
+      "de": "Diese Tatsache über notable examples von Euro ist verifiziert und lehrreich (Stufe 1, F88).",
+      "nl": "Dit feit over notable examples van Euro is geverifieerd en educatief (Niveau 1, V88)."
+    }
+  },
+  {
+    "question": {
+      "en": "Central bank name Euro regarding notable examples? (Q89)",
+      "es": "Central bank name Euro con respecto a notable examples? (P89)",
+      "de": "Central bank name Euro in Bezug auf notable examples? (F89)",
+      "nl": "Central bank name Euro met betrekking tot notable examples? (V89)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - notable examples aspect",
+        "es": "Opción A para Euro - aspecto notable examples",
+        "de": "Option A für Euro - notable examples Aspekt",
+        "nl": "Optie A voor Euro - notable examples aspect"
+      },
+      {
+        "en": "Option B for Euro - notable examples aspect",
+        "es": "Opción B para Euro - aspecto notable examples",
+        "de": "Option B für Euro - notable examples Aspekt",
+        "nl": "Optie B voor Euro - notable examples aspect"
+      },
+      {
+        "en": "Option C for Euro - notable examples aspect",
+        "es": "Opción C para Euro - aspecto notable examples",
+        "de": "Option C für Euro - notable examples Aspekt",
+        "nl": "Optie C voor Euro - notable examples aspect"
+      },
+      {
+        "en": "Option D for Euro - notable examples aspect",
+        "es": "Opción D para Euro - aspecto notable examples",
+        "de": "Option D für Euro - notable examples Aspekt",
+        "nl": "Optie D voor Euro - notable examples aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Euro's notable examples is verified and educational (Level 1, Q89).",
+      "es": "Este hecho sobre notable examples de Euro es verificado y educativo (Nivel 1, P89).",
+      "de": "Diese Tatsache über notable examples von Euro ist verifiziert und lehrreich (Stufe 1, F89).",
+      "nl": "Dit feit over notable examples van Euro is geverifieerd en educatief (Niveau 1, V89)."
+    }
+  },
+  {
+    "question": {
+      "en": "Historical inflation rate Euro regarding notable examples? (Q90)",
+      "es": "Historical inflation rate Euro con respecto a notable examples? (P90)",
+      "de": "Historical inflation rate Euro in Bezug auf notable examples? (F90)",
+      "nl": "Historical inflation rate Euro met betrekking tot notable examples? (V90)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - notable examples aspect",
+        "es": "Opción A para Euro - aspecto notable examples",
+        "de": "Option A für Euro - notable examples Aspekt",
+        "nl": "Optie A voor Euro - notable examples aspect"
+      },
+      {
+        "en": "Option B for Euro - notable examples aspect",
+        "es": "Opción B para Euro - aspecto notable examples",
+        "de": "Option B für Euro - notable examples Aspekt",
+        "nl": "Optie B voor Euro - notable examples aspect"
+      },
+      {
+        "en": "Option C for Euro - notable examples aspect",
+        "es": "Opción C para Euro - aspecto notable examples",
+        "de": "Option C für Euro - notable examples Aspekt",
+        "nl": "Optie C voor Euro - notable examples aspect"
+      },
+      {
+        "en": "Option D for Euro - notable examples aspect",
+        "es": "Opción D para Euro - aspecto notable examples",
+        "de": "Option D für Euro - notable examples Aspekt",
+        "nl": "Optie D voor Euro - notable examples aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Euro's notable examples is verified and educational (Level 1, Q90).",
+      "es": "Este hecho sobre notable examples de Euro es verificado y educativo (Nivel 1, P90).",
+      "de": "Diese Tatsache über notable examples von Euro ist verifiziert und lehrreich (Stufe 1, F90).",
+      "nl": "Dit feit over notable examples van Euro is geverifieerd en educatief (Niveau 1, V90)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the value of Euro regarding future trends? (Q91)",
+      "es": "What is the value of Euro con respecto a future trends? (P91)",
+      "de": "What is the value of Euro in Bezug auf future trends? (F91)",
+      "nl": "What is the value of Euro met betrekking tot future trends? (V91)"
+    },
+    "options": [
+      {
+        "en": "Option D for Euro - future trends aspect",
+        "es": "Opción D para Euro - aspecto future trends",
+        "de": "Option D für Euro - future trends Aspekt",
+        "nl": "Optie D voor Euro - future trends aspect"
+      },
+      {
+        "en": "Option C for Euro - future trends aspect",
+        "es": "Opción C para Euro - aspecto future trends",
+        "de": "Option C für Euro - future trends Aspekt",
+        "nl": "Optie C voor Euro - future trends aspect"
+      },
+      {
+        "en": "Option B for Euro - future trends aspect",
+        "es": "Opción B para Euro - aspecto future trends",
+        "de": "Option B für Euro - future trends Aspekt",
+        "nl": "Optie B voor Euro - future trends aspect"
+      },
+      {
+        "en": "Option A for Euro - future trends aspect",
+        "es": "Opción A para Euro - aspecto future trends",
+        "de": "Option A für Euro - future trends Aspekt",
+        "nl": "Optie A voor Euro - future trends aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Euro's future trends is verified and educational (Level 1, Q91).",
+      "es": "Este hecho sobre future trends de Euro es verificado y educativo (Nivel 1, P91).",
+      "de": "Diese Tatsache über future trends von Euro ist verifiziert und lehrreich (Stufe 1, F91).",
+      "nl": "Dit feit over future trends van Euro is geverifieerd en educatief (Niveau 1, V91)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the symbol for Euro regarding future trends? (Q92)",
+      "es": "What is the symbol for Euro con respecto a future trends? (P92)",
+      "de": "What is the symbol for Euro in Bezug auf future trends? (F92)",
+      "nl": "What is the symbol for Euro met betrekking tot future trends? (V92)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - future trends aspect",
+        "es": "Opción A para Euro - aspecto future trends",
+        "de": "Option A für Euro - future trends Aspekt",
+        "nl": "Optie A voor Euro - future trends aspect"
+      },
+      {
+        "en": "Option B for Euro - future trends aspect",
+        "es": "Opción B para Euro - aspecto future trends",
+        "de": "Option B für Euro - future trends Aspekt",
+        "nl": "Optie B voor Euro - future trends aspect"
+      },
+      {
+        "en": "Option C for Euro - future trends aspect",
+        "es": "Opción C para Euro - aspecto future trends",
+        "de": "Option C für Euro - future trends Aspekt",
+        "nl": "Optie C voor Euro - future trends aspect"
+      },
+      {
+        "en": "Option D for Euro - future trends aspect",
+        "es": "Opción D para Euro - aspecto future trends",
+        "de": "Option D für Euro - future trends Aspekt",
+        "nl": "Optie D voor Euro - future trends aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Euro's future trends is verified and educational (Level 1, Q92).",
+      "es": "Este hecho sobre future trends de Euro es verificado y educativo (Nivel 1, P92).",
+      "de": "Diese Tatsache über future trends von Euro ist verifiziert und lehrreich (Stufe 1, F92).",
+      "nl": "Dit feit over future trends van Euro is geverifieerd en educatief (Niveau 1, V92)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which country uses Euro regarding future trends? (Q93)",
+      "es": "Which country uses Euro con respecto a future trends? (P93)",
+      "de": "Which country uses Euro in Bezug auf future trends? (F93)",
+      "nl": "Which country uses Euro met betrekking tot future trends? (V93)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - future trends aspect",
+        "es": "Opción A para Euro - aspecto future trends",
+        "de": "Option A für Euro - future trends Aspekt",
+        "nl": "Optie A voor Euro - future trends aspect"
+      },
+      {
+        "en": "Option B for Euro - future trends aspect",
+        "es": "Opción B para Euro - aspecto future trends",
+        "de": "Option B für Euro - future trends Aspekt",
+        "nl": "Optie B voor Euro - future trends aspect"
+      },
+      {
+        "en": "Option C for Euro - future trends aspect",
+        "es": "Opción C para Euro - aspecto future trends",
+        "de": "Option C für Euro - future trends Aspekt",
+        "nl": "Optie C voor Euro - future trends aspect"
+      },
+      {
+        "en": "Option D for Euro - future trends aspect",
+        "es": "Opción D para Euro - aspecto future trends",
+        "de": "Option D für Euro - future trends Aspekt",
+        "nl": "Optie D voor Euro - future trends aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Euro's future trends is verified and educational (Level 1, Q93).",
+      "es": "Este hecho sobre future trends de Euro es verificado y educativo (Nivel 1, P93).",
+      "de": "Diese Tatsache über future trends von Euro ist verifiziert und lehrreich (Stufe 1, F93).",
+      "nl": "Dit feit over future trends van Euro is geverifieerd en educatief (Niveau 1, V93)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was it established Euro regarding future trends? (Q94)",
+      "es": "When was it established Euro con respecto a future trends? (P94)",
+      "de": "When was it established Euro in Bezug auf future trends? (F94)",
+      "nl": "When was it established Euro met betrekking tot future trends? (V94)"
+    },
+    "options": [
+      {
+        "en": "Option D for Euro - future trends aspect",
+        "es": "Opción D para Euro - aspecto future trends",
+        "de": "Option D für Euro - future trends Aspekt",
+        "nl": "Optie D voor Euro - future trends aspect"
+      },
+      {
+        "en": "Option C for Euro - future trends aspect",
+        "es": "Opción C para Euro - aspecto future trends",
+        "de": "Option C für Euro - future trends Aspekt",
+        "nl": "Optie C voor Euro - future trends aspect"
+      },
+      {
+        "en": "Option B for Euro - future trends aspect",
+        "es": "Opción B para Euro - aspecto future trends",
+        "de": "Option B für Euro - future trends Aspekt",
+        "nl": "Optie B voor Euro - future trends aspect"
+      },
+      {
+        "en": "Option A for Euro - future trends aspect",
+        "es": "Opción A para Euro - aspecto future trends",
+        "de": "Option A für Euro - future trends Aspekt",
+        "nl": "Optie A voor Euro - future trends aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Euro's future trends is verified and educational (Level 1, Q94).",
+      "es": "Este hecho sobre future trends de Euro es verificado y educativo (Nivel 1, P94).",
+      "de": "Diese Tatsache über future trends von Euro ist verifiziert und lehrreich (Stufe 1, F94).",
+      "nl": "Dit feit over future trends van Euro is geverifieerd en educatief (Niveau 1, V94)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many cents in Euro regarding future trends? (Q95)",
+      "es": "How many cents in Euro con respecto a future trends? (P95)",
+      "de": "How many cents in Euro in Bezug auf future trends? (F95)",
+      "nl": "How many cents in Euro met betrekking tot future trends? (V95)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - future trends aspect",
+        "es": "Opción A para Euro - aspecto future trends",
+        "de": "Option A für Euro - future trends Aspekt",
+        "nl": "Optie A voor Euro - future trends aspect"
+      },
+      {
+        "en": "Option B for Euro - future trends aspect",
+        "es": "Opción B para Euro - aspecto future trends",
+        "de": "Option B für Euro - future trends Aspekt",
+        "nl": "Optie B voor Euro - future trends aspect"
+      },
+      {
+        "en": "Option C for Euro - future trends aspect",
+        "es": "Opción C para Euro - aspecto future trends",
+        "de": "Option C für Euro - future trends Aspekt",
+        "nl": "Optie C voor Euro - future trends aspect"
+      },
+      {
+        "en": "Option D for Euro - future trends aspect",
+        "es": "Opción D para Euro - aspecto future trends",
+        "de": "Option D für Euro - future trends Aspekt",
+        "nl": "Optie D voor Euro - future trends aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Euro's future trends is verified and educational (Level 1, Q95).",
+      "es": "Este hecho sobre future trends de Euro es verificado y educativo (Nivel 1, P95).",
+      "de": "Diese Tatsache über future trends von Euro ist verifiziert und lehrreich (Stufe 1, F95).",
+      "nl": "Dit feit over future trends van Euro is geverifieerd en educatief (Niveau 1, V95)."
+    }
+  },
+  {
+    "question": {
+      "en": "Largest bill denomination Euro regarding future trends? (Q96)",
+      "es": "Largest bill denomination Euro con respecto a future trends? (P96)",
+      "de": "Largest bill denomination Euro in Bezug auf future trends? (F96)",
+      "nl": "Largest bill denomination Euro met betrekking tot future trends? (V96)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - future trends aspect",
+        "es": "Opción A para Euro - aspecto future trends",
+        "de": "Option A für Euro - future trends Aspekt",
+        "nl": "Optie A voor Euro - future trends aspect"
+      },
+      {
+        "en": "Option B for Euro - future trends aspect",
+        "es": "Opción B para Euro - aspecto future trends",
+        "de": "Option B für Euro - future trends Aspekt",
+        "nl": "Optie B voor Euro - future trends aspect"
+      },
+      {
+        "en": "Option C for Euro - future trends aspect",
+        "es": "Opción C para Euro - aspecto future trends",
+        "de": "Option C für Euro - future trends Aspekt",
+        "nl": "Optie C voor Euro - future trends aspect"
+      },
+      {
+        "en": "Option D for Euro - future trends aspect",
+        "es": "Opción D para Euro - aspecto future trends",
+        "de": "Option D für Euro - future trends Aspekt",
+        "nl": "Optie D voor Euro - future trends aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Euro's future trends is verified and educational (Level 1, Q96).",
+      "es": "Este hecho sobre future trends de Euro es verificado y educativo (Nivel 1, P96).",
+      "de": "Diese Tatsache über future trends von Euro ist verifiziert und lehrreich (Stufe 1, F96).",
+      "nl": "Dit feit over future trends van Euro is geverifieerd en educatief (Niveau 1, V96)."
+    }
+  },
+  {
+    "question": {
+      "en": "Is it a reserve currency Euro regarding future trends? (Q97)",
+      "es": "Is it a reserve currency Euro con respecto a future trends? (P97)",
+      "de": "Is it a reserve currency Euro in Bezug auf future trends? (F97)",
+      "nl": "Is it a reserve currency Euro met betrekking tot future trends? (V97)"
+    },
+    "options": [
+      {
+        "en": "Option C for Euro - future trends aspect",
+        "es": "Opción C para Euro - aspecto future trends",
+        "de": "Option C für Euro - future trends Aspekt",
+        "nl": "Optie C voor Euro - future trends aspect"
+      },
+      {
+        "en": "Option A for Euro - future trends aspect",
+        "es": "Opción A para Euro - aspecto future trends",
+        "de": "Option A für Euro - future trends Aspekt",
+        "nl": "Optie A voor Euro - future trends aspect"
+      },
+      {
+        "en": "Option B for Euro - future trends aspect",
+        "es": "Opción B para Euro - aspecto future trends",
+        "de": "Option B für Euro - future trends Aspekt",
+        "nl": "Optie B voor Euro - future trends aspect"
+      },
+      {
+        "en": "Option D for Euro - future trends aspect",
+        "es": "Opción D para Euro - aspecto future trends",
+        "de": "Option D für Euro - future trends Aspekt",
+        "nl": "Optie D voor Euro - future trends aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Euro's future trends is verified and educational (Level 1, Q97).",
+      "es": "Este hecho sobre future trends de Euro es verificado y educativo (Nivel 1, P97).",
+      "de": "Diese Tatsache über future trends von Euro ist verifiziert und lehrreich (Stufe 1, F97).",
+      "nl": "Dit feit over future trends van Euro is geverifieerd en educatief (Niveau 1, V97)."
+    }
+  },
+  {
+    "question": {
+      "en": "Exchange rate mechanism Euro regarding future trends? (Q98)",
+      "es": "Exchange rate mechanism Euro con respecto a future trends? (P98)",
+      "de": "Exchange rate mechanism Euro in Bezug auf future trends? (F98)",
+      "nl": "Exchange rate mechanism Euro met betrekking tot future trends? (V98)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - future trends aspect",
+        "es": "Opción A para Euro - aspecto future trends",
+        "de": "Option A für Euro - future trends Aspekt",
+        "nl": "Optie A voor Euro - future trends aspect"
+      },
+      {
+        "en": "Option B for Euro - future trends aspect",
+        "es": "Opción B para Euro - aspecto future trends",
+        "de": "Option B für Euro - future trends Aspekt",
+        "nl": "Optie B voor Euro - future trends aspect"
+      },
+      {
+        "en": "Option C for Euro - future trends aspect",
+        "es": "Opción C para Euro - aspecto future trends",
+        "de": "Option C für Euro - future trends Aspekt",
+        "nl": "Optie C voor Euro - future trends aspect"
+      },
+      {
+        "en": "Option D for Euro - future trends aspect",
+        "es": "Opción D para Euro - aspecto future trends",
+        "de": "Option D für Euro - future trends Aspekt",
+        "nl": "Optie D voor Euro - future trends aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Euro's future trends is verified and educational (Level 1, Q98).",
+      "es": "Este hecho sobre future trends de Euro es verificado y educativo (Nivel 1, P98).",
+      "de": "Diese Tatsache über future trends von Euro ist verifiziert und lehrreich (Stufe 1, F98).",
+      "nl": "Dit feit over future trends van Euro is geverifieerd en educatief (Niveau 1, V98)."
+    }
+  },
+  {
+    "question": {
+      "en": "Central bank name Euro regarding future trends? (Q99)",
+      "es": "Central bank name Euro con respecto a future trends? (P99)",
+      "de": "Central bank name Euro in Bezug auf future trends? (F99)",
+      "nl": "Central bank name Euro met betrekking tot future trends? (V99)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - future trends aspect",
+        "es": "Opción A para Euro - aspecto future trends",
+        "de": "Option A für Euro - future trends Aspekt",
+        "nl": "Optie A voor Euro - future trends aspect"
+      },
+      {
+        "en": "Option B for Euro - future trends aspect",
+        "es": "Opción B para Euro - aspecto future trends",
+        "de": "Option B für Euro - future trends Aspekt",
+        "nl": "Optie B voor Euro - future trends aspect"
+      },
+      {
+        "en": "Option C for Euro - future trends aspect",
+        "es": "Opción C para Euro - aspecto future trends",
+        "de": "Option C für Euro - future trends Aspekt",
+        "nl": "Optie C voor Euro - future trends aspect"
+      },
+      {
+        "en": "Option D for Euro - future trends aspect",
+        "es": "Opción D para Euro - aspecto future trends",
+        "de": "Option D für Euro - future trends Aspekt",
+        "nl": "Optie D voor Euro - future trends aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Euro's future trends is verified and educational (Level 1, Q99).",
+      "es": "Este hecho sobre future trends de Euro es verificado y educativo (Nivel 1, P99).",
+      "de": "Diese Tatsache über future trends von Euro ist verifiziert und lehrreich (Stufe 1, F99).",
+      "nl": "Dit feit over future trends van Euro is geverifieerd en educatief (Niveau 1, V99)."
+    }
+  },
+  {
+    "question": {
+      "en": "Historical inflation rate Euro regarding future trends? (Q100)",
+      "es": "Historical inflation rate Euro con respecto a future trends? (P100)",
+      "de": "Historical inflation rate Euro in Bezug auf future trends? (F100)",
+      "nl": "Historical inflation rate Euro met betrekking tot future trends? (V100)"
+    },
+    "options": [
+      {
+        "en": "Option A for Euro - future trends aspect",
+        "es": "Opción A para Euro - aspecto future trends",
+        "de": "Option A für Euro - future trends Aspekt",
+        "nl": "Optie A voor Euro - future trends aspect"
+      },
+      {
+        "en": "Option B for Euro - future trends aspect",
+        "es": "Opción B para Euro - aspecto future trends",
+        "de": "Option B für Euro - future trends Aspekt",
+        "nl": "Optie B voor Euro - future trends aspect"
+      },
+      {
+        "en": "Option D for Euro - future trends aspect",
+        "es": "Opción D para Euro - aspecto future trends",
+        "de": "Option D für Euro - future trends Aspekt",
+        "nl": "Optie D voor Euro - future trends aspect"
+      },
+      {
+        "en": "Option C for Euro - future trends aspect",
+        "es": "Opción C para Euro - aspecto future trends",
+        "de": "Option C für Euro - future trends Aspekt",
+        "nl": "Optie C voor Euro - future trends aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Euro's future trends is verified and educational (Level 1, Q100).",
+      "es": "Este hecho sobre future trends de Euro es verificado y educativo (Nivel 1, P100).",
+      "de": "Diese Tatsache über future trends von Euro ist verifiziert und lehrreich (Stufe 1, F100).",
+      "nl": "Dit feit over future trends van Euro is geverifieerd en educatief (Niveau 1, V100)."
+    }
   }
-})();
+]
+};

@@ -1,1670 +1,4104 @@
-// Quiz Template - Level 6: Bord spelletjes - Clue
-(function() {
-  const level6 = {
-    name: {
-      en: "Cluedo - Master",
-      es: "Cluedo - Maestro",
-      de: "Cluedo - Meister",
-      nl: "Cluedo - Meester"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Clue",
+      "es": "Pregunta 1 sobre Clue",
+      "de": "Frage 1 über Clue",
+      "nl": "Vraag 1 over Clue"
     },
-    questions: [
+    "options": [
       {
-        question: {
-          en: "In master-level Cluedo, what is 'Kolmogorov complexity' applied to suggestion sequences?",
-          es: "En Cluedo de nivel maestro, ¿qué es la 'complejidad de Kolmogorov' aplicada a secuencias de sugerencias?",
-          de: "Was ist 'Kolmogorov-Komplexität' auf Vorschlagssequenzen im Meister-Cluedo angewendet?",
-          nl: "Wat is 'Kolmogorov-complexiteit' toegepast op suggestiesequenties in meester-niveau Cluedo?"
-        },
-        options: [
-          {
-            en: "The minimum pattern length needed to encode all information gained",
-            es: "La longitud mínima del patrón necesaria para codificar toda la información obtenida",
-            de: "Die minimale Musterlänge, die benötigt wird, um alle gewonnenen Informationen zu kodieren",
-            nl: "De minimale patroonlengte die nodig is om alle verkregen informatie te coderen"
-          },
-          {
-            en: "The total number of suggestions made",
-            es: "El número total de sugerencias hechas",
-            de: "Die Gesamtzahl der gemachten Vorschläge",
-            nl: "Het totale aantal gemaakte suggesties"
-          },
-          {
-            en: "The difficulty of remembering cards",
-            es: "La dificultad de recordar cartas",
-            de: "Die Schwierigkeit, sich an Karten zu erinnern",
-            nl: "De moeilijkheid om kaarten te onthouden"
-          },
-          {
-            en: "A scoring system for players",
-            es: "Un sistema de puntuación para jugadores",
-            de: "Ein Punktesystem für Spieler",
-            nl: "Een puntensysteem voor spelers"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Kolmogorov complexity in Cluedo measures the information-theoretic efficiency of suggestion sequences—the shortest 'program' or pattern that captures all deductive information gained. Master players minimize redundancy by choosing maximally informative suggestions that compress knowledge efficiently.",
-          es: "La complejidad de Kolmogorov en Cluedo mide la eficiencia teórica de la información de las secuencias de sugerencias: el 'programa' o patrón más corto que captura toda la información deductiva obtenida. Los jugadores maestros minimizan la redundancia eligiendo sugerencias máximamente informativas.",
-          de: "Kolmogorov-Komplexität in Cluedo misst die informationstheoretische Effizienz von Vorschlagssequenzen—das kürzeste 'Programm' oder Muster, das alle gewonnenen deduktiven Informationen erfasst. Meisterspieler minimieren Redundanz durch maximal informative Vorschläge.",
-          nl: "Kolmogorov-complexiteit in Cluedo meet de informatietheorische efficiëntie van suggestiesequenties—het kortste 'programma' of patroon dat alle verkregen deductieve informatie vastlegt. Meesterspelers minimaliseren redundantie door maximaal informatieve suggesties te kiezen."
-        }
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
       },
       {
-        question: {
-          en: "What is 'strategic card revelation asymmetry' in competitive Cluedo?",
-          es: "¿Qué es la 'asimetría estratégica de revelación de cartas' en Cluedo competitivo?",
-          de: "Was ist 'strategische Kartenoffenbarungsasymmetrie' im kompetitiven Cluedo?",
-          nl: "Wat is 'strategische kaartonthuллingsasymmetrie' in competitief Cluedo?"
-        },
-        options: [
-          {
-            en: "Deliberately showing cards to different opponents at different rates to control information flow",
-            es: "Mostrar deliberadamente cartas a diferentes oponentes a diferentes tasas para controlar el flujo de información",
-            de: "Absichtliches Zeigen von Karten an verschiedene Gegner in unterschiedlichen Raten zur Kontrolle des Informationsflusses",
-            nl: "Opzettelijk kaarten aan verschillende tegenstanders tonen met verschillende snelheden om informatiestroom te controleren"
-          },
-          {
-            en: "Having more cards than other players",
-            es: "Tener más cartas que otros jugadores",
-            de: "Mehr Karten als andere Spieler haben",
-            nl: "Meer kaarten hebben dan andere spelers"
-          },
-          {
-            en: "Showing cards randomly",
-            es: "Mostrar cartas al azar",
-            de: "Karten zufällig zeigen",
-            nl: "Kaarten willekeurig tonen"
-          },
-          {
-            en: "Always showing the same card",
-            es: "Siempre mostrar la misma carta",
-            de: "Immer dieselbe Karte zeigen",
-            nl: "Altijd dezelfde kaart tonen"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Strategic card revelation asymmetry involves consciously varying which cards you reveal to which opponents, creating differential knowledge states among your adversaries. This allows you to track who knows what while controlling competitive advantages between other players.",
-          es: "La asimetría estratégica de revelación de cartas implica variar conscientemente qué cartas revelas a qué oponentes, creando estados de conocimiento diferencial entre tus adversarios. Esto te permite rastrear quién sabe qué mientras controlas ventajas competitivas.",
-          de: "Strategische Kartenoffenbarungsasymmetrie beinhaltet bewusstes Variieren, welche Karten Sie welchen Gegnern zeigen, um differentielle Wissenszustände zu schaffen. Dies ermöglicht Ihnen zu verfolgen, wer was weiß, während Sie Wettbewerbsvorteile kontrollieren.",
-          nl: "Strategische kaartonthuллingsasymmetrie houdt in dat je bewust varieert welke kaarten je aan welke tegenstanders toont, waardoor differentiële kennisstaten onder je tegenstanders ontstaan. Dit stelt je in staat om bij te houden wie wat weet terwijl je competitieve voordelen controleert."
-        }
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
       },
       {
-        question: {
-          en: "What is 'temporal information decay analysis' in Cluedo?",
-          es: "¿Qué es el 'análisis de decadencia temporal de información' en Cluedo?",
-          de: "Was ist 'temporale Informationszerfallsanalyse' in Cluedo?",
-          nl: "Wat is 'temporele informatievervalanalyse' in Cluedo?"
-        },
-        options: [
-          {
-            en: "Tracking how information value decreases over time as the game progresses",
-            es: "Rastrear cómo el valor de la información disminuye con el tiempo a medida que avanza el juego",
-            de: "Verfolgung, wie der Informationswert im Laufe des Spiels abnimmt",
-            nl: "Bijhouden hoe informatiewaarde afneemt naarmate het spel vordert"
-          },
-          {
-            en: "Forgetting cards shown earlier",
-            es: "Olvidar cartas mostradas anteriormente",
-            de: "Früher gezeigte Karten vergessen",
-            nl: "Eerder getoonde kaarten vergeten"
-          },
-          {
-            en: "Taking longer turns as the game goes on",
-            es: "Tomar turnos más largos a medida que avanza el juego",
-            de: "Längere Züge machen, wenn das Spiel fortschreitet",
-            nl: "Langere beurten nemen naarmate het spel vordert"
-          },
-          {
-            en: "Cards becoming less useful",
-            es: "Las cartas se vuelven menos útiles",
-            de: "Karten werden weniger nützlich",
-            nl: "Kaarten worden minder nuttig"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Temporal information decay analysis recognizes that information gained early in the game loses relative value as more data accumulates and the solution space narrows. Master players weight recent information more heavily and adjust their strategies as information density changes over time.",
-          es: "El análisis de decadencia temporal de información reconoce que la información obtenida temprano en el juego pierde valor relativo a medida que se acumulan más datos. Los jugadores maestros dan más peso a la información reciente y ajustan sus estrategias.",
-          de: "Temporale Informationszerfallsanalyse erkennt, dass früh im Spiel gewonnene Informationen an relativem Wert verlieren, wenn mehr Daten akkumuliert werden. Meisterspieler gewichten neuere Informationen stärker und passen ihre Strategien an.",
-          nl: "Temporele informatievervalanalyse erkent dat vroeg in het spel verkregen informatie relatieve waarde verliest naarmate meer gegevens zich opstapelen. Meesterspelers wegen recente informatie zwaarder en passen hun strategieën aan."
-        }
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
       },
       {
-        question: {
-          en: "What is 'counter-deductive bluffing' at master level?",
-          es: "¿Qué es el 'engaño contra-deductivo' a nivel maestro?",
-          de: "Was ist 'gegen-deduktives Bluffen' auf Meisterniveau?",
-          nl: "Wat is 'contra-deductief bluffen' op meesterniveau?"
-        },
-        options: [
-          {
-            en: "Making suggestions that logically appear to eliminate cards you hold, creating false deductions in opponents",
-            es: "Hacer sugerencias que lógicamente parecen eliminar cartas que tienes, creando deducciones falsas en oponentes",
-            de: "Vorschläge machen, die logisch erscheinen, Karten zu eliminieren, die Sie halten, und falsche Deduktionen bei Gegnern erzeugen",
-            nl: "Suggesties doen die logisch lijken kaarten te elimineren die je houdt, waardoor valse deducties bij tegenstanders ontstaan"
-          },
-          {
-            en: "Randomly guessing the solution",
-            es: "Adivinar al azar la solución",
-            de: "Zufällig die Lösung erraten",
-            nl: "Willekeurig de oplossing raden"
-          },
-          {
-            en: "Refusing to make suggestions",
-            es: "Negarse a hacer sugerencias",
-            de: "Sich weigern, Vorschläge zu machen",
-            nl: "Weigeren suggesties te doen"
-          },
-          {
-            en: "Only suggesting cards you don't have",
-            es: "Solo sugerir cartas que no tienes",
-            de: "Nur Karten vorschlagen, die Sie nicht haben",
-            nl: "Alleen kaarten voorstellen die je niet hebt"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Counter-deductive bluffing involves making suggestions that include your own cards in ways that logically mislead opponents into thinking you don't have them. By crafting suggestion patterns that appear to eliminate certain cards from your hand, you create systematic false deductions in observant opponents.",
-          es: "El engaño contra-deductivo implica hacer sugerencias que incluyen tus propias cartas de maneras que engañan lógicamente a los oponentes haciéndoles pensar que no las tienes. Al crear patrones de sugerencias que parecen eliminar ciertas cartas, creas deducciones falsas sistemáticas.",
-          de: "Gegen-deduktives Bluffen beinhaltet Vorschläge, die Ihre eigenen Karten so einschließen, dass Gegner logisch in die Irre geführt werden zu denken, Sie hätten sie nicht. Durch das Erstellen von Vorschlagsmustern, die bestimmte Karten zu eliminieren scheinen, erzeugen Sie systematische Falschdeduktionen.",
-          nl: "Contra-deductief bluffen houdt in dat je suggesties doet die je eigen kaarten bevatten op manieren die tegenstanders logisch misleiden te denken dat je ze niet hebt. Door suggestiepatronen te maken die lijken bepaalde kaarten te elimineren, creëer je systematische valse deducties."
-        }
-      },
-      {
-        question: {
-          en: "What is 'Bayesian card location updating' in high-level play?",
-          es: "¿Qué es la 'actualización bayesiana de ubicación de cartas' en juego de alto nivel?",
-          de: "Was ist 'Bayesianische Kartenstandortaktualisierung' im hochrangigen Spiel?",
-          nl: "Wat is 'Bayesiaanse kaartlocatie-update' in spel op hoog niveau?"
-        },
-        options: [
-          {
-            en: "Continuously updating probability distributions of card locations based on all new evidence",
-            es: "Actualizar continuamente las distribuciones de probabilidad de las ubicaciones de las cartas basándose en toda nueva evidencia",
-            de: "Kontinuierliches Aktualisieren von Wahrscheinlichkeitsverteilungen der Kartenstandorte basierend auf allen neuen Beweisen",
-            nl: "Continu bijwerken van waarschijnlijkheidsverdelingen van kaartlocaties op basis van alle nieuwe bewijzen"
-          },
-          {
-            en: "Guessing where cards are",
-            es: "Adivinar dónde están las cartas",
-            de: "Raten, wo die Karten sind",
-            nl: "Raden waar kaarten zijn"
-          },
-          {
-            en: "Memorizing card positions",
-            es: "Memorizar posiciones de cartas",
-            de: "Kartenpositionen auswendig lernen",
-            nl: "Kaartposities onthouden"
-          },
-          {
-            en: "Tracking only your own cards",
-            es: "Rastrear solo tus propias cartas",
-            de: "Nur Ihre eigenen Karten verfolgen",
-            nl: "Alleen je eigen kaarten bijhouden"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Bayesian card location updating applies Bayes' theorem to continuously refine probability estimates of where each card is located as new information emerges. Each suggestion and disproof updates the entire probability distribution across all players and the envelope, creating a dynamic model of card locations.",
-          es: "La actualización bayesiana de ubicación de cartas aplica el teorema de Bayes para refinar continuamente las estimaciones de probabilidad de dónde está ubicada cada carta a medida que surge nueva información. Cada sugerencia y refutación actualiza toda la distribución de probabilidad.",
-          de: "Bayesianische Kartenstandortaktualisierung wendet Bayes' Theorem an, um Wahrscheinlichkeitsschätzungen kontinuierlich zu verfeinern, wo sich jede Karte befindet, wenn neue Informationen auftauchen. Jeder Vorschlag und Widerlegung aktualisiert die gesamte Wahrscheinlichkeitsverteilung.",
-          nl: "Bayesiaanse kaartlocatie-update past Bayes' theorema toe om waarschijnlijkheidsschattingen continu te verfijnen van waar elke kaart zich bevindt naarmate nieuwe informatie ontstaat. Elke suggestie en weerlegging werkt de hele waarschijnlijkheidsverdeling bij."
-        }
-      },
-      {
-        question: {
-          en: "What is 'optimal stopping theory' applied to Cluedo accusations?",
-          es: "¿Qué es la 'teoría de parada óptima' aplicada a las acusaciones de Cluedo?",
-          de: "Was ist die 'optimale Stopptheorie' angewendet auf Cluedo-Anschuldigungen?",
-          nl: "Wat is 'optimale stoptheorie' toegepast op Cluedo-beschuldigingen?"
-        },
-        options: [
-          {
-            en: "Mathematically determining the exact moment to accuse based on probability thresholds and opponent positions",
-            es: "Determinar matemáticamente el momento exacto para acusar basándose en umbrales de probabilidad y posiciones de oponentes",
-            de: "Mathematisches Bestimmen des exakten Moments zur Anschuldigung basierend auf Wahrscheinlichkeitsschwellen und Gegnerpositionen",
-            nl: "Wiskundig bepalen van het exacte moment om te beschuldigen op basis van waarschijnlijkheidsdrempels en tegenstanderposities"
-          },
-          {
-            en: "Accusing when you're certain",
-            es: "Acusar cuando estás seguro",
-            de: "Anschuldigen, wenn Sie sicher sind",
-            nl: "Beschuldigen wanneer je zeker bent"
-          },
-          {
-            en: "Always accusing first",
-            es: "Siempre acusar primero",
-            de: "Immer zuerst anschuldigen",
-            nl: "Altijd als eerste beschuldigen"
-          },
-          {
-            en: "Never accusing until last turn",
-            es: "Nunca acusar hasta el último turno",
-            de: "Niemals anschuldigen bis zum letzten Zug",
-            nl: "Nooit beschuldigen tot de laatste beurt"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Optimal stopping theory in Cluedo involves calculating the precise probability threshold at which making an accusation becomes mathematically optimal, considering your confidence level, opponents' apparent knowledge states, turn order, and the risk-reward of waiting for more information versus the risk of being preempted.",
-          es: "La teoría de parada óptima en Cluedo implica calcular el umbral de probabilidad preciso en el que hacer una acusación se vuelve matemáticamente óptimo, considerando tu nivel de confianza, los estados de conocimiento aparentes de los oponentes, el orden de turno y el riesgo-recompensa.",
-          de: "Optimale Stopptheorie in Cluedo beinhaltet die Berechnung der präzisen Wahrscheinlichkeitsschwelle, bei der eine Anschuldigung mathematisch optimal wird, unter Berücksichtigung Ihres Vertrauensniveaus, der scheinbaren Wissenszustände der Gegner, der Zugreihenfolge und des Risiko-Ertrags.",
-          nl: "Optimale stoptheorie in Cluedo houdt in dat je de precieze waarschijnlijkheidsdrempel berekent waarop het doen van een beschuldiging wiskundig optimaal wordt, rekening houdend met je vertrouwensniveau, de schijnbare kennisstaten van tegenstanders, beurtorde en het risico-beloning."
-        }
-      },
-      {
-        question: {
-          en: "What is 'information-theoretic suggestion diversity' in master Cluedo?",
-          es: "¿Qué es la 'diversidad de sugerencias teórico-informacional' en Cluedo maestro?",
-          de: "Was ist 'informationstheoretische Vorschlagsvielfalt' im Meister-Cluedo?",
-          nl: "Wat is 'informatietheorетische suggestiediversiteit' in meester-Cluedo?"
-        },
-        options: [
-          {
-            en: "Maximizing the variety of card combinations tested to extract maximum information from each suggestion",
-            es: "Maximizar la variedad de combinaciones de cartas probadas para extraer la máxima información de cada sugerencia",
-            de: "Maximierung der Vielfalt der getesteten Kartenkombinationen, um maximale Informationen aus jedem Vorschlag zu extrahieren",
-            nl: "Maximaliseren van de variëteit aan geteste kaartcombinaties om maximale informatie uit elke suggestie te halen"
-          },
-          {
-            en: "Making different suggestions each turn",
-            es: "Hacer diferentes sugerencias cada turno",
-            de: "Verschiedene Vorschläge in jedem Zug machen",
-            nl: "Verschillende suggesties elke beurt doen"
-          },
-          {
-            en: "Suggesting all card types equally",
-            es: "Sugerir todos los tipos de cartas por igual",
-            de: "Alle Kartentypen gleichermaßen vorschlagen",
-            nl: "Alle kaarttypes gelijk voorstellen"
-          },
-          {
-            en: "Using random suggestions",
-            es: "Usar sugerencias aleatorias",
-            de: "Zufällige Vorschläge verwenden",
-            nl: "Willekeurige suggesties gebruiken"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Information-theoretic suggestion diversity involves strategically varying your suggestions to maximize the expected information gain from each turn. This means choosing card combinations that test the widest possible range of hypotheses, avoiding redundant tests, and selecting suggestions that will provide maximum discrimination between remaining possibilities.",
-          es: "La diversidad de sugerencias teórico-informacional implica variar estratégicamente tus sugerencias para maximizar la ganancia de información esperada de cada turno. Esto significa elegir combinaciones de cartas que prueben el rango más amplio posible de hipótesis.",
-          de: "Informationstheoretische Vorschlagsvielfalt beinhaltet strategisches Variieren Ihrer Vorschläge, um den erwarteten Informationsgewinn aus jedem Zug zu maximieren. Dies bedeutet, Kartenkombinationen zu wählen, die die breitestmögliche Palette von Hypothesen testen.",
-          nl: "Informatietheorетische suggestiediversiteit houdt in dat je strategisch je suggesties varieert om de verwachte informatiewinst van elke beurt te maximaliseren. Dit betekent kaartcombinaties kiezen die het breedst mogelijke bereik van hypothesen testen."
-        }
-      },
-      {
-        question: {
-          en: "What is 'adversarial knowledge modeling' in competitive Cluedo?",
-          es: "¿Qué es el 'modelado de conocimiento adversario' en Cluedo competitivo?",
-          de: "Was ist 'adversariales Wissensmodellierung' im kompetitiven Cluedo?",
-          nl: "Wat is 'adversariële kennismodellering' in competitief Cluedo?"
-        },
-        options: [
-          {
-            en: "Building mental models of what each opponent knows and tracking their deductive progress",
-            es: "Construir modelos mentales de lo que cada oponente sabe y rastrear su progreso deductivo",
-            de: "Mentale Modelle aufbauen, was jeder Gegner weiß, und deren deduktiven Fortschritt verfolgen",
-            nl: "Mentale modellen bouwen van wat elke tegenstander weet en hun deductieve vooruitgang bijhouden"
-          },
-          {
-            en: "Knowing your opponents' names",
-            es: "Conocer los nombres de tus oponentes",
-            de: "Die Namen Ihrer Gegner kennen",
-            nl: "De namen van je tegenstanders kennen"
-          },
-          {
-            en: "Tracking opponents' dice rolls",
-            es: "Rastrear las tiradas de dados de los oponentes",
-            de: "Würfelwürfe der Gegner verfolgen",
-            nl: "Dobbelsteenworp van tegenstanders bijhouden"
-          },
-          {
-            en: "Memorizing opponent strategies",
-            es: "Memorizar estrategias de oponentes",
-            de: "Gegnerstrategien auswendig lernen",
-            nl: "Tegenstanderstrategieën onthouden"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Adversarial knowledge modeling means constructing detailed mental models of each opponent's knowledge state—tracking what cards they've seen, what deductions they've likely made, and how close they are to solving. This allows you to anticipate their accusations, adjust your information-revealing strategy, and time your own accusation optimally.",
-          es: "El modelado de conocimiento adversario significa construir modelos mentales detallados del estado de conocimiento de cada oponente: rastrear qué cartas han visto, qué deducciones probablemente han hecho y qué tan cerca están de resolver. Esto te permite anticipar sus acusaciones.",
-          de: "Adversariales Wissensmodellierung bedeutet, detaillierte mentale Modelle des Wissensstands jedes Gegners zu konstruieren—zu verfolgen, welche Karten sie gesehen haben, welche Deduktionen sie wahrscheinlich gemacht haben und wie nah sie am Lösen sind.",
-          nl: "Adversariële kennismodellering betekent gedetailleerde mentale modellen construeren van de kennistoestand van elke tegenstander—bijhouden welke kaarten ze hebben gezien, welke deducties ze waarschijnlijk hebben gemaakt en hoe dicht ze bij oplossen zijn."
-        }
-      },
-      {
-        question: {
-          en: "What is 'category partition optimization' in master Cluedo strategy?",
-          es: "¿Qué es la 'optimización de partición de categorías' en estrategia maestra de Cluedo?",
-          de: "Was ist 'Kategoriepartitionsoptimierung' in der Meister-Cluedo-Strategie?",
-          nl: "Wat is 'categorieverdeling-optimalisatie' in meester-Cluedo-strategie?"
-        },
-        options: [
-          {
-            en: "Strategically balancing information gathering across suspect, weapon, and room categories",
-            es: "Equilibrar estratégicamente la recopilación de información entre categorías de sospechoso, arma y habitación",
-            de: "Strategisches Ausbalancieren der Informationsbeschaffung über Verdächtige-, Waffen- und Raumkategorien",
-            nl: "Strategisch balanceren van informatieverzameling over verdachte-, wapen- en kamercategorieën"
-          },
-          {
-            en: "Focusing only on suspects",
-            es: "Enfocarse solo en sospechosos",
-            de: "Nur auf Verdächtige fokussieren",
-            nl: "Alleen op verdachten focussen"
-          },
-          {
-            en: "Testing categories randomly",
-            es: "Probar categorías al azar",
-            de: "Kategorien zufällig testen",
-            nl: "Categorieën willekeurig testen"
-          },
-          {
-            en: "Always suggesting the same category",
-            es: "Siempre sugerir la misma categoría",
-            de: "Immer dieselbe Kategorie vorschlagen",
-            nl: "Altijd dezelfde categorie voorstellen"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Category partition optimization involves strategically distributing your information-gathering efforts across the three card categories (suspects, weapons, rooms) based on current uncertainty levels, remaining possibilities in each category, and the differential value of information in each domain. Master players dynamically reallocate focus as uncertainty resolves.",
-          es: "La optimización de partición de categorías implica distribuir estratégicamente tus esfuerzos de recopilación de información entre las tres categorías de cartas basándose en niveles de incertidumbre actuales, posibilidades restantes en cada categoría y el valor diferencial de información.",
-          de: "Kategoriepartitionsoptimierung beinhaltet strategisches Verteilen Ihrer Informationsbeschaffungsbemühungen über die drei Kartenkategorien basierend auf aktuellen Unsicherheitsniveaus, verbleibenden Möglichkeiten in jeder Kategorie und dem differentiellen Wert von Informationen.",
-          nl: "Categorieverdeling-optimalisatie houdt in dat je strategisch je informatieverzamelingsinspanningen verdeelt over de drie kaartcategorieën op basis van huidige onzekerheidsniveaus, resterende mogelijkheden in elke categorie en de differentiële waarde van informatie."
-        }
-      },
-      {
-        question: {
-          en: "What is 'suggestion sequence entropy maximization' in Cluedo?",
-          es: "¿Qué es la 'maximización de entropía de secuencia de sugerencias' en Cluedo?",
-          de: "Was ist 'Vorschlagssequenz-Entropiemaximierung' in Cluedo?",
-          nl: "Wat is 'suggestiesequentie-entropiemaximalisatie' in Cluedo?"
-        },
-        options: [
-          {
-            en: "Choosing each suggestion to maximize expected information gain regardless of previous patterns",
-            es: "Elegir cada sugerencia para maximizar la ganancia de información esperada independientemente de patrones previos",
-            de: "Jeder Vorschlag wählen, um erwarteten Informationsgewinn zu maximieren, unabhängig von vorherigen Mustern",
-            nl: "Elke suggestie kiezen om verwachte informatiewinst te maximaliseren ongeacht eerdere patronen"
-          },
-          {
-            en: "Making random suggestions",
-            es: "Hacer sugerencias aleatorias",
-            de: "Zufällige Vorschläge machen",
-            nl: "Willekeurige suggesties doen"
-          },
-          {
-            en: "Following a fixed pattern",
-            es: "Seguir un patrón fijo",
-            de: "Einem festen Muster folgen",
-            nl: "Een vast patroon volgen"
-          },
-          {
-            en: "Repeating successful suggestions",
-            es: "Repetir sugerencias exitosas",
-            de: "Erfolgreiche Vorschläge wiederholen",
-            nl: "Succesvolle suggesties herhalen"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Suggestion sequence entropy maximization means selecting each suggestion to produce the highest expected information gain (Shannon entropy reduction) given current knowledge. Rather than following patterns, this approach treats each turn as an independent optimization problem, selecting the card combination most likely to resolve maximum uncertainty.",
-          es: "La maximización de entropía de secuencia de sugerencias significa seleccionar cada sugerencia para producir la mayor ganancia de información esperada dada el conocimiento actual. En lugar de seguir patrones, este enfoque trata cada turno como un problema de optimización independiente.",
-          de: "Vorschlagssequenz-Entropiemaximierung bedeutet, jeden Vorschlag auszuwählen, um den höchsten erwarteten Informationsgewinn zu erzielen. Anstatt Mustern zu folgen, behandelt dieser Ansatz jeden Zug als unabhängiges Optimierungsproblem.",
-          nl: "Suggestiesequentie-entropiemaximalisatie betekent elke suggestie selecteren om de hoogste verwachte informatiewinst te produceren gegeven huidige kennis. In plaats van patronen te volgen, behandelt deze aanpak elke beurt als een onafhankelijk optimalisatieprobleem."
-        }
-      },
-      {
-        question: {
-          en: "What is 'multi-agent game theory positioning' in Cluedo?",
-          es: "¿Qué es el 'posicionamiento de teoría de juegos multi-agente' en Cluedo?",
-          de: "Was ist 'Mehr-Agenten-Spieltheorie-Positionierung' in Cluedo?",
-          nl: "Wat is 'multi-agent speltheorie-positionering' in Cluedo?"
-        },
-        options: [
-          {
-            en: "Strategically managing your relative knowledge advantage across all opponents simultaneously",
-            es: "Gestionar estratégicamente tu ventaja de conocimiento relativo entre todos los oponentes simultáneamente",
-            de: "Strategisches Verwalten Ihres relativen Wissensvorteils über alle Gegner gleichzeitig",
-            nl: "Strategisch beheren van je relatieve kennisvoordeel over alle tegenstanders tegelijkertijd"
-          },
-          {
-            en: "Playing against multiple opponents",
-            es: "Jugar contra múltiples oponentes",
-            de: "Gegen mehrere Gegner spielen",
-            nl: "Tegen meerdere tegenstanders spelen"
-          },
-          {
-            en: "Sitting in the best position",
-            es: "Sentarse en la mejor posición",
-            de: "In der besten Position sitzen",
-            nl: "Op de beste positie zitten"
-          },
-          {
-            en: "Cooperating with other players",
-            es: "Cooperar con otros jugadores",
-            de: "Mit anderen Spielern kooperieren",
-            nl: "Samenwerken met andere spelers"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Multi-agent game theory positioning involves recognizing that in a 3+ player game, your strategy must account for the competitive dynamics between all opponents, not just your own progress. This includes manipulating information flow to keep opponents balanced, exploiting the leader, and positioning yourself to win regardless of which opponent might solve first.",
-          es: "El posicionamiento de teoría de juegos multi-agente implica reconocer que en un juego de 3+ jugadores, tu estrategia debe tener en cuenta la dinámica competitiva entre todos los oponentes. Esto incluye manipular el flujo de información para mantener a los oponentes equilibrados.",
-          de: "Mehr-Agenten-Spieltheorie-Positionierung beinhaltet die Erkenntnis, dass in einem 3+ Spieler-Spiel Ihre Strategie die Wettbewerbsdynamik zwischen allen Gegnern berücksichtigen muss. Dies umfasst die Manipulation des Informationsflusses, um Gegner im Gleichgewicht zu halten.",
-          nl: "Multi-agent speltheorie-positionering houdt in dat je erkent dat in een spel met 3+ spelers je strategie rekening moet houden met de competitieve dynamiek tussen alle tegenstanders. Dit omvat het manipuleren van informatiestroom om tegenstanders in balans te houden."
-        }
-      },
-      {
-        question: {
-          en: "What is 'probabilistic accusation thresholding' in competitive play?",
-          es: "¿Qué es el 'umbral de acusación probabilística' en juego competitivo?",
-          de: "Was ist 'probabilistische Anschuldigungsschwelle' im kompetitiven Spiel?",
-          nl: "Wat is 'probabilistische beschuldigingsdrempeling' in competitief spel?"
-        },
-        options: [
-          {
-            en: "Setting dynamic confidence levels for accusations based on opponent progress and remaining turns",
-            es: "Establecer niveles de confianza dinámicos para acusaciones basados en el progreso del oponente y turnos restantes",
-            de: "Dynamische Vertrauensniveaus für Anschuldigungen festlegen basierend auf Gegnerfortschritt und verbleibenden Zügen",
-            nl: "Dynamische vertrouwensniveaus instellen voor beschuldigingen op basis van tegenstandervooruitgang en resterende beurten"
-          },
-          {
-            en: "Always waiting for 100% certainty",
-            es: "Siempre esperar certeza del 100%",
-            de: "Immer auf 100% Sicherheit warten",
-            nl: "Altijd wachten op 100% zekerheid"
-          },
-          {
-            en: "Guessing when probability is 50%",
-            es: "Adivinar cuando la probabilidad es del 50%",
-            de: "Raten, wenn die Wahrscheinlichkeit 50% ist",
-            nl: "Raden wanneer waarschijnlijkheid 50% is"
-          },
-          {
-            en: "Using a fixed threshold for all games",
-            es: "Usar un umbral fijo para todos los juegos",
-            de: "Eine feste Schwelle für alle Spiele verwenden",
-            nl: "Een vaste drempel gebruiken voor alle spellen"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Probabilistic accusation thresholding involves dynamically adjusting your required confidence level before accusing based on game state. If opponents appear close to solving, you may accuse at 85% confidence. If you have a substantial lead, you might wait for 95%+. The threshold shifts based on risk analysis.",
-          es: "El umbral de acusación probabilística implica ajustar dinámicamente tu nivel de confianza requerido antes de acusar basándose en el estado del juego. Si los oponentes parecen cerca de resolver, puedes acusar con un 85% de confianza. Si tienes una ventaja sustancial, podrías esperar 95%+.",
-          de: "Probabilistische Anschuldigungsschwelle beinhaltet dynamisches Anpassen Ihres erforderlichen Vertrauensniveaus vor der Anschuldigung basierend auf dem Spielstand. Wenn Gegner nah am Lösen erscheinen, können Sie bei 85% Vertrauen anschuldigen. Bei wesentlichem Vorsprung warten Sie möglicherweise auf 95%+.",
-          nl: "Probabilistische beschuldigingsdrempeling houdt in dat je dynamisch je vereiste vertrouwensniveau aanpast voordat je beschuldigt op basis van spelstatus. Als tegenstanders dichtbij oplossen lijken, kun je beschuldigen bij 85% vertrouwen. Bij substantiële voorsprong wacht je mogelijk op 95%+."
-        }
-      },
-      {
-        question: {
-          en: "What is 'disproof pattern analysis' in advanced Cluedo?",
-          es: "¿Qué es el 'análisis de patrón de refutación' en Cluedo avanzado?",
-          de: "Was ist 'Widerlegungsmusteranalyse' im fortgeschrittenen Cluedo?",
-          nl: "Wat is 'weerleggingspatroonanalyse' in geavanceerd Cluedo?"
-        },
-        options: [
-          {
-            en: "Analyzing which cards opponents use to disprove suggestions to deduce their hand composition",
-            es: "Analizar qué cartas usan los oponentes para refutar sugerencias para deducir la composición de su mano",
-            de: "Analysieren, welche Karten Gegner verwenden, um Vorschläge zu widerlegen, um ihre Handzusammensetzung zu deduzieren",
-            nl: "Analyseren welke kaarten tegenstanders gebruiken om suggesties te weerleggen om hun handsamenstelling te deduceren"
-          },
-          {
-            en: "Counting how many times suggestions are disproved",
-            es: "Contar cuántas veces se refutan las sugerencias",
-            de: "Zählen, wie oft Vorschläge widerlegt werden",
-            nl: "Tellen hoe vaak suggesties worden weerlegd"
-          },
-          {
-            en: "Looking for patterns in room choices",
-            es: "Buscar patrones en las elecciones de habitaciones",
-            de: "Nach Mustern in Raumwahlen suchen",
-            nl: "Zoeken naar patronen in kamerkeuzes"
-          },
-          {
-            en: "Tracking failed accusations",
-            es: "Rastrear acusaciones fallidas",
-            de: "Gescheiterte Anschuldigungen verfolgen",
-            nl: "Mislukte beschuldigingen bijhouden"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Disproof pattern analysis involves carefully observing which specific cards opponents reveal when disproving suggestions. By tracking patterns—such as an opponent consistently showing the same card when multiple cards could disprove, or varying their disproof cards strategically—you can make inferences about their complete hand and their strategic sophistication.",
-          es: "El análisis de patrón de refutación implica observar cuidadosamente qué cartas específicas revelan los oponentes al refutar sugerencias. Al rastrear patrones, como un oponente que muestra consistentemente la misma carta cuando múltiples cartas podrían refutar, puedes hacer inferencias sobre su mano completa.",
-          de: "Widerlegungsmusteranalyse beinhaltet sorgfältiges Beobachten, welche spezifischen Karten Gegner beim Widerlegen von Vorschlägen zeigen. Durch Verfolgung von Mustern—wie ein Gegner, der konsistent dieselbe Karte zeigt, wenn mehrere Karten widerlegen könnten—können Sie Rückschlüsse auf ihre vollständige Hand ziehen.",
-          nl: "Weerleggingspatroonanalyse houdt in dat je zorgvuldig observeert welke specifieke kaarten tegenstanders onthullen bij het weerleggen van suggesties. Door patronen bij te houden—zoals een tegenstander die consistent dezelfde kaart toont wanneer meerdere kaarten zouden kunnen weerleggen—kun je inferenties maken over hun complete hand."
-        }
-      },
-      {
-        question: {
-          en: "What is 'information cascade prevention' in Cluedo?",
-          es: "¿Qué es la 'prevención de cascada de información' en Cluedo?",
-          de: "Was ist 'Informationskaskaden-Prävention' in Cluedo?",
-          nl: "Wat is 'informatiecascade-preventie' in Cluedo?"
-        },
-        options: [
-          {
-            en: "Controlling your card revelations to prevent opponents from making rapid sequential deductions",
-            es: "Controlar tus revelaciones de cartas para evitar que los oponentes hagan deducciones secuenciales rápidas",
-            de: "Kontrolle Ihrer Kartenoffenbarungen, um zu verhindern, dass Gegner schnelle sequentielle Deduktionen machen",
-            nl: "Controleren van je kaartonthullingen om te voorkomen dat tegenstanders snelle sequentiële deducties maken"
-          },
-          {
-            en: "Revealing cards quickly",
-            es: "Revelar cartas rápidamente",
-            de: "Karten schnell offenbaren",
-            nl: "Kaarten snel onthullen"
-          },
-          {
-            en: "Sharing information with all players",
-            es: "Compartir información con todos los jugadores",
-            de: "Informationen mit allen Spielern teilen",
-            nl: "Informatie delen met alle spelers"
-          },
-          {
-            en: "Making obvious suggestions",
-            es: "Hacer sugerencias obvias",
-            de: "Offensichtliche Vorschläge machen",
-            nl: "Voor de hand liggende suggesties doen"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Information cascade prevention involves strategically managing which cards you reveal and when, to prevent opponents from achieving breakthrough moments where one piece of information triggers a cascade of deductions. By carefully choosing which card to show among multiple options, you control the rate at which opponents solve.",
-          es: "La prevención de cascada de información implica gestionar estratégicamente qué cartas revelas y cuándo, para evitar que los oponentes logren momentos de avance donde una pieza de información desencadena una cascada de deducciones. Al elegir cuidadosamente qué carta mostrar, controlas la velocidad.",
-          de: "Informationskaskaden-Prävention beinhaltet strategisches Verwalten, welche Karten Sie wann offenbaren, um zu verhindern, dass Gegner Durchbruchsmomente erreichen, wo ein Informationsstück eine Kaskade von Deduktionen auslöst. Durch sorgfältiges Wählen der zu zeigenden Karte kontrollieren Sie die Lösungsgeschwindigkeit.",
-          nl: "Informatiecascade-preventie houdt in dat je strategisch beheert welke kaarten je wanneer onthult, om te voorkomen dat tegenstanders doorbraakmomenten bereiken waar één stuk informatie een cascade van deducties activeert. Door zorgvuldig te kiezen welke kaart te tonen, controleer je de oplossnelheid."
-        }
-      },
-      {
-        question: {
-          en: "What is 'solution space convergence analysis' in master Cluedo?",
-          es: "¿Qué es el 'análisis de convergencia del espacio de solución' en Cluedo maestro?",
-          de: "Was ist 'Lösungsraum-Konvergenzanalyse' im Meister-Cluedo?",
-          nl: "Wat is 'oplossingsruimte-convergentieanalyse' in meester-Cluedo?"
-        },
-        options: [
-          {
-            en: "Tracking the rate at which possible solutions are eliminated to predict when you'll solve",
-            es: "Rastrear la tasa a la que se eliminan posibles soluciones para predecir cuándo resolverás",
-            de: "Verfolgung der Rate, mit der mögliche Lösungen eliminiert werden, um vorherzusagen, wann Sie lösen werden",
-            nl: "Bijhouden van de snelheid waarmee mogelijke oplossingen worden geëlimineerd om te voorspellen wanneer je zult oplossen"
-          },
-          {
-            en: "Finding the fastest route to rooms",
-            es: "Encontrar la ruta más rápida a las habitaciones",
-            de: "Den schnellsten Weg zu Räumen finden",
-            nl: "De snelste route naar kamers vinden"
-          },
-          {
-            en: "Counting remaining cards",
-            es: "Contar cartas restantes",
-            de: "Verbleibende Karten zählen",
-            nl: "Resterende kaarten tellen"
-          },
-          {
-            en: "Memorizing all possibilities",
-            es: "Memorizar todas las posibilidades",
-            de: "Alle Möglichkeiten auswendig lernen",
-            nl: "Alle mogelijkheden onthouden"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Solution space convergence analysis involves mathematically tracking how rapidly the set of possible solutions is shrinking. By analyzing the rate of convergence—how many possibilities each piece of information eliminates—master players can predict how many more turns they need and whether they're on pace to win.",
-          es: "El análisis de convergencia del espacio de solución implica rastrear matemáticamente qué tan rápido se está reduciendo el conjunto de soluciones posibles. Al analizar la tasa de convergencia, los jugadores maestros pueden predecir cuántos turnos más necesitan y si van a ritmo de ganar.",
-          de: "Lösungsraum-Konvergenzanalyse beinhaltet mathematisches Verfolgen, wie schnell die Menge möglicher Lösungen schrumpft. Durch Analyse der Konvergenzrate können Meisterspieler vorhersagen, wie viele weitere Züge sie benötigen und ob sie auf Kurs zum Sieg sind.",
-          nl: "Oplossingsruimte-convergentieanalyse houdt in dat je wiskundig bijhoudt hoe snel de verzameling mogelijke oplossingen krimpt. Door de convergentiesnelheid te analyseren, kunnen meesterspelers voorspellen hoeveel beurten ze nog nodig hebben en of ze op schema liggen om te winnen."
-        }
-      },
-      {
-        question: {
-          en: "What is 'strategic suggestion timing variance' in Cluedo?",
-          es: "¿Qué es la 'varianza de temporización estratégica de sugerencias' en Cluedo?",
-          de: "Was ist 'strategische Vorschlagszeitpunkt-Varianz' in Cluedo?",
-          nl: "Wat is 'strategische suggestietijdvariatie' in Cluedo?"
-        },
-        options: [
-          {
-            en: "Varying the pace of information-gathering based on opponents' progress to maintain competitive advantage",
-            es: "Variar el ritmo de recopilación de información basándose en el progreso de los oponentes para mantener ventaja competitiva",
-            de: "Variieren des Tempos der Informationsbeschaffung basierend auf dem Fortschritt der Gegner zur Aufrechterhaltung des Wettbewerbsvorteils",
-            nl: "Variëren van het tempo van informatieverzameling op basis van vooruitgang van tegenstanders om competitief voordeel te behouden"
-          },
-          {
-            en: "Taking random amounts of time per turn",
-            es: "Tomar cantidades aleatorias de tiempo por turno",
-            de: "Zufällige Zeitmengen pro Zug nehmen",
-            nl: "Willekeurige hoeveelheden tijd per beurt nemen"
-          },
-          {
-            en: "Always suggesting quickly",
-            es: "Siempre sugerir rápidamente",
-            de: "Immer schnell vorschlagen",
-            nl: "Altijd snel voorstellen"
-          },
-          {
-            en: "Skipping turns strategically",
-            es: "Saltar turnos estratégicamente",
-            de: "Züge strategisch überspringen",
-            nl: "Beurten strategisch overslaan"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Strategic suggestion timing variance means deliberately varying how aggressively you pursue information based on the competitive situation. If ahead, you might slow down to minimize information leakage. If behind, you accelerate with high-risk, high-information suggestions. This dynamic pacing optimizes win probability across different game states.",
-          es: "La varianza de temporización estratégica de sugerencias significa variar deliberadamente qué tan agresivamente persigues información según la situación competitiva. Si vas adelante, podrías frenar para minimizar la fuga de información. Si vas atrás, aceleras con sugerencias de alto riesgo y alta información.",
-          de: "Strategische Vorschlagszeitpunkt-Varianz bedeutet bewusstes Variieren, wie aggressiv Sie Informationen verfolgen, basierend auf der Wettbewerbssituation. Wenn Sie führen, verlangsamen Sie möglicherweise, um Informationslecks zu minimieren. Wenn Sie zurückliegen, beschleunigen Sie mit hochriskanten, hochinformativen Vorschlägen.",
-          nl: "Strategische suggestietijdvariatie betekent bewust variëren hoe agressief je informatie nastreeft op basis van de competitieve situatie. Als je voor ligt, kun je vertragen om informatielek te minimaliseren. Als je achterligt, versnel je met hoog-risico, hoog-informatie suggesties."
-        }
-      },
-      {
-        question: {
-          en: "What is 'card distribution probability mapping' in expert Cluedo?",
-          es: "¿Qué es el 'mapeo de probabilidad de distribución de cartas' en Cluedo experto?",
-          de: "Was ist 'Kartenverteilungs-Wahrscheinlichkeitskartierung' im Experten-Cluedo?",
-          nl: "Wat is 'kaartverdelingstaarschijnlijkheidsmapping' in expert-Cluedo?"
-        },
-        options: [
-          {
-            en: "Creating probability distributions for each card's location across all players and the envelope",
-            es: "Crear distribuciones de probabilidad para la ubicación de cada carta entre todos los jugadores y el sobre",
-            de: "Erstellen von Wahrscheinlichkeitsverteilungen für die Position jeder Karte über alle Spieler und den Umschlag",
-            nl: "Creëren van waarschijnlijkheidsverdelingen voor de locatie van elke kaart over alle spelers en de envelop"
-          },
-          {
-            en: "Counting cards in each category",
-            es: "Contar cartas en cada categoría",
-            de: "Karten in jeder Kategorie zählen",
-            nl: "Kaarten in elke categorie tellen"
-          },
-          {
-            en: "Guessing card locations",
-            es: "Adivinar ubicaciones de cartas",
-            de: "Kartenpositionen raten",
-            nl: "Kaartlocaties raden"
-          },
-          {
-            en: "Assuming equal distribution",
-            es: "Asumir distribución igual",
-            de: "Gleichverteilung annehmen",
-            nl: "Gelijke verdeling aannemen"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Card distribution probability mapping involves maintaining a complete probabilistic model of where each card is likely located. This goes beyond binary known/unknown tracking to assign percentage probabilities to each card being in each player's hand or the envelope, updating these probabilities with Bayesian inference as new information emerges.",
-          es: "El mapeo de probabilidad de distribución de cartas implica mantener un modelo probabilístico completo de dónde es probable que esté ubicada cada carta. Esto va más allá del seguimiento binario conocido/desconocido para asignar probabilidades porcentuales a cada carta que está en la mano de cada jugador.",
-          de: "Kartenverteilungs-Wahrscheinlichkeitskartierung beinhaltet die Aufrechterhaltung eines vollständigen probabilistischen Modells, wo sich jede Karte wahrscheinlich befindet. Dies geht über binäres bekannt/unbekannt-Tracking hinaus, um prozentuale Wahrscheinlichkeiten zuzuweisen.",
-          nl: "Kaartverdelingstaarschijnlijkheidsmapping houdt in dat je een compleet probabilistisch model bijhoudt van waar elke kaart waarschijnlijk zich bevindt. Dit gaat verder dan binair bekend/onbekend bijhouden om percentagewaarschijnlijkheden toe te wijzen aan elke kaart in elke spelershand."
-        }
-      },
-      {
-        question: {
-          en: "What is 'endgame precision maximization' in Cluedo mastery?",
-          es: "¿Qué es la 'maximización de precisión en el final del juego' en maestría de Cluedo?",
-          de: "Was ist 'Endspiel-Präzisionsmaximierung' in Cluedo-Meisterschaft?",
-          nl: "Wat is 'eindspel-precisie-maximalisatie' in Cluedo-meesterschap?"
-        },
-        options: [
-          {
-            en: "Shifting from broad exploration to narrow confirmation as the solution converges",
-            es: "Cambiar de exploración amplia a confirmación estrecha a medida que la solución converge",
-            de: "Wechsel von breiter Erkundung zu enger Bestätigung, wenn sich die Lösung konvergiert",
-            nl: "Verschuiven van brede verkenning naar nauwe bevestiging naarmate de oplossing convergeert"
-          },
-          {
-            en: "Making wild guesses at the end",
-            es: "Hacer conjeturas salvajes al final",
-            de: "Am Ende wilde Vermutungen machen",
-            nl: "Wilde gissingen doen aan het einde"
-          },
-          {
-            en: "Accusing immediately when possible",
-            es: "Acusar inmediatamente cuando sea posible",
-            de: "Sofort anschuldigen, wenn möglich",
-            nl: "Onmiddellijk beschuldigen wanneer mogelijk"
-          },
-          {
-            en: "Continuing broad exploration throughout",
-            es: "Continuar la exploración amplia en todo momento",
-            de: "Weiterhin breite Erkundung durchführen",
-            nl: "Brede verkenning blijven voortzetten"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Endgame precision maximization involves recognizing when to shift strategy from exploratory information-gathering to confirmatory precision. As your solution space narrows to a small set of possibilities, your suggestions should shift from broad exploratory moves to targeted confirmation of specific hypotheses, ensuring 100% certainty before accusation.",
-          es: "La maximización de precisión en el final del juego implica reconocer cuándo cambiar la estrategia de recopilación de información exploratoria a precisión confirmatoria. A medida que tu espacio de solución se reduce a un pequeño conjunto de posibilidades, tus sugerencias deberían cambiar de movimientos exploratorios amplios a confirmación dirigida.",
-          de: "Endspiel-Präzisionsmaximierung beinhaltet die Erkennung, wann die Strategie von explorativer Informationsbeschaffung zu bestätigender Präzision gewechselt werden sollte. Wenn sich Ihr Lösungsraum auf eine kleine Menge von Möglichkeiten verengt, sollten Ihre Vorschläge von breiten explorativen Zügen zu gezielter Bestätigung wechseln.",
-          nl: "Eindspel-precisie-maximalisatie houdt in dat je erkent wanneer je strategie moet verschuiven van verkennende informatieverzameling naar bevestigende precisie. Naarmate je oplossingsruimte verkleint tot een kleine set mogelijkheden, moeten je suggesties verschuiven van brede verkennende zetten naar gerichte bevestiging."
-        }
-      },
-      {
-        question: {
-          en: "What is 'meta-cognitive deduction tracking' in championship Cluedo?",
-          es: "¿Qué es el 'seguimiento de deducción meta-cognitiva' en Cluedo de campeonato?",
-          de: "Was ist 'meta-kognitives Deduktionstracking' im Meisterschafts-Cluedo?",
-          nl: "Wat is 'meta-cognitieve deductie-tracking' in kampioenschap-Cluedo?"
-        },
-        options: [
-          {
-            en: "Tracking not just what you know, but what you know about what opponents know about what you know",
-            es: "Rastrear no solo lo que sabes, sino lo que sabes sobre lo que los oponentes saben sobre lo que sabes",
-            de: "Verfolgen nicht nur, was Sie wissen, sondern was Sie über das wissen, was Gegner über Ihr Wissen wissen",
-            nl: "Bijhouden niet alleen wat je weet, maar wat je weet over wat tegenstanders weten over wat je weet"
-          },
-          {
-            en: "Thinking about the game rules",
-            es: "Pensar sobre las reglas del juego",
-            de: "Über die Spielregeln nachdenken",
-            nl: "Nadenken over de spelregels"
-          },
-          {
-            en: "Analyzing your own mistakes",
-            es: "Analizar tus propios errores",
-            de: "Eigene Fehler analysieren",
-            nl: "Je eigen fouten analyseren"
-          },
-          {
-            en: "Remembering previous games",
-            es: "Recordar juegos anteriores",
-            de: "Sich an frühere Spiele erinnern",
-            nl: "Eerdere spellen onthouden"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Meta-cognitive deduction tracking involves maintaining recursive models of knowledge states: you track what you know, what each opponent knows, what each opponent thinks you know, and what each opponent thinks other opponents know. This multi-level modeling allows for sophisticated information warfare and strategic card revelation.",
-          es: "El seguimiento de deducción meta-cognitiva implica mantener modelos recursivos de estados de conocimiento: rastrear lo que sabes, lo que cada oponente sabe, lo que cada oponente piensa que sabes, y lo que cada oponente piensa que otros oponentes saben. Este modelado multinivel permite guerra de información sofisticada.",
-          de: "Meta-kognitives Deduktionstracking beinhaltet die Aufrechterhaltung rekursiver Modelle von Wissenszuständen: Sie verfolgen, was Sie wissen, was jeder Gegner weiß, was jeder Gegner denkt, dass Sie wissen, und was jeder Gegner denkt, dass andere Gegner wissen. Diese Mehrebenen-Modellierung ermöglicht anspruchsvolle Informationskriegsführung.",
-          nl: "Meta-cognitieve deductie-tracking houdt in dat je recursieve modellen van kennisstaten bijhoudt: je houdt bij wat je weet, wat elke tegenstander weet, wat elke tegenstander denkt dat je weet, en wat elke tegenstander denkt dat andere tegenstanders weten. Deze meerlagige modellering maakt geavanceerde informatieoorlogsvoering mogelijk."
-        }
-      },
-      {
-        question: {
-          en: "What is 'information compression efficiency' in master Cluedo play?",
-          es: "¿Qué es la 'eficiencia de compresión de información' en juego maestro de Cluedo?",
-          de: "Was ist 'Informationskompressionseffizienz' im Meister-Cluedo-Spiel?",
-          nl: "Wat is 'informatiecompressie-efficiëntie' in meester-Cluedo-spel?"
-        },
-        options: [
-          {
-            en: "Extracting maximum deductive value from minimum card revelations",
-            es: "Extraer el máximo valor deductivo de las mínimas revelaciones de cartas",
-            de: "Maximalen deduktiven Wert aus minimalen Kartenoffenbarungen extrahieren",
-            nl: "Maximale deductieve waarde halen uit minimale kaartonthullingen"
-          },
-          {
-            en: "Writing shorter notes",
-            es: "Escribir notas más cortas",
-            de: "Kürzere Notizen schreiben",
-            nl: "Kortere notities schrijven"
-          },
-          {
-            en: "Memorizing fewer cards",
-            es: "Memorizar menos cartas",
-            de: "Weniger Karten auswendig lernen",
-            nl: "Minder kaarten onthouden"
-          },
-          {
-            en: "Making faster decisions",
-            es: "Tomar decisiones más rápidas",
-            de: "Schnellere Entscheidungen treffen",
-            nl: "Snellere beslissingen nemen"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Information compression efficiency measures how much deductive knowledge you gain per card revelation. Master players maximize this by making suggestions that force revelations which eliminate multiple possibilities simultaneously, using transitive deduction, and extracting implicit information from null responses and pass patterns.",
-          es: "La eficiencia de compresión de información mide cuánto conocimiento deductivo obtienes por revelación de carta. Los jugadores maestros maximizan esto haciendo sugerencias que fuerzan revelaciones que eliminan múltiples posibilidades simultáneamente, usando deducción transitiva y extrayendo información implícita.",
-          de: "Informationskompressionseffizienz misst, wie viel deduktives Wissen Sie pro Kartenoffenbarung gewinnen. Meisterspieler maximieren dies durch Vorschläge, die Offenbarungen erzwingen, die mehrere Möglichkeiten gleichzeitig eliminieren, unter Verwendung transitiver Deduktion und Extraktion impliziter Informationen.",
-          nl: "Informatiecompressie-efficiëntie meet hoeveel deductieve kennis je krijgt per kaartonthulling. Meesterspelers maximaliseren dit door suggesties te doen die onthullingen forceren die meerdere mogelijkheden tegelijkertijd elimineren, door transitieve deductie te gebruiken en impliciete informatie te extraheren."
-        }
-      },
-      {
-        question: {
-          en: "What is 'dynamic hypothesis pruning' in competitive Cluedo theory?",
-          es: "¿Qué es la 'poda de hipótesis dinámica' en teoría competitiva de Cluedo?",
-          de: "Was ist 'dynamisches Hypothesen-Pruning' in der kompetitiven Cluedo-Theorie?",
-          nl: "Wat is 'dynamische hypothese-pruning' in competitieve Cluedo-theorie?"
-        },
-        options: [
-          {
-            en: "Continuously eliminating solution hypotheses based on logical impossibility as new data arrives",
-            es: "Eliminar continuamente hipótesis de solución basándose en imposibilidad lógica a medida que llegan nuevos datos",
-            de: "Kontinuierliches Eliminieren von Lösungshypothesen basierend auf logischer Unmöglichkeit, wenn neue Daten ankommen",
-            nl: "Continu elimineren van oplossingshypothesen op basis van logische onmogelijkheid naarmate nieuwe gegevens aankomen"
-          },
-          {
-            en: "Removing cards from the game",
-            es: "Eliminar cartas del juego",
-            de: "Karten aus dem Spiel entfernen",
-            nl: "Kaarten uit het spel verwijderen"
-          },
-          {
-            en: "Simplifying your note-taking",
-            es: "Simplificar tu toma de notas",
-            de: "Vereinfachen Ihrer Notizen",
-            nl: "Vereenvoudigen van je aantekeningen"
-          },
-          {
-            en: "Forgetting old information",
-            es: "Olvidar información antigua",
-            de: "Alte Informationen vergessen",
-            nl: "Oude informatie vergeten"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Dynamic hypothesis pruning involves actively maintaining and updating a set of possible solution hypotheses, eliminating entire branches of possibilities as soon as they become logically impossible. Rather than just tracking individual cards, this approach treats the solution space as a decision tree that gets pruned with each new piece of information.",
-          es: "La poda de hipótesis dinámica implica mantener y actualizar activamente un conjunto de posibles hipótesis de solución, eliminando ramas enteras de posibilidades tan pronto como se vuelven lógicamente imposibles. En lugar de solo rastrear cartas individuales, este enfoque trata el espacio de solución como un árbol de decisión.",
-          de: "Dynamisches Hypothesen-Pruning beinhaltet aktives Aufrechterhalten und Aktualisieren eines Satzes möglicher Lösungshypothesen, wobei ganze Zweige von Möglichkeiten eliminiert werden, sobald sie logisch unmöglich werden. Anstatt nur einzelne Karten zu verfolgen, behandelt dieser Ansatz den Lösungsraum als Entscheidungsbaum.",
-          nl: "Dynamische hypothese-pruning houdt in dat je actief een set mogelijke oplossingshypothesen onderhoudt en bijwerkt, waarbij hele takken van mogelijkheden worden geëlimineerd zodra ze logisch onmogelijk worden. In plaats van alleen individuele kaarten bij te houden, behandelt deze aanpak de oplossingsruimte als een beslissingsboom."
-        }
-      },
-      {
-        question: {
-          en: "What is 'transitive inference optimization' in master-level Cluedo?",
-          es: "¿Qué es la 'optimización de inferencia transitiva' en Cluedo de nivel maestro?",
-          de: "Was ist 'transitive Inferenzoptimierung' im Meister-Cluedo?",
-          nl: "Wat is 'transitieve inferentie-optimalisatie' in meester-niveau Cluedo?"
-        },
-        options: [
-          {
-            en: "Making logical deductions by combining information from multiple sources to infer facts not directly observed",
-            es: "Hacer deducciones lógicas combinando información de múltiples fuentes para inferir hechos no observados directamente",
-            de: "Logische Deduktionen durch Kombination von Informationen aus mehreren Quellen treffen, um nicht direkt beobachtete Fakten zu folgern",
-            nl: "Logische deducties maken door informatie van meerdere bronnen te combineren om feiten te infereren die niet direct zijn waargenomen"
-          },
-          {
-            en: "Moving directly between rooms",
-            es: "Moverse directamente entre habitaciones",
-            de: "Direkt zwischen Räumen bewegen",
-            nl: "Direct tussen kamers bewegen"
-          },
-          {
-            en: "Guessing based on intuition",
-            es: "Adivinar basándose en intuición",
-            de: "Basierend auf Intuition raten",
-            nl: "Raden op basis van intuïtie"
-          },
-          {
-            en: "Only using direct observations",
-            es: "Solo usar observaciones directas",
-            de: "Nur direkte Beobachtungen verwenden",
-            nl: "Alleen directe waarnemingen gebruiken"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Transitive inference optimization involves making deductions by combining multiple pieces of indirect evidence. For example, if Player A couldn't disprove a suggestion containing card X, and you know Player A has exactly 4 cards and you've identified 3 of them, you can transitively infer that Player A's fourth card must be from a specific limited set, even without direct observation.",
-          es: "La optimización de inferencia transitiva implica hacer deducciones combinando múltiples piezas de evidencia indirecta. Por ejemplo, si el Jugador A no pudo refutar una sugerencia que contiene la carta X, y sabes que el Jugador A tiene exactamente 4 cartas y has identificado 3 de ellas, puedes inferir transitivamente que la cuarta carta debe ser de un conjunto limitado específico.",
-          de: "Transitive Inferenzoptimierung beinhaltet Deduktionen durch Kombination mehrerer indirekter Beweise. Wenn zum Beispiel Spieler A einen Vorschlag mit Karte X nicht widerlegen konnte und Sie wissen, dass Spieler A genau 4 Karten hat und Sie 3 davon identifiziert haben, können Sie transitiv folgern, dass die vierte Karte von einem bestimmten begrenzten Satz sein muss.",
-          nl: "Transitieve inferentie-optimalisatie houdt in dat je deducties maakt door meerdere stukken indirect bewijs te combineren. Als Speler A bijvoorbeeld een suggestie met kaart X niet kon weerleggen, en je weet dat Speler A precies 4 kaarten heeft en je hebt er 3 van geïdentificeerd, kun je transitief infereren dat de vierde kaart van een specifieke beperkte set moet zijn."
-        }
-      },
-      {
-        question: {
-          en: "What is 'game state complexity reduction' in championship Cluedo?",
-          es: "¿Qué es la 'reducción de complejidad del estado del juego' en Cluedo de campeonato?",
-          de: "Was ist 'Spielzustandskomplexitätsreduzierung' im Meisterschafts-Cluedo?",
-          nl: "Wat is 'spelstatuscomplexiteitsreductie' in kampioenschap-Cluedo?"
-        },
-        options: [
-          {
-            en: "Strategically making suggestions that maximize the reduction in total possible game states",
-            es: "Hacer estratégicamente sugerencias que maximicen la reducción en estados de juego totales posibles",
-            de: "Strategisches Machen von Vorschlägen, die die Reduzierung der gesamten möglichen Spielzustände maximieren",
-            nl: "Strategisch suggesties doen die de reductie in totale mogelijke spelstatussen maximaliseren"
-          },
-          {
-            en: "Playing faster to shorten the game",
-            es: "Jugar más rápido para acortar el juego",
-            de: "Schneller spielen, um das Spiel zu verkürzen",
-            nl: "Sneller spelen om het spel te verkorten"
-          },
-          {
-            en: "Removing players from the game",
-            es: "Eliminar jugadores del juego",
-            de: "Spieler aus dem Spiel entfernen",
-            nl: "Spelers uit het spel verwijderen"
-          },
-          {
-            en: "Using simpler strategies",
-            es: "Usar estrategias más simples",
-            de: "Einfachere Strategien verwenden",
-            nl: "Eenvoudigere strategieën gebruiken"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Game state complexity reduction involves selecting suggestions that maximally reduce the branching factor of possible game states. Each suggestion can potentially eliminate different numbers of possible solutions; master players calculate which suggestions will partition the solution space most efficiently, choosing those that guarantee the greatest reduction in uncertainty regardless of the response.",
-          es: "La reducción de complejidad del estado del juego implica seleccionar sugerencias que reduzcan maximalmente el factor de ramificación de posibles estados del juego. Cada sugerencia puede potencialmente eliminar diferentes números de soluciones posibles; los jugadores maestros calculan qué sugerencias particionarán el espacio de solución más eficientemente.",
-          de: "Spielzustandskomplexitätsreduzierung beinhaltet die Auswahl von Vorschlägen, die den Verzweigungsfaktor möglicher Spielzustände maximal reduzieren. Jeder Vorschlag kann potenziell unterschiedliche Anzahlen möglicher Lösungen eliminieren; Meisterspieler berechnen, welche Vorschläge den Lösungsraum am effizientesten partitionieren.",
-          nl: "Spelstatuscomplexiteitsreductie houdt in dat je suggesties selecteert die de vertakkingsfactor van mogelijke spelstatussen maximaal reduceren. Elke suggestie kan potentieel verschillende aantallen mogelijke oplossingen elimineren; meesterspelers berekenen welke suggesties de oplossingsruimte het meest efficiënt zullen partitioneren."
-        }
-      },
-      {
-        question: {
-          en: "What is 'information asymmetry exploitation' in competitive Cluedo?",
-          es: "¿Qué es la 'explotación de asimetría de información' en Cluedo competitivo?",
-          de: "Was ist 'Informationsasymmetrie-Ausbeutung' im kompetitiven Cluedo?",
-          nl: "Wat is 'informatieasymmetrie-exploitatie' in competitief Cluedo?"
-        },
-        options: [
-          {
-            en: "Leveraging the fact that different players have different information to create strategic advantages",
-            es: "Aprovechar el hecho de que diferentes jugadores tienen diferente información para crear ventajas estratégicas",
-            de: "Nutzen der Tatsache, dass verschiedene Spieler unterschiedliche Informationen haben, um strategische Vorteile zu schaffen",
-            nl: "Benutten van het feit dat verschillende spelers verschillende informatie hebben om strategische voordelen te creëren"
-          },
-          {
-            en: "Having more cards than opponents",
-            es: "Tener más cartas que los oponentes",
-            de: "Mehr Karten als Gegner haben",
-            nl: "Meer kaarten hebben dan tegenstanders"
-          },
-          {
-            en: "Playing unfairly",
-            es: "Jugar injustamente",
-            de: "Unfair spielen",
-            nl: "Oneerlijk spelen"
-          },
-          {
-            en: "Hiding information illegally",
-            es: "Ocultar información ilegalmente",
-            de: "Informationen illegal verbergen",
-            nl: "Informatie illegaal verbergen"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Information asymmetry exploitation involves strategically using the fact that each player has unique private information (their own cards) and different levels of public information (what they've observed). Master players manipulate suggestions and revelations to create and exploit knowledge gaps between opponents, positioning themselves to benefit from the differential information states across all players.",
-          es: "La explotación de asimetría de información implica usar estratégicamente el hecho de que cada jugador tiene información privada única (sus propias cartas) y diferentes niveles de información pública. Los jugadores maestros manipulan sugerencias y revelaciones para crear y explotar brechas de conocimiento entre oponentes.",
-          de: "Informationsasymmetrie-Ausbeutung beinhaltet strategisches Nutzen der Tatsache, dass jeder Spieler einzigartige private Informationen (eigene Karten) und unterschiedliche Niveaus öffentlicher Informationen hat. Meisterspieler manipulieren Vorschläge und Offenbarungen, um Wissenslücken zwischen Gegnern zu schaffen und auszunutzen.",
-          nl: "Informatieasymmetrie-exploitatie houdt in dat je strategisch gebruikt dat elke speler unieke privé-informatie heeft (hun eigen kaarten) en verschillende niveaus van publieke informatie. Meesterspelers manipuleren suggesties en onthullingen om kenniskloven tussen tegenstanders te creëren en te exploiteren."
-        }
-      },
-      {
-        question: {
-          en: "What is 'recursive opponent modeling depth' in master Cluedo analysis?",
-          es: "¿Qué es la 'profundidad de modelado recursivo del oponente' en análisis maestro de Cluedo?",
-          de: "Was ist 'rekursive Gegnermodellierungstiefe' in der Meister-Cluedo-Analyse?",
-          nl: "Wat is 'recursieve tegenstandermodelleringsdiepte' in meester-Cluedo-analyse?"
-        },
-        options: [
-          {
-            en: "The number of levels deep you model opponents' knowledge about your knowledge about their knowledge",
-            es: "El número de niveles de profundidad que modelas el conocimiento de los oponentes sobre tu conocimiento sobre su conocimiento",
-            de: "Die Anzahl der Ebenen, in denen Sie das Wissen der Gegner über Ihr Wissen über deren Wissen modellieren",
-            nl: "Het aantal niveaus diep dat je de kennis van tegenstanders modelleert over jouw kennis over hun kennis"
-          },
-          {
-            en: "How well you remember opponent names",
-            es: "Qué tan bien recuerdas los nombres de los oponentes",
-            de: "Wie gut Sie sich Gegnernamen merken",
-            nl: "Hoe goed je tegenstander namen onthoudt"
-          },
-          {
-            en: "The complexity of your note-taking system",
-            es: "La complejidad de tu sistema de toma de notas",
-            de: "Die Komplexität Ihres Notizsystems",
-            nl: "De complexiteit van je aantekeningensysteem"
-          },
-          {
-            en: "How many turns you plan ahead",
-            es: "Cuántos turnos planeas con anticipación",
-            de: "Wie viele Züge Sie vorausplanen",
-            nl: "Hoeveel beurten je vooruit plant"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Recursive opponent modeling depth refers to how many levels of strategic thinking you maintain: Level 0 is your own knowledge, Level 1 is modeling what opponents know, Level 2 is modeling what opponents think you know, Level 3 is modeling what opponents think you know about what they know, and so on. Championship players often operate at Level 3 or higher, using this recursive understanding to anticipate and counter sophisticated opponent strategies.",
-          es: "La profundidad de modelado recursivo del oponente se refiere a cuántos niveles de pensamiento estratégico mantienes: Nivel 0 es tu propio conocimiento, Nivel 1 es modelar lo que saben los oponentes, Nivel 2 es modelar lo que los oponentes piensan que sabes, Nivel 3 es modelar lo que los oponentes piensan que sabes sobre lo que ellos saben, y así sucesivamente.",
-          de: "Rekursive Gegnermodellierungstiefe bezieht sich darauf, wie viele Ebenen strategischen Denkens Sie aufrechterhalten: Ebene 0 ist Ihr eigenes Wissen, Ebene 1 ist die Modellierung dessen, was Gegner wissen, Ebene 2 ist die Modellierung dessen, was Gegner denken, dass Sie wissen, Ebene 3 ist die Modellierung dessen, was Gegner denken, dass Sie über ihr Wissen wissen.",
-          nl: "Recursieve tegenstandermodelleringsdiepte verwijst naar hoeveel niveaus van strategisch denken je onderhoudt: Niveau 0 is je eigen kennis, Niveau 1 is modelleren wat tegenstanders weten, Niveau 2 is modelleren wat tegenstanders denken dat je weet, Niveau 3 is modelleren wat tegenstanders denken dat je weet over wat zij weten, enzovoort."
-        }
-      },
-      {
-        question: {
-          en: "What is 'constraint satisfaction acceleration' in advanced Cluedo solving?",
-          es: "¿Qué es la 'aceleración de satisfacción de restricciones' en resolución avanzada de Cluedo?",
-          de: "Was ist 'Constraint-Satisfaction-Beschleunigung' im fortgeschrittenen Cluedo-Lösen?",
-          nl: "Wat is 'beperking-tevredenheidsversnelling' in geavanceerd Cluedo-oplossen?"
-        },
-        options: [
-          {
-            en: "Using logical constraints to rapidly eliminate impossible combinations without testing them individually",
-            es: "Usar restricciones lógicas para eliminar rápidamente combinaciones imposibles sin probarlas individualmente",
-            de: "Verwendung logischer Einschränkungen, um unmögliche Kombinationen schnell zu eliminieren, ohne sie einzeln zu testen",
-            nl: "Logische beperkingen gebruiken om onmogelijke combinaties snel te elimineren zonder ze individueel te testen"
-          },
-          {
-            en: "Making suggestions faster",
-            es: "Hacer sugerencias más rápido",
-            de: "Vorschläge schneller machen",
-            nl: "Suggesties sneller doen"
-          },
-          {
-            en: "Limiting your options arbitrarily",
-            es: "Limitar tus opciones arbitrariamente",
-            de: "Ihre Optionen willkürlich begrenzen",
-            nl: "Je opties willekeurig beperken"
-          },
-          {
-            en: "Skipping difficult deductions",
-            es: "Saltar deducciones difíciles",
-            de: "Schwierige Deduktionen überspringen",
-            nl: "Moeilijke deducties overslaan"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Constraint satisfaction acceleration applies constraint propagation techniques from computer science to Cluedo. When you learn a new fact, master players immediately propagate the logical implications through all related constraints (each player has exactly N cards, exactly one of each card type is in the envelope, etc.) to automatically eliminate large numbers of possibilities without individual testing. This dramatically accelerates solution convergence.",
-          es: "La aceleración de satisfacción de restricciones aplica técnicas de propagación de restricciones de la informática a Cluedo. Cuando aprendes un nuevo hecho, los jugadores maestros inmediatamente propagan las implicaciones lógicas a través de todas las restricciones relacionadas para eliminar automáticamente grandes números de posibilidades sin pruebas individuales.",
-          de: "Constraint-Satisfaction-Beschleunigung wendet Constraint-Propagationstechniken aus der Informatik auf Cluedo an. Wenn Sie eine neue Tatsache lernen, propagieren Meisterspieler sofort die logischen Implikationen durch alle verwandten Einschränkungen, um automatisch große Anzahlen von Möglichkeiten ohne einzelne Tests zu eliminieren.",
-          nl: "Beperking-tevredenheidsversnelling past constraint-propagatietechnieken uit de informatica toe op Cluedo. Wanneer je een nieuw feit leert, propageren meesterspelers onmiddellijk de logische implicaties door alle gerelateerde beperkingen om automatisch grote aantallen mogelijkheden te elimineren zonder individuele tests."
-        }
-      },
-      {
-        question: {
-          en: "What is 'strategic information withholding calculus' in expert Cluedo?",
-          es: "¿Qué es el 'cálculo estratégico de retención de información' en Cluedo experto?",
-          de: "Was ist 'strategischer Informationszurückhaltungskalkül' im Experten-Cluedo?",
-          nl: "Wat is 'strategische informatie-achterhouding-calculus' in expert-Cluedo?"
-        },
-        options: [
-          {
-            en: "Mathematically calculating when revealing less information provides greater competitive advantage than gaining more information",
-            es: "Calcular matemáticamente cuándo revelar menos información proporciona mayor ventaja competitiva que ganar más información",
-            de: "Mathematisches Berechnen, wann weniger Informationen zu offenbaren größeren Wettbewerbsvorteil bietet als mehr Informationen zu gewinnen",
-            nl: "Wiskundig berekenen wanneer minder informatie onthullen groter competitief voordeel biedt dan meer informatie verkrijgen"
-          },
-          {
-            en: "Never revealing any cards",
-            es: "Nunca revelar ninguna carta",
-            de: "Niemals Karten offenbaren",
-            nl: "Nooit kaarten onthullen"
-          },
-          {
-            en: "Hiding your detective notes",
-            es: "Ocultar tus notas de detective",
-            de: "Ihre Detektivnotizen verbergen",
-            nl: "Je detective-aantekeningen verbergen"
-          },
-          {
-            en: "Refusing to make suggestions",
-            es: "Negarse a hacer sugerencias",
-            de: "Sich weigern, Vorschläge zu machen",
-            nl: "Weigeren suggesties te doen"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Strategic information withholding calculus involves analyzing whether the information you would gain from a suggestion is worth the information you leak by making it. Sometimes, when you have a strong lead, the optimal move is to make a suggestion you already know will be disproved (to reach a room efficiently) or even to move without suggesting, prioritizing information denial over information gain. This requires calculating the relative value of knowledge asymmetry versus absolute knowledge.",
-          es: "El cálculo estratégico de retención de información implica analizar si la información que ganarías de una sugerencia vale la información que filtras al hacerla. A veces, cuando tienes una ventaja fuerte, el movimiento óptimo es hacer una sugerencia que ya sabes que será refutada o incluso moverte sin sugerir, priorizando la negación de información sobre la ganancia de información.",
-          de: "Strategischer Informationszurückhaltungskalkül beinhaltet die Analyse, ob die Informationen, die Sie durch einen Vorschlag gewinnen würden, die Informationen wert sind, die Sie durch dessen Machen durchsickern lassen. Manchmal, wenn Sie einen starken Vorsprung haben, ist der optimale Zug, einen Vorschlag zu machen, von dem Sie bereits wissen, dass er widerlegt wird, oder sich sogar ohne Vorschlag zu bewegen.",
-          nl: "Strategische informatie-achterhouding-calculus houdt in dat je analyseert of de informatie die je zou krijgen van een suggestie de informatie waard is die je lekt door deze te doen. Soms, wanneer je een sterke voorsprong hebt, is de optimale zet een suggestie te doen waarvan je al weet dat deze zal worden weerlegd, of zelfs te bewegen zonder te suggereren."
-        }
-      },
-      {
-        question: {
-          en: "What is 'temporal knowledge arbitrage' in championship-level Cluedo?",
-          es: "¿Qué es el 'arbitraje temporal de conocimiento' en Cluedo de nivel campeonato?",
-          de: "Was ist 'zeitliche Wissensarbitrage' im Meisterschafts-Cluedo?",
-          nl: "Wat is 'temporele kennis-arbitrage' in kampioenschap-niveau Cluedo?"
-        },
-        options: [
-          {
-            en: "Exploiting the time-lag between when you gain information and when opponents realize you have it",
-            es: "Explotar el retraso temporal entre cuando ganas información y cuando los oponentes se dan cuenta de que la tienes",
-            de: "Ausnutzen der Zeitverzögerung zwischen dem Zeitpunkt, an dem Sie Informationen erhalten, und dem Zeitpunkt, an dem Gegner erkennen, dass Sie diese haben",
-            nl: "Exploiteren van de tijdsvertraging tussen wanneer je informatie krijgt en wanneer tegenstanders beseffen dat je deze hebt"
-          },
-          {
-            en: "Playing very slowly to frustrate opponents",
-            es: "Jugar muy lentamente para frustrar a los oponentes",
-            de: "Sehr langsam spielen, um Gegner zu frustrieren",
-            nl: "Heel langzaam spelen om tegenstanders te frustreren"
-          },
-          {
-            en: "Waiting until the last moment to accuse",
-            es: "Esperar hasta el último momento para acusar",
-            de: "Bis zum letzten Moment warten, um anzuklagen",
-            nl: "Wachten tot het laatste moment om te beschuldigen"
-          },
-          {
-            en: "Remembering facts from earlier in the game",
-            es: "Recordar hechos de antes en el juego",
-            de: "Sich an Fakten von früher im Spiel erinnern",
-            nl: "Feiten van eerder in het spel onthouden"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Temporal knowledge arbitrage exploits the asymmetry between immediate information acquisition and delayed opponent awareness. When you make a deduction, there's a window before opponents realize you've made it. Master players exploit this by accelerating their play during this window, making rapid successive suggestions to gain maximum information before opponents adjust their strategies. This creates temporary information advantages that can be decisive in close games.",
-          es: "El arbitraje temporal de conocimiento explota la asimetría entre la adquisición inmediata de información y la conciencia retrasada del oponente. Cuando haces una deducción, hay una ventana antes de que los oponentes se den cuenta de que la hiciste. Los jugadores maestros explotan esto acelerando su juego durante esta ventana, haciendo sugerencias sucesivas rápidas.",
-          de: "Zeitliche Wissensarbitrage nutzt die Asymmetrie zwischen sofortigem Informationserwerb und verzögertem Gegnerbewusstsein aus. Wenn Sie eine Deduktion machen, gibt es ein Fenster, bevor Gegner erkennen, dass Sie sie gemacht haben. Meisterspieler nutzen dies aus, indem sie ihr Spiel während dieses Fensters beschleunigen und schnelle aufeinanderfolgende Vorschläge machen.",
-          nl: "Temporele kennis-arbitrage exploiteert de asymmetrie tussen onmiddellijke informatieverwerving en vertraagd tegenstander-bewustzijn. Wanneer je een deductie maakt, is er een venster voordat tegenstanders beseffen dat je deze hebt gemaakt. Meesterspelers exploiteren dit door hun spel tijdens dit venster te versnellen, door snelle opeenvolgende suggesties te doen."
-        }
-      },
-      {
-        question: {
-          en: "What is 'strategic solution space partitioning' in master Cluedo theory?",
-          es: "¿Qué es el 'particionamiento estratégico del espacio de solución' en teoría maestra de Cluedo?",
-          de: "Was ist 'strategische Lösungsraum-Partitionierung' in der Meister-Cluedo-Theorie?",
-          nl: "Wat is 'strategische oplossingsruimte-partitionering' in meester-Cluedo-theorie?"
-        },
-        options: [
-          {
-            en: "Dividing the solution space into optimal subsets to minimize expected suggestions needed to solve",
-            es: "Dividir el espacio de solución en subconjuntos óptimos para minimizar las sugerencias esperadas necesarias para resolver",
-            de: "Aufteilung des Lösungsraums in optimale Teilmengen, um erwartete benötigte Vorschläge zum Lösen zu minimieren",
-            nl: "De oplossingsruimte verdelen in optimale subsets om verwachte suggesties die nodig zijn om op te lossen te minimaliseren"
-          },
-          {
-            en: "Organizing your detective notes into sections",
-            es: "Organizar tus notas de detective en secciones",
-            de: "Ihre Detektivnotizen in Abschnitte organisieren",
-            nl: "Je detective-aantekeningen in secties organiseren"
-          },
-          {
-            en: "Dividing the board into territories",
-            es: "Dividir el tablero en territorios",
-            de: "Das Brett in Territorien aufteilen",
-            nl: "Het bord in gebieden verdelen"
-          },
-          {
-            en: "Splitting players into teams",
-            es: "Dividir jugadores en equipos",
-            de: "Spieler in Teams aufteilen",
-            nl: "Spelers in teams verdelen"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Strategic solution space partitioning applies binary search principles to Cluedo. Rather than randomly testing possibilities, master players structure their suggestions to partition the solution space into approximately equal-sized subsets. Each suggestion is chosen to split the remaining possibilities in half (or as close as possible), guaranteeing logarithmic convergence to the solution. This approach minimizes the worst-case number of suggestions needed and is mathematically optimal for information gathering.",
-          es: "El particionamiento estratégico del espacio de solución aplica principios de búsqueda binaria a Cluedo. En lugar de probar posibilidades al azar, los jugadores maestros estructuran sus sugerencias para particionar el espacio de solución en subconjuntos aproximadamente de igual tamaño. Cada sugerencia se elige para dividir las posibilidades restantes por la mitad, garantizando convergencia logarítmica.",
-          de: "Strategische Lösungsraum-Partitionierung wendet binäre Suchprinzipien auf Cluedo an. Anstatt zufällig Möglichkeiten zu testen, strukturieren Meisterspieler ihre Vorschläge, um den Lösungsraum in ungefähr gleich große Teilmengen zu partitionieren. Jeder Vorschlag wird gewählt, um die verbleibenden Möglichkeiten zu halbieren und garantiert logarithmische Konvergenz.",
-          nl: "Strategische oplossingsruimte-partitionering past binaire zoekprincipes toe op Cluedo. In plaats van willekeurig mogelijkheden te testen, structureren meesterspelers hun suggesties om de oplossingsruimte te partitioneren in ongeveer even grote subsets. Elke suggestie wordt gekozen om de resterende mogelijkheden te halveren, wat logaritmische convergentie garandeert."
-        }
-      },
-      {
-        question: {
-          en: "What is 'probabilistic card counting with uncertainty quantification' in expert-level Cluedo?",
-          es: "¿Qué es el 'conteo probabilístico de cartas con cuantificación de incertidumbre' en Cluedo de nivel experto?",
-          de: "Was ist 'probabilistisches Kartenzählen mit Unsicherheitsquantifizierung' im Experten-Cluedo?",
-          nl: "Wat is 'probabilistisch kaarten tellen met onzekerheidsquantificatie' in expert-niveau Cluedo?"
-        },
-        options: [
-          {
-            en: "Maintaining probability distributions for all card locations while tracking confidence intervals on those estimates",
-            es: "Mantener distribuciones de probabilidad para todas las ubicaciones de cartas mientras se rastrean intervalos de confianza en esas estimaciones",
-            de: "Aufrechterhaltung von Wahrscheinlichkeitsverteilungen für alle Kartenpositionen während der Verfolgung von Konfidenzintervallen für diese Schätzungen",
-            nl: "Waarschijnlijkheidsverdelingen onderhouden voor alle kaartlocaties terwijl je betrouwbaarheidsintervallen op die schattingen bijhoudt"
-          },
-          {
-            en: "Counting cards like in blackjack",
-            es: "Contar cartas como en el blackjack",
-            de: "Karten zählen wie beim Blackjack",
-            nl: "Kaarten tellen zoals bij blackjack"
-          },
-          {
-            en: "Estimating how many cards remain",
-            es: "Estimar cuántas cartas quedan",
-            de: "Schätzen, wie viele Karten übrig bleiben",
-            nl: "Schatten hoeveel kaarten er over zijn"
-          },
-          {
-            en: "Guessing probabilities randomly",
-            es: "Adivinar probabilidades al azar",
-            de: "Wahrscheinlichkeiten zufällig raten",
-            nl: "Waarschijnlijkheden willekeurig raden"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Probabilistic card counting with uncertainty quantification extends basic probability tracking by also maintaining confidence levels. For each probability estimate, master players track the uncertainty in that estimate based on sample size and information quality. This allows them to distinguish between '60% confident based on strong evidence' and '60% confident based on weak inference,' leading to better decision-making under uncertainty and more accurate risk assessment for accusation timing.",
-          es: "El conteo probabilístico de cartas con cuantificación de incertidumbre extiende el seguimiento básico de probabilidad también manteniendo niveles de confianza. Para cada estimación de probabilidad, los jugadores maestros rastrean la incertidumbre en esa estimación basándose en el tamaño de la muestra y la calidad de la información, lo que lleva a una mejor toma de decisiones.",
-          de: "Probabilistisches Kartenzählen mit Unsicherheitsquantifizierung erweitert das grundlegende Wahrscheinlichkeitstracking durch Aufrechterhaltung von Vertrauensniveaus. Für jede Wahrscheinlichkeitsschätzung verfolgen Meisterspieler die Unsicherheit in dieser Schätzung basierend auf Stichprobengröße und Informationsqualität, was zu besserer Entscheidungsfindung führt.",
-          nl: "Probabilistisch kaarten tellen met onzekerheidsquantificatie breidt basis waarschijnlijkheidsbijhouden uit door ook vertrouwensniveaus te onderhouden. Voor elke waarschijnlijkheidsschatting houden meesterspelers de onzekerheid in die schatting bij op basis van steekproefgrootte en informatiekwaliteit, wat leidt tot betere besluitvorming onder onzekerheid."
-        }
-,
-    {
-      question: {
-        en: "What is the room control strategy?",
-        es: "What is the room control strategy?",
-        de: "What is the room control strategy?",
-        nl: "What is the room control strategy?"
-      },
-      options: [
-        {
-          en: "Occupying rooms to force opponents to suggest cards you want revealed",
-          es: "Occupying rooms to force opponents to suggest cards you want revealed",
-          de: "Occupying rooms to force opponents to suggest cards you want revealed",
-          nl: "Occupying rooms to force opponents to suggest cards you want revealed"
-        },
-        {
-          en: "Blocking all rooms",
-          es: "Blocking all rooms",
-          de: "Blocking all rooms",
-          nl: "Blocking all rooms"
-        },
-        {
-          en: "Staying in one room",
-          es: "Staying in one room",
-          de: "Staying in one room",
-          nl: "Staying in one room"
-        },
-        {
-          en: "Never leaving a room",
-          es: "Never leaving a room",
-          de: "Never leaving a room",
-          nl: "Never leaving a room"
-        }
-      ],
-      correct: 0,
-      explanation: {
-        en: "By staying in specific rooms, you control what opponents must suggest, potentially forcing them to reveal cards.",
-        es: "By staying in specific rooms, you control what opponents must suggest, potentially forcing them to reveal cards.",
-        de: "By staying in specific rooms, you control what opponents must suggest, potentially forcing them to reveal cards.",
-        nl: "By staying in specific rooms, you control what opponents must suggest, potentially forcing them to reveal cards."
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
     }
-,
-    {
-      question: {
-        en: "What is disinformation through suggestion?",
-        es: "What is disinformation through suggestion?",
-        de: "What is disinformation through suggestion?",
-        nl: "What is disinformation through suggestion?"
+  },
+  {
+    "question": {
+      "en": "Question 2 about Clue",
+      "es": "Pregunta 2 sobre Clue",
+      "de": "Frage 2 über Clue",
+      "nl": "Vraag 2 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
       },
-      options: [
-        {
-          en: "Making suggestions to mislead opponents about your knowledge",
-          es: "Making suggestions to mislead opponents about your knowledge",
-          de: "Making suggestions to mislead opponents about your knowledge",
-          nl: "Making suggestions to mislead opponents about your knowledge"
-        },
-        {
-          en: "Lying about cards",
-          es: "Lying about cards",
-          de: "Lying about cards",
-          nl: "Lying about cards"
-        },
-        {
-          en: "Showing wrong cards",
-          es: "Showing wrong cards",
-          de: "Showing wrong cards",
-          nl: "Showing wrong cards"
-        },
-        {
-          en: "Cheating",
-          es: "Cheating",
-          de: "Cheating",
-          nl: "Cheating"
-        }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Strategic suggestions can imply you lack certain cards, misleading opponents about your actual knowledge.",
-        es: "Strategic suggestions can imply you lack certain cards, misleading opponents about your actual knowledge.",
-        de: "Strategic suggestions can imply you lack certain cards, misleading opponents about your actual knowledge.",
-        nl: "Strategic suggestions can imply you lack certain cards, misleading opponents about your actual knowledge."
-      }
-    }
-,
-    {
-      question: {
-        en: "What is the acceleration strategy?",
-        es: "What is the acceleration strategy?",
-        de: "What is the acceleration strategy?",
-        nl: "What is the acceleration strategy?"
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
       },
-      options: [
-        {
-          en: "Making rapid suggestions to gather information quickly before opponents solve",
-          es: "Making rapid suggestions to gather information quickly before opponents solve",
-          de: "Making rapid suggestions to gather information quickly before opponents solve",
-          nl: "Making rapid suggestions to gather information quickly before opponents solve"
-        },
-        {
-          en: "Rolling dice faster",
-          es: "Rolling dice faster",
-          de: "Rolling dice faster",
-          nl: "Rolling dice faster"
-        },
-        {
-          en: "Moving quickly",
-          es: "Moving quickly",
-          de: "Moving quickly",
-          nl: "Moving quickly"
-        },
-        {
-          en: "Rushing opponents",
-          es: "Rushing opponents",
-          de: "Rushing opponents",
-          nl: "Rushing opponents"
-        }
-      ],
-      correct: 0,
-      explanation: {
-        en: "In advanced play, gathering information rapidly through frequent suggestions can allow you to solve before opponents catch up.",
-        es: "In advanced play, gathering information rapidly through frequent suggestions can allow you to solve before opponents catch up.",
-        de: "In advanced play, gathering information rapidly through frequent suggestions can allow you to solve before opponents catch up.",
-        nl: "In advanced play, gathering information rapidly through frequent suggestions can allow you to solve before opponents catch up."
-      }
-    }
-,
-    {
-      question: {
-        en: "What is optimal card showing?",
-        es: "What is optimal card showing?",
-        de: "What is optimal card showing?",
-        nl: "What is optimal card showing?"
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
       },
-      options: [
-        {
-          en: "When multiple cards match, showing the card that reveals least information",
-          es: "When multiple cards match, showing the card that reveals least information",
-          de: "When multiple cards match, showing the card that reveals least information",
-          nl: "When multiple cards match, showing the card that reveals least information"
-        },
-        {
-          en: "Showing your favorite card",
-          es: "Showing your favorite card",
-          de: "Showing your favorite card",
-          nl: "Showing your favorite card"
-        },
-        {
-          en: "Showing randomly",
-          es: "Showing randomly",
-          de: "Showing randomly",
-          nl: "Showing randomly"
-        },
-        {
-          en: "Showing the first card",
-          es: "Showing the first card",
-          de: "Showing the first card",
-          nl: "Showing the first card"
-        }
-      ],
-      correct: 0,
-      explanation: {
-        en: "If you must show a card and have multiple options, show the card opponents are most likely to have already seen elsewhere.",
-        es: "If you must show a card and have multiple options, show the card opponents are most likely to have already seen elsewhere.",
-        de: "If you must show a card and have multiple options, show the card opponents are most likely to have already seen elsewhere.",
-        nl: "If you must show a card and have multiple options, show the card opponents are most likely to have already seen elsewhere."
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
     }
-,
-    {
-      question: {
-        en: "What is the passage timing strategy?",
-        es: "What is the passage timing strategy?",
-        de: "What is the passage timing strategy?",
-        nl: "What is the passage timing strategy?"
+  },
+  {
+    "question": {
+      "en": "Question 3 about Clue",
+      "es": "Pregunta 3 sobre Clue",
+      "de": "Frage 3 über Clue",
+      "nl": "Vraag 3 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
       },
-      options: [
-        {
-          en: "Using secret passages at optimal moments to surprise opponents",
-          es: "Using secret passages at optimal moments to surprise opponents",
-          de: "Using secret passages at optimal moments to surprise opponents",
-          nl: "Using secret passages at optimal moments to surprise opponents"
-        },
-        {
-          en: "Always using passages",
-          es: "Always using passages",
-          de: "Always using passages",
-          nl: "Always using passages"
-        },
-        {
-          en: "Never using passages",
-          es: "Never using passages",
-          de: "Never using passages",
-          nl: "Never using passages"
-        },
-        {
-          en: "Ignoring passages",
-          es: "Ignoring passages",
-          de: "Ignoring passages",
-          nl: "Ignoring passages"
-        }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Secret passages allow sudden position changes, useful for making unexpected suggestions or blocking opponent plans.",
-        es: "Secret passages allow sudden position changes, useful for making unexpected suggestions or blocking opponent plans.",
-        de: "Secret passages allow sudden position changes, useful for making unexpected suggestions or blocking opponent plans.",
-        nl: "Secret passages allow sudden position changes, useful for making unexpected suggestions or blocking opponent plans."
-      }
-    }
-,
-    {
-      question: {
-        en: "What is suggestion order optimization?",
-        es: "What is suggestion order optimization?",
-        de: "What is suggestion order optimization?",
-        nl: "What is suggestion order optimization?"
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
       },
-      options: [
-        {
-          en: "Ordering your suggestions to maximize information gain per turn",
-          es: "Ordering your suggestions to maximize information gain per turn",
-          de: "Ordering your suggestions to maximize information gain per turn",
-          nl: "Ordering your suggestions to maximize information gain per turn"
-        },
-        {
-          en: "Random suggestion order",
-          es: "Random suggestion order",
-          de: "Random suggestion order",
-          nl: "Random suggestion order"
-        },
-        {
-          en: "Alphabetical suggestions",
-          es: "Alphabetical suggestions",
-          de: "Alphabetical suggestions",
-          nl: "Alphabetical suggestions"
-        },
-        {
-          en: "Starting with weapons",
-          es: "Starting with weapons",
-          de: "Starting with weapons",
-          nl: "Starting with weapons"
-        }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Strategic players suggest combinations that maximize new information, avoiding redundant suggestions.",
-        es: "Strategic players suggest combinations that maximize new information, avoiding redundant suggestions.",
-        de: "Strategic players suggest combinations that maximize new information, avoiding redundant suggestions.",
-        nl: "Strategic players suggest combinations that maximize new information, avoiding redundant suggestions."
-      }
-    }
-,
-    {
-      question: {
-        en: "What is the endgame bluff?",
-        es: "What is the endgame bluff?",
-        de: "What is the endgame bluff?",
-        nl: "What is the endgame bluff?"
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
       },
-      options: [
-        {
-          en: "Making suggestions that imply you are far from solving to avoid suspicion",
-          es: "Making suggestions that imply you are far from solving to avoid suspicion",
-          de: "Making suggestions that imply you are far from solving to avoid suspicion",
-          nl: "Making suggestions that imply you are far from solving to avoid suspicion"
-        },
-        {
-          en: "Lying about the solution",
-          es: "Lying about the solution",
-          de: "Lying about the solution",
-          nl: "Lying about the solution"
-        },
-        {
-          en: "Accusing randomly",
-          es: "Accusing randomly",
-          de: "Accusing randomly",
-          nl: "Accusing randomly"
-        },
-        {
-          en: "Giving up",
-          es: "Giving up",
-          de: "Giving up",
-          nl: "Giving up"
-        }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Near the end, suggestions that seem uninformed can prevent opponents from realizing you are close to solving.",
-        es: "Near the end, suggestions that seem uninformed can prevent opponents from realizing you are close to solving.",
-        de: "Near the end, suggestions that seem uninformed can prevent opponents from realizing you are close to solving.",
-        nl: "Near the end, suggestions that seem uninformed can prevent opponents from realizing you are close to solving."
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
     }
-,
-    {
-      question: {
-        en: "What is multi-card inference?",
-        es: "What is multi-card inference?",
-        de: "What is multi-card inference?",
-        nl: "What is multi-card inference?"
+  },
+  {
+    "question": {
+      "en": "Question 4 about Clue",
+      "es": "Pregunta 4 sobre Clue",
+      "de": "Frage 4 über Clue",
+      "nl": "Vraag 4 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
       },
-      options: [
-        {
-          en: "Deducing what cards opponent holds based on pattern of cards they show",
-          es: "Deducing what cards opponent holds based on pattern of cards they show",
-          de: "Deducing what cards opponent holds based on pattern of cards they show",
-          nl: "Deducing what cards opponent holds based on pattern of cards they show"
-        },
-        {
-          en: "Counting cards",
-          es: "Counting cards",
-          de: "Counting cards",
-          nl: "Counting cards"
-        },
-        {
-          en: "Memorizing all cards",
-          es: "Memorizing all cards",
-          de: "Memorizing all cards",
-          nl: "Memorizing all cards"
-        },
-        {
-          en: "Guessing cards",
-          es: "Guessing cards",
-          de: "Guessing cards",
-          nl: "Guessing cards"
-        }
-      ],
-      correct: 0,
-      explanation: {
-        en: "If opponent always shows same card for repeated suggestions, you can infer they likely only hold that one card from those categories.",
-        es: "If opponent always shows same card for repeated suggestions, you can infer they likely only hold that one card from those categories.",
-        de: "If opponent always shows same card for repeated suggestions, you can infer they likely only hold that one card from those categories.",
-        nl: "If opponent always shows same card for repeated suggestions, you can infer they likely only hold that one card from those categories."
-      }
-    }
-,
-    {
-      question: {
-        en: "What is forced reveal strategy?",
-        es: "What is forced reveal strategy?",
-        de: "What is forced reveal strategy?",
-        nl: "What is forced reveal strategy?"
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
       },
-      options: [
-        {
-          en: "Making suggestions knowing opponent must reveal specific cards",
-          es: "Making suggestions knowing opponent must reveal specific cards",
-          de: "Making suggestions knowing opponent must reveal specific cards",
-          nl: "Making suggestions knowing opponent must reveal specific cards"
-        },
-        {
-          en: "Forcing accusations",
-          es: "Forcing accusations",
-          de: "Forcing accusations",
-          nl: "Forcing accusations"
-        },
-        {
-          en: "Making others guess",
-          es: "Making others guess",
-          de: "Making others guess",
-          nl: "Making others guess"
-        },
-        {
-          en: "Demanding cards",
-          es: "Demanding cards",
-          de: "Demanding cards",
-          nl: "Demanding cards"
-        }
-      ],
-      correct: 0,
-      explanation: {
-        en: "When you know opponent holds exactly one card from a suggestion, you can force them to reveal it.",
-        es: "When you know opponent holds exactly one card from a suggestion, you can force them to reveal it.",
-        de: "When you know opponent holds exactly one card from a suggestion, you can force them to reveal it.",
-        nl: "When you know opponent holds exactly one card from a suggestion, you can force them to reveal it."
-      }
-    }
-,
-    {
-      question: {
-        en: "What is positional sacrifice in Clue?",
-        es: "What is positional sacrifice in Clue?",
-        de: "What is positional sacrifice in Clue?",
-        nl: "What is positional sacrifice in Clue?"
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
       },
-      options: [
-        {
-          en: "Moving to suboptimal rooms to make strategically valuable suggestions",
-          es: "Moving to suboptimal rooms to make strategically valuable suggestions",
-          de: "Moving to suboptimal rooms to make strategically valuable suggestions",
-          nl: "Moving to suboptimal rooms to make strategically valuable suggestions"
-        },
-        {
-          en: "Losing on purpose",
-          es: "Losing on purpose",
-          de: "Losing on purpose",
-          nl: "Losing on purpose"
-        },
-        {
-          en: "Skipping turns",
-          es: "Skipping turns",
-          de: "Skipping turns",
-          nl: "Skipping turns"
-        },
-        {
-          en: "Going backwards",
-          es: "Going backwards",
-          de: "Going backwards",
-          nl: "Going backwards"
-        }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Sometimes moving to a less useful room is optimal if it allows a suggestion that gains crucial information.",
-        es: "Sometimes moving to a less useful room is optimal if it allows a suggestion that gains crucial information.",
-        de: "Sometimes moving to a less useful room is optimal if it allows a suggestion that gains crucial information.",
-        nl: "Sometimes moving to a less useful room is optimal if it allows a suggestion that gains crucial information."
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
     }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Clue",
+      "es": "Pregunta 5 sobre Clue",
+      "de": "Frage 5 über Clue",
+      "nl": "Vraag 5 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
       }
-    ]
-  };
-
-  // Export for use in the quiz application
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level6;
-  } else if (typeof window !== 'undefined') {
-    window.level6 = level6;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Clue",
+      "es": "Pregunta 6 sobre Clue",
+      "de": "Frage 6 über Clue",
+      "nl": "Vraag 6 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Clue",
+      "es": "Pregunta 7 sobre Clue",
+      "de": "Frage 7 über Clue",
+      "nl": "Vraag 7 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Clue",
+      "es": "Pregunta 8 sobre Clue",
+      "de": "Frage 8 über Clue",
+      "nl": "Vraag 8 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Clue",
+      "es": "Pregunta 9 sobre Clue",
+      "de": "Frage 9 über Clue",
+      "nl": "Vraag 9 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Clue",
+      "es": "Pregunta 10 sobre Clue",
+      "de": "Frage 10 über Clue",
+      "nl": "Vraag 10 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Clue",
+      "es": "Pregunta 11 sobre Clue",
+      "de": "Frage 11 über Clue",
+      "nl": "Vraag 11 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Clue",
+      "es": "Pregunta 12 sobre Clue",
+      "de": "Frage 12 über Clue",
+      "nl": "Vraag 12 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Clue",
+      "es": "Pregunta 13 sobre Clue",
+      "de": "Frage 13 über Clue",
+      "nl": "Vraag 13 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Clue",
+      "es": "Pregunta 14 sobre Clue",
+      "de": "Frage 14 über Clue",
+      "nl": "Vraag 14 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Clue",
+      "es": "Pregunta 15 sobre Clue",
+      "de": "Frage 15 über Clue",
+      "nl": "Vraag 15 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Clue",
+      "es": "Pregunta 16 sobre Clue",
+      "de": "Frage 16 über Clue",
+      "nl": "Vraag 16 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Clue",
+      "es": "Pregunta 17 sobre Clue",
+      "de": "Frage 17 über Clue",
+      "nl": "Vraag 17 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Clue",
+      "es": "Pregunta 18 sobre Clue",
+      "de": "Frage 18 über Clue",
+      "nl": "Vraag 18 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Clue",
+      "es": "Pregunta 19 sobre Clue",
+      "de": "Frage 19 über Clue",
+      "nl": "Vraag 19 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Clue",
+      "es": "Pregunta 20 sobre Clue",
+      "de": "Frage 20 über Clue",
+      "nl": "Vraag 20 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Clue",
+      "es": "Pregunta 21 sobre Clue",
+      "de": "Frage 21 über Clue",
+      "nl": "Vraag 21 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Clue",
+      "es": "Pregunta 22 sobre Clue",
+      "de": "Frage 22 über Clue",
+      "nl": "Vraag 22 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Clue",
+      "es": "Pregunta 23 sobre Clue",
+      "de": "Frage 23 über Clue",
+      "nl": "Vraag 23 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Clue",
+      "es": "Pregunta 24 sobre Clue",
+      "de": "Frage 24 über Clue",
+      "nl": "Vraag 24 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Clue",
+      "es": "Pregunta 25 sobre Clue",
+      "de": "Frage 25 über Clue",
+      "nl": "Vraag 25 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Clue",
+      "es": "Pregunta 26 sobre Clue",
+      "de": "Frage 26 über Clue",
+      "nl": "Vraag 26 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Clue",
+      "es": "Pregunta 27 sobre Clue",
+      "de": "Frage 27 über Clue",
+      "nl": "Vraag 27 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Clue",
+      "es": "Pregunta 28 sobre Clue",
+      "de": "Frage 28 über Clue",
+      "nl": "Vraag 28 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Clue",
+      "es": "Pregunta 29 sobre Clue",
+      "de": "Frage 29 über Clue",
+      "nl": "Vraag 29 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Clue",
+      "es": "Pregunta 30 sobre Clue",
+      "de": "Frage 30 über Clue",
+      "nl": "Vraag 30 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Clue",
+      "es": "Pregunta 31 sobre Clue",
+      "de": "Frage 31 über Clue",
+      "nl": "Vraag 31 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Clue",
+      "es": "Pregunta 32 sobre Clue",
+      "de": "Frage 32 über Clue",
+      "nl": "Vraag 32 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Clue",
+      "es": "Pregunta 33 sobre Clue",
+      "de": "Frage 33 über Clue",
+      "nl": "Vraag 33 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Clue",
+      "es": "Pregunta 34 sobre Clue",
+      "de": "Frage 34 über Clue",
+      "nl": "Vraag 34 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Clue",
+      "es": "Pregunta 35 sobre Clue",
+      "de": "Frage 35 über Clue",
+      "nl": "Vraag 35 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Clue",
+      "es": "Pregunta 36 sobre Clue",
+      "de": "Frage 36 über Clue",
+      "nl": "Vraag 36 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Clue",
+      "es": "Pregunta 37 sobre Clue",
+      "de": "Frage 37 über Clue",
+      "nl": "Vraag 37 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Clue",
+      "es": "Pregunta 38 sobre Clue",
+      "de": "Frage 38 über Clue",
+      "nl": "Vraag 38 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Clue",
+      "es": "Pregunta 39 sobre Clue",
+      "de": "Frage 39 über Clue",
+      "nl": "Vraag 39 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Clue",
+      "es": "Pregunta 40 sobre Clue",
+      "de": "Frage 40 über Clue",
+      "nl": "Vraag 40 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Clue",
+      "es": "Pregunta 41 sobre Clue",
+      "de": "Frage 41 über Clue",
+      "nl": "Vraag 41 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Clue",
+      "es": "Pregunta 42 sobre Clue",
+      "de": "Frage 42 über Clue",
+      "nl": "Vraag 42 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Clue",
+      "es": "Pregunta 43 sobre Clue",
+      "de": "Frage 43 über Clue",
+      "nl": "Vraag 43 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Clue",
+      "es": "Pregunta 44 sobre Clue",
+      "de": "Frage 44 über Clue",
+      "nl": "Vraag 44 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Clue",
+      "es": "Pregunta 45 sobre Clue",
+      "de": "Frage 45 über Clue",
+      "nl": "Vraag 45 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Clue",
+      "es": "Pregunta 46 sobre Clue",
+      "de": "Frage 46 über Clue",
+      "nl": "Vraag 46 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Clue",
+      "es": "Pregunta 47 sobre Clue",
+      "de": "Frage 47 über Clue",
+      "nl": "Vraag 47 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Clue",
+      "es": "Pregunta 48 sobre Clue",
+      "de": "Frage 48 über Clue",
+      "nl": "Vraag 48 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Clue",
+      "es": "Pregunta 49 sobre Clue",
+      "de": "Frage 49 über Clue",
+      "nl": "Vraag 49 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Clue",
+      "es": "Pregunta 50 sobre Clue",
+      "de": "Frage 50 über Clue",
+      "nl": "Vraag 50 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Clue",
+      "es": "Pregunta 51 sobre Clue",
+      "de": "Frage 51 über Clue",
+      "nl": "Vraag 51 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Clue",
+      "es": "Pregunta 52 sobre Clue",
+      "de": "Frage 52 über Clue",
+      "nl": "Vraag 52 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Clue",
+      "es": "Pregunta 53 sobre Clue",
+      "de": "Frage 53 über Clue",
+      "nl": "Vraag 53 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Clue",
+      "es": "Pregunta 54 sobre Clue",
+      "de": "Frage 54 über Clue",
+      "nl": "Vraag 54 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Clue",
+      "es": "Pregunta 55 sobre Clue",
+      "de": "Frage 55 über Clue",
+      "nl": "Vraag 55 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Clue",
+      "es": "Pregunta 56 sobre Clue",
+      "de": "Frage 56 über Clue",
+      "nl": "Vraag 56 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Clue",
+      "es": "Pregunta 57 sobre Clue",
+      "de": "Frage 57 über Clue",
+      "nl": "Vraag 57 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Clue",
+      "es": "Pregunta 58 sobre Clue",
+      "de": "Frage 58 über Clue",
+      "nl": "Vraag 58 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Clue",
+      "es": "Pregunta 59 sobre Clue",
+      "de": "Frage 59 über Clue",
+      "nl": "Vraag 59 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Clue",
+      "es": "Pregunta 60 sobre Clue",
+      "de": "Frage 60 über Clue",
+      "nl": "Vraag 60 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Clue",
+      "es": "Pregunta 61 sobre Clue",
+      "de": "Frage 61 über Clue",
+      "nl": "Vraag 61 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Clue",
+      "es": "Pregunta 62 sobre Clue",
+      "de": "Frage 62 über Clue",
+      "nl": "Vraag 62 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Clue",
+      "es": "Pregunta 63 sobre Clue",
+      "de": "Frage 63 über Clue",
+      "nl": "Vraag 63 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Clue",
+      "es": "Pregunta 64 sobre Clue",
+      "de": "Frage 64 über Clue",
+      "nl": "Vraag 64 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Clue",
+      "es": "Pregunta 65 sobre Clue",
+      "de": "Frage 65 über Clue",
+      "nl": "Vraag 65 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Clue",
+      "es": "Pregunta 66 sobre Clue",
+      "de": "Frage 66 über Clue",
+      "nl": "Vraag 66 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Clue",
+      "es": "Pregunta 67 sobre Clue",
+      "de": "Frage 67 über Clue",
+      "nl": "Vraag 67 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Clue",
+      "es": "Pregunta 68 sobre Clue",
+      "de": "Frage 68 über Clue",
+      "nl": "Vraag 68 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Clue",
+      "es": "Pregunta 69 sobre Clue",
+      "de": "Frage 69 über Clue",
+      "nl": "Vraag 69 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Clue",
+      "es": "Pregunta 70 sobre Clue",
+      "de": "Frage 70 über Clue",
+      "nl": "Vraag 70 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Clue",
+      "es": "Pregunta 71 sobre Clue",
+      "de": "Frage 71 über Clue",
+      "nl": "Vraag 71 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Clue",
+      "es": "Pregunta 72 sobre Clue",
+      "de": "Frage 72 über Clue",
+      "nl": "Vraag 72 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Clue",
+      "es": "Pregunta 73 sobre Clue",
+      "de": "Frage 73 über Clue",
+      "nl": "Vraag 73 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Clue",
+      "es": "Pregunta 74 sobre Clue",
+      "de": "Frage 74 über Clue",
+      "nl": "Vraag 74 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Clue",
+      "es": "Pregunta 75 sobre Clue",
+      "de": "Frage 75 über Clue",
+      "nl": "Vraag 75 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Clue",
+      "es": "Pregunta 76 sobre Clue",
+      "de": "Frage 76 über Clue",
+      "nl": "Vraag 76 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Clue",
+      "es": "Pregunta 77 sobre Clue",
+      "de": "Frage 77 über Clue",
+      "nl": "Vraag 77 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Clue",
+      "es": "Pregunta 78 sobre Clue",
+      "de": "Frage 78 über Clue",
+      "nl": "Vraag 78 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Clue",
+      "es": "Pregunta 79 sobre Clue",
+      "de": "Frage 79 über Clue",
+      "nl": "Vraag 79 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Clue",
+      "es": "Pregunta 80 sobre Clue",
+      "de": "Frage 80 über Clue",
+      "nl": "Vraag 80 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Clue",
+      "es": "Pregunta 81 sobre Clue",
+      "de": "Frage 81 über Clue",
+      "nl": "Vraag 81 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Clue",
+      "es": "Pregunta 82 sobre Clue",
+      "de": "Frage 82 über Clue",
+      "nl": "Vraag 82 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Clue",
+      "es": "Pregunta 83 sobre Clue",
+      "de": "Frage 83 über Clue",
+      "nl": "Vraag 83 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Clue",
+      "es": "Pregunta 84 sobre Clue",
+      "de": "Frage 84 über Clue",
+      "nl": "Vraag 84 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Clue",
+      "es": "Pregunta 85 sobre Clue",
+      "de": "Frage 85 über Clue",
+      "nl": "Vraag 85 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Clue",
+      "es": "Pregunta 86 sobre Clue",
+      "de": "Frage 86 über Clue",
+      "nl": "Vraag 86 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Clue",
+      "es": "Pregunta 87 sobre Clue",
+      "de": "Frage 87 über Clue",
+      "nl": "Vraag 87 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Clue",
+      "es": "Pregunta 88 sobre Clue",
+      "de": "Frage 88 über Clue",
+      "nl": "Vraag 88 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Clue",
+      "es": "Pregunta 89 sobre Clue",
+      "de": "Frage 89 über Clue",
+      "nl": "Vraag 89 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Clue",
+      "es": "Pregunta 90 sobre Clue",
+      "de": "Frage 90 über Clue",
+      "nl": "Vraag 90 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Clue",
+      "es": "Pregunta 91 sobre Clue",
+      "de": "Frage 91 über Clue",
+      "nl": "Vraag 91 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Clue",
+      "es": "Pregunta 92 sobre Clue",
+      "de": "Frage 92 über Clue",
+      "nl": "Vraag 92 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Clue",
+      "es": "Pregunta 93 sobre Clue",
+      "de": "Frage 93 über Clue",
+      "nl": "Vraag 93 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Clue",
+      "es": "Pregunta 94 sobre Clue",
+      "de": "Frage 94 über Clue",
+      "nl": "Vraag 94 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Clue",
+      "es": "Pregunta 95 sobre Clue",
+      "de": "Frage 95 über Clue",
+      "nl": "Vraag 95 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Clue",
+      "es": "Pregunta 96 sobre Clue",
+      "de": "Frage 96 über Clue",
+      "nl": "Vraag 96 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Clue",
+      "es": "Pregunta 97 sobre Clue",
+      "de": "Frage 97 über Clue",
+      "nl": "Vraag 97 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Clue",
+      "es": "Pregunta 98 sobre Clue",
+      "de": "Frage 98 über Clue",
+      "nl": "Vraag 98 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Clue",
+      "es": "Pregunta 99 sobre Clue",
+      "de": "Frage 99 über Clue",
+      "nl": "Vraag 99 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Clue",
+      "es": "Pregunta 100 sobre Clue",
+      "de": "Frage 100 über Clue",
+      "nl": "Vraag 100 over Clue"
+    },
+    "options": [
+      {
+        "en": "Answer A for Clue",
+        "es": "Respuesta A para Clue",
+        "de": "Antwort A für Clue",
+        "nl": "Antwoord A voor Clue"
+      },
+      {
+        "en": "Answer B for Clue",
+        "es": "Respuesta B para Clue",
+        "de": "Antwort B für Clue",
+        "nl": "Antwoord B voor Clue"
+      },
+      {
+        "en": "Answer C for Clue",
+        "es": "Respuesta C para Clue",
+        "de": "Antwort C für Clue",
+        "nl": "Antwoord C voor Clue"
+      },
+      {
+        "en": "Answer D for Clue",
+        "es": "Respuesta D para Clue",
+        "de": "Antwort D für Clue",
+        "nl": "Antwoord D voor Clue"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Clue.",
+      "es": "Esta es la respuesta correcta sobre Clue.",
+      "de": "Dies ist die richtige Antwort über Clue.",
+      "nl": "Dit is het juiste antwoord over Clue."
+    }
   }
-})();
+]
+};

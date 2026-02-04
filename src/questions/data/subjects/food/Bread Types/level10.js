@@ -1,1657 +1,4104 @@
-// Bread Types Quiz - Level 10
-(function() {
-  const level10 = {
-    name: {
-          "en": "Bread  Types Level 10",
-          "es": "Bread  Types Nivel 10",
-          "de": "Bread  Types Stufe 10",
-          "nl": "Bread  Types Level 10"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Bread Types",
+      "es": "Pregunta 1 sobre Bread Types",
+      "de": "Frage 1 über Bread Types",
+      "nl": "Vraag 1 over Bread Types"
     },
-    questions: [
+    "options": [
       {
-        question: {
-                  "en": "Which type of flour is most commonly used for white bread?",
-                  "es": "¿Qué tipo de harina se usa más comúnmente para el pan blanco?",
-                  "de": "Welche Art von Mehl wird am häufigsten für Weißbrot verwendet?",
-                  "nl": "Welk type meel wordt het meest gebruikt voor wit brood?"
-        },
-        options: [
-        {
-                  "en": "All-purpose wheat flour",
-                  "es": "Harina de trigo multiuso",
-                  "de": "Allzweck-Weizenmehl",
-                  "nl": "Bloem van tarwe"
-        },
-        {
-                  "en": "Almond flour",
-                  "es": "Harina de almendra",
-                  "de": "Mandelmehl",
-                  "nl": "Amandelmeel"
-        },
-        {
-                  "en": "Corn flour",
-                  "es": "Harina de maíz",
-                  "de": "Maismehl",
-                  "nl": "Maïsmeel"
-        },
-        {
-                  "en": "Rice flour",
-                  "es": "Harina de arroz",
-                  "de": "Reismehl",
-                  "nl": "Rijstmeel"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "All-purpose wheat flour contains gluten proteins that provide structure and elasticity to bread dough, making it ideal for most bread recipes.",
-                  "es": "La harina de trigo multiuso contiene proteínas de gluten que proporcionan estructura y elasticidad a la masa del pan, haciéndola ideal para la mayoría de recetas de pan.",
-                  "de": "Allzweck-Weizenmehl enthält Glutenproteine, die dem Brotteig Struktur und Elastizität verleihen und es ideal für die meisten Brotrezepte machen.",
-                  "nl": "Bloem van tarwe bevat glutenproteïnen die structuur en elasticiteit aan brooddeeg geven, waardoor het ideaal is voor de meeste broodrecepten."
-        }
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
       },
       {
-        question: {
-                  "en": "What is sourdough bread characterized by?",
-                  "es": "¿Por qué se caracteriza el pan de masa madre?",
-                  "de": "Wodurch ist Sauerteigbrot charakterisiert?",
-                  "nl": "Waar wordt zuurdesembrood door gekenmerkt?"
-        },
-        options: [
-        {
-                  "en": "Tangy flavor from natural fermentation",
-                  "es": "Sabor ácido de fermentación natural",
-                  "de": "Säuerlicher Geschmack durch natürliche Fermentation",
-                  "nl": "Zure smaak door natuurlijke fermentatie"
-        },
-        {
-                  "en": "Sweet taste from added sugar",
-                  "es": "Sabor dulce de azúcar añadido",
-                  "de": "Süßer Geschmack durch zugesetzten Zucker",
-                  "nl": "Zoete smaak door toegevoegde suiker"
-        },
-        {
-                  "en": "Bright white color",
-                  "es": "Color blanco brillante",
-                  "de": "Leuchtend weiße Farbe",
-                  "nl": "Helderwitte kleur"
-        },
-        {
-                  "en": "Very dry texture",
-                  "es": "Textura muy seca",
-                  "de": "Sehr trockene Textur",
-                  "nl": "Zeer droge textuur"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Sourdough bread gets its distinctive tangy flavor from wild yeast and bacteria in the starter that ferment naturally over several days.",
-                  "es": "El pan de masa madre obtiene su sabor ácido distintivo de levadura salvaje y bacterias en el iniciador que fermentan naturalmente durante varios días.",
-                  "de": "Sauerteigbrot erhält seinen charakteristischen säuerlichen Geschmack von wilden Hefen und Bakterien im Starter, die über mehrere Tage natürlich fermentieren.",
-                  "nl": "Zuurdesembrood krijgt zijn kenmerkende zure smaak van wilde gist en bacteriën in de starter die natuurlijk fermenteren gedurende meerdere dagen."
-        }
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
       },
       {
-        question: {
-                  "en": "What gives whole wheat bread its brown color?",
-                  "es": "¿Qué le da al pan integral su color marrón?",
-                  "de": "Was verleiht Vollkornbrot seine braune Farbe?",
-                  "nl": "Wat geeft volkorenbrood zijn bruine kleur?"
-        },
-        options: [
-        {
-                  "en": "Added brown sugar",
-                  "es": "Azúcar moreno añadido",
-                  "de": "Zugesetzter brauner Zucker",
-                  "nl": "Toegevoegde bruine suiker"
-        },
-        {
-                  "en": "Food coloring",
-                  "es": "Colorante alimentario",
-                  "de": "Lebensmittelfarbe",
-                  "nl": "Voedingskleurstof"
-        },
-        {
-                  "en": "Chocolate powder",
-                  "es": "Polvo de chocolate",
-                  "de": "Schokoladenpulver",
-                  "nl": "Chocoladepoeder"
-        },
-        {
-                  "en": "Wheat bran and germ in the flour",
-                  "es": "Salvado de trigo y germen en la harina",
-                  "de": "Weizenkleie und Keim im Mehl",
-                  "nl": "Tarwezemelen en kiem in het meel"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Whole wheat flour includes the bran (outer layer) and germ (embryo) of the wheat kernel, which contain nutrients and give the characteristic brown color.",
-                  "es": "La harina integral incluye el salvado (capa exterior) y germen (embrión) del grano de trigo, que contienen nutrientes y dan el color marrón característico.",
-                  "de": "Vollkornmehl enthält die Kleie (äußere Schicht) und den Keim (Embryo) des Weizenkorns, die Nährstoffe enthalten und die charakteristische braune Farbe verleihen.",
-                  "nl": "Volkoren tarwemeel bevat de zemelen (buitenlaag) en kiem (embryo) van de tarwekorrel, die voedingsstoffen bevatten en de karakteristieke bruine kleur geven."
-        }
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
       },
       {
-        question: {
-                  "en": "What is a baguette?",
-                  "es": "¿Qué es una baguette?",
-                  "de": "Was ist ein Baguette?",
-                  "nl": "Wat is een stokbrood?"
-        },
-        options: [
-        {
-                  "en": "A long, thin French bread with a crispy crust",
-                  "es": "Un pan francés largo y delgado con corteza crujiente",
-                  "de": "Ein langes, dünnes französisches Brot mit knuspriger Kruste",
-                  "nl": "Een lang, dun Frans brood met een knapperige korst"
-        },
-        {
-                  "en": "A sweet cake from Germany",
-                  "es": "Un pastel dulce de Alemania",
-                  "de": "Ein süßer Kuchen aus Deutschland",
-                  "nl": "Een zoete cake uit Duitsland"
-        },
-        {
-                  "en": "A type of pasta from Italy",
-                  "es": "Un tipo de pasta de Italia",
-                  "de": "Eine Art Pasta aus Italien",
-                  "nl": "Een soort pasta uit Italië"
-        },
-        {
-                  "en": "A round flatbread from Greece",
-                  "es": "Un pan plano redondo de Grecia",
-                  "de": "Ein rundes Fladenbrot aus Griechenland",
-                  "nl": "Een rond platbrood uit Griekenland"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "A baguette is a traditional French bread known for its long, thin shape and golden, crispy crust with a soft interior.",
-                  "es": "Una baguette es un pan francés tradicional conocido por su forma larga y delgada y corteza dorada y crujiente con interior suave.",
-                  "de": "Ein Baguette ist ein traditionelles französisches Brot, bekannt für seine lange, dünne Form und goldene, knusprige Kruste mit weichem Inneren.",
-                  "nl": "Een stokbrood is een traditioneel Frans brood bekend om zijn lange, dunne vorm en gouden, knapperige korst met zachte binnenkant."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the purpose of kneading bread dough?",
-                  "es": "¿Cuál es el propósito de amasar la masa del pan?",
-                  "de": "Was ist der Zweck des Knetens von Brotteig?",
-                  "nl": "Wat is het doel van het kneden van brooddeeg?"
-        },
-        options: [
-        {
-                  "en": "To remove moisture",
-                  "es": "Para eliminar humedad",
-                  "de": "Um Feuchtigkeit zu entfernen",
-                  "nl": "Om vocht te verwijderen"
-        },
-        {
-                  "en": "To change the color",
-                  "es": "Para cambiar el color",
-                  "de": "Um die Farbe zu ändern",
-                  "nl": "Om de kleur te veranderen"
-        },
-        {
-                  "en": "To develop gluten for structure and elasticity",
-                  "es": "Para desarrollar gluten para estructura y elasticidad",
-                  "de": "Um Gluten für Struktur und Elastizität zu entwickeln",
-                  "nl": "Om gluten te ontwikkelen voor structuur en elasticiteit"
-        },
-        {
-                  "en": "To add more flavor",
-                  "es": "Para añadir más sabor",
-                  "de": "Um mehr Geschmack hinzuzufügen",
-                  "nl": "Om meer smaak toe te voegen"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Kneading develops gluten proteins in the flour, creating a strong, elastic network that traps gas bubbles and gives bread its structure.",
-                  "es": "Amasar desarrolla proteínas de gluten en la harina, creando una red fuerte y elástica que atrapa burbujas de gas y da estructura al pan.",
-                  "de": "Kneten entwickelt Glutenproteine im Mehl und schafft ein starkes, elastisches Netzwerk, das Gasblasen einfängt und dem Brot seine Struktur gibt.",
-                  "nl": "Kneden ontwikkelt glutenproteïnen in het meel, wat een sterk, elastisch netwerk creëert dat gasbellen vangt en brood zijn structuur geeft."
-        }
-      },
-      {
-        question: {
-                  "en": "What is pita bread?",
-                  "es": "¿Qué es el pan pita?",
-                  "de": "Was ist Pitabrot?",
-                  "nl": "Wat is pitabrood?"
-        },
-        options: [
-        {
-                  "en": "An Indian flatbread",
-                  "es": "Un pan plano indio",
-                  "de": "Ein indisches Fladenbrot",
-                  "nl": "Een Indiaas platbrood"
-        },
-        {
-                  "en": "A sweet Danish pastry",
-                  "es": "Un pastel dulce danés",
-                  "de": "Ein süßes dänisches Gebäck",
-                  "nl": "Een zoet Deens gebak"
-        },
-        {
-                  "en": "A round, flat Middle Eastern bread that forms a pocket",
-                  "es": "Un pan plano y redondo del Medio Oriente que forma un bolsillo",
-                  "de": "Ein rundes, flaches nahöstliches Brot, das eine Tasche bildet",
-                  "nl": "Een rond, plat Midden-Oosters brood dat een zakje vormt"
-        },
-        {
-                  "en": "A German pretzel",
-                  "es": "Un pretzel alemán",
-                  "de": "Eine deutsche Brezel",
-                  "nl": "Een Duitse pretzel"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Pita bread is a traditional Middle Eastern bread that puffs up during baking, creating a pocket that can be filled with various ingredients.",
-                  "es": "El pan pita es un pan tradicional del Medio Oriente que se infla durante el horneado, creando un bolsillo que puede llenarse con varios ingredientes.",
-                  "de": "Pitabrot ist ein traditionelles nahöstliches Brot, das beim Backen aufgeht und eine Tasche bildet, die mit verschiedenen Zutaten gefüllt werden kann.",
-                  "nl": "Pitabrood is een traditioneel Midden-Oosters brood dat opzwelt tijdens het bakken, waardoor een zakje ontstaat dat gevuld kan worden met verschillende ingrediënten."
-        }
-      },
-      {
-        question: {
-                  "en": "What type of bread is focaccia?",
-                  "es": "¿Qué tipo de pan es la focaccia?",
-                  "de": "Was für eine Art Brot ist Focaccia?",
-                  "nl": "Wat voor soort brood is focaccia?"
-        },
-        options: [
-        {
-                  "en": "A Mexican tortilla",
-                  "es": "Una tortilla mexicana",
-                  "de": "Eine mexikanische Tortilla",
-                  "nl": "Een Mexicaanse tortilla"
-        },
-        {
-                  "en": "A British scone",
-                  "es": "Un scone británico",
-                  "de": "Ein britischer Scone",
-                  "nl": "Een Britse scone"
-        },
-        {
-                  "en": "A French croissant",
-                  "es": "Un croissant francés",
-                  "de": "Ein französisches Croissant",
-                  "nl": "Een Franse croissant"
-        },
-        {
-                  "en": "An Italian flatbread with olive oil and herbs",
-                  "es": "Un pan plano italiano con aceite de oliva y hierbas",
-                  "de": "Ein italienisches Fladenbrot mit Olivenöl und Kräutern",
-                  "nl": "Een Italiaans platbrood met olijfolie en kruiden"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Focaccia is a traditional Italian flatbread topped with olive oil, salt, and often herbs or vegetables before baking.",
-                  "es": "La focaccia es un pan plano tradicional italiano cubierto con aceite de oliva, sal, y a menudo hierbas o verduras antes del horneado.",
-                  "de": "Focaccia ist ein traditionelles italienisches Fladenbrot, das vor dem Backen mit Olivenöl, Salz und oft Kräutern oder Gemüse belegt wird.",
-                  "nl": "Focaccia is een traditioneel Italiaans platbrood bedekt met olijfolie, zout, en vaak kruiden of groenten voor het bakken."
-        }
-      },
-      {
-        question: {
-                  "en": "What makes rye bread different from wheat bread?",
-                  "es": "¿Qué hace que el pan de centeno sea diferente del pan de trigo?",
-                  "de": "Was macht Roggenbrot anders als Weizenbrot?",
-                  "nl": "Wat maakt roggebrood anders dan tarwebrood?"
-        },
-        options: [
-        {
-                  "en": "It's always sweet",
-                  "es": "Siempre es dulce",
-                  "de": "Es ist immer süß",
-                  "nl": "Het is altijd zoet"
-        },
-        {
-                  "en": "It's made with rye flour instead of wheat flour",
-                  "es": "Está hecho con harina de centeno en lugar de harina de trigo",
-                  "de": "Es wird mit Roggenmehl anstatt Weizenmehl hergestellt",
-                  "nl": "Het is gemaakt met roggenmeel in plaats van tarwemeel"
-        },
-        {
-                  "en": "It's baked at a higher temperature",
-                  "es": "Se hornea a mayor temperatura",
-                  "de": "Es wird bei höherer Temperatur gebacken",
-                  "nl": "Het wordt op hogere temperatuur gebakken"
-        },
-        {
-                  "en": "It contains more sugar",
-                  "es": "Contiene más azúcar",
-                  "de": "Es enthält mehr Zucker",
-                  "nl": "Het bevat meer suiker"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Rye bread is made with rye flour, which has less gluten than wheat flour and gives the bread a denser texture and distinctive earthy flavor.",
-                  "es": "El pan de centeno está hecho con harina de centeno, que tiene menos gluten que la harina de trigo y da al pan una textura más densa y sabor terroso distintivo.",
-                  "de": "Roggenbrot wird mit Roggenmehl hergestellt, das weniger Gluten als Weizenmehl hat und dem Brot eine dichtere Textur und einen charakteristischen erdigen Geschmack verleiht.",
-                  "nl": "Roggebrood is gemaakt met roggenmeel, dat minder gluten heeft dan tarwemeel en het brood een dichtere textuur en kenmerkende aardse smaak geeft."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a pretzel traditionally shaped like?",
-                  "es": "¿Cómo tiene forma tradicionalmente un pretzel?",
-                  "de": "Wie ist eine Brezel traditionell geformt?",
-                  "nl": "Welke vorm heeft een pretzel traditioneel?"
-        },
-        options: [
-        {
-                  "en": "A square",
-                  "es": "Un cuadrado",
-                  "de": "Ein Quadrat",
-                  "nl": "Een vierkant"
-        },
-        {
-                  "en": "A triangle",
-                  "es": "Un triángulo",
-                  "de": "Ein Dreieck",
-                  "nl": "Een driehoek"
-        },
-        {
-                  "en": "A perfect circle",
-                  "es": "Un círculo perfecto",
-                  "de": "Ein perfekter Kreis",
-                  "nl": "Een perfecte cirkel"
-        },
-        {
-                  "en": "A twisted knot",
-                  "es": "Un nudo retorcido",
-                  "de": "Ein verdrehter Knoten",
-                  "nl": "Een gedraaide knoop"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Traditional pretzels are shaped like a twisted knot, often said to resemble arms crossed in prayer, dating back to ancient European traditions.",
-                  "es": "Los pretzels tradicionales tienen forma de nudo retorcido, a menudo se dice que se asemejan a brazos cruzados en oración, datando de antiguas tradiciones europeas.",
-                  "de": "Traditionelle Brezeln sind wie ein verdrehter Knoten geformt, oft gesagt, dass sie gekreuzte Arme im Gebet ähneln, was auf alte europäische Traditionen zurückgeht.",
-                  "nl": "Traditionele pretzels hebben de vorm van een gedraaide knoop, vaak gezegd dat ze lijken op gekruiste armen in gebed, daterend uit oude Europese tradities."
-        }
-      },
-      {
-        question: {
-                  "en": "What gives bagels their chewy texture?",
-                  "es": "¿Qué le da a los bagels su textura masticable?",
-                  "de": "Was verleiht Bagels ihre zähe Textur?",
-                  "nl": "Wat geeft bagels hun kauwbare textuur?"
-        },
-        options: [
-        {
-                  "en": "Boiling before baking",
-                  "es": "Hervir antes de hornear",
-                  "de": "Kochen vor dem Backen",
-                  "nl": "Koken voor het bakken"
-        },
-        {
-                  "en": "Adding extra sugar",
-                  "es": "Añadir azúcar extra",
-                  "de": "Extra Zucker hinzufügen",
-                  "nl": "Extra suiker toevoegen"
-        },
-        {
-                  "en": "Freezing the dough",
-                  "es": "Congelar la masa",
-                  "de": "Den Teig einfrieren",
-                  "nl": "Het deeg bevriezen"
-        },
-        {
-                  "en": "Using only egg whites",
-                  "es": "Usar solo claras de huevo",
-                  "de": "Nur Eiweiß verwenden",
-                  "nl": "Alleen eiwitten gebruiken"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Bagels are boiled in water before baking, which gelatinizes the surface starches and creates their characteristic dense, chewy texture.",
-                  "es": "Los bagels se hierven en agua antes de hornear, lo que gelatiniza los almidones de la superficie y crea su textura densa y masticable característica.",
-                  "de": "Bagels werden vor dem Backen in Wasser gekocht, was die Oberflächenstärken gelatiniert und ihre charakteristische dichte, zähe Textur schafft.",
-                  "nl": "Bagels worden gekookt in water voor het bakken, wat de oppervlakte zetmelen gelatineert en hun karakteristieke dichte, kauwbare textuur creëert."
-        }
-      },
-      {
-        question: {
-                  "en": "What is ciabatta bread known for?",
-                  "es": "¿Por qué es conocido el pan ciabatta?",
-                  "de": "Wofür ist Ciabattabrot bekannt?",
-                  "nl": "Waar staat ciabattabrood om bekend?"
-        },
-        options: [
-        {
-                  "en": "Having a very sweet taste",
-                  "es": "Tener un sabor muy dulce",
-                  "de": "Einen sehr süßen Geschmack zu haben",
-                  "nl": "Een zeer zoete smaak hebben"
-        },
-        {
-                  "en": "Being perfectly round",
-                  "es": "Ser perfectamente redondo",
-                  "de": "Perfekt rund zu sein",
-                  "nl": "Perfect rond zijn"
-        },
-        {
-                  "en": "Its open, airy texture with large holes",
-                  "es": "Su textura abierta y aireada con agujeros grandes",
-                  "de": "Seine offene, luftige Textur mit großen Löchern",
-                  "nl": "Zijn open, luchtige textuur met grote gaten"
-        },
-        {
-                  "en": "Being very dense",
-                  "es": "Ser muy denso",
-                  "de": "Sehr dicht zu sein",
-                  "nl": "Zeer dicht zijn"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Ciabatta is an Italian bread characterized by its rustic appearance and open crumb structure with irregular holes, created by high hydration dough.",
-                  "es": "La ciabatta es un pan italiano caracterizado por su apariencia rústica y estructura de miga abierta con agujeros irregulares, creado por masa de alta hidratación.",
-                  "de": "Ciabatta ist ein italienisches Brot, charakterisiert durch sein rustikales Aussehen und offene Krumenstruktur mit unregelmäßigen Löchern, erzeugt durch hochhydrierten Teig.",
-                  "nl": "Ciabatta is een Italiaans brood gekenmerkt door zijn rustieke verschijning en open kruimstructuur met onregelmatige gaten, gecreëerd door hoog gehydrateerd deeg."
-        }
-      },
-      {
-        question: {
-                  "en": "What is naan bread traditionally cooked in?",
-                  "es": "¿En qué se cocina tradicionalmente el pan naan?",
-                  "de": "Worin wird Naanbrot traditionell gekocht?",
-                  "nl": "Waarin wordt naanbrood traditioneel gekookt?"
-        },
-        options: [
-        {
-                  "en": "A refrigerator",
-                  "es": "Un refrigerador",
-                  "de": "Ein Kühlschrank",
-                  "nl": "Een koelkast"
-        },
-        {
-                  "en": "Cold water",
-                  "es": "Agua fría",
-                  "de": "Kaltes Wasser",
-                  "nl": "Koud water"
-        },
-        {
-                  "en": "A tandoor oven",
-                  "es": "Un horno tandoor",
-                  "de": "Ein Tandoor-Ofen",
-                  "nl": "Een tandooroven"
-        },
-        {
-                  "en": "A microwave",
-                  "es": "Un microondas",
-                  "de": "Eine Mikrowelle",
-                  "nl": "Een magnetron"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Naan is traditionally cooked in a tandoor, a cylindrical clay oven that reaches very high temperatures and gives the bread its characteristic texture and flavor.",
-                  "es": "El naan se cocina tradicionalmente en un tandoor, un horno cilíndrico de arcilla que alcanza temperaturas muy altas y le da al pan su textura y sabor característicos.",
-                  "de": "Naan wird traditionell in einem Tandoor gekocht, einem zylindrischen Lehmofen, der sehr hohe Temperaturen erreicht und dem Brot seine charakteristische Textur und Geschmack verleiht.",
-                  "nl": "Naan wordt traditioneel gekookt in een tandoor, een cilindrische kleioven die zeer hoge temperaturen bereikt en het brood zijn karakteristieke textuur en smaak geeft."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the crust of bread?",
-                  "es": "¿Qué es la corteza del pan?",
-                  "de": "Was ist die Kruste von Brot?",
-                  "nl": "Wat is de korst van brood?"
-        },
-        options: [
-        {
-                  "en": "The outer layer that forms during baking",
-                  "es": "La capa exterior que se forma durante el horneado",
-                  "de": "Die äußere Schicht, die beim Backen entsteht",
-                  "nl": "De buitenlaag die ontstaat tijdens het bakken"
-        },
-        {
-                  "en": "The yeast used in bread",
-                  "es": "La levadura usada en el pan",
-                  "de": "Die in Brot verwendete Hefe",
-                  "nl": "De gist gebruikt in brood"
-        },
-        {
-                  "en": "The flour before mixing",
-                  "es": "La harina antes de mezclar",
-                  "de": "Das Mehl vor dem Mischen",
-                  "nl": "Het meel voor het mengen"
-        },
-        {
-                  "en": "The center of the bread",
-                  "es": "El centro del pan",
-                  "de": "Die Mitte des Brotes",
-                  "nl": "Het midden van het brood"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The crust is the outer layer of bread that forms when the surface is exposed to high heat during baking, creating a firmer, often golden-brown exterior.",
-                  "es": "La corteza es la capa exterior del pan que se forma cuando la superficie se expone a calor alto durante el horneado, creando un exterior más firme, a menudo dorado-marrón.",
-                  "de": "Die Kruste ist die äußere Schicht des Brotes, die entsteht, wenn die Oberfläche beim Backen hoher Hitze ausgesetzt wird und ein festeres, oft goldbraunes Äußeres bildet.",
-                  "nl": "De korst is de buitenlaag van brood die ontstaat wanneer het oppervlak wordt blootgesteld aan hoge hitte tijdens het bakken, wat een steviger, vaak goudbruin buitenkant creëert."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the soft inside part of bread called?",
-                  "es": "¿Cómo se llama la parte suave interior del pan?",
-                  "de": "Wie heißt der weiche innere Teil des Brotes?",
-                  "nl": "Hoe heet het zachte binnenste deel van brood?"
-        },
-        options: [
-        {
-                  "en": "Crust",
-                  "es": "Corteza",
-                  "de": "Kruste",
-                  "nl": "Korst"
-        },
-        {
-                  "en": "Core",
-                  "es": "Núcleo",
-                  "de": "Kern",
-                  "nl": "Kern"
-        },
-        {
-                  "en": "Shell",
-                  "es": "Cáscara",
-                  "de": "Schale",
-                  "nl": "Schaal"
-        },
-        {
-                  "en": "Crumb",
-                  "es": "Miga",
-                  "de": "Krume",
-                  "nl": "Kruim"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The crumb refers to the soft, spongy interior of bread, which has a different texture and structure from the outer crust.",
-                  "es": "La miga se refiere al interior suave y esponjoso del pan, que tiene una textura y estructura diferente de la corteza exterior.",
-                  "de": "Die Krume bezieht sich auf das weiche, schwammige Innere des Brotes, das eine andere Textur und Struktur als die äußere Kruste hat.",
-                  "nl": "De kruim verwijst naar het zachte, sponsachtige binnenste van brood, dat een andere textuur en structuur heeft dan de buitenkorst."
-        }
-      },
-      {
-        question: {
-                  "en": "Which country is famous for croissants?",
-                  "es": "¿Qué país es famoso por los croissants?",
-                  "de": "Welches Land ist berühmt für Croissants?",
-                  "nl": "Welk land is beroemd om croissants?"
-        },
-        options: [
-        {
-                  "en": "Spain",
-                  "es": "España",
-                  "de": "Spanien",
-                  "nl": "Spanje"
-        },
-        {
-                  "en": "France",
-                  "es": "Francia",
-                  "de": "Frankreich",
-                  "nl": "Frankrijk"
-        },
-        {
-                  "en": "Italy",
-                  "es": "Italia",
-                  "de": "Italien",
-                  "nl": "Italië"
-        },
-        {
-                  "en": "England",
-                  "es": "Inglaterra",
-                  "de": "England",
-                  "nl": "Engeland"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "France is famous for croissants, though they were originally inspired by Austrian kipferl. French bakers perfected the layered, buttery pastry we know today.",
-                  "es": "Francia es famosa por los croissants, aunque originalmente se inspiraron en el kipferl austriaco. Los panaderos franceses perfeccionaron el pastel en capas y mantecoso que conocemos hoy.",
-                  "de": "Frankreich ist berühmt für Croissants, obwohl sie ursprünglich vom österreichischen Kipferl inspiriert wurden. Französische Bäcker perfektionierten das geschichtete, butterige Gebäck, das wir heute kennen.",
-                  "nl": "Frankrijk is beroemd om croissants, hoewel ze oorspronkelijk geïnspireerd waren door Oostenrijkse kipferl. Franse bakkers perfectioneerden het gelaagde, boterige gebak dat we vandaag kennen."
-        }
-      },
-      {
-        question: {
-                  "en": "What makes bread dough sticky?",
-                  "es": "¿Qué hace que la masa del pan sea pegajosa?",
-                  "de": "Was macht Brotteig klebrig?",
-                  "nl": "Wat maakt brooddeeg plakkerig?"
-        },
-        options: [
-        {
-                  "en": "Not enough yeast",
-                  "es": "No suficiente levadura",
-                  "de": "Nicht genug Hefe",
-                  "nl": "Niet genoeg gist"
-        },
-        {
-                  "en": "High water content",
-                  "es": "Alto contenido de agua",
-                  "de": "Hoher Wassergehalt",
-                  "nl": "Hoog watergehalte"
-        },
-        {
-                  "en": "Too much salt",
-                  "es": "Demasiada sal",
-                  "de": "Zu viel Salz",
-                  "nl": "Te veel zout"
-        },
-        {
-                  "en": "Cold temperature",
-                  "es": "Temperatura fría",
-                  "de": "Kalte Temperatur",
-                  "nl": "Koude temperatuur"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "High water content in bread dough makes it sticky because the flour hasn't fully absorbed all the moisture, creating a wet, adhesive texture.",
-                  "es": "El alto contenido de agua en la masa del pan la hace pegajosa porque la harina no ha absorbido completamente toda la humedad, creando una textura húmeda y adhesiva.",
-                  "de": "Hoher Wassergehalt im Brotteig macht ihn klebrig, weil das Mehl nicht die gesamte Feuchtigkeit vollständig absorbiert hat und eine feuchte, klebrige Textur entsteht.",
-                  "nl": "Hoog watergehalte in brooddeeg maakt het plakkerig omdat het meel niet al het vocht volledig heeft geabsorbeerd, wat een natte, kleefachtige textuur creëert."
-        }
-      },
-      {
-        question: {
-                  "en": "What happens if you add too much salt to bread dough?",
-                  "es": "¿Qué pasa si añades demasiada sal a la masa del pan?",
-                  "de": "Was passiert, wenn du zu viel Salz zum Brotteig hinzufügst?",
-                  "nl": "Wat gebeurt er als je te veel zout aan brooddeeg toevoegt?"
-        },
-        options: [
-        {
-                  "en": "It makes the bread sweeter",
-                  "es": "Hace que el pan sea más dulce",
-                  "de": "Es macht das Brot süßer",
-                  "nl": "Het maakt het brood zoeter"
-        },
-        {
-                  "en": "It slows down or kills the yeast",
-                  "es": "Reduce la velocidad o mata la levadura",
-                  "de": "Es verlangsamt oder tötet die Hefe",
-                  "nl": "Het vertraagt of doodt de gist"
-        },
-        {
-                  "en": "It makes the bread rise faster",
-                  "es": "Hace que el pan suba más rápido",
-                  "de": "Es lässt das Brot schneller aufgehen",
-                  "nl": "Het laat het brood sneller rijzen"
-        },
-        {
-                  "en": "It changes the color to green",
-                  "es": "Cambia el color a verde",
-                  "de": "Es ändert die Farbe zu grün",
-                  "nl": "Het verandert de kleur naar groen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Too much salt inhibits yeast activity by drawing moisture from yeast cells, which slows fermentation or can kill the yeast entirely.",
-                  "es": "Demasiada sal inhibe la actividad de la levadura al extraer humedad de las células de levadura, lo que reduce la fermentación o puede matar la levadura completamente.",
-                  "de": "Zu viel Salz hemmt die Hefeaktivität, indem es Feuchtigkeit aus den Hefezellen zieht, was die Fermentation verlangsamt oder die Hefe vollständig töten kann.",
-                  "nl": "Te veel zout remt gistactiviteit door vocht uit gistcellen te trekken, wat fermentatie vertraagt of de gist volledig kan doden."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the difference between baking powder and yeast in bread making?",
-                  "es": "¿Cuál es la diferencia entre polvo de hornear y levadura en la elaboración del pan?",
-                  "de": "Was ist der Unterschied zwischen Backpulver und Hefe beim Brotbacken?",
-                  "nl": "Wat is het verschil tussen bakpoeder en gist bij het maken van brood?"
-        },
-        options: [
-        {
-                  "en": "They are exactly the same thing",
-                  "es": "Son exactamente lo mismo",
-                  "de": "Sie sind genau dasselbe",
-                  "nl": "Ze zijn precies hetzelfde"
-        },
-        {
-                  "en": "Baking powder is stronger than yeast",
-                  "es": "El polvo de hornear es más fuerte que la levadura",
-                  "de": "Backpulver ist stärker als Hefe",
-                  "nl": "Bakpoeder is sterker dan gist"
-        },
-        {
-                  "en": "Yeast is alive and ferments, baking powder is a chemical leavener",
-                  "es": "La levadura está viva y fermenta, el polvo de hornear es un leudante químico",
-                  "de": "Hefe ist lebendig und fermentiert, Backpulver ist ein chemisches Triebmittel",
-                  "nl": "Gist is levend en fermenteert, bakpoeder is een chemisch rijsmiddel"
-        },
-        {
-                  "en": "Yeast only works in cold temperatures",
-                  "es": "La levadura solo funciona en temperaturas frías",
-                  "de": "Hefe funktioniert nur bei kalten Temperaturen",
-                  "nl": "Gist werkt alleen bij koude temperaturen"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Yeast is a living organism that ferments sugars to produce carbon dioxide gas, while baking powder is a chemical mixture that releases gas when activated by moisture and heat.",
-                  "es": "La levadura es un organismo vivo que fermenta azúcares para producir gas dióxido de carbono, mientras que el polvo de hornear es una mezcla química que libera gas cuando se activa por humedad y calor.",
-                  "de": "Hefe ist ein lebender Organismus, der Zucker fermentiert um Kohlendioxidgas zu produzieren, während Backpulver eine chemische Mischung ist, die Gas freisetzt, wenn sie durch Feuchtigkeit und Hitze aktiviert wird.",
-                  "nl": "Gist is een levend organisme dat suikers fermenteert om koolstofdioxide gas te produceren, terwijl bakpoeder een chemische mengeling is die gas vrijgeeft wanneer geactiveerd door vocht en warmte."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'amylase' and why do bakers add it to bread dough?",
-                  "es": "¿Qué es 'amilasa' y por qué los panaderos la añaden a la masa de pan?",
-                  "de": "Was ist 'Amylase' und warum fügen Bäcker es dem Brotteig hinzu?",
-                  "nl": "Wat is 'amylase' en waarom voegen bakkers het toe aan brooddeeg?"
-        },
-        options: [
-        {
-                  "en": "A preservative for bread",
-                  "es": "Un conservante para pan",
-                  "de": "Ein Konservierungsmittel für Brot",
-                  "nl": "Een conserveringsmiddel voor brood"
-        },
-        {
-                  "en": "A coloring agent",
-                  "es": "Un agente colorante",
-                  "de": "Ein Färbemittel",
-                  "nl": "Een kleurmiddel"
-        },
-        {
-                  "en": "Enzyme that breaks down starches into simple sugars, feeding yeast and improving fermentation. Naturally present in flour (especially malted flour), or added via diastatic malt powder. Benefits: stronger rise, better crust color (Maillard reaction), improved flavor, extended shelf life. TOO MUCH = gummy crumb, collapsed structure. Used in: bagels, commercial bread. Deactivated above 76°C during baking",
-                  "es": "Enzima que descompone almidones en azúcares simples, alimentando levadura y mejorando fermentación. Presente naturalmente en harina (especialmente harina malteada), o añadida vía polvo de malta diastática. Beneficios: fermentación más fuerte, mejor color de corteza (reacción Maillard), sabor mejorado, vida útil extendida. DEMASIADO = miga gomosa, estructura colapsada. Usado en: bagels, pan comercial. Desactivada sobre 76°C durante horneado",
-                  "de": "Enzym das Stärken in einfache Zucker zerlegt, füttert Hefe und verbessert Fermentation. Natürlich in Mehl vorhanden (besonders Malzmehl), oder hinzugefügt über diastatisches Malzpulver. Vorteile: stärkerer Aufgang, bessere Krustenfarbe (Maillard-Reaktion), verbesserter Geschmack, verlängerte Haltbarkeit. ZU VIEL = gummiartige Krume, kollabierte Struktur. Verwendet in: Bagels, kommerzielles Brot. Deaktiviert über 76°C während Backen",
-                  "nl": "Enzym dat zetmeel afbreekt tot eenvoudige suikers, voedt gist en verbetert fermentatie. Natuurlijk aanwezig in meel (vooral gemout meel), of toegevoegd via diastatisch moutpoeder. Voordelen: sterkere rijzing, betere korstkleur (Maillard reactie), verbeterde smaak, verlengde houdbaarheid. TE VEEL = rubberachtige kruim, ingestorte structuur. Gebruikt in: bagels, commercieel brood. Gedeactiveerd boven 76°C tijdens bakken"
-        },
-        {
-                  "en": "A type of yeast strain",
-                  "es": "Un tipo de cepa de levadura",
-                  "de": "Eine Art Hefestamm",
-                  "nl": "Een soort giststam"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Amylase is an enzyme that breaks down complex starches in flour into simple sugars (maltose, glucose), which yeast can consume for faster, more vigorous fermentation. It's naturally present in all flour, especially malted or sprouted grain flour. Bakers add extra amylase via diastatic malt powder to boost yeast activity, improve crust color through enhanced Maillard reactions, develop better flavor, and extend shelf life by keeping crumb soft longer. However, too much amylase creates an overly sticky, gummy crumb and can cause structural collapse. The enzyme is deactivated by heat above 76°C (169°F) during baking. Common in bagels and commercial bread production.",
-                  "es": "La amilasa es una enzima que descompone almidones complejos en harina en azúcares simples (maltosa, glucosa), que la levadura puede consumir para fermentación más rápida y vigorosa. Está presente naturalmente en toda harina, especialmente harina malteada o de grano germinado. Los panaderos añaden amilasa extra vía polvo de malta diastática para impulsar actividad de levadura, mejorar color de corteza a través de reacciones Maillard mejoradas, desarrollar mejor sabor, y extender vida útil manteniendo miga suave más tiempo. Sin embargo, demasiada amilasa crea una miga excesivamente pegajosa y gomosa y puede causar colapso estructural. La enzima se desactiva por calor sobre 76°C (169°F) durante el horneado. Común en bagels y producción de pan comercial.",
-                  "de": "Amylase ist ein Enzym das komplexe Stärken im Mehl in einfache Zucker (Maltose, Glucose) zerlegt, die Hefe für schnellere, kräftigere Fermentation konsumieren kann. Es ist natürlich in allem Mehl vorhanden, besonders Malz- oder gekeimtem Getreidemehl. Bäcker fügen extra Amylase über diastatisches Malzpulver hinzu um Hefeaktivität zu steigern, Krustenfarbe durch verbesserte Maillard-Reaktionen zu verbessern, besseren Geschmack zu entwickeln, und Haltbarkeit zu verlängern indem Krume länger weich bleibt. Jedoch erzeugt zu viel Amylase eine übermäßig klebrige, gummiartige Krume und kann strukturellen Kollaps verursachen. Das Enzym wird durch Hitze über 76°C (169°F) während Backen deaktiviert. Üblich in Bagels und kommerzieller Brotproduktion.",
-                  "nl": "Amylase is een enzym dat complexe zetmelen in meel afbreekt tot eenvoudige suikers (maltose, glucose), die gist kan consumeren voor snellere, krachtigere fermentatie. Het is natuurlijk aanwezig in alle meel, vooral gemout of ontkiemd graanmeel. Bakkers voegen extra amylase toe via diastatisch moutpoeder om gistactiviteit te stimuleren, korstkleur te verbeteren door verbeterde Maillard reacties, betere smaak te ontwikkelen, en houdbaarheid te verlengen door kruim langer zacht te houden. Echter, te veel amylase creëert een overmatig plakkerige, rubberachtige kruim en kan structurele instorting veroorzaken. Het enzym wordt gedeactiveerd door warmte boven 76°C (169°F) tijdens bakken. Gebruikelijk in bagels en commerciële broodproductie."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'extensibility' vs 'elasticity' in bread dough, and how do they affect final bread quality?",
-                  "es": "¿Qué es 'extensibilidad' vs 'elasticidad' en masa de pan, y cómo afectan la calidad final del pan?",
-                  "de": "Was ist 'Dehnbarkeit' vs 'Elastizität' in Brotteig, und wie beeinflussen sie die endgültige Brotqualität?",
-                  "nl": "Wat is 'rekbaarheid' vs 'elasticiteit' in brooddeeg, en hoe beïnvloeden ze de finale broodkwaliteit?"
-        },
-        options: [
-        {
-                  "en": "They are the same thing",
-                  "es": "Son lo mismo",
-                  "de": "Sie sind dasselbe",
-                  "nl": "Ze zijn hetzelfde"
-        },
-        {
-                  "en": "EXTENSIBILITY = dough stretches easily without tearing (relaxed gluten). Good for: pizza, flatbreads, laminated doughs. Achieved by: rest periods, weak flour, fat addition. ELASTICITY = dough snaps back when stretched (tight gluten). Good for: baguettes, crusty breads, strong rise. Achieved by: kneading, strong flour, fresh dough. BALANCE needed: too extensible = flat bread, too elastic = tears during shaping. Alveograph measures both",
-                  "es": "EXTENSIBILIDAD = masa se estira fácilmente sin rasgarse (gluten relajado). Bueno para: pizza, panes planos, masas laminadas. Logrado por: períodos de reposo, harina débil, adición de grasa. ELASTICIDAD = masa rebota cuando se estira (gluten tenso). Bueno para: baguettes, panes crujientes, fermentación fuerte. Logrado por: amasado, harina fuerte, masa fresca. BALANCE necesario: demasiado extensible = pan plano, demasiado elástico = rasga durante formado. Alvéografo mide ambos",
-                  "de": "DEHNBARKEIT = Teig dehnt sich leicht ohne zu reißen (entspanntes Gluten). Gut für: Pizza, Fladenbrote, laminierte Teige. Erreicht durch: Ruheperioden, schwaches Mehl, Fettzugabe. ELASTIZITÄT = Teig springt zurück wenn gedehnt (straffe Gluten). Gut für: Baguettes, knusprige Brote, starker Aufgang. Erreicht durch: Kneten, starkes Mehl, frischer Teig. BALANCE benötigt: zu dehnbar = flaches Brot, zu elastisch = reißt während Formen. Alveograph misst beide",
-                  "nl": "REKBAARHEID = deeg rekt gemakkelijk zonder te scheuren (ontspannen gluten). Goed voor: pizza, platbroden, gelamineerde degen. Bereikt door: rustperiodes, zwak meel, vettoevoeging. ELASTICITEIT = deeg veert terug wanneer gerekt (strak gluten). Goed voor: baguettes, knapperig brood, sterke rijzing. Bereikt door: kneden, sterk meel, vers deeg. BALANS nodig: te rekbaar = plat brood, te elastisch = scheurt tijdens vormen. Alveograaf meet beide"
-        },
-        {
-                  "en": "Only elasticity matters in bread",
-                  "es": "Solo la elasticidad importa en el pan",
-                  "de": "Nur Elastizität zählt bei Brot",
-                  "nl": "Alleen elasticiteit telt bij brood"
-        },
-        {
-                  "en": "These terms apply only to pastry",
-                  "es": "Estos términos aplican solo a pastelería",
-                  "de": "Diese Begriffe gelten nur für Gebäck",
-                  "nl": "Deze termen gelden alleen voor gebak"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Extensibility and elasticity are opposing but complementary properties of bread dough. EXTENSIBILITY means the dough stretches easily and stays stretched (relaxed gluten networks)—ideal for pizza, flatbreads, and laminated doughs where you need the dough to spread thin without snapping back. It's promoted by rest periods (bench rest), weaker flour (lower protein), and fat addition. ELASTICITY means the dough resists stretching and snaps back (tight, developed gluten networks)—essential for baguettes, crusty breads, and strong oven spring. It's developed through kneading, strong bread flour (high protein), and working fresh dough. Bakers need BALANCE: overly extensible dough spreads flat and won't hold shape; overly elastic dough tears during shaping and won't stretch. Professional labs use an alveograph to measure both properties and determine optimal dough for specific bread types.",
-                  "es": "Extensibilidad y elasticidad son propiedades opuestas pero complementarias de masa de pan. EXTENSIBILIDAD significa que masa se estira fácilmente y permanece estirada (redes de gluten relajadas)—ideal para pizza, panes planos, y masas laminadas donde necesitas que masa se extienda delgada sin rebotar. Se promueve por períodos de reposo (reposo de banco), harina más débil (menor proteína), y adición de grasa. ELASTICIDAD significa que masa resiste estiramiento y rebota (redes de gluten tensas y desarrolladas)—esencial para baguettes, panes crujientes, y salto de horno fuerte. Se desarrolla a través de amasado, harina de pan fuerte (alta proteína), y trabajar masa fresca. Los panaderos necesitan BALANCE: masa excesivamente extensible se extiende plana y no mantiene forma; masa excesivamente elástica rasga durante formado y no estira. Laboratorios profesionales usan alvéografo para medir ambas propiedades y determinar masa óptima para tipos específicos de pan.",
-                  "de": "Dehnbarkeit und Elastizität sind gegensätzliche aber komplementäre Eigenschaften von Brotteig. DEHNBARKEIT bedeutet Teig dehnt sich leicht und bleibt gedehnt (entspannte Glutennetzwerke)—ideal für Pizza, Fladenbrote, und laminierte Teige wo du Teig dünn ausbreiten musst ohne zurückzuschnappen. Es wird gefördert durch Ruheperioden (Tischruhe), schwächeres Mehl (niedrigeres Protein), und Fettzugabe. ELASTIZITÄT bedeutet Teig widersteht Dehnung und schnappt zurück (straffe, entwickelte Glutennetzwerke)—essentiell für Baguettes, knusprige Brote, und starken Ofentrieb. Es wird entwickelt durch Kneten, starkes Brotmehl (hohes Protein), und Arbeiten mit frischem Teig. Bäcker brauchen BALANCE: übermäßig dehnbarer Teig breitet sich flach aus und hält Form nicht; übermäßig elastischer Teig reißt während Formen und dehnt nicht. Professionelle Labore verwenden Alveograph um beide Eigenschaften zu messen und optimalen Teig für spezifische Brottypen zu bestimmen.",
-                  "nl": "Rekbaarheid en elasticiteit zijn tegengestelde maar complementaire eigenschappen van brooddeeg. REKBAARHEID betekent deeg rekt gemakkelijk en blijft gerekt (ontspannen glutennetwerken)—ideaal voor pizza, platbroden, en gelamineerde degen waar je deeg dun moet uitspreiden zonder terug te veren. Het wordt bevorderd door rustperiodes (werkbankrust), zwakker meel (lager eiwit), en vettoevoeging. ELASTICITEIT betekent deeg weerstaat rekken en veert terug (strakke, ontwikkelde glutennetwerken)—essentieel voor baguettes, knapperig brood, en sterke ovensprong. Het wordt ontwikkeld door kneden, sterk broodmeel (hoog eiwit), en werken met vers deeg. Bakkers hebben BALANS nodig: overmatig rekbaar deeg spreidt plat uit en houdt vorm niet; overmatig elastisch deeg scheurt tijdens vormen en rekt niet. Professionele labs gebruiken alveograaf om beide eigenschappen te meten en optimaal deeg te bepalen voor specifieke broodtypes."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'acetic acid' vs 'lactic acid' in sourdough, and how does temperature control affect their ratio?",
-                  "es": "¿Qué es 'ácido acético' vs 'ácido láctico' en masa madre, y cómo afecta el control de temperatura su proporción?",
-                  "de": "Was ist 'Essigsäure' vs 'Milchsäure' in Sauerteig, und wie beeinflusst Temperaturkontrolle ihr Verhältnis?",
-                  "nl": "Wat is 'azijnzuur' vs 'melkzuur' in zuurdesem, en hoe beïnvloedt temperatuurcontrole hun verhouding?"
-        },
-        options: [
-        {
-                  "en": "These are artificial additives",
-                  "es": "Estos son aditivos artificiales",
-                  "de": "Dies sind künstliche Zusatzstoffe",
-                  "nl": "Dit zijn kunstmatige toevoegingen"
-        },
-        {
-                  "en": "Both are organic acids from bacteria in sourdough starter. ACETIC ACID = sharp, vinegary tang. Created by: warmer temps (28-32°C), stiffer starter (50-60% hydration), longer fermentation. LACTIC ACID = mild, creamy tang (yogurt-like). Created by: cooler temps (18-24°C), wetter starter (100%+ hydration), shorter fermentation. Bakers manipulate temp/hydration to control flavor profile: San Francisco sourdough = more acetic, mild sourdough = more lactic",
-                  "es": "Ambos son ácidos orgánicos de bacterias en masa madre. ÁCIDO ACÉTICO = acidez aguda, avinagrada. Creado por: temperaturas más cálidas (28-32°C), masa madre más rígida (50-60% hidratación), fermentación más larga. ÁCIDO LÁCTICO = acidez suave, cremosa (como yogur). Creado por: temperaturas más frías (18-24°C), masa madre más húmeda (100%+ hidratación), fermentación más corta. Panaderos manipulan temp/hidratación para controlar perfil de sabor: masa madre San Francisco = más acético, masa madre suave = más láctico",
-                  "de": "Beide sind organische Säuren von Bakterien in Sauerteigstarter. ESSIGSÄURE = scharfes, essigartiges Aroma. Erzeugt durch: wärmere Temperaturen (28-32°C), steiferer Starter (50-60% Hydratation), längere Fermentation. MILCHSÄURE = mildes, cremiges Aroma (joghurtartig). Erzeugt durch: kühlere Temperaturen (18-24°C), nasserer Starter (100%+ Hydratation), kürzere Fermentation. Bäcker manipulieren Temp/Hydratation um Geschmacksprofil zu kontrollieren: San Francisco Sauerteig = mehr Essigsäure, milder Sauerteig = mehr Milchsäure",
-                  "nl": "Beide zijn organische zuren van bacteriën in zuurdesem starter. AZIJNZUUR = scherpe, azijnachtige smaak. Gecreëerd door: warmere temps (28-32°C), stijvere starter (50-60% hydratatie), langere fermentatie. MELKZUUR = milde, romige smaak (yoghurtachtig). Gecreëerd door: koelere temps (18-24°C), nattere starter (100%+ hydratatie), kortere fermentatie. Bakkers manipuleren temp/hydratatie om smaakprofiel te controleren: San Francisco zuurdesem = meer azijnzuur, milde zuurdesem = meer melkzuur"
-        },
-        {
-                  "en": "Temperature has no effect on these acids",
-                  "es": "Temperatura no tiene efecto en estos ácidos",
-                  "de": "Temperatur hat keinen Effekt auf diese Säuren",
-                  "nl": "Temperatuur heeft geen effect op deze zuren"
-        },
-        {
-                  "en": "Only acetic acid is found in sourdough",
-                  "es": "Solo ácido acético se encuentra en masa madre",
-                  "de": "Nur Essigsäure wird in Sauerteig gefunden",
-                  "nl": "Alleen azijnzuur wordt gevonden in zuurdesem"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Acetic and lactic acids are both organic acids produced by lactobacilli bacteria in sourdough starter, but they create distinctly different flavors. ACETIC ACID produces a sharp, vinegary, assertive tang—it's favored by warmer fermentation temperatures (28-32°C/82-90°F), stiffer starter consistency (50-60% hydration), and longer fermentation times. LACTIC ACID produces a mild, creamy, yogurt-like tang—it's favored by cooler temperatures (18-24°C/64-75°F), wetter starter (100%+ hydration), and shorter fermentation. Professional bakers manipulate these variables to control flavor profiles: classic San Francisco sourdough has more acetic acid for pronounced tang, while mild European sourdoughs emphasize lactic acid for subtler flavor. The same starter can produce different acid profiles based on how it's maintained and used.",
-                  "es": "Los ácidos acético y láctico son ambos ácidos orgánicos producidos por bacterias lactobacilli en masa madre, pero crean sabores distintivamente diferentes. ÁCIDO ACÉTICO produce acidez aguda, avinagrada, asertiva—es favorecido por temperaturas de fermentación más cálidas (28-32°C/82-90°F), consistencia de masa madre más rígida (50-60% hidratación), y tiempos de fermentación más largos. ÁCIDO LÁCTICO produce acidez suave, cremosa, como yogur—es favorecido por temperaturas más frías (18-24°C/64-75°F), masa madre más húmeda (100%+ hidratación), y fermentación más corta. Panaderos profesionales manipulan estas variables para controlar perfiles de sabor: masa madre clásica de San Francisco tiene más ácido acético para acidez pronunciada, mientras que masas madres europeas suaves enfatizan ácido láctico para sabor más sutil. La misma masa madre puede producir diferentes perfiles de ácido basado en cómo se mantiene y usa.",
-                  "de": "Essigsäure und Milchsäure sind beide organische Säuren produziert von Laktobazillen-Bakterien in Sauerteigstarter, aber sie erzeugen deutlich verschiedene Aromen. ESSIGSÄURE produziert scharfes, essigartiges, durchsetzungsfähiges Aroma—es wird begünstigt durch wärmere Fermentationstemperaturen (28-32°C/82-90°F), steifere Starter-Konsistenz (50-60% Hydratation), und längere Fermentationszeiten. MILCHSÄURE produziert mildes, cremiges, joghurtartiges Aroma—es wird begünstigt durch kühlere Temperaturen (18-24°C/64-75°F), nasseren Starter (100%+ Hydratation), und kürzere Fermentation. Professionelle Bäcker manipulieren diese Variablen um Geschmacksprofile zu kontrollieren: klassischer San Francisco Sauerteig hat mehr Essigsäure für ausgeprägtes Aroma, während milde europäische Sauerteige Milchsäure für subtileres Aroma betonen. Derselbe Starter kann verschiedene Säureprofile produzieren basierend darauf wie er gepflegt und verwendet wird.",
-                  "nl": "Azijnzuur en melkzuur zijn beide organische zuren geproduceerd door lactobacilli bacteriën in zuurdesem starter, maar ze creëren duidelijk verschillende smaken. AZIJNZUUR produceert scherpe, azijnachtige, assertieve smaak—het wordt begunstigd door warmere fermentatie temperaturen (28-32°C/82-90°F), stijvere starter consistentie (50-60% hydratatie), en langere fermentatietijden. MELKZUUR produceert milde, romige, yoghurtachtige smaak—het wordt begunstigd door koelere temperaturen (18-24°C/64-75°F), nattere starter (100%+ hydratatie), en kortere fermentatie. Professionele bakkers manipuleren deze variabelen om smaakprofielen te controleren: klassiek San Francisco zuurdesem heeft meer azijnzuur voor uitgesproken smaak, terwijl milde Europese zuurdesems melkzuur benadrukken voor subtielere smaak. Dezelfde starter kan verschillende zuurprofielen produceren gebaseerd op hoe het wordt onderhouden en gebruikt."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'protease' enzyme in bread baking and how can excess protease activity ruin bread structure?",
-                  "es": "¿Qué es la enzima 'proteasa' en panadería y cómo puede el exceso de actividad proteasa arruinar la estructura del pan?",
-                  "de": "Was ist 'Protease' Enzym beim Brotbacken und wie kann übermäßige Protease-Aktivität die Brotstruktur ruinieren?",
-                  "nl": "Wat is 'protease' enzym bij brood bakken en hoe kan overmatige protease activiteit de broodstructuur vernietigen?"
-        },
-        options: [
-        {
-                  "en": "An enzyme that helps yeast multiply",
-                  "es": "Una enzima que ayuda a multiplicar levadura",
-                  "de": "Ein Enzym das Hefe vermehren hilft",
-                  "nl": "Een enzym dat gist helpt vermenigvuldigen"
-        },
-        {
-                  "en": "Protease only affects bread color",
-                  "es": "Proteasa solo afecta color de pan",
-                  "de": "Protease beeinflusst nur Brotfarbe",
-                  "nl": "Protease beïnvloedt alleen broodkleur"
-        },
-        {
-                  "en": "A vitamin added to enrich bread",
-                  "es": "Una vitamina añadida para enriquecer pan",
-                  "de": "Ein Vitamin hinzugefügt um Brot anzureichern",
-                  "nl": "Een vitamine toegevoegd om brood te verrijken"
-        },
-        {
-                  "en": "Enzyme that breaks down gluten proteins. NORMAL LEVELS: improve dough extensibility, easier shaping. EXCESS PROTEASE: destroys gluten network entirely → sticky, slack dough that won't hold shape, flat bread, gummy crumb. Sources: overripe sourdough starter, sprouted grain flour, certain additives. SIGNS: dough becomes soupy during fermentation, tears easily, collapses. FIX: use fresh starter, avoid over-fermentation, blend sprouted flour with regular flour (max 20% sprouted)",
-                  "es": "Enzima que descompone proteínas de gluten. NIVELES NORMALES: mejoran extensibilidad de masa, formado más fácil. EXCESO PROTEASA: destruye red de gluten completamente → masa pegajosa y floja que no mantiene forma, pan plano, miga gomosa. Fuentes: masa madre demasiado madura, harina de grano germinado, ciertos aditivos. SEÑALES: masa se vuelve líquida durante fermentación, rasga fácilmente, colapsa. SOLUCIÓN: usar masa madre fresca, evitar sobre-fermentación, mezclar harina germinada con harina regular (máx 20% germinada)",
-                  "de": "Enzym das Glutenproteine abbaut. NORMALE LEVELS: verbessern Teigdehnbarkeit, einfacheres Formen. ÜBERSCHÜSSIGE PROTEASE: zerstört Glutennetzwerk vollständig → klebriger, schlaffer Teig der Form nicht hält, flaches Brot, gummiartige Krume. Quellen: überreifer Sauerteigstarter, gekeimtes Getreidemehl, bestimmte Zusatzstoffe. ZEICHEN: Teig wird während Fermentation suppig, reißt leicht, kollabiert. LÖSUNG: frischen Starter verwenden, Über-Fermentation vermeiden, gekeimtes Mehl mit normalem Mehl mischen (max 20% gekeimt)",
-                  "nl": "Enzym dat gluteneiwitten afbreekt. NORMALE NIVEAUS: verbeteren deegrekkbaarheid, gemakkelijker vormen. OVERMATIGE PROTEASE: vernietigt glutennetwerk volledig → plakkerig, slap deeg dat vorm niet houdt, plat brood, rubberachtige kruim. Bronnen: overrijpe zuurdesem starter, ontkiemd graanmeel, bepaalde toevoegingen. TEKENEN: deeg wordt sopperig tijdens fermentatie, scheurt gemakkelijk, stort in. OPLOSSING: verse starter gebruiken, over-fermentatie vermijden, ontkiemd meel mengen met normaal meel (max 20% ontkiemd)"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Protease is an enzyme that breaks down (hydrolyzes) gluten proteins into smaller peptides and amino acids. At NORMAL LEVELS, protease activity is beneficial—it improves dough extensibility by relaxing the gluten network, making shaping easier and creating better texture. However, EXCESS PROTEASE activity is disastrous: it destroys the gluten network so completely that the dough becomes sticky, slack, and soupy, unable to hold any shape. The resulting bread is flat with a dense, gummy crumb. Excess protease comes from: overripe/over-acidic sourdough starter, high percentages of sprouted grain flour (which is naturally high in enzymes), or certain dough conditioners. WARNING SIGNS: dough becomes increasingly liquid during fermentation, tears at the slightest touch, and collapses during shaping. SOLUTIONS: use fresh, properly-maintained starter; avoid over-fermentation; when using sprouted flour, blend it with regular flour (maximum 20% sprouted) to dilute enzyme activity.",
-                  "es": "La proteasa es una enzima que descompone (hidroliza) proteínas de gluten en péptidos y aminoácidos más pequeños. A NIVELES NORMALES, la actividad de proteasa es beneficiosa—mejora extensibilidad de masa relajando la red de gluten, haciendo formado más fácil y creando mejor textura. Sin embargo, actividad de EXCESO DE PROTEASA es desastrosa: destruye la red de gluten tan completamente que la masa se vuelve pegajosa, floja y líquida, incapaz de mantener cualquier forma. El pan resultante es plano con miga densa y gomosa. El exceso de proteasa proviene de: masa madre demasiado madura/sobre-ácida, altos porcentajes de harina de grano germinado (que es naturalmente alta en enzimas), o ciertos acondicionadores de masa. SEÑALES DE ADVERTENCIA: masa se vuelve cada vez más líquida durante fermentación, rasga al menor toque, y colapsa durante formado. SOLUCIONES: usar masa madre fresca y bien mantenida; evitar sobre-fermentación; cuando use harina germinada, mezclarla con harina regular (máximo 20% germinada) para diluir actividad enzimática.",
-                  "de": "Protease ist ein Enzym das Glutenproteine in kleinere Peptide und Aminosäuren abbaut (hydrolysiert). Bei NORMALEN LEVELS ist Protease-Aktivität vorteilhaft—sie verbessert Teigdehnbarkeit durch Entspannen des Glutennetzwerks, macht Formen einfacher und erzeugt bessere Textur. Jedoch ist ÜBERSCHÜSSIGE PROTEASE-Aktivität katastrophal: sie zerstört das Glutennetzwerk so vollständig dass der Teig klebrig, schlaff und suppig wird, unfähig irgendeine Form zu halten. Das resultierende Brot ist flach mit dichter, gummiartiger Krume. Überschüssige Protease kommt von: überreifem/über-saurem Sauerteigstarter, hohen Prozentsätzen gekeimten Getreidemehls (das natürlich hoch in Enzymen ist), oder bestimmten Teigverbesserern. WARNZEICHEN: Teig wird während Fermentation zunehmend flüssig, reißt bei geringster Berührung, und kollabiert während Formens. LÖSUNGEN: frischen, richtig gepflegten Starter verwenden; Über-Fermentation vermeiden; bei Verwendung gekeimten Mehls, es mit normalem Mehl mischen (maximal 20% gekeimt) um Enzymaktivität zu verdünnen.",
-                  "nl": "Protease is een enzym dat gluteneiwitten afbreekt (hydrolyseert) tot kleinere peptiden en aminozuren. Bij NORMALE NIVEAUS is protease activiteit gunstig—het verbetert deegrekkbaarheid door het glutennetwerk te ontspannen, maakt vormen gemakkelijker en creëert betere textuur. Echter, OVERMATIGE PROTEASE activiteit is rampzalig: het vernietigt het glutennetwerk zo volledig dat het deeg plakkerig, slap en sopperig wordt, niet in staat enige vorm te houden. Het resulterende brood is plat met dichte, rubberachtige kruim. Overmatige protease komt van: overrijpe/over-zure zuurdesem starter, hoge percentages ontkiemd graanmeel (dat natuurlijk hoog is in enzymen), of bepaalde deegverbeteraars. WAARSCHUWINGSTEKENS: deeg wordt steeds vloeiender tijdens fermentatie, scheurt bij de geringste aanraking, en stort in tijdens vormen. OPLOSSINGEN: verse, goed onderhouden starter gebruiken; over-fermentatie vermijden; bij gebruik ontkiemd meel, meng het met normaal meel (maximum 20% ontkiemd) om enzymactiviteit te verdunnen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'autolyse' and why do professional bakers use this technique before adding salt and yeast?",
-                  "es": "¿Qué es 'autólisis' y por qué los panaderos profesionales usan esta técnica antes de añadir sal y levadura?",
-                  "de": "Was ist 'Autolyse' und warum verwenden professionelle Bäcker diese Technik vor Zugabe von Salz und Hefe?",
-                  "nl": "Wat is 'autolyse' en waarom gebruiken professionele bakkers deze techniek voor het toevoegen van zout en gist?"
-        },
-        options: [
-        {
-                  "en": "A kneading technique from Italy",
-                  "es": "Una técnica de amasado de Italia",
-                  "de": "Eine Knettechnik aus Italien",
-                  "nl": "Een kneedtechniek uit Italië"
-        },
-        {
-                  "en": "Adding yeast directly to flour",
-                  "es": "Añadir levadura directamente a harina",
-                  "de": "Hefe direkt zu Mehl hinzufügen",
-                  "nl": "Gist direct aan meel toevoegen"
-        },
-        {
-                  "en": "A type of sourdough starter",
-                  "es": "Un tipo de masa madre",
-                  "de": "Eine Art Sauerteigstarter",
-                  "nl": "Een soort zuurdesem starter"
-        },
-        {
-                  "en": "Rest period where flour + water mix without salt/yeast (20-60 min). Benefits: enzymes break down starches/proteins → better gluten development with LESS kneading, improved extensibility, enhanced flavor (enzymes release sugars/amino acids), more open crumb, better water absorption. Salt inhibits enzyme activity (added after), yeast prevented from consuming sugars prematurely. Widely used in artisan breads, ciabatta, baguettes. Developed by French professor Raymond Calvel",
-                  "es": "Período de reposo donde mezcla de harina + agua sin sal/levadura (20-60 min). Beneficios: enzimas descomponen almidones/proteínas → mejor desarrollo de gluten con MENOS amasado, extensibilidad mejorada, sabor mejorado (enzimas liberan azúcares/aminoácidos), miga más abierta, mejor absorción de agua. La sal inhibe actividad enzimática (añadida después), levadura prevenida de consumir azúcares prematuramente. Ampliamente usado en panes artesanales, ciabatta, baguettes. Desarrollado por profesor francés Raymond Calvel",
-                  "de": "Ruheperiode wo Mehl + Wasser Mischung ohne Salz/Hefe (20-60 Min). Vorteile: Enzyme bauen Stärken/Proteine ab → bessere Glutenentwicklung mit WENIGER Kneten, verbesserte Dehnbarkeit, verbesserter Geschmack (Enzyme setzen Zucker/Aminosäuren frei), offenere Krume, bessere Wasserabsorption. Salz hemmt Enzymaktivität (später hinzugefügt), Hefe verhindert vorzeitiges Konsumieren von Zucker. Weit verbreitet in handwerklichen Broten, Ciabatta, Baguettes. Entwickelt von französischem Professor Raymond Calvel",
-                  "nl": "Rustperiode waar meel + water mengsel zonder zout/gist (20-60 min). Voordelen: enzymen breken zetmelen/eiwitten af → betere glutenontwikkeling met MINDER kneden, verbeterde rekbaarheid, verbeterde smaak (enzymen geven suikers/aminozuren vrij), openere kruim, betere waterabsorptie. Zout remt enzymactiviteit (later toegevoegd), gist voorkomen van voorbarig consumeren van suikers. Veel gebruikt in ambachtelijk brood, ciabatta, baguettes. Ontwikkeld door Franse professor Raymond Calvel"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Autolyse is a crucial rest period (20-60 minutes) where flour and water are mixed together WITHOUT salt or yeast, allowing natural enzymes in the flour to begin breaking down starches into sugars and proteins into amino acids. This pre-fermentation rest delivers multiple benefits: significantly better gluten development with LESS mechanical kneading (the enzymes do much of the work), improved dough extensibility (easier shaping), enhanced flavor complexity (released sugars and amino acids contribute to taste and Maillard reactions), more open crumb structure, and better water absorption by flour proteins. Salt is deliberately excluded during autolyse because it inhibits enzyme activity; yeast is also excluded to prevent premature sugar consumption. The technique was developed by French baking professor Raymond Calvel and is now standard practice for artisan breads, especially ciabatta and baguettes where open crumb and minimal handling are desired.",
-                  "es": "La autólisis es un período de reposo crucial (20-60 minutos) donde harina y agua se mezclan juntos SIN sal o levadura, permitiendo que enzimas naturales en la harina comiencen a descomponer almidones en azúcares y proteínas en aminoácidos. Este reposo pre-fermentación entrega múltiples beneficios: desarrollo de gluten significativamente mejor con MENOS amasado mecánico (las enzimas hacen mucho del trabajo), extensibilidad de masa mejorada (formado más fácil), complejidad de sabor mejorada (azúcares y aminoácidos liberados contribuyen a sabor y reacciones Maillard), estructura de miga más abierta, y mejor absorción de agua por proteínas de harina. La sal se excluye deliberadamente durante autólisis porque inhibe actividad enzimática; levadura también se excluye para prevenir consumo prematuro de azúcar. La técnica fue desarrollada por profesor de panadería francés Raymond Calvel y ahora es práctica estándar para panes artesanales, especialmente ciabatta y baguettes donde miga abierta y manipulación mínima son deseadas.",
-                  "de": "Autolyse ist eine entscheidende Ruheperiode (20-60 Minuten) wo Mehl und Wasser zusammen OHNE Salz oder Hefe gemischt werden, was natürlichen Enzymen im Mehl erlaubt zu beginnen Stärken in Zucker und Proteine in Aminosäuren abzubauen. Diese Prä-Fermentation Ruhe liefert mehrere Vorteile: signifikant bessere Glutenentwicklung mit WENIGER mechanischem Kneten (die Enzyme machen viel der Arbeit), verbesserte Teigdehnbarkeit (einfacheres Formen), verbesserte Geschmackskomplexität (freigesetzte Zucker und Aminosäuren tragen zu Geschmack und Maillard-Reaktionen bei), offenere Krumenstruktur, und bessere Wasserabsorption durch Mehlproteine. Salz wird absichtlich während Autolyse ausgeschlossen weil es Enzymaktivität hemmt; Hefe wird auch ausgeschlossen um vorzeitige Zuckerkonsumierung zu verhindern. Die Technik wurde entwickelt von französischem Backprofessor Raymond Calvel und ist jetzt Standardpraxis für handwerkliche Brote, besonders Ciabatta und Baguettes wo offene Krume und minimale Handhabung gewünscht sind.",
-                  "nl": "Autolyse is een cruciale rustperiode (20-60 minuten) waar meel en water samen worden gemengd ZONDER zout of gist, waardoor natuurlijke enzymen in het meel kunnen beginnen zetmelen af te breken tot suikers en eiwitten tot aminozuren. Deze pre-fermentatie rust levert meerdere voordelen: significant betere glutenontwikkeling met MINDER mechanisch kneden (de enzymen doen veel van het werk), verbeterde deegrekkbaarheid (gemakkelijker vormen), verbeterde smaakcomplexiteit (vrijgegeven suikers en aminozuren dragen bij aan smaak en Maillard reacties), openere kruimstructuur, en betere waterabsorptie door meeleiwitten. Zout wordt opzettelijk uitgesloten tijdens autolyse omdat het enzymactiviteit remt; gist wordt ook uitgesloten om voorbarige suikerconsumptie te voorkomen. De techniek werd ontwikkeld door Franse bakprofessor Raymond Calvel en is nu standaardpraktijk voor ambachtelijk brood, vooral ciabatta en baguettes waar open kruim en minimale behandeling gewenst zijn."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'tangzhong' (water roux) method and how does it create exceptionally soft, fluffy bread that stays fresh longer?",
-                  "es": "¿Qué es el método 'tangzhong' (roux de agua) y cómo crea pan excepcionalmente suave y esponjoso que se mantiene fresco por más tiempo?",
-                  "de": "Was ist 'Tangzhong' (Wasser-Roux) Methode und wie erzeugt sie außergewöhnlich weiches, fluffiges Brot das länger frisch bleibt?",
-                  "nl": "Wat is 'tangzhong' (water roux) methode en hoe creëert het uitzonderlijk zacht, luchtig brood dat langer vers blijft?"
-        },
-        options: [
-        {
-                  "en": "A sourdough starter from China",
-                  "es": "Una masa madre de China",
-                  "de": "Ein Sauerteigstarter aus China",
-                  "nl": "Een zuurdesem starter uit China"
-        },
-        {
-                  "en": "Asian technique: cook 5-10% of flour with 5x its weight in liquid (water/milk) at 65°C to gelatinize starches into thick paste. Cool, then add to main dough. RESULT: starches hold MORE water → softer, fluffier crumb, delayed staling (moisture retained 3-5 days), higher rise, pillowy texture. Used in: Japanese milk bread (Hokkaido), brioche-style buns, soft dinner rolls. Science: gelatinized starch absorbs/retains water better than raw flour",
-                  "es": "Técnica asiática: cocinar 5-10% de harina con 5x su peso en líquido (agua/leche) a 65°C para gelatinizar almidones en pasta espesa. Enfriar, luego añadir a masa principal. RESULTADO: almidones retienen MÁS agua → miga más suave y esponjosa, envejecimiento retrasado (humedad retenida 3-5 días), fermentación más alta, textura almohadillada. Usado en: pan de leche japonés (Hokkaido), bollos estilo brioche, panecillos suaves. Ciencia: almidón gelatinizado absorbe/retiene agua mejor que harina cruda",
-                  "de": "Asiatische Technik: 5-10% Mehl mit 5x seinem Gewicht in Flüssigkeit (Wasser/Milch) bei 65°C kochen um Stärken in dicke Paste zu gelatinieren. Abkühlen, dann zu Hauptteig hinzufügen. ERGEBNIS: Stärken halten MEHR Wasser → weichere, fluffigere Krume, verzögertes Altern (Feuchtigkeit gehalten 3-5 Tage), höherer Aufgang, kissenweiche Textur. Verwendet in: japanisches Milchbrot (Hokkaido), Brioche-Stil Brötchen, weiche Dinner-Brötchen. Wissenschaft: gelatinierte Stärke absorbiert/hält Wasser besser als rohes Mehl",
-                  "nl": "Aziatische techniek: kook 5-10% meel met 5x zijn gewicht in vloeistof (water/melk) bij 65°C om zetmelen te gelatineren tot dikke pasta. Afkoelen, dan toevoegen aan hoofddeeg. RESULTAAT: zetmelen houden MEER water vast → zachtere, luchtigere kruim, vertraagd oud worden (vocht behouden 3-5 dagen), hogere rijzing, kussenzachte textuur. Gebruikt in: Japans melkbrood (Hokkaido), brioche-stijl broodjes, zachte dinerbroodjes. Wetenschap: gegelatineerd zetmeel absorbeert/behoudt water beter dan rauw meel"
-        },
-        {
-                  "en": "A way to color bread golden",
-                  "es": "Una forma de colorear pan dorado",
-                  "de": "Eine Methode Brot golden zu färben",
-                  "nl": "Een manier om brood goudkleurig te maken"
-        },
-        {
-                  "en": "A French lamination technique",
-                  "es": "Una técnica francesa de laminación",
-                  "de": "Eine französische Laminationstechnik",
-                  "nl": "Een Franse laminatietechniek"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Tangzhong (also called water roux or yu-dane in Japanese) is an Asian bread-making technique where you cook 5-10% of the recipe's flour with 5 times its weight in liquid (water or milk) at 65°C (149°F) until it forms a thick, pudding-like paste. This cooking process gelatinizes the starches, transforming their structure. After cooling, the tangzhong is incorporated into the main dough. The RESULTS are remarkable: the pre-gelatinized starches can absorb and retain significantly MORE water than raw flour, creating an exceptionally soft, fluffy, pillowy crumb; bread stays fresh and moist for 3-5 days (vs 1-2 days for regular bread) because moisture is locked into the starch structure; higher rise due to increased hydration; almost cake-like texture. This method is famous in Japanese Hokkaido milk bread, Asian-style soft buns, and brioche-like dinner rolls. The science: gelatinized starch's molecular structure holds water more effectively than raw starch granules.",
-                  "es": "Tangzhong (también llamado roux de agua o yu-dane en japonés) es una técnica asiática de elaboración de pan donde cocinas 5-10% de la harina de la receta con 5 veces su peso en líquido (agua o leche) a 65°C (149°F) hasta que forma una pasta espesa como pudín. Este proceso de cocción gelatiniza los almidones, transformando su estructura. Después de enfriar, el tangzhong se incorpora a la masa principal. Los RESULTADOS son notables: los almidones pre-gelatinizados pueden absorber y retener significativamente MÁS agua que harina cruda, creando una miga excepcionalmente suave, esponjosa, almohadillada; el pan se mantiene fresco y húmedo durante 3-5 días (vs 1-2 días para pan regular) porque la humedad está encerrada en la estructura de almidón; fermentación más alta debido a mayor hidratación; textura casi como pastel. Este método es famoso en pan de leche Hokkaido japonés, bollos suaves estilo asiático, y panecillos estilo brioche. La ciencia: la estructura molecular del almidón gelatinizado retiene agua más efectivamente que gránulos de almidón crudo.",
-                  "de": "Tangzhong (auch Wasser-Roux oder yu-dane auf Japanisch genannt) ist eine asiatische Brotbacktechnik wo du 5-10% des Rezept-Mehls mit 5-fach seinem Gewicht in Flüssigkeit (Wasser oder Milch) bei 65°C (149°F) kochst bis es eine dicke, puddingähnliche Paste bildet. Dieser Kochprozess gelatiniert die Stärken, transformiert ihre Struktur. Nach Abkühlen wird das Tangzhong in den Hauptteig eingearbeitet. Die ERGEBNISSE sind bemerkenswert: die prä-gelatinierten Stärken können signifikant MEHR Wasser absorbieren und halten als rohes Mehl, erzeugen eine außergewöhnlich weiche, fluffige, kissenweiche Krume; Brot bleibt 3-5 Tage frisch und feucht (vs 1-2 Tage für normales Brot) weil Feuchtigkeit in Stärkestruktur eingeschlossen ist; höherer Aufgang durch erhöhte Hydratation; fast kuchenartige Textur. Diese Methode ist berühmt in japanischem Hokkaido Milchbrot, asiatisch-stil weichen Brötchen, und Brioche-ähnlichen Dinner-Brötchen. Die Wissenschaft: gelatinierte Stärke's molekulare Struktur hält Wasser effektiver als rohe Stärkegranulate.",
-                  "nl": "Tangzhong (ook wel water roux of yu-dane in het Japans genoemd) is een Aziatische broodbaktechniek waar je 5-10% van het recept meel kookt met 5 keer zijn gewicht in vloeistof (water of melk) bij 65°C (149°F) totdat het een dikke, puddingachtige pasta vormt. Dit kookproces gelatineert de zetmelen, transformeert hun structuur. Na afkoeling wordt de tangzhong opgenomen in het hoofddeeg. De RESULTATEN zijn opmerkelijk: de pre-gegelatineerde zetmelen kunnen significant MEER water absorberen en vasthouden dan rauw meel, creëren een uitzonderlijk zachte, luchtige, kussenzachte kruim; brood blijft 3-5 dagen vers en vochtig (vs 1-2 dagen voor normaal brood) omdat vocht opgesloten is in de zetmeelstructuur; hogere rijzing door verhoogde hydratatie; bijna cakeachtige textuur. Deze methode is beroemd in Japans Hokkaido melkbrood, Aziatische-stijl zachte broodjes, en brioche-achtige dinerbroodjes. De wetenschap: gegelatineerde zetmeel's moleculaire structuur houdt water effectiever vast dan rauwe zetmeelkorrels."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'osmotolerant yeast' and why is it essential for sweet doughs like panettone and brioche?",
-                  "es": "¿Qué es 'levadura osmotolerante' y por qué es esencial para masas dulces como panettone y brioche?",
-                  "de": "Was ist 'osmotolerante Hefe' und warum ist sie essentiell für süße Teige wie Panettone und Brioche?",
-                  "nl": "Wat is 'osmotolerante gist' en waarom is het essentieel voor zoete degen zoals panettone en brioche?"
-        },
-        options: [
-        {
-                  "en": "A type of sourdough culture",
-                  "es": "Un tipo de cultivo de masa madre",
-                  "de": "Eine Art Sauerteigkultur",
-                  "nl": "Een soort zuurdesem cultuur"
-        },
-        {
-                  "en": "Yeast that works only in cold temperatures",
-                  "es": "Levadura que funciona solo en temperaturas frías",
-                  "de": "Hefe die nur bei kalten Temperaturen funktioniert",
-                  "nl": "Gist die alleen bij koude temperaturen werkt"
-        },
-        {
-                  "en": "Special yeast strain that survives HIGH sugar/fat environments (>10% sugar). Regular yeast: sugar draws water from cells via osmosis → yeast dies or weakens severely (no rise). OSMOTOLERANT yeast: cell walls resist osmotic stress, continue fermenting at 15-30% sugar levels. Essential for: panettone, brioche, challah, cinnamon rolls, stollen. Brands: SAF Gold label, Fermipan Brown. Regular yeast FAILS in sweet doughs → dense bricks. Always use fresh osmotolerant yeast for enriched doughs",
-                  "es": "Cepa de levadura especial que sobrevive ambientes ALTOS en azúcar/grasa (>10% azúcar). Levadura regular: azúcar extrae agua de células vía ósmosis → levadura muere o se debilita severamente (sin fermentación). Levadura OSMOTOLERANTE: paredes celulares resisten estrés osmótico, continúan fermentando a niveles de azúcar 15-30%. Esencial para: panettone, brioche, challah, rollos de canela, stollen. Marcas: SAF etiqueta dorada, Fermipan marrón. Levadura regular FALLA en masas dulces → ladrillos densos. Siempre usar levadura osmotolerante fresca para masas enriquecidas",
-                  "de": "Spezielle Hefestamm der HOHE Zucker/Fett-Umgebungen überlebt (>10% Zucker). Normale Hefe: Zucker zieht Wasser aus Zellen via Osmose → Hefe stirbt oder schwächt stark (kein Aufgang). OSMOTOLERANTE Hefe: Zellwände widerstehen osmotischem Stress, fermentieren weiter bei 15-30% Zuckerniveaus. Essentiell für: Panettone, Brioche, Challah, Zimtschnecken, Stollen. Marken: SAF Gold Label, Fermipan Braun. Normale Hefe VERSAGT in süßen Teigen → dichte Ziegel. Immer frische osmotolerante Hefe für angereicherte Teige verwenden",
-                  "nl": "Speciale giststam die HOGE suiker/vet omgevingen overleeft (>10% suiker). Normale gist: suiker trekt water uit cellen via osmose → gist sterft of verzwakt ernstig (geen rijzing). OSMOTOLERANTE gist: celwanden weerstaan osmotische stress, blijven fermenteren bij 15-30% suikerniveaus. Essentieel voor: panettone, brioche, challah, kaneelbroodjes, stollen. Merken: SAF goud label, Fermipan bruin. Normale gist FAALT in zoete degen → dichte stenen. Gebruik altijd verse osmotolerante gist voor verrijkte degen"
-        },
-        {
-                  "en": "Regular baker's yeast is the same thing",
-                  "es": "Levadura de panadero regular es lo mismo",
-                  "de": "Normale Bäckerhefe ist dasselbe",
-                  "nl": "Normale bakkersgist is hetzelfde"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Osmotolerant yeast is a specialized strain of Saccharomyces cerevisiae bred to survive and thrive in HIGH sugar and fat environments (>10% sugar by flour weight). In regular yeast, high sugar concentrations create osmotic stress—sugar draws water OUT of yeast cells through osmosis, causing the cells to shrivel, weaken dramatically, or die completely, resulting in little to no fermentation (dense, brick-like bread). OSMOTOLERANT yeast has reinforced cell walls and modified cellular mechanisms that resist this osmotic pressure, allowing it to continue fermenting vigorously even at 15-30% sugar levels. It's ESSENTIAL for enriched sweet doughs like Italian panettone (20%+ sugar), French brioche (high butter/eggs), Jewish challah, cinnamon rolls, German stollen, and sweet buns. Commercial brands include SAF Gold label (instant osmotolerant) and Fermipan Brown. Using regular yeast in these recipes virtually guarantees failure—dense, heavy bricks instead of fluffy, risen bread. Always use FRESH osmotolerant yeast for enriched doughs and proof it properly despite slower fermentation times.",
-                  "es": "La levadura osmotolerante es una cepa especializada de Saccharomyces cerevisiae criada para sobrevivir y prosperar en ambientes ALTOS en azúcar y grasa (>10% azúcar por peso de harina). En levadura regular, altas concentraciones de azúcar crean estrés osmótico—el azúcar extrae agua FUERA de células de levadura a través de ósmosis, causando que células se encojan, debiliten dramáticamente, o mueran completamente, resultando en poca o ninguna fermentación (pan denso como ladrillo). Levadura OSMOTOLERANTE tiene paredes celulares reforzadas y mecanismos celulares modificados que resisten esta presión osmótica, permitiéndole continuar fermentando vigorosamente incluso a niveles de azúcar 15-30%. Es ESENCIAL para masas dulces enriquecidas como panettone italiano (20%+ azúcar), brioche francés (alta mantequilla/huevos), challah judío, rollos de canela, stollen alemán, y bollos dulces. Marcas comerciales incluyen SAF etiqueta dorada (osmotolerante instantánea) y Fermipan marrón. Usar levadura regular en estas recetas virtualmente garantiza fracaso—ladrillos densos y pesados en lugar de pan esponjoso y fermentado. Siempre usar levadura osmotolerante FRESCA para masas enriquecidas y leudarla adecuadamente a pesar de tiempos de fermentación más lentos.",
-                  "de": "Osmotolerante Hefe ist ein spezialisierter Stamm von Saccharomyces cerevisiae gezüchtet um in HOHEN Zucker- und Fett-Umgebungen zu überleben und gedeihen (>10% Zucker nach Mehlgewicht). In normaler Hefe erzeugen hohe Zuckerkonzentrationen osmotischen Stress—Zucker zieht Wasser AUS Hefezellen durch Osmose, verursacht dass Zellen schrumpfen, dramatisch schwächen, oder vollständig sterben, resultierend in wenig bis keine Fermentation (dichtes, ziegelartiges Brot). OSMOTOLERANTE Hefe hat verstärkte Zellwände und modifizierte zelluläre Mechanismen die diesem osmotischen Druck widerstehen, erlaubt ihr kräftig weiter zu fermentieren selbst bei 15-30% Zuckerniveaus. Sie ist ESSENTIELL für angereicherte süße Teige wie italienisches Panettone (20%+ Zucker), französisches Brioche (hohe Butter/Eier), jüdisches Challah, Zimtschnecken, deutsches Stollen, und süße Brötchen. Kommerzielle Marken beinhalten SAF Gold Label (instant osmotolerant) und Fermipan Braun. Normale Hefe in diesen Rezepten zu verwenden garantiert virtuell Misserfolg—dichte, schwere Ziegel statt fluffiges, aufgegangenes Brot. Immer FRISCHE osmotolerante Hefe für angereicherte Teige verwenden und richtig gären lassen trotz langsamerer Fermentationszeiten.",
-                  "nl": "Osmotolerante gist is een gespecialiseerde stam van Saccharomyces cerevisiae gefokt om te overleven en gedijen in HOGE suiker en vet omgevingen (>10% suiker per meelgewicht). In normale gist creëren hoge suikerconcentraties osmotische stress—suiker trekt water UIT gistcellen door osmose, veroorzaakt dat cellen verschrompelen, dramatisch verzwakken, of volledig sterven, resulterend in weinig tot geen fermentatie (dicht, steenachtig brood). OSMOTOLERANTE gist heeft versterkte celwanden en gemodificeerde cellulaire mechanismen die deze osmotische druk weerstaan, staat het toe krachtig te blijven fermenteren zelfs bij 15-30% suikerniveaus. Het is ESSENTIEEL voor verrijkte zoete degen zoals Italiaans panettone (20%+ suiker), Frans brioche (hoge boter/eieren), Joods challah, kaneelbroodjes, Duits stollen, en zoete broodjes. Commerciële merken omvatten SAF goud label (instant osmotolerant) en Fermipan bruin. Normale gist gebruiken in deze recepten garandeert vrijwel mislukking—dichte, zware stenen in plaats van luchtig, gerezen brood. Gebruik altijd VERSE osmotolerante gist voor verrijkte degen en rijs het goed ondanks langzamere fermentatietijden."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'pre-ferment' (preferment) and how does poolish differ from biga in bread making?",
-                  "es": "¿Qué es 'pre-fermento' (preferment) y cómo difiere poolish de biga en panadería?",
-                  "de": "Was ist 'Vorteig' (Preferment) und wie unterscheidet sich Poolish von Biga beim Brotbacken?",
-                  "nl": "Wat is 'voor-ferment' (preferment) en hoe verschilt poolish van biga bij brood bakken?"
-        },
-        options: [
-        {
-                  "en": "Pre-ferment = portion of flour+water+yeast fermented 12-16h before mixing main dough. Benefits: complex flavor, better texture, extended shelf life, stronger dough. POOLISH (French): 100% hydration (equal flour:water), very wet, pourable batter. Creates: open crumb, mild flavor, extensible dough. Used in: baguettes, ciabatta. BIGA (Italian): 50-60% hydration, stiff dough. Creates: stronger gluten, sweet-nutty flavor, chewy texture. Used in: pizza, rustic Italian breads. Both improve bread but different results",
-                  "es": "Pre-fermento = porción de harina+agua+levadura fermentado 12-16h antes de mezclar masa principal. Beneficios: sabor complejo, mejor textura, vida útil extendida, masa más fuerte. POOLISH (francés): 100% hidratación (igual harina:agua), muy húmedo, batido vertible. Crea: miga abierta, sabor suave, masa extensible. Usado en: baguettes, ciabatta. BIGA (italiano): 50-60% hidratación, masa rígida. Crea: gluten más fuerte, sabor dulce-nuez, textura masticable. Usado en: pizza, panes italianos rústicos. Ambos mejoran pan pero diferentes resultados",
-                  "de": "Vorteig = Portion Mehl+Wasser+Hefe 12-16h vor Mischen des Hauptteigs fermentiert. Vorteile: komplexer Geschmack, bessere Textur, verlängerte Haltbarkeit, stärkerer Teig. POOLISH (französisch): 100% Hydratation (gleich Mehl:Wasser), sehr nass, gießbarer Teig. Erzeugt: offene Krume, milder Geschmack, dehnbarer Teig. Verwendet in: Baguettes, Ciabatta. BIGA (italienisch): 50-60% Hydratation, steifer Teig. Erzeugt: stärkeres Gluten, süß-nussiger Geschmack, zähe Textur. Verwendet in: Pizza, rustikale italienische Brote. Beide verbessern Brot aber unterschiedliche Ergebnisse",
-                  "nl": "Voor-ferment = portie meel+water+gist 12-16u gefermenteerd voor mengen hoofddeeg. Voordelen: complexe smaak, betere textuur, verlengde houdbaarheid, sterker deeg. POOLISH (Frans): 100% hydratatie (gelijk meel:water), zeer nat, gietbaar beslag. Creëert: open kruim, milde smaak, rekbaar deeg. Gebruikt in: baguettes, ciabatta. BIGA (Italiaans): 50-60% hydratatie, stijf deeg. Creëert: sterker gluten, zoet-nootachtige smaak, kauwbare textuur. Gebruikt in: pizza, rustiek Italiaans brood. Beide verbeteren brood maar verschillende resultaten"
-        },
-        {
-                  "en": "These terms only apply to cake baking",
-                  "es": "Estos términos solo aplican a hornear pasteles",
-                  "de": "Diese Begriffe gelten nur für Kuchenbacken",
-                  "nl": "Deze termen gelden alleen voor taart bakken"
-        },
-        {
-                  "en": "Poolish and biga are identical techniques",
-                  "es": "Poolish y biga son técnicas idénticas",
-                  "de": "Poolish und Biga sind identische Techniken",
-                  "nl": "Poolish en biga zijn identieke technieken"
-        },
-        {
-                  "en": "Pre-ferment is the same as sourdough starter",
-                  "es": "Pre-fermento es lo mismo que masa madre",
-                  "de": "Vorteig ist dasselbe wie Sauerteigstarter",
-                  "nl": "Voor-ferment is hetzelfde als zuurdesem starter"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "A pre-ferment (or preferment) is a mixture of flour, water, and a small amount of yeast that ferments for 12-16 hours before being incorporated into the main dough. This extended fermentation develops complex flavors, improves texture, extends shelf life, and strengthens the dough structure. The two main types are POOLISH and BIGA, which differ significantly: POOLISH (French origin) has 100% hydration—equal weights of flour and water—creating a very wet, pourable batter consistency. It produces bread with open, irregular crumb, mild complex flavor, and highly extensible dough. Common in French baguettes and Italian ciabatta. BIGA (Italian origin) has 50-60% hydration, making it a stiff, firm dough. It develops stronger gluten networks, creates sweet-nutty flavor notes, and produces chewier texture. Widely used in pizza dough and rustic Italian breads. Both improve bread quality over straight dough methods, but bakers choose between them based on desired final characteristics: poolish for open crumb and extensibility, biga for strength and chew.",
-                  "es": "Un pre-fermento (o preferment) es una mezcla de harina, agua, y una pequeña cantidad de levadura que fermenta durante 12-16 horas antes de incorporarse a la masa principal. Esta fermentación extendida desarrolla sabores complejos, mejora textura, extiende vida útil, y fortalece estructura de masa. Los dos tipos principales son POOLISH y BIGA, que difieren significativamente: POOLISH (origen francés) tiene 100% hidratación—pesos iguales de harina y agua—creando una consistencia de batido muy húmedo y vertible. Produce pan con miga abierta e irregular, sabor complejo suave, y masa altamente extensible. Común en baguettes francesas y ciabatta italiana. BIGA (origen italiano) tiene 50-60% hidratación, haciéndola una masa rígida y firme. Desarrolla redes de gluten más fuertes, crea notas de sabor dulce-nuez, y produce textura más masticable. Ampliamente usado en masa de pizza y panes italianos rústicos. Ambos mejoran calidad de pan sobre métodos de masa directa, pero panaderos eligen entre ellos basado en características finales deseadas: poolish para miga abierta y extensibilidad, biga para fuerza y masticabilidad.",
-                  "de": "Ein Vorteig (oder Preferment) ist eine Mischung aus Mehl, Wasser und einer kleinen Menge Hefe die 12-16 Stunden fermentiert bevor sie in den Hauptteig eingearbeitet wird. Diese verlängerte Fermentation entwickelt komplexe Aromen, verbessert Textur, verlängert Haltbarkeit, und stärkt Teigstruktur. Die zwei Haupttypen sind POOLISH und BIGA, die sich signifikant unterscheiden: POOLISH (französischer Ursprung) hat 100% Hydratation—gleiche Gewichte Mehl und Wasser—erzeugt eine sehr nasse, gießbare Teigkonsistenz. Es produziert Brot mit offener, unregelmäßiger Krume, mildem komplexem Geschmack, und hochgradig dehnbarem Teig. Üblich in französischen Baguettes und italienischer Ciabatta. BIGA (italienischer Ursprung) hat 50-60% Hydratation, macht es zu einem steifen, festen Teig. Es entwickelt stärkere Glutennetzwerke, erzeugt süß-nussige Geschmacksnoten, und produziert zähere Textur. Weit verbreitet in Pizzateig und rustikalen italienischen Broten. Beide verbessern Brotqualität über direkte Teigmethoden, aber Bäcker wählen zwischen ihnen basierend auf gewünschten Endcharakteristiken: Poolish für offene Krume und Dehnbarkeit, Biga für Stärke und Zähigkeit.",
-                  "nl": "Een voor-ferment (of preferment) is een mengsel van meel, water, en een kleine hoeveelheid gist dat 12-16 uur fermenteert voordat het wordt opgenomen in het hoofddeeg. Deze verlengde fermentatie ontwikkelt complexe smaken, verbetert textuur, verlengt houdbaarheid, en versterkt de deegstructuur. De twee hoofdtypen zijn POOLISH en BIGA, die significant verschillen: POOLISH (Franse oorsprong) heeft 100% hydratatie—gelijke gewichten meel en water—creërend een zeer natte, gietbare beslag consistentie. Het produceert brood met open, onregelmatige kruim, milde complexe smaak, en zeer rekbaar deeg. Gebruikelijk in Franse baguettes en Italiaanse ciabatta. BIGA (Italiaanse oorsprong) heeft 50-60% hydratatie, maakt het een stijf, stevig deeg. Het ontwikkelt sterkere glutennetwerken, creëert zoet-nootachtige smaaknoten, en produceert kauwbaardere textuur. Veel gebruikt in pizzadeeg en rustiek Italiaans brood. Beide verbeteren broodkwaliteit boven directe deegmethoden, maar bakkers kiezen tussen hen gebaseerd op gewenste eindkarakteristieken: poolish voor open kruim en rekbaarheid, biga voor kracht en kauwbaarheid."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'lamination' in bread baking and how does it create the layered structure in croissants and puff pastry?",
-                  "es": "¿Qué es 'laminación' en panadería y cómo crea la estructura en capas en croissants y hojaldre?",
-                  "de": "Was ist 'Laminierung' beim Brotbacken und wie erzeugt sie die geschichtete Struktur in Croissants und Blätterteig?",
-                  "nl": "Wat is 'lamineren' bij brood bakken en hoe creëert het de gelaagde structuur in croissants en bladerdeeg?"
-        },
-        options: [
-        {
-                  "en": "Coating bread with butter after baking",
-                  "es": "Cubrir pan con mantequilla después de hornear",
-                  "de": "Brot nach Backen mit Butter bestreichen",
-                  "nl": "Brood na bakken met boter bestrijken"
-        },
-        {
-                  "en": "Technique of folding COLD butter into dough through series of folds (turns). Process: encase butter block in dough → roll flat → fold in thirds (single turn) or fourths (double turn) → chill → repeat 4-6 times. Creates: hundreds of alternating dough/butter layers. During baking: butter melts, water evaporates → steam pushes layers apart → flaky, honeycomb structure. Requires: COLD butter (pliable but not soft), strict temperature control, precise folding. Used in: croissants, Danish pastries, puff pastry. Skill-intensive",
-                  "es": "Técnica de doblar mantequilla FRÍA en masa a través de serie de dobleces (vueltas). Proceso: encerrar bloque de mantequilla en masa → aplanar → doblar en tercios (vuelta simple) o cuartos (vuelta doble) → enfriar → repetir 4-6 veces. Crea: cientos de capas alternas de masa/mantequilla. Durante horneado: mantequilla se derrite, agua evapora → vapor empuja capas aparte → estructura hojaldrada de panal. Requiere: mantequilla FRÍA (plegable pero no suave), control estricto de temperatura, doblado preciso. Usado en: croissants, pasteles daneses, hojaldre. Requiere habilidad",
-                  "de": "Technik des Faltens KALTER Butter in Teig durch Serie von Falten (Touren). Prozess: Butterblock in Teig einschließen → flach rollen → in Drittel (einfache Tour) oder Viertel (doppelte Tour) falten → kühlen → 4-6 Mal wiederholen. Erzeugt: Hunderte abwechselnde Teig/Butter-Schichten. Während Backen: Butter schmilzt, Wasser verdampft → Dampf drückt Schichten auseinander → blättrige, wabenartige Struktur. Erfordert: KALTE Butter (biegsam aber nicht weich), strikte Temperaturkontrolle, präzises Falten. Verwendet in: Croissants, dänisches Gebäck, Blätterteig. Erfordert Geschick",
-                  "nl": "Techniek van vouwen KOUDE boter in deeg door serie van vouwen (toeren). Proces: boterblok insluiten in deeg → plat rollen → vouwen in drieën (enkele toer) of vieren (dubbele toer) → koelen → 4-6 keer herhalen. Creëert: honderden afwisselende deeg/boter lagen. Tijdens bakken: boter smelt, water verdampt → stoom duwt lagen uit elkaar → bladderige, honingraatstructuur. Vereist: KOUDE boter (buigzaam maar niet zacht), strikte temperatuurcontrole, nauwkeurig vouwen. Gebruikt in: croissants, Deens gebak, bladerdeeg. Vereist vaardigheid"
-        },
-        {
-                  "en": "A method to slice bread thinly",
-                  "es": "Un método para cortar pan finamente",
-                  "de": "Eine Methode Brot dünn zu schneiden",
-                  "nl": "Een methode om brood dun te snijden"
-        },
-        {
-                  "en": "Adding layers of frosting to finished bread",
-                  "es": "Añadir capas de glaseado a pan terminado",
-                  "de": "Schichten von Zuckerguss zu fertigem Brot hinzufügen",
-                  "nl": "Lagen glazuur toevoegen aan afgebakken brood"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Lamination is a sophisticated technique where COLD butter is repeatedly folded into dough through a series of precise turns (folds) to create hundreds of thin, alternating layers of dough and butter. The PROCESS: encase a block of cold, pliable butter inside dough, roll it flat into a rectangle, fold it in thirds (single turn/letter fold) or fourths (double turn/book fold), refrigerate to firm up the butter, then repeat this rolling-folding-chilling cycle 4-6 times. Each turn exponentially multiplies the layers (e.g., 6 single turns = 729 layers). During BAKING, the butter melts and its water content evaporates, creating steam that forcefully pushes the dough layers apart, resulting in a flaky, airy, honeycomb structure. Success REQUIRES: butter and dough at similar consistency (cold but pliable—butter too warm = greasy mess, too cold = breaks through dough), strict temperature control (work in cool environment, chill between turns), and precise, even rolling/folding. Used in croissants, Danish pastries, and puff pastry (pâte feuilletée). Highly skill-intensive technique.",
-                  "es": "La laminación es una técnica sofisticada donde mantequilla FRÍA se dobla repetidamente en masa a través de una serie de vueltas precisas (dobleces) para crear cientos de capas delgadas y alternas de masa y mantequilla. El PROCESO: encerrar un bloque de mantequilla fría y plegable dentro de masa, aplanarla en rectángulo, doblarla en tercios (vuelta simple/doblez de carta) o cuartos (vuelta doble/doblez de libro), refrigerar para endurecer mantequilla, luego repetir este ciclo de rodar-doblar-enfriar 4-6 veces. Cada vuelta multiplica exponencialmente las capas (ej., 6 vueltas simples = 729 capas). Durante HORNEADO, la mantequilla se derrite y su contenido de agua evapora, creando vapor que empuja con fuerza las capas de masa aparte, resultando en estructura hojaldrada, aireada, de panal. El éxito REQUIERE: mantequilla y masa en consistencia similar (fría pero plegable—mantequilla muy caliente = desastre grasoso, muy fría = rompe masa), control estricto de temperatura (trabajar en ambiente frío, enfriar entre vueltas), y rodado/doblado preciso y uniforme. Usado en croissants, pasteles daneses, y hojaldre (pâte feuilletée). Técnica altamente requiere habilidad.",
-                  "de": "Laminierung ist eine anspruchsvolle Technik wo KALTE Butter wiederholt in Teig durch eine Serie präziser Touren (Falten) gefaltet wird um Hunderte dünne, abwechselnde Schichten von Teig und Butter zu erzeugen. Der PROZESS: einen Block kalter, biegsamer Butter in Teig einschließen, flach in Rechteck rollen, in Drittel (einfache Tour/Brieffalte) oder Viertel (doppelte Tour/Buchfalte) falten, kühlen um Butter zu festigen, dann diesen Roll-Falt-Kühl-Zyklus 4-6 Mal wiederholen. Jede Tour multipliziert Schichten exponentiell (z.B., 6 einfache Touren = 729 Schichten). Während BACKEN schmilzt Butter und ihr Wassergehalt verdampft, erzeugt Dampf der die Teigschichten kraftvoll auseinander drückt, resultierend in blättriger, luftiger, wabenartiger Struktur. Erfolg ERFORDERT: Butter und Teig bei ähnlicher Konsistenz (kalt aber biegsam—Butter zu warm = fettiges Durcheinander, zu kalt = bricht durch Teig), strikte Temperaturkontrolle (in kühler Umgebung arbeiten, zwischen Touren kühlen), und präzises, gleichmäßiges Rollen/Falten. Verwendet in Croissants, dänischem Gebäck, und Blätterteig (pâte feuilletée). Hochgradig geschicklichkeitsintensive Technik.",
-                  "nl": "Lamineren is een geavanceerde techniek waar KOUDE boter herhaaldelijk in deeg wordt gevouwen door een serie precieze toeren (vouwen) om honderden dunne, afwisselende lagen deeg en boter te creëren. Het PROCES: een blok koude, buigzame boter insluiten in deeg, plat rollen tot rechthoek, vouwen in drieën (enkele toer/briefvouw) of vieren (dubbele toer/boekvouw), koelen om boter te verstevigen, dan deze rol-vouw-koel cyclus 4-6 keer herhalen. Elke toer vermenigvuldigt lagen exponentieel (bijv., 6 enkele toeren = 729 lagen). Tijdens BAKKEN smelt de boter en verdampt het watergehalte, creërend stoom die de deeglagen krachtig uit elkaar duwt, resulterend in bladderige, luchtige, honingraatstructuur. Succes VEREIST: boter en deeg bij vergelijkbare consistentie (koud maar buigzaam—boter te warm = vettige puinhoop, te koud = breekt door deeg), strikte temperatuurcontrole (werk in koele omgeving, koel tussen toeren), en nauwkeurig, gelijkmatig rollen/vouwen. Gebruikt in croissants, Deens gebak, en bladerdeeg (pâte feuilletée). Zeer vaardigheidsintensieve techniek."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'crumb structure' and how do bakers manipulate hydration, kneading, and fermentation to achieve desired crumb?",
-                  "es": "¿Qué es 'estructura de miga' y cómo manipulan los panaderos hidratación, amasado y fermentación para lograr miga deseada?",
-                  "de": "Was ist 'Krumenstruktur' und wie manipulieren Bäcker Hydratation, Kneten und Fermentation um gewünschte Krume zu erreichen?",
-                  "nl": "Wat is 'kruimstructuur' en hoe manipuleren bakkers hydratatie, kneden en fermentatie om gewenste kruim te bereiken?"
-        },
-        options: [
-        {
-                  "en": "All bread has identical crumb structure",
-                  "es": "Todo pan tiene estructura de miga idéntica",
-                  "de": "Alles Brot hat identische Krumenstruktur",
-                  "nl": "Alle brood heeft identieke kruimstructuur"
-        },
-        {
-                  "en": "Crumb structure only refers to the crust",
-                  "es": "Estructura de miga solo se refiere a la corteza",
-                  "de": "Krumenstruktur bezieht sich nur auf die Kruste",
-                  "nl": "Kruimstructuur verwijst alleen naar de korst"
-        },
-        {
-                  "en": "Crumb structure cannot be controlled",
-                  "es": "Estructura de miga no puede controlarse",
-                  "de": "Krumenstruktur kann nicht kontrolliert werden",
-                  "nl": "Kruimstructuur kan niet worden gecontroleerd"
-        },
-        {
-                  "en": "Internal texture of bread: arrangement/size of air pockets (alveoli). OPEN CRUMB = large, irregular holes (ciabatta, artisan sourdough): HIGH hydration (75-85%), GENTLE handling, LONG fermentation, NO degassing, stretch-and-fold instead of kneading. TIGHT/EVEN CRUMB = small, uniform holes (sandwich bread, brioche): LOWER hydration (60-70%), THOROUGH kneading, SHORTER fermentation, degassing/punching down. Crumb affected by: flour protein %, shaping technique, oven steam, scoring. Professional bakers precisely control all variables for target crumb",
-                  "es": "Textura interna de pan: arreglo/tamaño de bolsas de aire (alvéolos). MIGA ABIERTA = agujeros grandes e irregulares (ciabatta, masa madre artesanal): ALTA hidratación (75-85%), manejo SUAVE, fermentación LARGA, SIN desgasificación, estirar-y-doblar en lugar de amasar. MIGA CERRADA/UNIFORME = agujeros pequeños y uniformes (pan de molde, brioche): hidratación MÁS BAJA (60-70%), amasado COMPLETO, fermentación MÁS CORTA, desgasificación/golpeado. Miga afectada por: % proteína de harina, técnica de formado, vapor de horno, cortes. Panaderos profesionales controlan precisamente todas variables para miga objetivo",
-                  "de": "Innere Textur von Brot: Anordnung/Größe von Lufttaschen (Alveolen). OFFENE KRUME = große, unregelmäßige Löcher (Ciabatta, handwerklicher Sauerteig): HOHE Hydratation (75-85%), SANFTE Handhabung, LANGE Fermentation, KEINE Entgasung, Strecken-und-Falten statt Kneten. DICHTE/GLEICHMÄSSIGE KRUME = kleine, einheitliche Löcher (Sandwichbrot, Brioche): NIEDRIGERE Hydratation (60-70%), GRÜNDLICHES Kneten, KÜRZERE Fermentation, Entgasung/Niederschlagen. Krume beeinflusst durch: Mehlprotein %, Formtechnik, Ofendampf, Einschneiden. Professionelle Bäcker kontrollieren präzise alle Variablen für Zielkrume",
-                  "nl": "Interne textuur van brood: rangschikking/grootte van luchtholtes (alveoli). OPEN KRUIM = grote, onregelmatige gaten (ciabatta, ambachtelijk zuurdesem): HOGE hydratatie (75-85%), ZACHTE behandeling, LANGE fermentatie, GEEN ontgassing, rek-en-vouw in plaats van kneden. DICHTE/GELIJKMATIGE KRUIM = kleine, uniforme gaten (sandwichbrood, brioche): LAGERE hydratatie (60-70%), GRONDIG kneden, KORTERE fermentatie, ontgassing/neerslaan. Kruim beïnvloed door: meeleiwit %, vormtechniek, ovenstoom, insnijden. Professionele bakkers controleren nauwkeurig alle variabelen voor doelkruim"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Crumb structure refers to the internal texture of bread—specifically the arrangement, size, and distribution of air pockets (called alveoli) within the loaf. Bakers deliberately manipulate multiple variables to achieve different crumb types. OPEN CRUMB (large, irregular holes like in ciabatta or artisan sourdough) requires: HIGH hydration (75-85% water), GENTLE handling to preserve gas bubbles, LONG fermentation for complex flavor and strong gluten network, NO degassing/punching down, and stretch-and-fold technique instead of vigorous kneading. TIGHT/EVEN CRUMB (small, uniform holes like sandwich bread or brioche) requires: LOWER hydration (60-70%), THOROUGH kneading to develop tight gluten structure, SHORTER fermentation, and degassing/punching down to redistribute yeast and eliminate large bubbles. Additional factors affecting crumb: flour protein percentage (higher = stronger structure), shaping technique (tension affects bubble distribution), oven steam (supports oven spring), and scoring pattern (directs expansion). Professional bakers precisely control ALL these variables to achieve their target crumb structure for each bread type.",
-                  "es": "La estructura de miga se refiere a la textura interna del pan—específicamente el arreglo, tamaño y distribución de bolsas de aire (llamadas alvéolos) dentro de la hogaza. Los panaderos manipulan deliberadamente múltiples variables para lograr diferentes tipos de miga. MIGA ABIERTA (agujeros grandes e irregulares como en ciabatta o masa madre artesanal) requiere: ALTA hidratación (75-85% agua), manejo SUAVE para preservar burbujas de gas, fermentación LARGA para sabor complejo y red de gluten fuerte, SIN desgasificación/golpeado, y técnica de estirar-y-doblar en lugar de amasado vigoroso. MIGA CERRADA/UNIFORME (agujeros pequeños y uniformes como pan de molde o brioche) requiere: hidratación MÁS BAJA (60-70%), amasado COMPLETO para desarrollar estructura de gluten ajustada, fermentación MÁS CORTA, y desgasificación/golpeado para redistribuir levadura y eliminar burbujas grandes. Factores adicionales que afectan miga: porcentaje de proteína de harina (mayor = estructura más fuerte), técnica de formado (tensión afecta distribución de burbujas), vapor de horno (soporta salto de horno), y patrón de cortes (dirige expansión). Panaderos profesionales controlan precisamente TODAS estas variables para lograr su estructura de miga objetivo para cada tipo de pan.",
-                  "de": "Krumenstruktur bezieht sich auf die innere Textur von Brot—speziell die Anordnung, Größe und Verteilung von Lufttaschen (genannt Alveolen) innerhalb des Laibs. Bäcker manipulieren absichtlich mehrere Variablen um verschiedene Krumentypen zu erreichen. OFFENE KRUME (große, unregelmäßige Löcher wie in Ciabatta oder handwerklichem Sauerteig) erfordert: HOHE Hydratation (75-85% Wasser), SANFTE Handhabung um Gasblasen zu bewahren, LANGE Fermentation für komplexen Geschmack und starkes Glutennetzwerk, KEINE Entgasung/Niederschlagen, und Strecken-und-Falten-Technik statt kräftigem Kneten. DICHTE/GLEICHMÄSSIGE KRUME (kleine, einheitliche Löcher wie Sandwichbrot oder Brioche) erfordert: NIEDRIGERE Hydratation (60-70%), GRÜNDLICHES Kneten um dichte Glutenstruktur zu entwickeln, KÜRZERE Fermentation, und Entgasung/Niederschlagen um Hefe neu zu verteilen und große Blasen zu eliminieren. Zusätzliche Faktoren die Krume beeinflussen: Mehlproteinprozentsatz (höher = stärkere Struktur), Formtechnik (Spannung beeinflusst Blasenverteilung), Ofendampf (unterstützt Ofentrieb), und Einschneidemuster (lenkt Expansion). Professionelle Bäcker kontrollieren präzise ALLE diese Variablen um ihre Zielkrumenstruktur für jeden Brottyp zu erreichen.",
-                  "nl": "Kruimstructuur verwijst naar de interne textuur van brood—specifiek de rangschikking, grootte en verdeling van luchtholtes (genoemd alveoli) binnen het brood. Bakkers manipuleren opzettelijk meerdere variabelen om verschillende kruimtypes te bereiken. OPEN KRUIM (grote, onregelmatige gaten zoals in ciabatta of ambachtelijk zuurdesem) vereist: HOGE hydratatie (75-85% water), ZACHTE behandeling om gasbellen te behouden, LANGE fermentatie voor complexe smaak en sterk glutennetwerk, GEEN ontgassing/neerslaan, en rek-en-vouw techniek in plaats van krachtig kneden. DICHTE/GELIJKMATIGE KRUIM (kleine, uniforme gaten zoals sandwichbrood of brioche) vereist: LAGERE hydratatie (60-70%), GRONDIG kneden om strakke glutenstructuur te ontwikkelen, KORTERE fermentatie, en ontgassing/neerslaan om gist te herverdelen en grote bellen te elimineren. Aanvullende factoren die kruim beïnvloeden: meeleiwitpercentage (hoger = sterkere structuur), vormtechniek (spanning beïnvloedt belverdeling), ovenstoom (ondersteunt ovensprong), en insnijpatroon (stuurt expansie). Professionele bakkers controleren nauwkeurig ALLE deze variabelen om hun doelkruimstructuur voor elk broodtype te bereiken."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'salt's role' in bread dough beyond flavor, and what happens if you forget to add it?",
-                  "es": "¿Cuál es el 'papel de la sal' en masa de pan más allá del sabor, y qué pasa si olvidas añadirla?",
-                  "de": "Was ist 'Salzrolle' in Brotteig über Geschmack hinaus, und was passiert wenn du vergisst es hinzuzufügen?",
-                  "nl": "Wat is 'zout's rol' in brooddeeg naast smaak, en wat gebeurt er als je vergeet het toe te voegen?"
-        },
-        options: [
-        {
-                  "en": "Salt has CRITICAL structural functions: (1) STRENGTHENS gluten by tightening protein bonds → better dough structure, easier handling. (2) CONTROLS yeast fermentation rate (slows it down) → prevents overproofing, better flavor development. (3) IMPROVES crust color via Maillard reactions. WITHOUT SALT: dough becomes slack/sticky (weak gluten), ferments TOO FAST (overproofs easily), tastes bland, pale crust, poor shelf life. Typical amount: 1.8-2.2% of flour weight. NEVER omit salt from bread recipes",
-                  "es": "La sal tiene funciones estructurales CRÍTICAS: (1) FORTALECE gluten apretando enlaces de proteína → mejor estructura de masa, manejo más fácil. (2) CONTROLA tasa de fermentación de levadura (la ralentiza) → previene sobre-fermentación, mejor desarrollo de sabor. (3) MEJORA color de corteza vía reacciones Maillard. SIN SAL: masa se vuelve floja/pegajosa (gluten débil), fermenta DEMASIADO RÁPIDO (sobre-fermenta fácilmente), sabe insípido, corteza pálida, mala vida útil. Cantidad típica: 1.8-2.2% de peso de harina. NUNCA omitir sal de recetas de pan",
-                  "de": "Salz hat KRITISCHE strukturelle Funktionen: (1) STÄRKT Gluten durch Festigen von Proteinbindungen → bessere Teigstruktur, einfachere Handhabung. (2) KONTROLLIERT Hefe-Fermentationsrate (verlangsamt sie) → verhindert Übergärung, bessere Geschmacksentwicklung. (3) VERBESSERT Krustenfarbe via Maillard-Reaktionen. OHNE SALZ: Teig wird schlaff/klebrig (schwaches Gluten), fermentiert ZU SCHNELL (übergärt leicht), schmeckt fade, blasse Kruste, schlechte Haltbarkeit. Typische Menge: 1.8-2.2% Mehlgewicht. NIEMALS Salz aus Brotrezepten weglassen",
-                  "nl": "Zout heeft KRITIEKE structurele functies: (1) VERSTERKT gluten door eiwitbindingen aan te spannen → betere deegstructuur, gemakkelijker behandeling. (2) CONTROLEERT gistfermentatiesnelheid (vertraagt het) → voorkomt overrijzing, betere smaakontwikkeling. (3) VERBETERT korstkleur via Maillard reacties. ZONDER ZOUT: deeg wordt slap/plakkerig (zwak gluten), fermenteert TE SNEL (rijst te snel over), smaakt flauw, bleke korst, slechte houdbaarheid. Typische hoeveelheid: 1.8-2.2% van meelgewicht. NOOIT zout weglaten uit broodrecepten"
-        },
-        {
-                  "en": "Bread without salt is actually better",
-                  "es": "Pan sin sal es en realidad mejor",
-                  "de": "Brot ohne Salz ist tatsächlich besser",
-                  "nl": "Brood zonder zout is eigenlijk beter"
-        },
-        {
-                  "en": "Salt only adds flavor, has no other function",
-                  "es": "Sal solo añade sabor, no tiene otra función",
-                  "de": "Salz fügt nur Geschmack hinzu, hat keine andere Funktion",
-                  "nl": "Zout voegt alleen smaak toe, heeft geen andere functie"
-        },
-        {
-                  "en": "Salt makes dough rise faster",
-                  "es": "Sal hace que masa suba más rápido",
-                  "de": "Salz lässt Teig schneller aufgehen",
-                  "nl": "Zout laat deeg sneller rijzen"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Salt plays CRITICAL structural and functional roles in bread beyond just flavor. (1) GLUTEN STRENGTHENING: Salt tightens the protein bonds in gluten networks, creating stronger, more elastic dough that's easier to handle and shape—it literally 'tightens up' the dough structure. (2) FERMENTATION CONTROL: Salt regulates (slows down) yeast activity by creating osmotic pressure on yeast cells, preventing runaway fermentation that would cause overproofing, off-flavors, and structural collapse. This controlled fermentation allows better flavor compound development. (3) CRUST COLOR: Salt enhances Maillard browning reactions, giving bread attractive golden-brown crust. WITHOUT SALT, bread dough becomes slack, sticky, and difficult to handle (weak gluten); ferments TOO FAST, easily overproofing and collapsing; tastes completely bland and one-dimensional; develops pale, unattractive crust; and stales quickly (poor shelf life). Standard salt amount is 1.8-2.2% of flour weight (e.g., 18-22g salt per 1kg flour). Professional bakers NEVER omit salt—it's as essential as flour itself.",
-                  "es": "La sal juega roles estructurales y funcionales CRÍTICOS en el pan más allá del sabor. (1) FORTALECIMIENTO DE GLUTEN: La sal aprieta los enlaces de proteína en redes de gluten, creando masa más fuerte y elástica que es más fácil de manejar y formar—literalmente 'aprieta' la estructura de masa. (2) CONTROL DE FERMENTACIÓN: La sal regula (ralentiza) actividad de levadura creando presión osmótica en células de levadura, previniendo fermentación descontrolada que causaría sobre-fermentación, sabores desagradables, y colapso estructural. Esta fermentación controlada permite mejor desarrollo de compuestos de sabor. (3) COLOR DE CORTEZA: La sal mejora reacciones de dorado Maillard, dando al pan corteza dorado-marrón atractiva. SIN SAL, la masa de pan se vuelve floja, pegajosa y difícil de manejar (gluten débil); fermenta DEMASIADO RÁPIDO, sobre-fermenta y colapsa fácilmente; sabe completamente insípido y unidimensional; desarrolla corteza pálida y poco atractiva; y envejece rápidamente (mala vida útil). La cantidad estándar de sal es 1.8-2.2% del peso de harina (ej., 18-22g sal por 1kg harina). Panaderos profesionales NUNCA omiten sal—es tan esencial como la harina misma.",
-                  "de": "Salz spielt KRITISCHE strukturelle und funktionale Rollen in Brot über Geschmack hinaus. (1) GLUTENSTÄRKUNG: Salz festigt die Proteinbindungen in Glutennetzwerken, erzeugt stärkeren, elastischeren Teig der einfacher zu handhaben und formen ist—es 'strafft' buchstäblich die Teigstruktur. (2) FERMENTATIONSKONTROLLE: Salz reguliert (verlangsamt) Hefeaktivität durch Schaffen osmotischen Drucks auf Hefezellen, verhindert unkontrollierte Fermentation die Übergärung, Fehlgeschmäcker und strukturellen Kollaps verursachen würde. Diese kontrollierte Fermentation erlaubt bessere Geschmacksverbindungsentwicklung. (3) KRUSTENFARBE: Salz verbessert Maillard-Bräunungsreaktionen, gibt Brot attraktive goldbraune Kruste. OHNE SALZ wird Brotteig schlaff, klebrig und schwer zu handhaben (schwaches Gluten); fermentiert ZU SCHNELL, übergärt leicht und kollabiert; schmeckt völlig fade und eindimensional; entwickelt blasse, unattraktive Kruste; und altert schnell (schlechte Haltbarkeit). Standard Salzmenge ist 1.8-2.2% Mehlgewicht (z.B., 18-22g Salz pro 1kg Mehl). Professionelle Bäcker lassen Salz NIEMALS weg—es ist so essentiell wie Mehl selbst.",
-                  "nl": "Zout speelt KRITIEKE structurele en functionele rollen in brood naast smaak. (1) GLUTENVERSTERKING: Zout spant de eiwitbindingen in glutennetwerken aan, creëert sterker, elastischer deeg dat gemakkelijker te behandelen en vormen is—het 'spant' letterlijk de deegstructuur aan. (2) FERMENTATIECONTROLE: Zout reguleert (vertraagt) gistactiviteit door osmotische druk op gistcellen te creëren, voorkomt ongecontroleerde fermentatie die overrijzing, onaangename smaken en structurele instorting zou veroorzaken. Deze gecontroleerde fermentatie maakt betere smaakvormingsontwikkeling mogelijk. (3) KORSTKLEUR: Zout verbetert Maillard bruiningsreacties, geeft brood aantrekkelijke goudbruine korst. ZONDER ZOUT wordt brooddeeg slap, plakkerig en moeilijk te behandelen (zwak gluten); fermenteert TE SNEL, rijst gemakkelijk over en stort in; smaakt volledig flauw en eendimensionaal; ontwikkelt bleke, onaantrekkelijke korst; en wordt snel oud (slechte houdbaarheid). Standaard zouthoeveelheid is 1.8-2.2% van meelgewicht (bijv., 18-22g zout per 1kg meel). Professionele bakkers laten zout NOOIT weg—het is zo essentieel als meel zelf."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'starter maintenance' for sourdough and how do feeding ratios (1:1:1 vs 1:5:5) affect fermentation timing and flavor?",
-                  "es": "¿Qué es 'mantenimiento de masa madre' para pan de masa madre y cómo afectan las proporciones de alimentación (1:1:1 vs 1:5:5) el tiempo de fermentación y sabor?",
-                  "de": "Was ist 'Starter-Pflege' für Sauerteig und wie beeinflussen Fütterungsverhältnisse (1:1:1 vs 1:5:5) Fermentationszeit und Geschmack?",
-                  "nl": "Wat is 'starter onderhoud' voor zuurdesem en hoe beïnvloeden voedingsverhoudingen (1:1:1 vs 1:5:5) fermentatietiming en smaak?"
-        },
-        options: [
-        {
-                  "en": "Starter maintenance only affects color",
-                  "es": "Mantenimiento de masa madre solo afecta color",
-                  "de": "Starter-Pflege beeinflusst nur Farbe",
-                  "nl": "Starter onderhoud beïnvloedt alleen kleur"
-        },
-        {
-                  "en": "Regular feeding of sourdough culture (wild yeast + bacteria) to keep it active. RATIO = starter:flour:water by weight. 1:1:1 (e.g., 20g starter + 20g flour + 20g water): SMALL feeding, peaks fast (4-6h), stronger sour flavor, more frequent feeding needed. 1:5:5 (20g starter + 100g flour + 100g water): LARGE feeding, peaks slower (8-12h), milder flavor, longer time between feedings, more stable. Unfed starter: becomes over-acidic (too sour), weak leavening, hooch (alcohol) forms on top. Feeding schedule: daily (room temp) or weekly (refrigerated)",
-                  "es": "Alimentación regular de cultivo de masa madre (levadura salvaje + bacterias) para mantenerlo activo. PROPORCIÓN = masa madre:harina:agua por peso. 1:1:1 (ej., 20g masa madre + 20g harina + 20g agua): alimentación PEQUEÑA, pico rápido (4-6h), sabor ácido más fuerte, alimentación más frecuente necesaria. 1:5:5 (20g masa madre + 100g harina + 100g agua): alimentación GRANDE, pico más lento (8-12h), sabor más suave, más tiempo entre alimentaciones, más estable. Masa madre sin alimentar: se vuelve sobre-ácida (demasiado ácida), leudado débil, hooch (alcohol) se forma encima. Horario de alimentación: diario (temp ambiente) o semanal (refrigerado)",
-                  "de": "Regelmäßiges Füttern von Sauerteigkultur (wilde Hefe + Bakterien) um sie aktiv zu halten. VERHÄLTNIS = Starter:Mehl:Wasser nach Gewicht. 1:1:1 (z.B., 20g Starter + 20g Mehl + 20g Wasser): KLEINE Fütterung, Spitze schnell (4-6h), stärkerer saurer Geschmack, häufigere Fütterung nötig. 1:5:5 (20g Starter + 100g Mehl + 100g Wasser): GROSSE Fütterung, Spitze langsamer (8-12h), milderer Geschmack, längere Zeit zwischen Fütterungen, stabiler. Ungefütterter Starter: wird über-sauer (zu sauer), schwache Triebkraft, Hooch (Alkohol) bildet sich oben. Fütterungsplan: täglich (Raumtemp) oder wöchentlich (gekühlt)",
-                  "nl": "Regelmatige voeding van zuurdesem cultuur (wilde gist + bacteriën) om actief te houden. VERHOUDING = starter:meel:water per gewicht. 1:1:1 (bijv., 20g starter + 20g meel + 20g water): KLEINE voeding, piek snel (4-6u), sterkere zure smaak, frequentere voeding nodig. 1:5:5 (20g starter + 100g meel + 100g water): GROTE voeding, piek langzamer (8-12u), mildere smaak, langere tijd tussen voedingen, stabieler. Ongevoede starter: wordt over-zuur (te zuur), zwakke rijzing, hooch (alcohol) vormt bovenop. Voedingsschema: dagelijks (kamertemp) of wekelijks (gekoeld)"
-        },
-        {
-                  "en": "Sourdough starter never needs feeding",
-                  "es": "Masa madre nunca necesita alimentación",
-                  "de": "Sauerteigstarter braucht nie Fütterung",
-                  "nl": "Zuurdesem starter heeft nooit voeding nodig"
-        },
-        {
-                  "en": "All feeding ratios produce identical results",
-                  "es": "Todas proporciones de alimentación producen resultados idénticos",
-                  "de": "Alle Fütterungsverhältnisse produzieren identische Ergebnisse",
-                  "nl": "Alle voedingsverhoudingen produceren identieke resultaten"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Sourdough starter maintenance involves regularly feeding the culture (symbiotic community of wild yeast and lactic acid bacteria) with fresh flour and water to keep it active and healthy. FEEDING RATIOS (starter:flour:water by weight) dramatically affect fermentation timing and flavor: 1:1:1 ratio (e.g., 20g starter + 20g flour + 20g water) is a SMALL feeding—the large proportion of mature starter means yeast/bacteria consume available food quickly, reaching peak activity in 4-6 hours, producing STRONGER sour flavor from accumulated acids, but requiring more frequent feedings (more work, more flour waste). 1:5:5 ratio (20g starter + 100g flour + 100g water) is a LARGE feeding—the small proportion of starter means it takes 8-12 hours to reach peak, produces MILDER flavor (less time for acid accumulation), allows longer time between feedings, and creates more stable starter less prone to over-fermentation. UNFED starter becomes over-acidic (excessively sour, weak leavening power), develops 'hooch' (dark alcohol layer on top—sign of starvation). Feeding SCHEDULE: daily if kept at room temperature (active baking), or weekly if refrigerated (slows metabolism). Professional bakers maintain multiple starters at different hydrations/feeding schedules for different bread styles.",
-                  "es": "El mantenimiento de masa madre implica alimentar regularmente el cultivo (comunidad simbiótica de levadura salvaje y bacterias de ácido láctico) con harina fresca y agua para mantenerlo activo y saludable. PROPORCIONES DE ALIMENTACIÓN (masa madre:harina:agua por peso) afectan dramáticamente tiempo de fermentación y sabor: proporción 1:1:1 (ej., 20g masa madre + 20g harina + 20g agua) es alimentación PEQUEÑA—la gran proporción de masa madre madura significa que levadura/bacterias consumen alimento disponible rápidamente, alcanzando pico de actividad en 4-6 horas, produciendo sabor ácido MÁS FUERTE de ácidos acumulados, pero requiriendo alimentaciones más frecuentes (más trabajo, más desperdicio de harina). Proporción 1:5:5 (20g masa madre + 100g harina + 100g agua) es alimentación GRANDE—la pequeña proporción de masa madre significa que toma 8-12 horas alcanzar pico, produce sabor MÁS SUAVE (menos tiempo para acumulación de ácido), permite más tiempo entre alimentaciones, y crea masa madre más estable menos propensa a sobre-fermentación. Masa madre SIN ALIMENTAR se vuelve sobre-ácida (excesivamente ácida, poder de leudado débil), desarrolla 'hooch' (capa de alcohol oscuro encima—señal de hambre). HORARIO de alimentación: diario si se mantiene a temperatura ambiente (horneado activo), o semanal si refrigerado (ralentiza metabolismo). Panaderos profesionales mantienen múltiples masas madres a diferentes hidrataciones/horarios de alimentación para diferentes estilos de pan.",
-                  "de": "Sauerteigstarter-Pflege beinhaltet regelmäßiges Füttern der Kultur (symbiotische Gemeinschaft von wilder Hefe und Milchsäurebakterien) mit frischem Mehl und Wasser um sie aktiv und gesund zu halten. FÜTTERUNGSVERHÄLTNISSE (Starter:Mehl:Wasser nach Gewicht) beeinflussen dramatisch Fermentationszeit und Geschmack: 1:1:1 Verhältnis (z.B., 20g Starter + 20g Mehl + 20g Wasser) ist KLEINE Fütterung—der große Anteil reifer Starter bedeutet Hefe/Bakterien konsumieren verfügbare Nahrung schnell, erreichen Spitzenaktivität in 4-6 Stunden, produzieren STÄRKEREN sauren Geschmack von akkumulierten Säuren, erfordern aber häufigere Fütterungen (mehr Arbeit, mehr Mehlverschwendung). 1:5:5 Verhältnis (20g Starter + 100g Mehl + 100g Wasser) ist GROSSE Fütterung—der kleine Anteil Starter bedeutet es dauert 8-12 Stunden Spitze zu erreichen, produziert MILDEREN Geschmack (weniger Zeit für Säureakkumulation), erlaubt längere Zeit zwischen Fütterungen, und erzeugt stabileren Starter weniger anfällig für Über-Fermentation. UNGEFÜTTERTER Starter wird über-sauer (übermäßig sauer, schwache Triebkraft), entwickelt 'Hooch' (dunkle Alkoholschicht oben—Zeichen von Verhungern). FÜTTERUNGSPLAN: täglich wenn bei Raumtemperatur gehalten (aktives Backen), oder wöchentlich wenn gekühlt (verlangsamt Metabolismus). Professionelle Bäcker halten mehrere Starter bei verschiedenen Hydratationen/Fütterungsplänen für verschiedene Brotstile.",
-                  "nl": "Zuurdesem starter onderhoud omvat regelmatig voeden van de cultuur (symbiotische gemeenschap van wilde gist en melkzuurbacteriën) met vers meel en water om het actief en gezond te houden. VOEDINGSVERHOUDINGEN (starter:meel:water per gewicht) beïnvloeden dramatisch fermentatietiming en smaak: 1:1:1 verhouding (bijv., 20g starter + 20g meel + 20g water) is KLEINE voeding—het grote aandeel rijpe starter betekent gist/bacteriën consumeren beschikbaar voedsel snel, bereiken piekactiviteit in 4-6 uur, produceren STERKERE zure smaak van geaccumuleerde zuren, maar vereisen frequentere voedingen (meer werk, meer meelverspilling). 1:5:5 verhouding (20g starter + 100g meel + 100g water) is GROTE voeding—het kleine aandeel starter betekent het duurt 8-12 uur om piek te bereiken, produceert MILDERE smaak (minder tijd voor zuuraccumulatie), maakt langere tijd tussen voedingen mogelijk, en creëert stabielere starter minder vatbaar voor over-fermentatie. ONGEVOEDE starter wordt over-zuur (overdreven zuur, zwakke rijskracht), ontwikkelt 'hooch' (donkere alcohollaag bovenop—teken van verhongering). VOEDINGSSCHEMA: dagelijks indien bewaard bij kamertemperatuur (actief bakken), of wekelijks indien gekoeld (vertraagt metabolisme). Professionele bakkers onderhouden meerdere starters bij verschillende hydrataties/voedingsschema's voor verschillende broodstijlen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'baker's percentage' (baker's math) and why is it superior to volume measurements for scaling bread recipes?",
-                  "es": "¿Qué es 'porcentaje de panadero' (matemática de panadero) y por qué es superior a medidas de volumen para escalar recetas de pan?",
-                  "de": "Was ist 'Bäckerprozent' (Bäckermath) und warum ist es überleg gegen Volumenmessungen für Skalieren von Brotrezepten?",
-                  "nl": "Wat is 'bakkers percentage' (bakkers wiskunde) en waarom is het superieur aan volumemetingen voor schalen van broodrecepten?"
-        },
-        options: [
-        {
-                  "en": "Volume measurements are more accurate",
-                  "es": "Medidas de volumen son más precisas",
-                  "de": "Volumenmessungen sind genauer",
-                  "nl": "Volumemetingen zijn nauwkeuriger"
-        },
-        {
-                  "en": "A taxation system for bakeries",
-                  "es": "Un sistema de impuestos para panaderías",
-                  "de": "Ein Steuersystem für Bäckereien",
-                  "nl": "Een belastingsysteem voor bakkerijen"
-        },
-        {
-                  "en": "System where ALL ingredients expressed as % of total flour weight (flour = 100% always). Example: 1000g flour, 700g water = 70% hydration. BENEFITS: (1) Instantly see dough character (hydration level), (2) Scale recipes UP/DOWN perfectly (ratios preserved), (3) Compare recipes universally, (4) Adjust single ingredient without recalculating all. Volume (cups) FAILS: varies by packing, humidity, flour type. Baker's % is INDUSTRY STANDARD worldwide. Essential for professional/serious home bakers",
-                  "es": "Sistema donde TODOS ingredientes expresados como % de peso total de harina (harina = 100% siempre). Ejemplo: 1000g harina, 700g agua = 70% hidratación. BENEFICIOS: (1) Ver instantáneamente carácter de masa (nivel hidratación), (2) Escalar recetas ARRIBA/ABAJO perfectamente (proporciones preservadas), (3) Comparar recetas universalmente, (4) Ajustar ingrediente individual sin recalcular todo. Volumen (tazas) FALLA: varía por compactación, humedad, tipo harina. % panadero es ESTÁNDAR INDUSTRIAL mundial. Esencial para panaderos profesionales/caseros serios",
-                  "de": "System wo ALLE Zutaten als % von Gesamtmehlgewicht ausgedrückt (Mehl = 100% immer). Beispiel: 1000g Mehl, 700g Wasser = 70% Hydratation. VORTEILE: (1) Teigcharakter sofort sehen (Hydrationslevel), (2) Rezepte HOCH/RUNTER perfekt skalieren (Verhältnisse bewahrt), (3) Rezepte universell vergleichen, (4) Einzelne Zutat anpassen ohne alles neu berechnen. Volumen (Tassen) VERSAGT: variiert durch Verpackung, Luftfeuchtigkeit, Mehltyp. Bäcker-% ist INDUSTRIESTANDARD weltweit. Essentiell für professionelle/ernsthafte Heimbäcker",
-                  "nl": "Systeem waar ALLE ingrediënten uitgedrukt als % van totaal meelgewicht (meel = 100% altijd). Voorbeeld: 1000g meel, 700g water = 70% hydratatie. VOORDELEN: (1) Direct deegkarakter zien (hydratieniveau), (2) Recepten OP/NEER perfect schalen (verhoudingen behouden), (3) Recepten universeel vergelijken, (4) Enkel ingredient aanpassen zonder alles herberekenen. Volume (kopjes) FAALT: varieert door inpakken, vochtigheid, meeltype. Bakkers % is INDUSTRIE STANDAARD wereldwijd. Essentieel voor professionele/serieuze thuisbakkers"
-        },
-        {
-                  "en": "The profit margin on bread sales",
-                  "es": "El margen de beneficio en ventas de pan",
-                  "de": "Die Gewinnspanne bei Brotverkauf",
-                  "nl": "De winstmarge op broodverkoop"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Baker's percentage (also called baker's math or baker's formula) is a professional system where ALL ingredients in a bread recipe are expressed as percentages of the total flour weight, with flour always being 100%. For example, a recipe with 1000g flour and 700g water has 70% hydration (water is 70% of flour weight). BENEFITS are enormous: (1) You can INSTANTLY see dough characteristics—70% hydration tells you it's a high-hydration, wet, sticky dough; 60% is medium; 50% is stiff. (2) SCALING is perfect—multiply flour by any number and all other ingredients scale proportionally, preserving exact ratios. (3) UNIVERSAL COMPARISON—bakers worldwide can compare recipes immediately. (4) EASY ADJUSTMENTS—want more salt? Change 1.8% to 2% without recalculating other ingredients. Volume measurements (cups, tablespoons) FAIL because: flour density varies by type, packing, and humidity; 1 cup can be 120-150g depending on how you scoop. Baker's percentage is the INDUSTRY STANDARD worldwide, used in all professional bakeries and essential for serious home bakers. It's mathematical precision applied to baking.",
-                  "es": "El porcentaje de panadero (también llamado matemática de panadero o fórmula de panadero) es un sistema profesional donde TODOS los ingredientes en una receta de pan se expresan como porcentajes del peso total de harina, con harina siempre siendo 100%. Por ejemplo, una receta con 1000g harina y 700g agua tiene 70% hidratación (agua es 70% del peso de harina). Los BENEFICIOS son enormes: (1) Puedes ver INSTANTÁNEAMENTE características de masa—70% hidratación te dice que es masa de alta hidratación, húmeda, pegajosa; 60% es media; 50% es rígida. (2) ESCALAR es perfecto—multiplica harina por cualquier número y todos otros ingredientes escalan proporcionalmente, preservando proporciones exactas. (3) COMPARACIÓN UNIVERSAL—panaderos mundialmente pueden comparar recetas inmediatamente. (4) AJUSTES FÁCILES—¿quieres más sal? Cambia 1.8% a 2% sin recalcular otros ingredientes. Medidas de volumen (tazas, cucharadas) FALLAN porque: densidad de harina varía por tipo, compactación y humedad; 1 taza puede ser 120-150g dependiendo de cómo sacas. Porcentaje de panadero es ESTÁNDAR INDUSTRIAL mundial, usado en todas panaderías profesionales y esencial para panaderos caseros serios. Es precisión matemática aplicada a panadería.",
-                  "de": "Bäckerprozent (auch Bäckermath oder Bäckerformel genannt) ist ein professionelles System wo ALLE Zutaten in einem Brotrezept als Prozentsätze des Gesamtmehlgewichts ausgedrückt werden, mit Mehl immer 100% seiend. Zum Beispiel, ein Rezept mit 1000g Mehl und 700g Wasser hat 70% Hydratation (Wasser ist 70% von Mehlgewicht). VORTEILE sind enorm: (1) Du kannst SOFORT Teigcharakteristiken sehen—70% Hydratation sagt dir es ist hochhydrierter, nasser, klebriger Teig; 60% ist mittel; 50% ist steif. (2) SKALIEREN ist perfekt—multipliziere Mehl mit beliebiger Zahl und alle anderen Zutaten skalieren proportional, bewahren exakte Verhältnisse. (3) UNIVERSELLER VERGLEICH—Bäcker weltweit können Rezepte sofort vergleichen. (4) EINFACHE ANPASSUNGEN—willst mehr Salz? Ändere 1.8% zu 2% ohne andere Zutaten neu zu berechnen. Volumenmessungen (Tassen, Esslöffel) VERSAGEN weil: Mehldichte variiert nach Typ, Verpackung und Luftfeuchtigkeit; 1 Tasse kann 120-150g sein abhängig wie du schöpfst. Bäckerprozent ist INDUSTRIESTANDARD weltweit, verwendet in allen professionellen Bäckereien und essentiell für ernsthafte Heimbäcker. Es ist mathematische Präzision angewandt auf Backen.",
-                  "nl": "Bakkers percentage (ook wel bakkers wiskunde of bakkers formule genoemd) is een professioneel systeem waar ALLE ingrediënten in een broodrecept worden uitgedrukt als percentages van het totale meelgewicht, met meel altijd 100%. Bijvoorbeeld, een recept met 1000g meel en 700g water heeft 70% hydratatie (water is 70% van meelgewicht). VOORDELEN zijn enorm: (1) Je kunt DIRECT deegkenmerken zien—70% hydratatie vertelt je het is hoge-hydratatie, nat, plakkerig deeg; 60% is medium; 50% is stijf. (2) SCHALEN is perfect—vermenigvuldig meel met elk nummer en alle andere ingrediënten schalen proportioneel, behouden exacte verhoudingen. (3) UNIVERSELE VERGELIJKING—bakkers wereldwijd kunnen recepten onmiddellijk vergelijken. (4) GEMAKKELIJKE AANPASSINGEN—wil meer zout? Verander 1.8% naar 2% zonder andere ingrediënten te herberekenen. Volumemetingen (kopjes, eetlepels) FALEN omdat: meeldichtheid varieert per type, inpakken en vochtigheid; 1 kopje kan 120-150g zijn afhankelijk van hoe je schept. Bakkers percentage is INDUSTRIE STANDAARD wereldwijd, gebruikt in alle professionele bakkerijen en essentieel voor serieuze thuisbakkers. Het is wiskundige precisie toegepast op bakken."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'steam injection' in professional ovens and how does it affect crust formation and oven spring?",
-                  "es": "¿Qué es 'inyección de vapor' en hornos profesionales y cómo afecta formación de corteza y salto de horno?",
-                  "de": "Was ist 'Dampfeinspritzung' in professionellen Öfen und wie beeinflusst sie Krustenbildung und Ofentrieb?",
-                  "nl": "Wat is 'stoominjectie' in professionele ovens en hoe beïnvloedt het korstvorming en ovensprong?"
-        },
-        options: [
-        {
-                  "en": "Adding water vapor to oven during first 10-15 min of baking. EFFECTS: (1) DELAYS crust formation → dough stays flexible longer → BETTER oven spring (expansion). (2) Gelatinizes surface starches → GLOSSY, thin, CRISPY crust (not thick/leathery). (3) Enables DEEP scoring cuts to open dramatically. Professional ovens: built-in steam injectors. HOME BAKERS: spray bottle, ice cubes in pan, Dutch oven (traps steam). CRITICAL for: baguettes, ciabatta, artisan breads. WITHOUT steam: thick dull crust, poor rise, scoring doesn't open",
-                  "es": "Añadir vapor de agua a horno durante primeros 10-15 min de horneado. EFECTOS: (1) RETRASA formación de corteza → masa permanece flexible más tiempo → MEJOR salto de horno (expansión). (2) Gelatiniza almidones de superficie → corteza BRILLANTE, delgada, CRUJIENTE (no gruesa/correosa). (3) Permite cortes de marcado PROFUNDOS abrirse dramáticamente. Hornos profesionales: inyectores de vapor integrados. PANADEROS CASEROS: botella de spray, cubitos de hielo en bandeja, horno holandés (atrapa vapor). CRÍTICO para: baguettes, ciabatta, panes artesanales. SIN vapor: corteza gruesa opaca, pobre fermentación, marcado no abre",
-                  "de": "Wasserdampf zum Ofen während ersten 10-15 Min Backen hinzufügen. EFFEKTE: (1) VERZÖGERT Krustenbildung → Teig bleibt länger flexibel → BESSERER Ofentrieb (Expansion). (2) Gelatiniert Oberflächenstärken → GLÄNZENDE, dünne, KNUSPRIGE Kruste (nicht dick/ledrig). (3) Ermöglicht TIEFE Einschnittschnitte sich dramatisch zu öffnen. Professionelle Öfen: eingebaute Dampfinjektoren. HEIMBÄCKER: Sprühflasche, Eiswürfel in Pfanne, Schmortopf (fängt Dampf). KRITISCH für: Baguettes, Ciabatta, handwerkliche Brote. OHNE Dampf: dicke matte Kruste, schlechter Aufgang, Einschneiden öffnet nicht",
-                  "nl": "Waterdamp toevoegen aan oven tijdens eerste 10-15 min bakken. EFFECTEN: (1) VERTRAAGT korstvorming → deeg blijft langer flexibel → BETERE ovensprong (expansie). (2) Gelatineert oppervlakte zetmelen → GLANZENDE, dunne, KNAPPERIGE korst (niet dik/leerachtig). (3) Maakt DIEPE insnijtsneden mogelijk om dramatisch te openen. Professionele ovens: ingebouwde stoominjectoren. THUISBAKKERS: spuitfles, ijsblokjes in pan, braadpan (vangt stoom). KRITIEK voor: baguettes, ciabatta, ambachtelijk brood. ZONDER stoom: dikke doffe korst, slechte rijzing, insnijden opent niet"
-        },
-        {
-                  "en": "Steam makes bread soggy and prevents rising",
-                  "es": "Vapor hace pan empapado y previene fermentación",
-                  "de": "Dampf macht Brot matschig und verhindert Aufgehen",
-                  "nl": "Stoom maakt brood zompig en voorkomt rijzen"
-        },
-        {
-                  "en": "Steam is never used in bread baking",
-                  "es": "Vapor nunca se usa en panadería",
-                  "de": "Dampf wird nie beim Brotbacken verwendet",
-                  "nl": "Stoom wordt nooit gebruikt bij brood bakken"
-        },
-        {
-                  "en": "Only used for cooling bread after baking",
-                  "es": "Solo usado para enfriar pan después de hornear",
-                  "de": "Nur zum Kühlen von Brot nach Backen verwendet",
-                  "nl": "Alleen gebruikt voor koelen van brood na bakken"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Steam injection means adding water vapor to the oven environment during the first 10-15 minutes of baking. EFFECTS on bread: (1) DELAYED CRUST FORMATION—steam keeps the dough surface moist and flexible longer, allowing the bread to expand more (better oven spring) before the crust sets and restricts further expansion. (2) CRISPY, GLOSSY CRUST—steam gelatinizes the starches on the bread surface, creating a thin, shiny, crackling-crispy crust instead of thick, dull, leathery crust. (3) DRAMATIC SCORING—steam allows deep scoring cuts to open wide and create beautiful 'ears' (raised edges). PROFESSIONAL OVENS have built-in steam injection systems. HOME BAKERS improvise: spray bottle (mist oven/bread), ice cubes in metal pan (melts into steam), or Dutch oven/covered pot (traps bread's own moisture). Steam is CRITICAL for artisan breads (baguettes, ciabatta, sourdough boules). WITHOUT steam: bread develops thick, pale, dull crust; poor oven spring (dense bread); scoring barely opens. The transformation from steam vs no-steam is dramatic and immediately visible.",
-                  "es": "Inyección de vapor significa añadir vapor de agua al ambiente del horno durante los primeros 10-15 minutos de horneado. EFECTOS en pan: (1) FORMACIÓN DE CORTEZA RETRASADA—vapor mantiene superficie de masa húmeda y flexible más tiempo, permitiendo que pan expanda más (mejor salto de horno) antes de que corteza se fije y restrinja expansión adicional. (2) CORTEZA CRUJIENTE, BRILLANTE—vapor gelatiniza almidones en superficie de pan, creando corteza delgada, brillante, crujiente-crepitante en lugar de corteza gruesa, opaca, correosa. (3) MARCADO DRAMÁTICO—vapor permite cortes de marcado profundos abrirse ampliamente y crear 'orejas' hermosas (bordes elevados). HORNOS PROFESIONALES tienen sistemas de inyección de vapor integrados. PANADEROS CASEROS improvisan: botella de spray (rociar horno/pan), cubitos de hielo en bandeja de metal (derrite en vapor), o horno holandés/olla cubierta (atrapa humedad propia del pan). Vapor es CRÍTICO para panes artesanales (baguettes, ciabatta, boules de masa madre). SIN vapor: pan desarrolla corteza gruesa, pálida, opaca; pobre salto de horno (pan denso); marcado apenas abre. La transformación de vapor vs sin vapor es dramática e inmediatamente visible.",
-                  "de": "Dampfeinspritzung bedeutet Wasserdampf zur Ofenumgebung während der ersten 10-15 Minuten Backen hinzuzufügen. EFFEKTE auf Brot: (1) VERZÖGERTE KRUSTENBILDUNG—Dampf hält Teigoberfläche feucht und flexibel länger, erlaubt Brot mehr zu expandieren (besserer Ofentrieb) bevor Kruste sich festsetzt und weitere Expansion einschränkt. (2) KNUSPRIGE, GLÄNZENDE KRUSTE—Dampf gelatiniert Stärken auf Brotoberfläche, erzeugt dünne, glänzende, knackig-knusprige Kruste statt dicker, matter, lederiger Kruste. (3) DRAMATISCHES EINSCHNEIDEN—Dampf erlaubt tiefen Einschnittschnitten sich weit zu öffnen und schöne 'Ohren' (erhobene Kanten) zu erzeugen. PROFESSIONELLE ÖFEN haben eingebaute Dampfeinspritzsysteme. HEIMBÄCKER improvisieren: Sprühflasche (Ofen/Brot besprühen), Eiswürfel in Metallpfanne (schmilzt zu Dampf), oder Schmortopf/abgedeckter Topf (fängt eigene Feuchtigkeit des Brotes). Dampf ist KRITISCH für handwerkliche Brote (Baguettes, Ciabatta, Sauerteig-Boules). OHNE Dampf: Brot entwickelt dicke, blasse, matte Kruste; schlechter Ofentrieb (dichtes Brot); Einschneiden öffnet kaum. Die Transformation von Dampf vs kein Dampf ist dramatisch und sofort sichtbar.",
-                  "nl": "Stoominjectie betekent waterdamp toevoegen aan de ovenom geving tijdens de eerste 10-15 minuten bakken. EFFECTEN op brood: (1) VERTRAAGDE KORSTVORMING—stoom houdt deegoppervlak vochtig en flexibel langer, staat brood toe meer te expanderen (betere ovensprong) voordat korst vast wordt en verdere expansie beperkt. (2) KNAPPERIGE, GLANZENDE KORST—stoom gelatineert zetmelen op broodoppervlak, creëert dunne, glanzende, krakend-knapperige korst in plaats van dikke, doffe, leerachtige korst. (3) DRAMATISCH INSNIJDEN—stoom staat diepe insnijtsneden toe wijd te openen en mooie 'oren' (verhoogde randen) te creëren. PROFESSIONELE OVENS hebben ingebouwde stoominjectiesystemen. THUISBAKKERS improviseren: spuitfles (oven/brood benevelen), ijsblokjes in metalen pan (smelt tot stoom), of braadpan/afgedekte pot (vangt eigen vocht van brood). Stoom is KRITIEK voor ambachtelijk brood (baguettes, ciabatta, zuurdesem boules). ZONDER stoom: brood ontwikkelt dikke, bleke, doffe korst; slechte ovensprong (dicht brood); insnijden opent nauwelijks. De transformatie van stoom vs geen stoom is dramatisch en onmiddellijk zichtbaar."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'DDT' (Desired Dough Temperature) and why do professional bakers calculate it precisely?",
-                  "es": "¿Qué es 'DDT' (Temperatura Deseada de Masa) y por qué los panaderos profesionales la calculan con precisión?",
-                  "de": "Was ist 'DDT' (gewünschte Teigtemperatur) und warum berechnen professionelle Bäcker sie präzise?",
-                  "nl": "Wat is 'DDT' (Gewenste Deegtemperatuur) en waarom berekenen professionele bakkers het nauwkeurig?"
-        },
-        options: [
-        {
-                  "en": "Target final dough temp after mixing (typically 24-26°C). CRITICAL because: temperature controls fermentation speed. FORMULA: DDT = (flour temp + water temp + room temp + friction factor) ÷ 4. Adjust WATER temp to hit DDT (use ice/warm water). Too HOT (>27°C) = overactive yeast, sour flavor, weak structure. Too COLD (<22°C) = sluggish fermentation, underdeveloped flavor. Professionals use thermometers always, adjust water temp precisely. Season matters: summer needs ice water, winter needs warm water",
-                  "es": "Temp final objetivo de masa después de mezclar (típicamente 24-26°C). CRÍTICO porque: temperatura controla velocidad fermentación. FÓRMULA: DDT = (temp harina + temp agua + temp ambiente + factor fricción) ÷ 4. Ajustar temp AGUA para alcanzar DDT (usar hielo/agua caliente). Muy CALIENTE (>27°C) = levadura hiperactiva, sabor ácido, estructura débil. Muy FRÍA (<22°C) = fermentación lenta, sabor subdesarrollado. Profesionales usan termómetros siempre, ajustan temp agua precisamente. Temporada importa: verano necesita agua helada, invierno agua tibia",
-                  "de": "Ziel-Endteigtemperatur nach Mischen (typisch 24-26°C). KRITISCH weil: Temperatur kontrolliert Fermentationsgeschwindigkeit. FORMEL: DDT = (Mehltemp + Wassertemp + Raumtemp + Reibungsfaktor) ÷ 4. WASSER-Temp anpassen um DDT zu erreichen (Eis/warmes Wasser verwenden). Zu HEISS (>27°C) = überaktive Hefe, saurer Geschmack, schwache Struktur. Zu KALT (<22°C) = träge Fermentation, unterentwickelter Geschmack. Profis verwenden immer Thermometer, passen Wassertemp präzise an. Jahreszeit wichtig: Sommer braucht Eiswasser, Winter warmes Wasser",
-                  "nl": "Doel einddeegtemp na mengen (typisch 24-26°C). KRITIEK omdat: temperatuur controleert fermentatiesnelheid. FORMULE: DDT = (meeltemp + watertemp + kamertemp + wrijvingsfactor) ÷ 4. WATER temp aanpassen om DDT te bereiken (ijs/warm water gebruiken). Te HEET (>27°C) = overactieve gist, zure smaak, zwakke structuur. Te KOUD (<22°C) = trage fermentatie, onderontwikkelde smaak. Professionals gebruiken altijd thermometers, passen watertemp precies aan. Seizoen belangrijk: zomer heeft ijswater nodig, winter warm water"
-        },
-        {
-                  "en": "A pesticide used in flour milling",
-                  "es": "Un pesticida usado en molienda de harina",
-                  "de": "Ein Pestizid verwendet in Mehlmahlen",
-                  "nl": "Een pesticide gebruikt in meelmalen"
-        },
-        {
-                  "en": "Temperature doesn't affect bread making",
-                  "es": "Temperatura no afecta elaboración de pan",
-                  "de": "Temperatur beeinflusst Brotbacken nicht",
-                  "nl": "Temperatuur beïnvloedt brood bakken niet"
-        },
-        {
-                  "en": "Only matters for commercial bakeries",
-                  "es": "Solo importa para panaderías comerciales",
-                  "de": "Nur wichtig für kommerzielle Bäckereien",
-                  "nl": "Alleen belangrijk voor commerciële bakkerijen"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "DDT (Desired Dough Temperature) is the target final temperature of dough immediately after mixing, typically 24-26°C (75-79°F) for most breads. This is CRITICAL because dough temperature directly controls fermentation speed—the warmer the dough, the faster yeast activity. CALCULATION: DDT = (flour temp + water temp + room temp + friction factor from mixing) ÷ 4. Since you can't control flour, room, or friction temps easily, professionals ADJUST WATER TEMPERATURE to hit the exact DDT (use ice water in summer, warm water in winter). CONSEQUENCES: Too HOT (>27°C) = overactive yeast consumes sugars too fast, produces sour/alcoholic off-flavors, weakens gluten structure, causes collapse. Too COLD (<22°C) = sluggish fermentation, flat flavor, dense crumb, extended proof times. Professional bakers ALWAYS use thermometers, precisely calculating and adjusting water temperature for every batch. Seasonal variation is huge—summer ambient temps require ice water; winter requires warm water. Consistent DDT = consistent bread quality.",
-                  "es": "DDT (Temperatura Deseada de Masa) es la temperatura final objetivo de masa inmediatamente después de mezclar, típicamente 24-26°C (75-79°F) para la mayoría de panes. Esto es CRÍTICO porque temperatura de masa controla directamente velocidad de fermentación—cuanto más caliente la masa, más rápida actividad de levadura. CÁLCULO: DDT = (temp harina + temp agua + temp ambiente + factor fricción del mezclado) ÷ 4. Como no puedes controlar temps de harina, ambiente o fricción fácilmente, profesionales AJUSTAN TEMPERATURA DE AGUA para alcanzar DDT exacto (usar agua helada en verano, agua caliente en invierno). CONSECUENCIAS: Muy CALIENTE (>27°C) = levadura hiperactiva consume azúcares muy rápido, produce sabores ácidos/alcohólicos desagradables, debilita estructura de gluten, causa colapso. Muy FRÍA (<22°C) = fermentación lenta, sabor plano, miga densa, tiempos de fermentación extendidos. Panaderos profesionales SIEMPRE usan termómetros, calculando y ajustando precisamente temperatura de agua para cada lote. Variación estacional es enorme—temps ambientes de verano requieren agua helada; invierno requiere agua caliente. DDT consistente = calidad de pan consistente.",
-                  "de": "DDT (gewünschte Teigtemperatur) ist die Ziel-Endtemperatur von Teig unmittelbar nach Mischen, typisch 24-26°C (75-79°F) für die meisten Brote. Dies ist KRITISCH weil Teigtemperatur direkt Fermentationsgeschwindigkeit kontrolliert—je wärmer der Teig, desto schneller Hefeaktivität. BERECHNUNG: DDT = (Mehltemp + Wassertemp + Raumtemp + Reibungsfaktor vom Mischen) ÷ 4. Da du Mehl-, Raum- oder Reibungstemps nicht leicht kontrollieren kannst, PASSEN Profis WASSERTEMPERATUR an um exakte DDT zu erreichen (Eiswasser im Sommer, warmes Wasser im Winter verwenden). KONSEQUENZEN: Zu HEISS (>27°C) = überaktive Hefe konsumiert Zucker zu schnell, produziert saure/alkoholische Fehlgeschmäcker, schwächt Glutenstruktur, verursacht Kollaps. Zu KALT (<22°C) = träge Fermentation, flacher Geschmack, dichte Krume, verlängerte Gärzeiten. Professionelle Bäcker verwenden IMMER Thermometer, berechnen und passen präzise Wassertemperatur für jede Charge an. Saisonale Variation ist enorm—Sommer Umgebungstemps erfordern Eiswasser; Winter erfordert warmes Wasser. Konsistente DDT = konsistente Brotqualität.",
-                  "nl": "DDT (Gewenste Deegtemperatuur) is de doel eindtemperatuur van deeg onmiddellijk na mengen, typisch 24-26°C (75-79°F) voor de meeste broden. Dit is KRITIEK omdat deegtemperatuur direct fermentatiesnelheid controleert—hoe warmer het deeg, hoe sneller gistactiviteit. BEREKENING: DDT = (meeltemp + watertemp + kamertemp + wrijvingsfactor van mengen) ÷ 4. Omdat je meel-, kamer- of wrijvingstemps niet gemakkelijk kunt controleren, PASSEN professionals WATERTEMPERATUUR aan om exacte DDT te bereiken (ijswater in zomer, warm water in winter gebruiken). CONSEQUENTIES: Te HEET (>27°C) = overactieve gist consumeert suikers te snel, produceert zure/alcoholische onaangename smaken, verzwakt glutenstructuur, veroorzaakt instorting. Te KOUD (<22°C) = trage fermentatie, vlakke smaak, dichte kruim, verlengde rijstijden. Professionele bakkers gebruiken ALTIJD thermometers, berekenen en passen nauwkeurig watertemperatuur aan voor elke batch. Seizoensvariatie is enorm—zomer omgevingstemps vereisen ijswater; winter vereist warm water. Consistente DDT = consistente broodkwaliteit."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'retarding' (cold fermentation) and what flavor/texture benefits does overnight refrigeration provide?",
-                  "es": "¿Qué es 'retardar' (fermentación fría) y qué beneficios de sabor/textura proporciona refrigeración nocturna?",
-                  "de": "Was ist 'Retardieren' (kalte Fermentation) und welche Geschmacks/Texturvorteile bietet Übernachtkühlung?",
-                  "nl": "Wat is 'vertragen' (koude fermentatie) en welke smaak/textuurvoordelen biedt koeling gedurende nacht?"
-        },
-        options: [
-        {
-                  "en": "Refrigeration stops all fermentation",
-                  "es": "Refrigeración detiene toda fermentación",
-                  "de": "Kühlung stoppt alle Fermentation",
-                  "nl": "Koeling stopt alle fermentatie"
-        },
-        {
-                  "en": "Only used to delay spoilage",
-                  "es": "Solo usado para retrasar deterioro",
-                  "de": "Nur verwendet um Verderb zu verzögern",
-                  "nl": "Alleen gebruikt om bederf te vertragen"
-        },
-        {
-                  "en": "Slowing fermentation by refrigerating dough (2-4°C) for 8-72h. BENEFITS: (1) COMPLEX FLAVOR—slow fermentation allows enzymes to break down starches/proteins → deeper, sweeter, more nuanced taste. (2) BETTER STRUCTURE—extended gluten development, stronger network. (3) CONVENIENT—fit baking into schedule. (4) IMPROVED CRUST—longer fermentation = more sugars/amino acids for Maillard browning. Used for: pizza, baguettes, sourdough. Can retard: shaped loaves or bulk dough. Professional bakeries retard OVERNIGHT routinely",
-                  "es": "Ralentizar fermentación refrigerando masa (2-4°C) durante 8-72h. BENEFICIOS: (1) SABOR COMPLEJO—fermentación lenta permite enzimas descomponer almidones/proteínas → sabor más profundo, dulce, matizado. (2) MEJOR ESTRUCTURA—desarrollo de gluten extendido, red más fuerte. (3) CONVENIENTE—ajustar horneado a horario. (4) CORTEZA MEJORADA—fermentación más larga = más azúcares/aminoácidos para dorado Maillard. Usado para: pizza, baguettes, masa madre. Puede retardar: hogazas formadas o masa en bloque. Panaderías profesionales retardan NOCHE rutinariamente",
-                  "de": "Fermentation verlangsamen durch Kühlen von Teig (2-4°C) für 8-72h. VORTEILE: (1) KOMPLEXER GESCHMACK—langsame Fermentation erlaubt Enzymen Stärken/Proteine abzubauen → tieferer, süßerer, nuancierterer Geschmack. (2) BESSERE STRUKTUR—verlängerte Glutenentwicklung, stärkeres Netzwerk. (3) BEQUEM—Backen in Zeitplan einfügen. (4) VERBESSERTE KRUSTE—längere Fermentation = mehr Zucker/Aminosäuren für Maillard-Bräunung. Verwendet für: Pizza, Baguettes, Sauerteig. Kann retardieren: geformte Laibe oder Massenteig. Professionelle Bäckereien retardieren NACHT routinemäßig",
-                  "nl": "Fermentatie vertragen door deeg te koelen (2-4°C) gedurende 8-72u. VOORDELEN: (1) COMPLEXE SMAAK—trage fermentatie staat enzymen toe zetmelen/eiwitten af te breken → diepere, zoetere, genuanceerdere smaak. (2) BETERE STRUCTUUR—verlengde glutenontwikkeling, sterker netwerk. (3) HANDIG—bakken in schema passen. (4) VERBETERDE KORST—langere fermentatie = meer suikers/aminozuren voor Maillard bruining. Gebruikt voor: pizza, baguettes, zuurdesem. Kan vertragen: gevormde broden of bulkdeeg. Professionele bakkerijen vertragen NACHT routinematig"
-        },
-        {
-                  "en": "Retarding ruins bread completely",
-                  "es": "Retardar arruina pan completamente",
-                  "de": "Retardieren ruiniert Brot vollständig",
-                  "nl": "Vertragen vernietigt brood volledig"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Retarding (also called cold fermentation) means deliberately slowing down fermentation by refrigerating dough at 2-4°C (35-40°F) for extended periods (8-72 hours). BENEFITS are substantial: (1) COMPLEX FLAVOR DEVELOPMENT—the slow, cold fermentation allows flour enzymes (amylase, protease) extended time to break down starches into sugars and proteins into amino acids, creating deeper, sweeter, more nuanced flavors that fast fermentation can't achieve. (2) BETTER GLUTEN STRUCTURE—extended development time creates stronger, more organized gluten networks. (3) SCHEDULING CONVENIENCE—mix dough at night, bake next morning; fit baking into your schedule. (4) SUPERIOR CRUST—longer fermentation produces more sugars and amino acids available for Maillard browning reactions, creating darker, more flavorful crust. Commonly used for pizza dough (2-3 day cold ferment is standard), baguettes, and sourdough. You can retard either shaped loaves (final proof in fridge) or bulk dough (before shaping). Professional bakeries routinely retard dough overnight. The transformation in flavor complexity is dramatic.",
-                  "es": "Retardar (también llamado fermentación fría) significa ralentizar deliberadamente fermentación refrigerando masa a 2-4°C (35-40°F) durante períodos extendidos (8-72 horas). Los BENEFICIOS son sustanciales: (1) DESARROLLO DE SABOR COMPLEJO—la fermentación lenta y fría permite a enzimas de harina (amilasa, proteasa) tiempo extendido para descomponer almidones en azúcares y proteínas en aminoácidos, creando sabores más profundos, dulces y matizados que fermentación rápida no puede lograr. (2) MEJOR ESTRUCTURA DE GLUTEN—tiempo de desarrollo extendido crea redes de gluten más fuertes y organizadas. (3) CONVENIENCIA DE HORARIO—mezclar masa en noche, hornear siguiente mañana; ajustar horneado a tu horario. (4) CORTEZA SUPERIOR—fermentación más larga produce más azúcares y aminoácidos disponibles para reacciones de dorado Maillard, creando corteza más oscura y sabrosa. Comúnmente usado para masa de pizza (fermentación fría de 2-3 días es estándar), baguettes y masa madre. Puedes retardar hogazas formadas (fermentación final en nevera) o masa en bloque (antes de formar). Panaderías profesionales rutinariamente retardan masa durante noche. La transformación en complejidad de sabor es dramática.",
-                  "de": "Retardieren (auch kalte Fermentation genannt) bedeutet absichtlich Fermentation verlangsamen durch Kühlen von Teig bei 2-4°C (35-40°F) für verlängerte Perioden (8-72 Stunden). VORTEILE sind substanziell: (1) KOMPLEXE GESCHMACKSENTWICKLUNG—die langsame, kalte Fermentation erlaubt Mehlenzymen (Amylase, Protease) verlängerte Zeit Stärken in Zucker und Proteine in Aminosäuren abzubauen, erzeugt tiefere, süßere, nuanciertere Geschmäcker die schnelle Fermentation nicht erreichen kann. (2) BESSERE GLUTENSTRUKTUR—verlängerte Entwicklungszeit erzeugt stärkere, organisiertere Glutennetzwerke. (3) ZEITPLAN-BEQUEMLICHKEIT—Teig nachts mischen, nächsten Morgen backen; Backen in deinen Zeitplan einfügen. (4) ÜBERLEGENE KRUSTE—längere Fermentation produziert mehr Zucker und Aminosäuren verfügbar für Maillard-Bräunungsreaktionen, erzeugt dunklere, geschmackvollere Kruste. Häufig verwendet für Pizzateig (2-3 Tage kalte Fermentation ist Standard), Baguettes und Sauerteig. Du kannst geformte Laibe retardieren (finale Gärung im Kühlschrank) oder Massenteig (vor Formen). Professionelle Bäckereien retardieren routinemäßig Teig über Nacht. Die Transformation in Geschmackskomplexität ist dramatisch.",
-                  "nl": "Vertragen (ook wel koude fermentatie genoemd) betekent opzettelijk fermentatie vertragen door deeg te koelen bij 2-4°C (35-40°F) gedurende verlengde periodes (8-72 uur). VOORDELEN zijn substantieel: (1) COMPLEXE SMAAKONTWIKKELING—de trage, koude fermentatie staat meelenzymen (amylase, protease) verlengde tijd toe om zetmelen af te breken tot suikers en eiwitten tot aminozuren, creërend diepere, zoetere, genuanceerdere smaken die snelle fermentatie niet kan bereiken. (2) BETERE GLUTENSTRUCTUUR—verlengde ontwikkelingstijd creëert sterkere, beter georganiseerde glutennetwerken. (3) PLANNING GEMAK—deeg 's nachts mengen, volgende ochtend bakken; bakken in je schema passen. (4) SUPERIEURE KORST—langere fermentatie produceert meer suikers en aminozuren beschikbaar voor Maillard bruiningsreacties, creërend donkerdere, smaakvoller korst. Vaak gebruikt voor pizzadeeg (2-3 dag koude fermentatie is standaard), baguettes en zuurdesem. Je kunt gevormde broden vertragen (finale rijzing in koelkast) of bulkdeeg (voor vormen). Professionele bakkerijen vertragen routinematig deeg gedurende nacht. De transformatie in smaakcomplexiteit is dramatisch."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'coil folding' vs 'stretch-and-fold' and when should you use each technique during bulk fermentation?",
-                  "es": "¿Qué es 'doblado en espiral' vs 'estirar-y-doblar' y cuándo debes usar cada técnica durante fermentación en bloque?",
-                  "de": "Was ist 'Spiralfalten' vs 'Strecken-und-Falten' und wann solltest du jede Technik während Massenfermentation verwenden?",
-                  "nl": "Wat is 'spiraalvouwen' vs 'rek-en-vouw' en wanneer moet je elke techniek gebruiken tijdens bulkfermentatie?"
-        },
-        options: [
-        {
-                  "en": "Both strengthen dough during bulk fermentation without kneading. STRETCH-AND-FOLD: lift one dough side, stretch up, fold over center. Rotate, repeat 4 sides. AGGRESSIVE, builds strength quickly. Use: EARLY bulk fermentation (first 2 folds), LOWER hydration doughs (60-70%), when dough needs structure. COIL FOLD: gently lift dough center, let ends coil under. Rotate, repeat. GENTLE, preserves gas bubbles. Use: LATE bulk fermentation (last 1-2 folds), HIGH hydration doughs (75-85%+), developed dough. Both replace kneading for artisan breads",
-                  "es": "Ambos fortalecen masa durante fermentación en bloque sin amasar. ESTIRAR-Y-DOBLAR: levantar un lado de masa, estirar arriba, doblar sobre centro. Rotar, repetir 4 lados. AGRESIVO, construye fuerza rápidamente. Usar: fermentación en bloque TEMPRANA (primeros 2 dobleces), masas de hidratación MÁS BAJA (60-70%), cuando masa necesita estructura. DOBLADO EN ESPIRAL: levantar suavemente centro de masa, dejar extremos enrollarse debajo. Rotar, repetir. SUAVE, preserva burbujas de gas. Usar: fermentación en bloque TARDÍA (últimos 1-2 dobleces), masas de ALTA hidratación (75-85%+), masa desarrollada. Ambos reemplazan amasado para panes artesanales",
-                  "de": "Beide stärken Teig während Massenfermentation ohne Kneten. STRECKEN-UND-FALTEN: eine Teigseite anheben, nach oben strecken, über Mitte falten. Drehen, 4 Seiten wiederholen. AGGRESSIV, baut schnell Stärke auf. Verwenden: FRÜHE Massenfermentation (erste 2 Falten), NIEDRIGERE Hydratation Teige (60-70%), wenn Teig Struktur braucht. SPIRALFALTEN: Teigmitte sanft anheben, Enden unter sich rollen lassen. Drehen, wiederholen. SANFT, bewahrt Gasblasen. Verwenden: SPÄTE Massenfermentation (letzte 1-2 Falten), HOHE Hydratation Teige (75-85%+), entwickelter Teig. Beide ersetzen Kneten für handwerkliche Brote",
-                  "nl": "Beide versterken deeg tijdens bulkfermentatie zonder kneden. REK-EN-VOUW: één deegzijde optillen, omhoog rekken, over centrum vouwen. Draaien, 4 zijden herhalen. AGRESSIEF, bouwt snel kracht op. Gebruik: VROEGE bulkfermentatie (eerste 2 vouwen), LAGERE hydratatie degen (60-70%), wanneer deeg structuur nodig heeft. SPIRAALVOUWEN: deegcentrum zachtjes optillen, uiteinden laten oprollen onder. Draaien, herhalen. ZACHTZACHT, behoudt gasbellen. Gebruik: LATE bulkfermentatie (laatste 1-2 vouwen), HOGE hydratatie degen (75-85%+), ontwikkeld deeg. Beide vervangen kneden voor ambachtelijk brood"
-        },
-        {
-                  "en": "Should never fold dough during fermentation",
-                  "es": "Nunca debes doblar masa durante fermentación",
-                  "de": "Sollte niemals Teig während Fermentation falten",
-                  "nl": "Moet nooit deeg vouwen tijdens fermentatie"
-        },
-        {
-                  "en": "These techniques are identical",
-                  "es": "Estas técnicas son idénticas",
-                  "de": "Diese Techniken sind identisch",
-                  "nl": "Deze technieken zijn identiek"
-        },
-        {
-                  "en": "Only used for cake baking",
-                  "es": "Solo usado para hornear pasteles",
-                  "de": "Nur für Kuchenbacken verwendet",
-                  "nl": "Alleen gebruikt voor taart bakken"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Both coil folding and stretch-and-fold are techniques to strengthen dough during bulk fermentation without traditional kneading—essential for high-hydration artisan breads. STRETCH-AND-FOLD: Wet hands, lift one edge of dough, stretch it upward, fold over the center. Rotate bowl 90°, repeat for all 4 sides. This is AGGRESSIVE—it vigorously develops gluten and builds structure quickly. Use during EARLY bulk fermentation (first 2 folds, done 30-60 min apart), for LOWER hydration doughs (60-70%) that can handle the manipulation, or when dough feels slack and needs strengthening. COIL FOLD: Wet hands, gently lift the dough from the center, letting both ends coil/fold underneath from their own weight. Rotate, repeat. This is GENTLE—it builds some strength while PRESERVING the gas bubbles already formed. Use during LATE bulk fermentation (last 1-2 folds), for HIGH hydration doughs (75-85%+) that are too delicate for aggressive handling, or when dough is well-developed and you want to maintain airiness. Both techniques replace traditional kneading for modern artisan breads, allowing gentle gluten development without deflating the dough.",
-                  "es": "Tanto doblado en espiral como estirar-y-doblar son técnicas para fortalecer masa durante fermentación en bloque sin amasado tradicional—esencial para panes artesanales de alta hidratación. ESTIRAR-Y-DOBLAR: Mojar manos, levantar un borde de masa, estirarlo hacia arriba, doblar sobre centro. Rotar bol 90°, repetir para los 4 lados. Esto es AGRESIVO—desarrolla vigorosamente gluten y construye estructura rápidamente. Usar durante fermentación en bloque TEMPRANA (primeros 2 dobleces, hechos con 30-60 min de separación), para masas de hidratación MÁS BAJA (60-70%) que pueden manejar manipulación, o cuando masa se siente floja y necesita fortalecimiento. DOBLADO EN ESPIRAL: Mojar manos, levantar suavemente masa desde centro, dejando ambos extremos enrollarse/doblarse debajo de su propio peso. Rotar, repetir. Esto es SUAVE—construye algo de fuerza mientras PRESERVA burbujas de gas ya formadas. Usar durante fermentación en bloque TARDÍA (últimos 1-2 dobleces), para masas de ALTA hidratación (75-85%+) que son demasiado delicadas para manejo agresivo, o cuando masa está bien desarrollada y quieres mantener aireación. Ambas técnicas reemplazan amasado tradicional para panes artesanales modernos, permitiendo desarrollo de gluten suave sin desinflar masa.",
-                  "de": "Sowohl Spiralfalten als auch Strecken-und-Falten sind Techniken um Teig während Massenfermentation ohne traditionelles Kneten zu stärken—essentiell für hochhydrierte handwerkliche Brote. STRECKEN-UND-FALTEN: Hände befeuchten, eine Teigkante anheben, nach oben strecken, über Mitte falten. Schüssel 90° drehen, für alle 4 Seiten wiederholen. Dies ist AGGRESSIV—es entwickelt kräftig Gluten und baut schnell Struktur auf. Verwenden während FRÜHER Massenfermentation (erste 2 Falten, 30-60 Min auseinander), für NIEDRIGERE Hydratation Teige (60-70%) die Manipulation handhaben können, oder wenn Teig sich schlaff anfühlt und Stärkung braucht. SPIRALFALTEN: Hände befeuchten, Teig sanft von Mitte anheben, beide Enden von eigenem Gewicht darunter rollen/falten lassen. Drehen, wiederholen. Dies ist SANFT—es baut etwas Stärke auf während es bereits geformte Gasblasen BEWAHRT. Verwenden während SPÄTER Massenfermentation (letzte 1-2 Falten), für HOHE Hydratation Teige (75-85%+) die zu zart für aggressive Handhabung sind, oder wenn Teig gut entwickelt ist und du Luftigkeit erhalten willst. Beide Techniken ersetzen traditionelles Kneten für moderne handwerkliche Brote, erlauben sanfte Glutenentwicklung ohne Teig zu entleeren.",
-                  "nl": "Zowel spiraalvouwen als rek-en-vouw zijn technieken om deeg te versterken tijdens bulkfermentatie zonder traditioneel kneden—essentieel voor hoge-hydratatie ambachtelijk brood. REK-EN-VOUW: Handen nat maken, één deegrand optillen, omhoog rekken, over centrum vouwen. Kom 90° draaien, herhalen voor alle 4 zijden. Dit is AGRESSIEF—het ontwikkelt krachtig gluten en bouwt snel structuur op. Gebruik tijdens VROEGE bulkfermentatie (eerste 2 vouwen, gedaan met 30-60 min tussenruimte), voor LAGERE hydratatie degen (60-70%) die manipulatie aankunnen, of wanneer deeg slap voelt en versterking nodig heeft. SPIRAALVOUWEN: Handen nat maken, deeg zachtjes van centrum optillen, beide uiteinden laten oprollen/vouwen onder van eigen gewicht. Draaien, herhalen. Dit is ZACHTZACHT—het bouwt wat kracht op terwijl het reeds gevormde gasbellen BEHOUDT. Gebruik tijdens LATE bulkfermentatie (laatste 1-2 vouwen), voor HOGE hydratatie degen (75-85%+) die te delicaat zijn voor agressieve behandeling, of wanneer deeg goed ontwikkeld is en je luchtigheid wilt behouden. Beide technieken vervangen traditioneel kneden voor modern ambachtelijk brood, maken zachte glutenontwikkeling mogelijk zonder deeg leeg te laten lopen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the 'windowpane test' and what does it tell you about gluten development in your dough?",
-                  "es": "¿Qué es la 'prueba de ventana' y qué te dice sobre desarrollo de gluten en tu masa?",
-                  "de": "Was ist der 'Fensterscheibentest' und was sagt er über Glutenentwicklung in deinem Teig?",
-                  "nl": "Wat is de 'vensterglas test' en wat vertelt het over glutenontwikkeling in je deeg?"
-        },
-        options: [
-        {
-                  "en": "A test to check oven temperature",
-                  "es": "Una prueba para verificar temperatura del horno",
-                  "de": "Ein Test um Ofentemperatur zu prüfen",
-                  "nl": "Een test om oventemperatuur te controleren"
-        },
-        {
-                  "en": "Test for gluten development: pinch small dough piece, gently stretch between fingers into thin membrane. PASS: dough stretches thin enough to see light through (like window) without tearing—gluten fully developed, strong network formed. FAIL: dough tears immediately—underworked, weak gluten, needs more kneading/folding. Used to know: when to STOP kneading (avoid overworking), if bulk fermentation developed enough structure, dough ready for shaping. Critical for: breads needing strong gluten (baguettes, challah). Less critical for: rustic high-hydration breads",
-                  "es": "Prueba para desarrollo de gluten: pellizcar pequeño trozo de masa, estirar suavemente entre dedos en membrana delgada. PASA: masa se estira suficientemente delgada para ver luz a través (como ventana) sin rasgarse—gluten completamente desarrollado, red fuerte formada. FALLA: masa rasga inmediatamente—poco trabajada, gluten débil, necesita más amasado/doblado. Usado para saber: cuándo PARAR de amasar (evitar sobretrabajar), si fermentación en bloque desarrolló suficiente estructura, masa lista para formar. Crítico para: panes que necesitan gluten fuerte (baguettes, challah). Menos crítico para: panes rústicos de alta hidratación",
-                  "de": "Test für Glutenentwicklung: kleines Teigstück kneifen, sanft zwischen Fingern zu dünner Membran strecken. BESTANDEN: Teig dehnt sich dünn genug um Licht durchzusehen (wie Fenster) ohne zu reißen—Gluten vollständig entwickelt, starkes Netzwerk geformt. DURCHGEFALLEN: Teig reißt sofort—unterbearbeitet, schwaches Gluten, braucht mehr Kneten/Falten. Verwendet um zu wissen: wann mit Kneten AUFHÖREN (Überarbeitung vermeiden), ob Massenfermentation genug Struktur entwickelt hat, Teig bereit zum Formen. Kritisch für: Brote die starkes Gluten brauchen (Baguettes, Challah). Weniger kritisch für: rustikale hochhydrierte Brote",
-                  "nl": "Test voor glutenontwikkeling: klein deegstuk knijpen, zachtjes tussen vingers rekken tot dunne membraan. GESLAAGD: deeg rekt dun genoeg om licht doorheen te zien (zoals venster) zonder te scheuren—gluten volledig ontwikkeld, sterk netwerk gevormd. GEZAKT: deeg scheurt onmiddellijk—onderbewerkt, zwak gluten, heeft meer kneden/vouwen nodig. Gebruikt om te weten: wanneer STOPPEN met kneden (overwerken vermijden), of bulkfermentatie genoeg structuur ontwikkeld heeft, deeg klaar voor vormen. Kritiek voor: broden die sterk gluten nodig hebben (baguettes, challah). Minder kritiek voor: rustiek hoge-hydratatie brood"
-        },
-        {
-                  "en": "Only works with sourdough",
-                  "es": "Solo funciona con masa madre",
-                  "de": "Funktioniert nur mit Sauerteig",
-                  "nl": "Werkt alleen met zuurdesem"
-        },
-        {
-                  "en": "Gluten development cannot be tested",
-                  "es": "Desarrollo de gluten no puede probarse",
-                  "de": "Glutenentwicklung kann nicht getestet werden",
-                  "nl": "Glutenontwikkeling kan niet getest worden"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The windowpane test is a simple, visual way to assess gluten development in bread dough. PROCEDURE: Pinch off a small golf-ball-sized piece of dough. Using wet fingers, gently stretch it between your hands, gradually thinning it into a translucent membrane. INTERPRETATION: PASS—if the dough stretches thin enough that you can see light through it (like looking through a window pane) without tearing, your gluten network is fully developed and strong. FAIL—if the dough tears immediately or can't stretch thin, gluten is underdeveloped; dough needs more kneading, folding, or fermentation time. USES: (1) Know when to STOP kneading (avoid overworking which weakens gluten). (2) Check if bulk fermentation has developed sufficient structure through folding. (3) Confirm dough is ready for shaping. The test is CRITICAL for breads requiring strong gluten structure (baguettes, challah, sandwich bread) but LESS important for rustic, high-hydration breads where some tearing is acceptable. It's the baker's most reliable tactile test for gluten strength.",
-                  "es": "La prueba de ventana es una forma simple y visual de evaluar desarrollo de gluten en masa de pan. PROCEDIMIENTO: Pellizcar un trozo pequeño de masa del tamaño de pelota de golf. Usando dedos mojados, estirarlo suavemente entre tus manos, adelgazándolo gradualmente en membrana translúcida. INTERPRETACIÓN: PASA—si masa se estira suficientemente delgada que puedes ver luz a través (como mirar a través de cristal de ventana) sin rasgarse, tu red de gluten está completamente desarrollada y fuerte. FALLA—si masa rasga inmediatamente o no puede estirarse delgada, gluten está subdesarrollado; masa necesita más amasado, doblado o tiempo de fermentación. USOS: (1) Saber cuándo PARAR de amasar (evitar sobretrabajar que debilita gluten). (2) Verificar si fermentación en bloque ha desarrollado suficiente estructura a través de doblado. (3) Confirmar que masa está lista para formar. La prueba es CRÍTICA para panes que requieren estructura de gluten fuerte (baguettes, challah, pan de molde) pero MENOS importante para panes rústicos de alta hidratación donde algo de rasgado es aceptable. Es la prueba táctil más confiable del panadero para fuerza de gluten.",
-                  "de": "Der Fensterscheibentest ist eine einfache, visuelle Weise Glutenentwicklung in Brotteig zu bewerten. VERFAHREN: Golfballgroßes Teigstück abkneifen. Mit nassen Fingern sanft zwischen Händen strecken, es graduell zu transluzenter Membran verdünnen. INTERPRETATION: BESTANDEN—wenn Teig dünn genug dehnt dass du Licht durchsehen kannst (wie durch Fensterscheibe schauen) ohne zu reißen, ist dein Glutennetzwerk vollständig entwickelt und stark. DURCHGEFALLEN—wenn Teig sofort reißt oder sich nicht dünn dehnen kann, ist Gluten unterentwickelt; Teig braucht mehr Kneten, Falten oder Fermentationszeit. VERWENDUNGEN: (1) Wissen wann mit Kneten AUFHÖREN (Überarbeitung vermeiden die Gluten schwächt). (2) Prüfen ob Massenfermentation ausreichende Struktur durch Falten entwickelt hat. (3) Bestätigen dass Teig bereit zum Formen ist. Der Test ist KRITISCH für Brote die starke Glutenstruktur erfordern (Baguettes, Challah, Sandwichbrot) aber WENIGER wichtig für rustikale, hochhydrierte Brote wo etwas Reißen akzeptabel ist. Es ist des Bäckers zuverlässigster taktiler Test für Glutenstärke.",
-                  "nl": "De vensterglas test is een eenvoudige, visuele manier om glutenontwikkeling in brooddeeg te beoordelen. PROCEDURE: Knijp een klein golfbal-groot stuk deeg af. Gebruik natte vingers, rek het zachtjes tussen je handen, verdun het geleidelijk tot doorschijnend membraan. INTERPRETATIE: GESLAAGD—als deeg dun genoeg rekt dat je licht erdoorheen kunt zien (zoals door vensterglas kijken) zonder te scheuren, is je glutennetwerk volledig ontwikkeld en sterk. GEZAKT—als deeg onmiddellijk scheurt of niet dun kan rekken, is gluten onderontwikkeld; deeg heeft meer kneden, vouwen of fermentatietijd nodig. TOEPASSINGEN: (1) Weten wanneer STOPPEN met kneden (overwerken vermijden wat gluten verzwakt). (2) Controleren of bulkfermentatie voldoende structuur heeft ontwikkeld door vouwen. (3) Bevestigen dat deeg klaar is voor vormen. De test is KRITIEK voor broden die sterke glutenstructuur vereisen (baguettes, challah, sandwichbrood) maar MINDER belangrijk voor rustiek, hoge-hydratatie brood waar wat scheuren acceptabel is. Het is de meest betrouwbare tactiele test van de bakker voor glutenkracht."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'final proof' (final rise) and how do you use the 'poke test' to determine when bread is ready to bake?",
-                  "es": "¿Qué es 'fermentación final' (fermentación final) y cómo usas la 'prueba del dedo' para determinar cuándo pan está listo para hornear?",
-                  "de": "Was ist 'finale Gare' (finaler Aufgang) und wie verwendest du den 'Fingertest' um zu bestimmen wann Brot bereit zum Backen ist?",
-                  "nl": "Wat is 'finale rijzing' (finale rijzing) en hoe gebruik je de 'prik test' om te bepalen wanneer brood klaar is om te bakken?"
-        },
-        options: [
-        {
-                  "en": "Last fermentation AFTER shaping, before baking. Dough expands 50-100% in volume. POKE TEST: gently press fingertip ½ inch into dough. UNDERPROOFED: springs back quickly, tight—needs more time, will have poor oven spring. READY: slowly springs back partially, slight indentation remains—perfect, bake now. OVERPROOFED: doesn't spring back, finger hole stays—too late, will collapse in oven, dense/gummy crumb. Timing: 30min-3h depending on temp, yeast type. Final proof is MOST CRITICAL timing decision",
-                  "es": "Última fermentación DESPUÉS de formar, antes de hornear. Masa expande 50-100% en volumen. PRUEBA DEL DEDO: presionar suavemente yema del dedo ½ pulgada en masa. SUBFERMENTADA: rebota rápidamente, tensa—necesita más tiempo, tendrá pobre salto de horno. LISTA: rebota lentamente parcialmente, ligera hendidura permanece—perfecto, hornear ahora. SOBREFERMENTADA: no rebota, agujero de dedo permanece—demasiado tarde, colapsará en horno, miga densa/gomosa. Tiempo: 30min-3h dependiendo temp, tipo levadura. Fermentación final es decisión de tiempo MÁS CRÍTICA",
-                  "de": "Letzte Fermentation NACH Formen, vor Backen. Teig expandiert 50-100% in Volumen. FINGERTEST: Fingerspitze sanft ½ Zoll in Teig drücken. UNTERGÄRT: springt schnell zurück, straff—braucht mehr Zeit, wird schlechten Ofentrieb haben. BEREIT: springt langsam teilweise zurück, leichte Delle bleibt—perfekt, jetzt backen. ÜBERGÄRT: springt nicht zurück, Fingerloch bleibt—zu spät, wird in Ofen kollabieren, dichte/gummiartige Krume. Timing: 30Min-3h abhängig von Temp, Hefetyp. Finale Gare ist KRITISCHSTE Timing-Entscheidung",
-                  "nl": "Laatste fermentatie NA vormen, voor bakken. Deeg expandeert 50-100% in volume. PRIK TEST: vingertopdel zachtjes ½ inch in deeg drukken. ONDERGEREZEN: veert snel terug, strak—heeft meer tijd nodig, zal slechte ovensprong hebben. KLAAR: veert langzaam gedeeltelijk terug, lichte deuk blijft—perfect, nu bakken. OVERGEREZEN: veert niet terug, vingergat blijft—te laat, zal in oven instorten, dichte/rubberachtige kruim. Timing: 30min-3u afhankelijk van temp, gisttype. Finale rijzing is MEEST KRITIEKE timing beslissing"
-        },
-        {
-                  "en": "The poke test is unreliable",
-                  "es": "La prueba del dedo no es confiable",
-                  "de": "Der Fingertest ist unzuverlässig",
-                  "nl": "De prik test is onbetrouwbaar"
-        },
-        {
-                  "en": "All breads proof for exactly 1 hour",
-                  "es": "Todos panes fermentan exactamente 1 hora",
-                  "de": "Alle Brote gären genau 1 Stunde",
-                  "nl": "Alle broden rijzen precies 1 uur"
-        },
-        {
-                  "en": "Final proof happens before shaping",
-                  "es": "Fermentación final ocurre antes de formar",
-                  "de": "Finale Gare passiert vor Formen",
-                  "nl": "Finale rijzing gebeurt voor vormen"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Final proof (also called final rise or final fermentation) is the LAST fermentation period AFTER shaping the dough into loaves but BEFORE baking. During this stage, dough typically expands 50-100% in volume as yeast produces final gas. The POKE TEST determines readiness: gently press your fingertip about ½ inch deep into the dough, then release. INTERPRETATION: UNDERPROOFED—dough springs back quickly and completely, feels tight and dense; needs MORE time or it will have minimal oven spring and dense crumb. READY TO BAKE—dough slowly springs back PARTIALLY, leaving a slight indentation; this is PERFECT timing, bake immediately for maximum oven spring and open crumb. OVERPROOFED—dough doesn't spring back at all, finger hole remains; you've gone TOO FAR, the gluten structure has weakened, bread will collapse in the oven and have dense, gummy crumb. TIMING varies wildly: 30 minutes to 3+ hours depending on temperature, yeast type (sourdough slower), and dough hydration. Final proof timing is arguably the MOST CRITICAL decision in bread baking—it makes the difference between perfect and disaster.",
-                  "es": "Fermentación final (también llamada fermentación final o fermentación final) es el período de fermentación ÚLTIMO DESPUÉS de formar masa en hogazas pero ANTES de hornear. Durante esta etapa, masa típicamente expande 50-100% en volumen mientras levadura produce gas final. La PRUEBA DEL DEDO determina preparación: presionar suavemente yema del dedo aproximadamente ½ pulgada de profundidad en masa, luego soltar. INTERPRETACIÓN: SUBFERMENTADA—masa rebota rápida y completamente, se siente tensa y densa; necesita MÁS tiempo o tendrá salto de horno mínimo y miga densa. LISTA PARA HORNEAR—masa rebota lentamente PARCIALMENTE, dejando ligera hendidura; esto es tiempo PERFECTO, hornear inmediatamente para máximo salto de horno y miga abierta. SOBREFERMENTADA—masa no rebota en absoluto, agujero de dedo permanece; has ido DEMASIADO LEJOS, estructura de gluten se ha debilitado, pan colapsará en horno y tendrá miga densa y gomosa. TIEMPO varía enormemente: 30 minutos a 3+ horas dependiendo de temperatura, tipo de levadura (masa madre más lenta), e hidratación de masa. Tiempo de fermentación final es posiblemente la decisión MÁS CRÍTICA en panadería—marca diferencia entre perfecto y desastre.",
-                  "de": "Finale Gare (auch finaler Aufgang oder finale Fermentation genannt) ist die LETZTE Fermentationsperiode NACH Formen des Teigs in Laibe aber VOR Backen. Während dieser Phase expandiert Teig typisch 50-100% in Volumen während Hefe finales Gas produziert. Der FINGERTEST bestimmt Bereitschaft: Fingerspitze sanft etwa ½ Zoll tief in Teig drücken, dann loslassen. INTERPRETATION: UNTERGÄRT—Teig springt schnell und vollständig zurück, fühlt sich straff und dicht an; braucht MEHR Zeit oder wird minimalen Ofentrieb und dichte Krume haben. BEREIT ZUM BACKEN—Teig springt langsam TEILWEISE zurück, hinterlässt leichte Delle; dies ist PERFEKTES Timing, sofort backen für maximalen Ofentrieb und offene Krume. ÜBERGÄRT—Teig springt überhaupt nicht zurück, Fingerloch bleibt; du bist ZU WEIT gegangen, Glutenstruktur hat sich geschwächt, Brot wird in Ofen kollabieren und dichte, gummiartige Krume haben. TIMING variiert wild: 30 Minuten bis 3+ Stunden abhängig von Temperatur, Hefetyp (Sauerteig langsamer), und Teighydratation. Finale Gare Timing ist wohl die KRITISCHSTE Entscheidung beim Brotbacken—es macht Unterschied zwischen perfekt und Katastrophe.",
-                  "nl": "Finale rijzing (ook wel finale rijzing of finale fermentatie genoemd) is de LAATSTE fermentatieperiode NA vormen van deeg tot broden maar VOOR bakken. Tijdens deze fase expandeert deeg typisch 50-100% in volume terwijl gist finaal gas produceert. De PRIK TEST bepaalt gereedheid: vingertopdel zachtjes ongeveer ½ inch diep in deeg drukken, dan loslaten. INTERPRETATIE: ONDERGEREZEN—deeg veert snel en volledig terug, voelt strak en dicht; heeft MEER tijd nodig of zal minimale ovensprong en dichte kruim hebben. KLAAR OM TE BAKKEN—deeg veert langzaam GEDEELTELIJK terug, laat lichte deuk achter; dit is PERFECTE timing, onmiddellijk bakken voor maximale ovensprong en open kruim. OVERGEREZEN—deeg veert helemaal niet terug, vingergat blijft; je bent TE VER gegaan, glutenstructuur is verzwakt, brood zal in oven instorten en dichte, rubberachtige kruim hebben. TIMING varieert enorm: 30 minuten tot 3+ uur afhankelijk van temperatuur, gisttype (zuurdesem langzamer), en deeghydratatie. Finale rijzing timing is waarschijnlijk de MEEST KRITIEKE beslissing in brood bakken—het maakt het verschil tussen perfect en ramp."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'oven spring' and what are the 3 main factors that maximize it for achieving tall, well-risen bread?",
-                  "es": "¿Qué es 'salto de horno' y cuáles son los 3 factores principales que lo maximizan para lograr pan alto y bien fermentado?",
-                  "de": "Was ist 'Ofentrieb' und was sind die 3 Hauptfaktoren die ihn maximieren um hohes, gut aufgegangenes Brot zu erreichen?",
-                  "nl": "Wat is 'ovensprong' en wat zijn de 3 hoofdfactoren die het maximaliseren voor het bereiken van hoog, goed gerezen brood?"
-        },
-        options: [
-        {
-                  "en": "Overproofed bread has the best oven spring",
-                  "es": "Pan sobrefermentado tiene mejor salto de horno",
-                  "de": "Übergärtes Brot hat besten Ofentrieb",
-                  "nl": "Overgerezen brood heeft beste ovensprong"
-        },
-        {
-                  "en": "Temperature has no effect on oven spring",
-                  "es": "Temperatura no tiene efecto en salto de horno",
-                  "de": "Temperatur hat keinen Effekt auf Ofentrieb",
-                  "nl": "Temperatuur heeft geen effect op ovensprong"
-        },
-        {
-                  "en": "Rapid bread expansion in first 10-15 min of baking (can grow 20-30% taller). 3 FACTORS: (1) STEAM—keeps crust flexible, delays setting, allows expansion. (2) PROPER PROOFING—slightly underproofed dough has yeast energy left for final burst. Overproofed = NO oven spring (collapsed gluten). (3) HIGH INITIAL HEAT (230-250°C)—rapid temp rise causes explosive yeast activity + water vaporization. Also helps: deep scoring (directs expansion), strong gluten network. Oven spring = difference between mediocre and spectacular bread",
-                  "es": "Expansión rápida de pan en primeros 10-15 min de horneado (puede crecer 20-30% más alto). 3 FACTORES: (1) VAPOR—mantiene corteza flexible, retrasa fijación, permite expansión. (2) FERMENTACIÓN APROPIADA—masa ligeramente subfermentada tiene energía de levadura restante para explosión final. Sobrefermentada = SIN salto de horno (gluten colapsado). (3) CALOR INICIAL ALTO (230-250°C)—aumento de temp rápido causa actividad explosiva de levadura + vaporización de agua. También ayuda: marcado profundo (dirige expansión), red de gluten fuerte. Salto de horno = diferencia entre pan mediocre y espectacular",
-                  "de": "Schnelle Brotexpansion in ersten 10-15 Min Backen (kann 20-30% höher wachsen). 3 FAKTOREN: (1) DAMPF—hält Kruste flexibel, verzögert Festsetzen, erlaubt Expansion. (2) RICHTIGE GARE—leicht untergärter Teig hat Hefeenergie übrig für finalen Schub. Übergärt = KEIN Ofentrieb (kollabiertes Gluten). (3) HOHE ANFANGSHITZE (230-250°C)—schneller Temp-Anstieg verursacht explosive Hefeaktivität + Wasserverdampfung. Hilft auch: tiefes Einschneiden (lenkt Expansion), starkes Glutennetzwerk. Ofentrieb = Unterschied zwischen mittelmäßigem und spektakulärem Brot",
-                  "nl": "Snelle broodexpansie in eerste 10-15 min bakken (kan 20-30% hoger groeien). 3 FACTOREN: (1) STOOM—houdt korst flexibel, vertraagt vastzetten, staat expansie toe. (2) JUISTE RIJZING—licht ondergerezen deeg heeft gistenergie over voor finale uitbarsting. Overgerezen = GEEN ovensprong (ingestort gluten). (3) HOGE INITIËLE HITTE (230-250°C)—snelle temp stijging veroorzaakt explosieve gistactiviteit + waterverdamping. Helpt ook: diep insnijden (stuurt expansie), sterk glutennetwerk. Ovensprong = verschil tussen middelmatig en spectaculair brood"
-        },
-        {
-                  "en": "Oven spring only happens in commercial ovens",
-                  "es": "Salto de horno solo ocurre en hornos comerciales",
-                  "de": "Ofentrieb passiert nur in kommerziellen Öfen",
-                  "nl": "Ovensprong gebeurt alleen in commerciële ovens"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Oven spring is the dramatic, rapid expansion of bread during the first 10-15 minutes of baking, when loaves can grow 20-30% taller. It's the difference between flat, dense bread and tall, airy, professional-looking loaves. THREE MAIN FACTORS maximize oven spring: (1) STEAM—adding steam to the oven keeps the crust surface moist and flexible, delaying crust formation and allowing maximum expansion before the crust sets and restricts growth. (2) PROPER PROOFING—slightly underproofed dough (not fully risen) has yeast energy remaining for a final explosive burst of CO2 production when heat activates the yeast. Overproofed dough has exhausted yeast and collapsed gluten = ZERO oven spring. (3) HIGH INITIAL OVEN TEMPERATURE (230-250°C/450-480°F)—rapid temperature rise causes explosive yeast activity PLUS rapid water vaporization (steam from within pushes dough up). ADDITIONAL HELPERS: deep scoring cuts (direct where expansion happens), strong gluten network (holds gas without tearing). Oven spring is THE visual indicator of baking skill—it's the dramatic transformation that separates mediocre from spectacular bread.",
-                  "es": "Salto de horno es la expansión dramática y rápida de pan durante los primeros 10-15 minutos de horneado, cuando hogazas pueden crecer 20-30% más altas. Es la diferencia entre pan plano y denso y hogazas altas, aireadas, de aspecto profesional. TRES FACTORES PRINCIPALES maximizan salto de horno: (1) VAPOR—añadir vapor al horno mantiene superficie de corteza húmeda y flexible, retrasando formación de corteza y permitiendo expansión máxima antes de que corteza se fije y restrinja crecimiento. (2) FERMENTACIÓN APROPIADA—masa ligeramente subfermentada (no completamente fermentada) tiene energía de levadura restante para explosión final de producción de CO2 cuando calor activa levadura. Masa sobrefermentada ha agotado levadura y gluten colapsado = CERO salto de horno. (3) TEMPERATURA DE HORNO INICIAL ALTA (230-250°C/450-480°F)—aumento rápido de temperatura causa actividad explosiva de levadura MÁS vaporización rápida de agua (vapor desde dentro empuja masa hacia arriba). AYUDANTES ADICIONALES: cortes de marcado profundos (dirigen donde ocurre expansión), red de gluten fuerte (retiene gas sin rasgarse). Salto de horno es EL indicador visual de habilidad de panadería—es la transformación dramática que separa pan mediocre de espectacular.",
-                  "de": "Ofentrieb ist die dramatische, schnelle Expansion von Brot während der ersten 10-15 Minuten Backen, wenn Laibe 20-30% höher wachsen können. Es ist der Unterschied zwischen flachem, dichtem Brot und hohen, luftigen, professionell aussehenden Laiben. DREI HAUPTFAKTOREN maximieren Ofentrieb: (1) DAMPF—Dampf zum Ofen hinzufügen hält Krustenoberfläche feucht und flexibel, verzögert Krustenbildung und erlaubt maximale Expansion bevor Kruste sich festsetzt und Wachstum einschränkt. (2) RICHTIGE GARE—leicht untergärter Teig (nicht vollständig aufgegangen) hat Hefeenergie übrig für finale explosive CO2-Produktionsstoß wenn Hitze Hefe aktiviert. Übergärter Teig hat erschöpfte Hefe und kollabiertes Gluten = NULL Ofentrieb. (3) HOHE ANFANGSOFENTEMPERATUR (230-250°C/450-480°F)—schneller Temperaturanstieg verursacht explosive Hefeaktivität PLUS schnelle Wasserverdampfung (Dampf von innen drückt Teig hoch). ZUSÄTZLICHE HELFER: tiefe Einschnittschnitte (lenken wo Expansion passiert), starkes Glutennetzwerk (hält Gas ohne zu reißen). Ofentrieb ist DER visuelle Indikator für Backfähigkeit—es ist die dramatische Transformation die mittelmäßiges von spektakulärem Brot trennt.",
-                  "nl": "Ovensprong is de dramatische, snelle expansie van brood tijdens de eerste 10-15 minuten bakken, wanneer broden 20-30% hoger kunnen groeien. Het is het verschil tussen plat, dicht brood en hoge, luchtige, professioneel uitziende broden. DRIE HOOFDFACTOREN maximaliseren ovensprong: (1) STOOM—stoom toevoegen aan oven houdt korstoppervlak vochtig en flexibel, vertraagt korstvorming en staat maximale expansie toe voordat korst vast wordt en groei beperkt. (2) JUISTE RIJZING—licht ondergerezen deeg (niet volledig gerezen) heeft gistenergie over voor finale explosieve uitbarsting van CO2 productie wanneer warmte gist activeert. Overgerezen deeg heeft uitgeputte gist en ingestort gluten = NUL ovensprong. (3) HOGE INITIËLE OVENTEMPERATUUR (230-250°C/450-480°F)—snelle temperatuurstijging veroorzaakt explosieve gistactiviteit PLUS snelle waterverdamping (stoom van binnen duwt deeg omhoog). AANVULLENDE HELPERS: diepe insnijtsneden (sturen waar expansie gebeurt), sterk glutennetwerk (houdt gas vast zonder te scheuren). Ovensprong is DE visuele indicator van bakvaardigheid—het is de dramatische transformatie die middelmatig van spectaculair brood scheidt."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the difference between 'commercial yeast' and 'wild yeast' (sourdough), and how does this affect fermentation time and flavor?",
-                  "es": "¿Cuál es la diferencia entre 'levadura comercial' y 'levadura salvaje' (masa madre), y cómo afecta esto tiempo de fermentación y sabor?",
-                  "de": "Was ist der Unterschied zwischen 'kommerzieller Hefe' und 'wilder Hefe' (Sauerteig), und wie beeinflusst dies Fermentationszeit und Geschmack?",
-                  "nl": "Wat is het verschil tussen 'commerciële gist' en 'wilde gist' (zuurdesem), en hoe beïnvloedt dit fermentatietijd en smaak?"
-        },
-        options: [
-        {
-                  "en": "COMMERCIAL YEAST (instant/active dry): single Saccharomyces cerevisiae strain, lab-cultivated. FAST fermentation (2-4h), MILD flavor (primarily alcohol/CO2), consistent/predictable, shelf-stable. WILD YEAST (sourdough): diverse ecosystem of wild yeasts + lactobacilli bacteria. SLOW fermentation (8-24h+), COMPLEX tangy flavor (lactic/acetic acids), requires starter maintenance, less predictable. Flavor difference is DRAMATIC. Commercial = quick convenience, wild = artisan depth. Many bakers use BOTH for different bread styles",
-                  "es": "LEVADURA COMERCIAL (instantánea/seca activa): cepa única Saccharomyces cerevisiae, cultivada en laboratorio. Fermentación RÁPIDA (2-4h), sabor SUAVE (principalmente alcohol/CO2), consistente/predecible, estable en almacenamiento. LEVADURA SALVAJE (masa madre): ecosistema diverso de levaduras salvajes + bacterias lactobacilli. Fermentación LENTA (8-24h+), sabor ácido COMPLEJO (ácidos láctico/acético), requiere mantenimiento de masa madre, menos predecible. Diferencia de sabor es DRAMÁTICA. Comercial = conveniencia rápida, salvaje = profundidad artesanal. Muchos panaderos usan AMBAS para diferentes estilos de pan",
-                  "de": "KOMMERZIELLE HEFE (instant/aktiv trocken): einzelner Saccharomyces cerevisiae Stamm, Labor-kultiviert. SCHNELLE Fermentation (2-4h), MILDER Geschmack (hauptsächlich Alkohol/CO2), konsistent/vorhersagbar, lagerstabil. WILDE HEFE (Sauerteig): vielfältiges Ökosystem von wilden Hefen + Lactobacilli Bakterien. LANGSAME Fermentation (8-24h+), KOMPLEXER säuerlicher Geschmack (Milch-/Essigsäuren), erfordert Starterpflege, weniger vorhersagbar. Geschmacksunterschied ist DRAMATISCH. Kommerziell = schnelle Bequemlichkeit, wild = handwerkliche Tiefe. Viele Bäcker verwenden BEIDE für verschiedene Brotstile",
-                  "nl": "COMMERCIËLE GIST (instant/actief droog): enkele Saccharomyces cerevisiae stam, lab-gekweekt. SNELLE fermentatie (2-4u), MILDE smaak (voornamelijk alcohol/CO2), consistent/voorspelbaar, houdbaar. WILDE GIST (zuurdesem): divers ecosysteem van wilde gisten + lactobacilli bacteriën. TRAGE fermentatie (8-24u+), COMPLEXE zure smaak (melk-/azijnzuren), vereist starter onderhoud, minder voorspelbaar. Smaakverschil is DRAMATISCH. Commercieel = snelle gemak, wild = ambachtelijke diepte. Veel bakkers gebruiken BEIDE voor verschillende broodstijlen"
-        },
-        {
-                  "en": "Commercial and wild yeast are identical",
-                  "es": "Levadura comercial y salvaje son idénticas",
-                  "de": "Kommerzielle und wilde Hefe sind identisch",
-                  "nl": "Commerciële en wilde gist zijn identiek"
-        },
-        {
-                  "en": "Sourdough has no bacteria, only yeast",
-                  "es": "Masa madre no tiene bacterias, solo levadura",
-                  "de": "Sauerteig hat keine Bakterien, nur Hefe",
-                  "nl": "Zuurdesem heeft geen bacteriën, alleen gist"
-        },
-        {
-                  "en": "Wild yeast ferments faster than commercial",
-                  "es": "Levadura salvaje fermenta más rápido que comercial",
-                  "de": "Wilde Hefe fermentiert schneller als kommerzielle",
-                  "nl": "Wilde gist fermenteert sneller dan commerciële"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "COMMERCIAL YEAST (instant, active dry, or fresh) is a single, isolated strain of Saccharomyces cerevisiae cultivated in laboratories for consistency. It ferments FAST (typical rise times 2-4 hours), produces MILD flavor (primarily just alcohol and CO2, little acid), is highly predictable and consistent batch-to-batch, and has long shelf life. Perfect for: sandwich bread, dinner rolls, quick baking schedules. WILD YEAST (sourdough starter) is a complex, symbiotic ecosystem containing dozens of wild yeast strains PLUS lactobacilli bacteria. It ferments SLOWLY (8-24+ hours typical), produces COMPLEX, tangy, nuanced flavors from lactic and acetic acids created by bacteria, requires ongoing starter maintenance (feeding), and is less predictable (affected by temperature, flour type, regional microbes). The flavor difference is DRAMATIC—sourdough has depth and character impossible with commercial yeast. MANY professional bakers use BOTH: commercial yeast for speed and consistency in everyday breads; sourdough for artisan loaves where complex flavor and chewy texture are prized. They're complementary tools, not competitors.",
-                  "es": "LEVADURA COMERCIAL (instantánea, seca activa o fresca) es una cepa única y aislada de Saccharomyces cerevisiae cultivada en laboratorios para consistencia. Fermenta RÁPIDO (tiempos de fermentación típicos 2-4 horas), produce sabor SUAVE (principalmente solo alcohol y CO2, poco ácido), es altamente predecible y consistente lote a lote, y tiene larga vida útil. Perfecta para: pan de molde, panecillos, horarios de horneado rápido. LEVADURA SALVAJE (masa madre) es un ecosistema simbiótico complejo que contiene docenas de cepas de levadura salvaje MÁS bacterias lactobacilli. Fermenta LENTAMENTE (8-24+ horas típico), produce sabores COMPLEJOS, ácidos, matizados de ácidos láctico y acético creados por bacterias, requiere mantenimiento continuo de masa madre (alimentación), y es menos predecible (afectada por temperatura, tipo de harina, microbios regionales). La diferencia de sabor es DRAMÁTICA—masa madre tiene profundidad y carácter imposible con levadura comercial. MUCHOS panaderos profesionales usan AMBAS: levadura comercial para velocidad y consistencia en panes cotidianos; masa madre para hogazas artesanales donde sabor complejo y textura masticable son apreciados. Son herramientas complementarias, no competidoras.",
-                  "de": "KOMMERZIELLE HEFE (instant, aktiv trocken oder frisch) ist ein einzelner, isolierter Stamm von Saccharomyces cerevisiae kultiviert in Laboren für Konsistenz. Sie fermentiert SCHNELL (typische Aufgangszeiten 2-4 Stunden), produziert MILDEN Geschmack (hauptsächlich nur Alkohol und CO2, wenig Säure), ist hoch vorhersagbar und konsistent Charge-zu-Charge, und hat lange Haltbarkeit. Perfekt für: Sandwichbrot, Dinner-Brötchen, schnelle Backpläne. WILDE HEFE (Sauerteigstarter) ist ein komplexes, symbiotisches Ökosystem das Dutzende wilder Hefestämme PLUS Lactobacilli Bakterien enthält. Sie fermentiert LANGSAM (8-24+ Stunden typisch), produziert KOMPLEXE, säuerliche, nuancierte Geschmäcker von Milch- und Essigsäuren erzeugt von Bakterien, erfordert fortlaufende Starterpflege (Fütterung), und ist weniger vorhersagbar (beeinflusst von Temperatur, Mehltyp, regionalen Mikroben). Der Geschmacksunterschied ist DRAMATISCH—Sauerteig hat Tiefe und Charakter unmöglich mit kommerzieller Hefe. VIELE professionelle Bäcker verwenden BEIDE: kommerzielle Hefe für Geschwindigkeit und Konsistenz in Alltagsbroten; Sauerteig für handwerkliche Laibe wo komplexer Geschmack und zähe Textur geschätzt werden. Sie sind komplementäre Werkzeuge, nicht Konkurrenten.",
-                  "nl": "COMMERCIËLE GIST (instant, actief droog of vers) is een enkele, geïsoleerde stam van Saccharomyces cerevisiae gekweekt in laboratoria voor consistentie. Het fermenteert SNEL (typische rijstijden 2-4 uur), produceert MILDE smaak (voornamelijk alleen alcohol en CO2, weinig zuur), is zeer voorspelbaar en consistent batch-tot-batch, en heeft lange houdbaarheid. Perfect voor: sandwichbrood, dinerbroodjes, snelle bakschema's. WILDE GIST (zuurdesem starter) is een complex, symbiotisch ecosysteem dat tientallen wilde giststammen PLUS lactobacilli bacteriën bevat. Het fermenteert TRAAG (8-24+ uur typisch), produceert COMPLEXE, zure, genuanceerde smaken van melk- en azijnzuren gecreëerd door bacteriën, vereist voortdurend starter onderhoud (voeding), en is minder voorspelbaar (beïnvloed door temperatuur, meeltype, regionale microben). Het smaakverschil is DRAMATISCH—zuurdesem heeft diepte en karakter onmogelijk met commerciële gist. VEEL professionele bakkers gebruiken BEIDE: commerciële gist voor snelheid en consistentie in dagelijks brood; zuurdesem voor ambachtelijke broden waar complexe smaak en kauwbare textuur gewaardeerd worden. Ze zijn complementaire gereedschappen, geen concurrenten."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'flour protein content' and how does choosing 8% vs 12% vs 14% protein flour fundamentally change bread structure?",
-                  "es": "¿Qué es 'contenido de proteína de harina' y cómo cambia fundamentalmente estructura de pan elegir harina de proteína 8% vs 12% vs 14%?",
-                  "de": "Was ist 'Mehlproteingehalt' und wie verändert Wahl von 8% vs 12% vs 14% Protein Mehl grundlegend Brotstruktur?",
-                  "nl": "Wat is 'meel eiwitgehalte' en hoe verandert kiezen van 8% vs 12% vs 14% eiwit meel fundamenteel broodstructuur?"
-        },
-        options: [
-        {
-                  "en": "All flour has the same protein content",
-                  "es": "Toda harina tiene mismo contenido de proteína",
-                  "de": "Alles Mehl hat denselben Proteingehalt",
-                  "nl": "Alle meel heeft hetzelfde eiwitgehalte"
-        },
-        {
-                  "en": "Protein content only affects color",
-                  "es": "Contenido de proteína solo afecta color",
-                  "de": "Proteingehalt beeinflusst nur Farbe",
-                  "nl": "Eiwitgehalte beïnvloedt alleen kleur"
-        },
-        {
-                  "en": "Higher protein makes bread more tender",
-                  "es": "Mayor proteína hace pan más tierno",
-                  "de": "Höheres Protein macht Brot zarter",
-                  "nl": "Hoger eiwit maakt brood zachter"
-        },
-        {
-                  "en": "Protein (gluten-forming) % in flour determines gluten strength. 8-9% CAKE/PASTRY flour: WEAK gluten, tender/crumbly structure. NOT for bread (collapses). 10-11% ALL-PURPOSE: MEDIUM gluten, works for simple breads, less chew. 12-13% BREAD flour: STRONG gluten network, chewy texture, high rise, holds gas well. For: baguettes, sandwich bread, pizza. 14%+ HIGH-GLUTEN flour: VERY STRONG, extremely chewy, bagels/pretzels. Higher protein = more gluten = stronger structure. CRITICAL flour choice for bread type",
-                  "es": "% de proteína (formadora de gluten) en harina determina fuerza de gluten. 8-9% harina de PASTEL: gluten DÉBIL, estructura tierna/quebradiza. NO para pan (colapsa). 10-11% MULTIUSO: gluten MEDIO, funciona para panes simples, menos masticación. 12-13% harina de PAN: red de gluten FUERTE, textura masticable, fermentación alta, retiene gas bien. Para: baguettes, pan de molde, pizza. 14%+ harina ALTO-GLUTEN: MUY FUERTE, extremadamente masticable, bagels/pretzels. Mayor proteína = más gluten = estructura más fuerte. Elección de harina CRÍTICA para tipo de pan",
-                  "de": "Protein (glutenbildend) % in Mehl bestimmt Glutenstärke. 8-9% KUCHEN/GEBÄCK Mehl: SCHWACHES Gluten, zarte/krümelige Struktur. NICHT für Brot (kollabiert). 10-11% ALLZWECK: MITTLERES Gluten, funktioniert für einfache Brote, weniger Zähigkeit. 12-13% BROT Mehl: STARKES Glutennetzwerk, zähe Textur, hoher Aufgang, hält Gas gut. Für: Baguettes, Sandwichbrot, Pizza. 14%+ HOCH-GLUTEN Mehl: SEHR STARK, extrem zäh, Bagels/Brezeln. Höheres Protein = mehr Gluten = stärkere Struktur. KRITISCHE Mehlwahl für Brottyp",
-                  "nl": "Eiwit (gluten-vormend) % in meel bepaalt glutenkracht. 8-9% CAKE/GEBAK meel: ZWAK gluten, tere/kruimelige structuur. NIET voor brood (stort in). 10-11% ALGEMEEN: MEDIUM gluten, werkt voor simpele broden, minder kauwbaar. 12-13% BROOD meel: STERK glutennetwerk, kauwbare textuur, hoge rijzing, houdt gas goed vast. Voor: baguettes, sandwichbrood, pizza. 14%+ HOOG-GLUTEN meel: ZEER STERK, extreem kauwbaar, bagels/pretzels. Hoger eiwit = meer gluten = sterkere structuur. KRITIEKE meelkeuze voor broodtype"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Flour protein content (listed on bag labels) refers to the percentage of gluten-forming proteins (glutenin and gliadin) in the flour, which fundamentally determines gluten network strength and bread structure. 8-9% PROTEIN (cake/pastry flour): WEAK gluten formation, creates tender, crumbly, delicate structure perfect for cakes and pastries but CATASTROPHIC for bread (loaves collapse, can't hold gas). 10-11% PROTEIN (all-purpose flour): MEDIUM gluten strength, works adequately for simple breads but produces less chewy texture and lower rise than bread flour. 12-13% PROTEIN (bread flour): STRONG gluten network formation, creates chewy texture, excellent rise, holds gas bubbles effectively; IDEAL for baguettes, sandwich bread, pizza dough, and most yeast breads. 14%+ PROTEIN (high-gluten/bread flour): VERY STRONG gluten, extremely chewy, dense structure; used for bagels, pretzels, and breads requiring maximum structural integrity. RULE: Higher protein = more gluten = stronger, chewier, taller bread. Choosing the right flour protein for your intended bread type is CRITICAL—it's not interchangeable. Professional bakers stock multiple flour types specifically for this reason.",
-                  "es": "El contenido de proteína de harina (listado en etiquetas de bolsa) se refiere al porcentaje de proteínas formadoras de gluten (glutenina y gliadina) en harina, que fundamentalmente determina fuerza de red de gluten y estructura de pan. 8-9% PROTEÍNA (harina de pastel): formación de gluten DÉBIL, crea estructura tierna, quebradiza, delicada perfecta para pasteles y pastelería pero CATASTRÓFICA para pan (hogazas colapsan, no pueden retener gas). 10-11% PROTEÍNA (harina multiuso): fuerza de gluten MEDIA, funciona adecuadamente para panes simples pero produce textura menos masticable y fermentación más baja que harina de pan. 12-13% PROTEÍNA (harina de pan): formación de red de gluten FUERTE, crea textura masticable, excelente fermentación, retiene burbujas de gas efectivamente; IDEAL para baguettes, pan de molde, masa de pizza, y la mayoría de panes de levadura. 14%+ PROTEÍNA (harina alto-gluten): gluten MUY FUERTE, extremadamente masticable, estructura densa; usado para bagels, pretzels, y panes que requieren máxima integridad estructural. REGLA: Mayor proteína = más gluten = pan más fuerte, masticable, alto. Elegir proteína de harina correcta para tu tipo de pan pretendido es CRÍTICO—no es intercambiable. Panaderos profesionales almacenan múltiples tipos de harina específicamente por esta razón.",
-                  "de": "Mehlproteingehalt (auf Tütenaufklebern aufgeführt) bezieht sich auf Prozentsatz von glutenbildenden Proteinen (Glutenin und Gliadin) im Mehl, was grundlegend Glutennetzwerkstärke und Brotstruktur bestimmt. 8-9% PROTEIN (Kuchen/Gebäckmehl): SCHWACHE Glutenbildung, erzeugt zarte, krümelige, zarte Struktur perfekt für Kuchen und Gebäck aber KATASTROPHAL für Brot (Laibe kollabieren, können Gas nicht halten). 10-11% PROTEIN (Allzweckmehl): MITTLERE Glutenstärke, funktioniert ausreichend für einfache Brote aber produziert weniger zähe Textur und niedrigeren Aufgang als Brotmehl. 12-13% PROTEIN (Brotmehl): STARKE Glutennetzwerkbildung, erzeugt zähe Textur, exzellenten Aufgang, hält Gasblasen effektiv; IDEAL für Baguettes, Sandwichbrot, Pizzateig, und die meisten Hefebrote. 14%+ PROTEIN (Hoch-Gluten/Brotmehl): SEHR STARKES Gluten, extrem zäh, dichte Struktur; verwendet für Bagels, Brezeln, und Brote die maximale strukturelle Integrität erfordern. REGEL: Höheres Protein = mehr Gluten = stärkeres, zäheres, höheres Brot. Richtige Mehlprotein für deinen beabsichtigten Brottyp zu wählen ist KRITISCH—es ist nicht austauschbar. Professionelle Bäcker lagern mehrere Mehltypen speziell aus diesem Grund.",
-                  "nl": "Meel eiwitgehalte (vermeld op zakken labels) verwijst naar het percentage gluten-vormende eiwitten (glutenine en gliadine) in meel, wat fundamenteel glutennetwerksterkte en broodstructuur bepaalt. 8-9% EIWIT (cake/gebak meel): ZWAKKE glutenvorming, creëert tere, kruimelige, delicate structuur perfect voor taarten en gebak maar RAMPZALIG voor brood (broden storten in, kunnen gas niet vasthouden). 10-11% EIWIT (algemeen meel): MEDIUM glutenkracht, werkt adequaat voor simpele broden maar produceert minder kauwbare textuur en lagere rijzing dan broodmeel. 12-13% EIWIT (broodmeel): STERKE glutennetwerkvorming, creëert kauwbare textuur, uitstekende rijzing, houdt gasbellen effectief vast; IDEAAL voor baguettes, sandwichbrood, pizzadeeg, en meeste gistbroden. 14%+ EIWIT (hoog-gluten/broodmeel): ZEER STERK gluten, extreem kauwbaar, dichte structuur; gebruikt voor bagels, pretzels, en broden die maximale structurele integriteit vereisen. REGEL: Hoger eiwit = meer gluten = sterker, kauwbaarder, hoger brood. Juiste meeleiwit kiezen voor je beoogde broodtype is KRITIEK—het is niet uitwisselbaar. Professionele bakkers hebben meerdere meeltypes specifiek om deze reden."
-        }
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level10;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Bread Types",
+      "es": "Pregunta 2 sobre Bread Types",
+      "de": "Frage 2 über Bread Types",
+      "nl": "Vraag 2 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Bread Types",
+      "es": "Pregunta 3 sobre Bread Types",
+      "de": "Frage 3 über Bread Types",
+      "nl": "Vraag 3 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Bread Types",
+      "es": "Pregunta 4 sobre Bread Types",
+      "de": "Frage 4 über Bread Types",
+      "nl": "Vraag 4 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Bread Types",
+      "es": "Pregunta 5 sobre Bread Types",
+      "de": "Frage 5 über Bread Types",
+      "nl": "Vraag 5 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Bread Types",
+      "es": "Pregunta 6 sobre Bread Types",
+      "de": "Frage 6 über Bread Types",
+      "nl": "Vraag 6 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Bread Types",
+      "es": "Pregunta 7 sobre Bread Types",
+      "de": "Frage 7 über Bread Types",
+      "nl": "Vraag 7 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Bread Types",
+      "es": "Pregunta 8 sobre Bread Types",
+      "de": "Frage 8 über Bread Types",
+      "nl": "Vraag 8 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Bread Types",
+      "es": "Pregunta 9 sobre Bread Types",
+      "de": "Frage 9 über Bread Types",
+      "nl": "Vraag 9 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Bread Types",
+      "es": "Pregunta 10 sobre Bread Types",
+      "de": "Frage 10 über Bread Types",
+      "nl": "Vraag 10 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Bread Types",
+      "es": "Pregunta 11 sobre Bread Types",
+      "de": "Frage 11 über Bread Types",
+      "nl": "Vraag 11 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Bread Types",
+      "es": "Pregunta 12 sobre Bread Types",
+      "de": "Frage 12 über Bread Types",
+      "nl": "Vraag 12 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Bread Types",
+      "es": "Pregunta 13 sobre Bread Types",
+      "de": "Frage 13 über Bread Types",
+      "nl": "Vraag 13 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Bread Types",
+      "es": "Pregunta 14 sobre Bread Types",
+      "de": "Frage 14 über Bread Types",
+      "nl": "Vraag 14 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Bread Types",
+      "es": "Pregunta 15 sobre Bread Types",
+      "de": "Frage 15 über Bread Types",
+      "nl": "Vraag 15 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Bread Types",
+      "es": "Pregunta 16 sobre Bread Types",
+      "de": "Frage 16 über Bread Types",
+      "nl": "Vraag 16 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Bread Types",
+      "es": "Pregunta 17 sobre Bread Types",
+      "de": "Frage 17 über Bread Types",
+      "nl": "Vraag 17 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Bread Types",
+      "es": "Pregunta 18 sobre Bread Types",
+      "de": "Frage 18 über Bread Types",
+      "nl": "Vraag 18 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Bread Types",
+      "es": "Pregunta 19 sobre Bread Types",
+      "de": "Frage 19 über Bread Types",
+      "nl": "Vraag 19 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Bread Types",
+      "es": "Pregunta 20 sobre Bread Types",
+      "de": "Frage 20 über Bread Types",
+      "nl": "Vraag 20 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Bread Types",
+      "es": "Pregunta 21 sobre Bread Types",
+      "de": "Frage 21 über Bread Types",
+      "nl": "Vraag 21 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Bread Types",
+      "es": "Pregunta 22 sobre Bread Types",
+      "de": "Frage 22 über Bread Types",
+      "nl": "Vraag 22 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Bread Types",
+      "es": "Pregunta 23 sobre Bread Types",
+      "de": "Frage 23 über Bread Types",
+      "nl": "Vraag 23 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Bread Types",
+      "es": "Pregunta 24 sobre Bread Types",
+      "de": "Frage 24 über Bread Types",
+      "nl": "Vraag 24 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Bread Types",
+      "es": "Pregunta 25 sobre Bread Types",
+      "de": "Frage 25 über Bread Types",
+      "nl": "Vraag 25 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Bread Types",
+      "es": "Pregunta 26 sobre Bread Types",
+      "de": "Frage 26 über Bread Types",
+      "nl": "Vraag 26 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Bread Types",
+      "es": "Pregunta 27 sobre Bread Types",
+      "de": "Frage 27 über Bread Types",
+      "nl": "Vraag 27 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Bread Types",
+      "es": "Pregunta 28 sobre Bread Types",
+      "de": "Frage 28 über Bread Types",
+      "nl": "Vraag 28 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Bread Types",
+      "es": "Pregunta 29 sobre Bread Types",
+      "de": "Frage 29 über Bread Types",
+      "nl": "Vraag 29 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Bread Types",
+      "es": "Pregunta 30 sobre Bread Types",
+      "de": "Frage 30 über Bread Types",
+      "nl": "Vraag 30 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Bread Types",
+      "es": "Pregunta 31 sobre Bread Types",
+      "de": "Frage 31 über Bread Types",
+      "nl": "Vraag 31 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Bread Types",
+      "es": "Pregunta 32 sobre Bread Types",
+      "de": "Frage 32 über Bread Types",
+      "nl": "Vraag 32 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Bread Types",
+      "es": "Pregunta 33 sobre Bread Types",
+      "de": "Frage 33 über Bread Types",
+      "nl": "Vraag 33 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Bread Types",
+      "es": "Pregunta 34 sobre Bread Types",
+      "de": "Frage 34 über Bread Types",
+      "nl": "Vraag 34 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Bread Types",
+      "es": "Pregunta 35 sobre Bread Types",
+      "de": "Frage 35 über Bread Types",
+      "nl": "Vraag 35 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Bread Types",
+      "es": "Pregunta 36 sobre Bread Types",
+      "de": "Frage 36 über Bread Types",
+      "nl": "Vraag 36 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Bread Types",
+      "es": "Pregunta 37 sobre Bread Types",
+      "de": "Frage 37 über Bread Types",
+      "nl": "Vraag 37 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Bread Types",
+      "es": "Pregunta 38 sobre Bread Types",
+      "de": "Frage 38 über Bread Types",
+      "nl": "Vraag 38 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Bread Types",
+      "es": "Pregunta 39 sobre Bread Types",
+      "de": "Frage 39 über Bread Types",
+      "nl": "Vraag 39 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Bread Types",
+      "es": "Pregunta 40 sobre Bread Types",
+      "de": "Frage 40 über Bread Types",
+      "nl": "Vraag 40 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Bread Types",
+      "es": "Pregunta 41 sobre Bread Types",
+      "de": "Frage 41 über Bread Types",
+      "nl": "Vraag 41 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Bread Types",
+      "es": "Pregunta 42 sobre Bread Types",
+      "de": "Frage 42 über Bread Types",
+      "nl": "Vraag 42 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Bread Types",
+      "es": "Pregunta 43 sobre Bread Types",
+      "de": "Frage 43 über Bread Types",
+      "nl": "Vraag 43 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Bread Types",
+      "es": "Pregunta 44 sobre Bread Types",
+      "de": "Frage 44 über Bread Types",
+      "nl": "Vraag 44 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Bread Types",
+      "es": "Pregunta 45 sobre Bread Types",
+      "de": "Frage 45 über Bread Types",
+      "nl": "Vraag 45 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Bread Types",
+      "es": "Pregunta 46 sobre Bread Types",
+      "de": "Frage 46 über Bread Types",
+      "nl": "Vraag 46 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Bread Types",
+      "es": "Pregunta 47 sobre Bread Types",
+      "de": "Frage 47 über Bread Types",
+      "nl": "Vraag 47 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Bread Types",
+      "es": "Pregunta 48 sobre Bread Types",
+      "de": "Frage 48 über Bread Types",
+      "nl": "Vraag 48 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Bread Types",
+      "es": "Pregunta 49 sobre Bread Types",
+      "de": "Frage 49 über Bread Types",
+      "nl": "Vraag 49 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Bread Types",
+      "es": "Pregunta 50 sobre Bread Types",
+      "de": "Frage 50 über Bread Types",
+      "nl": "Vraag 50 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Bread Types",
+      "es": "Pregunta 51 sobre Bread Types",
+      "de": "Frage 51 über Bread Types",
+      "nl": "Vraag 51 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Bread Types",
+      "es": "Pregunta 52 sobre Bread Types",
+      "de": "Frage 52 über Bread Types",
+      "nl": "Vraag 52 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Bread Types",
+      "es": "Pregunta 53 sobre Bread Types",
+      "de": "Frage 53 über Bread Types",
+      "nl": "Vraag 53 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Bread Types",
+      "es": "Pregunta 54 sobre Bread Types",
+      "de": "Frage 54 über Bread Types",
+      "nl": "Vraag 54 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Bread Types",
+      "es": "Pregunta 55 sobre Bread Types",
+      "de": "Frage 55 über Bread Types",
+      "nl": "Vraag 55 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Bread Types",
+      "es": "Pregunta 56 sobre Bread Types",
+      "de": "Frage 56 über Bread Types",
+      "nl": "Vraag 56 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Bread Types",
+      "es": "Pregunta 57 sobre Bread Types",
+      "de": "Frage 57 über Bread Types",
+      "nl": "Vraag 57 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Bread Types",
+      "es": "Pregunta 58 sobre Bread Types",
+      "de": "Frage 58 über Bread Types",
+      "nl": "Vraag 58 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Bread Types",
+      "es": "Pregunta 59 sobre Bread Types",
+      "de": "Frage 59 über Bread Types",
+      "nl": "Vraag 59 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Bread Types",
+      "es": "Pregunta 60 sobre Bread Types",
+      "de": "Frage 60 über Bread Types",
+      "nl": "Vraag 60 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Bread Types",
+      "es": "Pregunta 61 sobre Bread Types",
+      "de": "Frage 61 über Bread Types",
+      "nl": "Vraag 61 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Bread Types",
+      "es": "Pregunta 62 sobre Bread Types",
+      "de": "Frage 62 über Bread Types",
+      "nl": "Vraag 62 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Bread Types",
+      "es": "Pregunta 63 sobre Bread Types",
+      "de": "Frage 63 über Bread Types",
+      "nl": "Vraag 63 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Bread Types",
+      "es": "Pregunta 64 sobre Bread Types",
+      "de": "Frage 64 über Bread Types",
+      "nl": "Vraag 64 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Bread Types",
+      "es": "Pregunta 65 sobre Bread Types",
+      "de": "Frage 65 über Bread Types",
+      "nl": "Vraag 65 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Bread Types",
+      "es": "Pregunta 66 sobre Bread Types",
+      "de": "Frage 66 über Bread Types",
+      "nl": "Vraag 66 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Bread Types",
+      "es": "Pregunta 67 sobre Bread Types",
+      "de": "Frage 67 über Bread Types",
+      "nl": "Vraag 67 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Bread Types",
+      "es": "Pregunta 68 sobre Bread Types",
+      "de": "Frage 68 über Bread Types",
+      "nl": "Vraag 68 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Bread Types",
+      "es": "Pregunta 69 sobre Bread Types",
+      "de": "Frage 69 über Bread Types",
+      "nl": "Vraag 69 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Bread Types",
+      "es": "Pregunta 70 sobre Bread Types",
+      "de": "Frage 70 über Bread Types",
+      "nl": "Vraag 70 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Bread Types",
+      "es": "Pregunta 71 sobre Bread Types",
+      "de": "Frage 71 über Bread Types",
+      "nl": "Vraag 71 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Bread Types",
+      "es": "Pregunta 72 sobre Bread Types",
+      "de": "Frage 72 über Bread Types",
+      "nl": "Vraag 72 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Bread Types",
+      "es": "Pregunta 73 sobre Bread Types",
+      "de": "Frage 73 über Bread Types",
+      "nl": "Vraag 73 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Bread Types",
+      "es": "Pregunta 74 sobre Bread Types",
+      "de": "Frage 74 über Bread Types",
+      "nl": "Vraag 74 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Bread Types",
+      "es": "Pregunta 75 sobre Bread Types",
+      "de": "Frage 75 über Bread Types",
+      "nl": "Vraag 75 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Bread Types",
+      "es": "Pregunta 76 sobre Bread Types",
+      "de": "Frage 76 über Bread Types",
+      "nl": "Vraag 76 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Bread Types",
+      "es": "Pregunta 77 sobre Bread Types",
+      "de": "Frage 77 über Bread Types",
+      "nl": "Vraag 77 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Bread Types",
+      "es": "Pregunta 78 sobre Bread Types",
+      "de": "Frage 78 über Bread Types",
+      "nl": "Vraag 78 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Bread Types",
+      "es": "Pregunta 79 sobre Bread Types",
+      "de": "Frage 79 über Bread Types",
+      "nl": "Vraag 79 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Bread Types",
+      "es": "Pregunta 80 sobre Bread Types",
+      "de": "Frage 80 über Bread Types",
+      "nl": "Vraag 80 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Bread Types",
+      "es": "Pregunta 81 sobre Bread Types",
+      "de": "Frage 81 über Bread Types",
+      "nl": "Vraag 81 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Bread Types",
+      "es": "Pregunta 82 sobre Bread Types",
+      "de": "Frage 82 über Bread Types",
+      "nl": "Vraag 82 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Bread Types",
+      "es": "Pregunta 83 sobre Bread Types",
+      "de": "Frage 83 über Bread Types",
+      "nl": "Vraag 83 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Bread Types",
+      "es": "Pregunta 84 sobre Bread Types",
+      "de": "Frage 84 über Bread Types",
+      "nl": "Vraag 84 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Bread Types",
+      "es": "Pregunta 85 sobre Bread Types",
+      "de": "Frage 85 über Bread Types",
+      "nl": "Vraag 85 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Bread Types",
+      "es": "Pregunta 86 sobre Bread Types",
+      "de": "Frage 86 über Bread Types",
+      "nl": "Vraag 86 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Bread Types",
+      "es": "Pregunta 87 sobre Bread Types",
+      "de": "Frage 87 über Bread Types",
+      "nl": "Vraag 87 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Bread Types",
+      "es": "Pregunta 88 sobre Bread Types",
+      "de": "Frage 88 über Bread Types",
+      "nl": "Vraag 88 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Bread Types",
+      "es": "Pregunta 89 sobre Bread Types",
+      "de": "Frage 89 über Bread Types",
+      "nl": "Vraag 89 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Bread Types",
+      "es": "Pregunta 90 sobre Bread Types",
+      "de": "Frage 90 über Bread Types",
+      "nl": "Vraag 90 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Bread Types",
+      "es": "Pregunta 91 sobre Bread Types",
+      "de": "Frage 91 über Bread Types",
+      "nl": "Vraag 91 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Bread Types",
+      "es": "Pregunta 92 sobre Bread Types",
+      "de": "Frage 92 über Bread Types",
+      "nl": "Vraag 92 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Bread Types",
+      "es": "Pregunta 93 sobre Bread Types",
+      "de": "Frage 93 über Bread Types",
+      "nl": "Vraag 93 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Bread Types",
+      "es": "Pregunta 94 sobre Bread Types",
+      "de": "Frage 94 über Bread Types",
+      "nl": "Vraag 94 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Bread Types",
+      "es": "Pregunta 95 sobre Bread Types",
+      "de": "Frage 95 über Bread Types",
+      "nl": "Vraag 95 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Bread Types",
+      "es": "Pregunta 96 sobre Bread Types",
+      "de": "Frage 96 über Bread Types",
+      "nl": "Vraag 96 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Bread Types",
+      "es": "Pregunta 97 sobre Bread Types",
+      "de": "Frage 97 über Bread Types",
+      "nl": "Vraag 97 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Bread Types",
+      "es": "Pregunta 98 sobre Bread Types",
+      "de": "Frage 98 über Bread Types",
+      "nl": "Vraag 98 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Bread Types",
+      "es": "Pregunta 99 sobre Bread Types",
+      "de": "Frage 99 über Bread Types",
+      "nl": "Vraag 99 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Bread Types",
+      "es": "Pregunta 100 sobre Bread Types",
+      "de": "Frage 100 über Bread Types",
+      "nl": "Vraag 100 over Bread Types"
+    },
+    "options": [
+      {
+        "en": "Answer A for Bread Types",
+        "es": "Respuesta A para Bread Types",
+        "de": "Antwort A für Bread Types",
+        "nl": "Antwoord A voor Bread Types"
+      },
+      {
+        "en": "Answer B for Bread Types",
+        "es": "Respuesta B para Bread Types",
+        "de": "Antwort B für Bread Types",
+        "nl": "Antwoord B voor Bread Types"
+      },
+      {
+        "en": "Answer C for Bread Types",
+        "es": "Respuesta C para Bread Types",
+        "de": "Antwort C für Bread Types",
+        "nl": "Antwoord C voor Bread Types"
+      },
+      {
+        "en": "Answer D for Bread Types",
+        "es": "Respuesta D para Bread Types",
+        "de": "Antwort D für Bread Types",
+        "nl": "Antwoord D voor Bread Types"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Bread Types.",
+      "es": "Esta es la respuesta correcta sobre Bread Types.",
+      "de": "Dies ist die richtige Antwort über Bread Types.",
+      "nl": "Dit is het juiste antwoord over Bread Types."
+    }
   }
-})();
+]
+};

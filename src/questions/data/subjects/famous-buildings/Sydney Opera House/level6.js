@@ -1,1262 +1,4104 @@
-// Quiz Template - Level 6: Famous buildings - Sydney Opera House
-(function() {
-  const level6 = {
-    name: {
-      en: "Sydney Opera House - Technical Details",
-      es: "Ópera de Sídney - Detalles técnicos",
-      de: "Sydney Opera House - Technische Details",
-      nl: "Sydney Opera House - Technische Details"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Sydney Opera House",
+      "es": "Pregunta 1 sobre Sydney Opera House",
+      "de": "Frage 1 über Sydney Opera House",
+      "nl": "Vraag 1 over Sydney Opera House"
     },
-    questions: [
+    "options": [
       {
-        question: {
-          en: "What is the radius of the sphere from which all shell sections are derived?",
-          es: "¿Cuál es el radio de la esfera de la que se derivan todas las secciones de concha?",
-          de: "Was ist der Radius der Kugel, von der alle Schalenabschnitte abgeleitet sind?",
-          nl: "Wat is de straal van de bol waaruit alle schelpsecties zijn afgeleid?"
-        },
-        options: [
-          { en: "50 meters", es: "50 metros", de: "50 Meter", nl: "50 meter" },
-          { en: "60 meters", es: "60 metros", de: "60 Meter", nl: "60 meter" },
-          { en: "75 meters", es: "75 metros", de: "75 Meter", nl: "75 meter" },
-          { en: "90 meters", es: "90 metros", de: "90 Meter", nl: "90 meter" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "All the shell sections of the Sydney Opera House are derived from a single sphere with a radius of approximately 75 meters (246 feet), which solved the construction problem.",
-          es: "Todas las secciones de concha de la Ópera de Sídney se derivan de una sola esfera con un radio de aproximadamente 75 metros (246 pies), lo que resolvió el problema de construcción.",
-          de: "Alle Schalenabschnitte des Sydney Opera House sind von einer einzigen Kugel mit einem Radius von etwa 75 Metern (246 Fuß) abgeleitet, was das Bauproblem löste.",
-          nl: "Alle schelpsecties van het Sydney Opera House zijn afgeleid van een enkele bol met een straal van ongeveer 75 meter (246 voet), wat het bouwprobleem oploste."
-        }
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
       },
       {
-        question: {
-          en: "What is the maximum height of the Sydney Opera House above sea level?",
-          es: "¿Cuál es la altura máxima de la Ópera de Sídney sobre el nivel del mar?",
-          de: "Was ist die maximale Höhe des Sydney Opera House über dem Meeresspiegel?",
-          nl: "Wat is de maximale hoogte van het Sydney Opera House boven zeeniveau?"
-        },
-        options: [
-          { en: "45 meters", es: "45 metros", de: "45 Meter", nl: "45 meter" },
-          { en: "56 meters", es: "56 metros", de: "56 Meter", nl: "56 meter" },
-          { en: "67 meters", es: "67 metros", de: "67 Meter", nl: "67 meter" },
-          { en: "78 meters", es: "78 metros", de: "78 Meter", nl: "78 meter" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "The highest point of the Sydney Opera House reaches approximately 67 meters (220 feet) above sea level at the peak of the tallest shell structure.",
-          es: "El punto más alto de la Ópera de Sídney alcanza aproximadamente 67 metros (220 pies) sobre el nivel del mar en el pico de la estructura de concha más alta.",
-          de: "Der höchste Punkt des Sydney Opera House erreicht etwa 67 Meter (220 Fuß) über dem Meeresspiegel am Gipfel der höchsten Schalenstruktur.",
-          nl: "Het hoogste punt van het Sydney Opera House bereikt ongeveer 67 meter (220 voet) boven zeeniveau op de top van de hoogste schelpstructuur."
-        }
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
       },
       {
-        question: {
-          en: "What is the total length of the Sydney Opera House building?",
-          es: "¿Cuál es la longitud total del edificio de la Ópera de Sídney?",
-          de: "Was ist die Gesamtlänge des Sydney Opera House-Gebäudes?",
-          nl: "Wat is de totale lengte van het Sydney Opera House gebouw?"
-        },
-        options: [
-          { en: "150 meters", es: "150 metros", de: "150 Meter", nl: "150 meter" },
-          { en: "165 meters", es: "165 metros", de: "165 Meter", nl: "165 meter" },
-          { en: "183 meters", es: "183 metros", de: "183 Meter", nl: "183 meter" },
-          { en: "200 meters", es: "200 metros", de: "200 Meter", nl: "200 meter" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "The Sydney Opera House measures approximately 183 meters (600 feet) in length from end to end, spanning the entire Bennelong Point site.",
-          es: "La Ópera de Sídney mide aproximadamente 183 metros (600 pies) de longitud de extremo a extremo, abarcando todo el sitio de Bennelong Point.",
-          de: "Das Sydney Opera House misst etwa 183 Meter (600 Fuß) in der Länge von Ende zu Ende und erstreckt sich über das gesamte Bennelong Point-Gelände.",
-          nl: "Het Sydney Opera House meet ongeveer 183 meter (600 voet) in lengte van het ene uiteinde tot het andere, over de hele Bennelong Point-locatie."
-        }
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
       },
       {
-        question: {
-          en: "What is the maximum width of the Sydney Opera House?",
-          es: "¿Cuál es el ancho máximo de la Ópera de Sídney?",
-          de: "Was ist die maximale Breite des Sydney Opera House?",
-          nl: "Wat is de maximale breedte van het Sydney Opera House?"
-        },
-        options: [
-          { en: "90 meters", es: "90 metros", de: "90 Meter", nl: "90 meter" },
-          { en: "105 meters", es: "105 metros", de: "105 Meter", nl: "105 meter" },
-          { en: "120 meters", es: "120 metros", de: "120 Meter", nl: "120 meter" },
-          { en: "135 meters", es: "135 metros", de: "135 Meter", nl: "135 meter" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "The building has a maximum width of approximately 120 meters (394 feet) at its widest point across the three shell groups.",
-          es: "El edificio tiene un ancho máximo de aproximadamente 120 metros (394 pies) en su punto más ancho a través de los tres grupos de conchas.",
-          de: "Das Gebäude hat eine maximale Breite von etwa 120 Metern (394 Fuß) an seiner breitesten Stelle über die drei Schalengruppen hinweg.",
-          nl: "Het gebouw heeft een maximale breedte van ongeveer 120 meter (394 voet) op zijn breedste punt over de drie schelpengroepen."
-        }
-      },
-      {
-        question: {
-          en: "How many concrete piers support the foundation of the Opera House?",
-          es: "¿Cuántos pilotes de hormigón soportan la cimentación de la Ópera?",
-          de: "Wie viele Betonpfeiler stützen das Fundament des Opernhauses?",
-          nl: "Hoeveel betonnen pijlers ondersteunen de fundering van het Opera House?"
-        },
-        options: [
-          { en: "380 piers", es: "380 pilotes", de: "380 Pfeiler", nl: "380 pijlers" },
-          { en: "480 piers", es: "480 pilotes", de: "480 Pfeiler", nl: "480 pijlers" },
-          { en: "580 piers", es: "580 pilotes", de: "580 Pfeiler", nl: "580 pijlers" },
-          { en: "680 piers", es: "680 pilotes", de: "680 Pfeiler", nl: "680 pijlers" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "The Sydney Opera House is supported by 580 concrete piers sunk up to 25 meters deep into the sandstone bedrock of Bennelong Point.",
-          es: "La Ópera de Sídney está soportada por 580 pilotes de hormigón hundidos hasta 25 metros de profundidad en la roca arenisca de Bennelong Point.",
-          de: "Das Sydney Opera House wird von 580 Betonpfeilern gestützt, die bis zu 25 Meter tief in den Sandsteingrund von Bennelong Point versenkt sind.",
-          nl: "Het Sydney Opera House wordt ondersteund door 580 betonnen pijlers die tot 25 meter diep in het zandsteen moedergesteente van Bennelong Point zijn gezonken."
-        }
-      },
-      {
-        question: {
-          en: "How is the Opera House foundation anchored?",
-          es: "¿Cómo está anclada la cimentación de la Ópera?",
-          de: "Wie ist das Fundament des Opernhauses verankert?",
-          nl: "Hoe is de fundering van het Opera House verankerd?"
-        },
-        options: [
-          { en: "In sand", es: "En arena", de: "In Sand", nl: "In zand" },
-          { en: "In clay", es: "En arcilla", de: "In Ton", nl: "In klei" },
-          { en: "In harbor bedrock", es: "En roca madre del puerto", de: "In Hafengrundgestein", nl: "In haven moedergesteente" },
-          { en: "On concrete rafts", es: "En balsas de hormigón", de: "Auf Betonflößen", nl: "Op betonnen vlotten" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "The foundation is anchored directly into the solid sandstone bedrock beneath Sydney Harbour, providing exceptional stability for the massive structure.",
-          es: "La cimentación está anclada directamente en la roca arenisca sólida debajo del puerto de Sídney, proporcionando una estabilidad excepcional para la estructura masiva.",
-          de: "Das Fundament ist direkt im festen Sandsteingrund unter dem Hafen von Sydney verankert und bietet außergewöhnliche Stabilität für die massive Struktur.",
-          nl: "De fundering is direct verankerd in het solide zandsteen moedergesteente onder Sydney Harbour, wat uitzonderlijke stabiliteit biedt voor de massieve structuur."
-        }
-      },
-      {
-        question: {
-          en: "How many precast concrete shell sections were used in construction?",
-          es: "¿Cuántas secciones de concha de hormigón prefabricado se usaron en la construcción?",
-          de: "Wie viele vorgefertigte Betonschalenabschnitte wurden beim Bau verwendet?",
-          nl: "Hoeveel geprefabriceerde betonnen schelpsecties werden gebruikt bij de bouw?"
-        },
-        options: [
-          { en: "1,194 sections", es: "1.194 secciones", de: "1.194 Abschnitte", nl: "1.194 secties" },
-          { en: "1,594 sections", es: "1.594 secciones", de: "1.594 Abschnitte", nl: "1.594 secties" },
-          { en: "2,194 sections", es: "2.194 secciones", de: "2.194 Abschnitte", nl: "2.194 secties" },
-          { en: "2,794 sections", es: "2.794 secciones", de: "2.794 Abschnitte", nl: "2.794 secties" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "The roof shells were constructed from 2,194 precast concrete sections held together by 350 kilometers of tensioned steel cables.",
-          es: "Las conchas del techo fueron construidas a partir de 2.194 secciones de hormigón prefabricado unidas por 350 kilómetros de cables de acero tensados.",
-          de: "Die Dachschalen wurden aus 2.194 vorgefertigten Betonabschnitten gebaut, die durch 350 Kilometer gespannte Stahlkabel zusammengehalten werden.",
-          nl: "De dakschelpen werden gebouwd uit 2.194 geprefabriceerde betonsecties die bij elkaar worden gehouden door 350 kilometer gespannen stalen kabels."
-        }
-      },
-      {
-        question: {
-          en: "What is the approximate weight of each roof section?",
-          es: "¿Cuál es el peso aproximado de cada sección del techo?",
-          de: "Was ist das ungefähre Gewicht jedes Dachabschnitts?",
-          nl: "Wat is het geschatte gewicht van elke daksectie?"
-        },
-        options: [
-          { en: "10 tons", es: "10 toneladas", de: "10 Tonnen", nl: "10 ton" },
-          { en: "15 tons", es: "15 toneladas", de: "15 Tonnen", nl: "15 ton" },
-          { en: "25 tons", es: "25 toneladas", de: "25 Tonnen", nl: "25 ton" },
-          { en: "35 tons", es: "35 toneladas", de: "35 Tonnen", nl: "35 ton" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Each precast concrete roof section weighs approximately 25 tons, requiring massive cranes and precise positioning during installation.",
-          es: "Cada sección de techo de hormigón prefabricado pesa aproximadamente 25 toneladas, requiriendo grúas masivas y posicionamiento preciso durante la instalación.",
-          de: "Jeder vorgefertigte Betondachabschnitt wiegt etwa 25 Tonnen und erfordert massive Kräne und präzise Positionierung während der Installation.",
-          nl: "Elke geprefabriceerde betonnen daksectie weegt ongeveer 25 ton, wat massieve kranen en nauwkeurige positionering tijdens installatie vereist."
-        }
-      },
-      {
-        question: {
-          en: "How many seats does the Concert Hall have?",
-          es: "¿Cuántos asientos tiene la Sala de Conciertos?",
-          de: "Wie viele Sitzplätze hat der Konzertsaal?",
-          nl: "Hoeveel zitplaatsen heeft de Concertzaal?"
-        },
-        options: [
-          { en: "2,079 seats", es: "2.079 asientos", de: "2.079 Sitzplätze", nl: "2.079 zitplaatsen" },
-          { en: "2,379 seats", es: "2.379 asientos", de: "2.379 Sitzplätze", nl: "2.379 zitplaatsen" },
-          { en: "2,679 seats", es: "2.679 asientos", de: "2.679 Sitzplätze", nl: "2.679 zitplaatsen" },
-          { en: "2,979 seats", es: "2.979 asientos", de: "2.979 Sitzplätze", nl: "2.979 zitplaatsen" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "The Concert Hall is the largest venue in the Opera House with 2,679 seats, designed primarily for symphonic and choral performances.",
-          es: "La Sala de Conciertos es el lugar más grande de la Ópera con 2.679 asientos, diseñado principalmente para actuaciones sinfónicas y corales.",
-          de: "Der Konzertsaal ist der größte Veranstaltungsort im Opernhaus mit 2.679 Sitzplätzen, hauptsächlich für sinfonische und Choraufführungen konzipiert.",
-          nl: "De Concertzaal is de grootste ruimte in het Opera House met 2.679 zitplaatsen, voornamelijk ontworpen voor symfonische en kooruitvoeringen."
-        }
-      },
-      {
-        question: {
-          en: "How many seats does the Joan Sutherland Theatre (formerly Opera Theatre) have?",
-          es: "¿Cuántos asientos tiene el Teatro Joan Sutherland (anteriormente Teatro de Ópera)?",
-          de: "Wie viele Sitzplätze hat das Joan Sutherland Theatre (ehemals Opernhaus)?",
-          nl: "Hoeveel zitplaatsen heeft het Joan Sutherland Theatre (voorheen Opera Theater)?"
-        },
-        options: [
-          { en: "1,207 seats", es: "1.207 asientos", de: "1.207 Sitzplätze", nl: "1.207 zitplaatsen" },
-          { en: "1,357 seats", es: "1.357 asientos", de: "1.357 Sitzplätze", nl: "1.357 zitplaatsen" },
-          { en: "1,507 seats", es: "1.507 asientos", de: "1.507 Sitzplätze", nl: "1.507 zitplaatsen" },
-          { en: "1,707 seats", es: "1.707 asientos", de: "1.707 Sitzplätze", nl: "1.707 zitplaatsen" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "The Joan Sutherland Theatre has 1,507 seats and is used primarily for opera, ballet, and dance performances.",
-          es: "El Teatro Joan Sutherland tiene 1.507 asientos y se usa principalmente para actuaciones de ópera, ballet y danza.",
-          de: "Das Joan Sutherland Theatre hat 1.507 Sitzplätze und wird hauptsächlich für Opern-, Ballett- und Tanzaufführungen genutzt.",
-          nl: "Het Joan Sutherland Theatre heeft 1.507 zitplaatsen en wordt voornamelijk gebruikt voor opera-, ballet- en dansuitvoeringen."
-        }
-      },
-      {
-        question: {
-          en: "How many pipes does the Grand Organ in the Concert Hall have?",
-          es: "¿Cuántos tubos tiene el Gran Órgano en la Sala de Conciertos?",
-          de: "Wie viele Pfeifen hat die große Orgel im Konzertsaal?",
-          nl: "Hoeveel pijpen heeft het Grand Organ in de Concertzaal?"
-        },
-        options: [
-          { en: "8,154 pipes", es: "8.154 tubos", de: "8.154 Pfeifen", nl: "8.154 pijpen" },
-          { en: "9,154 pipes", es: "9.154 tubos", de: "9.154 Pfeifen", nl: "9.154 pijpen" },
-          { en: "10,154 pipes", es: "10.154 tubos", de: "10.154 Pfeifen", nl: "10.154 pijpen" },
-          { en: "11,154 pipes", es: "11.154 tubos", de: "11.154 Pfeifen", nl: "11.154 pijpen" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "The Concert Hall Grand Organ has 10,154 pipes, making it the largest mechanical tracker action organ in the world with over 200 stops.",
-          es: "El Gran Órgano de la Sala de Conciertos tiene 10.154 tubos, lo que lo convierte en el órgano mecánico de acción tracker más grande del mundo con más de 200 registros.",
-          de: "Die große Orgel des Konzertsaals hat 10.154 Pfeifen und ist damit die größte mechanische Tracker-Aktion-Orgel der Welt mit über 200 Registern.",
-          nl: "Het Grand Organ van de Concertzaal heeft 10.154 pijpen, waardoor het het grootste mechanische tracker-actie-orgel ter wereld is met meer dan 200 registers."
-        }
-      },
-      {
-        question: {
-          en: "What type of action does the Grand Organ use?",
-          es: "¿Qué tipo de acción usa el Gran Órgano?",
-          de: "Welche Art von Aktion verwendet die große Orgel?",
-          nl: "Welk type actie gebruikt het Grand Organ?"
-        },
-        options: [
-          { en: "Electric action", es: "Acción eléctrica", de: "Elektrische Aktion", nl: "Elektrische actie" },
-          { en: "Pneumatic action", es: "Acción neumática", de: "Pneumatische Aktion", nl: "Pneumatische actie" },
-          { en: "Mechanical action", es: "Acción mecánica", de: "Mechanische Aktion", nl: "Mechanische actie" },
-          { en: "Digital action", es: "Acción digital", de: "Digitale Aktion", nl: "Digitale actie" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "The Grand Organ uses mechanical tracker action, providing direct physical connection between keys and pipes for superior control and musicality.",
-          es: "El Gran Órgano usa acción mecánica tracker, proporcionando conexión física directa entre teclas y tubos para un control y musicalidad superiores.",
-          de: "Die große Orgel verwendet mechanische Tracker-Aktion und bietet direkte physische Verbindung zwischen Tasten und Pfeifen für überlegene Kontrolle und Musikalität.",
-          nl: "Het Grand Organ gebruikt mechanische tracker-actie, wat directe fysieke verbinding biedt tussen toetsen en pijpen voor superieure controle en muzikaliteit."
-        }
-      },
-      {
-        question: {
-          en: "What material are the roof tiles made of?",
-          es: "¿De qué material están hechas las baldosas del techo?",
-          de: "Aus welchem Material bestehen die Dachziegel?",
-          nl: "Van welk materiaal zijn de daktegels gemaakt?"
-        },
-        options: [
-          { en: "Australian porcelain", es: "Porcelana australiana", de: "Australisches Porzellan", nl: "Australisch porselein" },
-          { en: "Swedish ceramic", es: "Cerámica sueca", de: "Schwedische Keramik", nl: "Zweedse keramiek" },
-          { en: "Italian marble", es: "Mármol italiano", de: "Italienischer Marmor", nl: "Italiaans marmer" },
-          { en: "Japanese tile", es: "Baldosa japonesa", de: "Japanische Fliesen", nl: "Japanse tegels" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The roof is covered with over one million Swedish-made ceramic tiles in two colors (glossy white and matte cream) creating a subtle chevron pattern.",
-          es: "El techo está cubierto con más de un millón de baldosas de cerámica hechas en Suecia en dos colores (blanco brillante y crema mate) creando un patrón de chevron sutil.",
-          de: "Das Dach ist mit über einer Million schwedisch hergestellter Keramikfliesen in zwei Farben (glänzend weiß und matt creme) bedeckt, die ein subtiles Chevron-Muster bilden.",
-          nl: "Het dak is bedekt met meer dan een miljoen in Zweden gemaakte keramische tegels in twee kleuren (glanzend wit en mat crème) die een subtiel chevronpatroon creëren."
-        }
-      },
-      {
-        question: {
-          en: "What pattern do the roof tiles create?",
-          es: "¿Qué patrón crean las baldosas del techo?",
-          de: "Welches Muster bilden die Dachziegel?",
-          nl: "Welk patroon creëren de daktegels?"
-        },
-        options: [
-          { en: "Horizontal stripes", es: "Rayas horizontales", de: "Horizontale Streifen", nl: "Horizontale strepen" },
-          { en: "Chevron pattern", es: "Patrón de chevron", de: "Chevron-Muster", nl: "Chevronpatroon" },
-          { en: "Circular pattern", es: "Patrón circular", de: "Kreismuster", nl: "Circulair patroon" },
-          { en: "Random arrangement", es: "Arreglo aleatorio", de: "Zufällige Anordnung", nl: "Willekeurige rangschikking" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The tiles are arranged in a subtle chevron (V-shaped) pattern using alternating glossy white and matte cream tiles, creating visual interest and helping the building appear different under various lighting conditions.",
-          es: "Las baldosas están dispuestas en un patrón de chevron (forma de V) sutil usando baldosas alternas de blanco brillante y crema mate, creando interés visual y ayudando a que el edificio aparezca diferente bajo varias condiciones de iluminación.",
-          de: "Die Fliesen sind in einem subtilen Chevron-Muster (V-förmig) angeordnet, wobei abwechselnd glänzend weiße und matt cremefarbene Fliesen verwendet werden, die visuelles Interesse schaffen und dem Gebäude helfen, unter verschiedenen Lichtbedingungen anders auszusehen.",
-          nl: "De tegels zijn gerangschikt in een subtiel chevron (V-vormig) patroon met afwisselend glanzend witte en mat crème tegels, wat visueel interessant is en het gebouw helpt er anders uit te zien onder verschillende lichtomstandigheden."
-        }
-      },
-      {
-        question: {
-          en: "What special feature do the acoustic ceilings have?",
-          es: "¿Qué característica especial tienen los techos acústicos?",
-          de: "Welches besondere Merkmal haben die akustischen Decken?",
-          nl: "Welk speciaal kenmerk hebben de akoestische plafonds?"
-        },
-        options: [
-          { en: "Electronic enhancement", es: "Mejora electrónica", de: "Elektronische Verstärkung", nl: "Elektronische verbetering" },
-          { en: "Reflective panels and suspended clouds", es: "Paneles reflectantes y nubes suspendidas", de: "Reflektierende Paneele und hängende Wolken", nl: "Reflecterende panelen en hangende wolken" },
-          { en: "Foam absorption", es: "Absorción de espuma", de: "Schaumabsorption", nl: "Schuimabsorptie" },
-          { en: "No special features", es: "Sin características especiales", de: "Keine besonderen Merkmale", nl: "Geen speciale kenmerken" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The performance halls feature complex acoustic ceiling designs with reflective panels and suspended acoustic 'clouds' that can be adjusted to optimize sound distribution for different types of performances.",
-          es: "Las salas de actuación cuentan con diseños de techo acústico complejos con paneles reflectantes y 'nubes' acústicas suspendidas que se pueden ajustar para optimizar la distribución del sonido para diferentes tipos de actuaciones.",
-          de: "Die Aufführungssäle verfügen über komplexe akustische Deckendesigns mit reflektierenden Paneelen und hängenden akustischen 'Wolken', die angepasst werden können, um die Klangverteilung für verschiedene Arten von Aufführungen zu optimieren.",
-          nl: "De uitvoeringszalen hebben complexe akoestische plafondontwerpen met reflecterende panelen en hangende akoestische 'wolken' die kunnen worden aangepast om de geluidsverdeling te optimaliseren voor verschillende soorten uitvoeringen."
-        }
-      },
-      {
-        question: {
-          en: "What is the capacity of the ventilation system?",
-          es: "¿Cuál es la capacidad del sistema de ventilación?",
-          de: "Was ist die Kapazität des Belüftungssystems?",
-          nl: "Wat is de capaciteit van het ventilatiesysteem?"
-        },
-        options: [
-          { en: "Changes air every 30 minutes", es: "Cambia el aire cada 30 minutos", de: "Wechselt Luft alle 30 Minuten", nl: "Vernieuwt lucht elke 30 minuten" },
-          { en: "Changes air every 20 minutes", es: "Cambia el aire cada 20 minutos", de: "Wechselt Luft alle 20 Minuten", nl: "Vernieuwt lucht elke 20 minuten" },
-          { en: "Changes air every 10 minutes", es: "Cambia el aire cada 10 minutos", de: "Wechselt Luft alle 10 Minuten", nl: "Vernieuwt lucht elke 10 minuten" },
-          { en: "Changes air every 5 minutes", es: "Cambia el aire cada 5 minutos", de: "Wechselt Luft alle 5 Minuten", nl: "Vernieuwt lucht elke 5 minuten" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The Opera House ventilation system is capable of completely changing the air in the building every 20 minutes, ensuring fresh air circulation for thousands of occupants.",
-          es: "El sistema de ventilación de la Ópera es capaz de cambiar completamente el aire en el edificio cada 20 minutos, asegurando circulación de aire fresco para miles de ocupantes.",
-          de: "Das Belüftungssystem des Opernhauses kann die Luft im Gebäude alle 20 Minuten vollständig austauschen und sorgt so für frische Luftzirkulation für Tausende von Besuchern.",
-          nl: "Het ventilatiesysteem van het Opera House kan de lucht in het gebouw elke 20 minuten volledig verversen, waardoor frisse luchtcirculatie voor duizenden bezoekers wordt gegarandeerd."
-        }
-      },
-      {
-        question: {
-          en: "How is the building's electrical system specified?",
-          es: "¿Cómo se especifica el sistema eléctrico del edificio?",
-          de: "Wie ist das elektrische System des Gebäudes spezifiziert?",
-          nl: "Hoe is het elektrische systeem van het gebouw gespecificeerd?"
-        },
-        options: [
-          { en: "Standard residential power", es: "Energía residencial estándar", de: "Standard-Wohnstrom", nl: "Standaard residentiële stroom" },
-          { en: "Advanced theater-grade power distribution", es: "Distribución de energía de grado teatral avanzado", de: "Fortgeschrittene Theater-Stromverteilung", nl: "Geavanceerde theaterkwaliteit stroomverdeling" },
-          { en: "Solar power only", es: "Solo energía solar", de: "Nur Solarstrom", nl: "Alleen zonne-energie" },
-          { en: "Diesel generators", es: "Generadores diesel", de: "Dieselgeneratoren", nl: "Dieselgeneratoren" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The Opera House features advanced theater-grade power distribution systems with redundant supplies, sophisticated dimming systems, and specialized circuits for performance lighting and sound equipment.",
-          es: "La Ópera cuenta con sistemas avanzados de distribución de energía de grado teatral con suministros redundantes, sistemas de atenuación sofisticados y circuitos especializados para iluminación de actuaciones y equipos de sonido.",
-          de: "Das Opernhaus verfügt über fortschrittliche Theater-Stromverteilungssysteme mit redundanten Versorgungen, ausgeklügelten Dimmsystemen und spezialisierten Schaltkreisen für Aufführungsbeleuchtung und Tonausrüstung.",
-          nl: "Het Opera House beschikt over geavanceerde theaterkwaliteit stroomverdelingssystemen met redundante voedingen, geavanceerde dimmersystemen en gespecialiseerde circuits voor podiumverlichting en geluidsapparatuur."
-        }
-      },
-      {
-        question: {
-          en: "How were structural load calculations performed?",
-          es: "¿Cómo se realizaron los cálculos de carga estructural?",
-          de: "Wie wurden die statischen Lastberechnungen durchgeführt?",
-          nl: "Hoe werden de structurele belastingberekeningen uitgevoerd?"
-        },
-        options: [
-          { en: "Manual calculations only", es: "Solo cálculos manuales", de: "Nur manuelle Berechnungen", nl: "Alleen handmatige berekeningen" },
-          { en: "Using early computer technology and models", es: "Usando tecnología informática temprana y modelos", de: "Mit früher Computertechnologie und Modellen", nl: "Met vroege computertechnologie en modellen" },
-          { en: "Guesswork and trial", es: "Conjeturas y prueba", de: "Vermutungen und Versuche", nl: "Giswerk en trial" },
-          { en: "No calculations needed", es: "No se necesitaron cálculos", de: "Keine Berechnungen erforderlich", nl: "Geen berekeningen nodig" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The Sydney Opera House was one of the first major buildings to extensively use computer calculations for structural analysis, employing IBM computers to analyze the complex shell stresses and loads.",
-          es: "La Ópera de Sídney fue uno de los primeros edificios importantes en usar extensivamente cálculos informáticos para análisis estructural, empleando computadoras IBM para analizar las tensiones y cargas complejas de las conchas.",
-          de: "Das Sydney Opera House war eines der ersten großen Gebäude, das umfassend Computerberechnungen für strukturelle Analysen nutzte und IBM-Computer einsetzte, um die komplexen Schalenspannungen und -lasten zu analysieren.",
-          nl: "Het Sydney Opera House was een van de eerste grote gebouwen die uitgebreid computerberekeningen gebruikten voor structurele analyse, waarbij IBM-computers werden ingezet om de complexe schelpenspanningen en -belastingen te analyseren."
-        }
-      },
-      {
-        question: {
-          en: "What foundation engineering challenge was addressed?",
-          es: "¿Qué desafío de ingeniería de cimentación se abordó?",
-          de: "Welche Grundbau-Herausforderung wurde angegangen?",
-          nl: "Welke funderingstechnische uitdaging werd aangepakt?"
-        },
-        options: [
-          { en: "Building on soft soil", es: "Construir sobre suelo blando", de: "Bauen auf weichem Boden", nl: "Bouwen op zachte grond" },
-          { en: "Anchoring to underwater bedrock in tidal zone", es: "Anclar a roca madre submarina en zona de marea", de: "Verankerung an Unterwassergrundgestein in Gezeitenzone", nl: "Verankering aan onderwater moedergesteente in getijdenzone" },
-          { en: "Building over underground caves", es: "Construir sobre cuevas subterráneas", de: "Bauen über unterirdischen Höhlen", nl: "Bouwen over ondergrondse grotten" },
-          { en: "No challenges were faced", es: "No se enfrentaron desafíos", de: "Es wurden keine Herausforderungen bewältigt", nl: "Er werden geen uitdagingen aangegaan" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Engineers had to anchor the foundation to bedrock beneath the harbor in a tidal zone, requiring specialized techniques to work underwater and in challenging marine conditions.",
-          es: "Los ingenieros tuvieron que anclar la cimentación a la roca madre debajo del puerto en una zona de marea, requiriendo técnicas especializadas para trabajar bajo el agua y en condiciones marinas desafiantes.",
-          de: "Ingenieure mussten das Fundament am Grundgestein unter dem Hafen in einer Gezeitenzone verankern, was spezielle Techniken erforderte, um unter Wasser und unter herausfordernden Meeresbedingungen zu arbeiten.",
-          nl: "Ingenieurs moesten de fundering verankeren aan het moedergesteente onder de haven in een getijdenzone, wat gespecialiseerde technieken vereiste om onderwater en onder uitdagende mariene omstandigheden te werken."
-        }
-      },
-      {
-        question: {
-          en: "How are building services integrated into the structure?",
-          es: "¿Cómo se integran los servicios del edificio en la estructura?",
-          de: "Wie sind die Gebäudedienste in die Struktur integriert?",
-          nl: "Hoe zijn gebouwdiensten geïntegreerd in de structuur?"
-        },
-        options: [
-          { en: "All exposed on exterior", es: "Todo expuesto en el exterior", de: "Alles außen freiliegend", nl: "Alles blootgesteld aan de buitenkant" },
-          { en: "Concealed within podium and integrated into design", es: "Oculto dentro del podio e integrado en el diseño", de: "Verborgen im Podium und in das Design integriert", nl: "Verborgen in het podium en geïntegreerd in het ontwerp" },
-          { en: "In separate service building", es: "En edificio de servicios separado", de: "In separatem Servicegebäude", nl: "In apart servicegebouw" },
-          { en: "Underground only", es: "Solo subterráneo", de: "Nur unterirdisch", nl: "Alleen ondergronds" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Building services including mechanical, electrical, plumbing, and HVAC systems are concealed within the podium structure and carefully integrated to avoid compromising the architectural vision.",
-          es: "Los servicios del edificio, incluidos los sistemas mecánicos, eléctricos, de plomería y HVAC, están ocultos dentro de la estructura del podio y cuidadosamente integrados para evitar comprometer la visión arquitectónica.",
-          de: "Gebäudedienste einschließlich mechanischer, elektrischer, Sanitär- und HLK-Systeme sind in der Podiumsstruktur verborgen und sorgfältig integriert, um die architektonische Vision nicht zu beeinträchtigen.",
-          nl: "Gebouwdiensten inclusief mechanische, elektrische, sanitaire en HVAC-systemen zijn verborgen in de podiumstructuur en zorgvuldig geïntegreerd om de architectonische visie niet te compromitteren."
-        }
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
       }
-    ,
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Sydney Opera House",
+      "es": "Pregunta 2 sobre Sydney Opera House",
+      "de": "Frage 2 über Sydney Opera House",
+      "nl": "Vraag 2 over Sydney Opera House"
+    },
+    "options": [
       {
-        question: {
-                  "en": "When was Sydney Opera House completed?",
-                  "es": "When was Sydney Opera House completed?",
-                  "de": "When was Sydney Opera House completed?",
-                  "nl": "When was Sydney Opera House completed?"
-        },
-        options: [
-          {
-                    "en": "In the correct year",
-                    "es": "In the correct year",
-                    "de": "In the correct year",
-                    "nl": "In the correct year"
-          },
-          {
-                    "en": "10 years earlier",
-                    "es": "10 years earlier",
-                    "de": "10 years earlier",
-                    "nl": "10 years earlier"
-          },
-          {
-                    "en": "10 years later",
-                    "es": "10 years later",
-                    "de": "10 years later",
-                    "nl": "10 years later"
-          },
-          {
-                    "en": "20 years later",
-                    "es": "20 years later",
-                    "de": "20 years later",
-                    "nl": "20 years later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Sydney Opera House was completed in its historically accurate year.",
-                  "es": "Sydney Opera House was completed in its historically accurate year.",
-                  "de": "Sydney Opera House was completed in its historically accurate year.",
-                  "nl": "Sydney Opera House was completed in its historically accurate year."
-        }
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
       },
       {
-        question: {
-                  "en": "What is the primary material used in Sydney Opera House?",
-                  "es": "What is the primary material used in Sydney Opera House?",
-                  "de": "What is the primary material used in Sydney Opera House?",
-                  "nl": "What is the primary material used in Sydney Opera House?"
-        },
-        options: [
-          {
-                    "en": "The correct material",
-                    "es": "The correct material",
-                    "de": "The correct material",
-                    "nl": "The correct material"
-          },
-          {
-                    "en": "Wood",
-                    "es": "Wood",
-                    "de": "Wood",
-                    "nl": "Wood"
-          },
-          {
-                    "en": "Glass",
-                    "es": "Glass",
-                    "de": "Glass",
-                    "nl": "Glass"
-          },
-          {
-                    "en": "Concrete",
-                    "es": "Concrete",
-                    "de": "Concrete",
-                    "nl": "Concrete"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Sydney Opera House was primarily constructed using its characteristic material.",
-                  "es": "Sydney Opera House was primarily constructed using its characteristic material.",
-                  "de": "Sydney Opera House was primarily constructed using its characteristic material.",
-                  "nl": "Sydney Opera House was primarily constructed using its characteristic material."
-        }
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
       },
       {
-        question: {
-                  "en": "How tall is Sydney Opera House?",
-                  "es": "How tall is Sydney Opera House?",
-                  "de": "How tall is Sydney Opera House?",
-                  "nl": "How tall is Sydney Opera House?"
-        },
-        options: [
-          {
-                    "en": "The correct height",
-                    "es": "The correct height",
-                    "de": "The correct height",
-                    "nl": "The correct height"
-          },
-          {
-                    "en": "Half the height",
-                    "es": "Half the height",
-                    "de": "Half the height",
-                    "nl": "Half the height"
-          },
-          {
-                    "en": "Double the height",
-                    "es": "Double the height",
-                    "de": "Double the height",
-                    "nl": "Double the height"
-          },
-          {
-                    "en": "Triple the height",
-                    "es": "Triple the height",
-                    "de": "Triple the height",
-                    "nl": "Triple the height"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Sydney Opera House stands at its iconic height.",
-                  "es": "Sydney Opera House stands at its iconic height.",
-                  "de": "Sydney Opera House stands at its iconic height.",
-                  "nl": "Sydney Opera House stands at its iconic height."
-        }
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
       },
       {
-        question: {
-                  "en": "Who was the main architect of Sydney Opera House?",
-                  "es": "Who was the main architect of Sydney Opera House?",
-                  "de": "Who was the main architect of Sydney Opera House?",
-                  "nl": "Who was the main architect of Sydney Opera House?"
-        },
-        options: [
-          {
-                    "en": "The correct architect",
-                    "es": "The correct architect",
-                    "de": "The correct architect",
-                    "nl": "The correct architect"
-          },
-          {
-                    "en": "Frank Lloyd Wright",
-                    "es": "Frank Lloyd Wright",
-                    "de": "Frank Lloyd Wright",
-                    "nl": "Frank Lloyd Wright"
-          },
-          {
-                    "en": "Le Corbusier",
-                    "es": "Le Corbusier",
-                    "de": "Le Corbusier",
-                    "nl": "Le Corbusier"
-          },
-          {
-                    "en": "Antoni Gaudí",
-                    "es": "Antoni Gaudí",
-                    "de": "Antoni Gaudí",
-                    "nl": "Antoni Gaudí"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Sydney Opera House was designed by its renowned architect.",
-                  "es": "Sydney Opera House was designed by its renowned architect.",
-                  "de": "Sydney Opera House was designed by its renowned architect.",
-                  "nl": "Sydney Opera House was designed by its renowned architect."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the original purpose of Sydney Opera House?",
-                  "es": "What was the original purpose of Sydney Opera House?",
-                  "de": "What was the original purpose of Sydney Opera House?",
-                  "nl": "What was the original purpose of Sydney Opera House?"
-        },
-        options: [
-          {
-                    "en": "Its correct purpose",
-                    "es": "Its correct purpose",
-                    "de": "Its correct purpose",
-                    "nl": "Its correct purpose"
-          },
-          {
-                    "en": "Military defense",
-                    "es": "Military defense",
-                    "de": "Military defense",
-                    "nl": "Military defense"
-          },
-          {
-                    "en": "Religious worship",
-                    "es": "Religious worship",
-                    "de": "Religious worship",
-                    "nl": "Religious worship"
-          },
-          {
-                    "en": "Royal residence",
-                    "es": "Royal residence",
-                    "de": "Royal residence",
-                    "nl": "Royal residence"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Sydney Opera House was originally built for its specific historical purpose.",
-                  "es": "Sydney Opera House was originally built for its specific historical purpose.",
-                  "de": "Sydney Opera House was originally built for its specific historical purpose.",
-                  "nl": "Sydney Opera House was originally built for its specific historical purpose."
-        }
-      ,
-      {
-        question: {
-                  "en": "In which century was Sydney Opera House built?",
-                  "es": "In which century was Sydney Opera House built?",
-                  "de": "In which century was Sydney Opera House built?",
-                  "nl": "In which century was Sydney Opera House built?"
-        },
-        options: [
-          {
-                    "en": "Correct century",
-                    "es": "Correct century",
-                    "de": "Correct century",
-                    "nl": "Correct century"
-          },
-          {
-                    "en": "One century earlier",
-                    "es": "One century earlier",
-                    "de": "One century earlier",
-                    "nl": "One century earlier"
-          },
-          {
-                    "en": "One century later",
-                    "es": "One century later",
-                    "de": "One century later",
-                    "nl": "One century later"
-          },
-          {
-                    "en": "Two centuries later",
-                    "es": "Two centuries later",
-                    "de": "Two centuries later",
-                    "nl": "Two centuries later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Sydney Opera House is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Sydney Opera House es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Sydney Opera House ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Sydney Opera House is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "How long did it take to build Sydney Opera House?",
-                  "es": "How long did it take to build Sydney Opera House?",
-                  "de": "How long did it take to build Sydney Opera House?",
-                  "nl": "How long did it take to build Sydney Opera House?"
-        },
-        options: [
-          {
-                    "en": "Correct duration",
-                    "es": "Correct duration",
-                    "de": "Correct duration",
-                    "nl": "Correct duration"
-          },
-          {
-                    "en": "Half the time",
-                    "es": "Half the time",
-                    "de": "Half the time",
-                    "nl": "Half the time"
-          },
-          {
-                    "en": "Double the time",
-                    "es": "Double the time",
-                    "de": "Double the time",
-                    "nl": "Double the time"
-          },
-          {
-                    "en": "Triple the time",
-                    "es": "Triple the time",
-                    "de": "Triple the time",
-                    "nl": "Triple the time"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Sydney Opera House is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Sydney Opera House es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Sydney Opera House ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Sydney Opera House is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Which ruler commissioned Sydney Opera House?",
-                  "es": "Which ruler commissioned Sydney Opera House?",
-                  "de": "Which ruler commissioned Sydney Opera House?",
-                  "nl": "Which ruler commissioned Sydney Opera House?"
-        },
-        options: [
-          {
-                    "en": "Correct ruler",
-                    "es": "Correct ruler",
-                    "de": "Correct ruler",
-                    "nl": "Correct ruler"
-          },
-          {
-                    "en": "Previous ruler",
-                    "es": "Previous ruler",
-                    "de": "Previous ruler",
-                    "nl": "Previous ruler"
-          },
-          {
-                    "en": "Next ruler",
-                    "es": "Next ruler",
-                    "de": "Next ruler",
-                    "nl": "Next ruler"
-          },
-          {
-                    "en": "Famous contemporary",
-                    "es": "Famous contemporary",
-                    "de": "Famous contemporary",
-                    "nl": "Famous contemporary"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Sydney Opera House is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Sydney Opera House es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Sydney Opera House ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Sydney Opera House is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What year did construction begin on Sydney Opera House?",
-                  "es": "What year did construction begin on Sydney Opera House?",
-                  "de": "What year did construction begin on Sydney Opera House?",
-                  "nl": "What year did construction begin on Sydney Opera House?"
-        },
-        options: [
-          {
-                    "en": "Correct year",
-                    "es": "Correct year",
-                    "de": "Correct year",
-                    "nl": "Correct year"
-          },
-          {
-                    "en": "10 years earlier",
-                    "es": "10 years earlier",
-                    "de": "10 years earlier",
-                    "nl": "10 years earlier"
-          },
-          {
-                    "en": "10 years later",
-                    "es": "10 years later",
-                    "de": "10 years later",
-                    "nl": "10 years later"
-          },
-          {
-                    "en": "20 years later",
-                    "es": "20 years later",
-                    "de": "20 years later",
-                    "nl": "20 years later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Sydney Opera House is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Sydney Opera House es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Sydney Opera House ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Sydney Opera House is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What year was Sydney Opera House completed?",
-                  "es": "What year was Sydney Opera House completed?",
-                  "de": "What year was Sydney Opera House completed?",
-                  "nl": "What year was Sydney Opera House completed?"
-        },
-        options: [
-          {
-                    "en": "Correct year",
-                    "es": "Correct year",
-                    "de": "Correct year",
-                    "nl": "Correct year"
-          },
-          {
-                    "en": "5 years earlier",
-                    "es": "5 years earlier",
-                    "de": "5 years earlier",
-                    "nl": "5 years earlier"
-          },
-          {
-                    "en": "5 years later",
-                    "es": "5 years later",
-                    "de": "5 years later",
-                    "nl": "5 years later"
-          },
-          {
-                    "en": "15 years later",
-                    "es": "15 years later",
-                    "de": "15 years later",
-                    "nl": "15 years later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Sydney Opera House is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Sydney Opera House es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Sydney Opera House ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Sydney Opera House is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "During which historical period was Sydney Opera House constructed?",
-                  "es": "During which historical period was Sydney Opera House constructed?",
-                  "de": "During which historical period was Sydney Opera House constructed?",
-                  "nl": "During which historical period was Sydney Opera House constructed?"
-        },
-        options: [
-          {
-                    "en": "Correct period",
-                    "es": "Correct period",
-                    "de": "Correct period",
-                    "nl": "Correct period"
-          },
-          {
-                    "en": "Previous era",
-                    "es": "Previous era",
-                    "de": "Previous era",
-                    "nl": "Previous era"
-          },
-          {
-                    "en": "Next era",
-                    "es": "Next era",
-                    "de": "Next era",
-                    "nl": "Next era"
-          },
-          {
-                    "en": "Different civilization",
-                    "es": "Different civilization",
-                    "de": "Different civilization",
-                    "nl": "Different civilization"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Sydney Opera House is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Sydney Opera House es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Sydney Opera House ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Sydney Opera House is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What major event occurred at Sydney Opera House?",
-                  "es": "What major event occurred at Sydney Opera House?",
-                  "de": "What major event occurred at Sydney Opera House?",
-                  "nl": "What major event occurred at Sydney Opera House?"
-        },
-        options: [
-          {
-                    "en": "Correct event",
-                    "es": "Correct event",
-                    "de": "Correct event",
-                    "nl": "Correct event"
-          },
-          {
-                    "en": "Different event",
-                    "es": "Different event",
-                    "de": "Different event",
-                    "nl": "Different event"
-          },
-          {
-                    "en": "Later event",
-                    "es": "Later event",
-                    "de": "Later event",
-                    "nl": "Later event"
-          },
-          {
-                    "en": "Unrelated event",
-                    "es": "Unrelated event",
-                    "de": "Unrelated event",
-                    "nl": "Unrelated event"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Sydney Opera House is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Sydney Opera House es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Sydney Opera House ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Sydney Opera House is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Who was the original patron of Sydney Opera House?",
-                  "es": "Who was the original patron of Sydney Opera House?",
-                  "de": "Who was the original patron of Sydney Opera House?",
-                  "nl": "Who was the original patron of Sydney Opera House?"
-        },
-        options: [
-          {
-                    "en": "Correct patron",
-                    "es": "Correct patron",
-                    "de": "Correct patron",
-                    "nl": "Correct patron"
-          },
-          {
-                    "en": "Different noble",
-                    "es": "Different noble",
-                    "de": "Different noble",
-                    "nl": "Different noble"
-          },
-          {
-                    "en": "Merchant",
-                    "es": "Merchant",
-                    "de": "Merchant",
-                    "nl": "Merchant"
-          },
-          {
-                    "en": "Religious figure",
-                    "es": "Religious figure",
-                    "de": "Religious figure",
-                    "nl": "Religious figure"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Sydney Opera House is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Sydney Opera House es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Sydney Opera House ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Sydney Opera House is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What architectural style is Sydney Opera House?",
-                  "es": "What architectural style is Sydney Opera House?",
-                  "de": "What architectural style is Sydney Opera House?",
-                  "nl": "What architectural style is Sydney Opera House?"
-        },
-        options: [
-          {
-                    "en": "Correct style",
-                    "es": "Correct style",
-                    "de": "Correct style",
-                    "nl": "Correct style"
-          },
-          {
-                    "en": "Gothic",
-                    "es": "Gothic",
-                    "de": "Gothic",
-                    "nl": "Gothic"
-          },
-          {
-                    "en": "Baroque",
-                    "es": "Baroque",
-                    "de": "Baroque",
-                    "nl": "Baroque"
-          },
-          {
-                    "en": "Modern",
-                    "es": "Modern",
-                    "de": "Modern",
-                    "nl": "Modern"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Sydney Opera House is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Sydney Opera House es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Sydney Opera House ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Sydney Opera House is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Who was the chief architect of Sydney Opera House?",
-                  "es": "Who was the chief architect of Sydney Opera House?",
-                  "de": "Who was the chief architect of Sydney Opera House?",
-                  "nl": "Who was the chief architect of Sydney Opera House?"
-        },
-        options: [
-          {
-                    "en": "Correct architect",
-                    "es": "Correct architect",
-                    "de": "Correct architect",
-                    "nl": "Correct architect"
-          },
-          {
-                    "en": "Contemporary architect",
-                    "es": "Contemporary architect",
-                    "de": "Contemporary architect",
-                    "nl": "Contemporary architect"
-          },
-          {
-                    "en": "Famous architect",
-                    "es": "Famous architect",
-                    "de": "Famous architect",
-                    "nl": "Famous architect"
-          },
-          {
-                    "en": "Unknown",
-                    "es": "Unknown",
-                    "de": "Unknown",
-                    "nl": "Unknown"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Sydney Opera House is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Sydney Opera House es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Sydney Opera House ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Sydney Opera House is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the primary building material of Sydney Opera House?",
-                  "es": "What is the primary building material of Sydney Opera House?",
-                  "de": "What is the primary building material of Sydney Opera House?",
-                  "nl": "What is the primary building material of Sydney Opera House?"
-        },
-        options: [
-          {
-                    "en": "Correct material",
-                    "es": "Correct material",
-                    "de": "Correct material",
-                    "nl": "Correct material"
-          },
-          {
-                    "en": "Stone",
-                    "es": "Stone",
-                    "de": "Stone",
-                    "nl": "Stone"
-          },
-          {
-                    "en": "Wood",
-                    "es": "Wood",
-                    "de": "Wood",
-                    "nl": "Wood"
-          },
-          {
-                    "en": "Concrete",
-                    "es": "Concrete",
-                    "de": "Concrete",
-                    "nl": "Concrete"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Sydney Opera House is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Sydney Opera House es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Sydney Opera House ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Sydney Opera House is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "How tall is Sydney Opera House?",
-                  "es": "How tall is Sydney Opera House?",
-                  "de": "How tall is Sydney Opera House?",
-                  "nl": "How tall is Sydney Opera House?"
-        },
-        options: [
-          {
-                    "en": "Correct height",
-                    "es": "Correct height",
-                    "de": "Correct height",
-                    "nl": "Correct height"
-          },
-          {
-                    "en": "25% less",
-                    "es": "25% less",
-                    "de": "25% less",
-                    "nl": "25% less"
-          },
-          {
-                    "en": "25% more",
-                    "es": "25% more",
-                    "de": "25% more",
-                    "nl": "25% more"
-          },
-          {
-                    "en": "Double",
-                    "es": "Double",
-                    "de": "Double",
-                    "nl": "Double"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Sydney Opera House is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Sydney Opera House es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Sydney Opera House ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Sydney Opera House is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "How many floors does Sydney Opera House have?",
-                  "es": "How many floors does Sydney Opera House have?",
-                  "de": "How many floors does Sydney Opera House have?",
-                  "nl": "How many floors does Sydney Opera House have?"
-        },
-        options: [
-          {
-                    "en": "Correct number",
-                    "es": "Correct number",
-                    "de": "Correct number",
-                    "nl": "Correct number"
-          },
-          {
-                    "en": "Half",
-                    "es": "Half",
-                    "de": "Half",
-                    "nl": "Half"
-          },
-          {
-                    "en": "Double",
-                    "es": "Double",
-                    "de": "Double",
-                    "nl": "Double"
-          },
-          {
-                    "en": "Triple",
-                    "es": "Triple",
-                    "de": "Triple",
-                    "nl": "Triple"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Sydney Opera House is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Sydney Opera House es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Sydney Opera House ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Sydney Opera House is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the total area of Sydney Opera House?",
-                  "es": "What is the total area of Sydney Opera House?",
-                  "de": "What is the total area of Sydney Opera House?",
-                  "nl": "What is the total area of Sydney Opera House?"
-        },
-        options: [
-          {
-                    "en": "Correct area",
-                    "es": "Correct area",
-                    "de": "Correct area",
-                    "nl": "Correct area"
-          },
-          {
-                    "en": "Half the area",
-                    "es": "Half the area",
-                    "de": "Half the area",
-                    "nl": "Half the area"
-          },
-          {
-                    "en": "Double the area",
-                    "es": "Double the area",
-                    "de": "Double the area",
-                    "nl": "Double the area"
-          },
-          {
-                    "en": "Ten times larger",
-                    "es": "Ten times larger",
-                    "de": "Ten times larger",
-                    "nl": "Ten times larger"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Sydney Opera House is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Sydney Opera House es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Sydney Opera House ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Sydney Opera House is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What innovative technique was used in Sydney Opera House?",
-                  "es": "What innovative technique was used in Sydney Opera House?",
-                  "de": "What innovative technique was used in Sydney Opera House?",
-                  "nl": "What innovative technique was used in Sydney Opera House?"
-        },
-        options: [
-          {
-                    "en": "Correct technique",
-                    "es": "Correct technique",
-                    "de": "Correct technique",
-                    "nl": "Correct technique"
-          },
-          {
-                    "en": "Different method",
-                    "es": "Different method",
-                    "de": "Different method",
-                    "nl": "Different method"
-          },
-          {
-                    "en": "Modern method",
-                    "es": "Modern method",
-                    "de": "Modern method",
-                    "nl": "Modern method"
-          },
-          {
-                    "en": "Ancient method",
-                    "es": "Ancient method",
-                    "de": "Ancient method",
-                    "nl": "Ancient method"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Sydney Opera House is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Sydney Opera House es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Sydney Opera House ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Sydney Opera House is historisch accuraat en goed gedocumenteerd."
-        }
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Sydney Opera House",
+      "es": "Pregunta 3 sobre Sydney Opera House",
+      "de": "Frage 3 über Sydney Opera House",
+      "nl": "Vraag 3 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
       }
-    ]
-  };
-
-  // Export for use in the quiz application
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level6;
-  } else if (typeof window !== 'undefined') {
-    window.level6 = level6;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Sydney Opera House",
+      "es": "Pregunta 4 sobre Sydney Opera House",
+      "de": "Frage 4 über Sydney Opera House",
+      "nl": "Vraag 4 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Sydney Opera House",
+      "es": "Pregunta 5 sobre Sydney Opera House",
+      "de": "Frage 5 über Sydney Opera House",
+      "nl": "Vraag 5 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Sydney Opera House",
+      "es": "Pregunta 6 sobre Sydney Opera House",
+      "de": "Frage 6 über Sydney Opera House",
+      "nl": "Vraag 6 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Sydney Opera House",
+      "es": "Pregunta 7 sobre Sydney Opera House",
+      "de": "Frage 7 über Sydney Opera House",
+      "nl": "Vraag 7 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Sydney Opera House",
+      "es": "Pregunta 8 sobre Sydney Opera House",
+      "de": "Frage 8 über Sydney Opera House",
+      "nl": "Vraag 8 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Sydney Opera House",
+      "es": "Pregunta 9 sobre Sydney Opera House",
+      "de": "Frage 9 über Sydney Opera House",
+      "nl": "Vraag 9 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Sydney Opera House",
+      "es": "Pregunta 10 sobre Sydney Opera House",
+      "de": "Frage 10 über Sydney Opera House",
+      "nl": "Vraag 10 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Sydney Opera House",
+      "es": "Pregunta 11 sobre Sydney Opera House",
+      "de": "Frage 11 über Sydney Opera House",
+      "nl": "Vraag 11 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Sydney Opera House",
+      "es": "Pregunta 12 sobre Sydney Opera House",
+      "de": "Frage 12 über Sydney Opera House",
+      "nl": "Vraag 12 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Sydney Opera House",
+      "es": "Pregunta 13 sobre Sydney Opera House",
+      "de": "Frage 13 über Sydney Opera House",
+      "nl": "Vraag 13 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Sydney Opera House",
+      "es": "Pregunta 14 sobre Sydney Opera House",
+      "de": "Frage 14 über Sydney Opera House",
+      "nl": "Vraag 14 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Sydney Opera House",
+      "es": "Pregunta 15 sobre Sydney Opera House",
+      "de": "Frage 15 über Sydney Opera House",
+      "nl": "Vraag 15 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Sydney Opera House",
+      "es": "Pregunta 16 sobre Sydney Opera House",
+      "de": "Frage 16 über Sydney Opera House",
+      "nl": "Vraag 16 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Sydney Opera House",
+      "es": "Pregunta 17 sobre Sydney Opera House",
+      "de": "Frage 17 über Sydney Opera House",
+      "nl": "Vraag 17 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Sydney Opera House",
+      "es": "Pregunta 18 sobre Sydney Opera House",
+      "de": "Frage 18 über Sydney Opera House",
+      "nl": "Vraag 18 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Sydney Opera House",
+      "es": "Pregunta 19 sobre Sydney Opera House",
+      "de": "Frage 19 über Sydney Opera House",
+      "nl": "Vraag 19 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Sydney Opera House",
+      "es": "Pregunta 20 sobre Sydney Opera House",
+      "de": "Frage 20 über Sydney Opera House",
+      "nl": "Vraag 20 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Sydney Opera House",
+      "es": "Pregunta 21 sobre Sydney Opera House",
+      "de": "Frage 21 über Sydney Opera House",
+      "nl": "Vraag 21 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Sydney Opera House",
+      "es": "Pregunta 22 sobre Sydney Opera House",
+      "de": "Frage 22 über Sydney Opera House",
+      "nl": "Vraag 22 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Sydney Opera House",
+      "es": "Pregunta 23 sobre Sydney Opera House",
+      "de": "Frage 23 über Sydney Opera House",
+      "nl": "Vraag 23 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Sydney Opera House",
+      "es": "Pregunta 24 sobre Sydney Opera House",
+      "de": "Frage 24 über Sydney Opera House",
+      "nl": "Vraag 24 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Sydney Opera House",
+      "es": "Pregunta 25 sobre Sydney Opera House",
+      "de": "Frage 25 über Sydney Opera House",
+      "nl": "Vraag 25 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Sydney Opera House",
+      "es": "Pregunta 26 sobre Sydney Opera House",
+      "de": "Frage 26 über Sydney Opera House",
+      "nl": "Vraag 26 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Sydney Opera House",
+      "es": "Pregunta 27 sobre Sydney Opera House",
+      "de": "Frage 27 über Sydney Opera House",
+      "nl": "Vraag 27 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Sydney Opera House",
+      "es": "Pregunta 28 sobre Sydney Opera House",
+      "de": "Frage 28 über Sydney Opera House",
+      "nl": "Vraag 28 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Sydney Opera House",
+      "es": "Pregunta 29 sobre Sydney Opera House",
+      "de": "Frage 29 über Sydney Opera House",
+      "nl": "Vraag 29 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Sydney Opera House",
+      "es": "Pregunta 30 sobre Sydney Opera House",
+      "de": "Frage 30 über Sydney Opera House",
+      "nl": "Vraag 30 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Sydney Opera House",
+      "es": "Pregunta 31 sobre Sydney Opera House",
+      "de": "Frage 31 über Sydney Opera House",
+      "nl": "Vraag 31 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Sydney Opera House",
+      "es": "Pregunta 32 sobre Sydney Opera House",
+      "de": "Frage 32 über Sydney Opera House",
+      "nl": "Vraag 32 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Sydney Opera House",
+      "es": "Pregunta 33 sobre Sydney Opera House",
+      "de": "Frage 33 über Sydney Opera House",
+      "nl": "Vraag 33 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Sydney Opera House",
+      "es": "Pregunta 34 sobre Sydney Opera House",
+      "de": "Frage 34 über Sydney Opera House",
+      "nl": "Vraag 34 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Sydney Opera House",
+      "es": "Pregunta 35 sobre Sydney Opera House",
+      "de": "Frage 35 über Sydney Opera House",
+      "nl": "Vraag 35 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Sydney Opera House",
+      "es": "Pregunta 36 sobre Sydney Opera House",
+      "de": "Frage 36 über Sydney Opera House",
+      "nl": "Vraag 36 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Sydney Opera House",
+      "es": "Pregunta 37 sobre Sydney Opera House",
+      "de": "Frage 37 über Sydney Opera House",
+      "nl": "Vraag 37 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Sydney Opera House",
+      "es": "Pregunta 38 sobre Sydney Opera House",
+      "de": "Frage 38 über Sydney Opera House",
+      "nl": "Vraag 38 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Sydney Opera House",
+      "es": "Pregunta 39 sobre Sydney Opera House",
+      "de": "Frage 39 über Sydney Opera House",
+      "nl": "Vraag 39 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Sydney Opera House",
+      "es": "Pregunta 40 sobre Sydney Opera House",
+      "de": "Frage 40 über Sydney Opera House",
+      "nl": "Vraag 40 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Sydney Opera House",
+      "es": "Pregunta 41 sobre Sydney Opera House",
+      "de": "Frage 41 über Sydney Opera House",
+      "nl": "Vraag 41 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Sydney Opera House",
+      "es": "Pregunta 42 sobre Sydney Opera House",
+      "de": "Frage 42 über Sydney Opera House",
+      "nl": "Vraag 42 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Sydney Opera House",
+      "es": "Pregunta 43 sobre Sydney Opera House",
+      "de": "Frage 43 über Sydney Opera House",
+      "nl": "Vraag 43 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Sydney Opera House",
+      "es": "Pregunta 44 sobre Sydney Opera House",
+      "de": "Frage 44 über Sydney Opera House",
+      "nl": "Vraag 44 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Sydney Opera House",
+      "es": "Pregunta 45 sobre Sydney Opera House",
+      "de": "Frage 45 über Sydney Opera House",
+      "nl": "Vraag 45 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Sydney Opera House",
+      "es": "Pregunta 46 sobre Sydney Opera House",
+      "de": "Frage 46 über Sydney Opera House",
+      "nl": "Vraag 46 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Sydney Opera House",
+      "es": "Pregunta 47 sobre Sydney Opera House",
+      "de": "Frage 47 über Sydney Opera House",
+      "nl": "Vraag 47 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Sydney Opera House",
+      "es": "Pregunta 48 sobre Sydney Opera House",
+      "de": "Frage 48 über Sydney Opera House",
+      "nl": "Vraag 48 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Sydney Opera House",
+      "es": "Pregunta 49 sobre Sydney Opera House",
+      "de": "Frage 49 über Sydney Opera House",
+      "nl": "Vraag 49 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Sydney Opera House",
+      "es": "Pregunta 50 sobre Sydney Opera House",
+      "de": "Frage 50 über Sydney Opera House",
+      "nl": "Vraag 50 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Sydney Opera House",
+      "es": "Pregunta 51 sobre Sydney Opera House",
+      "de": "Frage 51 über Sydney Opera House",
+      "nl": "Vraag 51 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Sydney Opera House",
+      "es": "Pregunta 52 sobre Sydney Opera House",
+      "de": "Frage 52 über Sydney Opera House",
+      "nl": "Vraag 52 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Sydney Opera House",
+      "es": "Pregunta 53 sobre Sydney Opera House",
+      "de": "Frage 53 über Sydney Opera House",
+      "nl": "Vraag 53 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Sydney Opera House",
+      "es": "Pregunta 54 sobre Sydney Opera House",
+      "de": "Frage 54 über Sydney Opera House",
+      "nl": "Vraag 54 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Sydney Opera House",
+      "es": "Pregunta 55 sobre Sydney Opera House",
+      "de": "Frage 55 über Sydney Opera House",
+      "nl": "Vraag 55 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Sydney Opera House",
+      "es": "Pregunta 56 sobre Sydney Opera House",
+      "de": "Frage 56 über Sydney Opera House",
+      "nl": "Vraag 56 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Sydney Opera House",
+      "es": "Pregunta 57 sobre Sydney Opera House",
+      "de": "Frage 57 über Sydney Opera House",
+      "nl": "Vraag 57 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Sydney Opera House",
+      "es": "Pregunta 58 sobre Sydney Opera House",
+      "de": "Frage 58 über Sydney Opera House",
+      "nl": "Vraag 58 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Sydney Opera House",
+      "es": "Pregunta 59 sobre Sydney Opera House",
+      "de": "Frage 59 über Sydney Opera House",
+      "nl": "Vraag 59 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Sydney Opera House",
+      "es": "Pregunta 60 sobre Sydney Opera House",
+      "de": "Frage 60 über Sydney Opera House",
+      "nl": "Vraag 60 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Sydney Opera House",
+      "es": "Pregunta 61 sobre Sydney Opera House",
+      "de": "Frage 61 über Sydney Opera House",
+      "nl": "Vraag 61 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Sydney Opera House",
+      "es": "Pregunta 62 sobre Sydney Opera House",
+      "de": "Frage 62 über Sydney Opera House",
+      "nl": "Vraag 62 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Sydney Opera House",
+      "es": "Pregunta 63 sobre Sydney Opera House",
+      "de": "Frage 63 über Sydney Opera House",
+      "nl": "Vraag 63 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Sydney Opera House",
+      "es": "Pregunta 64 sobre Sydney Opera House",
+      "de": "Frage 64 über Sydney Opera House",
+      "nl": "Vraag 64 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Sydney Opera House",
+      "es": "Pregunta 65 sobre Sydney Opera House",
+      "de": "Frage 65 über Sydney Opera House",
+      "nl": "Vraag 65 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Sydney Opera House",
+      "es": "Pregunta 66 sobre Sydney Opera House",
+      "de": "Frage 66 über Sydney Opera House",
+      "nl": "Vraag 66 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Sydney Opera House",
+      "es": "Pregunta 67 sobre Sydney Opera House",
+      "de": "Frage 67 über Sydney Opera House",
+      "nl": "Vraag 67 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Sydney Opera House",
+      "es": "Pregunta 68 sobre Sydney Opera House",
+      "de": "Frage 68 über Sydney Opera House",
+      "nl": "Vraag 68 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Sydney Opera House",
+      "es": "Pregunta 69 sobre Sydney Opera House",
+      "de": "Frage 69 über Sydney Opera House",
+      "nl": "Vraag 69 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Sydney Opera House",
+      "es": "Pregunta 70 sobre Sydney Opera House",
+      "de": "Frage 70 über Sydney Opera House",
+      "nl": "Vraag 70 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Sydney Opera House",
+      "es": "Pregunta 71 sobre Sydney Opera House",
+      "de": "Frage 71 über Sydney Opera House",
+      "nl": "Vraag 71 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Sydney Opera House",
+      "es": "Pregunta 72 sobre Sydney Opera House",
+      "de": "Frage 72 über Sydney Opera House",
+      "nl": "Vraag 72 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Sydney Opera House",
+      "es": "Pregunta 73 sobre Sydney Opera House",
+      "de": "Frage 73 über Sydney Opera House",
+      "nl": "Vraag 73 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Sydney Opera House",
+      "es": "Pregunta 74 sobre Sydney Opera House",
+      "de": "Frage 74 über Sydney Opera House",
+      "nl": "Vraag 74 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Sydney Opera House",
+      "es": "Pregunta 75 sobre Sydney Opera House",
+      "de": "Frage 75 über Sydney Opera House",
+      "nl": "Vraag 75 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Sydney Opera House",
+      "es": "Pregunta 76 sobre Sydney Opera House",
+      "de": "Frage 76 über Sydney Opera House",
+      "nl": "Vraag 76 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Sydney Opera House",
+      "es": "Pregunta 77 sobre Sydney Opera House",
+      "de": "Frage 77 über Sydney Opera House",
+      "nl": "Vraag 77 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Sydney Opera House",
+      "es": "Pregunta 78 sobre Sydney Opera House",
+      "de": "Frage 78 über Sydney Opera House",
+      "nl": "Vraag 78 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Sydney Opera House",
+      "es": "Pregunta 79 sobre Sydney Opera House",
+      "de": "Frage 79 über Sydney Opera House",
+      "nl": "Vraag 79 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Sydney Opera House",
+      "es": "Pregunta 80 sobre Sydney Opera House",
+      "de": "Frage 80 über Sydney Opera House",
+      "nl": "Vraag 80 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Sydney Opera House",
+      "es": "Pregunta 81 sobre Sydney Opera House",
+      "de": "Frage 81 über Sydney Opera House",
+      "nl": "Vraag 81 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Sydney Opera House",
+      "es": "Pregunta 82 sobre Sydney Opera House",
+      "de": "Frage 82 über Sydney Opera House",
+      "nl": "Vraag 82 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Sydney Opera House",
+      "es": "Pregunta 83 sobre Sydney Opera House",
+      "de": "Frage 83 über Sydney Opera House",
+      "nl": "Vraag 83 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Sydney Opera House",
+      "es": "Pregunta 84 sobre Sydney Opera House",
+      "de": "Frage 84 über Sydney Opera House",
+      "nl": "Vraag 84 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Sydney Opera House",
+      "es": "Pregunta 85 sobre Sydney Opera House",
+      "de": "Frage 85 über Sydney Opera House",
+      "nl": "Vraag 85 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Sydney Opera House",
+      "es": "Pregunta 86 sobre Sydney Opera House",
+      "de": "Frage 86 über Sydney Opera House",
+      "nl": "Vraag 86 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Sydney Opera House",
+      "es": "Pregunta 87 sobre Sydney Opera House",
+      "de": "Frage 87 über Sydney Opera House",
+      "nl": "Vraag 87 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Sydney Opera House",
+      "es": "Pregunta 88 sobre Sydney Opera House",
+      "de": "Frage 88 über Sydney Opera House",
+      "nl": "Vraag 88 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Sydney Opera House",
+      "es": "Pregunta 89 sobre Sydney Opera House",
+      "de": "Frage 89 über Sydney Opera House",
+      "nl": "Vraag 89 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Sydney Opera House",
+      "es": "Pregunta 90 sobre Sydney Opera House",
+      "de": "Frage 90 über Sydney Opera House",
+      "nl": "Vraag 90 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Sydney Opera House",
+      "es": "Pregunta 91 sobre Sydney Opera House",
+      "de": "Frage 91 über Sydney Opera House",
+      "nl": "Vraag 91 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Sydney Opera House",
+      "es": "Pregunta 92 sobre Sydney Opera House",
+      "de": "Frage 92 über Sydney Opera House",
+      "nl": "Vraag 92 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Sydney Opera House",
+      "es": "Pregunta 93 sobre Sydney Opera House",
+      "de": "Frage 93 über Sydney Opera House",
+      "nl": "Vraag 93 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Sydney Opera House",
+      "es": "Pregunta 94 sobre Sydney Opera House",
+      "de": "Frage 94 über Sydney Opera House",
+      "nl": "Vraag 94 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Sydney Opera House",
+      "es": "Pregunta 95 sobre Sydney Opera House",
+      "de": "Frage 95 über Sydney Opera House",
+      "nl": "Vraag 95 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Sydney Opera House",
+      "es": "Pregunta 96 sobre Sydney Opera House",
+      "de": "Frage 96 über Sydney Opera House",
+      "nl": "Vraag 96 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Sydney Opera House",
+      "es": "Pregunta 97 sobre Sydney Opera House",
+      "de": "Frage 97 über Sydney Opera House",
+      "nl": "Vraag 97 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Sydney Opera House",
+      "es": "Pregunta 98 sobre Sydney Opera House",
+      "de": "Frage 98 über Sydney Opera House",
+      "nl": "Vraag 98 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Sydney Opera House",
+      "es": "Pregunta 99 sobre Sydney Opera House",
+      "de": "Frage 99 über Sydney Opera House",
+      "nl": "Vraag 99 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Sydney Opera House",
+      "es": "Pregunta 100 sobre Sydney Opera House",
+      "de": "Frage 100 über Sydney Opera House",
+      "nl": "Vraag 100 over Sydney Opera House"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sydney Opera House",
+        "es": "Respuesta A para Sydney Opera House",
+        "de": "Antwort A für Sydney Opera House",
+        "nl": "Antwoord A voor Sydney Opera House"
+      },
+      {
+        "en": "Answer B for Sydney Opera House",
+        "es": "Respuesta B para Sydney Opera House",
+        "de": "Antwort B für Sydney Opera House",
+        "nl": "Antwoord B voor Sydney Opera House"
+      },
+      {
+        "en": "Answer C for Sydney Opera House",
+        "es": "Respuesta C para Sydney Opera House",
+        "de": "Antwort C für Sydney Opera House",
+        "nl": "Antwoord C voor Sydney Opera House"
+      },
+      {
+        "en": "Answer D for Sydney Opera House",
+        "es": "Respuesta D para Sydney Opera House",
+        "de": "Antwort D für Sydney Opera House",
+        "nl": "Antwoord D voor Sydney Opera House"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sydney Opera House.",
+      "es": "Esta es la respuesta correcta sobre Sydney Opera House.",
+      "de": "Dies ist die richtige Antwort über Sydney Opera House.",
+      "nl": "Dit is het juiste antwoord over Sydney Opera House."
+    }
   }
-})();
+]
+};

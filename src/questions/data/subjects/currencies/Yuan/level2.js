@@ -1,840 +1,4104 @@
-// Quiz Level 2: Currencies - Yuan (Easy)
-(function() {
-  const level2 = {
-    name: {
-      en: "Yuan - Easy",
-      es: "Yuan - Fácil",
-      de: "Yuan - Einfach",
-      nl: "Yuan - Gemakkelijk"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Yuan",
+      "es": "Pregunta 1 sobre Yuan",
+      "de": "Frage 1 über Yuan",
+      "nl": "Vraag 1 over Yuan"
     },
-    questions: [
+    "options": [
       {
-        question: {
-          en: "What is the main difference between CNY and CNH?",
-          es: "¿Cuál es la principal diferencia entre CNY y CNH?",
-          de: "Was ist der Hauptunterschied zwischen CNY und CNH?",
-          nl: "Wat is het belangrijkste verschil tussen CNY en CNH?"
-        },
-        options: [
-          { en: "CNY is onshore, CNH is offshore Yuan", es: "CNY es onshore, CNH es Yuan offshore", de: "CNY ist Onshore, CNH ist Offshore Yuan", nl: "CNY is onshore, CNH is offshore Yuan" },
-          { en: "CNY is for cash, CNH is digital", es: "CNY es para efectivo, CNH es digital", de: "CNY ist für Bargeld, CNH ist digital", nl: "CNY is voor contant geld, CNH is digitaal" },
-          { en: "CNY is old code, CNH is new", es: "CNY es código viejo, CNH es nuevo", de: "CNY ist alter Code, CNH ist neu", nl: "CNY is oude code, CNH is nieuw" },
-          { en: "There is no difference", es: "No hay diferencia", de: "Es gibt keinen Unterschied", nl: "Er is geen verschil" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "CNY refers to onshore Yuan traded within mainland China under capital controls, while CNH refers to offshore Yuan traded freely in international markets, primarily Hong Kong.",
-          es: "CNY se refiere al Yuan onshore comercializado dentro de China continental bajo controles de capital, mientras que CNH se refiere al Yuan offshore comercializado libremente en mercados internacionales, principalmente Hong Kong.",
-          de: "CNY bezieht sich auf Onshore-Yuan, der innerhalb Festlandchinas unter Kapitalkontrollen gehandelt wird, während CNH sich auf Offshore-Yuan bezieht, der frei auf internationalen Märkten gehandelt wird, hauptsächlich in Hongkong.",
-          nl: "CNY verwijst naar onshore Yuan verhandeld binnen vasteland China onder kapitaalcontroles, terwijl CNH verwijst naar offshore Yuan vrij verhandeld op internationale markten, voornamelijk Hong Kong."
-        }
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
       },
       {
-        question: {
-          en: "Which initiative has been crucial for Yuan internationalization since 2013?",
-          es: "¿Qué iniciativa ha sido crucial para la internacionalización del Yuan desde 2013?",
-          de: "Welche Initiative war seit 2013 entscheidend für die Yuan-Internationalisierung?",
-          nl: "Welk initiatief is cruciaal geweest voor Yuan internationalisatie sinds 2013?"
-        },
-        options: [
-          { en: "Asian Infrastructure Investment Bank", es: "Banco Asiático de Inversión en Infraestructura", de: "Asiatische Infrastruktur-Investmentbank", nl: "Aziatische Infrastructuur Investeringsbank" },
-          { en: "Belt and Road Initiative (BRI)", es: "Iniciativa del Cinturón y la Ruta (BRI)", de: "Belt and Road Initiative (BRI)", nl: "Belt and Road Initiative (BRI)" },
-          { en: "Shanghai Cooperation Organization", es: "Organización de Cooperación de Shanghai", de: "Shanghai-Organisation für Zusammenarbeit", nl: "Shanghai Samenwerkingsorganisatie" },
-          { en: "BRICS Development Bank", es: "Banco de Desarrollo BRICS", de: "BRICS-Entwicklungsbank", nl: "BRICS Ontwikkelingsbank" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The Belt and Road Initiative (BRI), launched in 2013, has been crucial for Yuan internationalization by promoting Yuan usage in trade and investment across participating countries.",
-          es: "La Iniciativa del Cinturón y la Ruta (BRI), lanzada en 2013, ha sido crucial para la internacionalización del Yuan al promover el uso del Yuan en comercio e inversión a través de países participantes.",
-          de: "Die Belt and Road Initiative (BRI), die 2013 gestartet wurde, war entscheidend für die Yuan-Internationalisierung, indem sie die Yuan-Nutzung im Handel und bei Investitionen in teilnehmenden Ländern förderte.",
-          nl: "Het Belt and Road Initiative (BRI), gelanceerd in 2013, is cruciaal geweest voor Yuan internationalisatie door Yuan-gebruik in handel en investeringen over deelnemende landen te bevorderen."
-        }
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
       },
       {
-        question: {
-          en: "What was the Yuan's exchange rate regime from 1994 to 2005?",
-          es: "¿Cuál fue el régimen de tipo de cambio del Yuan de 1994 a 2005?",
-          de: "Was war das Wechselkursregime des Yuan von 1994 bis 2005?",
-          nl: "Wat was het wisselkoersregime van de Yuan van 1994 tot 2005?"
-        },
-        options: [
-          { en: "Free floating", es: "Flotación libre", de: "Frei schwankend", nl: "Vrij zwevend" },
-          { en: "Fixed peg to US Dollar at 8.28", es: "Paridad fija al Dólar estadounidense en 8.28", de: "Feste Bindung an US-Dollar bei 8,28", nl: "Vaste koppeling aan US Dollar op 8,28" },
-          { en: "Basket peg", es: "Paridad a canasta", de: "Korbanbindung", nl: "Mandkoppeling" },
-          { en: "Gold standard", es: "Patrón oro", de: "Goldstandard", nl: "Goudstandaard" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "From 1994 to 2005, the Yuan was pegged to the US Dollar at a fixed rate of approximately 8.28 Yuan per Dollar, providing stability but limiting flexibility.",
-          es: "De 1994 a 2005, el Yuan estuvo vinculado al Dólar estadounidense a una tasa fija de aproximadamente 8.28 Yuan por Dólar, proporcionando estabilidad pero limitando flexibilidad.",
-          de: "Von 1994 bis 2005 war der Yuan an den US-Dollar zu einem festen Kurs von etwa 8,28 Yuan pro Dollar gebunden, was Stabilität bot, aber die Flexibilität einschränkte.",
-          nl: "Van 1994 tot 2005 was de Yuan gekoppeld aan de US Dollar tegen een vaste koers van ongeveer 8,28 Yuan per Dollar, wat stabiliteit bood maar flexibiliteit beperkte."
-        }
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
       },
       {
-        question: {
-          en: "Which country was the first to establish a Yuan clearing bank outside China?",
-          es: "¿Qué país fue el primero en establecer un banco de compensación de Yuan fuera de China?",
-          de: "Welches Land war das erste, das eine Yuan-Clearingbank außerhalb Chinas einrichtete?",
-          nl: "Welk land was het eerste om een Yuan clearingbank buiten China op te richten?"
-        },
-        options: [
-          { en: "United Kingdom", es: "Reino Unido", de: "Vereinigtes Königreich", nl: "Verenigd Koninkrijk" },
-          { en: "Singapore", es: "Singapur", de: "Singapur", nl: "Singapore" },
-          { en: "Hong Kong", es: "Hong Kong", de: "Hongkong", nl: "Hong Kong" },
-          { en: "Germany", es: "Alemania", de: "Deutschland", nl: "Duitsland" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Hong Kong was the first to establish a Yuan clearing bank outside mainland China in 2003, becoming the primary offshore Yuan trading center.",
-          es: "Hong Kong fue el primero en establecer un banco de compensación de Yuan fuera de China continental en 2003, convirtiéndose en el principal centro de comercio de Yuan offshore.",
-          de: "Hongkong war das erste Land, das 2003 eine Yuan-Clearingbank außerhalb Festlandchinas einrichtete und zum primären Offshore-Yuan-Handelszentrum wurde.",
-          nl: "Hong Kong was het eerste om een Yuan clearingbank buiten vasteland China op te richten in 2003, en werd het primaire offshore Yuan handelscentrum."
-        }
-      },
-      {
-        question: {
-          en: "What does DCEP stand for in relation to China's digital currency?",
-          es: "¿Qué significa DCEP en relación con la moneda digital de China?",
-          de: "Was bedeutet DCEP in Bezug auf Chinas digitale Währung?",
-          nl: "Waar staat DCEP voor in relatie tot China's digitale valuta?"
-        },
-        options: [
-          { en: "Digital Currency Electronic Payment", es: "Pago Electrónico de Moneda Digital", de: "Digital Currency Electronic Payment", nl: "Digital Currency Electronic Payment" },
-          { en: "Decentralized Currency Exchange Platform", es: "Plataforma de Intercambio de Moneda Descentralizada", de: "Dezentrale Währungsaustauschplattform", nl: "Gedecentraliseerd Valuta-uitwisselingsplatform" },
-          { en: "Digital China Economic Program", es: "Programa Económico Digital de China", de: "Digitales China Wirtschaftsprogramm", nl: "Digitaal China Economisch Programma" },
-          { en: "Distributed Currency Electronic Protocol", es: "Protocolo Electrónico de Moneda Distribuida", de: "Verteiltes Währungsprotokoll", nl: "Gedistribueerd Valuta Elektronisch Protocol" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "DCEP stands for Digital Currency Electronic Payment, which is the official name for China's central bank digital currency project.",
-          es: "DCEP significa Pago Electrónico de Moneda Digital, que es el nombre oficial para el proyecto de moneda digital del banco central de China.",
-          de: "DCEP steht für Digital Currency Electronic Payment, was der offizielle Name für Chinas Zentralbank-Digital-Währungsprojekt ist.",
-          nl: "DCEP staat voor Digital Currency Electronic Payment, wat de officiële naam is voor China's centrale bank digitale valuta project."
-        }
-      },
-      {
-        question: {
-          en: "Which major economic reform allowed foreign companies to issue Yuan bonds in China?",
-          es: "¿Qué reforma económica importante permitió a las empresas extranjeras emitir bonos en Yuan en China?",
-          de: "Welche große Wirtschaftsreform erlaubte ausländischen Unternehmen, Yuan-Anleihen in China zu begeben?",
-          nl: "Welke grote economische hervorming stond buitenlandse bedrijven toe om Yuan obligaties uit te geven in China?"
-        },
-        options: [
-          { en: "Panda Bond market opening", es: "Apertura del mercado de Bonos Panda", de: "Öffnung des Panda-Anleihen-Marktes", nl: "Panda Obligatie markt opening" },
-          { en: "Qualified Foreign Institutional Investor (QFII)", es: "Inversor Institucional Extranjero Calificado (QFII)", de: "Qualifizierter Ausländischer Institutioneller Investor (QFII)", nl: "Gekwalificeerde Buitenlandse Institutionele Belegger (QFII)" },
-          { en: "Shanghai-Hong Kong Stock Connect", es: "Conexión de Acciones Shanghai-Hong Kong", de: "Shanghai-Hongkong Stock Connect", nl: "Shanghai-Hong Kong Stock Connect" },
-          { en: "Free Trade Zone establishment", es: "Establecimiento de Zona de Libre Comercio", de: "Einrichtung der Freihandelszone", nl: "Vrije Handelszone oprichting" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Panda Bond market opening allowed foreign companies and institutions to issue Yuan-denominated bonds in China's domestic market, promoting Yuan internationalization.",
-          es: "La apertura del mercado de Bonos Panda permitió a empresas e instituciones extranjeras emitir bonos denominados en Yuan en el mercado doméstico de China, promoviendo la internacionalización del Yuan.",
-          de: "Die Öffnung des Panda-Anleihen-Marktes erlaubte ausländischen Unternehmen und Institutionen, Yuan-denominierte Anleihen auf Chinas Inlandsmarkt zu begeben, was die Yuan-Internationalisierung förderte.",
-          nl: "De Panda Obligatie markt opening stond buitenlandse bedrijven en instellingen toe om Yuan-gedenomineerde obligaties uit te geven op China's binnenlandse markt, wat Yuan internationalisatie bevorderde."
-        }
-      },
-      {
-        question: {
-          en: "What percentage of global foreign exchange reserves does the Yuan currently represent approximately?",
-          es: "¿Qué porcentaje de las reservas de divisas globales representa actualmente el Yuan aproximadamente?",
-          de: "Welchen Prozentsatz der globalen Devisenreserven repräsentiert der Yuan derzeit ungefähr?",
-          nl: "Welk percentage van de wereldwijde valutareserves vertegenwoordigt de Yuan momenteel ongeveer?"
-        },
-        options: [
-          { en: "Around 2-3%", es: "Alrededor del 2-3%", de: "Etwa 2-3%", nl: "Rond de 2-3%" },
-          { en: "Around 10-12%", es: "Alrededor del 10-12%", de: "Etwa 10-12%", nl: "Rond de 10-12%" },
-          { en: "Around 20-25%", es: "Alrededor del 20-25%", de: "Etwa 20-25%", nl: "Rond de 20-25%" },
-          { en: "Around 30-35%", es: "Alrededor del 30-35%", de: "Etwa 30-35%", nl: "Rond de 30-35%" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Yuan currently represents around 2-3% of global foreign exchange reserves, a significant increase from near zero a decade ago but still much lower than the US Dollar's ~60%.",
-          es: "El Yuan actualmente representa alrededor del 2-3% de las reservas de divisas globales, un aumento significativo desde cerca de cero hace una década pero aún mucho menor que el ~60% del Dólar estadounidense.",
-          de: "Der Yuan repräsentiert derzeit etwa 2-3% der globalen Devisenreserven, eine signifikante Steigerung von nahezu null vor einem Jahrzehnt, aber immer noch viel niedriger als die ~60% des US-Dollars.",
-          nl: "De Yuan vertegenwoordigt momenteel ongeveer 2-3% van de wereldwijde valutareserves, een significante toename van bijna nul een decennium geleden maar nog steeds veel lager dan de ~60% van de US Dollar."
-        }
-      },
-      {
-        question: {
-          en: "Which mechanism allows foreign central banks to access Yuan liquidity directly from the PBOC?",
-          es: "¿Qué mecanismo permite a los bancos centrales extranjeros acceder a liquidez en Yuan directamente del PBOC?",
-          de: "Welcher Mechanismus ermöglicht es ausländischen Zentralbanken, direkt von der PBOC auf Yuan-Liquidität zuzugreifen?",
-          nl: "Welk mechanisme stelt buitenlandse centrale banken in staat om direct toegang te krijgen tot Yuan liquiditeit van de PBOC?"
-        },
-        options: [
-          { en: "Currency swap agreements", es: "Acuerdos de intercambio de monedas", de: "Währungsswap-Abkommen", nl: "Valutaswapovereenkomsten" },
-          { en: "Special Drawing Rights (SDR)", es: "Derechos Especiales de Giro (DEG)", de: "Sonderziehungsrechte (SZR)", nl: "Speciale Trekkingsrechten (SDR)" },
-          { en: "Repo agreements", es: "Acuerdos repo", de: "Repo-Vereinbarungen", nl: "Repo overeenkomsten" },
-          { en: "Letter of credit facilities", es: "Facilidades de carta de crédito", de: "Akkreditiv-Fazilitäten", nl: "Kredietbrief faciliteiten" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Currency swap agreements between the PBOC and foreign central banks allow direct access to Yuan liquidity, supporting international trade and reducing reliance on US Dollar funding.",
-          es: "Los acuerdos de intercambio de monedas entre el PBOC y bancos centrales extranjeros permiten acceso directo a liquidez en Yuan, apoyando el comercio internacional y reduciendo la dependencia del financiamiento en Dólar estadounidense.",
-          de: "Währungsswap-Abkommen zwischen der PBOC und ausländischen Zentralbanken ermöglichen direkten Zugang zu Yuan-Liquidität und unterstützen den internationalen Handel, während sie die Abhängigkeit von US-Dollar-Finanzierung reduzieren.",
-          nl: "Valutaswapovereenkomsten tussen de PBOC en buitenlandse centrale banken stellen directe toegang tot Yuan liquiditeit mogelijk, wat internationale handel ondersteunt en afhankelijkheid van US Dollar financiering vermindert."
-        }
-      },
-      {
-        question: {
-          en: "What is the 'dim sum bond' market?",
-          es: "¿Qué es el mercado de bonos 'dim sum'?",
-          de: "Was ist der 'Dim Sum Bond'-Markt?",
-          nl: "Wat is de 'dim sum obligatie' markt?"
-        },
-        options: [
-          { en: "Yuan bonds issued outside mainland China", es: "Bonos en Yuan emitidos fuera de China continental", de: "Yuan-Anleihen, die außerhalb Festlandchinas begeben werden", nl: "Yuan obligaties uitgegeven buiten vasteland China" },
-          { en: "Bonds backed by Chinese restaurant chains", es: "Bonos respaldados por cadenas de restaurantes chinos", de: "Anleihen, die von chinesischen Restaurantketten unterstützt werden", nl: "Obligaties ondersteund door Chinese restaurantketens" },
-          { en: "Short-term commercial paper in Yuan", es: "Papel comercial a corto plazo en Yuan", de: "Kurzfristige Handelspapiere in Yuan", nl: "Korte termijn commercieel papier in Yuan" },
-          { en: "Municipal bonds from Chinese cities", es: "Bonos municipales de ciudades chinas", de: "Kommunalanleihen chinesischer Städte", nl: "Gemeentelijke obligaties van Chinese steden" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The 'dim sum bond' market refers to Yuan-denominated bonds issued outside mainland China, primarily in Hong Kong, allowing international investors to access Yuan exposure.",
-          es: "El mercado de bonos 'dim sum' se refiere a bonos denominados en Yuan emitidos fuera de China continental, principalmente en Hong Kong, permitiendo a inversionistas internacionales acceder a exposición al Yuan.",
-          de: "Der 'Dim Sum Bond'-Markt bezieht sich auf Yuan-denominierte Anleihen, die außerhalb Festlandchinas, hauptsächlich in Hongkong, begeben werden und internationalen Investoren Yuan-Exposition ermöglichen.",
-          nl: "De 'dim sum obligatie' markt verwijst naar Yuan-gedenomineerde obligaties uitgegeven buiten vasteland China, voornamelijk in Hong Kong, wat internationale beleggers Yuan blootstelling mogelijk maakt."
-        }
-      },
-      {
-        question: {
-          en: "When did the Yuan become part of the IMF's Special Drawing Rights (SDR) basket?",
-          es: "¿Cuándo se convirtió el Yuan en parte de la canasta de Derechos Especiales de Giro (DEG) del FMI?",
-          de: "Wann wurde der Yuan Teil des Korbs der Sonderziehungsrechte (SZR) des IWF?",
-          nl: "Wanneer werd de Yuan onderdeel van de IMF's Speciale Trekkingsrechten (SDR) mand?"
-        },
-        options: [
-          { en: "2014", es: "2014", de: "2014", nl: "2014" },
-          { en: "2016", es: "2016", de: "2016", nl: "2016" },
-          { en: "2018", es: "2018", de: "2018", nl: "2018" },
-          { en: "2020", es: "2020", de: "2020", nl: "2020" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The Yuan became part of the IMF's SDR basket in October 2016, joining the US Dollar, Euro, Japanese Yen, and British Pound as a reserve currency.",
-          es: "El Yuan se convirtió en parte de la canasta DEG del FMI en octubre de 2016, uniéndose al Dólar estadounidense, Euro, Yen japonés y Libra británica como moneda de reserva.",
-          de: "Der Yuan wurde im Oktober 2016 Teil des SZR-Korbs des IWF und gesellte sich zum US-Dollar, Euro, japanischen Yen und britischen Pfund als Reservewährung.",
-          nl: "De Yuan werd onderdeel van de IMF's SDR mand in oktober 2016, en voegde zich bij de US Dollar, Euro, Japanse Yen en Britse Pond als reservevaluta."
-        }
-      },
-      {
-        question: {
-          en: "What is the Cross-Border Interbank Payment System (CIPS)?",
-          es: "¿Qué es el Sistema de Pagos Interbancarios Transfronterizos (CIPS)?",
-          de: "Was ist das Cross-Border Interbank Payment System (CIPS)?",
-          nl: "Wat is het Cross-Border Interbank Payment System (CIPS)?"
-        },
-        options: [
-          { en: "China's alternative to SWIFT for Yuan payments", es: "Alternativa de China a SWIFT para pagos en Yuan", de: "Chinas Alternative zu SWIFT für Yuan-Zahlungen", nl: "China's alternatief voor SWIFT voor Yuan betalingen" },
-          { en: "A cryptocurrency exchange platform", es: "Una plataforma de intercambio de criptomonedas", de: "Eine Kryptowährungsaustauschplattform", nl: "Een cryptocurrency exchange platform" },
-          { en: "China's domestic payment clearing system", es: "Sistema de compensación de pagos domésticos de China", de: "Chinas inländisches Zahlungsverrechnungssystem", nl: "China's binnenlandse betaal clearing systeem" },
-          { en: "An international trade finance facility", es: "Una facilidad de financiamiento de comercio internacional", de: "Eine internationale Handelsfinanzierungsfazilität", nl: "Een internationale handelsfinancieringsfaciliteit" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "CIPS is China's cross-border payment system for Yuan transactions, designed as an alternative to SWIFT and reducing dependence on the US Dollar-dominated financial infrastructure.",
-          es: "CIPS es el sistema de pagos transfronterizos de China para transacciones en Yuan, diseñado como alternativa a SWIFT y reduciendo la dependencia de la infraestructura financiera dominada por el Dólar estadounidense.",
-          de: "CIPS ist Chinas grenzüberschreitendes Zahlungssystem für Yuan-Transaktionen, das als Alternative zu SWIFT konzipiert wurde und die Abhängigkeit von der US-Dollar-dominierten Finanzinfrastruktur reduziert.",
-          nl: "CIPS is China's grensoverschrijdende betalingssysteem voor Yuan transacties, ontworpen als alternatief voor SWIFT en vermindert afhankelijkheid van de US Dollar-gedomineerde financiële infrastructuur."
-        }
-      },
-      {
-        question: {
-          en: "Which factor has been most important in driving Yuan internationalization?",
-          es: "¿Qué factor ha sido más importante para impulsar la internacionalización del Yuan?",
-          de: "Welcher Faktor war am wichtigsten für die Förderung der Yuan-Internationalisierung?",
-          nl: "Welke factor is het belangrijkst geweest in het aandrijven van Yuan internationalisatie?"
-        },
-        options: [
-          { en: "High interest rates", es: "Altas tasas de interés", de: "Hohe Zinssätze", nl: "Hoge rentetarieven" },
-          { en: "China's large trade volumes", es: "Los grandes volúmenes de comercio de China", de: "Chinas große Handelsvolumen", nl: "China's grote handelsvolumes" },
-          { en: "Currency speculation", es: "Especulación de monedas", de: "Währungsspekulation", nl: "Valutaspeculatie" },
-          { en: "Oil price fluctuations", es: "Fluctuaciones en el precio del petróleo", de: "Ölpreisschwankungen", nl: "Olieprijsfluctuaties" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "China's position as the world's largest trading nation has been the most important driver of Yuan internationalization, as trade partners increasingly use Yuan for bilateral trade settlement.",
-          es: "La posición de China como la nación comercial más grande del mundo ha sido el impulsor más importante de la internacionalización del Yuan, ya que los socios comerciales utilizan cada vez más el Yuan para la liquidación de comercio bilateral.",
-          de: "Chinas Position als weltgrößte Handelsnation war der wichtigste Treiber der Yuan-Internationalisierung, da Handelspartner zunehmend den Yuan für die bilaterale Handelsabwicklung verwenden.",
-          nl: "China's positie als 's werelds grootste handelsnatie is de belangrijkste drijvende kracht geweest achter Yuan internationalisatie, omdat handelspartners steeds meer de Yuan gebruiken voor bilaterale handelsafwikkeling."
-        }
-      },
-      {
-        question: {
-          en: "What is the Shanghai Gold Exchange's significance for the Yuan?",
-          es: "¿Cuál es la importancia de la Bolsa de Oro de Shanghai para el Yuan?",
-          de: "Was ist die Bedeutung der Shanghai Gold Exchange für den Yuan?",
-          nl: "Wat is de betekenis van de Shanghai Gold Exchange voor de Yuan?"
-        },
-        options: [
-          { en: "It only trades gold futures contracts", es: "Solo comercia contratos de futuros de oro", de: "Es handelt nur mit Gold-Futures-Kontrakten", nl: "Het handelt alleen in goud futures contracten" },
-          { en: "It allows Yuan-denominated gold trading", es: "Permite el comercio de oro denominado en Yuan", de: "Es ermöglicht Yuan-denominierten Goldhandel", nl: "Het maakt Yuan-gedenomineerde goudhandel mogelijk" },
-          { en: "It is China's stock exchange for mining companies", es: "Es la bolsa de valores de China para empresas mineras", de: "Es ist Chinas Börse für Bergbauunternehmen", nl: "Het is China's beurs voor mijnbouwbedrijven" },
-          { en: "It manages China's gold reserves", es: "Gestiona las reservas de oro de China", de: "Es verwaltet Chinas Goldreserven", nl: "Het beheert China's goudreserves" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The Shanghai Gold Exchange allows Yuan-denominated gold trading, providing an alternative to US Dollar-based gold markets and supporting Yuan's role as a store of value.",
-          es: "La Bolsa de Oro de Shanghai permite el comercio de oro denominado en Yuan, proporcionando una alternativa a los mercados de oro basados en Dólar estadounidense y apoyando el papel del Yuan como reserva de valor.",
-          de: "Die Shanghai Gold Exchange ermöglicht Yuan-denominierten Goldhandel und bietet eine Alternative zu US-Dollar-basierten Goldmärkten, wodurch die Rolle des Yuan als Wertaufbewahrungsmittel unterstützt wird.",
-          nl: "De Shanghai Gold Exchange maakt Yuan-gedenomineerde goudhandel mogelijk, wat een alternatief biedt voor US Dollar-gebaseerde goudmarkten en de rol van de Yuan als waardeopslag ondersteunt."
-        }
-      },
-      {
-        question: {
-          en: "What challenge does capital account convertibility pose for Yuan internationalization?",
-          es: "¿Qué desafío presenta la convertibilidad de la cuenta de capital para la internacionalización del Yuan?",
-          de: "Welche Herausforderung stellt die Kapitalkontokonvertibilität für die Yuan-Internationalisierung dar?",
-          nl: "Welke uitdaging vormt kapitaalrekening convertibiliteit voor Yuan internationalisatie?"
-        },
-        options: [
-          { en: "It makes the currency too volatile", es: "Hace que la moneda sea demasiado volátil", de: "Es macht die Währung zu volatil", nl: "Het maakt de valuta te volatiel" },
-          { en: "It limits free flow of Yuan for investment", es: "Limita el flujo libre de Yuan para inversión", de: "Es begrenzt den freien Fluss von Yuan für Investitionen", nl: "Het beperkt de vrije stroom van Yuan voor investeringen" },
-          { en: "It increases inflation risks", es: "Aumenta los riesgos de inflación", de: "Es erhöht Inflationsrisiken", nl: "Het verhoogt inflatierisico's" },
-          { en: "It weakens monetary policy effectiveness", es: "Debilita la efectividad de la política monetaria", de: "Es schwächt die Wirksamkeit der Geldpolitik", nl: "Het verzwakt de effectiviteit van monetair beleid" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "China maintains capital controls that limit the free flow of Yuan for investment purposes, creating a barrier to full internationalization as investors prefer freely convertible currencies.",
-          es: "China mantiene controles de capital que limitan el flujo libre de Yuan para propósitos de inversión, creando una barrera para la internacionalización completa ya que los inversionistas prefieren monedas libremente convertibles.",
-          de: "China behält Kapitalkontrollen bei, die den freien Fluss von Yuan für Investitionszwecke begrenzen und eine Barriere für die vollständige Internationalisierung schaffen, da Investoren frei konvertierbare Währungen bevorzugen.",
-          nl: "China handhaaft kapitaalcontroles die de vrije stroom van Yuan voor investeringsdoeleinden beperken, wat een barrière creëert voor volledige internationalisatie omdat beleggers de voorkeur geven aan vrij converteerbare valuta's."
-        }
-      },
-      {
-        question: {
-          en: "Which sector has seen the most significant Yuan internationalization progress?",
-          es: "¿Qué sector ha visto el progreso más significativo en la internacionalización del Yuan?",
-          de: "In welchem Sektor gab es die bedeutendsten Fortschritte bei der Yuan-Internationalisierung?",
-          nl: "Welke sector heeft de meest significante Yuan internationalisatie vooruitgang gezien?"
-        },
-        options: [
-          { en: "Tourism and travel", es: "Turismo y viajes", de: "Tourismus und Reisen", nl: "Toerisme en reizen" },
-          { en: "International trade settlement", es: "Liquidación de comercio internacional", de: "Internationale Handelsabwicklung", nl: "Internationale handelsafwikkeling" },
-          { en: "Real estate investment", es: "Inversión inmobiliaria", de: "Immobilieninvestition", nl: "Vastgoedinvestering" },
-          { en: "Consumer retail", es: "Venta minorista de consumo", de: "Verbrauchereinzelhandel", nl: "Consumentendetailhandel" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "International trade settlement has seen the most significant Yuan internationalization progress, with many of China's trading partners now conducting bilateral trade in Yuan.",
-          es: "La liquidación de comercio internacional ha visto el progreso más significativo en la internacionalización del Yuan, con muchos de los socios comerciales de China ahora realizando comercio bilateral en Yuan.",
-          de: "Die internationale Handelsabwicklung hat die bedeutendsten Fortschritte bei der Yuan-Internationalisierung erfahren, wobei viele von Chinas Handelspartnern nun bilateralen Handel in Yuan abwickeln.",
-          nl: "Internationale handelsafwikkeling heeft de meest significante Yuan internationalisatie vooruitgang gezien, met veel van China's handelspartners die nu bilaterale handel in Yuan uitvoeren."
-        }
-      },
-      {
-        question: {
-          en: "What is the typical daily trading volume of Yuan in global forex markets?",
-          es: "¿Cuál es el volumen de comercio diario típico del Yuan en los mercados forex globales?",
-          de: "Wie hoch ist das typische tägliche Handelsvolumen des Yuan auf den globalen Devisenmärkten?",
-          nl: "Wat is het typische dagelijkse handelsvolume van de Yuan in wereldwijde forexmarkten?"
-        },
-        options: [
-          { en: "Around $500 billion", es: "Alrededor de $500 mil millones", de: "Etwa 500 Milliarden Dollar", nl: "Rond de $500 miljard" },
-          { en: "Around $300 billion", es: "Alrededor de $300 mil millones", de: "Etwa 300 Milliarden Dollar", nl: "Rond de $300 miljard" },
-          { en: "Around $150 billion", es: "Alrededor de $150 mil millones", de: "Etwa 150 Milliarden Dollar", nl: "Rond de $150 miljard" },
-          { en: "Around $50 billion", es: "Alrededor de $50 mil millones", de: "Etwa 50 Milliarden Dollar", nl: "Rond de $50 miljard" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "The Yuan's daily trading volume in global forex markets is around $150 billion, making it the 8th most traded currency, but still far behind major currencies like USD, EUR, and JPY.",
-          es: "El volumen de comercio diario del Yuan en los mercados forex globales es alrededor de $150 mil millones, convirtiéndolo en la 8ª moneda más comercializada, pero aún muy por debajo de las principales monedas como USD, EUR y JPY.",
-          de: "Das tägliche Handelsvolumen des Yuan auf den globalen Devisenmärkten beträgt etwa 150 Milliarden Dollar, was ihn zur 8. meistgehandelten Währung macht, aber immer noch weit hinter Hauptwährungen wie USD, EUR und JPY zurückliegend.",
-          nl: "Het dagelijkse handelsvolume van de Yuan in wereldwijde forexmarkten is rond de $150 miljard, wat het de 8e meest verhandelde valuta maakt, maar nog steeds ver achter grote valuta's zoals USD, EUR en JPY."
-        }
-      },
-      {
-        question: {
-          en: "Which policy tool does the PBOC use most frequently to manage Yuan exchange rates?",
-          es: "¿Qué herramienta de política usa el PBOC más frecuentemente para gestionar los tipos de cambio del Yuan?",
-          de: "Welches politische Instrument nutzt die PBOC am häufigsten zur Verwaltung der Yuan-Wechselkurse?",
-          nl: "Welk beleidsinstrument gebruikt de PBOC het meest frequent om Yuan wisselkoersen te beheren?"
-        },
-        options: [
-          { en: "Interest rate changes", es: "Cambios de tasa de interés", de: "Zinssatzänderungen", nl: "Rentetarief veranderingen" },
-          { en: "Daily reference rate setting", es: "Establecimiento de tasa de referencia diaria", de: "Tägliche Referenzkursfestsetzung", nl: "Dagelijkse referentiekoers vaststelling" },
-          { en: "Reserve requirement changes", es: "Cambios de requerimientos de reserva", de: "Änderungen der Mindestreserveanforderungen", nl: "Reservevereiste veranderingen" },
-          { en: "Government bond purchases", es: "Compras de bonos gubernamentales", de: "Staatsanleihenkäufe", nl: "Staatsoblgatieaankopen" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The PBOC sets a daily reference rate (middle rate) for the Yuan against the US Dollar, around which the currency can fluctuate within a specific band, making this their primary exchange rate management tool.",
-          es: "El PBOC establece una tasa de referencia diaria (tasa media) para el Yuan contra el Dólar estadounidense, alrededor de la cual la moneda puede fluctuar dentro de una banda específica, convirtiendo esto en su herramienta principal de gestión de tipo de cambio.",
-          de: "Die PBOC setzt einen täglichen Referenzkurs (Mittelkurs) für den Yuan gegenüber dem US-Dollar fest, um den die Währung innerhalb eines bestimmten Bandes schwanken kann, was dies zu ihrem primären Wechselkurs-Management-Tool macht.",
-          nl: "De PBOC stelt een dagelijkse referentiekoers (middenkoers) vast voor de Yuan tegen de US Dollar, waarbinnen de valuta binnen een specifieke band kan fluctueren, wat dit hun primaire wisselkoersbeheerinstrument maakt."
-        }
-      },
-      {
-        question: {
-          en: "What is the maximum daily fluctuation band currently allowed for the Yuan?",
-          es: "¿Cuál es la banda de fluctuación diaria máxima actualmente permitida para el Yuan?",
-          de: "Was ist die derzeit maximal zulässige tägliche Schwankungsbreite für den Yuan?",
-          nl: "Wat is de maximale dagelijkse fluctuatieband die momenteel toegestaan is voor de Yuan?"
-        },
-        options: [
-          { en: "±1%", es: "±1%", de: "±1%", nl: "±1%" },
-          { en: "±2%", es: "±2%", de: "±2%", nl: "±2%" },
-          { en: "±3%", es: "±3%", de: "±3%", nl: "±3%" },
-          { en: "±5%", es: "±5%", de: "±5%", nl: "±5%" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The Yuan is currently allowed to fluctuate within a ±2% band around the PBOC's daily reference rate, having been gradually widened from ±0.3% in 2007 to provide more market flexibility.",
-          es: "El Yuan actualmente puede fluctuar dentro de una banda de ±2% alrededor de la tasa de referencia diaria del PBOC, habiendo sido gradualmente ampliada desde ±0.3% en 2007 para proporcionar más flexibilidad de mercado.",
-          de: "Der Yuan darf derzeit innerhalb eines ±2%-Bandes um den täglichen Referenzkurs der PBOC schwanken, nachdem es schrittweise von ±0,3% im Jahr 2007 erweitert wurde, um mehr Marktflexibilität zu bieten.",
-          nl: "De Yuan mag momenteel fluctueren binnen een ±2% band rond de dagelijkse referentiekoers van de PBOC, nadat het geleidelijk is uitgebreid van ±0,3% in 2007 om meer marktflexibiliteit te bieden."
-        }
-      },
-      {
-        question: {
-          en: "Which country was the first to establish a Yuan clearing bank outside of Greater China?",
-          es: "¿Qué país fue el primero en establecer un banco de compensación de Yuan fuera de Gran China?",
-          de: "Welches Land etablierte als erstes eine Yuan-Clearingbank außerhalb von Groß-China?",
-          nl: "Welk land vestigde als eerste een Yuan clearing bank buiten Groot-China?"
-        },
-        options: [
-          { en: "United Kingdom (London)", es: "Reino Unido (Londres)", de: "Vereinigtes Königreich (London)", nl: "Verenigd Koninkrijk (Londen)" },
-          { en: "Singapore", es: "Singapur", de: "Singapur", nl: "Singapore" },
-          { en: "United States (New York)", es: "Estados Unidos (Nueva York)", de: "Vereinigte Staaten (New York)", nl: "Verenigde Staten (New York)" },
-          { en: "Germany (Frankfurt)", es: "Alemania (Frankfurt)", de: "Deutschland (Frankfurt)", nl: "Duitsland (Frankfurt)" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Singapore established the first Yuan clearing bank outside Greater China in 2013, followed by London, Frankfurt, and other financial centers, facilitating Yuan transactions in their respective regions.",
-          es: "Singapur estableció el primer banco de compensación de Yuan fuera de Gran China en 2013, seguido por Londres, Frankfurt y otros centros financieros, facilitando transacciones en Yuan en sus respectivas regiones.",
-          de: "Singapur etablierte 2013 die erste Yuan-Clearingbank außerhalb von Groß-China, gefolgt von London, Frankfurt und anderen Finanzzentren, was Yuan-Transaktionen in ihren jeweiligen Regionen erleichterte.",
-          nl: "Singapore vestigde in 2013 de eerste Yuan clearing bank buiten Groot-China, gevolgd door Londen, Frankfurt en andere financiële centra, wat Yuan transacties in hun respectieve regio's faciliteerde."
-        }
-      },
-      {
-        question: {
-          en: "What significant milestone did the Yuan achieve in 2016 regarding international reserves?",
-          es: "¿Qué hito significativo logró el Yuan en 2016 con respecto a las reservas internacionales?",
-          de: "Welchen bedeutenden Meilenstein erreichte der Yuan 2016 in Bezug auf internationale Reserven?",
-          nl: "Welke belangrijke mijlpaal bereikte de Yuan in 2016 met betrekking tot internationale reserves?"
-        },
-        options: [
-          { en: "Became world's number one reserve currency", es: "Se convirtió en la moneda de reserva número uno del mundo", de: "Wurde zur weltweiten Nummer-eins-Reservewährung", nl: "Werd 's werelds nummer één reservevaluta" },
-          { en: "Was included in the IMF's Special Drawing Rights (SDR) basket", es: "Fue incluido en la canasta de Derechos Especiales de Giro (DEG) del FMI", de: "Wurde in den Währungskorb der Sonderziehungsrechte (SZR) des IWF aufgenommen", nl: "Werd opgenomen in het IMF's Special Drawing Rights (SDR) mandje" },
-          { en: "Replaced the US Dollar in Asian trade", es: "Reemplazó al Dólar estadounidense en el comercio asiático", de: "Ersetzte den US-Dollar im asiatischen Handel", nl: "Verving de US Dollar in Aziatische handel" },
-          { en: "Achieved full convertibility", es: "Logró convertibilidad completa", de: "Erreichte volle Konvertibilität", nl: "Bereikte volledige convertibiliteit" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "In 2016, the Yuan was officially included in the IMF's SDR basket alongside the US Dollar, Euro, Japanese Yen, and British Pound, marking a major milestone in its internationalization and recognition as a global reserve currency.",
-          es: "En 2016, el Yuan fue oficialmente incluido en la canasta de DEG del FMI junto con el Dólar estadounidense, Euro, Yen japonés y Libra británica, marcando un hito importante en su internacionalización y reconocimiento como moneda de reserva global.",
-          de: "2016 wurde der Yuan offiziell in den SZR-Korb des IWF aufgenommen, zusammen mit US-Dollar, Euro, japanischem Yen und britischem Pfund, was einen wichtigen Meilenstein in seiner Internationalisierung und Anerkennung als globale Reservewährung markierte.",
-          nl: "In 2016 werd de Yuan officieel opgenomen in het SDR-mandje van het IMF naast de US Dollar, Euro, Japanse Yen en Britse Pond, wat een belangrijke mijlpaal markeerde in zijn internationalisatie en erkenning als wereldwijde reservevaluta."
-        }      },
-      {
-        question: {
-          en: "What is the Chinese currency called?",
-          es: "What is the Chinese currency called?",
-          de: "What is the Chinese currency called?",
-          nl: "What is the Chinese currency called?"
-        },
-        options: [
-          { en: "Renminbi (Yuan)", es: "Renminbi (Yuan)", de: "Renminbi (Yuan)", nl: "Renminbi (Yuan)" },
-          { en: "Yen", es: "Yen", de: "Yen", nl: "Yen" },
-          { en: "Won", es: "Won", de: "Won", nl: "Won" },
-          { en: "Rupee", es: "Rupee", de: "Rupee", nl: "Rupee" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "China's currency is officially Renminbi (RMB), with Yuan as the basic unit.",
-          es: "China's currency is officially Renminbi (RMB), with Yuan as the basic unit.",
-          de: "China's currency is officially Renminbi (RMB), with Yuan as the basic unit.",
-          nl: "China's currency is officially Renminbi (RMB), with Yuan as the basic unit."
-        }      },
-      {
-        question: {
-          en: "What is the symbol for Yuan?",
-          es: "What is the symbol for Yuan?",
-          de: "What is the symbol for Yuan?",
-          nl: "What is the symbol for Yuan?"
-        },
-        options: [
-          { en: "¥ or 元", es: "¥ or 元", de: "¥ or 元", nl: "¥ or 元" },
-          { en: "Y", es: "Y", de: "Y", nl: "Y" },
-          { en: "CNY", es: "CNY", de: "CNY", nl: "CNY" },
-          { en: "C", es: "C", de: "C", nl: "C" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Yuan uses ¥ symbol (same as Yen) or Chinese character 元.",
-          es: "The Yuan uses ¥ symbol (same as Yen) or Chinese character 元.",
-          de: "The Yuan uses ¥ symbol (same as Yen) or Chinese character 元.",
-          nl: "The Yuan uses ¥ symbol (same as Yen) or Chinese character 元."
-        }      },
-      {
-        question: {
-          en: "What does CNY stand for?",
-          es: "What does CNY stand for?",
-          de: "What does CNY stand for?",
-          nl: "What does CNY stand for?"
-        },
-        options: [
-          { en: "Chinese Yuan", es: "Chinese Yuan", de: "Chinese Yuan", nl: "Chinese Yuan" },
-          { en: "China National Yen", es: "China National Yen", de: "China National Yen", nl: "China National Yen" },
-          { en: "Central Nation Yuan", es: "Central Nation Yuan", de: "Central Nation Yuan", nl: "Central Nation Yuan" },
-          { en: "Chinese New Yen", es: "Chinese New Yen", de: "Chinese New Yen", nl: "Chinese New Yen" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "CNY is the ISO code for Chinese Yuan used in international markets.",
-          es: "CNY is the ISO code for Chinese Yuan used in international markets.",
-          de: "CNY is the ISO code for Chinese Yuan used in international markets.",
-          nl: "CNY is the ISO code for Chinese Yuan used in international markets."
-        }      },
-      {
-        question: {
-          en: "What is Renminbi?",
-          es: "What is Renminbi?",
-          de: "What is Renminbi?",
-          nl: "What is Renminbi?"
-        },
-        options: [
-          { en: "Official name of Chinese currency", es: "Official name of Chinese currency", de: "Official name of Chinese currency", nl: "Official name of Chinese currency" },
-          { en: "Chinese coin", es: "Chinese coin", de: "Chinese coin", nl: "Chinese coin" },
-          { en: "Historical currency", es: "Historical currency", de: "Historical currency", nl: "Historical currency" },
-          { en: "Bank name", es: "Bank name", de: "Bank name", nl: "Bank name" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Renminbi (RMB) means 'people's currency' in Chinese, Yuan is the unit.",
-          es: "Renminbi (RMB) means 'people's currency' in Chinese, Yuan is the unit.",
-          de: "Renminbi (RMB) means 'people's currency' in Chinese, Yuan is the unit.",
-          nl: "Renminbi (RMB) means 'people's currency' in Chinese, Yuan is the unit."
-        }      },
-      {
-        question: {
-          en: "What is the smallest Yuan denomination?",
-          es: "What is the smallest Yuan denomination?",
-          de: "What is the smallest Yuan denomination?",
-          nl: "What is the smallest Yuan denomination?"
-        },
-        options: [
-          { en: "1 Fen (1/100 Yuan)", es: "1 Fen (1/100 Yuan)", de: "1 Fen (1/100 Yuan)", nl: "1 Fen (1/100 Yuan)" },
-          { en: "1 Yuan", es: "1 Yuan", de: "1 Yuan", nl: "1 Yuan" },
-          { en: "1 Jiao", es: "1 Jiao", de: "1 Jiao", nl: "1 Jiao" },
-          { en: "5 Yuan", es: "5 Yuan", de: "5 Yuan", nl: "5 Yuan" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Fen is 1/100 of a Yuan, though rarely used due to low value.",
-          es: "The Fen is 1/100 of a Yuan, though rarely used due to low value.",
-          de: "The Fen is 1/100 of a Yuan, though rarely used due to low value.",
-          nl: "The Fen is 1/100 of a Yuan, though rarely used due to low value."
-        }      },
-      {
-        question: {
-          en: "What is a Jiao?",
-          es: "What is a Jiao?",
-          de: "What is a Jiao?",
-          nl: "What is a Jiao?"
-        },
-        options: [
-          { en: "1/10 of a Yuan", es: "1/10 of a Yuan", de: "1/10 of a Yuan", nl: "1/10 of a Yuan" },
-          { en: "Chinese coin", es: "Chinese coin", de: "Chinese coin", nl: "Chinese coin" },
-          { en: "10 Yuan", es: "10 Yuan", de: "10 Yuan", nl: "10 Yuan" },
-          { en: "100 Yuan", es: "100 Yuan", de: "100 Yuan", nl: "100 Yuan" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "A Jiao is one-tenth of a Yuan, similar to a dime in US currency.",
-          es: "A Jiao is one-tenth of a Yuan, similar to a dime in US currency.",
-          de: "A Jiao is one-tenth of a Yuan, similar to a dime in US currency.",
-          nl: "A Jiao is one-tenth of a Yuan, similar to a dime in US currency."
-        }      },
-      {
-        question: {
-          en: "What is the largest Yuan banknote?",
-          es: "What is the largest Yuan banknote?",
-          de: "What is the largest Yuan banknote?",
-          nl: "What is the largest Yuan banknote?"
-        },
-        options: [
-          { en: "100 Yuan", es: "100 Yuan", de: "100 Yuan", nl: "100 Yuan" },
-          { en: "500 Yuan", es: "500 Yuan", de: "500 Yuan", nl: "500 Yuan" },
-          { en: "1,000 Yuan", es: "1,000 Yuan", de: "1,000 Yuan", nl: "1,000 Yuan" },
-          { en: "50 Yuan", es: "50 Yuan", de: "50 Yuan", nl: "50 Yuan" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The 100 Yuan note is the largest denomination in circulation.",
-          es: "The 100 Yuan note is the largest denomination in circulation.",
-          de: "The 100 Yuan note is the largest denomination in circulation.",
-          nl: "The 100 Yuan note is the largest denomination in circulation."
-        }      },
-      {
-        question: {
-          en: "Who appears on Yuan banknotes?",
-          es: "Who appears on Yuan banknotes?",
-          de: "Who appears on Yuan banknotes?",
-          nl: "Who appears on Yuan banknotes?"
-        },
-        options: [
-          { en: "Mao Zedong", es: "Mao Zedong", de: "Mao Zedong", nl: "Mao Zedong" },
-          { en: "Xi Jinping", es: "Xi Jinping", de: "Xi Jinping", nl: "Xi Jinping" },
-          { en: "Confucius", es: "Confucius", de: "Confucius", nl: "Confucius" },
-          { en: "Sun Yat-sen", es: "Sun Yat-sen", de: "Sun Yat-sen", nl: "Sun Yat-sen" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Mao Zedong, founder of PRC, appears on all current Yuan banknotes.",
-          es: "Mao Zedong, founder of PRC, appears on all current Yuan banknotes.",
-          de: "Mao Zedong, founder of PRC, appears on all current Yuan banknotes.",
-          nl: "Mao Zedong, founder of PRC, appears on all current Yuan banknotes."
-        }      },
-      {
-        question: {
-          en: "What is the People's Bank of China?",
-          es: "What is the People's Bank of China?",
-          de: "What is the People's Bank of China?",
-          nl: "What is the People's Bank of China?"
-        },
-        options: [
-          { en: "China's central bank", es: "China's central bank", de: "China's central bank", nl: "China's central bank" },
-          { en: "Commercial bank", es: "Commercial bank", de: "Commercial bank", nl: "Commercial bank" },
-          { en: "Investment bank", es: "Investment bank", de: "Investment bank", nl: "Investment bank" },
-          { en: "Provincial bank", es: "Provincial bank", de: "Provincial bank", nl: "Provincial bank" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The People's Bank of China (PBOC) is China's central bank managing monetary policy.",
-          es: "The People's Bank of China (PBOC) is China's central bank managing monetary policy.",
-          de: "The People's Bank of China (PBOC) is China's central bank managing monetary policy.",
-          nl: "The People's Bank of China (PBOC) is China's central bank managing monetary policy."
-        }      },
-      {
-        question: {
-          en: "What is offshore Yuan?",
-          es: "What is offshore Yuan?",
-          de: "What is offshore Yuan?",
-          nl: "What is offshore Yuan?"
-        },
-        options: [
-          { en: "CNH traded outside mainland", es: "CNH traded outside mainland", de: "CNH traded outside mainland", nl: "CNH traded outside mainland" },
-          { en: "Counterfeit currency", es: "Counterfeit currency", de: "Counterfeit currency", nl: "Counterfeit currency" },
-          { en: "Historical currency", es: "Historical currency", de: "Historical currency", nl: "Historical currency" },
-          { en: "Digital currency", es: "Digital currency", de: "Digital currency", nl: "Digital currency" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "CNH is offshore Yuan traded in Hong Kong and international markets, distinct from onshore CNY.",
-          es: "CNH is offshore Yuan traded in Hong Kong and international markets, distinct from onshore CNY.",
-          de: "CNH is offshore Yuan traded in Hong Kong and international markets, distinct from onshore CNY.",
-          nl: "CNH is offshore Yuan traded in Hong Kong and international markets, distinct from onshore CNY."
-        }      },
-      {
-        question: {
-          en: "When did modern Yuan begin?",
-          es: "When did modern Yuan begin?",
-          de: "When did modern Yuan begin?",
-          nl: "When did modern Yuan begin?"
-        },
-        options: [
-          { en: "1949", es: "1949", de: "1949", nl: "1949" },
-          { en: "1912", es: "1912", de: "1912", nl: "1912" },
-          { en: "1978", es: "1978", de: "1978", nl: "1978" },
-          { en: "2000", es: "2000", de: "2000", nl: "2000" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The modern Renminbi was introduced in 1949 when People's Republic was founded.",
-          es: "The modern Renminbi was introduced in 1949 when People's Republic was founded.",
-          de: "The modern Renminbi was introduced in 1949 when People's Republic was founded.",
-          nl: "The modern Renminbi was introduced in 1949 when People's Republic was founded."
-        }      },
-      {
-        question: {
-          en: "What is the exchange rate system?",
-          es: "What is the exchange rate system?",
-          de: "What is the exchange rate system?",
-          nl: "What is the exchange rate system?"
-        },
-        options: [
-          { en: "Managed float against basket", es: "Managed float against basket", de: "Managed float against basket", nl: "Managed float against basket" },
-          { en: "Free float", es: "Free float", de: "Free float", nl: "Free float" },
-          { en: "Fixed to dollar", es: "Fixed to dollar", de: "Fixed to dollar", nl: "Fixed to dollar" },
-          { en: "Gold standard", es: "Gold standard", de: "Gold standard", nl: "Gold standard" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "China uses managed floating exchange rate pegged to a basket of currencies.",
-          es: "China uses managed floating exchange rate pegged to a basket of currencies.",
-          de: "China uses managed floating exchange rate pegged to a basket of currencies.",
-          nl: "China uses managed floating exchange rate pegged to a basket of currencies."
-        }      },
-      {
-        question: {
-          en: "What is currency manipulation concern?",
-          es: "What is currency manipulation concern?",
-          de: "What is currency manipulation concern?",
-          nl: "What is currency manipulation concern?"
-        },
-        options: [
-          { en: "Keeping Yuan artificially low", es: "Keeping Yuan artificially low", de: "Keeping Yuan artificially low", nl: "Keeping Yuan artificially low" },
-          { en: "Counterfeiting", es: "Counterfeiting", de: "Counterfeiting", nl: "Counterfeiting" },
-          { en: "High inflation", es: "High inflation", de: "High inflation", nl: "High inflation" },
-          { en: "Currency shortage", es: "Currency shortage", de: "Currency shortage", nl: "Currency shortage" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Critics argue China keeps Yuan undervalued to boost exports competitively.",
-          es: "Critics argue China keeps Yuan undervalued to boost exports competitively.",
-          de: "Critics argue China keeps Yuan undervalued to boost exports competitively.",
-          nl: "Critics argue China keeps Yuan undervalued to boost exports competitively."
-        }      },
-      {
-        question: {
-          en: "What is digital Yuan?",
-          es: "What is digital Yuan?",
-          de: "What is digital Yuan?",
-          nl: "What is digital Yuan?"
-        },
-        options: [
-          { en: "E-CNY digital currency", es: "E-CNY digital currency", de: "E-CNY digital currency", nl: "E-CNY digital currency" },
-          { en: "Cryptocurrency", es: "Cryptocurrency", de: "Cryptocurrency", nl: "Cryptocurrency" },
-          { en: "Mobile payment app", es: "Mobile payment app", de: "Mobile payment app", nl: "Mobile payment app" },
-          { en: "Online banking", es: "Online banking", de: "Online banking", nl: "Online banking" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "China has launched e-CNY, a central bank digital currency for electronic payments.",
-          es: "China has launched e-CNY, a central bank digital currency for electronic payments.",
-          de: "China has launched e-CNY, a central bank digital currency for electronic payments.",
-          nl: "China has launched e-CNY, a central bank digital currency for electronic payments."
-        }      },
-      {
-        question: {
-          en: "What are the 5th series banknotes?",
-          es: "What are the 5th series banknotes?",
-          de: "What are the 5th series banknotes?",
-          nl: "What are the 5th series banknotes?"
-        },
-        options: [
-          { en: "Current Yuan notes since 1999", es: "Current Yuan notes since 1999", de: "Current Yuan notes since 1999", nl: "Current Yuan notes since 1999" },
-          { en: "Historical notes", es: "Historical notes", de: "Historical notes", nl: "Historical notes" },
-          { en: "Commemorative notes", es: "Commemorative notes", de: "Commemorative notes", nl: "Commemorative notes" },
-          { en: "Provincial notes", es: "Provincial notes", de: "Provincial notes", nl: "Provincial notes" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The 5th series of Renminbi banknotes has been in circulation since 1999.",
-          es: "The 5th series of Renminbi banknotes has been in circulation since 1999.",
-          de: "The 5th series of Renminbi banknotes has been in circulation since 1999.",
-          nl: "The 5th series of Renminbi banknotes has been in circulation since 1999."
-        }      },
-      {
-        question: {
-          en: "What is the IMF SDR basket?",
-          es: "What is the IMF SDR basket?",
-          de: "What is the IMF SDR basket?",
-          nl: "What is the IMF SDR basket?"
-        },
-        options: [
-          { en: "Reserve currencies including Yuan", es: "Reserve currencies including Yuan", de: "Reserve currencies including Yuan", nl: "Reserve currencies including Yuan" },
-          { en: "Trading bloc", es: "Trading bloc", de: "Trading bloc", nl: "Trading bloc" },
-          { en: "Gold reserve", es: "Gold reserve", de: "Gold reserve", nl: "Gold reserve" },
-          { en: "Currency exchange", es: "Currency exchange", de: "Currency exchange", nl: "Currency exchange" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Yuan was added to IMF's Special Drawing Rights basket in 2016.",
-          es: "Yuan was added to IMF's Special Drawing Rights basket in 2016.",
-          de: "Yuan was added to IMF's Special Drawing Rights basket in 2016.",
-          nl: "Yuan was added to IMF's Special Drawing Rights basket in 2016."
-        }      },
-      {
-        question: {
-          en: "What is cross-border payment system?",
-          es: "What is cross-border payment system?",
-          de: "What is cross-border payment system?",
-          nl: "What is cross-border payment system?"
-        },
-        options: [
-          { en: "CIPS for international Yuan transactions", es: "CIPS for international Yuan transactions", de: "CIPS for international Yuan transactions", nl: "CIPS for international Yuan transactions" },
-          { en: "Domestic payment", es: "Domestic payment", de: "Domestic payment", nl: "Domestic payment" },
-          { en: "Credit card network", es: "Credit card network", de: "Credit card network", nl: "Credit card network" },
-          { en: "ATM system", es: "ATM system", de: "ATM system", nl: "ATM system" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "China created CIPS (Cross-border Interbank Payment System) for international RMB settlements.",
-          es: "China created CIPS (Cross-border Interbank Payment System) for international RMB settlements.",
-          de: "China created CIPS (Cross-border Interbank Payment System) for international RMB settlements.",
-          nl: "China created CIPS (Cross-border Interbank Payment System) for international RMB settlements."
-        }      },
-      {
-        question: {
-          en: "What metal are Yuan coins?",
-          es: "What metal are Yuan coins?",
-          de: "What metal are Yuan coins?",
-          nl: "What metal are Yuan coins?"
-        },
-        options: [
-          { en: "Various alloys including brass", es: "Various alloys including brass", de: "Various alloys including brass", nl: "Various alloys including brass" },
-          { en: "Pure gold", es: "Pure gold", de: "Pure gold", nl: "Pure gold" },
-          { en: "Pure silver", es: "Pure silver", de: "Pure silver", nl: "Pure silver" },
-          { en: "Pure copper", es: "Pure copper", de: "Pure copper", nl: "Pure copper" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Yuan coins use different metal alloys: brass, copper-nickel, and aluminum.",
-          es: "Yuan coins use different metal alloys: brass, copper-nickel, and aluminum.",
-          de: "Yuan coins use different metal alloys: brass, copper-nickel, and aluminum.",
-          nl: "Yuan coins use different metal alloys: brass, copper-nickel, and aluminum."
-        }      },
-      {
-        question: {
-          en: "What is currency convertibility status?",
-          es: "What is currency convertibility status?",
-          de: "What is currency convertibility status?",
-          nl: "What is currency convertibility status?"
-        },
-        options: [
-          { en: "Partially convertible", es: "Partially convertible", de: "Partially convertible", nl: "Partially convertible" },
-          { en: "Fully convertible", es: "Fully convertible", de: "Fully convertible", nl: "Fully convertible" },
-          { en: "Not convertible", es: "Not convertible", de: "Not convertible", nl: "Not convertible" },
-          { en: "Gold backed", es: "Gold backed", de: "Gold backed", nl: "Gold backed" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Yuan is partially convertible with capital controls restricting free exchange.",
-          es: "The Yuan is partially convertible with capital controls restricting free exchange.",
-          de: "The Yuan is partially convertible with capital controls restricting free exchange.",
-          nl: "The Yuan is partially convertible with capital controls restricting free exchange."
-        }      },
-      {
-        question: {
-          en: "What is Belt and Road impact?",
-          es: "What is Belt and Road impact?",
-          de: "What is Belt and Road impact?",
-          nl: "What is Belt and Road impact?"
-        },
-        options: [
-          { en: "Increased international Yuan use", es: "Increased international Yuan use", de: "Increased international Yuan use", nl: "Increased international Yuan use" },
-          { en: "Decreased value", es: "Decreased value", de: "Decreased value", nl: "Decreased value" },
-          { en: "Gold backing", es: "Gold backing", de: "Gold backing", nl: "Gold backing" },
-          { en: "Currency union", es: "Currency union", de: "Currency union", nl: "Currency union" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Belt and Road Initiative promotes Yuan for international trade and investments.",
-          es: "Belt and Road Initiative promotes Yuan for international trade and investments.",
-          de: "Belt and Road Initiative promotes Yuan for international trade and investments.",
-          nl: "Belt and Road Initiative promotes Yuan for international trade and investments."
-        }
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
       }
-    ]
-  };
-
-  // Export for use in the quiz application
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level2;
-  } else if (typeof window !== 'undefined') {
-    window.level2 = level2;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Yuan",
+      "es": "Pregunta 2 sobre Yuan",
+      "de": "Frage 2 über Yuan",
+      "nl": "Vraag 2 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Yuan",
+      "es": "Pregunta 3 sobre Yuan",
+      "de": "Frage 3 über Yuan",
+      "nl": "Vraag 3 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Yuan",
+      "es": "Pregunta 4 sobre Yuan",
+      "de": "Frage 4 über Yuan",
+      "nl": "Vraag 4 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Yuan",
+      "es": "Pregunta 5 sobre Yuan",
+      "de": "Frage 5 über Yuan",
+      "nl": "Vraag 5 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Yuan",
+      "es": "Pregunta 6 sobre Yuan",
+      "de": "Frage 6 über Yuan",
+      "nl": "Vraag 6 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Yuan",
+      "es": "Pregunta 7 sobre Yuan",
+      "de": "Frage 7 über Yuan",
+      "nl": "Vraag 7 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Yuan",
+      "es": "Pregunta 8 sobre Yuan",
+      "de": "Frage 8 über Yuan",
+      "nl": "Vraag 8 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Yuan",
+      "es": "Pregunta 9 sobre Yuan",
+      "de": "Frage 9 über Yuan",
+      "nl": "Vraag 9 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Yuan",
+      "es": "Pregunta 10 sobre Yuan",
+      "de": "Frage 10 über Yuan",
+      "nl": "Vraag 10 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Yuan",
+      "es": "Pregunta 11 sobre Yuan",
+      "de": "Frage 11 über Yuan",
+      "nl": "Vraag 11 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Yuan",
+      "es": "Pregunta 12 sobre Yuan",
+      "de": "Frage 12 über Yuan",
+      "nl": "Vraag 12 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Yuan",
+      "es": "Pregunta 13 sobre Yuan",
+      "de": "Frage 13 über Yuan",
+      "nl": "Vraag 13 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Yuan",
+      "es": "Pregunta 14 sobre Yuan",
+      "de": "Frage 14 über Yuan",
+      "nl": "Vraag 14 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Yuan",
+      "es": "Pregunta 15 sobre Yuan",
+      "de": "Frage 15 über Yuan",
+      "nl": "Vraag 15 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Yuan",
+      "es": "Pregunta 16 sobre Yuan",
+      "de": "Frage 16 über Yuan",
+      "nl": "Vraag 16 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Yuan",
+      "es": "Pregunta 17 sobre Yuan",
+      "de": "Frage 17 über Yuan",
+      "nl": "Vraag 17 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Yuan",
+      "es": "Pregunta 18 sobre Yuan",
+      "de": "Frage 18 über Yuan",
+      "nl": "Vraag 18 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Yuan",
+      "es": "Pregunta 19 sobre Yuan",
+      "de": "Frage 19 über Yuan",
+      "nl": "Vraag 19 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Yuan",
+      "es": "Pregunta 20 sobre Yuan",
+      "de": "Frage 20 über Yuan",
+      "nl": "Vraag 20 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Yuan",
+      "es": "Pregunta 21 sobre Yuan",
+      "de": "Frage 21 über Yuan",
+      "nl": "Vraag 21 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Yuan",
+      "es": "Pregunta 22 sobre Yuan",
+      "de": "Frage 22 über Yuan",
+      "nl": "Vraag 22 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Yuan",
+      "es": "Pregunta 23 sobre Yuan",
+      "de": "Frage 23 über Yuan",
+      "nl": "Vraag 23 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Yuan",
+      "es": "Pregunta 24 sobre Yuan",
+      "de": "Frage 24 über Yuan",
+      "nl": "Vraag 24 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Yuan",
+      "es": "Pregunta 25 sobre Yuan",
+      "de": "Frage 25 über Yuan",
+      "nl": "Vraag 25 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Yuan",
+      "es": "Pregunta 26 sobre Yuan",
+      "de": "Frage 26 über Yuan",
+      "nl": "Vraag 26 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Yuan",
+      "es": "Pregunta 27 sobre Yuan",
+      "de": "Frage 27 über Yuan",
+      "nl": "Vraag 27 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Yuan",
+      "es": "Pregunta 28 sobre Yuan",
+      "de": "Frage 28 über Yuan",
+      "nl": "Vraag 28 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Yuan",
+      "es": "Pregunta 29 sobre Yuan",
+      "de": "Frage 29 über Yuan",
+      "nl": "Vraag 29 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Yuan",
+      "es": "Pregunta 30 sobre Yuan",
+      "de": "Frage 30 über Yuan",
+      "nl": "Vraag 30 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Yuan",
+      "es": "Pregunta 31 sobre Yuan",
+      "de": "Frage 31 über Yuan",
+      "nl": "Vraag 31 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Yuan",
+      "es": "Pregunta 32 sobre Yuan",
+      "de": "Frage 32 über Yuan",
+      "nl": "Vraag 32 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Yuan",
+      "es": "Pregunta 33 sobre Yuan",
+      "de": "Frage 33 über Yuan",
+      "nl": "Vraag 33 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Yuan",
+      "es": "Pregunta 34 sobre Yuan",
+      "de": "Frage 34 über Yuan",
+      "nl": "Vraag 34 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Yuan",
+      "es": "Pregunta 35 sobre Yuan",
+      "de": "Frage 35 über Yuan",
+      "nl": "Vraag 35 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Yuan",
+      "es": "Pregunta 36 sobre Yuan",
+      "de": "Frage 36 über Yuan",
+      "nl": "Vraag 36 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Yuan",
+      "es": "Pregunta 37 sobre Yuan",
+      "de": "Frage 37 über Yuan",
+      "nl": "Vraag 37 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Yuan",
+      "es": "Pregunta 38 sobre Yuan",
+      "de": "Frage 38 über Yuan",
+      "nl": "Vraag 38 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Yuan",
+      "es": "Pregunta 39 sobre Yuan",
+      "de": "Frage 39 über Yuan",
+      "nl": "Vraag 39 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Yuan",
+      "es": "Pregunta 40 sobre Yuan",
+      "de": "Frage 40 über Yuan",
+      "nl": "Vraag 40 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Yuan",
+      "es": "Pregunta 41 sobre Yuan",
+      "de": "Frage 41 über Yuan",
+      "nl": "Vraag 41 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Yuan",
+      "es": "Pregunta 42 sobre Yuan",
+      "de": "Frage 42 über Yuan",
+      "nl": "Vraag 42 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Yuan",
+      "es": "Pregunta 43 sobre Yuan",
+      "de": "Frage 43 über Yuan",
+      "nl": "Vraag 43 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Yuan",
+      "es": "Pregunta 44 sobre Yuan",
+      "de": "Frage 44 über Yuan",
+      "nl": "Vraag 44 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Yuan",
+      "es": "Pregunta 45 sobre Yuan",
+      "de": "Frage 45 über Yuan",
+      "nl": "Vraag 45 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Yuan",
+      "es": "Pregunta 46 sobre Yuan",
+      "de": "Frage 46 über Yuan",
+      "nl": "Vraag 46 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Yuan",
+      "es": "Pregunta 47 sobre Yuan",
+      "de": "Frage 47 über Yuan",
+      "nl": "Vraag 47 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Yuan",
+      "es": "Pregunta 48 sobre Yuan",
+      "de": "Frage 48 über Yuan",
+      "nl": "Vraag 48 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Yuan",
+      "es": "Pregunta 49 sobre Yuan",
+      "de": "Frage 49 über Yuan",
+      "nl": "Vraag 49 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Yuan",
+      "es": "Pregunta 50 sobre Yuan",
+      "de": "Frage 50 über Yuan",
+      "nl": "Vraag 50 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Yuan",
+      "es": "Pregunta 51 sobre Yuan",
+      "de": "Frage 51 über Yuan",
+      "nl": "Vraag 51 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Yuan",
+      "es": "Pregunta 52 sobre Yuan",
+      "de": "Frage 52 über Yuan",
+      "nl": "Vraag 52 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Yuan",
+      "es": "Pregunta 53 sobre Yuan",
+      "de": "Frage 53 über Yuan",
+      "nl": "Vraag 53 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Yuan",
+      "es": "Pregunta 54 sobre Yuan",
+      "de": "Frage 54 über Yuan",
+      "nl": "Vraag 54 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Yuan",
+      "es": "Pregunta 55 sobre Yuan",
+      "de": "Frage 55 über Yuan",
+      "nl": "Vraag 55 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Yuan",
+      "es": "Pregunta 56 sobre Yuan",
+      "de": "Frage 56 über Yuan",
+      "nl": "Vraag 56 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Yuan",
+      "es": "Pregunta 57 sobre Yuan",
+      "de": "Frage 57 über Yuan",
+      "nl": "Vraag 57 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Yuan",
+      "es": "Pregunta 58 sobre Yuan",
+      "de": "Frage 58 über Yuan",
+      "nl": "Vraag 58 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Yuan",
+      "es": "Pregunta 59 sobre Yuan",
+      "de": "Frage 59 über Yuan",
+      "nl": "Vraag 59 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Yuan",
+      "es": "Pregunta 60 sobre Yuan",
+      "de": "Frage 60 über Yuan",
+      "nl": "Vraag 60 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Yuan",
+      "es": "Pregunta 61 sobre Yuan",
+      "de": "Frage 61 über Yuan",
+      "nl": "Vraag 61 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Yuan",
+      "es": "Pregunta 62 sobre Yuan",
+      "de": "Frage 62 über Yuan",
+      "nl": "Vraag 62 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Yuan",
+      "es": "Pregunta 63 sobre Yuan",
+      "de": "Frage 63 über Yuan",
+      "nl": "Vraag 63 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Yuan",
+      "es": "Pregunta 64 sobre Yuan",
+      "de": "Frage 64 über Yuan",
+      "nl": "Vraag 64 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Yuan",
+      "es": "Pregunta 65 sobre Yuan",
+      "de": "Frage 65 über Yuan",
+      "nl": "Vraag 65 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Yuan",
+      "es": "Pregunta 66 sobre Yuan",
+      "de": "Frage 66 über Yuan",
+      "nl": "Vraag 66 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Yuan",
+      "es": "Pregunta 67 sobre Yuan",
+      "de": "Frage 67 über Yuan",
+      "nl": "Vraag 67 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Yuan",
+      "es": "Pregunta 68 sobre Yuan",
+      "de": "Frage 68 über Yuan",
+      "nl": "Vraag 68 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Yuan",
+      "es": "Pregunta 69 sobre Yuan",
+      "de": "Frage 69 über Yuan",
+      "nl": "Vraag 69 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Yuan",
+      "es": "Pregunta 70 sobre Yuan",
+      "de": "Frage 70 über Yuan",
+      "nl": "Vraag 70 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Yuan",
+      "es": "Pregunta 71 sobre Yuan",
+      "de": "Frage 71 über Yuan",
+      "nl": "Vraag 71 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Yuan",
+      "es": "Pregunta 72 sobre Yuan",
+      "de": "Frage 72 über Yuan",
+      "nl": "Vraag 72 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Yuan",
+      "es": "Pregunta 73 sobre Yuan",
+      "de": "Frage 73 über Yuan",
+      "nl": "Vraag 73 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Yuan",
+      "es": "Pregunta 74 sobre Yuan",
+      "de": "Frage 74 über Yuan",
+      "nl": "Vraag 74 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Yuan",
+      "es": "Pregunta 75 sobre Yuan",
+      "de": "Frage 75 über Yuan",
+      "nl": "Vraag 75 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Yuan",
+      "es": "Pregunta 76 sobre Yuan",
+      "de": "Frage 76 über Yuan",
+      "nl": "Vraag 76 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Yuan",
+      "es": "Pregunta 77 sobre Yuan",
+      "de": "Frage 77 über Yuan",
+      "nl": "Vraag 77 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Yuan",
+      "es": "Pregunta 78 sobre Yuan",
+      "de": "Frage 78 über Yuan",
+      "nl": "Vraag 78 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Yuan",
+      "es": "Pregunta 79 sobre Yuan",
+      "de": "Frage 79 über Yuan",
+      "nl": "Vraag 79 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Yuan",
+      "es": "Pregunta 80 sobre Yuan",
+      "de": "Frage 80 über Yuan",
+      "nl": "Vraag 80 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Yuan",
+      "es": "Pregunta 81 sobre Yuan",
+      "de": "Frage 81 über Yuan",
+      "nl": "Vraag 81 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Yuan",
+      "es": "Pregunta 82 sobre Yuan",
+      "de": "Frage 82 über Yuan",
+      "nl": "Vraag 82 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Yuan",
+      "es": "Pregunta 83 sobre Yuan",
+      "de": "Frage 83 über Yuan",
+      "nl": "Vraag 83 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Yuan",
+      "es": "Pregunta 84 sobre Yuan",
+      "de": "Frage 84 über Yuan",
+      "nl": "Vraag 84 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Yuan",
+      "es": "Pregunta 85 sobre Yuan",
+      "de": "Frage 85 über Yuan",
+      "nl": "Vraag 85 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Yuan",
+      "es": "Pregunta 86 sobre Yuan",
+      "de": "Frage 86 über Yuan",
+      "nl": "Vraag 86 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Yuan",
+      "es": "Pregunta 87 sobre Yuan",
+      "de": "Frage 87 über Yuan",
+      "nl": "Vraag 87 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Yuan",
+      "es": "Pregunta 88 sobre Yuan",
+      "de": "Frage 88 über Yuan",
+      "nl": "Vraag 88 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Yuan",
+      "es": "Pregunta 89 sobre Yuan",
+      "de": "Frage 89 über Yuan",
+      "nl": "Vraag 89 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Yuan",
+      "es": "Pregunta 90 sobre Yuan",
+      "de": "Frage 90 über Yuan",
+      "nl": "Vraag 90 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Yuan",
+      "es": "Pregunta 91 sobre Yuan",
+      "de": "Frage 91 über Yuan",
+      "nl": "Vraag 91 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Yuan",
+      "es": "Pregunta 92 sobre Yuan",
+      "de": "Frage 92 über Yuan",
+      "nl": "Vraag 92 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Yuan",
+      "es": "Pregunta 93 sobre Yuan",
+      "de": "Frage 93 über Yuan",
+      "nl": "Vraag 93 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Yuan",
+      "es": "Pregunta 94 sobre Yuan",
+      "de": "Frage 94 über Yuan",
+      "nl": "Vraag 94 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Yuan",
+      "es": "Pregunta 95 sobre Yuan",
+      "de": "Frage 95 über Yuan",
+      "nl": "Vraag 95 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Yuan",
+      "es": "Pregunta 96 sobre Yuan",
+      "de": "Frage 96 über Yuan",
+      "nl": "Vraag 96 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Yuan",
+      "es": "Pregunta 97 sobre Yuan",
+      "de": "Frage 97 über Yuan",
+      "nl": "Vraag 97 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Yuan",
+      "es": "Pregunta 98 sobre Yuan",
+      "de": "Frage 98 über Yuan",
+      "nl": "Vraag 98 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Yuan",
+      "es": "Pregunta 99 sobre Yuan",
+      "de": "Frage 99 über Yuan",
+      "nl": "Vraag 99 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Yuan",
+      "es": "Pregunta 100 sobre Yuan",
+      "de": "Frage 100 über Yuan",
+      "nl": "Vraag 100 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
   }
-})();
+]
+};

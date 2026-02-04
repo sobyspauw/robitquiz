@@ -1,860 +1,4104 @@
-// Pastries Quiz - Level 8: Expert Mastery (Scientific Principles)
-(function() {
-  const level8 = {
-    name: {
-      en: "Pastries Level 8: Expert Mastery",
-      es: "Pastelería Nivel 8: Dominio Experto",
-      de: "Gebäck Stufe 8: Experten-Meisterschaft",
-      nl: "Gebak Level 8: Expert Meesterschap"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Pastries",
+      "es": "Pregunta 1 sobre Pastries",
+      "de": "Frage 1 über Pastries",
+      "nl": "Vraag 1 over Pastries"
     },
-    questions: [
+    "options": [
       {
-        question: {
-          en: "What is the critical water activity (aw) level for preventing mold growth in stored pastries?",
-          es: "¿Cuál es el nivel crítico de actividad del agua (aw) para prevenir el crecimiento de moho en pasteles almacenados?",
-          de: "Was ist das kritische Wasseraktivitätsniveau (aw) zur Verhinderung von Schimmelwachstum in gelagerten Gebäcken?",
-          nl: "Wat is het kritieke wateractiviteitsniveau (aw) voor het voorkomen van schimmelgroei in opgeslagen gebakken?"
-        },
-        options: [
-          { en: "Below 0.6", es: "Por debajo de 0.6", de: "Unter 0,6", nl: "Onder 0,6" },
-          { en: "Below 0.85", es: "Por debajo de 0.85", de: "Unter 0,85", nl: "Onder 0,85" },
-          { en: "Below 0.95", es: "Por debajo de 0.95", de: "Unter 0,95", nl: "Onder 0,95" },
-          { en: "Below 0.75", es: "Por debajo de 0.75", de: "Unter 0,75", nl: "Onder 0,75" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Water activity below 0.85 prevents most mold growth. This is crucial for shelf-stable pastries as molds require available water to grow, not just total moisture content.",
-          es: "La actividad del agua por debajo de 0.85 previene la mayoría del crecimiento de moho. Esto es crucial para pasteles estables ya que los mohos requieren agua disponible para crecer, no solo contenido total de humedad.",
-          de: "Wasseraktivität unter 0,85 verhindert das meiste Schimmelwachstum. Dies ist entscheidend für lagerstabile Gebäcke, da Schimmel verfügbares Wasser zum Wachsen benötigt, nicht nur den Gesamtfeuchtigkeitsgehalt.",
-          nl: "Wateractiviteit onder 0,85 voorkomt de meeste schimmelgroei. Dit is cruciaal voor houdbare gebakken omdat schimmels beschikbaar water nodig hebben om te groeien, niet alleen totaal vochtgehalte."
-        }
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
       },
       {
-        question: {
-          en: "In molecular gastronomy, what hydrocolloid is most effective for creating hot gels that remain stable above 85°C?",
-          es: "En gastronomía molecular, ¿qué hidrocoloide es más efectivo para crear geles calientes que permanezcan estables por encima de 85°C?",
-          de: "In der Molekulargastronomie, welches Hydrokolloid ist am effektivsten für die Erstellung heißer Gele, die über 85°C stabil bleiben?",
-          nl: "In moleculaire gastronomie, welk hydrocolloïde is het meest effectief voor het creëren van warme gels die stabiel blijven boven 85°C?"
-        },
-        options: [
-          { en: "Agar-agar", es: "Agar-agar", de: "Agar-Agar", nl: "Agar-agar" },
-          { en: "Gellan gum", es: "Goma gellan", de: "Gellan-Gummi", nl: "Gellan gom" },
-          { en: "Carrageenan", es: "Carragenina", de: "Carrageen", nl: "Carrageen" },
-          { en: "Xanthan gum", es: "Goma xantana", de: "Xanthan-Gummi", nl: "Xanthaangom" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Gellan gum creates thermoreversible gels that remain stable at high temperatures up to 120°C, making it superior to agar for hot applications in modernist pastry.",
-          es: "La goma gellan crea geles termorreversibles que permanecen estables a altas temperaturas hasta 120°C, haciéndola superior al agar para aplicaciones calientes en pastelería modernista.",
-          de: "Gellan-Gummi erzeugt thermoreversible Gele, die bei hohen Temperaturen bis 120°C stabil bleiben, was es dem Agar für heiße Anwendungen in der modernistischen Konditorei überlegen macht.",
-          nl: "Gellan gom creëert thermoreversibele gels die stabiel blijven bij hoge temperaturen tot 120°C, waardoor het superieur is aan agar voor warme toepassingen in modernistische banketbakkerij."
-        }
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
       },
       {
-        question: {
-          en: "What is the optimal pH range for pectin gel formation in fruit pastries?",
-          es: "¿Cuál es el rango de pH óptimo para la formación de gel de pectina en pasteles de frutas?",
-          de: "Was ist der optimale pH-Bereich für Pektingel-Bildung in Fruchtgebäcken?",
-          nl: "Wat is het optimale pH-bereik voor pectinegelvorming in fruitgebakken?"
-        },
-        options: [
-          { en: "pH 2.8-3.5", es: "pH 2.8-3.5", de: "pH 2,8-3,5", nl: "pH 2,8-3,5" },
-          { en: "pH 4.0-4.5", es: "pH 4.0-4.5", de: "pH 4,0-4,5", nl: "pH 4,0-4,5" },
-          { en: "pH 5.0-6.0", es: "pH 5.0-6.0", de: "pH 5,0-6,0", nl: "pH 5,0-6,0" },
-          { en: "pH 6.5-7.0", es: "pH 6.5-7.0", de: "pH 6,5-7,0", nl: "pH 6,5-7,0" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "High-methoxyl pectin requires acidic conditions (pH 2.8-3.5) and high sugar content to form proper gels. This acidity helps protonate the pectin molecules, enabling gel network formation.",
-          es: "La pectina de alto metoxilo requiere condiciones ácidas (pH 2.8-3.5) y alto contenido de azúcar para formar geles apropiados. Esta acidez ayuda a protonar las moléculas de pectina, permitiendo la formación de red de gel.",
-          de: "Hochmethoxyl-Pektin erfordert saure Bedingungen (pH 2,8-3,5) und hohen Zuckergehalt für ordnungsgemäße Gelbildung. Diese Säure hilft bei der Protonierung der Pektinmoleküle, was die Gel-Netzwerkbildung ermöglicht.",
-          nl: "Hoog-methoxyl pectine vereist zure omstandigheden (pH 2,8-3,5) en hoog suikergehalte om juiste gels te vormen. Deze zuurgraad helpt de pectinemoleculen te protoneren, waardoor gelnetwerkvorming mogelijk wordt."
-        }
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
       },
       {
-        question: {
-          en: "In chocolate crystallography, what temperature range promotes Form V (beta) crystals during tempering?",
-          es: "En cristalografía del chocolate, ¿qué rango de temperatura promueve los cristales Forma V (beta) durante el templado?",
-          de: "In der Schokoladen-Kristallographie, welcher Temperaturbereich fördert Form V (Beta) Kristalle während der Temperierung?",
-          nl: "In chocolade kristallografie, welk temperatuurbereik bevordert Vorm V (beta) kristallen tijdens tempering?"
-        },
-        options: [
-          { en: "26-28°C", es: "26-28°C", de: "26-28°C", nl: "26-28°C" },
-          { en: "29-32°C", es: "29-32°C", de: "29-32°C", nl: "29-32°C" },
-          { en: "33-35°C", es: "33-35°C", de: "33-35°C", nl: "33-35°C" },
-          { en: "36-38°C", es: "36-38°C", de: "36-38°C", nl: "36-38°C" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Form V beta crystals, which provide the desired snap and gloss in chocolate, form optimally at 29-32°C during the tempering process. This polymorph has the most stable crystal structure.",
-          es: "Los cristales beta Forma V, que proporcionan el chasquido y brillo deseados en el chocolate, se forman óptimamente a 29-32°C durante el proceso de templado. Este polimorfo tiene la estructura cristalina más estable.",
-          de: "Form V Beta-Kristalle, die den gewünschten Knack und Glanz in Schokolade bieten, bilden sich optimal bei 29-32°C während des Temperierprozesses. Dieser Polymorph hat die stabilste Kristallstruktur.",
-          nl: "Vorm V beta kristallen, die de gewenste knak en glans in chocolade bieden, vormen zich optimaal bij 29-32°C tijdens het tempereerproces. Deze polymorph heeft de meest stabiele kristalstructuur."
-        }
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Pastries",
+      "es": "Pregunta 2 sobre Pastries",
+      "de": "Frage 2 über Pastries",
+      "nl": "Vraag 2 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
       },
       {
-        question: {
-          en: "What is the critical shear rate range for proper gluten network development in pastry dough mixing?",
-          es: "¿Cuál es el rango de velocidad de cizallamiento crítico para el desarrollo adecuado de la red de gluten en el mezclado de masa de pastelería?",
-          de: "Was ist der kritische Schergeschwindigkeitsbereich für ordnungsgemäße Glutennetzwerk-Entwicklung beim Mischen von Gebäckteig?",
-          nl: "Wat is het kritieke schuifsnelheidsbereik voor juiste glutennetwerkvorming bij het mengen van gebakdeeg?"
-        },
-        options: [
-          { en: "10-50 s⁻¹", es: "10-50 s⁻¹", de: "10-50 s⁻¹", nl: "10-50 s⁻¹" },
-          { en: "100-300 s⁻¹", es: "100-300 s⁻¹", de: "100-300 s⁻¹", nl: "100-300 s⁻¹" },
-          { en: "500-1000 s⁻¹", es: "500-1000 s⁻¹", de: "500-1000 s⁻¹", nl: "500-1000 s⁻¹" },
-          { en: "1500-2000 s⁻¹", es: "1500-2000 s⁻¹", de: "1500-2000 s⁻¹", nl: "1500-2000 s⁻¹" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Optimal gluten development occurs at moderate shear rates of 100-300 s⁻¹. Too low prevents proper protein alignment, while excessive shear breaks down the gluten network structure.",
-          es: "El desarrollo óptimo del gluten ocurre a velocidades de cizallamiento moderadas de 100-300 s⁻¹. Muy bajo previene la alineación apropiada de proteínas, mientras que el cizallamiento excesivo rompe la estructura de la red de gluten.",
-          de: "Optimale Glutenentwicklung tritt bei moderaten Schergeschwindigkeiten von 100-300 s⁻¹ auf. Zu niedrig verhindert ordnungsgemäße Proteinausrichtung, während übermäßige Scherung die Glutennetzwerkstruktur abbaut.",
-          nl: "Optimale glutenontwikkeling vindt plaats bij gematigde schuifsnelheden van 100-300 s⁻¹. Te laag voorkomt juiste eiwituitlijning, terwijl overmatige schuifkracht de glutennetwerkstructuur afbreekt."
-        }
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
       },
       {
-        question: {
-          en: "In sphere-making using sodium alginate, what is the optimal calcium chloride concentration for gel formation?",
-          es: "En la fabricación de esferas usando alginato de sodio, ¿cuál es la concentración óptima de cloruro de calcio para la formación de gel?",
-          de: "Bei der Sphären-Herstellung mit Natriumalginat, was ist die optimale Calciumchlorid-Konzentration für Gelbildung?",
-          nl: "Bij het maken van bollen met natriumalginaat, wat is de optimale calciumchlorideconcentratie voor gelvorming?"
-        },
-        options: [
-          { en: "0.1-0.3%", es: "0.1-0.3%", de: "0,1-0,3%", nl: "0,1-0,3%" },
-          { en: "0.5-1.0%", es: "0.5-1.0%", de: "0,5-1,0%", nl: "0,5-1,0%" },
-          { en: "1.5-2.0%", es: "1.5-2.0%", de: "1,5-2,0%", nl: "1,5-2,0%" },
-          { en: "2.5-3.0%", es: "2.5-3.0%", de: "2,5-3,0%", nl: "2,5-3,0%" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "A calcium chloride concentration of 0.5-1.0% provides optimal gel strength for spherification while maintaining flexible texture. Higher concentrations create overly firm, brittle spheres.",
-          es: "Una concentración de cloruro de calcio de 0.5-1.0% proporciona resistencia de gel óptima para esferificación mientras mantiene textura flexible. Concentraciones más altas crean esferas demasiado firmes y frágiles.",
-          de: "Eine Calciumchlorid-Konzentration von 0,5-1,0% bietet optimale Gelstärke für Sphärisierung bei Beibehaltung flexibler Textur. Höhere Konzentrationen erzeugen zu feste, spröde Sphären.",
-          nl: "Een calciumchlorideconcentratie van 0,5-1,0% biedt optimale gelsterkte voor sferificatie terwijl flexibele textuur behouden blijft. Hogere concentraties creëren te stevige, broze bollen."
-        }
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
       },
       {
-        question: {
-          en: "What enzyme is responsible for the Maillard reaction acceleration in pastry browning?",
-          es: "¿Qué enzima es responsable de la aceleración de la reacción de Maillard en el dorado de pasteles?",
-          de: "Welches Enzym ist für die Maillard-Reaktions-Beschleunigung beim Gebäckbräunen verantwortlich?",
-          nl: "Welk enzym is verantwoordelijk voor de versnelling van de Maillard-reactie bij het bruinen van gebak?"
-        },
-        options: [
-          { en: "Transglutaminase", es: "Transglutaminasa", de: "Transglutaminase", nl: "Transglutaminase" },
-          { en: "Glucose oxidase", es: "Glucosa oxidasa", de: "Glukoseoxidase", nl: "Glucose oxidase" },
-          { en: "Laccase", es: "Lacasa", de: "Laccase", nl: "Laccase" },
-          { en: "The Maillard reaction is non-enzymatic", es: "La reacción de Maillard es no enzimática", de: "Die Maillard-Reaktion ist nicht-enzymatisch", nl: "De Maillard-reactie is niet-enzymatisch" }
-        ],
-        correct: 3,
-        explanation: {
-          en: "The Maillard reaction is a non-enzymatic chemical reaction between amino acids and reducing sugars. It's accelerated by heat, alkaline pH, and water activity, not by enzymes.",
-          es: "La reacción de Maillard es una reacción química no enzimática entre aminoácidos y azúcares reductores. Se acelera por calor, pH alcalino y actividad del agua, no por enzimas.",
-          de: "Die Maillard-Reaktion ist eine nicht-enzymatische chemische Reaktion zwischen Aminosäuren und reduzierenden Zuckern. Sie wird durch Hitze, alkalischen pH und Wasseraktivität beschleunigt, nicht durch Enzyme.",
-          nl: "De Maillard-reactie is een niet-enzymatische chemische reactie tussen aminozuren en reducerende suikers. Het wordt versneld door warmte, alkalische pH en wateractiviteit, niet door enzymen."
-        }
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Pastries",
+      "es": "Pregunta 3 sobre Pastries",
+      "de": "Frage 3 über Pastries",
+      "nl": "Vraag 3 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
       },
       {
-        question: {
-          en: "What is the glass transition temperature (Tg) of amorphous sugar in confectionery applications?",
-          es: "¿Cuál es la temperatura de transición vítrea (Tg) del azúcar amorfo en aplicaciones de confitería?",
-          de: "Was ist die Glasübergangstemperatur (Tg) von amorphem Zucker in Konditorei-Anwendungen?",
-          nl: "Wat is de glasovergangstemperatuur (Tg) van amorfe suiker in banketbakkerstoepassing?"
-        },
-        options: [
-          { en: "45-55°C", es: "45-55°C", de: "45-55°C", nl: "45-55°C" },
-          { en: "62-75°C", es: "62-75°C", de: "62-75°C", nl: "62-75°C" },
-          { en: "85-95°C", es: "85-95°C", de: "85-95°C", nl: "85-95°C" },
-          { en: "105-115°C", es: "105-115°C", de: "105-115°C", nl: "105-115°C" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The glass transition temperature of sucrose is approximately 62-75°C depending on water content. Below this temperature, the sugar exists in a glassy state, above it becomes rubbery.",
-          es: "La temperatura de transición vítrea de la sacarosa es aproximadamente 62-75°C dependiendo del contenido de agua. Debajo de esta temperatura, el azúcar existe en estado vítreo, arriba se vuelve gomoso.",
-          de: "Die Glasübergangstemperatur von Saccharose beträgt etwa 62-75°C je nach Wassergehalt. Unter dieser Temperatur existiert der Zucker in glasigem Zustand, darüber wird er gummiartig.",
-          nl: "De glasovergangstemperatuur van sucrose is ongeveer 62-75°C afhankelijk van het watergehalte. Onder deze temperatuur bestaat de suiker in een glasachtige toestand, erboven wordt het rubberachtig."
-        }
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
       },
       {
-        question: {
-          en: "Which protein modification technique creates the strongest thermal stability in egg-based foams?",
-          es: "¿Qué técnica de modificación de proteínas crea la mayor estabilidad térmica en espumas a base de huevo?",
-          de: "Welche Proteinmodifikationstechnik schafft die stärkste thermische Stabilität in eibasierten Schäumen?",
-          nl: "Welke eiwitmodificatietechniek creëert de sterkste thermische stabiliteit in op ei gebaseerde schuimen?"
-        },
-        options: [
-          { en: "Enzymatic crosslinking with transglutaminase", es: "Entrecruzamiento enzimático con transglutaminasa", de: "Enzymatische Vernetzung mit Transglutaminase", nl: "Enzymatische verknoping met transglutaminase" },
-          { en: "Chemical crosslinking with glutaraldehyde", es: "Entrecruzamiento químico con glutaraldehído", de: "Chemische Vernetzung mit Glutaraldehyd", nl: "Chemische verknoping met glutaaraldehyde" },
-          { en: "Maillard browning reactions", es: "Reacciones de pardeamiento de Maillard", de: "Maillard-Bräunungsreaktionen", nl: "Maillard-bruineringsreacties" },
-          { en: "Acid-induced coagulation", es: "Coagulación inducida por ácido", de: "Säure-induzierte Koagulation", nl: "Zuur-geïnduceerde coagulatie" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Transglutaminase creates stable covalent bonds between protein molecules through acyl transfer reactions, significantly improving thermal stability of egg foams up to 85°C.",
-          es: "La transglutaminasa crea enlaces covalentes estables entre moléculas de proteína a través de reacciones de transferencia de acilo, mejorando significativamente la estabilidad térmica de espumas de huevo hasta 85°C.",
-          de: "Transglutaminase erzeugt stabile kovalente Bindungen zwischen Proteinmolekülen durch Acyltransfer-Reaktionen und verbessert die thermische Stabilität von Eierschäumen bis 85°C erheblich.",
-          nl: "Transglutaminase creëert stabiele covalente bindingen tussen eiwtmoleculen door acyltransferreacties, wat de thermische stabiliteit van eischuimen tot 85°C aanzienlijk verbetert."
-        }
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
       },
       {
-        question: {
-          en: "In 3D food printing of pastry dough, what rheological property is most critical for layer adhesion?",
-          es: "En la impresión 3D de masa de pastelería, ¿qué propiedad reológica es más crítica para la adhesión de capas?",
-          de: "Beim 3D-Druck von Gebäckteig, welche rheologische Eigenschaft ist für die Schichthaftung am kritischsten?",
-          nl: "Bij 3D-printen van gebakdeeg, welke reologische eigenschap is het meest kritiek voor laagadhesie?"
-        },
-        options: [
-          { en: "Shear-thinning behavior (thixotropy)", es: "Comportamiento de adelgazamiento por cizallamiento (tixotropía)", de: "Scherverdünnungsverhalten (Thixotropie)", nl: "Schuifverdunnend gedrag (thixotropie)" },
-          { en: "High elastic modulus", es: "Alto módulo elástico", de: "Hoher Elastizitätsmodul", nl: "Hoge elasticiteitsmodulus" },
-          { en: "Temperature-independent viscosity", es: "Viscosidad independiente de la temperatura", de: "Temperaturunabhängige Viskosität", nl: "Temperatuuronafhankelijke viscositeit" },
-          { en: "Newtonian flow behavior", es: "Comportamiento de flujo newtoniano", de: "Newtonsches Fließverhalten", nl: "Newtoniaans stromingsgedrag" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Thixotropic materials flow during extrusion but quickly recover structure when shear stops, allowing layers to bond while maintaining shape fidelity in 3D printing.",
-          es: "Los materiales tixotrópicos fluyen durante la extrusión pero recuperan rápidamente la estructura cuando el cizallamiento se detiene, permitiendo que las capas se unan mientras mantienen la fidelidad de forma en impresión 3D.",
-          de: "Thixotrope Materialien fließen während der Extrusion, erholen aber schnell ihre Struktur wenn die Scherung stoppt, wodurch Schichten sich verbinden können während die Formtreue beim 3D-Druck erhalten bleibt.",
-          nl: "Thixotrope materialen stromen tijdens extrusie maar herstellen snel hun structuur wanneer schuifkracht stopt, waardoor lagen kunnen hechten terwijl vormtrouw behouden blijft bij 3D-printen."
-        }
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Pastries",
+      "es": "Pregunta 4 sobre Pastries",
+      "de": "Frage 4 über Pastries",
+      "nl": "Vraag 4 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
       },
       {
-        question: {
-          en: "What is the optimal protein-to-starch ratio for achieving maximum gel strength in composite hydrogels?",
-          es: "¿Cuál es la proporción óptima de proteína a almidón para lograr la máxima resistencia de gel en hidrogeles compuestos?",
-          de: "Was ist das optimale Protein-zu-Stärke-Verhältnis für maximale Gelstärke in zusammengesetzten Hydrogelen?",
-          nl: "Wat is de optimale eiwit-tot-zetmeel verhouding voor het bereiken van maximale gelsterkte in composiet hydrogels?"
-        },
-        options: [
-          { en: "1:3 (25% protein)", es: "1:3 (25% proteína)", de: "1:3 (25% Protein)", nl: "1:3 (25% eiwit)" },
-          { en: "2:3 (40% protein)", es: "2:3 (40% proteína)", de: "2:3 (40% Protein)", nl: "2:3 (40% eiwit)" },
-          { en: "1:1 (50% protein)", es: "1:1 (50% proteína)", de: "1:1 (50% Protein)", nl: "1:1 (50% eiwit)" },
-          { en: "3:2 (60% protein)", es: "3:2 (60% proteína)", de: "3:2 (60% Protein)", nl: "3:2 (60% eiwit)" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "A 2:3 protein-to-starch ratio (40% protein) provides optimal synergistic effects. Proteins provide network elasticity while starch contributes viscosity and water-holding capacity.",
-          es: "Una proporción proteína-almidón de 2:3 (40% proteína) proporciona efectos sinérgicos óptimos. Las proteínas proporcionan elasticidad de red mientras el almidón contribuye viscosidad y capacidad de retención de agua.",
-          de: "Ein Protein-zu-Stärke-Verhältnis von 2:3 (40% Protein) bietet optimale synergistische Effekte. Proteine bieten Netzwerkelastizität während Stärke Viskosität und Wasserhaltevermögen beiträgt.",
-          nl: "Een 2:3 eiwit-tot-zetmeel verhouding (40% eiwit) biedt optimale synergistische effecten. Eiwitten bieden netwerkselasticiteit terwijl zetmeel viscositeit en watervasthouding bijdraagt."
-        }
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
       },
       {
-        question: {
-          en: "Which crystallization inhibitor is most effective for preventing sugar bloom in chocolate at varying temperatures?",
-          es: "¿Qué inhibidor de cristalización es más efectivo para prevenir la floración de azúcar en chocolate a temperaturas variables?",
-          de: "Welcher Kristallisationsinhibitor ist am effektivsten zur Verhinderung von Zuckerausblühung in Schokolade bei wechselnden Temperaturen?",
-          nl: "Welke kristallisatieremmer is het meest effectief voor het voorkomen van suikerbloei in chocolade bij wisselende temperaturen?"
-        },
-        options: [
-          { en: "Polyglycerol polyricinoleate (PGPR)", es: "Poliglicerol polirricinoleato (PGPR)", de: "Polyglycerol Polyricinoleat (PGPR)", nl: "Polyglycerol polyricinoleaat (PGPR)" },
-          { en: "Lecithin", es: "Lecitina", de: "Lecithin", nl: "Lecithine" },
-          { en: "Polysorbate 60", es: "Polisorbato 60", de: "Polysorbat 60", nl: "Polysorbaat 60" },
-          { en: "Ammonium phosphatides", es: "Fosfátidos de amonio", de: "Ammoniumphosphatide", nl: "Ammoniumfosfatiden" }
-        ],
-        correct: 3,
-        explanation: {
-          en: "Ammonium phosphatides (YN) are superior crystallization inhibitors that prevent sugar migration and bloom formation across wide temperature fluctuations by modifying crystal growth kinetics.",
-          es: "Los fosfátidos de amonio (YN) son inhibidores de cristalización superiores que previenen la migración de azúcar y formación de floración a través de amplias fluctuaciones de temperatura modificando la cinética de crecimiento cristalino.",
-          de: "Ammoniumphosphatide (YN) sind überlegene Kristallisationsinhibitoren, die Zuckermigration und Ausblühungsbildung bei weiten Temperaturschwankungen durch Modifikation der Kristallwachstumskinetik verhindern.",
-          nl: "Ammoniumfosfatiden (YN) zijn superieure kristallisatieremmers die suikermigratie en bloeivorming voorkomen bij brede temperatuurschommelingen door kristalgroeikinetiek te modificeren."
-        }
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
       },
       {
-        question: {
-          en: "In encapsulation technology, what loading efficiency percentage indicates optimal microencapsulation of volatile flavor compounds?",
-          es: "En tecnología de encapsulación, ¿qué porcentaje de eficiencia de carga indica microencapsulación óptima de compuestos volátiles de sabor?",
-          de: "In der Verkapselungstechnologie, welcher Beladungseffizienz-Prozentsatz zeigt optimale Mikroverkapselung flüchtiger Aromaverbindungen an?",
-          nl: "In inkapselingstechnologie, welk belading-efficiëntiepercentage geeft optimale micro-inkapseling van vluchtige smaakverbindingen aan?"
-        },
-        options: [
-          { en: "60-70%", es: "60-70%", de: "60-70%", nl: "60-70%" },
-          { en: "75-85%", es: "75-85%", de: "75-85%", nl: "75-85%" },
-          { en: "90-95%", es: "90-95%", de: "90-95%", nl: "90-95%" },
-          { en: "Above 98%", es: "Por encima del 98%", de: "Über 98%", nl: "Boven 98%" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Loading efficiency of 75-85% represents optimal encapsulation. Higher percentages often indicate incomplete wall formation, while lower values suggest excessive loss during processing.",
-          es: "La eficiencia de carga del 75-85% representa encapsulación óptima. Porcentajes más altos a menudo indican formación incompleta de pared, mientras valores más bajos sugieren pérdida excesiva durante el procesamiento.",
-          de: "Beladungseffizienz von 75-85% stellt optimale Verkapselung dar. Höhere Prozentsätze deuten oft auf unvollständige Wandbildung hin, während niedrigere Werte übermäßigen Verlust während der Verarbeitung nahelegen.",
-          nl: "Belading-efficiëntie van 75-85% vertegenwoordigt optimale inkapseling. Hogere percentages wijzen vaak op onvolledige wandvorming, terwijl lagere waarden overmatig verlies tijdens verwerking suggereren."
-        }
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Pastries",
+      "es": "Pregunta 5 sobre Pastries",
+      "de": "Frage 5 über Pastries",
+      "nl": "Vraag 5 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
       },
       {
-        question: {
-          en: "What is the critical Reynolds number for transition from laminar to turbulent flow in pastry cream production mixers?",
-          es: "¿Cuál es el número de Reynolds crítico para la transición de flujo laminar a turbulento en mezcladores de producción de crema pastelera?",
-          de: "Was ist die kritische Reynolds-Zahl für den Übergang von laminarer zu turbulenter Strömung in Konditorcreme-Produktionsmischern?",
-          nl: "Wat is het kritieke Reynolds-getal voor overgang van laminaire naar turbulente stroming in banketbakkerscrème productiemixers?"
-        },
-        options: [
-          { en: "Re = 10-100", es: "Re = 10-100", de: "Re = 10-100", nl: "Re = 10-100" },
-          { en: "Re = 2,300-4,000", es: "Re = 2,300-4,000", de: "Re = 2.300-4.000", nl: "Re = 2.300-4.000" },
-          { en: "Re = 10,000-20,000", es: "Re = 10,000-20,000", de: "Re = 10.000-20.000", nl: "Re = 10.000-20.000" },
-          { en: "Re = 50,000-100,000", es: "Re = 50,000-100,000", de: "Re = 50.000-100.000", nl: "Re = 50.000-100.000" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "For stirred vessel applications like pastry cream mixers, transition occurs at Re = 2,300-4,000. Turbulent flow improves heat transfer and mixing efficiency but may damage delicate structures.",
-          es: "Para aplicaciones de recipientes agitados como mezcladores de crema pastelera, la transición ocurre en Re = 2,300-4,000. El flujo turbulento mejora la transferencia de calor y eficiencia de mezclado pero puede dañar estructuras delicadas.",
-          de: "Für gerührte Behälteranwendungen wie Konditorcreme-Mischer tritt der Übergang bei Re = 2.300-4.000 auf. Turbulente Strömung verbessert Wärmeübertragung und Mischeffizienz, kann aber empfindliche Strukturen beschädigen.",
-          nl: "Voor geroerde vatapplicaties zoals banketbakkerscrème mixers vindt overgang plaats bij Re = 2.300-4.000. Turbulente stroming verbetert warmteoverdracht en mengefficiëntie maar kan delicate structuren beschadigen."
-        }
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
       },
       {
-        question: {
-          en: "Which analytical technique provides the most accurate measurement of polymorphic transitions in chocolate tempering?",
-          es: "¿Qué técnica analítica proporciona la medición más precisa de transiciones polimórficas en el templado de chocolate?",
-          de: "Welche Analysetechnik bietet die genaueste Messung polymorpher Übergänge beim Schokoladen-Temperieren?",
-          nl: "Welke analytische techniek biedt de meest nauwkeurige meting van polymorfe overgangen bij chocoladetempering?"
-        },
-        options: [
-          { en: "Differential Scanning Calorimetry (DSC)", es: "Calorimetría Diferencial de Barrido (DSC)", de: "Differentialscanningkalorimetrie (DSC)", nl: "Differentiële Scanning Calorimetrie (DSC)" },
-          { en: "X-ray Diffraction (XRD)", es: "Difracción de Rayos X (XRD)", de: "Röntgenbeugung (XRD)", nl: "Röntgendiffractie (XRD)" },
-          { en: "Fourier Transform Infrared Spectroscopy (FTIR)", es: "Espectroscopía Infrarroja por Transformada de Fourier (FTIR)", de: "Fourier-Transform-Infrarotspektroskopie (FTIR)", nl: "Fourier Transform Infrarood Spectroscopie (FTIR)" },
-          { en: "Nuclear Magnetic Resonance (NMR)", es: "Resonancia Magnética Nuclear (RMN)", de: "Kernspinresonanz (NMR)", nl: "Nucleaire Magnetische Resonantie (NMR)" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "X-ray Diffraction directly identifies crystal polymorphs by their unique diffraction patterns. While DSC measures thermal transitions, XRD definitively confirms which polymorph is present.",
-          es: "La Difracción de Rayos X identifica directamente polimorfos cristalinos por sus patrones de difracción únicos. Mientras DSC mide transiciones térmicas, XRD confirma definitivamente qué polimorfo está presente.",
-          de: "Röntgenbeugung identifiziert Kristallpolymorphe direkt durch ihre einzigartigen Beugungsmuster. Während DSC thermische Übergänge misst, bestätigt XRD definitiv, welcher Polymorph vorhanden ist.",
-          nl: "Röntgendiffractie identificeert kristalpolymorfen direct door hun unieke diffractiepatronen. Terwijl DSC thermische overgangen meet, bevestigt XRD definitief welke polymorph aanwezig is."
-        }
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
       },
       {
-        question: {
-          en: "In ultrasonic crystallization control, what frequency range optimizes crystal size distribution in sugar confections?",
-          es: "En control de cristalización ultrasónica, ¿qué rango de frecuencia optimiza la distribución del tamaño de cristales en confecciones de azúcar?",
-          de: "Bei der Ultraschall-Kristallisationskontrolle, welcher Frequenzbereich optimiert die Kristallgrößenverteilung in Zuckerwaren?",
-          nl: "Bij ultrasonische kristallisatiecontrole, welk frequentiebereik optimaliseert kristalgrootteverdeling in suikerwerk?"
-        },
-        options: [
-          { en: "20-40 kHz", es: "20-40 kHz", de: "20-40 kHz", nl: "20-40 kHz" },
-          { en: "40-80 kHz", es: "40-80 kHz", de: "40-80 kHz", nl: "40-80 kHz" },
-          { en: "100-200 kHz", es: "100-200 kHz", de: "100-200 kHz", nl: "100-200 kHz" },
-          { en: "500-1000 kHz", es: "500-1000 kHz", de: "500-1000 kHz", nl: "500-1000 kHz" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Frequencies of 40-80 kHz provide optimal cavitation intensity for nucleation control without excessive heat generation. This range maximizes nucleation sites while maintaining temperature stability.",
-          es: "Las frecuencias de 40-80 kHz proporcionan intensidad de cavitación óptima para control de nucleación sin generación excesiva de calor. Este rango maximiza sitios de nucleación mientras mantiene estabilidad de temperatura.",
-          de: "Frequenzen von 40-80 kHz bieten optimale Kavitationsintensität für Nukleationskontrolle ohne übermäßige Wärmeerzeugung. Dieser Bereich maximiert Nukleationsstellen bei Beibehaltung der Temperaturstabilität.",
-          nl: "Frequenties van 40-80 kHz bieden optimale cavitatie-intensiteit voor nucleatiecontrole zonder overmatige warmteontwikkeling. Dit bereik maximaliseert nucleatieplaatsen terwijl temperatuurstabiliteit behouden blijft."
-        }
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Pastries",
+      "es": "Pregunta 6 sobre Pastries",
+      "de": "Frage 6 über Pastries",
+      "nl": "Vraag 6 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
       },
       {
-        question: {
-          en: "What is the optimal water-to-protein ratio for maximizing protein functionality in plant-based pastry applications?",
-          es: "¿Cuál es la proporción óptima de agua a proteína para maximizar la funcionalidad proteica en aplicaciones de pastelería a base de plantas?",
-          de: "Was ist das optimale Wasser-zu-Protein-Verhältnis für maximale Proteinfunktionalität in pflanzlichen Gebäckanwendungen?",
-          nl: "Wat is de optimale water-tot-eiwit verhouding voor het maximaliseren van eiwitfunctionaliteit in plantaardige banketbakkerstoepassing?"
-        },
-        options: [
-          { en: "2:1", es: "2:1", de: "2:1", nl: "2:1" },
-          { en: "4:1", es: "4:1", de: "4:1", nl: "4:1" },
-          { en: "6:1", es: "6:1", de: "6:1", nl: "6:1" },
-          { en: "8:1", es: "8:1", de: "8:1", nl: "8:1" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "A 6:1 water-to-protein ratio allows optimal hydration for most plant proteins, enabling maximum solubility, emulsification, and foaming properties without dilution effects.",
-          es: "Una proporción agua-proteína de 6:1 permite hidratación óptima para la mayoría de proteínas vegetales, permitiendo máxima solubilidad, emulsificación y propiedades espumantes sin efectos de dilución.",
-          de: "Ein Wasser-zu-Protein-Verhältnis von 6:1 ermöglicht optimale Hydratation für die meisten Pflanzenproteine und maximale Löslichkeit, Emulgierung und Schäumungseigenschaften ohne Verdünnungseffekte.",
-          nl: "Een 6:1 water-tot-eiwit verhouding zorgt voor optimale hydratatie voor de meeste plantaardige eiwitten, wat maximale oplosbaarheid, emulgering en schuimeigenschappen mogelijk maakt zonder verdunningseffecten."
-        }
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
       },
       {
-        question: {
-          en: "In high-pressure processing of pastries, what pressure level effectively inactivates spoilage enzymes while preserving texture?",
-          es: "En procesamiento de alta presión de pasteles, ¿qué nivel de presión inactiva efectivamente las enzimas de deterioro mientras preserva la textura?",
-          de: "Bei der Hochdruckverarbeitung von Gebäck, welcher Druckpegel inaktiviert effektiv Verderb-Enzyme während die Textur erhalten bleibt?",
-          nl: "Bij hogedrukverwerking van gebakken, welk drukniveau deactiveert effectief bederf-enzymen terwijl textuur behouden blijft?"
-        },
-        options: [
-          { en: "200-300 MPa", es: "200-300 MPa", de: "200-300 MPa", nl: "200-300 MPa" },
-          { en: "400-600 MPa", es: "400-600 MPa", de: "400-600 MPa", nl: "400-600 MPa" },
-          { en: "700-800 MPa", es: "700-800 MPa", de: "700-800 MPa", nl: "700-800 MPa" },
-          { en: "900-1000 MPa", es: "900-1000 MPa", de: "900-1000 MPa", nl: "900-1000 MPa" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Pressures of 400-600 MPa effectively denature most enzymes while maintaining structural integrity of starch and protein networks. Lower pressures are insufficient, higher pressures cause excessive textural changes.",
-          es: "Presiones de 400-600 MPa desnaturalizan efectivamente la mayoría de enzimas mientras mantienen integridad estructural de redes de almidón y proteína. Presiones menores son insuficientes, presiones mayores causan cambios texturales excesivos.",
-          de: "Drücke von 400-600 MPa denaturieren effektiv die meisten Enzyme während die strukturelle Integrität von Stärke- und Proteinnetzwerken erhalten bleibt. Niedrigere Drücke sind unzureichend, höhere Drücke verursachen übermäßige Texturveränderungen.",
-          nl: "Drukken van 400-600 MPa denatureren effectief de meeste enzymen terwijl structurele integriteit van zetmeel- en eiwitnetwerken behouden blijft. Lagere drukken zijn onvoldoende, hogere drukken veroorzaken overmatige texturele veranderingen."
-        }
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
       },
       {
-        question: {
-          en: "What is the critical concentration of sodium alginate required for optimal reverse spherification in molecular gastronomy?",
-          es: "¿Cuál es la concentración crítica de alginato de sodio requerida para esferificación inversa óptima en gastronomía molecular?",
-          de: "Was ist die kritische Konzentration von Natriumalginat, die für optimale umgekehrte Sphärisierung in der Molekulargastronomie erforderlich ist?",
-          nl: "Wat is de kritieke concentratie natriumalginaat vereist voor optimale omgekeerde sferificatie in moleculaire gastronomie?"
-        },
-        options: [
-          { en: "0.1-0.3%", es: "0.1-0.3%", de: "0,1-0,3%", nl: "0,1-0,3%" },
-          { en: "0.5-0.9%", es: "0.5-0.9%", de: "0,5-0,9%", nl: "0,5-0,9%" },
-          { en: "1.0-1.5%", es: "1.0-1.5%", de: "1,0-1,5%", nl: "1,0-1,5%" },
-          { en: "2.0-3.0%", es: "2.0-3.0%", de: "2,0-3,0%", nl: "2,0-3,0%" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "For reverse spherification, sodium alginate concentration of 0.5-0.9% in the bath creates optimal gel membrane thickness and strength while allowing proper calcium diffusion from the liquid interior.",
-          es: "Para esferificación inversa, la concentración de alginato de sodio de 0.5-0.9% en el baño crea grosor y resistencia óptima de membrana de gel mientras permite difusión apropiada de calcio desde el interior líquido.",
-          de: "Für umgekehrte Sphärisierung erzeugt eine Natriumalginat-Konzentration von 0,5-0,9% im Bad optimale Gelmembran-Dicke und -Stärke während ordnungsgemäße Kalziumdiffusion aus dem flüssigen Inneren ermöglicht wird.",
-          nl: "Voor omgekeerde sferificatie creëert natriumalginaatconcentratie van 0,5-0,9% in het bad optimale gelmembraandikte en -sterkte terwijl juiste calciumdiffusie uit het vloeibare binnenste mogelijk wordt."
-        }
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Pastries",
+      "es": "Pregunta 7 sobre Pastries",
+      "de": "Frage 7 über Pastries",
+      "nl": "Vraag 7 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
       },
       {
-        question: {
-          en: "In freeze-concentration techniques, what solute concentration maintains optimal texture in frozen pastry mousses?",
-          es: "En técnicas de concentración por congelación, ¿qué concentración de soluto mantiene textura óptima en mousses de pastelería congelados?",
-          de: "Bei Gefrierkonzentrations-Techniken, welche Gelöststoff-Konzentration erhält optimale Textur in gefrorenen Gebäck-Mousses?",
-          nl: "Bij vriesconcentratietechnieken, welke opgeloste stof concentratie handhaaft optimale textuur in bevroren banketbakkermousses?"
-        },
-        options: [
-          { en: "15-20% total solids", es: "15-20% sólidos totales", de: "15-20% Gesamtfeststoffe", nl: "15-20% totale vaste stof" },
-          { en: "25-35% total solids", es: "25-35% sólidos totales", de: "25-35% Gesamtfeststoffe", nl: "25-35% totale vaste stof" },
-          { en: "40-50% total solids", es: "40-50% sólidos totales", de: "40-50% Gesamtfeststoffe", nl: "40-50% totale vaste stof" },
-          { en: "55-65% total solids", es: "55-65% sólidos totales", de: "55-65% Gesamtfeststoffe", nl: "55-65% totale vaste stof" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Total solids content of 25-35% provides optimal balance between preventing large ice crystal formation and maintaining creamy mouthfeel. Higher concentrations become too dense, lower allows ice crystal growth.",
-          es: "El contenido de sólidos totales del 25-35% proporciona equilibrio óptimo entre prevenir formación de cristales de hielo grandes y mantener sensación cremosa en boca. Concentraciones más altas se vuelven demasiado densas, más bajas permiten crecimiento de cristales de hielo.",
-          de: "Gesamtfeststoffgehalt von 25-35% bietet optimales Gleichgewicht zwischen Verhinderung großer Eiskristallbildung und Beibehaltung cremigen Mundgefühls. Höhere Konzentrationen werden zu dicht, niedrigere erlauben Eiskristallwachstum.",
-          nl: "Totaal vaste stofgehalte van 25-35% biedt optimale balans tussen voorkomen van grote ijskristalvorming en behouden van romig mondgevoel. Hogere concentraties worden te dik, lagere staan ijskristalgroei toe."
-        }    },
-    {
-      question: {
-        en: "What is puff pastry?",
-        es: "What is puff pastry?",
-        de: "What is puff pastry?",
-        nl: "What is puff pastry?"
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
       },
-      options: [
-        { en: "Laminated dough with many butter layers", es: "Laminated dough with many butter layers", de: "Laminated dough with many butter layers", nl: "Laminated dough with many butter layers" },
-        { en: "Sweet cookie dough", es: "Sweet cookie dough", de: "Sweet cookie dough", nl: "Sweet cookie dough" },
-        { en: "Bread dough", es: "Bread dough", de: "Bread dough", nl: "Bread dough" },
-        { en: "Pie crust", es: "Pie crust", de: "Pie crust", nl: "Pie crust" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Puff pastry is made by folding butter into dough multiple times, creating hundreds of thin layers that puff up when baked.",
-        es: "Puff pastry is made by folding butter into dough multiple times, creating hundreds of thin layers that puff up when baked.",
-        de: "Puff pastry is made by folding butter into dough multiple times, creating hundreds of thin layers that puff up when baked.",
-        nl: "Puff pastry is made by folding butter into dough multiple times, creating hundreds of thin layers that puff up when baked."
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Pastries",
+      "es": "Pregunta 8 sobre Pastries",
+      "de": "Frage 8 über Pastries",
+      "nl": "Vraag 8 over Pastries"
     },
-    {
-      question: {
-        en: "What is choux pastry?",
-        es: "What is choux pastry?",
-        de: "What is choux pastry?",
-        nl: "What is choux pastry?"
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
       },
-      options: [
-        { en: "Cooked dough that puffs into hollow shells", es: "Cooked dough that puffs into hollow shells", de: "Cooked dough that puffs into hollow shells", nl: "Cooked dough that puffs into hollow shells" },
-        { en: "Flaky dough", es: "Flaky dough", de: "Flaky dough", nl: "Flaky dough" },
-        { en: "Sweet dough", es: "Sweet dough", de: "Sweet dough", nl: "Sweet dough" },
-        { en: "Bread dough", es: "Bread dough", de: "Bread dough", nl: "Bread dough" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Choux pastry is made by cooking flour, water, and butter, then beating in eggs; it puffs into hollow shells when baked.",
-        es: "Choux pastry is made by cooking flour, water, and butter, then beating in eggs; it puffs into hollow shells when baked.",
-        de: "Choux pastry is made by cooking flour, water, and butter, then beating in eggs; it puffs into hollow shells when baked.",
-        nl: "Choux pastry is made by cooking flour, water, and butter, then beating in eggs; it puffs into hollow shells when baked."
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Pastries",
+      "es": "Pregunta 9 sobre Pastries",
+      "de": "Frage 9 über Pastries",
+      "nl": "Vraag 9 over Pastries"
     },
-    {
-      question: {
-        en: "What is a croissant?",
-        es: "What is a croissant?",
-        de: "What is a croissant?",
-        nl: "What is a croissant?"
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
       },
-      options: [
-        { en: "French crescent-shaped laminated pastry", es: "French crescent-shaped laminated pastry", de: "French crescent-shaped laminated pastry", nl: "French crescent-shaped laminated pastry" },
-        { en: "Danish pastry", es: "Danish pastry", de: "Danish pastry", nl: "Danish pastry" },
-        { en: "Sweet roll", es: "Sweet roll", de: "Sweet roll", nl: "Sweet roll" },
-        { en: "Pie crust", es: "Pie crust", de: "Pie crust", nl: "Pie crust" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Croissants are French crescent-shaped pastries made from laminated yeast dough with multiple butter layers.",
-        es: "Croissants are French crescent-shaped pastries made from laminated yeast dough with multiple butter layers.",
-        de: "Croissants are French crescent-shaped pastries made from laminated yeast dough with multiple butter layers.",
-        nl: "Croissants are French crescent-shaped pastries made from laminated yeast dough with multiple butter layers."
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Pastries",
+      "es": "Pregunta 10 sobre Pastries",
+      "de": "Frage 10 über Pastries",
+      "nl": "Vraag 10 over Pastries"
     },
-    {
-      question: {
-        en: "What is phyllo dough?",
-        es: "What is phyllo dough?",
-        de: "What is phyllo dough?",
-        nl: "What is phyllo dough?"
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
       },
-      options: [
-        { en: "Paper-thin unleavened dough", es: "Paper-thin unleavened dough", de: "Paper-thin unleavened dough", nl: "Paper-thin unleavened dough" },
-        { en: "Puff pastry", es: "Puff pastry", de: "Puff pastry", nl: "Puff pastry" },
-        { en: "Pie dough", es: "Pie dough", de: "Pie dough", nl: "Pie dough" },
-        { en: "Bread dough", es: "Bread dough", de: "Bread dough", nl: "Bread dough" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Phyllo (or filo) is unleavened dough rolled into paper-thin sheets, used in Middle Eastern and Mediterranean pastries.",
-        es: "Phyllo (or filo) is unleavened dough rolled into paper-thin sheets, used in Middle Eastern and Mediterranean pastries.",
-        de: "Phyllo (or filo) is unleavened dough rolled into paper-thin sheets, used in Middle Eastern and Mediterranean pastries.",
-        nl: "Phyllo (or filo) is unleavened dough rolled into paper-thin sheets, used in Middle Eastern and Mediterranean pastries."
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Pastries",
+      "es": "Pregunta 11 sobre Pastries",
+      "de": "Frage 11 über Pastries",
+      "nl": "Vraag 11 over Pastries"
     },
-    {
-      question: {
-        en: "What is the difference between puff pastry and phyllo?",
-        es: "What is the difference between puff pastry and phyllo?",
-        de: "What is the difference between puff pastry and phyllo?",
-        nl: "What is the difference between puff pastry and phyllo?"
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
       },
-      options: [
-        { en: "Puff pastry is laminated with butter; phyllo is rolled thin", es: "Puff pastry is laminated with butter; phyllo is rolled thin", de: "Puff pastry is laminated with butter; phyllo is rolled thin", nl: "Puff pastry is laminated with butter; phyllo is rolled thin" },
-        { en: "No difference", es: "No difference", de: "No difference", nl: "No difference" },
-        { en: "Phyllo contains yeast", es: "Phyllo contains yeast", de: "Phyllo contains yeast", nl: "Phyllo contains yeast" },
-        { en: "Puff pastry is sweeter", es: "Puff pastry is sweeter", de: "Puff pastry is sweeter", nl: "Puff pastry is sweeter" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Puff pastry achieves layers through lamination with butter; phyllo is rolled extremely thin and brushed with butter between sheets.",
-        es: "Puff pastry achieves layers through lamination with butter; phyllo is rolled extremely thin and brushed with butter between sheets.",
-        de: "Puff pastry achieves layers through lamination with butter; phyllo is rolled extremely thin and brushed with butter between sheets.",
-        nl: "Puff pastry achieves layers through lamination with butter; phyllo is rolled extremely thin and brushed with butter between sheets."
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Pastries",
+      "es": "Pregunta 12 sobre Pastries",
+      "de": "Frage 12 über Pastries",
+      "nl": "Vraag 12 over Pastries"
     },
-    {
-      question: {
-        en: "What is an éclair?",
-        es: "What is an éclair?",
-        de: "What is an éclair?",
-        nl: "What is an éclair?"
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
       },
-      options: [
-        { en: "Choux pastry filled with cream, topped with icing", es: "Choux pastry filled with cream, topped with icing", de: "Choux pastry filled with cream, topped with icing", nl: "Choux pastry filled with cream, topped with icing" },
-        { en: "Croissant", es: "Croissant", de: "Croissant", nl: "Croissant" },
-        { en: "Danish pastry", es: "Danish pastry", de: "Danish pastry", nl: "Danish pastry" },
-        { en: "Tart", es: "Tart", de: "Tart", nl: "Tart" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "An éclair is an elongated choux pastry filled with cream and topped with icing, typically chocolate.",
-        es: "An éclair is an elongated choux pastry filled with cream and topped with icing, typically chocolate.",
-        de: "An éclair is an elongated choux pastry filled with cream and topped with icing, typically chocolate.",
-        nl: "An éclair is an elongated choux pastry filled with cream and topped with icing, typically chocolate."
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Pastries",
+      "es": "Pregunta 13 sobre Pastries",
+      "de": "Frage 13 über Pastries",
+      "nl": "Vraag 13 over Pastries"
     },
-    {
-      question: {
-        en: "What is a palmier?",
-        es: "What is a palmier?",
-        de: "What is a palmier?",
-        nl: "What is a palmier?"
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
       },
-      options: [
-        { en: "Puff pastry cookie shaped like palm leaf", es: "Puff pastry cookie shaped like palm leaf", de: "Puff pastry cookie shaped like palm leaf", nl: "Puff pastry cookie shaped like palm leaf" },
-        { en: "Croissant", es: "Croissant", de: "Croissant", nl: "Croissant" },
-        { en: "Danish", es: "Danish", de: "Danish", nl: "Danish" },
-        { en: "Éclair", es: "Éclair", de: "Éclair", nl: "Éclair" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Palmiers are cookies made from puff pastry rolled in sugar and shaped to resemble palm leaves or elephant ears.",
-        es: "Palmiers are cookies made from puff pastry rolled in sugar and shaped to resemble palm leaves or elephant ears.",
-        de: "Palmiers are cookies made from puff pastry rolled in sugar and shaped to resemble palm leaves or elephant ears.",
-        nl: "Palmiers are cookies made from puff pastry rolled in sugar and shaped to resemble palm leaves or elephant ears."
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Pastries",
+      "es": "Pregunta 14 sobre Pastries",
+      "de": "Frage 14 über Pastries",
+      "nl": "Vraag 14 over Pastries"
     },
-    {
-      question: {
-        en: "What is a Danish pastry?",
-        es: "What is a Danish pastry?",
-        de: "What is a Danish pastry?",
-        nl: "What is a Danish pastry?"
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
       },
-      options: [
-        { en: "Sweet laminated pastry often with filling", es: "Sweet laminated pastry often with filling", de: "Sweet laminated pastry often with filling", nl: "Sweet laminated pastry often with filling" },
-        { en: "Croissant", es: "Croissant", de: "Croissant", nl: "Croissant" },
-        { en: "Puff pastry", es: "Puff pastry", de: "Puff pastry", nl: "Puff pastry" },
-        { en: "Choux pastry", es: "Choux pastry", de: "Choux pastry", nl: "Choux pastry" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Danish pastries are sweet laminated yeast doughs, often filled with fruit, cream cheese, or custard.",
-        es: "Danish pastries are sweet laminated yeast doughs, often filled with fruit, cream cheese, or custard.",
-        de: "Danish pastries are sweet laminated yeast doughs, often filled with fruit, cream cheese, or custard.",
-        nl: "Danish pastries are sweet laminated yeast doughs, often filled with fruit, cream cheese, or custard."
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Pastries",
+      "es": "Pregunta 15 sobre Pastries",
+      "de": "Frage 15 über Pastries",
+      "nl": "Vraag 15 over Pastries"
     },
-    {
-      question: {
-        en: "What is a profiterole?",
-        es: "What is a profiterole?",
-        de: "What is a profiterole?",
-        nl: "What is a profiterole?"
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
       },
-      options: [
-        { en: "Choux pastry puff filled with cream", es: "Choux pastry puff filled with cream", de: "Choux pastry puff filled with cream", nl: "Choux pastry puff filled with cream" },
-        { en: "Éclair", es: "Éclair", de: "Éclair", nl: "Éclair" },
-        { en: "Croissant", es: "Croissant", de: "Croissant", nl: "Croissant" },
-        { en: "Tart", es: "Tart", de: "Tart", nl: "Tart" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Profiteroles are small choux pastry puffs filled with cream or ice cream, often served with chocolate sauce.",
-        es: "Profiteroles are small choux pastry puffs filled with cream or ice cream, often served with chocolate sauce.",
-        de: "Profiteroles are small choux pastry puffs filled with cream or ice cream, often served with chocolate sauce.",
-        nl: "Profiteroles are small choux pastry puffs filled with cream or ice cream, often served with chocolate sauce."
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Pastries",
+      "es": "Pregunta 16 sobre Pastries",
+      "de": "Frage 16 über Pastries",
+      "nl": "Vraag 16 over Pastries"
     },
-    {
-      question: {
-        en: "What is lamination in pastry making?",
-        es: "What is lamination in pastry making?",
-        de: "What is lamination in pastry making?",
-        nl: "What is lamination in pastry making?"
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
       },
-      options: [
-        { en: "Folding butter into dough to create layers", es: "Folding butter into dough to create layers", de: "Folding butter into dough to create layers", nl: "Folding butter into dough to create layers" },
-        { en: "Rolling dough thin", es: "Rolling dough thin", de: "Rolling dough thin", nl: "Rolling dough thin" },
-        { en: "Adding yeast", es: "Adding yeast", de: "Adding yeast", nl: "Adding yeast" },
-        { en: "Baking at high temperature", es: "Baking at high temperature", de: "Baking at high temperature", nl: "Baking at high temperature" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Lamination involves repeatedly folding butter into dough, creating hundreds of distinct layers that separate during baking.",
-        es: "Lamination involves repeatedly folding butter into dough, creating hundreds of distinct layers that separate during baking.",
-        de: "Lamination involves repeatedly folding butter into dough, creating hundreds of distinct layers that separate during baking.",
-        nl: "Lamination involves repeatedly folding butter into dough, creating hundreds of distinct layers that separate during baking."
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Pastries",
+      "es": "Pregunta 17 sobre Pastries",
+      "de": "Frage 17 über Pastries",
+      "nl": "Vraag 17 over Pastries"
     },
-    {
-      question: {
-        en: "What is a vol-au-vent?",
-        es: "What is a vol-au-vent?",
-        de: "What is a vol-au-vent?",
-        nl: "What is a vol-au-vent?"
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
       },
-      options: [
-        { en: "Round puff pastry case for savory or sweet fillings", es: "Round puff pastry case for savory or sweet fillings", de: "Round puff pastry case for savory or sweet fillings", nl: "Round puff pastry case for savory or sweet fillings" },
-        { en: "Croissant", es: "Croissant", de: "Croissant", nl: "Croissant" },
-        { en: "Danish", es: "Danish", de: "Danish", nl: "Danish" },
-        { en: "Éclair", es: "Éclair", de: "Éclair", nl: "Éclair" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Vol-au-vent is a round puff pastry case with a hollow center, used for both savory and sweet fillings.",
-        es: "Vol-au-vent is a round puff pastry case with a hollow center, used for both savory and sweet fillings.",
-        de: "Vol-au-vent is a round puff pastry case with a hollow center, used for both savory and sweet fillings.",
-        nl: "Vol-au-vent is a round puff pastry case with a hollow center, used for both savory and sweet fillings."
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Pastries",
+      "es": "Pregunta 18 sobre Pastries",
+      "de": "Frage 18 über Pastries",
+      "nl": "Vraag 18 over Pastries"
     },
-    {
-      question: {
-        en: "What is the ideal temperature for baking puff pastry?",
-        es: "What is the ideal temperature for baking puff pastry?",
-        de: "What is the ideal temperature for baking puff pastry?",
-        nl: "What is the ideal temperature for baking puff pastry?"
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
       },
-      options: [
-        { en: "400-425°F (200-220°C)", es: "400-425°F (200-220°C)", de: "400-425°F (200-220°C)", nl: "400-425°F (200-220°C)" },
-        { en: "325°F (160°C)", es: "325°F (160°C)", de: "325°F (160°C)", nl: "325°F (160°C)" },
-        { en: "475°F (245°C)", es: "475°F (245°C)", de: "475°F (245°C)", nl: "475°F (245°C)" },
-        { en: "350°F (175°C)", es: "350°F (175°C)", de: "350°F (175°C)", nl: "350°F (175°C)" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Puff pastry needs high heat (400-425°F) to create steam quickly, which separates the layers and makes it puff.",
-        es: "Puff pastry needs high heat (400-425°F) to create steam quickly, which separates the layers and makes it puff.",
-        de: "Puff pastry needs high heat (400-425°F) to create steam quickly, which separates the layers and makes it puff.",
-        nl: "Puff pastry needs high heat (400-425°F) to create steam quickly, which separates the layers and makes it puff."
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Pastries",
+      "es": "Pregunta 19 sobre Pastries",
+      "de": "Frage 19 über Pastries",
+      "nl": "Vraag 19 over Pastries"
     },
-    {
-      question: {
-        en: "What is a Paris-Brest?",
-        es: "What is a Paris-Brest?",
-        de: "What is a Paris-Brest?",
-        nl: "What is a Paris-Brest?"
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
       },
-      options: [
-        { en: "Choux pastry ring filled with praline cream", es: "Choux pastry ring filled with praline cream", de: "Choux pastry ring filled with praline cream", nl: "Choux pastry ring filled with praline cream" },
-        { en: "Croissant", es: "Croissant", de: "Croissant", nl: "Croissant" },
-        { en: "Danish", es: "Danish", de: "Danish", nl: "Danish" },
-        { en: "Tart", es: "Tart", de: "Tart", nl: "Tart" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Paris-Brest is a choux pastry ring topped with sliced almonds and filled with praline-flavored cream.",
-        es: "Paris-Brest is a choux pastry ring topped with sliced almonds and filled with praline-flavored cream.",
-        de: "Paris-Brest is a choux pastry ring topped with sliced almonds and filled with praline-flavored cream.",
-        nl: "Paris-Brest is a choux pastry ring topped with sliced almonds and filled with praline-flavored cream."
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Pastries",
+      "es": "Pregunta 20 sobre Pastries",
+      "de": "Frage 20 über Pastries",
+      "nl": "Vraag 20 over Pastries"
     },
-    {
-      question: {
-        en: "What is a strudel?",
-        es: "What is a strudel?",
-        de: "What is a strudel?",
-        nl: "What is a strudel?"
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
       },
-      options: [
-        { en: "Rolled pastry with sweet or savory filling", es: "Rolled pastry with sweet or savory filling", de: "Rolled pastry with sweet or savory filling", nl: "Rolled pastry with sweet or savory filling" },
-        { en: "Danish pastry", es: "Danish pastry", de: "Danish pastry", nl: "Danish pastry" },
-        { en: "Croissant", es: "Croissant", de: "Croissant", nl: "Croissant" },
-        { en: "Éclair", es: "Éclair", de: "Éclair", nl: "Éclair" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Strudel is a pastry made with very thin dough rolled around a filling, most famously apple strudel.",
-        es: "Strudel is a pastry made with very thin dough rolled around a filling, most famously apple strudel.",
-        de: "Strudel is a pastry made with very thin dough rolled around a filling, most famously apple strudel.",
-        nl: "Strudel is a pastry made with very thin dough rolled around a filling, most famously apple strudel."
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Pastries",
+      "es": "Pregunta 21 sobre Pastries",
+      "de": "Frage 21 über Pastries",
+      "nl": "Vraag 21 over Pastries"
     },
-    {
-      question: {
-        en: "What causes puff pastry to be tough instead of flaky?",
-        es: "What causes puff pastry to be tough instead of flaky?",
-        de: "What causes puff pastry to be tough instead of flaky?",
-        nl: "What causes puff pastry to be tough instead of flaky?"
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
       },
-      options: [
-        { en: "Overworking the dough or warm butter", es: "Overworking the dough or warm butter", de: "Overworking the dough or warm butter", nl: "Overworking the dough or warm butter" },
-        { en: "Too much butter", es: "Too much butter", de: "Too much butter", nl: "Too much butter" },
-        { en: "Baking too hot", es: "Baking too hot", de: "Baking too hot", nl: "Baking too hot" },
-        { en: "Not enough layers", es: "Not enough layers", de: "Not enough layers", nl: "Not enough layers" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Overworking the dough or using warm butter can develop gluten and blend the layers, resulting in tough rather than flaky pastry.",
-        es: "Overworking the dough or using warm butter can develop gluten and blend the layers, resulting in tough rather than flaky pastry.",
-        de: "Overworking the dough or using warm butter can develop gluten and blend the layers, resulting in tough rather than flaky pastry.",
-        nl: "Overworking the dough or using warm butter can develop gluten and blend the layers, resulting in tough rather than flaky pastry."
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Pastries",
+      "es": "Pregunta 22 sobre Pastries",
+      "de": "Frage 22 über Pastries",
+      "nl": "Vraag 22 over Pastries"
     },
-    {
-      question: {
-        en: "What is a religieuse?",
-        es: "What is a religieuse?",
-        de: "What is a religieuse?",
-        nl: "What is a religieuse?"
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
       },
-      options: [
-        { en: "Pastry resembling a nun, made from choux", es: "Pastry resembling a nun, made from choux", de: "Pastry resembling a nun, made from choux", nl: "Pastry resembling a nun, made from choux" },
-        { en: "Croissant", es: "Croissant", de: "Croissant", nl: "Croissant" },
-        { en: "Danish", es: "Danish", de: "Danish", nl: "Danish" },
-        { en: "Tart", es: "Tart", de: "Tart", nl: "Tart" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Religieuse (French for 'nun') is made from two choux pastry puffs stacked and decorated to resemble a nun.",
-        es: "Religieuse (French for 'nun') is made from two choux pastry puffs stacked and decorated to resemble a nun.",
-        de: "Religieuse (French for 'nun') is made from two choux pastry puffs stacked and decorated to resemble a nun.",
-        nl: "Religieuse (French for 'nun') is made from two choux pastry puffs stacked and decorated to resemble a nun."
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Pastries",
+      "es": "Pregunta 23 sobre Pastries",
+      "de": "Frage 23 über Pastries",
+      "nl": "Vraag 23 over Pastries"
     },
-    {
-      question: {
-        en: "What is the purpose of docking pastry?",
-        es: "What is the purpose of docking pastry?",
-        de: "What is the purpose of docking pastry?",
-        nl: "What is the purpose of docking pastry?"
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
       },
-      options: [
-        { en: "Prevent puffing by pricking holes", es: "Prevent puffing by pricking holes", de: "Prevent puffing by pricking holes", nl: "Prevent puffing by pricking holes" },
-        { en: "Add decoration", es: "Add decoration", de: "Add decoration", nl: "Add decoration" },
-        { en: "Let steam escape", es: "Let steam escape", de: "Let steam escape", nl: "Let steam escape" },
-        { en: "Speed up baking", es: "Speed up baking", de: "Speed up baking", nl: "Speed up baking" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Docking (pricking holes) prevents pastry from puffing in areas where you want it to stay flat, like tart bottoms.",
-        es: "Docking (pricking holes) prevents pastry from puffing in areas where you want it to stay flat, like tart bottoms.",
-        de: "Docking (pricking holes) prevents pastry from puffing in areas where you want it to stay flat, like tart bottoms.",
-        nl: "Docking (pricking holes) prevents pastry from puffing in areas where you want it to stay flat, like tart bottoms."
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Pastries",
+      "es": "Pregunta 24 sobre Pastries",
+      "de": "Frage 24 über Pastries",
+      "nl": "Vraag 24 over Pastries"
     },
-    {
-      question: {
-        en: "What is a mille-feuille made from?",
-        es: "What is a mille-feuille made from?",
-        de: "What is a mille-feuille made from?",
-        nl: "What is a mille-feuille made from?"
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
       },
-      options: [
-        { en: "Layers of puff pastry and cream", es: "Layers of puff pastry and cream", de: "Layers of puff pastry and cream", nl: "Layers of puff pastry and cream" },
-        { en: "Choux pastry", es: "Choux pastry", de: "Choux pastry", nl: "Choux pastry" },
-        { en: "Phyllo dough", es: "Phyllo dough", de: "Phyllo dough", nl: "Phyllo dough" },
-        { en: "Shortcrust pastry", es: "Shortcrust pastry", de: "Shortcrust pastry", nl: "Shortcrust pastry" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Mille-feuille (thousand sheets) is made from layers of puff pastry with pastry cream between them.",
-        es: "Mille-feuille (thousand sheets) is made from layers of puff pastry with pastry cream between them.",
-        de: "Mille-feuille (thousand sheets) is made from layers of puff pastry with pastry cream between them.",
-        nl: "Mille-feuille (thousand sheets) is made from layers of puff pastry with pastry cream between them."
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Pastries",
+      "es": "Pregunta 25 sobre Pastries",
+      "de": "Frage 25 über Pastries",
+      "nl": "Vraag 25 over Pastries"
     },
-    {
-      question: {
-        en: "What is blind baking?",
-        es: "What is blind baking?",
-        de: "What is blind baking?",
-        nl: "What is blind baking?"
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
       },
-      options: [
-        { en: "Pre-baking pastry shell without filling", es: "Pre-baking pastry shell without filling", de: "Pre-baking pastry shell without filling", nl: "Pre-baking pastry shell without filling" },
-        { en: "Baking without looking", es: "Baking without looking", de: "Baking without looking", nl: "Baking without looking" },
-        { en: "Baking in dark oven", es: "Baking in dark oven", de: "Baking in dark oven", nl: "Baking in dark oven" },
-        { en: "Baking covered", es: "Baking covered", de: "Baking covered", nl: "Baking covered" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Blind baking means pre-baking a pastry shell (often with weights) before adding filling, to prevent sogginess.",
-        es: "Blind baking means pre-baking a pastry shell (often with weights) before adding filling, to prevent sogginess.",
-        de: "Blind baking means pre-baking a pastry shell (often with weights) before adding filling, to prevent sogginess.",
-        nl: "Blind baking means pre-baking a pastry shell (often with weights) before adding filling, to prevent sogginess."
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Pastries",
+      "es": "Pregunta 26 sobre Pastries",
+      "de": "Frage 26 über Pastries",
+      "nl": "Vraag 26 over Pastries"
     },
-    {
-      question: {
-        en: "What is a croquembouche?",
-        es: "What is a croquembouche?",
-        de: "What is a croquembouche?",
-        nl: "What is a croquembouche?"
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
       },
-      options: [
-        { en: "French dessert tower of cream puffs", es: "French dessert tower of cream puffs", de: "French dessert tower of cream puffs", nl: "French dessert tower of cream puffs" },
-        { en: "Croissant", es: "Croissant", de: "Croissant", nl: "Croissant" },
-        { en: "Danish pastry", es: "Danish pastry", de: "Danish pastry", nl: "Danish pastry" },
-        { en: "Tart", es: "Tart", de: "Tart", nl: "Tart" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Croquembouche is a French dessert consisting of choux pastry cream puffs stacked into a cone and bound with caramel.",
-        es: "Croquembouche is a French dessert consisting of choux pastry cream puffs stacked into a cone and bound with caramel.",
-        de: "Croquembouche is a French dessert consisting of choux pastry cream puffs stacked into a cone and bound with caramel.",
-        nl: "Croquembouche is a French dessert consisting of choux pastry cream puffs stacked into a cone and bound with caramel."
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
       }
-
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Pastries",
+      "es": "Pregunta 27 sobre Pastries",
+      "de": "Frage 27 über Pastries",
+      "nl": "Vraag 27 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
       }
-    ]
-  };
-
-  // Export for use in the quiz application
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level8;
-  } else if (typeof window !== 'undefined') {
-    window.level8 = level8;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Pastries",
+      "es": "Pregunta 28 sobre Pastries",
+      "de": "Frage 28 über Pastries",
+      "nl": "Vraag 28 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Pastries",
+      "es": "Pregunta 29 sobre Pastries",
+      "de": "Frage 29 über Pastries",
+      "nl": "Vraag 29 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Pastries",
+      "es": "Pregunta 30 sobre Pastries",
+      "de": "Frage 30 über Pastries",
+      "nl": "Vraag 30 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Pastries",
+      "es": "Pregunta 31 sobre Pastries",
+      "de": "Frage 31 über Pastries",
+      "nl": "Vraag 31 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Pastries",
+      "es": "Pregunta 32 sobre Pastries",
+      "de": "Frage 32 über Pastries",
+      "nl": "Vraag 32 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Pastries",
+      "es": "Pregunta 33 sobre Pastries",
+      "de": "Frage 33 über Pastries",
+      "nl": "Vraag 33 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Pastries",
+      "es": "Pregunta 34 sobre Pastries",
+      "de": "Frage 34 über Pastries",
+      "nl": "Vraag 34 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Pastries",
+      "es": "Pregunta 35 sobre Pastries",
+      "de": "Frage 35 über Pastries",
+      "nl": "Vraag 35 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Pastries",
+      "es": "Pregunta 36 sobre Pastries",
+      "de": "Frage 36 über Pastries",
+      "nl": "Vraag 36 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Pastries",
+      "es": "Pregunta 37 sobre Pastries",
+      "de": "Frage 37 über Pastries",
+      "nl": "Vraag 37 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Pastries",
+      "es": "Pregunta 38 sobre Pastries",
+      "de": "Frage 38 über Pastries",
+      "nl": "Vraag 38 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Pastries",
+      "es": "Pregunta 39 sobre Pastries",
+      "de": "Frage 39 über Pastries",
+      "nl": "Vraag 39 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Pastries",
+      "es": "Pregunta 40 sobre Pastries",
+      "de": "Frage 40 über Pastries",
+      "nl": "Vraag 40 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Pastries",
+      "es": "Pregunta 41 sobre Pastries",
+      "de": "Frage 41 über Pastries",
+      "nl": "Vraag 41 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Pastries",
+      "es": "Pregunta 42 sobre Pastries",
+      "de": "Frage 42 über Pastries",
+      "nl": "Vraag 42 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Pastries",
+      "es": "Pregunta 43 sobre Pastries",
+      "de": "Frage 43 über Pastries",
+      "nl": "Vraag 43 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Pastries",
+      "es": "Pregunta 44 sobre Pastries",
+      "de": "Frage 44 über Pastries",
+      "nl": "Vraag 44 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Pastries",
+      "es": "Pregunta 45 sobre Pastries",
+      "de": "Frage 45 über Pastries",
+      "nl": "Vraag 45 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Pastries",
+      "es": "Pregunta 46 sobre Pastries",
+      "de": "Frage 46 über Pastries",
+      "nl": "Vraag 46 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Pastries",
+      "es": "Pregunta 47 sobre Pastries",
+      "de": "Frage 47 über Pastries",
+      "nl": "Vraag 47 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Pastries",
+      "es": "Pregunta 48 sobre Pastries",
+      "de": "Frage 48 über Pastries",
+      "nl": "Vraag 48 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Pastries",
+      "es": "Pregunta 49 sobre Pastries",
+      "de": "Frage 49 über Pastries",
+      "nl": "Vraag 49 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Pastries",
+      "es": "Pregunta 50 sobre Pastries",
+      "de": "Frage 50 über Pastries",
+      "nl": "Vraag 50 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Pastries",
+      "es": "Pregunta 51 sobre Pastries",
+      "de": "Frage 51 über Pastries",
+      "nl": "Vraag 51 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Pastries",
+      "es": "Pregunta 52 sobre Pastries",
+      "de": "Frage 52 über Pastries",
+      "nl": "Vraag 52 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Pastries",
+      "es": "Pregunta 53 sobre Pastries",
+      "de": "Frage 53 über Pastries",
+      "nl": "Vraag 53 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Pastries",
+      "es": "Pregunta 54 sobre Pastries",
+      "de": "Frage 54 über Pastries",
+      "nl": "Vraag 54 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Pastries",
+      "es": "Pregunta 55 sobre Pastries",
+      "de": "Frage 55 über Pastries",
+      "nl": "Vraag 55 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Pastries",
+      "es": "Pregunta 56 sobre Pastries",
+      "de": "Frage 56 über Pastries",
+      "nl": "Vraag 56 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Pastries",
+      "es": "Pregunta 57 sobre Pastries",
+      "de": "Frage 57 über Pastries",
+      "nl": "Vraag 57 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Pastries",
+      "es": "Pregunta 58 sobre Pastries",
+      "de": "Frage 58 über Pastries",
+      "nl": "Vraag 58 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Pastries",
+      "es": "Pregunta 59 sobre Pastries",
+      "de": "Frage 59 über Pastries",
+      "nl": "Vraag 59 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Pastries",
+      "es": "Pregunta 60 sobre Pastries",
+      "de": "Frage 60 über Pastries",
+      "nl": "Vraag 60 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Pastries",
+      "es": "Pregunta 61 sobre Pastries",
+      "de": "Frage 61 über Pastries",
+      "nl": "Vraag 61 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Pastries",
+      "es": "Pregunta 62 sobre Pastries",
+      "de": "Frage 62 über Pastries",
+      "nl": "Vraag 62 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Pastries",
+      "es": "Pregunta 63 sobre Pastries",
+      "de": "Frage 63 über Pastries",
+      "nl": "Vraag 63 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Pastries",
+      "es": "Pregunta 64 sobre Pastries",
+      "de": "Frage 64 über Pastries",
+      "nl": "Vraag 64 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Pastries",
+      "es": "Pregunta 65 sobre Pastries",
+      "de": "Frage 65 über Pastries",
+      "nl": "Vraag 65 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Pastries",
+      "es": "Pregunta 66 sobre Pastries",
+      "de": "Frage 66 über Pastries",
+      "nl": "Vraag 66 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Pastries",
+      "es": "Pregunta 67 sobre Pastries",
+      "de": "Frage 67 über Pastries",
+      "nl": "Vraag 67 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Pastries",
+      "es": "Pregunta 68 sobre Pastries",
+      "de": "Frage 68 über Pastries",
+      "nl": "Vraag 68 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Pastries",
+      "es": "Pregunta 69 sobre Pastries",
+      "de": "Frage 69 über Pastries",
+      "nl": "Vraag 69 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Pastries",
+      "es": "Pregunta 70 sobre Pastries",
+      "de": "Frage 70 über Pastries",
+      "nl": "Vraag 70 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Pastries",
+      "es": "Pregunta 71 sobre Pastries",
+      "de": "Frage 71 über Pastries",
+      "nl": "Vraag 71 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Pastries",
+      "es": "Pregunta 72 sobre Pastries",
+      "de": "Frage 72 über Pastries",
+      "nl": "Vraag 72 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Pastries",
+      "es": "Pregunta 73 sobre Pastries",
+      "de": "Frage 73 über Pastries",
+      "nl": "Vraag 73 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Pastries",
+      "es": "Pregunta 74 sobre Pastries",
+      "de": "Frage 74 über Pastries",
+      "nl": "Vraag 74 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Pastries",
+      "es": "Pregunta 75 sobre Pastries",
+      "de": "Frage 75 über Pastries",
+      "nl": "Vraag 75 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Pastries",
+      "es": "Pregunta 76 sobre Pastries",
+      "de": "Frage 76 über Pastries",
+      "nl": "Vraag 76 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Pastries",
+      "es": "Pregunta 77 sobre Pastries",
+      "de": "Frage 77 über Pastries",
+      "nl": "Vraag 77 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Pastries",
+      "es": "Pregunta 78 sobre Pastries",
+      "de": "Frage 78 über Pastries",
+      "nl": "Vraag 78 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Pastries",
+      "es": "Pregunta 79 sobre Pastries",
+      "de": "Frage 79 über Pastries",
+      "nl": "Vraag 79 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Pastries",
+      "es": "Pregunta 80 sobre Pastries",
+      "de": "Frage 80 über Pastries",
+      "nl": "Vraag 80 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Pastries",
+      "es": "Pregunta 81 sobre Pastries",
+      "de": "Frage 81 über Pastries",
+      "nl": "Vraag 81 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Pastries",
+      "es": "Pregunta 82 sobre Pastries",
+      "de": "Frage 82 über Pastries",
+      "nl": "Vraag 82 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Pastries",
+      "es": "Pregunta 83 sobre Pastries",
+      "de": "Frage 83 über Pastries",
+      "nl": "Vraag 83 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Pastries",
+      "es": "Pregunta 84 sobre Pastries",
+      "de": "Frage 84 über Pastries",
+      "nl": "Vraag 84 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Pastries",
+      "es": "Pregunta 85 sobre Pastries",
+      "de": "Frage 85 über Pastries",
+      "nl": "Vraag 85 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Pastries",
+      "es": "Pregunta 86 sobre Pastries",
+      "de": "Frage 86 über Pastries",
+      "nl": "Vraag 86 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Pastries",
+      "es": "Pregunta 87 sobre Pastries",
+      "de": "Frage 87 über Pastries",
+      "nl": "Vraag 87 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Pastries",
+      "es": "Pregunta 88 sobre Pastries",
+      "de": "Frage 88 über Pastries",
+      "nl": "Vraag 88 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Pastries",
+      "es": "Pregunta 89 sobre Pastries",
+      "de": "Frage 89 über Pastries",
+      "nl": "Vraag 89 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Pastries",
+      "es": "Pregunta 90 sobre Pastries",
+      "de": "Frage 90 über Pastries",
+      "nl": "Vraag 90 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Pastries",
+      "es": "Pregunta 91 sobre Pastries",
+      "de": "Frage 91 über Pastries",
+      "nl": "Vraag 91 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Pastries",
+      "es": "Pregunta 92 sobre Pastries",
+      "de": "Frage 92 über Pastries",
+      "nl": "Vraag 92 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Pastries",
+      "es": "Pregunta 93 sobre Pastries",
+      "de": "Frage 93 über Pastries",
+      "nl": "Vraag 93 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Pastries",
+      "es": "Pregunta 94 sobre Pastries",
+      "de": "Frage 94 über Pastries",
+      "nl": "Vraag 94 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Pastries",
+      "es": "Pregunta 95 sobre Pastries",
+      "de": "Frage 95 über Pastries",
+      "nl": "Vraag 95 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Pastries",
+      "es": "Pregunta 96 sobre Pastries",
+      "de": "Frage 96 über Pastries",
+      "nl": "Vraag 96 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Pastries",
+      "es": "Pregunta 97 sobre Pastries",
+      "de": "Frage 97 über Pastries",
+      "nl": "Vraag 97 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Pastries",
+      "es": "Pregunta 98 sobre Pastries",
+      "de": "Frage 98 über Pastries",
+      "nl": "Vraag 98 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Pastries",
+      "es": "Pregunta 99 sobre Pastries",
+      "de": "Frage 99 über Pastries",
+      "nl": "Vraag 99 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Pastries",
+      "es": "Pregunta 100 sobre Pastries",
+      "de": "Frage 100 über Pastries",
+      "nl": "Vraag 100 over Pastries"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pastries",
+        "es": "Respuesta A para Pastries",
+        "de": "Antwort A für Pastries",
+        "nl": "Antwoord A voor Pastries"
+      },
+      {
+        "en": "Answer B for Pastries",
+        "es": "Respuesta B para Pastries",
+        "de": "Antwort B für Pastries",
+        "nl": "Antwoord B voor Pastries"
+      },
+      {
+        "en": "Answer C for Pastries",
+        "es": "Respuesta C para Pastries",
+        "de": "Antwort C für Pastries",
+        "nl": "Antwoord C voor Pastries"
+      },
+      {
+        "en": "Answer D for Pastries",
+        "es": "Respuesta D para Pastries",
+        "de": "Antwort D für Pastries",
+        "nl": "Antwoord D voor Pastries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pastries.",
+      "es": "Esta es la respuesta correcta sobre Pastries.",
+      "de": "Dies ist die richtige Antwort über Pastries.",
+      "nl": "Dit is het juiste antwoord over Pastries."
+    }
   }
-})();
+]
+};

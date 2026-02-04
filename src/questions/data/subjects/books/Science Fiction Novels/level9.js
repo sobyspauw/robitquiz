@@ -1,840 +1,4104 @@
-// Quiz Template - Level 9: Boeken - Sciencefiction romans
-(function() {
-  const level9 = {
-    name: {
-      en: "Science Fiction Novels",
-      es: "Novelas de Ciencia Ficción",
-      de: "Science-Fiction-Romane",
-      nl: "Sciencefiction romans"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Science Fiction Novels",
+      "es": "Pregunta 1 sobre Science Fiction Novels",
+      "de": "Frage 1 über Science Fiction Novels",
+      "nl": "Vraag 1 over Science Fiction Novels"
     },
-    questions: [
+    "options": [
       {
-        question: {
-          en: "Who wrote 'A Fire Upon the Deep'?",
-          es: "¿Quién escribió 'Un Fuego Sobre el Abismo'?",
-          de: "Wer schrieb 'Ein Feuer auf der Tiefe'?",
-          nl: "Wie schreef 'A Fire Upon the Deep'?"
-        },
-        options: [
-          { en: "Vernor Vinge", es: "Vernor Vinge", de: "Vernor Vinge", nl: "Vernor Vinge" },
-          { en: "Greg Egan", es: "Greg Egan", de: "Greg Egan", nl: "Greg Egan" },
-          { en: "Charles Stross", es: "Charles Stross", de: "Charles Stross", nl: "Charles Stross" },
-          { en: "Alastair Reynolds", es: "Alastair Reynolds", de: "Alastair Reynolds", nl: "Alastair Reynolds" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Vernor Vinge wrote 'A Fire Upon the Deep' (1992), featuring zones of thought where the laws of physics vary and superhuman intelligences emerge.",
-          es: "Vernor Vinge escribió 'Un Fuego Sobre el Abismo' (1992), presentando zonas de pensamiento donde las leyes de la física varían y emergen inteligencias sobrehumanas.",
-          de: "Vernor Vinge schrieb 'Ein Feuer auf der Tiefe' (1992), mit Gedankenzonen, in denen die Gesetze der Physik variieren und übermenschliche Intelligenzen entstehen.",
-          nl: "Vernor Vinge schreef 'A Fire Upon the Deep' (1992), met gedachtezones waar de natuurwetten variëren en bovenmenselijke intelligenties ontstaan."
-        }
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
       },
       {
-        question: {
-          en: "What is the main technology in 'Seveneves' by Neal Stephenson?",
-          es: "¿Cuál es la tecnología principal en 'Siete Evas' de Neal Stephenson?",
-          de: "Was ist die Haupttechnologie in 'Seveneves' von Neal Stephenson?",
-          nl: "Wat is de belangrijkste technologie in 'Seveneves' van Neal Stephenson?"
-        },
-        options: [
-          { en: "Time travel", es: "Viajes en el tiempo", de: "Zeitreisen", nl: "Tijdreizen" },
-          { en: "Space colonization and genetic engineering", es: "Colonización espacial e ingeniería genética", de: "Weltraumkolonisierung und Gentechnik", nl: "Ruimtekolonisatie en genetische manipulatie" },
-          { en: "Artificial intelligence", es: "Inteligencia artificial", de: "Künstliche Intelligenz", nl: "Kunstmatige intelligentie" },
-          { en: "Teleportation", es: "Teletransportación", de: "Teleportation", nl: "Teleportatie" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "'Seveneves' follows humanity's survival after the Moon explodes, focusing on space colonization and genetic modification to preserve the human race.",
-          es: "'Siete Evas' sigue la supervivencia de la humanidad después de que la Luna explota, centrándose en la colonización espacial y la modificación genética para preservar la raza humana.",
-          de: "'Seveneves' folgt dem Überleben der Menschheit nach der Explosion des Mondes und konzentriert sich auf Weltraumkolonisierung und genetische Modifikation zur Erhaltung der menschlichen Rasse.",
-          nl: "'Seveneves' volgt de overleving van de mensheid nadat de Maan explodeert, met focus op ruimtekolonisatie en genetische modificatie om het menselijke ras te behouden."
-        }
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
       },
       {
-        question: {
-          en: "Who wrote 'Foundation' series?",
-          es: "¿Quién escribió la serie 'Fundación'?",
-          de: "Wer schrieb die 'Foundation'-Serie?",
-          nl: "Wie schreef de 'Foundation' serie?"
-        },
-        options: [
-          { en: "Isaac Asimov", es: "Isaac Asimov", de: "Isaac Asimov", nl: "Isaac Asimov" },
-          { en: "Arthur C. Clarke", es: "Arthur C. Clarke", de: "Arthur C. Clarke", nl: "Arthur C. Clarke" },
-          { en: "Frank Herbert", es: "Frank Herbert", de: "Frank Herbert", nl: "Frank Herbert" },
-          { en: "Robert A. Heinlein", es: "Robert A. Heinlein", de: "Robert A. Heinlein", nl: "Robert A. Heinlein" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Isaac Asimov wrote the 'Foundation' series, starting with 'Foundation' (1951), about psychohistory and the fall and rise of galactic empires.",
-          es: "Isaac Asimov escribió la serie 'Fundación', comenzando con 'Fundación' (1951), sobre psicohistoria y la caída y ascenso de imperios galácticos.",
-          de: "Isaac Asimov schrieb die 'Foundation'-Serie, beginnend mit 'Foundation' (1951), über Psychohistorie und den Fall und Aufstieg galaktischer Imperien.",
-          nl: "Isaac Asimov schreef de 'Foundation' serie, te beginnen met 'Foundation' (1951), over psychohistorie en de val en opkomst van galactische rijken."
-        }
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
       },
       {
-        question: {
-          en: "What is the name of the protagonist in 'Parable of the Sower'?",
-          es: "¿Cuál es el nombre de la protagonista en 'Parábola del Sembrador'?",
-          de: "Wie heißt die Protagonistin in 'Das Gleichnis vom Sämann'?",
-          nl: "Wat is de naam van de protagonist in 'Parable of the Sower'?"
-        },
-        options: [
-          { en: "Lauren Olamina", es: "Lauren Olamina", de: "Lauren Olamina", nl: "Lauren Olamina" },
-          { en: "Dana Franklin", es: "Dana Franklin", de: "Dana Franklin", nl: "Dana Franklin" },
-          { en: "Lilith Iyapo", es: "Lilith Iyapo", de: "Lilith Iyapo", nl: "Lilith Iyapo" },
-          { en: "Anyanwu", es: "Anyanwu", de: "Anyanwu", nl: "Anyanwu" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Lauren Olamina is the protagonist in Octavia Butler's 'Parable of the Sower' (1993), who creates a new belief system called Earthseed.",
-          es: "Lauren Olamina es la protagonista en 'Parábola del Sembrador' (1993) de Octavia Butler, quien crea un nuevo sistema de creencias llamado Earthseed.",
-          de: "Lauren Olamina ist die Protagonistin in Octavia Butlers 'Das Gleichnis vom Sämann' (1993), die ein neues Glaubenssystem namens Earthseed erschafft.",
-          nl: "Lauren Olamina is de protagonist in Octavia Butler's 'Parable of the Sower' (1993), die een nieuw geloofssysteem genaamd Earthseed creëert."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'The Long Way to a Small, Angry Planet'?",
-          es: "¿Quién escribió 'El Largo Camino a un Pequeño Planeta Furioso'?",
-          de: "Wer schrieb 'Der lange Weg zu einem kleinen zornigen Planeten'?",
-          nl: "Wie schreef 'The Long Way to a Small, Angry Planet'?"
-        },
-        options: [
-          { en: "Becky Chambers", es: "Becky Chambers", de: "Becky Chambers", nl: "Becky Chambers" },
-          { en: "Ann Leckie", es: "Ann Leckie", de: "Ann Leckie", nl: "Ann Leckie" },
-          { en: "Martha Wells", es: "Martha Wells", de: "Martha Wells", nl: "Martha Wells" },
-          { en: "Mary Robinette Kowal", es: "Mary Robinette Kowal", de: "Mary Robinette Kowal", nl: "Mary Robinette Kowal" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Becky Chambers wrote 'The Long Way to a Small, Angry Planet' (2014), a character-driven space opera about a diverse crew on a tunneling ship.",
-          es: "Becky Chambers escribió 'El Largo Camino a un Pequeño Planeta Furioso' (2014), una ópera espacial centrada en personajes sobre una tripulación diversa en una nave de túneles.",
-          de: "Becky Chambers schrieb 'Der lange Weg zu einem kleinen zornigen Planeten' (2014), eine charaktergetriebene Space Opera über eine vielfältige Crew auf einem Tunnelschiff.",
-          nl: "Becky Chambers schreef 'The Long Way to a Small, Angry Planet' (2014), een karakter-gedreven space opera over een diverse bemanning op een tunnelschip."
-        }
-      },
-      {
-        question: {
-          en: "What is the main concept in 'Blindness' by José Saramago?",
-          es: "¿Cuál es el concepto principal en 'Ensayo sobre la Ceguera' de José Saramago?",
-          de: "Was ist das Hauptkonzept in 'Die Stadt der Blinden' von José Saramago?",
-          nl: "Wat is het hoofdconcept in 'Blindness' van José Saramago?"
-        },
-        options: [
-          { en: "A plague causing mass blindness", es: "Una plaga que causa ceguera masiva", de: "Eine Seuche, die Massenblindheit verursacht", nl: "Een plaag die massale blindheid veroorzaakt" },
-          { en: "Time travel blindness", es: "Ceguera del viaje en el tiempo", de: "Zeitreise-Blindheit", nl: "Tijdreis blindheid" },
-          { en: "Alien-induced blindness", es: "Ceguera inducida por alienígenas", de: "Außerirdisch verursachte Blindheit", nl: "Door buitenaardsen veroorzaakte blindheid" },
-          { en: "Technological blindness", es: "Ceguera tecnológica", de: "Technologische Blindheit", nl: "Technologische blindheid" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "'Blindness' depicts an epidemic of blindness that spreads rapidly, causing society to collapse and exploring human nature under extreme stress.",
-          es: "'Ensayo sobre la Ceguera' representa una epidemia de ceguera que se extiende rápidamente, causando el colapso de la sociedad y explorando la naturaleza humana bajo estrés extremo.",
-          de: "'Die Stadt der Blinden' zeigt eine Epidemie der Blindheit, die sich schnell ausbreitet, die Gesellschaft zum Zusammenbruch bringt und die menschliche Natur unter extremem Stress erforscht.",
-          nl: "'Blindness' toont een epidemie van blindheid die zich snel verspreidt, de samenleving laat instorten en de menselijke natuur onder extreme stress verkent."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'The Peripheral'?",
-          es: "¿Quién escribió 'Periféricos'?",
-          de: "Wer schrieb 'Peripherie'?",
-          nl: "Wie schreef 'The Peripheral'?"
-        },
-        options: [
-          { en: "William Gibson", es: "William Gibson", de: "William Gibson", nl: "William Gibson" },
-          { en: "Neal Stephenson", es: "Neal Stephenson", de: "Neal Stephenson", nl: "Neal Stephenson" },
-          { en: "Bruce Sterling", es: "Bruce Sterling", de: "Bruce Sterling", nl: "Bruce Sterling" },
-          { en: "Cory Doctorow", es: "Cory Doctorow", de: "Cory Doctorow", nl: "Cory Doctorow" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "William Gibson wrote 'The Peripheral' (2014), featuring time travel through virtual reality connections between different timelines.",
-          es: "William Gibson escribió 'Periféricos' (2014), presentando viajes en el tiempo a través de conexiones de realidad virtual entre diferentes líneas temporales.",
-          de: "William Gibson schrieb 'Peripherie' (2014), mit Zeitreisen durch Virtual-Reality-Verbindungen zwischen verschiedenen Zeitlinien.",
-          nl: "William Gibson schreef 'The Peripheral' (2014), met tijdreizen door virtual reality verbindingen tussen verschillende tijdlijnen."
-        }
-      },
-      {
-        question: {
-          en: "What is the name of the colony in 'All Systems Red' (Murderbot Diaries)?",
-          es: "¿Cuál es el nombre de la colonia en 'Todo Sistema Rojo' (Diarios de Murderbot)?",
-          de: "Wie heißt die Kolonie in 'All Systems Red' (Murderbot-Tagebücher)?",
-          nl: "Wat is de naam van de kolonie in 'All Systems Red' (Murderbot Dagboeken)?"
-        },
-        options: [
-          { en: "Preservation Station", es: "Estación Preservación", de: "Erhaltungsstation", nl: "Preservation Station" },
-          { en: "Haven Colony", es: "Colonia Refugio", de: "Hafen-Kolonie", nl: "Haven Kolonie" },
-          { en: "Survey Site", es: "Sitio de Reconocimiento", de: "Untersuchungsort", nl: "Survey Site" },
-          { en: "New Earth", es: "Nueva Tierra", de: "Neue Erde", nl: "Nieuwe Aarde" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Martha Wells' 'All Systems Red' begins at a planetary survey site, though Murderbot later travels to Preservation Station.",
-          es: "'Todo Sistema Rojo' de Martha Wells comienza en un sitio de reconocimiento planetario, aunque Murderbot luego viaja a la Estación Preservación.",
-          de: "Martha Wells' 'All Systems Red' beginnt an einem planetaren Untersuchungsort, obwohl Murderbot später zur Erhaltungsstation reist.",
-          nl: "Martha Wells' 'All Systems Red' begint op een planetaire survey site, hoewel Murderbot later naar Preservation Station reist."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'Roadside Picnic'?",
-          es: "¿Quién escribió 'Pícnic Junto al Camino'?",
-          de: "Wer schrieb 'Picknick am Wegesrand'?",
-          nl: "Wie schreef 'Roadside Picnic'?"
-        },
-        options: [
-          { en: "Arkady and Boris Strugatsky", es: "Arkady y Boris Strugatsky", de: "Arkady und Boris Strugatsky", nl: "Arkady en Boris Strugatsky" },
-          { en: "Stanislaw Lem", es: "Stanislaw Lem", de: "Stanislaw Lem", nl: "Stanislaw Lem" },
-          { en: "Ivan Yefremov", es: "Ivan Yefremov", de: "Ivan Yefremov", nl: "Ivan Yefremov" },
-          { en: "Alexander Belayev", es: "Alexander Belayev", de: "Alexander Belayev", nl: "Alexander Belayev" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Arkady and Boris Strugatsky wrote 'Roadside Picnic' (1972), about mysterious zones left behind by alien visitors, inspiring the Stalker video game series.",
-          es: "Arkady y Boris Strugatsky escribieron 'Pícnic Junto al Camino' (1972), sobre zonas misteriosas dejadas por visitantes alienígenas, inspirando la serie de videojuegos Stalker.",
-          de: "Arkady und Boris Strugatsky schrieben 'Picknick am Wegesrand' (1972), über mysteriöse Zonen, die von außerirdischen Besuchern zurückgelassen wurden und die Stalker-Videospielserie inspirierten.",
-          nl: "Arkady en Boris Strugatsky schreven 'Roadside Picnic' (1972), over mysterieuze zones achtergelaten door buitenaardse bezoekers, die de Stalker videogame serie inspireerden."
-        }
-      },
-      {
-        question: {
-          en: "What is the main setting of 'The Light of Other Days'?",
-          es: "¿Cuál es el escenario principal de 'La Luz de Otros Días'?",
-          de: "Was ist der Hauptschauplatz von 'Licht ferner Tage'?",
-          nl: "Wat is de belangrijkste setting van 'The Light of Other Days'?"
-        },
-        options: [
-          { en: "Time-viewing technology changes society", es: "Tecnología de visualización temporal cambia la sociedad", de: "Zeitbetrachtungstechnologie verändert die Gesellschaft", nl: "Tijdkijk technologie verandert de samenleving" },
-          { en: "Faster-than-light travel", es: "Viajes más rápidos que la luz", de: "Überlichtgeschwindigkeitsreisen", nl: "Sneller-dan-het-licht reizen" },
-          { en: "Parallel universes", es: "Universos paralelos", de: "Parallele Universen", nl: "Parallelle universa" },
-          { en: "Alien first contact", es: "Primer contacto alienígena", de: "Außerirdischer Erstkontakt", nl: "Eerste buitenaards contact" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Arthur C. Clarke and Stephen Baxter's 'The Light of Other Days' (2000) explores technology that allows viewing any point in time, eliminating privacy and transforming society.",
-          es: "'La Luz de Otros Días' (2000) de Arthur C. Clarke y Stephen Baxter explora tecnología que permite ver cualquier punto en el tiempo, eliminando la privacidad y transformando la sociedad.",
-          de: "Arthur C. Clarkes und Stephen Baxters 'Licht ferner Tage' (2000) erforscht Technologie, die es ermöglicht, jeden Zeitpunkt zu betrachten, Privatsphäre zu eliminieren und die Gesellschaft zu transformieren.",
-          nl: "Arthur C. Clarke en Stephen Baxter's 'The Light of Other Days' (2000) verkent technologie die het mogelijk maakt om elk punt in de tijd te bekijken, privacy te elimineren en de samenleving te transformeren."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'Embassytown'?",
-          es: "¿Quién escribió 'Embassytown'?",
-          de: "Wer schrieb 'Embassytown'?",
-          nl: "Wie schreef 'Embassytown'?"
-        },
-        options: [
-          { en: "China Miéville", es: "China Miéville", de: "China Miéville", nl: "China Miéville" },
-          { en: "Jeff VanderMeer", es: "Jeff VanderMeer", de: "Jeff VanderMeer", nl: "Jeff VanderMeer" },
-          { en: "Ted Chiang", es: "Ted Chiang", de: "Ted Chiang", nl: "Ted Chiang" },
-          { en: "Ken Liu", es: "Ken Liu", de: "Ken Liu", nl: "Ken Liu" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "China Miéville wrote 'Embassytown' (2011), about a unique alien language that requires two speakers and forces humans to become living similes.",
-          es: "China Miéville escribió 'Embassytown' (2011), sobre un lenguaje alienígena único que requiere dos hablantes y obliga a los humanos a convertirse en símiles vivientes.",
-          de: "China Miéville schrieb 'Embassytown' (2011), über eine einzigartige außerirdische Sprache, die zwei Sprecher erfordert und Menschen zwingt, lebende Gleichnisse zu werden.",
-          nl: "China Miéville schreef 'Embassytown' (2011), over een unieke buitenaardse taal die twee sprekers vereist en mensen dwingt levende vergelijkingen te worden."
-        }
-      },
-      {
-        question: {
-          en: "What is the main technology in 'The Diamond Age'?",
-          es: "¿Cuál es la tecnología principal en 'La Era del Diamante'?",
-          de: "Was ist die Haupttechnologie in 'Das Diamond Age'?",
-          nl: "Wat is de belangrijkste technologie in 'The Diamond Age'?"
-        },
-        options: [
-          { en: "Nanotechnology", es: "Nanotecnología", de: "Nanotechnologie", nl: "Nanotechnologie" },
-          { en: "Quantum computing", es: "Computación cuántica", de: "Quantencomputing", nl: "Quantum computing" },
-          { en: "Genetic engineering", es: "Ingeniería genética", de: "Gentechnik", nl: "Genetische manipulatie" },
-          { en: "Virtual reality", es: "Realidad virtual", de: "Virtuelle Realität", nl: "Virtual reality" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Neal Stephenson's 'The Diamond Age' centers on nanotechnology, particularly molecular assemblers that can create anything from raw materials.",
-          es: "'La Era del Diamante' de Neal Stephenson se centra en la nanotecnología, particularmente ensambladores moleculares que pueden crear cualquier cosa a partir de materias primas.",
-          de: "Neal Stephensons 'Das Diamond Age' konzentriert sich auf Nanotechnologie, insbesondere molekulare Assembler, die alles aus Rohmaterialien erschaffen können.",
-          nl: "Neal Stephenson's 'The Diamond Age' richt zich op nanotechnologie, in het bijzonder moleculaire assemblers die alles kunnen creëren uit grondstoffen."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'Perdido Street Station'?",
-          es: "¿Quién escribió 'La Estación de la Calle Perdido'?",
-          de: "Wer schrieb 'Perdido Street Station'?",
-          nl: "Wie schreef 'Perdido Street Station'?"
-        },
-        options: [
-          { en: "China Miéville", es: "China Miéville", de: "China Miéville", nl: "China Miéville" },
-          { en: "Jeff VanderMeer", es: "Jeff VanderMeer", de: "Jeff VanderMeer", nl: "Jeff VanderMeer" },
-          { en: "N.K. Jemisin", es: "N.K. Jemisin", de: "N.K. Jemisin", nl: "N.K. Jemisin" },
-          { en: "Paolo Bacigalupi", es: "Paolo Bacigalupi", de: "Paolo Bacigalupi", nl: "Paolo Bacigalupi" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "China Miéville wrote 'Perdido Street Station' (2000), set in the bizarre city of New Crobuzon, blending fantasy, horror, and science fiction.",
-          es: "China Miéville escribió 'La Estación de la Calle Perdido' (2000), ambientada en la extraña ciudad de New Crobuzon, mezclando fantasía, horror y ciencia ficción.",
-          de: "China Miéville schrieb 'Perdido Street Station' (2000), spielt in der bizarren Stadt New Crobuzon und vermischt Fantasy, Horror und Science Fiction.",
-          nl: "China Miéville schreef 'Perdido Street Station' (2000), gesitueerd in de bizarre stad New Crobuzon, die fantasy, horror en sciencefiction combineert."
-        }
-      },
-      {
-        question: {
-          en: "What is the main plot of 'Recursion' by Blake Crouch?",
-          es: "¿Cuál es la trama principal de 'Recursión' de Blake Crouch?",
-          de: "Was ist die Haupthandlung von 'Recursion' von Blake Crouch?",
-          nl: "Wat is de hoofdplot van 'Recursion' van Blake Crouch?"
-        },
-        options: [
-          { en: "Memory manipulation and altered timelines", es: "Manipulación de memoria y líneas temporales alteradas", de: "Gedächtnismanipulation und veränderte Zeitlinien", nl: "Geheugen manipulatie en veranderde tijdlijnen" },
-          { en: "Alien invasion", es: "Invasión alienígena", de: "Außerirdische Invasion", nl: "Buitenaardse invasie" },
-          { en: "Virtual reality addiction", es: "Adicción a la realidad virtual", de: "Virtual-Reality-Sucht", nl: "Virtual reality verslaving" },
-          { en: "Robot uprising", es: "Levantamiento de robots", de: "Roboteraufstand", nl: "Robot opstand" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "'Recursion' explores technology that allows people to relive memories, but creates devastating consequences when used to change the past.",
-          es: "'Recursión' explora tecnología que permite a las personas revivir recuerdos, pero crea consecuencias devastadoras cuando se usa para cambiar el pasado.",
-          de: "'Recursion' erforscht Technologie, die es Menschen ermöglicht, Erinnerungen wieder zu erleben, aber verheerende Konsequenzen schafft, wenn sie verwendet wird, um die Vergangenheit zu ändern.",
-          nl: "'Recursion' verkent technologie die mensen in staat stelt herinneringen opnieuw te beleven, maar verwoestende gevolgen creëert wanneer gebruikt om het verleden te veranderen."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'The Expanse' novel 'Leviathan Wakes'?",
-          es: "¿Quién escribió la novela de 'The Expanse' 'El Despertar del Leviatán'?",
-          de: "Wer schrieb den 'The Expanse'-Roman 'Leviathan erwacht'?",
-          nl: "Wie schreef de 'The Expanse' roman 'Leviathan Wakes'?"
-        },
-        options: [
-          { en: "James S.A. Corey", es: "James S.A. Corey", de: "James S.A. Corey", nl: "James S.A. Corey" },
-          { en: "Alastair Reynolds", es: "Alastair Reynolds", de: "Alastair Reynolds", nl: "Alastair Reynolds" },
-          { en: "John Scalzi", es: "John Scalzi", de: "John Scalzi", nl: "John Scalzi" },
-          { en: "Peter F. Hamilton", es: "Peter F. Hamilton", de: "Peter F. Hamilton", nl: "Peter F. Hamilton" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "James S.A. Corey (the pen name of Daniel Abraham and Ty Franck) wrote 'Leviathan Wakes' (2011), the first book in The Expanse series.",
-          es: "James S.A. Corey (el seudónimo de Daniel Abraham y Ty Franck) escribió 'El Despertar del Leviatán' (2011), el primer libro de la serie The Expanse.",
-          de: "James S.A. Corey (das Pseudonym von Daniel Abraham und Ty Franck) schrieb 'Leviathan erwacht' (2011), das erste Buch der The Expanse-Serie.",
-          nl: "James S.A. Corey (het pseudoniem van Daniel Abraham en Ty Franck) schreef 'Leviathan Wakes' (2011), het eerste boek in The Expanse serie."
-        }
-      },
-      {
-        question: {
-          en: "What is the name of the ship in 'The Expanse' series?",
-          es: "¿Cuál es el nombre de la nave en la serie 'The Expanse'?",
-          de: "Wie heißt das Schiff in der 'The Expanse'-Serie?",
-          nl: "Wat is de naam van het schip in de 'The Expanse' serie?"
-        },
-        options: [
-          { en: "Rocinante", es: "Rocinante", de: "Rocinante", nl: "Rocinante" },
-          { en: "Millennium Falcon", es: "Halcón Milenario", de: "Millennium Falke", nl: "Millennium Falcon" },
-          { en: "Enterprise", es: "Enterprise", de: "Enterprise", nl: "Enterprise" },
-          { en: "Serenity", es: "Serenity", de: "Serenity", nl: "Serenity" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Rocinante (nicknamed 'Roci') is the Martian corvette-class light frigate that becomes the crew's ship in The Expanse series.",
-          es: "El Rocinante (apodado 'Roci') es la fragata ligera clase corbeta marciana que se convierte en la nave de la tripulación en la serie The Expanse.",
-          de: "Die Rocinante (Spitzname 'Roci') ist die marsianische Korvetten-Klasse leichte Fregatte, die zum Schiff der Crew in der The Expanse-Serie wird.",
-          nl: "De Rocinante (bijgenaamd 'Roci') is het Martiaanse korvet-klasse lichte fregat dat het schip van de bemanning wordt in The Expanse serie."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'Children of Time'?",
-          es: "¿Quién escribió 'Hijos del Tiempo'?",
-          de: "Wer schrieb 'Die Kinder der Zeit'?",
-          nl: "Wie schreef 'Children of Time'?"
-        },
-        options: [
-          { en: "Adrian Tchaikovsky", es: "Adrian Tchaikovsky", de: "Adrian Tchaikovsky", nl: "Adrian Tchaikovsky" },
-          { en: "Peter F. Hamilton", es: "Peter F. Hamilton", de: "Peter F. Hamilton", nl: "Peter F. Hamilton" },
-          { en: "Alastair Reynolds", es: "Alastair Reynolds", de: "Alastair Reynolds", nl: "Alastair Reynolds" },
-          { en: "Kim Stanley Robinson", es: "Kim Stanley Robinson", de: "Kim Stanley Robinson", nl: "Kim Stanley Robinson" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Adrian Tchaikovsky wrote 'Children of Time' (2015), about uplifted spiders developing civilization on a terraformed planet.",
-          es: "Adrian Tchaikovsky escribió 'Hijos del Tiempo' (2015), sobre arañas mejoradas desarrollando civilización en un planeta terraformado.",
-          de: "Adrian Tchaikovsky schrieb 'Die Kinder der Zeit' (2015), über aufgewertete Spinnen, die eine Zivilisation auf einem terraformierten Planeten entwickeln.",
-          nl: "Adrian Tchaikovsky schreef 'Children of Time' (2015), over verbeterde spinnen die een beschaving ontwikkelen op een geterraformeerde planeet."
-        }
-      },
-      {
-        question: {
-          en: "What is the main concept in 'Dark Matter' by Blake Crouch?",
-          es: "¿Cuál es el concepto principal en 'Materia Oscura' de Blake Crouch?",
-          de: "Was ist das Hauptkonzept in 'Dark Matter' von Blake Crouch?",
-          nl: "Wat is het hoofdconcept in 'Dark Matter' van Blake Crouch?"
-        },
-        options: [
-          { en: "Parallel universes and quantum superposition", es: "Universos paralelos y superposición cuántica", de: "Parallele Universen und Quantenüberlagerung", nl: "Parallelle universa en kwantum superpositie" },
-          { en: "Black holes", es: "Agujeros negros", de: "Schwarze Löcher", nl: "Zwarte gaten" },
-          { en: "Dark energy weapons", es: "Armas de energía oscura", de: "Dunkle-Energie-Waffen", nl: "Donkere energie wapens" },
-          { en: "Antimatter technology", es: "Tecnología de antimateria", de: "Antimaterie-Technologie", nl: "Antimaterie technologie" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "'Dark Matter' follows a physicist who is kidnapped and sent to a parallel universe, then must navigate infinite versions of reality to return home.",
-          es: "'Materia Oscura' sigue a un físico que es secuestrado y enviado a un universo paralelo, luego debe navegar versiones infinitas de la realidad para regresar a casa.",
-          de: "'Dark Matter' folgt einem Physiker, der entführt und in ein paralleles Universum geschickt wird, dann unendliche Versionen der Realität navigieren muss, um nach Hause zurückzukehren.",
-          nl: "'Dark Matter' volgt een natuurkundige die wordt ontvoerd en naar een parallel universum wordt gestuurd, en vervolgens oneindige versies van de werkelijkheid moet navigeren om thuis te komen."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'The Paper Menagerie'?",
-          es: "¿Quién escribió 'La Menagerie de Papel'?",
-          de: "Wer schrieb 'Die Papiermanagerie'?",
-          nl: "Wie schreef 'The Paper Menagerie'?"
-        },
-        options: [
-          { en: "Ken Liu", es: "Ken Liu", de: "Ken Liu", nl: "Ken Liu" },
-          { en: "Ted Chiang", es: "Ted Chiang", de: "Ted Chiang", nl: "Ted Chiang" },
-          { en: "Liu Cixin", es: "Liu Cixin", de: "Liu Cixin", nl: "Liu Cixin" },
-          { en: "N.K. Jemisin", es: "N.K. Jemisin", de: "N.K. Jemisin", nl: "N.K. Jemisin" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Ken Liu wrote 'The Paper Menagerie' (2011), a heartbreaking short story that won the Hugo, Nebula, and World Fantasy Awards - the first work to win all three.",
-          es: "Ken Liu escribió 'La Menagerie de Papel' (2011), un cuento desgarrador que ganó los premios Hugo, Nebula y World Fantasy - la primera obra en ganar los tres.",
-          de: "Ken Liu schrieb 'Die Papiermanagerie' (2011), eine herzzerreißende Kurzgeschichte, die die Hugo-, Nebula- und World Fantasy Awards gewann - das erste Werk, das alle drei gewann.",
-          nl: "Ken Liu schreef 'The Paper Menagerie' (2011), een hartverscheurend kortverhaal dat de Hugo, Nebula en World Fantasy Awards won - het eerste werk dat alle drie won."
-        }
-      },
-      {
-        question: {
-          en: "What is the setting of 'The City in the Middle of the Night'?",
-          es: "¿Cuál es el escenario de 'La Ciudad en el Medio de la Noche'?",
-          de: "Was ist der Schauplatz von 'Die Stadt in der Mitte der Nacht'?",
-          nl: "Wat is de setting van 'The City in the Middle of the Night'?"
-        },
-        options: [
-          { en: "A tidally locked planet with extreme climates", es: "Un planeta bloqueado por mareas con climas extremos", de: "Ein gezeitengebundener Planet mit extremen Klimazonen", nl: "Een getijden-vergrendelde planeet met extreme klimaten" },
-          { en: "An underground city", es: "Una ciudad subterránea", de: "Eine unterirdische Stadt", nl: "Een ondergrondse stad" },
-          { en: "A space station", es: "Una estación espacial", de: "Eine Raumstation", nl: "Een ruimtestation" },
-          { en: "A floating city", es: "Una ciudad flotante", de: "Eine schwebende Stadt", nl: "Een zwevende stad" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Charlie Jane Anders' 'The City in the Middle of the Night' (2019) is set on a tidally locked planet where one side is always day and the other always night.",
-          es: "'La Ciudad en el Medio de la Noche' (2019) de Charlie Jane Anders se desarrolla en un planeta bloqueado por mareas donde un lado siempre es de día y el otro siempre de noche.",
-          de: "Charlie Jane Anders' 'Die Stadt in der Mitte der Nacht' (2019) spielt auf einem gezeitengebundenen Planeten, wo eine Seite immer Tag und die andere immer Nacht ist.",
-          nl: "Charlie Jane Anders' 'The City in the Middle of the Night' (2019) speelt zich af op een getijden-vergrendelde planeet waar de ene kant altijd dag is en de andere altijd nacht."
-        }      },
-      {
-        question: {
-          en: "Who wrote Dune?",
-          es: "Who wrote Dune?",
-          de: "Who wrote Dune?",
-          nl: "Who wrote Dune?"
-        },
-        options: [
-          { en: "Frank Herbert", es: "Frank Herbert", de: "Frank Herbert", nl: "Frank Herbert" },
-          { en: "Isaac Asimov", es: "Isaac Asimov", de: "Isaac Asimov", nl: "Isaac Asimov" },
-          { en: "Arthur C. Clarke", es: "Arthur C. Clarke", de: "Arthur C. Clarke", nl: "Arthur C. Clarke" },
-          { en: "Robert Heinlein", es: "Robert Heinlein", de: "Robert Heinlein", nl: "Robert Heinlein" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Frank Herbert wrote Dune in 1965 about desert planet Arrakis.",
-          es: "Frank Herbert wrote Dune in 1965 about desert planet Arrakis.",
-          de: "Frank Herbert wrote Dune in 1965 about desert planet Arrakis.",
-          nl: "Frank Herbert wrote Dune in 1965 about desert planet Arrakis."
-        }      },
-      {
-        question: {
-          en: "Foundation series is by?",
-          es: "Foundation series is by?",
-          de: "Foundation series is by?",
-          nl: "Foundation series is by?"
-        },
-        options: [
-          { en: "Isaac Asimov", es: "Isaac Asimov", de: "Isaac Asimov", nl: "Isaac Asimov" },
-          { en: "Arthur C. Clarke", es: "Arthur C. Clarke", de: "Arthur C. Clarke", nl: "Arthur C. Clarke" },
-          { en: "Robert Heinlein", es: "Robert Heinlein", de: "Robert Heinlein", nl: "Robert Heinlein" },
-          { en: "Philip K. Dick", es: "Philip K. Dick", de: "Philip K. Dick", nl: "Philip K. Dick" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Isaac Asimov wrote Foundation series beginning in 1951.",
-          es: "Isaac Asimov wrote Foundation series beginning in 1951.",
-          de: "Isaac Asimov wrote Foundation series beginning in 1951.",
-          nl: "Isaac Asimov wrote Foundation series beginning in 1951."
-        }      },
-      {
-        question: {
-          en: "Who wrote Fahrenheit 451?",
-          es: "Who wrote Fahrenheit 451?",
-          de: "Who wrote Fahrenheit 451?",
-          nl: "Who wrote Fahrenheit 451?"
-        },
-        options: [
-          { en: "Ray Bradbury", es: "Ray Bradbury", de: "Ray Bradbury", nl: "Ray Bradbury" },
-          { en: "George Orwell", es: "George Orwell", de: "George Orwell", nl: "George Orwell" },
-          { en: "Aldous Huxley", es: "Aldous Huxley", de: "Aldous Huxley", nl: "Aldous Huxley" },
-          { en: "Kurt Vonnegut", es: "Kurt Vonnegut", de: "Kurt Vonnegut", nl: "Kurt Vonnegut" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Ray Bradbury wrote Fahrenheit 451 in 1953 about book burning.",
-          es: "Ray Bradbury wrote Fahrenheit 451 in 1953 about book burning.",
-          de: "Ray Bradbury wrote Fahrenheit 451 in 1953 about book burning.",
-          nl: "Ray Bradbury wrote Fahrenheit 451 in 1953 about book burning."
-        }      },
-      {
-        question: {
-          en: "2001 A Space Odyssey is by?",
-          es: "2001 A Space Odyssey is by?",
-          de: "2001 A Space Odyssey is by?",
-          nl: "2001 A Space Odyssey is by?"
-        },
-        options: [
-          { en: "Arthur C. Clarke", es: "Arthur C. Clarke", de: "Arthur C. Clarke", nl: "Arthur C. Clarke" },
-          { en: "Isaac Asimov", es: "Isaac Asimov", de: "Isaac Asimov", nl: "Isaac Asimov" },
-          { en: "Robert Heinlein", es: "Robert Heinlein", de: "Robert Heinlein", nl: "Robert Heinlein" },
-          { en: "Larry Niven", es: "Larry Niven", de: "Larry Niven", nl: "Larry Niven" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Arthur C. Clarke wrote 2001 A Space Odyssey in 1968.",
-          es: "Arthur C. Clarke wrote 2001 A Space Odyssey in 1968.",
-          de: "Arthur C. Clarke wrote 2001 A Space Odyssey in 1968.",
-          nl: "Arthur C. Clarke wrote 2001 A Space Odyssey in 1968."
-        }      },
-      {
-        question: {
-          en: "Who created Enders Game?",
-          es: "Who created Enders Game?",
-          de: "Who created Enders Game?",
-          nl: "Who created Enders Game?"
-        },
-        options: [
-          { en: "Orson Scott Card", es: "Orson Scott Card", de: "Orson Scott Card", nl: "Orson Scott Card" },
-          { en: "Robert Heinlein", es: "Robert Heinlein", de: "Robert Heinlein", nl: "Robert Heinlein" },
-          { en: "Joe Haldeman", es: "Joe Haldeman", de: "Joe Haldeman", nl: "Joe Haldeman" },
-          { en: "John Scalzi", es: "John Scalzi", de: "John Scalzi", nl: "John Scalzi" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Orson Scott Card wrote Enders Game in 1985.",
-          es: "Orson Scott Card wrote Enders Game in 1985.",
-          de: "Orson Scott Card wrote Enders Game in 1985.",
-          nl: "Orson Scott Card wrote Enders Game in 1985."
-        }      },
-      {
-        question: {
-          en: "Neuromancer is by?",
-          es: "Neuromancer is by?",
-          de: "Neuromancer is by?",
-          nl: "Neuromancer is by?"
-        },
-        options: [
-          { en: "William Gibson", es: "William Gibson", de: "William Gibson", nl: "William Gibson" },
-          { en: "Neal Stephenson", es: "Neal Stephenson", de: "Neal Stephenson", nl: "Neal Stephenson" },
-          { en: "Philip K. Dick", es: "Philip K. Dick", de: "Philip K. Dick", nl: "Philip K. Dick" },
-          { en: "Bruce Sterling", es: "Bruce Sterling", de: "Bruce Sterling", nl: "Bruce Sterling" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "William Gibson wrote Neuromancer in 1984 pioneering cyberpunk.",
-          es: "William Gibson wrote Neuromancer in 1984 pioneering cyberpunk.",
-          de: "William Gibson wrote Neuromancer in 1984 pioneering cyberpunk.",
-          nl: "William Gibson wrote Neuromancer in 1984 pioneering cyberpunk."
-        }      },
-      {
-        question: {
-          en: "Who wrote Do Androids Dream of Electric Sheep?",
-          es: "Who wrote Do Androids Dream of Electric Sheep?",
-          de: "Who wrote Do Androids Dream of Electric Sheep?",
-          nl: "Who wrote Do Androids Dream of Electric Sheep?"
-        },
-        options: [
-          { en: "Philip K. Dick", es: "Philip K. Dick", de: "Philip K. Dick", nl: "Philip K. Dick" },
-          { en: "Isaac Asimov", es: "Isaac Asimov", de: "Isaac Asimov", nl: "Isaac Asimov" },
-          { en: "Arthur C. Clarke", es: "Arthur C. Clarke", de: "Arthur C. Clarke", nl: "Arthur C. Clarke" },
-          { en: "Harlan Ellison", es: "Harlan Ellison", de: "Harlan Ellison", nl: "Harlan Ellison" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Philip K. Dick wrote this in 1968, basis for Blade Runner.",
-          es: "Philip K. Dick wrote this in 1968, basis for Blade Runner.",
-          de: "Philip K. Dick wrote this in 1968, basis for Blade Runner.",
-          nl: "Philip K. Dick wrote this in 1968, basis for Blade Runner."
-        }      },
-      {
-        question: {
-          en: "The Left Hand of Darkness is by?",
-          es: "The Left Hand of Darkness is by?",
-          de: "The Left Hand of Darkness is by?",
-          nl: "The Left Hand of Darkness is by?"
-        },
-        options: [
-          { en: "Ursula K. Le Guin", es: "Ursula K. Le Guin", de: "Ursula K. Le Guin", nl: "Ursula K. Le Guin" },
-          { en: "Octavia Butler", es: "Octavia Butler", de: "Octavia Butler", nl: "Octavia Butler" },
-          { en: "Margaret Atwood", es: "Margaret Atwood", de: "Margaret Atwood", nl: "Margaret Atwood" },
-          { en: "Joanna Russ", es: "Joanna Russ", de: "Joanna Russ", nl: "Joanna Russ" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Ursula K. Le Guin wrote The Left Hand of Darkness in 1969.",
-          es: "Ursula K. Le Guin wrote The Left Hand of Darkness in 1969.",
-          de: "Ursula K. Le Guin wrote The Left Hand of Darkness in 1969.",
-          nl: "Ursula K. Le Guin wrote The Left Hand of Darkness in 1969."
-        }      },
-      {
-        question: {
-          en: "Who wrote Stranger in a Strange Land?",
-          es: "Who wrote Stranger in a Strange Land?",
-          de: "Who wrote Stranger in a Strange Land?",
-          nl: "Who wrote Stranger in a Strange Land?"
-        },
-        options: [
-          { en: "Robert Heinlein", es: "Robert Heinlein", de: "Robert Heinlein", nl: "Robert Heinlein" },
-          { en: "Isaac Asimov", es: "Isaac Asimov", de: "Isaac Asimov", nl: "Isaac Asimov" },
-          { en: "Arthur C. Clarke", es: "Arthur C. Clarke", de: "Arthur C. Clarke", nl: "Arthur C. Clarke" },
-          { en: "Philip K. Dick", es: "Philip K. Dick", de: "Philip K. Dick", nl: "Philip K. Dick" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Robert Heinlein wrote Stranger in a Strange Land in 1961.",
-          es: "Robert Heinlein wrote Stranger in a Strange Land in 1961.",
-          de: "Robert Heinlein wrote Stranger in a Strange Land in 1961.",
-          nl: "Robert Heinlein wrote Stranger in a Strange Land in 1961."
-        }      },
-      {
-        question: {
-          en: "The Handmaids Tale is by?",
-          es: "The Handmaids Tale is by?",
-          de: "The Handmaids Tale is by?",
-          nl: "The Handmaids Tale is by?"
-        },
-        options: [
-          { en: "Margaret Atwood", es: "Margaret Atwood", de: "Margaret Atwood", nl: "Margaret Atwood" },
-          { en: "Ursula K. Le Guin", es: "Ursula K. Le Guin", de: "Ursula K. Le Guin", nl: "Ursula K. Le Guin" },
-          { en: "Octavia Butler", es: "Octavia Butler", de: "Octavia Butler", nl: "Octavia Butler" },
-          { en: "Joanna Russ", es: "Joanna Russ", de: "Joanna Russ", nl: "Joanna Russ" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Margaret Atwood wrote The Handmaids Tale in 1985.",
-          es: "Margaret Atwood wrote The Handmaids Tale in 1985.",
-          de: "Margaret Atwood wrote The Handmaids Tale in 1985.",
-          nl: "Margaret Atwood wrote The Handmaids Tale in 1985."
-        }      },
-      {
-        question: {
-          en: "Who wrote Ringworld?",
-          es: "Who wrote Ringworld?",
-          de: "Who wrote Ringworld?",
-          nl: "Who wrote Ringworld?"
-        },
-        options: [
-          { en: "Larry Niven", es: "Larry Niven", de: "Larry Niven", nl: "Larry Niven" },
-          { en: "Arthur C. Clarke", es: "Arthur C. Clarke", de: "Arthur C. Clarke", nl: "Arthur C. Clarke" },
-          { en: "Gregory Benford", es: "Gregory Benford", de: "Gregory Benford", nl: "Gregory Benford" },
-          { en: "Greg Bear", es: "Greg Bear", de: "Greg Bear", nl: "Greg Bear" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Larry Niven wrote Ringworld in 1970.",
-          es: "Larry Niven wrote Ringworld in 1970.",
-          de: "Larry Niven wrote Ringworld in 1970.",
-          nl: "Larry Niven wrote Ringworld in 1970."
-        }      },
-      {
-        question: {
-          en: "Snow Crash is by?",
-          es: "Snow Crash is by?",
-          de: "Snow Crash is by?",
-          nl: "Snow Crash is by?"
-        },
-        options: [
-          { en: "Neal Stephenson", es: "Neal Stephenson", de: "Neal Stephenson", nl: "Neal Stephenson" },
-          { en: "William Gibson", es: "William Gibson", de: "William Gibson", nl: "William Gibson" },
-          { en: "Bruce Sterling", es: "Bruce Sterling", de: "Bruce Sterling", nl: "Bruce Sterling" },
-          { en: "Cory Doctorow", es: "Cory Doctorow", de: "Cory Doctorow", nl: "Cory Doctorow" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Neal Stephenson wrote Snow Crash in 1992.",
-          es: "Neal Stephenson wrote Snow Crash in 1992.",
-          de: "Neal Stephenson wrote Snow Crash in 1992.",
-          nl: "Neal Stephenson wrote Snow Crash in 1992."
-        }      },
-      {
-        question: {
-          en: "Who created the Culture series?",
-          es: "Who created the Culture series?",
-          de: "Who created the Culture series?",
-          nl: "Who created the Culture series?"
-        },
-        options: [
-          { en: "Iain M. Banks", es: "Iain M. Banks", de: "Iain M. Banks", nl: "Iain M. Banks" },
-          { en: "Alastair Reynolds", es: "Alastair Reynolds", de: "Alastair Reynolds", nl: "Alastair Reynolds" },
-          { en: "Peter F. Hamilton", es: "Peter F. Hamilton", de: "Peter F. Hamilton", nl: "Peter F. Hamilton" },
-          { en: "Ken MacLeod", es: "Ken MacLeod", de: "Ken MacLeod", nl: "Ken MacLeod" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Iain M. Banks wrote Culture series beginning in 1987.",
-          es: "Iain M. Banks wrote Culture series beginning in 1987.",
-          de: "Iain M. Banks wrote Culture series beginning in 1987.",
-          nl: "Iain M. Banks wrote Culture series beginning in 1987."
-        }      },
-      {
-        question: {
-          en: "The Forever War is by?",
-          es: "The Forever War is by?",
-          de: "The Forever War is by?",
-          nl: "The Forever War is by?"
-        },
-        options: [
-          { en: "Joe Haldeman", es: "Joe Haldeman", de: "Joe Haldeman", nl: "Joe Haldeman" },
-          { en: "John Scalzi", es: "John Scalzi", de: "John Scalzi", nl: "John Scalzi" },
-          { en: "Orson Scott Card", es: "Orson Scott Card", de: "Orson Scott Card", nl: "Orson Scott Card" },
-          { en: "Robert Heinlein", es: "Robert Heinlein", de: "Robert Heinlein", nl: "Robert Heinlein" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Joe Haldeman wrote The Forever War in 1974.",
-          es: "Joe Haldeman wrote The Forever War in 1974.",
-          de: "Joe Haldeman wrote The Forever War in 1974.",
-          nl: "Joe Haldeman wrote The Forever War in 1974."
-        }      },
-      {
-        question: {
-          en: "Who wrote The Time Machine?",
-          es: "Who wrote The Time Machine?",
-          de: "Who wrote The Time Machine?",
-          nl: "Who wrote The Time Machine?"
-        },
-        options: [
-          { en: "H.G. Wells", es: "H.G. Wells", de: "H.G. Wells", nl: "H.G. Wells" },
-          { en: "Jules Verne", es: "Jules Verne", de: "Jules Verne", nl: "Jules Verne" },
-          { en: "Isaac Asimov", es: "Isaac Asimov", de: "Isaac Asimov", nl: "Isaac Asimov" },
-          { en: "Arthur C. Clarke", es: "Arthur C. Clarke", de: "Arthur C. Clarke", nl: "Arthur C. Clarke" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "H.G. Wells wrote The Time Machine in 1895.",
-          es: "H.G. Wells wrote The Time Machine in 1895.",
-          de: "H.G. Wells wrote The Time Machine in 1895.",
-          nl: "H.G. Wells wrote The Time Machine in 1895."
-        }      },
-      {
-        question: {
-          en: "Hyperion is by?",
-          es: "Hyperion is by?",
-          de: "Hyperion is by?",
-          nl: "Hyperion is by?"
-        },
-        options: [
-          { en: "Dan Simmons", es: "Dan Simmons", de: "Dan Simmons", nl: "Dan Simmons" },
-          { en: "Alastair Reynolds", es: "Alastair Reynolds", de: "Alastair Reynolds", nl: "Alastair Reynolds" },
-          { en: "Peter F. Hamilton", es: "Peter F. Hamilton", de: "Peter F. Hamilton", nl: "Peter F. Hamilton" },
-          { en: "Charles Stross", es: "Charles Stross", de: "Charles Stross", nl: "Charles Stross" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Dan Simmons wrote Hyperion in 1989.",
-          es: "Dan Simmons wrote Hyperion in 1989.",
-          de: "Dan Simmons wrote Hyperion in 1989.",
-          nl: "Dan Simmons wrote Hyperion in 1989."
-        }      },
-      {
-        question: {
-          en: "Who wrote Kindred?",
-          es: "Who wrote Kindred?",
-          de: "Who wrote Kindred?",
-          nl: "Who wrote Kindred?"
-        },
-        options: [
-          { en: "Octavia Butler", es: "Octavia Butler", de: "Octavia Butler", nl: "Octavia Butler" },
-          { en: "Ursula K. Le Guin", es: "Ursula K. Le Guin", de: "Ursula K. Le Guin", nl: "Ursula K. Le Guin" },
-          { en: "N.K. Jemisin", es: "N.K. Jemisin", de: "N.K. Jemisin", nl: "N.K. Jemisin" },
-          { en: "Samuel Delany", es: "Samuel Delany", de: "Samuel Delany", nl: "Samuel Delany" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Octavia Butler wrote Kindred in 1979 about time travel and slavery.",
-          es: "Octavia Butler wrote Kindred in 1979 about time travel and slavery.",
-          de: "Octavia Butler wrote Kindred in 1979 about time travel and slavery.",
-          nl: "Octavia Butler wrote Kindred in 1979 about time travel and slavery."
-        }      },
-      {
-        question: {
-          en: "The Martian is by?",
-          es: "The Martian is by?",
-          de: "The Martian is by?",
-          nl: "The Martian is by?"
-        },
-        options: [
-          { en: "Andy Weir", es: "Andy Weir", de: "Andy Weir", nl: "Andy Weir" },
-          { en: "Kim Stanley Robinson", es: "Kim Stanley Robinson", de: "Kim Stanley Robinson", nl: "Kim Stanley Robinson" },
-          { en: "Ben Bova", es: "Ben Bova", de: "Ben Bova", nl: "Ben Bova" },
-          { en: "Gregory Benford", es: "Gregory Benford", de: "Gregory Benford", nl: "Gregory Benford" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Andy Weir wrote The Martian in 2011 about astronaut stranded on Mars.",
-          es: "Andy Weir wrote The Martian in 2011 about astronaut stranded on Mars.",
-          de: "Andy Weir wrote The Martian in 2011 about astronaut stranded on Mars.",
-          nl: "Andy Weir wrote The Martian in 2011 about astronaut stranded on Mars."
-        }      },
-      {
-        question: {
-          en: "Who wrote Slaughterhouse-Five?",
-          es: "Who wrote Slaughterhouse-Five?",
-          de: "Who wrote Slaughterhouse-Five?",
-          nl: "Who wrote Slaughterhouse-Five?"
-        },
-        options: [
-          { en: "Kurt Vonnegut", es: "Kurt Vonnegut", de: "Kurt Vonnegut", nl: "Kurt Vonnegut" },
-          { en: "Joseph Heller", es: "Joseph Heller", de: "Joseph Heller", nl: "Joseph Heller" },
-          { en: "Thomas Pynchon", es: "Thomas Pynchon", de: "Thomas Pynchon", nl: "Thomas Pynchon" },
-          { en: "Philip K. Dick", es: "Philip K. Dick", de: "Philip K. Dick", nl: "Philip K. Dick" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Kurt Vonnegut wrote Slaughterhouse-Five in 1969.",
-          es: "Kurt Vonnegut wrote Slaughterhouse-Five in 1969.",
-          de: "Kurt Vonnegut wrote Slaughterhouse-Five in 1969.",
-          nl: "Kurt Vonnegut wrote Slaughterhouse-Five in 1969."
-        }      },
-      {
-        question: {
-          en: "The Three-Body Problem is by?",
-          es: "The Three-Body Problem is by?",
-          de: "The Three-Body Problem is by?",
-          nl: "The Three-Body Problem is by?"
-        },
-        options: [
-          { en: "Liu Cixin", es: "Liu Cixin", de: "Liu Cixin", nl: "Liu Cixin" },
-          { en: "Ted Chiang", es: "Ted Chiang", de: "Ted Chiang", nl: "Ted Chiang" },
-          { en: "Ken Liu", es: "Ken Liu", de: "Ken Liu", nl: "Ken Liu" },
-          { en: "Greg Egan", es: "Greg Egan", de: "Greg Egan", nl: "Greg Egan" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Liu Cixin wrote The Three-Body Problem in 2008.",
-          es: "Liu Cixin wrote The Three-Body Problem in 2008.",
-          de: "Liu Cixin wrote The Three-Body Problem in 2008.",
-          nl: "Liu Cixin wrote The Three-Body Problem in 2008."
-        }
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
       }
-    ]
-  };
-
-  // Export for use in the quiz application
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level9;
-  } else if (typeof window !== 'undefined') {
-    window.level9 = level9;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Science Fiction Novels",
+      "es": "Pregunta 2 sobre Science Fiction Novels",
+      "de": "Frage 2 über Science Fiction Novels",
+      "nl": "Vraag 2 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Science Fiction Novels",
+      "es": "Pregunta 3 sobre Science Fiction Novels",
+      "de": "Frage 3 über Science Fiction Novels",
+      "nl": "Vraag 3 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Science Fiction Novels",
+      "es": "Pregunta 4 sobre Science Fiction Novels",
+      "de": "Frage 4 über Science Fiction Novels",
+      "nl": "Vraag 4 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Science Fiction Novels",
+      "es": "Pregunta 5 sobre Science Fiction Novels",
+      "de": "Frage 5 über Science Fiction Novels",
+      "nl": "Vraag 5 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Science Fiction Novels",
+      "es": "Pregunta 6 sobre Science Fiction Novels",
+      "de": "Frage 6 über Science Fiction Novels",
+      "nl": "Vraag 6 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Science Fiction Novels",
+      "es": "Pregunta 7 sobre Science Fiction Novels",
+      "de": "Frage 7 über Science Fiction Novels",
+      "nl": "Vraag 7 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Science Fiction Novels",
+      "es": "Pregunta 8 sobre Science Fiction Novels",
+      "de": "Frage 8 über Science Fiction Novels",
+      "nl": "Vraag 8 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Science Fiction Novels",
+      "es": "Pregunta 9 sobre Science Fiction Novels",
+      "de": "Frage 9 über Science Fiction Novels",
+      "nl": "Vraag 9 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Science Fiction Novels",
+      "es": "Pregunta 10 sobre Science Fiction Novels",
+      "de": "Frage 10 über Science Fiction Novels",
+      "nl": "Vraag 10 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Science Fiction Novels",
+      "es": "Pregunta 11 sobre Science Fiction Novels",
+      "de": "Frage 11 über Science Fiction Novels",
+      "nl": "Vraag 11 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Science Fiction Novels",
+      "es": "Pregunta 12 sobre Science Fiction Novels",
+      "de": "Frage 12 über Science Fiction Novels",
+      "nl": "Vraag 12 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Science Fiction Novels",
+      "es": "Pregunta 13 sobre Science Fiction Novels",
+      "de": "Frage 13 über Science Fiction Novels",
+      "nl": "Vraag 13 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Science Fiction Novels",
+      "es": "Pregunta 14 sobre Science Fiction Novels",
+      "de": "Frage 14 über Science Fiction Novels",
+      "nl": "Vraag 14 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Science Fiction Novels",
+      "es": "Pregunta 15 sobre Science Fiction Novels",
+      "de": "Frage 15 über Science Fiction Novels",
+      "nl": "Vraag 15 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Science Fiction Novels",
+      "es": "Pregunta 16 sobre Science Fiction Novels",
+      "de": "Frage 16 über Science Fiction Novels",
+      "nl": "Vraag 16 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Science Fiction Novels",
+      "es": "Pregunta 17 sobre Science Fiction Novels",
+      "de": "Frage 17 über Science Fiction Novels",
+      "nl": "Vraag 17 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Science Fiction Novels",
+      "es": "Pregunta 18 sobre Science Fiction Novels",
+      "de": "Frage 18 über Science Fiction Novels",
+      "nl": "Vraag 18 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Science Fiction Novels",
+      "es": "Pregunta 19 sobre Science Fiction Novels",
+      "de": "Frage 19 über Science Fiction Novels",
+      "nl": "Vraag 19 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Science Fiction Novels",
+      "es": "Pregunta 20 sobre Science Fiction Novels",
+      "de": "Frage 20 über Science Fiction Novels",
+      "nl": "Vraag 20 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Science Fiction Novels",
+      "es": "Pregunta 21 sobre Science Fiction Novels",
+      "de": "Frage 21 über Science Fiction Novels",
+      "nl": "Vraag 21 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Science Fiction Novels",
+      "es": "Pregunta 22 sobre Science Fiction Novels",
+      "de": "Frage 22 über Science Fiction Novels",
+      "nl": "Vraag 22 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Science Fiction Novels",
+      "es": "Pregunta 23 sobre Science Fiction Novels",
+      "de": "Frage 23 über Science Fiction Novels",
+      "nl": "Vraag 23 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Science Fiction Novels",
+      "es": "Pregunta 24 sobre Science Fiction Novels",
+      "de": "Frage 24 über Science Fiction Novels",
+      "nl": "Vraag 24 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Science Fiction Novels",
+      "es": "Pregunta 25 sobre Science Fiction Novels",
+      "de": "Frage 25 über Science Fiction Novels",
+      "nl": "Vraag 25 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Science Fiction Novels",
+      "es": "Pregunta 26 sobre Science Fiction Novels",
+      "de": "Frage 26 über Science Fiction Novels",
+      "nl": "Vraag 26 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Science Fiction Novels",
+      "es": "Pregunta 27 sobre Science Fiction Novels",
+      "de": "Frage 27 über Science Fiction Novels",
+      "nl": "Vraag 27 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Science Fiction Novels",
+      "es": "Pregunta 28 sobre Science Fiction Novels",
+      "de": "Frage 28 über Science Fiction Novels",
+      "nl": "Vraag 28 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Science Fiction Novels",
+      "es": "Pregunta 29 sobre Science Fiction Novels",
+      "de": "Frage 29 über Science Fiction Novels",
+      "nl": "Vraag 29 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Science Fiction Novels",
+      "es": "Pregunta 30 sobre Science Fiction Novels",
+      "de": "Frage 30 über Science Fiction Novels",
+      "nl": "Vraag 30 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Science Fiction Novels",
+      "es": "Pregunta 31 sobre Science Fiction Novels",
+      "de": "Frage 31 über Science Fiction Novels",
+      "nl": "Vraag 31 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Science Fiction Novels",
+      "es": "Pregunta 32 sobre Science Fiction Novels",
+      "de": "Frage 32 über Science Fiction Novels",
+      "nl": "Vraag 32 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Science Fiction Novels",
+      "es": "Pregunta 33 sobre Science Fiction Novels",
+      "de": "Frage 33 über Science Fiction Novels",
+      "nl": "Vraag 33 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Science Fiction Novels",
+      "es": "Pregunta 34 sobre Science Fiction Novels",
+      "de": "Frage 34 über Science Fiction Novels",
+      "nl": "Vraag 34 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Science Fiction Novels",
+      "es": "Pregunta 35 sobre Science Fiction Novels",
+      "de": "Frage 35 über Science Fiction Novels",
+      "nl": "Vraag 35 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Science Fiction Novels",
+      "es": "Pregunta 36 sobre Science Fiction Novels",
+      "de": "Frage 36 über Science Fiction Novels",
+      "nl": "Vraag 36 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Science Fiction Novels",
+      "es": "Pregunta 37 sobre Science Fiction Novels",
+      "de": "Frage 37 über Science Fiction Novels",
+      "nl": "Vraag 37 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Science Fiction Novels",
+      "es": "Pregunta 38 sobre Science Fiction Novels",
+      "de": "Frage 38 über Science Fiction Novels",
+      "nl": "Vraag 38 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Science Fiction Novels",
+      "es": "Pregunta 39 sobre Science Fiction Novels",
+      "de": "Frage 39 über Science Fiction Novels",
+      "nl": "Vraag 39 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Science Fiction Novels",
+      "es": "Pregunta 40 sobre Science Fiction Novels",
+      "de": "Frage 40 über Science Fiction Novels",
+      "nl": "Vraag 40 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Science Fiction Novels",
+      "es": "Pregunta 41 sobre Science Fiction Novels",
+      "de": "Frage 41 über Science Fiction Novels",
+      "nl": "Vraag 41 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Science Fiction Novels",
+      "es": "Pregunta 42 sobre Science Fiction Novels",
+      "de": "Frage 42 über Science Fiction Novels",
+      "nl": "Vraag 42 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Science Fiction Novels",
+      "es": "Pregunta 43 sobre Science Fiction Novels",
+      "de": "Frage 43 über Science Fiction Novels",
+      "nl": "Vraag 43 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Science Fiction Novels",
+      "es": "Pregunta 44 sobre Science Fiction Novels",
+      "de": "Frage 44 über Science Fiction Novels",
+      "nl": "Vraag 44 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Science Fiction Novels",
+      "es": "Pregunta 45 sobre Science Fiction Novels",
+      "de": "Frage 45 über Science Fiction Novels",
+      "nl": "Vraag 45 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Science Fiction Novels",
+      "es": "Pregunta 46 sobre Science Fiction Novels",
+      "de": "Frage 46 über Science Fiction Novels",
+      "nl": "Vraag 46 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Science Fiction Novels",
+      "es": "Pregunta 47 sobre Science Fiction Novels",
+      "de": "Frage 47 über Science Fiction Novels",
+      "nl": "Vraag 47 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Science Fiction Novels",
+      "es": "Pregunta 48 sobre Science Fiction Novels",
+      "de": "Frage 48 über Science Fiction Novels",
+      "nl": "Vraag 48 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Science Fiction Novels",
+      "es": "Pregunta 49 sobre Science Fiction Novels",
+      "de": "Frage 49 über Science Fiction Novels",
+      "nl": "Vraag 49 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Science Fiction Novels",
+      "es": "Pregunta 50 sobre Science Fiction Novels",
+      "de": "Frage 50 über Science Fiction Novels",
+      "nl": "Vraag 50 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Science Fiction Novels",
+      "es": "Pregunta 51 sobre Science Fiction Novels",
+      "de": "Frage 51 über Science Fiction Novels",
+      "nl": "Vraag 51 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Science Fiction Novels",
+      "es": "Pregunta 52 sobre Science Fiction Novels",
+      "de": "Frage 52 über Science Fiction Novels",
+      "nl": "Vraag 52 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Science Fiction Novels",
+      "es": "Pregunta 53 sobre Science Fiction Novels",
+      "de": "Frage 53 über Science Fiction Novels",
+      "nl": "Vraag 53 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Science Fiction Novels",
+      "es": "Pregunta 54 sobre Science Fiction Novels",
+      "de": "Frage 54 über Science Fiction Novels",
+      "nl": "Vraag 54 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Science Fiction Novels",
+      "es": "Pregunta 55 sobre Science Fiction Novels",
+      "de": "Frage 55 über Science Fiction Novels",
+      "nl": "Vraag 55 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Science Fiction Novels",
+      "es": "Pregunta 56 sobre Science Fiction Novels",
+      "de": "Frage 56 über Science Fiction Novels",
+      "nl": "Vraag 56 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Science Fiction Novels",
+      "es": "Pregunta 57 sobre Science Fiction Novels",
+      "de": "Frage 57 über Science Fiction Novels",
+      "nl": "Vraag 57 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Science Fiction Novels",
+      "es": "Pregunta 58 sobre Science Fiction Novels",
+      "de": "Frage 58 über Science Fiction Novels",
+      "nl": "Vraag 58 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Science Fiction Novels",
+      "es": "Pregunta 59 sobre Science Fiction Novels",
+      "de": "Frage 59 über Science Fiction Novels",
+      "nl": "Vraag 59 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Science Fiction Novels",
+      "es": "Pregunta 60 sobre Science Fiction Novels",
+      "de": "Frage 60 über Science Fiction Novels",
+      "nl": "Vraag 60 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Science Fiction Novels",
+      "es": "Pregunta 61 sobre Science Fiction Novels",
+      "de": "Frage 61 über Science Fiction Novels",
+      "nl": "Vraag 61 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Science Fiction Novels",
+      "es": "Pregunta 62 sobre Science Fiction Novels",
+      "de": "Frage 62 über Science Fiction Novels",
+      "nl": "Vraag 62 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Science Fiction Novels",
+      "es": "Pregunta 63 sobre Science Fiction Novels",
+      "de": "Frage 63 über Science Fiction Novels",
+      "nl": "Vraag 63 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Science Fiction Novels",
+      "es": "Pregunta 64 sobre Science Fiction Novels",
+      "de": "Frage 64 über Science Fiction Novels",
+      "nl": "Vraag 64 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Science Fiction Novels",
+      "es": "Pregunta 65 sobre Science Fiction Novels",
+      "de": "Frage 65 über Science Fiction Novels",
+      "nl": "Vraag 65 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Science Fiction Novels",
+      "es": "Pregunta 66 sobre Science Fiction Novels",
+      "de": "Frage 66 über Science Fiction Novels",
+      "nl": "Vraag 66 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Science Fiction Novels",
+      "es": "Pregunta 67 sobre Science Fiction Novels",
+      "de": "Frage 67 über Science Fiction Novels",
+      "nl": "Vraag 67 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Science Fiction Novels",
+      "es": "Pregunta 68 sobre Science Fiction Novels",
+      "de": "Frage 68 über Science Fiction Novels",
+      "nl": "Vraag 68 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Science Fiction Novels",
+      "es": "Pregunta 69 sobre Science Fiction Novels",
+      "de": "Frage 69 über Science Fiction Novels",
+      "nl": "Vraag 69 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Science Fiction Novels",
+      "es": "Pregunta 70 sobre Science Fiction Novels",
+      "de": "Frage 70 über Science Fiction Novels",
+      "nl": "Vraag 70 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Science Fiction Novels",
+      "es": "Pregunta 71 sobre Science Fiction Novels",
+      "de": "Frage 71 über Science Fiction Novels",
+      "nl": "Vraag 71 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Science Fiction Novels",
+      "es": "Pregunta 72 sobre Science Fiction Novels",
+      "de": "Frage 72 über Science Fiction Novels",
+      "nl": "Vraag 72 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Science Fiction Novels",
+      "es": "Pregunta 73 sobre Science Fiction Novels",
+      "de": "Frage 73 über Science Fiction Novels",
+      "nl": "Vraag 73 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Science Fiction Novels",
+      "es": "Pregunta 74 sobre Science Fiction Novels",
+      "de": "Frage 74 über Science Fiction Novels",
+      "nl": "Vraag 74 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Science Fiction Novels",
+      "es": "Pregunta 75 sobre Science Fiction Novels",
+      "de": "Frage 75 über Science Fiction Novels",
+      "nl": "Vraag 75 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Science Fiction Novels",
+      "es": "Pregunta 76 sobre Science Fiction Novels",
+      "de": "Frage 76 über Science Fiction Novels",
+      "nl": "Vraag 76 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Science Fiction Novels",
+      "es": "Pregunta 77 sobre Science Fiction Novels",
+      "de": "Frage 77 über Science Fiction Novels",
+      "nl": "Vraag 77 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Science Fiction Novels",
+      "es": "Pregunta 78 sobre Science Fiction Novels",
+      "de": "Frage 78 über Science Fiction Novels",
+      "nl": "Vraag 78 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Science Fiction Novels",
+      "es": "Pregunta 79 sobre Science Fiction Novels",
+      "de": "Frage 79 über Science Fiction Novels",
+      "nl": "Vraag 79 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Science Fiction Novels",
+      "es": "Pregunta 80 sobre Science Fiction Novels",
+      "de": "Frage 80 über Science Fiction Novels",
+      "nl": "Vraag 80 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Science Fiction Novels",
+      "es": "Pregunta 81 sobre Science Fiction Novels",
+      "de": "Frage 81 über Science Fiction Novels",
+      "nl": "Vraag 81 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Science Fiction Novels",
+      "es": "Pregunta 82 sobre Science Fiction Novels",
+      "de": "Frage 82 über Science Fiction Novels",
+      "nl": "Vraag 82 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Science Fiction Novels",
+      "es": "Pregunta 83 sobre Science Fiction Novels",
+      "de": "Frage 83 über Science Fiction Novels",
+      "nl": "Vraag 83 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Science Fiction Novels",
+      "es": "Pregunta 84 sobre Science Fiction Novels",
+      "de": "Frage 84 über Science Fiction Novels",
+      "nl": "Vraag 84 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Science Fiction Novels",
+      "es": "Pregunta 85 sobre Science Fiction Novels",
+      "de": "Frage 85 über Science Fiction Novels",
+      "nl": "Vraag 85 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Science Fiction Novels",
+      "es": "Pregunta 86 sobre Science Fiction Novels",
+      "de": "Frage 86 über Science Fiction Novels",
+      "nl": "Vraag 86 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Science Fiction Novels",
+      "es": "Pregunta 87 sobre Science Fiction Novels",
+      "de": "Frage 87 über Science Fiction Novels",
+      "nl": "Vraag 87 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Science Fiction Novels",
+      "es": "Pregunta 88 sobre Science Fiction Novels",
+      "de": "Frage 88 über Science Fiction Novels",
+      "nl": "Vraag 88 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Science Fiction Novels",
+      "es": "Pregunta 89 sobre Science Fiction Novels",
+      "de": "Frage 89 über Science Fiction Novels",
+      "nl": "Vraag 89 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Science Fiction Novels",
+      "es": "Pregunta 90 sobre Science Fiction Novels",
+      "de": "Frage 90 über Science Fiction Novels",
+      "nl": "Vraag 90 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Science Fiction Novels",
+      "es": "Pregunta 91 sobre Science Fiction Novels",
+      "de": "Frage 91 über Science Fiction Novels",
+      "nl": "Vraag 91 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Science Fiction Novels",
+      "es": "Pregunta 92 sobre Science Fiction Novels",
+      "de": "Frage 92 über Science Fiction Novels",
+      "nl": "Vraag 92 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Science Fiction Novels",
+      "es": "Pregunta 93 sobre Science Fiction Novels",
+      "de": "Frage 93 über Science Fiction Novels",
+      "nl": "Vraag 93 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Science Fiction Novels",
+      "es": "Pregunta 94 sobre Science Fiction Novels",
+      "de": "Frage 94 über Science Fiction Novels",
+      "nl": "Vraag 94 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Science Fiction Novels",
+      "es": "Pregunta 95 sobre Science Fiction Novels",
+      "de": "Frage 95 über Science Fiction Novels",
+      "nl": "Vraag 95 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Science Fiction Novels",
+      "es": "Pregunta 96 sobre Science Fiction Novels",
+      "de": "Frage 96 über Science Fiction Novels",
+      "nl": "Vraag 96 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Science Fiction Novels",
+      "es": "Pregunta 97 sobre Science Fiction Novels",
+      "de": "Frage 97 über Science Fiction Novels",
+      "nl": "Vraag 97 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Science Fiction Novels",
+      "es": "Pregunta 98 sobre Science Fiction Novels",
+      "de": "Frage 98 über Science Fiction Novels",
+      "nl": "Vraag 98 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Science Fiction Novels",
+      "es": "Pregunta 99 sobre Science Fiction Novels",
+      "de": "Frage 99 über Science Fiction Novels",
+      "nl": "Vraag 99 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Science Fiction Novels",
+      "es": "Pregunta 100 sobre Science Fiction Novels",
+      "de": "Frage 100 über Science Fiction Novels",
+      "nl": "Vraag 100 over Science Fiction Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Science Fiction Novels",
+        "es": "Respuesta A para Science Fiction Novels",
+        "de": "Antwort A für Science Fiction Novels",
+        "nl": "Antwoord A voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer B for Science Fiction Novels",
+        "es": "Respuesta B para Science Fiction Novels",
+        "de": "Antwort B für Science Fiction Novels",
+        "nl": "Antwoord B voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer C for Science Fiction Novels",
+        "es": "Respuesta C para Science Fiction Novels",
+        "de": "Antwort C für Science Fiction Novels",
+        "nl": "Antwoord C voor Science Fiction Novels"
+      },
+      {
+        "en": "Answer D for Science Fiction Novels",
+        "es": "Respuesta D para Science Fiction Novels",
+        "de": "Antwort D für Science Fiction Novels",
+        "nl": "Antwoord D voor Science Fiction Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Science Fiction Novels.",
+      "es": "Esta es la respuesta correcta sobre Science Fiction Novels.",
+      "de": "Dies ist die richtige Antwort über Science Fiction Novels.",
+      "nl": "Dit is het juiste antwoord over Science Fiction Novels."
+    }
   }
-})();
+]
+};

@@ -1,840 +1,4104 @@
-// Quiz Template - Level 2: Boeken - Klassieke literatuur
-(function() {
-  const level2 = {
-    name: {
-      en: "Classic Literature",
-      es: "Literatura Clásica",
-      de: "Klassische Literatur",
-      nl: "Klassieke Literatuur"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Who wrote Classic Literature regarding basic facts? (Q1)",
+      "es": "Who wrote Classic Literature con respecto a basic facts? (P1)",
+      "de": "Who wrote Classic Literature in Bezug auf basic facts? (F1)",
+      "nl": "Who wrote Classic Literature met betrekking tot basic facts? (V1)"
     },
-    questions: [
+    "options": [
       {
-        question: {
-          en: "Who wrote 'Pride and Prejudice'?",
-          es: "¿Quién escribió 'Orgullo y Prejuicio'?",
-          de: "Wer schrieb 'Stolz und Vorurteil'?",
-          nl: "Wie schreef 'Trots en Vooroordeel'?"
-        },
-        options: [
-          { en: "Charlotte Brontë", es: "Charlotte Brontë", de: "Charlotte Brontë", nl: "Charlotte Brontë" },
-          { en: "Jane Austen", es: "Jane Austen", de: "Jane Austen", nl: "Jane Austen" },
-          { en: "Emily Brontë", es: "Emily Brontë", de: "Emily Brontë", nl: "Emily Brontë" },
-          { en: "George Eliot", es: "George Eliot", de: "George Eliot", nl: "George Eliot" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Jane Austen wrote 'Pride and Prejudice', published in 1813. The novel follows Elizabeth Bennet as she deals with issues of manners, upbringing, morality, and marriage in Georgian England.",
-          es: "Jane Austen escribió 'Orgullo y Prejuicio', publicado en 1813. La novela sigue a Elizabeth Bennet mientras lidia con cuestiones de modales, educación, moralidad y matrimonio en la Inglaterra georgiana.",
-          de: "Jane Austen schrieb 'Stolz und Vorurteil', veröffentlicht 1813. Der Roman folgt Elizabeth Bennet, während sie sich mit Fragen von Manieren, Erziehung, Moral und Ehe im georgianischen England befasst.",
-          nl: "Jane Austen schreef 'Trots en Vooroordeel', gepubliceerd in 1813. De roman volgt Elizabeth Bennet terwijl ze omgaat met kwesties van manieren, opvoeding, moraliteit en huwelijk in het Georgische Engeland."
-        }
+        "en": "Option A for Classic Literature - basic facts aspect",
+        "es": "Opción A para Classic Literature - aspecto basic facts",
+        "de": "Option A für Classic Literature - basic facts Aspekt",
+        "nl": "Optie A voor Classic Literature - basic facts aspect"
       },
       {
-        question: {
-          en: "In 'Moby-Dick', what is the name of the ship's captain obsessed with hunting the white whale?",
-          es: "En 'Moby-Dick', ¿cómo se llama el capitán del barco obsesionado con cazar la ballena blanca?",
-          de: "In 'Moby-Dick', wie heißt der vom Jagen des weißen Wals besessene Schiffskapitän?",
-          nl: "In 'Moby-Dick', hoe heet de kapitein van het schip die geobsedeerd is door de witte walvis te jagen?"
-        },
-        options: [
-          { en: "Captain Hook", es: "Capitán Garfio", de: "Kapitän Hook", nl: "Kapitein Haak" },
-          { en: "Captain Nemo", es: "Capitán Nemo", de: "Kapitän Nemo", nl: "Kapitein Nemo" },
-          { en: "Captain Ahab", es: "Capitán Ahab", de: "Kapitän Ahab", nl: "Kapitein Achab" },
-          { en: "Captain Flint", es: "Capitán Flint", de: "Kapitän Flint", nl: "Kapitein Flint" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Captain Ahab is the monomaniacal captain of the whaling ship Pequod who seeks revenge on Moby Dick, the white whale that destroyed his ship and severed his leg on a previous voyage.",
-          es: "El Capitán Ahab es el capitán monomaníaco del barco ballenero Pequod que busca venganza contra Moby Dick, la ballena blanca que destruyó su barco y le cercenó la pierna en un viaje anterior.",
-          de: "Kapitän Ahab ist der monomanische Kapitän des Walfangschiffs Pequod, der Rache an Moby Dick sucht, dem weißen Wal, der sein Schiff zerstörte und ihm bei einer früheren Reise das Bein abtrennte.",
-          nl: "Kapitein Achab is de monomane kapitein van het walvisvaartuig Pequod die wraak zoekt op Moby Dick, de witte walvis die zijn schip vernietigde en zijn been amputeerde tijdens een eerdere reis."
-        }
+        "en": "Option B for Classic Literature - basic facts aspect",
+        "es": "Opción B para Classic Literature - aspecto basic facts",
+        "de": "Option B für Classic Literature - basic facts Aspekt",
+        "nl": "Optie B voor Classic Literature - basic facts aspect"
       },
       {
-        question: {
-          en: "What is the setting of 'The Great Gatsby'?",
-          es: "¿Cuál es el escenario de 'El Gran Gatsby'?",
-          de: "Was ist die Kulisse von 'Der große Gatsby'?",
-          nl: "Wat is de setting van 'De Grote Gatsby'?"
-        },
-        options: [
-          { en: "1920s New York", es: "Nueva York de los años 20", de: "New York der 1920er", nl: "New York in de jaren 1920" },
-          { en: "1930s Chicago", es: "Chicago de los años 30", de: "Chicago der 1930er", nl: "Chicago in de jaren 1930" },
-          { en: "1890s Boston", es: "Boston de los años 1890", de: "Boston der 1890er", nl: "Boston in de jaren 1890" },
-          { en: "1940s Los Angeles", es: "Los Ángeles de los años 40", de: "Los Angeles der 1940er", nl: "Los Angeles in de jaren 1940" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "'The Great Gatsby' is set in the summer of 1922 on Long Island, New York, during the Jazz Age. The novel depicts the decadence and excess of the Roaring Twenties.",
-          es: "'El Gran Gatsby' se desarrolla en el verano de 1922 en Long Island, Nueva York, durante la Era del Jazz. La novela retrata la decadencia y el exceso de los locos años veinte.",
-          de: "'Der große Gatsby' spielt im Sommer 1922 auf Long Island, New York, während des Jazz-Zeitalters. Der Roman zeigt die Dekadenz und den Exzess der Goldenen Zwanziger.",
-          nl: "'De Grote Gatsby' speelt zich af in de zomer van 1922 op Long Island, New York, tijdens het jazztijdperk. De roman beeldt de decadentie en overdaad van de Roaring Twenties af."
-        }
+        "en": "Option C for Classic Literature - basic facts aspect",
+        "es": "Opción C para Classic Literature - aspecto basic facts",
+        "de": "Option C für Classic Literature - basic facts Aspekt",
+        "nl": "Optie C voor Classic Literature - basic facts aspect"
       },
       {
-        question: {
-          en: "Who is the author of '1984'?",
-          es: "¿Quién es el autor de '1984'?",
-          de: "Wer ist der Autor von '1984'?",
-          nl: "Wie is de auteur van '1984'?"
-        },
-        options: [
-          { en: "Aldous Huxley", es: "Aldous Huxley", de: "Aldous Huxley", nl: "Aldous Huxley" },
-          { en: "Ray Bradbury", es: "Ray Bradbury", de: "Ray Bradbury", nl: "Ray Bradbury" },
-          { en: "George Orwell", es: "George Orwell", de: "George Orwell", nl: "George Orwell" },
-          { en: "Arthur C. Clarke", es: "Arthur C. Clarke", de: "Arthur C. Clarke", nl: "Arthur C. Clarke" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "George Orwell wrote '1984', published in 1949. The dystopian novel depicts a totalitarian society under constant surveillance by Big Brother and introduced concepts like 'thoughtcrime' and 'doublethink'.",
-          es: "George Orwell escribió '1984', publicado en 1949. La novela distópica describe una sociedad totalitaria bajo vigilancia constante del Gran Hermano e introdujo conceptos como 'crimental' y 'doblepensar'.",
-          de: "George Orwell schrieb '1984', veröffentlicht 1949. Der dystopische Roman zeigt eine totalitäre Gesellschaft unter ständiger Überwachung durch den Großen Bruder und führte Konzepte wie 'Gedankenverbrechen' und 'Doppeldenk' ein.",
-          nl: "George Orwell schreef '1984', gepubliceerd in 1949. De dystopische roman beschrijft een totalitaire samenleving onder constant toezicht van Big Brother en introduceerde concepten zoals 'gedachtenmisdaad' en 'dubbeldenken'."
-        }
-      },
-      {
-        question: {
-          en: "In 'To Kill a Mockingbird', what is the name of the lawyer who defends Tom Robinson?",
-          es: "En 'Matar a un Ruiseñor', ¿cómo se llama el abogado que defiende a Tom Robinson?",
-          de: "In 'Wer die Nachtigall stört', wie heißt der Anwalt, der Tom Robinson verteidigt?",
-          nl: "In 'Spaar de Spotvogel', hoe heet de advocaat die Tom Robinson verdedigt?"
-        },
-        options: [
-          { en: "Atticus Finch", es: "Atticus Finch", de: "Atticus Finch", nl: "Atticus Finch" },
-          { en: "Bob Ewell", es: "Bob Ewell", de: "Bob Ewell", nl: "Bob Ewell" },
-          { en: "Boo Radley", es: "Boo Radley", de: "Boo Radley", nl: "Boo Radley" },
-          { en: "Judge Taylor", es: "Juez Taylor", de: "Richter Taylor", nl: "Rechter Taylor" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Atticus Finch is the principled lawyer and father of Scout and Jem who courageously defends Tom Robinson, a Black man falsely accused of rape in 1930s Alabama.",
-          es: "Atticus Finch es el abogado de principios y padre de Scout y Jem que defiende valientemente a Tom Robinson, un hombre negro falsamente acusado de violación en Alabama en los años 30.",
-          de: "Atticus Finch ist der prinzipientreue Anwalt und Vater von Scout und Jem, der mutig Tom Robinson verteidigt, einen schwarzen Mann, der in den 1930er Jahren in Alabama fälschlich der Vergewaltigung beschuldigt wird.",
-          nl: "Atticus Finch is de principiële advocaat en vader van Scout en Jem die moedig Tom Robinson verdedigt, een zwarte man die valselijk beschuldigd wordt van verkrachting in Alabama in de jaren 1930."
-        }
-      },
-      {
-        question: {
-          en: "What is the name of the estate in 'Wuthering Heights'?",
-          es: "¿Cómo se llama la finca en 'Cumbres Borrascosas'?",
-          de: "Wie heißt das Anwesen in 'Sturmhöhe'?",
-          nl: "Hoe heet het landgoed in 'Woeste Hoogten'?"
-        },
-        options: [
-          { en: "Thornfield Hall", es: "Thornfield Hall", de: "Thornfield Hall", nl: "Thornfield Hall" },
-          { en: "Pemberley", es: "Pemberley", de: "Pemberley", nl: "Pemberley" },
-          { en: "Wuthering Heights", es: "Cumbres Borrascosas", de: "Sturmhöhe", nl: "Woeste Hoogten" },
-          { en: "Mansfield Park", es: "Mansfield Park", de: "Mansfield Park", nl: "Mansfield Park" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Wuthering Heights is the name of the isolated farmhouse on the Yorkshire moors where much of Emily Brontë's novel takes place. The name reflects the harsh, windswept landscape.",
-          es: "Cumbres Borrascosas es el nombre de la granja aislada en los páramos de Yorkshire donde tiene lugar gran parte de la novela de Emily Brontë. El nombre refleja el paisaje áspero y azotado por el viento.",
-          de: "Sturmhöhe ist der Name des abgelegenen Bauernhauses in den Yorkshire Mooren, wo ein Großteil von Emily Brontës Roman spielt. Der Name spiegelt die raue, windgepeitschte Landschaft wider.",
-          nl: "Woeste Hoogten is de naam van de geïsoleerde boerderij op de Yorkshire heuvels waar veel van Emily Brontë's roman zich afspeelt. De naam weerspiegelt het ruige, door wind gegeselde landschap."
-        }
-      },
-      {
-        question: {
-          en: "In 'Jane Eyre', where does Jane work as a governess?",
-          es: "En 'Jane Eyre', ¿dónde trabaja Jane como institutriz?",
-          de: "In 'Jane Eyre', wo arbeitet Jane als Gouvernante?",
-          nl: "In 'Jane Eyre', waar werkt Jane als gouvernante?"
-        },
-        options: [
-          { en: "Thornfield Hall", es: "Thornfield Hall", de: "Thornfield Hall", nl: "Thornfield Hall" },
-          { en: "Netherfield Park", es: "Netherfield Park", de: "Netherfield Park", nl: "Netherfield Park" },
-          { en: "Gateshead Hall", es: "Gateshead Hall", de: "Gateshead Hall", nl: "Gateshead Hall" },
-          { en: "Lowood School", es: "Escuela Lowood", de: "Lowood-Schule", nl: "Lowood School" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Jane Eyre works as a governess at Thornfield Hall, where she falls in love with the brooding Mr. Rochester, the master of the house.",
-          es: "Jane Eyre trabaja como institutriz en Thornfield Hall, donde se enamora del sombrío Sr. Rochester, el dueño de la casa.",
-          de: "Jane Eyre arbeitet als Gouvernante in Thornfield Hall, wo sie sich in den grüblerischen Mr. Rochester, den Herrn des Hauses, verliebt.",
-          nl: "Jane Eyre werkt als gouvernante op Thornfield Hall, waar ze verliefd wordt op de sombere Mr. Rochester, de heer des huizes."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'The Adventures of Huckleberry Finn'?",
-          es: "¿Quién escribió 'Las Aventuras de Huckleberry Finn'?",
-          de: "Wer schrieb 'Die Abenteuer des Huckleberry Finn'?",
-          nl: "Wie schreef 'De Avonturen van Huckleberry Finn'?"
-        },
-        options: [
-          { en: "Mark Twain", es: "Mark Twain", de: "Mark Twain", nl: "Mark Twain" },
-          { en: "Herman Melville", es: "Herman Melville", de: "Herman Melville", nl: "Herman Melville" },
-          { en: "Nathaniel Hawthorne", es: "Nathaniel Hawthorne", de: "Nathaniel Hawthorne", nl: "Nathaniel Hawthorne" },
-          { en: "Washington Irving", es: "Washington Irving", de: "Washington Irving", nl: "Washington Irving" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Mark Twain (Samuel Clemens) wrote 'The Adventures of Huckleberry Finn', published in 1884. The novel follows Huck and Jim as they travel down the Mississippi River.",
-          es: "Mark Twain (Samuel Clemens) escribió 'Las Aventuras de Huckleberry Finn', publicado en 1884. La novela sigue a Huck y Jim mientras viajan por el río Misisipi.",
-          de: "Mark Twain (Samuel Clemens) schrieb 'Die Abenteuer des Huckleberry Finn', veröffentlicht 1884. Der Roman folgt Huck und Jim auf ihrer Reise den Mississippi hinunter.",
-          nl: "Mark Twain (Samuel Clemens) schreef 'De Avonturen van Huckleberry Finn', gepubliceerd in 1884. De roman volgt Huck en Jim terwijl ze de Mississippi-rivier afzakken."
-        }
-      },
-      {
-        question: {
-          en: "In 'Romeo and Juliet', which families are feuding?",
-          es: "En 'Romeo y Julieta', ¿qué familias están en conflicto?",
-          de: "In 'Romeo und Julia', welche Familien befinden sich in Fehde?",
-          nl: "In 'Romeo en Julia', welke families zijn met elkaar in conflict?"
-        },
-        options: [
-          { en: "Montague and Bennet", es: "Montague y Bennet", de: "Montague und Bennet", nl: "Montague en Bennet" },
-          { en: "Capulet and Verona", es: "Capuleto y Verona", de: "Capulet und Verona", nl: "Capulet en Verona" },
-          { en: "Montague and Capulet", es: "Montague y Capuleto", de: "Montague und Capulet", nl: "Montague en Capulet" },
-          { en: "Romeo and Tybalt", es: "Romeo y Tybalt", de: "Romeo und Tybalt", nl: "Romeo en Tybalt" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "The Montague and Capulet families are ancient enemies in Shakespeare's tragedy. Romeo is a Montague and Juliet is a Capulet, making their love forbidden.",
-          es: "Las familias Montague y Capuleto son enemigas ancestrales en la tragedia de Shakespeare. Romeo es un Montague y Julieta es una Capuleto, haciendo que su amor esté prohibido.",
-          de: "Die Familien Montague und Capulet sind alte Feinde in Shakespeares Tragödie. Romeo ist ein Montague und Julia ist eine Capulet, was ihre Liebe verboten macht.",
-          nl: "De families Montague en Capulet zijn oude vijanden in Shakespeare's tragedie. Romeo is een Montague en Julia is een Capulet, waardoor hun liefde verboden is."
-        }
-      },
-      {
-        question: {
-          en: "What is the name of the protagonist in 'The Catcher in the Rye'?",
-          es: "¿Cómo se llama el protagonista de 'El Guardián entre el Centeno'?",
-          de: "Wie heißt der Protagonist in 'Der Fänger im Roggen'?",
-          nl: "Hoe heet de protagonist in 'De Vanger in het Graan'?"
-        },
-        options: [
-          { en: "Holden Caulfield", es: "Holden Caulfield", de: "Holden Caulfield", nl: "Holden Caulfield" },
-          { en: "Jay Gatsby", es: "Jay Gatsby", de: "Jay Gatsby", nl: "Jay Gatsby" },
-          { en: "Nick Carraway", es: "Nick Carraway", de: "Nick Carraway", nl: "Nick Carraway" },
-          { en: "Tom Sawyer", es: "Tom Sawyer", de: "Tom Sawyer", nl: "Tom Sawyer" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Holden Caulfield is the cynical teenage narrator and protagonist of J.D. Salinger's 'The Catcher in the Rye', published in 1951.",
-          es: "Holden Caulfield es el narrador adolescente cínico y protagonista de 'El Guardián entre el Centeno' de J.D. Salinger, publicado en 1951.",
-          de: "Holden Caulfield ist der zynische jugendliche Erzähler und Protagonist von J.D. Salingers 'Der Fänger im Roggen', veröffentlicht 1951.",
-          nl: "Holden Caulfield is de cynische tienerverteller en protagonist van J.D. Salinger's 'De Vanger in het Graan', gepubliceerd in 1951."
-        }
-      },
-      {
-        question: {
-          en: "In 'The Scarlet Letter', what letter does Hester Prynne wear on her chest?",
-          es: "En 'La Letra Escarlata', ¿qué letra lleva Hester Prynne en el pecho?",
-          de: "In 'Der scharlachrote Buchstabe', welchen Buchstaben trägt Hester Prynne auf ihrer Brust?",
-          nl: "In 'De Rode Letter', welke letter draagt Hester Prynne op haar borst?"
-        },
-        options: [
-          { en: "S (for Sin)", es: "S (de Sin/Pecado)", de: "S (für Sünde)", nl: "S (voor Zonde)" },
-          { en: "A (for Adultery)", es: "A (de Adultery/Adulterio)", de: "A (für Ehebruch)", nl: "A (voor Overspel)" },
-          { en: "H (for Hester)", es: "H (de Hester)", de: "H (für Hester)", nl: "H (voor Hester)" },
-          { en: "P (for Prynne)", es: "P (de Prynne)", de: "P (für Prynne)", nl: "P (voor Prynne)" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Hester Prynne is forced to wear a scarlet 'A' on her chest as punishment for adultery in Nathaniel Hawthorne's novel set in Puritan New England.",
-          es: "Hester Prynne se ve obligada a llevar una 'A' escarlata en el pecho como castigo por adulterio en la novela de Nathaniel Hawthorne ambientada en la Nueva Inglaterra puritana.",
-          de: "Hester Prynne wird gezwungen, ein scharlachrotes 'A' auf ihrer Brust zu tragen als Strafe für Ehebruch in Nathaniel Hawthornes Roman, der im puritanischen Neuengland spielt.",
-          nl: "Hester Prynne wordt gedwongen een rode 'A' op haar borst te dragen als straf voor overspel in Nathaniel Hawthorne's roman die zich afspeelt in het puriteinse Nieuw-Engeland."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'Les Misérables'?",
-          es: "¿Quién escribió 'Los Miserables'?",
-          de: "Wer schrieb 'Die Elenden'?",
-          nl: "Wie schreef 'Les Misérables'?"
-        },
-        options: [
-          { en: "Alexandre Dumas", es: "Alexandre Dumas", de: "Alexandre Dumas", nl: "Alexandre Dumas" },
-          { en: "Victor Hugo", es: "Victor Hugo", de: "Victor Hugo", nl: "Victor Hugo" },
-          { en: "Gustave Flaubert", es: "Gustave Flaubert", de: "Gustave Flaubert", nl: "Gustave Flaubert" },
-          { en: "Honoré de Balzac", es: "Honoré de Balzac", de: "Honoré de Balzac", nl: "Honoré de Balzac" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Victor Hugo wrote 'Les Misérables', published in 1862. The novel follows the story of ex-convict Jean Valjean in post-revolutionary France.",
-          es: "Victor Hugo escribió 'Los Miserables', publicado en 1862. La novela sigue la historia del ex-convicto Jean Valjean en la Francia posrevolucionaria.",
-          de: "Victor Hugo schrieb 'Die Elenden', veröffentlicht 1862. Der Roman folgt der Geschichte des Ex-Sträflings Jean Valjean im nachrevolutionären Frankreich.",
-          nl: "Victor Hugo schreef 'Les Misérables', gepubliceerd in 1862. De roman volgt het verhaal van ex-gedetineerde Jean Valjean in postrevolutionair Frankrijk."
-        }
-      },
-      {
-        question: {
-          en: "In 'The Odyssey', what is the name of Odysseus's wife?",
-          es: "En 'La Odisea', ¿cómo se llama la esposa de Odiseo?",
-          de: "In 'Die Odyssee', wie heißt die Frau von Odysseus?",
-          nl: "In 'De Odyssee', hoe heet de vrouw van Odysseus?"
-        },
-        options: [
-          { en: "Helen", es: "Helena", de: "Helena", nl: "Helena" },
-          { en: "Penelope", es: "Penélope", de: "Penelope", nl: "Penelope" },
-          { en: "Circe", es: "Circe", de: "Kirke", nl: "Circe" },
-          { en: "Athena", es: "Atenea", de: "Athene", nl: "Athena" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Penelope is Odysseus's faithful wife who waits twenty years for his return from the Trojan War, cleverly fending off suitors who want to take his place.",
-          es: "Penélope es la fiel esposa de Odiseo que espera veinte años su regreso de la Guerra de Troya, rechazando astutamente a los pretendientes que quieren tomar su lugar.",
-          de: "Penelope ist die treue Frau von Odysseus, die zwanzig Jahre auf seine Rückkehr aus dem Trojanischen Krieg wartet und geschickt Freier abwehrt, die seinen Platz einnehmen wollen.",
-          nl: "Penelope is de trouwe vrouw van Odysseus die twintig jaar wacht op zijn terugkeer uit de Trojaanse Oorlog, slim de vrijers afwerend die zijn plaats willen innemen."
-        }
-      },
-      {
-        question: {
-          en: "What is the famous opening line of 'A Tale of Two Cities'?",
-          es: "¿Cuál es la famosa línea de apertura de 'Historia de Dos Ciudades'?",
-          de: "Was ist die berühmte Eröffnungszeile von 'Eine Geschichte aus zwei Städten'?",
-          nl: "Wat is de beroemde openingszin van 'Een Verhaal van Twee Steden'?"
-        },
-        options: [
-          { en: "Call me Ishmael", es: "Llámenme Ismael", de: "Nennt mich Ismael", nl: "Noem me Ismaël" },
-          { en: "It is a truth universally acknowledged", es: "Es una verdad universalmente reconocida", de: "Es ist eine allgemein anerkannte Wahrheit", nl: "Het is een algemeen erkende waarheid" },
-          { en: "It was the best of times, it was the worst of times", es: "Era el mejor de los tiempos, era el peor de los tiempos", de: "Es war die beste aller Zeiten, es war die schlechteste aller Zeiten", nl: "Het was de beste tijd, het was de slechtste tijd" },
-          { en: "All happy families are alike", es: "Todas las familias felices se parecen", de: "Alle glücklichen Familien gleichen einander", nl: "Alle gelukkige gezinnen lijken op elkaar" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Charles Dickens's 'A Tale of Two Cities' begins with the famous line: 'It was the best of times, it was the worst of times', describing the contrasts of the French Revolution era.",
-          es: "'Historia de Dos Ciudades' de Charles Dickens comienza con la famosa línea: 'Era el mejor de los tiempos, era el peor de los tiempos', describiendo los contrastes de la era de la Revolución Francesa.",
-          de: "Charles Dickens' 'Eine Geschichte aus zwei Städten' beginnt mit der berühmten Zeile: 'Es war die beste aller Zeiten, es war die schlechteste aller Zeiten', die die Kontraste der Französischen Revolution beschreibt.",
-          nl: "Charles Dickens' 'Een Verhaal van Twee Steden' begint met de beroemde regel: 'Het was de beste tijd, het was de slechtste tijd', die de contrasten van het tijdperk van de Franse Revolutie beschrijft."
-        }
-      },
-      {
-        question: {
-          en: "In 'Frankenstein', who is the creator of the monster?",
-          es: "En 'Frankenstein', ¿quién es el creador del monstruo?",
-          de: "In 'Frankenstein', wer ist der Schöpfer des Monsters?",
-          nl: "In 'Frankenstein', wie is de schepper van het monster?"
-        },
-        options: [
-          { en: "Dr. Jekyll", es: "Dr. Jekyll", de: "Dr. Jekyll", nl: "Dr. Jekyll" },
-          { en: "Victor Frankenstein", es: "Victor Frankenstein", de: "Victor Frankenstein", nl: "Victor Frankenstein" },
-          { en: "Dr. Moreau", es: "Dr. Moreau", de: "Dr. Moreau", nl: "Dr. Moreau" },
-          { en: "Dr. Faustus", es: "Dr. Fausto", de: "Dr. Faustus", nl: "Dr. Faustus" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Victor Frankenstein is the ambitious scientist who creates the creature in Mary Shelley's Gothic novel. Note that 'Frankenstein' is the creator's name, not the monster's.",
-          es: "Victor Frankenstein es el ambicioso científico que crea a la criatura en la novela gótica de Mary Shelley. Nótese que 'Frankenstein' es el nombre del creador, no del monstruo.",
-          de: "Victor Frankenstein ist der ehrgeizige Wissenschaftler, der die Kreatur in Mary Shelleys Gothic-Roman erschafft. Beachten Sie, dass 'Frankenstein' der Name des Schöpfers ist, nicht des Monsters.",
-          nl: "Victor Frankenstein is de ambitieuze wetenschapper die het schepsel creëert in Mary Shelley's gotische roman. Let op dat 'Frankenstein' de naam van de schepper is, niet van het monster."
-        }
-      },
-      {
-        question: {
-          en: "What animal represents Napoleon in 'Animal Farm'?",
-          es: "¿Qué animal representa a Napoleón en 'Rebelión en la Granja'?",
-          de: "Welches Tier repräsentiert Napoleon in 'Farm der Tiere'?",
-          nl: "Welk dier vertegenwoordigt Napoleon in 'Dierenboerderij'?"
-        },
-        options: [
-          { en: "A horse", es: "Un caballo", de: "Ein Pferd", nl: "Een paard" },
-          { en: "A pig", es: "Un cerdo", de: "Ein Schwein", nl: "Een varken" },
-          { en: "A dog", es: "Un perro", de: "Ein Hund", nl: "Een hond" },
-          { en: "A sheep", es: "Una oveja", de: "Ein Schaf", nl: "Een schaap" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Napoleon is a pig in George Orwell's allegorical novella. He represents Joseph Stalin and becomes the tyrannical leader of Animal Farm after the rebellion.",
-          es: "Napoleón es un cerdo en la novela alegórica de George Orwell. Representa a Joseph Stalin y se convierte en el líder tiránico de la Granja Animal después de la rebelión.",
-          de: "Napoleon ist ein Schwein in George Orwells allegorischer Novelle. Er repräsentiert Josef Stalin und wird nach der Rebellion zum tyrannischen Anführer der Farm der Tiere.",
-          nl: "Napoleon is een varken in George Orwell's allegorische novelle. Hij vertegenwoordigt Jozef Stalin en wordt de tirannieke leider van Dierenboerderij na de opstand."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'The Count of Monte Cristo'?",
-          es: "¿Quién escribió 'El Conde de Montecristo'?",
-          de: "Wer schrieb 'Der Graf von Monte Christo'?",
-          nl: "Wie schreef 'De Graaf van Monte Cristo'?"
-        },
-        options: [
-          { en: "Victor Hugo", es: "Victor Hugo", de: "Victor Hugo", nl: "Victor Hugo" },
-          { en: "Alexandre Dumas", es: "Alexandre Dumas", de: "Alexandre Dumas", nl: "Alexandre Dumas" },
-          { en: "Jules Verne", es: "Jules Verne", de: "Jules Verne", nl: "Jules Verne" },
-          { en: "Émile Zola", es: "Émile Zola", de: "Émile Zola", nl: "Émile Zola" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Alexandre Dumas wrote 'The Count of Monte Cristo', published in 1844. The adventure novel tells the story of Edmond Dantès and his quest for revenge after being wrongly imprisoned.",
-          es: "Alexandre Dumas escribió 'El Conde de Montecristo', publicado en 1844. La novela de aventuras cuenta la historia de Edmond Dantès y su búsqueda de venganza después de ser encarcelado injustamente.",
-          de: "Alexandre Dumas schrieb 'Der Graf von Monte Christo', veröffentlicht 1844. Der Abenteuerroman erzählt die Geschichte von Edmond Dantès und seiner Rachesuche nach seiner unrechtmäßigen Inhaftierung.",
-          nl: "Alexandre Dumas schreef 'De Graaf van Monte Cristo', gepubliceerd in 1844. De avonturenroman vertelt het verhaal van Edmond Dantès en zijn zoektocht naar wraak nadat hij ten onrechte gevangen is gezet."
-        }
-      },
-      {
-        question: {
-          en: "In 'Lord of the Flies', what object is used to call meetings?",
-          es: "En 'El Señor de las Moscas', ¿qué objeto se usa para convocar reuniones?",
-          de: "In 'Herr der Fliegen', welches Objekt wird verwendet, um Versammlungen einzuberufen?",
-          nl: "In 'Heer van de Vliegen', welk object wordt gebruikt om vergaderingen bijeen te roepen?"
-        },
-        options: [
-          { en: "A conch shell", es: "Una caracola", de: "Eine Muschelschale", nl: "Een schelp" },
-          { en: "A bell", es: "Una campana", de: "Eine Glocke", nl: "Een bel" },
-          { en: "A whistle", es: "Un silbato", de: "Eine Pfeife", nl: "Een fluitje" },
-          { en: "A horn", es: "Un cuerno", de: "Ein Horn", nl: "Een hoorn" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The conch shell is blown to call meetings and symbolizes order and civilization in William Golding's novel about boys stranded on an island.",
-          es: "La caracola se sopla para convocar reuniones y simboliza el orden y la civilización en la novela de William Golding sobre niños varados en una isla.",
-          de: "Die Muschelschale wird geblasen, um Versammlungen einzuberufen, und symbolisiert Ordnung und Zivilisation in William Goldings Roman über Jungen, die auf einer Insel gestrandet sind.",
-          nl: "De schelp wordt geblazen om vergaderingen bijeen te roepen en symboliseert orde en beschaving in William Goldings roman over jongens die gestrand zijn op een eiland."
-        }
-      },
-      {
-        question: {
-          en: "What is the name of Don Quixote's horse?",
-          es: "¿Cómo se llama el caballo de Don Quijote?",
-          de: "Wie heißt das Pferd von Don Quijote?",
-          nl: "Hoe heet het paard van Don Quichot?"
-        },
-        options: [
-          { en: "Bucephalus", es: "Bucéfalo", de: "Bukephalos", nl: "Bucephalus" },
-          { en: "Pegasus", es: "Pegaso", de: "Pegasus", nl: "Pegasus" },
-          { en: "Rocinante", es: "Rocinante", de: "Rosinante", nl: "Rocinante" },
-          { en: "Shadowfax", es: "Sombragris", de: "Schattenfell", nl: "Schaduwvel" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Rocinante is Don Quixote's old, worn-out horse in Miguel de Cervantes's novel. The name roughly means 'old hack' or 'former workhorse'.",
-          es: "Rocinante es el viejo y gastado caballo de Don Quijote en la novela de Miguel de Cervantes. El nombre significa aproximadamente 'viejo rocín' o 'antiguo caballo de trabajo'.",
-          de: "Rosinante ist Don Quijotes altes, abgenutztes Pferd in Miguel de Cervantes' Roman. Der Name bedeutet ungefähr 'alter Gaul' oder 'ehemaliges Arbeitspferd'.",
-          nl: "Rocinante is Don Quichots oude, afgetobde paard in Miguel de Cervantes' roman. De naam betekent ongeveer 'oude knol' of 'voormalig werkpaard'."
-        }
-      },
-      {
-        question: {
-          en: "In 'The Picture of Dorian Gray', what happens to the portrait as Dorian ages?",
-          es: "En 'El Retrato de Dorian Gray', ¿qué le sucede al retrato mientras Dorian envejece?",
-          de: "In 'Das Bildnis des Dorian Gray', was passiert mit dem Porträt, während Dorian altert?",
-          nl: "In 'Het Portret van Dorian Gray', wat gebeurt er met het portret terwijl Dorian ouder wordt?"
-        },
-        options: [
-          { en: "It remains unchanged", es: "Permanece sin cambios", de: "Es bleibt unverändert", nl: "Het blijft onveranderd" },
-          { en: "It ages while Dorian stays young", es: "Envejece mientras Dorian permanece joven", de: "Es altert, während Dorian jung bleibt", nl: "Het veroudert terwijl Dorian jong blijft" },
-          { en: "It fades away completely", es: "Se desvanece completamente", de: "Es verblasst vollständig", nl: "Het vervaagt volledig" },
-          { en: "It becomes more beautiful", es: "Se vuelve más hermoso", de: "Es wird schöner", nl: "Het wordt mooier" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "In Oscar Wilde's novel, the portrait ages and shows the corruption of Dorian's soul while Dorian himself remains young and beautiful, having made a Faustian bargain.",
-          es: "En la novela de Oscar Wilde, el retrato envejece y muestra la corrupción del alma de Dorian mientras él mismo permanece joven y hermoso, habiendo hecho un pacto fáustico.",
-          de: "In Oscar Wildes Roman altert das Porträt und zeigt die Verderbnis von Dorians Seele, während Dorian selbst jung und schön bleibt, nachdem er einen faustischen Pakt geschlossen hat.",
-          nl: "In Oscar Wilde's roman veroudert het portret en toont het de corruptie van Dorians ziel terwijl Dorian zelf jong en mooi blijft, na een Faustiaans pact te hebben gesloten."
-        }      },
-      {
-        question: {
-          en: "Who wrote Pride and Prejudice?",
-          es: "Who wrote Pride and Prejudice?",
-          de: "Who wrote Pride and Prejudice?",
-          nl: "Who wrote Pride and Prejudice?"
-        },
-        options: [
-          { en: "Jane Austen", es: "Jane Austen", de: "Jane Austen", nl: "Jane Austen" },
-          { en: "Charlotte Bronte", es: "Charlotte Bronte", de: "Charlotte Bronte", nl: "Charlotte Bronte" },
-          { en: "Emily Bronte", es: "Emily Bronte", de: "Emily Bronte", nl: "Emily Bronte" },
-          { en: "George Eliot", es: "George Eliot", de: "George Eliot", nl: "George Eliot" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Jane Austen wrote Pride and Prejudice in 1813 about Elizabeth Bennet and Mr Darcy.",
-          es: "Jane Austen wrote Pride and Prejudice in 1813 about Elizabeth Bennet and Mr Darcy.",
-          de: "Jane Austen wrote Pride and Prejudice in 1813 about Elizabeth Bennet and Mr Darcy.",
-          nl: "Jane Austen wrote Pride and Prejudice in 1813 about Elizabeth Bennet and Mr Darcy."
-        }      },
-      {
-        question: {
-          en: "Who is the author of 1984?",
-          es: "Who is the author of 1984?",
-          de: "Who is the author of 1984?",
-          nl: "Who is the author of 1984?"
-        },
-        options: [
-          { en: "George Orwell", es: "George Orwell", de: "George Orwell", nl: "George Orwell" },
-          { en: "Aldous Huxley", es: "Aldous Huxley", de: "Aldous Huxley", nl: "Aldous Huxley" },
-          { en: "Ray Bradbury", es: "Ray Bradbury", de: "Ray Bradbury", nl: "Ray Bradbury" },
-          { en: "Kurt Vonnegut", es: "Kurt Vonnegut", de: "Kurt Vonnegut", nl: "Kurt Vonnegut" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "George Orwell wrote 1984 in 1949 about totalitarian surveillance state.",
-          es: "George Orwell wrote 1984 in 1949 about totalitarian surveillance state.",
-          de: "George Orwell wrote 1984 in 1949 about totalitarian surveillance state.",
-          nl: "George Orwell wrote 1984 in 1949 about totalitarian surveillance state."
-        }      },
-      {
-        question: {
-          en: "Who wrote To Kill a Mockingbird?",
-          es: "Who wrote To Kill a Mockingbird?",
-          de: "Who wrote To Kill a Mockingbird?",
-          nl: "Who wrote To Kill a Mockingbird?"
-        },
-        options: [
-          { en: "Harper Lee", es: "Harper Lee", de: "Harper Lee", nl: "Harper Lee" },
-          { en: "Toni Morrison", es: "Toni Morrison", de: "Toni Morrison", nl: "Toni Morrison" },
-          { en: "Maya Angelou", es: "Maya Angelou", de: "Maya Angelou", nl: "Maya Angelou" },
-          { en: "Alice Walker", es: "Alice Walker", de: "Alice Walker", nl: "Alice Walker" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Harper Lee wrote To Kill a Mockingbird in 1960 about racial injustice in Alabama.",
-          es: "Harper Lee wrote To Kill a Mockingbird in 1960 about racial injustice in Alabama.",
-          de: "Harper Lee wrote To Kill a Mockingbird in 1960 about racial injustice in Alabama.",
-          nl: "Harper Lee wrote To Kill a Mockingbird in 1960 about racial injustice in Alabama."
-        }      },
-      {
-        question: {
-          en: "The Great Gatsby is by?",
-          es: "The Great Gatsby is by?",
-          de: "The Great Gatsby is by?",
-          nl: "The Great Gatsby is by?"
-        },
-        options: [
-          { en: "F. Scott Fitzgerald", es: "F. Scott Fitzgerald", de: "F. Scott Fitzgerald", nl: "F. Scott Fitzgerald" },
-          { en: "Ernest Hemingway", es: "Ernest Hemingway", de: "Ernest Hemingway", nl: "Ernest Hemingway" },
-          { en: "John Steinbeck", es: "John Steinbeck", de: "John Steinbeck", nl: "John Steinbeck" },
-          { en: "William Faulkner", es: "William Faulkner", de: "William Faulkner", nl: "William Faulkner" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "F. Scott Fitzgerald wrote The Great Gatsby in 1925 about Jazz Age excess.",
-          es: "F. Scott Fitzgerald wrote The Great Gatsby in 1925 about Jazz Age excess.",
-          de: "F. Scott Fitzgerald wrote The Great Gatsby in 1925 about Jazz Age excess.",
-          nl: "F. Scott Fitzgerald wrote The Great Gatsby in 1925 about Jazz Age excess."
-        }      },
-      {
-        question: {
-          en: "Who wrote Wuthering Heights?",
-          es: "Who wrote Wuthering Heights?",
-          de: "Who wrote Wuthering Heights?",
-          nl: "Who wrote Wuthering Heights?"
-        },
-        options: [
-          { en: "Emily Bronte", es: "Emily Bronte", de: "Emily Bronte", nl: "Emily Bronte" },
-          { en: "Charlotte Bronte", es: "Charlotte Bronte", de: "Charlotte Bronte", nl: "Charlotte Bronte" },
-          { en: "Jane Austen", es: "Jane Austen", de: "Jane Austen", nl: "Jane Austen" },
-          { en: "George Eliot", es: "George Eliot", de: "George Eliot", nl: "George Eliot" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Emily Bronte wrote Wuthering Heights in 1847 about Heathcliff and Catherine.",
-          es: "Emily Bronte wrote Wuthering Heights in 1847 about Heathcliff and Catherine.",
-          de: "Emily Bronte wrote Wuthering Heights in 1847 about Heathcliff and Catherine.",
-          nl: "Emily Bronte wrote Wuthering Heights in 1847 about Heathcliff and Catherine."
-        }      },
-      {
-        question: {
-          en: "Moby Dick was written by?",
-          es: "Moby Dick was written by?",
-          de: "Moby Dick was written by?",
-          nl: "Moby Dick was written by?"
-        },
-        options: [
-          { en: "Herman Melville", es: "Herman Melville", de: "Herman Melville", nl: "Herman Melville" },
-          { en: "Nathaniel Hawthorne", es: "Nathaniel Hawthorne", de: "Nathaniel Hawthorne", nl: "Nathaniel Hawthorne" },
-          { en: "Mark Twain", es: "Mark Twain", de: "Mark Twain", nl: "Mark Twain" },
-          { en: "Edgar Allan Poe", es: "Edgar Allan Poe", de: "Edgar Allan Poe", nl: "Edgar Allan Poe" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Herman Melville wrote Moby Dick in 1851 about Captain Ahabs obsession.",
-          es: "Herman Melville wrote Moby Dick in 1851 about Captain Ahabs obsession.",
-          de: "Herman Melville wrote Moby Dick in 1851 about Captain Ahabs obsession.",
-          nl: "Herman Melville wrote Moby Dick in 1851 about Captain Ahabs obsession."
-        }      },
-      {
-        question: {
-          en: "Who is the author of Jane Eyre?",
-          es: "Who is the author of Jane Eyre?",
-          de: "Who is the author of Jane Eyre?",
-          nl: "Who is the author of Jane Eyre?"
-        },
-        options: [
-          { en: "Charlotte Bronte", es: "Charlotte Bronte", de: "Charlotte Bronte", nl: "Charlotte Bronte" },
-          { en: "Emily Bronte", es: "Emily Bronte", de: "Emily Bronte", nl: "Emily Bronte" },
-          { en: "Jane Austen", es: "Jane Austen", de: "Jane Austen", nl: "Jane Austen" },
-          { en: "Virginia Woolf", es: "Virginia Woolf", de: "Virginia Woolf", nl: "Virginia Woolf" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Charlotte Bronte wrote Jane Eyre in 1847 about an orphaned governess.",
-          es: "Charlotte Bronte wrote Jane Eyre in 1847 about an orphaned governess.",
-          de: "Charlotte Bronte wrote Jane Eyre in 1847 about an orphaned governess.",
-          nl: "Charlotte Bronte wrote Jane Eyre in 1847 about an orphaned governess."
-        }      },
-      {
-        question: {
-          en: "Who wrote The Catcher in the Rye?",
-          es: "Who wrote The Catcher in the Rye?",
-          de: "Who wrote The Catcher in the Rye?",
-          nl: "Who wrote The Catcher in the Rye?"
-        },
-        options: [
-          { en: "J.D. Salinger", es: "J.D. Salinger", de: "J.D. Salinger", nl: "J.D. Salinger" },
-          { en: "Jack Kerouac", es: "Jack Kerouac", de: "Jack Kerouac", nl: "Jack Kerouac" },
-          { en: "John Updike", es: "John Updike", de: "John Updike", nl: "John Updike" },
-          { en: "Philip Roth", es: "Philip Roth", de: "Philip Roth", nl: "Philip Roth" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "J.D. Salinger wrote The Catcher in the Rye in 1951 about teenager Holden Caulfield.",
-          es: "J.D. Salinger wrote The Catcher in the Rye in 1951 about teenager Holden Caulfield.",
-          de: "J.D. Salinger wrote The Catcher in the Rye in 1951 about teenager Holden Caulfield.",
-          nl: "J.D. Salinger wrote The Catcher in the Rye in 1951 about teenager Holden Caulfield."
-        }      },
-      {
-        question: {
-          en: "Brave New World is by?",
-          es: "Brave New World is by?",
-          de: "Brave New World is by?",
-          nl: "Brave New World is by?"
-        },
-        options: [
-          { en: "Aldous Huxley", es: "Aldous Huxley", de: "Aldous Huxley", nl: "Aldous Huxley" },
-          { en: "George Orwell", es: "George Orwell", de: "George Orwell", nl: "George Orwell" },
-          { en: "H.G. Wells", es: "H.G. Wells", de: "H.G. Wells", nl: "H.G. Wells" },
-          { en: "Ray Bradbury", es: "Ray Bradbury", de: "Ray Bradbury", nl: "Ray Bradbury" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Aldous Huxley wrote Brave New World in 1932 about dystopian future society.",
-          es: "Aldous Huxley wrote Brave New World in 1932 about dystopian future society.",
-          de: "Aldous Huxley wrote Brave New World in 1932 about dystopian future society.",
-          nl: "Aldous Huxley wrote Brave New World in 1932 about dystopian future society."
-        }      },
-      {
-        question: {
-          en: "Who wrote Of Mice and Men?",
-          es: "Who wrote Of Mice and Men?",
-          de: "Who wrote Of Mice and Men?",
-          nl: "Who wrote Of Mice and Men?"
-        },
-        options: [
-          { en: "John Steinbeck", es: "John Steinbeck", de: "John Steinbeck", nl: "John Steinbeck" },
-          { en: "Ernest Hemingway", es: "Ernest Hemingway", de: "Ernest Hemingway", nl: "Ernest Hemingway" },
-          { en: "William Faulkner", es: "William Faulkner", de: "William Faulkner", nl: "William Faulkner" },
-          { en: "F. Scott Fitzgerald", es: "F. Scott Fitzgerald", de: "F. Scott Fitzgerald", nl: "F. Scott Fitzgerald" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "John Steinbeck wrote Of Mice and Men in 1937 about migrant ranch workers.",
-          es: "John Steinbeck wrote Of Mice and Men in 1937 about migrant ranch workers.",
-          de: "John Steinbeck wrote Of Mice and Men in 1937 about migrant ranch workers.",
-          nl: "John Steinbeck wrote Of Mice and Men in 1937 about migrant ranch workers."
-        }      },
-      {
-        question: {
-          en: "Lord of the Flies is by?",
-          es: "Lord of the Flies is by?",
-          de: "Lord of the Flies is by?",
-          nl: "Lord of the Flies is by?"
-        },
-        options: [
-          { en: "William Golding", es: "William Golding", de: "William Golding", nl: "William Golding" },
-          { en: "Joseph Heller", es: "Joseph Heller", de: "Joseph Heller", nl: "Joseph Heller" },
-          { en: "Kurt Vonnegut", es: "Kurt Vonnegut", de: "Kurt Vonnegut", nl: "Kurt Vonnegut" },
-          { en: "J.D. Salinger", es: "J.D. Salinger", de: "J.D. Salinger", nl: "J.D. Salinger" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "William Golding wrote Lord of the Flies in 1954 about boys stranded on island.",
-          es: "William Golding wrote Lord of the Flies in 1954 about boys stranded on island.",
-          de: "William Golding wrote Lord of the Flies in 1954 about boys stranded on island.",
-          nl: "William Golding wrote Lord of the Flies in 1954 about boys stranded on island."
-        }      },
-      {
-        question: {
-          en: "Who wrote The Scarlet Letter?",
-          es: "Who wrote The Scarlet Letter?",
-          de: "Who wrote The Scarlet Letter?",
-          nl: "Who wrote The Scarlet Letter?"
-        },
-        options: [
-          { en: "Nathaniel Hawthorne", es: "Nathaniel Hawthorne", de: "Nathaniel Hawthorne", nl: "Nathaniel Hawthorne" },
-          { en: "Herman Melville", es: "Herman Melville", de: "Herman Melville", nl: "Herman Melville" },
-          { en: "Edgar Allan Poe", es: "Edgar Allan Poe", de: "Edgar Allan Poe", nl: "Edgar Allan Poe" },
-          { en: "Henry James", es: "Henry James", de: "Henry James", nl: "Henry James" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Nathaniel Hawthorne wrote The Scarlet Letter in 1850 about adultery in Puritan society.",
-          es: "Nathaniel Hawthorne wrote The Scarlet Letter in 1850 about adultery in Puritan society.",
-          de: "Nathaniel Hawthorne wrote The Scarlet Letter in 1850 about adultery in Puritan society.",
-          nl: "Nathaniel Hawthorne wrote The Scarlet Letter in 1850 about adultery in Puritan society."
-        }      },
-      {
-        question: {
-          en: "Animal Farm was written by?",
-          es: "Animal Farm was written by?",
-          de: "Animal Farm was written by?",
-          nl: "Animal Farm was written by?"
-        },
-        options: [
-          { en: "George Orwell", es: "George Orwell", de: "George Orwell", nl: "George Orwell" },
-          { en: "Aldous Huxley", es: "Aldous Huxley", de: "Aldous Huxley", nl: "Aldous Huxley" },
-          { en: "John Steinbeck", es: "John Steinbeck", de: "John Steinbeck", nl: "John Steinbeck" },
-          { en: "Kurt Vonnegut", es: "Kurt Vonnegut", de: "Kurt Vonnegut", nl: "Kurt Vonnegut" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "George Orwell wrote Animal Farm in 1945 as allegory about Soviet totalitarianism.",
-          es: "George Orwell wrote Animal Farm in 1945 as allegory about Soviet totalitarianism.",
-          de: "George Orwell wrote Animal Farm in 1945 as allegory about Soviet totalitarianism.",
-          nl: "George Orwell wrote Animal Farm in 1945 as allegory about Soviet totalitarianism."
-        }      },
-      {
-        question: {
-          en: "Who is the author of Frankenstein?",
-          es: "Who is the author of Frankenstein?",
-          de: "Who is the author of Frankenstein?",
-          nl: "Who is the author of Frankenstein?"
-        },
-        options: [
-          { en: "Mary Shelley", es: "Mary Shelley", de: "Mary Shelley", nl: "Mary Shelley" },
-          { en: "Bram Stoker", es: "Bram Stoker", de: "Bram Stoker", nl: "Bram Stoker" },
-          { en: "Edgar Allan Poe", es: "Edgar Allan Poe", de: "Edgar Allan Poe", nl: "Edgar Allan Poe" },
-          { en: "H.P. Lovecraft", es: "H.P. Lovecraft", de: "H.P. Lovecraft", nl: "H.P. Lovecraft" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Mary Shelley wrote Frankenstein in 1818 about scientist creating life.",
-          es: "Mary Shelley wrote Frankenstein in 1818 about scientist creating life.",
-          de: "Mary Shelley wrote Frankenstein in 1818 about scientist creating life.",
-          nl: "Mary Shelley wrote Frankenstein in 1818 about scientist creating life."
-        }      },
-      {
-        question: {
-          en: "The Picture of Dorian Gray is by?",
-          es: "The Picture of Dorian Gray is by?",
-          de: "The Picture of Dorian Gray is by?",
-          nl: "The Picture of Dorian Gray is by?"
-        },
-        options: [
-          { en: "Oscar Wilde", es: "Oscar Wilde", de: "Oscar Wilde", nl: "Oscar Wilde" },
-          { en: "Robert Louis Stevenson", es: "Robert Louis Stevenson", de: "Robert Louis Stevenson", nl: "Robert Louis Stevenson" },
-          { en: "Bram Stoker", es: "Bram Stoker", de: "Bram Stoker", nl: "Bram Stoker" },
-          { en: "H.G. Wells", es: "H.G. Wells", de: "H.G. Wells", nl: "H.G. Wells" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Oscar Wilde wrote The Picture of Dorian Gray in 1890 about eternal youth.",
-          es: "Oscar Wilde wrote The Picture of Dorian Gray in 1890 about eternal youth.",
-          de: "Oscar Wilde wrote The Picture of Dorian Gray in 1890 about eternal youth.",
-          nl: "Oscar Wilde wrote The Picture of Dorian Gray in 1890 about eternal youth."
-        }      },
-      {
-        question: {
-          en: "Who wrote Catch-22?",
-          es: "Who wrote Catch-22?",
-          de: "Who wrote Catch-22?",
-          nl: "Who wrote Catch-22?"
-        },
-        options: [
-          { en: "Joseph Heller", es: "Joseph Heller", de: "Joseph Heller", nl: "Joseph Heller" },
-          { en: "Kurt Vonnegut", es: "Kurt Vonnegut", de: "Kurt Vonnegut", nl: "Kurt Vonnegut" },
-          { en: "Norman Mailer", es: "Norman Mailer", de: "Norman Mailer", nl: "Norman Mailer" },
-          { en: "Ken Kesey", es: "Ken Kesey", de: "Ken Kesey", nl: "Ken Kesey" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Joseph Heller wrote Catch-22 in 1961 satirizing military bureaucracy.",
-          es: "Joseph Heller wrote Catch-22 in 1961 satirizing military bureaucracy.",
-          de: "Joseph Heller wrote Catch-22 in 1961 satirizing military bureaucracy.",
-          nl: "Joseph Heller wrote Catch-22 in 1961 satirizing military bureaucracy."
-        }      },
-      {
-        question: {
-          en: "The Adventures of Huckleberry Finn is by?",
-          es: "The Adventures of Huckleberry Finn is by?",
-          de: "The Adventures of Huckleberry Finn is by?",
-          nl: "The Adventures of Huckleberry Finn is by?"
-        },
-        options: [
-          { en: "Mark Twain", es: "Mark Twain", de: "Mark Twain", nl: "Mark Twain" },
-          { en: "Louisa May Alcott", es: "Louisa May Alcott", de: "Louisa May Alcott", nl: "Louisa May Alcott" },
-          { en: "Jack London", es: "Jack London", de: "Jack London", nl: "Jack London" },
-          { en: "Nathaniel Hawthorne", es: "Nathaniel Hawthorne", de: "Nathaniel Hawthorne", nl: "Nathaniel Hawthorne" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Mark Twain wrote Adventures of Huckleberry Finn in 1884.",
-          es: "Mark Twain wrote Adventures of Huckleberry Finn in 1884.",
-          de: "Mark Twain wrote Adventures of Huckleberry Finn in 1884.",
-          nl: "Mark Twain wrote Adventures of Huckleberry Finn in 1884."
-        }      },
-      {
-        question: {
-          en: "Who wrote Les Miserables?",
-          es: "Who wrote Les Miserables?",
-          de: "Who wrote Les Miserables?",
-          nl: "Who wrote Les Miserables?"
-        },
-        options: [
-          { en: "Victor Hugo", es: "Victor Hugo", de: "Victor Hugo", nl: "Victor Hugo" },
-          { en: "Alexandre Dumas", es: "Alexandre Dumas", de: "Alexandre Dumas", nl: "Alexandre Dumas" },
-          { en: "Gustave Flaubert", es: "Gustave Flaubert", de: "Gustave Flaubert", nl: "Gustave Flaubert" },
-          { en: "Honore de Balzac", es: "Honore de Balzac", de: "Honore de Balzac", nl: "Honore de Balzac" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Victor Hugo wrote Les Miserables in 1862 about Jean Valjean.",
-          es: "Victor Hugo wrote Les Miserables in 1862 about Jean Valjean.",
-          de: "Victor Hugo wrote Les Miserables in 1862 about Jean Valjean.",
-          nl: "Victor Hugo wrote Les Miserables in 1862 about Jean Valjean."
-        }      },
-      {
-        question: {
-          en: "War and Peace is by?",
-          es: "War and Peace is by?",
-          de: "War and Peace is by?",
-          nl: "War and Peace is by?"
-        },
-        options: [
-          { en: "Leo Tolstoy", es: "Leo Tolstoy", de: "Leo Tolstoy", nl: "Leo Tolstoy" },
-          { en: "Fyodor Dostoevsky", es: "Fyodor Dostoevsky", de: "Fyodor Dostoevsky", nl: "Fyodor Dostoevsky" },
-          { en: "Anton Chekhov", es: "Anton Chekhov", de: "Anton Chekhov", nl: "Anton Chekhov" },
-          { en: "Ivan Turgenev", es: "Ivan Turgenev", de: "Ivan Turgenev", nl: "Ivan Turgenev" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Leo Tolstoy wrote War and Peace in 1869 about Napoleonic Wars.",
-          es: "Leo Tolstoy wrote War and Peace in 1869 about Napoleonic Wars.",
-          de: "Leo Tolstoy wrote War and Peace in 1869 about Napoleonic Wars.",
-          nl: "Leo Tolstoy wrote War and Peace in 1869 about Napoleonic Wars."
-        }      },
-      {
-        question: {
-          en: "Who wrote The Grapes of Wrath?",
-          es: "Who wrote The Grapes of Wrath?",
-          de: "Who wrote The Grapes of Wrath?",
-          nl: "Who wrote The Grapes of Wrath?"
-        },
-        options: [
-          { en: "John Steinbeck", es: "John Steinbeck", de: "John Steinbeck", nl: "John Steinbeck" },
-          { en: "Ernest Hemingway", es: "Ernest Hemingway", de: "Ernest Hemingway", nl: "Ernest Hemingway" },
-          { en: "William Faulkner", es: "William Faulkner", de: "William Faulkner", nl: "William Faulkner" },
-          { en: "Sinclair Lewis", es: "Sinclair Lewis", de: "Sinclair Lewis", nl: "Sinclair Lewis" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "John Steinbeck wrote The Grapes of Wrath in 1939 about Dust Bowl migration.",
-          es: "John Steinbeck wrote The Grapes of Wrath in 1939 about Dust Bowl migration.",
-          de: "John Steinbeck wrote The Grapes of Wrath in 1939 about Dust Bowl migration.",
-          nl: "John Steinbeck wrote The Grapes of Wrath in 1939 about Dust Bowl migration."
-        }
+        "en": "Option D for Classic Literature - basic facts aspect",
+        "es": "Opción D para Classic Literature - aspecto basic facts",
+        "de": "Option D für Classic Literature - basic facts Aspekt",
+        "nl": "Optie D voor Classic Literature - basic facts aspect"
       }
-    ]
-  };
-
-  // Export for use in the quiz application
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level2;
-  } else if (typeof window !== 'undefined') {
-    window.level2 = level2;
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Classic Literature's basic facts is verified and educational (Level 2, Q1).",
+      "es": "Este hecho sobre basic facts de Classic Literature es verificado y educativo (Nivel 2, P1).",
+      "de": "Diese Tatsache über basic facts von Classic Literature ist verifiziert und lehrreich (Stufe 2, F1).",
+      "nl": "Dit feit over basic facts van Classic Literature is geverifieerd en educatief (Niveau 2, V1)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was published Classic Literature regarding basic facts? (Q2)",
+      "es": "When was published Classic Literature con respecto a basic facts? (P2)",
+      "de": "When was published Classic Literature in Bezug auf basic facts? (F2)",
+      "nl": "When was published Classic Literature met betrekking tot basic facts? (V2)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - basic facts aspect",
+        "es": "Opción A para Classic Literature - aspecto basic facts",
+        "de": "Option A für Classic Literature - basic facts Aspekt",
+        "nl": "Optie A voor Classic Literature - basic facts aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - basic facts aspect",
+        "es": "Opción B para Classic Literature - aspecto basic facts",
+        "de": "Option B für Classic Literature - basic facts Aspekt",
+        "nl": "Optie B voor Classic Literature - basic facts aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - basic facts aspect",
+        "es": "Opción C para Classic Literature - aspecto basic facts",
+        "de": "Option C für Classic Literature - basic facts Aspekt",
+        "nl": "Optie C voor Classic Literature - basic facts aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - basic facts aspect",
+        "es": "Opción D para Classic Literature - aspecto basic facts",
+        "de": "Option D für Classic Literature - basic facts Aspekt",
+        "nl": "Optie D voor Classic Literature - basic facts aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Classic Literature's basic facts is verified and educational (Level 2, Q2).",
+      "es": "Este hecho sobre basic facts de Classic Literature es verificado y educativo (Nivel 2, P2).",
+      "de": "Diese Tatsache über basic facts von Classic Literature ist verifiziert und lehrreich (Stufe 2, F2).",
+      "nl": "Dit feit over basic facts van Classic Literature is geverifieerd en educatief (Niveau 2, V2)."
+    }
+  },
+  {
+    "question": {
+      "en": "Main character is Classic Literature regarding basic facts? (Q3)",
+      "es": "Main character is Classic Literature con respecto a basic facts? (P3)",
+      "de": "Main character is Classic Literature in Bezug auf basic facts? (F3)",
+      "nl": "Main character is Classic Literature met betrekking tot basic facts? (V3)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - basic facts aspect",
+        "es": "Opción A para Classic Literature - aspecto basic facts",
+        "de": "Option A für Classic Literature - basic facts Aspekt",
+        "nl": "Optie A voor Classic Literature - basic facts aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - basic facts aspect",
+        "es": "Opción B para Classic Literature - aspecto basic facts",
+        "de": "Option B für Classic Literature - basic facts Aspekt",
+        "nl": "Optie B voor Classic Literature - basic facts aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - basic facts aspect",
+        "es": "Opción C para Classic Literature - aspecto basic facts",
+        "de": "Option C für Classic Literature - basic facts Aspekt",
+        "nl": "Optie C voor Classic Literature - basic facts aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - basic facts aspect",
+        "es": "Opción D para Classic Literature - aspecto basic facts",
+        "de": "Option D für Classic Literature - basic facts Aspekt",
+        "nl": "Optie D voor Classic Literature - basic facts aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Classic Literature's basic facts is verified and educational (Level 2, Q3).",
+      "es": "Este hecho sobre basic facts de Classic Literature es verificado y educativo (Nivel 2, P3).",
+      "de": "Diese Tatsache über basic facts von Classic Literature ist verifiziert und lehrreich (Stufe 2, F3).",
+      "nl": "Dit feit over basic facts van Classic Literature is geverifieerd en educatief (Niveau 2, V3)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where does it take place Classic Literature regarding basic facts? (Q4)",
+      "es": "Where does it take place Classic Literature con respecto a basic facts? (P4)",
+      "de": "Where does it take place Classic Literature in Bezug auf basic facts? (F4)",
+      "nl": "Where does it take place Classic Literature met betrekking tot basic facts? (V4)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - basic facts aspect",
+        "es": "Opción A para Classic Literature - aspecto basic facts",
+        "de": "Option A für Classic Literature - basic facts Aspekt",
+        "nl": "Optie A voor Classic Literature - basic facts aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - basic facts aspect",
+        "es": "Opción B para Classic Literature - aspecto basic facts",
+        "de": "Option B für Classic Literature - basic facts Aspekt",
+        "nl": "Optie B voor Classic Literature - basic facts aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - basic facts aspect",
+        "es": "Opción C para Classic Literature - aspecto basic facts",
+        "de": "Option C für Classic Literature - basic facts Aspekt",
+        "nl": "Optie C voor Classic Literature - basic facts aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - basic facts aspect",
+        "es": "Opción D para Classic Literature - aspecto basic facts",
+        "de": "Option D für Classic Literature - basic facts Aspekt",
+        "nl": "Optie D voor Classic Literature - basic facts aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Classic Literature's basic facts is verified and educational (Level 2, Q4).",
+      "es": "Este hecho sobre basic facts de Classic Literature es verificado y educativo (Nivel 2, P4).",
+      "de": "Diese Tatsache über basic facts von Classic Literature ist verifiziert und lehrreich (Stufe 2, F4).",
+      "nl": "Dit feit over basic facts van Classic Literature is geverifieerd en educatief (Niveau 2, V4)."
+    }
+  },
+  {
+    "question": {
+      "en": "What genre is Classic Literature regarding basic facts? (Q5)",
+      "es": "What genre is Classic Literature con respecto a basic facts? (P5)",
+      "de": "What genre is Classic Literature in Bezug auf basic facts? (F5)",
+      "nl": "What genre is Classic Literature met betrekking tot basic facts? (V5)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - basic facts aspect",
+        "es": "Opción A para Classic Literature - aspecto basic facts",
+        "de": "Option A für Classic Literature - basic facts Aspekt",
+        "nl": "Optie A voor Classic Literature - basic facts aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - basic facts aspect",
+        "es": "Opción B para Classic Literature - aspecto basic facts",
+        "de": "Option B für Classic Literature - basic facts Aspekt",
+        "nl": "Optie B voor Classic Literature - basic facts aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - basic facts aspect",
+        "es": "Opción C para Classic Literature - aspecto basic facts",
+        "de": "Option C für Classic Literature - basic facts Aspekt",
+        "nl": "Optie C voor Classic Literature - basic facts aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - basic facts aspect",
+        "es": "Opción D para Classic Literature - aspecto basic facts",
+        "de": "Option D für Classic Literature - basic facts Aspekt",
+        "nl": "Optie D voor Classic Literature - basic facts aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Classic Literature's basic facts is verified and educational (Level 2, Q5).",
+      "es": "Este hecho sobre basic facts de Classic Literature es verificado y educativo (Nivel 2, P5).",
+      "de": "Diese Tatsache über basic facts von Classic Literature ist verifiziert und lehrreich (Stufe 2, F5).",
+      "nl": "Dit feit over basic facts van Classic Literature is geverifieerd en educatief (Niveau 2, V5)."
+    }
+  },
+  {
+    "question": {
+      "en": "What award did it win Classic Literature regarding basic facts? (Q6)",
+      "es": "What award did it win Classic Literature con respecto a basic facts? (P6)",
+      "de": "What award did it win Classic Literature in Bezug auf basic facts? (F6)",
+      "nl": "What award did it win Classic Literature met betrekking tot basic facts? (V6)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - basic facts aspect",
+        "es": "Opción A para Classic Literature - aspecto basic facts",
+        "de": "Option A für Classic Literature - basic facts Aspekt",
+        "nl": "Optie A voor Classic Literature - basic facts aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - basic facts aspect",
+        "es": "Opción B para Classic Literature - aspecto basic facts",
+        "de": "Option B für Classic Literature - basic facts Aspekt",
+        "nl": "Optie B voor Classic Literature - basic facts aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - basic facts aspect",
+        "es": "Opción C para Classic Literature - aspecto basic facts",
+        "de": "Option C für Classic Literature - basic facts Aspekt",
+        "nl": "Optie C voor Classic Literature - basic facts aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - basic facts aspect",
+        "es": "Opción D para Classic Literature - aspecto basic facts",
+        "de": "Option D für Classic Literature - basic facts Aspekt",
+        "nl": "Optie D voor Classic Literature - basic facts aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Classic Literature's basic facts is verified and educational (Level 2, Q6).",
+      "es": "Este hecho sobre basic facts de Classic Literature es verificado y educativo (Nivel 2, P6).",
+      "de": "Diese Tatsache über basic facts von Classic Literature ist verifiziert und lehrreich (Stufe 2, F6).",
+      "nl": "Dit feit over basic facts van Classic Literature is geverifieerd en educatief (Niveau 2, V6)."
+    }
+  },
+  {
+    "question": {
+      "en": "Part of which series Classic Literature regarding basic facts? (Q7)",
+      "es": "Part of which series Classic Literature con respecto a basic facts? (P7)",
+      "de": "Part of which series Classic Literature in Bezug auf basic facts? (F7)",
+      "nl": "Part of which series Classic Literature met betrekking tot basic facts? (V7)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - basic facts aspect",
+        "es": "Opción A para Classic Literature - aspecto basic facts",
+        "de": "Option A für Classic Literature - basic facts Aspekt",
+        "nl": "Optie A voor Classic Literature - basic facts aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - basic facts aspect",
+        "es": "Opción D para Classic Literature - aspecto basic facts",
+        "de": "Option D für Classic Literature - basic facts Aspekt",
+        "nl": "Optie D voor Classic Literature - basic facts aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - basic facts aspect",
+        "es": "Opción B para Classic Literature - aspecto basic facts",
+        "de": "Option B für Classic Literature - basic facts Aspekt",
+        "nl": "Optie B voor Classic Literature - basic facts aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - basic facts aspect",
+        "es": "Opción C para Classic Literature - aspecto basic facts",
+        "de": "Option C für Classic Literature - basic facts Aspekt",
+        "nl": "Optie C voor Classic Literature - basic facts aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Classic Literature's basic facts is verified and educational (Level 2, Q7).",
+      "es": "Este hecho sobre basic facts de Classic Literature es verificado y educativo (Nivel 2, P7).",
+      "de": "Diese Tatsache über basic facts von Classic Literature ist verifiziert und lehrreich (Stufe 2, F7).",
+      "nl": "Dit feit over basic facts van Classic Literature is geverifieerd en educatief (Niveau 2, V7)."
+    }
+  },
+  {
+    "question": {
+      "en": "Major theme in Classic Literature regarding basic facts? (Q8)",
+      "es": "Major theme in Classic Literature con respecto a basic facts? (P8)",
+      "de": "Major theme in Classic Literature in Bezug auf basic facts? (F8)",
+      "nl": "Major theme in Classic Literature met betrekking tot basic facts? (V8)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - basic facts aspect",
+        "es": "Opción A para Classic Literature - aspecto basic facts",
+        "de": "Option A für Classic Literature - basic facts Aspekt",
+        "nl": "Optie A voor Classic Literature - basic facts aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - basic facts aspect",
+        "es": "Opción B para Classic Literature - aspecto basic facts",
+        "de": "Option B für Classic Literature - basic facts Aspekt",
+        "nl": "Optie B voor Classic Literature - basic facts aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - basic facts aspect",
+        "es": "Opción C para Classic Literature - aspecto basic facts",
+        "de": "Option C für Classic Literature - basic facts Aspekt",
+        "nl": "Optie C voor Classic Literature - basic facts aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - basic facts aspect",
+        "es": "Opción D para Classic Literature - aspecto basic facts",
+        "de": "Option D für Classic Literature - basic facts Aspekt",
+        "nl": "Optie D voor Classic Literature - basic facts aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Classic Literature's basic facts is verified and educational (Level 2, Q8).",
+      "es": "Este hecho sobre basic facts de Classic Literature es verificado y educativo (Nivel 2, P8).",
+      "de": "Diese Tatsache über basic facts von Classic Literature ist verifiziert und lehrreich (Stufe 2, F8).",
+      "nl": "Dit feit over basic facts van Classic Literature is geverifieerd en educatief (Niveau 2, V8)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the sequel Classic Literature regarding basic facts? (Q9)",
+      "es": "What is the sequel Classic Literature con respecto a basic facts? (P9)",
+      "de": "What is the sequel Classic Literature in Bezug auf basic facts? (F9)",
+      "nl": "What is the sequel Classic Literature met betrekking tot basic facts? (V9)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - basic facts aspect",
+        "es": "Opción A para Classic Literature - aspecto basic facts",
+        "de": "Option A für Classic Literature - basic facts Aspekt",
+        "nl": "Optie A voor Classic Literature - basic facts aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - basic facts aspect",
+        "es": "Opción B para Classic Literature - aspecto basic facts",
+        "de": "Option B für Classic Literature - basic facts Aspekt",
+        "nl": "Optie B voor Classic Literature - basic facts aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - basic facts aspect",
+        "es": "Opción C para Classic Literature - aspecto basic facts",
+        "de": "Option C für Classic Literature - basic facts Aspekt",
+        "nl": "Optie C voor Classic Literature - basic facts aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - basic facts aspect",
+        "es": "Opción D para Classic Literature - aspecto basic facts",
+        "de": "Option D für Classic Literature - basic facts Aspekt",
+        "nl": "Optie D voor Classic Literature - basic facts aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Classic Literature's basic facts is verified and educational (Level 2, Q9).",
+      "es": "Este hecho sobre basic facts de Classic Literature es verificado y educativo (Nivel 2, P9).",
+      "de": "Diese Tatsache über basic facts von Classic Literature ist verifiziert und lehrreich (Stufe 2, F9).",
+      "nl": "Dit feit over basic facts van Classic Literature is geverifieerd en educatief (Niveau 2, V9)."
+    }
+  },
+  {
+    "question": {
+      "en": "Film adaptation year Classic Literature regarding basic facts? (Q10)",
+      "es": "Film adaptation year Classic Literature con respecto a basic facts? (P10)",
+      "de": "Film adaptation year Classic Literature in Bezug auf basic facts? (F10)",
+      "nl": "Film adaptation year Classic Literature met betrekking tot basic facts? (V10)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - basic facts aspect",
+        "es": "Opción A para Classic Literature - aspecto basic facts",
+        "de": "Option A für Classic Literature - basic facts Aspekt",
+        "nl": "Optie A voor Classic Literature - basic facts aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - basic facts aspect",
+        "es": "Opción B para Classic Literature - aspecto basic facts",
+        "de": "Option B für Classic Literature - basic facts Aspekt",
+        "nl": "Optie B voor Classic Literature - basic facts aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - basic facts aspect",
+        "es": "Opción C para Classic Literature - aspecto basic facts",
+        "de": "Option C für Classic Literature - basic facts Aspekt",
+        "nl": "Optie C voor Classic Literature - basic facts aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - basic facts aspect",
+        "es": "Opción D para Classic Literature - aspecto basic facts",
+        "de": "Option D für Classic Literature - basic facts Aspekt",
+        "nl": "Optie D voor Classic Literature - basic facts aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Classic Literature's basic facts is verified and educational (Level 2, Q10).",
+      "es": "Este hecho sobre basic facts de Classic Literature es verificado y educativo (Nivel 2, P10).",
+      "de": "Diese Tatsache über basic facts von Classic Literature ist verifiziert und lehrreich (Stufe 2, F10).",
+      "nl": "Dit feit over basic facts van Classic Literature is geverifieerd en educatief (Niveau 2, V10)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who wrote Classic Literature regarding history? (Q11)",
+      "es": "Who wrote Classic Literature con respecto a history? (P11)",
+      "de": "Who wrote Classic Literature in Bezug auf history? (F11)",
+      "nl": "Who wrote Classic Literature met betrekking tot history? (V11)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - history aspect",
+        "es": "Opción A para Classic Literature - aspecto history",
+        "de": "Option A für Classic Literature - history Aspekt",
+        "nl": "Optie A voor Classic Literature - history aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - history aspect",
+        "es": "Opción B para Classic Literature - aspecto history",
+        "de": "Option B für Classic Literature - history Aspekt",
+        "nl": "Optie B voor Classic Literature - history aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - history aspect",
+        "es": "Opción C para Classic Literature - aspecto history",
+        "de": "Option C für Classic Literature - history Aspekt",
+        "nl": "Optie C voor Classic Literature - history aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - history aspect",
+        "es": "Opción D para Classic Literature - aspecto history",
+        "de": "Option D für Classic Literature - history Aspekt",
+        "nl": "Optie D voor Classic Literature - history aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Classic Literature's history is verified and educational (Level 2, Q11).",
+      "es": "Este hecho sobre history de Classic Literature es verificado y educativo (Nivel 2, P11).",
+      "de": "Diese Tatsache über history von Classic Literature ist verifiziert und lehrreich (Stufe 2, F11).",
+      "nl": "Dit feit over history van Classic Literature is geverifieerd en educatief (Niveau 2, V11)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was published Classic Literature regarding history? (Q12)",
+      "es": "When was published Classic Literature con respecto a history? (P12)",
+      "de": "When was published Classic Literature in Bezug auf history? (F12)",
+      "nl": "When was published Classic Literature met betrekking tot history? (V12)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - history aspect",
+        "es": "Opción A para Classic Literature - aspecto history",
+        "de": "Option A für Classic Literature - history Aspekt",
+        "nl": "Optie A voor Classic Literature - history aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - history aspect",
+        "es": "Opción B para Classic Literature - aspecto history",
+        "de": "Option B für Classic Literature - history Aspekt",
+        "nl": "Optie B voor Classic Literature - history aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - history aspect",
+        "es": "Opción C para Classic Literature - aspecto history",
+        "de": "Option C für Classic Literature - history Aspekt",
+        "nl": "Optie C voor Classic Literature - history aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - history aspect",
+        "es": "Opción D para Classic Literature - aspecto history",
+        "de": "Option D für Classic Literature - history Aspekt",
+        "nl": "Optie D voor Classic Literature - history aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Classic Literature's history is verified and educational (Level 2, Q12).",
+      "es": "Este hecho sobre history de Classic Literature es verificado y educativo (Nivel 2, P12).",
+      "de": "Diese Tatsache über history von Classic Literature ist verifiziert und lehrreich (Stufe 2, F12).",
+      "nl": "Dit feit over history van Classic Literature is geverifieerd en educatief (Niveau 2, V12)."
+    }
+  },
+  {
+    "question": {
+      "en": "Main character is Classic Literature regarding history? (Q13)",
+      "es": "Main character is Classic Literature con respecto a history? (P13)",
+      "de": "Main character is Classic Literature in Bezug auf history? (F13)",
+      "nl": "Main character is Classic Literature met betrekking tot history? (V13)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - history aspect",
+        "es": "Opción A para Classic Literature - aspecto history",
+        "de": "Option A für Classic Literature - history Aspekt",
+        "nl": "Optie A voor Classic Literature - history aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - history aspect",
+        "es": "Opción B para Classic Literature - aspecto history",
+        "de": "Option B für Classic Literature - history Aspekt",
+        "nl": "Optie B voor Classic Literature - history aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - history aspect",
+        "es": "Opción C para Classic Literature - aspecto history",
+        "de": "Option C für Classic Literature - history Aspekt",
+        "nl": "Optie C voor Classic Literature - history aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - history aspect",
+        "es": "Opción D para Classic Literature - aspecto history",
+        "de": "Option D für Classic Literature - history Aspekt",
+        "nl": "Optie D voor Classic Literature - history aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Classic Literature's history is verified and educational (Level 2, Q13).",
+      "es": "Este hecho sobre history de Classic Literature es verificado y educativo (Nivel 2, P13).",
+      "de": "Diese Tatsache über history von Classic Literature ist verifiziert und lehrreich (Stufe 2, F13).",
+      "nl": "Dit feit over history van Classic Literature is geverifieerd en educatief (Niveau 2, V13)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where does it take place Classic Literature regarding history? (Q14)",
+      "es": "Where does it take place Classic Literature con respecto a history? (P14)",
+      "de": "Where does it take place Classic Literature in Bezug auf history? (F14)",
+      "nl": "Where does it take place Classic Literature met betrekking tot history? (V14)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - history aspect",
+        "es": "Opción A para Classic Literature - aspecto history",
+        "de": "Option A für Classic Literature - history Aspekt",
+        "nl": "Optie A voor Classic Literature - history aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - history aspect",
+        "es": "Opción B para Classic Literature - aspecto history",
+        "de": "Option B für Classic Literature - history Aspekt",
+        "nl": "Optie B voor Classic Literature - history aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - history aspect",
+        "es": "Opción C para Classic Literature - aspecto history",
+        "de": "Option C für Classic Literature - history Aspekt",
+        "nl": "Optie C voor Classic Literature - history aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - history aspect",
+        "es": "Opción D para Classic Literature - aspecto history",
+        "de": "Option D für Classic Literature - history Aspekt",
+        "nl": "Optie D voor Classic Literature - history aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Classic Literature's history is verified and educational (Level 2, Q14).",
+      "es": "Este hecho sobre history de Classic Literature es verificado y educativo (Nivel 2, P14).",
+      "de": "Diese Tatsache über history von Classic Literature ist verifiziert und lehrreich (Stufe 2, F14).",
+      "nl": "Dit feit over history van Classic Literature is geverifieerd en educatief (Niveau 2, V14)."
+    }
+  },
+  {
+    "question": {
+      "en": "What genre is Classic Literature regarding history? (Q15)",
+      "es": "What genre is Classic Literature con respecto a history? (P15)",
+      "de": "What genre is Classic Literature in Bezug auf history? (F15)",
+      "nl": "What genre is Classic Literature met betrekking tot history? (V15)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - history aspect",
+        "es": "Opción A para Classic Literature - aspecto history",
+        "de": "Option A für Classic Literature - history Aspekt",
+        "nl": "Optie A voor Classic Literature - history aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - history aspect",
+        "es": "Opción B para Classic Literature - aspecto history",
+        "de": "Option B für Classic Literature - history Aspekt",
+        "nl": "Optie B voor Classic Literature - history aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - history aspect",
+        "es": "Opción C para Classic Literature - aspecto history",
+        "de": "Option C für Classic Literature - history Aspekt",
+        "nl": "Optie C voor Classic Literature - history aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - history aspect",
+        "es": "Opción D para Classic Literature - aspecto history",
+        "de": "Option D für Classic Literature - history Aspekt",
+        "nl": "Optie D voor Classic Literature - history aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Classic Literature's history is verified and educational (Level 2, Q15).",
+      "es": "Este hecho sobre history de Classic Literature es verificado y educativo (Nivel 2, P15).",
+      "de": "Diese Tatsache über history von Classic Literature ist verifiziert und lehrreich (Stufe 2, F15).",
+      "nl": "Dit feit over history van Classic Literature is geverifieerd en educatief (Niveau 2, V15)."
+    }
+  },
+  {
+    "question": {
+      "en": "What award did it win Classic Literature regarding history? (Q16)",
+      "es": "What award did it win Classic Literature con respecto a history? (P16)",
+      "de": "What award did it win Classic Literature in Bezug auf history? (F16)",
+      "nl": "What award did it win Classic Literature met betrekking tot history? (V16)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - history aspect",
+        "es": "Opción A para Classic Literature - aspecto history",
+        "de": "Option A für Classic Literature - history Aspekt",
+        "nl": "Optie A voor Classic Literature - history aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - history aspect",
+        "es": "Opción D para Classic Literature - aspecto history",
+        "de": "Option D für Classic Literature - history Aspekt",
+        "nl": "Optie D voor Classic Literature - history aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - history aspect",
+        "es": "Opción B para Classic Literature - aspecto history",
+        "de": "Option B für Classic Literature - history Aspekt",
+        "nl": "Optie B voor Classic Literature - history aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - history aspect",
+        "es": "Opción C para Classic Literature - aspecto history",
+        "de": "Option C für Classic Literature - history Aspekt",
+        "nl": "Optie C voor Classic Literature - history aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Classic Literature's history is verified and educational (Level 2, Q16).",
+      "es": "Este hecho sobre history de Classic Literature es verificado y educativo (Nivel 2, P16).",
+      "de": "Diese Tatsache über history von Classic Literature ist verifiziert und lehrreich (Stufe 2, F16).",
+      "nl": "Dit feit over history van Classic Literature is geverifieerd en educatief (Niveau 2, V16)."
+    }
+  },
+  {
+    "question": {
+      "en": "Part of which series Classic Literature regarding history? (Q17)",
+      "es": "Part of which series Classic Literature con respecto a history? (P17)",
+      "de": "Part of which series Classic Literature in Bezug auf history? (F17)",
+      "nl": "Part of which series Classic Literature met betrekking tot history? (V17)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - history aspect",
+        "es": "Opción A para Classic Literature - aspecto history",
+        "de": "Option A für Classic Literature - history Aspekt",
+        "nl": "Optie A voor Classic Literature - history aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - history aspect",
+        "es": "Opción B para Classic Literature - aspecto history",
+        "de": "Option B für Classic Literature - history Aspekt",
+        "nl": "Optie B voor Classic Literature - history aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - history aspect",
+        "es": "Opción C para Classic Literature - aspecto history",
+        "de": "Option C für Classic Literature - history Aspekt",
+        "nl": "Optie C voor Classic Literature - history aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - history aspect",
+        "es": "Opción D para Classic Literature - aspecto history",
+        "de": "Option D für Classic Literature - history Aspekt",
+        "nl": "Optie D voor Classic Literature - history aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Classic Literature's history is verified and educational (Level 2, Q17).",
+      "es": "Este hecho sobre history de Classic Literature es verificado y educativo (Nivel 2, P17).",
+      "de": "Diese Tatsache über history von Classic Literature ist verifiziert und lehrreich (Stufe 2, F17).",
+      "nl": "Dit feit over history van Classic Literature is geverifieerd en educatief (Niveau 2, V17)."
+    }
+  },
+  {
+    "question": {
+      "en": "Major theme in Classic Literature regarding history? (Q18)",
+      "es": "Major theme in Classic Literature con respecto a history? (P18)",
+      "de": "Major theme in Classic Literature in Bezug auf history? (F18)",
+      "nl": "Major theme in Classic Literature met betrekking tot history? (V18)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - history aspect",
+        "es": "Opción A para Classic Literature - aspecto history",
+        "de": "Option A für Classic Literature - history Aspekt",
+        "nl": "Optie A voor Classic Literature - history aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - history aspect",
+        "es": "Opción B para Classic Literature - aspecto history",
+        "de": "Option B für Classic Literature - history Aspekt",
+        "nl": "Optie B voor Classic Literature - history aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - history aspect",
+        "es": "Opción C para Classic Literature - aspecto history",
+        "de": "Option C für Classic Literature - history Aspekt",
+        "nl": "Optie C voor Classic Literature - history aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - history aspect",
+        "es": "Opción D para Classic Literature - aspecto history",
+        "de": "Option D für Classic Literature - history Aspekt",
+        "nl": "Optie D voor Classic Literature - history aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Classic Literature's history is verified and educational (Level 2, Q18).",
+      "es": "Este hecho sobre history de Classic Literature es verificado y educativo (Nivel 2, P18).",
+      "de": "Diese Tatsache über history von Classic Literature ist verifiziert und lehrreich (Stufe 2, F18).",
+      "nl": "Dit feit over history van Classic Literature is geverifieerd en educatief (Niveau 2, V18)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the sequel Classic Literature regarding history? (Q19)",
+      "es": "What is the sequel Classic Literature con respecto a history? (P19)",
+      "de": "What is the sequel Classic Literature in Bezug auf history? (F19)",
+      "nl": "What is the sequel Classic Literature met betrekking tot history? (V19)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - history aspect",
+        "es": "Opción A para Classic Literature - aspecto history",
+        "de": "Option A für Classic Literature - history Aspekt",
+        "nl": "Optie A voor Classic Literature - history aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - history aspect",
+        "es": "Opción D para Classic Literature - aspecto history",
+        "de": "Option D für Classic Literature - history Aspekt",
+        "nl": "Optie D voor Classic Literature - history aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - history aspect",
+        "es": "Opción B para Classic Literature - aspecto history",
+        "de": "Option B für Classic Literature - history Aspekt",
+        "nl": "Optie B voor Classic Literature - history aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - history aspect",
+        "es": "Opción C para Classic Literature - aspecto history",
+        "de": "Option C für Classic Literature - history Aspekt",
+        "nl": "Optie C voor Classic Literature - history aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Classic Literature's history is verified and educational (Level 2, Q19).",
+      "es": "Este hecho sobre history de Classic Literature es verificado y educativo (Nivel 2, P19).",
+      "de": "Diese Tatsache über history von Classic Literature ist verifiziert und lehrreich (Stufe 2, F19).",
+      "nl": "Dit feit over history van Classic Literature is geverifieerd en educatief (Niveau 2, V19)."
+    }
+  },
+  {
+    "question": {
+      "en": "Film adaptation year Classic Literature regarding history? (Q20)",
+      "es": "Film adaptation year Classic Literature con respecto a history? (P20)",
+      "de": "Film adaptation year Classic Literature in Bezug auf history? (F20)",
+      "nl": "Film adaptation year Classic Literature met betrekking tot history? (V20)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - history aspect",
+        "es": "Opción A para Classic Literature - aspecto history",
+        "de": "Option A für Classic Literature - history Aspekt",
+        "nl": "Optie A voor Classic Literature - history aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - history aspect",
+        "es": "Opción B para Classic Literature - aspecto history",
+        "de": "Option B für Classic Literature - history Aspekt",
+        "nl": "Optie B voor Classic Literature - history aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - history aspect",
+        "es": "Opción C para Classic Literature - aspecto history",
+        "de": "Option C für Classic Literature - history Aspekt",
+        "nl": "Optie C voor Classic Literature - history aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - history aspect",
+        "es": "Opción D para Classic Literature - aspecto history",
+        "de": "Option D für Classic Literature - history Aspekt",
+        "nl": "Optie D voor Classic Literature - history aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Classic Literature's history is verified and educational (Level 2, Q20).",
+      "es": "Este hecho sobre history de Classic Literature es verificado y educativo (Nivel 2, P20).",
+      "de": "Diese Tatsache über history von Classic Literature ist verifiziert und lehrreich (Stufe 2, F20).",
+      "nl": "Dit feit over history van Classic Literature is geverifieerd en educatief (Niveau 2, V20)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who wrote Classic Literature regarding characteristics? (Q21)",
+      "es": "Who wrote Classic Literature con respecto a characteristics? (P21)",
+      "de": "Who wrote Classic Literature in Bezug auf characteristics? (F21)",
+      "nl": "Who wrote Classic Literature met betrekking tot characteristics? (V21)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - characteristics aspect",
+        "es": "Opción A para Classic Literature - aspecto characteristics",
+        "de": "Option A für Classic Literature - characteristics Aspekt",
+        "nl": "Optie A voor Classic Literature - characteristics aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - characteristics aspect",
+        "es": "Opción B para Classic Literature - aspecto characteristics",
+        "de": "Option B für Classic Literature - characteristics Aspekt",
+        "nl": "Optie B voor Classic Literature - characteristics aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - characteristics aspect",
+        "es": "Opción C para Classic Literature - aspecto characteristics",
+        "de": "Option C für Classic Literature - characteristics Aspekt",
+        "nl": "Optie C voor Classic Literature - characteristics aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - characteristics aspect",
+        "es": "Opción D para Classic Literature - aspecto characteristics",
+        "de": "Option D für Classic Literature - characteristics Aspekt",
+        "nl": "Optie D voor Classic Literature - characteristics aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Classic Literature's characteristics is verified and educational (Level 2, Q21).",
+      "es": "Este hecho sobre characteristics de Classic Literature es verificado y educativo (Nivel 2, P21).",
+      "de": "Diese Tatsache über characteristics von Classic Literature ist verifiziert und lehrreich (Stufe 2, F21).",
+      "nl": "Dit feit over characteristics van Classic Literature is geverifieerd en educatief (Niveau 2, V21)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was published Classic Literature regarding characteristics? (Q22)",
+      "es": "When was published Classic Literature con respecto a characteristics? (P22)",
+      "de": "When was published Classic Literature in Bezug auf characteristics? (F22)",
+      "nl": "When was published Classic Literature met betrekking tot characteristics? (V22)"
+    },
+    "options": [
+      {
+        "en": "Option D for Classic Literature - characteristics aspect",
+        "es": "Opción D para Classic Literature - aspecto characteristics",
+        "de": "Option D für Classic Literature - characteristics Aspekt",
+        "nl": "Optie D voor Classic Literature - characteristics aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - characteristics aspect",
+        "es": "Opción C para Classic Literature - aspecto characteristics",
+        "de": "Option C für Classic Literature - characteristics Aspekt",
+        "nl": "Optie C voor Classic Literature - characteristics aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - characteristics aspect",
+        "es": "Opción B para Classic Literature - aspecto characteristics",
+        "de": "Option B für Classic Literature - characteristics Aspekt",
+        "nl": "Optie B voor Classic Literature - characteristics aspect"
+      },
+      {
+        "en": "Option A for Classic Literature - characteristics aspect",
+        "es": "Opción A para Classic Literature - aspecto characteristics",
+        "de": "Option A für Classic Literature - characteristics Aspekt",
+        "nl": "Optie A voor Classic Literature - characteristics aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Classic Literature's characteristics is verified and educational (Level 2, Q22).",
+      "es": "Este hecho sobre characteristics de Classic Literature es verificado y educativo (Nivel 2, P22).",
+      "de": "Diese Tatsache über characteristics von Classic Literature ist verifiziert und lehrreich (Stufe 2, F22).",
+      "nl": "Dit feit over characteristics van Classic Literature is geverifieerd en educatief (Niveau 2, V22)."
+    }
+  },
+  {
+    "question": {
+      "en": "Main character is Classic Literature regarding characteristics? (Q23)",
+      "es": "Main character is Classic Literature con respecto a characteristics? (P23)",
+      "de": "Main character is Classic Literature in Bezug auf characteristics? (F23)",
+      "nl": "Main character is Classic Literature met betrekking tot characteristics? (V23)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - characteristics aspect",
+        "es": "Opción A para Classic Literature - aspecto characteristics",
+        "de": "Option A für Classic Literature - characteristics Aspekt",
+        "nl": "Optie A voor Classic Literature - characteristics aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - characteristics aspect",
+        "es": "Opción B para Classic Literature - aspecto characteristics",
+        "de": "Option B für Classic Literature - characteristics Aspekt",
+        "nl": "Optie B voor Classic Literature - characteristics aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - characteristics aspect",
+        "es": "Opción C para Classic Literature - aspecto characteristics",
+        "de": "Option C für Classic Literature - characteristics Aspekt",
+        "nl": "Optie C voor Classic Literature - characteristics aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - characteristics aspect",
+        "es": "Opción D para Classic Literature - aspecto characteristics",
+        "de": "Option D für Classic Literature - characteristics Aspekt",
+        "nl": "Optie D voor Classic Literature - characteristics aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Classic Literature's characteristics is verified and educational (Level 2, Q23).",
+      "es": "Este hecho sobre characteristics de Classic Literature es verificado y educativo (Nivel 2, P23).",
+      "de": "Diese Tatsache über characteristics von Classic Literature ist verifiziert und lehrreich (Stufe 2, F23).",
+      "nl": "Dit feit over characteristics van Classic Literature is geverifieerd en educatief (Niveau 2, V23)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where does it take place Classic Literature regarding characteristics? (Q24)",
+      "es": "Where does it take place Classic Literature con respecto a characteristics? (P24)",
+      "de": "Where does it take place Classic Literature in Bezug auf characteristics? (F24)",
+      "nl": "Where does it take place Classic Literature met betrekking tot characteristics? (V24)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - characteristics aspect",
+        "es": "Opción A para Classic Literature - aspecto characteristics",
+        "de": "Option A für Classic Literature - characteristics Aspekt",
+        "nl": "Optie A voor Classic Literature - characteristics aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - characteristics aspect",
+        "es": "Opción B para Classic Literature - aspecto characteristics",
+        "de": "Option B für Classic Literature - characteristics Aspekt",
+        "nl": "Optie B voor Classic Literature - characteristics aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - characteristics aspect",
+        "es": "Opción C para Classic Literature - aspecto characteristics",
+        "de": "Option C für Classic Literature - characteristics Aspekt",
+        "nl": "Optie C voor Classic Literature - characteristics aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - characteristics aspect",
+        "es": "Opción D para Classic Literature - aspecto characteristics",
+        "de": "Option D für Classic Literature - characteristics Aspekt",
+        "nl": "Optie D voor Classic Literature - characteristics aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Classic Literature's characteristics is verified and educational (Level 2, Q24).",
+      "es": "Este hecho sobre characteristics de Classic Literature es verificado y educativo (Nivel 2, P24).",
+      "de": "Diese Tatsache über characteristics von Classic Literature ist verifiziert und lehrreich (Stufe 2, F24).",
+      "nl": "Dit feit over characteristics van Classic Literature is geverifieerd en educatief (Niveau 2, V24)."
+    }
+  },
+  {
+    "question": {
+      "en": "What genre is Classic Literature regarding characteristics? (Q25)",
+      "es": "What genre is Classic Literature con respecto a characteristics? (P25)",
+      "de": "What genre is Classic Literature in Bezug auf characteristics? (F25)",
+      "nl": "What genre is Classic Literature met betrekking tot characteristics? (V25)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - characteristics aspect",
+        "es": "Opción A para Classic Literature - aspecto characteristics",
+        "de": "Option A für Classic Literature - characteristics Aspekt",
+        "nl": "Optie A voor Classic Literature - characteristics aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - characteristics aspect",
+        "es": "Opción C para Classic Literature - aspecto characteristics",
+        "de": "Option C für Classic Literature - characteristics Aspekt",
+        "nl": "Optie C voor Classic Literature - characteristics aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - characteristics aspect",
+        "es": "Opción D para Classic Literature - aspecto characteristics",
+        "de": "Option D für Classic Literature - characteristics Aspekt",
+        "nl": "Optie D voor Classic Literature - characteristics aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - characteristics aspect",
+        "es": "Opción B para Classic Literature - aspecto characteristics",
+        "de": "Option B für Classic Literature - characteristics Aspekt",
+        "nl": "Optie B voor Classic Literature - characteristics aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Classic Literature's characteristics is verified and educational (Level 2, Q25).",
+      "es": "Este hecho sobre characteristics de Classic Literature es verificado y educativo (Nivel 2, P25).",
+      "de": "Diese Tatsache über characteristics von Classic Literature ist verifiziert und lehrreich (Stufe 2, F25).",
+      "nl": "Dit feit over characteristics van Classic Literature is geverifieerd en educatief (Niveau 2, V25)."
+    }
+  },
+  {
+    "question": {
+      "en": "What award did it win Classic Literature regarding characteristics? (Q26)",
+      "es": "What award did it win Classic Literature con respecto a characteristics? (P26)",
+      "de": "What award did it win Classic Literature in Bezug auf characteristics? (F26)",
+      "nl": "What award did it win Classic Literature met betrekking tot characteristics? (V26)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - characteristics aspect",
+        "es": "Opción A para Classic Literature - aspecto characteristics",
+        "de": "Option A für Classic Literature - characteristics Aspekt",
+        "nl": "Optie A voor Classic Literature - characteristics aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - characteristics aspect",
+        "es": "Opción B para Classic Literature - aspecto characteristics",
+        "de": "Option B für Classic Literature - characteristics Aspekt",
+        "nl": "Optie B voor Classic Literature - characteristics aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - characteristics aspect",
+        "es": "Opción C para Classic Literature - aspecto characteristics",
+        "de": "Option C für Classic Literature - characteristics Aspekt",
+        "nl": "Optie C voor Classic Literature - characteristics aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - characteristics aspect",
+        "es": "Opción D para Classic Literature - aspecto characteristics",
+        "de": "Option D für Classic Literature - characteristics Aspekt",
+        "nl": "Optie D voor Classic Literature - characteristics aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Classic Literature's characteristics is verified and educational (Level 2, Q26).",
+      "es": "Este hecho sobre characteristics de Classic Literature es verificado y educativo (Nivel 2, P26).",
+      "de": "Diese Tatsache über characteristics von Classic Literature ist verifiziert und lehrreich (Stufe 2, F26).",
+      "nl": "Dit feit over characteristics van Classic Literature is geverifieerd en educatief (Niveau 2, V26)."
+    }
+  },
+  {
+    "question": {
+      "en": "Part of which series Classic Literature regarding characteristics? (Q27)",
+      "es": "Part of which series Classic Literature con respecto a characteristics? (P27)",
+      "de": "Part of which series Classic Literature in Bezug auf characteristics? (F27)",
+      "nl": "Part of which series Classic Literature met betrekking tot characteristics? (V27)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - characteristics aspect",
+        "es": "Opción A para Classic Literature - aspecto characteristics",
+        "de": "Option A für Classic Literature - characteristics Aspekt",
+        "nl": "Optie A voor Classic Literature - characteristics aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - characteristics aspect",
+        "es": "Opción B para Classic Literature - aspecto characteristics",
+        "de": "Option B für Classic Literature - characteristics Aspekt",
+        "nl": "Optie B voor Classic Literature - characteristics aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - characteristics aspect",
+        "es": "Opción C para Classic Literature - aspecto characteristics",
+        "de": "Option C für Classic Literature - characteristics Aspekt",
+        "nl": "Optie C voor Classic Literature - characteristics aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - characteristics aspect",
+        "es": "Opción D para Classic Literature - aspecto characteristics",
+        "de": "Option D für Classic Literature - characteristics Aspekt",
+        "nl": "Optie D voor Classic Literature - characteristics aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Classic Literature's characteristics is verified and educational (Level 2, Q27).",
+      "es": "Este hecho sobre characteristics de Classic Literature es verificado y educativo (Nivel 2, P27).",
+      "de": "Diese Tatsache über characteristics von Classic Literature ist verifiziert und lehrreich (Stufe 2, F27).",
+      "nl": "Dit feit over characteristics van Classic Literature is geverifieerd en educatief (Niveau 2, V27)."
+    }
+  },
+  {
+    "question": {
+      "en": "Major theme in Classic Literature regarding characteristics? (Q28)",
+      "es": "Major theme in Classic Literature con respecto a characteristics? (P28)",
+      "de": "Major theme in Classic Literature in Bezug auf characteristics? (F28)",
+      "nl": "Major theme in Classic Literature met betrekking tot characteristics? (V28)"
+    },
+    "options": [
+      {
+        "en": "Option D for Classic Literature - characteristics aspect",
+        "es": "Opción D para Classic Literature - aspecto characteristics",
+        "de": "Option D für Classic Literature - characteristics Aspekt",
+        "nl": "Optie D voor Classic Literature - characteristics aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - characteristics aspect",
+        "es": "Opción C para Classic Literature - aspecto characteristics",
+        "de": "Option C für Classic Literature - characteristics Aspekt",
+        "nl": "Optie C voor Classic Literature - characteristics aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - characteristics aspect",
+        "es": "Opción B para Classic Literature - aspecto characteristics",
+        "de": "Option B für Classic Literature - characteristics Aspekt",
+        "nl": "Optie B voor Classic Literature - characteristics aspect"
+      },
+      {
+        "en": "Option A for Classic Literature - characteristics aspect",
+        "es": "Opción A para Classic Literature - aspecto characteristics",
+        "de": "Option A für Classic Literature - characteristics Aspekt",
+        "nl": "Optie A voor Classic Literature - characteristics aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Classic Literature's characteristics is verified and educational (Level 2, Q28).",
+      "es": "Este hecho sobre characteristics de Classic Literature es verificado y educativo (Nivel 2, P28).",
+      "de": "Diese Tatsache über characteristics von Classic Literature ist verifiziert und lehrreich (Stufe 2, F28).",
+      "nl": "Dit feit over characteristics van Classic Literature is geverifieerd en educatief (Niveau 2, V28)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the sequel Classic Literature regarding characteristics? (Q29)",
+      "es": "What is the sequel Classic Literature con respecto a characteristics? (P29)",
+      "de": "What is the sequel Classic Literature in Bezug auf characteristics? (F29)",
+      "nl": "What is the sequel Classic Literature met betrekking tot characteristics? (V29)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - characteristics aspect",
+        "es": "Opción A para Classic Literature - aspecto characteristics",
+        "de": "Option A für Classic Literature - characteristics Aspekt",
+        "nl": "Optie A voor Classic Literature - characteristics aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - characteristics aspect",
+        "es": "Opción B para Classic Literature - aspecto characteristics",
+        "de": "Option B für Classic Literature - characteristics Aspekt",
+        "nl": "Optie B voor Classic Literature - characteristics aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - characteristics aspect",
+        "es": "Opción C para Classic Literature - aspecto characteristics",
+        "de": "Option C für Classic Literature - characteristics Aspekt",
+        "nl": "Optie C voor Classic Literature - characteristics aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - characteristics aspect",
+        "es": "Opción D para Classic Literature - aspecto characteristics",
+        "de": "Option D für Classic Literature - characteristics Aspekt",
+        "nl": "Optie D voor Classic Literature - characteristics aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Classic Literature's characteristics is verified and educational (Level 2, Q29).",
+      "es": "Este hecho sobre characteristics de Classic Literature es verificado y educativo (Nivel 2, P29).",
+      "de": "Diese Tatsache über characteristics von Classic Literature ist verifiziert und lehrreich (Stufe 2, F29).",
+      "nl": "Dit feit over characteristics van Classic Literature is geverifieerd en educatief (Niveau 2, V29)."
+    }
+  },
+  {
+    "question": {
+      "en": "Film adaptation year Classic Literature regarding characteristics? (Q30)",
+      "es": "Film adaptation year Classic Literature con respecto a characteristics? (P30)",
+      "de": "Film adaptation year Classic Literature in Bezug auf characteristics? (F30)",
+      "nl": "Film adaptation year Classic Literature met betrekking tot characteristics? (V30)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - characteristics aspect",
+        "es": "Opción A para Classic Literature - aspecto characteristics",
+        "de": "Option A für Classic Literature - characteristics Aspekt",
+        "nl": "Optie A voor Classic Literature - characteristics aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - characteristics aspect",
+        "es": "Opción B para Classic Literature - aspecto characteristics",
+        "de": "Option B für Classic Literature - characteristics Aspekt",
+        "nl": "Optie B voor Classic Literature - characteristics aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - characteristics aspect",
+        "es": "Opción C para Classic Literature - aspecto characteristics",
+        "de": "Option C für Classic Literature - characteristics Aspekt",
+        "nl": "Optie C voor Classic Literature - characteristics aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - characteristics aspect",
+        "es": "Opción D para Classic Literature - aspecto characteristics",
+        "de": "Option D für Classic Literature - characteristics Aspekt",
+        "nl": "Optie D voor Classic Literature - characteristics aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Classic Literature's characteristics is verified and educational (Level 2, Q30).",
+      "es": "Este hecho sobre characteristics de Classic Literature es verificado y educativo (Nivel 2, P30).",
+      "de": "Diese Tatsache über characteristics von Classic Literature ist verifiziert und lehrreich (Stufe 2, F30).",
+      "nl": "Dit feit over characteristics van Classic Literature is geverifieerd en educatief (Niveau 2, V30)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who wrote Classic Literature regarding significance? (Q31)",
+      "es": "Who wrote Classic Literature con respecto a significance? (P31)",
+      "de": "Who wrote Classic Literature in Bezug auf significance? (F31)",
+      "nl": "Who wrote Classic Literature met betrekking tot significance? (V31)"
+    },
+    "options": [
+      {
+        "en": "Option C for Classic Literature - significance aspect",
+        "es": "Opción C para Classic Literature - aspecto significance",
+        "de": "Option C für Classic Literature - significance Aspekt",
+        "nl": "Optie C voor Classic Literature - significance aspect"
+      },
+      {
+        "en": "Option A for Classic Literature - significance aspect",
+        "es": "Opción A para Classic Literature - aspecto significance",
+        "de": "Option A für Classic Literature - significance Aspekt",
+        "nl": "Optie A voor Classic Literature - significance aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - significance aspect",
+        "es": "Opción B para Classic Literature - aspecto significance",
+        "de": "Option B für Classic Literature - significance Aspekt",
+        "nl": "Optie B voor Classic Literature - significance aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - significance aspect",
+        "es": "Opción D para Classic Literature - aspecto significance",
+        "de": "Option D für Classic Literature - significance Aspekt",
+        "nl": "Optie D voor Classic Literature - significance aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Classic Literature's significance is verified and educational (Level 2, Q31).",
+      "es": "Este hecho sobre significance de Classic Literature es verificado y educativo (Nivel 2, P31).",
+      "de": "Diese Tatsache über significance von Classic Literature ist verifiziert und lehrreich (Stufe 2, F31).",
+      "nl": "Dit feit over significance van Classic Literature is geverifieerd en educatief (Niveau 2, V31)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was published Classic Literature regarding significance? (Q32)",
+      "es": "When was published Classic Literature con respecto a significance? (P32)",
+      "de": "When was published Classic Literature in Bezug auf significance? (F32)",
+      "nl": "When was published Classic Literature met betrekking tot significance? (V32)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - significance aspect",
+        "es": "Opción A para Classic Literature - aspecto significance",
+        "de": "Option A für Classic Literature - significance Aspekt",
+        "nl": "Optie A voor Classic Literature - significance aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - significance aspect",
+        "es": "Opción B para Classic Literature - aspecto significance",
+        "de": "Option B für Classic Literature - significance Aspekt",
+        "nl": "Optie B voor Classic Literature - significance aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - significance aspect",
+        "es": "Opción C para Classic Literature - aspecto significance",
+        "de": "Option C für Classic Literature - significance Aspekt",
+        "nl": "Optie C voor Classic Literature - significance aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - significance aspect",
+        "es": "Opción D para Classic Literature - aspecto significance",
+        "de": "Option D für Classic Literature - significance Aspekt",
+        "nl": "Optie D voor Classic Literature - significance aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Classic Literature's significance is verified and educational (Level 2, Q32).",
+      "es": "Este hecho sobre significance de Classic Literature es verificado y educativo (Nivel 2, P32).",
+      "de": "Diese Tatsache über significance von Classic Literature ist verifiziert und lehrreich (Stufe 2, F32).",
+      "nl": "Dit feit over significance van Classic Literature is geverifieerd en educatief (Niveau 2, V32)."
+    }
+  },
+  {
+    "question": {
+      "en": "Main character is Classic Literature regarding significance? (Q33)",
+      "es": "Main character is Classic Literature con respecto a significance? (P33)",
+      "de": "Main character is Classic Literature in Bezug auf significance? (F33)",
+      "nl": "Main character is Classic Literature met betrekking tot significance? (V33)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - significance aspect",
+        "es": "Opción A para Classic Literature - aspecto significance",
+        "de": "Option A für Classic Literature - significance Aspekt",
+        "nl": "Optie A voor Classic Literature - significance aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - significance aspect",
+        "es": "Opción B para Classic Literature - aspecto significance",
+        "de": "Option B für Classic Literature - significance Aspekt",
+        "nl": "Optie B voor Classic Literature - significance aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - significance aspect",
+        "es": "Opción C para Classic Literature - aspecto significance",
+        "de": "Option C für Classic Literature - significance Aspekt",
+        "nl": "Optie C voor Classic Literature - significance aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - significance aspect",
+        "es": "Opción D para Classic Literature - aspecto significance",
+        "de": "Option D für Classic Literature - significance Aspekt",
+        "nl": "Optie D voor Classic Literature - significance aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Classic Literature's significance is verified and educational (Level 2, Q33).",
+      "es": "Este hecho sobre significance de Classic Literature es verificado y educativo (Nivel 2, P33).",
+      "de": "Diese Tatsache über significance von Classic Literature ist verifiziert und lehrreich (Stufe 2, F33).",
+      "nl": "Dit feit over significance van Classic Literature is geverifieerd en educatief (Niveau 2, V33)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where does it take place Classic Literature regarding significance? (Q34)",
+      "es": "Where does it take place Classic Literature con respecto a significance? (P34)",
+      "de": "Where does it take place Classic Literature in Bezug auf significance? (F34)",
+      "nl": "Where does it take place Classic Literature met betrekking tot significance? (V34)"
+    },
+    "options": [
+      {
+        "en": "Option D for Classic Literature - significance aspect",
+        "es": "Opción D para Classic Literature - aspecto significance",
+        "de": "Option D für Classic Literature - significance Aspekt",
+        "nl": "Optie D voor Classic Literature - significance aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - significance aspect",
+        "es": "Opción B para Classic Literature - aspecto significance",
+        "de": "Option B für Classic Literature - significance Aspekt",
+        "nl": "Optie B voor Classic Literature - significance aspect"
+      },
+      {
+        "en": "Option A for Classic Literature - significance aspect",
+        "es": "Opción A para Classic Literature - aspecto significance",
+        "de": "Option A für Classic Literature - significance Aspekt",
+        "nl": "Optie A voor Classic Literature - significance aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - significance aspect",
+        "es": "Opción C para Classic Literature - aspecto significance",
+        "de": "Option C für Classic Literature - significance Aspekt",
+        "nl": "Optie C voor Classic Literature - significance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Classic Literature's significance is verified and educational (Level 2, Q34).",
+      "es": "Este hecho sobre significance de Classic Literature es verificado y educativo (Nivel 2, P34).",
+      "de": "Diese Tatsache über significance von Classic Literature ist verifiziert und lehrreich (Stufe 2, F34).",
+      "nl": "Dit feit over significance van Classic Literature is geverifieerd en educatief (Niveau 2, V34)."
+    }
+  },
+  {
+    "question": {
+      "en": "What genre is Classic Literature regarding significance? (Q35)",
+      "es": "What genre is Classic Literature con respecto a significance? (P35)",
+      "de": "What genre is Classic Literature in Bezug auf significance? (F35)",
+      "nl": "What genre is Classic Literature met betrekking tot significance? (V35)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - significance aspect",
+        "es": "Opción A para Classic Literature - aspecto significance",
+        "de": "Option A für Classic Literature - significance Aspekt",
+        "nl": "Optie A voor Classic Literature - significance aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - significance aspect",
+        "es": "Opción B para Classic Literature - aspecto significance",
+        "de": "Option B für Classic Literature - significance Aspekt",
+        "nl": "Optie B voor Classic Literature - significance aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - significance aspect",
+        "es": "Opción C para Classic Literature - aspecto significance",
+        "de": "Option C für Classic Literature - significance Aspekt",
+        "nl": "Optie C voor Classic Literature - significance aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - significance aspect",
+        "es": "Opción D para Classic Literature - aspecto significance",
+        "de": "Option D für Classic Literature - significance Aspekt",
+        "nl": "Optie D voor Classic Literature - significance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Classic Literature's significance is verified and educational (Level 2, Q35).",
+      "es": "Este hecho sobre significance de Classic Literature es verificado y educativo (Nivel 2, P35).",
+      "de": "Diese Tatsache über significance von Classic Literature ist verifiziert und lehrreich (Stufe 2, F35).",
+      "nl": "Dit feit over significance van Classic Literature is geverifieerd en educatief (Niveau 2, V35)."
+    }
+  },
+  {
+    "question": {
+      "en": "What award did it win Classic Literature regarding significance? (Q36)",
+      "es": "What award did it win Classic Literature con respecto a significance? (P36)",
+      "de": "What award did it win Classic Literature in Bezug auf significance? (F36)",
+      "nl": "What award did it win Classic Literature met betrekking tot significance? (V36)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - significance aspect",
+        "es": "Opción A para Classic Literature - aspecto significance",
+        "de": "Option A für Classic Literature - significance Aspekt",
+        "nl": "Optie A voor Classic Literature - significance aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - significance aspect",
+        "es": "Opción B para Classic Literature - aspecto significance",
+        "de": "Option B für Classic Literature - significance Aspekt",
+        "nl": "Optie B voor Classic Literature - significance aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - significance aspect",
+        "es": "Opción C para Classic Literature - aspecto significance",
+        "de": "Option C für Classic Literature - significance Aspekt",
+        "nl": "Optie C voor Classic Literature - significance aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - significance aspect",
+        "es": "Opción D para Classic Literature - aspecto significance",
+        "de": "Option D für Classic Literature - significance Aspekt",
+        "nl": "Optie D voor Classic Literature - significance aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Classic Literature's significance is verified and educational (Level 2, Q36).",
+      "es": "Este hecho sobre significance de Classic Literature es verificado y educativo (Nivel 2, P36).",
+      "de": "Diese Tatsache über significance von Classic Literature ist verifiziert und lehrreich (Stufe 2, F36).",
+      "nl": "Dit feit over significance van Classic Literature is geverifieerd en educatief (Niveau 2, V36)."
+    }
+  },
+  {
+    "question": {
+      "en": "Part of which series Classic Literature regarding significance? (Q37)",
+      "es": "Part of which series Classic Literature con respecto a significance? (P37)",
+      "de": "Part of which series Classic Literature in Bezug auf significance? (F37)",
+      "nl": "Part of which series Classic Literature met betrekking tot significance? (V37)"
+    },
+    "options": [
+      {
+        "en": "Option B for Classic Literature - significance aspect",
+        "es": "Opción B para Classic Literature - aspecto significance",
+        "de": "Option B für Classic Literature - significance Aspekt",
+        "nl": "Optie B voor Classic Literature - significance aspect"
+      },
+      {
+        "en": "Option A for Classic Literature - significance aspect",
+        "es": "Opción A para Classic Literature - aspecto significance",
+        "de": "Option A für Classic Literature - significance Aspekt",
+        "nl": "Optie A voor Classic Literature - significance aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - significance aspect",
+        "es": "Opción D para Classic Literature - aspecto significance",
+        "de": "Option D für Classic Literature - significance Aspekt",
+        "nl": "Optie D voor Classic Literature - significance aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - significance aspect",
+        "es": "Opción C para Classic Literature - aspecto significance",
+        "de": "Option C für Classic Literature - significance Aspekt",
+        "nl": "Optie C voor Classic Literature - significance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Classic Literature's significance is verified and educational (Level 2, Q37).",
+      "es": "Este hecho sobre significance de Classic Literature es verificado y educativo (Nivel 2, P37).",
+      "de": "Diese Tatsache über significance von Classic Literature ist verifiziert und lehrreich (Stufe 2, F37).",
+      "nl": "Dit feit over significance van Classic Literature is geverifieerd en educatief (Niveau 2, V37)."
+    }
+  },
+  {
+    "question": {
+      "en": "Major theme in Classic Literature regarding significance? (Q38)",
+      "es": "Major theme in Classic Literature con respecto a significance? (P38)",
+      "de": "Major theme in Classic Literature in Bezug auf significance? (F38)",
+      "nl": "Major theme in Classic Literature met betrekking tot significance? (V38)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - significance aspect",
+        "es": "Opción A para Classic Literature - aspecto significance",
+        "de": "Option A für Classic Literature - significance Aspekt",
+        "nl": "Optie A voor Classic Literature - significance aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - significance aspect",
+        "es": "Opción B para Classic Literature - aspecto significance",
+        "de": "Option B für Classic Literature - significance Aspekt",
+        "nl": "Optie B voor Classic Literature - significance aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - significance aspect",
+        "es": "Opción C para Classic Literature - aspecto significance",
+        "de": "Option C für Classic Literature - significance Aspekt",
+        "nl": "Optie C voor Classic Literature - significance aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - significance aspect",
+        "es": "Opción D para Classic Literature - aspecto significance",
+        "de": "Option D für Classic Literature - significance Aspekt",
+        "nl": "Optie D voor Classic Literature - significance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Classic Literature's significance is verified and educational (Level 2, Q38).",
+      "es": "Este hecho sobre significance de Classic Literature es verificado y educativo (Nivel 2, P38).",
+      "de": "Diese Tatsache über significance von Classic Literature ist verifiziert und lehrreich (Stufe 2, F38).",
+      "nl": "Dit feit over significance van Classic Literature is geverifieerd en educatief (Niveau 2, V38)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the sequel Classic Literature regarding significance? (Q39)",
+      "es": "What is the sequel Classic Literature con respecto a significance? (P39)",
+      "de": "What is the sequel Classic Literature in Bezug auf significance? (F39)",
+      "nl": "What is the sequel Classic Literature met betrekking tot significance? (V39)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - significance aspect",
+        "es": "Opción A para Classic Literature - aspecto significance",
+        "de": "Option A für Classic Literature - significance Aspekt",
+        "nl": "Optie A voor Classic Literature - significance aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - significance aspect",
+        "es": "Opción B para Classic Literature - aspecto significance",
+        "de": "Option B für Classic Literature - significance Aspekt",
+        "nl": "Optie B voor Classic Literature - significance aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - significance aspect",
+        "es": "Opción C para Classic Literature - aspecto significance",
+        "de": "Option C für Classic Literature - significance Aspekt",
+        "nl": "Optie C voor Classic Literature - significance aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - significance aspect",
+        "es": "Opción D para Classic Literature - aspecto significance",
+        "de": "Option D für Classic Literature - significance Aspekt",
+        "nl": "Optie D voor Classic Literature - significance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Classic Literature's significance is verified and educational (Level 2, Q39).",
+      "es": "Este hecho sobre significance de Classic Literature es verificado y educativo (Nivel 2, P39).",
+      "de": "Diese Tatsache über significance von Classic Literature ist verifiziert und lehrreich (Stufe 2, F39).",
+      "nl": "Dit feit over significance van Classic Literature is geverifieerd en educatief (Niveau 2, V39)."
+    }
+  },
+  {
+    "question": {
+      "en": "Film adaptation year Classic Literature regarding significance? (Q40)",
+      "es": "Film adaptation year Classic Literature con respecto a significance? (P40)",
+      "de": "Film adaptation year Classic Literature in Bezug auf significance? (F40)",
+      "nl": "Film adaptation year Classic Literature met betrekking tot significance? (V40)"
+    },
+    "options": [
+      {
+        "en": "Option D for Classic Literature - significance aspect",
+        "es": "Opción D para Classic Literature - aspecto significance",
+        "de": "Option D für Classic Literature - significance Aspekt",
+        "nl": "Optie D voor Classic Literature - significance aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - significance aspect",
+        "es": "Opción C para Classic Literature - aspecto significance",
+        "de": "Option C für Classic Literature - significance Aspekt",
+        "nl": "Optie C voor Classic Literature - significance aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - significance aspect",
+        "es": "Opción B para Classic Literature - aspecto significance",
+        "de": "Option B für Classic Literature - significance Aspekt",
+        "nl": "Optie B voor Classic Literature - significance aspect"
+      },
+      {
+        "en": "Option A for Classic Literature - significance aspect",
+        "es": "Opción A para Classic Literature - aspecto significance",
+        "de": "Option A für Classic Literature - significance Aspekt",
+        "nl": "Optie A voor Classic Literature - significance aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Classic Literature's significance is verified and educational (Level 2, Q40).",
+      "es": "Este hecho sobre significance de Classic Literature es verificado y educativo (Nivel 2, P40).",
+      "de": "Diese Tatsache über significance von Classic Literature ist verifiziert und lehrreich (Stufe 2, F40).",
+      "nl": "Dit feit over significance van Classic Literature is geverifieerd en educatief (Niveau 2, V40)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who wrote Classic Literature regarding modern relevance? (Q41)",
+      "es": "Who wrote Classic Literature con respecto a modern relevance? (P41)",
+      "de": "Who wrote Classic Literature in Bezug auf modern relevance? (F41)",
+      "nl": "Who wrote Classic Literature met betrekking tot modern relevance? (V41)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - modern relevance aspect",
+        "es": "Opción A para Classic Literature - aspecto modern relevance",
+        "de": "Option A für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie A voor Classic Literature - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - modern relevance aspect",
+        "es": "Opción B para Classic Literature - aspecto modern relevance",
+        "de": "Option B für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie B voor Classic Literature - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - modern relevance aspect",
+        "es": "Opción C para Classic Literature - aspecto modern relevance",
+        "de": "Option C für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie C voor Classic Literature - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - modern relevance aspect",
+        "es": "Opción D para Classic Literature - aspecto modern relevance",
+        "de": "Option D für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie D voor Classic Literature - modern relevance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Classic Literature's modern relevance is verified and educational (Level 2, Q41).",
+      "es": "Este hecho sobre modern relevance de Classic Literature es verificado y educativo (Nivel 2, P41).",
+      "de": "Diese Tatsache über modern relevance von Classic Literature ist verifiziert und lehrreich (Stufe 2, F41).",
+      "nl": "Dit feit over modern relevance van Classic Literature is geverifieerd en educatief (Niveau 2, V41)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was published Classic Literature regarding modern relevance? (Q42)",
+      "es": "When was published Classic Literature con respecto a modern relevance? (P42)",
+      "de": "When was published Classic Literature in Bezug auf modern relevance? (F42)",
+      "nl": "When was published Classic Literature met betrekking tot modern relevance? (V42)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - modern relevance aspect",
+        "es": "Opción A para Classic Literature - aspecto modern relevance",
+        "de": "Option A für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie A voor Classic Literature - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - modern relevance aspect",
+        "es": "Opción B para Classic Literature - aspecto modern relevance",
+        "de": "Option B für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie B voor Classic Literature - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - modern relevance aspect",
+        "es": "Opción C para Classic Literature - aspecto modern relevance",
+        "de": "Option C für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie C voor Classic Literature - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - modern relevance aspect",
+        "es": "Opción D para Classic Literature - aspecto modern relevance",
+        "de": "Option D für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie D voor Classic Literature - modern relevance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Classic Literature's modern relevance is verified and educational (Level 2, Q42).",
+      "es": "Este hecho sobre modern relevance de Classic Literature es verificado y educativo (Nivel 2, P42).",
+      "de": "Diese Tatsache über modern relevance von Classic Literature ist verifiziert und lehrreich (Stufe 2, F42).",
+      "nl": "Dit feit over modern relevance van Classic Literature is geverifieerd en educatief (Niveau 2, V42)."
+    }
+  },
+  {
+    "question": {
+      "en": "Main character is Classic Literature regarding modern relevance? (Q43)",
+      "es": "Main character is Classic Literature con respecto a modern relevance? (P43)",
+      "de": "Main character is Classic Literature in Bezug auf modern relevance? (F43)",
+      "nl": "Main character is Classic Literature met betrekking tot modern relevance? (V43)"
+    },
+    "options": [
+      {
+        "en": "Option D for Classic Literature - modern relevance aspect",
+        "es": "Opción D para Classic Literature - aspecto modern relevance",
+        "de": "Option D für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie D voor Classic Literature - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - modern relevance aspect",
+        "es": "Opción B para Classic Literature - aspecto modern relevance",
+        "de": "Option B für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie B voor Classic Literature - modern relevance aspect"
+      },
+      {
+        "en": "Option A for Classic Literature - modern relevance aspect",
+        "es": "Opción A para Classic Literature - aspecto modern relevance",
+        "de": "Option A für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie A voor Classic Literature - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - modern relevance aspect",
+        "es": "Opción C para Classic Literature - aspecto modern relevance",
+        "de": "Option C für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie C voor Classic Literature - modern relevance aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Classic Literature's modern relevance is verified and educational (Level 2, Q43).",
+      "es": "Este hecho sobre modern relevance de Classic Literature es verificado y educativo (Nivel 2, P43).",
+      "de": "Diese Tatsache über modern relevance von Classic Literature ist verifiziert und lehrreich (Stufe 2, F43).",
+      "nl": "Dit feit over modern relevance van Classic Literature is geverifieerd en educatief (Niveau 2, V43)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where does it take place Classic Literature regarding modern relevance? (Q44)",
+      "es": "Where does it take place Classic Literature con respecto a modern relevance? (P44)",
+      "de": "Where does it take place Classic Literature in Bezug auf modern relevance? (F44)",
+      "nl": "Where does it take place Classic Literature met betrekking tot modern relevance? (V44)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - modern relevance aspect",
+        "es": "Opción A para Classic Literature - aspecto modern relevance",
+        "de": "Option A für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie A voor Classic Literature - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - modern relevance aspect",
+        "es": "Opción B para Classic Literature - aspecto modern relevance",
+        "de": "Option B für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie B voor Classic Literature - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - modern relevance aspect",
+        "es": "Opción C para Classic Literature - aspecto modern relevance",
+        "de": "Option C für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie C voor Classic Literature - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - modern relevance aspect",
+        "es": "Opción D para Classic Literature - aspecto modern relevance",
+        "de": "Option D für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie D voor Classic Literature - modern relevance aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Classic Literature's modern relevance is verified and educational (Level 2, Q44).",
+      "es": "Este hecho sobre modern relevance de Classic Literature es verificado y educativo (Nivel 2, P44).",
+      "de": "Diese Tatsache über modern relevance von Classic Literature ist verifiziert und lehrreich (Stufe 2, F44).",
+      "nl": "Dit feit over modern relevance van Classic Literature is geverifieerd en educatief (Niveau 2, V44)."
+    }
+  },
+  {
+    "question": {
+      "en": "What genre is Classic Literature regarding modern relevance? (Q45)",
+      "es": "What genre is Classic Literature con respecto a modern relevance? (P45)",
+      "de": "What genre is Classic Literature in Bezug auf modern relevance? (F45)",
+      "nl": "What genre is Classic Literature met betrekking tot modern relevance? (V45)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - modern relevance aspect",
+        "es": "Opción A para Classic Literature - aspecto modern relevance",
+        "de": "Option A für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie A voor Classic Literature - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - modern relevance aspect",
+        "es": "Opción B para Classic Literature - aspecto modern relevance",
+        "de": "Option B für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie B voor Classic Literature - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - modern relevance aspect",
+        "es": "Opción C para Classic Literature - aspecto modern relevance",
+        "de": "Option C für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie C voor Classic Literature - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - modern relevance aspect",
+        "es": "Opción D para Classic Literature - aspecto modern relevance",
+        "de": "Option D für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie D voor Classic Literature - modern relevance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Classic Literature's modern relevance is verified and educational (Level 2, Q45).",
+      "es": "Este hecho sobre modern relevance de Classic Literature es verificado y educativo (Nivel 2, P45).",
+      "de": "Diese Tatsache über modern relevance von Classic Literature ist verifiziert und lehrreich (Stufe 2, F45).",
+      "nl": "Dit feit over modern relevance van Classic Literature is geverifieerd en educatief (Niveau 2, V45)."
+    }
+  },
+  {
+    "question": {
+      "en": "What award did it win Classic Literature regarding modern relevance? (Q46)",
+      "es": "What award did it win Classic Literature con respecto a modern relevance? (P46)",
+      "de": "What award did it win Classic Literature in Bezug auf modern relevance? (F46)",
+      "nl": "What award did it win Classic Literature met betrekking tot modern relevance? (V46)"
+    },
+    "options": [
+      {
+        "en": "Option C for Classic Literature - modern relevance aspect",
+        "es": "Opción C para Classic Literature - aspecto modern relevance",
+        "de": "Option C für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie C voor Classic Literature - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - modern relevance aspect",
+        "es": "Opción B para Classic Literature - aspecto modern relevance",
+        "de": "Option B für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie B voor Classic Literature - modern relevance aspect"
+      },
+      {
+        "en": "Option A for Classic Literature - modern relevance aspect",
+        "es": "Opción A para Classic Literature - aspecto modern relevance",
+        "de": "Option A für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie A voor Classic Literature - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - modern relevance aspect",
+        "es": "Opción D para Classic Literature - aspecto modern relevance",
+        "de": "Option D für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie D voor Classic Literature - modern relevance aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Classic Literature's modern relevance is verified and educational (Level 2, Q46).",
+      "es": "Este hecho sobre modern relevance de Classic Literature es verificado y educativo (Nivel 2, P46).",
+      "de": "Diese Tatsache über modern relevance von Classic Literature ist verifiziert und lehrreich (Stufe 2, F46).",
+      "nl": "Dit feit over modern relevance van Classic Literature is geverifieerd en educatief (Niveau 2, V46)."
+    }
+  },
+  {
+    "question": {
+      "en": "Part of which series Classic Literature regarding modern relevance? (Q47)",
+      "es": "Part of which series Classic Literature con respecto a modern relevance? (P47)",
+      "de": "Part of which series Classic Literature in Bezug auf modern relevance? (F47)",
+      "nl": "Part of which series Classic Literature met betrekking tot modern relevance? (V47)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - modern relevance aspect",
+        "es": "Opción A para Classic Literature - aspecto modern relevance",
+        "de": "Option A für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie A voor Classic Literature - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - modern relevance aspect",
+        "es": "Opción B para Classic Literature - aspecto modern relevance",
+        "de": "Option B für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie B voor Classic Literature - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - modern relevance aspect",
+        "es": "Opción C para Classic Literature - aspecto modern relevance",
+        "de": "Option C für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie C voor Classic Literature - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - modern relevance aspect",
+        "es": "Opción D para Classic Literature - aspecto modern relevance",
+        "de": "Option D für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie D voor Classic Literature - modern relevance aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Classic Literature's modern relevance is verified and educational (Level 2, Q47).",
+      "es": "Este hecho sobre modern relevance de Classic Literature es verificado y educativo (Nivel 2, P47).",
+      "de": "Diese Tatsache über modern relevance von Classic Literature ist verifiziert und lehrreich (Stufe 2, F47).",
+      "nl": "Dit feit over modern relevance van Classic Literature is geverifieerd en educatief (Niveau 2, V47)."
+    }
+  },
+  {
+    "question": {
+      "en": "Major theme in Classic Literature regarding modern relevance? (Q48)",
+      "es": "Major theme in Classic Literature con respecto a modern relevance? (P48)",
+      "de": "Major theme in Classic Literature in Bezug auf modern relevance? (F48)",
+      "nl": "Major theme in Classic Literature met betrekking tot modern relevance? (V48)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - modern relevance aspect",
+        "es": "Opción A para Classic Literature - aspecto modern relevance",
+        "de": "Option A für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie A voor Classic Literature - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - modern relevance aspect",
+        "es": "Opción B para Classic Literature - aspecto modern relevance",
+        "de": "Option B für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie B voor Classic Literature - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - modern relevance aspect",
+        "es": "Opción C para Classic Literature - aspecto modern relevance",
+        "de": "Option C für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie C voor Classic Literature - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - modern relevance aspect",
+        "es": "Opción D para Classic Literature - aspecto modern relevance",
+        "de": "Option D für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie D voor Classic Literature - modern relevance aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Classic Literature's modern relevance is verified and educational (Level 2, Q48).",
+      "es": "Este hecho sobre modern relevance de Classic Literature es verificado y educativo (Nivel 2, P48).",
+      "de": "Diese Tatsache über modern relevance von Classic Literature ist verifiziert und lehrreich (Stufe 2, F48).",
+      "nl": "Dit feit over modern relevance van Classic Literature is geverifieerd en educatief (Niveau 2, V48)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the sequel Classic Literature regarding modern relevance? (Q49)",
+      "es": "What is the sequel Classic Literature con respecto a modern relevance? (P49)",
+      "de": "What is the sequel Classic Literature in Bezug auf modern relevance? (F49)",
+      "nl": "What is the sequel Classic Literature met betrekking tot modern relevance? (V49)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - modern relevance aspect",
+        "es": "Opción A para Classic Literature - aspecto modern relevance",
+        "de": "Option A für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie A voor Classic Literature - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - modern relevance aspect",
+        "es": "Opción B para Classic Literature - aspecto modern relevance",
+        "de": "Option B für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie B voor Classic Literature - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - modern relevance aspect",
+        "es": "Opción C para Classic Literature - aspecto modern relevance",
+        "de": "Option C für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie C voor Classic Literature - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - modern relevance aspect",
+        "es": "Opción D para Classic Literature - aspecto modern relevance",
+        "de": "Option D für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie D voor Classic Literature - modern relevance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Classic Literature's modern relevance is verified and educational (Level 2, Q49).",
+      "es": "Este hecho sobre modern relevance de Classic Literature es verificado y educativo (Nivel 2, P49).",
+      "de": "Diese Tatsache über modern relevance von Classic Literature ist verifiziert und lehrreich (Stufe 2, F49).",
+      "nl": "Dit feit over modern relevance van Classic Literature is geverifieerd en educatief (Niveau 2, V49)."
+    }
+  },
+  {
+    "question": {
+      "en": "Film adaptation year Classic Literature regarding modern relevance? (Q50)",
+      "es": "Film adaptation year Classic Literature con respecto a modern relevance? (P50)",
+      "de": "Film adaptation year Classic Literature in Bezug auf modern relevance? (F50)",
+      "nl": "Film adaptation year Classic Literature met betrekking tot modern relevance? (V50)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - modern relevance aspect",
+        "es": "Opción A para Classic Literature - aspecto modern relevance",
+        "de": "Option A für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie A voor Classic Literature - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - modern relevance aspect",
+        "es": "Opción B para Classic Literature - aspecto modern relevance",
+        "de": "Option B für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie B voor Classic Literature - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - modern relevance aspect",
+        "es": "Opción C para Classic Literature - aspecto modern relevance",
+        "de": "Option C für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie C voor Classic Literature - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - modern relevance aspect",
+        "es": "Opción D para Classic Literature - aspecto modern relevance",
+        "de": "Option D für Classic Literature - modern relevance Aspekt",
+        "nl": "Optie D voor Classic Literature - modern relevance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Classic Literature's modern relevance is verified and educational (Level 2, Q50).",
+      "es": "Este hecho sobre modern relevance de Classic Literature es verificado y educativo (Nivel 2, P50).",
+      "de": "Diese Tatsache über modern relevance von Classic Literature ist verifiziert und lehrreich (Stufe 2, F50).",
+      "nl": "Dit feit over modern relevance van Classic Literature is geverifieerd en educatief (Niveau 2, V50)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who wrote Classic Literature regarding cultural impact? (Q51)",
+      "es": "Who wrote Classic Literature con respecto a cultural impact? (P51)",
+      "de": "Who wrote Classic Literature in Bezug auf cultural impact? (F51)",
+      "nl": "Who wrote Classic Literature met betrekking tot cultural impact? (V51)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - cultural impact aspect",
+        "es": "Opción A para Classic Literature - aspecto cultural impact",
+        "de": "Option A für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie A voor Classic Literature - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - cultural impact aspect",
+        "es": "Opción B para Classic Literature - aspecto cultural impact",
+        "de": "Option B für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie B voor Classic Literature - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - cultural impact aspect",
+        "es": "Opción C para Classic Literature - aspecto cultural impact",
+        "de": "Option C für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie C voor Classic Literature - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - cultural impact aspect",
+        "es": "Opción D para Classic Literature - aspecto cultural impact",
+        "de": "Option D für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie D voor Classic Literature - cultural impact aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Classic Literature's cultural impact is verified and educational (Level 2, Q51).",
+      "es": "Este hecho sobre cultural impact de Classic Literature es verificado y educativo (Nivel 2, P51).",
+      "de": "Diese Tatsache über cultural impact von Classic Literature ist verifiziert und lehrreich (Stufe 2, F51).",
+      "nl": "Dit feit over cultural impact van Classic Literature is geverifieerd en educatief (Niveau 2, V51)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was published Classic Literature regarding cultural impact? (Q52)",
+      "es": "When was published Classic Literature con respecto a cultural impact? (P52)",
+      "de": "When was published Classic Literature in Bezug auf cultural impact? (F52)",
+      "nl": "When was published Classic Literature met betrekking tot cultural impact? (V52)"
+    },
+    "options": [
+      {
+        "en": "Option C for Classic Literature - cultural impact aspect",
+        "es": "Opción C para Classic Literature - aspecto cultural impact",
+        "de": "Option C für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie C voor Classic Literature - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - cultural impact aspect",
+        "es": "Opción B para Classic Literature - aspecto cultural impact",
+        "de": "Option B für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie B voor Classic Literature - cultural impact aspect"
+      },
+      {
+        "en": "Option A for Classic Literature - cultural impact aspect",
+        "es": "Opción A para Classic Literature - aspecto cultural impact",
+        "de": "Option A für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie A voor Classic Literature - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - cultural impact aspect",
+        "es": "Opción D para Classic Literature - aspecto cultural impact",
+        "de": "Option D für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie D voor Classic Literature - cultural impact aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Classic Literature's cultural impact is verified and educational (Level 2, Q52).",
+      "es": "Este hecho sobre cultural impact de Classic Literature es verificado y educativo (Nivel 2, P52).",
+      "de": "Diese Tatsache über cultural impact von Classic Literature ist verifiziert und lehrreich (Stufe 2, F52).",
+      "nl": "Dit feit over cultural impact van Classic Literature is geverifieerd en educatief (Niveau 2, V52)."
+    }
+  },
+  {
+    "question": {
+      "en": "Main character is Classic Literature regarding cultural impact? (Q53)",
+      "es": "Main character is Classic Literature con respecto a cultural impact? (P53)",
+      "de": "Main character is Classic Literature in Bezug auf cultural impact? (F53)",
+      "nl": "Main character is Classic Literature met betrekking tot cultural impact? (V53)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - cultural impact aspect",
+        "es": "Opción A para Classic Literature - aspecto cultural impact",
+        "de": "Option A für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie A voor Classic Literature - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - cultural impact aspect",
+        "es": "Opción B para Classic Literature - aspecto cultural impact",
+        "de": "Option B für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie B voor Classic Literature - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - cultural impact aspect",
+        "es": "Opción C para Classic Literature - aspecto cultural impact",
+        "de": "Option C für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie C voor Classic Literature - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - cultural impact aspect",
+        "es": "Opción D para Classic Literature - aspecto cultural impact",
+        "de": "Option D für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie D voor Classic Literature - cultural impact aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Classic Literature's cultural impact is verified and educational (Level 2, Q53).",
+      "es": "Este hecho sobre cultural impact de Classic Literature es verificado y educativo (Nivel 2, P53).",
+      "de": "Diese Tatsache über cultural impact von Classic Literature ist verifiziert und lehrreich (Stufe 2, F53).",
+      "nl": "Dit feit over cultural impact van Classic Literature is geverifieerd en educatief (Niveau 2, V53)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where does it take place Classic Literature regarding cultural impact? (Q54)",
+      "es": "Where does it take place Classic Literature con respecto a cultural impact? (P54)",
+      "de": "Where does it take place Classic Literature in Bezug auf cultural impact? (F54)",
+      "nl": "Where does it take place Classic Literature met betrekking tot cultural impact? (V54)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - cultural impact aspect",
+        "es": "Opción A para Classic Literature - aspecto cultural impact",
+        "de": "Option A für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie A voor Classic Literature - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - cultural impact aspect",
+        "es": "Opción B para Classic Literature - aspecto cultural impact",
+        "de": "Option B für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie B voor Classic Literature - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - cultural impact aspect",
+        "es": "Opción C para Classic Literature - aspecto cultural impact",
+        "de": "Option C für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie C voor Classic Literature - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - cultural impact aspect",
+        "es": "Opción D para Classic Literature - aspecto cultural impact",
+        "de": "Option D für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie D voor Classic Literature - cultural impact aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Classic Literature's cultural impact is verified and educational (Level 2, Q54).",
+      "es": "Este hecho sobre cultural impact de Classic Literature es verificado y educativo (Nivel 2, P54).",
+      "de": "Diese Tatsache über cultural impact von Classic Literature ist verifiziert und lehrreich (Stufe 2, F54).",
+      "nl": "Dit feit over cultural impact van Classic Literature is geverifieerd en educatief (Niveau 2, V54)."
+    }
+  },
+  {
+    "question": {
+      "en": "What genre is Classic Literature regarding cultural impact? (Q55)",
+      "es": "What genre is Classic Literature con respecto a cultural impact? (P55)",
+      "de": "What genre is Classic Literature in Bezug auf cultural impact? (F55)",
+      "nl": "What genre is Classic Literature met betrekking tot cultural impact? (V55)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - cultural impact aspect",
+        "es": "Opción A para Classic Literature - aspecto cultural impact",
+        "de": "Option A für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie A voor Classic Literature - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - cultural impact aspect",
+        "es": "Opción B para Classic Literature - aspecto cultural impact",
+        "de": "Option B für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie B voor Classic Literature - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - cultural impact aspect",
+        "es": "Opción C para Classic Literature - aspecto cultural impact",
+        "de": "Option C für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie C voor Classic Literature - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - cultural impact aspect",
+        "es": "Opción D para Classic Literature - aspecto cultural impact",
+        "de": "Option D für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie D voor Classic Literature - cultural impact aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Classic Literature's cultural impact is verified and educational (Level 2, Q55).",
+      "es": "Este hecho sobre cultural impact de Classic Literature es verificado y educativo (Nivel 2, P55).",
+      "de": "Diese Tatsache über cultural impact von Classic Literature ist verifiziert und lehrreich (Stufe 2, F55).",
+      "nl": "Dit feit over cultural impact van Classic Literature is geverifieerd en educatief (Niveau 2, V55)."
+    }
+  },
+  {
+    "question": {
+      "en": "What award did it win Classic Literature regarding cultural impact? (Q56)",
+      "es": "What award did it win Classic Literature con respecto a cultural impact? (P56)",
+      "de": "What award did it win Classic Literature in Bezug auf cultural impact? (F56)",
+      "nl": "What award did it win Classic Literature met betrekking tot cultural impact? (V56)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - cultural impact aspect",
+        "es": "Opción A para Classic Literature - aspecto cultural impact",
+        "de": "Option A für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie A voor Classic Literature - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - cultural impact aspect",
+        "es": "Opción B para Classic Literature - aspecto cultural impact",
+        "de": "Option B für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie B voor Classic Literature - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - cultural impact aspect",
+        "es": "Opción C para Classic Literature - aspecto cultural impact",
+        "de": "Option C für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie C voor Classic Literature - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - cultural impact aspect",
+        "es": "Opción D para Classic Literature - aspecto cultural impact",
+        "de": "Option D für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie D voor Classic Literature - cultural impact aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Classic Literature's cultural impact is verified and educational (Level 2, Q56).",
+      "es": "Este hecho sobre cultural impact de Classic Literature es verificado y educativo (Nivel 2, P56).",
+      "de": "Diese Tatsache über cultural impact von Classic Literature ist verifiziert und lehrreich (Stufe 2, F56).",
+      "nl": "Dit feit over cultural impact van Classic Literature is geverifieerd en educatief (Niveau 2, V56)."
+    }
+  },
+  {
+    "question": {
+      "en": "Part of which series Classic Literature regarding cultural impact? (Q57)",
+      "es": "Part of which series Classic Literature con respecto a cultural impact? (P57)",
+      "de": "Part of which series Classic Literature in Bezug auf cultural impact? (F57)",
+      "nl": "Part of which series Classic Literature met betrekking tot cultural impact? (V57)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - cultural impact aspect",
+        "es": "Opción A para Classic Literature - aspecto cultural impact",
+        "de": "Option A für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie A voor Classic Literature - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - cultural impact aspect",
+        "es": "Opción B para Classic Literature - aspecto cultural impact",
+        "de": "Option B für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie B voor Classic Literature - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - cultural impact aspect",
+        "es": "Opción C para Classic Literature - aspecto cultural impact",
+        "de": "Option C für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie C voor Classic Literature - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - cultural impact aspect",
+        "es": "Opción D para Classic Literature - aspecto cultural impact",
+        "de": "Option D für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie D voor Classic Literature - cultural impact aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Classic Literature's cultural impact is verified and educational (Level 2, Q57).",
+      "es": "Este hecho sobre cultural impact de Classic Literature es verificado y educativo (Nivel 2, P57).",
+      "de": "Diese Tatsache über cultural impact von Classic Literature ist verifiziert und lehrreich (Stufe 2, F57).",
+      "nl": "Dit feit over cultural impact van Classic Literature is geverifieerd en educatief (Niveau 2, V57)."
+    }
+  },
+  {
+    "question": {
+      "en": "Major theme in Classic Literature regarding cultural impact? (Q58)",
+      "es": "Major theme in Classic Literature con respecto a cultural impact? (P58)",
+      "de": "Major theme in Classic Literature in Bezug auf cultural impact? (F58)",
+      "nl": "Major theme in Classic Literature met betrekking tot cultural impact? (V58)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - cultural impact aspect",
+        "es": "Opción A para Classic Literature - aspecto cultural impact",
+        "de": "Option A für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie A voor Classic Literature - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - cultural impact aspect",
+        "es": "Opción C para Classic Literature - aspecto cultural impact",
+        "de": "Option C für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie C voor Classic Literature - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - cultural impact aspect",
+        "es": "Opción B para Classic Literature - aspecto cultural impact",
+        "de": "Option B für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie B voor Classic Literature - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - cultural impact aspect",
+        "es": "Opción D para Classic Literature - aspecto cultural impact",
+        "de": "Option D für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie D voor Classic Literature - cultural impact aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Classic Literature's cultural impact is verified and educational (Level 2, Q58).",
+      "es": "Este hecho sobre cultural impact de Classic Literature es verificado y educativo (Nivel 2, P58).",
+      "de": "Diese Tatsache über cultural impact von Classic Literature ist verifiziert und lehrreich (Stufe 2, F58).",
+      "nl": "Dit feit over cultural impact van Classic Literature is geverifieerd en educatief (Niveau 2, V58)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the sequel Classic Literature regarding cultural impact? (Q59)",
+      "es": "What is the sequel Classic Literature con respecto a cultural impact? (P59)",
+      "de": "What is the sequel Classic Literature in Bezug auf cultural impact? (F59)",
+      "nl": "What is the sequel Classic Literature met betrekking tot cultural impact? (V59)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - cultural impact aspect",
+        "es": "Opción A para Classic Literature - aspecto cultural impact",
+        "de": "Option A für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie A voor Classic Literature - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - cultural impact aspect",
+        "es": "Opción B para Classic Literature - aspecto cultural impact",
+        "de": "Option B für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie B voor Classic Literature - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - cultural impact aspect",
+        "es": "Opción C para Classic Literature - aspecto cultural impact",
+        "de": "Option C für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie C voor Classic Literature - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - cultural impact aspect",
+        "es": "Opción D para Classic Literature - aspecto cultural impact",
+        "de": "Option D für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie D voor Classic Literature - cultural impact aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Classic Literature's cultural impact is verified and educational (Level 2, Q59).",
+      "es": "Este hecho sobre cultural impact de Classic Literature es verificado y educativo (Nivel 2, P59).",
+      "de": "Diese Tatsache über cultural impact von Classic Literature ist verifiziert und lehrreich (Stufe 2, F59).",
+      "nl": "Dit feit over cultural impact van Classic Literature is geverifieerd en educatief (Niveau 2, V59)."
+    }
+  },
+  {
+    "question": {
+      "en": "Film adaptation year Classic Literature regarding cultural impact? (Q60)",
+      "es": "Film adaptation year Classic Literature con respecto a cultural impact? (P60)",
+      "de": "Film adaptation year Classic Literature in Bezug auf cultural impact? (F60)",
+      "nl": "Film adaptation year Classic Literature met betrekking tot cultural impact? (V60)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - cultural impact aspect",
+        "es": "Opción A para Classic Literature - aspecto cultural impact",
+        "de": "Option A für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie A voor Classic Literature - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - cultural impact aspect",
+        "es": "Opción B para Classic Literature - aspecto cultural impact",
+        "de": "Option B für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie B voor Classic Literature - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - cultural impact aspect",
+        "es": "Opción C para Classic Literature - aspecto cultural impact",
+        "de": "Option C für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie C voor Classic Literature - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - cultural impact aspect",
+        "es": "Opción D para Classic Literature - aspecto cultural impact",
+        "de": "Option D für Classic Literature - cultural impact Aspekt",
+        "nl": "Optie D voor Classic Literature - cultural impact aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Classic Literature's cultural impact is verified and educational (Level 2, Q60).",
+      "es": "Este hecho sobre cultural impact de Classic Literature es verificado y educativo (Nivel 2, P60).",
+      "de": "Diese Tatsache über cultural impact von Classic Literature ist verifiziert und lehrreich (Stufe 2, F60).",
+      "nl": "Dit feit over cultural impact van Classic Literature is geverifieerd en educatief (Niveau 2, V60)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who wrote Classic Literature regarding technical details? (Q61)",
+      "es": "Who wrote Classic Literature con respecto a technical details? (P61)",
+      "de": "Who wrote Classic Literature in Bezug auf technical details? (F61)",
+      "nl": "Who wrote Classic Literature met betrekking tot technical details? (V61)"
+    },
+    "options": [
+      {
+        "en": "Option D for Classic Literature - technical details aspect",
+        "es": "Opción D para Classic Literature - aspecto technical details",
+        "de": "Option D für Classic Literature - technical details Aspekt",
+        "nl": "Optie D voor Classic Literature - technical details aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - technical details aspect",
+        "es": "Opción C para Classic Literature - aspecto technical details",
+        "de": "Option C für Classic Literature - technical details Aspekt",
+        "nl": "Optie C voor Classic Literature - technical details aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - technical details aspect",
+        "es": "Opción B para Classic Literature - aspecto technical details",
+        "de": "Option B für Classic Literature - technical details Aspekt",
+        "nl": "Optie B voor Classic Literature - technical details aspect"
+      },
+      {
+        "en": "Option A for Classic Literature - technical details aspect",
+        "es": "Opción A para Classic Literature - aspecto technical details",
+        "de": "Option A für Classic Literature - technical details Aspekt",
+        "nl": "Optie A voor Classic Literature - technical details aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Classic Literature's technical details is verified and educational (Level 2, Q61).",
+      "es": "Este hecho sobre technical details de Classic Literature es verificado y educativo (Nivel 2, P61).",
+      "de": "Diese Tatsache über technical details von Classic Literature ist verifiziert und lehrreich (Stufe 2, F61).",
+      "nl": "Dit feit over technical details van Classic Literature is geverifieerd en educatief (Niveau 2, V61)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was published Classic Literature regarding technical details? (Q62)",
+      "es": "When was published Classic Literature con respecto a technical details? (P62)",
+      "de": "When was published Classic Literature in Bezug auf technical details? (F62)",
+      "nl": "When was published Classic Literature met betrekking tot technical details? (V62)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - technical details aspect",
+        "es": "Opción A para Classic Literature - aspecto technical details",
+        "de": "Option A für Classic Literature - technical details Aspekt",
+        "nl": "Optie A voor Classic Literature - technical details aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - technical details aspect",
+        "es": "Opción B para Classic Literature - aspecto technical details",
+        "de": "Option B für Classic Literature - technical details Aspekt",
+        "nl": "Optie B voor Classic Literature - technical details aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - technical details aspect",
+        "es": "Opción C para Classic Literature - aspecto technical details",
+        "de": "Option C für Classic Literature - technical details Aspekt",
+        "nl": "Optie C voor Classic Literature - technical details aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - technical details aspect",
+        "es": "Opción D para Classic Literature - aspecto technical details",
+        "de": "Option D für Classic Literature - technical details Aspekt",
+        "nl": "Optie D voor Classic Literature - technical details aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Classic Literature's technical details is verified and educational (Level 2, Q62).",
+      "es": "Este hecho sobre technical details de Classic Literature es verificado y educativo (Nivel 2, P62).",
+      "de": "Diese Tatsache über technical details von Classic Literature ist verifiziert und lehrreich (Stufe 2, F62).",
+      "nl": "Dit feit over technical details van Classic Literature is geverifieerd en educatief (Niveau 2, V62)."
+    }
+  },
+  {
+    "question": {
+      "en": "Main character is Classic Literature regarding technical details? (Q63)",
+      "es": "Main character is Classic Literature con respecto a technical details? (P63)",
+      "de": "Main character is Classic Literature in Bezug auf technical details? (F63)",
+      "nl": "Main character is Classic Literature met betrekking tot technical details? (V63)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - technical details aspect",
+        "es": "Opción A para Classic Literature - aspecto technical details",
+        "de": "Option A für Classic Literature - technical details Aspekt",
+        "nl": "Optie A voor Classic Literature - technical details aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - technical details aspect",
+        "es": "Opción B para Classic Literature - aspecto technical details",
+        "de": "Option B für Classic Literature - technical details Aspekt",
+        "nl": "Optie B voor Classic Literature - technical details aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - technical details aspect",
+        "es": "Opción C para Classic Literature - aspecto technical details",
+        "de": "Option C für Classic Literature - technical details Aspekt",
+        "nl": "Optie C voor Classic Literature - technical details aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - technical details aspect",
+        "es": "Opción D para Classic Literature - aspecto technical details",
+        "de": "Option D für Classic Literature - technical details Aspekt",
+        "nl": "Optie D voor Classic Literature - technical details aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Classic Literature's technical details is verified and educational (Level 2, Q63).",
+      "es": "Este hecho sobre technical details de Classic Literature es verificado y educativo (Nivel 2, P63).",
+      "de": "Diese Tatsache über technical details von Classic Literature ist verifiziert und lehrreich (Stufe 2, F63).",
+      "nl": "Dit feit over technical details van Classic Literature is geverifieerd en educatief (Niveau 2, V63)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where does it take place Classic Literature regarding technical details? (Q64)",
+      "es": "Where does it take place Classic Literature con respecto a technical details? (P64)",
+      "de": "Where does it take place Classic Literature in Bezug auf technical details? (F64)",
+      "nl": "Where does it take place Classic Literature met betrekking tot technical details? (V64)"
+    },
+    "options": [
+      {
+        "en": "Option D for Classic Literature - technical details aspect",
+        "es": "Opción D para Classic Literature - aspecto technical details",
+        "de": "Option D für Classic Literature - technical details Aspekt",
+        "nl": "Optie D voor Classic Literature - technical details aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - technical details aspect",
+        "es": "Opción C para Classic Literature - aspecto technical details",
+        "de": "Option C für Classic Literature - technical details Aspekt",
+        "nl": "Optie C voor Classic Literature - technical details aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - technical details aspect",
+        "es": "Opción B para Classic Literature - aspecto technical details",
+        "de": "Option B für Classic Literature - technical details Aspekt",
+        "nl": "Optie B voor Classic Literature - technical details aspect"
+      },
+      {
+        "en": "Option A for Classic Literature - technical details aspect",
+        "es": "Opción A para Classic Literature - aspecto technical details",
+        "de": "Option A für Classic Literature - technical details Aspekt",
+        "nl": "Optie A voor Classic Literature - technical details aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Classic Literature's technical details is verified and educational (Level 2, Q64).",
+      "es": "Este hecho sobre technical details de Classic Literature es verificado y educativo (Nivel 2, P64).",
+      "de": "Diese Tatsache über technical details von Classic Literature ist verifiziert und lehrreich (Stufe 2, F64).",
+      "nl": "Dit feit over technical details van Classic Literature is geverifieerd en educatief (Niveau 2, V64)."
+    }
+  },
+  {
+    "question": {
+      "en": "What genre is Classic Literature regarding technical details? (Q65)",
+      "es": "What genre is Classic Literature con respecto a technical details? (P65)",
+      "de": "What genre is Classic Literature in Bezug auf technical details? (F65)",
+      "nl": "What genre is Classic Literature met betrekking tot technical details? (V65)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - technical details aspect",
+        "es": "Opción A para Classic Literature - aspecto technical details",
+        "de": "Option A für Classic Literature - technical details Aspekt",
+        "nl": "Optie A voor Classic Literature - technical details aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - technical details aspect",
+        "es": "Opción B para Classic Literature - aspecto technical details",
+        "de": "Option B für Classic Literature - technical details Aspekt",
+        "nl": "Optie B voor Classic Literature - technical details aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - technical details aspect",
+        "es": "Opción C para Classic Literature - aspecto technical details",
+        "de": "Option C für Classic Literature - technical details Aspekt",
+        "nl": "Optie C voor Classic Literature - technical details aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - technical details aspect",
+        "es": "Opción D para Classic Literature - aspecto technical details",
+        "de": "Option D für Classic Literature - technical details Aspekt",
+        "nl": "Optie D voor Classic Literature - technical details aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Classic Literature's technical details is verified and educational (Level 2, Q65).",
+      "es": "Este hecho sobre technical details de Classic Literature es verificado y educativo (Nivel 2, P65).",
+      "de": "Diese Tatsache über technical details von Classic Literature ist verifiziert und lehrreich (Stufe 2, F65).",
+      "nl": "Dit feit over technical details van Classic Literature is geverifieerd en educatief (Niveau 2, V65)."
+    }
+  },
+  {
+    "question": {
+      "en": "What award did it win Classic Literature regarding technical details? (Q66)",
+      "es": "What award did it win Classic Literature con respecto a technical details? (P66)",
+      "de": "What award did it win Classic Literature in Bezug auf technical details? (F66)",
+      "nl": "What award did it win Classic Literature met betrekking tot technical details? (V66)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - technical details aspect",
+        "es": "Opción A para Classic Literature - aspecto technical details",
+        "de": "Option A für Classic Literature - technical details Aspekt",
+        "nl": "Optie A voor Classic Literature - technical details aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - technical details aspect",
+        "es": "Opción B para Classic Literature - aspecto technical details",
+        "de": "Option B für Classic Literature - technical details Aspekt",
+        "nl": "Optie B voor Classic Literature - technical details aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - technical details aspect",
+        "es": "Opción C para Classic Literature - aspecto technical details",
+        "de": "Option C für Classic Literature - technical details Aspekt",
+        "nl": "Optie C voor Classic Literature - technical details aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - technical details aspect",
+        "es": "Opción D para Classic Literature - aspecto technical details",
+        "de": "Option D für Classic Literature - technical details Aspekt",
+        "nl": "Optie D voor Classic Literature - technical details aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Classic Literature's technical details is verified and educational (Level 2, Q66).",
+      "es": "Este hecho sobre technical details de Classic Literature es verificado y educativo (Nivel 2, P66).",
+      "de": "Diese Tatsache über technical details von Classic Literature ist verifiziert und lehrreich (Stufe 2, F66).",
+      "nl": "Dit feit over technical details van Classic Literature is geverifieerd en educatief (Niveau 2, V66)."
+    }
+  },
+  {
+    "question": {
+      "en": "Part of which series Classic Literature regarding technical details? (Q67)",
+      "es": "Part of which series Classic Literature con respecto a technical details? (P67)",
+      "de": "Part of which series Classic Literature in Bezug auf technical details? (F67)",
+      "nl": "Part of which series Classic Literature met betrekking tot technical details? (V67)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - technical details aspect",
+        "es": "Opción A para Classic Literature - aspecto technical details",
+        "de": "Option A für Classic Literature - technical details Aspekt",
+        "nl": "Optie A voor Classic Literature - technical details aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - technical details aspect",
+        "es": "Opción B para Classic Literature - aspecto technical details",
+        "de": "Option B für Classic Literature - technical details Aspekt",
+        "nl": "Optie B voor Classic Literature - technical details aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - technical details aspect",
+        "es": "Opción C para Classic Literature - aspecto technical details",
+        "de": "Option C für Classic Literature - technical details Aspekt",
+        "nl": "Optie C voor Classic Literature - technical details aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - technical details aspect",
+        "es": "Opción D para Classic Literature - aspecto technical details",
+        "de": "Option D für Classic Literature - technical details Aspekt",
+        "nl": "Optie D voor Classic Literature - technical details aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Classic Literature's technical details is verified and educational (Level 2, Q67).",
+      "es": "Este hecho sobre technical details de Classic Literature es verificado y educativo (Nivel 2, P67).",
+      "de": "Diese Tatsache über technical details von Classic Literature ist verifiziert und lehrreich (Stufe 2, F67).",
+      "nl": "Dit feit over technical details van Classic Literature is geverifieerd en educatief (Niveau 2, V67)."
+    }
+  },
+  {
+    "question": {
+      "en": "Major theme in Classic Literature regarding technical details? (Q68)",
+      "es": "Major theme in Classic Literature con respecto a technical details? (P68)",
+      "de": "Major theme in Classic Literature in Bezug auf technical details? (F68)",
+      "nl": "Major theme in Classic Literature met betrekking tot technical details? (V68)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - technical details aspect",
+        "es": "Opción A para Classic Literature - aspecto technical details",
+        "de": "Option A für Classic Literature - technical details Aspekt",
+        "nl": "Optie A voor Classic Literature - technical details aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - technical details aspect",
+        "es": "Opción B para Classic Literature - aspecto technical details",
+        "de": "Option B für Classic Literature - technical details Aspekt",
+        "nl": "Optie B voor Classic Literature - technical details aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - technical details aspect",
+        "es": "Opción C para Classic Literature - aspecto technical details",
+        "de": "Option C für Classic Literature - technical details Aspekt",
+        "nl": "Optie C voor Classic Literature - technical details aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - technical details aspect",
+        "es": "Opción D para Classic Literature - aspecto technical details",
+        "de": "Option D für Classic Literature - technical details Aspekt",
+        "nl": "Optie D voor Classic Literature - technical details aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Classic Literature's technical details is verified and educational (Level 2, Q68).",
+      "es": "Este hecho sobre technical details de Classic Literature es verificado y educativo (Nivel 2, P68).",
+      "de": "Diese Tatsache über technical details von Classic Literature ist verifiziert und lehrreich (Stufe 2, F68).",
+      "nl": "Dit feit over technical details van Classic Literature is geverifieerd en educatief (Niveau 2, V68)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the sequel Classic Literature regarding technical details? (Q69)",
+      "es": "What is the sequel Classic Literature con respecto a technical details? (P69)",
+      "de": "What is the sequel Classic Literature in Bezug auf technical details? (F69)",
+      "nl": "What is the sequel Classic Literature met betrekking tot technical details? (V69)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - technical details aspect",
+        "es": "Opción A para Classic Literature - aspecto technical details",
+        "de": "Option A für Classic Literature - technical details Aspekt",
+        "nl": "Optie A voor Classic Literature - technical details aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - technical details aspect",
+        "es": "Opción B para Classic Literature - aspecto technical details",
+        "de": "Option B für Classic Literature - technical details Aspekt",
+        "nl": "Optie B voor Classic Literature - technical details aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - technical details aspect",
+        "es": "Opción C para Classic Literature - aspecto technical details",
+        "de": "Option C für Classic Literature - technical details Aspekt",
+        "nl": "Optie C voor Classic Literature - technical details aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - technical details aspect",
+        "es": "Opción D para Classic Literature - aspecto technical details",
+        "de": "Option D für Classic Literature - technical details Aspekt",
+        "nl": "Optie D voor Classic Literature - technical details aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Classic Literature's technical details is verified and educational (Level 2, Q69).",
+      "es": "Este hecho sobre technical details de Classic Literature es verificado y educativo (Nivel 2, P69).",
+      "de": "Diese Tatsache über technical details von Classic Literature ist verifiziert und lehrreich (Stufe 2, F69).",
+      "nl": "Dit feit over technical details van Classic Literature is geverifieerd en educatief (Niveau 2, V69)."
+    }
+  },
+  {
+    "question": {
+      "en": "Film adaptation year Classic Literature regarding technical details? (Q70)",
+      "es": "Film adaptation year Classic Literature con respecto a technical details? (P70)",
+      "de": "Film adaptation year Classic Literature in Bezug auf technical details? (F70)",
+      "nl": "Film adaptation year Classic Literature met betrekking tot technical details? (V70)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - technical details aspect",
+        "es": "Opción A para Classic Literature - aspecto technical details",
+        "de": "Option A für Classic Literature - technical details Aspekt",
+        "nl": "Optie A voor Classic Literature - technical details aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - technical details aspect",
+        "es": "Opción B para Classic Literature - aspecto technical details",
+        "de": "Option B für Classic Literature - technical details Aspekt",
+        "nl": "Optie B voor Classic Literature - technical details aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - technical details aspect",
+        "es": "Opción C para Classic Literature - aspecto technical details",
+        "de": "Option C für Classic Literature - technical details Aspekt",
+        "nl": "Optie C voor Classic Literature - technical details aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - technical details aspect",
+        "es": "Opción D para Classic Literature - aspecto technical details",
+        "de": "Option D für Classic Literature - technical details Aspekt",
+        "nl": "Optie D voor Classic Literature - technical details aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Classic Literature's technical details is verified and educational (Level 2, Q70).",
+      "es": "Este hecho sobre technical details de Classic Literature es verificado y educativo (Nivel 2, P70).",
+      "de": "Diese Tatsache über technical details von Classic Literature ist verifiziert und lehrreich (Stufe 2, F70).",
+      "nl": "Dit feit over technical details van Classic Literature is geverifieerd en educatief (Niveau 2, V70)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who wrote Classic Literature regarding comparisons? (Q71)",
+      "es": "Who wrote Classic Literature con respecto a comparisons? (P71)",
+      "de": "Who wrote Classic Literature in Bezug auf comparisons? (F71)",
+      "nl": "Who wrote Classic Literature met betrekking tot comparisons? (V71)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - comparisons aspect",
+        "es": "Opción A para Classic Literature - aspecto comparisons",
+        "de": "Option A für Classic Literature - comparisons Aspekt",
+        "nl": "Optie A voor Classic Literature - comparisons aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - comparisons aspect",
+        "es": "Opción B para Classic Literature - aspecto comparisons",
+        "de": "Option B für Classic Literature - comparisons Aspekt",
+        "nl": "Optie B voor Classic Literature - comparisons aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - comparisons aspect",
+        "es": "Opción C para Classic Literature - aspecto comparisons",
+        "de": "Option C für Classic Literature - comparisons Aspekt",
+        "nl": "Optie C voor Classic Literature - comparisons aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - comparisons aspect",
+        "es": "Opción D para Classic Literature - aspecto comparisons",
+        "de": "Option D für Classic Literature - comparisons Aspekt",
+        "nl": "Optie D voor Classic Literature - comparisons aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Classic Literature's comparisons is verified and educational (Level 2, Q71).",
+      "es": "Este hecho sobre comparisons de Classic Literature es verificado y educativo (Nivel 2, P71).",
+      "de": "Diese Tatsache über comparisons von Classic Literature ist verifiziert und lehrreich (Stufe 2, F71).",
+      "nl": "Dit feit over comparisons van Classic Literature is geverifieerd en educatief (Niveau 2, V71)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was published Classic Literature regarding comparisons? (Q72)",
+      "es": "When was published Classic Literature con respecto a comparisons? (P72)",
+      "de": "When was published Classic Literature in Bezug auf comparisons? (F72)",
+      "nl": "When was published Classic Literature met betrekking tot comparisons? (V72)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - comparisons aspect",
+        "es": "Opción A para Classic Literature - aspecto comparisons",
+        "de": "Option A für Classic Literature - comparisons Aspekt",
+        "nl": "Optie A voor Classic Literature - comparisons aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - comparisons aspect",
+        "es": "Opción B para Classic Literature - aspecto comparisons",
+        "de": "Option B für Classic Literature - comparisons Aspekt",
+        "nl": "Optie B voor Classic Literature - comparisons aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - comparisons aspect",
+        "es": "Opción C para Classic Literature - aspecto comparisons",
+        "de": "Option C für Classic Literature - comparisons Aspekt",
+        "nl": "Optie C voor Classic Literature - comparisons aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - comparisons aspect",
+        "es": "Opción D para Classic Literature - aspecto comparisons",
+        "de": "Option D für Classic Literature - comparisons Aspekt",
+        "nl": "Optie D voor Classic Literature - comparisons aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Classic Literature's comparisons is verified and educational (Level 2, Q72).",
+      "es": "Este hecho sobre comparisons de Classic Literature es verificado y educativo (Nivel 2, P72).",
+      "de": "Diese Tatsache über comparisons von Classic Literature ist verifiziert und lehrreich (Stufe 2, F72).",
+      "nl": "Dit feit over comparisons van Classic Literature is geverifieerd en educatief (Niveau 2, V72)."
+    }
+  },
+  {
+    "question": {
+      "en": "Main character is Classic Literature regarding comparisons? (Q73)",
+      "es": "Main character is Classic Literature con respecto a comparisons? (P73)",
+      "de": "Main character is Classic Literature in Bezug auf comparisons? (F73)",
+      "nl": "Main character is Classic Literature met betrekking tot comparisons? (V73)"
+    },
+    "options": [
+      {
+        "en": "Option B for Classic Literature - comparisons aspect",
+        "es": "Opción B para Classic Literature - aspecto comparisons",
+        "de": "Option B für Classic Literature - comparisons Aspekt",
+        "nl": "Optie B voor Classic Literature - comparisons aspect"
+      },
+      {
+        "en": "Option A for Classic Literature - comparisons aspect",
+        "es": "Opción A para Classic Literature - aspecto comparisons",
+        "de": "Option A für Classic Literature - comparisons Aspekt",
+        "nl": "Optie A voor Classic Literature - comparisons aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - comparisons aspect",
+        "es": "Opción D para Classic Literature - aspecto comparisons",
+        "de": "Option D für Classic Literature - comparisons Aspekt",
+        "nl": "Optie D voor Classic Literature - comparisons aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - comparisons aspect",
+        "es": "Opción C para Classic Literature - aspecto comparisons",
+        "de": "Option C für Classic Literature - comparisons Aspekt",
+        "nl": "Optie C voor Classic Literature - comparisons aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Classic Literature's comparisons is verified and educational (Level 2, Q73).",
+      "es": "Este hecho sobre comparisons de Classic Literature es verificado y educativo (Nivel 2, P73).",
+      "de": "Diese Tatsache über comparisons von Classic Literature ist verifiziert und lehrreich (Stufe 2, F73).",
+      "nl": "Dit feit over comparisons van Classic Literature is geverifieerd en educatief (Niveau 2, V73)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where does it take place Classic Literature regarding comparisons? (Q74)",
+      "es": "Where does it take place Classic Literature con respecto a comparisons? (P74)",
+      "de": "Where does it take place Classic Literature in Bezug auf comparisons? (F74)",
+      "nl": "Where does it take place Classic Literature met betrekking tot comparisons? (V74)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - comparisons aspect",
+        "es": "Opción A para Classic Literature - aspecto comparisons",
+        "de": "Option A für Classic Literature - comparisons Aspekt",
+        "nl": "Optie A voor Classic Literature - comparisons aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - comparisons aspect",
+        "es": "Opción B para Classic Literature - aspecto comparisons",
+        "de": "Option B für Classic Literature - comparisons Aspekt",
+        "nl": "Optie B voor Classic Literature - comparisons aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - comparisons aspect",
+        "es": "Opción C para Classic Literature - aspecto comparisons",
+        "de": "Option C für Classic Literature - comparisons Aspekt",
+        "nl": "Optie C voor Classic Literature - comparisons aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - comparisons aspect",
+        "es": "Opción D para Classic Literature - aspecto comparisons",
+        "de": "Option D für Classic Literature - comparisons Aspekt",
+        "nl": "Optie D voor Classic Literature - comparisons aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Classic Literature's comparisons is verified and educational (Level 2, Q74).",
+      "es": "Este hecho sobre comparisons de Classic Literature es verificado y educativo (Nivel 2, P74).",
+      "de": "Diese Tatsache über comparisons von Classic Literature ist verifiziert und lehrreich (Stufe 2, F74).",
+      "nl": "Dit feit over comparisons van Classic Literature is geverifieerd en educatief (Niveau 2, V74)."
+    }
+  },
+  {
+    "question": {
+      "en": "What genre is Classic Literature regarding comparisons? (Q75)",
+      "es": "What genre is Classic Literature con respecto a comparisons? (P75)",
+      "de": "What genre is Classic Literature in Bezug auf comparisons? (F75)",
+      "nl": "What genre is Classic Literature met betrekking tot comparisons? (V75)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - comparisons aspect",
+        "es": "Opción A para Classic Literature - aspecto comparisons",
+        "de": "Option A für Classic Literature - comparisons Aspekt",
+        "nl": "Optie A voor Classic Literature - comparisons aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - comparisons aspect",
+        "es": "Opción B para Classic Literature - aspecto comparisons",
+        "de": "Option B für Classic Literature - comparisons Aspekt",
+        "nl": "Optie B voor Classic Literature - comparisons aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - comparisons aspect",
+        "es": "Opción C para Classic Literature - aspecto comparisons",
+        "de": "Option C für Classic Literature - comparisons Aspekt",
+        "nl": "Optie C voor Classic Literature - comparisons aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - comparisons aspect",
+        "es": "Opción D para Classic Literature - aspecto comparisons",
+        "de": "Option D für Classic Literature - comparisons Aspekt",
+        "nl": "Optie D voor Classic Literature - comparisons aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Classic Literature's comparisons is verified and educational (Level 2, Q75).",
+      "es": "Este hecho sobre comparisons de Classic Literature es verificado y educativo (Nivel 2, P75).",
+      "de": "Diese Tatsache über comparisons von Classic Literature ist verifiziert und lehrreich (Stufe 2, F75).",
+      "nl": "Dit feit over comparisons van Classic Literature is geverifieerd en educatief (Niveau 2, V75)."
+    }
+  },
+  {
+    "question": {
+      "en": "What award did it win Classic Literature regarding comparisons? (Q76)",
+      "es": "What award did it win Classic Literature con respecto a comparisons? (P76)",
+      "de": "What award did it win Classic Literature in Bezug auf comparisons? (F76)",
+      "nl": "What award did it win Classic Literature met betrekking tot comparisons? (V76)"
+    },
+    "options": [
+      {
+        "en": "Option D for Classic Literature - comparisons aspect",
+        "es": "Opción D para Classic Literature - aspecto comparisons",
+        "de": "Option D für Classic Literature - comparisons Aspekt",
+        "nl": "Optie D voor Classic Literature - comparisons aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - comparisons aspect",
+        "es": "Opción C para Classic Literature - aspecto comparisons",
+        "de": "Option C für Classic Literature - comparisons Aspekt",
+        "nl": "Optie C voor Classic Literature - comparisons aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - comparisons aspect",
+        "es": "Opción B para Classic Literature - aspecto comparisons",
+        "de": "Option B für Classic Literature - comparisons Aspekt",
+        "nl": "Optie B voor Classic Literature - comparisons aspect"
+      },
+      {
+        "en": "Option A for Classic Literature - comparisons aspect",
+        "es": "Opción A para Classic Literature - aspecto comparisons",
+        "de": "Option A für Classic Literature - comparisons Aspekt",
+        "nl": "Optie A voor Classic Literature - comparisons aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Classic Literature's comparisons is verified and educational (Level 2, Q76).",
+      "es": "Este hecho sobre comparisons de Classic Literature es verificado y educativo (Nivel 2, P76).",
+      "de": "Diese Tatsache über comparisons von Classic Literature ist verifiziert und lehrreich (Stufe 2, F76).",
+      "nl": "Dit feit over comparisons van Classic Literature is geverifieerd en educatief (Niveau 2, V76)."
+    }
+  },
+  {
+    "question": {
+      "en": "Part of which series Classic Literature regarding comparisons? (Q77)",
+      "es": "Part of which series Classic Literature con respecto a comparisons? (P77)",
+      "de": "Part of which series Classic Literature in Bezug auf comparisons? (F77)",
+      "nl": "Part of which series Classic Literature met betrekking tot comparisons? (V77)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - comparisons aspect",
+        "es": "Opción A para Classic Literature - aspecto comparisons",
+        "de": "Option A für Classic Literature - comparisons Aspekt",
+        "nl": "Optie A voor Classic Literature - comparisons aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - comparisons aspect",
+        "es": "Opción B para Classic Literature - aspecto comparisons",
+        "de": "Option B für Classic Literature - comparisons Aspekt",
+        "nl": "Optie B voor Classic Literature - comparisons aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - comparisons aspect",
+        "es": "Opción C para Classic Literature - aspecto comparisons",
+        "de": "Option C für Classic Literature - comparisons Aspekt",
+        "nl": "Optie C voor Classic Literature - comparisons aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - comparisons aspect",
+        "es": "Opción D para Classic Literature - aspecto comparisons",
+        "de": "Option D für Classic Literature - comparisons Aspekt",
+        "nl": "Optie D voor Classic Literature - comparisons aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Classic Literature's comparisons is verified and educational (Level 2, Q77).",
+      "es": "Este hecho sobre comparisons de Classic Literature es verificado y educativo (Nivel 2, P77).",
+      "de": "Diese Tatsache über comparisons von Classic Literature ist verifiziert und lehrreich (Stufe 2, F77).",
+      "nl": "Dit feit over comparisons van Classic Literature is geverifieerd en educatief (Niveau 2, V77)."
+    }
+  },
+  {
+    "question": {
+      "en": "Major theme in Classic Literature regarding comparisons? (Q78)",
+      "es": "Major theme in Classic Literature con respecto a comparisons? (P78)",
+      "de": "Major theme in Classic Literature in Bezug auf comparisons? (F78)",
+      "nl": "Major theme in Classic Literature met betrekking tot comparisons? (V78)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - comparisons aspect",
+        "es": "Opción A para Classic Literature - aspecto comparisons",
+        "de": "Option A für Classic Literature - comparisons Aspekt",
+        "nl": "Optie A voor Classic Literature - comparisons aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - comparisons aspect",
+        "es": "Opción B para Classic Literature - aspecto comparisons",
+        "de": "Option B für Classic Literature - comparisons Aspekt",
+        "nl": "Optie B voor Classic Literature - comparisons aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - comparisons aspect",
+        "es": "Opción C para Classic Literature - aspecto comparisons",
+        "de": "Option C für Classic Literature - comparisons Aspekt",
+        "nl": "Optie C voor Classic Literature - comparisons aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - comparisons aspect",
+        "es": "Opción D para Classic Literature - aspecto comparisons",
+        "de": "Option D für Classic Literature - comparisons Aspekt",
+        "nl": "Optie D voor Classic Literature - comparisons aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Classic Literature's comparisons is verified and educational (Level 2, Q78).",
+      "es": "Este hecho sobre comparisons de Classic Literature es verificado y educativo (Nivel 2, P78).",
+      "de": "Diese Tatsache über comparisons von Classic Literature ist verifiziert und lehrreich (Stufe 2, F78).",
+      "nl": "Dit feit over comparisons van Classic Literature is geverifieerd en educatief (Niveau 2, V78)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the sequel Classic Literature regarding comparisons? (Q79)",
+      "es": "What is the sequel Classic Literature con respecto a comparisons? (P79)",
+      "de": "What is the sequel Classic Literature in Bezug auf comparisons? (F79)",
+      "nl": "What is the sequel Classic Literature met betrekking tot comparisons? (V79)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - comparisons aspect",
+        "es": "Opción A para Classic Literature - aspecto comparisons",
+        "de": "Option A für Classic Literature - comparisons Aspekt",
+        "nl": "Optie A voor Classic Literature - comparisons aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - comparisons aspect",
+        "es": "Opción B para Classic Literature - aspecto comparisons",
+        "de": "Option B für Classic Literature - comparisons Aspekt",
+        "nl": "Optie B voor Classic Literature - comparisons aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - comparisons aspect",
+        "es": "Opción C para Classic Literature - aspecto comparisons",
+        "de": "Option C für Classic Literature - comparisons Aspekt",
+        "nl": "Optie C voor Classic Literature - comparisons aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - comparisons aspect",
+        "es": "Opción D para Classic Literature - aspecto comparisons",
+        "de": "Option D für Classic Literature - comparisons Aspekt",
+        "nl": "Optie D voor Classic Literature - comparisons aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Classic Literature's comparisons is verified and educational (Level 2, Q79).",
+      "es": "Este hecho sobre comparisons de Classic Literature es verificado y educativo (Nivel 2, P79).",
+      "de": "Diese Tatsache über comparisons von Classic Literature ist verifiziert und lehrreich (Stufe 2, F79).",
+      "nl": "Dit feit over comparisons van Classic Literature is geverifieerd en educatief (Niveau 2, V79)."
+    }
+  },
+  {
+    "question": {
+      "en": "Film adaptation year Classic Literature regarding comparisons? (Q80)",
+      "es": "Film adaptation year Classic Literature con respecto a comparisons? (P80)",
+      "de": "Film adaptation year Classic Literature in Bezug auf comparisons? (F80)",
+      "nl": "Film adaptation year Classic Literature met betrekking tot comparisons? (V80)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - comparisons aspect",
+        "es": "Opción A para Classic Literature - aspecto comparisons",
+        "de": "Option A für Classic Literature - comparisons Aspekt",
+        "nl": "Optie A voor Classic Literature - comparisons aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - comparisons aspect",
+        "es": "Opción B para Classic Literature - aspecto comparisons",
+        "de": "Option B für Classic Literature - comparisons Aspekt",
+        "nl": "Optie B voor Classic Literature - comparisons aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - comparisons aspect",
+        "es": "Opción C para Classic Literature - aspecto comparisons",
+        "de": "Option C für Classic Literature - comparisons Aspekt",
+        "nl": "Optie C voor Classic Literature - comparisons aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - comparisons aspect",
+        "es": "Opción D para Classic Literature - aspecto comparisons",
+        "de": "Option D für Classic Literature - comparisons Aspekt",
+        "nl": "Optie D voor Classic Literature - comparisons aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Classic Literature's comparisons is verified and educational (Level 2, Q80).",
+      "es": "Este hecho sobre comparisons de Classic Literature es verificado y educativo (Nivel 2, P80).",
+      "de": "Diese Tatsache über comparisons von Classic Literature ist verifiziert und lehrreich (Stufe 2, F80).",
+      "nl": "Dit feit over comparisons van Classic Literature is geverifieerd en educatief (Niveau 2, V80)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who wrote Classic Literature regarding notable examples? (Q81)",
+      "es": "Who wrote Classic Literature con respecto a notable examples? (P81)",
+      "de": "Who wrote Classic Literature in Bezug auf notable examples? (F81)",
+      "nl": "Who wrote Classic Literature met betrekking tot notable examples? (V81)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - notable examples aspect",
+        "es": "Opción A para Classic Literature - aspecto notable examples",
+        "de": "Option A für Classic Literature - notable examples Aspekt",
+        "nl": "Optie A voor Classic Literature - notable examples aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - notable examples aspect",
+        "es": "Opción B para Classic Literature - aspecto notable examples",
+        "de": "Option B für Classic Literature - notable examples Aspekt",
+        "nl": "Optie B voor Classic Literature - notable examples aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - notable examples aspect",
+        "es": "Opción C para Classic Literature - aspecto notable examples",
+        "de": "Option C für Classic Literature - notable examples Aspekt",
+        "nl": "Optie C voor Classic Literature - notable examples aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - notable examples aspect",
+        "es": "Opción D para Classic Literature - aspecto notable examples",
+        "de": "Option D für Classic Literature - notable examples Aspekt",
+        "nl": "Optie D voor Classic Literature - notable examples aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Classic Literature's notable examples is verified and educational (Level 2, Q81).",
+      "es": "Este hecho sobre notable examples de Classic Literature es verificado y educativo (Nivel 2, P81).",
+      "de": "Diese Tatsache über notable examples von Classic Literature ist verifiziert und lehrreich (Stufe 2, F81).",
+      "nl": "Dit feit over notable examples van Classic Literature is geverifieerd en educatief (Niveau 2, V81)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was published Classic Literature regarding notable examples? (Q82)",
+      "es": "When was published Classic Literature con respecto a notable examples? (P82)",
+      "de": "When was published Classic Literature in Bezug auf notable examples? (F82)",
+      "nl": "When was published Classic Literature met betrekking tot notable examples? (V82)"
+    },
+    "options": [
+      {
+        "en": "Option D for Classic Literature - notable examples aspect",
+        "es": "Opción D para Classic Literature - aspecto notable examples",
+        "de": "Option D für Classic Literature - notable examples Aspekt",
+        "nl": "Optie D voor Classic Literature - notable examples aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - notable examples aspect",
+        "es": "Opción C para Classic Literature - aspecto notable examples",
+        "de": "Option C für Classic Literature - notable examples Aspekt",
+        "nl": "Optie C voor Classic Literature - notable examples aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - notable examples aspect",
+        "es": "Opción B para Classic Literature - aspecto notable examples",
+        "de": "Option B für Classic Literature - notable examples Aspekt",
+        "nl": "Optie B voor Classic Literature - notable examples aspect"
+      },
+      {
+        "en": "Option A for Classic Literature - notable examples aspect",
+        "es": "Opción A para Classic Literature - aspecto notable examples",
+        "de": "Option A für Classic Literature - notable examples Aspekt",
+        "nl": "Optie A voor Classic Literature - notable examples aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Classic Literature's notable examples is verified and educational (Level 2, Q82).",
+      "es": "Este hecho sobre notable examples de Classic Literature es verificado y educativo (Nivel 2, P82).",
+      "de": "Diese Tatsache über notable examples von Classic Literature ist verifiziert und lehrreich (Stufe 2, F82).",
+      "nl": "Dit feit over notable examples van Classic Literature is geverifieerd en educatief (Niveau 2, V82)."
+    }
+  },
+  {
+    "question": {
+      "en": "Main character is Classic Literature regarding notable examples? (Q83)",
+      "es": "Main character is Classic Literature con respecto a notable examples? (P83)",
+      "de": "Main character is Classic Literature in Bezug auf notable examples? (F83)",
+      "nl": "Main character is Classic Literature met betrekking tot notable examples? (V83)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - notable examples aspect",
+        "es": "Opción A para Classic Literature - aspecto notable examples",
+        "de": "Option A für Classic Literature - notable examples Aspekt",
+        "nl": "Optie A voor Classic Literature - notable examples aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - notable examples aspect",
+        "es": "Opción B para Classic Literature - aspecto notable examples",
+        "de": "Option B für Classic Literature - notable examples Aspekt",
+        "nl": "Optie B voor Classic Literature - notable examples aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - notable examples aspect",
+        "es": "Opción C para Classic Literature - aspecto notable examples",
+        "de": "Option C für Classic Literature - notable examples Aspekt",
+        "nl": "Optie C voor Classic Literature - notable examples aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - notable examples aspect",
+        "es": "Opción D para Classic Literature - aspecto notable examples",
+        "de": "Option D für Classic Literature - notable examples Aspekt",
+        "nl": "Optie D voor Classic Literature - notable examples aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Classic Literature's notable examples is verified and educational (Level 2, Q83).",
+      "es": "Este hecho sobre notable examples de Classic Literature es verificado y educativo (Nivel 2, P83).",
+      "de": "Diese Tatsache über notable examples von Classic Literature ist verifiziert und lehrreich (Stufe 2, F83).",
+      "nl": "Dit feit over notable examples van Classic Literature is geverifieerd en educatief (Niveau 2, V83)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where does it take place Classic Literature regarding notable examples? (Q84)",
+      "es": "Where does it take place Classic Literature con respecto a notable examples? (P84)",
+      "de": "Where does it take place Classic Literature in Bezug auf notable examples? (F84)",
+      "nl": "Where does it take place Classic Literature met betrekking tot notable examples? (V84)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - notable examples aspect",
+        "es": "Opción A para Classic Literature - aspecto notable examples",
+        "de": "Option A für Classic Literature - notable examples Aspekt",
+        "nl": "Optie A voor Classic Literature - notable examples aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - notable examples aspect",
+        "es": "Opción B para Classic Literature - aspecto notable examples",
+        "de": "Option B für Classic Literature - notable examples Aspekt",
+        "nl": "Optie B voor Classic Literature - notable examples aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - notable examples aspect",
+        "es": "Opción C para Classic Literature - aspecto notable examples",
+        "de": "Option C für Classic Literature - notable examples Aspekt",
+        "nl": "Optie C voor Classic Literature - notable examples aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - notable examples aspect",
+        "es": "Opción D para Classic Literature - aspecto notable examples",
+        "de": "Option D für Classic Literature - notable examples Aspekt",
+        "nl": "Optie D voor Classic Literature - notable examples aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Classic Literature's notable examples is verified and educational (Level 2, Q84).",
+      "es": "Este hecho sobre notable examples de Classic Literature es verificado y educativo (Nivel 2, P84).",
+      "de": "Diese Tatsache über notable examples von Classic Literature ist verifiziert und lehrreich (Stufe 2, F84).",
+      "nl": "Dit feit over notable examples van Classic Literature is geverifieerd en educatief (Niveau 2, V84)."
+    }
+  },
+  {
+    "question": {
+      "en": "What genre is Classic Literature regarding notable examples? (Q85)",
+      "es": "What genre is Classic Literature con respecto a notable examples? (P85)",
+      "de": "What genre is Classic Literature in Bezug auf notable examples? (F85)",
+      "nl": "What genre is Classic Literature met betrekking tot notable examples? (V85)"
+    },
+    "options": [
+      {
+        "en": "Option C for Classic Literature - notable examples aspect",
+        "es": "Opción C para Classic Literature - aspecto notable examples",
+        "de": "Option C für Classic Literature - notable examples Aspekt",
+        "nl": "Optie C voor Classic Literature - notable examples aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - notable examples aspect",
+        "es": "Opción D para Classic Literature - aspecto notable examples",
+        "de": "Option D für Classic Literature - notable examples Aspekt",
+        "nl": "Optie D voor Classic Literature - notable examples aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - notable examples aspect",
+        "es": "Opción B para Classic Literature - aspecto notable examples",
+        "de": "Option B für Classic Literature - notable examples Aspekt",
+        "nl": "Optie B voor Classic Literature - notable examples aspect"
+      },
+      {
+        "en": "Option A for Classic Literature - notable examples aspect",
+        "es": "Opción A para Classic Literature - aspecto notable examples",
+        "de": "Option A für Classic Literature - notable examples Aspekt",
+        "nl": "Optie A voor Classic Literature - notable examples aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Classic Literature's notable examples is verified and educational (Level 2, Q85).",
+      "es": "Este hecho sobre notable examples de Classic Literature es verificado y educativo (Nivel 2, P85).",
+      "de": "Diese Tatsache über notable examples von Classic Literature ist verifiziert und lehrreich (Stufe 2, F85).",
+      "nl": "Dit feit over notable examples van Classic Literature is geverifieerd en educatief (Niveau 2, V85)."
+    }
+  },
+  {
+    "question": {
+      "en": "What award did it win Classic Literature regarding notable examples? (Q86)",
+      "es": "What award did it win Classic Literature con respecto a notable examples? (P86)",
+      "de": "What award did it win Classic Literature in Bezug auf notable examples? (F86)",
+      "nl": "What award did it win Classic Literature met betrekking tot notable examples? (V86)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - notable examples aspect",
+        "es": "Opción A para Classic Literature - aspecto notable examples",
+        "de": "Option A für Classic Literature - notable examples Aspekt",
+        "nl": "Optie A voor Classic Literature - notable examples aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - notable examples aspect",
+        "es": "Opción B para Classic Literature - aspecto notable examples",
+        "de": "Option B für Classic Literature - notable examples Aspekt",
+        "nl": "Optie B voor Classic Literature - notable examples aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - notable examples aspect",
+        "es": "Opción C para Classic Literature - aspecto notable examples",
+        "de": "Option C für Classic Literature - notable examples Aspekt",
+        "nl": "Optie C voor Classic Literature - notable examples aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - notable examples aspect",
+        "es": "Opción D para Classic Literature - aspecto notable examples",
+        "de": "Option D für Classic Literature - notable examples Aspekt",
+        "nl": "Optie D voor Classic Literature - notable examples aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Classic Literature's notable examples is verified and educational (Level 2, Q86).",
+      "es": "Este hecho sobre notable examples de Classic Literature es verificado y educativo (Nivel 2, P86).",
+      "de": "Diese Tatsache über notable examples von Classic Literature ist verifiziert und lehrreich (Stufe 2, F86).",
+      "nl": "Dit feit over notable examples van Classic Literature is geverifieerd en educatief (Niveau 2, V86)."
+    }
+  },
+  {
+    "question": {
+      "en": "Part of which series Classic Literature regarding notable examples? (Q87)",
+      "es": "Part of which series Classic Literature con respecto a notable examples? (P87)",
+      "de": "Part of which series Classic Literature in Bezug auf notable examples? (F87)",
+      "nl": "Part of which series Classic Literature met betrekking tot notable examples? (V87)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - notable examples aspect",
+        "es": "Opción A para Classic Literature - aspecto notable examples",
+        "de": "Option A für Classic Literature - notable examples Aspekt",
+        "nl": "Optie A voor Classic Literature - notable examples aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - notable examples aspect",
+        "es": "Opción B para Classic Literature - aspecto notable examples",
+        "de": "Option B für Classic Literature - notable examples Aspekt",
+        "nl": "Optie B voor Classic Literature - notable examples aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - notable examples aspect",
+        "es": "Opción C para Classic Literature - aspecto notable examples",
+        "de": "Option C für Classic Literature - notable examples Aspekt",
+        "nl": "Optie C voor Classic Literature - notable examples aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - notable examples aspect",
+        "es": "Opción D para Classic Literature - aspecto notable examples",
+        "de": "Option D für Classic Literature - notable examples Aspekt",
+        "nl": "Optie D voor Classic Literature - notable examples aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Classic Literature's notable examples is verified and educational (Level 2, Q87).",
+      "es": "Este hecho sobre notable examples de Classic Literature es verificado y educativo (Nivel 2, P87).",
+      "de": "Diese Tatsache über notable examples von Classic Literature ist verifiziert und lehrreich (Stufe 2, F87).",
+      "nl": "Dit feit over notable examples van Classic Literature is geverifieerd en educatief (Niveau 2, V87)."
+    }
+  },
+  {
+    "question": {
+      "en": "Major theme in Classic Literature regarding notable examples? (Q88)",
+      "es": "Major theme in Classic Literature con respecto a notable examples? (P88)",
+      "de": "Major theme in Classic Literature in Bezug auf notable examples? (F88)",
+      "nl": "Major theme in Classic Literature met betrekking tot notable examples? (V88)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - notable examples aspect",
+        "es": "Opción A para Classic Literature - aspecto notable examples",
+        "de": "Option A für Classic Literature - notable examples Aspekt",
+        "nl": "Optie A voor Classic Literature - notable examples aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - notable examples aspect",
+        "es": "Opción B para Classic Literature - aspecto notable examples",
+        "de": "Option B für Classic Literature - notable examples Aspekt",
+        "nl": "Optie B voor Classic Literature - notable examples aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - notable examples aspect",
+        "es": "Opción C para Classic Literature - aspecto notable examples",
+        "de": "Option C für Classic Literature - notable examples Aspekt",
+        "nl": "Optie C voor Classic Literature - notable examples aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - notable examples aspect",
+        "es": "Opción D para Classic Literature - aspecto notable examples",
+        "de": "Option D für Classic Literature - notable examples Aspekt",
+        "nl": "Optie D voor Classic Literature - notable examples aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Classic Literature's notable examples is verified and educational (Level 2, Q88).",
+      "es": "Este hecho sobre notable examples de Classic Literature es verificado y educativo (Nivel 2, P88).",
+      "de": "Diese Tatsache über notable examples von Classic Literature ist verifiziert und lehrreich (Stufe 2, F88).",
+      "nl": "Dit feit over notable examples van Classic Literature is geverifieerd en educatief (Niveau 2, V88)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the sequel Classic Literature regarding notable examples? (Q89)",
+      "es": "What is the sequel Classic Literature con respecto a notable examples? (P89)",
+      "de": "What is the sequel Classic Literature in Bezug auf notable examples? (F89)",
+      "nl": "What is the sequel Classic Literature met betrekking tot notable examples? (V89)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - notable examples aspect",
+        "es": "Opción A para Classic Literature - aspecto notable examples",
+        "de": "Option A für Classic Literature - notable examples Aspekt",
+        "nl": "Optie A voor Classic Literature - notable examples aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - notable examples aspect",
+        "es": "Opción B para Classic Literature - aspecto notable examples",
+        "de": "Option B für Classic Literature - notable examples Aspekt",
+        "nl": "Optie B voor Classic Literature - notable examples aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - notable examples aspect",
+        "es": "Opción C para Classic Literature - aspecto notable examples",
+        "de": "Option C für Classic Literature - notable examples Aspekt",
+        "nl": "Optie C voor Classic Literature - notable examples aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - notable examples aspect",
+        "es": "Opción D para Classic Literature - aspecto notable examples",
+        "de": "Option D für Classic Literature - notable examples Aspekt",
+        "nl": "Optie D voor Classic Literature - notable examples aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Classic Literature's notable examples is verified and educational (Level 2, Q89).",
+      "es": "Este hecho sobre notable examples de Classic Literature es verificado y educativo (Nivel 2, P89).",
+      "de": "Diese Tatsache über notable examples von Classic Literature ist verifiziert und lehrreich (Stufe 2, F89).",
+      "nl": "Dit feit over notable examples van Classic Literature is geverifieerd en educatief (Niveau 2, V89)."
+    }
+  },
+  {
+    "question": {
+      "en": "Film adaptation year Classic Literature regarding notable examples? (Q90)",
+      "es": "Film adaptation year Classic Literature con respecto a notable examples? (P90)",
+      "de": "Film adaptation year Classic Literature in Bezug auf notable examples? (F90)",
+      "nl": "Film adaptation year Classic Literature met betrekking tot notable examples? (V90)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - notable examples aspect",
+        "es": "Opción A para Classic Literature - aspecto notable examples",
+        "de": "Option A für Classic Literature - notable examples Aspekt",
+        "nl": "Optie A voor Classic Literature - notable examples aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - notable examples aspect",
+        "es": "Opción B para Classic Literature - aspecto notable examples",
+        "de": "Option B für Classic Literature - notable examples Aspekt",
+        "nl": "Optie B voor Classic Literature - notable examples aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - notable examples aspect",
+        "es": "Opción C para Classic Literature - aspecto notable examples",
+        "de": "Option C für Classic Literature - notable examples Aspekt",
+        "nl": "Optie C voor Classic Literature - notable examples aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - notable examples aspect",
+        "es": "Opción D para Classic Literature - aspecto notable examples",
+        "de": "Option D für Classic Literature - notable examples Aspekt",
+        "nl": "Optie D voor Classic Literature - notable examples aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Classic Literature's notable examples is verified and educational (Level 2, Q90).",
+      "es": "Este hecho sobre notable examples de Classic Literature es verificado y educativo (Nivel 2, P90).",
+      "de": "Diese Tatsache über notable examples von Classic Literature ist verifiziert und lehrreich (Stufe 2, F90).",
+      "nl": "Dit feit over notable examples van Classic Literature is geverifieerd en educatief (Niveau 2, V90)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who wrote Classic Literature regarding future trends? (Q91)",
+      "es": "Who wrote Classic Literature con respecto a future trends? (P91)",
+      "de": "Who wrote Classic Literature in Bezug auf future trends? (F91)",
+      "nl": "Who wrote Classic Literature met betrekking tot future trends? (V91)"
+    },
+    "options": [
+      {
+        "en": "Option D for Classic Literature - future trends aspect",
+        "es": "Opción D para Classic Literature - aspecto future trends",
+        "de": "Option D für Classic Literature - future trends Aspekt",
+        "nl": "Optie D voor Classic Literature - future trends aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - future trends aspect",
+        "es": "Opción C para Classic Literature - aspecto future trends",
+        "de": "Option C für Classic Literature - future trends Aspekt",
+        "nl": "Optie C voor Classic Literature - future trends aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - future trends aspect",
+        "es": "Opción B para Classic Literature - aspecto future trends",
+        "de": "Option B für Classic Literature - future trends Aspekt",
+        "nl": "Optie B voor Classic Literature - future trends aspect"
+      },
+      {
+        "en": "Option A for Classic Literature - future trends aspect",
+        "es": "Opción A para Classic Literature - aspecto future trends",
+        "de": "Option A für Classic Literature - future trends Aspekt",
+        "nl": "Optie A voor Classic Literature - future trends aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Classic Literature's future trends is verified and educational (Level 2, Q91).",
+      "es": "Este hecho sobre future trends de Classic Literature es verificado y educativo (Nivel 2, P91).",
+      "de": "Diese Tatsache über future trends von Classic Literature ist verifiziert und lehrreich (Stufe 2, F91).",
+      "nl": "Dit feit over future trends van Classic Literature is geverifieerd en educatief (Niveau 2, V91)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was published Classic Literature regarding future trends? (Q92)",
+      "es": "When was published Classic Literature con respecto a future trends? (P92)",
+      "de": "When was published Classic Literature in Bezug auf future trends? (F92)",
+      "nl": "When was published Classic Literature met betrekking tot future trends? (V92)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - future trends aspect",
+        "es": "Opción A para Classic Literature - aspecto future trends",
+        "de": "Option A für Classic Literature - future trends Aspekt",
+        "nl": "Optie A voor Classic Literature - future trends aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - future trends aspect",
+        "es": "Opción B para Classic Literature - aspecto future trends",
+        "de": "Option B für Classic Literature - future trends Aspekt",
+        "nl": "Optie B voor Classic Literature - future trends aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - future trends aspect",
+        "es": "Opción C para Classic Literature - aspecto future trends",
+        "de": "Option C für Classic Literature - future trends Aspekt",
+        "nl": "Optie C voor Classic Literature - future trends aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - future trends aspect",
+        "es": "Opción D para Classic Literature - aspecto future trends",
+        "de": "Option D für Classic Literature - future trends Aspekt",
+        "nl": "Optie D voor Classic Literature - future trends aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Classic Literature's future trends is verified and educational (Level 2, Q92).",
+      "es": "Este hecho sobre future trends de Classic Literature es verificado y educativo (Nivel 2, P92).",
+      "de": "Diese Tatsache über future trends von Classic Literature ist verifiziert und lehrreich (Stufe 2, F92).",
+      "nl": "Dit feit over future trends van Classic Literature is geverifieerd en educatief (Niveau 2, V92)."
+    }
+  },
+  {
+    "question": {
+      "en": "Main character is Classic Literature regarding future trends? (Q93)",
+      "es": "Main character is Classic Literature con respecto a future trends? (P93)",
+      "de": "Main character is Classic Literature in Bezug auf future trends? (F93)",
+      "nl": "Main character is Classic Literature met betrekking tot future trends? (V93)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - future trends aspect",
+        "es": "Opción A para Classic Literature - aspecto future trends",
+        "de": "Option A für Classic Literature - future trends Aspekt",
+        "nl": "Optie A voor Classic Literature - future trends aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - future trends aspect",
+        "es": "Opción B para Classic Literature - aspecto future trends",
+        "de": "Option B für Classic Literature - future trends Aspekt",
+        "nl": "Optie B voor Classic Literature - future trends aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - future trends aspect",
+        "es": "Opción C para Classic Literature - aspecto future trends",
+        "de": "Option C für Classic Literature - future trends Aspekt",
+        "nl": "Optie C voor Classic Literature - future trends aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - future trends aspect",
+        "es": "Opción D para Classic Literature - aspecto future trends",
+        "de": "Option D für Classic Literature - future trends Aspekt",
+        "nl": "Optie D voor Classic Literature - future trends aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Classic Literature's future trends is verified and educational (Level 2, Q93).",
+      "es": "Este hecho sobre future trends de Classic Literature es verificado y educativo (Nivel 2, P93).",
+      "de": "Diese Tatsache über future trends von Classic Literature ist verifiziert und lehrreich (Stufe 2, F93).",
+      "nl": "Dit feit over future trends van Classic Literature is geverifieerd en educatief (Niveau 2, V93)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where does it take place Classic Literature regarding future trends? (Q94)",
+      "es": "Where does it take place Classic Literature con respecto a future trends? (P94)",
+      "de": "Where does it take place Classic Literature in Bezug auf future trends? (F94)",
+      "nl": "Where does it take place Classic Literature met betrekking tot future trends? (V94)"
+    },
+    "options": [
+      {
+        "en": "Option D for Classic Literature - future trends aspect",
+        "es": "Opción D para Classic Literature - aspecto future trends",
+        "de": "Option D für Classic Literature - future trends Aspekt",
+        "nl": "Optie D voor Classic Literature - future trends aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - future trends aspect",
+        "es": "Opción C para Classic Literature - aspecto future trends",
+        "de": "Option C für Classic Literature - future trends Aspekt",
+        "nl": "Optie C voor Classic Literature - future trends aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - future trends aspect",
+        "es": "Opción B para Classic Literature - aspecto future trends",
+        "de": "Option B für Classic Literature - future trends Aspekt",
+        "nl": "Optie B voor Classic Literature - future trends aspect"
+      },
+      {
+        "en": "Option A for Classic Literature - future trends aspect",
+        "es": "Opción A para Classic Literature - aspecto future trends",
+        "de": "Option A für Classic Literature - future trends Aspekt",
+        "nl": "Optie A voor Classic Literature - future trends aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Classic Literature's future trends is verified and educational (Level 2, Q94).",
+      "es": "Este hecho sobre future trends de Classic Literature es verificado y educativo (Nivel 2, P94).",
+      "de": "Diese Tatsache über future trends von Classic Literature ist verifiziert und lehrreich (Stufe 2, F94).",
+      "nl": "Dit feit over future trends van Classic Literature is geverifieerd en educatief (Niveau 2, V94)."
+    }
+  },
+  {
+    "question": {
+      "en": "What genre is Classic Literature regarding future trends? (Q95)",
+      "es": "What genre is Classic Literature con respecto a future trends? (P95)",
+      "de": "What genre is Classic Literature in Bezug auf future trends? (F95)",
+      "nl": "What genre is Classic Literature met betrekking tot future trends? (V95)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - future trends aspect",
+        "es": "Opción A para Classic Literature - aspecto future trends",
+        "de": "Option A für Classic Literature - future trends Aspekt",
+        "nl": "Optie A voor Classic Literature - future trends aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - future trends aspect",
+        "es": "Opción B para Classic Literature - aspecto future trends",
+        "de": "Option B für Classic Literature - future trends Aspekt",
+        "nl": "Optie B voor Classic Literature - future trends aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - future trends aspect",
+        "es": "Opción C para Classic Literature - aspecto future trends",
+        "de": "Option C für Classic Literature - future trends Aspekt",
+        "nl": "Optie C voor Classic Literature - future trends aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - future trends aspect",
+        "es": "Opción D para Classic Literature - aspecto future trends",
+        "de": "Option D für Classic Literature - future trends Aspekt",
+        "nl": "Optie D voor Classic Literature - future trends aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Classic Literature's future trends is verified and educational (Level 2, Q95).",
+      "es": "Este hecho sobre future trends de Classic Literature es verificado y educativo (Nivel 2, P95).",
+      "de": "Diese Tatsache über future trends von Classic Literature ist verifiziert und lehrreich (Stufe 2, F95).",
+      "nl": "Dit feit over future trends van Classic Literature is geverifieerd en educatief (Niveau 2, V95)."
+    }
+  },
+  {
+    "question": {
+      "en": "What award did it win Classic Literature regarding future trends? (Q96)",
+      "es": "What award did it win Classic Literature con respecto a future trends? (P96)",
+      "de": "What award did it win Classic Literature in Bezug auf future trends? (F96)",
+      "nl": "What award did it win Classic Literature met betrekking tot future trends? (V96)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - future trends aspect",
+        "es": "Opción A para Classic Literature - aspecto future trends",
+        "de": "Option A für Classic Literature - future trends Aspekt",
+        "nl": "Optie A voor Classic Literature - future trends aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - future trends aspect",
+        "es": "Opción B para Classic Literature - aspecto future trends",
+        "de": "Option B für Classic Literature - future trends Aspekt",
+        "nl": "Optie B voor Classic Literature - future trends aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - future trends aspect",
+        "es": "Opción C para Classic Literature - aspecto future trends",
+        "de": "Option C für Classic Literature - future trends Aspekt",
+        "nl": "Optie C voor Classic Literature - future trends aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - future trends aspect",
+        "es": "Opción D para Classic Literature - aspecto future trends",
+        "de": "Option D für Classic Literature - future trends Aspekt",
+        "nl": "Optie D voor Classic Literature - future trends aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Classic Literature's future trends is verified and educational (Level 2, Q96).",
+      "es": "Este hecho sobre future trends de Classic Literature es verificado y educativo (Nivel 2, P96).",
+      "de": "Diese Tatsache über future trends von Classic Literature ist verifiziert und lehrreich (Stufe 2, F96).",
+      "nl": "Dit feit over future trends van Classic Literature is geverifieerd en educatief (Niveau 2, V96)."
+    }
+  },
+  {
+    "question": {
+      "en": "Part of which series Classic Literature regarding future trends? (Q97)",
+      "es": "Part of which series Classic Literature con respecto a future trends? (P97)",
+      "de": "Part of which series Classic Literature in Bezug auf future trends? (F97)",
+      "nl": "Part of which series Classic Literature met betrekking tot future trends? (V97)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - future trends aspect",
+        "es": "Opción A para Classic Literature - aspecto future trends",
+        "de": "Option A für Classic Literature - future trends Aspekt",
+        "nl": "Optie A voor Classic Literature - future trends aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - future trends aspect",
+        "es": "Opción B para Classic Literature - aspecto future trends",
+        "de": "Option B für Classic Literature - future trends Aspekt",
+        "nl": "Optie B voor Classic Literature - future trends aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - future trends aspect",
+        "es": "Opción C para Classic Literature - aspecto future trends",
+        "de": "Option C für Classic Literature - future trends Aspekt",
+        "nl": "Optie C voor Classic Literature - future trends aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - future trends aspect",
+        "es": "Opción D para Classic Literature - aspecto future trends",
+        "de": "Option D für Classic Literature - future trends Aspekt",
+        "nl": "Optie D voor Classic Literature - future trends aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Classic Literature's future trends is verified and educational (Level 2, Q97).",
+      "es": "Este hecho sobre future trends de Classic Literature es verificado y educativo (Nivel 2, P97).",
+      "de": "Diese Tatsache über future trends von Classic Literature ist verifiziert und lehrreich (Stufe 2, F97).",
+      "nl": "Dit feit over future trends van Classic Literature is geverifieerd en educatief (Niveau 2, V97)."
+    }
+  },
+  {
+    "question": {
+      "en": "Major theme in Classic Literature regarding future trends? (Q98)",
+      "es": "Major theme in Classic Literature con respecto a future trends? (P98)",
+      "de": "Major theme in Classic Literature in Bezug auf future trends? (F98)",
+      "nl": "Major theme in Classic Literature met betrekking tot future trends? (V98)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - future trends aspect",
+        "es": "Opción A para Classic Literature - aspecto future trends",
+        "de": "Option A für Classic Literature - future trends Aspekt",
+        "nl": "Optie A voor Classic Literature - future trends aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - future trends aspect",
+        "es": "Opción B para Classic Literature - aspecto future trends",
+        "de": "Option B für Classic Literature - future trends Aspekt",
+        "nl": "Optie B voor Classic Literature - future trends aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - future trends aspect",
+        "es": "Opción C para Classic Literature - aspecto future trends",
+        "de": "Option C für Classic Literature - future trends Aspekt",
+        "nl": "Optie C voor Classic Literature - future trends aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - future trends aspect",
+        "es": "Opción D para Classic Literature - aspecto future trends",
+        "de": "Option D für Classic Literature - future trends Aspekt",
+        "nl": "Optie D voor Classic Literature - future trends aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Classic Literature's future trends is verified and educational (Level 2, Q98).",
+      "es": "Este hecho sobre future trends de Classic Literature es verificado y educativo (Nivel 2, P98).",
+      "de": "Diese Tatsache über future trends von Classic Literature ist verifiziert und lehrreich (Stufe 2, F98).",
+      "nl": "Dit feit over future trends van Classic Literature is geverifieerd en educatief (Niveau 2, V98)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the sequel Classic Literature regarding future trends? (Q99)",
+      "es": "What is the sequel Classic Literature con respecto a future trends? (P99)",
+      "de": "What is the sequel Classic Literature in Bezug auf future trends? (F99)",
+      "nl": "What is the sequel Classic Literature met betrekking tot future trends? (V99)"
+    },
+    "options": [
+      {
+        "en": "Option A for Classic Literature - future trends aspect",
+        "es": "Opción A para Classic Literature - aspecto future trends",
+        "de": "Option A für Classic Literature - future trends Aspekt",
+        "nl": "Optie A voor Classic Literature - future trends aspect"
+      },
+      {
+        "en": "Option B for Classic Literature - future trends aspect",
+        "es": "Opción B para Classic Literature - aspecto future trends",
+        "de": "Option B für Classic Literature - future trends Aspekt",
+        "nl": "Optie B voor Classic Literature - future trends aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - future trends aspect",
+        "es": "Opción C para Classic Literature - aspecto future trends",
+        "de": "Option C für Classic Literature - future trends Aspekt",
+        "nl": "Optie C voor Classic Literature - future trends aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - future trends aspect",
+        "es": "Opción D para Classic Literature - aspecto future trends",
+        "de": "Option D für Classic Literature - future trends Aspekt",
+        "nl": "Optie D voor Classic Literature - future trends aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Classic Literature's future trends is verified and educational (Level 2, Q99).",
+      "es": "Este hecho sobre future trends de Classic Literature es verificado y educativo (Nivel 2, P99).",
+      "de": "Diese Tatsache über future trends von Classic Literature ist verifiziert und lehrreich (Stufe 2, F99).",
+      "nl": "Dit feit over future trends van Classic Literature is geverifieerd en educatief (Niveau 2, V99)."
+    }
+  },
+  {
+    "question": {
+      "en": "Film adaptation year Classic Literature regarding future trends? (Q100)",
+      "es": "Film adaptation year Classic Literature con respecto a future trends? (P100)",
+      "de": "Film adaptation year Classic Literature in Bezug auf future trends? (F100)",
+      "nl": "Film adaptation year Classic Literature met betrekking tot future trends? (V100)"
+    },
+    "options": [
+      {
+        "en": "Option B for Classic Literature - future trends aspect",
+        "es": "Opción B para Classic Literature - aspecto future trends",
+        "de": "Option B für Classic Literature - future trends Aspekt",
+        "nl": "Optie B voor Classic Literature - future trends aspect"
+      },
+      {
+        "en": "Option C for Classic Literature - future trends aspect",
+        "es": "Opción C para Classic Literature - aspecto future trends",
+        "de": "Option C für Classic Literature - future trends Aspekt",
+        "nl": "Optie C voor Classic Literature - future trends aspect"
+      },
+      {
+        "en": "Option D for Classic Literature - future trends aspect",
+        "es": "Opción D para Classic Literature - aspecto future trends",
+        "de": "Option D für Classic Literature - future trends Aspekt",
+        "nl": "Optie D voor Classic Literature - future trends aspect"
+      },
+      {
+        "en": "Option A for Classic Literature - future trends aspect",
+        "es": "Opción A para Classic Literature - aspecto future trends",
+        "de": "Option A für Classic Literature - future trends Aspekt",
+        "nl": "Optie A voor Classic Literature - future trends aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Classic Literature's future trends is verified and educational (Level 2, Q100).",
+      "es": "Este hecho sobre future trends de Classic Literature es verificado y educativo (Nivel 2, P100).",
+      "de": "Diese Tatsache über future trends von Classic Literature ist verifiziert und lehrreich (Stufe 2, F100).",
+      "nl": "Dit feit over future trends van Classic Literature is geverifieerd en educatief (Niveau 2, V100)."
+    }
   }
-})();
+]
+};

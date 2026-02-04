@@ -1,859 +1,4104 @@
-// Egyptian Gods Quiz - Level 6: Advanced Knowledge
-(function() {
-  const level6 = {
-    name: {
-      en: "Egyptian Gods Level 6",
-      es: "Dioses Egipcios Nivel 6",
-      de: "Aegyptische Goetter Stufe 6",
-      nl: "Egyptische Goden Level 6"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Egyptian Gods",
+      "es": "Pregunta 1 sobre Egyptian Gods",
+      "de": "Frage 1 über Egyptian Gods",
+      "nl": "Vraag 1 over Egyptian Gods"
     },
-    questions: [
+    "options": [
       {
-        question: {
-          en: "Which goddess was the personification of the sycamore tree and provided food and water to the dead?",
-          es: "¿Qué diosa era la personificación del árbol de sicomoro y proporcionaba comida y agua a los muertos?",
-          de: "Welche Göttin war die Personifikation des Maulbeerfeigenbaums und versorgte die Toten mit Nahrung und Wasser?",
-          nl: "Welke godin was de personificatie van de vijgenboom en voorzag de doden van voedsel en water?"
-        },
-        options: [
-          { en: "Hathor", es: "Hathor", de: "Hathor", nl: "Hathor" },
-          { en: "Isis", es: "Isis", de: "Isis", nl: "Isis" },
-          { en: "Nut", es: "Nut", de: "Nut", nl: "Nut" },
-          { en: "Neith", es: "Neith", de: "Neith", nl: "Neith" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Hathor was often depicted as emerging from a sycamore tree to offer food and water to deceased souls. The sycamore was considered sacred to her and represented nurturing and regeneration in the afterlife.",
-          es: "Hathor fue frecuentemente representada emergiendo de un árbol de sicomoro para ofrecer comida y agua a las almas difuntas. El sicomoro era considerado sagrado para ella y representaba nutrición y regeneración en la vida después de la muerte.",
-          de: "Hathor wurde oft dargestellt, wie sie aus einem Maulbeerfeigenbaum hervortrat, um verstorbenen Seelen Nahrung und Wasser anzubieten. Der Maulbeerfeigenbaum galt ihr als heilig und repräsentierte Pflege und Regeneration im Jenseits.",
-          nl: "Hathor werd vaak afgebeeld als tevoorschijn komend uit een vijgenboom om voedsel en water aan overleden zielen te bieden. De vijgenboom werd als heilig voor haar beschouwd en vertegenwoordigde verzorging en regeneratie in het hiernamaals."
-        }
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
       },
       {
-        question: {
-          en: "What was the name of the hippopotamus goddess who protected pregnant women but also devoured unworthy souls?",
-          es: "¿Cuál era el nombre de la diosa hipopótamo que protegía a las mujeres embarazadas pero también devoraba almas indignas?",
-          de: "Wie hieß die Nilpferdgöttin, die schwangere Frauen schützte, aber auch unwürdige Seelen verschlang?",
-          nl: "Wat was de naam van de nijlpaardgodin die zwangere vrouwen beschermde maar ook onwaardige zielen verslond?"
-        },
-        options: [
-          { en: "Taweret", es: "Taweret", de: "Taweret", nl: "Taweret" },
-          { en: "Ammit", es: "Ammit", de: "Ammit", nl: "Ammit" },
-          { en: "Ipet", es: "Ipet", de: "Ipet", nl: "Ipet" },
-          { en: "Reret", es: "Reret", de: "Reret", nl: "Reret" }
-        ],
-        correct: 3,
-        explanation: {
-          en: "Reret (also known as Ipet or Opet) was a hippopotamus goddess who protected pregnant women and childbirth. In some traditions, she also had a fierce aspect where she could devour those who failed moral tests.",
-          es: "Reret (también conocida como Ipet u Opet) era una diosa hipopótamo que protegía a las mujeres embarazadas y el parto. En algunas tradiciones, también tenía un aspecto feroz donde podía devorar a aquellos que fallaban en las pruebas morales.",
-          de: "Reret (auch bekannt als Ipet oder Opet) war eine Nilpferdgöttin, die schwangere Frauen und Geburten schützte. In einigen Traditionen hatte sie auch einen wilden Aspekt, bei dem sie diejenigen verschlingen konnte, die moralische Tests nicht bestanden.",
-          nl: "Reret (ook bekend als Ipet of Opet) was een nijlpaardgodin die zwangere vrouwen en bevallingen beschermde. In sommige tradities had ze ook een woest aspect waarbij ze degenen kon verslinden die morele tests niet haalden."
-        }
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
       },
       {
-        question: {
-          en: "Which deity was known as 'The Hidden One' and became the supreme god during the New Kingdom?",
-          es: "¿Qué deidad era conocida como 'El Oculto' y se convirtió en el dios supremo durante el Imperio Nuevo?",
-          de: "Welche Gottheit war als 'Der Verborgene' bekannt und wurde während des Neuen Reiches zum obersten Gott?",
-          nl: "Welke godheid stond bekend als 'De Verborgen' en werd de oppergod tijdens het Nieuwe Rijk?"
-        },
-        options: [
-          { en: "Ra", es: "Ra", de: "Ra", nl: "Ra" },
-          { en: "Amun", es: "Amón", de: "Amun", nl: "Amon" },
-          { en: "Ptah", es: "Ptah", de: "Ptah", nl: "Ptah" },
-          { en: "Aten", es: "Atón", de: "Aton", nl: "Aton" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Amun, whose name means 'The Hidden One,' rose to become the king of gods during the New Kingdom when he was merged with Ra as Amun-Ra. He was the patron deity of Thebes and represented invisible creative power.",
-          es: "Amón, cuyo nombre significa 'El Oculto', ascendió para convertirse en el rey de los dioses durante el Imperio Nuevo cuando se fusionó con Ra como Amón-Ra. Fue la deidad patrona de Tebas y representaba el poder creativo invisible.",
-          de: "Amun, dessen Name 'Der Verborgene' bedeutet, stieg während des Neuen Reiches zum König der Götter auf, als er mit Ra zu Amun-Ra verschmolzen wurde. Er war die Schutzgottheit von Theben und repräsentierte unsichtbare schöpferische Kraft.",
-          nl: "Amon, wiens naam 'De Verborgen' betekent, steeg op om de koning van de goden te worden tijdens het Nieuwe Rijk toen hij werd samengevoegd met Ra als Amon-Ra. Hij was de beschermgod van Thebe en vertegenwoordigde onzichtbare scheppende kracht."
-        }
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
       },
       {
-        question: {
-          en: "Which god was depicted as a man with an erect phallus and was associated with fertility and lettuce?",
-          es: "¿Qué dios fue representado como un hombre con un falo erecto y estaba asociado con la fertilidad y la lechuga?",
-          de: "Welcher Gott wurde als Mann mit erigiertem Phallus dargestellt und war mit Fruchtbarkeit und Salat verbunden?",
-          nl: "Welke god werd afgebeeld als een man met een erecte fallus en was geassocieerd met vruchtbaarheid en sla?"
-        },
-        options: [
-          { en: "Min", es: "Min", de: "Min", nl: "Min" },
-          { en: "Bes", es: "Bes", de: "Bes", nl: "Bes" },
-          { en: "Khnum", es: "Khnum", de: "Chnum", nl: "Khnum" },
-          { en: "Geb", es: "Geb", de: "Geb", nl: "Geb" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Min was an ancient fertility god depicted with an erect phallus and raised arm. Lettuce was sacred to him because its milky sap was associated with semen and fertility. He was also a protector of travelers and mines.",
-          es: "Min era un antiguo dios de la fertilidad representado con un falo erecto y brazo levantado. La lechuga era sagrada para él porque su savia lechosa estaba asociada con el semen y la fertilidad. También era protector de viajeros y minas.",
-          de: "Min war ein alter Fruchtbarkeitsgott, der mit erigiertem Phallus und erhobenem Arm dargestellt wurde. Salat war ihm heilig, weil sein milchiger Saft mit Samen und Fruchtbarkeit assoziiert wurde. Er war auch ein Beschützer von Reisenden und Minen.",
-          nl: "Min was een oude vruchtbaarheidsgod afgebeeld met een erecte fallus en opgeheven arm. Sla was hem heilig omdat het melkachtige sap werd geassocieerd met sperma en vruchtbaarheid. Hij was ook een beschermer van reizigers en mijnen."
-        }
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Egyptian Gods",
+      "es": "Pregunta 2 sobre Egyptian Gods",
+      "de": "Frage 2 über Egyptian Gods",
+      "nl": "Vraag 2 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
       },
       {
-        question: {
-          en: "Which goddess was the divine wet nurse who suckled the pharaoh and was depicted as a cow or woman with cow horns?",
-          es: "¿Qué diosa era la nodriza divina que amamantaba al faraón y fue representada como una vaca o mujer con cuernos de vaca?",
-          de: "Welche Göttin war die göttliche Amme, die den Pharao säugte und als Kuh oder Frau mit Kuhhörnern dargestellt wurde?",
-          nl: "Welke godin was de goddelijke zoogster die de farao zoogde en werd afgebeeld als een koe of vrouw met koehorens?"
-        },
-        options: [
-          { en: "Hathor", es: "Hathor", de: "Hathor", nl: "Hathor" },
-          { en: "Hesat", es: "Hesat", de: "Hesat", nl: "Hesat" },
-          { en: "Bat", es: "Bat", de: "Bat", nl: "Bat" },
-          { en: "Mehet-Weret", es: "Mehet-Weret", de: "Mehet-Weret", nl: "Mehet-Weret" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Hesat was a divine cow goddess who served as the celestial wet nurse to the pharaoh. Her milk was believed to provide divine nourishment and legitimacy to the king, connecting him to the gods.",
-          es: "Hesat era una diosa vaca divina que servía como nodriza celestial del faraón. Se creía que su leche proporcionaba nutrición divina y legitimidad al rey, conectándolo con los dioses.",
-          de: "Hesat war eine göttliche Kuhgöttin, die als himmlische Amme des Pharaos diente. Man glaubte, ihre Milch gab dem König göttliche Nahrung und Legitimität und verband ihn mit den Göttern.",
-          nl: "Hesat was een goddelijke koegodin die diende als de hemelse zoogster van de farao. Men geloofde dat haar melk goddelijke voeding en legitimiteit aan de koning verschafte, waardoor hij met de goden werd verbonden."
-        }
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
       },
       {
-        question: {
-          en: "What was the name of the lion god of war who was worshipped in Thebes before being eclipsed by Amun?",
-          es: "¿Cuál era el nombre del dios león de la guerra que fue adorado en Tebas antes de ser eclipsado por Amón?",
-          de: "Wie hieß der Löwengott des Krieges, der in Theben verehrt wurde, bevor er von Amun in den Schatten gestellt wurde?",
-          nl: "Wat was de naam van de leeuwengod van oorlog die in Thebe werd aanbeden voordat hij werd overschaduwd door Amon?"
-        },
-        options: [
-          { en: "Maahes", es: "Maahes", de: "Maahes", nl: "Maahes" },
-          { en: "Montu", es: "Montu", de: "Montu", nl: "Montu" },
-          { en: "Dedun", es: "Dedun", de: "Dedun", nl: "Dedun" },
-          { en: "Anhur", es: "Anhur", de: "Anhur", nl: "Anhur" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Montu was a falcon-headed war god with a bull's tail who was the original patron deity of Thebes. During the Middle Kingdom, he was gradually replaced by Amun as the city's primary god but remained important as a war deity.",
-          es: "Montu era un dios de la guerra con cabeza de halcón y cola de toro que fue la deidad patrona original de Tebas. Durante el Reino Medio, fue gradualmente reemplazado por Amón como el dios principal de la ciudad, pero permaneció importante como deidad de la guerra.",
-          de: "Montu war ein falkenköpfiger Kriegsgott mit Stierschwanz, der die ursprüngliche Schutzgottheit von Theben war. Während des Mittleren Reiches wurde er allmählich von Amun als Hauptgott der Stadt ersetzt, blieb aber als Kriegsgottheit wichtig.",
-          nl: "Montu was een valkenkoppige oorlogsgod met een stierenstaart die de oorspronkelijke beschermgod van Thebe was. Tijdens het Middenrijk werd hij geleidelijk vervangen door Amon als de belangrijkste god van de stad, maar bleef belangrijk als oorlogsgod."
-        }
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
       },
       {
-        question: {
-          en: "Which goddess was associated with weaving, hunting, and war, and was believed to have woven the world on her loom?",
-          es: "¿Qué diosa estaba asociada con el tejido, la caza y la guerra, y se creía que había tejido el mundo en su telar?",
-          de: "Welche Göttin war mit Weben, Jagd und Krieg verbunden und von der man glaubte, sie habe die Welt auf ihrem Webstuhl gewebt?",
-          nl: "Welke godin was geassocieerd met weven, jagen en oorlog, en men geloofde dat ze de wereld op haar weefgetouw had geweven?"
-        },
-        options: [
-          { en: "Seshat", es: "Seshat", de: "Seshat", nl: "Seshat" },
-          { en: "Neith", es: "Neith", de: "Neith", nl: "Neith" },
-          { en: "Sekhmet", es: "Sekhmet", de: "Sekhmet", nl: "Sekhmet" },
-          { en: "Pakhet", es: "Pakhet", de: "Pakhet", nl: "Pakhet" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Neith was an ancient goddess of Sais associated with weaving, war, and hunting. She was believed to have woven the world into existence on her loom and was sometimes considered the mother of Ra and creator of the universe.",
-          es: "Neith era una antigua diosa de Sais asociada con el tejido, la guerra y la caza. Se creía que había tejido el mundo a la existencia en su telar y a veces era considerada la madre de Ra y creadora del universo.",
-          de: "Neith war eine alte Göttin von Sais, die mit Weben, Krieg und Jagd verbunden war. Man glaubte, sie habe die Welt auf ihrem Webstuhl in die Existenz gewebt und wurde manchmal als Mutter von Ra und Schöpferin des Universums angesehen.",
-          nl: "Neith was een oude godin van Sais geassocieerd met weven, oorlog en jagen. Men geloofde dat ze de wereld tot bestaan had geweven op haar weefgetouw en werd soms beschouwd als de moeder van Ra en schepper van het universum."
-        }
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Egyptian Gods",
+      "es": "Pregunta 3 sobre Egyptian Gods",
+      "de": "Frage 3 über Egyptian Gods",
+      "nl": "Vraag 3 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
       },
       {
-        question: {
-          en: "Which god was the personification of the Nile's inundation from the south and was depicted with papyrus plants?",
-          es: "¿Qué dios era la personificación de la inundación del Nilo desde el sur y fue representado con plantas de papiro?",
-          de: "Welcher Gott war die Personifikation der Nilflut aus dem Süden und wurde mit Papyruspflanzen dargestellt?",
-          nl: "Welke god was de personificatie van de Nijloverstroming vanuit het zuiden en werd afgebeeld met papyrusplanten?"
-        },
-        options: [
-          { en: "Hapy of Upper Egypt", es: "Hapy del Alto Egipto", de: "Hapy von Oberägypten", nl: "Hapy van Boven-Egypte" },
-          { en: "Hapy of Lower Egypt", es: "Hapy del Bajo Egipto", de: "Hapy von Unterägypten", nl: "Hapy van Beneden-Egypte" },
-          { en: "Khnum", es: "Khnum", de: "Chnum", nl: "Khnum" },
-          { en: "Sobek", es: "Sobek", de: "Sobek", nl: "Sobek" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Hapy was sometimes depicted in dual form representing both Upper and Lower Egypt. The southern (Upper Egypt) aspect was shown with lotus plants, while the northern (Lower Egypt) aspect was shown with papyrus, representing the Delta region.",
-          es: "Hapy a veces fue representado en forma dual representando tanto el Alto como el Bajo Egipto. El aspecto sur (Alto Egipto) se mostraba con plantas de loto, mientras que el aspecto norte (Bajo Egipto) se mostraba con papiro, representando la región del Delta.",
-          de: "Hapy wurde manchmal in dualer Form dargestellt, die sowohl Ober- als auch Unterägypten repräsentierte. Der südliche (Oberägypten) Aspekt wurde mit Lotuspflanzen gezeigt, während der nördliche (Unterägypten) Aspekt mit Papyrus gezeigt wurde, der die Deltaregion repräsentierte.",
-          nl: "Hapy werd soms afgebeeld in dubbele vorm die zowel Boven- als Beneden-Egypte vertegenwoordigde. Het zuidelijke (Boven-Egypte) aspect werd getoond met lotusplanten, terwijl het noordelijke (Beneden-Egypte) aspect werd getoond met papyrus, wat de Deltaregio vertegenwoordigde."
-        }
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
       },
       {
-        question: {
-          en: "Which deity was the son of Bastet and was depicted as a lion wielding knives?",
-          es: "¿Qué deidad era el hijo de Bastet y fue representado como un león blandiendo cuchillos?",
-          de: "Welche Gottheit war der Sohn von Bastet und wurde als Löwe dargestellt, der Messer schwingt?",
-          nl: "Welke godheid was de zoon van Bastet en werd afgebeeld als een leeuw die messen hanteert?"
-        },
-        options: [
-          { en: "Nefertem", es: "Nefertum", de: "Nefertum", nl: "Nefertum" },
-          { en: "Maahes", es: "Maahes", de: "Maahes", nl: "Maahes" },
-          { en: "Montu", es: "Montu", de: "Montu", nl: "Montu" },
-          { en: "Anhur", es: "Anhur", de: "Anhur", nl: "Anhur" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Maahes (also Mihos or Mahes) was a lion god and son of Bastet (or sometimes Sekhmet). He was a fierce deity associated with war, protection, and weather, often depicted as a lion wielding knives or a sword.",
-          es: "Maahes (también Mihos o Mahes) era un dios león e hijo de Bastet (o a veces Sekhmet). Era una deidad feroz asociada con la guerra, la protección y el clima, a menudo representado como un león blandiendo cuchillos o una espada.",
-          de: "Maahes (auch Mihos oder Mahes) war ein Löwengott und Sohn von Bastet (oder manchmal Sekhmet). Er war eine wilde Gottheit, die mit Krieg, Schutz und Wetter verbunden war, oft als Löwe dargestellt, der Messer oder ein Schwert schwingt.",
-          nl: "Maahes (ook Mihos of Mahes) was een leeuwengod en zoon van Bastet (of soms Sekhmet). Hij was een woeste godheid geassocieerd met oorlog, bescherming en weer, vaak afgebeeld als een leeuw die messen of een zwaard hanteert."
-        }
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
       },
       {
-        question: {
-          en: "Which goddess was the personification of the rising sun and was depicted as a winged scarab beetle?",
-          es: "¿Qué diosa era la personificación del sol naciente y fue representada como un escarabajo alado?",
-          de: "Welche Göttin war die Personifikation der aufgehenden Sonne und wurde als geflügelter Skarabäus dargestellt?",
-          nl: "Welke godin was de personificatie van de opkomende zon en werd afgebeeld als een gevleugelde scarabee?"
-        },
-        options: [
-          { en: "Khepri", es: "Khepri", de: "Chepri", nl: "Khepri" },
-          { en: "Nekhbet", es: "Nekhbet", de: "Nechbet", nl: "Nekhbet" },
-          { en: "Serket", es: "Serket", de: "Serket", nl: "Serket" },
-          { en: "Khepera-Ankh", es: "Khepera-Ankh", de: "Khepera-Ankh", nl: "Khepera-Ankh" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "While Khepri (male) represented the rising sun as a scarab, Serket was sometimes depicted with scarab attributes when associated with rebirth and transformation. However, she's primarily known as the scorpion goddess of protection and healing.",
-          es: "Mientras que Khepri (masculino) representaba el sol naciente como un escarabajo, Serket a veces fue representada con atributos de escarabajo cuando se asociaba con el renacimiento y la transformación. Sin embargo, es principalmente conocida como la diosa escorpión de la protección y la curación.",
-          de: "Während Khepri (männlich) die aufgehende Sonne als Skarabäus darstellte, wurde Serket manchmal mit Skarabäus-Attributen dargestellt, wenn sie mit Wiedergeburt und Transformation verbunden war. Sie ist jedoch hauptsächlich als Skorpiongöttin des Schutzes und der Heilung bekannt.",
-          nl: "Terwijl Khepri (mannelijk) de opkomende zon als een scarabee vertegenwoordigde, werd Serket soms afgebeeld met scarabee-attributen wanneer ze werd geassocieerd met wedergeboorte en transformatie. Ze is echter vooral bekend als de schorpioengodin van bescherming en genezing."
-        }
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Egyptian Gods",
+      "es": "Pregunta 4 sobre Egyptian Gods",
+      "de": "Frage 4 über Egyptian Gods",
+      "nl": "Vraag 4 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
       },
       {
-        question: {
-          en: "Which god was associated with the beneficial aspects of the desert, mining, and foreign lands?",
-          es: "¿Qué dios estaba asociado con los aspectos beneficiosos del desierto, la minería y las tierras extranjeras?",
-          de: "Welcher Gott war mit den vorteilhaften Aspekten der Wüste, des Bergbaus und fremder Länder verbunden?",
-          nl: "Welke god was geassocieerd met de gunstige aspecten van de woestijn, mijnbouw en vreemde landen?"
-        },
-        options: [
-          { en: "Set", es: "Set", de: "Seth", nl: "Set" },
-          { en: "Ha", es: "Ha", de: "Ha", nl: "Ha" },
-          { en: "Ash", es: "Ash", de: "Asch", nl: "Ash" },
-          { en: "Sopdu", es: "Sopdu", de: "Sopdu", nl: "Sopdu" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Ash was a god of the Libyan Desert, oases, and foreign lands. Unlike Set's chaotic desert aspect, Ash represented the desert's beneficial qualities including valuable minerals, trade routes, and the richness of oases.",
-          es: "Ash era un dios del Desierto Libio, los oasis y las tierras extranjeras. A diferencia del aspecto caótico del desierto de Set, Ash representaba las cualidades beneficiosas del desierto, incluidos los minerales valiosos, las rutas comerciales y la riqueza de los oasis.",
-          de: "Asch war ein Gott der Libyschen Wüste, der Oasen und fremder Länder. Im Gegensatz zu Sets chaotischem Wüstenaspekt repräsentierte Asch die vorteilhaften Eigenschaften der Wüste, einschließlich wertvoller Mineralien, Handelsrouten und des Reichtums der Oasen.",
-          nl: "Ash was een god van de Libische Woestijn, oases en vreemde landen. In tegenstelling tot Set's chaotische woestijnaspect, vertegenwoordigde Ash de gunstige eigenschappen van de woestijn, inclusief waardevolle mineralen, handelsroutes en de rijkdom van oases."
-        }
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
       },
       {
-        question: {
-          en: "Which goddess was depicted with a star or seven-pointed emblem on her head and was associated with architecture?",
-          es: "¿Qué diosa fue representada con una estrella o emblema de siete puntas en su cabeza y estaba asociada con la arquitectura?",
-          de: "Welche Göttin wurde mit einem Stern oder siebenzackigen Emblem auf ihrem Kopf dargestellt und war mit Architektur verbunden?",
-          nl: "Welke godin werd afgebeeld met een ster of zevenpuntig embleem op haar hoofd en was geassocieerd met architectuur?"
-        },
-        options: [
-          { en: "Seshat", es: "Seshat", de: "Seshat", nl: "Seshat" },
-          { en: "Sopdet", es: "Sopdet", de: "Sopdet", nl: "Sopdet" },
-          { en: "Nut", es: "Nut", de: "Nut", nl: "Nut" },
-          { en: "Maat", es: "Maat", de: "Maat", nl: "Maat" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Seshat was the goddess of writing, wisdom, and architecture, depicted with a seven-pointed star or rosette above her head. She was responsible for recording temple foundations, measuring building sites, and keeping divine records.",
-          es: "Seshat era la diosa de la escritura, la sabiduría y la arquitectura, representada con una estrella de siete puntas o roseta sobre su cabeza. Era responsable de registrar los cimientos de los templos, medir los sitios de construcción y mantener registros divinos.",
-          de: "Seshat war die Göttin des Schreibens, der Weisheit und der Architektur, dargestellt mit einem siebenzackigen Stern oder einer Rosette über ihrem Kopf. Sie war verantwortlich für die Aufzeichnung von Tempelfundamenten, das Vermessen von Baustellen und das Führen göttlicher Aufzeichnungen.",
-          nl: "Seshat was de godin van schrift, wijsheid en architectuur, afgebeeld met een zevenpuntige ster of rozet boven haar hoofd. Ze was verantwoordelijk voor het vastleggen van tempelfunderingen, het opmeten van bouwplaatsen en het bijhouden van goddelijke archieven."
-        }
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
       },
       {
-        question: {
-          en: "What was the name of the god who represented the concept of eternal time and infinity?",
-          es: "¿Cuál era el nombre del dios que representaba el concepto de tiempo eterno e infinitud?",
-          de: "Wie hieß der Gott, der das Konzept der ewigen Zeit und Unendlichkeit repräsentierte?",
-          nl: "Wat was de naam van de god die het concept van eeuwige tijd en oneindigheid vertegenwoordigde?"
-        },
-        options: [
-          { en: "Neheh", es: "Neheh", de: "Neheh", nl: "Neheh" },
-          { en: "Heh", es: "Heh", de: "Heh", nl: "Heh" },
-          { en: "Djet", es: "Djet", de: "Djet", nl: "Djet" },
-          { en: "Atum", es: "Atum", de: "Atum", nl: "Atum" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Heh (also Huh) was the personification of infinity and eternity, one of the eight primordial deities of the Ogdoad. He was depicted as a man kneeling with arms raised, often holding palm ribs symbolizing years and eternity.",
-          es: "Heh (también Huh) era la personificación de la infinitud y la eternidad, una de las ocho deidades primordiales de la Ogdóada. Fue representado como un hombre arrodillado con brazos levantados, a menudo sosteniendo costillas de palma que simbolizan años y eternidad.",
-          de: "Heh (auch Huh) war die Personifikation der Unendlichkeit und Ewigkeit, eine der acht ursprünglichen Gottheiten der Ogdoad. Er wurde als kniender Mann mit erhobenen Armen dargestellt, oft Palmrippen haltend, die Jahre und Ewigkeit symbolisierten.",
-          nl: "Heh (ook Huh) was de personificatie van oneindigheid en eeuwigheid, een van de acht oergoden van de Ogdoad. Hij werd afgebeeld als een knielende man met opgeheven armen, vaak palmribben vasthoudend die jaren en eeuwigheid symboliseerden."
-        }
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Egyptian Gods",
+      "es": "Pregunta 5 sobre Egyptian Gods",
+      "de": "Frage 5 über Egyptian Gods",
+      "nl": "Vraag 5 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
       },
       {
-        question: {
-          en: "Which goddess was the divine mother of the pharaoh and was depicted as a vulture?",
-          es: "¿Qué diosa era la madre divina del faraón y fue representada como un buitre?",
-          de: "Welche Göttin war die göttliche Mutter des Pharaos und wurde als Geier dargestellt?",
-          nl: "Welke godin was de goddelijke moeder van de farao en werd afgebeeld als een gier?"
-        },
-        options: [
-          { en: "Mut", es: "Mut", de: "Mut", nl: "Mut" },
-          { en: "Nekhbet", es: "Nekhbet", de: "Nechbet", nl: "Nekhbet" },
-          { en: "Isis", es: "Isis", de: "Isis", nl: "Isis" },
-          { en: "Wadjet", es: "Wadjet", de: "Wadjet", nl: "Wadjet" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Nekhbet was the vulture goddess and patron deity of Upper Egypt. She was considered the divine mother and protector of the pharaoh, appearing on the royal crown alongside Wadjet as one of the 'Two Ladies.'",
-          es: "Nekhbet era la diosa buitre y deidad patrona del Alto Egipto. Era considerada la madre divina y protectora del faraón, apareciendo en la corona real junto a Wadjet como una de las 'Dos Damas'.",
-          de: "Nechbet war die Geiergöttin und Schutzgottheit von Oberägypten. Sie galt als göttliche Mutter und Beschützerin des Pharaos und erschien auf der königlichen Krone neben Wadjet als eine der 'Zwei Damen'.",
-          nl: "Nekhbet was de giergodin en beschermgodin van Boven-Egypte. Ze werd beschouwd als de goddelijke moeder en beschermster van de farao, verschijnend op de koninklijke kroon naast Wadjet als een van de 'Twee Dames'."
-        }
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
       },
       {
-        question: {
-          en: "Which deity was the god of perfume, healing, and the lotus flower?",
-          es: "¿Qué deidad era el dios del perfume, la curación y la flor de loto?",
-          de: "Welche Gottheit war der Gott des Parfüms, der Heilung und der Lotusblume?",
-          nl: "Welke godheid was de god van parfum, genezing en de lotusbloem?"
-        },
-        options: [
-          { en: "Nefertem", es: "Nefertum", de: "Nefertum", nl: "Nefertum" },
-          { en: "Imhotep", es: "Imhotep", de: "Imhotep", nl: "Imhotep" },
-          { en: "Heka", es: "Heka", de: "Heka", nl: "Heka" },
-          { en: "Khonsu", es: "Khonsu", de: "Chons", nl: "Chonsoe" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Nefertem was the god of perfume, aromatics, and the lotus flower. He was depicted as a young man with a lotus flower on his head and was believed to have emerged from the primordial lotus at creation. He had healing properties associated with pleasant scents.",
-          es: "Nefertum era el dios del perfume, los aromáticos y la flor de loto. Fue representado como un joven con una flor de loto en su cabeza y se creía que había emergido del loto primordial en la creación. Tenía propiedades curativas asociadas con aromas agradables.",
-          de: "Nefertum war der Gott des Parfüms, der Aromastoffe und der Lotusblume. Er wurde als junger Mann mit einer Lotusblume auf seinem Kopf dargestellt und man glaubte, er sei bei der Schöpfung aus dem ursprünglichen Lotus hervorgegangen. Er hatte heilende Eigenschaften, die mit angenehmen Düften verbunden waren.",
-          nl: "Nefertum was de god van parfum, aromaten en de lotusbloem. Hij werd afgebeeld als een jonge man met een lotusbloem op zijn hoofd en men geloofde dat hij bij de schepping uit de oerlotus was voortgekomen. Hij had genezende eigenschappen geassocieerd met aangename geuren."
-        }
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
       },
       {
-        question: {
-          en: "Which god was the divine personification of the moon and was depicted as a youth with a sidelock of hair?",
-          es: "¿Qué dios era la personificación divina de la luna y fue representado como un joven con un mechón de cabello lateral?",
-          de: "Welcher Gott war die göttliche Personifikation des Mondes und wurde als Jugendlicher mit einer Seitenlocke dargestellt?",
-          nl: "Welke god was de goddelijke personificatie van de maan en werd afgebeeld als een jongeling met een zijlok haar?"
-        },
-        options: [
-          { en: "Thoth", es: "Thot", de: "Thot", nl: "Thoth" },
-          { en: "Khonsu", es: "Khonsu", de: "Chons", nl: "Chonsoe" },
-          { en: "Iah", es: "Iah", de: "Iah", nl: "Iah" },
-          { en: "Osiris", es: "Osiris", de: "Osiris", nl: "Osiris" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Khonsu was the moon god and son of Amun and Mut in the Theban triad. He was depicted as a youth with the sidelock of childhood and a lunar disk on his head. He was associated with time, healing, and protecting travelers at night.",
-          es: "Khonsu era el dios de la luna e hijo de Amón y Mut en la tríada tebana. Fue representado como un joven con el mechón lateral de la infancia y un disco lunar en su cabeza. Estaba asociado con el tiempo, la curación y la protección de los viajeros por la noche.",
-          de: "Chons war der Mondgott und Sohn von Amun und Mut in der thebanischen Triade. Er wurde als Jugendlicher mit der Seitenlocke der Kindheit und einer Mondscheibe auf seinem Kopf dargestellt. Er war mit Zeit, Heilung und dem Schutz von Reisenden in der Nacht verbunden.",
-          nl: "Chonsoe was de maangod en zoon van Amon en Mut in de Thebaanse triade. Hij werd afgebeeld als een jongeling met de zijlok van de kindertijd en een maanschijf op zijn hoofd. Hij was geassocieerd met tijd, genezing en het beschermen van reizigers 's nachts."
-        }
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Egyptian Gods",
+      "es": "Pregunta 6 sobre Egyptian Gods",
+      "de": "Frage 6 über Egyptian Gods",
+      "nl": "Vraag 6 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
       },
       {
-        question: {
-          en: "Which goddess was the consort of Thoth and patroness of scribes and knowledge?",
-          es: "¿Qué diosa era la consorte de Thot y patrona de los escribas y el conocimiento?",
-          de: "Welche Göttin war die Gemahlin von Thot und Schutzpatronin der Schreiber und des Wissens?",
-          nl: "Welke godin was de partner van Thoth en beschermvrouwe van schrijvers en kennis?"
-        },
-        options: [
-          { en: "Maat", es: "Maat", de: "Maat", nl: "Maat" },
-          { en: "Seshat", es: "Seshat", de: "Seshat", nl: "Seshat" },
-          { en: "Nehmetawy", es: "Nehmetawy", de: "Nehmetawy", nl: "Nehmetawy" },
-          { en: "Isis", es: "Isis", de: "Isis", nl: "Isis" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Seshat was the female counterpart and consort of Thoth, goddess of writing, measurement, and record-keeping. She was the patron of scribes, libraries, and architects, often depicted recording the names and deeds of pharaohs.",
-          es: "Seshat era la contraparte femenina y consorte de Thot, diosa de la escritura, la medición y el mantenimiento de registros. Era la patrona de los escribas, las bibliotecas y los arquitectos, a menudo representada registrando los nombres y hechos de los faraones.",
-          de: "Seshat war das weibliche Gegenstück und die Gemahlin von Thot, Göttin des Schreibens, der Messung und der Aufzeichnung. Sie war die Schutzpatronin der Schreiber, Bibliotheken und Architekten, oft dargestellt beim Aufzeichnen der Namen und Taten der Pharaonen.",
-          nl: "Seshat was de vrouwelijke tegenhanger en partner van Thoth, godin van schrift, meting en administratie. Ze was de beschermvrouwe van schrijvers, bibliotheken en architecten, vaak afgebeeld terwijl ze de namen en daden van farao's vastlegde."
-        }
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
       },
       {
-        question: {
-          en: "Which god was associated with the eastern desert, turquoise mines, and foreign tribute?",
-          es: "¿Qué dios estaba asociado con el desierto oriental, las minas de turquesa y el tributo extranjero?",
-          de: "Welcher Gott war mit der östlichen Wüste, Türkisminen und ausländischem Tribut verbunden?",
-          nl: "Welke god was geassocieerd met de oostelijke woestijn, turkoois mijnen en buitenlands eerbetoon?"
-        },
-        options: [
-          { en: "Sopdu", es: "Sopdu", de: "Sopdu", nl: "Sopdu" },
-          { en: "Ash", es: "Ash", de: "Asch", nl: "Ash" },
-          { en: "Ha", es: "Ha", de: "Ha", nl: "Ha" },
-          { en: "Dedun", es: "Dedun", de: "Dedun", nl: "Dedun" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Sopdu was a god of the eastern border of Egypt, associated with Sinai, turquoise mining, and protection of trade routes. He was depicted as a falcon or as a warrior with two feathers, guarding Egypt's eastern frontier.",
-          es: "Sopdu era un dios de la frontera oriental de Egipto, asociado con el Sinaí, la minería de turquesa y la protección de las rutas comerciales. Fue representado como un halcón o como un guerrero con dos plumas, guardando la frontera oriental de Egipto.",
-          de: "Sopdu war ein Gott der östlichen Grenze Ägyptens, verbunden mit dem Sinai, Türkisabbau und dem Schutz von Handelsrouten. Er wurde als Falke oder als Krieger mit zwei Federn dargestellt und bewachte Ägyptens Ostgrenze.",
-          nl: "Sopdu was een god van de oostelijke grens van Egypte, geassocieerd met de Sinaï, turkoois mijnbouw en bescherming van handelsroutes. Hij werd afgebeeld als een valk of als een krijger met twee veren, die de oostelijke grens van Egypte bewaakte."
-        }
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
       },
       {
-        question: {
-          en: "Which goddess was the personification of the beer that saved humanity from Sekhmet's rage?",
-          es: "¿Qué diosa era la personificación de la cerveza que salvó a la humanidad de la ira de Sekhmet?",
-          de: "Welche Göttin war die Personifikation des Bieres, das die Menschheit vor Sekhmets Wut rettete?",
-          nl: "Welke godin was de personificatie van het bier dat de mensheid redde van Sekhmets woede?"
-        },
-        options: [
-          { en: "Hathor", es: "Hathor", de: "Hathor", nl: "Hathor" },
-          { en: "Tenenet", es: "Tenenet", de: "Tenenet", nl: "Tenenet" },
-          { en: "Bastet", es: "Bastet", de: "Bastet", nl: "Bastet" },
-          { en: "Meskhenet", es: "Meskhenet", de: "Meskhenet", nl: "Meskhenet" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Tenenet was a goddess associated with beer and childbirth. In the myth where Sekhmet nearly destroyed humanity, red-dyed beer was used to trick her. Tenenet personified this life-saving beer that transformed Sekhmet's rage into Hathor's benevolence.",
-          es: "Tenenet era una diosa asociada con la cerveza y el parto. En el mito donde Sekhmet casi destruyó la humanidad, se usó cerveza teñida de rojo para engañarla. Tenenet personificaba esta cerveza salvadora que transformó la ira de Sekhmet en la benevolencia de Hathor.",
-          de: "Tenenet war eine Göttin, die mit Bier und Geburt verbunden war. In dem Mythos, wo Sekhmet die Menschheit fast zerstörte, wurde rot gefärbtes Bier verwendet, um sie zu täuschen. Tenenet personifizierte dieses lebensrettende Bier, das Sekhmets Wut in Hathors Wohlwollen verwandelte.",
-          nl: "Tenenet was een godin geassocieerd met bier en bevalling. In de mythe waarin Sekhmet de mensheid bijna vernietigde, werd rood gekleurd bier gebruikt om haar te misleiden. Tenenet personifieerde dit levensreddende bier dat Sekhmets woede transformeerde in Hathors welwillendheid."
-        }
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Egyptian Gods",
+      "es": "Pregunta 7 sobre Egyptian Gods",
+      "de": "Frage 7 über Egyptian Gods",
+      "nl": "Vraag 7 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
       },
       {
-        question: {
-          en: "Which god was depicted as a dwarf with bow legs and was a protector of households and childbirth?",
-          es: "¿Qué dios fue representado como un enano con piernas arqueadas y era protector de los hogares y el parto?",
-          de: "Welcher Gott wurde als Zwerg mit krummen Beinen dargestellt und war ein Beschützer von Haushalten und Geburten?",
-          nl: "Welke god werd afgebeeld als een dwerg met kromme benen en was een beschermer van huishoudens en bevallingen?"
-        },
-        options: [
-          { en: "Bes", es: "Bes", de: "Bes", nl: "Bes" },
-          { en: "Ptah", es: "Ptah", de: "Ptah", nl: "Ptah" },
-          { en: "Pataikos", es: "Pataikos", de: "Pataikos", nl: "Pataikos" },
-          { en: "Aha", es: "Aha", de: "Aha", nl: "Aha" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Bes was a dwarf deity depicted with bow legs, a lion's mane, and a protruding tongue. He protected households, mothers, and children during childbirth, warding off evil spirits. He was also associated with music, dance, and joy.",
-          es: "Bes era una deidad enana representada con piernas arqueadas, melena de león y lengua saliente. Protegía los hogares, las madres y los niños durante el parto, alejando los espíritus malignos. También estaba asociado con la música, la danza y la alegría.",
-          de: "Bes war eine Zwerggottheit, dargestellt mit krummen Beinen, einer Löwenmähne und herausgestreckter Zunge. Er schützte Haushalte, Mütter und Kinder während der Geburt und wehrte böse Geister ab. Er war auch mit Musik, Tanz und Freude verbunden.",
-          nl: "Bes was een dwerggodheidafgebeeld met kromme benen, een leeuwenmaan en een uitstekende tong. Hij beschermde huishoudens, moeders en kinderen tijdens de bevalling en weerde boze geesten af. Hij was ook geassocieerd met muziek, dans en vreugde."
-        }    },
-    {
-      question: {
-        en: "Who was the sun god in Egyptian mythology?",
-        es: "Who was the sun god in Egyptian mythology?",
-        de: "Who was the sun god in Egyptian mythology?",
-        nl: "Who was the sun god in Egyptian mythology?"
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
       },
-      options: [
-        { en: "Ra (or Re)", es: "Ra (or Re)", de: "Ra (or Re)", nl: "Ra (or Re)" },
-        { en: "Osiris", es: "Osiris", de: "Osiris", nl: "Osiris" },
-        { en: "Anubis", es: "Anubis", de: "Anubis", nl: "Anubis" },
-        { en: "Horus", es: "Horus", de: "Horus", nl: "Horus" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Ra (Re) was the sun god and one of the most important deities in Egyptian religion.",
-        es: "Ra (Re) was the sun god and one of the most important deities in Egyptian religion.",
-        de: "Ra (Re) was the sun god and one of the most important deities in Egyptian religion.",
-        nl: "Ra (Re) was the sun god and one of the most important deities in Egyptian religion."
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Egyptian Gods",
+      "es": "Pregunta 8 sobre Egyptian Gods",
+      "de": "Frage 8 über Egyptian Gods",
+      "nl": "Vraag 8 over Egyptian Gods"
     },
-    {
-      question: {
-        en: "What animal represents Anubis?",
-        es: "What animal represents Anubis?",
-        de: "What animal represents Anubis?",
-        nl: "What animal represents Anubis?"
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
       },
-      options: [
-        { en: "Jackal", es: "Jackal", de: "Jackal", nl: "Jackal" },
-        { en: "Cat", es: "Cat", de: "Cat", nl: "Cat" },
-        { en: "Falcon", es: "Falcon", de: "Falcon", nl: "Falcon" },
-        { en: "Crocodile", es: "Crocodile", de: "Crocodile", nl: "Crocodile" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Anubis, god of mummification and the afterlife, is depicted with a jackal head.",
-        es: "Anubis, god of mummification and the afterlife, is depicted with a jackal head.",
-        de: "Anubis, god of mummification and the afterlife, is depicted with a jackal head.",
-        nl: "Anubis, god of mummification and the afterlife, is depicted with a jackal head."
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Egyptian Gods",
+      "es": "Pregunta 9 sobre Egyptian Gods",
+      "de": "Frage 9 über Egyptian Gods",
+      "nl": "Vraag 9 over Egyptian Gods"
     },
-    {
-      question: {
-        en: "Who was the god of the afterlife and resurrection?",
-        es: "Who was the god of the afterlife and resurrection?",
-        de: "Who was the god of the afterlife and resurrection?",
-        nl: "Who was the god of the afterlife and resurrection?"
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
       },
-      options: [
-        { en: "Osiris", es: "Osiris", de: "Osiris", nl: "Osiris" },
-        { en: "Ra", es: "Ra", de: "Ra", nl: "Ra" },
-        { en: "Set", es: "Set", de: "Set", nl: "Set" },
-        { en: "Thoth", es: "Thoth", de: "Thoth", nl: "Thoth" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Osiris was god of the afterlife, death, life, and resurrection.",
-        es: "Osiris was god of the afterlife, death, life, and resurrection.",
-        de: "Osiris was god of the afterlife, death, life, and resurrection.",
-        nl: "Osiris was god of the afterlife, death, life, and resurrection."
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Egyptian Gods",
+      "es": "Pregunta 10 sobre Egyptian Gods",
+      "de": "Frage 10 über Egyptian Gods",
+      "nl": "Vraag 10 over Egyptian Gods"
     },
-    {
-      question: {
-        en: "What goddess had a cat form?",
-        es: "What goddess had a cat form?",
-        de: "What goddess had a cat form?",
-        nl: "What goddess had a cat form?"
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
       },
-      options: [
-        { en: "Bastet", es: "Bastet", de: "Bastet", nl: "Bastet" },
-        { en: "Isis", es: "Isis", de: "Isis", nl: "Isis" },
-        { en: "Hathor", es: "Hathor", de: "Hathor", nl: "Hathor" },
-        { en: "Sekhmet", es: "Sekhmet", de: "Sekhmet", nl: "Sekhmet" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Bastet was the cat goddess associated with protection, fertility, and motherhood.",
-        es: "Bastet was the cat goddess associated with protection, fertility, and motherhood.",
-        de: "Bastet was the cat goddess associated with protection, fertility, and motherhood.",
-        nl: "Bastet was the cat goddess associated with protection, fertility, and motherhood."
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Egyptian Gods",
+      "es": "Pregunta 11 sobre Egyptian Gods",
+      "de": "Frage 11 über Egyptian Gods",
+      "nl": "Vraag 11 over Egyptian Gods"
     },
-    {
-      question: {
-        en: "Who was the falcon-headed sky god?",
-        es: "Who was the falcon-headed sky god?",
-        de: "Who was the falcon-headed sky god?",
-        nl: "Who was the falcon-headed sky god?"
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
       },
-      options: [
-        { en: "Horus", es: "Horus", de: "Horus", nl: "Horus" },
-        { en: "Ra", es: "Ra", de: "Ra", nl: "Ra" },
-        { en: "Thoth", es: "Thoth", de: "Thoth", nl: "Thoth" },
-        { en: "Anubis", es: "Anubis", de: "Anubis", nl: "Anubis" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Horus was the falcon-headed god of kingship and the sky.",
-        es: "Horus was the falcon-headed god of kingship and the sky.",
-        de: "Horus was the falcon-headed god of kingship and the sky.",
-        nl: "Horus was the falcon-headed god of kingship and the sky."
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Egyptian Gods",
+      "es": "Pregunta 12 sobre Egyptian Gods",
+      "de": "Frage 12 über Egyptian Gods",
+      "nl": "Vraag 12 over Egyptian Gods"
     },
-    {
-      question: {
-        en: "What god had an ibis head?",
-        es: "What god had an ibis head?",
-        de: "What god had an ibis head?",
-        nl: "What god had an ibis head?"
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
       },
-      options: [
-        { en: "Thoth", es: "Thoth", de: "Thoth", nl: "Thoth" },
-        { en: "Horus", es: "Horus", de: "Horus", nl: "Horus" },
-        { en: "Anubis", es: "Anubis", de: "Anubis", nl: "Anubis" },
-        { en: "Set", es: "Set", de: "Set", nl: "Set" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Thoth, god of wisdom and writing, was depicted with an ibis head.",
-        es: "Thoth, god of wisdom and writing, was depicted with an ibis head.",
-        de: "Thoth, god of wisdom and writing, was depicted with an ibis head.",
-        nl: "Thoth, god of wisdom and writing, was depicted with an ibis head."
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Egyptian Gods",
+      "es": "Pregunta 13 sobre Egyptian Gods",
+      "de": "Frage 13 über Egyptian Gods",
+      "nl": "Vraag 13 over Egyptian Gods"
     },
-    {
-      question: {
-        en: "Who was Osiris's treacherous brother?",
-        es: "Who was Osiris's treacherous brother?",
-        de: "Who was Osiris's treacherous brother?",
-        nl: "Who was Osiris's treacherous brother?"
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
       },
-      options: [
-        { en: "Set", es: "Set", de: "Set", nl: "Set" },
-        { en: "Horus", es: "Horus", de: "Horus", nl: "Horus" },
-        { en: "Anubis", es: "Anubis", de: "Anubis", nl: "Anubis" },
-        { en: "Thoth", es: "Thoth", de: "Thoth", nl: "Thoth" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Set was god of chaos and the desert, who murdered his brother Osiris.",
-        es: "Set was god of chaos and the desert, who murdered his brother Osiris.",
-        de: "Set was god of chaos and the desert, who murdered his brother Osiris.",
-        nl: "Set was god of chaos and the desert, who murdered his brother Osiris."
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Egyptian Gods",
+      "es": "Pregunta 14 sobre Egyptian Gods",
+      "de": "Frage 14 über Egyptian Gods",
+      "nl": "Vraag 14 over Egyptian Gods"
     },
-    {
-      question: {
-        en: "What goddess was the mother of Horus?",
-        es: "What goddess was the mother of Horus?",
-        de: "What goddess was the mother of Horus?",
-        nl: "What goddess was the mother of Horus?"
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
       },
-      options: [
-        { en: "Isis", es: "Isis", de: "Isis", nl: "Isis" },
-        { en: "Hathor", es: "Hathor", de: "Hathor", nl: "Hathor" },
-        { en: "Bastet", es: "Bastet", de: "Bastet", nl: "Bastet" },
-        { en: "Nut", es: "Nut", de: "Nut", nl: "Nut" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Isis was the goddess of magic and motherhood, wife of Osiris and mother of Horus.",
-        es: "Isis was the goddess of magic and motherhood, wife of Osiris and mother of Horus.",
-        de: "Isis was the goddess of magic and motherhood, wife of Osiris and mother of Horus.",
-        nl: "Isis was the goddess of magic and motherhood, wife of Osiris and mother of Horus."
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Egyptian Gods",
+      "es": "Pregunta 15 sobre Egyptian Gods",
+      "de": "Frage 15 über Egyptian Gods",
+      "nl": "Vraag 15 over Egyptian Gods"
     },
-    {
-      question: {
-        en: "What god weighed hearts in the afterlife?",
-        es: "What god weighed hearts in the afterlife?",
-        de: "What god weighed hearts in the afterlife?",
-        nl: "What god weighed hearts in the afterlife?"
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
       },
-      options: [
-        { en: "Anubis", es: "Anubis", de: "Anubis", nl: "Anubis" },
-        { en: "Osiris", es: "Osiris", de: "Osiris", nl: "Osiris" },
-        { en: "Thoth", es: "Thoth", de: "Thoth", nl: "Thoth" },
-        { en: "Ma'at", es: "Ma'at", de: "Ma'at", nl: "Ma'at" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Anubis supervised the weighing of the heart ceremony in the afterlife judgment.",
-        es: "Anubis supervised the weighing of the heart ceremony in the afterlife judgment.",
-        de: "Anubis supervised the weighing of the heart ceremony in the afterlife judgment.",
-        nl: "Anubis supervised the weighing of the heart ceremony in the afterlife judgment."
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Egyptian Gods",
+      "es": "Pregunta 16 sobre Egyptian Gods",
+      "de": "Frage 16 über Egyptian Gods",
+      "nl": "Vraag 16 over Egyptian Gods"
     },
-    {
-      question: {
-        en: "What goddess personified truth and justice?",
-        es: "What goddess personified truth and justice?",
-        de: "What goddess personified truth and justice?",
-        nl: "What goddess personified truth and justice?"
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
       },
-      options: [
-        { en: "Ma'at", es: "Ma'at", de: "Ma'at", nl: "Ma'at" },
-        { en: "Isis", es: "Isis", de: "Isis", nl: "Isis" },
-        { en: "Hathor", es: "Hathor", de: "Hathor", nl: "Hathor" },
-        { en: "Nut", es: "Nut", de: "Nut", nl: "Nut" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Ma'at was the goddess of truth, justice, and cosmic order.",
-        es: "Ma'at was the goddess of truth, justice, and cosmic order.",
-        de: "Ma'at was the goddess of truth, justice, and cosmic order.",
-        nl: "Ma'at was the goddess of truth, justice, and cosmic order."
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Egyptian Gods",
+      "es": "Pregunta 17 sobre Egyptian Gods",
+      "de": "Frage 17 über Egyptian Gods",
+      "nl": "Vraag 17 over Egyptian Gods"
     },
-    {
-      question: {
-        en: "What god had a crocodile head?",
-        es: "What god had a crocodile head?",
-        de: "What god had a crocodile head?",
-        nl: "What god had a crocodile head?"
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
       },
-      options: [
-        { en: "Sobek", es: "Sobek", de: "Sobek", nl: "Sobek" },
-        { en: "Set", es: "Set", de: "Set", nl: "Set" },
-        { en: "Anubis", es: "Anubis", de: "Anubis", nl: "Anubis" },
-        { en: "Horus", es: "Horus", de: "Horus", nl: "Horus" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Sobek was the crocodile god associated with the Nile and fertility.",
-        es: "Sobek was the crocodile god associated with the Nile and fertility.",
-        de: "Sobek was the crocodile god associated with the Nile and fertility.",
-        nl: "Sobek was the crocodile god associated with the Nile and fertility."
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Egyptian Gods",
+      "es": "Pregunta 18 sobre Egyptian Gods",
+      "de": "Frage 18 über Egyptian Gods",
+      "nl": "Vraag 18 over Egyptian Gods"
     },
-    {
-      question: {
-        en: "Who was the goddess of the sky?",
-        es: "Who was the goddess of the sky?",
-        de: "Who was the goddess of the sky?",
-        nl: "Who was the goddess of the sky?"
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
       },
-      options: [
-        { en: "Nut", es: "Nut", de: "Nut", nl: "Nut" },
-        { en: "Geb", es: "Geb", de: "Geb", nl: "Geb" },
-        { en: "Isis", es: "Isis", de: "Isis", nl: "Isis" },
-        { en: "Hathor", es: "Hathor", de: "Hathor", nl: "Hathor" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Nut was the goddess of the sky, often depicted arched over the earth.",
-        es: "Nut was the goddess of the sky, often depicted arched over the earth.",
-        de: "Nut was the goddess of the sky, often depicted arched over the earth.",
-        nl: "Nut was the goddess of the sky, often depicted arched over the earth."
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Egyptian Gods",
+      "es": "Pregunta 19 sobre Egyptian Gods",
+      "de": "Frage 19 über Egyptian Gods",
+      "nl": "Vraag 19 over Egyptian Gods"
     },
-    {
-      question: {
-        en: "What god represented the earth?",
-        es: "What god represented the earth?",
-        de: "What god represented the earth?",
-        nl: "What god represented the earth?"
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
       },
-      options: [
-        { en: "Geb", es: "Geb", de: "Geb", nl: "Geb" },
-        { en: "Nut", es: "Nut", de: "Nut", nl: "Nut" },
-        { en: "Osiris", es: "Osiris", de: "Osiris", nl: "Osiris" },
-        { en: "Ra", es: "Ra", de: "Ra", nl: "Ra" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Geb was the god of the earth, often shown lying beneath sky goddess Nut.",
-        es: "Geb was the god of the earth, often shown lying beneath sky goddess Nut.",
-        de: "Geb was the god of the earth, often shown lying beneath sky goddess Nut.",
-        nl: "Geb was the god of the earth, often shown lying beneath sky goddess Nut."
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Egyptian Gods",
+      "es": "Pregunta 20 sobre Egyptian Gods",
+      "de": "Frage 20 über Egyptian Gods",
+      "nl": "Vraag 20 over Egyptian Gods"
     },
-    {
-      question: {
-        en: "What goddess had cow horns and sun disk?",
-        es: "What goddess had cow horns and sun disk?",
-        de: "What goddess had cow horns and sun disk?",
-        nl: "What goddess had cow horns and sun disk?"
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
       },
-      options: [
-        { en: "Hathor", es: "Hathor", de: "Hathor", nl: "Hathor" },
-        { en: "Isis", es: "Isis", de: "Isis", nl: "Isis" },
-        { en: "Bastet", es: "Bastet", de: "Bastet", nl: "Bastet" },
-        { en: "Sekhmet", es: "Sekhmet", de: "Sekhmet", nl: "Sekhmet" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Hathor, goddess of love and joy, was often shown with cow horns and a sun disk.",
-        es: "Hathor, goddess of love and joy, was often shown with cow horns and a sun disk.",
-        de: "Hathor, goddess of love and joy, was often shown with cow horns and a sun disk.",
-        nl: "Hathor, goddess of love and joy, was often shown with cow horns and a sun disk."
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Egyptian Gods",
+      "es": "Pregunta 21 sobre Egyptian Gods",
+      "de": "Frage 21 über Egyptian Gods",
+      "nl": "Vraag 21 over Egyptian Gods"
     },
-    {
-      question: {
-        en: "What god was depicted as a dwarf?",
-        es: "What god was depicted as a dwarf?",
-        de: "What god was depicted as a dwarf?",
-        nl: "What god was depicted as a dwarf?"
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
       },
-      options: [
-        { en: "Bes", es: "Bes", de: "Bes", nl: "Bes" },
-        { en: "Ptah", es: "Ptah", de: "Ptah", nl: "Ptah" },
-        { en: "Khnum", es: "Khnum", de: "Khnum", nl: "Khnum" },
-        { en: "Min", es: "Min", de: "Min", nl: "Min" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Bes was a dwarf god who protected households and childbirth.",
-        es: "Bes was a dwarf god who protected households and childbirth.",
-        de: "Bes was a dwarf god who protected households and childbirth.",
-        nl: "Bes was a dwarf god who protected households and childbirth."
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Egyptian Gods",
+      "es": "Pregunta 22 sobre Egyptian Gods",
+      "de": "Frage 22 über Egyptian Gods",
+      "nl": "Vraag 22 over Egyptian Gods"
     },
-    {
-      question: {
-        en: "What lion-headed goddess represented war?",
-        es: "What lion-headed goddess represented war?",
-        de: "What lion-headed goddess represented war?",
-        nl: "What lion-headed goddess represented war?"
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
       },
-      options: [
-        { en: "Sekhmet", es: "Sekhmet", de: "Sekhmet", nl: "Sekhmet" },
-        { en: "Bastet", es: "Bastet", de: "Bastet", nl: "Bastet" },
-        { en: "Hathor", es: "Hathor", de: "Hathor", nl: "Hathor" },
-        { en: "Isis", es: "Isis", de: "Isis", nl: "Isis" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Sekhmet was the lion-headed goddess of war and healing.",
-        es: "Sekhmet was the lion-headed goddess of war and healing.",
-        de: "Sekhmet was the lion-headed goddess of war and healing.",
-        nl: "Sekhmet was the lion-headed goddess of war and healing."
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Egyptian Gods",
+      "es": "Pregunta 23 sobre Egyptian Gods",
+      "de": "Frage 23 über Egyptian Gods",
+      "nl": "Vraag 23 over Egyptian Gods"
     },
-    {
-      question: {
-        en: "Who was the ram-headed creator god?",
-        es: "Who was the ram-headed creator god?",
-        de: "Who was the ram-headed creator god?",
-        nl: "Who was the ram-headed creator god?"
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
       },
-      options: [
-        { en: "Khnum", es: "Khnum", de: "Khnum", nl: "Khnum" },
-        { en: "Amun", es: "Amun", de: "Amun", nl: "Amun" },
-        { en: "Ptah", es: "Ptah", de: "Ptah", nl: "Ptah" },
-        { en: "Atum", es: "Atum", de: "Atum", nl: "Atum" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Khnum was the ram-headed god who created humans on his potter's wheel.",
-        es: "Khnum was the ram-headed god who created humans on his potter's wheel.",
-        de: "Khnum was the ram-headed god who created humans on his potter's wheel.",
-        nl: "Khnum was the ram-headed god who created humans on his potter's wheel."
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Egyptian Gods",
+      "es": "Pregunta 24 sobre Egyptian Gods",
+      "de": "Frage 24 über Egyptian Gods",
+      "nl": "Vraag 24 over Egyptian Gods"
     },
-    {
-      question: {
-        en: "What god was Aten?",
-        es: "What god was Aten?",
-        de: "What god was Aten?",
-        nl: "What god was Aten?"
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
       },
-      options: [
-        { en: "Sun disk deity of Akhenaten", es: "Sun disk deity of Akhenaten", de: "Sun disk deity of Akhenaten", nl: "Sun disk deity of Akhenaten" },
-        { en: "Moon god", es: "Moon god", de: "Moon god", nl: "Moon god" },
-        { en: "War god", es: "War god", de: "War god", nl: "War god" },
-        { en: "River god", es: "River god", de: "River god", nl: "River god" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Aten was the sun disk deity promoted by Akhenaten as the supreme god.",
-        es: "Aten was the sun disk deity promoted by Akhenaten as the supreme god.",
-        de: "Aten was the sun disk deity promoted by Akhenaten as the supreme god.",
-        nl: "Aten was the sun disk deity promoted by Akhenaten as the supreme god."
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Egyptian Gods",
+      "es": "Pregunta 25 sobre Egyptian Gods",
+      "de": "Frage 25 über Egyptian Gods",
+      "nl": "Vraag 25 over Egyptian Gods"
     },
-    {
-      question: {
-        en: "Who recorded the judgment of the dead?",
-        es: "Who recorded the judgment of the dead?",
-        de: "Who recorded the judgment of the dead?",
-        nl: "Who recorded the judgment of the dead?"
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
       },
-      options: [
-        { en: "Thoth", es: "Thoth", de: "Thoth", nl: "Thoth" },
-        { en: "Anubis", es: "Anubis", de: "Anubis", nl: "Anubis" },
-        { en: "Osiris", es: "Osiris", de: "Osiris", nl: "Osiris" },
-        { en: "Ma'at", es: "Ma'at", de: "Ma'at", nl: "Ma'at" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Thoth recorded the results of the heart-weighing ceremony.",
-        es: "Thoth recorded the results of the heart-weighing ceremony.",
-        de: "Thoth recorded the results of the heart-weighing ceremony.",
-        nl: "Thoth recorded the results of the heart-weighing ceremony."
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Egyptian Gods",
+      "es": "Pregunta 26 sobre Egyptian Gods",
+      "de": "Frage 26 über Egyptian Gods",
+      "nl": "Vraag 26 over Egyptian Gods"
     },
-    {
-      question: {
-        en: "What was Ammit?",
-        es: "What was Ammit?",
-        de: "What was Ammit?",
-        nl: "What was Ammit?"
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
       },
-      options: [
-        { en: "Devourer of unworthy souls", es: "Devourer of unworthy souls", de: "Devourer of unworthy souls", nl: "Devourer of unworthy souls" },
-        { en: "Guardian deity", es: "Guardian deity", de: "Guardian deity", nl: "Guardian deity" },
-        { en: "Creation goddess", es: "Creation goddess", de: "Creation goddess", nl: "Creation goddess" },
-        { en: "Fertility god", es: "Fertility god", de: "Fertility god", nl: "Fertility god" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Ammit was the creature that devoured the hearts of those who failed the judgment of the dead.",
-        es: "Ammit was the creature that devoured the hearts of those who failed the judgment of the dead.",
-        de: "Ammit was the creature that devoured the hearts of those who failed the judgment of the dead.",
-        nl: "Ammit was the creature that devoured the hearts of those who failed the judgment of the dead."
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
       }
-
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Egyptian Gods",
+      "es": "Pregunta 27 sobre Egyptian Gods",
+      "de": "Frage 27 über Egyptian Gods",
+      "nl": "Vraag 27 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level6;
-  } else if (typeof window !== 'undefined') {
-    window.level6 = level6;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Egyptian Gods",
+      "es": "Pregunta 28 sobre Egyptian Gods",
+      "de": "Frage 28 über Egyptian Gods",
+      "nl": "Vraag 28 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Egyptian Gods",
+      "es": "Pregunta 29 sobre Egyptian Gods",
+      "de": "Frage 29 über Egyptian Gods",
+      "nl": "Vraag 29 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Egyptian Gods",
+      "es": "Pregunta 30 sobre Egyptian Gods",
+      "de": "Frage 30 über Egyptian Gods",
+      "nl": "Vraag 30 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Egyptian Gods",
+      "es": "Pregunta 31 sobre Egyptian Gods",
+      "de": "Frage 31 über Egyptian Gods",
+      "nl": "Vraag 31 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Egyptian Gods",
+      "es": "Pregunta 32 sobre Egyptian Gods",
+      "de": "Frage 32 über Egyptian Gods",
+      "nl": "Vraag 32 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Egyptian Gods",
+      "es": "Pregunta 33 sobre Egyptian Gods",
+      "de": "Frage 33 über Egyptian Gods",
+      "nl": "Vraag 33 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Egyptian Gods",
+      "es": "Pregunta 34 sobre Egyptian Gods",
+      "de": "Frage 34 über Egyptian Gods",
+      "nl": "Vraag 34 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Egyptian Gods",
+      "es": "Pregunta 35 sobre Egyptian Gods",
+      "de": "Frage 35 über Egyptian Gods",
+      "nl": "Vraag 35 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Egyptian Gods",
+      "es": "Pregunta 36 sobre Egyptian Gods",
+      "de": "Frage 36 über Egyptian Gods",
+      "nl": "Vraag 36 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Egyptian Gods",
+      "es": "Pregunta 37 sobre Egyptian Gods",
+      "de": "Frage 37 über Egyptian Gods",
+      "nl": "Vraag 37 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Egyptian Gods",
+      "es": "Pregunta 38 sobre Egyptian Gods",
+      "de": "Frage 38 über Egyptian Gods",
+      "nl": "Vraag 38 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Egyptian Gods",
+      "es": "Pregunta 39 sobre Egyptian Gods",
+      "de": "Frage 39 über Egyptian Gods",
+      "nl": "Vraag 39 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Egyptian Gods",
+      "es": "Pregunta 40 sobre Egyptian Gods",
+      "de": "Frage 40 über Egyptian Gods",
+      "nl": "Vraag 40 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Egyptian Gods",
+      "es": "Pregunta 41 sobre Egyptian Gods",
+      "de": "Frage 41 über Egyptian Gods",
+      "nl": "Vraag 41 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Egyptian Gods",
+      "es": "Pregunta 42 sobre Egyptian Gods",
+      "de": "Frage 42 über Egyptian Gods",
+      "nl": "Vraag 42 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Egyptian Gods",
+      "es": "Pregunta 43 sobre Egyptian Gods",
+      "de": "Frage 43 über Egyptian Gods",
+      "nl": "Vraag 43 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Egyptian Gods",
+      "es": "Pregunta 44 sobre Egyptian Gods",
+      "de": "Frage 44 über Egyptian Gods",
+      "nl": "Vraag 44 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Egyptian Gods",
+      "es": "Pregunta 45 sobre Egyptian Gods",
+      "de": "Frage 45 über Egyptian Gods",
+      "nl": "Vraag 45 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Egyptian Gods",
+      "es": "Pregunta 46 sobre Egyptian Gods",
+      "de": "Frage 46 über Egyptian Gods",
+      "nl": "Vraag 46 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Egyptian Gods",
+      "es": "Pregunta 47 sobre Egyptian Gods",
+      "de": "Frage 47 über Egyptian Gods",
+      "nl": "Vraag 47 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Egyptian Gods",
+      "es": "Pregunta 48 sobre Egyptian Gods",
+      "de": "Frage 48 über Egyptian Gods",
+      "nl": "Vraag 48 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Egyptian Gods",
+      "es": "Pregunta 49 sobre Egyptian Gods",
+      "de": "Frage 49 über Egyptian Gods",
+      "nl": "Vraag 49 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Egyptian Gods",
+      "es": "Pregunta 50 sobre Egyptian Gods",
+      "de": "Frage 50 über Egyptian Gods",
+      "nl": "Vraag 50 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Egyptian Gods",
+      "es": "Pregunta 51 sobre Egyptian Gods",
+      "de": "Frage 51 über Egyptian Gods",
+      "nl": "Vraag 51 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Egyptian Gods",
+      "es": "Pregunta 52 sobre Egyptian Gods",
+      "de": "Frage 52 über Egyptian Gods",
+      "nl": "Vraag 52 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Egyptian Gods",
+      "es": "Pregunta 53 sobre Egyptian Gods",
+      "de": "Frage 53 über Egyptian Gods",
+      "nl": "Vraag 53 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Egyptian Gods",
+      "es": "Pregunta 54 sobre Egyptian Gods",
+      "de": "Frage 54 über Egyptian Gods",
+      "nl": "Vraag 54 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Egyptian Gods",
+      "es": "Pregunta 55 sobre Egyptian Gods",
+      "de": "Frage 55 über Egyptian Gods",
+      "nl": "Vraag 55 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Egyptian Gods",
+      "es": "Pregunta 56 sobre Egyptian Gods",
+      "de": "Frage 56 über Egyptian Gods",
+      "nl": "Vraag 56 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Egyptian Gods",
+      "es": "Pregunta 57 sobre Egyptian Gods",
+      "de": "Frage 57 über Egyptian Gods",
+      "nl": "Vraag 57 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Egyptian Gods",
+      "es": "Pregunta 58 sobre Egyptian Gods",
+      "de": "Frage 58 über Egyptian Gods",
+      "nl": "Vraag 58 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Egyptian Gods",
+      "es": "Pregunta 59 sobre Egyptian Gods",
+      "de": "Frage 59 über Egyptian Gods",
+      "nl": "Vraag 59 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Egyptian Gods",
+      "es": "Pregunta 60 sobre Egyptian Gods",
+      "de": "Frage 60 über Egyptian Gods",
+      "nl": "Vraag 60 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Egyptian Gods",
+      "es": "Pregunta 61 sobre Egyptian Gods",
+      "de": "Frage 61 über Egyptian Gods",
+      "nl": "Vraag 61 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Egyptian Gods",
+      "es": "Pregunta 62 sobre Egyptian Gods",
+      "de": "Frage 62 über Egyptian Gods",
+      "nl": "Vraag 62 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Egyptian Gods",
+      "es": "Pregunta 63 sobre Egyptian Gods",
+      "de": "Frage 63 über Egyptian Gods",
+      "nl": "Vraag 63 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Egyptian Gods",
+      "es": "Pregunta 64 sobre Egyptian Gods",
+      "de": "Frage 64 über Egyptian Gods",
+      "nl": "Vraag 64 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Egyptian Gods",
+      "es": "Pregunta 65 sobre Egyptian Gods",
+      "de": "Frage 65 über Egyptian Gods",
+      "nl": "Vraag 65 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Egyptian Gods",
+      "es": "Pregunta 66 sobre Egyptian Gods",
+      "de": "Frage 66 über Egyptian Gods",
+      "nl": "Vraag 66 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Egyptian Gods",
+      "es": "Pregunta 67 sobre Egyptian Gods",
+      "de": "Frage 67 über Egyptian Gods",
+      "nl": "Vraag 67 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Egyptian Gods",
+      "es": "Pregunta 68 sobre Egyptian Gods",
+      "de": "Frage 68 über Egyptian Gods",
+      "nl": "Vraag 68 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Egyptian Gods",
+      "es": "Pregunta 69 sobre Egyptian Gods",
+      "de": "Frage 69 über Egyptian Gods",
+      "nl": "Vraag 69 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Egyptian Gods",
+      "es": "Pregunta 70 sobre Egyptian Gods",
+      "de": "Frage 70 über Egyptian Gods",
+      "nl": "Vraag 70 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Egyptian Gods",
+      "es": "Pregunta 71 sobre Egyptian Gods",
+      "de": "Frage 71 über Egyptian Gods",
+      "nl": "Vraag 71 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Egyptian Gods",
+      "es": "Pregunta 72 sobre Egyptian Gods",
+      "de": "Frage 72 über Egyptian Gods",
+      "nl": "Vraag 72 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Egyptian Gods",
+      "es": "Pregunta 73 sobre Egyptian Gods",
+      "de": "Frage 73 über Egyptian Gods",
+      "nl": "Vraag 73 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Egyptian Gods",
+      "es": "Pregunta 74 sobre Egyptian Gods",
+      "de": "Frage 74 über Egyptian Gods",
+      "nl": "Vraag 74 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Egyptian Gods",
+      "es": "Pregunta 75 sobre Egyptian Gods",
+      "de": "Frage 75 über Egyptian Gods",
+      "nl": "Vraag 75 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Egyptian Gods",
+      "es": "Pregunta 76 sobre Egyptian Gods",
+      "de": "Frage 76 über Egyptian Gods",
+      "nl": "Vraag 76 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Egyptian Gods",
+      "es": "Pregunta 77 sobre Egyptian Gods",
+      "de": "Frage 77 über Egyptian Gods",
+      "nl": "Vraag 77 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Egyptian Gods",
+      "es": "Pregunta 78 sobre Egyptian Gods",
+      "de": "Frage 78 über Egyptian Gods",
+      "nl": "Vraag 78 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Egyptian Gods",
+      "es": "Pregunta 79 sobre Egyptian Gods",
+      "de": "Frage 79 über Egyptian Gods",
+      "nl": "Vraag 79 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Egyptian Gods",
+      "es": "Pregunta 80 sobre Egyptian Gods",
+      "de": "Frage 80 über Egyptian Gods",
+      "nl": "Vraag 80 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Egyptian Gods",
+      "es": "Pregunta 81 sobre Egyptian Gods",
+      "de": "Frage 81 über Egyptian Gods",
+      "nl": "Vraag 81 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Egyptian Gods",
+      "es": "Pregunta 82 sobre Egyptian Gods",
+      "de": "Frage 82 über Egyptian Gods",
+      "nl": "Vraag 82 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Egyptian Gods",
+      "es": "Pregunta 83 sobre Egyptian Gods",
+      "de": "Frage 83 über Egyptian Gods",
+      "nl": "Vraag 83 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Egyptian Gods",
+      "es": "Pregunta 84 sobre Egyptian Gods",
+      "de": "Frage 84 über Egyptian Gods",
+      "nl": "Vraag 84 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Egyptian Gods",
+      "es": "Pregunta 85 sobre Egyptian Gods",
+      "de": "Frage 85 über Egyptian Gods",
+      "nl": "Vraag 85 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Egyptian Gods",
+      "es": "Pregunta 86 sobre Egyptian Gods",
+      "de": "Frage 86 über Egyptian Gods",
+      "nl": "Vraag 86 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Egyptian Gods",
+      "es": "Pregunta 87 sobre Egyptian Gods",
+      "de": "Frage 87 über Egyptian Gods",
+      "nl": "Vraag 87 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Egyptian Gods",
+      "es": "Pregunta 88 sobre Egyptian Gods",
+      "de": "Frage 88 über Egyptian Gods",
+      "nl": "Vraag 88 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Egyptian Gods",
+      "es": "Pregunta 89 sobre Egyptian Gods",
+      "de": "Frage 89 über Egyptian Gods",
+      "nl": "Vraag 89 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Egyptian Gods",
+      "es": "Pregunta 90 sobre Egyptian Gods",
+      "de": "Frage 90 über Egyptian Gods",
+      "nl": "Vraag 90 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Egyptian Gods",
+      "es": "Pregunta 91 sobre Egyptian Gods",
+      "de": "Frage 91 über Egyptian Gods",
+      "nl": "Vraag 91 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Egyptian Gods",
+      "es": "Pregunta 92 sobre Egyptian Gods",
+      "de": "Frage 92 über Egyptian Gods",
+      "nl": "Vraag 92 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Egyptian Gods",
+      "es": "Pregunta 93 sobre Egyptian Gods",
+      "de": "Frage 93 über Egyptian Gods",
+      "nl": "Vraag 93 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Egyptian Gods",
+      "es": "Pregunta 94 sobre Egyptian Gods",
+      "de": "Frage 94 über Egyptian Gods",
+      "nl": "Vraag 94 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Egyptian Gods",
+      "es": "Pregunta 95 sobre Egyptian Gods",
+      "de": "Frage 95 über Egyptian Gods",
+      "nl": "Vraag 95 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Egyptian Gods",
+      "es": "Pregunta 96 sobre Egyptian Gods",
+      "de": "Frage 96 über Egyptian Gods",
+      "nl": "Vraag 96 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Egyptian Gods",
+      "es": "Pregunta 97 sobre Egyptian Gods",
+      "de": "Frage 97 über Egyptian Gods",
+      "nl": "Vraag 97 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Egyptian Gods",
+      "es": "Pregunta 98 sobre Egyptian Gods",
+      "de": "Frage 98 über Egyptian Gods",
+      "nl": "Vraag 98 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Egyptian Gods",
+      "es": "Pregunta 99 sobre Egyptian Gods",
+      "de": "Frage 99 über Egyptian Gods",
+      "nl": "Vraag 99 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Egyptian Gods",
+      "es": "Pregunta 100 sobre Egyptian Gods",
+      "de": "Frage 100 über Egyptian Gods",
+      "nl": "Vraag 100 over Egyptian Gods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Gods",
+        "es": "Respuesta A para Egyptian Gods",
+        "de": "Antwort A für Egyptian Gods",
+        "nl": "Antwoord A voor Egyptian Gods"
+      },
+      {
+        "en": "Answer B for Egyptian Gods",
+        "es": "Respuesta B para Egyptian Gods",
+        "de": "Antwort B für Egyptian Gods",
+        "nl": "Antwoord B voor Egyptian Gods"
+      },
+      {
+        "en": "Answer C for Egyptian Gods",
+        "es": "Respuesta C para Egyptian Gods",
+        "de": "Antwort C für Egyptian Gods",
+        "nl": "Antwoord C voor Egyptian Gods"
+      },
+      {
+        "en": "Answer D for Egyptian Gods",
+        "es": "Respuesta D para Egyptian Gods",
+        "de": "Antwort D für Egyptian Gods",
+        "nl": "Antwoord D voor Egyptian Gods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Gods.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Gods.",
+      "de": "Dies ist die richtige Antwort über Egyptian Gods.",
+      "nl": "Dit is het juiste antwoord over Egyptian Gods."
+    }
   }
-})();
+]
+};

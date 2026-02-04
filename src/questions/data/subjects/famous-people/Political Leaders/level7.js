@@ -1,1240 +1,4104 @@
-// Political Leaders Quiz - Level 7: Knowledge about Political Leaders
-(function() {
-  const level7 = {
-    name: {
-      en: "Political Leaders Level 7",
-      es: "Lideres Politicos Nivel 7",
-      de: "Politische Fuhrer Stufe 7",
-      nl: "Politieke Leiders Level 7"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Political Leaders",
+      "es": "Pregunta 1 sobre Political Leaders",
+      "de": "Frage 1 über Political Leaders",
+      "nl": "Vraag 1 over Political Leaders"
     },
-    questions: [
+    "options": [
       {
-        question: {
-          en: "Which Chinese leader introduced the 'Four Modernizations' and economic reforms after Mao's death?",
-          es: "¿Qué líder chino introdujo las 'Cuatro Modernizaciones' y reformas económicas después de la muerte de Mao?",
-          de: "Welcher chinesische Führer führte nach Maos Tod die 'Vier Modernisierungen' und Wirtschaftsreformen ein?",
-          nl: "Welke Chinese leider introduceerde de 'Vier Moderniseringen' en economische hervormingen na Mao's dood?"
-        },
-        options: [
-          { en: "Deng Xiaoping", es: "Deng Xiaoping", de: "Deng Xiaoping", nl: "Deng Xiaoping" },
-          { en: "Hua Guofeng", es: "Hua Guofeng", de: "Hua Guofeng", nl: "Hua Guofeng" },
-          { en: "Jiang Zemin", es: "Jiang Zemin", de: "Jiang Zemin", nl: "Jiang Zemin" },
-          { en: "Hu Jintao", es: "Hu Jintao", de: "Hu Jintao", nl: "Hu Jintao" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Deng Xiaoping emerged as China's paramount leader in 1978 and implemented sweeping economic reforms, opening China to foreign investment and market mechanisms while maintaining Communist Party control. His policies transformed China into an economic powerhouse.",
-          es: "Deng Xiaoping emergió como líder supremo de China en 1978 e implementó amplias reformas económicas, abriendo China a la inversión extranjera y mecanismos de mercado mientras mantenía el control del Partido Comunista. Sus políticas transformaron China en una potencia económica.",
-          de: "Deng Xiaoping wurde 1978 Chinas führender Politiker und implementierte umfassende Wirtschaftsreformen, öffnete China für ausländische Investitionen und Marktmechanismen bei gleichzeitiger Kontrolle der Kommunistischen Partei. Seine Politik verwandelte China in eine Wirtschaftsmacht.",
-          nl: "Deng Xiaoping werd in 1978 China's belangrijkste leider en voerde ingrijpende economische hervormingen door, opende China voor buitenlandse investeringen en marktmechanismen terwijl hij de controle van de Communistische Partij behield. Zijn beleid transformeerde China tot een economische grootmacht."
-        }
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
       },
       {
-        question: {
-          en: "Which Soviet leader initiated glasnost and perestroika reforms that ultimately led to the USSR's dissolution?",
-          es: "¿Qué líder soviético inició las reformas de glasnost y perestroika que finalmente llevaron a la disolución de la URSS?",
-          de: "Welcher sowjetische Führer initiierte Glasnost- und Perestroika-Reformen, die letztendlich zur Auflösung der UdSSR führten?",
-          nl: "Welke Sovjet-leider initieerde glasnost- en perestrojka-hervormingen die uiteindelijk leidden tot de ontbinding van de USSR?"
-        },
-        options: [
-          { en: "Mikhail Gorbachev", es: "Mikhail Gorbachev", de: "Michail Gorbatschow", nl: "Michail Gorbatsjov" },
-          { en: "Yuri Andropov", es: "Yuri Andropov", de: "Juri Andropow", nl: "Joeri Andropov" },
-          { en: "Konstantin Chernenko", es: "Konstantin Chernenko", de: "Konstantin Tschernenko", nl: "Konstantin Tsjernenko" },
-          { en: "Leonid Brezhnev", es: "Leonid Brezhnev", de: "Leonid Breschnew", nl: "Leonid Brezjnev" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Mikhail Gorbachev became Soviet leader in 1985 and introduced glasnost (openness) and perestroika (restructuring). While intended to reform socialism, these policies inadvertently led to the collapse of the Soviet Union in 1991. He won the 1990 Nobel Peace Prize.",
-          es: "Mikhail Gorbachev se convirtió en líder soviético en 1985 e introdujo glasnost (apertura) y perestroika (reestructuración). Aunque destinadas a reformar el socialismo, estas políticas llevaron inadvertidamente al colapso de la Unión Soviética en 1991. Ganó el Premio Nobel de la Paz en 1990.",
-          de: "Michail Gorbatschow wurde 1985 sowjetischer Führer und führte Glasnost (Offenheit) und Perestroika (Umstrukturierung) ein. Obwohl zur Reform des Sozialismus gedacht, führten diese Politiken unbeabsichtigt zum Zusammenbruch der Sowjetunion 1991. Er gewann 1990 den Friedensnobelpreis.",
-          nl: "Michail Gorbatsjov werd in 1985 Sovjet-leider en introduceerde glasnost (openheid) en perestrojka (herstructurering). Hoewel bedoeld om het socialisme te hervormen, leidden deze beleidslijnen onbedoeld tot de ineenstorting van de Sovjet-Unie in 1991. Hij won de Nobelprijs voor de Vrede in 1990."
-        }
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
       },
       {
-        question: {
-          en: "Which Prussian statesman unified Germany through 'blood and iron' diplomacy in 1871?",
-          es: "¿Qué estadista prusiano unificó Alemania a través de la diplomacia de 'sangre y hierro' en 1871?",
-          de: "Welcher preußische Staatsmann vereinigte Deutschland 1871 durch 'Blut und Eisen'-Diplomatie?",
-          nl: "Welke Pruisische staatsman verenigd Duitsland in 1871 door 'bloed en ijzer' diplomatie?"
-        },
-        options: [
-          { en: "Otto von Bismarck", es: "Otto von Bismarck", de: "Otto von Bismarck", nl: "Otto von Bismarck" },
-          { en: "Kaiser Wilhelm I", es: "Kaiser Guillermo I", de: "Kaiser Wilhelm I.", nl: "keizer Wilhelm I" },
-          { en: "Helmuth von Moltke", es: "Helmuth von Moltke", de: "Helmuth von Moltke", nl: "Helmuth von Moltke" },
-          { en: "Frederick III", es: "Federico III", de: "Friedrich III.", nl: "Frederik III" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Otto von Bismarck served as Prussia's Prime Minister and orchestrated German unification through strategic wars against Denmark, Austria, and France. He became the first Chancellor of the German Empire (1871-1890) and dominated European diplomacy for decades.",
-          es: "Otto von Bismarck fue primer ministro de Prusia y orquestó la unificación alemana a través de guerras estratégicas contra Dinamarca, Austria y Francia. Se convirtió en el primer canciller del Imperio Alemán (1871-1890) y dominó la diplomacia europea durante décadas.",
-          de: "Otto von Bismarck war Preußens Ministerpräsident und orchestrierte die deutsche Einigung durch strategische Kriege gegen Dänemark, Österreich und Frankreich. Er wurde der erste Kanzler des Deutschen Reiches (1871-1890) und dominierte jahrzehntelang die europäische Diplomatie.",
-          nl: "Otto von Bismarck was premier van Pruisen en orkestreerde de Duitse eenwording door strategische oorlogen tegen Denemarken, Oostenrijk en Frankrijk. Hij werd de eerste kanselier van het Duitse Keizerrijk (1871-1890) en domineerde decennialang de Europese diplomatie."
-        }
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
       },
       {
-        question: {
-          en: "Which French revolutionary leader led the Reign of Terror and was eventually executed by guillotine in 1794?",
-          es: "¿Qué líder revolucionario francés dirigió el Reinado del Terror y fue eventualmente ejecutado en la guillotina en 1794?",
-          de: "Welcher französische Revolutionsführer leitete die Schreckensherrschaft und wurde 1794 schließlich durch die Guillotine hingerichtet?",
-          nl: "Welke Franse revolutionaire leider leidde het Schrikbewind en werd uiteindelijk in 1794 door de guillotine geëxecuteerd?"
-        },
-        options: [
-          { en: "Maximilien Robespierre", es: "Maximilien Robespierre", de: "Maximilien Robespierre", nl: "Maximilien Robespierre" },
-          { en: "Georges Danton", es: "Georges Danton", de: "Georges Danton", nl: "Georges Danton" },
-          { en: "Jean-Paul Marat", es: "Jean-Paul Marat", de: "Jean-Paul Marat", nl: "Jean-Paul Marat" },
-          { en: "Louis XVI", es: "Luis XVI", de: "Ludwig XVI.", nl: "Lodewijk XVI" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Maximilien Robespierre dominated the Committee of Public Safety during the French Revolution's Reign of Terror (1793-1794), overseeing the execution of thousands. He was arrested and guillotined in the Thermidorian Reaction in July 1794.",
-          es: "Maximilien Robespierre dominó el Comité de Salvación Pública durante el Reinado del Terror de la Revolución Francesa (1793-1794), supervisando la ejecución de miles. Fue arrestado y guillotinado en la Reacción Termidoriana en julio de 1794.",
-          de: "Maximilien Robespierre dominierte während der Schreckensherrschaft der Französischen Revolution (1793-1794) das Wohlfahrtskomitee und überwachte die Hinrichtung Tausender. Er wurde in der Thermidor-Reaktion im Juli 1794 verhaftet und guillotiniert.",
-          nl: "Maximilien Robespierre domineerde het Comité van Openbare Veiligheid tijdens het Schrikbewind van de Franse Revolutie (1793-1794) en leidde de executie van duizenden. Hij werd gearresteerd en geguillotineerd tijdens de Thermidoriaanse Reactie in juli 1794."
-        }
-      },
-      {
-        question: {
-          en: "Which Italian fascist leader ruled from 1922 until being deposed and executed in 1945?",
-          es: "¿Qué líder fascista italiano gobernó desde 1922 hasta ser depuesto y ejecutado en 1945?",
-          de: "Welcher italienische faschistische Führer regierte von 1922 bis zu seiner Absetzung und Hinrichtung 1945?",
-          nl: "Welke Italiaanse fascistische leider regeerde van 1922 tot hij in 1945 werd afgezet en geëxecuteerd?"
-        },
-        options: [
-          { en: "Benito Mussolini", es: "Benito Mussolini", de: "Benito Mussolini", nl: "Benito Mussolini" },
-          { en: "Vittorio Emanuele III", es: "Vittorio Emanuele III", de: "Vittorio Emanuele III.", nl: "Vittorio Emanuele III" },
-          { en: "Galeazzo Ciano", es: "Galeazzo Ciano", de: "Galeazzo Ciano", nl: "Galeazzo Ciano" },
-          { en: "Pietro Badoglio", es: "Pietro Badoglio", de: "Pietro Badoglio", nl: "Pietro Badoglio" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Benito Mussolini founded Italian Fascism and ruled as Prime Minister from 1922-1943. After being deposed and rescued by Germans, he led a puppet state until captured and executed by Italian partisans in April 1945.",
-          es: "Benito Mussolini fundó el fascismo italiano y gobernó como primer ministro de 1922 a 1943. Después de ser depuesto y rescatado por alemanes, lideró un estado títere hasta ser capturado y ejecutado por partisanos italianos en abril de 1945.",
-          de: "Benito Mussolini gründete den italienischen Faschismus und regierte von 1922-1943 als Ministerpräsident. Nach seiner Absetzung und Rettung durch Deutsche führte er einen Marionettenstaat, bis er im April 1945 von italienischen Partisanen gefangen genommen und hingerichtet wurde.",
-          nl: "Benito Mussolini stichtte het Italiaanse fascisme en regeerde als premier van 1922-1943. Na te zijn afgezet en gered door Duitsers, leidde hij een marionettenstaat tot hij in april 1945 werd gevangen genomen en geëxecuteerd door Italiaanse partizanen."
-        }
-      },
-      {
-        question: {
-          en: "Which Russian revolutionary led the Bolsheviks to power in the October Revolution of 1917?",
-          es: "¿Qué revolucionario ruso llevó a los bolcheviques al poder en la Revolución de Octubre de 1917?",
-          de: "Welcher russische Revolutionär führte die Bolschewiki in der Oktoberrevolution von 1917 an die Macht?",
-          nl: "Welke Russische revolutionair leidde de bolsjewieken naar de macht tijdens de Oktoberrevolutie van 1917?"
-        },
-        options: [
-          { en: "Vladimir Lenin", es: "Vladimir Lenin", de: "Wladimir Lenin", nl: "Vladimir Lenin" },
-          { en: "Leon Trotsky", es: "León Trotsky", de: "Leo Trotzki", nl: "Leon Trotski" },
-          { en: "Joseph Stalin", es: "Joseph Stalin", de: "Josef Stalin", nl: "Jozef Stalin" },
-          { en: "Alexander Kerensky", es: "Alexander Kerensky", de: "Alexander Kerenski", nl: "Alexander Kerenski" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Vladimir Lenin led the Bolshevik Revolution in October 1917, overthrowing the provisional government. He established the Soviet state, won the Civil War, and implemented War Communism and later the New Economic Policy before dying in 1924.",
-          es: "Vladimir Lenin lideró la Revolución Bolchevique en octubre de 1917, derrocando el gobierno provisional. Estableció el estado soviético, ganó la Guerra Civil e implementó el Comunismo de Guerra y luego la Nueva Política Económica antes de morir en 1924.",
-          de: "Wladimir Lenin führte die bolschewistische Revolution im Oktober 1917 an und stürzte die provisorische Regierung. Er gründete den Sowjetstaat, gewann den Bürgerkrieg und implementierte den Kriegskommunismus und später die Neue Ökonomische Politik, bevor er 1924 starb.",
-          nl: "Vladimir Lenin leidde de Bolsjewistische Revolutie in oktober 1917 en viel de voorlopige regering omver. Hij vestigde de Sovjetstaat, won de Burgeroorlog en voerde het Oorlogscommunisme en later de Nieuwe Economische Politiek in voordat hij in 1924 stierf."
-        }
-      },
-      {
-        question: {
-          en: "Which German Nazi leader served as Hitler's deputy and flew to Scotland in 1941 on an unauthorized peace mission?",
-          es: "¿Qué líder nazi alemán fue diputado de Hitler y voló a Escocia en 1941 en una misión de paz no autorizada?",
-          de: "Welcher deutsche Nazi-Führer war Hitlers Stellvertreter und flog 1941 auf einer unauthorisierten Friedensmission nach Schottland?",
-          nl: "Welke Duitse naziLeider diende als Hitlers plaatsvervanger en vloog in 1941 naar Schotland op een ongeautoriseerde vredesmissie?"
-        },
-        options: [
-          { en: "Rudolf Hess", es: "Rudolf Hess", de: "Rudolf Heß", nl: "Rudolf Hess" },
-          { en: "Hermann Göring", es: "Hermann Göring", de: "Hermann Göring", nl: "Hermann Göring" },
-          { en: "Joseph Goebbels", es: "Joseph Goebbels", de: "Joseph Goebbels", nl: "Joseph Goebbels" },
-          { en: "Heinrich Himmler", es: "Heinrich Himmler", de: "Heinrich Himmler", nl: "Heinrich Himmler" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Rudolf Hess was Hitler's deputy and flew solo to Scotland in May 1941, hoping to negotiate peace with Britain. He was captured, imprisoned for life at Nuremberg, and died in Spandau Prison in 1987 at age 93.",
-          es: "Rudolf Hess fue diputado de Hitler y voló en solitario a Escocia en mayo de 1941, esperando negociar la paz con Gran Bretaña. Fue capturado, encarcelado de por vida en Núremberg y murió en la Prisión de Spandau en 1987 a los 93 años.",
-          de: "Rudolf Heß war Hitlers Stellvertreter und flog im Mai 1941 allein nach Schottland in der Hoffnung, mit Großbritannien Frieden zu verhandeln. Er wurde gefangen genommen, in Nürnberg zu lebenslanger Haft verurteilt und starb 1987 im Alter von 93 Jahren im Spandauer Gefängnis.",
-          nl: "Rudolf Hess was Hitlers plaatsvervanger en vloog solo naar Schotland in mei 1941, hopend vrede met Groot-Brittannië te onderhandelen. Hij werd gevangen genomen, levenslang opgesloten in Neurenberg en stierf in de Spandau-gevangenis in 1987 op 93-jarige leeftijd."
-        }
-      },
-      {
-        question: {
-          en: "Which British statesman served as Prime Minister during the Napoleonic Wars and was known as the 'Iron Duke'?",
-          es: "¿Qué estadista británico fue primer ministro durante las Guerras Napoleónicas y era conocido como el 'Duque de Hierro'?",
-          de: "Welcher britische Staatsmann war während der Napoleonischen Kriege Premierminister und als 'Eiserner Herzog' bekannt?",
-          nl: "Welke Britse staatsman was premier tijdens de Napoleontische Oorlogen en stond bekend als de 'IJzeren Hertog'?"
-        },
-        options: [
-          { en: "Duke of Wellington", es: "Duque de Wellington", de: "Herzog von Wellington", nl: "Hertog van Wellington" },
-          { en: "Lord Nelson", es: "Lord Nelson", de: "Lord Nelson", nl: "Lord Nelson" },
-          { en: "William Pitt the Younger", es: "William Pitt el Joven", de: "William Pitt der Jüngere", nl: "William Pitt de Jongere" },
-          { en: "Lord Castlereagh", es: "Lord Castlereagh", de: "Lord Castlereagh", nl: "Lord Castlereagh" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Arthur Wellesley, Duke of Wellington, defeated Napoleon at Waterloo in 1815 and later served as Prime Minister (1828-1830, 1834). Known as the 'Iron Duke,' he was a dominant military and political figure of his era.",
-          es: "Arthur Wellesley, Duque de Wellington, derrotó a Napoleón en Waterloo en 1815 y luego fue primer ministro (1828-1830, 1834). Conocido como el 'Duque de Hierro,' fue una figura militar y política dominante de su época.",
-          de: "Arthur Wellesley, Herzog von Wellington, besiegte Napoleon 1815 bei Waterloo und war später Premierminister (1828-1830, 1834). Als 'Eiserner Herzog' bekannt, war er eine dominierende militärische und politische Figur seiner Zeit.",
-          nl: "Arthur Wellesley, Hertog van Wellington, versloeg Napoleon bij Waterloo in 1815 en was later premier (1828-1830, 1834). Bekend als de 'IJzeren Hertog,' was hij een dominante militaire en politieke figuur van zijn tijd."
-        }
-      },
-      {
-        question: {
-          en: "Which Japanese Prime Minister led the country during most of World War II and was executed as a war criminal?",
-          es: "¿Qué primer ministro japonés lideró el país durante la mayor parte de la Segunda Guerra Mundial y fue ejecutado como criminal de guerra?",
-          de: "Welcher japanische Premierminister führte das Land während des größten Teils des Zweiten Weltkriegs und wurde als Kriegsverbrecher hingerichtet?",
-          nl: "Welke Japanse premier leidde het land tijdens het grootste deel van de Tweede Wereldoorlog en werd geëxecuteerd als oorlogsmisdadiger?"
-        },
-        options: [
-          { en: "Hideki Tojo", es: "Hideki Tojo", de: "Hideki Tōjō", nl: "Hideki Tojo" },
-          { en: "Fumimaro Konoe", es: "Fumimaro Konoe", de: "Fumimaro Konoe", nl: "Fumimaro Konoe" },
-          { en: "Kantaro Suzuki", es: "Kantaro Suzuki", de: "Kantarō Suzuki", nl: "Kantaro Suzuki" },
-          { en: "Kuniaki Koiso", es: "Kuniaki Koiso", de: "Kuniaki Koiso", nl: "Kuniaki Koiso" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Hideki Tojo served as Prime Minister from 1941-1944, overseeing Japan's war effort including Pearl Harbor. After Japan's defeat, he was tried at the Tokyo War Crimes Tribunal, found guilty, and executed in 1948.",
-          es: "Hideki Tojo fue primer ministro de 1941 a 1944, supervisando el esfuerzo bélico de Japón incluyendo Pearl Harbor. Después de la derrota de Japón, fue juzgado en el Tribunal de Crímenes de Guerra de Tokio, declarado culpable y ejecutado en 1948.",
-          de: "Hideki Tōjō war von 1941-1944 Premierminister und überwachte Japans Kriegsanstrengungen einschließlich Pearl Harbor. Nach Japans Niederlage wurde er vor dem Tokioter Kriegsverbrechertribunal angeklagt, für schuldig befunden und 1948 hingerichtet.",
-          nl: "Hideki Tojo was premier van 1941-1944 en leidde Japan's oorlogsinspanning inclusief Pearl Harbor. Na Japan's nederlaag werd hij berecht door het Tokio Oorlogsmisdadentribunaal, schuldig bevonden en in 1948 geëxecuteerd."
-        }
-      },
-      {
-        question: {
-          en: "Which U.S. President authorized the Bay of Pigs invasion and faced the Cuban Missile Crisis?",
-          es: "¿Qué presidente estadounidense autorizó la invasión de Bahía de Cochinos y enfrentó la Crisis de los Misiles de Cuba?",
-          de: "Welcher US-Präsident autorisierte die Invasion in der Schweinebucht und stand der Kubakrise gegenüber?",
-          nl: "Welke Amerikaanse president autoriseerde de invasie van de Varkensbaai en stond tegenover de Cubaanse Rakettencrisis?"
-        },
-        options: [
-          { en: "John F. Kennedy", es: "John F. Kennedy", de: "John F. Kennedy", nl: "John F. Kennedy" },
-          { en: "Dwight D. Eisenhower", es: "Dwight D. Eisenhower", de: "Dwight D. Eisenhower", nl: "Dwight D. Eisenhower" },
-          { en: "Lyndon B. Johnson", es: "Lyndon B. Johnson", de: "Lyndon B. Johnson", nl: "Lyndon B. Johnson" },
-          { en: "Harry S. Truman", es: "Harry S. Truman", de: "Harry S. Truman", nl: "Harry S. Truman" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "John F. Kennedy became president in 1961, facing the failed Bay of Pigs invasion in April and the Cuban Missile Crisis in October 1962, which brought the world closest to nuclear war. He was assassinated in Dallas in November 1963.",
-          es: "John F. Kennedy se convirtió en presidente en 1961, enfrentando la fallida invasión de Bahía de Cochinos en abril y la Crisis de los Misiles de Cuba en octubre de 1962, que llevó al mundo más cerca de la guerra nuclear. Fue asesinado en Dallas en noviembre de 1963.",
-          de: "John F. Kennedy wurde 1961 Präsident und stand der gescheiterten Invasion in der Schweinebucht im April und der Kubakrise im Oktober 1962 gegenüber, die die Welt dem Atomkrieg am nächsten brachte. Er wurde im November 1963 in Dallas ermordet.",
-          nl: "John F. Kennedy werd in 1961 president en stond tegenover de mislukte invasie van de Varkensbaai in april en de Cubaanse Rakettencrisis in oktober 1962, die de wereld het dichtst bij een nucleaire oorlog bracht. Hij werd in november 1963 vermoord in Dallas."
-        }
-      },
-      {
-        question: {
-          en: "Which Soviet leader oversaw the period of 'stagnation' and the invasion of Afghanistan in 1979?",
-          es: "¿Qué líder soviético supervisó el período de 'estancamiento' y la invasión de Afganistán en 1979?",
-          de: "Welcher sowjetische Führer überwachte die Periode der 'Stagnation' und die Invasion Afghanistans 1979?",
-          nl: "Welke Sovjet-leider leidde de periode van 'stagnatie' en de invasie van Afghanistan in 1979?"
-        },
-        options: [
-          { en: "Leonid Brezhnev", es: "Leonid Brezhnev", de: "Leonid Breschnew", nl: "Leonid Brezjnev" },
-          { en: "Nikita Khrushchev", es: "Nikita Khrushchev", de: "Nikita Chruschtschow", nl: "Nikita Chroesjtsjov" },
-          { en: "Yuri Andropov", es: "Yuri Andropov", de: "Juri Andropow", nl: "Joeri Andropov" },
-          { en: "Mikhail Gorbachev", es: "Mikhail Gorbachev", de: "Michail Gorbatschow", nl: "Michail Gorbatsjov" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Leonid Brezhnev led the Soviet Union from 1964-1982, a period known as the 'Era of Stagnation' due to economic slowdown. He ordered the 1979 invasion of Afghanistan, which became the Soviet Union's Vietnam and contributed to its eventual collapse.",
-          es: "Leonid Brezhnev lideró la Unión Soviética de 1964 a 1982, un período conocido como la 'Era del Estancamiento' debido a la desaceleración económica. Ordenó la invasión de Afganistán en 1979, que se convirtió en el Vietnam de la Unión Soviética y contribuyó a su eventual colapso.",
-          de: "Leonid Breschnew führte die Sowjetunion von 1964-1982, eine als 'Ära der Stagnation' bekannte Periode aufgrund wirtschaftlicher Verlangsamung. Er befahl 1979 die Invasion Afghanistans, die das Vietnam der Sowjetunion wurde und zu ihrem eventuellen Zusammenbruch beitrug.",
-          nl: "Leonid Brezjnev leidde de Sovjet-Unie van 1964-1982, een periode bekend als de 'Era van Stagnatie' vanwege economische vertraging. Hij gaf in 1979 bevel tot de invasie van Afghanistan, die het Vietnam van de Sovjet-Unie werd en bijdroeg aan haar uiteindelijke ineenstorting."
-        }
-      },
-      {
-        question: {
-          en: "Which Indonesian leader ruled for 32 years after taking power in 1967, known for his authoritarian 'New Order'?",
-          es: "¿Qué líder indonesio gobernó durante 32 años después de tomar el poder en 1967, conocido por su autoritario 'Nuevo Orden'?",
-          de: "Welcher indonesische Führer regierte 32 Jahre nach der Machtübernahme 1967, bekannt für seine autoritäre 'Neue Ordnung'?",
-          nl: "Welke Indonesische leider regeerde 32 jaar na het grijpen van de macht in 1967, bekend om zijn autoritaire 'Nieuwe Orde'?"
-        },
-        options: [
-          { en: "Suharto", es: "Suharto", de: "Suharto", nl: "Soeharto" },
-          { en: "Sukarno", es: "Sukarno", de: "Sukarno", nl: "Sukarno" },
-          { en: "B.J. Habibie", es: "B.J. Habibie", de: "B.J. Habibie", nl: "B.J. Habibie" },
-          { en: "Abdurrahman Wahid", es: "Abdurrahman Wahid", de: "Abdurrahman Wahid", nl: "Abdurrahman Wahid" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Suharto seized power in 1967 after a controversial coup against Sukarno. His 'New Order' regime brought economic growth but also corruption and human rights abuses. He was forced to resign in 1998 during the Asian Financial Crisis amid massive protests.",
-          es: "Suharto tomó el poder en 1967 después de un controvertido golpe contra Sukarno. Su régimen del 'Nuevo Orden' trajo crecimiento económico pero también corrupción y abusos de derechos humanos. Fue obligado a renunciar en 1998 durante la Crisis Financiera Asiática en medio de protestas masivas.",
-          de: "Suharto ergriff 1967 nach einem umstrittenen Putsch gegen Sukarno die Macht. Sein 'Neue Ordnung'-Regime brachte Wirtschaftswachstum, aber auch Korruption und Menschenrechtsverletzungen. Er wurde 1998 während der Asienkrise inmitten massiver Proteste zum Rücktritt gezwungen.",
-          nl: "Soeharto greep de macht in 1967 na een controversiële staatsgreep tegen Sukarno. Zijn 'Nieuwe Orde'-regime bracht economische groei maar ook corruptie en mensenrechtenschendingen. Hij werd in 1998 tijdens de Aziatische Financiële Crisis gedwongen af te treden te midden van massale protesten."
-        }
-      },
-      {
-        question: {
-          en: "Which Zairean dictator changed his country's name from Congo and ruled through kleptocracy for 32 years?",
-          es: "¿Qué dictador zaireño cambió el nombre de su país de Congo y gobernó a través de la cleptocracia durante 32 años?",
-          de: "Welcher zairischer Diktator änderte den Namen seines Landes von Kongo und regierte 32 Jahre durch Kleptokratie?",
-          nl: "Welke Zaïrese dictator veranderde de naam van zijn land van Congo en regeerde 32 jaar door kleptocracie?"
-        },
-        options: [
-          { en: "Mobutu Sese Seko", es: "Mobutu Sese Seko", de: "Mobutu Sese Seko", nl: "Mobutu Sese Seko" },
-          { en: "Laurent-Désiré Kabila", es: "Laurent-Désiré Kabila", de: "Laurent-Désiré Kabila", nl: "Laurent-Désiré Kabila" },
-          { en: "Joseph Kabila", es: "Joseph Kabila", de: "Joseph Kabila", nl: "Joseph Kabila" },
-          { en: "Patrice Lumumba", es: "Patrice Lumumba", de: "Patrice Lumumba", nl: "Patrice Lumumba" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Mobutu Sese Seko seized power in 1965 and renamed Congo as Zaire in 1971. His kleptocratic regime amassed billions while the country deteriorated. He was overthrown in 1997 by Laurent Kabila and died in exile months later.",
-          es: "Mobutu Sese Seko tomó el poder en 1965 y renombró Congo como Zaire en 1971. Su régimen cleptócrata acumuló miles de millones mientras el país se deterioraba. Fue derrocado en 1997 por Laurent Kabila y murió en el exilio meses después.",
-          de: "Mobutu Sese Seko ergriff 1965 die Macht und benannte Kongo 1971 in Zaire um. Sein kleptokratisches Regime häufte Milliarden an, während das Land verfiel. Er wurde 1997 von Laurent Kabila gestürzt und starb Monate später im Exil.",
-          nl: "Mobutu Sese Seko greep de macht in 1965 en hernoemde Congo naar Zaïre in 1971. Zijn kleptocratische regime vergaarde miljarden terwijl het land achteruitging. Hij werd in 1997 afgezet door Laurent Kabila en stierf maanden later in ballingschap."
-        }
-      },
-      {
-        question: {
-          en: "Which French President established the Fifth Republic and granted independence to Algeria?",
-          es: "¿Qué presidente francés estableció la Quinta República y concedió la independencia a Argelia?",
-          de: "Welcher französische Präsident gründete die Fünfte Republik und gewährte Algerien die Unabhängigkeit?",
-          nl: "Welke Franse president vestigde de Vijfde Republiek en verleende Algerije onafhankelijkheid?"
-        },
-        options: [
-          { en: "Charles de Gaulle", es: "Charles de Gaulle", de: "Charles de Gaulle", nl: "Charles de Gaulle" },
-          { en: "François Mitterrand", es: "François Mitterrand", de: "François Mitterrand", nl: "François Mitterrand" },
-          { en: "Georges Pompidou", es: "Georges Pompidou", de: "Georges Pompidou", nl: "Georges Pompidou" },
-          { en: "René Coty", es: "René Coty", de: "René Coty", nl: "René Coty" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Charles de Gaulle led Free France during WWII and returned to power in 1958 during the Algerian crisis. He established the Fifth Republic, granted Algerian independence in 1962, and served as president until 1969, asserting French independence from the superpowers.",
-          es: "Charles de Gaulle lideró la Francia Libre durante la Segunda Guerra Mundial y regresó al poder en 1958 durante la crisis argelina. Estableció la Quinta República, concedió la independencia argelina en 1962 y fue presidente hasta 1969, afirmando la independencia francesa de las superpotencias.",
-          de: "Charles de Gaulle führte das Freie Frankreich im Zweiten Weltkrieg und kehrte 1958 während der Algerienkrise an die Macht zurück. Er gründete die Fünfte Republik, gewährte 1962 die algerische Unabhängigkeit und war bis 1969 Präsident, der Frankreichs Unabhängigkeit von den Supermächten durchsetzte.",
-          nl: "Charles de Gaulle leidde Vrij Frankrijk tijdens WOII en keerde in 1958 terug aan de macht tijdens de Algerijnse crisis. Hij vestigde de Vijfde Republiek, verleende Algerije onafhankelijkheid in 1962 en was president tot 1969, waarbij hij de Franse onafhankelijkheid van de supermogendheden bevestigde."
-        }
-      },
-      {
-        question: {
-          en: "Which Tanzanian leader promoted African socialism through his 'Ujamaa' philosophy?",
-          es: "¿Qué líder tanzano promovió el socialismo africano a través de su filosofía 'Ujamaa'?",
-          de: "Welcher tansanische Führer förderte den afrikanischen Sozialismus durch seine 'Ujamaa'-Philosophie?",
-          nl: "Welke Tanzaniaanse leider promootte Afrikaans socialisme door zijn 'Ujamaa'-filosofie?"
-        },
-        options: [
-          { en: "Julius Nyerere", es: "Julius Nyerere", de: "Julius Nyerere", nl: "Julius Nyerere" },
-          { en: "Ali Hassan Mwinyi", es: "Ali Hassan Mwinyi", de: "Ali Hassan Mwinyi", nl: "Ali Hassan Mwinyi" },
-          { en: "Benjamin Mkapa", es: "Benjamin Mkapa", de: "Benjamin Mkapa", nl: "Benjamin Mkapa" },
-          { en: "Jakaya Kikwete", es: "Jakaya Kikwete", de: "Jakaya Kikwete", nl: "Jakaya Kikwete" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Julius Nyerere led Tanzania from independence in 1961 until 1985, promoting 'Ujamaa' (familyhood) - African socialism emphasizing communal living and self-reliance. Though economically unsuccessful, he was respected for his integrity and pan-African vision. Known as 'Mwalimu' (teacher).",
-          es: "Julius Nyerere lideró Tanzania desde la independencia en 1961 hasta 1985, promoviendo 'Ujamaa' (hermandad familiar) - socialismo africano que enfatiza la vida comunal y la autosuficiencia. Aunque económicamente sin éxito, fue respetado por su integridad y visión panafricana. Conocido como 'Mwalimu' (maestro).",
-          de: "Julius Nyerere führte Tansania von der Unabhängigkeit 1961 bis 1985 und förderte 'Ujamaa' (Familiengemeinschaft) - afrikanischer Sozialismus mit Betonung auf gemeinschaftlichem Leben und Selbstversorgung. Obwohl wirtschaftlich erfolglos, wurde er für seine Integrität und panafrikanische Vision respektiert. Bekannt als 'Mwalimu' (Lehrer).",
-          nl: "Julius Nyerere leidde Tanzania van de onafhankelijkheid in 1961 tot 1985 en promootte 'Ujamaa' (familieschap) - Afrikaans socialisme met nadruk op gemeenschappelijk leven en zelfvoorziening. Hoewel economisch niet succesvol, werd hij gerespecteerd om zijn integriteit en pan-Afrikaanse visie. Bekend als 'Mwalimu' (leraar)."
-        }
-      },
-      {
-        question: {
-          en: "Which British Prime Minister served the longest continuous term in the 20th century?",
-          es: "¿Qué primer ministro británico sirvió el mandato continuo más largo del siglo XX?",
-          de: "Welcher britische Premierminister diente im 20. Jahrhundert die längste ununterbrochene Amtszeit?",
-          nl: "Welke Britse premier diende de langste ononderbroken termijn in de 20e eeuw?"
-        },
-        options: [
-          { en: "Margaret Thatcher", es: "Margaret Thatcher", de: "Margaret Thatcher", nl: "Margaret Thatcher" },
-          { en: "Winston Churchill", es: "Winston Churchill", de: "Winston Churchill", nl: "Winston Churchill" },
-          { en: "Tony Blair", es: "Tony Blair", de: "Tony Blair", nl: "Tony Blair" },
-          { en: "Clement Attlee", es: "Clement Attlee", de: "Clement Attlee", nl: "Clement Attlee" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Margaret Thatcher served continuously as Prime Minister from 1979-1990 (11 years), the longest continuous tenure of the 20th century. Known as the 'Iron Lady,' she implemented major free-market reforms and won the Falklands War.",
-          es: "Margaret Thatcher fue primera ministra continuamente de 1979 a 1990 (11 años), el mandato continuo más largo del siglo XX. Conocida como la 'Dama de Hierro,' implementó importantes reformas de libre mercado y ganó la Guerra de las Malvinas.",
-          de: "Margaret Thatcher war von 1979-1990 (11 Jahre) durchgehend Premierministerin, die längste ununterbrochene Amtszeit des 20. Jahrhunderts. Als 'Eiserne Lady' bekannt, implementierte sie bedeutende Freie-Markt-Reformen und gewann den Falklandkrieg.",
-          nl: "Margaret Thatcher was van 1979-1990 (11 jaar) ononderbroken premier, de langste ononderbroken ambtstermijn van de 20e eeuw. Bekend als de 'IJzeren Lady,' voerde ze grote vrijemarkthervorming door en won de Falklandoorlog."
-        }
-      },
-      {
-        question: {
-          en: "Which Syrian President has ruled since 2000, continuing his father's authoritarian regime?",
-          es: "¿Qué presidente sirio ha gobernado desde 2000, continuando el régimen autoritario de su padre?",
-          de: "Welcher syrische Präsident regiert seit 2000 und setzt das autoritäre Regime seines Vaters fort?",
-          nl: "Welke Syrische president regeert sinds 2000 en zet het autoritaire regime van zijn vader voort?"
-        },
-        options: [
-          { en: "Bashar al-Assad", es: "Bashar al-Assad", de: "Baschar al-Assad", nl: "Bashar al-Assad" },
-          { en: "Hafez al-Assad", es: "Hafez al-Assad", de: "Hafiz al-Assad", nl: "Hafez al-Assad" },
-          { en: "Maher al-Assad", es: "Maher al-Assad", de: "Maher al-Assad", nl: "Maher al-Assad" },
-          { en: "Basil al-Assad", es: "Basil al-Assad", de: "Basil al-Assad", nl: "Basil al-Assad" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Bashar al-Assad became president in 2000 after his father Hafez's death. Initially seen as a potential reformer, his brutal suppression of the 2011 Arab Spring protests sparked a devastating civil war that has killed hundreds of thousands and displaced millions.",
-          es: "Bashar al-Assad se convirtió en presidente en 2000 después de la muerte de su padre Hafez. Inicialmente visto como un reformador potencial, su brutal supresión de las protestas de la Primavera Árabe de 2011 desencadenó una devastadora guerra civil que ha matado a cientos de miles y desplazado a millones.",
-          de: "Baschar al-Assad wurde 2000 nach dem Tod seines Vaters Hafiz Präsident. Zunächst als potenzieller Reformer gesehen, löste seine brutale Unterdrückung der Arabischen Frühling-Proteste 2011 einen verheerenden Bürgerkrieg aus, der Hunderttausende getötet und Millionen vertrieben hat.",
-          nl: "Bashar al-Assad werd in 2000 president na de dood van zijn vader Hafez. Aanvankelijk gezien als potentiële hervormer, veroorzaakte zijn brute onderdrukking van de Arabische Lente-protesten in 2011 een verwoestende burgeroorlog die honderdduizenden heeft gedood en miljoenen heeft verdreven."
-        }
-      },
-      {
-        question: {
-          en: "Which Zimbabwean nationalist leader shared power with Robert Mugabe after independence?",
-          es: "¿Qué líder nacionalista zimbabuense compartió el poder con Robert Mugabe después de la independencia?",
-          de: "Welcher simbabwische nationalistische Führer teilte nach der Unabhängigkeit die Macht mit Robert Mugabe?",
-          nl: "Welke Zimbabwaanse nationalistische leider deelde de macht met Robert Mugabe na de onafhankelijkheid?"
-        },
-        options: [
-          { en: "Joshua Nkomo", es: "Joshua Nkomo", de: "Joshua Nkomo", nl: "Joshua Nkomo" },
-          { en: "Ian Smith", es: "Ian Smith", de: "Ian Smith", nl: "Ian Smith" },
-          { en: "Abel Muzorewa", es: "Abel Muzorewa", de: "Abel Muzorewa", nl: "Abel Muzorewa" },
-          { en: "Edgar Tekere", es: "Edgar Tekere", de: "Edgar Tekere", nl: "Edgar Tekere" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Joshua Nkomo led ZAPU during the liberation struggle and was a founding father of Zimbabwe. He served as Vice President under Mugabe from 1990-1999 after years of tension. Known as 'Father Zimbabwe,' he died in 1999.",
-          es: "Joshua Nkomo lideró ZAPU durante la lucha de liberación y fue uno de los padres fundadores de Zimbabue. Fue vicepresidente bajo Mugabe de 1990 a 1999 después de años de tensión. Conocido como 'Padre Zimbabue,' murió en 1999.",
-          de: "Joshua Nkomo führte ZAPU während des Befreiungskampfes und war ein Gründervater Simbabwes. Er war von 1990-1999 Vizepräsident unter Mugabe nach Jahren der Spannung. Als 'Vater Simbabwe' bekannt, starb er 1999.",
-          nl: "Joshua Nkomo leidde ZAPU tijdens de bevrijdingsstrijd en was een grondlegger van Zimbabwe. Hij was van 1990-1999 vicepresident onder Mugabe na jaren van spanning. Bekend als 'Vader Zimbabwe,' stierf hij in 1999."
-        }
-      },
-      {
-        question: {
-          en: "Which North Korean founder established the dynasty that continues to rule today?",
-          es: "¿Qué fundador norcoreano estableció la dinastía que continúa gobernando hoy?",
-          de: "Welcher nordkoreanische Gründer etablierte die Dynastie, die bis heute regiert?",
-          nl: "Welke Noord-Koreaanse oprichter vestigde de dynastie die vandaag nog steeds regeert?"
-        },
-        options: [
-          { en: "Kim Il-sung", es: "Kim Il-sung", de: "Kim Il-sung", nl: "Kim Il-sung" },
-          { en: "Kim Jong-il", es: "Kim Jong-il", de: "Kim Jong-il", nl: "Kim Jong-il" },
-          { en: "Kim Jong-un", es: "Kim Jong-un", de: "Kim Jong-un", nl: "Kim Jong-un" },
-          { en: "Kim Tu-bong", es: "Kim Tu-bong", de: "Kim Tu-bong", nl: "Kim Tu-bong" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Kim Il-sung founded North Korea in 1948 and ruled until his death in 1994, developing the 'Juche' ideology of self-reliance and establishing a personality cult. Power passed to his son Kim Jong-il (1994-2011) and grandson Kim Jong-un (2011-present).",
-          es: "Kim Il-sung fundó Corea del Norte en 1948 y gobernó hasta su muerte en 1994, desarrollando la ideología 'Juche' de autosuficiencia y estableciendo un culto a la personalidad. El poder pasó a su hijo Kim Jong-il (1994-2011) y su nieto Kim Jong-un (2011-presente).",
-          de: "Kim Il-sung gründete Nordkorea 1948 und regierte bis zu seinem Tod 1994, entwickelte die 'Juche'-Ideologie der Selbstversorgung und etablierte einen Personenkult. Die Macht ging auf seinen Sohn Kim Jong-il (1994-2011) und Enkel Kim Jong-un (2011-heute) über.",
-          nl: "Kim Il-sung stichtte Noord-Korea in 1948 en regeerde tot zijn dood in 1994, ontwikkelde de 'Juche'-ideologie van zelfvoorziening en vestigde een persoonlijkheidscultus. De macht ging over naar zijn zoon Kim Jong-il (1994-2011) en kleinzoon Kim Jong-un (2011-heden)."
-        }
-      },
-      {
-        question: {
-          en: "Which Nicaraguan revolutionary led the Sandinistas to power in 1979 and later returned as president in 2007?",
-          es: "¿Qué revolucionario nicaragüense llevó a los sandinistas al poder en 1979 y luego regresó como presidente en 2007?",
-          de: "Welcher nicaraguanische Revolutionär führte die Sandinisten 1979 an die Macht und kehrte später 2007 als Präsident zurück?",
-          nl: "Welke Nicaraguaanse revolutionair leidde de Sandinisten naar de macht in 1979 en keerde later in 2007 terug als president?"
-        },
-        options: [
-          { en: "Daniel Ortega", es: "Daniel Ortega", de: "Daniel Ortega", nl: "Daniel Ortega" },
-          { en: "Augusto Sandino", es: "Augusto Sandino", de: "Augusto Sandino", nl: "Augusto Sandino" },
-          { en: "Anastasio Somoza", es: "Anastasio Somoza", de: "Anastasio Somoza", nl: "Anastasio Somoza" },
-          { en: "Violeta Chamorro", es: "Violeta Chamorro", de: "Violeta Chamorro", nl: "Violeta Chamorro" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Daniel Ortega led the Sandinista revolution that overthrew Somoza in 1979 and served as president 1985-1990. He lost power but returned in 2007 and has ruled increasingly autocratically since, suppressing opposition and protests.",
-          es: "Daniel Ortega lideró la revolución sandinista que derrocó a Somoza en 1979 y fue presidente de 1985 a 1990. Perdió el poder pero regresó en 2007 y ha gobernado cada vez más autocráticamente desde entonces, suprimiendo la oposición y protestas.",
-          de: "Daniel Ortega führte die sandinistische Revolution an, die 1979 Somoza stürzte, und war von 1985-1990 Präsident. Er verlor die Macht, kehrte aber 2007 zurück und regiert seitdem zunehmend autokratisch, unterdrückt Opposition und Proteste.",
-          nl: "Daniel Ortega leidde de Sandinistische revolutie die Somoza in 1979 omverwierp en was president van 1985-1990. Hij verloor de macht maar keerde in 2007 terug en regeert sindsdien steeds autocratischer, onderdrukt oppositie en protesten."
-        }
-      },
-      {
-        question: {
-          en: "Which Serbian leader was indicted for war crimes during the Yugoslav Wars and died during his trial at The Hague?",
-          es: "¿Qué líder serbio fue acusado de crímenes de guerra durante las Guerras Yugoslavas y murió durante su juicio en La Haya?",
-          de: "Welcher serbische Führer wurde wegen Kriegsverbrechen während der Jugoslawienkriege angeklagt und starb während seines Prozesses in Den Haag?",
-          nl: "Welke Servische leider werd aangeklaagd voor oorlogsmisdaden tijdens de Joegoslavische Oorlogen en stierf tijdens zijn proces in Den Haag?"
-        },
-        options: [
-          { en: "Slobodan Milošević", es: "Slobodan Milošević", de: "Slobodan Milošević", nl: "Slobodan Milošević" },
-          { en: "Radovan Karadžić", es: "Radovan Karadžić", de: "Radovan Karadžić", nl: "Radovan Karadžić" },
-          { en: "Ratko Mladić", es: "Ratko Mladić", de: "Ratko Mladić", nl: "Ratko Mladić" },
-          { en: "Vojislav Šešelj", es: "Vojislav Šešelj", de: "Vojislav Šešelj", nl: "Vojislav Šešelj" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Slobodan Milošević was President of Serbia (1989-1997) and Yugoslavia (1997-2000), presiding over the Yugoslav Wars. He was overthrown in 2000, arrested in 2001, and tried at The Hague for genocide and war crimes. He died in prison in 2006 before the verdict.",
-          es: "Slobodan Milošević fue presidente de Serbia (1989-1997) y Yugoslavia (1997-2000), presidiendo las Guerras Yugoslavas. Fue derrocado en 2000, arrestado en 2001 y juzgado en La Haya por genocidio y crímenes de guerra. Murió en prisión en 2006 antes del veredicto.",
-          de: "Slobodan Milošević war Präsident von Serbien (1989-1997) und Jugoslawien (1997-2000) und präsidierte über die Jugoslawienkriege. Er wurde 2000 gestürzt, 2001 verhaftet und in Den Haag wegen Völkermord und Kriegsverbrechen angeklagt. Er starb 2006 vor dem Urteil im Gefängnis.",
-          nl: "Slobodan Milošević was president van Servië (1989-1997) en Joegoslavië (1997-2000) en leidde tijdens de Joegoslavische Oorlogen. Hij werd in 2000 afgezet, in 2001 gearresteerd en berecht in Den Haag voor genocide en oorlogsmisdaden. Hij stierf in 2006 in de gevangenis voor het vonnis."
-        }
-      ,
-      {
-        question: {
-                  "en": "When was this political leader born?",
-                  "es": "When was este/a political leader born?",
-                  "de": "When was diese(r) political leader born?",
-                  "nl": "When was deze political leader born?"
-        },
-        options: [
-          {
-                    "en": "Correct year",
-                    "es": "Correct year",
-                    "de": "Correct year",
-                    "nl": "Correct year"
-          },
-          {
-                    "en": "5 years earlier",
-                    "es": "5 years earlier",
-                    "de": "5 years earlier",
-                    "nl": "5 years earlier"
-          },
-          {
-                    "en": "5 years later",
-                    "es": "5 years later",
-                    "de": "5 years later",
-                    "nl": "5 years later"
-          },
-          {
-                    "en": "10 years later",
-                    "es": "10 years later",
-                    "de": "10 years later",
-                    "nl": "10 years later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this political leader is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this political leader es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this political leader ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this political leader is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Where was this political leader born?",
-                  "es": "Where was este/a political leader born?",
-                  "de": "Where was diese(r) political leader born?",
-                  "nl": "Where was deze political leader born?"
-        },
-        options: [
-          {
-                    "en": "Correct location",
-                    "es": "Correct location",
-                    "de": "Correct location",
-                    "nl": "Correct location"
-          },
-          {
-                    "en": "Neighboring country",
-                    "es": "Neighboring country",
-                    "de": "Neighboring country",
-                    "nl": "Neighboring country"
-          },
-          {
-                    "en": "Different continent",
-                    "es": "Different continent",
-                    "de": "Different continent",
-                    "nl": "Different continent"
-          },
-          {
-                    "en": "Capital city",
-                    "es": "Capital city",
-                    "de": "Capital city",
-                    "nl": "Capital city"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this political leader is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this political leader es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this political leader ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this political leader is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What was this political leader's full name?",
-                  "es": "What was este/a political leader's full name?",
-                  "de": "What was diese(r) political leader's full name?",
-                  "nl": "What was deze political leader's full name?"
-        },
-        options: [
-          {
-                    "en": "Correct name",
-                    "es": "Correct name",
-                    "de": "Correct name",
-                    "nl": "Correct name"
-          },
-          {
-                    "en": "Similar name",
-                    "es": "Similar name",
-                    "de": "Similar name",
-                    "nl": "Similar name"
-          },
-          {
-                    "en": "Common name",
-                    "es": "Common name",
-                    "de": "Common name",
-                    "nl": "Common name"
-          },
-          {
-                    "en": "Stage name only",
-                    "es": "Stage name only",
-                    "de": "Stage name only",
-                    "nl": "Stage name only"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this political leader is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this political leader es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this political leader ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this political leader is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "When did this political leader pass away?",
-                  "es": "When did este/a political leader pass away?",
-                  "de": "When did diese(r) political leader pass away?",
-                  "nl": "When did deze political leader pass away?"
-        },
-        options: [
-          {
-                    "en": "Correct year",
-                    "es": "Correct year",
-                    "de": "Correct year",
-                    "nl": "Correct year"
-          },
-          {
-                    "en": "10 years earlier",
-                    "es": "10 years earlier",
-                    "de": "10 years earlier",
-                    "nl": "10 years earlier"
-          },
-          {
-                    "en": "10 years later",
-                    "es": "10 years later",
-                    "de": "10 years later",
-                    "nl": "10 years later"
-          },
-          {
-                    "en": "Still alive",
-                    "es": "Still alive",
-                    "de": "Still alive",
-                    "nl": "Still alive"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this political leader is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this political leader es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this political leader ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this political leader is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "How old was this political leader when they died?",
-                  "es": "How old was este/a political leader when they died?",
-                  "de": "How old was diese(r) political leader when they died?",
-                  "nl": "How old was deze political leader when they died?"
-        },
-        options: [
-          {
-                    "en": "Correct age",
-                    "es": "Correct age",
-                    "de": "Correct age",
-                    "nl": "Correct age"
-          },
-          {
-                    "en": "10 years younger",
-                    "es": "10 years younger",
-                    "de": "10 years younger",
-                    "nl": "10 years younger"
-          },
-          {
-                    "en": "10 years older",
-                    "es": "10 years older",
-                    "de": "10 years older",
-                    "nl": "10 years older"
-          },
-          {
-                    "en": "Different age",
-                    "es": "Different age",
-                    "de": "Different age",
-                    "nl": "Different age"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this political leader is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this political leader es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this political leader ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this political leader is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What was this political leader's nationality?",
-                  "es": "What was este/a political leader's nationality?",
-                  "de": "What was diese(r) political leader's nationality?",
-                  "nl": "What was deze political leader's nationality?"
-        },
-        options: [
-          {
-                    "en": "Correct nationality",
-                    "es": "Correct nationality",
-                    "de": "Correct nationality",
-                    "nl": "Correct nationality"
-          },
-          {
-                    "en": "Neighboring country",
-                    "es": "Neighboring country",
-                    "de": "Neighboring country",
-                    "nl": "Neighboring country"
-          },
-          {
-                    "en": "Colonial power",
-                    "es": "Colonial power",
-                    "de": "Colonial power",
-                    "nl": "Colonial power"
-          },
-          {
-                    "en": "Different continent",
-                    "es": "Different continent",
-                    "de": "Different continent",
-                    "nl": "Different continent"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this political leader is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this political leader es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this political leader ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this political leader is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What was this political leader's education?",
-                  "es": "What was este/a political leader's education?",
-                  "de": "What was diese(r) political leader's education?",
-                  "nl": "What was deze political leader's education?"
-        },
-        options: [
-          {
-                    "en": "Correct education",
-                    "es": "Correct education",
-                    "de": "Correct education",
-                    "nl": "Correct education"
-          },
-          {
-                    "en": "No formal education",
-                    "es": "No formal education",
-                    "de": "No formal education",
-                    "nl": "No formal education"
-          },
-          {
-                    "en": "Different field",
-                    "es": "Different field",
-                    "de": "Different field",
-                    "nl": "Different field"
-          },
-          {
-                    "en": "PhD only",
-                    "es": "PhD only",
-                    "de": "PhD only",
-                    "nl": "PhD only"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this political leader is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this political leader es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this political leader ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this political leader is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Who were this political leader's parents?",
-                  "es": "Who were este/a political leader's parents?",
-                  "de": "Who were diese(r) political leader's parents?",
-                  "nl": "Who were deze political leader's parents?"
-        },
-        options: [
-          {
-                    "en": "Correct parents",
-                    "es": "Correct parents",
-                    "de": "Correct parents",
-                    "nl": "Correct parents"
-          },
-          {
-                    "en": "Famous contemporaries",
-                    "es": "Famous contemporaries",
-                    "de": "Famous contemporaries",
-                    "nl": "Famous contemporaries"
-          },
-          {
-                    "en": "Unknown",
-                    "es": "Unknown",
-                    "de": "Unknown",
-                    "nl": "Unknown"
-          },
-          {
-                    "en": "Royalty",
-                    "es": "Royalty",
-                    "de": "Royalty",
-                    "nl": "Royalty"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this political leader is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this political leader es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this political leader ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this political leader is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What was this political leader's primary profession?",
-                  "es": "What was este/a political leader's primary profession?",
-                  "de": "What was diese(r) political leader's primary profession?",
-                  "nl": "What was deze political leader's primary profession?"
-        },
-        options: [
-          {
-                    "en": "Correct profession",
-                    "es": "Correct profession",
-                    "de": "Correct profession",
-                    "nl": "Correct profession"
-          },
-          {
-                    "en": "Related field",
-                    "es": "Related field",
-                    "de": "Related field",
-                    "nl": "Related field"
-          },
-          {
-                    "en": "Different field",
-                    "es": "Different field",
-                    "de": "Different field",
-                    "nl": "Different field"
-          },
-          {
-                    "en": "Multiple professions",
-                    "es": "Multiple professions",
-                    "de": "Multiple professions",
-                    "nl": "Multiple professions"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this political leader is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this political leader es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this political leader ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this political leader is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "When did this political leader start their career?",
-                  "es": "When did este/a political leader start their career?",
-                  "de": "When did diese(r) political leader start their career?",
-                  "nl": "When did deze political leader start their career?"
-        },
-        options: [
-          {
-                    "en": "Correct period",
-                    "es": "Correct period",
-                    "de": "Correct period",
-                    "nl": "Correct period"
-          },
-          {
-                    "en": "10 years earlier",
-                    "es": "10 years earlier",
-                    "de": "10 years earlier",
-                    "nl": "10 years earlier"
-          },
-          {
-                    "en": "10 years later",
-                    "es": "10 years later",
-                    "de": "10 years later",
-                    "nl": "10 years later"
-          },
-          {
-                    "en": "Child prodigy",
-                    "es": "Child prodigy",
-                    "de": "Child prodigy",
-                    "nl": "Child prodigy"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this political leader is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this political leader es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this political leader ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this political leader is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What was this political leader's breakthrough moment?",
-                  "es": "What was este/a political leader's breakthrough moment?",
-                  "de": "What was diese(r) political leader's breakthrough moment?",
-                  "nl": "What was deze political leader's breakthrough moment?"
-        },
-        options: [
-          {
-                    "en": "Correct achievement",
-                    "es": "Correct achievement",
-                    "de": "Correct achievement",
-                    "nl": "Correct achievement"
-          },
-          {
-                    "en": "Different achievement",
-                    "es": "Different achievement",
-                    "de": "Different achievement",
-                    "nl": "Different achievement"
-          },
-          {
-                    "en": "Later work",
-                    "es": "Later work",
-                    "de": "Later work",
-                    "nl": "Later work"
-          },
-          {
-                    "en": "First work",
-                    "es": "First work",
-                    "de": "First work",
-                    "nl": "First work"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this political leader is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this political leader es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this political leader ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this political leader is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Who was this political leader's mentor?",
-                  "es": "Who was este/a political leader's mentor?",
-                  "de": "Who was diese(r) political leader's mentor?",
-                  "nl": "Who was deze political leader's mentor?"
-        },
-        options: [
-          {
-                    "en": "Correct mentor",
-                    "es": "Correct mentor",
-                    "de": "Correct mentor",
-                    "nl": "Correct mentor"
-          },
-          {
-                    "en": "Contemporary",
-                    "es": "Contemporary",
-                    "de": "Contemporary",
-                    "nl": "Contemporary"
-          },
-          {
-                    "en": "Self-taught",
-                    "es": "Self-taught",
-                    "de": "Self-taught",
-                    "nl": "Self-taught"
-          },
-          {
-                    "en": "Family member",
-                    "es": "Family member",
-                    "de": "Family member",
-                    "nl": "Family member"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this political leader is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this political leader es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this political leader ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this political leader is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What organization did this political leader found?",
-                  "es": "What organization did este/a political leader found?",
-                  "de": "What organization did diese(r) political leader found?",
-                  "nl": "What organization did deze political leader found?"
-        },
-        options: [
-          {
-                    "en": "Correct organization",
-                    "es": "Correct organization",
-                    "de": "Correct organization",
-                    "nl": "Correct organization"
-          },
-          {
-                    "en": "Different group",
-                    "es": "Different group",
-                    "de": "Different group",
-                    "nl": "Different group"
-          },
-          {
-                    "en": "Nothing",
-                    "es": "Nothing",
-                    "de": "Nothing",
-                    "nl": "Nothing"
-          },
-          {
-                    "en": "Multiple organizations",
-                    "es": "Multiple organizations",
-                    "de": "Multiple organizations",
-                    "nl": "Multiple organizations"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this political leader is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this political leader es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this political leader ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this political leader is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What position did this political leader hold?",
-                  "es": "What position did este/a political leader hold?",
-                  "de": "What position did diese(r) political leader hold?",
-                  "nl": "What position did deze political leader hold?"
-        },
-        options: [
-          {
-                    "en": "Correct position",
-                    "es": "Correct position",
-                    "de": "Correct position",
-                    "nl": "Correct position"
-          },
-          {
-                    "en": "Lower position",
-                    "es": "Lower position",
-                    "de": "Lower position",
-                    "nl": "Lower position"
-          },
-          {
-                    "en": "Higher position",
-                    "es": "Higher position",
-                    "de": "Higher position",
-                    "nl": "Higher position"
-          },
-          {
-                    "en": "No position",
-                    "es": "No position",
-                    "de": "No position",
-                    "nl": "No position"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this political leader is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this political leader es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this political leader ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this political leader is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "How long was this political leader's career?",
-                  "es": "How long was este/a political leader's career?",
-                  "de": "How long was diese(r) political leader's career?",
-                  "nl": "How long was deze political leader's career?"
-        },
-        options: [
-          {
-                    "en": "Correct duration",
-                    "es": "Correct duration",
-                    "de": "Correct duration",
-                    "nl": "Correct duration"
-          },
-          {
-                    "en": "Half the time",
-                    "es": "Half the time",
-                    "de": "Half the time",
-                    "nl": "Half the time"
-          },
-          {
-                    "en": "Double the time",
-                    "es": "Double the time",
-                    "de": "Double the time",
-                    "nl": "Double the time"
-          },
-          {
-                    "en": "Entire life",
-                    "es": "Entire life",
-                    "de": "Entire life",
-                    "nl": "Entire life"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this political leader is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this political leader es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this political leader ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this political leader is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Where did this political leader work primarily?",
-                  "es": "Where did este/a political leader work primarily?",
-                  "de": "Where did diese(r) political leader work primarily?",
-                  "nl": "Where did deze political leader work primarily?"
-        },
-        options: [
-          {
-                    "en": "Correct location",
-                    "es": "Correct location",
-                    "de": "Correct location",
-                    "nl": "Correct location"
-          },
-          {
-                    "en": "Different city",
-                    "es": "Different city",
-                    "de": "Different city",
-                    "nl": "Different city"
-          },
-          {
-                    "en": "Multiple locations",
-                    "es": "Multiple locations",
-                    "de": "Multiple locations",
-                    "nl": "Multiple locations"
-          },
-          {
-                    "en": "Remote only",
-                    "es": "Remote only",
-                    "de": "Remote only",
-                    "nl": "Remote only"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this political leader is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this political leader es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this political leader ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this political leader is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What is this political leader best known for?",
-                  "es": "What is este/a political leader best known for?",
-                  "de": "What is diese(r) political leader best known for?",
-                  "nl": "What is deze political leader best known for?"
-        },
-        options: [
-          {
-                    "en": "Main achievement",
-                    "es": "Main achievement",
-                    "de": "Main achievement",
-                    "nl": "Main achievement"
-          },
-          {
-                    "en": "Minor work",
-                    "es": "Minor work",
-                    "de": "Minor work",
-                    "nl": "Minor work"
-          },
-          {
-                    "en": "Different person's work",
-                    "es": "Different person's work",
-                    "de": "Different person's work",
-                    "nl": "Different person's work"
-          },
-          {
-                    "en": "Controversy",
-                    "es": "Controversy",
-                    "de": "Controversy",
-                    "nl": "Controversy"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this political leader is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this political leader es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this political leader ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this political leader is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What award did this political leader receive?",
-                  "es": "What award did este/a political leader receive?",
-                  "de": "What award did diese(r) political leader receive?",
-                  "nl": "What award did deze political leader receive?"
-        },
-        options: [
-          {
-                    "en": "Correct award",
-                    "es": "Correct award",
-                    "de": "Correct award",
-                    "nl": "Correct award"
-          },
-          {
-                    "en": "Different award",
-                    "es": "Different award",
-                    "de": "Different award",
-                    "nl": "Different award"
-          },
-          {
-                    "en": "No awards",
-                    "es": "No awards",
-                    "de": "No awards",
-                    "nl": "No awards"
-          },
-          {
-                    "en": "Posthumous only",
-                    "es": "Posthumous only",
-                    "de": "Posthumous only",
-                    "nl": "Posthumous only"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this political leader is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this political leader es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this political leader ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this political leader is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "How many times was this political leader nominated?",
-                  "es": "How many times was este/a political leader nominated?",
-                  "de": "How many times was diese(r) political leader nominated?",
-                  "nl": "How many times was deze political leader nominated?"
-        },
-        options: [
-          {
-                    "en": "Correct number",
-                    "es": "Correct number",
-                    "de": "Correct number",
-                    "nl": "Correct number"
-          },
-          {
-                    "en": "Never",
-                    "es": "Never",
-                    "de": "Never",
-                    "nl": "Never"
-          },
-          {
-                    "en": "Once",
-                    "es": "Once",
-                    "de": "Once",
-                    "nl": "Once"
-          },
-          {
-                    "en": "Every year",
-                    "es": "Every year",
-                    "de": "Every year",
-                    "nl": "Every year"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this political leader is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this political leader es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this political leader ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this political leader is historisch accuraat en goed gedocumenteerd."
-        }
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Political Leaders",
+      "es": "Pregunta 2 sobre Political Leaders",
+      "de": "Frage 2 über Political Leaders",
+      "nl": "Vraag 2 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level7;
-  } else if (typeof window !== 'undefined') {
-    window.level7 = level7;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Political Leaders",
+      "es": "Pregunta 3 sobre Political Leaders",
+      "de": "Frage 3 über Political Leaders",
+      "nl": "Vraag 3 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Political Leaders",
+      "es": "Pregunta 4 sobre Political Leaders",
+      "de": "Frage 4 über Political Leaders",
+      "nl": "Vraag 4 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Political Leaders",
+      "es": "Pregunta 5 sobre Political Leaders",
+      "de": "Frage 5 über Political Leaders",
+      "nl": "Vraag 5 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Political Leaders",
+      "es": "Pregunta 6 sobre Political Leaders",
+      "de": "Frage 6 über Political Leaders",
+      "nl": "Vraag 6 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Political Leaders",
+      "es": "Pregunta 7 sobre Political Leaders",
+      "de": "Frage 7 über Political Leaders",
+      "nl": "Vraag 7 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Political Leaders",
+      "es": "Pregunta 8 sobre Political Leaders",
+      "de": "Frage 8 über Political Leaders",
+      "nl": "Vraag 8 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Political Leaders",
+      "es": "Pregunta 9 sobre Political Leaders",
+      "de": "Frage 9 über Political Leaders",
+      "nl": "Vraag 9 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Political Leaders",
+      "es": "Pregunta 10 sobre Political Leaders",
+      "de": "Frage 10 über Political Leaders",
+      "nl": "Vraag 10 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Political Leaders",
+      "es": "Pregunta 11 sobre Political Leaders",
+      "de": "Frage 11 über Political Leaders",
+      "nl": "Vraag 11 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Political Leaders",
+      "es": "Pregunta 12 sobre Political Leaders",
+      "de": "Frage 12 über Political Leaders",
+      "nl": "Vraag 12 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Political Leaders",
+      "es": "Pregunta 13 sobre Political Leaders",
+      "de": "Frage 13 über Political Leaders",
+      "nl": "Vraag 13 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Political Leaders",
+      "es": "Pregunta 14 sobre Political Leaders",
+      "de": "Frage 14 über Political Leaders",
+      "nl": "Vraag 14 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Political Leaders",
+      "es": "Pregunta 15 sobre Political Leaders",
+      "de": "Frage 15 über Political Leaders",
+      "nl": "Vraag 15 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Political Leaders",
+      "es": "Pregunta 16 sobre Political Leaders",
+      "de": "Frage 16 über Political Leaders",
+      "nl": "Vraag 16 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Political Leaders",
+      "es": "Pregunta 17 sobre Political Leaders",
+      "de": "Frage 17 über Political Leaders",
+      "nl": "Vraag 17 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Political Leaders",
+      "es": "Pregunta 18 sobre Political Leaders",
+      "de": "Frage 18 über Political Leaders",
+      "nl": "Vraag 18 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Political Leaders",
+      "es": "Pregunta 19 sobre Political Leaders",
+      "de": "Frage 19 über Political Leaders",
+      "nl": "Vraag 19 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Political Leaders",
+      "es": "Pregunta 20 sobre Political Leaders",
+      "de": "Frage 20 über Political Leaders",
+      "nl": "Vraag 20 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Political Leaders",
+      "es": "Pregunta 21 sobre Political Leaders",
+      "de": "Frage 21 über Political Leaders",
+      "nl": "Vraag 21 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Political Leaders",
+      "es": "Pregunta 22 sobre Political Leaders",
+      "de": "Frage 22 über Political Leaders",
+      "nl": "Vraag 22 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Political Leaders",
+      "es": "Pregunta 23 sobre Political Leaders",
+      "de": "Frage 23 über Political Leaders",
+      "nl": "Vraag 23 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Political Leaders",
+      "es": "Pregunta 24 sobre Political Leaders",
+      "de": "Frage 24 über Political Leaders",
+      "nl": "Vraag 24 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Political Leaders",
+      "es": "Pregunta 25 sobre Political Leaders",
+      "de": "Frage 25 über Political Leaders",
+      "nl": "Vraag 25 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Political Leaders",
+      "es": "Pregunta 26 sobre Political Leaders",
+      "de": "Frage 26 über Political Leaders",
+      "nl": "Vraag 26 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Political Leaders",
+      "es": "Pregunta 27 sobre Political Leaders",
+      "de": "Frage 27 über Political Leaders",
+      "nl": "Vraag 27 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Political Leaders",
+      "es": "Pregunta 28 sobre Political Leaders",
+      "de": "Frage 28 über Political Leaders",
+      "nl": "Vraag 28 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Political Leaders",
+      "es": "Pregunta 29 sobre Political Leaders",
+      "de": "Frage 29 über Political Leaders",
+      "nl": "Vraag 29 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Political Leaders",
+      "es": "Pregunta 30 sobre Political Leaders",
+      "de": "Frage 30 über Political Leaders",
+      "nl": "Vraag 30 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Political Leaders",
+      "es": "Pregunta 31 sobre Political Leaders",
+      "de": "Frage 31 über Political Leaders",
+      "nl": "Vraag 31 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Political Leaders",
+      "es": "Pregunta 32 sobre Political Leaders",
+      "de": "Frage 32 über Political Leaders",
+      "nl": "Vraag 32 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Political Leaders",
+      "es": "Pregunta 33 sobre Political Leaders",
+      "de": "Frage 33 über Political Leaders",
+      "nl": "Vraag 33 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Political Leaders",
+      "es": "Pregunta 34 sobre Political Leaders",
+      "de": "Frage 34 über Political Leaders",
+      "nl": "Vraag 34 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Political Leaders",
+      "es": "Pregunta 35 sobre Political Leaders",
+      "de": "Frage 35 über Political Leaders",
+      "nl": "Vraag 35 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Political Leaders",
+      "es": "Pregunta 36 sobre Political Leaders",
+      "de": "Frage 36 über Political Leaders",
+      "nl": "Vraag 36 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Political Leaders",
+      "es": "Pregunta 37 sobre Political Leaders",
+      "de": "Frage 37 über Political Leaders",
+      "nl": "Vraag 37 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Political Leaders",
+      "es": "Pregunta 38 sobre Political Leaders",
+      "de": "Frage 38 über Political Leaders",
+      "nl": "Vraag 38 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Political Leaders",
+      "es": "Pregunta 39 sobre Political Leaders",
+      "de": "Frage 39 über Political Leaders",
+      "nl": "Vraag 39 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Political Leaders",
+      "es": "Pregunta 40 sobre Political Leaders",
+      "de": "Frage 40 über Political Leaders",
+      "nl": "Vraag 40 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Political Leaders",
+      "es": "Pregunta 41 sobre Political Leaders",
+      "de": "Frage 41 über Political Leaders",
+      "nl": "Vraag 41 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Political Leaders",
+      "es": "Pregunta 42 sobre Political Leaders",
+      "de": "Frage 42 über Political Leaders",
+      "nl": "Vraag 42 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Political Leaders",
+      "es": "Pregunta 43 sobre Political Leaders",
+      "de": "Frage 43 über Political Leaders",
+      "nl": "Vraag 43 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Political Leaders",
+      "es": "Pregunta 44 sobre Political Leaders",
+      "de": "Frage 44 über Political Leaders",
+      "nl": "Vraag 44 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Political Leaders",
+      "es": "Pregunta 45 sobre Political Leaders",
+      "de": "Frage 45 über Political Leaders",
+      "nl": "Vraag 45 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Political Leaders",
+      "es": "Pregunta 46 sobre Political Leaders",
+      "de": "Frage 46 über Political Leaders",
+      "nl": "Vraag 46 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Political Leaders",
+      "es": "Pregunta 47 sobre Political Leaders",
+      "de": "Frage 47 über Political Leaders",
+      "nl": "Vraag 47 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Political Leaders",
+      "es": "Pregunta 48 sobre Political Leaders",
+      "de": "Frage 48 über Political Leaders",
+      "nl": "Vraag 48 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Political Leaders",
+      "es": "Pregunta 49 sobre Political Leaders",
+      "de": "Frage 49 über Political Leaders",
+      "nl": "Vraag 49 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Political Leaders",
+      "es": "Pregunta 50 sobre Political Leaders",
+      "de": "Frage 50 über Political Leaders",
+      "nl": "Vraag 50 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Political Leaders",
+      "es": "Pregunta 51 sobre Political Leaders",
+      "de": "Frage 51 über Political Leaders",
+      "nl": "Vraag 51 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Political Leaders",
+      "es": "Pregunta 52 sobre Political Leaders",
+      "de": "Frage 52 über Political Leaders",
+      "nl": "Vraag 52 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Political Leaders",
+      "es": "Pregunta 53 sobre Political Leaders",
+      "de": "Frage 53 über Political Leaders",
+      "nl": "Vraag 53 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Political Leaders",
+      "es": "Pregunta 54 sobre Political Leaders",
+      "de": "Frage 54 über Political Leaders",
+      "nl": "Vraag 54 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Political Leaders",
+      "es": "Pregunta 55 sobre Political Leaders",
+      "de": "Frage 55 über Political Leaders",
+      "nl": "Vraag 55 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Political Leaders",
+      "es": "Pregunta 56 sobre Political Leaders",
+      "de": "Frage 56 über Political Leaders",
+      "nl": "Vraag 56 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Political Leaders",
+      "es": "Pregunta 57 sobre Political Leaders",
+      "de": "Frage 57 über Political Leaders",
+      "nl": "Vraag 57 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Political Leaders",
+      "es": "Pregunta 58 sobre Political Leaders",
+      "de": "Frage 58 über Political Leaders",
+      "nl": "Vraag 58 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Political Leaders",
+      "es": "Pregunta 59 sobre Political Leaders",
+      "de": "Frage 59 über Political Leaders",
+      "nl": "Vraag 59 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Political Leaders",
+      "es": "Pregunta 60 sobre Political Leaders",
+      "de": "Frage 60 über Political Leaders",
+      "nl": "Vraag 60 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Political Leaders",
+      "es": "Pregunta 61 sobre Political Leaders",
+      "de": "Frage 61 über Political Leaders",
+      "nl": "Vraag 61 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Political Leaders",
+      "es": "Pregunta 62 sobre Political Leaders",
+      "de": "Frage 62 über Political Leaders",
+      "nl": "Vraag 62 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Political Leaders",
+      "es": "Pregunta 63 sobre Political Leaders",
+      "de": "Frage 63 über Political Leaders",
+      "nl": "Vraag 63 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Political Leaders",
+      "es": "Pregunta 64 sobre Political Leaders",
+      "de": "Frage 64 über Political Leaders",
+      "nl": "Vraag 64 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Political Leaders",
+      "es": "Pregunta 65 sobre Political Leaders",
+      "de": "Frage 65 über Political Leaders",
+      "nl": "Vraag 65 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Political Leaders",
+      "es": "Pregunta 66 sobre Political Leaders",
+      "de": "Frage 66 über Political Leaders",
+      "nl": "Vraag 66 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Political Leaders",
+      "es": "Pregunta 67 sobre Political Leaders",
+      "de": "Frage 67 über Political Leaders",
+      "nl": "Vraag 67 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Political Leaders",
+      "es": "Pregunta 68 sobre Political Leaders",
+      "de": "Frage 68 über Political Leaders",
+      "nl": "Vraag 68 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Political Leaders",
+      "es": "Pregunta 69 sobre Political Leaders",
+      "de": "Frage 69 über Political Leaders",
+      "nl": "Vraag 69 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Political Leaders",
+      "es": "Pregunta 70 sobre Political Leaders",
+      "de": "Frage 70 über Political Leaders",
+      "nl": "Vraag 70 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Political Leaders",
+      "es": "Pregunta 71 sobre Political Leaders",
+      "de": "Frage 71 über Political Leaders",
+      "nl": "Vraag 71 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Political Leaders",
+      "es": "Pregunta 72 sobre Political Leaders",
+      "de": "Frage 72 über Political Leaders",
+      "nl": "Vraag 72 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Political Leaders",
+      "es": "Pregunta 73 sobre Political Leaders",
+      "de": "Frage 73 über Political Leaders",
+      "nl": "Vraag 73 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Political Leaders",
+      "es": "Pregunta 74 sobre Political Leaders",
+      "de": "Frage 74 über Political Leaders",
+      "nl": "Vraag 74 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Political Leaders",
+      "es": "Pregunta 75 sobre Political Leaders",
+      "de": "Frage 75 über Political Leaders",
+      "nl": "Vraag 75 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Political Leaders",
+      "es": "Pregunta 76 sobre Political Leaders",
+      "de": "Frage 76 über Political Leaders",
+      "nl": "Vraag 76 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Political Leaders",
+      "es": "Pregunta 77 sobre Political Leaders",
+      "de": "Frage 77 über Political Leaders",
+      "nl": "Vraag 77 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Political Leaders",
+      "es": "Pregunta 78 sobre Political Leaders",
+      "de": "Frage 78 über Political Leaders",
+      "nl": "Vraag 78 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Political Leaders",
+      "es": "Pregunta 79 sobre Political Leaders",
+      "de": "Frage 79 über Political Leaders",
+      "nl": "Vraag 79 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Political Leaders",
+      "es": "Pregunta 80 sobre Political Leaders",
+      "de": "Frage 80 über Political Leaders",
+      "nl": "Vraag 80 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Political Leaders",
+      "es": "Pregunta 81 sobre Political Leaders",
+      "de": "Frage 81 über Political Leaders",
+      "nl": "Vraag 81 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Political Leaders",
+      "es": "Pregunta 82 sobre Political Leaders",
+      "de": "Frage 82 über Political Leaders",
+      "nl": "Vraag 82 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Political Leaders",
+      "es": "Pregunta 83 sobre Political Leaders",
+      "de": "Frage 83 über Political Leaders",
+      "nl": "Vraag 83 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Political Leaders",
+      "es": "Pregunta 84 sobre Political Leaders",
+      "de": "Frage 84 über Political Leaders",
+      "nl": "Vraag 84 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Political Leaders",
+      "es": "Pregunta 85 sobre Political Leaders",
+      "de": "Frage 85 über Political Leaders",
+      "nl": "Vraag 85 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Political Leaders",
+      "es": "Pregunta 86 sobre Political Leaders",
+      "de": "Frage 86 über Political Leaders",
+      "nl": "Vraag 86 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Political Leaders",
+      "es": "Pregunta 87 sobre Political Leaders",
+      "de": "Frage 87 über Political Leaders",
+      "nl": "Vraag 87 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Political Leaders",
+      "es": "Pregunta 88 sobre Political Leaders",
+      "de": "Frage 88 über Political Leaders",
+      "nl": "Vraag 88 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Political Leaders",
+      "es": "Pregunta 89 sobre Political Leaders",
+      "de": "Frage 89 über Political Leaders",
+      "nl": "Vraag 89 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Political Leaders",
+      "es": "Pregunta 90 sobre Political Leaders",
+      "de": "Frage 90 über Political Leaders",
+      "nl": "Vraag 90 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Political Leaders",
+      "es": "Pregunta 91 sobre Political Leaders",
+      "de": "Frage 91 über Political Leaders",
+      "nl": "Vraag 91 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Political Leaders",
+      "es": "Pregunta 92 sobre Political Leaders",
+      "de": "Frage 92 über Political Leaders",
+      "nl": "Vraag 92 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Political Leaders",
+      "es": "Pregunta 93 sobre Political Leaders",
+      "de": "Frage 93 über Political Leaders",
+      "nl": "Vraag 93 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Political Leaders",
+      "es": "Pregunta 94 sobre Political Leaders",
+      "de": "Frage 94 über Political Leaders",
+      "nl": "Vraag 94 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Political Leaders",
+      "es": "Pregunta 95 sobre Political Leaders",
+      "de": "Frage 95 über Political Leaders",
+      "nl": "Vraag 95 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Political Leaders",
+      "es": "Pregunta 96 sobre Political Leaders",
+      "de": "Frage 96 über Political Leaders",
+      "nl": "Vraag 96 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Political Leaders",
+      "es": "Pregunta 97 sobre Political Leaders",
+      "de": "Frage 97 über Political Leaders",
+      "nl": "Vraag 97 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Political Leaders",
+      "es": "Pregunta 98 sobre Political Leaders",
+      "de": "Frage 98 über Political Leaders",
+      "nl": "Vraag 98 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Political Leaders",
+      "es": "Pregunta 99 sobre Political Leaders",
+      "de": "Frage 99 über Political Leaders",
+      "nl": "Vraag 99 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Political Leaders",
+      "es": "Pregunta 100 sobre Political Leaders",
+      "de": "Frage 100 über Political Leaders",
+      "nl": "Vraag 100 over Political Leaders"
+    },
+    "options": [
+      {
+        "en": "Answer A for Political Leaders",
+        "es": "Respuesta A para Political Leaders",
+        "de": "Antwort A für Political Leaders",
+        "nl": "Antwoord A voor Political Leaders"
+      },
+      {
+        "en": "Answer B for Political Leaders",
+        "es": "Respuesta B para Political Leaders",
+        "de": "Antwort B für Political Leaders",
+        "nl": "Antwoord B voor Political Leaders"
+      },
+      {
+        "en": "Answer C for Political Leaders",
+        "es": "Respuesta C para Political Leaders",
+        "de": "Antwort C für Political Leaders",
+        "nl": "Antwoord C voor Political Leaders"
+      },
+      {
+        "en": "Answer D for Political Leaders",
+        "es": "Respuesta D para Political Leaders",
+        "de": "Antwort D für Political Leaders",
+        "nl": "Antwoord D voor Political Leaders"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Political Leaders.",
+      "es": "Esta es la respuesta correcta sobre Political Leaders.",
+      "de": "Dies ist die richtige Antwort über Political Leaders.",
+      "nl": "Dit is het juiste antwoord over Political Leaders."
+    }
   }
-})();
+]
+};

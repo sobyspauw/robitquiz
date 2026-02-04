@@ -1,1657 +1,4104 @@
-// Coffee Quiz - Level 3
-(function() {
-  const level3 = {
-    name: {
-          "en": "Coffee Level 3",
-          "es": "Café Nivel 3",
-          "de": "Kaffee Stufe 3",
-          "nl": "Koffie Level 3"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Coffee",
+      "es": "Pregunta 1 sobre Coffee",
+      "de": "Frage 1 über Coffee",
+      "nl": "Vraag 1 over Coffee"
     },
-    questions: [
+    "options": [
       {
-        question: {
-                  "en": "What is the 'third wave' coffee movement?",
-                  "es": "¿Qué es el movimiento del café de 'tercera ola'?",
-                  "de": "Was ist die 'Third Wave' Kaffeebewegung?",
-                  "nl": "Wat is de 'derde golf' koffiebeweging?"
-        },
-        options: [
-        {
-                  "en": "A movement treating coffee as an artisanal product with focus on quality and origin",
-                  "es": "Un movimiento que trata el café como un producto artesanal con enfoque en calidad y origen",
-                  "de": "Eine Bewegung, die Kaffee als handwerkliches Produkt mit Fokus auf Qualität und Herkunft behandelt",
-                  "nl": "Een beweging die koffie behandelt als ambachtelijk product met focus op kwaliteit en herkomst"
-        },
-        {
-                  "en": "Coffee served in three cups",
-                  "es": "Café servido en tres tazas",
-                  "de": "Kaffee serviert in drei Tassen",
-                  "nl": "Koffie geserveerd in drie kopjes"
-        },
-        {
-                  "en": "A new way to surf while drinking coffee",
-                  "es": "Una nueva forma de surfear mientras tomas café",
-                  "de": "Eine neue Art zu surfen beim Kaffeetrinken",
-                  "nl": "Een nieuwe manier om te surfen tijdens het koffiedrinken"
-        },
-        {
-                  "en": "The third time coffee is brewed",
-                  "es": "La tercera vez que se prepara el café",
-                  "de": "Das dritte Mal, dass Kaffee gebrüht wird",
-                  "nl": "De derde keer dat koffie wordt gezet"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Third wave coffee focuses on coffee as an artisanal product, emphasizing quality, direct trade, sustainability, lighter roasts, and the unique characteristics of single-origin beans.",
-                  "es": "El café de tercera ola se centra en el café como producto artesanal, enfatizando la calidad, comercio directo, sostenibilidad, tuestes más claros y las características únicas de granos de origen único.",
-                  "de": "Third Wave Kaffee konzentriert sich auf Kaffee als handwerkliches Produkt und betont Qualität, Direkthandel, Nachhaltigkeit, hellere Röstungen und die einzigartigen Eigenschaften von Single-Origin-Bohnen.",
-                  "nl": "Derde golf koffie richt zich op koffie als ambachtelijk product, met nadruk op kwaliteit, directe handel, duurzaamheid, lichtere brandingen en de unieke kenmerken van single-origin bonen."
-        }
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
       },
       {
-        question: {
-                  "en": "What is the ideal water temperature for brewing coffee?",
-                  "es": "¿Cuál es la temperatura ideal del agua para preparar café?",
-                  "de": "Was ist die ideale Wassertemperatur zum Brühen von Kaffee?",
-                  "nl": "Wat is de ideale watertemperatuur voor het zetten van koffie?"
-        },
-        options: [
-        {
-                  "en": "90-96°C (195-205°F)",
-                  "es": "90-96°C (195-205°F)",
-                  "de": "90-96°C (195-205°F)",
-                  "nl": "90-96°C (195-205°F)"
-        },
-        {
-                  "en": "50°C (122°F)",
-                  "es": "50°C (122°F)",
-                  "de": "50°C (122°F)",
-                  "nl": "50°C (122°F)"
-        },
-        {
-                  "en": "20°C (68°F) - room temperature",
-                  "es": "20°C (68°F) - temperatura ambiente",
-                  "de": "20°C (68°F) - Raumtemperatur",
-                  "nl": "20°C (68°F) - kamertemperatuur"
-        },
-        {
-                  "en": "100°C (212°F) - boiling",
-                  "es": "100°C (212°F) - hirviendo",
-                  "de": "100°C (212°F) - kochend",
-                  "nl": "100°C (212°F) - kokend"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The ideal brewing temperature is 90-96°C (195-205°F). Water that's too hot extracts bitter compounds, while water that's too cool under-extracts, resulting in weak, sour coffee.",
-                  "es": "La temperatura ideal de preparación es 90-96°C (195-205°F). El agua demasiado caliente extrae compuestos amargos, mientras que el agua demasiado fría sub-extrae, resultando en café débil y agrio.",
-                  "de": "Die ideale Brühtemperatur ist 90-96°C (195-205°F). Zu heißes Wasser extrahiert bittere Verbindungen, während zu kühles Wasser unterextrahiert, was zu schwachem, saurem Kaffee führt.",
-                  "nl": "De ideale zettemperatuur is 90-96°C (195-205°F). Water dat te heet is extraheert bittere stoffen, terwijl water dat te koel is onderextraheert, wat resulteert in zwakke, zure koffie."
-        }
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
       },
       {
-        question: {
-                  "en": "What is the difference between washed and natural processed coffee?",
-                  "es": "¿Cuál es la diferencia entre café lavado y procesado natural?",
-                  "de": "Was ist der Unterschied zwischen gewaschenem und natürlich verarbeitetem Kaffee?",
-                  "nl": "Wat is het verschil tussen gewassen en natuurlijk verwerkte koffie?"
-        },
-        options: [
-        {
-                  "en": "Washed coffee is cleaned with soap",
-                  "es": "Café lavado se limpia con jabón",
-                  "de": "Gewaschener Kaffee wird mit Seife gereinigt",
-                  "nl": "Gewassen koffie wordt schoongemaakt met zeep"
-        },
-        {
-                  "en": "Natural coffee grows in forests",
-                  "es": "Café natural crece en bosques",
-                  "de": "Natürlicher Kaffee wächst in Wäldern",
-                  "nl": "Natuurlijke koffie groeit in bossen"
-        },
-        {
-                  "en": "They are exactly the same",
-                  "es": "Son exactamente iguales",
-                  "de": "Sie sind genau gleich",
-                  "nl": "Ze zijn precies hetzelfde"
-        },
-        {
-                  "en": "Washed removes fruit before drying, natural dries with fruit intact",
-                  "es": "Lavado remueve la fruta antes de secar, natural seca con la fruta intacta",
-                  "de": "Gewaschen entfernt Frucht vor dem Trocknen, natürlich trocknet mit intakter Frucht",
-                  "nl": "Gewassen verwijdert vrucht voor drogen, natuurlijk droogt met vrucht intact"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Washed (wet) processing removes the fruit pulp before drying, creating cleaner, brighter flavors. Natural (dry) processing dries the whole cherry with fruit intact, resulting in fruitier, sweeter, more complex flavors.",
-                  "es": "El procesado lavado (húmedo) remueve la pulpa de la fruta antes de secar, creando sabores más limpios y brillantes. El procesado natural (seco) seca la cereza entera con la fruta intacta, resultando en sabores más frutales, dulces y complejos.",
-                  "de": "Gewaschene (nasse) Verarbeitung entfernt das Fruchtfleisch vor dem Trocknen und erzeugt sauberere, hellere Aromen. Natürliche (trockene) Verarbeitung trocknet die ganze Kirsche mit intakter Frucht, was fruchtigere, süßere, komplexere Aromen ergibt.",
-                  "nl": "Gewassen (natte) verwerking verwijdert het vruchtvruchtvlees voor het drogen, wat schonere, heldere smaken creëert. Natuurlijke (droge) verwerking droogt de hele kers met vrucht intact, wat resulteert in fruitigere, zoetere, complexere smaken."
-        }
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
       },
       {
-        question: {
-                  "en": "What does 'cupping' mean in coffee terminology?",
-                  "es": "¿Qué significa 'catación' en terminología del café?",
-                  "de": "Was bedeutet 'Cupping' in der Kaffeeterminologie?",
-                  "nl": "Wat betekent 'cupping' in koffieterminologie?"
-        },
-        options: [
-        {
-                  "en": "Professional tasting method to evaluate coffee quality and flavor",
-                  "es": "Método de degustación profesional para evaluar calidad y sabor del café",
-                  "de": "Professionelle Verkostungsmethode zur Bewertung von Kaffeequalität und Geschmack",
-                  "nl": "Professionele proefmethode om koffiekwaliteit en smaak te evalueren"
-        },
-        {
-                  "en": "Collecting coffee cups",
-                  "es": "Coleccionar tazas de café",
-                  "de": "Kaffeetassen sammeln",
-                  "nl": "Koffiekopjes verzamelen"
-        },
-        {
-                  "en": "Making coffee in cups",
-                  "es": "Hacer café en tazas",
-                  "de": "Kaffee in Tassen machen",
-                  "nl": "Koffie maken in kopjes"
-        },
-        {
-                  "en": "Holding a coffee cup",
-                  "es": "Sostener una taza de café",
-                  "de": "Eine Kaffeetasse halten",
-                  "nl": "Een koffiekopje vasthouden"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Cupping is a standardized method used by coffee professionals to taste and evaluate coffee. Coarsely ground coffee is steeped in hot water, then tasted by slurping to spray the coffee across the palate.",
-                  "es": "La catación es un método estandarizado usado por profesionales del café para degustar y evaluar café. El café molido grueso se empapa en agua caliente, luego se degusta sorbiendo para rociar el café por el paladar.",
-                  "de": "Cupping ist eine standardisierte Methode, die von Kaffeeprofis zum Verkosten und Bewerten von Kaffee verwendet wird. Grob gemahlener Kaffee wird in heißem Wasser gezogen, dann durch Schlürfen verkostet, um den Kaffee über den Gaumen zu sprühen.",
-                  "nl": "Cupping is een gestandaardiseerde methode die door koffieprofessionals wordt gebruikt om koffie te proeven en evalueren. Grof gemalen koffie wordt getrokken in heet water, dan geproefd door te slurpen om de koffie over het gehemelte te sproeien."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the golden ratio for brewing coffee?",
-                  "es": "¿Cuál es la proporción dorada para preparar café?",
-                  "de": "Was ist das goldene Verhältnis zum Brühen von Kaffee?",
-                  "nl": "Wat is de gouden ratio voor het zetten van koffie?"
-        },
-        options: [
-        {
-                  "en": "1:15 to 1:18 (coffee to water by weight)",
-                  "es": "1:15 a 1:18 (café a agua por peso)",
-                  "de": "1:15 bis 1:18 (Kaffee zu Wasser nach Gewicht)",
-                  "nl": "1:15 tot 1:18 (koffie tot water op gewicht)"
-        },
-        {
-                  "en": "No ratio needed",
-                  "es": "No se necesita proporción",
-                  "de": "Kein Verhältnis nötig",
-                  "nl": "Geen ratio nodig"
-        },
-        {
-                  "en": "1:1 (equal parts)",
-                  "es": "1:1 (partes iguales)",
-                  "de": "1:1 (gleiche Teile)",
-                  "nl": "1:1 (gelijke delen)"
-        },
-        {
-                  "en": "1:100",
-                  "es": "1:100",
-                  "de": "1:100",
-                  "nl": "1:100"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The golden ratio is typically 1:15 to 1:18 coffee to water by weight. For example, 15-18 grams of water for every gram of coffee. This can be adjusted based on personal preference.",
-                  "es": "La proporción dorada es típicamente 1:15 a 1:18 de café a agua por peso. Por ejemplo, 15-18 gramos de agua por cada gramo de café. Esto puede ajustarse según la preferencia personal.",
-                  "de": "Das goldene Verhältnis ist typischerweise 1:15 bis 1:18 Kaffee zu Wasser nach Gewicht. Zum Beispiel 15-18 Gramm Wasser für jedes Gramm Kaffee. Dies kann nach persönlicher Vorliebe angepasst werden.",
-                  "nl": "De gouden ratio is typisch 1:15 tot 1:18 koffie tot water op gewicht. Bijvoorbeeld 15-18 gram water voor elke gram koffie. Dit kan worden aangepast op basis van persoonlijke voorkeur."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the purpose of blooming when brewing pour-over coffee?",
-                  "es": "¿Cuál es el propósito del 'blooming' al preparar café de vertido?",
-                  "de": "Was ist der Zweck des Bloomings beim Brühen von Pour-Over-Kaffee?",
-                  "nl": "Wat is het doel van blooming bij het zetten van pour-over koffie?"
-        },
-        options: [
-        {
-                  "en": "To cool down the coffee",
-                  "es": "Para enfriar el café",
-                  "de": "Um den Kaffee abzukühlen",
-                  "nl": "Om de koffie af te koelen"
-        },
-        {
-                  "en": "It has no purpose",
-                  "es": "No tiene propósito",
-                  "de": "Es hat keinen Zweck",
-                  "nl": "Het heeft geen doel"
-        },
-        {
-                  "en": "To release CO2 and allow better water absorption",
-                  "es": "Para liberar CO2 y permitir mejor absorción de agua",
-                  "de": "Um CO2 freizusetzen und bessere Wasserabsorption zu ermöglichen",
-                  "nl": "Om CO2 vrij te geven en betere waterabsorptie mogelijk te maken"
-        },
-        {
-                  "en": "To make coffee flowers grow",
-                  "es": "Para hacer crecer flores de café",
-                  "de": "Um Kaffeeblumen wachsen zu lassen",
-                  "nl": "Om koffiebloemen te laten groeien"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Blooming is the initial 30-45 second stage where you wet the grounds with a small amount of water. This releases trapped CO2 gas from freshly roasted beans, allowing water to extract flavors more evenly during brewing.",
-                  "es": "El blooming es la etapa inicial de 30-45 segundos donde mojas el café molido con una pequeña cantidad de agua. Esto libera gas CO2 atrapado de granos recién tostados, permitiendo que el agua extraiga sabores más uniformemente durante la preparación.",
-                  "de": "Blooming ist die anfängliche 30-45 Sekunden Phase, in der man das Kaffeepulver mit einer kleinen Menge Wasser benetzt. Dies setzt eingeschlossenes CO2-Gas aus frisch gerösteten Bohnen frei und ermöglicht es dem Wasser, Aromen gleichmäßiger beim Brühen zu extrahieren.",
-                  "nl": "Blooming is de initiële 30-45 seconden fase waar je het gemalen koffie nat maakt met een kleine hoeveelheid water. Dit geeft gevangen CO2 gas vrij uit vers gebrande bonen, waardoor water smaken gelijkmatiger kan extraheren tijdens het zetten."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a Chemex?",
-                  "es": "¿Qué es un Chemex?",
-                  "de": "Was ist ein Chemex?",
-                  "nl": "Wat is een Chemex?"
-        },
-        options: [
-        {
-                  "en": "An hourglass-shaped pour-over coffee maker with thick filters",
-                  "es": "Una cafetera de vertido en forma de reloj de arena con filtros gruesos",
-                  "de": "Ein sanduhrenförmiger Pour-Over-Kaffeebereiter mit dicken Filtern",
-                  "nl": "Een zandloper-vormig pour-over koffiezetapparaat met dikke filters"
-        },
-        {
-                  "en": "A coffee flavoring syrup",
-                  "es": "Un jarabe saborizante de café",
-                  "de": "Ein Kaffee-Aromasirup",
-                  "nl": "Een koffiesmaaksiroop"
-        },
-        {
-                  "en": "A type of chemistry experiment",
-                  "es": "Un tipo de experimento de química",
-                  "de": "Eine Art Chemie-Experiment",
-                  "nl": "Een soort scheikundig experiment"
-        },
-        {
-                  "en": "An espresso machine brand",
-                  "es": "Una marca de máquina de espresso",
-                  "de": "Eine Espressomaschinen-Marke",
-                  "nl": "Een espressomachine merk"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "A Chemex is an elegant, hourglass-shaped glass coffee maker invented in 1941. It uses thick, bonded paper filters that produce exceptionally clean, bright coffee by removing oils and sediment.",
-                  "es": "Un Chemex es una elegante cafetera de vidrio en forma de reloj de arena inventada en 1941. Usa filtros de papel gruesos y unidos que producen café excepcionalmente limpio y brillante al remover aceites y sedimentos.",
-                  "de": "Ein Chemex ist ein eleganter, sanduhrenförmiger Glas-Kaffeebereiter, der 1941 erfunden wurde. Er verwendet dicke, gebondete Papierfilter, die außergewöhnlich sauberen, hellen Kaffee produzieren, indem sie Öle und Sedimente entfernen.",
-                  "nl": "Een Chemex is een elegante, zandloper-vormige glazen koffiezetapparaat uitgevonden in 1941. Het gebruikt dikke, gebonden papieren filters die uitzonderlijk schone, heldere koffie produceren door oliën en sediment te verwijderen."
-        }
-      },
-      {
-        question: {
-                  "en": "What does SCA stand for in the coffee industry?",
-                  "es": "¿Qué significa SCA en la industria del café?",
-                  "de": "Wofür steht SCA in der Kaffeeindustrie?",
-                  "nl": "Waar staat SCA voor in de koffie-industrie?"
-        },
-        options: [
-        {
-                  "en": "Simple Coffee Art",
-                  "es": "Arte de Café Simple",
-                  "de": "Einfache Kaffeekunst",
-                  "nl": "Simpele Koffie Kunst"
-        },
-        {
-                  "en": "Sweet Coffee Aroma",
-                  "es": "Aroma de Café Dulce",
-                  "de": "Süßes Kaffee-Aroma",
-                  "nl": "Zoet Koffie Aroma"
-        },
-        {
-                  "en": "Strong Coffee Always",
-                  "es": "Café Fuerte Siempre",
-                  "de": "Starker Kaffee Immer",
-                  "nl": "Sterke Koffie Altijd"
-        },
-        {
-                  "en": "Specialty Coffee Association",
-                  "es": "Asociación de Café Especial",
-                  "de": "Specialty Coffee Association",
-                  "nl": "Specialty Coffee Association"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The Specialty Coffee Association (SCA) is a global organization that sets standards for specialty coffee, conducts research, and provides education and certification programs for coffee professionals worldwide.",
-                  "es": "La Asociación de Café Especial (SCA) es una organización global que establece estándares para café especial, realiza investigación y proporciona educación y programas de certificación para profesionales del café en todo el mundo.",
-                  "de": "Die Specialty Coffee Association (SCA) ist eine globale Organisation, die Standards für Spezialitätenkaffee setzt, Forschung betreibt und Bildungs- und Zertifizierungsprogramme für Kaffeeprofis weltweit anbietet.",
-                  "nl": "De Specialty Coffee Association (SCA) is een wereldwijde organisatie die standaarden stelt voor specialty koffie, onderzoek doet en opleidings- en certificeringsprogramma's biedt voor koffieprofessionals wereldwijd."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the difference between a lungo and a ristretto?",
-                  "es": "¿Cuál es la diferencia entre un lungo y un ristretto?",
-                  "de": "Was ist der Unterschied zwischen einem Lungo und einem Ristretto?",
-                  "nl": "Wat is het verschil tussen een lungo en een ristretto?"
-        },
-        options: [
-        {
-                  "en": "Lungo uses more water for a longer shot, ristretto uses less for a shorter shot",
-                  "es": "Lungo usa más agua para un trago más largo, ristretto usa menos para un trago más corto",
-                  "de": "Lungo verwendet mehr Wasser für einen längeren Shot, Ristretto weniger für einen kürzeren Shot",
-                  "nl": "Lungo gebruikt meer water voor een langere shot, ristretto gebruikt minder voor een kortere shot"
-        },
-        {
-                  "en": "They are the same drink",
-                  "es": "Son la misma bebida",
-                  "de": "Sie sind das gleiche Getränk",
-                  "nl": "Ze zijn hetzelfde drankje"
-        },
-        {
-                  "en": "Lungo is cold, ristretto is hot",
-                  "es": "Lungo es frío, ristretto es caliente",
-                  "de": "Lungo ist kalt, Ristretto ist heiß",
-                  "nl": "Lungo is koud, ristretto is warm"
-        },
-        {
-                  "en": "Lungo has milk, ristretto doesn't",
-                  "es": "Lungo tiene leche, ristretto no",
-                  "de": "Lungo hat Milch, Ristretto nicht",
-                  "nl": "Lungo heeft melk, ristretto niet"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "A lungo ('long' in Italian) uses more water than espresso, extracting for 45-60 seconds, creating a milder, larger drink. A ristretto ('restricted') uses less water, extracting for 15-20 seconds, making a concentrated, sweeter shot.",
-                  "es": "Un lungo ('largo' en italiano) usa más agua que el espresso, extrayendo por 45-60 segundos, creando una bebida más suave y grande. Un ristretto ('restringido') usa menos agua, extrayendo por 15-20 segundos, haciendo un trago concentrado y dulce.",
-                  "de": "Ein Lungo ('lang' auf Italienisch) verwendet mehr Wasser als Espresso, extrahiert für 45-60 Sekunden und erzeugt ein milderes, größeres Getränk. Ein Ristretto ('eingeschränkt') verwendet weniger Wasser, extrahiert für 15-20 Sekunden und macht einen konzentrierten, süßeren Shot.",
-                  "nl": "Een lungo ('lang' in het Italiaans) gebruikt meer water dan espresso, extraheert gedurende 45-60 seconden, en creëert een milder, groter drankje. Een ristretto ('beperkt') gebruikt minder water, extraheert gedurende 15-20 seconden, wat een geconcentreerde, zoetere shot maakt."
-        }
-      },
-      {
-        question: {
-                  "en": "What altitude is considered ideal for growing high-quality Arabica coffee?",
-                  "es": "¿Qué altitud se considera ideal para cultivar café Arábica de alta calidad?",
-                  "de": "Welche Höhe gilt als ideal für den Anbau von hochwertigem Arabica-Kaffee?",
-                  "nl": "Welke hoogte wordt als ideaal beschouwd voor het telen van hoogwaardige Arabica koffie?"
-        },
-        options: [
-        {
-                  "en": "Altitude doesn't matter",
-                  "es": "La altitud no importa",
-                  "de": "Höhe spielt keine Rolle",
-                  "nl": "Hoogte maakt niet uit"
-        },
-        {
-                  "en": "5000+ meters (above snow line)",
-                  "es": "5000+ metros (sobre línea de nieve)",
-                  "de": "5000+ Meter (über Schneegrenze)",
-                  "nl": "5000+ meter (boven sneeuwgrens)"
-        },
-        {
-                  "en": "1200-2000 meters (4000-6500 feet)",
-                  "es": "1200-2000 metros (4000-6500 pies)",
-                  "de": "1200-2000 Meter (4000-6500 Fuß)",
-                  "nl": "1200-2000 meter (4000-6500 voet)"
-        },
-        {
-                  "en": "0-100 meters (sea level)",
-                  "es": "0-100 metros (nivel del mar)",
-                  "de": "0-100 Meter (Meeresspiegel)",
-                  "nl": "0-100 meter (zeeniveau)"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The best Arabica coffee grows at high altitudes (1200-2000m). Cooler temperatures at elevation slow cherry maturation, allowing beans to develop more complex sugars and flavors, resulting in denser, higher-quality beans.",
-                  "es": "El mejor café Arábica crece en altitudes altas (1200-2000m). Las temperaturas más frías en elevación ralentizan la maduración de la cereza, permitiendo que los granos desarrollen azúcares y sabores más complejos, resultando en granos más densos y de mayor calidad.",
-                  "de": "Der beste Arabica-Kaffee wächst in großen Höhen (1200-2000m). Kühlere Temperaturen in der Höhe verlangsamen die Kirschreifung, sodass Bohnen komplexere Zucker und Aromen entwickeln können, was zu dichteren, qualitativ hochwertigeren Bohnen führt.",
-                  "nl": "De beste Arabica koffie groeit op grote hoogte (1200-2000m). Koelere temperaturen op hoogte vertragen kersen rijping, waardoor bonen complexere suikers en smaken kunnen ontwikkelen, wat resulteert in dichtere, hoogwaardige bonen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the 'bloom' when brewing pour-over coffee?",
-                  "es": "¿Qué es la 'floración' al preparar café de vertido?",
-                  "de": "Was ist die 'Blüte' beim Pour-Over-Kaffee brauen?",
-                  "nl": "Wat is de 'bloei' bij het zetten van pour-over koffie?"
-        },
-        options: [
-        {
-                  "en": "The coffee plant flowering",
-                  "es": "La planta de café floreciendo",
-                  "de": "Die Kaffeepflanze blüht",
-                  "nl": "De koffieplant bloeit"
-        },
-        {
-                  "en": "Adding flowers to coffee",
-                  "es": "Añadir flores al café",
-                  "de": "Blumen zum Kaffee hinzufügen",
-                  "nl": "Bloemen toevoegen aan koffie"
-        },
-        {
-                  "en": "When milk foam blooms in shape",
-                  "es": "Cuando la espuma de leche florece en forma",
-                  "de": "Wenn Milchschaum in Form blüht",
-                  "nl": "Wanneer melkschuim in vorm bloeit"
-        },
-        {
-                  "en": "The initial release of CO2 when hot water first hits the grounds",
-                  "es": "La liberación inicial de CO2 cuando el agua caliente toca primero los granos",
-                  "de": "Die anfängliche CO2-Freisetzung wenn heißes Wasser erstmals auf das Pulver trifft",
-                  "nl": "De initiële afgifte van CO2 wanneer heet water voor het eerst het poeder raakt"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The bloom is when you pour a small amount of hot water over fresh grounds and wait 30-45 seconds. The coffee releases trapped CO2, causing it to bubble and expand. This allows for better extraction during brewing.",
-                  "es": "La floración es cuando viertes una pequeña cantidad de agua caliente sobre granos frescos y esperas 30-45 segundos. El café libera CO2 atrapado, causando que burbujee y se expanda. Esto permite una mejor extracción durante la preparación.",
-                  "de": "Die Blüte ist, wenn man eine kleine Menge heißes Wasser über frisches Pulver gießt und 30-45 Sekunden wartet. Der Kaffee setzt eingeschlossenes CO2 frei, wodurch er sprudelt und sich ausdehnt. Dies ermöglicht eine bessere Extraktion beim Brühen.",
-                  "nl": "De bloei is wanneer je een kleine hoeveelheid heet water over vers poeder giet en 30-45 seconden wacht. De koffie geeft gevangen CO2 af, waardoor het borrelt en uitzet. Dit zorgt voor betere extractie tijdens het zetten."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a cortado?",
-                  "es": "¿Qué es un cortado?",
-                  "de": "Was ist ein Cortado?",
-                  "nl": "Wat is een cortado?"
-        },
-        options: [
-        {
-                  "en": "Iced coffee with cream",
-                  "es": "Café helado con crema",
-                  "de": "Eiskaffee mit Sahne",
-                  "nl": "IJskoffie met room"
-        },
-        {
-                  "en": "Espresso 'cut' with equal amount of warm milk (1:1 ratio)",
-                  "es": "Espresso 'cortado' con igual cantidad de leche tibia (proporción 1:1)",
-                  "de": "Espresso 'geschnitten' mit gleicher Menge warmer Milch (1:1 Verhältnis)",
-                  "nl": "Espresso 'gesneden' met gelijke hoeveelheid warme melk (1:1 verhouding)"
-        },
-        {
-                  "en": "Coffee with orange juice",
-                  "es": "Café con jugo de naranja",
-                  "de": "Kaffee mit Orangensaft",
-                  "nl": "Koffie met sinaasappelsap"
-        },
-        {
-                  "en": "Extra strong espresso",
-                  "es": "Espresso extra fuerte",
-                  "de": "Extra starker Espresso",
-                  "nl": "Extra sterke espresso"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Cortado means 'cut' in Spanish. It's an espresso cut with an equal amount of warm milk (not steamed or frothed). This creates a smooth drink that reduces acidity while maintaining strong coffee flavor.",
-                  "es": "Cortado significa 'cortado' en español. Es un espresso cortado con una cantidad igual de leche tibia (no al vapor ni espumada). Esto crea una bebida suave que reduce la acidez mientras mantiene un fuerte sabor a café.",
-                  "de": "Cortado bedeutet 'geschnitten' auf Spanisch. Es ist ein Espresso, geschnitten mit einer gleichen Menge warmer Milch (nicht gedämpft oder aufgeschäumt). Dies schafft ein glattes Getränk, das Säure reduziert während starker Kaffeegeschmack erhalten bleibt.",
-                  "nl": "Cortado betekent 'gesneden' in het Spaans. Het is een espresso gesneden met een gelijke hoeveelheid warme melk (niet gestoomd of opgeschuimd). Dit creëert een glad drankje dat zuurgraad vermindert terwijl sterke koffiesmaken behouden blijven."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the purpose of tamping espresso?",
-                  "es": "¿Cuál es el propósito de compactar el espresso?",
-                  "de": "Was ist der Zweck des Tampens von Espresso?",
-                  "nl": "Wat is het doel van het tampen van espresso?"
-        },
-        options: [
-        {
-                  "en": "To heat up the coffee",
-                  "es": "Para calentar el café",
-                  "de": "Um den Kaffee zu erhitzen",
-                  "nl": "Om de koffie op te warmen"
-        },
-        {
-                  "en": "To compress grounds evenly for consistent water flow",
-                  "es": "Para comprimir los granos uniformemente para flujo de agua consistente",
-                  "de": "Um Pulver gleichmäßig zu verdichten für gleichmäßigen Wasserfluss",
-                  "nl": "Om poeder gelijkmatig samen te drukken voor consistente waterstroom"
-        },
-        {
-                  "en": "To remove caffeine",
-                  "es": "Para eliminar la cafeína",
-                  "de": "Um Koffein zu entfernen",
-                  "nl": "Om cafeïne te verwijderen"
-        },
-        {
-                  "en": "To add flavor to coffee",
-                  "es": "Para añadir sabor al café",
-                  "de": "Um Geschmack zum Kaffee hinzuzufügen",
-                  "nl": "Om smaak aan koffie toe te voegen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Tamping compresses ground coffee in the portafilter to create an even, compact puck. This ensures water flows through uniformly at 9 bars pressure, extracting flavors evenly and preventing channeling (water finding easy paths).",
-                  "es": "Compactar comprime el café molido en el portafiltro para crear un disco uniforme y compacto. Esto asegura que el agua fluya uniformemente a 9 bares de presión, extrayendo sabores uniformemente y previniendo canales (agua encontrando caminos fáciles).",
-                  "de": "Tampen verdichtet gemahlenen Kaffee im Siebträger, um einen gleichmäßigen, kompakten Puck zu erzeugen. Dies stellt sicher, dass Wasser gleichmäßig bei 9 Bar Druck fließt, Aromen gleichmäßig extrahiert und Channeling (Wasser findet einfache Wege) verhindert.",
-                  "nl": "Tampen drukt gemalen koffie in de portafilter samen om een gelijkmatige, compacte puck te creëren. Dit zorgt ervoor dat water uniform stroomt op 9 bar druk, smaken gelijkmatig extraheert en channeling (water vindt gemakkelijke paden) voorkomt."
-        }
-      },
-      {
-        question: {
-                  "en": "What processing method involves fermenting coffee in its own mucilage?",
-                  "es": "¿Qué método de procesamiento implica fermentar café en su propio mucílago?",
-                  "de": "Welche Verarbeitungsmethode beinhaltet die Fermentation von Kaffee in seinem eigenen Schleim?",
-                  "nl": "Welke verwerkingsmethode omvat het fermenteren van koffie in zijn eigen slijm?"
-        },
-        options: [
-        {
-                  "en": "Honey process (pulped natural)",
-                  "es": "Proceso honey (natural despulpado)",
-                  "de": "Honey-Prozess (entpulpt natürlich)",
-                  "nl": "Honey proces (pulped natural)"
-        },
-        {
-                  "en": "Washed process",
-                  "es": "Proceso lavado",
-                  "de": "Gewaschener Prozess",
-                  "nl": "Gewassen proces"
-        },
-        {
-                  "en": "Instant process",
-                  "es": "Proceso instantáneo",
-                  "de": "Instant-Prozess",
-                  "nl": "Instant proces"
-        },
-        {
-                  "en": "Dry process",
-                  "es": "Proceso seco",
-                  "de": "Trockenprozess",
-                  "nl": "Droog proces"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "In honey processing, cherry skin is removed but sticky mucilage (honey-like layer) stays on during drying. This creates sweeter, fruitier coffees with more body than washed but cleaner than natural process.",
-                  "es": "En el procesamiento honey, se elimina la piel de la cereza pero el mucílago pegajoso (capa similar a la miel) se mantiene durante el secado. Esto crea cafés más dulces y afrutados con más cuerpo que el lavado pero más limpios que el proceso natural.",
-                  "de": "Beim Honey-Prozess wird die Kirschschale entfernt, aber klebriger Schleim (honigähnliche Schicht) bleibt während des Trocknens. Dies erzeugt süßere, fruchtigere Kaffees mit mehr Körper als gewaschen aber sauberer als natürlich verarbeitet.",
-                  "nl": "Bij honey verwerking wordt de kers schil verwijderd maar plakkerig slijm (honing-achtige laag) blijft tijdens het drogen. Dit creëert zoetere, fruitigere koffies met meer body dan gewassen maar schoner dan natuurlijk proces."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the 'golden cup standard' for coffee brewing?",
-                  "es": "¿Qué es el 'estándar de taza dorada' para preparar café?",
-                  "de": "Was ist der 'Golden Cup Standard' für Kaffeebrühen?",
-                  "nl": "Wat is de 'golden cup standaard' voor koffiezetten?"
-        },
-        options: [
-        {
-                  "en": "Using gold equipment",
-                  "es": "Usar equipo de oro",
-                  "de": "Goldene Ausrüstung verwenden",
-                  "nl": "Gouden apparatuur gebruiken"
-        },
-        {
-                  "en": "Coffee in gold cups",
-                  "es": "Café en tazas de oro",
-                  "de": "Kaffee in goldenen Tassen",
-                  "nl": "Koffie in gouden kopjes"
-        },
-        {
-                  "en": "18-22% extraction with 1.15-1.35% TDS",
-                  "es": "18-22% de extracción con 1.15-1.35% TDS",
-                  "de": "18-22% Extraktion mit 1,15-1,35% TDS",
-                  "nl": "18-22% extractie met 1,15-1,35% TDS"
-        },
-        {
-                  "en": "Most expensive coffee",
-                  "es": "Café más caro",
-                  "de": "Teuerster Kaffee",
-                  "nl": "Duurste koffie"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The SCA Golden Cup Standard defines optimal brewing: 18-22% of coffee mass extracted, with 1.15-1.35% total dissolved solids (TDS) in the cup. This typically requires 1:15 to 1:17 coffee-to-water ratio.",
-                  "es": "El Estándar de Taza Dorada SCA define la preparación óptima: 18-22% de masa de café extraída, con 1.15-1.35% de sólidos disueltos totales (TDS) en la taza. Esto típicamente requiere proporción de café a agua de 1:15 a 1:17.",
-                  "de": "Der SCA Golden Cup Standard definiert optimales Brühen: 18-22% Kaffeemasse extrahiert, mit 1,15-1,35% gesamt gelöste Feststoffe (TDS) in der Tasse. Dies erfordert typisch 1:15 bis 1:17 Kaffee-zu-Wasser-Verhältnis.",
-                  "nl": "De SCA Golden Cup Standard definieert optimaal zetten: 18-22% van koffie massa geëxtraheerd, met 1,15-1,35% totaal opgeloste vaste stoffen (TDS) in de kop. Dit vereist typisch 1:15 tot 1:17 koffie-naar-water verhouding."
-        }
-      },
-      {
-        question: {
-                  "en": "What causes 'coffee staling' after roasting?",
-                  "es": "¿Qué causa el 'envejecimiento del café' después del tostado?",
-                  "de": "Was verursacht 'Kaffee-Alterung' nach dem Rösten?",
-                  "nl": "Wat veroorzaakt 'koffie veroudering' na het branden?"
-        },
-        options: [
-        {
-                  "en": "Beans getting old",
-                  "es": "Granos envejeciendo",
-                  "de": "Bohnen werden alt",
-                  "nl": "Bonen worden oud"
-        },
-        {
-                  "en": "Adding too much sugar",
-                  "es": "Añadir demasiada azúcar",
-                  "de": "Zu viel Zucker hinzufügen",
-                  "nl": "Te veel suiker toevoegen"
-        },
-        {
-                  "en": "Beans growing mold",
-                  "es": "Granos desarrollando moho",
-                  "de": "Bohnen entwickeln Schimmel",
-                  "nl": "Bonen krijgen schimmel"
-        },
-        {
-                  "en": "Oxidation of oils and loss of CO2/aromatics",
-                  "es": "Oxidación de aceites y pérdida de CO2/aromáticos",
-                  "de": "Oxidation von Ölen und Verlust von CO2/Aromastoffen",
-                  "nl": "Oxidatie van oliën en verlies van CO2/aromaten"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "After roasting, coffee stales through oxidation (oxygen reacting with oils creating off-flavors) and degassing (CO2 and aromatics escaping). Coffee tastes best 3-14 days post-roast and should be stored airtight.",
-                  "es": "Después del tostado, el café envejece a través de oxidación (oxígeno reaccionando con aceites creando sabores desagradables) y desgasificación (CO2 y aromáticos escapando). El café sabe mejor 3-14 días post-tostado y debe almacenarse herméticamente.",
-                  "de": "Nach dem Rösten altert Kaffee durch Oxidation (Sauerstoff reagiert mit Ölen und erzeugt Fehlaromen) und Ausgasung (CO2 und Aromastoffe entweichen). Kaffee schmeckt am besten 3-14 Tage nach Röstung und sollte luftdicht gelagert werden.",
-                  "nl": "Na het branden veroudert koffie door oxidatie (zuurstof reageert met oliën en creëert vieze smaken) en ontgassing (CO2 en aromaten ontsnappen). Koffie smaakt het beste 3-14 dagen na branden en moet luchtdicht bewaard worden."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a 'red eye' or 'shot in the dark'?",
-                  "es": "¿Qué es un 'ojo rojo' o 'disparo en la oscuridad'?",
-                  "de": "Was ist ein 'Red Eye' oder 'Shot in the Dark'?",
-                  "nl": "Wat is een 'red eye' of 'shot in the dark'?"
-        },
-        options: [
-        {
-                  "en": "Coffee with red coloring",
-                  "es": "Café con colorante rojo",
-                  "de": "Kaffee mit rotem Farbstoff",
-                  "nl": "Koffie met rode kleurstof"
-        },
-        {
-                  "en": "Drip coffee with espresso shot added",
-                  "es": "Café de goteo con trago de espresso añadido",
-                  "de": "Filterkaffee mit Espresso-Shot hinzugefügt",
-                  "nl": "Filterkoffie met espresso shot toegevoegd"
-        },
-        {
-                  "en": "Coffee in darkness",
-                  "es": "Café en oscuridad",
-                  "de": "Kaffee im Dunkeln",
-                  "nl": "Koffie in duisternis"
-        },
-        {
-                  "en": "Only decaf coffee",
-                  "es": "Solo café descafeinado",
-                  "de": "Nur koffeinfreier Kaffee",
-                  "nl": "Alleen decaf koffie"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "A red eye is drip coffee with one or more espresso shots added. Named for bloodshot eyes of tired travelers, it provides intense caffeine boost. Also called 'shot in the dark' or 'hammerhead'.",
-                  "es": "Un ojo rojo es café de goteo con uno o más tragos de espresso añadidos. Nombrado por los ojos inyectados en sangre de viajeros cansados, proporciona impulso intenso de cafeína. También llamado 'disparo en la oscuridad' o 'cabeza de martillo'.",
-                  "de": "Ein Red Eye ist Filterkaffee mit einem oder mehreren Espresso-Shots hinzugefügt. Nach blutunterlaufenen Augen müder Reisender benannt, bietet er intensiven Koffein-Schub. Auch 'Shot in the Dark' oder 'Hammerhead' genannt.",
-                  "nl": "Een red eye is filterkoffie met één of meer espresso shots toegevoegd. Vernoemd naar bloeddoorlopen ogen van vermoeide reizigers, geeft het intense cafeïne boost. Ook wel 'shot in the dark' of 'hammerhead' genoemd."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the Maillard reaction in coffee roasting?",
-                  "es": "¿Qué es la reacción de Maillard en el tostado de café?",
-                  "de": "Was ist die Maillard-Reaktion beim Kaffeerösten?",
-                  "nl": "Wat is de Maillard reactie bij koffiebrandingen?"
-        },
-        options: [
-        {
-                  "en": "Amino acids and sugars react creating brown color and complex flavors",
-                  "es": "Aminoácidos y azúcares reaccionan creando color marrón y sabores complejos",
-                  "de": "Aminosäuren und Zucker reagieren und erzeugen braune Farbe und komplexe Aromen",
-                  "nl": "Aminozuren en suikers reageren en creëren bruine kleur en complexe smaken"
-        },
-        {
-                  "en": "Beans turn liquid",
-                  "es": "Granos se vuelven líquido",
-                  "de": "Bohnen werden flüssig",
-                  "nl": "Bonen worden vloeibaar"
-        },
-        {
-                  "en": "Type of machine",
-                  "es": "Tipo de máquina",
-                  "de": "Art von Maschine",
-                  "nl": "Type machine"
-        },
-        {
-                  "en": "Name of a farmer",
-                  "es": "Nombre de un agricultor",
-                  "de": "Name eines Bauern",
-                  "nl": "Naam van een boer"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Maillard reaction occurs at 150-200°C during roasting when amino acids and sugars react, creating hundreds of flavor/aroma compounds. This gives coffee its brown color, toasted flavors, and complex taste.",
-                  "es": "La reacción de Maillard ocurre a 150-200°C durante el tostado cuando aminoácidos y azúcares reaccionan, creando cientos de compuestos de sabor/aroma. Esto da al café su color marrón, sabores tostados y sabor complejo.",
-                  "de": "Die Maillard-Reaktion tritt bei 150-200°C während des Röstens auf, wenn Aminosäuren und Zucker reagieren und Hunderte von Geschmacks-/Aromaverbindungen erzeugen. Dies verleiht Kaffee braune Farbe, geröstete Aromen und komplexen Geschmack.",
-                  "nl": "De Maillard reactie vindt plaats op 150-200°C tijdens branden wanneer aminozuren en suikers reageren, wat honderden smaak/aroma verbindingen creëert. Dit geeft koffie zijn bruine kleur, geroosterde smaken en complexe smaak."
-        }
-      },
-      {
-        question: {
-                  "en": "What is channeling in espresso extraction?",
-                  "es": "¿Qué es la canalización en la extracción de espresso?",
-                  "de": "Was ist Channeling bei der Espresso-Extraktion?",
-                  "nl": "Wat is channeling bij espresso extractie?"
-        },
-        options: [
-        {
-                  "en": "Water finds paths of least resistance through coffee causing uneven extraction",
-                  "es": "Agua encuentra caminos de menor resistencia a través del café causando extracción desigual",
-                  "de": "Wasser findet Wege des geringsten Widerstands durch Kaffee was ungleichmäßige Extraktion verursacht",
-                  "nl": "Water vindt paden van minste weerstand door koffie wat ongelijke extractie veroorzaakt"
-        },
-        {
-                  "en": "TV channel for coffee",
-                  "es": "Canal de TV para café",
-                  "de": "TV-Kanal für Kaffee",
-                  "nl": "TV-kanaal voor koffie"
-        },
-        {
-                  "en": "Adding milk channels",
-                  "es": "Añadir canales de leche",
-                  "de": "Milchkanäle hinzufügen",
-                  "nl": "Melkkanalen toevoegen"
-        },
-        {
-                  "en": "Storing in channels",
-                  "es": "Almacenar en canales",
-                  "de": "In Kanälen lagern",
-                  "nl": "Opslaan in kanalen"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Channeling occurs when water creates preferential paths through the puck, usually from uneven tamping or grind. This causes under-extraction in some areas, over-extraction in others, resulting in sour, bitter, or weak espresso.",
-                  "es": "La canalización ocurre cuando el agua crea caminos preferenciales a través del disco, generalmente por compactación desigual o molienda. Esto causa sub-extracción en algunas áreas, sobre-extracción en otras, resultando en espresso agrio, amargo o débil.",
-                  "de": "Channeling tritt auf, wenn Wasser bevorzugte Wege durch den Puck schafft, normalerweise von ungleichmäßigem Tampen oder Mahlung. Dies verursacht Unterextraktion in einigen Bereichen, Überextraktion in anderen, was zu saurem, bitterem oder schwachem Espresso führt.",
-                  "nl": "Channeling treedt op wanneer water voorkeurspaden door de puck creëert, meestal door ongelijkmatig tampen of maling. Dit veroorzaakt onder-extractie in sommige gebieden, over-extractie in anderen, wat resulteert in zure, bittere of zwakke espresso."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a peaberry coffee bean?",
-                  "es": "¿Qué es un grano de café peaberry?",
-                  "de": "Was ist eine Peaberry-Kaffeebohne?",
-                  "nl": "Wat is een peaberry koffieboon?"
-        },
-        options: [
-        {
-                  "en": "Bean flavored with peas",
-                  "es": "Grano con sabor a guisantes",
-                  "de": "Bohne mit Erbsengeschmack",
-                  "nl": "Boon met erwten smaak"
-        },
-        {
-                  "en": "Single round bean instead of usual two flat-sided beans in a cherry",
-                  "es": "Un solo grano redondo en lugar de los dos granos habituales de lados planos en una cereza",
-                  "de": "Eine einzelne runde Bohne anstelle der üblichen zwei flachseitigen Bohnen in einer Kirsche",
-                  "nl": "Enkele ronde boon in plaats van gebruikelijke twee platte bonen in een kers"
-        },
-        {
-                  "en": "Smallest beans",
-                  "es": "Granos más pequeños",
-                  "de": "Kleinste Bohnen",
-                  "nl": "Kleinste bonen"
-        },
-        {
-                  "en": "Grown with peas",
-                  "es": "Cultivado con guisantes",
-                  "de": "Mit Erbsen angebaut",
-                  "nl": "Geteeld met erwten"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Normally each cherry contains two beans facing each other (flat sides). In 5-10% of cherries, only one bean develops into a small, round peaberry. Many believe peaberries have more concentrated, intense flavors.",
-                  "es": "Normalmente cada cereza contiene dos granos enfrentados (lados planos). En 5-10% de cerezas, solo un grano se desarrolla en un pequeño peaberry redondo. Muchos creen que los peaberries tienen sabores más concentrados e intensos.",
-                  "de": "Normalerweise enthält jede Kirsche zwei Bohnen, die einander gegenüberliegen (flache Seiten). In 5-10% der Kirschen entwickelt sich nur eine Bohne zu einer kleinen, runden Peaberry. Viele glauben, dass Peaberries konzentriertere, intensivere Aromen haben.",
-                  "nl": "Normaal bevat elke kers twee bonen die elkaar aankijken (platte zijden). In 5-10% van de kersen ontwikkelt slechts één boon zich tot een kleine, ronde peaberry. Velen geloven dat peaberries meer geconcentreerde, intense smaken hebben."
-        }
-      },
-      {
-        question: {
-                  "en": "What plant does coffee come from?",
-                  "es": "What plant does coffee come from?",
-                  "de": "What plant does coffee come from?",
-                  "nl": "What plant does coffee come from?"
-        },
-        options: [
-        {
-                  "en": "Coffee plant (Coffea)",
-                  "es": "Coffee plant (Coffea)",
-                  "de": "Coffee plant (Coffea)",
-                  "nl": "Coffee plant (Coffea)"
-        },
-        {
-                  "en": "Tea plant",
-                  "es": "Tea plant",
-                  "de": "Tea plant",
-                  "nl": "Tea plant"
-        },
-        {
-                  "en": "Cocoa plant",
-                  "es": "Cocoa plant",
-                  "de": "Cocoa plant",
-                  "nl": "Cocoa plant"
-        },
-        {
-                  "en": "Bean plant",
-                  "es": "Bean plant",
-                  "de": "Bean plant",
-                  "nl": "Bean plant"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Coffee is made from roasted seeds (beans) of the Coffea plant.",
-                  "es": "Coffee is made from roasted seeds (beans) of the Coffea plant.",
-                  "de": "Coffee is made from roasted seeds (beans) of the Coffea plant.",
-                  "nl": "Coffee is made from roasted seeds (beans) of the Coffea plant."
-        }
-      },
-      {
-        question: {
-                  "en": "What are the two main species of coffee?",
-                  "es": "What are the two main species of coffee?",
-                  "de": "What are the two main species of coffee?",
-                  "nl": "What are the two main species of coffee?"
-        },
-        options: [
-        {
-                  "en": "Arabica and Robusta",
-                  "es": "Arabica and Robusta",
-                  "de": "Arabica and Robusta",
-                  "nl": "Arabica and Robusta"
-        },
-        {
-                  "en": "Dark and Light",
-                  "es": "Dark and Light",
-                  "de": "Dark and Light",
-                  "nl": "Dark and Light"
-        },
-        {
-                  "en": "Colombian and Brazilian",
-                  "es": "Colombian and Brazilian",
-                  "de": "Colombian and Brazilian",
-                  "nl": "Colombian and Brazilian"
-        },
-        {
-                  "en": "Bean and Ground",
-                  "es": "Bean and Ground",
-                  "de": "Bean and Ground",
-                  "nl": "Bean and Ground"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Arabica and Robusta are the two primary commercially grown coffee species.",
-                  "es": "Arabica and Robusta are the two primary commercially grown coffee species.",
-                  "de": "Arabica and Robusta are the two primary commercially grown coffee species.",
-                  "nl": "Arabica and Robusta are the two primary commercially grown coffee species."
-        }
-      },
-      {
-        question: {
-                  "en": "What is espresso?",
-                  "es": "What is espresso?",
-                  "de": "What is espresso?",
-                  "nl": "What is espresso?"
-        },
-        options: [
-        {
-                  "en": "Concentrated coffee brewed under pressure",
-                  "es": "Concentrated coffee brewed under pressure",
-                  "de": "Concentrated coffee brewed under pressure",
-                  "nl": "Concentrated coffee brewed under pressure"
-        },
-        {
-                  "en": "Diluted coffee",
-                  "es": "Diluted coffee",
-                  "de": "Diluted coffee",
-                  "nl": "Diluted coffee"
-        },
-        {
-                  "en": "Iced coffee",
-                  "es": "Iced coffee",
-                  "de": "Iced coffee",
-                  "nl": "Iced coffee"
-        },
-        {
-                  "en": "Instant coffee",
-                  "es": "Instant coffee",
-                  "de": "Instant coffee",
-                  "nl": "Instant coffee"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Espresso is concentrated coffee brewed by forcing hot water under pressure through finely-ground coffee.",
-                  "es": "Espresso is concentrated coffee brewed by forcing hot water under pressure through finely-ground coffee.",
-                  "de": "Espresso is concentrated coffee brewed by forcing hot water under pressure through finely-ground coffee.",
-                  "nl": "Espresso is concentrated coffee brewed by forcing hot water under pressure through finely-ground coffee."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a cappuccino?",
-                  "es": "What is a cappuccino?",
-                  "de": "What is a cappuccino?",
-                  "nl": "What is a cappuccino?"
-        },
-        options: [
-        {
-                  "en": "Espresso with steamed milk and foam",
-                  "es": "Espresso with steamed milk and foam",
-                  "de": "Espresso with steamed milk and foam",
-                  "nl": "Espresso with steamed milk and foam"
-        },
-        {
-                  "en": "Black coffee",
-                  "es": "Black coffee",
-                  "de": "Black coffee",
-                  "nl": "Black coffee"
-        },
-        {
-                  "en": "Coffee with cream",
-                  "es": "Coffee with cream",
-                  "de": "Coffee with cream",
-                  "nl": "Coffee with cream"
-        },
-        {
-                  "en": "Iced coffee",
-                  "es": "Iced coffee",
-                  "de": "Iced coffee",
-                  "nl": "Iced coffee"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "A cappuccino is made with equal parts espresso, steamed milk, and milk foam.",
-                  "es": "A cappuccino is made with equal parts espresso, steamed milk, and milk foam.",
-                  "de": "A cappuccino is made with equal parts espresso, steamed milk, and milk foam.",
-                  "nl": "A cappuccino is made with equal parts espresso, steamed milk, and milk foam."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a latte?",
-                  "es": "What is a latte?",
-                  "de": "What is a latte?",
-                  "nl": "What is a latte?"
-        },
-        options: [
-        {
-                  "en": "Iced coffee with milk",
-                  "es": "Iced coffee with milk",
-                  "de": "Iced coffee with milk",
-                  "nl": "Iced coffee with milk"
-        },
-        {
-                  "en": "Espresso with steamed milk",
-                  "es": "Espresso with steamed milk",
-                  "de": "Espresso with steamed milk",
-                  "nl": "Espresso with steamed milk"
-        },
-        {
-                  "en": "Black coffee",
-                  "es": "Black coffee",
-                  "de": "Black coffee",
-                  "nl": "Black coffee"
-        },
-        {
-                  "en": "Instant coffee",
-                  "es": "Instant coffee",
-                  "de": "Instant coffee",
-                  "nl": "Instant coffee"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "A latte (caffè latte) is made with espresso and a larger proportion of steamed milk.",
-                  "es": "A latte (caffè latte) is made with espresso and a larger proportion of steamed milk.",
-                  "de": "A latte (caffè latte) is made with espresso and a larger proportion of steamed milk.",
-                  "nl": "A latte (caffè latte) is made with espresso and a larger proportion of steamed milk."
-        }
-      },
-      {
-        question: {
-                  "en": "Where did coffee originate?",
-                  "es": "Where did coffee originate?",
-                  "de": "Where did coffee originate?",
-                  "nl": "Where did coffee originate?"
-        },
-        options: [
-        {
-                  "en": "Colombia",
-                  "es": "Colombia",
-                  "de": "Colombia",
-                  "nl": "Colombia"
-        },
-        {
-                  "en": "Ethiopia",
-                  "es": "Ethiopia",
-                  "de": "Ethiopia",
-                  "nl": "Ethiopia"
-        },
-        {
-                  "en": "Italy",
-                  "es": "Italy",
-                  "de": "Italy",
-                  "nl": "Italy"
-        },
-        {
-                  "en": "Brazil",
-                  "es": "Brazil",
-                  "de": "Brazil",
-                  "nl": "Brazil"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Coffee is believed to have originated in Ethiopia, where it was discovered growing wild.",
-                  "es": "Coffee is believed to have originated in Ethiopia, where it was discovered growing wild.",
-                  "de": "Coffee is believed to have originated in Ethiopia, where it was discovered growing wild.",
-                  "nl": "Coffee is believed to have originated in Ethiopia, where it was discovered growing wild."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the process of removing caffeine called?",
-                  "es": "What is the process of removing caffeine called?",
-                  "de": "What is the process of removing caffeine called?",
-                  "nl": "What is the process of removing caffeine called?"
-        },
-        options: [
-        {
-                  "en": "Decaffeination",
-                  "es": "Decaffeination",
-                  "de": "Decaffeination",
-                  "nl": "Decaffeination"
-        },
-        {
-                  "en": "Roasting",
-                  "es": "Roasting",
-                  "de": "Roasting",
-                  "nl": "Roasting"
-        },
-        {
-                  "en": "Brewing",
-                  "es": "Brewing",
-                  "de": "Brewing",
-                  "nl": "Brewing"
-        },
-        {
-                  "en": "Grinding",
-                  "es": "Grinding",
-                  "de": "Grinding",
-                  "nl": "Grinding"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Decaffeination is the process of removing caffeine from coffee beans.",
-                  "es": "Decaffeination is the process of removing caffeine from coffee beans.",
-                  "de": "Decaffeination is the process of removing caffeine from coffee beans.",
-                  "nl": "Decaffeination is the process of removing caffeine from coffee beans."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a macchiato?",
-                  "es": "What is a macchiato?",
-                  "de": "What is a macchiato?",
-                  "nl": "What is a macchiato?"
-        },
-        options: [
-        {
-                  "en": "Iced coffee",
-                  "es": "Iced coffee",
-                  "de": "Iced coffee",
-                  "nl": "Iced coffee"
-        },
-        {
-                  "en": "Espresso with small amount of milk",
-                  "es": "Espresso with small amount of milk",
-                  "de": "Espresso with small amount of milk",
-                  "nl": "Espresso with small amount of milk"
-        },
-        {
-                  "en": "Coffee with lots of milk",
-                  "es": "Coffee with lots of milk",
-                  "de": "Coffee with lots of milk",
-                  "nl": "Coffee with lots of milk"
-        },
-        {
-                  "en": "Black coffee",
-                  "es": "Black coffee",
-                  "de": "Black coffee",
-                  "nl": "Black coffee"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "A macchiato is espresso 'marked' or 'stained' with a small amount of milk or foam.",
-                  "es": "A macchiato is espresso 'marked' or 'stained' with a small amount of milk or foam.",
-                  "de": "A macchiato is espresso 'marked' or 'stained' with a small amount of milk or foam.",
-                  "nl": "A macchiato is espresso 'marked' or 'stained' with a small amount of milk or foam."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the Coffee Belt?",
-                  "es": "What is the Coffee Belt?",
-                  "de": "What is the Coffee Belt?",
-                  "nl": "What is the Coffee Belt?"
-        },
-        options: [
-        {
-                  "en": "Brewing method",
-                  "es": "Brewing method",
-                  "de": "Brewing method",
-                  "nl": "Brewing method"
-        },
-        {
-                  "en": "Region between Tropics where coffee grows",
-                  "es": "Region between Tropics where coffee grows",
-                  "de": "Region between Tropics where coffee grows",
-                  "nl": "Region between Tropics where coffee grows"
-        },
-        {
-                  "en": "Coffee grinder part",
-                  "es": "Coffee grinder part",
-                  "de": "Coffee grinder part",
-                  "nl": "Coffee grinder part"
-        },
-        {
-                  "en": "Coffee brand",
-                  "es": "Coffee brand",
-                  "de": "Coffee brand",
-                  "nl": "Coffee brand"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The Coffee Belt is the region between the Tropics of Cancer and Capricorn where coffee plants grow best.",
-                  "es": "The Coffee Belt is the region between the Tropics of Cancer and Capricorn where coffee plants grow best.",
-                  "de": "The Coffee Belt is the region between the Tropics of Cancer and Capricorn where coffee plants grow best.",
-                  "nl": "The Coffee Belt is the region between the Tropics of Cancer and Capricorn where coffee plants grow best."
-        }
-      },
-      {
-        question: {
-                  "en": "What is an Americano?",
-                  "es": "What is an Americano?",
-                  "de": "What is an Americano?",
-                  "nl": "What is an Americano?"
-        },
-        options: [
-        {
-                  "en": "Coffee with milk",
-                  "es": "Coffee with milk",
-                  "de": "Coffee with milk",
-                  "nl": "Coffee with milk"
-        },
-        {
-                  "en": "Iced coffee",
-                  "es": "Iced coffee",
-                  "de": "Iced coffee",
-                  "nl": "Iced coffee"
-        },
-        {
-                  "en": "American-style drip coffee",
-                  "es": "American-style drip coffee",
-                  "de": "American-style drip coffee",
-                  "nl": "American-style drip coffee"
-        },
-        {
-                  "en": "Espresso with hot water added",
-                  "es": "Espresso with hot water added",
-                  "de": "Espresso with hot water added",
-                  "nl": "Espresso with hot water added"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "An Americano is made by adding hot water to espresso, similar in strength to drip coffee.",
-                  "es": "An Americano is made by adding hot water to espresso, similar in strength to drip coffee.",
-                  "de": "An Americano is made by adding hot water to espresso, similar in strength to drip coffee.",
-                  "nl": "An Americano is made by adding hot water to espresso, similar in strength to drip coffee."
-        }
-      },
-      {
-        question: {
-                  "en": "What is cold brew coffee?",
-                  "es": "What is cold brew coffee?",
-                  "de": "What is cold brew coffee?",
-                  "nl": "What is cold brew coffee?"
-        },
-        options: [
-        {
-                  "en": "Frozen coffee",
-                  "es": "Frozen coffee",
-                  "de": "Frozen coffee",
-                  "nl": "Frozen coffee"
-        },
-        {
-                  "en": "Iced hot coffee",
-                  "es": "Iced hot coffee",
-                  "de": "Iced hot coffee",
-                  "nl": "Iced hot coffee"
-        },
-        {
-                  "en": "Coffee steeped in cold water for hours",
-                  "es": "Coffee steeped in cold water for hours",
-                  "de": "Coffee steeped in cold water for hours",
-                  "nl": "Coffee steeped in cold water for hours"
-        },
-        {
-                  "en": "Coffee with ice cubes",
-                  "es": "Coffee with ice cubes",
-                  "de": "Coffee with ice cubes",
-                  "nl": "Coffee with ice cubes"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Cold brew is made by steeping coarsely ground coffee in cold water for 12-24 hours.",
-                  "es": "Cold brew is made by steeping coarsely ground coffee in cold water for 12-24 hours.",
-                  "de": "Cold brew is made by steeping coarsely ground coffee in cold water for 12-24 hours.",
-                  "nl": "Cold brew is made by steeping coarsely ground coffee in cold water for 12-24 hours."
-        }
-      },
-      {
-        question: {
-                  "en": "What country produces the most coffee?",
-                  "es": "What country produces the most coffee?",
-                  "de": "What country produces the most coffee?",
-                  "nl": "What country produces the most coffee?"
-        },
-        options: [
-        {
-                  "en": "Ethiopia",
-                  "es": "Ethiopia",
-                  "de": "Ethiopia",
-                  "nl": "Ethiopia"
-        },
-        {
-                  "en": "Colombia",
-                  "es": "Colombia",
-                  "de": "Colombia",
-                  "nl": "Colombia"
-        },
-        {
-                  "en": "Vietnam",
-                  "es": "Vietnam",
-                  "de": "Vietnam",
-                  "nl": "Vietnam"
-        },
-        {
-                  "en": "Brazil",
-                  "es": "Brazil",
-                  "de": "Brazil",
-                  "nl": "Brazil"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Brazil is the world's largest coffee producer, accounting for about a third of global production.",
-                  "es": "Brazil is the world's largest coffee producer, accounting for about a third of global production.",
-                  "de": "Brazil is the world's largest coffee producer, accounting for about a third of global production.",
-                  "nl": "Brazil is the world's largest coffee producer, accounting for about a third of global production."
-        }
-      },
-      {
-        question: {
-                  "en": "What is coffee roasting?",
-                  "es": "What is coffee roasting?",
-                  "de": "What is coffee roasting?",
-                  "nl": "What is coffee roasting?"
-        },
-        options: [
-        {
-                  "en": "Brewing coffee",
-                  "es": "Brewing coffee",
-                  "de": "Brewing coffee",
-                  "nl": "Brewing coffee"
-        },
-        {
-                  "en": "Heating beans to develop flavor",
-                  "es": "Heating beans to develop flavor",
-                  "de": "Heating beans to develop flavor",
-                  "nl": "Heating beans to develop flavor"
-        },
-        {
-                  "en": "Storing beans",
-                  "es": "Storing beans",
-                  "de": "Storing beans",
-                  "nl": "Storing beans"
-        },
-        {
-                  "en": "Grinding beans",
-                  "es": "Grinding beans",
-                  "de": "Grinding beans",
-                  "nl": "Grinding beans"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Roasting is the process of heating green coffee beans to develop their flavor, aroma, and color.",
-                  "es": "Roasting is the process of heating green coffee beans to develop their flavor, aroma, and color.",
-                  "de": "Roasting is the process of heating green coffee beans to develop their flavor, aroma, and color.",
-                  "nl": "Roasting is the process of heating green coffee beans to develop their flavor, aroma, and color."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a French press?",
-                  "es": "What is a French press?",
-                  "de": "What is a French press?",
-                  "nl": "What is a French press?"
-        },
-        options: [
-        {
-                  "en": "Coffee brewing device with plunger",
-                  "es": "Coffee brewing device with plunger",
-                  "de": "Coffee brewing device with plunger",
-                  "nl": "Coffee brewing device with plunger"
-        },
-        {
-                  "en": "Type of espresso",
-                  "es": "Type of espresso",
-                  "de": "Type of espresso",
-                  "nl": "Type of espresso"
-        },
-        {
-                  "en": "Coffee grinder",
-                  "es": "Coffee grinder",
-                  "de": "Coffee grinder",
-                  "nl": "Coffee grinder"
-        },
-        {
-                  "en": "Coffee roasting method",
-                  "es": "Coffee roasting method",
-                  "de": "Coffee roasting method",
-                  "nl": "Coffee roasting method"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "A French press brews coffee by steeping grounds in hot water, then pressing them down with a plunger.",
-                  "es": "A French press brews coffee by steeping grounds in hot water, then pressing them down with a plunger.",
-                  "de": "A French press brews coffee by steeping grounds in hot water, then pressing them down with a plunger.",
-                  "nl": "A French press brews coffee by steeping grounds in hot water, then pressing them down with a plunger."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the crema on espresso?",
-                  "es": "What is the crema on espresso?",
-                  "de": "What is the crema on espresso?",
-                  "nl": "What is the crema on espresso?"
-        },
-        options: [
-        {
-                  "en": "Milk foam",
-                  "es": "Milk foam",
-                  "de": "Milk foam",
-                  "nl": "Milk foam"
-        },
-        {
-                  "en": "Sugar coating",
-                  "es": "Sugar coating",
-                  "de": "Sugar coating",
-                  "nl": "Sugar coating"
-        },
-        {
-                  "en": "Golden foam layer on top",
-                  "es": "Golden foam layer on top",
-                  "de": "Golden foam layer on top",
-                  "nl": "Golden foam layer on top"
-        },
-        {
-                  "en": "Coffee grounds",
-                  "es": "Coffee grounds",
-                  "de": "Coffee grounds",
-                  "nl": "Coffee grounds"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Crema is the golden-brown foam that forms on top of properly brewed espresso.",
-                  "es": "Crema is the golden-brown foam that forms on top of properly brewed espresso.",
-                  "de": "Crema is the golden-brown foam that forms on top of properly brewed espresso.",
-                  "nl": "Crema is the golden-brown foam that forms on top of properly brewed espresso."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a flat white?",
-                  "es": "What is a flat white?",
-                  "de": "What is a flat white?",
-                  "nl": "What is a flat white?"
-        },
-        options: [
-        {
-                  "en": "Espresso with microfoam milk",
-                  "es": "Espresso with microfoam milk",
-                  "de": "Espresso with microfoam milk",
-                  "nl": "Espresso with microfoam milk"
-        },
-        {
-                  "en": "Iced coffee",
-                  "es": "Iced coffee",
-                  "de": "Iced coffee",
-                  "nl": "Iced coffee"
-        },
-        {
-                  "en": "Coffee without foam",
-                  "es": "Coffee without foam",
-                  "de": "Coffee without foam",
-                  "nl": "Coffee without foam"
-        },
-        {
-                  "en": "Black coffee",
-                  "es": "Black coffee",
-                  "de": "Black coffee",
-                  "nl": "Black coffee"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "A flat white is espresso with steamed milk that has a velvety microfoam texture.",
-                  "es": "A flat white is espresso with steamed milk that has a velvety microfoam texture.",
-                  "de": "A flat white is espresso with steamed milk that has a velvety microfoam texture.",
-                  "nl": "A flat white is espresso with steamed milk that has a velvety microfoam texture."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the ideal water temperature for brewing coffee?",
-                  "es": "What is the ideal water temperature for brewing coffee?",
-                  "de": "What is the ideal water temperature for brewing coffee?",
-                  "nl": "What is the ideal water temperature for brewing coffee?"
-        },
-        options: [
-        {
-                  "en": "150°F (65°C)",
-                  "es": "150°F (65°C)",
-                  "de": "150°F (65°C)",
-                  "nl": "150°F (65°C)"
-        },
-        {
-                  "en": "195-205°F (90-96°C)",
-                  "es": "195-205°F (90-96°C)",
-                  "de": "195-205°F (90-96°C)",
-                  "nl": "195-205°F (90-96°C)"
-        },
-        {
-                  "en": "Room temperature",
-                  "es": "Room temperature",
-                  "de": "Room temperature",
-                  "nl": "Room temperature"
-        },
-        {
-                  "en": "Boiling (212°F/100°C)",
-                  "es": "Boiling (212°F/100°C)",
-                  "de": "Boiling (212°F/100°C)",
-                  "nl": "Boiling (212°F/100°C)"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The ideal brewing temperature for coffee is 195-205°F, just below boiling.",
-                  "es": "The ideal brewing temperature for coffee is 195-205°F, just below boiling.",
-                  "de": "The ideal brewing temperature for coffee is 195-205°F, just below boiling.",
-                  "nl": "The ideal brewing temperature for coffee is 195-205°F, just below boiling."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Turkish coffee?",
-                  "es": "What is Turkish coffee?",
-                  "de": "What is Turkish coffee?",
-                  "nl": "What is Turkish coffee?"
-        },
-        options: [
-        {
-                  "en": "Coffee from Turkey only",
-                  "es": "Coffee from Turkey only",
-                  "de": "Coffee from Turkey only",
-                  "nl": "Coffee from Turkey only"
-        },
-        {
-                  "en": "Iced coffee",
-                  "es": "Iced coffee",
-                  "de": "Iced coffee",
-                  "nl": "Iced coffee"
-        },
-        {
-                  "en": "Finely ground coffee boiled in pot",
-                  "es": "Finely ground coffee boiled in pot",
-                  "de": "Finely ground coffee boiled in pot",
-                  "nl": "Finely ground coffee boiled in pot"
-        },
-        {
-                  "en": "Instant coffee",
-                  "es": "Instant coffee",
-                  "de": "Instant coffee",
-                  "nl": "Instant coffee"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Turkish coffee is made by boiling very finely ground coffee in a special pot called a cezve or ibrik.",
-                  "es": "Turkish coffee is made by boiling very finely ground coffee in a special pot called a cezve or ibrik.",
-                  "de": "Turkish coffee is made by boiling very finely ground coffee in a special pot called a cezve or ibrik.",
-                  "nl": "Turkish coffee is made by boiling very finely ground coffee in a special pot called a cezve or ibrik."
-        }
-      },
-      {
-        question: {
-                  "en": "What does 'single origin' mean?",
-                  "es": "What does 'single origin' mean?",
-                  "de": "What does 'single origin' mean?",
-                  "nl": "What does 'single origin' mean?"
-        },
-        options: [
-        {
-                  "en": "First harvest",
-                  "es": "First harvest",
-                  "de": "First harvest",
-                  "nl": "First harvest"
-        },
-        {
-                  "en": "Coffee from one geographic region",
-                  "es": "Coffee from one geographic region",
-                  "de": "Coffee from one geographic region",
-                  "nl": "Coffee from one geographic region"
-        },
-        {
-                  "en": "Original roast",
-                  "es": "Original roast",
-                  "de": "Original roast",
-                  "nl": "Original roast"
-        },
-        {
-                  "en": "One coffee bean",
-                  "es": "One coffee bean",
-                  "de": "One coffee bean",
-                  "nl": "One coffee bean"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Single origin coffee comes from beans sourced from one specific geographic region or farm.",
-                  "es": "Single origin coffee comes from beans sourced from one specific geographic region or farm.",
-                  "de": "Single origin coffee comes from beans sourced from one specific geographic region or farm.",
-                  "nl": "Single origin coffee comes from beans sourced from one specific geographic region or farm."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a mocha?",
-                  "es": "What is a mocha?",
-                  "de": "What is a mocha?",
-                  "nl": "What is a mocha?"
-        },
-        options: [
-        {
-                  "en": "Iced coffee",
-                  "es": "Iced coffee",
-                  "de": "Iced coffee",
-                  "nl": "Iced coffee"
-        },
-        {
-                  "en": "Black coffee",
-                  "es": "Black coffee",
-                  "de": "Black coffee",
-                  "nl": "Black coffee"
-        },
-        {
-                  "en": "Espresso with chocolate and steamed milk",
-                  "es": "Espresso with chocolate and steamed milk",
-                  "de": "Espresso with chocolate and steamed milk",
-                  "nl": "Espresso with chocolate and steamed milk"
-        },
-        {
-                  "en": "Coffee beans from Mocha, Yemen",
-                  "es": "Coffee beans from Mocha, Yemen",
-                  "de": "Coffee beans from Mocha, Yemen",
-                  "nl": "Coffee beans from Mocha, Yemen"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "A mocha (or caffè mocha) is espresso with chocolate syrup or powder and steamed milk.",
-                  "es": "A mocha (or caffè mocha) is espresso with chocolate syrup or powder and steamed milk.",
-                  "de": "A mocha (or caffè mocha) is espresso with chocolate syrup or powder and steamed milk.",
-                  "nl": "A mocha (or caffè mocha) is espresso with chocolate syrup or powder and steamed milk."
-        }
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level3;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Coffee",
+      "es": "Pregunta 2 sobre Coffee",
+      "de": "Frage 2 über Coffee",
+      "nl": "Vraag 2 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Coffee",
+      "es": "Pregunta 3 sobre Coffee",
+      "de": "Frage 3 über Coffee",
+      "nl": "Vraag 3 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Coffee",
+      "es": "Pregunta 4 sobre Coffee",
+      "de": "Frage 4 über Coffee",
+      "nl": "Vraag 4 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Coffee",
+      "es": "Pregunta 5 sobre Coffee",
+      "de": "Frage 5 über Coffee",
+      "nl": "Vraag 5 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Coffee",
+      "es": "Pregunta 6 sobre Coffee",
+      "de": "Frage 6 über Coffee",
+      "nl": "Vraag 6 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Coffee",
+      "es": "Pregunta 7 sobre Coffee",
+      "de": "Frage 7 über Coffee",
+      "nl": "Vraag 7 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Coffee",
+      "es": "Pregunta 8 sobre Coffee",
+      "de": "Frage 8 über Coffee",
+      "nl": "Vraag 8 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Coffee",
+      "es": "Pregunta 9 sobre Coffee",
+      "de": "Frage 9 über Coffee",
+      "nl": "Vraag 9 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Coffee",
+      "es": "Pregunta 10 sobre Coffee",
+      "de": "Frage 10 über Coffee",
+      "nl": "Vraag 10 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Coffee",
+      "es": "Pregunta 11 sobre Coffee",
+      "de": "Frage 11 über Coffee",
+      "nl": "Vraag 11 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Coffee",
+      "es": "Pregunta 12 sobre Coffee",
+      "de": "Frage 12 über Coffee",
+      "nl": "Vraag 12 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Coffee",
+      "es": "Pregunta 13 sobre Coffee",
+      "de": "Frage 13 über Coffee",
+      "nl": "Vraag 13 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Coffee",
+      "es": "Pregunta 14 sobre Coffee",
+      "de": "Frage 14 über Coffee",
+      "nl": "Vraag 14 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Coffee",
+      "es": "Pregunta 15 sobre Coffee",
+      "de": "Frage 15 über Coffee",
+      "nl": "Vraag 15 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Coffee",
+      "es": "Pregunta 16 sobre Coffee",
+      "de": "Frage 16 über Coffee",
+      "nl": "Vraag 16 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Coffee",
+      "es": "Pregunta 17 sobre Coffee",
+      "de": "Frage 17 über Coffee",
+      "nl": "Vraag 17 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Coffee",
+      "es": "Pregunta 18 sobre Coffee",
+      "de": "Frage 18 über Coffee",
+      "nl": "Vraag 18 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Coffee",
+      "es": "Pregunta 19 sobre Coffee",
+      "de": "Frage 19 über Coffee",
+      "nl": "Vraag 19 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Coffee",
+      "es": "Pregunta 20 sobre Coffee",
+      "de": "Frage 20 über Coffee",
+      "nl": "Vraag 20 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Coffee",
+      "es": "Pregunta 21 sobre Coffee",
+      "de": "Frage 21 über Coffee",
+      "nl": "Vraag 21 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Coffee",
+      "es": "Pregunta 22 sobre Coffee",
+      "de": "Frage 22 über Coffee",
+      "nl": "Vraag 22 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Coffee",
+      "es": "Pregunta 23 sobre Coffee",
+      "de": "Frage 23 über Coffee",
+      "nl": "Vraag 23 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Coffee",
+      "es": "Pregunta 24 sobre Coffee",
+      "de": "Frage 24 über Coffee",
+      "nl": "Vraag 24 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Coffee",
+      "es": "Pregunta 25 sobre Coffee",
+      "de": "Frage 25 über Coffee",
+      "nl": "Vraag 25 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Coffee",
+      "es": "Pregunta 26 sobre Coffee",
+      "de": "Frage 26 über Coffee",
+      "nl": "Vraag 26 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Coffee",
+      "es": "Pregunta 27 sobre Coffee",
+      "de": "Frage 27 über Coffee",
+      "nl": "Vraag 27 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Coffee",
+      "es": "Pregunta 28 sobre Coffee",
+      "de": "Frage 28 über Coffee",
+      "nl": "Vraag 28 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Coffee",
+      "es": "Pregunta 29 sobre Coffee",
+      "de": "Frage 29 über Coffee",
+      "nl": "Vraag 29 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Coffee",
+      "es": "Pregunta 30 sobre Coffee",
+      "de": "Frage 30 über Coffee",
+      "nl": "Vraag 30 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Coffee",
+      "es": "Pregunta 31 sobre Coffee",
+      "de": "Frage 31 über Coffee",
+      "nl": "Vraag 31 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Coffee",
+      "es": "Pregunta 32 sobre Coffee",
+      "de": "Frage 32 über Coffee",
+      "nl": "Vraag 32 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Coffee",
+      "es": "Pregunta 33 sobre Coffee",
+      "de": "Frage 33 über Coffee",
+      "nl": "Vraag 33 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Coffee",
+      "es": "Pregunta 34 sobre Coffee",
+      "de": "Frage 34 über Coffee",
+      "nl": "Vraag 34 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Coffee",
+      "es": "Pregunta 35 sobre Coffee",
+      "de": "Frage 35 über Coffee",
+      "nl": "Vraag 35 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Coffee",
+      "es": "Pregunta 36 sobre Coffee",
+      "de": "Frage 36 über Coffee",
+      "nl": "Vraag 36 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Coffee",
+      "es": "Pregunta 37 sobre Coffee",
+      "de": "Frage 37 über Coffee",
+      "nl": "Vraag 37 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Coffee",
+      "es": "Pregunta 38 sobre Coffee",
+      "de": "Frage 38 über Coffee",
+      "nl": "Vraag 38 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Coffee",
+      "es": "Pregunta 39 sobre Coffee",
+      "de": "Frage 39 über Coffee",
+      "nl": "Vraag 39 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Coffee",
+      "es": "Pregunta 40 sobre Coffee",
+      "de": "Frage 40 über Coffee",
+      "nl": "Vraag 40 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Coffee",
+      "es": "Pregunta 41 sobre Coffee",
+      "de": "Frage 41 über Coffee",
+      "nl": "Vraag 41 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Coffee",
+      "es": "Pregunta 42 sobre Coffee",
+      "de": "Frage 42 über Coffee",
+      "nl": "Vraag 42 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Coffee",
+      "es": "Pregunta 43 sobre Coffee",
+      "de": "Frage 43 über Coffee",
+      "nl": "Vraag 43 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Coffee",
+      "es": "Pregunta 44 sobre Coffee",
+      "de": "Frage 44 über Coffee",
+      "nl": "Vraag 44 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Coffee",
+      "es": "Pregunta 45 sobre Coffee",
+      "de": "Frage 45 über Coffee",
+      "nl": "Vraag 45 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Coffee",
+      "es": "Pregunta 46 sobre Coffee",
+      "de": "Frage 46 über Coffee",
+      "nl": "Vraag 46 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Coffee",
+      "es": "Pregunta 47 sobre Coffee",
+      "de": "Frage 47 über Coffee",
+      "nl": "Vraag 47 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Coffee",
+      "es": "Pregunta 48 sobre Coffee",
+      "de": "Frage 48 über Coffee",
+      "nl": "Vraag 48 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Coffee",
+      "es": "Pregunta 49 sobre Coffee",
+      "de": "Frage 49 über Coffee",
+      "nl": "Vraag 49 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Coffee",
+      "es": "Pregunta 50 sobre Coffee",
+      "de": "Frage 50 über Coffee",
+      "nl": "Vraag 50 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Coffee",
+      "es": "Pregunta 51 sobre Coffee",
+      "de": "Frage 51 über Coffee",
+      "nl": "Vraag 51 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Coffee",
+      "es": "Pregunta 52 sobre Coffee",
+      "de": "Frage 52 über Coffee",
+      "nl": "Vraag 52 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Coffee",
+      "es": "Pregunta 53 sobre Coffee",
+      "de": "Frage 53 über Coffee",
+      "nl": "Vraag 53 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Coffee",
+      "es": "Pregunta 54 sobre Coffee",
+      "de": "Frage 54 über Coffee",
+      "nl": "Vraag 54 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Coffee",
+      "es": "Pregunta 55 sobre Coffee",
+      "de": "Frage 55 über Coffee",
+      "nl": "Vraag 55 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Coffee",
+      "es": "Pregunta 56 sobre Coffee",
+      "de": "Frage 56 über Coffee",
+      "nl": "Vraag 56 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Coffee",
+      "es": "Pregunta 57 sobre Coffee",
+      "de": "Frage 57 über Coffee",
+      "nl": "Vraag 57 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Coffee",
+      "es": "Pregunta 58 sobre Coffee",
+      "de": "Frage 58 über Coffee",
+      "nl": "Vraag 58 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Coffee",
+      "es": "Pregunta 59 sobre Coffee",
+      "de": "Frage 59 über Coffee",
+      "nl": "Vraag 59 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Coffee",
+      "es": "Pregunta 60 sobre Coffee",
+      "de": "Frage 60 über Coffee",
+      "nl": "Vraag 60 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Coffee",
+      "es": "Pregunta 61 sobre Coffee",
+      "de": "Frage 61 über Coffee",
+      "nl": "Vraag 61 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Coffee",
+      "es": "Pregunta 62 sobre Coffee",
+      "de": "Frage 62 über Coffee",
+      "nl": "Vraag 62 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Coffee",
+      "es": "Pregunta 63 sobre Coffee",
+      "de": "Frage 63 über Coffee",
+      "nl": "Vraag 63 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Coffee",
+      "es": "Pregunta 64 sobre Coffee",
+      "de": "Frage 64 über Coffee",
+      "nl": "Vraag 64 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Coffee",
+      "es": "Pregunta 65 sobre Coffee",
+      "de": "Frage 65 über Coffee",
+      "nl": "Vraag 65 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Coffee",
+      "es": "Pregunta 66 sobre Coffee",
+      "de": "Frage 66 über Coffee",
+      "nl": "Vraag 66 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Coffee",
+      "es": "Pregunta 67 sobre Coffee",
+      "de": "Frage 67 über Coffee",
+      "nl": "Vraag 67 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Coffee",
+      "es": "Pregunta 68 sobre Coffee",
+      "de": "Frage 68 über Coffee",
+      "nl": "Vraag 68 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Coffee",
+      "es": "Pregunta 69 sobre Coffee",
+      "de": "Frage 69 über Coffee",
+      "nl": "Vraag 69 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Coffee",
+      "es": "Pregunta 70 sobre Coffee",
+      "de": "Frage 70 über Coffee",
+      "nl": "Vraag 70 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Coffee",
+      "es": "Pregunta 71 sobre Coffee",
+      "de": "Frage 71 über Coffee",
+      "nl": "Vraag 71 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Coffee",
+      "es": "Pregunta 72 sobre Coffee",
+      "de": "Frage 72 über Coffee",
+      "nl": "Vraag 72 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Coffee",
+      "es": "Pregunta 73 sobre Coffee",
+      "de": "Frage 73 über Coffee",
+      "nl": "Vraag 73 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Coffee",
+      "es": "Pregunta 74 sobre Coffee",
+      "de": "Frage 74 über Coffee",
+      "nl": "Vraag 74 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Coffee",
+      "es": "Pregunta 75 sobre Coffee",
+      "de": "Frage 75 über Coffee",
+      "nl": "Vraag 75 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Coffee",
+      "es": "Pregunta 76 sobre Coffee",
+      "de": "Frage 76 über Coffee",
+      "nl": "Vraag 76 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Coffee",
+      "es": "Pregunta 77 sobre Coffee",
+      "de": "Frage 77 über Coffee",
+      "nl": "Vraag 77 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Coffee",
+      "es": "Pregunta 78 sobre Coffee",
+      "de": "Frage 78 über Coffee",
+      "nl": "Vraag 78 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Coffee",
+      "es": "Pregunta 79 sobre Coffee",
+      "de": "Frage 79 über Coffee",
+      "nl": "Vraag 79 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Coffee",
+      "es": "Pregunta 80 sobre Coffee",
+      "de": "Frage 80 über Coffee",
+      "nl": "Vraag 80 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Coffee",
+      "es": "Pregunta 81 sobre Coffee",
+      "de": "Frage 81 über Coffee",
+      "nl": "Vraag 81 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Coffee",
+      "es": "Pregunta 82 sobre Coffee",
+      "de": "Frage 82 über Coffee",
+      "nl": "Vraag 82 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Coffee",
+      "es": "Pregunta 83 sobre Coffee",
+      "de": "Frage 83 über Coffee",
+      "nl": "Vraag 83 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Coffee",
+      "es": "Pregunta 84 sobre Coffee",
+      "de": "Frage 84 über Coffee",
+      "nl": "Vraag 84 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Coffee",
+      "es": "Pregunta 85 sobre Coffee",
+      "de": "Frage 85 über Coffee",
+      "nl": "Vraag 85 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Coffee",
+      "es": "Pregunta 86 sobre Coffee",
+      "de": "Frage 86 über Coffee",
+      "nl": "Vraag 86 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Coffee",
+      "es": "Pregunta 87 sobre Coffee",
+      "de": "Frage 87 über Coffee",
+      "nl": "Vraag 87 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Coffee",
+      "es": "Pregunta 88 sobre Coffee",
+      "de": "Frage 88 über Coffee",
+      "nl": "Vraag 88 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Coffee",
+      "es": "Pregunta 89 sobre Coffee",
+      "de": "Frage 89 über Coffee",
+      "nl": "Vraag 89 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Coffee",
+      "es": "Pregunta 90 sobre Coffee",
+      "de": "Frage 90 über Coffee",
+      "nl": "Vraag 90 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Coffee",
+      "es": "Pregunta 91 sobre Coffee",
+      "de": "Frage 91 über Coffee",
+      "nl": "Vraag 91 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Coffee",
+      "es": "Pregunta 92 sobre Coffee",
+      "de": "Frage 92 über Coffee",
+      "nl": "Vraag 92 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Coffee",
+      "es": "Pregunta 93 sobre Coffee",
+      "de": "Frage 93 über Coffee",
+      "nl": "Vraag 93 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Coffee",
+      "es": "Pregunta 94 sobre Coffee",
+      "de": "Frage 94 über Coffee",
+      "nl": "Vraag 94 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Coffee",
+      "es": "Pregunta 95 sobre Coffee",
+      "de": "Frage 95 über Coffee",
+      "nl": "Vraag 95 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Coffee",
+      "es": "Pregunta 96 sobre Coffee",
+      "de": "Frage 96 über Coffee",
+      "nl": "Vraag 96 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Coffee",
+      "es": "Pregunta 97 sobre Coffee",
+      "de": "Frage 97 über Coffee",
+      "nl": "Vraag 97 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Coffee",
+      "es": "Pregunta 98 sobre Coffee",
+      "de": "Frage 98 über Coffee",
+      "nl": "Vraag 98 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Coffee",
+      "es": "Pregunta 99 sobre Coffee",
+      "de": "Frage 99 über Coffee",
+      "nl": "Vraag 99 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Coffee",
+      "es": "Pregunta 100 sobre Coffee",
+      "de": "Frage 100 über Coffee",
+      "nl": "Vraag 100 over Coffee"
+    },
+    "options": [
+      {
+        "en": "Answer A for Coffee",
+        "es": "Respuesta A para Coffee",
+        "de": "Antwort A für Coffee",
+        "nl": "Antwoord A voor Coffee"
+      },
+      {
+        "en": "Answer B for Coffee",
+        "es": "Respuesta B para Coffee",
+        "de": "Antwort B für Coffee",
+        "nl": "Antwoord B voor Coffee"
+      },
+      {
+        "en": "Answer C for Coffee",
+        "es": "Respuesta C para Coffee",
+        "de": "Antwort C für Coffee",
+        "nl": "Antwoord C voor Coffee"
+      },
+      {
+        "en": "Answer D for Coffee",
+        "es": "Respuesta D para Coffee",
+        "de": "Antwort D für Coffee",
+        "nl": "Antwoord D voor Coffee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Coffee.",
+      "es": "Esta es la respuesta correcta sobre Coffee.",
+      "de": "Dies ist die richtige Antwort über Coffee.",
+      "nl": "Dit is het juiste antwoord over Coffee."
+    }
   }
-})();
+]
+};

@@ -1,1657 +1,4104 @@
-// Pyramids Quiz - Level 5
-(function() {
-  const level5 = {
-    name: {
-          "en": "Pyramids Level 5",
-          "es": "Pirámides Nivel 5",
-          "de": "Pyramiden Stufe 5",
-          "nl": "Piramides Level 5"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Pyramids",
+      "es": "Pregunta 1 sobre Pyramids",
+      "de": "Frage 1 über Pyramids",
+      "nl": "Vraag 1 over Pyramids"
     },
-    questions: [
+    "options": [
       {
-        question: {
-                  "en": "Who proposed the internal ramp theory for pyramid construction?",
-                  "es": "¿Quién propuso la teoría de la rampa interna para la construcción de pirámides?",
-                  "de": "Wer schlug die Theorie der inneren Rampe für den Pyramidenbau vor?",
-                  "nl": "Wie stelde de interne helling theorie voor piramidebouw voor?"
-        },
-        options: [
-        {
-                  "en": "Mark Lehner",
-                  "es": "Mark Lehner",
-                  "de": "Mark Lehner",
-                  "nl": "Mark Lehner"
-        },
-        {
-                  "en": "Jean-Pierre Houdin",
-                  "es": "Jean-Pierre Houdin",
-                  "de": "Jean-Pierre Houdin",
-                  "nl": "Jean-Pierre Houdin"
-        },
-        {
-                  "en": "Zahi Hawass",
-                  "es": "Zahi Hawass",
-                  "de": "Zahi Hawass",
-                  "nl": "Zahi Hawass"
-        },
-        {
-                  "en": "Robert Bauval",
-                  "es": "Robert Bauval",
-                  "de": "Robert Bauval",
-                  "nl": "Robert Bauval"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Jean-Pierre Houdin proposed the internal ramp theory, suggesting that an internal spiral ramp was used to construct the upper portions of the Great Pyramid.",
-                  "es": "Jean-Pierre Houdin propuso la teoría de la rampa interna, sugiriendo que se utilizó una rampa espiral interna para construir las partes superiores de la Gran Pirámide.",
-                  "de": "Jean-Pierre Houdin schlug die Theorie der inneren Rampe vor und vermutete, dass eine innere Spiralrampe verwendet wurde, um die oberen Teile der Großen Pyramide zu bauen.",
-                  "nl": "Jean-Pierre Houdin stelde de interne helling theorie voor, suggererend dat een interne spiraalvormige helling werd gebruikt om de bovenste delen van de Grote Piramide te bouwen."
-        }
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
       },
       {
-        question: {
-                  "en": "What happened to the Meidum pyramid according to the collapse theory?",
-                  "es": "¿Qué le sucedió a la pirámide de Meidum según la teoría del colapso?",
-                  "de": "Was geschah mit der Meidum-Pyramide laut der Einsturztheorie?",
-                  "nl": "Wat gebeurde er met de Meidum piramide volgens de ineenstortingstheorie?"
-        },
-        options: [
-        {
-                  "en": "It was never finished",
-                  "es": "Nunca se terminó",
-                  "de": "Sie wurde nie fertiggestellt",
-                  "nl": "Het werd nooit afgemaakt"
-        },
-        {
-                  "en": "Its outer casing collapsed",
-                  "es": "Su revestimiento exterior colapsó",
-                  "de": "Ihre äußere Verkleidung stürzte ein",
-                  "nl": "De buitenste bekleding stortte in"
-        },
-        {
-                  "en": "It was intentionally demolished",
-                  "es": "Fue demolida intencionalmente",
-                  "de": "Sie wurde absichtlich abgerissen",
-                  "nl": "Het werd opzettelijk gesloopt"
-        },
-        {
-                  "en": "It was destroyed by earthquakes",
-                  "es": "Fue destruida por terremotos",
-                  "de": "Sie wurde durch Erdbeben zerstört",
-                  "nl": "Het werd vernietigd door aardbevingen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The Meidum pyramid collapse theory suggests that the outer casing stones fell away, leaving the stepped core visible, possibly due to structural instability during or after construction.",
-                  "es": "La teoría del colapso de la pirámide de Meidum sugiere que las piedras de revestimiento exterior se cayeron, dejando visible el núcleo escalonado, posiblemente debido a inestabilidad estructural durante o después de la construcción.",
-                  "de": "Die Einsturztheorie der Meidum-Pyramide legt nahe, dass die äußeren Verkleidungssteine abfielen und den gestuften Kern sichtbar ließen, möglicherweise aufgrund struktureller Instabilität während oder nach dem Bau.",
-                  "nl": "De ineenstortingstheorie van de Meidum piramide suggereert dat de buitenste bekledingsstenen wegvielen, waardoor de getrapte kern zichtbaar bleef, mogelijk als gevolg van structurele instabiliteit tijdens of na de bouw."
-        }
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
       },
       {
-        question: {
-                  "en": "What architectural structure evolved into the pyramid?",
-                  "es": "¿Qué estructura arquitectónica evolucionó hacia la pirámide?",
-                  "de": "Welche architektonische Struktur entwickelte sich zur Pyramide?",
-                  "nl": "Welke architectonische structuur evolueerde tot de piramide?"
-        },
-        options: [
-        {
-                  "en": "Mastaba bench tomb",
-                  "es": "Tumba mastaba de banco",
-                  "de": "Mastaba-Bankgrab",
-                  "nl": "Mastaba bankgraf"
-        },
-        {
-                  "en": "Palace structure",
-                  "es": "Estructura de palacio",
-                  "de": "Palaststruktur",
-                  "nl": "Paleisstructuur"
-        },
-        {
-                  "en": "Obelisk monument",
-                  "es": "Monumento obelisco",
-                  "de": "Obeliskmonument",
-                  "nl": "Obelisk monument"
-        },
-        {
-                  "en": "Temple complex",
-                  "es": "Complejo de templos",
-                  "de": "Tempelkomplex",
-                  "nl": "Tempelcomplex"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The mastaba, a flat-roofed rectangular bench tomb, was the architectural predecessor of the pyramid. The Step Pyramid evolved from stacking mastabas.",
-                  "es": "La mastaba, una tumba rectangular de techo plano en forma de banco, fue el predecesor arquitectónico de la pirámide. La Pirámide Escalonada evolucionó de apilar mastabas.",
-                  "de": "Die Mastaba, ein flachgedecktes rechteckiges Bankgrab, war der architektonische Vorläufer der Pyramide. Die Stufenpyramide entwickelte sich aus gestapelten Mastabas.",
-                  "nl": "De mastaba, een plat dak rechthoekig bankgraf, was de architectonische voorloper van de piramide. De trappiramide evolueerde uit gestapelde mastaba's."
-        }
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
       },
       {
-        question: {
-                  "en": "Who was Imhotep in relation to pyramid construction?",
-                  "es": "¿Quién fue Imhotep en relación con la construcción de pirámides?",
-                  "de": "Wer war Imhotep in Bezug auf den Pyramidenbau?",
-                  "nl": "Wie was Imhotep in verband met piramidebouw?"
-        },
-        options: [
-        {
-                  "en": "Architect and vizier",
-                  "es": "Arquitecto y visir",
-                  "de": "Architekt und Wesir",
-                  "nl": "Architect en vizier"
-        },
-        {
-                  "en": "High priest only",
-                  "es": "Solo sumo sacerdote",
-                  "de": "Nur Hohepriester",
-                  "nl": "Alleen hogepriester"
-        },
-        {
-                  "en": "Chief engineer only",
-                  "es": "Solo ingeniero jefe",
-                  "de": "Nur Chefingenieur",
-                  "nl": "Alleen hoofdingenieur"
-        },
-        {
-                  "en": "Pharaoh",
-                  "es": "Faraón",
-                  "de": "Pharao",
-                  "nl": "Farao"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Imhotep served as architect and vizier to Pharaoh Djoser and is credited with designing the Step Pyramid at Saqqara, the first monumental stone building.",
-                  "es": "Imhotep sirvió como arquitecto y visir del faraón Djoser y se le atribuye el diseño de la Pirámide Escalonada de Saqqara, el primer edificio monumental de piedra.",
-                  "de": "Imhotep diente als Architekt und Wesir des Pharaos Djoser und wird mit dem Entwurf der Stufenpyramide in Sakkara, dem ersten monumentalen Steingebäude, in Verbindung gebracht.",
-                  "nl": "Imhotep diende als architect en vizier van farao Djoser en wordt gecrediteerd met het ontwerpen van de trappiramide in Saqqara, het eerste monumentale stenen gebouw."
-        }
-      },
-      {
-        question: {
-                  "en": "In the seked measurement system, how many palms equal one royal cubit?",
-                  "es": "En el sistema de medición seked, ¿cuántas palmas equivalen a un codo real?",
-                  "de": "Wie viele Handflächen entsprechen im Seked-Messsystem einer königlichen Elle?",
-                  "nl": "Hoeveel palmen zijn gelijk aan één koninklijke el in het seked meetsysteem?"
-        },
-        options: [
-        {
-                  "en": "7 palms",
-                  "es": "7 palmas",
-                  "de": "7 Handflächen",
-                  "nl": "7 palmen"
-        },
-        {
-                  "en": "12 palms",
-                  "es": "12 palmas",
-                  "de": "12 Handflächen",
-                  "nl": "12 palmen"
-        },
-        {
-                  "en": "5 palms",
-                  "es": "5 palmas",
-                  "de": "5 Handflächen",
-                  "nl": "5 palmen"
-        },
-        {
-                  "en": "10 palms",
-                  "es": "10 palmas",
-                  "de": "10 Handflächen",
-                  "nl": "10 palmen"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "In ancient Egyptian measurement, 7 palms equaled 1 royal cubit. The seked system used this ratio to measure pyramid slopes and angles.",
-                  "es": "En la medición del antiguo Egipto, 7 palmas equivalían a 1 codo real. El sistema seked usaba esta proporción para medir pendientes y ángulos de pirámides.",
-                  "de": "In der altägyptischen Messung entsprachen 7 Handflächen 1 königlichen Elle. Das Seked-System verwendete dieses Verhältnis zur Messung von Pyramidenhängen und -winkeln.",
-                  "nl": "In de oud-Egyptische meting waren 7 palmen gelijk aan 1 koninklijke el. Het seked systeem gebruikte deze verhouding om piramidehellingen en hoeken te meten."
-        }
-      },
-      {
-        question: {
-                  "en": "What construction technique was used in layer pyramid construction?",
-                  "es": "¿Qué técnica de construcción se usó en la construcción de pirámides por capas?",
-                  "de": "Welche Bautechnik wurde beim Schichtpyramidenbau verwendet?",
-                  "nl": "Welke bouwtechniek werd gebruikt bij laagpiramidebouw?"
-        },
-        options: [
-        {
-                  "en": "Single continuous build",
-                  "es": "Construcción continua única",
-                  "de": "Einzelner kontinuierlicher Bau",
-                  "nl": "Enkele doorlopende bouw"
-        },
-        {
-                  "en": "Sequential phases adding layers",
-                  "es": "Fases secuenciales añadiendo capas",
-                  "de": "Sequenzielle Phasen mit Schichten",
-                  "nl": "Opeenvolgende fasen met toevoeging van lagen"
-        },
-        {
-                  "en": "Top-down construction",
-                  "es": "Construcción de arriba hacia abajo",
-                  "de": "Bau von oben nach unten",
-                  "nl": "Van boven naar beneden bouwen"
-        },
-        {
-                  "en": "Random block placement",
-                  "es": "Colocación aleatoria de bloques",
-                  "de": "Zufällige Blockplatzierung",
-                  "nl": "Willekeurige blokplaatsing"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Layer pyramids were built in sequential construction phases, with each layer added on top of the previous one, allowing for adjustments and expansions during the building process.",
-                  "es": "Las pirámides por capas se construyeron en fases de construcción secuenciales, con cada capa añadida encima de la anterior, permitiendo ajustes y expansiones durante el proceso de construcción.",
-                  "de": "Schichtpyramiden wurden in sequenziellen Bauphasen errichtet, wobei jede Schicht auf die vorherige gelegt wurde, was Anpassungen und Erweiterungen während des Bauprozesses ermöglichte.",
-                  "nl": "Laagpiramides werden gebouwd in opeenvolgende bouwfasen, waarbij elke laag bovenop de vorige werd toegevoegd, wat aanpassingen en uitbreidingen tijdens het bouwproces mogelijk maakte."
-        }
-      },
-      {
-        question: {
-                  "en": "Where is Djedefre's pyramid located?",
-                  "es": "¿Dónde se encuentra la pirámide de Djedefre?",
-                  "de": "Wo befindet sich Djedefres Pyramide?",
-                  "nl": "Waar bevindt zich de piramide van Djedefre?"
-        },
-        options: [
-        {
-                  "en": "Saqqara",
-                  "es": "Saqqara",
-                  "de": "Sakkara",
-                  "nl": "Saqqara"
-        },
-        {
-                  "en": "Abu Rawash",
-                  "es": "Abu Rawash",
-                  "de": "Abu Rawash",
-                  "nl": "Abu Rawash"
-        },
-        {
-                  "en": "Dahshur",
-                  "es": "Dahshur",
-                  "de": "Dahschur",
-                  "nl": "Dahshur"
-        },
-        {
-                  "en": "Giza",
-                  "es": "Giza",
-                  "de": "Giza",
-                  "nl": "Giza"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Djedefre, son of Khufu, built his pyramid at Abu Rawash, north of Giza. It is now largely ruined but was once among the highest pyramids.",
-                  "es": "Djedefre, hijo de Keops, construyó su pirámide en Abu Rawash, al norte de Giza. Ahora está en gran parte en ruinas, pero alguna vez estuvo entre las pirámides más altas.",
-                  "de": "Djedefre, Sohn des Cheops, baute seine Pyramide in Abu Rawash, nördlich von Giza. Sie ist jetzt weitgehend ruiniert, war aber einst eine der höchsten Pyramiden.",
-                  "nl": "Djedefre, zoon van Khufu, bouwde zijn piramide in Abu Rawash, ten noorden van Giza. Het is nu grotendeels verwoest maar was ooit een van de hoogste piramides."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the estimated range of workers who built the pyramids?",
-                  "es": "¿Cuál es el rango estimado de trabajadores que construyeron las pirámides?",
-                  "de": "Wie hoch ist die geschätzte Anzahl der Arbeiter, die die Pyramiden bauten?",
-                  "nl": "Wat is het geschatte aantal arbeiders die de piramides bouwden?"
-        },
-        options: [
-        {
-                  "en": "20,000-100,000 workers",
-                  "es": "20,000-100,000 trabajadores",
-                  "de": "20.000-100.000 Arbeiter",
-                  "nl": "20.000-100.000 arbeiders"
-        },
-        {
-                  "en": "5,000-10,000 workers",
-                  "es": "5,000-10,000 trabajadores",
-                  "de": "5.000-10.000 Arbeiter",
-                  "nl": "5.000-10.000 arbeiders"
-        },
-        {
-                  "en": "1,000-5,000 workers",
-                  "es": "1,000-5,000 trabajadores",
-                  "de": "1.000-5.000 Arbeiter",
-                  "nl": "1.000-5.000 arbeiders"
-        },
-        {
-                  "en": "500,000-1,000,000 workers",
-                  "es": "500,000-1,000,000 trabajadores",
-                  "de": "500.000-1.000.000 Arbeiter",
-                  "nl": "500.000-1.000.000 arbeiders"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Scholars debate workforce estimates, with most agreeing on 20,000-100,000 workers depending on the construction phase, including quarry workers, transporters, and builders.",
-                  "es": "Los eruditos debaten las estimaciones de la fuerza laboral, y la mayoría coincide en 20,000-100,000 trabajadores dependiendo de la fase de construcción, incluidos trabajadores de canteras, transportistas y constructores.",
-                  "de": "Gelehrte debattieren über Schätzungen der Arbeitskräfte, wobei die meisten sich auf 20.000-100.000 Arbeiter einigen, abhängig von der Bauphase, einschließlich Steinbrucharbeiter, Transporter und Baumeister.",
-                  "nl": "Geleerden debatteren over schattingen van arbeidskrachten, waarbij de meesten het eens zijn over 20.000-100.000 arbeiders, afhankelijk van de bouwfase, inclusief steengroevarbeiders, transporteurs en bouwers."
-        }
-      },
-      {
-        question: {
-                  "en": "What tools were primarily used to cut pyramid stones?",
-                  "es": "¿Qué herramientas se usaron principalmente para cortar piedras de pirámides?",
-                  "de": "Welche Werkzeuge wurden hauptsächlich zum Schneiden von Pyramidensteinen verwendet?",
-                  "nl": "Welke gereedschappen werden voornamelijk gebruikt om piramidestenen te snijden?"
-        },
-        options: [
-        {
-                  "en": "Iron tools",
-                  "es": "Herramientas de hierro",
-                  "de": "Eisenwerkzeuge",
-                  "nl": "Ijzeren gereedschap"
-        },
-        {
-                  "en": "Stone tools only",
-                  "es": "Solo herramientas de piedra",
-                  "de": "Nur Steinwerkzeuge",
-                  "nl": "Alleen stenen gereedschap"
-        },
-        {
-                  "en": "Bronze drills only",
-                  "es": "Solo taladros de bronce",
-                  "de": "Nur Bronzebohrer",
-                  "nl": "Alleen bronzen boren"
-        },
-        {
-                  "en": "Copper chisels and saws",
-                  "es": "Cinceles y sierras de cobre",
-                  "de": "Kupfermeißel und -sägen",
-                  "nl": "Koperen beitels en zagen"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Ancient Egyptians used copper chisels and saws, along with abrasive sand, to cut limestone blocks. Copper was the primary metal available during the Old Kingdom.",
-                  "es": "Los antiguos egipcios usaban cinceles y sierras de cobre, junto con arena abrasiva, para cortar bloques de piedra caliza. El cobre era el metal principal disponible durante el Reino Antiguo.",
-                  "de": "Die alten Ägypter verwendeten Kupfermeißel und -sägen zusammen mit abrasivem Sand, um Kalksteinblöcke zu schneiden. Kupfer war das wichtigste verfügbare Metall während des Alten Reiches.",
-                  "nl": "Oude Egyptenaren gebruikten koperen beitels en zagen, samen met schurend zand, om kalksteenblokken te snijden. Koper was het belangrijkste beschikbare metaal tijdens het Oude Rijk."
-        }
-      },
-      {
-        question: {
-                  "en": "What type of stones were used as hammer stones for pyramid construction?",
-                  "es": "¿Qué tipo de piedras se usaron como martillos para la construcción de pirámides?",
-                  "de": "Welche Art von Steinen wurden als Hammersteine für den Pyramidenbau verwendet?",
-                  "nl": "Welk type stenen werden gebruikt als hamerstenen voor piramidebouw?"
-        },
-        options: [
-        {
-                  "en": "Granite",
-                  "es": "Granito",
-                  "de": "Granit",
-                  "nl": "Graniet"
-        },
-        {
-                  "en": "Sandstone",
-                  "es": "Arenisca",
-                  "de": "Sandstein",
-                  "nl": "Zandsteen"
-        },
-        {
-                  "en": "Dolerite",
-                  "es": "Dolerita",
-                  "de": "Dolerit",
-                  "nl": "Doleriet"
-        },
-        {
-                  "en": "Limestone",
-                  "es": "Piedra caliza",
-                  "de": "Kalkstein",
-                  "nl": "Kalksteen"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Dolerite, a hard volcanic rock, was used as hammer stones to pound and shape granite and other hard stones during pyramid construction.",
-                  "es": "La dolerita, una roca volcánica dura, se usó como martillo para golpear y dar forma al granito y otras piedras duras durante la construcción de pirámides.",
-                  "de": "Dolerit, ein hartes vulkanisches Gestein, wurde als Hammerstein verwendet, um Granit und andere harte Steine während des Pyramidenbaus zu bearbeiten und zu formen.",
-                  "nl": "Doleriet, een hard vulkanisch gesteente, werd gebruikt als hamersteen om graniet en andere harde stenen te bewerken en vormen tijdens de piramidebouw."
-        }
-      },
-      {
-        question: {
-                  "en": "What transport method was used for moving pyramid blocks?",
-                  "es": "¿Qué método de transporte se usó para mover bloques de pirámides?",
-                  "de": "Welche Transportmethode wurde zum Bewegen von Pyramidenblöcken verwendet?",
-                  "nl": "Welke transportmethode werd gebruikt voor het verplaatsen van piramideblokken?"
-        },
-        options: [
-        {
-                  "en": "Rolling logs only",
-                  "es": "Solo troncos rodantes",
-                  "de": "Nur rollende Baumstämme",
-                  "nl": "Alleen rollende boomstammen"
-        },
-        {
-                  "en": "Metal rails",
-                  "es": "Rieles de metal",
-                  "de": "Metallschienen",
-                  "nl": "Metalen rails"
-        },
-        {
-                  "en": "Wheeled carts",
-                  "es": "Carros con ruedas",
-                  "de": "Radwagen",
-                  "nl": "Wielen karren"
-        },
-        {
-                  "en": "Wooden sledges",
-                  "es": "Trineos de madera",
-                  "de": "Holzschlitten",
-                  "nl": "Houten sleeën"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Wooden sledges were pulled over wetted sand or mud-slicked paths, reducing friction. Archaeological evidence and ancient depictions confirm this method.",
-                  "es": "Los trineos de madera se arrastraban sobre arena mojada o caminos con lodo, reduciendo la fricción. La evidencia arqueológica y las representaciones antiguas confirman este método.",
-                  "de": "Holzschlitten wurden über befeuchteten Sand oder schlammige Wege gezogen, wodurch die Reibung reduziert wurde. Archäologische Beweise und antike Darstellungen bestätigen diese Methode.",
-                  "nl": "Houten sleeën werden over nat zand of modderige paden getrokken, wat de wrijving verminderde. Archeologisch bewijs en oude afbeeldingen bevestigen deze methode."
-        }
-      },
-      {
-        question: {
-                  "en": "From where was the white limestone casing stone quarried?",
-                  "es": "¿De dónde se extrajo la piedra caliza blanca de revestimiento?",
-                  "de": "Woher wurde der weiße Kalkstein für die Verkleidung abgebaut?",
-                  "nl": "Waar werd de witte kalksteenbekleding gewonnen?"
-        },
-        options: [
-        {
-                  "en": "Giza plateau",
-                  "es": "Meseta de Giza",
-                  "de": "Gizeh-Plateau",
-                  "nl": "Giza plateau"
-        },
-        {
-                  "en": "Tura",
-                  "es": "Tura",
-                  "de": "Tura",
-                  "nl": "Tura"
-        },
-        {
-                  "en": "Aswan",
-                  "es": "Asuán",
-                  "de": "Assuan",
-                  "nl": "Aswan"
-        },
-        {
-                  "en": "Dahshur",
-                  "es": "Dahshur",
-                  "de": "Dahschur",
-                  "nl": "Dahshur"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The fine white limestone used for pyramid casing stones was quarried at Tura, across the Nile from Giza, and transported by boat.",
-                  "es": "La fina piedra caliza blanca utilizada para las piedras de revestimiento de las pirámides se extrajo en Tura, al otro lado del Nilo desde Giza, y se transportó por barco.",
-                  "de": "Der feine weiße Kalkstein für die Pyramidenverkleidungssteine wurde in Tura, gegenüber von Gizeh am Nil, abgebaut und per Boot transportiert.",
-                  "nl": "De fijne witte kalksteen die gebruikt werd voor piramidebekledingsstenen werd gewonnen in Tura, aan de overkant van de Nijl van Giza, en per boot vervoerd."
-        }
-      },
-      {
-        question: {
-                  "en": "How was red granite transported from Aswan to pyramid sites?",
-                  "es": "¿Cómo se transportó el granito rojo desde Asuán hasta los sitios de las pirámides?",
-                  "de": "Wie wurde roter Granit von Assuan zu den Pyramidenstätten transportiert?",
-                  "nl": "Hoe werd rood graniet van Aswan naar de piramidelocaties vervoerd?"
-        },
-        options: [
-        {
-                  "en": "Overland by sledge",
-                  "es": "Por tierra en trineo",
-                  "de": "Über Land per Schlitten",
-                  "nl": "Over land per slee"
-        },
-        {
-                  "en": "By barge on the Nile",
-                  "es": "Por barcaza en el Nilo",
-                  "de": "Per Lastkahn auf dem Nil",
-                  "nl": "Per schuit op de Nijl"
-        },
-        {
-                  "en": "Through underground tunnels",
-                  "es": "A través de túneles subterráneos",
-                  "de": "Durch unterirdische Tunnel",
-                  "nl": "Door ondergrondse tunnels"
-        },
-        {
-                  "en": "By camel caravan",
-                  "es": "Por caravana de camellos",
-                  "de": "Per Kamelkarawane",
-                  "nl": "Per kameelkaravaan"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Red granite from Aswan quarries was transported over 500 miles down the Nile on barges during the flood season when water levels were high.",
-                  "es": "El granito rojo de las canteras de Asuán se transportó más de 800 kilómetros por el Nilo en barcazas durante la temporada de inundación cuando los niveles de agua eran altos.",
-                  "de": "Roter Granit aus den Steinbrüchen von Assuan wurde während der Hochwassersaison, wenn der Wasserstand hoch war, über 800 Kilometer den Nil hinunter auf Lastkähnen transportiert.",
-                  "nl": "Rood graniet uit Aswan steengroeven werd meer dan 800 kilometer over de Nijl vervoerd op schuiten tijdens het overstromingsseizoen wanneer de waterstand hoog was."
-        }
-      },
-      {
-        question: {
-                  "en": "During which season was most pyramid construction work performed?",
-                  "es": "¿Durante qué estación se realizó la mayor parte del trabajo de construcción de pirámides?",
-                  "de": "In welcher Jahreszeit wurde der größte Teil der Pyramidenbauarbeiten durchgeführt?",
-                  "nl": "Tijdens welk seizoen werd het meeste piramidebouwwerk uitgevoerd?"
-        },
-        options: [
-        {
-                  "en": "Year-round equally",
-                  "es": "Todo el año por igual",
-                  "de": "Ganzjährig gleichmäßig",
-                  "nl": "Het hele jaar door gelijkmatig"
-        },
-        {
-                  "en": "Akhet (flooding season)",
-                  "es": "Akhet (temporada de inundación)",
-                  "de": "Achet (Überschwemmungszeit)",
-                  "nl": "Akhet (overstromingsseizoen)"
-        },
-        {
-                  "en": "Shemu (harvest season)",
-                  "es": "Shemu (temporada de cosecha)",
-                  "de": "Schemu (Erntezeit)",
-                  "nl": "Shemu (oogstseizoen)"
-        },
-        {
-                  "en": "Peret (growing season)",
-                  "es": "Peret (temporada de cultivo)",
-                  "de": "Peret (Wachstumszeit)",
-                  "nl": "Peret (groeiseizoen)"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Most construction work occurred during Akhet, the Nile flooding season, when farmers were unable to work their fields and could be mobilized for pyramid building.",
-                  "es": "La mayor parte del trabajo de construcción ocurrió durante Akhet, la temporada de inundación del Nilo, cuando los agricultores no podían trabajar sus campos y podían ser movilizados para la construcción de pirámides.",
-                  "de": "Die meisten Bauarbeiten fanden während Achet, der Nilüberschwemmungszeit, statt, wenn Bauern ihre Felder nicht bearbeiten konnten und für den Pyramidenbau mobilisiert werden konnten.",
-                  "nl": "Het meeste bouwwerk vond plaats tijdens Akhet, het Nijl overstromingsseizoen, wanneer boeren hun velden niet konden bewerken en gemobiliseerd konden worden voor piramidebouw."
-        }
-      },
-      {
-        question: {
-                  "en": "What information did quarry marks on pyramid blocks contain?",
-                  "es": "¿Qué información contenían las marcas de cantera en los bloques de pirámides?",
-                  "de": "Welche Informationen enthielten Steinbruchmarkierungen auf Pyramidenblöcken?",
-                  "nl": "Welke informatie bevatten steengroevemarkeringen op piramideblokken?"
-        },
-        options: [
-        {
-                  "en": "Team names",
-                  "es": "Nombres de equipos",
-                  "de": "Teamnamen",
-                  "nl": "Teamnamen"
-        },
-        {
-                  "en": "Astronomical data",
-                  "es": "Datos astronómicos",
-                  "de": "Astronomische Daten",
-                  "nl": "Astronomische gegevens"
-        },
-        {
-                  "en": "Mathematical formulas",
-                  "es": "Fórmulas matemáticas",
-                  "de": "Mathematische Formeln",
-                  "nl": "Wiskundige formules"
-        },
-        {
-                  "en": "Religious prayers",
-                  "es": "Oraciones religiosas",
-                  "de": "Religiöse Gebete",
-                  "nl": "Religieuze gebeden"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Quarry marks often included team names such as 'Friends of Khufu' or 'Drunkards of Menkaure', helping organize work crews and track block placement.",
-                  "es": "Las marcas de cantera a menudo incluían nombres de equipos como 'Amigos de Keops' o 'Borrachos de Micerino', ayudando a organizar cuadrillas de trabajo y rastrear la colocación de bloques.",
-                  "de": "Steinbruchmarkierungen enthielten oft Teamnamen wie 'Freunde des Cheops' oder 'Betrunkene des Mykerinos', die halfen, Arbeitstrupps zu organisieren und die Blockplatzierung zu verfolgen.",
-                  "nl": "Steengroevemarkeringen bevatten vaak teamnamen zoals 'Vrienden van Khufu' of 'Dronkaards van Menkaure', wat hielp bij het organiseren van werkploegen en het volgen van blokplaatsing."
-        }
-      },
-      {
-        question: {
-                  "en": "What happened to construction ramps after pyramid completion?",
-                  "es": "¿Qué pasó con las rampas de construcción después de completar las pirámides?",
-                  "de": "Was geschah mit den Baurampen nach Fertigstellung der Pyramiden?",
-                  "nl": "Wat gebeurde er met de bouwhellingen na voltooiing van de piramides?"
-        },
-        options: [
-        {
-                  "en": "They were removed (debated)",
-                  "es": "Fueron removidas (debatido)",
-                  "de": "Sie wurden entfernt (umstritten)",
-                  "nl": "Ze werden verwijderd (bediscussieerd)"
-        },
-        {
-                  "en": "They remain intact today",
-                  "es": "Permanecen intactas hoy",
-                  "de": "Sie bleiben heute intakt",
-                  "nl": "Ze blijven vandaag intact"
-        },
-        {
-                  "en": "They were converted to temples",
-                  "es": "Se convirtieron en templos",
-                  "de": "Sie wurden zu Tempeln umgebaut",
-                  "nl": "Ze werden omgebouwd tot tempels"
-        },
-        {
-                  "en": "They were buried underground",
-                  "es": "Fueron enterradas bajo tierra",
-                  "de": "Sie wurden unter der Erde begraben",
-                  "nl": "Ze werden ondergronds begraven"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Scholars debate ramp removal theories. Evidence suggests external ramps were dismantled after completion, though the exact methods and timing remain uncertain.",
-                  "es": "Los eruditos debaten teorías sobre la eliminación de rampas. La evidencia sugiere que las rampas externas se desmantelaron después de la finalización, aunque los métodos exactos y el momento siguen siendo inciertos.",
-                  "de": "Gelehrte debattieren über Theorien zum Rampenabbau. Beweise deuten darauf hin, dass externe Rampen nach der Fertigstellung abgebaut wurden, obwohl die genauen Methoden und der Zeitpunkt unsicher bleiben.",
-                  "nl": "Geleerden debatteren over theorieën over het verwijderen van hellingen. Bewijs suggereert dat externe hellingen na voltooiing werden ontmanteld, hoewel de exacte methoden en timing onzeker blijven."
-        }
-      },
-      {
-        question: {
-                  "en": "What construction technique was used for pyramid chamber ceilings?",
-                  "es": "¿Qué técnica de construcción se usó para los techos de las cámaras de las pirámides?",
-                  "de": "Welche Bautechnik wurde für Pyramidenkammerdecken verwendet?",
-                  "nl": "Welke bouwtechniek werd gebruikt voor piramidekamerplafonds?"
-        },
-        options: [
-        {
-                  "en": "Arch construction",
-                  "es": "Construcción de arco",
-                  "de": "Bogenbauweise",
-                  "nl": "Boogconstructie"
-        },
-        {
-                  "en": "Corbelled construction",
-                  "es": "Construcción en voladizo",
-                  "de": "Kragbauweise",
-                  "nl": "Kraagsteenconstructie"
-        },
-        {
-                  "en": "Flat slab ceiling",
-                  "es": "Techo de losa plana",
-                  "de": "Flache Plattendecke",
-                  "nl": "Plat plaatplafond"
-        },
-        {
-                  "en": "Dome structure",
-                  "es": "Estructura de cúpula",
-                  "de": "Kuppelstruktur",
-                  "nl": "Koepelstructuur"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Corbelled ceilings were created by overlapping successive courses of stone blocks inward until they met at the top, distributing weight and preventing collapse.",
-                  "es": "Los techos en voladizo se crearon superponiendo cursos sucesivos de bloques de piedra hacia adentro hasta que se encontraron en la parte superior, distribuyendo el peso y evitando el colapso.",
-                  "de": "Kragdecken wurden durch das Überlappen aufeinanderfolgender Steinblocklagen nach innen bis zum Zusammentreffen an der Spitze geschaffen, wodurch das Gewicht verteilt und ein Einsturz verhindert wurde.",
-                  "nl": "Kraagsteenplafonds werden gemaakt door opeenvolgende lagen steenblokken naar binnen te laten overlappen totdat ze bovenaan elkaar ontmoetten, wat het gewicht verdeelde en instorting voorkwam."
-        }
-      },
-      {
-        question: {
-                  "en": "What were trial passages used for in pyramid construction?",
-                  "es": "¿Para qué se usaron los pasajes de prueba en la construcción de pirámides?",
-                  "de": "Wofür wurden Testpassagen beim Pyramidenbau verwendet?",
-                  "nl": "Waarvoor werden proefgangen gebruikt bij piramidebouw?"
-        },
-        options: [
-        {
-                  "en": "Ventilation shafts",
-                  "es": "Pozos de ventilación",
-                  "de": "Lüftungsschächte",
-                  "nl": "Ventilatieschachten"
-        },
-        {
-                  "en": "Secret escape routes",
-                  "es": "Rutas de escape secretas",
-                  "de": "Geheime Fluchtwege",
-                  "nl": "Geheime vluchtroutes"
-        },
-        {
-                  "en": "Water drainage systems",
-                  "es": "Sistemas de drenaje de agua",
-                  "de": "Wasserabflusssysteme",
-                  "nl": "Waterafvoersystemen"
-        },
-        {
-                  "en": "Planning and testing designs",
-                  "es": "Planificación y prueba de diseños",
-                  "de": "Planung und Testen von Designs",
-                  "nl": "Planning en testen van ontwerpen"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Trial passages were smaller-scale models or test structures built to plan and refine the complex internal passage systems before constructing them full-size in the pyramid.",
-                  "es": "Los pasajes de prueba eran modelos a menor escala o estructuras de prueba construidas para planificar y refinar los complejos sistemas de pasajes internos antes de construirlos a tamaño completo en la pirámide.",
-                  "de": "Testpassagen waren kleinere Modelle oder Teststrukturen, die gebaut wurden, um die komplexen internen Gangsysteme zu planen und zu verfeinern, bevor sie in voller Größe in der Pyramide gebaut wurden.",
-                  "nl": "Proefgangen waren kleinschalige modellen of teststructuren gebouwd om de complexe interne gangsystemen te plannen en verfijnen voordat ze op ware grootte in de piramide werden gebouwd."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the difference between backing stones and casing stones?",
-                  "es": "¿Cuál es la diferencia entre piedras de respaldo y piedras de revestimiento?",
-                  "de": "Was ist der Unterschied zwischen Rücksteinen und Verkleidungssteinen?",
-                  "nl": "Wat is het verschil tussen ondersteuningsstenen en bekledingsstenen?"
-        },
-        options: [
-        {
-                  "en": "Backing stones are interior core, casing stones are outer surface",
-                  "es": "Piedras de respaldo son núcleo interior, piedras de revestimiento son superficie exterior",
-                  "de": "Rücksteine sind Innenkern, Verkleidungssteine sind Außenfläche",
-                  "nl": "Ondersteuningsstenen zijn interieure kern, bekledingsstenen zijn buitenoppervlak"
-        },
-        {
-                  "en": "Backing stones are on the exterior",
-                  "es": "Piedras de respaldo están en el exterior",
-                  "de": "Rücksteine sind außen",
-                  "nl": "Ondersteuningsstenen zijn aan de buitenkant"
-        },
-        {
-                  "en": "They are the same thing",
-                  "es": "Son la misma cosa",
-                  "de": "Sie sind dasselbe",
-                  "nl": "Ze zijn hetzelfde"
-        },
-        {
-                  "en": "Casing stones are underground only",
-                  "es": "Piedras de revestimiento solo están bajo tierra",
-                  "de": "Verkleidungssteine sind nur unterirdisch",
-                  "nl": "Bekledingsstenen zijn alleen ondergronds"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Backing stones formed the rough interior core of the pyramid, while casing stones were finely cut and polished limestone blocks forming the smooth outer surface.",
-                  "es": "Las piedras de respaldo formaban el núcleo interior rugoso de la pirámide, mientras que las piedras de revestimiento eran bloques de piedra caliza finamente cortados y pulidos que formaban la superficie exterior lisa.",
-                  "de": "Rücksteine bildeten den rauen Innenkern der Pyramide, während Verkleidungssteine fein geschnittene und polierte Kalksteinblöcke waren, die die glatte Außenfläche bildeten.",
-                  "nl": "Ondersteuningsstenen vormden de ruwe interieure kern van de piramide, terwijl bekledingsstenen fijn gesneden en gepolijste kalksteenblokken waren die het gladde buitenoppervlak vormden."
-        }
-      },
-      {
-        question: {
-                  "en": "How precisely were pyramid casing stones cut?",
-                  "es": "¿Con qué precisión se cortaron las piedras de revestimiento de las pirámides?",
-                  "de": "Wie präzise wurden Pyramidenverkleidungssteine geschnitten?",
-                  "nl": "Hoe precies werden piramidebekledingsstenen gesneden?"
-        },
-        options: [
-        {
-                  "en": "With exceptional precision to fit tightly",
-                  "es": "Con precisión excepcional para encajar firmemente",
-                  "de": "Mit außergewöhnlicher Präzision für passgenaue Verbindung",
-                  "nl": "Met uitzonderlijke precisie om strak te passen"
-        },
-        {
-                  "en": "Randomly shaped",
-                  "es": "Con forma aleatoria",
-                  "de": "Zufällig geformt",
-                  "nl": "Willekeurig gevormd"
-        },
-        {
-                  "en": "Roughly with large gaps",
-                  "es": "Toscamente con grandes espacios",
-                  "de": "Grob mit großen Lücken",
-                  "nl": "Ruw met grote openingen"
-        },
-        {
-                  "en": "Only moderately accurate",
-                  "es": "Solo moderadamente precisas",
-                  "de": "Nur mäßig genau",
-                  "nl": "Slechts matig nauwkeurig"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Pyramid casing stones were cut with exceptional precision, fitting so tightly together that a knife blade cannot fit between them, creating the smooth, gleaming surface.",
-                  "es": "Las piedras de revestimiento de las pirámides se cortaron con precisión excepcional, encajando tan apretadamente que no puede caber una hoja de cuchillo entre ellas, creando la superficie lisa y reluciente.",
-                  "de": "Pyramidenverkleidungssteine wurden mit außergewöhnlicher Präzision geschnitten und passten so eng zusammen, dass keine Messerklinge dazwischen passt, wodurch die glatte, glänzende Oberfläche entstand.",
-                  "nl": "Piramidebekledingsstenen werden met uitzonderlijke precisie gesneden, zo strak passend dat er geen mesje tussen past, waardoor het gladde, glanzende oppervlak ontstond."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the Great Pyramid also called?",
-                  "es": "What is the Great Pyramid also called?",
-                  "de": "What is the Great Pyramid also called?",
-                  "nl": "What is the Great Pyramid also called?"
-        },
-        options: [
-        {
-                  "en": "Pyramid of Giza",
-                  "es": "Pyramid of Giza",
-                  "de": "Pyramid of Giza",
-                  "nl": "Pyramid of Giza"
-        },
-        {
-                  "en": "Pyramid of Egypt",
-                  "es": "Pyramid of Egypt",
-                  "de": "Pyramid of Egypt",
-                  "nl": "Pyramid of Egypt"
-        },
-        {
-                  "en": "Pyramid of Khafre",
-                  "es": "Pyramid of Khafre",
-                  "de": "Pyramid of Khafre",
-                  "nl": "Pyramid of Khafre"
-        },
-        {
-                  "en": "Pyramid of Khufu/Cheops",
-                  "es": "Pyramid of Khufu/Cheops",
-                  "de": "Pyramid of Khufu/Cheops",
-                  "nl": "Pyramid of Khufu/Cheops"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The Great Pyramid is also known as the Pyramid of Khufu (or Cheops in Greek).",
-                  "es": "The Great Pyramid is also known as the Pyramid of Khufu (or Cheops in Greek).",
-                  "de": "The Great Pyramid is also known as the Pyramid of Khufu (or Cheops in Greek).",
-                  "nl": "The Great Pyramid is also known as the Pyramid of Khufu (or Cheops in Greek)."
-        }
-      },
-      {
-        question: {
-                  "en": "Where are the three main pyramids located?",
-                  "es": "Where are the three main pyramids located?",
-                  "de": "Where are the three main pyramids located?",
-                  "nl": "Where are the three main pyramids located?"
-        },
-        options: [
-        {
-                  "en": "Luxor",
-                  "es": "Luxor",
-                  "de": "Luxor",
-                  "nl": "Luxor"
-        },
-        {
-                  "en": "Saqqara",
-                  "es": "Saqqara",
-                  "de": "Saqqara",
-                  "nl": "Saqqara"
-        },
-        {
-                  "en": "Giza plateau",
-                  "es": "Giza plateau",
-                  "de": "Giza plateau",
-                  "nl": "Giza plateau"
-        },
-        {
-                  "en": "Cairo city center",
-                  "es": "Cairo city center",
-                  "de": "Cairo city center",
-                  "nl": "Cairo city center"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The three famous pyramids of Khufu, Khafre, and Menkaure are on the Giza plateau.",
-                  "es": "The three famous pyramids of Khufu, Khafre, and Menkaure are on the Giza plateau.",
-                  "de": "The three famous pyramids of Khufu, Khafre, and Menkaure are on the Giza plateau.",
-                  "nl": "The three famous pyramids of Khufu, Khafre, and Menkaure are on the Giza plateau."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the purpose of pyramids?",
-                  "es": "What was the purpose of pyramids?",
-                  "de": "What was the purpose of pyramids?",
-                  "nl": "What was the purpose of pyramids?"
-        },
-        options: [
-        {
-                  "en": "Royal tombs and monuments",
-                  "es": "Royal tombs and monuments",
-                  "de": "Royal tombs and monuments",
-                  "nl": "Royal tombs and monuments"
-        },
-        {
-                  "en": "Temples",
-                  "es": "Temples",
-                  "de": "Temples",
-                  "nl": "Temples"
-        },
-        {
-                  "en": "Observatories",
-                  "es": "Observatories",
-                  "de": "Observatories",
-                  "nl": "Observatories"
-        },
-        {
-                  "en": "Fortresses",
-                  "es": "Fortresses",
-                  "de": "Fortresses",
-                  "nl": "Fortresses"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Pyramids served as elaborate tombs and monuments for pharaohs.",
-                  "es": "Pyramids served as elaborate tombs and monuments for pharaohs.",
-                  "de": "Pyramids served as elaborate tombs and monuments for pharaohs.",
-                  "nl": "Pyramids served as elaborate tombs and monuments for pharaohs."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the oldest pyramid?",
-                  "es": "What is the oldest pyramid?",
-                  "de": "What is the oldest pyramid?",
-                  "nl": "What is the oldest pyramid?"
-        },
-        options: [
-        {
-                  "en": "Step Pyramid of Djoser",
-                  "es": "Step Pyramid of Djoser",
-                  "de": "Step Pyramid of Djoser",
-                  "nl": "Step Pyramid of Djoser"
-        },
-        {
-                  "en": "Great Pyramid",
-                  "es": "Great Pyramid",
-                  "de": "Great Pyramid",
-                  "nl": "Great Pyramid"
-        },
-        {
-                  "en": "Bent Pyramid",
-                  "es": "Bent Pyramid",
-                  "de": "Bent Pyramid",
-                  "nl": "Bent Pyramid"
-        },
-        {
-                  "en": "Red Pyramid",
-                  "es": "Red Pyramid",
-                  "de": "Red Pyramid",
-                  "nl": "Red Pyramid"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Step Pyramid at Saqqara, built for Djoser, is Egypt's oldest pyramid.",
-                  "es": "The Step Pyramid at Saqqara, built for Djoser, is Egypt's oldest pyramid.",
-                  "de": "The Step Pyramid at Saqqara, built for Djoser, is Egypt's oldest pyramid.",
-                  "nl": "The Step Pyramid at Saqqara, built for Djoser, is Egypt's oldest pyramid."
-        }
-      },
-      {
-        question: {
-                  "en": "Who designed the Step Pyramid?",
-                  "es": "Who designed the Step Pyramid?",
-                  "de": "Who designed the Step Pyramid?",
-                  "nl": "Who designed the Step Pyramid?"
-        },
-        options: [
-        {
-                  "en": "Sneferu",
-                  "es": "Sneferu",
-                  "de": "Sneferu",
-                  "nl": "Sneferu"
-        },
-        {
-                  "en": "Hemiunu",
-                  "es": "Hemiunu",
-                  "de": "Hemiunu",
-                  "nl": "Hemiunu"
-        },
-        {
-                  "en": "Imhotep",
-                  "es": "Imhotep",
-                  "de": "Imhotep",
-                  "nl": "Imhotep"
-        },
-        {
-                  "en": "Khufu",
-                  "es": "Khufu",
-                  "de": "Khufu",
-                  "nl": "Khufu"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Imhotep, Djoser's vizier, is credited with designing the Step Pyramid.",
-                  "es": "Imhotep, Djoser's vizier, is credited with designing the Step Pyramid.",
-                  "de": "Imhotep, Djoser's vizier, is credited with designing the Step Pyramid.",
-                  "nl": "Imhotep, Djoser's vizier, is credited with designing the Step Pyramid."
-        }
-      },
-      {
-        question: {
-                  "en": "How many pyramids are in Egypt?",
-                  "es": "How many pyramids are in Egypt?",
-                  "de": "How many pyramids are in Egypt?",
-                  "nl": "How many pyramids are in Egypt?"
-        },
-        options: [
-        {
-                  "en": "Ten",
-                  "es": "Ten",
-                  "de": "Ten",
-                  "nl": "Ten"
-        },
-        {
-                  "en": "Over 100",
-                  "es": "Over 100",
-                  "de": "Over 100",
-                  "nl": "Over 100"
-        },
-        {
-                  "en": "Three",
-                  "es": "Three",
-                  "de": "Three",
-                  "nl": "Three"
-        },
-        {
-                  "en": "Fifty",
-                  "es": "Fifty",
-                  "de": "Fifty",
-                  "nl": "Fifty"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Archaeologists have identified over 100 pyramids in Egypt.",
-                  "es": "Archaeologists have identified over 100 pyramids in Egypt.",
-                  "de": "Archaeologists have identified over 100 pyramids in Egypt.",
-                  "nl": "Archaeologists have identified over 100 pyramids in Egypt."
-        }
-      },
-      {
-        question: {
-                  "en": "What aligned the pyramids?",
-                  "es": "What aligned the pyramids?",
-                  "de": "What aligned the pyramids?",
-                  "nl": "What aligned the pyramids?"
-        },
-        options: [
-        {
-                  "en": "Rivers",
-                  "es": "Rivers",
-                  "de": "Rivers",
-                  "nl": "Rivers"
-        },
-        {
-                  "en": "Stars",
-                  "es": "Stars",
-                  "de": "Stars",
-                  "nl": "Stars"
-        },
-        {
-                  "en": "Random placement",
-                  "es": "Random placement",
-                  "de": "Random placement",
-                  "nl": "Random placement"
-        },
-        {
-                  "en": "Cardinal directions (north, south, east, west)",
-                  "es": "Cardinal directions (north, south, east, west)",
-                  "de": "Cardinal directions (north, south, east, west)",
-                  "nl": "Cardinal directions (north, south, east, west)"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The pyramids are precisely aligned with the cardinal directions.",
-                  "es": "The pyramids are precisely aligned with the cardinal directions.",
-                  "de": "The pyramids are precisely aligned with the cardinal directions.",
-                  "nl": "The pyramids are precisely aligned with the cardinal directions."
-        }
-      },
-      {
-        question: {
-                  "en": "What covered the pyramids originally?",
-                  "es": "What covered the pyramids originally?",
-                  "de": "What covered the pyramids originally?",
-                  "nl": "What covered the pyramids originally?"
-        },
-        options: [
-        {
-                  "en": "Paint",
-                  "es": "Paint",
-                  "de": "Paint",
-                  "nl": "Paint"
-        },
-        {
-                  "en": "Nothing",
-                  "es": "Nothing",
-                  "de": "Nothing",
-                  "nl": "Nothing"
-        },
-        {
-                  "en": "Gold",
-                  "es": "Gold",
-                  "de": "Gold",
-                  "nl": "Gold"
-        },
-        {
-                  "en": "Smooth white limestone casing",
-                  "es": "Smooth white limestone casing",
-                  "de": "Smooth white limestone casing",
-                  "nl": "Smooth white limestone casing"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Pyramids were originally covered in smooth, polished white limestone casing stones.",
-                  "es": "Pyramids were originally covered in smooth, polished white limestone casing stones.",
-                  "de": "Pyramids were originally covered in smooth, polished white limestone casing stones.",
-                  "nl": "Pyramids were originally covered in smooth, polished white limestone casing stones."
-        }
-      },
-      {
-        question: {
-                  "en": "What is inside the Great Pyramid?",
-                  "es": "What is inside the Great Pyramid?",
-                  "de": "What is inside the Great Pyramid?",
-                  "nl": "What is inside the Great Pyramid?"
-        },
-        options: [
-        {
-                  "en": "Chambers and passageways",
-                  "es": "Chambers and passageways",
-                  "de": "Chambers and passageways",
-                  "nl": "Chambers and passageways"
-        },
-        {
-                  "en": "Furniture",
-                  "es": "Furniture",
-                  "de": "Furniture",
-                  "nl": "Furniture"
-        },
-        {
-                  "en": "Treasure",
-                  "es": "Treasure",
-                  "de": "Treasure",
-                  "nl": "Treasure"
-        },
-        {
-                  "en": "Nothing",
-                  "es": "Nothing",
-                  "de": "Nothing",
-                  "nl": "Nothing"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Great Pyramid contains chambers, galleries, and shafts, including the King's and Queen's Chambers.",
-                  "es": "The Great Pyramid contains chambers, galleries, and shafts, including the King's and Queen's Chambers.",
-                  "de": "The Great Pyramid contains chambers, galleries, and shafts, including the King's and Queen's Chambers.",
-                  "nl": "The Great Pyramid contains chambers, galleries, and shafts, including the King's and Queen's Chambers."
-        }
-      },
-      {
-        question: {
-                  "en": "How tall was the Great Pyramid originally?",
-                  "es": "How tall was the Great Pyramid originally?",
-                  "de": "How tall was the Great Pyramid originally?",
-                  "nl": "How tall was the Great Pyramid originally?"
-        },
-        options: [
-        {
-                  "en": "200 feet",
-                  "es": "200 feet",
-                  "de": "200 feet",
-                  "nl": "200 feet"
-        },
-        {
-                  "en": "300 feet",
-                  "es": "300 feet",
-                  "de": "300 feet",
-                  "nl": "300 feet"
-        },
-        {
-                  "en": "600 feet",
-                  "es": "600 feet",
-                  "de": "600 feet",
-                  "nl": "600 feet"
-        },
-        {
-                  "en": "About 481 feet (146.5 meters)",
-                  "es": "About 481 feet (146.5 meters)",
-                  "de": "About 481 feet (146.5 meters)",
-                  "nl": "About 481 feet (146.5 meters)"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The Great Pyramid originally stood about 481 feet tall, now about 455 feet due to erosion.",
-                  "es": "The Great Pyramid originally stood about 481 feet tall, now about 455 feet due to erosion.",
-                  "de": "The Great Pyramid originally stood about 481 feet tall, now about 455 feet due to erosion.",
-                  "nl": "The Great Pyramid originally stood about 481 feet tall, now about 455 feet due to erosion."
-        }
-      },
-      {
-        question: {
-                  "en": "How long did it take to build the Great Pyramid?",
-                  "es": "How long did it take to build the Great Pyramid?",
-                  "de": "How long did it take to build the Great Pyramid?",
-                  "nl": "How long did it take to build the Great Pyramid?"
-        },
-        options: [
-        {
-                  "en": "50 years",
-                  "es": "50 years",
-                  "de": "50 years",
-                  "nl": "50 years"
-        },
-        {
-                  "en": "About 20 years",
-                  "es": "About 20 years",
-                  "de": "About 20 years",
-                  "nl": "About 20 years"
-        },
-        {
-                  "en": "5 years",
-                  "es": "5 years",
-                  "de": "5 years",
-                  "nl": "5 years"
-        },
-        {
-                  "en": "100 years",
-                  "es": "100 years",
-                  "de": "100 years",
-                  "nl": "100 years"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Estimates suggest the Great Pyramid took approximately 20 years to build.",
-                  "es": "Estimates suggest the Great Pyramid took approximately 20 years to build.",
-                  "de": "Estimates suggest the Great Pyramid took approximately 20 years to build.",
-                  "nl": "Estimates suggest the Great Pyramid took approximately 20 years to build."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the Bent Pyramid?",
-                  "es": "What is the Bent Pyramid?",
-                  "de": "What is the Bent Pyramid?",
-                  "nl": "What is the Bent Pyramid?"
-        },
-        options: [
-        {
-                  "en": "Unfinished pyramid",
-                  "es": "Unfinished pyramid",
-                  "de": "Unfinished pyramid",
-                  "nl": "Unfinished pyramid"
-        },
-        {
-                  "en": "Collapsed pyramid",
-                  "es": "Collapsed pyramid",
-                  "de": "Collapsed pyramid",
-                  "nl": "Collapsed pyramid"
-        },
-        {
-                  "en": "Pyramid with two different angles",
-                  "es": "Pyramid with two different angles",
-                  "de": "Pyramid with two different angles",
-                  "nl": "Pyramid with two different angles"
-        },
-        {
-                  "en": "Smallest pyramid",
-                  "es": "Smallest pyramid",
-                  "de": "Smallest pyramid",
-                  "nl": "Smallest pyramid"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The Bent Pyramid at Dahshur has two distinct angles, changing partway up.",
-                  "es": "The Bent Pyramid at Dahshur has two distinct angles, changing partway up.",
-                  "de": "The Bent Pyramid at Dahshur has two distinct angles, changing partway up.",
-                  "nl": "The Bent Pyramid at Dahshur has two distinct angles, changing partway up."
-        }
-      },
-      {
-        question: {
-                  "en": "Who built the Bent Pyramid?",
-                  "es": "Who built the Bent Pyramid?",
-                  "de": "Who built the Bent Pyramid?",
-                  "nl": "Who built the Bent Pyramid?"
-        },
-        options: [
-        {
-                  "en": "Khufu",
-                  "es": "Khufu",
-                  "de": "Khufu",
-                  "nl": "Khufu"
-        },
-        {
-                  "en": "Djoser",
-                  "es": "Djoser",
-                  "de": "Djoser",
-                  "nl": "Djoser"
-        },
-        {
-                  "en": "Khafre",
-                  "es": "Khafre",
-                  "de": "Khafre",
-                  "nl": "Khafre"
-        },
-        {
-                  "en": "Sneferu",
-                  "es": "Sneferu",
-                  "de": "Sneferu",
-                  "nl": "Sneferu"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Pharaoh Sneferu built the Bent Pyramid during the 4th Dynasty.",
-                  "es": "Pharaoh Sneferu built the Bent Pyramid during the 4th Dynasty.",
-                  "de": "Pharaoh Sneferu built the Bent Pyramid during the 4th Dynasty.",
-                  "nl": "Pharaoh Sneferu built the Bent Pyramid during the 4th Dynasty."
-        }
-      },
-      {
-        question: {
-                  "en": "What stone composes most pyramids?",
-                  "es": "What stone composes most pyramids?",
-                  "de": "What stone composes most pyramids?",
-                  "nl": "What stone composes most pyramids?"
-        },
-        options: [
-        {
-                  "en": "Limestone",
-                  "es": "Limestone",
-                  "de": "Limestone",
-                  "nl": "Limestone"
-        },
-        {
-                  "en": "Sandstone",
-                  "es": "Sandstone",
-                  "de": "Sandstone",
-                  "nl": "Sandstone"
-        },
-        {
-                  "en": "Marble",
-                  "es": "Marble",
-                  "de": "Marble",
-                  "nl": "Marble"
-        },
-        {
-                  "en": "Granite",
-                  "es": "Granite",
-                  "de": "Granite",
-                  "nl": "Granite"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Most pyramids are primarily constructed of limestone blocks.",
-                  "es": "Most pyramids are primarily constructed of limestone blocks.",
-                  "de": "Most pyramids are primarily constructed of limestone blocks.",
-                  "nl": "Most pyramids are primarily constructed of limestone blocks."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the Red Pyramid?",
-                  "es": "What is the Red Pyramid?",
-                  "de": "What is the Red Pyramid?",
-                  "nl": "What is the Red Pyramid?"
-        },
-        options: [
-        {
-                  "en": "Pyramid made of red stone",
-                  "es": "Pyramid made of red stone",
-                  "de": "Pyramid made of red stone",
-                  "nl": "Pyramid made of red stone"
-        },
-        {
-                  "en": "Modern name for Great Pyramid",
-                  "es": "Modern name for Great Pyramid",
-                  "de": "Modern name for Great Pyramid",
-                  "nl": "Modern name for Great Pyramid"
-        },
-        {
-                  "en": "Pyramid painted red",
-                  "es": "Pyramid painted red",
-                  "de": "Pyramid painted red",
-                  "nl": "Pyramid painted red"
-        },
-        {
-                  "en": "Egypt's first true smooth-sided pyramid",
-                  "es": "Egypt's first true smooth-sided pyramid",
-                  "de": "Egypt's first true smooth-sided pyramid",
-                  "nl": "Egypt's first true smooth-sided pyramid"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The Red Pyramid at Dahshur is Egypt's first successful smooth-sided pyramid.",
-                  "es": "The Red Pyramid at Dahshur is Egypt's first successful smooth-sided pyramid.",
-                  "de": "The Red Pyramid at Dahshur is Egypt's first successful smooth-sided pyramid.",
-                  "nl": "The Red Pyramid at Dahshur is Egypt's first successful smooth-sided pyramid."
-        }
-      },
-      {
-        question: {
-                  "en": "How were pyramid blocks moved?",
-                  "es": "How were pyramid blocks moved?",
-                  "de": "How were pyramid blocks moved?",
-                  "nl": "How were pyramid blocks moved?"
-        },
-        options: [
-        {
-                  "en": "Aliens",
-                  "es": "Aliens",
-                  "de": "Aliens",
-                  "nl": "Aliens"
-        },
-        {
-                  "en": "Cranes",
-                  "es": "Cranes",
-                  "de": "Cranes",
-                  "nl": "Cranes"
-        },
-        {
-                  "en": "Sledges, rollers, ramps",
-                  "es": "Sledges, rollers, ramps",
-                  "de": "Sledges, rollers, ramps",
-                  "nl": "Sledges, rollers, ramps"
-        },
-        {
-                  "en": "Wheels",
-                  "es": "Wheels",
-                  "de": "Wheels",
-                  "nl": "Wheels"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Blocks were moved using wooden sledges, rollers, ramps, and human labor.",
-                  "es": "Blocks were moved using wooden sledges, rollers, ramps, and human labor.",
-                  "de": "Blocks were moved using wooden sledges, rollers, ramps, and human labor.",
-                  "nl": "Blocks were moved using wooden sledges, rollers, ramps, and human labor."
-        }
-      },
-      {
-        question: {
-                  "en": "What guards the Giza pyramids?",
-                  "es": "What guards the Giza pyramids?",
-                  "de": "What guards the Giza pyramids?",
-                  "nl": "What guards the Giza pyramids?"
-        },
-        options: [
-        {
-                  "en": "Great Sphinx",
-                  "es": "Great Sphinx",
-                  "de": "Great Sphinx",
-                  "nl": "Great Sphinx"
-        },
-        {
-                  "en": "Wall",
-                  "es": "Wall",
-                  "de": "Wall",
-                  "nl": "Wall"
-        },
-        {
-                  "en": "Statues",
-                  "es": "Statues",
-                  "de": "Statues",
-                  "nl": "Statues"
-        },
-        {
-                  "en": "Temple",
-                  "es": "Temple",
-                  "de": "Temple",
-                  "nl": "Temple"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Great Sphinx guards the Giza pyramid complex.",
-                  "es": "The Great Sphinx guards the Giza pyramid complex.",
-                  "de": "The Great Sphinx guards the Giza pyramid complex.",
-                  "nl": "The Great Sphinx guards the Giza pyramid complex."
-        }
-      },
-      {
-        question: {
-                  "en": "How many blocks in the Great Pyramid?",
-                  "es": "How many blocks in the Great Pyramid?",
-                  "de": "How many blocks in the Great Pyramid?",
-                  "nl": "How many blocks in the Great Pyramid?"
-        },
-        options: [
-        {
-                  "en": "10 million",
-                  "es": "10 million",
-                  "de": "10 million",
-                  "nl": "10 million"
-        },
-        {
-                  "en": "100,000",
-                  "es": "100,000",
-                  "de": "100,000",
-                  "nl": "100,000"
-        },
-        {
-                  "en": "500,000",
-                  "es": "500,000",
-                  "de": "500,000",
-                  "nl": "500,000"
-        },
-        {
-                  "en": "About 2.3 million",
-                  "es": "About 2.3 million",
-                  "de": "About 2.3 million",
-                  "nl": "About 2.3 million"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The Great Pyramid contains approximately 2.3 million stone blocks.",
-                  "es": "The Great Pyramid contains approximately 2.3 million stone blocks.",
-                  "de": "The Great Pyramid contains approximately 2.3 million stone blocks.",
-                  "nl": "The Great Pyramid contains approximately 2.3 million stone blocks."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the pyramidion?",
-                  "es": "What was the pyramidion?",
-                  "de": "What was the pyramidion?",
-                  "nl": "What was the pyramidion?"
-        },
-        options: [
-        {
-                  "en": "Base stone",
-                  "es": "Base stone",
-                  "de": "Base stone",
-                  "nl": "Base stone"
-        },
-        {
-                  "en": "Door",
-                  "es": "Door",
-                  "de": "Door",
-                  "nl": "Door"
-        },
-        {
-                  "en": "Corner stone",
-                  "es": "Corner stone",
-                  "de": "Corner stone",
-                  "nl": "Corner stone"
-        },
-        {
-                  "en": "Capstone at pyramid's apex",
-                  "es": "Capstone at pyramid's apex",
-                  "de": "Capstone at pyramid's apex",
-                  "nl": "Capstone at pyramid's apex"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The pyramidion was the pointed capstone that topped the pyramid.",
-                  "es": "The pyramidion was the pointed capstone that topped the pyramid.",
-                  "de": "The pyramidion was the pointed capstone that topped the pyramid.",
-                  "nl": "The pyramidion was the pointed capstone that topped the pyramid."
-        }
-      },
-      {
-        question: {
-                  "en": "Are pyramids wonders of the world?",
-                  "es": "Are pyramids wonders of the world?",
-                  "de": "Are pyramids wonders of the world?",
-                  "nl": "Are pyramids wonders of the world?"
-        },
-        options: [
-        {
-                  "en": "No pyramids are wonders",
-                  "es": "No pyramids are wonders",
-                  "de": "No pyramids are wonders",
-                  "nl": "No pyramids are wonders"
-        },
-        {
-                  "en": "All pyramids are wonders",
-                  "es": "All pyramids are wonders",
-                  "de": "All pyramids are wonders",
-                  "nl": "All pyramids are wonders"
-        },
-        {
-                  "en": "They're modern wonders",
-                  "es": "They're modern wonders",
-                  "de": "They're modern wonders",
-                  "nl": "They're modern wonders"
-        },
-        {
-                  "en": "Great Pyramid is the only surviving ancient wonder",
-                  "es": "Great Pyramid is the only surviving ancient wonder",
-                  "de": "Great Pyramid is the only surviving ancient wonder",
-                  "nl": "Great Pyramid is the only surviving ancient wonder"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The Great Pyramid of Giza is the only surviving structure of the Seven Wonders of the Ancient World.",
-                  "es": "The Great Pyramid of Giza is the only surviving structure of the Seven Wonders of the Ancient World.",
-                  "de": "The Great Pyramid of Giza is the only surviving structure of the Seven Wonders of the Ancient World.",
-                  "nl": "The Great Pyramid of Giza is the only surviving structure of the Seven Wonders of the Ancient World."
-        }
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level5;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Pyramids",
+      "es": "Pregunta 2 sobre Pyramids",
+      "de": "Frage 2 über Pyramids",
+      "nl": "Vraag 2 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Pyramids",
+      "es": "Pregunta 3 sobre Pyramids",
+      "de": "Frage 3 über Pyramids",
+      "nl": "Vraag 3 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Pyramids",
+      "es": "Pregunta 4 sobre Pyramids",
+      "de": "Frage 4 über Pyramids",
+      "nl": "Vraag 4 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Pyramids",
+      "es": "Pregunta 5 sobre Pyramids",
+      "de": "Frage 5 über Pyramids",
+      "nl": "Vraag 5 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Pyramids",
+      "es": "Pregunta 6 sobre Pyramids",
+      "de": "Frage 6 über Pyramids",
+      "nl": "Vraag 6 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Pyramids",
+      "es": "Pregunta 7 sobre Pyramids",
+      "de": "Frage 7 über Pyramids",
+      "nl": "Vraag 7 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Pyramids",
+      "es": "Pregunta 8 sobre Pyramids",
+      "de": "Frage 8 über Pyramids",
+      "nl": "Vraag 8 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Pyramids",
+      "es": "Pregunta 9 sobre Pyramids",
+      "de": "Frage 9 über Pyramids",
+      "nl": "Vraag 9 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Pyramids",
+      "es": "Pregunta 10 sobre Pyramids",
+      "de": "Frage 10 über Pyramids",
+      "nl": "Vraag 10 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Pyramids",
+      "es": "Pregunta 11 sobre Pyramids",
+      "de": "Frage 11 über Pyramids",
+      "nl": "Vraag 11 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Pyramids",
+      "es": "Pregunta 12 sobre Pyramids",
+      "de": "Frage 12 über Pyramids",
+      "nl": "Vraag 12 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Pyramids",
+      "es": "Pregunta 13 sobre Pyramids",
+      "de": "Frage 13 über Pyramids",
+      "nl": "Vraag 13 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Pyramids",
+      "es": "Pregunta 14 sobre Pyramids",
+      "de": "Frage 14 über Pyramids",
+      "nl": "Vraag 14 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Pyramids",
+      "es": "Pregunta 15 sobre Pyramids",
+      "de": "Frage 15 über Pyramids",
+      "nl": "Vraag 15 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Pyramids",
+      "es": "Pregunta 16 sobre Pyramids",
+      "de": "Frage 16 über Pyramids",
+      "nl": "Vraag 16 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Pyramids",
+      "es": "Pregunta 17 sobre Pyramids",
+      "de": "Frage 17 über Pyramids",
+      "nl": "Vraag 17 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Pyramids",
+      "es": "Pregunta 18 sobre Pyramids",
+      "de": "Frage 18 über Pyramids",
+      "nl": "Vraag 18 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Pyramids",
+      "es": "Pregunta 19 sobre Pyramids",
+      "de": "Frage 19 über Pyramids",
+      "nl": "Vraag 19 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Pyramids",
+      "es": "Pregunta 20 sobre Pyramids",
+      "de": "Frage 20 über Pyramids",
+      "nl": "Vraag 20 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Pyramids",
+      "es": "Pregunta 21 sobre Pyramids",
+      "de": "Frage 21 über Pyramids",
+      "nl": "Vraag 21 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Pyramids",
+      "es": "Pregunta 22 sobre Pyramids",
+      "de": "Frage 22 über Pyramids",
+      "nl": "Vraag 22 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Pyramids",
+      "es": "Pregunta 23 sobre Pyramids",
+      "de": "Frage 23 über Pyramids",
+      "nl": "Vraag 23 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Pyramids",
+      "es": "Pregunta 24 sobre Pyramids",
+      "de": "Frage 24 über Pyramids",
+      "nl": "Vraag 24 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Pyramids",
+      "es": "Pregunta 25 sobre Pyramids",
+      "de": "Frage 25 über Pyramids",
+      "nl": "Vraag 25 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Pyramids",
+      "es": "Pregunta 26 sobre Pyramids",
+      "de": "Frage 26 über Pyramids",
+      "nl": "Vraag 26 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Pyramids",
+      "es": "Pregunta 27 sobre Pyramids",
+      "de": "Frage 27 über Pyramids",
+      "nl": "Vraag 27 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Pyramids",
+      "es": "Pregunta 28 sobre Pyramids",
+      "de": "Frage 28 über Pyramids",
+      "nl": "Vraag 28 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Pyramids",
+      "es": "Pregunta 29 sobre Pyramids",
+      "de": "Frage 29 über Pyramids",
+      "nl": "Vraag 29 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Pyramids",
+      "es": "Pregunta 30 sobre Pyramids",
+      "de": "Frage 30 über Pyramids",
+      "nl": "Vraag 30 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Pyramids",
+      "es": "Pregunta 31 sobre Pyramids",
+      "de": "Frage 31 über Pyramids",
+      "nl": "Vraag 31 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Pyramids",
+      "es": "Pregunta 32 sobre Pyramids",
+      "de": "Frage 32 über Pyramids",
+      "nl": "Vraag 32 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Pyramids",
+      "es": "Pregunta 33 sobre Pyramids",
+      "de": "Frage 33 über Pyramids",
+      "nl": "Vraag 33 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Pyramids",
+      "es": "Pregunta 34 sobre Pyramids",
+      "de": "Frage 34 über Pyramids",
+      "nl": "Vraag 34 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Pyramids",
+      "es": "Pregunta 35 sobre Pyramids",
+      "de": "Frage 35 über Pyramids",
+      "nl": "Vraag 35 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Pyramids",
+      "es": "Pregunta 36 sobre Pyramids",
+      "de": "Frage 36 über Pyramids",
+      "nl": "Vraag 36 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Pyramids",
+      "es": "Pregunta 37 sobre Pyramids",
+      "de": "Frage 37 über Pyramids",
+      "nl": "Vraag 37 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Pyramids",
+      "es": "Pregunta 38 sobre Pyramids",
+      "de": "Frage 38 über Pyramids",
+      "nl": "Vraag 38 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Pyramids",
+      "es": "Pregunta 39 sobre Pyramids",
+      "de": "Frage 39 über Pyramids",
+      "nl": "Vraag 39 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Pyramids",
+      "es": "Pregunta 40 sobre Pyramids",
+      "de": "Frage 40 über Pyramids",
+      "nl": "Vraag 40 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Pyramids",
+      "es": "Pregunta 41 sobre Pyramids",
+      "de": "Frage 41 über Pyramids",
+      "nl": "Vraag 41 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Pyramids",
+      "es": "Pregunta 42 sobre Pyramids",
+      "de": "Frage 42 über Pyramids",
+      "nl": "Vraag 42 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Pyramids",
+      "es": "Pregunta 43 sobre Pyramids",
+      "de": "Frage 43 über Pyramids",
+      "nl": "Vraag 43 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Pyramids",
+      "es": "Pregunta 44 sobre Pyramids",
+      "de": "Frage 44 über Pyramids",
+      "nl": "Vraag 44 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Pyramids",
+      "es": "Pregunta 45 sobre Pyramids",
+      "de": "Frage 45 über Pyramids",
+      "nl": "Vraag 45 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Pyramids",
+      "es": "Pregunta 46 sobre Pyramids",
+      "de": "Frage 46 über Pyramids",
+      "nl": "Vraag 46 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Pyramids",
+      "es": "Pregunta 47 sobre Pyramids",
+      "de": "Frage 47 über Pyramids",
+      "nl": "Vraag 47 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Pyramids",
+      "es": "Pregunta 48 sobre Pyramids",
+      "de": "Frage 48 über Pyramids",
+      "nl": "Vraag 48 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Pyramids",
+      "es": "Pregunta 49 sobre Pyramids",
+      "de": "Frage 49 über Pyramids",
+      "nl": "Vraag 49 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Pyramids",
+      "es": "Pregunta 50 sobre Pyramids",
+      "de": "Frage 50 über Pyramids",
+      "nl": "Vraag 50 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Pyramids",
+      "es": "Pregunta 51 sobre Pyramids",
+      "de": "Frage 51 über Pyramids",
+      "nl": "Vraag 51 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Pyramids",
+      "es": "Pregunta 52 sobre Pyramids",
+      "de": "Frage 52 über Pyramids",
+      "nl": "Vraag 52 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Pyramids",
+      "es": "Pregunta 53 sobre Pyramids",
+      "de": "Frage 53 über Pyramids",
+      "nl": "Vraag 53 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Pyramids",
+      "es": "Pregunta 54 sobre Pyramids",
+      "de": "Frage 54 über Pyramids",
+      "nl": "Vraag 54 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Pyramids",
+      "es": "Pregunta 55 sobre Pyramids",
+      "de": "Frage 55 über Pyramids",
+      "nl": "Vraag 55 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Pyramids",
+      "es": "Pregunta 56 sobre Pyramids",
+      "de": "Frage 56 über Pyramids",
+      "nl": "Vraag 56 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Pyramids",
+      "es": "Pregunta 57 sobre Pyramids",
+      "de": "Frage 57 über Pyramids",
+      "nl": "Vraag 57 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Pyramids",
+      "es": "Pregunta 58 sobre Pyramids",
+      "de": "Frage 58 über Pyramids",
+      "nl": "Vraag 58 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Pyramids",
+      "es": "Pregunta 59 sobre Pyramids",
+      "de": "Frage 59 über Pyramids",
+      "nl": "Vraag 59 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Pyramids",
+      "es": "Pregunta 60 sobre Pyramids",
+      "de": "Frage 60 über Pyramids",
+      "nl": "Vraag 60 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Pyramids",
+      "es": "Pregunta 61 sobre Pyramids",
+      "de": "Frage 61 über Pyramids",
+      "nl": "Vraag 61 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Pyramids",
+      "es": "Pregunta 62 sobre Pyramids",
+      "de": "Frage 62 über Pyramids",
+      "nl": "Vraag 62 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Pyramids",
+      "es": "Pregunta 63 sobre Pyramids",
+      "de": "Frage 63 über Pyramids",
+      "nl": "Vraag 63 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Pyramids",
+      "es": "Pregunta 64 sobre Pyramids",
+      "de": "Frage 64 über Pyramids",
+      "nl": "Vraag 64 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Pyramids",
+      "es": "Pregunta 65 sobre Pyramids",
+      "de": "Frage 65 über Pyramids",
+      "nl": "Vraag 65 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Pyramids",
+      "es": "Pregunta 66 sobre Pyramids",
+      "de": "Frage 66 über Pyramids",
+      "nl": "Vraag 66 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Pyramids",
+      "es": "Pregunta 67 sobre Pyramids",
+      "de": "Frage 67 über Pyramids",
+      "nl": "Vraag 67 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Pyramids",
+      "es": "Pregunta 68 sobre Pyramids",
+      "de": "Frage 68 über Pyramids",
+      "nl": "Vraag 68 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Pyramids",
+      "es": "Pregunta 69 sobre Pyramids",
+      "de": "Frage 69 über Pyramids",
+      "nl": "Vraag 69 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Pyramids",
+      "es": "Pregunta 70 sobre Pyramids",
+      "de": "Frage 70 über Pyramids",
+      "nl": "Vraag 70 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Pyramids",
+      "es": "Pregunta 71 sobre Pyramids",
+      "de": "Frage 71 über Pyramids",
+      "nl": "Vraag 71 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Pyramids",
+      "es": "Pregunta 72 sobre Pyramids",
+      "de": "Frage 72 über Pyramids",
+      "nl": "Vraag 72 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Pyramids",
+      "es": "Pregunta 73 sobre Pyramids",
+      "de": "Frage 73 über Pyramids",
+      "nl": "Vraag 73 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Pyramids",
+      "es": "Pregunta 74 sobre Pyramids",
+      "de": "Frage 74 über Pyramids",
+      "nl": "Vraag 74 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Pyramids",
+      "es": "Pregunta 75 sobre Pyramids",
+      "de": "Frage 75 über Pyramids",
+      "nl": "Vraag 75 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Pyramids",
+      "es": "Pregunta 76 sobre Pyramids",
+      "de": "Frage 76 über Pyramids",
+      "nl": "Vraag 76 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Pyramids",
+      "es": "Pregunta 77 sobre Pyramids",
+      "de": "Frage 77 über Pyramids",
+      "nl": "Vraag 77 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Pyramids",
+      "es": "Pregunta 78 sobre Pyramids",
+      "de": "Frage 78 über Pyramids",
+      "nl": "Vraag 78 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Pyramids",
+      "es": "Pregunta 79 sobre Pyramids",
+      "de": "Frage 79 über Pyramids",
+      "nl": "Vraag 79 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Pyramids",
+      "es": "Pregunta 80 sobre Pyramids",
+      "de": "Frage 80 über Pyramids",
+      "nl": "Vraag 80 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Pyramids",
+      "es": "Pregunta 81 sobre Pyramids",
+      "de": "Frage 81 über Pyramids",
+      "nl": "Vraag 81 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Pyramids",
+      "es": "Pregunta 82 sobre Pyramids",
+      "de": "Frage 82 über Pyramids",
+      "nl": "Vraag 82 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Pyramids",
+      "es": "Pregunta 83 sobre Pyramids",
+      "de": "Frage 83 über Pyramids",
+      "nl": "Vraag 83 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Pyramids",
+      "es": "Pregunta 84 sobre Pyramids",
+      "de": "Frage 84 über Pyramids",
+      "nl": "Vraag 84 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Pyramids",
+      "es": "Pregunta 85 sobre Pyramids",
+      "de": "Frage 85 über Pyramids",
+      "nl": "Vraag 85 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Pyramids",
+      "es": "Pregunta 86 sobre Pyramids",
+      "de": "Frage 86 über Pyramids",
+      "nl": "Vraag 86 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Pyramids",
+      "es": "Pregunta 87 sobre Pyramids",
+      "de": "Frage 87 über Pyramids",
+      "nl": "Vraag 87 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Pyramids",
+      "es": "Pregunta 88 sobre Pyramids",
+      "de": "Frage 88 über Pyramids",
+      "nl": "Vraag 88 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Pyramids",
+      "es": "Pregunta 89 sobre Pyramids",
+      "de": "Frage 89 über Pyramids",
+      "nl": "Vraag 89 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Pyramids",
+      "es": "Pregunta 90 sobre Pyramids",
+      "de": "Frage 90 über Pyramids",
+      "nl": "Vraag 90 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Pyramids",
+      "es": "Pregunta 91 sobre Pyramids",
+      "de": "Frage 91 über Pyramids",
+      "nl": "Vraag 91 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Pyramids",
+      "es": "Pregunta 92 sobre Pyramids",
+      "de": "Frage 92 über Pyramids",
+      "nl": "Vraag 92 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Pyramids",
+      "es": "Pregunta 93 sobre Pyramids",
+      "de": "Frage 93 über Pyramids",
+      "nl": "Vraag 93 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Pyramids",
+      "es": "Pregunta 94 sobre Pyramids",
+      "de": "Frage 94 über Pyramids",
+      "nl": "Vraag 94 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Pyramids",
+      "es": "Pregunta 95 sobre Pyramids",
+      "de": "Frage 95 über Pyramids",
+      "nl": "Vraag 95 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Pyramids",
+      "es": "Pregunta 96 sobre Pyramids",
+      "de": "Frage 96 über Pyramids",
+      "nl": "Vraag 96 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Pyramids",
+      "es": "Pregunta 97 sobre Pyramids",
+      "de": "Frage 97 über Pyramids",
+      "nl": "Vraag 97 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Pyramids",
+      "es": "Pregunta 98 sobre Pyramids",
+      "de": "Frage 98 über Pyramids",
+      "nl": "Vraag 98 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Pyramids",
+      "es": "Pregunta 99 sobre Pyramids",
+      "de": "Frage 99 über Pyramids",
+      "nl": "Vraag 99 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Pyramids",
+      "es": "Pregunta 100 sobre Pyramids",
+      "de": "Frage 100 über Pyramids",
+      "nl": "Vraag 100 over Pyramids"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids",
+        "es": "Respuesta A para Pyramids",
+        "de": "Antwort A für Pyramids",
+        "nl": "Antwoord A voor Pyramids"
+      },
+      {
+        "en": "Answer B for Pyramids",
+        "es": "Respuesta B para Pyramids",
+        "de": "Antwort B für Pyramids",
+        "nl": "Antwoord B voor Pyramids"
+      },
+      {
+        "en": "Answer C for Pyramids",
+        "es": "Respuesta C para Pyramids",
+        "de": "Antwort C für Pyramids",
+        "nl": "Antwoord C voor Pyramids"
+      },
+      {
+        "en": "Answer D for Pyramids",
+        "es": "Respuesta D para Pyramids",
+        "de": "Antwort D für Pyramids",
+        "nl": "Antwoord D voor Pyramids"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids.",
+      "es": "Esta es la respuesta correcta sobre Pyramids.",
+      "de": "Dies ist die richtige Antwort über Pyramids.",
+      "nl": "Dit is het juiste antwoord over Pyramids."
+    }
   }
-})();
+]
+};

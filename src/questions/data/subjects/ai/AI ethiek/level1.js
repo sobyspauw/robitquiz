@@ -1,859 +1,2177 @@
-﻿// AI Ethics Quiz - Level 1: Basic Knowledge about AI Ethics
-(function() {
-  const level1 = {
-    name: {
-      en: "AI Ethics Level 1",
-      es: "Etica de IA Nivel 1",
-      de: "KI-Ethik Stufe 1",
-      nl: "AI Ethiek Level 1"
+module.exports = {
+  questions: [
+  {
+    question: {
+      en: "What is AI bias?",
+      es: "¿Qué es el sesgo de IA?",
+      de: "Was ist KI-Bias?",
+      nl: "Wat is AI-bias?"
     },
-    questions: [
+    options: [
       {
-        question: {
-          en: "What is AI bias in ML systems?",
-          es: "Que es el sesgo de IA en los sistemas de aprendizaje automatico?",
-          de: "Was ist KI-Verzerrung in maschinellen Lernsystemen?",
-          nl: "Wat is AI-bias in machine learning systemen?"
-        },
-        options: [
-          { en: "AI makes unfair decisions from biased data", es: "IA toma decisiones injustas basadas en datos sesgados", de: "KI trifft unfaire Entscheidungen basierend auf verzerrten Daten", nl: "AI neemt oneerlijke beslissingen gebaseerd op bevooroordeelde data" },
-          { en: "When AI runs too fast", es: "Cuando la IA corre demasiado rapido", de: "Wenn KI zu schnell laeuft", nl: "Wanneer AI te snel werkt" },
-          { en: "When AI uses too much electricity", es: "Cuando la IA usa demasiada electricidad", de: "Wenn KI zu viel Strom verbraucht", nl: "Wanneer AI te veel elektriciteit gebruikt" },
-          { en: "When AI costs too much money", es: "Cuando la IA cuesta demasiado dinero", de: "Wenn KI zu viel Geld kostet", nl: "Wanneer AI te veel geld kost" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "AI bias occurs when ML systems make unfair decisions, often because they were trained on biased historical data reflecting past prejudices.",
-          es: "Sesgo IA ocurre cuando sistemas ML toman decisiones injustas, a menudo por entrenamiento con datos sesgados que reflejan prejuicios.",
-          de: "KI-Verzerrung tritt auf wenn ML-Systeme unfaire Entscheidungen treffen, oft durch Training mit verzerrten historischen Daten.",
-          nl: "AI-bias ontstaat wanneer ML systemen oneerlijke beslissingen nemen, vaak door training op bevooroordeelde historische data."
-        }
+        en: "Unfair treatment based on data patterns",
+        es: "Tratamiento injusto basado en patrones de datos",
+        de: "Unfaire Behandlung basierend auf Datenmustern",
+        nl: "Oneerlijke behandeling op basis van datapatronen"
       },
       {
-        question: {
-          en: "What does 'algo transparency' mean in AI ethics?",
-          es: "Que significa 'transparencia algoritmica' en la etica de IA?",
-          de: "Was bedeutet 'algorithmische Transparenz' in der KI-Ethik?",
-          nl: "Wat betekent 'algoritmische transparantie' in AI ethiek?"
-        },
-        options: [
-          { en: "Making AI algorithms invisible", es: "Hacer invisibles los algoritmos de IA", de: "KI-Algorithmen unsichtbar machen", nl: "AI algoritmes onzichtbaar maken" },
-          { en: "Understanding how AI decides", es: "Entender y explicar como IA decide", de: "Verstehen und erklaeren wie KI entscheidet", nl: "Begrijpen en uitleggen hoe AI beslist" },
-          { en: "Using glass computers", es: "Usar computadoras de vidrio", de: "Glascomputer verwenden", nl: "Glazen computers gebruiken" },
-          { en: "Making AI code public", es: "Hacer publico el codigo de IA", de: "KI-Code oeffentlich machen", nl: "AI code openbaar maken" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Algorithmic transparency means AI systems should be explainable, so people can understand how and why decisions were made.",
-          es: "Transparencia algoritmica significa que IA debe ser explicable para que personas entiendan como y por que se tomaron decisiones.",
-          de: "Algorithmische Transparenz bedeutet dass KI-Systeme erklaerbar sein sollten, damit Menschen Entscheidungen verstehen koennen.",
-          nl: "Algoritmische transparantie betekent dat AI uitlegbaar moet zijn zodat mensen beslissingen kunnen begrijpen."
-        }
+        en: "AI systems being too accurate",
+        es: "Sistemas de IA siendo demasiado precisos",
+        de: "KI-Systeme sind zu genau",
+        nl: "AI-systemen die te accuraat zijn"
       },
       {
-        question: {
-          en: "What is the main concern about AI replacing human jobs?",
-          es: "Cual es la principal preocupacion sobre la IA reemplazando trabajos humanos?",
-          de: "Was ist die Hauptsorge bezueglich KI, die menschliche Arbeitsplaetze ersetzt?",
-          nl: "Wat is de hoofdzorg over AI die menselijke banen vervangt?"
-        },
-        options: [
-          { en: "AI will become too expensive", es: "La IA se volvera demasiado cara", de: "KI wird zu teuer werden", nl: "AI wordt te duur" },
-          { en: "Job loss & rising inequality", es: "Perdida de empleos y aumento de desigualdad economica", de: "Arbeitsplatzverlust und zunehmende Ungleichheit", nl: "Banenverlies en toenemende economische ongelijkheid" },
-          { en: "AI will run out of electricity", es: "La IA se quedara sin electricidad", de: "KI wird keinen Strom mehr haben", nl: "AI raakt zonder stroom" },
-          { en: "Robots will take up too much space", es: "Los robots ocuparan demasiado espacio", de: "Roboter werden zu viel Platz einnehmen", nl: "Robots nemen te veel ruimte in" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Widespread AI automation could cause mass unemployment, affecting people's livelihoods and potentially increasing social and economic inequality.",
-          es: "La automatizacion IA generalizada podria causar desempleo masivo, afectando sustento de personas y aumentando desigualdad social y economica.",
-          de: "Weit verbreitete KI-Automatisierung koennte Massenarbeitslosigkeit verursachen, Lebensunterhalt beeintraechtigen und soziale und wirtschaftliche Ungleichheit erhoehen.",
-          nl: "Wijdverspreide AI automatisering kan massale werkloosheid veroorzaken, levensonderhoud aantasten en sociale en economische ongelijkheid vergroten."
-        }
+        en: "Computers running too slowly",
+        es: "Computadoras funcionando muy lentamente",
+        de: "Computer laufen zu langsam",
+        nl: "Computers die te traag werken"
       },
       {
-        question: {
-          en: "What does 'AI accountability' mean?",
-          es: "Que significa 'responsabilidad de IA'?",
-          de: "Was bedeutet 'KI-Verantwortlichkeit'?",
-          nl: "Wat betekent 'AI verantwoordelijkheid'?"
-        },
-        options: [
-          { en: "AI systems should count numbers accurately", es: "Los sistemas de IA deben contar numeros con precision", de: "KI-Systeme sollten Zahlen genau zaehlen", nl: "AI systemen moeten nummers nauwkeurig tellen" },
-          { en: "Assign responsibility when AI causes harm", es: "Asignar responsabilidad cuando IA causa dano", de: "Verantwortung zuweisen wenn KI Schaden verursacht", nl: "Verantwoordelijkheid toewijzen als AI schade veroorzaakt" },
-          { en: "AI should keep financial records", es: "La IA debe mantener registros financieros", de: "KI sollte Finanzaufzeichnungen fuehren", nl: "AI moet financiele administratie bijhouden" },
-          { en: "AI must pay taxes", es: "La IA debe pagar impuestos", de: "KI muss Steuern zahlen", nl: "AI moet belasting betalen" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "AI accountability means establishing clear responsibility for AI decisions, ensuring humans remain accountable for AI system outcomes.",
-          es: "Responsabilidad IA significa establecer responsabilidad clara por decisiones IA, asegurando que humanos sean responsables por resultados.",
-          de: "KI-Verantwortlichkeit bedeutet klare Verantwortung fuer KI-Entscheidungen etablieren und sicherstellen dass Menschen verantwortlich bleiben.",
-          nl: "AI verantwoordelijkheid betekent duidelijke verantwoordelijkheid voor AI beslissingen en mensen blijven verantwoordelijk voor uitkomsten."
-        }
-      },
-      {
-        question: {
-          en: "What is a key principle of ethical AI development?",
-          es: "Cual es un principio clave del desarrollo etico de IA?",
-          de: "Was ist ein Schluesselprinzip ethischer KI-Entwicklung?",
-          nl: "Wat is een kernprincipe van ethische AI ontwikkeling?"
-        },
-        options: [
-          { en: "AI should be as fast as possible", es: "La IA debe ser lo mas rapida posible", de: "KI sollte so schnell wie moeglich sein", nl: "AI moet zo snel mogelijk zijn" },
-          { en: "Benefit humanity, minimize harm", es: "Beneficiar humanidad mientras minimiza dano", de: "Menschheit nutzen waehrend Schaden minimiert", nl: "Mensheid helpen terwijl schade geminimaliseerd" },
-          { en: "AI should make maximum profit", es: "La IA debe generar maximas ganancias", de: "KI sollte maximalen Gewinn erzielen", nl: "AI moet maximale winst maken" },
-          { en: "AI should replace all human workers", es: "La IA debe reemplazar a todos los trabajadores humanos", de: "KI sollte alle menschlichen Arbeiter ersetzen", nl: "AI moet alle menselijke werknemers vervangen" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Ethical AI develops systems that benefit humanity while actively preventing or minimizing potential harms and negative consequences.",
-          es: "IA etica desarrolla sistemas que benefician humanidad mientras previene o minimiza posibles danos y consecuencias negativas.",
-          de: "Ethische KI entwickelt Systeme die Menschheit nutzen waehrend potentielle Schaeden und negative Konsequenzen verhindert werden.",
-          nl: "Ethische AI ontwikkelt systemen die mensheid helpen terwijl potentiele schade en negatieve gevolgen voorkomen worden."
-        }
-      },
-      {
-        question: {
-          en: "What does 'machine learning ethics' primarily focus on?",
-          es: "En que se enfoca principalmente la 'etica del aprendizaje automatico'?",
-          de: "Worauf konzentriert sich 'Machine Learning Ethik' hauptsaechlich?",
-          nl: "Waar richt 'machine learning ethiek' zich hoofdzakelijk op?"
-        },
-        options: [
-          { en: "Fair, safe & beneficial AI", es: "Asegurar que IA sea justa, segura y beneficiosa", de: "Sicherstellen dass KI fair, sicher und vorteilhaft ist", nl: "Zorgen dat AI eerlijk, veilig en voordelig is" },
-          { en: "Making AI run faster", es: "Hacer que la IA funcione mas rapido", de: "KI schneller laufen lassen", nl: "AI sneller laten werken" },
-          { en: "Reducing computer costs", es: "Reducir costos de computadora", de: "Computerkosten reduzieren", nl: "Computerkosten verlagen" },
-          { en: "Teaching machines to think like humans", es: "Ensenar a las maquinas a pensar como humanos", de: "Maschinen beibringen wie Menschen zu denken", nl: "Machines leren denken zoals mensen" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "ML ethics ensures AI systems are fair, safe, transparent, and beneficial to society while minimizing potential harms.",
-          es: "Etica ML asegura que sistemas IA sean justos, seguros, transparentes y beneficiosos para sociedad minimizando danos.",
-          de: "ML-Ethik stellt sicher dass KI-Systeme fair, sicher, transparent und gesellschaftlich vorteilhaft sind waehrend Schaeden minimiert werden.",
-          nl: "ML ethiek zorgt dat AI systemen eerlijk, veilig, transparant en voordelig zijn voor samenleving terwijl schade geminimaliseerd."
-        }
-      },
-      {
-        question: {
-          en: "What is a potential ethical issue with AI recommendation systems?",
-          es: "Cual es un problema etico potencial con sistemas de recomendacion de IA?",
-          de: "Was ist ein potentielles ethisches Problem mit KI-Empfehlungssystemen?",
-          nl: "Wat is een mogelijk ethisch probleem met AI aanbevelingssystemen?"
-        },
-        options: [
-          { en: "They use too much internet bandwidth", es: "Usan demasiado ancho de banda de internet", de: "Sie verbrauchen zu viel Internet-Bandbreite", nl: "Ze gebruiken te veel internetbandbreedte" },
-          { en: "Create filter bubbles & reinforce beliefs", es: "Crear burbujas filtro y reforzar creencias", de: "Filterblasen schaffen und Ueberzeugungen verstaerken", nl: "Filterbubbles creeren en overtuigingen versterken" },
-          { en: "They are too slow to load", es: "Son demasiado lentos para cargar", de: "Sie laden zu langsam", nl: "Ze laden te langzaam" },
-          { en: "They require too many clicks", es: "Requieren demasiados clics", de: "Sie erfordern zu viele Klicks", nl: "Ze vereisen te veel klikken" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "AI recommendation systems can create filter bubbles showing only similar content, limiting exposure to diverse viewpoints and reinforcing existing biases.",
-          es: "Sistemas recomendacion IA pueden crear burbujas filtro mostrando solo contenido similar, limitando exposicion a puntos vista diversos y reforzando sesgos.",
-          de: "KI-Empfehlungssysteme koennen Filterblasen schaffen durch Zeigen aehnlicher Inhalte, begrenzen Exposition zu diversen Standpunkten und verstaerken Verzerrungen.",
-          nl: "AI aanbevelingssystemen kunnen filterbubbles creeren door alleen vergelijkbare content, beperken blootstelling aan diverse standpunten en versterken vooroordelen."
-        }
-      },
-      {
-        question: {
-          en: "What does 'human-centered AI' mean?",
-          es: "Que significa 'IA centrada en el humano'?",
-          de: "Was bedeutet 'menschenzentrierte KI'?",
-          nl: "Wat betekent 'mensgerichte AI'?"
-        },
-        options: [
-          { en: "AI that looks like humans", es: "IA que parece humanos", de: "KI die wie Menschen aussieht", nl: "AI die eruitziet als mensen" },
-          { en: "Augment & empower humans, not replace", es: "IA para aumentar y empoderar humanos, no reemplazar", de: "KI um Menschen zu befaehigen, nicht ersetzen", nl: "AI om mensen te versterken, niet vervangen" },
-          { en: "AI that only works in human buildings", es: "IA que solo funciona en edificios humanos", de: "KI die nur in menschlichen Gebaeuden funktioniert", nl: "AI die alleen werkt in menselijke gebouwen" },
-          { en: "AI controlled by human voices only", es: "IA controlada solo por voces humanas", de: "KI die nur durch menschliche Stimmen kontrolliert wird", nl: "AI die alleen door menselijke stemmen gecontroleerd wordt" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Human-centered AI prioritizes human values and well-being, focusing on augmenting human capabilities and serving humanity's best interests.",
-          es: "IA centrada en humano prioriza valores y bienestar humanos, enfocandose en aumentar capacidades y servir mejores intereses humanidad.",
-          de: "Menschenzentrierte KI priorisiert menschliche Werte und Wohlbefinden, fokussiert auf Erweiterung Faehigkeiten und Dienst an Menschheit.",
-          nl: "Mensgerichte AI geeft prioriteit aan menselijke waarden en welzijn, richt zich op versterken capaciteiten en dient beste belangen mensheid."
-        }
-      },
-      {
-        question: {
-          en: "What is an important consideration when AI is used in hiring processes?",
-          es: "Cual es una consideracion importante cuando se usa IA en procesos de contratacion?",
-          de: "Was ist eine wichtige Ueberlegung wenn KI in Einstellungsprozessen verwendet wird?",
-          nl: "Wat is een belangrijke overweging wanneer AI gebruikt wordt in aanwervingsprocessen?"
-        },
-        options: [
-          { en: "No discrimination vs protected groups", es: "IA no discrimine contra grupos protegidos", de: "KI nicht gegen geschuetzte Gruppen diskriminiert", nl: "AI niet discrimineert tegen beschermde groepen" },
-          { en: "Making sure AI works 24/7", es: "Asegurar que la IA funcione 24/7", de: "Sicherstellen dass KI 24/7 funktioniert", nl: "Ervoor zorgen dat AI 24/7 werkt" },
-          { en: "Using the cheapest AI system available", es: "Usar el sistema de IA mas barato disponible", de: "Das guenstigste verfuegbare KI-System verwenden", nl: "Het goedkoopste beschikbare AI systeem gebruiken" },
-          { en: "Processing applications as quickly as possible", es: "Procesar aplicaciones lo mas rapido posible", de: "Bewerbungen so schnell wie moeglich bearbeiten", nl: "Aanvragen zo snel mogelijk verwerken" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "When AI is used in hiring, it's crucial to ensure the system doesn't perpetuate bias or discrimination against protected groups like race, gender, age, or disability status.",
-          es: "Cuando se usa IA en contratacion, es crucial asegurar que el sistema no perpetue sesgo o discriminacion contra grupos protegidos como raza, genero, edad o estado de discapacidad.",
-          de: "Wenn KI bei der Einstellung verwendet wird ist es entscheidend sicherzustellen dass das System keine Verzerrung oder Diskriminierung gegen geschuetzte Gruppen wie Rasse, Geschlecht, Alter oder Behinderungsstatus fortsetzt.",
-          nl: "Wanneer AI gebruikt wordt bij aanwerving is het cruciaal ervoor te zorgen dat het systeem geen vooroordelen of discriminatie bestendigt tegen beschermde groepen zoals ras, geslacht, leeftijd of handicapstatus."
-        }
-      },
-      {
-        question: {
-          en: "What does 'ethical AI governance' involve?",
-          es: "Que involucra la 'gobernanza etica de IA'?",
-          de: "Was beinhaltet 'ethische KI-Governance'?",
-          nl: "Wat houdt 'ethische AI governance' in?"
-        },
-        options: [
-          { en: "Rules & oversight for responsible AI", es: "Reglas y supervision para desarrollo responsable IA", de: "Regeln und Aufsicht fuer verantwortliche KI", nl: "Regels en toezicht voor verantwoordelijke AI" },
-          { en: "Making AI systems run government websites", es: "Hacer que sistemas de IA ejecuten sitios web gubernamentales", de: "KI-Systeme Regierungs-Websites betreiben lassen", nl: "AI systemen overheidswebsites laten beheren" },
-          { en: "Teaching AI about politics", es: "Ensenar a la IA sobre politica", de: "KI ueber Politik unterrichten", nl: "AI leren over politiek" },
-          { en: "Using AI only in government offices", es: "Usar IA solo en oficinas gubernamentales", de: "KI nur in Regierungsbueros verwenden", nl: "AI alleen gebruiken in overheidskantoren" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Ethical AI governance involves establishing frameworks, policies, and oversight mechanisms to ensure AI is developed and deployed responsibly with appropriate safeguards and accountability measures.",
-          es: "La gobernanza etica de IA involucra establecer marcos, politicas y mecanismos de supervision para asegurar que la IA se desarrolle e implemente responsablemente con salvaguardas apropiadas y medidas de responsabilidad.",
-          de: "Ethische KI-Governance beinhaltet die Einrichtung von Rahmenwerken, Richtlinien und Aufsichtsmechanismen um sicherzustellen dass KI verantwortlich entwickelt und eingesetzt wird mit angemessenen Sicherheitsvorkehrungen und Verantwortlichkeitsmassnahmen.",
-          nl: "Ethische AI governance houdt het vaststellen van frameworks, beleid en toezichtmechanismen in om ervoor te zorgen dat AI verantwoordelijk ontwikkeld en ingezet wordt met juiste waarborgen en verantwoordingsmaatregelen."
-        }
-      },
-      {
-        question: {
-          en: "What is the main concern about deepfake technology?",
-          es: "Cual es la principal preocupacion sobre la tecnologia deepfake?",
-          de: "Was ist die Hauptsorge bezueglich Deepfake-Technologie?",
-          nl: "Wat is de hoofdzorg over deepfake technologie?"
-        },
-        options: [
-          { en: "It uses too much computer processing power", es: "Usa demasiado poder de procesamiento de computadora", de: "Es verbraucht zu viel Computerrechenleistung", nl: "Het gebruikt te veel computerverwerkingskracht" },
-          { en: "Spread misinfo & undermine trust", es: "Difundir desinformacion y socavar confianza", de: "Fehlinformationen verbreiten und Vertrauen untergraben", nl: "Verkeerde info verspreiden en vertrouwen ondermijnen" },
-          { en: "It only works on expensive equipment", es: "Solo funciona en equipos caros", de: "Es funktioniert nur auf teurer Ausruestung", nl: "Het werkt alleen op dure apparatuur" },
-          { en: "It makes videos look blurry", es: "Hace que los videos se vean borrosos", de: "Es macht Videos unscharf", nl: "Het maakt video's wazig" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Deepfakes can create convincing fake videos or audio that can be used to spread false information, manipulate public opinion, or damage someone's reputation, threatening truth and trust in media.",
-          es: "Los deepfakes pueden crear videos o audio falsos convincentes que pueden usarse para difundir informacion falsa, manipular opinion publica o danar la reputacion de alguien, amenazando la verdad y confianza en los medios.",
-          de: "Deepfakes koennen ueberzeugende gefaelschte Videos oder Audio erstellen die verwendet werden koennen um falsche Informationen zu verbreiten, oeffentliche Meinung zu manipulieren oder jemandes Ruf zu schaedigen, was Wahrheit und Vertrauen in Medien bedroht.",
-          nl: "Deepfakes kunnen overtuigende nep video's of audio creeren die gebruikt kunnen worden om valse informatie te verspreiden, publieke opinie te manipuleren of iemands reputatie te schaden, wat waarheid en vertrouwen in media bedreigt."
-        }
-      },
-      {
-        question: {
-          en: "What does 'AI safety' primarily concern itself with?",
-          es: "De que se preocupa principalmente la 'seguridad de IA'?",
-          de: "Womit beschaeftigt sich 'KI-Sicherheit' hauptsaechlich?",
-          nl: "Waar houdt 'AI veiligheid' zich hoofdzakelijk mee bezig?"
-        },
-        options: [
-          { en: "Prevent unintended AI harm", es: "Prevenir dano no intencionado de IA", de: "Unbeabsichtigten KI-Schaden verhindern", nl: "Onbedoelde AI schade voorkomen" },
-          { en: "Protecting AI from computer viruses", es: "Proteger IA de virus informaticos", de: "KI vor Computerviren schuetzen", nl: "AI beschermen tegen computervirussen" },
-          { en: "Making sure AI servers don't overheat", es: "Asegurar que los servidores de IA no se sobrecalienten", de: "Sicherstellen dass KI-Server nicht ueberhitzen", nl: "Ervoor zorgen dat AI servers niet oververhitten" },
-          { en: "Keeping AI software up to date", es: "Mantener actualizado el software de IA", de: "KI-Software auf dem neuesten Stand halten", nl: "AI software up-to-date houden" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "AI safety focuses on ensuring AI systems behave as intended and don't cause unintended harmful consequences, especially as AI becomes more powerful and autonomous.",
-          es: "La seguridad de IA se enfoca en asegurar que los sistemas de IA se comporten como se pretende y no causen consecuencias daninas no intencionadas, especialmente cuando la IA se vuelve mas poderosa y autonoma.",
-          de: "KI-Sicherheit konzentriert sich darauf sicherzustellen dass KI-Systeme sich wie beabsichtigt verhalten und keine unbeabsichtigten schaedlichen Konsequenzen verursachen, besonders wenn KI maechtigere und autonomer wird.",
-          nl: "AI veiligheid richt zich op het waarborgen dat AI systemen zich gedragen zoals bedoeld en geen onbedoelde schadelijke gevolgen veroorzaken, vooral naarmate AI krachtiger en autonomer wordt."
-        }
-      },
-      {
-        question: {
-          en: "What is important about data diversity in AI training?",
-          es: "Que es importante sobre la diversidad de datos en entrenamiento de IA?",
-          de: "Was ist wichtig an Datenvielfalt beim KI-Training?",
-          nl: "Wat is belangrijk aan data diversiteit bij AI training?"
-        },
-        options: [
-          { en: "Ensure AI works fairly for all groups", es: "Asegurar que IA funcione justamente para todos", de: "Sicherstellen dass KI fair fuer alle funktioniert", nl: "Zorgen dat AI eerlijk werkt voor alle groepen" },
-          { en: "It makes AI training take longer", es: "Hace que el entrenamiento de IA tome mas tiempo", de: "Es laesst KI-Training laenger dauern", nl: "Het zorgt ervoor dat AI training langer duurt" },
-          { en: "It requires more storage space", es: "Requiere mas espacio de almacenamiento", de: "Es erfordert mehr Speicherplatz", nl: "Het vereist meer opslagruimte" },
-          { en: "It makes the AI system more expensive", es: "Hace que el sistema de IA sea mas caro", de: "Es macht das KI-System teurer", nl: "Het maakt het AI systeem duurder" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Diverse training data helps ensure AI systems can perform fairly and accurately across different demographics, cultures, and contexts, reducing bias and improving inclusivity.",
-          es: "Los datos de entrenamiento diversos ayudan a asegurar que los sistemas de IA puedan funcionar justa y precisamente en diferentes demografias, culturas y contextos, reduciendo sesgo y mejorando inclusividad.",
-          de: "Diverse Trainingsdaten helfen sicherzustellen dass KI-Systeme fair und genau bei verschiedenen Demografien, Kulturen und Kontexten funktionieren koennen, was Verzerrung reduziert und Inklusivitaet verbessert.",
-          nl: "Diverse trainingsdata helpt ervoor te zorgen dat AI systemen eerlijk en nauwkeurig kunnen presteren voor verschillende demografieën, culturen en contexten, wat vooroordelen vermindert en inclusiviteit verbetert."
-        }
-      },
-      {
-        question: {
-          en: "What does 'algorithmic justice' aim to achieve?",
-          es: "Que busca lograr la 'justicia algoritmica'?",
-          de: "Was zielt 'algorithmische Gerechtigkeit' darauf ab zu erreichen?",
-          nl: "Wat beoogt 'algoritmische rechtvaardigheid' te bereiken?"
-        },
-        options: [
-          { en: "Fair & equitable AI outcomes", es: "Resultados justos y equitativos de IA", de: "Faire und gerechte KI-Ergebnisse", nl: "Eerlijke en rechtvaardige AI uitkomsten" },
-          { en: "Making algorithms solve legal cases", es: "Hacer que algoritmos resuelvan casos legales", de: "Algorithmen Rechtsfaelle loesen lassen", nl: "Algoritmes juridische zaken laten oplossen" },
-          { en: "Teaching AI about court procedures", es: "Ensenar a la IA sobre procedimientos judiciales", de: "KI ueber Gerichtsverfahren unterrichten", nl: "AI leren over gerechtelijke procedures" },
-          { en: "Using AI only in justice systems", es: "Usar IA solo en sistemas de justicia", de: "KI nur in Justizsystemen verwenden", nl: "AI alleen gebruiken in rechtssystemen" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Algorithmic justice seeks to ensure that AI and automated decision-making systems produce fair, unbiased outcomes that don't perpetuate or amplify existing social inequalities.",
-          es: "La justicia algoritmica busca asegurar que la IA y sistemas automatizados de toma de decisiones produzcan resultados justos e imparciales que no perpetuen o amplifiquen desigualdades sociales existentes.",
-          de: "Algorithmische Gerechtigkeit strebt danach sicherzustellen dass KI und automatisierte Entscheidungssysteme faire, unvoreingenommene Ergebnisse produzieren die bestehende soziale Ungleichheiten nicht fortsetzen oder verstaerken.",
-          nl: "Algoritmische rechtvaardigheid streeft ernaar ervoor te zorgen dat AI en geautomatiseerde besluitvormingssystemen eerlijke, onbevooroordeelde uitkomsten produceren die bestaande sociale ongelijkheden niet bestendigen of versterken."
-        }
-      },
-      {
-        question: {
-          en: "Why is it important to consider the environmental impact of AI?",
-          es: "Por que es importante considerar el impacto ambiental de la IA?",
-          de: "Warum ist es wichtig die Umweltauswirkungen von KI zu betrachten?",
-          nl: "Waarom is het belangrijk om de milieu-impact van AI te overwegen?"
-        },
-        options: [
-          { en: "Training & deployment use significant energy", es: "Entrenamiento e implementacion consumen mucha energia", de: "Training und Einsatz verbrauchen viel Energie", nl: "Training en inzet verbruiken veel energie" },
-          { en: "AI systems are always bad for the environment", es: "Los sistemas de IA siempre son malos para el medio ambiente", de: "KI-Systeme sind immer schlecht fuer die Umwelt", nl: "AI systemen zijn altijd slecht voor het milieu" },
-          { en: "AI only works in air-conditioned rooms", es: "La IA solo funciona en habitaciones con aire acondicionado", de: "KI funktioniert nur in klimatisierten Raeumen", nl: "AI werkt alleen in geklimatiseerde ruimtes" },
-          { en: "Environmental laws prohibit AI use", es: "Las leyes ambientales prohiben el uso de IA", de: "Umweltgesetze verbieten KI-Nutzung", nl: "Milieuwetten verbieden AI gebruik" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Training large AI models requires substantial computational resources and energy, contributing to carbon emissions. Sustainable AI development considers environmental impact and seeks energy-efficient approaches.",
-          es: "Entrenar modelos grandes de IA requiere recursos computacionales y energia sustanciales, contribuyendo a emisiones de carbono. El desarrollo sostenible de IA considera impacto ambiental y busca enfoques energeticamente eficientes.",
-          de: "Das Training grosser KI-Modelle erfordert erhebliche Rechenressourcen und Energie, was zu Kohlenstoffemissionen beitraegt. Nachhaltige KI-Entwicklung betrachtet Umweltauswirkungen und sucht energieeffiziente Ansaetze.",
-          nl: "Het trainen van grote AI modellen vereist aanzienlijke computationele middelen en energie, wat bijdraagt aan koolstofemissies. Duurzame AI ontwikkeling overweegt milieu-impact en zoekt energie-efficiënte benaderingen."
-        }
-      },
-      {
-        question: {
-          en: "What is 'AI literacy' and why is it important?",
-          es: "Que es la 'alfabetizacion en IA' y por que es importante?",
-          de: "Was ist 'KI-Alphabetisierung' und warum ist sie wichtig?",
-          nl: "Wat is 'AI geletterdheid' en waarom is het belangrijk?"
-        },
-        options: [
-          { en: "Understanding AI to make informed decisions", es: "Entender IA para tomar decisiones informadas", de: "KI verstehen um informierte Entscheidungen treffen", nl: "AI begrijpen om geïnformeerde beslissingen te nemen" },
-          { en: "Teaching AI systems to read and write", es: "Ensenar a sistemas de IA a leer y escribir", de: "KI-Systemen beibringen zu lesen und zu schreiben", nl: "AI systemen leren lezen en schrijven" },
-          { en: "Using AI only by people with computer science degrees", es: "Usar IA solo por personas con titulos en ciencias de la computacion", de: "KI nur von Personen mit Informatikabschluessen verwenden", nl: "AI alleen gebruiken door mensen met informaticadiploma's" },
-          { en: "Reading books about AI technology", es: "Leer libros sobre tecnologia de IA", de: "Buecher ueber KI-Technologie lesen", nl: "Boeken lezen over AI technologie" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "AI literacy means having the knowledge and skills to understand AI capabilities, limitations, and implications, enabling people to engage thoughtfully with AI technologies in their personal and professional lives.",
-          es: "La alfabetizacion en IA significa tener el conocimiento y habilidades para entender capacidades, limitaciones e implicaciones de IA, permitiendo a las personas involucrarse reflexivamente con tecnologias de IA en sus vidas personales y profesionales.",
-          de: "KI-Alphabetisierung bedeutet das Wissen und die Faehigkeiten zu haben um KI-Faehigkeiten, Einschraenkungen und Auswirkungen zu verstehen, was Menschen ermoeglicht sich durchdacht mit KI-Technologien in ihrem persoenlichen und beruflichen Leben zu beschaeftigen.",
-          nl: "AI geletterdheid betekent de kennis en vaardigheden hebben om AI capaciteiten, beperkingen en implicaties te begrijpen, waardoor mensen weloverwogen kunnen omgaan met AI technologieën in hun persoonlijke en professionele leven."
-        }
-      },
-      {
-        question: {
-          en: "What is the significance of 'consent' in AI data use?",
-          es: "Cual es la importancia del 'consentimiento' en el uso de datos de IA?",
-          de: "Was ist die Bedeutung von 'Einwilligung' bei der KI-Datennutzung?",
-          nl: "Wat is het belang van 'toestemming' bij AI data gebruik?"
-        },
-        options: [
-          { en: "Control over personal data use", es: "Control sobre uso de datos personales", de: "Kontrolle ueber persoenliche Datennutzung", nl: "Controle over gebruik persoonlijke data" },
-          { en: "AI systems should agree with each other", es: "Los sistemas de IA deberian estar de acuerdo entre si", de: "KI-Systeme sollten miteinander uebereinstimmen", nl: "AI systemen zouden het met elkaar eens moeten zijn" },
-          { en: "All data should be public by default", es: "Todos los datos deberian ser publicos por defecto", de: "Alle Daten sollten standardmaessig oeffentlich sein", nl: "Alle data zou standaard openbaar moeten zijn" },
-          { en: "Consent is only needed for government data", es: "El consentimiento solo se necesita para datos gubernamentales", de: "Einwilligung wird nur fuer Regierungsdaten benoetigt", nl: "Toestemming is alleen nodig voor overheidsdata" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Consent ensures individuals have autonomy over their personal information and can make informed decisions about how their data is collected, used, and shared by AI systems.",
-          es: "El consentimiento asegura que los individuos tengan autonomia sobre su informacion personal y puedan tomar decisiones informadas sobre como sus datos son recolectados, usados y compartidos por sistemas de IA.",
-          de: "Einwilligung stellt sicher dass Individuen Autonomie ueber ihre persoenlichen Informationen haben und informierte Entscheidungen darueber treffen koennen wie ihre Daten von KI-Systemen gesammelt, verwendet und geteilt werden.",
-          nl: "Toestemming zorgt ervoor dat individuen autonomie hebben over hun persoonlijke informatie en geïnformeerde beslissingen kunnen nemen over hoe hun data verzameld, gebruikt en gedeeld wordt door AI systemen."
-        }
-      },
-      {
-        question: {
-          en: "What makes AI decision-making 'interpretable'?",
-          es: "Que hace que la toma de decisiones de IA sea 'interpretable'?",
-          de: "Was macht KI-Entscheidungsfindung 'interpretierbar'?",
-          nl: "Wat maakt AI besluitvorming 'interpreteerbaar'?"
-        },
-        options: [
-          { en: "Understanding AI reasoning", es: "Entender razonamiento detras de decisiones IA", de: "Begruendung hinter KI-Entscheidungen verstehen", nl: "Redenering achter AI beslissingen begrijpen" },
-          { en: "When AI speaks multiple languages", es: "Cuando la IA habla multiples idiomas", de: "Wenn KI mehrere Sprachen spricht", nl: "Wanneer AI meerdere talen spreekt" },
-          { en: "When AI decisions are translated to different languages", es: "Cuando las decisiones de IA se traducen a diferentes idiomas", de: "Wenn KI-Entscheidungen in verschiedene Sprachen uebersetzt werden", nl: "Wanneer AI beslissingen vertaald worden naar verschillende talen" },
-          { en: "When AI uses simple mathematics only", es: "Cuando la IA usa solo matematicas simples", de: "Wenn KI nur einfache Mathematik verwendet", nl: "Wanneer AI alleen eenvoudige wiskunde gebruikt" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Interpretable AI means the decision-making process can be understood and explained in human terms, allowing people to comprehend why specific decisions were made and build appropriate trust.",
-          es: "IA interpretable significa que el proceso de toma de decisiones puede ser entendido y explicado en terminos humanos, permitiendo a las personas comprender por que se tomaron decisiones especificas y construir confianza apropiada.",
-          de: "Interpretierbare KI bedeutet dass der Entscheidungsprozess in menschlichen Begriffen verstanden und erklaert werden kann, was Menschen ermoeglicht zu verstehen warum spezifische Entscheidungen getroffen wurden und angemessenes Vertrauen aufzubauen.",
-          nl: "Interpreteerbare AI betekent dat het besluitvormingsproces begrepen en uitgelegd kan worden in menselijke termen, waardoor mensen kunnen begrijpen waarom specifieke beslissingen genomen werden en passend vertrouwen kunnen opbouwen."
-        }
-      },
-      {
-        question: {
-          en: "Why is diversity important in AI development teams?",
-          es: "Por que es importante la diversidad en equipos de desarrollo de IA?",
-          de: "Warum ist Vielfalt in KI-Entwicklungsteams wichtig?",
-          nl: "Waarom is diversiteit belangrijk in AI ontwikkelingsteams?"
-        },
-        options: [
-          { en: "Diverse perspectives prevent bias", es: "Perspectivas diversas ayudan prevenir sesgo IA", de: "Diverse Perspektiven helfen KI-Verzerrung verhindern", nl: "Diverse perspectieven helpen AI bias voorkomen" },
-          { en: "Teams work faster with more people", es: "Los equipos trabajan mas rapido con mas personas", de: "Teams arbeiten schneller mit mehr Personen", nl: "Teams werken sneller met meer mensen" },
-          { en: "Diverse teams cost less money", es: "Equipos diversos cuestan menos dinero", de: "Diverse Teams kosten weniger Geld", nl: "Diverse teams kosten minder geld" },
-          { en: "AI systems require different programming languages", es: "Los sistemas de IA requieren diferentes lenguajes de programacion", de: "KI-Systeme erfordern verschiedene Programmiersprachen", nl: "AI systemen vereisen verschillende programmeertalen" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Diverse development teams bring varied experiences and perspectives that help identify potential biases, consider different use cases, and create more inclusive and fair AI systems for all users.",
-          es: "Equipos de desarrollo diversos aportan experiencias y perspectivas variadas que ayudan a identificar sesgos potenciales, considerar diferentes casos de uso y crear sistemas de IA mas inclusivos y justos para todos los usuarios.",
-          de: "Diverse Entwicklungsteams bringen verschiedene Erfahrungen und Perspektiven mit die helfen potentielle Verzerrungen zu identifizieren, verschiedene Anwendungsfaelle zu betrachten und inklusivere und fairere KI-Systeme fuer alle Nutzer zu schaffen.",
-          nl: "Diverse ontwikkelingsteams brengen gevarieerde ervaringen en perspectieven mee die helpen potentiele vooroordelen te identificeren, verschillende use cases te overwegen en meer inclusieve en eerlijke AI systemen te creëren voor alle gebruikers."
-        }
-      },
-      {
-        question: {
-          en: "What does 'responsible AI deployment' mean?",
-          es: "Que significa 'implementacion responsable de IA'?",
-          de: "Was bedeutet 'verantwortlicher KI-Einsatz'?",
-          nl: "Wat betekent 'verantwoordelijke AI inzet'?"
-        },
-        options: [
-          { en: "Test & monitor AI pre & post release", es: "Probar y monitorear IA antes y despues lanzamiento", de: "KI vor und nach Veroeffentlichung testen/ueberwachen", nl: "AI testen en monitoren voor en na uitrol" },
-          { en: "Releasing AI as quickly as possible", es: "Lanzar IA lo mas rapido posible", de: "KI so schnell wie moeglich veroeffentlichen", nl: "AI zo snel mogelijk uitbrengen" },
-          { en: "Using AI only by trained professionals", es: "Usar IA solo por profesionales entrenados", de: "KI nur von ausgebildeten Fachkraeften verwenden", nl: "AI alleen door getrainde professionals gebruiken" },
-          { en: "Making AI systems as complex as possible", es: "Hacer sistemas de IA lo mas complejos posible", de: "KI-Systeme so komplex wie moeglich machen", nl: "AI systemen zo complex mogelijk maken" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Responsible AI deployment involves thorough testing, gradual rollouts, continuous monitoring, and having safeguards in place to identify and address potential issues or unintended consequences.",
-          es: "La implementacion responsable de IA involucra pruebas exhaustivas, lanzamientos graduales, monitoreo continuo y tener salvaguardas en su lugar para identificar y abordar problemas potenciales o consecuencias no intencionadas.",
-          de: "Verantwortlicher KI-Einsatz beinhaltet gruendliche Tests, schrittweise Einfuehrungen, kontinuierliche Ueberwachung und Sicherheitsvorkehrungen um potentielle Probleme oder unbeabsichtigte Konsequenzen zu identifizieren und anzugehen.",
-          nl: "Verantwoordelijke AI inzet houdt grondige tests, geleidelijke uitrol, continue monitoring en waarborgen in om potentiele problemen of onbedoelde gevolgen te identificeren en aan te pakken."
-        }
-      },
-      {
-        question: {
-          en: "What is privacy in the context of AI?",
-          es: "Que es la privacidad en el contexto de la IA?",
-          de: "Was ist Privatsphaere im Kontext von KI?",
-          nl: "Wat is privacy in de context van AI?"
-        },
-        options: [
-          { en: "Protecting personal info from misuse", es: "Proteger informacion personal de mal uso", de: "Persoenliche Informationen vor Missbrauch schuetzen", nl: "Persoonlijke info beschermen tegen misbruik" },
-          { en: "Keeping AI algorithms secret", es: "Mantener secretos los algoritmos de IA", de: "KI-Algorithmen geheim halten", nl: "AI algoritmes geheim houden" },
-          { en: "Using AI only in private buildings", es: "Usar IA solo en edificios privados", de: "KI nur in privaten Gebaeuden verwenden", nl: "AI alleen in prive gebouwen gebruiken" },
-          { en: "Making AI invisible to users", es: "Hacer IA invisible para usuarios", de: "KI fuer Benutzer unsichtbar machen", nl: "AI onzichtbaar maken voor gebruikers" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Privacy in AI means protecting personal data from unauthorized collection, use, or disclosure, ensuring individuals maintain control over their information.",
-          es: "Privacidad en IA significa proteger datos personales de recoleccion, uso o divulgacion no autorizados, asegurando que individuos mantengan control sobre su informacion.",
-          de: "Privatsphaere in KI bedeutet persoenliche Daten vor unbefugter Sammlung, Nutzung oder Offenlegung zu schuetzen und sicherzustellen dass Individuen Kontrolle ueber ihre Informationen behalten.",
-          nl: "Privacy in AI betekent persoonlijke data beschermen tegen ongeautoriseerde verzameling, gebruik of openbaarmaking, zorgen dat individuen controle behouden over hun informatie."
-        }
-      },
-      {
-        question: {
-          en: "What is fairness in AI?",
-          es: "Que es la equidad en IA?",
-          de: "Was ist Fairness in KI?",
-          nl: "Wat is eerlijkheid in AI?"
-        },
-        options: [
-          { en: "Treating all groups equally without bias", es: "Tratar todos grupos igualmente sin sesgo", de: "Alle Gruppen gleich ohne Verzerrung behandeln", nl: "Alle groepen gelijk behandelen zonder vooroordeel" },
-          { en: "Giving everyone the same AI hardware", es: "Dar a todos el mismo hardware de IA", de: "Allen die gleiche KI-Hardware geben", nl: "Iedereen dezelfde AI hardware geven" },
-          { en: "AI systems that cost the same price", es: "Sistemas IA que cuestan el mismo precio", de: "KI-Systeme die gleich viel kosten", nl: "AI systemen die dezelfde prijs kosten" },
-          { en: "Making sure all AI runs at same speed", es: "Asegurar que toda IA funcione a misma velocidad", de: "Sicherstellen dass alle KI gleich schnell laeuft", nl: "Ervoor zorgen dat alle AI met dezelfde snelheid werkt" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Fairness in AI means systems should treat all individuals and groups equitably, without discrimination based on sensitive attributes like race, gender, or age.",
-          es: "Equidad en IA significa que sistemas deben tratar todos individuos y grupos equitativamente, sin discriminacion basada en atributos sensibles como raza, genero o edad.",
-          de: "Fairness in KI bedeutet dass Systeme alle Individuen und Gruppen gerecht behandeln sollten, ohne Diskriminierung basierend auf sensiblen Attributen wie Rasse, Geschlecht oder Alter.",
-          nl: "Eerlijkheid in AI betekent dat systemen alle individuen en groepen rechtvaardig moeten behandelen, zonder discriminatie op basis van gevoelige kenmerken zoals ras, geslacht of leeftijd."
-        }
-      },
-      {
-        question: {
-          en: "What is explainability in AI?",
-          es: "Que es la explicabilidad en IA?",
-          de: "Was ist Erklaerbarkeit in KI?",
-          nl: "Wat is verklaarbaarheid in AI?"
-        },
-        options: [
-          { en: "Ability to explain how AI reached decisions", es: "Capacidad de explicar como IA llego a decisiones", de: "Faehigkeit zu erklaeren wie KI Entscheidungen traf", nl: "Vermogen om uit te leggen hoe AI beslissingen nam" },
-          { en: "AI that can speak clearly", es: "IA que puede hablar claramente", de: "KI die klar sprechen kann", nl: "AI die duidelijk kan spreken" },
-          { en: "Writing documentation for AI code", es: "Escribir documentacion para codigo IA", de: "Dokumentation fuer KI-Code schreiben", nl: "Documentatie schrijven voor AI code" },
-          { en: "Teaching AI to explain things to users", es: "Ensenar a IA explicar cosas a usuarios", de: "KI beibringen Dinge Benutzern zu erklaeren", nl: "AI leren dingen uit te leggen aan gebruikers" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Explainability means being able to understand and describe in human terms how an AI system arrived at a particular decision or prediction.",
-          es: "Explicabilidad significa poder entender y describir en terminos humanos como un sistema IA llego a una decision o prediccion particular.",
-          de: "Erklaerbarkeit bedeutet in menschlichen Begriffen verstehen und beschreiben zu koennen wie ein KI-System zu einer bestimmten Entscheidung oder Vorhersage kam.",
-          nl: "Verklaarbaarheid betekent kunnen begrijpen en beschrijven in menselijke termen hoe een AI systeem tot een bepaalde beslissing of voorspelling kwam."
-        }
-      },
-      {
-        question: {
-          en: "What is a concern with AI in criminal justice?",
-          es: "Cual es una preocupacion con IA en justicia penal?",
-          de: "Was ist eine Sorge bei KI in Strafjustiz?",
-          nl: "Wat is een zorg met AI in strafrecht?"
-        },
-        options: [
-          { en: "Bias may unfairly impact sentencing", es: "Sesgo puede impactar injustamente sentencias", de: "Verzerrung kann Strafmass unfair beeinflussen", nl: "Vooroordeel kan straffen oneerlijk beïnvloeden" },
-          { en: "AI is too expensive for courts", es: "IA es demasiado cara para tribunales", de: "KI ist zu teuer fuer Gerichte", nl: "AI is te duur voor rechtbanken" },
-          { en: "Criminals can hack AI systems", es: "Criminales pueden hackear sistemas IA", de: "Kriminelle koennen KI-Systeme hacken", nl: "Criminelen kunnen AI systemen hacken" },
-          { en: "AI makes court proceedings too fast", es: "IA hace procedimientos judiciales demasiado rapidos", de: "KI macht Gerichtsverfahren zu schnell", nl: "AI maakt rechtszaken te snel" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "AI used in criminal justice (like risk assessment tools) can perpetuate historical biases, potentially leading to unfair treatment of certain demographic groups.",
-          es: "IA usada en justicia penal (como herramientas evaluacion riesgo) puede perpetuar sesgos historicos, potencialmente llevando a trato injusto de ciertos grupos demograficos.",
-          de: "KI in Strafjustiz (wie Risikobewertungstools) kann historische Verzerrungen fortsetzen, was potentiell zu unfairer Behandlung bestimmter demografischer Gruppen fuehrt.",
-          nl: "AI gebruikt in strafrecht (zoals risico beoordelingstools) kan historische vooroordelen bestendigen, mogelijk leidend tot oneerlijke behandeling van bepaalde demografische groepen."
-        }
-      },
-      {
-        question: {
-          en: "Why should AI systems have human oversight?",
-          es: "Por que sistemas IA deberian tener supervision humana?",
-          de: "Warum sollten KI-Systeme menschliche Aufsicht haben?",
-          nl: "Waarom moeten AI systemen menselijk toezicht hebben?"
-        },
-        options: [
-          { en: "Prevent errors & ensure accountability", es: "Prevenir errores y asegurar responsabilidad", de: "Fehler verhindern und Verantwortlichkeit sichern", nl: "Fouten voorkomen en verantwoording waarborgen" },
-          { en: "Humans work slower than AI", es: "Humanos trabajan mas lento que IA", de: "Menschen arbeiten langsamer als KI", nl: "Mensen werken langzamer dan AI" },
-          { en: "AI needs constant supervision to function", es: "IA necesita supervision constante para funcionar", de: "KI braucht staendige Aufsicht um zu funktionieren", nl: "AI heeft constant toezicht nodig om te werken" },
-          { en: "Humans understand technology better than AI", es: "Humanos entienden tecnologia mejor que IA", de: "Menschen verstehen Technologie besser als KI", nl: "Mensen begrijpen technologie beter dan AI" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Human oversight helps catch AI errors, ensures decisions align with ethical values, and maintains accountability, especially for high-stakes decisions affecting people's lives.",
-          es: "Supervision humana ayuda detectar errores IA, asegura decisiones alineen con valores eticos y mantiene responsabilidad, especialmente para decisiones importantes que afectan vidas.",
-          de: "Menschliche Aufsicht hilft KI-Fehler zu erkennen, stellt sicher dass Entscheidungen mit ethischen Werten uebereinstimmen und erhaelt Verantwortlichkeit, besonders fuer wichtige Entscheidungen die Leben beeinflussen.",
-          nl: "Menselijk toezicht helpt AI fouten opvangen, zorgt dat beslissingen aansluiten bij ethische waarden en handhaaft verantwoording, vooral voor belangrijke beslissingen die levens beïnvloeden."
-        }
-      },
-      {
-        question: {
-          en: "What is informed consent in AI?",
-          es: "Que es el consentimiento informado en IA?",
-          de: "Was ist informierte Einwilligung in KI?",
-          nl: "Wat is geïnformeerde toestemming in AI?"
-        },
-        options: [
-          { en: "Users understand data use before agreeing", es: "Usuarios entienden uso datos antes de aceptar", de: "Benutzer verstehen Datennutzung vor Zustimmung", nl: "Gebruikers begrijpen data gebruik voor akkoord" },
-          { en: "AI systems inform each other automatically", es: "Sistemas IA se informan automaticamente", de: "KI-Systeme informieren sich automatisch", nl: "AI systemen informeren elkaar automatisch" },
-          { en: "Consent forms must be digital", es: "Formularios consentimiento deben ser digitales", de: "Einwilligungsformulare muessen digital sein", nl: "Toestemmingsformulieren moeten digitaal zijn" },
-          { en: "Only experts can give consent for AI use", es: "Solo expertos pueden dar consentimiento para uso IA", de: "Nur Experten koennen Einwilligung fuer KI-Nutzung geben", nl: "Alleen experts kunnen toestemming geven voor AI gebruik" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Informed consent means people should understand what data is being collected, how it will be used by AI, and potential consequences before agreeing to participate.",
-          es: "Consentimiento informado significa que personas deben entender que datos se recopilan, como seran usados por IA y consecuencias potenciales antes de aceptar participar.",
-          de: "Informierte Einwilligung bedeutet dass Menschen verstehen sollten welche Daten gesammelt werden, wie sie von KI verwendet werden und potentielle Konsequenzen bevor sie zustimmen teilzunehmen.",
-          nl: "Geïnformeerde toestemming betekent dat mensen moeten begrijpen welke data verzameld wordt, hoe het door AI gebruikt wordt en potentiele gevolgen voordat ze akkoord gaan met deelname."
-        }
-      },
-      {
-        question: {
-          en: "What does 'AI for good' mean?",
-          es: "Que significa 'IA para el bien'?",
-          de: "Was bedeutet 'KI fuer das Gute'?",
-          nl: "Wat betekent 'AI voor het goede'?"
-        },
-        options: [
-          { en: "Using AI to solve social & environmental problems", es: "Usar IA para resolver problemas sociales y ambientales", de: "KI nutzen um soziale und Umweltprobleme zu loesen", nl: "AI gebruiken om sociale en milieuproblemen op te lossen" },
-          { en: "AI that never makes mistakes", es: "IA que nunca comete errores", de: "KI die nie Fehler macht", nl: "AI die nooit fouten maakt" },
-          { en: "AI that is morally perfect", es: "IA que es moralmente perfecta", de: "KI die moralisch perfekt ist", nl: "AI die moreel perfect is" },
-          { en: "Using only ethical algorithms", es: "Usar solo algoritmos eticos", de: "Nur ethische Algorithmen verwenden", nl: "Alleen ethische algoritmes gebruiken" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "AI for good refers to applying AI technologies to address important challenges like healthcare, education, climate change, and poverty to benefit society.",
-          es: "IA para el bien se refiere a aplicar tecnologias IA para abordar desafios importantes como salud, educacion, cambio climatico y pobreza para beneficiar sociedad.",
-          de: "KI fuer das Gute bezieht sich auf Anwendung von KI-Technologien um wichtige Herausforderungen wie Gesundheit, Bildung, Klimawandel und Armut anzugehen um Gesellschaft zu nutzen.",
-          nl: "AI voor het goede verwijst naar het toepassen van AI technologieën om belangrijke uitdagingen zoals gezondheidszorg, onderwijs, klimaatverandering en armoede aan te pakken ten behoeve van de samenleving."
-        }
-      },
-      {
-        question: {
-          en: "What is algorithmic discrimination?",
-          es: "Que es la discriminacion algoritmica?",
-          de: "Was ist algorithmische Diskriminierung?",
-          nl: "Wat is algoritmische discriminatie?"
-        },
-        options: [
-          { en: "AI unfairly treats groups differently", es: "IA trata injustamente grupos de forma diferente", de: "KI behandelt Gruppen unfair unterschiedlich", nl: "AI behandelt groepen oneerlijk verschillend" },
-          { en: "Algorithms that select data carefully", es: "Algoritmos que seleccionan datos cuidadosamente", de: "Algorithmen die Daten sorgfaeltig auswaehlen", nl: "Algoritmes die data zorgvuldig selecteren" },
-          { en: "AI that can distinguish between objects", es: "IA que puede distinguir entre objetos", de: "KI die zwischen Objekten unterscheiden kann", nl: "AI die tussen objecten kan onderscheiden" },
-          { en: "Different AI algorithms competing", es: "Diferentes algoritmos IA compitiendo", de: "Verschiedene KI-Algorithmen konkurrieren", nl: "Verschillende AI algoritmes concurreren" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Algorithmic discrimination occurs when AI systems systematically disadvantage certain groups of people based on characteristics like race, gender, age, or socioeconomic status.",
-          es: "Discriminacion algoritmica ocurre cuando sistemas IA sistematicamente desfavorecen ciertos grupos personas basado en caracteristicas como raza, genero, edad o estatus socioeconomico.",
-          de: "Algorithmische Diskriminierung tritt auf wenn KI-Systeme systematisch bestimmte Personengruppen aufgrund von Merkmalen wie Rasse, Geschlecht, Alter oder sozioekonomischem Status benachteiligen.",
-          nl: "Algoritmische discriminatie treedt op wanneer AI systemen systematisch bepaalde groepen mensen benadelen op basis van kenmerken zoals ras, geslacht, leeftijd of sociaaleconomische status."
-        }
-      },
-      {
-        question: {
-          en: "What is the right to explanation in AI?",
-          es: "Que es el derecho a explicacion en IA?",
-          de: "Was ist das Recht auf Erklaerung in KI?",
-          nl: "Wat is het recht op uitleg in AI?"
-        },
-        options: [
-          { en: "Understanding why AI made a decision about you", es: "Entender por que IA tomo decision sobre ti", de: "Verstehen warum KI Entscheidung ueber Sie traf", nl: "Begrijpen waarom AI een beslissing over jou nam" },
-          { en: "AI must explain all its code", es: "IA debe explicar todo su codigo", de: "KI muss ihren gesamten Code erklaeren", nl: "AI moet al zijn code uitleggen" },
-          { en: "Users can explain AI to others", es: "Usuarios pueden explicar IA a otros", de: "Benutzer koennen KI anderen erklaeren", nl: "Gebruikers kunnen AI aan anderen uitleggen" },
-          { en: "Right to receive AI training materials", es: "Derecho a recibir materiales entrenamiento IA", de: "Recht auf KI-Trainingsmaterialien", nl: "Recht op AI trainingsmaterialen" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The right to explanation means individuals should be able to receive meaningful information about the logic behind automated decisions that significantly affect them.",
-          es: "El derecho a explicacion significa que individuos deberian poder recibir informacion significativa sobre la logica detras de decisiones automatizadas que les afectan significativamente.",
-          de: "Das Recht auf Erklaerung bedeutet dass Individuen bedeutungsvolle Informationen ueber die Logik hinter automatisierten Entscheidungen erhalten koennen sollten die sie erheblich betreffen.",
-          nl: "Het recht op uitleg betekent dat individuen betekenisvolle informatie moeten kunnen ontvangen over de logica achter geautomatiseerde beslissingen die hen aanzienlijk beïnvloeden."
-        }
-      },
-      {
-        question: {
-          en: "What are ethical guidelines for AI?",
-          es: "Que son las directrices eticas para IA?",
-          de: "Was sind ethische Richtlinien fuer KI?",
-          nl: "Wat zijn ethische richtlijnen voor AI?"
-        },
-        options: [
-          { en: "Principles to ensure responsible AI development", es: "Principios para asegurar desarrollo responsable IA", de: "Prinzipien um verantwortliche KI-Entwicklung sicherzustellen", nl: "Principes om verantwoordelijke AI ontwikkeling te waarborgen" },
-          { en: "Rules about AI electricity usage", es: "Reglas sobre uso electricidad IA", de: "Regeln ueber KI-Stromverbrauch", nl: "Regels over AI elektriciteitsgebruik" },
-          { en: "Guidelines for AI programming languages", es: "Directrices para lenguajes programacion IA", de: "Richtlinien fuer KI-Programmiersprachen", nl: "Richtlijnen voor AI programmeertalen" },
-          { en: "Instructions for installing AI software", es: "Instrucciones para instalar software IA", de: "Anweisungen zur Installation von KI-Software", nl: "Instructies voor installeren AI software" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Ethical guidelines are principles and best practices designed to guide AI developers and users toward creating and deploying AI systems that are safe, fair, and beneficial.",
-          es: "Directrices eticas son principios y mejores practicas disenadas para guiar desarrolladores y usuarios IA hacia crear e implementar sistemas IA seguros, justos y beneficiosos.",
-          de: "Ethische Richtlinien sind Prinzipien und Best Practices die KI-Entwickler und Nutzer anleiten sollen sichere, faire und vorteilhafte KI-Systeme zu erstellen und einzusetzen.",
-          nl: "Ethische richtlijnen zijn principes en best practices ontworpen om AI ontwikkelaars en gebruikers te leiden naar het creëren en inzetten van AI systemen die veilig, eerlijk en voordelig zijn."
-        }
-      },
-      {
-        question: {
-          en: "What is digital rights in the context of AI?",
-          es: "Que son los derechos digitales en contexto de IA?",
-          de: "Was sind digitale Rechte im Kontext von KI?",
-          nl: "Wat zijn digitale rechten in de context van AI?"
-        },
-        options: [
-          { en: "Protection of personal freedoms in digital age", es: "Proteccion libertades personales en era digital", de: "Schutz persoenlicher Freiheiten im digitalen Zeitalter", nl: "Bescherming persoonlijke vrijheden in digitaal tijdperk" },
-          { en: "Right to own digital devices", es: "Derecho a poseer dispositivos digitales", de: "Recht digitale Geraete zu besitzen", nl: "Recht op digitale apparaten bezitten" },
-          { en: "Copyright for digital content only", es: "Derechos autor solo contenido digital", de: "Urheberrecht nur fuer digitale Inhalte", nl: "Auteursrecht alleen voor digitale content" },
-          { en: "Permission to use the internet", es: "Permiso para usar internet", de: "Erlaubnis das Internet zu nutzen", nl: "Toestemming om internet te gebruiken" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Digital rights include privacy, freedom of expression, access to information, and protection from discrimination in the digital and AI-driven world.",
-          es: "Derechos digitales incluyen privacidad, libertad expresion, acceso informacion y proteccion contra discriminacion en mundo digital e impulsado por IA.",
-          de: "Digitale Rechte umfassen Privatsphaere, Meinungsfreiheit, Informationszugang und Schutz vor Diskriminierung in der digitalen und KI-getriebenen Welt.",
-          nl: "Digitale rechten omvatten privacy, vrijheid van meningsuiting, toegang tot informatie en bescherming tegen discriminatie in de digitale en AI-gedreven wereld."
-        }
-      },
-      {
-        question: {
-          en: "What is a major concern about facial recognition AI?",
-          es: "Cual es una preocupacion mayor sobre IA reconocimiento facial?",
-          de: "Was ist eine grosse Sorge bezueglich Gesichtserkennungs-KI?",
-          nl: "Wat is een grote zorg over gezichtsherkenning AI?"
-        },
-        options: [
-          { en: "Privacy invasion & potential misuse", es: "Invasion privacidad y potencial mal uso", de: "Privatsphaerenverletzung und potentieller Missbrauch", nl: "Privacy invasie en mogelijk misbruik" },
-          { en: "It works too slowly", es: "Funciona demasiado lento", de: "Es funktioniert zu langsam", nl: "Het werkt te langzaam" },
-          { en: "It only recognizes certain face shapes", es: "Solo reconoce ciertas formas cara", de: "Es erkennt nur bestimmte Gesichtsformen", nl: "Het herkent alleen bepaalde gezichtsvormen" },
-          { en: "Cameras are too expensive", es: "Camaras son demasiado caras", de: "Kameras sind zu teuer", nl: "Camera's zijn te duur" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Facial recognition raises serious privacy concerns including mass surveillance, tracking without consent, and potential for authoritarian misuse or discrimination.",
-          es: "Reconocimiento facial plantea serias preocupaciones privacidad incluyendo vigilancia masiva, rastreo sin consentimiento y potencial para mal uso autoritario o discriminacion.",
-          de: "Gesichtserkennung wirft ernste Privatsphaerebedenken auf einschliesslich Massenueberwachung, Tracking ohne Zustimmung und Potenzial fuer autoritaeren Missbrauch oder Diskriminierung.",
-          nl: "Gezichtsherkenning roept ernstige privacyzorgen op inclusief massasurveillance, volgen zonder toestemming en potentieel voor autoritair misbruik of discriminatie."
-        }
-      },
-      {
-        question: {
-          en: "What does 'value alignment' mean in AI ethics?",
-          es: "Que significa 'alineacion de valores' en etica IA?",
-          de: "Was bedeutet 'Wertausrichtung' in KI-Ethik?",
-          nl: "Wat betekent 'waarde afstemming' in AI ethiek?"
-        },
-        options: [
-          { en: "AI goals match human values & interests", es: "Objetivos IA coinciden valores e intereses humanos", de: "KI-Ziele mit menschlichen Werten und Interessen uebereinstimmen", nl: "AI doelen komen overeen met menselijke waarden en belangen" },
-          { en: "All AI systems cost the same amount", es: "Todos sistemas IA cuestan misma cantidad", de: "Alle KI-Systeme kosten gleich viel", nl: "Alle AI systemen kosten hetzelfde bedrag" },
-          { en: "Aligning computer code properly", es: "Alinear codigo computadora correctamente", de: "Computercode richtig ausrichten", nl: "Computercode correct uitlijnen" },
-          { en: "AI that shares the same programming language", es: "IA que comparte mismo lenguaje programacion", de: "KI die gleiche Programmiersprache teilt", nl: "AI die dezelfde programmeertaal deelt" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Value alignment ensures AI systems pursue goals and outcomes that reflect human values, ethics, and societal priorities rather than potentially harmful objectives.",
-          es: "Alineacion valores asegura que sistemas IA persigan objetivos y resultados que reflejen valores humanos, etica y prioridades sociales en lugar de objetivos potencialmente daninos.",
-          de: "Wertausrichtung stellt sicher dass KI-Systeme Ziele und Ergebnisse verfolgen die menschliche Werte, Ethik und gesellschaftliche Prioritaeten widerspiegeln statt potentiell schaedlicher Ziele.",
-          nl: "Waarde afstemming zorgt ervoor dat AI systemen doelen en resultaten nastreven die menselijke waarden, ethiek en maatschappelijke prioriteiten weerspiegelen in plaats van potentieel schadelijke doelstellingen."
-        }
-      },
-      {
-        question: {
-          en: "What is an AI ethics committee?",
-          es: "Que es un comite de etica IA?",
-          de: "Was ist ein KI-Ethikkomitee?",
-          nl: "Wat is een AI ethiek commissie?"
-        },
-        options: [
-          { en: "Group overseeing ethical AI development & use", es: "Grupo supervisando desarrollo y uso etico IA", de: "Gruppe die ethische KI-Entwicklung und Nutzung beaufsichtigt", nl: "Groep die ethische AI ontwikkeling en gebruik overziet" },
-          { en: "Committee that builds AI systems", es: "Comite que construye sistemas IA", de: "Komitee das KI-Systeme baut", nl: "Commissie die AI systemen bouwt" },
-          { en: "Group that tests AI speed", es: "Grupo que prueba velocidad IA", de: "Gruppe die KI-Geschwindigkeit testet", nl: "Groep die AI snelheid test" },
-          { en: "Experts who sell AI products", es: "Expertos que venden productos IA", de: "Experten die KI-Produkte verkaufen", nl: "Experts die AI producten verkopen" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "An AI ethics committee is a diverse group of experts who review AI projects to ensure they align with ethical principles, identify potential harms, and recommend safeguards.",
-          es: "Un comite etica IA es grupo diverso expertos que revisan proyectos IA para asegurar alineen con principios eticos, identificar danos potenciales y recomendar salvaguardas.",
-          de: "Ein KI-Ethikkomitee ist eine diverse Gruppe von Experten die KI-Projekte ueberpruefen um sicherzustellen dass sie mit ethischen Prinzipien uebereinstimmen, potentielle Schaeden identifizieren und Sicherheitsmassnahmen empfehlen.",
-          nl: "Een AI ethiek commissie is een diverse groep experts die AI projecten beoordelen om te waarborgen dat ze aansluiten bij ethische principes, potentiele schade identificeren en waarborgen aanbevelen."
-        }
-      },
-      {
-        question: {
-          en: "What does 'AI transparency' include?",
-          es: "Que incluye la 'transparencia IA'?",
-          de: "Was beinhaltet 'KI-Transparenz'?",
-          nl: "Wat omvat 'AI transparantie'?"
-        },
-        options: [
-          { en: "Clear info about AI capabilities & limitations", es: "Info clara sobre capacidades y limitaciones IA", de: "Klare Informationen ueber KI-Faehigkeiten und Einschraenkungen", nl: "Duidelijke info over AI capaciteiten en beperkingen" },
-          { en: "Making all AI code open source", es: "Hacer todo codigo IA codigo abierto", de: "Allen KI-Code open source machen", nl: "Alle AI code open source maken" },
-          { en: "Using glass computer cases", es: "Usar cajas computadora vidrio", de: "Glas-Computergehaeuse verwenden", nl: "Glazen computerbehuizingen gebruiken" },
-          { en: "AI that works in the cloud only", es: "IA que funciona solo en nube", de: "KI die nur in Cloud funktioniert", nl: "AI die alleen in cloud werkt" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "AI transparency means providing clear information about what an AI system does, how it works, its limitations, and potential impacts, enabling informed decision-making.",
-          es: "Transparencia IA significa proporcionar informacion clara sobre que hace sistema IA, como funciona, limitaciones e impactos potenciales, permitiendo toma decisiones informada.",
-          de: "KI-Transparenz bedeutet klare Informationen darueber bereitzustellen was ein KI-System tut, wie es funktioniert, seine Einschraenkungen und potentiellen Auswirkungen, was informierte Entscheidungsfindung ermoeglicht.",
-          nl: "AI transparantie betekent duidelijke informatie verstrekken over wat een AI systeem doet, hoe het werkt, zijn beperkingen en potentiele impact, wat geïnformeerde besluitvorming mogelijk maakt."
-        }
-      },
-      {
-        question: {
-          en: "What is algorithmic auditing?",
-          es: "Que es la auditoria algoritmica?",
-          de: "Was ist algorithmische Pruefung?",
-          nl: "Wat is algoritmische controle?"
-        },
-        options: [
-          { en: "Testing AI for bias, fairness & accuracy", es: "Probar IA por sesgo, equidad y precision", de: "KI auf Verzerrung, Fairness und Genauigkeit testen", nl: "AI testen op vooroordeel, eerlijkheid en nauwkeurigheid" },
-          { en: "Counting how many algorithms exist", es: "Contar cuantos algoritmos existen", de: "Zaehlen wie viele Algorithmen existieren", nl: "Tellen hoeveel algoritmes bestaan" },
-          { en: "Financial auditing of AI companies", es: "Auditoria financiera empresas IA", de: "Finanzpruefung von KI-Unternehmen", nl: "Financiele controle van AI bedrijven" },
-          { en: "Checking AI processing speed", es: "Verificar velocidad procesamiento IA", de: "KI-Verarbeitungsgeschwindigkeit pruefen", nl: "AI verwerkingssnelheid controleren" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Algorithmic auditing is the systematic examination of AI systems to assess whether they meet standards for fairness, accuracy, transparency, and compliance with regulations.",
-          es: "Auditoria algoritmica es examen sistematico sistemas IA para evaluar si cumplen estandares equidad, precision, transparencia y cumplimiento regulaciones.",
-          de: "Algorithmische Pruefung ist systematische Untersuchung von KI-Systemen um zu bewerten ob sie Standards fuer Fairness, Genauigkeit, Transparenz und Einhaltung von Vorschriften erfuellen.",
-          nl: "Algoritmische controle is de systematische beoordeling van AI systemen om te evalueren of ze voldoen aan normen voor eerlijkheid, nauwkeurigheid, transparantie en naleving van regelgeving."
-        }
-      },
-      {
-        question: {
-          en: "What is the digital divide in AI context?",
-          es: "Que es la brecha digital en contexto IA?",
-          de: "Was ist die digitale Kluft im KI-Kontext?",
-          nl: "Wat is de digitale kloof in AI context?"
-        },
-        options: [
-          { en: "Unequal access to AI technology & benefits", es: "Acceso desigual a tecnologia y beneficios IA", de: "Ungleicher Zugang zu KI-Technologie und Vorteilen", nl: "Ongelijke toegang tot AI technologie en voordelen" },
-          { en: "Separation between analog and digital AI", es: "Separacion entre IA analogica y digital", de: "Trennung zwischen analoger und digitaler KI", nl: "Scheiding tussen analoge en digitale AI" },
-          { en: "Gap in AI processing power", es: "Brecha en poder procesamiento IA", de: "Luecke in KI-Verarbeitungsleistung", nl: "Kloof in AI verwerkingskracht" },
-          { en: "Different AI programming languages", es: "Diferentes lenguajes programacion IA", de: "Verschiedene KI-Programmiersprachen", nl: "Verschillende AI programmeertalen" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The digital divide refers to inequality in access to AI technologies, creating disparities where some groups benefit from AI while others are left behind or disadvantaged.",
-          es: "Brecha digital se refiere a desigualdad en acceso a tecnologias IA, creando disparidades donde algunos grupos benefician de IA mientras otros quedan atras o desfavorecidos.",
-          de: "Die digitale Kluft bezieht sich auf Ungleichheit beim Zugang zu KI-Technologien, was Disparitaeten schafft wo einige Gruppen von KI profitieren waehrend andere zurueckbleiben oder benachteiligt werden.",
-          nl: "De digitale kloof verwijst naar ongelijkheid in toegang tot AI technologieën, wat ongelijkheden creëert waar sommige groepen profiteren van AI terwijl anderen achterblijven of benadeeld worden."
-        }
-      },
-      {
-        question: {
-          en: "Why is cultural sensitivity important in AI?",
-          es: "Por que es importante sensibilidad cultural en IA?",
-          de: "Warum ist kulturelle Sensibilitaet in KI wichtig?",
-          nl: "Waarom is culturele gevoeligheid belangrijk in AI?"
-        },
-        options: [
-          { en: "AI should respect diverse cultural values", es: "IA debe respetar diversos valores culturales", de: "KI sollte diverse kulturelle Werte respektieren", nl: "AI moet diverse culturele waarden respecteren" },
-          { en: "AI needs to learn all languages", es: "IA necesita aprender todos idiomas", de: "KI muss alle Sprachen lernen", nl: "AI moet alle talen leren" },
-          { en: "Different cultures use different computers", es: "Diferentes culturas usan diferentes computadoras", de: "Verschiedene Kulturen nutzen verschiedene Computer", nl: "Verschillende culturen gebruiken verschillende computers" },
-          { en: "Cultural data takes more storage space", es: "Datos culturales requieren mas espacio almacenamiento", de: "Kulturelle Daten benoetigen mehr Speicherplatz", nl: "Culturele data vereist meer opslagruimte" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "AI systems should be designed and trained to respect cultural differences, avoid cultural biases, and work appropriately across diverse cultural contexts and norms.",
-          es: "Sistemas IA deben disenarse y entrenar para respetar diferencias culturales, evitar sesgos culturales y funcionar apropiadamente en diversos contextos y normas culturales.",
-          de: "KI-Systeme sollten entworfen und trainiert werden um kulturelle Unterschiede zu respektieren, kulturelle Verzerrungen zu vermeiden und angemessen in diversen kulturellen Kontexten und Normen zu funktionieren.",
-          nl: "AI systemen moeten ontworpen en getraind worden om culturele verschillen te respecteren, culturele vooroordelen te vermijden en passend te werken in diverse culturele contexten en normen."
-        }
-      },
-      {
-        question: {
-          en: "What is the purpose of AI impact assessments?",
-          es: "Cual es el proposito de evaluaciones impacto IA?",
-          de: "Was ist der Zweck von KI-Folgenabschaetzungen?",
-          nl: "Wat is het doel van AI impact beoordelingen?"
-        },
-        options: [
-          { en: "Evaluate potential risks & benefits before deployment", es: "Evaluar riesgos y beneficios potenciales antes implementacion", de: "Potentielle Risiken und Vorteile vor Einsatz bewerten", nl: "Potentiele risico's en voordelen evalueren voor inzet" },
-          { en: "Measure AI processing speed", es: "Medir velocidad procesamiento IA", de: "KI-Verarbeitungsgeschwindigkeit messen", nl: "AI verwerkingssnelheid meten" },
-          { en: "Calculate AI development costs", es: "Calcular costos desarrollo IA", de: "KI-Entwicklungskosten berechnen", nl: "AI ontwikkelingskosten berekenen" },
-          { en: "Test if AI can make an impact", es: "Probar si IA puede tener impacto", de: "Testen ob KI Auswirkungen haben kann", nl: "Testen of AI impact kan maken" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "AI impact assessments systematically identify and evaluate potential positive and negative consequences of AI systems on individuals, communities, and society before deployment.",
-          es: "Evaluaciones impacto IA identifican y evaluan sistematicamente consecuencias positivas y negativas potenciales de sistemas IA en individuos, comunidades y sociedad antes implementacion.",
-          de: "KI-Folgenabschaetzungen identifizieren und bewerten systematisch potentielle positive und negative Konsequenzen von KI-Systemen auf Individuen, Gemeinschaften und Gesellschaft vor Einsatz.",
-          nl: "AI impact beoordelingen identificeren en evalueren systematisch potentiele positieve en negatieve gevolgen van AI systemen op individuen, gemeenschappen en samenleving voor inzet."
-        }
-      },
-      {
-        question: {
-          en: "What is AI regulation?",
-          es: "Que es la regulacion IA?",
-          de: "Was ist KI-Regulierung?",
-          nl: "Wat is AI regelgeving?"
-        },
-        options: [
-          { en: "Laws & rules governing AI development & use", es: "Leyes y reglas gobernando desarrollo y uso IA", de: "Gesetze und Regeln die KI-Entwicklung und Nutzung regeln", nl: "Wetten en regels die AI ontwikkeling en gebruik regelen" },
-          { en: "Adjusting AI speed settings", es: "Ajustar configuraciones velocidad IA", de: "KI-Geschwindigkeitseinstellungen anpassen", nl: "AI snelheidsinstellingen aanpassen" },
-          { en: "Regular maintenance of AI systems", es: "Mantenimiento regular sistemas IA", de: "Regelmaessige Wartung von KI-Systemen", nl: "Regelmatig onderhoud van AI systemen" },
-          { en: "Making AI work on schedule", es: "Hacer IA funcionar segun calendario", de: "KI nach Zeitplan funktionieren lassen", nl: "AI volgens schema laten werken" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "AI regulation involves government laws, industry standards, and policies that establish requirements and boundaries for responsible AI development, deployment, and use.",
-          es: "Regulacion IA involucra leyes gubernamentales, estandares industria y politicas que establecen requisitos y limites para desarrollo, implementacion y uso responsable IA.",
-          de: "KI-Regulierung beinhaltet Regierungsgesetze, Industriestandards und Richtlinien die Anforderungen und Grenzen fuer verantwortliche KI-Entwicklung, Einsatz und Nutzung festlegen.",
-          nl: "AI regelgeving omvat overheidswetten, industrienormen en beleid die eisen en grenzen vaststellen voor verantwoordelijke AI ontwikkeling, inzet en gebruik."
-        }
+        en: "AI refusing to work",
+        es: "IA negándose a trabajar",
+        de: "KI weigert sich zu arbeiten",
+        nl: "AI die weigert te werken"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level1;
-  } else if (typeof window !== 'undefined') {
-    window.level1 = level1;
+    ],
+    correct: 0,
+    explanation: {
+      en: "AI bias occurs when algorithms make unfair decisions based on patterns in training data that reflect human prejudices.",
+      es: "El sesgo de IA ocurre cuando los algoritmos toman decisiones injustas basadas en patrones en datos de entrenamiento que reflejan prejuicios humanos.",
+      de: "KI-Bias tritt auf, wenn Algorithmen unfaire Entscheidungen auf Basis von Mustern in Trainingsdaten treffen, die menschliche Vorurteile widerspiegeln.",
+      nl: "AI-bias ontstaat wanneer algoritmes oneerlijke beslissingen nemen op basis van patronen in trainingsdata die menselijke vooroordelen weerspiegelen."
+    }
+  },
+  {
+    question: {
+      en: "Why is transparency important in AI systems?",
+      es: "¿Por qué es importante la transparencia en sistemas de IA?",
+      de: "Warum ist Transparenz in KI-Systemen wichtig?",
+      nl: "Waarom is transparantie belangrijk in AI-systemen?"
+    },
+    options: [
+      {
+        en: "To understand how decisions are made",
+        es: "Para entender cómo se toman las decisiones",
+        de: "Um zu verstehen, wie Entscheidungen getroffen werden",
+        nl: "Om te begrijpen hoe beslissingen worden genomen"
+      },
+      {
+        en: "To make AI slower",
+        es: "Para hacer la IA más lenta",
+        de: "Um KI langsamer zu machen",
+        nl: "Om AI langzamer te maken"
+      },
+      {
+        en: "To increase costs",
+        es: "Para aumentar los costos",
+        de: "Um Kosten zu erhöhen",
+        nl: "Om kosten te verhogen"
+      },
+      {
+        en: "To reduce accuracy",
+        es: "Para reducir la precisión",
+        de: "Um Genauigkeit zu reduzieren",
+        nl: "Om nauwkeurigheid te verminderen"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "Transparency in AI helps users understand how decisions are made, enabling trust and accountability in AI systems.",
+      es: "La transparencia en IA ayuda a los usuarios a entender cómo se toman las decisiones, permitiendo confianza y responsabilidad en los sistemas de IA.",
+      de: "Transparenz in KI hilft Benutzern zu verstehen, wie Entscheidungen getroffen werden, was Vertrauen und Verantwortlichkeit ermöglicht.",
+      nl: "Transparantie in AI helpt gebruikers begrijpen hoe beslissingen worden genomen, wat vertrouwen en verantwoordelijkheid mogelijk maakt."
+    }
+  },
+  {
+    question: {
+      en: "What is algorithmic fairness?",
+      es: "¿Qué es la equidad algorítmica?",
+      de: "Was ist algorithmische Fairness?",
+      nl: "Wat is algoritmische eerlijkheid?"
+    },
+    options: [
+      {
+        en: "Treating all groups equally in AI decisions",
+        es: "Tratar a todos los grupos por igual en decisiones de IA",
+        de: "Alle Gruppen gleich in KI-Entscheidungen behandeln",
+        nl: "Alle groepen gelijk behandelen in AI-beslissingen"
+      },
+      {
+        en: "Making AI systems free",
+        es: "Hacer los sistemas de IA gratuitos",
+        de: "KI-Systeme kostenlos machen",
+        nl: "AI-systemen gratis maken"
+      },
+      {
+        en: "Using the fastest algorithms",
+        es: "Usar los algoritmos más rápidos",
+        de: "Die schnellsten Algorithmen verwenden",
+        nl: "De snelste algoritmes gebruiken"
+      },
+      {
+        en: "Copying human behavior exactly",
+        es: "Copiar el comportamiento humano exactamente",
+        de: "Menschliches Verhalten genau kopieren",
+        nl: "Menselijk gedrag exact kopiëren"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "Algorithmic fairness ensures AI systems treat all groups equally and don't discriminate based on sensitive attributes like race or gender.",
+      es: "La equidad algorítmica asegura que los sistemas de IA traten a todos los grupos por igual y no discriminen basándose en atributos sensibles.",
+      de: "Algorithmische Fairness stellt sicher, dass KI-Systeme alle Gruppen gleich behandeln und nicht diskriminieren.",
+      nl: "Algoritmische eerlijkheid zorgt ervoor dat AI-systemen alle groepen gelijk behandelen en niet discrimineren."
+    }
+  },
+  {
+    question: {
+      en: "What is data privacy in AI?",
+      es: "¿Qué es la privacidad de datos en IA?",
+      de: "Was ist Datenschutz in KI?",
+      nl: "Wat is dataprivacy in AI?"
+    },
+    options: [
+      {
+        en: "Protecting personal information used by AI",
+        es: "Proteger información personal usada por IA",
+        de: "Schutz persönlicher Informationen in KI",
+        nl: "Bescherming van persoonlijke informatie gebruikt door AI"
+      },
+      {
+        en: "Hiding AI from users",
+        es: "Ocultar IA de los usuarios",
+        de: "KI vor Benutzern verstecken",
+        nl: "AI verbergen voor gebruikers"
+      },
+      {
+        en: "Making data invisible",
+        es: "Hacer los datos invisibles",
+        de: "Daten unsichtbar machen",
+        nl: "Data onzichtbaar maken"
+      },
+      {
+        en: "Deleting all data",
+        es: "Eliminar todos los datos",
+        de: "Alle Daten löschen",
+        nl: "Alle data verwijderen"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "Data privacy in AI involves protecting personal information and ensuring it's used responsibly and securely in AI systems.",
+      es: "La privacidad de datos en IA involucra proteger información personal y asegurar su uso responsable y seguro en sistemas de IA.",
+      de: "Datenschutz in KI bedeutet den Schutz persönlicher Informationen und deren verantwortungsvolle Nutzung in KI-Systemen.",
+      nl: "Dataprivacy in AI behelst het beschermen van persoonlijke informatie en ervoor zorgen dat deze verantwoord wordt gebruikt."
+    }
+  },
+  {
+    question: {
+      en: "What does AI accountability mean?",
+      es: "¿Qué significa la responsabilidad de IA?",
+      de: "Was bedeutet KI-Verantwortlichkeit?",
+      nl: "Wat betekent AI-verantwoordelijkheid?"
+    },
+    options: [
+      {
+        en: "Being responsible for AI decisions and outcomes",
+        es: "Ser responsable de decisiones y resultados de IA",
+        de: "Verantwortung für KI-Entscheidungen übernehmen",
+        nl: "Verantwoordelijk zijn voor AI-beslissingen en uitkomsten"
+      },
+      {
+        en: "Counting AI systems",
+        es: "Contar sistemas de IA",
+        de: "KI-Systeme zählen",
+        nl: "AI-systemen tellen"
+      },
+      {
+        en: "Making AI expensive",
+        es: "Hacer la IA costosa",
+        de: "KI teuer machen",
+        nl: "AI duur maken"
+      },
+      {
+        en: "Avoiding AI use",
+        es: "Evitar el uso de IA",
+        de: "KI-Nutzung vermeiden",
+        nl: "AI-gebruik vermijden"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "AI accountability means being responsible for the decisions and impacts of AI systems, including their errors and consequences.",
+      es: "La responsabilidad de IA significa ser responsable de las decisiones e impactos de los sistemas de IA, incluyendo errores y consecuencias.",
+      de: "KI-Verantwortlichkeit bedeutet, für Entscheidungen und Auswirkungen von KI-Systemen verantwortlich zu sein.",
+      nl: "AI-verantwoordelijkheid betekent verantwoordelijk zijn voor beslissingen en impact van AI-systemen."
+    }
+  },
+  {
+    question: {
+      en: "Why is informed consent important in AI?",
+      es: "¿Por qué es importante el consentimiento informado en IA?",
+      de: "Warum ist informierte Zustimmung in KI wichtig?",
+      nl: "Waarom is geïnformeerde toestemming belangrijk in AI?"
+    },
+    options: [
+      {
+        en: "Users should know how their data is used",
+        es: "Los usuarios deben saber cómo se usan sus datos",
+        de: "Nutzer sollten wissen, wie ihre Daten verwendet werden",
+        nl: "Gebruikers moeten weten hoe hun data wordt gebruikt"
+      },
+      {
+        en: "To slow down AI development",
+        es: "Para ralentizar el desarrollo de IA",
+        de: "Um KI-Entwicklung zu verlangsamen",
+        nl: "Om AI-ontwikkeling te vertragen"
+      },
+      {
+        en: "To make AI illegal",
+        es: "Para hacer la IA ilegal",
+        de: "Um KI illegal zu machen",
+        nl: "Om AI illegaal te maken"
+      },
+      {
+        en: "To confuse users",
+        es: "Para confundir a los usuarios",
+        de: "Um Nutzer zu verwirren",
+        nl: "Om gebruikers te verwarren"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "Informed consent ensures users understand and agree to how their data will be collected and used by AI systems.",
+      es: "El consentimiento informado asegura que los usuarios entiendan y acepten cómo sus datos serán recolectados y usados por sistemas de IA.",
+      de: "Informierte Zustimmung stellt sicher, dass Nutzer verstehen und zustimmen, wie ihre Daten von KI-Systemen genutzt werden.",
+      nl: "Geïnformeerde toestemming zorgt ervoor dat gebruikers begrijpen en akkoord gaan met hoe hun data wordt gebruikt."
+    }
+  },
+  {
+    question: {
+      en: "What is the digital divide in AI?",
+      es: "¿Qué es la brecha digital en IA?",
+      de: "Was ist die digitale Kluft in KI?",
+      nl: "Wat is de digitale kloof in AI?"
+    },
+    options: [
+      {
+        en: "Unequal access to AI technology",
+        es: "Acceso desigual a la tecnología de IA",
+        de: "Ungleicher Zugang zu KI-Technologie",
+        nl: "Ongelijke toegang tot AI-technologie"
+      },
+      {
+        en: "Dividing numbers digitally",
+        es: "Dividir números digitalmente",
+        de: "Zahlen digital teilen",
+        nl: "Getallen digitaal delen"
+      },
+      {
+        en: "Splitting AI systems",
+        es: "Dividir sistemas de IA",
+        de: "KI-Systeme aufteilen",
+        nl: "AI-systemen splitsen"
+      },
+      {
+        en: "Breaking computers",
+        es: "Romper computadoras",
+        de: "Computer kaputt machen",
+        nl: "Computers kapot maken"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "The digital divide refers to unequal access to AI technology between different groups, creating gaps in opportunities and benefits.",
+      es: "La brecha digital se refiere al acceso desigual a la tecnología de IA entre diferentes grupos, creando brechas en oportunidades.",
+      de: "Die digitale Kluft bezieht sich auf ungleichen Zugang zu KI-Technologie zwischen verschiedenen Gruppen.",
+      nl: "De digitale kloof verwijst naar ongelijke toegang tot AI-technologie tussen verschillende groepen."
+    }
+  },
+  {
+    question: {
+      en: "What is AI explainability?",
+      es: "¿Qué es la explicabilidad de IA?",
+      de: "Was ist KI-Erklärbarkeit?",
+      nl: "Wat is AI-uitlegbaarheid?"
+    },
+    options: [
+      {
+        en: "Making AI decisions understandable to humans",
+        es: "Hacer las decisiones de IA comprensibles para humanos",
+        de: "KI-Entscheidungen für Menschen verständlich machen",
+        nl: "AI-beslissingen begrijpelijk maken voor mensen"
+      },
+      {
+        en: "Teaching AI to talk",
+        es: "Enseñar a hablar a la IA",
+        de: "KI das Sprechen beibringen",
+        nl: "AI leren praten"
+      },
+      {
+        en: "Making AI louder",
+        es: "Hacer la IA más ruidosa",
+        de: "KI lauter machen",
+        nl: "AI luider maken"
+      },
+      {
+        en: "Removing AI features",
+        es: "Eliminar características de IA",
+        de: "KI-Funktionen entfernen",
+        nl: "AI-functies verwijderen"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "AI explainability means making AI decisions and processes understandable to humans, showing how conclusions are reached.",
+      es: "La explicabilidad de IA significa hacer las decisiones y procesos de IA comprensibles para humanos, mostrando cómo se alcanzan conclusiones.",
+      de: "KI-Erklärbarkeit bedeutet, KI-Entscheidungen und Prozesse für Menschen verständlich zu machen.",
+      nl: "AI-uitlegbaarheid betekent AI-beslissingen en processen begrijpelijk maken voor mensen."
+    }
+  },
+  {
+    question: {
+      en: "What is human oversight in AI?",
+      es: "¿Qué es la supervisión humana en IA?",
+      de: "Was ist menschliche Aufsicht in KI?",
+      nl: "Wat is menselijk toezicht in AI?"
+    },
+    options: [
+      {
+        en: "Humans monitoring and controlling AI systems",
+        es: "Humanos monitoreando y controlando sistemas de IA",
+        de: "Menschen überwachen und kontrollieren KI-Systeme",
+        nl: "Mensen die AI-systemen monitoren en controleren"
+      },
+      {
+        en: "AI watching humans",
+        es: "IA observando humanos",
+        de: "KI beobachtet Menschen",
+        nl: "AI die mensen observeert"
+      },
+      {
+        en: "Looking over AI's shoulder",
+        es: "Mirar por encima del hombro de la IA",
+        de: "KI über die Schulter schauen",
+        nl: "Over AI's schouder kijken"
+      },
+      {
+        en: "Humans being tall",
+        es: "Humanos siendo altos",
+        de: "Menschen sind groß",
+        nl: "Mensen die lang zijn"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "Human oversight ensures humans remain in control of AI systems, monitoring their operation and intervening when necessary.",
+      es: "La supervisión humana asegura que los humanos mantengan el control de los sistemas de IA, monitoreando su operación.",
+      de: "Menschliche Aufsicht stellt sicher, dass Menschen die Kontrolle über KI-Systeme behalten.",
+      nl: "Menselijk toezicht zorgt ervoor dat mensen controle houden over AI-systemen."
+    }
+  },
+  {
+    question: {
+      en: "What are AI ethics guidelines?",
+      es: "¿Qué son las directrices éticas de IA?",
+      de: "Was sind KI-Ethikrichtlinien?",
+      nl: "Wat zijn AI-ethiekrichtlijnen?"
+    },
+    options: [
+      {
+        en: "Rules for responsible AI development",
+        es: "Reglas para desarrollo responsable de IA",
+        de: "Regeln für verantwortungsvolle KI-Entwicklung",
+        nl: "Regels voor verantwoorde AI-ontwikkeling"
+      },
+      {
+        en: "Instructions to break AI",
+        es: "Instrucciones para romper IA",
+        de: "Anleitungen zum Zerstören von KI",
+        nl: "Instructies om AI te breken"
+      },
+      {
+        en: "Maps for AI robots",
+        es: "Mapas para robots de IA",
+        de: "Karten für KI-Roboter",
+        nl: "Kaarten voor AI-robots"
+      },
+      {
+        en: "AI user manuals",
+        es: "Manuales de usuario de IA",
+        de: "KI-Benutzerhandbücher",
+        nl: "AI-gebruikershandleidingen"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "AI ethics guidelines are principles and rules that guide responsible development and use of AI technology.",
+      es: "Las directrices éticas de IA son principios y reglas que guían el desarrollo y uso responsable de tecnología de IA.",
+      de: "KI-Ethikrichtlinien sind Prinzipien und Regeln für verantwortungsvolle Entwicklung und Nutzung von KI.",
+      nl: "AI-ethiekrichtlijnen zijn principes en regels die verantwoorde ontwikkeling en gebruik van AI-technologie begeleiden."
+    }
+  },
+  {
+    question: {
+      en: "What is AI bias?",
+      es: "¿Qué es el sesgo de IA?",
+      de: "Was ist KI-Bias?",
+      nl: "Wat is AI-bias?"
+    },
+    options: [
+      {
+        en: "Unfair treatment based on data patterns",
+        es: "Tratamiento injusto basado en patrones de datos",
+        de: "Unfaire Behandlung basierend auf Datenmustern",
+        nl: "Oneerlijke behandeling op basis van datapatronen"
+      },
+      {
+        en: "AI systems being too accurate",
+        es: "Sistemas de IA siendo demasiado precisos",
+        de: "KI-Systeme sind zu genau",
+        nl: "AI-systemen die te accuraat zijn"
+      },
+      {
+        en: "Computers running too slowly",
+        es: "Computadoras funcionando muy lentamente",
+        de: "Computer laufen zu langsam",
+        nl: "Computers die te traag werken"
+      },
+      {
+        en: "AI refusing to work",
+        es: "IA negándose a trabajar",
+        de: "KI weigert sich zu arbeiten",
+        nl: "AI die weigert te werken"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "AI bias occurs when algorithms make unfair decisions based on patterns in training data that reflect human prejudices.",
+      es: "El sesgo de IA ocurre cuando los algoritmos toman decisiones injustas basadas en patrones en datos de entrenamiento que reflejan prejuicios humanos.",
+      de: "KI-Bias tritt auf, wenn Algorithmen unfaire Entscheidungen auf Basis von Mustern in Trainingsdaten treffen, die menschliche Vorurteile widerspiegeln.",
+      nl: "AI-bias ontstaat wanneer algoritmes oneerlijke beslissingen nemen op basis van patronen in trainingsdata die menselijke vooroordelen weerspiegelen."
+    }
+  },
+  {
+    question: {
+      en: "Why is transparency important in AI systems?",
+      es: "¿Por qué es importante la transparencia en sistemas de IA?",
+      de: "Warum ist Transparenz in KI-Systemen wichtig?",
+      nl: "Waarom is transparantie belangrijk in AI-systemen?"
+    },
+    options: [
+      {
+        en: "To understand how decisions are made",
+        es: "Para entender cómo se toman las decisiones",
+        de: "Um zu verstehen, wie Entscheidungen getroffen werden",
+        nl: "Om te begrijpen hoe beslissingen worden genomen"
+      },
+      {
+        en: "To make AI slower",
+        es: "Para hacer la IA más lenta",
+        de: "Um KI langsamer zu machen",
+        nl: "Om AI langzamer te maken"
+      },
+      {
+        en: "To increase costs",
+        es: "Para aumentar los costos",
+        de: "Um Kosten zu erhöhen",
+        nl: "Om kosten te verhogen"
+      },
+      {
+        en: "To reduce accuracy",
+        es: "Para reducir la precisión",
+        de: "Um Genauigkeit zu reduzieren",
+        nl: "Om nauwkeurigheid te verminderen"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "Transparency in AI helps users understand how decisions are made, enabling trust and accountability in AI systems.",
+      es: "La transparencia en IA ayuda a los usuarios a entender cómo se toman las decisiones, permitiendo confianza y responsabilidad en los sistemas de IA.",
+      de: "Transparenz in KI hilft Benutzern zu verstehen, wie Entscheidungen getroffen werden, was Vertrauen und Verantwortlichkeit ermöglicht.",
+      nl: "Transparantie in AI helpt gebruikers begrijpen hoe beslissingen worden genomen, wat vertrouwen en verantwoordelijkheid mogelijk maakt."
+    }
+  },
+  {
+    question: {
+      en: "What is algorithmic fairness?",
+      es: "¿Qué es la equidad algorítmica?",
+      de: "Was ist algorithmische Fairness?",
+      nl: "Wat is algoritmische eerlijkheid?"
+    },
+    options: [
+      {
+        en: "Treating all groups equally in AI decisions",
+        es: "Tratar a todos los grupos por igual en decisiones de IA",
+        de: "Alle Gruppen gleich in KI-Entscheidungen behandeln",
+        nl: "Alle groepen gelijk behandelen in AI-beslissingen"
+      },
+      {
+        en: "Making AI systems free",
+        es: "Hacer los sistemas de IA gratuitos",
+        de: "KI-Systeme kostenlos machen",
+        nl: "AI-systemen gratis maken"
+      },
+      {
+        en: "Using the fastest algorithms",
+        es: "Usar los algoritmos más rápidos",
+        de: "Die schnellsten Algorithmen verwenden",
+        nl: "De snelste algoritmes gebruiken"
+      },
+      {
+        en: "Copying human behavior exactly",
+        es: "Copiar el comportamiento humano exactamente",
+        de: "Menschliches Verhalten genau kopieren",
+        nl: "Menselijk gedrag exact kopiëren"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "Algorithmic fairness ensures AI systems treat all groups equally and don't discriminate based on sensitive attributes like race or gender.",
+      es: "La equidad algorítmica asegura que los sistemas de IA traten a todos los grupos por igual y no discriminen basándose en atributos sensibles.",
+      de: "Algorithmische Fairness stellt sicher, dass KI-Systeme alle Gruppen gleich behandeln und nicht diskriminieren.",
+      nl: "Algoritmische eerlijkheid zorgt ervoor dat AI-systemen alle groepen gelijk behandelen en niet discrimineren."
+    }
+  },
+  {
+    question: {
+      en: "What is data privacy in AI?",
+      es: "¿Qué es la privacidad de datos en IA?",
+      de: "Was ist Datenschutz in KI?",
+      nl: "Wat is dataprivacy in AI?"
+    },
+    options: [
+      {
+        en: "Protecting personal information used by AI",
+        es: "Proteger información personal usada por IA",
+        de: "Schutz persönlicher Informationen in KI",
+        nl: "Bescherming van persoonlijke informatie gebruikt door AI"
+      },
+      {
+        en: "Hiding AI from users",
+        es: "Ocultar IA de los usuarios",
+        de: "KI vor Benutzern verstecken",
+        nl: "AI verbergen voor gebruikers"
+      },
+      {
+        en: "Making data invisible",
+        es: "Hacer los datos invisibles",
+        de: "Daten unsichtbar machen",
+        nl: "Data onzichtbaar maken"
+      },
+      {
+        en: "Deleting all data",
+        es: "Eliminar todos los datos",
+        de: "Alle Daten löschen",
+        nl: "Alle data verwijderen"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "Data privacy in AI involves protecting personal information and ensuring it's used responsibly and securely in AI systems.",
+      es: "La privacidad de datos en IA involucra proteger información personal y asegurar su uso responsable y seguro en sistemas de IA.",
+      de: "Datenschutz in KI bedeutet den Schutz persönlicher Informationen und deren verantwortungsvolle Nutzung in KI-Systemen.",
+      nl: "Dataprivacy in AI behelst het beschermen van persoonlijke informatie en ervoor zorgen dat deze verantwoord wordt gebruikt."
+    }
+  },
+  {
+    question: {
+      en: "What does AI accountability mean?",
+      es: "¿Qué significa la responsabilidad de IA?",
+      de: "Was bedeutet KI-Verantwortlichkeit?",
+      nl: "Wat betekent AI-verantwoordelijkheid?"
+    },
+    options: [
+      {
+        en: "Being responsible for AI decisions and outcomes",
+        es: "Ser responsable de decisiones y resultados de IA",
+        de: "Verantwortung für KI-Entscheidungen übernehmen",
+        nl: "Verantwoordelijk zijn voor AI-beslissingen en uitkomsten"
+      },
+      {
+        en: "Counting AI systems",
+        es: "Contar sistemas de IA",
+        de: "KI-Systeme zählen",
+        nl: "AI-systemen tellen"
+      },
+      {
+        en: "Making AI expensive",
+        es: "Hacer la IA costosa",
+        de: "KI teuer machen",
+        nl: "AI duur maken"
+      },
+      {
+        en: "Avoiding AI use",
+        es: "Evitar el uso de IA",
+        de: "KI-Nutzung vermeiden",
+        nl: "AI-gebruik vermijden"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "AI accountability means being responsible for the decisions and impacts of AI systems, including their errors and consequences.",
+      es: "La responsabilidad de IA significa ser responsable de las decisiones e impactos de los sistemas de IA, incluyendo errores y consecuencias.",
+      de: "KI-Verantwortlichkeit bedeutet, für Entscheidungen und Auswirkungen von KI-Systemen verantwortlich zu sein.",
+      nl: "AI-verantwoordelijkheid betekent verantwoordelijk zijn voor beslissingen en impact van AI-systemen."
+    }
+  },
+  {
+    question: {
+      en: "Why is informed consent important in AI?",
+      es: "¿Por qué es importante el consentimiento informado en IA?",
+      de: "Warum ist informierte Zustimmung in KI wichtig?",
+      nl: "Waarom is geïnformeerde toestemming belangrijk in AI?"
+    },
+    options: [
+      {
+        en: "Users should know how their data is used",
+        es: "Los usuarios deben saber cómo se usan sus datos",
+        de: "Nutzer sollten wissen, wie ihre Daten verwendet werden",
+        nl: "Gebruikers moeten weten hoe hun data wordt gebruikt"
+      },
+      {
+        en: "To slow down AI development",
+        es: "Para ralentizar el desarrollo de IA",
+        de: "Um KI-Entwicklung zu verlangsamen",
+        nl: "Om AI-ontwikkeling te vertragen"
+      },
+      {
+        en: "To make AI illegal",
+        es: "Para hacer la IA ilegal",
+        de: "Um KI illegal zu machen",
+        nl: "Om AI illegaal te maken"
+      },
+      {
+        en: "To confuse users",
+        es: "Para confundir a los usuarios",
+        de: "Um Nutzer zu verwirren",
+        nl: "Om gebruikers te verwarren"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "Informed consent ensures users understand and agree to how their data will be collected and used by AI systems.",
+      es: "El consentimiento informado asegura que los usuarios entiendan y acepten cómo sus datos serán recolectados y usados por sistemas de IA.",
+      de: "Informierte Zustimmung stellt sicher, dass Nutzer verstehen und zustimmen, wie ihre Daten von KI-Systemen genutzt werden.",
+      nl: "Geïnformeerde toestemming zorgt ervoor dat gebruikers begrijpen en akkoord gaan met hoe hun data wordt gebruikt."
+    }
+  },
+  {
+    question: {
+      en: "What is the digital divide in AI?",
+      es: "¿Qué es la brecha digital en IA?",
+      de: "Was ist die digitale Kluft in KI?",
+      nl: "Wat is de digitale kloof in AI?"
+    },
+    options: [
+      {
+        en: "Unequal access to AI technology",
+        es: "Acceso desigual a la tecnología de IA",
+        de: "Ungleicher Zugang zu KI-Technologie",
+        nl: "Ongelijke toegang tot AI-technologie"
+      },
+      {
+        en: "Dividing numbers digitally",
+        es: "Dividir números digitalmente",
+        de: "Zahlen digital teilen",
+        nl: "Getallen digitaal delen"
+      },
+      {
+        en: "Splitting AI systems",
+        es: "Dividir sistemas de IA",
+        de: "KI-Systeme aufteilen",
+        nl: "AI-systemen splitsen"
+      },
+      {
+        en: "Breaking computers",
+        es: "Romper computadoras",
+        de: "Computer kaputt machen",
+        nl: "Computers kapot maken"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "The digital divide refers to unequal access to AI technology between different groups, creating gaps in opportunities and benefits.",
+      es: "La brecha digital se refiere al acceso desigual a la tecnología de IA entre diferentes grupos, creando brechas en oportunidades.",
+      de: "Die digitale Kluft bezieht sich auf ungleichen Zugang zu KI-Technologie zwischen verschiedenen Gruppen.",
+      nl: "De digitale kloof verwijst naar ongelijke toegang tot AI-technologie tussen verschillende groepen."
+    }
+  },
+  {
+    question: {
+      en: "What is AI explainability?",
+      es: "¿Qué es la explicabilidad de IA?",
+      de: "Was ist KI-Erklärbarkeit?",
+      nl: "Wat is AI-uitlegbaarheid?"
+    },
+    options: [
+      {
+        en: "Making AI decisions understandable to humans",
+        es: "Hacer las decisiones de IA comprensibles para humanos",
+        de: "KI-Entscheidungen für Menschen verständlich machen",
+        nl: "AI-beslissingen begrijpelijk maken voor mensen"
+      },
+      {
+        en: "Teaching AI to talk",
+        es: "Enseñar a hablar a la IA",
+        de: "KI das Sprechen beibringen",
+        nl: "AI leren praten"
+      },
+      {
+        en: "Making AI louder",
+        es: "Hacer la IA más ruidosa",
+        de: "KI lauter machen",
+        nl: "AI luider maken"
+      },
+      {
+        en: "Removing AI features",
+        es: "Eliminar características de IA",
+        de: "KI-Funktionen entfernen",
+        nl: "AI-functies verwijderen"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "AI explainability means making AI decisions and processes understandable to humans, showing how conclusions are reached.",
+      es: "La explicabilidad de IA significa hacer las decisiones y procesos de IA comprensibles para humanos, mostrando cómo se alcanzan conclusiones.",
+      de: "KI-Erklärbarkeit bedeutet, KI-Entscheidungen und Prozesse für Menschen verständlich zu machen.",
+      nl: "AI-uitlegbaarheid betekent AI-beslissingen en processen begrijpelijk maken voor mensen."
+    }
+  },
+  {
+    question: {
+      en: "What is human oversight in AI?",
+      es: "¿Qué es la supervisión humana en IA?",
+      de: "Was ist menschliche Aufsicht in KI?",
+      nl: "Wat is menselijk toezicht in AI?"
+    },
+    options: [
+      {
+        en: "Humans monitoring and controlling AI systems",
+        es: "Humanos monitoreando y controlando sistemas de IA",
+        de: "Menschen überwachen und kontrollieren KI-Systeme",
+        nl: "Mensen die AI-systemen monitoren en controleren"
+      },
+      {
+        en: "AI watching humans",
+        es: "IA observando humanos",
+        de: "KI beobachtet Menschen",
+        nl: "AI die mensen observeert"
+      },
+      {
+        en: "Looking over AI's shoulder",
+        es: "Mirar por encima del hombro de la IA",
+        de: "KI über die Schulter schauen",
+        nl: "Over AI's schouder kijken"
+      },
+      {
+        en: "Humans being tall",
+        es: "Humanos siendo altos",
+        de: "Menschen sind groß",
+        nl: "Mensen die lang zijn"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "Human oversight ensures humans remain in control of AI systems, monitoring their operation and intervening when necessary.",
+      es: "La supervisión humana asegura que los humanos mantengan el control de los sistemas de IA, monitoreando su operación.",
+      de: "Menschliche Aufsicht stellt sicher, dass Menschen die Kontrolle über KI-Systeme behalten.",
+      nl: "Menselijk toezicht zorgt ervoor dat mensen controle houden over AI-systemen."
+    }
+  },
+  {
+    question: {
+      en: "What are AI ethics guidelines?",
+      es: "¿Qué son las directrices éticas de IA?",
+      de: "Was sind KI-Ethikrichtlinien?",
+      nl: "Wat zijn AI-ethiekrichtlijnen?"
+    },
+    options: [
+      {
+        en: "Rules for responsible AI development",
+        es: "Reglas para desarrollo responsable de IA",
+        de: "Regeln für verantwortungsvolle KI-Entwicklung",
+        nl: "Regels voor verantwoorde AI-ontwikkeling"
+      },
+      {
+        en: "Instructions to break AI",
+        es: "Instrucciones para romper IA",
+        de: "Anleitungen zum Zerstören von KI",
+        nl: "Instructies om AI te breken"
+      },
+      {
+        en: "Maps for AI robots",
+        es: "Mapas para robots de IA",
+        de: "Karten für KI-Roboter",
+        nl: "Kaarten voor AI-robots"
+      },
+      {
+        en: "AI user manuals",
+        es: "Manuales de usuario de IA",
+        de: "KI-Benutzerhandbücher",
+        nl: "AI-gebruikershandleidingen"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "AI ethics guidelines are principles and rules that guide responsible development and use of AI technology.",
+      es: "Las directrices éticas de IA son principios y reglas que guían el desarrollo y uso responsable de tecnología de IA.",
+      de: "KI-Ethikrichtlinien sind Prinzipien und Regeln für verantwortungsvolle Entwicklung und Nutzung von KI.",
+      nl: "AI-ethiekrichtlijnen zijn principes en regels die verantwoorde ontwikkeling en gebruik van AI-technologie begeleiden."
+    }
+  },
+  {
+    question: {
+      en: "What is AI safety?",
+      es: "¿Qué es la seguridad de IA?",
+      de: "Was ist KI-Sicherheit?",
+      nl: "Wat is AI-veiligheid?"
+    },
+    options: [
+      {
+        en: "Ensuring AI systems don't cause harm",
+        es: "Asegurar que los sistemas de IA no causen daño",
+        de: "Sicherstellen dass KI-Systeme keinen Schaden verursachen",
+        nl: "Ervoor zorgen dat AI-systemen geen schade veroorzaken"
+      },
+      {
+        en: "Locking AI in a safe",
+        es: "Encerrar IA en una caja fuerte",
+        de: "KI in einen Safe sperren",
+        nl: "AI in een kluis opsluiten"
+      },
+      {
+        en: "Making AI wear helmets",
+        es: "Hacer que la IA use cascos",
+        de: "KI Helme tragen lassen",
+        nl: "AI helmen laten dragen"
+      },
+      {
+        en: "AI insurance policies",
+        es: "Pólizas de seguro de IA",
+        de: "KI-Versicherungspolicen",
+        nl: "AI-verzekeringspolissen"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "AI safety focuses on ensuring AI systems operate safely and don't cause unintended harm to humans or society.",
+      es: "La seguridad de IA se enfoca en asegurar que los sistemas de IA operen de manera segura y no causen daño no intencional.",
+      de: "KI-Sicherheit konzentriert sich darauf, dass KI-Systeme sicher arbeiten und keinen unbeabsichtigten Schaden verursachen.",
+      nl: "AI-veiligheid richt zich op het veilig laten werken van AI-systemen zonder onbedoelde schade."
+    }
+  },
+  {
+    question: {
+      en: "What is value alignment in AI?",
+      es: "¿Qué es la alineación de valores en IA?",
+      de: "Was ist Werteausrichtung in KI?",
+      nl: "Wat is waarde-afstemming in AI?"
+    },
+    options: [
+      {
+        en: "Making AI goals match human values",
+        es: "Hacer que los objetivos de IA coincidan con valores humanos",
+        de: "KI-Ziele an menschliche Werte anpassen",
+        nl: "AI-doelen laten aansluiten bij menselijke waarden"
+      },
+      {
+        en: "Aligning AI robots in a row",
+        es: "Alinear robots de IA en fila",
+        de: "KI-Roboter in einer Reihe aufstellen",
+        nl: "AI-robots op een rij zetten"
+      },
+      {
+        en: "Making AI valuable",
+        es: "Hacer la IA valiosa",
+        de: "KI wertvoll machen",
+        nl: "AI waardevol maken"
+      },
+      {
+        en: "Pricing AI systems",
+        es: "Poner precio a sistemas de IA",
+        de: "KI-Systeme bepreisen",
+        nl: "AI-systemen prijzen"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "Value alignment ensures AI systems' goals and behaviors align with human values and ethical principles.",
+      es: "La alineación de valores asegura que los objetivos y comportamientos de sistemas de IA se alineen con valores humanos y principios éticos.",
+      de: "Werteausrichtung stellt sicher, dass KI-Ziele und Verhalten mit menschlichen Werten übereinstimmen.",
+      nl: "Waarde-afstemming zorgt ervoor dat AI-doelen en gedrag aansluiten bij menselijke waarden."
+    }
+  },
+  {
+    question: {
+      en: "What is AI discrimination?",
+      es: "¿Qué es la discriminación de IA?",
+      de: "Was ist KI-Diskriminierung?",
+      nl: "Wat is AI-discriminatie?"
+    },
+    options: [
+      {
+        en: "AI making unfair decisions about people",
+        es: "IA tomando decisiones injustas sobre personas",
+        de: "KI trifft unfaire Entscheidungen über Menschen",
+        nl: "AI die oneerlijke beslissingen neemt over mensen"
+      },
+      {
+        en: "AI having good taste",
+        es: "IA teniendo buen gusto",
+        de: "KI hat guten Geschmack",
+        nl: "AI met goede smaak"
+      },
+      {
+        en: "AI choosing colors",
+        es: "IA eligiendo colores",
+        de: "KI wählt Farben",
+        nl: "AI die kleuren kiest"
+      },
+      {
+        en: "AI being picky",
+        es: "IA siendo exigente",
+        de: "KI ist wählerisch",
+        nl: "AI die kieskeurig is"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "AI discrimination occurs when AI systems make unfair or prejudiced decisions based on race, gender, age, or other protected characteristics.",
+      es: "La discriminación de IA ocurre cuando los sistemas de IA toman decisiones injustas basadas en raza, género, edad u otras características protegidas.",
+      de: "KI-Diskriminierung tritt auf, wenn KI-Systeme unfaire Entscheidungen basierend auf Rasse, Geschlecht oder Alter treffen.",
+      nl: "AI-discriminatie gebeurt wanneer AI-systemen oneerlijke beslissingen nemen gebaseerd op ras, geslacht, leeftijd of andere beschermde kenmerken."
+    }
+  },
+  {
+    question: {
+      en: "What is AI governance?",
+      es: "¿Qué es la gobernanza de IA?",
+      de: "Was ist KI-Governance?",
+      nl: "Wat is AI-governance?"
+    },
+    options: [
+      {
+        en: "Rules and policies for managing AI",
+        es: "Reglas y políticas para gestionar IA",
+        de: "Regeln und Richtlinien für KI-Management",
+        nl: "Regels en beleid voor AI-beheer"
+      },
+      {
+        en: "AI running governments",
+        es: "IA dirigiendo gobiernos",
+        de: "KI regiert Länder",
+        nl: "AI die regeringen bestuurt"
+      },
+      {
+        en: "Government AI robots",
+        es: "Robots de IA gubernamentales",
+        de: "Regierungs-KI-Roboter",
+        nl: "Overheids-AI-robots"
+      },
+      {
+        en: "AI voting systems",
+        es: "Sistemas de votación de IA",
+        de: "KI-Wahlsysteme",
+        nl: "AI-stemsystemen"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "AI governance involves creating rules, policies, and frameworks to ensure responsible development and deployment of AI systems.",
+      es: "La gobernanza de IA involucra crear reglas, políticas y marcos para asegurar el desarrollo y despliegue responsable de sistemas de IA.",
+      de: "KI-Governance umfasst Regeln und Richtlinien für verantwortungsvolle Entwicklung und Einsatz von KI.",
+      nl: "AI-governance behelst het creëren van regels en beleid voor verantwoorde ontwikkeling en inzet van AI."
+    }
+  },
+  {
+    question: {
+      en: "What are AI rights?",
+      es: "¿Qué son los derechos de IA?",
+      de: "Was sind KI-Rechte?",
+      nl: "Wat zijn AI-rechten?"
+    },
+    options: [
+      {
+        en: "Human rights in the age of AI",
+        es: "Derechos humanos en la era de IA",
+        de: "Menschenrechte im KI-Zeitalter",
+        nl: "Mensenrechten in het AI-tijdperk"
+      },
+      {
+        en: "Rights for AI robots",
+        es: "Derechos para robots de IA",
+        de: "Rechte für KI-Roboter",
+        nl: "Rechten voor AI-robots"
+      },
+      {
+        en: "AI turning right",
+        es: "IA girando a la derecha",
+        de: "KI biegt rechts ab",
+        nl: "AI die rechts afslaat"
+      },
+      {
+        en: "Correct AI answers",
+        es: "Respuestas correctas de IA",
+        de: "Richtige KI-Antworten",
+        nl: "Correcte AI-antwoorden"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "AI rights refer to protecting human rights in the context of AI use, ensuring technology respects fundamental human rights.",
+      es: "Los derechos de IA se refieren a proteger los derechos humanos en el contexto del uso de IA, asegurando que la tecnología respete derechos fundamentales.",
+      de: "KI-Rechte beziehen sich auf den Schutz von Menschenrechten im Kontext von KI-Nutzung.",
+      nl: "AI-rechten verwijzen naar het beschermen van mensenrechten in de context van AI-gebruik."
+    }
+  },
+  {
+    question: {
+      en: "What is AI inclusion?",
+      es: "¿Qué es la inclusión de IA?",
+      de: "Was ist KI-Inklusion?",
+      nl: "Wat is AI-inclusie?"
+    },
+    options: [
+      {
+        en: "Making AI accessible to everyone",
+        es: "Hacer la IA accesible para todos",
+        de: "KI für alle zugänglich machen",
+        nl: "AI toegankelijk maken voor iedereen"
+      },
+      {
+        en: "Including AI in everything",
+        es: "Incluir IA en todo",
+        de: "KI überall einbeziehen",
+        nl: "AI overal in opnemen"
+      },
+      {
+        en: "AI joining clubs",
+        es: "IA uniéndose a clubes",
+        de: "KI tritt Clubs bei",
+        nl: "AI die lid wordt van clubs"
+      },
+      {
+        en: "Adding more AI",
+        es: "Agregar más IA",
+        de: "Mehr KI hinzufügen",
+        nl: "Meer AI toevoegen"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "AI inclusion means ensuring AI technology is accessible and beneficial to all people, regardless of their background or abilities.",
+      es: "La inclusión de IA significa asegurar que la tecnología de IA sea accesible y beneficiosa para todas las personas.",
+      de: "KI-Inklusion bedeutet, dass KI-Technologie für alle Menschen zugänglich und nützlich ist.",
+      nl: "AI-inclusie betekent dat AI-technologie toegankelijk en nuttig is voor alle mensen."
+    }
+  },
+  {
+    question: {
+      en: "What is responsible AI?",
+      es: "¿Qué es IA responsable?",
+      de: "Was ist verantwortungsvolle KI?",
+      nl: "Wat is verantwoorde AI?"
+    },
+    options: [
+      {
+        en: "AI developed with ethical considerations",
+        es: "IA desarrollada con consideraciones éticas",
+        de: "KI mit ethischen Überlegungen entwickelt",
+        nl: "AI ontwikkeld met ethische overwegingen"
+      },
+      {
+        en: "AI that pays bills",
+        es: "IA que paga facturas",
+        de: "KI die Rechnungen bezahlt",
+        nl: "AI die rekeningen betaalt"
+      },
+      {
+        en: "AI with responsibilities",
+        es: "IA con responsabilidades",
+        de: "KI mit Verantwortungen",
+        nl: "AI met verantwoordelijkheden"
+      },
+      {
+        en: "Mature AI systems",
+        es: "Sistemas de IA maduros",
+        de: "Reife KI-Systeme",
+        nl: "Volwassen AI-systemen"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "Responsible AI refers to developing and using AI systems ethically, transparently, and with consideration for societal impact.",
+      es: "IA responsable se refiere a desarrollar y usar sistemas de IA éticamente, transparentemente y considerando el impacto social.",
+      de: "Verantwortungsvolle KI bedeutet ethische und transparente Entwicklung und Nutzung von KI-Systemen.",
+      nl: "Verantwoorde AI verwijst naar het ethisch en transparant ontwikkelen en gebruiken van AI-systemen."
+    }
+  },
+  {
+    question: {
+      en: "What is AI autonomy?",
+      es: "¿Qué es la autonomía de IA?",
+      de: "Was ist KI-Autonomie?",
+      nl: "Wat is AI-autonomie?"
+    },
+    options: [
+      {
+        en: "AI systems making independent decisions",
+        es: "Sistemas de IA tomando decisiones independientes",
+        de: "KI-Systeme treffen eigenständige Entscheidungen",
+        nl: "AI-systemen die zelfstandige beslissingen nemen"
+      },
+      {
+        en: "AI driving cars",
+        es: "IA conduciendo autos",
+        de: "KI fährt Autos",
+        nl: "AI die auto's bestuurt"
+      },
+      {
+        en: "AI being alone",
+        es: "IA estando sola",
+        de: "KI ist allein",
+        nl: "AI die alleen is"
+      },
+      {
+        en: "Automatic AI",
+        es: "IA automática",
+        de: "Automatische KI",
+        nl: "Automatische AI"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "AI autonomy refers to the ability of AI systems to make decisions and take actions independently without human intervention.",
+      es: "La autonomía de IA se refiere a la capacidad de sistemas de IA para tomar decisiones y acciones independientemente sin intervención humana.",
+      de: "KI-Autonomie bezieht sich auf die Fähigkeit von KI-Systemen, eigenständig Entscheidungen zu treffen.",
+      nl: "AI-autonomie verwijst naar het vermogen van AI-systemen om zelfstandig beslissingen te nemen."
+    }
+  },
+  {
+    question: {
+      en: "What is AI beneficence?",
+      es: "¿Qué es la beneficencia de IA?",
+      de: "Was ist KI-Wohltätigkeit?",
+      nl: "Wat is AI-weldadigheid?"
+    },
+    options: [
+      {
+        en: "AI should benefit humanity",
+        es: "IA debe beneficiar a la humanidad",
+        de: "KI sollte der Menschheit nutzen",
+        nl: "AI moet de mensheid ten goede komen"
+      },
+      {
+        en: "AI charity work",
+        es: "Trabajo caritativo de IA",
+        de: "KI-Wohltätigkeitsarbeit",
+        nl: "AI-liefdadigheidswerk"
+      },
+      {
+        en: "Free AI services",
+        es: "Servicios de IA gratuitos",
+        de: "Kostenlose KI-Dienste",
+        nl: "Gratis AI-diensten"
+      },
+      {
+        en: "AI donations",
+        es: "Donaciones de IA",
+        de: "KI-Spenden",
+        nl: "AI-donaties"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "AI beneficence means AI systems should be designed to benefit humanity and promote human well-being.",
+      es: "La beneficencia de IA significa que los sistemas de IA deben diseñarse para beneficiar a la humanidad y promover el bienestar humano.",
+      de: "KI-Wohltätigkeit bedeutet, dass KI-Systeme zum Nutzen der Menschheit entwickelt werden sollten.",
+      nl: "AI-weldadigheid betekent dat AI-systemen ontworpen moeten worden om de mensheid te helpen."
+    }
+  },
+  {
+    question: {
+      en: "What is AI non-maleficence?",
+      es: "¿Qué es la no maleficencia de IA?",
+      de: "Was ist KI-Nicht-Schaden?",
+      nl: "Wat is AI niet-schaden?"
+    },
+    options: [
+      {
+        en: "AI should not cause harm",
+        es: "IA no debe causar daño",
+        de: "KI sollte keinen Schaden verursachen",
+        nl: "AI mag geen schade veroorzaken"
+      },
+      {
+        en: "AI being magnificent",
+        es: "IA siendo magnífica",
+        de: "KI ist großartig",
+        nl: "AI die magnifiek is"
+      },
+      {
+        en: "Non-male AI",
+        es: "IA no masculina",
+        de: "Nicht-männliche KI",
+        nl: "Niet-mannelijke AI"
+      },
+      {
+        en: "AI medicine",
+        es: "Medicina de IA",
+        de: "KI-Medizin",
+        nl: "AI-medicijnen"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "AI non-maleficence is the principle that AI systems should not cause harm to humans or society.",
+      es: "La no maleficencia de IA es el principio de que los sistemas de IA no deben causar daño a humanos o la sociedad.",
+      de: "KI-Nicht-Schaden ist das Prinzip, dass KI-Systeme keinen Schaden verursachen sollten.",
+      nl: "AI niet-schaden is het principe dat AI-systemen geen schade mogen veroorzaken aan mensen of de samenleving."
+    }
+  },
+  {
+    question: {
+      en: "What is AI justice?",
+      es: "¿Qué es la justicia de IA?",
+      de: "Was ist KI-Gerechtigkeit?",
+      nl: "Wat is AI-rechtvaardigheid?"
+    },
+    options: [
+      {
+        en: "Fair distribution of AI benefits",
+        es: "Distribución justa de beneficios de IA",
+        de: "Faire Verteilung von KI-Vorteilen",
+        nl: "Eerlijke verdeling van AI-voordelen"
+      },
+      {
+        en: "AI judges in court",
+        es: "Jueces de IA en tribunales",
+        de: "KI-Richter vor Gericht",
+        nl: "AI-rechters in de rechtbank"
+      },
+      {
+        en: "AI police systems",
+        es: "Sistemas policiales de IA",
+        de: "KI-Polizeisysteme",
+        nl: "AI-politiesystemen"
+      },
+      {
+        en: "Punishing bad AI",
+        es: "Castigar IA mala",
+        de: "Schlechte KI bestrafen",
+        nl: "Slechte AI straffen"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "AI justice ensures fair distribution of AI benefits and burdens, preventing discrimination and promoting equality.",
+      es: "La justicia de IA asegura distribución justa de beneficios y cargas de IA, previniendo discriminación y promoviendo igualdad.",
+      de: "KI-Gerechtigkeit sorgt für faire Verteilung von KI-Vorteilen und verhindert Diskriminierung.",
+      nl: "AI-rechtvaardigheid zorgt voor eerlijke verdeling van AI-voordelen en -lasten, voorkomt discriminatie."
+    }
+  },
+  {
+    question: {
+      en: "What is AI sustainability?",
+      es: "¿Qué es la sostenibilidad de IA?",
+      de: "Was ist KI-Nachhaltigkeit?",
+      nl: "Wat is AI-duurzaamheid?"
+    },
+    options: [
+      {
+        en: "AI that considers environmental impact",
+        es: "IA que considera el impacto ambiental",
+        de: "KI die Umweltauswirkungen berücksichtigt",
+        nl: "AI die rekening houdt met milieu-impact"
+      },
+      {
+        en: "AI that lasts forever",
+        es: "IA que dura para siempre",
+        de: "KI die ewig hält",
+        nl: "AI die eeuwig meegaat"
+      },
+      {
+        en: "Sustainable AI food",
+        es: "Comida sostenible de IA",
+        de: "Nachhaltige KI-Nahrung",
+        nl: "Duurzaam AI-voedsel"
+      },
+      {
+        en: "AI recycling",
+        es: "Reciclaje de IA",
+        de: "KI-Recycling",
+        nl: "AI-recycling"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "AI sustainability involves developing AI systems that consider environmental impact and long-term societal well-being.",
+      es: "La sostenibilidad de IA involucra desarrollar sistemas de IA que consideren el impacto ambiental y bienestar social a largo plazo.",
+      de: "KI-Nachhaltigkeit bedeutet Entwicklung von KI-Systemen mit Rücksicht auf Umweltauswirkungen.",
+      nl: "AI-duurzaamheid behelst het ontwikkelen van AI-systemen met oog voor milieu-impact en langetermijnwelzijn."
+    }
+  },
+  {
+    question: {
+      en: "What is AI literacy?",
+      es: "¿Qué es la alfabetización en IA?",
+      de: "Was ist KI-Kompetenz?",
+      nl: "Wat is AI-geletterdheid?"
+    },
+    options: [
+      {
+        en: "Understanding how AI works",
+        es: "Entender cómo funciona la IA",
+        de: "Verstehen wie KI funktioniert",
+        nl: "Begrijpen hoe AI werkt"
+      },
+      {
+        en: "AI reading books",
+        es: "IA leyendo libros",
+        de: "KI liest Bücher",
+        nl: "AI die boeken leest"
+      },
+      {
+        en: "Teaching AI to write",
+        es: "Enseñar a escribir a la IA",
+        de: "KI das Schreiben beibringen",
+        nl: "AI leren schrijven"
+      },
+      {
+        en: "AI literature",
+        es: "Literatura de IA",
+        de: "KI-Literatur",
+        nl: "AI-literatuur"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "AI literacy means having the knowledge and skills to understand and interact effectively with AI systems.",
+      es: "La alfabetización en IA significa tener el conocimiento y habilidades para entender e interactuar efectivamente con sistemas de IA.",
+      de: "KI-Kompetenz bedeutet, das Wissen und die Fähigkeiten zu haben, um KI-Systeme zu verstehen.",
+      nl: "AI-geletterdheid betekent de kennis en vaardigheden hebben om AI-systemen te begrijpen en ermee te werken."
+    }
+  },
+  {
+    question: {
+      en: "What is AI empowerment?",
+      es: "¿Qué es el empoderamiento de IA?",
+      de: "Was ist KI-Ermächtigung?",
+      nl: "Wat is AI-empowerment?"
+    },
+    options: [
+      {
+        en: "Using AI to enhance human capabilities",
+        es: "Usar IA para mejorar capacidades humanas",
+        de: "KI zur Verbesserung menschlicher Fähigkeiten nutzen",
+        nl: "AI gebruiken om menselijke capaciteiten te verbeteren"
+      },
+      {
+        en: "Giving AI superpowers",
+        es: "Dar superpoderes a la IA",
+        de: "KI Superkräfte geben",
+        nl: "AI superkrachten geven"
+      },
+      {
+        en: "AI electricity",
+        es: "Electricidad de IA",
+        de: "KI-Elektrizität",
+        nl: "AI-elektriciteit"
+      },
+      {
+        en: "Powerful AI computers",
+        es: "Computadoras de IA poderosas",
+        de: "Leistungsstarke KI-Computer",
+        nl: "Krachtige AI-computers"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "AI empowerment means using AI to enhance human capabilities and enable people to achieve more.",
+      es: "El empoderamiento de IA significa usar IA para mejorar las capacidades humanas y permitir que las personas logren más.",
+      de: "KI-Ermächtigung bedeutet, KI zu nutzen, um menschliche Fähigkeiten zu verbessern.",
+      nl: "AI-empowerment betekent AI gebruiken om menselijke capaciteiten te verbeteren en mensen meer te laten bereiken."
+    }
+  },
+  {
+    question: {
+      en: "What is AI dignity?",
+      es: "¿Qué es la dignidad de IA?",
+      de: "Was ist KI-Würde?",
+      nl: "Wat is AI-waardigheid?"
+    },
+    options: [
+      {
+        en: "Respecting human dignity in AI use",
+        es: "Respetar la dignidad humana en el uso de IA",
+        de: "Menschenwürde bei KI-Nutzung respektieren",
+        nl: "Menselijke waardigheid respecteren bij AI-gebruik"
+      },
+      {
+        en: "Dignified AI robots",
+        es: "Robots de IA dignos",
+        de: "Würdevolle KI-Roboter",
+        nl: "Waardige AI-robots"
+      },
+      {
+        en: "AI with good manners",
+        es: "IA con buenos modales",
+        de: "KI mit guten Manieren",
+        nl: "AI met goede manieren"
+      },
+      {
+        en: "Formal AI systems",
+        es: "Sistemas de IA formales",
+        de: "Formelle KI-Systeme",
+        nl: "Formele AI-systemen"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "AI dignity means ensuring AI systems respect and preserve human dignity in all interactions and applications.",
+      es: "La dignidad de IA significa asegurar que los sistemas de IA respeten y preserven la dignidad humana en todas las interacciones.",
+      de: "KI-Würde bedeutet, dass KI-Systeme die Menschenwürde in allen Anwendungen respektieren.",
+      nl: "AI-waardigheid betekent dat AI-systemen menselijke waardigheid respecteren in alle toepassingen."
+    }
+  },
+  {
+    question: {
+      en: "What is AI solidarity?",
+      es: "¿Qué es la solidaridad de IA?",
+      de: "Was ist KI-Solidarität?",
+      nl: "Wat is AI-solidariteit?"
+    },
+    options: [
+      {
+        en: "Sharing AI benefits with all of society",
+        es: "Compartir beneficios de IA con toda la sociedad",
+        de: "KI-Vorteile mit der Gesellschaft teilen",
+        nl: "AI-voordelen delen met de hele samenleving"
+      },
+      {
+        en: "AI working together",
+        es: "IA trabajando juntas",
+        de: "KI arbeitet zusammen",
+        nl: "AI die samenwerkt"
+      },
+      {
+        en: "Solid AI systems",
+        es: "Sistemas de IA sólidos",
+        de: "Solide KI-Systeme",
+        nl: "Solide AI-systemen"
+      },
+      {
+        en: "AI unions",
+        es: "Sindicatos de IA",
+        de: "KI-Gewerkschaften",
+        nl: "AI-vakbonden"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "AI solidarity means ensuring AI benefits are shared equitably across society, not just privileged groups.",
+      es: "La solidaridad de IA significa asegurar que los beneficios de IA se compartan equitativamente en toda la sociedad.",
+      de: "KI-Solidarität bedeutet, dass KI-Vorteile gerecht in der Gesellschaft verteilt werden.",
+      nl: "AI-solidariteit betekent dat AI-voordelen eerlijk worden gedeeld in de samenleving."
+    }
+  },
+  {
+    question: {
+      en: "What is AI consent?",
+      es: "¿Qué es el consentimiento de IA?",
+      de: "Was ist KI-Einwilligung?",
+      nl: "Wat is AI-toestemming?"
+    },
+    options: [
+      {
+        en: "Getting permission before using personal data",
+        es: "Obtener permiso antes de usar datos personales",
+        de: "Erlaubnis vor Nutzung persönlicher Daten einholen",
+        nl: "Toestemming krijgen voor gebruik persoonlijke data"
+      },
+      {
+        en: "AI agreeing with users",
+        es: "IA estando de acuerdo con usuarios",
+        de: "KI stimmt Nutzern zu",
+        nl: "AI die het eens is met gebruikers"
+      },
+      {
+        en: "Consensual AI",
+        es: "IA consensual",
+        de: "Einvernehmliche KI",
+        nl: "Consensuele AI"
+      },
+      {
+        en: "AI voting yes",
+        es: "IA votando sí",
+        de: "KI stimmt mit Ja",
+        nl: "AI die ja stemt"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "AI consent means obtaining clear permission from individuals before collecting or using their personal data in AI systems.",
+      es: "El consentimiento de IA significa obtener permiso claro de individuos antes de recolectar o usar sus datos personales en sistemas de IA.",
+      de: "KI-Einwilligung bedeutet, klare Erlaubnis von Personen vor der Nutzung ihrer Daten einzuholen.",
+      nl: "AI-toestemming betekent duidelijke toestemming krijgen voordat persoonlijke data wordt gebruikt."
+    }
+  },
+  {
+    question: {
+      en: "What is AI vulnerability?",
+      es: "¿Qué es la vulnerabilidad de IA?",
+      de: "Was ist KI-Verwundbarkeit?",
+      nl: "Wat is AI-kwetsbaarheid?"
+    },
+    options: [
+      {
+        en: "Protecting vulnerable groups from AI harm",
+        es: "Proteger grupos vulnerables del daño de IA",
+        de: "Schutzbedürftige Gruppen vor KI-Schäden schützen",
+        nl: "Kwetsbare groepen beschermen tegen AI-schade"
+      },
+      {
+        en: "AI security bugs",
+        es: "Errores de seguridad de IA",
+        de: "KI-Sicherheitsfehler",
+        nl: "AI-beveiligingsbugs"
+      },
+      {
+        en: "Weak AI systems",
+        es: "Sistemas de IA débiles",
+        de: "Schwache KI-Systeme",
+        nl: "Zwakke AI-systemen"
+      },
+      {
+        en: "AI emotions",
+        es: "Emociones de IA",
+        de: "KI-Emotionen",
+        nl: "AI-emoties"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "AI vulnerability refers to protecting vulnerable populations from potential harm or discrimination by AI systems.",
+      es: "La vulnerabilidad de IA se refiere a proteger poblaciones vulnerables del daño potencial o discriminación por sistemas de IA.",
+      de: "KI-Verwundbarkeit bezieht sich auf den Schutz gefährdeter Gruppen vor KI-Diskriminierung.",
+      nl: "AI-kwetsbaarheid verwijst naar het beschermen van kwetsbare groepen tegen mogelijke schade door AI."
+    }
+  },
+  {
+    question: {
+      en: "What is AI precaution?",
+      es: "¿Qué es la precaución de IA?",
+      de: "Was ist KI-Vorsorge?",
+      nl: "Wat is AI-voorzorg?"
+    },
+    options: [
+      {
+        en: "Being careful with new AI technologies",
+        es: "Ser cuidadoso con nuevas tecnologías de IA",
+        de: "Vorsichtig mit neuen KI-Technologien sein",
+        nl: "Voorzichtig zijn met nieuwe AI-technologieën"
+      },
+      {
+        en: "AI warning signs",
+        es: "Señales de advertencia de IA",
+        de: "KI-Warnschilder",
+        nl: "AI-waarschuwingsborden"
+      },
+      {
+        en: "Cautious AI",
+        es: "IA cautelosa",
+        de: "Vorsichtige KI",
+        nl: "Voorzichtige AI"
+      },
+      {
+        en: "AI safety gear",
+        es: "Equipo de seguridad de IA",
+        de: "KI-Sicherheitsausrüstung",
+        nl: "AI-veiligheidsuitrusting"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "AI precaution means being careful when deploying new AI technologies, considering potential risks before widespread adoption.",
+      es: "La precaución de IA significa ser cuidadoso al desplegar nuevas tecnologías de IA, considerando riesgos potenciales antes de adopción generalizada.",
+      de: "KI-Vorsorge bedeutet, vorsichtig mit neuen KI-Technologien umzugehen und Risiken zu bedenken.",
+      nl: "AI-voorzorg betekent voorzichtig zijn bij het inzetten van nieuwe AI-technologieën."
+    }
+  },
+  {
+    question: {
+      en: "What is AI stewardship?",
+      es: "¿Qué es la administración de IA?",
+      de: "Was ist KI-Verwaltung?",
+      nl: "Wat is AI-rentmeesterschap?"
+    },
+    options: [
+      {
+        en: "Responsible management of AI resources",
+        es: "Gestión responsable de recursos de IA",
+        de: "Verantwortungsvolle Verwaltung von KI-Ressourcen",
+        nl: "Verantwoord beheer van AI-middelen"
+      },
+      {
+        en: "AI flight attendants",
+        es: "Asistentes de vuelo de IA",
+        de: "KI-Flugbegleiter",
+        nl: "AI-stewards"
+      },
+      {
+        en: "Stewarding AI ships",
+        es: "Dirigir barcos de IA",
+        de: "KI-Schiffe steuern",
+        nl: "AI-schepen besturen"
+      },
+      {
+        en: "AI management software",
+        es: "Software de gestión de IA",
+        de: "KI-Verwaltungssoftware",
+        nl: "AI-beheersoftware"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "AI stewardship involves responsible management and oversight of AI development and deployment for society's benefit.",
+      es: "La administración de IA involucra gestión responsable y supervisión del desarrollo y despliegue de IA para beneficio de la sociedad.",
+      de: "KI-Verwaltung bedeutet verantwortungsvolle Verwaltung und Aufsicht über KI-Entwicklung.",
+      nl: "AI-rentmeesterschap behelst verantwoord beheer en toezicht op AI-ontwikkeling voor maatschappelijk voordeel."
+    }
+  },
+  {
+    question: {
+      en: "What is AI proportionality?",
+      es: "¿Qué es la proporcionalidad de IA?",
+      de: "Was ist KI-Verhältnismäßigkeit?",
+      nl: "Wat is AI-proportionaliteit?"
+    },
+    options: [
+      {
+        en: "AI use should match the task importance",
+        es: "El uso de IA debe coincidir con la importancia de la tarea",
+        de: "KI-Nutzung sollte zur Aufgabenwichtigkeit passen",
+        nl: "AI-gebruik moet passen bij het belang van de taak"
+      },
+      {
+        en: "AI body proportions",
+        es: "Proporciones corporales de IA",
+        de: "KI-Körperproportionen",
+        nl: "AI-lichaamsverhoudingen"
+      },
+      {
+        en: "Equal AI parts",
+        es: "Partes iguales de IA",
+        de: "Gleiche KI-Teile",
+        nl: "Gelijke AI-delen"
+      },
+      {
+        en: "AI mathematics",
+        es: "Matemáticas de IA",
+        de: "KI-Mathematik",
+        nl: "AI-wiskunde"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "AI proportionality means the level of AI intervention should be appropriate to the importance and sensitivity of the task.",
+      es: "La proporcionalidad de IA significa que el nivel de intervención de IA debe ser apropiado para la importancia de la tarea.",
+      de: "KI-Verhältnismäßigkeit bedeutet, dass KI-Eingriffe der Wichtigkeit der Aufgabe angemessen sein sollten.",
+      nl: "AI-proportionaliteit betekent dat het niveau van AI-interventie moet passen bij het belang van de taak."
+    }
+  },
+  {
+    question: {
+      en: "What is AI reversibility?",
+      es: "¿Qué es la reversibilidad de IA?",
+      de: "Was ist KI-Umkehrbarkeit?",
+      nl: "Wat is AI-omkeerbaarheid?"
+    },
+    options: [
+      {
+        en: "Ability to undo AI decisions",
+        es: "Capacidad de deshacer decisiones de IA",
+        de: "Fähigkeit, KI-Entscheidungen rückgängig zu machen",
+        nl: "Mogelijkheid om AI-beslissingen ongedaan te maken"
+      },
+      {
+        en: "AI driving in reverse",
+        es: "IA conduciendo en reversa",
+        de: "KI fährt rückwärts",
+        nl: "AI die achteruit rijdt"
+      },
+      {
+        en: "Backwards AI",
+        es: "IA hacia atrás",
+        de: "Rückwärts-KI",
+        nl: "Achterwaartse AI"
+      },
+      {
+        en: "AI time travel",
+        es: "Viaje en el tiempo de IA",
+        de: "KI-Zeitreise",
+        nl: "AI-tijdreizen"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "AI reversibility means having the ability to undo or correct AI decisions when they are wrong or harmful.",
+      es: "La reversibilidad de IA significa tener la capacidad de deshacer o corregir decisiones de IA cuando son erróneas o dañinas.",
+      de: "KI-Umkehrbarkeit bedeutet die Möglichkeit, KI-Entscheidungen rückgängig zu machen oder zu korrigieren.",
+      nl: "AI-omkeerbaarheid betekent de mogelijkheid hebben om AI-beslissingen ongedaan te maken of te corrigeren."
+    }
+  },
+  {
+    question: {
+      en: "What is AI certification?",
+      es: "¿Qué es la certificación de IA?",
+      de: "Was ist KI-Zertifizierung?",
+      nl: "Wat is AI-certificering?"
+    },
+    options: [
+      {
+        en: "Verifying AI meets ethical standards",
+        es: "Verificar que IA cumple estándares éticos",
+        de: "Überprüfen ob KI ethische Standards erfüllt",
+        nl: "Verifiëren dat AI ethische standaarden haalt"
+      },
+      {
+        en: "AI diplomas",
+        es: "Diplomas de IA",
+        de: "KI-Diplome",
+        nl: "AI-diploma's"
+      },
+      {
+        en: "Certified AI robots",
+        es: "Robots de IA certificados",
+        de: "Zertifizierte KI-Roboter",
+        nl: "Gecertificeerde AI-robots"
+      },
+      {
+        en: "AI birth certificates",
+        es: "Certificados de nacimiento de IA",
+        de: "KI-Geburtsurkunden",
+        nl: "AI-geboorteaktes"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "AI certification involves verifying that AI systems meet ethical, safety, and quality standards before deployment.",
+      es: "La certificación de IA involucra verificar que los sistemas de IA cumplan estándares éticos, de seguridad y calidad antes del despliegue.",
+      de: "KI-Zertifizierung bedeutet zu überprüfen, dass KI-Systeme ethische und Sicherheitsstandards erfüllen.",
+      nl: "AI-certificering behelst het verifiëren dat AI-systemen voldoen aan ethische, veiligheids- en kwaliteitsnormen."
+    }
+  },
+  {
+    question: {
+      en: "What is AI auditing?",
+      es: "¿Qué es la auditoría de IA?",
+      de: "Was ist KI-Audit?",
+      nl: "Wat is AI-auditing?"
+    },
+    options: [
+      {
+        en: "Reviewing AI systems for compliance",
+        es: "Revisar sistemas de IA para cumplimiento",
+        de: "KI-Systeme auf Einhaltung überprüfen",
+        nl: "AI-systemen controleren op naleving"
+      },
+      {
+        en: "AI hearing tests",
+        es: "Pruebas de audición de IA",
+        de: "KI-Hörtests",
+        nl: "AI-gehoortesten"
+      },
+      {
+        en: "Listening to AI",
+        es: "Escuchar a la IA",
+        de: "KI zuhören",
+        nl: "Luisteren naar AI"
+      },
+      {
+        en: "AI accounting",
+        es: "Contabilidad de IA",
+        de: "KI-Buchhaltung",
+        nl: "AI-boekhouding"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "AI auditing involves systematically reviewing AI systems to ensure they comply with ethical guidelines and regulations.",
+      es: "La auditoría de IA involucra revisar sistemáticamente sistemas de IA para asegurar que cumplan con directrices éticas y regulaciones.",
+      de: "KI-Audit bedeutet systematische Überprüfung von KI-Systemen auf Einhaltung ethischer Richtlinien.",
+      nl: "AI-auditing behelst het systematisch controleren van AI-systemen op naleving van ethische richtlijnen."
+    }
+  },
+  {
+    question: {
+      en: "What is AI monitoring?",
+      es: "¿Qué es el monitoreo de IA?",
+      de: "Was ist KI-Überwachung?",
+      nl: "Wat is AI-monitoring?"
+    },
+    options: [
+      {
+        en: "Continuously watching AI performance",
+        es: "Ver continuamente el rendimiento de IA",
+        de: "Kontinuierliche Überwachung der KI-Leistung",
+        nl: "Continu AI-prestaties observeren"
+      },
+      {
+        en: "AI computer screens",
+        es: "Pantallas de computadora de IA",
+        de: "KI-Computerbildschirme",
+        nl: "AI-computerschermen"
+      },
+      {
+        en: "Monitor lizards with AI",
+        es: "Lagartos monitor con IA",
+        de: "Warane mit KI",
+        nl: "Varanen met AI"
+      },
+      {
+        en: "AI watching TV",
+        es: "IA viendo televisión",
+        de: "KI schaut Fernsehen",
+        nl: "AI die tv kijkt"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "AI monitoring involves continuously observing AI system performance to detect problems and ensure proper operation.",
+      es: "El monitoreo de IA involucra observar continuamente el rendimiento del sistema de IA para detectar problemas.",
+      de: "KI-Überwachung bedeutet kontinuierliche Beobachtung der KI-Systemleistung zur Problemerkennung.",
+      nl: "AI-monitoring behelst het continu observeren van AI-systeemprestaties om problemen te detecteren."
+    }
+  },
+  {
+    question: {
+      en: "What is AI redress?",
+      es: "¿Qué es la reparación de IA?",
+      de: "Was ist KI-Abhilfe?",
+      nl: "Wat is AI-verhaal?"
+    },
+    options: [
+      {
+        en: "Correcting AI-caused harm",
+        es: "Corregir daño causado por IA",
+        de: "KI-verursachte Schäden korrigieren",
+        nl: "Door AI veroorzaakte schade herstellen"
+      },
+      {
+        en: "Dressing AI again",
+        es: "Vestir a la IA de nuevo",
+        de: "KI neu anziehen",
+        nl: "AI opnieuw aankleden"
+      },
+      {
+        en: "AI clothing",
+        es: "Ropa de IA",
+        de: "KI-Kleidung",
+        nl: "AI-kleding"
+      },
+      {
+        en: "Red AI systems",
+        es: "Sistemas de IA rojos",
+        de: "Rote KI-Systeme",
+        nl: "Rode AI-systemen"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "AI redress means providing remedies and corrections when AI systems cause harm or make mistakes.",
+      es: "La reparación de IA significa proporcionar remedios y correcciones cuando los sistemas de IA causan daño o cometen errores.",
+      de: "KI-Abhilfe bedeutet, Abhilfe und Korrekturen bereitzustellen, wenn KI-Systeme Schäden verursachen.",
+      nl: "AI-verhaal betekent het bieden van remedies en correcties wanneer AI-systemen schade veroorzaken."
+    }
+  },
+  {
+    question: {
+      en: "What is AI accessibility?",
+      es: "¿Qué es la accesibilidad de IA?",
+      de: "Was ist KI-Barrierefreiheit?",
+      nl: "Wat is AI-toegankelijkheid?"
+    },
+    options: [
+      {
+        en: "Making AI usable for people with disabilities",
+        es: "Hacer IA utilizable para personas con discapacidades",
+        de: "KI für Menschen mit Behinderungen nutzbar machen",
+        nl: "AI bruikbaar maken voor mensen met beperkingen"
+      },
+      {
+        en: "Accessing AI systems",
+        es: "Acceder a sistemas de IA",
+        de: "Auf KI-Systeme zugreifen",
+        nl: "Toegang tot AI-systemen"
+      },
+      {
+        en: "AI passwords",
+        es: "Contraseñas de IA",
+        de: "KI-Passwörter",
+        nl: "AI-wachtwoorden"
+      },
+      {
+        en: "AI entry doors",
+        es: "Puertas de entrada de IA",
+        de: "KI-Eingangstüren",
+        nl: "AI-toegangsdeuren"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "AI accessibility ensures AI systems are designed to be usable by people with disabilities and diverse needs.",
+      es: "La accesibilidad de IA asegura que los sistemas de IA sean diseñados para ser utilizables por personas con discapacidades.",
+      de: "KI-Barrierefreiheit stellt sicher, dass KI-Systeme für Menschen mit Behinderungen nutzbar sind.",
+      nl: "AI-toegankelijkheid zorgt ervoor dat AI-systemen bruikbaar zijn voor mensen met beperkingen."
+    }
+  },
+  {
+    question: {
+      en: "What is AI interoperability?",
+      es: "¿Qué es la interoperabilidad de IA?",
+      de: "Was ist KI-Interoperabilität?",
+      nl: "Wat is AI-interoperabiliteit?"
+    },
+    options: [
+      {
+        en: "Different AI systems working together",
+        es: "Diferentes sistemas de IA trabajando juntos",
+        de: "Verschiedene KI-Systeme arbeiten zusammen",
+        nl: "Verschillende AI-systemen die samenwerken"
+      },
+      {
+        en: "AI operations",
+        es: "Operaciones de IA",
+        de: "KI-Operationen",
+        nl: "AI-operaties"
+      },
+      {
+        en: "Operating AI",
+        es: "Operar IA",
+        de: "KI bedienen",
+        nl: "AI bedienen"
+      },
+      {
+        en: "International AI",
+        es: "IA internacional",
+        de: "Internationale KI",
+        nl: "Internationale AI"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "AI interoperability means different AI systems can work together and share information effectively.",
+      es: "La interoperabilidad de IA significa que diferentes sistemas de IA pueden trabajar juntos y compartir información efectivamente.",
+      de: "KI-Interoperabilität bedeutet, dass verschiedene KI-Systeme zusammenarbeiten und Informationen austauschen können.",
+      nl: "AI-interoperabiliteit betekent dat verschillende AI-systemen kunnen samenwerken en informatie delen."
+    }
+  },
+  {
+    question: {
+      en: "What is AI standardization?",
+      es: "¿Qué es la estandarización de IA?",
+      de: "Was ist KI-Standardisierung?",
+      nl: "Wat is AI-standaardisatie?"
+    },
+    options: [
+      {
+        en: "Creating common rules for AI development",
+        es: "Crear reglas comunes para desarrollo de IA",
+        de: "Gemeinsame Regeln für KI-Entwicklung schaffen",
+        nl: "Gemeenschappelijke regels voor AI-ontwikkeling maken"
+      },
+      {
+        en: "Standard AI robots",
+        es: "Robots de IA estándar",
+        de: "Standard-KI-Roboter",
+        nl: "Standaard AI-robots"
+      },
+      {
+        en: "Making all AI the same",
+        es: "Hacer toda la IA igual",
+        de: "Alle KI gleich machen",
+        nl: "Alle AI hetzelfde maken"
+      },
+      {
+        en: "AI flags",
+        es: "Banderas de IA",
+        de: "KI-Fahnen",
+        nl: "AI-vlaggen"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "AI standardization involves creating common technical and ethical standards for AI development and deployment.",
+      es: "La estandarización de IA involucra crear estándares técnicos y éticos comunes para desarrollo y despliegue de IA.",
+      de: "KI-Standardisierung bedeutet, gemeinsame technische und ethische Standards für KI zu schaffen.",
+      nl: "AI-standaardisatie behelst het creëren van gemeenschappelijke technische en ethische standaarden voor AI."
+    }
+  },
+  {
+    question: {
+      en: "What is AI regulation?",
+      es: "¿Qué es la regulación de IA?",
+      de: "Was ist KI-Regulierung?",
+      nl: "Wat is AI-regulering?"
+    },
+    options: [
+      {
+        en: "Laws governing AI use",
+        es: "Leyes que gobiernan el uso de IA",
+        de: "Gesetze zur KI-Nutzung",
+        nl: "Wetten die AI-gebruik regelen"
+      },
+      {
+        en: "Regulating AI temperature",
+        es: "Regular la temperatura de IA",
+        de: "KI-Temperatur regulieren",
+        nl: "AI-temperatuur regelen"
+      },
+      {
+        en: "Regular AI",
+        es: "IA regular",
+        de: "Reguläre KI",
+        nl: "Reguliere AI"
+      },
+      {
+        en: "AI regulators",
+        es: "Reguladores de IA",
+        de: "KI-Regler",
+        nl: "AI-regelaars"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "AI regulation refers to laws and rules established by governments to control how AI is developed and used.",
+      es: "La regulación de IA se refiere a leyes y reglas establecidas por gobiernos para controlar cómo se desarrolla y usa la IA.",
+      de: "KI-Regulierung bezieht sich auf Gesetze zur Kontrolle von KI-Entwicklung und -Nutzung.",
+      nl: "AI-regulering verwijst naar wetten en regels om te controleren hoe AI wordt ontwikkeld en gebruikt."
+    }
+  },
+  {
+    question: {
+      en: "What is AI compliance?",
+      es: "¿Qué es el cumplimiento de IA?",
+      de: "Was ist KI-Compliance?",
+      nl: "Wat is AI-compliance?"
+    },
+    options: [
+      {
+        en: "Following AI laws and guidelines",
+        es: "Seguir leyes y directrices de IA",
+        de: "KI-Gesetze und Richtlinien befolgen",
+        nl: "AI-wetten en richtlijnen volgen"
+      },
+      {
+        en: "Compliant AI robots",
+        es: "Robots de IA obedientes",
+        de: "Gehorsame KI-Roboter",
+        nl: "Meegaande AI-robots"
+      },
+      {
+        en: "AI complaints",
+        es: "Quejas de IA",
+        de: "KI-Beschwerden",
+        nl: "AI-klachten"
+      },
+      {
+        en: "Complex AI",
+        es: "IA compleja",
+        de: "Komplexe KI",
+        nl: "Complexe AI"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "AI compliance means ensuring AI systems follow all applicable laws, regulations, and ethical guidelines.",
+      es: "El cumplimiento de IA significa asegurar que los sistemas de IA sigan todas las leyes, regulaciones y directrices éticas aplicables.",
+      de: "KI-Compliance bedeutet sicherzustellen, dass KI-Systeme alle geltenden Gesetze und Richtlinien befolgen.",
+      nl: "AI-compliance betekent ervoor zorgen dat AI-systemen alle toepasselijke wetten en richtlijnen volgen."
+    }
+  },
+  {
+    question: {
+      en: "What is AI risk assessment?",
+      es: "¿Qué es la evaluación de riesgo de IA?",
+      de: "Was ist KI-Risikobewertung?",
+      nl: "Wat is AI-risicobeoordeling?"
+    },
+    options: [
+      {
+        en: "Identifying potential AI dangers",
+        es: "Identificar peligros potenciales de IA",
+        de: "Potenzielle KI-Gefahren identifizieren",
+        nl: "Potentiële AI-gevaren identificeren"
+      },
+      {
+        en: "Risky AI games",
+        es: "Juegos arriesgados de IA",
+        de: "Riskante KI-Spiele",
+        nl: "Riskante AI-spelletjes"
+      },
+      {
+        en: "AI risk taking",
+        es: "IA tomando riesgos",
+        de: "KI geht Risiken ein",
+        nl: "AI die risico's neemt"
+      },
+      {
+        en: "Assessing AI value",
+        es: "Evaluar el valor de IA",
+        de: "KI-Wert bewerten",
+        nl: "AI-waarde beoordelen"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "AI risk assessment involves identifying and evaluating potential dangers and negative impacts of AI systems before deployment.",
+      es: "La evaluación de riesgo de IA involucra identificar y evaluar peligros potenciales e impactos negativos de sistemas de IA antes del despliegue.",
+      de: "KI-Risikobewertung bedeutet, potenzielle Gefahren und negative Auswirkungen von KI-Systemen zu identifizieren.",
+      nl: "AI-risicobeoordeling behelst het identificeren en evalueren van potentiële gevaren van AI-systemen."
+    }
+  },
+  {
+    question: {
+      en: "What is AI impact assessment?",
+      es: "¿Qué es la evaluación de impacto de IA?",
+      de: "Was ist KI-Folgenabschätzung?",
+      nl: "Wat is AI-impactbeoordeling?"
+    },
+    options: [
+      {
+        en: "Evaluating AI effects on society",
+        es: "Evaluar efectos de IA en la sociedad",
+        de: "KI-Auswirkungen auf die Gesellschaft bewerten",
+        nl: "AI-effecten op de samenleving evalueren"
+      },
+      {
+        en: "AI collision testing",
+        es: "Pruebas de colisión de IA",
+        de: "KI-Aufpralltests",
+        nl: "AI-botsingstesten"
+      },
+      {
+        en: "Impactful AI",
+        es: "IA impactante",
+        de: "Eindrucksvolle KI",
+        nl: "Impactvolle AI"
+      },
+      {
+        en: "AI meteor impacts",
+        es: "Impactos de meteoros de IA",
+        de: "KI-Meteoriteneinschläge",
+        nl: "AI-meteorietinslagen"
+      }
+    ],
+    correct: 0,
+    explanation: {
+      en: "AI impact assessment evaluates how AI systems will affect society, individuals, and the environment before implementation.",
+      es: "La evaluación de impacto de IA evalúa cómo los sistemas de IA afectarán a la sociedad, individuos y el ambiente antes de implementación.",
+      de: "KI-Folgenabschätzung bewertet, wie KI-Systeme Gesellschaft und Umwelt beeinflussen werden.",
+      nl: "AI-impactbeoordeling evalueert hoe AI-systemen de samenleving en het milieu zullen beïnvloeden."
+    }
   }
-})();
+  ]
+};

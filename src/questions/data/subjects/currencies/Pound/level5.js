@@ -1,1657 +1,4104 @@
-// Pound Quiz - Level 5
-(function() {
-  const level5 = {
-    name: {
-          "en": "Pond - Expert",
-          "es": "Libra - Experto",
-          "de": "Pfund - Experte",
-          "nl": "Pond - Expert"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Pound",
+      "es": "Pregunta 1 sobre Pound",
+      "de": "Frage 1 über Pound",
+      "nl": "Vraag 1 over Pound"
     },
-    questions: [
+    "options": [
       {
-        question: {
-                  "en": "What is the theoretical foundation of the Bank of England's approach to unconventional monetary policy transmission through portfolio balance effects?",
-                  "es": "¿Cuál es el fundamento teórico del enfoque del Banco de Inglaterra sobre la transmisión de política monetaria no convencional a través de efectos de equilibrio de cartera?",
-                  "de": "Was ist die theoretische Grundlage des Ansatzes der Bank of England zur unkonventionellen geldpolitischen Übertragung durch Portfolio-Balance-Effekte?",
-                  "nl": "Wat is de theoretische basis van de Bank of England's benadering van onconventionele monetaire beleidsoverdracht via portefeuille-balanseffecten?"
-        },
-        options: [
-        {
-                  "en": "Liquidity preference theory with homogeneous investor preferences",
-                  "es": "Teoría de preferencia por liquidez con preferencias homogéneas de inversores",
-                  "de": "Liquiditätspräferenztheorie mit homogenen Investorenpräferenzen",
-                  "nl": "Liquiditeitsvoorkeurtheorie met homogene investeerdersvoorkeuren"
-        },
-        {
-                  "en": "Preferred habitat theory combined with imperfect asset substitutability in segmented markets",
-                  "es": "Teoría del hábitat preferido combinada con sustituibilidad imperfecta de activos en mercados segmentados",
-                  "de": "Preferred-Habitat-Theorie kombiniert mit unvollständiger Vermögenssubstituierbarkeit in segmentierten Märkten",
-                  "nl": "Preferred habitat theorie gecombineerd met onvolmaakte activasubstitutie in gesegmenteerde markten"
-        },
-        {
-                  "en": "Pure expectations hypothesis with rational expectations and efficient markets",
-                  "es": "Hipótesis de expectativas puras con expectativas racionales y mercados eficientes",
-                  "de": "Reine Erwartungshypothese mit rationalen Erwartungen und effizienten Märkten",
-                  "nl": "Pure verwachtingshypothese met rationele verwachtingen en efficiënte markten"
-        },
-        {
-                  "en": "Market segmentation theory based solely on institutional constraints",
-                  "es": "Teoría de segmentación de mercado basada únicamente en restricciones institucionales",
-                  "de": "Marktsegmentierungstheorie basierend ausschließlich auf institutionellen Beschränkungen",
-                  "nl": "Marktsegmentatietheorie gebaseerd uitsluitend op institutionele beperkingen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The BoE's QE transmission mechanism relies on preferred habitat theory, where investors have preferences for specific maturity segments, combined with imperfect substitutability between assets. This creates portfolio rebalancing effects when the central bank purchases securities.",
-                  "es": "El mecanismo de transmisión de QE del BoE se basa en la teoría del hábitat preferido, donde los inversores tienen preferencias por segmentos de vencimiento específicos, combinado con sustituibilidad imperfecta entre activos. Esto crea efectos de reequilibrio de cartera cuando el banco central compra valores.",
-                  "de": "Der QE-Übertragungsmechanismus der BoE basiert auf der Preferred-Habitat-Theorie, bei der Investoren Präferenzen für bestimmte Laufzeitsegmente haben, kombiniert mit unvollständiger Substituierbarkeit zwischen Vermögenswerten. Dies schafft Portfolio-Rebalancing-Effekte, wenn die Zentralbank Wertpapiere kauft.",
-                  "nl": "Het QE-transmissiemechanisme van de BoE is gebaseerd op de preferred habitat theorie, waarbij investeerders voorkeuren hebben voor specifieke looptijdsegmenten, gecombineerd met onvolmaakte substitutie tussen activa. Dit creëert portefeuille-herbalanceringseffecten wanneer de centrale bank effecten koopt."
-        }
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
       },
       {
-        question: {
-                  "en": "How does the Bank of England's Term Funding Scheme with additional incentives for SMEs (TFS-SME) address the credit channel transmission mechanism?",
-                  "es": "¿Cómo aborda el Esquema de Financiamiento a Plazo del Banco de Inglaterra con incentivos adicionales para PYMEs (TFS-SME) el mecanismo de transmisión del canal de crédito?",
-                  "de": "Wie geht das Term Funding Scheme der Bank of England mit zusätzlichen Anreizen für KMU (TFS-SME) den Kreditkanal-Übertragungsmechanismus an?",
-                  "nl": "Hoe pakt de Bank of England's Term Funding Scheme met extra incentives voor MKB (TFS-SME) het kredietkanaal transmissiemechanisme aan?"
-        },
-        options: [
-        {
-                  "en": "Provides funding at rates below Bank Rate tied to lending growth, particularly for SME lending",
-                  "es": "Proporciona financiamiento a tasas por debajo de la Tasa del Banco vinculadas al crecimiento crediticio, particularmente para préstamos a PYMEs",
-                  "de": "Bietet Finanzierung zu Zinssätzen unter dem Bankzinssatz an, die an das Kreditwachstum gekoppelt sind, insbesondere für KMU-Kredite",
-                  "nl": "Biedt financiering tegen tarieven onder Bank Rate gekoppeld aan kredietgroei, vooral voor MKB-kredietverlening"
-        },
-        {
-                  "en": "Directly purchases SME loans from banks at market prices",
-                  "es": "Compra directamente préstamos a PYMEs de bancos a precios de mercado",
-                  "de": "Kauft direkt KMU-Kredite von Banken zu Marktpreisen",
-                  "nl": "Koopt direct MKB-leningen van banken tegen marktprijzen"
-        },
-        {
-                  "en": "Provides government guarantees for all SME lending without rate conditions",
-                  "es": "Proporciona garantías gubernamentales para todos los préstamos a PYMEs sin condiciones de tasa",
-                  "de": "Bietet Regierungsgarantien für alle KMU-Kredite ohne Zinsbedingungen",
-                  "nl": "Biedt overheidsgaranties voor alle MKB-kredietverlening zonder rentevoorwaarden"
-        },
-        {
-                  "en": "Sets mandatory lending quotas for banks with penalty rates",
-                  "es": "Establece cuotas de préstamo obligatorias para bancos con tasas de penalización",
-                  "de": "Setzt verbindliche Kreditquoten für Banken mit Strafzinsen fest",
-                  "nl": "Stelt verplichte kredietquota's vast voor banken met boetetarieven"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "TFS-SME provides banks with funding at rates below Bank Rate, with the rate and allowance linked to their lending growth. Banks receive additional incentives specifically for SME lending, directly addressing credit channel frictions by reducing funding costs and encouraging lending to smaller businesses.",
-                  "es": "TFS-SME proporciona a los bancos financiamiento a tasas por debajo de la Tasa del Banco, con la tasa y asignación vinculadas a su crecimiento crediticio. Los bancos reciben incentivos adicionales específicamente para préstamos a PYMEs, abordando directamente las fricciones del canal de crédito al reducir costos de financiamiento y alentar préstamos a empresas más pequeñas.",
-                  "de": "TFS-SME bietet Banken Finanzierung zu Zinssätzen unter dem Bankzinssatz, wobei Zinssatz und Zuteilung an ihr Kreditwachstum gekoppelt sind. Banken erhalten zusätzliche Anreize speziell für KMU-Kredite, wodurch Kreditkanal-Friktionen direkt durch Senkung der Finanzierungskosten und Förderung der Kreditvergabe an kleinere Unternehmen angegangen werden.",
-                  "nl": "TFS-SME biedt banken financiering tegen tarieven onder Bank Rate, waarbij het tarief en de toewijzing gekoppeld zijn aan hun kredietgroei. Banken ontvangen extra incentives specifiek voor MKB-kredietverlening, waarmee kredietkanaalwrijvingen direct worden aangepakt door financieringskosten te verlagen en kredietverlening aan kleinere bedrijven aan te moedigen."
-        }
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
       },
       {
-        question: {
-                  "en": "What is the role of the Bank of England's Real-Time Gross Settlement (RTGS) system in systemic risk management and monetary policy implementation?",
-                  "es": "¿Cuál es el papel del sistema de Liquidación Bruta en Tiempo Real (RTGS) del Banco de Inglaterra en la gestión de riesgo sistémico e implementación de política monetaria?",
-                  "de": "Welche Rolle spielt das Real-Time Gross Settlement (RTGS) System der Bank of England im systemischen Risikomanagement und der geldpolitischen Umsetzung?",
-                  "nl": "Wat is de rol van de Bank of England's Real-Time Gross Settlement (RTGS) systeem in systemisch risicomanagement en monetaire beleidsimplementatie?"
-        },
-        options: [
-        {
-                  "en": "Serves only as a backup system for commercial bank payment networks",
-                  "es": "Sirve solo como sistema de respaldo para redes de pago de bancos comerciales",
-                  "de": "Dient nur als Backup-System für kommerzielle Bankzahlungsnetzwerke",
-                  "nl": "Dient alleen als back-upsysteem voor commerciële bankbetalingsnetwerken"
-        },
-        {
-                  "en": "Primarily focuses on retail payment processing and consumer transactions",
-                  "es": "Se enfoca principalmente en procesamiento de pagos minoristas y transacciones de consumidores",
-                  "de": "Konzentriert sich hauptsächlich auf Einzelhandelszahlungsverarbeitung und Verbrauchertransaktionen",
-                  "nl": "Richt zich vooral op retailbetalingsverwerking en consumententransacties"
-        },
-        {
-                  "en": "Operates as a multilateral netting system with end-of-day settlement",
-                  "es": "Opera como un sistema de compensación multilateral con liquidación al final del día",
-                  "de": "Funktioniert als multilaterales Netting-System mit Tagesendabwicklung",
-                  "nl": "Werkt als een multilateraal netting-systeem met einde-dag afwikkeling"
-        },
-        {
-                  "en": "Provides the infrastructure for instant, irrevocable payments that eliminates settlement risk and enables precise liquidity management",
-                  "es": "Proporciona la infraestructura para pagos instantáneos e irrevocables que elimina el riesgo de liquidación y permite gestión precisa de liquidez",
-                  "de": "Bietet die Infrastruktur für sofortige, unwiderrufliche Zahlungen, die das Abwicklungsrisiko eliminiert und präzises Liquiditätsmanagement ermöglicht",
-                  "nl": "Biedt de infrastructuur voor onmiddellijke, onherroepelijke betalingen die afwikkelingsrisico elimineert en nauwkeurig liquiditeitsbeheer mogelijk maakt"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "RTGS provides real-time, gross settlement of high-value payments in central bank money, eliminating settlement risk. It's crucial for systemic stability as it processes critical payments between financial institutions and enables the BoE to implement monetary policy through precise liquidity operations and reserve management.",
-                  "es": "RTGS proporciona liquidación bruta en tiempo real de pagos de alto valor en dinero del banco central, eliminando el riesgo de liquidación. Es crucial para la estabilidad sistémica ya que procesa pagos críticos entre instituciones financieras y permite al BoE implementar política monetaria a través de operaciones de liquidez precisas y gestión de reservas.",
-                  "de": "RTGS bietet Echtzeit-Brutto-Abwicklung von hochvolumigen Zahlungen in Zentralbankgeld und eliminiert Abwicklungsrisiken. Es ist entscheidend für systemische Stabilität, da es kritische Zahlungen zwischen Finanzinstituten verarbeitet und der BoE ermöglicht, Geldpolitik durch präzise Liquiditätsoperationen und Reservenmanagement umzusetzen.",
-                  "nl": "RTGS biedt realtime, bruto afwikkeling van hoogwaardige betalingen in centralebankgeld, waarmee afwikkelingsrisico wordt geëlimineerd. Het is cruciaal voor systemische stabiliteit omdat het kritieke betalingen tussen financiële instellingen verwerkt en de BoE in staat stelt monetair beleid te implementeren via nauwkeurige liquiditeitsoperaties en reservebeheer."
-        }
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
       },
       {
-        question: {
-                  "en": "How does the Bank of England's approach to climate-related financial risk assessment integrate physical and transition risks into prudential supervision?",
-                  "es": "¿Cómo integra el enfoque del Banco de Inglaterra para la evaluación de riesgo financiero relacionado con el clima los riesgos físicos y de transición en la supervisión prudencial?",
-                  "de": "Wie integriert der Ansatz der Bank of England zur klimabezogenen Finanzrisikobewertung physische und Übergangsrisiken in die Aufsicht?",
-                  "nl": "Hoe integreert de Bank of England's benadering van klimaatgerelateerde financiële risicobeoordeling fysieke en transitierisico's in prudentieel toezicht?"
-        },
-        options: [
-        {
-                  "en": "Uses scenario analysis combining temperature pathways with sectoral transition models and physical damage functions",
-                  "es": "Utiliza análisis de escenarios combinando trayectorias de temperatura con modelos de transición sectorial y funciones de daño físico",
-                  "de": "Verwendet Szenarioanalyse, die Temperaturpfade mit sektoralen Übergangsmodellen und physischen Schadensfunktionen kombiniert",
-                  "nl": "Gebruikt scenarioanalyse die temperatuurpaden combineert met sectorale transitiemodellen en fysieke schaadefuncties"
-        },
-        {
-                  "en": "Applies simple carbon tax scenarios to existing credit risk models",
-                  "es": "Aplica escenarios simples de impuesto al carbono a modelos de riesgo crediticio existentes",
-                  "de": "Wendet einfache Kohlenstoffsteuerszenarien auf bestehende Kreditrisikomodelle an",
-                  "nl": "Past eenvoudige koolstofbelastingscenario's toe op bestaande kredietrisicomodellen"
-        },
-        {
-                  "en": "Focuses exclusively on reputational risk from environmental activism",
-                  "es": "Se enfoca exclusivamente en riesgo reputacional del activismo ambiental",
-                  "de": "Konzentriert sich ausschließlich auf Reputationsrisiken durch Umweltaktivismus",
-                  "nl": "Richt zich uitsluitend op reputatierisico van milieuactivisme"
-        },
-        {
-                  "en": "Uses only historical weather data for risk assessment",
-                  "es": "Utiliza solo datos meteorológicos históricos para evaluación de riesgos",
-                  "de": "Verwendet nur historische Wetterdaten für Risikobewertung",
-                  "nl": "Gebruikt alleen historische weergegevens voor risicobeoordeling"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The BoE employs comprehensive scenario analysis that models different climate pathways (physical risks like extreme weather) alongside transition scenarios (policy and technology changes). This involves integrating climate science with economic models to assess impacts on financial institutions' portfolios and systemic stability.",
-                  "es": "El BoE emplea análisis integral de escenarios que modela diferentes trayectorias climáticas (riesgos físicos como clima extremo) junto con escenarios de transición (cambios de política y tecnología). Esto implica integrar ciencia climática con modelos económicos para evaluar impactos en carteras de instituciones financieras y estabilidad sistémica.",
-                  "de": "Die BoE verwendet umfassende Szenarioanalyse, die verschiedene Klimapfade (physische Risiken wie Extremwetter) zusammen mit Übergangsszenarien (Politik- und Technologieänderungen) modelliert. Dies beinhaltet die Integration von Klimawissenschaft mit Wirtschaftsmodellen zur Bewertung von Auswirkungen auf Portfolios von Finanzinstituten und systemische Stabilität.",
-                  "nl": "De BoE gebruikt uitgebreide scenarioanalyse die verschillende klimaatpaden (fysieke risico's zoals extreem weer) modelleert naast transitiescenario's (beleids- en technologieveranderingen). Dit behelst het integreren van klimaatwetenschap met economische modellen om effecten op portefeuilles van financiële instellingen en systemische stabiliteit te beoordelen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the theoretical framework behind the Bank of England's approach to measuring and managing procyclicality in the financial system?",
-                  "es": "¿Cuál es el marco teórico detrás del enfoque del Banco de Inglaterra para medir y gestionar la prociclicidad en el sistema financiero?",
-                  "de": "Was ist der theoretische Rahmen hinter dem Ansatz der Bank of England zur Messung und Verwaltung von Prozyklizität im Finanzsystem?",
-                  "nl": "Wat is het theoretische kader achter de Bank of England's benadering van het meten en beheren van procycliciteit in het financiële systeem?"
-        },
-        options: [
-        {
-                  "en": "Market-based pricing mechanisms without regulatory intervention",
-                  "es": "Mecanismos de precios basados en mercado sin intervención regulatoria",
-                  "de": "Marktbasierte Preismechanismen ohne regulatorische Intervention",
-                  "nl": "Marktgebaseerde prijsmechanismen zonder regulatoire interventie"
-        },
-        {
-                  "en": "Fixed lending ratios regardless of economic cycle position",
-                  "es": "Ratios de préstamo fijos independientemente de la posición del ciclo económico",
-                  "de": "Feste Kreditverhältnisse unabhängig von der Wirtschaftszyklusposition",
-                  "nl": "Vaste kredietverhoudingen ongeacht economische cycluspositie"
-        },
-        {
-                  "en": "Financial accelerator theory combined with dynamic provisioning and countercyclical capital buffers",
-                  "es": "Teoría del acelerador financiero combinada con provisiones dinámicas y amortiguadores de capital contracíclicos",
-                  "de": "Finanzakzelerator-Theorie kombiniert mit dynamischer Vorsorge und antizyklischen Kapitalpuffern",
-                  "nl": "Financiële accelerator theorie gecombineerd met dynamische voorzieningen en anticyclische kapitaalbuffers"
-        },
-        {
-                  "en": "Static capital requirements based on historical loss averages",
-                  "es": "Requisitos de capital estáticos basados en promedios históricos de pérdidas",
-                  "de": "Statische Kapitalanforderungen basierend auf historischen Verlustdurchschnitten",
-                  "nl": "Statische kapitaalvereisten gebaseerd op historische verliesgemiddelden"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The BoE's approach is based on financial accelerator theory, which shows how financial frictions amplify economic cycles. They use tools like countercyclical capital buffers that increase during good times to build resilience, and dynamic provisioning that adjusts to economic conditions, helping to smooth credit cycles and reduce systemic risk.",
-                  "es": "El enfoque del BoE se basa en la teoría del acelerador financiero, que muestra cómo las fricciones financieras amplifican los ciclos económicos. Utilizan herramientas como amortiguadores de capital contracíclicos que aumentan durante buenos tiempos para construir resistencia, y provisiones dinámicas que se ajustan a condiciones económicas, ayudando a suavizar ciclos crediticios y reducir riesgo sistémico.",
-                  "de": "Der BoE-Ansatz basiert auf der Finanzakzelerator-Theorie, die zeigt, wie Finanzfriktionen Wirtschaftszyklen verstärken. Sie verwenden Instrumente wie antizyklische Kapitalpuffer, die in guten Zeiten zunehmen, um Widerstandsfähigkeit aufzubauen, und dynamische Vorsorge, die sich an wirtschaftliche Bedingungen anpasst und hilft, Kreditzyklen zu glätten und systemische Risiken zu reduzieren.",
-                  "nl": "De BoE's benadering is gebaseerd op financiële accelerator theorie, die toont hoe financiële wrijvingen economische cycli versterken. Ze gebruiken instrumenten zoals anticyclische kapitaalbuffers die toenemen tijdens goede tijden om veerkracht op te bouwen, en dynamische voorzieningen die aanpassen aan economische omstandigheden, wat helpt kredietcycli af te vlakken en systemisch risico te verminderen."
-        }
-      },
-      {
-        question: {
-                  "en": "How does the Bank of England's framework for assessing structural market liquidity incorporate network effects and interconnectedness risks?",
-                  "es": "¿Cómo incorpora el marco del Banco de Inglaterra para evaluar la liquidez estructural del mercado efectos de red y riesgos de interconectividad?",
-                  "de": "Wie integriert das Framework der Bank of England zur Bewertung struktureller Marktliquidität Netzwerkeffekte und Verflechtungsrisiken?",
-                  "nl": "Hoe integreert de Bank of England's raamwerk voor het beoordelen van structurele marktliquiditeit netwerkeffecten en onderlinge verbondenheidsrisico's?"
-        },
-        options: [
-        {
-                  "en": "Uses simple correlation analysis between asset prices",
-                  "es": "Utiliza análisis de correlación simple entre precios de activos",
-                  "de": "Verwendet einfache Korrelationsanalyse zwischen Vermögenspreisen",
-                  "nl": "Gebruikt eenvoudige correlatieanalyse tussen activaprijzen"
-        },
-        {
-                  "en": "Uses network topology analysis and contagion models to map dealer-client relationships and funding interdependencies",
-                  "es": "Utiliza análisis de topología de red y modelos de contagio para mapear relaciones dealer-cliente e interdependencias de financiamiento",
-                  "de": "Verwendet Netzwerktopologie-Analyse und Ansteckungsmodelle zur Kartierung von Händler-Kunden-Beziehungen und Finanzierungsabhängigkeiten",
-                  "nl": "Gebruikt netwerktopologie-analyse en besmettingsmodellen om dealer-klant relaties en financieringsafhankelijkheden in kaart te brengen"
-        },
-        {
-                  "en": "Relies solely on individual firm liquidity ratios without considering connections",
-                  "es": "Se basa únicamente en ratios de liquidez de empresas individuales sin considerar conexiones",
-                  "de": "Verlässt sich ausschließlich auf individuelle Unternehmensliquiditätsverhältnisse ohne Verbindungen zu berücksichtigen",
-                  "nl": "Vertrouwt uitsluitend op individuele bedrijfsliquiditeitsverhoudingen zonder verbindingen te overwegen"
-        },
-        {
-                  "en": "Focuses only on trading volumes without network analysis",
-                  "es": "Se enfoca solo en volúmenes de negociación sin análisis de red",
-                  "de": "Konzentriert sich nur auf Handelsvolumen ohne Netzwerkanalyse",
-                  "nl": "Richt zich alleen op handelsvolumes zonder netwerkanalyse"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The BoE employs sophisticated network analysis to understand how market structure affects liquidity. This includes mapping dealer networks, analyzing how stress can propagate through interconnected relationships, and understanding how concentration in market-making can create systemic vulnerabilities during stress periods.",
-                  "es": "El BoE emplea análisis sofisticado de red para entender cómo la estructura del mercado afecta la liquidez. Esto incluye mapear redes de dealers, analizar cómo el estrés puede propagarse a través de relaciones interconectadas, y entender cómo la concentración en creación de mercado puede crear vulnerabilidades sistémicas durante períodos de estrés.",
-                  "de": "Die BoE verwendet sophisticated Netzwerkanalyse, um zu verstehen, wie Marktstruktur die Liquidität beeinflusst. Dies umfasst die Kartierung von Händlernetzwerken, die Analyse, wie sich Stress durch vernetzte Beziehungen ausbreiten kann, und das Verständnis, wie Konzentration im Market-Making systemische Verwundbarkeiten während Stressperioden schaffen kann.",
-                  "nl": "De BoE gebruikt geavanceerde netwerkanalyse om te begrijpen hoe marktstructuur liquiditeit beïnvloedt. Dit omvat het in kaart brengen van dealernetwerken, analyseren hoe stress kan doorgegeven worden via onderling verbonden relaties, en begrijpen hoe concentratie in market-making systemische kwetsbaarheden kan creëren tijdens stressperiodes."
-        }
-      },
-      {
-        question: {
-                  "en": "What role does the Sterling Monetary Framework (SMF) play in the Bank of England's operational implementation of monetary policy decisions?",
-                  "es": "¿Qué papel juega el Marco Monetario de la Libra Esterlina (SMF) en la implementación operacional del Banco de Inglaterra de decisiones de política monetaria?",
-                  "de": "Welche Rolle spielt das Sterling Monetary Framework (SMF) in der operativen Umsetzung geldpolitischer Entscheidungen der Bank of England?",
-                  "nl": "Welke rol speelt het Sterling Monetary Framework (SMF) in de Bank of England's operationele implementatie van monetaire beleidsbeslissingen?"
-        },
-        options: [
-        {
-                  "en": "Defines the operational framework for implementing Bank Rate through reserve requirements and standing facilities",
-                  "es": "Define el marco operacional para implementar la Tasa del Banco a través de requisitos de reserva e instalaciones permanentes",
-                  "de": "Definiert den operativen Rahmen zur Umsetzung des Bankzinssatzes durch Reserveanforderungen und ständige Fazilitäten",
-                  "nl": "Definieert het operationele kader voor implementatie van Bank Rate via reservevereisten en permanente faciliteiten"
-        },
-        {
-                  "en": "Focuses exclusively on government debt management operations",
-                  "es": "Se enfoca exclusivamente en operaciones de gestión de deuda gubernamental",
-                  "de": "Konzentriert sich ausschließlich auf Staatsschuldenverwaltungsoperationen",
-                  "nl": "Richt zich uitsluitend op overheidsschuldbeheeroperaties"
-        },
-        {
-                  "en": "Manages only foreign exchange interventions and currency swaps",
-                  "es": "Gestiona solo intervenciones de divisas e intercambios de monedas",
-                  "de": "Verwaltet nur Deviseninterventionen und Währungsswaps",
-                  "nl": "Beheert alleen valutainterventies en valutaswaps"
-        },
-        {
-                  "en": "Operates only the gilt market-making system",
-                  "es": "Opera solo el sistema de creación de mercado de gilts",
-                  "de": "Betreibt nur das Gilt-Market-Making-System",
-                  "nl": "Werkt alleen het gilt-marktmakingsysteem"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The SMF is the operational architecture that translates MPC decisions into market reality. It includes reserve averaging, standing deposit and lending facilities, and open market operations. Banks hold reserves at the BoE and can access lending/deposit facilities, with the framework designed to keep market rates close to Bank Rate.",
-                  "es": "El SMF es la arquitectura operacional que traduce las decisiones del MPC en realidad de mercado. Incluye promedio de reservas, facilidades permanentes de depósito y préstamo, y operaciones de mercado abierto. Los bancos mantienen reservas en el BoE y pueden acceder a facilidades de préstamo/depósito, con el marco diseñado para mantener tasas de mercado cerca de la Tasa del Banco.",
-                  "de": "Das SMF ist die operative Architektur, die MPC-Entscheidungen in Marktrealität übersetzt. Es umfasst Reservedurchschnittsbildung, ständige Einlagen- und Kreditfazilitäten und Offenmarktoperationen. Banken halten Reserven bei der BoE und können auf Kredit-/Einlagenfazilitäten zugreifen, wobei der Rahmen darauf ausgelegt ist, Marktzinsen nahe dem Bankzinssatz zu halten.",
-                  "nl": "Het SMF is de operationele architectuur die MPC-beslissingen vertaalt naar marktelijkheid. Het omvat reserve-averaging, permanente deposito- en leenfaciliteiten, en openmarktoperaties. Banken houden reserves bij de BoE en kunnen toegang krijgen tot leen-/depositofaciliteiten, waarbij het kader ontworpen is om markttarieven dicht bij Bank Rate te houden."
-        }
-      },
-      {
-        question: {
-                  "en": "How does the Bank of England's approach to measuring systemic risk incorporate the concept of 'fire sales' and amplification mechanisms?",
-                  "es": "¿Cómo incorpora el enfoque del Banco de Inglaterra para medir riesgo sistémico el concepto de 'ventas forzadas' y mecanismos de amplificación?",
-                  "de": "Wie integriert der Ansatz der Bank of England zur Messung systemischer Risiken das Konzept von 'Notverkäufen' und Verstärkungsmechanismen?",
-                  "nl": "Hoe integreert de Bank of England's benadering van het meten van systemisch risico het concept van 'noodverkopen' en versterkingsmechanismen?"
-        },
-        options: [
-        {
-                  "en": "Relies only on historical correlation analysis",
-                  "es": "Se basa solo en análisis de correlación histórica",
-                  "de": "Stützt sich nur auf historische Korrelationsanalyse",
-                  "nl": "Vertrouwt alleen op historische correlatieanalyse"
-        },
-        {
-                  "en": "Models feedback loops between asset sales, price declines, and margin calls using dynamic general equilibrium frameworks",
-                  "es": "Modela bucles de retroalimentación entre ventas de activos, declives de precios y llamadas de margen usando marcos de equilibrio general dinámico",
-                  "de": "Modelliert Rückkopplungsschleifen zwischen Vermögensverkäufen, Preisrückgängen und Margin Calls mit dynamischen allgemeinen Gleichgewichtsrahmen",
-                  "nl": "Modelleert feedback loops tussen activaverkopen, prijsdalingen en margin calls met behulp van dynamische algemene evenwichtskaders"
-        },
-        {
-                  "en": "Focuses solely on individual institution stress tests",
-                  "es": "Se enfoca únicamente en pruebas de estrés de instituciones individuales",
-                  "de": "Konzentriert sich ausschließlich auf Stresstests einzelner Institutionen",
-                  "nl": "Richt zich uitsluitend op stresstests van individuele instellingen"
-        },
-        {
-                  "en": "Uses only static balance sheet analysis without price effects",
-                  "es": "Utiliza solo análisis estático de balance sin efectos de precios",
-                  "de": "Verwendet nur statische Bilanzanalyse ohne Preiseffekte",
-                  "nl": "Gebruikt alleen statische balansanalyse zonder prijseffecten"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The BoE recognizes that fire sales create systemic amplification through feedback effects. When institutions are forced to sell assets rapidly, this depresses prices, which worsens other institutions' positions, potentially triggering more sales. Their models capture these dynamic interactions and spillover effects across the financial system.",
-                  "es": "El BoE reconoce que las ventas forzadas crean amplificación sistémica a través de efectos de retroalimentación. Cuando las instituciones se ven obligadas a vender activos rápidamente, esto deprime los precios, lo que empeora las posiciones de otras instituciones, potencialmente desencadenando más ventas. Sus modelos capturan estas interacciones dinámicas y efectos de derrame en el sistema financiero.",
-                  "de": "Die BoE erkennt, dass Notverkäufe systemische Verstärkung durch Rückkopplungseffekte schaffen. Wenn Institutionen gezwungen sind, Vermögenswerte schnell zu verkaufen, drückt dies die Preise, was die Positionen anderer Institutionen verschlechtert und möglicherweise weitere Verkäufe auslöst. Ihre Modelle erfassen diese dynamischen Interaktionen und Spillover-Effekte im Finanzsystem.",
-                  "nl": "De BoE erkent dat noodverkopen systemische versterking creëren via feedback-effecten. Wanneer instellingen gedwongen worden om activa snel te verkopen, drukt dit prijzen, wat de posities van andere instellingen verslechtert en mogelijk meer verkopen triggert. Hun modellen vangen deze dynamische interacties en spillover-effecten in het financiële systeem op."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the theoretical foundation of the Bank of England's approach to central bank digital currency (CBDC) design and its implications for monetary sovereignty?",
-                  "es": "¿Cuál es el fundamento teórico del enfoque del Banco de Inglaterra sobre el diseño de moneda digital del banco central (CBDC) y sus implicaciones para la soberanía monetaria?",
-                  "de": "Was ist die theoretische Grundlage des Ansatzes der Bank of England zum Design einer digitalen Zentralbankwährung (CBDC) und deren Auswirkungen auf die Währungssouveränität?",
-                  "nl": "Wat is de theoretische basis van de Bank of England's benadering van centrale bank digitale valuta (CBDC) ontwerp en de implicaties voor monetaire soevereiniteit?"
-        },
-        options: [
-        {
-                  "en": "Eliminates all forms of physical currency immediately",
-                  "es": "Elimina todas las formas de moneda física inmediatamente",
-                  "de": "Eliminiert alle Formen physischer Währung sofort",
-                  "nl": "Elimineert alle vormen van fysieke valuta onmiddellijk"
-        },
-        {
-                  "en": "Adopts existing cryptocurrency protocols without modification",
-                  "es": "Adopta protocolos de criptomonedas existentes sin modificación",
-                  "de": "Übernimmt bestehende Kryptowährungsprotokolle ohne Änderung",
-                  "nl": "Neemt bestaande cryptocurrency protocollen over zonder wijziging"
-        },
-        {
-                  "en": "Delegates monetary policy implementation to private technology companies",
-                  "es": "Delega implementación de política monetaria a empresas privadas de tecnología",
-                  "de": "Delegiert die Umsetzung der Geldpolitik an private Technologieunternehmen",
-                  "nl": "Delegeert monetaire beleidsimplementatie aan private technologiebedrijven"
-        },
-        {
-                  "en": "Maintains monetary sovereignty through programmable money that preserves central bank control over money creation and policy transmission",
-                  "es": "Mantiene soberanía monetaria a través de dinero programable que preserva el control del banco central sobre creación de dinero y transmisión de política",
-                  "de": "Erhält die Währungssouveränität durch programmierbares Geld, das die Kontrolle der Zentralbank über Geldschöpfung und Politikübertragung bewahrt",
-                  "nl": "Behoudt monetaire soevereiniteit via programmeerbaar geld dat centrale bankcontrole over geldcreatie en beleidstransmissie bewaart"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The BoE's CBDC approach is designed to preserve and potentially enhance monetary sovereignty. A digital pound would be programmable central bank money, allowing for precise policy implementation while maintaining the central bank's role as the ultimate authority over the monetary system, rather than ceding control to private entities or decentralized protocols.",
-                  "es": "El enfoque CBDC del BoE está diseñado para preservar y potencialmente mejorar la soberanía monetaria. Una libra digital sería dinero programable del banco central, permitiendo implementación precisa de política mientras mantiene el papel del banco central como la autoridad final sobre el sistema monetario, en lugar de ceder control a entidades privadas o protocolos descentralizados.",
-                  "de": "Der CBDC-Ansatz der BoE ist darauf ausgelegt, die Währungssouveränität zu bewahren und möglicherweise zu stärken. Ein digitales Pfund wäre programmierbares Zentralbankgeld, das präzise Politikumsetzung ermöglicht, während die Rolle der Zentralbank als ultimative Autorität über das Währungssystem beibehalten wird, anstatt die Kontrolle an private Entitäten oder dezentrale Protokolle abzugeben.",
-                  "nl": "De BoE's CBDC-benadering is ontworpen om monetaire soevereiniteit te behouden en mogelijk te versterken. Een digitale pond zou programmeerbaar centralebankgeld zijn, wat nauwkeurige beleidsimplementatie mogelijk maakt terwijl de rol van de centrale bank als uiteindelijke autoriteit over het monetaire systeem behouden blijft, in plaats van controle over te dragen aan private entiteiten of gedecentraliseerde protocollen."
-        }
-      },
-      {
-        question: {
-                  "en": "How does the Bank of England's framework for assessing the resilience of critical financial market infrastructures (FMIs) address operational and cyber risks?",
-                  "es": "¿Cómo aborda el marco del Banco de Inglaterra para evaluar la resistencia de infraestructuras críticas del mercado financiero (FMIs) los riesgos operacionales y cibernéticos?",
-                  "de": "Wie geht das Framework der Bank of England zur Bewertung der Widerstandsfähigkeit kritischer Finanzmarktinfrastrukturen (FMIs) mit operationellen und Cyber-Risiken um?",
-                  "nl": "Hoe pakt de Bank of England's raamwerk voor het beoordelen van de veerkracht van kritieke financiële marktinfrastructuren (FMI's) operationele en cyberrisico's aan?"
-        },
-        options: [
-        {
-                  "en": "Uses only annual compliance reporting without testing",
-                  "es": "Utiliza solo informes anuales de cumplimiento sin pruebas",
-                  "de": "Verwendet nur jährliche Compliance-Berichte ohne Tests",
-                  "nl": "Gebruikt alleen jaarlijkse compliance-rapportage zonder testen"
-        },
-        {
-                  "en": "Focuses only on traditional operational risk metrics without cyber considerations",
-                  "es": "Se enfoca solo en métricas tradicionales de riesgo operacional sin consideraciones cibernéticas",
-                  "de": "Konzentriert sich nur auf traditionelle operative Risikometriken ohne Cyber-Überlegungen",
-                  "nl": "Richt zich alleen op traditionele operationele risicometriek zonder cyberoverwegingen"
-        },
-        {
-                  "en": "Relies solely on self-assessment by FMI operators",
-                  "es": "Se basa únicamente en autoevaluación por operadores de FMI",
-                  "de": "Verlässt sich ausschließlich auf Selbstbewertung durch FMI-Betreiber",
-                  "nl": "Vertrouwt uitsluitend op zelfevaluatie door FMI-operators"
-        },
-        {
-                  "en": "Employs comprehensive operational resilience testing including cyber attack simulations and recovery time objectives",
-                  "es": "Emplea pruebas integrales de resistencia operacional incluyendo simulaciones de ataques cibernéticos y objetivos de tiempo de recuperación",
-                  "de": "Verwendet umfassende operative Resilienztests einschließlich Cyber-Angriffssimulationen und Wiederherstellungszeitziele",
-                  "nl": "Gebruikt uitgebreide operationele veerkrachttests inclusief cyberaanvalsimulaties en hersteltijddoelstellingen"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The BoE uses comprehensive operational resilience frameworks that include regular testing of cyber defenses, business continuity planning, and recovery capabilities. This includes scenario-based testing, penetration testing, and setting specific recovery time objectives to ensure critical financial infrastructure can withstand and quickly recover from operational disruptions.",
-                  "es": "El BoE utiliza marcos integrales de resistencia operacional que incluyen pruebas regulares de defensas cibernéticas, planificación de continuidad empresarial y capacidades de recuperación. Esto incluye pruebas basadas en escenarios, pruebas de penetración y establecimiento de objetivos específicos de tiempo de recuperación para asegurar que la infraestructura financiera crítica pueda resistir y recuperarse rápidamente de interrupciones operacionales.",
-                  "de": "Die BoE verwendet umfassende operative Resilienz-Frameworks, die regelmäßige Tests von Cyber-Abwehr, Geschäftskontinuitätsplanung und Wiederherstellungsfähigkeiten umfassen. Dies beinhaltet szenariobasierte Tests, Penetrationstests und die Festlegung spezifischer Wiederherstellungszeitziele, um sicherzustellen, dass kritische Finanzinfrastruktur operativen Störungen standhalten und sich schnell davon erholen kann.",
-                  "nl": "De BoE gebruikt uitgebreide operationele veerkrachtkaders die regelmatige tests van cyberverdediging, bedrijfscontinuïteitsplanning en herstelmogelijkheden omvatten. Dit omvat scenariogebaseerd testen, penetratietesten en het stellen van specifieke hersteltijddoelstellingen om ervoor te zorgen dat kritieke financiële infrastructuur operationele verstoringen kan weerstaan en er snel van kan herstellen."
-        }
-      },
-      {
-        question: {
-                  "en": "What role does the Bank of England's analysis of 'zombie firms' play in their assessment of financial stability and monetary policy effectiveness?",
-                  "es": "¿Qué papel juega el análisis del Banco de Inglaterra de 'empresas zombi' en su evaluación de estabilidad financiera y efectividad de política monetaria?",
-                  "de": "Welche Rolle spielt die Analyse der Bank of England von 'Zombie-Unternehmen' bei ihrer Bewertung der Finanzstabilität und der Wirksamkeit der Geldpolitik?",
-                  "nl": "Welke rol speelt de Bank of England's analyse van 'zombie bedrijven' in hun beoordeling van financiële stabiliteit en monetaire beleidseffectiviteit?"
-        },
-        options: [
-        {
-                  "en": "Focuses only on immediate corporate bankruptcy rates",
-                  "es": "Se enfoca solo en tasas inmediatas de bancarrota corporativa",
-                  "de": "Konzentriert sich nur auf unmittelbare Unternehmenskonkursraten",
-                  "nl": "Richt zich alleen op onmiddellijke bedrijfsfaillissementscijfers"
-        },
-        {
-                  "en": "Examines only government support programs for businesses",
-                  "es": "Examina solo programas de apoyo gubernamental para empresas",
-                  "de": "Untersucht nur staatliche Unterstützungsprogramme für Unternehmen",
-                  "nl": "Onderzoekt alleen overheidssteunprogramma's voor bedrijven"
-        },
-        {
-                  "en": "Monitors solely employment levels in declining industries",
-                  "es": "Monitorea únicamente niveles de empleo en industrias en declive",
-                  "de": "Überwacht ausschließlich Beschäftigungsniveaus in rückläufigen Branchen",
-                  "nl": "Monitort uitsluitend werkgelegenheidsniveaus in krimpende industrieën"
-        },
-        {
-                  "en": "Assesses how low rates may prevent creative destruction and reduce productivity growth, potentially creating financial stability risks",
-                  "es": "Evalúa cómo las tasas bajas pueden prevenir la destrucción creativa y reducir el crecimiento de productividad, potencialmente creando riesgos de estabilidad financiera",
-                  "de": "Bewertet, wie niedrige Zinsen schöpferische Zerstörung verhindern und Produktivitätswachstum reduzieren können, wodurch möglicherweise Finanzstabilitätsrisiken entstehen",
-                  "nl": "Beoordeelt hoe lage rentes creatieve vernietiging kunnen voorkomen en productiviteitsgroei verminderen, mogelijk financiële stabiliteitsrisico's creërend"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The BoE recognizes that persistently low interest rates may keep inefficient 'zombie' firms alive, preventing resources from moving to more productive uses. This can reduce overall productivity growth and create hidden vulnerabilities in the financial system, as banks may have exposure to these weak firms that could become problematic when conditions normalize.",
-                  "es": "El BoE reconoce que las tasas de interés persistentemente bajas pueden mantener vivas a empresas 'zombi' ineficientes, previniendo que los recursos se muevan a usos más productivos. Esto puede reducir el crecimiento general de productividad y crear vulnerabilidades ocultas en el sistema financiero, ya que los bancos pueden tener exposición a estas empresas débiles que podrían volverse problemáticas cuando las condiciones se normalicen.",
-                  "de": "Die BoE erkennt, dass anhaltend niedrige Zinssätze ineffiziente 'Zombie'-Unternehmen am Leben erhalten können, wodurch verhindert wird, dass Ressourcen zu produktiveren Verwendungen wechseln. Dies kann das gesamte Produktivitätswachstum reduzieren und versteckte Verwundbarkeiten im Finanzsystem schaffen, da Banken Risikopositionen gegenüber diesen schwachen Unternehmen haben können, die problematisch werden könnten, wenn sich die Bedingungen normalisieren.",
-                  "nl": "De BoE erkent dat aanhoudend lage rentes inefficiënte 'zombie' bedrijven in leven kunnen houden, waardoor bronnen niet naar productievere toepassingen kunnen verschuiven. Dit kan de algehele productiviteitsgroei verminderen en verborgen kwetsbaarheden in het financiële systeem creëren, omdat banken blootstelling kunnen hebben aan deze zwakke bedrijven die problematisch kunnen worden wanneer omstandigheden normaliseren."
-        }
-      },
-      {
-        question: {
-                  "en": "How does the Bank of England's approach to assessing climate transition risks incorporate stranded asset theory and sectoral analysis?",
-                  "es": "¿Cómo incorpora el enfoque del Banco de Inglaterra para evaluar riesgos de transición climática la teoría de activos varados y análisis sectorial?",
-                  "de": "Wie integriert der Ansatz der Bank of England zur Bewertung von Klimaübergangsrisiken die Theorie gestrandeter Vermögenswerte und Sektoranalyse?",
-                  "nl": "Hoe integreert de Bank of England's benadering van het beoordelen van klimaattransitierisico's gestrande activa theorie en sectorale analyse?"
-        },
-        options: [
-        {
-                  "en": "Applies uniform risk factors across all sectors and assets",
-                  "es": "Aplica factores de riesgo uniformes en todos los sectores y activos",
-                  "de": "Wendet einheitliche Risikofaktoren auf alle Sektoren und Vermögenswerte an",
-                  "nl": "Past uniforme risicofactoren toe op alle sectoren en activa"
-        },
-        {
-                  "en": "Models how carbon-intensive assets may become economically unviable under different climate policy scenarios, using sectoral carbon intensity mapping",
-                  "es": "Modela cómo los activos intensivos en carbono pueden volverse económicamente inviables bajo diferentes escenarios de política climática, usando mapeo de intensidad de carbono sectorial",
-                  "de": "Modelliert, wie kohlenstoffintensive Vermögenswerte unter verschiedenen Klimapolitikszenarien wirtschaftlich unrentabel werden können, unter Verwendung sektoraler Kohlenstoffintensitätskartierung",
-                  "nl": "Modelleert hoe koolstofintensieve activa economisch onhaalbaar kunnen worden onder verschillende klimaatbeleidsscenario's, met gebruik van sectorale koolstofintensiteitsmapping"
-        },
-        {
-                  "en": "Uses only historical asset price volatility without climate considerations",
-                  "es": "Utiliza solo volatilidad histórica de precios de activos sin consideraciones climáticas",
-                  "de": "Verwendet nur historische Vermögenspreisvolatilität ohne Klimaüberlegungen",
-                  "nl": "Gebruikt alleen historische activaprijsvolatiliteit zonder klimaatoverwegingen"
-        },
-        {
-                  "en": "Focuses exclusively on physical climate damages to infrastructure",
-                  "es": "Se enfoca exclusivamente en daños climáticos físicos a infraestructura",
-                  "de": "Konzentriert sich ausschließlich auf physische Klimaschäden an der Infrastruktur",
-                  "nl": "Richt zich uitsluitend op fysieke klimaatschade aan infrastructuur"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The BoE's climate stress testing incorporates stranded asset analysis by modeling how policy changes (carbon pricing, regulations) and technological shifts could make certain assets (coal plants, oil reserves) economically unviable. They use detailed sectoral analysis to understand differential impacts across industries based on carbon intensity and transition pathways.",
-                  "es": "Las pruebas de estrés climático del BoE incorporan análisis de activos varados modelando cómo los cambios de política (precios del carbono, regulaciones) y cambios tecnológicos podrían hacer que ciertos activos (plantas de carbón, reservas de petróleo) sean económicamente inviables. Utilizan análisis sectorial detallado para entender impactos diferenciales en industrias basados en intensidad de carbono y trayectorias de transición.",
-                  "de": "Die Klimastresstests der BoE integrieren Stranded-Asset-Analyse durch Modellierung, wie Politikänderungen (CO2-Preisgestaltung, Regulierungen) und technologische Verschiebungen bestimmte Vermögenswerte (Kohlekraftwerke, Ölreserven) wirtschaftlich unrentabel machen könnten. Sie verwenden detaillierte Sektoranalyse, um differentielle Auswirkungen auf Branchen basierend auf Kohlenstoffintensität und Übergangspfaden zu verstehen.",
-                  "nl": "De BoE's klimaat-stresstests integreren gestrande activa-analyse door te modelleren hoe beleidsveranderingen (koolstofprijzen, regelgeving) en technologische verschuivingen bepaalde activa (kolencentrales, oliereserves) economisch onhaalbaar zouden kunnen maken. Ze gebruiken gedetailleerde sectorale analyse om differentiële effecten op industrieën te begrijpen gebaseerd op koolstofintensiteit en transitiepaden."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the Bank of England's theoretical framework for understanding the relationship between financial innovation and systemic risk in digital finance?",
-                  "es": "¿Cuál es el marco teórico del Banco de Inglaterra para entender la relación entre innovación financiera y riesgo sistémico en finanzas digitales?",
-                  "de": "Was ist der theoretische Rahmen der Bank of England zum Verständnis der Beziehung zwischen Finanzinnovation und systemischem Risiko im digitalen Finanzwesen?",
-                  "nl": "Wat is de Bank of England's theoretische kader voor het begrijpen van de relatie tussen financiële innovatie en systemisch risico in digitale financiering?"
-        },
-        options: [
-        {
-                  "en": "Allows unrestricted development of digital finance without oversight",
-                  "es": "Permite desarrollo sin restricciones de finanzas digitales sin supervisión",
-                  "de": "Erlaubt uneingeschränkte Entwicklung digitaler Finanzen ohne Aufsicht",
-                  "nl": "Staat onbeperkte ontwikkeling van digitale financiering toe zonder toezicht"
-        },
-        {
-                  "en": "Applies 'same risk, same regulation' principle while assessing new systemic risk channels from digital finance ecosystems",
-                  "es": "Aplica el principio de 'mismo riesgo, misma regulación' mientras evalúa nuevos canales de riesgo sistémico de ecosistemas de finanzas digitales",
-                  "de": "Wendet das Prinzip 'gleiches Risiko, gleiche Regulierung' an, während neue systemische Risikokanäle aus digitalen Finanzökosystemen bewertet werden",
-                  "nl": "Past het 'zelfde risico, zelfde regulatie' principe toe terwijl nieuwe systemische risicokanalen van digitale financiële ecosystemen worden beoordeeld"
-        },
-        {
-                  "en": "Focuses only on traditional banking without considering digital innovations",
-                  "es": "Se enfoca solo en banca tradicional sin considerar innovaciones digitales",
-                  "de": "Konzentriert sich nur auf traditionelles Bankwesen ohne Berücksichtigung digitaler Innovationen",
-                  "nl": "Richt zich alleen op traditioneel bankieren zonder digitale innovaties te overwegen"
-        },
-        {
-                  "en": "Prohibits all forms of digital financial innovation",
-                  "es": "Prohíbe todas las formas de innovación financiera digital",
-                  "de": "Verbietet alle Formen digitaler Finanzinnovation",
-                  "nl": "Verbiedt alle vormen van digitale financiële innovatie"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The BoE adopts a principles-based approach that applies existing regulatory principles to new technologies while identifying novel systemic risks. They recognize that digital finance can create new forms of interconnectedness, concentration, and operational dependencies that require careful assessment and potentially new regulatory tools.",
-                  "es": "El BoE adopta un enfoque basado en principios que aplica principios regulatorios existentes a nuevas tecnologías mientras identifica riesgos sistémicos novedosos. Reconocen que las finanzas digitales pueden crear nuevas formas de interconectividad, concentración y dependencias operacionales que requieren evaluación cuidadosa y potencialmente nuevas herramientas regulatorias.",
-                  "de": "Die BoE verfolgt einen prinzipienbasierten Ansatz, der bestehende regulatorische Prinzipien auf neue Technologien anwendet, während neuartige systemische Risiken identifiziert werden. Sie erkennen, dass digitale Finanzen neue Formen von Vernetzung, Konzentration und operationellen Abhängigkeiten schaffen können, die sorgfältige Bewertung und möglicherweise neue regulatorische Instrumente erfordern.",
-                  "nl": "De BoE hanteert een principengebaseerde benadering die bestaande regulatoire principes toepast op nieuwe technologieën terwijl nieuwe systemische risico's worden geïdentificeerd. Ze erkennen dat digitale financiering nieuwe vormen van onderlinge verbondenheid, concentratie en operationele afhankelijkheden kan creëren die zorgvuldige beoordeling en mogelijk nieuwe regulatoire instrumenten vereisen."
-        }
-      },
-      {
-        question: {
-                  "en": "How does the Bank of England's framework for macroprudential policy calibration incorporate dynamic interactions between credit cycles and asset price bubbles?",
-                  "es": "¿Cómo incorpora el marco del Banco de Inglaterra para calibración de política macroprudencial interacciones dinámicas entre ciclos crediticios y burbujas de precios de activos?",
-                  "de": "Wie integriert das Framework der Bank of England zur makroprudenziellen Politikkalibrierung dynamische Wechselwirkungen zwischen Kreditzyklen und Vermögenspreisblasen?",
-                  "nl": "Hoe integreert de Bank of England's kader voor macroprudentiële beleidskalibratie dynamische interacties tussen kredietcycli en activaprijsbubbels?"
-        },
-        options: [
-        {
-                  "en": "Uses only interest rate adjustments without macroprudential tools",
-                  "es": "Utiliza solo ajustes de tasas de interés sin herramientas macroprudenciales",
-                  "de": "Verwendet nur Zinssatzanpassungen ohne makroprudenzielle Instrumente",
-                  "nl": "Gebruikt alleen renteaanpassingen zonder macroprudentiële instrumenten"
-        },
-        {
-                  "en": "Focuses exclusively on individual bank stress tests",
-                  "es": "Se enfoca exclusivamente en pruebas de estrés de bancos individuales",
-                  "de": "Konzentriert sich ausschließlich auf Stresstests einzelner Banken",
-                  "nl": "Richt zich uitsluitend op stresstests van individuele banken"
-        },
-        {
-                  "en": "Uses early warning indicators combining credit-to-GDP gaps with asset price deviation measures and sectoral concentration metrics",
-                  "es": "Utiliza indicadores de alerta temprana combinando brechas de crédito-a-PIB con medidas de desviación de precios de activos y métricas de concentración sectorial",
-                  "de": "Verwendet Frühwarnindikatoren, die Kredit-zu-BIP-Lücken mit Vermögenspreisabweichungsmaßen und sektoralen Konzentrationskennzahlen kombinieren",
-                  "nl": "Gebruikt vroege waarschuwingsindicatoren die krediet-tot-BBP-gaps combineren met activaprijsafwijkingsmetingen en sectorale concentratiemetrieken"
-        },
-        {
-                  "en": "Relies solely on backward-looking capital adequacy ratios",
-                  "es": "Se basa únicamente en ratios de adecuación de capital retrospectivos",
-                  "de": "Stützt sich ausschließlich auf rückwärtsgerichtete Eigenkapitalquoten",
-                  "nl": "Vertrouwt uitsluitend op achteruitkijkende kapitaaltoereikendheidsratio's"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The BoE uses a comprehensive set of indicators to identify developing financial imbalances, including credit gaps, asset price measures, and sectoral analysis. They recognize that credit booms and asset bubbles often reinforce each other, requiring tools like countercyclical capital buffers and sectoral capital requirements to address systemic risks proactively.",
-                  "es": "El BoE utiliza un conjunto integral de indicadores para identificar desequilibrios financieros en desarrollo, incluyendo brechas crediticias, medidas de precios de activos y análisis sectorial. Reconocen que los auges crediticios y burbujas de activos a menudo se refuerzan mutuamente, requiriendo herramientas como amortiguadores de capital contracíclicos y requisitos de capital sectorial para abordar riesgos sistémicos proactivamente.",
-                  "de": "Die BoE verwendet einen umfassenden Satz von Indikatoren zur Identifizierung sich entwickelnder finanzieller Ungleichgewichte, einschließlich Kreditlücken, Vermögenspreismaßen und Sektoranalyse. Sie erkennen, dass Kreditbooms und Vermögensblasen sich oft gegenseitig verstärken und Instrumente wie antizyklische Kapitalpuffer und sektorale Kapitalanforderungen erfordern, um systemische Risiken proaktiv anzugehen.",
-                  "nl": "De BoE gebruikt een uitgebreide set indicatoren om zich ontwikkelende financiële onevenwichtigheden te identificeren, inclusief kredietgaps, activaprijsmetingen en sectorale analyse. Ze erkennen dat kredietbooms en activabellenoften elkaar versterken, waardoor instrumenten zoals anticyclische kapitaalbuffers en sectorale kapitaalvereisten nodig zijn om systemische risico's proactief aan te pakken."
-        }
-      },
-      {
-        question: {
-                  "en": "What theoretical approach does the Bank of England use to model the transmission of monetary policy through heterogeneous agent effects in credit markets?",
-                  "es": "¿Qué enfoque teórico utiliza el Banco de Inglaterra para modelar la transmisión de política monetaria a través de efectos de agentes heterogéneos en mercados crediticios?",
-                  "de": "Welchen theoretischen Ansatz verwendet die Bank of England zur Modellierung der geldpolitischen Übertragung durch heterogene Agenteneffekte in Kreditmärkten?",
-                  "nl": "Welke theoretische benadering gebruikt de Bank of England om de transmissie van monetair beleid te modelleren via heterogene agent-effecten in kredietmarkten?"
-        },
-        options: [
-        {
-                  "en": "Employs HANK models incorporating borrower-lender heterogeneity with endogenous credit constraints and portfolio choice",
-                  "es": "Emplea modelos HANK incorporando heterogeneidad prestatario-prestamista con restricciones crediticias endógenas y elección de cartera",
-                  "de": "Verwendet HANK-Modelle, die Kreditnehmer-Kreditgeber-Heterogenität mit endogenen Kreditbeschränkungen und Portfoliowahl integrieren",
-                  "nl": "Gebruikt HANK-modellen die lener-uitlener heterogeniteit incorporeren met endogene kredietbeperkingen en portefeuillekeuze"
-        },
-        {
-                  "en": "Applies simple correlation analysis between interest rates and lending",
-                  "es": "Aplica análisis de correlación simple entre tasas de interés y préstamos",
-                  "de": "Wendet einfache Korrelationsanalyse zwischen Zinssätzen und Kreditvergabe an",
-                  "nl": "Past eenvoudige correlatieanalyse toe tussen rentes en kredietverlening"
-        },
-        {
-                  "en": "Focuses solely on aggregate demand effects without credit channels",
-                  "es": "Se enfoca únicamente en efectos de demanda agregada sin canales crediticios",
-                  "de": "Konzentriert sich ausschließlich auf aggregierte Nachfrageeffekte ohne Kreditkanäle",
-                  "nl": "Richt zich uitsluitend op geaggregeerde vraageffecten zonder kredietkanalen"
-        },
-        {
-                  "en": "Uses only representative agent models with perfect capital markets",
-                  "es": "Utiliza solo modelos de agente representativo con mercados de capital perfectos",
-                  "de": "Verwendet nur repräsentative Agentenmodelle mit perfekten Kapitalmärkten",
-                  "nl": "Gebruikt alleen representatieve agent-modellen met perfecte kapitaalmarkten"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The BoE uses Heterogeneous Agent New Keynesian (HANK) models that recognize different types of agents (savers, borrowers, constrained vs unconstrained) respond differently to monetary policy. These models capture how policy transmission varies across the population based on balance sheet positions, income, and access to credit.",
-                  "es": "El BoE utiliza modelos Nuevo Keynesianos de Agentes Heterogéneos (HANK) que reconocen que diferentes tipos de agentes (ahorradores, prestatarios, restringidos vs no restringidos) responden de manera diferente a la política monetaria. Estos modelos capturan cómo la transmisión de política varía en la población basada en posiciones de balance, ingresos y acceso a crédito.",
-                  "de": "Die BoE verwendet Heterogeneous Agent New Keynesian (HANK) Modelle, die erkennen, dass verschiedene Arten von Agenten (Sparer, Kreditnehmer, beschränkte vs unbeschränkte) unterschiedlich auf Geldpolitik reagieren. Diese Modelle erfassen, wie sich die Politikübertragung in der Bevölkerung basierend auf Bilanzpositionen, Einkommen und Kreditzugang unterscheidet.",
-                  "nl": "De BoE gebruikt Heterogeneous Agent New Keynesian (HANK) modellen die erkennen dat verschillende types agenten (spaarders, leners, beperkte vs onbeperkte) verschillend reageren op monetair beleid. Deze modellen vangen op hoe beleidstransmissie varieert over de bevolking gebaseerd op balansposities, inkomen en toegang tot krediet."
-        }
-      },
-      {
-        question: {
-                  "en": "How does the Bank of England's assessment of global value chain disruptions incorporate network analysis and systemic risk measurement?",
-                  "es": "¿Cómo incorpora la evaluación del Banco de Inglaterra de disrupciones de cadenas de valor globales análisis de red y medición de riesgo sistémico?",
-                  "de": "Wie integriert die Bewertung der Bank of England von globalen Wertschöpfungskettenstörungen Netzwerkanalyse und systemische Risikomessung?",
-                  "nl": "Hoe integreert de Bank of England's beoordeling van globale waardeketenverstoring netwerkanalyse en systemische risicometing?"
-        },
-        options: [
-        {
-                  "en": "Relies solely on historical correlation analysis of trade flows",
-                  "es": "Se basa únicamente en análisis de correlación histórica de flujos comerciales",
-                  "de": "Stützt sich ausschließlich auf historische Korrelationsanalyse von Handelsströmen",
-                  "nl": "Vertrouwt uitsluitend op historische correlatieanalyse van handelsstromen"
-        },
-        {
-                  "en": "Focuses exclusively on domestic supply chains ignoring global connections",
-                  "es": "Se enfoca exclusivamente en cadenas de suministro domésticas ignorando conexiones globales",
-                  "de": "Konzentriert sich ausschließlich auf inländische Lieferketten und ignoriert globale Verbindungen",
-                  "nl": "Richt zich uitsluitend op binnenlandse toeleveringsketens en negeert globale verbindingen"
-        },
-        {
-                  "en": "Uses only bilateral trade statistics without network considerations",
-                  "es": "Utiliza solo estadísticas de comercio bilateral sin consideraciones de red",
-                  "de": "Verwendet nur bilaterale Handelsstatistiken ohne Netzwerküberlegungen",
-                  "nl": "Gebruikt alleen bilaterale handelsstatistieken zonder netwerkoverwegingen"
-        },
-        {
-                  "en": "Maps supply chain networks to identify critical nodes and potential contagion pathways using input-output analysis and network centrality measures",
-                  "es": "Mapea redes de cadena de suministro para identificar nodos críticos y vías potenciales de contagio usando análisis de insumo-producto y medidas de centralidad de red",
-                  "de": "Kartiert Lieferkettennetzwerke zur Identifizierung kritischer Knoten und potenzieller Ansteckungswege mittels Input-Output-Analyse und Netzwerkzentralitätsmaßen",
-                  "nl": "Brengt toeleveringsketennetwerken in kaart om kritieke knooppunten en potentiële besmettingspaden te identificeren met input-output analyse en netwerkcentraliteitsmetingen"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The BoE employs network analysis to understand how disruptions can propagate through global value chains. They identify critical nodes (key suppliers, chokepoints) and use measures like betweenness centrality to assess systemic importance. This helps understand how localized disruptions can have global financial implications through supply chain interdependencies.",
-                  "es": "El BoE emplea análisis de red para entender cómo las disrupciones pueden propagarse a través de cadenas de valor globales. Identifican nodos críticos (proveedores clave, puntos de estrangulamiento) y usan medidas como centralidad de intermediación para evaluar importancia sistémica. Esto ayuda a entender cómo disrupciones localizadas pueden tener implicaciones financieras globales a través de interdependencias de cadena de suministro.",
-                  "de": "Die BoE verwendet Netzwerkanalyse, um zu verstehen, wie sich Störungen durch globale Wertschöpfungsketten ausbreiten können. Sie identifizieren kritische Knoten (Schlüssellieferanten, Engpässe) und verwenden Maße wie Betweenness-Zentralität zur Bewertung systemischer Bedeutung. Dies hilft zu verstehen, wie lokalisierte Störungen durch Lieferketten-Interdependenzen globale finanzielle Auswirkungen haben können.",
-                  "nl": "De BoE gebruikt netwerkanalyse om te begrijpen hoe verstoringen kunnen propageren door globale waardeketens. Ze identificeren kritieke knooppunten (hoofdleveranciers, knelpunten) en gebruiken metingen zoals betweenness-centraliteit om systemisch belang te beoordelen. Dit helpt begrijpen hoe gelokaliseerde verstoringen globale financiële implicaties kunnen hebben via toeleveringsketen-onderlinge afhankelijkheden."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the Bank of England's approach to modeling the interaction between climate risks and financial stability in their integrated assessment framework?",
-                  "es": "¿Cuál es el enfoque del Banco de Inglaterra para modelar la interacción entre riesgos climáticos y estabilidad financiera en su marco de evaluación integrada?",
-                  "de": "Was ist der Ansatz der Bank of England zur Modellierung der Wechselwirkung zwischen Klimarisiken und Finanzstabilität in ihrem integrierten Bewertungsrahmen?",
-                  "nl": "Wat is de Bank of England's benadering van het modelleren van de interactie tussen klimaatrisico's en financiële stabiliteit in hun geïntegreerde beoordelingskader?"
-        },
-        options: [
-        {
-                  "en": "Applies constant risk factors without dynamic climate modeling",
-                  "es": "Aplica factores de riesgo constantes sin modelado climático dinámico",
-                  "de": "Wendet konstante Risikofaktoren ohne dynamische Klimamodellierung an",
-                  "nl": "Past constante risicofactoren toe zonder dynamische klimaatmodellering"
-        },
-        {
-                  "en": "Focuses only on direct physical damage without economic feedbacks",
-                  "es": "Se enfoca solo en daño físico directo sin retroalimentaciones económicas",
-                  "de": "Konzentriert sich nur auf direkten physischen Schaden ohne wirtschaftliche Rückkopplungen",
-                  "nl": "Richt zich alleen op directe fysieke schade zonder economische feedbacks"
-        },
-        {
-                  "en": "Uses separate, non-integrated models for climate and financial analysis",
-                  "es": "Utiliza modelos separados, no integrados para análisis climático y financiero",
-                  "de": "Verwendet separate, nicht integrierte Modelle für Klima- und Finanzanalyse",
-                  "nl": "Gebruikt gescheiden, niet-geïntegreerde modellen voor klimaat- en financiële analyse"
-        },
-        {
-                  "en": "Integrates climate-economy models with financial system models to capture feedback loops between environmental changes and financial stability",
-                  "es": "Integra modelos clima-economía con modelos del sistema financiero para capturar bucles de retroalimentación entre cambios ambientales y estabilidad financiera",
-                  "de": "Integriert Klima-Wirtschafts-Modelle mit Finanzsystemmodellen, um Rückkopplungsschleifen zwischen Umweltveränderungen und Finanzstabilität zu erfassen",
-                  "nl": "Integreert klimaat-economie modellen met financiëlesysteemmodellen om feedback loops tussen milieuveranderingen en financiële stabiliteit vast te leggen"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The BoE develops integrated assessment models that link climate science, economic impacts, and financial system responses. This captures how climate risks affect economic activity, which in turn affects financial institutions, while also considering how financial decisions (investment, lending) can influence climate outcomes through feedback mechanisms.",
-                  "es": "El BoE desarrolla modelos de evaluación integrada que vinculan ciencia climática, impactos económicos y respuestas del sistema financiero. Esto captura cómo los riesgos climáticos afectan la actividad económica, que a su vez afecta las instituciones financieras, mientras también considera cómo las decisiones financieras (inversión, préstamos) pueden influir en resultados climáticos a través de mecanismos de retroalimentación.",
-                  "de": "Die BoE entwickelt integrierte Bewertungsmodelle, die Klimawissenschaft, wirtschaftliche Auswirkungen und Finanzsystemreaktionen verknüpfen. Dies erfasst, wie Klimarisiken die Wirtschaftstätigkeit beeinflussen, was wiederum Finanzinstitute betrifft, während auch berücksichtigt wird, wie finanzielle Entscheidungen (Investitionen, Kreditvergabe) durch Rückkopplungsmechanismen Klimaergebnisse beeinflussen können.",
-                  "nl": "De BoE ontwikkelt geïntegreerde beoordelingsmodellen die klimaatwetenschap, economische effecten en financiëlesysteemresponsen verbinden. Dit vangt op hoe klimaatrisico's economische activiteit beïnvloeden, wat op zijn beurt financiële instellingen beïnvloedt, terwijl ook wordt overwogen hoe financiële beslissingen (investeringen, kredietverlening) klimaatuitkomsten kunnen beïnvloeden via feedback-mechanismen."
-        }
-      },
-      {
-        question: {
-                  "en": "How does the Bank of England's approach to assessing the impact of artificial intelligence and machine learning on labor markets and productivity inform its monetary policy stance on the natural rate of unemployment?",
-                  "es": "¿Cómo el enfoque del Banco de Inglaterra para evaluar el impacto de inteligencia artificial y aprendizaje automático en mercados laborales y productividad informa su postura de política monetaria sobre la tasa natural de desempleo?",
-                  "de": "Wie informiert der Ansatz der Bank of England zur Bewertung der Auswirkungen künstlicher Intelligenz und maschinellen Lernens auf Arbeitsmärkte und Produktivität ihre geldpolitische Haltung zur natürlichen Arbeitslosenquote?",
-                  "nl": "Hoe informeert de Bank of England's benadering van het beoordelen van de impact van kunstmatige intelligentie en machine learning op arbeidsmarkten en productiviteit hun monetaire beleidspositie over de natuurlijke werkloosheid?"
-        },
-        options: [
-        {
-                  "en": "Assumes AI will have negligible impact on employment patterns and maintains static NAIRU estimates",
-                  "es": "Asume que IA tendrá impacto insignificante en patrones de empleo y mantiene estimaciones estáticas de NAIRU",
-                  "de": "Nimmt an, dass KI vernachlässigbare Auswirkungen auf Beschäftigungsmuster haben wird und behält statische NAIRU-Schätzungen bei",
-                  "nl": "Veronderstelt dat AI verwaarloosbare impact zal hebben op werkgelegenheidspatronen en behoudt statische NAIRU-schattingen"
-        },
-        {
-                  "en": "Analyzes skill-biased technological change effects on wage Phillips curves, incorporating structural shifts in matching functions and estimates of changing NAIRU through AI-driven labor market disruption",
-                  "es": "Analiza efectos de cambio tecnológico sesgado por habilidades en curvas de Phillips salariales, incorporando cambios estructurales en funciones de emparejamiento y estimaciones de NAIRU cambiante a través de disrupción del mercado laboral impulsada por IA",
-                  "de": "Analysiert skill-biased technologische Änderungseffekte auf Lohn-Phillips-Kurven, integriert strukturelle Verschiebungen in Matching-Funktionen und Schätzungen sich ändernder NAIRU durch KI-getriebene Arbeitsmarktstörungen",
-                  "nl": "Analyseert skill-biased technologische veranderingseffecten op loon Phillips-curves, incorporerend structurele verschuivingen in matching-functies en schattingen van veranderende NAIRU door AI-gedreven arbeidsmarktverstoring"
-        },
-        {
-                  "en": "Uses historical relationships between technology and employment without considering AI's unique characteristics",
-                  "es": "Utiliza relaciones históricas entre tecnología y empleo sin considerar características únicas de IA",
-                  "de": "Verwendet historische Beziehungen zwischen Technologie und Beschäftigung ohne KIs einzigartige Eigenschaften zu berücksichtigen",
-                  "nl": "Gebruikt historische relaties tussen technologie en werkgelegenheid zonder AI's unieke kenmerken te overwegen"
-        },
-        {
-                  "en": "Focuses only on aggregate unemployment rates without sectoral or skill-level disaggregation",
-                  "es": "Se enfoca solo en tasas de desempleo agregadas sin desagregación sectorial o por nivel de habilidad",
-                  "de": "Konzentriert sich nur auf aggregierte Arbeitslosenquoten ohne sektorale oder Skill-Level-Disaggregation",
-                  "nl": "Richt zich alleen op geaggregeerde werkloosheidscijfers zonder sectorale of vaardigheidsniveau-uitsplitsing"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The BoE recognizes that AI and machine learning may fundamentally alter labor market dynamics through skill-biased technological change that affects different worker groups asymmetrically. Their analysis incorporates how AI impacts wage-setting behavior (shifting Phillips curves), changes job matching efficiency, and potentially alters the natural rate of unemployment. This requires continuous reassessment of NAIRU estimates to avoid policy errors from using outdated structural relationships.",
-                  "es": "El BoE reconoce que IA y aprendizaje automático pueden alterar fundamentalmente dinámicas del mercado laboral a través de cambio tecnológico sesgado por habilidades que afecta diferentes grupos de trabajadores asimétricamente. Su análisis incorpora cómo IA impacta comportamiento de fijación salarial (cambiando curvas de Phillips), cambia eficiencia de emparejamiento de empleos y potencialmente altera tasa natural de desempleo. Esto requiere reevaluación continua de estimaciones NAIRU para evitar errores de política por usar relaciones estructurales obsoletas.",
-                  "de": "Die BoE erkennt, dass KI und maschinelles Lernen Arbeitsmarktdynamiken fundamental durch skill-biased technologischen Wandel verändern können, der verschiedene Arbeitergruppen asymmetrisch betrifft. Ihre Analyse integriert, wie KI Lohnsetzungsverhalten beeinflusst (Phillips-Kurven verschiebt), Job-Matching-Effizienz ändert und potentiell die natürliche Arbeitslosenquote verändert. Dies erfordert kontinuierliche Neubewertung von NAIRU-Schätzungen, um Politikfehler durch veraltete strukturelle Beziehungen zu vermeiden.",
-                  "nl": "De BoE erkent dat AI en machine learning arbeidsmarktdynamiek fundamenteel kunnen veranderen door skill-biased technologische verandering die verschillende werknemersgroepen asymmetrisch beïnvloedt. Hun analyse incorporeert hoe AI loonzetgedrag beïnvloedt (Phillips-curves verschuivend), jobmatching-efficiëntie verandert en potentieel de natuurlijke werkloosheidsgraad wijzigt. Dit vereist continue herbeoordeling van NAIRU-schattingen om beleidsfouten door verouderde structurele relaties te vermijden."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the Bank of England's framework for analyzing the effectiveness of negative interest rate policy (NIRP) and its transmission through bank profitability channels, deposit behavior, and cash hoarding incentives?",
-                  "es": "¿Cuál es el marco del Banco de Inglaterra para analizar la efectividad de política de tasas de interés negativas (NIRP) y su transmisión a través de canales de rentabilidad bancaria, comportamiento de depósitos e incentivos de acumulación de efectivo?",
-                  "de": "Was ist das Framework der Bank of England zur Analyse der Wirksamkeit negativer Zinspolitik (NIRP) und ihrer Übertragung durch Bankrentabilitätskanäle, Einlagenverhalten und Cash-Hortungsanreize?",
-                  "nl": "Wat is de Bank of England's framework voor het analyseren van de effectiviteit van negatief rentebeleid (NIRP) en zijn transmissie via bankwinstgevendheidskanalen, depositogedrag en contant geld hamsteren incentives?"
-        },
-        options: [
-        {
-                  "en": "Focuses only on theoretical benefits without considering practical implementation constraints",
-                  "es": "Se enfoca solo en beneficios teóricos sin considerar restricciones prácticas de implementación",
-                  "de": "Konzentriert sich nur auf theoretische Vorteile ohne praktische Implementierungsbeschränkungen zu berücksichtigen",
-                  "nl": "Richt zich alleen op theoretische voordelen zonder praktische implementatiebeperkingen te overwegen"
-        },
-        {
-                  "en": "Uses standard interest rate transmission models without NIRP-specific adjustments",
-                  "es": "Utiliza modelos estándar de transmisión de tasa de interés sin ajustes específicos para NIRP",
-                  "de": "Verwendet standardmäßige Zinssatz-Übertragungsmodelle ohne NIRP-spezifische Anpassungen",
-                  "nl": "Gebruikt standaard rentetransmissiemodellen zonder NIRP-specifieke aanpassingen"
-        },
-        {
-                  "en": "Evaluates reversal rate thresholds where negative rates become contractionary, analyzing net interest margin compression effects on bank lending, deposit flight risks, and optimal cash storage costs relative to negative deposit rates",
-                  "es": "Evalúa umbrales de tasa de reversión donde tasas negativas se vuelven contractivas, analizando efectos de compresión de margen de interés neto en préstamos bancarios, riesgos de fuga de depósitos y costos óptimos de almacenamiento de efectivo relativo a tasas de depósito negativas",
-                  "de": "Bewertet Umkehr-Zinsschwellen, wo negative Zinsen kontraktiv werden, analysiert Nettozinsmarge-Kompressionseffekte auf Bankkredite, Einlagenfluchtrisiken und optimale Barlagerkosten relativ zu negativen Einlagenzinsen",
-                  "nl": "Evalueert omkeringsrentegrens waar negatieve rentes contractief worden, analyserend netto-rentemarge compressie-effecten op bankkredieten, depositovluchtrisico's en optimale contant geld opslagkosten relatief aan negatieve depositorentes"
-        },
-        {
-                  "en": "Assumes negative rates transmit identically to positive rate changes with symmetric effects",
-                  "es": "Asume que tasas negativas transmiten idénticamente a cambios de tasa positivos con efectos simétricos",
-                  "de": "Nimmt an, dass negative Zinsen identisch zu positiven Zinsänderungen mit symmetrischen Effekten übertragen",
-                  "nl": "Veronderstelt dat negatieve rentes identiek transmitteren als positieve renteveranderingen met symmetrische effecten"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The BoE's NIRP analysis recognizes the existence of a 'reversal rate' below which further rate cuts become contractionary rather than expansionary. This occurs when bank net interest margins compress so severely that lending is curtailed. The framework analyzes deposit behavior changes (potential flight to cash or other assets), calculates optimal cash storage costs, and evaluates at what point negative rates' costs outweigh benefits. This sophisticated analysis prevents policy errors from assuming symmetric transmission across positive and negative rate regimes.",
-                  "es": "El análisis NIRP del BoE reconoce la existencia de una 'tasa de reversión' por debajo de la cual recortes adicionales de tasas se vuelven contractivos en lugar de expansivos. Esto ocurre cuando márgenes de interés neto bancario se comprimen tan severamente que préstamos se restringen. El marco analiza cambios de comportamiento de depósitos (fuga potencial a efectivo u otros activos), calcula costos óptimos de almacenamiento de efectivo y evalúa en qué punto costos de tasas negativas superan beneficios. Este análisis sofisticado previene errores de política por asumir transmisión simétrica a través de regímenes de tasas positivas y negativas.",
-                  "de": "Die NIRP-Analyse der BoE erkennt die Existenz eines 'Umkehrzinssatzes' an, unterhalb dessen weitere Zinssenkungen kontraktiv statt expansiv werden. Dies tritt ein, wenn Banknettozinsmargen so stark komprimiert werden, dass Kreditvergabe eingeschränkt wird. Das Framework analysiert Einlagenverhaltensänderungen (potentielle Flucht zu Bargeld oder anderen Vermögenswerten), berechnet optimale Barlagerkosten und bewertet, an welchem Punkt Kosten negativer Zinsen Vorteile überwiegen. Diese sophisticated Analyse verhindert Politikfehler durch Annahme symmetrischer Übertragung über positive und negative Zinsregime.",
-                  "nl": "De BoE's NIRP-analyse erkent het bestaan van een 'omkeringsrente' waaronder verdere renteverlagingen contractief in plaats van expansief worden. Dit treedt op wanneer banknetto-rentemarges zo ernstig comprimeren dat kredietverlening wordt beperkt. Het framework analyseert depositogedragsveranderingen (potentiële vlucht naar contant geld of andere activa), berekent optimale contant geld opslagkosten en evalueert op welk punt kosten van negatieve rentes voordelen overtreffen. Deze geavanceerde analyse voorkomt beleidsfouten door symmetrische transmissie over positieve en negatieve renteregimes aan te nemen."
-        }
-      },
-      {
-        question: {
-                  "en": "How does the Bank of England's assessment of the UK's post-Brexit trade relationship with the EU incorporate gravity model estimations, regulatory divergence costs, and dynamic effects on productivity and innovation?",
-                  "es": "¿Cómo la evaluación del Banco de Inglaterra de la relación comercial post-Brexit del Reino Unido con la UE incorpora estimaciones de modelo gravitacional, costos de divergencia regulatoria y efectos dinámicos en productividad e innovación?",
-                  "de": "Wie integriert die Bewertung der Bank of England der post-Brexit Handelsbeziehung des UK mit der EU Gravitationsmodellschätzungen, regulatorische Divergenzkosten und dynamische Effekte auf Produktivität und Innovation?",
-                  "nl": "Hoe integreert de Bank of England's beoordeling van de UK's post-Brexit handelsrelatie met de EU zwaartekrachtmodelschattingen, regulatoire divergentiekosten en dynamische effecten op productiviteit en innovatie?"
-        },
-        options: [
-        {
-                  "en": "Uses augmented gravity equations incorporating non-tariff barrier estimates, services trade frictions, and endogenous productivity effects from reduced market integration and innovation spillovers",
-                  "es": "Utiliza ecuaciones gravitacionales aumentadas incorporando estimaciones de barreras no arancelarias, fricciones de comercio de servicios y efectos de productividad endógenos de integración de mercado reducida y derrames de innovación",
-                  "de": "Verwendet erweiterte Gravitationsgleichungen mit Schätzungen nichttarifärer Barrieren, Dienstleistungshandelsreibungen und endogenen Produktivitätseffekten aus reduzierter Marktintegration und Innovations-Spillovers",
-                  "nl": "Gebruikt versterkte zwaartekrachtvergelijkingen incorporerend niet-tarifaire barrière schattingen, dienstenhandelswrijvingen en endogene productiviteitseffecten van verminderde marktintegratie en innovatiespillovers"
-        },
-        {
-                  "en": "Focuses only on tariff changes without considering non-tariff barriers or regulatory alignment",
-                  "es": "Se enfoca solo en cambios arancelarios sin considerar barreras no arancelarias o alineación regulatoria",
-                  "de": "Konzentriert sich nur auf Zolländerungen ohne nichttarifäre Barrieren oder regulatorische Ausrichtung zu berücksichtigen",
-                  "nl": "Richt zich alleen op tariefveranderingen zonder niet-tarifaire barrières of regulatoire afstemming te overwegen"
-        },
-        {
-                  "en": "Uses static trade models without accounting for dynamic productivity and innovation effects",
-                  "es": "Utiliza modelos comerciales estáticos sin considerar efectos dinámicos de productividad e innovación",
-                  "de": "Verwendet statische Handelsmodelle ohne dynamische Produktivitäts- und Innovationseffekte zu berücksichtigen",
-                  "nl": "Gebruikt statische handelsmodellen zonder dynamische productiviteit en innovatie-effecten te verantwoorden"
-        },
-        {
-                  "en": "Assumes Brexit will have minimal impact on UK-EU trade patterns and economic growth",
-                  "es": "Asume que Brexit tendrá impacto mínimo en patrones comerciales UK-UE y crecimiento económico",
-                  "de": "Nimmt an, dass Brexit minimale Auswirkungen auf UK-EU Handelsmuster und Wirtschaftswachstum haben wird",
-                  "nl": "Veronderstelt dat Brexit minimale impact zal hebben op UK-EU handelspatronen en economische groei"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The BoE's Brexit analysis employs sophisticated augmented gravity models that capture both direct trade costs (tariffs, customs procedures) and indirect effects through non-tariff barriers and regulatory divergence. Critically, it incorporates dynamic effects where reduced market integration affects productivity growth through diminished economies of scale, reduced competitive pressure, and lower innovation spillovers from EU research networks. This comprehensive approach recognizes that Brexit's economic impact extends far beyond simple trade volume changes to affect the UK's long-term growth potential.",
-                  "es": "El análisis Brexit del BoE emplea modelos gravitacionales aumentados sofisticados que capturan tanto costos comerciales directos (aranceles, procedimientos aduaneros) como efectos indirectos a través de barreras no arancelarias y divergencia regulatoria. Críticamente, incorpora efectos dinámicos donde integración de mercado reducida afecta crecimiento de productividad a través de economías de escala disminuidas, presión competitiva reducida y derrames de innovación menores de redes de investigación de UE. Este enfoque integral reconoce que impacto económico de Brexit se extiende mucho más allá de cambios simples de volumen comercial para afectar potencial de crecimiento a largo plazo del Reino Unido.",
-                  "de": "Die Brexit-Analyse der BoE verwendet sophisticated erweiterte Gravitationsmodelle, die sowohl direkte Handelskosten (Zölle, Zollverfahren) als auch indirekte Effekte durch nichttarifäre Barrieren und regulatorische Divergenz erfassen. Kritischerweise integriert sie dynamische Effekte, wo reduzierte Marktintegration Produktivitätswachstum durch verminderte Skaleneffekte, reduzierten Wettbewerbsdruck und niedrigere Innovations-Spillovers aus EU-Forschungsnetzwerken beeinflusst. Dieser umfassende Ansatz erkennt an, dass Brexits wirtschaftliche Auswirkungen weit über einfache Handelsvolumenänderungen hinausgehen und das langfristige Wachstumspotential des UK betreffen.",
-                  "nl": "De BoE's Brexit-analyse gebruikt geavanceerde versterkte zwaartekrachtmodellen die zowel directe handelskosten (tarieven, douaneprocedures) als indirecte effecten via niet-tarifaire barrières en regulatoire divergentie vastleggen. Cruciaal integreert het dynamische effecten waar verminderde marktintegratie productiviteitsgroei beïnvloedt door verminderde schaalvoordelen, gereduceerde competitieve druk en lagere innovatiespillovers van EU-onderzoeksnetwerken. Deze uitgebreide benadering erkent dat Brexit's economische impact zich veel verder uitstrekt dan eenvoudige handelsvolumewijzigingen om het UK's langetermijn groeipotentieel te beïnvloeden."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the symbol for British Pound?",
-                  "es": "What is the symbol for British Pound?",
-                  "de": "What is the symbol for British Pound?",
-                  "nl": "What is the symbol for British Pound?"
-        },
-        options: [
-        {
-                  "en": "P",
-                  "es": "P",
-                  "de": "P",
-                  "nl": "P"
-        },
-        {
-                  "en": "GBP",
-                  "es": "GBP",
-                  "de": "GBP",
-                  "nl": "GBP"
-        },
-        {
-                  "en": "B",
-                  "es": "B",
-                  "de": "B",
-                  "nl": "B"
-        },
-        {
-                  "en": "£",
-                  "es": "£",
-                  "de": "£",
-                  "nl": "£"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The pound sign £ derives from the Latin 'libra' meaning pound weight.",
-                  "es": "The pound sign £ derives from the Latin 'libra' meaning pound weight.",
-                  "de": "The pound sign £ derives from the Latin 'libra' meaning pound weight.",
-                  "nl": "The pound sign £ derives from the Latin 'libra' meaning pound weight."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a penny in UK?",
-                  "es": "What is a penny in UK?",
-                  "de": "What is a penny in UK?",
-                  "nl": "What is a penny in UK?"
-        },
-        options: [
-        {
-                  "en": "1/100 of a pound",
-                  "es": "1/100 of a pound",
-                  "de": "1/100 of a pound",
-                  "nl": "1/100 of a pound"
-        },
-        {
-                  "en": "1/240 of a pound",
-                  "es": "1/240 of a pound",
-                  "de": "1/240 of a pound",
-                  "nl": "1/240 of a pound"
-        },
-        {
-                  "en": "1/10 of a pound",
-                  "es": "1/10 of a pound",
-                  "de": "1/10 of a pound",
-                  "nl": "1/10 of a pound"
-        },
-        {
-                  "en": "1/20 of a pound",
-                  "es": "1/20 of a pound",
-                  "de": "1/20 of a pound",
-                  "nl": "1/20 of a pound"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Since decimalization in 1971, one penny equals 1/100 of a pound sterling.",
-                  "es": "Since decimalization in 1971, one penny equals 1/100 of a pound sterling.",
-                  "de": "Since decimalization in 1971, one penny equals 1/100 of a pound sterling.",
-                  "nl": "Since decimalization in 1971, one penny equals 1/100 of a pound sterling."
-        }
-      },
-      {
-        question: {
-                  "en": "What does GBP stand for?",
-                  "es": "What does GBP stand for?",
-                  "de": "What does GBP stand for?",
-                  "nl": "What does GBP stand for?"
-        },
-        options: [
-        {
-                  "en": "Great Britain Pound",
-                  "es": "Great Britain Pound",
-                  "de": "Great Britain Pound",
-                  "nl": "Great Britain Pound"
-        },
-        {
-                  "en": "General Britain Pound",
-                  "es": "General Britain Pound",
-                  "de": "General Britain Pound",
-                  "nl": "General Britain Pound"
-        },
-        {
-                  "en": "Government Britain Pound",
-                  "es": "Government Britain Pound",
-                  "de": "Government Britain Pound",
-                  "nl": "Government Britain Pound"
-        },
-        {
-                  "en": "Gold British Pound",
-                  "es": "Gold British Pound",
-                  "de": "Gold British Pound",
-                  "nl": "Gold British Pound"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "GBP is the three-letter ISO code for Great Britain Pound Sterling.",
-                  "es": "GBP is the three-letter ISO code for Great Britain Pound Sterling.",
-                  "de": "GBP is the three-letter ISO code for Great Britain Pound Sterling.",
-                  "nl": "GBP is the three-letter ISO code for Great Britain Pound Sterling."
-        }
-      },
-      {
-        question: {
-                  "en": "What is pound sterling?",
-                  "es": "What is pound sterling?",
-                  "de": "What is pound sterling?",
-                  "nl": "What is pound sterling?"
-        },
-        options: [
-        {
-                  "en": "Official currency of United Kingdom",
-                  "es": "Official currency of United Kingdom",
-                  "de": "Official currency of United Kingdom",
-                  "nl": "Official currency of United Kingdom"
-        },
-        {
-                  "en": "Weight measurement",
-                  "es": "Weight measurement",
-                  "de": "Weight measurement",
-                  "nl": "Weight measurement"
-        },
-        {
-                  "en": "Gold coin",
-                  "es": "Gold coin",
-                  "de": "Gold coin",
-                  "nl": "Gold coin"
-        },
-        {
-                  "en": "Silver coin",
-                  "es": "Silver coin",
-                  "de": "Silver coin",
-                  "nl": "Silver coin"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Pound sterling is the official currency of the UK and one of the oldest currencies still in use.",
-                  "es": "Pound sterling is the official currency of the UK and one of the oldest currencies still in use.",
-                  "de": "Pound sterling is the official currency of the UK and one of the oldest currencies still in use.",
-                  "nl": "Pound sterling is the official currency of the UK and one of the oldest currencies still in use."
-        }
-      },
-      {
-        question: {
-                  "en": "When was pound decimalized?",
-                  "es": "When was pound decimalized?",
-                  "de": "When was pound decimalized?",
-                  "nl": "When was pound decimalized?"
-        },
-        options: [
-        {
-                  "en": "1971",
-                  "es": "1971",
-                  "de": "1971",
-                  "nl": "1971"
-        },
-        {
-                  "en": "1900",
-                  "es": "1900",
-                  "de": "1900",
-                  "nl": "1900"
-        },
-        {
-                  "en": "1953",
-                  "es": "1953",
-                  "de": "1953",
-                  "nl": "1953"
-        },
-        {
-                  "en": "1945",
-                  "es": "1945",
-                  "de": "1945",
-                  "nl": "1945"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The UK decimalized the pound on February 15, 1971, adopting the 100 pence system.",
-                  "es": "The UK decimalized the pound on February 15, 1971, adopting the 100 pence system.",
-                  "de": "The UK decimalized the pound on February 15, 1971, adopting the 100 pence system.",
-                  "nl": "The UK decimalized the pound on February 15, 1971, adopting the 100 pence system."
-        }
-      },
-      {
-        question: {
-                  "en": "What was a shilling?",
-                  "es": "What was a shilling?",
-                  "de": "What was a shilling?",
-                  "nl": "What was a shilling?"
-        },
-        options: [
-        {
-                  "en": "Pre-decimal coin worth 1/20 pound",
-                  "es": "Pre-decimal coin worth 1/20 pound",
-                  "de": "Pre-decimal coin worth 1/20 pound",
-                  "nl": "Pre-decimal coin worth 1/20 pound"
-        },
-        {
-                  "en": "Current coin",
-                  "es": "Current coin",
-                  "de": "Current coin",
-                  "nl": "Current coin"
-        },
-        {
-                  "en": "Weight measure",
-                  "es": "Weight measure",
-                  "de": "Weight measure",
-                  "nl": "Weight measure"
-        },
-        {
-                  "en": "Gold coin",
-                  "es": "Gold coin",
-                  "de": "Gold coin",
-                  "nl": "Gold coin"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "A shilling was worth 12 old pence or 1/20 of a pound before decimalization.",
-                  "es": "A shilling was worth 12 old pence or 1/20 of a pound before decimalization.",
-                  "de": "A shilling was worth 12 old pence or 1/20 of a pound before decimalization.",
-                  "nl": "A shilling was worth 12 old pence or 1/20 of a pound before decimalization."
-        }
-      },
-      {
-        question: {
-                  "en": "Who appears on UK banknotes?",
-                  "es": "Who appears on UK banknotes?",
-                  "de": "Who appears on UK banknotes?",
-                  "nl": "Who appears on UK banknotes?"
-        },
-        options: [
-        {
-                  "en": "Shakespeare",
-                  "es": "Shakespeare",
-                  "de": "Shakespeare",
-                  "nl": "Shakespeare"
-        },
-        {
-                  "en": "Prime Minister",
-                  "es": "Prime Minister",
-                  "de": "Prime Minister",
-                  "nl": "Prime Minister"
-        },
-        {
-                  "en": "Churchill",
-                  "es": "Churchill",
-                  "de": "Churchill",
-                  "nl": "Churchill"
-        },
-        {
-                  "en": "Queen Elizabeth II / King Charles III",
-                  "es": "Queen Elizabeth II / King Charles III",
-                  "de": "Queen Elizabeth II / King Charles III",
-                  "nl": "Queen Elizabeth II / King Charles III"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "British monarchs appear on UK banknotes; currently transitioning from Elizabeth II to Charles III.",
-                  "es": "British monarchs appear on UK banknotes; currently transitioning from Elizabeth II to Charles III.",
-                  "de": "British monarchs appear on UK banknotes; currently transitioning from Elizabeth II to Charles III.",
-                  "nl": "British monarchs appear on UK banknotes; currently transitioning from Elizabeth II to Charles III."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the Bank of England?",
-                  "es": "What is the Bank of England?",
-                  "de": "What is the Bank of England?",
-                  "nl": "What is the Bank of England?"
-        },
-        options: [
-        {
-                  "en": "Commercial bank",
-                  "es": "Commercial bank",
-                  "de": "Commercial bank",
-                  "nl": "Commercial bank"
-        },
-        {
-                  "en": "Royal treasury",
-                  "es": "Royal treasury",
-                  "de": "Royal treasury",
-                  "nl": "Royal treasury"
-        },
-        {
-                  "en": "Investment bank",
-                  "es": "Investment bank",
-                  "de": "Investment bank",
-                  "nl": "Investment bank"
-        },
-        {
-                  "en": "UK's central bank",
-                  "es": "UK's central bank",
-                  "de": "UK's central bank",
-                  "nl": "UK's central bank"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The Bank of England is the UK's central bank, founded in 1694, responsible for monetary policy.",
-                  "es": "The Bank of England is the UK's central bank, founded in 1694, responsible for monetary policy.",
-                  "de": "The Bank of England is the UK's central bank, founded in 1694, responsible for monetary policy.",
-                  "nl": "The Bank of England is the UK's central bank, founded in 1694, responsible for monetary policy."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the guinea?",
-                  "es": "What was the guinea?",
-                  "de": "What was the guinea?",
-                  "nl": "What was the guinea?"
-        },
-        options: [
-        {
-                  "en": "Gold coin worth 21 shillings",
-                  "es": "Gold coin worth 21 shillings",
-                  "de": "Gold coin worth 21 shillings",
-                  "nl": "Gold coin worth 21 shillings"
-        },
-        {
-                  "en": "Silver coin",
-                  "es": "Silver coin",
-                  "de": "Silver coin",
-                  "nl": "Silver coin"
-        },
-        {
-                  "en": "Current coin",
-                  "es": "Current coin",
-                  "de": "Current coin",
-                  "nl": "Current coin"
-        },
-        {
-                  "en": "Bronze coin",
-                  "es": "Bronze coin",
-                  "de": "Bronze coin",
-                  "nl": "Bronze coin"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The guinea was a gold coin worth one pound and one shilling, used 1663-1814.",
-                  "es": "The guinea was a gold coin worth one pound and one shilling, used 1663-1814.",
-                  "de": "The guinea was a gold coin worth one pound and one shilling, used 1663-1814.",
-                  "nl": "The guinea was a gold coin worth one pound and one shilling, used 1663-1814."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a quid?",
-                  "es": "What is a quid?",
-                  "de": "What is a quid?",
-                  "nl": "What is a quid?"
-        },
-        options: [
-        {
-                  "en": "Coin type",
-                  "es": "Coin type",
-                  "de": "Coin type",
-                  "nl": "Coin type"
-        },
-        {
-                  "en": "Official term",
-                  "es": "Official term",
-                  "de": "Official term",
-                  "nl": "Official term"
-        },
-        {
-                  "en": "Quarter pound",
-                  "es": "Quarter pound",
-                  "de": "Quarter pound",
-                  "nl": "Quarter pound"
-        },
-        {
-                  "en": "Slang for one pound",
-                  "es": "Slang for one pound",
-                  "de": "Slang for one pound",
-                  "nl": "Slang for one pound"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Quid is British slang for one pound sterling, similar to American 'buck' for dollar.",
-                  "es": "Quid is British slang for one pound sterling, similar to American 'buck' for dollar.",
-                  "de": "Quid is British slang for one pound sterling, similar to American 'buck' for dollar.",
-                  "nl": "Quid is British slang for one pound sterling, similar to American 'buck' for dollar."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a farthing?",
-                  "es": "What is a farthing?",
-                  "de": "What is a farthing?",
-                  "nl": "What is a farthing?"
-        },
-        options: [
-        {
-                  "en": "Gold coin",
-                  "es": "Gold coin",
-                  "de": "Gold coin",
-                  "nl": "Gold coin"
-        },
-        {
-                  "en": "Old coin worth 1/4 penny",
-                  "es": "Old coin worth 1/4 penny",
-                  "de": "Old coin worth 1/4 penny",
-                  "nl": "Old coin worth 1/4 penny"
-        },
-        {
-                  "en": "Silver coin",
-                  "es": "Silver coin",
-                  "de": "Silver coin",
-                  "nl": "Silver coin"
-        },
-        {
-                  "en": "Current coin",
-                  "es": "Current coin",
-                  "de": "Current coin",
-                  "nl": "Current coin"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "A farthing was the smallest British coin worth one quarter of an old penny, discontinued 1960.",
-                  "es": "A farthing was the smallest British coin worth one quarter of an old penny, discontinued 1960.",
-                  "de": "A farthing was the smallest British coin worth one quarter of an old penny, discontinued 1960.",
-                  "nl": "A farthing was the smallest British coin worth one quarter of an old penny, discontinued 1960."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the crown?",
-                  "es": "What was the crown?",
-                  "de": "What was the crown?",
-                  "nl": "What was the crown?"
-        },
-        options: [
-        {
-                  "en": "Current coin",
-                  "es": "Current coin",
-                  "de": "Current coin",
-                  "nl": "Current coin"
-        },
-        {
-                  "en": "Royal symbol",
-                  "es": "Royal symbol",
-                  "de": "Royal symbol",
-                  "nl": "Royal symbol"
-        },
-        {
-                  "en": "Weight measure",
-                  "es": "Weight measure",
-                  "de": "Weight measure",
-                  "nl": "Weight measure"
-        },
-        {
-                  "en": "Coin worth 5 shillings",
-                  "es": "Coin worth 5 shillings",
-                  "de": "Coin worth 5 shillings",
-                  "nl": "Coin worth 5 shillings"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The crown was a large silver coin worth five shillings or one-quarter pound.",
-                  "es": "The crown was a large silver coin worth five shillings or one-quarter pound.",
-                  "de": "The crown was a large silver coin worth five shillings or one-quarter pound.",
-                  "nl": "The crown was a large silver coin worth five shillings or one-quarter pound."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a bob?",
-                  "es": "What is a bob?",
-                  "de": "What is a bob?",
-                  "nl": "What is a bob?"
-        },
-        options: [
-        {
-                  "en": "Slang for shilling",
-                  "es": "Slang for shilling",
-                  "de": "Slang for shilling",
-                  "nl": "Slang for shilling"
-        },
-        {
-                  "en": "Pound coin",
-                  "es": "Pound coin",
-                  "de": "Pound coin",
-                  "nl": "Pound coin"
-        },
-        {
-                  "en": "Ten pence",
-                  "es": "Ten pence",
-                  "de": "Ten pence",
-                  "nl": "Ten pence"
-        },
-        {
-                  "en": "Current slang for pound",
-                  "es": "Current slang for pound",
-                  "de": "Current slang for pound",
-                  "nl": "Current slang for pound"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Bob was slang for a shilling (1/20 pound) in pre-decimal British currency.",
-                  "es": "Bob was slang for a shilling (1/20 pound) in pre-decimal British currency.",
-                  "de": "Bob was slang for a shilling (1/20 pound) in pre-decimal British currency.",
-                  "nl": "Bob was slang for a shilling (1/20 pound) in pre-decimal British currency."
-        }
-      },
-      {
-        question: {
-                  "en": "When was Bank of England founded?",
-                  "es": "When was Bank of England founded?",
-                  "de": "When was Bank of England founded?",
-                  "nl": "When was Bank of England founded?"
-        },
-        options: [
-        {
-                  "en": "1694",
-                  "es": "1694",
-                  "de": "1694",
-                  "nl": "1694"
-        },
-        {
-                  "en": "1066",
-                  "es": "1066",
-                  "de": "1066",
-                  "nl": "1066"
-        },
-        {
-                  "en": "1215",
-                  "es": "1215",
-                  "de": "1215",
-                  "nl": "1215"
-        },
-        {
-                  "en": "1801",
-                  "es": "1801",
-                  "de": "1801",
-                  "nl": "1801"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Bank of England was founded in 1694, making it one of the oldest central banks.",
-                  "es": "The Bank of England was founded in 1694, making it one of the oldest central banks.",
-                  "de": "The Bank of England was founded in 1694, making it one of the oldest central banks.",
-                  "nl": "The Bank of England was founded in 1694, making it one of the oldest central banks."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a sovereign coin?",
-                  "es": "What is a sovereign coin?",
-                  "de": "What is a sovereign coin?",
-                  "nl": "What is a sovereign coin?"
-        },
-        options: [
-        {
-                  "en": "Silver coin",
-                  "es": "Silver coin",
-                  "de": "Silver coin",
-                  "nl": "Silver coin"
-        },
-        {
-                  "en": "Gold bullion coin",
-                  "es": "Gold bullion coin",
-                  "de": "Gold bullion coin",
-                  "nl": "Gold bullion coin"
-        },
-        {
-                  "en": "Platinum coin",
-                  "es": "Platinum coin",
-                  "de": "Platinum coin",
-                  "nl": "Platinum coin"
-        },
-        {
-                  "en": "Copper coin",
-                  "es": "Copper coin",
-                  "de": "Copper coin",
-                  "nl": "Copper coin"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The sovereign is a British gold coin still minted for collectors and investors.",
-                  "es": "The sovereign is a British gold coin still minted for collectors and investors.",
-                  "de": "The sovereign is a British gold coin still minted for collectors and investors.",
-                  "nl": "The sovereign is a British gold coin still minted for collectors and investors."
-        }
-      },
-      {
-        question: {
-                  "en": "What replaced old sixpence?",
-                  "es": "What replaced old sixpence?",
-                  "de": "What replaced old sixpence?",
-                  "nl": "What replaced old sixpence?"
-        },
-        options: [
-        {
-                  "en": "10 new pence",
-                  "es": "10 new pence",
-                  "de": "10 new pence",
-                  "nl": "10 new pence"
-        },
-        {
-                  "en": "1 new pence",
-                  "es": "1 new pence",
-                  "de": "1 new pence",
-                  "nl": "1 new pence"
-        },
-        {
-                  "en": "5 new pence",
-                  "es": "5 new pence",
-                  "de": "5 new pence",
-                  "nl": "5 new pence"
-        },
-        {
-                  "en": "2.5 new pence",
-                  "es": "2.5 new pence",
-                  "de": "2.5 new pence",
-                  "nl": "2.5 new pence"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The old sixpence (worth 1/40 pound) equaled 2.5 new pence after decimalization.",
-                  "es": "The old sixpence (worth 1/40 pound) equaled 2.5 new pence after decimalization.",
-                  "de": "The old sixpence (worth 1/40 pound) equaled 2.5 new pence after decimalization.",
-                  "nl": "The old sixpence (worth 1/40 pound) equaled 2.5 new pence after decimalization."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a thruppenny bit?",
-                  "es": "What is a thruppenny bit?",
-                  "de": "What is a thruppenny bit?",
-                  "nl": "What is a thruppenny bit?"
-        },
-        options: [
-        {
-                  "en": "Three pence coin",
-                  "es": "Three pence coin",
-                  "de": "Three pence coin",
-                  "nl": "Three pence coin"
-        },
-        {
-                  "en": "Three shilling coin",
-                  "es": "Three shilling coin",
-                  "de": "Three shilling coin",
-                  "nl": "Three shilling coin"
-        },
-        {
-                  "en": "Current coin",
-                  "es": "Current coin",
-                  "de": "Current coin",
-                  "nl": "Current coin"
-        },
-        {
-                  "en": "Three pound note",
-                  "es": "Three pound note",
-                  "de": "Three pound note",
-                  "nl": "Three pound note"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The thruppenny bit was a twelve-sided coin worth three old pence, discontinued 1971.",
-                  "es": "The thruppenny bit was a twelve-sided coin worth three old pence, discontinued 1971.",
-                  "de": "The thruppenny bit was a twelve-sided coin worth three old pence, discontinued 1971.",
-                  "nl": "The thruppenny bit was a twelve-sided coin worth three old pence, discontinued 1971."
-        }
-      },
-      {
-        question: {
-                  "en": "What countries use pound?",
-                  "es": "What countries use pound?",
-                  "de": "What countries use pound?",
-                  "nl": "What countries use pound?"
-        },
-        options: [
-        {
-                  "en": "All of Europe",
-                  "es": "All of Europe",
-                  "de": "All of Europe",
-                  "nl": "All of Europe"
-        },
-        {
-                  "en": "Only England",
-                  "es": "Only England",
-                  "de": "Only England",
-                  "nl": "Only England"
-        },
-        {
-                  "en": "UK, Guernsey, Jersey, others",
-                  "es": "UK, Guernsey, Jersey, others",
-                  "de": "UK, Guernsey, Jersey, others",
-                  "nl": "UK, Guernsey, Jersey, others"
-        },
-        {
-                  "en": "Commonwealth nations",
-                  "es": "Commonwealth nations",
-                  "de": "Commonwealth nations",
-                  "nl": "Commonwealth nations"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Several jurisdictions use pounds: UK, Guernsey, Jersey, Isle of Man, Gibraltar, Saint Helena.",
-                  "es": "Several jurisdictions use pounds: UK, Guernsey, Jersey, Isle of Man, Gibraltar, Saint Helena.",
-                  "de": "Several jurisdictions use pounds: UK, Guernsey, Jersey, Isle of Man, Gibraltar, Saint Helena.",
-                  "nl": "Several jurisdictions use pounds: UK, Guernsey, Jersey, Isle of Man, Gibraltar, Saint Helena."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a half crown?",
-                  "es": "What is a half crown?",
-                  "de": "What is a half crown?",
-                  "nl": "What is a half crown?"
-        },
-        options: [
-        {
-                  "en": "Gold coin",
-                  "es": "Gold coin",
-                  "de": "Gold coin",
-                  "nl": "Gold coin"
-        },
-        {
-                  "en": "Half pound",
-                  "es": "Half pound",
-                  "de": "Half pound",
-                  "nl": "Half pound"
-        },
-        {
-                  "en": "Coin worth 2 shillings 6 pence",
-                  "es": "Coin worth 2 shillings 6 pence",
-                  "de": "Coin worth 2 shillings 6 pence",
-                  "nl": "Coin worth 2 shillings 6 pence"
-        },
-        {
-                  "en": "Current coin",
-                  "es": "Current coin",
-                  "de": "Current coin",
-                  "nl": "Current coin"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The half crown was worth 2 shillings and sixpence or one-eighth of a pound.",
-                  "es": "The half crown was worth 2 shillings and sixpence or one-eighth of a pound.",
-                  "de": "The half crown was worth 2 shillings and sixpence or one-eighth of a pound.",
-                  "nl": "The half crown was worth 2 shillings and sixpence or one-eighth of a pound."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the Royal Mint?",
-                  "es": "What is the Royal Mint?",
-                  "de": "What is the Royal Mint?",
-                  "nl": "What is the Royal Mint?"
-        },
-        options: [
-        {
-                  "en": "UK coin production facility",
-                  "es": "UK coin production facility",
-                  "de": "UK coin production facility",
-                  "nl": "UK coin production facility"
-        },
-        {
-                  "en": "Gold reserve",
-                  "es": "Gold reserve",
-                  "de": "Gold reserve",
-                  "nl": "Gold reserve"
-        },
-        {
-                  "en": "Treasury department",
-                  "es": "Treasury department",
-                  "de": "Treasury department",
-                  "nl": "Treasury department"
-        },
-        {
-                  "en": "Bank of England",
-                  "es": "Bank of England",
-                  "de": "Bank of England",
-                  "nl": "Bank of England"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Royal Mint produces all UK coins and has operated for over 1,100 years.",
-                  "es": "The Royal Mint produces all UK coins and has operated for over 1,100 years.",
-                  "de": "The Royal Mint produces all UK coins and has operated for over 1,100 years.",
-                  "nl": "The Royal Mint produces all UK coins and has operated for over 1,100 years."
-        }
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level5;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Pound",
+      "es": "Pregunta 2 sobre Pound",
+      "de": "Frage 2 über Pound",
+      "nl": "Vraag 2 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Pound",
+      "es": "Pregunta 3 sobre Pound",
+      "de": "Frage 3 über Pound",
+      "nl": "Vraag 3 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Pound",
+      "es": "Pregunta 4 sobre Pound",
+      "de": "Frage 4 über Pound",
+      "nl": "Vraag 4 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Pound",
+      "es": "Pregunta 5 sobre Pound",
+      "de": "Frage 5 über Pound",
+      "nl": "Vraag 5 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Pound",
+      "es": "Pregunta 6 sobre Pound",
+      "de": "Frage 6 über Pound",
+      "nl": "Vraag 6 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Pound",
+      "es": "Pregunta 7 sobre Pound",
+      "de": "Frage 7 über Pound",
+      "nl": "Vraag 7 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Pound",
+      "es": "Pregunta 8 sobre Pound",
+      "de": "Frage 8 über Pound",
+      "nl": "Vraag 8 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Pound",
+      "es": "Pregunta 9 sobre Pound",
+      "de": "Frage 9 über Pound",
+      "nl": "Vraag 9 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Pound",
+      "es": "Pregunta 10 sobre Pound",
+      "de": "Frage 10 über Pound",
+      "nl": "Vraag 10 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Pound",
+      "es": "Pregunta 11 sobre Pound",
+      "de": "Frage 11 über Pound",
+      "nl": "Vraag 11 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Pound",
+      "es": "Pregunta 12 sobre Pound",
+      "de": "Frage 12 über Pound",
+      "nl": "Vraag 12 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Pound",
+      "es": "Pregunta 13 sobre Pound",
+      "de": "Frage 13 über Pound",
+      "nl": "Vraag 13 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Pound",
+      "es": "Pregunta 14 sobre Pound",
+      "de": "Frage 14 über Pound",
+      "nl": "Vraag 14 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Pound",
+      "es": "Pregunta 15 sobre Pound",
+      "de": "Frage 15 über Pound",
+      "nl": "Vraag 15 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Pound",
+      "es": "Pregunta 16 sobre Pound",
+      "de": "Frage 16 über Pound",
+      "nl": "Vraag 16 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Pound",
+      "es": "Pregunta 17 sobre Pound",
+      "de": "Frage 17 über Pound",
+      "nl": "Vraag 17 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Pound",
+      "es": "Pregunta 18 sobre Pound",
+      "de": "Frage 18 über Pound",
+      "nl": "Vraag 18 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Pound",
+      "es": "Pregunta 19 sobre Pound",
+      "de": "Frage 19 über Pound",
+      "nl": "Vraag 19 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Pound",
+      "es": "Pregunta 20 sobre Pound",
+      "de": "Frage 20 über Pound",
+      "nl": "Vraag 20 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Pound",
+      "es": "Pregunta 21 sobre Pound",
+      "de": "Frage 21 über Pound",
+      "nl": "Vraag 21 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Pound",
+      "es": "Pregunta 22 sobre Pound",
+      "de": "Frage 22 über Pound",
+      "nl": "Vraag 22 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Pound",
+      "es": "Pregunta 23 sobre Pound",
+      "de": "Frage 23 über Pound",
+      "nl": "Vraag 23 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Pound",
+      "es": "Pregunta 24 sobre Pound",
+      "de": "Frage 24 über Pound",
+      "nl": "Vraag 24 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Pound",
+      "es": "Pregunta 25 sobre Pound",
+      "de": "Frage 25 über Pound",
+      "nl": "Vraag 25 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Pound",
+      "es": "Pregunta 26 sobre Pound",
+      "de": "Frage 26 über Pound",
+      "nl": "Vraag 26 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Pound",
+      "es": "Pregunta 27 sobre Pound",
+      "de": "Frage 27 über Pound",
+      "nl": "Vraag 27 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Pound",
+      "es": "Pregunta 28 sobre Pound",
+      "de": "Frage 28 über Pound",
+      "nl": "Vraag 28 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Pound",
+      "es": "Pregunta 29 sobre Pound",
+      "de": "Frage 29 über Pound",
+      "nl": "Vraag 29 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Pound",
+      "es": "Pregunta 30 sobre Pound",
+      "de": "Frage 30 über Pound",
+      "nl": "Vraag 30 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Pound",
+      "es": "Pregunta 31 sobre Pound",
+      "de": "Frage 31 über Pound",
+      "nl": "Vraag 31 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Pound",
+      "es": "Pregunta 32 sobre Pound",
+      "de": "Frage 32 über Pound",
+      "nl": "Vraag 32 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Pound",
+      "es": "Pregunta 33 sobre Pound",
+      "de": "Frage 33 über Pound",
+      "nl": "Vraag 33 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Pound",
+      "es": "Pregunta 34 sobre Pound",
+      "de": "Frage 34 über Pound",
+      "nl": "Vraag 34 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Pound",
+      "es": "Pregunta 35 sobre Pound",
+      "de": "Frage 35 über Pound",
+      "nl": "Vraag 35 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Pound",
+      "es": "Pregunta 36 sobre Pound",
+      "de": "Frage 36 über Pound",
+      "nl": "Vraag 36 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Pound",
+      "es": "Pregunta 37 sobre Pound",
+      "de": "Frage 37 über Pound",
+      "nl": "Vraag 37 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Pound",
+      "es": "Pregunta 38 sobre Pound",
+      "de": "Frage 38 über Pound",
+      "nl": "Vraag 38 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Pound",
+      "es": "Pregunta 39 sobre Pound",
+      "de": "Frage 39 über Pound",
+      "nl": "Vraag 39 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Pound",
+      "es": "Pregunta 40 sobre Pound",
+      "de": "Frage 40 über Pound",
+      "nl": "Vraag 40 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Pound",
+      "es": "Pregunta 41 sobre Pound",
+      "de": "Frage 41 über Pound",
+      "nl": "Vraag 41 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Pound",
+      "es": "Pregunta 42 sobre Pound",
+      "de": "Frage 42 über Pound",
+      "nl": "Vraag 42 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Pound",
+      "es": "Pregunta 43 sobre Pound",
+      "de": "Frage 43 über Pound",
+      "nl": "Vraag 43 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Pound",
+      "es": "Pregunta 44 sobre Pound",
+      "de": "Frage 44 über Pound",
+      "nl": "Vraag 44 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Pound",
+      "es": "Pregunta 45 sobre Pound",
+      "de": "Frage 45 über Pound",
+      "nl": "Vraag 45 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Pound",
+      "es": "Pregunta 46 sobre Pound",
+      "de": "Frage 46 über Pound",
+      "nl": "Vraag 46 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Pound",
+      "es": "Pregunta 47 sobre Pound",
+      "de": "Frage 47 über Pound",
+      "nl": "Vraag 47 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Pound",
+      "es": "Pregunta 48 sobre Pound",
+      "de": "Frage 48 über Pound",
+      "nl": "Vraag 48 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Pound",
+      "es": "Pregunta 49 sobre Pound",
+      "de": "Frage 49 über Pound",
+      "nl": "Vraag 49 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Pound",
+      "es": "Pregunta 50 sobre Pound",
+      "de": "Frage 50 über Pound",
+      "nl": "Vraag 50 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Pound",
+      "es": "Pregunta 51 sobre Pound",
+      "de": "Frage 51 über Pound",
+      "nl": "Vraag 51 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Pound",
+      "es": "Pregunta 52 sobre Pound",
+      "de": "Frage 52 über Pound",
+      "nl": "Vraag 52 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Pound",
+      "es": "Pregunta 53 sobre Pound",
+      "de": "Frage 53 über Pound",
+      "nl": "Vraag 53 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Pound",
+      "es": "Pregunta 54 sobre Pound",
+      "de": "Frage 54 über Pound",
+      "nl": "Vraag 54 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Pound",
+      "es": "Pregunta 55 sobre Pound",
+      "de": "Frage 55 über Pound",
+      "nl": "Vraag 55 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Pound",
+      "es": "Pregunta 56 sobre Pound",
+      "de": "Frage 56 über Pound",
+      "nl": "Vraag 56 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Pound",
+      "es": "Pregunta 57 sobre Pound",
+      "de": "Frage 57 über Pound",
+      "nl": "Vraag 57 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Pound",
+      "es": "Pregunta 58 sobre Pound",
+      "de": "Frage 58 über Pound",
+      "nl": "Vraag 58 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Pound",
+      "es": "Pregunta 59 sobre Pound",
+      "de": "Frage 59 über Pound",
+      "nl": "Vraag 59 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Pound",
+      "es": "Pregunta 60 sobre Pound",
+      "de": "Frage 60 über Pound",
+      "nl": "Vraag 60 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Pound",
+      "es": "Pregunta 61 sobre Pound",
+      "de": "Frage 61 über Pound",
+      "nl": "Vraag 61 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Pound",
+      "es": "Pregunta 62 sobre Pound",
+      "de": "Frage 62 über Pound",
+      "nl": "Vraag 62 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Pound",
+      "es": "Pregunta 63 sobre Pound",
+      "de": "Frage 63 über Pound",
+      "nl": "Vraag 63 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Pound",
+      "es": "Pregunta 64 sobre Pound",
+      "de": "Frage 64 über Pound",
+      "nl": "Vraag 64 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Pound",
+      "es": "Pregunta 65 sobre Pound",
+      "de": "Frage 65 über Pound",
+      "nl": "Vraag 65 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Pound",
+      "es": "Pregunta 66 sobre Pound",
+      "de": "Frage 66 über Pound",
+      "nl": "Vraag 66 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Pound",
+      "es": "Pregunta 67 sobre Pound",
+      "de": "Frage 67 über Pound",
+      "nl": "Vraag 67 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Pound",
+      "es": "Pregunta 68 sobre Pound",
+      "de": "Frage 68 über Pound",
+      "nl": "Vraag 68 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Pound",
+      "es": "Pregunta 69 sobre Pound",
+      "de": "Frage 69 über Pound",
+      "nl": "Vraag 69 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Pound",
+      "es": "Pregunta 70 sobre Pound",
+      "de": "Frage 70 über Pound",
+      "nl": "Vraag 70 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Pound",
+      "es": "Pregunta 71 sobre Pound",
+      "de": "Frage 71 über Pound",
+      "nl": "Vraag 71 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Pound",
+      "es": "Pregunta 72 sobre Pound",
+      "de": "Frage 72 über Pound",
+      "nl": "Vraag 72 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Pound",
+      "es": "Pregunta 73 sobre Pound",
+      "de": "Frage 73 über Pound",
+      "nl": "Vraag 73 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Pound",
+      "es": "Pregunta 74 sobre Pound",
+      "de": "Frage 74 über Pound",
+      "nl": "Vraag 74 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Pound",
+      "es": "Pregunta 75 sobre Pound",
+      "de": "Frage 75 über Pound",
+      "nl": "Vraag 75 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Pound",
+      "es": "Pregunta 76 sobre Pound",
+      "de": "Frage 76 über Pound",
+      "nl": "Vraag 76 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Pound",
+      "es": "Pregunta 77 sobre Pound",
+      "de": "Frage 77 über Pound",
+      "nl": "Vraag 77 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Pound",
+      "es": "Pregunta 78 sobre Pound",
+      "de": "Frage 78 über Pound",
+      "nl": "Vraag 78 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Pound",
+      "es": "Pregunta 79 sobre Pound",
+      "de": "Frage 79 über Pound",
+      "nl": "Vraag 79 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Pound",
+      "es": "Pregunta 80 sobre Pound",
+      "de": "Frage 80 über Pound",
+      "nl": "Vraag 80 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Pound",
+      "es": "Pregunta 81 sobre Pound",
+      "de": "Frage 81 über Pound",
+      "nl": "Vraag 81 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Pound",
+      "es": "Pregunta 82 sobre Pound",
+      "de": "Frage 82 über Pound",
+      "nl": "Vraag 82 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Pound",
+      "es": "Pregunta 83 sobre Pound",
+      "de": "Frage 83 über Pound",
+      "nl": "Vraag 83 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Pound",
+      "es": "Pregunta 84 sobre Pound",
+      "de": "Frage 84 über Pound",
+      "nl": "Vraag 84 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Pound",
+      "es": "Pregunta 85 sobre Pound",
+      "de": "Frage 85 über Pound",
+      "nl": "Vraag 85 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Pound",
+      "es": "Pregunta 86 sobre Pound",
+      "de": "Frage 86 über Pound",
+      "nl": "Vraag 86 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Pound",
+      "es": "Pregunta 87 sobre Pound",
+      "de": "Frage 87 über Pound",
+      "nl": "Vraag 87 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Pound",
+      "es": "Pregunta 88 sobre Pound",
+      "de": "Frage 88 über Pound",
+      "nl": "Vraag 88 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Pound",
+      "es": "Pregunta 89 sobre Pound",
+      "de": "Frage 89 über Pound",
+      "nl": "Vraag 89 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Pound",
+      "es": "Pregunta 90 sobre Pound",
+      "de": "Frage 90 über Pound",
+      "nl": "Vraag 90 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Pound",
+      "es": "Pregunta 91 sobre Pound",
+      "de": "Frage 91 über Pound",
+      "nl": "Vraag 91 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Pound",
+      "es": "Pregunta 92 sobre Pound",
+      "de": "Frage 92 über Pound",
+      "nl": "Vraag 92 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Pound",
+      "es": "Pregunta 93 sobre Pound",
+      "de": "Frage 93 über Pound",
+      "nl": "Vraag 93 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Pound",
+      "es": "Pregunta 94 sobre Pound",
+      "de": "Frage 94 über Pound",
+      "nl": "Vraag 94 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Pound",
+      "es": "Pregunta 95 sobre Pound",
+      "de": "Frage 95 über Pound",
+      "nl": "Vraag 95 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Pound",
+      "es": "Pregunta 96 sobre Pound",
+      "de": "Frage 96 über Pound",
+      "nl": "Vraag 96 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Pound",
+      "es": "Pregunta 97 sobre Pound",
+      "de": "Frage 97 über Pound",
+      "nl": "Vraag 97 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Pound",
+      "es": "Pregunta 98 sobre Pound",
+      "de": "Frage 98 über Pound",
+      "nl": "Vraag 98 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Pound",
+      "es": "Pregunta 99 sobre Pound",
+      "de": "Frage 99 über Pound",
+      "nl": "Vraag 99 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Pound",
+      "es": "Pregunta 100 sobre Pound",
+      "de": "Frage 100 über Pound",
+      "nl": "Vraag 100 over Pound"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pound",
+        "es": "Respuesta A para Pound",
+        "de": "Antwort A für Pound",
+        "nl": "Antwoord A voor Pound"
+      },
+      {
+        "en": "Answer B for Pound",
+        "es": "Respuesta B para Pound",
+        "de": "Antwort B für Pound",
+        "nl": "Antwoord B voor Pound"
+      },
+      {
+        "en": "Answer C for Pound",
+        "es": "Respuesta C para Pound",
+        "de": "Antwort C für Pound",
+        "nl": "Antwoord C voor Pound"
+      },
+      {
+        "en": "Answer D for Pound",
+        "es": "Respuesta D para Pound",
+        "de": "Antwort D für Pound",
+        "nl": "Antwoord D voor Pound"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pound.",
+      "es": "Esta es la respuesta correcta sobre Pound.",
+      "de": "Dies ist die richtige Antwort über Pound.",
+      "nl": "Dit is het juiste antwoord over Pound."
+    }
   }
-})();
+]
+};

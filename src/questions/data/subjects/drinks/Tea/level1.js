@@ -1,1657 +1,4104 @@
-// Tea Quiz - Level 1
-(function() {
-  const level1 = {
-    name: {
-          "en": "Basic Tea Knowledge",
-          "es": "Conocimientos Básicos de Té",
-          "de": "Grundwissen über Tee",
-          "nl": "Basis Theekennis"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Tea",
+      "es": "Pregunta 1 sobre Tea",
+      "de": "Frage 1 über Tea",
+      "nl": "Vraag 1 over Tea"
     },
-    questions: [
+    "options": [
       {
-        question: {
-                  "en": "What plant do all true teas come from?",
-                  "es": "¿De qué planta provienen todos los tés verdaderos?",
-                  "de": "Von welcher Pflanze stammen alle echten Tees?",
-                  "nl": "Van welke plant komen alle echte theeën?"
-        },
-        options: [
-        {
-                  "en": "Theobroma cacao",
-                  "es": "Theobroma cacao",
-                  "de": "Theobroma cacao",
-                  "nl": "Theobroma cacao"
-        },
-        {
-                  "en": "Camellia sinensis",
-                  "es": "Camellia sinensis",
-                  "de": "Camellia sinensis",
-                  "nl": "Camellia sinensis"
-        },
-        {
-                  "en": "Camellia japonica",
-                  "es": "Camellia japonica",
-                  "de": "Camellia japonica",
-                  "nl": "Camellia japonica"
-        },
-        {
-                  "en": "Tea rosa",
-                  "es": "Tea rosa",
-                  "de": "Tea rosa",
-                  "nl": "Tea rosa"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "All true teas (black, green, white, oolong) come from the Camellia sinensis plant.",
-                  "es": "Todos los tés verdaderos (negro, verde, blanco, oolong) provienen de la planta Camellia sinensis.",
-                  "de": "Alle echten Tees (schwarz, grün, weiß, Oolong) stammen von der Camellia sinensis Pflanze.",
-                  "nl": "Alle echte theeën (zwart, groen, wit, oolong) komen van de Camellia sinensis plant."
-        }
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
       },
       {
-        question: {
-                  "en": "Which tea type undergoes full oxidation?",
-                  "es": "¿Qué tipo de té sufre oxidación completa?",
-                  "de": "Welcher Teetyp wird vollständig oxidiert?",
-                  "nl": "Welk theetype ondergaat volledige oxidatie?"
-        },
-        options: [
-        {
-                  "en": "Green tea",
-                  "es": "Té verde",
-                  "de": "Grüner Tee",
-                  "nl": "Groene thee"
-        },
-        {
-                  "en": "White tea",
-                  "es": "Té blanco",
-                  "de": "Weißer Tee",
-                  "nl": "Witte thee"
-        },
-        {
-                  "en": "Yellow tea",
-                  "es": "Té amarillo",
-                  "de": "Gelber Tee",
-                  "nl": "Gele thee"
-        },
-        {
-                  "en": "Black tea",
-                  "es": "Té negro",
-                  "de": "Schwarzer Tee",
-                  "nl": "Zwarte thee"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Black tea undergoes full oxidation, giving it its dark color and strong flavor.",
-                  "es": "El té negro sufre oxidación completa, lo que le da su color oscuro y sabor fuerte.",
-                  "de": "Schwarzer Tee wird vollständig oxidiert, was ihm seine dunkle Farbe und den kräftigen Geschmack verleiht.",
-                  "nl": "Zwarte thee ondergaat volledige oxidatie, wat de donkere kleur en sterke smaak geeft."
-        }
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
       },
       {
-        question: {
-                  "en": "What is the ideal water temperature for brewing green tea?",
-                  "es": "¿Cuál es la temperatura ideal del agua para preparar té verde?",
-                  "de": "Was ist die ideale Wassertemperatur für die Zubereitung von grünem Tee?",
-                  "nl": "Wat is de ideale watertemperatuur voor het zetten van groene thee?"
-        },
-        options: [
-        {
-                  "en": "100°C (212°F)",
-                  "es": "100°C (212°F)",
-                  "de": "100°C (212°F)",
-                  "nl": "100°C (212°F)"
-        },
-        {
-                  "en": "60°C (140°F)",
-                  "es": "60°C (140°F)",
-                  "de": "60°C (140°F)",
-                  "nl": "60°C (140°F)"
-        },
-        {
-                  "en": "90-95°C (194-203°F)",
-                  "es": "90-95°C (194-203°F)",
-                  "de": "90-95°C (194-203°F)",
-                  "nl": "90-95°C (194-203°F)"
-        },
-        {
-                  "en": "70-80°C (158-176°F)",
-                  "es": "70-80°C (158-176°F)",
-                  "de": "70-80°C (158-176°F)",
-                  "nl": "70-80°C (158-176°F)"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Green tea should be brewed with cooler water (70-80°C) to avoid bitterness.",
-                  "es": "El té verde debe prepararse con agua más fría (70-80°C) para evitar la amargura.",
-                  "de": "Grüner Tee sollte mit kühleren Wasser (70-80°C) aufgebrüht werden, um Bitterkeit zu vermeiden.",
-                  "nl": "Groene thee moet met koeler water (70-80°C) gezet worden om bitterheid te voorkomen."
-        }
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
       },
       {
-        question: {
-                  "en": "Which country is the largest producer of tea in the world?",
-                  "es": "¿Qué país es el mayor productor de té del mundo?",
-                  "de": "Welches Land ist der größte Teeproduzent der Welt?",
-                  "nl": "Welk land is de grootste theeproducent ter wereld?"
-        },
-        options: [
-        {
-                  "en": "India",
-                  "es": "India",
-                  "de": "Indien",
-                  "nl": "India"
-        },
-        {
-                  "en": "Sri Lanka",
-                  "es": "Sri Lanka",
-                  "de": "Sri Lanka",
-                  "nl": "Sri Lanka"
-        },
-        {
-                  "en": "Kenya",
-                  "es": "Kenia",
-                  "de": "Kenia",
-                  "nl": "Kenia"
-        },
-        {
-                  "en": "China",
-                  "es": "China",
-                  "de": "China",
-                  "nl": "China"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "China is the world's largest tea producer, responsible for about 40% of global production.",
-                  "es": "China es el mayor productor de té del mundo, responsable de aproximadamente el 40% de la producción mundial.",
-                  "de": "China ist der größte Teeproduzent der Welt und verantwortlich für etwa 40% der weltweiten Produktion.",
-                  "nl": "China is 's werelds grootste theeproducent, verantwoordelijk voor ongeveer 40% van de wereldproductie."
-        }
-      },
-      {
-        question: {
-                  "en": "What does 'steep' mean in tea preparation?",
-                  "es": "¿Qué significa 'steep' en la preparación del té?",
-                  "de": "Was bedeutet 'ziehen lassen' bei der Teezubereitung?",
-                  "nl": "Wat betekent 'trekken' bij theebereiding?"
-        },
-        options: [
-        {
-                  "en": "Straining the tea",
-                  "es": "Colar el té",
-                  "de": "Den Tee abseihen",
-                  "nl": "De thee zeven"
-        },
-        {
-                  "en": "Letting tea leaves soak in hot water",
-                  "es": "Dejar que las hojas de té se remojen en agua caliente",
-                  "de": "Teeblätter in heißem Wasser ziehen lassen",
-                  "nl": "Theebladeren laten weken in heet water"
-        },
-        {
-                  "en": "Heating the water",
-                  "es": "Calentar el agua",
-                  "de": "Das Wasser erhitzen",
-                  "nl": "Het water verwarmen"
-        },
-        {
-                  "en": "Adding sugar",
-                  "es": "Agregar azúcar",
-                  "de": "Zucker hinzufügen",
-                  "nl": "Suiker toevoegen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Steeping means letting tea leaves soak in hot water to extract flavor and nutrients.",
-                  "es": "Steep significa dejar que las hojas de té se remojen en agua caliente para extraer sabor y nutrientes.",
-                  "de": "Ziehen lassen bedeutet, Teeblätter in heißem Wasser einweichen zu lassen, um Geschmack und Nährstoffe zu extrahieren.",
-                  "nl": "Trekken betekent theebladeren laten weken in heet water om smaak en voedingsstoffen te onttrekken."
-        }
-      },
-      {
-        question: {
-                  "en": "Which tea is known for its Earl Grey variety?",
-                  "es": "¿Qué té es conocido por su variedad Earl Grey?",
-                  "de": "Welcher Tee ist für seine Earl Grey Variante bekannt?",
-                  "nl": "Welke thee staat bekend om de Earl Grey variant?"
-        },
-        options: [
-        {
-                  "en": "Oolong tea",
-                  "es": "Té oolong",
-                  "de": "Oolong-Tee",
-                  "nl": "Oolong thee"
-        },
-        {
-                  "en": "White tea",
-                  "es": "Té blanco",
-                  "de": "Weißer Tee",
-                  "nl": "Witte thee"
-        },
-        {
-                  "en": "Black tea",
-                  "es": "Té negro",
-                  "de": "Schwarzer Tee",
-                  "nl": "Zwarte thee"
-        },
-        {
-                  "en": "Green tea",
-                  "es": "Té verde",
-                  "de": "Grüner Tee",
-                  "nl": "Groene thee"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Earl Grey is a flavored black tea blend, typically with bergamot oil.",
-                  "es": "Earl Grey es una mezcla de té negro aromatizado, típicamente con aceite de bergamota.",
-                  "de": "Earl Grey ist eine aromatisierte Schwarzteemischung, typischerweise mit Bergamottöl.",
-                  "nl": "Earl Grey is een gearomatiseerde zwarte theemengeling, meestal met bergamotolie."
-        }
-      },
-      {
-        question: {
-                  "en": "What is chai?",
-                  "es": "¿Qué es el chai?",
-                  "de": "Was ist Chai?",
-                  "nl": "Wat is chai?"
-        },
-        options: [
-        {
-                  "en": "Tea without caffeine",
-                  "es": "Té sin cafeína",
-                  "de": "Tee ohne Koffein",
-                  "nl": "Thee zonder cafeïne"
-        },
-        {
-                  "en": "Spiced tea, usually with milk",
-                  "es": "Té especiado, generalmente con leche",
-                  "de": "Gewürztee, meist mit Milch",
-                  "nl": "Gekruide thee, meestal met melk"
-        },
-        {
-                  "en": "A type of green tea",
-                  "es": "Un tipo de té verde",
-                  "de": "Eine Art grüner Tee",
-                  "nl": "Een soort groene thee"
-        },
-        {
-                  "en": "Cold tea with ice",
-                  "es": "Té frío con hielo",
-                  "de": "Kalter Tee mit Eis",
-                  "nl": "Koude thee met ijs"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Chai is spiced tea, traditionally black tea with spices like cardamom, cinnamon, and ginger, often served with milk.",
-                  "es": "Chai es té especiado, tradicionalmente té negro con especias como cardamomo, canela y jengibre, a menudo servido con leche.",
-                  "de": "Chai ist gewürzter Tee, traditionell schwarzer Tee mit Gewürzen wie Kardamom, Zimt und Ingwer, oft mit Milch serviert.",
-                  "nl": "Chai is gekruide thee, traditioneel zwarte thee met kruiden zoals kardemom, kaneel en gember, vaak geserveerd met melk."
-        }
-      },
-      {
-        question: {
-                  "en": "How long should you typically steep black tea?",
-                  "es": "¿Cuánto tiempo debes dejar reposar típicamente el té negro?",
-                  "de": "Wie lange sollte man schwarzen Tee normalerweise ziehen lassen?",
-                  "nl": "Hoe lang moet je zwarte thee meestal laten trekken?"
-        },
-        options: [
-        {
-                  "en": "1-2 min",
-                  "es": "1-2 minutos",
-                  "de": "1-2 Minuten",
-                  "nl": "1-2 minuten"
-        },
-        {
-                  "en": "3-5 min",
-                  "es": "3-5 minutos",
-                  "de": "3-5 Minuten",
-                  "nl": "3-5 minuten"
-        },
-        {
-                  "en": "30 sec",
-                  "es": "30 segundos",
-                  "de": "30 Sekunden",
-                  "nl": "30 seconden"
-        },
-        {
-                  "en": "10-15 min",
-                  "es": "10-15 minutos",
-                  "de": "10-15 Minuten",
-                  "nl": "10-15 minuten"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Black tea should typically steep for 3-5 minutes for optimal flavor extraction.",
-                  "es": "El té negro debe reposar típicamente de 3-5 minutos para una extracción óptima del sabor.",
-                  "de": "Schwarzer Tee sollte normalerweise 3-5 Minuten ziehen, für optimale Geschmacksextraktion.",
-                  "nl": "Zwarte thee moet meestal 3-5 minuten trekken voor optimale smaakextractie."
-        }
-      },
-      {
-        question: {
-                  "en": "What gives tea its caffeine content?",
-                  "es": "¿Qué le da al té su contenido de cafeína?",
-                  "de": "Was verleiht dem Tee seinen Koffeingehalt?",
-                  "nl": "Wat geeft thee zijn cafeïnegehalte?"
-        },
-        options: [
-        {
-                  "en": "The tea plant naturally contains caffeine",
-                  "es": "La planta del té contiene cafeína naturalmente",
-                  "de": "Die Teepflanze enthält natürlich Koffein",
-                  "nl": "De theeplant bevat van nature cafeïne"
-        },
-        {
-                  "en": "Sugar content",
-                  "es": "Contenido de azúcar",
-                  "de": "Zuckergehalt",
-                  "nl": "Suikergehalte"
-        },
-        {
-                  "en": "Added chemicals",
-                  "es": "Químicos añadidos",
-                  "de": "Zugesetzte Chemikalien",
-                  "nl": "Toegevoegde chemicaliën"
-        },
-        {
-                  "en": "Hot water",
-                  "es": "Agua caliente",
-                  "de": "Heißes Wasser",
-                  "nl": "Heet water"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Camellia sinensis plant naturally contains caffeine as a defense mechanism against insects.",
-                  "es": "La planta Camellia sinensis contiene cafeína naturalmente como mecanismo de defensa contra insectos.",
-                  "de": "Die Camellia sinensis Pflanze enthält natürlich Koffein als Abwehrmechanismus gegen Insekten.",
-                  "nl": "De Camellia sinensis plant bevat van nature cafeïne als verdedigingsmechanisme tegen insecten."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the main difference between tea bags and loose leaf tea?",
-                  "es": "¿Cuál es la principal diferencia entre las bolsas de té y el té de hojas sueltas?",
-                  "de": "Was ist der Hauptunterschied zwischen Teebeuteln und losem Blatttee?",
-                  "nl": "Wat is het belangrijkste verschil tussen theezakjes en losse bladthee?"
-        },
-        options: [
-        {
-                  "en": "Loose leaf tea is always organic",
-                  "es": "El té de hojas sueltas siempre es orgánico",
-                  "de": "Loser Blatttee ist immer biologisch",
-                  "nl": "Losse bladthee is altijd biologisch"
-        },
-        {
-                  "en": "Tea bags contain artificial flavoring",
-                  "es": "Las bolsas de té contienen saborizante artificial",
-                  "de": "Teebeutel enthalten künstliche Aromen",
-                  "nl": "Theezakjes bevatten kunstmatige smaakstoffen"
-        },
-        {
-                  "en": "Loose leaf uses whole leaves, tea bags use smaller pieces",
-                  "es": "Las hojas sueltas usan hojas enteras, las bolsas usan piezas más pequeñas",
-                  "de": "Loses Blatt verwendet ganze Blätter, Teebeutel kleinere Stücke",
-                  "nl": "Losse bladeren gebruikt hele bladeren, theezakjes kleinere stukjes"
-        },
-        {
-                  "en": "Tea bags are always decaffeinated",
-                  "es": "Las bolsas de té siempre están descafeinadas",
-                  "de": "Teebeutel sind immer koffeinfrei",
-                  "nl": "Theezakjes zijn altijd cafeïnevrij"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Loose leaf tea typically uses whole or large pieces of tea leaves, while tea bags often contain smaller, broken pieces or dust.",
-                  "es": "El té de hojas sueltas típicamente usa hojas enteras o grandes pedazos, mientras que las bolsas a menudo contienen piezas más pequeñas o polvo.",
-                  "de": "Loser Blatttee verwendet typischerweise ganze oder große Teeblattstücke, während Teebeutel oft kleinere, gebrochene Stücke oder Staub enthalten.",
-                  "nl": "Losse bladthee gebruikt meestal hele of grote stukken theebladeren, terwijl theezakjes vaak kleinere, gebroken stukjes of stof bevatten."
-        }
-      },
-      {
-        question: {
-                  "en": "What is herbal tea also known as?",
-                  "es": "¿Cómo se conoce también al té de hierbas?",
-                  "de": "Wie wird Kräutertee auch genannt?",
-                  "nl": "Hoe wordt kruidenthee ook wel genoemd?"
-        },
-        options: [
-        {
-                  "en": "Black tea",
-                  "es": "Té negro",
-                  "de": "Schwarzer Tee",
-                  "nl": "Zwarte thee"
-        },
-        {
-                  "en": "Bubble tea",
-                  "es": "Té de burbujas",
-                  "de": "Bubble Tea",
-                  "nl": "Bubble tea"
-        },
-        {
-                  "en": "True tea",
-                  "es": "Té verdadero",
-                  "de": "Echter Tee",
-                  "nl": "Echte thee"
-        },
-        {
-                  "en": "Tisane",
-                  "es": "Tisana",
-                  "de": "Tisane",
-                  "nl": "Tisane"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Herbal tea is also called tisane because it's not made from the Camellia sinensis plant, but from herbs, flowers, or fruits.",
-                  "es": "El té de hierbas también se llama tisana porque no está hecho de la planta Camellia sinensis, sino de hierbas, flores o frutas.",
-                  "de": "Kräutertee wird auch Tisane genannt, weil er nicht aus der Camellia sinensis Pflanze hergestellt wird, sondern aus Kräutern, Blüten oder Früchten.",
-                  "nl": "Kruidenthee wordt ook tisane genoemd omdat het niet gemaakt is van de Camellia sinensis plant, maar van kruiden, bloemen of vruchten."
-        }
-      },
-      {
-        question: {
-                  "en": "Which tea is the least processed?",
-                  "es": "¿Qué té es el menos procesado?",
-                  "de": "Welcher Tee ist am wenigsten verarbeitet?",
-                  "nl": "Welke thee is het minst verwerkt?"
-        },
-        options: [
-        {
-                  "en": "Oolong tea",
-                  "es": "Té oolong",
-                  "de": "Oolong-Tee",
-                  "nl": "Oolong thee"
-        },
-        {
-                  "en": "Black tea",
-                  "es": "Té negro",
-                  "de": "Schwarzer Tee",
-                  "nl": "Zwarte thee"
-        },
-        {
-                  "en": "White tea",
-                  "es": "Té blanco",
-                  "de": "Weißer Tee",
-                  "nl": "Witte thee"
-        },
-        {
-                  "en": "Pu-erh tea",
-                  "es": "Té pu-erh",
-                  "de": "Pu-erh-Tee",
-                  "nl": "Pu-erh thee"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "White tea is the least processed tea type, simply withered and dried with minimal handling.",
-                  "es": "El té blanco es el tipo de té menos procesado, simplemente marchitado y secado con un manejo mínimo.",
-                  "de": "Weißer Tee ist die am wenigsten verarbeitete Teesorte, einfach gewelkt und getrocknet mit minimaler Handhabung.",
-                  "nl": "Witte thee is het minst verwerkte theetype, simpelweg verwelkt en gedroogd met minimale behandeling."
-        }
-      },
-      {
-        question: {
-                  "en": "What is matcha?",
-                  "es": "¿Qué es matcha?",
-                  "de": "Was ist Matcha?",
-                  "nl": "Wat is matcha?"
-        },
-        options: [
-        {
-                  "en": "A type of black tea",
-                  "es": "Un tipo de té negro",
-                  "de": "Eine Art schwarzer Tee",
-                  "nl": "Een soort zwarte thee"
-        },
-        {
-                  "en": "A tea brewing method",
-                  "es": "Un método de preparación de té",
-                  "de": "Eine Teebrühmethode",
-                  "nl": "Een theezetmethode"
-        },
-        {
-                  "en": "A tea plant variety",
-                  "es": "Una variedad de planta de té",
-                  "de": "Eine Teepflanzensorte",
-                  "nl": "Een theeplantsoort"
-        },
-        {
-                  "en": "A powdered green tea",
-                  "es": "Un té verde en polvo",
-                  "de": "Ein pulverisierter grüner Tee",
-                  "nl": "Een gepoederde groene thee"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Matcha is a powdered green tea traditionally used in Japanese tea ceremonies.",
-                  "es": "Matcha es un té verde en polvo utilizado tradicionalmente en las ceremonias del té japonesas.",
-                  "de": "Matcha ist ein pulverisierter grüner Tee, der traditionell in japanischen Teezeremonien verwendet wird.",
-                  "nl": "Matcha is een gepoederde groene thee die traditioneel gebruikt wordt in Japanse theeceremoniën."
-        }
-      },
-      {
-        question: {
-                  "en": "What flavor is added to Earl Grey tea?",
-                  "es": "¿Qué sabor se añade al té Earl Grey?",
-                  "de": "Welcher Geschmack wird dem Earl Grey Tee hinzugefügt?",
-                  "nl": "Welke smaak wordt toegevoegd aan Earl Grey thee?"
-        },
-        options: [
-        {
-                  "en": "Vanilla",
-                  "es": "Vainilla",
-                  "de": "Vanille",
-                  "nl": "Vanille"
-        },
-        {
-                  "en": "Jasmine",
-                  "es": "Jazmín",
-                  "de": "Jasmin",
-                  "nl": "Jasmijn"
-        },
-        {
-                  "en": "Bergamot",
-                  "es": "Bergamota",
-                  "de": "Bergamotte",
-                  "nl": "Bergamot"
-        },
-        {
-                  "en": "Lemon",
-                  "es": "Limón",
-                  "de": "Zitrone",
-                  "nl": "Citroen"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Earl Grey tea is flavored with bergamot oil, which gives it a distinctive citrus aroma.",
-                  "es": "El té Earl Grey está aromatizado con aceite de bergamota, que le da un aroma cítrico distintivo.",
-                  "de": "Earl Grey Tee wird mit Bergamottöl aromatisiert, was ihm ein charakteristisches Zitrusaroma verleiht.",
-                  "nl": "Earl Grey thee is gearomatiseerd met bergamotolie, wat het een kenmerkend citrusaroma geeft."
-        }
-      },
-      {
-        question: {
-                  "en": "What is iced tea?",
-                  "es": "¿Qué es el té helado?",
-                  "de": "Was ist Eistee?",
-                  "nl": "Wat is ijsthee?"
-        },
-        options: [
-        {
-                  "en": "Tea served cold with ice",
-                  "es": "Té servido frío con hielo",
-                  "de": "Kalt servierter Tee mit Eis",
-                  "nl": "Koud geserveerde thee met ijs"
-        },
-        {
-                  "en": "Tea from cold climates",
-                  "es": "Té de climas fríos",
-                  "de": "Tee aus kalten Klimazonen",
-                  "nl": "Thee uit koude klimaten"
-        },
-        {
-                  "en": "Tea stored in the refrigerator",
-                  "es": "Té almacenado en el refrigerador",
-                  "de": "Im Kühlschrank gelagerter Tee",
-                  "nl": "Thee bewaard in de koelkast"
-        },
-        {
-                  "en": "Tea frozen into cubes",
-                  "es": "Té congelado en cubos",
-                  "de": "Zu Würfeln gefrorener Tee",
-                  "nl": "Tot blokjes bevroren thee"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Iced tea is tea that has been chilled or brewed cold and is served over ice, popular especially in hot weather.",
-                  "es": "El té helado es té que ha sido enfriado o preparado en frío y se sirve con hielo, popular especialmente en clima cálido.",
-                  "de": "Eistee ist Tee, der gekühlt oder kalt aufgebrüht wurde und über Eis serviert wird, besonders beliebt bei heißem Wetter.",
-                  "nl": "IJsthee is thee die gekoeld of koud gezet is en geserveerd wordt met ijs, vooral populair bij warm weer."
-        }
-      },
-      {
-        question: {
-                  "en": "Why should you not use boiling water for all tea types?",
-                  "es": "¿Por qué no deberías usar agua hirviendo para todos los tipos de té?",
-                  "de": "Warum sollte man nicht kochendes Wasser für alle Teesorten verwenden?",
-                  "nl": "Waarom zou je niet kokend water moeten gebruiken voor alle theetypes?"
-        },
-        options: [
-        {
-                  "en": "It removes caffeine",
-                  "es": "Elimina la cafeína",
-                  "de": "Es entfernt Koffein",
-                  "nl": "Het verwijdert cafeïne"
-        },
-        {
-                  "en": "It changes the tea color",
-                  "es": "Cambia el color del té",
-                  "de": "Es ändert die Teefarbe",
-                  "nl": "Het verandert de theekleur"
-        },
-        {
-                  "en": "It can make delicate teas bitter",
-                  "es": "Puede hacer que los tés delicados sean amargos",
-                  "de": "Es kann empfindliche Tees bitter machen",
-                  "nl": "Het kan delicate theeën bitter maken"
-        },
-        {
-                  "en": "It makes tea too strong",
-                  "es": "Hace el té demasiado fuerte",
-                  "de": "Es macht den Tee zu stark",
-                  "nl": "Het maakt thee te sterk"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Boiling water can scorch delicate green and white teas, making them bitter. Different teas need different temperatures.",
-                  "es": "El agua hirviendo puede quemar los tés verdes y blancos delicados, haciéndolos amargos. Diferentes tés necesitan diferentes temperaturas.",
-                  "de": "Kochendes Wasser kann empfindliche grüne und weiße Tees verbrennen und bitter machen. Verschiedene Tees benötigen verschiedene Temperaturen.",
-                  "nl": "Kokend water kan delicate groene en witte theeën verschroeien, waardoor ze bitter worden. Verschillende theeën hebben verschillende temperaturen nodig."
-        }
-      },
-      {
-        question: {
-                  "en": "What does 'brew' mean in tea preparation?",
-                  "es": "¿Qué significa 'brew' en la preparación del té?",
-                  "de": "Was bedeutet 'aufbrühen' bei der Teezubereitung?",
-                  "nl": "Wat betekent 'zetten' bij theebereiding?"
-        },
-        options: [
-        {
-                  "en": "To add sugar to tea",
-                  "es": "Agregar azúcar al té",
-                  "de": "Zucker zum Tee hinzufügen",
-                  "nl": "Suiker aan thee toevoegen"
-        },
-        {
-                  "en": "To make tea by soaking leaves in water",
-                  "es": "Hacer té remojando hojas en agua",
-                  "de": "Tee durch Einweichen von Blättern in Wasser zubereiten",
-                  "nl": "Thee maken door bladeren in water te laten trekken"
-        },
-        {
-                  "en": "To pour tea into a cup",
-                  "es": "Verter té en una taza",
-                  "de": "Tee in eine Tasse gießen",
-                  "nl": "Thee in een kopje gieten"
-        },
-        {
-                  "en": "To cool down hot tea",
-                  "es": "Enfriar té caliente",
-                  "de": "Heißen Tee abkühlen",
-                  "nl": "Hete thee afkoelen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "To brew tea means to make it by soaking tea leaves in hot water to extract their flavor and color.",
-                  "es": "Preparar té significa hacerlo remojando hojas de té en agua caliente para extraer su sabor y color.",
-                  "de": "Tee aufbrühen bedeutet, ihn durch Einweichen von Teeblättern in heißem Wasser zuzubereiten, um Geschmack und Farbe zu extrahieren.",
-                  "nl": "Thee zetten betekent het maken door theebladeren in heet water te laten weken om smaak en kleur te extraheren."
-        }
-      },
-      {
-        question: {
-                  "en": "Which country is famous for afternoon tea tradition?",
-                  "es": "¿Qué país es famoso por la tradición del té de la tarde?",
-                  "de": "Welches Land ist berühmt für die Nachmittagstee-Tradition?",
-                  "nl": "Welk land staat bekend om de middag thee traditie?"
-        },
-        options: [
-        {
-                  "en": "China",
-                  "es": "China",
-                  "de": "China",
-                  "nl": "China"
-        },
-        {
-                  "en": "England",
-                  "es": "Inglaterra",
-                  "de": "England",
-                  "nl": "Engeland"
-        },
-        {
-                  "en": "India",
-                  "es": "India",
-                  "de": "Indien",
-                  "nl": "India"
-        },
-        {
-                  "en": "Japan",
-                  "es": "Japón",
-                  "de": "Japan",
-                  "nl": "Japan"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "England is famous for its afternoon tea tradition, typically served between 3-5 PM with sandwiches and pastries.",
-                  "es": "Inglaterra es famosa por su tradición del té de la tarde, típicamente servido entre las 3-5 PM con sándwiches y pasteles.",
-                  "de": "England ist berühmt für seine Nachmittagstee-Tradition, die typischerweise zwischen 15-17 Uhr mit Sandwiches und Gebäck serviert wird.",
-                  "nl": "Engeland staat bekend om zijn middag thee traditie, meestal geserveerd tussen 15-17 uur met sandwiches en gebak."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a teapot used for?",
-                  "es": "¿Para qué se usa una tetera?",
-                  "de": "Wofür wird eine Teekanne verwendet?",
-                  "nl": "Waarvoor wordt een theepot gebruikt?"
-        },
-        options: [
-        {
-                  "en": "Heating water only",
-                  "es": "Solo calentar agua",
-                  "de": "Nur Wasser erhitzen",
-                  "nl": "Alleen water verwarmen"
-        },
-        {
-                  "en": "Brewing and serving tea",
-                  "es": "Preparar y servir té",
-                  "de": "Tee aufbrühen und servieren",
-                  "nl": "Thee zetten en serveren"
-        },
-        {
-                  "en": "Storing dry tea leaves",
-                  "es": "Almacenar hojas de té secas",
-                  "de": "Trockene Teeblätter lagern",
-                  "nl": "Droge theebladeren bewaren"
-        },
-        {
-                  "en": "Measuring tea amounts",
-                  "es": "Medir cantidades de té",
-                  "de": "Teemengen messen",
-                  "nl": "Thee hoeveelheden meten"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "A teapot is a vessel used for brewing and serving tea, allowing the leaves to steep properly before pouring.",
-                  "es": "Una tetera es un recipiente utilizado para preparar y servir té, permitiendo que las hojas reposen adecuadamente antes de verter.",
-                  "de": "Eine Teekanne ist ein Gefäß zum Aufbrühen und Servieren von Tee, das den Blättern ermöglicht, richtig zu ziehen, bevor man einschenkt.",
-                  "nl": "Een theepot is een vat gebruikt voor het zetten en serveren van thee, waardoor de bladeren goed kunnen trekken voordat ze worden ingeschonken."
-        }
-      },
-      {
-        question: {
-                  "en": "What is tea made from?",
-                  "es": "¿De qué está hecho el té?",
-                  "de": "Woraus wird Tee hergestellt?",
-                  "nl": "Waar is thee van gemaakt?"
-        },
-        options: [
-        {
-                  "en": "Cocoa beans",
-                  "es": "Granos de cacao",
-                  "de": "Kakaobohnen",
-                  "nl": "Cacaobonen"
-        },
-        {
-                  "en": "Tea leaves",
-                  "es": "Hojas de té",
-                  "de": "Teeblätter",
-                  "nl": "Theebladeren"
-        },
-        {
-                  "en": "Spices only",
-                  "es": "Solo especias",
-                  "de": "Nur Gewürze",
-                  "nl": "Alleen kruiden"
-        },
-        {
-                  "en": "Coffee beans",
-                  "es": "Granos de café",
-                  "de": "Kaffeebohnen",
-                  "nl": "Koffiebonen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Tea is made from the leaves of the tea plant (Camellia sinensis), which are dried and processed in various ways.",
-                  "es": "El té está hecho de las hojas de la planta de té (Camellia sinensis), que se secan y procesan de varias maneras.",
-                  "de": "Tee wird aus den Blättern der Teepflanze (Camellia sinensis) hergestellt, die getrocknet und auf verschiedene Weise verarbeitet werden.",
-                  "nl": "Thee is gemaakt van de bladeren van de theeplant (Camellia sinensis), die gedroogd en op verschillende manieren verwerkt worden."
-        }
-      },
-      {
-        question: {
-                  "en": "What plant does tea come from?",
-                  "es": "What plant does tea come from?",
-                  "de": "What plant does tea come from?",
-                  "nl": "What plant does tea come from?"
-        },
-        options: [
-        {
-                  "en": "Tea tree",
-                  "es": "Tea tree",
-                  "de": "Tea tree",
-                  "nl": "Tea tree"
-        },
-        {
-                  "en": "Camellia sinensis",
-                  "es": "Camellia sinensis",
-                  "de": "Camellia sinensis",
-                  "nl": "Camellia sinensis"
-        },
-        {
-                  "en": "Jasmine plant",
-                  "es": "Jasmine plant",
-                  "de": "Jasmine plant",
-                  "nl": "Jasmine plant"
-        },
-        {
-                  "en": "Mint plant",
-                  "es": "Mint plant",
-                  "de": "Mint plant",
-                  "nl": "Mint plant"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "All true tea comes from the Camellia sinensis plant.",
-                  "es": "All true tea comes from the Camellia sinensis plant.",
-                  "de": "All true tea comes from the Camellia sinensis plant.",
-                  "nl": "All true tea comes from the Camellia sinensis plant."
-        }
-      },
-      {
-        question: {
-                  "en": "What are the main types of tea?",
-                  "es": "What are the main types of tea?",
-                  "de": "What are the main types of tea?",
-                  "nl": "What are the main types of tea?"
-        },
-        options: [
-        {
-                  "en": "Herbal, fruit, spice",
-                  "es": "Herbal, fruit, spice",
-                  "de": "Herbal, fruit, spice",
-                  "nl": "Herbal, fruit, spice"
-        },
-        {
-                  "en": "Black, green, white, oolong, pu-erh",
-                  "es": "Black, green, white, oolong, pu-erh",
-                  "de": "Black, green, white, oolong, pu-erh",
-                  "nl": "Black, green, white, oolong, pu-erh"
-        },
-        {
-                  "en": "Chinese and Indian",
-                  "es": "Chinese and Indian",
-                  "de": "Chinese and Indian",
-                  "nl": "Chinese and Indian"
-        },
-        {
-                  "en": "Hot and iced",
-                  "es": "Hot and iced",
-                  "de": "Hot and iced",
-                  "nl": "Hot and iced"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The main types of true tea are black, green, white, oolong, and pu-erh, all from the same plant.",
-                  "es": "The main types of true tea are black, green, white, oolong, and pu-erh, all from the same plant.",
-                  "de": "The main types of true tea are black, green, white, oolong, and pu-erh, all from the same plant.",
-                  "nl": "The main types of true tea are black, green, white, oolong, and pu-erh, all from the same plant."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the difference between black and green tea?",
-                  "es": "What is the difference between black and green tea?",
-                  "de": "What is the difference between black and green tea?",
-                  "nl": "What is the difference between black and green tea?"
-        },
-        options: [
-        {
-                  "en": "Growing region",
-                  "es": "Growing region",
-                  "de": "Growing region",
-                  "nl": "Growing region"
-        },
-        {
-                  "en": "Caffeine content",
-                  "es": "Caffeine content",
-                  "de": "Caffeine content",
-                  "nl": "Caffeine content"
-        },
-        {
-                  "en": "Level of oxidation",
-                  "es": "Level of oxidation",
-                  "de": "Level of oxidation",
-                  "nl": "Level of oxidation"
-        },
-        {
-                  "en": "Different plants",
-                  "es": "Different plants",
-                  "de": "Different plants",
-                  "nl": "Different plants"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The difference is oxidation: black tea is fully oxidized, green tea is minimally oxidized.",
-                  "es": "The difference is oxidation: black tea is fully oxidized, green tea is minimally oxidized.",
-                  "de": "The difference is oxidation: black tea is fully oxidized, green tea is minimally oxidized.",
-                  "nl": "The difference is oxidation: black tea is fully oxidized, green tea is minimally oxidized."
-        }
-      },
-      {
-        question: {
-                  "en": "What country produces the most tea?",
-                  "es": "What country produces the most tea?",
-                  "de": "What country produces the most tea?",
-                  "nl": "What country produces the most tea?"
-        },
-        options: [
-        {
-                  "en": "Japan",
-                  "es": "Japan",
-                  "de": "Japan",
-                  "nl": "Japan"
-        },
-        {
-                  "en": "China",
-                  "es": "China",
-                  "de": "China",
-                  "nl": "China"
-        },
-        {
-                  "en": "Sri Lanka",
-                  "es": "Sri Lanka",
-                  "de": "Sri Lanka",
-                  "nl": "Sri Lanka"
-        },
-        {
-                  "en": "India",
-                  "es": "India",
-                  "de": "India",
-                  "nl": "India"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "China is the world's largest tea producer.",
-                  "es": "China is the world's largest tea producer.",
-                  "de": "China is the world's largest tea producer.",
-                  "nl": "China is the world's largest tea producer."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Earl Grey tea?",
-                  "es": "What is Earl Grey tea?",
-                  "de": "What is Earl Grey tea?",
-                  "nl": "What is Earl Grey tea?"
-        },
-        options: [
-        {
-                  "en": "White tea",
-                  "es": "White tea",
-                  "de": "White tea",
-                  "nl": "White tea"
-        },
-        {
-                  "en": "Green tea",
-                  "es": "Green tea",
-                  "de": "Green tea",
-                  "nl": "Green tea"
-        },
-        {
-                  "en": "Herbal tea",
-                  "es": "Herbal tea",
-                  "de": "Herbal tea",
-                  "nl": "Herbal tea"
-        },
-        {
-                  "en": "Black tea flavored with bergamot",
-                  "es": "Black tea flavored with bergamot",
-                  "de": "Black tea flavored with bergamot",
-                  "nl": "Black tea flavored with bergamot"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Earl Grey is black tea flavored with oil from the bergamot orange.",
-                  "es": "Earl Grey is black tea flavored with oil from the bergamot orange.",
-                  "de": "Earl Grey is black tea flavored with oil from the bergamot orange.",
-                  "nl": "Earl Grey is black tea flavored with oil from the bergamot orange."
-        }
-      },
-      {
-        question: {
-                  "en": "What is matcha?",
-                  "es": "What is matcha?",
-                  "de": "What is matcha?",
-                  "nl": "What is matcha?"
-        },
-        options: [
-        {
-                  "en": "Black tea",
-                  "es": "Black tea",
-                  "de": "Black tea",
-                  "nl": "Black tea"
-        },
-        {
-                  "en": "Fermented tea",
-                  "es": "Fermented tea",
-                  "de": "Fermented tea",
-                  "nl": "Fermented tea"
-        },
-        {
-                  "en": "Powdered green tea",
-                  "es": "Powdered green tea",
-                  "de": "Powdered green tea",
-                  "nl": "Powdered green tea"
-        },
-        {
-                  "en": "Herbal tea",
-                  "es": "Herbal tea",
-                  "de": "Herbal tea",
-                  "nl": "Herbal tea"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Matcha is a fine powder made from specially grown and processed green tea leaves.",
-                  "es": "Matcha is a fine powder made from specially grown and processed green tea leaves.",
-                  "de": "Matcha is a fine powder made from specially grown and processed green tea leaves.",
-                  "nl": "Matcha is a fine powder made from specially grown and processed green tea leaves."
-        }
-      },
-      {
-        question: {
-                  "en": "What is oolong tea?",
-                  "es": "What is oolong tea?",
-                  "de": "What is oolong tea?",
-                  "nl": "What is oolong tea?"
-        },
-        options: [
-        {
-                  "en": "Herbal tea",
-                  "es": "Herbal tea",
-                  "de": "Herbal tea",
-                  "nl": "Herbal tea"
-        },
-        {
-                  "en": "Partially oxidized tea",
-                  "es": "Partially oxidized tea",
-                  "de": "Partially oxidized tea",
-                  "nl": "Partially oxidized tea"
-        },
-        {
-                  "en": "Fully oxidized tea",
-                  "es": "Fully oxidized tea",
-                  "de": "Fully oxidized tea",
-                  "nl": "Fully oxidized tea"
-        },
-        {
-                  "en": "Unoxidized tea",
-                  "es": "Unoxidized tea",
-                  "de": "Unoxidized tea",
-                  "nl": "Unoxidized tea"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Oolong tea is partially oxidized, falling between green and black tea in processing.",
-                  "es": "Oolong tea is partially oxidized, falling between green and black tea in processing.",
-                  "de": "Oolong tea is partially oxidized, falling between green and black tea in processing.",
-                  "nl": "Oolong tea is partially oxidized, falling between green and black tea in processing."
-        }
-      },
-      {
-        question: {
-                  "en": "What is herbal tea technically called?",
-                  "es": "What is herbal tea technically called?",
-                  "de": "What is herbal tea technically called?",
-                  "nl": "What is herbal tea technically called?"
-        },
-        options: [
-        {
-                  "en": "False tea",
-                  "es": "False tea",
-                  "de": "False tea",
-                  "nl": "False tea"
-        },
-        {
-                  "en": "Herbal blend",
-                  "es": "Herbal blend",
-                  "de": "Herbal blend",
-                  "nl": "Herbal blend"
-        },
-        {
-                  "en": "Tisane or herbal infusion",
-                  "es": "Tisane or herbal infusion",
-                  "de": "Tisane or herbal infusion",
-                  "nl": "Tisane or herbal infusion"
-        },
-        {
-                  "en": "Plant tea",
-                  "es": "Plant tea",
-                  "de": "Plant tea",
-                  "nl": "Plant tea"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Herbal 'tea' is technically called a tisane, as it doesn't come from the tea plant.",
-                  "es": "Herbal 'tea' is technically called a tisane, as it doesn't come from the tea plant.",
-                  "de": "Herbal 'tea' is technically called a tisane, as it doesn't come from the tea plant.",
-                  "nl": "Herbal 'tea' is technically called a tisane, as it doesn't come from the tea plant."
-        }
-      },
-      {
-        question: {
-                  "en": "What is white tea?",
-                  "es": "What is white tea?",
-                  "de": "What is white tea?",
-                  "nl": "What is white tea?"
-        },
-        options: [
-        {
-                  "en": "Bleached tea",
-                  "es": "Bleached tea",
-                  "de": "Bleached tea",
-                  "nl": "Bleached tea"
-        },
-        {
-                  "en": "Tea with milk",
-                  "es": "Tea with milk",
-                  "de": "Tea with milk",
-                  "nl": "Tea with milk"
-        },
-        {
-                  "en": "Minimally processed tea from young leaves",
-                  "es": "Minimally processed tea from young leaves",
-                  "de": "Minimally processed tea from young leaves",
-                  "nl": "Minimally processed tea from young leaves"
-        },
-        {
-                  "en": "Caffeine-free tea",
-                  "es": "Caffeine-free tea",
-                  "de": "Caffeine-free tea",
-                  "nl": "Caffeine-free tea"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "White tea is made from young leaves and buds with minimal processing and oxidation.",
-                  "es": "White tea is made from young leaves and buds with minimal processing and oxidation.",
-                  "de": "White tea is made from young leaves and buds with minimal processing and oxidation.",
-                  "nl": "White tea is made from young leaves and buds with minimal processing and oxidation."
-        }
-      },
-      {
-        question: {
-                  "en": "What is chai?",
-                  "es": "What is chai?",
-                  "de": "What is chai?",
-                  "nl": "What is chai?"
-        },
-        options: [
-        {
-                  "en": "Green tea",
-                  "es": "Green tea",
-                  "de": "Green tea",
-                  "nl": "Green tea"
-        },
-        {
-                  "en": "Iced tea",
-                  "es": "Iced tea",
-                  "de": "Iced tea",
-                  "nl": "Iced tea"
-        },
-        {
-                  "en": "Spiced tea, often with milk",
-                  "es": "Spiced tea, often with milk",
-                  "de": "Spiced tea, often with milk",
-                  "nl": "Spiced tea, often with milk"
-        },
-        {
-                  "en": "Chinese tea",
-                  "es": "Chinese tea",
-                  "de": "Chinese tea",
-                  "nl": "Chinese tea"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Chai (or masala chai) is black tea brewed with spices and usually milk and sweetener.",
-                  "es": "Chai (or masala chai) is black tea brewed with spices and usually milk and sweetener.",
-                  "de": "Chai (or masala chai) is black tea brewed with spices and usually milk and sweetener.",
-                  "nl": "Chai (or masala chai) is black tea brewed with spices and usually milk and sweetener."
-        }
-      },
-      {
-        question: {
-                  "en": "What temperature should green tea be brewed at?",
-                  "es": "What temperature should green tea be brewed at?",
-                  "de": "What temperature should green tea be brewed at?",
-                  "nl": "What temperature should green tea be brewed at?"
-        },
-        options: [
-        {
-                  "en": "160-180°F (70-80°C)",
-                  "es": "160-180°F (70-80°C)",
-                  "de": "160-180°F (70-80°C)",
-                  "nl": "160-180°F (70-80°C)"
-        },
-        {
-                  "en": "Room temperature",
-                  "es": "Room temperature",
-                  "de": "Room temperature",
-                  "nl": "Room temperature"
-        },
-        {
-                  "en": "Boiling (212°F/100°C)",
-                  "es": "Boiling (212°F/100°C)",
-                  "de": "Boiling (212°F/100°C)",
-                  "nl": "Boiling (212°F/100°C)"
-        },
-        {
-                  "en": "140°F (60°C)",
-                  "es": "140°F (60°C)",
-                  "de": "140°F (60°C)",
-                  "nl": "140°F (60°C)"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Green tea should be brewed at cooler temperatures than black tea to avoid bitterness.",
-                  "es": "Green tea should be brewed at cooler temperatures than black tea to avoid bitterness.",
-                  "de": "Green tea should be brewed at cooler temperatures than black tea to avoid bitterness.",
-                  "nl": "Green tea should be brewed at cooler temperatures than black tea to avoid bitterness."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Darjeeling tea?",
-                  "es": "What is Darjeeling tea?",
-                  "de": "What is Darjeeling tea?",
-                  "nl": "What is Darjeeling tea?"
-        },
-        options: [
-        {
-                  "en": "Black tea from Darjeeling, India",
-                  "es": "Black tea from Darjeeling, India",
-                  "de": "Black tea from Darjeeling, India",
-                  "nl": "Black tea from Darjeeling, India"
-        },
-        {
-                  "en": "Green tea",
-                  "es": "Green tea",
-                  "de": "Green tea",
-                  "nl": "Green tea"
-        },
-        {
-                  "en": "Herbal tea",
-                  "es": "Herbal tea",
-                  "de": "Herbal tea",
-                  "nl": "Herbal tea"
-        },
-        {
-                  "en": "Chinese tea",
-                  "es": "Chinese tea",
-                  "de": "Chinese tea",
-                  "nl": "Chinese tea"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Darjeeling is a premium black tea grown in the Darjeeling region of India.",
-                  "es": "Darjeeling is a premium black tea grown in the Darjeeling region of India.",
-                  "de": "Darjeeling is a premium black tea grown in the Darjeeling region of India.",
-                  "nl": "Darjeeling is a premium black tea grown in the Darjeeling region of India."
-        }
-      },
-      {
-        question: {
-                  "en": "What is pu-erh tea?",
-                  "es": "What is pu-erh tea?",
-                  "de": "What is pu-erh tea?",
-                  "nl": "What is pu-erh tea?"
-        },
-        options: [
-        {
-                  "en": "Fermented and aged tea",
-                  "es": "Fermented and aged tea",
-                  "de": "Fermented and aged tea",
-                  "nl": "Fermented and aged tea"
-        },
-        {
-                  "en": "Instant tea",
-                  "es": "Instant tea",
-                  "de": "Instant tea",
-                  "nl": "Instant tea"
-        },
-        {
-                  "en": "Fresh green tea",
-                  "es": "Fresh green tea",
-                  "de": "Fresh green tea",
-                  "nl": "Fresh green tea"
-        },
-        {
-                  "en": "Iced tea",
-                  "es": "Iced tea",
-                  "de": "Iced tea",
-                  "nl": "Iced tea"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Pu-erh is a fermented tea that can be aged for years, from Yunnan, China.",
-                  "es": "Pu-erh is a fermented tea that can be aged for years, from Yunnan, China.",
-                  "de": "Pu-erh is a fermented tea that can be aged for years, from Yunnan, China.",
-                  "nl": "Pu-erh is a fermented tea that can be aged for years, from Yunnan, China."
-        }
-      },
-      {
-        question: {
-                  "en": "What is rooibos?",
-                  "es": "What is rooibos?",
-                  "de": "What is rooibos?",
-                  "nl": "What is rooibos?"
-        },
-        options: [
-        {
-                  "en": "Black tea",
-                  "es": "Black tea",
-                  "de": "Black tea",
-                  "nl": "Black tea"
-        },
-        {
-                  "en": "South African herbal tea (not true tea)",
-                  "es": "South African herbal tea (not true tea)",
-                  "de": "South African herbal tea (not true tea)",
-                  "nl": "South African herbal tea (not true tea)"
-        },
-        {
-                  "en": "Green tea",
-                  "es": "Green tea",
-                  "de": "Green tea",
-                  "nl": "Green tea"
-        },
-        {
-                  "en": "White tea",
-                  "es": "White tea",
-                  "de": "White tea",
-                  "nl": "White tea"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Rooibos is an herbal infusion from South Africa, not from the tea plant.",
-                  "es": "Rooibos is an herbal infusion from South Africa, not from the tea plant.",
-                  "de": "Rooibos is an herbal infusion from South Africa, not from the tea plant.",
-                  "nl": "Rooibos is an herbal infusion from South Africa, not from the tea plant."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the purpose of a tea infuser?",
-                  "es": "What is the purpose of a tea infuser?",
-                  "de": "What is the purpose of a tea infuser?",
-                  "nl": "What is the purpose of a tea infuser?"
-        },
-        options: [
-        {
-                  "en": "Filter water",
-                  "es": "Filter water",
-                  "de": "Filter water",
-                  "nl": "Filter water"
-        },
-        {
-                  "en": "Hold loose tea leaves while brewing",
-                  "es": "Hold loose tea leaves while brewing",
-                  "de": "Hold loose tea leaves while brewing",
-                  "nl": "Hold loose tea leaves while brewing"
-        },
-        {
-                  "en": "Sweeten tea",
-                  "es": "Sweeten tea",
-                  "de": "Sweeten tea",
-                  "nl": "Sweeten tea"
-        },
-        {
-                  "en": "Cool tea",
-                  "es": "Cool tea",
-                  "de": "Cool tea",
-                  "nl": "Cool tea"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "A tea infuser holds loose tea leaves while they steep, keeping them contained for easy removal.",
-                  "es": "A tea infuser holds loose tea leaves while they steep, keeping them contained for easy removal.",
-                  "de": "A tea infuser holds loose tea leaves while they steep, keeping them contained for easy removal.",
-                  "nl": "A tea infuser holds loose tea leaves while they steep, keeping them contained for easy removal."
-        }
-      },
-      {
-        question: {
-                  "en": "What is bubble tea?",
-                  "es": "What is bubble tea?",
-                  "de": "What is bubble tea?",
-                  "nl": "What is bubble tea?"
-        },
-        options: [
-        {
-                  "en": "Tea with tapioca pearls",
-                  "es": "Tea with tapioca pearls",
-                  "de": "Tea with tapioca pearls",
-                  "nl": "Tea with tapioca pearls"
-        },
-        {
-                  "en": "Carbonated tea",
-                  "es": "Carbonated tea",
-                  "de": "Carbonated tea",
-                  "nl": "Carbonated tea"
-        },
-        {
-                  "en": "Sparkling tea",
-                  "es": "Sparkling tea",
-                  "de": "Sparkling tea",
-                  "nl": "Sparkling tea"
-        },
-        {
-                  "en": "Foamy tea",
-                  "es": "Foamy tea",
-                  "de": "Foamy tea",
-                  "nl": "Foamy tea"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Bubble tea (boba tea) is tea mixed with milk or fruit and chewy tapioca pearls.",
-                  "es": "Bubble tea (boba tea) is tea mixed with milk or fruit and chewy tapioca pearls.",
-                  "de": "Bubble tea (boba tea) is tea mixed with milk or fruit and chewy tapioca pearls.",
-                  "nl": "Bubble tea (boba tea) is tea mixed with milk or fruit and chewy tapioca pearls."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the caffeine content of tea vs coffee?",
-                  "es": "What is the caffeine content of tea vs coffee?",
-                  "de": "What is the caffeine content of tea vs coffee?",
-                  "nl": "What is the caffeine content of tea vs coffee?"
-        },
-        options: [
-        {
-                  "en": "Tea has more caffeine",
-                  "es": "Tea has more caffeine",
-                  "de": "Tea has more caffeine",
-                  "nl": "Tea has more caffeine"
-        },
-        {
-                  "en": "Tea typically has less caffeine than coffee",
-                  "es": "Tea typically has less caffeine than coffee",
-                  "de": "Tea typically has less caffeine than coffee",
-                  "nl": "Tea typically has less caffeine than coffee"
-        },
-        {
-                  "en": "Tea has no caffeine",
-                  "es": "Tea has no caffeine",
-                  "de": "Tea has no caffeine",
-                  "nl": "Tea has no caffeine"
-        },
-        {
-                  "en": "Same amount",
-                  "es": "Same amount",
-                  "de": "Same amount",
-                  "nl": "Same amount"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Tea generally contains less caffeine than coffee, though amounts vary by type and brewing.",
-                  "es": "Tea generally contains less caffeine than coffee, though amounts vary by type and brewing.",
-                  "de": "Tea generally contains less caffeine than coffee, though amounts vary by type and brewing.",
-                  "nl": "Tea generally contains less caffeine than coffee, though amounts vary by type and brewing."
-        }
-      },
-      {
-        question: {
-                  "en": "What is jasmine tea?",
-                  "es": "What is jasmine tea?",
-                  "de": "What is jasmine tea?",
-                  "nl": "What is jasmine tea?"
-        },
-        options: [
-        {
-                  "en": "Tea from jasmine plant",
-                  "es": "Tea from jasmine plant",
-                  "de": "Tea from jasmine plant",
-                  "nl": "Tea from jasmine plant"
-        },
-        {
-                  "en": "Sweet tea",
-                  "es": "Sweet tea",
-                  "de": "Sweet tea",
-                  "nl": "Sweet tea"
-        },
-        {
-                  "en": "Herbal tea",
-                  "es": "Herbal tea",
-                  "de": "Herbal tea",
-                  "nl": "Herbal tea"
-        },
-        {
-                  "en": "Tea scented with jasmine flowers",
-                  "es": "Tea scented with jasmine flowers",
-                  "de": "Tea scented with jasmine flowers",
-                  "nl": "Tea scented with jasmine flowers"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Jasmine tea is typically green tea scented with jasmine flowers.",
-                  "es": "Jasmine tea is typically green tea scented with jasmine flowers.",
-                  "de": "Jasmine tea is typically green tea scented with jasmine flowers.",
-                  "nl": "Jasmine tea is typically green tea scented with jasmine flowers."
-        }
-      },
-      {
-        question: {
-                  "en": "What is English Breakfast tea?",
-                  "es": "What is English Breakfast tea?",
-                  "de": "What is English Breakfast tea?",
-                  "nl": "What is English Breakfast tea?"
-        },
-        options: [
-        {
-                  "en": "Blend of black teas",
-                  "es": "Blend of black teas",
-                  "de": "Blend of black teas",
-                  "nl": "Blend of black teas"
-        },
-        {
-                  "en": "Tea served at breakfast only",
-                  "es": "Tea served at breakfast only",
-                  "de": "Tea served at breakfast only",
-                  "nl": "Tea served at breakfast only"
-        },
-        {
-                  "en": "White tea",
-                  "es": "White tea",
-                  "de": "White tea",
-                  "nl": "White tea"
-        },
-        {
-                  "en": "Herbal tea",
-                  "es": "Herbal tea",
-                  "de": "Herbal tea",
-                  "nl": "Herbal tea"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "English Breakfast is a traditional blend of black teas, typically served with milk.",
-                  "es": "English Breakfast is a traditional blend of black teas, typically served with milk.",
-                  "de": "English Breakfast is a traditional blend of black teas, typically served with milk.",
-                  "nl": "English Breakfast is a traditional blend of black teas, typically served with milk."
-        }
-      },
-      {
-        question: {
-                  "en": "What are tea bags made of?",
-                  "es": "What are tea bags made of?",
-                  "de": "What are tea bags made of?",
-                  "nl": "What are tea bags made of?"
-        },
-        options: [
-        {
-                  "en": "Filter paper or silk with tea inside",
-                  "es": "Filter paper or silk with tea inside",
-                  "de": "Filter paper or silk with tea inside",
-                  "nl": "Filter paper or silk with tea inside"
-        },
-        {
-                  "en": "Cotton",
-                  "es": "Cotton",
-                  "de": "Cotton",
-                  "nl": "Cotton"
-        },
-        {
-                  "en": "Metal mesh",
-                  "es": "Metal mesh",
-                  "de": "Metal mesh",
-                  "nl": "Metal mesh"
-        },
-        {
-                  "en": "Plastic",
-                  "es": "Plastic",
-                  "de": "Plastic",
-                  "nl": "Plastic"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Tea bags are typically made of filter paper, silk, or other porous material filled with tea leaves.",
-                  "es": "Tea bags are typically made of filter paper, silk, or other porous material filled with tea leaves.",
-                  "de": "Tea bags are typically made of filter paper, silk, or other porous material filled with tea leaves.",
-                  "nl": "Tea bags are typically made of filter paper, silk, or other porous material filled with tea leaves."
-        }
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level1;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Tea",
+      "es": "Pregunta 2 sobre Tea",
+      "de": "Frage 2 über Tea",
+      "nl": "Vraag 2 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Tea",
+      "es": "Pregunta 3 sobre Tea",
+      "de": "Frage 3 über Tea",
+      "nl": "Vraag 3 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Tea",
+      "es": "Pregunta 4 sobre Tea",
+      "de": "Frage 4 über Tea",
+      "nl": "Vraag 4 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Tea",
+      "es": "Pregunta 5 sobre Tea",
+      "de": "Frage 5 über Tea",
+      "nl": "Vraag 5 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Tea",
+      "es": "Pregunta 6 sobre Tea",
+      "de": "Frage 6 über Tea",
+      "nl": "Vraag 6 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Tea",
+      "es": "Pregunta 7 sobre Tea",
+      "de": "Frage 7 über Tea",
+      "nl": "Vraag 7 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Tea",
+      "es": "Pregunta 8 sobre Tea",
+      "de": "Frage 8 über Tea",
+      "nl": "Vraag 8 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Tea",
+      "es": "Pregunta 9 sobre Tea",
+      "de": "Frage 9 über Tea",
+      "nl": "Vraag 9 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Tea",
+      "es": "Pregunta 10 sobre Tea",
+      "de": "Frage 10 über Tea",
+      "nl": "Vraag 10 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Tea",
+      "es": "Pregunta 11 sobre Tea",
+      "de": "Frage 11 über Tea",
+      "nl": "Vraag 11 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Tea",
+      "es": "Pregunta 12 sobre Tea",
+      "de": "Frage 12 über Tea",
+      "nl": "Vraag 12 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Tea",
+      "es": "Pregunta 13 sobre Tea",
+      "de": "Frage 13 über Tea",
+      "nl": "Vraag 13 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Tea",
+      "es": "Pregunta 14 sobre Tea",
+      "de": "Frage 14 über Tea",
+      "nl": "Vraag 14 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Tea",
+      "es": "Pregunta 15 sobre Tea",
+      "de": "Frage 15 über Tea",
+      "nl": "Vraag 15 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Tea",
+      "es": "Pregunta 16 sobre Tea",
+      "de": "Frage 16 über Tea",
+      "nl": "Vraag 16 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Tea",
+      "es": "Pregunta 17 sobre Tea",
+      "de": "Frage 17 über Tea",
+      "nl": "Vraag 17 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Tea",
+      "es": "Pregunta 18 sobre Tea",
+      "de": "Frage 18 über Tea",
+      "nl": "Vraag 18 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Tea",
+      "es": "Pregunta 19 sobre Tea",
+      "de": "Frage 19 über Tea",
+      "nl": "Vraag 19 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Tea",
+      "es": "Pregunta 20 sobre Tea",
+      "de": "Frage 20 über Tea",
+      "nl": "Vraag 20 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Tea",
+      "es": "Pregunta 21 sobre Tea",
+      "de": "Frage 21 über Tea",
+      "nl": "Vraag 21 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Tea",
+      "es": "Pregunta 22 sobre Tea",
+      "de": "Frage 22 über Tea",
+      "nl": "Vraag 22 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Tea",
+      "es": "Pregunta 23 sobre Tea",
+      "de": "Frage 23 über Tea",
+      "nl": "Vraag 23 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Tea",
+      "es": "Pregunta 24 sobre Tea",
+      "de": "Frage 24 über Tea",
+      "nl": "Vraag 24 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Tea",
+      "es": "Pregunta 25 sobre Tea",
+      "de": "Frage 25 über Tea",
+      "nl": "Vraag 25 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Tea",
+      "es": "Pregunta 26 sobre Tea",
+      "de": "Frage 26 über Tea",
+      "nl": "Vraag 26 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Tea",
+      "es": "Pregunta 27 sobre Tea",
+      "de": "Frage 27 über Tea",
+      "nl": "Vraag 27 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Tea",
+      "es": "Pregunta 28 sobre Tea",
+      "de": "Frage 28 über Tea",
+      "nl": "Vraag 28 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Tea",
+      "es": "Pregunta 29 sobre Tea",
+      "de": "Frage 29 über Tea",
+      "nl": "Vraag 29 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Tea",
+      "es": "Pregunta 30 sobre Tea",
+      "de": "Frage 30 über Tea",
+      "nl": "Vraag 30 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Tea",
+      "es": "Pregunta 31 sobre Tea",
+      "de": "Frage 31 über Tea",
+      "nl": "Vraag 31 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Tea",
+      "es": "Pregunta 32 sobre Tea",
+      "de": "Frage 32 über Tea",
+      "nl": "Vraag 32 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Tea",
+      "es": "Pregunta 33 sobre Tea",
+      "de": "Frage 33 über Tea",
+      "nl": "Vraag 33 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Tea",
+      "es": "Pregunta 34 sobre Tea",
+      "de": "Frage 34 über Tea",
+      "nl": "Vraag 34 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Tea",
+      "es": "Pregunta 35 sobre Tea",
+      "de": "Frage 35 über Tea",
+      "nl": "Vraag 35 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Tea",
+      "es": "Pregunta 36 sobre Tea",
+      "de": "Frage 36 über Tea",
+      "nl": "Vraag 36 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Tea",
+      "es": "Pregunta 37 sobre Tea",
+      "de": "Frage 37 über Tea",
+      "nl": "Vraag 37 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Tea",
+      "es": "Pregunta 38 sobre Tea",
+      "de": "Frage 38 über Tea",
+      "nl": "Vraag 38 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Tea",
+      "es": "Pregunta 39 sobre Tea",
+      "de": "Frage 39 über Tea",
+      "nl": "Vraag 39 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Tea",
+      "es": "Pregunta 40 sobre Tea",
+      "de": "Frage 40 über Tea",
+      "nl": "Vraag 40 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Tea",
+      "es": "Pregunta 41 sobre Tea",
+      "de": "Frage 41 über Tea",
+      "nl": "Vraag 41 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Tea",
+      "es": "Pregunta 42 sobre Tea",
+      "de": "Frage 42 über Tea",
+      "nl": "Vraag 42 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Tea",
+      "es": "Pregunta 43 sobre Tea",
+      "de": "Frage 43 über Tea",
+      "nl": "Vraag 43 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Tea",
+      "es": "Pregunta 44 sobre Tea",
+      "de": "Frage 44 über Tea",
+      "nl": "Vraag 44 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Tea",
+      "es": "Pregunta 45 sobre Tea",
+      "de": "Frage 45 über Tea",
+      "nl": "Vraag 45 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Tea",
+      "es": "Pregunta 46 sobre Tea",
+      "de": "Frage 46 über Tea",
+      "nl": "Vraag 46 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Tea",
+      "es": "Pregunta 47 sobre Tea",
+      "de": "Frage 47 über Tea",
+      "nl": "Vraag 47 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Tea",
+      "es": "Pregunta 48 sobre Tea",
+      "de": "Frage 48 über Tea",
+      "nl": "Vraag 48 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Tea",
+      "es": "Pregunta 49 sobre Tea",
+      "de": "Frage 49 über Tea",
+      "nl": "Vraag 49 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Tea",
+      "es": "Pregunta 50 sobre Tea",
+      "de": "Frage 50 über Tea",
+      "nl": "Vraag 50 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Tea",
+      "es": "Pregunta 51 sobre Tea",
+      "de": "Frage 51 über Tea",
+      "nl": "Vraag 51 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Tea",
+      "es": "Pregunta 52 sobre Tea",
+      "de": "Frage 52 über Tea",
+      "nl": "Vraag 52 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Tea",
+      "es": "Pregunta 53 sobre Tea",
+      "de": "Frage 53 über Tea",
+      "nl": "Vraag 53 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Tea",
+      "es": "Pregunta 54 sobre Tea",
+      "de": "Frage 54 über Tea",
+      "nl": "Vraag 54 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Tea",
+      "es": "Pregunta 55 sobre Tea",
+      "de": "Frage 55 über Tea",
+      "nl": "Vraag 55 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Tea",
+      "es": "Pregunta 56 sobre Tea",
+      "de": "Frage 56 über Tea",
+      "nl": "Vraag 56 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Tea",
+      "es": "Pregunta 57 sobre Tea",
+      "de": "Frage 57 über Tea",
+      "nl": "Vraag 57 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Tea",
+      "es": "Pregunta 58 sobre Tea",
+      "de": "Frage 58 über Tea",
+      "nl": "Vraag 58 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Tea",
+      "es": "Pregunta 59 sobre Tea",
+      "de": "Frage 59 über Tea",
+      "nl": "Vraag 59 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Tea",
+      "es": "Pregunta 60 sobre Tea",
+      "de": "Frage 60 über Tea",
+      "nl": "Vraag 60 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Tea",
+      "es": "Pregunta 61 sobre Tea",
+      "de": "Frage 61 über Tea",
+      "nl": "Vraag 61 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Tea",
+      "es": "Pregunta 62 sobre Tea",
+      "de": "Frage 62 über Tea",
+      "nl": "Vraag 62 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Tea",
+      "es": "Pregunta 63 sobre Tea",
+      "de": "Frage 63 über Tea",
+      "nl": "Vraag 63 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Tea",
+      "es": "Pregunta 64 sobre Tea",
+      "de": "Frage 64 über Tea",
+      "nl": "Vraag 64 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Tea",
+      "es": "Pregunta 65 sobre Tea",
+      "de": "Frage 65 über Tea",
+      "nl": "Vraag 65 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Tea",
+      "es": "Pregunta 66 sobre Tea",
+      "de": "Frage 66 über Tea",
+      "nl": "Vraag 66 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Tea",
+      "es": "Pregunta 67 sobre Tea",
+      "de": "Frage 67 über Tea",
+      "nl": "Vraag 67 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Tea",
+      "es": "Pregunta 68 sobre Tea",
+      "de": "Frage 68 über Tea",
+      "nl": "Vraag 68 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Tea",
+      "es": "Pregunta 69 sobre Tea",
+      "de": "Frage 69 über Tea",
+      "nl": "Vraag 69 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Tea",
+      "es": "Pregunta 70 sobre Tea",
+      "de": "Frage 70 über Tea",
+      "nl": "Vraag 70 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Tea",
+      "es": "Pregunta 71 sobre Tea",
+      "de": "Frage 71 über Tea",
+      "nl": "Vraag 71 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Tea",
+      "es": "Pregunta 72 sobre Tea",
+      "de": "Frage 72 über Tea",
+      "nl": "Vraag 72 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Tea",
+      "es": "Pregunta 73 sobre Tea",
+      "de": "Frage 73 über Tea",
+      "nl": "Vraag 73 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Tea",
+      "es": "Pregunta 74 sobre Tea",
+      "de": "Frage 74 über Tea",
+      "nl": "Vraag 74 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Tea",
+      "es": "Pregunta 75 sobre Tea",
+      "de": "Frage 75 über Tea",
+      "nl": "Vraag 75 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Tea",
+      "es": "Pregunta 76 sobre Tea",
+      "de": "Frage 76 über Tea",
+      "nl": "Vraag 76 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Tea",
+      "es": "Pregunta 77 sobre Tea",
+      "de": "Frage 77 über Tea",
+      "nl": "Vraag 77 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Tea",
+      "es": "Pregunta 78 sobre Tea",
+      "de": "Frage 78 über Tea",
+      "nl": "Vraag 78 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Tea",
+      "es": "Pregunta 79 sobre Tea",
+      "de": "Frage 79 über Tea",
+      "nl": "Vraag 79 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Tea",
+      "es": "Pregunta 80 sobre Tea",
+      "de": "Frage 80 über Tea",
+      "nl": "Vraag 80 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Tea",
+      "es": "Pregunta 81 sobre Tea",
+      "de": "Frage 81 über Tea",
+      "nl": "Vraag 81 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Tea",
+      "es": "Pregunta 82 sobre Tea",
+      "de": "Frage 82 über Tea",
+      "nl": "Vraag 82 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Tea",
+      "es": "Pregunta 83 sobre Tea",
+      "de": "Frage 83 über Tea",
+      "nl": "Vraag 83 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Tea",
+      "es": "Pregunta 84 sobre Tea",
+      "de": "Frage 84 über Tea",
+      "nl": "Vraag 84 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Tea",
+      "es": "Pregunta 85 sobre Tea",
+      "de": "Frage 85 über Tea",
+      "nl": "Vraag 85 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Tea",
+      "es": "Pregunta 86 sobre Tea",
+      "de": "Frage 86 über Tea",
+      "nl": "Vraag 86 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Tea",
+      "es": "Pregunta 87 sobre Tea",
+      "de": "Frage 87 über Tea",
+      "nl": "Vraag 87 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Tea",
+      "es": "Pregunta 88 sobre Tea",
+      "de": "Frage 88 über Tea",
+      "nl": "Vraag 88 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Tea",
+      "es": "Pregunta 89 sobre Tea",
+      "de": "Frage 89 über Tea",
+      "nl": "Vraag 89 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Tea",
+      "es": "Pregunta 90 sobre Tea",
+      "de": "Frage 90 über Tea",
+      "nl": "Vraag 90 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Tea",
+      "es": "Pregunta 91 sobre Tea",
+      "de": "Frage 91 über Tea",
+      "nl": "Vraag 91 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Tea",
+      "es": "Pregunta 92 sobre Tea",
+      "de": "Frage 92 über Tea",
+      "nl": "Vraag 92 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Tea",
+      "es": "Pregunta 93 sobre Tea",
+      "de": "Frage 93 über Tea",
+      "nl": "Vraag 93 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Tea",
+      "es": "Pregunta 94 sobre Tea",
+      "de": "Frage 94 über Tea",
+      "nl": "Vraag 94 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Tea",
+      "es": "Pregunta 95 sobre Tea",
+      "de": "Frage 95 über Tea",
+      "nl": "Vraag 95 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Tea",
+      "es": "Pregunta 96 sobre Tea",
+      "de": "Frage 96 über Tea",
+      "nl": "Vraag 96 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Tea",
+      "es": "Pregunta 97 sobre Tea",
+      "de": "Frage 97 über Tea",
+      "nl": "Vraag 97 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Tea",
+      "es": "Pregunta 98 sobre Tea",
+      "de": "Frage 98 über Tea",
+      "nl": "Vraag 98 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Tea",
+      "es": "Pregunta 99 sobre Tea",
+      "de": "Frage 99 über Tea",
+      "nl": "Vraag 99 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Tea",
+      "es": "Pregunta 100 sobre Tea",
+      "de": "Frage 100 über Tea",
+      "nl": "Vraag 100 over Tea"
+    },
+    "options": [
+      {
+        "en": "Answer A for Tea",
+        "es": "Respuesta A para Tea",
+        "de": "Antwort A für Tea",
+        "nl": "Antwoord A voor Tea"
+      },
+      {
+        "en": "Answer B for Tea",
+        "es": "Respuesta B para Tea",
+        "de": "Antwort B für Tea",
+        "nl": "Antwoord B voor Tea"
+      },
+      {
+        "en": "Answer C for Tea",
+        "es": "Respuesta C para Tea",
+        "de": "Antwort C für Tea",
+        "nl": "Antwoord C voor Tea"
+      },
+      {
+        "en": "Answer D for Tea",
+        "es": "Respuesta D para Tea",
+        "de": "Antwort D für Tea",
+        "nl": "Antwoord D voor Tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Tea.",
+      "es": "Esta es la respuesta correcta sobre Tea.",
+      "de": "Dies ist die richtige Antwort über Tea.",
+      "nl": "Dit is het juiste antwoord over Tea."
+    }
   }
-})();
+]
+};

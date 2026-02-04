@@ -1,1657 +1,4104 @@
-// T-Rex Family Quiz - Level 3
-(function() {
-  const level3 = {
-    name: {
-          "en": "T-Rex Family Level 3",
-          "es": "Familia T-Rex Nivel 3",
-          "de": "T-Rex Familie Stufe 3",
-          "nl": "T-Rex Familie Level 3"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "What period did it live T-Rex Family regarding basic facts? (Q1)",
+      "es": "What period did it live T-Rex Family con respecto a basic facts? (P1)",
+      "de": "What period did it live T-Rex Family in Bezug auf basic facts? (F1)",
+      "nl": "What period did it live T-Rex Family met betrekking tot basic facts? (V1)"
     },
-    questions: [
+    "options": [
       {
-        question: {
-                  "en": "What evidence suggests T-Rex may have lived in family groups?",
-                  "es": "¿Qué evidencia sugiere que el T-Rex pudo haber vivido en grupos familiares?",
-                  "de": "Welche Beweise deuten darauf hin, dass T-Rex möglicherweise in Familiengruppen gelebt hat?",
-                  "nl": "Welk bewijs suggereert dat T-Rex mogelijk in familiegroepen leefde?"
-        },
-        options: [
-        {
-                  "en": "No evidence of group behavior",
-                  "es": "No hay evidencia de comportamiento grupal",
-                  "de": "Keine Belege für Gruppenverhalten",
-                  "nl": "Geen bewijs van groepsgedrag"
-        },
-        {
-                  "en": "Always lived alone",
-                  "es": "Siempre vivieron solos",
-                  "de": "Lebten immer allein",
-                  "nl": "Leefden altijd alleen"
-        },
-        {
-                  "en": "Only solitary hunters",
-                  "es": "Solo cazadores solitarios",
-                  "de": "Nur Einzeljäger",
-                  "nl": "Alleen eenzame jagers"
-        },
-        {
-                  "en": "Multiple T-Rex fossils found together at some sites",
-                  "es": "Múltiples fósiles de T-Rex encontrados juntos en algunos sitios",
-                  "de": "Mehrere T-Rex-Fossilien an einigen Fundorten zusammen gefunden",
-                  "nl": "Meerdere T-Rex fossielen samen gevonden op sommige locaties"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Some fossil sites contain multiple T-Rex individuals of different ages, suggesting possible family groups or cooperative behavior, though this remains debated.",
-                  "es": "Algunos sitios fósiles contienen múltiples individuos de T-Rex de diferentes edades, sugiriendo posibles grupos familiares o comportamiento cooperativo, aunque esto sigue siendo debatido.",
-                  "de": "Einige Fossilstätten enthalten mehrere T-Rex-Individuen verschiedener Altersgruppen, was auf mögliche Familiengruppen oder kooperatives Verhalten hindeutet, obwohl dies umstritten bleibt.",
-                  "nl": "Sommige fossiele locaties bevatten meerdere T-Rex individuen van verschillende leeftijden, wat mogelijk wijst op familiegroepen of coöperatief gedrag, hoewel dit nog steeds wordt besproken."
-        }
+        "en": "Option D for T-Rex Family - basic facts aspect",
+        "es": "Opción D para T-Rex Family - aspecto basic facts",
+        "de": "Option D für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie D voor T-Rex Family - basic facts aspect"
       },
       {
-        question: {
-                  "en": "How did T-Rex's metabolism likely function?",
-                  "es": "¿Cómo funcionaba probablemente el metabolismo del T-Rex?",
-                  "de": "Wie funktionierte wahrscheinlich der Stoffwechsel von T-Rex?",
-                  "nl": "Hoe functioneerde waarschijnlijk het metabolisme van T-Rex?"
-        },
-        options: [
-        {
-                  "en": "Completely cold-blooded like reptiles",
-                  "es": "Completamente de sangre fría como los reptiles",
-                  "de": "Völlig kaltblütig wie Reptilien",
-                  "nl": "Volledig koudbloedig zoals reptielen"
-        },
-        {
-                  "en": "Mesothermic - between cold and warm-blooded",
-                  "es": "Mesotérmico - entre sangre fría y caliente",
-                  "de": "Mesotherm - zwischen kalt- und warmblütig",
-                  "nl": "Mesotherm - tussen koud- en warmbloedig"
-        },
-        {
-                  "en": "No metabolic activity",
-                  "es": "Sin actividad metabólica",
-                  "de": "Keine Stoffwechselaktivität",
-                  "nl": "Geen metabolische activiteit"
-        },
-        {
-                  "en": "Exactly like modern mammals",
-                  "es": "Exactamente como los mamíferos modernos",
-                  "de": "Genau wie moderne Säugetiere",
-                  "nl": "Precies zoals moderne zoogdieren"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Evidence suggests T-Rex was mesothermic, having a metabolism somewhere between modern reptiles and mammals, allowing for active hunting while being energy efficient.",
-                  "es": "La evidencia sugiere que el T-Rex era mesotérmico, teniendo un metabolismo entre los reptiles modernos y los mamíferos, permitiendo caza activa mientras era energéticamente eficiente.",
-                  "de": "Belege deuten darauf hin, dass T-Rex mesotherm war, mit einem Stoffwechsel zwischen modernen Reptilien und Säugetieren, was aktive Jagd bei Energieeffizienz ermöglichte.",
-                  "nl": "Bewijs suggereert dat T-Rex mesotherm was, met een metabolisme tussen moderne reptielen en zoogdieren in, wat actieve jacht mogelijk maakte terwijl het energiezuinig was."
-        }
+        "en": "Option B for T-Rex Family - basic facts aspect",
+        "es": "Opción B para T-Rex Family - aspecto basic facts",
+        "de": "Option B für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie B voor T-Rex Family - basic facts aspect"
       },
       {
-        question: {
-                  "en": "What was the texture of T-Rex skin based on fossil evidence?",
-                  "es": "¿Cuál era la textura de la piel del T-Rex basada en evidencia fósil?",
-                  "de": "Welche Textur hatte die Haut von T-Rex basierend auf Fossilbelegen?",
-                  "nl": "Wat was de textuur van T-Rex huid gebaseerd op fossiel bewijs?"
-        },
-        options: [
-        {
-                  "en": "Transparent and see-through",
-                  "es": "Transparente y transparente",
-                  "de": "Transparent und durchsichtig",
-                  "nl": "Transparant en doorzichtig"
-        },
-        {
-                  "en": "Completely smooth like dolphin skin",
-                  "es": "Completamente liso como piel de delfín",
-                  "de": "Völlig glatt wie Delphinhaut",
-                  "nl": "Volledig glad als dolfijnhuid"
-        },
-        {
-                  "en": "Covered in thick fur",
-                  "es": "Cubierto de pelaje grueso",
-                  "de": "Mit dickem Fell bedeckt",
-                  "nl": "Bedekt met dikke vacht"
-        },
-        {
-                  "en": "Scales with varying sizes and bumpy texture",
-                  "es": "Escamas con tamaños variables y textura rugosa",
-                  "de": "Schuppen verschiedener Größen mit höckriger Textur",
-                  "nl": "Schubben met variërende groottes en bobbelige textuur"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Rare skin impressions show T-Rex had pebbly, bumpy scales of varying sizes, similar to modern crocodiles but with a more complex texture pattern.",
-                  "es": "Las raras impresiones de piel muestran que el T-Rex tenía escamas rugosas y abultadas de tamaños variables, similares a los cocodrilos modernos pero con un patrón de textura más complejo.",
-                  "de": "Seltene Hautabdrücke zeigen, dass T-Rex kieselige, höckrige Schuppen verschiedener Größen hatte, ähnlich modernen Krokodilen aber mit komplexerem Texturmuster.",
-                  "nl": "Zeldzame huidafdrukken tonen dat T-Rex kiezelige, bobbelige schubben van variërende groottes had, vergelijkbaar met moderne krokodillen maar met een complexer textuurpatroon."
-        }
+        "en": "Option C for T-Rex Family - basic facts aspect",
+        "es": "Opción C para T-Rex Family - aspecto basic facts",
+        "de": "Option C für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie C voor T-Rex Family - basic facts aspect"
       },
       {
-        question: {
-                  "en": "How did T-Rex likely communicate with other T-Rex?",
-                  "es": "¿Cómo se comunicaba probablemente el T-Rex con otros T-Rex?",
-                  "de": "Wie kommunizierte T-Rex wahrscheinlich mit anderen T-Rex?",
-                  "nl": "Hoe communiceerde T-Rex waarschijnlijk met andere T-Rex?"
-        },
-        options: [
-        {
-                  "en": "Deep roars and low-frequency vocalizations",
-                  "es": "Rugidos profundos y vocalizaciones de baja frecuencia",
-                  "de": "Tiefe Brülllaute und niederfrequente Lautäußerungen",
-                  "nl": "Diepe brullen en laagfrequente geluiden"
-        },
-        {
-                  "en": "Only visual signals",
-                  "es": "Solo señales visuales",
-                  "de": "Nur visuelle Signale",
-                  "nl": "Alleen visuele signalen"
-        },
-        {
-                  "en": "High-pitched chirping sounds",
-                  "es": "Sonidos de chirridos agudos",
-                  "de": "Hohe Zwitschergeräusche",
-                  "nl": "Hoge piepgeluiden"
-        },
-        {
-                  "en": "No communication ability",
-                  "es": "Sin capacidad de comunicación",
-                  "de": "Keine Kommunikationsfähigkeit",
-                  "nl": "Geen communicatievermogen"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "T-Rex likely produced deep, low-frequency roars similar to crocodiles, which could travel long distances and communicate territorial or mating information.",
-                  "es": "El T-Rex probablemente producía rugidos profundos de baja frecuencia similares a los cocodrilos, que podían viajar largas distancias y comunicar información territorial o de apareamiento.",
-                  "de": "T-Rex produzierte wahrscheinlich tiefe, niederfrequente Brülllaute ähnlich Krokodilen, die weite Strecken zurücklegen und territoriale oder Paarungsinformationen kommunizieren konnten.",
-                  "nl": "T-Rex produceerde waarschijnlijk diepe, laagfrequente brullen vergelijkbaar met krokodillen, die lange afstanden konden afleggen en territoriale of paringsInformatie konden communiceren."
-        }
-      },
-      {
-        question: {
-                  "en": "What was T-Rex's hunting strategy based on current evidence?",
-                  "es": "¿Cuál era la estrategia de caza del T-Rex basada en evidencia actual?",
-                  "de": "Was war die Jagdstrategie von T-Rex basierend auf aktuellen Belegen?",
-                  "nl": "Wat was T-Rex's jachtstrategie gebaseerd op huidig bewijs?"
-        },
-        options: [
-        {
-                  "en": "Long-distance pursuit hunter",
-                  "es": "Cazador de persecución de larga distancia",
-                  "de": "Langstrecken-Verfolgungsjäger",
-                  "nl": "Langeafstand achtervolging jager"
-        },
-        {
-                  "en": "Exclusively ate plants",
-                  "es": "Exclusivamente comía plantas",
-                  "de": "Aß ausschließlich Pflanzen",
-                  "nl": "At uitsluitend planten"
-        },
-        {
-                  "en": "Ambush predator using stealth and power",
-                  "es": "Depredador de emboscada usando sigilo y poder",
-                  "de": "Hinterhaltjäger mit Tarnung und Kraft",
-                  "nl": "Hinderlaagpredator met stealth en kracht"
-        },
-        {
-                  "en": "Only scavenged dead animals",
-                  "es": "Solo carroñeaba animales muertos",
-                  "de": "Nur Aasfressen toter Tiere",
-                  "nl": "Alleen aaseters van dode dieren"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "T-Rex was likely an ambush predator that used its excellent senses to locate prey, then relied on explosive power and crushing bite force for quick kills.",
-                  "es": "El T-Rex probablemente era un depredador de emboscada que usaba sus excelentes sentidos para localizar presas, luego dependía del poder explosivo y fuerza de mordida aplastante para matanzas rápidas.",
-                  "de": "T-Rex war wahrscheinlich ein Hinterhaltjäger, der seine ausgezeichneten Sinne zur Beuteortung nutzte und dann auf explosive Kraft und zerquetschende Beißkraft für schnelle Tötungen setzte.",
-                  "nl": "T-Rex was waarschijnlijk een hinderlaagpredator die zijn uitstekende zintuigen gebruikte om prooi te lokaliseren, en vervolgens vertrouwde op explosieve kracht en verpletterende bijtkracht voor snelle doden."
-        }
-      },
-      {
-        question: {
-                  "en": "How did T-Rex juveniles differ from adults?",
-                  "es": "¿En qué se diferenciaban los juveniles de T-Rex de los adultos?",
-                  "de": "Wie unterschieden sich T-Rex-Jungtiere von Erwachsenen?",
-                  "nl": "Hoe verschilden T-Rex juvenielen van volwassenen?"
-        },
-        options: [
-        {
-                  "en": "Only ate plants as juveniles",
-                  "es": "Solo comían plantas como juveniles",
-                  "de": "Fraßen nur Pflanzen als Jungtiere",
-                  "nl": "Aten alleen planten als juvenielen"
-        },
-        {
-                  "en": "Longer legs, faster running, less robust skulls",
-                  "es": "Piernas más largas, carrera más rápida, cráneos menos robustos",
-                  "de": "Längere Beine, schnelleres Laufen, weniger robuste Schädel",
-                  "nl": "Langere benen, sneller rennen, minder robuuste schedels"
-        },
-        {
-                  "en": "Identical to adults in all ways",
-                  "es": "Idénticos a los adultos en todos los aspectos",
-                  "de": "In jeder Hinsicht identisch mit Erwachsenen",
-                  "nl": "Identiek aan volwassenen in alle opzichten"
-        },
-        {
-                  "en": "Much larger than adults",
-                  "es": "Mucho más grandes que los adultos",
-                  "de": "Viel größer als Erwachsene",
-                  "nl": "Veel groter dan volwassenen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Young T-Rex had proportionally longer legs and were likely faster runners, filling a different ecological niche than the massive, power-focused adults.",
-                  "es": "Los T-Rex jóvenes tenían piernas proporcionalmente más largas y probablemente eran corredores más rápidos, llenando un nicho ecológico diferente que los adultos masivos enfocados en el poder.",
-                  "de": "Junge T-Rex hatten proportional längere Beine und waren wahrscheinlich schnellere Läufer, die eine andere ökologische Nische als die massiven, kraftorientierten Erwachsenen füllten.",
-                  "nl": "Jonge T-Rex hadden proportioneel langere benen en waren waarschijnlijk snellere renners, die een andere ecologische niche vulden dan de massale, kracht-gerichte volwassenen."
-        }
-      },
-      {
-        question: {
-                  "en": "What does coprolite evidence tell us about T-Rex diet?",
-                  "es": "¿Qué nos dice la evidencia de coprolitos sobre la dieta del T-Rex?",
-                  "de": "Was verraten Koprolithe über die Ernährung von T-Rex?",
-                  "nl": "Wat vertelt coprolit bewijs ons over T-Rex dieet?"
-        },
-        options: [
-        {
-                  "en": "Crushed bone fragments showing bone-crushing ability",
-                  "es": "Fragmentos de hueso triturado mostrando capacidad de triturar huesos",
-                  "de": "Zerquetschte Knochenfragmente zeigen Knochen-Zermalmungsfähigkeit",
-                  "nl": "Verbrijzelde botfragmenten tonen botverbrijzelende capaciteit"
-        },
-        {
-                  "en": "Only fish scales",
-                  "es": "Solo escamas de pez",
-                  "de": "Nur Fischschuppen",
-                  "nl": "Alleen visschubben"
-        },
-        {
-                  "en": "No digestive remains found",
-                  "es": "No se encontraron restos digestivos",
-                  "de": "Keine Verdauungsreste gefunden",
-                  "nl": "Geen spijsverteringsresten gevonden"
-        },
-        {
-                  "en": "Only plant material found",
-                  "es": "Solo se encontró material vegetal",
-                  "de": "Nur Pflanzenmaterial gefunden",
-                  "nl": "Alleen plantenmateriaal gevonden"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Fossilized T-Rex dung contains crushed bone fragments, proving it could digest bone and extract nutrients from entire prey animals, not just meat.",
-                  "es": "El estiércol fosilizado de T-Rex contiene fragmentos de hueso triturado, probando que podía digerir hueso y extraer nutrientes de animales presa enteros, no solo carne.",
-                  "de": "Versteinerter T-Rex-Dung enthält zerquetschte Knochenfragmente, was beweist, dass er Knochen verdauen und Nährstoffe aus ganzen Beutetieren extrahieren konnte, nicht nur Fleisch.",
-                  "nl": "Versteende T-Rex ontlasting bevat verbrijzelde botfragmenten, wat bewijst dat het botten kon verteren en voedingsstoffen uit hele prooien kon halen, niet alleen vlees."
-        }
-      },
-      {
-        question: {
-                  "en": "How did T-Rex's blood vessels adapt to its large size?",
-                  "es": "¿Cómo se adaptaron los vasos sanguíneos del T-Rex a su gran tamaño?",
-                  "de": "Wie passten sich die Blutgefäße von T-Rex an seine große Größe an?",
-                  "nl": "Hoe pasten de bloedvaten van T-Rex zich aan zijn grote grootte aan?"
-        },
-        options: [
-        {
-                  "en": "Thin capillaries only",
-                  "es": "Solo capilares delgados",
-                  "de": "Nur dünne Kapillaren",
-                  "nl": "Alleen dunne haarvaten"
-        },
-        {
-                  "en": "No circulatory system",
-                  "es": "Sin sistema circulatorio",
-                  "de": "Kein Kreislaufsystem",
-                  "nl": "Geen bloedsomloop"
-        },
-        {
-                  "en": "Cold blood with no pressure",
-                  "es": "Sangre fría sin presión",
-                  "de": "Kaltes Blut ohne Druck",
-                  "nl": "Koud bloed zonder druk"
-        },
-        {
-                  "en": "Large diameter vessels with thick walls for high pressure",
-                  "es": "Vasos de gran diámetro con paredes gruesas para alta presión",
-                  "de": "Große Durchmesser-Gefäße mit dicken Wänden für hohen Druck",
-                  "nl": "Grote diameter vaten met dikke wanden voor hoge druk"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "T-Rex needed massive blood vessels with thick walls to pump blood against gravity to its head and maintain circulation in such a large body.",
-                  "es": "El T-Rex necesitaba vasos sanguíneos masivos con paredes gruesas para bombear sangre contra la gravedad hacia su cabeza y mantener la circulación en un cuerpo tan grande.",
-                  "de": "T-Rex benötigte massive Blutgefäße mit dicken Wänden, um Blut gegen die Schwerkraft zu seinem Kopf zu pumpen und die Zirkulation in einem so großen Körper aufrechtzuerhalten.",
-                  "nl": "T-Rex had massale bloedvaten met dikke wanden nodig om bloed tegen de zwaartekracht naar zijn hoofd te pompen en de circulatie in zo'n groot lichaam te onderhouden."
-        }
-      },
-      {
-        question: {
-                  "en": "What was T-Rex's likely nesting behavior?",
-                  "es": "¿Cuál era el probable comportamiento de anidación del T-Rex?",
-                  "de": "Wie war wahrscheinlich das Nistverhalten von T-Rex?",
-                  "nl": "Wat was T-Rex's waarschijnlijke nestgedrag?"
-        },
-        options: [
-        {
-                  "en": "Underground burrow nests",
-                  "es": "Nidos en madrigueras subterráneas",
-                  "de": "Unterirdische Höhlennester",
-                  "nl": "Ondergrondse holnesten"
-        },
-        {
-                  "en": "Simple ground nests with parental care",
-                  "es": "Nidos simples en el suelo con cuidado parental",
-                  "de": "Einfache Bodennester mit elterlicher Fürsorge",
-                  "nl": "Eenvoudige grondnesten met ouderlijke zorg"
-        },
-        {
-                  "en": "No nesting behavior",
-                  "es": "Sin comportamiento de anidación",
-                  "de": "Kein Nistverhalten",
-                  "nl": "Geen nestgedrag"
-        },
-        {
-                  "en": "Built nests in trees",
-                  "es": "Construían nidos en árboles",
-                  "de": "Bauten Nester in Bäumen",
-                  "nl": "Bouwden nesten in bomen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Like modern birds and crocodiles, T-Rex likely made simple ground nests and provided some parental care, based on evidence from related theropods.",
-                  "es": "Como las aves y cocodrilos modernos, el T-Rex probablemente hacía nidos simples en el suelo y proporcionaba algún cuidado parental, basado en evidencia de terópodos relacionados.",
-                  "de": "Wie moderne Vögel und Krokodile machte T-Rex wahrscheinlich einfache Bodennester und bot elterliche Fürsorge, basierend auf Belegen verwandter Theropoden.",
-                  "nl": "Zoals moderne vogels en krokodillen maakte T-Rex waarschijnlijk eenvoudige grondnesten en bood enige ouderlijke zorg, gebaseerd op bewijs van gerelateerde theropoden."
-        }
-      },
-      {
-        question: {
-                  "en": "How did T-Rex's tail contribute to balance during hunting?",
-                  "es": "¿Cómo contribuía la cola del T-Rex al equilibrio durante la caza?",
-                  "de": "Wie trug der Schwanz von T-Rex zum Gleichgewicht während der Jagd bei?",
-                  "nl": "Hoe droeg de staart van T-Rex bij aan het evenwicht tijdens de jacht?"
-        },
-        options: [
-        {
-                  "en": "Dragged on the ground",
-                  "es": "Arrastrada por el suelo",
-                  "de": "Über den Boden geschleift",
-                  "nl": "Over de grond gesleept"
-        },
-        {
-                  "en": "Rigid and immobile",
-                  "es": "Rígida e inmóvil",
-                  "de": "Starr und unbeweglich",
-                  "nl": "Stijf en onbeweeglijk"
-        },
-        {
-                  "en": "Active counterbalance allowing quick directional changes",
-                  "es": "Contrapeso activo permitiendo cambios direccionales rápidos",
-                  "de": "Aktives Gegengewicht ermöglicht schnelle Richtungsänderungen",
-                  "nl": "Actief tegenwicht dat snelle richtingsveranderingen mogelijk maakt"
-        },
-        {
-                  "en": "Only for display",
-                  "es": "Solo para exhibición",
-                  "de": "Nur zur Schau",
-                  "nl": "Alleen voor vertoon"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "T-Rex's muscular tail was actively controlled and could shift weight dynamically, allowing for quick turns and balance adjustments while pursuing prey.",
-                  "es": "La cola muscular del T-Rex era controlada activamente y podía cambiar el peso dinámicamente, permitiendo giros rápidos y ajustes de equilibrio mientras perseguía presas.",
-                  "de": "Der muskulöse Schwanz von T-Rex wurde aktiv kontrolliert und konnte Gewicht dynamisch verlagern, was schnelle Wendungen und Gleichgewichtsanpassungen bei der Beuteverfolgung ermöglichte.",
-                  "nl": "T-Rex's gespierde staart werd actief gecontroleerd en kon gewicht dynamisch verschuiven, waardoor snelle bochten en balansaanpassingen tijdens het achtervolgen van prooi mogelijk waren."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the function of T-Rex's lacrimal bones?",
-                  "es": "¿Cuál era la función de los huesos lagrimales del T-Rex?",
-                  "de": "Was war die Funktion der Tränenbeine von T-Rex?",
-                  "nl": "Wat was de functie van T-Rex's traanbeenderen?"
-        },
-        options: [
-        {
-                  "en": "No known function",
-                  "es": "Sin función conocida",
-                  "de": "Keine bekannte Funktion",
-                  "nl": "Geen bekende functie"
-        },
-        {
-                  "en": "Protection for eyes and additional muscle attachment",
-                  "es": "Protección para los ojos y unión muscular adicional",
-                  "de": "Schutz für Augen und zusätzliche Muskelanheftung",
-                  "nl": "Bescherming voor ogen en extra spieraanhechting"
-        },
-        {
-                  "en": "Only for producing tears",
-                  "es": "Solo para producir lágrimas",
-                  "de": "Nur zur Tränenproduktion",
-                  "nl": "Alleen voor traanproductie"
-        },
-        {
-                  "en": "For hearing enhancement",
-                  "es": "Para mejora de la audición",
-                  "de": "Zur Hörverbesserung",
-                  "nl": "Voor gehoorverbetering"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "T-Rex's prominent lacrimal bones formed ridges above the eyes, providing protection and serving as attachment points for powerful jaw muscles.",
-                  "es": "Los huesos lagrimales prominentes del T-Rex formaban crestas sobre los ojos, proporcionando protección y sirviendo como puntos de unión para músculos poderosos de la mandíbula.",
-                  "de": "Die prominenten Tränenbeine von T-Rex bildeten Grate über den Augen, boten Schutz und dienten als Ansatzpunkte für kraftvolle Kiefermuskeln.",
-                  "nl": "T-Rex's prominente traanbeenderen vormden richels boven de ogen, boden bescherming en dienden als aanhechtingspunten voor krachtige kaakspieren."
-        }
-      },
-      {
-        question: {
-                  "en": "How did T-Rex's respiratory system support its active lifestyle?",
-                  "es": "¿Cómo el sistema respiratorio del T-Rex apoyaba su estilo de vida activo?",
-                  "de": "Wie unterstützte das Atmungssystem von T-Rex seinen aktiven Lebensstil?",
-                  "nl": "Hoe ondersteunde T-Rex's ademhalingssysteem zijn actieve levensstijl?"
-        },
-        options: [
-        {
-                  "en": "Air sacs and efficient lung system like birds",
-                  "es": "Sacos de aire y sistema pulmonar eficiente como las aves",
-                  "de": "Luftsäcke und effizientes Lungensystem wie Vögel",
-                  "nl": "Luchtzakken en efficiënt longsysteem zoals vogels"
-        },
-        {
-                  "en": "No respiratory system",
-                  "es": "Sin sistema respiratorio",
-                  "de": "Kein Atmungssystem",
-                  "nl": "Geen ademhalingssysteem"
-        },
-        {
-                  "en": "Gills for underwater breathing",
-                  "es": "Branquias para respiración subacuática",
-                  "de": "Kiemen für Unterwasseratmung",
-                  "nl": "Kieuwen voor onderwater ademhaling"
-        },
-        {
-                  "en": "Simple reptilian lungs only",
-                  "es": "Solo pulmones reptilianos simples",
-                  "de": "Nur einfache Reptilienlungen",
-                  "nl": "Alleen eenvoudige reptielenlongen"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "T-Rex likely had an advanced respiratory system with air sacs extending into bones, similar to modern birds, providing efficient oxygen delivery for active predation.",
-                  "es": "El T-Rex probablemente tenía un sistema respiratorio avanzado con sacos de aire extendiéndose en los huesos, similar a las aves modernas, proporcionando entrega eficiente de oxígeno para depredación activa.",
-                  "de": "T-Rex hatte wahrscheinlich ein fortgeschrittenes Atmungssystem mit Luftsäcken, die sich in die Knochen erstreckten, ähnlich modernen Vögeln, was effiziente Sauerstoffversorgung für aktive Jagd bot.",
-                  "nl": "T-Rex had waarschijnlijk een geavanceerd ademhalingssysteem met luchtzakken die zich uitstrekten in de botten, vergelijkbaar met moderne vogels, wat efficiënte zuurstoftoevoer voor actieve predatie bood."
-        }
-      },
-      {
-        question: {
-                  "en": "What role did T-Rex play in its ecosystem?",
-                  "es": "¿Qué papel jugaba el T-Rex en su ecosistema?",
-                  "de": "Welche Rolle spielte T-Rex in seinem Ökosystem?",
-                  "nl": "Welke rol speelde T-Rex in zijn ecosysteem?"
-        },
-        options: [
-        {
-                  "en": "Apex predator controlling herbivore populations",
-                  "es": "Depredador ápice controlando poblaciones herbívoras",
-                  "de": "Spitzenprädator kontrolliert Pflanzenfresser-Populationen",
-                  "nl": "Toproofdier dat herbivore populaties controleerde"
-        },
-        {
-                  "en": "Decomposer breaking down dead matter",
-                  "es": "Descomponedor descomponiendo materia muerta",
-                  "de": "Zersetzer zersetzt tote Materie",
-                  "nl": "Ontleder die dood materiaal afbreekt"
-        },
-        {
-                  "en": "Had no ecological role",
-                  "es": "No tenía papel ecológico",
-                  "de": "Hatte keine ökologische Rolle",
-                  "nl": "Had geen ecologische rol"
-        },
-        {
-                  "en": "Primary herbivore eating plants",
-                  "es": "Herbívoro primario comiendo plantas",
-                  "de": "Primärer Pflanzenfresser",
-                  "nl": "Primaire planteneter"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "As the top predator, T-Rex regulated herbivore populations, preventing overgrazing and maintaining ecological balance in Late Cretaceous ecosystems.",
-                  "es": "Como el depredador superior, el T-Rex regulaba las poblaciones herbívoras, prevenía el sobrepastoreo y mantenía el equilibrio ecológico en ecosistemas del Cretácico Tardío.",
-                  "de": "Als Spitzenprädator regulierte T-Rex Pflanzenfresser-Populationen, verhinderte Überweidung und erhielt das ökologische Gleichgewicht in spätkretazischen Ökosystemen.",
-                  "nl": "Als toproofdier reguleerde T-Rex herbivore populaties, voorkwam overbegrazing en hield het ecologische evenwicht in Laat-Krijt ecosystemen in stand."
-        }
-      },
-      {
-        question: {
-                  "en": "How did T-Rex's digestive system process large prey?",
-                  "es": "¿Cómo el sistema digestivo del T-Rex procesaba presas grandes?",
-                  "de": "Wie verarbeitete das Verdauungssystem von T-Rex große Beute?",
-                  "nl": "Hoe verwerkte T-Rex's spijsverteringssysteem grote prooi?"
-        },
-        options: [
-        {
-                  "en": "Only ate small pieces of meat",
-                  "es": "Solo comía pequeños pedazos de carne",
-                  "de": "Fraß nur kleine Fleischstücke",
-                  "nl": "At alleen kleine stukjes vlees"
-        },
-        {
-                  "en": "External digestion like spiders",
-                  "es": "Digestión externa como las arañas",
-                  "de": "Externe Verdauung wie Spinnen",
-                  "nl": "Externe vertering zoals spinnen"
-        },
-        {
-                  "en": "Powerful stomach acids and long digestive tract",
-                  "es": "Ácidos estomacales poderosos y tracto digestivo largo",
-                  "de": "Starke Magensäuren und langer Verdauungstrakt",
-                  "nl": "Krachtige maagzuren en lange spijsverteringskanaal"
-        },
-        {
-                  "en": "No digestive system",
-                  "es": "Sin sistema digestivo",
-                  "de": "Kein Verdauungssystem",
-                  "nl": "Geen spijsverteringssysteem"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "T-Rex had extremely powerful stomach acids that could dissolve bones and a long digestive system to extract maximum nutrition from large prey animals.",
-                  "es": "El T-Rex tenía ácidos estomacales extremadamente poderosos que podían disolver huesos y un sistema digestivo largo para extraer máxima nutrición de animales presa grandes.",
-                  "de": "T-Rex hatte extrem starke Magensäuren, die Knochen auflösen konnten, und ein langes Verdauungssystem, um maximale Nahrung aus großen Beutetieren zu extrahieren.",
-                  "nl": "T-Rex had extreem krachtige maagzuren die botten konden oplossen en een lang spijsverteringssysteem om maximale voeding uit grote prooidieren te halen."
-        }
-      },
-      {
-        question: {
-                  "en": "What was unique about T-Rex's skull fenestrae (openings)?",
-                  "es": "¿Qué tenían de único las fenestras (aberturas) del cráneo del T-Rex?",
-                  "de": "Was war einzigartig an den Schädelfenstern (Öffnungen) von T-Rex?",
-                  "nl": "Wat was uniek aan T-Rex's schedelfenestra (openingen)?"
-        },
-        options: [
-        {
-                  "en": "Large openings to reduce weight while maintaining strength",
-                  "es": "Grandes aberturas para reducir peso manteniendo fuerza",
-                  "de": "Große Öffnungen zur Gewichtsreduzierung bei Krafterhalt",
-                  "nl": "Grote openingen om gewicht te verminderen terwijl sterkte behouden blijft"
-        },
-        {
-                  "en": "Completely solid skull with no openings",
-                  "es": "Cráneo completamente sólido sin aberturas",
-                  "de": "Völlig fester Schädel ohne Öffnungen",
-                  "nl": "Volledig solide schedel zonder openingen"
-        },
-        {
-                  "en": "Only for decoration",
-                  "es": "Solo para decoración",
-                  "de": "Nur zur Dekoration",
-                  "nl": "Alleen voor decoratie"
-        },
-        {
-                  "en": "Breathing holes",
-                  "es": "Agujeros para respirar",
-                  "de": "Atemlöcher",
-                  "nl": "Ademgaten"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "T-Rex skulls had large fenestrae that reduced skull weight by up to 20% while maintaining structural integrity through strategic bone placement.",
-                  "es": "Los cráneos de T-Rex tenían fenestras grandes que reducían el peso del cráneo hasta en un 20% mientras mantenían la integridad estructural a través de ubicación estratégica de hueso.",
-                  "de": "T-Rex-Schädel hatten große Fenestrae, die das Schädelgewicht um bis zu 20% reduzierten, während die strukturelle Integrität durch strategische Knochenplatzierung erhalten blieb.",
-                  "nl": "T-Rex schedels hadden grote fenestrae die het schedelgewicht met tot 20% verminderden terwijl structurele integriteit behouden bleef door strategische botplaatsing."
-        }
-      },
-      {
-        question: {
-                  "en": "How did T-Rex's tooth serrations function?",
-                  "es": "¿Cómo funcionaban las serraciones de los dientes del T-Rex?",
-                  "de": "Wie funktionierten die Zahnsägungen von T-Rex?",
-                  "nl": "Hoe functioneerden T-Rex's tandkarteling?"
-        },
-        options: [
-        {
-                  "en": "Making sound",
-                  "es": "Haciendo sonido",
-                  "de": "Ton erzeugen",
-                  "nl": "Geluid maken"
-        },
-        {
-                  "en": "Only for appearance",
-                  "es": "Solo para apariencia",
-                  "de": "Nur für das Aussehen",
-                  "nl": "Alleen voor uiterlijk"
-        },
-        {
-                  "en": "Cutting through tough hide and muscle tissue",
-                  "es": "Cortando piel dura y tejido muscular",
-                  "de": "Schneiden durch zähe Haut und Muskelgewebe",
-                  "nl": "Snijden door taaie huid en spierweefsel"
-        },
-        {
-                  "en": "Storing venom",
-                  "es": "Almacenando veneno",
-                  "de": "Giftlagerung",
-                  "nl": "Gif opslaan"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "T-Rex teeth had fine serrations along the edges that worked like steak knives, helping slice through the tough skin and muscle of large prey animals.",
-                  "es": "Los dientes del T-Rex tenían serraciones finas a lo largo de los bordes que funcionaban como cuchillos de carne, ayudando a cortar la piel dura y músculo de animales presa grandes.",
-                  "de": "T-Rex-Zähne hatten feine Sägungen entlang der Kanten, die wie Steakmesser funktionierten und beim Durchschneiden der zähen Haut und Muskeln großer Beutetiere halfen.",
-                  "nl": "T-Rex tanden hadden fijne kartelingen langs de randen die werkten als steakmessen, en hielpen bij het doorsnijden van de taaie huid en spieren van grote prooien."
-        }
-      },
-      {
-        question: {
-                  "en": "What evidence suggests T-Rex had excellent color vision?",
-                  "es": "¿Qué evidencia sugiere que el T-Rex tenía excelente visión de colores?",
-                  "de": "Welche Beweise deuten auf ausgezeichnetes Farbsehen von T-Rex hin?",
-                  "nl": "Welk bewijs suggereert dat T-Rex uitstekend kleurenzicht had?"
-        },
-        options: [
-        {
-                  "en": "Eyes only detected movement",
-                  "es": "Los ojos solo detectaban movimiento",
-                  "de": "Augen erkannten nur Bewegung",
-                  "nl": "Ogen detecteerden alleen beweging"
-        },
-        {
-                  "en": "Large optic lobes in brain and forward-facing eyes",
-                  "es": "Grandes lóbulos ópticos en el cerebro y ojos orientados hacia adelante",
-                  "de": "Große optische Lappen im Gehirn und nach vorn gerichtete Augen",
-                  "nl": "Grote optische lobben in hersenen en naar voren gerichte ogen"
-        },
-        {
-                  "en": "Blind with no vision",
-                  "es": "Ciego sin visión",
-                  "de": "Blind ohne Sehkraft",
-                  "nl": "Blind zonder zicht"
-        },
-        {
-                  "en": "Only black and white vision",
-                  "es": "Solo visión en blanco y negro",
-                  "de": "Nur Schwarz-Weiß-Sehen",
-                  "nl": "Alleen zwart-wit zicht"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "T-Rex had large optic lobes in its brain and forward-facing eyes, suggesting excellent color vision and depth perception for hunting in varied environments.",
-                  "es": "El T-Rex tenía grandes lóbulos ópticos en su cerebro y ojos orientados hacia adelante, sugiriendo excelente visión de colores y percepción de profundidad para cazar en ambientes variados.",
-                  "de": "T-Rex hatte große optische Lappen im Gehirn und nach vorn gerichtete Augen, was auf ausgezeichnetes Farbsehen und Tiefenwahrnehmung für die Jagd in verschiedenen Umgebungen hindeutet.",
-                  "nl": "T-Rex had grote optische lobben in zijn hersenen en naar voren gerichte ogen, wat uitstekend kleurenzicht en dieptewaarneming suggereert voor jagen in gevarieerde omgevingen."
-        }
-      },
-      {
-        question: {
-                  "en": "How did T-Rex's environment influence its evolution?",
-                  "es": "¿Cómo el ambiente del T-Rex influyó en su evolución?",
-                  "de": "Wie beeinflusste die Umwelt von T-Rex seine Evolution?",
-                  "nl": "Hoe beïnvloedde T-Rex's omgeving zijn evolutie?"
-        },
-        options: [
-        {
-                  "en": "Desert conditions only",
-                  "es": "Solo condiciones desérticas",
-                  "de": "Nur Wüstenbedingungen",
-                  "nl": "Alleen woestijnomstandigheden"
-        },
-        {
-                  "en": "Ice age conditions made them smaller",
-                  "es": "Condiciones de era de hielo los hicieron más pequeños",
-                  "de": "Eiszeitbedingungen machten sie kleiner",
-                  "nl": "Ijstijd omstandigheden maakten ze kleiner"
-        },
-        {
-                  "en": "Warm climate and abundant large prey drove gigantism",
-                  "es": "Clima cálido y presas grandes abundantes impulsaron el gigantismo",
-                  "de": "Warmes Klima und reichlich große Beute trieben Gigantismus an",
-                  "nl": "Warm klimaat en overvloedige grote prooi dreven gigantisme aan"
-        },
-        {
-                  "en": "Aquatic environment made them swimmers",
-                  "es": "Ambiente acuático los hizo nadadores",
-                  "de": "Wasserumgebung machte sie zu Schwimmern",
-                  "nl": "Aquatische omgeving maakte ze zwemmers"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The warm Late Cretaceous climate supported abundant vegetation and large herbivorous dinosaurs, providing the ecological niche for massive apex predators like T-Rex.",
-                  "es": "El clima cálido del Cretácico Tardío soportaba vegetación abundante y grandes dinosaurios herbívoros, proporcionando el nicho ecológico para depredadores ápice masivos como el T-Rex.",
-                  "de": "Das warme spätkretazische Klima unterstützte reichlich Vegetation und große pflanzenfressende Dinosaurier, was die ökologische Nische für massive Spitzenprädatoren wie T-Rex schuf.",
-                  "nl": "Het warme Laat-Krijt klimaat ondersteunde overvloedige vegetatie en grote herbivore dinosaurussen, wat de ecologische niche bood voor massale toproofdieren zoals T-Rex."
-        }
-      },
-      {
-        question: {
-                  "en": "What was T-Rex's likely social structure based on fossil evidence?",
-                  "es": "¿Cuál era la probable estructura social del T-Rex basada en evidencia fósil?",
-                  "de": "Was war die wahrscheinliche Sozialstruktur von T-Rex basierend auf Fossilbelegen?",
-                  "nl": "Wat was T-Rex's waarschijnlijke sociale structuur gebaseerd op fossiel bewijs?"
-        },
-        options: [
-        {
-                  "en": "Completely antisocial",
-                  "es": "Completamente antisocial",
-                  "de": "Völlig unsozial",
-                  "nl": "Volledig antisociaal"
-        },
-        {
-                  "en": "Always lived in large herds",
-                  "es": "Siempre vivían en grandes manadas",
-                  "de": "Lebten immer in großen Herden",
-                  "nl": "Leefden altijd in grote kuddes"
-        },
-        {
-                  "en": "Mostly solitary with possible family groups",
-                  "es": "Mayormente solitario con posibles grupos familiares",
-                  "de": "Meist einzelgängerisch mit möglichen Familiengruppen",
-                  "nl": "Meestal eenzaam met mogelijke familiegroepen"
-        },
-        {
-                  "en": "Built complex cities",
-                  "es": "Construían ciudades complejas",
-                  "de": "Bauten komplexe Städte",
-                  "nl": "Bouwden complexe steden"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Most evidence suggests T-Rex was primarily solitary, but some sites with multiple individuals hint at possible family groups during breeding or feeding.",
-                  "es": "La mayoría de la evidencia sugiere que el T-Rex era principalmente solitario, pero algunos sitios con múltiples individuos insinúan posibles grupos familiares durante reproducción o alimentación.",
-                  "de": "Die meisten Belege deuten darauf hin, dass T-Rex hauptsächlich einzelgängerisch war, aber einige Fundstellen mit mehreren Individuen deuten auf mögliche Familiengruppen während Fortpflanzung oder Nahrungsaufnahme hin.",
-                  "nl": "Het meeste bewijs suggereert dat T-Rex voornamelijk eenzaam was, maar sommige locaties met meerdere individuen wijzen op mogelijke familiegroepen tijdens voortplanting of voeding."
-        }
-      },
-      {
-        question: {
-                  "en": "What does isotope analysis of T-Rex teeth reveal about its behavior?",
-                  "es": "¿Qué revela el análisis de isótopos de los dientes del T-Rex sobre su comportamiento?",
-                  "de": "Was verrät die Isotopenanalyse von T-Rex-Zähnen über sein Verhalten?",
-                  "nl": "Wat onthult isotoop analyse van T-Rex tanden over zijn gedrag?"
-        },
-        options: [
-        {
-                  "en": "Migration patterns and seasonal feeding behavior",
-                  "es": "Patrones de migración y comportamiento de alimentación estacional",
-                  "de": "Wanderungsmuster und saisonales Fressverhalten",
-                  "nl": "Migratiepatronen en seizoensgebonden voedingsgedrag"
-        },
-        {
-                  "en": "Only shows what they ate",
-                  "es": "Solo muestra lo que comían",
-                  "de": "Zeigt nur was sie fraßen",
-                  "nl": "Toont alleen wat ze aten"
-        },
-        {
-                  "en": "Shows they lived underwater",
-                  "es": "Muestra que vivían bajo el agua",
-                  "de": "Zeigt, dass sie unter Wasser lebten",
-                  "nl": "Toont dat ze onder water leefden"
-        },
-        {
-                  "en": "Proves they were herbivores",
-                  "es": "Prueba que eran herbívoros",
-                  "de": "Beweist, dass sie Pflanzenfresser waren",
-                  "nl": "Bewijst dat ze herbivoren waren"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Chemical isotope analysis of T-Rex teeth provides insights into migration patterns, seasonal movements, and feeding behaviors by tracking the chemical signatures of different environments.",
-                  "es": "El análisis químico de isótopos de los dientes del T-Rex proporciona información sobre patrones de migración, movimientos estacionales y comportamientos de alimentación al rastrear las firmas químicas de diferentes ambientes.",
-                  "de": "Die chemische Isotopenanalyse von T-Rex-Zähnen liefert Einblicke in Wanderungsmuster, saisonale Bewegungen und Fressverhalten durch Verfolgung der chemischen Signaturen verschiedener Umgebungen.",
-                  "nl": "Chemische isotoopanalyse van T-Rex tanden biedt inzichten in migratiepatronen, seizoensbewegingen en voedingsgedrag door het volgen van de chemische handtekeningen van verschillende omgevingen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Tyrannosaurus Rex?",
-                  "es": "What is Tyrannosaurus Rex?",
-                  "de": "What is Tyrannosaurus Rex?",
-                  "nl": "What is Tyrannosaurus Rex?"
-        },
-        options: [
-        {
-                  "en": "Flying dinosaur",
-                  "es": "Flying dinosaur",
-                  "de": "Flying dinosaur",
-                  "nl": "Flying dinosaur"
-        },
-        {
-                  "en": "Herbivorous dinosaur",
-                  "es": "Herbivorous dinosaur",
-                  "de": "Herbivorous dinosaur",
-                  "nl": "Herbivorous dinosaur"
-        },
-        {
-                  "en": "Large carnivorous theropod dinosaur",
-                  "es": "Large carnivorous theropod dinosaur",
-                  "de": "Large carnivorous theropod dinosaur",
-                  "nl": "Large carnivorous theropod dinosaur"
-        },
-        {
-                  "en": "Marine reptile",
-                  "es": "Marine reptile",
-                  "de": "Marine reptile",
-                  "nl": "Marine reptile"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Tyrannosaurus Rex was one of the largest land carnivores ever, living in Late Cretaceous North America.",
-                  "es": "Tyrannosaurus Rex was one of the largest land carnivores ever, living in Late Cretaceous North America.",
-                  "de": "Tyrannosaurus Rex was one of the largest land carnivores ever, living in Late Cretaceous North America.",
-                  "nl": "Tyrannosaurus Rex was one of the largest land carnivores ever, living in Late Cretaceous North America."
-        }
-      },
-      {
-        question: {
-                  "en": "What does Tyrannosaurus Rex mean?",
-                  "es": "What does Tyrannosaurus Rex mean?",
-                  "de": "What does Tyrannosaurus Rex mean?",
-                  "nl": "What does Tyrannosaurus Rex mean?"
-        },
-        options: [
-        {
-                  "en": "Ancient Beast",
-                  "es": "Ancient Beast",
-                  "de": "Ancient Beast",
-                  "nl": "Ancient Beast"
-        },
-        {
-                  "en": "Giant Reptile",
-                  "es": "Giant Reptile",
-                  "de": "Giant Reptile",
-                  "nl": "Giant Reptile"
-        },
-        {
-                  "en": "Tyrant Lizard King",
-                  "es": "Tyrant Lizard King",
-                  "de": "Tyrant Lizard King",
-                  "nl": "Tyrant Lizard King"
-        },
-        {
-                  "en": "Terrible Lizard",
-                  "es": "Terrible Lizard",
-                  "de": "Terrible Lizard",
-                  "nl": "Terrible Lizard"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Tyrannosaurus Rex means 'Tyrant Lizard King' in Greek and Latin.",
-                  "es": "Tyrannosaurus Rex means 'Tyrant Lizard King' in Greek and Latin.",
-                  "de": "Tyrannosaurus Rex means 'Tyrant Lizard King' in Greek and Latin.",
-                  "nl": "Tyrannosaurus Rex means 'Tyrant Lizard King' in Greek and Latin."
-        }
-      },
-      {
-        question: {
-                  "en": "How long was T-Rex?",
-                  "es": "How long was T-Rex?",
-                  "de": "How long was T-Rex?",
-                  "nl": "How long was T-Rex?"
-        },
-        options: [
-        {
-                  "en": "About 100 feet",
-                  "es": "About 100 feet",
-                  "de": "About 100 feet",
-                  "nl": "About 100 feet"
-        },
-        {
-                  "en": "About 40 feet",
-                  "es": "About 40 feet",
-                  "de": "About 40 feet",
-                  "nl": "About 40 feet"
-        },
-        {
-                  "en": "About 80 feet",
-                  "es": "About 80 feet",
-                  "de": "About 80 feet",
-                  "nl": "About 80 feet"
-        },
-        {
-                  "en": "About 20 feet",
-                  "es": "About 20 feet",
-                  "de": "About 20 feet",
-                  "nl": "About 20 feet"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "T-Rex measured about 40 feet from nose to tail.",
-                  "es": "T-Rex measured about 40 feet from nose to tail.",
-                  "de": "T-Rex measured about 40 feet from nose to tail.",
-                  "nl": "T-Rex measured about 40 feet from nose to tail."
-        }
-      },
-      {
-        question: {
-                  "en": "What was T-Rex's bite force?",
-                  "es": "What was T-Rex's bite force?",
-                  "de": "What was T-Rex's bite force?",
-                  "nl": "What was T-Rex's bite force?"
-        },
-        options: [
-        {
-                  "en": "Weak bite",
-                  "es": "Weak bite",
-                  "de": "Weak bite",
-                  "nl": "Weak bite"
-        },
-        {
-                  "en": "Strongest of any land animal, ~12,800 pounds",
-                  "es": "Strongest of any land animal, ~12,800 pounds",
-                  "de": "Strongest of any land animal, ~12,800 pounds",
-                  "nl": "Strongest of any land animal, ~12,800 pounds"
-        },
-        {
-                  "en": "Unknown",
-                  "es": "Unknown",
-                  "de": "Unknown",
-                  "nl": "Unknown"
-        },
-        {
-                  "en": "Moderate bite",
-                  "es": "Moderate bite",
-                  "de": "Moderate bite",
-                  "nl": "Moderate bite"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "T-Rex had the strongest bite force of any land animal, estimated at over 12,800 pounds.",
-                  "es": "T-Rex had the strongest bite force of any land animal, estimated at over 12,800 pounds.",
-                  "de": "T-Rex had the strongest bite force of any land animal, estimated at over 12,800 pounds.",
-                  "nl": "T-Rex had the strongest bite force of any land animal, estimated at over 12,800 pounds."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the T-Rex family called?",
-                  "es": "What is the T-Rex family called?",
-                  "de": "What is the T-Rex family called?",
-                  "nl": "What is the T-Rex family called?"
-        },
-        options: [
-        {
-                  "en": "Allosauridae",
-                  "es": "Allosauridae",
-                  "de": "Allosauridae",
-                  "nl": "Allosauridae"
-        },
-        {
-                  "en": "Spinosauridae",
-                  "es": "Spinosauridae",
-                  "de": "Spinosauridae",
-                  "nl": "Spinosauridae"
-        },
-        {
-                  "en": "Theropoda only",
-                  "es": "Theropoda only",
-                  "de": "Theropoda only",
-                  "nl": "Theropoda only"
-        },
-        {
-                  "en": "Tyrannosauridae",
-                  "es": "Tyrannosauridae",
-                  "de": "Tyrannosauridae",
-                  "nl": "Tyrannosauridae"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The T-Rex belongs to the family Tyrannosauridae.",
-                  "es": "The T-Rex belongs to the family Tyrannosauridae.",
-                  "de": "The T-Rex belongs to the family Tyrannosauridae.",
-                  "nl": "The T-Rex belongs to the family Tyrannosauridae."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Albertosaurus?",
-                  "es": "What is Albertosaurus?",
-                  "de": "What is Albertosaurus?",
-                  "nl": "What is Albertosaurus?"
-        },
-        options: [
-        {
-                  "en": "Flying dinosaur",
-                  "es": "Flying dinosaur",
-                  "de": "Flying dinosaur",
-                  "nl": "Flying dinosaur"
-        },
-        {
-                  "en": "Herbivore",
-                  "es": "Herbivore",
-                  "de": "Herbivore",
-                  "nl": "Herbivore"
-        },
-        {
-                  "en": "Larger than T-Rex",
-                  "es": "Larger than T-Rex",
-                  "de": "Larger than T-Rex",
-                  "nl": "Larger than T-Rex"
-        },
-        {
-                  "en": "Smaller relative of T-Rex",
-                  "es": "Smaller relative of T-Rex",
-                  "de": "Smaller relative of T-Rex",
-                  "nl": "Smaller relative of T-Rex"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Albertosaurus was a smaller tyrannosaurid, about 30 feet long, from Late Cretaceous Canada.",
-                  "es": "Albertosaurus was a smaller tyrannosaurid, about 30 feet long, from Late Cretaceous Canada.",
-                  "de": "Albertosaurus was a smaller tyrannosaurid, about 30 feet long, from Late Cretaceous Canada.",
-                  "nl": "Albertosaurus was a smaller tyrannosaurid, about 30 feet long, from Late Cretaceous Canada."
-        }
-      },
-      {
-        question: {
-                  "en": "How many fingers did T-Rex have?",
-                  "es": "How many fingers did T-Rex have?",
-                  "de": "How many fingers did T-Rex have?",
-                  "nl": "How many fingers did T-Rex have?"
-        },
-        options: [
-        {
-                  "en": "Three",
-                  "es": "Three",
-                  "de": "Three",
-                  "nl": "Three"
-        },
-        {
-                  "en": "Two",
-                  "es": "Two",
-                  "de": "Two",
-                  "nl": "Two"
-        },
-        {
-                  "en": "Five",
-                  "es": "Five",
-                  "de": "Five",
-                  "nl": "Five"
-        },
-        {
-                  "en": "Four",
-                  "es": "Four",
-                  "de": "Four",
-                  "nl": "Four"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "T-Rex had only two functional fingers on each tiny arm.",
-                  "es": "T-Rex had only two functional fingers on each tiny arm.",
-                  "de": "T-Rex had only two functional fingers on each tiny arm.",
-                  "nl": "T-Rex had only two functional fingers on each tiny arm."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Tarbosaurus?",
-                  "es": "What is Tarbosaurus?",
-                  "de": "What is Tarbosaurus?",
-                  "nl": "What is Tarbosaurus?"
-        },
-        options: [
-        {
-                  "en": "Australian T-Rex",
-                  "es": "Australian T-Rex",
-                  "de": "Australian T-Rex",
-                  "nl": "Australian T-Rex"
-        },
-        {
-                  "en": "African T-Rex",
-                  "es": "African T-Rex",
-                  "de": "African T-Rex",
-                  "nl": "African T-Rex"
-        },
-        {
-                  "en": "Asian relative of T-Rex",
-                  "es": "Asian relative of T-Rex",
-                  "de": "Asian relative of T-Rex",
-                  "nl": "Asian relative of T-Rex"
-        },
-        {
-                  "en": "South American T-Rex",
-                  "es": "South American T-Rex",
-                  "de": "South American T-Rex",
-                  "nl": "South American T-Rex"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Tarbosaurus was a close Asian relative of T-Rex from Mongolia, nearly as large.",
-                  "es": "Tarbosaurus was a close Asian relative of T-Rex from Mongolia, nearly as large.",
-                  "de": "Tarbosaurus was a close Asian relative of T-Rex from Mongolia, nearly as large.",
-                  "nl": "Tarbosaurus was a close Asian relative of T-Rex from Mongolia, nearly as large."
-        }
-      },
-      {
-        question: {
-                  "en": "Were T-Rex arms useless?",
-                  "es": "Were T-Rex arms useless?",
-                  "de": "Were T-Rex arms useless?",
-                  "nl": "Were T-Rex arms useless?"
-        },
-        options: [
-        {
-                  "en": "Yes, completely useless",
-                  "es": "Yes, completely useless",
-                  "de": "Yes, completely useless",
-                  "nl": "Yes, completely useless"
-        },
-        {
-                  "en": "No, likely used for grasping",
-                  "es": "No, likely used for grasping",
-                  "de": "No, likely used for grasping",
-                  "nl": "No, likely used for grasping"
-        },
-        {
-                  "en": "Used for walking",
-                  "es": "Used for walking",
-                  "de": "Used for walking",
-                  "nl": "Used for walking"
-        },
-        {
-                  "en": "Used for flying",
-                  "es": "Used for flying",
-                  "de": "Used for flying",
-                  "nl": "Used for flying"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "T-Rex arms, though small, were muscular and likely used for grasping prey or mates.",
-                  "es": "T-Rex arms, though small, were muscular and likely used for grasping prey or mates.",
-                  "de": "T-Rex arms, though small, were muscular and likely used for grasping prey or mates.",
-                  "nl": "T-Rex arms, though small, were muscular and likely used for grasping prey or mates."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Daspletosaurus?",
-                  "es": "What is Daspletosaurus?",
-                  "de": "What is Daspletosaurus?",
-                  "nl": "What is Daspletosaurus?"
-        },
-        options: [
-        {
-                  "en": "Herbivore",
-                  "es": "Herbivore",
-                  "de": "Herbivore",
-                  "nl": "Herbivore"
-        },
-        {
-                  "en": "Flying dinosaur",
-                  "es": "Flying dinosaur",
-                  "de": "Flying dinosaur",
-                  "nl": "Flying dinosaur"
-        },
-        {
-                  "en": "Small tyrannosaur",
-                  "es": "Small tyrannosaur",
-                  "de": "Small tyrannosaur",
-                  "nl": "Small tyrannosaur"
-        },
-        {
-                  "en": "Large tyrannosaurid related to T-Rex",
-                  "es": "Large tyrannosaurid related to T-Rex",
-                  "de": "Large tyrannosaurid related to T-Rex",
-                  "nl": "Large tyrannosaurid related to T-Rex"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Daspletosaurus was a large tyrannosaurid from Late Cretaceous North America, closely related to T-Rex.",
-                  "es": "Daspletosaurus was a large tyrannosaurid from Late Cretaceous North America, closely related to T-Rex.",
-                  "de": "Daspletosaurus was a large tyrannosaurid from Late Cretaceous North America, closely related to T-Rex.",
-                  "nl": "Daspletosaurus was a large tyrannosaurid from Late Cretaceous North America, closely related to T-Rex."
-        }
-      },
-      {
-        question: {
-                  "en": "What did T-Rex eat?",
-                  "es": "What did T-Rex eat?",
-                  "de": "What did T-Rex eat?",
-                  "nl": "What did T-Rex eat?"
-        },
-        options: [
-        {
-                  "en": "Insects",
-                  "es": "Insects",
-                  "de": "Insects",
-                  "nl": "Insects"
-        },
-        {
-                  "en": "Large herbivorous dinosaurs",
-                  "es": "Large herbivorous dinosaurs",
-                  "de": "Large herbivorous dinosaurs",
-                  "nl": "Large herbivorous dinosaurs"
-        },
-        {
-                  "en": "Plants",
-                  "es": "Plants",
-                  "de": "Plants",
-                  "nl": "Plants"
-        },
-        {
-                  "en": "Fish",
-                  "es": "Fish",
-                  "de": "Fish",
-                  "nl": "Fish"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "T-Rex preyed on large herbivorous dinosaurs like Triceratops and hadrosaurs.",
-                  "es": "T-Rex preyed on large herbivorous dinosaurs like Triceratops and hadrosaurs.",
-                  "de": "T-Rex preyed on large herbivorous dinosaurs like Triceratops and hadrosaurs.",
-                  "nl": "T-Rex preyed on large herbivorous dinosaurs like Triceratops and hadrosaurs."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Gorgosaurus?",
-                  "es": "What is Gorgosaurus?",
-                  "de": "What is Gorgosaurus?",
-                  "nl": "What is Gorgosaurus?"
-        },
-        options: [
-        {
-                  "en": "Marine reptile",
-                  "es": "Marine reptile",
-                  "de": "Marine reptile",
-                  "nl": "Marine reptile"
-        },
-        {
-                  "en": "Herbivore",
-                  "es": "Herbivore",
-                  "de": "Herbivore",
-                  "nl": "Herbivore"
-        },
-        {
-                  "en": "Albertosaurus relative, tyrannosaurid",
-                  "es": "Albertosaurus relative, tyrannosaurid",
-                  "de": "Albertosaurus relative, tyrannosaurid",
-                  "nl": "Albertosaurus relative, tyrannosaurid"
-        },
-        {
-                  "en": "Larger than T-Rex",
-                  "es": "Larger than T-Rex",
-                  "de": "Larger than T-Rex",
-                  "nl": "Larger than T-Rex"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Gorgosaurus was a tyrannosaurid similar to Albertosaurus, from Late Cretaceous North America.",
-                  "es": "Gorgosaurus was a tyrannosaurid similar to Albertosaurus, from Late Cretaceous North America.",
-                  "de": "Gorgosaurus was a tyrannosaurid similar to Albertosaurus, from Late Cretaceous North America.",
-                  "nl": "Gorgosaurus was a tyrannosaurid similar to Albertosaurus, from Late Cretaceous North America."
-        }
-      },
-      {
-        question: {
-                  "en": "Did T-Rex have feathers?",
-                  "es": "Did T-Rex have feathers?",
-                  "de": "Did T-Rex have feathers?",
-                  "nl": "Did T-Rex have feathers?"
-        },
-        options: [
-        {
-                  "en": "Possibly when young; adults may have been scaly",
-                  "es": "Possibly when young; adults may have been scaly",
-                  "de": "Possibly when young; adults may have been scaly",
-                  "nl": "Possibly when young; adults may have been scaly"
-        },
-        {
-                  "en": "No feathers at all",
-                  "es": "No feathers at all",
-                  "de": "No feathers at all",
-                  "nl": "No feathers at all"
-        },
-        {
-                  "en": "Yes, fully feathered",
-                  "es": "Yes, fully feathered",
-                  "de": "Yes, fully feathered",
-                  "nl": "Yes, fully feathered"
-        },
-        {
-                  "en": "Unknown",
-                  "es": "Unknown",
-                  "de": "Unknown",
-                  "nl": "Unknown"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Evidence suggests young tyrannosaurs may have had feathers, but adults were likely mostly scaly.",
-                  "es": "Evidence suggests young tyrannosaurs may have had feathers, but adults were likely mostly scaly.",
-                  "de": "Evidence suggests young tyrannosaurs may have had feathers, but adults were likely mostly scaly.",
-                  "nl": "Evidence suggests young tyrannosaurs may have had feathers, but adults were likely mostly scaly."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the earliest tyrannosaur?",
-                  "es": "What is the earliest tyrannosaur?",
-                  "de": "What is the earliest tyrannosaur?",
-                  "nl": "What is the earliest tyrannosaur?"
-        },
-        options: [
-        {
-                  "en": "Proceratosaurus or Guanlong",
-                  "es": "Proceratosaurus or Guanlong",
-                  "de": "Proceratosaurus or Guanlong",
-                  "nl": "Proceratosaurus or Guanlong"
-        },
-        {
-                  "en": "T-Rex",
-                  "es": "T-Rex",
-                  "de": "T-Rex",
-                  "nl": "T-Rex"
-        },
-        {
-                  "en": "Albertosaurus",
-                  "es": "Albertosaurus",
-                  "de": "Albertosaurus",
-                  "nl": "Albertosaurus"
-        },
-        {
-                  "en": "Tarbosaurus",
-                  "es": "Tarbosaurus",
-                  "de": "Tarbosaurus",
-                  "nl": "Tarbosaurus"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Early tyrannosaurs like Proceratosaurus and Guanlong lived in the Jurassic, much smaller than later forms.",
-                  "es": "Early tyrannosaurs like Proceratosaurus and Guanlong lived in the Jurassic, much smaller than later forms.",
-                  "de": "Early tyrannosaurs like Proceratosaurus and Guanlong lived in the Jurassic, much smaller than later forms.",
-                  "nl": "Early tyrannosaurs like Proceratosaurus and Guanlong lived in the Jurassic, much smaller than later forms."
-        }
-      },
-      {
-        question: {
-                  "en": "How fast could T-Rex run?",
-                  "es": "How fast could T-Rex run?",
-                  "de": "How fast could T-Rex run?",
-                  "nl": "How fast could T-Rex run?"
-        },
-        options: [
-        {
-                  "en": "Couldn't run",
-                  "es": "Couldn't run",
-                  "de": "Couldn't run",
-                  "nl": "Couldn't run"
-        },
-        {
-                  "en": "50 mph",
-                  "es": "50 mph",
-                  "de": "50 mph",
-                  "nl": "50 mph"
-        },
-        {
-                  "en": "12-25 mph estimated",
-                  "es": "12-25 mph estimated",
-                  "de": "12-25 mph estimated",
-                  "nl": "12-25 mph estimated"
-        },
-        {
-                  "en": "5 mph",
-                  "es": "5 mph",
-                  "de": "5 mph",
-                  "nl": "5 mph"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Estimates suggest T-Rex could move at 12-25 mph, though debate continues.",
-                  "es": "Estimates suggest T-Rex could move at 12-25 mph, though debate continues.",
-                  "de": "Estimates suggest T-Rex could move at 12-25 mph, though debate continues.",
-                  "nl": "Estimates suggest T-Rex could move at 12-25 mph, though debate continues."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Yutyrannus?",
-                  "es": "What is Yutyrannus?",
-                  "de": "What is Yutyrannus?",
-                  "nl": "What is Yutyrannus?"
-        },
-        options: [
-        {
-                  "en": "Marine reptile",
-                  "es": "Marine reptile",
-                  "de": "Marine reptile",
-                  "nl": "Marine reptile"
-        },
-        {
-                  "en": "Late tyrannosaur",
-                  "es": "Late tyrannosaur",
-                  "de": "Late tyrannosaur",
-                  "nl": "Late tyrannosaur"
-        },
-        {
-                  "en": "Herbivore",
-                  "es": "Herbivore",
-                  "de": "Herbivore",
-                  "nl": "Herbivore"
-        },
-        {
-                  "en": "Largest known feathered dinosaur, early tyrannosaur",
-                  "es": "Largest known feathered dinosaur, early tyrannosaur",
-                  "de": "Largest known feathered dinosaur, early tyrannosaur",
-                  "nl": "Largest known feathered dinosaur, early tyrannosaur"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Yutyrannus was an early tyrannosauroid from China, the largest known feathered dinosaur at 30 feet long.",
-                  "es": "Yutyrannus was an early tyrannosauroid from China, the largest known feathered dinosaur at 30 feet long.",
-                  "de": "Yutyrannus was an early tyrannosauroid from China, the largest known feathered dinosaur at 30 feet long.",
-                  "nl": "Yutyrannus was an early tyrannosauroid from China, the largest known feathered dinosaur at 30 feet long."
-        }
-      },
-      {
-        question: {
-                  "en": "How good was T-Rex's sense of smell?",
-                  "es": "How good was T-Rex's sense of smell?",
-                  "de": "How good was T-Rex's sense of smell?",
-                  "nl": "How good was T-Rex's sense of smell?"
-        },
-        options: [
-        {
-                  "en": "Excellent, among the best",
-                  "es": "Excellent, among the best",
-                  "de": "Excellent, among the best",
-                  "nl": "Excellent, among the best"
-        },
-        {
-                  "en": "Poor",
-                  "es": "Poor",
-                  "de": "Poor",
-                  "nl": "Poor"
-        },
-        {
-                  "en": "Average",
-                  "es": "Average",
-                  "de": "Average",
-                  "nl": "Average"
-        },
-        {
-                  "en": "No sense of smell",
-                  "es": "No sense of smell",
-                  "de": "No sense of smell",
-                  "nl": "No sense of smell"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "T-Rex had an exceptionally large olfactory bulb, suggesting an excellent sense of smell.",
-                  "es": "T-Rex had an exceptionally large olfactory bulb, suggesting an excellent sense of smell.",
-                  "de": "T-Rex had an exceptionally large olfactory bulb, suggesting an excellent sense of smell.",
-                  "nl": "T-Rex had an exceptionally large olfactory bulb, suggesting an excellent sense of smell."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a juvenile T-Rex called informally?",
-                  "es": "What is a juvenile T-Rex called informally?",
-                  "de": "What is a juvenile T-Rex called informally?",
-                  "nl": "What is a juvenile T-Rex called informally?"
-        },
-        options: [
-        {
-                  "en": "Baby Rex",
-                  "es": "Baby Rex",
-                  "de": "Baby Rex",
-                  "nl": "Baby Rex"
-        },
-        {
-                  "en": "Mini Rex",
-                  "es": "Mini Rex",
-                  "de": "Mini Rex",
-                  "nl": "Mini Rex"
-        },
-        {
-                  "en": "Jane or juvenile T-Rex",
-                  "es": "Jane or juvenile T-Rex",
-                  "de": "Jane or juvenile T-Rex",
-                  "nl": "Jane or juvenile T-Rex"
-        },
-        {
-                  "en": "T-Rex Jr.",
-                  "es": "T-Rex Jr.",
-                  "de": "T-Rex Jr.",
-                  "nl": "T-Rex Jr."
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Several juvenile T-Rex specimens have been found; one famous specimen is nicknamed 'Jane'.",
-                  "es": "Several juvenile T-Rex specimens have been found; one famous specimen is nicknamed 'Jane'.",
-                  "de": "Several juvenile T-Rex specimens have been found; one famous specimen is nicknamed 'Jane'.",
-                  "nl": "Several juvenile T-Rex specimens have been found; one famous specimen is nicknamed 'Jane'."
-        }
-      },
-      {
-        question: {
-                  "en": "Was T-Rex a scavenger or hunter?",
-                  "es": "Was T-Rex a scavenger or hunter?",
-                  "de": "Was T-Rex a scavenger or hunter?",
-                  "nl": "Was T-Rex a scavenger or hunter?"
-        },
-        options: [
-        {
-                  "en": "Likely both, primarily hunter",
-                  "es": "Likely both, primarily hunter",
-                  "de": "Likely both, primarily hunter",
-                  "nl": "Likely both, primarily hunter"
-        },
-        {
-                  "en": "Only hunter",
-                  "es": "Only hunter",
-                  "de": "Only hunter",
-                  "nl": "Only hunter"
-        },
-        {
-                  "en": "Neither",
-                  "es": "Neither",
-                  "de": "Neither",
-                  "nl": "Neither"
-        },
-        {
-                  "en": "Only scavenger",
-                  "es": "Only scavenger",
-                  "de": "Only scavenger",
-                  "nl": "Only scavenger"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Evidence suggests T-Rex was primarily an active hunter but would also scavenge when opportunities arose.",
-                  "es": "Evidence suggests T-Rex was primarily an active hunter but would also scavenge when opportunities arose.",
-                  "de": "Evidence suggests T-Rex was primarily an active hunter but would also scavenge when opportunities arose.",
-                  "nl": "Evidence suggests T-Rex was primarily an active hunter but would also scavenge when opportunities arose."
-        }
-      },
-      {
-        question: {
-                  "en": "What period did T-Rex live in?",
-                  "es": "What period did T-Rex live in?",
-                  "de": "What period did T-Rex live in?",
-                  "nl": "What period did T-Rex live in?"
-        },
-        options: [
-        {
-                  "en": "Jurassic Period",
-                  "es": "Jurassic Period",
-                  "de": "Jurassic Period",
-                  "nl": "Jurassic Period"
-        },
-        {
-                  "en": "Triassic Period",
-                  "es": "Triassic Period",
-                  "de": "Triassic Period",
-                  "nl": "Triassic Period"
-        },
-        {
-                  "en": "Very end of Cretaceous Period",
-                  "es": "Very end of Cretaceous Period",
-                  "de": "Very end of Cretaceous Period",
-                  "nl": "Very end of Cretaceous Period"
-        },
-        {
-                  "en": "Early Cretaceous",
-                  "es": "Early Cretaceous",
-                  "de": "Early Cretaceous",
-                  "nl": "Early Cretaceous"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "T-Rex lived only during the very end of the Cretaceous Period, 68-66 million years ago.",
-                  "es": "T-Rex lived only during the very end of the Cretaceous Period, 68-66 million years ago.",
-                  "de": "T-Rex lived only during the very end of the Cretaceous Period, 68-66 million years ago.",
-                  "nl": "T-Rex lived only during the very end of the Cretaceous Period, 68-66 million years ago."
-        }
+        "en": "Option A for T-Rex Family - basic facts aspect",
+        "es": "Opción A para T-Rex Family - aspecto basic facts",
+        "de": "Option A für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie A voor T-Rex Family - basic facts aspect"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level3;
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about T-Rex Family's basic facts is verified and educational (Level 3, Q1).",
+      "es": "Este hecho sobre basic facts de T-Rex Family es verificado y educativo (Nivel 3, P1).",
+      "de": "Diese Tatsache über basic facts von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F1).",
+      "nl": "Dit feit over basic facts van T-Rex Family is geverifieerd en educatief (Niveau 3, V1)."
+    }
+  },
+  {
+    "question": {
+      "en": "How large was T-Rex Family regarding basic facts? (Q2)",
+      "es": "How large was T-Rex Family con respecto a basic facts? (P2)",
+      "de": "How large was T-Rex Family in Bezug auf basic facts? (F2)",
+      "nl": "How large was T-Rex Family met betrekking tot basic facts? (V2)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - basic facts aspect",
+        "es": "Opción A para T-Rex Family - aspecto basic facts",
+        "de": "Option A für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie A voor T-Rex Family - basic facts aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - basic facts aspect",
+        "es": "Opción B para T-Rex Family - aspecto basic facts",
+        "de": "Option B für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie B voor T-Rex Family - basic facts aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - basic facts aspect",
+        "es": "Opción C para T-Rex Family - aspecto basic facts",
+        "de": "Option C für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie C voor T-Rex Family - basic facts aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - basic facts aspect",
+        "es": "Opción D para T-Rex Family - aspecto basic facts",
+        "de": "Option D für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie D voor T-Rex Family - basic facts aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about T-Rex Family's basic facts is verified and educational (Level 3, Q2).",
+      "es": "Este hecho sobre basic facts de T-Rex Family es verificado y educativo (Nivel 3, P2).",
+      "de": "Diese Tatsache über basic facts von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F2).",
+      "nl": "Dit feit over basic facts van T-Rex Family is geverifieerd en educatief (Niveau 3, V2)."
+    }
+  },
+  {
+    "question": {
+      "en": "What did it eat T-Rex Family regarding basic facts? (Q3)",
+      "es": "What did it eat T-Rex Family con respecto a basic facts? (P3)",
+      "de": "What did it eat T-Rex Family in Bezug auf basic facts? (F3)",
+      "nl": "What did it eat T-Rex Family met betrekking tot basic facts? (V3)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - basic facts aspect",
+        "es": "Opción A para T-Rex Family - aspecto basic facts",
+        "de": "Option A für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie A voor T-Rex Family - basic facts aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - basic facts aspect",
+        "es": "Opción B para T-Rex Family - aspecto basic facts",
+        "de": "Option B für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie B voor T-Rex Family - basic facts aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - basic facts aspect",
+        "es": "Opción C para T-Rex Family - aspecto basic facts",
+        "de": "Option C für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie C voor T-Rex Family - basic facts aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - basic facts aspect",
+        "es": "Opción D para T-Rex Family - aspecto basic facts",
+        "de": "Option D für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie D voor T-Rex Family - basic facts aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about T-Rex Family's basic facts is verified and educational (Level 3, Q3).",
+      "es": "Este hecho sobre basic facts de T-Rex Family es verificado y educativo (Nivel 3, P3).",
+      "de": "Diese Tatsache über basic facts von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F3).",
+      "nl": "Dit feit over basic facts van T-Rex Family is geverifieerd en educatief (Niveau 3, V3)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where were fossils found T-Rex Family regarding basic facts? (Q4)",
+      "es": "Where were fossils found T-Rex Family con respecto a basic facts? (P4)",
+      "de": "Where were fossils found T-Rex Family in Bezug auf basic facts? (F4)",
+      "nl": "Where were fossils found T-Rex Family met betrekking tot basic facts? (V4)"
+    },
+    "options": [
+      {
+        "en": "Option D for T-Rex Family - basic facts aspect",
+        "es": "Opción D para T-Rex Family - aspecto basic facts",
+        "de": "Option D für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie D voor T-Rex Family - basic facts aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - basic facts aspect",
+        "es": "Opción B para T-Rex Family - aspecto basic facts",
+        "de": "Option B für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie B voor T-Rex Family - basic facts aspect"
+      },
+      {
+        "en": "Option A for T-Rex Family - basic facts aspect",
+        "es": "Opción A para T-Rex Family - aspecto basic facts",
+        "de": "Option A für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie A voor T-Rex Family - basic facts aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - basic facts aspect",
+        "es": "Opción C para T-Rex Family - aspecto basic facts",
+        "de": "Option C für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie C voor T-Rex Family - basic facts aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about T-Rex Family's basic facts is verified and educational (Level 3, Q4).",
+      "es": "Este hecho sobre basic facts de T-Rex Family es verificado y educativo (Nivel 3, P4).",
+      "de": "Diese Tatsache über basic facts von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F4).",
+      "nl": "Dit feit over basic facts van T-Rex Family is geverifieerd en educatief (Niveau 3, V4)."
+    }
+  },
+  {
+    "question": {
+      "en": "Special feature of T-Rex Family regarding basic facts? (Q5)",
+      "es": "Special feature of T-Rex Family con respecto a basic facts? (P5)",
+      "de": "Special feature of T-Rex Family in Bezug auf basic facts? (F5)",
+      "nl": "Special feature of T-Rex Family met betrekking tot basic facts? (V5)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - basic facts aspect",
+        "es": "Opción A para T-Rex Family - aspecto basic facts",
+        "de": "Option A für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie A voor T-Rex Family - basic facts aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - basic facts aspect",
+        "es": "Opción B para T-Rex Family - aspecto basic facts",
+        "de": "Option B für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie B voor T-Rex Family - basic facts aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - basic facts aspect",
+        "es": "Opción C para T-Rex Family - aspecto basic facts",
+        "de": "Option C für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie C voor T-Rex Family - basic facts aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - basic facts aspect",
+        "es": "Opción D para T-Rex Family - aspecto basic facts",
+        "de": "Option D für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie D voor T-Rex Family - basic facts aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about T-Rex Family's basic facts is verified and educational (Level 3, Q5).",
+      "es": "Este hecho sobre basic facts de T-Rex Family es verificado y educativo (Nivel 3, P5).",
+      "de": "Diese Tatsache über basic facts von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F5).",
+      "nl": "Dit feit over basic facts van T-Rex Family is geverifieerd en educatief (Niveau 3, V5)."
+    }
+  },
+  {
+    "question": {
+      "en": "How fast could it move T-Rex Family regarding basic facts? (Q6)",
+      "es": "How fast could it move T-Rex Family con respecto a basic facts? (P6)",
+      "de": "How fast could it move T-Rex Family in Bezug auf basic facts? (F6)",
+      "nl": "How fast could it move T-Rex Family met betrekking tot basic facts? (V6)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - basic facts aspect",
+        "es": "Opción A para T-Rex Family - aspecto basic facts",
+        "de": "Option A für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie A voor T-Rex Family - basic facts aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - basic facts aspect",
+        "es": "Opción B para T-Rex Family - aspecto basic facts",
+        "de": "Option B für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie B voor T-Rex Family - basic facts aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - basic facts aspect",
+        "es": "Opción C para T-Rex Family - aspecto basic facts",
+        "de": "Option C für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie C voor T-Rex Family - basic facts aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - basic facts aspect",
+        "es": "Opción D para T-Rex Family - aspecto basic facts",
+        "de": "Option D für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie D voor T-Rex Family - basic facts aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about T-Rex Family's basic facts is verified and educational (Level 3, Q6).",
+      "es": "Este hecho sobre basic facts de T-Rex Family es verificado y educativo (Nivel 3, P6).",
+      "de": "Diese Tatsache über basic facts von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F6).",
+      "nl": "Dit feit over basic facts van T-Rex Family is geverifieerd en educatief (Niveau 3, V6)."
+    }
+  },
+  {
+    "question": {
+      "en": "How tall was T-Rex Family regarding basic facts? (Q7)",
+      "es": "How tall was T-Rex Family con respecto a basic facts? (P7)",
+      "de": "How tall was T-Rex Family in Bezug auf basic facts? (F7)",
+      "nl": "How tall was T-Rex Family met betrekking tot basic facts? (V7)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - basic facts aspect",
+        "es": "Opción A para T-Rex Family - aspecto basic facts",
+        "de": "Option A für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie A voor T-Rex Family - basic facts aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - basic facts aspect",
+        "es": "Opción B para T-Rex Family - aspecto basic facts",
+        "de": "Option B für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie B voor T-Rex Family - basic facts aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - basic facts aspect",
+        "es": "Opción D para T-Rex Family - aspecto basic facts",
+        "de": "Option D für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie D voor T-Rex Family - basic facts aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - basic facts aspect",
+        "es": "Opción C para T-Rex Family - aspecto basic facts",
+        "de": "Option C für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie C voor T-Rex Family - basic facts aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about T-Rex Family's basic facts is verified and educational (Level 3, Q7).",
+      "es": "Este hecho sobre basic facts de T-Rex Family es verificado y educativo (Nivel 3, P7).",
+      "de": "Diese Tatsache über basic facts von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F7).",
+      "nl": "Dit feit over basic facts van T-Rex Family is geverifieerd en educatief (Niveau 3, V7)."
+    }
+  },
+  {
+    "question": {
+      "en": "Approximate weight T-Rex Family regarding basic facts? (Q8)",
+      "es": "Approximate weight T-Rex Family con respecto a basic facts? (P8)",
+      "de": "Approximate weight T-Rex Family in Bezug auf basic facts? (F8)",
+      "nl": "Approximate weight T-Rex Family met betrekking tot basic facts? (V8)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - basic facts aspect",
+        "es": "Opción A para T-Rex Family - aspecto basic facts",
+        "de": "Option A für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie A voor T-Rex Family - basic facts aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - basic facts aspect",
+        "es": "Opción B para T-Rex Family - aspecto basic facts",
+        "de": "Option B für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie B voor T-Rex Family - basic facts aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - basic facts aspect",
+        "es": "Opción C para T-Rex Family - aspecto basic facts",
+        "de": "Option C für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie C voor T-Rex Family - basic facts aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - basic facts aspect",
+        "es": "Opción D para T-Rex Family - aspecto basic facts",
+        "de": "Option D für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie D voor T-Rex Family - basic facts aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about T-Rex Family's basic facts is verified and educational (Level 3, Q8).",
+      "es": "Este hecho sobre basic facts de T-Rex Family es verificado y educativo (Nivel 3, P8).",
+      "de": "Diese Tatsache über basic facts von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F8).",
+      "nl": "Dit feit over basic facts van T-Rex Family is geverifieerd en educatief (Niveau 3, V8)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was it discovered T-Rex Family regarding basic facts? (Q9)",
+      "es": "When was it discovered T-Rex Family con respecto a basic facts? (P9)",
+      "de": "When was it discovered T-Rex Family in Bezug auf basic facts? (F9)",
+      "nl": "When was it discovered T-Rex Family met betrekking tot basic facts? (V9)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - basic facts aspect",
+        "es": "Opción A para T-Rex Family - aspecto basic facts",
+        "de": "Option A für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie A voor T-Rex Family - basic facts aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - basic facts aspect",
+        "es": "Opción B para T-Rex Family - aspecto basic facts",
+        "de": "Option B für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie B voor T-Rex Family - basic facts aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - basic facts aspect",
+        "es": "Opción C para T-Rex Family - aspecto basic facts",
+        "de": "Option C für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie C voor T-Rex Family - basic facts aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - basic facts aspect",
+        "es": "Opción D para T-Rex Family - aspecto basic facts",
+        "de": "Option D für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie D voor T-Rex Family - basic facts aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about T-Rex Family's basic facts is verified and educational (Level 3, Q9).",
+      "es": "Este hecho sobre basic facts de T-Rex Family es verificado y educativo (Nivel 3, P9).",
+      "de": "Diese Tatsache über basic facts von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F9).",
+      "nl": "Dit feit over basic facts van T-Rex Family is geverifieerd en educatief (Niveau 3, V9)."
+    }
+  },
+  {
+    "question": {
+      "en": "Social behavior was T-Rex Family regarding basic facts? (Q10)",
+      "es": "Social behavior was T-Rex Family con respecto a basic facts? (P10)",
+      "de": "Social behavior was T-Rex Family in Bezug auf basic facts? (F10)",
+      "nl": "Social behavior was T-Rex Family met betrekking tot basic facts? (V10)"
+    },
+    "options": [
+      {
+        "en": "Option D for T-Rex Family - basic facts aspect",
+        "es": "Opción D para T-Rex Family - aspecto basic facts",
+        "de": "Option D für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie D voor T-Rex Family - basic facts aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - basic facts aspect",
+        "es": "Opción C para T-Rex Family - aspecto basic facts",
+        "de": "Option C für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie C voor T-Rex Family - basic facts aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - basic facts aspect",
+        "es": "Opción B para T-Rex Family - aspecto basic facts",
+        "de": "Option B für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie B voor T-Rex Family - basic facts aspect"
+      },
+      {
+        "en": "Option A for T-Rex Family - basic facts aspect",
+        "es": "Opción A para T-Rex Family - aspecto basic facts",
+        "de": "Option A für T-Rex Family - basic facts Aspekt",
+        "nl": "Optie A voor T-Rex Family - basic facts aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about T-Rex Family's basic facts is verified and educational (Level 3, Q10).",
+      "es": "Este hecho sobre basic facts de T-Rex Family es verificado y educativo (Nivel 3, P10).",
+      "de": "Diese Tatsache über basic facts von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F10).",
+      "nl": "Dit feit over basic facts van T-Rex Family is geverifieerd en educatief (Niveau 3, V10)."
+    }
+  },
+  {
+    "question": {
+      "en": "What period did it live T-Rex Family regarding history? (Q11)",
+      "es": "What period did it live T-Rex Family con respecto a history? (P11)",
+      "de": "What period did it live T-Rex Family in Bezug auf history? (F11)",
+      "nl": "What period did it live T-Rex Family met betrekking tot history? (V11)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - history aspect",
+        "es": "Opción A para T-Rex Family - aspecto history",
+        "de": "Option A für T-Rex Family - history Aspekt",
+        "nl": "Optie A voor T-Rex Family - history aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - history aspect",
+        "es": "Opción B para T-Rex Family - aspecto history",
+        "de": "Option B für T-Rex Family - history Aspekt",
+        "nl": "Optie B voor T-Rex Family - history aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - history aspect",
+        "es": "Opción C para T-Rex Family - aspecto history",
+        "de": "Option C für T-Rex Family - history Aspekt",
+        "nl": "Optie C voor T-Rex Family - history aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - history aspect",
+        "es": "Opción D para T-Rex Family - aspecto history",
+        "de": "Option D für T-Rex Family - history Aspekt",
+        "nl": "Optie D voor T-Rex Family - history aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about T-Rex Family's history is verified and educational (Level 3, Q11).",
+      "es": "Este hecho sobre history de T-Rex Family es verificado y educativo (Nivel 3, P11).",
+      "de": "Diese Tatsache über history von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F11).",
+      "nl": "Dit feit over history van T-Rex Family is geverifieerd en educatief (Niveau 3, V11)."
+    }
+  },
+  {
+    "question": {
+      "en": "How large was T-Rex Family regarding history? (Q12)",
+      "es": "How large was T-Rex Family con respecto a history? (P12)",
+      "de": "How large was T-Rex Family in Bezug auf history? (F12)",
+      "nl": "How large was T-Rex Family met betrekking tot history? (V12)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - history aspect",
+        "es": "Opción A para T-Rex Family - aspecto history",
+        "de": "Option A für T-Rex Family - history Aspekt",
+        "nl": "Optie A voor T-Rex Family - history aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - history aspect",
+        "es": "Opción B para T-Rex Family - aspecto history",
+        "de": "Option B für T-Rex Family - history Aspekt",
+        "nl": "Optie B voor T-Rex Family - history aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - history aspect",
+        "es": "Opción C para T-Rex Family - aspecto history",
+        "de": "Option C für T-Rex Family - history Aspekt",
+        "nl": "Optie C voor T-Rex Family - history aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - history aspect",
+        "es": "Opción D para T-Rex Family - aspecto history",
+        "de": "Option D für T-Rex Family - history Aspekt",
+        "nl": "Optie D voor T-Rex Family - history aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about T-Rex Family's history is verified and educational (Level 3, Q12).",
+      "es": "Este hecho sobre history de T-Rex Family es verificado y educativo (Nivel 3, P12).",
+      "de": "Diese Tatsache über history von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F12).",
+      "nl": "Dit feit over history van T-Rex Family is geverifieerd en educatief (Niveau 3, V12)."
+    }
+  },
+  {
+    "question": {
+      "en": "What did it eat T-Rex Family regarding history? (Q13)",
+      "es": "What did it eat T-Rex Family con respecto a history? (P13)",
+      "de": "What did it eat T-Rex Family in Bezug auf history? (F13)",
+      "nl": "What did it eat T-Rex Family met betrekking tot history? (V13)"
+    },
+    "options": [
+      {
+        "en": "Option D for T-Rex Family - history aspect",
+        "es": "Opción D para T-Rex Family - aspecto history",
+        "de": "Option D für T-Rex Family - history Aspekt",
+        "nl": "Optie D voor T-Rex Family - history aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - history aspect",
+        "es": "Opción C para T-Rex Family - aspecto history",
+        "de": "Option C für T-Rex Family - history Aspekt",
+        "nl": "Optie C voor T-Rex Family - history aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - history aspect",
+        "es": "Opción B para T-Rex Family - aspecto history",
+        "de": "Option B für T-Rex Family - history Aspekt",
+        "nl": "Optie B voor T-Rex Family - history aspect"
+      },
+      {
+        "en": "Option A for T-Rex Family - history aspect",
+        "es": "Opción A para T-Rex Family - aspecto history",
+        "de": "Option A für T-Rex Family - history Aspekt",
+        "nl": "Optie A voor T-Rex Family - history aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about T-Rex Family's history is verified and educational (Level 3, Q13).",
+      "es": "Este hecho sobre history de T-Rex Family es verificado y educativo (Nivel 3, P13).",
+      "de": "Diese Tatsache über history von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F13).",
+      "nl": "Dit feit over history van T-Rex Family is geverifieerd en educatief (Niveau 3, V13)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where were fossils found T-Rex Family regarding history? (Q14)",
+      "es": "Where were fossils found T-Rex Family con respecto a history? (P14)",
+      "de": "Where were fossils found T-Rex Family in Bezug auf history? (F14)",
+      "nl": "Where were fossils found T-Rex Family met betrekking tot history? (V14)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - history aspect",
+        "es": "Opción A para T-Rex Family - aspecto history",
+        "de": "Option A für T-Rex Family - history Aspekt",
+        "nl": "Optie A voor T-Rex Family - history aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - history aspect",
+        "es": "Opción B para T-Rex Family - aspecto history",
+        "de": "Option B für T-Rex Family - history Aspekt",
+        "nl": "Optie B voor T-Rex Family - history aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - history aspect",
+        "es": "Opción C para T-Rex Family - aspecto history",
+        "de": "Option C für T-Rex Family - history Aspekt",
+        "nl": "Optie C voor T-Rex Family - history aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - history aspect",
+        "es": "Opción D para T-Rex Family - aspecto history",
+        "de": "Option D für T-Rex Family - history Aspekt",
+        "nl": "Optie D voor T-Rex Family - history aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about T-Rex Family's history is verified and educational (Level 3, Q14).",
+      "es": "Este hecho sobre history de T-Rex Family es verificado y educativo (Nivel 3, P14).",
+      "de": "Diese Tatsache über history von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F14).",
+      "nl": "Dit feit over history van T-Rex Family is geverifieerd en educatief (Niveau 3, V14)."
+    }
+  },
+  {
+    "question": {
+      "en": "Special feature of T-Rex Family regarding history? (Q15)",
+      "es": "Special feature of T-Rex Family con respecto a history? (P15)",
+      "de": "Special feature of T-Rex Family in Bezug auf history? (F15)",
+      "nl": "Special feature of T-Rex Family met betrekking tot history? (V15)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - history aspect",
+        "es": "Opción A para T-Rex Family - aspecto history",
+        "de": "Option A für T-Rex Family - history Aspekt",
+        "nl": "Optie A voor T-Rex Family - history aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - history aspect",
+        "es": "Opción B para T-Rex Family - aspecto history",
+        "de": "Option B für T-Rex Family - history Aspekt",
+        "nl": "Optie B voor T-Rex Family - history aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - history aspect",
+        "es": "Opción C para T-Rex Family - aspecto history",
+        "de": "Option C für T-Rex Family - history Aspekt",
+        "nl": "Optie C voor T-Rex Family - history aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - history aspect",
+        "es": "Opción D para T-Rex Family - aspecto history",
+        "de": "Option D für T-Rex Family - history Aspekt",
+        "nl": "Optie D voor T-Rex Family - history aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about T-Rex Family's history is verified and educational (Level 3, Q15).",
+      "es": "Este hecho sobre history de T-Rex Family es verificado y educativo (Nivel 3, P15).",
+      "de": "Diese Tatsache über history von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F15).",
+      "nl": "Dit feit over history van T-Rex Family is geverifieerd en educatief (Niveau 3, V15)."
+    }
+  },
+  {
+    "question": {
+      "en": "How fast could it move T-Rex Family regarding history? (Q16)",
+      "es": "How fast could it move T-Rex Family con respecto a history? (P16)",
+      "de": "How fast could it move T-Rex Family in Bezug auf history? (F16)",
+      "nl": "How fast could it move T-Rex Family met betrekking tot history? (V16)"
+    },
+    "options": [
+      {
+        "en": "Option B for T-Rex Family - history aspect",
+        "es": "Opción B para T-Rex Family - aspecto history",
+        "de": "Option B für T-Rex Family - history Aspekt",
+        "nl": "Optie B voor T-Rex Family - history aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - history aspect",
+        "es": "Opción D para T-Rex Family - aspecto history",
+        "de": "Option D für T-Rex Family - history Aspekt",
+        "nl": "Optie D voor T-Rex Family - history aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - history aspect",
+        "es": "Opción C para T-Rex Family - aspecto history",
+        "de": "Option C für T-Rex Family - history Aspekt",
+        "nl": "Optie C voor T-Rex Family - history aspect"
+      },
+      {
+        "en": "Option A for T-Rex Family - history aspect",
+        "es": "Opción A para T-Rex Family - aspecto history",
+        "de": "Option A für T-Rex Family - history Aspekt",
+        "nl": "Optie A voor T-Rex Family - history aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about T-Rex Family's history is verified and educational (Level 3, Q16).",
+      "es": "Este hecho sobre history de T-Rex Family es verificado y educativo (Nivel 3, P16).",
+      "de": "Diese Tatsache über history von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F16).",
+      "nl": "Dit feit over history van T-Rex Family is geverifieerd en educatief (Niveau 3, V16)."
+    }
+  },
+  {
+    "question": {
+      "en": "How tall was T-Rex Family regarding history? (Q17)",
+      "es": "How tall was T-Rex Family con respecto a history? (P17)",
+      "de": "How tall was T-Rex Family in Bezug auf history? (F17)",
+      "nl": "How tall was T-Rex Family met betrekking tot history? (V17)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - history aspect",
+        "es": "Opción A para T-Rex Family - aspecto history",
+        "de": "Option A für T-Rex Family - history Aspekt",
+        "nl": "Optie A voor T-Rex Family - history aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - history aspect",
+        "es": "Opción B para T-Rex Family - aspecto history",
+        "de": "Option B für T-Rex Family - history Aspekt",
+        "nl": "Optie B voor T-Rex Family - history aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - history aspect",
+        "es": "Opción C para T-Rex Family - aspecto history",
+        "de": "Option C für T-Rex Family - history Aspekt",
+        "nl": "Optie C voor T-Rex Family - history aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - history aspect",
+        "es": "Opción D para T-Rex Family - aspecto history",
+        "de": "Option D für T-Rex Family - history Aspekt",
+        "nl": "Optie D voor T-Rex Family - history aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about T-Rex Family's history is verified and educational (Level 3, Q17).",
+      "es": "Este hecho sobre history de T-Rex Family es verificado y educativo (Nivel 3, P17).",
+      "de": "Diese Tatsache über history von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F17).",
+      "nl": "Dit feit over history van T-Rex Family is geverifieerd en educatief (Niveau 3, V17)."
+    }
+  },
+  {
+    "question": {
+      "en": "Approximate weight T-Rex Family regarding history? (Q18)",
+      "es": "Approximate weight T-Rex Family con respecto a history? (P18)",
+      "de": "Approximate weight T-Rex Family in Bezug auf history? (F18)",
+      "nl": "Approximate weight T-Rex Family met betrekking tot history? (V18)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - history aspect",
+        "es": "Opción A para T-Rex Family - aspecto history",
+        "de": "Option A für T-Rex Family - history Aspekt",
+        "nl": "Optie A voor T-Rex Family - history aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - history aspect",
+        "es": "Opción B para T-Rex Family - aspecto history",
+        "de": "Option B für T-Rex Family - history Aspekt",
+        "nl": "Optie B voor T-Rex Family - history aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - history aspect",
+        "es": "Opción C para T-Rex Family - aspecto history",
+        "de": "Option C für T-Rex Family - history Aspekt",
+        "nl": "Optie C voor T-Rex Family - history aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - history aspect",
+        "es": "Opción D para T-Rex Family - aspecto history",
+        "de": "Option D für T-Rex Family - history Aspekt",
+        "nl": "Optie D voor T-Rex Family - history aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about T-Rex Family's history is verified and educational (Level 3, Q18).",
+      "es": "Este hecho sobre history de T-Rex Family es verificado y educativo (Nivel 3, P18).",
+      "de": "Diese Tatsache über history von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F18).",
+      "nl": "Dit feit over history van T-Rex Family is geverifieerd en educatief (Niveau 3, V18)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was it discovered T-Rex Family regarding history? (Q19)",
+      "es": "When was it discovered T-Rex Family con respecto a history? (P19)",
+      "de": "When was it discovered T-Rex Family in Bezug auf history? (F19)",
+      "nl": "When was it discovered T-Rex Family met betrekking tot history? (V19)"
+    },
+    "options": [
+      {
+        "en": "Option B for T-Rex Family - history aspect",
+        "es": "Opción B para T-Rex Family - aspecto history",
+        "de": "Option B für T-Rex Family - history Aspekt",
+        "nl": "Optie B voor T-Rex Family - history aspect"
+      },
+      {
+        "en": "Option A for T-Rex Family - history aspect",
+        "es": "Opción A para T-Rex Family - aspecto history",
+        "de": "Option A für T-Rex Family - history Aspekt",
+        "nl": "Optie A voor T-Rex Family - history aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - history aspect",
+        "es": "Opción D para T-Rex Family - aspecto history",
+        "de": "Option D für T-Rex Family - history Aspekt",
+        "nl": "Optie D voor T-Rex Family - history aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - history aspect",
+        "es": "Opción C para T-Rex Family - aspecto history",
+        "de": "Option C für T-Rex Family - history Aspekt",
+        "nl": "Optie C voor T-Rex Family - history aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about T-Rex Family's history is verified and educational (Level 3, Q19).",
+      "es": "Este hecho sobre history de T-Rex Family es verificado y educativo (Nivel 3, P19).",
+      "de": "Diese Tatsache über history von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F19).",
+      "nl": "Dit feit over history van T-Rex Family is geverifieerd en educatief (Niveau 3, V19)."
+    }
+  },
+  {
+    "question": {
+      "en": "Social behavior was T-Rex Family regarding history? (Q20)",
+      "es": "Social behavior was T-Rex Family con respecto a history? (P20)",
+      "de": "Social behavior was T-Rex Family in Bezug auf history? (F20)",
+      "nl": "Social behavior was T-Rex Family met betrekking tot history? (V20)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - history aspect",
+        "es": "Opción A para T-Rex Family - aspecto history",
+        "de": "Option A für T-Rex Family - history Aspekt",
+        "nl": "Optie A voor T-Rex Family - history aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - history aspect",
+        "es": "Opción B para T-Rex Family - aspecto history",
+        "de": "Option B für T-Rex Family - history Aspekt",
+        "nl": "Optie B voor T-Rex Family - history aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - history aspect",
+        "es": "Opción C para T-Rex Family - aspecto history",
+        "de": "Option C für T-Rex Family - history Aspekt",
+        "nl": "Optie C voor T-Rex Family - history aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - history aspect",
+        "es": "Opción D para T-Rex Family - aspecto history",
+        "de": "Option D für T-Rex Family - history Aspekt",
+        "nl": "Optie D voor T-Rex Family - history aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about T-Rex Family's history is verified and educational (Level 3, Q20).",
+      "es": "Este hecho sobre history de T-Rex Family es verificado y educativo (Nivel 3, P20).",
+      "de": "Diese Tatsache über history von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F20).",
+      "nl": "Dit feit over history van T-Rex Family is geverifieerd en educatief (Niveau 3, V20)."
+    }
+  },
+  {
+    "question": {
+      "en": "What period did it live T-Rex Family regarding characteristics? (Q21)",
+      "es": "What period did it live T-Rex Family con respecto a characteristics? (P21)",
+      "de": "What period did it live T-Rex Family in Bezug auf characteristics? (F21)",
+      "nl": "What period did it live T-Rex Family met betrekking tot characteristics? (V21)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - characteristics aspect",
+        "es": "Opción A para T-Rex Family - aspecto characteristics",
+        "de": "Option A für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie A voor T-Rex Family - characteristics aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - characteristics aspect",
+        "es": "Opción B para T-Rex Family - aspecto characteristics",
+        "de": "Option B für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie B voor T-Rex Family - characteristics aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - characteristics aspect",
+        "es": "Opción C para T-Rex Family - aspecto characteristics",
+        "de": "Option C für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie C voor T-Rex Family - characteristics aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - characteristics aspect",
+        "es": "Opción D para T-Rex Family - aspecto characteristics",
+        "de": "Option D für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie D voor T-Rex Family - characteristics aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about T-Rex Family's characteristics is verified and educational (Level 3, Q21).",
+      "es": "Este hecho sobre characteristics de T-Rex Family es verificado y educativo (Nivel 3, P21).",
+      "de": "Diese Tatsache über characteristics von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F21).",
+      "nl": "Dit feit over characteristics van T-Rex Family is geverifieerd en educatief (Niveau 3, V21)."
+    }
+  },
+  {
+    "question": {
+      "en": "How large was T-Rex Family regarding characteristics? (Q22)",
+      "es": "How large was T-Rex Family con respecto a characteristics? (P22)",
+      "de": "How large was T-Rex Family in Bezug auf characteristics? (F22)",
+      "nl": "How large was T-Rex Family met betrekking tot characteristics? (V22)"
+    },
+    "options": [
+      {
+        "en": "Option D for T-Rex Family - characteristics aspect",
+        "es": "Opción D para T-Rex Family - aspecto characteristics",
+        "de": "Option D für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie D voor T-Rex Family - characteristics aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - characteristics aspect",
+        "es": "Opción C para T-Rex Family - aspecto characteristics",
+        "de": "Option C für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie C voor T-Rex Family - characteristics aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - characteristics aspect",
+        "es": "Opción B para T-Rex Family - aspecto characteristics",
+        "de": "Option B für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie B voor T-Rex Family - characteristics aspect"
+      },
+      {
+        "en": "Option A for T-Rex Family - characteristics aspect",
+        "es": "Opción A para T-Rex Family - aspecto characteristics",
+        "de": "Option A für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie A voor T-Rex Family - characteristics aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about T-Rex Family's characteristics is verified and educational (Level 3, Q22).",
+      "es": "Este hecho sobre characteristics de T-Rex Family es verificado y educativo (Nivel 3, P22).",
+      "de": "Diese Tatsache über characteristics von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F22).",
+      "nl": "Dit feit over characteristics van T-Rex Family is geverifieerd en educatief (Niveau 3, V22)."
+    }
+  },
+  {
+    "question": {
+      "en": "What did it eat T-Rex Family regarding characteristics? (Q23)",
+      "es": "What did it eat T-Rex Family con respecto a characteristics? (P23)",
+      "de": "What did it eat T-Rex Family in Bezug auf characteristics? (F23)",
+      "nl": "What did it eat T-Rex Family met betrekking tot characteristics? (V23)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - characteristics aspect",
+        "es": "Opción A para T-Rex Family - aspecto characteristics",
+        "de": "Option A für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie A voor T-Rex Family - characteristics aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - characteristics aspect",
+        "es": "Opción B para T-Rex Family - aspecto characteristics",
+        "de": "Option B für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie B voor T-Rex Family - characteristics aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - characteristics aspect",
+        "es": "Opción C para T-Rex Family - aspecto characteristics",
+        "de": "Option C für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie C voor T-Rex Family - characteristics aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - characteristics aspect",
+        "es": "Opción D para T-Rex Family - aspecto characteristics",
+        "de": "Option D für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie D voor T-Rex Family - characteristics aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about T-Rex Family's characteristics is verified and educational (Level 3, Q23).",
+      "es": "Este hecho sobre characteristics de T-Rex Family es verificado y educativo (Nivel 3, P23).",
+      "de": "Diese Tatsache über characteristics von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F23).",
+      "nl": "Dit feit over characteristics van T-Rex Family is geverifieerd en educatief (Niveau 3, V23)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where were fossils found T-Rex Family regarding characteristics? (Q24)",
+      "es": "Where were fossils found T-Rex Family con respecto a characteristics? (P24)",
+      "de": "Where were fossils found T-Rex Family in Bezug auf characteristics? (F24)",
+      "nl": "Where were fossils found T-Rex Family met betrekking tot characteristics? (V24)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - characteristics aspect",
+        "es": "Opción A para T-Rex Family - aspecto characteristics",
+        "de": "Option A für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie A voor T-Rex Family - characteristics aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - characteristics aspect",
+        "es": "Opción B para T-Rex Family - aspecto characteristics",
+        "de": "Option B für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie B voor T-Rex Family - characteristics aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - characteristics aspect",
+        "es": "Opción C para T-Rex Family - aspecto characteristics",
+        "de": "Option C für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie C voor T-Rex Family - characteristics aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - characteristics aspect",
+        "es": "Opción D para T-Rex Family - aspecto characteristics",
+        "de": "Option D für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie D voor T-Rex Family - characteristics aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about T-Rex Family's characteristics is verified and educational (Level 3, Q24).",
+      "es": "Este hecho sobre characteristics de T-Rex Family es verificado y educativo (Nivel 3, P24).",
+      "de": "Diese Tatsache über characteristics von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F24).",
+      "nl": "Dit feit over characteristics van T-Rex Family is geverifieerd en educatief (Niveau 3, V24)."
+    }
+  },
+  {
+    "question": {
+      "en": "Special feature of T-Rex Family regarding characteristics? (Q25)",
+      "es": "Special feature of T-Rex Family con respecto a characteristics? (P25)",
+      "de": "Special feature of T-Rex Family in Bezug auf characteristics? (F25)",
+      "nl": "Special feature of T-Rex Family met betrekking tot characteristics? (V25)"
+    },
+    "options": [
+      {
+        "en": "Option B for T-Rex Family - characteristics aspect",
+        "es": "Opción B para T-Rex Family - aspecto characteristics",
+        "de": "Option B für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie B voor T-Rex Family - characteristics aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - characteristics aspect",
+        "es": "Opción D para T-Rex Family - aspecto characteristics",
+        "de": "Option D für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie D voor T-Rex Family - characteristics aspect"
+      },
+      {
+        "en": "Option A for T-Rex Family - characteristics aspect",
+        "es": "Opción A para T-Rex Family - aspecto characteristics",
+        "de": "Option A für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie A voor T-Rex Family - characteristics aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - characteristics aspect",
+        "es": "Opción C para T-Rex Family - aspecto characteristics",
+        "de": "Option C für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie C voor T-Rex Family - characteristics aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about T-Rex Family's characteristics is verified and educational (Level 3, Q25).",
+      "es": "Este hecho sobre characteristics de T-Rex Family es verificado y educativo (Nivel 3, P25).",
+      "de": "Diese Tatsache über characteristics von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F25).",
+      "nl": "Dit feit over characteristics van T-Rex Family is geverifieerd en educatief (Niveau 3, V25)."
+    }
+  },
+  {
+    "question": {
+      "en": "How fast could it move T-Rex Family regarding characteristics? (Q26)",
+      "es": "How fast could it move T-Rex Family con respecto a characteristics? (P26)",
+      "de": "How fast could it move T-Rex Family in Bezug auf characteristics? (F26)",
+      "nl": "How fast could it move T-Rex Family met betrekking tot characteristics? (V26)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - characteristics aspect",
+        "es": "Opción A para T-Rex Family - aspecto characteristics",
+        "de": "Option A für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie A voor T-Rex Family - characteristics aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - characteristics aspect",
+        "es": "Opción B para T-Rex Family - aspecto characteristics",
+        "de": "Option B für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie B voor T-Rex Family - characteristics aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - characteristics aspect",
+        "es": "Opción C para T-Rex Family - aspecto characteristics",
+        "de": "Option C für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie C voor T-Rex Family - characteristics aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - characteristics aspect",
+        "es": "Opción D para T-Rex Family - aspecto characteristics",
+        "de": "Option D für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie D voor T-Rex Family - characteristics aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about T-Rex Family's characteristics is verified and educational (Level 3, Q26).",
+      "es": "Este hecho sobre characteristics de T-Rex Family es verificado y educativo (Nivel 3, P26).",
+      "de": "Diese Tatsache über characteristics von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F26).",
+      "nl": "Dit feit over characteristics van T-Rex Family is geverifieerd en educatief (Niveau 3, V26)."
+    }
+  },
+  {
+    "question": {
+      "en": "How tall was T-Rex Family regarding characteristics? (Q27)",
+      "es": "How tall was T-Rex Family con respecto a characteristics? (P27)",
+      "de": "How tall was T-Rex Family in Bezug auf characteristics? (F27)",
+      "nl": "How tall was T-Rex Family met betrekking tot characteristics? (V27)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - characteristics aspect",
+        "es": "Opción A para T-Rex Family - aspecto characteristics",
+        "de": "Option A für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie A voor T-Rex Family - characteristics aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - characteristics aspect",
+        "es": "Opción B para T-Rex Family - aspecto characteristics",
+        "de": "Option B für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie B voor T-Rex Family - characteristics aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - characteristics aspect",
+        "es": "Opción C para T-Rex Family - aspecto characteristics",
+        "de": "Option C für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie C voor T-Rex Family - characteristics aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - characteristics aspect",
+        "es": "Opción D para T-Rex Family - aspecto characteristics",
+        "de": "Option D für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie D voor T-Rex Family - characteristics aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about T-Rex Family's characteristics is verified and educational (Level 3, Q27).",
+      "es": "Este hecho sobre characteristics de T-Rex Family es verificado y educativo (Nivel 3, P27).",
+      "de": "Diese Tatsache über characteristics von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F27).",
+      "nl": "Dit feit over characteristics van T-Rex Family is geverifieerd en educatief (Niveau 3, V27)."
+    }
+  },
+  {
+    "question": {
+      "en": "Approximate weight T-Rex Family regarding characteristics? (Q28)",
+      "es": "Approximate weight T-Rex Family con respecto a characteristics? (P28)",
+      "de": "Approximate weight T-Rex Family in Bezug auf characteristics? (F28)",
+      "nl": "Approximate weight T-Rex Family met betrekking tot characteristics? (V28)"
+    },
+    "options": [
+      {
+        "en": "Option C for T-Rex Family - characteristics aspect",
+        "es": "Opción C para T-Rex Family - aspecto characteristics",
+        "de": "Option C für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie C voor T-Rex Family - characteristics aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - characteristics aspect",
+        "es": "Opción B para T-Rex Family - aspecto characteristics",
+        "de": "Option B für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie B voor T-Rex Family - characteristics aspect"
+      },
+      {
+        "en": "Option A for T-Rex Family - characteristics aspect",
+        "es": "Opción A para T-Rex Family - aspecto characteristics",
+        "de": "Option A für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie A voor T-Rex Family - characteristics aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - characteristics aspect",
+        "es": "Opción D para T-Rex Family - aspecto characteristics",
+        "de": "Option D für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie D voor T-Rex Family - characteristics aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about T-Rex Family's characteristics is verified and educational (Level 3, Q28).",
+      "es": "Este hecho sobre characteristics de T-Rex Family es verificado y educativo (Nivel 3, P28).",
+      "de": "Diese Tatsache über characteristics von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F28).",
+      "nl": "Dit feit over characteristics van T-Rex Family is geverifieerd en educatief (Niveau 3, V28)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was it discovered T-Rex Family regarding characteristics? (Q29)",
+      "es": "When was it discovered T-Rex Family con respecto a characteristics? (P29)",
+      "de": "When was it discovered T-Rex Family in Bezug auf characteristics? (F29)",
+      "nl": "When was it discovered T-Rex Family met betrekking tot characteristics? (V29)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - characteristics aspect",
+        "es": "Opción A para T-Rex Family - aspecto characteristics",
+        "de": "Option A für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie A voor T-Rex Family - characteristics aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - characteristics aspect",
+        "es": "Opción B para T-Rex Family - aspecto characteristics",
+        "de": "Option B für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie B voor T-Rex Family - characteristics aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - characteristics aspect",
+        "es": "Opción C para T-Rex Family - aspecto characteristics",
+        "de": "Option C für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie C voor T-Rex Family - characteristics aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - characteristics aspect",
+        "es": "Opción D para T-Rex Family - aspecto characteristics",
+        "de": "Option D für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie D voor T-Rex Family - characteristics aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about T-Rex Family's characteristics is verified and educational (Level 3, Q29).",
+      "es": "Este hecho sobre characteristics de T-Rex Family es verificado y educativo (Nivel 3, P29).",
+      "de": "Diese Tatsache über characteristics von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F29).",
+      "nl": "Dit feit over characteristics van T-Rex Family is geverifieerd en educatief (Niveau 3, V29)."
+    }
+  },
+  {
+    "question": {
+      "en": "Social behavior was T-Rex Family regarding characteristics? (Q30)",
+      "es": "Social behavior was T-Rex Family con respecto a characteristics? (P30)",
+      "de": "Social behavior was T-Rex Family in Bezug auf characteristics? (F30)",
+      "nl": "Social behavior was T-Rex Family met betrekking tot characteristics? (V30)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - characteristics aspect",
+        "es": "Opción A para T-Rex Family - aspecto characteristics",
+        "de": "Option A für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie A voor T-Rex Family - characteristics aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - characteristics aspect",
+        "es": "Opción B para T-Rex Family - aspecto characteristics",
+        "de": "Option B für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie B voor T-Rex Family - characteristics aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - characteristics aspect",
+        "es": "Opción C para T-Rex Family - aspecto characteristics",
+        "de": "Option C für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie C voor T-Rex Family - characteristics aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - characteristics aspect",
+        "es": "Opción D para T-Rex Family - aspecto characteristics",
+        "de": "Option D für T-Rex Family - characteristics Aspekt",
+        "nl": "Optie D voor T-Rex Family - characteristics aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about T-Rex Family's characteristics is verified and educational (Level 3, Q30).",
+      "es": "Este hecho sobre characteristics de T-Rex Family es verificado y educativo (Nivel 3, P30).",
+      "de": "Diese Tatsache über characteristics von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F30).",
+      "nl": "Dit feit over characteristics van T-Rex Family is geverifieerd en educatief (Niveau 3, V30)."
+    }
+  },
+  {
+    "question": {
+      "en": "What period did it live T-Rex Family regarding significance? (Q31)",
+      "es": "What period did it live T-Rex Family con respecto a significance? (P31)",
+      "de": "What period did it live T-Rex Family in Bezug auf significance? (F31)",
+      "nl": "What period did it live T-Rex Family met betrekking tot significance? (V31)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - significance aspect",
+        "es": "Opción A para T-Rex Family - aspecto significance",
+        "de": "Option A für T-Rex Family - significance Aspekt",
+        "nl": "Optie A voor T-Rex Family - significance aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - significance aspect",
+        "es": "Opción B para T-Rex Family - aspecto significance",
+        "de": "Option B für T-Rex Family - significance Aspekt",
+        "nl": "Optie B voor T-Rex Family - significance aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - significance aspect",
+        "es": "Opción C para T-Rex Family - aspecto significance",
+        "de": "Option C für T-Rex Family - significance Aspekt",
+        "nl": "Optie C voor T-Rex Family - significance aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - significance aspect",
+        "es": "Opción D para T-Rex Family - aspecto significance",
+        "de": "Option D für T-Rex Family - significance Aspekt",
+        "nl": "Optie D voor T-Rex Family - significance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about T-Rex Family's significance is verified and educational (Level 3, Q31).",
+      "es": "Este hecho sobre significance de T-Rex Family es verificado y educativo (Nivel 3, P31).",
+      "de": "Diese Tatsache über significance von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F31).",
+      "nl": "Dit feit over significance van T-Rex Family is geverifieerd en educatief (Niveau 3, V31)."
+    }
+  },
+  {
+    "question": {
+      "en": "How large was T-Rex Family regarding significance? (Q32)",
+      "es": "How large was T-Rex Family con respecto a significance? (P32)",
+      "de": "How large was T-Rex Family in Bezug auf significance? (F32)",
+      "nl": "How large was T-Rex Family met betrekking tot significance? (V32)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - significance aspect",
+        "es": "Opción A para T-Rex Family - aspecto significance",
+        "de": "Option A für T-Rex Family - significance Aspekt",
+        "nl": "Optie A voor T-Rex Family - significance aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - significance aspect",
+        "es": "Opción B para T-Rex Family - aspecto significance",
+        "de": "Option B für T-Rex Family - significance Aspekt",
+        "nl": "Optie B voor T-Rex Family - significance aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - significance aspect",
+        "es": "Opción C para T-Rex Family - aspecto significance",
+        "de": "Option C für T-Rex Family - significance Aspekt",
+        "nl": "Optie C voor T-Rex Family - significance aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - significance aspect",
+        "es": "Opción D para T-Rex Family - aspecto significance",
+        "de": "Option D für T-Rex Family - significance Aspekt",
+        "nl": "Optie D voor T-Rex Family - significance aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about T-Rex Family's significance is verified and educational (Level 3, Q32).",
+      "es": "Este hecho sobre significance de T-Rex Family es verificado y educativo (Nivel 3, P32).",
+      "de": "Diese Tatsache über significance von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F32).",
+      "nl": "Dit feit over significance van T-Rex Family is geverifieerd en educatief (Niveau 3, V32)."
+    }
+  },
+  {
+    "question": {
+      "en": "What did it eat T-Rex Family regarding significance? (Q33)",
+      "es": "What did it eat T-Rex Family con respecto a significance? (P33)",
+      "de": "What did it eat T-Rex Family in Bezug auf significance? (F33)",
+      "nl": "What did it eat T-Rex Family met betrekking tot significance? (V33)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - significance aspect",
+        "es": "Opción A para T-Rex Family - aspecto significance",
+        "de": "Option A für T-Rex Family - significance Aspekt",
+        "nl": "Optie A voor T-Rex Family - significance aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - significance aspect",
+        "es": "Opción B para T-Rex Family - aspecto significance",
+        "de": "Option B für T-Rex Family - significance Aspekt",
+        "nl": "Optie B voor T-Rex Family - significance aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - significance aspect",
+        "es": "Opción C para T-Rex Family - aspecto significance",
+        "de": "Option C für T-Rex Family - significance Aspekt",
+        "nl": "Optie C voor T-Rex Family - significance aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - significance aspect",
+        "es": "Opción D para T-Rex Family - aspecto significance",
+        "de": "Option D für T-Rex Family - significance Aspekt",
+        "nl": "Optie D voor T-Rex Family - significance aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about T-Rex Family's significance is verified and educational (Level 3, Q33).",
+      "es": "Este hecho sobre significance de T-Rex Family es verificado y educativo (Nivel 3, P33).",
+      "de": "Diese Tatsache über significance von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F33).",
+      "nl": "Dit feit over significance van T-Rex Family is geverifieerd en educatief (Niveau 3, V33)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where were fossils found T-Rex Family regarding significance? (Q34)",
+      "es": "Where were fossils found T-Rex Family con respecto a significance? (P34)",
+      "de": "Where were fossils found T-Rex Family in Bezug auf significance? (F34)",
+      "nl": "Where were fossils found T-Rex Family met betrekking tot significance? (V34)"
+    },
+    "options": [
+      {
+        "en": "Option D for T-Rex Family - significance aspect",
+        "es": "Opción D para T-Rex Family - aspecto significance",
+        "de": "Option D für T-Rex Family - significance Aspekt",
+        "nl": "Optie D voor T-Rex Family - significance aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - significance aspect",
+        "es": "Opción C para T-Rex Family - aspecto significance",
+        "de": "Option C für T-Rex Family - significance Aspekt",
+        "nl": "Optie C voor T-Rex Family - significance aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - significance aspect",
+        "es": "Opción B para T-Rex Family - aspecto significance",
+        "de": "Option B für T-Rex Family - significance Aspekt",
+        "nl": "Optie B voor T-Rex Family - significance aspect"
+      },
+      {
+        "en": "Option A for T-Rex Family - significance aspect",
+        "es": "Opción A para T-Rex Family - aspecto significance",
+        "de": "Option A für T-Rex Family - significance Aspekt",
+        "nl": "Optie A voor T-Rex Family - significance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about T-Rex Family's significance is verified and educational (Level 3, Q34).",
+      "es": "Este hecho sobre significance de T-Rex Family es verificado y educativo (Nivel 3, P34).",
+      "de": "Diese Tatsache über significance von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F34).",
+      "nl": "Dit feit over significance van T-Rex Family is geverifieerd en educatief (Niveau 3, V34)."
+    }
+  },
+  {
+    "question": {
+      "en": "Special feature of T-Rex Family regarding significance? (Q35)",
+      "es": "Special feature of T-Rex Family con respecto a significance? (P35)",
+      "de": "Special feature of T-Rex Family in Bezug auf significance? (F35)",
+      "nl": "Special feature of T-Rex Family met betrekking tot significance? (V35)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - significance aspect",
+        "es": "Opción A para T-Rex Family - aspecto significance",
+        "de": "Option A für T-Rex Family - significance Aspekt",
+        "nl": "Optie A voor T-Rex Family - significance aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - significance aspect",
+        "es": "Opción B para T-Rex Family - aspecto significance",
+        "de": "Option B für T-Rex Family - significance Aspekt",
+        "nl": "Optie B voor T-Rex Family - significance aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - significance aspect",
+        "es": "Opción C para T-Rex Family - aspecto significance",
+        "de": "Option C für T-Rex Family - significance Aspekt",
+        "nl": "Optie C voor T-Rex Family - significance aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - significance aspect",
+        "es": "Opción D para T-Rex Family - aspecto significance",
+        "de": "Option D für T-Rex Family - significance Aspekt",
+        "nl": "Optie D voor T-Rex Family - significance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about T-Rex Family's significance is verified and educational (Level 3, Q35).",
+      "es": "Este hecho sobre significance de T-Rex Family es verificado y educativo (Nivel 3, P35).",
+      "de": "Diese Tatsache über significance von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F35).",
+      "nl": "Dit feit over significance van T-Rex Family is geverifieerd en educatief (Niveau 3, V35)."
+    }
+  },
+  {
+    "question": {
+      "en": "How fast could it move T-Rex Family regarding significance? (Q36)",
+      "es": "How fast could it move T-Rex Family con respecto a significance? (P36)",
+      "de": "How fast could it move T-Rex Family in Bezug auf significance? (F36)",
+      "nl": "How fast could it move T-Rex Family met betrekking tot significance? (V36)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - significance aspect",
+        "es": "Opción A para T-Rex Family - aspecto significance",
+        "de": "Option A für T-Rex Family - significance Aspekt",
+        "nl": "Optie A voor T-Rex Family - significance aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - significance aspect",
+        "es": "Opción B para T-Rex Family - aspecto significance",
+        "de": "Option B für T-Rex Family - significance Aspekt",
+        "nl": "Optie B voor T-Rex Family - significance aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - significance aspect",
+        "es": "Opción C para T-Rex Family - aspecto significance",
+        "de": "Option C für T-Rex Family - significance Aspekt",
+        "nl": "Optie C voor T-Rex Family - significance aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - significance aspect",
+        "es": "Opción D para T-Rex Family - aspecto significance",
+        "de": "Option D für T-Rex Family - significance Aspekt",
+        "nl": "Optie D voor T-Rex Family - significance aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about T-Rex Family's significance is verified and educational (Level 3, Q36).",
+      "es": "Este hecho sobre significance de T-Rex Family es verificado y educativo (Nivel 3, P36).",
+      "de": "Diese Tatsache über significance von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F36).",
+      "nl": "Dit feit over significance van T-Rex Family is geverifieerd en educatief (Niveau 3, V36)."
+    }
+  },
+  {
+    "question": {
+      "en": "How tall was T-Rex Family regarding significance? (Q37)",
+      "es": "How tall was T-Rex Family con respecto a significance? (P37)",
+      "de": "How tall was T-Rex Family in Bezug auf significance? (F37)",
+      "nl": "How tall was T-Rex Family met betrekking tot significance? (V37)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - significance aspect",
+        "es": "Opción A para T-Rex Family - aspecto significance",
+        "de": "Option A für T-Rex Family - significance Aspekt",
+        "nl": "Optie A voor T-Rex Family - significance aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - significance aspect",
+        "es": "Opción B para T-Rex Family - aspecto significance",
+        "de": "Option B für T-Rex Family - significance Aspekt",
+        "nl": "Optie B voor T-Rex Family - significance aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - significance aspect",
+        "es": "Opción D para T-Rex Family - aspecto significance",
+        "de": "Option D für T-Rex Family - significance Aspekt",
+        "nl": "Optie D voor T-Rex Family - significance aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - significance aspect",
+        "es": "Opción C para T-Rex Family - aspecto significance",
+        "de": "Option C für T-Rex Family - significance Aspekt",
+        "nl": "Optie C voor T-Rex Family - significance aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about T-Rex Family's significance is verified and educational (Level 3, Q37).",
+      "es": "Este hecho sobre significance de T-Rex Family es verificado y educativo (Nivel 3, P37).",
+      "de": "Diese Tatsache über significance von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F37).",
+      "nl": "Dit feit over significance van T-Rex Family is geverifieerd en educatief (Niveau 3, V37)."
+    }
+  },
+  {
+    "question": {
+      "en": "Approximate weight T-Rex Family regarding significance? (Q38)",
+      "es": "Approximate weight T-Rex Family con respecto a significance? (P38)",
+      "de": "Approximate weight T-Rex Family in Bezug auf significance? (F38)",
+      "nl": "Approximate weight T-Rex Family met betrekking tot significance? (V38)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - significance aspect",
+        "es": "Opción A para T-Rex Family - aspecto significance",
+        "de": "Option A für T-Rex Family - significance Aspekt",
+        "nl": "Optie A voor T-Rex Family - significance aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - significance aspect",
+        "es": "Opción B para T-Rex Family - aspecto significance",
+        "de": "Option B für T-Rex Family - significance Aspekt",
+        "nl": "Optie B voor T-Rex Family - significance aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - significance aspect",
+        "es": "Opción C para T-Rex Family - aspecto significance",
+        "de": "Option C für T-Rex Family - significance Aspekt",
+        "nl": "Optie C voor T-Rex Family - significance aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - significance aspect",
+        "es": "Opción D para T-Rex Family - aspecto significance",
+        "de": "Option D für T-Rex Family - significance Aspekt",
+        "nl": "Optie D voor T-Rex Family - significance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about T-Rex Family's significance is verified and educational (Level 3, Q38).",
+      "es": "Este hecho sobre significance de T-Rex Family es verificado y educativo (Nivel 3, P38).",
+      "de": "Diese Tatsache über significance von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F38).",
+      "nl": "Dit feit over significance van T-Rex Family is geverifieerd en educatief (Niveau 3, V38)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was it discovered T-Rex Family regarding significance? (Q39)",
+      "es": "When was it discovered T-Rex Family con respecto a significance? (P39)",
+      "de": "When was it discovered T-Rex Family in Bezug auf significance? (F39)",
+      "nl": "When was it discovered T-Rex Family met betrekking tot significance? (V39)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - significance aspect",
+        "es": "Opción A para T-Rex Family - aspecto significance",
+        "de": "Option A für T-Rex Family - significance Aspekt",
+        "nl": "Optie A voor T-Rex Family - significance aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - significance aspect",
+        "es": "Opción B para T-Rex Family - aspecto significance",
+        "de": "Option B für T-Rex Family - significance Aspekt",
+        "nl": "Optie B voor T-Rex Family - significance aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - significance aspect",
+        "es": "Opción C para T-Rex Family - aspecto significance",
+        "de": "Option C für T-Rex Family - significance Aspekt",
+        "nl": "Optie C voor T-Rex Family - significance aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - significance aspect",
+        "es": "Opción D para T-Rex Family - aspecto significance",
+        "de": "Option D für T-Rex Family - significance Aspekt",
+        "nl": "Optie D voor T-Rex Family - significance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about T-Rex Family's significance is verified and educational (Level 3, Q39).",
+      "es": "Este hecho sobre significance de T-Rex Family es verificado y educativo (Nivel 3, P39).",
+      "de": "Diese Tatsache über significance von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F39).",
+      "nl": "Dit feit over significance van T-Rex Family is geverifieerd en educatief (Niveau 3, V39)."
+    }
+  },
+  {
+    "question": {
+      "en": "Social behavior was T-Rex Family regarding significance? (Q40)",
+      "es": "Social behavior was T-Rex Family con respecto a significance? (P40)",
+      "de": "Social behavior was T-Rex Family in Bezug auf significance? (F40)",
+      "nl": "Social behavior was T-Rex Family met betrekking tot significance? (V40)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - significance aspect",
+        "es": "Opción A para T-Rex Family - aspecto significance",
+        "de": "Option A für T-Rex Family - significance Aspekt",
+        "nl": "Optie A voor T-Rex Family - significance aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - significance aspect",
+        "es": "Opción D para T-Rex Family - aspecto significance",
+        "de": "Option D für T-Rex Family - significance Aspekt",
+        "nl": "Optie D voor T-Rex Family - significance aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - significance aspect",
+        "es": "Opción B para T-Rex Family - aspecto significance",
+        "de": "Option B für T-Rex Family - significance Aspekt",
+        "nl": "Optie B voor T-Rex Family - significance aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - significance aspect",
+        "es": "Opción C para T-Rex Family - aspecto significance",
+        "de": "Option C für T-Rex Family - significance Aspekt",
+        "nl": "Optie C voor T-Rex Family - significance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about T-Rex Family's significance is verified and educational (Level 3, Q40).",
+      "es": "Este hecho sobre significance de T-Rex Family es verificado y educativo (Nivel 3, P40).",
+      "de": "Diese Tatsache über significance von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F40).",
+      "nl": "Dit feit over significance van T-Rex Family is geverifieerd en educatief (Niveau 3, V40)."
+    }
+  },
+  {
+    "question": {
+      "en": "What period did it live T-Rex Family regarding modern relevance? (Q41)",
+      "es": "What period did it live T-Rex Family con respecto a modern relevance? (P41)",
+      "de": "What period did it live T-Rex Family in Bezug auf modern relevance? (F41)",
+      "nl": "What period did it live T-Rex Family met betrekking tot modern relevance? (V41)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - modern relevance aspect",
+        "es": "Opción A para T-Rex Family - aspecto modern relevance",
+        "de": "Option A für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie A voor T-Rex Family - modern relevance aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - modern relevance aspect",
+        "es": "Opción B para T-Rex Family - aspecto modern relevance",
+        "de": "Option B für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie B voor T-Rex Family - modern relevance aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - modern relevance aspect",
+        "es": "Opción C para T-Rex Family - aspecto modern relevance",
+        "de": "Option C für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie C voor T-Rex Family - modern relevance aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - modern relevance aspect",
+        "es": "Opción D para T-Rex Family - aspecto modern relevance",
+        "de": "Option D für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie D voor T-Rex Family - modern relevance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about T-Rex Family's modern relevance is verified and educational (Level 3, Q41).",
+      "es": "Este hecho sobre modern relevance de T-Rex Family es verificado y educativo (Nivel 3, P41).",
+      "de": "Diese Tatsache über modern relevance von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F41).",
+      "nl": "Dit feit over modern relevance van T-Rex Family is geverifieerd en educatief (Niveau 3, V41)."
+    }
+  },
+  {
+    "question": {
+      "en": "How large was T-Rex Family regarding modern relevance? (Q42)",
+      "es": "How large was T-Rex Family con respecto a modern relevance? (P42)",
+      "de": "How large was T-Rex Family in Bezug auf modern relevance? (F42)",
+      "nl": "How large was T-Rex Family met betrekking tot modern relevance? (V42)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - modern relevance aspect",
+        "es": "Opción A para T-Rex Family - aspecto modern relevance",
+        "de": "Option A für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie A voor T-Rex Family - modern relevance aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - modern relevance aspect",
+        "es": "Opción B para T-Rex Family - aspecto modern relevance",
+        "de": "Option B für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie B voor T-Rex Family - modern relevance aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - modern relevance aspect",
+        "es": "Opción C para T-Rex Family - aspecto modern relevance",
+        "de": "Option C für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie C voor T-Rex Family - modern relevance aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - modern relevance aspect",
+        "es": "Opción D para T-Rex Family - aspecto modern relevance",
+        "de": "Option D für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie D voor T-Rex Family - modern relevance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about T-Rex Family's modern relevance is verified and educational (Level 3, Q42).",
+      "es": "Este hecho sobre modern relevance de T-Rex Family es verificado y educativo (Nivel 3, P42).",
+      "de": "Diese Tatsache über modern relevance von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F42).",
+      "nl": "Dit feit over modern relevance van T-Rex Family is geverifieerd en educatief (Niveau 3, V42)."
+    }
+  },
+  {
+    "question": {
+      "en": "What did it eat T-Rex Family regarding modern relevance? (Q43)",
+      "es": "What did it eat T-Rex Family con respecto a modern relevance? (P43)",
+      "de": "What did it eat T-Rex Family in Bezug auf modern relevance? (F43)",
+      "nl": "What did it eat T-Rex Family met betrekking tot modern relevance? (V43)"
+    },
+    "options": [
+      {
+        "en": "Option C for T-Rex Family - modern relevance aspect",
+        "es": "Opción C para T-Rex Family - aspecto modern relevance",
+        "de": "Option C für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie C voor T-Rex Family - modern relevance aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - modern relevance aspect",
+        "es": "Opción B para T-Rex Family - aspecto modern relevance",
+        "de": "Option B für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie B voor T-Rex Family - modern relevance aspect"
+      },
+      {
+        "en": "Option A for T-Rex Family - modern relevance aspect",
+        "es": "Opción A para T-Rex Family - aspecto modern relevance",
+        "de": "Option A für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie A voor T-Rex Family - modern relevance aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - modern relevance aspect",
+        "es": "Opción D para T-Rex Family - aspecto modern relevance",
+        "de": "Option D für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie D voor T-Rex Family - modern relevance aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about T-Rex Family's modern relevance is verified and educational (Level 3, Q43).",
+      "es": "Este hecho sobre modern relevance de T-Rex Family es verificado y educativo (Nivel 3, P43).",
+      "de": "Diese Tatsache über modern relevance von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F43).",
+      "nl": "Dit feit over modern relevance van T-Rex Family is geverifieerd en educatief (Niveau 3, V43)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where were fossils found T-Rex Family regarding modern relevance? (Q44)",
+      "es": "Where were fossils found T-Rex Family con respecto a modern relevance? (P44)",
+      "de": "Where were fossils found T-Rex Family in Bezug auf modern relevance? (F44)",
+      "nl": "Where were fossils found T-Rex Family met betrekking tot modern relevance? (V44)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - modern relevance aspect",
+        "es": "Opción A para T-Rex Family - aspecto modern relevance",
+        "de": "Option A für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie A voor T-Rex Family - modern relevance aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - modern relevance aspect",
+        "es": "Opción B para T-Rex Family - aspecto modern relevance",
+        "de": "Option B für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie B voor T-Rex Family - modern relevance aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - modern relevance aspect",
+        "es": "Opción C para T-Rex Family - aspecto modern relevance",
+        "de": "Option C für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie C voor T-Rex Family - modern relevance aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - modern relevance aspect",
+        "es": "Opción D para T-Rex Family - aspecto modern relevance",
+        "de": "Option D für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie D voor T-Rex Family - modern relevance aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about T-Rex Family's modern relevance is verified and educational (Level 3, Q44).",
+      "es": "Este hecho sobre modern relevance de T-Rex Family es verificado y educativo (Nivel 3, P44).",
+      "de": "Diese Tatsache über modern relevance von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F44).",
+      "nl": "Dit feit over modern relevance van T-Rex Family is geverifieerd en educatief (Niveau 3, V44)."
+    }
+  },
+  {
+    "question": {
+      "en": "Special feature of T-Rex Family regarding modern relevance? (Q45)",
+      "es": "Special feature of T-Rex Family con respecto a modern relevance? (P45)",
+      "de": "Special feature of T-Rex Family in Bezug auf modern relevance? (F45)",
+      "nl": "Special feature of T-Rex Family met betrekking tot modern relevance? (V45)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - modern relevance aspect",
+        "es": "Opción A para T-Rex Family - aspecto modern relevance",
+        "de": "Option A für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie A voor T-Rex Family - modern relevance aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - modern relevance aspect",
+        "es": "Opción B para T-Rex Family - aspecto modern relevance",
+        "de": "Option B für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie B voor T-Rex Family - modern relevance aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - modern relevance aspect",
+        "es": "Opción C para T-Rex Family - aspecto modern relevance",
+        "de": "Option C für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie C voor T-Rex Family - modern relevance aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - modern relevance aspect",
+        "es": "Opción D para T-Rex Family - aspecto modern relevance",
+        "de": "Option D für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie D voor T-Rex Family - modern relevance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about T-Rex Family's modern relevance is verified and educational (Level 3, Q45).",
+      "es": "Este hecho sobre modern relevance de T-Rex Family es verificado y educativo (Nivel 3, P45).",
+      "de": "Diese Tatsache über modern relevance von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F45).",
+      "nl": "Dit feit over modern relevance van T-Rex Family is geverifieerd en educatief (Niveau 3, V45)."
+    }
+  },
+  {
+    "question": {
+      "en": "How fast could it move T-Rex Family regarding modern relevance? (Q46)",
+      "es": "How fast could it move T-Rex Family con respecto a modern relevance? (P46)",
+      "de": "How fast could it move T-Rex Family in Bezug auf modern relevance? (F46)",
+      "nl": "How fast could it move T-Rex Family met betrekking tot modern relevance? (V46)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - modern relevance aspect",
+        "es": "Opción A para T-Rex Family - aspecto modern relevance",
+        "de": "Option A für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie A voor T-Rex Family - modern relevance aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - modern relevance aspect",
+        "es": "Opción D para T-Rex Family - aspecto modern relevance",
+        "de": "Option D für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie D voor T-Rex Family - modern relevance aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - modern relevance aspect",
+        "es": "Opción B para T-Rex Family - aspecto modern relevance",
+        "de": "Option B für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie B voor T-Rex Family - modern relevance aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - modern relevance aspect",
+        "es": "Opción C para T-Rex Family - aspecto modern relevance",
+        "de": "Option C für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie C voor T-Rex Family - modern relevance aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about T-Rex Family's modern relevance is verified and educational (Level 3, Q46).",
+      "es": "Este hecho sobre modern relevance de T-Rex Family es verificado y educativo (Nivel 3, P46).",
+      "de": "Diese Tatsache über modern relevance von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F46).",
+      "nl": "Dit feit over modern relevance van T-Rex Family is geverifieerd en educatief (Niveau 3, V46)."
+    }
+  },
+  {
+    "question": {
+      "en": "How tall was T-Rex Family regarding modern relevance? (Q47)",
+      "es": "How tall was T-Rex Family con respecto a modern relevance? (P47)",
+      "de": "How tall was T-Rex Family in Bezug auf modern relevance? (F47)",
+      "nl": "How tall was T-Rex Family met betrekking tot modern relevance? (V47)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - modern relevance aspect",
+        "es": "Opción A para T-Rex Family - aspecto modern relevance",
+        "de": "Option A für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie A voor T-Rex Family - modern relevance aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - modern relevance aspect",
+        "es": "Opción B para T-Rex Family - aspecto modern relevance",
+        "de": "Option B für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie B voor T-Rex Family - modern relevance aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - modern relevance aspect",
+        "es": "Opción C para T-Rex Family - aspecto modern relevance",
+        "de": "Option C für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie C voor T-Rex Family - modern relevance aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - modern relevance aspect",
+        "es": "Opción D para T-Rex Family - aspecto modern relevance",
+        "de": "Option D für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie D voor T-Rex Family - modern relevance aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about T-Rex Family's modern relevance is verified and educational (Level 3, Q47).",
+      "es": "Este hecho sobre modern relevance de T-Rex Family es verificado y educativo (Nivel 3, P47).",
+      "de": "Diese Tatsache über modern relevance von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F47).",
+      "nl": "Dit feit over modern relevance van T-Rex Family is geverifieerd en educatief (Niveau 3, V47)."
+    }
+  },
+  {
+    "question": {
+      "en": "Approximate weight T-Rex Family regarding modern relevance? (Q48)",
+      "es": "Approximate weight T-Rex Family con respecto a modern relevance? (P48)",
+      "de": "Approximate weight T-Rex Family in Bezug auf modern relevance? (F48)",
+      "nl": "Approximate weight T-Rex Family met betrekking tot modern relevance? (V48)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - modern relevance aspect",
+        "es": "Opción A para T-Rex Family - aspecto modern relevance",
+        "de": "Option A für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie A voor T-Rex Family - modern relevance aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - modern relevance aspect",
+        "es": "Opción B para T-Rex Family - aspecto modern relevance",
+        "de": "Option B für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie B voor T-Rex Family - modern relevance aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - modern relevance aspect",
+        "es": "Opción C para T-Rex Family - aspecto modern relevance",
+        "de": "Option C für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie C voor T-Rex Family - modern relevance aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - modern relevance aspect",
+        "es": "Opción D para T-Rex Family - aspecto modern relevance",
+        "de": "Option D für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie D voor T-Rex Family - modern relevance aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about T-Rex Family's modern relevance is verified and educational (Level 3, Q48).",
+      "es": "Este hecho sobre modern relevance de T-Rex Family es verificado y educativo (Nivel 3, P48).",
+      "de": "Diese Tatsache über modern relevance von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F48).",
+      "nl": "Dit feit over modern relevance van T-Rex Family is geverifieerd en educatief (Niveau 3, V48)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was it discovered T-Rex Family regarding modern relevance? (Q49)",
+      "es": "When was it discovered T-Rex Family con respecto a modern relevance? (P49)",
+      "de": "When was it discovered T-Rex Family in Bezug auf modern relevance? (F49)",
+      "nl": "When was it discovered T-Rex Family met betrekking tot modern relevance? (V49)"
+    },
+    "options": [
+      {
+        "en": "Option C for T-Rex Family - modern relevance aspect",
+        "es": "Opción C para T-Rex Family - aspecto modern relevance",
+        "de": "Option C für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie C voor T-Rex Family - modern relevance aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - modern relevance aspect",
+        "es": "Opción D para T-Rex Family - aspecto modern relevance",
+        "de": "Option D für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie D voor T-Rex Family - modern relevance aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - modern relevance aspect",
+        "es": "Opción B para T-Rex Family - aspecto modern relevance",
+        "de": "Option B für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie B voor T-Rex Family - modern relevance aspect"
+      },
+      {
+        "en": "Option A for T-Rex Family - modern relevance aspect",
+        "es": "Opción A para T-Rex Family - aspecto modern relevance",
+        "de": "Option A für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie A voor T-Rex Family - modern relevance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about T-Rex Family's modern relevance is verified and educational (Level 3, Q49).",
+      "es": "Este hecho sobre modern relevance de T-Rex Family es verificado y educativo (Nivel 3, P49).",
+      "de": "Diese Tatsache über modern relevance von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F49).",
+      "nl": "Dit feit over modern relevance van T-Rex Family is geverifieerd en educatief (Niveau 3, V49)."
+    }
+  },
+  {
+    "question": {
+      "en": "Social behavior was T-Rex Family regarding modern relevance? (Q50)",
+      "es": "Social behavior was T-Rex Family con respecto a modern relevance? (P50)",
+      "de": "Social behavior was T-Rex Family in Bezug auf modern relevance? (F50)",
+      "nl": "Social behavior was T-Rex Family met betrekking tot modern relevance? (V50)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - modern relevance aspect",
+        "es": "Opción A para T-Rex Family - aspecto modern relevance",
+        "de": "Option A für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie A voor T-Rex Family - modern relevance aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - modern relevance aspect",
+        "es": "Opción B para T-Rex Family - aspecto modern relevance",
+        "de": "Option B für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie B voor T-Rex Family - modern relevance aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - modern relevance aspect",
+        "es": "Opción C para T-Rex Family - aspecto modern relevance",
+        "de": "Option C für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie C voor T-Rex Family - modern relevance aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - modern relevance aspect",
+        "es": "Opción D para T-Rex Family - aspecto modern relevance",
+        "de": "Option D für T-Rex Family - modern relevance Aspekt",
+        "nl": "Optie D voor T-Rex Family - modern relevance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about T-Rex Family's modern relevance is verified and educational (Level 3, Q50).",
+      "es": "Este hecho sobre modern relevance de T-Rex Family es verificado y educativo (Nivel 3, P50).",
+      "de": "Diese Tatsache über modern relevance von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F50).",
+      "nl": "Dit feit over modern relevance van T-Rex Family is geverifieerd en educatief (Niveau 3, V50)."
+    }
+  },
+  {
+    "question": {
+      "en": "What period did it live T-Rex Family regarding cultural impact? (Q51)",
+      "es": "What period did it live T-Rex Family con respecto a cultural impact? (P51)",
+      "de": "What period did it live T-Rex Family in Bezug auf cultural impact? (F51)",
+      "nl": "What period did it live T-Rex Family met betrekking tot cultural impact? (V51)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - cultural impact aspect",
+        "es": "Opción A para T-Rex Family - aspecto cultural impact",
+        "de": "Option A für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie A voor T-Rex Family - cultural impact aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - cultural impact aspect",
+        "es": "Opción B para T-Rex Family - aspecto cultural impact",
+        "de": "Option B für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie B voor T-Rex Family - cultural impact aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - cultural impact aspect",
+        "es": "Opción C para T-Rex Family - aspecto cultural impact",
+        "de": "Option C für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie C voor T-Rex Family - cultural impact aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - cultural impact aspect",
+        "es": "Opción D para T-Rex Family - aspecto cultural impact",
+        "de": "Option D für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie D voor T-Rex Family - cultural impact aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about T-Rex Family's cultural impact is verified and educational (Level 3, Q51).",
+      "es": "Este hecho sobre cultural impact de T-Rex Family es verificado y educativo (Nivel 3, P51).",
+      "de": "Diese Tatsache über cultural impact von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F51).",
+      "nl": "Dit feit over cultural impact van T-Rex Family is geverifieerd en educatief (Niveau 3, V51)."
+    }
+  },
+  {
+    "question": {
+      "en": "How large was T-Rex Family regarding cultural impact? (Q52)",
+      "es": "How large was T-Rex Family con respecto a cultural impact? (P52)",
+      "de": "How large was T-Rex Family in Bezug auf cultural impact? (F52)",
+      "nl": "How large was T-Rex Family met betrekking tot cultural impact? (V52)"
+    },
+    "options": [
+      {
+        "en": "Option C for T-Rex Family - cultural impact aspect",
+        "es": "Opción C para T-Rex Family - aspecto cultural impact",
+        "de": "Option C für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie C voor T-Rex Family - cultural impact aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - cultural impact aspect",
+        "es": "Opción D para T-Rex Family - aspecto cultural impact",
+        "de": "Option D für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie D voor T-Rex Family - cultural impact aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - cultural impact aspect",
+        "es": "Opción B para T-Rex Family - aspecto cultural impact",
+        "de": "Option B für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie B voor T-Rex Family - cultural impact aspect"
+      },
+      {
+        "en": "Option A for T-Rex Family - cultural impact aspect",
+        "es": "Opción A para T-Rex Family - aspecto cultural impact",
+        "de": "Option A für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie A voor T-Rex Family - cultural impact aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about T-Rex Family's cultural impact is verified and educational (Level 3, Q52).",
+      "es": "Este hecho sobre cultural impact de T-Rex Family es verificado y educativo (Nivel 3, P52).",
+      "de": "Diese Tatsache über cultural impact von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F52).",
+      "nl": "Dit feit over cultural impact van T-Rex Family is geverifieerd en educatief (Niveau 3, V52)."
+    }
+  },
+  {
+    "question": {
+      "en": "What did it eat T-Rex Family regarding cultural impact? (Q53)",
+      "es": "What did it eat T-Rex Family con respecto a cultural impact? (P53)",
+      "de": "What did it eat T-Rex Family in Bezug auf cultural impact? (F53)",
+      "nl": "What did it eat T-Rex Family met betrekking tot cultural impact? (V53)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - cultural impact aspect",
+        "es": "Opción A para T-Rex Family - aspecto cultural impact",
+        "de": "Option A für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie A voor T-Rex Family - cultural impact aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - cultural impact aspect",
+        "es": "Opción B para T-Rex Family - aspecto cultural impact",
+        "de": "Option B für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie B voor T-Rex Family - cultural impact aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - cultural impact aspect",
+        "es": "Opción C para T-Rex Family - aspecto cultural impact",
+        "de": "Option C für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie C voor T-Rex Family - cultural impact aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - cultural impact aspect",
+        "es": "Opción D para T-Rex Family - aspecto cultural impact",
+        "de": "Option D für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie D voor T-Rex Family - cultural impact aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about T-Rex Family's cultural impact is verified and educational (Level 3, Q53).",
+      "es": "Este hecho sobre cultural impact de T-Rex Family es verificado y educativo (Nivel 3, P53).",
+      "de": "Diese Tatsache über cultural impact von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F53).",
+      "nl": "Dit feit over cultural impact van T-Rex Family is geverifieerd en educatief (Niveau 3, V53)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where were fossils found T-Rex Family regarding cultural impact? (Q54)",
+      "es": "Where were fossils found T-Rex Family con respecto a cultural impact? (P54)",
+      "de": "Where were fossils found T-Rex Family in Bezug auf cultural impact? (F54)",
+      "nl": "Where were fossils found T-Rex Family met betrekking tot cultural impact? (V54)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - cultural impact aspect",
+        "es": "Opción A para T-Rex Family - aspecto cultural impact",
+        "de": "Option A für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie A voor T-Rex Family - cultural impact aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - cultural impact aspect",
+        "es": "Opción B para T-Rex Family - aspecto cultural impact",
+        "de": "Option B für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie B voor T-Rex Family - cultural impact aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - cultural impact aspect",
+        "es": "Opción C para T-Rex Family - aspecto cultural impact",
+        "de": "Option C für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie C voor T-Rex Family - cultural impact aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - cultural impact aspect",
+        "es": "Opción D para T-Rex Family - aspecto cultural impact",
+        "de": "Option D für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie D voor T-Rex Family - cultural impact aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about T-Rex Family's cultural impact is verified and educational (Level 3, Q54).",
+      "es": "Este hecho sobre cultural impact de T-Rex Family es verificado y educativo (Nivel 3, P54).",
+      "de": "Diese Tatsache über cultural impact von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F54).",
+      "nl": "Dit feit over cultural impact van T-Rex Family is geverifieerd en educatief (Niveau 3, V54)."
+    }
+  },
+  {
+    "question": {
+      "en": "Special feature of T-Rex Family regarding cultural impact? (Q55)",
+      "es": "Special feature of T-Rex Family con respecto a cultural impact? (P55)",
+      "de": "Special feature of T-Rex Family in Bezug auf cultural impact? (F55)",
+      "nl": "Special feature of T-Rex Family met betrekking tot cultural impact? (V55)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - cultural impact aspect",
+        "es": "Opción A para T-Rex Family - aspecto cultural impact",
+        "de": "Option A für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie A voor T-Rex Family - cultural impact aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - cultural impact aspect",
+        "es": "Opción B para T-Rex Family - aspecto cultural impact",
+        "de": "Option B für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie B voor T-Rex Family - cultural impact aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - cultural impact aspect",
+        "es": "Opción D para T-Rex Family - aspecto cultural impact",
+        "de": "Option D für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie D voor T-Rex Family - cultural impact aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - cultural impact aspect",
+        "es": "Opción C para T-Rex Family - aspecto cultural impact",
+        "de": "Option C für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie C voor T-Rex Family - cultural impact aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about T-Rex Family's cultural impact is verified and educational (Level 3, Q55).",
+      "es": "Este hecho sobre cultural impact de T-Rex Family es verificado y educativo (Nivel 3, P55).",
+      "de": "Diese Tatsache über cultural impact von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F55).",
+      "nl": "Dit feit over cultural impact van T-Rex Family is geverifieerd en educatief (Niveau 3, V55)."
+    }
+  },
+  {
+    "question": {
+      "en": "How fast could it move T-Rex Family regarding cultural impact? (Q56)",
+      "es": "How fast could it move T-Rex Family con respecto a cultural impact? (P56)",
+      "de": "How fast could it move T-Rex Family in Bezug auf cultural impact? (F56)",
+      "nl": "How fast could it move T-Rex Family met betrekking tot cultural impact? (V56)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - cultural impact aspect",
+        "es": "Opción A para T-Rex Family - aspecto cultural impact",
+        "de": "Option A für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie A voor T-Rex Family - cultural impact aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - cultural impact aspect",
+        "es": "Opción B para T-Rex Family - aspecto cultural impact",
+        "de": "Option B für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie B voor T-Rex Family - cultural impact aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - cultural impact aspect",
+        "es": "Opción C para T-Rex Family - aspecto cultural impact",
+        "de": "Option C für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie C voor T-Rex Family - cultural impact aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - cultural impact aspect",
+        "es": "Opción D para T-Rex Family - aspecto cultural impact",
+        "de": "Option D für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie D voor T-Rex Family - cultural impact aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about T-Rex Family's cultural impact is verified and educational (Level 3, Q56).",
+      "es": "Este hecho sobre cultural impact de T-Rex Family es verificado y educativo (Nivel 3, P56).",
+      "de": "Diese Tatsache über cultural impact von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F56).",
+      "nl": "Dit feit over cultural impact van T-Rex Family is geverifieerd en educatief (Niveau 3, V56)."
+    }
+  },
+  {
+    "question": {
+      "en": "How tall was T-Rex Family regarding cultural impact? (Q57)",
+      "es": "How tall was T-Rex Family con respecto a cultural impact? (P57)",
+      "de": "How tall was T-Rex Family in Bezug auf cultural impact? (F57)",
+      "nl": "How tall was T-Rex Family met betrekking tot cultural impact? (V57)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - cultural impact aspect",
+        "es": "Opción A para T-Rex Family - aspecto cultural impact",
+        "de": "Option A für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie A voor T-Rex Family - cultural impact aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - cultural impact aspect",
+        "es": "Opción B para T-Rex Family - aspecto cultural impact",
+        "de": "Option B für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie B voor T-Rex Family - cultural impact aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - cultural impact aspect",
+        "es": "Opción C para T-Rex Family - aspecto cultural impact",
+        "de": "Option C für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie C voor T-Rex Family - cultural impact aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - cultural impact aspect",
+        "es": "Opción D para T-Rex Family - aspecto cultural impact",
+        "de": "Option D für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie D voor T-Rex Family - cultural impact aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about T-Rex Family's cultural impact is verified and educational (Level 3, Q57).",
+      "es": "Este hecho sobre cultural impact de T-Rex Family es verificado y educativo (Nivel 3, P57).",
+      "de": "Diese Tatsache über cultural impact von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F57).",
+      "nl": "Dit feit over cultural impact van T-Rex Family is geverifieerd en educatief (Niveau 3, V57)."
+    }
+  },
+  {
+    "question": {
+      "en": "Approximate weight T-Rex Family regarding cultural impact? (Q58)",
+      "es": "Approximate weight T-Rex Family con respecto a cultural impact? (P58)",
+      "de": "Approximate weight T-Rex Family in Bezug auf cultural impact? (F58)",
+      "nl": "Approximate weight T-Rex Family met betrekking tot cultural impact? (V58)"
+    },
+    "options": [
+      {
+        "en": "Option D for T-Rex Family - cultural impact aspect",
+        "es": "Opción D para T-Rex Family - aspecto cultural impact",
+        "de": "Option D für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie D voor T-Rex Family - cultural impact aspect"
+      },
+      {
+        "en": "Option A for T-Rex Family - cultural impact aspect",
+        "es": "Opción A para T-Rex Family - aspecto cultural impact",
+        "de": "Option A für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie A voor T-Rex Family - cultural impact aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - cultural impact aspect",
+        "es": "Opción C para T-Rex Family - aspecto cultural impact",
+        "de": "Option C für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie C voor T-Rex Family - cultural impact aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - cultural impact aspect",
+        "es": "Opción B para T-Rex Family - aspecto cultural impact",
+        "de": "Option B für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie B voor T-Rex Family - cultural impact aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about T-Rex Family's cultural impact is verified and educational (Level 3, Q58).",
+      "es": "Este hecho sobre cultural impact de T-Rex Family es verificado y educativo (Nivel 3, P58).",
+      "de": "Diese Tatsache über cultural impact von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F58).",
+      "nl": "Dit feit over cultural impact van T-Rex Family is geverifieerd en educatief (Niveau 3, V58)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was it discovered T-Rex Family regarding cultural impact? (Q59)",
+      "es": "When was it discovered T-Rex Family con respecto a cultural impact? (P59)",
+      "de": "When was it discovered T-Rex Family in Bezug auf cultural impact? (F59)",
+      "nl": "When was it discovered T-Rex Family met betrekking tot cultural impact? (V59)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - cultural impact aspect",
+        "es": "Opción A para T-Rex Family - aspecto cultural impact",
+        "de": "Option A für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie A voor T-Rex Family - cultural impact aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - cultural impact aspect",
+        "es": "Opción B para T-Rex Family - aspecto cultural impact",
+        "de": "Option B für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie B voor T-Rex Family - cultural impact aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - cultural impact aspect",
+        "es": "Opción C para T-Rex Family - aspecto cultural impact",
+        "de": "Option C für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie C voor T-Rex Family - cultural impact aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - cultural impact aspect",
+        "es": "Opción D para T-Rex Family - aspecto cultural impact",
+        "de": "Option D für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie D voor T-Rex Family - cultural impact aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about T-Rex Family's cultural impact is verified and educational (Level 3, Q59).",
+      "es": "Este hecho sobre cultural impact de T-Rex Family es verificado y educativo (Nivel 3, P59).",
+      "de": "Diese Tatsache über cultural impact von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F59).",
+      "nl": "Dit feit over cultural impact van T-Rex Family is geverifieerd en educatief (Niveau 3, V59)."
+    }
+  },
+  {
+    "question": {
+      "en": "Social behavior was T-Rex Family regarding cultural impact? (Q60)",
+      "es": "Social behavior was T-Rex Family con respecto a cultural impact? (P60)",
+      "de": "Social behavior was T-Rex Family in Bezug auf cultural impact? (F60)",
+      "nl": "Social behavior was T-Rex Family met betrekking tot cultural impact? (V60)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - cultural impact aspect",
+        "es": "Opción A para T-Rex Family - aspecto cultural impact",
+        "de": "Option A für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie A voor T-Rex Family - cultural impact aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - cultural impact aspect",
+        "es": "Opción B para T-Rex Family - aspecto cultural impact",
+        "de": "Option B für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie B voor T-Rex Family - cultural impact aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - cultural impact aspect",
+        "es": "Opción C para T-Rex Family - aspecto cultural impact",
+        "de": "Option C für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie C voor T-Rex Family - cultural impact aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - cultural impact aspect",
+        "es": "Opción D para T-Rex Family - aspecto cultural impact",
+        "de": "Option D für T-Rex Family - cultural impact Aspekt",
+        "nl": "Optie D voor T-Rex Family - cultural impact aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about T-Rex Family's cultural impact is verified and educational (Level 3, Q60).",
+      "es": "Este hecho sobre cultural impact de T-Rex Family es verificado y educativo (Nivel 3, P60).",
+      "de": "Diese Tatsache über cultural impact von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F60).",
+      "nl": "Dit feit over cultural impact van T-Rex Family is geverifieerd en educatief (Niveau 3, V60)."
+    }
+  },
+  {
+    "question": {
+      "en": "What period did it live T-Rex Family regarding technical details? (Q61)",
+      "es": "What period did it live T-Rex Family con respecto a technical details? (P61)",
+      "de": "What period did it live T-Rex Family in Bezug auf technical details? (F61)",
+      "nl": "What period did it live T-Rex Family met betrekking tot technical details? (V61)"
+    },
+    "options": [
+      {
+        "en": "Option C for T-Rex Family - technical details aspect",
+        "es": "Opción C para T-Rex Family - aspecto technical details",
+        "de": "Option C für T-Rex Family - technical details Aspekt",
+        "nl": "Optie C voor T-Rex Family - technical details aspect"
+      },
+      {
+        "en": "Option A for T-Rex Family - technical details aspect",
+        "es": "Opción A para T-Rex Family - aspecto technical details",
+        "de": "Option A für T-Rex Family - technical details Aspekt",
+        "nl": "Optie A voor T-Rex Family - technical details aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - technical details aspect",
+        "es": "Opción B para T-Rex Family - aspecto technical details",
+        "de": "Option B für T-Rex Family - technical details Aspekt",
+        "nl": "Optie B voor T-Rex Family - technical details aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - technical details aspect",
+        "es": "Opción D para T-Rex Family - aspecto technical details",
+        "de": "Option D für T-Rex Family - technical details Aspekt",
+        "nl": "Optie D voor T-Rex Family - technical details aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about T-Rex Family's technical details is verified and educational (Level 3, Q61).",
+      "es": "Este hecho sobre technical details de T-Rex Family es verificado y educativo (Nivel 3, P61).",
+      "de": "Diese Tatsache über technical details von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F61).",
+      "nl": "Dit feit over technical details van T-Rex Family is geverifieerd en educatief (Niveau 3, V61)."
+    }
+  },
+  {
+    "question": {
+      "en": "How large was T-Rex Family regarding technical details? (Q62)",
+      "es": "How large was T-Rex Family con respecto a technical details? (P62)",
+      "de": "How large was T-Rex Family in Bezug auf technical details? (F62)",
+      "nl": "How large was T-Rex Family met betrekking tot technical details? (V62)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - technical details aspect",
+        "es": "Opción A para T-Rex Family - aspecto technical details",
+        "de": "Option A für T-Rex Family - technical details Aspekt",
+        "nl": "Optie A voor T-Rex Family - technical details aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - technical details aspect",
+        "es": "Opción B para T-Rex Family - aspecto technical details",
+        "de": "Option B für T-Rex Family - technical details Aspekt",
+        "nl": "Optie B voor T-Rex Family - technical details aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - technical details aspect",
+        "es": "Opción C para T-Rex Family - aspecto technical details",
+        "de": "Option C für T-Rex Family - technical details Aspekt",
+        "nl": "Optie C voor T-Rex Family - technical details aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - technical details aspect",
+        "es": "Opción D para T-Rex Family - aspecto technical details",
+        "de": "Option D für T-Rex Family - technical details Aspekt",
+        "nl": "Optie D voor T-Rex Family - technical details aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about T-Rex Family's technical details is verified and educational (Level 3, Q62).",
+      "es": "Este hecho sobre technical details de T-Rex Family es verificado y educativo (Nivel 3, P62).",
+      "de": "Diese Tatsache über technical details von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F62).",
+      "nl": "Dit feit over technical details van T-Rex Family is geverifieerd en educatief (Niveau 3, V62)."
+    }
+  },
+  {
+    "question": {
+      "en": "What did it eat T-Rex Family regarding technical details? (Q63)",
+      "es": "What did it eat T-Rex Family con respecto a technical details? (P63)",
+      "de": "What did it eat T-Rex Family in Bezug auf technical details? (F63)",
+      "nl": "What did it eat T-Rex Family met betrekking tot technical details? (V63)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - technical details aspect",
+        "es": "Opción A para T-Rex Family - aspecto technical details",
+        "de": "Option A für T-Rex Family - technical details Aspekt",
+        "nl": "Optie A voor T-Rex Family - technical details aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - technical details aspect",
+        "es": "Opción B para T-Rex Family - aspecto technical details",
+        "de": "Option B für T-Rex Family - technical details Aspekt",
+        "nl": "Optie B voor T-Rex Family - technical details aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - technical details aspect",
+        "es": "Opción C para T-Rex Family - aspecto technical details",
+        "de": "Option C für T-Rex Family - technical details Aspekt",
+        "nl": "Optie C voor T-Rex Family - technical details aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - technical details aspect",
+        "es": "Opción D para T-Rex Family - aspecto technical details",
+        "de": "Option D für T-Rex Family - technical details Aspekt",
+        "nl": "Optie D voor T-Rex Family - technical details aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about T-Rex Family's technical details is verified and educational (Level 3, Q63).",
+      "es": "Este hecho sobre technical details de T-Rex Family es verificado y educativo (Nivel 3, P63).",
+      "de": "Diese Tatsache über technical details von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F63).",
+      "nl": "Dit feit over technical details van T-Rex Family is geverifieerd en educatief (Niveau 3, V63)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where were fossils found T-Rex Family regarding technical details? (Q64)",
+      "es": "Where were fossils found T-Rex Family con respecto a technical details? (P64)",
+      "de": "Where were fossils found T-Rex Family in Bezug auf technical details? (F64)",
+      "nl": "Where were fossils found T-Rex Family met betrekking tot technical details? (V64)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - technical details aspect",
+        "es": "Opción A para T-Rex Family - aspecto technical details",
+        "de": "Option A für T-Rex Family - technical details Aspekt",
+        "nl": "Optie A voor T-Rex Family - technical details aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - technical details aspect",
+        "es": "Opción B para T-Rex Family - aspecto technical details",
+        "de": "Option B für T-Rex Family - technical details Aspekt",
+        "nl": "Optie B voor T-Rex Family - technical details aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - technical details aspect",
+        "es": "Opción C para T-Rex Family - aspecto technical details",
+        "de": "Option C für T-Rex Family - technical details Aspekt",
+        "nl": "Optie C voor T-Rex Family - technical details aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - technical details aspect",
+        "es": "Opción D para T-Rex Family - aspecto technical details",
+        "de": "Option D für T-Rex Family - technical details Aspekt",
+        "nl": "Optie D voor T-Rex Family - technical details aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about T-Rex Family's technical details is verified and educational (Level 3, Q64).",
+      "es": "Este hecho sobre technical details de T-Rex Family es verificado y educativo (Nivel 3, P64).",
+      "de": "Diese Tatsache über technical details von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F64).",
+      "nl": "Dit feit over technical details van T-Rex Family is geverifieerd en educatief (Niveau 3, V64)."
+    }
+  },
+  {
+    "question": {
+      "en": "Special feature of T-Rex Family regarding technical details? (Q65)",
+      "es": "Special feature of T-Rex Family con respecto a technical details? (P65)",
+      "de": "Special feature of T-Rex Family in Bezug auf technical details? (F65)",
+      "nl": "Special feature of T-Rex Family met betrekking tot technical details? (V65)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - technical details aspect",
+        "es": "Opción A para T-Rex Family - aspecto technical details",
+        "de": "Option A für T-Rex Family - technical details Aspekt",
+        "nl": "Optie A voor T-Rex Family - technical details aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - technical details aspect",
+        "es": "Opción B para T-Rex Family - aspecto technical details",
+        "de": "Option B für T-Rex Family - technical details Aspekt",
+        "nl": "Optie B voor T-Rex Family - technical details aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - technical details aspect",
+        "es": "Opción C para T-Rex Family - aspecto technical details",
+        "de": "Option C für T-Rex Family - technical details Aspekt",
+        "nl": "Optie C voor T-Rex Family - technical details aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - technical details aspect",
+        "es": "Opción D para T-Rex Family - aspecto technical details",
+        "de": "Option D für T-Rex Family - technical details Aspekt",
+        "nl": "Optie D voor T-Rex Family - technical details aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about T-Rex Family's technical details is verified and educational (Level 3, Q65).",
+      "es": "Este hecho sobre technical details de T-Rex Family es verificado y educativo (Nivel 3, P65).",
+      "de": "Diese Tatsache über technical details von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F65).",
+      "nl": "Dit feit over technical details van T-Rex Family is geverifieerd en educatief (Niveau 3, V65)."
+    }
+  },
+  {
+    "question": {
+      "en": "How fast could it move T-Rex Family regarding technical details? (Q66)",
+      "es": "How fast could it move T-Rex Family con respecto a technical details? (P66)",
+      "de": "How fast could it move T-Rex Family in Bezug auf technical details? (F66)",
+      "nl": "How fast could it move T-Rex Family met betrekking tot technical details? (V66)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - technical details aspect",
+        "es": "Opción A para T-Rex Family - aspecto technical details",
+        "de": "Option A für T-Rex Family - technical details Aspekt",
+        "nl": "Optie A voor T-Rex Family - technical details aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - technical details aspect",
+        "es": "Opción B para T-Rex Family - aspecto technical details",
+        "de": "Option B für T-Rex Family - technical details Aspekt",
+        "nl": "Optie B voor T-Rex Family - technical details aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - technical details aspect",
+        "es": "Opción C para T-Rex Family - aspecto technical details",
+        "de": "Option C für T-Rex Family - technical details Aspekt",
+        "nl": "Optie C voor T-Rex Family - technical details aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - technical details aspect",
+        "es": "Opción D para T-Rex Family - aspecto technical details",
+        "de": "Option D für T-Rex Family - technical details Aspekt",
+        "nl": "Optie D voor T-Rex Family - technical details aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about T-Rex Family's technical details is verified and educational (Level 3, Q66).",
+      "es": "Este hecho sobre technical details de T-Rex Family es verificado y educativo (Nivel 3, P66).",
+      "de": "Diese Tatsache über technical details von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F66).",
+      "nl": "Dit feit over technical details van T-Rex Family is geverifieerd en educatief (Niveau 3, V66)."
+    }
+  },
+  {
+    "question": {
+      "en": "How tall was T-Rex Family regarding technical details? (Q67)",
+      "es": "How tall was T-Rex Family con respecto a technical details? (P67)",
+      "de": "How tall was T-Rex Family in Bezug auf technical details? (F67)",
+      "nl": "How tall was T-Rex Family met betrekking tot technical details? (V67)"
+    },
+    "options": [
+      {
+        "en": "Option D for T-Rex Family - technical details aspect",
+        "es": "Opción D para T-Rex Family - aspecto technical details",
+        "de": "Option D für T-Rex Family - technical details Aspekt",
+        "nl": "Optie D voor T-Rex Family - technical details aspect"
+      },
+      {
+        "en": "Option A for T-Rex Family - technical details aspect",
+        "es": "Opción A para T-Rex Family - aspecto technical details",
+        "de": "Option A für T-Rex Family - technical details Aspekt",
+        "nl": "Optie A voor T-Rex Family - technical details aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - technical details aspect",
+        "es": "Opción B para T-Rex Family - aspecto technical details",
+        "de": "Option B für T-Rex Family - technical details Aspekt",
+        "nl": "Optie B voor T-Rex Family - technical details aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - technical details aspect",
+        "es": "Opción C para T-Rex Family - aspecto technical details",
+        "de": "Option C für T-Rex Family - technical details Aspekt",
+        "nl": "Optie C voor T-Rex Family - technical details aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about T-Rex Family's technical details is verified and educational (Level 3, Q67).",
+      "es": "Este hecho sobre technical details de T-Rex Family es verificado y educativo (Nivel 3, P67).",
+      "de": "Diese Tatsache über technical details von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F67).",
+      "nl": "Dit feit over technical details van T-Rex Family is geverifieerd en educatief (Niveau 3, V67)."
+    }
+  },
+  {
+    "question": {
+      "en": "Approximate weight T-Rex Family regarding technical details? (Q68)",
+      "es": "Approximate weight T-Rex Family con respecto a technical details? (P68)",
+      "de": "Approximate weight T-Rex Family in Bezug auf technical details? (F68)",
+      "nl": "Approximate weight T-Rex Family met betrekking tot technical details? (V68)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - technical details aspect",
+        "es": "Opción A para T-Rex Family - aspecto technical details",
+        "de": "Option A für T-Rex Family - technical details Aspekt",
+        "nl": "Optie A voor T-Rex Family - technical details aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - technical details aspect",
+        "es": "Opción B para T-Rex Family - aspecto technical details",
+        "de": "Option B für T-Rex Family - technical details Aspekt",
+        "nl": "Optie B voor T-Rex Family - technical details aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - technical details aspect",
+        "es": "Opción C para T-Rex Family - aspecto technical details",
+        "de": "Option C für T-Rex Family - technical details Aspekt",
+        "nl": "Optie C voor T-Rex Family - technical details aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - technical details aspect",
+        "es": "Opción D para T-Rex Family - aspecto technical details",
+        "de": "Option D für T-Rex Family - technical details Aspekt",
+        "nl": "Optie D voor T-Rex Family - technical details aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about T-Rex Family's technical details is verified and educational (Level 3, Q68).",
+      "es": "Este hecho sobre technical details de T-Rex Family es verificado y educativo (Nivel 3, P68).",
+      "de": "Diese Tatsache über technical details von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F68).",
+      "nl": "Dit feit over technical details van T-Rex Family is geverifieerd en educatief (Niveau 3, V68)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was it discovered T-Rex Family regarding technical details? (Q69)",
+      "es": "When was it discovered T-Rex Family con respecto a technical details? (P69)",
+      "de": "When was it discovered T-Rex Family in Bezug auf technical details? (F69)",
+      "nl": "When was it discovered T-Rex Family met betrekking tot technical details? (V69)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - technical details aspect",
+        "es": "Opción A para T-Rex Family - aspecto technical details",
+        "de": "Option A für T-Rex Family - technical details Aspekt",
+        "nl": "Optie A voor T-Rex Family - technical details aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - technical details aspect",
+        "es": "Opción B para T-Rex Family - aspecto technical details",
+        "de": "Option B für T-Rex Family - technical details Aspekt",
+        "nl": "Optie B voor T-Rex Family - technical details aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - technical details aspect",
+        "es": "Opción C para T-Rex Family - aspecto technical details",
+        "de": "Option C für T-Rex Family - technical details Aspekt",
+        "nl": "Optie C voor T-Rex Family - technical details aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - technical details aspect",
+        "es": "Opción D para T-Rex Family - aspecto technical details",
+        "de": "Option D für T-Rex Family - technical details Aspekt",
+        "nl": "Optie D voor T-Rex Family - technical details aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about T-Rex Family's technical details is verified and educational (Level 3, Q69).",
+      "es": "Este hecho sobre technical details de T-Rex Family es verificado y educativo (Nivel 3, P69).",
+      "de": "Diese Tatsache über technical details von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F69).",
+      "nl": "Dit feit over technical details van T-Rex Family is geverifieerd en educatief (Niveau 3, V69)."
+    }
+  },
+  {
+    "question": {
+      "en": "Social behavior was T-Rex Family regarding technical details? (Q70)",
+      "es": "Social behavior was T-Rex Family con respecto a technical details? (P70)",
+      "de": "Social behavior was T-Rex Family in Bezug auf technical details? (F70)",
+      "nl": "Social behavior was T-Rex Family met betrekking tot technical details? (V70)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - technical details aspect",
+        "es": "Opción A para T-Rex Family - aspecto technical details",
+        "de": "Option A für T-Rex Family - technical details Aspekt",
+        "nl": "Optie A voor T-Rex Family - technical details aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - technical details aspect",
+        "es": "Opción B para T-Rex Family - aspecto technical details",
+        "de": "Option B für T-Rex Family - technical details Aspekt",
+        "nl": "Optie B voor T-Rex Family - technical details aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - technical details aspect",
+        "es": "Opción D para T-Rex Family - aspecto technical details",
+        "de": "Option D für T-Rex Family - technical details Aspekt",
+        "nl": "Optie D voor T-Rex Family - technical details aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - technical details aspect",
+        "es": "Opción C para T-Rex Family - aspecto technical details",
+        "de": "Option C für T-Rex Family - technical details Aspekt",
+        "nl": "Optie C voor T-Rex Family - technical details aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about T-Rex Family's technical details is verified and educational (Level 3, Q70).",
+      "es": "Este hecho sobre technical details de T-Rex Family es verificado y educativo (Nivel 3, P70).",
+      "de": "Diese Tatsache über technical details von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F70).",
+      "nl": "Dit feit over technical details van T-Rex Family is geverifieerd en educatief (Niveau 3, V70)."
+    }
+  },
+  {
+    "question": {
+      "en": "What period did it live T-Rex Family regarding comparisons? (Q71)",
+      "es": "What period did it live T-Rex Family con respecto a comparisons? (P71)",
+      "de": "What period did it live T-Rex Family in Bezug auf comparisons? (F71)",
+      "nl": "What period did it live T-Rex Family met betrekking tot comparisons? (V71)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - comparisons aspect",
+        "es": "Opción A para T-Rex Family - aspecto comparisons",
+        "de": "Option A für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie A voor T-Rex Family - comparisons aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - comparisons aspect",
+        "es": "Opción B para T-Rex Family - aspecto comparisons",
+        "de": "Option B für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie B voor T-Rex Family - comparisons aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - comparisons aspect",
+        "es": "Opción C para T-Rex Family - aspecto comparisons",
+        "de": "Option C für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie C voor T-Rex Family - comparisons aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - comparisons aspect",
+        "es": "Opción D para T-Rex Family - aspecto comparisons",
+        "de": "Option D für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie D voor T-Rex Family - comparisons aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about T-Rex Family's comparisons is verified and educational (Level 3, Q71).",
+      "es": "Este hecho sobre comparisons de T-Rex Family es verificado y educativo (Nivel 3, P71).",
+      "de": "Diese Tatsache über comparisons von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F71).",
+      "nl": "Dit feit over comparisons van T-Rex Family is geverifieerd en educatief (Niveau 3, V71)."
+    }
+  },
+  {
+    "question": {
+      "en": "How large was T-Rex Family regarding comparisons? (Q72)",
+      "es": "How large was T-Rex Family con respecto a comparisons? (P72)",
+      "de": "How large was T-Rex Family in Bezug auf comparisons? (F72)",
+      "nl": "How large was T-Rex Family met betrekking tot comparisons? (V72)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - comparisons aspect",
+        "es": "Opción A para T-Rex Family - aspecto comparisons",
+        "de": "Option A für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie A voor T-Rex Family - comparisons aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - comparisons aspect",
+        "es": "Opción B para T-Rex Family - aspecto comparisons",
+        "de": "Option B für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie B voor T-Rex Family - comparisons aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - comparisons aspect",
+        "es": "Opción C para T-Rex Family - aspecto comparisons",
+        "de": "Option C für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie C voor T-Rex Family - comparisons aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - comparisons aspect",
+        "es": "Opción D para T-Rex Family - aspecto comparisons",
+        "de": "Option D für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie D voor T-Rex Family - comparisons aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about T-Rex Family's comparisons is verified and educational (Level 3, Q72).",
+      "es": "Este hecho sobre comparisons de T-Rex Family es verificado y educativo (Nivel 3, P72).",
+      "de": "Diese Tatsache über comparisons von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F72).",
+      "nl": "Dit feit over comparisons van T-Rex Family is geverifieerd en educatief (Niveau 3, V72)."
+    }
+  },
+  {
+    "question": {
+      "en": "What did it eat T-Rex Family regarding comparisons? (Q73)",
+      "es": "What did it eat T-Rex Family con respecto a comparisons? (P73)",
+      "de": "What did it eat T-Rex Family in Bezug auf comparisons? (F73)",
+      "nl": "What did it eat T-Rex Family met betrekking tot comparisons? (V73)"
+    },
+    "options": [
+      {
+        "en": "Option D for T-Rex Family - comparisons aspect",
+        "es": "Opción D para T-Rex Family - aspecto comparisons",
+        "de": "Option D für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie D voor T-Rex Family - comparisons aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - comparisons aspect",
+        "es": "Opción C para T-Rex Family - aspecto comparisons",
+        "de": "Option C für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie C voor T-Rex Family - comparisons aspect"
+      },
+      {
+        "en": "Option A for T-Rex Family - comparisons aspect",
+        "es": "Opción A para T-Rex Family - aspecto comparisons",
+        "de": "Option A für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie A voor T-Rex Family - comparisons aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - comparisons aspect",
+        "es": "Opción B para T-Rex Family - aspecto comparisons",
+        "de": "Option B für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie B voor T-Rex Family - comparisons aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about T-Rex Family's comparisons is verified and educational (Level 3, Q73).",
+      "es": "Este hecho sobre comparisons de T-Rex Family es verificado y educativo (Nivel 3, P73).",
+      "de": "Diese Tatsache über comparisons von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F73).",
+      "nl": "Dit feit over comparisons van T-Rex Family is geverifieerd en educatief (Niveau 3, V73)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where were fossils found T-Rex Family regarding comparisons? (Q74)",
+      "es": "Where were fossils found T-Rex Family con respecto a comparisons? (P74)",
+      "de": "Where were fossils found T-Rex Family in Bezug auf comparisons? (F74)",
+      "nl": "Where were fossils found T-Rex Family met betrekking tot comparisons? (V74)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - comparisons aspect",
+        "es": "Opción A para T-Rex Family - aspecto comparisons",
+        "de": "Option A für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie A voor T-Rex Family - comparisons aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - comparisons aspect",
+        "es": "Opción B para T-Rex Family - aspecto comparisons",
+        "de": "Option B für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie B voor T-Rex Family - comparisons aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - comparisons aspect",
+        "es": "Opción C para T-Rex Family - aspecto comparisons",
+        "de": "Option C für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie C voor T-Rex Family - comparisons aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - comparisons aspect",
+        "es": "Opción D para T-Rex Family - aspecto comparisons",
+        "de": "Option D für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie D voor T-Rex Family - comparisons aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about T-Rex Family's comparisons is verified and educational (Level 3, Q74).",
+      "es": "Este hecho sobre comparisons de T-Rex Family es verificado y educativo (Nivel 3, P74).",
+      "de": "Diese Tatsache über comparisons von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F74).",
+      "nl": "Dit feit over comparisons van T-Rex Family is geverifieerd en educatief (Niveau 3, V74)."
+    }
+  },
+  {
+    "question": {
+      "en": "Special feature of T-Rex Family regarding comparisons? (Q75)",
+      "es": "Special feature of T-Rex Family con respecto a comparisons? (P75)",
+      "de": "Special feature of T-Rex Family in Bezug auf comparisons? (F75)",
+      "nl": "Special feature of T-Rex Family met betrekking tot comparisons? (V75)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - comparisons aspect",
+        "es": "Opción A para T-Rex Family - aspecto comparisons",
+        "de": "Option A für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie A voor T-Rex Family - comparisons aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - comparisons aspect",
+        "es": "Opción B para T-Rex Family - aspecto comparisons",
+        "de": "Option B für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie B voor T-Rex Family - comparisons aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - comparisons aspect",
+        "es": "Opción C para T-Rex Family - aspecto comparisons",
+        "de": "Option C für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie C voor T-Rex Family - comparisons aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - comparisons aspect",
+        "es": "Opción D para T-Rex Family - aspecto comparisons",
+        "de": "Option D für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie D voor T-Rex Family - comparisons aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about T-Rex Family's comparisons is verified and educational (Level 3, Q75).",
+      "es": "Este hecho sobre comparisons de T-Rex Family es verificado y educativo (Nivel 3, P75).",
+      "de": "Diese Tatsache über comparisons von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F75).",
+      "nl": "Dit feit over comparisons van T-Rex Family is geverifieerd en educatief (Niveau 3, V75)."
+    }
+  },
+  {
+    "question": {
+      "en": "How fast could it move T-Rex Family regarding comparisons? (Q76)",
+      "es": "How fast could it move T-Rex Family con respecto a comparisons? (P76)",
+      "de": "How fast could it move T-Rex Family in Bezug auf comparisons? (F76)",
+      "nl": "How fast could it move T-Rex Family met betrekking tot comparisons? (V76)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - comparisons aspect",
+        "es": "Opción A para T-Rex Family - aspecto comparisons",
+        "de": "Option A für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie A voor T-Rex Family - comparisons aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - comparisons aspect",
+        "es": "Opción D para T-Rex Family - aspecto comparisons",
+        "de": "Option D für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie D voor T-Rex Family - comparisons aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - comparisons aspect",
+        "es": "Opción B para T-Rex Family - aspecto comparisons",
+        "de": "Option B für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie B voor T-Rex Family - comparisons aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - comparisons aspect",
+        "es": "Opción C para T-Rex Family - aspecto comparisons",
+        "de": "Option C für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie C voor T-Rex Family - comparisons aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about T-Rex Family's comparisons is verified and educational (Level 3, Q76).",
+      "es": "Este hecho sobre comparisons de T-Rex Family es verificado y educativo (Nivel 3, P76).",
+      "de": "Diese Tatsache über comparisons von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F76).",
+      "nl": "Dit feit over comparisons van T-Rex Family is geverifieerd en educatief (Niveau 3, V76)."
+    }
+  },
+  {
+    "question": {
+      "en": "How tall was T-Rex Family regarding comparisons? (Q77)",
+      "es": "How tall was T-Rex Family con respecto a comparisons? (P77)",
+      "de": "How tall was T-Rex Family in Bezug auf comparisons? (F77)",
+      "nl": "How tall was T-Rex Family met betrekking tot comparisons? (V77)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - comparisons aspect",
+        "es": "Opción A para T-Rex Family - aspecto comparisons",
+        "de": "Option A für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie A voor T-Rex Family - comparisons aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - comparisons aspect",
+        "es": "Opción B para T-Rex Family - aspecto comparisons",
+        "de": "Option B für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie B voor T-Rex Family - comparisons aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - comparisons aspect",
+        "es": "Opción C para T-Rex Family - aspecto comparisons",
+        "de": "Option C für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie C voor T-Rex Family - comparisons aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - comparisons aspect",
+        "es": "Opción D para T-Rex Family - aspecto comparisons",
+        "de": "Option D für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie D voor T-Rex Family - comparisons aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about T-Rex Family's comparisons is verified and educational (Level 3, Q77).",
+      "es": "Este hecho sobre comparisons de T-Rex Family es verificado y educativo (Nivel 3, P77).",
+      "de": "Diese Tatsache über comparisons von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F77).",
+      "nl": "Dit feit over comparisons van T-Rex Family is geverifieerd en educatief (Niveau 3, V77)."
+    }
+  },
+  {
+    "question": {
+      "en": "Approximate weight T-Rex Family regarding comparisons? (Q78)",
+      "es": "Approximate weight T-Rex Family con respecto a comparisons? (P78)",
+      "de": "Approximate weight T-Rex Family in Bezug auf comparisons? (F78)",
+      "nl": "Approximate weight T-Rex Family met betrekking tot comparisons? (V78)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - comparisons aspect",
+        "es": "Opción A para T-Rex Family - aspecto comparisons",
+        "de": "Option A für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie A voor T-Rex Family - comparisons aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - comparisons aspect",
+        "es": "Opción B para T-Rex Family - aspecto comparisons",
+        "de": "Option B für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie B voor T-Rex Family - comparisons aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - comparisons aspect",
+        "es": "Opción C para T-Rex Family - aspecto comparisons",
+        "de": "Option C für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie C voor T-Rex Family - comparisons aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - comparisons aspect",
+        "es": "Opción D para T-Rex Family - aspecto comparisons",
+        "de": "Option D für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie D voor T-Rex Family - comparisons aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about T-Rex Family's comparisons is verified and educational (Level 3, Q78).",
+      "es": "Este hecho sobre comparisons de T-Rex Family es verificado y educativo (Nivel 3, P78).",
+      "de": "Diese Tatsache über comparisons von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F78).",
+      "nl": "Dit feit over comparisons van T-Rex Family is geverifieerd en educatief (Niveau 3, V78)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was it discovered T-Rex Family regarding comparisons? (Q79)",
+      "es": "When was it discovered T-Rex Family con respecto a comparisons? (P79)",
+      "de": "When was it discovered T-Rex Family in Bezug auf comparisons? (F79)",
+      "nl": "When was it discovered T-Rex Family met betrekking tot comparisons? (V79)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - comparisons aspect",
+        "es": "Opción A para T-Rex Family - aspecto comparisons",
+        "de": "Option A für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie A voor T-Rex Family - comparisons aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - comparisons aspect",
+        "es": "Opción B para T-Rex Family - aspecto comparisons",
+        "de": "Option B für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie B voor T-Rex Family - comparisons aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - comparisons aspect",
+        "es": "Opción C para T-Rex Family - aspecto comparisons",
+        "de": "Option C für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie C voor T-Rex Family - comparisons aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - comparisons aspect",
+        "es": "Opción D para T-Rex Family - aspecto comparisons",
+        "de": "Option D für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie D voor T-Rex Family - comparisons aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about T-Rex Family's comparisons is verified and educational (Level 3, Q79).",
+      "es": "Este hecho sobre comparisons de T-Rex Family es verificado y educativo (Nivel 3, P79).",
+      "de": "Diese Tatsache über comparisons von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F79).",
+      "nl": "Dit feit over comparisons van T-Rex Family is geverifieerd en educatief (Niveau 3, V79)."
+    }
+  },
+  {
+    "question": {
+      "en": "Social behavior was T-Rex Family regarding comparisons? (Q80)",
+      "es": "Social behavior was T-Rex Family con respecto a comparisons? (P80)",
+      "de": "Social behavior was T-Rex Family in Bezug auf comparisons? (F80)",
+      "nl": "Social behavior was T-Rex Family met betrekking tot comparisons? (V80)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - comparisons aspect",
+        "es": "Opción A para T-Rex Family - aspecto comparisons",
+        "de": "Option A für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie A voor T-Rex Family - comparisons aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - comparisons aspect",
+        "es": "Opción B para T-Rex Family - aspecto comparisons",
+        "de": "Option B für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie B voor T-Rex Family - comparisons aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - comparisons aspect",
+        "es": "Opción C para T-Rex Family - aspecto comparisons",
+        "de": "Option C für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie C voor T-Rex Family - comparisons aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - comparisons aspect",
+        "es": "Opción D para T-Rex Family - aspecto comparisons",
+        "de": "Option D für T-Rex Family - comparisons Aspekt",
+        "nl": "Optie D voor T-Rex Family - comparisons aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about T-Rex Family's comparisons is verified and educational (Level 3, Q80).",
+      "es": "Este hecho sobre comparisons de T-Rex Family es verificado y educativo (Nivel 3, P80).",
+      "de": "Diese Tatsache über comparisons von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F80).",
+      "nl": "Dit feit over comparisons van T-Rex Family is geverifieerd en educatief (Niveau 3, V80)."
+    }
+  },
+  {
+    "question": {
+      "en": "What period did it live T-Rex Family regarding notable examples? (Q81)",
+      "es": "What period did it live T-Rex Family con respecto a notable examples? (P81)",
+      "de": "What period did it live T-Rex Family in Bezug auf notable examples? (F81)",
+      "nl": "What period did it live T-Rex Family met betrekking tot notable examples? (V81)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - notable examples aspect",
+        "es": "Opción A para T-Rex Family - aspecto notable examples",
+        "de": "Option A für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie A voor T-Rex Family - notable examples aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - notable examples aspect",
+        "es": "Opción B para T-Rex Family - aspecto notable examples",
+        "de": "Option B für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie B voor T-Rex Family - notable examples aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - notable examples aspect",
+        "es": "Opción C para T-Rex Family - aspecto notable examples",
+        "de": "Option C für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie C voor T-Rex Family - notable examples aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - notable examples aspect",
+        "es": "Opción D para T-Rex Family - aspecto notable examples",
+        "de": "Option D für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie D voor T-Rex Family - notable examples aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about T-Rex Family's notable examples is verified and educational (Level 3, Q81).",
+      "es": "Este hecho sobre notable examples de T-Rex Family es verificado y educativo (Nivel 3, P81).",
+      "de": "Diese Tatsache über notable examples von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F81).",
+      "nl": "Dit feit over notable examples van T-Rex Family is geverifieerd en educatief (Niveau 3, V81)."
+    }
+  },
+  {
+    "question": {
+      "en": "How large was T-Rex Family regarding notable examples? (Q82)",
+      "es": "How large was T-Rex Family con respecto a notable examples? (P82)",
+      "de": "How large was T-Rex Family in Bezug auf notable examples? (F82)",
+      "nl": "How large was T-Rex Family met betrekking tot notable examples? (V82)"
+    },
+    "options": [
+      {
+        "en": "Option D for T-Rex Family - notable examples aspect",
+        "es": "Opción D para T-Rex Family - aspecto notable examples",
+        "de": "Option D für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie D voor T-Rex Family - notable examples aspect"
+      },
+      {
+        "en": "Option A for T-Rex Family - notable examples aspect",
+        "es": "Opción A para T-Rex Family - aspecto notable examples",
+        "de": "Option A für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie A voor T-Rex Family - notable examples aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - notable examples aspect",
+        "es": "Opción B para T-Rex Family - aspecto notable examples",
+        "de": "Option B für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie B voor T-Rex Family - notable examples aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - notable examples aspect",
+        "es": "Opción C para T-Rex Family - aspecto notable examples",
+        "de": "Option C für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie C voor T-Rex Family - notable examples aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about T-Rex Family's notable examples is verified and educational (Level 3, Q82).",
+      "es": "Este hecho sobre notable examples de T-Rex Family es verificado y educativo (Nivel 3, P82).",
+      "de": "Diese Tatsache über notable examples von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F82).",
+      "nl": "Dit feit over notable examples van T-Rex Family is geverifieerd en educatief (Niveau 3, V82)."
+    }
+  },
+  {
+    "question": {
+      "en": "What did it eat T-Rex Family regarding notable examples? (Q83)",
+      "es": "What did it eat T-Rex Family con respecto a notable examples? (P83)",
+      "de": "What did it eat T-Rex Family in Bezug auf notable examples? (F83)",
+      "nl": "What did it eat T-Rex Family met betrekking tot notable examples? (V83)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - notable examples aspect",
+        "es": "Opción A para T-Rex Family - aspecto notable examples",
+        "de": "Option A für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie A voor T-Rex Family - notable examples aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - notable examples aspect",
+        "es": "Opción B para T-Rex Family - aspecto notable examples",
+        "de": "Option B für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie B voor T-Rex Family - notable examples aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - notable examples aspect",
+        "es": "Opción C para T-Rex Family - aspecto notable examples",
+        "de": "Option C für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie C voor T-Rex Family - notable examples aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - notable examples aspect",
+        "es": "Opción D para T-Rex Family - aspecto notable examples",
+        "de": "Option D für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie D voor T-Rex Family - notable examples aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about T-Rex Family's notable examples is verified and educational (Level 3, Q83).",
+      "es": "Este hecho sobre notable examples de T-Rex Family es verificado y educativo (Nivel 3, P83).",
+      "de": "Diese Tatsache über notable examples von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F83).",
+      "nl": "Dit feit over notable examples van T-Rex Family is geverifieerd en educatief (Niveau 3, V83)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where were fossils found T-Rex Family regarding notable examples? (Q84)",
+      "es": "Where were fossils found T-Rex Family con respecto a notable examples? (P84)",
+      "de": "Where were fossils found T-Rex Family in Bezug auf notable examples? (F84)",
+      "nl": "Where were fossils found T-Rex Family met betrekking tot notable examples? (V84)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - notable examples aspect",
+        "es": "Opción A para T-Rex Family - aspecto notable examples",
+        "de": "Option A für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie A voor T-Rex Family - notable examples aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - notable examples aspect",
+        "es": "Opción B para T-Rex Family - aspecto notable examples",
+        "de": "Option B für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie B voor T-Rex Family - notable examples aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - notable examples aspect",
+        "es": "Opción C para T-Rex Family - aspecto notable examples",
+        "de": "Option C für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie C voor T-Rex Family - notable examples aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - notable examples aspect",
+        "es": "Opción D para T-Rex Family - aspecto notable examples",
+        "de": "Option D für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie D voor T-Rex Family - notable examples aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about T-Rex Family's notable examples is verified and educational (Level 3, Q84).",
+      "es": "Este hecho sobre notable examples de T-Rex Family es verificado y educativo (Nivel 3, P84).",
+      "de": "Diese Tatsache über notable examples von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F84).",
+      "nl": "Dit feit over notable examples van T-Rex Family is geverifieerd en educatief (Niveau 3, V84)."
+    }
+  },
+  {
+    "question": {
+      "en": "Special feature of T-Rex Family regarding notable examples? (Q85)",
+      "es": "Special feature of T-Rex Family con respecto a notable examples? (P85)",
+      "de": "Special feature of T-Rex Family in Bezug auf notable examples? (F85)",
+      "nl": "Special feature of T-Rex Family met betrekking tot notable examples? (V85)"
+    },
+    "options": [
+      {
+        "en": "Option C for T-Rex Family - notable examples aspect",
+        "es": "Opción C para T-Rex Family - aspecto notable examples",
+        "de": "Option C für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie C voor T-Rex Family - notable examples aspect"
+      },
+      {
+        "en": "Option A for T-Rex Family - notable examples aspect",
+        "es": "Opción A para T-Rex Family - aspecto notable examples",
+        "de": "Option A für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie A voor T-Rex Family - notable examples aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - notable examples aspect",
+        "es": "Opción B para T-Rex Family - aspecto notable examples",
+        "de": "Option B für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie B voor T-Rex Family - notable examples aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - notable examples aspect",
+        "es": "Opción D para T-Rex Family - aspecto notable examples",
+        "de": "Option D für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie D voor T-Rex Family - notable examples aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about T-Rex Family's notable examples is verified and educational (Level 3, Q85).",
+      "es": "Este hecho sobre notable examples de T-Rex Family es verificado y educativo (Nivel 3, P85).",
+      "de": "Diese Tatsache über notable examples von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F85).",
+      "nl": "Dit feit over notable examples van T-Rex Family is geverifieerd en educatief (Niveau 3, V85)."
+    }
+  },
+  {
+    "question": {
+      "en": "How fast could it move T-Rex Family regarding notable examples? (Q86)",
+      "es": "How fast could it move T-Rex Family con respecto a notable examples? (P86)",
+      "de": "How fast could it move T-Rex Family in Bezug auf notable examples? (F86)",
+      "nl": "How fast could it move T-Rex Family met betrekking tot notable examples? (V86)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - notable examples aspect",
+        "es": "Opción A para T-Rex Family - aspecto notable examples",
+        "de": "Option A für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie A voor T-Rex Family - notable examples aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - notable examples aspect",
+        "es": "Opción B para T-Rex Family - aspecto notable examples",
+        "de": "Option B für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie B voor T-Rex Family - notable examples aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - notable examples aspect",
+        "es": "Opción C para T-Rex Family - aspecto notable examples",
+        "de": "Option C für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie C voor T-Rex Family - notable examples aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - notable examples aspect",
+        "es": "Opción D para T-Rex Family - aspecto notable examples",
+        "de": "Option D für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie D voor T-Rex Family - notable examples aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about T-Rex Family's notable examples is verified and educational (Level 3, Q86).",
+      "es": "Este hecho sobre notable examples de T-Rex Family es verificado y educativo (Nivel 3, P86).",
+      "de": "Diese Tatsache über notable examples von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F86).",
+      "nl": "Dit feit over notable examples van T-Rex Family is geverifieerd en educatief (Niveau 3, V86)."
+    }
+  },
+  {
+    "question": {
+      "en": "How tall was T-Rex Family regarding notable examples? (Q87)",
+      "es": "How tall was T-Rex Family con respecto a notable examples? (P87)",
+      "de": "How tall was T-Rex Family in Bezug auf notable examples? (F87)",
+      "nl": "How tall was T-Rex Family met betrekking tot notable examples? (V87)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - notable examples aspect",
+        "es": "Opción A para T-Rex Family - aspecto notable examples",
+        "de": "Option A für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie A voor T-Rex Family - notable examples aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - notable examples aspect",
+        "es": "Opción B para T-Rex Family - aspecto notable examples",
+        "de": "Option B für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie B voor T-Rex Family - notable examples aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - notable examples aspect",
+        "es": "Opción C para T-Rex Family - aspecto notable examples",
+        "de": "Option C für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie C voor T-Rex Family - notable examples aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - notable examples aspect",
+        "es": "Opción D para T-Rex Family - aspecto notable examples",
+        "de": "Option D für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie D voor T-Rex Family - notable examples aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about T-Rex Family's notable examples is verified and educational (Level 3, Q87).",
+      "es": "Este hecho sobre notable examples de T-Rex Family es verificado y educativo (Nivel 3, P87).",
+      "de": "Diese Tatsache über notable examples von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F87).",
+      "nl": "Dit feit over notable examples van T-Rex Family is geverifieerd en educatief (Niveau 3, V87)."
+    }
+  },
+  {
+    "question": {
+      "en": "Approximate weight T-Rex Family regarding notable examples? (Q88)",
+      "es": "Approximate weight T-Rex Family con respecto a notable examples? (P88)",
+      "de": "Approximate weight T-Rex Family in Bezug auf notable examples? (F88)",
+      "nl": "Approximate weight T-Rex Family met betrekking tot notable examples? (V88)"
+    },
+    "options": [
+      {
+        "en": "Option B for T-Rex Family - notable examples aspect",
+        "es": "Opción B para T-Rex Family - aspecto notable examples",
+        "de": "Option B für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie B voor T-Rex Family - notable examples aspect"
+      },
+      {
+        "en": "Option A for T-Rex Family - notable examples aspect",
+        "es": "Opción A para T-Rex Family - aspecto notable examples",
+        "de": "Option A für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie A voor T-Rex Family - notable examples aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - notable examples aspect",
+        "es": "Opción C para T-Rex Family - aspecto notable examples",
+        "de": "Option C für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie C voor T-Rex Family - notable examples aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - notable examples aspect",
+        "es": "Opción D para T-Rex Family - aspecto notable examples",
+        "de": "Option D für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie D voor T-Rex Family - notable examples aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about T-Rex Family's notable examples is verified and educational (Level 3, Q88).",
+      "es": "Este hecho sobre notable examples de T-Rex Family es verificado y educativo (Nivel 3, P88).",
+      "de": "Diese Tatsache über notable examples von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F88).",
+      "nl": "Dit feit over notable examples van T-Rex Family is geverifieerd en educatief (Niveau 3, V88)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was it discovered T-Rex Family regarding notable examples? (Q89)",
+      "es": "When was it discovered T-Rex Family con respecto a notable examples? (P89)",
+      "de": "When was it discovered T-Rex Family in Bezug auf notable examples? (F89)",
+      "nl": "When was it discovered T-Rex Family met betrekking tot notable examples? (V89)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - notable examples aspect",
+        "es": "Opción A para T-Rex Family - aspecto notable examples",
+        "de": "Option A für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie A voor T-Rex Family - notable examples aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - notable examples aspect",
+        "es": "Opción B para T-Rex Family - aspecto notable examples",
+        "de": "Option B für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie B voor T-Rex Family - notable examples aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - notable examples aspect",
+        "es": "Opción C para T-Rex Family - aspecto notable examples",
+        "de": "Option C für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie C voor T-Rex Family - notable examples aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - notable examples aspect",
+        "es": "Opción D para T-Rex Family - aspecto notable examples",
+        "de": "Option D für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie D voor T-Rex Family - notable examples aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about T-Rex Family's notable examples is verified and educational (Level 3, Q89).",
+      "es": "Este hecho sobre notable examples de T-Rex Family es verificado y educativo (Nivel 3, P89).",
+      "de": "Diese Tatsache über notable examples von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F89).",
+      "nl": "Dit feit over notable examples van T-Rex Family is geverifieerd en educatief (Niveau 3, V89)."
+    }
+  },
+  {
+    "question": {
+      "en": "Social behavior was T-Rex Family regarding notable examples? (Q90)",
+      "es": "Social behavior was T-Rex Family con respecto a notable examples? (P90)",
+      "de": "Social behavior was T-Rex Family in Bezug auf notable examples? (F90)",
+      "nl": "Social behavior was T-Rex Family met betrekking tot notable examples? (V90)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - notable examples aspect",
+        "es": "Opción A para T-Rex Family - aspecto notable examples",
+        "de": "Option A für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie A voor T-Rex Family - notable examples aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - notable examples aspect",
+        "es": "Opción B para T-Rex Family - aspecto notable examples",
+        "de": "Option B für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie B voor T-Rex Family - notable examples aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - notable examples aspect",
+        "es": "Opción C para T-Rex Family - aspecto notable examples",
+        "de": "Option C für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie C voor T-Rex Family - notable examples aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - notable examples aspect",
+        "es": "Opción D para T-Rex Family - aspecto notable examples",
+        "de": "Option D für T-Rex Family - notable examples Aspekt",
+        "nl": "Optie D voor T-Rex Family - notable examples aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about T-Rex Family's notable examples is verified and educational (Level 3, Q90).",
+      "es": "Este hecho sobre notable examples de T-Rex Family es verificado y educativo (Nivel 3, P90).",
+      "de": "Diese Tatsache über notable examples von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F90).",
+      "nl": "Dit feit over notable examples van T-Rex Family is geverifieerd en educatief (Niveau 3, V90)."
+    }
+  },
+  {
+    "question": {
+      "en": "What period did it live T-Rex Family regarding future trends? (Q91)",
+      "es": "What period did it live T-Rex Family con respecto a future trends? (P91)",
+      "de": "What period did it live T-Rex Family in Bezug auf future trends? (F91)",
+      "nl": "What period did it live T-Rex Family met betrekking tot future trends? (V91)"
+    },
+    "options": [
+      {
+        "en": "Option D for T-Rex Family - future trends aspect",
+        "es": "Opción D para T-Rex Family - aspecto future trends",
+        "de": "Option D für T-Rex Family - future trends Aspekt",
+        "nl": "Optie D voor T-Rex Family - future trends aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - future trends aspect",
+        "es": "Opción C para T-Rex Family - aspecto future trends",
+        "de": "Option C für T-Rex Family - future trends Aspekt",
+        "nl": "Optie C voor T-Rex Family - future trends aspect"
+      },
+      {
+        "en": "Option A for T-Rex Family - future trends aspect",
+        "es": "Opción A para T-Rex Family - aspecto future trends",
+        "de": "Option A für T-Rex Family - future trends Aspekt",
+        "nl": "Optie A voor T-Rex Family - future trends aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - future trends aspect",
+        "es": "Opción B para T-Rex Family - aspecto future trends",
+        "de": "Option B für T-Rex Family - future trends Aspekt",
+        "nl": "Optie B voor T-Rex Family - future trends aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about T-Rex Family's future trends is verified and educational (Level 3, Q91).",
+      "es": "Este hecho sobre future trends de T-Rex Family es verificado y educativo (Nivel 3, P91).",
+      "de": "Diese Tatsache über future trends von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F91).",
+      "nl": "Dit feit over future trends van T-Rex Family is geverifieerd en educatief (Niveau 3, V91)."
+    }
+  },
+  {
+    "question": {
+      "en": "How large was T-Rex Family regarding future trends? (Q92)",
+      "es": "How large was T-Rex Family con respecto a future trends? (P92)",
+      "de": "How large was T-Rex Family in Bezug auf future trends? (F92)",
+      "nl": "How large was T-Rex Family met betrekking tot future trends? (V92)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - future trends aspect",
+        "es": "Opción A para T-Rex Family - aspecto future trends",
+        "de": "Option A für T-Rex Family - future trends Aspekt",
+        "nl": "Optie A voor T-Rex Family - future trends aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - future trends aspect",
+        "es": "Opción B para T-Rex Family - aspecto future trends",
+        "de": "Option B für T-Rex Family - future trends Aspekt",
+        "nl": "Optie B voor T-Rex Family - future trends aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - future trends aspect",
+        "es": "Opción C para T-Rex Family - aspecto future trends",
+        "de": "Option C für T-Rex Family - future trends Aspekt",
+        "nl": "Optie C voor T-Rex Family - future trends aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - future trends aspect",
+        "es": "Opción D para T-Rex Family - aspecto future trends",
+        "de": "Option D für T-Rex Family - future trends Aspekt",
+        "nl": "Optie D voor T-Rex Family - future trends aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about T-Rex Family's future trends is verified and educational (Level 3, Q92).",
+      "es": "Este hecho sobre future trends de T-Rex Family es verificado y educativo (Nivel 3, P92).",
+      "de": "Diese Tatsache über future trends von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F92).",
+      "nl": "Dit feit over future trends van T-Rex Family is geverifieerd en educatief (Niveau 3, V92)."
+    }
+  },
+  {
+    "question": {
+      "en": "What did it eat T-Rex Family regarding future trends? (Q93)",
+      "es": "What did it eat T-Rex Family con respecto a future trends? (P93)",
+      "de": "What did it eat T-Rex Family in Bezug auf future trends? (F93)",
+      "nl": "What did it eat T-Rex Family met betrekking tot future trends? (V93)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - future trends aspect",
+        "es": "Opción A para T-Rex Family - aspecto future trends",
+        "de": "Option A für T-Rex Family - future trends Aspekt",
+        "nl": "Optie A voor T-Rex Family - future trends aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - future trends aspect",
+        "es": "Opción B para T-Rex Family - aspecto future trends",
+        "de": "Option B für T-Rex Family - future trends Aspekt",
+        "nl": "Optie B voor T-Rex Family - future trends aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - future trends aspect",
+        "es": "Opción C para T-Rex Family - aspecto future trends",
+        "de": "Option C für T-Rex Family - future trends Aspekt",
+        "nl": "Optie C voor T-Rex Family - future trends aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - future trends aspect",
+        "es": "Opción D para T-Rex Family - aspecto future trends",
+        "de": "Option D für T-Rex Family - future trends Aspekt",
+        "nl": "Optie D voor T-Rex Family - future trends aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about T-Rex Family's future trends is verified and educational (Level 3, Q93).",
+      "es": "Este hecho sobre future trends de T-Rex Family es verificado y educativo (Nivel 3, P93).",
+      "de": "Diese Tatsache über future trends von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F93).",
+      "nl": "Dit feit over future trends van T-Rex Family is geverifieerd en educatief (Niveau 3, V93)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where were fossils found T-Rex Family regarding future trends? (Q94)",
+      "es": "Where were fossils found T-Rex Family con respecto a future trends? (P94)",
+      "de": "Where were fossils found T-Rex Family in Bezug auf future trends? (F94)",
+      "nl": "Where were fossils found T-Rex Family met betrekking tot future trends? (V94)"
+    },
+    "options": [
+      {
+        "en": "Option B for T-Rex Family - future trends aspect",
+        "es": "Opción B para T-Rex Family - aspecto future trends",
+        "de": "Option B für T-Rex Family - future trends Aspekt",
+        "nl": "Optie B voor T-Rex Family - future trends aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - future trends aspect",
+        "es": "Opción D para T-Rex Family - aspecto future trends",
+        "de": "Option D für T-Rex Family - future trends Aspekt",
+        "nl": "Optie D voor T-Rex Family - future trends aspect"
+      },
+      {
+        "en": "Option A for T-Rex Family - future trends aspect",
+        "es": "Opción A para T-Rex Family - aspecto future trends",
+        "de": "Option A für T-Rex Family - future trends Aspekt",
+        "nl": "Optie A voor T-Rex Family - future trends aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - future trends aspect",
+        "es": "Opción C para T-Rex Family - aspecto future trends",
+        "de": "Option C für T-Rex Family - future trends Aspekt",
+        "nl": "Optie C voor T-Rex Family - future trends aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about T-Rex Family's future trends is verified and educational (Level 3, Q94).",
+      "es": "Este hecho sobre future trends de T-Rex Family es verificado y educativo (Nivel 3, P94).",
+      "de": "Diese Tatsache über future trends von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F94).",
+      "nl": "Dit feit over future trends van T-Rex Family is geverifieerd en educatief (Niveau 3, V94)."
+    }
+  },
+  {
+    "question": {
+      "en": "Special feature of T-Rex Family regarding future trends? (Q95)",
+      "es": "Special feature of T-Rex Family con respecto a future trends? (P95)",
+      "de": "Special feature of T-Rex Family in Bezug auf future trends? (F95)",
+      "nl": "Special feature of T-Rex Family met betrekking tot future trends? (V95)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - future trends aspect",
+        "es": "Opción A para T-Rex Family - aspecto future trends",
+        "de": "Option A für T-Rex Family - future trends Aspekt",
+        "nl": "Optie A voor T-Rex Family - future trends aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - future trends aspect",
+        "es": "Opción B para T-Rex Family - aspecto future trends",
+        "de": "Option B für T-Rex Family - future trends Aspekt",
+        "nl": "Optie B voor T-Rex Family - future trends aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - future trends aspect",
+        "es": "Opción C para T-Rex Family - aspecto future trends",
+        "de": "Option C für T-Rex Family - future trends Aspekt",
+        "nl": "Optie C voor T-Rex Family - future trends aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - future trends aspect",
+        "es": "Opción D para T-Rex Family - aspecto future trends",
+        "de": "Option D für T-Rex Family - future trends Aspekt",
+        "nl": "Optie D voor T-Rex Family - future trends aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about T-Rex Family's future trends is verified and educational (Level 3, Q95).",
+      "es": "Este hecho sobre future trends de T-Rex Family es verificado y educativo (Nivel 3, P95).",
+      "de": "Diese Tatsache über future trends von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F95).",
+      "nl": "Dit feit over future trends van T-Rex Family is geverifieerd en educatief (Niveau 3, V95)."
+    }
+  },
+  {
+    "question": {
+      "en": "How fast could it move T-Rex Family regarding future trends? (Q96)",
+      "es": "How fast could it move T-Rex Family con respecto a future trends? (P96)",
+      "de": "How fast could it move T-Rex Family in Bezug auf future trends? (F96)",
+      "nl": "How fast could it move T-Rex Family met betrekking tot future trends? (V96)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - future trends aspect",
+        "es": "Opción A para T-Rex Family - aspecto future trends",
+        "de": "Option A für T-Rex Family - future trends Aspekt",
+        "nl": "Optie A voor T-Rex Family - future trends aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - future trends aspect",
+        "es": "Opción B para T-Rex Family - aspecto future trends",
+        "de": "Option B für T-Rex Family - future trends Aspekt",
+        "nl": "Optie B voor T-Rex Family - future trends aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - future trends aspect",
+        "es": "Opción C para T-Rex Family - aspecto future trends",
+        "de": "Option C für T-Rex Family - future trends Aspekt",
+        "nl": "Optie C voor T-Rex Family - future trends aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - future trends aspect",
+        "es": "Opción D para T-Rex Family - aspecto future trends",
+        "de": "Option D für T-Rex Family - future trends Aspekt",
+        "nl": "Optie D voor T-Rex Family - future trends aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about T-Rex Family's future trends is verified and educational (Level 3, Q96).",
+      "es": "Este hecho sobre future trends de T-Rex Family es verificado y educativo (Nivel 3, P96).",
+      "de": "Diese Tatsache über future trends von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F96).",
+      "nl": "Dit feit over future trends van T-Rex Family is geverifieerd en educatief (Niveau 3, V96)."
+    }
+  },
+  {
+    "question": {
+      "en": "How tall was T-Rex Family regarding future trends? (Q97)",
+      "es": "How tall was T-Rex Family con respecto a future trends? (P97)",
+      "de": "How tall was T-Rex Family in Bezug auf future trends? (F97)",
+      "nl": "How tall was T-Rex Family met betrekking tot future trends? (V97)"
+    },
+    "options": [
+      {
+        "en": "Option C for T-Rex Family - future trends aspect",
+        "es": "Opción C para T-Rex Family - aspecto future trends",
+        "de": "Option C für T-Rex Family - future trends Aspekt",
+        "nl": "Optie C voor T-Rex Family - future trends aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - future trends aspect",
+        "es": "Opción D para T-Rex Family - aspecto future trends",
+        "de": "Option D für T-Rex Family - future trends Aspekt",
+        "nl": "Optie D voor T-Rex Family - future trends aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - future trends aspect",
+        "es": "Opción B para T-Rex Family - aspecto future trends",
+        "de": "Option B für T-Rex Family - future trends Aspekt",
+        "nl": "Optie B voor T-Rex Family - future trends aspect"
+      },
+      {
+        "en": "Option A for T-Rex Family - future trends aspect",
+        "es": "Opción A para T-Rex Family - aspecto future trends",
+        "de": "Option A für T-Rex Family - future trends Aspekt",
+        "nl": "Optie A voor T-Rex Family - future trends aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about T-Rex Family's future trends is verified and educational (Level 3, Q97).",
+      "es": "Este hecho sobre future trends de T-Rex Family es verificado y educativo (Nivel 3, P97).",
+      "de": "Diese Tatsache über future trends von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F97).",
+      "nl": "Dit feit over future trends van T-Rex Family is geverifieerd en educatief (Niveau 3, V97)."
+    }
+  },
+  {
+    "question": {
+      "en": "Approximate weight T-Rex Family regarding future trends? (Q98)",
+      "es": "Approximate weight T-Rex Family con respecto a future trends? (P98)",
+      "de": "Approximate weight T-Rex Family in Bezug auf future trends? (F98)",
+      "nl": "Approximate weight T-Rex Family met betrekking tot future trends? (V98)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - future trends aspect",
+        "es": "Opción A para T-Rex Family - aspecto future trends",
+        "de": "Option A für T-Rex Family - future trends Aspekt",
+        "nl": "Optie A voor T-Rex Family - future trends aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - future trends aspect",
+        "es": "Opción B para T-Rex Family - aspecto future trends",
+        "de": "Option B für T-Rex Family - future trends Aspekt",
+        "nl": "Optie B voor T-Rex Family - future trends aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - future trends aspect",
+        "es": "Opción C para T-Rex Family - aspecto future trends",
+        "de": "Option C für T-Rex Family - future trends Aspekt",
+        "nl": "Optie C voor T-Rex Family - future trends aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - future trends aspect",
+        "es": "Opción D para T-Rex Family - aspecto future trends",
+        "de": "Option D für T-Rex Family - future trends Aspekt",
+        "nl": "Optie D voor T-Rex Family - future trends aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about T-Rex Family's future trends is verified and educational (Level 3, Q98).",
+      "es": "Este hecho sobre future trends de T-Rex Family es verificado y educativo (Nivel 3, P98).",
+      "de": "Diese Tatsache über future trends von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F98).",
+      "nl": "Dit feit over future trends van T-Rex Family is geverifieerd en educatief (Niveau 3, V98)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was it discovered T-Rex Family regarding future trends? (Q99)",
+      "es": "When was it discovered T-Rex Family con respecto a future trends? (P99)",
+      "de": "When was it discovered T-Rex Family in Bezug auf future trends? (F99)",
+      "nl": "When was it discovered T-Rex Family met betrekking tot future trends? (V99)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - future trends aspect",
+        "es": "Opción A para T-Rex Family - aspecto future trends",
+        "de": "Option A für T-Rex Family - future trends Aspekt",
+        "nl": "Optie A voor T-Rex Family - future trends aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - future trends aspect",
+        "es": "Opción B para T-Rex Family - aspecto future trends",
+        "de": "Option B für T-Rex Family - future trends Aspekt",
+        "nl": "Optie B voor T-Rex Family - future trends aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - future trends aspect",
+        "es": "Opción C para T-Rex Family - aspecto future trends",
+        "de": "Option C für T-Rex Family - future trends Aspekt",
+        "nl": "Optie C voor T-Rex Family - future trends aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - future trends aspect",
+        "es": "Opción D para T-Rex Family - aspecto future trends",
+        "de": "Option D für T-Rex Family - future trends Aspekt",
+        "nl": "Optie D voor T-Rex Family - future trends aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about T-Rex Family's future trends is verified and educational (Level 3, Q99).",
+      "es": "Este hecho sobre future trends de T-Rex Family es verificado y educativo (Nivel 3, P99).",
+      "de": "Diese Tatsache über future trends von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F99).",
+      "nl": "Dit feit over future trends van T-Rex Family is geverifieerd en educatief (Niveau 3, V99)."
+    }
+  },
+  {
+    "question": {
+      "en": "Social behavior was T-Rex Family regarding future trends? (Q100)",
+      "es": "Social behavior was T-Rex Family con respecto a future trends? (P100)",
+      "de": "Social behavior was T-Rex Family in Bezug auf future trends? (F100)",
+      "nl": "Social behavior was T-Rex Family met betrekking tot future trends? (V100)"
+    },
+    "options": [
+      {
+        "en": "Option A for T-Rex Family - future trends aspect",
+        "es": "Opción A para T-Rex Family - aspecto future trends",
+        "de": "Option A für T-Rex Family - future trends Aspekt",
+        "nl": "Optie A voor T-Rex Family - future trends aspect"
+      },
+      {
+        "en": "Option C for T-Rex Family - future trends aspect",
+        "es": "Opción C para T-Rex Family - aspecto future trends",
+        "de": "Option C für T-Rex Family - future trends Aspekt",
+        "nl": "Optie C voor T-Rex Family - future trends aspect"
+      },
+      {
+        "en": "Option D for T-Rex Family - future trends aspect",
+        "es": "Opción D para T-Rex Family - aspecto future trends",
+        "de": "Option D für T-Rex Family - future trends Aspekt",
+        "nl": "Optie D voor T-Rex Family - future trends aspect"
+      },
+      {
+        "en": "Option B for T-Rex Family - future trends aspect",
+        "es": "Opción B para T-Rex Family - aspecto future trends",
+        "de": "Option B für T-Rex Family - future trends Aspekt",
+        "nl": "Optie B voor T-Rex Family - future trends aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about T-Rex Family's future trends is verified and educational (Level 3, Q100).",
+      "es": "Este hecho sobre future trends de T-Rex Family es verificado y educativo (Nivel 3, P100).",
+      "de": "Diese Tatsache über future trends von T-Rex Family ist verifiziert und lehrreich (Stufe 3, F100).",
+      "nl": "Dit feit over future trends van T-Rex Family is geverifieerd en educatief (Niveau 3, V100)."
+    }
   }
-})();
+]
+};

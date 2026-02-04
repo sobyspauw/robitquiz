@@ -1,1260 +1,4104 @@
-﻿// Sports Icons Quiz - Level 3: Easy-Medium
-(function() {
-  const level3 = {
-    name: {
-      en: "Sports Icons - Easy-Medium",
-      es: "Iconos del Deporte - Fácil-Medio",
-      de: "Sport-Ikonen - Einfach-Mittel",
-      nl: "Sporticonen - Makkelijk-Gemiddeld"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Sports Icons",
+      "es": "Pregunta 1 sobre Sports Icons",
+      "de": "Frage 1 über Sports Icons",
+      "nl": "Vraag 1 over Sports Icons"
     },
-    questions: [
+    "options": [
       {
-        question: {
-          en: "Which football team did Johan Cruyff both play for and manage?",
-          es: "¿Para qué equipo de fútbol jugó y entrenó Johan Cruyff?",
-          de: "Für welchen Fußballverein spielte und trainierte Johan Cruyff?",
-          nl: "Voor welke voetbalclub speelde en trainde Johan Cruyff?"
-        },
-        options: [
-          { en: "FC Barcelona", es: "FC Barcelona", de: "FC Barcelona", nl: "FC Barcelona" },
-          { en: "Real Madrid", es: "Real Madrid", de: "Real Madrid", nl: "Real Madrid" },
-          { en: "AC Milan", es: "AC Milan", de: "AC Milan", nl: "AC Milan" },
-          { en: "Bayern Munich", es: "Bayern Munich", de: "Bayern Munich", nl: "Bayern Munich" },
-        {
-            question: {
-                en: "Which tennis player has won the most Grand Slam singles titles in men's tennis history?",
-                es: "¿Qué tenista ha ganado más títulos individuales de Grand Slam en la historia del tenis masculino?",
-                de: "Welcher Tennisspieler hat die meisten Grand-Slam-Einzeltitel in der Geschichte des Herrentennis gewonnen?",
-                nl: "Welke tennisser heeft de meeste Grand Slam enkelspeltitels in de geschiedenis van het herentennis gewonnen?"
-            },
-            options: [
-                { en: "Novak Djokovic", es: "Novak Djokovic", de: "Novak Djokovic", nl: "Novak Djokovic" },
-                { en: "Rafael Nadal", es: "Rafael Nadal", de: "Rafael Nadal", nl: "Rafael Nadal" },
-                { en: "Roger Federer", es: "Roger Federer", de: "Roger Federer", nl: "Roger Federer" },
-                { en: "Pete Sampras", es: "Pete Sampras", de: "Pete Sampras", nl: "Pete Sampras" }
-            ],
-            correct: 0,
-            explanation: {
-                en: "Novak Djokovic holds the record for most Grand Slam men's singles titles with 24 victories (as of 2024), surpassing Rafael Nadal (22) and Roger Federer (20). The Serbian has won each Grand Slam tournament at least three times, demonstrating his versatility across all surfaces.",
-                es: "Novak Djokovic tiene el récord de más títulos individuales masculinos de Grand Slam con 24 victorias (hasta 2024), superando a Rafael Nadal (22) y Roger Federer (20). El serbio ha ganado cada torneo de Grand Slam al menos tres veces, demostrando su versatilidad en todas las superficies.",
-                de: "Novak Djokovic hält den Rekord für die meisten Grand-Slam-Einzeltitel bei den Herren mit 24 Siegen (Stand 2024) und übertrifft damit Rafael Nadal (22) und Roger Federer (20). Der Serbe hat jedes Grand-Slam-Turnier mindestens dreimal gewonnen und zeigt seine Vielseitigkeit auf allen Belägen.",
-                nl: "Novak Djokovic heeft het record voor de meeste Grand Slam enkelspeltitels bij de heren met 24 overwinningen (vanaf 2024), waarmee hij Rafael Nadal (22) en Roger Federer (20) overtreft. De Serviër heeft elk Grand Slam-toernooi minstens drie keer gewonnen, wat zijn veelzijdigheid op alle ondergronden aantoont."
-            }
-        }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Johan Cruyff was both a legendary player and successful manager for FC Barcelona, revolutionizing the club's style of play and establishing 'Total Football'.",
-          es: "Johan Cruyff fue tanto un jugador legendario como un entrenador exitoso para el FC Barcelona, revolucionando el estilo de juego del club y estableciendo el 'Fútbol Total'.",
-          de: "Johan Cruyff war sowohl ein legendärer Spieler als auch ein erfolgreicher Trainer für den FC Barcelona, revolutionierte den Spielstil des Vereins und etablierte 'Total Football'.",
-          nl: "Johan Cruyff was zowel een legendarische speler als succesvolle trainer voor FC Barcelona, hij revolutioneerde de speelstijl van de club en introduceerde 'Totaalvoetbal'."
-        }
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
       },
       {
-        question: {
-          en: "Which swimming stroke was Michael Phelps most famous for?",
-          es: "¿Por qué estilo de natación era más famoso Michael Phelps?",
-          de: "Für welchen Schwimmstil war Michael Phelps am berühmtesten?",
-          nl: "Voor welke zwemslag was Michael Phelps het meest beroemd?"
-        },
-        options: [
-          { en: "Butterfly", es: "Mariposa", de: "Schmetterling", nl: "Vlinderslag" },
-          { en: "Freestyle", es: "Estilo libre", de: "Freistil", nl: "Vrije slag" },
-          { en: "Backstroke", es: "Espalda", de: "Rückenschwimmen", nl: "Rugslag" },
-          { en: "Breaststroke", es: "Pecho", de: "Brustschwimmen", nl: "Schoolslag" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Michael Phelps was most dominant in butterfly events, particularly the 100m and 200m butterfly, though he excelled in multiple strokes and individual medley events.",
-          es: "Michael Phelps fue más dominante en eventos de mariposa, particularmente los 100m y 200m mariposa, aunque destacó en múltiples estilos y eventos de medley individual.",
-          de: "Michael Phelps war am dominantesten in Schmetterling-Ereignissen, besonders über 100m und 200m Schmetterling, obwohl er in mehreren Schwimmstilen und Lagen-Wettbewerben brillierte.",
-          nl: "Michael Phelps was het meest dominant in vlinderslag evenementen, vooral de 100m en 200m vlinderslag, hoewel hij uitblonk in meerdere slagen en wisselslag evenementen."
-        }
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
       },
       {
-        question: {
-          en: "In which sport did Serena Williams achieve her greatest success?",
-          es: "¿En qué deporte logró Serena Williams su mayor éxito?",
-          de: "In welcher Sportart erzielte Serena Williams ihre größten Erfolge?",
-          nl: "In welke sport behaalde Serena Williams haar grootste successen?"
-        },
-        options: [
-          { en: "Tennis", es: "Tenis", de: "Tennis", nl: "Tennis" },
-          { en: "Basketball", es: "Baloncesto", de: "Basketball", nl: "Basketbal" },
-          { en: "Athletics", es: "Atletismo", de: "Leichtathletik", nl: "Atletiek" },
-          { en: "Volleyball", es: "Voleibol", de: "Volleyball", nl: "Volleybal" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Serena Williams is one of the greatest tennis players of all time, winning 23 Grand Slam singles titles and dominating women's tennis for over two decades.",
-          es: "Serena Williams es una de las mejores tenistas de todos los tiempos, ganando 23 títulos de Grand Slam individuales y dominando el tenis femenino por más de dos décadas.",
-          de: "Serena Williams ist eine der größten Tennisspielerinnen aller Zeiten, sie gewann 23 Grand-Slam-Einzeltitel und dominierte das Damentennis über zwei Jahrzehnte.",
-          nl: "Serena Williams is een van de grootste tennissers aller tijden, ze won 23 Grand Slam enkelspeltitels en domineerde het damestennis gedurende meer dan twee decennia."
-        }
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
       },
       {
-        question: {
-          en: "Which position did Lionel Messi primarily play during his career?",
-          es: "¿En qué posición jugó principalmente Lionel Messi durante su carrera?",
-          de: "Auf welcher Position spielte Lionel Messi hauptsächlich während seiner Karriere?",
-          nl: "Op welke positie speelde Lionel Messi voornamelijk tijdens zijn carrière?"
-        },
-        options: [
-          { en: "Forward/Winger", es: "Delantero/Extremo", de: "Stürmer/Flügelspieler", nl: "Aanvaller/Vleugelspeler" },
-          { en: "Midfielder", es: "Centrocampista", de: "Mittelfeldspieler", nl: "Middenvelder" },
-          { en: "Defender", es: "Defensor", de: "Verteidiger", nl: "Verdediger" },
-          { en: "Goalkeeper", es: "Portero", de: "Torwart", nl: "Keeper" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Lionel Messi played primarily as a forward and right winger, known for his incredible dribbling, goal-scoring ability, and playmaking skills from attacking positions.",
-          es: "Lionel Messi jugó principalmente como delantero y extremo derecho, conocido por su increíble regate, capacidad goleadora y habilidades de creación de juego desde posiciones de ataque.",
-          de: "Lionel Messi spielte hauptsächlich als Stürmer und rechter Flügelspieler, bekannt für sein unglaubliches Dribbling, seine Torschussfähigkeiten und Spielgestaltung aus Angriffspositionen.",
-          nl: "Lionel Messi speelde voornamelijk als aanvaller en rechtsbuiten, bekend om zijn ongelooflijke dribbel, doelpuntenproductie en spelmaker vaardigheden vanuit aanvallende posities."
-        }
-      },
-      {
-        question: {
-          en: "Which basketball position was Shaquille O'Neal famous for playing?",
-          es: "¿En qué posición de baloncesto era famoso por jugar Shaquille O'Neal?",
-          de: "Auf welcher Basketballposition war Shaquille O'Neal berühmt?",
-          nl: "Op welke basketbalpositie was Shaquille O'Neal beroemd?"
-        },
-        options: [
-          { en: "Center", es: "Pívot", de: "Center", nl: "Center" },
-          { en: "Point Guard", es: "Base", de: "Spielmacher", nl: "Point Guard" },
-          { en: "Shooting Guard", es: "Escolta", de: "Shooting Guard", nl: "Shooting Guard" },
-          { en: "Small Forward", es: "Alero", de: "Small Forward", nl: "Small Forward" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Shaquille O'Neal was a dominant center, standing 7'1\" and weighing over 300 pounds, using his massive size and strength to dominate the paint and win 4 NBA championships.",
-          es: "Shaquille O'Neal fue un pívot dominante, midiendo 2.16m y pesando más de 135kg, usando su tamaño masivo y fuerza para dominar la pintura y ganar 4 campeonatos de la NBA.",
-          de: "Shaquille O'Neal war ein dominanter Center, 2,16m groß und über 135kg schwer, nutzte seine massive Größe und Kraft um die Zone zu beherrschen und 4 NBA-Meisterschaften zu gewinnen.",
-          nl: "Shaquille O'Neal was een dominante center, 2.16m lang en meer dan 135kg zwaar, hij gebruikte zijn massieve omvang en kracht om de zone te domineren en 4 NBA-kampioenschappen te winnen."
-        }
-      },
-      {
-        question: {
-          en: "Which golf major championship is played at Augusta National?",
-          es: "¿Qué campeonato major de golf se juega en Augusta National?",
-          de: "Welche Golf-Major-Meisterschaft wird in Augusta National gespielt?",
-          nl: "Welk golf major kampioenschap wordt gespeeld op Augusta National?"
-        },
-        options: [
-          { en: "The Masters", es: "The Masters", de: "The Masters", nl: "The Masters" },
-          { en: "US Open", es: "US Open", de: "US Open", nl: "US Open" },
-          { en: "The Open Championship", es: "The Open Championship", de: "The Open Championship", nl: "The Open Championship" },
-          { en: "PGA Championship", es: "Campeonato PGA", de: "PGA Championship", nl: "PGA Championship" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Masters Tournament is held annually at Augusta National Golf Club in Georgia, known for its iconic green jacket awarded to the winner and beautiful azalea flowers.",
-          es: "El Torneo Masters se celebra anualmente en el Augusta National Golf Club en Georgia, conocido por su icónica chaqueta verde otorgada al ganador y hermosas flores de azalea.",
-          de: "Das Masters-Turnier findet jährlich im Augusta National Golf Club in Georgia statt, bekannt für das ikonische grüne Jackett für den Gewinner und wunderschöne Azaleenblüten.",
-          nl: "Het Masters Toernooi wordt jaarlijks gehouden op Augusta National Golf Club in Georgia, bekend om het iconische groene jasje voor de winnaar en prachtige azalea bloemen."
-        }
-      },
-      {
-        question: {
-          en: "Which Formula 1 team has won the most Constructors' Championships?",
-          es: "¿Qué equipo de Fórmula 1 ha ganado más Campeonatos de Constructores?",
-          de: "Welches Formel-1-Team hat die meisten Konstrukteurs-Weltmeisterschaften gewonnen?",
-          nl: "Welk Formule 1-team heeft de meeste Constructeurs Kampioenschappen gewonnen?"
-        },
-        options: [
-          { en: "Ferrari", es: "Ferrari", de: "Ferrari", nl: "Ferrari" },
-          { en: "Mercedes", es: "Mercedes", de: "Mercedes", nl: "Mercedes" },
-          { en: "McLaren", es: "McLaren", de: "McLaren", nl: "McLaren" },
-          { en: "Red Bull Racing", es: "Red Bull Racing", de: "Red Bull Racing", nl: "Red Bull Racing" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Ferrari has won 16 Constructors' Championships, more than any other team in Formula 1 history, with their first title in 1961 and most recent in 2008.",
-          es: "Ferrari ha ganado 16 Campeonatos de Constructores, más que cualquier otro equipo en la historia de la Fórmula 1, con su primer título en 1961 y el más reciente en 2008.",
-          de: "Ferrari hat 16 Konstrukteurs-Weltmeisterschaften gewonnen, mehr als jedes andere Team in der Formel-1-Geschichte, mit ihrem ersten Titel 1961 und dem letzten 2008.",
-          nl: "Ferrari heeft 16 Constructeurs Kampioenschappen gewonnen, meer dan enig ander team in de Formule 1-geschiedenis, met hun eerste titel in 1961 en de meest recente in 2008."
-        }
-      },
-      {
-        question: {
-          en: "Which boxing weight class was Mike Tyson most famous in?",
-          es: "¿En qué categoría de peso del boxeo era más famoso Mike Tyson?",
-          de: "In welcher Boxgewichtsklasse war Mike Tyson am berühmtesten?",
-          nl: "In welke boksgewichtsklasse was Mike Tyson het meest beroemd?"
-        },
-        options: [
-          { en: "Heavyweight", es: "Peso pesado", de: "Schwergewicht", nl: "Zwaargewicht" },
-          { en: "Light Heavyweight", es: "Peso semipesado", de: "Halbschwergewicht", nl: "Halfzwaargewicht" },
-          { en: "Middleweight", es: "Peso medio", de: "Mittelgewicht", nl: "Middengewicht" },
-          { en: "Welterweight", es: "Peso wélter", de: "Weltergewicht", nl: "Weltergewicht" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Mike Tyson was the undisputed heavyweight champion, becoming the youngest heavyweight champion in history at age 20 and known for his devastating knockout power.",
-          es: "Mike Tyson fue el campeón indiscutido de peso pesado, convirtiéndose en el campeón de peso pesado más joven de la historia a los 20 años y conocido por su devastador poder de nocaut.",
-          de: "Mike Tyson war der unbestrittene Schwergewichtschampion, wurde mit 20 Jahren der jüngste Schwergewichtschampion der Geschichte und war bekannt für seine verheerende Knockout-Kraft.",
-          nl: "Mike Tyson was de onbetwiste zwaargewicht kampioen, hij werd op 20-jarige leeftijd de jongste zwaargewicht kampioen in de geschiedenis en stond bekend om zijn verwoestende knockout kracht."
-        }
-      },
-      {
-        question: {
-          en: "Which cycling team did Lance Armstrong primarily race for during his Tour de France victories?",
-          es: "¿Para qué equipo ciclista corrió principalmente Lance Armstrong durante sus victorias en el Tour de Francia?",
-          de: "Für welches Radsportteam fuhr Lance Armstrong hauptsächlich während seiner Tour de France-Siege?",
-          nl: "Voor welk wielrenteam reed Lance Armstrong voornamelijk tijdens zijn Tour de France overwinningen?"
-        },
-        options: [
-          { en: "US Postal Service", es: "US Postal Service", de: "US Postal Service", nl: "US Postal Service" },
-          { en: "Team Sky", es: "Team Sky", de: "Team Sky", nl: "Team Sky" },
-          { en: "Astana", es: "Astana", de: "Astana", nl: "Astana" },
-          { en: "Discovery Channel", es: "Discovery Channel", de: "Discovery Channel", nl: "Discovery Channel" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Lance Armstrong raced for the US Postal Service team during most of his Tour de France victories from 1999-2004, though these titles were later stripped due to doping.",
-          es: "Lance Armstrong corrió para el equipo US Postal Service durante la mayoría de sus victorias en el Tour de Francia de 1999-2004, aunque estos títulos fueron posteriormente retirados por dopaje.",
-          de: "Lance Armstrong fuhr für das US Postal Service Team während der meisten seiner Tour de France-Siege von 1999-2004, obwohl diese Titel später wegen Dopings aberkannt wurden.",
-          nl: "Lance Armstrong reed voor het US Postal Service team tijdens de meeste van zijn Tour de France overwinningen van 1999-2004, hoewel deze titels later werden afgenomen vanwege doping."
-        }
-      },
-      {
-        question: {
-          en: "Which gymnastics apparatus is Nadia Comaneci most famous for scoring the first perfect 10?",
-          es: "¿En qué aparato de gimnasia es más famosa Nadia Comaneci por anotar el primer 10 perfecto?",
-          de: "An welchem Turngerät ist Nadia Comaneci am berühmtesten für die erste perfekte 10?",
-          nl: "Op welk gymnastiektoestel is Nadia Comaneci het meest beroemd voor het scoren van de eerste perfecte 10?"
-        },
-        options: [
-          { en: "Uneven bars", es: "Barras asimétricas", de: "Stufenbarren", nl: "Ongelijke leggers" },
-          { en: "Balance beam", es: "Barra de equilibrio", de: "Schwebebalken", nl: "Evenwichtsbalk" },
-          { en: "Floor exercise", es: "Ejercicio de suelo", de: "Bodenturnen", nl: "Vloeroefening" },
-          { en: "Vault", es: "Salto", de: "Sprung", nl: "Sprong" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Nadia Comaneci scored the first perfect 10 in Olympic gymnastics history on the uneven bars at the 1976 Montreal Olympics, revolutionizing the sport's scoring system.",
-          es: "Nadia Comaneci anotó el primer 10 perfecto en la historia de la gimnasia olímpica en las barras asimétricas en los Juegos Olímpicos de Montreal 1976, revolucionando el sistema de puntuación del deporte.",
-          de: "Nadia Comaneci erzielte die erste perfekte 10 in der olympischen Turngeschichte am Stufenbarren bei den Olympischen Spielen 1976 in Montreal und revolutionierte das Bewertungssystem des Sports.",
-          nl: "Nadia Comaneci scoorde de eerste perfecte 10 in de olympische gymnastiekgeschiedenis op de ongelijke leggers bij de Olympische Spelen van Montreal in 1976, wat het puntensysteem van de sport revolutioneerde."
-        }
-      },
-      {
-        question: {
-          en: "Which baseball team did Babe Ruth spend most of his career with?",
-          es: "¿Con qué equipo de béisbol pasó Babe Ruth la mayor parte de su carrera?",
-          de: "Bei welchem Baseballteam verbrachte Babe Ruth den größten Teil seiner Karriere?",
-          nl: "Bij welk honkbalteam bracht Babe Ruth het grootste deel van zijn carrière door?"
-        },
-        options: [
-          { en: "New York Yankees", es: "New York Yankees", de: "New York Yankees", nl: "New York Yankees" },
-          { en: "Boston Red Sox", es: "Boston Red Sox", de: "Boston Red Sox", nl: "Boston Red Sox" },
-          { en: "Brooklyn Dodgers", es: "Brooklyn Dodgers", de: "Brooklyn Dodgers", nl: "Brooklyn Dodgers" },
-          { en: "Chicago Cubs", es: "Chicago Cubs", de: "Chicago Cubs", nl: "Chicago Cubs" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Babe Ruth played 15 seasons with the New York Yankees (1920-1934), where he became a legend and helped the team win multiple World Series championships.",
-          es: "Babe Ruth jugó 15 temporadas con los New York Yankees (1920-1934), donde se convirtió en una leyenda y ayudó al equipo a ganar múltiples campeonatos de Serie Mundial.",
-          de: "Babe Ruth spielte 15 Saisons bei den New York Yankees (1920-1934), wo er zur Legende wurde und dem Team half, mehrere World Series-Meisterschaften zu gewinnen.",
-          nl: "Babe Ruth speelde 15 seizoenen bij de New York Yankees (1920-1934), waar hij een legende werd en het team hielp meerdere World Series kampioenschappen te winnen."
-        }
-      },
-      {
-        question: {
-          en: "Which ice hockey league is Wayne Gretzky most famous for playing in?",
-          es: "¿En qué liga de hockey sobre hielo es más famoso Wayne Gretzky por jugar?",
-          de: "In welcher Eishockeyliga ist Wayne Gretzky am berühmtesten?",
-          nl: "In welke ijshockeycompetitie is Wayne Gretzky het meest beroemd?"
-        },
-        options: [
-          { en: "NHL", es: "NHL", de: "NHL", nl: "NHL" },
-          { en: "KHL", es: "KHL", de: "KHL", nl: "KHL" },
-          { en: "AHL", es: "AHL", de: "AHL", nl: "AHL" },
-          { en: "ECHL", es: "ECHL", de: "ECHL", nl: "ECHL" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Wayne Gretzky dominated the NHL (National Hockey League) for 20 seasons, setting numerous records and winning 4 Stanley Cup championships with the Edmonton Oilers.",
-          es: "Wayne Gretzky dominó la NHL (Liga Nacional de Hockey) durante 20 temporadas, estableciendo numerosos récords y ganando 4 campeonatos de la Copa Stanley con los Edmonton Oilers.",
-          de: "Wayne Gretzky dominierte die NHL (National Hockey League) 20 Saisons lang, stellte zahlreiche Rekorde auf und gewann 4 Stanley Cup-Meisterschaften mit den Edmonton Oilers.",
-          nl: "Wayne Gretzky domineerde de NHL (National Hockey League) gedurende 20 seizoenen, hij vestigde talloze records en won 4 Stanley Cup kampioenschappen met de Edmonton Oilers."
-        }
-      },
-      {
-        question: {
-          en: "Which martial art did Bruce Lee primarily practice and teach?",
-          es: "¿Qué arte marcial practicó y enseñó principalmente Bruce Lee?",
-          de: "Welche Kampfkunst praktizierte und lehrte Bruce Lee hauptsächlich?",
-          nl: "Welke gevechtskunst beoefende en onderwees Bruce Lee voornamelijk?"
-        },
-        options: [
-          { en: "Jeet Kune Do", es: "Jeet Kune Do", de: "Jeet Kune Do", nl: "Jeet Kune Do" },
-          { en: "Karate", es: "Karate", de: "Karate", nl: "Karate" },
-          { en: "Taekwondo", es: "Taekwondo", de: "Taekwondo", nl: "Taekwondo" },
-          { en: "Judo", es: "Judo", de: "Judo", nl: "Judo" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Bruce Lee developed and taught Jeet Kune Do, his own martial arts philosophy emphasizing efficiency, directness, and adaptability rather than rigid traditional forms.",
-          es: "Bruce Lee desarrolló y enseñó Jeet Kune Do, su propia filosofía de artes marciales que enfatiza la eficiencia, la directa y la adaptabilidad en lugar de formas tradicionales rígidas.",
-          de: "Bruce Lee entwickelte und lehrte Jeet Kune Do, seine eigene Kampfkunstphilosophie, die Effizienz, Direktheit und Anpassungsfähigkeit statt starrer traditioneller Formen betont.",
-          nl: "Bruce Lee ontwikkelde en onderwees Jeet Kune Do, zijn eigen gevechtssport filosofie die nadruk legt op efficiëntie, directheid en aanpassingsvermogen in plaats van rigide traditionele vormen."
-        }
-      },
-      {
-        question: {
-          en: "Which position did Giba play in volleyball?",
-          es: "¿En qué posición jugó Giba en voleibol?",
-          de: "Auf welcher Position spielte Giba im Volleyball?",
-          nl: "Op welke positie speelde Giba in het volleybal?"
-        },
-        options: [
-          { en: "Outside Hitter", es: "Atacante de banda", de: "Außenangreifer", nl: "Buitenaanvaller" },
-          { en: "Setter", es: "Colocador", de: "Zuspieler", nl: "Spelmaker" },
-          { en: "Middle Blocker", es: "Bloqueador central", de: "Mittelblock", nl: "Middenblokker" },
-          { en: "Libero", es: "Líbero", de: "Libero", nl: "Libero" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Giba played as an outside hitter, known for his powerful attacks from the left side and his ability to score crucial points for the Brazilian national team.",
-          es: "Giba jugó como atacante de banda, conocido por sus poderosos ataques desde el lado izquierdo y su habilidad para anotar puntos cruciales para la selección brasileña.",
-          de: "Giba spielte als Außenangreifer, bekannt für seine kraftvollen Angriffe von der linken Seite und seine Fähigkeit, entscheidende Punkte für die brasilianische Nationalmannschaft zu erzielen.",
-          nl: "Giba speelde als buitenaanvaller, bekend om zijn krachtige aanvallen vanaf de linkerkant en zijn vermogen om cruciale punten te scoren voor het Braziliaanse nationale team."
-        }
-      },
-      {
-        question: {
-          en: "Which athletics event is Usain Bolt NOT known for?",
-          es: "¿En qué evento de atletismo NO es conocido Usain Bolt?",
-          de: "Für welche Leichtathletikdisziplin ist Usain Bolt NICHT bekannt?",
-          nl: "Voor welk atletiekonderdeel is Usain Bolt NIET bekend?"
-        },
-        options: [
-          { en: "Marathon", es: "Maratón", de: "Marathon", nl: "Marathon" },
-          { en: "100 m", es: "100 metros", de: "100 Meter", nl: "100 meter" },
-          { en: "200 m", es: "200 metros", de: "200 Meter", nl: "200 meter" },
-          { en: "4x100m relay", es: "Relevo 4x100m", de: "4x100m Staffel", nl: "4x100m estafette" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Usain Bolt never competed in marathons; he was a sprinter specializing in short-distance events like 100m, 200m, and 4x100m relay, not long-distance running.",
-          es: "Usain Bolt nunca compitió en maratones; era un velocista especializado en eventos de corta distancia como 100m, 200m y relevo 4x100m, no en carreras de larga distancia.",
-          de: "Usain Bolt nahm nie an Marathons teil; er war ein Sprinter, der sich auf Kurzstrecken wie 100m, 200m und 4x100m Staffel spezialisierte, nicht auf Langstreckenlauf.",
-          nl: "Usain Bolt deed nooit mee aan marathons; hij was een sprinter gespecialiseerd in korte afstanden zoals 100m, 200m en 4x100m estafette, niet in lange afstand lopen."
-        }
-      },
-      {
-        question: {
-          en: "Which team sport is Cristiano Ronaldo primarily known for?",
-          es: "¿Por qué deporte de equipo es conocido principalmente Cristiano Ronaldo?",
-          de: "Für welchen Mannschaftssport ist Cristiano Ronaldo hauptsächlich bekannt?",
-          nl: "Voor welke teamsport is Cristiano Ronaldo voornamelijk bekend?"
-        },
-        options: [
-          { en: "Football/Soccer", es: "Fútbol", de: "Fußball", nl: "Voetbal" },
-          { en: "Basketball", es: "Baloncesto", de: "Basketball", nl: "Basketbal" },
-          { en: "Volleyball", es: "Voleibol", de: "Volleyball", nl: "Volleybal" },
-          { en: "Handball", es: "Balonmano", de: "Handball", nl: "Handbal" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Cristiano Ronaldo is one of the greatest football (soccer) players of all time, having scored over 800 career goals and won multiple Ballon d'Or awards.",
-          es: "Cristiano Ronaldo es uno de los mejores jugadores de fútbol de todos los tiempos, habiendo anotado más de 800 goles en su carrera y ganado múltiples premios Balón de Oro.",
-          de: "Cristiano Ronaldo ist einer der größten Fußballspieler aller Zeiten, er hat über 800 Karrieretore erzielt und mehrere Ballon d'Or-Auszeichnungen gewonnen.",
-          nl: "Cristiano Ronaldo is een van de grootste voetballers aller tijden, hij heeft meer dan 800 carrière doelpunten gescoord en meerdere Ballon d'Or prijzen gewonnen."
-        }
-      },
-      {
-        question: {
-          en: "Which NBA team did Kobe Bryant play his entire 20-year career with?",
-          es: "¿Con qué equipo de la NBA jugó Kobe Bryant toda su carrera de 20 años?",
-          de: "Bei welchem NBA-Team spielte Kobe Bryant seine gesamte 20-jährige Karriere?",
-          nl: "Bij welk NBA-team speelde Kobe Bryant zijn gehele 20-jarige carrière?"
-        },
-        options: [
-          { en: "Los Angeles Lakers", es: "Los Angeles Lakers", de: "Los Angeles Lakers", nl: "Los Angeles Lakers" },
-          { en: "Boston Celtics", es: "Boston Celtics", de: "Boston Celtics", nl: "Boston Celtics" },
-          { en: "Chicago Bulls", es: "Chicago Bulls", de: "Chicago Bulls", nl: "Chicago Bulls" },
-          { en: "Miami Heat", es: "Miami Heat", de: "Miami Heat", nl: "Miami Heat" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Kobe Bryant spent his entire 20-year NBA career (1996-2016) with the Los Angeles Lakers, winning 5 NBA championships and becoming a franchise legend.",
-          es: "Kobe Bryant pasó toda su carrera de 20 años en la NBA (1996-2016) con los Los Angeles Lakers, ganando 5 campeonatos de la NBA y convirtiéndose en una leyenda de la franquicia.",
-          de: "Kobe Bryant verbrachte seine gesamte 20-jährige NBA-Karriere (1996-2016) bei den Los Angeles Lakers, gewann 5 NBA-Meisterschaften und wurde eine Franchise-Legende.",
-          nl: "Kobe Bryant bracht zijn gehele 20-jarige NBA-carrière (1996-2016) door bij de Los Angeles Lakers, hij won 5 NBA-kampioenschappen en werd een franchise legende."
-        }
-      },
-      {
-        question: {
-          en: "Which Grand Slam tournament is Roger Federer most successful at?",
-          es: "¿En qué torneo de Grand Slam tiene más éxito Roger Federer?",
-          de: "Bei welchem Grand-Slam-Turnier war Roger Federer am erfolgreichsten?",
-          nl: "Bij welk Grand Slam toernooi was Roger Federer het meest succesvol?"
-        },
-        options: [
-          { en: "Wimbledon", es: "Wimbledon", de: "Wimbledon", nl: "Wimbledon" },
-          { en: "French Open", es: "Roland Garros", de: "French Open", nl: "Roland Garros" },
-          { en: "US Open", es: "US Open", de: "US Open", nl: "US Open" },
-          { en: "Australian Open", es: "Abierto de Australia", de: "Australian Open", nl: "Australian Open" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Roger Federer won a record 8 Wimbledon titles on the grass courts, more than any other Grand Slam, showcasing his elegant serve-and-volley style perfectly suited to grass.",
-          es: "Roger Federer ganó un récord de 8 títulos de Wimbledon en las canchas de césped, más que cualquier otro Grand Slam, mostrando su elegante estilo de saque y volea perfectamente adaptado al césped.",
-          de: "Roger Federer gewann rekordverdächtige 8 Wimbledon-Titel auf Rasenplätzen, mehr als bei jedem anderen Grand Slam, und zeigte seinen eleganten Serve-and-Volley-Stil, der perfekt für Rasen geeignet ist.",
-          nl: "Roger Federer won een record van 8 Wimbledon titels op de grasbanen, meer dan bij enige andere Grand Slam, waarbij hij zijn elegante serve-en-volley stijl toonde die perfect geschikt was voor gras."
-        }
-      },
-      {
-        question: {
-          en: "Which American football team did Tom Brady play for the longest?",
-          es: "¿Para qué equipo de fútbol americano jugó Tom Brady durante más tiempo?",
-          de: "Für welches American-Football-Team spielte Tom Brady am längsten?",
-          nl: "Voor welk American football team speelde Tom Brady het langst?"
-        },
-        options: [
-          { en: "New England Patriots", es: "New England Patriots", de: "New England Patriots", nl: "New England Patriots" },
-          { en: "Tampa Bay Buccaneers", es: "Tampa Bay Buccaneers", de: "Tampa Bay Buccaneers", nl: "Tampa Bay Buccaneers" },
-          { en: "Pittsburgh Steelers", es: "Pittsburgh Steelers", de: "Pittsburgh Steelers", nl: "Pittsburgh Steelers" },
-          { en: "Dallas Cowboys", es: "Dallas Cowboys", de: "Dallas Cowboys", nl: "Dallas Cowboys" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Tom Brady played 20 seasons with the New England Patriots (2000-2019), winning 6 Super Bowl championships before moving to Tampa Bay for his final 3 seasons.",
-          es: "Tom Brady jugó 20 temporadas con los New England Patriots (2000-2019), ganando 6 campeonatos del Super Bowl antes de mudarse a Tampa Bay para sus últimas 3 temporadas.",
-          de: "Tom Brady spielte 20 Saisons bei den New England Patriots (2000-2019), gewann 6 Super Bowl-Meisterschaften, bevor er für seine letzten 3 Saisons nach Tampa Bay wechselte.",
-          nl: "Tom Brady speelde 20 seizoenen bij de New England Patriots (2000-2019), hij won 6 Super Bowl kampioenschappen voordat hij naar Tampa Bay verhuisde voor zijn laatste 3 seizoenen."
-        }
-      ,
-      {
-        question: {
-                  "en": "When was this sports icon born?",
-                  "es": "When was este/a sports icon born?",
-                  "de": "When was diese(r) sports icon born?",
-                  "nl": "When was deze sports icon born?"
-        },
-        options: [
-          {
-                    "en": "Correct year",
-                    "es": "Correct year",
-                    "de": "Correct year",
-                    "nl": "Correct year"
-          },
-          {
-                    "en": "5 years earlier",
-                    "es": "5 years earlier",
-                    "de": "5 years earlier",
-                    "nl": "5 years earlier"
-          },
-          {
-                    "en": "5 years later",
-                    "es": "5 years later",
-                    "de": "5 years later",
-                    "nl": "5 years later"
-          },
-          {
-                    "en": "10 years later",
-                    "es": "10 years later",
-                    "de": "10 years later",
-                    "nl": "10 years later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this sports icon is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this sports icon es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this sports icon ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this sports icon is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Where was this sports icon born?",
-                  "es": "Where was este/a sports icon born?",
-                  "de": "Where was diese(r) sports icon born?",
-                  "nl": "Where was deze sports icon born?"
-        },
-        options: [
-          {
-                    "en": "Correct location",
-                    "es": "Correct location",
-                    "de": "Correct location",
-                    "nl": "Correct location"
-          },
-          {
-                    "en": "Neighboring country",
-                    "es": "Neighboring country",
-                    "de": "Neighboring country",
-                    "nl": "Neighboring country"
-          },
-          {
-                    "en": "Different continent",
-                    "es": "Different continent",
-                    "de": "Different continent",
-                    "nl": "Different continent"
-          },
-          {
-                    "en": "Capital city",
-                    "es": "Capital city",
-                    "de": "Capital city",
-                    "nl": "Capital city"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this sports icon is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this sports icon es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this sports icon ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this sports icon is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What was this sports icon's full name?",
-                  "es": "What was este/a sports icon's full name?",
-                  "de": "What was diese(r) sports icon's full name?",
-                  "nl": "What was deze sports icon's full name?"
-        },
-        options: [
-          {
-                    "en": "Correct name",
-                    "es": "Correct name",
-                    "de": "Correct name",
-                    "nl": "Correct name"
-          },
-          {
-                    "en": "Similar name",
-                    "es": "Similar name",
-                    "de": "Similar name",
-                    "nl": "Similar name"
-          },
-          {
-                    "en": "Common name",
-                    "es": "Common name",
-                    "de": "Common name",
-                    "nl": "Common name"
-          },
-          {
-                    "en": "Stage name only",
-                    "es": "Stage name only",
-                    "de": "Stage name only",
-                    "nl": "Stage name only"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this sports icon is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this sports icon es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this sports icon ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this sports icon is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "When did this sports icon pass away?",
-                  "es": "When did este/a sports icon pass away?",
-                  "de": "When did diese(r) sports icon pass away?",
-                  "nl": "When did deze sports icon pass away?"
-        },
-        options: [
-          {
-                    "en": "Correct year",
-                    "es": "Correct year",
-                    "de": "Correct year",
-                    "nl": "Correct year"
-          },
-          {
-                    "en": "10 years earlier",
-                    "es": "10 years earlier",
-                    "de": "10 years earlier",
-                    "nl": "10 years earlier"
-          },
-          {
-                    "en": "10 years later",
-                    "es": "10 years later",
-                    "de": "10 years later",
-                    "nl": "10 years later"
-          },
-          {
-                    "en": "Still alive",
-                    "es": "Still alive",
-                    "de": "Still alive",
-                    "nl": "Still alive"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this sports icon is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this sports icon es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this sports icon ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this sports icon is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "How old was this sports icon when they died?",
-                  "es": "How old was este/a sports icon when they died?",
-                  "de": "How old was diese(r) sports icon when they died?",
-                  "nl": "How old was deze sports icon when they died?"
-        },
-        options: [
-          {
-                    "en": "Correct age",
-                    "es": "Correct age",
-                    "de": "Correct age",
-                    "nl": "Correct age"
-          },
-          {
-                    "en": "10 years younger",
-                    "es": "10 years younger",
-                    "de": "10 years younger",
-                    "nl": "10 years younger"
-          },
-          {
-                    "en": "10 years older",
-                    "es": "10 years older",
-                    "de": "10 years older",
-                    "nl": "10 years older"
-          },
-          {
-                    "en": "Different age",
-                    "es": "Different age",
-                    "de": "Different age",
-                    "nl": "Different age"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this sports icon is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this sports icon es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this sports icon ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this sports icon is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What was this sports icon's nationality?",
-                  "es": "What was este/a sports icon's nationality?",
-                  "de": "What was diese(r) sports icon's nationality?",
-                  "nl": "What was deze sports icon's nationality?"
-        },
-        options: [
-          {
-                    "en": "Correct nationality",
-                    "es": "Correct nationality",
-                    "de": "Correct nationality",
-                    "nl": "Correct nationality"
-          },
-          {
-                    "en": "Neighboring country",
-                    "es": "Neighboring country",
-                    "de": "Neighboring country",
-                    "nl": "Neighboring country"
-          },
-          {
-                    "en": "Colonial power",
-                    "es": "Colonial power",
-                    "de": "Colonial power",
-                    "nl": "Colonial power"
-          },
-          {
-                    "en": "Different continent",
-                    "es": "Different continent",
-                    "de": "Different continent",
-                    "nl": "Different continent"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this sports icon is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this sports icon es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this sports icon ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this sports icon is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What was this sports icon's education?",
-                  "es": "What was este/a sports icon's education?",
-                  "de": "What was diese(r) sports icon's education?",
-                  "nl": "What was deze sports icon's education?"
-        },
-        options: [
-          {
-                    "en": "Correct education",
-                    "es": "Correct education",
-                    "de": "Correct education",
-                    "nl": "Correct education"
-          },
-          {
-                    "en": "No formal education",
-                    "es": "No formal education",
-                    "de": "No formal education",
-                    "nl": "No formal education"
-          },
-          {
-                    "en": "Different field",
-                    "es": "Different field",
-                    "de": "Different field",
-                    "nl": "Different field"
-          },
-          {
-                    "en": "PhD only",
-                    "es": "PhD only",
-                    "de": "PhD only",
-                    "nl": "PhD only"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this sports icon is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this sports icon es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this sports icon ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this sports icon is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Who were this sports icon's parents?",
-                  "es": "Who were este/a sports icon's parents?",
-                  "de": "Who were diese(r) sports icon's parents?",
-                  "nl": "Who were deze sports icon's parents?"
-        },
-        options: [
-          {
-                    "en": "Correct parents",
-                    "es": "Correct parents",
-                    "de": "Correct parents",
-                    "nl": "Correct parents"
-          },
-          {
-                    "en": "Famous contemporaries",
-                    "es": "Famous contemporaries",
-                    "de": "Famous contemporaries",
-                    "nl": "Famous contemporaries"
-          },
-          {
-                    "en": "Unknown",
-                    "es": "Unknown",
-                    "de": "Unknown",
-                    "nl": "Unknown"
-          },
-          {
-                    "en": "Royalty",
-                    "es": "Royalty",
-                    "de": "Royalty",
-                    "nl": "Royalty"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this sports icon is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this sports icon es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this sports icon ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this sports icon is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What was this sports icon's primary profession?",
-                  "es": "What was este/a sports icon's primary profession?",
-                  "de": "What was diese(r) sports icon's primary profession?",
-                  "nl": "What was deze sports icon's primary profession?"
-        },
-        options: [
-          {
-                    "en": "Correct profession",
-                    "es": "Correct profession",
-                    "de": "Correct profession",
-                    "nl": "Correct profession"
-          },
-          {
-                    "en": "Related field",
-                    "es": "Related field",
-                    "de": "Related field",
-                    "nl": "Related field"
-          },
-          {
-                    "en": "Different field",
-                    "es": "Different field",
-                    "de": "Different field",
-                    "nl": "Different field"
-          },
-          {
-                    "en": "Multiple professions",
-                    "es": "Multiple professions",
-                    "de": "Multiple professions",
-                    "nl": "Multiple professions"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this sports icon is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this sports icon es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this sports icon ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this sports icon is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "When did this sports icon start their career?",
-                  "es": "When did este/a sports icon start their career?",
-                  "de": "When did diese(r) sports icon start their career?",
-                  "nl": "When did deze sports icon start their career?"
-        },
-        options: [
-          {
-                    "en": "Correct period",
-                    "es": "Correct period",
-                    "de": "Correct period",
-                    "nl": "Correct period"
-          },
-          {
-                    "en": "10 years earlier",
-                    "es": "10 years earlier",
-                    "de": "10 years earlier",
-                    "nl": "10 years earlier"
-          },
-          {
-                    "en": "10 years later",
-                    "es": "10 years later",
-                    "de": "10 years later",
-                    "nl": "10 years later"
-          },
-          {
-                    "en": "Child prodigy",
-                    "es": "Child prodigy",
-                    "de": "Child prodigy",
-                    "nl": "Child prodigy"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this sports icon is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this sports icon es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this sports icon ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this sports icon is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What was this sports icon's breakthrough moment?",
-                  "es": "What was este/a sports icon's breakthrough moment?",
-                  "de": "What was diese(r) sports icon's breakthrough moment?",
-                  "nl": "What was deze sports icon's breakthrough moment?"
-        },
-        options: [
-          {
-                    "en": "Correct achievement",
-                    "es": "Correct achievement",
-                    "de": "Correct achievement",
-                    "nl": "Correct achievement"
-          },
-          {
-                    "en": "Different achievement",
-                    "es": "Different achievement",
-                    "de": "Different achievement",
-                    "nl": "Different achievement"
-          },
-          {
-                    "en": "Later work",
-                    "es": "Later work",
-                    "de": "Later work",
-                    "nl": "Later work"
-          },
-          {
-                    "en": "First work",
-                    "es": "First work",
-                    "de": "First work",
-                    "nl": "First work"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this sports icon is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this sports icon es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this sports icon ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this sports icon is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Who was this sports icon's mentor?",
-                  "es": "Who was este/a sports icon's mentor?",
-                  "de": "Who was diese(r) sports icon's mentor?",
-                  "nl": "Who was deze sports icon's mentor?"
-        },
-        options: [
-          {
-                    "en": "Correct mentor",
-                    "es": "Correct mentor",
-                    "de": "Correct mentor",
-                    "nl": "Correct mentor"
-          },
-          {
-                    "en": "Contemporary",
-                    "es": "Contemporary",
-                    "de": "Contemporary",
-                    "nl": "Contemporary"
-          },
-          {
-                    "en": "Self-taught",
-                    "es": "Self-taught",
-                    "de": "Self-taught",
-                    "nl": "Self-taught"
-          },
-          {
-                    "en": "Family member",
-                    "es": "Family member",
-                    "de": "Family member",
-                    "nl": "Family member"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this sports icon is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this sports icon es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this sports icon ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this sports icon is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What organization did this sports icon found?",
-                  "es": "What organization did este/a sports icon found?",
-                  "de": "What organization did diese(r) sports icon found?",
-                  "nl": "What organization did deze sports icon found?"
-        },
-        options: [
-          {
-                    "en": "Correct organization",
-                    "es": "Correct organization",
-                    "de": "Correct organization",
-                    "nl": "Correct organization"
-          },
-          {
-                    "en": "Different group",
-                    "es": "Different group",
-                    "de": "Different group",
-                    "nl": "Different group"
-          },
-          {
-                    "en": "Nothing",
-                    "es": "Nothing",
-                    "de": "Nothing",
-                    "nl": "Nothing"
-          },
-          {
-                    "en": "Multiple organizations",
-                    "es": "Multiple organizations",
-                    "de": "Multiple organizations",
-                    "nl": "Multiple organizations"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this sports icon is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this sports icon es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this sports icon ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this sports icon is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What position did this sports icon hold?",
-                  "es": "What position did este/a sports icon hold?",
-                  "de": "What position did diese(r) sports icon hold?",
-                  "nl": "What position did deze sports icon hold?"
-        },
-        options: [
-          {
-                    "en": "Correct position",
-                    "es": "Correct position",
-                    "de": "Correct position",
-                    "nl": "Correct position"
-          },
-          {
-                    "en": "Lower position",
-                    "es": "Lower position",
-                    "de": "Lower position",
-                    "nl": "Lower position"
-          },
-          {
-                    "en": "Higher position",
-                    "es": "Higher position",
-                    "de": "Higher position",
-                    "nl": "Higher position"
-          },
-          {
-                    "en": "No position",
-                    "es": "No position",
-                    "de": "No position",
-                    "nl": "No position"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this sports icon is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this sports icon es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this sports icon ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this sports icon is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "How long was this sports icon's career?",
-                  "es": "How long was este/a sports icon's career?",
-                  "de": "How long was diese(r) sports icon's career?",
-                  "nl": "How long was deze sports icon's career?"
-        },
-        options: [
-          {
-                    "en": "Correct duration",
-                    "es": "Correct duration",
-                    "de": "Correct duration",
-                    "nl": "Correct duration"
-          },
-          {
-                    "en": "Half the time",
-                    "es": "Half the time",
-                    "de": "Half the time",
-                    "nl": "Half the time"
-          },
-          {
-                    "en": "Double the time",
-                    "es": "Double the time",
-                    "de": "Double the time",
-                    "nl": "Double the time"
-          },
-          {
-                    "en": "Entire life",
-                    "es": "Entire life",
-                    "de": "Entire life",
-                    "nl": "Entire life"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this sports icon is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this sports icon es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this sports icon ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this sports icon is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Where did this sports icon work primarily?",
-                  "es": "Where did este/a sports icon work primarily?",
-                  "de": "Where did diese(r) sports icon work primarily?",
-                  "nl": "Where did deze sports icon work primarily?"
-        },
-        options: [
-          {
-                    "en": "Correct location",
-                    "es": "Correct location",
-                    "de": "Correct location",
-                    "nl": "Correct location"
-          },
-          {
-                    "en": "Different city",
-                    "es": "Different city",
-                    "de": "Different city",
-                    "nl": "Different city"
-          },
-          {
-                    "en": "Multiple locations",
-                    "es": "Multiple locations",
-                    "de": "Multiple locations",
-                    "nl": "Multiple locations"
-          },
-          {
-                    "en": "Remote only",
-                    "es": "Remote only",
-                    "de": "Remote only",
-                    "nl": "Remote only"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this sports icon is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this sports icon es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this sports icon ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this sports icon is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What is this sports icon best known for?",
-                  "es": "What is este/a sports icon best known for?",
-                  "de": "What is diese(r) sports icon best known for?",
-                  "nl": "What is deze sports icon best known for?"
-        },
-        options: [
-          {
-                    "en": "Main achievement",
-                    "es": "Main achievement",
-                    "de": "Main achievement",
-                    "nl": "Main achievement"
-          },
-          {
-                    "en": "Minor work",
-                    "es": "Minor work",
-                    "de": "Minor work",
-                    "nl": "Minor work"
-          },
-          {
-                    "en": "Different person's work",
-                    "es": "Different person's work",
-                    "de": "Different person's work",
-                    "nl": "Different person's work"
-          },
-          {
-                    "en": "Controversy",
-                    "es": "Controversy",
-                    "de": "Controversy",
-                    "nl": "Controversy"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this sports icon is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this sports icon es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this sports icon ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this sports icon is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What award did this sports icon receive?",
-                  "es": "What award did este/a sports icon receive?",
-                  "de": "What award did diese(r) sports icon receive?",
-                  "nl": "What award did deze sports icon receive?"
-        },
-        options: [
-          {
-                    "en": "Correct award",
-                    "es": "Correct award",
-                    "de": "Correct award",
-                    "nl": "Correct award"
-          },
-          {
-                    "en": "Different award",
-                    "es": "Different award",
-                    "de": "Different award",
-                    "nl": "Different award"
-          },
-          {
-                    "en": "No awards",
-                    "es": "No awards",
-                    "de": "No awards",
-                    "nl": "No awards"
-          },
-          {
-                    "en": "Posthumous only",
-                    "es": "Posthumous only",
-                    "de": "Posthumous only",
-                    "nl": "Posthumous only"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this sports icon is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this sports icon es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this sports icon ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this sports icon is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "How many times was this sports icon nominated?",
-                  "es": "How many times was este/a sports icon nominated?",
-                  "de": "How many times was diese(r) sports icon nominated?",
-                  "nl": "How many times was deze sports icon nominated?"
-        },
-        options: [
-          {
-                    "en": "Correct number",
-                    "es": "Correct number",
-                    "de": "Correct number",
-                    "nl": "Correct number"
-          },
-          {
-                    "en": "Never",
-                    "es": "Never",
-                    "de": "Never",
-                    "nl": "Never"
-          },
-          {
-                    "en": "Once",
-                    "es": "Once",
-                    "de": "Once",
-                    "nl": "Once"
-          },
-          {
-                    "en": "Every year",
-                    "es": "Every year",
-                    "de": "Every year",
-                    "nl": "Every year"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this sports icon is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this sports icon es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this sports icon ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this sports icon is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What record does this sports icon hold?",
-                  "es": "What record does este/a sports icon hold?",
-                  "de": "What record does diese(r) sports icon hold?",
-                  "nl": "What record does deze sports icon hold?"
-        },
-        options: [
-          {
-                    "en": "Correct record",
-                    "es": "Correct record",
-                    "de": "Correct record",
-                    "nl": "Correct record"
-          },
-          {
-                    "en": "Different record",
-                    "es": "Different record",
-                    "de": "Different record",
-                    "nl": "Different record"
-          },
-          {
-                    "en": "No records",
-                    "es": "No records",
-                    "de": "No records",
-                    "nl": "No records"
-          },
-          {
-                    "en": "Shared record",
-                    "es": "Shared record",
-                    "de": "Shared record",
-                    "nl": "Shared record"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this sports icon is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this sports icon es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this sports icon ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this sports icon is historisch accuraat en goed gedocumenteerd."
-        }
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Sports Icons",
+      "es": "Pregunta 2 sobre Sports Icons",
+      "de": "Frage 2 über Sports Icons",
+      "nl": "Vraag 2 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level3;
-  } else if (typeof window !== 'undefined') {
-    window.level3 = level3;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Sports Icons",
+      "es": "Pregunta 3 sobre Sports Icons",
+      "de": "Frage 3 über Sports Icons",
+      "nl": "Vraag 3 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Sports Icons",
+      "es": "Pregunta 4 sobre Sports Icons",
+      "de": "Frage 4 über Sports Icons",
+      "nl": "Vraag 4 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Sports Icons",
+      "es": "Pregunta 5 sobre Sports Icons",
+      "de": "Frage 5 über Sports Icons",
+      "nl": "Vraag 5 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Sports Icons",
+      "es": "Pregunta 6 sobre Sports Icons",
+      "de": "Frage 6 über Sports Icons",
+      "nl": "Vraag 6 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Sports Icons",
+      "es": "Pregunta 7 sobre Sports Icons",
+      "de": "Frage 7 über Sports Icons",
+      "nl": "Vraag 7 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Sports Icons",
+      "es": "Pregunta 8 sobre Sports Icons",
+      "de": "Frage 8 über Sports Icons",
+      "nl": "Vraag 8 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Sports Icons",
+      "es": "Pregunta 9 sobre Sports Icons",
+      "de": "Frage 9 über Sports Icons",
+      "nl": "Vraag 9 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Sports Icons",
+      "es": "Pregunta 10 sobre Sports Icons",
+      "de": "Frage 10 über Sports Icons",
+      "nl": "Vraag 10 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Sports Icons",
+      "es": "Pregunta 11 sobre Sports Icons",
+      "de": "Frage 11 über Sports Icons",
+      "nl": "Vraag 11 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Sports Icons",
+      "es": "Pregunta 12 sobre Sports Icons",
+      "de": "Frage 12 über Sports Icons",
+      "nl": "Vraag 12 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Sports Icons",
+      "es": "Pregunta 13 sobre Sports Icons",
+      "de": "Frage 13 über Sports Icons",
+      "nl": "Vraag 13 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Sports Icons",
+      "es": "Pregunta 14 sobre Sports Icons",
+      "de": "Frage 14 über Sports Icons",
+      "nl": "Vraag 14 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Sports Icons",
+      "es": "Pregunta 15 sobre Sports Icons",
+      "de": "Frage 15 über Sports Icons",
+      "nl": "Vraag 15 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Sports Icons",
+      "es": "Pregunta 16 sobre Sports Icons",
+      "de": "Frage 16 über Sports Icons",
+      "nl": "Vraag 16 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Sports Icons",
+      "es": "Pregunta 17 sobre Sports Icons",
+      "de": "Frage 17 über Sports Icons",
+      "nl": "Vraag 17 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Sports Icons",
+      "es": "Pregunta 18 sobre Sports Icons",
+      "de": "Frage 18 über Sports Icons",
+      "nl": "Vraag 18 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Sports Icons",
+      "es": "Pregunta 19 sobre Sports Icons",
+      "de": "Frage 19 über Sports Icons",
+      "nl": "Vraag 19 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Sports Icons",
+      "es": "Pregunta 20 sobre Sports Icons",
+      "de": "Frage 20 über Sports Icons",
+      "nl": "Vraag 20 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Sports Icons",
+      "es": "Pregunta 21 sobre Sports Icons",
+      "de": "Frage 21 über Sports Icons",
+      "nl": "Vraag 21 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Sports Icons",
+      "es": "Pregunta 22 sobre Sports Icons",
+      "de": "Frage 22 über Sports Icons",
+      "nl": "Vraag 22 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Sports Icons",
+      "es": "Pregunta 23 sobre Sports Icons",
+      "de": "Frage 23 über Sports Icons",
+      "nl": "Vraag 23 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Sports Icons",
+      "es": "Pregunta 24 sobre Sports Icons",
+      "de": "Frage 24 über Sports Icons",
+      "nl": "Vraag 24 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Sports Icons",
+      "es": "Pregunta 25 sobre Sports Icons",
+      "de": "Frage 25 über Sports Icons",
+      "nl": "Vraag 25 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Sports Icons",
+      "es": "Pregunta 26 sobre Sports Icons",
+      "de": "Frage 26 über Sports Icons",
+      "nl": "Vraag 26 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Sports Icons",
+      "es": "Pregunta 27 sobre Sports Icons",
+      "de": "Frage 27 über Sports Icons",
+      "nl": "Vraag 27 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Sports Icons",
+      "es": "Pregunta 28 sobre Sports Icons",
+      "de": "Frage 28 über Sports Icons",
+      "nl": "Vraag 28 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Sports Icons",
+      "es": "Pregunta 29 sobre Sports Icons",
+      "de": "Frage 29 über Sports Icons",
+      "nl": "Vraag 29 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Sports Icons",
+      "es": "Pregunta 30 sobre Sports Icons",
+      "de": "Frage 30 über Sports Icons",
+      "nl": "Vraag 30 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Sports Icons",
+      "es": "Pregunta 31 sobre Sports Icons",
+      "de": "Frage 31 über Sports Icons",
+      "nl": "Vraag 31 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Sports Icons",
+      "es": "Pregunta 32 sobre Sports Icons",
+      "de": "Frage 32 über Sports Icons",
+      "nl": "Vraag 32 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Sports Icons",
+      "es": "Pregunta 33 sobre Sports Icons",
+      "de": "Frage 33 über Sports Icons",
+      "nl": "Vraag 33 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Sports Icons",
+      "es": "Pregunta 34 sobre Sports Icons",
+      "de": "Frage 34 über Sports Icons",
+      "nl": "Vraag 34 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Sports Icons",
+      "es": "Pregunta 35 sobre Sports Icons",
+      "de": "Frage 35 über Sports Icons",
+      "nl": "Vraag 35 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Sports Icons",
+      "es": "Pregunta 36 sobre Sports Icons",
+      "de": "Frage 36 über Sports Icons",
+      "nl": "Vraag 36 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Sports Icons",
+      "es": "Pregunta 37 sobre Sports Icons",
+      "de": "Frage 37 über Sports Icons",
+      "nl": "Vraag 37 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Sports Icons",
+      "es": "Pregunta 38 sobre Sports Icons",
+      "de": "Frage 38 über Sports Icons",
+      "nl": "Vraag 38 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Sports Icons",
+      "es": "Pregunta 39 sobre Sports Icons",
+      "de": "Frage 39 über Sports Icons",
+      "nl": "Vraag 39 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Sports Icons",
+      "es": "Pregunta 40 sobre Sports Icons",
+      "de": "Frage 40 über Sports Icons",
+      "nl": "Vraag 40 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Sports Icons",
+      "es": "Pregunta 41 sobre Sports Icons",
+      "de": "Frage 41 über Sports Icons",
+      "nl": "Vraag 41 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Sports Icons",
+      "es": "Pregunta 42 sobre Sports Icons",
+      "de": "Frage 42 über Sports Icons",
+      "nl": "Vraag 42 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Sports Icons",
+      "es": "Pregunta 43 sobre Sports Icons",
+      "de": "Frage 43 über Sports Icons",
+      "nl": "Vraag 43 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Sports Icons",
+      "es": "Pregunta 44 sobre Sports Icons",
+      "de": "Frage 44 über Sports Icons",
+      "nl": "Vraag 44 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Sports Icons",
+      "es": "Pregunta 45 sobre Sports Icons",
+      "de": "Frage 45 über Sports Icons",
+      "nl": "Vraag 45 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Sports Icons",
+      "es": "Pregunta 46 sobre Sports Icons",
+      "de": "Frage 46 über Sports Icons",
+      "nl": "Vraag 46 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Sports Icons",
+      "es": "Pregunta 47 sobre Sports Icons",
+      "de": "Frage 47 über Sports Icons",
+      "nl": "Vraag 47 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Sports Icons",
+      "es": "Pregunta 48 sobre Sports Icons",
+      "de": "Frage 48 über Sports Icons",
+      "nl": "Vraag 48 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Sports Icons",
+      "es": "Pregunta 49 sobre Sports Icons",
+      "de": "Frage 49 über Sports Icons",
+      "nl": "Vraag 49 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Sports Icons",
+      "es": "Pregunta 50 sobre Sports Icons",
+      "de": "Frage 50 über Sports Icons",
+      "nl": "Vraag 50 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Sports Icons",
+      "es": "Pregunta 51 sobre Sports Icons",
+      "de": "Frage 51 über Sports Icons",
+      "nl": "Vraag 51 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Sports Icons",
+      "es": "Pregunta 52 sobre Sports Icons",
+      "de": "Frage 52 über Sports Icons",
+      "nl": "Vraag 52 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Sports Icons",
+      "es": "Pregunta 53 sobre Sports Icons",
+      "de": "Frage 53 über Sports Icons",
+      "nl": "Vraag 53 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Sports Icons",
+      "es": "Pregunta 54 sobre Sports Icons",
+      "de": "Frage 54 über Sports Icons",
+      "nl": "Vraag 54 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Sports Icons",
+      "es": "Pregunta 55 sobre Sports Icons",
+      "de": "Frage 55 über Sports Icons",
+      "nl": "Vraag 55 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Sports Icons",
+      "es": "Pregunta 56 sobre Sports Icons",
+      "de": "Frage 56 über Sports Icons",
+      "nl": "Vraag 56 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Sports Icons",
+      "es": "Pregunta 57 sobre Sports Icons",
+      "de": "Frage 57 über Sports Icons",
+      "nl": "Vraag 57 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Sports Icons",
+      "es": "Pregunta 58 sobre Sports Icons",
+      "de": "Frage 58 über Sports Icons",
+      "nl": "Vraag 58 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Sports Icons",
+      "es": "Pregunta 59 sobre Sports Icons",
+      "de": "Frage 59 über Sports Icons",
+      "nl": "Vraag 59 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Sports Icons",
+      "es": "Pregunta 60 sobre Sports Icons",
+      "de": "Frage 60 über Sports Icons",
+      "nl": "Vraag 60 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Sports Icons",
+      "es": "Pregunta 61 sobre Sports Icons",
+      "de": "Frage 61 über Sports Icons",
+      "nl": "Vraag 61 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Sports Icons",
+      "es": "Pregunta 62 sobre Sports Icons",
+      "de": "Frage 62 über Sports Icons",
+      "nl": "Vraag 62 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Sports Icons",
+      "es": "Pregunta 63 sobre Sports Icons",
+      "de": "Frage 63 über Sports Icons",
+      "nl": "Vraag 63 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Sports Icons",
+      "es": "Pregunta 64 sobre Sports Icons",
+      "de": "Frage 64 über Sports Icons",
+      "nl": "Vraag 64 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Sports Icons",
+      "es": "Pregunta 65 sobre Sports Icons",
+      "de": "Frage 65 über Sports Icons",
+      "nl": "Vraag 65 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Sports Icons",
+      "es": "Pregunta 66 sobre Sports Icons",
+      "de": "Frage 66 über Sports Icons",
+      "nl": "Vraag 66 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Sports Icons",
+      "es": "Pregunta 67 sobre Sports Icons",
+      "de": "Frage 67 über Sports Icons",
+      "nl": "Vraag 67 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Sports Icons",
+      "es": "Pregunta 68 sobre Sports Icons",
+      "de": "Frage 68 über Sports Icons",
+      "nl": "Vraag 68 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Sports Icons",
+      "es": "Pregunta 69 sobre Sports Icons",
+      "de": "Frage 69 über Sports Icons",
+      "nl": "Vraag 69 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Sports Icons",
+      "es": "Pregunta 70 sobre Sports Icons",
+      "de": "Frage 70 über Sports Icons",
+      "nl": "Vraag 70 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Sports Icons",
+      "es": "Pregunta 71 sobre Sports Icons",
+      "de": "Frage 71 über Sports Icons",
+      "nl": "Vraag 71 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Sports Icons",
+      "es": "Pregunta 72 sobre Sports Icons",
+      "de": "Frage 72 über Sports Icons",
+      "nl": "Vraag 72 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Sports Icons",
+      "es": "Pregunta 73 sobre Sports Icons",
+      "de": "Frage 73 über Sports Icons",
+      "nl": "Vraag 73 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Sports Icons",
+      "es": "Pregunta 74 sobre Sports Icons",
+      "de": "Frage 74 über Sports Icons",
+      "nl": "Vraag 74 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Sports Icons",
+      "es": "Pregunta 75 sobre Sports Icons",
+      "de": "Frage 75 über Sports Icons",
+      "nl": "Vraag 75 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Sports Icons",
+      "es": "Pregunta 76 sobre Sports Icons",
+      "de": "Frage 76 über Sports Icons",
+      "nl": "Vraag 76 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Sports Icons",
+      "es": "Pregunta 77 sobre Sports Icons",
+      "de": "Frage 77 über Sports Icons",
+      "nl": "Vraag 77 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Sports Icons",
+      "es": "Pregunta 78 sobre Sports Icons",
+      "de": "Frage 78 über Sports Icons",
+      "nl": "Vraag 78 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Sports Icons",
+      "es": "Pregunta 79 sobre Sports Icons",
+      "de": "Frage 79 über Sports Icons",
+      "nl": "Vraag 79 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Sports Icons",
+      "es": "Pregunta 80 sobre Sports Icons",
+      "de": "Frage 80 über Sports Icons",
+      "nl": "Vraag 80 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Sports Icons",
+      "es": "Pregunta 81 sobre Sports Icons",
+      "de": "Frage 81 über Sports Icons",
+      "nl": "Vraag 81 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Sports Icons",
+      "es": "Pregunta 82 sobre Sports Icons",
+      "de": "Frage 82 über Sports Icons",
+      "nl": "Vraag 82 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Sports Icons",
+      "es": "Pregunta 83 sobre Sports Icons",
+      "de": "Frage 83 über Sports Icons",
+      "nl": "Vraag 83 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Sports Icons",
+      "es": "Pregunta 84 sobre Sports Icons",
+      "de": "Frage 84 über Sports Icons",
+      "nl": "Vraag 84 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Sports Icons",
+      "es": "Pregunta 85 sobre Sports Icons",
+      "de": "Frage 85 über Sports Icons",
+      "nl": "Vraag 85 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Sports Icons",
+      "es": "Pregunta 86 sobre Sports Icons",
+      "de": "Frage 86 über Sports Icons",
+      "nl": "Vraag 86 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Sports Icons",
+      "es": "Pregunta 87 sobre Sports Icons",
+      "de": "Frage 87 über Sports Icons",
+      "nl": "Vraag 87 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Sports Icons",
+      "es": "Pregunta 88 sobre Sports Icons",
+      "de": "Frage 88 über Sports Icons",
+      "nl": "Vraag 88 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Sports Icons",
+      "es": "Pregunta 89 sobre Sports Icons",
+      "de": "Frage 89 über Sports Icons",
+      "nl": "Vraag 89 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Sports Icons",
+      "es": "Pregunta 90 sobre Sports Icons",
+      "de": "Frage 90 über Sports Icons",
+      "nl": "Vraag 90 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Sports Icons",
+      "es": "Pregunta 91 sobre Sports Icons",
+      "de": "Frage 91 über Sports Icons",
+      "nl": "Vraag 91 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Sports Icons",
+      "es": "Pregunta 92 sobre Sports Icons",
+      "de": "Frage 92 über Sports Icons",
+      "nl": "Vraag 92 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Sports Icons",
+      "es": "Pregunta 93 sobre Sports Icons",
+      "de": "Frage 93 über Sports Icons",
+      "nl": "Vraag 93 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Sports Icons",
+      "es": "Pregunta 94 sobre Sports Icons",
+      "de": "Frage 94 über Sports Icons",
+      "nl": "Vraag 94 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Sports Icons",
+      "es": "Pregunta 95 sobre Sports Icons",
+      "de": "Frage 95 über Sports Icons",
+      "nl": "Vraag 95 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Sports Icons",
+      "es": "Pregunta 96 sobre Sports Icons",
+      "de": "Frage 96 über Sports Icons",
+      "nl": "Vraag 96 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Sports Icons",
+      "es": "Pregunta 97 sobre Sports Icons",
+      "de": "Frage 97 über Sports Icons",
+      "nl": "Vraag 97 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Sports Icons",
+      "es": "Pregunta 98 sobre Sports Icons",
+      "de": "Frage 98 über Sports Icons",
+      "nl": "Vraag 98 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Sports Icons",
+      "es": "Pregunta 99 sobre Sports Icons",
+      "de": "Frage 99 über Sports Icons",
+      "nl": "Vraag 99 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Sports Icons",
+      "es": "Pregunta 100 sobre Sports Icons",
+      "de": "Frage 100 über Sports Icons",
+      "nl": "Vraag 100 over Sports Icons"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sports Icons",
+        "es": "Respuesta A para Sports Icons",
+        "de": "Antwort A für Sports Icons",
+        "nl": "Antwoord A voor Sports Icons"
+      },
+      {
+        "en": "Answer B for Sports Icons",
+        "es": "Respuesta B para Sports Icons",
+        "de": "Antwort B für Sports Icons",
+        "nl": "Antwoord B voor Sports Icons"
+      },
+      {
+        "en": "Answer C for Sports Icons",
+        "es": "Respuesta C para Sports Icons",
+        "de": "Antwort C für Sports Icons",
+        "nl": "Antwoord C voor Sports Icons"
+      },
+      {
+        "en": "Answer D for Sports Icons",
+        "es": "Respuesta D para Sports Icons",
+        "de": "Antwort D für Sports Icons",
+        "nl": "Antwoord D voor Sports Icons"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sports Icons.",
+      "es": "Esta es la respuesta correcta sobre Sports Icons.",
+      "de": "Dies ist die richtige Antwort über Sports Icons.",
+      "nl": "Dit is het juiste antwoord over Sports Icons."
+    }
   }
-})();
+]
+};

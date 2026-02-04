@@ -1,1657 +1,4104 @@
-// Chocolate Desserts Quiz - Level 7
-(function() {
-  const level7 = {
-    name: {
-          "en": "Chocolate Chemistry and Science",
-          "es": "Química y Ciencia del Chocolate",
-          "de": "Schokoladenchemie und -wissenschaft",
-          "nl": "Chocoladechemie en -wetenschap"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Chocolate Desserts",
+      "es": "Pregunta 1 sobre Chocolate Desserts",
+      "de": "Frage 1 über Chocolate Desserts",
+      "nl": "Vraag 1 over Chocolate Desserts"
     },
-    questions: [
+    "options": [
       {
-        question: {
-                  "en": "What is the primary compound responsible for chocolate's bitter taste?",
-                  "es": "¿Cuál es el compuesto principal responsable del sabor amargo del chocolate?",
-                  "de": "Was ist die primäre Verbindung, die für den bitteren Geschmack von Schokolade verantwortlich ist?",
-                  "nl": "Wat is de primaire verbinding verantwoordelijk voor de bittere smaak van chocolade?"
-        },
-        options: [
-        {
-                  "en": "Caffeine",
-                  "es": "Cafeína",
-                  "de": "Koffein",
-                  "nl": "Cafeïne"
-        },
-        {
-                  "en": "Tannins",
-                  "es": "Taninos",
-                  "de": "Tannine",
-                  "nl": "Tannines"
-        },
-        {
-                  "en": "Phenylethylamine",
-                  "es": "Feniletilmina",
-                  "de": "Phenylethylamin",
-                  "nl": "Fenylethylamine"
-        },
-        {
-                  "en": "Theobromine",
-                  "es": "Teobromina",
-                  "de": "Theobromin",
-                  "nl": "Theobromine"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Theobromine is the primary alkaloid responsible for chocolate's characteristic bitter taste. It's found in much higher concentrations than caffeine in chocolate.",
-                  "es": "La teobromina es el alcaloide principal responsable del sabor amargo característico del chocolate. Se encuentra en concentraciones mucho más altas que la cafeína en el chocolate.",
-                  "de": "Theobromin ist das primäre Alkaloid, das für den charakteristischen bitteren Geschmack von Schokolade verantwortlich ist. Es kommt in viel höheren Konzentrationen als Koffein in Schokolade vor.",
-                  "nl": "Theobromine is de primaire alkaloïde verantwoordelijk voor chocolade's karakteristieke bittere smaak. Het komt voor in veel hogere concentraties dan cafeïne in chocolade."
-        }
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
       },
       {
-        question: {
-                  "en": "At what temperature does cocoa butter begin to melt?",
-                  "es": "¿A qué temperatura comienza a derretirse la manteca de cacao?",
-                  "de": "Bei welcher Temperatur beginnt Kakaobutter zu schmelzen?",
-                  "nl": "Bij welke temperatuur begint cacaoboter te smelten?"
-        },
-        options: [
-        {
-                  "en": "28-30°C (82-86°F)",
-                  "es": "28-30°C (82-86°F)",
-                  "de": "28-30°C (82-86°F)",
-                  "nl": "28-30°C (82-86°F)"
-        },
-        {
-                  "en": "45-50°C (113-122°F)",
-                  "es": "45-50°C (113-122°F)",
-                  "de": "45-50°C (113-122°F)",
-                  "nl": "45-50°C (113-122°F)"
-        },
-        {
-                  "en": "37-40°C (98-104°F)",
-                  "es": "37-40°C (98-104°F)",
-                  "de": "37-40°C (98-104°F)",
-                  "nl": "37-40°C (98-104°F)"
-        },
-        {
-                  "en": "32-35°C (90-95°F)",
-                  "es": "32-35°C (90-95°F)",
-                  "de": "32-35°C (90-95°F)",
-                  "nl": "32-35°C (90-95°F)"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Cocoa butter begins to melt at 32-35°C (90-95°F), which is just below body temperature. This is why chocolate melts in your mouth.",
-                  "es": "La manteca de cacao comienza a derretirse a 32-35°C (90-95°F), que está justo por debajo de la temperatura corporal. Por esto el chocolate se derrite en la boca.",
-                  "de": "Kakaobutter beginnt bei 32-35°C (90-95°F) zu schmelzen, was knapp unter der Körpertemperatur liegt. Deshalb schmilzt Schokolade im Mund.",
-                  "nl": "Cacaoboter begint te smelten bij 32-35°C (90-95°F), wat net onder lichaamstemperatuur is. Daarom smelt chocolade in je mond."
-        }
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
       },
       {
-        question: {
-                  "en": "What are the six polymorphic forms of cocoa butter crystallization called?",
-                  "es": "¿Cómo se llaman las seis formas polimórficas de cristalización de la manteca de cacao?",
-                  "de": "Wie heißen die sechs polymorphen Formen der Kakaobutter-Kristallisation?",
-                  "nl": "Hoe heten de zes polymorfe vormen van cacaoboter kristallisatie?"
-        },
-        options: [
-        {
-                  "en": "Type A, B, C, D, E, F",
-                  "es": "Tipo A, B, C, D, E, F",
-                  "de": "Typ A, B, C, D, E, F",
-                  "nl": "Type A, B, C, D, E, F"
-        },
-        {
-                  "en": "Phase 1, 2, 3, 4, 5, 6",
-                  "es": "Fase 1, 2, 3, 4, 5, 6",
-                  "de": "Phase 1, 2, 3, 4, 5, 6",
-                  "nl": "Fase 1, 2, 3, 4, 5, 6"
-        },
-        {
-                  "en": "Alpha, Beta, Gamma, Delta, Epsilon, Zeta",
-                  "es": "Alfa, Beta, Gamma, Delta, Epsilon, Zeta",
-                  "de": "Alpha, Beta, Gamma, Delta, Epsilon, Zeta",
-                  "nl": "Alpha, Beta, Gamma, Delta, Epsilon, Zeta"
-        },
-        {
-                  "en": "Form I, II, III, IV, V, VI",
-                  "es": "Forma I, II, III, IV, V, VI",
-                  "de": "Form I, II, III, IV, V, VI",
-                  "nl": "Vorm I, II, III, IV, V, VI"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The six polymorphic forms are called Form I through VI. Form V is the desired stable form for well-tempered chocolate with good snap and shine.",
-                  "es": "Las seis formas polimórficas se llaman Forma I a VI. La Forma V es la forma estable deseada para chocolate bien templado con buen chasquido y brillo.",
-                  "de": "Die sechs polymorphen Formen werden Form I bis VI genannt. Form V ist die gewünschte stabile Form für gut temperierte Schokolade mit gutem Bruch und Glanz.",
-                  "nl": "De zes polymorfe vormen worden Vorm I tot VI genoemd. Vorm V is de gewenste stabiele vorm voor goed getemperde chocolade met goede knak en glans."
-        }
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
       },
       {
-        question: {
-                  "en": "What percentage of cocoa butter typically makes up dark chocolate?",
-                  "es": "¿Qué porcentaje de manteca de cacao típicamente compone el chocolate negro?",
-                  "de": "Welcher Prozentsatz Kakaobutter macht typischerweise dunkle Schokolade aus?",
-                  "nl": "Welk percentage cacaoboter vormt typisch pure chocolade?"
-        },
-        options: [
-        {
-                  "en": "20-25%",
-                  "es": "20-25%",
-                  "de": "20-25%",
-                  "nl": "20-25%"
-        },
-        {
-                  "en": "10-15%",
-                  "es": "10-15%",
-                  "de": "10-15%",
-                  "nl": "10-15%"
-        },
-        {
-                  "en": "40-45%",
-                  "es": "40-45%",
-                  "de": "40-45%",
-                  "nl": "40-45%"
-        },
-        {
-                  "en": "30-35%",
-                  "es": "30-35%",
-                  "de": "30-35%",
-                  "nl": "30-35%"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Cocoa butter typically makes up 30-35% of dark chocolate. This fat content is crucial for chocolate's texture, mouthfeel, and melting properties.",
-                  "es": "La manteca de cacao típicamente compone el 30-35% del chocolate negro. Este contenido de grasa es crucial para la textura, sensación bucal y propiedades de derretimiento del chocolate.",
-                  "de": "Kakaobutter macht typischerweise 30-35% der dunklen Schokolade aus. Dieser Fettgehalt ist entscheidend für Textur, Mundgefühl und Schmelzeigenschaften der Schokolade.",
-                  "nl": "Cacaoboter vormt typisch 30-35% van pure chocolade. Dit vetgehalte is cruciaal voor chocolade's textuur, mondgevoel en smelteigenschappen."
-        }
-      },
-      {
-        question: {
-                  "en": "What pH level range is typical for processed cocoa powder?",
-                  "es": "¿Qué rango de nivel de pH es típico para el cacao en polvo procesado?",
-                  "de": "Welcher pH-Wert-Bereich ist typisch für verarbeitetes Kakaopulver?",
-                  "nl": "Welk pH-niveau bereik is typisch voor verwerkt cacaopoeder?"
-        },
-        options: [
-        {
-                  "en": "7.0-8.0 (Dutch-processed)",
-                  "es": "7,0-8,0 (procesado holandés)",
-                  "de": "7,0-8,0 (holländisch verarbeitet)",
-                  "nl": "7,0-8,0 (Nederlands geprocessed)"
-        },
-        {
-                  "en": "5.5-6.5 (natural)",
-                  "es": "5,5-6,5 (natural)",
-                  "de": "5,5-6,5 (natürlich)",
-                  "nl": "5,5-6,5 (natuurlijk)"
-        },
-        {
-                  "en": "9.0-10.0 (alkaline)",
-                  "es": "9,0-10,0 (alcalino)",
-                  "de": "9,0-10,0 (alkalisch)",
-                  "nl": "9,0-10,0 (alkalisch)"
-        },
-        {
-                  "en": "3.5-4.5 (acidic)",
-                  "es": "3,5-4,5 (ácido)",
-                  "de": "3,5-4,5 (sauer)",
-                  "nl": "3,5-4,5 (zuur)"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Dutch-processed (alkalized) cocoa powder has a pH of 7.0-8.0, while natural cocoa powder is more acidic at 5.5-6.5. The alkalizing process darkens the color and mellows the flavor.",
-                  "es": "El cacao en polvo procesado holandés (alcalinizado) tiene un pH de 7,0-8,0, mientras que el cacao natural es más ácido a 5,5-6,5. El proceso de alcalinización oscurece el color y suaviza el sabor.",
-                  "de": "Holländisch verarbeitetes (alkalisiertes) Kakaopulver hat einen pH-Wert von 7,0-8,0, während natürliches Kakaopulver saurer bei 5,5-6,5 ist. Der Alkalisierungsprozess verdunkelt die Farbe und mildert den Geschmack.",
-                  "nl": "Nederlands geprocessed (gealkalyseerd) cacaopoeder heeft een pH van 7,0-8,0, terwijl natuurlijk cacaopoeder zuurder is op 5,5-6,5. Het alkalyseringsproces verdonkert de kleur en verzacht de smaak."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the Maillard reaction's role in chocolate flavor development?",
-                  "es": "¿Cuál es el papel de la reacción de Maillard en el desarrollo del sabor del chocolate?",
-                  "de": "Was ist die Rolle der Maillard-Reaktion bei der Schokoladen-Geschmacksentwicklung?",
-                  "nl": "Wat is de rol van de Maillard reactie in chocoladesmaak ontwikkeling?"
-        },
-        options: [
-        {
-                  "en": "Removes acidity",
-                  "es": "Elimina acidez",
-                  "de": "Entfernt Säure",
-                  "nl": "Verwijdert zuurheid"
-        },
-        {
-                  "en": "Increases sweetness",
-                  "es": "Aumenta dulzura",
-                  "de": "Erhöht Süße",
-                  "nl": "Verhoogt zoetheid"
-        },
-        {
-                  "en": "Develops complex flavors and aromas",
-                  "es": "Desarrolla sabores y aromas complejos",
-                  "de": "Entwickelt komplexe Geschmäcker und Aromen",
-                  "nl": "Ontwikkelt complexe smaken en aroma's"
-        },
-        {
-                  "en": "Creates bitterness",
-                  "es": "Crea amargura",
-                  "de": "Erzeugt Bitterkeit",
-                  "nl": "Creëert bitterheid"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The Maillard reaction occurs during roasting when amino acids and reducing sugars react to create hundreds of flavor compounds, giving chocolate its complex taste profile.",
-                  "es": "La reacción de Maillard ocurre durante el tostado cuando los aminoácidos y azúcares reductores reaccionan para crear cientos de compuestos de sabor, dando al chocolate su perfil de sabor complejo.",
-                  "de": "Die Maillard-Reaktion tritt während des Röstens auf, wenn Aminosäuren und reduzierende Zucker reagieren, um Hunderte von Geschmacksverbindungen zu erzeugen, die der Schokolade ihr komplexes Geschmacksprofil verleihen.",
-                  "nl": "De Maillard reactie vindt plaats tijdens roosten wanneer aminozuren en reducerende suikers reageren om honderden smaakverbindingen te creëren, wat chocolade zijn complexe smaakprofiel geeft."
-        }
-      },
-      {
-        question: {
-                  "en": "What causes chocolate bloom to appear on chocolate surfaces?",
-                  "es": "¿Qué causa que aparezca bloom en las superficies del chocolate?",
-                  "de": "Was verursacht das Auftreten von Schokoladenreif auf Schokoladenoberflächen?",
-                  "nl": "Wat veroorzaakt dat chocoladeuitslag verschijnt op chocoladeoppervlakken?"
-        },
-        options: [
-        {
-                  "en": "Mold formation",
-                  "es": "Formación de moho",
-                  "de": "Schimmelbildung",
-                  "nl": "Schimmelvorming"
-        },
-        {
-                  "en": "Chemical oxidation",
-                  "es": "Oxidación química",
-                  "de": "Chemische Oxidation",
-                  "nl": "Chemische oxidatie"
-        },
-        {
-                  "en": "Fat or sugar migration",
-                  "es": "Migración de grasa o azúcar",
-                  "de": "Fett- oder Zuckermigration",
-                  "nl": "Vet- of suikermigratie"
-        },
-        {
-                  "en": "Bacterial growth",
-                  "es": "Crecimiento bacteriano",
-                  "de": "Bakterienwachstum",
-                  "nl": "Bacteriële groei"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Chocolate bloom is caused by fat bloom (cocoa butter migration) or sugar bloom (moisture causing sugar to dissolve and recrystallize), creating white or gray discoloration.",
-                  "es": "El bloom del chocolate es causado por bloom de grasa (migración de manteca de cacao) o bloom de azúcar (humedad que causa que el azúcar se disuelva y recristalice), creando decoloración blanca o gris.",
-                  "de": "Schokoladenreif wird durch Fettreif (Kakaobutter-Migration) oder Zuckerreif (Feuchtigkeit, die Zucker auflöst und rekristallisiert) verursacht und erzeugt weiße oder graue Verfärbung.",
-                  "nl": "Chocoladeuitslag wordt veroorzaakt door vetuitslag (cacaoboter migratie) of suikeruitslag (vocht dat suiker doet oplossen en herkristalliseren), wat witte of grijze verkleuring creëert."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the function of lecithin in chocolate production?",
-                  "es": "¿Cuál es la función de la lecitina en la producción de chocolate?",
-                  "de": "Was ist die Funktion von Lecithin in der Schokoladenproduktion?",
-                  "nl": "Wat is de functie van lecithine in chocoladeproductie?"
-        },
-        options: [
-        {
-                  "en": "Acts as an emulsifier",
-                  "es": "Actúa como emulsificante",
-                  "de": "Wirkt als Emulgator",
-                  "nl": "Werkt als emulgator"
-        },
-        {
-                  "en": "Provides flavor",
-                  "es": "Proporciona sabor",
-                  "de": "Liefert Geschmack",
-                  "nl": "Verschaft smaak"
-        },
-        {
-                  "en": "Adds sweetness",
-                  "es": "Añade dulzura",
-                  "de": "Fügt Süße hinzu",
-                  "nl": "Voegt zoetheid toe"
-        },
-        {
-                  "en": "Creates color",
-                  "es": "Crea color",
-                  "de": "Erzeugt Farbe",
-                  "nl": "Creëert kleur"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Lecithin acts as an emulsifier, helping to bind fat and water-based ingredients together and reducing the viscosity of chocolate during processing.",
-                  "es": "La lecitina actúa como emulsificante, ayudando a unir ingredientes a base de grasa y agua y reduciendo la viscosidad del chocolate durante el procesamiento.",
-                  "de": "Lecithin wirkt als Emulgator und hilft dabei, fett- und wasserbasierte Zutaten zu verbinden und die Viskosität von Schokolade während der Verarbeitung zu reduzieren.",
-                  "nl": "Lecithine werkt als emulgator, helpt vet- en water-gebaseerde ingrediënten samen te binden en reduceert de viscositeit van chocolade tijdens verwerking."
-        }
-      },
-      {
-        question: {
-                  "en": "What temperature range is optimal for conching chocolate?",
-                  "es": "¿Qué rango de temperatura es óptimo para conchar chocolate?",
-                  "de": "Welcher Temperaturbereich ist optimal für das Conchieren von Schokolade?",
-                  "nl": "Welk temperatuurbereik is optimaal voor chocolade concheren?"
-        },
-        options: [
-        {
-                  "en": "90-100°C (194-212°F)",
-                  "es": "90-100°C (194-212°F)",
-                  "de": "90-100°C (194-212°F)",
-                  "nl": "90-100°C (194-212°F)"
-        },
-        {
-                  "en": "110-120°C (230-248°F)",
-                  "es": "110-120°C (230-248°F)",
-                  "de": "110-120°C (230-248°F)",
-                  "nl": "110-120°C (230-248°F)"
-        },
-        {
-                  "en": "40-50°C (104-122°F)",
-                  "es": "40-50°C (104-122°F)",
-                  "de": "40-50°C (104-122°F)",
-                  "nl": "40-50°C (104-122°F)"
-        },
-        {
-                  "en": "60-80°C (140-176°F)",
-                  "es": "60-80°C (140-176°F)",
-                  "de": "60-80°C (140-176°F)",
-                  "nl": "60-80°C (140-176°F)"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Conching typically occurs at 60-80°C (140-176°F). This temperature range allows for flavor development while removing unwanted volatile acids and moisture.",
-                  "es": "El conchado típicamente ocurre a 60-80°C (140-176°F). Este rango de temperatura permite el desarrollo del sabor mientras elimina ácidos volátiles no deseados y humedad.",
-                  "de": "Conchieren erfolgt typischerweise bei 60-80°C (140-176°F). Dieser Temperaturbereich ermöglicht Geschmacksentwicklung bei gleichzeitiger Entfernung unerwünschter flüchtiger Säuren und Feuchtigkeit.",
-                  "nl": "Concheren vindt typisch plaats bij 60-80°C (140-176°F). Dit temperatuurbereik maakt smaakontw<>ikkeling mogelijk terwijl ongewenste vluchtige zuren en vocht worden weggenomen."
-        }
-      },
-      {
-        question: {
-                  "en": "Which antioxidant compound in dark chocolate provides health benefits?",
-                  "es": "¿Qué compuesto antioxidante en el chocolate negro proporciona beneficios para la salud?",
-                  "de": "Welche antioxidative Verbindung in dunkler Schokolade bietet gesundheitliche Vorteile?",
-                  "nl": "Welke antioxidant verbinding in pure chocolade biedt gezondheidsvoordelen?"
-        },
-        options: [
-        {
-                  "en": "Flavonoids",
-                  "es": "Flavonoides",
-                  "de": "Flavonoide",
-                  "nl": "Flavonoïden"
-        },
-        {
-                  "en": "Vitamins",
-                  "es": "Vitaminas",
-                  "de": "Vitamine",
-                  "nl": "Vitaminen"
-        },
-        {
-                  "en": "Minerals",
-                  "es": "Minerales",
-                  "de": "Mineralien",
-                  "nl": "Mineralen"
-        },
-        {
-                  "en": "Proteins",
-                  "es": "Proteínas",
-                  "de": "Proteine",
-                  "nl": "Eiwitten"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Flavonoids, particularly epicatechin and catechin, are the primary antioxidant compounds in dark chocolate that may provide cardiovascular and cognitive health benefits.",
-                  "es": "Los flavonoides, particularmente epicatequina y catequina, son los compuestos antioxidantes primarios en el chocolate negro que pueden proporcionar beneficios para la salud cardiovascular y cognitiva.",
-                  "de": "Flavonoide, insbesondere Epicatechin und Catechin, sind die primären antioxidativen Verbindungen in dunkler Schokolade, die kardiovaskuläre und kognitive Gesundheitsvorteile bieten können.",
-                  "nl": "Flavonoïden, vooral epicatechine en catechine, zijn de primaire antioxidant verbindingen in pure chocolade die cardiovasculaire en cognitieve gezondheidsvoordelen kunnen bieden."
-        }
-      },
-      {
-        question: {
-                  "en": "What causes the 'snap' sound when breaking well-tempered chocolate?",
-                  "es": "¿Qué causa el sonido de 'chasquido' al romper chocolate bien templado?",
-                  "de": "Was verursacht das 'Knack'-Geräusch beim Brechen von gut temperierter Schokolade?",
-                  "nl": "Wat veroorzaakt het 'knak' geluid bij het breken van goed getemperde chocolade?"
-        },
-        options: [
-        {
-                  "en": "Sugar crystallization",
-                  "es": "Cristalización del azúcar",
-                  "de": "Zuckerkristallisation",
-                  "nl": "Suikerkristallisatie"
-        },
-        {
-                  "en": "Air bubbles bursting",
-                  "es": "Burbujas de aire explotando",
-                  "de": "Platzende Luftblasen",
-                  "nl": "Luchtzjebellen die barsten"
-        },
-        {
-                  "en": "Stable crystal structure",
-                  "es": "Estructura cristalina estable",
-                  "de": "Stabile Kristallstruktur",
-                  "nl": "Stabiele kristalstructuur"
-        },
-        {
-                  "en": "Protein bonds breaking",
-                  "es": "Rotura de enlaces proteicos",
-                  "de": "Brechende Proteinbindungen",
-                  "nl": "Breking van eiwitbindingen"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The sharp 'snap' is caused by the stable Form V crystal structure of properly tempered chocolate, which creates a uniform, brittle texture that breaks cleanly.",
-                  "es": "El 'chasquido' agudo es causado por la estructura cristalina estable Forma V del chocolate apropiadamente templado, que crea una textura uniforme y quebradiza que se rompe limpiamente.",
-                  "de": "Das scharfe 'Knacken' wird durch die stabile Form-V-Kristallstruktur von ordnungsgemäß temperierter Schokolade verursacht, die eine gleichmäßige, spröde Textur erzeugt, die sauber bricht.",
-                  "nl": "Het scherpe 'knak' wordt veroorzaakt door de stabiele Vorm V kristalstructuur van goed getemperde chocolade, wat een uniforme, broze textuur creëert die schoon breekt."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the purpose of adding vanilla to chocolate?",
-                  "es": "¿Cuál es el propósito de agregar vainilla al chocolate?",
-                  "de": "Was ist der Zweck des Hinzufügens von Vanille zu Schokolade?",
-                  "nl": "Wat is het doel van het toevoegen van vanille aan chocolade?"
-        },
-        options: [
-        {
-                  "en": "Flavor enhancement and rounding",
-                  "es": "Mejora y redondeo del sabor",
-                  "de": "Geschmacksverbesserung und -abrundung",
-                  "nl": "Smaakverbetering en afronding"
-        },
-        {
-                  "en": "Texture modification",
-                  "es": "Modificación de textura",
-                  "de": "Texturmodifikation",
-                  "nl": "Textuurmodificatie"
-        },
-        {
-                  "en": "Preservative action",
-                  "es": "Acción conservante",
-                  "de": "Konservierungswirkung",
-                  "nl": "Conserverende werking"
-        },
-        {
-                  "en": "Color improvement",
-                  "es": "Mejora del color",
-                  "de": "Farbverbesserung",
-                  "nl": "Kleurverbetering"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Vanilla enhances and rounds out chocolate's flavor profile, masking harsh or bitter notes while adding complexity and sweetness to the overall taste.",
-                  "es": "La vainilla mejora y redondea el perfil de sabor del chocolate, enmascarando notas ásperas o amargas mientras añade complejidad y dulzura al sabor general.",
-                  "de": "Vanille verstärkt und rundet das Geschmacksprofil von Schokolade ab, maskiert harte oder bittere Noten und fügt Komplexität und Süße zum Gesamtgeschmack hinzu.",
-                  "nl": "Vanille verbetert en rondt chocolade's smaakprofiel af, maskeert harde of bittere noten terwijl complexiteit en zoetheid aan de algehele smaak wordt toegevoegd."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the water activity level that prevents microbial growth in chocolate?",
-                  "es": "¿Cuál es el nivel de actividad del agua que previene el crecimiento microbiano en el chocolate?",
-                  "de": "Was ist das Wasseraktivitätsniveau, das mikrobielles Wachstum in Schokolade verhindert?",
-                  "nl": "Wat is het wateractiviteitsniveau dat microbiële groei in chocolade voorkomt?"
-        },
-        options: [
-        {
-                  "en": "Below 0.65",
-                  "es": "Por debajo de 0,65",
-                  "de": "Unter 0,65",
-                  "nl": "Onder 0,65"
-        },
-        {
-                  "en": "Below 0.55",
-                  "es": "Por debajo de 0,55",
-                  "de": "Unter 0,55",
-                  "nl": "Onder 0,55"
-        },
-        {
-                  "en": "Below 0.85",
-                  "es": "Por debajo de 0,85",
-                  "de": "Unter 0,85",
-                  "nl": "Onder 0,85"
-        },
-        {
-                  "en": "Below 0.75",
-                  "es": "Por debajo de 0,75",
-                  "de": "Unter 0,75",
-                  "nl": "Onder 0,75"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Chocolate typically has a water activity below 0.65, which prevents most microbial growth including bacteria, yeasts, and molds, contributing to its long shelf life.",
-                  "es": "El chocolate típicamente tiene una actividad del agua por debajo de 0,65, lo que previene la mayoría del crecimiento microbiano incluyendo bacterias, levaduras y mohos, contribuyendo a su larga vida útil.",
-                  "de": "Schokolade hat typischerweise eine Wasseraktivität unter 0,65, was das meiste mikrobielle Wachstum einschließlich Bakterien, Hefen und Schimmelpilzen verhindert und zu ihrer langen Haltbarkeit beiträgt.",
-                  "nl": "Chocolade heeft typisch een wateractiviteit onder 0,65, wat de meeste microbiële groei inclusief bacteriën, gisten en schimmels voorkomt, bijdragend aan zijn lange houdbaarheid."
-        }
-      },
-      {
-        question: {
-                  "en": "What happens to chocolate's crystal structure during tempering?",
-                  "es": "¿Qué pasa con la estructura cristalina del chocolate durante el templado?",
-                  "de": "Was passiert mit der Kristallstruktur von Schokolade während des Temperierens?",
-                  "nl": "Wat gebeurt er met chocolade's kristalstructuur tijdens temperen?"
-        },
-        options: [
-        {
-                  "en": "All crystals become uniform",
-                  "es": "Todos los cristales se vuelven uniformes",
-                  "de": "Alle Kristalle werden einheitlich",
-                  "nl": "Alle kristallen worden uniform"
-        },
-        {
-                  "en": "New crystal types are created",
-                  "es": "Se crean nuevos tipos de cristal",
-                  "de": "Neue Kristalltypen werden erzeugt",
-                  "nl": "Nieuwe kristaltypes worden gecreëerd"
-        },
-        {
-                  "en": "Crystals completely dissolve",
-                  "es": "Los cristales se disuelven completamente",
-                  "de": "Kristalle lösen sich vollständig auf",
-                  "nl": "Kristallen lossen volledig op"
-        },
-        {
-                  "en": "Unstable forms convert to Form V",
-                  "es": "Las formas inestables se convierten en Forma V",
-                  "de": "Instabile Formen wandeln sich in Form V um",
-                  "nl": "Instabiele vormen converteren naar Vorm V"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "During tempering, unstable crystal forms (I-IV and VI) are eliminated or converted to the stable Form V crystals, which give chocolate its desirable properties.",
-                  "es": "Durante el templado, las formas cristalinas inestables (I-IV y VI) se eliminan o convierten en cristales estables Forma V, que dan al chocolate sus propiedades deseables.",
-                  "de": "Während des Temperierens werden instabile Kristallformen (I-IV und VI) eliminiert oder in stabile Form-V-Kristalle umgewandelt, die der Schokolade ihre wünschenswerten Eigenschaften verleihen.",
-                  "nl": "Tijdens temperen worden instabiele kristalvormen (I-IV en VI) geëlimineerd of geconverteerd naar stabiele Vorm V kristallen, die chocolade zijn gewenste eigenschappen geven."
-        }
-      },
-      {
-        question: {
-                  "en": "Which enzyme is responsible for developing chocolate flavor during fermentation?",
-                  "es": "¿Qué enzima es responsable de desarrollar el sabor del chocolate durante la fermentación?",
-                  "de": "Welches Enzym ist für die Entwicklung des Schokoladengeschmacks während der Fermentation verantwortlich?",
-                  "nl": "Welk enzym is verantwoordelijk voor het ontwikkelen van chocoladesmaak tijdens fermentatie?"
-        },
-        options: [
-        {
-                  "en": "Protease",
-                  "es": "Proteasa",
-                  "de": "Protease",
-                  "nl": "Protease"
-        },
-        {
-                  "en": "Invertase",
-                  "es": "Invertasa",
-                  "de": "Invertase",
-                  "nl": "Invertase"
-        },
-        {
-                  "en": "Amylase",
-                  "es": "Amilasa",
-                  "de": "Amylase",
-                  "nl": "Amylase"
-        },
-        {
-                  "en": "Polyphenol oxidase",
-                  "es": "Polifenol oxidasa",
-                  "de": "Polyphenoloxidase",
-                  "nl": "Polyfenol oxidase"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Polyphenol oxidase breaks down astringent tannins and develops the characteristic chocolate flavor compounds during the fermentation process of cacao beans.",
-                  "es": "La polifenol oxidasa descompone los taninos astringentes y desarrolla los compuestos de sabor característicos del chocolate durante el proceso de fermentación de los granos de cacao.",
-                  "de": "Polyphenoloxidase baut adstringierende Tannine ab und entwickelt die charakteristischen Schokoladen-Geschmacksverbindungen während des Fermentationsprozesses von Kakaobohnen.",
-                  "nl": "Polyfenol oxidase breekt samentrekkende tannines af en ontwikkelt de karakteristieke chocoladesmaakverbindingen tijdens het fermentatieproces van cacaobonen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the ideal relative humidity for storing chocolate?",
-                  "es": "¿Cuál es la humedad relativa ideal para almacenar chocolate?",
-                  "de": "Was ist die ideale relative Luftfeuchtigkeit für die Lagerung von Schokolade?",
-                  "nl": "Wat is de ideale relatieve vochtigheid voor het opslaan van chocolade?"
-        },
-        options: [
-        {
-                  "en": "Less than 50%",
-                  "es": "Menos del 50%",
-                  "de": "Weniger als 50%",
-                  "nl": "Minder dan 50%"
-        },
-        {
-                  "en": "More than 70%",
-                  "es": "Más del 70%",
-                  "de": "Mehr als 70%",
-                  "nl": "Meer dan 70%"
-        },
-        {
-                  "en": "60-70%",
-                  "es": "60-70%",
-                  "de": "60-70%",
-                  "nl": "60-70%"
-        },
-        {
-                  "en": "50-60%",
-                  "es": "50-60%",
-                  "de": "50-60%",
-                  "nl": "50-60%"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Chocolate should be stored at less than 50% relative humidity to prevent sugar bloom, which occurs when moisture causes sugar to dissolve and recrystallize on the surface.",
-                  "es": "El chocolate debe almacenarse a menos del 50% de humedad relativa para prevenir el bloom de azúcar, que ocurre cuando la humedad causa que el azúcar se disuelva y recristalice en la superficie.",
-                  "de": "Schokolade sollte bei weniger als 50% relativer Luftfeuchtigkeit gelagert werden, um Zuckerreif zu verhindern, der auftritt, wenn Feuchtigkeit Zucker auflöst und an der Oberfläche rekristallisiert.",
-                  "nl": "Chocolade moet worden opgeslagen bij minder dan 50% relatieve vochtigheid om suikeruitslag te voorkomen, wat optreedt wanneer vocht suiker doet oplossen en herkristalliseren op het oppervlak."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the primary function of conching in chocolate production?",
-                  "es": "¿Cuál es la función principal del conchado en la producción de chocolate?",
-                  "de": "Was ist die primäre Funktion des Conchierens in der Schokoladenproduktion?",
-                  "nl": "Wat is de primaire functie van concheren in chocoladeproductie?"
-        },
-        options: [
-        {
-                  "en": "Adding sugar",
-                  "es": "Agregar azúcar",
-                  "de": "Zucker hinzufügen",
-                  "nl": "Suiker toevoegen"
-        },
-        {
-                  "en": "Cooling chocolate",
-                  "es": "Enfriar chocolate",
-                  "de": "Schokolade kühlen",
-                  "nl": "Chocolade koelen"
-        },
-        {
-                  "en": "Developing flavor and texture",
-                  "es": "Desarrollar sabor y textura",
-                  "de": "Geschmack und Textur entwickeln",
-                  "nl": "Ontwikkelen van smaak en textuur"
-        },
-        {
-                  "en": "Grinding cocoa beans",
-                  "es": "Moler granos de cacao",
-                  "de": "Mahlen von Kakaobohnen",
-                  "nl": "Malen van cacaobonen"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Conching develops flavor by removing volatile acids and moisture while creating a smooth texture through continuous mixing and aerating of the chocolate mass.",
-                  "es": "El conchado desarrolla sabor eliminando ácidos volátiles y humedad mientras crea una textura suave a través del mezclado continuo y aireación de la masa de chocolate.",
-                  "de": "Conchieren entwickelt Geschmack durch Entfernung flüchtiger Säuren und Feuchtigkeit bei gleichzeitiger Erzeugung einer glatten Textur durch kontinuierliches Mischen und Belüften der Schokoladenmasse.",
-                  "nl": "Concheren ontwikkelt smaak door vluchtige zuren en vocht te verwijderen terwijl een gladde textuur wordt gecreëerd door continu mengen en beluchten van de chocolademassa."
-        }
-      },
-      {
-        question: {
-                  "en": "Which compound gives white chocolate its characteristic flavor?",
-                  "es": "¿Qué compuesto le da a la chocolate blanco su sabor característico?",
-                  "de": "Welche Verbindung verleiht weißer Schokolade ihren charakteristischen Geschmack?",
-                  "nl": "Welke verbinding geeft witte chocolade zijn karakteristieke smaak?"
-        },
-        options: [
-        {
-                  "en": "Milk powder",
-                  "es": "Leche en polvo",
-                  "de": "Milchpulver",
-                  "nl": "Melkpoeder"
-        },
-        {
-                  "en": "Cocoa butter",
-                  "es": "Manteca de cacao",
-                  "de": "Kakaobutter",
-                  "nl": "Cacaoboter"
-        },
-        {
-                  "en": "Cocoa solids",
-                  "es": "Sólidos de cacao",
-                  "de": "Kakaofeststoffe",
-                  "nl": "Cacaobestanddelen"
-        },
-        {
-                  "en": "Vanilla extract",
-                  "es": "Extracto de vainilla",
-                  "de": "Vanilleextrakt",
-                  "nl": "Vanille-extract"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "White chocolate gets its characteristic mild, sweet flavor primarily from cocoa butter, as it contains no cocoa solids (which provide chocolate's typical flavor).",
-                  "es": "El chocolate blanco obtiene su sabor característico suave y dulce principalmente de la manteca de cacao, ya que no contiene sólidos de cacao (que proporcionan el sabor típico del chocolate).",
-                  "de": "Weiße Schokolade erhält ihren charakteristischen milden, süßen Geschmack hauptsächlich von Kakaobutter, da sie keine Kakaofeststoffe enthält (die den typischen Schokoladengeschmack liefern).",
-                  "nl": "Witte chocolade krijgt zijn karakteristieke milde, zoete smaak voornamelijk van cacaoboter, omdat het geen cacaobestanddelen bevat (die chocolade's typische smaak verschaffen)."
-        }
-      },
-      {
-        question: {
-                  "en": "What causes the different colors in chocolate varieties?",
-                  "es": "¿Qué causa los diferentes colores en las variedades de chocolate?",
-                  "de": "Was verursacht die verschiedenen Farben in Schokoladensorten?",
-                  "nl": "Wat veroorzaakt de verschillende kleuren in chocoladevariëteiten?"
-        },
-        options: [
-        {
-                  "en": "Added food coloring",
-                  "es": "Colorante alimentario añadido",
-                  "de": "Zugesetzte Lebensmittelfarbe",
-                  "nl": "Toegevoegde voedselkleuring"
-        },
-        {
-                  "en": "Temperature differences",
-                  "es": "Diferencias de temperatura",
-                  "de": "Temperaturunterschiede",
-                  "nl": "Temperatuurverschillen"
-        },
-        {
-                  "en": "Sugar concentration",
-                  "es": "Concentración de azúcar",
-                  "de": "Zuckerkonzentration",
-                  "nl": "Suikerconcentratie"
-        },
-        {
-                  "en": "Cocoa content and processing",
-                  "es": "Contenido de cacao y procesamiento",
-                  "de": "Kakaogehalt und Verarbeitung",
-                  "nl": "Cacaogehalte en verwerking"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Chocolate color depends on cocoa content (more cocoa = darker) and processing methods like Dutch processing, which darkens the color through alkalization.",
-                  "es": "El color del chocolate depende del contenido de cacao (más cacao = más oscuro) y métodos de procesamiento como el procesamiento holandés, que oscurece el color a través de la alcalinización.",
-                  "de": "Schokoladenfarbe hängt vom Kakaogehalt ab (mehr Kakao = dunkler) und Verarbeitungsmethoden wie holländische Verarbeitung, die die Farbe durch Alkalisierung verdunkelt.",
-                  "nl": "Chocoladekleur hangt af van cacaogehalte (meer cacao = donkerder) en verwerkingsmethoden zoals Nederlandse verwerking, die de kleur verdonkert door alkalysering."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the role of potassium carbonate in Dutch-process cocoa production?",
-                  "es": "¿Cuál es el papel del carbonato de potasio en la producción de cacao procesado holandés?",
-                  "de": "Welche Rolle spielt Kaliumcarbonat bei der Herstellung von niederländisch verarbeitetem Kakao?",
-                  "nl": "Wat is de rol van kaliumcarbonaat in de productie van Nederlands verwerkte cacao?"
-        },
-        options: [
-        {
-                  "en": "Adds sweetness",
-                  "es": "Añade dulzura",
-                  "de": "Fügt Süße hinzu",
-                  "nl": "Voegt zoetheid toe"
-        },
-        {
-                  "en": "Preserves the cocoa",
-                  "es": "Conserva el cacao",
-                  "de": "Konserviert den Kakao",
-                  "nl": "Conserveert de cacao"
-        },
-        {
-                  "en": "Increases fat content",
-                  "es": "Aumenta el contenido de grasa",
-                  "de": "Erhöht den Fettgehalt",
-                  "nl": "Verhoogt het vetgehalte"
-        },
-        {
-                  "en": "Alkalizes and neutralizes natural acids",
-                  "es": "Alcaliniza y neutraliza ácidos naturales",
-                  "de": "Alkalisiert und neutralisiert natürliche Säuren",
-                  "nl": "Alkaliseert en neutraliseert natuurlijke zuren"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Potassium carbonate alkalizes cocoa during Dutch processing, neutralizing natural acids to create a milder flavor and darker color while improving solubility.",
-                  "es": "El carbonato de potasio alcaliniza el cacao durante el procesamiento holandés, neutralizando ácidos naturales para crear un sabor más suave y color más oscuro mientras mejora la solubilidad.",
-                  "de": "Kaliumcarbonat alkalisiert Kakao während der niederländischen Verarbeitung, neutralisiert natürliche Säuren für milderen Geschmack und dunklere Farbe bei verbesserter Löslichkeit.",
-                  "nl": "Kaliumcarbonaat alkaliseert cacao tijdens Nederlandse verwerking, neutraliseert natuurlijke zuren voor mildere smaak en donkerdere kleur met verbeterde oplosbaarheid."
-        }
-      },
-      {
-        question: {
-                  "en": "What is ganache made from?",
-                  "es": "What is ganache made from?",
-                  "de": "What is ganache made from?",
-                  "nl": "What is ganache made from?"
-        },
-        options: [
-        {
-                  "en": "Chocolate and butter",
-                  "es": "Chocolate and butter",
-                  "de": "Chocolate and butter",
-                  "nl": "Chocolate and butter"
-        },
-        {
-                  "en": "Chocolate and cream",
-                  "es": "Chocolate and cream",
-                  "de": "Chocolate and cream",
-                  "nl": "Chocolate and cream"
-        },
-        {
-                  "en": "Chocolate and milk",
-                  "es": "Chocolate and milk",
-                  "de": "Chocolate and milk",
-                  "nl": "Chocolate and milk"
-        },
-        {
-                  "en": "Chocolate and eggs",
-                  "es": "Chocolate and eggs",
-                  "de": "Chocolate and eggs",
-                  "nl": "Chocolate and eggs"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Ganache is made from chocolate and heavy cream, used for glazes, fillings, and truffles.",
-                  "es": "Ganache is made from chocolate and heavy cream, used for glazes, fillings, and truffles.",
-                  "de": "Ganache is made from chocolate and heavy cream, used for glazes, fillings, and truffles.",
-                  "nl": "Ganache is made from chocolate and heavy cream, used for glazes, fillings, and truffles."
-        }
-      },
-      {
-        question: {
-                  "en": "What is tempering chocolate?",
-                  "es": "What is tempering chocolate?",
-                  "de": "What is tempering chocolate?",
-                  "nl": "What is tempering chocolate?"
-        },
-        options: [
-        {
-                  "en": "Adding sugar",
-                  "es": "Adding sugar",
-                  "de": "Adding sugar",
-                  "nl": "Adding sugar"
-        },
-        {
-                  "en": "Melting chocolate",
-                  "es": "Melting chocolate",
-                  "de": "Melting chocolate",
-                  "nl": "Melting chocolate"
-        },
-        {
-                  "en": "Mixing chocolate flavors",
-                  "es": "Mixing chocolate flavors",
-                  "de": "Mixing chocolate flavors",
-                  "nl": "Mixing chocolate flavors"
-        },
-        {
-                  "en": "Heating and cooling for shine and snap",
-                  "es": "Heating and cooling for shine and snap",
-                  "de": "Heating and cooling for shine and snap",
-                  "nl": "Heating and cooling for shine and snap"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Tempering chocolate involves carefully heating and cooling it to create stable crystals for a shiny appearance and crisp snap.",
-                  "es": "Tempering chocolate involves carefully heating and cooling it to create stable crystals for a shiny appearance and crisp snap.",
-                  "de": "Tempering chocolate involves carefully heating and cooling it to create stable crystals for a shiny appearance and crisp snap.",
-                  "nl": "Tempering chocolate involves carefully heating and cooling it to create stable crystals for a shiny appearance and crisp snap."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a chocolate truffle?",
-                  "es": "What is a chocolate truffle?",
-                  "de": "What is a chocolate truffle?",
-                  "nl": "What is a chocolate truffle?"
-        },
-        options: [
-        {
-                  "en": "Ganache ball coated in cocoa or chocolate",
-                  "es": "Ganache ball coated in cocoa or chocolate",
-                  "de": "Ganache ball coated in cocoa or chocolate",
-                  "nl": "Ganache ball coated in cocoa or chocolate"
-        },
-        {
-                  "en": "Chocolate cake",
-                  "es": "Chocolate cake",
-                  "de": "Chocolate cake",
-                  "nl": "Chocolate cake"
-        },
-        {
-                  "en": "Chocolate cookie",
-                  "es": "Chocolate cookie",
-                  "de": "Chocolate cookie",
-                  "nl": "Chocolate cookie"
-        },
-        {
-                  "en": "Chocolate mushroom",
-                  "es": "Chocolate mushroom",
-                  "de": "Chocolate mushroom",
-                  "nl": "Chocolate mushroom"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "A chocolate truffle is a ball of chocolate ganache, often coated in cocoa powder, nuts, or tempered chocolate.",
-                  "es": "A chocolate truffle is a ball of chocolate ganache, often coated in cocoa powder, nuts, or tempered chocolate.",
-                  "de": "A chocolate truffle is a ball of chocolate ganache, often coated in cocoa powder, nuts, or tempered chocolate.",
-                  "nl": "A chocolate truffle is a ball of chocolate ganache, often coated in cocoa powder, nuts, or tempered chocolate."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the difference between cocoa powder and cacao powder?",
-                  "es": "What is the difference between cocoa powder and cacao powder?",
-                  "de": "What is the difference between cocoa powder and cacao powder?",
-                  "nl": "What is the difference between cocoa powder and cacao powder?"
-        },
-        options: [
-        {
-                  "en": "Color",
-                  "es": "Color",
-                  "de": "Color",
-                  "nl": "Color"
-        },
-        {
-                  "en": "Sugar content",
-                  "es": "Sugar content",
-                  "de": "Sugar content",
-                  "nl": "Sugar content"
-        },
-        {
-                  "en": "Country of origin",
-                  "es": "Country of origin",
-                  "de": "Country of origin",
-                  "nl": "Country of origin"
-        },
-        {
-                  "en": "Processing temperature",
-                  "es": "Processing temperature",
-                  "de": "Processing temperature",
-                  "nl": "Processing temperature"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Cacao powder is raw and processed at low temperatures, while cocoa powder is roasted at higher temperatures.",
-                  "es": "Cacao powder is raw and processed at low temperatures, while cocoa powder is roasted at higher temperatures.",
-                  "de": "Cacao powder is raw and processed at low temperatures, while cocoa powder is roasted at higher temperatures.",
-                  "nl": "Cacao powder is raw and processed at low temperatures, while cocoa powder is roasted at higher temperatures."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Dutch-process cocoa?",
-                  "es": "What is Dutch-process cocoa?",
-                  "de": "What is Dutch-process cocoa?",
-                  "nl": "What is Dutch-process cocoa?"
-        },
-        options: [
-        {
-                  "en": "Natural cocoa",
-                  "es": "Natural cocoa",
-                  "de": "Natural cocoa",
-                  "nl": "Natural cocoa"
-        },
-        {
-                  "en": "White cocoa",
-                  "es": "White cocoa",
-                  "de": "White cocoa",
-                  "nl": "White cocoa"
-        },
-        {
-                  "en": "Cocoa from the Netherlands",
-                  "es": "Cocoa from the Netherlands",
-                  "de": "Cocoa from the Netherlands",
-                  "nl": "Cocoa from the Netherlands"
-        },
-        {
-                  "en": "Cocoa treated with alkali",
-                  "es": "Cocoa treated with alkali",
-                  "de": "Cocoa treated with alkali",
-                  "nl": "Cocoa treated with alkali"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Dutch-process cocoa is treated with an alkalizing agent to neutralize acidity, creating a darker, milder flavor.",
-                  "es": "Dutch-process cocoa is treated with an alkalizing agent to neutralize acidity, creating a darker, milder flavor.",
-                  "de": "Dutch-process cocoa is treated with an alkalizing agent to neutralize acidity, creating a darker, milder flavor.",
-                  "nl": "Dutch-process cocoa is treated with an alkalizing agent to neutralize acidity, creating a darker, milder flavor."
-        }
-      },
-      {
-        question: {
-                  "en": "What is chocolate bloom?",
-                  "es": "What is chocolate bloom?",
-                  "de": "What is chocolate bloom?",
-                  "nl": "What is chocolate bloom?"
-        },
-        options: [
-        {
-                  "en": "Melting chocolate",
-                  "es": "Melting chocolate",
-                  "de": "Melting chocolate",
-                  "nl": "Melting chocolate"
-        },
-        {
-                  "en": "Chocolate mold",
-                  "es": "Chocolate mold",
-                  "de": "Chocolate mold",
-                  "nl": "Chocolate mold"
-        },
-        {
-                  "en": "Fat or sugar crystals on surface",
-                  "es": "Fat or sugar crystals on surface",
-                  "de": "Fat or sugar crystals on surface",
-                  "nl": "Fat or sugar crystals on surface"
-        },
-        {
-                  "en": "Chocolate flower decoration",
-                  "es": "Chocolate flower decoration",
-                  "de": "Chocolate flower decoration",
-                  "nl": "Chocolate flower decoration"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Bloom appears as white or gray streaks on chocolate caused by fat or sugar crystals separating and rising to the surface.",
-                  "es": "Bloom appears as white or gray streaks on chocolate caused by fat or sugar crystals separating and rising to the surface.",
-                  "de": "Bloom appears as white or gray streaks on chocolate caused by fat or sugar crystals separating and rising to the surface.",
-                  "nl": "Bloom appears as white or gray streaks on chocolate caused by fat or sugar crystals separating and rising to the surface."
-        }
-      },
-      {
-        question: {
-                  "en": "What is couverture chocolate?",
-                  "es": "What is couverture chocolate?",
-                  "de": "What is couverture chocolate?",
-                  "nl": "What is couverture chocolate?"
-        },
-        options: [
-        {
-                  "en": "Milk chocolate",
-                  "es": "Milk chocolate",
-                  "de": "Milk chocolate",
-                  "nl": "Milk chocolate"
-        },
-        {
-                  "en": "High cocoa butter content chocolate for coating",
-                  "es": "High cocoa butter content chocolate for coating",
-                  "de": "High cocoa butter content chocolate for coating",
-                  "nl": "High cocoa butter content chocolate for coating"
-        },
-        {
-                  "en": "Dark chocolate",
-                  "es": "Dark chocolate",
-                  "de": "Dark chocolate",
-                  "nl": "Dark chocolate"
-        },
-        {
-                  "en": "White chocolate",
-                  "es": "White chocolate",
-                  "de": "White chocolate",
-                  "nl": "White chocolate"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Couverture chocolate contains a higher percentage of cocoa butter, making it ideal for coating and dipping due to its fluidity when melted.",
-                  "es": "Couverture chocolate contains a higher percentage of cocoa butter, making it ideal for coating and dipping due to its fluidity when melted.",
-                  "de": "Couverture chocolate contains a higher percentage of cocoa butter, making it ideal for coating and dipping due to its fluidity when melted.",
-                  "nl": "Couverture chocolate contains a higher percentage of cocoa butter, making it ideal for coating and dipping due to its fluidity when melted."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a chocolate soufflé?",
-                  "es": "What is a chocolate soufflé?",
-                  "de": "What is a chocolate soufflé?",
-                  "nl": "What is a chocolate soufflé?"
-        },
-        options: [
-        {
-                  "en": "Light, airy baked chocolate dessert",
-                  "es": "Light, airy baked chocolate dessert",
-                  "de": "Light, airy baked chocolate dessert",
-                  "nl": "Light, airy baked chocolate dessert"
-        },
-        {
-                  "en": "Chocolate cake",
-                  "es": "Chocolate cake",
-                  "de": "Chocolate cake",
-                  "nl": "Chocolate cake"
-        },
-        {
-                  "en": "Chocolate mousse",
-                  "es": "Chocolate mousse",
-                  "de": "Chocolate mousse",
-                  "nl": "Chocolate mousse"
-        },
-        {
-                  "en": "Chocolate pudding",
-                  "es": "Chocolate pudding",
-                  "de": "Chocolate pudding",
-                  "nl": "Chocolate pudding"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "A chocolate soufflé is a light, airy baked dessert made with egg yolks, chocolate, and whipped egg whites that rise during baking.",
-                  "es": "A chocolate soufflé is a light, airy baked dessert made with egg yolks, chocolate, and whipped egg whites that rise during baking.",
-                  "de": "A chocolate soufflé is a light, airy baked dessert made with egg yolks, chocolate, and whipped egg whites that rise during baking.",
-                  "nl": "A chocolate soufflé is a light, airy baked dessert made with egg yolks, chocolate, and whipped egg whites that rise during baking."
-        }
-      },
-      {
-        question: {
-                  "en": "What are cacao nibs?",
-                  "es": "What are cacao nibs?",
-                  "de": "What are cacao nibs?",
-                  "nl": "What are cacao nibs?"
-        },
-        options: [
-        {
-                  "en": "Cocoa powder",
-                  "es": "Cocoa powder",
-                  "de": "Cocoa powder",
-                  "nl": "Cocoa powder"
-        },
-        {
-                  "en": "Chocolate shavings",
-                  "es": "Chocolate shavings",
-                  "de": "Chocolate shavings",
-                  "nl": "Chocolate shavings"
-        },
-        {
-                  "en": "Crushed cacao beans",
-                  "es": "Crushed cacao beans",
-                  "de": "Crushed cacao beans",
-                  "nl": "Crushed cacao beans"
-        },
-        {
-                  "en": "Chocolate chips",
-                  "es": "Chocolate chips",
-                  "de": "Chocolate chips",
-                  "nl": "Chocolate chips"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Cacao nibs are pieces of crushed, roasted cacao beans before they're processed into chocolate.",
-                  "es": "Cacao nibs are pieces of crushed, roasted cacao beans before they're processed into chocolate.",
-                  "de": "Cacao nibs are pieces of crushed, roasted cacao beans before they're processed into chocolate.",
-                  "nl": "Cacao nibs are pieces of crushed, roasted cacao beans before they're processed into chocolate."
-        }
-      },
-      {
-        question: {
-                  "en": "What is gianduja?",
-                  "es": "What is gianduja?",
-                  "de": "What is gianduja?",
-                  "nl": "What is gianduja?"
-        },
-        options: [
-        {
-                  "en": "Italian chocolate cake",
-                  "es": "Italian chocolate cake",
-                  "de": "Italian chocolate cake",
-                  "nl": "Italian chocolate cake"
-        },
-        {
-                  "en": "Chocolate cookie",
-                  "es": "Chocolate cookie",
-                  "de": "Chocolate cookie",
-                  "nl": "Chocolate cookie"
-        },
-        {
-                  "en": "Chocolate hazelnut mixture",
-                  "es": "Chocolate hazelnut mixture",
-                  "de": "Chocolate hazelnut mixture",
-                  "nl": "Chocolate hazelnut mixture"
-        },
-        {
-                  "en": "Chocolate syrup",
-                  "es": "Chocolate syrup",
-                  "de": "Chocolate syrup",
-                  "nl": "Chocolate syrup"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Gianduja is a sweet chocolate mixture containing about 30% hazelnut paste, originating in Italy.",
-                  "es": "Gianduja is a sweet chocolate mixture containing about 30% hazelnut paste, originating in Italy.",
-                  "de": "Gianduja is a sweet chocolate mixture containing about 30% hazelnut paste, originating in Italy.",
-                  "nl": "Gianduja is a sweet chocolate mixture containing about 30% hazelnut paste, originating in Italy."
-        }
-      },
-      {
-        question: {
-                  "en": "What percentage of cacao makes chocolate 'dark'?",
-                  "es": "What percentage of cacao makes chocolate 'dark'?",
-                  "de": "What percentage of cacao makes chocolate 'dark'?",
-                  "nl": "What percentage of cacao makes chocolate 'dark'?"
-        },
-        options: [
-        {
-                  "en": "Any percentage",
-                  "es": "Any percentage",
-                  "de": "Any percentage",
-                  "nl": "Any percentage"
-        },
-        {
-                  "en": "Typically 70% or higher",
-                  "es": "Typically 70% or higher",
-                  "de": "Typically 70% or higher",
-                  "nl": "Typically 70% or higher"
-        },
-        {
-                  "en": "50% or higher",
-                  "es": "50% or higher",
-                  "de": "50% or higher",
-                  "nl": "50% or higher"
-        },
-        {
-                  "en": "90% or higher",
-                  "es": "90% or higher",
-                  "de": "90% or higher",
-                  "nl": "90% or higher"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Dark chocolate typically contains 70% or more cacao solids, though some classify 60% and above as dark.",
-                  "es": "Dark chocolate typically contains 70% or more cacao solids, though some classify 60% and above as dark.",
-                  "de": "Dark chocolate typically contains 70% or more cacao solids, though some classify 60% and above as dark.",
-                  "nl": "Dark chocolate typically contains 70% or more cacao solids, though some classify 60% and above as dark."
-        }
-      },
-      {
-        question: {
-                  "en": "What is chocolate mousse made with?",
-                  "es": "What is chocolate mousse made with?",
-                  "de": "What is chocolate mousse made with?",
-                  "nl": "What is chocolate mousse made with?"
-        },
-        options: [
-        {
-                  "en": "Chocolate and milk",
-                  "es": "Chocolate and milk",
-                  "de": "Chocolate and milk",
-                  "nl": "Chocolate and milk"
-        },
-        {
-                  "en": "Chocolate and gelatin",
-                  "es": "Chocolate and gelatin",
-                  "de": "Chocolate and gelatin",
-                  "nl": "Chocolate and gelatin"
-        },
-        {
-                  "en": "Chocolate and whipped cream or egg whites",
-                  "es": "Chocolate and whipped cream or egg whites",
-                  "de": "Chocolate and whipped cream or egg whites",
-                  "nl": "Chocolate and whipped cream or egg whites"
-        },
-        {
-                  "en": "Chocolate and flour",
-                  "es": "Chocolate and flour",
-                  "de": "Chocolate and flour",
-                  "nl": "Chocolate and flour"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Chocolate mousse is made by folding melted chocolate into whipped cream or beaten egg whites for a light, airy texture.",
-                  "es": "Chocolate mousse is made by folding melted chocolate into whipped cream or beaten egg whites for a light, airy texture.",
-                  "de": "Chocolate mousse is made by folding melted chocolate into whipped cream or beaten egg whites for a light, airy texture.",
-                  "nl": "Chocolate mousse is made by folding melted chocolate into whipped cream or beaten egg whites for a light, airy texture."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the conching process in chocolate making?",
-                  "es": "What is the conching process in chocolate making?",
-                  "de": "What is the conching process in chocolate making?",
-                  "nl": "What is the conching process in chocolate making?"
-        },
-        options: [
-        {
-                  "en": "Shaping chocolate",
-                  "es": "Shaping chocolate",
-                  "de": "Shaping chocolate",
-                  "nl": "Shaping chocolate"
-        },
-        {
-                  "en": "Storing chocolate",
-                  "es": "Storing chocolate",
-                  "de": "Storing chocolate",
-                  "nl": "Storing chocolate"
-        },
-        {
-                  "en": "Wrapping chocolate",
-                  "es": "Wrapping chocolate",
-                  "de": "Wrapping chocolate",
-                  "nl": "Wrapping chocolate"
-        },
-        {
-                  "en": "Prolonged mixing to refine texture and flavor",
-                  "es": "Prolonged mixing to refine texture and flavor",
-                  "de": "Prolonged mixing to refine texture and flavor",
-                  "nl": "Prolonged mixing to refine texture and flavor"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Conching is the prolonged mixing and aerating of chocolate to develop flavor and create a smooth texture.",
-                  "es": "Conching is the prolonged mixing and aerating of chocolate to develop flavor and create a smooth texture.",
-                  "de": "Conching is the prolonged mixing and aerating of chocolate to develop flavor and create a smooth texture.",
-                  "nl": "Conching is the prolonged mixing and aerating of chocolate to develop flavor and create a smooth texture."
-        }
-      },
-      {
-        question: {
-                  "en": "What is white chocolate made from?",
-                  "es": "What is white chocolate made from?",
-                  "de": "What is white chocolate made from?",
-                  "nl": "What is white chocolate made from?"
-        },
-        options: [
-        {
-                  "en": "White cocoa powder",
-                  "es": "White cocoa powder",
-                  "de": "White cocoa powder",
-                  "nl": "White cocoa powder"
-        },
-        {
-                  "en": "Bleached chocolate",
-                  "es": "Bleached chocolate",
-                  "de": "Bleached chocolate",
-                  "nl": "Bleached chocolate"
-        },
-        {
-                  "en": "Cocoa butter, sugar, and milk solids",
-                  "es": "Cocoa butter, sugar, and milk solids",
-                  "de": "Cocoa butter, sugar, and milk solids",
-                  "nl": "Cocoa butter, sugar, and milk solids"
-        },
-        {
-                  "en": "Milk chocolate with vanilla",
-                  "es": "Milk chocolate with vanilla",
-                  "de": "Milk chocolate with vanilla",
-                  "nl": "Milk chocolate with vanilla"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "White chocolate contains cocoa butter, sugar, and milk solids, but no cocoa solids (the brown part of chocolate).",
-                  "es": "White chocolate contains cocoa butter, sugar, and milk solids, but no cocoa solids (the brown part of chocolate).",
-                  "de": "White chocolate contains cocoa butter, sugar, and milk solids, but no cocoa solids (the brown part of chocolate).",
-                  "nl": "White chocolate contains cocoa butter, sugar, and milk solids, but no cocoa solids (the brown part of chocolate)."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a chocolate lava cake?",
-                  "es": "What is a chocolate lava cake?",
-                  "de": "What is a chocolate lava cake?",
-                  "nl": "What is a chocolate lava cake?"
-        },
-        options: [
-        {
-                  "en": "Cake with molten chocolate center",
-                  "es": "Cake with molten chocolate center",
-                  "de": "Cake with molten chocolate center",
-                  "nl": "Cake with molten chocolate center"
-        },
-        {
-                  "en": "Frozen chocolate dessert",
-                  "es": "Frozen chocolate dessert",
-                  "de": "Frozen chocolate dessert",
-                  "nl": "Frozen chocolate dessert"
-        },
-        {
-                  "en": "Chocolate cake with icing",
-                  "es": "Chocolate cake with icing",
-                  "de": "Chocolate cake with icing",
-                  "nl": "Chocolate cake with icing"
-        },
-        {
-                  "en": "Chocolate layer cake",
-                  "es": "Chocolate layer cake",
-                  "de": "Chocolate layer cake",
-                  "nl": "Chocolate layer cake"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Chocolate lava cake has an intentionally undercooked center that flows out like lava when cut.",
-                  "es": "Chocolate lava cake has an intentionally undercooked center that flows out like lava when cut.",
-                  "de": "Chocolate lava cake has an intentionally undercooked center that flows out like lava when cut.",
-                  "nl": "Chocolate lava cake has an intentionally undercooked center that flows out like lava when cut."
-        }
-      },
-      {
-        question: {
-                  "en": "What is chocolate seizing?",
-                  "es": "What is chocolate seizing?",
-                  "de": "What is chocolate seizing?",
-                  "nl": "What is chocolate seizing?"
-        },
-        options: [
-        {
-                  "en": "Chocolate hardening",
-                  "es": "Chocolate hardening",
-                  "de": "Chocolate hardening",
-                  "nl": "Chocolate hardening"
-        },
-        {
-                  "en": "Chocolate becoming grainy and clumpy",
-                  "es": "Chocolate becoming grainy and clumpy",
-                  "de": "Chocolate becoming grainy and clumpy",
-                  "nl": "Chocolate becoming grainy and clumpy"
-        },
-        {
-                  "en": "Chocolate melting",
-                  "es": "Chocolate melting",
-                  "de": "Chocolate melting",
-                  "nl": "Chocolate melting"
-        },
-        {
-                  "en": "Chocolate burning",
-                  "es": "Chocolate burning",
-                  "de": "Chocolate burning",
-                  "nl": "Chocolate burning"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Seizing occurs when a small amount of water contacts melted chocolate, causing it to become grainy, clumpy, and unusable.",
-                  "es": "Seizing occurs when a small amount of water contacts melted chocolate, causing it to become grainy, clumpy, and unusable.",
-                  "de": "Seizing occurs when a small amount of water contacts melted chocolate, causing it to become grainy, clumpy, and unusable.",
-                  "nl": "Seizing occurs when a small amount of water contacts melted chocolate, causing it to become grainy, clumpy, and unusable."
-        }
-      },
-      {
-        question: {
-                  "en": "What is cocoa butter?",
-                  "es": "What is cocoa butter?",
-                  "de": "What is cocoa butter?",
-                  "nl": "What is cocoa butter?"
-        },
-        options: [
-        {
-                  "en": "Cocoa powder mixed with butter",
-                  "es": "Cocoa powder mixed with butter",
-                  "de": "Cocoa powder mixed with butter",
-                  "nl": "Cocoa powder mixed with butter"
-        },
-        {
-                  "en": "Fat extracted from cacao beans",
-                  "es": "Fat extracted from cacao beans",
-                  "de": "Fat extracted from cacao beans",
-                  "nl": "Fat extracted from cacao beans"
-        },
-        {
-                  "en": "Butter flavored with cocoa",
-                  "es": "Butter flavored with cocoa",
-                  "de": "Butter flavored with cocoa",
-                  "nl": "Butter flavored with cocoa"
-        },
-        {
-                  "en": "Chocolate spread",
-                  "es": "Chocolate spread",
-                  "de": "Chocolate spread",
-                  "nl": "Chocolate spread"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Cocoa butter is the natural fat extracted from cacao beans, giving chocolate its smooth, melt-in-mouth quality.",
-                  "es": "Cocoa butter is the natural fat extracted from cacao beans, giving chocolate its smooth, melt-in-mouth quality.",
-                  "de": "Cocoa butter is the natural fat extracted from cacao beans, giving chocolate its smooth, melt-in-mouth quality.",
-                  "nl": "Cocoa butter is the natural fat extracted from cacao beans, giving chocolate its smooth, melt-in-mouth quality."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a flourless chocolate cake?",
-                  "es": "What is a flourless chocolate cake?",
-                  "de": "What is a flourless chocolate cake?",
-                  "nl": "What is a flourless chocolate cake?"
-        },
-        options: [
-        {
-                  "en": "Chocolate mousse cake",
-                  "es": "Chocolate mousse cake",
-                  "de": "Chocolate mousse cake",
-                  "nl": "Chocolate mousse cake"
-        },
-        {
-                  "en": "Chocolate cheesecake",
-                  "es": "Chocolate cheesecake",
-                  "de": "Chocolate cheesecake",
-                  "nl": "Chocolate cheesecake"
-        },
-        {
-                  "en": "Chocolate cake without gluten",
-                  "es": "Chocolate cake without gluten",
-                  "de": "Chocolate cake without gluten",
-                  "nl": "Chocolate cake without gluten"
-        },
-        {
-                  "en": "Dense cake made primarily with chocolate and eggs",
-                  "es": "Dense cake made primarily with chocolate and eggs",
-                  "de": "Dense cake made primarily with chocolate and eggs",
-                  "nl": "Dense cake made primarily with chocolate and eggs"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Flourless chocolate cake is dense and fudgy, made primarily from chocolate, butter, eggs, and sugar with no flour.",
-                  "es": "Flourless chocolate cake is dense and fudgy, made primarily from chocolate, butter, eggs, and sugar with no flour.",
-                  "de": "Flourless chocolate cake is dense and fudgy, made primarily from chocolate, butter, eggs, and sugar with no flour.",
-                  "nl": "Flourless chocolate cake is dense and fudgy, made primarily from chocolate, butter, eggs, and sugar with no flour."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the Maillard reaction in chocolate?",
-                  "es": "What is the Maillard reaction in chocolate?",
-                  "de": "What is the Maillard reaction in chocolate?",
-                  "nl": "What is the Maillard reaction in chocolate?"
-        },
-        options: [
-        {
-                  "en": "Fermentation",
-                  "es": "Fermentation",
-                  "de": "Fermentation",
-                  "nl": "Fermentation"
-        },
-        {
-                  "en": "Browning reaction during roasting",
-                  "es": "Browning reaction during roasting",
-                  "de": "Browning reaction during roasting",
-                  "nl": "Browning reaction during roasting"
-        },
-        {
-                  "en": "Crystallization",
-                  "es": "Crystallization",
-                  "de": "Crystallization",
-                  "nl": "Crystallization"
-        },
-        {
-                  "en": "Melting process",
-                  "es": "Melting process",
-                  "de": "Melting process",
-                  "nl": "Melting process"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The Maillard reaction occurs when cacao beans are roasted, creating complex flavors through reactions between amino acids and sugars.",
-                  "es": "The Maillard reaction occurs when cacao beans are roasted, creating complex flavors through reactions between amino acids and sugars.",
-                  "de": "The Maillard reaction occurs when cacao beans are roasted, creating complex flavors through reactions between amino acids and sugars.",
-                  "nl": "The Maillard reaction occurs when cacao beans are roasted, creating complex flavors through reactions between amino acids and sugars."
-        }
-      },
-      {
-        question: {
-                  "en": "What is ruby chocolate?",
-                  "es": "What is ruby chocolate?",
-                  "de": "What is ruby chocolate?",
-                  "nl": "What is ruby chocolate?"
-        },
-        options: [
-        {
-                  "en": "Naturally pink chocolate from ruby cacao beans",
-                  "es": "Naturally pink chocolate from ruby cacao beans",
-                  "de": "Naturally pink chocolate from ruby cacao beans",
-                  "nl": "Naturally pink chocolate from ruby cacao beans"
-        },
-        {
-                  "en": "Chocolate with food coloring",
-                  "es": "Chocolate with food coloring",
-                  "de": "Chocolate with food coloring",
-                  "nl": "Chocolate with food coloring"
-        },
-        {
-                  "en": "Chocolate with raspberry",
-                  "es": "Chocolate with raspberry",
-                  "de": "Chocolate with raspberry",
-                  "nl": "Chocolate with raspberry"
-        },
-        {
-                  "en": "White chocolate dyed pink",
-                  "es": "White chocolate dyed pink",
-                  "de": "White chocolate dyed pink",
-                  "nl": "White chocolate dyed pink"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Ruby chocolate is made from ruby cacao beans and has a naturally pink color and berry-like flavor without added colors or flavors.",
-                  "es": "Ruby chocolate is made from ruby cacao beans and has a naturally pink color and berry-like flavor without added colors or flavors.",
-                  "de": "Ruby chocolate is made from ruby cacao beans and has a naturally pink color and berry-like flavor without added colors or flavors.",
-                  "nl": "Ruby chocolate is made from ruby cacao beans and has a naturally pink color and berry-like flavor without added colors or flavors."
-        }
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level7;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Chocolate Desserts",
+      "es": "Pregunta 2 sobre Chocolate Desserts",
+      "de": "Frage 2 über Chocolate Desserts",
+      "nl": "Vraag 2 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Chocolate Desserts",
+      "es": "Pregunta 3 sobre Chocolate Desserts",
+      "de": "Frage 3 über Chocolate Desserts",
+      "nl": "Vraag 3 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Chocolate Desserts",
+      "es": "Pregunta 4 sobre Chocolate Desserts",
+      "de": "Frage 4 über Chocolate Desserts",
+      "nl": "Vraag 4 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Chocolate Desserts",
+      "es": "Pregunta 5 sobre Chocolate Desserts",
+      "de": "Frage 5 über Chocolate Desserts",
+      "nl": "Vraag 5 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Chocolate Desserts",
+      "es": "Pregunta 6 sobre Chocolate Desserts",
+      "de": "Frage 6 über Chocolate Desserts",
+      "nl": "Vraag 6 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Chocolate Desserts",
+      "es": "Pregunta 7 sobre Chocolate Desserts",
+      "de": "Frage 7 über Chocolate Desserts",
+      "nl": "Vraag 7 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Chocolate Desserts",
+      "es": "Pregunta 8 sobre Chocolate Desserts",
+      "de": "Frage 8 über Chocolate Desserts",
+      "nl": "Vraag 8 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Chocolate Desserts",
+      "es": "Pregunta 9 sobre Chocolate Desserts",
+      "de": "Frage 9 über Chocolate Desserts",
+      "nl": "Vraag 9 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Chocolate Desserts",
+      "es": "Pregunta 10 sobre Chocolate Desserts",
+      "de": "Frage 10 über Chocolate Desserts",
+      "nl": "Vraag 10 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Chocolate Desserts",
+      "es": "Pregunta 11 sobre Chocolate Desserts",
+      "de": "Frage 11 über Chocolate Desserts",
+      "nl": "Vraag 11 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Chocolate Desserts",
+      "es": "Pregunta 12 sobre Chocolate Desserts",
+      "de": "Frage 12 über Chocolate Desserts",
+      "nl": "Vraag 12 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Chocolate Desserts",
+      "es": "Pregunta 13 sobre Chocolate Desserts",
+      "de": "Frage 13 über Chocolate Desserts",
+      "nl": "Vraag 13 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Chocolate Desserts",
+      "es": "Pregunta 14 sobre Chocolate Desserts",
+      "de": "Frage 14 über Chocolate Desserts",
+      "nl": "Vraag 14 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Chocolate Desserts",
+      "es": "Pregunta 15 sobre Chocolate Desserts",
+      "de": "Frage 15 über Chocolate Desserts",
+      "nl": "Vraag 15 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Chocolate Desserts",
+      "es": "Pregunta 16 sobre Chocolate Desserts",
+      "de": "Frage 16 über Chocolate Desserts",
+      "nl": "Vraag 16 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Chocolate Desserts",
+      "es": "Pregunta 17 sobre Chocolate Desserts",
+      "de": "Frage 17 über Chocolate Desserts",
+      "nl": "Vraag 17 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Chocolate Desserts",
+      "es": "Pregunta 18 sobre Chocolate Desserts",
+      "de": "Frage 18 über Chocolate Desserts",
+      "nl": "Vraag 18 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Chocolate Desserts",
+      "es": "Pregunta 19 sobre Chocolate Desserts",
+      "de": "Frage 19 über Chocolate Desserts",
+      "nl": "Vraag 19 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Chocolate Desserts",
+      "es": "Pregunta 20 sobre Chocolate Desserts",
+      "de": "Frage 20 über Chocolate Desserts",
+      "nl": "Vraag 20 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Chocolate Desserts",
+      "es": "Pregunta 21 sobre Chocolate Desserts",
+      "de": "Frage 21 über Chocolate Desserts",
+      "nl": "Vraag 21 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Chocolate Desserts",
+      "es": "Pregunta 22 sobre Chocolate Desserts",
+      "de": "Frage 22 über Chocolate Desserts",
+      "nl": "Vraag 22 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Chocolate Desserts",
+      "es": "Pregunta 23 sobre Chocolate Desserts",
+      "de": "Frage 23 über Chocolate Desserts",
+      "nl": "Vraag 23 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Chocolate Desserts",
+      "es": "Pregunta 24 sobre Chocolate Desserts",
+      "de": "Frage 24 über Chocolate Desserts",
+      "nl": "Vraag 24 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Chocolate Desserts",
+      "es": "Pregunta 25 sobre Chocolate Desserts",
+      "de": "Frage 25 über Chocolate Desserts",
+      "nl": "Vraag 25 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Chocolate Desserts",
+      "es": "Pregunta 26 sobre Chocolate Desserts",
+      "de": "Frage 26 über Chocolate Desserts",
+      "nl": "Vraag 26 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Chocolate Desserts",
+      "es": "Pregunta 27 sobre Chocolate Desserts",
+      "de": "Frage 27 über Chocolate Desserts",
+      "nl": "Vraag 27 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Chocolate Desserts",
+      "es": "Pregunta 28 sobre Chocolate Desserts",
+      "de": "Frage 28 über Chocolate Desserts",
+      "nl": "Vraag 28 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Chocolate Desserts",
+      "es": "Pregunta 29 sobre Chocolate Desserts",
+      "de": "Frage 29 über Chocolate Desserts",
+      "nl": "Vraag 29 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Chocolate Desserts",
+      "es": "Pregunta 30 sobre Chocolate Desserts",
+      "de": "Frage 30 über Chocolate Desserts",
+      "nl": "Vraag 30 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Chocolate Desserts",
+      "es": "Pregunta 31 sobre Chocolate Desserts",
+      "de": "Frage 31 über Chocolate Desserts",
+      "nl": "Vraag 31 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Chocolate Desserts",
+      "es": "Pregunta 32 sobre Chocolate Desserts",
+      "de": "Frage 32 über Chocolate Desserts",
+      "nl": "Vraag 32 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Chocolate Desserts",
+      "es": "Pregunta 33 sobre Chocolate Desserts",
+      "de": "Frage 33 über Chocolate Desserts",
+      "nl": "Vraag 33 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Chocolate Desserts",
+      "es": "Pregunta 34 sobre Chocolate Desserts",
+      "de": "Frage 34 über Chocolate Desserts",
+      "nl": "Vraag 34 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Chocolate Desserts",
+      "es": "Pregunta 35 sobre Chocolate Desserts",
+      "de": "Frage 35 über Chocolate Desserts",
+      "nl": "Vraag 35 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Chocolate Desserts",
+      "es": "Pregunta 36 sobre Chocolate Desserts",
+      "de": "Frage 36 über Chocolate Desserts",
+      "nl": "Vraag 36 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Chocolate Desserts",
+      "es": "Pregunta 37 sobre Chocolate Desserts",
+      "de": "Frage 37 über Chocolate Desserts",
+      "nl": "Vraag 37 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Chocolate Desserts",
+      "es": "Pregunta 38 sobre Chocolate Desserts",
+      "de": "Frage 38 über Chocolate Desserts",
+      "nl": "Vraag 38 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Chocolate Desserts",
+      "es": "Pregunta 39 sobre Chocolate Desserts",
+      "de": "Frage 39 über Chocolate Desserts",
+      "nl": "Vraag 39 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Chocolate Desserts",
+      "es": "Pregunta 40 sobre Chocolate Desserts",
+      "de": "Frage 40 über Chocolate Desserts",
+      "nl": "Vraag 40 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Chocolate Desserts",
+      "es": "Pregunta 41 sobre Chocolate Desserts",
+      "de": "Frage 41 über Chocolate Desserts",
+      "nl": "Vraag 41 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Chocolate Desserts",
+      "es": "Pregunta 42 sobre Chocolate Desserts",
+      "de": "Frage 42 über Chocolate Desserts",
+      "nl": "Vraag 42 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Chocolate Desserts",
+      "es": "Pregunta 43 sobre Chocolate Desserts",
+      "de": "Frage 43 über Chocolate Desserts",
+      "nl": "Vraag 43 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Chocolate Desserts",
+      "es": "Pregunta 44 sobre Chocolate Desserts",
+      "de": "Frage 44 über Chocolate Desserts",
+      "nl": "Vraag 44 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Chocolate Desserts",
+      "es": "Pregunta 45 sobre Chocolate Desserts",
+      "de": "Frage 45 über Chocolate Desserts",
+      "nl": "Vraag 45 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Chocolate Desserts",
+      "es": "Pregunta 46 sobre Chocolate Desserts",
+      "de": "Frage 46 über Chocolate Desserts",
+      "nl": "Vraag 46 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Chocolate Desserts",
+      "es": "Pregunta 47 sobre Chocolate Desserts",
+      "de": "Frage 47 über Chocolate Desserts",
+      "nl": "Vraag 47 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Chocolate Desserts",
+      "es": "Pregunta 48 sobre Chocolate Desserts",
+      "de": "Frage 48 über Chocolate Desserts",
+      "nl": "Vraag 48 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Chocolate Desserts",
+      "es": "Pregunta 49 sobre Chocolate Desserts",
+      "de": "Frage 49 über Chocolate Desserts",
+      "nl": "Vraag 49 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Chocolate Desserts",
+      "es": "Pregunta 50 sobre Chocolate Desserts",
+      "de": "Frage 50 über Chocolate Desserts",
+      "nl": "Vraag 50 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Chocolate Desserts",
+      "es": "Pregunta 51 sobre Chocolate Desserts",
+      "de": "Frage 51 über Chocolate Desserts",
+      "nl": "Vraag 51 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Chocolate Desserts",
+      "es": "Pregunta 52 sobre Chocolate Desserts",
+      "de": "Frage 52 über Chocolate Desserts",
+      "nl": "Vraag 52 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Chocolate Desserts",
+      "es": "Pregunta 53 sobre Chocolate Desserts",
+      "de": "Frage 53 über Chocolate Desserts",
+      "nl": "Vraag 53 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Chocolate Desserts",
+      "es": "Pregunta 54 sobre Chocolate Desserts",
+      "de": "Frage 54 über Chocolate Desserts",
+      "nl": "Vraag 54 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Chocolate Desserts",
+      "es": "Pregunta 55 sobre Chocolate Desserts",
+      "de": "Frage 55 über Chocolate Desserts",
+      "nl": "Vraag 55 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Chocolate Desserts",
+      "es": "Pregunta 56 sobre Chocolate Desserts",
+      "de": "Frage 56 über Chocolate Desserts",
+      "nl": "Vraag 56 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Chocolate Desserts",
+      "es": "Pregunta 57 sobre Chocolate Desserts",
+      "de": "Frage 57 über Chocolate Desserts",
+      "nl": "Vraag 57 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Chocolate Desserts",
+      "es": "Pregunta 58 sobre Chocolate Desserts",
+      "de": "Frage 58 über Chocolate Desserts",
+      "nl": "Vraag 58 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Chocolate Desserts",
+      "es": "Pregunta 59 sobre Chocolate Desserts",
+      "de": "Frage 59 über Chocolate Desserts",
+      "nl": "Vraag 59 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Chocolate Desserts",
+      "es": "Pregunta 60 sobre Chocolate Desserts",
+      "de": "Frage 60 über Chocolate Desserts",
+      "nl": "Vraag 60 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Chocolate Desserts",
+      "es": "Pregunta 61 sobre Chocolate Desserts",
+      "de": "Frage 61 über Chocolate Desserts",
+      "nl": "Vraag 61 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Chocolate Desserts",
+      "es": "Pregunta 62 sobre Chocolate Desserts",
+      "de": "Frage 62 über Chocolate Desserts",
+      "nl": "Vraag 62 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Chocolate Desserts",
+      "es": "Pregunta 63 sobre Chocolate Desserts",
+      "de": "Frage 63 über Chocolate Desserts",
+      "nl": "Vraag 63 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Chocolate Desserts",
+      "es": "Pregunta 64 sobre Chocolate Desserts",
+      "de": "Frage 64 über Chocolate Desserts",
+      "nl": "Vraag 64 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Chocolate Desserts",
+      "es": "Pregunta 65 sobre Chocolate Desserts",
+      "de": "Frage 65 über Chocolate Desserts",
+      "nl": "Vraag 65 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Chocolate Desserts",
+      "es": "Pregunta 66 sobre Chocolate Desserts",
+      "de": "Frage 66 über Chocolate Desserts",
+      "nl": "Vraag 66 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Chocolate Desserts",
+      "es": "Pregunta 67 sobre Chocolate Desserts",
+      "de": "Frage 67 über Chocolate Desserts",
+      "nl": "Vraag 67 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Chocolate Desserts",
+      "es": "Pregunta 68 sobre Chocolate Desserts",
+      "de": "Frage 68 über Chocolate Desserts",
+      "nl": "Vraag 68 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Chocolate Desserts",
+      "es": "Pregunta 69 sobre Chocolate Desserts",
+      "de": "Frage 69 über Chocolate Desserts",
+      "nl": "Vraag 69 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Chocolate Desserts",
+      "es": "Pregunta 70 sobre Chocolate Desserts",
+      "de": "Frage 70 über Chocolate Desserts",
+      "nl": "Vraag 70 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Chocolate Desserts",
+      "es": "Pregunta 71 sobre Chocolate Desserts",
+      "de": "Frage 71 über Chocolate Desserts",
+      "nl": "Vraag 71 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Chocolate Desserts",
+      "es": "Pregunta 72 sobre Chocolate Desserts",
+      "de": "Frage 72 über Chocolate Desserts",
+      "nl": "Vraag 72 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Chocolate Desserts",
+      "es": "Pregunta 73 sobre Chocolate Desserts",
+      "de": "Frage 73 über Chocolate Desserts",
+      "nl": "Vraag 73 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Chocolate Desserts",
+      "es": "Pregunta 74 sobre Chocolate Desserts",
+      "de": "Frage 74 über Chocolate Desserts",
+      "nl": "Vraag 74 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Chocolate Desserts",
+      "es": "Pregunta 75 sobre Chocolate Desserts",
+      "de": "Frage 75 über Chocolate Desserts",
+      "nl": "Vraag 75 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Chocolate Desserts",
+      "es": "Pregunta 76 sobre Chocolate Desserts",
+      "de": "Frage 76 über Chocolate Desserts",
+      "nl": "Vraag 76 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Chocolate Desserts",
+      "es": "Pregunta 77 sobre Chocolate Desserts",
+      "de": "Frage 77 über Chocolate Desserts",
+      "nl": "Vraag 77 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Chocolate Desserts",
+      "es": "Pregunta 78 sobre Chocolate Desserts",
+      "de": "Frage 78 über Chocolate Desserts",
+      "nl": "Vraag 78 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Chocolate Desserts",
+      "es": "Pregunta 79 sobre Chocolate Desserts",
+      "de": "Frage 79 über Chocolate Desserts",
+      "nl": "Vraag 79 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Chocolate Desserts",
+      "es": "Pregunta 80 sobre Chocolate Desserts",
+      "de": "Frage 80 über Chocolate Desserts",
+      "nl": "Vraag 80 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Chocolate Desserts",
+      "es": "Pregunta 81 sobre Chocolate Desserts",
+      "de": "Frage 81 über Chocolate Desserts",
+      "nl": "Vraag 81 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Chocolate Desserts",
+      "es": "Pregunta 82 sobre Chocolate Desserts",
+      "de": "Frage 82 über Chocolate Desserts",
+      "nl": "Vraag 82 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Chocolate Desserts",
+      "es": "Pregunta 83 sobre Chocolate Desserts",
+      "de": "Frage 83 über Chocolate Desserts",
+      "nl": "Vraag 83 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Chocolate Desserts",
+      "es": "Pregunta 84 sobre Chocolate Desserts",
+      "de": "Frage 84 über Chocolate Desserts",
+      "nl": "Vraag 84 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Chocolate Desserts",
+      "es": "Pregunta 85 sobre Chocolate Desserts",
+      "de": "Frage 85 über Chocolate Desserts",
+      "nl": "Vraag 85 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Chocolate Desserts",
+      "es": "Pregunta 86 sobre Chocolate Desserts",
+      "de": "Frage 86 über Chocolate Desserts",
+      "nl": "Vraag 86 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Chocolate Desserts",
+      "es": "Pregunta 87 sobre Chocolate Desserts",
+      "de": "Frage 87 über Chocolate Desserts",
+      "nl": "Vraag 87 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Chocolate Desserts",
+      "es": "Pregunta 88 sobre Chocolate Desserts",
+      "de": "Frage 88 über Chocolate Desserts",
+      "nl": "Vraag 88 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Chocolate Desserts",
+      "es": "Pregunta 89 sobre Chocolate Desserts",
+      "de": "Frage 89 über Chocolate Desserts",
+      "nl": "Vraag 89 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Chocolate Desserts",
+      "es": "Pregunta 90 sobre Chocolate Desserts",
+      "de": "Frage 90 über Chocolate Desserts",
+      "nl": "Vraag 90 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Chocolate Desserts",
+      "es": "Pregunta 91 sobre Chocolate Desserts",
+      "de": "Frage 91 über Chocolate Desserts",
+      "nl": "Vraag 91 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Chocolate Desserts",
+      "es": "Pregunta 92 sobre Chocolate Desserts",
+      "de": "Frage 92 über Chocolate Desserts",
+      "nl": "Vraag 92 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Chocolate Desserts",
+      "es": "Pregunta 93 sobre Chocolate Desserts",
+      "de": "Frage 93 über Chocolate Desserts",
+      "nl": "Vraag 93 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Chocolate Desserts",
+      "es": "Pregunta 94 sobre Chocolate Desserts",
+      "de": "Frage 94 über Chocolate Desserts",
+      "nl": "Vraag 94 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Chocolate Desserts",
+      "es": "Pregunta 95 sobre Chocolate Desserts",
+      "de": "Frage 95 über Chocolate Desserts",
+      "nl": "Vraag 95 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Chocolate Desserts",
+      "es": "Pregunta 96 sobre Chocolate Desserts",
+      "de": "Frage 96 über Chocolate Desserts",
+      "nl": "Vraag 96 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Chocolate Desserts",
+      "es": "Pregunta 97 sobre Chocolate Desserts",
+      "de": "Frage 97 über Chocolate Desserts",
+      "nl": "Vraag 97 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Chocolate Desserts",
+      "es": "Pregunta 98 sobre Chocolate Desserts",
+      "de": "Frage 98 über Chocolate Desserts",
+      "nl": "Vraag 98 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Chocolate Desserts",
+      "es": "Pregunta 99 sobre Chocolate Desserts",
+      "de": "Frage 99 über Chocolate Desserts",
+      "nl": "Vraag 99 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Chocolate Desserts",
+      "es": "Pregunta 100 sobre Chocolate Desserts",
+      "de": "Frage 100 über Chocolate Desserts",
+      "nl": "Vraag 100 over Chocolate Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Chocolate Desserts",
+        "es": "Respuesta A para Chocolate Desserts",
+        "de": "Antwort A für Chocolate Desserts",
+        "nl": "Antwoord A voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer B for Chocolate Desserts",
+        "es": "Respuesta B para Chocolate Desserts",
+        "de": "Antwort B für Chocolate Desserts",
+        "nl": "Antwoord B voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer C for Chocolate Desserts",
+        "es": "Respuesta C para Chocolate Desserts",
+        "de": "Antwort C für Chocolate Desserts",
+        "nl": "Antwoord C voor Chocolate Desserts"
+      },
+      {
+        "en": "Answer D for Chocolate Desserts",
+        "es": "Respuesta D para Chocolate Desserts",
+        "de": "Antwort D für Chocolate Desserts",
+        "nl": "Antwoord D voor Chocolate Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Chocolate Desserts.",
+      "es": "Esta es la respuesta correcta sobre Chocolate Desserts.",
+      "de": "Dies ist die richtige Antwort über Chocolate Desserts.",
+      "nl": "Dit is het juiste antwoord over Chocolate Desserts."
+    }
   }
-})();
+]
+};

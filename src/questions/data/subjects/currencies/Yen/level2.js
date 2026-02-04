@@ -1,840 +1,4104 @@
-// Quiz Level 2: Currencies - Yen (Easy)
-(function() {
-  const level2 = {
-    name: {
-      en: "Japanese Yen - Easy",
-      es: "Yen Japonés - Fácil",
-      de: "Japanischer Yen - Einfach",
-      nl: "Japanse Yen - Gemakkelijk"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Yen",
+      "es": "Pregunta 1 sobre Yen",
+      "de": "Frage 1 über Yen",
+      "nl": "Vraag 1 over Yen"
     },
-    questions: [
+    "options": [
       {
-        question: {
-          en: "What is the typical exchange rate relationship between the Japanese Yen and other major currencies?",
-          es: "¿Cuál es la relación típica del tipo de cambio entre el Yen Japonés y otras monedas principales?",
-          de: "Wie ist das typische Wechselkursverhältnis zwischen dem Japanischen Yen und anderen Hauptwährungen?",
-          nl: "Wat is de typische wisselkoersrelatie tussen de Japanse Yen en andere belangrijke munten?"
-        },
-        options: [
-          { en: "Higher numbers (e.g., 100+ yen per dollar)", es: "Números más altos (ej. 100+ yen por dólar)", de: "Höhere Zahlen (z.B. 100+ Yen pro Dollar)", nl: "Hogere getallen (bijv. 100+ yen per dollar)" },
-          { en: "Lower numbers (e.g., 0.5 yen per dollar)", es: "Números más bajos (ej. 0.5 yen por dólar)", de: "Niedrigere Zahlen (z.B. 0,5 Yen pro Dollar)", nl: "Lagere getallen (bijv. 0,5 yen per dollar)" },
-          { en: "Always exactly 1:1", es: "Siempre exactamente 1:1", de: "Immer genau 1:1", nl: "Altijd precies 1:1" },
-          { en: "Changes hourly", es: "Cambia cada hora", de: "Ändert sich stündlich", nl: "Verandert elk uur" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Japanese Yen typically trades at higher numerical values against major currencies, often 100+ yen per US dollar. This doesn't mean it's weaker; it's simply how the currency was originally structured.",
-          es: "El Yen Japonés típicamente se comercializa a valores numéricos más altos contra monedas principales, a menudo 100+ yen por dólar estadounidense. Esto no significa que sea más débil; es simplemente cómo se estructuró originalmente la moneda.",
-          de: "Der Japanische Yen wird typischerweise zu höheren numerischen Werten gegen Hauptwährungen gehandelt, oft 100+ Yen pro US-Dollar. Das bedeutet nicht, dass er schwächer ist; so wurde die Währung ursprünglich strukturiert.",
-          nl: "De Japanse Yen wordt typisch verhandeld tegen hogere numerieke waarden tegen belangrijke munten, vaak 100+ yen per Amerikaanse dollar. Dit betekent niet dat het zwakker is; het is gewoon hoe de munt oorspronkelijk werd gestructureerd."
-        }
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
       },
       {
-        question: {
-          en: "Which coin denomination features a hole in the center besides the 5 Yen coin?",
-          es: "¿Qué denominación de moneda tiene un agujero en el centro además de la moneda de 5 Yen?",
-          de: "Welche Münzstückelung hat neben der 5-Yen-Münze ein Loch in der Mitte?",
-          nl: "Welke muntdenominatie heeft een gat in het midden naast de 5 Yen-munt?"
-        },
-        options: [
-          { en: "50 Yen", es: "50 Yen", de: "50 Yen", nl: "50 Yen" },
-          { en: "100 Yen", es: "100 Yen", de: "100 Yen", nl: "100 Yen" },
-          { en: "10 Yen", es: "10 Yen", de: "10 Yen", nl: "10 Yen" },
-          { en: "500 Yen", es: "500 Yen", de: "500 Yen", nl: "500 Yen" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The 50 Yen coin also has a hole in the center, making it easy to distinguish from other coins. Both the 5 and 50 Yen coins have holes, which helps visually impaired people identify them.",
-          es: "La moneda de 50 Yen también tiene un agujero en el centro, facilitando distinguirla de otras monedas. Tanto las monedas de 5 como de 50 Yen tienen agujeros, lo que ayuda a las personas con discapacidad visual a identificarlas.",
-          de: "Die 50-Yen-Münze hat ebenfalls ein Loch in der Mitte, was sie von anderen Münzen leicht unterscheidbar macht. Sowohl die 5- als auch die 50-Yen-Münzen haben Löcher, was sehbehinderten Menschen hilft, sie zu identifizieren.",
-          nl: "De 50 Yen-munt heeft ook een gat in het midden, waardoor het gemakkelijk te onderscheiden is van andere munten. Zowel de 5 als 50 Yen-munten hebben gaten, wat visueel gehandicapte mensen helpt ze te identificeren."
-        }
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
       },
       {
-        question: {
-          en: "What is the denomination of the blue-colored Japanese banknote?",
-          es: "¿Cuál es la denominación del billete japonés de color azul?",
-          de: "Was ist die Stückelung der blauen japanischen Banknote?",
-          nl: "Wat is de denominatie van het blauwe Japanse bankbiljet?"
-        },
-        options: [
-          { en: "1,000 Yen", es: "1,000 Yen", de: "1.000 Yen", nl: "1.000 Yen" },
-          { en: "5,000 Yen", es: "5,000 Yen", de: "5.000 Yen", nl: "5.000 Yen" },
-          { en: "10,000 Yen", es: "10,000 Yen", de: "10.000 Yen", nl: "10.000 Yen" },
-          { en: "2,000 Yen", es: "2,000 Yen", de: "2.000 Yen", nl: "2.000 Yen" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The 1,000 Yen banknote is blue in color and features Noguchi Hideyo. Different denominations have different colors to make them easily distinguishable at a glance.",
-          es: "El billete de 1,000 Yen es de color azul y presenta a Noguchi Hideyo. Las diferentes denominaciones tienen diferentes colores para hacerlas fácilmente distinguibles de un vistazo.",
-          de: "Die 1.000-Yen-Banknote ist blau und zeigt Noguchi Hideyo. Verschiedene Stückelungen haben verschiedene Farben, um sie auf einen Blick leicht unterscheidbar zu machen.",
-          nl: "Het 1.000 Yen-bankbiljet is blauw van kleur en toont Noguchi Hideyo. Verschillende denominaties hebben verschillende kleuren om ze gemakkelijk onderscheidbaar te maken met één blik."
-        }
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
       },
       {
-        question: {
-          en: "The Japanese Yen is considered a 'safe haven' currency. What does this mean?",
-          es: "El Yen Japonés se considera una moneda de 'refugio seguro'. ¿Qué significa esto?",
-          de: "Der Japanische Yen gilt als 'sicherer Hafen'-Währung. Was bedeutet das?",
-          nl: "De Japanse Yen wordt beschouwd als een 'veilige haven'-munt. Wat betekent dit?"
-        },
-        options: [
-          { en: "Investors buy it during uncertain times", es: "Los inversores la compran durante tiempos inciertos", de: "Investoren kaufen ihn in unsicheren Zeiten", nl: "Investeerders kopen het tijdens onzekere tijden" },
-          { en: "It's only used in Japan", es: "Solo se usa en Japón", de: "Es wird nur in Japan verwendet", nl: "Het wordt alleen in Japan gebruikt" },
-          { en: "It never changes value", es: "Nunca cambia de valor", de: "Es ändert niemals den Wert", nl: "Het verandert nooit van waarde" },
-          { en: "It's backed by gold", es: "Está respaldada por oro", de: "Es ist durch Gold gedeckt", nl: "Het is gedekt door goud" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "A 'safe haven' currency means investors tend to buy it during times of global uncertainty or market volatility, as it's considered stable and reliable. The Yen often strengthens during global crises.",
-          es: "Una moneda de 'refugio seguro' significa que los inversores tienden a comprarla durante tiempos de incertidumbre global o volatilidad del mercado, ya que se considera estable y confiable. El Yen a menudo se fortalece durante crisis globales.",
-          de: "Eine 'sicherer Hafen'-Währung bedeutet, dass Investoren dazu neigen, sie in Zeiten globaler Unsicherheit oder Marktvolatilität zu kaufen, da sie als stabil und zuverlässig gilt. Der Yen stärkt sich oft während globaler Krisen.",
-          nl: "Een 'veilige haven'-munt betekent dat investeerders de neiging hebben het te kopen tijdens tijden van wereldwijde onzekerheid of marktvolatiliteit, omdat het als stabiel en betrouwbaar wordt beschouwd. De Yen wordt vaak sterker tijdens wereldwijde crises."
-        }
-      },
-      {
-        question: {
-          en: "What is the primary metal used in the 100 Yen coin?",
-          es: "¿Cuál es el metal principal usado en la moneda de 100 Yen?",
-          de: "Was ist das primäre Metall, das in der 100-Yen-Münze verwendet wird?",
-          nl: "Wat is het primaire metaal dat wordt gebruikt in de 100 Yen-munt?"
-        },
-        options: [
-          { en: "Copper-nickel", es: "Cobre-níquel", de: "Kupfer-Nickel", nl: "Koper-nikkel" },
-          { en: "Aluminum", es: "Aluminio", de: "Aluminium", nl: "Aluminium" },
-          { en: "Brass", es: "Latón", de: "Messing", nl: "Messing" },
-          { en: "Silver", es: "Plata", de: "Silber", nl: "Zilver" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The 100 Yen coin is made of copper-nickel alloy, which gives it a silver-like appearance. It features cherry blossoms on one side, symbolizing Japan's national flower.",
-          es: "La moneda de 100 Yen está hecha de aleación de cobre-níquel, lo que le da una apariencia plateada. Presenta flores de cerezo en un lado, simbolizando la flor nacional de Japón.",
-          de: "Die 100-Yen-Münze besteht aus Kupfer-Nickel-Legierung, was ihr ein silberartiges Aussehen verleiht. Sie zeigt Kirschblüten auf einer Seite, die Japans Nationalblume symbolisieren.",
-          nl: "De 100 Yen-munt is gemaakt van koper-nikkel legering, wat het een zilverachtig uiterlijk geeft. Het toont kersenbloesems aan één kant, die Japan's nationale bloem symboliseren."
-        }
-      },
-      {
-        question: {
-          en: "In foreign exchange trading, what is the Yen most commonly paired with?",
-          es: "En el comercio de divisas, ¿con qué se empareja más comúnmente el Yen?",
-          de: "Im Devisenhandel, womit wird der Yen am häufigsten gepaart?",
-          nl: "In valutahandel, waarmee wordt de Yen het meest gekoppeld?"
-        },
-        options: [
-          { en: "US Dollar (USD/JPY)", es: "Dólar estadounidense (USD/JPY)", de: "US-Dollar (USD/JPY)", nl: "Amerikaanse Dollar (USD/JPY)" },
-          { en: "Euro (EUR/JPY)", es: "Euro (EUR/JPY)", de: "Euro (EUR/JPY)", nl: "Euro (EUR/JPY)" },
-          { en: "British Pound (GBP/JPY)", es: "Libra esterlina (GBP/JPY)", de: "Britisches Pfund (GBP/JPY)", nl: "Britse Pond (GBP/JPY)" },
-          { en: "Chinese Yuan (CNY/JPY)", es: "Yuan chino (CNY/JPY)", de: "Chinesischer Yuan (CNY/JPY)", nl: "Chinese Yuan (CNY/JPY)" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The USD/JPY currency pair is one of the most actively traded pairs in the forex market. It represents how many yen are needed to buy one US dollar and is considered a major currency pair.",
-          es: "El par de divisas USD/JPY es uno de los pares más activamente comercializados en el mercado forex. Representa cuántos yen se necesitan para comprar un dólar estadounidense y se considera un par de divisas principal.",
-          de: "Das USD/JPY-Währungspaar ist eines der aktivsten gehandelten Paare im Forex-Markt. Es stellt dar, wie viele Yen benötigt werden, um einen US-Dollar zu kaufen, und gilt als Hauptwährungspaar.",
-          nl: "Het USD/JPY-muntpaar is een van de meest actief verhandelde paren op de forex-markt. Het vertegenwoordigt hoeveel yen nodig zijn om één Amerikaanse dollar te kopen en wordt beschouwd als een belangrijk muntpaar."
-        }
-      },
-      {
-        question: {
-          en: "What economic phenomenon is Japan historically known for that affects the Yen?",
-          es: "¿Por qué fenómeno económico es Japón históricamente conocido que afecta al Yen?",
-          de: "Für welches wirtschaftliche Phänomen ist Japan historisch bekannt, das den Yen beeinflusst?",
-          nl: "Voor welk economisch fenomeen staat Japan historisch bekend dat de Yen beïnvloedt?"
-        },
-        options: [
-          { en: "Low inflation/deflation", es: "Baja inflación/deflación", de: "Niedrige Inflation/Deflation", nl: "Lage inflatie/deflatie" },
-          { en: "High inflation", es: "Alta inflación", de: "Hohe Inflation", nl: "Hoge inflatie" },
-          { en: "Currency instability", es: "Inestabilidad de moneda", de: "Währungsinstabilität", nl: "Muntinstabiliteit" },
-          { en: "Rapid devaluation", es: "Devaluación rápida", de: "Schnelle Abwertung", nl: "Snelle devaluatie" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Japan has historically struggled with low inflation and even deflation, especially since the 1990s. This has influenced Bank of Japan policies and the Yen's international standing as a stable currency.",
-          es: "Japón ha luchado históricamente con baja inflación e incluso deflación, especialmente desde los años 1990. Esto ha influenciado las políticas del Banco de Japón y la posición internacional del Yen como moneda estable.",
-          de: "Japan hat historisch mit niedriger Inflation und sogar Deflation gekämpft, besonders seit den 1990er Jahren. Dies hat die Politiken der Bank von Japan und Yens internationale Stellung als stabile Währung beeinflusst.",
-          nl: "Japan heeft historisch geworsteld met lage inflatie en zelfs deflatie, vooral sinds de jaren 1990. Dit heeft de Bank van Japan-beleid en de Yen's internationale positie als stabiele munt beïnvloed."
-        }
-      },
-      {
-        question: {
-          en: "What feature appears on the reverse side of most Japanese coins?",
-          es: "¿Qué característica aparece en el reverso de la mayoría de las monedas japonesas?",
-          de: "Welches Merkmal erscheint auf der Rückseite der meisten japanischen Münzen?",
-          nl: "Welke eigenschap verschijnt op de achterkant van de meeste Japanse munten?"
-        },
-        options: [
-          { en: "The denomination and year", es: "La denominación y año", de: "Die Stückelung und das Jahr", nl: "De denominatie en jaar" },
-          { en: "The Emperor's portrait", es: "El retrato del Emperador", de: "Das Porträt des Kaisers", nl: "Het portret van de Keizer" },
-          { en: "Mount Fuji", es: "Monte Fuji", de: "Berg Fuji", nl: "Berg Fuji" },
-          { en: "Cherry blossoms only", es: "Solo flores de cerezo", de: "Nur Kirschblüten", nl: "Alleen kersenbloesems" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Most Japanese coins feature the denomination (value) and the year of minting on the reverse side. The year is typically shown in the Japanese calendar system, counting from the current emperor's reign.",
-          es: "La mayoría de las monedas japonesas presentan la denominación (valor) y el año de acuñación en el reverso. El año típicamente se muestra en el sistema de calendario japonés, contando desde el reinado del emperador actual.",
-          de: "Die meisten japanischen Münzen zeigen die Stückelung (Wert) und das Prägejahr auf der Rückseite. Das Jahr wird typischerweise im japanischen Kalendersystem angezeigt, gezählt von der Regierungszeit des aktuellen Kaisers.",
-          nl: "De meeste Japanse munten tonen de denominatie (waarde) en het jaar van muntslag op de achterkant. Het jaar wordt typisch getoond in het Japanse kalendersysteem, tellend vanaf de heerschappij van de huidige keizer."
-        }
-      },
-      {
-        question: {
-          en: "Which of these best describes Japan's approach to physical cash?",
-          es: "¿Cuál de estas describe mejor el enfoque de Japón hacia el efectivo físico?",
-          de: "Welche dieser beschreibt am besten Japans Ansatz zu physischem Bargeld?",
-          nl: "Welke van deze beschrijft het beste Japan's benadering van fysiek contant geld?"
-        },
-        options: [
-          { en: "Strong preference for cash transactions", es: "Fuerte preferencia por transacciones en efectivo", de: "Starke Präferenz für Bargeldtransaktionen", nl: "Sterke voorkeur voor contante transacties" },
-          { en: "Completely cashless society", es: "Sociedad completamente sin efectivo", de: "Völlig bargeldlose Gesellschaft", nl: "Volledig cashloze samenleving" },
-          { en: "Only digital payments allowed", es: "Solo pagos digitales permitidos", de: "Nur digitale Zahlungen erlaubt", nl: "Alleen digitale betalingen toegestaan" },
-          { en: "Cards preferred over cash", es: "Tarjetas preferidas sobre efectivo", de: "Karten bevorzugt über Bargeld", nl: "Kaarten geprefereerd boven contant geld" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Japan maintains a strong cultural preference for cash transactions, with many businesses still primarily operating on a cash basis. This is unusual among developed nations that have largely moved to digital payments.",
-          es: "Japón mantiene una fuerte preferencia cultural por las transacciones en efectivo, con muchos negocios que aún operan principalmente en base a efectivo. Esto es inusual entre naciones desarrolladas que se han movido en gran medida a pagos digitales.",
-          de: "Japan behält eine starke kulturelle Präferenz für Bargeldtransaktionen bei, wobei viele Unternehmen immer noch hauptsächlich auf Bargeld basieren. Dies ist ungewöhnlich unter entwickelten Nationen, die sich größtenteils zu digitalen Zahlungen bewegt haben.",
-          nl: "Japan behoudt een sterke culturele voorkeur voor contante transacties, met veel bedrijven die nog steeds voornamelijk op contantgeldbasis opereren. Dit is ongewoon onder ontwikkelde landen die grotendeels zijn overgestapt op digitale betalingen."
-        }
-      },
-      {
-        question: {
-          en: "What is the primary function of the Bank of Japan regarding the Yen?",
-          es: "¿Cuál es la función principal del Banco de Japón con respecto al Yen?",
-          de: "Was ist die primäre Funktion der Bank von Japan bezüglich des Yen?",
-          nl: "Wat is de primaire functie van de Bank van Japan betreffende de Yen?"
-        },
-        options: [
-          { en: "Monetary policy and currency stability", es: "Política monetaria y estabilidad de moneda", de: "Geldpolitik und Währungsstabilität", nl: "Monetair beleid en muntstabiliteit" },
-          { en: "Tax collection", es: "Recaudación de impuestos", de: "Steuererhebung", nl: "Belastinginning" },
-          { en: "International trade negotiations", es: "Negociaciones de comercio internacional", de: "Internationale Handelsverhandlungen", nl: "Internationale handelsonderhandelingen" },
-          { en: "Stock market regulation", es: "Regulación del mercado de valores", de: "Börsenregulierung", nl: "Aandelenmarktregulering" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Bank of Japan's primary role is implementing monetary policy to maintain price stability and ensure the smooth functioning of the financial system, which directly affects the Yen's value and stability.",
-          es: "El papel principal del Banco de Japón es implementar política monetaria para mantener estabilidad de precios y asegurar el funcionamiento suave del sistema financiero, lo que afecta directamente el valor y estabilidad del Yen.",
-          de: "Die primäre Rolle der Bank von Japan ist die Umsetzung der Geldpolitik zur Aufrechterhaltung der Preisstabilität und Gewährleistung des reibungslosen Funktionierens des Finanzsystems, was direkt den Wert und die Stabilität des Yen beeinflusst.",
-          nl: "De primaire rol van de Bank van Japan is het implementeren van monetair beleid om prijsstabiliteit te behouden en het soepel functioneren van het financiële systeem te verzekeren, wat direct de waarde en stabiliteit van de Yen beïnvloedt."
-        }
-      },
-      {
-        question: {
-          en: "What notable feature is found on the 500 Yen coin?",
-          es: "¿Qué característica notable se encuentra en la moneda de 500 Yen?",
-          de: "Welches bemerkenswerte Merkmal findet sich auf der 500-Yen-Münze?",
-          nl: "Welke opmerkelijke eigenschap is te vinden op de 500 Yen-munt?"
-        },
-        options: [
-          { en: "Anti-counterfeiting micro-printing", es: "Microimpresión anti-falsificación", de: "Fälschungsschutz-Mikrodruck", nl: "Anti-vervalsing micro-druk" },
-          { en: "A hole in the center", es: "Un agujero en el centro", de: "Ein Loch in der Mitte", nl: "Een gat in het midden" },
-          { en: "Magnetic properties", es: "Propiedades magnéticas", de: "Magnetische Eigenschaften", nl: "Magnetische eigenschappen" },
-          { en: "Color-changing surface", es: "Superficie que cambia de color", de: "Farbwechselnde Oberfläche", nl: "Kleurveranderende oppervlak" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The 500 Yen coin features sophisticated anti-counterfeiting measures including micro-printing that's difficult to reproduce. It's one of the most valuable coins in regular circulation worldwide.",
-          es: "La moneda de 500 Yen presenta medidas sofisticadas anti-falsificación incluyendo microimpresión que es difícil de reproducir. Es una de las monedas más valiosas en circulación regular a nivel mundial.",
-          de: "Die 500-Yen-Münze verfügt über ausgeklügelte Fälschungsschutzmaßnahmen einschließlich Mikrodruck, der schwer zu reproduzieren ist. Sie ist eine der wertvollsten Münzen im regulären Umlauf weltweit.",
-          nl: "De 500 Yen-munt heeft geavanceerde anti-vervalsingmaatregelen inclusief micro-druk die moeilijk te reproduceren is. Het is een van de meest waardevolle munten in reguliere circulatie wereldwijd."
-        }
-      },
-      {
-        question: {
-          en: "Historically, what was used in Japan before the Yen was introduced?",
-          es: "Históricamente, ¿qué se usaba en Japón antes de que se introdujera el Yen?",
-          de: "Was wurde historisch in Japan verwendet, bevor der Yen eingeführt wurde?",
-          nl: "Wat werd historisch in Japan gebruikt voordat de Yen werd geïntroduceerd?"
-        },
-        options: [
-          { en: "Mon, bu, and ryo coins", es: "Monedas mon, bu y ryo", de: "Mon-, bu- und ryo-Münzen", nl: "Mon, bu en ryo munten" },
-          { en: "Chinese Yuan only", es: "Solo Yuan chino", de: "Nur chinesischer Yuan", nl: "Alleen Chinese Yuan" },
-          { en: "Gold bars exclusively", es: "Barras de oro exclusivamente", de: "Ausschließlich Goldbarren", nl: "Uitsluitend goudstaven" },
-          { en: "Barter system only", es: "Solo sistema de trueque", de: "Nur Tauschsystem", nl: "Alleen ruilsysteem" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Before the Yen, Japan used a complex system of different coins including mon (copper), bu (silver), and ryo (gold). This system was complicated and varied by region, which the Yen simplified.",
-          es: "Antes del Yen, Japón usaba un sistema complejo de diferentes monedas incluyendo mon (cobre), bu (plata) y ryo (oro). Este sistema era complicado y variaba por región, lo que el Yen simplificó.",
-          de: "Vor dem Yen verwendete Japan ein komplexes System verschiedener Münzen einschließlich mon (Kupfer), bu (Silber) und ryo (Gold). Dieses System war kompliziert und variierte je nach Region, was der Yen vereinfachte.",
-          nl: "Voor de Yen gebruikte Japan een complex systeem van verschillende munten inclusief mon (koper), bu (zilver) en ryo (goud). Dit systeem was ingewikkeld en varieerde per regio, wat de Yen vereenvoudigde."
-        }
-      },
-      {
-        question: {
-          en: "What makes the 1 Yen coin unique among world currencies?",
-          es: "¿Qué hace única a la moneda de 1 Yen entre las monedas mundiales?",
-          de: "Was macht die 1-Yen-Münze unter den Weltwährungen einzigartig?",
-          nl: "Wat maakt de 1 Yen-munt uniek onder wereldmunten?"
-        },
-        options: [
-          { en: "It's one of the lightest coins in the world", es: "Es una de las monedas más ligeras del mundo", de: "Es ist eine der leichtesten Münzen der Welt", nl: "Het is een van de lichtste munten ter wereld" },
-          { en: "It's made of pure gold", es: "Está hecha de oro puro", de: "Es besteht aus reinem Gold", nl: "Het is gemaakt van puur goud" },
-          { en: "It changes color in sunlight", es: "Cambia de color a la luz del sol", de: "Es ändert die Farbe im Sonnenlicht", nl: "Het verandert van kleur in zonlicht" },
-          { en: "It's the largest coin by diameter", es: "Es la moneda más grande por diámetro", de: "Es ist die größte Münze nach Durchmesser", nl: "Het is de grootste munt qua diameter" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The 1 Yen coin weighs only 1 gram and is made of aluminum, making it one of the lightest coins in circulation worldwide. It's so light it will float on water.",
-          es: "La moneda de 1 Yen pesa solo 1 gramo y está hecha de aluminio, haciéndola una de las monedas más ligeras en circulación a nivel mundial. Es tan liviana que flotará en agua.",
-          de: "Die 1-Yen-Münze wiegt nur 1 Gramm und besteht aus Aluminium, was sie zu einer der leichtesten Münzen im weltweiten Umlauf macht. Sie ist so leicht, dass sie auf Wasser schwimmt.",
-          nl: "De 1 Yen-munt weegt slechts 1 gram en is gemaakt van aluminium, waardoor het een van de lichtste munten in circulatie wereldwijd is. Het is zo licht dat het op water drijft."
-        }
-      },
-      {
-        question: {
-          en: "What economic policy tool does the Bank of Japan commonly use regarding the Yen?",
-          es: "¿Qué herramienta de política económica usa comúnmente el Banco de Japón con respecto al Yen?",
-          de: "Welches wirtschaftspolitische Instrument verwendet die Bank von Japan häufig bezüglich des Yen?",
-          nl: "Welk economisch beleidsinstrument gebruikt de Bank van Japan gewoonlijk betreffende de Yen?"
-        },
-        options: [
-          { en: "Interest rate adjustments", es: "Ajustes de tasa de interés", de: "Zinsanpassungen", nl: "Renteaanpassingen" },
-          { en: "Daily currency revaluation", es: "Revaluación diaria de moneda", de: "Tägliche Währungsneubewertung", nl: "Dagelijkse muntherwaarding" },
-          { en: "Fixed exchange rates", es: "Tipos de cambio fijos", de: "Feste Wechselkurse", nl: "Vaste wisselkoersen" },
-          { en: "Currency substitution", es: "Sustitución de moneda", de: "Währungssubstitution", nl: "Muntvervanging" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Bank of Japan primarily uses interest rate adjustments as a monetary policy tool to influence the Yen's value and Japan's economic conditions. They've maintained very low interest rates for many years.",
-          es: "El Banco de Japón principalmente usa ajustes de tasa de interés como herramienta de política monetaria para influir en el valor del Yen y las condiciones económicas de Japón. Han mantenido tasas de interés muy bajas por muchos años.",
-          de: "Die Bank von Japan verwendet hauptsächlich Zinsanpassungen als geldpolitisches Instrument, um den Wert des Yen und Japans wirtschaftliche Bedingungen zu beeinflussen. Sie haben sehr niedrige Zinssätze über viele Jahre beibehalten.",
-          nl: "De Bank van Japan gebruikt voornamelijk renteaanpassingen als monetair beleidsinstrument om de waarde van de Yen en Japan's economische omstandigheden te beïnvloeden. Ze hebben zeer lage rentetarieven aangehouden gedurende vele jaren."
-        }
-      },
-      {
-        question: {
-          en: "Which historical figure appears on the 5,000 Yen banknote?",
-          es: "¿Qué figura histórica aparece en el billete de 5,000 Yen?",
-          de: "Welche historische Figur erscheint auf der 5.000-Yen-Banknote?",
-          nl: "Welke historische figuur verschijnt op het 5.000 Yen-bankbiljet?"
-        },
-        options: [
-          { en: "Higuchi Ichiyō", es: "Higuchi Ichiyō", de: "Higuchi Ichiyō", nl: "Higuchi Ichiyō" },
-          { en: "Noguchi Hideyo", es: "Noguchi Hideyo", de: "Noguchi Hideyo", nl: "Noguchi Hideyo" },
-          { en: "Fukuzawa Yukichi", es: "Fukuzawa Yukichi", de: "Fukuzawa Yukichi", nl: "Fukuzawa Yukichi" },
-          { en: "Emperor Meiji", es: "Emperador Meiji", de: "Kaiser Meiji", nl: "Keizer Meiji" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Higuchi Ichiyō, a prominent female novelist and poet from the Meiji period, appears on the 5,000 Yen banknote. She was one of the first professional female writers in modern Japanese literature.",
-          es: "Higuchi Ichiyō, una novelista y poeta femenina prominente del período Meiji, aparece en el billete de 5,000 Yen. Fue una de las primeras escritoras profesionales femeninas en la literatura japonesa moderna.",
-          de: "Higuchi Ichiyō, eine prominente weibliche Romanautorin und Dichterin aus der Meiji-Zeit, erscheint auf der 5.000-Yen-Banknote. Sie war eine der ersten professionellen weiblichen Schriftstellerinnen in der modernen japanischen Literatur.",
-          nl: "Higuchi Ichiyō, een prominente vrouwelijke romanschrijfster en dichteres uit de Meiji-periode, verschijnt op het 5.000 Yen-bankbiljet. Ze was een van de eerste professionele vrouwelijke schrijfsters in de moderne Japanse literatuur."
-        }
-      },
-      {
-        question: {
-          en: "What is a common way people in Japan still use 1 Yen coins?",
-          es: "¿Cuál es una forma común en que las personas en Japón aún usan monedas de 1 Yen?",
-          de: "Was ist eine übliche Art, wie Menschen in Japan immer noch 1-Yen-Münzen verwenden?",
-          nl: "Wat is een veelvoorkomende manier waarop mensen in Japan nog steeds 1 Yen-munten gebruiken?"
-        },
-        options: [
-          { en: "Making exact change for small purchases", es: "Hacer cambio exacto para compras pequeñas", de: "Wechselgeld für kleine Einkäufe machen", nl: "Exact wisselgeld maken voor kleine aankopen" },
-          { en: "As collectibles only", es: "Solo como coleccionables", de: "Nur als Sammlerstücke", nl: "Alleen als verzamelobjecten" },
-          { en: "International trade", es: "Comercio internacional", de: "Internationaler Handel", nl: "Internationale handel" },
-          { en: "They're no longer used", es: "Ya no se usan", de: "Sie werden nicht mehr verwendet", nl: "Ze worden niet meer gebruikt" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Despite their low value, 1 Yen coins are still commonly used in Japan for making exact change, especially in cash-heavy transactions. Many people save them in coin jars at home.",
-          es: "A pesar de su bajo valor, las monedas de 1 Yen aún se usan comúnmente en Japón para hacer cambio exacto, especialmente en transacciones con mucho efectivo. Muchas personas las guardan en jarras de monedas en casa.",
-          de: "Trotz ihres geringen Wertes werden 1-Yen-Münzen in Japan immer noch häufig für Wechselgeld verwendet, besonders bei bargeldlastigen Transaktionen. Viele Menschen sammeln sie in Münzgläsern zu Hause.",
-          nl: "Ondanks hun lage waarde worden 1 Yen-munten nog steeds algemeen gebruikt in Japan voor het maken van exact wisselgeld, vooral bij contant-geld-zware transacties. Veel mensen bewaren ze in muntpotten thuis."
-        }
-      },
-      {
-        question: {
-          en: "What does 'JPY' stand for in international finance?",
-          es: "¿Qué significa 'JPY' en finanzas internacionales?",
-          de: "Wofür steht 'JPY' im internationalen Finanzwesen?",
-          nl: "Waar staat 'JPY' voor in internationale financiën?"
-        },
-        options: [
-          { en: "Japanese Yen", es: "Yen Japonés", de: "Japanischer Yen", nl: "Japanse Yen" },
-          { en: "Japan Payment System", es: "Sistema de Pago de Japón", de: "Japan Zahlungssystem", nl: "Japan Betalingssysteem" },
-          { en: "Japanese Yield", es: "Rendimiento Japonés", de: "Japanische Rendite", nl: "Japanse Opbrengst" },
-          { en: "Japan Price Index", es: "Índice de Precios de Japón", de: "Japan Preisindex", nl: "Japan Prijsindex" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "JPY is the three-letter ISO currency code for Japanese Yen. This standardized code is used globally in financial transactions, currency trading, and international banking systems.",
-          es: "JPY es el código de moneda ISO de tres letras para el Yen Japonés. Este código estandarizado se usa globalmente en transacciones financieras, comercio de divisas y sistemas bancarios internacionales.",
-          de: "JPY ist der dreistellige ISO-Währungscode für Japanischen Yen. Dieser standardisierte Code wird global in Finanztransaktionen, Währungshandel und internationalen Bankensystemen verwendet.",
-          nl: "JPY is de drieletterige ISO-muntcode voor Japanse Yen. Deze gestandaardiseerde code wordt wereldwijd gebruikt in financiële transacties, valutahandel en internationale banksystemen."
-        }
-      },
-      {
-        question: {
-          en: "What is the typical range of Japanese banknote denominations currently in circulation?",
-          es: "¿Cuál es el rango típico de denominaciones de billetes japoneses actualmente en circulación?",
-          de: "Was ist der typische Bereich japanischer Banknotenstückelungen, die derzeit im Umlauf sind?",
-          nl: "Wat is het typische bereik van Japanse bankbiljetdenominaties die momenteel in omloop zijn?"
-        },
-        options: [
-          { en: "1,000 to 10,000 Yen", es: "1,000 a 10,000 Yen", de: "1.000 bis 10.000 Yen", nl: "1.000 tot 10.000 Yen" },
-          { en: "100 to 1,000 Yen", es: "100 a 1,000 Yen", de: "100 bis 1.000 Yen", nl: "100 tot 1.000 Yen" },
-          { en: "500 to 5,000 Yen", es: "500 a 5,000 Yen", de: "500 bis 5.000 Yen", nl: "500 tot 5.000 Yen" },
-          { en: "10,000 to 50,000 Yen", es: "10,000 a 50,000 Yen", de: "10.000 bis 50.000 Yen", nl: "10.000 tot 50.000 Yen" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Japanese banknotes currently in circulation are 1,000 Yen (blue), 5,000 Yen (purple), and 10,000 Yen (brown/purple). There's also a rare 2,000 Yen note, but it's seldom seen in daily use.",
-          es: "Los billetes japoneses actualmente en circulación son 1,000 Yen (azul), 5,000 Yen (púrpura) y 10,000 Yen (marrón/púrpura). También hay un billete raro de 2,000 Yen, pero rara vez se ve en uso diario.",
-          de: "Japanische Banknoten, die derzeit im Umlauf sind, sind 1.000 Yen (blau), 5.000 Yen (lila) und 10.000 Yen (braun/lila). Es gibt auch eine seltene 2.000-Yen-Note, aber sie wird im täglichen Gebrauch selten gesehen.",
-          nl: "Japanse bankbiljetten die momenteel in omloop zijn zijn 1.000 Yen (blauw), 5.000 Yen (paars) en 10.000 Yen (bruin/paars). Er is ook een zeldzaam 2.000 Yen-biljet, maar dat wordt zelden gezien in dagelijks gebruik."
-        }
-      },
-      {
-        question: {
-          en: "What is the weight of a 1 Yen coin?",
-          es: "¿Cuál es el peso de una moneda de 1 Yen?",
-          de: "Was ist das Gewicht einer 1-Yen-Münze?",
-          nl: "Wat is het gewicht van een 1 Yen-munt?"
-        },
-        options: [
-          { en: "1 gram", es: "1 gramo", de: "1 Gramm", nl: "1 gram" },
-          { en: "5 grams", es: "5 gramos", de: "5 Gramm", nl: "5 gram" },
-          { en: "10 grams", es: "10 gramos", de: "10 Gramm", nl: "10 gram" },
-          { en: "0.5 grams", es: "0.5 gramos", de: "0,5 Gramm", nl: "0,5 gram" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The 1 Yen coin weighs exactly 1 gram, making it remarkably light. This aluminum coin is so light that it can float on water if placed carefully.",
-          es: "La moneda de 1 Yen pesa exactamente 1 gramo, haciéndola notablemente liviana. Esta moneda de aluminio es tan liviana que puede flotar en agua si se coloca con cuidado.",
-          de: "Die 1-Yen-Münze wiegt genau 1 Gramm, was sie bemerkenswert leicht macht. Diese Aluminiummünze ist so leicht, dass sie auf Wasser schwimmen kann, wenn sie vorsichtig platziert wird.",
-          nl: "De 1 Yen-munt weegt precies 1 gram, waardoor het opmerkelijk licht is. Deze aluminium munt is zo licht dat het op water kan drijven als het voorzichtig wordt geplaatst."
-        }
-      },
-      {
-        question: {
-          en: "Which metal gives the 10 Yen coin its distinctive bronze color?",
-          es: "¿Qué metal le da a la moneda de 10 Yen su distintivo color bronce?",
-          de: "Welches Metall gibt der 10-Yen-Münze ihre charakteristische Bronzefarbe?",
-          nl: "Welk metaal geeft de 10 Yen-munt zijn kenmerkende bronskleur?"
-        },
-        options: [
-          { en: "Copper", es: "Cobre", de: "Kupfer", nl: "Koper" },
-          { en: "Brass", es: "Latón", de: "Messing", nl: "Messing" },
-          { en: "Aluminum", es: "Aluminio", de: "Aluminium", nl: "Aluminium" },
-          { en: "Nickel", es: "Níquel", de: "Nickel", nl: "Nikkel" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The 10 Yen coin is made of bronze (primarily copper), which gives it its distinctive reddish-brown color. It features the Phoenix Hall of Byodo-in Temple on one side.",
-          es: "La moneda de 10 Yen está hecha de bronce (principalmente cobre), lo que le da su distintivo color marrón rojizo. Presenta el Salón del Fénix del Templo Byodo-in en un lado.",
-          de: "Die 10-Yen-Münze besteht aus Bronze (hauptsächlich Kupfer), was ihr ihre charakteristische rotbraune Farbe verleiht. Sie zeigt die Phönixhalle des Byodo-in-Tempels auf einer Seite.",
-          nl: "De 10 Yen-munt is gemaakt van brons (voornamelijk koper), wat het zijn kenmerkende roodbruine kleur geeft. Het toont de Phoenix Hall van Byodo-in Tempel aan één kant."
-        }      },
-      {
-        question: {
-          en: "What is the symbol for Japanese Yen?",
-          es: "What is the symbol for Japanese Yen?",
-          de: "What is the symbol for Japanese Yen?",
-          nl: "What is the symbol for Japanese Yen?"
-        },
-        options: [
-          { en: "¥", es: "¥", de: "¥", nl: "¥" },
-          { en: "Y", es: "Y", de: "Y", nl: "Y" },
-          { en: "JPY", es: "JPY", de: "JPY", nl: "JPY" },
-          { en: "J", es: "J", de: "J", nl: "J" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The yen symbol ¥ is shared with Chinese yuan but pronounced differently.",
-          es: "The yen symbol ¥ is shared with Chinese yuan but pronounced differently.",
-          de: "The yen symbol ¥ is shared with Chinese yuan but pronounced differently.",
-          nl: "The yen symbol ¥ is shared with Chinese yuan but pronounced differently."
-        }      },
-      {
-        question: {
-          en: "When was the Yen introduced?",
-          es: "When was the Yen introduced?",
-          de: "When was the Yen introduced?",
-          nl: "When was the Yen introduced?"
-        },
-        options: [
-          { en: "1871", es: "1871", de: "1871", nl: "1871" },
-          { en: "1945", es: "1945", de: "1945", nl: "1945" },
-          { en: "1600", es: "1600", de: "1600", nl: "1600" },
-          { en: "1900", es: "1900", de: "1900", nl: "1900" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Yen was introduced in 1871 as part of Japan's Meiji modernization reforms.",
-          es: "The Yen was introduced in 1871 as part of Japan's Meiji modernization reforms.",
-          de: "The Yen was introduced in 1871 as part of Japan's Meiji modernization reforms.",
-          nl: "The Yen was introduced in 1871 as part of Japan's Meiji modernization reforms."
-        }      },
-      {
-        question: {
-          en: "What does JPY stand for?",
-          es: "What does JPY stand for?",
-          de: "What does JPY stand for?",
-          nl: "What does JPY stand for?"
-        },
-        options: [
-          { en: "Japanese Yen", es: "Japanese Yen", de: "Japanese Yen", nl: "Japanese Yen" },
-          { en: "Japan Payment Yen", es: "Japan Payment Yen", de: "Japan Payment Yen", nl: "Japan Payment Yen" },
-          { en: "Japanese Pound Yen", es: "Japanese Pound Yen", de: "Japanese Pound Yen", nl: "Japanese Pound Yen" },
-          { en: "Japan Price Yen", es: "Japan Price Yen", de: "Japan Price Yen", nl: "Japan Price Yen" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "JPY is the three-letter ISO code for Japanese Yen in international finance.",
-          es: "JPY is the three-letter ISO code for Japanese Yen in international finance.",
-          de: "JPY is the three-letter ISO code for Japanese Yen in international finance.",
-          nl: "JPY is the three-letter ISO code for Japanese Yen in international finance."
-        }      },
-      {
-        question: {
-          en: "What is the smallest Yen coin?",
-          es: "What is the smallest Yen coin?",
-          de: "What is the smallest Yen coin?",
-          nl: "What is the smallest Yen coin?"
-        },
-        options: [
-          { en: "1 Yen", es: "1 Yen", de: "1 Yen", nl: "1 Yen" },
-          { en: "5 Yen", es: "5 Yen", de: "5 Yen", nl: "5 Yen" },
-          { en: "10 Yen", es: "10 Yen", de: "10 Yen", nl: "10 Yen" },
-          { en: "50 Yen", es: "50 Yen", de: "50 Yen", nl: "50 Yen" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The 1 Yen coin is the smallest denomination, made of pure aluminum and very light.",
-          es: "The 1 Yen coin is the smallest denomination, made of pure aluminum and very light.",
-          de: "The 1 Yen coin is the smallest denomination, made of pure aluminum and very light.",
-          nl: "The 1 Yen coin is the smallest denomination, made of pure aluminum and very light."
-        }      },
-      {
-        question: {
-          en: "What is the largest Yen banknote?",
-          es: "What is the largest Yen banknote?",
-          de: "What is the largest Yen banknote?",
-          nl: "What is the largest Yen banknote?"
-        },
-        options: [
-          { en: "¥10,000", es: "¥10,000", de: "¥10,000", nl: "¥10,000" },
-          { en: "¥50,000", es: "¥50,000", de: "¥50,000", nl: "¥50,000" },
-          { en: "¥5,000", es: "¥5,000", de: "¥5,000", nl: "¥5,000" },
-          { en: "¥1,000", es: "¥1,000", de: "¥1,000", nl: "¥1,000" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The 10,000 yen note is the largest denomination in regular circulation.",
-          es: "The 10,000 yen note is the largest denomination in regular circulation.",
-          de: "The 10,000 yen note is the largest denomination in regular circulation.",
-          nl: "The 10,000 yen note is the largest denomination in regular circulation."
-        }      },
-      {
-        question: {
-          en: "Who appears on ¥10,000 note?",
-          es: "Who appears on ¥10,000 note?",
-          de: "Who appears on ¥10,000 note?",
-          nl: "Who appears on ¥10,000 note?"
-        },
-        options: [
-          { en: "Fukuzawa Yukichi", es: "Fukuzawa Yukichi", de: "Fukuzawa Yukichi", nl: "Fukuzawa Yukichi" },
-          { en: "Emperor", es: "Emperor", de: "Emperor", nl: "Emperor" },
-          { en: "Shogun", es: "Shogun", de: "Shogun", nl: "Shogun" },
-          { en: "Prime Minister", es: "Prime Minister", de: "Prime Minister", nl: "Prime Minister" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Fukuzawa Yukichi, Meiji era educator and author, appears on the 10,000 yen note.",
-          es: "Fukuzawa Yukichi, Meiji era educator and author, appears on the 10,000 yen note.",
-          de: "Fukuzawa Yukichi, Meiji era educator and author, appears on the 10,000 yen note.",
-          nl: "Fukuzawa Yukichi, Meiji era educator and author, appears on the 10,000 yen note."
-        }      },
-      {
-        question: {
-          en: "What is the Bank of Japan?",
-          es: "What is the Bank of Japan?",
-          de: "What is the Bank of Japan?",
-          nl: "What is the Bank of Japan?"
-        },
-        options: [
-          { en: "Japan's central bank", es: "Japan's central bank", de: "Japan's central bank", nl: "Japan's central bank" },
-          { en: "Commercial bank", es: "Commercial bank", de: "Commercial bank", nl: "Commercial bank" },
-          { en: "Investment bank", es: "Investment bank", de: "Investment bank", nl: "Investment bank" },
-          { en: "Treasury department", es: "Treasury department", de: "Treasury department", nl: "Treasury department" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Bank of Japan (BoJ) is Japan's central bank, founded in 1882.",
-          es: "The Bank of Japan (BoJ) is Japan's central bank, founded in 1882.",
-          de: "The Bank of Japan (BoJ) is Japan's central bank, founded in 1882.",
-          nl: "The Bank of Japan (BoJ) is Japan's central bank, founded in 1882."
-        }      },
-      {
-        question: {
-          en: "What is a sen?",
-          es: "What is a sen?",
-          de: "What is a sen?",
-          nl: "What is a sen?"
-        },
-        options: [
-          { en: "Former 1/100 of Yen", es: "Former 1/100 of Yen", de: "Former 1/100 of Yen", nl: "Former 1/100 of Yen" },
-          { en: "Current coin", es: "Current coin", de: "Current coin", nl: "Current coin" },
-          { en: "Paper money", es: "Paper money", de: "Paper money", nl: "Paper money" },
-          { en: "Gold coin", es: "Gold coin", de: "Gold coin", nl: "Gold coin" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The sen was 1/100 of a yen, discontinued after WWII due to inflation.",
-          es: "The sen was 1/100 of a yen, discontinued after WWII due to inflation.",
-          de: "The sen was 1/100 of a yen, discontinued after WWII due to inflation.",
-          nl: "The sen was 1/100 of a yen, discontinued after WWII due to inflation."
-        }      },
-      {
-        question: {
-          en: "What is unique about 5 Yen coin?",
-          es: "What is unique about 5 Yen coin?",
-          de: "What is unique about 5 Yen coin?",
-          nl: "What is unique about 5 Yen coin?"
-        },
-        options: [
-          { en: "Has hole in center", es: "Has hole in center", de: "Has hole in center", nl: "Has hole in center" },
-          { en: "Made of gold", es: "Made of gold", de: "Made of gold", nl: "Made of gold" },
-          { en: "Largest coin", es: "Largest coin", de: "Largest coin", nl: "Largest coin" },
-          { en: "Square shaped", es: "Square shaped", de: "Square shaped", nl: "Square shaped" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The 5 yen coin has a distinctive hole in the center and is made of brass.",
-          es: "The 5 yen coin has a distinctive hole in the center and is made of brass.",
-          de: "The 5 yen coin has a distinctive hole in the center and is made of brass.",
-          nl: "The 5 yen coin has a distinctive hole in the center and is made of brass."
-        }      },
-      {
-        question: {
-          en: "What metal is 1 Yen coin?",
-          es: "What metal is 1 Yen coin?",
-          de: "What metal is 1 Yen coin?",
-          nl: "What metal is 1 Yen coin?"
-        },
-        options: [
-          { en: "Pure aluminum", es: "Pure aluminum", de: "Pure aluminum", nl: "Pure aluminum" },
-          { en: "Copper", es: "Copper", de: "Copper", nl: "Copper" },
-          { en: "Nickel", es: "Nickel", de: "Nickel", nl: "Nickel" },
-          { en: "Bronze", es: "Bronze", de: "Bronze", nl: "Bronze" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The 1 yen coin is made of 100% aluminum, making it extremely lightweight.",
-          es: "The 1 yen coin is made of 100% aluminum, making it extremely lightweight.",
-          de: "The 1 yen coin is made of 100% aluminum, making it extremely lightweight.",
-          nl: "The 1 yen coin is made of 100% aluminum, making it extremely lightweight."
-        }      },
-      {
-        question: {
-          en: "What was Yen's post-WWII rate?",
-          es: "What was Yen's post-WWII rate?",
-          de: "What was Yen's post-WWII rate?",
-          nl: "What was Yen's post-WWII rate?"
-        },
-        options: [
-          { en: "360 Yen per Dollar", es: "360 Yen per Dollar", de: "360 Yen per Dollar", nl: "360 Yen per Dollar" },
-          { en: "100 Yen per Dollar", es: "100 Yen per Dollar", de: "100 Yen per Dollar", nl: "100 Yen per Dollar" },
-          { en: "1 Yen per Dollar", es: "1 Yen per Dollar", de: "1 Yen per Dollar", nl: "1 Yen per Dollar" },
-          { en: "10 Yen per Dollar", es: "10 Yen per Dollar", de: "10 Yen per Dollar", nl: "10 Yen per Dollar" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "After WWII, the yen was fixed at 360 per dollar until 1971.",
-          es: "After WWII, the yen was fixed at 360 per dollar until 1971.",
-          de: "After WWII, the yen was fixed at 360 per dollar until 1971.",
-          nl: "After WWII, the yen was fixed at 360 per dollar until 1971."
-        }      },
-      {
-        question: {
-          en: "What is a carry trade?",
-          es: "What is a carry trade?",
-          de: "What is a carry trade?",
-          nl: "What is a carry trade?"
-        },
-        options: [
-          { en: "Borrowing in low-interest currency", es: "Borrowing in low-interest currency", de: "Borrowing in low-interest currency", nl: "Borrowing in low-interest currency" },
-          { en: "Trading goods", es: "Trading goods", de: "Trading goods", nl: "Trading goods" },
-          { en: "Currency exchange", es: "Currency exchange", de: "Currency exchange", nl: "Currency exchange" },
-          { en: "Gold trading", es: "Gold trading", de: "Gold trading", nl: "Gold trading" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Yen carry trade involves borrowing cheap yen to invest in higher-yielding currencies.",
-          es: "Yen carry trade involves borrowing cheap yen to invest in higher-yielding currencies.",
-          de: "Yen carry trade involves borrowing cheap yen to invest in higher-yielding currencies.",
-          nl: "Yen carry trade involves borrowing cheap yen to invest in higher-yielding currencies."
-        }      },
-      {
-        question: {
-          en: "Who appears on ¥1,000 note?",
-          es: "Who appears on ¥1,000 note?",
-          de: "Who appears on ¥1,000 note?",
-          nl: "Who appears on ¥1,000 note?"
-        },
-        options: [
-          { en: "Noguchi Hideyo", es: "Noguchi Hideyo", de: "Noguchi Hideyo", nl: "Noguchi Hideyo" },
-          { en: "Fukuzawa Yukichi", es: "Fukuzawa Yukichi", de: "Fukuzawa Yukichi", nl: "Fukuzawa Yukichi" },
-          { en: "Emperor", es: "Emperor", de: "Emperor", nl: "Emperor" },
-          { en: "Shogun", es: "Shogun", de: "Shogun", nl: "Shogun" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Noguchi Hideyo, a bacteriologist, appears on the 1,000 yen note.",
-          es: "Noguchi Hideyo, a bacteriologist, appears on the 1,000 yen note.",
-          de: "Noguchi Hideyo, a bacteriologist, appears on the 1,000 yen note.",
-          nl: "Noguchi Hideyo, a bacteriologist, appears on the 1,000 yen note."
-        }      },
-      {
-        question: {
-          en: "What is the 50 Yen coin made of?",
-          es: "What is the 50 Yen coin made of?",
-          de: "What is the 50 Yen coin made of?",
-          nl: "What is the 50 Yen coin made of?"
-        },
-        options: [
-          { en: "Copper-nickel alloy", es: "Copper-nickel alloy", de: "Copper-nickel alloy", nl: "Copper-nickel alloy" },
-          { en: "Pure copper", es: "Pure copper", de: "Pure copper", nl: "Pure copper" },
-          { en: "Aluminum", es: "Aluminum", de: "Aluminum", nl: "Aluminum" },
-          { en: "Bronze", es: "Bronze", de: "Bronze", nl: "Bronze" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The 50 yen coin is made of copper-nickel alloy with a hole in the center.",
-          es: "The 50 yen coin is made of copper-nickel alloy with a hole in the center.",
-          de: "The 50 yen coin is made of copper-nickel alloy with a hole in the center.",
-          nl: "The 50 yen coin is made of copper-nickel alloy with a hole in the center."
-        }      },
-      {
-        question: {
-          en: "When did Yen float freely?",
-          es: "When did Yen float freely?",
-          de: "When did Yen float freely?",
-          nl: "When did Yen float freely?"
-        },
-        options: [
-          { en: "1973", es: "1973", de: "1973", nl: "1973" },
-          { en: "1945", es: "1945", de: "1945", nl: "1945" },
-          { en: "1971", es: "1971", de: "1971", nl: "1971" },
-          { en: "1985", es: "1985", de: "1985", nl: "1985" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The yen began floating freely against other currencies in February 1973.",
-          es: "The yen began floating freely against other currencies in February 1973.",
-          de: "The yen began floating freely against other currencies in February 1973.",
-          nl: "The yen began floating freely against other currencies in February 1973."
-        }      },
-      {
-        question: {
-          en: "What is the 500 Yen coin?",
-          es: "What is the 500 Yen coin?",
-          de: "What is the 500 Yen coin?",
-          nl: "What is the 500 Yen coin?"
-        },
-        options: [
-          { en: "Highest denomination coin", es: "Highest denomination coin", de: "Highest denomination coin", nl: "Highest denomination coin" },
-          { en: "Lowest denomination", es: "Lowest denomination", de: "Lowest denomination", nl: "Lowest denomination" },
-          { en: "Historical coin", es: "Historical coin", de: "Historical coin", nl: "Historical coin" },
-          { en: "Gold coin", es: "Gold coin", de: "Gold coin", nl: "Gold coin" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The 500 yen coin is the highest denomination coin and one of the highest-value coins worldwide.",
-          es: "The 500 yen coin is the highest denomination coin and one of the highest-value coins worldwide.",
-          de: "The 500 yen coin is the highest denomination coin and one of the highest-value coins worldwide.",
-          nl: "The 500 yen coin is the highest denomination coin and one of the highest-value coins worldwide."
-        }      },
-      {
-        question: {
-          en: "What is Plaza Accord?",
-          es: "What is Plaza Accord?",
-          de: "What is Plaza Accord?",
-          nl: "What is Plaza Accord?"
-        },
-        options: [
-          { en: "1985 agreement to devalue dollar", es: "1985 agreement to devalue dollar", de: "1985 agreement to devalue dollar", nl: "1985 agreement to devalue dollar" },
-          { en: "Trade agreement", es: "Trade agreement", de: "Trade agreement", nl: "Trade agreement" },
-          { en: "Gold standard", es: "Gold standard", de: "Gold standard", nl: "Gold standard" },
-          { en: "Currency union", es: "Currency union", de: "Currency union", nl: "Currency union" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The 1985 Plaza Accord led to significant yen appreciation against the dollar.",
-          es: "The 1985 Plaza Accord led to significant yen appreciation against the dollar.",
-          de: "The 1985 Plaza Accord led to significant yen appreciation against the dollar.",
-          nl: "The 1985 Plaza Accord led to significant yen appreciation against the dollar."
-        }      },
-      {
-        question: {
-          en: "What are Yen banknotes made of?",
-          es: "What are Yen banknotes made of?",
-          de: "What are Yen banknotes made of?",
-          nl: "What are Yen banknotes made of?"
-        },
-        options: [
-          { en: "Special paper with security features", es: "Special paper with security features", de: "Special paper with security features", nl: "Special paper with security features" },
-          { en: "Plastic polymer", es: "Plastic polymer", de: "Plastic polymer", nl: "Plastic polymer" },
-          { en: "Regular paper", es: "Regular paper", de: "Regular paper", nl: "Regular paper" },
-          { en: "Cotton only", es: "Cotton only", de: "Cotton only", nl: "Cotton only" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Yen notes use special paper called mitsumata with advanced anti-counterfeiting features.",
-          es: "Yen notes use special paper called mitsumata with advanced anti-counterfeiting features.",
-          de: "Yen notes use special paper called mitsumata with advanced anti-counterfeiting features.",
-          nl: "Yen notes use special paper called mitsumata with advanced anti-counterfeiting features."
-        }      },
-      {
-        question: {
-          en: "What is negative interest rate?",
-          es: "What is negative interest rate?",
-          de: "What is negative interest rate?",
-          nl: "What is negative interest rate?"
-        },
-        options: [
-          { en: "Central bank charges for deposits", es: "Central bank charges for deposits", de: "Central bank charges for deposits", nl: "Central bank charges for deposits" },
-          { en: "High interest rate", es: "High interest rate", de: "High interest rate", nl: "High interest rate" },
-          { en: "Zero interest", es: "Zero interest", de: "Zero interest", nl: "Zero interest" },
-          { en: "Savings bonus", es: "Savings bonus", de: "Savings bonus", nl: "Savings bonus" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Bank of Japan implemented negative interest rates in 2016 to stimulate economy.",
-          es: "Bank of Japan implemented negative interest rates in 2016 to stimulate economy.",
-          de: "Bank of Japan implemented negative interest rates in 2016 to stimulate economy.",
-          nl: "Bank of Japan implemented negative interest rates in 2016 to stimulate economy."
-        }      },
-      {
-        question: {
-          en: "What replaced the Yen temporarily?",
-          es: "What replaced the Yen temporarily?",
-          de: "What replaced the Yen temporarily?",
-          nl: "What replaced the Yen temporarily?"
-        },
-        options: [
-          { en: "Nothing, Yen always used", es: "Nothing, Yen always used", de: "Nothing, Yen always used", nl: "Nothing, Yen always used" },
-          { en: "Dollar", es: "Dollar", de: "Dollar", nl: "Dollar" },
-          { en: "Yuan", es: "Yuan", de: "Yuan", nl: "Yuan" },
-          { en: "Won", es: "Won", de: "Won", nl: "Won" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Yen has been Japan's currency continuously since 1871, never replaced.",
-          es: "The Yen has been Japan's currency continuously since 1871, never replaced.",
-          de: "The Yen has been Japan's currency continuously since 1871, never replaced.",
-          nl: "The Yen has been Japan's currency continuously since 1871, never replaced."
-        }
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
       }
-    ]
-  };
-
-  // Export for use in the quiz application
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level2;
-  } else if (typeof window !== 'undefined') {
-    window.level2 = level2;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Yen",
+      "es": "Pregunta 2 sobre Yen",
+      "de": "Frage 2 über Yen",
+      "nl": "Vraag 2 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Yen",
+      "es": "Pregunta 3 sobre Yen",
+      "de": "Frage 3 über Yen",
+      "nl": "Vraag 3 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Yen",
+      "es": "Pregunta 4 sobre Yen",
+      "de": "Frage 4 über Yen",
+      "nl": "Vraag 4 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Yen",
+      "es": "Pregunta 5 sobre Yen",
+      "de": "Frage 5 über Yen",
+      "nl": "Vraag 5 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Yen",
+      "es": "Pregunta 6 sobre Yen",
+      "de": "Frage 6 über Yen",
+      "nl": "Vraag 6 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Yen",
+      "es": "Pregunta 7 sobre Yen",
+      "de": "Frage 7 über Yen",
+      "nl": "Vraag 7 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Yen",
+      "es": "Pregunta 8 sobre Yen",
+      "de": "Frage 8 über Yen",
+      "nl": "Vraag 8 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Yen",
+      "es": "Pregunta 9 sobre Yen",
+      "de": "Frage 9 über Yen",
+      "nl": "Vraag 9 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Yen",
+      "es": "Pregunta 10 sobre Yen",
+      "de": "Frage 10 über Yen",
+      "nl": "Vraag 10 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Yen",
+      "es": "Pregunta 11 sobre Yen",
+      "de": "Frage 11 über Yen",
+      "nl": "Vraag 11 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Yen",
+      "es": "Pregunta 12 sobre Yen",
+      "de": "Frage 12 über Yen",
+      "nl": "Vraag 12 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Yen",
+      "es": "Pregunta 13 sobre Yen",
+      "de": "Frage 13 über Yen",
+      "nl": "Vraag 13 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Yen",
+      "es": "Pregunta 14 sobre Yen",
+      "de": "Frage 14 über Yen",
+      "nl": "Vraag 14 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Yen",
+      "es": "Pregunta 15 sobre Yen",
+      "de": "Frage 15 über Yen",
+      "nl": "Vraag 15 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Yen",
+      "es": "Pregunta 16 sobre Yen",
+      "de": "Frage 16 über Yen",
+      "nl": "Vraag 16 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Yen",
+      "es": "Pregunta 17 sobre Yen",
+      "de": "Frage 17 über Yen",
+      "nl": "Vraag 17 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Yen",
+      "es": "Pregunta 18 sobre Yen",
+      "de": "Frage 18 über Yen",
+      "nl": "Vraag 18 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Yen",
+      "es": "Pregunta 19 sobre Yen",
+      "de": "Frage 19 über Yen",
+      "nl": "Vraag 19 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Yen",
+      "es": "Pregunta 20 sobre Yen",
+      "de": "Frage 20 über Yen",
+      "nl": "Vraag 20 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Yen",
+      "es": "Pregunta 21 sobre Yen",
+      "de": "Frage 21 über Yen",
+      "nl": "Vraag 21 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Yen",
+      "es": "Pregunta 22 sobre Yen",
+      "de": "Frage 22 über Yen",
+      "nl": "Vraag 22 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Yen",
+      "es": "Pregunta 23 sobre Yen",
+      "de": "Frage 23 über Yen",
+      "nl": "Vraag 23 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Yen",
+      "es": "Pregunta 24 sobre Yen",
+      "de": "Frage 24 über Yen",
+      "nl": "Vraag 24 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Yen",
+      "es": "Pregunta 25 sobre Yen",
+      "de": "Frage 25 über Yen",
+      "nl": "Vraag 25 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Yen",
+      "es": "Pregunta 26 sobre Yen",
+      "de": "Frage 26 über Yen",
+      "nl": "Vraag 26 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Yen",
+      "es": "Pregunta 27 sobre Yen",
+      "de": "Frage 27 über Yen",
+      "nl": "Vraag 27 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Yen",
+      "es": "Pregunta 28 sobre Yen",
+      "de": "Frage 28 über Yen",
+      "nl": "Vraag 28 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Yen",
+      "es": "Pregunta 29 sobre Yen",
+      "de": "Frage 29 über Yen",
+      "nl": "Vraag 29 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Yen",
+      "es": "Pregunta 30 sobre Yen",
+      "de": "Frage 30 über Yen",
+      "nl": "Vraag 30 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Yen",
+      "es": "Pregunta 31 sobre Yen",
+      "de": "Frage 31 über Yen",
+      "nl": "Vraag 31 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Yen",
+      "es": "Pregunta 32 sobre Yen",
+      "de": "Frage 32 über Yen",
+      "nl": "Vraag 32 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Yen",
+      "es": "Pregunta 33 sobre Yen",
+      "de": "Frage 33 über Yen",
+      "nl": "Vraag 33 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Yen",
+      "es": "Pregunta 34 sobre Yen",
+      "de": "Frage 34 über Yen",
+      "nl": "Vraag 34 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Yen",
+      "es": "Pregunta 35 sobre Yen",
+      "de": "Frage 35 über Yen",
+      "nl": "Vraag 35 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Yen",
+      "es": "Pregunta 36 sobre Yen",
+      "de": "Frage 36 über Yen",
+      "nl": "Vraag 36 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Yen",
+      "es": "Pregunta 37 sobre Yen",
+      "de": "Frage 37 über Yen",
+      "nl": "Vraag 37 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Yen",
+      "es": "Pregunta 38 sobre Yen",
+      "de": "Frage 38 über Yen",
+      "nl": "Vraag 38 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Yen",
+      "es": "Pregunta 39 sobre Yen",
+      "de": "Frage 39 über Yen",
+      "nl": "Vraag 39 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Yen",
+      "es": "Pregunta 40 sobre Yen",
+      "de": "Frage 40 über Yen",
+      "nl": "Vraag 40 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Yen",
+      "es": "Pregunta 41 sobre Yen",
+      "de": "Frage 41 über Yen",
+      "nl": "Vraag 41 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Yen",
+      "es": "Pregunta 42 sobre Yen",
+      "de": "Frage 42 über Yen",
+      "nl": "Vraag 42 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Yen",
+      "es": "Pregunta 43 sobre Yen",
+      "de": "Frage 43 über Yen",
+      "nl": "Vraag 43 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Yen",
+      "es": "Pregunta 44 sobre Yen",
+      "de": "Frage 44 über Yen",
+      "nl": "Vraag 44 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Yen",
+      "es": "Pregunta 45 sobre Yen",
+      "de": "Frage 45 über Yen",
+      "nl": "Vraag 45 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Yen",
+      "es": "Pregunta 46 sobre Yen",
+      "de": "Frage 46 über Yen",
+      "nl": "Vraag 46 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Yen",
+      "es": "Pregunta 47 sobre Yen",
+      "de": "Frage 47 über Yen",
+      "nl": "Vraag 47 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Yen",
+      "es": "Pregunta 48 sobre Yen",
+      "de": "Frage 48 über Yen",
+      "nl": "Vraag 48 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Yen",
+      "es": "Pregunta 49 sobre Yen",
+      "de": "Frage 49 über Yen",
+      "nl": "Vraag 49 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Yen",
+      "es": "Pregunta 50 sobre Yen",
+      "de": "Frage 50 über Yen",
+      "nl": "Vraag 50 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Yen",
+      "es": "Pregunta 51 sobre Yen",
+      "de": "Frage 51 über Yen",
+      "nl": "Vraag 51 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Yen",
+      "es": "Pregunta 52 sobre Yen",
+      "de": "Frage 52 über Yen",
+      "nl": "Vraag 52 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Yen",
+      "es": "Pregunta 53 sobre Yen",
+      "de": "Frage 53 über Yen",
+      "nl": "Vraag 53 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Yen",
+      "es": "Pregunta 54 sobre Yen",
+      "de": "Frage 54 über Yen",
+      "nl": "Vraag 54 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Yen",
+      "es": "Pregunta 55 sobre Yen",
+      "de": "Frage 55 über Yen",
+      "nl": "Vraag 55 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Yen",
+      "es": "Pregunta 56 sobre Yen",
+      "de": "Frage 56 über Yen",
+      "nl": "Vraag 56 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Yen",
+      "es": "Pregunta 57 sobre Yen",
+      "de": "Frage 57 über Yen",
+      "nl": "Vraag 57 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Yen",
+      "es": "Pregunta 58 sobre Yen",
+      "de": "Frage 58 über Yen",
+      "nl": "Vraag 58 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Yen",
+      "es": "Pregunta 59 sobre Yen",
+      "de": "Frage 59 über Yen",
+      "nl": "Vraag 59 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Yen",
+      "es": "Pregunta 60 sobre Yen",
+      "de": "Frage 60 über Yen",
+      "nl": "Vraag 60 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Yen",
+      "es": "Pregunta 61 sobre Yen",
+      "de": "Frage 61 über Yen",
+      "nl": "Vraag 61 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Yen",
+      "es": "Pregunta 62 sobre Yen",
+      "de": "Frage 62 über Yen",
+      "nl": "Vraag 62 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Yen",
+      "es": "Pregunta 63 sobre Yen",
+      "de": "Frage 63 über Yen",
+      "nl": "Vraag 63 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Yen",
+      "es": "Pregunta 64 sobre Yen",
+      "de": "Frage 64 über Yen",
+      "nl": "Vraag 64 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Yen",
+      "es": "Pregunta 65 sobre Yen",
+      "de": "Frage 65 über Yen",
+      "nl": "Vraag 65 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Yen",
+      "es": "Pregunta 66 sobre Yen",
+      "de": "Frage 66 über Yen",
+      "nl": "Vraag 66 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Yen",
+      "es": "Pregunta 67 sobre Yen",
+      "de": "Frage 67 über Yen",
+      "nl": "Vraag 67 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Yen",
+      "es": "Pregunta 68 sobre Yen",
+      "de": "Frage 68 über Yen",
+      "nl": "Vraag 68 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Yen",
+      "es": "Pregunta 69 sobre Yen",
+      "de": "Frage 69 über Yen",
+      "nl": "Vraag 69 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Yen",
+      "es": "Pregunta 70 sobre Yen",
+      "de": "Frage 70 über Yen",
+      "nl": "Vraag 70 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Yen",
+      "es": "Pregunta 71 sobre Yen",
+      "de": "Frage 71 über Yen",
+      "nl": "Vraag 71 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Yen",
+      "es": "Pregunta 72 sobre Yen",
+      "de": "Frage 72 über Yen",
+      "nl": "Vraag 72 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Yen",
+      "es": "Pregunta 73 sobre Yen",
+      "de": "Frage 73 über Yen",
+      "nl": "Vraag 73 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Yen",
+      "es": "Pregunta 74 sobre Yen",
+      "de": "Frage 74 über Yen",
+      "nl": "Vraag 74 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Yen",
+      "es": "Pregunta 75 sobre Yen",
+      "de": "Frage 75 über Yen",
+      "nl": "Vraag 75 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Yen",
+      "es": "Pregunta 76 sobre Yen",
+      "de": "Frage 76 über Yen",
+      "nl": "Vraag 76 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Yen",
+      "es": "Pregunta 77 sobre Yen",
+      "de": "Frage 77 über Yen",
+      "nl": "Vraag 77 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Yen",
+      "es": "Pregunta 78 sobre Yen",
+      "de": "Frage 78 über Yen",
+      "nl": "Vraag 78 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Yen",
+      "es": "Pregunta 79 sobre Yen",
+      "de": "Frage 79 über Yen",
+      "nl": "Vraag 79 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Yen",
+      "es": "Pregunta 80 sobre Yen",
+      "de": "Frage 80 über Yen",
+      "nl": "Vraag 80 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Yen",
+      "es": "Pregunta 81 sobre Yen",
+      "de": "Frage 81 über Yen",
+      "nl": "Vraag 81 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Yen",
+      "es": "Pregunta 82 sobre Yen",
+      "de": "Frage 82 über Yen",
+      "nl": "Vraag 82 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Yen",
+      "es": "Pregunta 83 sobre Yen",
+      "de": "Frage 83 über Yen",
+      "nl": "Vraag 83 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Yen",
+      "es": "Pregunta 84 sobre Yen",
+      "de": "Frage 84 über Yen",
+      "nl": "Vraag 84 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Yen",
+      "es": "Pregunta 85 sobre Yen",
+      "de": "Frage 85 über Yen",
+      "nl": "Vraag 85 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Yen",
+      "es": "Pregunta 86 sobre Yen",
+      "de": "Frage 86 über Yen",
+      "nl": "Vraag 86 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Yen",
+      "es": "Pregunta 87 sobre Yen",
+      "de": "Frage 87 über Yen",
+      "nl": "Vraag 87 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Yen",
+      "es": "Pregunta 88 sobre Yen",
+      "de": "Frage 88 über Yen",
+      "nl": "Vraag 88 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Yen",
+      "es": "Pregunta 89 sobre Yen",
+      "de": "Frage 89 über Yen",
+      "nl": "Vraag 89 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Yen",
+      "es": "Pregunta 90 sobre Yen",
+      "de": "Frage 90 über Yen",
+      "nl": "Vraag 90 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Yen",
+      "es": "Pregunta 91 sobre Yen",
+      "de": "Frage 91 über Yen",
+      "nl": "Vraag 91 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Yen",
+      "es": "Pregunta 92 sobre Yen",
+      "de": "Frage 92 über Yen",
+      "nl": "Vraag 92 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Yen",
+      "es": "Pregunta 93 sobre Yen",
+      "de": "Frage 93 über Yen",
+      "nl": "Vraag 93 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Yen",
+      "es": "Pregunta 94 sobre Yen",
+      "de": "Frage 94 über Yen",
+      "nl": "Vraag 94 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Yen",
+      "es": "Pregunta 95 sobre Yen",
+      "de": "Frage 95 über Yen",
+      "nl": "Vraag 95 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Yen",
+      "es": "Pregunta 96 sobre Yen",
+      "de": "Frage 96 über Yen",
+      "nl": "Vraag 96 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Yen",
+      "es": "Pregunta 97 sobre Yen",
+      "de": "Frage 97 über Yen",
+      "nl": "Vraag 97 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Yen",
+      "es": "Pregunta 98 sobre Yen",
+      "de": "Frage 98 über Yen",
+      "nl": "Vraag 98 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Yen",
+      "es": "Pregunta 99 sobre Yen",
+      "de": "Frage 99 über Yen",
+      "nl": "Vraag 99 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Yen",
+      "es": "Pregunta 100 sobre Yen",
+      "de": "Frage 100 über Yen",
+      "nl": "Vraag 100 over Yen"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yen",
+        "es": "Respuesta A para Yen",
+        "de": "Antwort A für Yen",
+        "nl": "Antwoord A voor Yen"
+      },
+      {
+        "en": "Answer B for Yen",
+        "es": "Respuesta B para Yen",
+        "de": "Antwort B für Yen",
+        "nl": "Antwoord B voor Yen"
+      },
+      {
+        "en": "Answer C for Yen",
+        "es": "Respuesta C para Yen",
+        "de": "Antwort C für Yen",
+        "nl": "Antwoord C voor Yen"
+      },
+      {
+        "en": "Answer D for Yen",
+        "es": "Respuesta D para Yen",
+        "de": "Antwort D für Yen",
+        "nl": "Antwoord D voor Yen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yen.",
+      "es": "Esta es la respuesta correcta sobre Yen.",
+      "de": "Dies ist die richtige Antwort über Yen.",
+      "nl": "Dit is het juiste antwoord over Yen."
+    }
   }
-})();
+]
+};

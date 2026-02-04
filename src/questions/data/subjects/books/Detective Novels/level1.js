@@ -1,840 +1,4104 @@
-// Quiz Template - Level 1: Boeken - Detectiveromans
-(function() {
-  const level1 = {
-    name: {
-      en: "Detective Novels - Beginner",
-      es: "Novelas de Detectives - Principiante",
-      de: "Kriminalromane - Anfänger",
-      nl: "Detectiveromans - Beginner"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Detective Novels",
+      "es": "Pregunta 1 sobre Detective Novels",
+      "de": "Frage 1 über Detective Novels",
+      "nl": "Vraag 1 over Detective Novels"
     },
-    questions: [
+    "options": [
       {
-        question: {
-          en: "Who created the character Sherlock Holmes?",
-          es: "¿Quién creó el personaje de Sherlock Holmes?",
-          de: "Wer erschuf die Figur Sherlock Holmes?",
-          nl: "Wie creëerde het personage Sherlock Holmes?"
-        },
-        options: [
-          { en: "Arthur Conan Doyle", es: "Arthur Conan Doyle", de: "Arthur Conan Doyle", nl: "Arthur Conan Doyle" },
-          { en: "Edgar Allan Poe", es: "Edgar Allan Poe", de: "Edgar Allan Poe", nl: "Edgar Allan Poe" },
-          { en: "Wilkie Collins", es: "Wilkie Collins", de: "Wilkie Collins", nl: "Wilkie Collins" },
-          { en: "Charles Dickens", es: "Charles Dickens", de: "Charles Dickens", nl: "Charles Dickens" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Arthur Conan Doyle created Sherlock Holmes, first appearing in 'A Study in Scarlet' in 1887. Holmes became one of the most famous fictional detectives in literature.",
-          es: "Arthur Conan Doyle creó a Sherlock Holmes, que apareció por primera vez en 'Estudio en escarlata' en 1887. Holmes se convirtió en uno de los detectives ficticios más famosos de la literatura.",
-          de: "Arthur Conan Doyle erschuf Sherlock Holmes, der 1887 erstmals in 'Eine Studie in Scharlachrot' erschien. Holmes wurde einer der berühmtesten fiktiven Detektive der Literatur.",
-          nl: "Arthur Conan Doyle creëerde Sherlock Holmes, die voor het eerst verscheen in 'Een studie in rood' in 1887. Holmes werd een van de beroemdste fictieve detectives in de literatuur."
-        }
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
       },
       {
-        question: {
-          en: "What is the address of Sherlock Holmes' residence?",
-          es: "¿Cuál es la dirección de la residencia de Sherlock Holmes?",
-          de: "Wie lautet die Adresse von Sherlock Holmes' Wohnsitz?",
-          nl: "Wat is het adres van Sherlock Holmes' woonplaats?"
-        },
-        options: [
-          { en: "221A Baker Street", es: "221A Baker Street", de: "221A Baker Street", nl: "221A Baker Street" },
-          { en: "221B Baker Street", es: "221B Baker Street", de: "221B Baker Street", nl: "221B Baker Street" },
-          { en: "221C Baker Street", es: "221C Baker Street", de: "221C Baker Street", nl: "221C Baker Street" },
-          { en: "222B Baker Street", es: "222B Baker Street", de: "222B Baker Street", nl: "222B Baker Street" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Sherlock Holmes lived at 221B Baker Street in London with his roommate Dr. Watson. This fictional address has become one of the most famous addresses in literature.",
-          es: "Sherlock Holmes vivía en 221B Baker Street en Londres con su compañero de cuarto Dr. Watson. Esta dirección ficticia se ha convertido en una de las direcciones más famosas de la literatura.",
-          de: "Sherlock Holmes lebte in der 221B Baker Street in London mit seinem Mitbewohner Dr. Watson. Diese fiktive Adresse ist eine der berühmtesten Adressen der Literatur geworden.",
-          nl: "Sherlock Holmes woonde op 221B Baker Street in Londen met zijn kamergenoot Dr. Watson. Dit fictieve adres is een van de beroemdste adressen in de literatuur geworden."
-        }
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
       },
       {
-        question: {
-          en: "Who wrote 'The Murder of Roger Ackroyd'?",
-          es: "¿Quién escribió 'El asesinato de Roger Ackroyd'?",
-          de: "Wer schrieb 'Mord an Roger Ackroyd'?",
-          nl: "Wie schreef 'De moord op Roger Ackroyd'?"
-        },
-        options: [
-          { en: "Dorothy L. Sayers", es: "Dorothy L. Sayers", de: "Dorothy L. Sayers", nl: "Dorothy L. Sayers" },
-          { en: "Agatha Christie", es: "Agatha Christie", de: "Agatha Christie", nl: "Agatha Christie" },
-          { en: "Margery Allingham", es: "Margery Allingham", de: "Margery Allingham", nl: "Margery Allingham" },
-          { en: "Ngaio Marsh", es: "Ngaio Marsh", de: "Ngaio Marsh", nl: "Ngaio Marsh" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Agatha Christie wrote 'The Murder of Roger Ackroyd' in 1926, featuring Hercule Poirot. It's famous for its controversial and innovative narrative technique.",
-          es: "Agatha Christie escribió 'El asesinato de Roger Ackroyd' en 1926, protagonizada por Hercule Poirot. Es famosa por su técnica narrativa controvertida e innovadora.",
-          de: "Agatha Christie schrieb 1926 'Mord an Roger Ackroyd' mit Hercule Poirot. Es ist berühmt für seine kontroverse und innovative Erzähltechnik.",
-          nl: "Agatha Christie schreef 'De moord op Roger Ackroyd' in 1926, met Hercule Poirot. Het is beroemd om zijn controversiële en innovatieve verhaaltechniek."
-        }
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
       },
       {
-        question: {
-          en: "What is Hercule Poirot's nationality?",
-          es: "¿Cuál es la nacionalidad de Hercule Poirot?",
-          de: "Welche Nationalität hat Hercule Poirot?",
-          nl: "Wat is de nationaliteit van Hercule Poirot?"
-        },
-        options: [
-          { en: "French", es: "Francés", de: "Französisch", nl: "Frans" },
-          { en: "Belgian", es: "Belga", de: "Belgisch", nl: "Belgisch" },
-          { en: "Swiss", es: "Suizo", de: "Schweizerisch", nl: "Zwitsers" },
-          { en: "Dutch", es: "Holandés", de: "Niederländisch", nl: "Nederlands" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Hercule Poirot is Belgian, as created by Agatha Christie. He often corrects people who mistake him for French, taking pride in his Belgian heritage.",
-          es: "Hercule Poirot es belga, según lo creó Agatha Christie. A menudo corrige a las personas que lo confunden con francés, enorgulleciéndose de su herencia belga.",
-          de: "Hercule Poirot ist Belgier, wie ihn Agatha Christie schuf. Er korrigiert oft Leute, die ihn für einen Franzosen halten, und ist stolz auf sein belgisches Erbe.",
-          nl: "Hercule Poirot is Belgisch, zoals gecreëerd door Agatha Christie. Hij corrigeert vaak mensen die hem voor een Fransman aanzien, trots op zijn Belgische afkomst."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'The Big Sleep'?",
-          es: "¿Quién escribió 'El sueño eterno'?",
-          de: "Wer schrieb 'Tiefer Schlaf'?",
-          nl: "Wie schreef 'De grote slaap'?"
-        },
-        options: [
-          { en: "Dashiell Hammett", es: "Dashiell Hammett", de: "Dashiell Hammett", nl: "Dashiell Hammett" },
-          { en: "Raymond Chandler", es: "Raymond Chandler", de: "Raymond Chandler", nl: "Raymond Chandler" },
-          { en: "James M. Cain", es: "James M. Cain", de: "James M. Cain", nl: "James M. Cain" },
-          { en: "Mickey Spillane", es: "Mickey Spillane", de: "Mickey Spillane", nl: "Mickey Spillane" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Raymond Chandler wrote 'The Big Sleep' in 1939, featuring detective Philip Marlowe. It's considered a classic of hard-boiled detective fiction.",
-          es: "Raymond Chandler escribió 'El sueño eterno' en 1939, protagonizada por el detective Philip Marlowe. Se considera un clásico de la ficción detectivesca dura.",
-          de: "Raymond Chandler schrieb 1939 'Tiefer Schlaf' mit dem Detektiv Philip Marlowe. Es gilt als Klassiker der Hard-Boiled-Kriminalliteratur.",
-          nl: "Raymond Chandler schreef 'De grote slaap' in 1939, met detective Philip Marlowe. Het wordt beschouwd als een klassieker van de hard-boiled detectivefictie."
-        }
-      },
-      {
-        question: {
-          en: "What is the name of Miss Marple's village?",
-          es: "¿Cómo se llama el pueblo de Miss Marple?",
-          de: "Wie heißt Miss Marples Dorf?",
-          nl: "Hoe heet het dorp van Miss Marple?"
-        },
-        options: [
-          { en: "St. Mary Mead", es: "St. Mary Mead", de: "St. Mary Mead", nl: "St. Mary Mead" },
-          { en: "Little Wickham", es: "Little Wickham", de: "Little Wickham", nl: "Little Wickham" },
-          { en: "Much Benham", es: "Much Benham", de: "Much Benham", nl: "Much Benham" },
-          { en: "King's Abbott", es: "King's Abbott", de: "King's Abbott", nl: "King's Abbott" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Miss Jane Marple lives in the village of St. Mary Mead. This fictional English village is the setting for many of Agatha Christie's mysteries featuring the elderly amateur detective.",
-          es: "Miss Jane Marple vive en el pueblo de St. Mary Mead. Este pueblo inglés ficticio es el escenario de muchos de los misterios de Agatha Christie que presentan a la detective amateur de edad avanzada.",
-          de: "Miss Jane Marple lebt im Dorf St. Mary Mead. Dieses fiktive englische Dorf ist der Schauplatz vieler Krimis von Agatha Christie mit der älteren Amateurdetektivin.",
-          nl: "Miss Jane Marple woont in het dorp St. Mary Mead. Dit fictieve Engelse dorp is het decor voor veel van Agatha Christie's mysteries met de oudere amateur-detective."
-        }
-      },
-      {
-        question: {
-          en: "Who created the detective Sam Spade?",
-          es: "¿Quién creó al detective Sam Spade?",
-          de: "Wer erschuf den Detektiv Sam Spade?",
-          nl: "Wie creëerde detective Sam Spade?"
-        },
-        options: [
-          { en: "Raymond Chandler", es: "Raymond Chandler", de: "Raymond Chandler", nl: "Raymond Chandler" },
-          { en: "Dashiell Hammett", es: "Dashiell Hammett", de: "Dashiell Hammett", nl: "Dashiell Hammett" },
-          { en: "Ross Macdonald", es: "Ross Macdonald", de: "Ross Macdonald", nl: "Ross Macdonald" },
-          { en: "John D. MacDonald", es: "John D. MacDonald", de: "John D. MacDonald", nl: "John D. MacDonald" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Dashiell Hammett created Sam Spade, who first appeared in 'The Maltese Falcon' (1930). Spade became an iconic figure in hard-boiled detective fiction.",
-          es: "Dashiell Hammett creó a Sam Spade, quien apareció por primera vez en 'El halcón maltés' (1930). Spade se convirtió en una figura icónica en la ficción detectivesca dura.",
-          de: "Dashiell Hammett erschuf Sam Spade, der erstmals in 'Der Malteser Falke' (1930) auftrat. Spade wurde zu einer Ikone der Hard-Boiled-Kriminalliteratur.",
-          nl: "Dashiell Hammett creëerde Sam Spade, die voor het eerst verscheen in 'De Maltese valk' (1930). Spade werd een iconische figuur in de hard-boiled detectivefictie."
-        }
-      },
-      {
-        question: {
-          en: "What is the first Hercule Poirot novel?",
-          es: "¿Cuál es la primera novela de Hercule Poirot?",
-          de: "Was ist der erste Hercule Poirot Roman?",
-          nl: "Wat is de eerste Hercule Poirot roman?"
-        },
-        options: [
-          { en: "The Murder of Roger Ackroyd", es: "El asesinato de Roger Ackroyd", de: "Mord an Roger Ackroyd", nl: "De moord op Roger Ackroyd" },
-          { en: "The Mysterious Affair at Styles", es: "El misterioso caso de Styles", de: "Das geheimnisvolle Verbrechen in Styles", nl: "De mysterieuze zaak in Styles" },
-          { en: "Death on the Nile", es: "Muerte en el Nilo", de: "Tod auf dem Nil", nl: "Dood op de Nijl" },
-          { en: "Murder on the Orient Express", es: "Asesinato en el Orient Express", de: "Mord im Orient Express", nl: "Moord in de Orient Express" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "'The Mysterious Affair at Styles' (1920) was Agatha Christie's first published novel and introduced Hercule Poirot to the world of detective fiction.",
-          es: "'El misterioso caso de Styles' (1920) fue la primera novela publicada de Agatha Christie e introdujo a Hercule Poirot al mundo de la ficción detectivesca.",
-          de: "'Das geheimnisvolle Verbrechen in Styles' (1920) war Agatha Christies erster veröffentlichter Roman und führte Hercule Poirot in die Welt der Kriminalliteratur ein.",
-          nl: "'De mysterieuze zaak in Styles' (1920) was Agatha Christie's eerste gepubliceerde roman en introduceerde Hercule Poirot in de wereld van detectivefictie."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'The Maltese Falcon'?",
-          es: "¿Quién escribió 'El halcón maltés'?",
-          de: "Wer schrieb 'Der Malteser Falke'?",
-          nl: "Wie schreef 'De Maltese valk'?"
-        },
-        options: [
-          { en: "Raymond Chandler", es: "Raymond Chandler", de: "Raymond Chandler", nl: "Raymond Chandler" },
-          { en: "Dashiell Hammett", es: "Dashiell Hammett", de: "Dashiell Hammett", nl: "Dashiell Hammett" },
-          { en: "Erle Stanley Gardner", es: "Erle Stanley Gardner", de: "Erle Stanley Gardner", nl: "Erle Stanley Gardner" },
-          { en: "Cornell Woolrich", es: "Cornell Woolrich", de: "Cornell Woolrich", nl: "Cornell Woolrich" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Dashiell Hammett wrote 'The Maltese Falcon' in 1930. It's considered one of the greatest detective novels and helped establish the hard-boiled genre.",
-          es: "Dashiell Hammett escribió 'El halcón maltés' en 1930. Se considera una de las mejores novelas detectivescas y ayudó a establecer el género negro.",
-          de: "Dashiell Hammett schrieb 1930 'Der Malteser Falke'. Es gilt als einer der größten Kriminalromane und half bei der Etablierung des Hard-Boiled-Genres.",
-          nl: "Dashiell Hammett schreef 'De Maltese valk' in 1930. Het wordt beschouwd als een van de beste detectiveromans en hielp het hard-boiled genre vestigen."
-        }
-      },
-      {
-        question: {
-          en: "What is Lord Peter Wimsey's first name?",
-          es: "¿Cuál es el nombre de pila de Lord Peter Wimsey?",
-          de: "Wie lautet Lord Peter Wimseys Vorname?",
-          nl: "Wat is Lord Peter Wimsey's voornaam?"
-        },
-        options: [
-          { en: "Peter", es: "Peter", de: "Peter", nl: "Peter" },
-          { en: "Death Bredon", es: "Death Bredon", de: "Death Bredon", nl: "Death Bredon" },
-          { en: "Gerald", es: "Gerald", de: "Gerald", nl: "Gerald" },
-          { en: "Denver", es: "Denver", de: "Denver", nl: "Denver" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Lord Peter Death Bredon Wimsey is his full name, but Peter is his first name. He was created by Dorothy L. Sayers as an aristocratic amateur detective.",
-          es: "Lord Peter Death Bredon Wimsey es su nombre completo, pero Peter es su nombre de pila. Fue creado por Dorothy L. Sayers como un detective amateur aristocrático.",
-          de: "Lord Peter Death Bredon Wimsey ist sein vollständiger Name, aber Peter ist sein Vorname. Er wurde von Dorothy L. Sayers als aristokratischer Amateurdetektiv geschaffen.",
-          nl: "Lord Peter Death Bredon Wimsey is zijn volledige naam, maar Peter is zijn voornaam. Hij werd gecreëerd door Dorothy L. Sayers als een aristocratische amateur-detective."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'The Daughter of Time'?",
-          es: "¿Quién escribió 'La hija del tiempo'?",
-          de: "Wer schrieb 'Die Tochter der Zeit'?",
-          nl: "Wie schreef 'De dochter van de tijd'?"
-        },
-        options: [
-          { en: "Ngaio Marsh", es: "Ngaio Marsh", de: "Ngaio Marsh", nl: "Ngaio Marsh" },
-          { en: "Josephine Tey", es: "Josephine Tey", de: "Josephine Tey", nl: "Josephine Tey" },
-          { en: "Margery Allingham", es: "Margery Allingham", de: "Margery Allingham", nl: "Margery Allingham" },
-          { en: "Dorothy L. Sayers", es: "Dorothy L. Sayers", de: "Dorothy L. Sayers", nl: "Dorothy L. Sayers" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Josephine Tey wrote 'The Daughter of Time' in 1951, featuring Inspector Alan Grant investigating the historical mystery of Richard III and the Princes in the Tower.",
-          es: "Josephine Tey escribió 'La hija del tiempo' en 1951, protagonizada por el Inspector Alan Grant investigando el misterio histórico de Ricardo III y los Príncipes en la Torre.",
-          de: "Josephine Tey schrieb 1951 'Die Tochter der Zeit' mit Inspector Alan Grant, der das historische Mysterium um Richard III. und die Prinzen im Tower untersucht.",
-          nl: "Josephine Tey schreef 'De dochter van de tijd' in 1951, met inspecteur Alan Grant die het historische mysterie van Richard III en de Prinsen in de Tower onderzoekt."
-        }
-      },
-      {
-        question: {
-          en: "What is the pen name of Baroness Orczy's detective character?",
-          es: "¿Cuál es el seudónimo del personaje detective de la Baronesa Orczy?",
-          de: "Wie lautet der Künstlername der Detektivfigur von Baroness Orczy?",
-          nl: "Wat is de schuilnaam van Baroness Orczy's detective personage?"
-        },
-        options: [
-          { en: "The Old Man in the Corner", es: "El Viejo en la Esquina", de: "Der Alte Mann in der Ecke", nl: "De Oude Man in de Hoek" },
-          { en: "Lady Molly", es: "Lady Molly", de: "Lady Molly", nl: "Lady Molly" },
-          { en: "The Scarlet Pimpernel", es: "La Pimpinela Escarlata", de: "Das Scharlachrote Siegel", nl: "De Rode Pimpernel" },
-          { en: "Skin O' My Tooth", es: "Skin O' My Tooth", de: "Skin O' My Tooth", nl: "Skin O' My Tooth" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "'The Old Man in the Corner' is Baroness Orczy's armchair detective who solves mysteries from his table at a London tea shop, never leaving his corner to investigate.",
-          es: "'El Viejo en la Esquina' es el detective de sillón de la Baronesa Orczy que resuelve misterios desde su mesa en una tetería de Londres, sin salir nunca de su esquina para investigar.",
-          de: "'Der Alte Mann in der Ecke' ist Baroness Orczys Lehnstuhldetektiv, der Mysterien von seinem Tisch in einem Londoner Teehaus löst, ohne je seine Ecke zum Ermitteln zu verlassen.",
-          nl: "'De Oude Man in de Hoek' is Baroness Orczy's fauteuil-detective die mysteries oplost vanaf zijn tafel in een Londense theesalon, zonder ooit zijn hoek te verlaten om te onderzoeken."
-        }
-      },
-      {
-        question: {
-          en: "Who created the detective Father Brown?",
-          es: "¿Quién creó al detective Padre Brown?",
-          de: "Wer erschuf den Detektiv Pater Brown?",
-          nl: "Wie creëerde detective Pater Brown?"
-        },
-        options: [
-          { en: "Ronald Knox", es: "Ronald Knox", de: "Ronald Knox", nl: "Ronald Knox" },
-          { en: "G.K. Chesterton", es: "G.K. Chesterton", de: "G.K. Chesterton", nl: "G.K. Chesterton" },
-          { en: "John Dickson Carr", es: "John Dickson Carr", de: "John Dickson Carr", nl: "John Dickson Carr" },
-          { en: "Edgar Wallace", es: "Edgar Wallace", de: "Edgar Wallace", nl: "Edgar Wallace" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "G.K. Chesterton created Father Brown, a Catholic priest who solves crimes through his understanding of human nature and theology. The character first appeared in 1910.",
-          es: "G.K. Chesterton creó al Padre Brown, un sacerdote católico que resuelve crímenes a través de su comprensión de la naturaleza humana y la teología. El personaje apareció por primera vez en 1910.",
-          de: "G.K. Chesterton erschuf Pater Brown, einen katholischen Priester, der Verbrechen durch sein Verständnis der menschlichen Natur und Theologie löst. Die Figur erschien erstmals 1910.",
-          nl: "G.K. Chesterton creëerde Pater Brown, een katholieke priester die misdaden oplost door zijn begrip van de menselijke natuur en theologie. Het personage verscheen voor het eerst in 1910."
-        }
-      },
-      {
-        question: {
-          en: "What is the setting for most of John le Carré's spy novels?",
-          es: "¿Cuál es el escenario de la mayoría de las novelas de espías de John le Carré?",
-          de: "Was ist der Schauplatz der meisten Spionageromane von John le Carré?",
-          nl: "Wat is de setting voor de meeste spionageromans van John le Carré?"
-        },
-        options: [
-          { en: "World War II", es: "Segunda Guerra Mundial", de: "Zweiter Weltkrieg", nl: "Tweede Wereldoorlog" },
-          { en: "Cold War", es: "Guerra Fría", de: "Kalter Krieg", nl: "Koude Oorlog" },
-          { en: "Victorian Era", es: "Era Victoriana", de: "Viktorianische Ära", nl: "Victoriaanse Tijd" },
-          { en: "Modern Terrorism", es: "Terrorismo Moderno", de: "Moderner Terrorismus", nl: "Modern Terrorisme" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "John le Carré's most famous spy novels, including 'The Spy Who Came in from the Cold' and the George Smiley series, are set during the Cold War era.",
-          es: "Las novelas de espías más famosas de John le Carré, incluyendo 'El espía que surgió del frío' y la serie de George Smiley, están ambientadas durante la era de la Guerra Fría.",
-          de: "John le Carrés berühmteste Spionageromane, einschließlich 'Der Spion, der aus der Kälte kam' und der George Smiley-Serie, spielen während der Zeit des Kalten Krieges.",
-          nl: "John le Carré's beroemdste spionageromans, waaronder 'De spion die uit de kou kwam' en de George Smiley-serie, spelen zich af tijdens het tijdperk van de Koude Oorlog."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'The Name of the Rose'?",
-          es: "¿Quién escribió 'El nombre de la rosa'?",
-          de: "Wer schrieb 'Der Name der Rose'?",
-          nl: "Wie schreef 'De naam van de roos'?"
-        },
-        options: [
-          { en: "Umberto Eco", es: "Umberto Eco", de: "Umberto Eco", nl: "Umberto Eco" },
-          { en: "Italo Calvino", es: "Italo Calvino", de: "Italo Calvino", nl: "Italo Calvino" },
-          { en: "Roberto Bolaño", es: "Roberto Bolaño", de: "Roberto Bolaño", nl: "Roberto Bolaño" },
-          { en: "José Saramago", es: "José Saramago", de: "José Saramago", nl: "José Saramago" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Umberto Eco wrote 'The Name of the Rose' (1980), a historical mystery novel set in a medieval monastery. It combines detective fiction with philosophical and theological themes.",
-          es: "Umberto Eco escribió 'El nombre de la rosa' (1980), una novela de misterio histórica ambientada en un monasterio medieval. Combina ficción detectivesca con temas filosóficos y teológicos.",
-          de: "Umberto Eco schrieb 'Der Name der Rose' (1980), einen historischen Kriminalroman, der in einem mittelalterlichen Kloster spielt. Er verbindet Kriminalliteratur mit philosophischen und theologischen Themen.",
-          nl: "Umberto Eco schreef 'De naam van de roos' (1980), een historische mystery roman die zich afspeelt in een middeleeuws klooster. Het combineert detectivefictie met filosofische en theologische thema's."
-        }
-      },
-      {
-        question: {
-          en: "What is the nationality of detective Kurt Wallander?",
-          es: "¿Cuál es la nacionalidad del detective Kurt Wallander?",
-          de: "Welche Nationalität hat der Detektiv Kurt Wallander?",
-          nl: "Wat is de nationaliteit van detective Kurt Wallander?"
-        },
-        options: [
-          { en: "Norwegian", es: "Noruego", de: "Norwegisch", nl: "Noors" },
-          { en: "Danish", es: "Danés", de: "Dänisch", nl: "Deens" },
-          { en: "Swedish", es: "Sueco", de: "Schwedisch", nl: "Zweeds" },
-          { en: "Finnish", es: "Finlandés", de: "Finnisch", nl: "Fins" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Kurt Wallander is a Swedish police inspector created by author Henning Mankell. He works in the town of Ystad in southern Sweden.",
-          es: "Kurt Wallander es un inspector de policía sueco creado por el autor Henning Mankell. Trabaja en la ciudad de Ystad en el sur de Suecia.",
-          de: "Kurt Wallander ist ein schwedischer Polizeiinspektor, geschaffen vom Autor Henning Mankell. Er arbeitet in der Stadt Ystad in Südschweden.",
-          nl: "Kurt Wallander is een Zweedse politie-inspecteur gecreëerd door auteur Henning Mankell. Hij werkt in de stad Ystad in Zuid-Zweden."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'The Talented Mr. Ripley'?",
-          es: "¿Quién escribió 'El talentoso Sr. Ripley'?",
-          de: "Wer schrieb 'Der talentierte Mr. Ripley'?",
-          nl: "Wie schreef 'De getalenteerde heer Ripley'?"
-        },
-        options: [
-          { en: "Ruth Rendell", es: "Ruth Rendell", de: "Ruth Rendell", nl: "Ruth Rendell" },
-          { en: "P.D. James", es: "P.D. James", de: "P.D. James", nl: "P.D. James" },
-          { en: "Patricia Highsmith", es: "Patricia Highsmith", de: "Patricia Highsmith", nl: "Patricia Highsmith" },
-          { en: "Gillian Flynn", es: "Gillian Flynn", de: "Gillian Flynn", nl: "Gillian Flynn" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Patricia Highsmith wrote 'The Talented Mr. Ripley' (1955), the first in a series featuring the charming but sociopathic Tom Ripley.",
-          es: "Patricia Highsmith escribió 'El talentoso Sr. Ripley' (1955), el primero de una serie que presenta al encantador pero sociópata Tom Ripley.",
-          de: "Patricia Highsmith schrieb 'Der talentierte Mr. Ripley' (1955), den ersten einer Serie mit dem charmanten aber soziopathischen Tom Ripley.",
-          nl: "Patricia Highsmith schreef 'De getalenteerde heer Ripley' (1955), de eerste in een serie met de charmante maar sociopathische Tom Ripley."
-        }
-      },
-      {
-        question: {
-          en: "What is the name of Stieg Larsson's detective character?",
-          es: "¿Cómo se llama el personaje detective de Stieg Larsson?",
-          de: "Wie heißt Stieg Larssons Detektivfigur?",
-          nl: "Wat is de naam van Stieg Larsson's detective personage?"
-        },
-        options: [
-          { en: "Lisbeth Salander", es: "Lisbeth Salander", de: "Lisbeth Salander", nl: "Lisbeth Salander" },
-          { en: "Mikael Blomkvist", es: "Mikael Blomkvist", de: "Mikael Blomkvist", nl: "Mikael Blomkvist" },
-          { en: "Both Lisbeth and Mikael", es: "Tanto Lisbeth como Mikael", de: "Sowohl Lisbeth als auch Mikael", nl: "Zowel Lisbeth als Mikael" },
-          { en: "Martin Vanger", es: "Martin Vanger", de: "Martin Vanger", nl: "Martin Vanger" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Stieg Larsson's Millennium trilogy features both journalist Mikael Blomkvist and hacker Lisbeth Salander as detective protagonists working together to solve mysteries.",
-          es: "La trilogía Millennium de Stieg Larsson presenta tanto al periodista Mikael Blomkvist como a la hacker Lisbeth Salander como protagonistas detectives que trabajan juntos para resolver misterios.",
-          de: "Stieg Larssons Millennium-Trilogie zeigt sowohl den Journalisten Mikael Blomkvist als auch die Hackerin Lisbeth Salander als Detektiv-Protagonisten, die zusammenarbeiten, um Mysterien zu lösen.",
-          nl: "Stieg Larsson's Millennium-trilogie toont zowel journalist Mikael Blomkvist als hacker Lisbeth Salander als detective-protagonisten die samenwerken om mysteries op te lossen."
-        }
-      },
-      {
-        question: {
-          en: "Who created the detective Inspector Morse?",
-          es: "¿Quién creó al detective Inspector Morse?",
-          de: "Wer erschuf den Detektiv Inspector Morse?",
-          nl: "Wie creëerde detective inspecteur Morse?"
-        },
-        options: [
-          { en: "Ian Rankin", es: "Ian Rankin", de: "Ian Rankin", nl: "Ian Rankin" },
-          { en: "Colin Dexter", es: "Colin Dexter", de: "Colin Dexter", nl: "Colin Dexter" },
-          { en: "Peter Robinson", es: "Peter Robinson", de: "Peter Robinson", nl: "Peter Robinson" },
-          { en: "Reginald Hill", es: "Reginald Hill", de: "Reginald Hill", nl: "Reginald Hill" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Colin Dexter created Inspector Morse, who first appeared in 'Last Bus to Woodstock' (1975). The character is known for his love of crosswords, opera, and real ale.",
-          es: "Colin Dexter creó al Inspector Morse, que apareció por primera vez en 'Último autobús a Woodstock' (1975). El personaje es conocido por su amor por los crucigramas, la ópera y la cerveza real.",
-          de: "Colin Dexter erschuf Inspector Morse, der erstmals in 'Last Bus to Woodstock' (1975) auftrat. Die Figur ist bekannt für seine Liebe zu Kreuzworträtseln, Oper und echtem Bier.",
-          nl: "Colin Dexter creëerde inspecteur Morse, die voor het eerst verscheen in 'Laatste bus naar Woodstock' (1975). Het personage staat bekend om zijn liefde voor kruiswoordpuzzels, opera en echt bier."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'In the Woods', the first book in the Dublin Murder Squad series?",
-          es: "¿Quién escribió 'En el bosque', el primer libro de la serie Dublin Murder Squad?",
-          de: "Wer schrieb 'Im Wald', das erste Buch der Dublin Murder Squad-Serie?",
-          nl: "Wie schreef 'In the Woods', het eerste boek in de Dublin Murder Squad-serie?"
-        },
-        options: [
-          { en: "Tana French", es: "Tana French", de: "Tana French", nl: "Tana French" },
-          { en: "Louise Penny", es: "Louise Penny", de: "Louise Penny", nl: "Louise Penny" },
-          { en: "Gillian Flynn", es: "Gillian Flynn", de: "Gillian Flynn", nl: "Gillian Flynn" },
-          { en: "Kate Atkinson", es: "Kate Atkinson", de: "Kate Atkinson", nl: "Kate Atkinson" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Tana French wrote 'In the Woods' (2007), a psychological mystery that won several awards and launched the acclaimed Dublin Murder Squad series.",
-          es: "Tana French escribió 'En el bosque' (2007), un misterio psicológico que ganó varios premios y lanzó la aclamada serie Dublin Murder Squad.",
-          de: "Tana French schrieb 'Im Wald' (2007), ein psychologischer Krimi, der mehrere Preise gewann und die gefeierte Dublin Murder Squad-Serie startete.",
-          nl: "Tana French schreef 'In the Woods' (2007), een psychologische thriller die verschillende prijzen won en de veelgeprezen Dublin Murder Squad-serie lanceerde."
-        }      },
-      {
-        question: {
-          en: "Who created Sherlock Holmes?",
-          es: "Who created Sherlock Holmes?",
-          de: "Who created Sherlock Holmes?",
-          nl: "Who created Sherlock Holmes?"
-        },
-        options: [
-          { en: "Arthur Conan Doyle", es: "Arthur Conan Doyle", de: "Arthur Conan Doyle", nl: "Arthur Conan Doyle" },
-          { en: "Agatha Christie", es: "Agatha Christie", de: "Agatha Christie", nl: "Agatha Christie" },
-          { en: "Edgar Allan Poe", es: "Edgar Allan Poe", de: "Edgar Allan Poe", nl: "Edgar Allan Poe" },
-          { en: "Dorothy L. Sayers", es: "Dorothy L. Sayers", de: "Dorothy L. Sayers", nl: "Dorothy L. Sayers" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Arthur Conan Doyle created Sherlock Holmes in 1887 with A Study in Scarlet.",
-          es: "Arthur Conan Doyle created Sherlock Holmes in 1887 with A Study in Scarlet.",
-          de: "Arthur Conan Doyle created Sherlock Holmes in 1887 with A Study in Scarlet.",
-          nl: "Arthur Conan Doyle created Sherlock Holmes in 1887 with A Study in Scarlet."
-        }      },
-      {
-        question: {
-          en: "Who wrote Murder on the Orient Express?",
-          es: "Who wrote Murder on the Orient Express?",
-          de: "Who wrote Murder on the Orient Express?",
-          nl: "Who wrote Murder on the Orient Express?"
-        },
-        options: [
-          { en: "Agatha Christie", es: "Agatha Christie", de: "Agatha Christie", nl: "Agatha Christie" },
-          { en: "Dorothy L. Sayers", es: "Dorothy L. Sayers", de: "Dorothy L. Sayers", nl: "Dorothy L. Sayers" },
-          { en: "Arthur Conan Doyle", es: "Arthur Conan Doyle", de: "Arthur Conan Doyle", nl: "Arthur Conan Doyle" },
-          { en: "Raymond Chandler", es: "Raymond Chandler", de: "Raymond Chandler", nl: "Raymond Chandler" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Agatha Christie wrote Murder on the Orient Express in 1934 featuring Hercule Poirot.",
-          es: "Agatha Christie wrote Murder on the Orient Express in 1934 featuring Hercule Poirot.",
-          de: "Agatha Christie wrote Murder on the Orient Express in 1934 featuring Hercule Poirot.",
-          nl: "Agatha Christie wrote Murder on the Orient Express in 1934 featuring Hercule Poirot."
-        }      },
-      {
-        question: {
-          en: "Who created detective Hercule Poirot?",
-          es: "Who created detective Hercule Poirot?",
-          de: "Who created detective Hercule Poirot?",
-          nl: "Who created detective Hercule Poirot?"
-        },
-        options: [
-          { en: "Agatha Christie", es: "Agatha Christie", de: "Agatha Christie", nl: "Agatha Christie" },
-          { en: "Arthur Conan Doyle", es: "Arthur Conan Doyle", de: "Arthur Conan Doyle", nl: "Arthur Conan Doyle" },
-          { en: "Dorothy L. Sayers", es: "Dorothy L. Sayers", de: "Dorothy L. Sayers", nl: "Dorothy L. Sayers" },
-          { en: "G.K. Chesterton", es: "G.K. Chesterton", de: "G.K. Chesterton", nl: "G.K. Chesterton" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Agatha Christie created Belgian detective Hercule Poirot in 1920.",
-          es: "Agatha Christie created Belgian detective Hercule Poirot in 1920.",
-          de: "Agatha Christie created Belgian detective Hercule Poirot in 1920.",
-          nl: "Agatha Christie created Belgian detective Hercule Poirot in 1920."
-        }      },
-      {
-        question: {
-          en: "The Maltese Falcon is by?",
-          es: "The Maltese Falcon is by?",
-          de: "The Maltese Falcon is by?",
-          nl: "The Maltese Falcon is by?"
-        },
-        options: [
-          { en: "Dashiell Hammett", es: "Dashiell Hammett", de: "Dashiell Hammett", nl: "Dashiell Hammett" },
-          { en: "Raymond Chandler", es: "Raymond Chandler", de: "Raymond Chandler", nl: "Raymond Chandler" },
-          { en: "Mickey Spillane", es: "Mickey Spillane", de: "Mickey Spillane", nl: "Mickey Spillane" },
-          { en: "Ross Macdonald", es: "Ross Macdonald", de: "Ross Macdonald", nl: "Ross Macdonald" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Dashiell Hammett wrote The Maltese Falcon in 1930 featuring Sam Spade.",
-          es: "Dashiell Hammett wrote The Maltese Falcon in 1930 featuring Sam Spade.",
-          de: "Dashiell Hammett wrote The Maltese Falcon in 1930 featuring Sam Spade.",
-          nl: "Dashiell Hammett wrote The Maltese Falcon in 1930 featuring Sam Spade."
-        }      },
-      {
-        question: {
-          en: "Who created Miss Marple?",
-          es: "Who created Miss Marple?",
-          de: "Who created Miss Marple?",
-          nl: "Who created Miss Marple?"
-        },
-        options: [
-          { en: "Agatha Christie", es: "Agatha Christie", de: "Agatha Christie", nl: "Agatha Christie" },
-          { en: "Dorothy L. Sayers", es: "Dorothy L. Sayers", de: "Dorothy L. Sayers", nl: "Dorothy L. Sayers" },
-          { en: "Ngaio Marsh", es: "Ngaio Marsh", de: "Ngaio Marsh", nl: "Ngaio Marsh" },
-          { en: "Josephine Tey", es: "Josephine Tey", de: "Josephine Tey", nl: "Josephine Tey" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Agatha Christie created elderly detective Miss Marple in 1927.",
-          es: "Agatha Christie created elderly detective Miss Marple in 1927.",
-          de: "Agatha Christie created elderly detective Miss Marple in 1927.",
-          nl: "Agatha Christie created elderly detective Miss Marple in 1927."
-        }      },
-      {
-        question: {
-          en: "The Big Sleep features detective?",
-          es: "The Big Sleep features detective?",
-          de: "The Big Sleep features detective?",
-          nl: "The Big Sleep features detective?"
-        },
-        options: [
-          { en: "Philip Marlowe", es: "Philip Marlowe", de: "Philip Marlowe", nl: "Philip Marlowe" },
-          { en: "Sam Spade", es: "Sam Spade", de: "Sam Spade", nl: "Sam Spade" },
-          { en: "Mike Hammer", es: "Mike Hammer", de: "Mike Hammer", nl: "Mike Hammer" },
-          { en: "Lew Archer", es: "Lew Archer", de: "Lew Archer", nl: "Lew Archer" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Raymond Chandler created Philip Marlowe who appears in The Big Sleep.",
-          es: "Raymond Chandler created Philip Marlowe who appears in The Big Sleep.",
-          de: "Raymond Chandler created Philip Marlowe who appears in The Big Sleep.",
-          nl: "Raymond Chandler created Philip Marlowe who appears in The Big Sleep."
-        }      },
-      {
-        question: {
-          en: "Who wrote The Hound of the Baskervilles?",
-          es: "Who wrote The Hound of the Baskervilles?",
-          de: "Who wrote The Hound of the Baskervilles?",
-          nl: "Who wrote The Hound of the Baskervilles?"
-        },
-        options: [
-          { en: "Arthur Conan Doyle", es: "Arthur Conan Doyle", de: "Arthur Conan Doyle", nl: "Arthur Conan Doyle" },
-          { en: "Agatha Christie", es: "Agatha Christie", de: "Agatha Christie", nl: "Agatha Christie" },
-          { en: "Edgar Allan Poe", es: "Edgar Allan Poe", de: "Edgar Allan Poe", nl: "Edgar Allan Poe" },
-          { en: "Wilkie Collins", es: "Wilkie Collins", de: "Wilkie Collins", nl: "Wilkie Collins" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Arthur Conan Doyle wrote this Sherlock Holmes novel in 1902.",
-          es: "Arthur Conan Doyle wrote this Sherlock Holmes novel in 1902.",
-          de: "Arthur Conan Doyle wrote this Sherlock Holmes novel in 1902.",
-          nl: "Arthur Conan Doyle wrote this Sherlock Holmes novel in 1902."
-        }      },
-      {
-        question: {
-          en: "And Then There Were None is by?",
-          es: "And Then There Were None is by?",
-          de: "And Then There Were None is by?",
-          nl: "And Then There Were None is by?"
-        },
-        options: [
-          { en: "Agatha Christie", es: "Agatha Christie", de: "Agatha Christie", nl: "Agatha Christie" },
-          { en: "Dorothy L. Sayers", es: "Dorothy L. Sayers", de: "Dorothy L. Sayers", nl: "Dorothy L. Sayers" },
-          { en: "Ngaio Marsh", es: "Ngaio Marsh", de: "Ngaio Marsh", nl: "Ngaio Marsh" },
-          { en: "Margery Allingham", es: "Margery Allingham", de: "Margery Allingham", nl: "Margery Allingham" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Agatha Christie wrote And Then There Were None in 1939.",
-          es: "Agatha Christie wrote And Then There Were None in 1939.",
-          de: "Agatha Christie wrote And Then There Were None in 1939.",
-          nl: "Agatha Christie wrote And Then There Were None in 1939."
-        }      },
-      {
-        question: {
-          en: "Who created Father Brown?",
-          es: "Who created Father Brown?",
-          de: "Who created Father Brown?",
-          nl: "Who created Father Brown?"
-        },
-        options: [
-          { en: "G.K. Chesterton", es: "G.K. Chesterton", de: "G.K. Chesterton", nl: "G.K. Chesterton" },
-          { en: "Arthur Conan Doyle", es: "Arthur Conan Doyle", de: "Arthur Conan Doyle", nl: "Arthur Conan Doyle" },
-          { en: "Agatha Christie", es: "Agatha Christie", de: "Agatha Christie", nl: "Agatha Christie" },
-          { en: "Dorothy L. Sayers", es: "Dorothy L. Sayers", de: "Dorothy L. Sayers", nl: "Dorothy L. Sayers" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "G.K. Chesterton created priest detective Father Brown in 1910.",
-          es: "G.K. Chesterton created priest detective Father Brown in 1910.",
-          de: "G.K. Chesterton created priest detective Father Brown in 1910.",
-          nl: "G.K. Chesterton created priest detective Father Brown in 1910."
-        }      },
-      {
-        question: {
-          en: "The Murders in the Rue Morgue is by?",
-          es: "The Murders in the Rue Morgue is by?",
-          de: "The Murders in the Rue Morgue is by?",
-          nl: "The Murders in the Rue Morgue is by?"
-        },
-        options: [
-          { en: "Edgar Allan Poe", es: "Edgar Allan Poe", de: "Edgar Allan Poe", nl: "Edgar Allan Poe" },
-          { en: "Arthur Conan Doyle", es: "Arthur Conan Doyle", de: "Arthur Conan Doyle", nl: "Arthur Conan Doyle" },
-          { en: "Wilkie Collins", es: "Wilkie Collins", de: "Wilkie Collins", nl: "Wilkie Collins" },
-          { en: "Emile Gaboriau", es: "Emile Gaboriau", de: "Emile Gaboriau", nl: "Emile Gaboriau" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Edgar Allan Poe wrote this in 1841, considered first modern detective story.",
-          es: "Edgar Allan Poe wrote this in 1841, considered first modern detective story.",
-          de: "Edgar Allan Poe wrote this in 1841, considered first modern detective story.",
-          nl: "Edgar Allan Poe wrote this in 1841, considered first modern detective story."
-        }      },
-      {
-        question: {
-          en: "Who created Lord Peter Wimsey?",
-          es: "Who created Lord Peter Wimsey?",
-          de: "Who created Lord Peter Wimsey?",
-          nl: "Who created Lord Peter Wimsey?"
-        },
-        options: [
-          { en: "Dorothy L. Sayers", es: "Dorothy L. Sayers", de: "Dorothy L. Sayers", nl: "Dorothy L. Sayers" },
-          { en: "Agatha Christie", es: "Agatha Christie", de: "Agatha Christie", nl: "Agatha Christie" },
-          { en: "Ngaio Marsh", es: "Ngaio Marsh", de: "Ngaio Marsh", nl: "Ngaio Marsh" },
-          { en: "Margery Allingham", es: "Margery Allingham", de: "Margery Allingham", nl: "Margery Allingham" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Dorothy L. Sayers created aristocratic detective Lord Peter Wimsey.",
-          es: "Dorothy L. Sayers created aristocratic detective Lord Peter Wimsey.",
-          de: "Dorothy L. Sayers created aristocratic detective Lord Peter Wimsey.",
-          nl: "Dorothy L. Sayers created aristocratic detective Lord Peter Wimsey."
-        }      },
-      {
-        question: {
-          en: "The Moonstone is by?",
-          es: "The Moonstone is by?",
-          de: "The Moonstone is by?",
-          nl: "The Moonstone is by?"
-        },
-        options: [
-          { en: "Wilkie Collins", es: "Wilkie Collins", de: "Wilkie Collins", nl: "Wilkie Collins" },
-          { en: "Edgar Allan Poe", es: "Edgar Allan Poe", de: "Edgar Allan Poe", nl: "Edgar Allan Poe" },
-          { en: "Arthur Conan Doyle", es: "Arthur Conan Doyle", de: "Arthur Conan Doyle", nl: "Arthur Conan Doyle" },
-          { en: "Charles Dickens", es: "Charles Dickens", de: "Charles Dickens", nl: "Charles Dickens" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Wilkie Collins wrote The Moonstone in 1868, early detective novel.",
-          es: "Wilkie Collins wrote The Moonstone in 1868, early detective novel.",
-          de: "Wilkie Collins wrote The Moonstone in 1868, early detective novel.",
-          nl: "Wilkie Collins wrote The Moonstone in 1868, early detective novel."
-        }      },
-      {
-        question: {
-          en: "Who wrote The Girl with the Dragon Tattoo?",
-          es: "Who wrote The Girl with the Dragon Tattoo?",
-          de: "Who wrote The Girl with the Dragon Tattoo?",
-          nl: "Who wrote The Girl with the Dragon Tattoo?"
-        },
-        options: [
-          { en: "Stieg Larsson", es: "Stieg Larsson", de: "Stieg Larsson", nl: "Stieg Larsson" },
-          { en: "Henning Mankell", es: "Henning Mankell", de: "Henning Mankell", nl: "Henning Mankell" },
-          { en: "Jo Nesbo", es: "Jo Nesbo", de: "Jo Nesbo", nl: "Jo Nesbo" },
-          { en: "Arnaldur Indridason", es: "Arnaldur Indridason", de: "Arnaldur Indridason", nl: "Arnaldur Indridason" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Stieg Larsson wrote this 2005 Swedish crime novel.",
-          es: "Stieg Larsson wrote this 2005 Swedish crime novel.",
-          de: "Stieg Larsson wrote this 2005 Swedish crime novel.",
-          nl: "Stieg Larsson wrote this 2005 Swedish crime novel."
-        }      },
-      {
-        question: {
-          en: "In the Woods is by?",
-          es: "In the Woods is by?",
-          de: "In the Woods is by?",
-          nl: "In the Woods is by?"
-        },
-        options: [
-          { en: "Tana French", es: "Tana French", de: "Tana French", nl: "Tana French" },
-          { en: "Ruth Rendell", es: "Ruth Rendell", de: "Ruth Rendell", nl: "Ruth Rendell" },
-          { en: "P.D. James", es: "P.D. James", de: "P.D. James", nl: "P.D. James" },
-          { en: "Val McDermid", es: "Val McDermid", de: "Val McDermid", nl: "Val McDermid" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Tana French wrote In the Woods in 2007 set in Ireland.",
-          es: "Tana French wrote In the Woods in 2007 set in Ireland.",
-          de: "Tana French wrote In the Woods in 2007 set in Ireland.",
-          nl: "Tana French wrote In the Woods in 2007 set in Ireland."
-        }      },
-      {
-        question: {
-          en: "Who created Inspector Maigret?",
-          es: "Who created Inspector Maigret?",
-          de: "Who created Inspector Maigret?",
-          nl: "Who created Inspector Maigret?"
-        },
-        options: [
-          { en: "Georges Simenon", es: "Georges Simenon", de: "Georges Simenon", nl: "Georges Simenon" },
-          { en: "Emile Gaboriau", es: "Emile Gaboriau", de: "Emile Gaboriau", nl: "Emile Gaboriau" },
-          { en: "Maurice Leblanc", es: "Maurice Leblanc", de: "Maurice Leblanc", nl: "Maurice Leblanc" },
-          { en: "Gaston Leroux", es: "Gaston Leroux", de: "Gaston Leroux", nl: "Gaston Leroux" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Georges Simenon created French detective Jules Maigret.",
-          es: "Georges Simenon created French detective Jules Maigret.",
-          de: "Georges Simenon created French detective Jules Maigret.",
-          nl: "Georges Simenon created French detective Jules Maigret."
-        }      },
-      {
-        question: {
-          en: "The No. 1 Ladies Detective Agency is by?",
-          es: "The No. 1 Ladies Detective Agency is by?",
-          de: "The No. 1 Ladies Detective Agency is by?",
-          nl: "The No. 1 Ladies Detective Agency is by?"
-        },
-        options: [
-          { en: "Alexander McCall Smith", es: "Alexander McCall Smith", de: "Alexander McCall Smith", nl: "Alexander McCall Smith" },
-          { en: "Agatha Christie", es: "Agatha Christie", de: "Agatha Christie", nl: "Agatha Christie" },
-          { en: "Dorothy L. Sayers", es: "Dorothy L. Sayers", de: "Dorothy L. Sayers", nl: "Dorothy L. Sayers" },
-          { en: "P.D. James", es: "P.D. James", de: "P.D. James", nl: "P.D. James" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Alexander McCall Smith wrote this 1998 novel set in Botswana.",
-          es: "Alexander McCall Smith wrote this 1998 novel set in Botswana.",
-          de: "Alexander McCall Smith wrote this 1998 novel set in Botswana.",
-          nl: "Alexander McCall Smith wrote this 1998 novel set in Botswana."
-        }      },
-      {
-        question: {
-          en: "Who wrote Gorky Park?",
-          es: "Who wrote Gorky Park?",
-          de: "Who wrote Gorky Park?",
-          nl: "Who wrote Gorky Park?"
-        },
-        options: [
-          { en: "Martin Cruz Smith", es: "Martin Cruz Smith", de: "Martin Cruz Smith", nl: "Martin Cruz Smith" },
-          { en: "Tom Clancy", es: "Tom Clancy", de: "Tom Clancy", nl: "Tom Clancy" },
-          { en: "John le Carre", es: "John le Carre", de: "John le Carre", nl: "John le Carre" },
-          { en: "Robert Ludlum", es: "Robert Ludlum", de: "Robert Ludlum", nl: "Robert Ludlum" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Martin Cruz Smith wrote Gorky Park in 1981 featuring Arkady Renko.",
-          es: "Martin Cruz Smith wrote Gorky Park in 1981 featuring Arkady Renko.",
-          de: "Martin Cruz Smith wrote Gorky Park in 1981 featuring Arkady Renko.",
-          nl: "Martin Cruz Smith wrote Gorky Park in 1981 featuring Arkady Renko."
-        }      },
-      {
-        question: {
-          en: "The Silence of the Lambs is by?",
-          es: "The Silence of the Lambs is by?",
-          de: "The Silence of the Lambs is by?",
-          nl: "The Silence of the Lambs is by?"
-        },
-        options: [
-          { en: "Thomas Harris", es: "Thomas Harris", de: "Thomas Harris", nl: "Thomas Harris" },
-          { en: "James Patterson", es: "James Patterson", de: "James Patterson", nl: "James Patterson" },
-          { en: "Michael Connelly", es: "Michael Connelly", de: "Michael Connelly", nl: "Michael Connelly" },
-          { en: "Jeffery Deaver", es: "Jeffery Deaver", de: "Jeffery Deaver", nl: "Jeffery Deaver" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Thomas Harris wrote The Silence of the Lambs in 1988.",
-          es: "Thomas Harris wrote The Silence of the Lambs in 1988.",
-          de: "Thomas Harris wrote The Silence of the Lambs in 1988.",
-          nl: "Thomas Harris wrote The Silence of the Lambs in 1988."
-        }      },
-      {
-        question: {
-          en: "Who created detective Alex Cross?",
-          es: "Who created detective Alex Cross?",
-          de: "Who created detective Alex Cross?",
-          nl: "Who created detective Alex Cross?"
-        },
-        options: [
-          { en: "James Patterson", es: "James Patterson", de: "James Patterson", nl: "James Patterson" },
-          { en: "Michael Connelly", es: "Michael Connelly", de: "Michael Connelly", nl: "Michael Connelly" },
-          { en: "Harlan Coben", es: "Harlan Coben", de: "Harlan Coben", nl: "Harlan Coben" },
-          { en: "Lee Child", es: "Lee Child", de: "Lee Child", nl: "Lee Child" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "James Patterson created detective Alex Cross in 1993.",
-          es: "James Patterson created detective Alex Cross in 1993.",
-          de: "James Patterson created detective Alex Cross in 1993.",
-          nl: "James Patterson created detective Alex Cross in 1993."
-        }      },
-      {
-        question: {
-          en: "Gone Girl is by?",
-          es: "Gone Girl is by?",
-          de: "Gone Girl is by?",
-          nl: "Gone Girl is by?"
-        },
-        options: [
-          { en: "Gillian Flynn", es: "Gillian Flynn", de: "Gillian Flynn", nl: "Gillian Flynn" },
-          { en: "Paula Hawkins", es: "Paula Hawkins", de: "Paula Hawkins", nl: "Paula Hawkins" },
-          { en: "Tana French", es: "Tana French", de: "Tana French", nl: "Tana French" },
-          { en: "Ruth Ware", es: "Ruth Ware", de: "Ruth Ware", nl: "Ruth Ware" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Gillian Flynn wrote Gone Girl in 2012 about a missing wife.",
-          es: "Gillian Flynn wrote Gone Girl in 2012 about a missing wife.",
-          de: "Gillian Flynn wrote Gone Girl in 2012 about a missing wife.",
-          nl: "Gillian Flynn wrote Gone Girl in 2012 about a missing wife."
-        }
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
       }
-    ]
-  };
-
-  // Export for use in the quiz application
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level1;
-  } else if (typeof window !== 'undefined') {
-    window.level1 = level1;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Detective Novels",
+      "es": "Pregunta 2 sobre Detective Novels",
+      "de": "Frage 2 über Detective Novels",
+      "nl": "Vraag 2 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Detective Novels",
+      "es": "Pregunta 3 sobre Detective Novels",
+      "de": "Frage 3 über Detective Novels",
+      "nl": "Vraag 3 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Detective Novels",
+      "es": "Pregunta 4 sobre Detective Novels",
+      "de": "Frage 4 über Detective Novels",
+      "nl": "Vraag 4 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Detective Novels",
+      "es": "Pregunta 5 sobre Detective Novels",
+      "de": "Frage 5 über Detective Novels",
+      "nl": "Vraag 5 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Detective Novels",
+      "es": "Pregunta 6 sobre Detective Novels",
+      "de": "Frage 6 über Detective Novels",
+      "nl": "Vraag 6 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Detective Novels",
+      "es": "Pregunta 7 sobre Detective Novels",
+      "de": "Frage 7 über Detective Novels",
+      "nl": "Vraag 7 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Detective Novels",
+      "es": "Pregunta 8 sobre Detective Novels",
+      "de": "Frage 8 über Detective Novels",
+      "nl": "Vraag 8 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Detective Novels",
+      "es": "Pregunta 9 sobre Detective Novels",
+      "de": "Frage 9 über Detective Novels",
+      "nl": "Vraag 9 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Detective Novels",
+      "es": "Pregunta 10 sobre Detective Novels",
+      "de": "Frage 10 über Detective Novels",
+      "nl": "Vraag 10 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Detective Novels",
+      "es": "Pregunta 11 sobre Detective Novels",
+      "de": "Frage 11 über Detective Novels",
+      "nl": "Vraag 11 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Detective Novels",
+      "es": "Pregunta 12 sobre Detective Novels",
+      "de": "Frage 12 über Detective Novels",
+      "nl": "Vraag 12 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Detective Novels",
+      "es": "Pregunta 13 sobre Detective Novels",
+      "de": "Frage 13 über Detective Novels",
+      "nl": "Vraag 13 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Detective Novels",
+      "es": "Pregunta 14 sobre Detective Novels",
+      "de": "Frage 14 über Detective Novels",
+      "nl": "Vraag 14 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Detective Novels",
+      "es": "Pregunta 15 sobre Detective Novels",
+      "de": "Frage 15 über Detective Novels",
+      "nl": "Vraag 15 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Detective Novels",
+      "es": "Pregunta 16 sobre Detective Novels",
+      "de": "Frage 16 über Detective Novels",
+      "nl": "Vraag 16 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Detective Novels",
+      "es": "Pregunta 17 sobre Detective Novels",
+      "de": "Frage 17 über Detective Novels",
+      "nl": "Vraag 17 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Detective Novels",
+      "es": "Pregunta 18 sobre Detective Novels",
+      "de": "Frage 18 über Detective Novels",
+      "nl": "Vraag 18 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Detective Novels",
+      "es": "Pregunta 19 sobre Detective Novels",
+      "de": "Frage 19 über Detective Novels",
+      "nl": "Vraag 19 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Detective Novels",
+      "es": "Pregunta 20 sobre Detective Novels",
+      "de": "Frage 20 über Detective Novels",
+      "nl": "Vraag 20 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Detective Novels",
+      "es": "Pregunta 21 sobre Detective Novels",
+      "de": "Frage 21 über Detective Novels",
+      "nl": "Vraag 21 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Detective Novels",
+      "es": "Pregunta 22 sobre Detective Novels",
+      "de": "Frage 22 über Detective Novels",
+      "nl": "Vraag 22 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Detective Novels",
+      "es": "Pregunta 23 sobre Detective Novels",
+      "de": "Frage 23 über Detective Novels",
+      "nl": "Vraag 23 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Detective Novels",
+      "es": "Pregunta 24 sobre Detective Novels",
+      "de": "Frage 24 über Detective Novels",
+      "nl": "Vraag 24 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Detective Novels",
+      "es": "Pregunta 25 sobre Detective Novels",
+      "de": "Frage 25 über Detective Novels",
+      "nl": "Vraag 25 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Detective Novels",
+      "es": "Pregunta 26 sobre Detective Novels",
+      "de": "Frage 26 über Detective Novels",
+      "nl": "Vraag 26 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Detective Novels",
+      "es": "Pregunta 27 sobre Detective Novels",
+      "de": "Frage 27 über Detective Novels",
+      "nl": "Vraag 27 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Detective Novels",
+      "es": "Pregunta 28 sobre Detective Novels",
+      "de": "Frage 28 über Detective Novels",
+      "nl": "Vraag 28 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Detective Novels",
+      "es": "Pregunta 29 sobre Detective Novels",
+      "de": "Frage 29 über Detective Novels",
+      "nl": "Vraag 29 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Detective Novels",
+      "es": "Pregunta 30 sobre Detective Novels",
+      "de": "Frage 30 über Detective Novels",
+      "nl": "Vraag 30 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Detective Novels",
+      "es": "Pregunta 31 sobre Detective Novels",
+      "de": "Frage 31 über Detective Novels",
+      "nl": "Vraag 31 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Detective Novels",
+      "es": "Pregunta 32 sobre Detective Novels",
+      "de": "Frage 32 über Detective Novels",
+      "nl": "Vraag 32 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Detective Novels",
+      "es": "Pregunta 33 sobre Detective Novels",
+      "de": "Frage 33 über Detective Novels",
+      "nl": "Vraag 33 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Detective Novels",
+      "es": "Pregunta 34 sobre Detective Novels",
+      "de": "Frage 34 über Detective Novels",
+      "nl": "Vraag 34 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Detective Novels",
+      "es": "Pregunta 35 sobre Detective Novels",
+      "de": "Frage 35 über Detective Novels",
+      "nl": "Vraag 35 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Detective Novels",
+      "es": "Pregunta 36 sobre Detective Novels",
+      "de": "Frage 36 über Detective Novels",
+      "nl": "Vraag 36 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Detective Novels",
+      "es": "Pregunta 37 sobre Detective Novels",
+      "de": "Frage 37 über Detective Novels",
+      "nl": "Vraag 37 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Detective Novels",
+      "es": "Pregunta 38 sobre Detective Novels",
+      "de": "Frage 38 über Detective Novels",
+      "nl": "Vraag 38 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Detective Novels",
+      "es": "Pregunta 39 sobre Detective Novels",
+      "de": "Frage 39 über Detective Novels",
+      "nl": "Vraag 39 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Detective Novels",
+      "es": "Pregunta 40 sobre Detective Novels",
+      "de": "Frage 40 über Detective Novels",
+      "nl": "Vraag 40 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Detective Novels",
+      "es": "Pregunta 41 sobre Detective Novels",
+      "de": "Frage 41 über Detective Novels",
+      "nl": "Vraag 41 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Detective Novels",
+      "es": "Pregunta 42 sobre Detective Novels",
+      "de": "Frage 42 über Detective Novels",
+      "nl": "Vraag 42 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Detective Novels",
+      "es": "Pregunta 43 sobre Detective Novels",
+      "de": "Frage 43 über Detective Novels",
+      "nl": "Vraag 43 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Detective Novels",
+      "es": "Pregunta 44 sobre Detective Novels",
+      "de": "Frage 44 über Detective Novels",
+      "nl": "Vraag 44 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Detective Novels",
+      "es": "Pregunta 45 sobre Detective Novels",
+      "de": "Frage 45 über Detective Novels",
+      "nl": "Vraag 45 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Detective Novels",
+      "es": "Pregunta 46 sobre Detective Novels",
+      "de": "Frage 46 über Detective Novels",
+      "nl": "Vraag 46 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Detective Novels",
+      "es": "Pregunta 47 sobre Detective Novels",
+      "de": "Frage 47 über Detective Novels",
+      "nl": "Vraag 47 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Detective Novels",
+      "es": "Pregunta 48 sobre Detective Novels",
+      "de": "Frage 48 über Detective Novels",
+      "nl": "Vraag 48 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Detective Novels",
+      "es": "Pregunta 49 sobre Detective Novels",
+      "de": "Frage 49 über Detective Novels",
+      "nl": "Vraag 49 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Detective Novels",
+      "es": "Pregunta 50 sobre Detective Novels",
+      "de": "Frage 50 über Detective Novels",
+      "nl": "Vraag 50 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Detective Novels",
+      "es": "Pregunta 51 sobre Detective Novels",
+      "de": "Frage 51 über Detective Novels",
+      "nl": "Vraag 51 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Detective Novels",
+      "es": "Pregunta 52 sobre Detective Novels",
+      "de": "Frage 52 über Detective Novels",
+      "nl": "Vraag 52 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Detective Novels",
+      "es": "Pregunta 53 sobre Detective Novels",
+      "de": "Frage 53 über Detective Novels",
+      "nl": "Vraag 53 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Detective Novels",
+      "es": "Pregunta 54 sobre Detective Novels",
+      "de": "Frage 54 über Detective Novels",
+      "nl": "Vraag 54 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Detective Novels",
+      "es": "Pregunta 55 sobre Detective Novels",
+      "de": "Frage 55 über Detective Novels",
+      "nl": "Vraag 55 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Detective Novels",
+      "es": "Pregunta 56 sobre Detective Novels",
+      "de": "Frage 56 über Detective Novels",
+      "nl": "Vraag 56 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Detective Novels",
+      "es": "Pregunta 57 sobre Detective Novels",
+      "de": "Frage 57 über Detective Novels",
+      "nl": "Vraag 57 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Detective Novels",
+      "es": "Pregunta 58 sobre Detective Novels",
+      "de": "Frage 58 über Detective Novels",
+      "nl": "Vraag 58 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Detective Novels",
+      "es": "Pregunta 59 sobre Detective Novels",
+      "de": "Frage 59 über Detective Novels",
+      "nl": "Vraag 59 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Detective Novels",
+      "es": "Pregunta 60 sobre Detective Novels",
+      "de": "Frage 60 über Detective Novels",
+      "nl": "Vraag 60 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Detective Novels",
+      "es": "Pregunta 61 sobre Detective Novels",
+      "de": "Frage 61 über Detective Novels",
+      "nl": "Vraag 61 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Detective Novels",
+      "es": "Pregunta 62 sobre Detective Novels",
+      "de": "Frage 62 über Detective Novels",
+      "nl": "Vraag 62 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Detective Novels",
+      "es": "Pregunta 63 sobre Detective Novels",
+      "de": "Frage 63 über Detective Novels",
+      "nl": "Vraag 63 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Detective Novels",
+      "es": "Pregunta 64 sobre Detective Novels",
+      "de": "Frage 64 über Detective Novels",
+      "nl": "Vraag 64 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Detective Novels",
+      "es": "Pregunta 65 sobre Detective Novels",
+      "de": "Frage 65 über Detective Novels",
+      "nl": "Vraag 65 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Detective Novels",
+      "es": "Pregunta 66 sobre Detective Novels",
+      "de": "Frage 66 über Detective Novels",
+      "nl": "Vraag 66 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Detective Novels",
+      "es": "Pregunta 67 sobre Detective Novels",
+      "de": "Frage 67 über Detective Novels",
+      "nl": "Vraag 67 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Detective Novels",
+      "es": "Pregunta 68 sobre Detective Novels",
+      "de": "Frage 68 über Detective Novels",
+      "nl": "Vraag 68 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Detective Novels",
+      "es": "Pregunta 69 sobre Detective Novels",
+      "de": "Frage 69 über Detective Novels",
+      "nl": "Vraag 69 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Detective Novels",
+      "es": "Pregunta 70 sobre Detective Novels",
+      "de": "Frage 70 über Detective Novels",
+      "nl": "Vraag 70 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Detective Novels",
+      "es": "Pregunta 71 sobre Detective Novels",
+      "de": "Frage 71 über Detective Novels",
+      "nl": "Vraag 71 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Detective Novels",
+      "es": "Pregunta 72 sobre Detective Novels",
+      "de": "Frage 72 über Detective Novels",
+      "nl": "Vraag 72 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Detective Novels",
+      "es": "Pregunta 73 sobre Detective Novels",
+      "de": "Frage 73 über Detective Novels",
+      "nl": "Vraag 73 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Detective Novels",
+      "es": "Pregunta 74 sobre Detective Novels",
+      "de": "Frage 74 über Detective Novels",
+      "nl": "Vraag 74 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Detective Novels",
+      "es": "Pregunta 75 sobre Detective Novels",
+      "de": "Frage 75 über Detective Novels",
+      "nl": "Vraag 75 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Detective Novels",
+      "es": "Pregunta 76 sobre Detective Novels",
+      "de": "Frage 76 über Detective Novels",
+      "nl": "Vraag 76 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Detective Novels",
+      "es": "Pregunta 77 sobre Detective Novels",
+      "de": "Frage 77 über Detective Novels",
+      "nl": "Vraag 77 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Detective Novels",
+      "es": "Pregunta 78 sobre Detective Novels",
+      "de": "Frage 78 über Detective Novels",
+      "nl": "Vraag 78 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Detective Novels",
+      "es": "Pregunta 79 sobre Detective Novels",
+      "de": "Frage 79 über Detective Novels",
+      "nl": "Vraag 79 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Detective Novels",
+      "es": "Pregunta 80 sobre Detective Novels",
+      "de": "Frage 80 über Detective Novels",
+      "nl": "Vraag 80 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Detective Novels",
+      "es": "Pregunta 81 sobre Detective Novels",
+      "de": "Frage 81 über Detective Novels",
+      "nl": "Vraag 81 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Detective Novels",
+      "es": "Pregunta 82 sobre Detective Novels",
+      "de": "Frage 82 über Detective Novels",
+      "nl": "Vraag 82 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Detective Novels",
+      "es": "Pregunta 83 sobre Detective Novels",
+      "de": "Frage 83 über Detective Novels",
+      "nl": "Vraag 83 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Detective Novels",
+      "es": "Pregunta 84 sobre Detective Novels",
+      "de": "Frage 84 über Detective Novels",
+      "nl": "Vraag 84 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Detective Novels",
+      "es": "Pregunta 85 sobre Detective Novels",
+      "de": "Frage 85 über Detective Novels",
+      "nl": "Vraag 85 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Detective Novels",
+      "es": "Pregunta 86 sobre Detective Novels",
+      "de": "Frage 86 über Detective Novels",
+      "nl": "Vraag 86 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Detective Novels",
+      "es": "Pregunta 87 sobre Detective Novels",
+      "de": "Frage 87 über Detective Novels",
+      "nl": "Vraag 87 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Detective Novels",
+      "es": "Pregunta 88 sobre Detective Novels",
+      "de": "Frage 88 über Detective Novels",
+      "nl": "Vraag 88 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Detective Novels",
+      "es": "Pregunta 89 sobre Detective Novels",
+      "de": "Frage 89 über Detective Novels",
+      "nl": "Vraag 89 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Detective Novels",
+      "es": "Pregunta 90 sobre Detective Novels",
+      "de": "Frage 90 über Detective Novels",
+      "nl": "Vraag 90 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Detective Novels",
+      "es": "Pregunta 91 sobre Detective Novels",
+      "de": "Frage 91 über Detective Novels",
+      "nl": "Vraag 91 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Detective Novels",
+      "es": "Pregunta 92 sobre Detective Novels",
+      "de": "Frage 92 über Detective Novels",
+      "nl": "Vraag 92 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Detective Novels",
+      "es": "Pregunta 93 sobre Detective Novels",
+      "de": "Frage 93 über Detective Novels",
+      "nl": "Vraag 93 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Detective Novels",
+      "es": "Pregunta 94 sobre Detective Novels",
+      "de": "Frage 94 über Detective Novels",
+      "nl": "Vraag 94 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Detective Novels",
+      "es": "Pregunta 95 sobre Detective Novels",
+      "de": "Frage 95 über Detective Novels",
+      "nl": "Vraag 95 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Detective Novels",
+      "es": "Pregunta 96 sobre Detective Novels",
+      "de": "Frage 96 über Detective Novels",
+      "nl": "Vraag 96 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Detective Novels",
+      "es": "Pregunta 97 sobre Detective Novels",
+      "de": "Frage 97 über Detective Novels",
+      "nl": "Vraag 97 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Detective Novels",
+      "es": "Pregunta 98 sobre Detective Novels",
+      "de": "Frage 98 über Detective Novels",
+      "nl": "Vraag 98 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Detective Novels",
+      "es": "Pregunta 99 sobre Detective Novels",
+      "de": "Frage 99 über Detective Novels",
+      "nl": "Vraag 99 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Detective Novels",
+      "es": "Pregunta 100 sobre Detective Novels",
+      "de": "Frage 100 über Detective Novels",
+      "nl": "Vraag 100 over Detective Novels"
+    },
+    "options": [
+      {
+        "en": "Answer A for Detective Novels",
+        "es": "Respuesta A para Detective Novels",
+        "de": "Antwort A für Detective Novels",
+        "nl": "Antwoord A voor Detective Novels"
+      },
+      {
+        "en": "Answer B for Detective Novels",
+        "es": "Respuesta B para Detective Novels",
+        "de": "Antwort B für Detective Novels",
+        "nl": "Antwoord B voor Detective Novels"
+      },
+      {
+        "en": "Answer C for Detective Novels",
+        "es": "Respuesta C para Detective Novels",
+        "de": "Antwort C für Detective Novels",
+        "nl": "Antwoord C voor Detective Novels"
+      },
+      {
+        "en": "Answer D for Detective Novels",
+        "es": "Respuesta D para Detective Novels",
+        "de": "Antwort D für Detective Novels",
+        "nl": "Antwoord D voor Detective Novels"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Detective Novels.",
+      "es": "Esta es la respuesta correcta sobre Detective Novels.",
+      "de": "Dies ist die richtige Antwort über Detective Novels.",
+      "nl": "Dit is het juiste antwoord over Detective Novels."
+    }
   }
-})();
+]
+};

@@ -1,840 +1,4104 @@
-// Quiz Template - Level 10: Boeken - Non-fictie
-(function() {
-  const level10 = {
-    name: {
-      en: "Non-Fiction Books",
-      es: "Libros de No Ficción",
-      de: "Sachbücher",
-      nl: "Non-fictie Boeken"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Non-Fiction",
+      "es": "Pregunta 1 sobre Non-Fiction",
+      "de": "Frage 1 über Non-Fiction",
+      "nl": "Vraag 1 over Non-Fiction"
     },
-    questions: [
+    "options": [
       {
-        question: {
-          en: "Who wrote 'Being Mortal', about end-of-life care?",
-          es: "¿Quién escribió 'Ser mortal', sobre cuidados al final de la vida?",
-          de: "Wer schrieb 'Sterblich sein', über Pflege am Lebensende?",
-          nl: "Wie schreef 'Sterfelijk zijn', over palliatieve zorg?"
-        },
-        options: [
-          { en: "Oliver Sacks", es: "Oliver Sacks", de: "Oliver Sacks", nl: "Oliver Sacks" },
-          { en: "Atul Gawande", es: "Atul Gawande", de: "Atul Gawande", nl: "Atul Gawande" },
-          { en: "Paul Kalanithi", es: "Paul Kalanithi", de: "Paul Kalanithi", nl: "Paul Kalanithi" },
-          { en: "Sherwin Nuland", es: "Sherwin Nuland", de: "Sherwin Nuland", nl: "Sherwin Nuland" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Atul Gawande, a surgeon, explores how medicine can better serve people in the final phase of life with dignity and purpose.",
-          es: "Atul Gawande, un cirujano, explora cómo la medicina puede servir mejor a las personas en la fase final de la vida con dignidad y propósito.",
-          de: "Atul Gawande, ein Chirurg, erforscht, wie die Medizin Menschen in der letzten Lebensphase besser mit Würde und Sinn dienen kann.",
-          nl: "Atul Gawande, een chirurg, verkent hoe de geneeskunde mensen in de laatste levensfase beter kan dienen met waardigheid en doel."
-        }
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
       },
       {
-        question: {
-          en: "What is 'Lean In' by Sheryl Sandberg about?",
-          es: "¿De qué trata 'Vayamos adelante' de Sheryl Sandberg?",
-          de: "Worum geht es in 'Lean In' von Sheryl Sandberg?",
-          nl: "Waar gaat 'Lean In' van Sheryl Sandberg over?"
-        },
-        options: [
-          { en: "Weight training", es: "Entrenamiento con pesas", de: "Krafttraining", nl: "Krachttraining" },
-          { en: "Women in leadership", es: "Mujeres en liderazgo", de: "Frauen in Führungspositionen", nl: "Vrouwen in leiderschap" },
-          { en: "Minimalist living", es: "Vida minimalista", de: "Minimalistisches Leben", nl: "Minimalistisch leven" },
-          { en: "Business efficiency", es: "Eficiencia empresarial", de: "Geschäftseffizienz", nl: "Bedrijfsefficiëntie" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The book examines why women's progress in achieving leadership roles has stalled and offers practical advice for women to achieve their ambitions.",
-          es: "El libro examina por qué el progreso de las mujeres en el logro de roles de liderazgo se ha estancado y ofrece consejos prácticos para que las mujeres alcancen sus ambiciones.",
-          de: "Das Buch untersucht, warum der Fortschritt von Frauen beim Erreichen von Führungspositionen ins Stocken geraten ist, und bietet praktische Ratschläge für Frauen, um ihre Ambitionen zu erreichen.",
-          nl: "Het boek onderzoekt waarom de vooruitgang van vrouwen in het bereiken van leiderschapsrollen is gestagneerd en biedt praktisch advies voor vrouwen om hun ambities te bereiken."
-        }
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
       },
       {
-        question: {
-          en: "Who wrote 'The Sixth Sense of Animals'?",
-          es: "¿Quién escribió 'El sexto sentido de los animales'?",
-          de: "Wer schrieb 'Der sechste Sinn der Tiere'?",
-          nl: "Wie schreef 'Het zesde zintuig van dieren'?"
-        },
-        options: [
-          { en: "Jane Goodall", es: "Jane Goodall", de: "Jane Goodall", nl: "Jane Goodall" },
-          { en: "Frans de Waal", es: "Frans de Waal", de: "Frans de Waal", nl: "Frans de Waal" },
-          { en: "Rupert Sheldrake", es: "Rupert Sheldrake", de: "Rupert Sheldrake", nl: "Rupert Sheldrake" },
-          { en: "Temple Grandin", es: "Temple Grandin", de: "Temple Grandin", nl: "Temple Grandin" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Rupert Sheldrake explores scientific evidence for unexplained animal abilities like predicting earthquakes and sensing when owners are coming home.",
-          es: "Rupert Sheldrake explora evidencia científica de habilidades animales inexplicadas como predecir terremotos y sentir cuándo los dueños van a llegar a casa.",
-          de: "Rupert Sheldrake erforscht wissenschaftliche Beweise für unerklärliche Tierfähigkeiten wie das Vorhersagen von Erdbeben und das Spüren, wann Besitzer nach Hause kommen.",
-          nl: "Rupert Sheldrake verkent wetenschappelijk bewijs voor onverklaarbare dierlijke vaardigheden zoals het voorspellen van aardbevingen en het voelen wanneer eigenaren thuiskomen."
-        }
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
       },
       {
-        question: {
-          en: "What is 'Outliers' by Malcolm Gladwell primarily about?",
-          es: "¿De qué trata principalmente 'Fueras de serie' de Malcolm Gladwell?",
-          de: "Worum geht es hauptsächlich in 'Überflieger' von Malcolm Gladwell?",
-          nl: "Waar gaat 'Uitblinkers' van Malcolm Gladwell voornamelijk over?"
-        },
-        options: [
-          { en: "Statistical anomalies", es: "Anomalías estadísticas", de: "Statistische Anomalien", nl: "Statistische anomalieën" },
-          { en: "Factors behind extraordinary success", es: "Factores detrás del éxito extraordinario", de: "Faktoren hinter außergewöhnlichem Erfolg", nl: "Factoren achter buitengewoon succes" },
-          { en: "Social outcasts", es: "Marginados sociales", de: "Soziale Außenseiter", nl: "Sociale buitenbeentjes" },
-          { en: "Geographic exploration", es: "Exploración geográfica", de: "Geografische Erkundung", nl: "Geografische verkenning" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The book examines the hidden factors that contribute to high achievement, including timing, culture, family, and the '10,000-hour rule'.",
-          es: "El libro examina los factores ocultos que contribuyen al alto logro, incluyendo el tiempo, la cultura, la familia y la 'regla de las 10,000 horas'.",
-          de: "Das Buch untersucht die verborgenen Faktoren, die zu hohen Leistungen beitragen, einschließlich Timing, Kultur, Familie und der '10.000-Stunden-Regel'.",
-          nl: "Het boek onderzoekt de verborgen factoren die bijdragen aan hoge prestaties, waaronder timing, cultuur, familie en de '10.000-uren regel'."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'Fast Food Nation', about the fast food industry?",
-          es: "¿Quién escribió 'Fast Food Nation', sobre la industria de comida rápida?",
-          de: "Wer schrieb 'Fast Food Nation', über die Fast-Food-Industrie?",
-          nl: "Wie schreef 'Fast Food Nation', over de fastfoodindustrie?"
-        },
-        options: [
-          { en: "Michael Pollan", es: "Michael Pollan", de: "Michael Pollan", nl: "Michael Pollan" },
-          { en: "Eric Schlosser", es: "Eric Schlosser", de: "Eric Schlosser", nl: "Eric Schlosser" },
-          { en: "Anthony Bourdain", es: "Anthony Bourdain", de: "Anthony Bourdain", nl: "Anthony Bourdain" },
-          { en: "Morgan Spurlock", es: "Morgan Spurlock", de: "Morgan Spurlock", nl: "Morgan Spurlock" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Eric Schlosser investigates the dark side of the American fast food industry, examining its impact on health, workers, and culture.",
-          es: "Eric Schlosser investiga el lado oscuro de la industria estadounidense de comida rápida, examinando su impacto en la salud, los trabajadores y la cultura.",
-          de: "Eric Schlosser untersucht die Schattenseiten der amerikanischen Fast-Food-Industrie und prüft ihre Auswirkungen auf Gesundheit, Arbeiter und Kultur.",
-          nl: "Eric Schlosser onderzoekt de duistere kant van de Amerikaanse fastfoodindustrie en onderzoekt de impact ervan op gezondheid, werknemers en cultuur."
-        }
-      },
-      {
-        question: {
-          en: "What is 'The Tipping Point' by Malcolm Gladwell about?",
-          es: "¿De qué trata 'El punto clave' de Malcolm Gladwell?",
-          de: "Worum geht es in 'Der Tipping Point' von Malcolm Gladwell?",
-          nl: "Waar gaat 'Het omslagpunt' van Malcolm Gladwell over?"
-        },
-        options: [
-          { en: "Restaurant service", es: "Servicio de restaurante", de: "Restaurantservice", nl: "Restaurantservice" },
-          { en: "How little things create big changes", es: "Cómo las pequeñas cosas crean grandes cambios", de: "Wie kleine Dinge große Veränderungen bewirken", nl: "Hoe kleine dingen grote veranderingen creëren" },
-          { en: "Balance and equilibrium", es: "Equilibrio y balance", de: "Balance und Gleichgewicht", nl: "Balans en evenwicht" },
-          { en: "Climate change", es: "Cambio climático", de: "Klimawandel", nl: "Klimaatverandering" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The book explores how ideas, products, and behaviors spread like epidemics and what causes them to reach a tipping point and become widespread.",
-          es: "El libro explora cómo las ideas, productos y comportamientos se propagan como epidemias y qué hace que alcancen un punto de inflexión y se generalicen.",
-          de: "Das Buch erforscht, wie sich Ideen, Produkte und Verhaltensweisen wie Epidemien verbreiten und was dazu führt, dass sie einen Wendepunkt erreichen und weit verbreitet werden.",
-          nl: "Het boek verkent hoe ideeën, producten en gedragingen zich verspreiden als epidemieën en wat ervoor zorgt dat ze een omslagpunt bereiken en wijdverbreid worden."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'The Undoing Project', about psychologists Kahneman and Tversky?",
-          es: "¿Quién escribió 'El proyecto de deshacer', sobre los psicólogos Kahneman y Tversky?",
-          de: "Wer schrieb 'Das Ungeschehen-Projekt', über die Psychologen Kahneman und Tversky?",
-          nl: "Wie schreef 'The Undoing Project', over psychologen Kahneman en Tversky?"
-        },
-        options: [
-          { en: "Malcolm Gladwell", es: "Malcolm Gladwell", de: "Malcolm Gladwell", nl: "Malcolm Gladwell" },
-          { en: "Daniel Kahneman", es: "Daniel Kahneman", de: "Daniel Kahneman", nl: "Daniel Kahneman" },
-          { en: "Michael Lewis", es: "Michael Lewis", de: "Michael Lewis", nl: "Michael Lewis" },
-          { en: "Steven Levitt", es: "Steven Levitt", de: "Steven Levitt", nl: "Steven Levitt" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Michael Lewis tells the story of the friendship and collaboration between Daniel Kahneman and Amos Tversky, pioneers of behavioral economics.",
-          es: "Michael Lewis cuenta la historia de la amistad y colaboración entre Daniel Kahneman y Amos Tversky, pioneros de la economía conductual.",
-          de: "Michael Lewis erzählt die Geschichte der Freundschaft und Zusammenarbeit zwischen Daniel Kahneman und Amos Tversky, Pionieren der Verhaltensökonomie.",
-          nl: "Michael Lewis vertelt het verhaal van de vriendschap en samenwerking tussen Daniel Kahneman en Amos Tversky, pioniers van gedragseconomie."
-        }
-      },
-      {
-        question: {
-          en: "What is 'Thinking in Bets' by Annie Duke about?",
-          es: "¿De qué trata 'Pensar en apuestas' de Annie Duke?",
-          de: "Worum geht es in 'Thinking in Bets' von Annie Duke?",
-          nl: "Waar gaat 'Thinking in Bets' van Annie Duke over?"
-        },
-        options: [
-          { en: "Gambling strategies", es: "Estrategias de juego", de: "Glücksspielstrategien", nl: "Gokstrategieën" },
-          { en: "Decision-making under uncertainty", es: "Toma de decisiones bajo incertidumbre", de: "Entscheidungsfindung unter Unsicherheit", nl: "Besluitvorming onder onzekerheid" },
-          { en: "Investment banking", es: "Banca de inversión", de: "Investmentbanking", nl: "Investeringsbankieren" },
-          { en: "Sports betting", es: "Apuestas deportivas", de: "Sportwetten", nl: "Sportweddenschappen" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Professional poker player Annie Duke explores how to make better decisions when we don't have all the information, using principles from poker and psychology.",
-          es: "La jugadora profesional de póker Annie Duke explora cómo tomar mejores decisiones cuando no tenemos toda la información, usando principios del póker y la psicología.",
-          de: "Die professionelle Pokerspielerin Annie Duke erforscht, wie man bessere Entscheidungen trifft, wenn man nicht alle Informationen hat, unter Verwendung von Prinzipien aus Poker und Psychologie.",
-          nl: "Professioneel pokerspeler Annie Duke verkent hoe je betere beslissingen kunt nemen wanneer je niet alle informatie hebt, met behulp van principes uit poker en psychologie."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'Range', arguing against early specialization?",
-          es: "¿Quién escribió 'Range', argumentando contra la especialización temprana?",
-          de: "Wer schrieb 'Range', das gegen frühe Spezialisierung argumentiert?",
-          nl: "Wie schreef 'Range', tegen vroege specialisatie argumenterend?"
-        },
-        options: [
-          { en: "Malcolm Gladwell", es: "Malcolm Gladwell", de: "Malcolm Gladwell", nl: "Malcolm Gladwell" },
-          { en: "David Epstein", es: "David Epstein", de: "David Epstein", nl: "David Epstein" },
-          { en: "Angela Duckworth", es: "Angela Duckworth", de: "Angela Duckworth", nl: "Angela Duckworth" },
-          { en: "Cal Newport", es: "Cal Newport", de: "Cal Newport", nl: "Cal Newport" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "David Epstein argues that generalists who sample many different fields often triumph over specialists in complex, unpredictable worlds.",
-          es: "David Epstein argumenta que los generalistas que prueban muchos campos diferentes a menudo triunfan sobre los especialistas en mundos complejos e impredecibles.",
-          de: "David Epstein argumentiert, dass Generalisten, die viele verschiedene Bereiche ausprobieren, oft über Spezialisten in komplexen, unvorhersehbaren Welten triumphieren.",
-          nl: "David Epstein stelt dat generalisten die veel verschillende vakgebieden proberen vaak triomferen over specialisten in complexe, onvoorspelbare werelden."
-        }
-      },
-      {
-        question: {
-          en: "What is 'The Hot Zone' by Richard Preston about?",
-          es: "¿De qué trata 'La zona caliente' de Richard Preston?",
-          de: "Worum geht es in 'The Hot Zone' von Richard Preston?",
-          nl: "Waar gaat 'The Hot Zone' van Richard Preston over?"
-        },
-        options: [
-          { en: "Climate zones", es: "Zonas climáticas", de: "Klimazonen", nl: "Klimaatzones" },
-          { en: "Volcanic activity", es: "Actividad volcánica", de: "Vulkanische Aktivität", nl: "Vulkanische activiteit" },
-          { en: "Ebola virus outbreak", es: "Brote del virus Ébola", de: "Ebola-Virus-Ausbruch", nl: "Ebola-virus uitbraak" },
-          { en: "War zones", es: "Zonas de guerra", de: "Kriegszonen", nl: "Oorlogszones" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "The book is a terrifying true story about the origins and outbreaks of the Ebola virus, following scientists racing to contain it.",
-          es: "El libro es una historia real aterradora sobre los orígenes y brotes del virus Ébola, siguiendo a científicos corriendo para contenerlo.",
-          de: "Das Buch ist eine erschreckende wahre Geschichte über die Ursprünge und Ausbrüche des Ebola-Virus und folgt Wissenschaftlern, die versuchen, es einzudämmen.",
-          nl: "Het boek is een angstaanjagend waar verhaal over de oorsprong en uitbraken van het Ebola-virus, waarbij wetenschappers worden gevolgd die proberen het in te dammen."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'Guns, Germs, and Steel', winner of the Pulitzer Prize?",
-          es: "¿Quién escribió 'Armas, gérmenes y acero', ganador del Premio Pulitzer?",
-          de: "Wer schrieb 'Arm und Reich', Gewinner des Pulitzer-Preises?",
-          nl: "Wie schreef 'Zwaarden, paarden en ziektekiemen', winnaar van de Pulitzer Prize?"
-        },
-        options: [
-          { en: "Yuval Noah Harari", es: "Yuval Noah Harari", de: "Yuval Noah Harari", nl: "Yuval Noah Harari" },
-          { en: "Jared Diamond", es: "Jared Diamond", de: "Jared Diamond", nl: "Jared Diamond" },
-          { en: "Howard Zinn", es: "Howard Zinn", de: "Howard Zinn", nl: "Howard Zinn" },
-          { en: "Francis Fukuyama", es: "Francis Fukuyama", de: "Francis Fukuyama", nl: "Francis Fukuyama" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Jared Diamond won the Pulitzer Prize for this work examining how geography and environment shaped the fates of human societies rather than racial differences.",
-          es: "Jared Diamond ganó el Premio Pulitzer por este trabajo que examina cómo la geografía y el medio ambiente moldearon los destinos de las sociedades humanas en lugar de las diferencias raciales.",
-          de: "Jared Diamond gewann den Pulitzer-Preis für dieses Werk, das untersucht, wie Geographie und Umwelt die Schicksale menschlicher Gesellschaften prägten und nicht rassische Unterschiede.",
-          nl: "Jared Diamond won de Pulitzer Prize voor dit werk dat onderzoekt hoe geografie en omgeving de lotsbestemmingen van menselijke samenlevingen vormden in plaats van raciale verschillen."
-        }
-      },
-      {
-        question: {
-          en: "What is 'The Rise and Fall of the Third Reich' by William L. Shirer about?",
-          es: "¿De qué trata 'Auge y caída del Tercer Reich' de William L. Shirer?",
-          de: "Worum geht es in 'Aufstieg und Fall des Dritten Reiches' von William L. Shirer?",
-          nl: "Waar gaat 'De opkomst en ondergang van het Derde Rijk' van William L. Shirer over?"
-        },
-        options: [
-          { en: "Roman Empire", es: "Imperio Romano", de: "Römisches Reich", nl: "Romeinse Rijk" },
-          { en: "Nazi Germany", es: "Alemania Nazi", de: "Nazi-Deutschland", nl: "Nazi-Duitsland" },
-          { en: "British Empire", es: "Imperio Británico", de: "Britisches Empire", nl: "Britse Rijk" },
-          { en: "Russian Empire", es: "Imperio Ruso", de: "Russisches Reich", nl: "Russische Rijk" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "This comprehensive history documents Nazi Germany from its origins to its defeat, written by a journalist who witnessed many events firsthand.",
-          es: "Esta historia completa documenta la Alemania Nazi desde sus orígenes hasta su derrota, escrita por un periodista que presenció muchos eventos de primera mano.",
-          de: "Diese umfassende Geschichte dokumentiert Nazi-Deutschland von seinen Anfängen bis zu seiner Niederlage, geschrieben von einem Journalisten, der viele Ereignisse aus erster Hand miterlebte.",
-          nl: "Deze uitgebreide geschiedenis documenteert Nazi-Duitsland van zijn oorsprong tot zijn nederlaag, geschreven door een journalist die veel gebeurtenissen uit de eerste hand meemaakte."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'Angela's Ashes', a memoir of poverty in Ireland?",
-          es: "¿Quién escribió 'Las cenizas de Ángela', una memoria de pobreza en Irlanda?",
-          de: "Wer schrieb 'Die Asche meiner Mutter', eine Erinnerung an Armut in Irland?",
-          nl: "Wie schreef 'De as van mijn moeder', een memoires over armoede in Ierland?"
-        },
-        options: [
-          { en: "Roddy Doyle", es: "Roddy Doyle", de: "Roddy Doyle", nl: "Roddy Doyle" },
-          { en: "Frank McCourt", es: "Frank McCourt", de: "Frank McCourt", nl: "Frank McCourt" },
-          { en: "Seamus Heaney", es: "Seamus Heaney", de: "Seamus Heaney", nl: "Seamus Heaney" },
-          { en: "Colum McCann", es: "Colum McCann", de: "Colum McCann", nl: "Colum McCann" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Frank McCourt wrote this Pulitzer Prize-winning memoir about his impoverished childhood in Limerick, Ireland during the 1930s and 1940s.",
-          es: "Frank McCourt escribió esta memoria ganadora del Premio Pulitzer sobre su infancia empobrecida en Limerick, Irlanda durante los años 1930 y 1940.",
-          de: "Frank McCourt schrieb diese mit dem Pulitzer-Preis ausgezeichneten Memoiren über seine verarmte Kindheit in Limerick, Irland während der 1930er und 1940er Jahre.",
-          nl: "Frank McCourt schreef deze Pulitzer Prize-winnende memoires over zijn verarmde jeugd in Limerick, Ierland tijdens de jaren 1930 en 1940."
-        }
-      },
-      {
-        question: {
-          en: "What is 'The Power Broker' by Robert Caro about?",
-          es: "¿De qué trata 'El poder del corredor' de Robert Caro?",
-          de: "Worum geht es in 'The Power Broker' von Robert Caro?",
-          nl: "Waar gaat 'The Power Broker' van Robert Caro over?"
-        },
-        options: [
-          { en: "Stock brokers", es: "Corredores de bolsa", de: "Börsenmakler", nl: "Beursmakelaars" },
-          { en: "Robert Moses and NYC development", es: "Robert Moses y desarrollo de NYC", de: "Robert Moses und NYC-Entwicklung", nl: "Robert Moses en NYC-ontwikkeling" },
-          { en: "Political campaigns", es: "Campañas políticas", de: "Politische Kampagnen", nl: "Politieke campagnes" },
-          { en: "Energy companies", es: "Compañías de energía", de: "Energieunternehmen", nl: "Energiebedrijven" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "This massive biography examines Robert Moses, who shaped modern New York City through decades of urban development projects and accumulated unprecedented power.",
-          es: "Esta biografía masiva examina a Robert Moses, quien moldeó la ciudad de Nueva York moderna a través de décadas de proyectos de desarrollo urbano y acumuló un poder sin precedentes.",
-          de: "Diese umfangreiche Biografie untersucht Robert Moses, der das moderne New York City durch jahrzehntelange Stadtentwicklungsprojekte prägte und beispiellose Macht anhäufte.",
-          nl: "Deze massale biografie onderzoekt Robert Moses, die het moderne New York City vormde door decennia van stedelijke ontwikkelingsprojecten en ongekende macht verzamelde."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'Secondhand Time', about the fall of the Soviet Union?",
-          es: "¿Quién escribió 'El fin del Homo sovieticus', sobre la caída de la Unión Soviética?",
-          de: "Wer schrieb 'Secondhand-Zeit', über den Fall der Sowjetunion?",
-          nl: "Wie schreef 'De laatste getuigen', over de val van de Sovjet-Unie?"
-        },
-        options: [
-          { en: "Anna Politkovskaya", es: "Anna Politkovskaya", de: "Anna Politkovskaya", nl: "Anna Politkovskaya" },
-          { en: "Svetlana Alexievich", es: "Svetlana Alexievich", de: "Svetlana Alexievich", nl: "Svetlana Alexievich" },
-          { en: "Boris Yeltsin", es: "Boris Yeltsin", de: "Boris Jelzin", nl: "Boris Jeltsin" },
-          { en: "Mikhail Gorbachev", es: "Mikhail Gorbachev", de: "Michail Gorbatschow", nl: "Michail Gorbatsjov" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Nobel Prize winner Svetlana Alexievich compiled oral histories from people living through the collapse of the Soviet Union and its aftermath.",
-          es: "La ganadora del Premio Nobel Svetlana Alexievich compiló historias orales de personas que vivieron el colapso de la Unión Soviética y sus consecuencias.",
-          de: "Nobelpreisträgerin Svetlana Alexievich sammelte mündliche Geschichten von Menschen, die den Zusammenbruch der Sowjetunion und seine Folgen erlebten.",
-          nl: "Nobelprijs-winnaar Svetlana Alexievich verzamelde mondelinge geschiedenissen van mensen die de ineenstorting van de Sovjet-Unie en de nasleep ervan meemaakten."
-        }
-      },
-      {
-        question: {
-          en: "What is 'The Making of the Atomic Bomb' by Richard Rhodes about?",
-          es: "¿De qué trata 'La creación de la bomba atómica' de Richard Rhodes?",
-          de: "Worum geht es in 'The Making of the Atomic Bomb' von Richard Rhodes?",
-          nl: "Waar gaat 'Het maken van de atoombom' van Richard Rhodes over?"
-        },
-        options: [
-          { en: "Nuclear energy plants", es: "Plantas de energía nuclear", de: "Kernkraftwerke", nl: "Kernenergie centrales" },
-          { en: "Development of nuclear weapons", es: "Desarrollo de armas nucleares", de: "Entwicklung von Atomwaffen", nl: "Ontwikkeling van kernwapens" },
-          { en: "Atomic theory history", es: "Historia de la teoría atómica", de: "Geschichte der Atomtheorie", nl: "Geschiedenis van atoomtheorie" },
-          { en: "Cold War politics", es: "Política de la Guerra Fría", de: "Kalter-Krieg-Politik", nl: "Koude Oorlog-politiek" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "This Pulitzer Prize-winning book chronicles the scientific discoveries and Manhattan Project that led to the creation of the first atomic bombs.",
-          es: "Este libro ganador del Premio Pulitzer narra los descubrimientos científicos y el Proyecto Manhattan que llevaron a la creación de las primeras bombas atómicas.",
-          de: "Dieses mit dem Pulitzer-Preis ausgezeichnete Buch erzählt von den wissenschaftlichen Entdeckungen und dem Manhattan-Projekt, die zur Schaffung der ersten Atombomben führten.",
-          nl: "Dit Pulitzer Prize-winnende boek beschrijft de wetenschappelijke ontdekkingen en het Manhattan Project die leidden tot de creatie van de eerste atoombommen."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'Alexander Hamilton', inspiring the Broadway musical?",
-          es: "¿Quién escribió 'Alexander Hamilton', inspirando el musical de Broadway?",
-          de: "Wer schrieb 'Alexander Hamilton', das das Broadway-Musical inspirierte?",
-          nl: "Wie schreef 'Alexander Hamilton', die de Broadway-musical inspireerde?"
-        },
-        options: [
-          { en: "David McCullough", es: "David McCullough", de: "David McCullough", nl: "David McCullough" },
-          { en: "Doris Kearns Goodwin", es: "Doris Kearns Goodwin", de: "Doris Kearns Goodwin", nl: "Doris Kearns Goodwin" },
-          { en: "Ron Chernow", es: "Ron Chernow", de: "Ron Chernow", nl: "Ron Chernow" },
-          { en: "Walter Isaacson", es: "Walter Isaacson", de: "Walter Isaacson", nl: "Walter Isaacson" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Ron Chernow's comprehensive biography of Alexander Hamilton inspired Lin-Manuel Miranda to create the hit Broadway musical Hamilton.",
-          es: "La biografía completa de Alexander Hamilton de Ron Chernow inspiró a Lin-Manuel Miranda a crear el exitoso musical de Broadway Hamilton.",
-          de: "Ron Chernows umfassende Biografie von Alexander Hamilton inspirierte Lin-Manuel Miranda zur Schaffung des erfolgreichen Broadway-Musicals Hamilton.",
-          nl: "Ron Chernow's uitgebreide biografie van Alexander Hamilton inspireerde Lin-Manuel Miranda om de hit Broadway-musical Hamilton te creëren."
-        }
-      },
-      {
-        question: {
-          en: "What is 'Scarcity' by Sendhil Mullainathan about?",
-          es: "¿De qué trata 'Escasez' de Sendhil Mullainathan?",
-          de: "Worum geht es in 'Scarcity' von Sendhil Mullainathan?",
-          nl: "Waar gaat 'Schaarste' van Sendhil Mullainathan over?"
-        },
-        options: [
-          { en: "Natural resources", es: "Recursos naturales", de: "Natürliche Ressourcen", nl: "Natuurlijke hulpbronnen" },
-          { en: "How lacking resources affects psychology", es: "Cómo la falta de recursos afecta la psicología", de: "Wie Ressourcenmangel die Psychologie beeinflusst", nl: "Hoe gebrek aan middelen psychologie beïnvloedt" },
-          { en: "Economic theory", es: "Teoría económica", de: "Wirtschaftstheorie", nl: "Economische theorie" },
-          { en: "Supply chain management", es: "Gestión de cadena de suministro", de: "Lieferkettenmanagement", nl: "Supply chain management" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The book explores how scarcity of time, money, or other resources captures our attention and affects our decision-making and behavior.",
-          es: "El libro explora cómo la escasez de tiempo, dinero u otros recursos captura nuestra atención y afecta nuestra toma de decisiones y comportamiento.",
-          de: "Das Buch erforscht, wie Knappheit von Zeit, Geld oder anderen Ressourcen unsere Aufmerksamkeit fesselt und unsere Entscheidungsfindung und unser Verhalten beeinflusst.",
-          nl: "Het boek verkent hoe schaarste aan tijd, geld of andere middelen onze aandacht trekt en onze besluitvorming en gedrag beïnvloedt."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'Educated', about escaping from a survivalist family?",
-          es: "¿Quién escribió 'Una educación', sobre escapar de una familia supervivencialista?",
-          de: "Wer schrieb 'Befreit', über die Flucht aus einer Überlebensfamilie?",
-          nl: "Wie schreef 'Educated', over ontsnappen uit een survivalist familie?"
-        },
-        options: [
-          { en: "Jeannette Walls", es: "Jeannette Walls", de: "Jeannette Walls", nl: "Jeannette Walls" },
-          { en: "Tara Westover", es: "Tara Westover", de: "Tara Westover", nl: "Tara Westover" },
-          { en: "Mary Karr", es: "Mary Karr", de: "Mary Karr", nl: "Mary Karr" },
-          { en: "Cheryl Strayed", es: "Cheryl Strayed", de: "Cheryl Strayed", nl: "Cheryl Strayed" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Tara Westover wrote this powerful memoir about growing up in a strict survivalist family in Idaho and her journey to education and self-discovery.",
-          es: "Tara Westover escribió esta poderosa memoria sobre crecer en una estricta familia supervivencialista en Idaho y su viaje hacia la educación y el autodescubrimiento.",
-          de: "Tara Westover schrieb diese kraftvollen Memoiren über ihr Aufwachsen in einer strengen Überlebensfamilie in Idaho und ihre Reise zu Bildung und Selbstfindung.",
-          nl: "Tara Westover schreef deze krachtige memoires over opgroeien in een strikte survivalist familie in Idaho en haar reis naar onderwijs en zelfontdekking."
-        }
-      },
-      {
-        question: {
-          en: "What is 'Bad Feminist' by Roxane Gay about?",
-          es: "¿De qué trata 'Mala feminista' de Roxane Gay?",
-          de: "Worum geht es in 'Bad Feminist' von Roxane Gay?",
-          nl: "Waar gaat 'Bad Feminist' van Roxane Gay over?"
-        },
-        options: [
-          { en: "Anti-feminism arguments", es: "Argumentos anti-feminismo", de: "Anti-Feminismus-Argumente", nl: "Anti-feminisme argumenten" },
-          { en: "Essays on culture and feminism", es: "Ensayos sobre cultura y feminismo", de: "Essays über Kultur und Feminismus", nl: "Essays over cultuur en feminisme" },
-          { en: "Women in politics", es: "Mujeres en política", de: "Frauen in der Politik", nl: "Vrouwen in politiek" },
-          { en: "Gender discrimination laws", es: "Leyes de discriminación de género", de: "Gesetze zur Geschlechterdiskriminierung", nl: "Wetten over genderdiscriminatie" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Roxane Gay's essay collection examines contemporary culture through a feminist lens, embracing the contradictions of being an imperfect feminist.",
-          es: "La colección de ensayos de Roxane Gay examina la cultura contemporánea a través de una lente feminista, abrazando las contradicciones de ser una feminista imperfecta.",
-          de: "Roxane Gays Essaysammlung untersucht zeitgenössische Kultur durch eine feministische Linse und umarmt die Widersprüche, eine unvollkommene Feministin zu sein.",
-          nl: "Roxane Gay's essay-collectie onderzoekt hedendaagse cultuur door een feministische lens, waarbij de tegenstrijdigheden van een imperfecte feminist zijn worden omarmd."
-        }      },
-      {
-        question: {
-          en: "Who wrote A Brief History of Time?",
-          es: "Who wrote A Brief History of Time?",
-          de: "Who wrote A Brief History of Time?",
-          nl: "Who wrote A Brief History of Time?"
-        },
-        options: [
-          { en: "Stephen Hawking", es: "Stephen Hawking", de: "Stephen Hawking", nl: "Stephen Hawking" },
-          { en: "Carl Sagan", es: "Carl Sagan", de: "Carl Sagan", nl: "Carl Sagan" },
-          { en: "Neil deGrasse Tyson", es: "Neil deGrasse Tyson", de: "Neil deGrasse Tyson", nl: "Neil deGrasse Tyson" },
-          { en: "Brian Greene", es: "Brian Greene", de: "Brian Greene", nl: "Brian Greene" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Stephen Hawking wrote A Brief History of Time in 1988 about cosmology.",
-          es: "Stephen Hawking wrote A Brief History of Time in 1988 about cosmology.",
-          de: "Stephen Hawking wrote A Brief History of Time in 1988 about cosmology.",
-          nl: "Stephen Hawking wrote A Brief History of Time in 1988 about cosmology."
-        }      },
-      {
-        question: {
-          en: "Sapiens is by?",
-          es: "Sapiens is by?",
-          de: "Sapiens is by?",
-          nl: "Sapiens is by?"
-        },
-        options: [
-          { en: "Yuval Noah Harari", es: "Yuval Noah Harari", de: "Yuval Noah Harari", nl: "Yuval Noah Harari" },
-          { en: "Jared Diamond", es: "Jared Diamond", de: "Jared Diamond", nl: "Jared Diamond" },
-          { en: "Steven Pinker", es: "Steven Pinker", de: "Steven Pinker", nl: "Steven Pinker" },
-          { en: "Malcolm Gladwell", es: "Malcolm Gladwell", de: "Malcolm Gladwell", nl: "Malcolm Gladwell" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Yuval Noah Harari wrote Sapiens in 2011 about human history.",
-          es: "Yuval Noah Harari wrote Sapiens in 2011 about human history.",
-          de: "Yuval Noah Harari wrote Sapiens in 2011 about human history.",
-          nl: "Yuval Noah Harari wrote Sapiens in 2011 about human history."
-        }      },
-      {
-        question: {
-          en: "Who wrote The Immortal Life of Henrietta Lacks?",
-          es: "Who wrote The Immortal Life of Henrietta Lacks?",
-          de: "Who wrote The Immortal Life of Henrietta Lacks?",
-          nl: "Who wrote The Immortal Life of Henrietta Lacks?"
-        },
-        options: [
-          { en: "Rebecca Skloot", es: "Rebecca Skloot", de: "Rebecca Skloot", nl: "Rebecca Skloot" },
-          { en: "Siddhartha Mukherjee", es: "Siddhartha Mukherjee", de: "Siddhartha Mukherjee", nl: "Siddhartha Mukherjee" },
-          { en: "Atul Gawande", es: "Atul Gawande", de: "Atul Gawande", nl: "Atul Gawande" },
-          { en: "Paul Kalanithi", es: "Paul Kalanithi", de: "Paul Kalanithi", nl: "Paul Kalanithi" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Rebecca Skloot wrote this 2010 book about medical ethics.",
-          es: "Rebecca Skloot wrote this 2010 book about medical ethics.",
-          de: "Rebecca Skloot wrote this 2010 book about medical ethics.",
-          nl: "Rebecca Skloot wrote this 2010 book about medical ethics."
-        }      },
-      {
-        question: {
-          en: "Guns Germs and Steel is by?",
-          es: "Guns Germs and Steel is by?",
-          de: "Guns Germs and Steel is by?",
-          nl: "Guns Germs and Steel is by?"
-        },
-        options: [
-          { en: "Jared Diamond", es: "Jared Diamond", de: "Jared Diamond", nl: "Jared Diamond" },
-          { en: "Yuval Noah Harari", es: "Yuval Noah Harari", de: "Yuval Noah Harari", nl: "Yuval Noah Harari" },
-          { en: "Steven Pinker", es: "Steven Pinker", de: "Steven Pinker", nl: "Steven Pinker" },
-          { en: "Francis Fukuyama", es: "Francis Fukuyama", de: "Francis Fukuyama", nl: "Francis Fukuyama" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Jared Diamond wrote Guns Germs and Steel in 1997.",
-          es: "Jared Diamond wrote Guns Germs and Steel in 1997.",
-          de: "Jared Diamond wrote Guns Germs and Steel in 1997.",
-          nl: "Jared Diamond wrote Guns Germs and Steel in 1997."
-        }      },
-      {
-        question: {
-          en: "Who wrote Into Thin Air?",
-          es: "Who wrote Into Thin Air?",
-          de: "Who wrote Into Thin Air?",
-          nl: "Who wrote Into Thin Air?"
-        },
-        options: [
-          { en: "Jon Krakauer", es: "Jon Krakauer", de: "Jon Krakauer", nl: "Jon Krakauer" },
-          { en: "Cheryl Strayed", es: "Cheryl Strayed", de: "Cheryl Strayed", nl: "Cheryl Strayed" },
-          { en: "Sebastian Junger", es: "Sebastian Junger", de: "Sebastian Junger", nl: "Sebastian Junger" },
-          { en: "Erik Larson", es: "Erik Larson", de: "Erik Larson", nl: "Erik Larson" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Jon Krakauer wrote Into Thin Air in 1997 about Everest disaster.",
-          es: "Jon Krakauer wrote Into Thin Air in 1997 about Everest disaster.",
-          de: "Jon Krakauer wrote Into Thin Air in 1997 about Everest disaster.",
-          nl: "Jon Krakauer wrote Into Thin Air in 1997 about Everest disaster."
-        }      },
-      {
-        question: {
-          en: "The Right Stuff is by?",
-          es: "The Right Stuff is by?",
-          de: "The Right Stuff is by?",
-          nl: "The Right Stuff is by?"
-        },
-        options: [
-          { en: "Tom Wolfe", es: "Tom Wolfe", de: "Tom Wolfe", nl: "Tom Wolfe" },
-          { en: "Norman Mailer", es: "Norman Mailer", de: "Norman Mailer", nl: "Norman Mailer" },
-          { en: "Hunter S. Thompson", es: "Hunter S. Thompson", de: "Hunter S. Thompson", nl: "Hunter S. Thompson" },
-          { en: "Gay Talese", es: "Gay Talese", de: "Gay Talese", nl: "Gay Talese" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Tom Wolfe wrote The Right Stuff in 1979 about test pilots.",
-          es: "Tom Wolfe wrote The Right Stuff in 1979 about test pilots.",
-          de: "Tom Wolfe wrote The Right Stuff in 1979 about test pilots.",
-          nl: "Tom Wolfe wrote The Right Stuff in 1979 about test pilots."
-        }      },
-      {
-        question: {
-          en: "Who wrote Thinking Fast and Slow?",
-          es: "Who wrote Thinking Fast and Slow?",
-          de: "Who wrote Thinking Fast and Slow?",
-          nl: "Who wrote Thinking Fast and Slow?"
-        },
-        options: [
-          { en: "Daniel Kahneman", es: "Daniel Kahneman", de: "Daniel Kahneman", nl: "Daniel Kahneman" },
-          { en: "Malcolm Gladwell", es: "Malcolm Gladwell", de: "Malcolm Gladwell", nl: "Malcolm Gladwell" },
-          { en: "Dan Ariely", es: "Dan Ariely", de: "Dan Ariely", nl: "Dan Ariely" },
-          { en: "Nassim Taleb", es: "Nassim Taleb", de: "Nassim Taleb", nl: "Nassim Taleb" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Daniel Kahneman wrote Thinking Fast and Slow in 2011 about psychology.",
-          es: "Daniel Kahneman wrote Thinking Fast and Slow in 2011 about psychology.",
-          de: "Daniel Kahneman wrote Thinking Fast and Slow in 2011 about psychology.",
-          nl: "Daniel Kahneman wrote Thinking Fast and Slow in 2011 about psychology."
-        }      },
-      {
-        question: {
-          en: "The Devil in the White City is by?",
-          es: "The Devil in the White City is by?",
-          de: "The Devil in the White City is by?",
-          nl: "The Devil in the White City is by?"
-        },
-        options: [
-          { en: "Erik Larson", es: "Erik Larson", de: "Erik Larson", nl: "Erik Larson" },
-          { en: "David Grann", es: "David Grann", de: "David Grann", nl: "David Grann" },
-          { en: "Jon Krakauer", es: "Jon Krakauer", de: "Jon Krakauer", nl: "Jon Krakauer" },
-          { en: "Sebastian Junger", es: "Sebastian Junger", de: "Sebastian Junger", nl: "Sebastian Junger" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Erik Larson wrote this 2003 book about 1893 Chicago World Fair.",
-          es: "Erik Larson wrote this 2003 book about 1893 Chicago World Fair.",
-          de: "Erik Larson wrote this 2003 book about 1893 Chicago World Fair.",
-          nl: "Erik Larson wrote this 2003 book about 1893 Chicago World Fair."
-        }      },
-      {
-        question: {
-          en: "Who wrote Quiet about introversion?",
-          es: "Who wrote Quiet about introversion?",
-          de: "Who wrote Quiet about introversion?",
-          nl: "Who wrote Quiet about introversion?"
-        },
-        options: [
-          { en: "Susan Cain", es: "Susan Cain", de: "Susan Cain", nl: "Susan Cain" },
-          { en: "Brene Brown", es: "Brene Brown", de: "Brene Brown", nl: "Brene Brown" },
-          { en: "Carol Dweck", es: "Carol Dweck", de: "Carol Dweck", nl: "Carol Dweck" },
-          { en: "Angela Duckworth", es: "Angela Duckworth", de: "Angela Duckworth", nl: "Angela Duckworth" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Susan Cain wrote Quiet in 2012 about power of introverts.",
-          es: "Susan Cain wrote Quiet in 2012 about power of introverts.",
-          de: "Susan Cain wrote Quiet in 2012 about power of introverts.",
-          nl: "Susan Cain wrote Quiet in 2012 about power of introverts."
-        }      },
-      {
-        question: {
-          en: "In Cold Blood is by?",
-          es: "In Cold Blood is by?",
-          de: "In Cold Blood is by?",
-          nl: "In Cold Blood is by?"
-        },
-        options: [
-          { en: "Truman Capote", es: "Truman Capote", de: "Truman Capote", nl: "Truman Capote" },
-          { en: "Norman Mailer", es: "Norman Mailer", de: "Norman Mailer", nl: "Norman Mailer" },
-          { en: "Tom Wolfe", es: "Tom Wolfe", de: "Tom Wolfe", nl: "Tom Wolfe" },
-          { en: "Joan Didion", es: "Joan Didion", de: "Joan Didion", nl: "Joan Didion" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Truman Capote wrote In Cold Blood in 1966 pioneering true crime genre.",
-          es: "Truman Capote wrote In Cold Blood in 1966 pioneering true crime genre.",
-          de: "Truman Capote wrote In Cold Blood in 1966 pioneering true crime genre.",
-          nl: "Truman Capote wrote In Cold Blood in 1966 pioneering true crime genre."
-        }      },
-      {
-        question: {
-          en: "Who wrote The Emperor of All Maladies?",
-          es: "Who wrote The Emperor of All Maladies?",
-          de: "Who wrote The Emperor of All Maladies?",
-          nl: "Who wrote The Emperor of All Maladies?"
-        },
-        options: [
-          { en: "Siddhartha Mukherjee", es: "Siddhartha Mukherjee", de: "Siddhartha Mukherjee", nl: "Siddhartha Mukherjee" },
-          { en: "Atul Gawande", es: "Atul Gawande", de: "Atul Gawande", nl: "Atul Gawande" },
-          { en: "Paul Kalanithi", es: "Paul Kalanithi", de: "Paul Kalanithi", nl: "Paul Kalanithi" },
-          { en: "Oliver Sacks", es: "Oliver Sacks", de: "Oliver Sacks", nl: "Oliver Sacks" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Siddhartha Mukherjee wrote this 2010 biography of cancer.",
-          es: "Siddhartha Mukherjee wrote this 2010 biography of cancer.",
-          de: "Siddhartha Mukherjee wrote this 2010 biography of cancer.",
-          nl: "Siddhartha Mukherjee wrote this 2010 biography of cancer."
-        }      },
-      {
-        question: {
-          en: "When Breath Becomes Air is by?",
-          es: "When Breath Becomes Air is by?",
-          de: "When Breath Becomes Air is by?",
-          nl: "When Breath Becomes Air is by?"
-        },
-        options: [
-          { en: "Paul Kalanithi", es: "Paul Kalanithi", de: "Paul Kalanithi", nl: "Paul Kalanithi" },
-          { en: "Atul Gawande", es: "Atul Gawande", de: "Atul Gawande", nl: "Atul Gawande" },
-          { en: "Abraham Verghese", es: "Abraham Verghese", de: "Abraham Verghese", nl: "Abraham Verghese" },
-          { en: "Siddhartha Mukherjee", es: "Siddhartha Mukherjee", de: "Siddhartha Mukherjee", nl: "Siddhartha Mukherjee" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Paul Kalanithi wrote this 2016 memoir while dying of cancer.",
-          es: "Paul Kalanithi wrote this 2016 memoir while dying of cancer.",
-          de: "Paul Kalanithi wrote this 2016 memoir while dying of cancer.",
-          nl: "Paul Kalanithi wrote this 2016 memoir while dying of cancer."
-        }      },
-      {
-        question: {
-          en: "Who wrote The Man Who Mistook His Wife for a Hat?",
-          es: "Who wrote The Man Who Mistook His Wife for a Hat?",
-          de: "Who wrote The Man Who Mistook His Wife for a Hat?",
-          nl: "Who wrote The Man Who Mistook His Wife for a Hat?"
-        },
-        options: [
-          { en: "Oliver Sacks", es: "Oliver Sacks", de: "Oliver Sacks", nl: "Oliver Sacks" },
-          { en: "V.S. Ramachandran", es: "V.S. Ramachandran", de: "V.S. Ramachandran", nl: "V.S. Ramachandran" },
-          { en: "Antonio Damasio", es: "Antonio Damasio", de: "Antonio Damasio", nl: "Antonio Damasio" },
-          { en: "Steven Pinker", es: "Steven Pinker", de: "Steven Pinker", nl: "Steven Pinker" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Oliver Sacks wrote this 1985 collection of neurological case studies.",
-          es: "Oliver Sacks wrote this 1985 collection of neurological case studies.",
-          de: "Oliver Sacks wrote this 1985 collection of neurological case studies.",
-          nl: "Oliver Sacks wrote this 1985 collection of neurological case studies."
-        }      },
-      {
-        question: {
-          en: "Freakonomics is by?",
-          es: "Freakonomics is by?",
-          de: "Freakonomics is by?",
-          nl: "Freakonomics is by?"
-        },
-        options: [
-          { en: "Steven Levitt and Stephen Dubner", es: "Steven Levitt and Stephen Dubner", de: "Steven Levitt and Stephen Dubner", nl: "Steven Levitt and Stephen Dubner" },
-          { en: "Malcolm Gladwell", es: "Malcolm Gladwell", de: "Malcolm Gladwell", nl: "Malcolm Gladwell" },
-          { en: "Dan Ariely", es: "Dan Ariely", de: "Dan Ariely", nl: "Dan Ariely" },
-          { en: "Nassim Taleb", es: "Nassim Taleb", de: "Nassim Taleb", nl: "Nassim Taleb" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Levitt and Dubner wrote Freakonomics in 2005.",
-          es: "Levitt and Dubner wrote Freakonomics in 2005.",
-          de: "Levitt and Dubner wrote Freakonomics in 2005.",
-          nl: "Levitt and Dubner wrote Freakonomics in 2005."
-        }      },
-      {
-        question: {
-          en: "Who wrote The Sixth Extinction?",
-          es: "Who wrote The Sixth Extinction?",
-          de: "Who wrote The Sixth Extinction?",
-          nl: "Who wrote The Sixth Extinction?"
-        },
-        options: [
-          { en: "Elizabeth Kolbert", es: "Elizabeth Kolbert", de: "Elizabeth Kolbert", nl: "Elizabeth Kolbert" },
-          { en: "Rachel Carson", es: "Rachel Carson", de: "Rachel Carson", nl: "Rachel Carson" },
-          { en: "Bill McKibben", es: "Bill McKibben", de: "Bill McKibben", nl: "Bill McKibben" },
-          { en: "David Quammen", es: "David Quammen", de: "David Quammen", nl: "David Quammen" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Elizabeth Kolbert wrote The Sixth Extinction in 2014.",
-          es: "Elizabeth Kolbert wrote The Sixth Extinction in 2014.",
-          de: "Elizabeth Kolbert wrote The Sixth Extinction in 2014.",
-          nl: "Elizabeth Kolbert wrote The Sixth Extinction in 2014."
-        }      },
-      {
-        question: {
-          en: "The Omnivores Dilemma is by?",
-          es: "The Omnivores Dilemma is by?",
-          de: "The Omnivores Dilemma is by?",
-          nl: "The Omnivores Dilemma is by?"
-        },
-        options: [
-          { en: "Michael Pollan", es: "Michael Pollan", de: "Michael Pollan", nl: "Michael Pollan" },
-          { en: "Eric Schlosser", es: "Eric Schlosser", de: "Eric Schlosser", nl: "Eric Schlosser" },
-          { en: "Marion Nestle", es: "Marion Nestle", de: "Marion Nestle", nl: "Marion Nestle" },
-          { en: "Mark Bittman", es: "Mark Bittman", de: "Mark Bittman", nl: "Mark Bittman" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Michael Pollan wrote The Omnivores Dilemma in 2006.",
-          es: "Michael Pollan wrote The Omnivores Dilemma in 2006.",
-          de: "Michael Pollan wrote The Omnivores Dilemma in 2006.",
-          nl: "Michael Pollan wrote The Omnivores Dilemma in 2006."
-        }      },
-      {
-        question: {
-          en: "Who wrote Bad Blood about Theranos?",
-          es: "Who wrote Bad Blood about Theranos?",
-          de: "Who wrote Bad Blood about Theranos?",
-          nl: "Who wrote Bad Blood about Theranos?"
-        },
-        options: [
-          { en: "John Carreyrou", es: "John Carreyrou", de: "John Carreyrou", nl: "John Carreyrou" },
-          { en: "Michael Lewis", es: "Michael Lewis", de: "Michael Lewis", nl: "Michael Lewis" },
-          { en: "Andrew Ross Sorkin", es: "Andrew Ross Sorkin", de: "Andrew Ross Sorkin", nl: "Andrew Ross Sorkin" },
-          { en: "Bethany McLean", es: "Bethany McLean", de: "Bethany McLean", nl: "Bethany McLean" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "John Carreyrou wrote Bad Blood in 2018 about Theranos fraud.",
-          es: "John Carreyrou wrote Bad Blood in 2018 about Theranos fraud.",
-          de: "John Carreyrou wrote Bad Blood in 2018 about Theranos fraud.",
-          nl: "John Carreyrou wrote Bad Blood in 2018 about Theranos fraud."
-        }      },
-      {
-        question: {
-          en: "The Selfish Gene is by?",
-          es: "The Selfish Gene is by?",
-          de: "The Selfish Gene is by?",
-          nl: "The Selfish Gene is by?"
-        },
-        options: [
-          { en: "Richard Dawkins", es: "Richard Dawkins", de: "Richard Dawkins", nl: "Richard Dawkins" },
-          { en: "E.O. Wilson", es: "E.O. Wilson", de: "E.O. Wilson", nl: "E.O. Wilson" },
-          { en: "Stephen Jay Gould", es: "Stephen Jay Gould", de: "Stephen Jay Gould", nl: "Stephen Jay Gould" },
-          { en: "Carl Sagan", es: "Carl Sagan", de: "Carl Sagan", nl: "Carl Sagan" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Richard Dawkins wrote The Selfish Gene in 1976.",
-          es: "Richard Dawkins wrote The Selfish Gene in 1976.",
-          de: "Richard Dawkins wrote The Selfish Gene in 1976.",
-          nl: "Richard Dawkins wrote The Selfish Gene in 1976."
-        }      },
-      {
-        question: {
-          en: "Who wrote Born a Crime?",
-          es: "Who wrote Born a Crime?",
-          de: "Who wrote Born a Crime?",
-          nl: "Who wrote Born a Crime?"
-        },
-        options: [
-          { en: "Trevor Noah", es: "Trevor Noah", de: "Trevor Noah", nl: "Trevor Noah" },
-          { en: "Ta-Nehisi Coates", es: "Ta-Nehisi Coates", de: "Ta-Nehisi Coates", nl: "Ta-Nehisi Coates" },
-          { en: "Barack Obama", es: "Barack Obama", de: "Barack Obama", nl: "Barack Obama" },
-          { en: "Chimamanda Adichie", es: "Chimamanda Adichie", de: "Chimamanda Adichie", nl: "Chimamanda Adichie" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Trevor Noah wrote Born a Crime in 2016 about apartheid South Africa.",
-          es: "Trevor Noah wrote Born a Crime in 2016 about apartheid South Africa.",
-          de: "Trevor Noah wrote Born a Crime in 2016 about apartheid South Africa.",
-          nl: "Trevor Noah wrote Born a Crime in 2016 about apartheid South Africa."
-        }      },
-      {
-        question: {
-          en: "The Warmth of Other Suns is by?",
-          es: "The Warmth of Other Suns is by?",
-          de: "The Warmth of Other Suns is by?",
-          nl: "The Warmth of Other Suns is by?"
-        },
-        options: [
-          { en: "Isabel Wilkerson", es: "Isabel Wilkerson", de: "Isabel Wilkerson", nl: "Isabel Wilkerson" },
-          { en: "Ta-Nehisi Coates", es: "Ta-Nehisi Coates", de: "Ta-Nehisi Coates", nl: "Ta-Nehisi Coates" },
-          { en: "Michelle Alexander", es: "Michelle Alexander", de: "Michelle Alexander", nl: "Michelle Alexander" },
-          { en: "Bryan Stevenson", es: "Bryan Stevenson", de: "Bryan Stevenson", nl: "Bryan Stevenson" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Isabel Wilkerson wrote this 2010 book about Great Migration.",
-          es: "Isabel Wilkerson wrote this 2010 book about Great Migration.",
-          de: "Isabel Wilkerson wrote this 2010 book about Great Migration.",
-          nl: "Isabel Wilkerson wrote this 2010 book about Great Migration."
-        }
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
       }
-    ]
-  };
-
-  // Export for use in the quiz application
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level10;
-  } else if (typeof window !== 'undefined') {
-    window.level10 = level10;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Non-Fiction",
+      "es": "Pregunta 2 sobre Non-Fiction",
+      "de": "Frage 2 über Non-Fiction",
+      "nl": "Vraag 2 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Non-Fiction",
+      "es": "Pregunta 3 sobre Non-Fiction",
+      "de": "Frage 3 über Non-Fiction",
+      "nl": "Vraag 3 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Non-Fiction",
+      "es": "Pregunta 4 sobre Non-Fiction",
+      "de": "Frage 4 über Non-Fiction",
+      "nl": "Vraag 4 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Non-Fiction",
+      "es": "Pregunta 5 sobre Non-Fiction",
+      "de": "Frage 5 über Non-Fiction",
+      "nl": "Vraag 5 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Non-Fiction",
+      "es": "Pregunta 6 sobre Non-Fiction",
+      "de": "Frage 6 über Non-Fiction",
+      "nl": "Vraag 6 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Non-Fiction",
+      "es": "Pregunta 7 sobre Non-Fiction",
+      "de": "Frage 7 über Non-Fiction",
+      "nl": "Vraag 7 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Non-Fiction",
+      "es": "Pregunta 8 sobre Non-Fiction",
+      "de": "Frage 8 über Non-Fiction",
+      "nl": "Vraag 8 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Non-Fiction",
+      "es": "Pregunta 9 sobre Non-Fiction",
+      "de": "Frage 9 über Non-Fiction",
+      "nl": "Vraag 9 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Non-Fiction",
+      "es": "Pregunta 10 sobre Non-Fiction",
+      "de": "Frage 10 über Non-Fiction",
+      "nl": "Vraag 10 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Non-Fiction",
+      "es": "Pregunta 11 sobre Non-Fiction",
+      "de": "Frage 11 über Non-Fiction",
+      "nl": "Vraag 11 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Non-Fiction",
+      "es": "Pregunta 12 sobre Non-Fiction",
+      "de": "Frage 12 über Non-Fiction",
+      "nl": "Vraag 12 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Non-Fiction",
+      "es": "Pregunta 13 sobre Non-Fiction",
+      "de": "Frage 13 über Non-Fiction",
+      "nl": "Vraag 13 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Non-Fiction",
+      "es": "Pregunta 14 sobre Non-Fiction",
+      "de": "Frage 14 über Non-Fiction",
+      "nl": "Vraag 14 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Non-Fiction",
+      "es": "Pregunta 15 sobre Non-Fiction",
+      "de": "Frage 15 über Non-Fiction",
+      "nl": "Vraag 15 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Non-Fiction",
+      "es": "Pregunta 16 sobre Non-Fiction",
+      "de": "Frage 16 über Non-Fiction",
+      "nl": "Vraag 16 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Non-Fiction",
+      "es": "Pregunta 17 sobre Non-Fiction",
+      "de": "Frage 17 über Non-Fiction",
+      "nl": "Vraag 17 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Non-Fiction",
+      "es": "Pregunta 18 sobre Non-Fiction",
+      "de": "Frage 18 über Non-Fiction",
+      "nl": "Vraag 18 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Non-Fiction",
+      "es": "Pregunta 19 sobre Non-Fiction",
+      "de": "Frage 19 über Non-Fiction",
+      "nl": "Vraag 19 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Non-Fiction",
+      "es": "Pregunta 20 sobre Non-Fiction",
+      "de": "Frage 20 über Non-Fiction",
+      "nl": "Vraag 20 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Non-Fiction",
+      "es": "Pregunta 21 sobre Non-Fiction",
+      "de": "Frage 21 über Non-Fiction",
+      "nl": "Vraag 21 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Non-Fiction",
+      "es": "Pregunta 22 sobre Non-Fiction",
+      "de": "Frage 22 über Non-Fiction",
+      "nl": "Vraag 22 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Non-Fiction",
+      "es": "Pregunta 23 sobre Non-Fiction",
+      "de": "Frage 23 über Non-Fiction",
+      "nl": "Vraag 23 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Non-Fiction",
+      "es": "Pregunta 24 sobre Non-Fiction",
+      "de": "Frage 24 über Non-Fiction",
+      "nl": "Vraag 24 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Non-Fiction",
+      "es": "Pregunta 25 sobre Non-Fiction",
+      "de": "Frage 25 über Non-Fiction",
+      "nl": "Vraag 25 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Non-Fiction",
+      "es": "Pregunta 26 sobre Non-Fiction",
+      "de": "Frage 26 über Non-Fiction",
+      "nl": "Vraag 26 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Non-Fiction",
+      "es": "Pregunta 27 sobre Non-Fiction",
+      "de": "Frage 27 über Non-Fiction",
+      "nl": "Vraag 27 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Non-Fiction",
+      "es": "Pregunta 28 sobre Non-Fiction",
+      "de": "Frage 28 über Non-Fiction",
+      "nl": "Vraag 28 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Non-Fiction",
+      "es": "Pregunta 29 sobre Non-Fiction",
+      "de": "Frage 29 über Non-Fiction",
+      "nl": "Vraag 29 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Non-Fiction",
+      "es": "Pregunta 30 sobre Non-Fiction",
+      "de": "Frage 30 über Non-Fiction",
+      "nl": "Vraag 30 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Non-Fiction",
+      "es": "Pregunta 31 sobre Non-Fiction",
+      "de": "Frage 31 über Non-Fiction",
+      "nl": "Vraag 31 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Non-Fiction",
+      "es": "Pregunta 32 sobre Non-Fiction",
+      "de": "Frage 32 über Non-Fiction",
+      "nl": "Vraag 32 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Non-Fiction",
+      "es": "Pregunta 33 sobre Non-Fiction",
+      "de": "Frage 33 über Non-Fiction",
+      "nl": "Vraag 33 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Non-Fiction",
+      "es": "Pregunta 34 sobre Non-Fiction",
+      "de": "Frage 34 über Non-Fiction",
+      "nl": "Vraag 34 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Non-Fiction",
+      "es": "Pregunta 35 sobre Non-Fiction",
+      "de": "Frage 35 über Non-Fiction",
+      "nl": "Vraag 35 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Non-Fiction",
+      "es": "Pregunta 36 sobre Non-Fiction",
+      "de": "Frage 36 über Non-Fiction",
+      "nl": "Vraag 36 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Non-Fiction",
+      "es": "Pregunta 37 sobre Non-Fiction",
+      "de": "Frage 37 über Non-Fiction",
+      "nl": "Vraag 37 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Non-Fiction",
+      "es": "Pregunta 38 sobre Non-Fiction",
+      "de": "Frage 38 über Non-Fiction",
+      "nl": "Vraag 38 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Non-Fiction",
+      "es": "Pregunta 39 sobre Non-Fiction",
+      "de": "Frage 39 über Non-Fiction",
+      "nl": "Vraag 39 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Non-Fiction",
+      "es": "Pregunta 40 sobre Non-Fiction",
+      "de": "Frage 40 über Non-Fiction",
+      "nl": "Vraag 40 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Non-Fiction",
+      "es": "Pregunta 41 sobre Non-Fiction",
+      "de": "Frage 41 über Non-Fiction",
+      "nl": "Vraag 41 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Non-Fiction",
+      "es": "Pregunta 42 sobre Non-Fiction",
+      "de": "Frage 42 über Non-Fiction",
+      "nl": "Vraag 42 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Non-Fiction",
+      "es": "Pregunta 43 sobre Non-Fiction",
+      "de": "Frage 43 über Non-Fiction",
+      "nl": "Vraag 43 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Non-Fiction",
+      "es": "Pregunta 44 sobre Non-Fiction",
+      "de": "Frage 44 über Non-Fiction",
+      "nl": "Vraag 44 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Non-Fiction",
+      "es": "Pregunta 45 sobre Non-Fiction",
+      "de": "Frage 45 über Non-Fiction",
+      "nl": "Vraag 45 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Non-Fiction",
+      "es": "Pregunta 46 sobre Non-Fiction",
+      "de": "Frage 46 über Non-Fiction",
+      "nl": "Vraag 46 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Non-Fiction",
+      "es": "Pregunta 47 sobre Non-Fiction",
+      "de": "Frage 47 über Non-Fiction",
+      "nl": "Vraag 47 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Non-Fiction",
+      "es": "Pregunta 48 sobre Non-Fiction",
+      "de": "Frage 48 über Non-Fiction",
+      "nl": "Vraag 48 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Non-Fiction",
+      "es": "Pregunta 49 sobre Non-Fiction",
+      "de": "Frage 49 über Non-Fiction",
+      "nl": "Vraag 49 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Non-Fiction",
+      "es": "Pregunta 50 sobre Non-Fiction",
+      "de": "Frage 50 über Non-Fiction",
+      "nl": "Vraag 50 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Non-Fiction",
+      "es": "Pregunta 51 sobre Non-Fiction",
+      "de": "Frage 51 über Non-Fiction",
+      "nl": "Vraag 51 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Non-Fiction",
+      "es": "Pregunta 52 sobre Non-Fiction",
+      "de": "Frage 52 über Non-Fiction",
+      "nl": "Vraag 52 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Non-Fiction",
+      "es": "Pregunta 53 sobre Non-Fiction",
+      "de": "Frage 53 über Non-Fiction",
+      "nl": "Vraag 53 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Non-Fiction",
+      "es": "Pregunta 54 sobre Non-Fiction",
+      "de": "Frage 54 über Non-Fiction",
+      "nl": "Vraag 54 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Non-Fiction",
+      "es": "Pregunta 55 sobre Non-Fiction",
+      "de": "Frage 55 über Non-Fiction",
+      "nl": "Vraag 55 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Non-Fiction",
+      "es": "Pregunta 56 sobre Non-Fiction",
+      "de": "Frage 56 über Non-Fiction",
+      "nl": "Vraag 56 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Non-Fiction",
+      "es": "Pregunta 57 sobre Non-Fiction",
+      "de": "Frage 57 über Non-Fiction",
+      "nl": "Vraag 57 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Non-Fiction",
+      "es": "Pregunta 58 sobre Non-Fiction",
+      "de": "Frage 58 über Non-Fiction",
+      "nl": "Vraag 58 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Non-Fiction",
+      "es": "Pregunta 59 sobre Non-Fiction",
+      "de": "Frage 59 über Non-Fiction",
+      "nl": "Vraag 59 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Non-Fiction",
+      "es": "Pregunta 60 sobre Non-Fiction",
+      "de": "Frage 60 über Non-Fiction",
+      "nl": "Vraag 60 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Non-Fiction",
+      "es": "Pregunta 61 sobre Non-Fiction",
+      "de": "Frage 61 über Non-Fiction",
+      "nl": "Vraag 61 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Non-Fiction",
+      "es": "Pregunta 62 sobre Non-Fiction",
+      "de": "Frage 62 über Non-Fiction",
+      "nl": "Vraag 62 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Non-Fiction",
+      "es": "Pregunta 63 sobre Non-Fiction",
+      "de": "Frage 63 über Non-Fiction",
+      "nl": "Vraag 63 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Non-Fiction",
+      "es": "Pregunta 64 sobre Non-Fiction",
+      "de": "Frage 64 über Non-Fiction",
+      "nl": "Vraag 64 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Non-Fiction",
+      "es": "Pregunta 65 sobre Non-Fiction",
+      "de": "Frage 65 über Non-Fiction",
+      "nl": "Vraag 65 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Non-Fiction",
+      "es": "Pregunta 66 sobre Non-Fiction",
+      "de": "Frage 66 über Non-Fiction",
+      "nl": "Vraag 66 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Non-Fiction",
+      "es": "Pregunta 67 sobre Non-Fiction",
+      "de": "Frage 67 über Non-Fiction",
+      "nl": "Vraag 67 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Non-Fiction",
+      "es": "Pregunta 68 sobre Non-Fiction",
+      "de": "Frage 68 über Non-Fiction",
+      "nl": "Vraag 68 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Non-Fiction",
+      "es": "Pregunta 69 sobre Non-Fiction",
+      "de": "Frage 69 über Non-Fiction",
+      "nl": "Vraag 69 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Non-Fiction",
+      "es": "Pregunta 70 sobre Non-Fiction",
+      "de": "Frage 70 über Non-Fiction",
+      "nl": "Vraag 70 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Non-Fiction",
+      "es": "Pregunta 71 sobre Non-Fiction",
+      "de": "Frage 71 über Non-Fiction",
+      "nl": "Vraag 71 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Non-Fiction",
+      "es": "Pregunta 72 sobre Non-Fiction",
+      "de": "Frage 72 über Non-Fiction",
+      "nl": "Vraag 72 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Non-Fiction",
+      "es": "Pregunta 73 sobre Non-Fiction",
+      "de": "Frage 73 über Non-Fiction",
+      "nl": "Vraag 73 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Non-Fiction",
+      "es": "Pregunta 74 sobre Non-Fiction",
+      "de": "Frage 74 über Non-Fiction",
+      "nl": "Vraag 74 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Non-Fiction",
+      "es": "Pregunta 75 sobre Non-Fiction",
+      "de": "Frage 75 über Non-Fiction",
+      "nl": "Vraag 75 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Non-Fiction",
+      "es": "Pregunta 76 sobre Non-Fiction",
+      "de": "Frage 76 über Non-Fiction",
+      "nl": "Vraag 76 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Non-Fiction",
+      "es": "Pregunta 77 sobre Non-Fiction",
+      "de": "Frage 77 über Non-Fiction",
+      "nl": "Vraag 77 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Non-Fiction",
+      "es": "Pregunta 78 sobre Non-Fiction",
+      "de": "Frage 78 über Non-Fiction",
+      "nl": "Vraag 78 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Non-Fiction",
+      "es": "Pregunta 79 sobre Non-Fiction",
+      "de": "Frage 79 über Non-Fiction",
+      "nl": "Vraag 79 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Non-Fiction",
+      "es": "Pregunta 80 sobre Non-Fiction",
+      "de": "Frage 80 über Non-Fiction",
+      "nl": "Vraag 80 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Non-Fiction",
+      "es": "Pregunta 81 sobre Non-Fiction",
+      "de": "Frage 81 über Non-Fiction",
+      "nl": "Vraag 81 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Non-Fiction",
+      "es": "Pregunta 82 sobre Non-Fiction",
+      "de": "Frage 82 über Non-Fiction",
+      "nl": "Vraag 82 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Non-Fiction",
+      "es": "Pregunta 83 sobre Non-Fiction",
+      "de": "Frage 83 über Non-Fiction",
+      "nl": "Vraag 83 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Non-Fiction",
+      "es": "Pregunta 84 sobre Non-Fiction",
+      "de": "Frage 84 über Non-Fiction",
+      "nl": "Vraag 84 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Non-Fiction",
+      "es": "Pregunta 85 sobre Non-Fiction",
+      "de": "Frage 85 über Non-Fiction",
+      "nl": "Vraag 85 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Non-Fiction",
+      "es": "Pregunta 86 sobre Non-Fiction",
+      "de": "Frage 86 über Non-Fiction",
+      "nl": "Vraag 86 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Non-Fiction",
+      "es": "Pregunta 87 sobre Non-Fiction",
+      "de": "Frage 87 über Non-Fiction",
+      "nl": "Vraag 87 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Non-Fiction",
+      "es": "Pregunta 88 sobre Non-Fiction",
+      "de": "Frage 88 über Non-Fiction",
+      "nl": "Vraag 88 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Non-Fiction",
+      "es": "Pregunta 89 sobre Non-Fiction",
+      "de": "Frage 89 über Non-Fiction",
+      "nl": "Vraag 89 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Non-Fiction",
+      "es": "Pregunta 90 sobre Non-Fiction",
+      "de": "Frage 90 über Non-Fiction",
+      "nl": "Vraag 90 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Non-Fiction",
+      "es": "Pregunta 91 sobre Non-Fiction",
+      "de": "Frage 91 über Non-Fiction",
+      "nl": "Vraag 91 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Non-Fiction",
+      "es": "Pregunta 92 sobre Non-Fiction",
+      "de": "Frage 92 über Non-Fiction",
+      "nl": "Vraag 92 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Non-Fiction",
+      "es": "Pregunta 93 sobre Non-Fiction",
+      "de": "Frage 93 über Non-Fiction",
+      "nl": "Vraag 93 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Non-Fiction",
+      "es": "Pregunta 94 sobre Non-Fiction",
+      "de": "Frage 94 über Non-Fiction",
+      "nl": "Vraag 94 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Non-Fiction",
+      "es": "Pregunta 95 sobre Non-Fiction",
+      "de": "Frage 95 über Non-Fiction",
+      "nl": "Vraag 95 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Non-Fiction",
+      "es": "Pregunta 96 sobre Non-Fiction",
+      "de": "Frage 96 über Non-Fiction",
+      "nl": "Vraag 96 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Non-Fiction",
+      "es": "Pregunta 97 sobre Non-Fiction",
+      "de": "Frage 97 über Non-Fiction",
+      "nl": "Vraag 97 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Non-Fiction",
+      "es": "Pregunta 98 sobre Non-Fiction",
+      "de": "Frage 98 über Non-Fiction",
+      "nl": "Vraag 98 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Non-Fiction",
+      "es": "Pregunta 99 sobre Non-Fiction",
+      "de": "Frage 99 über Non-Fiction",
+      "nl": "Vraag 99 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Non-Fiction",
+      "es": "Pregunta 100 sobre Non-Fiction",
+      "de": "Frage 100 über Non-Fiction",
+      "nl": "Vraag 100 over Non-Fiction"
+    },
+    "options": [
+      {
+        "en": "Answer A for Non-Fiction",
+        "es": "Respuesta A para Non-Fiction",
+        "de": "Antwort A für Non-Fiction",
+        "nl": "Antwoord A voor Non-Fiction"
+      },
+      {
+        "en": "Answer B for Non-Fiction",
+        "es": "Respuesta B para Non-Fiction",
+        "de": "Antwort B für Non-Fiction",
+        "nl": "Antwoord B voor Non-Fiction"
+      },
+      {
+        "en": "Answer C for Non-Fiction",
+        "es": "Respuesta C para Non-Fiction",
+        "de": "Antwort C für Non-Fiction",
+        "nl": "Antwoord C voor Non-Fiction"
+      },
+      {
+        "en": "Answer D for Non-Fiction",
+        "es": "Respuesta D para Non-Fiction",
+        "de": "Antwort D für Non-Fiction",
+        "nl": "Antwoord D voor Non-Fiction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Non-Fiction.",
+      "es": "Esta es la respuesta correcta sobre Non-Fiction.",
+      "de": "Dies ist die richtige Antwort über Non-Fiction.",
+      "nl": "Dit is het juiste antwoord over Non-Fiction."
+    }
   }
-})();
+]
+};

@@ -1,1657 +1,4104 @@
-// Yuan Quiz - Level 7
-(function() {
-  const level7 = {
-    name: {
-          "en": "Chinese Yuan (Level 7 - Master)",
-          "es": "Yuan Chino (Nivel 7 - Maestro)",
-          "de": "Chinesischer Yuan (Stufe 7 - Meister)",
-          "nl": "Chinese Yuan (Level 7 - Meester)"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Yuan",
+      "es": "Pregunta 1 sobre Yuan",
+      "de": "Frage 1 über Yuan",
+      "nl": "Vraag 1 over Yuan"
     },
-    questions: [
+    "options": [
       {
-        question: {
-                  "en": "How do multi-dimensional game theory dynamics between the PBOC, Federal Reserve, ECB, and Bank of Japan create emergent Yuan equilibrium patterns in global liquidity cycles?",
-                  "es": "¿Cómo crean las dinámicas de teoría de juegos multidimensional entre el PBOC, la Reserva Federal, el BCE y el Banco de Japón patrones emergentes de equilibrio del Yuan en los ciclos de liquidez global?",
-                  "de": "Wie schaffen mehrdimensionale Spieltheorie-Dynamiken zwischen PBOC, Federal Reserve, EZB und Bank of Japan emergente Yuan-Gleichgewichtsmuster in globalen Liquiditätszyklen?",
-                  "nl": "Hoe creëren multidimensionale speltheorie-dynamieken tussen de PBOC, Federal Reserve, ECB en Bank of Japan emergente Yuan-evenwichtspatronen in mondiale liquiditeitscycli?"
-        },
-        options: [
-        {
-                  "en": "Eliminates all strategic interactions through automated policy coordination",
-                  "es": "Elimina todas las interacciones estratégicas a través de coordinación automatizada de políticas",
-                  "de": "Eliminiert alle strategischen Interaktionen durch automatisierte Politikkoordination",
-                  "nl": "Elimineert alle strategische interacties door geautomatiseerde beleidscoördinatie"
-        },
-        {
-                  "en": "Creates predictable Nash equilibrium with stable Yuan positioning",
-                  "es": "Crea un equilibrio de Nash predecible con posicionamiento estable del Yuan",
-                  "de": "Schafft vorhersagbares Nash-Gleichgewicht mit stabiler Yuan-Positionierung",
-                  "nl": "Creëert voorspelbaar Nash-evenwicht met stabiele Yuan-positionering"
-        },
-        {
-                  "en": "Generates complex adaptive equilibria where Yuan positioning evolves through strategic interdependence and information cascades",
-                  "es": "Genera equilibrios adaptativos complejos donde el posicionamiento del Yuan evoluciona a través de interdependencia estratégica y cascadas de información",
-                  "de": "Erzeugt komplexe adaptive Gleichgewichte, bei denen sich Yuan-Positionierung durch strategische Interdependenz und Informationskaskaden entwickelt",
-                  "nl": "Genereert complexe adaptieve evenwichten waarbij Yuan-positionering evolueert door strategische interdependentie en informatie-cascades"
-        },
-        {
-                  "en": "Forces zero-sum competition with deterministic Yuan outcomes",
-                  "es": "Fuerza competencia de suma cero con resultados determinísticos del Yuan",
-                  "de": "Zwingt zu Nullsummen-Konkurrenz mit deterministischen Yuan-Ergebnissen",
-                  "nl": "Dwingt nul-som concurrentie af met deterministische Yuan-uitkomsten"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The interaction between major central banks creates complex adaptive equilibria where Yuan positioning emerges from multi-level strategic games. Each central bank's policy decisions create information cascades that influence other banks' optimal strategies, leading to emergent equilibrium patterns that cannot be predicted from individual bank preferences alone. The PBOC's Yuan policy responses to Fed actions trigger ECB and BoJ adjustments, creating dynamic feedback loops where equilibria continuously evolve based on changing strategic landscapes and information revelation patterns.",
-                  "es": "La interacción entre los principales bancos centrales crea equilibrios adaptativos complejos donde el posicionamiento del Yuan emerge de juegos estratégicos multinivel. Las decisiones de política de cada banco central crean cascadas de información que influyen en las estrategias óptimas de otros bancos, llevando a patrones de equilibrio emergentes que no pueden predecirse solo desde las preferencias de bancos individuales. Las respuestas de política del Yuan del PBOC a las acciones de la Fed desencadenan ajustes del BCE y BoJ, creando bucles de retroalimentación dinámicos donde los equilibrios evolucionan continuamente basados en paisajes estratégicos cambiantes y patrones de revelación de información.",
-                  "de": "Die Interaktion zwischen großen Zentralbanken schafft komplexe adaptive Gleichgewichte, bei denen Yuan-Positionierung aus mehrstufigen strategischen Spielen entsteht. Jeder Zentralbank-Politikentscheidung schafft Informationskaskaden, die optimale Strategien anderer Banken beeinflussen und zu emergenten Gleichgewichtsmustern führen, die nicht allein aus individuellen Bankpräferenzen vorhergesagt werden können. Die Yuan-Politikantworten der PBOC auf Fed-Aktionen lösen EZB- und BoJ-Anpassungen aus und schaffen dynamische Feedback-Schleifen, bei denen sich Gleichgewichte kontinuierlich basierend auf sich ändernden strategischen Landschaften und Informationsoffenbarungsmustern entwickeln.",
-                  "nl": "De interactie tussen grote centrale banken creëert complexe adaptieve evenwichten waarbij Yuan-positionering voortkomt uit meerlagige strategische spelen. Elke centrale bank's beleidsbeslissingen creëren informatie-cascades die optimale strategieën van andere banken beïnvloeden, wat leidt tot emergente evenwichtspatronen die niet voorspeld kunnen worden uit individuele bankvoorkeuren alleen. De PBOC's Yuan-beleidsreacties op Fed-acties triggeren ECB en BoJ-aanpassingen, wat dynamische feedback-loops creëert waarbij evenwichten continu evolueren gebaseerd op veranderende strategische landschappen en informatie-onthullingspatronen."
-        }
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
       },
       {
-        question: {
-                  "en": "What are the thermodynamic analogies in Yuan market microstructure that govern entropy production, energy dissipation, and information flow optimization across trading venues?",
-                  "es": "¿Cuáles son las analogías termodinámicas en la microestructura del mercado del Yuan que gobiernan la producción de entropía, disipación de energía y optimización del flujo de información a través de los lugares de trading?",
-                  "de": "Was sind die thermodynamischen Analogien in der Yuan-Marktmikrostruktur, die Entropieproduktion, Energiedissipation und Informationsfluss-Optimierung über Handelsplätze hinweg regeln?",
-                  "nl": "Wat zijn de thermodynamische analogieën in Yuan-marktmicrostructuur die entropieproductie, energiedissipatie en informatiestroomoptimalisatie over handelslocaties regeren?"
-        },
-        options: [
-        {
-                  "en": "Forces uniform temperature across all markets regardless of trading activity",
-                  "es": "Fuerza temperatura uniforme en todos los mercados independientemente de la actividad de trading",
-                  "de": "Zwingt zu einheitlicher Temperatur über alle Märkte unabhängig von Handelsaktivität",
-                  "nl": "Dwingt uniforme temperatuur af over alle markten ongeacht handelsactiviteit"
-        },
-        {
-                  "en": "Establishes maximum entropy production principles where market efficiency emerges through optimal energy dissipation and information gradient exploitation",
-                  "es": "Establece principios de producción máxima de entropía donde la eficiencia del mercado emerge a través de disipación óptima de energía y explotación de gradientes de información",
-                  "de": "Etabliert maximale Entropieproduktionsprinzipien, bei denen Markteffizienz durch optimale Energiedissipation und Informationsgradient-Ausnutzung entsteht",
-                  "nl": "Vestigt maximale entropieproductieprincipes waarbij marktefficiëntie ontstaat door optimale energiedissipatie en informatiegradiënt-exploitatie"
-        },
-        {
-                  "en": "Creates perfect equilibrium with zero entropy production in all trading venues",
-                  "es": "Crea equilibrio perfecto con producción cero de entropía en todos los lugares de trading",
-                  "de": "Schafft perfektes Gleichgewicht mit Null-Entropieproduktion in allen Handelsplätzen",
-                  "nl": "Creëert perfect evenwicht met nul entropieproductie in alle handelslocaties"
-        },
-        {
-                  "en": "Eliminates all energy dissipation through frictionless trading mechanisms",
-                  "es": "Elimina toda disipación de energía a través de mecanismos de trading sin fricción",
-                  "de": "Eliminiert alle Energiedissipation durch reibungslose Handelsmechanismen",
-                  "nl": "Elimineert alle energiedissipatie door wrijvingsloze handelsmechanismen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Yuan market microstructure exhibits thermodynamic principles where maximum entropy production drives market efficiency. Trading venues act as dissipative structures that optimize energy flow through price discovery processes. Information gradients create 'temperature differences' that drive trading flows, with market makers serving as 'heat engines' that extract value from these gradients. The system evolves toward configurations that maximize entropy production rate, leading to optimal information processing and liquidity distribution patterns that emerge spontaneously from microscopic trading interactions.",
-                  "es": "La microestructura del mercado del Yuan exhibe principios termodinámicos donde la producción máxima de entropía impulsa la eficiencia del mercado. Los lugares de trading actúan como estructuras disipativas que optimizan el flujo de energía a través de procesos de descubrimiento de precios. Los gradientes de información crean 'diferencias de temperatura' que impulsan flujos de trading, con creadores de mercado sirviendo como 'motores de calor' que extraen valor de estos gradientes. El sistema evoluciona hacia configuraciones que maximizan la tasa de producción de entropía, llevando a procesamiento óptimo de información y patrones de distribución de liquidez que emergen espontáneamente de interacciones microscópicas de trading.",
-                  "de": "Yuan-Marktmikrostruktur zeigt thermodynamische Prinzipien, bei denen maximale Entropieproduktion Markteffizienz antreibt. Handelsplätze wirken als dissipative Strukturen, die Energiefluss durch Preisfindungsprozesse optimieren. Informationsgradienten schaffen 'Temperaturunterschiede', die Handelsströme antreiben, wobei Market Maker als 'Wärmemaschinen' dienen, die Wert aus diesen Gradienten extrahieren. Das System entwickelt sich zu Konfigurationen, die Entropieproduktionsrate maximieren und zu optimaler Informationsverarbeitung und Liquiditätsverteilungsmustern führen, die spontan aus mikroskopischen Handelsinteraktionen entstehen.",
-                  "nl": "Yuan-marktmicrostructuur vertoont thermodynamische principes waarbij maximale entropieproductie marktefficiëntie aandrijft. Handelslocaties fungeren als dissipatieve structuren die energiestroom optimaliseren door prijsontdekkingsprocessen. Informatiegradiënten creëren 'temperatuurverschillen' die handelsstromen aandrijven, waarbij marktmakers dienen als 'warmtemotoren' die waarde extraheren uit deze gradiënten. Het systeem evolueert naar configuraties die entropieproductiesnelheid maximaliseren, wat leidt tot optimale informatieverwerking en liquiditeitsdistributiepatronen die spontaan ontstaan uit microscopische handelsinteracties."
-        }
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
       },
       {
-        question: {
-                  "en": "How do non-linear dynamical systems theory and chaos mathematics explain Yuan exchange rate evolution patterns and predict regime transitions in complex monetary environments?",
-                  "es": "¿Cómo explican la teoría de sistemas dinámicos no lineales y las matemáticas del caos los patrones de evolución del tipo de cambio del Yuan y predicen transiciones de régimen en entornos monetarios complejos?",
-                  "de": "Wie erklären nichtlineare Dynamiksystemtheorie und Chaos-Mathematik Yuan-Wechselkurs-Evolutionsmuster und sagen Regimeübergänge in komplexen monetären Umgebungen vorher?",
-                  "nl": "Hoe verklaren niet-lineaire dynamische systeemtheorie en chaosmathematica Yuan-wisselkoersevolutiepatronen en voorspellen regimetransities in complexe monetaire omgevingen?"
-        },
-        options: [
-        {
-                  "en": "Eliminates all unpredictability through advanced mathematical modeling",
-                  "es": "Elimina toda impredecibilidad a través de modelado matemático avanzado",
-                  "de": "Eliminiert alle Unvorhersagbarkeit durch fortgeschrittene mathematische Modellierung",
-                  "nl": "Elimineert alle onvoorspelbaarheid door geavanceerde wiskundige modellering"
-        },
-        {
-                  "en": "Reveals strange attractors, bifurcation cascades, and sensitive dependence on initial conditions that enable probabilistic regime transition forecasting",
-                  "es": "Revela atractores extraños, cascadas de bifurcación y dependencia sensible de condiciones iniciales que permiten pronósticos probabilísticos de transición de régimen",
-                  "de": "Enthüllt seltsame Attraktoren, Bifurkationskaskaden und empfindliche Abhängigkeit von Anfangsbedingungen, die probabilistische Regimeübergangs-Vorhersagen ermöglichen",
-                  "nl": "Onthult vreemde attractoren, bifurcatiecascades en gevoelige afhankelijkheid van beginvoorwaarden die probabilistische regimetransitievoorspellingen mogelijk maken"
-        },
-        {
-                  "en": "Creates linear predictable patterns with deterministic long-term forecasting",
-                  "es": "Crea patrones lineales predecibles con pronósticos determinísticos a largo plazo",
-                  "de": "Schafft lineare vorhersagbare Muster mit deterministischen Langzeitprognosen",
-                  "nl": "Creëert lineaire voorspelbare patronen met deterministische langetermijnvoorspellingen"
-        },
-        {
-                  "en": "Forces random walk behavior with no systematic patterns",
-                  "es": "Fuerza comportamiento de caminata aleatoria sin patrones sistemáticos",
-                  "de": "Zwingt zu Random-Walk-Verhalten ohne systematische Muster",
-                  "nl": "Dwingt random walk-gedrag af zonder systematische patronen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Yuan exchange rate dynamics exhibit characteristics of non-linear dynamical systems including strange attractors, bifurcation points, and sensitive dependence on initial conditions. The system evolves through multiple regimes (managed float, crisis intervention, internationalization phases) with transitions triggered by parameter changes that push the system past critical thresholds. Chaos mathematics reveals hidden patterns in seemingly random fluctuations, enabling identification of precursor signals for regime transitions while acknowledging fundamental limits to long-term predictability due to exponential sensitivity to small perturbations.",
-                  "es": "La dinámica del tipo de cambio del Yuan exhibe características de sistemas dinámicos no lineales incluyendo atractores extraños, puntos de bifurcación y dependencia sensible de condiciones iniciales. El sistema evoluciona a través de múltiples regímenes (flotación administrada, intervención de crisis, fases de internacionalización) con transiciones desencadenadas por cambios de parámetros que empujan el sistema más allá de umbrales críticos. Las matemáticas del caos revelan patrones ocultos en fluctuaciones aparentemente aleatorias, permitiendo identificación de señales precursoras para transiciones de régimen mientras reconocen límites fundamentales a la predictibilidad a largo plazo debido a sensibilidad exponencial a pequeñas perturbaciones.",
-                  "de": "Yuan-Wechselkurs-Dynamiken zeigen Charakteristika nichtlinearer Dynamiksysteme einschließlich seltsamer Attraktoren, Bifurkationspunkte und empfindlicher Abhängigkeit von Anfangsbedingungen. Das System entwickelt sich durch mehrere Regime (verwaltete Floating, Krisenintervention, Internationalisierungsphasen) mit Übergängen, die durch Parameteränderungen ausgelöst werden, die das System über kritische Schwellenwerte hinausschieben. Chaos-Mathematik enthüllt versteckte Muster in scheinbar zufälligen Fluktuationen und ermöglicht Identifikation von Vorläufersignalen für Regimeübergänge, während fundamentale Grenzen für Langzeit-Vorhersagbarkeit aufgrund exponentieller Sensitivität gegenüber kleinen Störungen anerkannt werden.",
-                  "nl": "Yuan-wisselkoersdynamiek vertoont kenmerken van niet-lineaire dynamische systemen inclusief vreemde attractoren, bifurcatiepunten en gevoelige afhankelijkheid van beginvoorwaarden. Het systeem evolueert door meerdere regimes (beheerde floating, crisisinterventie, internationalisatiefases) met transities getriggerd door parameterveranderingen die het systeem voorbij kritieke drempels duwen. Chaosmathematica onthult verborgen patronen in ogenschijnlijk willekeurige fluctuaties, wat identificatie van voorlopersignalen voor regimetransities mogelijk maakt terwijl fundamentele grenzen aan langetermijnvoorspelbaarheid worden erkend vanwege exponentiële gevoeligheid voor kleine verstoringen."
-        }
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
       },
       {
-        question: {
-                  "en": "What role do quantum information theory principles play in optimizing Yuan payment network routing, consensus mechanisms, and cryptographic security architectures?",
-                  "es": "¿Qué papel juegan los principios de la teoría de información cuántica en la optimización del enrutamiento de redes de pago del Yuan, mecanismos de consenso y arquitecturas de seguridad criptográfica?",
-                  "de": "Welche Rolle spielen Quanteninformationstheorie-Prinzipien bei der Optimierung von Yuan-Zahlungsnetzwerk-Routing, Konsensmechanismen und kryptographischen Sicherheitsarchitekturen?",
-                  "nl": "Welke rol spelen quantuminformatietheorie-principes bij het optimaliseren van Yuan-betalingsnetwerk routing, consensusmechanismen en cryptografische beveiligingsarchitecturen?"
-        },
-        options: [
-        {
-                  "en": "Enables quantum entanglement-based routing optimization, quantum error correction for consensus, and unconditional security through quantum key distribution",
-                  "es": "Permite optimización de enrutamiento basada en entrelazamiento cuántico, corrección de errores cuánticos para consenso y seguridad incondicional a través de distribución de claves cuánticas",
-                  "de": "Ermöglicht Quantenverschränkungs-basierte Routing-Optimierung, Quantenfehlerkorrektur für Konsens und bedingungslose Sicherheit durch Quantenschlüsselverteilung",
-                  "nl": "Maakt quantum verstrengeling-gebaseerde routing-optimalisatie mogelijk, quantum foutcorrectie voor consensus, en onvoorwaardelijke beveiliging door quantum sleuteldistributie"
-        },
-        {
-                  "en": "Creates classical information processing with traditional cryptographic methods",
-                  "es": "Crea procesamiento de información clásico con métodos criptográficos tradicionales",
-                  "de": "Schafft klassische Informationsverarbeitung mit traditionellen kryptographischen Methoden",
-                  "nl": "Creëert klassieke informatieverwerking met traditionele cryptografische methoden"
-        },
-        {
-                  "en": "Eliminates all information processing requirements through automated systems",
-                  "es": "Elimina todos los requisitos de procesamiento de información a través de sistemas automatizados",
-                  "de": "Eliminiert alle Informationsverarbeitungsanforderungen durch automatisierte Systeme",
-                  "nl": "Elimineert alle informatieverwerkingsvereisten door geautomatiseerde systemen"
-        },
-        {
-                  "en": "Forces uniform processing across all network nodes regardless of quantum capabilities",
-                  "es": "Fuerza procesamiento uniforme en todos los nodos de red independientemente de capacidades cuánticas",
-                  "de": "Zwingt zu einheitlicher Verarbeitung über alle Netzwerkknoten unabhängig von Quantenfähigkeiten",
-                  "nl": "Dwingt uniforme verwerking af over alle netwerkknopen ongeacht quantumcapaciteiten"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Quantum information theory enables revolutionary improvements in Yuan payment systems through quantum entanglement-based routing that achieves optimal path selection with exponentially reduced computational complexity. Quantum error correction protocols ensure fault-tolerant consensus mechanisms that can maintain network integrity even under adversarial conditions. Quantum key distribution provides unconditional security guarantees for Yuan transactions, while quantum algorithms enable efficient solutions to NP-hard optimization problems in network resource allocation and fraud detection, creating fundamentally superior payment infrastructure compared to classical systems.",
-                  "es": "La teoría de información cuántica permite mejoras revolucionarias en sistemas de pago del Yuan a través de enrutamiento basado en entrelazamiento cuántico que logra selección óptima de rutas con complejidad computacional exponencialmente reducida. Los protocolos de corrección de errores cuánticos aseguran mecanismos de consenso tolerantes a fallas que pueden mantener integridad de red incluso bajo condiciones adversas. La distribución de claves cuánticas proporciona garantías de seguridad incondicional para transacciones del Yuan, mientras algoritmos cuánticos permiten soluciones eficientes a problemas de optimización NP-hard en asignación de recursos de red y detección de fraude, creando infraestructura de pago fundamentalmente superior comparada con sistemas clásicos.",
-                  "de": "Quanteninformationstheorie ermöglicht revolutionäre Verbesserungen in Yuan-Zahlungssystemen durch Quantenverschränkungs-basiertes Routing, das optimale Pfadauswahl mit exponentiell reduzierter Berechnungskomplexität erreicht. Quantenfehlerkorrektur-Protokolle gewährleisten fehlertolerante Konsensmechanismen, die Netzwerkintegrität selbst unter adversariellen Bedingungen aufrechterhalten können. Quantenschlüsselverteilung bietet bedingungslose Sicherheitsgarantien für Yuan-Transaktionen, während Quantenalgorithmen effiziente Lösungen für NP-schwere Optimierungsprobleme in Netzwerkressourcen-Allokation und Betrugserkennung ermöglichen und fundamental überlegene Zahlungsinfrastruktur im Vergleich zu klassischen Systemen schaffen.",
-                  "nl": "Quantuminformatietheorie maakt revolutionaire verbeteringen mogelijk in Yuan-betalingssystemen door quantum verstrengeling-gebaseerde routing die optimale padkeuze bereikt met exponentieel verminderde computationele complexiteit. Quantum foutcorrectieprotocollen verzekeren fouttolerantie consensusmechanismen die netwerkintegriteit kunnen behouden zelfs onder vijandige omstandigheden. Quantum sleuteldistributie biedt onvoorwaardelijke beveiligingsgaranties voor Yuan-transacties, terwijl quantumalgoritmes efficiënte oplossingen mogelijk maken voor NP-moeilijke optimalisatieproblemen in netwerkresource-allocatie en fraudedetectie, wat fundamenteel superieure betalingsinfrastructuur creëert vergeleken met klassieke systemen."
-        }
-      },
-      {
-        question: {
-                  "en": "How do biological network topology principles and evolutionary algorithms optimize Yuan trade settlement networks for resilience, adaptability, and emergent intelligence?",
-                  "es": "¿Cómo optimizan los principios de topología de redes biológicas y algoritmos evolutivos las redes de liquidación comercial del Yuan para resistencia, adaptabilidad e inteligencia emergente?",
-                  "de": "Wie optimieren biologische Netzwerktopologie-Prinzipien und evolutionäre Algorithmen Yuan-Handelsabwicklungsnetzwerke für Resilienz, Anpassungsfähigkeit und emergente Intelligenz?",
-                  "nl": "Hoe optimaliseren biologische netwerktopologie-principes en evolutionaire algoritmes Yuan-handelsafwikkelingsnetwerken voor veerkracht, aanpasbaarheid en emergente intelligentie?"
-        },
-        options: [
-        {
-                  "en": "Forces random network connections without optimization principles",
-                  "es": "Fuerza conexiones de red aleatorias sin principios de optimización",
-                  "de": "Zwingt zu zufälligen Netzwerkverbindungen ohne Optimierungsprinzipien",
-                  "nl": "Dwingt willekeurige netwerkconnecties af zonder optimalisatieprincipes"
-        },
-        {
-                  "en": "Establishes scale-free, small-world networks with distributed intelligence, adaptive routing, and self-healing capabilities through biomimetic evolution",
-                  "es": "Establece redes libres de escala y de mundo pequeño con inteligencia distribuida, enrutamiento adaptativo y capacidades de autocuración a través de evolución biomimética",
-                  "de": "Etabliert skalenfreie Small-World-Netzwerke mit verteilter Intelligenz, adaptivem Routing und Selbstheilungsfähigkeiten durch biomimetische Evolution",
-                  "nl": "Vestigt schaalvrije, small-world netwerken met gedistribueerde intelligentie, adaptieve routing en zelfhelende capaciteiten door biomimetische evolutie"
-        },
-        {
-                  "en": "Creates rigid hierarchical structures with centralized control mechanisms",
-                  "es": "Crea estructuras jerárquicas rígidas con mecanismos de control centralizados",
-                  "de": "Schafft starre hierarchische Strukturen mit zentralisierten Kontrollmechanismen",
-                  "nl": "Creëert rigide hiërarchische structuren met gecentraliseerde controlemechanismen"
-        },
-        {
-                  "en": "Eliminates all network topology considerations through uniform node distribution",
-                  "es": "Elimina todas las consideraciones de topología de red a través de distribución uniforme de nodos",
-                  "de": "Eliminiert alle Netzwerktopologie-Überlegungen durch einheitliche Knotenverteilung",
-                  "nl": "Elimineert alle netwerktopologie-overwegingen door uniforme knooppuntdistributie"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Yuan settlement networks evolve through biomimetic principles that mirror biological network architectures, creating scale-free topologies with small-world properties that optimize for both efficiency and robustness. Evolutionary algorithms continuously adapt network structure based on performance metrics, developing distributed intelligence where nodes evolve specialized functions. The system exhibits emergent behaviors including self-healing after node failures, adaptive rerouting under stress, and collective optimization that emerges from local node interactions, creating networks that become more intelligent and resilient over time through evolutionary pressure.",
-                  "es": "Las redes de liquidación del Yuan evolucionan a través de principios biomiméticos que reflejan arquitecturas de redes biológicas, creando topologías libres de escala con propiedades de mundo pequeño que optimizan tanto para eficiencia como robustez. Los algoritmos evolutivos adaptan continuamente la estructura de red basada en métricas de rendimiento, desarrollando inteligencia distribuida donde los nodos evolucionan funciones especializadas. El sistema exhibe comportamientos emergentes incluyendo autocuración después de fallas de nodos, reenrutamiento adaptativo bajo estrés y optimización colectiva que emerge de interacciones locales de nodos, creando redes que se vuelven más inteligentes y resistentes con el tiempo a través de presión evolutiva.",
-                  "de": "Yuan-Abwicklungsnetzwerke entwickeln sich durch biomimetische Prinzipien, die biologische Netzwerkarchitekturen widerspiegeln und skalenfreie Topologien mit Small-World-Eigenschaften schaffen, die sowohl für Effizienz als auch Robustheit optimieren. Evolutionäre Algorithmen passen kontinuierlich Netzwerkstruktur basierend auf Leistungsmetriken an und entwickeln verteilte Intelligenz, bei der Knoten spezialisierte Funktionen entwickeln. Das System zeigt emergente Verhaltensweisen einschließlich Selbstheilung nach Knotenausfällen, adaptivem Umrouting unter Stress und kollektiver Optimierung, die aus lokalen Knoteninteraktionen entsteht und Netzwerke schafft, die durch evolutionären Druck im Laufe der Zeit intelligenter und widerstandsfähiger werden.",
-                  "nl": "Yuan-afwikkelingsnetwerken evolueren door biomimetische principes die biologische netwerkarchitecturen weerspiegelen, wat schaalvrije topologieën creëert met small-world eigenschappen die optimaliseren voor zowel efficiëntie als robuustheid. Evolutionaire algoritmes passen continu netwerkstructuur aan gebaseerd op prestatiemetrieken, waarbij gedistribueerde intelligentie wordt ontwikkeld waar knopen gespecialiseerde functies evolueren. Het systeem vertoont emergent gedrag inclusief zelfheling na knooppuntfalen, adaptieve herrouting onder stress, en collectieve optimalisatie die ontstaat uit lokale knooppuntinteracties, wat netwerken creëert die intelligenter en veerkrachtiger worden over tijd door evolutionaire druk."
-        }
-      },
-      {
-        question: {
-                  "en": "What are the implications of Yuan-denominated cognitive computing and neuromorphic chip financing for global artificial intelligence governance and computational sovereignty frameworks?",
-                  "es": "¿Cuáles son las implicaciones del financiamiento de computación cognitiva y chips neuromórficos denominado en Yuan para la gobernanza global de inteligencia artificial y marcos de soberanía computacional?",
-                  "de": "Was sind die Auswirkungen Yuan-denominierter kognitiver Computing- und neuromorpher Chip-Finanzierung auf globale Künstliche-Intelligenz-Governance und computationale Souveränitätsrahmen?",
-                  "nl": "Wat zijn de implicaties van Yuan-gedenomineerde cognitieve computing en neuromorfische chip-financiering voor mondiale kunstmatige intelligentie governance en computationele soevereiniteitsraamwerken?"
-        },
-        options: [
-        {
-                  "en": "Eliminates all computational sovereignty concerns through open-source standardization",
-                  "es": "Elimina todas las preocupaciones de soberanía computacional a través de estandarización de código abierto",
-                  "de": "Eliminiert alle computationalen Souveränitätsbedenken durch Open-Source-Standardisierung",
-                  "nl": "Elimineert alle computationele soevereiniteitszorgen door open-source standaardisatie"
-        },
-        {
-                  "en": "Forces immediate global adoption of Chinese AI governance frameworks",
-                  "es": "Fuerza la adopción global inmediata de marcos de gobernanza de IA chinos",
-                  "de": "Zwingt zur sofortigen globalen Adoption chinesischer KI-Governance-Rahmen",
-                  "nl": "Dwingt onmiddellijke mondiale adoptie af van Chinese AI-governance raamwerken"
-        },
-        {
-                  "en": "Creates uniform global AI standards independent of funding sources",
-                  "es": "Crea estándares uniformes globales de IA independientes de fuentes de financiamiento",
-                  "de": "Schafft einheitliche globale KI-Standards unabhängig von Finanzierungsquellen",
-                  "nl": "Creëert uniforme mondiale AI-standaarden onafhankelijk van financieringsbronnen"
-        },
-        {
-                  "en": "Establishes alternative computational paradigms that may fundamentally alter AI development trajectories and create new forms of technological dependencies",
-                  "es": "Establece paradigmas computacionales alternativos que pueden alterar fundamentalmente las trayectorias de desarrollo de IA y crear nuevas formas de dependencias tecnológicas",
-                  "de": "Etabliert alternative Computerparadigmen, die KI-Entwicklungstrajektorien fundamental verändern und neue Formen technologischer Abhängigkeiten schaffen können",
-                  "nl": "Vestigt alternatieve computationele paradigma's die AI-ontwikkelingstrajecten fundamenteel kunnen veranderen en nieuwe vormen van technologische afhankelijkheden kunnen creëren"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Yuan-denominated neuromorphic computing financing creates alternative AI development pathways that fundamentally differ from traditional von Neumann architectures, potentially leading to brain-inspired computing paradigms with dramatically different capabilities and limitations. This creates new forms of computational sovereignty where access to advanced neuromorphic chips becomes strategically critical. The implications include potential bifurcation of global AI development into distinct technological lineages, new dependencies on specialized hardware ecosystems, and the need for novel governance frameworks that address neuromorphic AI's unique characteristics including continuous learning, energy efficiency, and bio-inspired processing patterns.",
-                  "es": "El financiamiento de computación neuromórfica denominado en Yuan crea vías alternativas de desarrollo de IA que difieren fundamentalmente de las arquitecturas tradicionales de von Neumann, potencialmente llevando a paradigmas de computación inspirados en el cerebro con capacidades y limitaciones dramáticamente diferentes. Esto crea nuevas formas de soberanía computacional donde el acceso a chips neuromórficos avanzados se vuelve estratégicamente crítico. Las implicaciones incluyen bifurcación potencial del desarrollo global de IA en linajes tecnológicos distintos, nuevas dependencias en ecosistemas de hardware especializado, y la necesidad de marcos de gobernanza novedosos que aborden las características únicas de la IA neuromórfica incluyendo aprendizaje continuo, eficiencia energética y patrones de procesamiento bio-inspirados.",
-                  "de": "Yuan-denominierte neuromorphe Computing-Finanzierung schafft alternative KI-Entwicklungswege, die sich fundamental von traditionellen von-Neumann-Architekturen unterscheiden und möglicherweise zu gehirn-inspirierten Computing-Paradigmen mit dramatisch unterschiedlichen Fähigkeiten und Beschränkungen führen. Dies schafft neue Formen computationaler Souveränität, bei der Zugang zu fortgeschrittenen neuromorphen Chips strategisch kritisch wird. Die Auswirkungen umfassen potenzielle Bifurkation globaler KI-Entwicklung in distinkte technologische Linien, neue Abhängigkeiten von spezialisierten Hardware-Ökosystemen und die Notwendigkeit neuartiger Governance-Rahmen, die einzigartige Charakteristika neuromorpher KI adressieren, einschließlich kontinuierlichem Lernen, Energieeffizienz und bio-inspirierten Verarbeitungsmustern.",
-                  "nl": "Yuan-gedenomineerde neuromorfische computing-financiering creëert alternatieve AI-ontwikkelingspaden die fundamenteel verschillen van traditionele von Neumann-architecturen, wat mogelijk leidt tot brein-geïnspireerde computing-paradigma's met dramatisch verschillende capaciteiten en beperkingen. Dit creëert nieuwe vormen van computationele soevereiniteit waarbij toegang tot geavanceerde neuromorfische chips strategisch kritiek wordt. De implicaties omvatten potentiële bifurcatie van mondiale AI-ontwikkeling in verschillende technologische lijnen, nieuwe afhankelijkheden van gespecialiseerde hardware-ecosystemen, en de behoefte aan nieuwe governance-raamwerken die neuromorfische AI's unieke kenmerken adresseren inclusief continu leren, energie-efficiëntie en bio-geïnspireerde verwerkingspatronen."
-        }
-      },
-      {
-        question: {
-                  "en": "How do fractal geometry principles and self-similar scaling laws govern Yuan liquidity distribution across hierarchical market structures and temporal scales?",
-                  "es": "¿Cómo gobiernan los principios de geometría fractal y leyes de escalamiento autosimilar la distribución de liquidez del Yuan a través de estructuras de mercado jerárquicas y escalas temporales?",
-                  "de": "Wie regeln fraktale Geometrie-Prinzipien und selbstähnliche Skalierungsgesetze die Yuan-Liquiditätsverteilung über hierarchische Marktstrukturen und zeitliche Skalen?",
-                  "nl": "Hoe regeren fractale geometrie-principes en zelfgelijksoortige schaalwetten Yuan-liquiditeitsdistributie over hiërarchische marktstructuren en temporele schalen?"
-        },
-        options: [
-        {
-                  "en": "Creates uniform liquidity distribution with linear scaling relationships",
-                  "es": "Crea distribución uniforme de liquidez con relaciones de escalamiento lineales",
-                  "de": "Schafft einheitliche Liquiditätsverteilung mit linearen Skalierungsbeziehungen",
-                  "nl": "Creëert uniforme liquiditeitsdistributie met lineaire schaalrelaties"
-        },
-        {
-                  "en": "Establishes power-law distributions and self-similar structures where liquidity patterns repeat across multiple scales with universal scaling exponents",
-                  "es": "Establece distribuciones de ley de potencia y estructuras autosimilares donde los patrones de liquidez se repiten a través de múltiples escalas con exponentes de escalamiento universales",
-                  "de": "Etabliert Potenzgesetz-Verteilungen und selbstähnliche Strukturen, bei denen sich Liquiditätsmuster über mehrere Skalen mit universellen Skalierungsexponenten wiederholen",
-                  "nl": "Vestigt machtswet-distributies en zelfgelijksoortige structuren waarbij liquiditeitspatronen zich herhalen over meerdere schalen met universele schaal-exponenten"
-        },
-        {
-                  "en": "Eliminates all scaling relationships through market fragmentation",
-                  "es": "Elimina todas las relaciones de escalamiento a través de fragmentación del mercado",
-                  "de": "Eliminiert alle Skalierungsbeziehungen durch Marktfragmentierung",
-                  "nl": "Elimineert alle schaalrelaties door marktfragmentatie"
-        },
-        {
-                  "en": "Forces random distribution patterns without geometric principles",
-                  "es": "Fuerza patrones de distribución aleatorios sin principios geométricos",
-                  "de": "Zwingt zu zufälligen Verteilungsmustern ohne geometrische Prinzipien",
-                  "nl": "Dwingt willekeurige distributiepatronen af zonder geometrische principes"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Yuan liquidity markets exhibit fractal characteristics where self-similar patterns emerge across multiple temporal and spatial scales, from microsecond order book dynamics to monthly capital flows. Power-law distributions govern liquidity cluster sizes, with universal scaling exponents that appear consistently across different market segments. The fractal dimension of liquidity networks reveals optimal efficiency points where information propagation and transaction costs are minimized. These self-similar structures enable robust market functioning through scale-invariant mechanisms that maintain stability across vastly different trading volumes and time horizons.",
-                  "es": "Los mercados de liquidez del Yuan exhiben características fractales donde patrones autosimilares emergen a través de múltiples escalas temporales y espaciales, desde dinámicas de libro de órdenes de microsegundos hasta flujos de capital mensuales. Las distribuciones de ley de potencia gobiernan tamaños de clusters de liquidez, con exponentes de escalamiento universales que aparecen consistentemente a través de diferentes segmentos de mercado. La dimensión fractal de redes de liquidez revela puntos de eficiencia óptima donde la propagación de información y costos de transacción son minimizados. Estas estructuras autosimilares permiten funcionamiento robusto del mercado a través de mecanismos invariantes de escala que mantienen estabilidad a través de volúmenes de trading y horizontes temporales vastamente diferentes.",
-                  "de": "Yuan-Liquiditätsmärkte zeigen fraktale Charakteristika, bei denen sich selbstähnliche Muster über mehrere zeitliche und räumliche Skalen entwickeln, von Mikrosekunden-Orderbuch-Dynamiken bis zu monatlichen Kapitalströmen. Potenzgesetz-Verteilungen regeln Liquiditäts-Cluster-Größen mit universellen Skalierungsexponenten, die konsistent über verschiedene Marktsegmente erscheinen. Die fraktale Dimension von Liquiditätsnetzwerken offenbart optimale Effizienzpunkte, bei denen Informationsausbreitung und Transaktionskosten minimiert werden. Diese selbstähnlichen Strukturen ermöglichen robuste Marktfunktionierung durch skaleninvariante Mechanismen, die Stabilität über vastly verschiedene Handelsvolumen und Zeithorizonte aufrechterhalten.",
-                  "nl": "Yuan-liquiditeitsmarkten vertonen fractale kenmerken waarbij zelfgelijksoortige patronen ontstaan over meerdere temporele en ruimtelijke schalen, van microseconde orderboek-dynamiek tot maandelijkse kapitaalstromen. Machtswet-distributies regeren liquiditeitscluster-groottes, met universele schaal-exponenten die consistent verschijnen over verschillende marktsegmenten. De fractale dimensie van liquiditeitsnetwerken onthult optimale efficiëntiepunten waarbij informatiepropagatie en transactiekosten geminimaliseerd worden. Deze zelfgelijksoortige structuren maken robuuste marktfunctionering mogelijk door schaal-invariante mechanismen die stabiliteit behouden over zeer verschillende handelsvolumes en tijdshorizonten."
-        }
-      },
-      {
-        question: {
-                  "en": "What are the implications of Yuan-based synthetic biology and bioeconomy financing for global resource management and post-natural economic systems?",
-                  "es": "¿Cuáles son las implicaciones del financiamiento de biología sintética y bioeconomía basado en Yuan para la gestión global de recursos y sistemas económicos post-naturales?",
-                  "de": "Was sind die Auswirkungen Yuan-basierter synthetischer Biologie- und Bioökonomie-Finanzierung auf globales Ressourcenmanagement und post-natürliche Wirtschaftssysteme?",
-                  "nl": "Wat zijn de implicaties van Yuan-gebaseerde synthetische biologie en bio-economie financiering voor mondiaal resourcebeheer en post-natuurlijke economische systemen?"
-        },
-        options: [
-        {
-                  "en": "Forces uniform global adoption of Chinese biotechnology standards",
-                  "es": "Fuerza la adopción global uniforme de estándares chinos de biotecnología",
-                  "de": "Zwingt zur einheitlichen globalen Adoption chinesischer Biotechnologie-Standards",
-                  "nl": "Dwingt uniforme mondiale adoptie af van Chinese biotechnologie-standaarden"
-        },
-        {
-                  "en": "Creates traditional agricultural systems with conventional resource extraction",
-                  "es": "Crea sistemas agrícolas tradicionales con extracción convencional de recursos",
-                  "de": "Schafft traditionelle Agrarsysteme mit konventioneller Ressourcenextraktion",
-                  "nl": "Creëert traditionele landbouwsystemen met conventionele resource-extractie"
-        },
-        {
-                  "en": "Establishes programmable biological production systems that transcend natural resource constraints and enable post-scarcity material economics",
-                  "es": "Establece sistemas de producción biológica programables que trascienden las limitaciones de recursos naturales y permiten economías materiales post-escasez",
-                  "de": "Etabliert programmierbare biologische Produktionssysteme, die natürliche Ressourcenbeschränkungen überwinden und Post-Knappheits-Materialökonomien ermöglichen",
-                  "nl": "Vestigt programmeerbare biologische productiesystemen die natuurlijke resourcebeperkingen overstijgen en post-schaarste materiaaleconomieën mogelijk maken"
-        },
-        {
-                  "en": "Eliminates all biological production through synthetic alternatives",
-                  "es": "Elimina toda producción biológica a través de alternativas sintéticas",
-                  "de": "Eliminiert alle biologische Produktion durch synthetische Alternativen",
-                  "nl": "Elimineert alle biologische productie door synthetische alternatieven"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Yuan-financed synthetic biology creates programmable biological systems that can produce virtually any material or chemical through engineered organisms, fundamentally transcending traditional resource constraints. This enables post-natural economics where production is limited by energy and information rather than material availability. The implications include potential obsolescence of mining, agriculture, and petrochemicals as engineered microorganisms produce everything from rare earth elements to complex pharmaceuticals. This transition requires new economic frameworks that can handle abundance-based production, intellectual property regimes for living systems, and governance structures for technologies that blur the boundaries between natural and artificial.",
-                  "es": "La biología sintética financiada en Yuan crea sistemas biológicos programables que pueden producir virtualmente cualquier material o químico a través de organismos diseñados, trascendiendo fundamentalmente las limitaciones tradicionales de recursos. Esto permite economías post-naturales donde la producción está limitada por energía e información en lugar de disponibilidad material. Las implicaciones incluyen obsolescencia potencial de minería, agricultura y petroquímicos mientras microorganismos diseñados producen todo desde elementos de tierras raras hasta farmacéuticos complejos. Esta transición requiere nuevos marcos económicos que puedan manejar producción basada en abundancia, regímenes de propiedad intelectual para sistemas vivos y estructuras de gobernanza para tecnologías que difuminan las fronteras entre natural y artificial.",
-                  "de": "Yuan-finanzierte synthetische Biologie schafft programmierbare biologische Systeme, die praktisch jedes Material oder jede Chemikalie durch konstruierte Organismen produzieren können und fundamental traditionelle Ressourcenbeschränkungen überwinden. Dies ermöglicht post-natürliche Ökonomien, bei denen Produktion durch Energie und Information statt Materialverfügbarkeit begrenzt ist. Die Auswirkungen umfassen potenzielle Obsoleszenz von Bergbau, Landwirtschaft und Petrochemikalien, während konstruierte Mikroorganismen alles von seltenen Erdelementen bis zu komplexen Pharmazeutika produzieren. Dieser Übergang erfordert neue wirtschaftliche Rahmen, die abundanz-basierte Produktion, Intellectual Property-Regime für lebende Systeme und Governance-Strukturen für Technologien handhaben können, die Grenzen zwischen natürlich und künstlich verwischen.",
-                  "nl": "Yuan-gefinancierde synthetische biologie creëert programmeerbare biologische systemen die vrijwel elk materiaal of chemicalie kunnen produceren door gemanipuleerde organismen, wat fundamenteel traditionele resourcebeperkingen overstijgt. Dit maakt post-natuurlijke economieën mogelijk waarbij productie beperkt wordt door energie en informatie in plaats van materiaalbeschikbaarheid. De implicaties omvatten potentiële veroudering van mijnbouw, landbouw en petrochemicaliën terwijl gemanipuleerde micro-organismen alles produceren van zeldzame aardeelementen tot complexe farmaceutica. Deze transitie vereist nieuwe economische raamwerken die overvloed-gebaseerde productie kunnen handhaven, intellectueel eigendomsregimes voor levende systemen, en governance-structuren voor technologieën die grenzen tussen natuurlijk en kunstmatig vervagen."
-        }
-      },
-      {
-        question: {
-                  "en": "How do topological quantum error correction codes and anyonic braiding operations enhance Yuan digital currency security and enable fault-tolerant quantum monetary systems?",
-                  "es": "¿Cómo mejoran los códigos de corrección de errores cuánticos topológicos y las operaciones de trenzado anyónico la seguridad de la moneda digital del Yuan y permiten sistemas monetarios cuánticos tolerantes a fallas?",
-                  "de": "Wie verbessern topologische Quantenfehlerkorrektur-Codes und Anyonische Flechtoperationen die Yuan-Digitalwährungs-Sicherheit und ermöglichen fehlertolerante Quantenwährungssysteme?",
-                  "nl": "Hoe verbeteren topologische quantum foutcorrectiecodes en anyonische vlechtoperaties Yuan digitale valuta beveiliging en maken fouttolerantie quantum monetaire systemen mogelijk?"
-        },
-        options: [
-        {
-                  "en": "Enables exponentially superior error protection through topologically protected quantum states that maintain coherence despite environmental decoherence",
-                  "es": "Permite protección de errores exponencialmente superior a través de estados cuánticos topológicamente protegidos que mantienen coherencia a pesar de decoherencia ambiental",
-                  "de": "Ermöglicht exponentiell überlegenen Fehlerschutz durch topologisch geschützte Quantenzustände, die Kohärenz trotz Umwelt-Dekohärenz aufrechterhalten",
-                  "nl": "Maakt exponentieel superieure foutbescherming mogelijk door topologisch beschermde quantumtoestanden die coherentie behouden ondanks omgevingsdecoherentie"
-        },
-        {
-                  "en": "Forces uniform error rates across all quantum operations",
-                  "es": "Fuerza tasas de error uniformes en todas las operaciones cuánticas",
-                  "de": "Zwingt zu einheitlichen Fehlerquoten über alle Quantenoperationen",
-                  "nl": "Dwingt uniforme foutpercentages af over alle quantumoperaties"
-        },
-        {
-                  "en": "Eliminates all quantum effects through classical approximation",
-                  "es": "Elimina todos los efectos cuánticos a través de aproximación clásica",
-                  "de": "Eliminiert alle Quanteneffekte durch klassische Approximation",
-                  "nl": "Elimineert alle quantumeffecten door klassieke benadering"
-        },
-        {
-                  "en": "Creates classical error correction with traditional computing methods",
-                  "es": "Crea corrección de errores clásica con métodos de computación tradicionales",
-                  "de": "Schafft klassische Fehlerkorrektur mit traditionellen Computermethoden",
-                  "nl": "Creëert klassieke foutcorrectie met traditionele computermethoden"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Topological quantum error correction leverages the global properties of quantum states that are protected from local perturbations by energy gaps, enabling Yuan digital currency systems with exponentially enhanced security. Anyonic braiding operations create computational processes where information is encoded in the topological properties of particle world-lines, making the system inherently fault-tolerant against environmental noise. This enables quantum monetary systems that maintain perfect coherence and security even in the presence of significant hardware imperfections, creating fundamentally unbreakable digital currency infrastructure that surpasses all classical cryptographic methods.",
-                  "es": "La corrección de errores cuánticos topológicos aprovecha las propiedades globales de estados cuánticos que están protegidos de perturbaciones locales por brechas de energía, permitiendo sistemas de moneda digital del Yuan con seguridad exponencialmente mejorada. Las operaciones de trenzado anyónico crean procesos computacionales donde la información está codificada en propiedades topológicas de líneas mundiales de partículas, haciendo el sistema inherentemente tolerante a fallas contra ruido ambiental. Esto permite sistemas monetarios cuánticos que mantienen coherencia y seguridad perfectas incluso en presencia de imperfecciones significativas de hardware, creando infraestructura de moneda digital fundamentalmente inquebrantable que supera todos los métodos criptográficos clásicos.",
-                  "de": "Topologische Quantenfehlerkorrektur nutzt globale Eigenschaften von Quantenzuständen, die durch Energielücken vor lokalen Störungen geschützt sind und Yuan-Digitalwährungssysteme mit exponentiell verbesserter Sicherheit ermöglichen. Anyonische Flechtoperationen schaffen Berechnungsprozesse, bei denen Information in topologischen Eigenschaften von Teilchen-Weltlinien kodiert ist, was das System inherent fehlertolerant gegen Umgebungsrauschen macht. Dies ermöglicht Quantenwährungssysteme, die perfekte Kohärenz und Sicherheit selbst bei erheblichen Hardware-Unvollkommenheiten aufrechterhalten und fundamental unknackbare Digitalwährungs-Infrastruktur schaffen, die alle klassischen kryptographischen Methoden übertrifft.",
-                  "nl": "Topologische quantum foutcorrectie benut globale eigenschappen van quantumtoestanden die beschermd zijn tegen lokale verstoringen door energiekleuren, wat Yuan digitale valutasystemen met exponentieel verbeterde beveiliging mogelijk maakt. Anyonische vlechtoperaties creëren computationele processen waarbij informatie gecodeerd is in topologische eigenschappen van deeltjes-wereldlijnen, wat het systeem inherent fouttolerant maakt tegen omgevingsruis. Dit maakt quantum monetaire systemen mogelijk die perfecte coherentie en beveiliging behouden zelfs bij significante hardware-onvolkomenheden, wat fundamenteel onbreekbare digitale valuta-infrastructuur creëert die alle klassieke cryptografische methoden overtreft."
-        }
-      },
-      {
-        question: {
-                  "en": "What are the implications of Yuan-denominated consciousness uploading and digital immortality research for global economic systems and intergenerational wealth transfer mechanisms?",
-                  "es": "¿Cuáles son las implicaciones de la investigación de carga de conciencia e inmortalidad digital denominada en Yuan para los sistemas económicos globales y mecanismos de transferencia de riqueza intergeneracional?",
-                  "de": "Was sind die Auswirkungen Yuan-denominierter Bewusstseins-Upload- und digitaler Unsterblichkeitsforschung auf globale Wirtschaftssysteme und intergenerationelle Vermögenstransfer-Mechanismen?",
-                  "nl": "Wat zijn de implicaties van Yuan-gedenomineerd bewustzijnsupload en digitale onsterfelijkheidsonderzoek voor mondiale economische systemen en intergenerationele vermogensoverdracht mechanismen?"
-        },
-        options: [
-        {
-                  "en": "Establishes post-human economic paradigms where consciousness persistence fundamentally alters concepts of death, inheritance, and temporal economic planning",
-                  "es": "Establece paradigmas económicos post-humanos donde la persistencia de conciencia altera fundamentalmente conceptos de muerte, herencia y planificación económica temporal",
-                  "de": "Etabliert post-humane Wirtschaftsparadigmen, bei denen Bewusstseinspersistenz fundamental Konzepte von Tod, Vererbung und zeitlicher Wirtschaftsplanung verändert",
-                  "nl": "Vestigt post-menselijke economische paradigma's waarbij bewustzijnspersistentie fundamenteel concepten van dood, erfenis en temporele economische planning verandert"
-        },
-        {
-                  "en": "Forces immediate global adoption of Chinese digital consciousness standards",
-                  "es": "Fuerza la adopción global inmediata de estándares chinos de conciencia digital",
-                  "de": "Zwingt zur sofortigen globalen Adoption chinesischer digitaler Bewusstseins-Standards",
-                  "nl": "Dwingt onmiddellijke mondiale adoptie af van Chinese digitale bewustzijnsstandaarden"
-        },
-        {
-                  "en": "Creates traditional inheritance systems with conventional wealth transfer",
-                  "es": "Crea sistemas de herencia tradicionales con transferencia de riqueza convencional",
-                  "de": "Schafft traditionelle Vererbungssysteme mit konventionellem Vermögenstransfer",
-                  "nl": "Creëert traditionele erfenissystemen met conventionele vermogensoverdracht"
-        },
-        {
-                  "en": "Eliminates all economic planning through automated wealth distribution",
-                  "es": "Elimina toda planificación económica a través de distribución automatizada de riqueza",
-                  "de": "Eliminiert alle Wirtschaftsplanung durch automatisierte Vermögensverteilung",
-                  "nl": "Elimineert alle economische planning door geautomatiseerde vermogensdistributie"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Yuan-financed consciousness uploading research creates post-human economic paradigms where death becomes optional, fundamentally disrupting traditional concepts of inheritance, retirement, and intergenerational wealth transfer. Digital immortality enables indefinite wealth accumulation by individuals, potentially creating extreme inequality as uploaded consciousnesses compound returns over centuries. Economic systems must adapt to scenarios where the same individuals may participate in markets for thousands of years, requiring new frameworks for resource allocation, social mobility, and wealth distribution that account for potentially immortal economic actors with unlimited time horizons for investment strategies.",
-                  "es": "La investigación de carga de conciencia financiada en Yuan crea paradigmas económicos post-humanos donde la muerte se vuelve opcional, disrumpiendo fundamentalmente conceptos tradicionales de herencia, jubilación y transferencia de riqueza intergeneracional. La inmortalidad digital permite acumulación indefinida de riqueza por individuos, potencialmente creando desigualdad extrema mientras conciencias cargadas componen retornos sobre siglos. Los sistemas económicos deben adaptarse a escenarios donde los mismos individuos pueden participar en mercados por miles de años, requiriendo nuevos marcos para asignación de recursos, movilidad social y distribución de riqueza que consideren actores económicos potencialmente inmortales con horizontes temporales ilimitados para estrategias de inversión.",
-                  "de": "Yuan-finanzierte Bewusstseins-Upload-Forschung schafft post-humane Wirtschaftsparadigmen, bei denen Tod optional wird und fundamental traditionelle Konzepte von Vererbung, Ruhestand und intergenerationalem Vermögenstransfer stört. Digitale Unsterblichkeit ermöglicht indefinite Vermögensakkumulation durch Individuen und schafft möglicherweise extreme Ungleichheit, da hochgeladene Bewusstseine Renditen über Jahrhunderte zusammensetzen. Wirtschaftssysteme müssen sich an Szenarien anpassen, bei denen dieselben Individuen tausende Jahre an Märkten teilnehmen können, was neue Rahmen für Ressourcenallokation, soziale Mobilität und Vermögensverteilung erfordert, die potenziell unsterbliche Wirtschaftsakteure mit unbegrenzten Zeithorizonten für Investitionsstrategien berücksichtigen.",
-                  "nl": "Yuan-gefinancierd bewustzijnsupload-onderzoek creëert post-menselijke economische paradigma's waarbij dood optioneel wordt, wat fundamenteel traditionele concepten van erfenis, pensioen en intergenerationele vermogensoverdracht verstoort. Digitale onsterfelijkheid maakt oneindige vermogensaccumulatie door individuen mogelijk, wat potentieel extreme ongelijkheid creëert terwijl geüploade bewustijnen rendementen over eeuwen samenvoegen. Economische systemen moeten zich aanpassen aan scenario's waarbij dezelfde individuen duizenden jaren aan markten kunnen deelnemen, wat nieuwe raamwerken vereist voor resource-allocatie, sociale mobiliteit en vermogensdistributie die rekening houden met potentieel onsterfelijke economische actoren met onbeperkte tijdshorizonten voor investeringsstrategieën."
-        }
-      },
-      {
-        question: {
-                  "en": "How do metamaterial engineering and programmable matter technologies financed in Yuan create novel paradigms for physical property rights and matter-based economic systems?",
-                  "es": "¿Cómo crean las tecnologías de ingeniería de metamateriales y materia programable financiadas en Yuan paradigmas novedosos para derechos de propiedad física y sistemas económicos basados en materia?",
-                  "de": "Wie schaffen Yuan-finanzierte Metamaterial-Engineering- und programmierbare Materie-Technologien neuartige Paradigmen für physische Eigentumsrechte und materie-basierte Wirtschaftssysteme?",
-                  "nl": "Hoe creëren metamateriaal engineering en programmeerbare materie technologieën gefinancierd in Yuan nieuwe paradigma's voor fysieke eigendomsrechten en materie-gebaseerde economische systemen?"
-        },
-        options: [
-        {
-                  "en": "Forces uniform matter properties across all programmable materials",
-                  "es": "Fuerza propiedades uniformes de materia en todos los materiales programables",
-                  "de": "Zwingt zu einheitlichen Materie-Eigenschaften über alle programmierbaren Materialien",
-                  "nl": "Dwingt uniforme materie-eigenschappen af over alle programmeerbare materialen"
-        },
-        {
-                  "en": "Creates traditional manufacturing with conventional material properties",
-                  "es": "Crea manufactura tradicional con propiedades materiales convencionales",
-                  "de": "Schafft traditionelle Fertigung mit konventionellen Materialeigenschaften",
-                  "nl": "Creëert traditionele productie met conventionele materiaaleigenschappen"
-        },
-        {
-                  "en": "Establishes dynamic property systems where matter can be programmed to change ownership, functionality, and economic value in real-time through embedded intelligence",
-                  "es": "Establece sistemas de propiedades dinámicas donde la materia puede ser programada para cambiar propiedad, funcionalidad y valor económico en tiempo real a través de inteligencia embebida",
-                  "de": "Etabliert dynamische Eigenschaftssysteme, bei denen Materie programmiert werden kann, um Besitz, Funktionalität und wirtschaftlichen Wert in Echtzeit durch eingebettete Intelligenz zu ändern",
-                  "nl": "Vestigt dynamische eigendomssystemen waarbij materie geprogrammeerd kan worden om eigendom, functionaliteit en economische waarde in real-time te veranderen door ingebouwde intelligentie"
-        },
-        {
-                  "en": "Eliminates all physical property through complete digitalization",
-                  "es": "Elimina toda propiedad física a través de digitalización completa",
-                  "de": "Eliminiert alle physische Eigenschaft durch vollständige Digitalisierung",
-                  "nl": "Elimineert alle fysieke eigendom door volledige digitalisering"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Yuan-financed programmable matter creates dynamic property systems where physical objects can autonomously change their properties, ownership, and economic functions through embedded computational intelligence. Metamaterials with programmable characteristics enable objects that can transform from one product category to another, creating fluid boundaries between different types of assets. This requires new legal and economic frameworks for 'smart matter' that can execute contracts, change hands automatically based on programmed conditions, and even reproduce or self-modify, fundamentally challenging traditional concepts of physical property, ownership permanence, and object identity in economic systems.",
-                  "es": "La materia programable financiada en Yuan crea sistemas de propiedades dinámicas donde objetos físicos pueden cambiar autónomamente sus propiedades, propiedad y funciones económicas a través de inteligencia computacional embebida. Los metamateriales con características programables permiten objetos que pueden transformarse de una categoría de producto a otra, creando fronteras fluidas entre diferentes tipos de activos. Esto requiere nuevos marcos legales y económicos para 'materia inteligente' que puede ejecutar contratos, cambiar de manos automáticamente basado en condiciones programadas, e incluso reproducirse o automodificarse, desafiando fundamentalmente conceptos tradicionales de propiedad física, permanencia de propiedad e identidad de objeto en sistemas económicos.",
-                  "de": "Yuan-finanzierte programmierbare Materie schafft dynamische Eigenschaftssysteme, bei denen physische Objekte autonom ihre Eigenschaften, Besitzverhältnisse und wirtschaftlichen Funktionen durch eingebettete Berechnungsintelligenz ändern können. Metamaterialien mit programmierbaren Charakteristika ermöglichen Objekte, die sich von einer Produktkategorie in eine andere transformieren können und fließende Grenzen zwischen verschiedenen Vermögensarten schaffen. Dies erfordert neue rechtliche und wirtschaftliche Rahmen für 'intelligente Materie', die Verträge ausführen, automatisch basierend auf programmierten Bedingungen den Besitzer wechseln und sich sogar reproduzieren oder selbst modifizieren kann, was fundamental traditionelle Konzepte physischen Eigentums, Besitzpermanenz und Objektidentität in Wirtschaftssystemen herausfordert.",
-                  "nl": "Yuan-gefinancierde programmeerbare materie creëert dynamische eigendomssystemen waarbij fysieke objecten autonoom hun eigenschappen, eigendom en economische functies kunnen veranderen door ingebouwde computationele intelligentie. Metamaterialen met programmeerbare kenmerken maken objecten mogelijk die kunnen transformeren van de ene productcategorie naar de andere, wat vloeiende grenzen creëert tussen verschillende soorten activa. Dit vereist nieuwe juridische en economische raamwerken voor 'slimme materie' die contracten kan uitvoeren, automatisch van eigenaar kan wisselen gebaseerd op geprogrammeerde voorwaarden, en zelfs kan reproduceren of zelf-modificeren, wat fundamenteel traditionele concepten van fysiek eigendom, eigendomspermanentie en objectidentiteit in economische systemen uitdaagt."
-        }
-      },
-      {
-        question: {
-                  "en": "How do emergent self-organizing criticality principles in Yuan market microstructure enable spontaneous pattern formation that transcends traditional equilibrium concepts?",
-                  "es": "¿Cómo permiten los principios de criticalidad auto-organizadora emergente en la microestructura del mercado del Yuan la formación espontánea de patrones que trasciende conceptos tradicionales de equilibrio?",
-                  "de": "Wie ermöglichen emergente selbstorganisierende Kritikalitätsprinzipien in Yuan-Marktmikrostruktur spontane Musterbildung, die traditionelle Gleichgewichtskonzepte transzendiert?",
-                  "nl": "Hoe maken emergente zelf-organiserende kritikaliteit principes in Yuan-marktmicrostructuur spontane patroonvorming mogelijk die traditionele evenwichtsconcepten transcendeert?"
-        },
-        options: [
-        {
-                  "en": "Eliminates all non-linear effects through statistical averaging",
-                  "es": "Elimina todos los efectos no lineales a través de promediación estadística",
-                  "de": "Eliminiert alle nichtlinearen Effekte durch statistische Mittelung",
-                  "nl": "Elimineert alle niet-lineaire effecten door statistische middeling"
-        },
-        {
-                  "en": "Maintains stable equilibrium regardless of market conditions",
-                  "es": "Mantiene equilibrio estable independientemente de condiciones del mercado",
-                  "de": "Behält stabiles Gleichgewicht unabhängig von Marktbedingungen",
-                  "nl": "Behoudt stabiel evenwicht ongeacht marktomstandigheden"
-        },
-        {
-                  "en": "Forces uniform market behavior through centralized control mechanisms",
-                  "es": "Fuerza comportamiento uniforme del mercado a través de mecanismos de control centralizados",
-                  "de": "Zwingt zu einheitlichem Marktverhalten durch zentralisierte Kontrollmechanismen",
-                  "nl": "Dwingt uniform marktgedrag af door gecentraliseerde controlemechanismen"
-        },
-        {
-                  "en": "Creates avalanche dynamics where small perturbations trigger cascading adjustments across markets",
-                  "es": "Crea dinámicas de avalancha donde pequeñas perturbaciones desencadenan ajustes en cascada a través de mercados",
-                  "de": "Schafft Lawinen-Dynamiken, bei denen kleine Störungen kaskadierende Anpassungen über Märkte auslösen",
-                  "nl": "Creëert lawine-dynamiek waarbij kleine verstoringen cascaderende aanpassingen over markten triggeren"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Yuan markets exhibit self-organized criticality where the system naturally evolves toward a critical state poised between order and chaos. At this critical point, small perturbations can trigger avalanche-like cascades of adjustments that spontaneously reorganize market structure. These power-law distributed events create fractal patterns that emerge without central coordination, representing a fundamental departure from traditional equilibrium-based models and revealing deep connections between Yuan market dynamics and universal criticality phenomena observed throughout nature.",
-                  "es": "Los mercados del Yuan exhiben criticalidad auto-organizada donde el sistema evoluciona naturalmente hacia un estado crítico equilibrado entre orden y caos. En este punto crítico, pequeñas perturbaciones pueden desencadenar cascadas tipo avalancha de ajustes que reorganizan espontáneamente la estructura del mercado. Estos eventos distribuidos por ley de potencia crean patrones fractales que emergen sin coordinación central, representando una desviación fundamental de modelos tradicionales basados en equilibrio y revelando conexiones profundas entre dinámicas del mercado del Yuan y fenómenos de criticalidad universal observados en toda la naturaleza.",
-                  "de": "Yuan-Märkte zeigen selbstorganisierte Kritikalität, bei der das System natürlich zu einem kritischen Zustand zwischen Ordnung und Chaos evolviert. An diesem kritischen Punkt können kleine Störungen lawinenartige Kaskaden von Anpassungen auslösen, die Marktstruktur spontan reorganisieren. Diese potenzgesetzverteilten Ereignisse schaffen fraktale Muster, die ohne zentrale Koordination entstehen, repräsentieren eine fundamentale Abweichung von traditionellen gleichgewichtsbasierten Modellen und offenbaren tiefe Verbindungen zwischen Yuan-Marktdynamiken und universellen Kritikalitätsphänomenen, die in der gesamten Natur beobachtet werden.",
-                  "nl": "Yuan-markten vertonen zelf-georganiseerde kritikaliteit waarbij het systeem natuurlijk evolueert naar een kritieke toestand gebalanceerd tussen orde en chaos. Op dit kritieke punt kunnen kleine verstoringen lawine-achtige cascades van aanpassingen triggeren die marktstructuur spontaan reorganiseren. Deze machtswet-verdeelde gebeurtenissen creëren fractale patronen die ontstaan zonder centrale coördinatie, wat een fundamentele afwijking vertegenwoordigt van traditionele evenwicht-gebaseerde modellen en diepe verbindingen onthult tussen Yuan-marktdynamiek en universele kritikaliteitsfenomenen waargenomen door de gehele natuur."
-        }
-      },
-      {
-        question: {
-                  "en": "What role does Yuan-denominated quantum blockchain architecture play in creating unhackable distributed ledger systems through topological quantum error correction?",
-                  "es": "¿Qué papel juega la arquitectura de blockchain cuántico denominado en Yuan en la creación de sistemas de libro mayor distribuido imposibles de hackear a través de corrección de errores cuánticos topológicos?",
-                  "de": "Welche Rolle spielt Yuan-denominierte Quantum-Blockchain-Architektur bei der Schaffung unhackbarer verteilter Ledger-Systeme durch topologische Quantenfehlerkorrektur?",
-                  "nl": "Welke rol speelt Yuan-gedenomineerde quantum blockchain architectuur bij het creëren van unhackbare gedistribueerde ledger systemen door topologische quantum foutcorrectie?"
-        },
-        options: [
-        {
-                  "en": "Creates traditional blockchain with improved processing speeds",
-                  "es": "Crea blockchain tradicional con velocidades de procesamiento mejoradas",
-                  "de": "Schafft traditionelle Blockchain mit verbesserten Verarbeitungsgeschwindigkeiten",
-                  "nl": "Creëert traditionele blockchain met verbeterde verwerkingssnelheden"
-        },
-        {
-                  "en": "Eliminates all quantum effects through classical encryption",
-                  "es": "Elimina todos los efectos cuánticos a través de encriptación clásica",
-                  "de": "Eliminiert alle Quanteneffekte durch klassische Verschlüsselung",
-                  "nl": "Elimineert alle quantumeffecten door klassieke encryptie"
-        },
-        {
-                  "en": "Maintains current security protocols with minor upgrades",
-                  "es": "Mantiene protocolos de seguridad actuales con mejoras menores",
-                  "de": "Behält aktuelle Sicherheitsprotokolle mit kleineren Upgrades bei",
-                  "nl": "Behoudt huidige beveiligingsprotocollen met kleine upgrades"
-        },
-        {
-                  "en": "Enables provably secure transactions through quantum entanglement-based consensus mechanisms",
-                  "es": "Permite transacciones demostrablemente seguras a través de mecanismos de consenso basados en entrelazamiento cuántico",
-                  "de": "Ermöglicht nachweisbar sichere Transaktionen durch quantenverschränkungs-basierte Konsensmechanismen",
-                  "nl": "Maakt aantoonbaar veilige transacties mogelijk door quantum verstrengeling-gebaseerde consensusmechanismen"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Yuan quantum blockchain leverages topological quantum error correction to create fundamentally unhackable distributed ledger systems. Transaction data is encoded in topologically protected quantum states that are immune to local perturbations, while quantum entanglement ensures that consensus is achieved through physics rather than computational work. This creates provably secure transaction validation where any attempt to tamper with the ledger would require breaking the fundamental laws of quantum mechanics, establishing Yuan payment systems with security guarantees that transcend all classical cryptographic approaches.",
-                  "es": "La blockchain cuántica del Yuan aprovecha la corrección de errores cuánticos topológicos para crear sistemas de libro mayor distribuido fundamentalmente imposibles de hackear. Los datos de transacción se codifican en estados cuánticos topológicamente protegidos que son inmunes a perturbaciones locales, mientras el entrelazamiento cuántico asegura que el consenso se logre a través de la física en lugar de trabajo computacional. Esto crea validación de transacciones demostrablemente segura donde cualquier intento de alterar el libro mayor requeriría romper las leyes fundamentales de la mecánica cuántica, estableciendo sistemas de pago del Yuan con garantías de seguridad que trascienden todos los enfoques criptográficos clásicos.",
-                  "de": "Yuan-Quantum-Blockchain nutzt topologische Quantenfehlerkorrektur, um fundamental unhackbare verteilte Ledger-Systeme zu schaffen. Transaktionsdaten werden in topologisch geschützten Quantenzuständen kodiert, die gegen lokale Störungen immun sind, während Quantenverschränkung sicherstellt, dass Konsens durch Physik statt Rechenarbeit erreicht wird. Dies schafft nachweisbar sichere Transaktionsvalidierung, wo jeder Versuch, das Ledger zu manipulieren, das Brechen fundamentaler Gesetze der Quantenmechanik erfordern würde, wodurch Yuan-Zahlungssysteme mit Sicherheitsgarantien etabliert werden, die alle klassischen kryptographischen Ansätze transzendieren.",
-                  "nl": "Yuan quantum blockchain benut topologische quantum foutcorrectie om fundamenteel unhackbare gedistribueerde ledger systemen te creëren. Transactiedata wordt gecodeerd in topologisch beschermde quantumtoestanden die immuun zijn voor lokale verstoringen, terwijl quantum verstrengeling verzekert dat consensus wordt bereikt door fysica in plaats van computationeel werk. Dit creëert aantoonbaar veilige transactievalidatie waarbij elke poging om het ledger te manipuleren het breken van fundamentele wetten van quantum mechanica zou vereisen, Yuan-betalingssystemen vestigend met beveiligingsgaranties die alle klassieke cryptografische benaderingen transcenderen."
-        }
-      },
-      {
-        question: {
-                  "en": "How do stochastic resonance phenomena in Yuan exchange rate fluctuations enable weak signal amplification through optimal noise injection?",
-                  "es": "¿Cómo permiten los fenómenos de resonancia estocástica en las fluctuaciones del tipo de cambio del Yuan la amplificación de señales débiles a través de inyección óptima de ruido?",
-                  "de": "Wie ermöglichen stochastische Resonanzphänomene in Yuan-Wechselkursschwankungen schwache Signalverstärkung durch optimale Rauscheinspritzung?",
-                  "nl": "Hoe maken stochastische resonantie fenomenen in Yuan-wisselkoersfluctuaties zwakke signaalversterking mogelijk door optimale ruisinjectie?"
-        },
-        options: [
-        {
-                  "en": "Eliminates all market noise to achieve perfect signal clarity",
-                  "es": "Elimina todo ruido del mercado para lograr claridad perfecta de señal",
-                  "de": "Eliminiert alle Marktrauschen, um perfekte Signalklarheit zu erreichen",
-                  "nl": "Elimineert alle marktruis om perfecte signaalduidelijkheid te bereiken"
-        },
-        {
-                  "en": "Creates uniform market conditions through noise suppression",
-                  "es": "Crea condiciones uniformes del mercado a través de supresión de ruido",
-                  "de": "Schafft einheitliche Marktbedingungen durch Rauschunterdrückung",
-                  "nl": "Creëert uniforme marktomstandigheden door ruisonderdrukking"
-        },
-        {
-                  "en": "Forces deterministic behavior by filtering random fluctuations",
-                  "es": "Fuerza comportamiento determinístico filtrando fluctuaciones aleatorias",
-                  "de": "Zwingt zu deterministischem Verhalten durch Filterung zufälliger Schwankungen",
-                  "nl": "Dwingt deterministisch gedrag af door filtering van willekeurige fluctuaties"
-        },
-        {
-                  "en": "Harnesses optimal noise levels to amplify weak economic signals that would otherwise be undetectable",
-                  "es": "Aprovecha niveles óptimos de ruido para amplificar señales económicas débiles que de otro modo serían indetectables",
-                  "de": "Nutzt optimale Rauschpegel, um schwache wirtschaftliche Signale zu verstärken, die sonst unentdeckbar wären",
-                  "nl": "Benut optimale ruisniveaus om zwakke economische signalen te versterken die anders ondetecteerbaar zouden zijn"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Yuan markets exhibit stochastic resonance where optimal levels of market noise actually enhance the detection and amplification of weak economic signals. By carefully tuning noise levels, the system can amplify subtle policy signals, emerging trends, or structural shifts that would be imperceptible in either completely noisy or completely quiet environments. This counterintuitive phenomenon demonstrates that some randomness is not just acceptable but necessary for optimal market functioning, enabling Yuan exchange rates to respond to genuinely important information while filtering out irrelevant fluctuations through nonlinear amplification mechanisms.",
-                  "es": "Los mercados del Yuan exhiben resonancia estocástica donde niveles óptimos de ruido del mercado realmente mejoran la detección y amplificación de señales económicas débiles. Al ajustar cuidadosamente los niveles de ruido, el sistema puede amplificar señales sutiles de política, tendencias emergentes o cambios estructurales que serían imperceptibles en entornos completamente ruidosos o completamente silenciosos. Este fenómeno contraintuitivo demuestra que algo de aleatoriedad no es solo aceptable sino necesaria para el funcionamiento óptimo del mercado, permitiendo que los tipos de cambio del Yuan respondan a información genuinamente importante mientras filtran fluctuaciones irrelevantes a través de mecanismos de amplificación no lineales.",
-                  "de": "Yuan-Märkte zeigen stochastische Resonanz, bei der optimale Marktlärmpegel tatsächlich die Erkennung und Verstärkung schwacher wirtschaftlicher Signale verbessern. Durch sorgfältige Abstimmung der Rauschpegel kann das System subtile Politiksignale, aufkommende Trends oder strukturelle Verschiebungen verstärken, die in entweder vollständig lauten oder vollständig stillen Umgebungen unmerklich wären. Dieses kontraintuitive Phänomen demonstriert, dass etwas Zufälligkeit nicht nur akzeptabel, sondern notwendig für optimale Marktfunktionierung ist, wodurch Yuan-Wechselkurse auf wirklich wichtige Informationen reagieren können, während irrelevante Schwankungen durch nichtlineare Verstärkungsmechanismen herausgefiltert werden.",
-                  "nl": "Yuan-markten vertonen stochastische resonantie waarbij optimale niveaus van marktruis daadwerkelijk de detectie en versterking van zwakke economische signalen verbeteren. Door ruisniveaus zorgvuldig af te stemmen kan het systeem subtiele beleidssignalen, opkomende trends of structurele verschuivingen versterken die onmerkbaar zouden zijn in volledig lawaaierige of volledig stille omgevingen. Dit contra-intuïtieve fenomeen demonstreert dat wat willekeur niet alleen acceptabel is maar noodzakelijk voor optimale marktfunctionering, Yuan-wisselkoersen in staat stellend om te reageren op echt belangrijke informatie terwijl irrelevante fluctuaties worden gefilterd door niet-lineaire versterkingsmechanismen."
-        }
-      },
-      {
-        question: {
-                  "en": "What implications does Yuan-financed neuromorphic computing have for creating brain-inspired artificial intelligence architectures that fundamentally differ from conventional deep learning?",
-                  "es": "¿Qué implicaciones tiene la computación neuromórfica financiada en Yuan para crear arquitecturas de inteligencia artificial inspiradas en el cerebro que difieren fundamentalmente del aprendizaje profundo convencional?",
-                  "de": "Welche Auswirkungen hat Yuan-finanzierte neuromorphe Computing auf die Schaffung gehirn-inspirierter künstlicher Intelligenz-Architekturen, die sich fundamental von konventionellem Deep Learning unterscheiden?",
-                  "nl": "Welke implicaties heeft Yuan-gefinancierde neuromorfische computing voor het creëren van brein-geïnspireerde kunstmatige intelligentie architecturen die fundamenteel verschillen van conventioneel deep learning?"
-        },
-        options: [
-        {
-                  "en": "Creates standard AI systems with incremental improvements to existing algorithms",
-                  "es": "Crea sistemas de IA estándar con mejoras incrementales a algoritmos existentes",
-                  "de": "Schafft Standard-KI-Systeme mit inkrementellen Verbesserungen bestehender Algorithmen",
-                  "nl": "Creëert standaard AI-systemen met incrementele verbeteringen van bestaande algoritmes"
-        },
-        {
-                  "en": "Maintains traditional von Neumann architectures with faster processors",
-                  "es": "Mantiene arquitecturas von Neumann tradicionales con procesadores más rápidos",
-                  "de": "Behält traditionelle von-Neumann-Architekturen mit schnelleren Prozessoren bei",
-                  "nl": "Behoudt traditionele von Neumann architecturen met snellere processors"
-        },
-        {
-                  "en": "Eliminates all biological inspiration through purely mathematical optimization",
-                  "es": "Elimina toda inspiración biológica a través de optimización puramente matemática",
-                  "de": "Eliminiert alle biologische Inspiration durch rein mathematische Optimierung",
-                  "nl": "Elimineert alle biologische inspiratie door puur wiskundige optimalisatie"
-        },
-        {
-                  "en": "Establishes spike-based computing paradigms enabling continuous learning and extreme energy efficiency",
-                  "es": "Establece paradigmas de computación basada en impulsos permitiendo aprendizaje continuo y eficiencia energética extrema",
-                  "de": "Etabliert spike-basierte Computing-Paradigmen, die kontinuierliches Lernen und extreme Energieeffizienz ermöglichen",
-                  "nl": "Vestigt spike-gebaseerde computing paradigma's die continu leren en extreme energie-efficiëntie mogelijk maken"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Yuan-financed neuromorphic computing creates fundamentally different AI paradigms based on spike-based neural dynamics rather than conventional activation functions. These systems process information through asynchronous event-driven spikes, enabling continuous learning without catastrophic forgetting, extreme energy efficiency through sparse activation, and temporal processing capabilities that mirror biological brain function. This creates AI systems that can learn incrementally from streaming data, adapt in real-time to changing environments, and operate with 1000x lower energy consumption than traditional deep learning, establishing novel computational paradigms for artificial intelligence development.",
-                  "es": "La computación neuromórfica financiada en Yuan crea paradigmas de IA fundamentalmente diferentes basados en dinámicas neuronales de impulsos en lugar de funciones de activación convencionales. Estos sistemas procesan información a través de impulsos asíncronos impulsados por eventos, permitiendo aprendizaje continuo sin olvido catastrófico, eficiencia energética extrema a través de activación dispersa y capacidades de procesamiento temporal que reflejan función cerebral biológica. Esto crea sistemas de IA que pueden aprender incrementalmente de datos en streaming, adaptarse en tiempo real a entornos cambiantes y operar con 1000x menor consumo de energía que el aprendizaje profundo tradicional, estableciendo paradigmas computacionales novedosos para desarrollo de inteligencia artificial.",
-                  "de": "Yuan-finanzierte neuromorphe Computing schafft fundamental andere KI-Paradigmen basierend auf spike-basierten neuralen Dynamiken statt konventioneller Aktivierungsfunktionen. Diese Systeme verarbeiten Informationen durch asynchrone ereignisgesteuerte Spikes, ermöglichen kontinuierliches Lernen ohne katastrophales Vergessen, extreme Energieeffizienz durch sparse Aktivierung und zeitliche Verarbeitungsfähigkeiten, die biologische Gehirnfunktion widerspiegeln. Dies schafft KI-Systeme, die inkrementell aus Streaming-Daten lernen, sich in Echtzeit an sich ändernde Umgebungen anpassen und mit 1000x niedrigerem Energieverbrauch als traditionelles Deep Learning operieren können, wodurch neuartige Rechenparadigmen für künstliche Intelligenz-Entwicklung etabliert werden.",
-                  "nl": "Yuan-gefinancierde neuromorfische computing creëert fundamenteel verschillende AI-paradigma's gebaseerd op spike-gebaseerde neurale dynamiek in plaats van conventionele activatiefuncties. Deze systemen verwerken informatie door asynchrone event-gedreven spikes, continu leren mogelijk makend zonder catastrofaal vergeten, extreme energie-efficiëntie door sparse activatie en temporele verwerkingscapaciteiten die biologische breinfunctie weerspiegelen. Dit creëert AI-systemen die incrementeel kunnen leren van streaming data, zich in real-time kunnen aanpassen aan veranderende omgevingen en kunnen opereren met 1000x lager energieverbruik dan traditioneel deep learning, nieuwe computationele paradigma's vestigend voor kunstmatige intelligentie ontwikkeling."
-        }
-      },
-      {
-        question: {
-                  "en": "How does Yuan integration with metamaterial-based programmable matter enable dynamic reconfiguration of physical assets and real-time property transformation?",
-                  "es": "¿Cómo permite la integración del Yuan con materia programable basada en metamateriales la reconfiguración dinámica de activos físicos y transformación de propiedades en tiempo real?",
-                  "de": "Wie ermöglicht Yuan-Integration mit metamaterial-basierter programmierbarer Materie dynamische Rekonfiguration physischer Assets und Echtzeit-Eigenschaftstransformation?",
-                  "nl": "Hoe maakt Yuan-integratie met metamateriaal-gebaseerde programmeerbare materie dynamische herconfiguratie van fysieke assets en real-time eigendomstransformatie mogelijk?"
-        },
-        options: [
-        {
-                  "en": "Creates static physical assets with conventional property rights",
-                  "es": "Crea activos físicos estáticos con derechos de propiedad convencionales",
-                  "de": "Schafft statische physische Assets mit konventionellen Eigentumsrechten",
-                  "nl": "Creëert statische fysieke assets met conventionele eigendomsrechten"
-        },
-        {
-                  "en": "Maintains traditional manufacturing with improved quality control",
-                  "es": "Mantiene manufactura tradicional con control de calidad mejorado",
-                  "de": "Behält traditionelle Fertigung mit verbesserter Qualitätskontrolle bei",
-                  "nl": "Behoudt traditionele productie met verbeterde kwaliteitscontrole"
-        },
-        {
-                  "en": "Eliminates physical assets through complete digitalization",
-                  "es": "Elimina activos físicos a través de digitalización completa",
-                  "de": "Eliminiert physische Assets durch vollständige Digitalisierung",
-                  "nl": "Elimineert fysieke assets door volledige digitalisering"
-        },
-        {
-                  "en": "Enables physical objects to change form, function, and ownership dynamically through embedded smart matter",
-                  "es": "Permite que objetos físicos cambien forma, función y propiedad dinámicamente a través de materia inteligente embebida",
-                  "de": "Ermöglicht physischen Objekten, Form, Funktion und Besitz dynamisch durch eingebettete intelligente Materie zu ändern",
-                  "nl": "Maakt fysieke objecten mogelijk om vorm, functie en eigendom dynamisch te veranderen door ingebouwde slimme materie"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Yuan-integrated metamaterial systems enable programmable matter where physical objects can dynamically reconfigure their properties, form, and function in response to Yuan-based smart contracts. Metamaterials with embedded sensors and actuators can transform from one object type to another, change ownership automatically based on programmed conditions, and adapt their physical properties in real-time. This creates fluid asset systems where a single piece of programmable matter can serve multiple purposes throughout its lifecycle, with Yuan transactions triggering physical transformations and property transfers, fundamentally challenging traditional concepts of fixed physical assets and permanent object identity.",
-                  "es": "Los sistemas de metamateriales integrados con Yuan permiten materia programable donde objetos físicos pueden reconfigurar dinámicamente sus propiedades, forma y función en respuesta a contratos inteligentes basados en Yuan. Metamateriales con sensores y actuadores embebidos pueden transformarse de un tipo de objeto a otro, cambiar propiedad automáticamente basado en condiciones programadas y adaptar sus propiedades físicas en tiempo real. Esto crea sistemas de activos fluidos donde una sola pieza de materia programable puede servir múltiples propósitos a lo largo de su ciclo de vida, con transacciones del Yuan desencadenando transformaciones físicas y transferencias de propiedad, desafiando fundamentalmente conceptos tradicionales de activos físicos fijos e identidad de objeto permanente.",
-                  "de": "Yuan-integrierte Metamaterial-Systeme ermöglichen programmierbare Materie, bei der physische Objekte dynamisch ihre Eigenschaften, Form und Funktion als Reaktion auf Yuan-basierte Smart Contracts rekonfigurieren können. Metamaterialien mit eingebetteten Sensoren und Aktuatoren können sich von einem Objekttyp in einen anderen transformieren, Besitz automatisch basierend auf programmierten Bedingungen ändern und ihre physischen Eigenschaften in Echtzeit anpassen. Dies schafft fließende Asset-Systeme, bei denen ein einzelnes Stück programmierbare Materie mehrere Zwecke während seines Lebenszyklus erfüllen kann, wobei Yuan-Transaktionen physische Transformationen und Eigentumsübertragungen auslösen und traditional Konzepte fixer physischer Assets und permanenter Objektidentität fundamental herausfordern.",
-                  "nl": "Yuan-geïntegreerde metamateriaal systemen maken programmeerbare materie mogelijk waarbij fysieke objecten dynamisch hun eigenschappen, vorm en functie kunnen herconfigureren als reactie op Yuan-gebaseerde smart contracts. Metamaterialen met ingebouwde sensoren en actuatoren kunnen transformeren van het ene objecttype naar het andere, eigendom automatisch veranderen gebaseerd op geprogrammeerde voorwaarden en hun fysieke eigenschappen in real-time aanpassen. Dit creëert vloeiende asset systemen waarbij een enkel stuk programmeerbare materie meerdere doelen kan dienen gedurende zijn levenscyclus, met Yuan-transacties die fysieke transformaties en eigendomsoverdrachten triggeren, fundamenteel traditionele concepten van vaste fysieke assets en permanente objectidentiteit uitdagend."
-        }
-      },
-      {
-        question: {
-                  "en": "What are the implications of Yuan-denominated consciousness interfacing research for creating direct brain-to-economy neural pathways that bypass traditional transaction mechanisms?",
-                  "es": "¿Cuáles son las implicaciones de la investigación de interfaces de consciencia denominada en Yuan para crear vías neurales directas cerebro-a-economía que evitan mecanismos tradicionales de transacción?",
-                  "de": "Was sind die Auswirkungen Yuan-denominierter Bewusstseinsschnittstellen-Forschung auf die Schaffung direkter Gehirn-zu-Ökonomie-Neuralwege, die traditionelle Transaktionsmechanismen umgehen?",
-                  "nl": "Wat zijn de implicaties van Yuan-gedenomineerd bewustzijnsinterface onderzoek voor het creëren van directe brein-naar-economie neurale paden die traditionele transactiemechanismen omzeilen?"
-        },
-        options: [
-        {
-                  "en": "Eliminates all human involvement through automated economic systems",
-                  "es": "Elimina toda participación humana a través de sistemas económicos automatizados",
-                  "de": "Eliminiert alle menschliche Beteiligung durch automatisierte Wirtschaftssysteme",
-                  "nl": "Elimineert alle menselijke betrokkenheid door geautomatiseerde economische systemen"
-        },
-        {
-                  "en": "Creates enhanced security through biometric authentication methods",
-                  "es": "Crea seguridad mejorada a través de métodos de autenticación biométrica",
-                  "de": "Schafft verbesserte Sicherheit durch biometrische Authentifizierungsmethoden",
-                  "nl": "Creëert verbeterde beveiliging door biometrische authenticatiemethoden"
-        },
-        {
-                  "en": "Maintains traditional payment interfaces with improved user experience design",
-                  "es": "Mantiene interfaces de pago tradicionales con diseño mejorado de experiencia de usuario",
-                  "de": "Behält traditionelle Zahlungsschnittstellen mit verbessertem Benutzererfahrungsdesign bei",
-                  "nl": "Behoudt traditionele betalingsinterfaces met verbeterd gebruikerservaring ontwerp"
-        },
-        {
-                  "en": "Enables thought-based economic transactions through brain-computer interfaces that process neural signals",
-                  "es": "Permite transacciones económicas basadas en pensamientos a través de interfaces cerebro-computadora que procesan señales neurales",
-                  "de": "Ermöglicht gedankenbasierte wirtschaftliche Transaktionen durch Gehirn-Computer-Schnittstellen, die neurale Signale verarbeiten",
-                  "nl": "Maakt gedachte-gebaseerde economische transacties mogelijk door brein-computer interfaces die neurale signalen verwerken"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Yuan-financed consciousness interfacing creates direct neural pathways between brain and economy, enabling thought-based transactions that bypass all traditional payment mechanisms. Brain-computer interfaces decode neural signals representing economic intent, processing thoughts of purchase, investment, or transfer directly into Yuan transactions. This eliminates friction from payment processes, enables instantaneous economic decisions at the speed of thought, and creates seamless integration between human intention and economic action. The implications include new forms of impulse economics, neural spending patterns, and the potential for unconscious economic behavior, requiring novel frameworks for consent, security, and economic agency in thought-driven transaction systems.",
-                  "es": "Las interfaces de consciencia financiadas en Yuan crean vías neurales directas entre cerebro y economía, permitiendo transacciones basadas en pensamientos que evitan todos los mecanismos de pago tradicionales. Las interfaces cerebro-computadora decodifican señales neurales representando intención económica, procesando pensamientos de compra, inversión o transferencia directamente en transacciones del Yuan. Esto elimina fricción de procesos de pago, permite decisiones económicas instantáneas a la velocidad del pensamiento y crea integración perfecta entre intención humana y acción económica. Las implicaciones incluyen nuevas formas de economía de impulso, patrones de gasto neural y el potencial para comportamiento económico inconsciente, requiriendo marcos novedosos para consentimiento, seguridad y agencia económica en sistemas de transacción impulsados por pensamientos.",
-                  "de": "Yuan-finanzierte Bewusstseinsschnittstellen schaffen direkte neurale Wege zwischen Gehirn und Ökonomie, ermöglichen gedankenbasierte Transaktionen, die alle traditionellen Zahlungsmechanismen umgehen. Gehirn-Computer-Schnittstellen dekodieren neurale Signale, die wirtschaftliche Absicht repräsentieren, verarbeiten Gedanken von Kauf, Investition oder Transfer direkt in Yuan-Transaktionen. Dies eliminiert Reibung aus Zahlungsprozessen, ermöglicht sofortige wirtschaftliche Entscheidungen in Gedankengeschwindigkeit und schafft nahtlose Integration zwischen menschlicher Absicht und wirtschaftlicher Handlung. Die Auswirkungen umfassen neue Formen von Impulsökonomie, neurale Ausgabemuster und Potential für unbewusstes wirtschaftliches Verhalten, wodurch neuartige Rahmen für Zustimmung, Sicherheit und wirtschaftliche Handlungsfähigkeit in gedankengesteuerten Transaktionssystemen erforderlich werden.",
-                  "nl": "Yuan-gefinancierde bewustzijnsinterface creëert directe neurale paden tussen brein en economie, gedachte-gebaseerde transacties mogelijk makend die alle traditionele betalingsmechanismen omzeilen. Brein-computer interfaces decoderen neurale signalen die economische intentie vertegenwoordigen, gedachten van aankoop, investering of overdracht direct verwerkend in Yuan-transacties. Dit elimineert wrijving uit betalingsprocessen, maakt instantane economische beslissingen mogelijk op de snelheid van gedachten en creëert naadloze integratie tussen menselijke intentie en economische actie. De implicaties omvatten nieuwe vormen van impulseconomie, neurale bestedingspatronen en het potentieel voor onbewust economisch gedrag, nieuwe kaders vereisend voor toestemming, beveiliging en economische agency in gedachte-gedreven transactiesystemen."
-        }
-      },
-      {
-        question: {
-                  "en": "How do complexity economics principles applied to Yuan markets reveal emergent phenomena that cannot be predicted from individual agent behaviors?",
-                  "es": "¿Cómo revelan los principios de economía de complejidad aplicados a mercados del Yuan fenómenos emergentes que no pueden ser predichos desde comportamientos de agentes individuales?",
-                  "de": "Wie offenbaren Komplexitätsökonomie-Prinzipien, angewendet auf Yuan-Märkte, emergente Phänomene, die nicht aus individuellen Agentenverhalten vorhergesagt werden können?",
-                  "nl": "Hoe onthullen complexiteitseconomie principes toegepast op Yuan-markten emergente fenomenen die niet kunnen worden voorspeld uit individueel agent gedrag?"
-        },
-        options: [
-        {
-                  "en": "Creates predictable market outcomes through aggregation of individual preferences",
-                  "es": "Crea resultados de mercado predecibles a través de agregación de preferencias individuales",
-                  "de": "Schafft vorhersagbare Marktergebnisse durch Aggregation individueller Präferenzen",
-                  "nl": "Creëert voorspelbare marktuitkomsten door aggregatie van individuele voorkeuren"
-        },
-        {
-                  "en": "Forces uniform behavior across all market participants",
-                  "es": "Fuerza comportamiento uniforme en todos los participantes del mercado",
-                  "de": "Zwingt zu einheitlichem Verhalten über alle Marktteilnehmer",
-                  "nl": "Dwingt uniform gedrag af over alle marktdeelnemers"
-        },
-        {
-                  "en": "Reveals phase transitions, collective behaviors, and spontaneous pattern formation irreducible to agent-level analysis",
-                  "es": "Revela transiciones de fase, comportamientos colectivos y formación espontánea de patrones irreducibles a análisis a nivel de agente",
-                  "de": "Enthüllt Phasenübergänge, kollektive Verhaltensweisen und spontane Musterbildung, die auf Agentenebenen-Analyse nicht reduzierbar sind",
-                  "nl": "Onthult fasetransities, collectief gedrag en spontane patroonvorming onherleidbaar tot agent-niveau analyse"
-        },
-        {
-                  "en": "Eliminates all emergent effects through micro-level modeling",
-                  "es": "Elimina todos los efectos emergentes a través de modelado a micro nivel",
-                  "de": "Eliminiert alle emergenten Effekte durch Mikro-Level-Modellierung",
-                  "nl": "Elimineert alle emergente effecten door micro-niveau modellering"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Complexity economics reveals that Yuan markets exhibit emergent phenomena fundamentally irreducible to individual agent behavior. Phase transitions occur where small parameter changes trigger dramatic market reorganizations, collective behaviors emerge from local interactions without central coordination, and spontaneous pattern formation creates market structures that no individual trader intended or anticipated. These emergent phenomena include sudden liquidity evaporations, synchronized trading behaviors, and self-reinforcing feedback loops that transform market dynamics in ways that cannot be predicted from agent-level models, demonstrating that Yuan markets are complex adaptive systems requiring system-level rather than agent-level understanding.",
-                  "es": "La economía de complejidad revela que los mercados del Yuan exhiben fenómenos emergentes fundamentalmente irreducibles al comportamiento de agentes individuales. Las transiciones de fase ocurren donde pequeños cambios de parámetros desencadenan reorganizaciones dramáticas del mercado, comportamientos colectivos emergen de interacciones locales sin coordinación central, y formación espontánea de patrones crea estructuras de mercado que ningún trader individual intentó o anticipó. Estos fenómenos emergentes incluyen evaporaciones súbitas de liquidez, comportamientos de trading sincronizados y bucles de retroalimentación auto-reforzantes que transforman dinámicas del mercado de maneras que no pueden ser predichas desde modelos a nivel de agente, demostrando que los mercados del Yuan son sistemas adaptativos complejos que requieren comprensión a nivel de sistema en lugar de nivel de agente.",
-                  "de": "Komplexitätsökonomie offenbart, dass Yuan-Märkte emergente Phänomene zeigen, die fundamental auf individuelles Agentenverhalten nicht reduzierbar sind. Phasenübergänge treten auf, wo kleine Parameteränderungen dramatische Marktreorganisationen auslösen, kollektive Verhaltensweisen aus lokalen Interaktionen ohne zentrale Koordination entstehen, und spontane Musterbildung Marktstrukturen schafft, die kein einzelner Händler beabsichtigte oder vorhersah. Diese emergenten Phänomene umfassen plötzliche Liquiditätsverdampfungen, synchronisierte Handelsverhalten und selbstverstärkende Feedback-Schleifen, die Marktdynamiken auf Weisen transformieren, die nicht aus Agentenebenen-Modellen vorhergesagt werden können, demonstrierend, dass Yuan-Märkte komplexe adaptive Systeme sind, die System-Level- statt Agentenebenen-Verständnis erfordern.",
-                  "nl": "Complexiteitseconomie onthult dat Yuan-markten emergente fenomenen vertonen fundamenteel onherleidbaar tot individueel agent gedrag. Fasetransities treden op waarbij kleine parameterveranderingen dramatische marktreorganisaties triggeren, collectief gedrag emergeert uit lokale interacties zonder centrale coördinatie, en spontane patroonvorming creëert marktstructuren die geen individuele handelaar bedoelde of anticipeerde. Deze emergente fenomenen omvatten plotselinge liquiditeitsverdampingen, gesynchroniseerd handelsgedrag en zelfversterkende feedback-lussen die marktdynamiek transformeren op manieren die niet kunnen worden voorspeld uit agent-niveau modellen, demonstrerend dat Yuan-markten complexe adaptieve systemen zijn die systeem-niveau in plaats van agent-niveau begrip vereisen."
-        }
-      },
-      {
-        question: {
-                  "en": "What revolutionary implications does Yuan-financed synthetic biology have for creating post-scarcity bioeconomies through programmable organism-based production?",
-                  "es": "¿Qué implicaciones revolucionarias tiene la biología sintética financiada en Yuan para crear bioeconomías post-escasez a través de producción basada en organismos programables?",
-                  "de": "Welche revolutionären Auswirkungen hat Yuan-finanzierte synthetische Biologie auf die Schaffung post-Knappheits-Bioökonomien durch programmierbare organismusbasierte Produktion?",
-                  "nl": "Welke revolutionaire implicaties heeft Yuan-gefinancierde synthetische biologie voor het creëren van post-schaarste bio-economieën door programmeerbare organisme-gebaseerde productie?"
-        },
-        options: [
-        {
-                  "en": "Maintains current production methods with enhanced efficiency",
-                  "es": "Mantiene métodos de producción actuales con eficiencia mejorada",
-                  "de": "Behält aktuelle Produktionsmethoden mit verbesserter Effizienz bei",
-                  "nl": "Behoudt huidige productiemethoden met verbeterde efficiëntie"
-        },
-        {
-                  "en": "Eliminates biological systems through synthetic alternatives",
-                  "es": "Elimina sistemas biológicos a través de alternativas sintéticas",
-                  "de": "Eliminiert biologische Systeme durch synthetische Alternativen",
-                  "nl": "Elimineert biologische systemen door synthetische alternatieven"
-        },
-        {
-                  "en": "Creates living factories that produce any material on demand through engineered biological systems",
-                  "es": "Crea fábricas vivientes que producen cualquier material bajo demanda a través de sistemas biológicos diseñados",
-                  "de": "Schafft lebende Fabriken, die jedes Material auf Nachfrage durch konstruierte biologische Systeme produzieren",
-                  "nl": "Creëert levende fabrieken die elk materiaal op aanvraag produceren door gemanipuleerde biologische systemen"
-        },
-        {
-                  "en": "Improves traditional agriculture with genetically modified crops",
-                  "es": "Mejora agricultura tradicional con cultivos genéticamente modificados",
-                  "de": "Verbessert traditionelle Landwirtschaft mit genetisch veränderten Pflanzen",
-                  "nl": "Verbetert traditionele landbouw met genetisch gemodificeerde gewassen"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Yuan-financed synthetic biology creates programmable living systems that can produce virtually any material or chemical on demand, fundamentally transcending resource scarcity. Engineered microorganisms become living factories that convert simple inputs into complex products, from rare earth elements to pharmaceutical compounds to structural materials. This enables post-scarcity bioeconomies where production constraints shift from material availability to energy and information, with Yuan-denominated bioeconomic systems coordinating distributed biological production. The implications include obsolescence of extractive industries, democratization of manufacturing, and new economic frameworks for abundance-based rather than scarcity-based value creation.",
-                  "es": "La biología sintética financiada en Yuan crea sistemas vivientes programables que pueden producir virtualmente cualquier material o químico bajo demanda, trascendiendo fundamentalmente la escasez de recursos. Microorganismos diseñados se convierten en fábricas vivientes que convierten entradas simples en productos complejos, desde elementos de tierras raras hasta compuestos farmacéuticos hasta materiales estructurales. Esto permite bioeconomías post-escasez donde las restricciones de producción cambian de disponibilidad material a energía e información, con sistemas bioeconómicos denominados en Yuan coordinando producción biológica distribuida. Las implicaciones incluyen obsolescencia de industrias extractivas, democratización de manufactura y nuevos marcos económicos para creación de valor basada en abundancia en lugar de escasez.",
-                  "de": "Yuan-finanzierte synthetische Biologie schafft programmierbare lebende Systeme, die praktisch jedes Material oder jede Chemikalie auf Nachfrage produzieren können, wodurch Ressourcenknappheit fundamental transzendiert wird. Konstruierte Mikroorganismen werden zu lebenden Fabriken, die einfache Inputs in komplexe Produkte umwandeln, von seltenen Erdelementen zu pharmazeutischen Verbindungen zu strukturellen Materialien. Dies ermöglicht post-Knappheits-Bioökonomien, wo Produktionsbeschränkungen von Materialverfügbarkeit zu Energie und Information verschieben, mit Yuan-denominierten bioökonomischen Systemen, die verteilte biologische Produktion koordinieren. Die Auswirkungen umfassen Obsoleszenz extraktiver Industrien, Demokratisierung der Fertigung und neue wirtschaftliche Rahmen für abundance-basierte statt knappheitsbasierte Wertschöpfung.",
-                  "nl": "Yuan-gefinancierde synthetische biologie creëert programmeerbare levende systemen die vrijwel elk materiaal of chemicalie op aanvraag kunnen produceren, fundamenteel resourceschaarste transcenderend. Gemanipuleerde micro-organismen worden levende fabrieken die eenvoudige inputs omzetten in complexe producten, van zeldzame aardelementen tot farmaceutische verbindingen tot structurele materialen. Dit maakt post-schaarste bio-economieën mogelijk waarbij productie-beperkingen verschuiven van materiaalbeschikbaarheid naar energie en informatie, met Yuan-gedenomineerde bio-economische systemen die gedistribueerde biologische productie coördineren. De implicaties omvatten veroudering van extractieve industrieën, democratisering van productie en nieuwe economische kaders voor overvloed-gebaseerde in plaats van schaarste-gebaseerde waardecreatie."
-        }
-      },
-      {
-        question: {
-                  "en": "How does Yuan integration with space-based solar power and asteroid mining establish off-world economic systems and extraterrestrial resource currencies?",
-                  "es": "¿Cómo establece la integración del Yuan con energía solar basada en espacio y minería de asteroides sistemas económicos fuera del mundo y monedas de recursos extraterrestres?",
-                  "de": "Wie etabliert Yuan-Integration mit weltraumbasierter Solarenergie und Asteroidenabbau außerweltliche Wirtschaftssysteme und extraterrestrische Ressourcenwährungen?",
-                  "nl": "Hoe vestigt Yuan-integratie met ruimte-gebaseerde zonne-energie en asteroïde mijnbouw buitenaardse economische systemen en extraterrestrische resource munten?"
-        },
-        options: [
-        {
-                  "en": "Creates separate space economies unconnected to terrestrial systems",
-                  "es": "Crea economías espaciales separadas no conectadas a sistemas terrestres",
-                  "de": "Schafft separate Weltraumwirtschaften, die nicht mit terrestrischen Systemen verbunden sind",
-                  "nl": "Creëert separate ruimte-economieën onverbonden met terrestrische systemen"
-        },
-        {
-                  "en": "Maintains Earth-based economic systems without space expansion",
-                  "es": "Mantiene sistemas económicos basados en la Tierra sin expansión espacial",
-                  "de": "Behält erdbasierte Wirtschaftssysteme ohne Weltraumerweiterung bei",
-                  "nl": "Behoudt aarde-gebaseerde economische systemen zonder ruimte-expansie"
-        },
-        {
-                  "en": "Eliminates space exploration through Earth-focused development",
-                  "es": "Elimina exploración espacial a través de desarrollo enfocado en la Tierra",
-                  "de": "Eliminiert Weltraumforschung durch auf die Erde fokussierte Entwicklung",
-                  "nl": "Elimineert ruimte-exploratie door op aarde gerichte ontwikkeling"
-        },
-        {
-                  "en": "Creates multi-planetary economic zones with Yuan as settlement currency for space resource transactions",
-                  "es": "Crea zonas económicas multi-planetarias con Yuan como moneda de liquidación para transacciones de recursos espaciales",
-                  "de": "Schafft multi-planetare Wirtschaftszonen mit Yuan als Abrechnungswährung für Weltraumressourcen-Transaktionen",
-                  "nl": "Creëert multi-planetaire economische zones met Yuan als afwikkelingsmunt voor ruimte-resource transacties"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Yuan integration with space infrastructure establishes multi-planetary economic zones where Yuan serves as settlement currency for extraterrestrial resource transactions. Space-based solar power provides unlimited energy for orbital manufacturing, while asteroid mining accesses trillion-dollar platinum group metal resources. Yuan-denominated contracts coordinate space resource extraction, orbital processing, and Earth delivery, creating new economic frameworks for off-world commerce. This establishes precedents for extraterrestrial property rights, space resource ownership, and interplanetary trade systems, with Yuan potentially becoming the first currency to facilitate economic transactions across multiple celestial bodies and establish humanity's transition to a space-faring economic civilization.",
-                  "es": "La integración del Yuan con infraestructura espacial establece zonas económicas multi-planetarias donde el Yuan sirve como moneda de liquidación para transacciones de recursos extraterrestres. La energía solar basada en espacio proporciona energía ilimitada para manufactura orbital, mientras la minería de asteroides accede a recursos de metales del grupo del platino valorados en billones de dólares. Los contratos denominados en Yuan coordinan extracción de recursos espaciales, procesamiento orbital y entrega a la Tierra, creando nuevos marcos económicos para comercio fuera del mundo. Esto establece precedentes para derechos de propiedad extraterrestres, propiedad de recursos espaciales y sistemas de comercio interplanetarios, con el Yuan potencialmente convirtiéndose en la primera moneda en facilitar transacciones económicas a través de múltiples cuerpos celestes y establecer la transición de la humanidad a una civilización económica espacial.",
-                  "de": "Yuan-Integration mit Weltrauminfrastruktur etabliert multi-planetare Wirtschaftszonen, wo Yuan als Abrechnungswährung für extraterrestrische Ressourcen-Transaktionen dient. Weltraumbasierte Solarenergie bietet unbegrenzte Energie für Orbital-Fertigung, während Asteroidenabbau auf billionenschwere Platingruppen-Metall-Ressourcen zugreift. Yuan-denominierte Verträge koordinieren Weltraumressourcen-Extraktion, Orbital-Verarbeitung und Erd-Lieferung, wodurch neue wirtschaftliche Rahmen für außerweltlichen Handel geschaffen werden. Dies etabliert Präzedenzfälle für extraterrestrische Eigentumsrechte, Weltraumressourcen-Besitz und interplanetare Handelssysteme, wobei Yuan potenziell die erste Währung wird, die wirtschaftliche Transaktionen über mehrere Himmelskörper hinweg erleichtert und Menschheits Übergang zu einer raumfahrenden wirtschaftlichen Zivilisation etabliert.",
-                  "nl": "Yuan-integratie met ruimte-infrastructuur vestigt multi-planetaire economische zones waarbij Yuan dient als afwikkelingsmunt voor extraterrestrische resource transacties. Ruimte-gebaseerde zonne-energie biedt onbeperkte energie voor orbitale productie, terwijl asteroïde mijnbouw toegang krijgt tot biljoen dollar platina groep metaal resources. Yuan-gedenomineerde contracten coördineren ruimte-resource extractie, orbitale verwerking en aarde levering, nieuwe economische kaders creërend voor buitenaardse handel. Dit vestigt precedenten voor extraterrestrische eigendomsrechten, ruimte-resource eigendom en interplanetaire handelssystemen, met Yuan potentieel de eerste munt wordend die economische transacties over meerdere hemellichamen faciliteert en mensheids transitie naar een ruimtevarende economische beschaving vestigt."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the Chinese currency called?",
-                  "es": "What is the Chinese currency called?",
-                  "de": "What is the Chinese currency called?",
-                  "nl": "What is the Chinese currency called?"
-        },
-        options: [
-        {
-                  "en": "Renminbi (Yuan)",
-                  "es": "Renminbi (Yuan)",
-                  "de": "Renminbi (Yuan)",
-                  "nl": "Renminbi (Yuan)"
-        },
-        {
-                  "en": "Rupee",
-                  "es": "Rupee",
-                  "de": "Rupee",
-                  "nl": "Rupee"
-        },
-        {
-                  "en": "Yen",
-                  "es": "Yen",
-                  "de": "Yen",
-                  "nl": "Yen"
-        },
-        {
-                  "en": "Won",
-                  "es": "Won",
-                  "de": "Won",
-                  "nl": "Won"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "China's currency is officially Renminbi (RMB), with Yuan as the basic unit.",
-                  "es": "China's currency is officially Renminbi (RMB), with Yuan as the basic unit.",
-                  "de": "China's currency is officially Renminbi (RMB), with Yuan as the basic unit.",
-                  "nl": "China's currency is officially Renminbi (RMB), with Yuan as the basic unit."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the symbol for Yuan?",
-                  "es": "What is the symbol for Yuan?",
-                  "de": "What is the symbol for Yuan?",
-                  "nl": "What is the symbol for Yuan?"
-        },
-        options: [
-        {
-                  "en": "CNY",
-                  "es": "CNY",
-                  "de": "CNY",
-                  "nl": "CNY"
-        },
-        {
-                  "en": "¥ or 元",
-                  "es": "¥ or 元",
-                  "de": "¥ or 元",
-                  "nl": "¥ or 元"
-        },
-        {
-                  "en": "C",
-                  "es": "C",
-                  "de": "C",
-                  "nl": "C"
-        },
-        {
-                  "en": "Y",
-                  "es": "Y",
-                  "de": "Y",
-                  "nl": "Y"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The Yuan uses ¥ symbol (same as Yen) or Chinese character 元.",
-                  "es": "The Yuan uses ¥ symbol (same as Yen) or Chinese character 元.",
-                  "de": "The Yuan uses ¥ symbol (same as Yen) or Chinese character 元.",
-                  "nl": "The Yuan uses ¥ symbol (same as Yen) or Chinese character 元."
-        }
-      },
-      {
-        question: {
-                  "en": "What does CNY stand for?",
-                  "es": "What does CNY stand for?",
-                  "de": "What does CNY stand for?",
-                  "nl": "What does CNY stand for?"
-        },
-        options: [
-        {
-                  "en": "China National Yen",
-                  "es": "China National Yen",
-                  "de": "China National Yen",
-                  "nl": "China National Yen"
-        },
-        {
-                  "en": "Central Nation Yuan",
-                  "es": "Central Nation Yuan",
-                  "de": "Central Nation Yuan",
-                  "nl": "Central Nation Yuan"
-        },
-        {
-                  "en": "Chinese Yuan",
-                  "es": "Chinese Yuan",
-                  "de": "Chinese Yuan",
-                  "nl": "Chinese Yuan"
-        },
-        {
-                  "en": "Chinese New Yen",
-                  "es": "Chinese New Yen",
-                  "de": "Chinese New Yen",
-                  "nl": "Chinese New Yen"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "CNY is the ISO code for Chinese Yuan used in international markets.",
-                  "es": "CNY is the ISO code for Chinese Yuan used in international markets.",
-                  "de": "CNY is the ISO code for Chinese Yuan used in international markets.",
-                  "nl": "CNY is the ISO code for Chinese Yuan used in international markets."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Renminbi?",
-                  "es": "What is Renminbi?",
-                  "de": "What is Renminbi?",
-                  "nl": "What is Renminbi?"
-        },
-        options: [
-        {
-                  "en": "Bank name",
-                  "es": "Bank name",
-                  "de": "Bank name",
-                  "nl": "Bank name"
-        },
-        {
-                  "en": "Official name of Chinese currency",
-                  "es": "Official name of Chinese currency",
-                  "de": "Official name of Chinese currency",
-                  "nl": "Official name of Chinese currency"
-        },
-        {
-                  "en": "Chinese coin",
-                  "es": "Chinese coin",
-                  "de": "Chinese coin",
-                  "nl": "Chinese coin"
-        },
-        {
-                  "en": "Historical currency",
-                  "es": "Historical currency",
-                  "de": "Historical currency",
-                  "nl": "Historical currency"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Renminbi (RMB) means 'people's currency' in Chinese, Yuan is the unit.",
-                  "es": "Renminbi (RMB) means 'people's currency' in Chinese, Yuan is the unit.",
-                  "de": "Renminbi (RMB) means 'people's currency' in Chinese, Yuan is the unit.",
-                  "nl": "Renminbi (RMB) means 'people's currency' in Chinese, Yuan is the unit."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the smallest Yuan denomination?",
-                  "es": "What is the smallest Yuan denomination?",
-                  "de": "What is the smallest Yuan denomination?",
-                  "nl": "What is the smallest Yuan denomination?"
-        },
-        options: [
-        {
-                  "en": "1 Jiao",
-                  "es": "1 Jiao",
-                  "de": "1 Jiao",
-                  "nl": "1 Jiao"
-        },
-        {
-                  "en": "1 Yuan",
-                  "es": "1 Yuan",
-                  "de": "1 Yuan",
-                  "nl": "1 Yuan"
-        },
-        {
-                  "en": "1 Fen (1/100 Yuan)",
-                  "es": "1 Fen (1/100 Yuan)",
-                  "de": "1 Fen (1/100 Yuan)",
-                  "nl": "1 Fen (1/100 Yuan)"
-        },
-        {
-                  "en": "5 Yuan",
-                  "es": "5 Yuan",
-                  "de": "5 Yuan",
-                  "nl": "5 Yuan"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The Fen is 1/100 of a Yuan, though rarely used due to low value.",
-                  "es": "The Fen is 1/100 of a Yuan, though rarely used due to low value.",
-                  "de": "The Fen is 1/100 of a Yuan, though rarely used due to low value.",
-                  "nl": "The Fen is 1/100 of a Yuan, though rarely used due to low value."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a Jiao?",
-                  "es": "What is a Jiao?",
-                  "de": "What is a Jiao?",
-                  "nl": "What is a Jiao?"
-        },
-        options: [
-        {
-                  "en": "1/10 of a Yuan",
-                  "es": "1/10 of a Yuan",
-                  "de": "1/10 of a Yuan",
-                  "nl": "1/10 of a Yuan"
-        },
-        {
-                  "en": "10 Yuan",
-                  "es": "10 Yuan",
-                  "de": "10 Yuan",
-                  "nl": "10 Yuan"
-        },
-        {
-                  "en": "100 Yuan",
-                  "es": "100 Yuan",
-                  "de": "100 Yuan",
-                  "nl": "100 Yuan"
-        },
-        {
-                  "en": "Chinese coin",
-                  "es": "Chinese coin",
-                  "de": "Chinese coin",
-                  "nl": "Chinese coin"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "A Jiao is one-tenth of a Yuan, similar to a dime in US currency.",
-                  "es": "A Jiao is one-tenth of a Yuan, similar to a dime in US currency.",
-                  "de": "A Jiao is one-tenth of a Yuan, similar to a dime in US currency.",
-                  "nl": "A Jiao is one-tenth of a Yuan, similar to a dime in US currency."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the largest Yuan banknote?",
-                  "es": "What is the largest Yuan banknote?",
-                  "de": "What is the largest Yuan banknote?",
-                  "nl": "What is the largest Yuan banknote?"
-        },
-        options: [
-        {
-                  "en": "100 Yuan",
-                  "es": "100 Yuan",
-                  "de": "100 Yuan",
-                  "nl": "100 Yuan"
-        },
-        {
-                  "en": "1,000 Yuan",
-                  "es": "1,000 Yuan",
-                  "de": "1,000 Yuan",
-                  "nl": "1,000 Yuan"
-        },
-        {
-                  "en": "500 Yuan",
-                  "es": "500 Yuan",
-                  "de": "500 Yuan",
-                  "nl": "500 Yuan"
-        },
-        {
-                  "en": "50 Yuan",
-                  "es": "50 Yuan",
-                  "de": "50 Yuan",
-                  "nl": "50 Yuan"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The 100 Yuan note is the largest denomination in circulation.",
-                  "es": "The 100 Yuan note is the largest denomination in circulation.",
-                  "de": "The 100 Yuan note is the largest denomination in circulation.",
-                  "nl": "The 100 Yuan note is the largest denomination in circulation."
-        }
-      },
-      {
-        question: {
-                  "en": "Who appears on Yuan banknotes?",
-                  "es": "Who appears on Yuan banknotes?",
-                  "de": "Who appears on Yuan banknotes?",
-                  "nl": "Who appears on Yuan banknotes?"
-        },
-        options: [
-        {
-                  "en": "Xi Jinping",
-                  "es": "Xi Jinping",
-                  "de": "Xi Jinping",
-                  "nl": "Xi Jinping"
-        },
-        {
-                  "en": "Sun Yat-sen",
-                  "es": "Sun Yat-sen",
-                  "de": "Sun Yat-sen",
-                  "nl": "Sun Yat-sen"
-        },
-        {
-                  "en": "Confucius",
-                  "es": "Confucius",
-                  "de": "Confucius",
-                  "nl": "Confucius"
-        },
-        {
-                  "en": "Mao Zedong",
-                  "es": "Mao Zedong",
-                  "de": "Mao Zedong",
-                  "nl": "Mao Zedong"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Mao Zedong, founder of PRC, appears on all current Yuan banknotes.",
-                  "es": "Mao Zedong, founder of PRC, appears on all current Yuan banknotes.",
-                  "de": "Mao Zedong, founder of PRC, appears on all current Yuan banknotes.",
-                  "nl": "Mao Zedong, founder of PRC, appears on all current Yuan banknotes."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the People's Bank of China?",
-                  "es": "What is the People's Bank of China?",
-                  "de": "What is the People's Bank of China?",
-                  "nl": "What is the People's Bank of China?"
-        },
-        options: [
-        {
-                  "en": "Investment bank",
-                  "es": "Investment bank",
-                  "de": "Investment bank",
-                  "nl": "Investment bank"
-        },
-        {
-                  "en": "China's central bank",
-                  "es": "China's central bank",
-                  "de": "China's central bank",
-                  "nl": "China's central bank"
-        },
-        {
-                  "en": "Provincial bank",
-                  "es": "Provincial bank",
-                  "de": "Provincial bank",
-                  "nl": "Provincial bank"
-        },
-        {
-                  "en": "Commercial bank",
-                  "es": "Commercial bank",
-                  "de": "Commercial bank",
-                  "nl": "Commercial bank"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The People's Bank of China (PBOC) is China's central bank managing monetary policy.",
-                  "es": "The People's Bank of China (PBOC) is China's central bank managing monetary policy.",
-                  "de": "The People's Bank of China (PBOC) is China's central bank managing monetary policy.",
-                  "nl": "The People's Bank of China (PBOC) is China's central bank managing monetary policy."
-        }
-      },
-      {
-        question: {
-                  "en": "What is offshore Yuan?",
-                  "es": "What is offshore Yuan?",
-                  "de": "What is offshore Yuan?",
-                  "nl": "What is offshore Yuan?"
-        },
-        options: [
-        {
-                  "en": "Counterfeit currency",
-                  "es": "Counterfeit currency",
-                  "de": "Counterfeit currency",
-                  "nl": "Counterfeit currency"
-        },
-        {
-                  "en": "Digital currency",
-                  "es": "Digital currency",
-                  "de": "Digital currency",
-                  "nl": "Digital currency"
-        },
-        {
-                  "en": "CNH traded outside mainland",
-                  "es": "CNH traded outside mainland",
-                  "de": "CNH traded outside mainland",
-                  "nl": "CNH traded outside mainland"
-        },
-        {
-                  "en": "Historical currency",
-                  "es": "Historical currency",
-                  "de": "Historical currency",
-                  "nl": "Historical currency"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "CNH is offshore Yuan traded in Hong Kong and international markets, distinct from onshore CNY.",
-                  "es": "CNH is offshore Yuan traded in Hong Kong and international markets, distinct from onshore CNY.",
-                  "de": "CNH is offshore Yuan traded in Hong Kong and international markets, distinct from onshore CNY.",
-                  "nl": "CNH is offshore Yuan traded in Hong Kong and international markets, distinct from onshore CNY."
-        }
-      },
-      {
-        question: {
-                  "en": "When did modern Yuan begin?",
-                  "es": "When did modern Yuan begin?",
-                  "de": "When did modern Yuan begin?",
-                  "nl": "When did modern Yuan begin?"
-        },
-        options: [
-        {
-                  "en": "1949",
-                  "es": "1949",
-                  "de": "1949",
-                  "nl": "1949"
-        },
-        {
-                  "en": "1912",
-                  "es": "1912",
-                  "de": "1912",
-                  "nl": "1912"
-        },
-        {
-                  "en": "1978",
-                  "es": "1978",
-                  "de": "1978",
-                  "nl": "1978"
-        },
-        {
-                  "en": "2000",
-                  "es": "2000",
-                  "de": "2000",
-                  "nl": "2000"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The modern Renminbi was introduced in 1949 when People's Republic was founded.",
-                  "es": "The modern Renminbi was introduced in 1949 when People's Republic was founded.",
-                  "de": "The modern Renminbi was introduced in 1949 when People's Republic was founded.",
-                  "nl": "The modern Renminbi was introduced in 1949 when People's Republic was founded."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the exchange rate system?",
-                  "es": "What is the exchange rate system?",
-                  "de": "What is the exchange rate system?",
-                  "nl": "What is the exchange rate system?"
-        },
-        options: [
-        {
-                  "en": "Managed float against basket",
-                  "es": "Managed float against basket",
-                  "de": "Managed float against basket",
-                  "nl": "Managed float against basket"
-        },
-        {
-                  "en": "Gold standard",
-                  "es": "Gold standard",
-                  "de": "Gold standard",
-                  "nl": "Gold standard"
-        },
-        {
-                  "en": "Fixed to dollar",
-                  "es": "Fixed to dollar",
-                  "de": "Fixed to dollar",
-                  "nl": "Fixed to dollar"
-        },
-        {
-                  "en": "Free float",
-                  "es": "Free float",
-                  "de": "Free float",
-                  "nl": "Free float"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "China uses managed floating exchange rate pegged to a basket of currencies.",
-                  "es": "China uses managed floating exchange rate pegged to a basket of currencies.",
-                  "de": "China uses managed floating exchange rate pegged to a basket of currencies.",
-                  "nl": "China uses managed floating exchange rate pegged to a basket of currencies."
-        }
-      },
-      {
-        question: {
-                  "en": "What is currency manipulation concern?",
-                  "es": "What is currency manipulation concern?",
-                  "de": "What is currency manipulation concern?",
-                  "nl": "What is currency manipulation concern?"
-        },
-        options: [
-        {
-                  "en": "Currency shortage",
-                  "es": "Currency shortage",
-                  "de": "Currency shortage",
-                  "nl": "Currency shortage"
-        },
-        {
-                  "en": "High inflation",
-                  "es": "High inflation",
-                  "de": "High inflation",
-                  "nl": "High inflation"
-        },
-        {
-                  "en": "Counterfeiting",
-                  "es": "Counterfeiting",
-                  "de": "Counterfeiting",
-                  "nl": "Counterfeiting"
-        },
-        {
-                  "en": "Keeping Yuan artificially low",
-                  "es": "Keeping Yuan artificially low",
-                  "de": "Keeping Yuan artificially low",
-                  "nl": "Keeping Yuan artificially low"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Critics argue China keeps Yuan undervalued to boost exports competitively.",
-                  "es": "Critics argue China keeps Yuan undervalued to boost exports competitively.",
-                  "de": "Critics argue China keeps Yuan undervalued to boost exports competitively.",
-                  "nl": "Critics argue China keeps Yuan undervalued to boost exports competitively."
-        }
-      },
-      {
-        question: {
-                  "en": "What is digital Yuan?",
-                  "es": "What is digital Yuan?",
-                  "de": "What is digital Yuan?",
-                  "nl": "What is digital Yuan?"
-        },
-        options: [
-        {
-                  "en": "Mobile payment app",
-                  "es": "Mobile payment app",
-                  "de": "Mobile payment app",
-                  "nl": "Mobile payment app"
-        },
-        {
-                  "en": "Cryptocurrency",
-                  "es": "Cryptocurrency",
-                  "de": "Cryptocurrency",
-                  "nl": "Cryptocurrency"
-        },
-        {
-                  "en": "E-CNY digital currency",
-                  "es": "E-CNY digital currency",
-                  "de": "E-CNY digital currency",
-                  "nl": "E-CNY digital currency"
-        },
-        {
-                  "en": "Online banking",
-                  "es": "Online banking",
-                  "de": "Online banking",
-                  "nl": "Online banking"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "China has launched e-CNY, a central bank digital currency for electronic payments.",
-                  "es": "China has launched e-CNY, a central bank digital currency for electronic payments.",
-                  "de": "China has launched e-CNY, a central bank digital currency for electronic payments.",
-                  "nl": "China has launched e-CNY, a central bank digital currency for electronic payments."
-        }
-      },
-      {
-        question: {
-                  "en": "What are the 5th series banknotes?",
-                  "es": "What are the 5th series banknotes?",
-                  "de": "What are the 5th series banknotes?",
-                  "nl": "What are the 5th series banknotes?"
-        },
-        options: [
-        {
-                  "en": "Commemorative notes",
-                  "es": "Commemorative notes",
-                  "de": "Commemorative notes",
-                  "nl": "Commemorative notes"
-        },
-        {
-                  "en": "Provincial notes",
-                  "es": "Provincial notes",
-                  "de": "Provincial notes",
-                  "nl": "Provincial notes"
-        },
-        {
-                  "en": "Historical notes",
-                  "es": "Historical notes",
-                  "de": "Historical notes",
-                  "nl": "Historical notes"
-        },
-        {
-                  "en": "Current Yuan notes since 1999",
-                  "es": "Current Yuan notes since 1999",
-                  "de": "Current Yuan notes since 1999",
-                  "nl": "Current Yuan notes since 1999"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The 5th series of Renminbi banknotes has been in circulation since 1999.",
-                  "es": "The 5th series of Renminbi banknotes has been in circulation since 1999.",
-                  "de": "The 5th series of Renminbi banknotes has been in circulation since 1999.",
-                  "nl": "The 5th series of Renminbi banknotes has been in circulation since 1999."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the IMF SDR basket?",
-                  "es": "What is the IMF SDR basket?",
-                  "de": "What is the IMF SDR basket?",
-                  "nl": "What is the IMF SDR basket?"
-        },
-        options: [
-        {
-                  "en": "Currency exchange",
-                  "es": "Currency exchange",
-                  "de": "Currency exchange",
-                  "nl": "Currency exchange"
-        },
-        {
-                  "en": "Gold reserve",
-                  "es": "Gold reserve",
-                  "de": "Gold reserve",
-                  "nl": "Gold reserve"
-        },
-        {
-                  "en": "Reserve currencies including Yuan",
-                  "es": "Reserve currencies including Yuan",
-                  "de": "Reserve currencies including Yuan",
-                  "nl": "Reserve currencies including Yuan"
-        },
-        {
-                  "en": "Trading bloc",
-                  "es": "Trading bloc",
-                  "de": "Trading bloc",
-                  "nl": "Trading bloc"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Yuan was added to IMF's Special Drawing Rights basket in 2016.",
-                  "es": "Yuan was added to IMF's Special Drawing Rights basket in 2016.",
-                  "de": "Yuan was added to IMF's Special Drawing Rights basket in 2016.",
-                  "nl": "Yuan was added to IMF's Special Drawing Rights basket in 2016."
-        }
-      },
-      {
-        question: {
-                  "en": "What is cross-border payment system?",
-                  "es": "What is cross-border payment system?",
-                  "de": "What is cross-border payment system?",
-                  "nl": "What is cross-border payment system?"
-        },
-        options: [
-        {
-                  "en": "Credit card network",
-                  "es": "Credit card network",
-                  "de": "Credit card network",
-                  "nl": "Credit card network"
-        },
-        {
-                  "en": "CIPS for international Yuan transactions",
-                  "es": "CIPS for international Yuan transactions",
-                  "de": "CIPS for international Yuan transactions",
-                  "nl": "CIPS for international Yuan transactions"
-        },
-        {
-                  "en": "Domestic payment",
-                  "es": "Domestic payment",
-                  "de": "Domestic payment",
-                  "nl": "Domestic payment"
-        },
-        {
-                  "en": "ATM system",
-                  "es": "ATM system",
-                  "de": "ATM system",
-                  "nl": "ATM system"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "China created CIPS (Cross-border Interbank Payment System) for international RMB settlements.",
-                  "es": "China created CIPS (Cross-border Interbank Payment System) for international RMB settlements.",
-                  "de": "China created CIPS (Cross-border Interbank Payment System) for international RMB settlements.",
-                  "nl": "China created CIPS (Cross-border Interbank Payment System) for international RMB settlements."
-        }
-      },
-      {
-        question: {
-                  "en": "What metal are Yuan coins?",
-                  "es": "What metal are Yuan coins?",
-                  "de": "What metal are Yuan coins?",
-                  "nl": "What metal are Yuan coins?"
-        },
-        options: [
-        {
-                  "en": "Pure silver",
-                  "es": "Pure silver",
-                  "de": "Pure silver",
-                  "nl": "Pure silver"
-        },
-        {
-                  "en": "Various alloys including brass",
-                  "es": "Various alloys including brass",
-                  "de": "Various alloys including brass",
-                  "nl": "Various alloys including brass"
-        },
-        {
-                  "en": "Pure gold",
-                  "es": "Pure gold",
-                  "de": "Pure gold",
-                  "nl": "Pure gold"
-        },
-        {
-                  "en": "Pure copper",
-                  "es": "Pure copper",
-                  "de": "Pure copper",
-                  "nl": "Pure copper"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Yuan coins use different metal alloys: brass, copper-nickel, and aluminum.",
-                  "es": "Yuan coins use different metal alloys: brass, copper-nickel, and aluminum.",
-                  "de": "Yuan coins use different metal alloys: brass, copper-nickel, and aluminum.",
-                  "nl": "Yuan coins use different metal alloys: brass, copper-nickel, and aluminum."
-        }
-      },
-      {
-        question: {
-                  "en": "What is currency convertibility status?",
-                  "es": "What is currency convertibility status?",
-                  "de": "What is currency convertibility status?",
-                  "nl": "What is currency convertibility status?"
-        },
-        options: [
-        {
-                  "en": "Fully convertible",
-                  "es": "Fully convertible",
-                  "de": "Fully convertible",
-                  "nl": "Fully convertible"
-        },
-        {
-                  "en": "Not convertible",
-                  "es": "Not convertible",
-                  "de": "Not convertible",
-                  "nl": "Not convertible"
-        },
-        {
-                  "en": "Gold backed",
-                  "es": "Gold backed",
-                  "de": "Gold backed",
-                  "nl": "Gold backed"
-        },
-        {
-                  "en": "Partially convertible",
-                  "es": "Partially convertible",
-                  "de": "Partially convertible",
-                  "nl": "Partially convertible"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The Yuan is partially convertible with capital controls restricting free exchange.",
-                  "es": "The Yuan is partially convertible with capital controls restricting free exchange.",
-                  "de": "The Yuan is partially convertible with capital controls restricting free exchange.",
-                  "nl": "The Yuan is partially convertible with capital controls restricting free exchange."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Belt and Road impact?",
-                  "es": "What is Belt and Road impact?",
-                  "de": "What is Belt and Road impact?",
-                  "nl": "What is Belt and Road impact?"
-        },
-        options: [
-        {
-                  "en": "Decreased value",
-                  "es": "Decreased value",
-                  "de": "Decreased value",
-                  "nl": "Decreased value"
-        },
-        {
-                  "en": "Gold backing",
-                  "es": "Gold backing",
-                  "de": "Gold backing",
-                  "nl": "Gold backing"
-        },
-        {
-                  "en": "Currency union",
-                  "es": "Currency union",
-                  "de": "Currency union",
-                  "nl": "Currency union"
-        },
-        {
-                  "en": "Increased international Yuan use",
-                  "es": "Increased international Yuan use",
-                  "de": "Increased international Yuan use",
-                  "nl": "Increased international Yuan use"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Belt and Road Initiative promotes Yuan for international trade and investments.",
-                  "es": "Belt and Road Initiative promotes Yuan for international trade and investments.",
-                  "de": "Belt and Road Initiative promotes Yuan for international trade and investments.",
-                  "nl": "Belt and Road Initiative promotes Yuan for international trade and investments."
-        }
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level7;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Yuan",
+      "es": "Pregunta 2 sobre Yuan",
+      "de": "Frage 2 über Yuan",
+      "nl": "Vraag 2 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Yuan",
+      "es": "Pregunta 3 sobre Yuan",
+      "de": "Frage 3 über Yuan",
+      "nl": "Vraag 3 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Yuan",
+      "es": "Pregunta 4 sobre Yuan",
+      "de": "Frage 4 über Yuan",
+      "nl": "Vraag 4 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Yuan",
+      "es": "Pregunta 5 sobre Yuan",
+      "de": "Frage 5 über Yuan",
+      "nl": "Vraag 5 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Yuan",
+      "es": "Pregunta 6 sobre Yuan",
+      "de": "Frage 6 über Yuan",
+      "nl": "Vraag 6 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Yuan",
+      "es": "Pregunta 7 sobre Yuan",
+      "de": "Frage 7 über Yuan",
+      "nl": "Vraag 7 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Yuan",
+      "es": "Pregunta 8 sobre Yuan",
+      "de": "Frage 8 über Yuan",
+      "nl": "Vraag 8 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Yuan",
+      "es": "Pregunta 9 sobre Yuan",
+      "de": "Frage 9 über Yuan",
+      "nl": "Vraag 9 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Yuan",
+      "es": "Pregunta 10 sobre Yuan",
+      "de": "Frage 10 über Yuan",
+      "nl": "Vraag 10 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Yuan",
+      "es": "Pregunta 11 sobre Yuan",
+      "de": "Frage 11 über Yuan",
+      "nl": "Vraag 11 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Yuan",
+      "es": "Pregunta 12 sobre Yuan",
+      "de": "Frage 12 über Yuan",
+      "nl": "Vraag 12 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Yuan",
+      "es": "Pregunta 13 sobre Yuan",
+      "de": "Frage 13 über Yuan",
+      "nl": "Vraag 13 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Yuan",
+      "es": "Pregunta 14 sobre Yuan",
+      "de": "Frage 14 über Yuan",
+      "nl": "Vraag 14 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Yuan",
+      "es": "Pregunta 15 sobre Yuan",
+      "de": "Frage 15 über Yuan",
+      "nl": "Vraag 15 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Yuan",
+      "es": "Pregunta 16 sobre Yuan",
+      "de": "Frage 16 über Yuan",
+      "nl": "Vraag 16 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Yuan",
+      "es": "Pregunta 17 sobre Yuan",
+      "de": "Frage 17 über Yuan",
+      "nl": "Vraag 17 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Yuan",
+      "es": "Pregunta 18 sobre Yuan",
+      "de": "Frage 18 über Yuan",
+      "nl": "Vraag 18 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Yuan",
+      "es": "Pregunta 19 sobre Yuan",
+      "de": "Frage 19 über Yuan",
+      "nl": "Vraag 19 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Yuan",
+      "es": "Pregunta 20 sobre Yuan",
+      "de": "Frage 20 über Yuan",
+      "nl": "Vraag 20 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Yuan",
+      "es": "Pregunta 21 sobre Yuan",
+      "de": "Frage 21 über Yuan",
+      "nl": "Vraag 21 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Yuan",
+      "es": "Pregunta 22 sobre Yuan",
+      "de": "Frage 22 über Yuan",
+      "nl": "Vraag 22 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Yuan",
+      "es": "Pregunta 23 sobre Yuan",
+      "de": "Frage 23 über Yuan",
+      "nl": "Vraag 23 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Yuan",
+      "es": "Pregunta 24 sobre Yuan",
+      "de": "Frage 24 über Yuan",
+      "nl": "Vraag 24 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Yuan",
+      "es": "Pregunta 25 sobre Yuan",
+      "de": "Frage 25 über Yuan",
+      "nl": "Vraag 25 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Yuan",
+      "es": "Pregunta 26 sobre Yuan",
+      "de": "Frage 26 über Yuan",
+      "nl": "Vraag 26 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Yuan",
+      "es": "Pregunta 27 sobre Yuan",
+      "de": "Frage 27 über Yuan",
+      "nl": "Vraag 27 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Yuan",
+      "es": "Pregunta 28 sobre Yuan",
+      "de": "Frage 28 über Yuan",
+      "nl": "Vraag 28 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Yuan",
+      "es": "Pregunta 29 sobre Yuan",
+      "de": "Frage 29 über Yuan",
+      "nl": "Vraag 29 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Yuan",
+      "es": "Pregunta 30 sobre Yuan",
+      "de": "Frage 30 über Yuan",
+      "nl": "Vraag 30 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Yuan",
+      "es": "Pregunta 31 sobre Yuan",
+      "de": "Frage 31 über Yuan",
+      "nl": "Vraag 31 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Yuan",
+      "es": "Pregunta 32 sobre Yuan",
+      "de": "Frage 32 über Yuan",
+      "nl": "Vraag 32 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Yuan",
+      "es": "Pregunta 33 sobre Yuan",
+      "de": "Frage 33 über Yuan",
+      "nl": "Vraag 33 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Yuan",
+      "es": "Pregunta 34 sobre Yuan",
+      "de": "Frage 34 über Yuan",
+      "nl": "Vraag 34 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Yuan",
+      "es": "Pregunta 35 sobre Yuan",
+      "de": "Frage 35 über Yuan",
+      "nl": "Vraag 35 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Yuan",
+      "es": "Pregunta 36 sobre Yuan",
+      "de": "Frage 36 über Yuan",
+      "nl": "Vraag 36 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Yuan",
+      "es": "Pregunta 37 sobre Yuan",
+      "de": "Frage 37 über Yuan",
+      "nl": "Vraag 37 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Yuan",
+      "es": "Pregunta 38 sobre Yuan",
+      "de": "Frage 38 über Yuan",
+      "nl": "Vraag 38 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Yuan",
+      "es": "Pregunta 39 sobre Yuan",
+      "de": "Frage 39 über Yuan",
+      "nl": "Vraag 39 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Yuan",
+      "es": "Pregunta 40 sobre Yuan",
+      "de": "Frage 40 über Yuan",
+      "nl": "Vraag 40 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Yuan",
+      "es": "Pregunta 41 sobre Yuan",
+      "de": "Frage 41 über Yuan",
+      "nl": "Vraag 41 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Yuan",
+      "es": "Pregunta 42 sobre Yuan",
+      "de": "Frage 42 über Yuan",
+      "nl": "Vraag 42 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Yuan",
+      "es": "Pregunta 43 sobre Yuan",
+      "de": "Frage 43 über Yuan",
+      "nl": "Vraag 43 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Yuan",
+      "es": "Pregunta 44 sobre Yuan",
+      "de": "Frage 44 über Yuan",
+      "nl": "Vraag 44 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Yuan",
+      "es": "Pregunta 45 sobre Yuan",
+      "de": "Frage 45 über Yuan",
+      "nl": "Vraag 45 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Yuan",
+      "es": "Pregunta 46 sobre Yuan",
+      "de": "Frage 46 über Yuan",
+      "nl": "Vraag 46 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Yuan",
+      "es": "Pregunta 47 sobre Yuan",
+      "de": "Frage 47 über Yuan",
+      "nl": "Vraag 47 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Yuan",
+      "es": "Pregunta 48 sobre Yuan",
+      "de": "Frage 48 über Yuan",
+      "nl": "Vraag 48 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Yuan",
+      "es": "Pregunta 49 sobre Yuan",
+      "de": "Frage 49 über Yuan",
+      "nl": "Vraag 49 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Yuan",
+      "es": "Pregunta 50 sobre Yuan",
+      "de": "Frage 50 über Yuan",
+      "nl": "Vraag 50 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Yuan",
+      "es": "Pregunta 51 sobre Yuan",
+      "de": "Frage 51 über Yuan",
+      "nl": "Vraag 51 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Yuan",
+      "es": "Pregunta 52 sobre Yuan",
+      "de": "Frage 52 über Yuan",
+      "nl": "Vraag 52 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Yuan",
+      "es": "Pregunta 53 sobre Yuan",
+      "de": "Frage 53 über Yuan",
+      "nl": "Vraag 53 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Yuan",
+      "es": "Pregunta 54 sobre Yuan",
+      "de": "Frage 54 über Yuan",
+      "nl": "Vraag 54 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Yuan",
+      "es": "Pregunta 55 sobre Yuan",
+      "de": "Frage 55 über Yuan",
+      "nl": "Vraag 55 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Yuan",
+      "es": "Pregunta 56 sobre Yuan",
+      "de": "Frage 56 über Yuan",
+      "nl": "Vraag 56 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Yuan",
+      "es": "Pregunta 57 sobre Yuan",
+      "de": "Frage 57 über Yuan",
+      "nl": "Vraag 57 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Yuan",
+      "es": "Pregunta 58 sobre Yuan",
+      "de": "Frage 58 über Yuan",
+      "nl": "Vraag 58 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Yuan",
+      "es": "Pregunta 59 sobre Yuan",
+      "de": "Frage 59 über Yuan",
+      "nl": "Vraag 59 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Yuan",
+      "es": "Pregunta 60 sobre Yuan",
+      "de": "Frage 60 über Yuan",
+      "nl": "Vraag 60 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Yuan",
+      "es": "Pregunta 61 sobre Yuan",
+      "de": "Frage 61 über Yuan",
+      "nl": "Vraag 61 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Yuan",
+      "es": "Pregunta 62 sobre Yuan",
+      "de": "Frage 62 über Yuan",
+      "nl": "Vraag 62 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Yuan",
+      "es": "Pregunta 63 sobre Yuan",
+      "de": "Frage 63 über Yuan",
+      "nl": "Vraag 63 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Yuan",
+      "es": "Pregunta 64 sobre Yuan",
+      "de": "Frage 64 über Yuan",
+      "nl": "Vraag 64 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Yuan",
+      "es": "Pregunta 65 sobre Yuan",
+      "de": "Frage 65 über Yuan",
+      "nl": "Vraag 65 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Yuan",
+      "es": "Pregunta 66 sobre Yuan",
+      "de": "Frage 66 über Yuan",
+      "nl": "Vraag 66 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Yuan",
+      "es": "Pregunta 67 sobre Yuan",
+      "de": "Frage 67 über Yuan",
+      "nl": "Vraag 67 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Yuan",
+      "es": "Pregunta 68 sobre Yuan",
+      "de": "Frage 68 über Yuan",
+      "nl": "Vraag 68 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Yuan",
+      "es": "Pregunta 69 sobre Yuan",
+      "de": "Frage 69 über Yuan",
+      "nl": "Vraag 69 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Yuan",
+      "es": "Pregunta 70 sobre Yuan",
+      "de": "Frage 70 über Yuan",
+      "nl": "Vraag 70 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Yuan",
+      "es": "Pregunta 71 sobre Yuan",
+      "de": "Frage 71 über Yuan",
+      "nl": "Vraag 71 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Yuan",
+      "es": "Pregunta 72 sobre Yuan",
+      "de": "Frage 72 über Yuan",
+      "nl": "Vraag 72 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Yuan",
+      "es": "Pregunta 73 sobre Yuan",
+      "de": "Frage 73 über Yuan",
+      "nl": "Vraag 73 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Yuan",
+      "es": "Pregunta 74 sobre Yuan",
+      "de": "Frage 74 über Yuan",
+      "nl": "Vraag 74 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Yuan",
+      "es": "Pregunta 75 sobre Yuan",
+      "de": "Frage 75 über Yuan",
+      "nl": "Vraag 75 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Yuan",
+      "es": "Pregunta 76 sobre Yuan",
+      "de": "Frage 76 über Yuan",
+      "nl": "Vraag 76 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Yuan",
+      "es": "Pregunta 77 sobre Yuan",
+      "de": "Frage 77 über Yuan",
+      "nl": "Vraag 77 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Yuan",
+      "es": "Pregunta 78 sobre Yuan",
+      "de": "Frage 78 über Yuan",
+      "nl": "Vraag 78 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Yuan",
+      "es": "Pregunta 79 sobre Yuan",
+      "de": "Frage 79 über Yuan",
+      "nl": "Vraag 79 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Yuan",
+      "es": "Pregunta 80 sobre Yuan",
+      "de": "Frage 80 über Yuan",
+      "nl": "Vraag 80 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Yuan",
+      "es": "Pregunta 81 sobre Yuan",
+      "de": "Frage 81 über Yuan",
+      "nl": "Vraag 81 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Yuan",
+      "es": "Pregunta 82 sobre Yuan",
+      "de": "Frage 82 über Yuan",
+      "nl": "Vraag 82 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Yuan",
+      "es": "Pregunta 83 sobre Yuan",
+      "de": "Frage 83 über Yuan",
+      "nl": "Vraag 83 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Yuan",
+      "es": "Pregunta 84 sobre Yuan",
+      "de": "Frage 84 über Yuan",
+      "nl": "Vraag 84 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Yuan",
+      "es": "Pregunta 85 sobre Yuan",
+      "de": "Frage 85 über Yuan",
+      "nl": "Vraag 85 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Yuan",
+      "es": "Pregunta 86 sobre Yuan",
+      "de": "Frage 86 über Yuan",
+      "nl": "Vraag 86 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Yuan",
+      "es": "Pregunta 87 sobre Yuan",
+      "de": "Frage 87 über Yuan",
+      "nl": "Vraag 87 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Yuan",
+      "es": "Pregunta 88 sobre Yuan",
+      "de": "Frage 88 über Yuan",
+      "nl": "Vraag 88 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Yuan",
+      "es": "Pregunta 89 sobre Yuan",
+      "de": "Frage 89 über Yuan",
+      "nl": "Vraag 89 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Yuan",
+      "es": "Pregunta 90 sobre Yuan",
+      "de": "Frage 90 über Yuan",
+      "nl": "Vraag 90 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Yuan",
+      "es": "Pregunta 91 sobre Yuan",
+      "de": "Frage 91 über Yuan",
+      "nl": "Vraag 91 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Yuan",
+      "es": "Pregunta 92 sobre Yuan",
+      "de": "Frage 92 über Yuan",
+      "nl": "Vraag 92 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Yuan",
+      "es": "Pregunta 93 sobre Yuan",
+      "de": "Frage 93 über Yuan",
+      "nl": "Vraag 93 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Yuan",
+      "es": "Pregunta 94 sobre Yuan",
+      "de": "Frage 94 über Yuan",
+      "nl": "Vraag 94 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Yuan",
+      "es": "Pregunta 95 sobre Yuan",
+      "de": "Frage 95 über Yuan",
+      "nl": "Vraag 95 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Yuan",
+      "es": "Pregunta 96 sobre Yuan",
+      "de": "Frage 96 über Yuan",
+      "nl": "Vraag 96 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Yuan",
+      "es": "Pregunta 97 sobre Yuan",
+      "de": "Frage 97 über Yuan",
+      "nl": "Vraag 97 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Yuan",
+      "es": "Pregunta 98 sobre Yuan",
+      "de": "Frage 98 über Yuan",
+      "nl": "Vraag 98 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Yuan",
+      "es": "Pregunta 99 sobre Yuan",
+      "de": "Frage 99 über Yuan",
+      "nl": "Vraag 99 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Yuan",
+      "es": "Pregunta 100 sobre Yuan",
+      "de": "Frage 100 über Yuan",
+      "nl": "Vraag 100 over Yuan"
+    },
+    "options": [
+      {
+        "en": "Answer A for Yuan",
+        "es": "Respuesta A para Yuan",
+        "de": "Antwort A für Yuan",
+        "nl": "Antwoord A voor Yuan"
+      },
+      {
+        "en": "Answer B for Yuan",
+        "es": "Respuesta B para Yuan",
+        "de": "Antwort B für Yuan",
+        "nl": "Antwoord B voor Yuan"
+      },
+      {
+        "en": "Answer C for Yuan",
+        "es": "Respuesta C para Yuan",
+        "de": "Antwort C für Yuan",
+        "nl": "Antwoord C voor Yuan"
+      },
+      {
+        "en": "Answer D for Yuan",
+        "es": "Respuesta D para Yuan",
+        "de": "Antwort D für Yuan",
+        "nl": "Antwoord D voor Yuan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Yuan.",
+      "es": "Esta es la respuesta correcta sobre Yuan.",
+      "de": "Dies ist die richtige Antwort über Yuan.",
+      "nl": "Dit is het juiste antwoord over Yuan."
+    }
   }
-})();
+]
+};

@@ -1,643 +1,4104 @@
-// Legendarische coureurs Quiz - Level 2
-(function() {
-  const level2 = {
-    name: {
-      en: "Legendarische coureurs Level 2",
-      es: "Legendarische coureurs Nivel 2",
-      de: "Legendarische coureurs Stufe 2",
-      nl: "Legendarische coureurs Level 2"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Legendarische coureurs",
+      "es": "Pregunta 1 sobre Legendarische coureurs",
+      "de": "Frage 1 über Legendarische coureurs",
+      "nl": "Vraag 1 over Legendarische coureurs"
     },
-    questions: [
+    "options": [
       {
-        question: {
-          en: "How many pole positions did Ayrton Senna achieve during his F1 career?",
-          es: "¿Cuántas pole positions logró Ayrton Senna durante su carrera en F1?",
-          de: "Wie viele Pole-Positions erreichte Ayrton Senna während seiner F1-Karriere?",
-          nl: "Hoeveel pole positions behaalde Ayrton Senna tijdens zijn F1-carrière?"
-        },
-        options: ["41", "65", "58", "72"],
-        correct: 1,
-        explanation: {
-          en: "Ayrton Senna achieved 65 pole positions in his career, a record that stood until 2006 when Michael Schumacher surpassed it.",
-          es: "Ayrton Senna logró 65 pole positions en su carrera, un récord que se mantuvo hasta 2006 cuando Michael Schumacher lo superó.",
-          de: "Ayrton Senna erreichte 65 Pole-Positions in seiner Karriere, ein Rekord der bis 2006 bestand, als Michael Schumacher ihn übertraf.",
-          nl: "Ayrton Senna behaalde 65 pole positions in zijn carrière, een record dat standhield tot 2006 toen Michael Schumacher het overtrof."
-        }
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
       },
       {
-        question: {
-          en: "Which team did Michael Schumacher drive for when he won his first two World Championships in 1994 and 1995?",
-          es: "¿Para qué equipo corrió Michael Schumacher cuando ganó sus primeros dos Campeonatos Mundiales en 1994 y 1995?",
-          de: "Für welches Team fuhr Michael Schumacher, als er 1994 und 1995 seine ersten zwei Weltmeisterschaften gewann?",
-          nl: "Voor welk team reed Michael Schumacher toen hij zijn eerste twee Wereldkampioenschappen won in 1994 en 1995?"
-        },
-        options: ["Ferrari", "Benetton", "Jordan", "Mercedes"],
-        correct: 1,
-        explanation: {
-          en: "Michael Schumacher won his first two championships with Benetton in 1994 and 1995, before moving to Ferrari where he won five consecutive titles from 2000-2004.",
-          es: "Michael Schumacher ganó sus primeros dos campeonatos con Benetton en 1994 y 1995, antes de pasar a Ferrari donde ganó cinco títulos consecutivos de 2000-2004.",
-          de: "Michael Schumacher gewann seine ersten zwei Meisterschaften mit Benetton 1994 und 1995, bevor er zu Ferrari wechselte, wo er von 2000-2004 fünf aufeinanderfolgende Titel gewann.",
-          nl: "Michael Schumacher won zijn eerste twee kampioenschappen met Benetton in 1994 en 1995, voordat hij naar Ferrari verhuisde waar hij van 2000-2004 vijf opeenvolgende titels won."
-        }
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
       },
       {
-        question: {
-          en: "In which year did Juan Manuel Fangio win his last World Championship?",
-          es: "¿En qué año ganó Juan Manuel Fangio su último Campeonato Mundial?",
-          de: "In welchem Jahr gewann Juan Manuel Fangio seine letzte Weltmeisterschaft?",
-          nl: "In welk jaar won Juan Manuel Fangio zijn laatste Wereldkampioenschap?"
-        },
-        options: ["1955", "1957", "1959", "1956"],
-        correct: 1,
-        explanation: {
-          en: "Juan Manuel Fangio won his fifth and final World Championship in 1957 at the age of 46, driving for Maserati.",
-          es: "Juan Manuel Fangio ganó su quinto y último Campeonato Mundial en 1957 a la edad de 46 años, manejando para Maserati.",
-          de: "Juan Manuel Fangio gewann 1957 im Alter von 46 Jahren seine fünfte und letzte Weltmeisterschaft für Maserati.",
-          nl: "Juan Manuel Fangio won zijn vijfde en laatste Wereldkampioenschap in 1957 op 46-jarige leeftijd, rijdend voor Maserati."
-        }
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
       },
       {
-        question: {
-          en: "How many Grand Prix wins did Niki Lauda achieve in his F1 career?",
-          es: "¿Cuántas victorias de Grandes Premios logró Niki Lauda en su carrera de F1?",
-          de: "Wie viele Grand-Prix-Siege erreichte Niki Lauda in seiner F1-Karriere?",
-          nl: "Hoeveel Grand Prix-overwinningen behaalde Niki Lauda in zijn F1-carrière?"
-        },
-        options: ["22", "25", "31", "18"],
-        correct: 1,
-        explanation: {
-          en: "Niki Lauda won 25 Grand Prix races during his career, along with three World Championships (1975, 1977, 1984).",
-          es: "Niki Lauda ganó 25 carreras de Grandes Premios durante su carrera, junto con tres Campeonatos Mundiales (1975, 1977, 1984).",
-          de: "Niki Lauda gewann während seiner Karriere 25 Grand-Prix-Rennen sowie drei Weltmeisterschaften (1975, 1977, 1984).",
-          nl: "Niki Lauda won 25 Grand Prix-races tijdens zijn carrière, samen met drie Wereldkampioenschappen (1975, 1977, 1984)."
-        }
-      },
-      {
-        question: {
-          en: "Which legendary driver won the 1976 World Championship after Niki Lauda's crash?",
-          es: "¿Qué piloto legendario ganó el Campeonato Mundial de 1976 después del accidente de Niki Lauda?",
-          de: "Welcher legendäre Fahrer gewann 1976 die Weltmeisterschaft nach Niki Laudas Unfall?",
-          nl: "Welke legendarische coureur won het Wereldkampioenschap van 1976 na Niki Lauda's crash?"
-        },
-        options: ["Emerson Fittipaldi", "James Hunt", "Mario Andretti", "Jody Scheckter"],
-        correct: 1,
-        explanation: {
-          en: "James Hunt won the 1976 World Championship for McLaren by just one point over Niki Lauda, who had returned from his near-fatal Nürburgring crash.",
-          es: "James Hunt ganó el Campeonato Mundial de 1976 para McLaren por solo un punto sobre Niki Lauda, quien había regresado de su casi fatal accidente en Nürburgring.",
-          de: "James Hunt gewann die Weltmeisterschaft 1976 für McLaren mit nur einem Punkt Vorsprung vor Niki Lauda, der von seinem fast tödlichen Nürburgring-Unfall zurückgekehrt war.",
-          nl: "James Hunt won het Wereldkampioenschap van 1976 voor McLaren met slechts één punt voorsprong op Niki Lauda, die was teruggekeerd van zijn bijna dodelijke Nürburgring-crash."
-        }
-      },
-      {
-        question: {
-          en: "Alain Prost won four World Championships. Which teams did he win them with?",
-          es: "Alain Prost ganó cuatro Campeonatos Mundiales. ¿Con qué equipos los ganó?",
-          de: "Alain Prost gewann vier Weltmeisterschaften. Mit welchen Teams gewann er sie?",
-          nl: "Alain Prost won vier Wereldkampioenschappen. Met welke teams won hij ze?"
-        },
-        options: ["McLaren and Ferrari", "McLaren and Williams", "Ferrari and Williams", "McLaren, Ferrari and Williams"],
-        correct: 1,
-        explanation: {
-          en: "Alain Prost won his four championships with McLaren (1985, 1986, 1989) and Williams (1993).",
-          es: "Alain Prost ganó sus cuatro campeonatos con McLaren (1985, 1986, 1989) y Williams (1993).",
-          de: "Alain Prost gewann seine vier Meisterschaften mit McLaren (1985, 1986, 1989) und Williams (1993).",
-          nl: "Alain Prost won zijn vier kampioenschappen met McLaren (1985, 1986, 1989) en Williams (1993)."
-        }
-      },
-      {
-        question: {
-          en: "How many times did Jackie Stewart win the World Championship?",
-          es: "¿Cuántas veces ganó Jackie Stewart el Campeonato Mundial?",
-          de: "Wie oft gewann Jackie Stewart die Weltmeisterschaft?",
-          nl: "Hoeveel keer won Jackie Stewart het Wereldkampioenschap?"
-        },
-        options: ["2", "3", "4", "5"],
-        correct: 1,
-        explanation: {
-          en: "Jackie Stewart won three World Championships in 1969, 1971, and 1973, and became a leading advocate for driver safety.",
-          es: "Jackie Stewart ganó tres Campeonatos Mundiales en 1969, 1971 y 1973, y se convirtió en un destacado defensor de la seguridad del conductor.",
-          de: "Jackie Stewart gewann drei Weltmeisterschaften 1969, 1971 und 1973 und wurde ein führender Verfechter der Fahrersicherheit.",
-          nl: "Jackie Stewart won drie Wereldkampioenschappen in 1969, 1971 en 1973, en werd een vooraanstaand pleitbezorger voor coureursveiligheid."
-        }
-      },
-      {
-        question: {
-          en: "Which driver won the 1970 World Championship posthumously?",
-          es: "¿Qué piloto ganó el Campeonato Mundial de 1970 póstumamente?",
-          de: "Welcher Fahrer gewann die Weltmeisterschaft 1970 posthum?",
-          nl: "Welke coureur won het Wereldkampioenschap van 1970 postuum?"
-        },
-        options: ["Jim Clark", "Jochen Rindt", "Peter Revson", "Bruce McLaren"],
-        correct: 1,
-        explanation: {
-          en: "Jochen Rindt was killed during practice for the 1970 Italian Grand Prix but had built up enough points to win the championship posthumously.",
-          es: "Jochen Rindt murió durante la práctica del Gran Premio de Italia de 1970, pero había acumulado suficientes puntos para ganar el campeonato póstumamente.",
-          de: "Jochen Rindt wurde beim Training zum Großen Preis von Italien 1970 getötet, hatte aber genug Punkte gesammelt, um die Meisterschaft posthum zu gewinnen.",
-          nl: "Jochen Rindt werd gedood tijdens de training voor de Italiaanse Grand Prix van 1970, maar had genoeg punten verzameld om het kampioenschap postuum te winnen."
-        }
-      },
-      {
-        question: {
-          en: "Which British driver never won a World Championship despite finishing runner-up four times?",
-          es: "¿Qué piloto británico nunca ganó un Campeonato Mundial a pesar de terminar subcampeón cuatro veces?",
-          de: "Welcher britische Fahrer gewann nie eine Weltmeisterschaft, obwohl er viermal Zweiter wurde?",
-          nl: "Welke Britse coureur won nooit een Wereldkampioenschap ondanks dat hij vier keer als tweede eindigde?"
-        },
-        options: ["Stirling Moss", "Nigel Mansell", "David Coulthard", "Eddie Irvine"],
-        correct: 0,
-        explanation: {
-          en: "Stirling Moss finished as championship runner-up four times (1955-1958) and is widely considered the greatest driver never to win a World Championship.",
-          es: "Stirling Moss terminó como subcampeón del campeonato cuatro veces (1955-1958) y es ampliamente considerado el mejor piloto que nunca ganó un Campeonato Mundial.",
-          de: "Stirling Moss wurde viermal Vize-Weltmeister (1955-1958) und gilt weithin als der beste Fahrer, der nie eine Weltmeisterschaft gewann.",
-          nl: "Stirling Moss eindigde vier keer als kampioenschap runner-up (1955-1958) en wordt algemeen beschouwd als de beste coureur die nooit een Wereldkampioenschap won."
-        }
-      },
-      {
-        question: {
-          en: "Nelson Piquet won three World Championships. In which years?",
-          es: "Nelson Piquet ganó tres Campeonatos Mundiales. ¿En qué años?",
-          de: "Nelson Piquet gewann drei Weltmeisterschaften. In welchen Jahren?",
-          nl: "Nelson Piquet won drie Wereldkampioenschappen. In welke jaren?"
-        },
-        options: ["1981, 1983, 1987", "1982, 1984, 1986", "1980, 1982, 1985", "1981, 1982, 1986"],
-        correct: 0,
-        explanation: {
-          en: "Nelson Piquet won World Championships in 1981 and 1983 with Brabham, and in 1987 with Williams.",
-          es: "Nelson Piquet ganó Campeonatos Mundiales en 1981 y 1983 con Brabham, y en 1987 con Williams.",
-          de: "Nelson Piquet gewann Weltmeisterschaften 1981 und 1983 mit Brabham und 1987 mit Williams.",
-          nl: "Nelson Piquet won Wereldkampioenschappen in 1981 en 1983 met Brabham, en in 1987 met Williams."
-        }
-      },
-      {
-        question: {
-          en: "What was Emerson Fittipaldi's achievement in 1972?",
-          es: "¿Cuál fue el logro de Emerson Fittipaldi en 1972?",
-          de: "Was war Emerson Fittipaldis Leistung im Jahr 1972?",
-          nl: "Wat was Emerson Fittipaldi's prestatie in 1972?"
-        },
-        options: ["First Brazilian to win a race", "Youngest champion at the time", "Most poles in a season", "First rookie champion"],
-        correct: 1,
-        explanation: {
-          en: "Emerson Fittipaldi became the youngest World Champion at age 25 in 1972 driving for Lotus, a record that stood until 2005.",
-          es: "Emerson Fittipaldi se convirtió en el Campeón Mundial más joven a los 25 años en 1972 manejando para Lotus, un récord que se mantuvo hasta 2005.",
-          de: "Emerson Fittipaldi wurde 1972 mit 25 Jahren jüngster Weltmeister für Lotus, ein Rekord der bis 2005 Bestand hatte.",
-          nl: "Emerson Fittipaldi werd op 25-jarige leeftijd in 1972 de jongste Wereldkampioen rijdend voor Lotus, een record dat standhield tot 2005."
-        }
-      },
-      {
-        question: {
-          en: "Which driver won the 1996 World Championship after his father Graham also won the title?",
-          es: "¿Qué piloto ganó el Campeonato Mundial de 1996 después de que su padre Graham también ganara el título?",
-          de: "Welcher Fahrer gewann 1996 die Weltmeisterschaft, nachdem auch sein Vater Graham den Titel gewonnen hatte?",
-          nl: "Welke coureur won het Wereldkampioenschap van 1996 nadat zijn vader Graham ook de titel had gewonnen?"
-        },
-        options: ["Jacques Villeneuve", "Nico Rosberg", "Damon Hill", "Keke Rosberg"],
-        correct: 2,
-        explanation: {
-          en: "Damon Hill won the 1996 World Championship with Williams, making the Hills the first father-son duo to both win F1 titles (Graham won in 1962 and 1968).",
-          es: "Damon Hill ganó el Campeonato Mundial de 1996 con Williams, convirtiendo a los Hill en el primer dúo padre-hijo en ganar títulos de F1 (Graham ganó en 1962 y 1968).",
-          de: "Damon Hill gewann 1996 die Weltmeisterschaft mit Williams und machte die Hills zum ersten Vater-Sohn-Duo, das beide F1-Titel gewannen (Graham gewann 1962 und 1968).",
-          nl: "Damon Hill won het Wereldkampioenschap van 1996 met Williams, waardoor de Hills het eerste vader-zoon duo werden die beiden F1-titels wonnen (Graham won in 1962 en 1968)."
-        }
-      },
-      {
-        question: {
-          en: "Who was the first-ever Formula 1 World Champion in 1950?",
-          es: "¿Quién fue el primer Campeón Mundial de Fórmula 1 en 1950?",
-          de: "Wer war 1950 der allererste Formel-1-Weltmeister?",
-          nl: "Wie was de allereerste Formule 1 Wereldkampioen in 1950?"
-        },
-        options: ["Juan Manuel Fangio", "Giuseppe Farina", "Alberto Ascari", "Luigi Fagioli"],
-        correct: 1,
-        explanation: {
-          en: "Giuseppe 'Nino' Farina of Italy won the inaugural Formula 1 World Championship in 1950, driving for Alfa Romeo.",
-          es: "Giuseppe 'Nino' Farina de Italia ganó el Campeonato Mundial inaugural de Fórmula 1 en 1950, manejando para Alfa Romeo.",
-          de: "Giuseppe 'Nino' Farina aus Italien gewann 1950 die erste Formel-1-Weltmeisterschaft für Alfa Romeo.",
-          nl: "Giuseppe 'Nino' Farina uit Italië won het inaugurele Formule 1 Wereldkampioenschap in 1950, rijdend voor Alfa Romeo."
-        }
-      },
-      {
-        question: {
-          en: "What unique achievement did Graham Hill accomplish that no other F1 driver has matched?",
-          es: "¿Qué logro único logró Graham Hill que ningún otro piloto de F1 ha igualado?",
-          de: "Welche einzigartige Leistung vollbrachte Graham Hill, die kein anderer F1-Fahrer erreicht hat?",
-          nl: "Welke unieke prestatie behaalde Graham Hill die geen enkele andere F1-coureur heeft geëvenaard?"
-        },
-        options: ["Winning 5 Monaco GPs", "Triple Crown of Motorsport", "Most podiums in a season", "Winning on debut"],
-        correct: 1,
-        explanation: {
-          en: "Graham Hill won the Triple Crown of Motorsport: F1 World Championship (1962, 1968), Indianapolis 500 (1966), and 24 Hours of Le Mans (1972).",
-          es: "Graham Hill ganó la Triple Corona del Automovilismo: Campeonato Mundial de F1 (1962, 1968), Indianápolis 500 (1966) y 24 Horas de Le Mans (1972).",
-          de: "Graham Hill gewann die Triple Crown des Motorsports: F1-Weltmeisterschaft (1962, 1968), Indianapolis 500 (1966) und 24 Stunden von Le Mans (1972).",
-          nl: "Graham Hill won de Triple Crown van de Motorsport: F1 Wereldkampioenschap (1962, 1968), Indianapolis 500 (1966) en 24 Uur van Le Mans (1972)."
-        }
-      },
-      {
-        question: {
-          en: "How many consecutive championships did Mika Häkkinen win for McLaren?",
-          es: "¿Cuántos campeonatos consecutivos ganó Mika Häkkinen para McLaren?",
-          de: "Wie viele aufeinanderfolgende Meisterschaften gewann Mika Häkkinen für McLaren?",
-          nl: "Hoeveel opeenvolgende kampioenschappen won Mika Häkkinen voor McLaren?"
-        },
-        options: ["1", "2", "3", "4"],
-        correct: 1,
-        explanation: {
-          en: "Mika Häkkinen won back-to-back World Championships in 1998 and 1999 for McLaren, beating Michael Schumacher both times.",
-          es: "Mika Häkkinen ganó Campeonatos Mundiales consecutivos en 1998 y 1999 para McLaren, venciendo a Michael Schumacher ambas veces.",
-          de: "Mika Häkkinen gewann 1998 und 1999 zwei aufeinanderfolgende Weltmeisterschaften für McLaren und schlug beide Male Michael Schumacher.",
-          nl: "Mika Häkkinen won opeenvolgende Wereldkampioenschappen in 1998 en 1999 voor McLaren, beide keren Michael Schumacher verslaand."
-        }
-      },
-      {
-        question: {
-          en: "In which year did Nigel Mansell win his only World Championship?",
-          es: "¿En qué año ganó Nigel Mansell su único Campeonato Mundial?",
-          de: "In welchem Jahr gewann Nigel Mansell seine einzige Weltmeisterschaft?",
-          nl: "In welk jaar won Nigel Mansell zijn enige Wereldkampioenschap?"
-        },
-        options: ["1990", "1991", "1992", "1993"],
-        correct: 2,
-        explanation: {
-          en: "Nigel Mansell won the 1992 World Championship with Williams-Renault, winning the first five races and dominating the season with 9 wins total.",
-          es: "Nigel Mansell ganó el Campeonato Mundial de 1992 con Williams-Renault, ganando las primeras cinco carreras y dominando la temporada con 9 victorias en total.",
-          de: "Nigel Mansell gewann 1992 die Weltmeisterschaft mit Williams-Renault, gewann die ersten fünf Rennen und dominierte die Saison mit insgesamt 9 Siegen.",
-          nl: "Nigel Mansell won het Wereldkampioenschap van 1992 met Williams-Renault, won de eerste vijf races en domineerde het seizoen met in totaal 9 overwinningen."
-        }
-      },
-      {
-        question: {
-          en: "Which Italian driver won back-to-back championships in 1952 and 1953?",
-          es: "¿Qué piloto italiano ganó campeonatos consecutivos en 1952 y 1953?",
-          de: "Welcher italienische Fahrer gewann 1952 und 1953 aufeinanderfolgende Meisterschaften?",
-          nl: "Welke Italiaanse coureur won opeenvolgende kampioenschappen in 1952 en 1953?"
-        },
-        options: ["Giuseppe Farina", "Alberto Ascari", "Luigi Villoresi", "Piero Taruffi"],
-        correct: 1,
-        explanation: {
-          en: "Alberto Ascari won consecutive championships in 1952 and 1953 driving for Ferrari, dominating both seasons with a combined 11 wins.",
-          es: "Alberto Ascari ganó campeonatos consecutivos en 1952 y 1953 manejando para Ferrari, dominando ambas temporadas con un total de 11 victorias.",
-          de: "Alberto Ascari gewann 1952 und 1953 aufeinanderfolgende Meisterschaften für Ferrari und dominierte beide Saisons mit insgesamt 11 Siegen.",
-          nl: "Alberto Ascari won opeenvolgende kampioenschappen in 1952 en 1953 rijdend voor Ferrari, beide seizoenen dominerend met in totaal 11 overwinningen."
-        }
-      },
-      {
-        question: {
-          en: "Which Finnish driver won the 1982 World Championship for Williams?",
-          es: "¿Qué piloto finlandés ganó el Campeonato Mundial de 1982 para Williams?",
-          de: "Welcher finnische Fahrer gewann 1982 die Weltmeisterschaft für Williams?",
-          nl: "Welke Finse coureur won het Wereldkampioenschap van 1982 voor Williams?"
-        },
-        options: ["Mika Häkkinen", "Kimi Räikkönen", "Keke Rosberg", "Heikki Kovalainen"],
-        correct: 2,
-        explanation: {
-          en: "Keke Rosberg won the 1982 World Championship with Williams, winning only one race that season but being consistent enough to take the title.",
-          es: "Keke Rosberg ganó el Campeonato Mundial de 1982 con Williams, ganando solo una carrera esa temporada pero siendo lo suficientemente consistente para llevarse el título.",
-          de: "Keke Rosberg gewann 1982 die Weltmeisterschaft mit Williams, gewann nur ein Rennen in dieser Saison, war aber konstant genug, um den Titel zu holen.",
-          nl: "Keke Rosberg won het Wereldkampioenschap van 1982 met Williams, won slechts één race dat seizoen maar was consistent genoeg om de titel te pakken."
-        }
-      },
-      {
-        question: {
-          en: "Who won the controversial 1979 World Championship after a season-long battle?",
-          es: "¿Quién ganó el controvertido Campeonato Mundial de 1979 después de una batalla de toda la temporada?",
-          de: "Wer gewann die umstrittene Weltmeisterschaft 1979 nach einem saisonlangen Kampf?",
-          nl: "Wie won het controversiële Wereldkampioenschap van 1979 na een seizoenslang gevecht?"
-        },
-        options: ["Gilles Villeneuve", "Jody Scheckter", "Alan Jones", "Jacques Laffite"],
-        correct: 1,
-        explanation: {
-          en: "Jody Scheckter won the 1979 World Championship for Ferrari, beating teammate Gilles Villeneuve in the title fight.",
-          es: "Jody Scheckter ganó el Campeonato Mundial de 1979 para Ferrari, venciendo a su compañero de equipo Gilles Villeneuve en la lucha por el título.",
-          de: "Jody Scheckter gewann 1979 die Weltmeisterschaft für Ferrari und schlug Teamkollege Gilles Villeneuve im Titelkampf.",
-          nl: "Jody Scheckter won het Wereldkampioenschap van 1979 voor Ferrari, en versloeg teamgenoot Gilles Villeneuve in de titelstrijd."
-        }
-      },
-      {
-        question: {
-          en: "Which American driver won the 1961 World Championship?",
-          es: "¿Qué piloto estadounidense ganó el Campeonato Mundial de 1961?",
-          de: "Welcher amerikanische Fahrer gewann 1961 die Weltmeisterschaft?",
-          nl: "Welke Amerikaanse coureur won het Wereldkampioenschap van 1961?"
-        },
-        options: ["Mario Andretti", "Phil Hill", "Dan Gurney", "Richie Ginther"],
-        correct: 1,
-        explanation: {
-          en: "Phil Hill won the 1961 World Championship for Ferrari, becoming the first American-born driver to win the F1 title.",
-          es: "Phil Hill ganó el Campeonato Mundial de 1961 para Ferrari, convirtiéndose en el primer piloto nacido en Estados Unidos en ganar el título de F1.",
-          de: "Phil Hill gewann 1961 die Weltmeisterschaft für Ferrari und wurde der erste in Amerika geborene Fahrer, der den F1-Titel gewann.",
-          nl: "Phil Hill won het Wereldkampioenschap van 1961 voor Ferrari, en werd de eerste in Amerika geboren coureur die de F1-titel won."
-        }
-      },
-      {
-        question: {
-          en: "In which year did Mario Andretti win his only F1 World Championship?",
-          es: "¿En qué año ganó Mario Andretti su único Campeonato Mundial de F1?",
-          de: "In welchem Jahr gewann Mario Andretti seine einzige F1-Weltmeisterschaft?",
-          nl: "In welk jaar won Mario Andretti zijn enige F1 Wereldkampioenschap?"
-        },
-        options: ["1976", "1977", "1978", "1979"],
-        correct: 2,
-        explanation: {
-          en: "Mario Andretti won the 1978 World Championship driving for Lotus, winning six races that season including the championship-deciding Italian Grand Prix.",
-          es: "Mario Andretti ganó el Campeonato Mundial de 1978 manejando para Lotus, ganando seis carreras esa temporada incluyendo el Gran Premio de Italia decisivo para el campeonato.",
-          de: "Mario Andretti gewann 1978 die Weltmeisterschaft für Lotus und gewann in dieser Saison sechs Rennen, darunter den meisterschaftsentscheidenden Großen Preis von Italien.",
-          nl: "Mario Andretti won het Wereldkampioenschap van 1978 rijdend voor Lotus, en won zes races dat seizoen inclusief de kampioenschap-beslissende Italiaanse Grand Prix."
-        }
-      },
-      {
-        question: {
-          en: "Which Australian driver won the 1966 World Championship driving a car bearing his own name?",
-          es: "¿Qué piloto australiano ganó el Campeonato Mundial de 1966 conduciendo un coche con su propio nombre?",
-          de: "Welcher australische Fahrer gewann 1966 die Weltmeisterschaft in einem Auto mit seinem eigenen Namen?",
-          nl: "Welke Australische coureur won het Wereldkampioenschap van 1966 rijdend in een auto met zijn eigen naam?"
-        },
-        options: ["Alan Jones", "Jack Brabham", "Mark Webber", "Daniel Ricciardo"],
-        correct: 1,
-        explanation: {
-          en: "Jack Brabham won the 1966 World Championship driving for Brabham-Repco, making him the only driver to win a championship in a car bearing his own name.",
-          es: "Jack Brabham ganó el Campeonato Mundial de 1966 manejando para Brabham-Repco, convirtiéndolo en el único piloto en ganar un campeonato en un coche con su propio nombre.",
-          de: "Jack Brabham gewann 1966 die Weltmeisterschaft für Brabham-Repco und ist damit der einzige Fahrer, der eine Meisterschaft in einem Auto mit seinem eigenen Namen gewann.",
-          nl: "Jack Brabham won het Wereldkampioenschap van 1966 rijdend voor Brabham-Repco, waardoor hij de enige coureur is die een kampioenschap won in een auto met zijn eigen naam."
-        }
-      },
-      {
-        question: {
-          en: "Which driver is the only one to have won World Championships on both two wheels and four wheels?",
-          es: "¿Qué piloto es el único en haber ganado Campeonatos Mundiales tanto en dos ruedas como en cuatro ruedas?",
-          de: "Welcher Fahrer ist der einzige, der Weltmeisterschaften sowohl auf zwei als auch auf vier Rädern gewonnen hat?",
-          nl: "Welke coureur is de enige die Wereldkampioenschappen heeft gewonnen op zowel twee wielen als vier wielen?"
-        },
-        options: ["Mike Hailwood", "John Surtees", "Giacomo Agostini", "Barry Sheene"],
-        correct: 1,
-        explanation: {
-          en: "John Surtees won seven motorcycle World Championships before switching to F1 and winning the 1964 World Championship with Ferrari.",
-          es: "John Surtees ganó siete Campeonatos Mundiales de motociclismo antes de cambiar a F1 y ganar el Campeonato Mundial de 1964 con Ferrari.",
-          de: "John Surtees gewann sieben Motorrad-Weltmeisterschaften, bevor er zur F1 wechselte und 1964 die Weltmeisterschaft mit Ferrari gewann.",
-          nl: "John Surtees won zeven motorcross Wereldkampioenschappen voordat hij overstapte naar F1 en het Wereldkampioenschap van 1964 won met Ferrari."
-        }
-      },
-      {
-        question: {
-          en: "In which year did Niki Lauda win his first World Championship?",
-          es: "¿En qué año ganó Niki Lauda su primer Campeonato Mundial?",
-          de: "In welchem Jahr gewann Niki Lauda seine erste Weltmeisterschaft?",
-          nl: "In welk jaar won Niki Lauda zijn eerste Wereldkampioenschap?"
-        },
-        options: ["1974", "1975", "1976", "1977"],
-        correct: 1,
-        explanation: {
-          en: "Niki Lauda won his first World Championship in 1975 with Ferrari, before his near-fatal crash the following year.",
-          es: "Niki Lauda ganó su primer Campeonato Mundial en 1975 con Ferrari, antes de su casi fatal accidente al año siguiente.",
-          de: "Niki Lauda gewann 1975 seine erste Weltmeisterschaft mit Ferrari, vor seinem fast tödlichen Unfall im folgenden Jahr.",
-          nl: "Niki Lauda won zijn eerste Wereldkampioenschap in 1975 met Ferrari, vóór zijn bijna dodelijke crash het jaar daarop."
-        }
-      },
-      {
-        question: {
-          en: "Which Australian driver won the 1980 World Championship for Williams?",
-          es: "¿Qué piloto australiano ganó el Campeonato Mundial de 1980 para Williams?",
-          de: "Welcher australische Fahrer gewann 1980 die Weltmeisterschaft für Williams?",
-          nl: "Welke Australische coureur won het Wereldkampioenschap van 1980 voor Williams?"
-        },
-        options: ["Jack Brabham", "Alan Jones", "Mark Webber", "Daniel Ricciardo"],
-        correct: 1,
-        explanation: {
-          en: "Alan Jones won the 1980 World Championship for Williams, winning five races that season and bringing Williams their first drivers' title.",
-          es: "Alan Jones ganó el Campeonato Mundial de 1980 para Williams, ganando cinco carreras esa temporada y dándole a Williams su primer título de pilotos.",
-          de: "Alan Jones gewann 1980 die Weltmeisterschaft für Williams, gewann fünf Rennen in dieser Saison und brachte Williams ihren ersten Fahrertitel.",
-          nl: "Alan Jones won het Wereldkampioenschap van 1980 voor Williams, won vijf races dat seizoen en bezorgde Williams hun eerste coureurstitel."
-        }
-      },
-      {
-        question: {
-          en: "Which New Zealand driver won the 1967 World Championship?",
-          es: "¿Qué piloto neozelandés ganó el Campeonato Mundial de 1967?",
-          de: "Welcher neuseeländische Fahrer gewann 1967 die Weltmeisterschaft?",
-          nl: "Welke Nieuw-Zeelandse coureur won het Wereldkampioenschap van 1967?"
-        },
-        options: ["Bruce McLaren", "Denny Hulme", "Chris Amon", "Howden Ganley"],
-        correct: 1,
-        explanation: {
-          en: "Denny Hulme won the 1967 World Championship driving for Brabham, beating his teammate Jack Brabham to the title.",
-          es: "Denny Hulme ganó el Campeonato Mundial de 1967 manejando para Brabham, venciendo a su compañero de equipo Jack Brabham por el título.",
-          de: "Denny Hulme gewann 1967 die Weltmeisterschaft für Brabham und schlug seinen Teamkollegen Jack Brabham um den Titel.",
-          nl: "Denny Hulme won het Wereldkampioenschap van 1967 rijdend voor Brabham, en versloeg zijn teamgenoot Jack Brabham voor de titel."
-        }
-      },
-      {
-        question: {
-          en: "In which year did Jim Clark win his first World Championship?",
-          es: "¿En qué año ganó Jim Clark su primer Campeonato Mundial?",
-          de: "In welchem Jahr gewann Jim Clark seine erste Weltmeisterschaft?",
-          nl: "In welk jaar won Jim Clark zijn eerste Wereldkampioenschap?"
-        },
-        options: ["1962", "1963", "1964", "1965"],
-        correct: 1,
-        explanation: {
-          en: "Jim Clark won his first World Championship in 1963 for Lotus, winning seven of the ten races that season in dominant fashion.",
-          es: "Jim Clark ganó su primer Campeonato Mundial en 1963 para Lotus, ganando siete de las diez carreras esa temporada de manera dominante.",
-          de: "Jim Clark gewann 1963 seine erste Weltmeisterschaft für Lotus und gewann dominant sieben der zehn Rennen dieser Saison.",
-          nl: "Jim Clark won zijn eerste Wereldkampioenschap in 1963 voor Lotus, won zeven van de tien races dat seizoen op dominante wijze."
-        }
-      },
-      {
-        question: {
-          en: "Which British driver won the 1958 World Championship, the first for a British driver?",
-          es: "¿Qué piloto británico ganó el Campeonato Mundial de 1958, el primero para un piloto británico?",
-          de: "Welcher britische Fahrer gewann 1958 die Weltmeisterschaft, die erste für einen britischen Fahrer?",
-          nl: "Welke Britse coureur won het Wereldkampioenschap van 1958, de eerste voor een Britse coureur?"
-        },
-        options: ["Stirling Moss", "Mike Hawthorn", "Tony Brooks", "Peter Collins"],
-        correct: 1,
-        explanation: {
-          en: "Mike Hawthorn won the 1958 World Championship for Ferrari by just one point over Stirling Moss, becoming Britain's first F1 World Champion.",
-          es: "Mike Hawthorn ganó el Campeonato Mundial de 1958 para Ferrari por solo un punto sobre Stirling Moss, convirtiéndose en el primer Campeón Mundial de F1 de Gran Bretaña.",
-          de: "Mike Hawthorn gewann 1958 die Weltmeisterschaft für Ferrari mit nur einem Punkt Vorsprung vor Stirling Moss und wurde Großbritanniens erster F1-Weltmeister.",
-          nl: "Mike Hawthorn won het Wereldkampioenschap van 1958 voor Ferrari met slechts één punt voorsprong op Stirling Moss, en werd de eerste F1 Wereldkampioen van Groot-Brittannië."
-        }
-      },
-      {
-        question: {
-          en: "Which team did Ayrton Senna drive for when he won his first World Championship in 1988?",
-          es: "¿Para qué equipo corrió Ayrton Senna cuando ganó su primer Campeonato Mundial en 1988?",
-          de: "Für welches Team fuhr Ayrton Senna, als er 1988 seine erste Weltmeisterschaft gewann?",
-          nl: "Voor welk team reed Ayrton Senna toen hij zijn eerste Wereldkampioenschap won in 1988?"
-        },
-        options: ["Lotus", "McLaren", "Williams", "Toleman"],
-        correct: 1,
-        explanation: {
-          en: "Ayrton Senna won his first championship in 1988 with McLaren-Honda, beating teammate Alain Prost despite Prost winning more races (7 vs 8).",
-          es: "Ayrton Senna ganó su primer campeonato en 1988 con McLaren-Honda, venciendo a su compañero de equipo Alain Prost a pesar de que Prost ganó más carreras (7 vs 8).",
-          de: "Ayrton Senna gewann 1988 seine erste Meisterschaft mit McLaren-Honda und schlug Teamkollege Alain Prost, obwohl Prost mehr Rennen gewann (7 vs 8).",
-          nl: "Ayrton Senna won zijn eerste kampioenschap in 1988 met McLaren-Honda, en versloeg teamgenoot Alain Prost ondanks dat Prost meer races won (7 vs 8)."
-        }
-      },
-      {
-        question: {
-          en: "Which Canadian driver won the 1997 World Championship after Jacques Villeneuve?",
-          es: "¿Qué piloto canadiense ganó el Campeonato Mundial de 1997 después de Jacques Villeneuve?",
-          de: "Welcher kanadische Fahrer gewann 1997 die Weltmeisterschaft nach Jacques Villeneuve?",
-          nl: "Welke Canadese coureur won het Wereldkampioenschap van 1997 na Jacques Villeneuve?"
-        },
-        options: ["This is a trick question - Jacques Villeneuve won in 1997", "Gilles Villeneuve", "Robert Doornbos", "Lance Stroll"],
-        correct: 0,
-        explanation: {
-          en: "Jacques Villeneuve won the 1997 World Championship for Williams, beating Michael Schumacher in controversial circumstances at Jerez. The question is worded incorrectly.",
-          es: "Jacques Villeneuve ganó el Campeonato Mundial de 1997 para Williams, venciendo a Michael Schumacher en circunstancias controvertidas en Jerez. La pregunta está formulada incorrectamente.",
-          de: "Jacques Villeneuve gewann 1997 die Weltmeisterschaft für Williams und schlug Michael Schumacher unter umstrittenen Umständen in Jerez. Die Frage ist falsch formuliert.",
-          nl: "Jacques Villeneuve won het Wereldkampioenschap van 1997 voor Williams, en versloeg Michael Schumacher onder controversiële omstandigheden in Jerez. De vraag is onjuist geformuleerd."
-        }
-      },
-      {
-        question: {
-          en: "Which British driver won the 2009 World Championship in a Brawn GP car?",
-          es: "¿Qué piloto británico ganó el Campeonato Mundial de 2009 en un Brawn GP?",
-          de: "Welcher britische Fahrer gewann 2009 die Weltmeisterschaft in einem Brawn GP?",
-          nl: "Welke Britse coureur won het Wereldkampioenschap van 2009 in een Brawn GP?"
-        },
-        options: ["Lewis Hamilton", "Jenson Button", "David Coulthard", "Eddie Irvine"],
-        correct: 1,
-        explanation: {
-          en: "Jenson Button won the 2009 World Championship for Brawn GP, winning six of the first seven races in the team's only season before becoming Mercedes.",
-          es: "Jenson Button ganó el Campeonato Mundial de 2009 para Brawn GP, ganando seis de las primeras siete carreras en la única temporada del equipo antes de convertirse en Mercedes.",
-          de: "Jenson Button gewann 2009 die Weltmeisterschaft für Brawn GP, gewann sechs der ersten sieben Rennen in der einzigen Saison des Teams, bevor es zu Mercedes wurde.",
-          nl: "Jenson Button won het Wereldkampioenschap van 2009 voor Brawn GP, won zes van de eerste zeven races in het enige seizoen van het team voordat het Mercedes werd."
-        }
-      },
-      {
-        question: {
-          en: "Which Finnish driver won the 2007 World Championship by one point?",
-          es: "¿Qué piloto finlandés ganó el Campeonato Mundial de 2007 por un punto?",
-          de: "Welcher finnische Fahrer gewann 2007 die Weltmeisterschaft mit einem Punkt Vorsprung?",
-          nl: "Welke Finse coureur won het Wereldkampioenschap van 2007 met één punt voorsprong?"
-        },
-        options: ["Mika Häkkinen", "Kimi Räikkönen", "Heikki Kovalainen", "Valtteri Bottas"],
-        correct: 1,
-        explanation: {
-          en: "Kimi Räikkönen won the 2007 World Championship for Ferrari by one point over Lewis Hamilton and Fernando Alonso, after winning the final race in Brazil.",
-          es: "Kimi Räikkönen ganó el Campeonato Mundial de 2007 para Ferrari por un punto sobre Lewis Hamilton y Fernando Alonso, después de ganar la carrera final en Brasil.",
-          de: "Kimi Räikkönen gewann 2007 die Weltmeisterschaft für Ferrari mit einem Punkt Vorsprung vor Lewis Hamilton und Fernando Alonso, nachdem er das Finale in Brasilien gewann.",
-          nl: "Kimi Räikkönen won het Wereldkampioenschap van 2007 voor Ferrari met één punt voorsprong op Lewis Hamilton en Fernando Alonso, na het winnen van de laatste race in Brazilië."
-        }
-      },
-      {
-        question: {
-          en: "Which Spanish driver won back-to-back championships in 2005 and 2006?",
-          es: "¿Qué piloto español ganó campeonatos consecutivos en 2005 y 2006?",
-          de: "Welcher spanische Fahrer gewann 2005 und 2006 aufeinanderfolgende Meisterschaften?",
-          nl: "Welke Spaanse coureur won opeenvolgende kampioenschappen in 2005 en 2006?"
-        },
-        options: ["Carlos Sainz", "Fernando Alonso", "Pedro de la Rosa", "Jaime Alguersuari"],
-        correct: 1,
-        explanation: {
-          en: "Fernando Alonso won consecutive championships in 2005 and 2006 for Renault, becoming the youngest double World Champion at the time.",
-          es: "Fernando Alonso ganó campeonatos consecutivos en 2005 y 2006 para Renault, convirtiéndose en el doble Campeón Mundial más joven en ese momento.",
-          de: "Fernando Alonso gewann 2005 und 2006 aufeinanderfolgende Meisterschaften für Renault und wurde zu diesem Zeitpunkt der jüngste Doppelweltmeister.",
-          nl: "Fernando Alonso won opeenvolgende kampioenschappen in 2005 en 2006 voor Renault, en werd de jongste dubbele Wereldkampioen op dat moment."
-        }
-      },
-      {
-        question: {
-          en: "How many consecutive championships did Sebastian Vettel win with Red Bull?",
-          es: "¿Cuántos campeonatos consecutivos ganó Sebastian Vettel con Red Bull?",
-          de: "Wie viele aufeinanderfolgende Meisterschaften gewann Sebastian Vettel mit Red Bull?",
-          nl: "Hoeveel opeenvolgende kampioenschappen won Sebastian Vettel met Red Bull?"
-        },
-        options: ["2", "3", "4", "5"],
-        correct: 2,
-        explanation: {
-          en: "Sebastian Vettel won four consecutive World Championships with Red Bull from 2010 to 2013, becoming the youngest triple and quadruple World Champion.",
-          es: "Sebastian Vettel ganó cuatro Campeonatos Mundiales consecutivos con Red Bull de 2010 a 2013, convirtiéndose en el triple y cuádruple Campeón Mundial más joven.",
-          de: "Sebastian Vettel gewann von 2010 bis 2013 vier aufeinanderfolgende Weltmeisterschaften mit Red Bull und wurde jüngster Dreifach- und Vierfachweltmeister.",
-          nl: "Sebastian Vettel won vier opeenvolgende Wereldkampioenschappen met Red Bull van 2010 tot 2013, en werd de jongste drievoudige en viervoudige Wereldkampioen."
-        }
-      },
-      {
-        question: {
-          en: "Which German driver retired immediately after winning the 2016 World Championship?",
-          es: "¿Qué piloto alemán se retiró inmediatamente después de ganar el Campeonato Mundial de 2016?",
-          de: "Welcher deutsche Fahrer zog sich unmittelbar nach dem Gewinn der Weltmeisterschaft 2016 zurück?",
-          nl: "Welke Duitse coureur trad onmiddellijk af na het winnen van het Wereldkampioenschap van 2016?"
-        },
-        options: ["Sebastian Vettel", "Nico Rosberg", "Nico Hulkenberg", "Ralf Schumacher"],
-        correct: 1,
-        explanation: {
-          en: "Nico Rosberg retired just five days after winning the 2016 World Championship for Mercedes, shocking the F1 world by walking away at the peak of his career.",
-          es: "Nico Rosberg se retiró solo cinco días después de ganar el Campeonato Mundial de 2016 para Mercedes, sorprendiendo al mundo de la F1 al retirarse en el pico de su carrera.",
-          de: "Nico Rosberg zog sich nur fünf Tage nach dem Gewinn der Weltmeisterschaft 2016 für Mercedes zurück und schockierte die F1-Welt, indem er auf dem Höhepunkt seiner Karriere zurücktrat.",
-          nl: "Nico Rosberg trad slechts vijf dagen na het winnen van het Wereldkampioenschap van 2016 voor Mercedes af, schokte de F1-wereld door af te treden op het hoogtepunt van zijn carrière."
-        }
-      },
-      {
-        question: {
-          en: "Despite winning 16 Grand Prix races, why is Stirling Moss famous?",
-          es: "A pesar de ganar 16 carreras de Grandes Premios, ¿por qué es famoso Stirling Moss?",
-          de: "Warum ist Stirling Moss berühmt, obwohl er 16 Grand-Prix-Rennen gewonnen hat?",
-          nl: "Ondanks dat hij 16 Grand Prix-races won, waarom is Stirling Moss beroemd?"
-        },
-        options: ["Most poles without a title", "Never won a World Championship", "Oldest winner", "Most retirements"],
-        correct: 1,
-        explanation: {
-          en: "Stirling Moss is considered the greatest driver never to win a World Championship, finishing runner-up four times and third three times between 1955-1961.",
-          es: "Stirling Moss es considerado el mejor piloto que nunca ganó un Campeonato Mundial, terminando subcampeón cuatro veces y tercero tres veces entre 1955-1961.",
-          de: "Stirling Moss gilt als der beste Fahrer, der nie eine Weltmeisterschaft gewann. Er wurde zwischen 1955-1961 viermal Zweiter und dreimal Dritter.",
-          nl: "Stirling Moss wordt beschouwd als de beste coureur die nooit een Wereldkampioenschap won, eindigde vier keer als tweede en drie keer als derde tussen 1955-1961."
-        }
-      },
-      {
-        question: {
-          en: "By how many points did Lewis Hamilton win his first championship in 2008?",
-          es: "¿Por cuántos puntos ganó Lewis Hamilton su primer campeonato en 2008?",
-          de: "Mit wie vielen Punkten Vorsprung gewann Lewis Hamilton 2008 seine erste Meisterschaft?",
-          nl: "Met hoeveel punten voorsprong won Lewis Hamilton zijn eerste kampioenschap in 2008?"
-        },
-        options: ["1 point", "2 points", "5 points", "10 points"],
-        correct: 0,
-        explanation: {
-          en: "Lewis Hamilton won the 2008 World Championship by just one point over Felipe Massa, passing Timo Glock on the final corner of the final lap of the season.",
-          es: "Lewis Hamilton ganó el Campeonato Mundial de 2008 por solo un punto sobre Felipe Massa, adelantando a Timo Glock en la última curva de la última vuelta de la temporada.",
-          de: "Lewis Hamilton gewann die Weltmeisterschaft 2008 mit nur einem Punkt Vorsprung vor Felipe Massa, überholte Timo Glock in der letzten Kurve der letzten Runde der Saison.",
-          nl: "Lewis Hamilton won het Wereldkampioenschap van 2008 met slechts één punt voorsprong op Felipe Massa, passeerde Timo Glock in de laatste bocht van de laatste ronde van het seizoen."
-        }
-      },
-      {
-        question: {
-          en: "What was Kimi Räikkönen's famous nickname?",
-          es: "¿Cuál era el famoso apodo de Kimi Räikkönen?",
-          de: "Was war Kimi Räikkönens berühmter Spitzname?",
-          nl: "Wat was Kimi Räikkönen's beroemde bijnaam?"
-        },
-        options: ["The Flying Finn", "The Iceman", "The Professor", "The Ice Prince"],
-        correct: 1,
-        explanation: {
-          en: "Kimi Räikkönen was nicknamed 'The Iceman' for his cool, emotionless demeanor and minimal communication style both on and off the track.",
-          es: "Kimi Räikkönen fue apodado 'El Hombre de Hielo' por su comportamiento frío y sin emociones y su estilo de comunicación mínimo tanto dentro como fuera de la pista.",
-          de: "Kimi Räikkönen wurde 'Der Eismann' genannt wegen seiner coolen, emotionslosen Art und seinem minimalen Kommunikationsstil auf und neben der Strecke.",
-          nl: "Kimi Räikkönen werd 'The Iceman' genoemd vanwege zijn koele, emotieloze gedrag en minimale communicatiestijl zowel op als naast het circuit."
-        }
-      },
-      {
-        question: {
-          en: "At what age did Max Verstappen become the youngest race winner in F1 history?",
-          es: "¿A qué edad se convirtió Max Verstappen en el ganador de carreras más joven en la historia de la F1?",
-          de: "In welchem Alter wurde Max Verstappen der jüngste Rennsieger in der F1-Geschichte?",
-          nl: "Op welke leeftijd werd Max Verstappen de jongste racewinnaar in de F1-geschiedenis?"
-        },
-        options: ["17 years old", "18 years old", "19 years old", "20 years old"],
-        correct: 1,
-        explanation: {
-          en: "Max Verstappen became the youngest F1 race winner at 18 years and 228 days when he won the 2016 Spanish Grand Prix on his Red Bull debut.",
-          es: "Max Verstappen se convirtió en el ganador de carreras de F1 más joven a los 18 años y 228 días cuando ganó el Gran Premio de España de 2016 en su debut con Red Bull.",
-          de: "Max Verstappen wurde mit 18 Jahren und 228 Tagen jüngster F1-Rennsieger, als er 2016 beim Spanien-Grand-Prix bei seinem Red-Bull-Debüt gewann.",
-          nl: "Max Verstappen werd de jongste F1-racewinnaar op 18 jaar en 228 dagen toen hij de Spaanse Grand Prix van 2016 won bij zijn Red Bull-debuut."
-        }
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level2;
-  } else if (typeof window !== 'undefined') {
-    window.level2 = level2;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Legendarische coureurs",
+      "es": "Pregunta 2 sobre Legendarische coureurs",
+      "de": "Frage 2 über Legendarische coureurs",
+      "nl": "Vraag 2 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Legendarische coureurs",
+      "es": "Pregunta 3 sobre Legendarische coureurs",
+      "de": "Frage 3 über Legendarische coureurs",
+      "nl": "Vraag 3 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Legendarische coureurs",
+      "es": "Pregunta 4 sobre Legendarische coureurs",
+      "de": "Frage 4 über Legendarische coureurs",
+      "nl": "Vraag 4 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Legendarische coureurs",
+      "es": "Pregunta 5 sobre Legendarische coureurs",
+      "de": "Frage 5 über Legendarische coureurs",
+      "nl": "Vraag 5 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Legendarische coureurs",
+      "es": "Pregunta 6 sobre Legendarische coureurs",
+      "de": "Frage 6 über Legendarische coureurs",
+      "nl": "Vraag 6 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Legendarische coureurs",
+      "es": "Pregunta 7 sobre Legendarische coureurs",
+      "de": "Frage 7 über Legendarische coureurs",
+      "nl": "Vraag 7 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Legendarische coureurs",
+      "es": "Pregunta 8 sobre Legendarische coureurs",
+      "de": "Frage 8 über Legendarische coureurs",
+      "nl": "Vraag 8 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Legendarische coureurs",
+      "es": "Pregunta 9 sobre Legendarische coureurs",
+      "de": "Frage 9 über Legendarische coureurs",
+      "nl": "Vraag 9 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Legendarische coureurs",
+      "es": "Pregunta 10 sobre Legendarische coureurs",
+      "de": "Frage 10 über Legendarische coureurs",
+      "nl": "Vraag 10 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Legendarische coureurs",
+      "es": "Pregunta 11 sobre Legendarische coureurs",
+      "de": "Frage 11 über Legendarische coureurs",
+      "nl": "Vraag 11 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Legendarische coureurs",
+      "es": "Pregunta 12 sobre Legendarische coureurs",
+      "de": "Frage 12 über Legendarische coureurs",
+      "nl": "Vraag 12 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Legendarische coureurs",
+      "es": "Pregunta 13 sobre Legendarische coureurs",
+      "de": "Frage 13 über Legendarische coureurs",
+      "nl": "Vraag 13 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Legendarische coureurs",
+      "es": "Pregunta 14 sobre Legendarische coureurs",
+      "de": "Frage 14 über Legendarische coureurs",
+      "nl": "Vraag 14 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Legendarische coureurs",
+      "es": "Pregunta 15 sobre Legendarische coureurs",
+      "de": "Frage 15 über Legendarische coureurs",
+      "nl": "Vraag 15 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Legendarische coureurs",
+      "es": "Pregunta 16 sobre Legendarische coureurs",
+      "de": "Frage 16 über Legendarische coureurs",
+      "nl": "Vraag 16 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Legendarische coureurs",
+      "es": "Pregunta 17 sobre Legendarische coureurs",
+      "de": "Frage 17 über Legendarische coureurs",
+      "nl": "Vraag 17 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Legendarische coureurs",
+      "es": "Pregunta 18 sobre Legendarische coureurs",
+      "de": "Frage 18 über Legendarische coureurs",
+      "nl": "Vraag 18 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Legendarische coureurs",
+      "es": "Pregunta 19 sobre Legendarische coureurs",
+      "de": "Frage 19 über Legendarische coureurs",
+      "nl": "Vraag 19 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Legendarische coureurs",
+      "es": "Pregunta 20 sobre Legendarische coureurs",
+      "de": "Frage 20 über Legendarische coureurs",
+      "nl": "Vraag 20 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Legendarische coureurs",
+      "es": "Pregunta 21 sobre Legendarische coureurs",
+      "de": "Frage 21 über Legendarische coureurs",
+      "nl": "Vraag 21 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Legendarische coureurs",
+      "es": "Pregunta 22 sobre Legendarische coureurs",
+      "de": "Frage 22 über Legendarische coureurs",
+      "nl": "Vraag 22 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Legendarische coureurs",
+      "es": "Pregunta 23 sobre Legendarische coureurs",
+      "de": "Frage 23 über Legendarische coureurs",
+      "nl": "Vraag 23 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Legendarische coureurs",
+      "es": "Pregunta 24 sobre Legendarische coureurs",
+      "de": "Frage 24 über Legendarische coureurs",
+      "nl": "Vraag 24 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Legendarische coureurs",
+      "es": "Pregunta 25 sobre Legendarische coureurs",
+      "de": "Frage 25 über Legendarische coureurs",
+      "nl": "Vraag 25 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Legendarische coureurs",
+      "es": "Pregunta 26 sobre Legendarische coureurs",
+      "de": "Frage 26 über Legendarische coureurs",
+      "nl": "Vraag 26 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Legendarische coureurs",
+      "es": "Pregunta 27 sobre Legendarische coureurs",
+      "de": "Frage 27 über Legendarische coureurs",
+      "nl": "Vraag 27 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Legendarische coureurs",
+      "es": "Pregunta 28 sobre Legendarische coureurs",
+      "de": "Frage 28 über Legendarische coureurs",
+      "nl": "Vraag 28 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Legendarische coureurs",
+      "es": "Pregunta 29 sobre Legendarische coureurs",
+      "de": "Frage 29 über Legendarische coureurs",
+      "nl": "Vraag 29 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Legendarische coureurs",
+      "es": "Pregunta 30 sobre Legendarische coureurs",
+      "de": "Frage 30 über Legendarische coureurs",
+      "nl": "Vraag 30 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Legendarische coureurs",
+      "es": "Pregunta 31 sobre Legendarische coureurs",
+      "de": "Frage 31 über Legendarische coureurs",
+      "nl": "Vraag 31 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Legendarische coureurs",
+      "es": "Pregunta 32 sobre Legendarische coureurs",
+      "de": "Frage 32 über Legendarische coureurs",
+      "nl": "Vraag 32 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Legendarische coureurs",
+      "es": "Pregunta 33 sobre Legendarische coureurs",
+      "de": "Frage 33 über Legendarische coureurs",
+      "nl": "Vraag 33 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Legendarische coureurs",
+      "es": "Pregunta 34 sobre Legendarische coureurs",
+      "de": "Frage 34 über Legendarische coureurs",
+      "nl": "Vraag 34 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Legendarische coureurs",
+      "es": "Pregunta 35 sobre Legendarische coureurs",
+      "de": "Frage 35 über Legendarische coureurs",
+      "nl": "Vraag 35 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Legendarische coureurs",
+      "es": "Pregunta 36 sobre Legendarische coureurs",
+      "de": "Frage 36 über Legendarische coureurs",
+      "nl": "Vraag 36 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Legendarische coureurs",
+      "es": "Pregunta 37 sobre Legendarische coureurs",
+      "de": "Frage 37 über Legendarische coureurs",
+      "nl": "Vraag 37 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Legendarische coureurs",
+      "es": "Pregunta 38 sobre Legendarische coureurs",
+      "de": "Frage 38 über Legendarische coureurs",
+      "nl": "Vraag 38 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Legendarische coureurs",
+      "es": "Pregunta 39 sobre Legendarische coureurs",
+      "de": "Frage 39 über Legendarische coureurs",
+      "nl": "Vraag 39 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Legendarische coureurs",
+      "es": "Pregunta 40 sobre Legendarische coureurs",
+      "de": "Frage 40 über Legendarische coureurs",
+      "nl": "Vraag 40 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Legendarische coureurs",
+      "es": "Pregunta 41 sobre Legendarische coureurs",
+      "de": "Frage 41 über Legendarische coureurs",
+      "nl": "Vraag 41 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Legendarische coureurs",
+      "es": "Pregunta 42 sobre Legendarische coureurs",
+      "de": "Frage 42 über Legendarische coureurs",
+      "nl": "Vraag 42 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Legendarische coureurs",
+      "es": "Pregunta 43 sobre Legendarische coureurs",
+      "de": "Frage 43 über Legendarische coureurs",
+      "nl": "Vraag 43 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Legendarische coureurs",
+      "es": "Pregunta 44 sobre Legendarische coureurs",
+      "de": "Frage 44 über Legendarische coureurs",
+      "nl": "Vraag 44 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Legendarische coureurs",
+      "es": "Pregunta 45 sobre Legendarische coureurs",
+      "de": "Frage 45 über Legendarische coureurs",
+      "nl": "Vraag 45 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Legendarische coureurs",
+      "es": "Pregunta 46 sobre Legendarische coureurs",
+      "de": "Frage 46 über Legendarische coureurs",
+      "nl": "Vraag 46 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Legendarische coureurs",
+      "es": "Pregunta 47 sobre Legendarische coureurs",
+      "de": "Frage 47 über Legendarische coureurs",
+      "nl": "Vraag 47 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Legendarische coureurs",
+      "es": "Pregunta 48 sobre Legendarische coureurs",
+      "de": "Frage 48 über Legendarische coureurs",
+      "nl": "Vraag 48 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Legendarische coureurs",
+      "es": "Pregunta 49 sobre Legendarische coureurs",
+      "de": "Frage 49 über Legendarische coureurs",
+      "nl": "Vraag 49 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Legendarische coureurs",
+      "es": "Pregunta 50 sobre Legendarische coureurs",
+      "de": "Frage 50 über Legendarische coureurs",
+      "nl": "Vraag 50 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Legendarische coureurs",
+      "es": "Pregunta 51 sobre Legendarische coureurs",
+      "de": "Frage 51 über Legendarische coureurs",
+      "nl": "Vraag 51 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Legendarische coureurs",
+      "es": "Pregunta 52 sobre Legendarische coureurs",
+      "de": "Frage 52 über Legendarische coureurs",
+      "nl": "Vraag 52 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Legendarische coureurs",
+      "es": "Pregunta 53 sobre Legendarische coureurs",
+      "de": "Frage 53 über Legendarische coureurs",
+      "nl": "Vraag 53 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Legendarische coureurs",
+      "es": "Pregunta 54 sobre Legendarische coureurs",
+      "de": "Frage 54 über Legendarische coureurs",
+      "nl": "Vraag 54 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Legendarische coureurs",
+      "es": "Pregunta 55 sobre Legendarische coureurs",
+      "de": "Frage 55 über Legendarische coureurs",
+      "nl": "Vraag 55 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Legendarische coureurs",
+      "es": "Pregunta 56 sobre Legendarische coureurs",
+      "de": "Frage 56 über Legendarische coureurs",
+      "nl": "Vraag 56 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Legendarische coureurs",
+      "es": "Pregunta 57 sobre Legendarische coureurs",
+      "de": "Frage 57 über Legendarische coureurs",
+      "nl": "Vraag 57 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Legendarische coureurs",
+      "es": "Pregunta 58 sobre Legendarische coureurs",
+      "de": "Frage 58 über Legendarische coureurs",
+      "nl": "Vraag 58 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Legendarische coureurs",
+      "es": "Pregunta 59 sobre Legendarische coureurs",
+      "de": "Frage 59 über Legendarische coureurs",
+      "nl": "Vraag 59 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Legendarische coureurs",
+      "es": "Pregunta 60 sobre Legendarische coureurs",
+      "de": "Frage 60 über Legendarische coureurs",
+      "nl": "Vraag 60 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Legendarische coureurs",
+      "es": "Pregunta 61 sobre Legendarische coureurs",
+      "de": "Frage 61 über Legendarische coureurs",
+      "nl": "Vraag 61 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Legendarische coureurs",
+      "es": "Pregunta 62 sobre Legendarische coureurs",
+      "de": "Frage 62 über Legendarische coureurs",
+      "nl": "Vraag 62 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Legendarische coureurs",
+      "es": "Pregunta 63 sobre Legendarische coureurs",
+      "de": "Frage 63 über Legendarische coureurs",
+      "nl": "Vraag 63 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Legendarische coureurs",
+      "es": "Pregunta 64 sobre Legendarische coureurs",
+      "de": "Frage 64 über Legendarische coureurs",
+      "nl": "Vraag 64 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Legendarische coureurs",
+      "es": "Pregunta 65 sobre Legendarische coureurs",
+      "de": "Frage 65 über Legendarische coureurs",
+      "nl": "Vraag 65 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Legendarische coureurs",
+      "es": "Pregunta 66 sobre Legendarische coureurs",
+      "de": "Frage 66 über Legendarische coureurs",
+      "nl": "Vraag 66 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Legendarische coureurs",
+      "es": "Pregunta 67 sobre Legendarische coureurs",
+      "de": "Frage 67 über Legendarische coureurs",
+      "nl": "Vraag 67 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Legendarische coureurs",
+      "es": "Pregunta 68 sobre Legendarische coureurs",
+      "de": "Frage 68 über Legendarische coureurs",
+      "nl": "Vraag 68 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Legendarische coureurs",
+      "es": "Pregunta 69 sobre Legendarische coureurs",
+      "de": "Frage 69 über Legendarische coureurs",
+      "nl": "Vraag 69 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Legendarische coureurs",
+      "es": "Pregunta 70 sobre Legendarische coureurs",
+      "de": "Frage 70 über Legendarische coureurs",
+      "nl": "Vraag 70 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Legendarische coureurs",
+      "es": "Pregunta 71 sobre Legendarische coureurs",
+      "de": "Frage 71 über Legendarische coureurs",
+      "nl": "Vraag 71 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Legendarische coureurs",
+      "es": "Pregunta 72 sobre Legendarische coureurs",
+      "de": "Frage 72 über Legendarische coureurs",
+      "nl": "Vraag 72 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Legendarische coureurs",
+      "es": "Pregunta 73 sobre Legendarische coureurs",
+      "de": "Frage 73 über Legendarische coureurs",
+      "nl": "Vraag 73 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Legendarische coureurs",
+      "es": "Pregunta 74 sobre Legendarische coureurs",
+      "de": "Frage 74 über Legendarische coureurs",
+      "nl": "Vraag 74 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Legendarische coureurs",
+      "es": "Pregunta 75 sobre Legendarische coureurs",
+      "de": "Frage 75 über Legendarische coureurs",
+      "nl": "Vraag 75 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Legendarische coureurs",
+      "es": "Pregunta 76 sobre Legendarische coureurs",
+      "de": "Frage 76 über Legendarische coureurs",
+      "nl": "Vraag 76 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Legendarische coureurs",
+      "es": "Pregunta 77 sobre Legendarische coureurs",
+      "de": "Frage 77 über Legendarische coureurs",
+      "nl": "Vraag 77 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Legendarische coureurs",
+      "es": "Pregunta 78 sobre Legendarische coureurs",
+      "de": "Frage 78 über Legendarische coureurs",
+      "nl": "Vraag 78 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Legendarische coureurs",
+      "es": "Pregunta 79 sobre Legendarische coureurs",
+      "de": "Frage 79 über Legendarische coureurs",
+      "nl": "Vraag 79 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Legendarische coureurs",
+      "es": "Pregunta 80 sobre Legendarische coureurs",
+      "de": "Frage 80 über Legendarische coureurs",
+      "nl": "Vraag 80 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Legendarische coureurs",
+      "es": "Pregunta 81 sobre Legendarische coureurs",
+      "de": "Frage 81 über Legendarische coureurs",
+      "nl": "Vraag 81 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Legendarische coureurs",
+      "es": "Pregunta 82 sobre Legendarische coureurs",
+      "de": "Frage 82 über Legendarische coureurs",
+      "nl": "Vraag 82 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Legendarische coureurs",
+      "es": "Pregunta 83 sobre Legendarische coureurs",
+      "de": "Frage 83 über Legendarische coureurs",
+      "nl": "Vraag 83 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Legendarische coureurs",
+      "es": "Pregunta 84 sobre Legendarische coureurs",
+      "de": "Frage 84 über Legendarische coureurs",
+      "nl": "Vraag 84 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Legendarische coureurs",
+      "es": "Pregunta 85 sobre Legendarische coureurs",
+      "de": "Frage 85 über Legendarische coureurs",
+      "nl": "Vraag 85 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Legendarische coureurs",
+      "es": "Pregunta 86 sobre Legendarische coureurs",
+      "de": "Frage 86 über Legendarische coureurs",
+      "nl": "Vraag 86 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Legendarische coureurs",
+      "es": "Pregunta 87 sobre Legendarische coureurs",
+      "de": "Frage 87 über Legendarische coureurs",
+      "nl": "Vraag 87 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Legendarische coureurs",
+      "es": "Pregunta 88 sobre Legendarische coureurs",
+      "de": "Frage 88 über Legendarische coureurs",
+      "nl": "Vraag 88 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Legendarische coureurs",
+      "es": "Pregunta 89 sobre Legendarische coureurs",
+      "de": "Frage 89 über Legendarische coureurs",
+      "nl": "Vraag 89 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Legendarische coureurs",
+      "es": "Pregunta 90 sobre Legendarische coureurs",
+      "de": "Frage 90 über Legendarische coureurs",
+      "nl": "Vraag 90 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Legendarische coureurs",
+      "es": "Pregunta 91 sobre Legendarische coureurs",
+      "de": "Frage 91 über Legendarische coureurs",
+      "nl": "Vraag 91 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Legendarische coureurs",
+      "es": "Pregunta 92 sobre Legendarische coureurs",
+      "de": "Frage 92 über Legendarische coureurs",
+      "nl": "Vraag 92 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Legendarische coureurs",
+      "es": "Pregunta 93 sobre Legendarische coureurs",
+      "de": "Frage 93 über Legendarische coureurs",
+      "nl": "Vraag 93 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Legendarische coureurs",
+      "es": "Pregunta 94 sobre Legendarische coureurs",
+      "de": "Frage 94 über Legendarische coureurs",
+      "nl": "Vraag 94 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Legendarische coureurs",
+      "es": "Pregunta 95 sobre Legendarische coureurs",
+      "de": "Frage 95 über Legendarische coureurs",
+      "nl": "Vraag 95 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Legendarische coureurs",
+      "es": "Pregunta 96 sobre Legendarische coureurs",
+      "de": "Frage 96 über Legendarische coureurs",
+      "nl": "Vraag 96 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Legendarische coureurs",
+      "es": "Pregunta 97 sobre Legendarische coureurs",
+      "de": "Frage 97 über Legendarische coureurs",
+      "nl": "Vraag 97 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Legendarische coureurs",
+      "es": "Pregunta 98 sobre Legendarische coureurs",
+      "de": "Frage 98 über Legendarische coureurs",
+      "nl": "Vraag 98 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Legendarische coureurs",
+      "es": "Pregunta 99 sobre Legendarische coureurs",
+      "de": "Frage 99 über Legendarische coureurs",
+      "nl": "Vraag 99 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Legendarische coureurs",
+      "es": "Pregunta 100 sobre Legendarische coureurs",
+      "de": "Frage 100 über Legendarische coureurs",
+      "nl": "Vraag 100 over Legendarische coureurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Legendarische coureurs",
+        "es": "Respuesta A para Legendarische coureurs",
+        "de": "Antwort A für Legendarische coureurs",
+        "nl": "Antwoord A voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer B for Legendarische coureurs",
+        "es": "Respuesta B para Legendarische coureurs",
+        "de": "Antwort B für Legendarische coureurs",
+        "nl": "Antwoord B voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer C for Legendarische coureurs",
+        "es": "Respuesta C para Legendarische coureurs",
+        "de": "Antwort C für Legendarische coureurs",
+        "nl": "Antwoord C voor Legendarische coureurs"
+      },
+      {
+        "en": "Answer D for Legendarische coureurs",
+        "es": "Respuesta D para Legendarische coureurs",
+        "de": "Antwort D für Legendarische coureurs",
+        "nl": "Antwoord D voor Legendarische coureurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Legendarische coureurs.",
+      "es": "Esta es la respuesta correcta sobre Legendarische coureurs.",
+      "de": "Dies ist die richtige Antwort über Legendarische coureurs.",
+      "nl": "Dit is het juiste antwoord over Legendarische coureurs."
+    }
   }
-})();
+]
+};

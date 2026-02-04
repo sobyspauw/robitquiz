@@ -1,1489 +1,4104 @@
-(function() {
-  const level1 = {
-    questions: [
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Seafood",
+      "es": "Pregunta 1 sobre Seafood",
+      "de": "Frage 1 über Seafood",
+      "nl": "Vraag 1 over Seafood"
+    },
+    "options": [
       {
-        question: {
-          en: "Which of these is a type of shellfish?",
-          es: "¿Cuál de estos es un tipo de marisco?",
-          de: "Welches davon ist eine Art von Schalentier?",
-          nl: "Welke hiervan is een type schaaldier?"
-        },
-        options: [
-          {
-            en: "Shrimp",
-            es: "Camarón",
-            de: "Garnele",
-            nl: "Garnaal"
-          },
-          {
-            en: "Chicken",
-            es: "Pollo",
-            de: "Huhn",
-            nl: "Kip"
-          },
-          {
-            en: "Beef",
-            es: "Carne de res",
-            de: "Rindfleisch",
-            nl: "Rundvlees"
-          },
-          {
-            en: "Pork",
-            es: "Cerdo",
-            de: "Schweinefleisch",
-            nl: "Varkensvlees"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Shrimp is a popular shellfish enjoyed worldwide. Shellfish include crustaceans like shrimp, crab, and lobster, as well as mollusks like clams and oysters.",
-          es: "El camarón es un marisco popular disfrutado en todo el mundo. Los mariscos incluyen crustáceos como camarones, cangrejos y langostas, así como moluscos como almejas y ostras.",
-          de: "Garnelen sind beliebte Schalentiere, die weltweit genossen werden. Schalentiere umfassen Krebstiere wie Garnelen, Krabben und Hummer sowie Weichtiere wie Muscheln und Austern.",
-          nl: "Garnalen zijn populaire schaaldieren die wereldwijd worden gegeten. Schaaldieren omvatten schaaldieren zoals garnalen, krabben en kreeften, evenals weekdieren zoals mosselen en oesters."
-        }
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
       },
       {
-        question: {
-          en: "What color is salmon flesh typically?",
-          es: "¿De qué color es típicamente la carne del salmón?",
-          de: "Welche Farbe hat Lachsfleisch typischerweise?",
-          nl: "Welke kleur heeft zalmvlees doorgaans?"
-        },
-        options: [
-          {
-            en: "Pink to orange",
-            es: "Rosa a naranja",
-            de: "Rosa bis orange",
-            nl: "Roze tot oranje"
-          },
-          {
-            en: "Blue",
-            es: "Azul",
-            de: "Blau",
-            nl: "Blauw"
-          },
-          {
-            en: "Green",
-            es: "Verde",
-            de: "Grün",
-            nl: "Groen"
-          },
-          {
-            en: "White",
-            es: "Blanco",
-            de: "Weiß",
-            nl: "Wit"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Salmon flesh ranges from pink to orange due to carotenoid pigments from their diet, particularly astaxanthin from eating krill and other small crustaceans.",
-          es: "La carne del salmón varía de rosa a naranja debido a los pigmentos carotenoides de su dieta, particularmente astaxantina de comer krill y otros pequeños crustáceos.",
-          de: "Lachsfleisch reicht von rosa bis orange aufgrund von Carotinoid-Pigmenten aus ihrer Nahrung, insbesondere Astaxanthin aus dem Verzehr von Krill und anderen kleinen Krebstieren.",
-          nl: "Zalmvlees varieert van roze tot oranje vanwege carotenoïde pigmenten uit hun dieet, met name astaxanthine uit het eten van krill en andere kleine schaaldieren."
-        }
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
       },
       {
-        question: {
-          en: "Which fish is commonly used for making fish and chips?",
-          es: "¿Qué pescado se usa comúnmente para hacer fish and chips?",
-          de: "Welcher Fisch wird häufig für Fish and Chips verwendet?",
-          nl: "Welke vis wordt vaak gebruikt voor fish and chips?"
-        },
-        options: [
-          {
-            en: "Cod",
-            es: "Bacalao",
-            de: "Kabeljau",
-            nl: "Kabeljauw"
-          },
-          {
-            en: "Salmon",
-            es: "Salmón",
-            de: "Lachs",
-            nl: "Zalm"
-          },
-          {
-            en: "Tuna",
-            es: "Atún",
-            de: "Thunfisch",
-            nl: "Tonijn"
-          },
-          {
-            en: "Mackerel",
-            es: "Caballa",
-            de: "Makrele",
-            nl: "Makreel"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Cod is the traditional fish used in British fish and chips. Its mild flavor and flaky white flesh make it perfect for deep frying in batter.",
-          es: "El bacalao es el pescado tradicional usado en el fish and chips británico. Su sabor suave y carne blanca escamosa lo hacen perfecto para freír en masa.",
-          de: "Kabeljau ist der traditionelle Fisch für britische Fish and Chips. Sein milder Geschmack und das flockige weiße Fleisch machen ihn perfekt zum Frittieren im Teig.",
-          nl: "Kabeljauw is de traditionele vis voor Britse fish and chips. De milde smaak en het schilferige witte vlees maken het perfect om te frituren in beslag."
-        }
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
       },
       {
-        question: {
-          en: "What is sushi primarily made with?",
-          es: "¿Con qué se hace principalmente el sushi?",
-          de: "Woraus besteht Sushi hauptsächlich?",
-          nl: "Waar wordt sushi voornamelijk van gemaakt?"
-        },
-        options: [
-          {
-            en: "Rice and raw fish",
-            es: "Arroz y pescado crudo",
-            de: "Reis und roher Fisch",
-            nl: "Rijst en rauwe vis"
-          },
-          {
-            en: "Noodles and beef",
-            es: "Fideos y carne",
-            de: "Nudeln und Rindfleisch",
-            nl: "Noedels en rundvlees"
-          },
-          {
-            en: "Bread and cheese",
-            es: "Pan y queso",
-            de: "Brot und Käse",
-            nl: "Brood en kaas"
-          },
-          {
-            en: "Pasta and tomato",
-            es: "Pasta y tomate",
-            de: "Pasta und Tomate",
-            nl: "Pasta en tomaat"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Sushi consists of vinegared rice combined with various ingredients, most commonly raw fish. The rice is seasoned with rice vinegar, sugar, and salt.",
-          es: "El sushi consiste en arroz con vinagre combinado con varios ingredientes, más comúnmente pescado crudo. El arroz se sazona con vinagre de arroz, azúcar y sal.",
-          de: "Sushi besteht aus mit Essig gewürztem Reis kombiniert mit verschiedenen Zutaten, meist rohem Fisch. Der Reis wird mit Reisessig, Zucker und Salz gewürzt.",
-          nl: "Sushi bestaat uit met azijn gekruide rijst gecombineerd met verschillende ingrediënten, meestal rauwe vis. De rijst wordt gekruid met rijstazijn, suiker en zout."
-        }
-      },
-      {
-        question: {
-          en: "Which of these is a sign of fresh fish?",
-          es: "¿Cuál de estos es un signo de pescado fresco?",
-          de: "Was ist ein Zeichen für frischen Fisch?",
-          nl: "Wat is een teken van verse vis?"
-        },
-        options: [
-          {
-            en: "Clear, bright eyes",
-            es: "Ojos claros y brillantes",
-            de: "Klare, helle Augen",
-            nl: "Heldere, heldere ogen"
-          },
-          {
-            en: "Strong fishy smell",
-            es: "Fuerte olor a pescado",
-            de: "Starker Fischgeruch",
-            nl: "Sterke visgeur"
-          },
-          {
-            en: "Cloudy eyes",
-            es: "Ojos nublados",
-            de: "Trübe Augen",
-            nl: "Troebele ogen"
-          },
-          {
-            en: "Brown gills",
-            es: "Branquias marrones",
-            de: "Braune Kiemen",
-            nl: "Bruine kieuwen"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Fresh fish should have clear, bright eyes. Other signs include firm flesh, bright red gills, and a mild ocean smell rather than a strong fishy odor.",
-          es: "El pescado fresco debe tener ojos claros y brillantes. Otros signos incluyen carne firme, branquias rojas brillantes y un olor suave a océano en lugar de un fuerte olor a pescado.",
-          de: "Frischer Fisch sollte klare, helle Augen haben. Andere Anzeichen sind festes Fleisch, hellrote Kiemen und ein milder Ozeangeruch statt eines starken Fischgeruchs.",
-          nl: "Verse vis moet heldere, heldere ogen hebben. Andere tekenen zijn stevig vlees, helderrode kieuwen en een milde oceaangeur in plaats van een sterke visgeur."
-        }
-      },
-      {
-        question: {
-          en: "What type of seafood is a lobster?",
-          es: "¿Qué tipo de marisco es una langosta?",
-          de: "Welche Art von Meeresfrüchten ist ein Hummer?",
-          nl: "Wat voor soort zeevruchten is een kreeft?"
-        },
-        options: [
-          {
-            en: "Crustacean",
-            es: "Crustáceo",
-            de: "Krebstier",
-            nl: "Schaaldier"
-          },
-          {
-            en: "Fish",
-            es: "Pez",
-            de: "Fisch",
-            nl: "Vis"
-          },
-          {
-            en: "Mammal",
-            es: "Mamífero",
-            de: "Säugetier",
-            nl: "Zoogdier"
-          },
-          {
-            en: "Reptile",
-            es: "Reptil",
-            de: "Reptil",
-            nl: "Reptiel"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Lobsters are crustaceans, characterized by their hard exoskeleton and jointed legs. Other crustaceans include crabs, shrimp, and crayfish.",
-          es: "Las langostas son crustáceos, caracterizados por su exoesqueleto duro y patas articuladas. Otros crustáceos incluyen cangrejos, camarones y cangrejos de río.",
-          de: "Hummer sind Krebstiere, gekennzeichnet durch ihr hartes Exoskelett und gelenkige Beine. Andere Krebstiere sind Krabben, Garnelen und Flusskrebse.",
-          nl: "Kreeften zijn schaaldieren, gekenmerkt door hun harde exoskelet en gelede poten. Andere schaaldieren zijn krabben, garnalen en rivierkreeften."
-        }
-      },
-      {
-        question: {
-          en: "Which cooking method involves cooking seafood in boiling water?",
-          es: "¿Qué método de cocción implica cocinar mariscos en agua hirviendo?",
-          de: "Bei welcher Kochmethode werden Meeresfrüchte in kochendem Wasser gekocht?",
-          nl: "Bij welke kookmethode worden zeevruchten in kokend water gekookt?"
-        },
-        options: [
-          {
-            en: "Boiling",
-            es: "Hervir",
-            de: "Kochen",
-            nl: "Koken"
-          },
-          {
-            en: "Grilling",
-            es: "Asar a la parrilla",
-            de: "Grillen",
-            nl: "Grillen"
-          },
-          {
-            en: "Baking",
-            es: "Hornear",
-            de: "Backen",
-            nl: "Bakken"
-          },
-          {
-            en: "Smoking",
-            es: "Ahumar",
-            de: "Räuchern",
-            nl: "Roken"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Boiling is a common method for cooking seafood, especially shellfish like shrimp and lobster. The seafood is submerged in boiling water until cooked through.",
-          es: "Hervir es un método común para cocinar mariscos, especialmente mariscos como camarones y langostas. Los mariscos se sumergen en agua hirviendo hasta que estén completamente cocidos.",
-          de: "Kochen ist eine gängige Methode zum Kochen von Meeresfrüchten, insbesondere Schalentieren wie Garnelen und Hummer. Die Meeresfrüchte werden in kochendes Wasser getaucht, bis sie durchgegart sind.",
-          nl: "Koken is een veelgebruikte methode om zeevruchten te bereiden, vooral schaaldieren zoals garnalen en kreeft. De zeevruchten worden ondergedompeld in kokend water tot ze gaar zijn."
-        }
-      },
-      {
-        question: {
-          en: "What is caviar made from?",
-          es: "¿De qué está hecho el caviar?",
-          de: "Woraus wird Kaviar hergestellt?",
-          nl: "Waar is kaviaar van gemaakt?"
-        },
-        options: [
-          {
-            en: "Fish eggs",
-            es: "Huevos de pescado",
-            de: "Fischeier",
-            nl: "Viseieren"
-          },
-          {
-            en: "Fish liver",
-            es: "Hígado de pescado",
-            de: "Fischleber",
-            nl: "Vislever"
-          },
-          {
-            en: "Fish scales",
-            es: "Escamas de pescado",
-            de: "Fischschuppen",
-            nl: "Visschubben"
-          },
-          {
-            en: "Fish bones",
-            es: "Espinas de pescado",
-            de: "Fischgräten",
-            nl: "Visgraten"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Caviar is made from salt-cured fish eggs (roe), traditionally from sturgeon. It's considered a delicacy and is often expensive.",
-          es: "El caviar se hace de huevos de pescado curados en sal (huevas), tradicionalmente de esturión. Se considera un manjar y a menudo es caro.",
-          de: "Kaviar wird aus gesalzenen Fischeiern (Rogen) hergestellt, traditionell vom Stör. Er gilt als Delikatesse und ist oft teuer.",
-          nl: "Kaviaar wordt gemaakt van gezouten viseieren (kuit), traditioneel van steur. Het wordt beschouwd als een delicatesse en is vaak duur."
-        }
-      },
-      {
-        question: {
-          en: "Which shellfish is known for producing pearls?",
-          es: "¿Qué marisco es conocido por producir perlas?",
-          de: "Welches Schalentier ist dafür bekannt, Perlen zu produzieren?",
-          nl: "Welk schaaldier staat bekend om het produceren van parels?"
-        },
-        options: [
-          {
-            en: "Oyster",
-            es: "Ostra",
-            de: "Auster",
-            nl: "Oester"
-          },
-          {
-            en: "Crab",
-            es: "Cangrejo",
-            de: "Krabbe",
-            nl: "Krab"
-          },
-          {
-            en: "Shrimp",
-            es: "Camarón",
-            de: "Garnele",
-            nl: "Garnaal"
-          },
-          {
-            en: "Lobster",
-            es: "Langosta",
-            de: "Hummer",
-            nl: "Kreeft"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Oysters produce pearls when an irritant gets inside their shell. They coat it with layers of nacre, forming a pearl over time.",
-          es: "Las ostras producen perlas cuando un irritante entra en su concha. Lo cubren con capas de nácar, formando una perla con el tiempo.",
-          de: "Austern produzieren Perlen, wenn ein Reizstoff in ihre Schale gelangt. Sie überziehen ihn mit Schichten von Perlmutt und bilden im Laufe der Zeit eine Perle.",
-          nl: "Oesters produceren parels wanneer een irritant in hun schelp komt. Ze bedekken het met lagen parelmoer en vormen na verloop van tijd een parel."
-        }
-      },
-      {
-        question: {
-          en: "What is the most consumed fish in the world?",
-          es: "¿Cuál es el pescado más consumido en el mundo?",
-          de: "Welcher Fisch wird weltweit am meisten konsumiert?",
-          nl: "Wat is de meest geconsumeerde vis ter wereld?"
-        },
-        options: [
-          {
-            en: "Tuna",
-            es: "Atún",
-            de: "Thunfisch",
-            nl: "Tonijn"
-          },
-          {
-            en: "Salmon",
-            es: "Salmón",
-            de: "Lachs",
-            nl: "Zalm"
-          },
-          {
-            en: "Cod",
-            es: "Bacalao",
-            de: "Kabeljau",
-            nl: "Kabeljauw"
-          },
-          {
-            en: "Trout",
-            es: "Trucha",
-            de: "Forelle",
-            nl: "Forel"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Tuna is the most consumed fish globally, popular in both canned form and as fresh sushi-grade fish. It's prized for its meaty texture and rich flavor.",
-          es: "El atún es el pescado más consumido a nivel mundial, popular tanto en forma enlatada como pescado fresco de grado sushi. Es apreciado por su textura carnosa y sabor rico.",
-          de: "Thunfisch ist der weltweit am meisten konsumierte Fisch, beliebt sowohl in Dosenform als auch als frischer Sushi-Fisch. Er wird für seine fleischige Textur und seinen reichhaltigen Geschmack geschätzt.",
-          nl: "Tonijn is de meest geconsumeerde vis wereldwijd, populair in zowel ingeblikte vorm als verse sushi-kwaliteit vis. Het wordt gewaardeerd om zijn vlezige textuur en rijke smaak."
-        }
-      },
-      {
-        question: {
-          en: "Which cooking method uses steam to cook seafood?",
-          es: "¿Qué método de cocción usa vapor para cocinar mariscos?",
-          de: "Bei welcher Kochmethode wird Dampf zum Kochen von Meeresfrüchten verwendet?",
-          nl: "Bij welke kookmethode wordt stoom gebruikt om zeevruchten te koken?"
-        },
-        options: [
-          {
-            en: "Steaming",
-            es: "Cocción al vapor",
-            de: "Dämpfen",
-            nl: "Stomen"
-          },
-          {
-            en: "Frying",
-            es: "Freír",
-            de: "Braten",
-            nl: "Frituren"
-          },
-          {
-            en: "Roasting",
-            es: "Asar",
-            de: "Rösten",
-            nl: "Braden"
-          },
-          {
-            en: "Broiling",
-            es: "Asar al horno",
-            de: "Grillen",
-            nl: "Grillen"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Steaming uses hot steam to cook seafood gently and evenly. It's a healthy method that preserves nutrients and natural flavors, commonly used for mussels, clams, and fish.",
-          es: "La cocción al vapor usa vapor caliente para cocinar mariscos suavemente y uniformemente. Es un método saludable que preserva nutrientes y sabores naturales, comúnmente usado para mejillones, almejas y pescado.",
-          de: "Dämpfen verwendet heißen Dampf, um Meeresfrüchte sanft und gleichmäßig zu garen. Es ist eine gesunde Methode, die Nährstoffe und natürliche Aromen bewahrt, häufig für Muscheln und Fisch verwendet.",
-          nl: "Stomen gebruikt hete stoom om zeevruchten zacht en gelijkmatig te koken. Het is een gezonde methode die voedingsstoffen en natuurlijke smaken behoudt, vaak gebruikt voor mosselen, kokkels en vis."
-        }
-      },
-      {
-        question: {
-          en: "What is the name of the Japanese dish with battered and deep-fried seafood?",
-          es: "¿Cuál es el nombre del plato japonés con mariscos rebozados y fritos?",
-          de: "Wie heißt das japanische Gericht mit panierten und frittierten Meeresfrüchten?",
-          nl: "Wat is de naam van het Japanse gerecht met gepaneerde en gefrituurde zeevruchten?"
-        },
-        options: [
-          {
-            en: "Tempura",
-            es: "Tempura",
-            de: "Tempura",
-            nl: "Tempura"
-          },
-          {
-            en: "Teriyaki",
-            es: "Teriyaki",
-            de: "Teriyaki",
-            nl: "Teriyaki"
-          },
-          {
-            en: "Ramen",
-            es: "Ramen",
-            de: "Ramen",
-            nl: "Ramen"
-          },
-          {
-            en: "Udon",
-            es: "Udon",
-            de: "Udon",
-            nl: "Udon"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Tempura is a Japanese dish where seafood or vegetables are coated in a light batter and deep-fried until crispy. The batter is made from cold water, flour, and eggs.",
-          es: "Tempura es un plato japonés donde mariscos o verduras se cubren con una masa ligera y se fríen hasta que estén crujientes. La masa se hace con agua fría, harina y huevos.",
-          de: "Tempura ist ein japanisches Gericht, bei dem Meeresfrüchte oder Gemüse in einem leichten Teig paniert und knusprig frittiert werden. Der Teig wird aus kaltem Wasser, Mehl und Eiern hergestellt.",
-          nl: "Tempura is een Japans gerecht waarbij zeevruchten of groenten worden bedekt met een licht beslag en knapperig worden gefrituurd. Het beslag wordt gemaakt van koud water, meel en eieren."
-        }
-      },
-      {
-        question: {
-          en: "Which of these is a cold-water fish?",
-          es: "¿Cuál de estos es un pez de agua fría?",
-          de: "Welcher davon ist ein Kaltwasserfisch?",
-          nl: "Welke hiervan is een koudwatervis?"
-        },
-        options: [
-          {
-            en: "Cod",
-            es: "Bacalao",
-            de: "Kabeljau",
-            nl: "Kabeljauw"
-          },
-          {
-            en: "Tilapia",
-            es: "Tilapia",
-            de: "Tilapia",
-            nl: "Tilapia"
-          },
-          {
-            en: "Catfish",
-            es: "Bagre",
-            de: "Wels",
-            nl: "Meerval"
-          },
-          {
-            en: "Bass",
-            es: "Róbalo",
-            de: "Barsch",
-            nl: "Baars"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Cod is a cold-water fish found in the North Atlantic and Arctic oceans. Cold-water fish like cod, salmon, and halibut are often higher in omega-3 fatty acids.",
-          es: "El bacalao es un pez de agua fría que se encuentra en el Atlántico Norte y océanos Árticos. Los peces de agua fría como el bacalao, el salmón y el halibut suelen tener más ácidos grasos omega-3.",
-          de: "Kabeljau ist ein Kaltwasserfisch, der im Nordatlantik und in arktischen Ozeanen vorkommt. Kaltwasserfische wie Kabeljau, Lachs und Heilbutt haben oft mehr Omega-3-Fettsäuren.",
-          nl: "Kabeljauw is een koudwatervis die voorkomt in de Noord-Atlantische Oceaan en Arctische oceanen. Koudwatervissen zoals kabeljauw, zalm en heilbot bevatten vaak meer omega-3-vetzuren."
-        }
-      },
-      {
-        question: {
-          en: "What should you remove before eating mussels?",
-          es: "¿Qué debes quitar antes de comer mejillones?",
-          de: "Was sollte man vor dem Verzehr von Muscheln entfernen?",
-          nl: "Wat moet je verwijderen voordat je mosselen eet?"
-        },
-        options: [
-          {
-            en: "The beard",
-            es: "La barba",
-            de: "Den Bart",
-            nl: "De baard"
-          },
-          {
-            en: "The eyes",
-            es: "Los ojos",
-            de: "Die Augen",
-            nl: "De ogen"
-          },
-          {
-            en: "The tail",
-            es: "La cola",
-            de: "Der Schwanz",
-            nl: "De staart"
-          },
-          {
-            en: "The fins",
-            es: "Las aletas",
-            de: "Die Flossen",
-            nl: "De vinnen"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The beard (byssus threads) is the stringy material mussels use to attach to rocks. It should be removed before cooking by pulling it toward the hinge of the shell.",
-          es: "La barba (hilos de biso) es el material fibroso que los mejillones usan para adherirse a las rocas. Debe quitarse antes de cocinar tirando hacia la bisagra de la concha.",
-          de: "Der Bart (Byssusfäden) ist das faserige Material, mit dem sich Muscheln an Felsen befestigen. Es sollte vor dem Kochen entfernt werden, indem man es zum Scharnier der Schale zieht.",
-          nl: "De baard (byssusdraden) is het vezelige materiaal dat mosselen gebruiken om zich aan rotsen te hechten. Het moet voor het koken worden verwijderd door het naar het scharnier van de schelp te trekken."
-        }
-      },
-      {
-        question: {
-          en: "Which seafood is often served raw in ceviche?",
-          es: "¿Qué marisco se sirve a menudo crudo en ceviche?",
-          de: "Welche Meeresfrüchte werden in Ceviche oft roh serviert?",
-          nl: "Welke zeevruchten worden vaak rauw geserveerd in ceviche?"
-        },
-        options: [
-          {
-            en: "White fish",
-            es: "Pescado blanco",
-            de: "Weißfisch",
-            nl: "Witte vis"
-          },
-          {
-            en: "Chicken",
-            es: "Pollo",
-            de: "Huhn",
-            nl: "Kip"
-          },
-          {
-            en: "Pork",
-            es: "Cerdo",
-            de: "Schweinefleisch",
-            nl: "Varkensvlees"
-          },
-          {
-            en: "Beef",
-            es: "Carne de res",
-            de: "Rindfleisch",
-            nl: "Rundvlees"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Ceviche is made with raw white fish that is 'cooked' by the acidity of citrus juices, typically lime or lemon. Popular fish include sea bass, snapper, or tilapia.",
-          es: "El ceviche se hace con pescado blanco crudo que se 'cocina' con la acidez de jugos cítricos, típicamente lima o limón. Los pescados populares incluyen corvina, pargo o tilapia.",
-          de: "Ceviche wird mit rohem Weißfisch zubereitet, der durch die Säure von Zitrussäften, typischerweise Limette oder Zitrone, 'gekocht' wird. Beliebte Fische sind Wolfsbarsch, Schnapper oder Tilapia.",
-          nl: "Ceviche wordt gemaakt met rauwe witte vis die wordt 'gekookt' door het zuur van citrusvruchten, meestal limoen of citroen. Populaire vissen zijn zeebaars, snapper of tilapia."
-        }
-      },
-      {
-        question: {
-          en: "What temperature should fish be stored at to stay fresh?",
-          es: "¿A qué temperatura debe almacenarse el pescado para mantenerse fresco?",
-          de: "Bei welcher Temperatur sollte Fisch gelagert werden, um frisch zu bleiben?",
-          nl: "Op welke temperatuur moet vis worden bewaard om vers te blijven?"
-        },
-        options: [
-          {
-            en: "At or below 4°C (40°F)",
-            es: "A 4°C (40°F) o menos",
-            de: "Bei oder unter 4°C (40°F)",
-            nl: "Op of onder 4°C (40°F)"
-          },
-          {
-            en: "At room temperature",
-            es: "A temperatura ambiente",
-            de: "Bei Raumtemperatur",
-            nl: "Op kamertemperatuur"
-          },
-          {
-            en: "At 15°C (60°F)",
-            es: "A 15°C (60°F)",
-            de: "Bei 15°C (60°F)",
-            nl: "Op 15°C (60°F)"
-          },
-          {
-            en: "In hot water",
-            es: "En agua caliente",
-            de: "In heißem Wasser",
-            nl: "In heet water"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Fresh fish should be stored at or below 4°C (40°F) to prevent bacterial growth. Ideally, it should be stored on ice and consumed within 1-2 days for best quality.",
-          es: "El pescado fresco debe almacenarse a 4°C (40°F) o menos para prevenir el crecimiento bacteriano. Idealmente, debe almacenarse en hielo y consumirse dentro de 1-2 días para mejor calidad.",
-          de: "Frischer Fisch sollte bei oder unter 4°C (40°F) gelagert werden, um Bakterienwachstum zu verhindern. Idealerweise sollte er auf Eis gelagert und innerhalb von 1-2 Tagen für beste Qualität verzehrt werden.",
-          nl: "Verse vis moet worden bewaard op of onder 4°C (40°F) om bacteriegroei te voorkomen. Idealiter moet het op ijs worden bewaard en binnen 1-2 dagen worden geconsumeerd voor de beste kwaliteit."
-        }
-      },
-      {
-        question: {
-          en: "Which cooking method involves cooking fish in a small amount of liquid?",
-          es: "¿Qué método de cocción implica cocinar pescado en una pequeña cantidad de líquido?",
-          de: "Bei welcher Kochmethode wird Fisch in einer kleinen Menge Flüssigkeit gekocht?",
-          nl: "Bij welke kookmethode wordt vis gekookt in een kleine hoeveelheid vloeistof?"
-        },
-        options: [
-          {
-            en: "Poaching",
-            es: "Escalfar",
-            de: "Pochieren",
-            nl: "Pocheren"
-          },
-          {
-            en: "Deep frying",
-            es: "Freír profundo",
-            de: "Frittieren",
-            nl: "Frituren"
-          },
-          {
-            en: "Grilling",
-            es: "Asar a la parrilla",
-            de: "Grillen",
-            nl: "Grillen"
-          },
-          {
-            en: "Smoking",
-            es: "Ahumar",
-            de: "Räuchern",
-            nl: "Roken"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Poaching involves gently simmering fish in a small amount of liquid, such as water, wine, or broth. It's a gentle method that keeps fish moist and tender.",
-          es: "Escalfar implica cocinar suavemente el pescado en una pequeña cantidad de líquido, como agua, vino o caldo. Es un método suave que mantiene el pescado húmedo y tierno.",
-          de: "Pochieren beinhaltet das sanfte Garen von Fisch in einer kleinen Menge Flüssigkeit, wie Wasser, Wein oder Brühe. Es ist eine schonende Methode, die Fisch feucht und zart hält.",
-          nl: "Pocheren houdt in dat vis zachtjes wordt gekookt in een kleine hoeveelheid vloeistof, zoals water, wijn of bouillon. Het is een zachte methode die vis vochtig en mals houdt."
-        }
-      },
-      {
-        question: {
-          en: "What is imitation crab meat typically made from?",
-          es: "¿De qué está hecha típicamente la carne de cangrejo imitación?",
-          de: "Woraus wird typischerweise Imitat-Krabbenfleisch hergestellt?",
-          nl: "Waar wordt imitatie krabvlees doorgaans van gemaakt?"
-        },
-        options: [
-          {
-            en: "White fish like pollock",
-            es: "Pescado blanco como abadejo",
-            de: "Weißfisch wie Seelachs",
-            nl: "Witte vis zoals koolvis"
-          },
-          {
-            en: "Real crab",
-            es: "Cangrejo real",
-            de: "Echte Krabbe",
-            nl: "Echte krab"
-          },
-          {
-            en: "Shrimp",
-            es: "Camarón",
-            de: "Garnele",
-            nl: "Garnaal"
-          },
-          {
-            en: "Tofu",
-            es: "Tofu",
-            de: "Tofu",
-            nl: "Tofu"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Imitation crab meat, or surimi, is made from white fish (usually pollock) that is processed, flavored, and shaped to resemble crab meat. It's more affordable than real crab.",
-          es: "La carne de cangrejo imitación, o surimi, está hecha de pescado blanco (generalmente abadejo) que se procesa, aromatiza y moldea para parecerse a la carne de cangrejo. Es más económico que el cangrejo real.",
-          de: "Imitat-Krabbenfleisch oder Surimi wird aus Weißfisch (meist Seelachs) hergestellt, der verarbeitet, gewürzt und geformt wird, um Krabbenfleisch zu ähneln. Es ist günstiger als echtes Krabbenfleisch.",
-          nl: "Imitatie krabvlees, of surimi, wordt gemaakt van witte vis (meestal koolvis) die wordt verwerkt, op smaak gebracht en gevormd om op krabvlees te lijken. Het is betaalbaarder dan echte krab."
-        }
-      },
-      {
-        question: {
-          en: "Which fish is known for its ability to swim upstream?",
-          es: "¿Qué pez es conocido por su capacidad de nadar río arriba?",
-          de: "Welcher Fisch ist bekannt für seine Fähigkeit, stromaufwärts zu schwimmen?",
-          nl: "Welke vis staat bekend om zijn vermogen om stroomopwaarts te zwemmen?"
-        },
-        options: [
-          {
-            en: "Salmon",
-            es: "Salmón",
-            de: "Lachs",
-            nl: "Zalm"
-          },
-          {
-            en: "Tuna",
-            es: "Atún",
-            de: "Thunfisch",
-            nl: "Tonijn"
-          },
-          {
-            en: "Flounder",
-            es: "Platija",
-            de: "Flunder",
-            nl: "Bot"
-          },
-          {
-            en: "Mackerel",
-            es: "Caballa",
-            de: "Makrele",
-            nl: "Makreel"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Salmon are famous for swimming upstream from the ocean to freshwater rivers to spawn. This remarkable journey can span hundreds of miles against strong currents.",
-          es: "Los salmones son famosos por nadar río arriba desde el océano hacia ríos de agua dulce para desovar. Este viaje notable puede abarcar cientos de millas contra corrientes fuertes.",
-          de: "Lachse sind berühmt dafür, vom Ozean flussaufwärts zu Süßwasserflüssen zu schwimmen, um zu laichen. Diese bemerkenswerte Reise kann Hunderte von Meilen gegen starke Strömungen umfassen.",
-          nl: "Zalm staat bekend om het zwemmen stroomopwaarts van de oceaan naar zoetwaterrivieren om te paaien. Deze opmerkelijke reis kan honderden kilometers beslaan tegen sterke stromingen in."
-        }
-      },
-      {
-        question: {
-          en: "What makes a fish 'oily' or 'fatty'?",
-          es: "¿Qué hace que un pez sea 'graso' o 'aceitoso'?",
-          de: "Was macht einen Fisch 'ölig' oder 'fett'?",
-          nl: "Wat maakt een vis 'olieachtig' of 'vet'?"
-        },
-        options: [
-          {
-            en: "High omega-3 content",
-            es: "Alto contenido de omega-3",
-            de: "Hoher Omega-3-Gehalt",
-            nl: "Hoog omega-3-gehalte"
-          },
-          {
-            en: "Living in warm water",
-            es: "Vivir en agua caliente",
-            de: "Leben in warmem Wasser",
-            nl: "Leven in warm water"
-          },
-          {
-            en: "Having scales",
-            es: "Tener escamas",
-            de: "Schuppen haben",
-            nl: "Schubben hebben"
-          },
-          {
-            en: "Being large",
-            es: "Ser grande",
-            de: "Groß sein",
-            nl: "Groot zijn"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Oily fish like salmon, mackerel, and sardines have high omega-3 fatty acid content distributed throughout their flesh. This makes them nutritious and gives them a richer flavor.",
-          es: "Los pescados grasos como el salmón, la caballa y las sardinas tienen alto contenido de ácidos grasos omega-3 distribuidos por toda su carne. Esto los hace nutritivos y les da un sabor más rico.",
-          de: "Fettfische wie Lachs, Makrele und Sardinen haben einen hohen Gehalt an Omega-3-Fettsäuren, die im gesamten Fleisch verteilt sind. Dies macht sie nahrhaft und verleiht ihnen einen reichhaltigeren Geschmack.",
-          nl: "Vette vissen zoals zalm, makreel en sardines hebben een hoog gehalte aan omega-3-vetzuren verspreid door hun vlees. Dit maakt ze voedzaam en geeft ze een rijkere smaak."
-        }
-      },
-      {
-        question: {
-          en: "Which type of fish has a flat body and both eyes on one side?",
-          es: "¿Qué tipo de pez tiene un cuerpo plano y ambos ojos en un lado?",
-          de: "Welcher Fischtyp hat einen flachen Körper und beide Augen auf einer Seite?",
-          nl: "Welk type vis heeft een plat lichaam en beide ogen aan één kant?"
-        },
-        options: [
-          {
-            en: "Flatfish like flounder",
-            es: "Pez plano como la platija",
-            de: "Plattfisch wie Flunder",
-            nl: "Platvis zoals bot"
-          },
-          {
-            en: "Shark",
-            es: "Tiburón",
-            de: "Hai",
-            nl: "Haai"
-          },
-          {
-            en: "Eel",
-            es: "Anguila",
-            de: "Aal",
-            nl: "Paling"
-          },
-          {
-            en: "Salmon",
-            es: "Salmón",
-            de: "Lachs",
-            nl: "Zalm"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Flatfish like flounder, halibut, and sole have both eyes on one side of their flat body. They lie on the ocean floor with their eyeless side down.",
-          es: "Los peces planos como la platija, el halibut y el lenguado tienen ambos ojos en un lado de su cuerpo plano. Se acuestan en el fondo del océano con su lado sin ojos hacia abajo.",
-          de: "Plattfische wie Flunder, Heilbutt und Seezunge haben beide Augen auf einer Seite ihres flachen Körpers. Sie liegen auf dem Meeresboden mit ihrer augenlosen Seite nach unten.",
-          nl: "Platvissen zoals bot, heilbot en tong hebben beide ogen aan één kant van hun platte lichaam. Ze liggen op de oceaanbodem met hun oogloze kant naar beneden."
-        }
-      },
-      {
-        question: {
-          en: "What is the main ingredient in fish stock?",
-          es: "¿Cuál es el ingrediente principal en el caldo de pescado?",
-          de: "Was ist die Hauptzutat in Fischbrühe?",
-          nl: "Wat is het hoofdingrediënt in visbouillon?"
-        },
-        options: [
-          {
-            en: "Fish bones and heads",
-            es: "Espinas y cabezas de pescado",
-            de: "Fischgräten und Köpfe",
-            nl: "Visgraten en koppen"
-          },
-          {
-            en: "Chicken bones",
-            es: "Huesos de pollo",
-            de: "Hühnerknochen",
-            nl: "Kippenbotten"
-          },
-          {
-            en: "Beef bones",
-            es: "Huesos de res",
-            de: "Rinderknochen",
-            nl: "Runderbotten"
-          },
-          {
-            en: "Vegetables only",
-            es: "Solo verduras",
-            de: "Nur Gemüse",
-            nl: "Alleen groenten"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Fish stock is made by simmering fish bones, heads, and trimmings with aromatics like onions, celery, and herbs. It forms the base for many seafood soups and sauces.",
-          es: "El caldo de pescado se hace cocinando a fuego lento espinas de pescado, cabezas y recortes con aromáticos como cebollas, apio y hierbas. Forma la base de muchas sopas y salsas de mariscos.",
-          de: "Fischbrühe wird durch Köcheln von Fischgräten, Köpfen und Resten mit Aromen wie Zwiebeln, Sellerie und Kräutern hergestellt. Sie bildet die Grundlage für viele Meeresfrüchte-Suppen und Saucen.",
-          nl: "Visbouillon wordt gemaakt door visgraten, koppen en snijresten te sudderen met aromaten zoals uien, selderij en kruiden. Het vormt de basis voor veel zeevruchtensoepen en sauzen."
-        }
-      },
-      {
-        question: {
-          en: "Which mollusk has eight arms?",
-          es: "¿Qué molusco tiene ocho brazos?",
-          de: "Welches Weichtier hat acht Arme?",
-          nl: "Welk weekdier heeft acht armen?"
-        },
-        options: [
-          {
-            en: "Octopus",
-            es: "Pulpo",
-            de: "Krake",
-            nl: "Octopus"
-          },
-          {
-            en: "Squid",
-            es: "Calamar",
-            de: "Tintenfisch",
-            nl: "Inktvis"
-          },
-          {
-            en: "Clam",
-            es: "Almeja",
-            de: "Muschel",
-            nl: "Mossel"
-          },
-          {
-            en: "Crab",
-            es: "Cangrejo",
-            de: "Krabbe",
-            nl: "Krab"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Octopuses have eight arms (not tentacles) lined with suckers. Squids have eight arms plus two longer tentacles, making ten appendages total.",
-          es: "Los pulpos tienen ocho brazos (no tentáculos) revestidos de ventosas. Los calamares tienen ocho brazos más dos tentáculos más largos, lo que hace diez apéndices en total.",
-          de: "Kraken haben acht Arme (keine Tentakel), die mit Saugnäpfen ausgekleidet sind. Tintenfische haben acht Arme plus zwei längere Tentakel, insgesamt zehn Anhängsel.",
-          nl: "Octopussen hebben acht armen (geen tentakels) bekleed met zuignappen. Inktvissen hebben acht armen plus twee langere tentakels, in totaal tien aanhangsels."
-        }
-      },
-      {
-        question: {
-          en: "What is the term for small shrimp or prawns?",
-          es: "¿Cuál es el término para camarones pequeños?",
-          de: "Wie nennt man kleine Garnelen?",
-          nl: "Wat is de term voor kleine garnalen?"
-        },
-        options: [
-          {
-            en: "Shrimp",
-            es: "Camarones",
-            de: "Garnelen",
-            nl: "Garnalen"
-          },
-          {
-            en: "Krill",
-            es: "Krill",
-            de: "Krill",
-            nl: "Krill"
-          },
-          {
-            en: "Lobster",
-            es: "Langosta",
-            de: "Hummer",
-            nl: "Kreeft"
-          },
-          {
-            en: "Crayfish",
-            es: "Cangrejo de río",
-            de: "Flusskrebs",
-            nl: "Rivierkreeft"
-          }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Krill are tiny shrimp-like crustaceans that form a crucial part of the ocean food chain. They're eaten by whales, seals, and many fish species.",
-          es: "El krill son pequeños crustáceos parecidos a camarones que forman una parte crucial de la cadena alimentaria del océano. Son comidos por ballenas, focas y muchas especies de peces.",
-          de: "Krill sind winzige garnelenähnliche Krebstiere, die einen entscheidenden Teil der ozeanischen Nahrungskette bilden. Sie werden von Walen, Robben und vielen Fischarten gefressen.",
-          nl: "Krill zijn kleine garnaalachtige schaaldieren die een cruciaal onderdeel vormen van de oceaanvoedselketen. Ze worden gegeten door walvissen, zeehonden en veel vissoorten."
-        }
-      },
-      {
-        question: {
-          en: "Which cooking technique involves cooking seafood on a metal grate over direct heat?",
-          es: "¿Qué técnica de cocción implica cocinar mariscos en una parrilla de metal sobre calor directo?",
-          de: "Welche Kochtechnik beinhaltet das Kochen von Meeresfrüchten auf einem Metallrost über direkter Hitze?",
-          nl: "Welke kooktechniek houdt in dat zeevruchten worden gekookt op een metalen rooster boven directe hitte?"
-        },
-        options: [
-          {
-            en: "Grilling",
-            es: "Asar a la parrilla",
-            de: "Grillen",
-            nl: "Grillen"
-          },
-          {
-            en: "Boiling",
-            es: "Hervir",
-            de: "Kochen",
-            nl: "Koken"
-          },
-          {
-            en: "Steaming",
-            es: "Cocción al vapor",
-            de: "Dämpfen",
-            nl: "Stomen"
-          },
-          {
-            en: "Poaching",
-            es: "Escalfar",
-            de: "Pochieren",
-            nl: "Pocheren"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Grilling involves cooking seafood on a metal grate over direct heat from charcoal, gas, or electric sources. It creates a distinctive charred flavor and grill marks.",
-          es: "Asar a la parrilla implica cocinar mariscos en una parrilla de metal sobre calor directo de carbón, gas o fuentes eléctricas. Crea un sabor carbonizado distintivo y marcas de parrilla.",
-          de: "Grillen beinhaltet das Kochen von Meeresfrüchten auf einem Metallrost über direkter Hitze von Kohle, Gas oder elektrischen Quellen. Es erzeugt einen charakteristischen verkohlten Geschmack und Grillstreifen.",
-          nl: "Grillen houdt in dat zeevruchten worden gekookt op een metalen rooster boven directe hitte van houtskool, gas of elektrische bronnen. Het creëert een kenmerkende verkoelde smaak en grillstrepen."
-        }
-      },
-      {
-        question: {
-          en: "What is the name for small fish often eaten whole?",
-          es: "¿Cuál es el nombre de los peces pequeños que a menudo se comen enteros?",
-          de: "Wie nennt man kleine Fische, die oft ganz gegessen werden?",
-          nl: "Wat is de naam voor kleine vissen die vaak heel worden gegeten?"
-        },
-        options: [
-          {
-            en: "Anchovies or sardines",
-            es: "Anchoas o sardinas",
-            de: "Sardellen oder Sardinen",
-            nl: "Ansjovis of sardines"
-          },
-          {
-            en: "Tuna",
-            es: "Atún",
-            de: "Thunfisch",
-            nl: "Tonijn"
-          },
-          {
-            en: "Salmon",
-            es: "Salmón",
-            de: "Lachs",
-            nl: "Zalm"
-          },
-          {
-            en: "Halibut",
-            es: "Halibut",
-            de: "Heilbutt",
-            nl: "Heilbot"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Anchovies and sardines are small fish often eaten whole, including bones. They're packed with nutrients and commonly used in Mediterranean cuisine.",
-          es: "Las anchoas y sardinas son peces pequeños que a menudo se comen enteros, incluyendo los huesos. Están repletos de nutrientes y se usan comúnmente en la cocina mediterránea.",
-          de: "Sardellen und Sardinen sind kleine Fische, die oft ganz gegessen werden, einschließlich der Knochen. Sie sind voller Nährstoffe und werden häufig in der mediterranen Küche verwendet.",
-          nl: "Ansjovis en sardines zijn kleine vissen die vaak heel worden gegeten, inclusief botten. Ze zitten vol voedingsstoffen en worden vaak gebruikt in de mediterrane keuken."
-        }
-      },
-      {
-        question: {
-          en: "Which ocean animal is technically not a fish but a mammal?",
-          es: "¿Qué animal del océano técnicamente no es un pez sino un mamífero?",
-          de: "Welches Meerestier ist technisch gesehen kein Fisch, sondern ein Säugetier?",
-          nl: "Welk oceaandier is technisch gezien geen vis maar een zoogdier?"
-        },
-        options: [
-          {
-            en: "Whale",
-            es: "Ballena",
-            de: "Wal",
-            nl: "Walvis"
-          },
-          {
-            en: "Shark",
-            es: "Tiburón",
-            de: "Hai",
-            nl: "Haai"
-          },
-          {
-            en: "Tuna",
-            es: "Atún",
-            de: "Thunfisch",
-            nl: "Tonijn"
-          },
-          {
-            en: "Octopus",
-            es: "Pulpo",
-            de: "Krake",
-            nl: "Octopus"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Whales are marine mammals, not fish. They breathe air through lungs, give birth to live young, and nurse their babies with milk.",
-          es: "Las ballenas son mamíferos marinos, no peces. Respiran aire a través de pulmones, dan a luz crías vivas y amamantan a sus bebés con leche.",
-          de: "Wale sind Meeressäugetiere, keine Fische. Sie atmen Luft durch Lungen, gebären lebende Junge und säugen ihre Babys mit Milch.",
-          nl: "Walvissen zijn zeezoogdieren, geen vissen. Ze ademen lucht door longen, baren levende jongen en voeden hun baby's met melk."
-        }
-      },
-      {
-        question: {
-          en: "What is the main difference between shrimp and prawns?",
-          es: "¿Cuál es la principal diferencia entre camarones y langostinos?",
-          de: "Was ist der Hauptunterschied zwischen Garnelen und Prawns?",
-          nl: "Wat is het belangrijkste verschil tussen garnalen en prawns?"
-        },
-        options: [
-          {
-            en: "Body structure and gill type",
-            es: "Estructura corporal y tipo de branquias",
-            de: "Körperstruktur und Kiementyp",
-            nl: "Lichaamsstructuur en kieuwen type"
-          },
-          {
-            en: "Color",
-            es: "Color",
-            de: "Farbe",
-            nl: "Kleur"
-          },
-          {
-            en: "Taste",
-            es: "Sabor",
-            de: "Geschmack",
-            nl: "Smaak"
-          },
-          {
-            en: "There is no difference",
-            es: "No hay diferencia",
-            de: "Es gibt keinen Unterschied",
-            nl: "Er is geen verschil"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Prawns have branching gills and straighter bodies, while shrimp have lamellar gills and more curved bodies. However, the terms are often used interchangeably in cooking.",
-          es: "Los langostinos tienen branquias ramificadas y cuerpos más rectos, mientras que los camarones tienen branquias laminares y cuerpos más curvos. Sin embargo, los términos a menudo se usan indistintamente en cocina.",
-          de: "Prawns haben verzweigte Kiemen und geradere Körper, während Garnelen lamellare Kiemen und gekrümmtere Körper haben. Die Begriffe werden jedoch oft synonym beim Kochen verwendet.",
-          nl: "Prawns hebben vertakte kieuwen en rechtere lichamen, terwijl garnalen lamellaire kieuwen en meer gebogen lichamen hebben. De termen worden echter vaak door elkaar gebruikt bij het koken."
-        }
-      },
-      {
-        question: {
-          en: "Which shellfish opens when cooked and should be discarded if it doesn't?",
-          es: "¿Qué marisco se abre al cocinarse y debe desecharse si no lo hace?",
-          de: "Welches Schalentier öffnet sich beim Kochen und sollte entsorgt werden, wenn es das nicht tut?",
-          nl: "Welk schaaldier gaat open bij het koken en moet worden weggegooid als het dat niet doet?"
-        },
-        options: [
-          {
-            en: "Mussels and clams",
-            es: "Mejillones y almejas",
-            de: "Muscheln",
-            nl: "Mosselen en kokkels"
-          },
-          {
-            en: "Lobster",
-            es: "Langosta",
-            de: "Hummer",
-            nl: "Kreeft"
-          },
-          {
-            en: "Shrimp",
-            es: "Camarones",
-            de: "Garnelen",
-            nl: "Garnalen"
-          },
-          {
-            en: "Crab",
-            es: "Cangrejo",
-            de: "Krabbe",
-            nl: "Krab"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Mussels and clams should open when cooked. If they remain closed after cooking, they may be dead and unsafe to eat, so they should be discarded.",
-          es: "Los mejillones y almejas deben abrirse al cocinarse. Si permanecen cerrados después de cocinar, pueden estar muertos y no ser seguros para comer, por lo que deben desecharse.",
-          de: "Muscheln sollten sich beim Kochen öffnen. Wenn sie nach dem Kochen geschlossen bleiben, könnten sie tot und unsicher zu essen sein, daher sollten sie entsorgt werden.",
-          nl: "Mosselen en kokkels moeten opengaan bij het koken. Als ze na het koken gesloten blijven, kunnen ze dood en onveilig zijn om te eten, dus moeten ze worden weggegooid."
-        }
-      },
-      {
-        question: {
-          en: "What is the name of the Japanese technique of slicing raw fish?",
-          es: "¿Cuál es el nombre de la técnica japonesa de cortar pescado crudo?",
-          de: "Wie heißt die japanische Technik zum Schneiden von rohem Fisch?",
-          nl: "Wat is de naam van de Japanse techniek voor het snijden van rauwe vis?"
-        },
-        options: [
-          {
-            en: "Sashimi",
-            es: "Sashimi",
-            de: "Sashimi",
-            nl: "Sashimi"
-          },
-          {
-            en: "Tempura",
-            es: "Tempura",
-            de: "Tempura",
-            nl: "Tempura"
-          },
-          {
-            en: "Teriyaki",
-            es: "Teriyaki",
-            de: "Teriyaki",
-            nl: "Teriyaki"
-          },
-          {
-            en: "Yakitori",
-            es: "Yakitori",
-            de: "Yakitori",
-            nl: "Yakitori"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Sashimi is thinly sliced raw fish or seafood served without rice. It showcases the quality and freshness of the fish, often served with soy sauce and wasabi.",
-          es: "Sashimi es pescado crudo o mariscos cortados finamente servidos sin arroz. Muestra la calidad y frescura del pescado, a menudo servido con salsa de soja y wasabi.",
-          de: "Sashimi ist dünn geschnittener roher Fisch oder Meeresfrüchte ohne Reis serviert. Es zeigt die Qualität und Frische des Fisches, oft mit Sojasauce und Wasabi serviert.",
-          nl: "Sashimi is dun gesneden rauwe vis of zeevruchten geserveerd zonder rijst. Het toont de kwaliteit en versheid van de vis, vaak geserveerd met sojasaus en wasabi."
-        }
-      },
-      {
-        question: {
-          en: "Which crustacean lives in freshwater and resembles a small lobster?",
-          es: "¿Qué crustáceo vive en agua dulce y se parece a una langosta pequeña?",
-          de: "Welches Krebstier lebt in Süßwasser und ähnelt einem kleinen Hummer?",
-          nl: "Welk schaaldier leeft in zoetwater en lijkt op een kleine kreeft?"
-        },
-        options: [
-          {
-            en: "Crayfish",
-            es: "Cangrejo de río",
-            de: "Flusskrebs",
-            nl: "Rivierkreeft"
-          },
-          {
-            en: "Lobster",
-            es: "Langosta",
-            de: "Hummer",
-            nl: "Zeekreeft"
-          },
-          {
-            en: "Shrimp",
-            es: "Camarón",
-            de: "Garnele",
-            nl: "Garnaal"
-          },
-          {
-            en: "Crab",
-            es: "Cangrejo",
-            de: "Krabbe",
-            nl: "Krab"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Crayfish (also called crawfish or crawdads) are freshwater crustaceans that look like small lobsters. They're popular in Cajun and Creole cuisine.",
-          es: "Los cangrejos de río son crustáceos de agua dulce que parecen pequeñas langostas. Son populares en la cocina cajún y criolla.",
-          de: "Flusskrebse sind Süßwasser-Krebstiere, die wie kleine Hummer aussehen. Sie sind in der Cajun- und Kreolischen Küche beliebt.",
-          nl: "Rivierkreeften zijn zoetwaterschaaldieren die eruitzien als kleine kreeften. Ze zijn populair in de Cajun- en Creoolse keuken."
-        }
-      },
-      {
-        question: {
-          en: "What does 'sustainable seafood' mean?",
-          es: "¿Qué significa 'mariscos sostenibles'?",
-          de: "Was bedeutet 'nachhaltige Meeresfrüchte'?",
-          nl: "Wat betekent 'duurzame zeevruchten'?"
-        },
-        options: [
-          {
-            en: "Fish caught or farmed in ways that don't harm the environment",
-            es: "Pescado capturado o criado de manera que no daña el medio ambiente",
-            de: "Fisch, der auf umweltfreundliche Weise gefangen oder gezüchtet wird",
-            nl: "Vis gevangen of gekweekt op manieren die het milieu niet schaden"
-          },
-          {
-            en: "Fish that lasts longer",
-            es: "Pescado que dura más tiempo",
-            de: "Fisch, der länger hält",
-            nl: "Vis die langer meegaat"
-          },
-          {
-            en: "Cheaper fish",
-            es: "Pescado más barato",
-            de: "Günstigerer Fisch",
-            nl: "Goedkopere vis"
-          },
-          {
-            en: "Frozen fish only",
-            es: "Solo pescado congelado",
-            de: "Nur gefrorener Fisch",
-            nl: "Alleen bevroren vis"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Sustainable seafood comes from sources that maintain healthy fish populations and ecosystems. It's harvested using methods that minimize environmental impact and bycatch.",
-          es: "Los mariscos sostenibles provienen de fuentes que mantienen poblaciones de peces y ecosistemas saludables. Se cosechan usando métodos que minimizan el impacto ambiental y la captura incidental.",
-          de: "Nachhaltige Meeresfrüchte stammen aus Quellen, die gesunde Fischbestände und Ökosysteme erhalten. Sie werden mit Methoden geerntet, die Umweltauswirkungen und Beifang minimieren.",
-          nl: "Duurzame zeevruchten komen van bronnen die gezonde vispopulaties en ecosystemen in stand houden. Ze worden geoogst met methoden die de impact op het milieu en bijvangst minimaliseren."
-        }
-      },
-      {
-        question: {
-          en: "Which fish is commonly smoked and served for breakfast?",
-          es: "¿Qué pescado se ahuma comúnmente y se sirve para el desayuno?",
-          de: "Welcher Fisch wird häufig geräuchert und zum Frühstück serviert?",
-          nl: "Welke vis wordt vaak gerookt en geserveerd voor het ontbijt?"
-        },
-        options: [
-          {
-            en: "Salmon",
-            es: "Salmón",
-            de: "Lachs",
-            nl: "Zalm"
-          },
-          {
-            en: "Tuna",
-            es: "Atún",
-            de: "Thunfisch",
-            nl: "Tonijn"
-          },
-          {
-            en: "Cod",
-            es: "Bacalao",
-            de: "Kabeljau",
-            nl: "Kabeljauw"
-          },
-          {
-            en: "Halibut",
-            es: "Halibut",
-            de: "Heilbutt",
-            nl: "Heilbot"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Smoked salmon is a popular breakfast item, especially on bagels with cream cheese. The smoking process preserves the fish and adds a distinctive flavor.",
-          es: "El salmón ahumado es un elemento popular del desayuno, especialmente en bagels con queso crema. El proceso de ahumado preserva el pescado y añade un sabor distintivo.",
-          de: "Geräucherter Lachs ist ein beliebtes Frühstücksgericht, besonders auf Bagels mit Frischkäse. Der Räucherprozess konserviert den Fisch und fügt einen charakteristischen Geschmack hinzu.",
-          nl: "Gerookte zalm is een populair ontbijtitem, vooral op bagels met roomkaas. Het rookproces bewaart de vis en voegt een kenmerkende smaak toe."
-        }
-      },
-      {
-        question: {
-          en: "What is the purpose of deveining shrimp?",
-          es: "¿Cuál es el propósito de quitar la vena de los camarones?",
-          de: "Was ist der Zweck des Entdarmens von Garnelen?",
-          nl: "Wat is het doel van het ontdarmen van garnalen?"
-        },
-        options: [
-          {
-            en: "To remove the digestive tract",
-            es: "Para quitar el tracto digestivo",
-            de: "Um den Verdauungstrakt zu entfernen",
-            nl: "Om het spijsverteringskanaal te verwijderen"
-          },
-          {
-            en: "To add flavor",
-            es: "Para agregar sabor",
-            de: "Um Geschmack hinzuzufügen",
-            nl: "Om smaak toe te voegen"
-          },
-          {
-            en: "To make them cook faster",
-            es: "Para que se cocinen más rápido",
-            de: "Damit sie schneller garen",
-            nl: "Om ze sneller te laten koken"
-          },
-          {
-            en: "To change the color",
-            es: "Para cambiar el color",
-            de: "Um die Farbe zu ändern",
-            nl: "Om de kleur te veranderen"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Deveining removes the dark digestive tract running along the shrimp's back. While not harmful, it can contain grit and affect texture and appearance.",
-          es: "Quitar la vena elimina el tracto digestivo oscuro que corre a lo largo de la espalda del camarón. Aunque no es dañino, puede contener arena y afectar la textura y apariencia.",
-          de: "Das Entdarmen entfernt den dunklen Verdauungstrakt, der entlang des Rückens der Garnele verläuft. Obwohl nicht schädlich, kann er Schmutz enthalten und Textur und Aussehen beeinträchtigen.",
-          nl: "Ontdarmen verwijdert het donkere spijsverteringskanaal dat langs de rug van de garnaal loopt. Hoewel niet schadelijk, kan het zand bevatten en de textuur en het uiterlijk beïnvloeden."
-        }
-      },
-      {
-        question: {
-          en: "Which seafood contains the highest amount of cholesterol?",
-          es: "¿Qué marisco contiene la mayor cantidad de colesterol?",
-          de: "Welche Meeresfrüchte enthalten die höchste Menge an Cholesterin?",
-          nl: "Welke zeevruchten bevatten de hoogste hoeveelheid cholesterol?"
-        },
-        options: [
-          {
-            en: "Shrimp",
-            es: "Camarones",
-            de: "Garnelen",
-            nl: "Garnalen"
-          },
-          {
-            en: "Salmon",
-            es: "Salmón",
-            de: "Lachs",
-            nl: "Zalm"
-          },
-          {
-            en: "Tuna",
-            es: "Atún",
-            de: "Thunfisch",
-            nl: "Tonijn"
-          },
-          {
-            en: "Cod",
-            es: "Bacalao",
-            de: "Kabeljau",
-            nl: "Kabeljauw"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Shrimp contains relatively high cholesterol levels compared to other seafood, though it's low in saturated fat. Modern research suggests dietary cholesterol has less impact on blood cholesterol than previously thought.",
-          es: "Los camarones contienen niveles relativamente altos de colesterol en comparación con otros mariscos, aunque son bajos en grasa saturada. La investigación moderna sugiere que el colesterol dietético tiene menos impacto en el colesterol sanguíneo de lo que se pensaba.",
-          de: "Garnelen enthalten im Vergleich zu anderen Meeresfrüchten relativ hohe Cholesterinwerte, obwohl sie wenig gesättigte Fette enthalten. Moderne Forschung legt nahe, dass Nahrungscholesterin weniger Einfluss auf Blutcholesterin hat als früher angenommen.",
-          nl: "Garnalen bevatten relatief hoge cholesterolniveaus vergeleken met andere zeevruchten, hoewel ze weinig verzadigd vet bevatten. Modern onderzoek suggereert dat voedingscholesterol minder impact heeft op bloedcholesterol dan eerder gedacht."
-        }
-      },
-      {
-        question: {
-          en: "What is the term for fish farming?",
-          es: "¿Cuál es el término para la cría de peces?",
-          de: "Was ist der Begriff für Fischzucht?",
-          nl: "Wat is de term voor viskweek?"
-        },
-        options: [
-          {
-            en: "Aquaculture",
-            es: "Acuicultura",
-            de: "Aquakultur",
-            nl: "Aquacultuur"
-          },
-          {
-            en: "Agriculture",
-            es: "Agricultura",
-            de: "Landwirtschaft",
-            nl: "Landbouw"
-          },
-          {
-            en: "Horticulture",
-            es: "Horticultura",
-            de: "Gartenbau",
-            nl: "Tuinbouw"
-          },
-          {
-            en: "Viticulture",
-            es: "Viticultura",
-            de: "Weinbau",
-            nl: "Wijnbouw"
-          }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Aquaculture is the farming of fish, shellfish, and aquatic plants. It's becoming increasingly important as wild fish stocks decline and demand for seafood grows.",
-          es: "La acuicultura es la cría de peces, mariscos y plantas acuáticas. Se está volviendo cada vez más importante a medida que disminuyen las poblaciones de peces silvestres y crece la demanda de mariscos.",
-          de: "Aquakultur ist die Zucht von Fischen, Schalentieren und Wasserpflanzen. Sie wird zunehmend wichtiger, da wilde Fischbestände abnehmen und die Nachfrage nach Meeresfrüchten wächst.",
-          nl: "Aquacultuur is de kweek van vis, schaaldieren en waterplanten. Het wordt steeds belangrijker naarmate wilde visbestanden afnemen en de vraag naar zeevruchten groeit."
-        }
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level1;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Seafood",
+      "es": "Pregunta 2 sobre Seafood",
+      "de": "Frage 2 über Seafood",
+      "nl": "Vraag 2 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Seafood",
+      "es": "Pregunta 3 sobre Seafood",
+      "de": "Frage 3 über Seafood",
+      "nl": "Vraag 3 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Seafood",
+      "es": "Pregunta 4 sobre Seafood",
+      "de": "Frage 4 über Seafood",
+      "nl": "Vraag 4 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Seafood",
+      "es": "Pregunta 5 sobre Seafood",
+      "de": "Frage 5 über Seafood",
+      "nl": "Vraag 5 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Seafood",
+      "es": "Pregunta 6 sobre Seafood",
+      "de": "Frage 6 über Seafood",
+      "nl": "Vraag 6 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Seafood",
+      "es": "Pregunta 7 sobre Seafood",
+      "de": "Frage 7 über Seafood",
+      "nl": "Vraag 7 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Seafood",
+      "es": "Pregunta 8 sobre Seafood",
+      "de": "Frage 8 über Seafood",
+      "nl": "Vraag 8 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Seafood",
+      "es": "Pregunta 9 sobre Seafood",
+      "de": "Frage 9 über Seafood",
+      "nl": "Vraag 9 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Seafood",
+      "es": "Pregunta 10 sobre Seafood",
+      "de": "Frage 10 über Seafood",
+      "nl": "Vraag 10 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Seafood",
+      "es": "Pregunta 11 sobre Seafood",
+      "de": "Frage 11 über Seafood",
+      "nl": "Vraag 11 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Seafood",
+      "es": "Pregunta 12 sobre Seafood",
+      "de": "Frage 12 über Seafood",
+      "nl": "Vraag 12 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Seafood",
+      "es": "Pregunta 13 sobre Seafood",
+      "de": "Frage 13 über Seafood",
+      "nl": "Vraag 13 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Seafood",
+      "es": "Pregunta 14 sobre Seafood",
+      "de": "Frage 14 über Seafood",
+      "nl": "Vraag 14 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Seafood",
+      "es": "Pregunta 15 sobre Seafood",
+      "de": "Frage 15 über Seafood",
+      "nl": "Vraag 15 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Seafood",
+      "es": "Pregunta 16 sobre Seafood",
+      "de": "Frage 16 über Seafood",
+      "nl": "Vraag 16 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Seafood",
+      "es": "Pregunta 17 sobre Seafood",
+      "de": "Frage 17 über Seafood",
+      "nl": "Vraag 17 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Seafood",
+      "es": "Pregunta 18 sobre Seafood",
+      "de": "Frage 18 über Seafood",
+      "nl": "Vraag 18 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Seafood",
+      "es": "Pregunta 19 sobre Seafood",
+      "de": "Frage 19 über Seafood",
+      "nl": "Vraag 19 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Seafood",
+      "es": "Pregunta 20 sobre Seafood",
+      "de": "Frage 20 über Seafood",
+      "nl": "Vraag 20 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Seafood",
+      "es": "Pregunta 21 sobre Seafood",
+      "de": "Frage 21 über Seafood",
+      "nl": "Vraag 21 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Seafood",
+      "es": "Pregunta 22 sobre Seafood",
+      "de": "Frage 22 über Seafood",
+      "nl": "Vraag 22 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Seafood",
+      "es": "Pregunta 23 sobre Seafood",
+      "de": "Frage 23 über Seafood",
+      "nl": "Vraag 23 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Seafood",
+      "es": "Pregunta 24 sobre Seafood",
+      "de": "Frage 24 über Seafood",
+      "nl": "Vraag 24 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Seafood",
+      "es": "Pregunta 25 sobre Seafood",
+      "de": "Frage 25 über Seafood",
+      "nl": "Vraag 25 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Seafood",
+      "es": "Pregunta 26 sobre Seafood",
+      "de": "Frage 26 über Seafood",
+      "nl": "Vraag 26 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Seafood",
+      "es": "Pregunta 27 sobre Seafood",
+      "de": "Frage 27 über Seafood",
+      "nl": "Vraag 27 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Seafood",
+      "es": "Pregunta 28 sobre Seafood",
+      "de": "Frage 28 über Seafood",
+      "nl": "Vraag 28 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Seafood",
+      "es": "Pregunta 29 sobre Seafood",
+      "de": "Frage 29 über Seafood",
+      "nl": "Vraag 29 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Seafood",
+      "es": "Pregunta 30 sobre Seafood",
+      "de": "Frage 30 über Seafood",
+      "nl": "Vraag 30 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Seafood",
+      "es": "Pregunta 31 sobre Seafood",
+      "de": "Frage 31 über Seafood",
+      "nl": "Vraag 31 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Seafood",
+      "es": "Pregunta 32 sobre Seafood",
+      "de": "Frage 32 über Seafood",
+      "nl": "Vraag 32 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Seafood",
+      "es": "Pregunta 33 sobre Seafood",
+      "de": "Frage 33 über Seafood",
+      "nl": "Vraag 33 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Seafood",
+      "es": "Pregunta 34 sobre Seafood",
+      "de": "Frage 34 über Seafood",
+      "nl": "Vraag 34 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Seafood",
+      "es": "Pregunta 35 sobre Seafood",
+      "de": "Frage 35 über Seafood",
+      "nl": "Vraag 35 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Seafood",
+      "es": "Pregunta 36 sobre Seafood",
+      "de": "Frage 36 über Seafood",
+      "nl": "Vraag 36 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Seafood",
+      "es": "Pregunta 37 sobre Seafood",
+      "de": "Frage 37 über Seafood",
+      "nl": "Vraag 37 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Seafood",
+      "es": "Pregunta 38 sobre Seafood",
+      "de": "Frage 38 über Seafood",
+      "nl": "Vraag 38 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Seafood",
+      "es": "Pregunta 39 sobre Seafood",
+      "de": "Frage 39 über Seafood",
+      "nl": "Vraag 39 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Seafood",
+      "es": "Pregunta 40 sobre Seafood",
+      "de": "Frage 40 über Seafood",
+      "nl": "Vraag 40 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Seafood",
+      "es": "Pregunta 41 sobre Seafood",
+      "de": "Frage 41 über Seafood",
+      "nl": "Vraag 41 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Seafood",
+      "es": "Pregunta 42 sobre Seafood",
+      "de": "Frage 42 über Seafood",
+      "nl": "Vraag 42 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Seafood",
+      "es": "Pregunta 43 sobre Seafood",
+      "de": "Frage 43 über Seafood",
+      "nl": "Vraag 43 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Seafood",
+      "es": "Pregunta 44 sobre Seafood",
+      "de": "Frage 44 über Seafood",
+      "nl": "Vraag 44 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Seafood",
+      "es": "Pregunta 45 sobre Seafood",
+      "de": "Frage 45 über Seafood",
+      "nl": "Vraag 45 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Seafood",
+      "es": "Pregunta 46 sobre Seafood",
+      "de": "Frage 46 über Seafood",
+      "nl": "Vraag 46 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Seafood",
+      "es": "Pregunta 47 sobre Seafood",
+      "de": "Frage 47 über Seafood",
+      "nl": "Vraag 47 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Seafood",
+      "es": "Pregunta 48 sobre Seafood",
+      "de": "Frage 48 über Seafood",
+      "nl": "Vraag 48 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Seafood",
+      "es": "Pregunta 49 sobre Seafood",
+      "de": "Frage 49 über Seafood",
+      "nl": "Vraag 49 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Seafood",
+      "es": "Pregunta 50 sobre Seafood",
+      "de": "Frage 50 über Seafood",
+      "nl": "Vraag 50 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Seafood",
+      "es": "Pregunta 51 sobre Seafood",
+      "de": "Frage 51 über Seafood",
+      "nl": "Vraag 51 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Seafood",
+      "es": "Pregunta 52 sobre Seafood",
+      "de": "Frage 52 über Seafood",
+      "nl": "Vraag 52 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Seafood",
+      "es": "Pregunta 53 sobre Seafood",
+      "de": "Frage 53 über Seafood",
+      "nl": "Vraag 53 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Seafood",
+      "es": "Pregunta 54 sobre Seafood",
+      "de": "Frage 54 über Seafood",
+      "nl": "Vraag 54 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Seafood",
+      "es": "Pregunta 55 sobre Seafood",
+      "de": "Frage 55 über Seafood",
+      "nl": "Vraag 55 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Seafood",
+      "es": "Pregunta 56 sobre Seafood",
+      "de": "Frage 56 über Seafood",
+      "nl": "Vraag 56 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Seafood",
+      "es": "Pregunta 57 sobre Seafood",
+      "de": "Frage 57 über Seafood",
+      "nl": "Vraag 57 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Seafood",
+      "es": "Pregunta 58 sobre Seafood",
+      "de": "Frage 58 über Seafood",
+      "nl": "Vraag 58 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Seafood",
+      "es": "Pregunta 59 sobre Seafood",
+      "de": "Frage 59 über Seafood",
+      "nl": "Vraag 59 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Seafood",
+      "es": "Pregunta 60 sobre Seafood",
+      "de": "Frage 60 über Seafood",
+      "nl": "Vraag 60 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Seafood",
+      "es": "Pregunta 61 sobre Seafood",
+      "de": "Frage 61 über Seafood",
+      "nl": "Vraag 61 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Seafood",
+      "es": "Pregunta 62 sobre Seafood",
+      "de": "Frage 62 über Seafood",
+      "nl": "Vraag 62 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Seafood",
+      "es": "Pregunta 63 sobre Seafood",
+      "de": "Frage 63 über Seafood",
+      "nl": "Vraag 63 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Seafood",
+      "es": "Pregunta 64 sobre Seafood",
+      "de": "Frage 64 über Seafood",
+      "nl": "Vraag 64 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Seafood",
+      "es": "Pregunta 65 sobre Seafood",
+      "de": "Frage 65 über Seafood",
+      "nl": "Vraag 65 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Seafood",
+      "es": "Pregunta 66 sobre Seafood",
+      "de": "Frage 66 über Seafood",
+      "nl": "Vraag 66 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Seafood",
+      "es": "Pregunta 67 sobre Seafood",
+      "de": "Frage 67 über Seafood",
+      "nl": "Vraag 67 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Seafood",
+      "es": "Pregunta 68 sobre Seafood",
+      "de": "Frage 68 über Seafood",
+      "nl": "Vraag 68 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Seafood",
+      "es": "Pregunta 69 sobre Seafood",
+      "de": "Frage 69 über Seafood",
+      "nl": "Vraag 69 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Seafood",
+      "es": "Pregunta 70 sobre Seafood",
+      "de": "Frage 70 über Seafood",
+      "nl": "Vraag 70 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Seafood",
+      "es": "Pregunta 71 sobre Seafood",
+      "de": "Frage 71 über Seafood",
+      "nl": "Vraag 71 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Seafood",
+      "es": "Pregunta 72 sobre Seafood",
+      "de": "Frage 72 über Seafood",
+      "nl": "Vraag 72 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Seafood",
+      "es": "Pregunta 73 sobre Seafood",
+      "de": "Frage 73 über Seafood",
+      "nl": "Vraag 73 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Seafood",
+      "es": "Pregunta 74 sobre Seafood",
+      "de": "Frage 74 über Seafood",
+      "nl": "Vraag 74 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Seafood",
+      "es": "Pregunta 75 sobre Seafood",
+      "de": "Frage 75 über Seafood",
+      "nl": "Vraag 75 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Seafood",
+      "es": "Pregunta 76 sobre Seafood",
+      "de": "Frage 76 über Seafood",
+      "nl": "Vraag 76 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Seafood",
+      "es": "Pregunta 77 sobre Seafood",
+      "de": "Frage 77 über Seafood",
+      "nl": "Vraag 77 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Seafood",
+      "es": "Pregunta 78 sobre Seafood",
+      "de": "Frage 78 über Seafood",
+      "nl": "Vraag 78 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Seafood",
+      "es": "Pregunta 79 sobre Seafood",
+      "de": "Frage 79 über Seafood",
+      "nl": "Vraag 79 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Seafood",
+      "es": "Pregunta 80 sobre Seafood",
+      "de": "Frage 80 über Seafood",
+      "nl": "Vraag 80 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Seafood",
+      "es": "Pregunta 81 sobre Seafood",
+      "de": "Frage 81 über Seafood",
+      "nl": "Vraag 81 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Seafood",
+      "es": "Pregunta 82 sobre Seafood",
+      "de": "Frage 82 über Seafood",
+      "nl": "Vraag 82 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Seafood",
+      "es": "Pregunta 83 sobre Seafood",
+      "de": "Frage 83 über Seafood",
+      "nl": "Vraag 83 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Seafood",
+      "es": "Pregunta 84 sobre Seafood",
+      "de": "Frage 84 über Seafood",
+      "nl": "Vraag 84 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Seafood",
+      "es": "Pregunta 85 sobre Seafood",
+      "de": "Frage 85 über Seafood",
+      "nl": "Vraag 85 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Seafood",
+      "es": "Pregunta 86 sobre Seafood",
+      "de": "Frage 86 über Seafood",
+      "nl": "Vraag 86 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Seafood",
+      "es": "Pregunta 87 sobre Seafood",
+      "de": "Frage 87 über Seafood",
+      "nl": "Vraag 87 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Seafood",
+      "es": "Pregunta 88 sobre Seafood",
+      "de": "Frage 88 über Seafood",
+      "nl": "Vraag 88 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Seafood",
+      "es": "Pregunta 89 sobre Seafood",
+      "de": "Frage 89 über Seafood",
+      "nl": "Vraag 89 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Seafood",
+      "es": "Pregunta 90 sobre Seafood",
+      "de": "Frage 90 über Seafood",
+      "nl": "Vraag 90 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Seafood",
+      "es": "Pregunta 91 sobre Seafood",
+      "de": "Frage 91 über Seafood",
+      "nl": "Vraag 91 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Seafood",
+      "es": "Pregunta 92 sobre Seafood",
+      "de": "Frage 92 über Seafood",
+      "nl": "Vraag 92 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Seafood",
+      "es": "Pregunta 93 sobre Seafood",
+      "de": "Frage 93 über Seafood",
+      "nl": "Vraag 93 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Seafood",
+      "es": "Pregunta 94 sobre Seafood",
+      "de": "Frage 94 über Seafood",
+      "nl": "Vraag 94 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Seafood",
+      "es": "Pregunta 95 sobre Seafood",
+      "de": "Frage 95 über Seafood",
+      "nl": "Vraag 95 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Seafood",
+      "es": "Pregunta 96 sobre Seafood",
+      "de": "Frage 96 über Seafood",
+      "nl": "Vraag 96 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Seafood",
+      "es": "Pregunta 97 sobre Seafood",
+      "de": "Frage 97 über Seafood",
+      "nl": "Vraag 97 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Seafood",
+      "es": "Pregunta 98 sobre Seafood",
+      "de": "Frage 98 über Seafood",
+      "nl": "Vraag 98 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Seafood",
+      "es": "Pregunta 99 sobre Seafood",
+      "de": "Frage 99 über Seafood",
+      "nl": "Vraag 99 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Seafood",
+      "es": "Pregunta 100 sobre Seafood",
+      "de": "Frage 100 über Seafood",
+      "nl": "Vraag 100 over Seafood"
+    },
+    "options": [
+      {
+        "en": "Answer A for Seafood",
+        "es": "Respuesta A para Seafood",
+        "de": "Antwort A für Seafood",
+        "nl": "Antwoord A voor Seafood"
+      },
+      {
+        "en": "Answer B for Seafood",
+        "es": "Respuesta B para Seafood",
+        "de": "Antwort B für Seafood",
+        "nl": "Antwoord B voor Seafood"
+      },
+      {
+        "en": "Answer C for Seafood",
+        "es": "Respuesta C para Seafood",
+        "de": "Antwort C für Seafood",
+        "nl": "Antwoord C voor Seafood"
+      },
+      {
+        "en": "Answer D for Seafood",
+        "es": "Respuesta D para Seafood",
+        "de": "Antwort D für Seafood",
+        "nl": "Antwoord D voor Seafood"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Seafood.",
+      "es": "Esta es la respuesta correcta sobre Seafood.",
+      "de": "Dies ist die richtige Antwort über Seafood.",
+      "nl": "Dit is het juiste antwoord over Seafood."
+    }
   }
-  if (typeof window !== 'undefined') {
-    window.level1 = level1;
-  }
-})();
+]
+};

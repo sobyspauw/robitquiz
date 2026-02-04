@@ -1,859 +1,4104 @@
-// Actors and Actresses Quiz - Level 7: Advanced Knowledge
-(function() {
-  const level7 = {
-    name: {
-      en: "Actors and Actresses Level 7",
-      es: "Actores y Actrices Nivel 7",
-      de: "Schauspieler und Schauspielerinnen Stufe 7",
-      nl: "Acteurs en Actrices Level 7"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Actors and Actresses",
+      "es": "Pregunta 1 sobre Actors and Actresses",
+      "de": "Frage 1 über Actors and Actresses",
+      "nl": "Vraag 1 over Actors and Actresses"
     },
-    questions: [
+    "options": [
       {
-        question: {
-          en: "Which actor was originally cast as The Terminator before Arnold Schwarzenegger?",
-          es: "¿Qué actor fue originalmente elegido como The Terminator antes que Arnold Schwarzenegger?",
-          de: "Welcher Schauspieler war ursprünglich für The Terminator vorgesehen, bevor Arnold Schwarzenegger besetzt wurde?",
-          nl: "Welke acteur was oorspronkelijk gecast als The Terminator voordat Arnold Schwarzenegger werd gekozen?"
-        },
-        options: [
-          { en: "O.J. Simpson", es: "O.J. Simpson", de: "O.J. Simpson", nl: "O.J. Simpson" },
-          { en: "Mel Gibson", es: "Mel Gibson", de: "Mel Gibson", nl: "Mel Gibson" },
-          { en: "Sylvester Stallone", es: "Sylvester Stallone", de: "Sylvester Stallone", nl: "Sylvester Stallone" },
-          { en: "Michael Biehn", es: "Michael Biehn", de: "Michael Biehn", nl: "Michael Biehn" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "O.J. Simpson was originally considered for the Terminator role, but James Cameron felt he was 'too nice' to be believable as a killing machine.",
-          es: "O.J. Simpson fue originalmente considerado para el papel del Terminator, pero James Cameron sintió que era 'demasiado simpático' para ser creíble como una máquina asesina.",
-          de: "O.J. Simpson wurde ursprünglich für die Terminator-Rolle in Betracht gezogen, aber James Cameron fand, er sei 'zu nett', um als Tötungsmaschine glaubwürdig zu sein.",
-          nl: "O.J. Simpson werd oorspronkelijk overwogen voor de Terminator rol, maar James Cameron vond hem 'te aardig' om geloofwaardig te zijn als een moordmachine."
-        }
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
       },
       {
-        question: {
-          en: "Which actress turned down the lead role in 'Pretty Woman' that eventually went to Julia Roberts?",
-          es: "¿Qué actriz rechazó el papel principal en 'Pretty Woman' que finalmente fue para Julia Roberts?",
-          de: "Welche Schauspielerin lehnte die Hauptrolle in 'Pretty Woman' ab, die schließlich an Julia Roberts ging?",
-          nl: "Welke actrice wees de hoofdrol in 'Pretty Woman' af die uiteindelijk naar Julia Roberts ging?"
-        },
-        options: [
-          { en: "Meg Ryan", es: "Meg Ryan", de: "Meg Ryan", nl: "Meg Ryan" },
-          { en: "Michelle Pfeiffer", es: "Michelle Pfeiffer", de: "Michelle Pfeiffer", nl: "Michelle Pfeiffer" },
-          { en: "Molly Ringwald", es: "Molly Ringwald", de: "Molly Ringwald", nl: "Molly Ringwald" },
-          { en: "Daryl Hannah", es: "Daryl Hannah", de: "Daryl Hannah", nl: "Daryl Hannah" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Michelle Pfeiffer turned down the role of Vivian Ward in Pretty Woman, later saying she didn't feel comfortable with the subject matter at the time.",
-          es: "Michelle Pfeiffer rechazó el papel de Vivian Ward en Pretty Woman, diciendo más tarde que no se sentía cómoda con el tema en ese momento.",
-          de: "Michelle Pfeiffer lehnte die Rolle der Vivian Ward in Pretty Woman ab und sagte später, sie habe sich damals mit dem Thema unwohl gefühlt.",
-          nl: "Michelle Pfeiffer wees de rol van Vivian Ward in Pretty Woman af, en zei later dat ze zich destijds niet comfortabel voelde met het onderwerp."
-        }
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
       },
       {
-        question: {
-          en: "Which method actor gained 60 pounds and learned to box for 'Raging Bull'?",
-          es: "¿Qué actor de método ganó 60 libras y aprendió a boxear para 'Raging Bull'?",
-          de: "Welcher Method-Actor nahm 60 Pfund zu und lernte boxen für 'Raging Bull'?",
-          nl: "Welke method actor kwam 60 pond aan en leerde boksen voor 'Raging Bull'?"
-        },
-        options: [
-          { en: "Robert De Niro", es: "Robert De Niro", de: "Robert De Niro", nl: "Robert De Niro" },
-          { en: "Al Pacino", es: "Al Pacino", de: "Al Pacino", nl: "Al Pacino" },
-          { en: "Marlon Brando", es: "Marlon Brando", de: "Marlon Brando", nl: "Marlon Brando" },
-          { en: "James Caan", es: "James Caan", de: "James Caan", nl: "James Caan" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Robert De Niro famously gained 60 pounds to portray the older, out-of-shape Jake LaMotta, demonstrating his extreme commitment to method acting.",
-          es: "Robert De Niro famosamente ganó 60 libras para interpretar al Jake LaMotta mayor y fuera de forma, demostrando su compromiso extremo con el método de actuación.",
-          de: "Robert De Niro nahm berühmt 60 Pfund zu, um den älteren, unfitten Jake LaMotta darzustellen, was sein extremes Engagement für Method Acting demonstrierte.",
-          nl: "Robert De Niro kwam beroemd 60 pond aan om de oudere, uit vorm zijnde Jake LaMotta te spelen, wat zijn extreme toewijding aan method acting toonde."
-        }
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
       },
       {
-        question: {
-          en: "Which actor was considered for the role of Neo in 'The Matrix' before Keanu Reeves?",
-          es: "¿Qué actor fue considerado para el papel de Neo en 'The Matrix' antes que Keanu Reeves?",
-          de: "Welcher Schauspieler wurde für die Rolle des Neo in 'The Matrix' vor Keanu Reeves in Betracht gezogen?",
-          nl: "Welke acteur werd overwogen voor de rol van Neo in 'The Matrix' voordat Keanu Reeves werd gekozen?"
-        },
-        options: [
-          { en: "Will Smith", es: "Will Smith", de: "Will Smith", nl: "Will Smith" },
-          { en: "Johnny Depp", es: "Johnny Depp", de: "Johnny Depp", nl: "Johnny Depp" },
-          { en: "Brad Pitt", es: "Brad Pitt", de: "Brad Pitt", nl: "Brad Pitt" },
-          { en: "Tom Cruise", es: "Tom Cruise", de: "Tom Cruise", nl: "Tom Cruise" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Will Smith was offered the role of Neo but turned it down to star in Wild Wild West, later calling it one of his biggest career mistakes.",
-          es: "A Will Smith le ofrecieron el papel de Neo pero lo rechazó para protagonizar Wild Wild West, llamándolo más tarde uno de sus mayores errores de carrera.",
-          de: "Will Smith wurde die Rolle des Neo angeboten, lehnte aber ab, um in Wild Wild West zu spielen, was er später als einen seiner größten Karrierefehler bezeichnete.",
-          nl: "Will Smith werd de rol van Neo aangeboden maar wees deze af om in Wild Wild West te spelen, wat hij later een van zijn grootste carrièrefouten noemde."
-        }
-      },
-      {
-        question: {
-          en: "Which actress was the first to win an Oscar for a non-English speaking performance?",
-          es: "¿Qué actriz fue la primera en ganar un Oscar por una actuación en un idioma que no es inglés?",
-          de: "Welche Schauspielerin war die erste, die einen Oscar für eine nicht-englischsprachige Leistung gewann?",
-          nl: "Welke actrice was de eerste die een Oscar won voor een niet-Engelstalige prestatie?"
-        },
-        options: [
-          { en: "Sophia Loren", es: "Sophia Loren", de: "Sophia Loren", nl: "Sophia Loren" },
-          { en: "Simone Signoret", es: "Simone Signoret", de: "Simone Signoret", nl: "Simone Signoret" },
-          { en: "Anna Magnani", es: "Anna Magnani", de: "Anna Magnani", nl: "Anna Magnani" },
-          { en: "Ingrid Bergman", es: "Ingrid Bergman", de: "Ingrid Bergman", nl: "Ingrid Bergman" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Sophia Loren won the Academy Award for Best Actress for 'Two Women' (1960), becoming the first actor to win an Oscar for a foreign-language performance.",
-          es: "Sophia Loren ganó el Premio de la Academia a la Mejor Actriz por 'Dos Mujeres' (1960), convirtiéndose en la primera actriz en ganar un Oscar por una actuación en idioma extranjero.",
-          de: "Sophia Loren gewann den Academy Award für die beste Hauptdarstellerin für 'Und dennoch leben sie' (1960) und wurde die erste Schauspielerin, die einen Oscar für eine fremdsprachige Leistung gewann.",
-          nl: "Sophia Loren won de Academy Award voor Beste Actrice voor 'Two Women' (1960), en werd de eerste actrice die een Oscar won voor een vreemde taal prestatie."
-        }
-      },
-      {
-        question: {
-          en: "Which actor famously improvised the 'You talkin' to me?' scene in 'Taxi Driver'?",
-          es: "¿Qué actor improvisó famosamente la escena '¿Me hablas a mí?' en 'Taxi Driver'?",
-          de: "Welcher Schauspieler improvisierte berühmt die 'You talkin' to me?'-Szene in 'Taxi Driver'?",
-          nl: "Welke acteur improviseerde beroemd de 'You talkin' to me?' scène in 'Taxi Driver'?"
-        },
-        options: [
-          { en: "Robert De Niro", es: "Robert De Niro", de: "Robert De Niro", nl: "Robert De Niro" },
-          { en: "Al Pacino", es: "Al Pacino", de: "Al Pacino", nl: "Al Pacino" },
-          { en: "Harvey Keitel", es: "Harvey Keitel", de: "Harvey Keitel", nl: "Harvey Keitel" },
-          { en: "Jodie Foster", es: "Jodie Foster", de: "Jodie Foster", nl: "Jodie Foster" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Robert De Niro improvised the famous 'You talkin' to me?' mirror scene in Taxi Driver, as the script only said 'Travis looks in the mirror.'",
-          es: "Robert De Niro improvisó la famosa escena del espejo '¿Me hablas a mí?' en Taxi Driver, ya que el guión solo decía 'Travis se mira en el espejo.'",
-          de: "Robert De Niro improvisierte die berühmte 'You talkin' to me?'-Spiegelszene in Taxi Driver, da das Drehbuch nur 'Travis schaut in den Spiegel' sagte.",
-          nl: "Robert De Niro improviseerde de beroemde 'You talkin' to me?' spiegel scène in Taxi Driver, omdat het script alleen zei 'Travis kijkt in de spiegel.'"
-        }
-      },
-      {
-        question: {
-          en: "Which British actor turned down the role of Dumbledore after Richard Harris's death?",
-          es: "¿Qué actor británico rechazó el papel de Dumbledore después de la muerte de Richard Harris?",
-          de: "Welcher britische Schauspieler lehnte die Rolle des Dumbledore nach Richard Harris' Tod ab?",
-          nl: "Welke Britse acteur wees de rol van Dumbledore af na de dood van Richard Harris?"
-        },
-        options: [
-          { en: "Ian McKellen", es: "Ian McKellen", de: "Ian McKellen", nl: "Ian McKellen" },
-          { en: "Christopher Lee", es: "Christopher Lee", de: "Christopher Lee", nl: "Christopher Lee" },
-          { en: "Patrick Stewart", es: "Patrick Stewart", de: "Patrick Stewart", nl: "Patrick Stewart" },
-          { en: "Derek Jacobi", es: "Derek Jacobi", de: "Derek Jacobi", nl: "Derek Jacobi" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Ian McKellen turned down the role of Dumbledore out of respect for Richard Harris, who had publicly criticized McKellen's acting before his death.",
-          es: "Ian McKellen rechazó el papel de Dumbledore por respeto a Richard Harris, quien había criticado públicamente la actuación de McKellen antes de su muerte.",
-          de: "Ian McKellen lehnte die Rolle des Dumbledore aus Respekt vor Richard Harris ab, der McKellens Schauspiel vor seinem Tod öffentlich kritisiert hatte.",
-          nl: "Ian McKellen wees de rol van Dumbledore af uit respect voor Richard Harris, die McKellen's acteren publiekelijk had bekritiseerd voor zijn dood."
-        }
-      },
-      {
-        question: {
-          en: "Which actor was fired from 'Back to the Future' after filming for six weeks?",
-          es: "¿Qué actor fue despedido de 'Back to the Future' después de filmar durante seis semanas?",
-          de: "Welcher Schauspieler wurde nach sechs Wochen Drehzeit von 'Zurück in die Zukunft' entlassen?",
-          nl: "Welke acteur werd ontslagen van 'Back to the Future' na zes weken filmen?"
-        },
-        options: [
-          { en: "Eric Stoltz", es: "Eric Stoltz", de: "Eric Stoltz", nl: "Eric Stoltz" },
-          { en: "John Cusack", es: "John Cusack", de: "John Cusack", nl: "John Cusack" },
-          { en: "Charlie Sheen", es: "Charlie Sheen", de: "Charlie Sheen", nl: "Charlie Sheen" },
-          { en: "C. Thomas Howell", es: "C. Thomas Howell", de: "C. Thomas Howell", nl: "C. Thomas Howell" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Eric Stoltz was replaced by Michael J. Fox after six weeks of filming because director Robert Zemeckis felt Stoltz was too serious for the comedic role.",
-          es: "Eric Stoltz fue reemplazado por Michael J. Fox después de seis semanas de filmación porque el director Robert Zemeckis sintió que Stoltz era demasiado serio para el papel cómico.",
-          de: "Eric Stoltz wurde nach sechs Wochen Drehzeit durch Michael J. Fox ersetzt, weil Regisseur Robert Zemeckis fand, dass Stoltz zu ernst für die komödiantische Rolle war.",
-          nl: "Eric Stoltz werd vervangen door Michael J. Fox na zes weken filmen omdat regisseur Robert Zemeckis vond dat Stoltz te serieus was voor de komische rol."
-        }
-      },
-      {
-        question: {
-          en: "Which actress performed her own stunts in 'Atomic Blonde' after training for months?",
-          es: "¿Qué actriz realizó sus propias acrobacias en 'Atomic Blonde' después de entrenar durante meses?",
-          de: "Welche Schauspielerin führte ihre eigenen Stunts in 'Atomic Blonde' aus, nachdem sie monatelang trainiert hatte?",
-          nl: "Welke actrice voerde haar eigen stunts uit in 'Atomic Blonde' na maanden training?"
-        },
-        options: [
-          { en: "Charlize Theron", es: "Charlize Theron", de: "Charlize Theron", nl: "Charlize Theron" },
-          { en: "Scarlett Johansson", es: "Scarlett Johansson", de: "Scarlett Johansson", nl: "Scarlett Johansson" },
-          { en: "Angelina Jolie", es: "Angelina Jolie", de: "Angelina Jolie", nl: "Angelina Jolie" },
-          { en: "Gal Gadot", es: "Gal Gadot", de: "Gal Gadot", nl: "Gal Gadot" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Charlize Theron performed 98% of her own stunts in Atomic Blonde, training for months and even cracking her teeth during the intense action sequences.",
-          es: "Charlize Theron realizó el 98% de sus propias acrobacias en Atomic Blonde, entrenando durante meses e incluso agrietándose los dientes durante las intensas secuencias de acción.",
-          de: "Charlize Theron führte 98% ihrer eigenen Stunts in Atomic Blonde aus, trainierte monatelang und brach sich sogar die Zähne während der intensiven Actionsequenzen.",
-          nl: "Charlize Theron voerde 98% van haar eigen stunts uit in Atomic Blonde, trainde maanden en brak zelfs haar tanden tijdens de intense actiescenes."
-        }
-      },
-      {
-        question: {
-          en: "Which actor refused to promote 'Blade Runner 2049' because of disagreements with the director?",
-          es: "¿Qué actor se negó a promocionar 'Blade Runner 2049' debido a desacuerdos con el director?",
-          de: "Welcher Schauspieler weigerte sich, 'Blade Runner 2049' zu bewerben aufgrund von Meinungsverschiedenheiten mit dem Regisseur?",
-          nl: "Welke acteur weigerde 'Blade Runner 2049' te promoten vanwege meningsverschillen met de regisseur?"
-        },
-        options: [
-          { en: "Harrison Ford", es: "Harrison Ford", de: "Harrison Ford", nl: "Harrison Ford" },
-          { en: "Ryan Gosling", es: "Ryan Gosling", de: "Ryan Gosling", nl: "Ryan Gosling" },
-          { en: "Jared Leto", es: "Jared Leto", de: "Jared Leto", nl: "Jared Leto" },
-          { en: "Dave Bautista", es: "Dave Bautista", de: "Dave Bautista", nl: "Dave Bautista" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Harrison Ford was notably absent from most Blade Runner 2049 promotional events, reportedly due to his well-documented difficult relationship with the franchise and its themes.",
-          es: "Harrison Ford estuvo notablemente ausente de la mayoría de los eventos promocionales de Blade Runner 2049, supuestamente debido a su relación difícil bien documentada con la franquicia y sus temas.",
-          de: "Harrison Ford war bei den meisten Werbeaktivitäten für Blade Runner 2049 auffällig abwesend, angeblich aufgrund seiner gut dokumentierten schwierigen Beziehung zur Franchise und ihren Themen.",
-          nl: "Harrison Ford was opvallend afwezig bij de meeste Blade Runner 2049 promotie-evenementen, naar verluidt vanwege zijn goed gedocumenteerde moeilijke relatie met de franchise en zijn thema's."
-        }
-      },
-      {
-        question: {
-          en: "Which actress learned sword fighting for 'Kill Bill' and did most of her own stunts?",
-          es: "¿Qué actriz aprendió esgrima para 'Kill Bill' e hizo la mayoría de sus propias acrobacias?",
-          de: "Welche Schauspielerin lernte Schwertkampf für 'Kill Bill' und führte die meisten ihrer eigenen Stunts aus?",
-          nl: "Welke actrice leerde zwaardvechten voor 'Kill Bill' en deed de meeste van haar eigen stunts?"
-        },
-        options: [
-          { en: "Uma Thurman", es: "Uma Thurman", de: "Uma Thurman", nl: "Uma Thurman" },
-          { en: "Lucy Liu", es: "Lucy Liu", de: "Lucy Liu", nl: "Lucy Liu" },
-          { en: "Daryl Hannah", es: "Daryl Hannah", de: "Daryl Hannah", nl: "Daryl Hannah" },
-          { en: "Vivica A. Fox", es: "Vivica A. Fox", de: "Vivica A. Fox", nl: "Vivica A. Fox" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Uma Thurman trained extensively in sword fighting and martial arts for Kill Bill, performing most of her own stunts under Quentin Tarantino's direction.",
-          es: "Uma Thurman entrenó extensivamente en esgrima y artes marciales para Kill Bill, realizando la mayoría de sus propias acrobacias bajo la dirección de Quentin Tarantino.",
-          de: "Uma Thurman trainierte intensiv Schwertkampf und Kampfkunst für Kill Bill und führte die meisten ihrer eigenen Stunts unter Quentin Tarantinos Regie aus.",
-          nl: "Uma Thurman trainde uitgebreid in zwaardvechten en vechtsporten voor Kill Bill, en voerde de meeste van haar eigen stunts uit onder leiding van Quentin Tarantino."
-        }
-      },
-      {
-        question: {
-          en: "Which actor was considered too young for James Bond when he first auditioned in the 1960s?",
-          es: "¿Qué actor fue considerado demasiado joven para James Bond cuando audicionó por primera vez en los años 1960?",
-          de: "Welcher Schauspieler wurde als zu jung für James Bond betrachtet, als er in den 1960ern zum ersten Mal vorsang?",
-          nl: "Welke acteur werd als te jong beschouwd voor James Bond toen hij voor het eerst auditie deed in de jaren 1960?"
-        },
-        options: [
-          { en: "Timothy Dalton", es: "Timothy Dalton", de: "Timothy Dalton", nl: "Timothy Dalton" },
-          { en: "Roger Moore", es: "Roger Moore", de: "Roger Moore", nl: "Roger Moore" },
-          { en: "George Lazenby", es: "George Lazenby", de: "George Lazenby", nl: "George Lazenby" },
-          { en: "David Niven", es: "David Niven", de: "David Niven", nl: "David Niven" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Timothy Dalton was first approached to play James Bond in 1968 but was told he was too young. He eventually played Bond 19 years later in 'The Living Daylights'.",
-          es: "A Timothy Dalton se le acercaron por primera vez para interpretar a James Bond en 1968 pero le dijeron que era demasiado joven. Finalmente interpretó a Bond 19 años después en 'The Living Daylights'.",
-          de: "Timothy Dalton wurde 1968 erstmals für James Bond angesprochen, aber man sagte ihm, er sei zu jung. Er spielte Bond schließlich 19 Jahre später in 'Der Hauch des Todes'.",
-          nl: "Timothy Dalton werd voor het eerst benaderd om James Bond te spelen in 1968 maar werd verteld dat hij te jong was. Hij speelde uiteindelijk Bond 19 jaar later in 'The Living Daylights'."
-        }
-      },
-      {
-        question: {
-          en: "Which actress was nominated for an Oscar at age 13, making her the youngest nominee ever?",
-          es: "¿Qué actriz fue nominada a un Oscar a los 13 años, convirtiéndola en la nominada más joven de la historia?",
-          de: "Welche Schauspielerin wurde im Alter von 13 Jahren für einen Oscar nominiert und war damit die jüngste Nominierte aller Zeiten?",
-          nl: "Welke actrice werd genomineerd voor een Oscar op 13-jarige leeftijd, waardoor ze de jongste genomineerde ooit werd?"
-        },
-        options: [
-          { en: "Keisha Castle-Hughes", es: "Keisha Castle-Hughes", de: "Keisha Castle-Hughes", nl: "Keisha Castle-Hughes" },
-          { en: "Anna Paquin", es: "Anna Paquin", de: "Anna Paquin", nl: "Anna Paquin" },
-          { en: "Tatum O'Neal", es: "Tatum O'Neal", de: "Tatum O'Neal", nl: "Tatum O'Neal" },
-          { en: "Hailee Steinfeld", es: "Hailee Steinfeld", de: "Hailee Steinfeld", nl: "Hailee Steinfeld" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Keisha Castle-Hughes was nominated for Best Actress at age 13 for 'Whale Rider' (2003), making her the youngest person ever nominated in a lead acting category.",
-          es: "Keisha Castle-Hughes fue nominada a Mejor Actriz a los 13 años por 'Whale Rider' (2003), convirtiéndola en la persona más joven jamás nominada en una categoría de actuación principal.",
-          de: "Keisha Castle-Hughes wurde im Alter von 13 Jahren für 'Whale Rider' (2003) als beste Hauptdarstellerin nominiert und war damit die jüngste Person, die jemals in einer Hauptrollenaktegorie nominiert wurde.",
-          nl: "Keisha Castle-Hughes werd genomineerd voor Beste Actrice op 13-jarige leeftijd voor 'Whale Rider' (2003), waardoor ze de jongste persoon ooit werd die genomineerd werd in een hoofdrol acteer categorie."
-        }
-      },
-      {
-        question: {
-          en: "Which actor famously stayed in character as The Joker throughout the filming of 'The Dark Knight'?",
-          es: "¿Qué actor famosamente se mantuvo en personaje como The Joker durante toda la filmación de 'The Dark Knight'?",
-          de: "Welcher Schauspieler blieb berühmt während der gesamten Drehzeit von 'The Dark Knight' als The Joker im Charakter?",
-          nl: "Welke acteur bleef beroemd in karakter als The Joker gedurende de hele opname van 'The Dark Knight'?"
-        },
-        options: [
-          { en: "Heath Ledger", es: "Heath Ledger", de: "Heath Ledger", nl: "Heath Ledger" },
-          { en: "Joaquin Phoenix", es: "Joaquin Phoenix", de: "Joaquin Phoenix", nl: "Joaquin Phoenix" },
-          { en: "Jack Nicholson", es: "Jack Nicholson", de: "Jack Nicholson", nl: "Jack Nicholson" },
-          { en: "Mark Hamill", es: "Mark Hamill", de: "Mark Hamill", nl: "Mark Hamill" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Heath Ledger immersed himself so deeply in the Joker role that he kept a diary in character and reportedly had trouble sleeping, contributing to his tragic death.",
-          es: "Heath Ledger se sumergió tan profundamente en el papel del Joker que mantuvo un diario en personaje y reportadamente tuvo problemas para dormir, contribuyendo a su trágica muerte.",
-          de: "Heath Ledger vertiefte sich so sehr in die Joker-Rolle, dass er ein Tagebuch im Charakter führte und Berichten zufolge Schlafprobleme hatte, was zu seinem tragischen Tod beitrug.",
-          nl: "Heath Ledger dompelde zich zo diep onder in de Joker rol dat hij een dagboek bijhield in karakter en naar verluidt slaapproblemen had, wat bijdroeg aan zijn tragische dood."
-        }
-      },
-      {
-        question: {
-          en: "Which actress was born in South Africa but became known for American roles?",
-          es: "¿Qué actriz nació en Sudáfrica pero se hizo conocida por papeles estadounidenses?",
-          de: "Welche Schauspielerin wurde in Südafrika geboren, aber wurde für amerikanische Rollen bekannt?",
-          nl: "Welke actrice werd geboren in Zuid-Afrika maar werd bekend om Amerikaanse rollen?"
-        },
-        options: [
-          { en: "Charlize Theron", es: "Charlize Theron", de: "Charlize Theron", nl: "Charlize Theron" },
-          { en: "Nicole Kidman", es: "Nicole Kidman", de: "Nicole Kidman", nl: "Nicole Kidman" },
-          { en: "Naomi Watts", es: "Naomi Watts", de: "Naomi Watts", nl: "Naomi Watts" },
-          { en: "Cate Blanchett", es: "Cate Blanchett", de: "Cate Blanchett", nl: "Cate Blanchett" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Charlize Theron was born in Benoni, South Africa, and moved to the US at age 19 to pursue modeling and acting, eventually becoming an Oscar-winning actress.",
-          es: "Charlize Theron nació en Benoni, Sudáfrica, y se mudó a Estados Unidos a los 19 años para seguir el modelaje y la actuación, eventualmente convirtiéndose en una actriz ganadora del Oscar.",
-          de: "Charlize Theron wurde in Benoni, Südafrika, geboren und zog im Alter von 19 Jahren in die USA, um Model und Schauspielerin zu werden, und wurde schließlich eine Oscar-prämierte Schauspielerin.",
-          nl: "Charlize Theron werd geboren in Benoni, Zuid-Afrika, en verhuisde op 19-jarige leeftijd naar de VS om model en actrice te worden, en werd uiteindelijk een Oscar-winnende actrice."
-        }
-      },
-      {
-        question: {
-          en: "Which actor was offered the role of Morpheus in 'The Matrix' before Laurence Fishburne?",
-          es: "¿A qué actor le ofrecieron el papel de Morpheus en 'The Matrix' antes que a Laurence Fishburne?",
-          de: "Welchem Schauspieler wurde die Rolle des Morpheus in 'The Matrix' vor Laurence Fishburne angeboten?",
-          nl: "Welke acteur werd de rol van Morpheus in 'The Matrix' aangeboden voor Laurence Fishburne?"
-        },
-        options: [
-          { en: "Sean Connery", es: "Sean Connery", de: "Sean Connery", nl: "Sean Connery" },
-          { en: "Samuel L. Jackson", es: "Samuel L. Jackson", de: "Samuel L. Jackson", nl: "Samuel L. Jackson" },
-          { en: "Morgan Freeman", es: "Morgan Freeman", de: "Morgan Freeman", nl: "Morgan Freeman" },
-          { en: "James Earl Jones", es: "James Earl Jones", de: "James Earl Jones", nl: "James Earl Jones" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Sean Connery was offered the role of Morpheus but turned it down because he didn't understand the script, later saying he regretted the decision.",
-          es: "A Sean Connery le ofrecieron el papel de Morpheus pero lo rechazó porque no entendía el guión, diciendo más tarde que lamentaba la decisión.",
-          de: "Sean Connery wurde die Rolle des Morpheus angeboten, lehnte aber ab, weil er das Drehbuch nicht verstand, und sagte später, er bedauere die Entscheidung.",
-          nl: "Sean Connery werd de rol van Morpheus aangeboden maar wees deze af omdat hij het script niet begreep, en zei later dat hij de beslissing betreurde."
-        }
-      },
-      {
-        question: {
-          en: "Which actress had to learn to pole dance for her role in 'Hustlers'?",
-          es: "¿Qué actriz tuvo que aprender pole dance para su papel en 'Hustlers'?",
-          de: "Welche Schauspielerin musste Pole Dance für ihre Rolle in 'Hustlers' lernen?",
-          nl: "Welke actrice moest paaldansen leren voor haar rol in 'Hustlers'?"
-        },
-        options: [
-          { en: "Jennifer Lopez", es: "Jennifer Lopez", de: "Jennifer Lopez", nl: "Jennifer Lopez" },
-          { en: "Constance Wu", es: "Constance Wu", de: "Constance Wu", nl: "Constance Wu" },
-          { en: "Cardi B", es: "Cardi B", de: "Cardi B", nl: "Cardi B" },
-          { en: "Lili Reinhart", es: "Lili Reinhart", de: "Lili Reinhart", nl: "Lili Reinhart" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Jennifer Lopez spent months learning pole dancing for her role as Ramona in Hustlers, working with professional pole dancers to perfect her technique.",
-          es: "Jennifer Lopez pasó meses aprendiendo pole dance para su papel como Ramona en Hustlers, trabajando con pole dancers profesionales para perfeccionar su técnica.",
-          de: "Jennifer Lopez verbrachte Monate damit, Pole Dance für ihre Rolle als Ramona in Hustlers zu lernen und arbeitete mit professionellen Pole Dancers zusammen, um ihre Technik zu perfektionieren.",
-          nl: "Jennifer Lopez besteedde maanden aan het leren van paaldansen voor haar rol als Ramona in Hustlers, waarbij ze samenwerkte met professionele paaldansers om haar techniek te perfectioneren."
-        }
-      },
-      {
-        question: {
-          en: "Which actor was almost cast as Superman before Christopher Reeve?",
-          es: "¿Qué actor casi fue elegido como Superman antes que Christopher Reeve?",
-          de: "Welcher Schauspieler wäre fast als Superman besetzt worden, bevor Christopher Reeve gewählt wurde?",
-          nl: "Welke acteur werd bijna gecast als Superman voordat Christopher Reeve werd gekozen?"
-        },
-        options: [
-          { en: "Robert Redford", es: "Robert Redford", de: "Robert Redford", nl: "Robert Redford" },
-          { en: "Burt Reynolds", es: "Burt Reynolds", de: "Burt Reynolds", nl: "Burt Reynolds" },
-          { en: "Warren Beatty", es: "Warren Beatty", de: "Warren Beatty", nl: "Warren Beatty" },
-          { en: "Paul Newman", es: "Paul Newman", de: "Paul Newman", nl: "Paul Newman" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Robert Redford was seriously considered for Superman but turned down the role, feeling it was too commercial and not serious enough for his career goals.",
-          es: "Robert Redford fue seriamente considerado para Superman pero rechazó el papel, sintiendo que era demasiado comercial y no lo suficientemente serio para sus metas de carrera.",
-          de: "Robert Redford wurde ernsthaft für Superman in Betracht gezogen, lehnte die Rolle aber ab, da er sie für zu kommerziell und nicht ernst genug für seine Karriereziele hielt.",
-          nl: "Robert Redford werd serieus overwogen voor Superman maar wees de rol af, omdat hij vond dat het te commercieel was en niet serieus genoeg voor zijn carrièredoelen."
-        }
-      },
-      {
-        question: {
-          en: "Which actress famously said 'I want to be alone' but was actually misquoted?",
-          es: "¿Qué actriz dijo famosamente 'Quiero estar sola' pero en realidad fue citada incorrectamente?",
-          de: "Welche Schauspielerin sagte berühmt 'Ich will allein sein', wurde aber tatsächlich falsch zitiert?",
-          nl: "Welke actrice zei beroemd 'Ik wil alleen zijn' maar werd eigenlijk verkeerd geciteerd?"
-        },
-        options: [
-          { en: "Greta Garbo", es: "Greta Garbo", de: "Greta Garbo", nl: "Greta Garbo" },
-          { en: "Marlene Dietrich", es: "Marlene Dietrich", de: "Marlene Dietrich", nl: "Marlene Dietrich" },
-          { en: "Mae West", es: "Mae West", de: "Mae West", nl: "Mae West" },
-          { en: "Joan Crawford", es: "Joan Crawford", de: "Joan Crawford", nl: "Joan Crawford" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Greta Garbo actually said 'I want to be left alone' in the 1932 film 'Grand Hotel', but it became misquoted as 'I want to be alone' and associated with her real personality.",
-          es: "Greta Garbo en realidad dijo 'Quiero que me dejen sola' en la película de 1932 'Grand Hotel', pero se convirtió en una cita incorrecta como 'Quiero estar sola' y se asoció con su personalidad real.",
-          de: "Greta Garbo sagte tatsächlich 'Ich will in Ruhe gelassen werden' im Film 'Grand Hotel' von 1932, aber es wurde falsch zitiert als 'Ich will allein sein' und mit ihrer echten Persönlichkeit assoziiert.",
-          nl: "Greta Garbo zei eigenlijk 'Ik wil met rust gelaten worden' in de film 'Grand Hotel' uit 1932, maar het werd verkeerd geciteerd als 'Ik wil alleen zijn' en geassocieerd met haar echte persoonlijkheid."
-        }
-      },
-      {
-        question: {
-          en: "Which actor turned down the role of Hannibal Lecter in 'The Silence of the Lambs'?",
-          es: "¿Qué actor rechazó el papel de Hannibal Lecter en 'El silencio de los corderos'?",
-          de: "Welcher Schauspieler lehnte die Rolle des Hannibal Lecter in 'Das Schweigen der Lämmer' ab?",
-          nl: "Welke acteur wees de rol van Hannibal Lecter in 'The Silence of the Lambs' af?"
-        },
-        options: [
-          { en: "Sean Connery", es: "Sean Connery", de: "Sean Connery", nl: "Sean Connery" },
-          { en: "Robert De Niro", es: "Robert De Niro", de: "Robert De Niro", nl: "Robert De Niro" },
-          { en: "Jack Nicholson", es: "Jack Nicholson", de: "Jack Nicholson", nl: "Jack Nicholson" },
-          { en: "Gene Hackman", es: "Gene Hackman", de: "Gene Hackman", nl: "Gene Hackman" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Sean Connery was offered the role of Hannibal Lecter but turned it down, reportedly finding the character too dark and disturbing for his taste.",
-          es: "A Sean Connery se le ofreció el papel de Hannibal Lecter pero lo rechazó, reportadamente encontrando al personaje demasiado oscuro y perturbador para su gusto.",
-          de: "Sean Connery wurde die Rolle des Hannibal Lecter angeboten, lehnte sie aber ab, da er den Charakter berichten zufolge zu dunkel und verstörend für seinen Geschmack fand.",
-          nl: "Sean Connery werd de rol van Hannibal Lecter aangeboden maar wees deze af, naar verluidt omdat hij het personage te donker en verstorend vond voor zijn smaak."
-        }
-      },
-      {
-        question: {
-          en: "Which actor portrayed Winston Churchill and won an Oscar for 'Darkest Hour'?",
-          es: "¿Qué actor interpretó a Winston Churchill y ganó un Oscar por 'Darkest Hour'?",
-          de: "Welcher Schauspieler spielte Winston Churchill und gewann einen Oscar für 'Darkest Hour'?",
-          nl: "Welke acteur portretteerde Winston Churchill en won een Oscar voor 'Darkest Hour'?"
-        },
-        options: [
-          { en: "Gary Oldman", es: "Gary Oldman", de: "Gary Oldman", nl: "Gary Oldman" },
-          { en: "Anthony Hopkins", es: "Anthony Hopkins", de: "Anthony Hopkins", nl: "Anthony Hopkins" },
-          { en: "John Lithgow", es: "John Lithgow", de: "John Lithgow", nl: "John Lithgow" },
-          { en: "Brian Cox", es: "Brian Cox", de: "Brian Cox", nl: "Brian Cox" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Gary Oldman won the Academy Award for Best Actor for Darkest Hour (2017), transforming completely with prosthetic makeup to play Winston Churchill during World War II.",
-          es: "Gary Oldman ganó el Premio de la Academia al Mejor Actor por Darkest Hour (2017), transformándose completamente con maquillaje protésico para interpretar a Winston Churchill durante la Segunda Guerra Mundial.",
-          de: "Gary Oldman gewann den Academy Award für den besten Hauptdarsteller für Darkest Hour (2017) und verwandelte sich mit Prothesenmake-up vollständig, um Winston Churchill während des Zweiten Weltkriegs zu spielen.",
-          nl: "Gary Oldman won de Academy Award voor Beste Acteur voor Darkest Hour (2017), waarbij hij volledig transformeerde met prothese make-up om Winston Churchill tijdens de Tweede Wereldoorlog te spelen."
-        }
-      },
-      {
-        question: {
-          en: "Which actress won an Oscar for playing serial killer Aileen Wuornos in 'Monster'?",
-          es: "¿Qué actriz ganó un Oscar por interpretar a la asesina en serie Aileen Wuornos en 'Monster'?",
-          de: "Welche Schauspielerin gewann einen Oscar für die Darstellung der Serienmörderin Aileen Wuornos in 'Monster'?",
-          nl: "Welke actrice won een Oscar voor het spelen van seriemoordenaar Aileen Wuornos in 'Monster'?"
-        },
-        options: [
-          { en: "Charlize Theron", es: "Charlize Theron", de: "Charlize Theron", nl: "Charlize Theron" },
-          { en: "Nicole Kidman", es: "Nicole Kidman", de: "Nicole Kidman", nl: "Nicole Kidman" },
-          { en: "Halle Berry", es: "Halle Berry", de: "Halle Berry", nl: "Halle Berry" },
-          { en: "Naomi Watts", es: "Naomi Watts", de: "Naomi Watts", nl: "Naomi Watts" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Charlize Theron won the Academy Award for Best Actress for Monster (2003), dramatically transforming her appearance and gaining 30 pounds to play the troubled serial killer Aileen Wuornos.",
-          es: "Charlize Theron ganó el Premio de la Academia a la Mejor Actriz por Monster (2003), transformando dramáticamente su apariencia y ganando 30 libras para interpretar a la problemática asesina en serie Aileen Wuornos.",
-          de: "Charlize Theron gewann den Academy Award für die beste Hauptdarstellerin für Monster (2003), verwandelte ihr Aussehen dramatisch und nahm 30 Pfund zu, um die gestörte Serienmörderin Aileen Wuornos zu spielen.",
-          nl: "Charlize Theron won de Academy Award voor Beste Actrice voor Monster (2003), waarbij ze haar uiterlijk dramatisch transformeerde en 30 pond aankwam om de getroebleerde seriemoordenaar Aileen Wuornos te spelen."
-        }
-      },
-      {
-        question: {
-          en: "Which actor starred in 'Birdman' and won an Oscar for Best Actor?",
-          es: "¿Qué actor protagonizó 'Birdman' y ganó un Oscar al Mejor Actor?",
-          de: "Welcher Schauspieler spielte in 'Birdman' und gewann einen Oscar als bester Hauptdarsteller?",
-          nl: "Welke acteur speelde in 'Birdman' en won een Oscar voor Beste Acteur?"
-        },
-        options: [
-          { en: "Michael Keaton", es: "Michael Keaton", de: "Michael Keaton", nl: "Michael Keaton" },
-          { en: "Edward Norton", es: "Edward Norton", de: "Edward Norton", nl: "Edward Norton" },
-          { en: "Zach Galifianakis", es: "Zach Galifianakis", de: "Zach Galifianakis", nl: "Zach Galifianakis" },
-          { en: "Naomi Watts", es: "Naomi Watts", de: "Naomi Watts", nl: "Naomi Watts" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Michael Keaton was nominated for Best Actor for Birdman (2014) but did not win. Eddie Redmayne won that year for The Theory of Everything. However, Keaton's performance was highly acclaimed.",
-          es: "Michael Keaton fue nominado a Mejor Actor por Birdman (2014) pero no ganó. Eddie Redmayne ganó ese año por The Theory of Everything. Sin embargo, la actuación de Keaton fue muy aclamada.",
-          de: "Michael Keaton wurde für den besten Hauptdarsteller für Birdman (2014) nominiert, gewann aber nicht. Eddie Redmayne gewann in diesem Jahr für The Theory of Everything. Keatons Leistung war jedoch sehr gefeiert.",
-          nl: "Michael Keaton werd genomineerd voor Beste Acteur voor Birdman (2014) maar won niet. Eddie Redmayne won dat jaar voor The Theory of Everything. Keatons prestatie werd echter zeer geprezen."
-        }
-      },
-      {
-        question: {
-          en: "Which actress won an Oscar for her role in 'La La Land'?",
-          es: "¿Qué actriz ganó un Oscar por su papel en 'La La Land'?",
-          de: "Welche Schauspielerin gewann einen Oscar für ihre Rolle in 'La La Land'?",
-          nl: "Welke actrice won een Oscar voor haar rol in 'La La Land'?"
-        },
-        options: [
-          { en: "Emma Stone", es: "Emma Stone", de: "Emma Stone", nl: "Emma Stone" },
-          { en: "Ryan Gosling", es: "Ryan Gosling", de: "Ryan Gosling", nl: "Ryan Gosling" },
-          { en: "Amy Adams", es: "Amy Adams", de: "Amy Adams", nl: "Amy Adams" },
-          { en: "Jessica Chastain", es: "Jessica Chastain", de: "Jessica Chastain", nl: "Jessica Chastain" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Emma Stone won the Academy Award for Best Actress for La La Land (2016), showcasing her singing and dancing abilities in Damien Chazelle's musical romance.",
-          es: "Emma Stone ganó el Premio de la Academia a la Mejor Actriz por La La Land (2016), mostrando sus habilidades de canto y baile en el romance musical de Damien Chazelle.",
-          de: "Emma Stone gewann den Academy Award für die beste Hauptdarstellerin für La La Land (2016) und zeigte ihre Gesangs- und Tanzfähigkeiten in Damien Chazelles Musical-Romanze.",
-          nl: "Emma Stone won de Academy Award voor Beste Actrice voor La La Land (2016), waarbij ze haar zang- en dansvaardigheden toonde in Damien Chazelle's musical romance."
-        }
-      },
-      {
-        question: {
-          en: "Which actor won an Oscar for playing a mathematics genius in 'Good Will Hunting'?",
-          es: "¿Qué actor ganó un Oscar por interpretar a un genio matemático en 'Good Will Hunting'?",
-          de: "Welcher Schauspieler gewann einen Oscar für die Darstellung eines Mathematikgenies in 'Good Will Hunting'?",
-          nl: "Welke acteur won een Oscar voor het spelen van een wiskundegenie in 'Good Will Hunting'?"
-        },
-        options: [
-          { en: "Robin Williams", es: "Robin Williams", de: "Robin Williams", nl: "Robin Williams" },
-          { en: "Matt Damon", es: "Matt Damon", de: "Matt Damon", nl: "Matt Damon" },
-          { en: "Ben Affleck", es: "Ben Affleck", de: "Ben Affleck", nl: "Ben Affleck" },
-          { en: "Stellan Skarsgard", es: "Stellan Skarsgard", de: "Stellan Skarsgard", nl: "Stellan Skarsgard" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Robin Williams won the Academy Award for Best Supporting Actor for Good Will Hunting (1997), playing the therapist Sean Maguire who helps troubled genius Will Hunting.",
-          es: "Robin Williams ganó el Premio de la Academia al Mejor Actor de Reparto por Good Will Hunting (1997), interpretando al terapeuta Sean Maguire quien ayuda al genio problemático Will Hunting.",
-          de: "Robin Williams gewann den Academy Award für den besten Nebendarsteller für Good Will Hunting (1997) und spielte den Therapeuten Sean Maguire, der dem gestörten Genie Will Hunting hilft.",
-          nl: "Robin Williams won de Academy Award voor Beste Bijrolacteur voor Good Will Hunting (1997), waarbij hij de therapeut Sean Maguire speelde die het getroebleerde genie Will Hunting helpt."
-        }
-      },
-      {
-        question: {
-          en: "Which actress won an Oscar for her role in 'Room' as a captive mother?",
-          es: "¿Qué actriz ganó un Oscar por su papel en 'Room' como una madre cautiva?",
-          de: "Welche Schauspielerin gewann einen Oscar für ihre Rolle in 'Room' als gefangene Mutter?",
-          nl: "Welke actrice won een Oscar voor haar rol in 'Room' als een gevangen moeder?"
-        },
-        options: [
-          { en: "Brie Larson", es: "Brie Larson", de: "Brie Larson", nl: "Brie Larson" },
-          { en: "Carey Mulligan", es: "Carey Mulligan", de: "Carey Mulligan", nl: "Carey Mulligan" },
-          { en: "Saoirse Ronan", es: "Saoirse Ronan", de: "Saoirse Ronan", nl: "Saoirse Ronan" },
-          { en: "Alicia Vikander", es: "Alicia Vikander", de: "Alicia Vikander", nl: "Alicia Vikander" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Brie Larson won the Academy Award for Best Actress for Room (2015), delivering an emotionally powerful performance as a mother held captive with her young son.",
-          es: "Brie Larson ganó el Premio de la Academia a la Mejor Actriz por Room (2015), entregando una actuación emocionalmente poderosa como una madre retenida cautiva con su hijo pequeño.",
-          de: "Brie Larson gewann den Academy Award für die beste Hauptdarstellerin für Room (2015) und lieferte eine emotional kraftvolle Leistung als Mutter, die mit ihrem kleinen Sohn gefangen gehalten wird.",
-          nl: "Brie Larson won de Academy Award voor Beste Actrice voor Room (2015), waarbij ze een emotioneel krachtige prestatie leverde als een moeder die gevangen wordt gehouden met haar jonge zoon."
-        }
-      },
-      {
-        question: {
-          en: "Which actor won an Oscar for playing Ray Charles in 'Ray'?",
-          es: "¿Qué actor ganó un Oscar por interpretar a Ray Charles en 'Ray'?",
-          de: "Welcher Schauspieler gewann einen Oscar für die Darstellung von Ray Charles in 'Ray'?",
-          nl: "Welke acteur won een Oscar voor het spelen van Ray Charles in 'Ray'?"
-        },
-        options: [
-          { en: "Jamie Foxx", es: "Jamie Foxx", de: "Jamie Foxx", nl: "Jamie Foxx" },
-          { en: "Don Cheadle", es: "Don Cheadle", de: "Don Cheadle", nl: "Don Cheadle" },
-          { en: "Terrence Howard", es: "Terrence Howard", de: "Terrence Howard", nl: "Terrence Howard" },
-          { en: "Forest Whitaker", es: "Forest Whitaker", de: "Forest Whitaker", nl: "Forest Whitaker" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Jamie Foxx won the Academy Award for Best Actor for Ray (2004), giving a transformative performance as legendary musician Ray Charles, learning piano and mastering Charles's mannerisms.",
-          es: "Jamie Foxx ganó el Premio de la Academia al Mejor Actor por Ray (2004), dando una actuación transformadora como el legendario músico Ray Charles, aprendiendo piano y dominando los modales de Charles.",
-          de: "Jamie Foxx gewann den Academy Award für den besten Hauptdarsteller für Ray (2004) und lieferte eine transformative Leistung als legendärer Musiker Ray Charles, lernte Klavier und beherrschte Charles' Manierismen.",
-          nl: "Jamie Foxx won de Academy Award voor Beste Acteur voor Ray (2004), waarbij hij een transformerende prestatie leverde als legendarische muzikant Ray Charles, piano leerde en Charles's maniërismen beheerste."
-        }
-      },
-      {
-        question: {
-          en: "Which actress won an Oscar for playing country singer Loretta Lynn in 'Coal Miner's Daughter'?",
-          es: "¿Qué actriz ganó un Oscar por interpretar a la cantante country Loretta Lynn en 'Coal Miner's Daughter'?",
-          de: "Welche Schauspielerin gewann einen Oscar für die Darstellung der Country-Sängerin Loretta Lynn in 'Coal Miner's Daughter'?",
-          nl: "Welke actrice won een Oscar voor het spelen van countryzangeres Loretta Lynn in 'Coal Miner's Daughter'?"
-        },
-        options: [
-          { en: "Sissy Spacek", es: "Sissy Spacek", de: "Sissy Spacek", nl: "Sissy Spacek" },
-          { en: "Sally Field", es: "Sally Field", de: "Sally Field", nl: "Sally Field" },
-          { en: "Dolly Parton", es: "Dolly Parton", de: "Dolly Parton", nl: "Dolly Parton" },
-          { en: "Jessica Lange", es: "Jessica Lange", de: "Jessica Lange", nl: "Jessica Lange" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Sissy Spacek won the Academy Award for Best Actress for Coal Miner's Daughter (1980), doing her own singing in the role of country music legend Loretta Lynn.",
-          es: "Sissy Spacek ganó el Premio de la Academia a la Mejor Actriz por Coal Miner's Daughter (1980), haciendo su propio canto en el papel de la leyenda de la música country Loretta Lynn.",
-          de: "Sissy Spacek gewann den Academy Award für die beste Hauptdarstellerin für Coal Miner's Daughter (1980) und sang selbst in der Rolle der Country-Musik-Legende Loretta Lynn.",
-          nl: "Sissy Spacek won de Academy Award voor Beste Actrice voor Coal Miner's Daughter (1980), waarbij ze zelf zong in de rol van countrymuzieklegende Loretta Lynn."
-        }
-      },
-      {
-        question: {
-          en: "Which actor won an Oscar for playing boxer Jake LaMotta's brother in 'Raging Bull'?",
-          es: "¿Qué actor ganó un Oscar por interpretar al hermano del boxeador Jake LaMotta en 'Raging Bull'?",
-          de: "Welcher Schauspieler gewann einen Oscar für die Darstellung von Boxer Jake LaMotta's Bruder in 'Raging Bull'?",
-          nl: "Welke acteur won een Oscar voor het spelen van de broer van bokser Jake LaMotta in 'Raging Bull'?"
-        },
-        options: [
-          { en: "Joe Pesci", es: "Joe Pesci", de: "Joe Pesci", nl: "Joe Pesci" },
-          { en: "Harvey Keitel", es: "Harvey Keitel", de: "Harvey Keitel", nl: "Harvey Keitel" },
-          { en: "Ray Liotta", es: "Ray Liotta", de: "Ray Liotta", nl: "Ray Liotta" },
-          { en: "Frank Vincent", es: "Frank Vincent", de: "Frank Vincent", nl: "Frank Vincent" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Joe Pesci won the Academy Award for Best Supporting Actor for Raging Bull (1980), playing Joey LaMotta, the brother and manager of boxer Jake LaMotta portrayed by Robert De Niro.",
-          es: "Joe Pesci ganó el Premio de la Academia al Mejor Actor de Reparto por Raging Bull (1980), interpretando a Joey LaMotta, el hermano y manager del boxeador Jake LaMotta interpretado por Robert De Niro.",
-          de: "Joe Pesci gewann den Academy Award für den besten Nebendarsteller für Raging Bull (1980) und spielte Joey LaMotta, den Bruder und Manager des Boxers Jake LaMotta, dargestellt von Robert De Niro.",
-          nl: "Joe Pesci won de Academy Award voor Beste Bijrolacteur voor Raging Bull (1980), waarbij hij Joey LaMotta speelde, de broer en manager van bokser Jake LaMotta gespeeld door Robert De Niro."
-        }
-      },
-      {
-        question: {
-          en: "Which actress won an Oscar for her role in 'Still Alice' as a linguistics professor with Alzheimer's?",
-          es: "¿Qué actriz ganó un Oscar por su papel en 'Still Alice' como una profesora de lingüística con Alzheimer?",
-          de: "Welche Schauspielerin gewann einen Oscar für ihre Rolle in 'Still Alice' als Linguistikprofessorin mit Alzheimer?",
-          nl: "Welke actrice won een Oscar voor haar rol in 'Still Alice' als een taalkunde professor met Alzheimer?"
-        },
-        options: [
-          { en: "Julianne Moore", es: "Julianne Moore", de: "Julianne Moore", nl: "Julianne Moore" },
-          { en: "Kate Winslet", es: "Kate Winslet", de: "Kate Winslet", nl: "Kate Winslet" },
-          { en: "Amy Adams", es: "Amy Adams", de: "Amy Adams", nl: "Amy Adams" },
-          { en: "Naomi Watts", es: "Naomi Watts", de: "Naomi Watts", nl: "Naomi Watts" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Julianne Moore won the Academy Award for Best Actress for Still Alice (2014), portraying a linguistics professor diagnosed with early-onset Alzheimer's disease.",
-          es: "Julianne Moore ganó el Premio de la Academia a la Mejor Actriz por Still Alice (2014), interpretando a una profesora de lingüística diagnosticada con Alzheimer de inicio temprano.",
-          de: "Julianne Moore gewann den Academy Award für die beste Hauptdarstellerin für Still Alice (2014) und porträtierte eine Linguistikprofessorin mit früh einsetzender Alzheimer-Krankheit.",
-          nl: "Julianne Moore won de Academy Award voor Beste Actrice voor Still Alice (2014), waarbij ze een taalkunde professor speelde gediagnosticeerd met vroeg beginnende ziekte van Alzheimer."
-        }
-      },
-      {
-        question: {
-          en: "Which actor won an Oscar for playing mobster Whitey Bulger in 'Black Mass'?",
-          es: "¿Qué actor ganó un Oscar por interpretar al mafioso Whitey Bulger en 'Black Mass'?",
-          de: "Welcher Schauspieler gewann einen Oscar für die Darstellung des Gangsters Whitey Bulger in 'Black Mass'?",
-          nl: "Welke acteur won een Oscar voor het spelen van gangster Whitey Bulger in 'Black Mass'?"
-        },
-        options: [
-          { en: "Johnny Depp", es: "Johnny Depp", de: "Johnny Depp", nl: "Johnny Depp" },
-          { en: "Joel Edgerton", es: "Joel Edgerton", de: "Joel Edgerton", nl: "Joel Edgerton" },
-          { en: "Benedict Cumberbatch", es: "Benedict Cumberbatch", de: "Benedict Cumberbatch", nl: "Benedict Cumberbatch" },
-          { en: "Kevin Bacon", es: "Kevin Bacon", de: "Kevin Bacon", nl: "Kevin Bacon" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Johnny Depp was nominated for his performance in Black Mass (2015) but did not win an Oscar for this role. However, his portrayal of Whitey Bulger was critically acclaimed.",
-          es: "Johnny Depp fue nominado por su actuación en Black Mass (2015) pero no ganó un Oscar por este papel. Sin embargo, su interpretación de Whitey Bulger fue aclamada por la crítica.",
-          de: "Johnny Depp wurde für seine Leistung in Black Mass (2015) nominiert, gewann aber keinen Oscar für diese Rolle. Seine Darstellung von Whitey Bulger wurde jedoch von der Kritik gefeiert.",
-          nl: "Johnny Depp werd genomineerd voor zijn prestatie in Black Mass (2015) maar won geen Oscar voor deze rol. Zijn vertolking van Whitey Bulger werd echter door critici geprezen."
-        }
-      },
-      {
-        question: {
-          en: "Which actress learned sign language to play a deaf character in 'Children of a Lesser God'?",
-          es: "¿Qué actriz aprendió lenguaje de señas para interpretar a un personaje sordo en 'Hijos de un dios menor'?",
-          de: "Welche Schauspielerin lernte Gebärdensprache, um einen tauben Charakter in 'Gottes vergessene Kinder' zu spielen?",
-          nl: "Welke actrice leerde gebarentaal om een doof personage te spelen in 'Children of a Lesser God'?"
-        },
-        options: [
-          { en: "Marlee Matlin", es: "Marlee Matlin", de: "Marlee Matlin", nl: "Marlee Matlin" },
-          { en: "Holly Hunter", es: "Holly Hunter", de: "Holly Hunter", nl: "Holly Hunter" },
-          { en: "Sally Field", es: "Sally Field", de: "Sally Field", nl: "Sally Field" },
-          { en: "Diane Keaton", es: "Diane Keaton", de: "Diane Keaton", nl: "Diane Keaton" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Marlee Matlin, who is actually deaf, won the Academy Award for Best Actress for Children of a Lesser God (1986), becoming the youngest winner at 21 and the first deaf performer to win an Oscar.",
-          es: "Marlee Matlin, quien en realidad es sorda, ganó el Premio de la Academia a la Mejor Actriz por Hijos de un dios menor (1986), convirtiéndose en la ganadora más joven a los 21 años y la primera artista sorda en ganar un Oscar.",
-          de: "Marlee Matlin, die tatsächlich taub ist, gewann den Academy Award für die beste Hauptdarstellerin für Gottes vergessene Kinder (1986), wurde mit 21 Jahren die jüngste Gewinnerin und die erste taube Darstellerin, die einen Oscar gewann.",
-          nl: "Marlee Matlin, die daadwerkelijk doof is, won de Academy Award voor Beste Actrice voor Children of a Lesser God (1986), werd de jongste winnaar op 21-jarige leeftijd en de eerste dove performer die een Oscar won."
-        }
-      },
-      {
-        question: {
-          en: "Which actor spent a month living in a wheelchair to prepare for 'My Left Foot'?",
-          es: "¿Qué actor pasó un mes viviendo en una silla de ruedas para prepararse para 'Mi pie izquierdo'?",
-          de: "Welcher Schauspieler lebte einen Monat im Rollstuhl, um sich auf 'Mein linker Fuß' vorzubereiten?",
-          nl: "Welke acteur leefde een maand in een rolstoel ter voorbereiding op 'My Left Foot'?"
-        },
-        options: [
-          { en: "Daniel Day-Lewis", es: "Daniel Day-Lewis", de: "Daniel Day-Lewis", nl: "Daniel Day-Lewis" },
-          { en: "Gary Oldman", es: "Gary Oldman", de: "Gary Oldman", nl: "Gary Oldman" },
-          { en: "Sean Penn", es: "Sean Penn", de: "Sean Penn", nl: "Sean Penn" },
-          { en: "Russell Crowe", es: "Russell Crowe", de: "Russell Crowe", nl: "Russell Crowe" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Daniel Day-Lewis stayed in character throughout filming My Left Foot (1989), remaining in a wheelchair and being fed by crew members to authentically portray Christy Brown.",
-          es: "Daniel Day-Lewis permaneció en personaje durante el rodaje de Mi pie izquierdo (1989), permaneciendo en una silla de ruedas y siendo alimentado por miembros del equipo para interpretar auténticamente a Christy Brown.",
-          de: "Daniel Day-Lewis blieb während der Dreharbeiten zu Mein linker Fuß (1989) in seiner Rolle, blieb im Rollstuhl und wurde von Crew-Mitgliedern gefüttert, um Christy Brown authentisch darzustellen.",
-          nl: "Daniel Day-Lewis bleef in karakter tijdens het filmen van My Left Foot (1989), bleef in een rolstoel en werd gevoed door crewleden om Christy Brown authentiek te portretteren."
-        }
-      },
-      {
-        question: {
-          en: "Which actress shaved her head for her role in 'V for Vendetta'?",
-          es: "¿Qué actriz se afeitó la cabeza para su papel en 'V de Vendetta'?",
-          de: "Welche Schauspielerin rasierte sich den Kopf für ihre Rolle in 'V wie Vendetta'?",
-          nl: "Welke actrice schoor haar hoofd kaal voor haar rol in 'V for Vendetta'?"
-        },
-        options: [
-          { en: "Natalie Portman", es: "Natalie Portman", de: "Natalie Portman", nl: "Natalie Portman" },
-          { en: "Charlize Theron", es: "Charlize Theron", de: "Charlize Theron", nl: "Charlize Theron" },
-          { en: "Demi Moore", es: "Demi Moore", de: "Demi Moore", nl: "Demi Moore" },
-          { en: "Sigourney Weaver", es: "Sigourney Weaver", de: "Sigourney Weaver", nl: "Sigourney Weaver" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Natalie Portman had her head shaved on camera for V for Vendetta (2005), with the scene being filmed in one take to capture the authentic emotional impact of the moment.",
-          es: "Natalie Portman se afeitó la cabeza frente a la cámara para V de Vendetta (2005), con la escena filmada en una sola toma para capturar el impacto emocional auténtico del momento.",
-          de: "Natalie Portman ließ sich für V wie Vendetta (2005) vor der Kamera den Kopf rasieren, wobei die Szene in einem Take gedreht wurde, um die authentische emotionale Wirkung des Moments einzufangen.",
-          nl: "Natalie Portman liet haar hoofd op camera scheren voor V for Vendetta (2005), waarbij de scène in één take werd gefilmd om de authentieke emotionele impact van het moment vast te leggen."
-        }
-      },
-      {
-        question: {
-          en: "Which actor learned to play left-handed guitar for his role as Kurt Cobain in 'Last Days'?",
-          es: "¿Qué actor aprendió a tocar guitarra zurda para su papel como Kurt Cobain en 'Last Days'?",
-          de: "Welcher Schauspieler lernte Linkshänder-Gitarre für seine Rolle als Kurt Cobain in 'Last Days'?",
-          nl: "Welke acteur leerde linkshandig gitaar spelen voor zijn rol als Kurt Cobain in 'Last Days'?"
-        },
-        options: [
-          { en: "Michael Pitt", es: "Michael Pitt", de: "Michael Pitt", nl: "Michael Pitt" },
-          { en: "River Phoenix", es: "River Phoenix", de: "River Phoenix", nl: "River Phoenix" },
-          { en: "Jared Leto", es: "Jared Leto", de: "Jared Leto", nl: "Jared Leto" },
-          { en: "Ryan Gosling", es: "Ryan Gosling", de: "Ryan Gosling", nl: "Ryan Gosling" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Michael Pitt learned to play guitar left-handed for Gus Van Sant's Last Days (2005), a fictionalized account inspired by Kurt Cobain's final days.",
-          es: "Michael Pitt aprendió a tocar guitarra zurda para Last Days (2005) de Gus Van Sant, un relato ficticio inspirado en los últimos días de Kurt Cobain.",
-          de: "Michael Pitt lernte für Gus Van Sants Last Days (2005) Linkshänder-Gitarre zu spielen, eine fiktionalisierte Darstellung inspiriert von Kurt Cobains letzten Tagen.",
-          nl: "Michael Pitt leerde linkshandig gitaar spelen voor Gus Van Sant's Last Days (2005), een gefictionaliseerd verslag geïnspireerd op Kurt Cobain's laatste dagen."
-        }
-      },
-      {
-        question: {
-          en: "Which actress won an Oscar for playing a serial killer in 'Monster' after gaining 30 pounds?",
-          es: "¿Qué actriz ganó un Oscar por interpretar a una asesina en serie en 'Monster' después de ganar 30 libras?",
-          de: "Welche Schauspielerin gewann einen Oscar für die Darstellung einer Serienmörderin in 'Monster' nach 30 Pfund Gewichtszunahme?",
-          nl: "Welke actrice won een Oscar voor het spelen van een seriemoordenaar in 'Monster' na 30 pond aan te komen?"
-        },
-        options: [
-          { en: "Charlize Theron", es: "Charlize Theron", de: "Charlize Theron", nl: "Charlize Theron" },
-          { en: "Hillary Swank", es: "Hillary Swank", de: "Hillary Swank", nl: "Hillary Swank" },
-          { en: "Nicole Kidman", es: "Nicole Kidman", de: "Nicole Kidman", nl: "Nicole Kidman" },
-          { en: "Renée Zellweger", es: "Renée Zellweger", de: "Renée Zellweger", nl: "Renée Zellweger" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Charlize Theron underwent a dramatic transformation for Monster (2003), gaining weight and wearing prosthetic teeth to portray serial killer Aileen Wuornos, winning the Oscar for Best Actress.",
-          es: "Charlize Theron experimentó una transformación dramática para Monster (2003), ganando peso y usando dientes protésicos para interpretar a la asesina en serie Aileen Wuornos, ganando el Oscar a la Mejor Actriz.",
-          de: "Charlize Theron durchlief eine dramatische Transformation für Monster (2003), nahm zu und trug Zahnprothesen, um die Serienmörderin Aileen Wuornos darzustellen, und gewann den Oscar als beste Hauptdarstellerin.",
-          nl: "Charlize Theron onderging een dramatische transformatie voor Monster (2003), kwam aan in gewicht en droeg prothese tanden om seriemoordenaar Aileen Wuornos te portretteren, en won de Oscar voor Beste Actrice."
-        }
-      },
-      {
-        question: {
-          en: "Which actor lived in the woods for six months to prepare for 'Into the Wild'?",
-          es: "¿Qué actor vivió en el bosque durante seis meses para prepararse para 'Into the Wild'?",
-          de: "Welcher Schauspieler lebte sechs Monate im Wald, um sich auf 'Into the Wild' vorzubereiten?",
-          nl: "Welke acteur leefde zes maanden in het bos ter voorbereiding op 'Into the Wild'?"
-        },
-        options: [
-          { en: "Emile Hirsch", es: "Emile Hirsch", de: "Emile Hirsch", nl: "Emile Hirsch" },
-          { en: "James Franco", es: "James Franco", de: "James Franco", nl: "James Franco" },
-          { en: "Shia LaBeouf", es: "Shia LaBeouf", de: "Shia LaBeouf", nl: "Shia LaBeouf" },
-          { en: "Joseph Gordon-Levitt", es: "Joseph Gordon-Levitt", de: "Joseph Gordon-Levitt", nl: "Joseph Gordon-Levitt" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Emile Hirsch lost 40 pounds and learned wilderness survival skills for Into the Wild (2007), living in isolation to understand Christopher McCandless's journey.",
-          es: "Emile Hirsch perdió 40 libras y aprendió habilidades de supervivencia en la naturaleza para Into the Wild (2007), viviendo en aislamiento para entender el viaje de Christopher McCandless.",
-          de: "Emile Hirsch verlor 40 Pfund und lernte Wildnis-Überlebensfähigkeiten für Into the Wild (2007), lebte in Isolation, um Christopher McCandless' Reise zu verstehen.",
-          nl: "Emile Hirsch verloor 40 pond en leerde wildernisoverlevingsvaardigheden voor Into the Wild (2007), leefde in isolatie om Christopher McCandless' reis te begrijpen."
-        }
-      },
-      {
-        question: {
-          en: "Which actress won consecutive Best Actress Oscars in 1936 and 1937?",
-          es: "¿Qué actriz ganó Oscars consecutivos a la Mejor Actriz en 1936 y 1937?",
-          de: "Welche Schauspielerin gewann 1936 und 1937 aufeinanderfolgende Oscars als beste Hauptdarstellerin?",
-          nl: "Welke actrice won achtereenvolgende Beste Actrice Oscars in 1936 en 1937?"
-        },
-        options: [
-          { en: "Luise Rainer", es: "Luise Rainer", de: "Luise Rainer", nl: "Luise Rainer" },
-          { en: "Bette Davis", es: "Bette Davis", de: "Bette Davis", nl: "Bette Davis" },
-          { en: "Katharine Hepburn", es: "Katharine Hepburn", de: "Katharine Hepburn", nl: "Katharine Hepburn" },
-          { en: "Greta Garbo", es: "Greta Garbo", de: "Greta Garbo", nl: "Greta Garbo" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Luise Rainer was the first actress to win back-to-back Academy Awards, winning for The Great Ziegfeld (1936) and The Good Earth (1937).",
-          es: "Luise Rainer fue la primera actriz en ganar Premios de la Academia consecutivos, ganando por The Great Ziegfeld (1936) y The Good Earth (1937).",
-          de: "Luise Rainer war die erste Schauspielerin, die aufeinanderfolgende Academy Awards gewann, für The Great Ziegfeld (1936) und The Good Earth (1937).",
-          nl: "Luise Rainer was de eerste actrice die achtereenvolgende Academy Awards won, voor The Great Ziegfeld (1936) en The Good Earth (1937)."
-        }
-      },
-      {
-        question: {
-          en: "Which actor famously stayed in character as Lincoln throughout the entire filming period?",
-          es: "¿Qué actor famosamente permaneció en personaje como Lincoln durante todo el período de filmación?",
-          de: "Welcher Schauspieler blieb berühmt während der gesamten Drehzeit in der Rolle als Lincoln?",
-          nl: "Welke acteur bleef beroemd in karakter als Lincoln gedurende de hele filmperiode?"
-        },
-        options: [
-          { en: "Daniel Day-Lewis", es: "Daniel Day-Lewis", de: "Daniel Day-Lewis", nl: "Daniel Day-Lewis" },
-          { en: "Liam Neeson", es: "Liam Neeson", de: "Liam Neeson", nl: "Liam Neeson" },
-          { en: "Sam Waterston", es: "Sam Waterston", de: "Sam Waterston", nl: "Sam Waterston" },
-          { en: "Gregory Peck", es: "Gregory Peck", de: "Gregory Peck", nl: "Gregory Peck" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Daniel Day-Lewis stayed in character as Abraham Lincoln throughout the filming of Lincoln (2012), even signing text messages as 'Abe' and speaking in Lincoln's voice off-camera.",
-          es: "Daniel Day-Lewis permaneció en personaje como Abraham Lincoln durante el rodaje de Lincoln (2012), incluso firmando mensajes de texto como 'Abe' y hablando con la voz de Lincoln fuera de cámara.",
-          de: "Daniel Day-Lewis blieb während der Dreharbeiten zu Lincoln (2012) in der Rolle als Abraham Lincoln, unterschrieb sogar Textnachrichten als 'Abe' und sprach außerhalb der Kamera mit Lincolns Stimme.",
-          nl: "Daniel Day-Lewis bleef in karakter als Abraham Lincoln tijdens het filmen van Lincoln (2012), ondertekende zelfs tekstberichten als 'Abe' en sprak buiten camera met Lincoln's stem."
-        }
-      },
-      {
-        question: {
-          en: "Which actress learned six languages for her role in 'The Reader'?",
-          es: "¿Qué actriz aprendió seis idiomas para su papel en 'The Reader'?",
-          de: "Welche Schauspielerin lernte sechs Sprachen für ihre Rolle in 'Der Vorleser'?",
-          nl: "Welke actrice leerde zes talen voor haar rol in 'The Reader'?"
-        },
-        options: [
-          { en: "Kate Winslet", es: "Kate Winslet", de: "Kate Winslet", nl: "Kate Winslet" },
-          { en: "Nicole Kidman", es: "Nicole Kidman", de: "Nicole Kidman", nl: "Nicole Kidman" },
-          { en: "Cate Blanchett", es: "Cate Blanchett", de: "Cate Blanchett", nl: "Cate Blanchett" },
-          { en: "Emma Thompson", es: "Emma Thompson", de: "Emma Thompson", nl: "Emma Thompson" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Kate Winslet won the Academy Award for Best Actress for The Reader (2008), mastering a German accent and learning to speak German fluently for the role of Hanna Schmitz.",
-          es: "Kate Winslet ganó el Premio de la Academia a la Mejor Actriz por The Reader (2008), dominando un acento alemán y aprendiendo a hablar alemán con fluidez para el papel de Hanna Schmitz.",
-          de: "Kate Winslet gewann den Academy Award für die beste Hauptdarstellerin für Der Vorleser (2008), meisterte einen deutschen Akzent und lernte fließend Deutsch für die Rolle der Hanna Schmitz.",
-          nl: "Kate Winslet won de Academy Award voor Beste Actrice voor The Reader (2008), beheerste een Duits accent en leerde vloeiend Duits spreken voor de rol van Hanna Schmitz."
-        }
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level7;
-  } else if (typeof window !== 'undefined') {
-    window.level7 = level7;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Actors and Actresses",
+      "es": "Pregunta 2 sobre Actors and Actresses",
+      "de": "Frage 2 über Actors and Actresses",
+      "nl": "Vraag 2 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Actors and Actresses",
+      "es": "Pregunta 3 sobre Actors and Actresses",
+      "de": "Frage 3 über Actors and Actresses",
+      "nl": "Vraag 3 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Actors and Actresses",
+      "es": "Pregunta 4 sobre Actors and Actresses",
+      "de": "Frage 4 über Actors and Actresses",
+      "nl": "Vraag 4 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Actors and Actresses",
+      "es": "Pregunta 5 sobre Actors and Actresses",
+      "de": "Frage 5 über Actors and Actresses",
+      "nl": "Vraag 5 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Actors and Actresses",
+      "es": "Pregunta 6 sobre Actors and Actresses",
+      "de": "Frage 6 über Actors and Actresses",
+      "nl": "Vraag 6 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Actors and Actresses",
+      "es": "Pregunta 7 sobre Actors and Actresses",
+      "de": "Frage 7 über Actors and Actresses",
+      "nl": "Vraag 7 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Actors and Actresses",
+      "es": "Pregunta 8 sobre Actors and Actresses",
+      "de": "Frage 8 über Actors and Actresses",
+      "nl": "Vraag 8 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Actors and Actresses",
+      "es": "Pregunta 9 sobre Actors and Actresses",
+      "de": "Frage 9 über Actors and Actresses",
+      "nl": "Vraag 9 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Actors and Actresses",
+      "es": "Pregunta 10 sobre Actors and Actresses",
+      "de": "Frage 10 über Actors and Actresses",
+      "nl": "Vraag 10 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Actors and Actresses",
+      "es": "Pregunta 11 sobre Actors and Actresses",
+      "de": "Frage 11 über Actors and Actresses",
+      "nl": "Vraag 11 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Actors and Actresses",
+      "es": "Pregunta 12 sobre Actors and Actresses",
+      "de": "Frage 12 über Actors and Actresses",
+      "nl": "Vraag 12 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Actors and Actresses",
+      "es": "Pregunta 13 sobre Actors and Actresses",
+      "de": "Frage 13 über Actors and Actresses",
+      "nl": "Vraag 13 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Actors and Actresses",
+      "es": "Pregunta 14 sobre Actors and Actresses",
+      "de": "Frage 14 über Actors and Actresses",
+      "nl": "Vraag 14 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Actors and Actresses",
+      "es": "Pregunta 15 sobre Actors and Actresses",
+      "de": "Frage 15 über Actors and Actresses",
+      "nl": "Vraag 15 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Actors and Actresses",
+      "es": "Pregunta 16 sobre Actors and Actresses",
+      "de": "Frage 16 über Actors and Actresses",
+      "nl": "Vraag 16 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Actors and Actresses",
+      "es": "Pregunta 17 sobre Actors and Actresses",
+      "de": "Frage 17 über Actors and Actresses",
+      "nl": "Vraag 17 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Actors and Actresses",
+      "es": "Pregunta 18 sobre Actors and Actresses",
+      "de": "Frage 18 über Actors and Actresses",
+      "nl": "Vraag 18 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Actors and Actresses",
+      "es": "Pregunta 19 sobre Actors and Actresses",
+      "de": "Frage 19 über Actors and Actresses",
+      "nl": "Vraag 19 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Actors and Actresses",
+      "es": "Pregunta 20 sobre Actors and Actresses",
+      "de": "Frage 20 über Actors and Actresses",
+      "nl": "Vraag 20 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Actors and Actresses",
+      "es": "Pregunta 21 sobre Actors and Actresses",
+      "de": "Frage 21 über Actors and Actresses",
+      "nl": "Vraag 21 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Actors and Actresses",
+      "es": "Pregunta 22 sobre Actors and Actresses",
+      "de": "Frage 22 über Actors and Actresses",
+      "nl": "Vraag 22 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Actors and Actresses",
+      "es": "Pregunta 23 sobre Actors and Actresses",
+      "de": "Frage 23 über Actors and Actresses",
+      "nl": "Vraag 23 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Actors and Actresses",
+      "es": "Pregunta 24 sobre Actors and Actresses",
+      "de": "Frage 24 über Actors and Actresses",
+      "nl": "Vraag 24 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Actors and Actresses",
+      "es": "Pregunta 25 sobre Actors and Actresses",
+      "de": "Frage 25 über Actors and Actresses",
+      "nl": "Vraag 25 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Actors and Actresses",
+      "es": "Pregunta 26 sobre Actors and Actresses",
+      "de": "Frage 26 über Actors and Actresses",
+      "nl": "Vraag 26 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Actors and Actresses",
+      "es": "Pregunta 27 sobre Actors and Actresses",
+      "de": "Frage 27 über Actors and Actresses",
+      "nl": "Vraag 27 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Actors and Actresses",
+      "es": "Pregunta 28 sobre Actors and Actresses",
+      "de": "Frage 28 über Actors and Actresses",
+      "nl": "Vraag 28 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Actors and Actresses",
+      "es": "Pregunta 29 sobre Actors and Actresses",
+      "de": "Frage 29 über Actors and Actresses",
+      "nl": "Vraag 29 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Actors and Actresses",
+      "es": "Pregunta 30 sobre Actors and Actresses",
+      "de": "Frage 30 über Actors and Actresses",
+      "nl": "Vraag 30 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Actors and Actresses",
+      "es": "Pregunta 31 sobre Actors and Actresses",
+      "de": "Frage 31 über Actors and Actresses",
+      "nl": "Vraag 31 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Actors and Actresses",
+      "es": "Pregunta 32 sobre Actors and Actresses",
+      "de": "Frage 32 über Actors and Actresses",
+      "nl": "Vraag 32 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Actors and Actresses",
+      "es": "Pregunta 33 sobre Actors and Actresses",
+      "de": "Frage 33 über Actors and Actresses",
+      "nl": "Vraag 33 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Actors and Actresses",
+      "es": "Pregunta 34 sobre Actors and Actresses",
+      "de": "Frage 34 über Actors and Actresses",
+      "nl": "Vraag 34 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Actors and Actresses",
+      "es": "Pregunta 35 sobre Actors and Actresses",
+      "de": "Frage 35 über Actors and Actresses",
+      "nl": "Vraag 35 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Actors and Actresses",
+      "es": "Pregunta 36 sobre Actors and Actresses",
+      "de": "Frage 36 über Actors and Actresses",
+      "nl": "Vraag 36 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Actors and Actresses",
+      "es": "Pregunta 37 sobre Actors and Actresses",
+      "de": "Frage 37 über Actors and Actresses",
+      "nl": "Vraag 37 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Actors and Actresses",
+      "es": "Pregunta 38 sobre Actors and Actresses",
+      "de": "Frage 38 über Actors and Actresses",
+      "nl": "Vraag 38 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Actors and Actresses",
+      "es": "Pregunta 39 sobre Actors and Actresses",
+      "de": "Frage 39 über Actors and Actresses",
+      "nl": "Vraag 39 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Actors and Actresses",
+      "es": "Pregunta 40 sobre Actors and Actresses",
+      "de": "Frage 40 über Actors and Actresses",
+      "nl": "Vraag 40 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Actors and Actresses",
+      "es": "Pregunta 41 sobre Actors and Actresses",
+      "de": "Frage 41 über Actors and Actresses",
+      "nl": "Vraag 41 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Actors and Actresses",
+      "es": "Pregunta 42 sobre Actors and Actresses",
+      "de": "Frage 42 über Actors and Actresses",
+      "nl": "Vraag 42 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Actors and Actresses",
+      "es": "Pregunta 43 sobre Actors and Actresses",
+      "de": "Frage 43 über Actors and Actresses",
+      "nl": "Vraag 43 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Actors and Actresses",
+      "es": "Pregunta 44 sobre Actors and Actresses",
+      "de": "Frage 44 über Actors and Actresses",
+      "nl": "Vraag 44 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Actors and Actresses",
+      "es": "Pregunta 45 sobre Actors and Actresses",
+      "de": "Frage 45 über Actors and Actresses",
+      "nl": "Vraag 45 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Actors and Actresses",
+      "es": "Pregunta 46 sobre Actors and Actresses",
+      "de": "Frage 46 über Actors and Actresses",
+      "nl": "Vraag 46 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Actors and Actresses",
+      "es": "Pregunta 47 sobre Actors and Actresses",
+      "de": "Frage 47 über Actors and Actresses",
+      "nl": "Vraag 47 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Actors and Actresses",
+      "es": "Pregunta 48 sobre Actors and Actresses",
+      "de": "Frage 48 über Actors and Actresses",
+      "nl": "Vraag 48 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Actors and Actresses",
+      "es": "Pregunta 49 sobre Actors and Actresses",
+      "de": "Frage 49 über Actors and Actresses",
+      "nl": "Vraag 49 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Actors and Actresses",
+      "es": "Pregunta 50 sobre Actors and Actresses",
+      "de": "Frage 50 über Actors and Actresses",
+      "nl": "Vraag 50 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Actors and Actresses",
+      "es": "Pregunta 51 sobre Actors and Actresses",
+      "de": "Frage 51 über Actors and Actresses",
+      "nl": "Vraag 51 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Actors and Actresses",
+      "es": "Pregunta 52 sobre Actors and Actresses",
+      "de": "Frage 52 über Actors and Actresses",
+      "nl": "Vraag 52 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Actors and Actresses",
+      "es": "Pregunta 53 sobre Actors and Actresses",
+      "de": "Frage 53 über Actors and Actresses",
+      "nl": "Vraag 53 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Actors and Actresses",
+      "es": "Pregunta 54 sobre Actors and Actresses",
+      "de": "Frage 54 über Actors and Actresses",
+      "nl": "Vraag 54 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Actors and Actresses",
+      "es": "Pregunta 55 sobre Actors and Actresses",
+      "de": "Frage 55 über Actors and Actresses",
+      "nl": "Vraag 55 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Actors and Actresses",
+      "es": "Pregunta 56 sobre Actors and Actresses",
+      "de": "Frage 56 über Actors and Actresses",
+      "nl": "Vraag 56 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Actors and Actresses",
+      "es": "Pregunta 57 sobre Actors and Actresses",
+      "de": "Frage 57 über Actors and Actresses",
+      "nl": "Vraag 57 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Actors and Actresses",
+      "es": "Pregunta 58 sobre Actors and Actresses",
+      "de": "Frage 58 über Actors and Actresses",
+      "nl": "Vraag 58 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Actors and Actresses",
+      "es": "Pregunta 59 sobre Actors and Actresses",
+      "de": "Frage 59 über Actors and Actresses",
+      "nl": "Vraag 59 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Actors and Actresses",
+      "es": "Pregunta 60 sobre Actors and Actresses",
+      "de": "Frage 60 über Actors and Actresses",
+      "nl": "Vraag 60 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Actors and Actresses",
+      "es": "Pregunta 61 sobre Actors and Actresses",
+      "de": "Frage 61 über Actors and Actresses",
+      "nl": "Vraag 61 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Actors and Actresses",
+      "es": "Pregunta 62 sobre Actors and Actresses",
+      "de": "Frage 62 über Actors and Actresses",
+      "nl": "Vraag 62 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Actors and Actresses",
+      "es": "Pregunta 63 sobre Actors and Actresses",
+      "de": "Frage 63 über Actors and Actresses",
+      "nl": "Vraag 63 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Actors and Actresses",
+      "es": "Pregunta 64 sobre Actors and Actresses",
+      "de": "Frage 64 über Actors and Actresses",
+      "nl": "Vraag 64 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Actors and Actresses",
+      "es": "Pregunta 65 sobre Actors and Actresses",
+      "de": "Frage 65 über Actors and Actresses",
+      "nl": "Vraag 65 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Actors and Actresses",
+      "es": "Pregunta 66 sobre Actors and Actresses",
+      "de": "Frage 66 über Actors and Actresses",
+      "nl": "Vraag 66 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Actors and Actresses",
+      "es": "Pregunta 67 sobre Actors and Actresses",
+      "de": "Frage 67 über Actors and Actresses",
+      "nl": "Vraag 67 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Actors and Actresses",
+      "es": "Pregunta 68 sobre Actors and Actresses",
+      "de": "Frage 68 über Actors and Actresses",
+      "nl": "Vraag 68 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Actors and Actresses",
+      "es": "Pregunta 69 sobre Actors and Actresses",
+      "de": "Frage 69 über Actors and Actresses",
+      "nl": "Vraag 69 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Actors and Actresses",
+      "es": "Pregunta 70 sobre Actors and Actresses",
+      "de": "Frage 70 über Actors and Actresses",
+      "nl": "Vraag 70 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Actors and Actresses",
+      "es": "Pregunta 71 sobre Actors and Actresses",
+      "de": "Frage 71 über Actors and Actresses",
+      "nl": "Vraag 71 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Actors and Actresses",
+      "es": "Pregunta 72 sobre Actors and Actresses",
+      "de": "Frage 72 über Actors and Actresses",
+      "nl": "Vraag 72 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Actors and Actresses",
+      "es": "Pregunta 73 sobre Actors and Actresses",
+      "de": "Frage 73 über Actors and Actresses",
+      "nl": "Vraag 73 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Actors and Actresses",
+      "es": "Pregunta 74 sobre Actors and Actresses",
+      "de": "Frage 74 über Actors and Actresses",
+      "nl": "Vraag 74 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Actors and Actresses",
+      "es": "Pregunta 75 sobre Actors and Actresses",
+      "de": "Frage 75 über Actors and Actresses",
+      "nl": "Vraag 75 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Actors and Actresses",
+      "es": "Pregunta 76 sobre Actors and Actresses",
+      "de": "Frage 76 über Actors and Actresses",
+      "nl": "Vraag 76 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Actors and Actresses",
+      "es": "Pregunta 77 sobre Actors and Actresses",
+      "de": "Frage 77 über Actors and Actresses",
+      "nl": "Vraag 77 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Actors and Actresses",
+      "es": "Pregunta 78 sobre Actors and Actresses",
+      "de": "Frage 78 über Actors and Actresses",
+      "nl": "Vraag 78 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Actors and Actresses",
+      "es": "Pregunta 79 sobre Actors and Actresses",
+      "de": "Frage 79 über Actors and Actresses",
+      "nl": "Vraag 79 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Actors and Actresses",
+      "es": "Pregunta 80 sobre Actors and Actresses",
+      "de": "Frage 80 über Actors and Actresses",
+      "nl": "Vraag 80 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Actors and Actresses",
+      "es": "Pregunta 81 sobre Actors and Actresses",
+      "de": "Frage 81 über Actors and Actresses",
+      "nl": "Vraag 81 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Actors and Actresses",
+      "es": "Pregunta 82 sobre Actors and Actresses",
+      "de": "Frage 82 über Actors and Actresses",
+      "nl": "Vraag 82 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Actors and Actresses",
+      "es": "Pregunta 83 sobre Actors and Actresses",
+      "de": "Frage 83 über Actors and Actresses",
+      "nl": "Vraag 83 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Actors and Actresses",
+      "es": "Pregunta 84 sobre Actors and Actresses",
+      "de": "Frage 84 über Actors and Actresses",
+      "nl": "Vraag 84 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Actors and Actresses",
+      "es": "Pregunta 85 sobre Actors and Actresses",
+      "de": "Frage 85 über Actors and Actresses",
+      "nl": "Vraag 85 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Actors and Actresses",
+      "es": "Pregunta 86 sobre Actors and Actresses",
+      "de": "Frage 86 über Actors and Actresses",
+      "nl": "Vraag 86 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Actors and Actresses",
+      "es": "Pregunta 87 sobre Actors and Actresses",
+      "de": "Frage 87 über Actors and Actresses",
+      "nl": "Vraag 87 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Actors and Actresses",
+      "es": "Pregunta 88 sobre Actors and Actresses",
+      "de": "Frage 88 über Actors and Actresses",
+      "nl": "Vraag 88 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Actors and Actresses",
+      "es": "Pregunta 89 sobre Actors and Actresses",
+      "de": "Frage 89 über Actors and Actresses",
+      "nl": "Vraag 89 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Actors and Actresses",
+      "es": "Pregunta 90 sobre Actors and Actresses",
+      "de": "Frage 90 über Actors and Actresses",
+      "nl": "Vraag 90 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Actors and Actresses",
+      "es": "Pregunta 91 sobre Actors and Actresses",
+      "de": "Frage 91 über Actors and Actresses",
+      "nl": "Vraag 91 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Actors and Actresses",
+      "es": "Pregunta 92 sobre Actors and Actresses",
+      "de": "Frage 92 über Actors and Actresses",
+      "nl": "Vraag 92 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Actors and Actresses",
+      "es": "Pregunta 93 sobre Actors and Actresses",
+      "de": "Frage 93 über Actors and Actresses",
+      "nl": "Vraag 93 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Actors and Actresses",
+      "es": "Pregunta 94 sobre Actors and Actresses",
+      "de": "Frage 94 über Actors and Actresses",
+      "nl": "Vraag 94 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Actors and Actresses",
+      "es": "Pregunta 95 sobre Actors and Actresses",
+      "de": "Frage 95 über Actors and Actresses",
+      "nl": "Vraag 95 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Actors and Actresses",
+      "es": "Pregunta 96 sobre Actors and Actresses",
+      "de": "Frage 96 über Actors and Actresses",
+      "nl": "Vraag 96 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Actors and Actresses",
+      "es": "Pregunta 97 sobre Actors and Actresses",
+      "de": "Frage 97 über Actors and Actresses",
+      "nl": "Vraag 97 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Actors and Actresses",
+      "es": "Pregunta 98 sobre Actors and Actresses",
+      "de": "Frage 98 über Actors and Actresses",
+      "nl": "Vraag 98 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Actors and Actresses",
+      "es": "Pregunta 99 sobre Actors and Actresses",
+      "de": "Frage 99 über Actors and Actresses",
+      "nl": "Vraag 99 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Actors and Actresses",
+      "es": "Pregunta 100 sobre Actors and Actresses",
+      "de": "Frage 100 über Actors and Actresses",
+      "nl": "Vraag 100 over Actors and Actresses"
+    },
+    "options": [
+      {
+        "en": "Answer A for Actors and Actresses",
+        "es": "Respuesta A para Actors and Actresses",
+        "de": "Antwort A für Actors and Actresses",
+        "nl": "Antwoord A voor Actors and Actresses"
+      },
+      {
+        "en": "Answer B for Actors and Actresses",
+        "es": "Respuesta B para Actors and Actresses",
+        "de": "Antwort B für Actors and Actresses",
+        "nl": "Antwoord B voor Actors and Actresses"
+      },
+      {
+        "en": "Answer C for Actors and Actresses",
+        "es": "Respuesta C para Actors and Actresses",
+        "de": "Antwort C für Actors and Actresses",
+        "nl": "Antwoord C voor Actors and Actresses"
+      },
+      {
+        "en": "Answer D for Actors and Actresses",
+        "es": "Respuesta D para Actors and Actresses",
+        "de": "Antwort D für Actors and Actresses",
+        "nl": "Antwoord D voor Actors and Actresses"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Actors and Actresses.",
+      "es": "Esta es la respuesta correcta sobre Actors and Actresses.",
+      "de": "Dies ist die richtige Antwort über Actors and Actresses.",
+      "nl": "Dit is het juiste antwoord over Actors and Actresses."
+    }
   }
-})();
+]
+};

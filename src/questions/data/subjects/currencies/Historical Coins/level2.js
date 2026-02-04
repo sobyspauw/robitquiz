@@ -1,1657 +1,4104 @@
-// Historical Coins Quiz - Level 2
-(function() {
-  const level2 = {
-    name: {
-          "en": "Historical Coins - Intermediate",
-          "es": "Monedas Históricas - Intermedio",
-          "de": "Historische Münzen - Mittelstufe",
-          "nl": "Historische Munten - Gevorderd"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Historical Coins",
+      "es": "Pregunta 1 sobre Historical Coins",
+      "de": "Frage 1 über Historical Coins",
+      "nl": "Vraag 1 over Historical Coins"
     },
-    questions: [
+    "options": [
       {
-        question: {
-                  "en": "What was the 'sceat' in early medieval England?",
-                  "es": "¿Qué era el 'sceat' en la Inglaterra medieval temprana?",
-                  "de": "Was war der 'Sceat' im frühmittelalterlichen England?",
-                  "nl": "Wat was de 'sceat' in vroegmiddeleeuws Engeland?"
-        },
-        options: [
-        {
-                  "en": "A gold coin",
-                  "es": "Una moneda de oro",
-                  "de": "Eine Goldmünze",
-                  "nl": "Een gouden munt"
-        },
-        {
-                  "en": "A bronze token",
-                  "es": "Una ficha de bronce",
-                  "de": "Ein Bronzetoken",
-                  "nl": "Een bronzen penning"
-        },
-        {
-                  "en": "A small silver coin",
-                  "es": "Una pequeña moneda de plata",
-                  "de": "Eine kleine Silbermünze",
-                  "nl": "Een kleine zilveren munt"
-        },
-        {
-                  "en": "A trade good",
-                  "es": "Un bien de intercambio",
-                  "de": "Ein Handelsgut",
-                  "nl": "Een handelsproduct"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The sceat was a small silver coin used in Anglo-Saxon England from roughly 680-750 CE, representing an important transitional period in English coinage between Roman and medieval systems.",
-                  "es": "El sceat era una pequeña moneda de plata usada en la Inglaterra anglosajona aproximadamente del 680-750 d.C., representando un importante período de transición en la acuñación inglesa entre los sistemas romano y medieval.",
-                  "de": "Der Sceat war eine kleine Silbermünze, die im angelsächsischen England etwa von 680-750 n. Chr. verwendet wurde und eine wichtige Übergangszeit in der englischen Münzprägung zwischen römischen und mittelalterlichen Systemen darstellt.",
-                  "nl": "De sceat was een kleine zilveren munt gebruikt in Anglo-Saksisch Engeland van ongeveer 680-750 n.Chr., die een belangrijke overgangsperiode vertegenwoordigde in de Engelse muntslag tussen Romeinse en middeleeuwse systemen."
-        }
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
       },
       {
-        question: {
-                  "en": "Which Italian city-state was famous for its gold florins in the 13th century?",
-                  "es": "¿Qué ciudad-estado italiana era famosa por sus florines de oro en el siglo XIII?",
-                  "de": "Welcher italienische Stadtstaat war im 13. Jahrhundert für seine Goldflorins berühmt?",
-                  "nl": "Welke Italiaanse stadstaat was beroemd om zijn gouden florins in de 13e eeuw?"
-        },
-        options: [
-        {
-                  "en": "Genoa",
-                  "es": "Génova",
-                  "de": "Genua",
-                  "nl": "Genua"
-        },
-        {
-                  "en": "Florence",
-                  "es": "Florencia",
-                  "de": "Florenz",
-                  "nl": "Florence"
-        },
-        {
-                  "en": "Milan",
-                  "es": "Milán",
-                  "de": "Mailand",
-                  "nl": "Milaan"
-        },
-        {
-                  "en": "Venice",
-                  "es": "Venecia",
-                  "de": "Venedig",
-                  "nl": "Venetië"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Florence introduced the gold florin in 1252, which became one of the most important and widely accepted currencies in medieval Europe, facilitating international trade and banking.",
-                  "es": "Florencia introdujo el florín de oro en 1252, que se convirtió en una de las monedas más importantes y ampliamente aceptadas en la Europa medieval, facilitando el comercio internacional y la banca.",
-                  "de": "Florenz führte 1252 den Goldflorin ein, der zu einer der wichtigsten und am weitesten akzeptierten Währungen im mittelalterlichen Europa wurde und internationalen Handel und Bankwesen erleichterte.",
-                  "nl": "Florence introduceerde de gouden florijn in 1252, die een van de belangrijkste en meest geaccepteerde valuta's werd in middeleeuws Europa, wat internationale handel en bankwezen faciliteerde."
-        }
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
       },
       {
-        question: {
-                  "en": "What was unique about the Islamic dinar compared to contemporary European coins?",
-                  "es": "¿Qué era único del dinar islámico comparado con las monedas europeas contemporáneas?",
-                  "de": "Was war einzigartig am islamischen Dinar im Vergleich zu zeitgenössischen europäischen Münzen?",
-                  "nl": "Wat was uniek aan de islamitische dinar vergeleken met hedendaagse Europese munten?"
-        },
-        options: [
-        {
-                  "en": "It was the largest coin of its time",
-                  "es": "Era la moneda más grande de su tiempo",
-                  "de": "Es war die größte Münze seiner Zeit",
-                  "nl": "Het was de grootste munt van zijn tijd"
-        },
-        {
-                  "en": "It featured only calligraphic inscriptions, no images",
-                  "es": "Presentaba solo inscripciones caligráficas, sin imágenes",
-                  "de": "Es zeigte nur kalligrafische Inschriften, keine Bilder",
-                  "nl": "Het toonde alleen kalligrafische inscripties, geen afbeeldingen"
-        },
-        {
-                  "en": "It was square-shaped",
-                  "es": "Tenía forma cuadrada",
-                  "de": "Es war quadratisch geformt",
-                  "nl": "Het was vierkant gevormd"
-        },
-        {
-                  "en": "It was made of pure gold",
-                  "es": "Estaba hecho de oro puro",
-                  "de": "Es war aus reinem Gold",
-                  "nl": "Het was gemaakt van puur goud"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Islamic dinars featured only calligraphic inscriptions in Arabic, avoiding figurative images in accordance with Islamic artistic traditions, making them distinctly different from Byzantine and European coins of the period.",
-                  "es": "Los dinares islámicos presentaban solo inscripciones caligráficas en árabe, evitando imágenes figurativas de acuerdo con las tradiciones artísticas islámicas, haciéndolos distintivamente diferentes de las monedas bizantinas y europeas del período.",
-                  "de": "Islamische Dinare zeigten nur kalligrafische Inschriften in arabischer Sprache und vermieden figurative Bilder entsprechend islamischen Kunsttraditionen, was sie deutlich von byzantinischen und europäischen Münzen der Zeit unterschied.",
-                  "nl": "Islamitische dinars toonden alleen kalligrafische inscripties in het Arabisch, waarbij figuratieve afbeeldingen werden vermeden in overeenstemming met islamitische artistieke tradities, waardoor ze duidelijk verschilden van Byzantijnse en Europese munten van die periode."
-        }
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
       },
       {
-        question: {
-                  "en": "What was the 'tremissis' in the Byzantine monetary system?",
-                  "es": "¿Qué era el 'tremissis' en el sistema monetario bizantino?",
-                  "de": "Was war der 'Tremissis' im byzantinischen Münzsystem?",
-                  "nl": "Wat was de 'tremissis' in het Byzantijnse muntsysteem?"
-        },
-        options: [
-        {
-                  "en": "A silver coin worth half a solidus",
-                  "es": "Una moneda de plata que valía medio solidus",
-                  "de": "Eine Silbermünze im Wert eines halben Solidus",
-                  "nl": "Een zilveren munt ter waarde van een halve solidus"
-        },
-        {
-                  "en": "A commemorative medal",
-                  "es": "Una medalla conmemorativa",
-                  "de": "Eine Gedenkmedaille",
-                  "nl": "Een herdenkingsmedaille"
-        },
-        {
-                  "en": "A gold coin worth one-third of a solidus",
-                  "es": "Una moneda de oro que valía un tercio de un solidus",
-                  "de": "Eine Goldmünze im Wert eines Drittels eines Solidus",
-                  "nl": "Een gouden munt ter waarde van een derde van een solidus"
-        },
-        {
-                  "en": "A copper coin for daily transactions",
-                  "es": "Una moneda de cobre para transacciones diarias",
-                  "de": "Eine Kupfermünze für tägliche Transaktionen",
-                  "nl": "Een koperen munt voor dagelijkse transacties"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The tremissis was a gold coin worth one-third of a solidus, serving as an important intermediate denomination in the Byzantine monetary system for medium-value transactions.",
-                  "es": "El tremissis era una moneda de oro que valía un tercio de un solidus, sirviendo como una importante denominación intermedia en el sistema monetario bizantino para transacciones de valor medio.",
-                  "de": "Der Tremissis war eine Goldmünze im Wert eines Drittels eines Solidus und diente als wichtige Zwischendenomination im byzantinischen Münzsystem für Transaktionen mittleren Wertes.",
-                  "nl": "De tremissis was een gouden munt ter waarde van een derde van een solidus, die diende als een belangrijke tussendenominatie in het Byzantijnse muntsysteem voor transacties van middelmatige waarde."
-        }
-      },
-      {
-        question: {
-                  "en": "Which Carolingian ruler standardized the silver penny system across much of Europe?",
-                  "es": "¿Qué gobernante carolingio estandarizó el sistema de peniques de plata en gran parte de Europa?",
-                  "de": "Welcher karolingische Herrscher standardisierte das Silberpfennig-System in weiten Teilen Europas?",
-                  "nl": "Welke Karolingische heerser standaardiseerde het zilveren penny-systeem over een groot deel van Europa?"
-        },
-        options: [
-        {
-                  "en": "Louis the Pious",
-                  "es": "Luis el Piadoso",
-                  "de": "Ludwig der Fromme",
-                  "nl": "Lodewijk de Vrome"
-        },
-        {
-                  "en": "Pepin the Short",
-                  "es": "Pipino el Breve",
-                  "de": "Pippin der Kurze",
-                  "nl": "Pepijn de Korte"
-        },
-        {
-                  "en": "Charlemagne",
-                  "es": "Carlomagno",
-                  "de": "Karl der Große",
-                  "nl": "Karel de Grote"
-        },
-        {
-                  "en": "Charles the Bald",
-                  "es": "Carlos el Calvo",
-                  "de": "Karl der Kahle",
-                  "nl": "Karel de Kale"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Charlemagne (768-814 CE) reformed and standardized the monetary system across his empire, establishing the silver penny (denarius) as the standard coin, which influenced European coinage for centuries.",
-                  "es": "Carlomagno (768-814 d.C.) reformó y estandarizó el sistema monetario a través de su imperio, estableciendo el penique de plata (denario) como la moneda estándar, lo que influyó en la acuñación europea por siglos.",
-                  "de": "Karl der Große (768-814 n. Chr.) reformierte und standardisierte das Münzsystem in seinem Reich und etablierte den Silberpfennig (Denarius) als Standardmünze, was die europäische Münzprägung jahrhundertelang beeinflusste.",
-                  "nl": "Karel de Grote (768-814 n.Chr.) hervormde en standaardiseerde het muntsysteem in zijn rijk, waarbij hij de zilveren penny (denarius) vestigde als standaardmunt, wat de Europese muntslag eeuwenlang beïnvloedde."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the significance of the 'bracteate' coins in medieval Northern Europe?",
-                  "es": "¿Cuál era la significancia de las monedas 'bracteadas' en el norte de Europa medieval?",
-                  "de": "Was war die Bedeutung der 'Brakteaten'-Münzen im mittelalterlichen Nordeuropa?",
-                  "nl": "Wat was de betekenis van de 'bracteaat' munten in middeleeuws Noord-Europa?"
-        },
-        options: [
-        {
-                  "en": "They were used only for religious ceremonies",
-                  "es": "Se usaban solo para ceremonias religiosas",
-                  "de": "Sie wurden nur für religiöse Zeremonien verwendet",
-                  "nl": "Ze werden alleen gebruikt voor religieuze ceremonies"
-        },
-        {
-                  "en": "They were made of gold",
-                  "es": "Estaban hechas de oro",
-                  "de": "Sie waren aus Gold",
-                  "nl": "Ze waren gemaakt van goud"
-        },
-        {
-                  "en": "They had square holes",
-                  "es": "Tenían agujeros cuadrados",
-                  "de": "Sie hatten quadratische Löcher",
-                  "nl": "Ze hadden vierkante gaten"
-        },
-        {
-                  "en": "They were extremely thin and struck on one side only",
-                  "es": "Eran extremadamente delgadas y acuñadas solo en un lado",
-                  "de": "Sie waren extrem dünn und nur einseitig geprägt",
-                  "nl": "Ze waren extreem dun en slechts aan één kant geslagen"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Bracteates were extremely thin silver coins struck on one side only, popular in Northern Europe from the 12th-14th centuries. Their thinness made them economical to produce while still containing precious metal.",
-                  "es": "Las bracteadas eran monedas de plata extremadamente delgadas acuñadas solo en un lado, populares en el norte de Europa desde los siglos XII-XIV. Su delgadez las hacía económicas de producir mientras contenían metal precioso.",
-                  "de": "Brakteaten waren extrem dünne Silbermünzen, die nur einseitig geprägt wurden und vom 12.-14. Jahrhundert in Nordeuropa beliebt waren. Ihre Dünnheit machte sie wirtschaftlich zu produzieren, während sie noch Edelmetall enthielten.",
-                  "nl": "Bracteaten waren extreem dunne zilveren munten die slechts aan één kant werden geslagen, populair in Noord-Europa van de 12e-14e eeuw. Hun dunheid maakte ze economisch om te produceren terwijl ze nog steeds edelmetaal bevatten."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the 'ducat' originally based on?",
-                  "es": "¿En qué se basaba originalmente el 'ducado'?",
-                  "de": "Worauf basierte der 'Dukat' ursprünglich?",
-                  "nl": "Waarop was de 'ducaat' oorspronkelijk gebaseerd?"
-        },
-        options: [
-        {
-                  "en": "A completely new weight system",
-                  "es": "Un sistema de peso completamente nuevo",
-                  "de": "Ein völlig neues Gewichtssystem",
-                  "nl": "Een volledig nieuw gewichtssysteem"
-        },
-        {
-                  "en": "The Islamic dinar standard",
-                  "es": "El estándar del dinar islámico",
-                  "de": "Der islamische Dinar-Standard",
-                  "nl": "De islamitische dinar-standaard"
-        },
-        {
-                  "en": "The Byzantine solidus weight standard",
-                  "es": "El estándar de peso del solidus bizantino",
-                  "de": "Der byzantinische Solidus-Gewichtsstandard",
-                  "nl": "De Byzantijnse solidus-gewichtsstandaard"
-        },
-        {
-                  "en": "The Roman aureus weight standard",
-                  "es": "El estándar de peso del aureus romano",
-                  "de": "Der römische Aureus-Gewichtsstandard",
-                  "nl": "De Romeinse aureus-gewichtsstandaard"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The ducat was originally based on the Byzantine solidus weight standard, maintaining the same gold content and weight, which helped ensure its acceptance across different regions and trading networks.",
-                  "es": "El ducado se basaba originalmente en el estándar de peso del solidus bizantino, manteniendo el mismo contenido de oro y peso, lo que ayudó a asegurar su aceptación a través de diferentes regiones y redes comerciales.",
-                  "de": "Der Dukat basierte ursprünglich auf dem byzantinischen Solidus-Gewichtsstandard und behielt den gleichen Goldgehalt und das gleiche Gewicht bei, was half, seine Akzeptanz in verschiedenen Regionen und Handelsnetzwerken zu gewährleisten.",
-                  "nl": "De ducaat was oorspronkelijk gebaseerd op de Byzantijnse solidus-gewichtsstandaard, waarbij hetzelfde goudgehalte en gewicht werd gehandhaafd, wat hielp om acceptatie over verschillende regio's en handelsnetwerken te verzekeren."
-        }
-      },
-      {
-        question: {
-                  "en": "Which coin was known as the 'Joachimsthaler' and gave its name to the modern dollar?",
-                  "es": "¿Qué moneda era conocida como 'Joachimsthaler' y dio su nombre al dólar moderno?",
-                  "de": "Welche Münze war als 'Joachimsthaler' bekannt und gab dem modernen Dollar seinen Namen?",
-                  "nl": "Welke munt stond bekend als de 'Joachimsthaler' en gaf zijn naam aan de moderne dollar?"
-        },
-        options: [
-        {
-                  "en": "A copper token from Switzerland",
-                  "es": "Una ficha de cobre de Suiza",
-                  "de": "Ein Kupfertoken aus der Schweiz",
-                  "nl": "Een koperen penning uit Zwitserland"
-        },
-        {
-                  "en": "A gold coin from Austria",
-                  "es": "Una moneda de oro de Austria",
-                  "de": "Eine Goldmünze aus Österreich",
-                  "nl": "Een gouden munt uit Oostenrijk"
-        },
-        {
-                  "en": "A German silver coin from Bohemia",
-                  "es": "Una moneda de plata alemana de Bohemia",
-                  "de": "Eine deutsche Silbermünze aus Böhmen",
-                  "nl": "Een Duitse zilveren munt uit Bohemen"
-        },
-        {
-                  "en": "A bronze medal from France",
-                  "es": "Una medalla de bronce de Francia",
-                  "de": "Eine Bronzemedaille aus Frankreich",
-                  "nl": "Een bronzen medaille uit Frankrijk"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The Joachimsthaler was a large silver coin minted in Joachimsthal, Bohemia (now Czech Republic) starting in 1518. The name was shortened to 'thaler' and eventually became 'dollar' in English.",
-                  "es": "El Joachimsthaler era una gran moneda de plata acuñada en Joachimsthal, Bohemia (ahora República Checa) comenzando en 1518. El nombre se acortó a 'thaler' y eventualmente se convirtió en 'dollar' en inglés.",
-                  "de": "Der Joachimsthaler war eine große Silbermünze, die ab 1518 in Joachimsthal, Böhmen (heute Tschechische Republik) geprägt wurde. Der Name wurde zu 'Thaler' verkürzt und wurde schließlich im Englischen zu 'Dollar'.",
-                  "nl": "De Joachimsthaler was een grote zilveren munt geslagen in Joachimsthal, Bohemen (nu Tsjechië) vanaf 1518. De naam werd verkort tot 'thaler' en werd uiteindelijk 'dollar' in het Engels."
-        }
-      },
-      {
-        question: {
-                  "en": "What innovation did the medieval mints introduce to prevent counterfeiting?",
-                  "es": "¿Qué innovación introdujeron las casas de moneda medievales para prevenir la falsificación?",
-                  "de": "Welche Innovation führten mittelalterliche Münzstätten ein, um Fälschungen zu verhindern?",
-                  "nl": "Welke innovatie introduceerden de middeleeuwse munthuizen om vervalsing te voorkomen?"
-        },
-        options: [
-        {
-                  "en": "Milled edges and intricate designs",
-                  "es": "Bordes moleteados y diseños intrincados",
-                  "de": "Geränderte Kanten und komplizierte Designs",
-                  "nl": "Gefreesde randen en ingewikkelde ontwerpen"
-        },
-        {
-                  "en": "Color-changing inks",
-                  "es": "Tintas que cambian de color",
-                  "de": "Farbwechselnde Tinten",
-                  "nl": "Kleur-veranderende inkten"
-        },
-        {
-                  "en": "Magnetic properties",
-                  "es": "Propiedades magnéticas",
-                  "de": "Magnetische Eigenschaften",
-                  "nl": "Magnetische eigenschappen"
-        },
-        {
-                  "en": "Serial numbers",
-                  "es": "Números de serie",
-                  "de": "Seriennummern",
-                  "nl": "Serienummers"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Medieval mints began introducing milled edges and increasingly intricate designs that were difficult to reproduce, helping to prevent counterfeiting and clipping of coins.",
-                  "es": "Las casas de moneda medievales comenzaron a introducir bordes moleteados y diseños cada vez más intrincados que eran difíciles de reproducir, ayudando a prevenir la falsificación y el recorte de monedas.",
-                  "de": "Mittelalterliche Münzstätten begannen, geränderte Kanten und zunehmend komplizierte Designs einzuführen, die schwer zu reproduzieren waren und halfen, Fälschungen und das Beschneiden von Münzen zu verhindern.",
-                  "nl": "Middeleeuwse munthuizen begonnen gefreesde randen en steeds ingewikkelder ontwerpen te introduceren die moeilijk te reproduceren waren, wat hielp om vervalsing en het knippen van munten te voorkomen."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the 'livre tournois' in medieval France?",
-                  "es": "¿Qué era la 'livre tournois' en la Francia medieval?",
-                  "de": "Was war die 'Livre tournois' im mittelalterlichen Frankreich?",
-                  "nl": "Wat was de 'livre tournois' in middeleeuws Frankrijk?"
-        },
-        options: [
-        {
-                  "en": "A unit of account based on silver",
-                  "es": "Una unidad de cuenta basada en plata",
-                  "de": "Eine Rechnungseinheit basierend auf Silber",
-                  "nl": "Een rekeneenheid gebaseerd op zilver"
-        },
-        {
-                  "en": "A gold coin",
-                  "es": "Una moneda de oro",
-                  "de": "Eine Goldmünze",
-                  "nl": "Een gouden munt"
-        },
-        {
-                  "en": "A copper token",
-                  "es": "Una ficha de cobre",
-                  "de": "Ein Kupfertoken",
-                  "nl": "Een koperen penning"
-        },
-        {
-                  "en": "A trade document",
-                  "es": "Un documento comercial",
-                  "de": "Ein Handelsdokument",
-                  "nl": "Een handelsdocument"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The livre tournois was a unit of account in medieval France based on silver content, used for pricing and accounting even though no actual livre coin was minted during most periods.",
-                  "es": "La livre tournois era una unidad de cuenta en la Francia medieval basada en contenido de plata, usada para precios y contabilidad aunque no se acuñaba una moneda livre real durante la mayoría de períodos.",
-                  "de": "Die Livre tournois war eine Rechnungseinheit im mittelalterlichen Frankreich, die auf Silbergehalt basierte und für Preisgestaltung und Buchhaltung verwendet wurde, obwohl in den meisten Perioden keine tatsächliche Livre-Münze geprägt wurde.",
-                  "nl": "De livre tournois was een rekeneenheid in middeleeuws Frankrijk gebaseerd op zilvergehalte, gebruikt voor prijsstelling en boekhouding hoewel er in de meeste perioden geen werkelijke livre-munt werd geslagen."
-        }
-      },
-      {
-        question: {
-                  "en": "Which metal was primarily used for the English 'groat' introduced in the 14th century?",
-                  "es": "¿Qué metal se usaba principalmente para el 'groat' inglés introducido en el siglo XIV?",
-                  "de": "Welches Metall wurde hauptsächlich für den englischen 'Groat' verwendet, der im 14. Jahrhundert eingeführt wurde?",
-                  "nl": "Welk metaal werd voornamelijk gebruikt voor de Engelse 'groat' geïntroduceerd in de 14e eeuw?"
-        },
-        options: [
-        {
-                  "en": "Silver",
-                  "es": "Plata",
-                  "de": "Silber",
-                  "nl": "Zilver"
-        },
-        {
-                  "en": "Copper",
-                  "es": "Cobre",
-                  "de": "Kupfer",
-                  "nl": "Koper"
-        },
-        {
-                  "en": "Bronze",
-                  "es": "Bronce",
-                  "de": "Bronze",
-                  "nl": "Brons"
-        },
-        {
-                  "en": "Gold",
-                  "es": "Oro",
-                  "de": "Gold",
-                  "nl": "Goud"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The English groat was a silver coin worth four pence, introduced by Edward I around 1279 and becoming an important denomination in English currency for centuries.",
-                  "es": "El groat inglés era una moneda de plata que valía cuatro peniques, introducida por Eduardo I alrededor de 1279 y convirtiéndose en una denominación importante en la moneda inglesa por siglos.",
-                  "de": "Der englische Groat war eine Silbermünze im Wert von vier Pence, die um 1279 von Edward I. eingeführt wurde und jahrhundertelang eine wichtige Denomination in der englischen Währung blieb.",
-                  "nl": "De Engelse groat was een zilveren munt ter waarde van vier pence, geïntroduceerd door Edward I rond 1279 en werd een belangrijke denominatie in de Engelse valuta voor eeuwen."
-        }
-      },
-      {
-        question: {
-                  "en": "What was unique about the monetary system of the Hanseatic League?",
-                  "es": "¿Qué era único del sistema monetario de la Liga Hanseática?",
-                  "de": "Was war einzigartig am Münzsystem der Hanse?",
-                  "nl": "Wat was uniek aan het muntsysteem van de Hanze?"
-        },
-        options: [
-        {
-                  "en": "It had no physical coins",
-                  "es": "No tenía monedas físicas",
-                  "de": "Es hatte keine physischen Münzen",
-                  "nl": "Het had geen fysieke munten"
-        },
-        {
-                  "en": "It was based on copper coins only",
-                  "es": "Se basaba solo en monedas de cobre",
-                  "de": "Es basierte nur auf Kupfermünzen",
-                  "nl": "Het was gebaseerd op alleen koperen munten"
-        },
-        {
-                  "en": "It used only gold coins",
-                  "es": "Usaba solo monedas de oro",
-                  "de": "Es verwendete nur Goldmünzen",
-                  "nl": "Het gebruikte alleen gouden munten"
-        },
-        {
-                  "en": "It standardized weights and silver content across multiple cities",
-                  "es": "Estandarizó pesos y contenido de plata a través de múltiples ciudades",
-                  "de": "Es standardisierte Gewichte und Silbergehalt über mehrere Städte hinweg",
-                  "nl": "Het standaardiseerde gewichten en zilvergehalte over meerdere steden"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The Hanseatic League created a standardized monetary system across multiple northern European cities, with agreed weights and silver content that facilitated trade across the Baltic and North Sea regions.",
-                  "es": "La Liga Hanseática creó un sistema monetario estandarizado a través de múltiples ciudades del norte de Europa, con pesos acordados y contenido de plata que facilitó el comercio a través de las regiones del Báltico y Mar del Norte.",
-                  "de": "Die Hanse schuf ein standardisiertes Münzsystem über mehrere nordeuropäische Städte hinweg, mit vereinbarten Gewichten und Silbergehalt, das den Handel in der Ostsee- und Nordseeregion erleichterte.",
-                  "nl": "De Hanze creëerde een gestandaardiseerd muntsysteem over meerdere Noord-Europese steden, met overeengekomen gewichten en zilvergehalte dat handel over de Baltische en Noordzee-regio's faciliteerde."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the significance of the 'mark' as a medieval unit of currency?",
-                  "es": "¿Cuál era la significancia del 'marco' como unidad de moneda medieval?",
-                  "de": "Was war die Bedeutung der 'Mark' als mittelalterliche Währungseinheit?",
-                  "nl": "Wat was de betekenis van de 'mark' als middeleeuwse valuta-eenheid?"
-        },
-        options: [
-        {
-                  "en": "It was a physical gold coin",
-                  "es": "Era una moneda física de oro",
-                  "de": "Es war eine physische Goldmünze",
-                  "nl": "Het was een fysieke gouden munt"
-        },
-        {
-                  "en": "It was only used for counting purposes",
-                  "es": "Solo se usaba para propósitos de conteo",
-                  "de": "Es wurde nur für Zählzwecke verwendet",
-                  "nl": "Het werd alleen gebruikt voor teldoeleinden"
-        },
-        {
-                  "en": "It was a type of paper money",
-                  "es": "Era un tipo de papel moneda",
-                  "de": "Es war eine Art Papiergeld",
-                  "nl": "Het was een soort papiergeld"
-        },
-        {
-                  "en": "It was a weight-based unit representing a specific amount of silver",
-                  "es": "Era una unidad basada en peso que representaba una cantidad específica de plata",
-                  "de": "Es war eine gewichtsbasierte Einheit, die eine bestimmte Menge Silber repräsentierte",
-                  "nl": "Het was een gewicht-gebaseerde eenheid die een specifieke hoeveelheid zilver vertegenwoordigde"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The mark was a weight-based unit representing approximately 8 ounces (230-250 grams) of silver, used as a standard for monetary calculations across medieval Europe even when no physical mark coins existed.",
-                  "es": "El marco era una unidad basada en peso que representaba aproximadamente 8 onzas (230-250 gramos) de plata, usada como estándar para cálculos monetarios a través de la Europa medieval incluso cuando no existían monedas marco físicas.",
-                  "de": "Die Mark war eine gewichtsbasierte Einheit, die etwa 8 Unzen (230-250 Gramm) Silber repräsentierte und als Standard für monetäre Berechnungen im mittelalterlichen Europa verwendet wurde, auch wenn keine physischen Mark-Münzen existierten.",
-                  "nl": "De mark was een gewicht-gebaseerde eenheid die ongeveer 8 ounces (230-250 gram) zilver vertegenwoordigde, gebruikt als standaard voor monetaire berekeningen over middeleeuws Europa zelfs wanneer er geen fysieke mark-munten bestonden."
-        }
-      },
-      {
-        question: {
-                  "en": "Which factor most contributed to the decline of barter systems in favor of coined money?",
-                  "es": "¿Qué factor contribuyó más al declive de los sistemas de trueque en favor del dinero acuñado?",
-                  "de": "Welcher Faktor trug am meisten zum Niedergang der Tauschsysteme zugunsten des geprägten Geldes bei?",
-                  "nl": "Welke factor droeg het meest bij aan de achteruitgang van ruil systemen ten gunste van geslagen geld?"
-        },
-        options: [
-        {
-                  "en": "The growth of long-distance trade",
-                  "es": "El crecimiento del comercio de larga distancia",
-                  "de": "Das Wachstum des Fernhandels",
-                  "nl": "De groei van handel over lange afstanden"
-        },
-        {
-                  "en": "Religious influences",
-                  "es": "Influencias religiosas",
-                  "de": "Religiöse Einflüsse",
-                  "nl": "Religieuze invloeden"
-        },
-        {
-                  "en": "Technological limitations",
-                  "es": "Limitaciones tecnológicas",
-                  "de": "Technologische Beschränkungen",
-                  "nl": "Technologische beperkingen"
-        },
-        {
-                  "en": "Government mandates",
-                  "es": "Mandatos gubernamentales",
-                  "de": "Regierungsmandate",
-                  "nl": "Overheidsverplichtingen"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The growth of long-distance trade made barter increasingly impractical due to the difficulty of transporting goods and the need for a universally accepted medium of exchange that coins provided.",
-                  "es": "El crecimiento del comercio de larga distancia hizo el trueque cada vez más impracticable debido a la dificultad de transportar bienes y la necesidad de un medio de intercambio universalmente aceptado que proporcionaban las monedas.",
-                  "de": "Das Wachstum des Fernhandels machte Tauschhandel zunehmend unpraktisch aufgrund der Schwierigkeit, Waren zu transportieren, und der Notwendigkeit eines universell akzeptierten Tauschmittels, das Münzen boten.",
-                  "nl": "De groei van handel over lange afstanden maakte ruil steeds onpraktischer vanwege de moeilijkheid van het transporteren van goederen en de behoefte aan een universeel geaccepteerd ruilmiddel dat munten boden."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the 'obol' in ancient Greek currency?",
-                  "es": "¿Qué era el 'óbolo' en la moneda griega antigua?",
-                  "de": "Was war der 'Obolos' in der antiken griechischen Währung?",
-                  "nl": "Wat was de 'obol' in de oude Griekse valuta?"
-        },
-        options: [
-        {
-                  "en": "A unit of measurement",
-                  "es": "Una unidad de medida",
-                  "de": "Eine Maßeinheit",
-                  "nl": "Een meeteenheid"
-        },
-        {
-                  "en": "A bronze token",
-                  "es": "Una ficha de bronce",
-                  "de": "Ein Bronzetoken",
-                  "nl": "Een bronzen penning"
-        },
-        {
-                  "en": "A small silver coin worth one-sixth of a drachma",
-                  "es": "Una pequeña moneda de plata que valía un sexto de un dracma",
-                  "de": "Eine kleine Silbermünze im Wert eines Sechstels einer Drachme",
-                  "nl": "Een kleine zilveren munt ter waarde van een zesde van een drachme"
-        },
-        {
-                  "en": "A large gold coin",
-                  "es": "Una gran moneda de oro",
-                  "de": "Eine große Goldmünze",
-                  "nl": "Een grote gouden munt"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The obol was a small silver coin in ancient Greece worth one-sixth of a drachma, used for small daily transactions and famously required as payment for Charon to ferry souls across the river Styx.",
-                  "es": "El óbolo era una pequeña moneda de plata en la Grecia antigua que valía un sexto de un dracma, usada para pequeñas transacciones diarias y famosamente requerida como pago para que Caronte transportara las almas a través del río Estigia.",
-                  "de": "Der Obolos war eine kleine Silbermünze im antiken Griechenland im Wert eines Sechstels einer Drachme, die für kleine tägliche Transaktionen verwendet wurde und berühmt als Zahlung für Charon benötigt wurde, um Seelen über den Fluss Styx zu befördern.",
-                  "nl": "De obol was een kleine zilveren munt in het oude Griekenland ter waarde van een zesde van een drachme, gebruikt voor kleine dagelijkse transacties en beroemd vereist als betaling voor Charon om zielen over de rivier Styx te varen."
-        }
-      },
-      {
-        question: {
-                  "en": "What technological advancement most improved medieval coin production?",
-                  "es": "¿Qué avance tecnológico mejoró más la producción de monedas medievales?",
-                  "de": "Welcher technologische Fortschritt verbesserte die mittelalterliche Münzproduktion am meisten?",
-                  "nl": "Welke technologische vooruitgang verbeterde de middeleeuwse muntproductie het meest?"
-        },
-        options: [
-        {
-                  "en": "The screw press",
-                  "es": "La prensa de tornillo",
-                  "de": "Die Schraubenpresse",
-                  "nl": "De schroefpers"
-        },
-        {
-                  "en": "Improved metallurgy",
-                  "es": "Metalurgia mejorada",
-                  "de": "Verbesserte Metallurgie",
-                  "nl": "Verbeterde metallurgie"
-        },
-        {
-                  "en": "Better dies and punches",
-                  "es": "Mejores troqueles y punzones",
-                  "de": "Bessere Matrizen und Stempel",
-                  "nl": "Betere stempels en ponsen"
-        },
-        {
-                  "en": "Water-powered hammers",
-                  "es": "Martillos hidráulicos",
-                  "de": "Wasserbetriebene Hämmer",
-                  "nl": "Waterkracht hamers"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The screw press, introduced in the 16th century, revolutionized coin production by allowing for more consistent pressure, better impressions, and perfectly round coins, replacing the hand-hammering method.",
-                  "es": "La prensa de tornillo, introducida en el siglo XVI, revolucionó la producción de monedas al permitir presión más consistente, mejores impresiones y monedas perfectamente redondas, reemplazando el método de martilleo manual.",
-                  "de": "Die Schraubenpresse, die im 16. Jahrhundert eingeführt wurde, revolutionierte die Münzproduktion durch gleichmäßigeren Druck, bessere Prägungen und perfekt runde Münzen und ersetzte die Handhammerung.",
-                  "nl": "De schroefpers, geïntroduceerd in de 16e eeuw, revolutioneerde muntproductie door meer consistente druk, betere afdrukken en perfect ronde munten toe te staan, ter vervanging van de handmatige hamermethode."
-        }
-      },
-      {
-        question: {
-                  "en": "Which material was commonly added to silver coins to increase durability?",
-                  "es": "¿Qué material se añadía comúnmente a las monedas de plata para aumentar la durabilidad?",
-                  "de": "Welches Material wurde Silbermünzen häufig hinzugefügt, um die Haltbarkeit zu erhöhen?",
-                  "nl": "Welk materiaal werd gewoonlijk toegevoegd aan zilveren munten om de duurzaamheid te verhogen?"
-        },
-        options: [
-        {
-                  "en": "Copper",
-                  "es": "Cobre",
-                  "de": "Kupfer",
-                  "nl": "Koper"
-        },
-        {
-                  "en": "Iron",
-                  "es": "Hierro",
-                  "de": "Eisen",
-                  "nl": "IJzer"
-        },
-        {
-                  "en": "Lead",
-                  "es": "Plomo",
-                  "de": "Blei",
-                  "nl": "Lood"
-        },
-        {
-                  "en": "Tin",
-                  "es": "Estaño",
-                  "de": "Zinn",
-                  "nl": "Tin"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Copper was commonly added to silver coins to create an alloy that was more durable than pure silver while maintaining most of the precious metal's value and appearance.",
-                  "es": "El cobre se añadía comúnmente a las monedas de plata para crear una aleación que era más durable que la plata pura mientras mantenía la mayor parte del valor y apariencia del metal precioso.",
-                  "de": "Kupfer wurde Silbermünzen häufig hinzugefügt, um eine Legierung zu schaffen, die haltbarer als reines Silber war, während sie den größten Teil des Wertes und Aussehens des Edelmetalls beibehielt.",
-                  "nl": "Koper werd gewoonlijk toegevoegd aan zilveren munten om een legering te creëren die duurzamer was dan puur zilver terwijl het meeste van de waarde en het uiterlijk van het edelmetaal behouden bleef."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the primary purpose of 'siege coins' in medieval warfare?",
-                  "es": "¿Cuál era el propósito principal de las 'monedas de asedio' en la guerra medieval?",
-                  "de": "Was war der Hauptzweck von 'Belagerungsmünzen' in der mittelalterlichen Kriegsführung?",
-                  "nl": "Wat was het hoofddoel van 'belegmunten' in middeleeuwse oorlogvoering?"
-        },
-        options: [
-        {
-                  "en": "To maintain commerce during extended sieges",
-                  "es": "Para mantener el comercio durante asedios prolongados",
-                  "de": "Um den Handel während langer Belagerungen aufrechtzuerhalten",
-                  "nl": "Om handel te onderhouden tijdens langdurige belegeringen"
-        },
-        {
-                  "en": "To pay enemy troops to switch sides",
-                  "es": "Para pagar a las tropas enemigas para que cambiaran de bando",
-                  "de": "Um feindliche Truppen für einen Seitenwechsel zu bezahlen",
-                  "nl": "Om vijandelijke troepen te betalen om van kant te wisselen"
-        },
-        {
-                  "en": "To communicate with allies",
-                  "es": "Para comunicarse con aliados",
-                  "de": "Um mit Verbündeten zu kommunizieren",
-                  "nl": "Om te communiceren met bondgenoten"
-        },
-        {
-                  "en": "To commemorate victories",
-                  "es": "Para conmemorar victorias",
-                  "de": "Um Siege zu gedenken",
-                  "nl": "Om overwinningen te herdenken"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Siege coins were emergency currency issued during prolonged sieges when regular coins became scarce, allowing besieged cities to maintain internal commerce and pay soldiers using makeshift materials like leather or base metals.",
-                  "es": "Las monedas de asedio eran moneda de emergencia emitida durante asedios prolongados cuando las monedas regulares escaseaban, permitiendo a las ciudades asediadas mantener el comercio interno y pagar soldados usando materiales improvisados como cuero o metales base.",
-                  "de": "Belagerungsmünzen waren Notgeld, das während langer Belagerungen ausgegeben wurde, wenn reguläre Münzen knapp wurden, was belagerten Städten ermöglichte, den internen Handel aufrechtzuerhalten und Soldaten mit behelfsmäßigen Materialien wie Leder oder unedlen Metallen zu bezahlen.",
-                  "nl": "Belegmunten waren noodvaluta uitgegeven tijdens langdurige belegeringen wanneer reguliere munten schaars werden, waardoor belegerde steden interne handel konden onderhouden en soldaten konden betalen met noodmaterialen zoals leer of onedele metalen."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the 'stater' in ancient Greek coinage?",
-                  "es": "¿Qué era el 'estáter' en la acuñación griega antigua?",
-                  "de": "Was war der 'Stater' in der antiken griechischen Münzprägung?",
-                  "nl": "Wat was de 'stater' in de oude Griekse muntslag?"
-        },
-        options: [
-        {
-                  "en": "A copper coin for everyday use",
-                  "es": "Una moneda de cobre para uso diario",
-                  "de": "Eine Kupfermünze für den täglichen Gebrauch",
-                  "nl": "Een koperen munt voor dagelijks gebruik"
-        },
-        {
-                  "en": "A token for temple offerings",
-                  "es": "Una ficha para ofrendas del templo",
-                  "de": "Ein Token für Tempelopfer",
-                  "nl": "Een penning voor tempeloffers"
-        },
-        {
-                  "en": "A standard gold or silver coin",
-                  "es": "Una moneda estándar de oro o plata",
-                  "de": "Eine Standard-Gold- oder Silbermünze",
-                  "nl": "Een standaard gouden of zilveren munt"
-        },
-        {
-                  "en": "A commemorative medal",
-                  "es": "Una medalla conmemorativa",
-                  "de": "Eine Gedenkmedaille",
-                  "nl": "Een herdenkingsmedaille"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The stater was a standard large denomination coin in ancient Greece, typically made of gold or silver, and was widely used in trade throughout the Mediterranean world.",
-                  "es": "El estáter era una moneda estándar de gran denominación en la Grecia antigua, típicamente hecha de oro o plata, y se usaba ampliamente en el comercio en todo el mundo mediterráneo.",
-                  "de": "Der Stater war eine große Standard-Denominationsmünze im antiken Griechenland, typischerweise aus Gold oder Silber, und wurde im Handel in der gesamten Mittelmeerwelt weit verbreitet verwendet.",
-                  "nl": "De stater was een standaard grote denominatie munt in het oude Griekenland, typisch gemaakt van goud of zilver, en werd veel gebruikt in handel door de hele mediterrane wereld."
-        }
-      },
-      {
-        question: {
-                  "en": "What practice did many medieval rulers use to profit from their coinage?",
-                  "es": "¿Qué práctica usaban muchos gobernantes medievales para beneficiarse de su acuñación?",
-                  "de": "Welche Praxis nutzten viele mittelalterliche Herrscher, um von ihrer Münzprägung zu profitieren?",
-                  "nl": "Welke praktijk gebruikten veel middeleeuwse heersers om te profiteren van hun muntslag?"
-        },
-        options: [
-        {
-                  "en": "Restricting coin circulation",
-                  "es": "Restringir la circulación de monedas",
-                  "de": "Münzumlauf beschränken",
-                  "nl": "Muntcirculatie beperken"
-        },
-        {
-                  "en": "Debasement - reducing precious metal content",
-                  "es": "Devaluación - reducir el contenido de metal precioso",
-                  "de": "Entwertung - Reduzierung des Edelmetallgehalts",
-                  "nl": "Verbastering - edelmetaalgehalte verlagen"
-        },
-        {
-                  "en": "Monopolizing foreign trade",
-                  "es": "Monopolizar el comercio exterior",
-                  "de": "Außenhandel monopolisieren",
-                  "nl": "Buitenlandse handel monopoliseren"
-        },
-        {
-                  "en": "Charging high taxes on coin production",
-                  "es": "Cobrar altos impuestos sobre la producción de monedas",
-                  "de": "Hohe Steuern auf die Münzproduktion erheben",
-                  "nl": "Hoge belastingen heffen op muntproductie"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Debasement was a common practice where rulers gradually reduced the precious metal content of coins while maintaining their face value, allowing them to mint more coins from the same amount of metal and profit from the difference.",
-                  "es": "La devaluación era una práctica común donde los gobernantes gradualmente reducían el contenido de metal precioso de las monedas mientras mantenían su valor nominal, permitiéndoles acuñar más monedas con la misma cantidad de metal y beneficiarse de la diferencia.",
-                  "de": "Entwertung war eine gängige Praxis, bei der Herrscher allmählich den Edelmetallgehalt von Münzen reduzierten, während sie ihren Nennwert beibehielten, wodurch sie mehr Münzen aus der gleichen Metallmenge prägen und von der Differenz profitieren konnten.",
-                  "nl": "Verbastering was een gebruikelijke praktijk waarbij heersers geleidelijk het edelmetaalgehalte van munten verlaagden terwijl ze hun nominale waarde behielden, waardoor ze meer munten konden slaan uit dezelfde hoeveelheid metaal en profiteren van het verschil."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the first coin ever minted?",
-                  "es": "What was the first coin ever minted?",
-                  "de": "What was the first coin ever minted?",
-                  "nl": "What was the first coin ever minted?"
-        },
-        options: [
-        {
-                  "en": "Lydian Lion coins",
-                  "es": "Lydian Lion coins",
-                  "de": "Lydian Lion coins",
-                  "nl": "Lydian Lion coins"
-        },
-        {
-                  "en": "Greek Drachma",
-                  "es": "Greek Drachma",
-                  "de": "Greek Drachma",
-                  "nl": "Greek Drachma"
-        },
-        {
-                  "en": "Chinese cash",
-                  "es": "Chinese cash",
-                  "de": "Chinese cash",
-                  "nl": "Chinese cash"
-        },
-        {
-                  "en": "Roman Denarius",
-                  "es": "Roman Denarius",
-                  "de": "Roman Denarius",
-                  "nl": "Roman Denarius"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Lydian Lion coins from ancient Lydia (modern Turkey) circa 600 BCE were the first true coins.",
-                  "es": "The Lydian Lion coins from ancient Lydia (modern Turkey) circa 600 BCE were the first true coins.",
-                  "de": "The Lydian Lion coins from ancient Lydia (modern Turkey) circa 600 BCE were the first true coins.",
-                  "nl": "The Lydian Lion coins from ancient Lydia (modern Turkey) circa 600 BCE were the first true coins."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a Roman Denarius?",
-                  "es": "What is a Roman Denarius?",
-                  "de": "What is a Roman Denarius?",
-                  "nl": "What is a Roman Denarius?"
-        },
-        options: [
-        {
-                  "en": "Paper money",
-                  "es": "Paper money",
-                  "de": "Paper money",
-                  "nl": "Paper money"
-        },
-        {
-                  "en": "Gold coin",
-                  "es": "Gold coin",
-                  "de": "Gold coin",
-                  "nl": "Gold coin"
-        },
-        {
-                  "en": "Bronze coin",
-                  "es": "Bronze coin",
-                  "de": "Bronze coin",
-                  "nl": "Bronze coin"
-        },
-        {
-                  "en": "Ancient Roman silver coin",
-                  "es": "Ancient Roman silver coin",
-                  "de": "Ancient Roman silver coin",
-                  "nl": "Ancient Roman silver coin"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The Denarius was the standard silver coin of ancient Rome, used for over 400 years.",
-                  "es": "The Denarius was the standard silver coin of ancient Rome, used for over 400 years.",
-                  "de": "The Denarius was the standard silver coin of ancient Rome, used for over 400 years.",
-                  "nl": "The Denarius was the standard silver coin of ancient Rome, used for over 400 years."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a Greek Drachma?",
-                  "es": "What is a Greek Drachma?",
-                  "de": "What is a Greek Drachma?",
-                  "nl": "What is a Greek Drachma?"
-        },
-        options: [
-        {
-                  "en": "Bronze coin",
-                  "es": "Bronze coin",
-                  "de": "Bronze coin",
-                  "nl": "Bronze coin"
-        },
-        {
-                  "en": "Ancient Greek silver coin",
-                  "es": "Ancient Greek silver coin",
-                  "de": "Ancient Greek silver coin",
-                  "nl": "Ancient Greek silver coin"
-        },
-        {
-                  "en": "Modern Greek currency",
-                  "es": "Modern Greek currency",
-                  "de": "Modern Greek currency",
-                  "nl": "Modern Greek currency"
-        },
-        {
-                  "en": "Gold coin",
-                  "es": "Gold coin",
-                  "de": "Gold coin",
-                  "nl": "Gold coin"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The Drachma was ancient Greece's silver coin, one of the oldest currencies lasting 3000+ years.",
-                  "es": "The Drachma was ancient Greece's silver coin, one of the oldest currencies lasting 3000+ years.",
-                  "de": "The Drachma was ancient Greece's silver coin, one of the oldest currencies lasting 3000+ years.",
-                  "nl": "The Drachma was ancient Greece's silver coin, one of the oldest currencies lasting 3000+ years."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a Solidus?",
-                  "es": "What is a Solidus?",
-                  "de": "What is a Solidus?",
-                  "nl": "What is a Solidus?"
-        },
-        options: [
-        {
-                  "en": "Greek coin",
-                  "es": "Greek coin",
-                  "de": "Greek coin",
-                  "nl": "Greek coin"
-        },
-        {
-                  "en": "Roman silver coin",
-                  "es": "Roman silver coin",
-                  "de": "Roman silver coin",
-                  "nl": "Roman silver coin"
-        },
-        {
-                  "en": "Byzantine gold coin",
-                  "es": "Byzantine gold coin",
-                  "de": "Byzantine gold coin",
-                  "nl": "Byzantine gold coin"
-        },
-        {
-                  "en": "Medieval copper coin",
-                  "es": "Medieval copper coin",
-                  "de": "Medieval copper coin",
-                  "nl": "Medieval copper coin"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The Solidus was a highly stable Byzantine gold coin introduced by Constantine I.",
-                  "es": "The Solidus was a highly stable Byzantine gold coin introduced by Constantine I.",
-                  "de": "The Solidus was a highly stable Byzantine gold coin introduced by Constantine I.",
-                  "nl": "The Solidus was a highly stable Byzantine gold coin introduced by Constantine I."
-        }
-      },
-      {
-        question: {
-                  "en": "What was Chinese cash coin?",
-                  "es": "What was Chinese cash coin?",
-                  "de": "What was Chinese cash coin?",
-                  "nl": "What was Chinese cash coin?"
-        },
-        options: [
-        {
-                  "en": "Gold coin",
-                  "es": "Gold coin",
-                  "de": "Gold coin",
-                  "nl": "Gold coin"
-        },
-        {
-                  "en": "Silver ingot",
-                  "es": "Silver ingot",
-                  "de": "Silver ingot",
-                  "nl": "Silver ingot"
-        },
-        {
-                  "en": "Paper money",
-                  "es": "Paper money",
-                  "de": "Paper money",
-                  "nl": "Paper money"
-        },
-        {
-                  "en": "Bronze coin with square hole",
-                  "es": "Bronze coin with square hole",
-                  "de": "Bronze coin with square hole",
-                  "nl": "Bronze coin with square hole"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Chinese cash coins were bronze coins with distinctive square holes, used for over 2000 years.",
-                  "es": "Chinese cash coins were bronze coins with distinctive square holes, used for over 2000 years.",
-                  "de": "Chinese cash coins were bronze coins with distinctive square holes, used for over 2000 years.",
-                  "nl": "Chinese cash coins were bronze coins with distinctive square holes, used for over 2000 years."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a Spanish Doubloon?",
-                  "es": "What is a Spanish Doubloon?",
-                  "de": "What is a Spanish Doubloon?",
-                  "nl": "What is a Spanish Doubloon?"
-        },
-        options: [
-        {
-                  "en": "Silver coin",
-                  "es": "Silver coin",
-                  "de": "Silver coin",
-                  "nl": "Silver coin"
-        },
-        {
-                  "en": "Copper coin",
-                  "es": "Copper coin",
-                  "de": "Copper coin",
-                  "nl": "Copper coin"
-        },
-        {
-                  "en": "Gold coin from Spanish Empire",
-                  "es": "Gold coin from Spanish Empire",
-                  "de": "Gold coin from Spanish Empire",
-                  "nl": "Gold coin from Spanish Empire"
-        },
-        {
-                  "en": "Trade token",
-                  "es": "Trade token",
-                  "de": "Trade token",
-                  "nl": "Trade token"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Spanish Doubloons were gold coins minted by Spain and its colonies from 16th-19th centuries.",
-                  "es": "Spanish Doubloons were gold coins minted by Spain and its colonies from 16th-19th centuries.",
-                  "de": "Spanish Doubloons were gold coins minted by Spain and its colonies from 16th-19th centuries.",
-                  "nl": "Spanish Doubloons were gold coins minted by Spain and its colonies from 16th-19th centuries."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Pieces of Eight?",
-                  "es": "What is Pieces of Eight?",
-                  "de": "What is Pieces of Eight?",
-                  "nl": "What is Pieces of Eight?"
-        },
-        options: [
-        {
-                  "en": "Eight small coins",
-                  "es": "Eight small coins",
-                  "de": "Eight small coins",
-                  "nl": "Eight small coins"
-        },
-        {
-                  "en": "Spanish silver dollar coin",
-                  "es": "Spanish silver dollar coin",
-                  "de": "Spanish silver dollar coin",
-                  "nl": "Spanish silver dollar coin"
-        },
-        {
-                  "en": "Gold pieces",
-                  "es": "Gold pieces",
-                  "de": "Gold pieces",
-                  "nl": "Gold pieces"
-        },
-        {
-                  "en": "Copper coins",
-                  "es": "Copper coins",
-                  "de": "Copper coins",
-                  "nl": "Copper coins"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Pieces of Eight (Spanish dollar) was a silver coin that became international currency standard.",
-                  "es": "Pieces of Eight (Spanish dollar) was a silver coin that became international currency standard.",
-                  "de": "Pieces of Eight (Spanish dollar) was a silver coin that became international currency standard.",
-                  "nl": "Pieces of Eight (Spanish dollar) was a silver coin that became international currency standard."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the Florin?",
-                  "es": "What was the Florin?",
-                  "de": "What was the Florin?",
-                  "nl": "What was the Florin?"
-        },
-        options: [
-        {
-                  "en": "Dutch coin",
-                  "es": "Dutch coin",
-                  "de": "Dutch coin",
-                  "nl": "Dutch coin"
-        },
-        {
-                  "en": "English coin",
-                  "es": "English coin",
-                  "de": "English coin",
-                  "nl": "English coin"
-        },
-        {
-                  "en": "French coin",
-                  "es": "French coin",
-                  "de": "French coin",
-                  "nl": "French coin"
-        },
-        {
-                  "en": "Medieval gold coin from Florence",
-                  "es": "Medieval gold coin from Florence",
-                  "de": "Medieval gold coin from Florence",
-                  "nl": "Medieval gold coin from Florence"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The Florin originated in Florence, Italy in 1252 and became widely used in medieval Europe.",
-                  "es": "The Florin originated in Florence, Italy in 1252 and became widely used in medieval Europe.",
-                  "de": "The Florin originated in Florence, Italy in 1252 and became widely used in medieval Europe.",
-                  "nl": "The Florin originated in Florence, Italy in 1252 and became widely used in medieval Europe."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a Ducat?",
-                  "es": "What is a Ducat?",
-                  "de": "What is a Ducat?",
-                  "nl": "What is a Ducat?"
-        },
-        options: [
-        {
-                  "en": "Asian coin",
-                  "es": "Asian coin",
-                  "de": "Asian coin",
-                  "nl": "Asian coin"
-        },
-        {
-                  "en": "European gold or silver coin",
-                  "es": "European gold or silver coin",
-                  "de": "European gold or silver coin",
-                  "nl": "European gold or silver coin"
-        },
-        {
-                  "en": "Turkish coin",
-                  "es": "Turkish coin",
-                  "de": "Turkish coin",
-                  "nl": "Turkish coin"
-        },
-        {
-                  "en": "Russian coin",
-                  "es": "Russian coin",
-                  "de": "Russian coin",
-                  "nl": "Russian coin"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Ducats were gold or silver coins used throughout Europe from medieval to modern times.",
-                  "es": "Ducats were gold or silver coins used throughout Europe from medieval to modern times.",
-                  "de": "Ducats were gold or silver coins used throughout Europe from medieval to modern times.",
-                  "nl": "Ducats were gold or silver coins used throughout Europe from medieval to modern times."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the Aureus?",
-                  "es": "What was the Aureus?",
-                  "de": "What was the Aureus?",
-                  "nl": "What was the Aureus?"
-        },
-        options: [
-        {
-                  "en": "Roman gold coin",
-                  "es": "Roman gold coin",
-                  "de": "Roman gold coin",
-                  "nl": "Roman gold coin"
-        },
-        {
-                  "en": "Bronze coin",
-                  "es": "Bronze coin",
-                  "de": "Bronze coin",
-                  "nl": "Bronze coin"
-        },
-        {
-                  "en": "Silver coin",
-                  "es": "Silver coin",
-                  "de": "Silver coin",
-                  "nl": "Silver coin"
-        },
-        {
-                  "en": "Copper coin",
-                  "es": "Copper coin",
-                  "de": "Copper coin",
-                  "nl": "Copper coin"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Aureus was the basic gold monetary unit of ancient Rome, valued at 25 Denarii.",
-                  "es": "The Aureus was the basic gold monetary unit of ancient Rome, valued at 25 Denarii.",
-                  "de": "The Aureus was the basic gold monetary unit of ancient Rome, valued at 25 Denarii.",
-                  "nl": "The Aureus was the basic gold monetary unit of ancient Rome, valued at 25 Denarii."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a Guinea?",
-                  "es": "What is a Guinea?",
-                  "de": "What is a Guinea?",
-                  "nl": "What is a Guinea?"
-        },
-        options: [
-        {
-                  "en": "British gold coin worth 21 shillings",
-                  "es": "British gold coin worth 21 shillings",
-                  "de": "British gold coin worth 21 shillings",
-                  "nl": "British gold coin worth 21 shillings"
-        },
-        {
-                  "en": "African coin",
-                  "es": "African coin",
-                  "de": "African coin",
-                  "nl": "African coin"
-        },
-        {
-                  "en": "Silver coin",
-                  "es": "Silver coin",
-                  "de": "Silver coin",
-                  "nl": "Silver coin"
-        },
-        {
-                  "en": "Colonial coin",
-                  "es": "Colonial coin",
-                  "de": "Colonial coin",
-                  "nl": "Colonial coin"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Guinea was a British gold coin minted 1663-1814, worth one pound and one shilling.",
-                  "es": "The Guinea was a British gold coin minted 1663-1814, worth one pound and one shilling.",
-                  "de": "The Guinea was a British gold coin minted 1663-1814, worth one pound and one shilling.",
-                  "nl": "The Guinea was a British gold coin minted 1663-1814, worth one pound and one shilling."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the Thaler?",
-                  "es": "What was the Thaler?",
-                  "de": "What was the Thaler?",
-                  "nl": "What was the Thaler?"
-        },
-        options: [
-        {
-                  "en": "Copper coin",
-                  "es": "Copper coin",
-                  "de": "Copper coin",
-                  "nl": "Copper coin"
-        },
-        {
-                  "en": "Gold coin",
-                  "es": "Gold coin",
-                  "de": "Gold coin",
-                  "nl": "Gold coin"
-        },
-        {
-                  "en": "Large silver coin used in Europe",
-                  "es": "Large silver coin used in Europe",
-                  "de": "Large silver coin used in Europe",
-                  "nl": "Large silver coin used in Europe"
-        },
-        {
-                  "en": "Trade token",
-                  "es": "Trade token",
-                  "de": "Trade token",
-                  "nl": "Trade token"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The Thaler was a large silver coin that gave its name to 'dollar' used from 15th-19th centuries.",
-                  "es": "The Thaler was a large silver coin that gave its name to 'dollar' used from 15th-19th centuries.",
-                  "de": "The Thaler was a large silver coin that gave its name to 'dollar' used from 15th-19th centuries.",
-                  "nl": "The Thaler was a large silver coin that gave its name to 'dollar' used from 15th-19th centuries."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a Sestertius?",
-                  "es": "What is a Sestertius?",
-                  "de": "What is a Sestertius?",
-                  "nl": "What is a Sestertius?"
-        },
-        options: [
-        {
-                  "en": "Greek silver coin",
-                  "es": "Greek silver coin",
-                  "de": "Greek silver coin",
-                  "nl": "Greek silver coin"
-        },
-        {
-                  "en": "Medieval coin",
-                  "es": "Medieval coin",
-                  "de": "Medieval coin",
-                  "nl": "Medieval coin"
-        },
-        {
-                  "en": "Roman bronze coin",
-                  "es": "Roman bronze coin",
-                  "de": "Roman bronze coin",
-                  "nl": "Roman bronze coin"
-        },
-        {
-                  "en": "Gold coin",
-                  "es": "Gold coin",
-                  "de": "Gold coin",
-                  "nl": "Gold coin"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The Sestertius was a Roman bronze coin, one of the most common coins in ancient Rome.",
-                  "es": "The Sestertius was a Roman bronze coin, one of the most common coins in ancient Rome.",
-                  "de": "The Sestertius was a Roman bronze coin, one of the most common coins in ancient Rome.",
-                  "nl": "The Sestertius was a Roman bronze coin, one of the most common coins in ancient Rome."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the Stater?",
-                  "es": "What was the Stater?",
-                  "de": "What was the Stater?",
-                  "nl": "What was the Stater?"
-        },
-        options: [
-        {
-                  "en": "Egyptian coin",
-                  "es": "Egyptian coin",
-                  "de": "Egyptian coin",
-                  "nl": "Egyptian coin"
-        },
-        {
-                  "en": "Persian coin",
-                  "es": "Persian coin",
-                  "de": "Persian coin",
-                  "nl": "Persian coin"
-        },
-        {
-                  "en": "Ancient Greek gold or silver coin",
-                  "es": "Ancient Greek gold or silver coin",
-                  "de": "Ancient Greek gold or silver coin",
-                  "nl": "Ancient Greek gold or silver coin"
-        },
-        {
-                  "en": "Roman coin",
-                  "es": "Roman coin",
-                  "de": "Roman coin",
-                  "nl": "Roman coin"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The Stater was an ancient Greek coin made of precious metal, varying by city-state.",
-                  "es": "The Stater was an ancient Greek coin made of precious metal, varying by city-state.",
-                  "de": "The Stater was an ancient Greek coin made of precious metal, varying by city-state.",
-                  "nl": "The Stater was an ancient Greek coin made of precious metal, varying by city-state."
-        }
-      },
-      {
-        question: {
-                  "en": "What is an Escudo?",
-                  "es": "What is an Escudo?",
-                  "de": "What is an Escudo?",
-                  "nl": "What is an Escudo?"
-        },
-        options: [
-        {
-                  "en": "Colonial token",
-                  "es": "Colonial token",
-                  "de": "Colonial token",
-                  "nl": "Colonial token"
-        },
-        {
-                  "en": "Copper coin",
-                  "es": "Copper coin",
-                  "de": "Copper coin",
-                  "nl": "Copper coin"
-        },
-        {
-                  "en": "Silver coin",
-                  "es": "Silver coin",
-                  "de": "Silver coin",
-                  "nl": "Silver coin"
-        },
-        {
-                  "en": "Spanish and Portuguese gold coin",
-                  "es": "Spanish and Portuguese gold coin",
-                  "de": "Spanish and Portuguese gold coin",
-                  "nl": "Spanish and Portuguese gold coin"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The Escudo was a gold coin used in Spain and Portugal from 16th-19th centuries.",
-                  "es": "The Escudo was a gold coin used in Spain and Portugal from 16th-19th centuries.",
-                  "de": "The Escudo was a gold coin used in Spain and Portugal from 16th-19th centuries.",
-                  "nl": "The Escudo was a gold coin used in Spain and Portugal from 16th-19th centuries."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the Sovereign?",
-                  "es": "What was the Sovereign?",
-                  "de": "What was the Sovereign?",
-                  "nl": "What was the Sovereign?"
-        },
-        options: [
-        {
-                  "en": "British gold coin",
-                  "es": "British gold coin",
-                  "de": "British gold coin",
-                  "nl": "British gold coin"
-        },
-        {
-                  "en": "Bronze coin",
-                  "es": "Bronze coin",
-                  "de": "Bronze coin",
-                  "nl": "Bronze coin"
-        },
-        {
-                  "en": "Silver coin",
-                  "es": "Silver coin",
-                  "de": "Silver coin",
-                  "nl": "Silver coin"
-        },
-        {
-                  "en": "Royal token",
-                  "es": "Royal token",
-                  "de": "Royal token",
-                  "nl": "Royal token"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Sovereign is a British gold coin first minted in 1489, still produced today.",
-                  "es": "The Sovereign is a British gold coin first minted in 1489, still produced today.",
-                  "de": "The Sovereign is a British gold coin first minted in 1489, still produced today.",
-                  "nl": "The Sovereign is a British gold coin first minted in 1489, still produced today."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a Talent?",
-                  "es": "What is a Talent?",
-                  "de": "What is a Talent?",
-                  "nl": "What is a Talent?"
-        },
-        options: [
-        {
-                  "en": "Ancient unit of weight and money",
-                  "es": "Ancient unit of weight and money",
-                  "de": "Ancient unit of weight and money",
-                  "nl": "Ancient unit of weight and money"
-        },
-        {
-                  "en": "Trade good",
-                  "es": "Trade good",
-                  "de": "Trade good",
-                  "nl": "Trade good"
-        },
-        {
-                  "en": "Gold bar",
-                  "es": "Gold bar",
-                  "de": "Gold bar",
-                  "nl": "Gold bar"
-        },
-        {
-                  "en": "Coin type",
-                  "es": "Coin type",
-                  "de": "Coin type",
-                  "nl": "Coin type"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "A Talent was an ancient unit of mass used as money in Greece, Rome, and Middle East.",
-                  "es": "A Talent was an ancient unit of mass used as money in Greece, Rome, and Middle East.",
-                  "de": "A Talent was an ancient unit of mass used as money in Greece, Rome, and Middle East.",
-                  "nl": "A Talent was an ancient unit of mass used as money in Greece, Rome, and Middle East."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the Noble?",
-                  "es": "What was the Noble?",
-                  "de": "What was the Noble?",
-                  "nl": "What was the Noble?"
-        },
-        options: [
-        {
-                  "en": "Bronze coin",
-                  "es": "Bronze coin",
-                  "de": "Bronze coin",
-                  "nl": "Bronze coin"
-        },
-        {
-                  "en": "French coin",
-                  "es": "French coin",
-                  "de": "French coin",
-                  "nl": "French coin"
-        },
-        {
-                  "en": "Silver coin",
-                  "es": "Silver coin",
-                  "de": "Silver coin",
-                  "nl": "Silver coin"
-        },
-        {
-                  "en": "English gold coin",
-                  "es": "English gold coin",
-                  "de": "English gold coin",
-                  "nl": "English gold coin"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The Noble was an English gold coin first minted in 1344 under Edward III.",
-                  "es": "The Noble was an English gold coin first minted in 1344 under Edward III.",
-                  "de": "The Noble was an English gold coin first minted in 1344 under Edward III.",
-                  "nl": "The Noble was an English gold coin first minted in 1344 under Edward III."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a Dinar?",
-                  "es": "What is a Dinar?",
-                  "de": "What is a Dinar?",
-                  "nl": "What is a Dinar?"
-        },
-        options: [
-        {
-                  "en": "Bronze coin",
-                  "es": "Bronze coin",
-                  "de": "Bronze coin",
-                  "nl": "Bronze coin"
-        },
-        {
-                  "en": "Modern currency only",
-                  "es": "Modern currency only",
-                  "de": "Modern currency only",
-                  "nl": "Modern currency only"
-        },
-        {
-                  "en": "Gold coin used in Islamic empires",
-                  "es": "Gold coin used in Islamic empires",
-                  "de": "Gold coin used in Islamic empires",
-                  "nl": "Gold coin used in Islamic empires"
-        },
-        {
-                  "en": "Silver coin",
-                  "es": "Silver coin",
-                  "de": "Silver coin",
-                  "nl": "Silver coin"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The Dinar was a gold coin used throughout Islamic empires, still used as currency name today.",
-                  "es": "The Dinar was a gold coin used throughout Islamic empires, still used as currency name today.",
-                  "de": "The Dinar was a gold coin used throughout Islamic empires, still used as currency name today.",
-                  "nl": "The Dinar was a gold coin used throughout Islamic empires, still used as currency name today."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the Sesterze?",
-                  "es": "What was the Sesterze?",
-                  "de": "What was the Sesterze?",
-                  "nl": "What was the Sesterze?"
-        },
-        options: [
-        {
-                  "en": "Greek silver coin",
-                  "es": "Greek silver coin",
-                  "de": "Greek silver coin",
-                  "nl": "Greek silver coin"
-        },
-        {
-                  "en": "Gold coin",
-                  "es": "Gold coin",
-                  "de": "Gold coin",
-                  "nl": "Gold coin"
-        },
-        {
-                  "en": "Roman brass coin",
-                  "es": "Roman brass coin",
-                  "de": "Roman brass coin",
-                  "nl": "Roman brass coin"
-        },
-        {
-                  "en": "Medieval coin",
-                  "es": "Medieval coin",
-                  "de": "Medieval coin",
-                  "nl": "Medieval coin"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The Sesterze (Sestertius) was a Roman brass or bronze coin used for daily transactions.",
-                  "es": "The Sesterze (Sestertius) was a Roman brass or bronze coin used for daily transactions.",
-                  "de": "The Sesterze (Sestertius) was a Roman brass or bronze coin used for daily transactions.",
-                  "nl": "The Sesterze (Sestertius) was a Roman brass or bronze coin used for daily transactions."
-        }
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level2;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Historical Coins",
+      "es": "Pregunta 2 sobre Historical Coins",
+      "de": "Frage 2 über Historical Coins",
+      "nl": "Vraag 2 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Historical Coins",
+      "es": "Pregunta 3 sobre Historical Coins",
+      "de": "Frage 3 über Historical Coins",
+      "nl": "Vraag 3 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Historical Coins",
+      "es": "Pregunta 4 sobre Historical Coins",
+      "de": "Frage 4 über Historical Coins",
+      "nl": "Vraag 4 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Historical Coins",
+      "es": "Pregunta 5 sobre Historical Coins",
+      "de": "Frage 5 über Historical Coins",
+      "nl": "Vraag 5 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Historical Coins",
+      "es": "Pregunta 6 sobre Historical Coins",
+      "de": "Frage 6 über Historical Coins",
+      "nl": "Vraag 6 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Historical Coins",
+      "es": "Pregunta 7 sobre Historical Coins",
+      "de": "Frage 7 über Historical Coins",
+      "nl": "Vraag 7 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Historical Coins",
+      "es": "Pregunta 8 sobre Historical Coins",
+      "de": "Frage 8 über Historical Coins",
+      "nl": "Vraag 8 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Historical Coins",
+      "es": "Pregunta 9 sobre Historical Coins",
+      "de": "Frage 9 über Historical Coins",
+      "nl": "Vraag 9 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Historical Coins",
+      "es": "Pregunta 10 sobre Historical Coins",
+      "de": "Frage 10 über Historical Coins",
+      "nl": "Vraag 10 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Historical Coins",
+      "es": "Pregunta 11 sobre Historical Coins",
+      "de": "Frage 11 über Historical Coins",
+      "nl": "Vraag 11 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Historical Coins",
+      "es": "Pregunta 12 sobre Historical Coins",
+      "de": "Frage 12 über Historical Coins",
+      "nl": "Vraag 12 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Historical Coins",
+      "es": "Pregunta 13 sobre Historical Coins",
+      "de": "Frage 13 über Historical Coins",
+      "nl": "Vraag 13 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Historical Coins",
+      "es": "Pregunta 14 sobre Historical Coins",
+      "de": "Frage 14 über Historical Coins",
+      "nl": "Vraag 14 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Historical Coins",
+      "es": "Pregunta 15 sobre Historical Coins",
+      "de": "Frage 15 über Historical Coins",
+      "nl": "Vraag 15 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Historical Coins",
+      "es": "Pregunta 16 sobre Historical Coins",
+      "de": "Frage 16 über Historical Coins",
+      "nl": "Vraag 16 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Historical Coins",
+      "es": "Pregunta 17 sobre Historical Coins",
+      "de": "Frage 17 über Historical Coins",
+      "nl": "Vraag 17 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Historical Coins",
+      "es": "Pregunta 18 sobre Historical Coins",
+      "de": "Frage 18 über Historical Coins",
+      "nl": "Vraag 18 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Historical Coins",
+      "es": "Pregunta 19 sobre Historical Coins",
+      "de": "Frage 19 über Historical Coins",
+      "nl": "Vraag 19 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Historical Coins",
+      "es": "Pregunta 20 sobre Historical Coins",
+      "de": "Frage 20 über Historical Coins",
+      "nl": "Vraag 20 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Historical Coins",
+      "es": "Pregunta 21 sobre Historical Coins",
+      "de": "Frage 21 über Historical Coins",
+      "nl": "Vraag 21 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Historical Coins",
+      "es": "Pregunta 22 sobre Historical Coins",
+      "de": "Frage 22 über Historical Coins",
+      "nl": "Vraag 22 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Historical Coins",
+      "es": "Pregunta 23 sobre Historical Coins",
+      "de": "Frage 23 über Historical Coins",
+      "nl": "Vraag 23 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Historical Coins",
+      "es": "Pregunta 24 sobre Historical Coins",
+      "de": "Frage 24 über Historical Coins",
+      "nl": "Vraag 24 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Historical Coins",
+      "es": "Pregunta 25 sobre Historical Coins",
+      "de": "Frage 25 über Historical Coins",
+      "nl": "Vraag 25 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Historical Coins",
+      "es": "Pregunta 26 sobre Historical Coins",
+      "de": "Frage 26 über Historical Coins",
+      "nl": "Vraag 26 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Historical Coins",
+      "es": "Pregunta 27 sobre Historical Coins",
+      "de": "Frage 27 über Historical Coins",
+      "nl": "Vraag 27 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Historical Coins",
+      "es": "Pregunta 28 sobre Historical Coins",
+      "de": "Frage 28 über Historical Coins",
+      "nl": "Vraag 28 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Historical Coins",
+      "es": "Pregunta 29 sobre Historical Coins",
+      "de": "Frage 29 über Historical Coins",
+      "nl": "Vraag 29 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Historical Coins",
+      "es": "Pregunta 30 sobre Historical Coins",
+      "de": "Frage 30 über Historical Coins",
+      "nl": "Vraag 30 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Historical Coins",
+      "es": "Pregunta 31 sobre Historical Coins",
+      "de": "Frage 31 über Historical Coins",
+      "nl": "Vraag 31 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Historical Coins",
+      "es": "Pregunta 32 sobre Historical Coins",
+      "de": "Frage 32 über Historical Coins",
+      "nl": "Vraag 32 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Historical Coins",
+      "es": "Pregunta 33 sobre Historical Coins",
+      "de": "Frage 33 über Historical Coins",
+      "nl": "Vraag 33 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Historical Coins",
+      "es": "Pregunta 34 sobre Historical Coins",
+      "de": "Frage 34 über Historical Coins",
+      "nl": "Vraag 34 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Historical Coins",
+      "es": "Pregunta 35 sobre Historical Coins",
+      "de": "Frage 35 über Historical Coins",
+      "nl": "Vraag 35 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Historical Coins",
+      "es": "Pregunta 36 sobre Historical Coins",
+      "de": "Frage 36 über Historical Coins",
+      "nl": "Vraag 36 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Historical Coins",
+      "es": "Pregunta 37 sobre Historical Coins",
+      "de": "Frage 37 über Historical Coins",
+      "nl": "Vraag 37 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Historical Coins",
+      "es": "Pregunta 38 sobre Historical Coins",
+      "de": "Frage 38 über Historical Coins",
+      "nl": "Vraag 38 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Historical Coins",
+      "es": "Pregunta 39 sobre Historical Coins",
+      "de": "Frage 39 über Historical Coins",
+      "nl": "Vraag 39 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Historical Coins",
+      "es": "Pregunta 40 sobre Historical Coins",
+      "de": "Frage 40 über Historical Coins",
+      "nl": "Vraag 40 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Historical Coins",
+      "es": "Pregunta 41 sobre Historical Coins",
+      "de": "Frage 41 über Historical Coins",
+      "nl": "Vraag 41 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Historical Coins",
+      "es": "Pregunta 42 sobre Historical Coins",
+      "de": "Frage 42 über Historical Coins",
+      "nl": "Vraag 42 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Historical Coins",
+      "es": "Pregunta 43 sobre Historical Coins",
+      "de": "Frage 43 über Historical Coins",
+      "nl": "Vraag 43 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Historical Coins",
+      "es": "Pregunta 44 sobre Historical Coins",
+      "de": "Frage 44 über Historical Coins",
+      "nl": "Vraag 44 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Historical Coins",
+      "es": "Pregunta 45 sobre Historical Coins",
+      "de": "Frage 45 über Historical Coins",
+      "nl": "Vraag 45 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Historical Coins",
+      "es": "Pregunta 46 sobre Historical Coins",
+      "de": "Frage 46 über Historical Coins",
+      "nl": "Vraag 46 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Historical Coins",
+      "es": "Pregunta 47 sobre Historical Coins",
+      "de": "Frage 47 über Historical Coins",
+      "nl": "Vraag 47 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Historical Coins",
+      "es": "Pregunta 48 sobre Historical Coins",
+      "de": "Frage 48 über Historical Coins",
+      "nl": "Vraag 48 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Historical Coins",
+      "es": "Pregunta 49 sobre Historical Coins",
+      "de": "Frage 49 über Historical Coins",
+      "nl": "Vraag 49 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Historical Coins",
+      "es": "Pregunta 50 sobre Historical Coins",
+      "de": "Frage 50 über Historical Coins",
+      "nl": "Vraag 50 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Historical Coins",
+      "es": "Pregunta 51 sobre Historical Coins",
+      "de": "Frage 51 über Historical Coins",
+      "nl": "Vraag 51 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Historical Coins",
+      "es": "Pregunta 52 sobre Historical Coins",
+      "de": "Frage 52 über Historical Coins",
+      "nl": "Vraag 52 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Historical Coins",
+      "es": "Pregunta 53 sobre Historical Coins",
+      "de": "Frage 53 über Historical Coins",
+      "nl": "Vraag 53 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Historical Coins",
+      "es": "Pregunta 54 sobre Historical Coins",
+      "de": "Frage 54 über Historical Coins",
+      "nl": "Vraag 54 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Historical Coins",
+      "es": "Pregunta 55 sobre Historical Coins",
+      "de": "Frage 55 über Historical Coins",
+      "nl": "Vraag 55 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Historical Coins",
+      "es": "Pregunta 56 sobre Historical Coins",
+      "de": "Frage 56 über Historical Coins",
+      "nl": "Vraag 56 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Historical Coins",
+      "es": "Pregunta 57 sobre Historical Coins",
+      "de": "Frage 57 über Historical Coins",
+      "nl": "Vraag 57 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Historical Coins",
+      "es": "Pregunta 58 sobre Historical Coins",
+      "de": "Frage 58 über Historical Coins",
+      "nl": "Vraag 58 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Historical Coins",
+      "es": "Pregunta 59 sobre Historical Coins",
+      "de": "Frage 59 über Historical Coins",
+      "nl": "Vraag 59 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Historical Coins",
+      "es": "Pregunta 60 sobre Historical Coins",
+      "de": "Frage 60 über Historical Coins",
+      "nl": "Vraag 60 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Historical Coins",
+      "es": "Pregunta 61 sobre Historical Coins",
+      "de": "Frage 61 über Historical Coins",
+      "nl": "Vraag 61 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Historical Coins",
+      "es": "Pregunta 62 sobre Historical Coins",
+      "de": "Frage 62 über Historical Coins",
+      "nl": "Vraag 62 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Historical Coins",
+      "es": "Pregunta 63 sobre Historical Coins",
+      "de": "Frage 63 über Historical Coins",
+      "nl": "Vraag 63 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Historical Coins",
+      "es": "Pregunta 64 sobre Historical Coins",
+      "de": "Frage 64 über Historical Coins",
+      "nl": "Vraag 64 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Historical Coins",
+      "es": "Pregunta 65 sobre Historical Coins",
+      "de": "Frage 65 über Historical Coins",
+      "nl": "Vraag 65 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Historical Coins",
+      "es": "Pregunta 66 sobre Historical Coins",
+      "de": "Frage 66 über Historical Coins",
+      "nl": "Vraag 66 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Historical Coins",
+      "es": "Pregunta 67 sobre Historical Coins",
+      "de": "Frage 67 über Historical Coins",
+      "nl": "Vraag 67 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Historical Coins",
+      "es": "Pregunta 68 sobre Historical Coins",
+      "de": "Frage 68 über Historical Coins",
+      "nl": "Vraag 68 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Historical Coins",
+      "es": "Pregunta 69 sobre Historical Coins",
+      "de": "Frage 69 über Historical Coins",
+      "nl": "Vraag 69 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Historical Coins",
+      "es": "Pregunta 70 sobre Historical Coins",
+      "de": "Frage 70 über Historical Coins",
+      "nl": "Vraag 70 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Historical Coins",
+      "es": "Pregunta 71 sobre Historical Coins",
+      "de": "Frage 71 über Historical Coins",
+      "nl": "Vraag 71 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Historical Coins",
+      "es": "Pregunta 72 sobre Historical Coins",
+      "de": "Frage 72 über Historical Coins",
+      "nl": "Vraag 72 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Historical Coins",
+      "es": "Pregunta 73 sobre Historical Coins",
+      "de": "Frage 73 über Historical Coins",
+      "nl": "Vraag 73 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Historical Coins",
+      "es": "Pregunta 74 sobre Historical Coins",
+      "de": "Frage 74 über Historical Coins",
+      "nl": "Vraag 74 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Historical Coins",
+      "es": "Pregunta 75 sobre Historical Coins",
+      "de": "Frage 75 über Historical Coins",
+      "nl": "Vraag 75 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Historical Coins",
+      "es": "Pregunta 76 sobre Historical Coins",
+      "de": "Frage 76 über Historical Coins",
+      "nl": "Vraag 76 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Historical Coins",
+      "es": "Pregunta 77 sobre Historical Coins",
+      "de": "Frage 77 über Historical Coins",
+      "nl": "Vraag 77 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Historical Coins",
+      "es": "Pregunta 78 sobre Historical Coins",
+      "de": "Frage 78 über Historical Coins",
+      "nl": "Vraag 78 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Historical Coins",
+      "es": "Pregunta 79 sobre Historical Coins",
+      "de": "Frage 79 über Historical Coins",
+      "nl": "Vraag 79 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Historical Coins",
+      "es": "Pregunta 80 sobre Historical Coins",
+      "de": "Frage 80 über Historical Coins",
+      "nl": "Vraag 80 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Historical Coins",
+      "es": "Pregunta 81 sobre Historical Coins",
+      "de": "Frage 81 über Historical Coins",
+      "nl": "Vraag 81 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Historical Coins",
+      "es": "Pregunta 82 sobre Historical Coins",
+      "de": "Frage 82 über Historical Coins",
+      "nl": "Vraag 82 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Historical Coins",
+      "es": "Pregunta 83 sobre Historical Coins",
+      "de": "Frage 83 über Historical Coins",
+      "nl": "Vraag 83 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Historical Coins",
+      "es": "Pregunta 84 sobre Historical Coins",
+      "de": "Frage 84 über Historical Coins",
+      "nl": "Vraag 84 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Historical Coins",
+      "es": "Pregunta 85 sobre Historical Coins",
+      "de": "Frage 85 über Historical Coins",
+      "nl": "Vraag 85 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Historical Coins",
+      "es": "Pregunta 86 sobre Historical Coins",
+      "de": "Frage 86 über Historical Coins",
+      "nl": "Vraag 86 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Historical Coins",
+      "es": "Pregunta 87 sobre Historical Coins",
+      "de": "Frage 87 über Historical Coins",
+      "nl": "Vraag 87 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Historical Coins",
+      "es": "Pregunta 88 sobre Historical Coins",
+      "de": "Frage 88 über Historical Coins",
+      "nl": "Vraag 88 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Historical Coins",
+      "es": "Pregunta 89 sobre Historical Coins",
+      "de": "Frage 89 über Historical Coins",
+      "nl": "Vraag 89 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Historical Coins",
+      "es": "Pregunta 90 sobre Historical Coins",
+      "de": "Frage 90 über Historical Coins",
+      "nl": "Vraag 90 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Historical Coins",
+      "es": "Pregunta 91 sobre Historical Coins",
+      "de": "Frage 91 über Historical Coins",
+      "nl": "Vraag 91 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Historical Coins",
+      "es": "Pregunta 92 sobre Historical Coins",
+      "de": "Frage 92 über Historical Coins",
+      "nl": "Vraag 92 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Historical Coins",
+      "es": "Pregunta 93 sobre Historical Coins",
+      "de": "Frage 93 über Historical Coins",
+      "nl": "Vraag 93 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Historical Coins",
+      "es": "Pregunta 94 sobre Historical Coins",
+      "de": "Frage 94 über Historical Coins",
+      "nl": "Vraag 94 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Historical Coins",
+      "es": "Pregunta 95 sobre Historical Coins",
+      "de": "Frage 95 über Historical Coins",
+      "nl": "Vraag 95 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Historical Coins",
+      "es": "Pregunta 96 sobre Historical Coins",
+      "de": "Frage 96 über Historical Coins",
+      "nl": "Vraag 96 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Historical Coins",
+      "es": "Pregunta 97 sobre Historical Coins",
+      "de": "Frage 97 über Historical Coins",
+      "nl": "Vraag 97 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Historical Coins",
+      "es": "Pregunta 98 sobre Historical Coins",
+      "de": "Frage 98 über Historical Coins",
+      "nl": "Vraag 98 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Historical Coins",
+      "es": "Pregunta 99 sobre Historical Coins",
+      "de": "Frage 99 über Historical Coins",
+      "nl": "Vraag 99 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Historical Coins",
+      "es": "Pregunta 100 sobre Historical Coins",
+      "de": "Frage 100 über Historical Coins",
+      "nl": "Vraag 100 over Historical Coins"
+    },
+    "options": [
+      {
+        "en": "Answer A for Historical Coins",
+        "es": "Respuesta A para Historical Coins",
+        "de": "Antwort A für Historical Coins",
+        "nl": "Antwoord A voor Historical Coins"
+      },
+      {
+        "en": "Answer B for Historical Coins",
+        "es": "Respuesta B para Historical Coins",
+        "de": "Antwort B für Historical Coins",
+        "nl": "Antwoord B voor Historical Coins"
+      },
+      {
+        "en": "Answer C for Historical Coins",
+        "es": "Respuesta C para Historical Coins",
+        "de": "Antwort C für Historical Coins",
+        "nl": "Antwoord C voor Historical Coins"
+      },
+      {
+        "en": "Answer D for Historical Coins",
+        "es": "Respuesta D para Historical Coins",
+        "de": "Antwort D für Historical Coins",
+        "nl": "Antwoord D voor Historical Coins"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Historical Coins.",
+      "es": "Esta es la respuesta correcta sobre Historical Coins.",
+      "de": "Dies ist die richtige Antwort über Historical Coins.",
+      "nl": "Dit is het juiste antwoord over Historical Coins."
+    }
   }
-})();
+]
+};

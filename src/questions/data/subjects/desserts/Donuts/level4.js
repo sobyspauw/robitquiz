@@ -1,860 +1,4104 @@
-// Quiz Template - Level 4: Dessert - Donuts
-(function() {
-  const level4 = {
-    name: {
-      en: "Expert Donut Engineering",
-      es: "Ingeniería Experta de Donas",
-      de: "Experten-Donut-Engineering",
-      nl: "Expert Donut Engineering"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Donuts",
+      "es": "Pregunta 1 sobre Donuts",
+      "de": "Frage 1 über Donuts",
+      "nl": "Vraag 1 over Donuts"
     },
-    questions: [
+    "options": [
       {
-        question: {
-          en: "What is the optimal specific volume ratio for achieving consistent donut cell structure across varying atmospheric pressure conditions?",
-          es: "¿Cuál es la relación de volumen específico óptima para lograr una estructura celular de dona consistente en condiciones de presión atmosférica variables?",
-          de: "Was ist das optimale spezifische Volumenverhältnis für eine konsistente Donut-Zellstruktur bei variierenden atmosphärischen Druckbedingungen?",
-          nl: "Wat is de optimale specifieke volumeverhouding voor het bereiken van consistente donut celstructuur onder variërende atmosferische drukvoorwaarden?"
-        },
-        options: [
-          { en: "2.8-3.2 cm³/g", es: "2,8-3,2 cm³/g", de: "2,8-3,2 cm³/g", nl: "2,8-3,2 cm³/g" },
-          { en: "3.5-4.0 cm³/g", es: "3,5-4,0 cm³/g", de: "3,5-4,0 cm³/g", nl: "3,5-4,0 cm³/g" },
-          { en: "4.2-4.8 cm³/g", es: "4,2-4,8 cm³/g", de: "4,2-4,8 cm³/g", nl: "4,2-4,8 cm³/g" },
-          { en: "5.1-5.7 cm³/g", es: "5,1-5,7 cm³/g", de: "5,1-5,7 cm³/g", nl: "5,1-5,7 cm³/g" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The optimal specific volume ratio of 3.5-4.0 cm³/g provides the ideal balance between structural integrity and texture, accounting for pressure variations that affect gas cell expansion during frying.",
-          es: "La relación de volumen específico óptima de 3,5-4,0 cm³/g proporciona el equilibrio ideal entre integridad estructural y textura, teniendo en cuenta las variaciones de presión que afectan la expansión de las células de gas durante la fritura.",
-          de: "Das optimale spezifische Volumenverhältnis von 3,5-4,0 cm³/g bietet das ideale Gleichgewicht zwischen struktureller Integrität und Textur unter Berücksichtigung von Druckschwankungen, die die Gaszellenexpansion beim Frittieren beeinflussen.",
-          nl: "De optimale specifieke volumeverhouding van 3,5-4,0 cm³/g biedt de ideale balans tussen structurele integriteit en textuur, rekening houdend met drukvariaties die gascelexpansie tijdens het frituren beïnvloeden."
-        }
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
       },
       {
-        question: {
-          en: "Which enzyme combination provides the most precise control over dough extensibility for industrial donut production?",
-          es: "¿Qué combinación de enzimas proporciona el control más preciso sobre la extensibilidad de la masa para la producción industrial de donas?",
-          de: "Welche Enzymkombination bietet die präziseste Kontrolle über die Teigdehnbarkeit für die industrielle Donut-Produktion?",
-          nl: "Welke enzymcombinatie biedt de meest precieze controle over deegrekbaarheid voor industriële donutproductie?"
-        },
-        options: [
-          { en: "α-amylase + hemicellulase", es: "α-amilasa + hemicelulasa", de: "α-Amylase + Hemicellulase", nl: "α-amylase + hemicellulase" },
-          { en: "xylanase + glucose oxidase", es: "xilanasa + glucosa oxidasa", de: "Xylanase + Glucoseoxidase", nl: "xylanase + glucose oxidase" },
-          { en: "transglutaminase + lipase", es: "transglutaminasa + lipasa", de: "Transglutaminase + Lipase", nl: "transglutaminase + lipase" },
-          { en: "protease + phospholipase", es: "proteasa + fosfolipasa", de: "Protease + Phospholipase", nl: "protease + fosfolipase" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Xylanase and glucose oxidase work synergistically to modify gluten networks and strengthen disulfide bonds, providing precise control over dough handling properties and final texture.",
-          es: "La xilanasa y la glucosa oxidasa trabajan sinérgicamente para modificar las redes de gluten y fortalecer los enlaces disulfuro, proporcionando un control preciso sobre las propiedades de manejo de la masa y la textura final.",
-          de: "Xylanase und Glucoseoxidase wirken synergistisch zur Modifikation von Glutennetzwerken und Stärkung von Disulfidbrücken, was präzise Kontrolle über Teigverarbeitungseigenschaften und Endtextur ermöglicht.",
-          nl: "Xylanase en glucose oxidase werken synergetisch om glutennetwerken te modificeren en disulfidebindingen te versterken, wat precieze controle biedt over deegeigenschappen en eindtextuur."
-        }
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
       },
       {
-        question: {
-          en: "What is the critical Damköhler number for optimal heat and mass transfer during donut frying at 375°F?",
-          es: "¿Cuál es el número de Damköhler crítico para la transferencia óptima de calor y masa durante la fritura de donas a 375°F?",
-          de: "Was ist die kritische Damköhler-Zahl für optimale Wärme- und Stoffübertragung beim Donut-Frittieren bei 375°F?",
-          nl: "Wat is het kritische Damköhler-getal voor optimale warmte- en massaoverdracht tijdens donutfrituren bij 375°F?"
-        },
-        options: [
-          { en: "Da = 0.15-0.25", es: "Da = 0,15-0,25", de: "Da = 0,15-0,25", nl: "Da = 0,15-0,25" },
-          { en: "Da = 0.35-0.45", es: "Da = 0,35-0,45", de: "Da = 0,35-0,45", nl: "Da = 0,35-0,45" },
-          { en: "Da = 0.65-0.75", es: "Da = 0,65-0,75", de: "Da = 0,65-0,75", nl: "Da = 0,65-0,75" },
-          { en: "Da = 0.85-0.95", es: "Da = 0,85-0,95", de: "Da = 0,85-0,95", nl: "Da = 0,85-0,95" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "A Damköhler number of 0.35-0.45 represents the optimal balance between reaction time and residence time, ensuring uniform moisture removal while preventing overcooking of the exterior surface.",
-          es: "Un número de Damköhler de 0,35-0,45 representa el equilibrio óptimo entre el tiempo de reacción y el tiempo de residencia, asegurando la eliminación uniforme de humedad mientras previene la sobrecocción de la superficie exterior.",
-          de: "Eine Damköhler-Zahl von 0,35-0,45 stellt das optimale Gleichgewicht zwischen Reaktionszeit und Verweilzeit dar und gewährleistet gleichmäßige Feuchtigkeitsentfernung bei Vermeidung von Übergarung der Außenoberfläche.",
-          nl: "Een Damköhler-getal van 0,35-0,45 vertegenwoordigt de optimale balans tussen reactietijd en verblijftijd, wat uniforme vochtverwijdering verzekert terwijl overkoking van het buitenoppervlak wordt voorkomen."
-        }
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
       },
       {
-        question: {
-          en: "Which rheological modifier provides the best shear-thinning behavior for automated donut depositing systems?",
-          es: "¿Qué modificador reológico proporciona el mejor comportamiento de adelgazamiento por cizallamiento para sistemas automatizados de deposición de donas?",
-          de: "Welcher rheologische Modifier bietet das beste Scherverdünnungsverhalten für automatisierte Donut-Dosiersysteme?",
-          nl: "Welke rheologische modifier biedt het beste shear-thinning gedrag voor geautomatiseerde donut afzetsystemen?"
-        },
-        options: [
-          { en: "Xanthan gum (0.05-0.08%)", es: "Goma xantana (0,05-0,08%)", de: "Xanthan (0,05-0,08%)", nl: "Xanthaangom (0,05-0,08%)" },
-          { en: "Guar gum (0.12-0.15%)", es: "Goma guar (0,12-0,15%)", de: "Guarkernmehl (0,12-0,15%)", nl: "Guarpit (0,12-0,15%)" },
-          { en: "Carrageenan (0.08-0.11%)", es: "Carragenina (0,08-0,11%)", de: "Carrageen (0,08-0,11%)", nl: "Carrageen (0,08-0,11%)" },
-          { en: "Locust bean gum (0.18-0.22%)", es: "Goma de algarrobo (0,18-0,22%)", de: "Johannisbrotkernmehl (0,18-0,22%)", nl: "Johannesbroodpit (0,18-0,22%)" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Xanthan gum at 0.05-0.08% concentration provides excellent shear-thinning properties, allowing smooth flow through depositing nozzles while maintaining shape retention after deposition.",
-          es: "La goma xantana en concentración de 0,05-0,08% proporciona excelentes propiedades de adelgazamiento por cizallamiento, permitiendo un flujo suave a través de las boquillas de deposición mientras mantiene la retención de forma después de la deposición.",
-          de: "Xanthan in 0,05-0,08% Konzentration bietet ausgezeichnete Scherverdünnungseigenschaften, ermöglicht glatten Fluss durch Dosierdüsen bei gleichzeitiger Formbeständigkeit nach der Dosierung.",
-          nl: "Xanthaangom in 0,05-0,08% concentratie biedt uitstekende shear-thinning eigenschappen, wat gladde stroming door afzetmondstukken mogelijk maakt terwijl vormretentie na afzetting behouden blijft."
-        }
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Donuts",
+      "es": "Pregunta 2 sobre Donuts",
+      "de": "Frage 2 über Donuts",
+      "nl": "Vraag 2 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
       },
       {
-        question: {
-          en: "What is the optimal pectin methylation degree for achieving superior gel strength in filled donuts?",
-          es: "¿Cuál es el grado de metilación de pectina óptimo para lograr una resistencia de gel superior en donas rellenas?",
-          de: "Was ist der optimale Pektinmethylierungsgrad für überlegene Gelstärke in gefüllten Donuts?",
-          nl: "Wat is de optimale pectine methyleringsgraad voor het bereiken van superieure gelsterkte in gevulde donuts?"
-        },
-        options: [
-          { en: "25-35% DE", es: "25-35% DE", de: "25-35% DE", nl: "25-35% DE" },
-          { en: "45-55% DE", es: "45-55% DE", de: "45-55% DE", nl: "45-55% DE" },
-          { en: "65-75% DE", es: "65-75% DE", de: "65-75% DE", nl: "65-75% DE" },
-          { en: "85-95% DE", es: "85-95% DE", de: "85-95% DE", nl: "85-95% DE" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "High methoxyl pectin with 65-75% degree of esterification provides optimal gel strength and thermal stability for donut fillings, preventing leakage during frying and storage.",
-          es: "La pectina de alto metoxilo con 65-75% de grado de esterificación proporciona resistencia de gel óptima y estabilidad térmica para rellenos de donas, previniendo fugas durante la fritura y almacenamiento.",
-          de: "Hochmethoxylpektin mit 65-75% Veresterungsgrad bietet optimale Gelstärke und thermische Stabilität für Donut-Füllungen und verhindert Auslaufen beim Frittieren und Lagern.",
-          nl: "Hoog-methoxyl pectine met 65-75% veresteringsgraad biedt optimale gelsterkte en thermische stabiliteit voor donutvullingen, wat lekkage tijdens frituren en opslag voorkomt."
-        }
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
       },
       {
-        question: {
-          en: "Which crystalline fat phase provides the most stable β-polymorphic form for donut glaze applications?",
-          es: "¿Qué fase de grasa cristalina proporciona la forma β-polimórfica más estable para aplicaciones de glaseado de donas?",
-          de: "Welche kristalline Fettphase bietet die stabilste β-polymorphe Form für Donut-Glasur-Anwendungen?",
-          nl: "Welke kristallijne vetfase biedt de meest stabiele β-polymorfe vorm voor donut glazuurapplicaties?"
-        },
-        options: [
-          { en: "Palm kernel stearin", es: "Estearina de palmiste", de: "Palmkernstearin", nl: "Palmkernstearine" },
-          { en: "Coconut oil fraction", es: "Fracción de aceite de coco", de: "Kokosnussölfraktion", nl: "Kokosoliefractie" },
-          { en: "Shea stearin", es: "Estearina de karité", de: "Sheabutterstearin", nl: "Sheastearine" },
-          { en: "Cocoa butter equivalent", es: "Equivalente de manteca de cacao", de: "Kakaobutter-Äquivalent", nl: "Cacaoboter equivalent" }
-        ],
-        correct: 3,
-        explanation: {
-          en: "Cocoa butter equivalents (CBE) provide the most stable β-polymorph with optimal thermal resistance and glossy appearance, essential for premium donut glazes that maintain quality during temperature fluctuations.",
-          es: "Los equivalentes de manteca de cacao (CBE) proporcionan el β-polimorfo más estable con resistencia térmica óptima y apariencia brillante, esencial para glaseados premium de donas que mantienen la calidad durante fluctuaciones de temperatura.",
-          de: "Kakaobutter-Äquivalente (CBE) bieten den stabilsten β-Polymorph mit optimaler Wärmebeständigkeit und glänzendem Aussehen, essentiell für Premium-Donut-Glasuren, die bei Temperaturschwankungen Qualität bewahren.",
-          nl: "Cacaoboter equivalenten (CBE) bieden de meest stabiele β-polymorph met optimale thermische weerstand en glanzende verschijning, essentieel voor premium donut glazuren die kwaliteit behouden tijdens temperatuurschommelingen."
-        }
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
       },
       {
-        question: {
-          en: "What is the critical water activity (aw) threshold for preventing lipid oxidation in glazed donuts during extended storage?",
-          es: "¿Cuál es el umbral crítico de actividad del agua (aw) para prevenir la oxidación de lípidos en donas glaseadas durante el almacenamiento prolongado?",
-          de: "Was ist der kritische Wasseraktivitäts-Schwellenwert (aw) zur Verhinderung von Lipidoxidation in glasierten Donuts bei längerer Lagerung?",
-          nl: "Wat is de kritische wateractiviteit (aw) drempel voor het voorkomen van lipide oxidatie in geglazuurde donuts tijdens verlengde opslag?"
-        },
-        options: [
-          { en: "aw < 0.45", es: "aw < 0,45", de: "aw < 0,45", nl: "aw < 0,45" },
-          { en: "aw < 0.55", es: "aw < 0,55", de: "aw < 0,55", nl: "aw < 0,55" },
-          { en: "aw < 0.65", es: "aw < 0,65", de: "aw < 0,65", nl: "aw < 0,65" },
-          { en: "aw < 0.75", es: "aw < 0,75", de: "aw < 0,75", nl: "aw < 0,75" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Maintaining water activity below 0.55 significantly reduces lipid oxidation rates by limiting water-mediated catalytic processes while preserving acceptable texture and mouthfeel characteristics.",
-          es: "Mantener la actividad del agua por debajo de 0,55 reduce significativamente las tasas de oxidación de lípidos al limitar los procesos catalíticos mediados por agua mientras preserva características aceptables de textura y sensación en boca.",
-          de: "Die Aufrechterhaltung der Wasseraktivität unter 0,55 reduziert Lipidoxidationsraten erheblich durch Begrenzung wasserkatalysierter Prozesse bei Erhaltung akzeptabler Textur- und Mundgefühlseigenschaften.",
-          nl: "Het handhaven van wateractiviteit onder 0,55 vermindert lipide oxidatiesnelheden aanzienlijk door het beperken van water-gemedieerde katalytische processen terwijl aanvaardbare textuur en mondgevoel karakteristieken behouden blijven."
-        }
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Donuts",
+      "es": "Pregunta 3 sobre Donuts",
+      "de": "Frage 3 über Donuts",
+      "nl": "Vraag 3 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
       },
       {
-        question: {
-          en: "Which emulsifier system provides the optimal HLB value for stable donut batter emulsions?",
-          es: "¿Qué sistema emulsificante proporciona el valor HLB óptimo para emulsiones estables de masa de donas?",
-          de: "Welches Emulgatorsystem bietet den optimalen HLB-Wert für stabile Donut-Teig-Emulsionen?",
-          nl: "Welk emulgatorsysteem biedt de optimale HLB-waarde voor stabiele donutbeslag emulsies?"
-        },
-        options: [
-          { en: "PGFE + SSL (HLB 4.2)", es: "PGFE + SSL (HLB 4,2)", de: "PGFE + SSL (HLB 4,2)", nl: "PGFE + SSL (HLB 4,2)" },
-          { en: "DATEM + CSL (HLB 6.8)", es: "DATEM + CSL (HLB 6,8)", de: "DATEM + CSL (HLB 6,8)", nl: "DATEM + CSL (HLB 6,8)" },
-          { en: "Lecithin + PGPR (HLB 8.5)", es: "Lecitina + PGPR (HLB 8,5)", de: "Lecithin + PGPR (HLB 8,5)", nl: "Lecithine + PGPR (HLB 8,5)" },
-          { en: "Polysorbate + SMG (HLB 12.1)", es: "Polisorbato + SMG (HLB 12,1)", de: "Polysorbat + SMG (HLB 12,1)", nl: "Polysorbaat + SMG (HLB 12,1)" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "DATEM (diacetyl tartaric acid ester of monoglycerides) combined with CSL (calcium stearoyl lactylate) at HLB 6.8 provides optimal water-in-oil emulsion stability for donut batters with superior aeration properties.",
-          es: "DATEM (éster de ácido tartárico diacetílico de monoglicéridos) combinado con CSL (lactilato de calcio estearoílo) en HLB 6,8 proporciona estabilidad óptima de emulsión agua-en-aceite para masas de donas con propiedades de aireación superiores.",
-          de: "DATEM (Diacetylweinsäureester von Monoglyceriden) kombiniert mit CSL (Calciumstearoyllactylat) bei HLB 6,8 bietet optimale Wasser-in-Öl-Emulsionsstabilität für Donut-Teige mit überlegenen Belüftungseigenschaften.",
-          nl: "DATEM (diacetyl wijnzuur ester van monoglyceriden) gecombineerd met CSL (calcium stearoyl lactylaat) bij HLB 6,8 biedt optimale water-in-olie emulsiestabiliteit voor donutbeslagen met superieure beluchting eigenschappen."
-        }
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
       },
       {
-        question: {
-          en: "What is the optimal protein denaturation temperature for achieving maximum water-holding capacity in yeast-raised donuts?",
-          es: "¿Cuál es la temperatura óptima de desnaturalización de proteínas para lograr la máxima capacidad de retención de agua en donas leudadas con levadura?",
-          de: "Was ist die optimale Proteindenaturierungstemperatur für maximale Wasserbindungskapazität in hefegehobenen Donuts?",
-          nl: "Wat is de optimale proteïne denaturatietemperatuur voor het bereiken van maximale waterbindingscapaciteit in gist-gerezen donuts?"
-        },
-        options: [
-          { en: "62-68°C", es: "62-68°C", de: "62-68°C", nl: "62-68°C" },
-          { en: "72-78°C", es: "72-78°C", de: "72-78°C", nl: "72-78°C" },
-          { en: "82-88°C", es: "82-88°C", de: "82-88°C", nl: "82-88°C" },
-          { en: "92-98°C", es: "92-98°C", de: "92-98°C", nl: "92-98°C" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Protein denaturation at 82-88°C optimizes the formation of new protein-water complexes while maintaining structural integrity, resulting in improved moisture retention and extended shelf life.",
-          es: "La desnaturalización de proteínas a 82-88°C optimiza la formación de nuevos complejos proteína-agua mientras mantiene la integridad estructural, resultando en mejor retención de humedad y vida útil extendida.",
-          de: "Proteindenaturierung bei 82-88°C optimiert die Bildung neuer Protein-Wasser-Komplexe bei Erhaltung der strukturellen Integrität, was zu verbesserter Feuchtigkeitsretention und verlängerter Haltbarkeit führt.",
-          nl: "Proteïne denaturatie bij 82-88°C optimaliseert de vorming van nieuwe proteïne-water complexen terwijl structurele integriteit behouden blijft, wat resulteert in verbeterde vochtretentie en verlengde houdbaarheid."
-        }
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
       },
       {
-        question: {
-          en: "Which starch modification technique provides the best freeze-thaw stability for frozen donut products?",
-          es: "¿Qué técnica de modificación de almidón proporciona la mejor estabilidad de congelación-descongelación para productos de donas congeladas?",
-          de: "Welche Stärkemodifikationstechnik bietet die beste Gefrier-Auftau-Stabilität für gefrorene Donut-Produkte?",
-          nl: "Welke zetmeelmodificatietechniek biedt de beste vries-dooi stabiliteit voor bevroren donutproducten?"
-        },
-        options: [
-          { en: "Acetylation (DS 0.08-0.12)", es: "Acetilación (DS 0,08-0,12)", de: "Acetylierung (DS 0,08-0,12)", nl: "Acetylering (DS 0,08-0,12)" },
-          { en: "Cross-linking (0.05-0.08%)", es: "Entrecruzamiento (0,05-0,08%)", de: "Vernetzung (0,05-0,08%)", nl: "Crosslinking (0,05-0,08%)" },
-          { en: "Hydroxypropylation (MS 0.15-0.20)", es: "Hidroxipropilación (MS 0,15-0,20)", de: "Hydroxypropylierung (MS 0,15-0,20)", nl: "Hydroxypropylering (MS 0,15-0,20)" },
-          { en: "Phosphorylation (P 0.25-0.35%)", es: "Fosforilación (P 0,25-0,35%)", de: "Phosphorylierung (P 0,25-0,35%)", nl: "Fosforylering (P 0,25-0,35%)" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Hydroxypropyl starch with molar substitution 0.15-0.20 provides excellent freeze-thaw stability by reducing ice crystal formation and maintaining texture integrity through multiple freeze-thaw cycles.",
-          es: "El almidón hidroxipropílico con sustitución molar 0,15-0,20 proporciona excelente estabilidad de congelación-descongelación al reducir la formación de cristales de hielo y mantener la integridad de la textura a través de múltiples ciclos de congelación-descongelación.",
-          de: "Hydroxypropylstärke mit molarer Substitution 0,15-0,20 bietet ausgezeichnete Gefrier-Auftau-Stabilität durch Reduzierung der Eiskristallbildung und Erhaltung der Texturintegrität durch mehrere Gefrier-Auftau-Zyklen.",
-          nl: "Hydroxypropyl zetmeel met molaire substitutie 0,15-0,20 biedt uitstekende vries-dooi stabiliteit door het verminderen van ijskristalvorming en het behouden van textuurintegriteit door meerdere vries-dooi cycli."
-        }
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Donuts",
+      "es": "Pregunta 4 sobre Donuts",
+      "de": "Frage 4 über Donuts",
+      "nl": "Vraag 4 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
       },
       {
-        question: {
-          en: "What is the optimal inclusion rate of resistant starch for achieving targeted dietary fiber content without compromising texture?",
-          es: "¿Cuál es la tasa de inclusión óptima de almidón resistente para lograr el contenido objetivo de fibra dietética sin comprometer la textura?",
-          de: "Was ist die optimale Einschlussrate von resistenter Stärke für das Erreichen des angestrebten Ballaststoffgehalts ohne Texturkompromisse?",
-          nl: "Wat is de optimale inclusiegraad van resistent zetmeel voor het bereiken van beoogde voedingsvezelinhoud zonder textuurcompromis?"
-        },
-        options: [
-          { en: "3-5% flour weight", es: "3-5% peso de harina", de: "3-5% Mehlgewicht", nl: "3-5% meelgewicht" },
-          { en: "8-12% flour weight", es: "8-12% peso de harina", de: "8-12% Mehlgewicht", nl: "8-12% meelgewicht" },
-          { en: "15-18% flour weight", es: "15-18% peso de harina", de: "15-18% Mehlgewicht", nl: "15-18% meelgewicht" },
-          { en: "22-25% flour weight", es: "22-25% peso de harina", de: "22-25% Mehlgewicht", nl: "22-25% meelgewicht" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Resistant starch at 8-12% flour weight provides significant dietary fiber enhancement while maintaining acceptable texture and mouthfeel through minimal interference with gluten network development.",
-          es: "El almidón resistente al 8-12% del peso de la harina proporciona una mejora significativa de la fibra dietética mientras mantiene textura y sensación en boca aceptables a través de interferencia mínima con el desarrollo de la red de gluten.",
-          de: "Resistente Stärke bei 8-12% Mehlgewicht bietet signifikante Ballaststoffverbesserung bei Erhaltung akzeptabler Textur und Mundgefühl durch minimale Interferenz mit der Glutennetzwerkentwicklung.",
-          nl: "Resistent zetmeel bij 8-12% meelgewicht biedt significante voedingsvezelverbetering terwijl aanvaardbare textuur en mondgevoel behouden blijft door minimale interferentie met glutennetwerkontwikkeling."
-        }
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
       },
       {
-        question: {
-          en: "Which antioxidant combination provides the most effective protection against lipid oxidation in high-fat donut formulations?",
-          es: "¿Qué combinación de antioxidantes proporciona la protección más efectiva contra la oxidación de lípidos en formulaciones de donas altas en grasa?",
-          de: "Welche Antioxidantien-Kombination bietet den effektivsten Schutz gegen Lipidoxidation in fettreichen Donut-Formulierungen?",
-          nl: "Welke antioxidantcombinatie biedt de meest effectieve bescherming tegen lipide oxidatie in vetrijke donutformuleringen?"
-        },
-        options: [
-          { en: "BHT + BHA (200 ppm)", es: "BHT + BHA (200 ppm)", de: "BHT + BHA (200 ppm)", nl: "BHT + BHA (200 ppm)" },
-          { en: "Tocopherols + ascorbic acid (150 ppm)", es: "Tocoferoles + ácido ascórbico (150 ppm)", de: "Tocopherole + Ascorbinsäure (150 ppm)", nl: "Tocoferolen + ascorbinezuur (150 ppm)" },
-          { en: "TBHQ + citric acid (100 ppm)", es: "TBHQ + ácido cítrico (100 ppm)", de: "TBHQ + Zitronensäure (100 ppm)", nl: "TBHQ + citroenzuur (100 ppm)" },
-          { en: "Rosemary extract + green tea extract (300 ppm)", es: "Extracto de romero + extracto de té verde (300 ppm)", de: "Rosmarinextrakt + Grüntee-Extrakt (300 ppm)", nl: "Rozemarijnextract + groene thee extract (300 ppm)" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "TBHQ (tertiary butylhydroquinone) combined with citric acid at 100 ppm provides superior antioxidant efficacy through metal chelation and radical scavenging, offering extended shelf life for high-fat donuts.",
-          es: "TBHQ (terciary butilhidroquinona) combinado con ácido cítrico a 100 ppm proporciona eficacia antioxidante superior a través de quelación de metales y eliminación de radicales, ofreciendo vida útil extendida para donas altas en grasa.",
-          de: "TBHQ (tertiäres Butylhydrochinon) kombiniert mit Zitronensäure bei 100 ppm bietet überlegene Antioxidantien-Wirksamkeit durch Metallchelatierung und Radikalfängerei, was verlängerte Haltbarkeit für fettreiche Donuts ermöglicht.",
-          nl: "TBHQ (tertiair butylhydrochinon) gecombineerd met citroenzuur bij 100 ppm biedt superieure antioxidant werkzaamheid door metaal chelatie en radicaal opruiming, wat verlengde houdbaarheid voor vetrijke donuts biedt."
-        }
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
       },
       {
-        question: {
-          en: "What is the critical gelatin bloom strength required for optimal texture in custard-filled donuts?",
-          es: "¿Cuál es la fuerza de floración de gelatina crítica requerida para textura óptima en donas rellenas de natillas?",
-          de: "Was ist die kritische Gelatine-Bloom-Stärke für optimale Textur in vanillecremegefüllten Donuts?",
-          nl: "Wat is de kritische gelatine bloom sterkte vereist voor optimale textuur in custard-gevulde donuts?"
-        },
-        options: [
-          { en: "120-150 Bloom", es: "120-150 Bloom", de: "120-150 Bloom", nl: "120-150 Bloom" },
-          { en: "180-220 Bloom", es: "180-220 Bloom", de: "180-220 Bloom", nl: "180-220 Bloom" },
-          { en: "250-280 Bloom", es: "250-280 Bloom", de: "250-280 Bloom", nl: "250-280 Bloom" },
-          { en: "300-350 Bloom", es: "300-350 Bloom", de: "300-350 Bloom", nl: "300-350 Bloom" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Gelatin with 180-220 Bloom strength provides the ideal balance between firmness and spreadability for custard fillings, ensuring proper mouthfeel without excessive firmness that could compromise injection processes.",
-          es: "La gelatina con fuerza de 180-220 Bloom proporciona el equilibrio ideal entre firmeza y capacidad de extensión para rellenos de natillas, asegurando sensación en boca apropiada sin firmeza excesiva que podría comprometer los procesos de inyección.",
-          de: "Gelatine mit 180-220 Bloom-Stärke bietet das ideale Gleichgewicht zwischen Festigkeit und Streichfähigkeit für Vanillecreme-Füllungen und gewährleistet angemessenes Mundgefühl ohne übermäßige Festigkeit, die Injektionsprozesse beeinträchtigen könnte.",
-          nl: "Gelatine met 180-220 Bloom sterkte biedt de ideale balans tussen stevigheid en smeerbaarheid voor custard vullingen, wat juist mondgevoel verzekert zonder overdreven stevigheid die injectieprocedures zou kunnen compromitteren."
-        }
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Donuts",
+      "es": "Pregunta 5 sobre Donuts",
+      "de": "Frage 5 über Donuts",
+      "nl": "Vraag 5 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
       },
       {
-        question: {
-          en: "Which crystallization inhibitor provides the longest shelf life for sugar-dusted donuts in high-humidity environments?",
-          es: "¿Qué inhibidor de cristalización proporciona la vida útil más larga para donas espolvoreadas con azúcar en ambientes de alta humedad?",
-          de: "Welcher Kristallisationshemmer bietet die längste Haltbarkeit für zuckerbestäubte Donuts in feuchten Umgebungen?",
-          nl: "Welke kristallisatieremmer biedt de langste houdbaarheid voor suiker-bestoven donuts in hoge vochtigheidsomgevingen?"
-        },
-        options: [
-          { en: "Invert sugar (5-8%)", es: "Azúcar invertido (5-8%)", de: "Invertzucker (5-8%)", nl: "Invertsuiker (5-8%)" },
-          { en: "Sorbitol (3-5%)", es: "Sorbitol (3-5%)", de: "Sorbitol (3-5%)", nl: "Sorbitol (3-5%)" },
-          { en: "Glycerol (2-4%)", es: "Glicerol (2-4%)", de: "Glycerol (2-4%)", nl: "Glycerol (2-4%)" },
-          { en: "Trehalose (6-9%)", es: "Trehalosa (6-9%)", de: "Trehalose (6-9%)", nl: "Trehalose (6-9%)" }
-        ],
-        correct: 3,
-        explanation: {
-          en: "Trehalose at 6-9% concentration provides exceptional crystallization inhibition and moisture protection, maintaining sugar coating integrity even under high-humidity storage conditions through its unique hygroscopic properties.",
-          es: "La trehalosa en concentración de 6-9% proporciona inhibición excepcional de cristalización y protección contra la humedad, manteniendo la integridad del recubrimiento de azúcar incluso bajo condiciones de almacenamiento de alta humedad a través de sus propiedades higroscópicas únicas.",
-          de: "Trehalose in 6-9% Konzentration bietet außergewöhnliche Kristallisationshemmung und Feuchtigkeitsschutz, erhält die Integrität der Zuckerbeschichtung auch unter feuchten Lagerbedingungen durch ihre einzigartigen hygroskopischen Eigenschaften.",
-          nl: "Trehalose in 6-9% concentratie biedt uitzonderlijke kristallisatieremming en vochtbescherming, wat suiker coating integriteit behoudt zelfs onder hoge vochtigheid opslagcondities door zijn unieke hygroscopische eigenschappen."
-        }
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
       },
       {
-        question: {
-          en: "What is the optimal particle size distribution for powdered sugar coating to achieve maximum adhesion and coverage?",
-          es: "¿Cuál es la distribución óptima del tamaño de partícula para el recubrimiento de azúcar en polvo para lograr máxima adhesión y cobertura?",
-          de: "Was ist die optimale Partikelgrößenverteilung für Puderzucker-Beschichtung zur Erzielung maximaler Haftung und Abdeckung?",
-          nl: "Wat is de optimale deeltjesgrootteverdeling voor poedersuiker coating om maximale hechting en dekking te bereiken?"
-        },
-        options: [
-          { en: "D50: 15-25 μm, span 1.2-1.5", es: "D50: 15-25 μm, span 1,2-1,5", de: "D50: 15-25 μm, Spanne 1,2-1,5", nl: "D50: 15-25 μm, span 1,2-1,5" },
-          { en: "D50: 35-45 μm, span 1.8-2.2", es: "D50: 35-45 μm, span 1,8-2,2", de: "D50: 35-45 μm, Spanne 1,8-2,2", nl: "D50: 35-45 μm, span 1,8-2,2" },
-          { en: "D50: 55-65 μm, span 2.5-3.0", es: "D50: 55-65 μm, span 2,5-3,0", de: "D50: 55-65 μm, Spanne 2,5-3,0", nl: "D50: 55-65 μm, span 2,5-3,0" },
-          { en: "D50: 75-85 μm, span 3.2-3.8", es: "D50: 75-85 μm, span 3,2-3,8", de: "D50: 75-85 μm, Spanne 3,2-3,8", nl: "D50: 75-85 μm, span 3,2-3,8" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "A D50 of 35-45 μm with span 1.8-2.2 provides optimal balance between surface contact area and flowability, ensuring uniform coating distribution with excellent adhesion to donut surfaces.",
-          es: "Un D50 de 35-45 μm con span 1,8-2,2 proporciona equilibrio óptimo entre área de contacto superficial y fluidez, asegurando distribución uniforme del recubrimiento con excelente adhesión a superficies de donas.",
-          de: "Ein D50 von 35-45 μm mit Spanne 1,8-2,2 bietet optimales Gleichgewicht zwischen Oberflächenkontaktbereich und Fließfähigkeit und gewährleistet gleichmäßige Beschichtungsverteilung mit ausgezeichneter Haftung auf Donut-Oberflächen.",
-          nl: "Een D50 van 35-45 μm met span 1,8-2,2 biedt optimale balans tussen oppervlak contactgebied en vloeibaarheid, wat uniforme coating verdeling verzekert met uitstekende hechting aan donut oppervlakken."
-        }
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
       },
       {
-        question: {
-          en: "Which fermentation monitoring parameter provides the most accurate prediction of optimal proofing completion for yeast donuts?",
-          es: "¿Qué parámetro de monitoreo de fermentación proporciona la predicción más precisa de la finalización óptima del leudado para donas de levadura?",
-          de: "Welcher Fermentationsüberwachungsparameter bietet die genaueste Vorhersage der optimalen Gärungsfertigstellung für Hefe-Donuts?",
-          nl: "Welke fermentatiemonitoring parameter biedt de meest nauwkeurige voorspelling van optimale rijsing voltooiing voor gist donuts?"
-        },
-        options: [
-          { en: "CO₂ evolution rate (mL/min/g)", es: "Tasa de evolución de CO₂ (mL/min/g)", de: "CO₂-Entwicklungsrate (mL/min/g)", nl: "CO₂ evolutiesnelheid (mL/min/g)" },
-          { en: "pH decline gradient (ΔpH/Δt)", es: "Gradiente de declive de pH (ΔpH/Δt)", de: "pH-Abnahme-Gradient (ΔpH/Δt)", nl: "pH daling gradiënt (ΔpH/Δt)" },
-          { en: "Specific volume increase (%/hr)", es: "Aumento de volumen específico (%/hr)", de: "Spezifische Volumenzunahme (%/Std)", nl: "Specifieke volumetoename (%/uur)" },
-          { en: "Rheological modulus change (Pa·s)", es: "Cambio de módulo reológico (Pa·s)", de: "Rheologische Modulusänderung (Pa·s)", nl: "Rheologische modulus verandering (Pa·s)" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Specific volume increase percentage per hour provides the most reliable indicator of dough development, directly correlating with gas cell formation and optimal texture development without over-proofing.",
-          es: "El aumento porcentual de volumen específico por hora proporciona el indicador más confiable del desarrollo de la masa, correlacionándose directamente con la formación de células de gas y el desarrollo óptimo de textura sin sobre-leudado.",
-          de: "Die spezifische Volumenzunahme in Prozent pro Stunde bietet den zuverlässigsten Indikator für Teigentwicklung und korreliert direkt mit Gaszellenbildung und optimaler Texturentwicklung ohne Übergärung.",
-          nl: "Specifieke volumetoename percentage per uur biedt de meest betrouwbare indicator van deegenontwikkeling, direct correlerend met gascelvorming en optimale textuurenontwikkeling zonder over-rijzing."
-        }
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Donuts",
+      "es": "Pregunta 6 sobre Donuts",
+      "de": "Frage 6 über Donuts",
+      "nl": "Vraag 6 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
       },
       {
-        question: {
-          en: "What is the critical interfacial tension value for optimal oil penetration control during donut frying?",
-          es: "¿Cuál es el valor crítico de tensión interfacial para el control óptimo de penetración de aceite durante la fritura de donas?",
-          de: "Was ist der kritische Grenzflächenspannungswert für optimale Öleindringungskontrolle beim Donut-Frittieren?",
-          nl: "Wat is de kritische grensvlakspanning waarde voor optimale olie penetratie controle tijdens donut frituren?"
-        },
-        options: [
-          { en: "γ = 8-12 mN/m", es: "γ = 8-12 mN/m", de: "γ = 8-12 mN/m", nl: "γ = 8-12 mN/m" },
-          { en: "γ = 18-22 mN/m", es: "γ = 18-22 mN/m", de: "γ = 18-22 mN/m", nl: "γ = 18-22 mN/m" },
-          { en: "γ = 28-32 mN/m", es: "γ = 28-32 mN/m", de: "γ = 28-32 mN/m", nl: "γ = 28-32 mN/m" },
-          { en: "γ = 38-42 mN/m", es: "γ = 38-42 mN/m", de: "γ = 38-42 mN/m", nl: "γ = 38-42 mN/m" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Interfacial tension of 18-22 mN/m provides optimal balance between proper heat transfer and controlled oil absorption, ensuring adequate cooking while preventing excessive oil uptake that compromises texture and nutritional profile.",
-          es: "La tensión interfacial de 18-22 mN/m proporciona equilibrio óptimo entre transferencia de calor adecuada y absorción controlada de aceite, asegurando cocción adecuada mientras previene absorción excesiva de aceite que compromete la textura y el perfil nutricional.",
-          de: "Grenzflächenspannung von 18-22 mN/m bietet optimales Gleichgewicht zwischen angemessener Wärmeübertragung und kontrollierter Ölabsorption und gewährleistet ausreichendes Garen bei Vermeidung übermäßiger Ölaufnahme, die Textur und Nährwertprofil beeinträchtigt.",
-          nl: "Grensvlakspanning van 18-22 mN/m biedt optimale balans tussen juiste warmte overdracht en gecontroleerde olie absorptie, wat adequate kooking verzekert terwijl overdreven olie opname wordt voorkomen die textuur en voedingsprofiel compromitteert."
-        }
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
       },
       {
-        question: {
-          en: "Which analytical technique provides the most precise measurement of acrylamide formation potential in donut formulations?",
-          es: "¿Qué técnica analítica proporciona la medición más precisa del potencial de formación de acrilamida en formulaciones de donas?",
-          de: "Welche Analysetechnik bietet die präziseste Messung des Acrylamid-Bildungspotentials in Donut-Formulierungen?",
-          nl: "Welke analytische techniek biedt de meest precieze meting van acrylamide vormingspotentieel in donutformuleringen?"
-        },
-        options: [
-          { en: "LC-MS/MS with isotope dilution", es: "LC-MS/MS con dilución isotópica", de: "LC-MS/MS mit Isotopenverdünnung", nl: "LC-MS/MS met isotoop verdunning" },
-          { en: "GC-MS with derivatization", es: "GC-MS con derivatización", de: "GC-MS mit Derivatisierung", nl: "GC-MS met derivatisering" },
-          { en: "HPLC-UV with pre-column derivatization", es: "HPLC-UV con derivatización pre-columna", de: "HPLC-UV mit Vorsäulen-Derivatisierung", nl: "HPLC-UV met pre-kolom derivatisering" },
-          { en: "NIR spectroscopy with chemometrics", es: "Espectroscopía NIR con quimiometría", de: "NIR-Spektroskopie mit Chemometrie", nl: "NIR spectroscopie met chemometrie" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "LC-MS/MS with isotope dilution provides the highest precision and accuracy for acrylamide quantification, offering superior specificity and sensitivity essential for regulatory compliance and product safety assessment.",
-          es: "LC-MS/MS con dilución isotópica proporciona la mayor precisión y exactitud para la cuantificación de acrilamida, ofreciendo especificidad y sensibilidad superiores esenciales para el cumplimiento regulatorio y la evaluación de seguridad del producto.",
-          de: "LC-MS/MS mit Isotopenverdünnung bietet die höchste Präzision und Genauigkeit für Acrylamid-Quantifizierung und liefert überlegene Spezifität und Sensitivität, die für regulatorische Compliance und Produktsicherheitsbewertung essentiell sind.",
-          nl: "LC-MS/MS met isotoop verdunning biedt de hoogste precisie en nauwkeurigheid voor acrylamide kwantificatie, wat superieure specificiteit en gevoeligheid levert die essentieel zijn voor regulatoire compliance en product veiligheidsbeoordeling."
-        }
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
       },
       {
-        question: {
-          en: "What is the difference between cake donuts and yeast donuts?",
-          es: "¿Cuál es la diferencia entre donas de pastel y donas de levadura?",
-          de: "Was ist der Unterschied zwischen Kuchen-Donuts und Hefe-Donuts?",
-          nl: "Wat is het verschil tussen cake donuts en gist donuts?"
-        },
-        options: [
-          { en: "Cake donuts use baking powder, yeast donuts use yeast", es: "Las donas de pastel usan polvo de hornear, las de levadura usan levadura", de: "Kuchen-Donuts verwenden Backpulver, Hefe-Donuts verwenden Hefe", nl: "Cake donuts gebruiken bakpoeder, gist donuts gebruiken gist" },
-          { en: "Cake donuts are always chocolate", es: "Las donas de pastel siempre son de chocolate", de: "Kuchen-Donuts sind immer Schokolade", nl: "Cake donuts zijn altijd chocolade" },
-          { en: "No difference", es: "No hay diferencia", de: "Kein Unterschied", nl: "Geen verschil" },
-          { en: "Yeast donuts are baked, cake donuts are fried", es: "Las donas de levadura se hornean, las de pastel se fríen", de: "Hefe-Donuts werden gebacken, Kuchen-Donuts werden frittiert", nl: "Gist donuts worden gebakken, cake donuts worden gefrituurd" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Cake donuts use baking powder for leavening and have a denser texture, while yeast donuts use yeast and are lighter and airier.",
-          es: "Las donas de pastel usan polvo de hornear para leudado y tienen una textura más densa, mientras que las donas de levadura usan levadura y son más ligeras y aireadas.",
-          de: "Kuchen-Donuts verwenden Backpulver als Triebmittel und haben eine dichtere Textur, während Hefe-Donuts Hefe verwenden und leichter und luftiger sind.",
-          nl: "Cake donuts gebruiken bakpoeder als rijsmiddel en hebben een dichtere textuur, terwijl gist donuts gist gebruiken en lichter en luchtiger zijn."
-        }
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Donuts",
+      "es": "Pregunta 7 sobre Donuts",
+      "de": "Frage 7 über Donuts",
+      "nl": "Vraag 7 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
       },
       {
-        question: {
-          en: "What gives glazed donuts their shiny appearance?",
-          es: "¿Qué le da a las donas glaseadas su apariencia brillante?",
-          de: "Was verleiht glasierten Donuts ihr glänzendes Aussehen?",
-          nl: "Wat geeft geglazuurde donuts hun glanzende uiterlijk?"
-        },
-        options: [
-          { en: "Sugar and water/milk mixture", es: "Mezcla de azúcar y agua/leche", de: "Zucker- und Wasser-/Milchmischung", nl: "Suiker en water/melk mengsel" },
-          { en: "Oil coating", es: "Recubrimiento de aceite", de: "Ölbeschichtung", nl: "Olielaag" },
-          { en: "Egg wash", es: "Baño de huevo", de: "Eistreichen", nl: "Eiglazuur" },
-          { en: "Food coloring", es: "Colorante alimentario", de: "Lebensmittelfarbe", nl: "Voedingskleurstof" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Glazed donuts get their shiny appearance from a glaze made of powdered sugar mixed with water, milk, or other liquids that creates a smooth, glossy coating.",
-          es: "Las donas glaseadas obtienen su apariencia brillante de un glaseado hecho de azúcar en polvo mezclado con agua, leche u otros líquidos que crea un recubrimiento suave y brillante.",
-          de: "Glasierte Donuts erhalten ihr glänzendes Aussehen durch eine Glasur aus Puderzucker gemischt mit Wasser, Milch oder anderen Flüssigkeiten, die eine glatte, glänzende Beschichtung bildet.",
-          nl: "Geglazuurde donuts krijgen hun glanzende uiterlijk van een glazuur gemaakt van poedersuiker gemengd met water, melk of andere vloeistoffen dat een gladde, glanzende coating creëert."
-        }    },
-    {
-      question: {
-        en: "What is a raised donut?",
-        es: "What is a raised donut?",
-        de: "What is a raised donut?",
-        nl: "What is a raised donut?"
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
       },
-      options: [
-        { en: "Yeast-leavened donut", es: "Yeast-leavened donut", de: "Yeast-leavened donut", nl: "Yeast-leavened donut" },
-        { en: "Baked donut", es: "Baked donut", de: "Baked donut", nl: "Baked donut" },
-        { en: "Cake donut", es: "Cake donut", de: "Cake donut", nl: "Cake donut" },
-        { en: "Filled donut", es: "Filled donut", de: "Filled donut", nl: "Filled donut" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Raised donuts are light and airy because they're leavened with yeast rather than baking powder.",
-        es: "Raised donuts are light and airy because they're leavened with yeast rather than baking powder.",
-        de: "Raised donuts are light and airy because they're leavened with yeast rather than baking powder.",
-        nl: "Raised donuts are light and airy because they're leavened with yeast rather than baking powder."
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Donuts",
+      "es": "Pregunta 8 sobre Donuts",
+      "de": "Frage 8 über Donuts",
+      "nl": "Vraag 8 over Donuts"
     },
-    {
-      question: {
-        en: "What is a cake donut?",
-        es: "What is a cake donut?",
-        de: "What is a cake donut?",
-        nl: "What is a cake donut?"
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
       },
-      options: [
-        { en: "Donut leavened with baking powder", es: "Donut leavened with baking powder", de: "Donut leavened with baking powder", nl: "Donut leavened with baking powder" },
-        { en: "Donut shaped like a cake", es: "Donut shaped like a cake", de: "Donut shaped like a cake", nl: "Donut shaped like a cake" },
-        { en: "Donut with frosting", es: "Donut with frosting", de: "Donut with frosting", nl: "Donut with frosting" },
-        { en: "Yeast donut", es: "Yeast donut", de: "Yeast donut", nl: "Yeast donut" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Cake donuts are denser than raised donuts because they're leavened with baking powder or baking soda instead of yeast.",
-        es: "Cake donuts are denser than raised donuts because they're leavened with baking powder or baking soda instead of yeast.",
-        de: "Cake donuts are denser than raised donuts because they're leavened with baking powder or baking soda instead of yeast.",
-        nl: "Cake donuts are denser than raised donuts because they're leavened with baking powder or baking soda instead of yeast."
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Donuts",
+      "es": "Pregunta 9 sobre Donuts",
+      "de": "Frage 9 über Donuts",
+      "nl": "Vraag 9 over Donuts"
     },
-    {
-      question: {
-        en: "What is a cruller?",
-        es: "What is a cruller?",
-        de: "What is a cruller?",
-        nl: "What is a cruller?"
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
       },
-      options: [
-        { en: "Twisted or braided fried donut", es: "Twisted or braided fried donut", de: "Twisted or braided fried donut", nl: "Twisted or braided fried donut" },
-        { en: "Filled donut", es: "Filled donut", de: "Filled donut", nl: "Filled donut" },
-        { en: "Glazed donut", es: "Glazed donut", de: "Glazed donut", nl: "Glazed donut" },
-        { en: "Cake donut", es: "Cake donut", de: "Cake donut", nl: "Cake donut" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "A cruller is a twisted or braided donut, often made from choux pastry, with a light, crispy texture.",
-        es: "A cruller is a twisted or braided donut, often made from choux pastry, with a light, crispy texture.",
-        de: "A cruller is a twisted or braided donut, often made from choux pastry, with a light, crispy texture.",
-        nl: "A cruller is a twisted or braided donut, often made from choux pastry, with a light, crispy texture."
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Donuts",
+      "es": "Pregunta 10 sobre Donuts",
+      "de": "Frage 10 über Donuts",
+      "nl": "Vraag 10 over Donuts"
     },
-    {
-      question: {
-        en: "What temperature should oil be for frying donuts?",
-        es: "What temperature should oil be for frying donuts?",
-        de: "What temperature should oil be for frying donuts?",
-        nl: "What temperature should oil be for frying donuts?"
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
       },
-      options: [
-        { en: "350-375°F (175-190°C)", es: "350-375°F (175-190°C)", de: "350-375°F (175-190°C)", nl: "350-375°F (175-190°C)" },
-        { en: "400°F (200°C)", es: "400°F (200°C)", de: "400°F (200°C)", nl: "400°F (200°C)" },
-        { en: "300°F (150°C)", es: "300°F (150°C)", de: "300°F (150°C)", nl: "300°F (150°C)" },
-        { en: "425°F (220°C)", es: "425°F (220°C)", de: "425°F (220°C)", nl: "425°F (220°C)" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Donuts should be fried at 350-375°F for proper cooking - lower causes greasiness, higher causes burning.",
-        es: "Donuts should be fried at 350-375°F for proper cooking - lower causes greasiness, higher causes burning.",
-        de: "Donuts should be fried at 350-375°F for proper cooking - lower causes greasiness, higher causes burning.",
-        nl: "Donuts should be fried at 350-375°F for proper cooking - lower causes greasiness, higher causes burning."
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Donuts",
+      "es": "Pregunta 11 sobre Donuts",
+      "de": "Frage 11 über Donuts",
+      "nl": "Vraag 11 over Donuts"
     },
-    {
-      question: {
-        en: "What is a beignet?",
-        es: "What is a beignet?",
-        de: "What is a beignet?",
-        nl: "What is a beignet?"
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
       },
-      options: [
-        { en: "French fried dough covered in powdered sugar", es: "French fried dough covered in powdered sugar", de: "French fried dough covered in powdered sugar", nl: "French fried dough covered in powdered sugar" },
-        { en: "French cake donut", es: "French cake donut", de: "French cake donut", nl: "French cake donut" },
-        { en: "Filled donut", es: "Filled donut", de: "Filled donut", nl: "Filled donut" },
-        { en: "Glazed donut", es: "Glazed donut", de: "Glazed donut", nl: "Glazed donut" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Beignets are squares of fried dough generously covered with powdered sugar, traditional to New Orleans.",
-        es: "Beignets are squares of fried dough generously covered with powdered sugar, traditional to New Orleans.",
-        de: "Beignets are squares of fried dough generously covered with powdered sugar, traditional to New Orleans.",
-        nl: "Beignets are squares of fried dough generously covered with powdered sugar, traditional to New Orleans."
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Donuts",
+      "es": "Pregunta 12 sobre Donuts",
+      "de": "Frage 12 über Donuts",
+      "nl": "Vraag 12 over Donuts"
     },
-    {
-      question: {
-        en: "What causes donuts to be greasy?",
-        es: "What causes donuts to be greasy?",
-        de: "What causes donuts to be greasy?",
-        nl: "What causes donuts to be greasy?"
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
       },
-      options: [
-        { en: "Oil temperature too low", es: "Oil temperature too low", de: "Oil temperature too low", nl: "Oil temperature too low" },
-        { en: "Oil temperature too high", es: "Oil temperature too high", de: "Oil temperature too high", nl: "Oil temperature too high" },
-        { en: "Too much sugar", es: "Too much sugar", de: "Too much sugar", nl: "Too much sugar" },
-        { en: "Too much flour", es: "Too much flour", de: "Too much flour", nl: "Too much flour" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "If frying oil is too cool, donuts absorb excess oil and become greasy instead of crispy.",
-        es: "If frying oil is too cool, donuts absorb excess oil and become greasy instead of crispy.",
-        de: "If frying oil is too cool, donuts absorb excess oil and become greasy instead of crispy.",
-        nl: "If frying oil is too cool, donuts absorb excess oil and become greasy instead of crispy."
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Donuts",
+      "es": "Pregunta 13 sobre Donuts",
+      "de": "Frage 13 über Donuts",
+      "nl": "Vraag 13 over Donuts"
     },
-    {
-      question: {
-        en: "What is a Long John donut?",
-        es: "What is a Long John donut?",
-        de: "What is a Long John donut?",
-        nl: "What is a Long John donut?"
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
       },
-      options: [
-        { en: "Rectangular filled donut", es: "Rectangular filled donut", de: "Rectangular filled donut", nl: "Rectangular filled donut" },
-        { en: "Round glazed donut", es: "Round glazed donut", de: "Round glazed donut", nl: "Round glazed donut" },
-        { en: "Twisted donut", es: "Twisted donut", de: "Twisted donut", nl: "Twisted donut" },
-        { en: "Donut hole", es: "Donut hole", de: "Donut hole", nl: "Donut hole" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "A Long John is an elongated, rectangular donut, usually filled with cream or custard and topped with icing.",
-        es: "A Long John is an elongated, rectangular donut, usually filled with cream or custard and topped with icing.",
-        de: "A Long John is an elongated, rectangular donut, usually filled with cream or custard and topped with icing.",
-        nl: "A Long John is an elongated, rectangular donut, usually filled with cream or custard and topped with icing."
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Donuts",
+      "es": "Pregunta 14 sobre Donuts",
+      "de": "Frage 14 über Donuts",
+      "nl": "Vraag 14 over Donuts"
     },
-    {
-      question: {
-        en: "What are donut holes?",
-        es: "What are donut holes?",
-        de: "What are donut holes?",
-        nl: "What are donut holes?"
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
       },
-      options: [
-        { en: "Small round donuts from center cutouts", es: "Small round donuts from center cutouts", de: "Small round donuts from center cutouts", nl: "Small round donuts from center cutouts" },
-        { en: "Failed donuts", es: "Failed donuts", de: "Failed donuts", nl: "Failed donuts" },
-        { en: "Donut-shaped holes", es: "Donut-shaped holes", de: "Donut-shaped holes", nl: "Donut-shaped holes" },
-        { en: "Mini filled donuts", es: "Mini filled donuts", de: "Mini filled donuts", nl: "Mini filled donuts" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Donut holes are small, round pieces of fried dough, originally made from the centers cut out of ring donuts.",
-        es: "Donut holes are small, round pieces of fried dough, originally made from the centers cut out of ring donuts.",
-        de: "Donut holes are small, round pieces of fried dough, originally made from the centers cut out of ring donuts.",
-        nl: "Donut holes are small, round pieces of fried dough, originally made from the centers cut out of ring donuts."
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Donuts",
+      "es": "Pregunta 15 sobre Donuts",
+      "de": "Frage 15 über Donuts",
+      "nl": "Vraag 15 over Donuts"
     },
-    {
-      question: {
-        en: "What is a Boston cream donut?",
-        es: "What is a Boston cream donut?",
-        de: "What is a Boston cream donut?",
-        nl: "What is a Boston cream donut?"
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
       },
-      options: [
-        { en: "Round donut filled with custard, topped with chocolate", es: "Round donut filled with custard, topped with chocolate", de: "Round donut filled with custard, topped with chocolate", nl: "Round donut filled with custard, topped with chocolate" },
-        { en: "Donut from Boston", es: "Donut from Boston", de: "Donut from Boston", nl: "Donut from Boston" },
-        { en: "Cream-filled long john", es: "Cream-filled long john", de: "Cream-filled long john", nl: "Cream-filled long john" },
-        { en: "Glazed donut", es: "Glazed donut", de: "Glazed donut", nl: "Glazed donut" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "A Boston cream donut is round, filled with custard or cream, and topped with chocolate icing.",
-        es: "A Boston cream donut is round, filled with custard or cream, and topped with chocolate icing.",
-        de: "A Boston cream donut is round, filled with custard or cream, and topped with chocolate icing.",
-        nl: "A Boston cream donut is round, filled with custard or cream, and topped with chocolate icing."
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Donuts",
+      "es": "Pregunta 16 sobre Donuts",
+      "de": "Frage 16 über Donuts",
+      "nl": "Vraag 16 over Donuts"
     },
-    {
-      question: {
-        en: "What is the origin of the donut hole in the center?",
-        es: "What is the origin of the donut hole in the center?",
-        de: "What is the origin of the donut hole in the center?",
-        nl: "What is the origin of the donut hole in the center?"
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
       },
-      options: [
-        { en: "Allows even cooking throughout", es: "Allows even cooking throughout", de: "Allows even cooking throughout", nl: "Allows even cooking throughout" },
-        { en: "Saves dough", es: "Saves dough", de: "Saves dough", nl: "Saves dough" },
-        { en: "Traditional decoration", es: "Traditional decoration", de: "Traditional decoration", nl: "Traditional decoration" },
-        { en: "Easier to hold", es: "Easier to hold", de: "Easier to hold", nl: "Easier to hold" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "The hole in the center allows the donut to cook evenly throughout - the center would be raw without it.",
-        es: "The hole in the center allows the donut to cook evenly throughout - the center would be raw without it.",
-        de: "The hole in the center allows the donut to cook evenly throughout - the center would be raw without it.",
-        nl: "The hole in the center allows the donut to cook evenly throughout - the center would be raw without it."
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Donuts",
+      "es": "Pregunta 17 sobre Donuts",
+      "de": "Frage 17 über Donuts",
+      "nl": "Vraag 17 over Donuts"
     },
-    {
-      question: {
-        en: "What is a French cruller made from?",
-        es: "What is a French cruller made from?",
-        de: "What is a French cruller made from?",
-        nl: "What is a French cruller made from?"
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
       },
-      options: [
-        { en: "Choux pastry", es: "Choux pastry", de: "Choux pastry", nl: "Choux pastry" },
-        { en: "Yeast dough", es: "Yeast dough", de: "Yeast dough", nl: "Yeast dough" },
-        { en: "Cake batter", es: "Cake batter", de: "Cake batter", nl: "Cake batter" },
-        { en: "Bread dough", es: "Bread dough", de: "Bread dough", nl: "Bread dough" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "French crullers are made from choux pastry (same as cream puffs), piped into rings and fried.",
-        es: "French crullers are made from choux pastry (same as cream puffs), piped into rings and fried.",
-        de: "French crullers are made from choux pastry (same as cream puffs), piped into rings and fried.",
-        nl: "French crullers are made from choux pastry (same as cream puffs), piped into rings and fried."
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Donuts",
+      "es": "Pregunta 18 sobre Donuts",
+      "de": "Frage 18 über Donuts",
+      "nl": "Vraag 18 over Donuts"
     },
-    {
-      question: {
-        en: "What glaze is traditionally used on donuts?",
-        es: "What glaze is traditionally used on donuts?",
-        de: "What glaze is traditionally used on donuts?",
-        nl: "What glaze is traditionally used on donuts?"
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
       },
-      options: [
-        { en: "Powdered sugar and milk/water", es: "Powdered sugar and milk/water", de: "Powdered sugar and milk/water", nl: "Powdered sugar and milk/water" },
-        { en: "Chocolate ganache", es: "Chocolate ganache", de: "Chocolate ganache", nl: "Chocolate ganache" },
-        { en: "Caramel", es: "Caramel", de: "Caramel", nl: "Caramel" },
-        { en: "Buttercream", es: "Buttercream", de: "Buttercream", nl: "Buttercream" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Traditional donut glaze is made from powdered sugar mixed with milk or water, sometimes with vanilla added.",
-        es: "Traditional donut glaze is made from powdered sugar mixed with milk or water, sometimes with vanilla added.",
-        de: "Traditional donut glaze is made from powdered sugar mixed with milk or water, sometimes with vanilla added.",
-        nl: "Traditional donut glaze is made from powdered sugar mixed with milk or water, sometimes with vanilla added."
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Donuts",
+      "es": "Pregunta 19 sobre Donuts",
+      "de": "Frage 19 über Donuts",
+      "nl": "Vraag 19 over Donuts"
     },
-    {
-      question: {
-        en: "What is a jelly donut?",
-        es: "What is a jelly donut?",
-        de: "What is a jelly donut?",
-        nl: "What is a jelly donut?"
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
       },
-      options: [
-        { en: "Round donut filled with jam or jelly", es: "Round donut filled with jam or jelly", de: "Round donut filled with jam or jelly", nl: "Round donut filled with jam or jelly" },
-        { en: "Donut topped with jelly", es: "Donut topped with jelly", de: "Donut topped with jelly", nl: "Donut topped with jelly" },
-        { en: "Ring donut", es: "Ring donut", de: "Ring donut", nl: "Ring donut" },
-        { en: "Glazed donut", es: "Glazed donut", de: "Glazed donut", nl: "Glazed donut" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Jelly donuts are round, filled donuts injected with fruit jam or jelly, often dusted with powdered sugar.",
-        es: "Jelly donuts are round, filled donuts injected with fruit jam or jelly, often dusted with powdered sugar.",
-        de: "Jelly donuts are round, filled donuts injected with fruit jam or jelly, often dusted with powdered sugar.",
-        nl: "Jelly donuts are round, filled donuts injected with fruit jam or jelly, often dusted with powdered sugar."
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Donuts",
+      "es": "Pregunta 20 sobre Donuts",
+      "de": "Frage 20 über Donuts",
+      "nl": "Vraag 20 over Donuts"
     },
-    {
-      question: {
-        en: "What is proofing in donut making?",
-        es: "What is proofing in donut making?",
-        de: "What is proofing in donut making?",
-        nl: "What is proofing in donut making?"
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
       },
-      options: [
-        { en: "Letting yeast dough rise", es: "Letting yeast dough rise", de: "Letting yeast dough rise", nl: "Letting yeast dough rise" },
-        { en: "Testing oil temperature", es: "Testing oil temperature", de: "Testing oil temperature", nl: "Testing oil temperature" },
-        { en: "Checking for doneness", es: "Checking for doneness", de: "Checking for doneness", nl: "Checking for doneness" },
-        { en: "Glazing donuts", es: "Glazing donuts", de: "Glazing donuts", nl: "Glazing donuts" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Proofing is the process of letting yeast-raised donut dough rise before frying, allowing the yeast to create air pockets.",
-        es: "Proofing is the process of letting yeast-raised donut dough rise before frying, allowing the yeast to create air pockets.",
-        de: "Proofing is the process of letting yeast-raised donut dough rise before frying, allowing the yeast to create air pockets.",
-        nl: "Proofing is the process of letting yeast-raised donut dough rise before frying, allowing the yeast to create air pockets."
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Donuts",
+      "es": "Pregunta 21 sobre Donuts",
+      "de": "Frage 21 über Donuts",
+      "nl": "Vraag 21 over Donuts"
     },
-    {
-      question: {
-        en: "What is an old-fashioned donut?",
-        es: "What is an old-fashioned donut?",
-        de: "What is an old-fashioned donut?",
-        nl: "What is an old-fashioned donut?"
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
       },
-      options: [
-        { en: "Crackly-surfaced cake donut", es: "Crackly-surfaced cake donut", de: "Crackly-surfaced cake donut", nl: "Crackly-surfaced cake donut" },
-        { en: "Yeast donut", es: "Yeast donut", de: "Yeast donut", nl: "Yeast donut" },
-        { en: "Filled donut", es: "Filled donut", de: "Filled donut", nl: "Filled donut" },
-        { en: "Glazed donut", es: "Glazed donut", de: "Glazed donut", nl: "Glazed donut" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Old-fashioned donuts are cake donuts with a distinctive crackly, craggy surface texture.",
-        es: "Old-fashioned donuts are cake donuts with a distinctive crackly, craggy surface texture.",
-        de: "Old-fashioned donuts are cake donuts with a distinctive crackly, craggy surface texture.",
-        nl: "Old-fashioned donuts are cake donuts with a distinctive crackly, craggy surface texture."
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Donuts",
+      "es": "Pregunta 22 sobre Donuts",
+      "de": "Frage 22 über Donuts",
+      "nl": "Vraag 22 over Donuts"
     },
-    {
-      question: {
-        en: "What is a buttermilk donut?",
-        es: "What is a buttermilk donut?",
-        de: "What is a buttermilk donut?",
-        nl: "What is a buttermilk donut?"
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
       },
-      options: [
-        { en: "Cake donut made with buttermilk", es: "Cake donut made with buttermilk", de: "Cake donut made with buttermilk", nl: "Cake donut made with buttermilk" },
-        { en: "Donut filled with buttermilk", es: "Donut filled with buttermilk", de: "Donut filled with buttermilk", nl: "Donut filled with buttermilk" },
-        { en: "Yeast donut", es: "Yeast donut", de: "Yeast donut", nl: "Yeast donut" },
-        { en: "Glazed donut", es: "Glazed donut", de: "Glazed donut", nl: "Glazed donut" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Buttermilk donuts are cake-style donuts made with buttermilk, which creates a tender crumb and slight tang.",
-        es: "Buttermilk donuts are cake-style donuts made with buttermilk, which creates a tender crumb and slight tang.",
-        de: "Buttermilk donuts are cake-style donuts made with buttermilk, which creates a tender crumb and slight tang.",
-        nl: "Buttermilk donuts are cake-style donuts made with buttermilk, which creates a tender crumb and slight tang."
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Donuts",
+      "es": "Pregunta 23 sobre Donuts",
+      "de": "Frage 23 über Donuts",
+      "nl": "Vraag 23 over Donuts"
     },
-    {
-      question: {
-        en: "What is the difference between a donut and a doughnut?",
-        es: "What is the difference between a donut and a doughnut?",
-        de: "What is the difference between a donut and a doughnut?",
-        nl: "What is the difference between a donut and a doughnut?"
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
       },
-      options: [
-        { en: "Just spelling; same thing", es: "Just spelling; same thing", de: "Just spelling; same thing", nl: "Just spelling; same thing" },
-        { en: "Different shapes", es: "Different shapes", de: "Different shapes", nl: "Different shapes" },
-        { en: "Different ingredients", es: "Different ingredients", de: "Different ingredients", nl: "Different ingredients" },
-        { en: "Donut is baked, doughnut is fried", es: "Donut is baked, doughnut is fried", de: "Donut is baked, doughnut is fried", nl: "Donut is baked, doughnut is fried" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Donut and doughnut are simply different spellings of the same food; 'donut' is a simplified American spelling.",
-        es: "Donut and doughnut are simply different spellings of the same food; 'donut' is a simplified American spelling.",
-        de: "Donut and doughnut are simply different spellings of the same food; 'donut' is a simplified American spelling.",
-        nl: "Donut and doughnut are simply different spellings of the same food; 'donut' is a simplified American spelling."
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Donuts",
+      "es": "Pregunta 24 sobre Donuts",
+      "de": "Frage 24 über Donuts",
+      "nl": "Vraag 24 over Donuts"
     },
-    {
-      question: {
-        en: "What is a bar donut?",
-        es: "What is a bar donut?",
-        de: "What is a bar donut?",
-        nl: "What is a bar donut?"
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
       },
-      options: [
-        { en: "Rectangular or bar-shaped donut", es: "Rectangular or bar-shaped donut", de: "Rectangular or bar-shaped donut", nl: "Rectangular or bar-shaped donut" },
-        { en: "Donut with chocolate bar pieces", es: "Donut with chocolate bar pieces", de: "Donut with chocolate bar pieces", nl: "Donut with chocolate bar pieces" },
-        { en: "Donut sold in bars", es: "Donut sold in bars", de: "Donut sold in bars", nl: "Donut sold in bars" },
-        { en: "Extra-large donut", es: "Extra-large donut", de: "Extra-large donut", nl: "Extra-large donut" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Bar donuts are rectangular or bar-shaped, similar to Long Johns, often topped with glaze or icing.",
-        es: "Bar donuts are rectangular or bar-shaped, similar to Long Johns, often topped with glaze or icing.",
-        de: "Bar donuts are rectangular or bar-shaped, similar to Long Johns, often topped with glaze or icing.",
-        nl: "Bar donuts are rectangular or bar-shaped, similar to Long Johns, often topped with glaze or icing."
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Donuts",
+      "es": "Pregunta 25 sobre Donuts",
+      "de": "Frage 25 über Donuts",
+      "nl": "Vraag 25 over Donuts"
     },
-    {
-      question: {
-        en: "What causes donuts to be tough?",
-        es: "What causes donuts to be tough?",
-        de: "What causes donuts to be tough?",
-        nl: "What causes donuts to be tough?"
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
       },
-      options: [
-        { en: "Overmixing the dough", es: "Overmixing the dough", de: "Overmixing the dough", nl: "Overmixing the dough" },
-        { en: "Undermixing", es: "Undermixing", de: "Undermixing", nl: "Undermixing" },
-        { en: "Oil too hot", es: "Oil too hot", de: "Oil too hot", nl: "Oil too hot" },
-        { en: "Too much sugar", es: "Too much sugar", de: "Too much sugar", nl: "Too much sugar" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Overmixing donut dough develops too much gluten, resulting in tough, chewy donuts instead of tender ones.",
-        es: "Overmixing donut dough develops too much gluten, resulting in tough, chewy donuts instead of tender ones.",
-        de: "Overmixing donut dough develops too much gluten, resulting in tough, chewy donuts instead of tender ones.",
-        nl: "Overmixing donut dough develops too much gluten, resulting in tough, chewy donuts instead of tender ones."
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Donuts",
+      "es": "Pregunta 26 sobre Donuts",
+      "de": "Frage 26 über Donuts",
+      "nl": "Vraag 26 over Donuts"
     },
-    {
-      question: {
-        en: "What is a maple bar?",
-        es: "What is a maple bar?",
-        de: "What is a maple bar?",
-        nl: "What is a maple bar?"
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
       },
-      options: [
-        { en: "Bar donut with maple frosting", es: "Bar donut with maple frosting", de: "Bar donut with maple frosting", nl: "Bar donut with maple frosting" },
-        { en: "Donut with maple filling", es: "Donut with maple filling", de: "Donut with maple filling", nl: "Donut with maple filling" },
-        { en: "Canadian donut", es: "Canadian donut", de: "Canadian donut", nl: "Canadian donut" },
-        { en: "Round donut with maple glaze", es: "Round donut with maple glaze", de: "Round donut with maple glaze", nl: "Round donut with maple glaze" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "A maple bar is a rectangular bar donut topped with maple-flavored frosting or glaze.",
-        es: "A maple bar is a rectangular bar donut topped with maple-flavored frosting or glaze.",
-        de: "A maple bar is a rectangular bar donut topped with maple-flavored frosting or glaze.",
-        nl: "A maple bar is a rectangular bar donut topped with maple-flavored frosting or glaze."
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
       }
-
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Donuts",
+      "es": "Pregunta 27 sobre Donuts",
+      "de": "Frage 27 über Donuts",
+      "nl": "Vraag 27 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
       }
-    ]
-  };
-
-  // Export for use in the quiz application
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level4;
-  } else if (typeof window !== 'undefined') {
-    window.level4 = level4;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Donuts",
+      "es": "Pregunta 28 sobre Donuts",
+      "de": "Frage 28 über Donuts",
+      "nl": "Vraag 28 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Donuts",
+      "es": "Pregunta 29 sobre Donuts",
+      "de": "Frage 29 über Donuts",
+      "nl": "Vraag 29 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Donuts",
+      "es": "Pregunta 30 sobre Donuts",
+      "de": "Frage 30 über Donuts",
+      "nl": "Vraag 30 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Donuts",
+      "es": "Pregunta 31 sobre Donuts",
+      "de": "Frage 31 über Donuts",
+      "nl": "Vraag 31 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Donuts",
+      "es": "Pregunta 32 sobre Donuts",
+      "de": "Frage 32 über Donuts",
+      "nl": "Vraag 32 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Donuts",
+      "es": "Pregunta 33 sobre Donuts",
+      "de": "Frage 33 über Donuts",
+      "nl": "Vraag 33 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Donuts",
+      "es": "Pregunta 34 sobre Donuts",
+      "de": "Frage 34 über Donuts",
+      "nl": "Vraag 34 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Donuts",
+      "es": "Pregunta 35 sobre Donuts",
+      "de": "Frage 35 über Donuts",
+      "nl": "Vraag 35 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Donuts",
+      "es": "Pregunta 36 sobre Donuts",
+      "de": "Frage 36 über Donuts",
+      "nl": "Vraag 36 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Donuts",
+      "es": "Pregunta 37 sobre Donuts",
+      "de": "Frage 37 über Donuts",
+      "nl": "Vraag 37 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Donuts",
+      "es": "Pregunta 38 sobre Donuts",
+      "de": "Frage 38 über Donuts",
+      "nl": "Vraag 38 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Donuts",
+      "es": "Pregunta 39 sobre Donuts",
+      "de": "Frage 39 über Donuts",
+      "nl": "Vraag 39 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Donuts",
+      "es": "Pregunta 40 sobre Donuts",
+      "de": "Frage 40 über Donuts",
+      "nl": "Vraag 40 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Donuts",
+      "es": "Pregunta 41 sobre Donuts",
+      "de": "Frage 41 über Donuts",
+      "nl": "Vraag 41 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Donuts",
+      "es": "Pregunta 42 sobre Donuts",
+      "de": "Frage 42 über Donuts",
+      "nl": "Vraag 42 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Donuts",
+      "es": "Pregunta 43 sobre Donuts",
+      "de": "Frage 43 über Donuts",
+      "nl": "Vraag 43 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Donuts",
+      "es": "Pregunta 44 sobre Donuts",
+      "de": "Frage 44 über Donuts",
+      "nl": "Vraag 44 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Donuts",
+      "es": "Pregunta 45 sobre Donuts",
+      "de": "Frage 45 über Donuts",
+      "nl": "Vraag 45 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Donuts",
+      "es": "Pregunta 46 sobre Donuts",
+      "de": "Frage 46 über Donuts",
+      "nl": "Vraag 46 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Donuts",
+      "es": "Pregunta 47 sobre Donuts",
+      "de": "Frage 47 über Donuts",
+      "nl": "Vraag 47 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Donuts",
+      "es": "Pregunta 48 sobre Donuts",
+      "de": "Frage 48 über Donuts",
+      "nl": "Vraag 48 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Donuts",
+      "es": "Pregunta 49 sobre Donuts",
+      "de": "Frage 49 über Donuts",
+      "nl": "Vraag 49 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Donuts",
+      "es": "Pregunta 50 sobre Donuts",
+      "de": "Frage 50 über Donuts",
+      "nl": "Vraag 50 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Donuts",
+      "es": "Pregunta 51 sobre Donuts",
+      "de": "Frage 51 über Donuts",
+      "nl": "Vraag 51 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Donuts",
+      "es": "Pregunta 52 sobre Donuts",
+      "de": "Frage 52 über Donuts",
+      "nl": "Vraag 52 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Donuts",
+      "es": "Pregunta 53 sobre Donuts",
+      "de": "Frage 53 über Donuts",
+      "nl": "Vraag 53 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Donuts",
+      "es": "Pregunta 54 sobre Donuts",
+      "de": "Frage 54 über Donuts",
+      "nl": "Vraag 54 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Donuts",
+      "es": "Pregunta 55 sobre Donuts",
+      "de": "Frage 55 über Donuts",
+      "nl": "Vraag 55 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Donuts",
+      "es": "Pregunta 56 sobre Donuts",
+      "de": "Frage 56 über Donuts",
+      "nl": "Vraag 56 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Donuts",
+      "es": "Pregunta 57 sobre Donuts",
+      "de": "Frage 57 über Donuts",
+      "nl": "Vraag 57 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Donuts",
+      "es": "Pregunta 58 sobre Donuts",
+      "de": "Frage 58 über Donuts",
+      "nl": "Vraag 58 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Donuts",
+      "es": "Pregunta 59 sobre Donuts",
+      "de": "Frage 59 über Donuts",
+      "nl": "Vraag 59 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Donuts",
+      "es": "Pregunta 60 sobre Donuts",
+      "de": "Frage 60 über Donuts",
+      "nl": "Vraag 60 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Donuts",
+      "es": "Pregunta 61 sobre Donuts",
+      "de": "Frage 61 über Donuts",
+      "nl": "Vraag 61 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Donuts",
+      "es": "Pregunta 62 sobre Donuts",
+      "de": "Frage 62 über Donuts",
+      "nl": "Vraag 62 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Donuts",
+      "es": "Pregunta 63 sobre Donuts",
+      "de": "Frage 63 über Donuts",
+      "nl": "Vraag 63 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Donuts",
+      "es": "Pregunta 64 sobre Donuts",
+      "de": "Frage 64 über Donuts",
+      "nl": "Vraag 64 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Donuts",
+      "es": "Pregunta 65 sobre Donuts",
+      "de": "Frage 65 über Donuts",
+      "nl": "Vraag 65 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Donuts",
+      "es": "Pregunta 66 sobre Donuts",
+      "de": "Frage 66 über Donuts",
+      "nl": "Vraag 66 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Donuts",
+      "es": "Pregunta 67 sobre Donuts",
+      "de": "Frage 67 über Donuts",
+      "nl": "Vraag 67 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Donuts",
+      "es": "Pregunta 68 sobre Donuts",
+      "de": "Frage 68 über Donuts",
+      "nl": "Vraag 68 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Donuts",
+      "es": "Pregunta 69 sobre Donuts",
+      "de": "Frage 69 über Donuts",
+      "nl": "Vraag 69 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Donuts",
+      "es": "Pregunta 70 sobre Donuts",
+      "de": "Frage 70 über Donuts",
+      "nl": "Vraag 70 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Donuts",
+      "es": "Pregunta 71 sobre Donuts",
+      "de": "Frage 71 über Donuts",
+      "nl": "Vraag 71 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Donuts",
+      "es": "Pregunta 72 sobre Donuts",
+      "de": "Frage 72 über Donuts",
+      "nl": "Vraag 72 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Donuts",
+      "es": "Pregunta 73 sobre Donuts",
+      "de": "Frage 73 über Donuts",
+      "nl": "Vraag 73 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Donuts",
+      "es": "Pregunta 74 sobre Donuts",
+      "de": "Frage 74 über Donuts",
+      "nl": "Vraag 74 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Donuts",
+      "es": "Pregunta 75 sobre Donuts",
+      "de": "Frage 75 über Donuts",
+      "nl": "Vraag 75 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Donuts",
+      "es": "Pregunta 76 sobre Donuts",
+      "de": "Frage 76 über Donuts",
+      "nl": "Vraag 76 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Donuts",
+      "es": "Pregunta 77 sobre Donuts",
+      "de": "Frage 77 über Donuts",
+      "nl": "Vraag 77 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Donuts",
+      "es": "Pregunta 78 sobre Donuts",
+      "de": "Frage 78 über Donuts",
+      "nl": "Vraag 78 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Donuts",
+      "es": "Pregunta 79 sobre Donuts",
+      "de": "Frage 79 über Donuts",
+      "nl": "Vraag 79 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Donuts",
+      "es": "Pregunta 80 sobre Donuts",
+      "de": "Frage 80 über Donuts",
+      "nl": "Vraag 80 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Donuts",
+      "es": "Pregunta 81 sobre Donuts",
+      "de": "Frage 81 über Donuts",
+      "nl": "Vraag 81 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Donuts",
+      "es": "Pregunta 82 sobre Donuts",
+      "de": "Frage 82 über Donuts",
+      "nl": "Vraag 82 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Donuts",
+      "es": "Pregunta 83 sobre Donuts",
+      "de": "Frage 83 über Donuts",
+      "nl": "Vraag 83 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Donuts",
+      "es": "Pregunta 84 sobre Donuts",
+      "de": "Frage 84 über Donuts",
+      "nl": "Vraag 84 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Donuts",
+      "es": "Pregunta 85 sobre Donuts",
+      "de": "Frage 85 über Donuts",
+      "nl": "Vraag 85 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Donuts",
+      "es": "Pregunta 86 sobre Donuts",
+      "de": "Frage 86 über Donuts",
+      "nl": "Vraag 86 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Donuts",
+      "es": "Pregunta 87 sobre Donuts",
+      "de": "Frage 87 über Donuts",
+      "nl": "Vraag 87 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Donuts",
+      "es": "Pregunta 88 sobre Donuts",
+      "de": "Frage 88 über Donuts",
+      "nl": "Vraag 88 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Donuts",
+      "es": "Pregunta 89 sobre Donuts",
+      "de": "Frage 89 über Donuts",
+      "nl": "Vraag 89 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Donuts",
+      "es": "Pregunta 90 sobre Donuts",
+      "de": "Frage 90 über Donuts",
+      "nl": "Vraag 90 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Donuts",
+      "es": "Pregunta 91 sobre Donuts",
+      "de": "Frage 91 über Donuts",
+      "nl": "Vraag 91 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Donuts",
+      "es": "Pregunta 92 sobre Donuts",
+      "de": "Frage 92 über Donuts",
+      "nl": "Vraag 92 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Donuts",
+      "es": "Pregunta 93 sobre Donuts",
+      "de": "Frage 93 über Donuts",
+      "nl": "Vraag 93 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Donuts",
+      "es": "Pregunta 94 sobre Donuts",
+      "de": "Frage 94 über Donuts",
+      "nl": "Vraag 94 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Donuts",
+      "es": "Pregunta 95 sobre Donuts",
+      "de": "Frage 95 über Donuts",
+      "nl": "Vraag 95 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Donuts",
+      "es": "Pregunta 96 sobre Donuts",
+      "de": "Frage 96 über Donuts",
+      "nl": "Vraag 96 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Donuts",
+      "es": "Pregunta 97 sobre Donuts",
+      "de": "Frage 97 über Donuts",
+      "nl": "Vraag 97 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Donuts",
+      "es": "Pregunta 98 sobre Donuts",
+      "de": "Frage 98 über Donuts",
+      "nl": "Vraag 98 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Donuts",
+      "es": "Pregunta 99 sobre Donuts",
+      "de": "Frage 99 über Donuts",
+      "nl": "Vraag 99 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Donuts",
+      "es": "Pregunta 100 sobre Donuts",
+      "de": "Frage 100 über Donuts",
+      "nl": "Vraag 100 over Donuts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Donuts",
+        "es": "Respuesta A para Donuts",
+        "de": "Antwort A für Donuts",
+        "nl": "Antwoord A voor Donuts"
+      },
+      {
+        "en": "Answer B for Donuts",
+        "es": "Respuesta B para Donuts",
+        "de": "Antwort B für Donuts",
+        "nl": "Antwoord B voor Donuts"
+      },
+      {
+        "en": "Answer C for Donuts",
+        "es": "Respuesta C para Donuts",
+        "de": "Antwort C für Donuts",
+        "nl": "Antwoord C voor Donuts"
+      },
+      {
+        "en": "Answer D for Donuts",
+        "es": "Respuesta D para Donuts",
+        "de": "Antwort D für Donuts",
+        "nl": "Antwoord D voor Donuts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Donuts.",
+      "es": "Esta es la respuesta correcta sobre Donuts.",
+      "de": "Dies ist die richtige Antwort über Donuts.",
+      "nl": "Dit is het juiste antwoord over Donuts."
+    }
   }
-})();
+]
+};

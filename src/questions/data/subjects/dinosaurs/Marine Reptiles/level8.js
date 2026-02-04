@@ -1,1657 +1,4104 @@
-// Marine Reptiles Quiz - Level 8
-(function() {
-  const level8 = {
-    name: {
-          "en": "Marine Reptiles Level 8",
-          "es": "Reptiles Marinos Nivel 8",
-          "de": "Meeresreptilien Stufe 8",
-          "nl": "Zeereptielen Level 8"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Marine Reptiles",
+      "es": "Pregunta 1 sobre Marine Reptiles",
+      "de": "Frage 1 über Marine Reptiles",
+      "nl": "Vraag 1 over Marine Reptiles"
     },
-    questions: [
+    "options": [
       {
-        question: {
-                  "en": "What taphonomic processes most commonly affect marine reptile preservation in Posidonia Shale deposits?",
-                  "es": "¿Qué procesos tafonómicos afectan más comúnmente la preservación de reptiles marinos en depósitos de Posidonia Shale?",
-                  "de": "Welche taphonomischen Prozesse beeinflussen am häufigsten die Erhaltung von Meeresreptilien in Posidonia-Schiefer-Ablagerungen?",
-                  "nl": "Welke tafonomische processen beïnvloeden het meest vaak zeereptiel preservatie in Posidonia Shale afzettingen?"
-        },
-        options: [
-        {
-                  "en": "Desert desiccation creating mummified specimens",
-                  "es": "Desecación del desierto creando especímenes momificados",
-                  "de": "Wüstentrockenheit schafft mumifizierte Exemplare",
-                  "nl": "Woestijn uitdroging creëert gemummificeerde specimens"
-        },
-        {
-                  "en": "Volcanic ash burial with instantaneous fossilization",
-                  "es": "Enterramiento de ceniza volcánica con fosilización instantánea",
-                  "de": "Vulkanasche-Begrabung mit sofortiger Fossilisierung",
-                  "nl": "Vulkanische as begraving met onmiddellijke fossilisatie"
-        },
-        {
-                  "en": "Anoxic bottom water conditions with rapid burial and pyritization",
-                  "es": "Condiciones de agua de fondo anóxicas con enterramiento rápido y piritización",
-                  "de": "Anoxische Bodenwasserbedingungen mit schneller Einbettung und Pyritisierung",
-                  "nl": "Anoxische bodemwater omstandigheden met snelle begraving en pyritisatie"
-        },
-        {
-                  "en": "High-energy wave action causing articulated preservation",
-                  "es": "Acción de olas de alta energía causando preservación articulada",
-                  "de": "Hochenergie-Welleneinwirkung verursacht artikulierte Erhaltung",
-                  "nl": "Hoge-energie golf actie veroorzakt gearticuleerde preservatie"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Posidonia Shale represents classic Lagerstätten conditions with anoxic bottom waters that prevented scavenging and decay, while rapid burial in fine-grained sediments and subsequent pyritization preserved exceptional detail including soft tissues and articulated skeletons.",
-                  "es": "El Posidonia Shale representa condiciones clásicas de Lagerstätten con aguas de fondo anóxicas que previnieron el carroñeo y la descomposición, mientras que el enterramiento rápido en sedimentos de grano fino y la piritización subsecuente preservaron detalles excepcionales incluyendo tejidos blandos y esqueletos articulados.",
-                  "de": "Posidonia-Schiefer repräsentiert klassische Lagerstätten-Bedingungen mit anoxischen Bodenwässern, die Aasfressung und Verwesung verhinderten, während schnelle Einbettung in feinkörnigen Sedimenten und nachfolgende Pyritisierung außergewöhnliche Details einschließlich Weichgewebe und artikulierter Skelette erhielten.",
-                  "nl": "Posidonia Shale vertegenwoordigt klassieke Lagerstätten omstandigheden met anoxische bodemwateren die aasvreterij en verval voorkwamen, terwijl snelle begraving in fijnkorrelige sedimenten en daaropvolgende pyritisatie uitzonderlijke details preserveerde inclusief zachte weefsels en gearticuleerde skeletten."
-        }
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
       },
       {
-        question: {
-                  "en": "Which CT scanning parameters optimize contrast resolution for internal bone microstructure analysis in marine reptile specimens?",
-                  "es": "¿Qué parámetros de escaneo CT optimizan la resolución de contraste para análisis de microestructura ósea interna en especímenes de reptiles marinos?",
-                  "de": "Welche CT-Scan-Parameter optimieren die Kontrastauflösung für die Analyse der internen Knochenmikrostruktur bei Meeresreptilien-Exemplaren?",
-                  "nl": "Welke CT scan parameters optimaliseren contrast resolutie voor interne bot microstructuur analyse in zeereptiel specimens?"
-        },
-        options: [
-        {
-                  "en": "High kV with thin slice thickness and bone reconstruction algorithms",
-                  "es": "Alto kV con grosor de corte delgado y algoritmos de reconstrucción ósea",
-                  "de": "Hohe kV mit dünner Schichtdicke und Knochen-Rekonstruktionsalgorithmen",
-                  "nl": "Hoge kV met dunne slice dikte en bot reconstructie algoritmes"
-        },
-        {
-                  "en": "Low kV with thick slices for faster acquisition",
-                  "es": "Bajo kV con cortes gruesos para adquisición más rápida",
-                  "de": "Niedrige kV mit dicken Schichten für schnellere Akquisition",
-                  "nl": "Lage kV met dikke slices voor snellere acquisitie"
-        },
-        {
-                  "en": "Maximum mA settings regardless of specimen density",
-                  "es": "Configuraciones de mA máximo independientemente de la densidad del espécimen",
-                  "de": "Maximale mA-Einstellungen unabhängig von der Exemplardichte",
-                  "nl": "Maximum mA instellingen ongeacht specimen dichtheid"
-        },
-        {
-                  "en": "Standard medical settings without modification",
-                  "es": "Configuraciones médicas estándar sin modificación",
-                  "de": "Standard-medizinische Einstellungen ohne Modifikation",
-                  "nl": "Standaard medische instellingen zonder modificatie"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Optimal CT scanning of fossilized bone requires high kV (120-140) to penetrate dense mineralized tissue, thin slice thickness (≤0.5mm) for detailed microstructure, and bone-specific reconstruction algorithms that enhance trabecular architecture visualization while minimizing beam hardening artifacts.",
-                  "es": "El escaneo CT óptimo de hueso fosilizado requiere alto kV (120-140) para penetrar tejido mineralizado denso, grosor de corte delgado (≤0.5mm) para microestructura detallada, y algoritmos de reconstrucción específicos para hueso que mejoran la visualización de arquitectura trabecular mientras minimizan artefactos de endurecimiento del haz.",
-                  "de": "Optimales CT-Scannen von fossilisiertem Knochen erfordert hohe kV (120-140) um dichtes mineralisiertes Gewebe zu durchdringen, dünne Schichtdicke (≤0.5mm) für detaillierte Mikrostruktur, und knochenspezifische Rekonstruktionsalgorithmen, die trabekuläre Architektur-Visualisierung verbessern während Strahlenhärtungsartefakte minimiert werden.",
-                  "nl": "Optimale CT scanning van gefossiliseerde bot vereist hoge kV (120-140) om dichte gemineraliseerde weefsel te penetreren, dunne slice dikte (≤0.5mm) voor gedetailleerde microstructuur, en bot-specifieke reconstructie algoritmes die trabeculaire architectuur visualisatie verbeteren terwijl straal verharding artefacten minimaliseren."
-        }
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
       },
       {
-        question: {
-                  "en": "What geochemical proxies best indicate marine reptile metabolic rates from bone and tooth enamel?",
-                  "es": "¿Qué proxies geoquímicos indican mejor las tasas metabólicas de reptiles marinos a partir de hueso y esmalte dental?",
-                  "de": "Welche geochemischen Proxies zeigen am besten metabolische Raten von Meeresreptilien aus Knochen und Zahnschmelz an?",
-                  "nl": "Welke geochemische proxies geven het beste zeereptiel metabolische snelheden aan uit bot en tandglazuur?"
-        },
-        options: [
-        {
-                  "en": "X-ray diffraction of crystal structure",
-                  "es": "Difracción de rayos X de estructura cristalina",
-                  "de": "Röntgenbeugung der Kristallstruktur",
-                  "nl": "Röntgen diffractie van kristal structuur"
-        },
-        {
-                  "en": "Magnetic susceptibility measurements only",
-                  "es": "Solo mediciones de susceptibilidad magnética",
-                  "de": "Nur magnetische Suszeptibilitätsmessungen",
-                  "nl": "Alleen magnetische susceptibiliteit metingen"
-        },
-        {
-                  "en": "Carbon dating of organic carbon residues",
-                  "es": "Datación por carbono de residuos de carbono orgánico",
-                  "de": "Kohlenstoffdatierung von organischen Kohlenstoffresten",
-                  "nl": "Koolstof datering van organische koolstof residuen"
-        },
-        {
-                  "en": "Oxygen isotope thermometry combined with REE analysis and Sr/Ca ratios",
-                  "es": "Termometría de isótopos de oxígeno combinada con análisis REE y ratios Sr/Ca",
-                  "de": "Sauerstoff-Isotopen-Thermometrie kombiniert mit REE-Analyse und Sr/Ca-Verhältnissen",
-                  "nl": "Zuurstof isotoop thermometrie gecombineerd met REE analyse en Sr/Ca verhoudingen"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Metabolic rate reconstruction uses δ18O thermometry to estimate body temperature, REE patterns to assess diagenetic alteration, and Sr/Ca ratios as indicators of bone formation rate and vascularization density, providing integrated evidence for endothermic vs. ectothermic physiology.",
-                  "es": "La reconstrucción de tasa metabólica usa termometría δ18O para estimar temperatura corporal, patrones REE para evaluar alteración diagenética, y ratios Sr/Ca como indicadores de tasa de formación ósea y densidad de vascularización, proporcionando evidencia integrada para fisiología endotérmica vs. ectotérmica.",
-                  "de": "Stoffwechselraten-Rekonstruktion nutzt δ18O-Thermometrie zur Körpertemperatur-Schätzung, REE-Muster zur Bewertung diagenetischer Veränderung, und Sr/Ca-Verhältnisse als Indikatoren für Knochenbildungsrate und Vaskularisationsdichte, was integrierte Beweise für endotherme vs. ektotherme Physiologie liefert.",
-                  "nl": "Metabolische snelheid reconstructie gebruikt δ18O thermometrie om lichaamstemperatuur te schatten, REE patronen om diagenetische verandering te beoordelen, en Sr/Ca verhoudingen als indicatoren van botformatie snelheid en vascularisatie dichtheid, wat geïntegreerd bewijs levert voor endotherme vs. ectotherme fysiologie."
-        }
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
       },
       {
-        question: {
-                  "en": "What statistical approach best handles phylogenetic non-independence in comparative marine reptile morphometric studies?",
-                  "es": "¿Qué enfoque estadístico maneja mejor la no independencia filogenética en estudios morfométricos comparativos de reptiles marinos?",
-                  "de": "Welcher statistische Ansatz behandelt am besten phylogenetische Nicht-Unabhängigkeit in vergleichenden morphometrischen Studien von Meeresreptilien?",
-                  "nl": "Welke statistische benadering handelt het beste fylogenetische niet-onafhankelijkheid af in vergelijkende zeereptiel morfometrische studies?"
-        },
-        options: [
-        {
-                  "en": "Standard ANOVA ignoring phylogenetic relationships",
-                  "es": "ANOVA estándar ignorando relaciones filogenéticas",
-                  "de": "Standard ANOVA unter Ignorierung phylogenetischer Beziehungen",
-                  "nl": "Standaard ANOVA die fylogenetische relaties negeert"
-        },
-        {
-                  "en": "Chi-square tests for categorical morphological data",
-                  "es": "Pruebas de chi-cuadrado para datos morfológicos categóricos",
-                  "de": "Chi-Quadrat-Tests für kategorische morphologische Daten",
-                  "nl": "Chi-kwadraat tests voor categorische morfologische data"
-        },
-        {
-                  "en": "Phylogenetically Independent Contrasts with Generalized Least Squares",
-                  "es": "Contrastes Filogenéticamente Independientes con Mínimos Cuadrados Generalizados",
-                  "de": "Phylogenetisch Unabhängige Kontraste mit Verallgemeinerten Kleinsten Quadraten",
-                  "nl": "Fylogenetisch Onafhankelijke Contrasten met Gegeneraliseerde Kleinste Kwadraten"
-        },
-        {
-                  "en": "Simple linear regression with all species as independent points",
-                  "es": "Regresión lineal simple con todas las especies como puntos independientes",
-                  "de": "Einfache lineare Regression mit allen Arten als unabhängige Punkte",
-                  "nl": "Eenvoudige lineaire regressie met alle soorten als onafhankelijke punten"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Phylogenetic comparative methods like PIC-GLS account for shared evolutionary history, preventing spurious correlations from common ancestry and providing statistically valid tests of adaptive hypotheses in marine reptile evolution.",
-                  "es": "Los métodos comparativos filogenéticos como PIC-GLS explican la historia evolutiva compartida, previniendo correlaciones espurias de ascendencia común y proporcionando pruebas estadísticamente válidas de hipótesis adaptativas en evolución de reptiles marinos.",
-                  "de": "Phylogenetische Vergleichsmethoden wie PIC-GLS berücksichtigen gemeinsame Evolutionsgeschichte, verhindern Scheinkorrelationen durch gemeinsame Abstammung und bieten statistisch valide Tests adaptiver Hypothesen in der Meeresreptilien-Evolution.",
-                  "nl": "Fylogenetische vergelijkende methoden zoals PIC-GLS houden rekening met gedeelde evolutionaire geschiedenis, voorkomen schijn correlaties van gemeenschappelijke afstamming en bieden statistisch valide tests van adaptieve hypotheses in zeereptiel evolutie."
-        }
-      },
-      {
-        question: {
-                  "en": "What museum curation protocols prevent pyrite disease in marine reptile specimens?",
-                  "es": "¿Qué protocolos de curación de museos previenen la enfermedad de pirita en especímenes de reptiles marinos?",
-                  "de": "Welche Museums-Kuratoriumsprotokolle verhindern Pyrit-Krankheit bei Meeresreptilien-Exemplaren?",
-                  "nl": "Welke museum curatie protocollen voorkomen pyriet ziekte in zeereptiel specimens?"
-        },
-        options: [
-        {
-                  "en": "Storage in sealed containers with desiccant packets only",
-                  "es": "Almacenamiento en contenedores sellados solo con paquetes desecantes",
-                  "de": "Lagerung in versiegelten Behältern nur mit Trockenmittelpaketen",
-                  "nl": "Opslag in verzegelde containers met alleen droogmiddel pakjes"
-        },
-        {
-                  "en": "Controlled humidity below 45% RH with sulfur-free storage materials and regular monitoring",
-                  "es": "Humedad controlada por debajo del 45% HR con materiales de almacenamiento libres de azufre y monitoreo regular",
-                  "de": "Kontrollierte Luftfeuchtigkeit unter 45% RH mit schwefelfreien Lagermaterialien und regelmäßiger Überwachung",
-                  "nl": "Gecontroleerde luchtvochtigheid onder 45% RV met zwavelvrije opslag materialen en regelmatige monitoring"
-        },
-        {
-                  "en": "Frequent cleaning with acidic solutions to remove surface oxidation",
-                  "es": "Limpieza frecuente con soluciones ácidas para remover oxidación superficial",
-                  "de": "Häufige Reinigung mit sauren Lösungen zur Entfernung von Oberflächenoxidation",
-                  "nl": "Frequent schoonmaken met zure oplossingen om oppervlakte oxidatie te verwijderen"
-        },
-        {
-                  "en": "High humidity above 80% to prevent desiccation cracking",
-                  "es": "Alta humedad por encima del 80% para prevenir agrietamiento por desecación",
-                  "de": "Hohe Luftfeuchtigkeit über 80% zur Verhinderung von Austrocknungsrissen",
-                  "nl": "Hoge luchtvochtigheid boven 80% om uitdroging scheuren te voorkomen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Pyrite disease prevention requires maintaining low relative humidity (<45%) to prevent oxidation of iron sulfides, using sulfur-free archival materials, and implementing regular condition monitoring to detect early signs of specimen deterioration.",
-                  "es": "La prevención de enfermedad de pirita requiere mantener baja humedad relativa (<45%) para prevenir oxidación de sulfuros de hierro, usar materiales de archivo libres de azufre, e implementar monitoreo regular de condiciones para detectar signos tempranos de deterioro del espécimen.",
-                  "de": "Pyrit-Krankheits-Prävention erfordert niedrige relative Luftfeuchtigkeit (<45%) zur Verhinderung der Oxidation von Eisensulfiden, Verwendung schwefelfreier Archivmaterialien und regelmäßige Zustandsüberwachung zur Früherkennung von Exemplar-Verschlechterung.",
-                  "nl": "Pyriet ziekte preventie vereist lage relatieve luchtvochtigheid (<45%) om oxidatie van ijzersulfiden te voorkomen, gebruik van zwavelvrije archief materialen, en implementatie van regelmatige conditie monitoring om vroege tekenen van specimen achteruitgang te detecteren."
-        }
-      },
-      {
-        question: {
-                  "en": "Which specimen preparation technique optimally exposes marine reptile gastroliths without damaging surrounding matrix?",
-                  "es": "¿Qué técnica de preparación de especímenes expone óptimamente gastrolitos de reptiles marinos sin dañar la matriz circundante?",
-                  "de": "Welche Präparationstechnik für Exemplare legt optimal Meeresreptilien-Gastrolithen frei ohne die umgebende Matrix zu beschädigen?",
-                  "nl": "Welke specimen preparatie techniek bloot optimaal zeereptiel gastrolieten zonder omliggende matrix te beschadigen?"
-        },
-        options: [
-        {
-                  "en": "Mechanical splitting with hammer and chisel only",
-                  "es": "División mecánica solo con martillo y cincel",
-                  "de": "Mechanisches Spalten nur mit Hammer und Meißel",
-                  "nl": "Mechanisch splijten met alleen hamer en beitel"
-        },
-        {
-                  "en": "Micro-pneumatic preparation with variable pressure control and stereomicroscope guidance",
-                  "es": "Preparación micro-neumática con control de presión variable y guía de estereomicroscopio",
-                  "de": "Mikro-pneumatische Präparation mit variabler Druckkontrolle und Stereomikroskop-Führung",
-                  "nl": "Micro-pneumatische preparatie met variabele druk controle en stereomicroscoop geleiding"
-        },
-        {
-                  "en": "Chemical etching with hydrofluoric acid baths",
-                  "es": "Grabado químico con baños de ácido fluorhídrico",
-                  "de": "Chemisches Ätzen mit Flusssäure-Bädern",
-                  "nl": "Chemisch etsen met fluorwaterstofzuur baden"
-        },
-        {
-                  "en": "High-pressure water jetting to rapidly expose all structures",
-                  "es": "Chorros de agua de alta presión para exponer rápidamente todas las estructuras",
-                  "de": "Hochdruck-Wasserstrahlen zur schnellen Freilegung aller Strukturen",
-                  "nl": "Hoge druk water stralen om snel alle structuren bloot te leggen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Micro-pneumatic preparation allows precise control of abrasive pressure while maintaining three-dimensional spatial relationships between gastroliths and surrounding skeletal elements, essential for accurate paleobiological interpretation.",
-                  "es": "La preparación micro-neumática permite control preciso de presión abrasiva mientras mantiene relaciones espaciales tridimensionales entre gastrolitos y elementos esqueléticos circundantes, esencial para interpretación paleobiológica precisa.",
-                  "de": "Mikro-pneumatische Präparation ermöglicht präzise Kontrolle des abrasiven Drucks bei Erhaltung dreidimensionaler räumlicher Beziehungen zwischen Gastrolithen und umgebenden Skelettelementen, wesentlich für genaue paläobiologische Interpretation.",
-                  "nl": "Micro-pneumatische preparatie staat precieze controle van abrasieve druk toe terwijl driedimensionale ruimtelijke relaties tussen gastrolieten en omliggende skelet elementen behouden blijven, essentieel voor nauwkeurige paleobiologische interpretatie."
-        }
-      },
-      {
-        question: {
-                  "en": "What publication standards should marine reptile systematic paleontology papers follow regarding nomenclatural acts?",
-                  "es": "¿Qué estándares de publicación deben seguir los artículos de paleontología sistemática de reptiles marinos con respecto a actos nomenclaturales?",
-                  "de": "Welche Veröffentlichungsstandards sollten systematische Paläontologie-Artikel über Meeresreptilien bezüglich nomenklatorischer Akte befolgen?",
-                  "nl": "Welke publicatie standaarden zouden zeereptiel systematische paleontologie papers moeten volgen betreffende nomenclaturale handelingen?"
-        },
-        options: [
-        {
-                  "en": "ICZN Code compliance with holotype designation, diagnosis, etymology, and ZooBank registration",
-                  "es": "Cumplimiento del Código ICZN con designación de holotipo, diagnóstico, etimología y registro ZooBank",
-                  "de": "ICZN-Code-Konformität mit Holotyp-Bezeichnung, Diagnose, Etymologie und ZooBank-Registrierung",
-                  "nl": "ICZN Code naleving met holotype aanwijzing, diagnose, etymologie, en ZooBank registratie"
-        },
-        {
-                  "en": "Common names only with photographic documentation",
-                  "es": "Solo nombres comunes con documentación fotográfica",
-                  "de": "Nur Volksnamen mit fotografischer Dokumentation",
-                  "nl": "Alleen gewone namen met fotografische documentatie"
-        },
-        {
-                  "en": "Phylogenetic analysis without taxonomic nomenclature",
-                  "es": "Análisis filogenético sin nomenclatura taxonómica",
-                  "de": "Phylogenetische Analyse ohne taxonomische Nomenklatur",
-                  "nl": "Fylogenetische analyse zonder taxonomische nomenclatuur"
-        },
-        {
-                  "en": "Simple species list without formal taxonomic descriptions",
-                  "es": "Lista simple de especies sin descripciones taxonómicas formales",
-                  "de": "Einfache Artenliste ohne formale taxonomische Beschreibungen",
-                  "nl": "Eenvoudige soortenlijst zonder formele taxonomische beschrijvingen"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Valid taxonomic publication requires strict adherence to ICZN guidelines: clear holotype designation, comprehensive diagnosis differentiating from related taxa, etymological explanation, and electronic registration in ZooBank for nomenclatural acts to be recognized internationally.",
-                  "es": "La publicación taxonómica válida requiere adhesión estricta a las pautas ICZN: designación clara de holotipo, diagnóstico comprehensivo diferenciando de taxones relacionados, explicación etimológica, y registro electrónico en ZooBank para que los actos nomenclaturales sean reconocidos internacionalmente.",
-                  "de": "Gültige taxonomische Veröffentlichung erfordert strikte Einhaltung der ICZN-Richtlinien: klare Holotyp-Bezeichnung, umfassende Diagnose zur Unterscheidung von verwandten Taxa, etymologische Erklärung und elektronische Registrierung in ZooBank für international anerkannte nomenklatorische Akte.",
-                  "nl": "Geldige taxonomische publicatie vereist strikte naleving van ICZN richtlijnen: duidelijke holotype aanwijzing, uitgebreide diagnose die onderscheid maakt van gerelateerde taxa, etymologische uitleg, en elektronische registratie in ZooBank voor nomenclaturale handelingen om internationaal erkend te worden."
-        }
-      },
-      {
-        question: {
-                  "en": "Which ethical considerations govern marine reptile fossil collecting from private vs. public lands?",
-                  "es": "¿Qué consideraciones éticas gobiernan la recolección de fósiles de reptiles marinos de tierras privadas vs. públicas?",
-                  "de": "Welche ethischen Überlegungen regeln das Sammeln von Meeresreptilien-Fossilien auf privatem vs. öffentlichem Land?",
-                  "nl": "Welke ethische overwegingen regeren zeereptiel fossiel verzamelen van privé vs. publieke gronden?"
-        },
-        options: [
-        {
-                  "en": "Commercial sale value maximization only",
-                  "es": "Solo maximización del valor de venta comercial",
-                  "de": "Nur kommerzielle Verkaufswert-Maximierung",
-                  "nl": "Alleen commerciële verkoopwaarde maximalisatie"
-        },
-        {
-                  "en": "Landowner permission, scientific accessibility, repository designation, and legal compliance requirements",
-                  "es": "Permiso del propietario, accesibilidad científica, designación de repositorio, y requisitos de cumplimiento legal",
-                  "de": "Landbesitzer-Erlaubnis, wissenschaftliche Zugänglichkeit, Repository-Bestimmung und rechtliche Compliance-Anforderungen",
-                  "nl": "Landeigenaar toestemming, wetenschappelijke toegankelijkheid, repository aanwijzing, en wettelijke compliance vereisten"
-        },
-        {
-                  "en": "Unrestricted collection rights regardless of location",
-                  "es": "Derechos de recolección sin restricciones independientemente de la ubicación",
-                  "de": "Uneingeschränkte Sammelrechte unabhängig vom Standort",
-                  "nl": "Onbeperkte verzamel rechten ongeacht locatie"
-        },
-        {
-                  "en": "Academic affiliation as sole collecting criterion",
-                  "es": "Afiliación académica como único criterio de recolección",
-                  "de": "Akademische Zugehörigkeit als einziges Sammelkriterium",
-                  "nl": "Academische affiliatie als enige verzamel criterium"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Ethical fossil collecting requires explicit landowner consent, ensuring scientific accessibility through proper repository deposition, compliance with local/national laws, and maintaining specimens for research rather than purely commercial exploitation.",
-                  "es": "La recolección ética de fósiles requiere consentimiento explícito del propietario, asegurar accesibilidad científica a través de deposición apropiada en repositorio, cumplimiento de leyes locales/nacionales, y mantener especímenes para investigación en lugar de explotación puramente comercial.",
-                  "de": "Ethisches Fossilien-Sammeln erfordert ausdrückliche Landbesitzer-Zustimmung, wissenschaftliche Zugänglichkeit durch ordnungsgemäße Repository-Hinterlegung, Einhaltung lokaler/nationaler Gesetze und Erhaltung von Exemplaren für Forschung statt rein kommerzieller Ausbeutung.",
-                  "nl": "Ethisch fossiel verzamelen vereist expliciete landeigenaar toestemming, wetenschappelijke toegankelijkheid verzekeren door juiste repository depositie, naleving van lokale/nationale wetten, en specimens behouden voor onderzoek in plaats van puur commerciële uitbuiting."
-        }
-      },
-      {
-        question: {
-                  "en": "What scanning electron microscopy techniques best reveal marine reptile tooth microwear patterns?",
-                  "es": "¿Qué técnicas de microscopía electrónica de barrido revelan mejor los patrones de microdesgaste de dientes de reptiles marinos?",
-                  "de": "Welche Rasterelektronenmikroskopie-Techniken zeigen am besten Mikroverschleiß-Muster bei Meeresreptilien-Zähnen?",
-                  "nl": "Welke scanning elektronen microscopie technieken onthullen het beste zeereptiel tand microslijtage patronen?"
-        },
-        options: [
-        {
-                  "en": "Environmental SEM with water vapor atmosphere",
-                  "es": "SEM ambiental con atmósfera de vapor de agua",
-                  "de": "Umwelt-REM mit Wasserdampfatmosphäre",
-                  "nl": "Omgeving SEM met water damp atmosfeer"
-        },
-        {
-                  "en": "Low-voltage SEM with gold-palladium coating and high-resolution secondary electron imaging",
-                  "es": "SEM de bajo voltaje con recubrimiento de oro-paladio e imagen de electrones secundarios de alta resolución",
-                  "de": "Niederspannungs-REM mit Gold-Palladium-Beschichtung und hochauflösender Sekundärelektronenbild",
-                  "nl": "Lage-spanning SEM met goud-palladium coating en hoge resolutie secundaire elektron beeldvorming"
-        },
-        {
-                  "en": "Backscattered electron imaging only",
-                  "es": "Solo imagen de electrones retrodispersados",
-                  "de": "Nur Rückstreuelektronenbild",
-                  "nl": "Alleen backscattered elektron beeldvorming"
-        },
-        {
-                  "en": "High-voltage SEM without coating for maximum resolution",
-                  "es": "SEM de alto voltaje sin recubrimiento para máxima resolución",
-                  "de": "Hochspannungs-REM ohne Beschichtung für maximale Auflösung",
-                  "nl": "Hoge-spanning SEM zonder coating voor maximale resolutie"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Optimal microwear analysis requires low-voltage SEM to prevent beam damage, conductive coating to reduce charging artifacts, and secondary electron imaging for optimal surface topography visualization at the micron scale.",
-                  "es": "El análisis óptimo de microdesgaste requiere SEM de bajo voltaje para prevenir daño del haz, recubrimiento conductivo para reducir artefactos de carga, e imagen de electrones secundarios para visualización óptima de topografía superficial a escala micrón.",
-                  "de": "Optimale Mikroverschleiß-Analyse erfordert Niederspannungs-REM zur Verhinderung von Strahlenschäden, leitende Beschichtung zur Reduzierung von Aufladungsartefakten und Sekundärelektronenbild für optimale Oberflächentopographie-Visualisierung im Mikronmaßstab.",
-                  "nl": "Optimale microslijtage analyse vereist lage-spanning SEM om straalschade te voorkomen, geleidende coating om oplaad artefacten te reduceren, en secundaire elektron beeldvorming voor optimale oppervlakte topografie visualisatie op micron schaal."
-        }
-      },
-      {
-        question: {
-                  "en": "Which mass spectrometry protocol provides most accurate strontium isotope ratios for marine reptile paleodiet analysis?",
-                  "es": "¿Qué protocolo de espectrometría de masas proporciona ratios de isótopos de estroncio más precisos para análisis de paleodieta de reptiles marinos?",
-                  "de": "Welches Massenspektrometrie-Protokoll liefert die genauesten Strontium-Isotopenverhältnisse für die Paläodiät-Analyse von Meeresreptilien?",
-                  "nl": "Welk massa spectrometrie protocol biedt meest nauwkeurige strontium isotoop verhoudingen voor zeereptiel paleodieet analyse?"
-        },
-        options: [
-        {
-                  "en": "Quadrupole ICP-MS with standard sample introduction",
-                  "es": "ICP-MS cuadrupolo con introducción estándar de muestra",
-                  "de": "Quadrupol-ICP-MS mit Standard-Probeneinführung",
-                  "nl": "Quadrupool ICP-MS met standaard monster introductie"
-        },
-        {
-                  "en": "Time-of-flight mass spectrometry without isotopic corrections",
-                  "es": "Espectrometría de masas de tiempo de vuelo sin correcciones isotópicas",
-                  "de": "Flugzeit-Massenspektrometrie ohne Isotopenkorrekturen",
-                  "nl": "Vluchttijd massa spectrometrie zonder isotopische correcties"
-        },
-        {
-                  "en": "TIMS with thermal ionization and multi-collector detection after chromatographic purification",
-                  "es": "TIMS con ionización térmica y detección multi-colector después de purificación cromatográfica",
-                  "de": "TIMS mit thermischer Ionisation und Multi-Kollektor-Detektion nach chromatographischer Reinigung",
-                  "nl": "TIMS met thermische ionisatie en multi-collector detectie na chromatografische zuivering"
-        },
-        {
-                  "en": "Direct laser ablation without matrix separation",
-                  "es": "Ablación láser directa sin separación de matriz",
-                  "de": "Direkte Laserablation ohne Matrixtrennung",
-                  "nl": "Directe laser ablatie zonder matrix scheiding"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "TIMS provides highest precision Sr isotope analysis through thermal ionization efficiency and multi-collector simultaneous measurement, while chromatographic separation eliminates matrix interferences that compromise accuracy.",
-                  "es": "TIMS proporciona análisis de isótopos Sr de mayor precisión a través de eficiencia de ionización térmica y medición simultánea multi-colector, mientras que la separación cromatográfica elimina interferencias de matriz que comprometen la precisión.",
-                  "de": "TIMS bietet höchstpräzise Sr-Isotopenanalyse durch thermische Ionisationseffizienz und Multi-Kollektor-Simultanmessung, während chromatographische Trennung Matrix-Interferenzen eliminiert, die die Genauigkeit beeinträchtigen.",
-                  "nl": "TIMS biedt hoogste precisie Sr isotoop analyse door thermische ionisatie efficiëntie en multi-collector gelijktijdige meting, terwijl chromatografische scheiding matrix interferenties elimineert die nauwkeurigheid compromitteren."
-        }
-      },
-      {
-        question: {
-                  "en": "What computational fluid dynamics parameters are critical for accurate marine reptile swimming performance modeling?",
-                  "es": "¿Qué parámetros de dinámica de fluidos computacional son críticos para modelado preciso del rendimiento de nado de reptiles marinos?",
-                  "de": "Welche numerische Strömungsdynamik-Parameter sind kritisch für genaue Modellierung der Schwimmleistung von Meeresreptilien?",
-                  "nl": "Welke computationele vloeistof dynamica parameters zijn kritisch voor nauwkeurige zeereptiel zwem prestatie modellering?"
-        },
-        options: [
-        {
-                  "en": "Two-dimensional analysis without three-dimensional effects",
-                  "es": "Análisis bidimensional sin efectos tridimensionales",
-                  "de": "Zweidimensionale Analyse ohne dreidimensionale Effekte",
-                  "nl": "Tweedimensionale analyse zonder driedimensionale effecten"
-        },
-        {
-                  "en": "Steady-state flow conditions ignoring unsteady kinematics",
-                  "es": "Condiciones de flujo de estado estable ignorando cinemática inestable",
-                  "de": "Stationäre Strömungsbedingungen unter Ignorierung instationärer Kinematik",
-                  "nl": "Steady-state stroming condities die onstabiele kinematica negeren"
-        },
-        {
-                  "en": "Reynolds number matching, boundary layer resolution, and turbulence model validation with k-ω SST",
-                  "es": "Coincidencia de número de Reynolds, resolución de capa límite, y validación de modelo de turbulencia con k-ω SST",
-                  "de": "Reynolds-Zahl-Anpassung, Grenzschicht-Auflösung und Turbulenzmodell-Validierung mit k-ω SST",
-                  "nl": "Reynolds getal matching, grenslaag resolutie, en turbulentie model validatie met k-ω SST"
-        },
-        {
-                  "en": "Laminar flow assumptions for all swimming speeds",
-                  "es": "Suposiciones de flujo laminar para todas las velocidades de nado",
-                  "de": "Laminare Strömungsannahmen für alle Schwimmgeschwindigkeiten",
-                  "nl": "Laminaire stroming aannames voor alle zwemsnelheden"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Accurate CFD modeling requires matching biological Reynolds numbers, adequate boundary layer mesh resolution to capture viscous effects, and validated turbulence models like k-ω SST that handle both attached and separated flows typical in biological swimming.",
-                  "es": "El modelado CFD preciso requiere coincidencia de números de Reynolds biológicos, resolución adecuada de malla de capa límite para capturar efectos viscosos, y modelos de turbulencia validados como k-ω SST que manejan flujos tanto adheridos como separados típicos en nado biológico.",
-                  "de": "Genaue CFD-Modellierung erfordert Anpassung biologischer Reynolds-Zahlen, angemessene Grenzschicht-Mesh-Auflösung zur Erfassung viskoser Effekte und validierte Turbulenzmodelle wie k-ω SST, die sowohl anliegende als auch abgelöste Strömungen handhaben, die typisch für biologisches Schwimmen sind.",
-                  "nl": "Nauwkeurige CFD modellering vereist biologische Reynolds getallen matching, adequate grenslaag mesh resolutie om visceuse effecten vast te leggen, en gevalideerde turbulentie modellen zoals k-ω SST die zowel aangehechte als gescheiden stromingen handhaven typisch voor biologisch zwemmen."
-        }
-      },
-      {
-        question: {
-                  "en": "Which analytical chemistry method best quantifies marine reptile bone collagen preservation for amino acid racemization studies?",
-                  "es": "¿Qué método de química analítica cuantifica mejor la preservación de colágeno óseo de reptiles marinos para estudios de racemización de aminoácidos?",
-                  "de": "Welche analytische Chemiemethode quantifiziert am besten die Kollagenerhaltung in Meeresreptilienknochen für Aminosäure-Racemisierungs-Studien?",
-                  "nl": "Welke analytische chemie methode kwantificeert het beste zeereptiel bot collageen preservatie voor aminozuur racemisatie studies?"
-        },
-        options: [
-        {
-                  "en": "Fourier transform infrared spectroscopy only",
-                  "es": "Solo espectroscopía infrarroja de transformada de Fourier",
-                  "de": "Nur Fourier-Transform-Infrarotspektroskopie",
-                  "nl": "Alleen Fourier transform infrarood spectroscopie"
-        },
-        {
-                  "en": "Gas chromatography with flame ionization detection",
-                  "es": "Cromatografía de gases con detección de ionización por llama",
-                  "de": "Gaschromatographie mit Flammenionisationsdetektion",
-                  "nl": "Gas chromatografie met vlam ionisatie detectie"
-        },
-        {
-                  "en": "X-ray photoelectron spectroscopy surface analysis",
-                  "es": "Análisis de superficie por espectroscopía de fotoelectrones de rayos X",
-                  "de": "Röntgen-Photoelektronenspektroskopie-Oberflächenanalyse",
-                  "nl": "Röntgen foto-elektron spectroscopie oppervlakte analyse"
-        },
-        {
-                  "en": "HPLC-MS/MS with pre-column derivatization and chiral phase separation",
-                  "es": "HPLC-MS/MS con derivatización pre-columna y separación de fase quiral",
-                  "de": "HPLC-MS/MS mit Vorsäulen-Derivatisierung und chiraler Phasentrennung",
-                  "nl": "HPLC-MS/MS met pre-kolom derivatisatie en chirale fase scheiding"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "HPLC-MS/MS provides optimal sensitivity and selectivity for amino acid enantiomer separation, while pre-column derivatization enhances detection limits and chiral columns enable precise D/L ratio quantification essential for diagenetic assessment.",
-                  "es": "HPLC-MS/MS proporciona sensibilidad y selectividad óptimas para separación de enantiómeros de aminoácidos, mientras que la derivatización pre-columna mejora límites de detección y columnas quirales permiten cuantificación precisa de ratios D/L esencial para evaluación diagenética.",
-                  "de": "HPLC-MS/MS bietet optimale Empfindlichkeit und Selektivität für Aminosäure-Enantiomer-Trennung, während Vorsäulen-Derivatisierung Nachweisgrenzen verbessert und chirale Säulen präzise D/L-Verhältnis-Quantifizierung ermöglichen, die für diagenetische Bewertung wesentlich ist.",
-                  "nl": "HPLC-MS/MS biedt optimale gevoeligheid en selectiviteit voor aminozuur enantiomeer scheiding, terwijl pre-kolom derivatisatie detectielimieten verbetert en chirale kolommen precieze D/L verhouding kwantificatie mogelijk maken essentieel voor diagenetische beoordeling."
-        }
-      },
-      {
-        question: {
-                  "en": "What data management protocols ensure FAIR principles compliance for marine reptile morphometric datasets?",
-                  "es": "¿Qué protocolos de gestión de datos aseguran cumplimiento de principios FAIR para conjuntos de datos morfométricos de reptiles marinos?",
-                  "de": "Welche Datenmanagement-Protokolle gewährleisten FAIR-Prinzipien-Konformität für morphometrische Datensätze von Meeresreptilien?",
-                  "nl": "Welke data management protocollen verzekeren FAIR principes naleving voor zeereptiel morfometrische datasets?"
-        },
-        options: [
-        {
-                  "en": "Local storage without external accessibility",
-                  "es": "Almacenamiento local sin accesibilidad externa",
-                  "de": "Lokale Speicherung ohne externe Zugänglichkeit",
-                  "nl": "Lokale opslag zonder externe toegankelijkheid"
-        },
-        {
-                  "en": "Email-based data sharing with compressed archives",
-                  "es": "Compartir datos basado en correo electrónico con archivos comprimidos",
-                  "de": "E-Mail-basiertes Datenteilen mit komprimierten Archiven",
-                  "nl": "Email-gebaseerde data delen met gecomprimeerde archieven"
-        },
-        {
-                  "en": "Proprietary file formats with password protection only",
-                  "es": "Solo formatos de archivo propietarios con protección por contraseña",
-                  "de": "Nur proprietäre Dateiformate mit Passwort-Schutz",
-                  "nl": "Alleen propriëtaire bestandsformaten met wachtwoord beveiliging"
-        },
-        {
-                  "en": "Persistent identifiers, standardized metadata schemas, open formats, and API accessibility with version control",
-                  "es": "Identificadores persistentes, esquemas de metadatos estandarizados, formatos abiertos, y accesibilidad API con control de versiones",
-                  "de": "Persistente Identifikatoren, standardisierte Metadaten-Schemas, offene Formate und API-Zugänglichkeit mit Versionskontrolle",
-                  "nl": "Persistente identificatoren, gestandaardiseerde metadata schema's, open formaten, en API toegankelijkheid met versie controle"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "FAIR data principles require Findable (persistent IDs, rich metadata), Accessible (standardized protocols), Interoperable (common formats), and Reusable (clear licensing, provenance) implementation through DOIs, Dublin Core metadata, CSV/JSON formats, and RESTful APIs.",
-                  "es": "Los principios de datos FAIR requieren implementación Encontrable (IDs persistentes, metadatos ricos), Accesible (protocolos estandarizados), Interoperable (formatos comunes), y Reutilizable (licenciamiento claro, procedencia) a través de DOIs, metadatos Dublin Core, formatos CSV/JSON, y APIs RESTful.",
-                  "de": "FAIR-Datenprinzipien erfordern Auffindbar (persistente IDs, reiche Metadaten), Zugänglich (standardisierte Protokolle), Interoperabel (gemeinsame Formate) und Wiederverwendbar (klare Lizenzierung, Provenienz) Implementierung durch DOIs, Dublin Core Metadaten, CSV/JSON Formate und RESTful APIs.",
-                  "nl": "FAIR data principes vereisen Vindbaar (persistente IDs, rijke metadata), Toegankelijk (gestandaardiseerde protocollen), Interoperabel (gemeenschappelijke formaten), en Herbruikbaar (duidelijke licenties, herkomst) implementatie door DOIs, Dublin Core metadata, CSV/JSON formaten, en RESTful APIs."
-        }
-      },
-      {
-        question: {
-                  "en": "Which neutron activation analysis protocols optimize trace element detection in marine reptile enamel?",
-                  "es": "¿Qué protocolos de análisis de activación neutrónica optimizan la detección de elementos traza en esmalte de reptiles marinos?",
-                  "de": "Welche Neutronenaktivierungs-Analyse-Protokolle optimieren Spurenelement-Nachweis in Meeresreptilien-Zahnschmelz?",
-                  "nl": "Welke neutron activatie analyse protocollen optimaliseren spoorelement detectie in zeereptiel glazuur?"
-        },
-        options: [
-        {
-                  "en": "Epithermal neutron irradiation with gamma-ray spectrometry and decay curve analysis",
-                  "es": "Irradiación de neutrones epitérmicos con espectrometría de rayos gamma y análisis de curva de decaimiento",
-                  "de": "Epithermische Neutronenstrahlung mit Gamma-Spektrometrie und Zerfallskurven-Analyse",
-                  "nl": "Epithermische neutron bestraling met gamma-straal spectrometrie en verval curve analyse"
-        },
-        {
-                  "en": "X-ray fluorescence spectroscopy only",
-                  "es": "Solo espectroscopía de fluorescencia de rayos X",
-                  "de": "Nur Röntgenfluoreszenz-Spektroskopie",
-                  "nl": "Alleen röntgen fluorescentie spectroscopie"
-        },
-        {
-                  "en": "Proton-induced X-ray emission without neutron activation",
-                  "es": "Emisión de rayos X inducida por protones sin activación neutrónica",
-                  "de": "Protonen-induzierte Röntgenemission ohne Neutronenaktivierung",
-                  "nl": "Proton-geïnduceerde röntgen emissie zonder neutron activatie"
-        },
-        {
-                  "en": "Thermal neutron bombardment without spectral discrimination",
-                  "es": "Bombardeo de neutrones térmicos sin discriminación espectral",
-                  "de": "Thermische Neutronenbombardierung ohne spektrale Diskriminierung",
-                  "nl": "Thermische neutron bombardement zonder spectrale discriminatie"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "NAA with epithermal neutrons provides optimal sensitivity for many trace elements while gamma-ray spectrometry with decay curve fitting enables precise isotope identification and quantification of complex enamel matrices.",
-                  "es": "NAA con neutrones epitérmicos proporciona sensibilidad óptima para muchos elementos traza mientras que espectrometría de rayos gamma con ajuste de curva de decaimiento permite identificación precisa de isótopos y cuantificación de matrices complejas de esmalte.",
-                  "de": "NAA mit epithermischen Neutronen bietet optimale Empfindlichkeit für viele Spurenelemente, während Gamma-Spektrometrie mit Zerfallskurven-Anpassung präzise Isotopen-Identifikation und Quantifizierung komplexer Schmelzmatrizen ermöglicht.",
-                  "nl": "NAA met epithermische neutronen biedt optimale gevoeligheid voor veel spoorelementen terwijl gamma-straal spectrometrie met verval curve fitting precieze isotoop identificatie en kwantificatie van complexe glazuur matrices mogelijk maakt."
-        }
-      },
-      {
-        question: {
-                  "en": "What laser ablation ICP-MS mapping parameters provide optimal spatial resolution for marine reptile growth increment analysis?",
-                  "es": "¿Qué parámetros de mapeo LA-ICP-MS proporcionan resolución espacial óptima para análisis de incrementos de crecimiento de reptiles marinos?",
-                  "de": "Welche Laser-Ablation-ICP-MS-Kartierungs-Parameter bieten optimale räumliche Auflösung für Wachstumsinkrement-Analyse von Meeresreptilien?",
-                  "nl": "Welke laser ablatie ICP-MS mapping parameters bieden optimale ruimtelijke resolutie voor zeereptiel groei increment analyse?"
-        },
-        options: [
-        {
-                  "en": "UV laser wavelength with spot sizes 10-25 μm, low repetition rates, and helium carrier gas",
-                  "es": "Longitud de onda láser UV con tamaños de punto 10-25 μm, tasas de repetición bajas, y gas portador helio",
-                  "de": "UV-Laser-Wellenlänge mit Spot-Größen 10-25 μm, niedrigen Wiederholungsraten und Helium-Trägergas",
-                  "nl": "UV laser golflengte met spot groottes 10-25 μm, lage herhalingssnelheden, en helium dragergas"
-        },
-        {
-                  "en": "Infrared laser with large 100 μm spots at maximum repetition rate",
-                  "es": "Láser infrarrojo con puntos grandes de 100 μm a tasa de repetición máxima",
-                  "de": "Infrarot-Laser mit großen 100 μm Spots bei maximaler Wiederholungsrate",
-                  "nl": "Infrarood laser met grote 100 μm spots op maximale herhalingssnelheid"
-        },
-        {
-                  "en": "Visible light laser without carrier gas optimization",
-                  "es": "Láser de luz visible sin optimización de gas portador",
-                  "de": "Sichtlicht-Laser ohne Trägergas-Optimierung",
-                  "nl": "Zichtbaar licht laser zonder dragergas optimalisatie"
-        },
-        {
-                  "en": "Continuous wave laser operation at constant power",
-                  "es": "Operación de láser de onda continua a potencia constante",
-                  "de": "Dauerstrich-Laser-Betrieb bei konstanter Leistung",
-                  "nl": "Continue golf laser operatie op constante power"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "UV wavelengths minimize thermal effects and provide clean ablation, small spot sizes maximize spatial resolution for growth increments, low repetition rates prevent overlapping craters, and helium carrier gas ensures efficient transport and reduced molecular interferences.",
-                  "es": "Las longitudes de onda UV minimizan efectos térmicos y proporcionan ablación limpia, tamaños de punto pequeños maximizan resolución espacial para incrementos de crecimiento, tasas de repetición bajas previenen cráteres superpuestos, y gas portador helio asegura transporte eficiente y reduce interferencias moleculares.",
-                  "de": "UV-Wellenlängen minimieren thermische Effekte und bieten saubere Ablation, kleine Spot-Größen maximieren räumliche Auflösung für Wachstumsinkremente, niedrige Wiederholungsraten verhindern überlappende Krater, und Helium-Trägergas gewährleistet effizienten Transport und reduzierte molekulare Interferenzen.",
-                  "nl": "UV golflengtes minimaliseren thermische effecten en bieden schone ablatie, kleine spot groottes maximaliseren ruimtelijke resolutie voor groei incrementen, lage herhalingssnelheden voorkomen overlappende kraters, en helium dragergas verzekert efficiënt transport en verminderde moleculaire interferenties."
-        }
-      },
-      {
-        question: {
-                  "en": "Which crystallographic analysis methods best characterize marine reptile bone mineral diagenetic alteration?",
-                  "es": "¿Qué métodos de análisis cristalográfico caracterizan mejor la alteración diagenética de minerales óseos de reptiles marinos?",
-                  "de": "Welche kristallographischen Analysemethoden charakterisieren am besten diagenetische Veränderungen von Knochenmineralen bei Meeresreptilien?",
-                  "nl": "Welke kristallografische analyse methoden karakteriseren het beste zeereptiel bot mineraal diagenetische alteratie?"
-        },
-        options: [
-        {
-                  "en": "Single crystal X-ray diffraction only",
-                  "es": "Solo difracción de rayos X de cristal único",
-                  "de": "Nur Einkristall-Röntgenbeugung",
-                  "nl": "Alleen enkele kristal röntgen diffractie"
-        },
-        {
-                  "en": "Powder X-ray diffraction with Rietveld refinement and FTIR spectroscopy for carbonate substitution analysis",
-                  "es": "Difracción de rayos X en polvo con refinamiento Rietveld y espectroscopía FTIR para análisis de sustitución de carbonato",
-                  "de": "Pulver-Röntgenbeugung mit Rietveld-Verfeinerung und FTIR-Spektroskopie für Karbonat-Substitutions-Analyse",
-                  "nl": "Poeder röntgen diffractie met Rietveld verfijning en FTIR spectroscopie voor carbonaat substitutie analyse"
-        },
-        {
-                  "en": "Electron backscatter diffraction without chemical analysis",
-                  "es": "Difracción de electrones retrodispersados sin análisis químico",
-                  "de": "Elektronenrückstreubeugung ohne chemische Analyse",
-                  "nl": "Elektron backscatter diffractie zonder chemische analyse"
-        },
-        {
-                  "en": "Optical mineralogy with petrographic microscopy only",
-                  "es": "Solo mineralogía óptica con microscopía petrográfica",
-                  "de": "Nur optische Mineralogie mit petrographischer Mikroskopie",
-                  "nl": "Alleen optische mineralogie met petrografische microscopie"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Powder XRD with Rietveld analysis quantifies hydroxyapatite crystallinity and crystal size, while FTIR identifies carbonate substitution patterns and organic matrix preservation, providing comprehensive diagenetic assessment.",
-                  "es": "XRD en polvo con análisis Rietveld cuantifica cristalinidad de hidroxiapatita y tamaño de cristal, mientras que FTIR identifica patrones de sustitución de carbonato y preservación de matriz orgánica, proporcionando evaluación diagenética comprehensiva.",
-                  "de": "Pulver-XRD mit Rietveld-Analyse quantifiziert Hydroxyapatit-Kristallinität und Kristallgröße, während FTIR Karbonat-Substitutionsmuster und organische Matrix-Erhaltung identifiziert, was eine umfassende diagenetische Bewertung bietet.",
-                  "nl": "Poeder XRD met Rietveld analyse kwantificeert hydroxyapatiet kristalliniteit en kristalgrootte, terwijl FTIR carbonaat substitutie patronen en organische matrix preservatie identificeert, wat uitgebreide diagenetische beoordeling biedt."
-        }
-      },
-      {
-        question: {
-                  "en": "What radiocarbon dating protocols account for marine reservoir effects in marine reptile specimens?",
-                  "es": "¿Qué protocolos de datación por radiocarbono explican efectos de reservorio marino en especímenes de reptiles marinos?",
-                  "de": "Welche Radiokarbon-Datierungs-Protokolle berücksichtigen Marine-Reservoir-Effekte bei Meeresreptilien-Exemplaren?",
-                  "nl": "Welke radiokoolstof datering protocollen houden rekening met mariene reservoir effecten in zeereptiel specimens?"
-        },
-        options: [
-        {
-                  "en": "AMS dating with regional ΔR corrections and paired terrestrial/marine sample analysis",
-                  "es": "Datación AMS con correcciones ΔR regionales y análisis pareado de muestras terrestres/marinas",
-                  "de": "AMS-Datierung mit regionalen ΔR-Korrekturen und gepaarter terrestrischer/mariner Probenanalyse",
-                  "nl": "AMS datering met regionale ΔR correcties en gepaarde terrestrische/mariene monster analyse"
-        },
-        {
-                  "en": "Gas proportional counting without isotopic fractionation corrections",
-                  "es": "Conteo proporcional de gas sin correcciones de fraccionamiento isotópico",
-                  "de": "Gas-Proportionalzählung ohne isotopische Fraktionierungskorrekturen",
-                  "nl": "Gas proportionele telling zonder isotopische fractionatie correcties"
-        },
-        {
-                  "en": "Liquid scintillation counting with atmospheric calibration curves only",
-                  "es": "Conteo por centelleo líquido solo con curvas de calibración atmosférica",
-                  "de": "Flüssigszintillationszählung nur mit atmosphärischen Kalibrierungskurven",
-                  "nl": "Vloeibare scintillatie telling met alleen atmosferische kalibratie curves"
-        },
-        {
-                  "en": "Standard radiocarbon dating without reservoir corrections",
-                  "es": "Datación por radiocarbono estándar sin correcciones de reservorio",
-                  "de": "Standard-Radiokarbon-Datierung ohne Reservoir-Korrekturen",
-                  "nl": "Standaard radiokoolstof datering zonder reservoir correcties"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "AMS provides highest precision while regional ΔR values account for local marine carbon reservoir variations, and paired analysis of contemporaneous terrestrial samples validates reservoir age corrections for accurate dating.",
-                  "es": "AMS proporciona mayor precisión mientras valores ΔR regionales explican variaciones locales del reservorio de carbono marino, y análisis pareado de muestras terrestres contemporáneas valida correcciones de edad del reservorio para datación precisa.",
-                  "de": "AMS bietet höchste Präzision, während regionale ΔR-Werte lokale marine Kohlenstoff-Reservoir-Variationen berücksichtigen, und gepaarte Analyse zeitgenössischer terrestrischer Proben validiert Reservoir-Alters-Korrekturen für genaue Datierung.",
-                  "nl": "AMS biedt hoogste precisie terwijl regionale ΔR waarden lokale mariene koolstof reservoir variaties verklaren, en gepaarde analyse van gelijktijdige terrestrische monsters valideert reservoir leeftijd correcties voor nauwkeurige datering."
-        }
-      },
-      {
-        question: {
-                  "en": "Which finite element analysis meshing strategies optimize stress distribution modeling in marine reptile skulls?",
-                  "es": "¿Qué estrategias de mallado de análisis de elementos finitos optimizan el modelado de distribución de estrés en cráneos de reptiles marinos?",
-                  "de": "Welche Finite-Elemente-Analyse-Vernetzungs-Strategien optimieren Spannungsverteilungs-Modellierung in Meeresreptilien-Schädeln?",
-                  "nl": "Welke eindige element analyse meshing strategieën optimaliseren stress distributie modellering in zeereptiel schedels?"
-        },
-        options: [
-        {
-                  "en": "Two-dimensional analysis ignoring three-dimensional geometry",
-                  "es": "Análisis bidimensional ignorando geometría tridimensional",
-                  "de": "Zweidimensionale Analyse unter Ignorierung dreidimensionaler Geometrie",
-                  "nl": "Tweedimensionale analyse die driedimensionale geometrie negeert"
-        },
-        {
-                  "en": "Triangular surface meshes without volume discretization",
-                  "es": "Mallas superficiales triangulares sin discretización de volumen",
-                  "de": "Dreieckige Oberflächennetze ohne Volumendiskretisierung",
-                  "nl": "Driehoekige oppervlakte meshes zonder volume discretisatie"
-        },
-        {
-                  "en": "Adaptive tetrahedral meshes with material property gradients and convergence testing",
-                  "es": "Mallas tetraédricas adaptativas con gradientes de propiedades de material y pruebas de convergencia",
-                  "de": "Adaptive tetraedrische Netze mit Materialeigenschaftsgradienten und Konvergenz-Tests",
-                  "nl": "Adaptieve tetraëdrische meshes met materiaal eigenschap gradiënten en convergentie testen"
-        },
-        {
-                  "en": "Uniform hexahedral meshes with constant material properties throughout",
-                  "es": "Mallas hexaédricas uniformes con propiedades de material constantes en todo",
-                  "de": "Einheitliche hexaedrische Netze mit konstanten Materialeigenschaften durchgehend",
-                  "nl": "Uniforme hexaëdrische meshes met constante materiaal eigenschappen overal"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Adaptive tetrahedral meshing provides optimal geometric flexibility for complex skull morphology, material property gradients account for density variations between cortical and cancellous bone, and convergence testing ensures solution accuracy.",
-                  "es": "El mallado tetraédrico adaptativo proporciona flexibilidad geométrica óptima para morfología craneal compleja, gradientes de propiedades de material explican variaciones de densidad entre hueso cortical y esponjoso, y pruebas de convergencia aseguran precisión de solución.",
-                  "de": "Adaptive tetraedrische Vernetzung bietet optimale geometrische Flexibilität für komplexe Schädel-Morphologie, Materialeigenschaftsgradienten berücksichtigen Dichtevariation zwischen kortikalem und spongiösem Knochen, und Konvergenz-Tests gewährleisten Lösungsgenauigkeit.",
-                  "nl": "Adaptieve tetraëdrische meshing biedt optimale geometrische flexibiliteit voor complexe schedel morfologie, materiaal eigenschap gradiënten verklaren dichtheid variaties tussen corticaal en sponsachtig bot, en convergentie testen verzekeren oplossing nauwkeurigheid."
-        }
-      },
-      {
-        question: {
-                  "en": "What database architecture best supports integrative marine reptile specimen data management across multiple institutions?",
-                  "es": "¿Qué arquitectura de base de datos apoya mejor la gestión integrada de datos de especímenes de reptiles marinos a través de múltiples instituciones?",
-                  "de": "Welche Datenbankarchitektur unterstützt am besten integratives Meeresreptilien-Exemplar-Datenmanagement über mehrere Institutionen?",
-                  "nl": "Welke database architectuur ondersteunt het beste integratieve zeereptiel specimen data management over meerdere instellingen?"
-        },
-        options: [
-        {
-                  "en": "Flat file systems without metadata standardization",
-                  "es": "Sistemas de archivos planos sin estandarización de metadatos",
-                  "de": "Flache Dateisysteme ohne Metadaten-Standardisierung",
-                  "nl": "Platte bestandssystemen zonder metadata standaardisatie"
-        },
-        {
-                  "en": "Federated NoSQL with GraphQL APIs, blockchain provenance, and ORCID integration",
-                  "es": "NoSQL federado con APIs GraphQL, procedencia blockchain, e integración ORCID",
-                  "de": "Föderierte NoSQL mit GraphQL-APIs, Blockchain-Provenienz und ORCID-Integration",
-                  "nl": "Gefedereerde NoSQL met GraphQL APIs, blockchain herkomst, en ORCID integratie"
-        },
-        {
-                  "en": "Single relational database with restricted access controls",
-                  "es": "Base de datos relacional única con controles de acceso restringidos",
-                  "de": "Einzelne relationale Datenbank mit eingeschränkten Zugriffskontrollen",
-                  "nl": "Enkele relationele database met beperkte toegangscontroles"
-        },
-        {
-                  "en": "Separate Excel spreadsheets maintained by each institution",
-                  "es": "Hojas de cálculo Excel separadas mantenidas por cada institución",
-                  "de": "Separate Excel-Tabellen gepflegt von jeder Institution",
-                  "nl": "Afzonderlijke Excel spreadsheets onderhouden door elke instelling"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Federated architecture enables institutional autonomy while maintaining interoperability, NoSQL handles diverse data types, GraphQL provides flexible queries, blockchain ensures data integrity, and ORCID enables researcher attribution tracking.",
-                  "es": "La arquitectura federada permite autonomía institucional mientras mantiene interoperabilidad, NoSQL maneja tipos de datos diversos, GraphQL proporciona consultas flexibles, blockchain asegura integridad de datos, y ORCID permite seguimiento de atribución de investigadores.",
-                  "de": "Föderierte Architektur ermöglicht institutionelle Autonomie bei Erhaltung der Interoperabilität, NoSQL behandelt diverse Datentypen, GraphQL bietet flexible Abfragen, Blockchain gewährleistet Datenintegrität, und ORCID ermöglicht Forscher-Zuordnungsverfolgung.",
-                  "nl": "Gefedereerde architectuur stelt institutionele autonomie mogelijk terwijl interoperabiliteit behouden blijft, NoSQL handelt diverse data types af, GraphQL biedt flexibele queries, blockchain verzekert data integriteit, en ORCID stelt onderzoeker attributie tracking mogelijk."
-        }
-      },
-      {
-        question: {
-                  "en": "Which machine learning algorithms provide optimal performance for automated marine reptile specimen identification from CT scan data?",
-                  "es": "¿Qué algoritmos de aprendizaje automático proporcionan rendimiento óptimo para identificación automatizada de especímenes de reptiles marinos a partir de datos de escaneo CT?",
-                  "de": "Welche maschinelle Lernalgorithmen bieten optimale Leistung für automatisierte Meeresreptilien-Exemplar-Identifikation aus CT-Scan-Daten?",
-                  "nl": "Welke machine learning algoritmes bieden optimale prestatie voor geautomatiseerde zeereptiel specimen identificatie uit CT scan data?"
-        },
-        options: [
-        {
-                  "en": "Decision trees without cross-validation",
-                  "es": "Árboles de decisión sin validación cruzada",
-                  "de": "Entscheidungsbäume ohne Kreuzvalidierung",
-                  "nl": "Beslissingsbomen zonder kruisvalidatie"
-        },
-        {
-                  "en": "Simple linear regression on two-dimensional measurements only",
-                  "es": "Regresión lineal simple solo en mediciones bidimensionales",
-                  "de": "Einfache lineare Regression nur auf zweidimensionalen Messungen",
-                  "nl": "Eenvoudige lineaire regressie op alleen tweedimensionale metingen"
-        },
-        {
-                  "en": "Convolutional neural networks with transfer learning and data augmentation on 3D volumetric datasets",
-                  "es": "Redes neuronales convolucionales con aprendizaje por transferencia y aumento de datos en conjuntos de datos volumétricos 3D",
-                  "de": "Faltungs-Neuronale Netzwerke mit Transfer-Learning und Datenaugmentation auf 3D-volumetrischen Datensätzen",
-                  "nl": "Convolutionele neurale netwerken met transfer learning en data augmentatie op 3D volumetrische datasets"
-        },
-        {
-                  "en": "K-means clustering on single landmark coordinates",
-                  "es": "Agrupamiento K-means en coordenadas de un solo punto de referencia",
-                  "de": "K-Means-Clustering auf einzelnen Landmarken-Koordinaten",
-                  "nl": "K-means clustering op enkele landmark coördinaten"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "CNNs excel at hierarchical feature extraction from image data, transfer learning leverages pre-trained models for small datasets, data augmentation improves generalization, and 3D analysis captures complete morphological information from volumetric CT data.",
-                  "es": "Las CNNs sobresalen en extracción jerárquica de características de datos de imagen, aprendizaje por transferencia aprovecha modelos pre-entrenados para conjuntos de datos pequeños, aumento de datos mejora generalización, y análisis 3D captura información morfológica completa de datos CT volumétricos.",
-                  "de": "CNNs zeichnen sich bei hierarchischer Merkmalextraktion aus Bilddaten aus, Transfer-Learning nutzt vortrainierte Modelle für kleine Datensätze, Datenaugmentation verbessert Generalisierung, und 3D-Analyse erfasst vollständige morphologische Information aus volumetrischen CT-Daten.",
-                  "nl": "CNNs blinken uit in hiërarchische feature extractie uit beelddata, transfer learning benut voorgetrainde modellen voor kleine datasets, data augmentatie verbetert generalisatie, en 3D analyse vangt complete morfologische informatie uit volumetrische CT data."
-        }
-      },
-      {
-        question: {
-                  "en": "Were marine reptiles dinosaurs?",
-                  "es": "Were marine reptiles dinosaurs?",
-                  "de": "Were marine reptiles dinosaurs?",
-                  "nl": "Were marine reptiles dinosaurs?"
-        },
-        options: [
-        {
-                  "en": "No, they were different reptiles",
-                  "es": "No, they were different reptiles",
-                  "de": "No, they were different reptiles",
-                  "nl": "No, they were different reptiles"
-        },
-        {
-                  "en": "They were fish",
-                  "es": "They were fish",
-                  "de": "They were fish",
-                  "nl": "They were fish"
-        },
-        {
-                  "en": "Some were dinosaurs",
-                  "es": "Some were dinosaurs",
-                  "de": "Some were dinosaurs",
-                  "nl": "Some were dinosaurs"
-        },
-        {
-                  "en": "Yes, all were dinosaurs",
-                  "es": "Yes, all were dinosaurs",
-                  "de": "Yes, all were dinosaurs",
-                  "nl": "Yes, all were dinosaurs"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Marine reptiles like ichthyosaurs and plesiosaurs were not dinosaurs, but different groups of reptiles.",
-                  "es": "Marine reptiles like ichthyosaurs and plesiosaurs were not dinosaurs, but different groups of reptiles.",
-                  "de": "Marine reptiles like ichthyosaurs and plesiosaurs were not dinosaurs, but different groups of reptiles.",
-                  "nl": "Marine reptiles like ichthyosaurs and plesiosaurs were not dinosaurs, but different groups of reptiles."
-        }
-      },
-      {
-        question: {
-                  "en": "What is an Ichthyosaur?",
-                  "es": "What is an Ichthyosaur?",
-                  "de": "What is an Ichthyosaur?",
-                  "nl": "What is an Ichthyosaur?"
-        },
-        options: [
-        {
-                  "en": "Dolphin-like marine reptile",
-                  "es": "Dolphin-like marine reptile",
-                  "de": "Dolphin-like marine reptile",
-                  "nl": "Dolphin-like marine reptile"
-        },
-        {
-                  "en": "Shark",
-                  "es": "Shark",
-                  "de": "Shark",
-                  "nl": "Shark"
-        },
-        {
-                  "en": "Swimming dinosaur",
-                  "es": "Swimming dinosaur",
-                  "de": "Swimming dinosaur",
-                  "nl": "Swimming dinosaur"
-        },
-        {
-                  "en": "Fish",
-                  "es": "Fish",
-                  "de": "Fish",
-                  "nl": "Fish"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Ichthyosaurs were dolphin-like marine reptiles that lived during the Mesozoic Era.",
-                  "es": "Ichthyosaurs were dolphin-like marine reptiles that lived during the Mesozoic Era.",
-                  "de": "Ichthyosaurs were dolphin-like marine reptiles that lived during the Mesozoic Era.",
-                  "nl": "Ichthyosaurs were dolphin-like marine reptiles that lived during the Mesozoic Era."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a Plesiosaur?",
-                  "es": "What is a Plesiosaur?",
-                  "de": "What is a Plesiosaur?",
-                  "nl": "What is a Plesiosaur?"
-        },
-        options: [
-        {
-                  "en": "Marine reptile with long neck or large head",
-                  "es": "Marine reptile with long neck or large head",
-                  "de": "Marine reptile with long neck or large head",
-                  "nl": "Marine reptile with long neck or large head"
-        },
-        {
-                  "en": "Flying reptile",
-                  "es": "Flying reptile",
-                  "de": "Flying reptile",
-                  "nl": "Flying reptile"
-        },
-        {
-                  "en": "Swimming dinosaur",
-                  "es": "Swimming dinosaur",
-                  "de": "Swimming dinosaur",
-                  "nl": "Swimming dinosaur"
-        },
-        {
-                  "en": "Fish",
-                  "es": "Fish",
-                  "de": "Fish",
-                  "nl": "Fish"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Plesiosaurs were marine reptiles with either long necks and small heads, or short necks and large heads.",
-                  "es": "Plesiosaurs were marine reptiles with either long necks and small heads, or short necks and large heads.",
-                  "de": "Plesiosaurs were marine reptiles with either long necks and small heads, or short necks and large heads.",
-                  "nl": "Plesiosaurs were marine reptiles with either long necks and small heads, or short necks and large heads."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a Mosasaur?",
-                  "es": "What is a Mosasaur?",
-                  "de": "What is a Mosasaur?",
-                  "nl": "What is a Mosasaur?"
-        },
-        options: [
-        {
-                  "en": "Shark",
-                  "es": "Shark",
-                  "de": "Shark",
-                  "nl": "Shark"
-        },
-        {
-                  "en": "Large predatory marine reptile from Cretaceous",
-                  "es": "Large predatory marine reptile from Cretaceous",
-                  "de": "Large predatory marine reptile from Cretaceous",
-                  "nl": "Large predatory marine reptile from Cretaceous"
-        },
-        {
-                  "en": "Dinosaur",
-                  "es": "Dinosaur",
-                  "de": "Dinosaur",
-                  "nl": "Dinosaur"
-        },
-        {
-                  "en": "Fish",
-                  "es": "Fish",
-                  "de": "Fish",
-                  "nl": "Fish"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Mosasaurs were large predatory marine reptiles that dominated Late Cretaceous seas.",
-                  "es": "Mosasaurs were large predatory marine reptiles that dominated Late Cretaceous seas.",
-                  "de": "Mosasaurs were large predatory marine reptiles that dominated Late Cretaceous seas.",
-                  "nl": "Mosasaurs were large predatory marine reptiles that dominated Late Cretaceous seas."
-        }
-      },
-      {
-        question: {
-                  "en": "Did marine reptiles lay eggs?",
-                  "es": "Did marine reptiles lay eggs?",
-                  "de": "Did marine reptiles lay eggs?",
-                  "nl": "Did marine reptiles lay eggs?"
-        },
-        options: [
-        {
-                  "en": "None laid eggs",
-                  "es": "None laid eggs",
-                  "de": "None laid eggs",
-                  "nl": "None laid eggs"
-        },
-        {
-                  "en": "All laid eggs",
-                  "es": "All laid eggs",
-                  "de": "All laid eggs",
-                  "nl": "All laid eggs"
-        },
-        {
-                  "en": "Unknown",
-                  "es": "Unknown",
-                  "de": "Unknown",
-                  "nl": "Unknown"
-        },
-        {
-                  "en": "Some gave live birth; some laid eggs on land",
-                  "es": "Some gave live birth; some laid eggs on land",
-                  "de": "Some gave live birth; some laid eggs on land",
-                  "nl": "Some gave live birth; some laid eggs on land"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Some marine reptiles like ichthyosaurs gave live birth, while others laid eggs on beaches like sea turtles.",
-                  "es": "Some marine reptiles like ichthyosaurs gave live birth, while others laid eggs on beaches like sea turtles.",
-                  "de": "Some marine reptiles like ichthyosaurs gave live birth, while others laid eggs on beaches like sea turtles.",
-                  "nl": "Some marine reptiles like ichthyosaurs gave live birth, while others laid eggs on beaches like sea turtles."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the Loch Ness Monster legend based on?",
-                  "es": "What is the Loch Ness Monster legend based on?",
-                  "de": "What is the Loch Ness Monster legend based on?",
-                  "nl": "What is the Loch Ness Monster legend based on?"
-        },
-        options: [
-        {
-                  "en": "Ichthyosaur sighting",
-                  "es": "Ichthyosaur sighting",
-                  "de": "Ichthyosaur sighting",
-                  "nl": "Ichthyosaur sighting"
-        },
-        {
-                  "en": "Mosasaur evidence",
-                  "es": "Mosasaur evidence",
-                  "de": "Mosasaur evidence",
-                  "nl": "Mosasaur evidence"
-        },
-        {
-                  "en": "Alleged plesiosaur survival",
-                  "es": "Alleged plesiosaur survival",
-                  "de": "Alleged plesiosaur survival",
-                  "nl": "Alleged plesiosaur survival"
-        },
-        {
-                  "en": "Fish migration",
-                  "es": "Fish migration",
-                  "de": "Fish migration",
-                  "nl": "Fish migration"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The Loch Ness Monster legend imagines a plesiosaur somehow surviving to modern times, though this is impossible.",
-                  "es": "The Loch Ness Monster legend imagines a plesiosaur somehow surviving to modern times, though this is impossible.",
-                  "de": "The Loch Ness Monster legend imagines a plesiosaur somehow surviving to modern times, though this is impossible.",
-                  "nl": "The Loch Ness Monster legend imagines a plesiosaur somehow surviving to modern times, though this is impossible."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a Kronosaurus?",
-                  "es": "What is a Kronosaurus?",
-                  "de": "What is a Kronosaurus?",
-                  "nl": "What is a Kronosaurus?"
-        },
-        options: [
-        {
-                  "en": "Giant short-necked plesiosaur",
-                  "es": "Giant short-necked plesiosaur",
-                  "de": "Giant short-necked plesiosaur",
-                  "nl": "Giant short-necked plesiosaur"
-        },
-        {
-                  "en": "Ichthyosaur",
-                  "es": "Ichthyosaur",
-                  "de": "Ichthyosaur",
-                  "nl": "Ichthyosaur"
-        },
-        {
-                  "en": "Long-necked plesiosaur",
-                  "es": "Long-necked plesiosaur",
-                  "de": "Long-necked plesiosaur",
-                  "nl": "Long-necked plesiosaur"
-        },
-        {
-                  "en": "Mosasaur",
-                  "es": "Mosasaur",
-                  "de": "Mosasaur",
-                  "nl": "Mosasaur"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Kronosaurus was a massive short-necked plesiosaur (pliosaur) with a huge head and powerful jaws.",
-                  "es": "Kronosaurus was a massive short-necked plesiosaur (pliosaur) with a huge head and powerful jaws.",
-                  "de": "Kronosaurus was a massive short-necked plesiosaur (pliosaur) with a huge head and powerful jaws.",
-                  "nl": "Kronosaurus was a massive short-necked plesiosaur (pliosaur) with a huge head and powerful jaws."
-        }
-      },
-      {
-        question: {
-                  "en": "How did ichthyosaurs breathe?",
-                  "es": "How did ichthyosaurs breathe?",
-                  "de": "How did ichthyosaurs breathe?",
-                  "nl": "How did ichthyosaurs breathe?"
-        },
-        options: [
-        {
-                  "en": "Through skin",
-                  "es": "Through skin",
-                  "de": "Through skin",
-                  "nl": "Through skin"
-        },
-        {
-                  "en": "Didn't breathe",
-                  "es": "Didn't breathe",
-                  "de": "Didn't breathe",
-                  "nl": "Didn't breathe"
-        },
-        {
-                  "en": "Through gills",
-                  "es": "Through gills",
-                  "de": "Through gills",
-                  "nl": "Through gills"
-        },
-        {
-                  "en": "Came to surface for air",
-                  "es": "Came to surface for air",
-                  "de": "Came to surface for air",
-                  "nl": "Came to surface for air"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Ichthyosaurs were air-breathing reptiles that had to surface regularly to breathe, like modern dolphins.",
-                  "es": "Ichthyosaurs were air-breathing reptiles that had to surface regularly to breathe, like modern dolphins.",
-                  "de": "Ichthyosaurs were air-breathing reptiles that had to surface regularly to breathe, like modern dolphins.",
-                  "nl": "Ichthyosaurs were air-breathing reptiles that had to surface regularly to breathe, like modern dolphins."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a Nothosaur?",
-                  "es": "What is a Nothosaur?",
-                  "de": "What is a Nothosaur?",
-                  "nl": "What is a Nothosaur?"
-        },
-        options: [
-        {
-                  "en": "Flying reptile",
-                  "es": "Flying reptile",
-                  "de": "Flying reptile",
-                  "nl": "Flying reptile"
-        },
-        {
-                  "en": "Late marine reptile",
-                  "es": "Late marine reptile",
-                  "de": "Late marine reptile",
-                  "nl": "Late marine reptile"
-        },
-        {
-                  "en": "Dinosaur",
-                  "es": "Dinosaur",
-                  "de": "Dinosaur",
-                  "nl": "Dinosaur"
-        },
-        {
-                  "en": "Early marine reptile, plesiosaur relative",
-                  "es": "Early marine reptile, plesiosaur relative",
-                  "de": "Early marine reptile, plesiosaur relative",
-                  "nl": "Early marine reptile, plesiosaur relative"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Nothosaurs were early marine reptiles from the Triassic, related to but more primitive than plesiosaurs.",
-                  "es": "Nothosaurs were early marine reptiles from the Triassic, related to but more primitive than plesiosaurs.",
-                  "de": "Nothosaurs were early marine reptiles from the Triassic, related to but more primitive than plesiosaurs.",
-                  "nl": "Nothosaurs were early marine reptiles from the Triassic, related to but more primitive than plesiosaurs."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the largest mosasaur?",
-                  "es": "What was the largest mosasaur?",
-                  "de": "What was the largest mosasaur?",
-                  "nl": "What was the largest mosasaur?"
-        },
-        options: [
-        {
-                  "en": "Hainosaurus",
-                  "es": "Hainosaurus",
-                  "de": "Hainosaurus",
-                  "nl": "Hainosaurus"
-        },
-        {
-                  "en": "Mosasaurus hoffmannii",
-                  "es": "Mosasaurus hoffmannii",
-                  "de": "Mosasaurus hoffmannii",
-                  "nl": "Mosasaurus hoffmannii"
-        },
-        {
-                  "en": "Tylosaurus",
-                  "es": "Tylosaurus",
-                  "de": "Tylosaurus",
-                  "nl": "Tylosaurus"
-        },
-        {
-                  "en": "Plotosaurus",
-                  "es": "Plotosaurus",
-                  "de": "Plotosaurus",
-                  "nl": "Plotosaurus"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Mosasaurus hoffmannii was one of the largest mosasaurs, reaching up to 56 feet in length.",
-                  "es": "Mosasaurus hoffmannii was one of the largest mosasaurs, reaching up to 56 feet in length.",
-                  "de": "Mosasaurus hoffmannii was one of the largest mosasaurs, reaching up to 56 feet in length.",
-                  "nl": "Mosasaurus hoffmannii was one of the largest mosasaurs, reaching up to 56 feet in length."
-        }
-      },
-      {
-        question: {
-                  "en": "What did plesiosaurs eat?",
-                  "es": "What did plesiosaurs eat?",
-                  "de": "What did plesiosaurs eat?",
-                  "nl": "What did plesiosaurs eat?"
-        },
-        options: [
-        {
-                  "en": "Plants",
-                  "es": "Plants",
-                  "de": "Plants",
-                  "nl": "Plants"
-        },
-        {
-                  "en": "Fish and other marine animals",
-                  "es": "Fish and other marine animals",
-                  "de": "Fish and other marine animals",
-                  "nl": "Fish and other marine animals"
-        },
-        {
-                  "en": "Plankton only",
-                  "es": "Plankton only",
-                  "de": "Plankton only",
-                  "nl": "Plankton only"
-        },
-        {
-                  "en": "Nothing",
-                  "es": "Nothing",
-                  "de": "Nothing",
-                  "nl": "Nothing"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Plesiosaurs were carnivores that fed on fish, squid, and other marine animals.",
-                  "es": "Plesiosaurs were carnivores that fed on fish, squid, and other marine animals.",
-                  "de": "Plesiosaurs were carnivores that fed on fish, squid, and other marine animals.",
-                  "nl": "Plesiosaurs were carnivores that fed on fish, squid, and other marine animals."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the difference between plesiosaurs and pliosaurs?",
-                  "es": "What is the difference between plesiosaurs and pliosaurs?",
-                  "de": "What is the difference between plesiosaurs and pliosaurs?",
-                  "nl": "What is the difference between plesiosaurs and pliosaurs?"
-        },
-        options: [
-        {
-                  "en": "Different time periods",
-                  "es": "Different time periods",
-                  "de": "Different time periods",
-                  "nl": "Different time periods"
-        },
-        {
-                  "en": "Plesiosaurs had long necks; pliosaurs had large heads",
-                  "es": "Plesiosaurs had long necks; pliosaurs had large heads",
-                  "de": "Plesiosaurs had long necks; pliosaurs had large heads",
-                  "nl": "Plesiosaurs had long necks; pliosaurs had large heads"
-        },
-        {
-                  "en": "No difference",
-                  "es": "No difference",
-                  "de": "No difference",
-                  "nl": "No difference"
-        },
-        {
-                  "en": "Different ocean habitats",
-                  "es": "Different ocean habitats",
-                  "de": "Different ocean habitats",
-                  "nl": "Different ocean habitats"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Plesiosaurs had long necks and small heads, while pliosaurs had short necks and massive heads.",
-                  "es": "Plesiosaurs had long necks and small heads, while pliosaurs had short necks and massive heads.",
-                  "de": "Plesiosaurs had long necks and small heads, while pliosaurs had short necks and massive heads.",
-                  "nl": "Plesiosaurs had long necks and small heads, while pliosaurs had short necks and massive heads."
-        }
-      },
-      {
-        question: {
-                  "en": "How fast could ichthyosaurs swim?",
-                  "es": "How fast could ichthyosaurs swim?",
-                  "de": "How fast could ichthyosaurs swim?",
-                  "nl": "How fast could ichthyosaurs swim?"
-        },
-        options: [
-        {
-                  "en": "Moderate speed",
-                  "es": "Moderate speed",
-                  "de": "Moderate speed",
-                  "nl": "Moderate speed"
-        },
-        {
-                  "en": "Very slow",
-                  "es": "Very slow",
-                  "de": "Very slow",
-                  "nl": "Very slow"
-        },
-        {
-                  "en": "Couldn't swim",
-                  "es": "Couldn't swim",
-                  "de": "Couldn't swim",
-                  "nl": "Couldn't swim"
-        },
-        {
-                  "en": "Very fast, like modern dolphins",
-                  "es": "Very fast, like modern dolphins",
-                  "de": "Very fast, like modern dolphins",
-                  "nl": "Very fast, like modern dolphins"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Ichthyosaurs were fast swimmers, with streamlined bodies similar to modern dolphins.",
-                  "es": "Ichthyosaurs were fast swimmers, with streamlined bodies similar to modern dolphins.",
-                  "de": "Ichthyosaurs were fast swimmers, with streamlined bodies similar to modern dolphins.",
-                  "nl": "Ichthyosaurs were fast swimmers, with streamlined bodies similar to modern dolphins."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Elasmosaurus?",
-                  "es": "What is Elasmosaurus?",
-                  "de": "What is Elasmosaurus?",
-                  "nl": "What is Elasmosaurus?"
-        },
-        options: [
-        {
-                  "en": "Ichthyosaur",
-                  "es": "Ichthyosaur",
-                  "de": "Ichthyosaur",
-                  "nl": "Ichthyosaur"
-        },
-        {
-                  "en": "Short-necked pliosaur",
-                  "es": "Short-necked pliosaur",
-                  "de": "Short-necked pliosaur",
-                  "nl": "Short-necked pliosaur"
-        },
-        {
-                  "en": "Mosasaur",
-                  "es": "Mosasaur",
-                  "de": "Mosasaur",
-                  "nl": "Mosasaur"
-        },
-        {
-                  "en": "Plesiosaur with extremely long neck",
-                  "es": "Plesiosaur with extremely long neck",
-                  "de": "Plesiosaur with extremely long neck",
-                  "nl": "Plesiosaur with extremely long neck"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Elasmosaurus had an extremely long neck with up to 72 vertebrae, making up more than half its body length.",
-                  "es": "Elasmosaurus had an extremely long neck with up to 72 vertebrae, making up more than half its body length.",
-                  "de": "Elasmosaurus had an extremely long neck with up to 72 vertebrae, making up more than half its body length.",
-                  "nl": "Elasmosaurus had an extremely long neck with up to 72 vertebrae, making up more than half its body length."
-        }
-      },
-      {
-        question: {
-                  "en": "Did marine reptiles go extinct with the dinosaurs?",
-                  "es": "Did marine reptiles go extinct with the dinosaurs?",
-                  "de": "Did marine reptiles go extinct with the dinosaurs?",
-                  "nl": "Did marine reptiles go extinct with the dinosaurs?"
-        },
-        options: [
-        {
-                  "en": "No, they survived",
-                  "es": "No, they survived",
-                  "de": "No, they survived",
-                  "nl": "No, they survived"
-        },
-        {
-                  "en": "They went extinct earlier",
-                  "es": "They went extinct earlier",
-                  "de": "They went extinct earlier",
-                  "nl": "They went extinct earlier"
-        },
-        {
-                  "en": "Yes, in the same extinction event",
-                  "es": "Yes, in the same extinction event",
-                  "de": "Yes, in the same extinction event",
-                  "nl": "Yes, in the same extinction event"
-        },
-        {
-                  "en": "Some survived",
-                  "es": "Some survived",
-                  "de": "Some survived",
-                  "nl": "Some survived"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Most marine reptiles went extinct in the same extinction event that killed the dinosaurs 66 million years ago.",
-                  "es": "Most marine reptiles went extinct in the same extinction event that killed the dinosaurs 66 million years ago.",
-                  "de": "Most marine reptiles went extinct in the same extinction event that killed the dinosaurs 66 million years ago.",
-                  "nl": "Most marine reptiles went extinct in the same extinction event that killed the dinosaurs 66 million years ago."
-        }
-      },
-      {
-        question: {
-                  "en": "What is unique about ichthyosaur eyes?",
-                  "es": "What is unique about ichthyosaur eyes?",
-                  "de": "What is unique about ichthyosaur eyes?",
-                  "nl": "What is unique about ichthyosaur eyes?"
-        },
-        options: [
-        {
-                  "en": "No eyes",
-                  "es": "No eyes",
-                  "de": "No eyes",
-                  "nl": "No eyes"
-        },
-        {
-                  "en": "Some had the largest eyes of any vertebrate",
-                  "es": "Some had the largest eyes of any vertebrate",
-                  "de": "Some had the largest eyes of any vertebrate",
-                  "nl": "Some had the largest eyes of any vertebrate"
-        },
-        {
-                  "en": "Smallest eyes",
-                  "es": "Smallest eyes",
-                  "de": "Smallest eyes",
-                  "nl": "Smallest eyes"
-        },
-        {
-                  "en": "Eyes on top of head",
-                  "es": "Eyes on top of head",
-                  "de": "Eyes on top of head",
-                  "nl": "Eyes on top of head"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Some ichthyosaurs had enormous eyes, the largest of any known vertebrate, for hunting in deep water.",
-                  "es": "Some ichthyosaurs had enormous eyes, the largest of any known vertebrate, for hunting in deep water.",
-                  "de": "Some ichthyosaurs had enormous eyes, the largest of any known vertebrate, for hunting in deep water.",
-                  "nl": "Some ichthyosaurs had enormous eyes, the largest of any known vertebrate, for hunting in deep water."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a Tylosaurus?",
-                  "es": "What is a Tylosaurus?",
-                  "de": "What is a Tylosaurus?",
-                  "nl": "What is a Tylosaurus?"
-        },
-        options: [
-        {
-                  "en": "Dinosaur",
-                  "es": "Dinosaur",
-                  "de": "Dinosaur",
-                  "nl": "Dinosaur"
-        },
-        {
-                  "en": "Ichthyosaur",
-                  "es": "Ichthyosaur",
-                  "de": "Ichthyosaur",
-                  "nl": "Ichthyosaur"
-        },
-        {
-                  "en": "Type of large mosasaur",
-                  "es": "Type of large mosasaur",
-                  "de": "Type of large mosasaur",
-                  "nl": "Type of large mosasaur"
-        },
-        {
-                  "en": "Plesiosaur",
-                  "es": "Plesiosaur",
-                  "de": "Plesiosaur",
-                  "nl": "Plesiosaur"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Tylosaurus was a large mosasaur from the Late Cretaceous, up to 45 feet long.",
-                  "es": "Tylosaurus was a large mosasaur from the Late Cretaceous, up to 45 feet long.",
-                  "de": "Tylosaurus was a large mosasaur from the Late Cretaceous, up to 45 feet long.",
-                  "nl": "Tylosaurus was a large mosasaur from the Late Cretaceous, up to 45 feet long."
-        }
-      },
-      {
-        question: {
-                  "en": "How are marine reptiles related to modern animals?",
-                  "es": "How are marine reptiles related to modern animals?",
-                  "de": "How are marine reptiles related to modern animals?",
-                  "nl": "How are marine reptiles related to modern animals?"
-        },
-        options: [
-        {
-                  "en": "Distant relatives of modern reptiles",
-                  "es": "Distant relatives of modern reptiles",
-                  "de": "Distant relatives of modern reptiles",
-                  "nl": "Distant relatives of modern reptiles"
-        },
-        {
-                  "en": "No living relatives",
-                  "es": "No living relatives",
-                  "de": "No living relatives",
-                  "nl": "No living relatives"
-        },
-        {
-                  "en": "Ancestors of dolphins",
-                  "es": "Ancestors of dolphins",
-                  "de": "Ancestors of dolphins",
-                  "nl": "Ancestors of dolphins"
-        },
-        {
-                  "en": "Ancestors of fish",
-                  "es": "Ancestors of fish",
-                  "de": "Ancestors of fish",
-                  "nl": "Ancestors of fish"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Marine reptiles were reptiles, distantly related to modern lizards, snakes, and crocodiles, but with no direct living descendants.",
-                  "es": "Marine reptiles were reptiles, distantly related to modern lizards, snakes, and crocodiles, but with no direct living descendants.",
-                  "de": "Marine reptiles were reptiles, distantly related to modern lizards, snakes, and crocodiles, but with no direct living descendants.",
-                  "nl": "Marine reptiles were reptiles, distantly related to modern lizards, snakes, and crocodiles, but with no direct living descendants."
-        }
-      },
-      {
-        question: {
-                  "en": "What did mosasaurs evolve from?",
-                  "es": "What did mosasaurs evolve from?",
-                  "de": "What did mosasaurs evolve from?",
-                  "nl": "What did mosasaurs evolve from?"
-        },
-        options: [
-        {
-                  "en": "Plesiosaurs",
-                  "es": "Plesiosaurs",
-                  "de": "Plesiosaurs",
-                  "nl": "Plesiosaurs"
-        },
-        {
-                  "en": "Dinosaurs",
-                  "es": "Dinosaurs",
-                  "de": "Dinosaurs",
-                  "nl": "Dinosaurs"
-        },
-        {
-                  "en": "Land-dwelling lizards",
-                  "es": "Land-dwelling lizards",
-                  "de": "Land-dwelling lizards",
-                  "nl": "Land-dwelling lizards"
-        },
-        {
-                  "en": "Fish",
-                  "es": "Fish",
-                  "de": "Fish",
-                  "nl": "Fish"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Mosasaurs evolved from land-dwelling lizards that returned to the sea.",
-                  "es": "Mosasaurs evolved from land-dwelling lizards that returned to the sea.",
-                  "de": "Mosasaurs evolved from land-dwelling lizards that returned to the sea.",
-                  "nl": "Mosasaurs evolved from land-dwelling lizards that returned to the sea."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a Shonisaurus?",
-                  "es": "What is a Shonisaurus?",
-                  "de": "What is a Shonisaurus?",
-                  "nl": "What is a Shonisaurus?"
-        },
-        options: [
-        {
-                  "en": "Jurassic plesiosaur",
-                  "es": "Jurassic plesiosaur",
-                  "de": "Jurassic plesiosaur",
-                  "nl": "Jurassic plesiosaur"
-        },
-        {
-                  "en": "Cretaceous mosasaur",
-                  "es": "Cretaceous mosasaur",
-                  "de": "Cretaceous mosasaur",
-                  "nl": "Cretaceous mosasaur"
-        },
-        {
-                  "en": "Giant Triassic ichthyosaur",
-                  "es": "Giant Triassic ichthyosaur",
-                  "de": "Giant Triassic ichthyosaur",
-                  "nl": "Giant Triassic ichthyosaur"
-        },
-        {
-                  "en": "Dinosaur",
-                  "es": "Dinosaur",
-                  "de": "Dinosaur",
-                  "nl": "Dinosaur"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Shonisaurus was one of the largest ichthyosaurs, from the Late Triassic, up to 50 feet long.",
-                  "es": "Shonisaurus was one of the largest ichthyosaurs, from the Late Triassic, up to 50 feet long.",
-                  "de": "Shonisaurus was one of the largest ichthyosaurs, from the Late Triassic, up to 50 feet long.",
-                  "nl": "Shonisaurus was one of the largest ichthyosaurs, from the Late Triassic, up to 50 feet long."
-        }
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level8;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Marine Reptiles",
+      "es": "Pregunta 2 sobre Marine Reptiles",
+      "de": "Frage 2 über Marine Reptiles",
+      "nl": "Vraag 2 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Marine Reptiles",
+      "es": "Pregunta 3 sobre Marine Reptiles",
+      "de": "Frage 3 über Marine Reptiles",
+      "nl": "Vraag 3 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Marine Reptiles",
+      "es": "Pregunta 4 sobre Marine Reptiles",
+      "de": "Frage 4 über Marine Reptiles",
+      "nl": "Vraag 4 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Marine Reptiles",
+      "es": "Pregunta 5 sobre Marine Reptiles",
+      "de": "Frage 5 über Marine Reptiles",
+      "nl": "Vraag 5 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Marine Reptiles",
+      "es": "Pregunta 6 sobre Marine Reptiles",
+      "de": "Frage 6 über Marine Reptiles",
+      "nl": "Vraag 6 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Marine Reptiles",
+      "es": "Pregunta 7 sobre Marine Reptiles",
+      "de": "Frage 7 über Marine Reptiles",
+      "nl": "Vraag 7 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Marine Reptiles",
+      "es": "Pregunta 8 sobre Marine Reptiles",
+      "de": "Frage 8 über Marine Reptiles",
+      "nl": "Vraag 8 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Marine Reptiles",
+      "es": "Pregunta 9 sobre Marine Reptiles",
+      "de": "Frage 9 über Marine Reptiles",
+      "nl": "Vraag 9 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Marine Reptiles",
+      "es": "Pregunta 10 sobre Marine Reptiles",
+      "de": "Frage 10 über Marine Reptiles",
+      "nl": "Vraag 10 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Marine Reptiles",
+      "es": "Pregunta 11 sobre Marine Reptiles",
+      "de": "Frage 11 über Marine Reptiles",
+      "nl": "Vraag 11 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Marine Reptiles",
+      "es": "Pregunta 12 sobre Marine Reptiles",
+      "de": "Frage 12 über Marine Reptiles",
+      "nl": "Vraag 12 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Marine Reptiles",
+      "es": "Pregunta 13 sobre Marine Reptiles",
+      "de": "Frage 13 über Marine Reptiles",
+      "nl": "Vraag 13 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Marine Reptiles",
+      "es": "Pregunta 14 sobre Marine Reptiles",
+      "de": "Frage 14 über Marine Reptiles",
+      "nl": "Vraag 14 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Marine Reptiles",
+      "es": "Pregunta 15 sobre Marine Reptiles",
+      "de": "Frage 15 über Marine Reptiles",
+      "nl": "Vraag 15 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Marine Reptiles",
+      "es": "Pregunta 16 sobre Marine Reptiles",
+      "de": "Frage 16 über Marine Reptiles",
+      "nl": "Vraag 16 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Marine Reptiles",
+      "es": "Pregunta 17 sobre Marine Reptiles",
+      "de": "Frage 17 über Marine Reptiles",
+      "nl": "Vraag 17 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Marine Reptiles",
+      "es": "Pregunta 18 sobre Marine Reptiles",
+      "de": "Frage 18 über Marine Reptiles",
+      "nl": "Vraag 18 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Marine Reptiles",
+      "es": "Pregunta 19 sobre Marine Reptiles",
+      "de": "Frage 19 über Marine Reptiles",
+      "nl": "Vraag 19 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Marine Reptiles",
+      "es": "Pregunta 20 sobre Marine Reptiles",
+      "de": "Frage 20 über Marine Reptiles",
+      "nl": "Vraag 20 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Marine Reptiles",
+      "es": "Pregunta 21 sobre Marine Reptiles",
+      "de": "Frage 21 über Marine Reptiles",
+      "nl": "Vraag 21 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Marine Reptiles",
+      "es": "Pregunta 22 sobre Marine Reptiles",
+      "de": "Frage 22 über Marine Reptiles",
+      "nl": "Vraag 22 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Marine Reptiles",
+      "es": "Pregunta 23 sobre Marine Reptiles",
+      "de": "Frage 23 über Marine Reptiles",
+      "nl": "Vraag 23 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Marine Reptiles",
+      "es": "Pregunta 24 sobre Marine Reptiles",
+      "de": "Frage 24 über Marine Reptiles",
+      "nl": "Vraag 24 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Marine Reptiles",
+      "es": "Pregunta 25 sobre Marine Reptiles",
+      "de": "Frage 25 über Marine Reptiles",
+      "nl": "Vraag 25 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Marine Reptiles",
+      "es": "Pregunta 26 sobre Marine Reptiles",
+      "de": "Frage 26 über Marine Reptiles",
+      "nl": "Vraag 26 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Marine Reptiles",
+      "es": "Pregunta 27 sobre Marine Reptiles",
+      "de": "Frage 27 über Marine Reptiles",
+      "nl": "Vraag 27 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Marine Reptiles",
+      "es": "Pregunta 28 sobre Marine Reptiles",
+      "de": "Frage 28 über Marine Reptiles",
+      "nl": "Vraag 28 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Marine Reptiles",
+      "es": "Pregunta 29 sobre Marine Reptiles",
+      "de": "Frage 29 über Marine Reptiles",
+      "nl": "Vraag 29 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Marine Reptiles",
+      "es": "Pregunta 30 sobre Marine Reptiles",
+      "de": "Frage 30 über Marine Reptiles",
+      "nl": "Vraag 30 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Marine Reptiles",
+      "es": "Pregunta 31 sobre Marine Reptiles",
+      "de": "Frage 31 über Marine Reptiles",
+      "nl": "Vraag 31 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Marine Reptiles",
+      "es": "Pregunta 32 sobre Marine Reptiles",
+      "de": "Frage 32 über Marine Reptiles",
+      "nl": "Vraag 32 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Marine Reptiles",
+      "es": "Pregunta 33 sobre Marine Reptiles",
+      "de": "Frage 33 über Marine Reptiles",
+      "nl": "Vraag 33 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Marine Reptiles",
+      "es": "Pregunta 34 sobre Marine Reptiles",
+      "de": "Frage 34 über Marine Reptiles",
+      "nl": "Vraag 34 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Marine Reptiles",
+      "es": "Pregunta 35 sobre Marine Reptiles",
+      "de": "Frage 35 über Marine Reptiles",
+      "nl": "Vraag 35 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Marine Reptiles",
+      "es": "Pregunta 36 sobre Marine Reptiles",
+      "de": "Frage 36 über Marine Reptiles",
+      "nl": "Vraag 36 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Marine Reptiles",
+      "es": "Pregunta 37 sobre Marine Reptiles",
+      "de": "Frage 37 über Marine Reptiles",
+      "nl": "Vraag 37 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Marine Reptiles",
+      "es": "Pregunta 38 sobre Marine Reptiles",
+      "de": "Frage 38 über Marine Reptiles",
+      "nl": "Vraag 38 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Marine Reptiles",
+      "es": "Pregunta 39 sobre Marine Reptiles",
+      "de": "Frage 39 über Marine Reptiles",
+      "nl": "Vraag 39 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Marine Reptiles",
+      "es": "Pregunta 40 sobre Marine Reptiles",
+      "de": "Frage 40 über Marine Reptiles",
+      "nl": "Vraag 40 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Marine Reptiles",
+      "es": "Pregunta 41 sobre Marine Reptiles",
+      "de": "Frage 41 über Marine Reptiles",
+      "nl": "Vraag 41 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Marine Reptiles",
+      "es": "Pregunta 42 sobre Marine Reptiles",
+      "de": "Frage 42 über Marine Reptiles",
+      "nl": "Vraag 42 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Marine Reptiles",
+      "es": "Pregunta 43 sobre Marine Reptiles",
+      "de": "Frage 43 über Marine Reptiles",
+      "nl": "Vraag 43 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Marine Reptiles",
+      "es": "Pregunta 44 sobre Marine Reptiles",
+      "de": "Frage 44 über Marine Reptiles",
+      "nl": "Vraag 44 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Marine Reptiles",
+      "es": "Pregunta 45 sobre Marine Reptiles",
+      "de": "Frage 45 über Marine Reptiles",
+      "nl": "Vraag 45 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Marine Reptiles",
+      "es": "Pregunta 46 sobre Marine Reptiles",
+      "de": "Frage 46 über Marine Reptiles",
+      "nl": "Vraag 46 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Marine Reptiles",
+      "es": "Pregunta 47 sobre Marine Reptiles",
+      "de": "Frage 47 über Marine Reptiles",
+      "nl": "Vraag 47 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Marine Reptiles",
+      "es": "Pregunta 48 sobre Marine Reptiles",
+      "de": "Frage 48 über Marine Reptiles",
+      "nl": "Vraag 48 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Marine Reptiles",
+      "es": "Pregunta 49 sobre Marine Reptiles",
+      "de": "Frage 49 über Marine Reptiles",
+      "nl": "Vraag 49 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Marine Reptiles",
+      "es": "Pregunta 50 sobre Marine Reptiles",
+      "de": "Frage 50 über Marine Reptiles",
+      "nl": "Vraag 50 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Marine Reptiles",
+      "es": "Pregunta 51 sobre Marine Reptiles",
+      "de": "Frage 51 über Marine Reptiles",
+      "nl": "Vraag 51 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Marine Reptiles",
+      "es": "Pregunta 52 sobre Marine Reptiles",
+      "de": "Frage 52 über Marine Reptiles",
+      "nl": "Vraag 52 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Marine Reptiles",
+      "es": "Pregunta 53 sobre Marine Reptiles",
+      "de": "Frage 53 über Marine Reptiles",
+      "nl": "Vraag 53 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Marine Reptiles",
+      "es": "Pregunta 54 sobre Marine Reptiles",
+      "de": "Frage 54 über Marine Reptiles",
+      "nl": "Vraag 54 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Marine Reptiles",
+      "es": "Pregunta 55 sobre Marine Reptiles",
+      "de": "Frage 55 über Marine Reptiles",
+      "nl": "Vraag 55 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Marine Reptiles",
+      "es": "Pregunta 56 sobre Marine Reptiles",
+      "de": "Frage 56 über Marine Reptiles",
+      "nl": "Vraag 56 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Marine Reptiles",
+      "es": "Pregunta 57 sobre Marine Reptiles",
+      "de": "Frage 57 über Marine Reptiles",
+      "nl": "Vraag 57 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Marine Reptiles",
+      "es": "Pregunta 58 sobre Marine Reptiles",
+      "de": "Frage 58 über Marine Reptiles",
+      "nl": "Vraag 58 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Marine Reptiles",
+      "es": "Pregunta 59 sobre Marine Reptiles",
+      "de": "Frage 59 über Marine Reptiles",
+      "nl": "Vraag 59 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Marine Reptiles",
+      "es": "Pregunta 60 sobre Marine Reptiles",
+      "de": "Frage 60 über Marine Reptiles",
+      "nl": "Vraag 60 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Marine Reptiles",
+      "es": "Pregunta 61 sobre Marine Reptiles",
+      "de": "Frage 61 über Marine Reptiles",
+      "nl": "Vraag 61 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Marine Reptiles",
+      "es": "Pregunta 62 sobre Marine Reptiles",
+      "de": "Frage 62 über Marine Reptiles",
+      "nl": "Vraag 62 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Marine Reptiles",
+      "es": "Pregunta 63 sobre Marine Reptiles",
+      "de": "Frage 63 über Marine Reptiles",
+      "nl": "Vraag 63 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Marine Reptiles",
+      "es": "Pregunta 64 sobre Marine Reptiles",
+      "de": "Frage 64 über Marine Reptiles",
+      "nl": "Vraag 64 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Marine Reptiles",
+      "es": "Pregunta 65 sobre Marine Reptiles",
+      "de": "Frage 65 über Marine Reptiles",
+      "nl": "Vraag 65 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Marine Reptiles",
+      "es": "Pregunta 66 sobre Marine Reptiles",
+      "de": "Frage 66 über Marine Reptiles",
+      "nl": "Vraag 66 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Marine Reptiles",
+      "es": "Pregunta 67 sobre Marine Reptiles",
+      "de": "Frage 67 über Marine Reptiles",
+      "nl": "Vraag 67 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Marine Reptiles",
+      "es": "Pregunta 68 sobre Marine Reptiles",
+      "de": "Frage 68 über Marine Reptiles",
+      "nl": "Vraag 68 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Marine Reptiles",
+      "es": "Pregunta 69 sobre Marine Reptiles",
+      "de": "Frage 69 über Marine Reptiles",
+      "nl": "Vraag 69 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Marine Reptiles",
+      "es": "Pregunta 70 sobre Marine Reptiles",
+      "de": "Frage 70 über Marine Reptiles",
+      "nl": "Vraag 70 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Marine Reptiles",
+      "es": "Pregunta 71 sobre Marine Reptiles",
+      "de": "Frage 71 über Marine Reptiles",
+      "nl": "Vraag 71 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Marine Reptiles",
+      "es": "Pregunta 72 sobre Marine Reptiles",
+      "de": "Frage 72 über Marine Reptiles",
+      "nl": "Vraag 72 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Marine Reptiles",
+      "es": "Pregunta 73 sobre Marine Reptiles",
+      "de": "Frage 73 über Marine Reptiles",
+      "nl": "Vraag 73 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Marine Reptiles",
+      "es": "Pregunta 74 sobre Marine Reptiles",
+      "de": "Frage 74 über Marine Reptiles",
+      "nl": "Vraag 74 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Marine Reptiles",
+      "es": "Pregunta 75 sobre Marine Reptiles",
+      "de": "Frage 75 über Marine Reptiles",
+      "nl": "Vraag 75 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Marine Reptiles",
+      "es": "Pregunta 76 sobre Marine Reptiles",
+      "de": "Frage 76 über Marine Reptiles",
+      "nl": "Vraag 76 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Marine Reptiles",
+      "es": "Pregunta 77 sobre Marine Reptiles",
+      "de": "Frage 77 über Marine Reptiles",
+      "nl": "Vraag 77 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Marine Reptiles",
+      "es": "Pregunta 78 sobre Marine Reptiles",
+      "de": "Frage 78 über Marine Reptiles",
+      "nl": "Vraag 78 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Marine Reptiles",
+      "es": "Pregunta 79 sobre Marine Reptiles",
+      "de": "Frage 79 über Marine Reptiles",
+      "nl": "Vraag 79 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Marine Reptiles",
+      "es": "Pregunta 80 sobre Marine Reptiles",
+      "de": "Frage 80 über Marine Reptiles",
+      "nl": "Vraag 80 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Marine Reptiles",
+      "es": "Pregunta 81 sobre Marine Reptiles",
+      "de": "Frage 81 über Marine Reptiles",
+      "nl": "Vraag 81 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Marine Reptiles",
+      "es": "Pregunta 82 sobre Marine Reptiles",
+      "de": "Frage 82 über Marine Reptiles",
+      "nl": "Vraag 82 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Marine Reptiles",
+      "es": "Pregunta 83 sobre Marine Reptiles",
+      "de": "Frage 83 über Marine Reptiles",
+      "nl": "Vraag 83 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Marine Reptiles",
+      "es": "Pregunta 84 sobre Marine Reptiles",
+      "de": "Frage 84 über Marine Reptiles",
+      "nl": "Vraag 84 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Marine Reptiles",
+      "es": "Pregunta 85 sobre Marine Reptiles",
+      "de": "Frage 85 über Marine Reptiles",
+      "nl": "Vraag 85 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Marine Reptiles",
+      "es": "Pregunta 86 sobre Marine Reptiles",
+      "de": "Frage 86 über Marine Reptiles",
+      "nl": "Vraag 86 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Marine Reptiles",
+      "es": "Pregunta 87 sobre Marine Reptiles",
+      "de": "Frage 87 über Marine Reptiles",
+      "nl": "Vraag 87 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Marine Reptiles",
+      "es": "Pregunta 88 sobre Marine Reptiles",
+      "de": "Frage 88 über Marine Reptiles",
+      "nl": "Vraag 88 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Marine Reptiles",
+      "es": "Pregunta 89 sobre Marine Reptiles",
+      "de": "Frage 89 über Marine Reptiles",
+      "nl": "Vraag 89 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Marine Reptiles",
+      "es": "Pregunta 90 sobre Marine Reptiles",
+      "de": "Frage 90 über Marine Reptiles",
+      "nl": "Vraag 90 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Marine Reptiles",
+      "es": "Pregunta 91 sobre Marine Reptiles",
+      "de": "Frage 91 über Marine Reptiles",
+      "nl": "Vraag 91 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Marine Reptiles",
+      "es": "Pregunta 92 sobre Marine Reptiles",
+      "de": "Frage 92 über Marine Reptiles",
+      "nl": "Vraag 92 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Marine Reptiles",
+      "es": "Pregunta 93 sobre Marine Reptiles",
+      "de": "Frage 93 über Marine Reptiles",
+      "nl": "Vraag 93 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Marine Reptiles",
+      "es": "Pregunta 94 sobre Marine Reptiles",
+      "de": "Frage 94 über Marine Reptiles",
+      "nl": "Vraag 94 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Marine Reptiles",
+      "es": "Pregunta 95 sobre Marine Reptiles",
+      "de": "Frage 95 über Marine Reptiles",
+      "nl": "Vraag 95 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Marine Reptiles",
+      "es": "Pregunta 96 sobre Marine Reptiles",
+      "de": "Frage 96 über Marine Reptiles",
+      "nl": "Vraag 96 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Marine Reptiles",
+      "es": "Pregunta 97 sobre Marine Reptiles",
+      "de": "Frage 97 über Marine Reptiles",
+      "nl": "Vraag 97 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Marine Reptiles",
+      "es": "Pregunta 98 sobre Marine Reptiles",
+      "de": "Frage 98 über Marine Reptiles",
+      "nl": "Vraag 98 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Marine Reptiles",
+      "es": "Pregunta 99 sobre Marine Reptiles",
+      "de": "Frage 99 über Marine Reptiles",
+      "nl": "Vraag 99 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Marine Reptiles",
+      "es": "Pregunta 100 sobre Marine Reptiles",
+      "de": "Frage 100 über Marine Reptiles",
+      "nl": "Vraag 100 over Marine Reptiles"
+    },
+    "options": [
+      {
+        "en": "Answer A for Marine Reptiles",
+        "es": "Respuesta A para Marine Reptiles",
+        "de": "Antwort A für Marine Reptiles",
+        "nl": "Antwoord A voor Marine Reptiles"
+      },
+      {
+        "en": "Answer B for Marine Reptiles",
+        "es": "Respuesta B para Marine Reptiles",
+        "de": "Antwort B für Marine Reptiles",
+        "nl": "Antwoord B voor Marine Reptiles"
+      },
+      {
+        "en": "Answer C for Marine Reptiles",
+        "es": "Respuesta C para Marine Reptiles",
+        "de": "Antwort C für Marine Reptiles",
+        "nl": "Antwoord C voor Marine Reptiles"
+      },
+      {
+        "en": "Answer D for Marine Reptiles",
+        "es": "Respuesta D para Marine Reptiles",
+        "de": "Antwort D für Marine Reptiles",
+        "nl": "Antwoord D voor Marine Reptiles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Marine Reptiles.",
+      "es": "Esta es la respuesta correcta sobre Marine Reptiles.",
+      "de": "Dies ist die richtige Antwort über Marine Reptiles.",
+      "nl": "Dit is het juiste antwoord over Marine Reptiles."
+    }
   }
-})();
+]
+};

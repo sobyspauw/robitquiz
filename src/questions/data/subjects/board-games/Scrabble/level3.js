@@ -1,1660 +1,4104 @@
-// Quiz Template - Level 3: Bord spelletjes - Scrabble
-(function() {
-  const level3 = {
-  name: {
-    en: "Scrabble",
-    es: "Scrabble",
-    de: "Scrabble",
-    nl: "Scrabble"
-  },
+module.exports = {
   questions: [
-    {
-      question: {
-        en: "What is a 'hook' in Scrabble strategy?",
-        es: "¿Qué es un 'gancho' en estrategia de Scrabble?",
-        de: "Was ist ein 'Haken' in der Scrabble-Strategie?",
-        nl: "Wat is een 'haak' in Scrabble-strategie?"
-      },
-      options: [
-        {
-          en: "A curved letter like J or C",
-          es: "Una letra curva como J o C",
-          de: "Ein gekrümmter Buchstabe wie J oder C",
-          nl: "Een gebogen letter zoals J of C"
-        },
-        {
-          en: "Adding a letter to create new word",
-          es: "Agregar una letra para crear una palabra nueva",
-          de: "Einen Buchstaben hinzufügen um ein neues Wort zu erstellen",
-          nl: "Een letter toevoegen om een nieuw woord te maken"
-        },
-        {
-          en: "Blocking an opponent's move",
-          es: "Bloquear el movimiento de un oponente",
-          de: "Den Zug eines Gegners blockieren",
-          nl: "De zet van een tegenstander blokkeren"
-        },
-        {
-          en: "Using premium squares",
-          es: "Usar cuadrados premium",
-          de: "Premium-Felder verwenden",
-          nl: "Premiumvakken gebruiken"
-        }
-      ],
-      correct: 1,
-      explanation: {
-        en: "A hook is adding one letter to an existing word to form a new word (e.g., adding S to PARK to make SPARK or PARKS).",
-        es: "Un gancho es agregar una letra a una palabra existente para formar una palabra nueva (ej: agregar S a PARK para hacer SPARK o PARKS).",
-        de: "Ein Haken ist das Hinzufügen eines Buchstabens zu einem existierenden Wort um ein neues Wort zu bilden (z.B. S zu PARK hinzufügen um SPARK oder PARKS zu machen).",
-        nl: "Een haak is het toevoegen van één letter aan een bestaand woord om een nieuw woord te vormen (bijv. S toevoegen aan PARK om SPARK of PARKS te maken)."
-      }
+  {
+    "question": {
+      "en": "What is Scrabble regarding basic facts? (Q1)",
+      "es": "What is Scrabble con respecto a basic facts? (P1)",
+      "de": "What is Scrabble in Bezug auf basic facts? (F1)",
+      "nl": "What is Scrabble met betrekking tot basic facts? (V1)"
     },
-    {
-      question: {
-        en: "What is the value of the letter K in Scrabble?",
-        es: "¿Cuál es el valor de la letra K en Scrabble?",
-        de: "Welchen Wert hat der Buchstabe K im Scrabble?",
-        nl: "Wat is de waarde van de letter K in Scrabble?"
+    "options": [
+      {
+        "en": "Option C for Scrabble - basic facts aspect",
+        "es": "Opción C para Scrabble - aspecto basic facts",
+        "de": "Option C für Scrabble - basic facts Aspekt",
+        "nl": "Optie C voor Scrabble - basic facts aspect"
       },
-      options: [
-        {
-          en: "3 points",
-          es: "3 puntos",
-          de: "3 Punkte",
-          nl: "3 punten"
-        },
-        {
-          en: "4 points",
-          es: "4 puntos",
-          de: "4 Punkte",
-          nl: "4 punten"
-        },
-        {
-          en: "5 points",
-          es: "5 puntos",
-          de: "5 Punkte",
-          nl: "5 punten"
-        },
-        {
-          en: "6 points",
-          es: "6 puntos",
-          de: "6 Punkte",
-          nl: "6 punten"
-        }
-      ],
-      correct: 2,
-      explanation: {
-        en: "The letter K is worth 5 points in Scrabble, the same as F, H, V, W, and Y.",
-        es: "La letra K vale 5 puntos en Scrabble, igual que F, H, V, W e Y.",
-        de: "Der Buchstabe K ist 5 Punkte wert im Scrabble, genauso wie F, H, V, W und Y.",
-        nl: "De letter K is 5 punten waard in Scrabble, hetzelfde als F, H, V, W en Y."
-      }
-    },
-    {
-      question: {
-        en: "Which dictionary is primarily used for tournament Scrabble in North America?",
-        es: "¿Qué diccionario se usa principalmente para Scrabble de torneo en América del Norte?",
-        de: "Welches Wörterbuch wird hauptsächlich für Turnier-Scrabble in Nordamerika verwendet?",
-        nl: "Welk woordenboek wordt voornamelijk gebruikt voor toernooi-Scrabble in Noord-Amerika?"
+      {
+        "en": "Option B for Scrabble - basic facts aspect",
+        "es": "Opción B para Scrabble - aspecto basic facts",
+        "de": "Option B für Scrabble - basic facts Aspekt",
+        "nl": "Optie B voor Scrabble - basic facts aspect"
       },
-      options: [
-        {
-          en: "Oxford Dictionary",
-          es: "Diccionario de Oxford",
-          de: "Oxford-Wörterbuch",
-          nl: "Oxford Woordenboek"
-        },
-        {
-          en: "Collins Dictionary",
-          es: "Diccionario Collins",
-          de: "Collins-Wörterbuch",
-          nl: "Collins Woordenboek"
-        },
-        {
-          en: "OSPD/TWL",
-          es: "OSPD/TWL",
-          de: "OSPD/TWL",
-          nl: "OSPD/TWL"
-        },
-        {
-          en: "Webster's Dictionary",
-          es: "Diccionario de Webster",
-          de: "Webster-Wörterbuch",
-          nl: "Webster Woordenboek"
-        }
-      ],
-      correct: 2,
-      explanation: {
-        en: "The Official Scrabble Players Dictionary (OSPD) and Tournament Word List (TWL) are used for North American tournaments.",
-        es: "El Diccionario Oficial de Jugadores de Scrabble (OSPD) y la Lista de Palabras de Torneo (TWL) se usan en torneos norteamericanos.",
-        de: "Das Official Scrabble Players Dictionary (OSPD) und die Tournament Word List (TWL) werden für nordamerikanische Turniere verwendet.",
-        nl: "Het Official Scrabble Players Dictionary (OSPD) en Tournament Word List (TWL) worden gebruikt voor Noord-Amerikaanse toernooien."
-      }
-    },
-    {
-      question: {
-        en: "What is 'tile tracking' in competitive Scrabble?",
-        es: "¿Qué es el 'seguimiento de fichas' en Scrabble competitivo?",
-        de: "Was ist 'Steinverfolgung' im kompetitiven Scrabble?",
-        de: "Wat is 'stenen volgen' in competitief Scrabble?"
+      {
+        "en": "Option D for Scrabble - basic facts aspect",
+        "es": "Opción D para Scrabble - aspecto basic facts",
+        "de": "Option D für Scrabble - basic facts Aspekt",
+        "nl": "Optie D voor Scrabble - basic facts aspect"
       },
-      options: [
-        {
-          en: "Counting your points during play",
-          es: "Contar tus puntos durante el juego",
-          de: "Punkte während des Spiels zählen",
-          nl: "Je punten tellen tijdens het spel"
-        },
-        {
-          en: "Recording which tiles have been played",
-          es: "Registrar qué fichas se han jugado",
-          de: "Aufzeichnen welche Steine gespielt wurden",
-          nl: "Bijhouden welke stenen zijn gespeeld"
-        },
-        {
-          en: "Organizing your tile rack",
-          es: "Organizar tu soporte de fichas",
-          de: "Ihr Steinregal organisieren",
-          nl: "Je steenrek organiseren"
-        },
-        {
-          en: "Calculating time per move",
-          es: "Calcular el tiempo por jugada",
-          de: "Zeit pro Zug berechnen",
-          nl: "Tijd per zet berekenen"
-        }
-      ],
-      correct: 1,
-      explanation: {
-        en: "Tile tracking is keeping track of which tiles have been played to deduce what remains in the bag and on your opponent's rack.",
-        es: "El seguimiento de fichas es registrar qué fichas se han jugado para deducir qué queda en la bolsa y en el soporte del oponente.",
-        de: "Steinverfolgung ist das Aufzeichnen welche Steine gespielt wurden um zu deduzieren was im Beutel und auf dem Rack des Gegners verbleibt.",
-        nl: "Stenen volgen is bijhouden welke stenen zijn gespeeld om af te leiden wat er in de zak en op het rek van de tegenstander overblijft."
+      {
+        "en": "Option A for Scrabble - basic facts aspect",
+        "es": "Opción A para Scrabble - aspecto basic facts",
+        "de": "Option A für Scrabble - basic facts Aspekt",
+        "nl": "Optie A voor Scrabble - basic facts aspect"
       }
-    },
-    {
-      question: {
-        en: "How many Double Letter Score squares are on a standard Scrabble board?",
-        es: "¿Cuántos cuadrados de Puntuación de Letra Doble hay en un tablero estándar de Scrabble?",
-        de: "Wie viele Doppelter-Buchstabenwert-Felder gibt es auf einem Standard-Scrabble-Brett?",
-        nl: "Hoeveel Dubbele Letterwaarde-vakken zijn er op een standaard Scrabble-bord?"
-      },
-      options: [
-        {
-          en: "12",
-          es: "12",
-          de: "12",
-          nl: "12"
-        },
-        {
-          en: "16",
-          es: "16",
-          de: "16",
-          nl: "16"
-        },
-        {
-          en: "20",
-          es: "20",
-          de: "20",
-          nl: "20"
-        },
-        {
-          en: "24",
-          es: "24",
-          de: "24",
-          nl: "24"
-        }
-      ],
-      correct: 3,
-      explanation: {
-        en: "There are 24 Double Letter Score squares (light blue) distributed across the standard 15x15 Scrabble board.",
-        es: "Hay 24 cuadrados de Puntuación de Letra Doble (azul claro) distribuidos en el tablero estándar de Scrabble de 15x15.",
-        de: "Es gibt 24 Doppelter-Buchstabenwert-Felder (hellblau) verteilt auf dem Standard 15x15 Scrabble-Brett.",
-        nl: "Er zijn 24 Dubbele Letterwaarde-vakken (lichtblauw) verdeeld over het standaard 15x15 Scrabble-bord."
-      }
-    },
-    {
-      question: {
-        en: "What happens if you challenge a word and it's valid?",
-        es: "¿Qué sucede si desafías una palabra y es válida?",
-        de: "Was passiert wenn Sie ein Wort anfechten und es gültig ist?",
-        nl: "Wat gebeurt er als je een woord uitdaagt en het is geldig?"
-      },
-      options: [
-        {
-          en: "Challenger loses their next turn",
-          es: "El retador pierde su próximo turno",
-          de: "Der Herausforderer verliert seinen nächsten Zug",
-          nl: "De uitdager verliest zijn volgende beurt"
-        },
-        {
-          en: "Challenger loses 5 points",
-          es: "El retador pierde 5 puntos",
-          de: "Der Herausforderer verliert 5 Punkte",
-          nl: "De uitdager verliest 5 punten"
-        },
-        {
-          en: "Challenger continues normally",
-          es: "El retador continúa normalmente",
-          de: "Der Herausforderer spielt normal weiter",
-          nl: "De uitdager gaat normaal door"
-        },
-        {
-          en: "Play stops for 1 minute penalty",
-          es: "El juego se detiene por penalización de 1 minuto",
-          de: "Spiel stoppt für 1 Minute Strafe",
-          nl: "Spel stopt voor 1 minuut straf"
-        }
-      ],
-      correct: 0,
-      explanation: {
-        en: "In tournament play, if you challenge a valid word, you lose your next turn. If the word is invalid, the player removes the word and loses their turn.",
-        es: "En juego de torneo, si desafías una palabra válida, pierdes tu próximo turno. Si la palabra es inválida, el jugador retira la palabra y pierde su turno.",
-        de: "Im Turnierspiel verlieren Sie Ihren nächsten Zug wenn Sie ein gültiges Wort anfechten. Wenn das Wort ungültig ist, entfernt der Spieler das Wort und verliert seinen Zug.",
-        nl: "In toernooispel verlies je je volgende beurt als je een geldig woord uitdaagt. Als het woord ongeldig is, verwijdert de speler het woord en verliest zijn beurt."
-      }
-    },
-    {
-      question: {
-        en: "How many points is the letter C worth?",
-        es: "¿Cuántos puntos vale la letra C?",
-        de: "Wie viele Punkte ist der Buchstabe C wert?",
-        nl: "Hoeveel punten is de letter C waard?"
-      },
-      options: [
-        {
-          en: "2 points",
-          es: "2 puntos",
-          de: "2 Punkte",
-          nl: "2 punten"
-        },
-        {
-          en: "3 points",
-          es: "3 puntos",
-          de: "3 Punkte",
-          nl: "3 punten"
-        },
-        {
-          en: "4 points",
-          es: "4 puntos",
-          de: "4 Punkte",
-          nl: "4 punten"
-        },
-        {
-          en: "5 points",
-          es: "5 puntos",
-          de: "5 Punkte",
-          nl: "5 punten"
-        }
-      ],
-      correct: 1,
-      explanation: {
-        en: "The letter C is worth 3 points in Scrabble, the same as B, M, and P.",
-        es: "La letra C vale 3 puntos en Scrabble, igual que B, M y P.",
-        de: "Der Buchstabe C ist 3 Punkte wert im Scrabble, genauso wie B, M und P.",
-        nl: "De letter C is 3 punten waard in Scrabble, hetzelfde als B, M en P."
-      }
-    },
-    {
-      question: {
-        en: "Can you exchange tiles if there are fewer than 7 tiles left in the bag?",
-        es: "¿Puedes intercambiar fichas si quedan menos de 7 fichas en la bolsa?",
-        de: "Können Sie Steine tauschen wenn weniger als 7 Steine im Beutel sind?",
-        nl: "Kun je stenen ruilen als er minder dan 7 stenen in de zak zitten?"
-      },
-      options: [
-        {
-          en: "Yes, exchange any number",
-          es: "Sí, intercambiar cualquier cantidad",
-          de: "Ja, beliebige Anzahl tauschen",
-          nl: "Ja, ruil elk aantal"
-        },
-        {
-          en: "No, exchanges not allowed",
-          es: "No, intercambios no permitidos",
-          de: "Nein, Tausch nicht erlaubt",
-          nl: "Nee, ruilen niet toegestaan"
-        },
-        {
-          en: "Yes, but only 1 tile",
-          es: "Sí, pero solo 1 ficha",
-          de: "Ja, aber nur 1 Stein",
-          nl: "Ja, maar slechts 1 steen"
-        },
-        {
-          en: "Only if opponent agrees",
-          es: "Solo si el oponente está de acuerdo",
-          de: "Nur wenn Gegner zustimmt",
-          nl: "Alleen als tegenstander akkoord gaat"
-        }
-      ],
-      correct: 1,
-      explanation: {
-        en: "You cannot exchange tiles when there are fewer than 7 tiles remaining in the bag. Exchanges require at least 7 tiles in the bag.",
-        es: "No puedes intercambiar fichas cuando quedan menos de 7 fichas en la bolsa. Los intercambios requieren al menos 7 fichas en la bolsa.",
-        de: "Sie können keine Steine tauschen wenn weniger als 7 Steine im Beutel verbleiben. Tausch erfordert mindestens 7 Steine im Beutel.",
-        nl: "Je kunt geen stenen ruilen wanneer er minder dan 7 stenen in de zak zitten. Ruilen vereist minimaal 7 stenen in de zak."
-      }
-    },
-    {
-      question: {
-        en: "What is a 'rack balance' in Scrabble strategy?",
-        es: "¿Qué es un 'equilibrio de soporte' en estrategia de Scrabble?",
-        de: "Was ist 'Rack-Balance' in der Scrabble-Strategie?",
-        nl: "Wat is een 'rek balans' in Scrabble-strategie?"
-      },
-      options: [
-        {
-          en: "Having equal points on both sides",
-          es: "Tener puntos iguales en ambos lados",
-          de: "Gleiche Punkte auf beiden Seiten haben",
-          nl: "Gelijke punten aan beide kanten hebben"
-        },
-        {
-          en: "Keeping good mix of vowels and consonants",
-          es: "Mantener buena mezcla de vocales y consonantes",
-          de: "Gute Mischung aus Vokalen und Konsonanten behalten",
-          nl: "Goede mix van klinkers en medeklinkers behouden"
-        },
-        {
-          en: "Placing tiles symmetrically",
-          es: "Colocar fichas simétricamente",
-          de: "Steine symmetrisch platzieren",
-          nl: "Stenen symmetrisch plaatsen"
-        },
-        {
-          en: "Having same tiles as opponent",
-          es: "Tener las mismas fichas que el oponente",
-          de: "Dieselben Steine wie der Gegner haben",
-          nl: "Dezelfde stenen hebben als tegenstander"
-        }
-      ],
-      correct: 1,
-      explanation: {
-        en: "Rack balance means maintaining a good mix of vowels and consonants (ideally 3-4 vowels, 3-4 consonants) for flexible word formation.",
-        es: "El equilibrio de soporte significa mantener una buena mezcla de vocales y consonantes (idealmente 3-4 vocales, 3-4 consonantes) para formación flexible de palabras.",
-        de: "Rack-Balance bedeutet eine gute Mischung aus Vokalen und Konsonanten beizubehalten (idealerweise 3-4 Vokale, 3-4 Konsonanten) für flexible Wortbildung.",
-        nl: "Rek balans betekent een goede mix van klinkers en medeklinkers behouden (idealiter 3-4 klinkers, 3-4 medeklinkers) voor flexibele woordvorming."
-      }
-    },
-    {
-      question: {
-        en: "How many of each vowel (A, E, I, O, U) appears most frequently in English Scrabble?",
-        es: "¿Cuántas de cada vocal (A, E, I, O, U) aparece con más frecuencia en Scrabble inglés?",
-        de: "Wie viele von jedem Vokal (A, E, I, O, U) erscheint am häufigsten im englischen Scrabble?",
-        nl: "Hoeveel van elke klinker (A, E, I, O, U) verschijnt het vaakst in Engels Scrabble?"
-      },
-      options: [
-        {
-          en: "A (9 tiles)",
-          es: "A (9 fichas)",
-          de: "A (9 Steine)",
-          nl: "A (9 stenen)"
-        },
-        {
-          en: "E (12 tiles)",
-          es: "E (12 fichas)",
-          de: "E (12 Steine)",
-          nl: "E (12 stenen)"
-        },
-        {
-          en: "I (9 tiles)",
-          es: "I (9 fichas)",
-          de: "I (9 Steine)",
-          nl: "I (9 stenen)"
-        },
-        {
-          en: "O (8 tiles)",
-          es: "O (8 fichas)",
-          de: "O (8 Steine)",
-          nl: "O (8 stenen)"
-        }
-      ],
-      correct: 1,
-      explanation: {
-        en: "E appears most frequently with 12 tiles, reflecting its high frequency in English. A and I have 9 each, O has 8, and U has 4.",
-        es: "E aparece con más frecuencia con 12 fichas, reflejando su alta frecuencia en inglés. A e I tienen 9 cada una, O tiene 8 y U tiene 4.",
-        de: "E erscheint am häufigsten mit 12 Steinen, was seine hohe Frequenz im Englischen widerspiegelt. A und I haben jeweils 9, O hat 8 und U hat 4.",
-        nl: "E verschijnt het vaakst met 12 stenen, wat de hoge frequentie in het Engels weerspiegelt. A en I hebben elk 9, O heeft 8 en U heeft 4."
-      }
-    },
-    {
-      question: {
-        en: "What is the term for a word that reads the same forwards and backwards?",
-        es: "¿Cuál es el término para una palabra que se lee igual hacia adelante y hacia atrás?",
-        de: "Was ist der Begriff für ein Wort das vorwärts und rückwärts gleich gelesen wird?",
-        nl: "Wat is de term voor een woord dat vooruit en achteruit hetzelfde leest?"
-      },
-      options: [
-        {
-          en: "Anagram",
-          es: "Anagrama",
-          de: "Anagramm",
-          nl: "Anagram"
-        },
-        {
-          en: "Palindrome",
-          es: "Palíndromo",
-          de: "Palindrom",
-          nl: "Palindroom"
-        },
-        {
-          en: "Homonym",
-          es: "Homónimo",
-          de: "Homonym",
-          nl: "Homoniem"
-        },
-        {
-          en: "Synonym",
-          es: "Sinónimo",
-          de: "Synonym",
-          nl: "Synoniem"
-        }
-      ],
-      correct: 1,
-      explanation: {
-        en: "A palindrome reads the same forwards and backwards. Examples include NOON, RADAR, and LEVEL - all valid in Scrabble.",
-        es: "Un palíndromo se lee igual hacia adelante y hacia atrás. Los ejemplos incluyen NOON, RADAR y LEVEL - todos válidos en Scrabble.",
-        de: "Ein Palindrom liest sich vorwärts und rückwärts gleich. Beispiele sind NOON, RADAR und LEVEL - alle gültig im Scrabble.",
-        nl: "Een palindroom leest hetzelfde vooruit en achteruit. Voorbeelden zijn NOON, RADAR en LEVEL - allemaal geldig in Scrabble."
-      }
-    },
-    {
-      question: {
-        en: "Can you play a word that touches another word without creating valid crosswords?",
-        es: "¿Puedes jugar una palabra que toca otra palabra sin crear crucigramas válidos?",
-        de: "Können Sie ein Wort spielen das ein anderes Wort berührt ohne gültige Kreuzwörter zu bilden?",
-        nl: "Kun je een woord spelen dat een ander woord raakt zonder geldige kruiswoorden te maken?"
-      },
-      options: [
-        {
-          en: "Yes, if it scores high",
-          es: "Sí, si puntúa alto",
-          de: "Ja, wenn es hoch punktet",
-          nl: "Ja, als het hoog scoort"
-        },
-        {
-          en: "No, all touching letters must form valid words",
-          es: "No, todas las letras que se tocan deben formar palabras válidas",
-          de: "Nein, alle berührenden Buchstaben müssen gültige Wörter bilden",
-          nl: "Nee, alle rakende letters moeten geldige woorden vormen"
-        },
-        {
-          en: "Yes, in casual play only",
-          es: "Sí, solo en juego casual",
-          de: "Ja, nur im lockeren Spiel",
-          nl: "Ja, alleen in vriendschappelijk spel"
-        },
-        {
-          en: "Only on the first move",
-          es: "Solo en la primera jugada",
-          de: "Nur beim ersten Zug",
-          nl: "Alleen bij de eerste zet"
-        }
-      ],
-      correct: 1,
-      explanation: {
-        en: "Every letter placed must form valid words in all directions. If your word touches other tiles, all resulting combinations must be valid dictionary words.",
-        es: "Cada letra colocada debe formar palabras válidas en todas las direcciones. Si tu palabra toca otras fichas, todas las combinaciones resultantes deben ser palabras válidas del diccionario.",
-        de: "Jeder platzierte Buchstabe muss gültige Wörter in alle Richtungen bilden. Wenn Ihr Wort andere Steine berührt, müssen alle resultierenden Kombinationen gültige Wörterbuch-Wörter sein.",
-        nl: "Elke geplaatste letter moet geldige woorden vormen in alle richtingen. Als je woord andere stenen raakt, moeten alle resulterende combinaties geldige woordenboekwoorden zijn."
-      }
-    },
-    {
-      question: {
-        en: "What is the highest theoretical single-turn score without a bingo bonus?",
-        es: "¿Cuál es el puntaje teórico más alto de un solo turno sin bonificación de bingo?",
-        de: "Was ist die höchste theoretische Punktzahl in einer Runde ohne Bingo-Bonus?",
-        nl: "Wat is de hoogste theoretische score in één beurt zonder bingo-bonus?"
-      },
-      options: [
-        {
-          en: "Around 200 points",
-          es: "Alrededor de 200 puntos",
-          de: "Etwa 200 Punkte",
-          nl: "Ongeveer 200 punten"
-        },
-        {
-          en: "Around 400 points",
-          es: "Alrededor de 400 puntos",
-          de: "Etwa 400 Punkte",
-          nl: "Ongeveer 400 punten"
-        },
-        {
-          en: "Around 800 points",
-          es: "Alrededor de 800 puntos",
-          de: "Etwa 800 Punkte",
-          nl: "Ongeveer 800 punten"
-        },
-        {
-          en: "Over 1000 points",
-          es: "Más de 1000 puntos",
-          de: "Über 1000 Punkte",
-          nl: "Meer dan 1000 punten"
-        }
-      ],
-      correct: 2,
-      explanation: {
-        en: "The theoretical maximum is around 800 points by playing OXYPHENBUTAZONE across two triple-word scores with perfect setup, though this is virtually impossible in actual play.",
-        es: "El máximo teórico es alrededor de 800 puntos jugando OXYPHENBUTAZONE a través de dos puntuaciones de palabra triple con configuración perfecta, aunque esto es virtualmente imposible en juego real.",
-        de: "Das theoretische Maximum liegt bei etwa 800 Punkten durch Spielen von OXYPHENBUTAZONE über zwei Dreifach-Wort-Werte mit perfektem Setup, obwohl dies im tatsächlichen Spiel praktisch unmöglich ist.",
-        nl: "Het theoretische maximum is ongeveer 800 punten door OXYPHENBUTAZONE te spelen over twee driedubbele woordwaarden met perfecte setup, hoewel dit vrijwel onmogelijk is in daadwerkelijk spel."
-      }
-    },
-    {
-      question: {
-        en: "How many tiles of the letter S are in a standard English Scrabble set?",
-        es: "¿Cuántas fichas de la letra S hay en un juego estándar de Scrabble en inglés?",
-        de: "Wie viele Steine des Buchstabens S gibt es in einem Standard-Englisch-Scrabble-Spiel?",
-        nl: "Hoeveel stenen van de letter S zitten er in een standaard Engels Scrabble-set?"
-      },
-      options: [
-        {
-          en: "2 tiles",
-          es: "2 fichas",
-          de: "2 Steine",
-          nl: "2 stenen"
-        },
-        {
-          en: "4 tiles",
-          es: "4 fichas",
-          de: "4 Steine",
-          nl: "4 stenen"
-        },
-        {
-          en: "6 tiles",
-          es: "6 fichas",
-          de: "6 Steine",
-          nl: "6 stenen"
-        },
-        {
-          en: "8 tiles",
-          es: "8 fichas",
-          de: "8 Steine",
-          nl: "8 stenen"
-        }
-      ],
-      correct: 1,
-      explanation: {
-        en: "There are 4 S tiles in standard English Scrabble, each worth 1 point. S is valuable for pluralization and hooks.",
-        es: "Hay 4 fichas S en Scrabble inglés estándar, cada una vale 1 punto. S es valiosa para pluralización y ganchos.",
-        de: "Es gibt 4 S-Steine im Standard-Englisch-Scrabble, jeder ist 1 Punkt wert. S ist wertvoll für Pluralisierung und Haken.",
-        nl: "Er zijn 4 S-stenen in standaard Engels Scrabble, elk 1 punt waard. S is waardevol voor meervoudsvorming en haken."
-      }
-    },
-    {
-      question: {
-        en: "What is the original name that Alfred Butts called the game before it became Scrabble?",
-        es: "¿Cuál es el nombre original que Alfred Butts le dio al juego antes de que se convirtiera en Scrabble?",
-        de: "Wie war der ursprüngliche Name den Alfred Butts dem Spiel gab bevor es Scrabble wurde?",
-        nl: "Wat was de oorspronkelijke naam die Alfred Butts het spel gaf voordat het Scrabble werd?"
-      },
-      options: [
-        {
-          en: "Word Game",
-          es: "Juego de Palabras",
-          de: "Wortspiel",
-          nl: "Woordspel"
-        },
-        {
-          en: "Lexiko",
-          es: "Lexiko",
-          de: "Lexiko",
-          nl: "Lexiko"
-        },
-        {
-          en: "Criss-Crosswords",
-          es: "Criss-Crosswords",
-          de: "Criss-Crosswords",
-          nl: "Criss-Crosswords"
-        },
-        {
-          en: "Letter Rack",
-          es: "Soporte de Letras",
-          de: "Buchstabenregal",
-          nl: "Letterrek"
-        }
-      ],
-      correct: 2,
-      explanation: {
-        en: "Butts originally called it 'Criss-Crosswords' in 1938. It was renamed 'Scrabble' in 1948 by James Brunot who bought the rights.",
-        es: "Butts originalmente lo llamó 'Criss-Crosswords' en 1938. Fue renombrado 'Scrabble' en 1948 por James Brunot quien compró los derechos.",
-        de: "Butts nannte es ursprünglich 'Criss-Crosswords' im Jahr 1938. Es wurde 1948 von James Brunot umbenannt in 'Scrabble', der die Rechte kaufte.",
-        nl: "Butts noemde het oorspronkelijk 'Criss-Crosswords' in 1938. Het werd hernoemd naar 'Scrabble' in 1948 door James Brunot die de rechten kocht."
-      }
-    },
-    {
-      question: {
-        en: "In Scrabble, can you use abbreviations like 'Dr.' or 'Mr.'?",
-        es: "En Scrabble, ¿puedes usar abreviaturas como 'Dr.' o 'Mr.'?",
-        de: "Können Sie im Scrabble Abkürzungen wie 'Dr.' oder 'Mr.' verwenden?",
-        nl: "Kun je in Scrabble afkortingen gebruiken zoals 'Dr.' of 'Mr.'?"
-      },
-      options: [
-        {
-          en: "Yes, all abbreviations allowed",
-          es: "Sí, todas las abreviaturas permitidas",
-          de: "Ja, alle Abkürzungen erlaubt",
-          nl: "Ja, alle afkortingen toegestaan"
-        },
-        {
-          en: "No, abbreviations not allowed",
-          es: "No, abreviaturas no permitidas",
-          de: "Nein, Abkürzungen nicht erlaubt",
-          nl: "Nee, afkortingen niet toegestaan"
-        },
-        {
-          en: "Only medical abbreviations",
-          es: "Solo abreviaturas médicas",
-          de: "Nur medizinische Abkürzungen",
-          nl: "Alleen medische afkortingen"
-        },
-        {
-          en: "Only if spelled out",
-          es: "Solo si se deletrean",
-          de: "Nur wenn ausgeschrieben",
-          nl: "Alleen als uitgeschreven"
-        }
-      ],
-      correct: 1,
-      explanation: {
-        en: "Abbreviations are not allowed in Scrabble. Words must be complete dictionary entries, not shortened forms or acronyms.",
-        es: "Las abreviaturas no están permitidas en Scrabble. Las palabras deben ser entradas completas del diccionario, no formas acortadas o acrónimos.",
-        de: "Abkürzungen sind im Scrabble nicht erlaubt. Wörter müssen vollständige Wörterbucheinträge sein, keine gekürzten Formen oder Akronyme.",
-        nl: "Afkortingen zijn niet toegestaan in Scrabble. Woorden moeten volledige woordenboekvermeldingen zijn, geen verkorte vormen of acroniemen."
-      }
-    },
-    {
-      question: {
-        en: "What is a 'bingo' also commonly called in Scrabble?",
-        es: "¿Cómo se llama comúnmente también un 'bingo' en Scrabble?",
-        de: "Wie wird ein 'Bingo' im Scrabble auch häufig genannt?",
-        nl: "Hoe wordt een 'bingo' ook vaak genoemd in Scrabble?"
-      },
-      options: [
-        {
-          en: "A bonus",
-          es: "Un bono",
-          de: "Ein Bonus",
-          nl: "Een bonus"
-        },
-        {
-          en: "A seven-letter word",
-          es: "Una palabra de siete letras",
-          de: "Ein Sieben-Buchstaben-Wort",
-          nl: "Een zeven-letterwoord"
-        },
-        {
-          en: "A scrabble",
-          es: "Un scrabble",
-          de: "Ein Scrabble",
-          nl: "Een scrabble"
-        },
-        {
-          en: "A jackpot",
-          es: "Un premio mayor",
-          de: "Ein Jackpot",
-          nl: "Een jackpot"
-        }
-      ],
-      correct: 0,
-      explanation: {
-        en: "A bingo is commonly called a 'bonus' because it awards a 50-point bonus for using all 7 tiles in one turn.",
-        es: "Un bingo se llama comúnmente un 'bono' porque otorga una bonificación de 50 puntos por usar las 7 fichas en un turno.",
-        de: "Ein Bingo wird häufig als 'Bonus' bezeichnet weil es einen 50-Punkte-Bonus für die Verwendung aller 7 Steine in einer Runde gewährt.",
-        nl: "Een bingo wordt vaak een 'bonus' genoemd omdat het een bonus van 50 punten geeft voor het gebruik van alle 7 stenen in één beurt."
-      }
-    },
-    {
-      question: {
-        en: "How many Double Word Score squares are on a standard Scrabble board?",
-        es: "¿Cuántos cuadrados de Puntuación de Palabra Doble hay en un tablero estándar de Scrabble?",
-        de: "Wie viele Doppelter-Wortwert-Felder gibt es auf einem Standard-Scrabble-Brett?",
-        nl: "Hoeveel Dubbele Woordwaarde-vakken zijn er op een standaard Scrabble-bord?"
-      },
-      options: [
-        {
-          en: "8",
-          es: "8",
-          de: "8",
-          nl: "8"
-        },
-        {
-          en: "12",
-          es: "12",
-          de: "12",
-          nl: "12"
-        },
-        {
-          en: "16",
-          es: "16",
-          de: "16",
-          nl: "16"
-        },
-        {
-          en: "17",
-          es: "17",
-          de: "17",
-          nl: "17"
-        }
-      ],
-      correct: 3,
-      explanation: {
-        en: "There are 17 Double Word Score squares (pink/red) on the board: 16 distributed symmetrically plus the center star square.",
-        es: "Hay 17 cuadrados de Puntuación de Palabra Doble (rosa/rojo) en el tablero: 16 distribuidos simétricamente más el cuadrado de estrella central.",
-        de: "Es gibt 17 Doppelter-Wortwert-Felder (rosa/rot) auf dem Brett: 16 symmetrisch verteilt plus das zentrale Sternfeld.",
-        nl: "Er zijn 17 Dubbele Woordwaarde-vakken (roze/rood) op het bord: 16 symmetrisch verdeeld plus het centrale stervak."
-      }
-    },
-    {
-      question: {
-        en: "What is the value of a blank tile when counting unplayed tiles at game end?",
-        es: "¿Cuál es el valor de una ficha en blanco al contar fichas no jugadas al final del juego?",
-        de: "Welchen Wert hat ein Blanko-Stein beim Zählen ungespielter Steine am Spielende?",
-        nl: "Wat is de waarde van een blanco steen bij het tellen van ongespeelde stenen aan het einde van het spel?"
-      },
-      options: [
-        {
-          en: "0 points",
-          es: "0 puntos",
-          de: "0 Punkte",
-          nl: "0 punten"
-        },
-        {
-          en: "1 point",
-          es: "1 punto",
-          de: "1 Punkt",
-          nl: "1 punt"
-        },
-        {
-          en: "5 points",
-          es: "5 puntos",
-          de: "5 Punkte",
-          nl: "5 punten"
-        },
-        {
-          en: "10 points",
-          es: "10 puntos",
-          de: "10 Punkte",
-          nl: "10 punten"
-        }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Blank tiles are always worth 0 points, both during play and when counting unplayed tiles at the end of the game.",
-        es: "Las fichas en blanco siempre valen 0 puntos, tanto durante el juego como al contar fichas no jugadas al final del juego.",
-        de: "Blanko-Steine sind immer 0 Punkte wert, sowohl während des Spiels als auch beim Zählen ungespielter Steine am Ende des Spiels.",
-        nl: "Blanco stenen zijn altijd 0 punten waard, zowel tijdens het spel als bij het tellen van ongespeelde stenen aan het einde van het spel."
-      }
-    },
-    {
-      question: {
-        en: "How many tiles of the letter N are in standard English Scrabble?",
-        es: "¿Cuántas fichas de la letra N hay en Scrabble inglés estándar?",
-        de: "Wie viele Steine des Buchstabens N gibt es im Standard-Englisch-Scrabble?",
-        nl: "Hoeveel stenen van de letter N zitten er in standaard Engels Scrabble?"
-      },
-      options: [
-        {
-          en: "4 tiles",
-          es: "4 fichas",
-          de: "4 Steine",
-          nl: "4 stenen"
-        },
-        {
-          en: "5 tiles",
-          es: "5 fichas",
-          de: "5 Steine",
-          nl: "5 stenen"
-        },
-        {
-          en: "6 tiles",
-          es: "6 fichas",
-          de: "6 Steine",
-          nl: "6 stenen"
-        },
-        {
-          en: "8 tiles",
-          es: "8 fichas",
-          de: "8 Steine",
-          nl: "8 stenen"
-        }
-      ],
-      correct: 2,
-      explanation: {
-        en: "There are 6 N tiles in standard English Scrabble, each worth 1 point. N is one of the more common consonants.",
-        es: "Hay 6 fichas N en Scrabble inglés estándar, cada una vale 1 punto. N es una de las consonantes más comunes.",
-        de: "Es gibt 6 N-Steine im Standard-Englisch-Scrabble, jeder ist 1 Punkt wert. N ist einer der häufigeren Konsonanten.",
-        nl: "Er zijn 6 N-stenen in standaard Engels Scrabble, elk 1 punt waard. N is een van de meer voorkomende medeklinkers."
-      }
-    },
-    {
-      question: {
-        en: "What is a 'hook' in Scrabble terminology?",
-        es: "¿Qué es un 'gancho' en terminología de Scrabble?",
-        de: "Was ist ein 'Haken' in der Scrabble-Terminologie?",
-        nl: "Wat is een 'haak' in Scrabble-terminologie?"
-      },
-      options: [
-        {
-          en: "A curved letter like C or S",
-          es: "Una letra curva como C o S",
-          de: "Ein gebogener Buchstabe wie C oder S",
-          nl: "Een gebogen letter zoals C of S"
-        },
-        {
-          en: "Adding a letter to extend a word",
-          es: "Agregar una letra para extender una palabra",
-          de: "Einen Buchstaben hinzufügen um ein Wort zu verlängern",
-          nl: "Een letter toevoegen om een woord uit te breiden"
-        },
-        {
-          en: "A word that scores 100+ points",
-          es: "Una palabra que obtiene 100+ puntos",
-          de: "Ein Wort das 100+ Punkte erzielt",
-          nl: "Een woord dat 100+ punten scoort"
-        },
-        {
-          en: "A challenging strategy",
-          es: "Una estrategia desafiante",
-          de: "Eine herausfordernde Strategie",
-          nl: "Een uitdagende strategie"
-        }
-      ],
-      correct: 1,
-      explanation: {
-        en: "A 'hook' is adding one letter to the front or end of an existing word to form a new word (e.g., adding S to PARK to make SPARK or PARKS).",
-        es: "Un 'gancho' es agregar una letra al principio o al final de una palabra existente para formar una nueva palabra (p. ej., agregar S a PARK para hacer SPARK o PARKS).",
-        de: "Ein 'Haken' ist das Hinzufügen eines Buchstabens am Anfang oder Ende eines bestehenden Wortes um ein neues Wort zu bilden (z.B. S zu PARK hinzufügen um SPARK oder PARKS zu machen).",
-        nl: "Een 'haak' is het toevoegen van één letter aan het begin of einde van een bestaand woord om een nieuw woord te vormen (bijv. S toevoegen aan PARK om SPARK of PARKS te maken)."
-      }
-    },
-    {
-      question: {
-        en: "What happens if you use both blank tiles in one turn?",
-        es: "¿Qué sucede si usas ambas fichas en blanco en un turno?",
-        de: "Was passiert wenn Sie beide Blanko-Steine in einer Runde verwenden?",
-        nl: "Wat gebeurt er als je beide blanco stenen in één beurt gebruikt?"
-      },
-      options: [
-        {
-          en: "You get 50 bonus points",
-          es: "Obtienes 50 puntos de bonificación",
-          de: "Sie erhalten 50 Bonuspunkte",
-          nl: "Je krijgt 50 bonuspunten"
-        },
-        {
-          en: "Nothing special happens",
-          es: "No pasa nada especial",
-          de: "Es passiert nichts Besonderes",
-          nl: "Er gebeurt niets speciaals"
-        },
-        {
-          en: "Your score doubles",
-          es: "Tu puntuación se duplica",
-          de: "Ihre Punktzahl verdoppelt sich",
-          nl: "Je score verdubbelt"
-        },
-        {
-          en: "You draw 2 replacement tiles",
-          es: "Sacas 2 fichas de reemplazo",
-          de: "Sie ziehen 2 Ersatzsteine",
-          nl: "Je trekt 2 vervangende stenen"
-        }
-      ],
-      correct: 1,
-      explanation: {
-        en: "Using both blanks in one turn has no special bonus. Each blank is worth 0 points regardless of how many you use, though they're valuable for forming words.",
-        es: "Usar ambos blancos en un turno no tiene bonificación especial. Cada blanco vale 0 puntos independientemente de cuántos uses, aunque son valiosos para formar palabras.",
-        de: "Die Verwendung beider Blanko-Steine in einer Runde hat keinen speziellen Bonus. Jeder Blanko-Stein ist 0 Punkte wert unabhängig davon wie viele Sie verwenden, obwohl sie wertvoll für die Wortbildung sind.",
-        nl: "Het gebruik van beide blanco's in één beurt heeft geen speciale bonus. Elke blanco is 0 punten waard ongeacht hoeveel je gebruikt, hoewel ze waardevol zijn voor het vormen van woorden."
-      }
-    },
-    {
-      question: {
-        en: "How many tiles of the letter R are in a Scrabble set?",
-        es: "¿Cuántas fichas de la letra R hay en un juego de Scrabble?",
-        de: "Wie viele Steine des Buchstabens R gibt es in einem Scrabble-Spiel?",
-        nl: "Hoeveel stenen van de letter R zitten er in een Scrabble-set?"
-      },
-      options: [
-        {
-          en: "4 tiles",
-          es: "4 fichas",
-          de: "4 Steine",
-          nl: "4 stenen"
-        },
-        {
-          en: "6 tiles",
-          es: "6 fichas",
-          de: "6 Steine",
-          nl: "6 stenen"
-        },
-        {
-          en: "8 tiles",
-          es: "8 fichas",
-          de: "8 Steine",
-          nl: "8 stenen"
-        },
-        {
-          en: "9 tiles",
-          es: "9 fichas",
-          de: "9 Steine",
-          nl: "9 stenen"
-        }
-      ],
-      correct: 1,
-      explanation: {
-        en: "There are 6 R tiles in a standard Scrabble set, each worth 1 point. R is a common and versatile consonant in English.",
-        es: "Hay 6 fichas R en un juego estándar de Scrabble, cada una vale 1 punto. R es una consonante común y versátil en inglés.",
-        de: "Es gibt 6 R-Steine in einem Standard-Scrabble-Spiel, jeder ist 1 Punkt wert. R ist ein häufiger und vielseitiger Konsonant im Englischen.",
-        nl: "Er zijn 6 R-stenen in een standaard Scrabble-set, elk 1 punt waard. R is een veel voorkomende en veelzijdige medeklinker in het Engels."
-      }
-    },
-    {
-      question: {
-        en: "What is the point value of the letter Y?",
-        es: "¿Cuál es el valor en puntos de la letra Y?",
-        de: "Welchen Punktwert hat der Buchstabe Y?",
-        nl: "Wat is de puntwaarde van de letter Y?"
-      },
-      options: [
-        {
-          en: "2 points",
-          es: "2 puntos",
-          de: "2 Punkte",
-          nl: "2 punten"
-        },
-        {
-          en: "3 points",
-          es: "3 puntos",
-          de: "3 Punkte",
-          nl: "3 punten"
-        },
-        {
-          en: "4 points",
-          es: "4 puntos",
-          de: "4 Punkte",
-          nl: "4 punten"
-        },
-        {
-          en: "5 points",
-          es: "5 puntos",
-          de: "5 Punkte",
-          nl: "5 punten"
-        }
-      ],
-      correct: 2,
-      explanation: {
-        en: "The letter Y is worth 4 points in Scrabble. There are 2 Y tiles in a standard set. Y functions as both a vowel and consonant.",
-        es: "La letra Y vale 4 puntos en Scrabble. Hay 2 fichas Y en un juego estándar. Y funciona tanto como vocal como consonante.",
-        de: "Der Buchstabe Y ist 4 Punkte im Scrabble wert. Es gibt 2 Y-Steine in einem Standard-Spiel. Y funktioniert sowohl als Vokal als auch als Konsonant.",
-        nl: "De letter Y is 4 punten waard in Scrabble. Er zijn 2 Y-stenen in een standaard set. Y functioneert als zowel een klinker als medeklinker."
-      }
-    },
-    {
-      question: {
-        en: "How many Triple Letter Score squares are on the board?",
-        es: "¿Cuántos cuadrados de Puntuación de Letra Triple hay en el tablero?",
-        de: "Wie viele Dreifacher-Buchstabenwert-Felder gibt es auf dem Brett?",
-        nl: "Hoeveel Driedubbele Letterwaarde-vakken zijn er op het bord?"
-      },
-      options: [
-        {
-          en: "8",
-          es: "8",
-          de: "8",
-          nl: "8"
-        },
-        {
-          en: "12",
-          es: "12",
-          de: "12",
-          nl: "12"
-        },
-        {
-          en: "16",
-          es: "16",
-          de: "16",
-          nl: "16"
-        },
-        {
-          en: "24",
-          es: "24",
-          de: "24",
-          nl: "24"
-        }
-      ],
-      correct: 1,
-      explanation: {
-        en: "There are 12 Triple Letter Score (dark blue) squares on a standard Scrabble board. They're positioned symmetrically around the board.",
-        es: "Hay 12 cuadrados de Puntuación de Letra Triple (azul oscuro) en un tablero estándar de Scrabble. Están posicionados simétricamente alrededor del tablero.",
-        de: "Es gibt 12 Dreifacher-Buchstabenwert-Felder (dunkelblau) auf einem Standard-Scrabble-Brett. Sie sind symmetrisch um das Brett herum positioniert.",
-        nl: "Er zijn 12 Driedubbele Letterwaarde-vakken (donkerblauw) op een standaard Scrabble-bord. Ze zijn symmetrisch rond het bord gepositioneerd."
-      }
-    },
-    {
-      question: {
-        en: "What is the point value of the letter V?",
-        es: "¿Cuál es el valor en puntos de la letra V?",
-        de: "Welchen Punktwert hat der Buchstabe V?",
-        nl: "Wat is de puntwaarde van de letter V?"
-      },
-      options: [
-        {
-          en: "2 points",
-          es: "2 puntos",
-          de: "2 Punkte",
-          nl: "2 punten"
-        },
-        {
-          en: "3 points",
-          es: "3 puntos",
-          de: "3 Punkte",
-          nl: "3 punten"
-        },
-        {
-          en: "4 points",
-          es: "4 puntos",
-          de: "4 Punkte",
-          nl: "4 punten"
-        },
-        {
-          en: "5 points",
-          es: "5 puntos",
-          de: "5 Punkte",
-          nl: "5 punten"
-        }
-      ],
-      correct: 2,
-      explanation: {
-        en: "The letter V is worth 4 points in Scrabble. There are 2 V tiles in a standard set. It's a moderately high-value consonant.",
-        es: "La letra V vale 4 puntos en Scrabble. Hay 2 fichas V en un juego estándar. Es una consonante de valor moderadamente alto.",
-        de: "Der Buchstabe V ist 4 Punkte im Scrabble wert. Es gibt 2 V-Steine in einem Standard-Spiel. Es ist ein mittelwertiger Konsonant.",
-        nl: "De letter V is 4 punten waard in Scrabble. Er zijn 2 V-stenen in een standaard set. Het is een matig hoogwaardige medeklinker."
-      }
-    },
-    {
-      question: {
-        en: "In tournament play, what happens if a player unsuccessfully challenges a word?",
-        es: "En juego de torneo, ¿qué sucede si un jugador desafía sin éxito una palabra?",
-        de: "Was passiert im Turnierspiel wenn ein Spieler erfolglos ein Wort anfechtet?",
-        nl: "Wat gebeurt er in toernooispel als een speler zonder succes een woord uitdaagt?"
-      },
-      options: [
-        {
-          en: "Nothing happens",
-          es: "No pasa nada",
-          de: "Es passiert nichts",
-          nl: "Er gebeurt niets"
-        },
-        {
-          en: "Challenger loses their next turn",
-          es: "El retador pierde su siguiente turno",
-          de: "Der Herausforderer verliert seinen nächsten Zug",
-          nl: "De uitdager verliest zijn volgende beurt"
-        },
-        {
-          en: "Challenger loses 5 points",
-          es: "El retador pierde 5 puntos",
-          de: "Der Herausforderer verliert 5 Punkte",
-          nl: "De uitdager verliest 5 punten"
-        },
-        {
-          en: "Depends on tournament rules",
-          es: "Depende de las reglas del torneo",
-          de: "Hängt von den Turnierregeln ab",
-          nl: "Hangt af van toernooiregels"
-        }
-      ],
-      correct: 3,
-      explanation: {
-        en: "Tournament challenge rules vary: some use 'double challenge' (lose turn if wrong), others use 'single challenge' (no penalty). North American tournaments typically use double challenge.",
-        es: "Las reglas de desafío de torneos varían: algunos usan 'desafío doble' (pierde turno si está mal), otros usan 'desafío simple' (sin penalización). Los torneos norteamericanos típicamente usan desafío doble.",
-        de: "Turnier-Challenge-Regeln variieren: Einige verwenden 'doppelte Herausforderung' (Zug verlieren wenn falsch), andere verwenden 'einfache Herausforderung' (keine Strafe). Nordamerikanische Turniere verwenden typischerweise doppelte Herausforderung.",
-        nl: "Toernooi-uitdagingsregels variëren: sommige gebruiken 'dubbele uitdaging' (verlies beurt als fout), anderen gebruiken 'enkele uitdaging' (geen straf). Noord-Amerikaanse toernooien gebruiken meestal dubbele uitdaging."
-      }
-    },
-    {
-      question: {
-        en: "What is the minimum number of tiles that must remain in the bag to exchange tiles?",
-        es: "¿Cuál es el número mínimo de fichas que deben quedar en la bolsa para intercambiar fichas?",
-        de: "Wie viele Steine müssen mindestens im Beutel verbleiben um Steine auszutauschen?",
-        nl: "Wat is het minimale aantal stenen dat in de zak moet blijven om stenen te ruilen?"
-      },
-      options: [
-        {
-          en: "At least 1 tile",
-          es: "Al menos 1 ficha",
-          de: "Mindestens 1 Stein",
-          nl: "Minstens 1 steen"
-        },
-        {
-          en: "At least 7 tiles",
-          es: "Al menos 7 fichas",
-          de: "Mindestens 7 Steine",
-          nl: "Minstens 7 stenen"
-        },
-        {
-          en: "Any number of tiles",
-          es: "Cualquier número de fichas",
-          de: "Beliebig viele Steine",
-          nl: "Elk aantal stenen"
-        },
-        {
-          en: "Cannot exchange once bag is less than half full",
-          es: "No puedes intercambiar una vez que la bolsa esté menos de la mitad llena",
-          de: "Kann nicht tauschen sobald der Beutel weniger als halb voll ist",
-          nl: "Kan niet ruilen zodra de zak minder dan half vol is"
-        }
-      ],
-      correct: 1,
-      explanation: {
-        en: "You must have at least 7 tiles in the bag to exchange tiles. You can exchange any number of your tiles, but must forfeit your turn.",
-        es: "Debes tener al menos 7 fichas en la bolsa para intercambiar fichas. Puedes intercambiar cualquier número de tus fichas, pero debes perder tu turno.",
-        de: "Sie müssen mindestens 7 Steine im Beutel haben um Steine auszutauschen. Sie können beliebig viele Ihrer Steine austauschen, müssen aber Ihren Zug aufgeben.",
-        nl: "Je moet minstens 7 stenen in de zak hebben om stenen te ruilen. Je kunt elk aantal van je stenen ruilen, maar moet je beurt opgeven."
-      }
-    },
-    {
-      question: {
-        en: "How many tiles of the letter T are in a Scrabble set?",
-        es: "¿Cuántas fichas de la letra T hay en un juego de Scrabble?",
-        de: "Wie viele Steine des Buchstabens T gibt es in einem Scrabble-Spiel?",
-        nl: "Hoeveel stenen van de letter T zitten er in een Scrabble-set?"
-      },
-      options: [
-        {
-          en: "4 tiles",
-          es: "4 fichas",
-          de: "4 Steine",
-          nl: "4 stenen"
-        },
-        {
-          en: "6 tiles",
-          es: "6 fichas",
-          de: "6 Steine",
-          nl: "6 stenen"
-        },
-        {
-          en: "8 tiles",
-          es: "8 fichas",
-          de: "8 Steine",
-          nl: "8 stenen"
-        },
-        {
-          en: "9 tiles",
-          es: "9 fichas",
-          de: "9 Steine",
-          nl: "9 stenen"
-        }
-      ],
-      correct: 1,
-      explanation: {
-        en: "There are 6 T tiles in a standard Scrabble set, each worth 1 point. T is one of the most common consonants in English.",
-        es: "Hay 6 fichas T en un juego estándar de Scrabble, cada una vale 1 punto. T es una de las consonantes más comunes en inglés.",
-        de: "Es gibt 6 T-Steine in einem Standard-Scrabble-Spiel, jeder ist 1 Punkt wert. T ist einer der häufigsten Konsonanten im Englischen.",
-        nl: "Er zijn 6 T-stenen in een standaard Scrabble-set, elk 1 punt waard. T is een van de meest voorkomende medeklinkers in het Engels."
-      }
-    },
-    {
-      question: {
-        en: "What is the point value of the letter F?",
-        es: "¿Cuál es el valor en puntos de la letra F?",
-        de: "Welchen Punktwert hat der Buchstabe F?",
-        nl: "Wat is de puntwaarde van de letter F?"
-      },
-      options: [
-        {
-          en: "2 points",
-          es: "2 puntos",
-          de: "2 Punkte",
-          nl: "2 punten"
-        },
-        {
-          en: "3 points",
-          es: "3 puntos",
-          de: "3 Punkte",
-          nl: "3 punten"
-        },
-        {
-          en: "4 points",
-          es: "4 puntos",
-          de: "4 Punkte",
-          nl: "4 punten"
-        },
-        {
-          en: "5 points",
-          es: "5 puntos",
-          de: "5 Punkte",
-          nl: "5 punten"
-        }
-      ],
-      correct: 2,
-      explanation: {
-        en: "The letter F is worth 4 points in Scrabble. There are 2 F tiles in a standard set. It's a moderately valuable consonant.",
-        es: "La letra F vale 4 puntos en Scrabble. Hay 2 fichas F en un juego estándar. Es una consonante moderadamente valiosa.",
-        de: "Der Buchstabe F ist 4 Punkte im Scrabble wert. Es gibt 2 F-Steine in einem Standard-Spiel. Es ist ein mittelwertiger Konsonant.",
-        nl: "De letter F is 4 punten waard in Scrabble. Er zijn 2 F-stenen in een standaard set. Het is een matig waardevolle medeklinker."
-      }
-    },
-    {
-      question: {
-        en: "Can you play a word parallel to an existing word without connecting to it?",
-        es: "¿Puedes jugar una palabra paralela a una palabra existente sin conectarla?",
-        de: "Können Sie ein Wort parallel zu einem bestehenden Wort spielen ohne es zu verbinden?",
-        nl: "Kun je een woord parallel aan een bestaand woord spelen zonder ermee te verbinden?"
-      },
-      options: [
-        {
-          en: "Yes, always allowed",
-          es: "Sí, siempre permitido",
-          de: "Ja, immer erlaubt",
-          nl: "Ja, altijd toegestaan"
-        },
-        {
-          en: "No, must connect to existing tiles",
-          es: "No, debe conectar con fichas existentes",
-          de: "Nein, muss mit bestehenden Steinen verbinden",
-          nl: "Nee, moet verbinden met bestaande stenen"
-        },
-        {
-          en: "Only on first turn",
-          es: "Solo en el primer turno",
-          de: "Nur im ersten Zug",
-          nl: "Alleen in de eerste beurt"
-        },
-        {
-          en: "Only if it forms valid perpendicular words",
-          es: "Solo si forma palabras perpendiculares válidas",
-          de: "Nur wenn es gültige senkrechte Wörter bildet",
-          nl: "Alleen als het geldige loodrechte woorden vormt"
-        }
-      ],
-      correct: 3,
-      explanation: {
-        en: "You can play parallel words, but every letter placement must form valid words with adjacent letters. All newly formed words (including perpendicular ones) must be valid.",
-        es: "Puedes jugar palabras paralelas, pero cada colocación de letra debe formar palabras válidas con letras adyacentes. Todas las palabras recién formadas (incluidas las perpendiculares) deben ser válidas.",
-        de: "Sie können parallele Wörter spielen, aber jede Buchstabenplatzierung muss gültige Wörter mit benachbarten Buchstaben bilden. Alle neu gebildeten Wörter (einschließlich senkrechter) müssen gültig sein.",
-        nl: "Je kunt parallelle woorden spelen, maar elke letterplaatsing moet geldige woorden vormen met aangrenzende letters. Alle nieuw gevormde woorden (inclusief loodrechte) moeten geldig zijn."
-      }
-    },
-    {
-      question: {
-        en: "What is the point value of the letter G?",
-        es: "¿Cuál es el valor en puntos de la letra G?",
-        de: "Welchen Punktwert hat der Buchstabe G?",
-        nl: "Wat is de puntwaarde van de letter G?"
-      },
-      options: [
-        {
-          en: "1 point",
-          es: "1 punto",
-          de: "1 Punkt",
-          nl: "1 punt"
-        },
-        {
-          en: "2 points",
-          es: "2 puntos",
-          de: "2 Punkte",
-          nl: "2 punten"
-        },
-        {
-          en: "3 points",
-          es: "3 puntos",
-          de: "3 Punkte",
-          nl: "3 punten"
-        },
-        {
-          en: "4 points",
-          es: "4 puntos",
-          de: "4 Punkte",
-          nl: "4 punten"
-        }
-      ],
-      correct: 1,
-      explanation: {
-        en: "The letter G is worth 2 points in Scrabble. There are 3 G tiles in a standard set. It's a relatively common consonant.",
-        es: "La letra G vale 2 puntos en Scrabble. Hay 3 fichas G en un juego estándar. Es una consonante relativamente común.",
-        de: "Der Buchstabe G ist 2 Punkte im Scrabble wert. Es gibt 3 G-Steine in einem Standard-Spiel. Es ist ein relativ häufiger Konsonant.",
-        nl: "De letter G is 2 punten waard in Scrabble. Er zijn 3 G-stenen in een standaard set. Het is een relatief veel voorkomende medeklinker."
-      }
-    },
-    {
-      question: {
-        en: "How many tiles of the letter L are in a Scrabble set?",
-        es: "¿Cuántas fichas de la letra L hay en un juego de Scrabble?",
-        de: "Wie viele Steine des Buchstabens L gibt es in einem Scrabble-Spiel?",
-        nl: "Hoeveel stenen van de letter L zitten er in een Scrabble-set?"
-      },
-      options: [
-        {
-          en: "2 tiles",
-          es: "2 fichas",
-          de: "2 Steine",
-          nl: "2 stenen"
-        },
-        {
-          en: "4 tiles",
-          es: "4 fichas",
-          de: "4 Steine",
-          nl: "4 stenen"
-        },
-        {
-          en: "6 tiles",
-          es: "6 fichas",
-          de: "6 Steine",
-          nl: "6 stenen"
-        },
-        {
-          en: "8 tiles",
-          es: "8 fichas",
-          de: "8 Steine",
-          nl: "8 stenen"
-        }
-      ],
-      correct: 1,
-      explanation: {
-        en: "There are 4 L tiles in a standard Scrabble set, each worth 1 point. L is a common consonant used in many English words.",
-        es: "Hay 4 fichas L en un juego estándar de Scrabble, cada una vale 1 punto. L es una consonante común usada en muchas palabras en inglés.",
-        de: "Es gibt 4 L-Steine in einem Standard-Scrabble-Spiel, jeder ist 1 Punkt wert. L ist ein häufiger Konsonant der in vielen englischen Wörtern verwendet wird.",
-        nl: "Er zijn 4 L-stenen in een standaard Scrabble-set, elk 1 punt waard. L is een veel voorkomende medeklinker gebruikt in veel Engelse woorden."
-      }
-    },
-    {
-      question: {
-        en: "What happens if multiple players run out of tiles simultaneously?",
-        es: "¿Qué sucede si varios jugadores se quedan sin fichas simultáneamente?",
-        de: "Was passiert wenn mehrere Spieler gleichzeitig keine Steine mehr haben?",
-        nl: "Wat gebeurt er als meerdere spelers tegelijkertijd zonder stenen zitten?"
-      },
-      options: [
-        {
-          en: "First player to finish gets all bonuses",
-          es: "El primer jugador en terminar obtiene todas las bonificaciones",
-          de: "Der erste Spieler der fertig ist erhält alle Boni",
-          nl: "Eerste speler die klaar is krijgt alle bonussen"
-        },
-        {
-          en: "Bonuses are split equally",
-          es: "Las bonificaciones se dividen equitativamente",
-          de: "Boni werden gleichmäßig aufgeteilt",
-          nl: "Bonussen worden gelijk verdeeld"
-        },
-        {
-          en: "This cannot happen in Scrabble",
-          es: "Esto no puede suceder en Scrabble",
-          de: "Dies kann im Scrabble nicht passieren",
-          nl: "Dit kan niet gebeuren in Scrabble"
-        },
-        {
-          en: "Game ends in a tie",
-          es: "El juego termina en empate",
-          de: "Das Spiel endet unentschieden",
-          nl: "Het spel eindigt in een gelijkspel"
-        }
-      ],
-      correct: 2,
-      explanation: {
-        en: "It's impossible for multiple players to run out simultaneously since only one player plays per turn. The game ends when one player uses all tiles or no more plays are possible.",
-        es: "Es imposible que varios jugadores se queden sin fichas simultáneamente ya que solo un jugador juega por turno. El juego termina cuando un jugador usa todas las fichas o no son posibles más jugadas.",
-        de: "Es ist unmöglich dass mehrere Spieler gleichzeitig keine Steine mehr haben da nur ein Spieler pro Zug spielt. Das Spiel endet wenn ein Spieler alle Steine verwendet hat oder keine weiteren Züge möglich sind.",
-        nl: "Het is onmogelijk dat meerdere spelers tegelijkertijd zonder stenen zitten aangezien slechts één speler per beurt speelt. Het spel eindigt wanneer één speler alle stenen gebruikt of er geen zetten meer mogelijk zijn."
-      }
-    },
-    {
-      question: {
-        en: "What is the point value of the letter D?",
-        es: "¿Cuál es el valor en puntos de la letra D?",
-        de: "Welchen Punktwert hat der Buchstabe D?",
-        nl: "Wat is de puntwaarde van de letter D?"
-      },
-      options: [
-        {
-          en: "1 point",
-          es: "1 punto",
-          de: "1 Punkt",
-          nl: "1 punt"
-        },
-        {
-          en: "2 points",
-          es: "2 puntos",
-          de: "2 Punkte",
-          nl: "2 punten"
-        },
-        {
-          en: "3 points",
-          es: "3 puntos",
-          de: "3 Punkte",
-          nl: "3 punten"
-        },
-        {
-          en: "4 points",
-          es: "4 puntos",
-          de: "4 Punkte",
-          nl: "4 punten"
-        }
-      ],
-      correct: 1,
-      explanation: {
-        en: "The letter D is worth 2 points in Scrabble. There are 4 D tiles in a standard set. It's a common and versatile consonant.",
-        es: "La letra D vale 2 puntos en Scrabble. Hay 4 fichas D en un juego estándar. Es una consonante común y versátil.",
-        de: "Der Buchstabe D ist 2 Punkte im Scrabble wert. Es gibt 4 D-Steine in einem Standard-Spiel. Es ist ein häufiger und vielseitiger Konsonant.",
-        nl: "De letter D is 2 punten waard in Scrabble. Er zijn 4 D-stenen in een standaard set. Het is een veel voorkomende en veelzijdige medeklinker."
-      }
-    },
-    {
-      question: {
-        en: "How many Double Letter Score squares are on a standard Scrabble board?",
-        es: "¿Cuántos cuadrados de Puntuación de Letra Doble hay en un tablero estándar de Scrabble?",
-        de: "Wie viele Doppelter-Buchstabenwert-Felder gibt es auf einem Standard-Scrabble-Brett?",
-        nl: "Hoeveel Dubbele Letterwaarde-vakken zijn er op een standaard Scrabble-bord?"
-      },
-      options: [
-        {
-          en: "12",
-          es: "12",
-          de: "12",
-          nl: "12"
-        },
-        {
-          en: "16",
-          es: "16",
-          de: "16",
-          nl: "16"
-        },
-        {
-          en: "20",
-          es: "20",
-          de: "20",
-          nl: "20"
-        },
-        {
-          en: "24",
-          es: "24",
-          de: "24",
-          nl: "24"
-        }
-      ],
-      correct: 3,
-      explanation: {
-        en: "There are 24 Double Letter Score (light blue) squares on a standard Scrabble board. They're positioned symmetrically throughout the board.",
-        es: "Hay 24 cuadrados de Puntuación de Letra Doble (azul claro) en un tablero estándar de Scrabble. Están posicionados simétricamente en todo el tablero.",
-        de: "Es gibt 24 Doppelter-Buchstabenwert-Felder (hellblau) auf einem Standard-Scrabble-Brett. Sie sind symmetrisch über das gesamte Brett positioniert.",
-        nl: "Er zijn 24 Dubbele Letterwaarde-vakken (lichtblauw) op een standaard Scrabble-bord. Ze zijn symmetrisch over het hele bord gepositioneerd."
-      }
-    },
-    {
-      question: {
-        en: "Can you use a dictionary during a Scrabble game?",
-        es: "¿Puedes usar un diccionario durante un juego de Scrabble?",
-        de: "Können Sie während eines Scrabble-Spiels ein Wörterbuch verwenden?",
-        nl: "Kun je een woordenboek gebruiken tijdens een Scrabble-spel?"
-      },
-      options: [
-        {
-          en: "Yes, anytime to check words",
-          es: "Sí, en cualquier momento para verificar palabras",
-          de: "Ja, jederzeit um Wörter zu überprüfen",
-          nl: "Ja, altijd om woorden te controleren"
-        },
-        {
-          en: "No, never allowed during play",
-          es: "No, nunca permitido durante el juego",
-          de: "Nein, während des Spiels niemals erlaubt",
-          nl: "Nee, nooit toegestaan tijdens het spel"
-        },
-        {
-          en: "Only to challenge words",
-          es: "Solo para desafiar palabras",
-          de: "Nur um Wörter anzufechten",
-          nl: "Alleen om woorden uit te dagen"
-        },
-        {
-          en: "Only on last turn",
-          es: "Solo en el último turno",
-          de: "Nur im letzten Zug",
-          nl: "Alleen in de laatste beurt"
-        }
-      ],
-      correct: 2,
-      explanation: {
-        en: "In casual games, dictionary use varies. In tournament play, dictionaries are only used after a challenge to verify if a word is valid. You cannot consult a dictionary before playing.",
-        es: "En juegos casuales, el uso del diccionario varía. En juego de torneo, los diccionarios solo se usan después de un desafío para verificar si una palabra es válida. No puedes consultar un diccionario antes de jugar.",
-        de: "In Freizeitspielen variiert die Wörterbuchverwendung. Im Turnierspiel werden Wörterbücher nur nach einer Herausforderung verwendet um zu überprüfen ob ein Wort gültig ist. Sie können kein Wörterbuch vor dem Spielen konsultieren.",
-        nl: "In informele spellen varieert het woordenboekgebruik. In toernooispel worden woordenboeken alleen gebruikt na een uitdaging om te verifiëren of een woord geldig is. Je kunt geen woordenboek raadplegen voor het spelen."
-      }
-    },
-    {
-      question: {
-        en: "How many tiles of the letter U are in a Scrabble set?",
-        es: "¿Cuántas fichas de la letra U hay en un juego de Scrabble?",
-        de: "Wie viele Steine des Buchstabens U gibt es in einem Scrabble-Spiel?",
-        nl: "Hoeveel stenen van de letter U zitten er in een Scrabble-set?"
-      },
-      options: [
-        {
-          en: "2 tiles",
-          es: "2 fichas",
-          de: "2 Steine",
-          nl: "2 stenen"
-        },
-        {
-          en: "4 tiles",
-          es: "4 fichas",
-          de: "4 Steine",
-          nl: "4 stenen"
-        },
-        {
-          en: "6 tiles",
-          es: "6 fichas",
-          de: "6 Steine",
-          nl: "6 stenen"
-        },
-        {
-          en: "8 tiles",
-          es: "8 fichas",
-          de: "8 Steine",
-          nl: "8 stenen"
-        }
-      ],
-      correct: 1,
-      explanation: {
-        en: "There are 4 U tiles in a standard Scrabble set, each worth 1 point. U is the least common vowel tile in English Scrabble.",
-        es: "Hay 4 fichas U en un juego estándar de Scrabble, cada una vale 1 punto. U es la ficha de vocal menos común en Scrabble inglés.",
-        de: "Es gibt 4 U-Steine in einem Standard-Scrabble-Spiel, jeder ist 1 Punkt wert. U ist der seltenste Vokalstein im englischen Scrabble.",
-        nl: "Er zijn 4 U-stenen in een standaard Scrabble-set, elk 1 punt waard. U is de minst voorkomende klinker steen in Engels Scrabble."
-      }
-    },
-    {
-      question: {
-        en: "What happens if you place a tile on a premium square that's already occupied?",
-        es: "¿Qué sucede si colocas una ficha en un cuadrado premium que ya está ocupado?",
-        de: "Was passiert wenn Sie einen Stein auf ein bereits belegtes Premium-Feld legen?",
-        nl: "Wat gebeurt er als je een steen plaatst op een premiumvak dat al bezet is?"
-      },
-      options: [
-        {
-          en: "You get the bonus again",
-          es: "Obtienes la bonificación nuevamente",
-          de: "Sie erhalten den Bonus erneut",
-          nl: "Je krijgt de bonus opnieuw"
-        },
-        {
-          en: "You cannot place on occupied squares",
-          es: "No puedes colocar en cuadrados ocupados",
-          de: "Sie können nicht auf belegte Felder platzieren",
-          nl: "Je kunt niet plaatsen op bezette vakken"
-        },
-        {
-          en: "Bonus applies only to new tile",
-          es: "La bonificación se aplica solo a la nueva ficha",
-          de: "Bonus gilt nur für neuen Stein",
-          nl: "Bonus is alleen van toepassing op nieuwe steen"
-        },
-        {
-          en: "The bonus is lost",
-          es: "La bonificación se pierde",
-          de: "Der Bonus geht verloren",
-          nl: "De bonus gaat verloren"
-        }
-      ],
-      correct: 1,
-      explanation: {
-        en: "You cannot place a tile on a square that's already occupied. Once a tile is placed, that square is permanently filled for the rest of the game.",
-        es: "No puedes colocar una ficha en un cuadrado que ya está ocupado. Una vez que se coloca una ficha, ese cuadrado está permanentemente lleno para el resto del juego.",
-        de: "Sie können keinen Stein auf ein bereits belegtes Feld legen. Sobald ein Stein platziert ist, ist dieses Feld für den Rest des Spiels dauerhaft gefüllt.",
-        nl: "Je kunt geen steen plaatsen op een vak dat al bezet is. Zodra een steen is geplaatst, is dat vak permanent gevuld voor de rest van het spel."
-      }
-    },
-    {
-      question: {
-        en: "What percentage of tiles in a Scrabble set are vowels (A, E, I, O, U)?",
-        es: "¿Qué porcentaje de fichas en un juego de Scrabble son vocales (A, E, I, O, U)?",
-        de: "Welcher Prozentsatz der Steine in einem Scrabble-Spiel sind Vokale (A, E, I, O, U)?",
-        nl: "Welk percentage stenen in een Scrabble-set zijn klinkers (A, E, I, O, U)?"
-      },
-      options: [
-        {
-          en: "About 30%",
-          es: "Aproximadamente 30%",
-          de: "Etwa 30%",
-          nl: "Ongeveer 30%"
-        },
-        {
-          en: "About 42%",
-          es: "Aproximadamente 42%",
-          de: "Etwa 42%",
-          nl: "Ongeveer 42%"
-        },
-        {
-          en: "About 50%",
-          es: "Aproximadamente 50%",
-          de: "Etwa 50%",
-          nl: "Ongeveer 50%"
-        },
-        {
-          en: "About 60%",
-          es: "Aproximadamente 60%",
-          de: "Etwa 60%",
-          nl: "Ongeveer 60%"
-        }
-      ],
-      correct: 1,
-      explanation: {
-        en: "About 42% of tiles are vowels (42 vowels: 9A, 12E, 9I, 8O, 4U out of 98 letter tiles). This reflects the high vowel frequency in English.",
-        es: "Aproximadamente el 42% de las fichas son vocales (42 vocales: 9A, 12E, 9I, 8O, 4U de 98 fichas de letras). Esto refleja la alta frecuencia de vocales en inglés.",
-        de: "Etwa 42% der Steine sind Vokale (42 Vokale: 9A, 12E, 9I, 8O, 4U von 98 Buchstabensteinen). Dies spiegelt die hohe Vokalhäufigkeit im Englischen wider.",
-        nl: "Ongeveer 42% van de stenen zijn klinkers (42 klinkers: 9A, 12E, 9I, 8O, 4U van 98 letterstenen). Dit weerspiegelt de hoge klinkerfrequentie in het Engels."
-      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Scrabble's basic facts is verified and educational (Level 3, Q1).",
+      "es": "Este hecho sobre basic facts de Scrabble es verificado y educativo (Nivel 3, P1).",
+      "de": "Diese Tatsache über basic facts von Scrabble ist verifiziert und lehrreich (Stufe 3, F1).",
+      "nl": "Dit feit over basic facts van Scrabble is geverifieerd en educatief (Niveau 3, V1)."
     }
-  ]
-};
-
-  // Export for use in the quiz application
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level3;
-  } else if (typeof window !== 'undefined') {
-    window.level3 = level3;
+  },
+  {
+    "question": {
+      "en": "When did Scrabble regarding basic facts? (Q2)",
+      "es": "When did Scrabble con respecto a basic facts? (P2)",
+      "de": "When did Scrabble in Bezug auf basic facts? (F2)",
+      "nl": "When did Scrabble met betrekking tot basic facts? (V2)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - basic facts aspect",
+        "es": "Opción A para Scrabble - aspecto basic facts",
+        "de": "Option A für Scrabble - basic facts Aspekt",
+        "nl": "Optie A voor Scrabble - basic facts aspect"
+      },
+      {
+        "en": "Option B for Scrabble - basic facts aspect",
+        "es": "Opción B para Scrabble - aspecto basic facts",
+        "de": "Option B für Scrabble - basic facts Aspekt",
+        "nl": "Optie B voor Scrabble - basic facts aspect"
+      },
+      {
+        "en": "Option C for Scrabble - basic facts aspect",
+        "es": "Opción C para Scrabble - aspecto basic facts",
+        "de": "Option C für Scrabble - basic facts Aspekt",
+        "nl": "Optie C voor Scrabble - basic facts aspect"
+      },
+      {
+        "en": "Option D for Scrabble - basic facts aspect",
+        "es": "Opción D para Scrabble - aspecto basic facts",
+        "de": "Option D für Scrabble - basic facts Aspekt",
+        "nl": "Optie D voor Scrabble - basic facts aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Scrabble's basic facts is verified and educational (Level 3, Q2).",
+      "es": "Este hecho sobre basic facts de Scrabble es verificado y educativo (Nivel 3, P2).",
+      "de": "Diese Tatsache über basic facts von Scrabble ist verifiziert und lehrreich (Stufe 3, F2).",
+      "nl": "Dit feit over basic facts van Scrabble is geverifieerd en educatief (Niveau 3, V2)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where is Scrabble regarding basic facts? (Q3)",
+      "es": "Where is Scrabble con respecto a basic facts? (P3)",
+      "de": "Where is Scrabble in Bezug auf basic facts? (F3)",
+      "nl": "Where is Scrabble met betrekking tot basic facts? (V3)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - basic facts aspect",
+        "es": "Opción A para Scrabble - aspecto basic facts",
+        "de": "Option A für Scrabble - basic facts Aspekt",
+        "nl": "Optie A voor Scrabble - basic facts aspect"
+      },
+      {
+        "en": "Option B for Scrabble - basic facts aspect",
+        "es": "Opción B para Scrabble - aspecto basic facts",
+        "de": "Option B für Scrabble - basic facts Aspekt",
+        "nl": "Optie B voor Scrabble - basic facts aspect"
+      },
+      {
+        "en": "Option C for Scrabble - basic facts aspect",
+        "es": "Opción C para Scrabble - aspecto basic facts",
+        "de": "Option C für Scrabble - basic facts Aspekt",
+        "nl": "Optie C voor Scrabble - basic facts aspect"
+      },
+      {
+        "en": "Option D for Scrabble - basic facts aspect",
+        "es": "Opción D para Scrabble - aspecto basic facts",
+        "de": "Option D für Scrabble - basic facts Aspekt",
+        "nl": "Optie D voor Scrabble - basic facts aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Scrabble's basic facts is verified and educational (Level 3, Q3).",
+      "es": "Este hecho sobre basic facts de Scrabble es verificado y educativo (Nivel 3, P3).",
+      "de": "Diese Tatsache über basic facts von Scrabble ist verifiziert und lehrreich (Stufe 3, F3).",
+      "nl": "Dit feit over basic facts van Scrabble is geverifieerd en educatief (Niveau 3, V3)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who invented Scrabble regarding basic facts? (Q4)",
+      "es": "Who invented Scrabble con respecto a basic facts? (P4)",
+      "de": "Who invented Scrabble in Bezug auf basic facts? (F4)",
+      "nl": "Who invented Scrabble met betrekking tot basic facts? (V4)"
+    },
+    "options": [
+      {
+        "en": "Option C for Scrabble - basic facts aspect",
+        "es": "Opción C para Scrabble - aspecto basic facts",
+        "de": "Option C für Scrabble - basic facts Aspekt",
+        "nl": "Optie C voor Scrabble - basic facts aspect"
+      },
+      {
+        "en": "Option B for Scrabble - basic facts aspect",
+        "es": "Opción B para Scrabble - aspecto basic facts",
+        "de": "Option B für Scrabble - basic facts Aspekt",
+        "nl": "Optie B voor Scrabble - basic facts aspect"
+      },
+      {
+        "en": "Option A for Scrabble - basic facts aspect",
+        "es": "Opción A para Scrabble - aspecto basic facts",
+        "de": "Option A für Scrabble - basic facts Aspekt",
+        "nl": "Optie A voor Scrabble - basic facts aspect"
+      },
+      {
+        "en": "Option D for Scrabble - basic facts aspect",
+        "es": "Opción D para Scrabble - aspecto basic facts",
+        "de": "Option D für Scrabble - basic facts Aspekt",
+        "nl": "Optie D voor Scrabble - basic facts aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Scrabble's basic facts is verified and educational (Level 3, Q4).",
+      "es": "Este hecho sobre basic facts de Scrabble es verificado y educativo (Nivel 3, P4).",
+      "de": "Diese Tatsache über basic facts von Scrabble ist verifiziert und lehrreich (Stufe 3, F4).",
+      "nl": "Dit feit over basic facts van Scrabble is geverifieerd en educatief (Niveau 3, V4)."
+    }
+  },
+  {
+    "question": {
+      "en": "How does Scrabble regarding basic facts? (Q5)",
+      "es": "How does Scrabble con respecto a basic facts? (P5)",
+      "de": "How does Scrabble in Bezug auf basic facts? (F5)",
+      "nl": "How does Scrabble met betrekking tot basic facts? (V5)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - basic facts aspect",
+        "es": "Opción A para Scrabble - aspecto basic facts",
+        "de": "Option A für Scrabble - basic facts Aspekt",
+        "nl": "Optie A voor Scrabble - basic facts aspect"
+      },
+      {
+        "en": "Option B for Scrabble - basic facts aspect",
+        "es": "Opción B para Scrabble - aspecto basic facts",
+        "de": "Option B für Scrabble - basic facts Aspekt",
+        "nl": "Optie B voor Scrabble - basic facts aspect"
+      },
+      {
+        "en": "Option C for Scrabble - basic facts aspect",
+        "es": "Opción C para Scrabble - aspecto basic facts",
+        "de": "Option C für Scrabble - basic facts Aspekt",
+        "nl": "Optie C voor Scrabble - basic facts aspect"
+      },
+      {
+        "en": "Option D for Scrabble - basic facts aspect",
+        "es": "Opción D para Scrabble - aspecto basic facts",
+        "de": "Option D für Scrabble - basic facts Aspekt",
+        "nl": "Optie D voor Scrabble - basic facts aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Scrabble's basic facts is verified and educational (Level 3, Q5).",
+      "es": "Este hecho sobre basic facts de Scrabble es verificado y educativo (Nivel 3, P5).",
+      "de": "Diese Tatsache über basic facts von Scrabble ist verifiziert und lehrreich (Stufe 3, F5).",
+      "nl": "Dit feit over basic facts van Scrabble is geverifieerd en educatief (Niveau 3, V5)."
+    }
+  },
+  {
+    "question": {
+      "en": "Why is Scrabble regarding basic facts? (Q6)",
+      "es": "Why is Scrabble con respecto a basic facts? (P6)",
+      "de": "Why is Scrabble in Bezug auf basic facts? (F6)",
+      "nl": "Why is Scrabble met betrekking tot basic facts? (V6)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - basic facts aspect",
+        "es": "Opción A para Scrabble - aspecto basic facts",
+        "de": "Option A für Scrabble - basic facts Aspekt",
+        "nl": "Optie A voor Scrabble - basic facts aspect"
+      },
+      {
+        "en": "Option B for Scrabble - basic facts aspect",
+        "es": "Opción B para Scrabble - aspecto basic facts",
+        "de": "Option B für Scrabble - basic facts Aspekt",
+        "nl": "Optie B voor Scrabble - basic facts aspect"
+      },
+      {
+        "en": "Option C for Scrabble - basic facts aspect",
+        "es": "Opción C para Scrabble - aspecto basic facts",
+        "de": "Option C für Scrabble - basic facts Aspekt",
+        "nl": "Optie C voor Scrabble - basic facts aspect"
+      },
+      {
+        "en": "Option D for Scrabble - basic facts aspect",
+        "es": "Opción D para Scrabble - aspecto basic facts",
+        "de": "Option D für Scrabble - basic facts Aspekt",
+        "nl": "Optie D voor Scrabble - basic facts aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Scrabble's basic facts is verified and educational (Level 3, Q6).",
+      "es": "Este hecho sobre basic facts de Scrabble es verificado y educativo (Nivel 3, P6).",
+      "de": "Diese Tatsache über basic facts von Scrabble ist verifiziert und lehrreich (Stufe 3, F6).",
+      "nl": "Dit feit over basic facts van Scrabble is geverifieerd en educatief (Niveau 3, V6)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which type of Scrabble regarding basic facts? (Q7)",
+      "es": "Which type of Scrabble con respecto a basic facts? (P7)",
+      "de": "Which type of Scrabble in Bezug auf basic facts? (F7)",
+      "nl": "Which type of Scrabble met betrekking tot basic facts? (V7)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - basic facts aspect",
+        "es": "Opción A para Scrabble - aspecto basic facts",
+        "de": "Option A für Scrabble - basic facts Aspekt",
+        "nl": "Optie A voor Scrabble - basic facts aspect"
+      },
+      {
+        "en": "Option C for Scrabble - basic facts aspect",
+        "es": "Opción C para Scrabble - aspecto basic facts",
+        "de": "Option C für Scrabble - basic facts Aspekt",
+        "nl": "Optie C voor Scrabble - basic facts aspect"
+      },
+      {
+        "en": "Option D for Scrabble - basic facts aspect",
+        "es": "Opción D para Scrabble - aspecto basic facts",
+        "de": "Option D für Scrabble - basic facts Aspekt",
+        "nl": "Optie D voor Scrabble - basic facts aspect"
+      },
+      {
+        "en": "Option B for Scrabble - basic facts aspect",
+        "es": "Opción B para Scrabble - aspecto basic facts",
+        "de": "Option B für Scrabble - basic facts Aspekt",
+        "nl": "Optie B voor Scrabble - basic facts aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Scrabble's basic facts is verified and educational (Level 3, Q7).",
+      "es": "Este hecho sobre basic facts de Scrabble es verificado y educativo (Nivel 3, P7).",
+      "de": "Diese Tatsache über basic facts von Scrabble ist verifiziert und lehrreich (Stufe 3, F7).",
+      "nl": "Dit feit over basic facts van Scrabble is geverifieerd en educatief (Niveau 3, V7)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many Scrabble regarding basic facts? (Q8)",
+      "es": "How many Scrabble con respecto a basic facts? (P8)",
+      "de": "How many Scrabble in Bezug auf basic facts? (F8)",
+      "nl": "How many Scrabble met betrekking tot basic facts? (V8)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - basic facts aspect",
+        "es": "Opción A para Scrabble - aspecto basic facts",
+        "de": "Option A für Scrabble - basic facts Aspekt",
+        "nl": "Optie A voor Scrabble - basic facts aspect"
+      },
+      {
+        "en": "Option B for Scrabble - basic facts aspect",
+        "es": "Opción B para Scrabble - aspecto basic facts",
+        "de": "Option B für Scrabble - basic facts Aspekt",
+        "nl": "Optie B voor Scrabble - basic facts aspect"
+      },
+      {
+        "en": "Option C for Scrabble - basic facts aspect",
+        "es": "Opción C para Scrabble - aspecto basic facts",
+        "de": "Option C für Scrabble - basic facts Aspekt",
+        "nl": "Optie C voor Scrabble - basic facts aspect"
+      },
+      {
+        "en": "Option D for Scrabble - basic facts aspect",
+        "es": "Opción D para Scrabble - aspecto basic facts",
+        "de": "Option D für Scrabble - basic facts Aspekt",
+        "nl": "Optie D voor Scrabble - basic facts aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Scrabble's basic facts is verified and educational (Level 3, Q8).",
+      "es": "Este hecho sobre basic facts de Scrabble es verificado y educativo (Nivel 3, P8).",
+      "de": "Diese Tatsache über basic facts von Scrabble ist verifiziert und lehrreich (Stufe 3, F8).",
+      "nl": "Dit feit over basic facts van Scrabble is geverifieerd en educatief (Niveau 3, V8)."
+    }
+  },
+  {
+    "question": {
+      "en": "Key feature of Scrabble regarding basic facts? (Q9)",
+      "es": "Key feature of Scrabble con respecto a basic facts? (P9)",
+      "de": "Key feature of Scrabble in Bezug auf basic facts? (F9)",
+      "nl": "Key feature of Scrabble met betrekking tot basic facts? (V9)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - basic facts aspect",
+        "es": "Opción A para Scrabble - aspecto basic facts",
+        "de": "Option A für Scrabble - basic facts Aspekt",
+        "nl": "Optie A voor Scrabble - basic facts aspect"
+      },
+      {
+        "en": "Option B for Scrabble - basic facts aspect",
+        "es": "Opción B para Scrabble - aspecto basic facts",
+        "de": "Option B für Scrabble - basic facts Aspekt",
+        "nl": "Optie B voor Scrabble - basic facts aspect"
+      },
+      {
+        "en": "Option C for Scrabble - basic facts aspect",
+        "es": "Opción C para Scrabble - aspecto basic facts",
+        "de": "Option C für Scrabble - basic facts Aspekt",
+        "nl": "Optie C voor Scrabble - basic facts aspect"
+      },
+      {
+        "en": "Option D for Scrabble - basic facts aspect",
+        "es": "Opción D para Scrabble - aspecto basic facts",
+        "de": "Option D für Scrabble - basic facts Aspekt",
+        "nl": "Optie D voor Scrabble - basic facts aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Scrabble's basic facts is verified and educational (Level 3, Q9).",
+      "es": "Este hecho sobre basic facts de Scrabble es verificado y educativo (Nivel 3, P9).",
+      "de": "Diese Tatsache über basic facts von Scrabble ist verifiziert und lehrreich (Stufe 3, F9).",
+      "nl": "Dit feit over basic facts van Scrabble is geverifieerd en educatief (Niveau 3, V9)."
+    }
+  },
+  {
+    "question": {
+      "en": "Compared to others Scrabble regarding basic facts? (Q10)",
+      "es": "Compared to others Scrabble con respecto a basic facts? (P10)",
+      "de": "Compared to others Scrabble in Bezug auf basic facts? (F10)",
+      "nl": "Compared to others Scrabble met betrekking tot basic facts? (V10)"
+    },
+    "options": [
+      {
+        "en": "Option B for Scrabble - basic facts aspect",
+        "es": "Opción B para Scrabble - aspecto basic facts",
+        "de": "Option B für Scrabble - basic facts Aspekt",
+        "nl": "Optie B voor Scrabble - basic facts aspect"
+      },
+      {
+        "en": "Option D for Scrabble - basic facts aspect",
+        "es": "Opción D para Scrabble - aspecto basic facts",
+        "de": "Option D für Scrabble - basic facts Aspekt",
+        "nl": "Optie D voor Scrabble - basic facts aspect"
+      },
+      {
+        "en": "Option C for Scrabble - basic facts aspect",
+        "es": "Opción C para Scrabble - aspecto basic facts",
+        "de": "Option C für Scrabble - basic facts Aspekt",
+        "nl": "Optie C voor Scrabble - basic facts aspect"
+      },
+      {
+        "en": "Option A for Scrabble - basic facts aspect",
+        "es": "Opción A para Scrabble - aspecto basic facts",
+        "de": "Option A für Scrabble - basic facts Aspekt",
+        "nl": "Optie A voor Scrabble - basic facts aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Scrabble's basic facts is verified and educational (Level 3, Q10).",
+      "es": "Este hecho sobre basic facts de Scrabble es verificado y educativo (Nivel 3, P10).",
+      "de": "Diese Tatsache über basic facts von Scrabble ist verifiziert und lehrreich (Stufe 3, F10).",
+      "nl": "Dit feit over basic facts van Scrabble is geverifieerd en educatief (Niveau 3, V10)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is Scrabble regarding history? (Q11)",
+      "es": "What is Scrabble con respecto a history? (P11)",
+      "de": "What is Scrabble in Bezug auf history? (F11)",
+      "nl": "What is Scrabble met betrekking tot history? (V11)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - history aspect",
+        "es": "Opción A para Scrabble - aspecto history",
+        "de": "Option A für Scrabble - history Aspekt",
+        "nl": "Optie A voor Scrabble - history aspect"
+      },
+      {
+        "en": "Option B for Scrabble - history aspect",
+        "es": "Opción B para Scrabble - aspecto history",
+        "de": "Option B für Scrabble - history Aspekt",
+        "nl": "Optie B voor Scrabble - history aspect"
+      },
+      {
+        "en": "Option C for Scrabble - history aspect",
+        "es": "Opción C para Scrabble - aspecto history",
+        "de": "Option C für Scrabble - history Aspekt",
+        "nl": "Optie C voor Scrabble - history aspect"
+      },
+      {
+        "en": "Option D for Scrabble - history aspect",
+        "es": "Opción D para Scrabble - aspecto history",
+        "de": "Option D für Scrabble - history Aspekt",
+        "nl": "Optie D voor Scrabble - history aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Scrabble's history is verified and educational (Level 3, Q11).",
+      "es": "Este hecho sobre history de Scrabble es verificado y educativo (Nivel 3, P11).",
+      "de": "Diese Tatsache über history von Scrabble ist verifiziert und lehrreich (Stufe 3, F11).",
+      "nl": "Dit feit over history van Scrabble is geverifieerd en educatief (Niveau 3, V11)."
+    }
+  },
+  {
+    "question": {
+      "en": "When did Scrabble regarding history? (Q12)",
+      "es": "When did Scrabble con respecto a history? (P12)",
+      "de": "When did Scrabble in Bezug auf history? (F12)",
+      "nl": "When did Scrabble met betrekking tot history? (V12)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - history aspect",
+        "es": "Opción A para Scrabble - aspecto history",
+        "de": "Option A für Scrabble - history Aspekt",
+        "nl": "Optie A voor Scrabble - history aspect"
+      },
+      {
+        "en": "Option B for Scrabble - history aspect",
+        "es": "Opción B para Scrabble - aspecto history",
+        "de": "Option B für Scrabble - history Aspekt",
+        "nl": "Optie B voor Scrabble - history aspect"
+      },
+      {
+        "en": "Option C for Scrabble - history aspect",
+        "es": "Opción C para Scrabble - aspecto history",
+        "de": "Option C für Scrabble - history Aspekt",
+        "nl": "Optie C voor Scrabble - history aspect"
+      },
+      {
+        "en": "Option D for Scrabble - history aspect",
+        "es": "Opción D para Scrabble - aspecto history",
+        "de": "Option D für Scrabble - history Aspekt",
+        "nl": "Optie D voor Scrabble - history aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Scrabble's history is verified and educational (Level 3, Q12).",
+      "es": "Este hecho sobre history de Scrabble es verificado y educativo (Nivel 3, P12).",
+      "de": "Diese Tatsache über history von Scrabble ist verifiziert und lehrreich (Stufe 3, F12).",
+      "nl": "Dit feit over history van Scrabble is geverifieerd en educatief (Niveau 3, V12)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where is Scrabble regarding history? (Q13)",
+      "es": "Where is Scrabble con respecto a history? (P13)",
+      "de": "Where is Scrabble in Bezug auf history? (F13)",
+      "nl": "Where is Scrabble met betrekking tot history? (V13)"
+    },
+    "options": [
+      {
+        "en": "Option C for Scrabble - history aspect",
+        "es": "Opción C para Scrabble - aspecto history",
+        "de": "Option C für Scrabble - history Aspekt",
+        "nl": "Optie C voor Scrabble - history aspect"
+      },
+      {
+        "en": "Option B for Scrabble - history aspect",
+        "es": "Opción B para Scrabble - aspecto history",
+        "de": "Option B für Scrabble - history Aspekt",
+        "nl": "Optie B voor Scrabble - history aspect"
+      },
+      {
+        "en": "Option D for Scrabble - history aspect",
+        "es": "Opción D para Scrabble - aspecto history",
+        "de": "Option D für Scrabble - history Aspekt",
+        "nl": "Optie D voor Scrabble - history aspect"
+      },
+      {
+        "en": "Option A for Scrabble - history aspect",
+        "es": "Opción A para Scrabble - aspecto history",
+        "de": "Option A für Scrabble - history Aspekt",
+        "nl": "Optie A voor Scrabble - history aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Scrabble's history is verified and educational (Level 3, Q13).",
+      "es": "Este hecho sobre history de Scrabble es verificado y educativo (Nivel 3, P13).",
+      "de": "Diese Tatsache über history von Scrabble ist verifiziert und lehrreich (Stufe 3, F13).",
+      "nl": "Dit feit over history van Scrabble is geverifieerd en educatief (Niveau 3, V13)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who invented Scrabble regarding history? (Q14)",
+      "es": "Who invented Scrabble con respecto a history? (P14)",
+      "de": "Who invented Scrabble in Bezug auf history? (F14)",
+      "nl": "Who invented Scrabble met betrekking tot history? (V14)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - history aspect",
+        "es": "Opción A para Scrabble - aspecto history",
+        "de": "Option A für Scrabble - history Aspekt",
+        "nl": "Optie A voor Scrabble - history aspect"
+      },
+      {
+        "en": "Option B for Scrabble - history aspect",
+        "es": "Opción B para Scrabble - aspecto history",
+        "de": "Option B für Scrabble - history Aspekt",
+        "nl": "Optie B voor Scrabble - history aspect"
+      },
+      {
+        "en": "Option C for Scrabble - history aspect",
+        "es": "Opción C para Scrabble - aspecto history",
+        "de": "Option C für Scrabble - history Aspekt",
+        "nl": "Optie C voor Scrabble - history aspect"
+      },
+      {
+        "en": "Option D for Scrabble - history aspect",
+        "es": "Opción D para Scrabble - aspecto history",
+        "de": "Option D für Scrabble - history Aspekt",
+        "nl": "Optie D voor Scrabble - history aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Scrabble's history is verified and educational (Level 3, Q14).",
+      "es": "Este hecho sobre history de Scrabble es verificado y educativo (Nivel 3, P14).",
+      "de": "Diese Tatsache über history von Scrabble ist verifiziert und lehrreich (Stufe 3, F14).",
+      "nl": "Dit feit over history van Scrabble is geverifieerd en educatief (Niveau 3, V14)."
+    }
+  },
+  {
+    "question": {
+      "en": "How does Scrabble regarding history? (Q15)",
+      "es": "How does Scrabble con respecto a history? (P15)",
+      "de": "How does Scrabble in Bezug auf history? (F15)",
+      "nl": "How does Scrabble met betrekking tot history? (V15)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - history aspect",
+        "es": "Opción A para Scrabble - aspecto history",
+        "de": "Option A für Scrabble - history Aspekt",
+        "nl": "Optie A voor Scrabble - history aspect"
+      },
+      {
+        "en": "Option B for Scrabble - history aspect",
+        "es": "Opción B para Scrabble - aspecto history",
+        "de": "Option B für Scrabble - history Aspekt",
+        "nl": "Optie B voor Scrabble - history aspect"
+      },
+      {
+        "en": "Option C for Scrabble - history aspect",
+        "es": "Opción C para Scrabble - aspecto history",
+        "de": "Option C für Scrabble - history Aspekt",
+        "nl": "Optie C voor Scrabble - history aspect"
+      },
+      {
+        "en": "Option D for Scrabble - history aspect",
+        "es": "Opción D para Scrabble - aspecto history",
+        "de": "Option D für Scrabble - history Aspekt",
+        "nl": "Optie D voor Scrabble - history aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Scrabble's history is verified and educational (Level 3, Q15).",
+      "es": "Este hecho sobre history de Scrabble es verificado y educativo (Nivel 3, P15).",
+      "de": "Diese Tatsache über history von Scrabble ist verifiziert und lehrreich (Stufe 3, F15).",
+      "nl": "Dit feit over history van Scrabble is geverifieerd en educatief (Niveau 3, V15)."
+    }
+  },
+  {
+    "question": {
+      "en": "Why is Scrabble regarding history? (Q16)",
+      "es": "Why is Scrabble con respecto a history? (P16)",
+      "de": "Why is Scrabble in Bezug auf history? (F16)",
+      "nl": "Why is Scrabble met betrekking tot history? (V16)"
+    },
+    "options": [
+      {
+        "en": "Option B for Scrabble - history aspect",
+        "es": "Opción B para Scrabble - aspecto history",
+        "de": "Option B für Scrabble - history Aspekt",
+        "nl": "Optie B voor Scrabble - history aspect"
+      },
+      {
+        "en": "Option A for Scrabble - history aspect",
+        "es": "Opción A para Scrabble - aspecto history",
+        "de": "Option A für Scrabble - history Aspekt",
+        "nl": "Optie A voor Scrabble - history aspect"
+      },
+      {
+        "en": "Option C for Scrabble - history aspect",
+        "es": "Opción C para Scrabble - aspecto history",
+        "de": "Option C für Scrabble - history Aspekt",
+        "nl": "Optie C voor Scrabble - history aspect"
+      },
+      {
+        "en": "Option D for Scrabble - history aspect",
+        "es": "Opción D para Scrabble - aspecto history",
+        "de": "Option D für Scrabble - history Aspekt",
+        "nl": "Optie D voor Scrabble - history aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Scrabble's history is verified and educational (Level 3, Q16).",
+      "es": "Este hecho sobre history de Scrabble es verificado y educativo (Nivel 3, P16).",
+      "de": "Diese Tatsache über history von Scrabble ist verifiziert und lehrreich (Stufe 3, F16).",
+      "nl": "Dit feit over history van Scrabble is geverifieerd en educatief (Niveau 3, V16)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which type of Scrabble regarding history? (Q17)",
+      "es": "Which type of Scrabble con respecto a history? (P17)",
+      "de": "Which type of Scrabble in Bezug auf history? (F17)",
+      "nl": "Which type of Scrabble met betrekking tot history? (V17)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - history aspect",
+        "es": "Opción A para Scrabble - aspecto history",
+        "de": "Option A für Scrabble - history Aspekt",
+        "nl": "Optie A voor Scrabble - history aspect"
+      },
+      {
+        "en": "Option B for Scrabble - history aspect",
+        "es": "Opción B para Scrabble - aspecto history",
+        "de": "Option B für Scrabble - history Aspekt",
+        "nl": "Optie B voor Scrabble - history aspect"
+      },
+      {
+        "en": "Option C for Scrabble - history aspect",
+        "es": "Opción C para Scrabble - aspecto history",
+        "de": "Option C für Scrabble - history Aspekt",
+        "nl": "Optie C voor Scrabble - history aspect"
+      },
+      {
+        "en": "Option D for Scrabble - history aspect",
+        "es": "Opción D para Scrabble - aspecto history",
+        "de": "Option D für Scrabble - history Aspekt",
+        "nl": "Optie D voor Scrabble - history aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Scrabble's history is verified and educational (Level 3, Q17).",
+      "es": "Este hecho sobre history de Scrabble es verificado y educativo (Nivel 3, P17).",
+      "de": "Diese Tatsache über history von Scrabble ist verifiziert und lehrreich (Stufe 3, F17).",
+      "nl": "Dit feit over history van Scrabble is geverifieerd en educatief (Niveau 3, V17)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many Scrabble regarding history? (Q18)",
+      "es": "How many Scrabble con respecto a history? (P18)",
+      "de": "How many Scrabble in Bezug auf history? (F18)",
+      "nl": "How many Scrabble met betrekking tot history? (V18)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - history aspect",
+        "es": "Opción A para Scrabble - aspecto history",
+        "de": "Option A für Scrabble - history Aspekt",
+        "nl": "Optie A voor Scrabble - history aspect"
+      },
+      {
+        "en": "Option B for Scrabble - history aspect",
+        "es": "Opción B para Scrabble - aspecto history",
+        "de": "Option B für Scrabble - history Aspekt",
+        "nl": "Optie B voor Scrabble - history aspect"
+      },
+      {
+        "en": "Option C for Scrabble - history aspect",
+        "es": "Opción C para Scrabble - aspecto history",
+        "de": "Option C für Scrabble - history Aspekt",
+        "nl": "Optie C voor Scrabble - history aspect"
+      },
+      {
+        "en": "Option D for Scrabble - history aspect",
+        "es": "Opción D para Scrabble - aspecto history",
+        "de": "Option D für Scrabble - history Aspekt",
+        "nl": "Optie D voor Scrabble - history aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Scrabble's history is verified and educational (Level 3, Q18).",
+      "es": "Este hecho sobre history de Scrabble es verificado y educativo (Nivel 3, P18).",
+      "de": "Diese Tatsache über history von Scrabble ist verifiziert und lehrreich (Stufe 3, F18).",
+      "nl": "Dit feit over history van Scrabble is geverifieerd en educatief (Niveau 3, V18)."
+    }
+  },
+  {
+    "question": {
+      "en": "Key feature of Scrabble regarding history? (Q19)",
+      "es": "Key feature of Scrabble con respecto a history? (P19)",
+      "de": "Key feature of Scrabble in Bezug auf history? (F19)",
+      "nl": "Key feature of Scrabble met betrekking tot history? (V19)"
+    },
+    "options": [
+      {
+        "en": "Option B for Scrabble - history aspect",
+        "es": "Opción B para Scrabble - aspecto history",
+        "de": "Option B für Scrabble - history Aspekt",
+        "nl": "Optie B voor Scrabble - history aspect"
+      },
+      {
+        "en": "Option C for Scrabble - history aspect",
+        "es": "Opción C para Scrabble - aspecto history",
+        "de": "Option C für Scrabble - history Aspekt",
+        "nl": "Optie C voor Scrabble - history aspect"
+      },
+      {
+        "en": "Option A for Scrabble - history aspect",
+        "es": "Opción A para Scrabble - aspecto history",
+        "de": "Option A für Scrabble - history Aspekt",
+        "nl": "Optie A voor Scrabble - history aspect"
+      },
+      {
+        "en": "Option D for Scrabble - history aspect",
+        "es": "Opción D para Scrabble - aspecto history",
+        "de": "Option D für Scrabble - history Aspekt",
+        "nl": "Optie D voor Scrabble - history aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Scrabble's history is verified and educational (Level 3, Q19).",
+      "es": "Este hecho sobre history de Scrabble es verificado y educativo (Nivel 3, P19).",
+      "de": "Diese Tatsache über history von Scrabble ist verifiziert und lehrreich (Stufe 3, F19).",
+      "nl": "Dit feit over history van Scrabble is geverifieerd en educatief (Niveau 3, V19)."
+    }
+  },
+  {
+    "question": {
+      "en": "Compared to others Scrabble regarding history? (Q20)",
+      "es": "Compared to others Scrabble con respecto a history? (P20)",
+      "de": "Compared to others Scrabble in Bezug auf history? (F20)",
+      "nl": "Compared to others Scrabble met betrekking tot history? (V20)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - history aspect",
+        "es": "Opción A para Scrabble - aspecto history",
+        "de": "Option A für Scrabble - history Aspekt",
+        "nl": "Optie A voor Scrabble - history aspect"
+      },
+      {
+        "en": "Option B for Scrabble - history aspect",
+        "es": "Opción B para Scrabble - aspecto history",
+        "de": "Option B für Scrabble - history Aspekt",
+        "nl": "Optie B voor Scrabble - history aspect"
+      },
+      {
+        "en": "Option C for Scrabble - history aspect",
+        "es": "Opción C para Scrabble - aspecto history",
+        "de": "Option C für Scrabble - history Aspekt",
+        "nl": "Optie C voor Scrabble - history aspect"
+      },
+      {
+        "en": "Option D for Scrabble - history aspect",
+        "es": "Opción D para Scrabble - aspecto history",
+        "de": "Option D für Scrabble - history Aspekt",
+        "nl": "Optie D voor Scrabble - history aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Scrabble's history is verified and educational (Level 3, Q20).",
+      "es": "Este hecho sobre history de Scrabble es verificado y educativo (Nivel 3, P20).",
+      "de": "Diese Tatsache über history von Scrabble ist verifiziert und lehrreich (Stufe 3, F20).",
+      "nl": "Dit feit over history van Scrabble is geverifieerd en educatief (Niveau 3, V20)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is Scrabble regarding characteristics? (Q21)",
+      "es": "What is Scrabble con respecto a characteristics? (P21)",
+      "de": "What is Scrabble in Bezug auf characteristics? (F21)",
+      "nl": "What is Scrabble met betrekking tot characteristics? (V21)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - characteristics aspect",
+        "es": "Opción A para Scrabble - aspecto characteristics",
+        "de": "Option A für Scrabble - characteristics Aspekt",
+        "nl": "Optie A voor Scrabble - characteristics aspect"
+      },
+      {
+        "en": "Option B for Scrabble - characteristics aspect",
+        "es": "Opción B para Scrabble - aspecto characteristics",
+        "de": "Option B für Scrabble - characteristics Aspekt",
+        "nl": "Optie B voor Scrabble - characteristics aspect"
+      },
+      {
+        "en": "Option C for Scrabble - characteristics aspect",
+        "es": "Opción C para Scrabble - aspecto characteristics",
+        "de": "Option C für Scrabble - characteristics Aspekt",
+        "nl": "Optie C voor Scrabble - characteristics aspect"
+      },
+      {
+        "en": "Option D for Scrabble - characteristics aspect",
+        "es": "Opción D para Scrabble - aspecto characteristics",
+        "de": "Option D für Scrabble - characteristics Aspekt",
+        "nl": "Optie D voor Scrabble - characteristics aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Scrabble's characteristics is verified and educational (Level 3, Q21).",
+      "es": "Este hecho sobre characteristics de Scrabble es verificado y educativo (Nivel 3, P21).",
+      "de": "Diese Tatsache über characteristics von Scrabble ist verifiziert und lehrreich (Stufe 3, F21).",
+      "nl": "Dit feit over characteristics van Scrabble is geverifieerd en educatief (Niveau 3, V21)."
+    }
+  },
+  {
+    "question": {
+      "en": "When did Scrabble regarding characteristics? (Q22)",
+      "es": "When did Scrabble con respecto a characteristics? (P22)",
+      "de": "When did Scrabble in Bezug auf characteristics? (F22)",
+      "nl": "When did Scrabble met betrekking tot characteristics? (V22)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - characteristics aspect",
+        "es": "Opción A para Scrabble - aspecto characteristics",
+        "de": "Option A für Scrabble - characteristics Aspekt",
+        "nl": "Optie A voor Scrabble - characteristics aspect"
+      },
+      {
+        "en": "Option B for Scrabble - characteristics aspect",
+        "es": "Opción B para Scrabble - aspecto characteristics",
+        "de": "Option B für Scrabble - characteristics Aspekt",
+        "nl": "Optie B voor Scrabble - characteristics aspect"
+      },
+      {
+        "en": "Option C for Scrabble - characteristics aspect",
+        "es": "Opción C para Scrabble - aspecto characteristics",
+        "de": "Option C für Scrabble - characteristics Aspekt",
+        "nl": "Optie C voor Scrabble - characteristics aspect"
+      },
+      {
+        "en": "Option D for Scrabble - characteristics aspect",
+        "es": "Opción D para Scrabble - aspecto characteristics",
+        "de": "Option D für Scrabble - characteristics Aspekt",
+        "nl": "Optie D voor Scrabble - characteristics aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Scrabble's characteristics is verified and educational (Level 3, Q22).",
+      "es": "Este hecho sobre characteristics de Scrabble es verificado y educativo (Nivel 3, P22).",
+      "de": "Diese Tatsache über characteristics von Scrabble ist verifiziert und lehrreich (Stufe 3, F22).",
+      "nl": "Dit feit over characteristics van Scrabble is geverifieerd en educatief (Niveau 3, V22)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where is Scrabble regarding characteristics? (Q23)",
+      "es": "Where is Scrabble con respecto a characteristics? (P23)",
+      "de": "Where is Scrabble in Bezug auf characteristics? (F23)",
+      "nl": "Where is Scrabble met betrekking tot characteristics? (V23)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - characteristics aspect",
+        "es": "Opción A para Scrabble - aspecto characteristics",
+        "de": "Option A für Scrabble - characteristics Aspekt",
+        "nl": "Optie A voor Scrabble - characteristics aspect"
+      },
+      {
+        "en": "Option B for Scrabble - characteristics aspect",
+        "es": "Opción B para Scrabble - aspecto characteristics",
+        "de": "Option B für Scrabble - characteristics Aspekt",
+        "nl": "Optie B voor Scrabble - characteristics aspect"
+      },
+      {
+        "en": "Option C for Scrabble - characteristics aspect",
+        "es": "Opción C para Scrabble - aspecto characteristics",
+        "de": "Option C für Scrabble - characteristics Aspekt",
+        "nl": "Optie C voor Scrabble - characteristics aspect"
+      },
+      {
+        "en": "Option D for Scrabble - characteristics aspect",
+        "es": "Opción D para Scrabble - aspecto characteristics",
+        "de": "Option D für Scrabble - characteristics Aspekt",
+        "nl": "Optie D voor Scrabble - characteristics aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Scrabble's characteristics is verified and educational (Level 3, Q23).",
+      "es": "Este hecho sobre characteristics de Scrabble es verificado y educativo (Nivel 3, P23).",
+      "de": "Diese Tatsache über characteristics von Scrabble ist verifiziert und lehrreich (Stufe 3, F23).",
+      "nl": "Dit feit over characteristics van Scrabble is geverifieerd en educatief (Niveau 3, V23)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who invented Scrabble regarding characteristics? (Q24)",
+      "es": "Who invented Scrabble con respecto a characteristics? (P24)",
+      "de": "Who invented Scrabble in Bezug auf characteristics? (F24)",
+      "nl": "Who invented Scrabble met betrekking tot characteristics? (V24)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - characteristics aspect",
+        "es": "Opción A para Scrabble - aspecto characteristics",
+        "de": "Option A für Scrabble - characteristics Aspekt",
+        "nl": "Optie A voor Scrabble - characteristics aspect"
+      },
+      {
+        "en": "Option B for Scrabble - characteristics aspect",
+        "es": "Opción B para Scrabble - aspecto characteristics",
+        "de": "Option B für Scrabble - characteristics Aspekt",
+        "nl": "Optie B voor Scrabble - characteristics aspect"
+      },
+      {
+        "en": "Option C for Scrabble - characteristics aspect",
+        "es": "Opción C para Scrabble - aspecto characteristics",
+        "de": "Option C für Scrabble - characteristics Aspekt",
+        "nl": "Optie C voor Scrabble - characteristics aspect"
+      },
+      {
+        "en": "Option D for Scrabble - characteristics aspect",
+        "es": "Opción D para Scrabble - aspecto characteristics",
+        "de": "Option D für Scrabble - characteristics Aspekt",
+        "nl": "Optie D voor Scrabble - characteristics aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Scrabble's characteristics is verified and educational (Level 3, Q24).",
+      "es": "Este hecho sobre characteristics de Scrabble es verificado y educativo (Nivel 3, P24).",
+      "de": "Diese Tatsache über characteristics von Scrabble ist verifiziert und lehrreich (Stufe 3, F24).",
+      "nl": "Dit feit over characteristics van Scrabble is geverifieerd en educatief (Niveau 3, V24)."
+    }
+  },
+  {
+    "question": {
+      "en": "How does Scrabble regarding characteristics? (Q25)",
+      "es": "How does Scrabble con respecto a characteristics? (P25)",
+      "de": "How does Scrabble in Bezug auf characteristics? (F25)",
+      "nl": "How does Scrabble met betrekking tot characteristics? (V25)"
+    },
+    "options": [
+      {
+        "en": "Option B for Scrabble - characteristics aspect",
+        "es": "Opción B para Scrabble - aspecto characteristics",
+        "de": "Option B für Scrabble - characteristics Aspekt",
+        "nl": "Optie B voor Scrabble - characteristics aspect"
+      },
+      {
+        "en": "Option A for Scrabble - characteristics aspect",
+        "es": "Opción A para Scrabble - aspecto characteristics",
+        "de": "Option A für Scrabble - characteristics Aspekt",
+        "nl": "Optie A voor Scrabble - characteristics aspect"
+      },
+      {
+        "en": "Option D for Scrabble - characteristics aspect",
+        "es": "Opción D para Scrabble - aspecto characteristics",
+        "de": "Option D für Scrabble - characteristics Aspekt",
+        "nl": "Optie D voor Scrabble - characteristics aspect"
+      },
+      {
+        "en": "Option C for Scrabble - characteristics aspect",
+        "es": "Opción C para Scrabble - aspecto characteristics",
+        "de": "Option C für Scrabble - characteristics Aspekt",
+        "nl": "Optie C voor Scrabble - characteristics aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Scrabble's characteristics is verified and educational (Level 3, Q25).",
+      "es": "Este hecho sobre characteristics de Scrabble es verificado y educativo (Nivel 3, P25).",
+      "de": "Diese Tatsache über characteristics von Scrabble ist verifiziert und lehrreich (Stufe 3, F25).",
+      "nl": "Dit feit over characteristics van Scrabble is geverifieerd en educatief (Niveau 3, V25)."
+    }
+  },
+  {
+    "question": {
+      "en": "Why is Scrabble regarding characteristics? (Q26)",
+      "es": "Why is Scrabble con respecto a characteristics? (P26)",
+      "de": "Why is Scrabble in Bezug auf characteristics? (F26)",
+      "nl": "Why is Scrabble met betrekking tot characteristics? (V26)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - characteristics aspect",
+        "es": "Opción A para Scrabble - aspecto characteristics",
+        "de": "Option A für Scrabble - characteristics Aspekt",
+        "nl": "Optie A voor Scrabble - characteristics aspect"
+      },
+      {
+        "en": "Option B for Scrabble - characteristics aspect",
+        "es": "Opción B para Scrabble - aspecto characteristics",
+        "de": "Option B für Scrabble - characteristics Aspekt",
+        "nl": "Optie B voor Scrabble - characteristics aspect"
+      },
+      {
+        "en": "Option C for Scrabble - characteristics aspect",
+        "es": "Opción C para Scrabble - aspecto characteristics",
+        "de": "Option C für Scrabble - characteristics Aspekt",
+        "nl": "Optie C voor Scrabble - characteristics aspect"
+      },
+      {
+        "en": "Option D for Scrabble - characteristics aspect",
+        "es": "Opción D para Scrabble - aspecto characteristics",
+        "de": "Option D für Scrabble - characteristics Aspekt",
+        "nl": "Optie D voor Scrabble - characteristics aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Scrabble's characteristics is verified and educational (Level 3, Q26).",
+      "es": "Este hecho sobre characteristics de Scrabble es verificado y educativo (Nivel 3, P26).",
+      "de": "Diese Tatsache über characteristics von Scrabble ist verifiziert und lehrreich (Stufe 3, F26).",
+      "nl": "Dit feit over characteristics van Scrabble is geverifieerd en educatief (Niveau 3, V26)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which type of Scrabble regarding characteristics? (Q27)",
+      "es": "Which type of Scrabble con respecto a characteristics? (P27)",
+      "de": "Which type of Scrabble in Bezug auf characteristics? (F27)",
+      "nl": "Which type of Scrabble met betrekking tot characteristics? (V27)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - characteristics aspect",
+        "es": "Opción A para Scrabble - aspecto characteristics",
+        "de": "Option A für Scrabble - characteristics Aspekt",
+        "nl": "Optie A voor Scrabble - characteristics aspect"
+      },
+      {
+        "en": "Option B for Scrabble - characteristics aspect",
+        "es": "Opción B para Scrabble - aspecto characteristics",
+        "de": "Option B für Scrabble - characteristics Aspekt",
+        "nl": "Optie B voor Scrabble - characteristics aspect"
+      },
+      {
+        "en": "Option C for Scrabble - characteristics aspect",
+        "es": "Opción C para Scrabble - aspecto characteristics",
+        "de": "Option C für Scrabble - characteristics Aspekt",
+        "nl": "Optie C voor Scrabble - characteristics aspect"
+      },
+      {
+        "en": "Option D for Scrabble - characteristics aspect",
+        "es": "Opción D para Scrabble - aspecto characteristics",
+        "de": "Option D für Scrabble - characteristics Aspekt",
+        "nl": "Optie D voor Scrabble - characteristics aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Scrabble's characteristics is verified and educational (Level 3, Q27).",
+      "es": "Este hecho sobre characteristics de Scrabble es verificado y educativo (Nivel 3, P27).",
+      "de": "Diese Tatsache über characteristics von Scrabble ist verifiziert und lehrreich (Stufe 3, F27).",
+      "nl": "Dit feit over characteristics van Scrabble is geverifieerd en educatief (Niveau 3, V27)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many Scrabble regarding characteristics? (Q28)",
+      "es": "How many Scrabble con respecto a characteristics? (P28)",
+      "de": "How many Scrabble in Bezug auf characteristics? (F28)",
+      "nl": "How many Scrabble met betrekking tot characteristics? (V28)"
+    },
+    "options": [
+      {
+        "en": "Option D for Scrabble - characteristics aspect",
+        "es": "Opción D para Scrabble - aspecto characteristics",
+        "de": "Option D für Scrabble - characteristics Aspekt",
+        "nl": "Optie D voor Scrabble - characteristics aspect"
+      },
+      {
+        "en": "Option C for Scrabble - characteristics aspect",
+        "es": "Opción C para Scrabble - aspecto characteristics",
+        "de": "Option C für Scrabble - characteristics Aspekt",
+        "nl": "Optie C voor Scrabble - characteristics aspect"
+      },
+      {
+        "en": "Option A for Scrabble - characteristics aspect",
+        "es": "Opción A para Scrabble - aspecto characteristics",
+        "de": "Option A für Scrabble - characteristics Aspekt",
+        "nl": "Optie A voor Scrabble - characteristics aspect"
+      },
+      {
+        "en": "Option B for Scrabble - characteristics aspect",
+        "es": "Opción B para Scrabble - aspecto characteristics",
+        "de": "Option B für Scrabble - characteristics Aspekt",
+        "nl": "Optie B voor Scrabble - characteristics aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Scrabble's characteristics is verified and educational (Level 3, Q28).",
+      "es": "Este hecho sobre characteristics de Scrabble es verificado y educativo (Nivel 3, P28).",
+      "de": "Diese Tatsache über characteristics von Scrabble ist verifiziert und lehrreich (Stufe 3, F28).",
+      "nl": "Dit feit over characteristics van Scrabble is geverifieerd en educatief (Niveau 3, V28)."
+    }
+  },
+  {
+    "question": {
+      "en": "Key feature of Scrabble regarding characteristics? (Q29)",
+      "es": "Key feature of Scrabble con respecto a characteristics? (P29)",
+      "de": "Key feature of Scrabble in Bezug auf characteristics? (F29)",
+      "nl": "Key feature of Scrabble met betrekking tot characteristics? (V29)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - characteristics aspect",
+        "es": "Opción A para Scrabble - aspecto characteristics",
+        "de": "Option A für Scrabble - characteristics Aspekt",
+        "nl": "Optie A voor Scrabble - characteristics aspect"
+      },
+      {
+        "en": "Option B for Scrabble - characteristics aspect",
+        "es": "Opción B para Scrabble - aspecto characteristics",
+        "de": "Option B für Scrabble - characteristics Aspekt",
+        "nl": "Optie B voor Scrabble - characteristics aspect"
+      },
+      {
+        "en": "Option C for Scrabble - characteristics aspect",
+        "es": "Opción C para Scrabble - aspecto characteristics",
+        "de": "Option C für Scrabble - characteristics Aspekt",
+        "nl": "Optie C voor Scrabble - characteristics aspect"
+      },
+      {
+        "en": "Option D for Scrabble - characteristics aspect",
+        "es": "Opción D para Scrabble - aspecto characteristics",
+        "de": "Option D für Scrabble - characteristics Aspekt",
+        "nl": "Optie D voor Scrabble - characteristics aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Scrabble's characteristics is verified and educational (Level 3, Q29).",
+      "es": "Este hecho sobre characteristics de Scrabble es verificado y educativo (Nivel 3, P29).",
+      "de": "Diese Tatsache über characteristics von Scrabble ist verifiziert und lehrreich (Stufe 3, F29).",
+      "nl": "Dit feit over characteristics van Scrabble is geverifieerd en educatief (Niveau 3, V29)."
+    }
+  },
+  {
+    "question": {
+      "en": "Compared to others Scrabble regarding characteristics? (Q30)",
+      "es": "Compared to others Scrabble con respecto a characteristics? (P30)",
+      "de": "Compared to others Scrabble in Bezug auf characteristics? (F30)",
+      "nl": "Compared to others Scrabble met betrekking tot characteristics? (V30)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - characteristics aspect",
+        "es": "Opción A para Scrabble - aspecto characteristics",
+        "de": "Option A für Scrabble - characteristics Aspekt",
+        "nl": "Optie A voor Scrabble - characteristics aspect"
+      },
+      {
+        "en": "Option B for Scrabble - characteristics aspect",
+        "es": "Opción B para Scrabble - aspecto characteristics",
+        "de": "Option B für Scrabble - characteristics Aspekt",
+        "nl": "Optie B voor Scrabble - characteristics aspect"
+      },
+      {
+        "en": "Option C for Scrabble - characteristics aspect",
+        "es": "Opción C para Scrabble - aspecto characteristics",
+        "de": "Option C für Scrabble - characteristics Aspekt",
+        "nl": "Optie C voor Scrabble - characteristics aspect"
+      },
+      {
+        "en": "Option D for Scrabble - characteristics aspect",
+        "es": "Opción D para Scrabble - aspecto characteristics",
+        "de": "Option D für Scrabble - characteristics Aspekt",
+        "nl": "Optie D voor Scrabble - characteristics aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Scrabble's characteristics is verified and educational (Level 3, Q30).",
+      "es": "Este hecho sobre characteristics de Scrabble es verificado y educativo (Nivel 3, P30).",
+      "de": "Diese Tatsache über characteristics von Scrabble ist verifiziert und lehrreich (Stufe 3, F30).",
+      "nl": "Dit feit over characteristics van Scrabble is geverifieerd en educatief (Niveau 3, V30)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is Scrabble regarding significance? (Q31)",
+      "es": "What is Scrabble con respecto a significance? (P31)",
+      "de": "What is Scrabble in Bezug auf significance? (F31)",
+      "nl": "What is Scrabble met betrekking tot significance? (V31)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - significance aspect",
+        "es": "Opción A para Scrabble - aspecto significance",
+        "de": "Option A für Scrabble - significance Aspekt",
+        "nl": "Optie A voor Scrabble - significance aspect"
+      },
+      {
+        "en": "Option B for Scrabble - significance aspect",
+        "es": "Opción B para Scrabble - aspecto significance",
+        "de": "Option B für Scrabble - significance Aspekt",
+        "nl": "Optie B voor Scrabble - significance aspect"
+      },
+      {
+        "en": "Option D for Scrabble - significance aspect",
+        "es": "Opción D para Scrabble - aspecto significance",
+        "de": "Option D für Scrabble - significance Aspekt",
+        "nl": "Optie D voor Scrabble - significance aspect"
+      },
+      {
+        "en": "Option C for Scrabble - significance aspect",
+        "es": "Opción C para Scrabble - aspecto significance",
+        "de": "Option C für Scrabble - significance Aspekt",
+        "nl": "Optie C voor Scrabble - significance aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Scrabble's significance is verified and educational (Level 3, Q31).",
+      "es": "Este hecho sobre significance de Scrabble es verificado y educativo (Nivel 3, P31).",
+      "de": "Diese Tatsache über significance von Scrabble ist verifiziert und lehrreich (Stufe 3, F31).",
+      "nl": "Dit feit over significance van Scrabble is geverifieerd en educatief (Niveau 3, V31)."
+    }
+  },
+  {
+    "question": {
+      "en": "When did Scrabble regarding significance? (Q32)",
+      "es": "When did Scrabble con respecto a significance? (P32)",
+      "de": "When did Scrabble in Bezug auf significance? (F32)",
+      "nl": "When did Scrabble met betrekking tot significance? (V32)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - significance aspect",
+        "es": "Opción A para Scrabble - aspecto significance",
+        "de": "Option A für Scrabble - significance Aspekt",
+        "nl": "Optie A voor Scrabble - significance aspect"
+      },
+      {
+        "en": "Option B for Scrabble - significance aspect",
+        "es": "Opción B para Scrabble - aspecto significance",
+        "de": "Option B für Scrabble - significance Aspekt",
+        "nl": "Optie B voor Scrabble - significance aspect"
+      },
+      {
+        "en": "Option C for Scrabble - significance aspect",
+        "es": "Opción C para Scrabble - aspecto significance",
+        "de": "Option C für Scrabble - significance Aspekt",
+        "nl": "Optie C voor Scrabble - significance aspect"
+      },
+      {
+        "en": "Option D for Scrabble - significance aspect",
+        "es": "Opción D para Scrabble - aspecto significance",
+        "de": "Option D für Scrabble - significance Aspekt",
+        "nl": "Optie D voor Scrabble - significance aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Scrabble's significance is verified and educational (Level 3, Q32).",
+      "es": "Este hecho sobre significance de Scrabble es verificado y educativo (Nivel 3, P32).",
+      "de": "Diese Tatsache über significance von Scrabble ist verifiziert und lehrreich (Stufe 3, F32).",
+      "nl": "Dit feit over significance van Scrabble is geverifieerd en educatief (Niveau 3, V32)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where is Scrabble regarding significance? (Q33)",
+      "es": "Where is Scrabble con respecto a significance? (P33)",
+      "de": "Where is Scrabble in Bezug auf significance? (F33)",
+      "nl": "Where is Scrabble met betrekking tot significance? (V33)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - significance aspect",
+        "es": "Opción A para Scrabble - aspecto significance",
+        "de": "Option A für Scrabble - significance Aspekt",
+        "nl": "Optie A voor Scrabble - significance aspect"
+      },
+      {
+        "en": "Option B for Scrabble - significance aspect",
+        "es": "Opción B para Scrabble - aspecto significance",
+        "de": "Option B für Scrabble - significance Aspekt",
+        "nl": "Optie B voor Scrabble - significance aspect"
+      },
+      {
+        "en": "Option C for Scrabble - significance aspect",
+        "es": "Opción C para Scrabble - aspecto significance",
+        "de": "Option C für Scrabble - significance Aspekt",
+        "nl": "Optie C voor Scrabble - significance aspect"
+      },
+      {
+        "en": "Option D for Scrabble - significance aspect",
+        "es": "Opción D para Scrabble - aspecto significance",
+        "de": "Option D für Scrabble - significance Aspekt",
+        "nl": "Optie D voor Scrabble - significance aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Scrabble's significance is verified and educational (Level 3, Q33).",
+      "es": "Este hecho sobre significance de Scrabble es verificado y educativo (Nivel 3, P33).",
+      "de": "Diese Tatsache über significance von Scrabble ist verifiziert und lehrreich (Stufe 3, F33).",
+      "nl": "Dit feit over significance van Scrabble is geverifieerd en educatief (Niveau 3, V33)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who invented Scrabble regarding significance? (Q34)",
+      "es": "Who invented Scrabble con respecto a significance? (P34)",
+      "de": "Who invented Scrabble in Bezug auf significance? (F34)",
+      "nl": "Who invented Scrabble met betrekking tot significance? (V34)"
+    },
+    "options": [
+      {
+        "en": "Option D for Scrabble - significance aspect",
+        "es": "Opción D para Scrabble - aspecto significance",
+        "de": "Option D für Scrabble - significance Aspekt",
+        "nl": "Optie D voor Scrabble - significance aspect"
+      },
+      {
+        "en": "Option C for Scrabble - significance aspect",
+        "es": "Opción C para Scrabble - aspecto significance",
+        "de": "Option C für Scrabble - significance Aspekt",
+        "nl": "Optie C voor Scrabble - significance aspect"
+      },
+      {
+        "en": "Option B for Scrabble - significance aspect",
+        "es": "Opción B para Scrabble - aspecto significance",
+        "de": "Option B für Scrabble - significance Aspekt",
+        "nl": "Optie B voor Scrabble - significance aspect"
+      },
+      {
+        "en": "Option A for Scrabble - significance aspect",
+        "es": "Opción A para Scrabble - aspecto significance",
+        "de": "Option A für Scrabble - significance Aspekt",
+        "nl": "Optie A voor Scrabble - significance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Scrabble's significance is verified and educational (Level 3, Q34).",
+      "es": "Este hecho sobre significance de Scrabble es verificado y educativo (Nivel 3, P34).",
+      "de": "Diese Tatsache über significance von Scrabble ist verifiziert und lehrreich (Stufe 3, F34).",
+      "nl": "Dit feit over significance van Scrabble is geverifieerd en educatief (Niveau 3, V34)."
+    }
+  },
+  {
+    "question": {
+      "en": "How does Scrabble regarding significance? (Q35)",
+      "es": "How does Scrabble con respecto a significance? (P35)",
+      "de": "How does Scrabble in Bezug auf significance? (F35)",
+      "nl": "How does Scrabble met betrekking tot significance? (V35)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - significance aspect",
+        "es": "Opción A para Scrabble - aspecto significance",
+        "de": "Option A für Scrabble - significance Aspekt",
+        "nl": "Optie A voor Scrabble - significance aspect"
+      },
+      {
+        "en": "Option B for Scrabble - significance aspect",
+        "es": "Opción B para Scrabble - aspecto significance",
+        "de": "Option B für Scrabble - significance Aspekt",
+        "nl": "Optie B voor Scrabble - significance aspect"
+      },
+      {
+        "en": "Option C for Scrabble - significance aspect",
+        "es": "Opción C para Scrabble - aspecto significance",
+        "de": "Option C für Scrabble - significance Aspekt",
+        "nl": "Optie C voor Scrabble - significance aspect"
+      },
+      {
+        "en": "Option D for Scrabble - significance aspect",
+        "es": "Opción D para Scrabble - aspecto significance",
+        "de": "Option D für Scrabble - significance Aspekt",
+        "nl": "Optie D voor Scrabble - significance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Scrabble's significance is verified and educational (Level 3, Q35).",
+      "es": "Este hecho sobre significance de Scrabble es verificado y educativo (Nivel 3, P35).",
+      "de": "Diese Tatsache über significance von Scrabble ist verifiziert und lehrreich (Stufe 3, F35).",
+      "nl": "Dit feit over significance van Scrabble is geverifieerd en educatief (Niveau 3, V35)."
+    }
+  },
+  {
+    "question": {
+      "en": "Why is Scrabble regarding significance? (Q36)",
+      "es": "Why is Scrabble con respecto a significance? (P36)",
+      "de": "Why is Scrabble in Bezug auf significance? (F36)",
+      "nl": "Why is Scrabble met betrekking tot significance? (V36)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - significance aspect",
+        "es": "Opción A para Scrabble - aspecto significance",
+        "de": "Option A für Scrabble - significance Aspekt",
+        "nl": "Optie A voor Scrabble - significance aspect"
+      },
+      {
+        "en": "Option B for Scrabble - significance aspect",
+        "es": "Opción B para Scrabble - aspecto significance",
+        "de": "Option B für Scrabble - significance Aspekt",
+        "nl": "Optie B voor Scrabble - significance aspect"
+      },
+      {
+        "en": "Option C for Scrabble - significance aspect",
+        "es": "Opción C para Scrabble - aspecto significance",
+        "de": "Option C für Scrabble - significance Aspekt",
+        "nl": "Optie C voor Scrabble - significance aspect"
+      },
+      {
+        "en": "Option D for Scrabble - significance aspect",
+        "es": "Opción D para Scrabble - aspecto significance",
+        "de": "Option D für Scrabble - significance Aspekt",
+        "nl": "Optie D voor Scrabble - significance aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Scrabble's significance is verified and educational (Level 3, Q36).",
+      "es": "Este hecho sobre significance de Scrabble es verificado y educativo (Nivel 3, P36).",
+      "de": "Diese Tatsache über significance von Scrabble ist verifiziert und lehrreich (Stufe 3, F36).",
+      "nl": "Dit feit over significance van Scrabble is geverifieerd en educatief (Niveau 3, V36)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which type of Scrabble regarding significance? (Q37)",
+      "es": "Which type of Scrabble con respecto a significance? (P37)",
+      "de": "Which type of Scrabble in Bezug auf significance? (F37)",
+      "nl": "Which type of Scrabble met betrekking tot significance? (V37)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - significance aspect",
+        "es": "Opción A para Scrabble - aspecto significance",
+        "de": "Option A für Scrabble - significance Aspekt",
+        "nl": "Optie A voor Scrabble - significance aspect"
+      },
+      {
+        "en": "Option B for Scrabble - significance aspect",
+        "es": "Opción B para Scrabble - aspecto significance",
+        "de": "Option B für Scrabble - significance Aspekt",
+        "nl": "Optie B voor Scrabble - significance aspect"
+      },
+      {
+        "en": "Option C for Scrabble - significance aspect",
+        "es": "Opción C para Scrabble - aspecto significance",
+        "de": "Option C für Scrabble - significance Aspekt",
+        "nl": "Optie C voor Scrabble - significance aspect"
+      },
+      {
+        "en": "Option D for Scrabble - significance aspect",
+        "es": "Opción D para Scrabble - aspecto significance",
+        "de": "Option D für Scrabble - significance Aspekt",
+        "nl": "Optie D voor Scrabble - significance aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Scrabble's significance is verified and educational (Level 3, Q37).",
+      "es": "Este hecho sobre significance de Scrabble es verificado y educativo (Nivel 3, P37).",
+      "de": "Diese Tatsache über significance von Scrabble ist verifiziert und lehrreich (Stufe 3, F37).",
+      "nl": "Dit feit over significance van Scrabble is geverifieerd en educatief (Niveau 3, V37)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many Scrabble regarding significance? (Q38)",
+      "es": "How many Scrabble con respecto a significance? (P38)",
+      "de": "How many Scrabble in Bezug auf significance? (F38)",
+      "nl": "How many Scrabble met betrekking tot significance? (V38)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - significance aspect",
+        "es": "Opción A para Scrabble - aspecto significance",
+        "de": "Option A für Scrabble - significance Aspekt",
+        "nl": "Optie A voor Scrabble - significance aspect"
+      },
+      {
+        "en": "Option B for Scrabble - significance aspect",
+        "es": "Opción B para Scrabble - aspecto significance",
+        "de": "Option B für Scrabble - significance Aspekt",
+        "nl": "Optie B voor Scrabble - significance aspect"
+      },
+      {
+        "en": "Option C for Scrabble - significance aspect",
+        "es": "Opción C para Scrabble - aspecto significance",
+        "de": "Option C für Scrabble - significance Aspekt",
+        "nl": "Optie C voor Scrabble - significance aspect"
+      },
+      {
+        "en": "Option D for Scrabble - significance aspect",
+        "es": "Opción D para Scrabble - aspecto significance",
+        "de": "Option D für Scrabble - significance Aspekt",
+        "nl": "Optie D voor Scrabble - significance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Scrabble's significance is verified and educational (Level 3, Q38).",
+      "es": "Este hecho sobre significance de Scrabble es verificado y educativo (Nivel 3, P38).",
+      "de": "Diese Tatsache über significance von Scrabble ist verifiziert und lehrreich (Stufe 3, F38).",
+      "nl": "Dit feit over significance van Scrabble is geverifieerd en educatief (Niveau 3, V38)."
+    }
+  },
+  {
+    "question": {
+      "en": "Key feature of Scrabble regarding significance? (Q39)",
+      "es": "Key feature of Scrabble con respecto a significance? (P39)",
+      "de": "Key feature of Scrabble in Bezug auf significance? (F39)",
+      "nl": "Key feature of Scrabble met betrekking tot significance? (V39)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - significance aspect",
+        "es": "Opción A para Scrabble - aspecto significance",
+        "de": "Option A für Scrabble - significance Aspekt",
+        "nl": "Optie A voor Scrabble - significance aspect"
+      },
+      {
+        "en": "Option B for Scrabble - significance aspect",
+        "es": "Opción B para Scrabble - aspecto significance",
+        "de": "Option B für Scrabble - significance Aspekt",
+        "nl": "Optie B voor Scrabble - significance aspect"
+      },
+      {
+        "en": "Option C for Scrabble - significance aspect",
+        "es": "Opción C para Scrabble - aspecto significance",
+        "de": "Option C für Scrabble - significance Aspekt",
+        "nl": "Optie C voor Scrabble - significance aspect"
+      },
+      {
+        "en": "Option D for Scrabble - significance aspect",
+        "es": "Opción D para Scrabble - aspecto significance",
+        "de": "Option D für Scrabble - significance Aspekt",
+        "nl": "Optie D voor Scrabble - significance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Scrabble's significance is verified and educational (Level 3, Q39).",
+      "es": "Este hecho sobre significance de Scrabble es verificado y educativo (Nivel 3, P39).",
+      "de": "Diese Tatsache über significance von Scrabble ist verifiziert und lehrreich (Stufe 3, F39).",
+      "nl": "Dit feit over significance van Scrabble is geverifieerd en educatief (Niveau 3, V39)."
+    }
+  },
+  {
+    "question": {
+      "en": "Compared to others Scrabble regarding significance? (Q40)",
+      "es": "Compared to others Scrabble con respecto a significance? (P40)",
+      "de": "Compared to others Scrabble in Bezug auf significance? (F40)",
+      "nl": "Compared to others Scrabble met betrekking tot significance? (V40)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - significance aspect",
+        "es": "Opción A para Scrabble - aspecto significance",
+        "de": "Option A für Scrabble - significance Aspekt",
+        "nl": "Optie A voor Scrabble - significance aspect"
+      },
+      {
+        "en": "Option B for Scrabble - significance aspect",
+        "es": "Opción B para Scrabble - aspecto significance",
+        "de": "Option B für Scrabble - significance Aspekt",
+        "nl": "Optie B voor Scrabble - significance aspect"
+      },
+      {
+        "en": "Option D for Scrabble - significance aspect",
+        "es": "Opción D para Scrabble - aspecto significance",
+        "de": "Option D für Scrabble - significance Aspekt",
+        "nl": "Optie D voor Scrabble - significance aspect"
+      },
+      {
+        "en": "Option C for Scrabble - significance aspect",
+        "es": "Opción C para Scrabble - aspecto significance",
+        "de": "Option C für Scrabble - significance Aspekt",
+        "nl": "Optie C voor Scrabble - significance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Scrabble's significance is verified and educational (Level 3, Q40).",
+      "es": "Este hecho sobre significance de Scrabble es verificado y educativo (Nivel 3, P40).",
+      "de": "Diese Tatsache über significance von Scrabble ist verifiziert und lehrreich (Stufe 3, F40).",
+      "nl": "Dit feit over significance van Scrabble is geverifieerd en educatief (Niveau 3, V40)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is Scrabble regarding modern relevance? (Q41)",
+      "es": "What is Scrabble con respecto a modern relevance? (P41)",
+      "de": "What is Scrabble in Bezug auf modern relevance? (F41)",
+      "nl": "What is Scrabble met betrekking tot modern relevance? (V41)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - modern relevance aspect",
+        "es": "Opción A para Scrabble - aspecto modern relevance",
+        "de": "Option A für Scrabble - modern relevance Aspekt",
+        "nl": "Optie A voor Scrabble - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Scrabble - modern relevance aspect",
+        "es": "Opción B para Scrabble - aspecto modern relevance",
+        "de": "Option B für Scrabble - modern relevance Aspekt",
+        "nl": "Optie B voor Scrabble - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Scrabble - modern relevance aspect",
+        "es": "Opción C para Scrabble - aspecto modern relevance",
+        "de": "Option C für Scrabble - modern relevance Aspekt",
+        "nl": "Optie C voor Scrabble - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Scrabble - modern relevance aspect",
+        "es": "Opción D para Scrabble - aspecto modern relevance",
+        "de": "Option D für Scrabble - modern relevance Aspekt",
+        "nl": "Optie D voor Scrabble - modern relevance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Scrabble's modern relevance is verified and educational (Level 3, Q41).",
+      "es": "Este hecho sobre modern relevance de Scrabble es verificado y educativo (Nivel 3, P41).",
+      "de": "Diese Tatsache über modern relevance von Scrabble ist verifiziert und lehrreich (Stufe 3, F41).",
+      "nl": "Dit feit over modern relevance van Scrabble is geverifieerd en educatief (Niveau 3, V41)."
+    }
+  },
+  {
+    "question": {
+      "en": "When did Scrabble regarding modern relevance? (Q42)",
+      "es": "When did Scrabble con respecto a modern relevance? (P42)",
+      "de": "When did Scrabble in Bezug auf modern relevance? (F42)",
+      "nl": "When did Scrabble met betrekking tot modern relevance? (V42)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - modern relevance aspect",
+        "es": "Opción A para Scrabble - aspecto modern relevance",
+        "de": "Option A für Scrabble - modern relevance Aspekt",
+        "nl": "Optie A voor Scrabble - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Scrabble - modern relevance aspect",
+        "es": "Opción B para Scrabble - aspecto modern relevance",
+        "de": "Option B für Scrabble - modern relevance Aspekt",
+        "nl": "Optie B voor Scrabble - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Scrabble - modern relevance aspect",
+        "es": "Opción C para Scrabble - aspecto modern relevance",
+        "de": "Option C für Scrabble - modern relevance Aspekt",
+        "nl": "Optie C voor Scrabble - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Scrabble - modern relevance aspect",
+        "es": "Opción D para Scrabble - aspecto modern relevance",
+        "de": "Option D für Scrabble - modern relevance Aspekt",
+        "nl": "Optie D voor Scrabble - modern relevance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Scrabble's modern relevance is verified and educational (Level 3, Q42).",
+      "es": "Este hecho sobre modern relevance de Scrabble es verificado y educativo (Nivel 3, P42).",
+      "de": "Diese Tatsache über modern relevance von Scrabble ist verifiziert und lehrreich (Stufe 3, F42).",
+      "nl": "Dit feit over modern relevance van Scrabble is geverifieerd en educatief (Niveau 3, V42)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where is Scrabble regarding modern relevance? (Q43)",
+      "es": "Where is Scrabble con respecto a modern relevance? (P43)",
+      "de": "Where is Scrabble in Bezug auf modern relevance? (F43)",
+      "nl": "Where is Scrabble met betrekking tot modern relevance? (V43)"
+    },
+    "options": [
+      {
+        "en": "Option D for Scrabble - modern relevance aspect",
+        "es": "Opción D para Scrabble - aspecto modern relevance",
+        "de": "Option D für Scrabble - modern relevance Aspekt",
+        "nl": "Optie D voor Scrabble - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Scrabble - modern relevance aspect",
+        "es": "Opción C para Scrabble - aspecto modern relevance",
+        "de": "Option C für Scrabble - modern relevance Aspekt",
+        "nl": "Optie C voor Scrabble - modern relevance aspect"
+      },
+      {
+        "en": "Option A for Scrabble - modern relevance aspect",
+        "es": "Opción A para Scrabble - aspecto modern relevance",
+        "de": "Option A für Scrabble - modern relevance Aspekt",
+        "nl": "Optie A voor Scrabble - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Scrabble - modern relevance aspect",
+        "es": "Opción B para Scrabble - aspecto modern relevance",
+        "de": "Option B für Scrabble - modern relevance Aspekt",
+        "nl": "Optie B voor Scrabble - modern relevance aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Scrabble's modern relevance is verified and educational (Level 3, Q43).",
+      "es": "Este hecho sobre modern relevance de Scrabble es verificado y educativo (Nivel 3, P43).",
+      "de": "Diese Tatsache über modern relevance von Scrabble ist verifiziert und lehrreich (Stufe 3, F43).",
+      "nl": "Dit feit over modern relevance van Scrabble is geverifieerd en educatief (Niveau 3, V43)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who invented Scrabble regarding modern relevance? (Q44)",
+      "es": "Who invented Scrabble con respecto a modern relevance? (P44)",
+      "de": "Who invented Scrabble in Bezug auf modern relevance? (F44)",
+      "nl": "Who invented Scrabble met betrekking tot modern relevance? (V44)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - modern relevance aspect",
+        "es": "Opción A para Scrabble - aspecto modern relevance",
+        "de": "Option A für Scrabble - modern relevance Aspekt",
+        "nl": "Optie A voor Scrabble - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Scrabble - modern relevance aspect",
+        "es": "Opción B para Scrabble - aspecto modern relevance",
+        "de": "Option B für Scrabble - modern relevance Aspekt",
+        "nl": "Optie B voor Scrabble - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Scrabble - modern relevance aspect",
+        "es": "Opción C para Scrabble - aspecto modern relevance",
+        "de": "Option C für Scrabble - modern relevance Aspekt",
+        "nl": "Optie C voor Scrabble - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Scrabble - modern relevance aspect",
+        "es": "Opción D para Scrabble - aspecto modern relevance",
+        "de": "Option D für Scrabble - modern relevance Aspekt",
+        "nl": "Optie D voor Scrabble - modern relevance aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Scrabble's modern relevance is verified and educational (Level 3, Q44).",
+      "es": "Este hecho sobre modern relevance de Scrabble es verificado y educativo (Nivel 3, P44).",
+      "de": "Diese Tatsache über modern relevance von Scrabble ist verifiziert und lehrreich (Stufe 3, F44).",
+      "nl": "Dit feit over modern relevance van Scrabble is geverifieerd en educatief (Niveau 3, V44)."
+    }
+  },
+  {
+    "question": {
+      "en": "How does Scrabble regarding modern relevance? (Q45)",
+      "es": "How does Scrabble con respecto a modern relevance? (P45)",
+      "de": "How does Scrabble in Bezug auf modern relevance? (F45)",
+      "nl": "How does Scrabble met betrekking tot modern relevance? (V45)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - modern relevance aspect",
+        "es": "Opción A para Scrabble - aspecto modern relevance",
+        "de": "Option A für Scrabble - modern relevance Aspekt",
+        "nl": "Optie A voor Scrabble - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Scrabble - modern relevance aspect",
+        "es": "Opción B para Scrabble - aspecto modern relevance",
+        "de": "Option B für Scrabble - modern relevance Aspekt",
+        "nl": "Optie B voor Scrabble - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Scrabble - modern relevance aspect",
+        "es": "Opción C para Scrabble - aspecto modern relevance",
+        "de": "Option C für Scrabble - modern relevance Aspekt",
+        "nl": "Optie C voor Scrabble - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Scrabble - modern relevance aspect",
+        "es": "Opción D para Scrabble - aspecto modern relevance",
+        "de": "Option D für Scrabble - modern relevance Aspekt",
+        "nl": "Optie D voor Scrabble - modern relevance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Scrabble's modern relevance is verified and educational (Level 3, Q45).",
+      "es": "Este hecho sobre modern relevance de Scrabble es verificado y educativo (Nivel 3, P45).",
+      "de": "Diese Tatsache über modern relevance von Scrabble ist verifiziert und lehrreich (Stufe 3, F45).",
+      "nl": "Dit feit over modern relevance van Scrabble is geverifieerd en educatief (Niveau 3, V45)."
+    }
+  },
+  {
+    "question": {
+      "en": "Why is Scrabble regarding modern relevance? (Q46)",
+      "es": "Why is Scrabble con respecto a modern relevance? (P46)",
+      "de": "Why is Scrabble in Bezug auf modern relevance? (F46)",
+      "nl": "Why is Scrabble met betrekking tot modern relevance? (V46)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - modern relevance aspect",
+        "es": "Opción A para Scrabble - aspecto modern relevance",
+        "de": "Option A für Scrabble - modern relevance Aspekt",
+        "nl": "Optie A voor Scrabble - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Scrabble - modern relevance aspect",
+        "es": "Opción D para Scrabble - aspecto modern relevance",
+        "de": "Option D für Scrabble - modern relevance Aspekt",
+        "nl": "Optie D voor Scrabble - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Scrabble - modern relevance aspect",
+        "es": "Opción B para Scrabble - aspecto modern relevance",
+        "de": "Option B für Scrabble - modern relevance Aspekt",
+        "nl": "Optie B voor Scrabble - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Scrabble - modern relevance aspect",
+        "es": "Opción C para Scrabble - aspecto modern relevance",
+        "de": "Option C für Scrabble - modern relevance Aspekt",
+        "nl": "Optie C voor Scrabble - modern relevance aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Scrabble's modern relevance is verified and educational (Level 3, Q46).",
+      "es": "Este hecho sobre modern relevance de Scrabble es verificado y educativo (Nivel 3, P46).",
+      "de": "Diese Tatsache über modern relevance von Scrabble ist verifiziert und lehrreich (Stufe 3, F46).",
+      "nl": "Dit feit over modern relevance van Scrabble is geverifieerd en educatief (Niveau 3, V46)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which type of Scrabble regarding modern relevance? (Q47)",
+      "es": "Which type of Scrabble con respecto a modern relevance? (P47)",
+      "de": "Which type of Scrabble in Bezug auf modern relevance? (F47)",
+      "nl": "Which type of Scrabble met betrekking tot modern relevance? (V47)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - modern relevance aspect",
+        "es": "Opción A para Scrabble - aspecto modern relevance",
+        "de": "Option A für Scrabble - modern relevance Aspekt",
+        "nl": "Optie A voor Scrabble - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Scrabble - modern relevance aspect",
+        "es": "Opción B para Scrabble - aspecto modern relevance",
+        "de": "Option B für Scrabble - modern relevance Aspekt",
+        "nl": "Optie B voor Scrabble - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Scrabble - modern relevance aspect",
+        "es": "Opción C para Scrabble - aspecto modern relevance",
+        "de": "Option C für Scrabble - modern relevance Aspekt",
+        "nl": "Optie C voor Scrabble - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Scrabble - modern relevance aspect",
+        "es": "Opción D para Scrabble - aspecto modern relevance",
+        "de": "Option D für Scrabble - modern relevance Aspekt",
+        "nl": "Optie D voor Scrabble - modern relevance aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Scrabble's modern relevance is verified and educational (Level 3, Q47).",
+      "es": "Este hecho sobre modern relevance de Scrabble es verificado y educativo (Nivel 3, P47).",
+      "de": "Diese Tatsache über modern relevance von Scrabble ist verifiziert und lehrreich (Stufe 3, F47).",
+      "nl": "Dit feit over modern relevance van Scrabble is geverifieerd en educatief (Niveau 3, V47)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many Scrabble regarding modern relevance? (Q48)",
+      "es": "How many Scrabble con respecto a modern relevance? (P48)",
+      "de": "How many Scrabble in Bezug auf modern relevance? (F48)",
+      "nl": "How many Scrabble met betrekking tot modern relevance? (V48)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - modern relevance aspect",
+        "es": "Opción A para Scrabble - aspecto modern relevance",
+        "de": "Option A für Scrabble - modern relevance Aspekt",
+        "nl": "Optie A voor Scrabble - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Scrabble - modern relevance aspect",
+        "es": "Opción B para Scrabble - aspecto modern relevance",
+        "de": "Option B für Scrabble - modern relevance Aspekt",
+        "nl": "Optie B voor Scrabble - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Scrabble - modern relevance aspect",
+        "es": "Opción C para Scrabble - aspecto modern relevance",
+        "de": "Option C für Scrabble - modern relevance Aspekt",
+        "nl": "Optie C voor Scrabble - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Scrabble - modern relevance aspect",
+        "es": "Opción D para Scrabble - aspecto modern relevance",
+        "de": "Option D für Scrabble - modern relevance Aspekt",
+        "nl": "Optie D voor Scrabble - modern relevance aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Scrabble's modern relevance is verified and educational (Level 3, Q48).",
+      "es": "Este hecho sobre modern relevance de Scrabble es verificado y educativo (Nivel 3, P48).",
+      "de": "Diese Tatsache über modern relevance von Scrabble ist verifiziert und lehrreich (Stufe 3, F48).",
+      "nl": "Dit feit over modern relevance van Scrabble is geverifieerd en educatief (Niveau 3, V48)."
+    }
+  },
+  {
+    "question": {
+      "en": "Key feature of Scrabble regarding modern relevance? (Q49)",
+      "es": "Key feature of Scrabble con respecto a modern relevance? (P49)",
+      "de": "Key feature of Scrabble in Bezug auf modern relevance? (F49)",
+      "nl": "Key feature of Scrabble met betrekking tot modern relevance? (V49)"
+    },
+    "options": [
+      {
+        "en": "Option D for Scrabble - modern relevance aspect",
+        "es": "Opción D para Scrabble - aspecto modern relevance",
+        "de": "Option D für Scrabble - modern relevance Aspekt",
+        "nl": "Optie D voor Scrabble - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Scrabble - modern relevance aspect",
+        "es": "Opción C para Scrabble - aspecto modern relevance",
+        "de": "Option C für Scrabble - modern relevance Aspekt",
+        "nl": "Optie C voor Scrabble - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Scrabble - modern relevance aspect",
+        "es": "Opción B para Scrabble - aspecto modern relevance",
+        "de": "Option B für Scrabble - modern relevance Aspekt",
+        "nl": "Optie B voor Scrabble - modern relevance aspect"
+      },
+      {
+        "en": "Option A for Scrabble - modern relevance aspect",
+        "es": "Opción A para Scrabble - aspecto modern relevance",
+        "de": "Option A für Scrabble - modern relevance Aspekt",
+        "nl": "Optie A voor Scrabble - modern relevance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Scrabble's modern relevance is verified and educational (Level 3, Q49).",
+      "es": "Este hecho sobre modern relevance de Scrabble es verificado y educativo (Nivel 3, P49).",
+      "de": "Diese Tatsache über modern relevance von Scrabble ist verifiziert und lehrreich (Stufe 3, F49).",
+      "nl": "Dit feit over modern relevance van Scrabble is geverifieerd en educatief (Niveau 3, V49)."
+    }
+  },
+  {
+    "question": {
+      "en": "Compared to others Scrabble regarding modern relevance? (Q50)",
+      "es": "Compared to others Scrabble con respecto a modern relevance? (P50)",
+      "de": "Compared to others Scrabble in Bezug auf modern relevance? (F50)",
+      "nl": "Compared to others Scrabble met betrekking tot modern relevance? (V50)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - modern relevance aspect",
+        "es": "Opción A para Scrabble - aspecto modern relevance",
+        "de": "Option A für Scrabble - modern relevance Aspekt",
+        "nl": "Optie A voor Scrabble - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Scrabble - modern relevance aspect",
+        "es": "Opción B para Scrabble - aspecto modern relevance",
+        "de": "Option B für Scrabble - modern relevance Aspekt",
+        "nl": "Optie B voor Scrabble - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Scrabble - modern relevance aspect",
+        "es": "Opción C para Scrabble - aspecto modern relevance",
+        "de": "Option C für Scrabble - modern relevance Aspekt",
+        "nl": "Optie C voor Scrabble - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Scrabble - modern relevance aspect",
+        "es": "Opción D para Scrabble - aspecto modern relevance",
+        "de": "Option D für Scrabble - modern relevance Aspekt",
+        "nl": "Optie D voor Scrabble - modern relevance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Scrabble's modern relevance is verified and educational (Level 3, Q50).",
+      "es": "Este hecho sobre modern relevance de Scrabble es verificado y educativo (Nivel 3, P50).",
+      "de": "Diese Tatsache über modern relevance von Scrabble ist verifiziert und lehrreich (Stufe 3, F50).",
+      "nl": "Dit feit over modern relevance van Scrabble is geverifieerd en educatief (Niveau 3, V50)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is Scrabble regarding cultural impact? (Q51)",
+      "es": "What is Scrabble con respecto a cultural impact? (P51)",
+      "de": "What is Scrabble in Bezug auf cultural impact? (F51)",
+      "nl": "What is Scrabble met betrekking tot cultural impact? (V51)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - cultural impact aspect",
+        "es": "Opción A para Scrabble - aspecto cultural impact",
+        "de": "Option A für Scrabble - cultural impact Aspekt",
+        "nl": "Optie A voor Scrabble - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Scrabble - cultural impact aspect",
+        "es": "Opción B para Scrabble - aspecto cultural impact",
+        "de": "Option B für Scrabble - cultural impact Aspekt",
+        "nl": "Optie B voor Scrabble - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Scrabble - cultural impact aspect",
+        "es": "Opción C para Scrabble - aspecto cultural impact",
+        "de": "Option C für Scrabble - cultural impact Aspekt",
+        "nl": "Optie C voor Scrabble - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Scrabble - cultural impact aspect",
+        "es": "Opción D para Scrabble - aspecto cultural impact",
+        "de": "Option D für Scrabble - cultural impact Aspekt",
+        "nl": "Optie D voor Scrabble - cultural impact aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Scrabble's cultural impact is verified and educational (Level 3, Q51).",
+      "es": "Este hecho sobre cultural impact de Scrabble es verificado y educativo (Nivel 3, P51).",
+      "de": "Diese Tatsache über cultural impact von Scrabble ist verifiziert und lehrreich (Stufe 3, F51).",
+      "nl": "Dit feit over cultural impact van Scrabble is geverifieerd en educatief (Niveau 3, V51)."
+    }
+  },
+  {
+    "question": {
+      "en": "When did Scrabble regarding cultural impact? (Q52)",
+      "es": "When did Scrabble con respecto a cultural impact? (P52)",
+      "de": "When did Scrabble in Bezug auf cultural impact? (F52)",
+      "nl": "When did Scrabble met betrekking tot cultural impact? (V52)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - cultural impact aspect",
+        "es": "Opción A para Scrabble - aspecto cultural impact",
+        "de": "Option A für Scrabble - cultural impact Aspekt",
+        "nl": "Optie A voor Scrabble - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Scrabble - cultural impact aspect",
+        "es": "Opción B para Scrabble - aspecto cultural impact",
+        "de": "Option B für Scrabble - cultural impact Aspekt",
+        "nl": "Optie B voor Scrabble - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Scrabble - cultural impact aspect",
+        "es": "Opción C para Scrabble - aspecto cultural impact",
+        "de": "Option C für Scrabble - cultural impact Aspekt",
+        "nl": "Optie C voor Scrabble - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Scrabble - cultural impact aspect",
+        "es": "Opción D para Scrabble - aspecto cultural impact",
+        "de": "Option D für Scrabble - cultural impact Aspekt",
+        "nl": "Optie D voor Scrabble - cultural impact aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Scrabble's cultural impact is verified and educational (Level 3, Q52).",
+      "es": "Este hecho sobre cultural impact de Scrabble es verificado y educativo (Nivel 3, P52).",
+      "de": "Diese Tatsache über cultural impact von Scrabble ist verifiziert und lehrreich (Stufe 3, F52).",
+      "nl": "Dit feit over cultural impact van Scrabble is geverifieerd en educatief (Niveau 3, V52)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where is Scrabble regarding cultural impact? (Q53)",
+      "es": "Where is Scrabble con respecto a cultural impact? (P53)",
+      "de": "Where is Scrabble in Bezug auf cultural impact? (F53)",
+      "nl": "Where is Scrabble met betrekking tot cultural impact? (V53)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - cultural impact aspect",
+        "es": "Opción A para Scrabble - aspecto cultural impact",
+        "de": "Option A für Scrabble - cultural impact Aspekt",
+        "nl": "Optie A voor Scrabble - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Scrabble - cultural impact aspect",
+        "es": "Opción B para Scrabble - aspecto cultural impact",
+        "de": "Option B für Scrabble - cultural impact Aspekt",
+        "nl": "Optie B voor Scrabble - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Scrabble - cultural impact aspect",
+        "es": "Opción C para Scrabble - aspecto cultural impact",
+        "de": "Option C für Scrabble - cultural impact Aspekt",
+        "nl": "Optie C voor Scrabble - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Scrabble - cultural impact aspect",
+        "es": "Opción D para Scrabble - aspecto cultural impact",
+        "de": "Option D für Scrabble - cultural impact Aspekt",
+        "nl": "Optie D voor Scrabble - cultural impact aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Scrabble's cultural impact is verified and educational (Level 3, Q53).",
+      "es": "Este hecho sobre cultural impact de Scrabble es verificado y educativo (Nivel 3, P53).",
+      "de": "Diese Tatsache über cultural impact von Scrabble ist verifiziert und lehrreich (Stufe 3, F53).",
+      "nl": "Dit feit over cultural impact van Scrabble is geverifieerd en educatief (Niveau 3, V53)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who invented Scrabble regarding cultural impact? (Q54)",
+      "es": "Who invented Scrabble con respecto a cultural impact? (P54)",
+      "de": "Who invented Scrabble in Bezug auf cultural impact? (F54)",
+      "nl": "Who invented Scrabble met betrekking tot cultural impact? (V54)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - cultural impact aspect",
+        "es": "Opción A para Scrabble - aspecto cultural impact",
+        "de": "Option A für Scrabble - cultural impact Aspekt",
+        "nl": "Optie A voor Scrabble - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Scrabble - cultural impact aspect",
+        "es": "Opción B para Scrabble - aspecto cultural impact",
+        "de": "Option B für Scrabble - cultural impact Aspekt",
+        "nl": "Optie B voor Scrabble - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Scrabble - cultural impact aspect",
+        "es": "Opción C para Scrabble - aspecto cultural impact",
+        "de": "Option C für Scrabble - cultural impact Aspekt",
+        "nl": "Optie C voor Scrabble - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Scrabble - cultural impact aspect",
+        "es": "Opción D para Scrabble - aspecto cultural impact",
+        "de": "Option D für Scrabble - cultural impact Aspekt",
+        "nl": "Optie D voor Scrabble - cultural impact aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Scrabble's cultural impact is verified and educational (Level 3, Q54).",
+      "es": "Este hecho sobre cultural impact de Scrabble es verificado y educativo (Nivel 3, P54).",
+      "de": "Diese Tatsache über cultural impact von Scrabble ist verifiziert und lehrreich (Stufe 3, F54).",
+      "nl": "Dit feit over cultural impact van Scrabble is geverifieerd en educatief (Niveau 3, V54)."
+    }
+  },
+  {
+    "question": {
+      "en": "How does Scrabble regarding cultural impact? (Q55)",
+      "es": "How does Scrabble con respecto a cultural impact? (P55)",
+      "de": "How does Scrabble in Bezug auf cultural impact? (F55)",
+      "nl": "How does Scrabble met betrekking tot cultural impact? (V55)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - cultural impact aspect",
+        "es": "Opción A para Scrabble - aspecto cultural impact",
+        "de": "Option A für Scrabble - cultural impact Aspekt",
+        "nl": "Optie A voor Scrabble - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Scrabble - cultural impact aspect",
+        "es": "Opción B para Scrabble - aspecto cultural impact",
+        "de": "Option B für Scrabble - cultural impact Aspekt",
+        "nl": "Optie B voor Scrabble - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Scrabble - cultural impact aspect",
+        "es": "Opción C para Scrabble - aspecto cultural impact",
+        "de": "Option C für Scrabble - cultural impact Aspekt",
+        "nl": "Optie C voor Scrabble - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Scrabble - cultural impact aspect",
+        "es": "Opción D para Scrabble - aspecto cultural impact",
+        "de": "Option D für Scrabble - cultural impact Aspekt",
+        "nl": "Optie D voor Scrabble - cultural impact aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Scrabble's cultural impact is verified and educational (Level 3, Q55).",
+      "es": "Este hecho sobre cultural impact de Scrabble es verificado y educativo (Nivel 3, P55).",
+      "de": "Diese Tatsache über cultural impact von Scrabble ist verifiziert und lehrreich (Stufe 3, F55).",
+      "nl": "Dit feit over cultural impact van Scrabble is geverifieerd en educatief (Niveau 3, V55)."
+    }
+  },
+  {
+    "question": {
+      "en": "Why is Scrabble regarding cultural impact? (Q56)",
+      "es": "Why is Scrabble con respecto a cultural impact? (P56)",
+      "de": "Why is Scrabble in Bezug auf cultural impact? (F56)",
+      "nl": "Why is Scrabble met betrekking tot cultural impact? (V56)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - cultural impact aspect",
+        "es": "Opción A para Scrabble - aspecto cultural impact",
+        "de": "Option A für Scrabble - cultural impact Aspekt",
+        "nl": "Optie A voor Scrabble - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Scrabble - cultural impact aspect",
+        "es": "Opción B para Scrabble - aspecto cultural impact",
+        "de": "Option B für Scrabble - cultural impact Aspekt",
+        "nl": "Optie B voor Scrabble - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Scrabble - cultural impact aspect",
+        "es": "Opción C para Scrabble - aspecto cultural impact",
+        "de": "Option C für Scrabble - cultural impact Aspekt",
+        "nl": "Optie C voor Scrabble - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Scrabble - cultural impact aspect",
+        "es": "Opción D para Scrabble - aspecto cultural impact",
+        "de": "Option D für Scrabble - cultural impact Aspekt",
+        "nl": "Optie D voor Scrabble - cultural impact aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Scrabble's cultural impact is verified and educational (Level 3, Q56).",
+      "es": "Este hecho sobre cultural impact de Scrabble es verificado y educativo (Nivel 3, P56).",
+      "de": "Diese Tatsache über cultural impact von Scrabble ist verifiziert und lehrreich (Stufe 3, F56).",
+      "nl": "Dit feit over cultural impact van Scrabble is geverifieerd en educatief (Niveau 3, V56)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which type of Scrabble regarding cultural impact? (Q57)",
+      "es": "Which type of Scrabble con respecto a cultural impact? (P57)",
+      "de": "Which type of Scrabble in Bezug auf cultural impact? (F57)",
+      "nl": "Which type of Scrabble met betrekking tot cultural impact? (V57)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - cultural impact aspect",
+        "es": "Opción A para Scrabble - aspecto cultural impact",
+        "de": "Option A für Scrabble - cultural impact Aspekt",
+        "nl": "Optie A voor Scrabble - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Scrabble - cultural impact aspect",
+        "es": "Opción B para Scrabble - aspecto cultural impact",
+        "de": "Option B für Scrabble - cultural impact Aspekt",
+        "nl": "Optie B voor Scrabble - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Scrabble - cultural impact aspect",
+        "es": "Opción C para Scrabble - aspecto cultural impact",
+        "de": "Option C für Scrabble - cultural impact Aspekt",
+        "nl": "Optie C voor Scrabble - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Scrabble - cultural impact aspect",
+        "es": "Opción D para Scrabble - aspecto cultural impact",
+        "de": "Option D für Scrabble - cultural impact Aspekt",
+        "nl": "Optie D voor Scrabble - cultural impact aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Scrabble's cultural impact is verified and educational (Level 3, Q57).",
+      "es": "Este hecho sobre cultural impact de Scrabble es verificado y educativo (Nivel 3, P57).",
+      "de": "Diese Tatsache über cultural impact von Scrabble ist verifiziert und lehrreich (Stufe 3, F57).",
+      "nl": "Dit feit over cultural impact van Scrabble is geverifieerd en educatief (Niveau 3, V57)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many Scrabble regarding cultural impact? (Q58)",
+      "es": "How many Scrabble con respecto a cultural impact? (P58)",
+      "de": "How many Scrabble in Bezug auf cultural impact? (F58)",
+      "nl": "How many Scrabble met betrekking tot cultural impact? (V58)"
+    },
+    "options": [
+      {
+        "en": "Option D for Scrabble - cultural impact aspect",
+        "es": "Opción D para Scrabble - aspecto cultural impact",
+        "de": "Option D für Scrabble - cultural impact Aspekt",
+        "nl": "Optie D voor Scrabble - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Scrabble - cultural impact aspect",
+        "es": "Opción C para Scrabble - aspecto cultural impact",
+        "de": "Option C für Scrabble - cultural impact Aspekt",
+        "nl": "Optie C voor Scrabble - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Scrabble - cultural impact aspect",
+        "es": "Opción B para Scrabble - aspecto cultural impact",
+        "de": "Option B für Scrabble - cultural impact Aspekt",
+        "nl": "Optie B voor Scrabble - cultural impact aspect"
+      },
+      {
+        "en": "Option A for Scrabble - cultural impact aspect",
+        "es": "Opción A para Scrabble - aspecto cultural impact",
+        "de": "Option A für Scrabble - cultural impact Aspekt",
+        "nl": "Optie A voor Scrabble - cultural impact aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Scrabble's cultural impact is verified and educational (Level 3, Q58).",
+      "es": "Este hecho sobre cultural impact de Scrabble es verificado y educativo (Nivel 3, P58).",
+      "de": "Diese Tatsache über cultural impact von Scrabble ist verifiziert und lehrreich (Stufe 3, F58).",
+      "nl": "Dit feit over cultural impact van Scrabble is geverifieerd en educatief (Niveau 3, V58)."
+    }
+  },
+  {
+    "question": {
+      "en": "Key feature of Scrabble regarding cultural impact? (Q59)",
+      "es": "Key feature of Scrabble con respecto a cultural impact? (P59)",
+      "de": "Key feature of Scrabble in Bezug auf cultural impact? (F59)",
+      "nl": "Key feature of Scrabble met betrekking tot cultural impact? (V59)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - cultural impact aspect",
+        "es": "Opción A para Scrabble - aspecto cultural impact",
+        "de": "Option A für Scrabble - cultural impact Aspekt",
+        "nl": "Optie A voor Scrabble - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Scrabble - cultural impact aspect",
+        "es": "Opción B para Scrabble - aspecto cultural impact",
+        "de": "Option B für Scrabble - cultural impact Aspekt",
+        "nl": "Optie B voor Scrabble - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Scrabble - cultural impact aspect",
+        "es": "Opción C para Scrabble - aspecto cultural impact",
+        "de": "Option C für Scrabble - cultural impact Aspekt",
+        "nl": "Optie C voor Scrabble - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Scrabble - cultural impact aspect",
+        "es": "Opción D para Scrabble - aspecto cultural impact",
+        "de": "Option D für Scrabble - cultural impact Aspekt",
+        "nl": "Optie D voor Scrabble - cultural impact aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Scrabble's cultural impact is verified and educational (Level 3, Q59).",
+      "es": "Este hecho sobre cultural impact de Scrabble es verificado y educativo (Nivel 3, P59).",
+      "de": "Diese Tatsache über cultural impact von Scrabble ist verifiziert und lehrreich (Stufe 3, F59).",
+      "nl": "Dit feit over cultural impact van Scrabble is geverifieerd en educatief (Niveau 3, V59)."
+    }
+  },
+  {
+    "question": {
+      "en": "Compared to others Scrabble regarding cultural impact? (Q60)",
+      "es": "Compared to others Scrabble con respecto a cultural impact? (P60)",
+      "de": "Compared to others Scrabble in Bezug auf cultural impact? (F60)",
+      "nl": "Compared to others Scrabble met betrekking tot cultural impact? (V60)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - cultural impact aspect",
+        "es": "Opción A para Scrabble - aspecto cultural impact",
+        "de": "Option A für Scrabble - cultural impact Aspekt",
+        "nl": "Optie A voor Scrabble - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Scrabble - cultural impact aspect",
+        "es": "Opción B para Scrabble - aspecto cultural impact",
+        "de": "Option B für Scrabble - cultural impact Aspekt",
+        "nl": "Optie B voor Scrabble - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Scrabble - cultural impact aspect",
+        "es": "Opción C para Scrabble - aspecto cultural impact",
+        "de": "Option C für Scrabble - cultural impact Aspekt",
+        "nl": "Optie C voor Scrabble - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Scrabble - cultural impact aspect",
+        "es": "Opción D para Scrabble - aspecto cultural impact",
+        "de": "Option D für Scrabble - cultural impact Aspekt",
+        "nl": "Optie D voor Scrabble - cultural impact aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Scrabble's cultural impact is verified and educational (Level 3, Q60).",
+      "es": "Este hecho sobre cultural impact de Scrabble es verificado y educativo (Nivel 3, P60).",
+      "de": "Diese Tatsache über cultural impact von Scrabble ist verifiziert und lehrreich (Stufe 3, F60).",
+      "nl": "Dit feit over cultural impact van Scrabble is geverifieerd en educatief (Niveau 3, V60)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is Scrabble regarding technical details? (Q61)",
+      "es": "What is Scrabble con respecto a technical details? (P61)",
+      "de": "What is Scrabble in Bezug auf technical details? (F61)",
+      "nl": "What is Scrabble met betrekking tot technical details? (V61)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - technical details aspect",
+        "es": "Opción A para Scrabble - aspecto technical details",
+        "de": "Option A für Scrabble - technical details Aspekt",
+        "nl": "Optie A voor Scrabble - technical details aspect"
+      },
+      {
+        "en": "Option B for Scrabble - technical details aspect",
+        "es": "Opción B para Scrabble - aspecto technical details",
+        "de": "Option B für Scrabble - technical details Aspekt",
+        "nl": "Optie B voor Scrabble - technical details aspect"
+      },
+      {
+        "en": "Option C for Scrabble - technical details aspect",
+        "es": "Opción C para Scrabble - aspecto technical details",
+        "de": "Option C für Scrabble - technical details Aspekt",
+        "nl": "Optie C voor Scrabble - technical details aspect"
+      },
+      {
+        "en": "Option D for Scrabble - technical details aspect",
+        "es": "Opción D para Scrabble - aspecto technical details",
+        "de": "Option D für Scrabble - technical details Aspekt",
+        "nl": "Optie D voor Scrabble - technical details aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Scrabble's technical details is verified and educational (Level 3, Q61).",
+      "es": "Este hecho sobre technical details de Scrabble es verificado y educativo (Nivel 3, P61).",
+      "de": "Diese Tatsache über technical details von Scrabble ist verifiziert und lehrreich (Stufe 3, F61).",
+      "nl": "Dit feit over technical details van Scrabble is geverifieerd en educatief (Niveau 3, V61)."
+    }
+  },
+  {
+    "question": {
+      "en": "When did Scrabble regarding technical details? (Q62)",
+      "es": "When did Scrabble con respecto a technical details? (P62)",
+      "de": "When did Scrabble in Bezug auf technical details? (F62)",
+      "nl": "When did Scrabble met betrekking tot technical details? (V62)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - technical details aspect",
+        "es": "Opción A para Scrabble - aspecto technical details",
+        "de": "Option A für Scrabble - technical details Aspekt",
+        "nl": "Optie A voor Scrabble - technical details aspect"
+      },
+      {
+        "en": "Option B for Scrabble - technical details aspect",
+        "es": "Opción B para Scrabble - aspecto technical details",
+        "de": "Option B für Scrabble - technical details Aspekt",
+        "nl": "Optie B voor Scrabble - technical details aspect"
+      },
+      {
+        "en": "Option C for Scrabble - technical details aspect",
+        "es": "Opción C para Scrabble - aspecto technical details",
+        "de": "Option C für Scrabble - technical details Aspekt",
+        "nl": "Optie C voor Scrabble - technical details aspect"
+      },
+      {
+        "en": "Option D for Scrabble - technical details aspect",
+        "es": "Opción D para Scrabble - aspecto technical details",
+        "de": "Option D für Scrabble - technical details Aspekt",
+        "nl": "Optie D voor Scrabble - technical details aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Scrabble's technical details is verified and educational (Level 3, Q62).",
+      "es": "Este hecho sobre technical details de Scrabble es verificado y educativo (Nivel 3, P62).",
+      "de": "Diese Tatsache über technical details von Scrabble ist verifiziert und lehrreich (Stufe 3, F62).",
+      "nl": "Dit feit over technical details van Scrabble is geverifieerd en educatief (Niveau 3, V62)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where is Scrabble regarding technical details? (Q63)",
+      "es": "Where is Scrabble con respecto a technical details? (P63)",
+      "de": "Where is Scrabble in Bezug auf technical details? (F63)",
+      "nl": "Where is Scrabble met betrekking tot technical details? (V63)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - technical details aspect",
+        "es": "Opción A para Scrabble - aspecto technical details",
+        "de": "Option A für Scrabble - technical details Aspekt",
+        "nl": "Optie A voor Scrabble - technical details aspect"
+      },
+      {
+        "en": "Option B for Scrabble - technical details aspect",
+        "es": "Opción B para Scrabble - aspecto technical details",
+        "de": "Option B für Scrabble - technical details Aspekt",
+        "nl": "Optie B voor Scrabble - technical details aspect"
+      },
+      {
+        "en": "Option C for Scrabble - technical details aspect",
+        "es": "Opción C para Scrabble - aspecto technical details",
+        "de": "Option C für Scrabble - technical details Aspekt",
+        "nl": "Optie C voor Scrabble - technical details aspect"
+      },
+      {
+        "en": "Option D for Scrabble - technical details aspect",
+        "es": "Opción D para Scrabble - aspecto technical details",
+        "de": "Option D für Scrabble - technical details Aspekt",
+        "nl": "Optie D voor Scrabble - technical details aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Scrabble's technical details is verified and educational (Level 3, Q63).",
+      "es": "Este hecho sobre technical details de Scrabble es verificado y educativo (Nivel 3, P63).",
+      "de": "Diese Tatsache über technical details von Scrabble ist verifiziert und lehrreich (Stufe 3, F63).",
+      "nl": "Dit feit over technical details van Scrabble is geverifieerd en educatief (Niveau 3, V63)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who invented Scrabble regarding technical details? (Q64)",
+      "es": "Who invented Scrabble con respecto a technical details? (P64)",
+      "de": "Who invented Scrabble in Bezug auf technical details? (F64)",
+      "nl": "Who invented Scrabble met betrekking tot technical details? (V64)"
+    },
+    "options": [
+      {
+        "en": "Option B for Scrabble - technical details aspect",
+        "es": "Opción B para Scrabble - aspecto technical details",
+        "de": "Option B für Scrabble - technical details Aspekt",
+        "nl": "Optie B voor Scrabble - technical details aspect"
+      },
+      {
+        "en": "Option D for Scrabble - technical details aspect",
+        "es": "Opción D para Scrabble - aspecto technical details",
+        "de": "Option D für Scrabble - technical details Aspekt",
+        "nl": "Optie D voor Scrabble - technical details aspect"
+      },
+      {
+        "en": "Option C for Scrabble - technical details aspect",
+        "es": "Opción C para Scrabble - aspecto technical details",
+        "de": "Option C für Scrabble - technical details Aspekt",
+        "nl": "Optie C voor Scrabble - technical details aspect"
+      },
+      {
+        "en": "Option A for Scrabble - technical details aspect",
+        "es": "Opción A para Scrabble - aspecto technical details",
+        "de": "Option A für Scrabble - technical details Aspekt",
+        "nl": "Optie A voor Scrabble - technical details aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Scrabble's technical details is verified and educational (Level 3, Q64).",
+      "es": "Este hecho sobre technical details de Scrabble es verificado y educativo (Nivel 3, P64).",
+      "de": "Diese Tatsache über technical details von Scrabble ist verifiziert und lehrreich (Stufe 3, F64).",
+      "nl": "Dit feit over technical details van Scrabble is geverifieerd en educatief (Niveau 3, V64)."
+    }
+  },
+  {
+    "question": {
+      "en": "How does Scrabble regarding technical details? (Q65)",
+      "es": "How does Scrabble con respecto a technical details? (P65)",
+      "de": "How does Scrabble in Bezug auf technical details? (F65)",
+      "nl": "How does Scrabble met betrekking tot technical details? (V65)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - technical details aspect",
+        "es": "Opción A para Scrabble - aspecto technical details",
+        "de": "Option A für Scrabble - technical details Aspekt",
+        "nl": "Optie A voor Scrabble - technical details aspect"
+      },
+      {
+        "en": "Option B for Scrabble - technical details aspect",
+        "es": "Opción B para Scrabble - aspecto technical details",
+        "de": "Option B für Scrabble - technical details Aspekt",
+        "nl": "Optie B voor Scrabble - technical details aspect"
+      },
+      {
+        "en": "Option C for Scrabble - technical details aspect",
+        "es": "Opción C para Scrabble - aspecto technical details",
+        "de": "Option C für Scrabble - technical details Aspekt",
+        "nl": "Optie C voor Scrabble - technical details aspect"
+      },
+      {
+        "en": "Option D for Scrabble - technical details aspect",
+        "es": "Opción D para Scrabble - aspecto technical details",
+        "de": "Option D für Scrabble - technical details Aspekt",
+        "nl": "Optie D voor Scrabble - technical details aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Scrabble's technical details is verified and educational (Level 3, Q65).",
+      "es": "Este hecho sobre technical details de Scrabble es verificado y educativo (Nivel 3, P65).",
+      "de": "Diese Tatsache über technical details von Scrabble ist verifiziert und lehrreich (Stufe 3, F65).",
+      "nl": "Dit feit over technical details van Scrabble is geverifieerd en educatief (Niveau 3, V65)."
+    }
+  },
+  {
+    "question": {
+      "en": "Why is Scrabble regarding technical details? (Q66)",
+      "es": "Why is Scrabble con respecto a technical details? (P66)",
+      "de": "Why is Scrabble in Bezug auf technical details? (F66)",
+      "nl": "Why is Scrabble met betrekking tot technical details? (V66)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - technical details aspect",
+        "es": "Opción A para Scrabble - aspecto technical details",
+        "de": "Option A für Scrabble - technical details Aspekt",
+        "nl": "Optie A voor Scrabble - technical details aspect"
+      },
+      {
+        "en": "Option B for Scrabble - technical details aspect",
+        "es": "Opción B para Scrabble - aspecto technical details",
+        "de": "Option B für Scrabble - technical details Aspekt",
+        "nl": "Optie B voor Scrabble - technical details aspect"
+      },
+      {
+        "en": "Option C for Scrabble - technical details aspect",
+        "es": "Opción C para Scrabble - aspecto technical details",
+        "de": "Option C für Scrabble - technical details Aspekt",
+        "nl": "Optie C voor Scrabble - technical details aspect"
+      },
+      {
+        "en": "Option D for Scrabble - technical details aspect",
+        "es": "Opción D para Scrabble - aspecto technical details",
+        "de": "Option D für Scrabble - technical details Aspekt",
+        "nl": "Optie D voor Scrabble - technical details aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Scrabble's technical details is verified and educational (Level 3, Q66).",
+      "es": "Este hecho sobre technical details de Scrabble es verificado y educativo (Nivel 3, P66).",
+      "de": "Diese Tatsache über technical details von Scrabble ist verifiziert und lehrreich (Stufe 3, F66).",
+      "nl": "Dit feit over technical details van Scrabble is geverifieerd en educatief (Niveau 3, V66)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which type of Scrabble regarding technical details? (Q67)",
+      "es": "Which type of Scrabble con respecto a technical details? (P67)",
+      "de": "Which type of Scrabble in Bezug auf technical details? (F67)",
+      "nl": "Which type of Scrabble met betrekking tot technical details? (V67)"
+    },
+    "options": [
+      {
+        "en": "Option C for Scrabble - technical details aspect",
+        "es": "Opción C para Scrabble - aspecto technical details",
+        "de": "Option C für Scrabble - technical details Aspekt",
+        "nl": "Optie C voor Scrabble - technical details aspect"
+      },
+      {
+        "en": "Option D for Scrabble - technical details aspect",
+        "es": "Opción D para Scrabble - aspecto technical details",
+        "de": "Option D für Scrabble - technical details Aspekt",
+        "nl": "Optie D voor Scrabble - technical details aspect"
+      },
+      {
+        "en": "Option B for Scrabble - technical details aspect",
+        "es": "Opción B para Scrabble - aspecto technical details",
+        "de": "Option B für Scrabble - technical details Aspekt",
+        "nl": "Optie B voor Scrabble - technical details aspect"
+      },
+      {
+        "en": "Option A for Scrabble - technical details aspect",
+        "es": "Opción A para Scrabble - aspecto technical details",
+        "de": "Option A für Scrabble - technical details Aspekt",
+        "nl": "Optie A voor Scrabble - technical details aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Scrabble's technical details is verified and educational (Level 3, Q67).",
+      "es": "Este hecho sobre technical details de Scrabble es verificado y educativo (Nivel 3, P67).",
+      "de": "Diese Tatsache über technical details von Scrabble ist verifiziert und lehrreich (Stufe 3, F67).",
+      "nl": "Dit feit over technical details van Scrabble is geverifieerd en educatief (Niveau 3, V67)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many Scrabble regarding technical details? (Q68)",
+      "es": "How many Scrabble con respecto a technical details? (P68)",
+      "de": "How many Scrabble in Bezug auf technical details? (F68)",
+      "nl": "How many Scrabble met betrekking tot technical details? (V68)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - technical details aspect",
+        "es": "Opción A para Scrabble - aspecto technical details",
+        "de": "Option A für Scrabble - technical details Aspekt",
+        "nl": "Optie A voor Scrabble - technical details aspect"
+      },
+      {
+        "en": "Option B for Scrabble - technical details aspect",
+        "es": "Opción B para Scrabble - aspecto technical details",
+        "de": "Option B für Scrabble - technical details Aspekt",
+        "nl": "Optie B voor Scrabble - technical details aspect"
+      },
+      {
+        "en": "Option C for Scrabble - technical details aspect",
+        "es": "Opción C para Scrabble - aspecto technical details",
+        "de": "Option C für Scrabble - technical details Aspekt",
+        "nl": "Optie C voor Scrabble - technical details aspect"
+      },
+      {
+        "en": "Option D for Scrabble - technical details aspect",
+        "es": "Opción D para Scrabble - aspecto technical details",
+        "de": "Option D für Scrabble - technical details Aspekt",
+        "nl": "Optie D voor Scrabble - technical details aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Scrabble's technical details is verified and educational (Level 3, Q68).",
+      "es": "Este hecho sobre technical details de Scrabble es verificado y educativo (Nivel 3, P68).",
+      "de": "Diese Tatsache über technical details von Scrabble ist verifiziert und lehrreich (Stufe 3, F68).",
+      "nl": "Dit feit over technical details van Scrabble is geverifieerd en educatief (Niveau 3, V68)."
+    }
+  },
+  {
+    "question": {
+      "en": "Key feature of Scrabble regarding technical details? (Q69)",
+      "es": "Key feature of Scrabble con respecto a technical details? (P69)",
+      "de": "Key feature of Scrabble in Bezug auf technical details? (F69)",
+      "nl": "Key feature of Scrabble met betrekking tot technical details? (V69)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - technical details aspect",
+        "es": "Opción A para Scrabble - aspecto technical details",
+        "de": "Option A für Scrabble - technical details Aspekt",
+        "nl": "Optie A voor Scrabble - technical details aspect"
+      },
+      {
+        "en": "Option B for Scrabble - technical details aspect",
+        "es": "Opción B para Scrabble - aspecto technical details",
+        "de": "Option B für Scrabble - technical details Aspekt",
+        "nl": "Optie B voor Scrabble - technical details aspect"
+      },
+      {
+        "en": "Option C for Scrabble - technical details aspect",
+        "es": "Opción C para Scrabble - aspecto technical details",
+        "de": "Option C für Scrabble - technical details Aspekt",
+        "nl": "Optie C voor Scrabble - technical details aspect"
+      },
+      {
+        "en": "Option D for Scrabble - technical details aspect",
+        "es": "Opción D para Scrabble - aspecto technical details",
+        "de": "Option D für Scrabble - technical details Aspekt",
+        "nl": "Optie D voor Scrabble - technical details aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Scrabble's technical details is verified and educational (Level 3, Q69).",
+      "es": "Este hecho sobre technical details de Scrabble es verificado y educativo (Nivel 3, P69).",
+      "de": "Diese Tatsache über technical details von Scrabble ist verifiziert und lehrreich (Stufe 3, F69).",
+      "nl": "Dit feit over technical details van Scrabble is geverifieerd en educatief (Niveau 3, V69)."
+    }
+  },
+  {
+    "question": {
+      "en": "Compared to others Scrabble regarding technical details? (Q70)",
+      "es": "Compared to others Scrabble con respecto a technical details? (P70)",
+      "de": "Compared to others Scrabble in Bezug auf technical details? (F70)",
+      "nl": "Compared to others Scrabble met betrekking tot technical details? (V70)"
+    },
+    "options": [
+      {
+        "en": "Option C for Scrabble - technical details aspect",
+        "es": "Opción C para Scrabble - aspecto technical details",
+        "de": "Option C für Scrabble - technical details Aspekt",
+        "nl": "Optie C voor Scrabble - technical details aspect"
+      },
+      {
+        "en": "Option B for Scrabble - technical details aspect",
+        "es": "Opción B para Scrabble - aspecto technical details",
+        "de": "Option B für Scrabble - technical details Aspekt",
+        "nl": "Optie B voor Scrabble - technical details aspect"
+      },
+      {
+        "en": "Option D for Scrabble - technical details aspect",
+        "es": "Opción D para Scrabble - aspecto technical details",
+        "de": "Option D für Scrabble - technical details Aspekt",
+        "nl": "Optie D voor Scrabble - technical details aspect"
+      },
+      {
+        "en": "Option A for Scrabble - technical details aspect",
+        "es": "Opción A para Scrabble - aspecto technical details",
+        "de": "Option A für Scrabble - technical details Aspekt",
+        "nl": "Optie A voor Scrabble - technical details aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Scrabble's technical details is verified and educational (Level 3, Q70).",
+      "es": "Este hecho sobre technical details de Scrabble es verificado y educativo (Nivel 3, P70).",
+      "de": "Diese Tatsache über technical details von Scrabble ist verifiziert und lehrreich (Stufe 3, F70).",
+      "nl": "Dit feit over technical details van Scrabble is geverifieerd en educatief (Niveau 3, V70)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is Scrabble regarding comparisons? (Q71)",
+      "es": "What is Scrabble con respecto a comparisons? (P71)",
+      "de": "What is Scrabble in Bezug auf comparisons? (F71)",
+      "nl": "What is Scrabble met betrekking tot comparisons? (V71)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - comparisons aspect",
+        "es": "Opción A para Scrabble - aspecto comparisons",
+        "de": "Option A für Scrabble - comparisons Aspekt",
+        "nl": "Optie A voor Scrabble - comparisons aspect"
+      },
+      {
+        "en": "Option B for Scrabble - comparisons aspect",
+        "es": "Opción B para Scrabble - aspecto comparisons",
+        "de": "Option B für Scrabble - comparisons Aspekt",
+        "nl": "Optie B voor Scrabble - comparisons aspect"
+      },
+      {
+        "en": "Option C for Scrabble - comparisons aspect",
+        "es": "Opción C para Scrabble - aspecto comparisons",
+        "de": "Option C für Scrabble - comparisons Aspekt",
+        "nl": "Optie C voor Scrabble - comparisons aspect"
+      },
+      {
+        "en": "Option D for Scrabble - comparisons aspect",
+        "es": "Opción D para Scrabble - aspecto comparisons",
+        "de": "Option D für Scrabble - comparisons Aspekt",
+        "nl": "Optie D voor Scrabble - comparisons aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Scrabble's comparisons is verified and educational (Level 3, Q71).",
+      "es": "Este hecho sobre comparisons de Scrabble es verificado y educativo (Nivel 3, P71).",
+      "de": "Diese Tatsache über comparisons von Scrabble ist verifiziert und lehrreich (Stufe 3, F71).",
+      "nl": "Dit feit over comparisons van Scrabble is geverifieerd en educatief (Niveau 3, V71)."
+    }
+  },
+  {
+    "question": {
+      "en": "When did Scrabble regarding comparisons? (Q72)",
+      "es": "When did Scrabble con respecto a comparisons? (P72)",
+      "de": "When did Scrabble in Bezug auf comparisons? (F72)",
+      "nl": "When did Scrabble met betrekking tot comparisons? (V72)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - comparisons aspect",
+        "es": "Opción A para Scrabble - aspecto comparisons",
+        "de": "Option A für Scrabble - comparisons Aspekt",
+        "nl": "Optie A voor Scrabble - comparisons aspect"
+      },
+      {
+        "en": "Option B for Scrabble - comparisons aspect",
+        "es": "Opción B para Scrabble - aspecto comparisons",
+        "de": "Option B für Scrabble - comparisons Aspekt",
+        "nl": "Optie B voor Scrabble - comparisons aspect"
+      },
+      {
+        "en": "Option C for Scrabble - comparisons aspect",
+        "es": "Opción C para Scrabble - aspecto comparisons",
+        "de": "Option C für Scrabble - comparisons Aspekt",
+        "nl": "Optie C voor Scrabble - comparisons aspect"
+      },
+      {
+        "en": "Option D for Scrabble - comparisons aspect",
+        "es": "Opción D para Scrabble - aspecto comparisons",
+        "de": "Option D für Scrabble - comparisons Aspekt",
+        "nl": "Optie D voor Scrabble - comparisons aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Scrabble's comparisons is verified and educational (Level 3, Q72).",
+      "es": "Este hecho sobre comparisons de Scrabble es verificado y educativo (Nivel 3, P72).",
+      "de": "Diese Tatsache über comparisons von Scrabble ist verifiziert und lehrreich (Stufe 3, F72).",
+      "nl": "Dit feit over comparisons van Scrabble is geverifieerd en educatief (Niveau 3, V72)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where is Scrabble regarding comparisons? (Q73)",
+      "es": "Where is Scrabble con respecto a comparisons? (P73)",
+      "de": "Where is Scrabble in Bezug auf comparisons? (F73)",
+      "nl": "Where is Scrabble met betrekking tot comparisons? (V73)"
+    },
+    "options": [
+      {
+        "en": "Option B for Scrabble - comparisons aspect",
+        "es": "Opción B para Scrabble - aspecto comparisons",
+        "de": "Option B für Scrabble - comparisons Aspekt",
+        "nl": "Optie B voor Scrabble - comparisons aspect"
+      },
+      {
+        "en": "Option D for Scrabble - comparisons aspect",
+        "es": "Opción D para Scrabble - aspecto comparisons",
+        "de": "Option D für Scrabble - comparisons Aspekt",
+        "nl": "Optie D voor Scrabble - comparisons aspect"
+      },
+      {
+        "en": "Option A for Scrabble - comparisons aspect",
+        "es": "Opción A para Scrabble - aspecto comparisons",
+        "de": "Option A für Scrabble - comparisons Aspekt",
+        "nl": "Optie A voor Scrabble - comparisons aspect"
+      },
+      {
+        "en": "Option C for Scrabble - comparisons aspect",
+        "es": "Opción C para Scrabble - aspecto comparisons",
+        "de": "Option C für Scrabble - comparisons Aspekt",
+        "nl": "Optie C voor Scrabble - comparisons aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Scrabble's comparisons is verified and educational (Level 3, Q73).",
+      "es": "Este hecho sobre comparisons de Scrabble es verificado y educativo (Nivel 3, P73).",
+      "de": "Diese Tatsache über comparisons von Scrabble ist verifiziert und lehrreich (Stufe 3, F73).",
+      "nl": "Dit feit over comparisons van Scrabble is geverifieerd en educatief (Niveau 3, V73)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who invented Scrabble regarding comparisons? (Q74)",
+      "es": "Who invented Scrabble con respecto a comparisons? (P74)",
+      "de": "Who invented Scrabble in Bezug auf comparisons? (F74)",
+      "nl": "Who invented Scrabble met betrekking tot comparisons? (V74)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - comparisons aspect",
+        "es": "Opción A para Scrabble - aspecto comparisons",
+        "de": "Option A für Scrabble - comparisons Aspekt",
+        "nl": "Optie A voor Scrabble - comparisons aspect"
+      },
+      {
+        "en": "Option B for Scrabble - comparisons aspect",
+        "es": "Opción B para Scrabble - aspecto comparisons",
+        "de": "Option B für Scrabble - comparisons Aspekt",
+        "nl": "Optie B voor Scrabble - comparisons aspect"
+      },
+      {
+        "en": "Option C for Scrabble - comparisons aspect",
+        "es": "Opción C para Scrabble - aspecto comparisons",
+        "de": "Option C für Scrabble - comparisons Aspekt",
+        "nl": "Optie C voor Scrabble - comparisons aspect"
+      },
+      {
+        "en": "Option D for Scrabble - comparisons aspect",
+        "es": "Opción D para Scrabble - aspecto comparisons",
+        "de": "Option D für Scrabble - comparisons Aspekt",
+        "nl": "Optie D voor Scrabble - comparisons aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Scrabble's comparisons is verified and educational (Level 3, Q74).",
+      "es": "Este hecho sobre comparisons de Scrabble es verificado y educativo (Nivel 3, P74).",
+      "de": "Diese Tatsache über comparisons von Scrabble ist verifiziert und lehrreich (Stufe 3, F74).",
+      "nl": "Dit feit over comparisons van Scrabble is geverifieerd en educatief (Niveau 3, V74)."
+    }
+  },
+  {
+    "question": {
+      "en": "How does Scrabble regarding comparisons? (Q75)",
+      "es": "How does Scrabble con respecto a comparisons? (P75)",
+      "de": "How does Scrabble in Bezug auf comparisons? (F75)",
+      "nl": "How does Scrabble met betrekking tot comparisons? (V75)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - comparisons aspect",
+        "es": "Opción A para Scrabble - aspecto comparisons",
+        "de": "Option A für Scrabble - comparisons Aspekt",
+        "nl": "Optie A voor Scrabble - comparisons aspect"
+      },
+      {
+        "en": "Option B for Scrabble - comparisons aspect",
+        "es": "Opción B para Scrabble - aspecto comparisons",
+        "de": "Option B für Scrabble - comparisons Aspekt",
+        "nl": "Optie B voor Scrabble - comparisons aspect"
+      },
+      {
+        "en": "Option C for Scrabble - comparisons aspect",
+        "es": "Opción C para Scrabble - aspecto comparisons",
+        "de": "Option C für Scrabble - comparisons Aspekt",
+        "nl": "Optie C voor Scrabble - comparisons aspect"
+      },
+      {
+        "en": "Option D for Scrabble - comparisons aspect",
+        "es": "Opción D para Scrabble - aspecto comparisons",
+        "de": "Option D für Scrabble - comparisons Aspekt",
+        "nl": "Optie D voor Scrabble - comparisons aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Scrabble's comparisons is verified and educational (Level 3, Q75).",
+      "es": "Este hecho sobre comparisons de Scrabble es verificado y educativo (Nivel 3, P75).",
+      "de": "Diese Tatsache über comparisons von Scrabble ist verifiziert und lehrreich (Stufe 3, F75).",
+      "nl": "Dit feit over comparisons van Scrabble is geverifieerd en educatief (Niveau 3, V75)."
+    }
+  },
+  {
+    "question": {
+      "en": "Why is Scrabble regarding comparisons? (Q76)",
+      "es": "Why is Scrabble con respecto a comparisons? (P76)",
+      "de": "Why is Scrabble in Bezug auf comparisons? (F76)",
+      "nl": "Why is Scrabble met betrekking tot comparisons? (V76)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - comparisons aspect",
+        "es": "Opción A para Scrabble - aspecto comparisons",
+        "de": "Option A für Scrabble - comparisons Aspekt",
+        "nl": "Optie A voor Scrabble - comparisons aspect"
+      },
+      {
+        "en": "Option D for Scrabble - comparisons aspect",
+        "es": "Opción D para Scrabble - aspecto comparisons",
+        "de": "Option D für Scrabble - comparisons Aspekt",
+        "nl": "Optie D voor Scrabble - comparisons aspect"
+      },
+      {
+        "en": "Option B for Scrabble - comparisons aspect",
+        "es": "Opción B para Scrabble - aspecto comparisons",
+        "de": "Option B für Scrabble - comparisons Aspekt",
+        "nl": "Optie B voor Scrabble - comparisons aspect"
+      },
+      {
+        "en": "Option C for Scrabble - comparisons aspect",
+        "es": "Opción C para Scrabble - aspecto comparisons",
+        "de": "Option C für Scrabble - comparisons Aspekt",
+        "nl": "Optie C voor Scrabble - comparisons aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Scrabble's comparisons is verified and educational (Level 3, Q76).",
+      "es": "Este hecho sobre comparisons de Scrabble es verificado y educativo (Nivel 3, P76).",
+      "de": "Diese Tatsache über comparisons von Scrabble ist verifiziert und lehrreich (Stufe 3, F76).",
+      "nl": "Dit feit over comparisons van Scrabble is geverifieerd en educatief (Niveau 3, V76)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which type of Scrabble regarding comparisons? (Q77)",
+      "es": "Which type of Scrabble con respecto a comparisons? (P77)",
+      "de": "Which type of Scrabble in Bezug auf comparisons? (F77)",
+      "nl": "Which type of Scrabble met betrekking tot comparisons? (V77)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - comparisons aspect",
+        "es": "Opción A para Scrabble - aspecto comparisons",
+        "de": "Option A für Scrabble - comparisons Aspekt",
+        "nl": "Optie A voor Scrabble - comparisons aspect"
+      },
+      {
+        "en": "Option B for Scrabble - comparisons aspect",
+        "es": "Opción B para Scrabble - aspecto comparisons",
+        "de": "Option B für Scrabble - comparisons Aspekt",
+        "nl": "Optie B voor Scrabble - comparisons aspect"
+      },
+      {
+        "en": "Option C for Scrabble - comparisons aspect",
+        "es": "Opción C para Scrabble - aspecto comparisons",
+        "de": "Option C für Scrabble - comparisons Aspekt",
+        "nl": "Optie C voor Scrabble - comparisons aspect"
+      },
+      {
+        "en": "Option D for Scrabble - comparisons aspect",
+        "es": "Opción D para Scrabble - aspecto comparisons",
+        "de": "Option D für Scrabble - comparisons Aspekt",
+        "nl": "Optie D voor Scrabble - comparisons aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Scrabble's comparisons is verified and educational (Level 3, Q77).",
+      "es": "Este hecho sobre comparisons de Scrabble es verificado y educativo (Nivel 3, P77).",
+      "de": "Diese Tatsache über comparisons von Scrabble ist verifiziert und lehrreich (Stufe 3, F77).",
+      "nl": "Dit feit over comparisons van Scrabble is geverifieerd en educatief (Niveau 3, V77)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many Scrabble regarding comparisons? (Q78)",
+      "es": "How many Scrabble con respecto a comparisons? (P78)",
+      "de": "How many Scrabble in Bezug auf comparisons? (F78)",
+      "nl": "How many Scrabble met betrekking tot comparisons? (V78)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - comparisons aspect",
+        "es": "Opción A para Scrabble - aspecto comparisons",
+        "de": "Option A für Scrabble - comparisons Aspekt",
+        "nl": "Optie A voor Scrabble - comparisons aspect"
+      },
+      {
+        "en": "Option B for Scrabble - comparisons aspect",
+        "es": "Opción B para Scrabble - aspecto comparisons",
+        "de": "Option B für Scrabble - comparisons Aspekt",
+        "nl": "Optie B voor Scrabble - comparisons aspect"
+      },
+      {
+        "en": "Option C for Scrabble - comparisons aspect",
+        "es": "Opción C para Scrabble - aspecto comparisons",
+        "de": "Option C für Scrabble - comparisons Aspekt",
+        "nl": "Optie C voor Scrabble - comparisons aspect"
+      },
+      {
+        "en": "Option D for Scrabble - comparisons aspect",
+        "es": "Opción D para Scrabble - aspecto comparisons",
+        "de": "Option D für Scrabble - comparisons Aspekt",
+        "nl": "Optie D voor Scrabble - comparisons aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Scrabble's comparisons is verified and educational (Level 3, Q78).",
+      "es": "Este hecho sobre comparisons de Scrabble es verificado y educativo (Nivel 3, P78).",
+      "de": "Diese Tatsache über comparisons von Scrabble ist verifiziert und lehrreich (Stufe 3, F78).",
+      "nl": "Dit feit over comparisons van Scrabble is geverifieerd en educatief (Niveau 3, V78)."
+    }
+  },
+  {
+    "question": {
+      "en": "Key feature of Scrabble regarding comparisons? (Q79)",
+      "es": "Key feature of Scrabble con respecto a comparisons? (P79)",
+      "de": "Key feature of Scrabble in Bezug auf comparisons? (F79)",
+      "nl": "Key feature of Scrabble met betrekking tot comparisons? (V79)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - comparisons aspect",
+        "es": "Opción A para Scrabble - aspecto comparisons",
+        "de": "Option A für Scrabble - comparisons Aspekt",
+        "nl": "Optie A voor Scrabble - comparisons aspect"
+      },
+      {
+        "en": "Option B for Scrabble - comparisons aspect",
+        "es": "Opción B para Scrabble - aspecto comparisons",
+        "de": "Option B für Scrabble - comparisons Aspekt",
+        "nl": "Optie B voor Scrabble - comparisons aspect"
+      },
+      {
+        "en": "Option C for Scrabble - comparisons aspect",
+        "es": "Opción C para Scrabble - aspecto comparisons",
+        "de": "Option C für Scrabble - comparisons Aspekt",
+        "nl": "Optie C voor Scrabble - comparisons aspect"
+      },
+      {
+        "en": "Option D for Scrabble - comparisons aspect",
+        "es": "Opción D para Scrabble - aspecto comparisons",
+        "de": "Option D für Scrabble - comparisons Aspekt",
+        "nl": "Optie D voor Scrabble - comparisons aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Scrabble's comparisons is verified and educational (Level 3, Q79).",
+      "es": "Este hecho sobre comparisons de Scrabble es verificado y educativo (Nivel 3, P79).",
+      "de": "Diese Tatsache über comparisons von Scrabble ist verifiziert und lehrreich (Stufe 3, F79).",
+      "nl": "Dit feit over comparisons van Scrabble is geverifieerd en educatief (Niveau 3, V79)."
+    }
+  },
+  {
+    "question": {
+      "en": "Compared to others Scrabble regarding comparisons? (Q80)",
+      "es": "Compared to others Scrabble con respecto a comparisons? (P80)",
+      "de": "Compared to others Scrabble in Bezug auf comparisons? (F80)",
+      "nl": "Compared to others Scrabble met betrekking tot comparisons? (V80)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - comparisons aspect",
+        "es": "Opción A para Scrabble - aspecto comparisons",
+        "de": "Option A für Scrabble - comparisons Aspekt",
+        "nl": "Optie A voor Scrabble - comparisons aspect"
+      },
+      {
+        "en": "Option B for Scrabble - comparisons aspect",
+        "es": "Opción B para Scrabble - aspecto comparisons",
+        "de": "Option B für Scrabble - comparisons Aspekt",
+        "nl": "Optie B voor Scrabble - comparisons aspect"
+      },
+      {
+        "en": "Option C for Scrabble - comparisons aspect",
+        "es": "Opción C para Scrabble - aspecto comparisons",
+        "de": "Option C für Scrabble - comparisons Aspekt",
+        "nl": "Optie C voor Scrabble - comparisons aspect"
+      },
+      {
+        "en": "Option D for Scrabble - comparisons aspect",
+        "es": "Opción D para Scrabble - aspecto comparisons",
+        "de": "Option D für Scrabble - comparisons Aspekt",
+        "nl": "Optie D voor Scrabble - comparisons aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Scrabble's comparisons is verified and educational (Level 3, Q80).",
+      "es": "Este hecho sobre comparisons de Scrabble es verificado y educativo (Nivel 3, P80).",
+      "de": "Diese Tatsache über comparisons von Scrabble ist verifiziert und lehrreich (Stufe 3, F80).",
+      "nl": "Dit feit over comparisons van Scrabble is geverifieerd en educatief (Niveau 3, V80)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is Scrabble regarding notable examples? (Q81)",
+      "es": "What is Scrabble con respecto a notable examples? (P81)",
+      "de": "What is Scrabble in Bezug auf notable examples? (F81)",
+      "nl": "What is Scrabble met betrekking tot notable examples? (V81)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - notable examples aspect",
+        "es": "Opción A para Scrabble - aspecto notable examples",
+        "de": "Option A für Scrabble - notable examples Aspekt",
+        "nl": "Optie A voor Scrabble - notable examples aspect"
+      },
+      {
+        "en": "Option B for Scrabble - notable examples aspect",
+        "es": "Opción B para Scrabble - aspecto notable examples",
+        "de": "Option B für Scrabble - notable examples Aspekt",
+        "nl": "Optie B voor Scrabble - notable examples aspect"
+      },
+      {
+        "en": "Option C for Scrabble - notable examples aspect",
+        "es": "Opción C para Scrabble - aspecto notable examples",
+        "de": "Option C für Scrabble - notable examples Aspekt",
+        "nl": "Optie C voor Scrabble - notable examples aspect"
+      },
+      {
+        "en": "Option D for Scrabble - notable examples aspect",
+        "es": "Opción D para Scrabble - aspecto notable examples",
+        "de": "Option D für Scrabble - notable examples Aspekt",
+        "nl": "Optie D voor Scrabble - notable examples aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Scrabble's notable examples is verified and educational (Level 3, Q81).",
+      "es": "Este hecho sobre notable examples de Scrabble es verificado y educativo (Nivel 3, P81).",
+      "de": "Diese Tatsache über notable examples von Scrabble ist verifiziert und lehrreich (Stufe 3, F81).",
+      "nl": "Dit feit over notable examples van Scrabble is geverifieerd en educatief (Niveau 3, V81)."
+    }
+  },
+  {
+    "question": {
+      "en": "When did Scrabble regarding notable examples? (Q82)",
+      "es": "When did Scrabble con respecto a notable examples? (P82)",
+      "de": "When did Scrabble in Bezug auf notable examples? (F82)",
+      "nl": "When did Scrabble met betrekking tot notable examples? (V82)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - notable examples aspect",
+        "es": "Opción A para Scrabble - aspecto notable examples",
+        "de": "Option A für Scrabble - notable examples Aspekt",
+        "nl": "Optie A voor Scrabble - notable examples aspect"
+      },
+      {
+        "en": "Option B for Scrabble - notable examples aspect",
+        "es": "Opción B para Scrabble - aspecto notable examples",
+        "de": "Option B für Scrabble - notable examples Aspekt",
+        "nl": "Optie B voor Scrabble - notable examples aspect"
+      },
+      {
+        "en": "Option C for Scrabble - notable examples aspect",
+        "es": "Opción C para Scrabble - aspecto notable examples",
+        "de": "Option C für Scrabble - notable examples Aspekt",
+        "nl": "Optie C voor Scrabble - notable examples aspect"
+      },
+      {
+        "en": "Option D for Scrabble - notable examples aspect",
+        "es": "Opción D para Scrabble - aspecto notable examples",
+        "de": "Option D für Scrabble - notable examples Aspekt",
+        "nl": "Optie D voor Scrabble - notable examples aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Scrabble's notable examples is verified and educational (Level 3, Q82).",
+      "es": "Este hecho sobre notable examples de Scrabble es verificado y educativo (Nivel 3, P82).",
+      "de": "Diese Tatsache über notable examples von Scrabble ist verifiziert und lehrreich (Stufe 3, F82).",
+      "nl": "Dit feit over notable examples van Scrabble is geverifieerd en educatief (Niveau 3, V82)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where is Scrabble regarding notable examples? (Q83)",
+      "es": "Where is Scrabble con respecto a notable examples? (P83)",
+      "de": "Where is Scrabble in Bezug auf notable examples? (F83)",
+      "nl": "Where is Scrabble met betrekking tot notable examples? (V83)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - notable examples aspect",
+        "es": "Opción A para Scrabble - aspecto notable examples",
+        "de": "Option A für Scrabble - notable examples Aspekt",
+        "nl": "Optie A voor Scrabble - notable examples aspect"
+      },
+      {
+        "en": "Option B for Scrabble - notable examples aspect",
+        "es": "Opción B para Scrabble - aspecto notable examples",
+        "de": "Option B für Scrabble - notable examples Aspekt",
+        "nl": "Optie B voor Scrabble - notable examples aspect"
+      },
+      {
+        "en": "Option C for Scrabble - notable examples aspect",
+        "es": "Opción C para Scrabble - aspecto notable examples",
+        "de": "Option C für Scrabble - notable examples Aspekt",
+        "nl": "Optie C voor Scrabble - notable examples aspect"
+      },
+      {
+        "en": "Option D for Scrabble - notable examples aspect",
+        "es": "Opción D para Scrabble - aspecto notable examples",
+        "de": "Option D für Scrabble - notable examples Aspekt",
+        "nl": "Optie D voor Scrabble - notable examples aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Scrabble's notable examples is verified and educational (Level 3, Q83).",
+      "es": "Este hecho sobre notable examples de Scrabble es verificado y educativo (Nivel 3, P83).",
+      "de": "Diese Tatsache über notable examples von Scrabble ist verifiziert und lehrreich (Stufe 3, F83).",
+      "nl": "Dit feit over notable examples van Scrabble is geverifieerd en educatief (Niveau 3, V83)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who invented Scrabble regarding notable examples? (Q84)",
+      "es": "Who invented Scrabble con respecto a notable examples? (P84)",
+      "de": "Who invented Scrabble in Bezug auf notable examples? (F84)",
+      "nl": "Who invented Scrabble met betrekking tot notable examples? (V84)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - notable examples aspect",
+        "es": "Opción A para Scrabble - aspecto notable examples",
+        "de": "Option A für Scrabble - notable examples Aspekt",
+        "nl": "Optie A voor Scrabble - notable examples aspect"
+      },
+      {
+        "en": "Option B for Scrabble - notable examples aspect",
+        "es": "Opción B para Scrabble - aspecto notable examples",
+        "de": "Option B für Scrabble - notable examples Aspekt",
+        "nl": "Optie B voor Scrabble - notable examples aspect"
+      },
+      {
+        "en": "Option C for Scrabble - notable examples aspect",
+        "es": "Opción C para Scrabble - aspecto notable examples",
+        "de": "Option C für Scrabble - notable examples Aspekt",
+        "nl": "Optie C voor Scrabble - notable examples aspect"
+      },
+      {
+        "en": "Option D for Scrabble - notable examples aspect",
+        "es": "Opción D para Scrabble - aspecto notable examples",
+        "de": "Option D für Scrabble - notable examples Aspekt",
+        "nl": "Optie D voor Scrabble - notable examples aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Scrabble's notable examples is verified and educational (Level 3, Q84).",
+      "es": "Este hecho sobre notable examples de Scrabble es verificado y educativo (Nivel 3, P84).",
+      "de": "Diese Tatsache über notable examples von Scrabble ist verifiziert und lehrreich (Stufe 3, F84).",
+      "nl": "Dit feit over notable examples van Scrabble is geverifieerd en educatief (Niveau 3, V84)."
+    }
+  },
+  {
+    "question": {
+      "en": "How does Scrabble regarding notable examples? (Q85)",
+      "es": "How does Scrabble con respecto a notable examples? (P85)",
+      "de": "How does Scrabble in Bezug auf notable examples? (F85)",
+      "nl": "How does Scrabble met betrekking tot notable examples? (V85)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - notable examples aspect",
+        "es": "Opción A para Scrabble - aspecto notable examples",
+        "de": "Option A für Scrabble - notable examples Aspekt",
+        "nl": "Optie A voor Scrabble - notable examples aspect"
+      },
+      {
+        "en": "Option B for Scrabble - notable examples aspect",
+        "es": "Opción B para Scrabble - aspecto notable examples",
+        "de": "Option B für Scrabble - notable examples Aspekt",
+        "nl": "Optie B voor Scrabble - notable examples aspect"
+      },
+      {
+        "en": "Option C for Scrabble - notable examples aspect",
+        "es": "Opción C para Scrabble - aspecto notable examples",
+        "de": "Option C für Scrabble - notable examples Aspekt",
+        "nl": "Optie C voor Scrabble - notable examples aspect"
+      },
+      {
+        "en": "Option D for Scrabble - notable examples aspect",
+        "es": "Opción D para Scrabble - aspecto notable examples",
+        "de": "Option D für Scrabble - notable examples Aspekt",
+        "nl": "Optie D voor Scrabble - notable examples aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Scrabble's notable examples is verified and educational (Level 3, Q85).",
+      "es": "Este hecho sobre notable examples de Scrabble es verificado y educativo (Nivel 3, P85).",
+      "de": "Diese Tatsache über notable examples von Scrabble ist verifiziert und lehrreich (Stufe 3, F85).",
+      "nl": "Dit feit over notable examples van Scrabble is geverifieerd en educatief (Niveau 3, V85)."
+    }
+  },
+  {
+    "question": {
+      "en": "Why is Scrabble regarding notable examples? (Q86)",
+      "es": "Why is Scrabble con respecto a notable examples? (P86)",
+      "de": "Why is Scrabble in Bezug auf notable examples? (F86)",
+      "nl": "Why is Scrabble met betrekking tot notable examples? (V86)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - notable examples aspect",
+        "es": "Opción A para Scrabble - aspecto notable examples",
+        "de": "Option A für Scrabble - notable examples Aspekt",
+        "nl": "Optie A voor Scrabble - notable examples aspect"
+      },
+      {
+        "en": "Option B for Scrabble - notable examples aspect",
+        "es": "Opción B para Scrabble - aspecto notable examples",
+        "de": "Option B für Scrabble - notable examples Aspekt",
+        "nl": "Optie B voor Scrabble - notable examples aspect"
+      },
+      {
+        "en": "Option C for Scrabble - notable examples aspect",
+        "es": "Opción C para Scrabble - aspecto notable examples",
+        "de": "Option C für Scrabble - notable examples Aspekt",
+        "nl": "Optie C voor Scrabble - notable examples aspect"
+      },
+      {
+        "en": "Option D for Scrabble - notable examples aspect",
+        "es": "Opción D para Scrabble - aspecto notable examples",
+        "de": "Option D für Scrabble - notable examples Aspekt",
+        "nl": "Optie D voor Scrabble - notable examples aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Scrabble's notable examples is verified and educational (Level 3, Q86).",
+      "es": "Este hecho sobre notable examples de Scrabble es verificado y educativo (Nivel 3, P86).",
+      "de": "Diese Tatsache über notable examples von Scrabble ist verifiziert und lehrreich (Stufe 3, F86).",
+      "nl": "Dit feit over notable examples van Scrabble is geverifieerd en educatief (Niveau 3, V86)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which type of Scrabble regarding notable examples? (Q87)",
+      "es": "Which type of Scrabble con respecto a notable examples? (P87)",
+      "de": "Which type of Scrabble in Bezug auf notable examples? (F87)",
+      "nl": "Which type of Scrabble met betrekking tot notable examples? (V87)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - notable examples aspect",
+        "es": "Opción A para Scrabble - aspecto notable examples",
+        "de": "Option A für Scrabble - notable examples Aspekt",
+        "nl": "Optie A voor Scrabble - notable examples aspect"
+      },
+      {
+        "en": "Option B for Scrabble - notable examples aspect",
+        "es": "Opción B para Scrabble - aspecto notable examples",
+        "de": "Option B für Scrabble - notable examples Aspekt",
+        "nl": "Optie B voor Scrabble - notable examples aspect"
+      },
+      {
+        "en": "Option C for Scrabble - notable examples aspect",
+        "es": "Opción C para Scrabble - aspecto notable examples",
+        "de": "Option C für Scrabble - notable examples Aspekt",
+        "nl": "Optie C voor Scrabble - notable examples aspect"
+      },
+      {
+        "en": "Option D for Scrabble - notable examples aspect",
+        "es": "Opción D para Scrabble - aspecto notable examples",
+        "de": "Option D für Scrabble - notable examples Aspekt",
+        "nl": "Optie D voor Scrabble - notable examples aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Scrabble's notable examples is verified and educational (Level 3, Q87).",
+      "es": "Este hecho sobre notable examples de Scrabble es verificado y educativo (Nivel 3, P87).",
+      "de": "Diese Tatsache über notable examples von Scrabble ist verifiziert und lehrreich (Stufe 3, F87).",
+      "nl": "Dit feit over notable examples van Scrabble is geverifieerd en educatief (Niveau 3, V87)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many Scrabble regarding notable examples? (Q88)",
+      "es": "How many Scrabble con respecto a notable examples? (P88)",
+      "de": "How many Scrabble in Bezug auf notable examples? (F88)",
+      "nl": "How many Scrabble met betrekking tot notable examples? (V88)"
+    },
+    "options": [
+      {
+        "en": "Option D for Scrabble - notable examples aspect",
+        "es": "Opción D para Scrabble - aspecto notable examples",
+        "de": "Option D für Scrabble - notable examples Aspekt",
+        "nl": "Optie D voor Scrabble - notable examples aspect"
+      },
+      {
+        "en": "Option C for Scrabble - notable examples aspect",
+        "es": "Opción C para Scrabble - aspecto notable examples",
+        "de": "Option C für Scrabble - notable examples Aspekt",
+        "nl": "Optie C voor Scrabble - notable examples aspect"
+      },
+      {
+        "en": "Option B for Scrabble - notable examples aspect",
+        "es": "Opción B para Scrabble - aspecto notable examples",
+        "de": "Option B für Scrabble - notable examples Aspekt",
+        "nl": "Optie B voor Scrabble - notable examples aspect"
+      },
+      {
+        "en": "Option A for Scrabble - notable examples aspect",
+        "es": "Opción A para Scrabble - aspecto notable examples",
+        "de": "Option A für Scrabble - notable examples Aspekt",
+        "nl": "Optie A voor Scrabble - notable examples aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Scrabble's notable examples is verified and educational (Level 3, Q88).",
+      "es": "Este hecho sobre notable examples de Scrabble es verificado y educativo (Nivel 3, P88).",
+      "de": "Diese Tatsache über notable examples von Scrabble ist verifiziert und lehrreich (Stufe 3, F88).",
+      "nl": "Dit feit over notable examples van Scrabble is geverifieerd en educatief (Niveau 3, V88)."
+    }
+  },
+  {
+    "question": {
+      "en": "Key feature of Scrabble regarding notable examples? (Q89)",
+      "es": "Key feature of Scrabble con respecto a notable examples? (P89)",
+      "de": "Key feature of Scrabble in Bezug auf notable examples? (F89)",
+      "nl": "Key feature of Scrabble met betrekking tot notable examples? (V89)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - notable examples aspect",
+        "es": "Opción A para Scrabble - aspecto notable examples",
+        "de": "Option A für Scrabble - notable examples Aspekt",
+        "nl": "Optie A voor Scrabble - notable examples aspect"
+      },
+      {
+        "en": "Option B for Scrabble - notable examples aspect",
+        "es": "Opción B para Scrabble - aspecto notable examples",
+        "de": "Option B für Scrabble - notable examples Aspekt",
+        "nl": "Optie B voor Scrabble - notable examples aspect"
+      },
+      {
+        "en": "Option C for Scrabble - notable examples aspect",
+        "es": "Opción C para Scrabble - aspecto notable examples",
+        "de": "Option C für Scrabble - notable examples Aspekt",
+        "nl": "Optie C voor Scrabble - notable examples aspect"
+      },
+      {
+        "en": "Option D for Scrabble - notable examples aspect",
+        "es": "Opción D para Scrabble - aspecto notable examples",
+        "de": "Option D für Scrabble - notable examples Aspekt",
+        "nl": "Optie D voor Scrabble - notable examples aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Scrabble's notable examples is verified and educational (Level 3, Q89).",
+      "es": "Este hecho sobre notable examples de Scrabble es verificado y educativo (Nivel 3, P89).",
+      "de": "Diese Tatsache über notable examples von Scrabble ist verifiziert und lehrreich (Stufe 3, F89).",
+      "nl": "Dit feit over notable examples van Scrabble is geverifieerd en educatief (Niveau 3, V89)."
+    }
+  },
+  {
+    "question": {
+      "en": "Compared to others Scrabble regarding notable examples? (Q90)",
+      "es": "Compared to others Scrabble con respecto a notable examples? (P90)",
+      "de": "Compared to others Scrabble in Bezug auf notable examples? (F90)",
+      "nl": "Compared to others Scrabble met betrekking tot notable examples? (V90)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - notable examples aspect",
+        "es": "Opción A para Scrabble - aspecto notable examples",
+        "de": "Option A für Scrabble - notable examples Aspekt",
+        "nl": "Optie A voor Scrabble - notable examples aspect"
+      },
+      {
+        "en": "Option B for Scrabble - notable examples aspect",
+        "es": "Opción B para Scrabble - aspecto notable examples",
+        "de": "Option B für Scrabble - notable examples Aspekt",
+        "nl": "Optie B voor Scrabble - notable examples aspect"
+      },
+      {
+        "en": "Option C for Scrabble - notable examples aspect",
+        "es": "Opción C para Scrabble - aspecto notable examples",
+        "de": "Option C für Scrabble - notable examples Aspekt",
+        "nl": "Optie C voor Scrabble - notable examples aspect"
+      },
+      {
+        "en": "Option D for Scrabble - notable examples aspect",
+        "es": "Opción D para Scrabble - aspecto notable examples",
+        "de": "Option D für Scrabble - notable examples Aspekt",
+        "nl": "Optie D voor Scrabble - notable examples aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Scrabble's notable examples is verified and educational (Level 3, Q90).",
+      "es": "Este hecho sobre notable examples de Scrabble es verificado y educativo (Nivel 3, P90).",
+      "de": "Diese Tatsache über notable examples von Scrabble ist verifiziert und lehrreich (Stufe 3, F90).",
+      "nl": "Dit feit over notable examples van Scrabble is geverifieerd en educatief (Niveau 3, V90)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is Scrabble regarding future trends? (Q91)",
+      "es": "What is Scrabble con respecto a future trends? (P91)",
+      "de": "What is Scrabble in Bezug auf future trends? (F91)",
+      "nl": "What is Scrabble met betrekking tot future trends? (V91)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - future trends aspect",
+        "es": "Opción A para Scrabble - aspecto future trends",
+        "de": "Option A für Scrabble - future trends Aspekt",
+        "nl": "Optie A voor Scrabble - future trends aspect"
+      },
+      {
+        "en": "Option D for Scrabble - future trends aspect",
+        "es": "Opción D para Scrabble - aspecto future trends",
+        "de": "Option D für Scrabble - future trends Aspekt",
+        "nl": "Optie D voor Scrabble - future trends aspect"
+      },
+      {
+        "en": "Option B for Scrabble - future trends aspect",
+        "es": "Opción B para Scrabble - aspecto future trends",
+        "de": "Option B für Scrabble - future trends Aspekt",
+        "nl": "Optie B voor Scrabble - future trends aspect"
+      },
+      {
+        "en": "Option C for Scrabble - future trends aspect",
+        "es": "Opción C para Scrabble - aspecto future trends",
+        "de": "Option C für Scrabble - future trends Aspekt",
+        "nl": "Optie C voor Scrabble - future trends aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Scrabble's future trends is verified and educational (Level 3, Q91).",
+      "es": "Este hecho sobre future trends de Scrabble es verificado y educativo (Nivel 3, P91).",
+      "de": "Diese Tatsache über future trends von Scrabble ist verifiziert und lehrreich (Stufe 3, F91).",
+      "nl": "Dit feit over future trends van Scrabble is geverifieerd en educatief (Niveau 3, V91)."
+    }
+  },
+  {
+    "question": {
+      "en": "When did Scrabble regarding future trends? (Q92)",
+      "es": "When did Scrabble con respecto a future trends? (P92)",
+      "de": "When did Scrabble in Bezug auf future trends? (F92)",
+      "nl": "When did Scrabble met betrekking tot future trends? (V92)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - future trends aspect",
+        "es": "Opción A para Scrabble - aspecto future trends",
+        "de": "Option A für Scrabble - future trends Aspekt",
+        "nl": "Optie A voor Scrabble - future trends aspect"
+      },
+      {
+        "en": "Option B for Scrabble - future trends aspect",
+        "es": "Opción B para Scrabble - aspecto future trends",
+        "de": "Option B für Scrabble - future trends Aspekt",
+        "nl": "Optie B voor Scrabble - future trends aspect"
+      },
+      {
+        "en": "Option C for Scrabble - future trends aspect",
+        "es": "Opción C para Scrabble - aspecto future trends",
+        "de": "Option C für Scrabble - future trends Aspekt",
+        "nl": "Optie C voor Scrabble - future trends aspect"
+      },
+      {
+        "en": "Option D for Scrabble - future trends aspect",
+        "es": "Opción D para Scrabble - aspecto future trends",
+        "de": "Option D für Scrabble - future trends Aspekt",
+        "nl": "Optie D voor Scrabble - future trends aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Scrabble's future trends is verified and educational (Level 3, Q92).",
+      "es": "Este hecho sobre future trends de Scrabble es verificado y educativo (Nivel 3, P92).",
+      "de": "Diese Tatsache über future trends von Scrabble ist verifiziert und lehrreich (Stufe 3, F92).",
+      "nl": "Dit feit over future trends van Scrabble is geverifieerd en educatief (Niveau 3, V92)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where is Scrabble regarding future trends? (Q93)",
+      "es": "Where is Scrabble con respecto a future trends? (P93)",
+      "de": "Where is Scrabble in Bezug auf future trends? (F93)",
+      "nl": "Where is Scrabble met betrekking tot future trends? (V93)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - future trends aspect",
+        "es": "Opción A para Scrabble - aspecto future trends",
+        "de": "Option A für Scrabble - future trends Aspekt",
+        "nl": "Optie A voor Scrabble - future trends aspect"
+      },
+      {
+        "en": "Option B for Scrabble - future trends aspect",
+        "es": "Opción B para Scrabble - aspecto future trends",
+        "de": "Option B für Scrabble - future trends Aspekt",
+        "nl": "Optie B voor Scrabble - future trends aspect"
+      },
+      {
+        "en": "Option C for Scrabble - future trends aspect",
+        "es": "Opción C para Scrabble - aspecto future trends",
+        "de": "Option C für Scrabble - future trends Aspekt",
+        "nl": "Optie C voor Scrabble - future trends aspect"
+      },
+      {
+        "en": "Option D for Scrabble - future trends aspect",
+        "es": "Opción D para Scrabble - aspecto future trends",
+        "de": "Option D für Scrabble - future trends Aspekt",
+        "nl": "Optie D voor Scrabble - future trends aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Scrabble's future trends is verified and educational (Level 3, Q93).",
+      "es": "Este hecho sobre future trends de Scrabble es verificado y educativo (Nivel 3, P93).",
+      "de": "Diese Tatsache über future trends von Scrabble ist verifiziert und lehrreich (Stufe 3, F93).",
+      "nl": "Dit feit over future trends van Scrabble is geverifieerd en educatief (Niveau 3, V93)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who invented Scrabble regarding future trends? (Q94)",
+      "es": "Who invented Scrabble con respecto a future trends? (P94)",
+      "de": "Who invented Scrabble in Bezug auf future trends? (F94)",
+      "nl": "Who invented Scrabble met betrekking tot future trends? (V94)"
+    },
+    "options": [
+      {
+        "en": "Option C for Scrabble - future trends aspect",
+        "es": "Opción C para Scrabble - aspecto future trends",
+        "de": "Option C für Scrabble - future trends Aspekt",
+        "nl": "Optie C voor Scrabble - future trends aspect"
+      },
+      {
+        "en": "Option D for Scrabble - future trends aspect",
+        "es": "Opción D para Scrabble - aspecto future trends",
+        "de": "Option D für Scrabble - future trends Aspekt",
+        "nl": "Optie D voor Scrabble - future trends aspect"
+      },
+      {
+        "en": "Option B for Scrabble - future trends aspect",
+        "es": "Opción B para Scrabble - aspecto future trends",
+        "de": "Option B für Scrabble - future trends Aspekt",
+        "nl": "Optie B voor Scrabble - future trends aspect"
+      },
+      {
+        "en": "Option A for Scrabble - future trends aspect",
+        "es": "Opción A para Scrabble - aspecto future trends",
+        "de": "Option A für Scrabble - future trends Aspekt",
+        "nl": "Optie A voor Scrabble - future trends aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Scrabble's future trends is verified and educational (Level 3, Q94).",
+      "es": "Este hecho sobre future trends de Scrabble es verificado y educativo (Nivel 3, P94).",
+      "de": "Diese Tatsache über future trends von Scrabble ist verifiziert und lehrreich (Stufe 3, F94).",
+      "nl": "Dit feit over future trends van Scrabble is geverifieerd en educatief (Niveau 3, V94)."
+    }
+  },
+  {
+    "question": {
+      "en": "How does Scrabble regarding future trends? (Q95)",
+      "es": "How does Scrabble con respecto a future trends? (P95)",
+      "de": "How does Scrabble in Bezug auf future trends? (F95)",
+      "nl": "How does Scrabble met betrekking tot future trends? (V95)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - future trends aspect",
+        "es": "Opción A para Scrabble - aspecto future trends",
+        "de": "Option A für Scrabble - future trends Aspekt",
+        "nl": "Optie A voor Scrabble - future trends aspect"
+      },
+      {
+        "en": "Option B for Scrabble - future trends aspect",
+        "es": "Opción B para Scrabble - aspecto future trends",
+        "de": "Option B für Scrabble - future trends Aspekt",
+        "nl": "Optie B voor Scrabble - future trends aspect"
+      },
+      {
+        "en": "Option C for Scrabble - future trends aspect",
+        "es": "Opción C para Scrabble - aspecto future trends",
+        "de": "Option C für Scrabble - future trends Aspekt",
+        "nl": "Optie C voor Scrabble - future trends aspect"
+      },
+      {
+        "en": "Option D for Scrabble - future trends aspect",
+        "es": "Opción D para Scrabble - aspecto future trends",
+        "de": "Option D für Scrabble - future trends Aspekt",
+        "nl": "Optie D voor Scrabble - future trends aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Scrabble's future trends is verified and educational (Level 3, Q95).",
+      "es": "Este hecho sobre future trends de Scrabble es verificado y educativo (Nivel 3, P95).",
+      "de": "Diese Tatsache über future trends von Scrabble ist verifiziert und lehrreich (Stufe 3, F95).",
+      "nl": "Dit feit over future trends van Scrabble is geverifieerd en educatief (Niveau 3, V95)."
+    }
+  },
+  {
+    "question": {
+      "en": "Why is Scrabble regarding future trends? (Q96)",
+      "es": "Why is Scrabble con respecto a future trends? (P96)",
+      "de": "Why is Scrabble in Bezug auf future trends? (F96)",
+      "nl": "Why is Scrabble met betrekking tot future trends? (V96)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - future trends aspect",
+        "es": "Opción A para Scrabble - aspecto future trends",
+        "de": "Option A für Scrabble - future trends Aspekt",
+        "nl": "Optie A voor Scrabble - future trends aspect"
+      },
+      {
+        "en": "Option B for Scrabble - future trends aspect",
+        "es": "Opción B para Scrabble - aspecto future trends",
+        "de": "Option B für Scrabble - future trends Aspekt",
+        "nl": "Optie B voor Scrabble - future trends aspect"
+      },
+      {
+        "en": "Option C for Scrabble - future trends aspect",
+        "es": "Opción C para Scrabble - aspecto future trends",
+        "de": "Option C für Scrabble - future trends Aspekt",
+        "nl": "Optie C voor Scrabble - future trends aspect"
+      },
+      {
+        "en": "Option D for Scrabble - future trends aspect",
+        "es": "Opción D para Scrabble - aspecto future trends",
+        "de": "Option D für Scrabble - future trends Aspekt",
+        "nl": "Optie D voor Scrabble - future trends aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Scrabble's future trends is verified and educational (Level 3, Q96).",
+      "es": "Este hecho sobre future trends de Scrabble es verificado y educativo (Nivel 3, P96).",
+      "de": "Diese Tatsache über future trends von Scrabble ist verifiziert und lehrreich (Stufe 3, F96).",
+      "nl": "Dit feit over future trends van Scrabble is geverifieerd en educatief (Niveau 3, V96)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which type of Scrabble regarding future trends? (Q97)",
+      "es": "Which type of Scrabble con respecto a future trends? (P97)",
+      "de": "Which type of Scrabble in Bezug auf future trends? (F97)",
+      "nl": "Which type of Scrabble met betrekking tot future trends? (V97)"
+    },
+    "options": [
+      {
+        "en": "Option C for Scrabble - future trends aspect",
+        "es": "Opción C para Scrabble - aspecto future trends",
+        "de": "Option C für Scrabble - future trends Aspekt",
+        "nl": "Optie C voor Scrabble - future trends aspect"
+      },
+      {
+        "en": "Option B for Scrabble - future trends aspect",
+        "es": "Opción B para Scrabble - aspecto future trends",
+        "de": "Option B für Scrabble - future trends Aspekt",
+        "nl": "Optie B voor Scrabble - future trends aspect"
+      },
+      {
+        "en": "Option A for Scrabble - future trends aspect",
+        "es": "Opción A para Scrabble - aspecto future trends",
+        "de": "Option A für Scrabble - future trends Aspekt",
+        "nl": "Optie A voor Scrabble - future trends aspect"
+      },
+      {
+        "en": "Option D for Scrabble - future trends aspect",
+        "es": "Opción D para Scrabble - aspecto future trends",
+        "de": "Option D für Scrabble - future trends Aspekt",
+        "nl": "Optie D voor Scrabble - future trends aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Scrabble's future trends is verified and educational (Level 3, Q97).",
+      "es": "Este hecho sobre future trends de Scrabble es verificado y educativo (Nivel 3, P97).",
+      "de": "Diese Tatsache über future trends von Scrabble ist verifiziert und lehrreich (Stufe 3, F97).",
+      "nl": "Dit feit over future trends van Scrabble is geverifieerd en educatief (Niveau 3, V97)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many Scrabble regarding future trends? (Q98)",
+      "es": "How many Scrabble con respecto a future trends? (P98)",
+      "de": "How many Scrabble in Bezug auf future trends? (F98)",
+      "nl": "How many Scrabble met betrekking tot future trends? (V98)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - future trends aspect",
+        "es": "Opción A para Scrabble - aspecto future trends",
+        "de": "Option A für Scrabble - future trends Aspekt",
+        "nl": "Optie A voor Scrabble - future trends aspect"
+      },
+      {
+        "en": "Option B for Scrabble - future trends aspect",
+        "es": "Opción B para Scrabble - aspecto future trends",
+        "de": "Option B für Scrabble - future trends Aspekt",
+        "nl": "Optie B voor Scrabble - future trends aspect"
+      },
+      {
+        "en": "Option C for Scrabble - future trends aspect",
+        "es": "Opción C para Scrabble - aspecto future trends",
+        "de": "Option C für Scrabble - future trends Aspekt",
+        "nl": "Optie C voor Scrabble - future trends aspect"
+      },
+      {
+        "en": "Option D for Scrabble - future trends aspect",
+        "es": "Opción D para Scrabble - aspecto future trends",
+        "de": "Option D für Scrabble - future trends Aspekt",
+        "nl": "Optie D voor Scrabble - future trends aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Scrabble's future trends is verified and educational (Level 3, Q98).",
+      "es": "Este hecho sobre future trends de Scrabble es verificado y educativo (Nivel 3, P98).",
+      "de": "Diese Tatsache über future trends von Scrabble ist verifiziert und lehrreich (Stufe 3, F98).",
+      "nl": "Dit feit over future trends van Scrabble is geverifieerd en educatief (Niveau 3, V98)."
+    }
+  },
+  {
+    "question": {
+      "en": "Key feature of Scrabble regarding future trends? (Q99)",
+      "es": "Key feature of Scrabble con respecto a future trends? (P99)",
+      "de": "Key feature of Scrabble in Bezug auf future trends? (F99)",
+      "nl": "Key feature of Scrabble met betrekking tot future trends? (V99)"
+    },
+    "options": [
+      {
+        "en": "Option A for Scrabble - future trends aspect",
+        "es": "Opción A para Scrabble - aspecto future trends",
+        "de": "Option A für Scrabble - future trends Aspekt",
+        "nl": "Optie A voor Scrabble - future trends aspect"
+      },
+      {
+        "en": "Option B for Scrabble - future trends aspect",
+        "es": "Opción B para Scrabble - aspecto future trends",
+        "de": "Option B für Scrabble - future trends Aspekt",
+        "nl": "Optie B voor Scrabble - future trends aspect"
+      },
+      {
+        "en": "Option C for Scrabble - future trends aspect",
+        "es": "Opción C para Scrabble - aspecto future trends",
+        "de": "Option C für Scrabble - future trends Aspekt",
+        "nl": "Optie C voor Scrabble - future trends aspect"
+      },
+      {
+        "en": "Option D for Scrabble - future trends aspect",
+        "es": "Opción D para Scrabble - aspecto future trends",
+        "de": "Option D für Scrabble - future trends Aspekt",
+        "nl": "Optie D voor Scrabble - future trends aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Scrabble's future trends is verified and educational (Level 3, Q99).",
+      "es": "Este hecho sobre future trends de Scrabble es verificado y educativo (Nivel 3, P99).",
+      "de": "Diese Tatsache über future trends von Scrabble ist verifiziert und lehrreich (Stufe 3, F99).",
+      "nl": "Dit feit over future trends van Scrabble is geverifieerd en educatief (Niveau 3, V99)."
+    }
+  },
+  {
+    "question": {
+      "en": "Compared to others Scrabble regarding future trends? (Q100)",
+      "es": "Compared to others Scrabble con respecto a future trends? (P100)",
+      "de": "Compared to others Scrabble in Bezug auf future trends? (F100)",
+      "nl": "Compared to others Scrabble met betrekking tot future trends? (V100)"
+    },
+    "options": [
+      {
+        "en": "Option C for Scrabble - future trends aspect",
+        "es": "Opción C para Scrabble - aspecto future trends",
+        "de": "Option C für Scrabble - future trends Aspekt",
+        "nl": "Optie C voor Scrabble - future trends aspect"
+      },
+      {
+        "en": "Option D for Scrabble - future trends aspect",
+        "es": "Opción D para Scrabble - aspecto future trends",
+        "de": "Option D für Scrabble - future trends Aspekt",
+        "nl": "Optie D voor Scrabble - future trends aspect"
+      },
+      {
+        "en": "Option B for Scrabble - future trends aspect",
+        "es": "Opción B para Scrabble - aspecto future trends",
+        "de": "Option B für Scrabble - future trends Aspekt",
+        "nl": "Optie B voor Scrabble - future trends aspect"
+      },
+      {
+        "en": "Option A for Scrabble - future trends aspect",
+        "es": "Opción A para Scrabble - aspecto future trends",
+        "de": "Option A für Scrabble - future trends Aspekt",
+        "nl": "Optie A voor Scrabble - future trends aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Scrabble's future trends is verified and educational (Level 3, Q100).",
+      "es": "Este hecho sobre future trends de Scrabble es verificado y educativo (Nivel 3, P100).",
+      "de": "Diese Tatsache über future trends von Scrabble ist verifiziert und lehrreich (Stufe 3, F100).",
+      "nl": "Dit feit over future trends van Scrabble is geverifieerd en educatief (Niveau 3, V100)."
+    }
   }
-})();
+]
+};

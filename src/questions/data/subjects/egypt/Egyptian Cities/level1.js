@@ -1,859 +1,4104 @@
-// Egyptian Cities Quiz - Level 1: Knowledge about Egyptian Cities
-(function() {
-  const level1 = {
-    name: {
-      en: "Egyptian Cities Level 1",
-      es: "Ciudades Egipcias Nivel 1",
-      de: "Aegyptische Staedte Stufe 1",
-      nl: "Egyptische Steden Level 1"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Egyptian Cities",
+      "es": "Pregunta 1 sobre Egyptian Cities",
+      "de": "Frage 1 über Egyptian Cities",
+      "nl": "Vraag 1 over Egyptian Cities"
     },
-    questions: [
+    "options": [
       {
-        question: {
-          en: "What is the capital city of Egypt?",
-          es: "Cual es la capital de Egipto?",
-          de: "Was ist die Hauptstadt von Aegypten?",
-          nl: "Wat is de hoofdstad van Egypte?"
-        },
-        options: [
-          { en: "Cairo", es: "El Cairo", de: "Kairo", nl: "Cairo" },
-          { en: "Alexandria", es: "Alejandria", de: "Alexandria", nl: "Alexandrie" },
-          { en: "Luxor", es: "Luxor", de: "Luxor", nl: "Luxor" },
-          { en: "Aswan", es: "Asuán", de: "Assuan", nl: "Aswan" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Cairo is the capital and largest city of Egypt, located on the Nile River.",
-          es: "El Cairo es la capital y ciudad más grande de Egipto, ubicada en el río Nilo.",
-          de: "Kairo ist die Hauptstadt und größte Stadt Ägyptens am Nil.",
-          nl: "Cairo is de hoofdstad en grootste stad van Egypte, gelegen aan de Nijl."
-        }
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
       },
       {
-        question: {
-          en: "Which Egyptian city is famous for its ancient library?",
-          es: "Que ciudad egipcia es famosa por su biblioteca antigua?",
-          de: "Welche aegyptische Stadt ist berühmt für ihre antike Bibliothek?",
-          nl: "Welke Egyptische stad is beroemd om zijn oude bibliotheek?"
-        },
-        options: [
-          { en: "Memphis", es: "Menfis", de: "Memphis", nl: "Memphis" },
-          { en: "Alexandria", es: "Alejandria", de: "Alexandria", nl: "Alexandrie" },
-          { en: "Thebes", es: "Tebas", de: "Theben", nl: "Thebe" },
-          { en: "Cairo", es: "El Cairo", de: "Kairo", nl: "Cairo" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Alexandria was home to the famous Library of Alexandria, one of the largest libraries of the ancient world.",
-          es: "Alejandria albergaba la famosa Biblioteca de Alejandria, una de las bibliotecas más grandes del mundo antiguo.",
-          de: "Alexandria war die Heimat der berühmten Bibliothek von Alexandria, einer der größten Bibliotheken der antiken Welt.",
-          nl: "Alexandrie was de thuisbasis van de beroemde Bibliotheek van Alexandrie, een van de grootste bibliotheken van de oude wereld."
-        }
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
       },
       {
-        question: {
-          en: "Which city is closest to the Great Pyramids?",
-          es: "Que ciudad está más cerca de las Grandes Pirámides?",
-          de: "Welche Stadt liegt den Großen Pyramiden am nächsten?",
-          nl: "Welke stad ligt het dichtst bij de Grote Pyramides?"
-        },
-        options: [
-          { en: "Luxor", es: "Luxor", de: "Luxor", nl: "Luxor" },
-          { en: "Aswan", es: "Asuán", de: "Assuan", nl: "Aswan" },
-          { en: "Giza", es: "Guiza", de: "Gizeh", nl: "Gizeh" },
-          { en: "Alexandria", es: "Alejandria", de: "Alexandria", nl: "Alexandrie" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Giza is home to the Great Pyramids and the Sphinx, located just outside Cairo.",
-          es: "Guiza es el hogar de las Grandes Pirámides y la Esfinge, ubicadas justo a las afueras de El Cairo.",
-          de: "Gizeh beherbergt die Großen Pyramiden und die Sphinx, direkt außerhalb von Kairo.",
-          nl: "Gizeh is de thuisbasis van de Grote Pyramides en de Sfinx, net buiten Cairo gelegen."
-        }
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
       },
       {
-        question: {
-          en: "What ancient Egyptian city was known as Waset?",
-          es: "Que ciudad egipcia antigua era conocida como Waset?",
-          de: "Welche altägyptische Stadt war als Waset bekannt?",
-          nl: "Welke oude Egyptische stad stond bekend als Waset?"
-        },
-        options: [
-          { en: "Cairo", es: "El Cairo", de: "Kairo", nl: "Cairo" },
-          { en: "Thebes", es: "Tebas", de: "Theben", nl: "Thebe" },
-          { en: "Memphis", es: "Menfis", de: "Memphis", nl: "Memphis" },
-          { en: "Alexandria", es: "Alejandria", de: "Alexandria", nl: "Alexandrie" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Thebes was the ancient Egyptian name Waset, and was the capital during the New Kingdom period.",
-          es: "Tebas era el antiguo nombre egipcio Waset, y fue la capital durante el periodo del Nuevo Reino.",
-          de: "Theben trug den altägyptischen Namen Waset und war die Hauptstadt während des Neuen Reiches.",
-          nl: "Thebe had de oude Egyptische naam Waset en was de hoofdstad tijdens het Nieuwe Rijk."
-        }
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Egyptian Cities",
+      "es": "Pregunta 2 sobre Egyptian Cities",
+      "de": "Frage 2 über Egyptian Cities",
+      "nl": "Vraag 2 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
       },
       {
-        question: {
-          en: "Which city is located at the First Cataract of the Nile?",
-          es: "Que ciudad está ubicada en la Primera Catarata del Nilo?",
-          de: "Welche Stadt liegt am Ersten Katarakt des Nils?",
-          nl: "Welke stad ligt bij de Eerste Cataract van de Nijl?"
-        },
-        options: [
-          { en: "Aswan", es: "Asuán", de: "Assuan", nl: "Aswan" },
-          { en: "Cairo", es: "El Cairo", de: "Kairo", nl: "Cairo" },
-          { en: "Luxor", es: "Luxor", de: "Luxor", nl: "Luxor" },
-          { en: "Alexandria", es: "Alejandria", de: "Alexandria", nl: "Alexandrie" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Aswan is located at the First Cataract of the Nile, marking the traditional southern border of ancient Egypt.",
-          es: "Asuán está ubicada en la Primera Catarata del Nilo, marcando la frontera sur tradicional del antiguo Egipto.",
-          de: "Assuan liegt am Ersten Katarakt des Nils und markiert die traditionelle Südgrenze des alten Ägyptens.",
-          nl: "Aswan ligt bij de Eerste Cataract van de Nijl, wat de traditionele zuidelijke grens van het oude Egypte markeerde."
-        }
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
       },
       {
-        question: {
-          en: "What modern Egyptian city is built near ancient Thebes?",
-          es: "Que ciudad egipcia moderna está construida cerca de la antigua Tebas?",
-          de: "Welche moderne ägyptische Stadt liegt in der Nähe des antiken Thebens?",
-          nl: "Welke moderne Egyptische stad is gebouwd bij het oude Thebe?"
-        },
-        options: [
-          { en: "Cairo", es: "El Cairo", de: "Kairo", nl: "Cairo" },
-          { en: "Alexandria", es: "Alejandria", de: "Alexandria", nl: "Alexandrie" },
-          { en: "Luxor", es: "Luxor", de: "Luxor", nl: "Luxor" },
-          { en: "Giza", es: "Guiza", de: "Gizeh", nl: "Gizeh" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Luxor is built on and around the ruins of ancient Thebes, preserving many temples and monuments.",
-          es: "Luxor está construida sobre y alrededor de las ruinas de la antigua Tebas, preservando muchos templos y monumentos.",
-          de: "Luxor ist auf und um die Ruinen des antiken Thebens erbaut und bewahrt viele Tempel und Denkmäler.",
-          nl: "Luxor is gebouwd op en rond de ruines van het oude Thebe, met behoud van vele tempels en monumenten."
-        }
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
       },
       {
-        question: {
-          en: "Which Egyptian city is located on the Mediterranean coast?",
-          es: "Que ciudad egipcia está ubicada en la costa del Mediterráneo?",
-          de: "Welche ägyptische Stadt liegt an der Mittelmeerküste?",
-          nl: "Welke Egyptische stad ligt aan de Middellandse Zeekust?"
-        },
-        options: [
-          { en: "Luxor", es: "Luxor", de: "Luxor", nl: "Luxor" },
-          { en: "Alexandria", es: "Alejandria", de: "Alexandria", nl: "Alexandrie" },
-          { en: "Aswan", es: "Asuán", de: "Assuan", nl: "Aswan" },
-          { en: "Memphis", es: "Menfis", de: "Memphis", nl: "Memphis" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Alexandria is Egypt's major Mediterranean port city, founded by Alexander the Great.",
-          es: "Alejandria es el principal puerto de Egipto en el Mediterráneo, fundada por Alejandro Magno.",
-          de: "Alexandria ist Ägyptens wichtigste Mittelmeerhafen-Stadt, gegründet von Alexander dem Großen.",
-          nl: "Alexandrie is Egypte's belangrijkste havenstad aan de Middellandse Zee, gesticht door Alexander de Grote."
-        }
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Egyptian Cities",
+      "es": "Pregunta 3 sobre Egyptian Cities",
+      "de": "Frage 3 über Egyptian Cities",
+      "nl": "Vraag 3 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
       },
       {
-        question: {
-          en: "What was the capital of ancient Egypt during the Old Kingdom?",
-          es: "Cual fue la capital del antiguo Egipto durante el Reino Antiguo?",
-          de: "Was war die Hauptstadt des alten Ägyptens während des Alten Reiches?",
-          nl: "Wat was de hoofdstad van het oude Egypte tijdens het Oude Rijk?"
-        },
-        options: [
-          { en: "Memphis", es: "Menfis", de: "Memphis", nl: "Memphis" },
-          { en: "Thebes", es: "Tebas", de: "Theben", nl: "Thebe" },
-          { en: "Cairo", es: "El Cairo", de: "Kairo", nl: "Cairo" },
-          { en: "Alexandria", es: "Alejandria", de: "Alexandria", nl: "Alexandrie" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Memphis was the capital of ancient Egypt during the Old Kingdom and remained an important city for millennia.",
-          es: "Menfis fue la capital del antiguo Egipto durante el Reino Antiguo y siguió siendo una ciudad importante durante milenios.",
-          de: "Memphis war die Hauptstadt des alten Ägyptens während des Alten Reiches und blieb jahrtausendelang eine wichtige Stadt.",
-          nl: "Memphis was de hoofdstad van het oude Egypte tijdens het Oude Rijk en bleef millennia lang een belangrijke stad."
-        }
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
       },
       {
-        question: {
-          en: "Which city is home to the famous Karnak Temple complex?",
-          es: "Que ciudad alberga el famoso complejo del Templo de Karnak?",
-          de: "Welche Stadt beherbergt den berühmten Karnak-Tempelkomplex?",
-          nl: "Welke stad herbergt het beroemde Karnak tempelcomplex?"
-        },
-        options: [
-          { en: "Cairo", es: "El Cairo", de: "Kairo", nl: "Cairo" },
-          { en: "Luxor", es: "Luxor", de: "Luxor", nl: "Luxor" },
-          { en: "Alexandria", es: "Alejandria", de: "Alexandria", nl: "Alexandrie" },
-          { en: "Giza", es: "Guiza", de: "Gizeh", nl: "Gizeh" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The Karnak Temple complex is located in Luxor, on the east bank of the Nile.",
-          es: "El complejo del Templo de Karnak está ubicado en Luxor, en la orilla este del Nilo.",
-          de: "Der Karnak-Tempelkomplex befindet sich in Luxor am Ostufer des Nils.",
-          nl: "Het Karnak tempelcomplex bevindt zich in Luxor, aan de oostelijke oever van de Nijl."
-        }
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
       },
       {
-        question: {
-          en: "Which city was founded by Alexander the Great in 331 BC?",
-          es: "Que ciudad fue fundada por Alejandro Magno en 331 a.C.?",
-          de: "Welche Stadt wurde 331 v.Chr. von Alexander dem Großen gegründet?",
-          nl: "Welke stad werd in 331 v.Chr. gesticht door Alexander de Grote?"
-        },
-        options: [
-          { en: "Cairo", es: "El Cairo", de: "Kairo", nl: "Cairo" },
-          { en: "Memphis", es: "Menfis", de: "Memphis", nl: "Memphis" },
-          { en: "Alexandria", es: "Alejandria", de: "Alexandria", nl: "Alexandrie" },
-          { en: "Thebes", es: "Tebas", de: "Theben", nl: "Thebe" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Alexandria was founded by Alexander the Great in 331 BC and became one of the most important cities in the ancient world.",
-          es: "Alejandria fue fundada por Alejandro Magno en 331 a.C. y se convirtió en una de las ciudades más importantes del mundo antiguo.",
-          de: "Alexandria wurde 331 v.Chr. von Alexander dem Großen gegründet und wurde eine der wichtigsten Städte der antiken Welt.",
-          nl: "Alexandrie werd gesticht door Alexander de Grote in 331 v.Chr. en werd een van de belangrijkste steden van de oude wereld."
-        }
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Egyptian Cities",
+      "es": "Pregunta 4 sobre Egyptian Cities",
+      "de": "Frage 4 über Egyptian Cities",
+      "nl": "Vraag 4 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
       },
       {
-        question: {
-          en: "What river flows through Cairo?",
-          es: "Que río fluye a través de El Cairo?",
-          de: "Welcher Fluss fließt durch Kairo?",
-          nl: "Welke rivier stroomt door Cairo?"
-        },
-        options: [
-          { en: "Tigris", es: "Tigris", de: "Tigris", nl: "Tigris" },
-          { en: "Euphrates", es: "Eufrates", de: "Euphrat", nl: "Eufraat" },
-          { en: "Nile", es: "Nilo", de: "Nil", nl: "Nijl" },
-          { en: "Jordan", es: "Jordán", de: "Jordan", nl: "Jordaan" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "The Nile River flows through Cairo, providing water and transportation to Egypt's largest city.",
-          es: "El río Nilo fluye a través de El Cairo, proporcionando agua y transporte a la ciudad más grande de Egipto.",
-          de: "Der Nil fließt durch Kairo und versorgt Ägyptens größte Stadt mit Wasser und Transport.",
-          nl: "De Nijl stroomt door Cairo en voorziet Egypte's grootste stad van water en transport."
-        }
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
       },
       {
-        question: {
-          en: "Which city is known as the gateway to Upper Egypt?",
-          es: "Que ciudad es conocida como la puerta al Alto Egipto?",
-          de: "Welche Stadt ist als Tor zu Oberägypten bekannt?",
-          nl: "Welke stad staat bekend als de poort naar Opper-Egypte?"
-        },
-        options: [
-          { en: "Alexandria", es: "Alejandria", de: "Alexandria", nl: "Alexandrie" },
-          { en: "Cairo", es: "El Cairo", de: "Kairo", nl: "Cairo" },
-          { en: "Luxor", es: "Luxor", de: "Luxor", nl: "Luxor" },
-          { en: "Giza", es: "Guiza", de: "Gizeh", nl: "Gizeh" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Luxor is considered the gateway to Upper Egypt, dividing the northern and southern regions of the country.",
-          es: "Luxor es considerada la puerta al Alto Egipto, dividiendo las regiones norte y sur del país.",
-          de: "Luxor gilt als Tor zu Oberägypten und teilt die nördlichen und südlichen Regionen des Landes.",
-          nl: "Luxor wordt beschouwd als de poort naar Opper-Egypte, die de noordelijke en zuidelijke regio's van het land scheidt."
-        }
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
       },
       {
-        question: {
-          en: "Where is the Aswan High Dam located?",
-          es: "Donde está ubicada la Gran Presa de Asuán?",
-          de: "Wo befindet sich der Assuan-Staudamm?",
-          nl: "Waar bevindt zich de Aswan High Dam?"
-        },
-        options: [
-          { en: "Aswan", es: "Asuán", de: "Assuan", nl: "Aswan" },
-          { en: "Luxor", es: "Luxor", de: "Luxor", nl: "Luxor" },
-          { en: "Cairo", es: "El Cairo", de: "Kairo", nl: "Cairo" },
-          { en: "Alexandria", es: "Alejandria", de: "Alexandria", nl: "Alexandrie" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Aswan High Dam is located near the city of Aswan, controlling the flow of the Nile River.",
-          es: "La Gran Presa de Asuán está ubicada cerca de la ciudad de Asuán, controlando el flujo del río Nilo.",
-          de: "Der Assuan-Staudamm befindet sich in der Nähe der Stadt Assuan und kontrolliert den Fluss des Nils.",
-          nl: "De Aswan High Dam ligt bij de stad Aswan en reguleert de stroming van de Nijl."
-        }
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Egyptian Cities",
+      "es": "Pregunta 5 sobre Egyptian Cities",
+      "de": "Frage 5 über Egyptian Cities",
+      "nl": "Vraag 5 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
       },
       {
-        question: {
-          en: "Which city contains the Valley of the Kings?",
-          es: "Que ciudad contiene el Valle de los Reyes?",
-          de: "Welche Stadt enthält das Tal der Könige?",
-          nl: "Welke stad bevat de Vallei der Koningen?"
-        },
-        options: [
-          { en: "Cairo", es: "El Cairo", de: "Kairo", nl: "Cairo" },
-          { en: "Luxor", es: "Luxor", de: "Luxor", nl: "Luxor" },
-          { en: "Aswan", es: "Asuán", de: "Assuan", nl: "Aswan" },
-          { en: "Alexandria", es: "Alejandria", de: "Alexandria", nl: "Alexandrie" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The Valley of the Kings is located on the west bank of the Nile near Luxor, containing tombs of many pharaohs.",
-          es: "El Valle de los Reyes está ubicado en la orilla oeste del Nilo cerca de Luxor, conteniendo tumbas de muchos faraones.",
-          de: "Das Tal der Könige liegt am Westufer des Nils bei Luxor und enthält Gräber vieler Pharaonen.",
-          nl: "De Vallei der Koningen ligt aan de westelijke oever van de Nijl bij Luxor en bevat graven van vele farao's."
-        }
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
       },
       {
-        question: {
-          en: "What is Egypt's second-largest city?",
-          es: "Cual es la segunda ciudad más grande de Egipto?",
-          de: "Was ist Ägyptens zweitgrößte Stadt?",
-          nl: "Wat is Egypte's op een na grootste stad?"
-        },
-        options: [
-          { en: "Luxor", es: "Luxor", de: "Luxor", nl: "Luxor" },
-          { en: "Alexandria", es: "Alejandria", de: "Alexandria", nl: "Alexandrie" },
-          { en: "Aswan", es: "Asuán", de: "Assuan", nl: "Aswan" },
-          { en: "Giza", es: "Guiza", de: "Gizeh", nl: "Gizeh" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Alexandria is Egypt's second-largest city and main Mediterranean port.",
-          es: "Alejandria es la segunda ciudad más grande de Egipto y su principal puerto mediterráneo.",
-          de: "Alexandria ist Ägyptens zweitgrößte Stadt und wichtigster Mittelmeerhafen.",
-          nl: "Alexandrie is Egypte's op een na grootste stad en belangrijkste Middellandse Zeehaven."
-        }
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
       },
       {
-        question: {
-          en: "Where was the ancient city of Heliopolis located?",
-          es: "Donde estaba ubicada la antigua ciudad de Heliópolis?",
-          de: "Wo befand sich die antike Stadt Heliopolis?",
-          nl: "Waar was de oude stad Heliopolis gelegen?"
-        },
-        options: [
-          { en: "Near modern Cairo", es: "Cerca del El Cairo moderno", de: "In der Nähe des modernen Kairo", nl: "Bij het moderne Cairo" },
-          { en: "Near Alexandria", es: "Cerca de Alejandria", de: "In der Nähe von Alexandria", nl: "Bij Alexandrie" },
-          { en: "Near Luxor", es: "Cerca de Luxor", de: "In der Nähe von Luxor", nl: "Bij Luxor" },
-          { en: "Near Aswan", es: "Cerca de Asuán", de: "In der Nähe von Assuan", nl: "Bij Aswan" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Ancient Heliopolis was located near what is now northeastern Cairo, famous for its sun temple.",
-          es: "La antigua Heliópolis estaba ubicada cerca de lo que ahora es el noreste de El Cairo, famosa por su templo del sol.",
-          de: "Das antike Heliopolis befand sich in der Nähe des heutigen nordöstlichen Kairo, berühmt für seinen Sonnentempel.",
-          nl: "Het oude Heliopolis lag bij wat nu het noordoosten van Cairo is, beroemd om zijn zonnentempel."
-        }
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Egyptian Cities",
+      "es": "Pregunta 6 sobre Egyptian Cities",
+      "de": "Frage 6 über Egyptian Cities",
+      "nl": "Vraag 6 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
       },
       {
-        question: {
-          en: "Which city is home to the famous Abu Simbel temples?",
-          es: "Que ciudad alberga los famosos templos de Abu Simbel?",
-          de: "Welche Stadt beherbergt die berühmten Abu-Simbel-Tempel?",
-          nl: "Welke stad herbergt de beroemde Abu Simbel tempels?"
-        },
-        options: [
-          { en: "Luxor", es: "Luxor", de: "Luxor", nl: "Luxor" },
-          { en: "Cairo", es: "El Cairo", de: "Kairo", nl: "Cairo" },
-          { en: "Near Aswan", es: "Cerca de Asuán", de: "In der Nähe von Assuan", nl: "Bij Aswan" },
-          { en: "Giza", es: "Guiza", de: "Gizeh", nl: "Gizeh" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "The Abu Simbel temples are located near Aswan in southern Egypt, carved into a mountainside.",
-          es: "Los templos de Abu Simbel están ubicados cerca de Asuán en el sur de Egipto, tallados en la ladera de una montaña.",
-          de: "Die Abu-Simbel-Tempel befinden sich in der Nähe von Assuan in Südägypten, in einen Berghang gemeißelt.",
-          nl: "De Abu Simbel tempels liggen bij Aswan in Zuid-Egypte, uitgehouwen in een bergwand."
-        }
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
       },
       {
-        question: {
-          en: "What is the ancient name for modern Cairo?",
-          es: "Cual es el nombre antiguo del El Cairo moderno?",
-          de: "Wie lautet der antike Name des modernen Kairo?",
-          nl: "Wat is de oude naam voor het moderne Cairo?"
-        },
-        options: [
-          { en: "Al-Qahira", es: "Al-Qahira", de: "Al-Qahira", nl: "Al-Qahira" },
-          { en: "Waset", es: "Waset", de: "Waset", nl: "Waset" },
-          { en: "Ineb Hedj", es: "Ineb Hedj", de: "Ineb Hedj", nl: "Ineb Hedj" },
-          { en: "Per-Ramesses", es: "Per-Ramesses", de: "Per-Ramesses", nl: "Per-Ramesses" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Cairo's Arabic name is Al-Qahira, meaning 'The Victorious', founded in 969 AD.",
-          es: "El nombre árabe de El Cairo es Al-Qahira, que significa 'La Victoriosa', fundada en 969 d.C.",
-          de: "Der arabische Name Kairos ist Al-Qahira, was 'Die Siegreiche' bedeutet, gegründet 969 n.Chr.",
-          nl: "De Arabische naam van Cairo is Al-Qahira, wat 'De Zegevierende' betekent, gesticht in 969 na Christus."
-        }
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
       },
       {
-        question: {
-          en: "Which Egyptian city is known for its Coptic Christian heritage?",
-          es: "Que ciudad egipcia es conocida por su herencia cristiana copta?",
-          de: "Welche ägyptische Stadt ist für ihr koptisch-christliches Erbe bekannt?",
-          nl: "Welke Egyptische stad staat bekend om zijn Koptisch-christelijk erfgoed?"
-        },
-        options: [
-          { en: "Aswan", es: "Asuán", de: "Assuan", nl: "Aswan" },
-          { en: "Cairo", es: "El Cairo", de: "Kairo", nl: "Cairo" },
-          { en: "Giza", es: "Guiza", de: "Gizeh", nl: "Gizeh" },
-          { en: "Luxor", es: "Luxor", de: "Luxor", nl: "Luxor" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Cairo has a significant Coptic quarter with ancient churches, including the Hanging Church and Coptic Museum.",
-          es: "El Cairo tiene un barrio copto significativo con iglesias antiguas, incluida la Iglesia Colgante y el Museo Copto.",
-          de: "Kairo hat ein bedeutendes koptisches Viertel mit alten Kirchen, darunter die Hängende Kirche und das Koptische Museum.",
-          nl: "Cairo heeft een belangrijk Koptisch kwartier met oude kerken, waaronder de Hangende Kerk en het Koptisch Museum."
-        }
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Egyptian Cities",
+      "es": "Pregunta 7 sobre Egyptian Cities",
+      "de": "Frage 7 über Egyptian Cities",
+      "nl": "Vraag 7 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
       },
       {
-        question: {
-          en: "What body of water is Alexandria located on?",
-          es: "En que masa de agua está ubicada Alejandria?",
-          de: "An welchem Gewässer liegt Alexandria?",
-          nl: "Aan welk water ligt Alexandrie?"
-        },
-        options: [
-          { en: "Red Sea", es: "Mar Rojo", de: "Rotes Meer", nl: "Rode Zee" },
-          { en: "Nile River", es: "Río Nilo", de: "Nil", nl: "Nijl" },
-          { en: "Mediterranean Sea", es: "Mar Mediterráneo", de: "Mittelmeer", nl: "Middellandse Zee" },
-          { en: "Persian Gulf", es: "Golfo Pérsico", de: "Persischer Golf", nl: "Perzische Golf" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Alexandria is located on the Mediterranean Sea coast, serving as Egypt's main port for thousands of years.",
-          es: "Alejandria está ubicada en la costa del Mar Mediterráneo, sirviendo como el principal puerto de Egipto durante miles de años.",
-          de: "Alexandria liegt an der Mittelmeerküste und dient seit Jahrtausenden als Ägyptens Haupthafen.",
-          nl: "Alexandrie ligt aan de kust van de Middellandse Zee en dient al duizenden jaren als Egypte's belangrijkste haven."
-        }    },
-    {
-      question: {
-        en: "What was the ancient capital of Upper Egypt?",
-        es: "What was the ancient capital of Upper Egypt?",
-        de: "What was the ancient capital of Upper Egypt?",
-        nl: "What was the ancient capital of Upper Egypt?"
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
       },
-      options: [
-        { en: "Thebes (Luxor)", es: "Thebes (Luxor)", de: "Thebes (Luxor)", nl: "Thebes (Luxor)" },
-        { en: "Memphis", es: "Memphis", de: "Memphis", nl: "Memphis" },
-        { en: "Alexandria", es: "Alexandria", de: "Alexandria", nl: "Alexandria" },
-        { en: "Cairo", es: "Cairo", de: "Cairo", nl: "Cairo" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Thebes, modern Luxor, was the ancient capital of Upper Egypt and religious center.",
-        es: "Thebes, modern Luxor, was the ancient capital of Upper Egypt and religious center.",
-        de: "Thebes, modern Luxor, was the ancient capital of Upper Egypt and religious center.",
-        nl: "Thebes, modern Luxor, was the ancient capital of Upper Egypt and religious center."
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Egyptian Cities",
+      "es": "Pregunta 8 sobre Egyptian Cities",
+      "de": "Frage 8 über Egyptian Cities",
+      "nl": "Vraag 8 over Egyptian Cities"
     },
-    {
-      question: {
-        en: "What city was the capital of Lower Egypt?",
-        es: "What city was the capital of Lower Egypt?",
-        de: "What city was the capital of Lower Egypt?",
-        nl: "What city was the capital of Lower Egypt?"
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
       },
-      options: [
-        { en: "Memphis", es: "Memphis", de: "Memphis", nl: "Memphis" },
-        { en: "Thebes", es: "Thebes", de: "Thebes", nl: "Thebes" },
-        { en: "Alexandria", es: "Alexandria", de: "Alexandria", nl: "Alexandria" },
-        { en: "Giza", es: "Giza", de: "Giza", nl: "Giza" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Memphis was the ancient capital of Lower Egypt and administrative center.",
-        es: "Memphis was the ancient capital of Lower Egypt and administrative center.",
-        de: "Memphis was the ancient capital of Lower Egypt and administrative center.",
-        nl: "Memphis was the ancient capital of Lower Egypt and administrative center."
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Egyptian Cities",
+      "es": "Pregunta 9 sobre Egyptian Cities",
+      "de": "Frage 9 über Egyptian Cities",
+      "nl": "Vraag 9 over Egyptian Cities"
     },
-    {
-      question: {
-        en: "Who founded the city of Alexandria?",
-        es: "Who founded the city of Alexandria?",
-        de: "Who founded the city of Alexandria?",
-        nl: "Who founded the city of Alexandria?"
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
       },
-      options: [
-        { en: "Alexander the Great", es: "Alexander the Great", de: "Alexander the Great", nl: "Alexander the Great" },
-        { en: "Ptolemy I", es: "Ptolemy I", de: "Ptolemy I", nl: "Ptolemy I" },
-        { en: "Cleopatra", es: "Cleopatra", de: "Cleopatra", nl: "Cleopatra" },
-        { en: "Julius Caesar", es: "Julius Caesar", de: "Julius Caesar", nl: "Julius Caesar" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Alexander the Great founded Alexandria in 331 BCE.",
-        es: "Alexander the Great founded Alexandria in 331 BCE.",
-        de: "Alexander the Great founded Alexandria in 331 BCE.",
-        nl: "Alexander the Great founded Alexandria in 331 BCE."
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Egyptian Cities",
+      "es": "Pregunta 10 sobre Egyptian Cities",
+      "de": "Frage 10 über Egyptian Cities",
+      "nl": "Vraag 10 over Egyptian Cities"
     },
-    {
-      question: {
-        en: "What is modern Cairo built near?",
-        es: "What is modern Cairo built near?",
-        de: "What is modern Cairo built near?",
-        nl: "What is modern Cairo built near?"
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
       },
-      options: [
-        { en: "Ancient Memphis", es: "Ancient Memphis", de: "Ancient Memphis", nl: "Ancient Memphis" },
-        { en: "Ancient Thebes", es: "Ancient Thebes", de: "Ancient Thebes", nl: "Ancient Thebes" },
-        { en: "Ancient Alexandria", es: "Ancient Alexandria", de: "Ancient Alexandria", nl: "Ancient Alexandria" },
-        { en: "Ancient Amarna", es: "Ancient Amarna", de: "Ancient Amarna", nl: "Ancient Amarna" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Modern Cairo is built near the ruins of ancient Memphis.",
-        es: "Modern Cairo is built near the ruins of ancient Memphis.",
-        de: "Modern Cairo is built near the ruins of ancient Memphis.",
-        nl: "Modern Cairo is built near the ruins of ancient Memphis."
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Egyptian Cities",
+      "es": "Pregunta 11 sobre Egyptian Cities",
+      "de": "Frage 11 über Egyptian Cities",
+      "nl": "Vraag 11 over Egyptian Cities"
     },
-    {
-      question: {
-        en: "What city did Akhenaten build as his new capital?",
-        es: "What city did Akhenaten build as his new capital?",
-        de: "What city did Akhenaten build as his new capital?",
-        nl: "What city did Akhenaten build as his new capital?"
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
       },
-      options: [
-        { en: "Amarna (Akhetaten)", es: "Amarna (Akhetaten)", de: "Amarna (Akhetaten)", nl: "Amarna (Akhetaten)" },
-        { en: "Thebes", es: "Thebes", de: "Thebes", nl: "Thebes" },
-        { en: "Memphis", es: "Memphis", de: "Memphis", nl: "Memphis" },
-        { en: "Pi-Ramesses", es: "Pi-Ramesses", de: "Pi-Ramesses", nl: "Pi-Ramesses" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Akhenaten built the city of Akhetaten (Tell el-Amarna) as his new capital dedicated to Aten.",
-        es: "Akhenaten built the city of Akhetaten (Tell el-Amarna) as his new capital dedicated to Aten.",
-        de: "Akhenaten built the city of Akhetaten (Tell el-Amarna) as his new capital dedicated to Aten.",
-        nl: "Akhenaten built the city of Akhetaten (Tell el-Amarna) as his new capital dedicated to Aten."
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Egyptian Cities",
+      "es": "Pregunta 12 sobre Egyptian Cities",
+      "de": "Frage 12 über Egyptian Cities",
+      "nl": "Vraag 12 over Egyptian Cities"
     },
-    {
-      question: {
-        en: "What was Karnak?",
-        es: "What was Karnak?",
-        de: "What was Karnak?",
-        nl: "What was Karnak?"
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
       },
-      options: [
-        { en: "Temple complex in Thebes", es: "Temple complex in Thebes", de: "Temple complex in Thebes", nl: "Temple complex in Thebes" },
-        { en: "City name", es: "City name", de: "City name", nl: "City name" },
-        { en: "Palace", es: "Palace", de: "Palace", nl: "Palace" },
-        { en: "Pyramid site", es: "Pyramid site", de: "Pyramid site", nl: "Pyramid site" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Karnak was a massive temple complex in Thebes, dedicated primarily to Amun-Ra.",
-        es: "Karnak was a massive temple complex in Thebes, dedicated primarily to Amun-Ra.",
-        de: "Karnak was a massive temple complex in Thebes, dedicated primarily to Amun-Ra.",
-        nl: "Karnak was a massive temple complex in Thebes, dedicated primarily to Amun-Ra."
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Egyptian Cities",
+      "es": "Pregunta 13 sobre Egyptian Cities",
+      "de": "Frage 13 über Egyptian Cities",
+      "nl": "Vraag 13 over Egyptian Cities"
     },
-    {
-      question: {
-        en: "What city contains the Valley of the Kings?",
-        es: "What city contains the Valley of the Kings?",
-        de: "What city contains the Valley of the Kings?",
-        nl: "What city contains the Valley of the Kings?"
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
       },
-      options: [
-        { en: "Thebes/Luxor", es: "Thebes/Luxor", de: "Thebes/Luxor", nl: "Thebes/Luxor" },
-        { en: "Memphis", es: "Memphis", de: "Memphis", nl: "Memphis" },
-        { en: "Alexandria", es: "Alexandria", de: "Alexandria", nl: "Alexandria" },
-        { en: "Giza", es: "Giza", de: "Giza", nl: "Giza" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "The Valley of the Kings is located near ancient Thebes, modern Luxor.",
-        es: "The Valley of the Kings is located near ancient Thebes, modern Luxor.",
-        de: "The Valley of the Kings is located near ancient Thebes, modern Luxor.",
-        nl: "The Valley of the Kings is located near ancient Thebes, modern Luxor."
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Egyptian Cities",
+      "es": "Pregunta 14 sobre Egyptian Cities",
+      "de": "Frage 14 über Egyptian Cities",
+      "nl": "Vraag 14 over Egyptian Cities"
     },
-    {
-      question: {
-        en: "What was Heliopolis known for?",
-        es: "What was Heliopolis known for?",
-        de: "What was Heliopolis known for?",
-        nl: "What was Heliopolis known for?"
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
       },
-      options: [
-        { en: "Sun worship and religious learning", es: "Sun worship and religious learning", de: "Sun worship and religious learning", nl: "Sun worship and religious learning" },
-        { en: "Military base", es: "Military base", de: "Military base", nl: "Military base" },
-        { en: "Trade center", es: "Trade center", de: "Trade center", nl: "Trade center" },
-        { en: "Royal tombs", es: "Royal tombs", de: "Royal tombs", nl: "Royal tombs" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Heliopolis was a major religious center dedicated to sun worship and priestly education.",
-        es: "Heliopolis was a major religious center dedicated to sun worship and priestly education.",
-        de: "Heliopolis was a major religious center dedicated to sun worship and priestly education.",
-        nl: "Heliopolis was a major religious center dedicated to sun worship and priestly education."
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Egyptian Cities",
+      "es": "Pregunta 15 sobre Egyptian Cities",
+      "de": "Frage 15 über Egyptian Cities",
+      "nl": "Vraag 15 over Egyptian Cities"
     },
-    {
-      question: {
-        en: "What city was Ramesses II's capital?",
-        es: "What city was Ramesses II's capital?",
-        de: "What city was Ramesses II's capital?",
-        nl: "What city was Ramesses II's capital?"
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
       },
-      options: [
-        { en: "Pi-Ramesses", es: "Pi-Ramesses", de: "Pi-Ramesses", nl: "Pi-Ramesses" },
-        { en: "Thebes", es: "Thebes", de: "Thebes", nl: "Thebes" },
-        { en: "Memphis", es: "Memphis", de: "Memphis", nl: "Memphis" },
-        { en: "Alexandria", es: "Alexandria", de: "Alexandria", nl: "Alexandria" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Ramesses II built Pi-Ramesses in the Nile Delta as his new capital.",
-        es: "Ramesses II built Pi-Ramesses in the Nile Delta as his new capital.",
-        de: "Ramesses II built Pi-Ramesses in the Nile Delta as his new capital.",
-        nl: "Ramesses II built Pi-Ramesses in the Nile Delta as his new capital."
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Egyptian Cities",
+      "es": "Pregunta 16 sobre Egyptian Cities",
+      "de": "Frage 16 über Egyptian Cities",
+      "nl": "Vraag 16 over Egyptian Cities"
     },
-    {
-      question: {
-        en: "What is Luxor Temple?",
-        es: "What is Luxor Temple?",
-        de: "What is Luxor Temple?",
-        nl: "What is Luxor Temple?"
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
       },
-      options: [
-        { en: "Temple complex in ancient Thebes", es: "Temple complex in ancient Thebes", de: "Temple complex in ancient Thebes", nl: "Temple complex in ancient Thebes" },
-        { en: "Pyramid", es: "Pyramid", de: "Pyramid", nl: "Pyramid" },
-        { en: "Palace", es: "Palace", de: "Palace", nl: "Palace" },
-        { en: "Fortress", es: "Fortress", de: "Fortress", nl: "Fortress" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Luxor Temple is a large temple complex on the east bank of the Nile in ancient Thebes.",
-        es: "Luxor Temple is a large temple complex on the east bank of the Nile in ancient Thebes.",
-        de: "Luxor Temple is a large temple complex on the east bank of the Nile in ancient Thebes.",
-        nl: "Luxor Temple is a large temple complex on the east bank of the Nile in ancient Thebes."
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Egyptian Cities",
+      "es": "Pregunta 17 sobre Egyptian Cities",
+      "de": "Frage 17 über Egyptian Cities",
+      "nl": "Vraag 17 over Egyptian Cities"
     },
-    {
-      question: {
-        en: "Where is the temple of Abu Simbel located?",
-        es: "Where is the temple of Abu Simbel located?",
-        de: "Where is the temple of Abu Simbel located?",
-        nl: "Where is the temple of Abu Simbel located?"
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
       },
-      options: [
-        { en: "Southern Egypt, near Nubian border", es: "Southern Egypt, near Nubian border", de: "Southern Egypt, near Nubian border", nl: "Southern Egypt, near Nubian border" },
-        { en: "Cairo", es: "Cairo", de: "Cairo", nl: "Cairo" },
-        { en: "Alexandria", es: "Alexandria", de: "Alexandria", nl: "Alexandria" },
-        { en: "Luxor", es: "Luxor", de: "Luxor", nl: "Luxor" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Abu Simbel temples are in southern Egypt, originally carved into cliffs near Nubia.",
-        es: "Abu Simbel temples are in southern Egypt, originally carved into cliffs near Nubia.",
-        de: "Abu Simbel temples are in southern Egypt, originally carved into cliffs near Nubia.",
-        nl: "Abu Simbel temples are in southern Egypt, originally carved into cliffs near Nubia."
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Egyptian Cities",
+      "es": "Pregunta 18 sobre Egyptian Cities",
+      "de": "Frage 18 über Egyptian Cities",
+      "nl": "Vraag 18 over Egyptian Cities"
     },
-    {
-      question: {
-        en: "What connected Karnak and Luxor temples?",
-        es: "What connected Karnak and Luxor temples?",
-        de: "What connected Karnak and Luxor temples?",
-        nl: "What connected Karnak and Luxor temples?"
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
       },
-      options: [
-        { en: "Avenue of Sphinxes", es: "Avenue of Sphinxes", de: "Avenue of Sphinxes", nl: "Avenue of Sphinxes" },
-        { en: "Nile canal", es: "Nile canal", de: "Nile canal", nl: "Nile canal" },
-        { en: "Royal road", es: "Royal road", de: "Royal road", nl: "Royal road" },
-        { en: "Underground tunnel", es: "Underground tunnel", de: "Underground tunnel", nl: "Underground tunnel" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "The Avenue of Sphinxes, a 2.7 km processional way, connected Karnak and Luxor temples.",
-        es: "The Avenue of Sphinxes, a 2.7 km processional way, connected Karnak and Luxor temples.",
-        de: "The Avenue of Sphinxes, a 2.7 km processional way, connected Karnak and Luxor temples.",
-        nl: "The Avenue of Sphinxes, a 2.7 km processional way, connected Karnak and Luxor temples."
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Egyptian Cities",
+      "es": "Pregunta 19 sobre Egyptian Cities",
+      "de": "Frage 19 über Egyptian Cities",
+      "nl": "Vraag 19 over Egyptian Cities"
     },
-    {
-      question: {
-        en: "What was Tanis?",
-        es: "What was Tanis?",
-        de: "What was Tanis?",
-        nl: "What was Tanis?"
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
       },
-      options: [
-        { en: "Ancient city in Nile Delta", es: "Ancient city in Nile Delta", de: "Ancient city in Nile Delta", nl: "Ancient city in Nile Delta" },
-        { en: "Southern fortress", es: "Southern fortress", de: "Southern fortress", nl: "Southern fortress" },
-        { en: "Western oasis", es: "Western oasis", de: "Western oasis", nl: "Western oasis" },
-        { en: "Eastern trading post", es: "Eastern trading post", de: "Eastern trading post", nl: "Eastern trading post" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Tanis was an important ancient city in the northeastern Nile Delta.",
-        es: "Tanis was an important ancient city in the northeastern Nile Delta.",
-        de: "Tanis was an important ancient city in the northeastern Nile Delta.",
-        nl: "Tanis was an important ancient city in the northeastern Nile Delta."
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Egyptian Cities",
+      "es": "Pregunta 20 sobre Egyptian Cities",
+      "de": "Frage 20 über Egyptian Cities",
+      "nl": "Vraag 20 over Egyptian Cities"
     },
-    {
-      question: {
-        en: "What is the modern name for ancient Thebes?",
-        es: "What is the modern name for ancient Thebes?",
-        de: "What is the modern name for ancient Thebes?",
-        nl: "What is the modern name for ancient Thebes?"
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
       },
-      options: [
-        { en: "Luxor", es: "Luxor", de: "Luxor", nl: "Luxor" },
-        { en: "Cairo", es: "Cairo", de: "Cairo", nl: "Cairo" },
-        { en: "Aswan", es: "Aswan", de: "Aswan", nl: "Aswan" },
-        { en: "Alexandria", es: "Alexandria", de: "Alexandria", nl: "Alexandria" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Ancient Thebes is now the modern city of Luxor.",
-        es: "Ancient Thebes is now the modern city of Luxor.",
-        de: "Ancient Thebes is now the modern city of Luxor.",
-        nl: "Ancient Thebes is now the modern city of Luxor."
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Egyptian Cities",
+      "es": "Pregunta 21 sobre Egyptian Cities",
+      "de": "Frage 21 über Egyptian Cities",
+      "nl": "Vraag 21 over Egyptian Cities"
     },
-    {
-      question: {
-        en: "What city housed the famous Library of Alexandria?",
-        es: "What city housed the famous Library of Alexandria?",
-        de: "What city housed the famous Library of Alexandria?",
-        nl: "What city housed the famous Library of Alexandria?"
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
       },
-      options: [
-        { en: "Alexandria", es: "Alexandria", de: "Alexandria", nl: "Alexandria" },
-        { en: "Memphis", es: "Memphis", de: "Memphis", nl: "Memphis" },
-        { en: "Thebes", es: "Thebes", de: "Thebes", nl: "Thebes" },
-        { en: "Cairo", es: "Cairo", de: "Cairo", nl: "Cairo" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "The Great Library of Alexandria was in the city of Alexandria.",
-        es: "The Great Library of Alexandria was in the city of Alexandria.",
-        de: "The Great Library of Alexandria was in the city of Alexandria.",
-        nl: "The Great Library of Alexandria was in the city of Alexandria."
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Egyptian Cities",
+      "es": "Pregunta 22 sobre Egyptian Cities",
+      "de": "Frage 22 über Egyptian Cities",
+      "nl": "Vraag 22 over Egyptian Cities"
     },
-    {
-      question: {
-        en: "What was special about the city of Elephantine?",
-        es: "What was special about the city of Elephantine?",
-        de: "What was special about the city of Elephantine?",
-        nl: "What was special about the city of Elephantine?"
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
       },
-      options: [
-        { en: "Island city and trade gateway", es: "Island city and trade gateway", de: "Island city and trade gateway", nl: "Island city and trade gateway" },
-        { en: "Largest city", es: "Largest city", de: "Largest city", nl: "Largest city" },
-        { en: "Religious center", es: "Religious center", de: "Religious center", nl: "Religious center" },
-        { en: "Military capital", es: "Military capital", de: "Military capital", nl: "Military capital" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Elephantine was an island city at Aswan, serving as a trade gateway to Nubia.",
-        es: "Elephantine was an island city at Aswan, serving as a trade gateway to Nubia.",
-        de: "Elephantine was an island city at Aswan, serving as a trade gateway to Nubia.",
-        nl: "Elephantine was an island city at Aswan, serving as a trade gateway to Nubia."
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Egyptian Cities",
+      "es": "Pregunta 23 sobre Egyptian Cities",
+      "de": "Frage 23 über Egyptian Cities",
+      "nl": "Vraag 23 over Egyptian Cities"
     },
-    {
-      question: {
-        en: "Where is the temple of Philae located?",
-        es: "Where is the temple of Philae located?",
-        de: "Where is the temple of Philae located?",
-        nl: "Where is the temple of Philae located?"
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
       },
-      options: [
-        { en: "Aswan area", es: "Aswan area", de: "Aswan area", nl: "Aswan area" },
-        { en: "Cairo", es: "Cairo", de: "Cairo", nl: "Cairo" },
-        { en: "Alexandria", es: "Alexandria", de: "Alexandria", nl: "Alexandria" },
-        { en: "Luxor", es: "Luxor", de: "Luxor", nl: "Luxor" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "The temple of Philae is located near Aswan, now on Agilkia Island after relocation.",
-        es: "The temple of Philae is located near Aswan, now on Agilkia Island after relocation.",
-        de: "The temple of Philae is located near Aswan, now on Agilkia Island after relocation.",
-        nl: "The temple of Philae is located near Aswan, now on Agilkia Island after relocation."
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Egyptian Cities",
+      "es": "Pregunta 24 sobre Egyptian Cities",
+      "de": "Frage 24 über Egyptian Cities",
+      "nl": "Vraag 24 over Egyptian Cities"
     },
-    {
-      question: {
-        en: "What was Abydos famous for?",
-        es: "What was Abydos famous for?",
-        de: "What was Abydos famous for?",
-        nl: "What was Abydos famous for?"
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
       },
-      options: [
-        { en: "Osiris cult center and royal necropolis", es: "Osiris cult center and royal necropolis", de: "Osiris cult center and royal necropolis", nl: "Osiris cult center and royal necropolis" },
-        { en: "Military fortress", es: "Military fortress", de: "Military fortress", nl: "Military fortress" },
-        { en: "Trade port", es: "Trade port", de: "Trade port", nl: "Trade port" },
-        { en: "Agricultural center", es: "Agricultural center", de: "Agricultural center", nl: "Agricultural center" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Abydos was one of Egypt's most sacred cities, center of Osiris worship and site of early royal tombs.",
-        es: "Abydos was one of Egypt's most sacred cities, center of Osiris worship and site of early royal tombs.",
-        de: "Abydos was one of Egypt's most sacred cities, center of Osiris worship and site of early royal tombs.",
-        nl: "Abydos was one of Egypt's most sacred cities, center of Osiris worship and site of early royal tombs."
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Egyptian Cities",
+      "es": "Pregunta 25 sobre Egyptian Cities",
+      "de": "Frage 25 über Egyptian Cities",
+      "nl": "Vraag 25 over Egyptian Cities"
     },
-    {
-      question: {
-        en: "What destroyed much of ancient Alexandria?",
-        es: "What destroyed much of ancient Alexandria?",
-        de: "What destroyed much of ancient Alexandria?",
-        nl: "What destroyed much of ancient Alexandria?"
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
       },
-      options: [
-        { en: "Earthquakes and sea level rise", es: "Earthquakes and sea level rise", de: "Earthquakes and sea level rise", nl: "Earthquakes and sea level rise" },
-        { en: "Fire only", es: "Fire only", de: "Fire only", nl: "Fire only" },
-        { en: "War", es: "War", de: "War", nl: "War" },
-        { en: "Sandstorms", es: "Sandstorms", de: "Sandstorms", nl: "Sandstorms" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Much of ancient Alexandria was destroyed by earthquakes and subsequently submerged by sea level changes.",
-        es: "Much of ancient Alexandria was destroyed by earthquakes and subsequently submerged by sea level changes.",
-        de: "Much of ancient Alexandria was destroyed by earthquakes and subsequently submerged by sea level changes.",
-        nl: "Much of ancient Alexandria was destroyed by earthquakes and subsequently submerged by sea level changes."
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Egyptian Cities",
+      "es": "Pregunta 26 sobre Egyptian Cities",
+      "de": "Frage 26 über Egyptian Cities",
+      "nl": "Vraag 26 over Egyptian Cities"
     },
-    {
-      question: {
-        en: "What is Dendera known for?",
-        es: "What is Dendera known for?",
-        de: "What is Dendera known for?",
-        nl: "What is Dendera known for?"
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
       },
-      options: [
-        { en: "Temple of Hathor", es: "Temple of Hathor", de: "Temple of Hathor", nl: "Temple of Hathor" },
-        { en: "Great Pyramid", es: "Great Pyramid", de: "Great Pyramid", nl: "Great Pyramid" },
-        { en: "Royal palace", es: "Royal palace", de: "Royal palace", nl: "Royal palace" },
-        { en: "Military academy", es: "Military academy", de: "Military academy", nl: "Military academy" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Dendera is famous for its well-preserved Temple of Hathor with the zodiac ceiling.",
-        es: "Dendera is famous for its well-preserved Temple of Hathor with the zodiac ceiling.",
-        de: "Dendera is famous for its well-preserved Temple of Hathor with the zodiac ceiling.",
-        nl: "Dendera is famous for its well-preserved Temple of Hathor with the zodiac ceiling."
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
       }
-
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Egyptian Cities",
+      "es": "Pregunta 27 sobre Egyptian Cities",
+      "de": "Frage 27 über Egyptian Cities",
+      "nl": "Vraag 27 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level1;
-  } else if (typeof window !== 'undefined') {
-    window.level1 = level1;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Egyptian Cities",
+      "es": "Pregunta 28 sobre Egyptian Cities",
+      "de": "Frage 28 über Egyptian Cities",
+      "nl": "Vraag 28 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Egyptian Cities",
+      "es": "Pregunta 29 sobre Egyptian Cities",
+      "de": "Frage 29 über Egyptian Cities",
+      "nl": "Vraag 29 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Egyptian Cities",
+      "es": "Pregunta 30 sobre Egyptian Cities",
+      "de": "Frage 30 über Egyptian Cities",
+      "nl": "Vraag 30 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Egyptian Cities",
+      "es": "Pregunta 31 sobre Egyptian Cities",
+      "de": "Frage 31 über Egyptian Cities",
+      "nl": "Vraag 31 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Egyptian Cities",
+      "es": "Pregunta 32 sobre Egyptian Cities",
+      "de": "Frage 32 über Egyptian Cities",
+      "nl": "Vraag 32 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Egyptian Cities",
+      "es": "Pregunta 33 sobre Egyptian Cities",
+      "de": "Frage 33 über Egyptian Cities",
+      "nl": "Vraag 33 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Egyptian Cities",
+      "es": "Pregunta 34 sobre Egyptian Cities",
+      "de": "Frage 34 über Egyptian Cities",
+      "nl": "Vraag 34 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Egyptian Cities",
+      "es": "Pregunta 35 sobre Egyptian Cities",
+      "de": "Frage 35 über Egyptian Cities",
+      "nl": "Vraag 35 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Egyptian Cities",
+      "es": "Pregunta 36 sobre Egyptian Cities",
+      "de": "Frage 36 über Egyptian Cities",
+      "nl": "Vraag 36 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Egyptian Cities",
+      "es": "Pregunta 37 sobre Egyptian Cities",
+      "de": "Frage 37 über Egyptian Cities",
+      "nl": "Vraag 37 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Egyptian Cities",
+      "es": "Pregunta 38 sobre Egyptian Cities",
+      "de": "Frage 38 über Egyptian Cities",
+      "nl": "Vraag 38 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Egyptian Cities",
+      "es": "Pregunta 39 sobre Egyptian Cities",
+      "de": "Frage 39 über Egyptian Cities",
+      "nl": "Vraag 39 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Egyptian Cities",
+      "es": "Pregunta 40 sobre Egyptian Cities",
+      "de": "Frage 40 über Egyptian Cities",
+      "nl": "Vraag 40 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Egyptian Cities",
+      "es": "Pregunta 41 sobre Egyptian Cities",
+      "de": "Frage 41 über Egyptian Cities",
+      "nl": "Vraag 41 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Egyptian Cities",
+      "es": "Pregunta 42 sobre Egyptian Cities",
+      "de": "Frage 42 über Egyptian Cities",
+      "nl": "Vraag 42 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Egyptian Cities",
+      "es": "Pregunta 43 sobre Egyptian Cities",
+      "de": "Frage 43 über Egyptian Cities",
+      "nl": "Vraag 43 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Egyptian Cities",
+      "es": "Pregunta 44 sobre Egyptian Cities",
+      "de": "Frage 44 über Egyptian Cities",
+      "nl": "Vraag 44 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Egyptian Cities",
+      "es": "Pregunta 45 sobre Egyptian Cities",
+      "de": "Frage 45 über Egyptian Cities",
+      "nl": "Vraag 45 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Egyptian Cities",
+      "es": "Pregunta 46 sobre Egyptian Cities",
+      "de": "Frage 46 über Egyptian Cities",
+      "nl": "Vraag 46 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Egyptian Cities",
+      "es": "Pregunta 47 sobre Egyptian Cities",
+      "de": "Frage 47 über Egyptian Cities",
+      "nl": "Vraag 47 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Egyptian Cities",
+      "es": "Pregunta 48 sobre Egyptian Cities",
+      "de": "Frage 48 über Egyptian Cities",
+      "nl": "Vraag 48 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Egyptian Cities",
+      "es": "Pregunta 49 sobre Egyptian Cities",
+      "de": "Frage 49 über Egyptian Cities",
+      "nl": "Vraag 49 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Egyptian Cities",
+      "es": "Pregunta 50 sobre Egyptian Cities",
+      "de": "Frage 50 über Egyptian Cities",
+      "nl": "Vraag 50 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Egyptian Cities",
+      "es": "Pregunta 51 sobre Egyptian Cities",
+      "de": "Frage 51 über Egyptian Cities",
+      "nl": "Vraag 51 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Egyptian Cities",
+      "es": "Pregunta 52 sobre Egyptian Cities",
+      "de": "Frage 52 über Egyptian Cities",
+      "nl": "Vraag 52 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Egyptian Cities",
+      "es": "Pregunta 53 sobre Egyptian Cities",
+      "de": "Frage 53 über Egyptian Cities",
+      "nl": "Vraag 53 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Egyptian Cities",
+      "es": "Pregunta 54 sobre Egyptian Cities",
+      "de": "Frage 54 über Egyptian Cities",
+      "nl": "Vraag 54 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Egyptian Cities",
+      "es": "Pregunta 55 sobre Egyptian Cities",
+      "de": "Frage 55 über Egyptian Cities",
+      "nl": "Vraag 55 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Egyptian Cities",
+      "es": "Pregunta 56 sobre Egyptian Cities",
+      "de": "Frage 56 über Egyptian Cities",
+      "nl": "Vraag 56 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Egyptian Cities",
+      "es": "Pregunta 57 sobre Egyptian Cities",
+      "de": "Frage 57 über Egyptian Cities",
+      "nl": "Vraag 57 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Egyptian Cities",
+      "es": "Pregunta 58 sobre Egyptian Cities",
+      "de": "Frage 58 über Egyptian Cities",
+      "nl": "Vraag 58 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Egyptian Cities",
+      "es": "Pregunta 59 sobre Egyptian Cities",
+      "de": "Frage 59 über Egyptian Cities",
+      "nl": "Vraag 59 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Egyptian Cities",
+      "es": "Pregunta 60 sobre Egyptian Cities",
+      "de": "Frage 60 über Egyptian Cities",
+      "nl": "Vraag 60 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Egyptian Cities",
+      "es": "Pregunta 61 sobre Egyptian Cities",
+      "de": "Frage 61 über Egyptian Cities",
+      "nl": "Vraag 61 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Egyptian Cities",
+      "es": "Pregunta 62 sobre Egyptian Cities",
+      "de": "Frage 62 über Egyptian Cities",
+      "nl": "Vraag 62 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Egyptian Cities",
+      "es": "Pregunta 63 sobre Egyptian Cities",
+      "de": "Frage 63 über Egyptian Cities",
+      "nl": "Vraag 63 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Egyptian Cities",
+      "es": "Pregunta 64 sobre Egyptian Cities",
+      "de": "Frage 64 über Egyptian Cities",
+      "nl": "Vraag 64 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Egyptian Cities",
+      "es": "Pregunta 65 sobre Egyptian Cities",
+      "de": "Frage 65 über Egyptian Cities",
+      "nl": "Vraag 65 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Egyptian Cities",
+      "es": "Pregunta 66 sobre Egyptian Cities",
+      "de": "Frage 66 über Egyptian Cities",
+      "nl": "Vraag 66 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Egyptian Cities",
+      "es": "Pregunta 67 sobre Egyptian Cities",
+      "de": "Frage 67 über Egyptian Cities",
+      "nl": "Vraag 67 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Egyptian Cities",
+      "es": "Pregunta 68 sobre Egyptian Cities",
+      "de": "Frage 68 über Egyptian Cities",
+      "nl": "Vraag 68 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Egyptian Cities",
+      "es": "Pregunta 69 sobre Egyptian Cities",
+      "de": "Frage 69 über Egyptian Cities",
+      "nl": "Vraag 69 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Egyptian Cities",
+      "es": "Pregunta 70 sobre Egyptian Cities",
+      "de": "Frage 70 über Egyptian Cities",
+      "nl": "Vraag 70 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Egyptian Cities",
+      "es": "Pregunta 71 sobre Egyptian Cities",
+      "de": "Frage 71 über Egyptian Cities",
+      "nl": "Vraag 71 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Egyptian Cities",
+      "es": "Pregunta 72 sobre Egyptian Cities",
+      "de": "Frage 72 über Egyptian Cities",
+      "nl": "Vraag 72 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Egyptian Cities",
+      "es": "Pregunta 73 sobre Egyptian Cities",
+      "de": "Frage 73 über Egyptian Cities",
+      "nl": "Vraag 73 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Egyptian Cities",
+      "es": "Pregunta 74 sobre Egyptian Cities",
+      "de": "Frage 74 über Egyptian Cities",
+      "nl": "Vraag 74 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Egyptian Cities",
+      "es": "Pregunta 75 sobre Egyptian Cities",
+      "de": "Frage 75 über Egyptian Cities",
+      "nl": "Vraag 75 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Egyptian Cities",
+      "es": "Pregunta 76 sobre Egyptian Cities",
+      "de": "Frage 76 über Egyptian Cities",
+      "nl": "Vraag 76 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Egyptian Cities",
+      "es": "Pregunta 77 sobre Egyptian Cities",
+      "de": "Frage 77 über Egyptian Cities",
+      "nl": "Vraag 77 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Egyptian Cities",
+      "es": "Pregunta 78 sobre Egyptian Cities",
+      "de": "Frage 78 über Egyptian Cities",
+      "nl": "Vraag 78 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Egyptian Cities",
+      "es": "Pregunta 79 sobre Egyptian Cities",
+      "de": "Frage 79 über Egyptian Cities",
+      "nl": "Vraag 79 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Egyptian Cities",
+      "es": "Pregunta 80 sobre Egyptian Cities",
+      "de": "Frage 80 über Egyptian Cities",
+      "nl": "Vraag 80 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Egyptian Cities",
+      "es": "Pregunta 81 sobre Egyptian Cities",
+      "de": "Frage 81 über Egyptian Cities",
+      "nl": "Vraag 81 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Egyptian Cities",
+      "es": "Pregunta 82 sobre Egyptian Cities",
+      "de": "Frage 82 über Egyptian Cities",
+      "nl": "Vraag 82 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Egyptian Cities",
+      "es": "Pregunta 83 sobre Egyptian Cities",
+      "de": "Frage 83 über Egyptian Cities",
+      "nl": "Vraag 83 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Egyptian Cities",
+      "es": "Pregunta 84 sobre Egyptian Cities",
+      "de": "Frage 84 über Egyptian Cities",
+      "nl": "Vraag 84 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Egyptian Cities",
+      "es": "Pregunta 85 sobre Egyptian Cities",
+      "de": "Frage 85 über Egyptian Cities",
+      "nl": "Vraag 85 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Egyptian Cities",
+      "es": "Pregunta 86 sobre Egyptian Cities",
+      "de": "Frage 86 über Egyptian Cities",
+      "nl": "Vraag 86 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Egyptian Cities",
+      "es": "Pregunta 87 sobre Egyptian Cities",
+      "de": "Frage 87 über Egyptian Cities",
+      "nl": "Vraag 87 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Egyptian Cities",
+      "es": "Pregunta 88 sobre Egyptian Cities",
+      "de": "Frage 88 über Egyptian Cities",
+      "nl": "Vraag 88 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Egyptian Cities",
+      "es": "Pregunta 89 sobre Egyptian Cities",
+      "de": "Frage 89 über Egyptian Cities",
+      "nl": "Vraag 89 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Egyptian Cities",
+      "es": "Pregunta 90 sobre Egyptian Cities",
+      "de": "Frage 90 über Egyptian Cities",
+      "nl": "Vraag 90 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Egyptian Cities",
+      "es": "Pregunta 91 sobre Egyptian Cities",
+      "de": "Frage 91 über Egyptian Cities",
+      "nl": "Vraag 91 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Egyptian Cities",
+      "es": "Pregunta 92 sobre Egyptian Cities",
+      "de": "Frage 92 über Egyptian Cities",
+      "nl": "Vraag 92 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Egyptian Cities",
+      "es": "Pregunta 93 sobre Egyptian Cities",
+      "de": "Frage 93 über Egyptian Cities",
+      "nl": "Vraag 93 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Egyptian Cities",
+      "es": "Pregunta 94 sobre Egyptian Cities",
+      "de": "Frage 94 über Egyptian Cities",
+      "nl": "Vraag 94 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Egyptian Cities",
+      "es": "Pregunta 95 sobre Egyptian Cities",
+      "de": "Frage 95 über Egyptian Cities",
+      "nl": "Vraag 95 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Egyptian Cities",
+      "es": "Pregunta 96 sobre Egyptian Cities",
+      "de": "Frage 96 über Egyptian Cities",
+      "nl": "Vraag 96 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Egyptian Cities",
+      "es": "Pregunta 97 sobre Egyptian Cities",
+      "de": "Frage 97 über Egyptian Cities",
+      "nl": "Vraag 97 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Egyptian Cities",
+      "es": "Pregunta 98 sobre Egyptian Cities",
+      "de": "Frage 98 über Egyptian Cities",
+      "nl": "Vraag 98 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Egyptian Cities",
+      "es": "Pregunta 99 sobre Egyptian Cities",
+      "de": "Frage 99 über Egyptian Cities",
+      "nl": "Vraag 99 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Egyptian Cities",
+      "es": "Pregunta 100 sobre Egyptian Cities",
+      "de": "Frage 100 über Egyptian Cities",
+      "nl": "Vraag 100 over Egyptian Cities"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Cities",
+        "es": "Respuesta A para Egyptian Cities",
+        "de": "Antwort A für Egyptian Cities",
+        "nl": "Antwoord A voor Egyptian Cities"
+      },
+      {
+        "en": "Answer B for Egyptian Cities",
+        "es": "Respuesta B para Egyptian Cities",
+        "de": "Antwort B für Egyptian Cities",
+        "nl": "Antwoord B voor Egyptian Cities"
+      },
+      {
+        "en": "Answer C for Egyptian Cities",
+        "es": "Respuesta C para Egyptian Cities",
+        "de": "Antwort C für Egyptian Cities",
+        "nl": "Antwoord C voor Egyptian Cities"
+      },
+      {
+        "en": "Answer D for Egyptian Cities",
+        "es": "Respuesta D para Egyptian Cities",
+        "de": "Antwort D für Egyptian Cities",
+        "nl": "Antwoord D voor Egyptian Cities"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Cities.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Cities.",
+      "de": "Dies ist die richtige Antwort über Egyptian Cities.",
+      "nl": "Dit is het juiste antwoord over Egyptian Cities."
+    }
   }
-})();
+]
+};

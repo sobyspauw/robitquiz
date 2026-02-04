@@ -1,1657 +1,4104 @@
-// Chess Quiz - Level 4
-(function() {
-  const level4 = {
-    name: {
-          "en": "Chess",
-          "es": "Ajedrez",
-          "de": "Schach",
-          "nl": "Schaken"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Chess (Level 4)",
+      "es": "Pregunta 1 sobre Chess (Nivel 4)",
+      "de": "Frage 1 über Chess (Stufe 4)",
+      "nl": "Vraag 1 over Chess (Niveau 4)"
     },
-    questions: [
+    "options": [
       {
-        question: {
-                  "en": "What is a 'fork' in chess?",
-                  "es": "¿Qué es una 'horquilla' en ajedrez?",
-                  "de": "Was ist eine 'Gabel' im Schach?",
-                  "nl": "Wat is een 'vork' in schaken?"
-        },
-        options: [
-        {
-                  "en": "Splitting the board in half",
-                  "es": "Dividir el tablero por la mitad",
-                  "de": "Das Brett in der Mitte teilen",
-                  "nl": "Het bord in tweeën splitsen"
-        },
-        {
-                  "en": "A piece attacks two or more enemy pieces simultaneously",
-                  "es": "Una pieza ataca dos o más piezas enemigas simultáneamente",
-                  "de": "Eine Figur greift zwei oder mehr gegnerische Figuren gleichzeitig an",
-                  "nl": "Een stuk valt twee of meer vijandelijke stukken tegelijk aan"
-        },
-        {
-                  "en": "Choosing between two moves",
-                  "es": "Elegir entre dos movimientos",
-                  "de": "Zwischen zwei Zügen wählen",
-                  "nl": "Kiezen tussen twee zetten"
-        },
-        {
-                  "en": "A type of opening",
-                  "es": "Un tipo de apertura",
-                  "de": "Eine Art Eröffnung",
-                  "nl": "Een soort opening"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "A fork is a tactic where one piece attacks two or more enemy pieces at the same time. Knights are especially effective at forks due to their unique movement pattern.",
-                  "es": "Una horquilla es una táctica donde una pieza ataca dos o más piezas enemigas al mismo tiempo. Los caballos son especialmente efectivos en horquillas debido a su patrón de movimiento único.",
-                  "de": "Eine Gabel ist eine Taktik, bei der eine Figur zwei oder mehr gegnerische Figuren gleichzeitig angreift. Springer sind aufgrund ihres einzigartigen Bewegungsmusters besonders effektiv bei Gabeln.",
-                  "nl": "Een vork is een tactiek waarbij één stuk twee of meer vijandelijke stukken tegelijk aanvalt. Paarden zijn bijzonder effectief bij vorken vanwege hun unieke bewegingspatroon."
-        }
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
       },
       {
-        question: {
-                  "en": "What is a 'pin' in chess?",
-                  "es": "¿Qué es una 'clavada' en ajedrez?",
-                  "de": "Was ist eine 'Fesselung' im Schach?",
-                  "nl": "Wat is een 'pin' in schaken?"
-        },
-        options: [
-        {
-                  "en": "A piece cannot move without exposing a more valuable piece behind it",
-                  "es": "Una pieza no puede moverse sin exponer una pieza más valiosa detrás",
-                  "de": "Eine Figur kann sich nicht bewegen, ohne eine wertvollere Figur dahinter freizulegen",
-                  "nl": "Een stuk kan niet bewegen zonder een waardevoller stuk erachter bloot te stellen"
-        },
-        {
-                  "en": "Attacking with a rook",
-                  "es": "Atacar con una torre",
-                  "de": "Mit einem Turm angreifen",
-                  "nl": "Aanvallen met een toren"
-        },
-        {
-                  "en": "Trapping a piece in a corner",
-                  "es": "Atrapar una pieza en una esquina",
-                  "de": "Eine Figur in einer Ecke einfangen",
-                  "nl": "Een stuk in een hoek vangen"
-        },
-        {
-                  "en": "Blocking a pawn from advancing",
-                  "es": "Bloquear un peón para que no avance",
-                  "de": "Einen Bauern am Vorrücken hindern",
-                  "nl": "Een pion tegenhouden van opschuiven"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "A pin occurs when a piece is attacked and cannot move because doing so would expose a more valuable piece (often the king or queen) to capture. Pins are powerful tactical weapons.",
-                  "es": "Una clavada ocurre cuando una pieza es atacada y no puede moverse porque hacerlo expondría una pieza más valiosa (a menudo el rey o la dama) a captura. Las clavadas son armas tácticas poderosas.",
-                  "de": "Eine Fesselung tritt auf, wenn eine Figur angegriffen wird und sich nicht bewegen kann, weil dies eine wertvollere Figur (oft den König oder die Dame) freigeben würde. Fesselungen sind mächtige taktische Waffen.",
-                  "nl": "Een pin vindt plaats wanneer een stuk wordt aangevallen en niet kan bewegen omdat dit een waardevoller stuk (vaak de koning of dame) zou blootstellen. Pins zijn krachtige tactische wapens."
-        }
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
       },
       {
-        question: {
-                  "en": "What is 'castling' in chess?",
-                  "es": "¿Qué es el 'enroque' en ajedrez?",
-                  "de": "Was ist 'Rochade' im Schach?",
-                  "nl": "Wat is 'rokeren' in schaken?"
-        },
-        options: [
-        {
-                  "en": "Building a fortress with pawns",
-                  "es": "Construir una fortaleza con peones",
-                  "de": "Eine Festung mit Bauern bauen",
-                  "nl": "Een fort bouwen met pionnen"
-        },
-        {
-                  "en": "A special move involving the king and rook to protect the king",
-                  "es": "Un movimiento especial que involucra al rey y la torre para proteger al rey",
-                  "de": "Ein besonderer Zug mit König und Turm zum Schutz des Königs",
-                  "nl": "Een speciale zet met de koning en toren om de koning te beschermen"
-        },
-        {
-                  "en": "Moving the king to safety",
-                  "es": "Mover el rey a un lugar seguro",
-                  "de": "Den König in Sicherheit bringen",
-                  "nl": "De koning in veiligheid brengen"
-        },
-        {
-                  "en": "Trading pieces in the opening",
-                  "es": "Intercambiar piezas en la apertura",
-                  "de": "Figuren in der Eröffnung tauschen",
-                  "nl": "Stukken ruilen in de opening"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Castling is a special move where the king moves two squares toward a rook, and the rook jumps to the other side of the king. It can only be done once per game and helps protect the king while activating the rook.",
-                  "es": "El enroque es un movimiento especial donde el rey se mueve dos casillas hacia una torre, y la torre salta al otro lado del rey. Solo se puede hacer una vez por partida y ayuda a proteger al rey mientras activa la torre.",
-                  "de": "Die Rochade ist ein besonderer Zug, bei dem der König zwei Felder in Richtung eines Turms zieht und der Turm auf die andere Seite des Königs springt. Sie kann nur einmal pro Partie ausgeführt werden und hilft, den König zu schützen und den Turm zu aktivieren.",
-                  "nl": "Rokeren is een speciale zet waarbij de koning twee velden richting een toren beweegt en de toren naar de andere kant van de koning springt. Het kan maar één keer per partij worden gedaan en helpt de koning te beschermen terwijl de toren wordt geactiveerd."
-        }
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
       },
       {
-        question: {
-                  "en": "What is 'en passant' in chess?",
-                  "es": "¿Qué es 'en passant' en ajedrez?",
-                  "de": "Was ist 'en passant' im Schach?",
-                  "nl": "Wat is 'en passant' in schaken?"
-        },
-        options: [
-        {
-                  "en": "Capturing with the king",
-                  "es": "Capturar con el rey",
-                  "de": "Mit dem König schlagen",
-                  "nl": "Slaan met de koning"
-        },
-        {
-                  "en": "Moving a piece backwards",
-                  "es": "Mover una pieza hacia atrás",
-                  "de": "Eine Figur rückwärts bewegen",
-                  "nl": "Een stuk achteruit bewegen"
-        },
-        {
-                  "en": "Passing through enemy lines",
-                  "es": "Pasar a través de líneas enemigas",
-                  "de": "Durch feindliche Linien ziehen",
-                  "nl": "Door vijandelijke linies gaan"
-        },
-        {
-                  "en": "A special pawn capture when an enemy pawn moves two squares forward",
-                  "es": "Una captura especial de peón cuando un peón enemigo avanza dos casillas",
-                  "de": "Ein spezieller Bauernschlag, wenn ein gegnerischer Bauer zwei Felder vorzieht",
-                  "nl": "Een speciale pionslag wanneer een vijandelijke pion twee velden vooruit gaat"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "En passant is a special pawn capture that can occur when an opponent's pawn moves two squares forward from its starting position and lands beside your pawn. You can capture it as if it had only moved one square, but only immediately on the next move.",
-                  "es": "En passant es una captura especial de peón que puede ocurrir cuando el peón de un oponente avanza dos casillas desde su posición inicial y aterriza al lado de tu peón. Puedes capturarlo como si solo hubiera movido una casilla, pero solo inmediatamente en el siguiente movimiento.",
-                  "de": "En passant ist ein spezieller Bauernschlag, der auftreten kann, wenn der Bauer eines Gegners zwei Felder von seiner Startposition vorzieht und neben Ihrem Bauern landet. Sie können ihn schlagen, als hätte er nur ein Feld gezogen, aber nur sofort im nächsten Zug.",
-                  "nl": "En passant is een speciale pionslag die kan plaatsvinden wanneer de pion van een tegenstander twee velden vooruit gaat vanaf zijn startpositie en naast je pion terechtkomt. Je kunt hem slaan alsof hij maar één veld heeft bewogen, maar alleen onmiddellijk in de volgende zet."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a 'skewer' in chess?",
-                  "es": "¿Qué es un 'ensartado' en ajedrez?",
-                  "de": "Was ist ein 'Spieß' im Schach?",
-                  "nl": "Wat is een 'spies' in schaken?"
-        },
-        options: [
-        {
-                  "en": "Moving through pieces",
-                  "es": "Moverse a través de piezas",
-                  "de": "Durch Figuren ziehen",
-                  "nl": "Door stukken bewegen"
-        },
-        {
-                  "en": "Putting food on a stick",
-                  "es": "Poner comida en un palillo",
-                  "de": "Essen auf einen Spieß stecken",
-                  "nl": "Voedsel op een spies doen"
-        },
-        {
-                  "en": "Attacking a valuable piece, forcing it to move and exposing a piece behind it",
-                  "es": "Atacar una pieza valiosa, forzándola a moverse y exponiendo una pieza detrás",
-                  "de": "Eine wertvolle Figur angreifen, die sich bewegen muss und eine Figur dahinter freilegt",
-                  "nl": "Een waardevol stuk aanvallen, waardoor het moet bewegen en een stuk erachter blootstelt"
-        },
-        {
-                  "en": "A type of checkmate",
-                  "es": "Un tipo de jaque mate",
-                  "de": "Eine Art Schachmatt",
-                  "nl": "Een soort schaakmat"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "A skewer is similar to a pin but reversed - a valuable piece is attacked and must move, exposing a less valuable piece behind it to capture. It's essentially a 'reverse pin' and is a powerful tactical weapon.",
-                  "es": "Un ensartado es similar a una clavada pero al revés: una pieza valiosa es atacada y debe moverse, exponiendo una pieza menos valiosa detrás para captura. Es esencialmente una 'clavada inversa' y es un arma táctica poderosa.",
-                  "de": "Ein Spieß ist ähnlich wie eine Fesselung, aber umgekehrt - eine wertvolle Figur wird angegriffen und muss sich bewegen, wodurch eine weniger wertvolle Figur dahinter zum Schlagen freigegeben wird. Es ist im Wesentlichen eine 'umgekehrte Fesselung' und eine mächtige taktische Waffe.",
-                  "nl": "Een spies is vergelijkbaar met een pin maar omgekeerd - een waardevol stuk wordt aangevallen en moet bewegen, waardoor een minder waardevol stuk erachter wordt blootgesteld. Het is in wezen een 'omgekeerde pin' en is een krachtig tactisch wapen."
-        }
-      },
-      {
-        question: {
-                  "en": "In which year did Garry Kasparov defeat Anatoly Karpov to become World Champion?",
-                  "es": "¿En qué año derrotó Garry Kasparov a Anatoly Karpov para convertirse en Campeón Mundial?",
-                  "de": "In welchem Jahr besiegte Garry Kasparow Anatoly Karpow und wurde Weltmeister?",
-                  "nl": "In welk jaar versloeg Garry Kasparov Anatoly Karpov om wereldkampioen te worden?"
-        },
-        options: [
-        {
-                  "en": "1990",
-                  "es": "1990",
-                  "de": "1990",
-                  "nl": "1990"
-        },
-        {
-                  "en": "1995",
-                  "es": "1995",
-                  "de": "1995",
-                  "nl": "1995"
-        },
-        {
-                  "en": "1980",
-                  "es": "1980",
-                  "de": "1980",
-                  "nl": "1980"
-        },
-        {
-                  "en": "1985",
-                  "es": "1985",
-                  "de": "1985",
-                  "nl": "1985"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Kasparov became World Champion in 1985 after defeating Karpov in one of the most famous championship matches in chess history.",
-                  "es": "Kasparov se convirtió en Campeón Mundial en 1985 después de derrotar a Karpov en uno de los partidos de campeonato más famosos de la historia del ajedrez.",
-                  "de": "Kasparow wurde 1985 Weltmeister, nachdem er Karpow in einem der berühmtesten Weltmeisterschaftskämpfe der Schachgeschichte besiegte.",
-                  "nl": "Kasparov werd in 1985 wereldkampioen na het verslaan van Karpov in een van de beroemdste kampioenschapswedstrijden in de schaakgeschiedenis."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the 'Queen's Gambit'?",
-                  "es": "¿Qué es el 'Gambito de Dama'?",
-                  "de": "Was ist das 'Damengambit'?",
-                  "nl": "Wat is het 'Damegambiet'?"
-        },
-        options: [
-        {
-                  "en": "1.d4 d5 2.c4",
-                  "es": "1.d4 d5 2.c4",
-                  "de": "1.d4 d5 2.c4",
-                  "nl": "1.d4 d5 2.c4"
-        },
-        {
-                  "en": "1.e4 e5 2.Qh5",
-                  "es": "1.e4 e5 2.Dh5",
-                  "de": "1.e4 e5 2.Dh5",
-                  "nl": "1.e4 e5 2.Dh5"
-        },
-        {
-                  "en": "1.e4 d5",
-                  "es": "1.e4 d5",
-                  "de": "1.e4 d5",
-                  "nl": "1.e4 d5"
-        },
-        {
-                  "en": "1.d4 Nf6 2.c4",
-                  "es": "1.d4 Cf6 2.c4",
-                  "de": "1.d4 Sf6 2.c4",
-                  "nl": "1.d4 Pf6 2.c4"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Queen's Gambit (1.d4 d5 2.c4) is one of the oldest and most popular openings, offering White control of the center.",
-                  "es": "El Gambito de Dama (1.d4 d5 2.c4) es una de las aperturas más antiguas y populares, ofreciendo a las blancas control del centro.",
-                  "de": "Das Damengambit (1.d4 d5 2.c4) ist eine der ältesten und beliebtesten Eröffnungen und bietet Weiß die Kontrolle über das Zentrum.",
-                  "nl": "Het Damegambiet (1.d4 d5 2.c4) is een van de oudste en populairste openingen, die wit controle over het centrum biedt."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'opposition' in chess endgames?",
-                  "es": "¿Qué es la 'oposición' en finales de ajedrez?",
-                  "de": "Was ist 'Opposition' in Schachendspielen?",
-                  "nl": "Wat is 'oppositie' in schaakeindspelen?"
-        },
-        options: [
-        {
-                  "en": "When pieces oppose each other",
-                  "es": "Cuando las piezas se oponen entre sí",
-                  "de": "Wenn Figuren sich gegenüberstehen",
-                  "nl": "Wanneer stukken elkaar tegenover staan"
-        },
-        {
-                  "en": "Fighting for the center",
-                  "es": "Luchando por el centro",
-                  "de": "Kampf um das Zentrum",
-                  "nl": "Vechten om het centrum"
-        },
-        {
-                  "en": "Kings facing with one square between",
-                  "es": "Cuando los reyes se enfrentan con una casilla entre ellos",
-                  "de": "Wenn Könige sich mit einem Feld dazwischen gegenüberstehen",
-                  "nl": "Wanneer koningen elkaar met één vakje ertussen onder ogen zien"
-        },
-        {
-                  "en": "A disagreement between players",
-                  "es": "Un desacuerdo entre jugadores",
-                  "de": "Eine Meinungsverschiedenheit zwischen Spielern",
-                  "nl": "Een meningsverschil tussen spelers"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Opposition occurs when kings face each other with an odd number of squares between them, typically one. It's crucial in king and pawn endgames.",
-                  "es": "La oposición ocurre cuando los reyes se enfrentan con un número impar de casillas entre ellos, típicamente una. Es crucial en finales de rey y peón.",
-                  "de": "Opposition tritt auf, wenn Könige sich mit einer ungeraden Anzahl von Feldern zwischen ihnen gegenüberstehen, typischerweise einem. Es ist entscheidend in König-Bauern-Endspielen.",
-                  "nl": "Oppositie treedt op wanneer koningen elkaar met een oneven aantal vakjes ertussen onder ogen zien, meestal één. Het is cruciaal in koning- en pionneindspelen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a 'smothered mate'?",
-                  "es": "¿Qué es un 'mate ahogado'?",
-                  "de": "Was ist ein 'ersticktes Matt'?",
-                  "nl": "Wat is een 'verstikkingsmat'?"
-        },
-        options: [
-        {
-                  "en": "A slow positional squeeze",
-                  "es": "Un apretón posicional lento",
-                  "de": "Eine langsame Positionspressung",
-                  "nl": "Een langzame positionele druk"
-        },
-        {
-                  "en": "Suffocating the opponent's position",
-                  "es": "Sofocando la posición del oponente",
-                  "de": "Die Position des Gegners ersticken",
-                  "nl": "De positie van de tegenstander verstikken"
-        },
-        {
-                  "en": "Knight mate with trapped king",
-                  "es": "Jaque mate por un caballo cuando el rey está atrapado por sus propias piezas",
-                  "de": "Schachmatt durch einen Springer, wenn der König von seinen eigenen Figuren eingeschlossen ist",
-                  "nl": "Schaakmat door een paard wanneer de koning gevangen zit door zijn eigen stukken"
-        },
-        {
-                  "en": "Checkmate with queen and rook",
-                  "es": "Jaque mate con reina y torre",
-                  "de": "Schachmatt mit Dame und Turm",
-                  "nl": "Schaakmat met koningin en toren"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "A smothered mate is a checkmate delivered by a knight where the mated king is unable to move because it is surrounded by its own pieces.",
-                  "es": "Un mate ahogado es un jaque mate dado por un caballo donde el rey no puede moverse porque está rodeado por sus propias piezas.",
-                  "de": "Ein ersticktes Matt ist ein Schachmatt durch einen Springer, bei dem der mattgesetzte König sich nicht bewegen kann, weil er von seinen eigenen Figuren umgeben ist.",
-                  "nl": "Een verstikkingsmat is een schaakmat gegeven door een paard waarbij de schaakmat gezette koning niet kan bewegen omdat hij omringd is door zijn eigen stukken."
-        }
-      },
-      {
-        question: {
-                  "en": "Who was the first official World Chess Champion?",
-                  "es": "¿Quién fue el primer Campeón Mundial de Ajedrez oficial?",
-                  "de": "Wer war der erste offizielle Schachweltmeister?",
-                  "nl": "Wie was de eerste officiële schaakwereldkampioen?"
-        },
-        options: [
-        {
-                  "en": "Paul Morphy",
-                  "es": "Paul Morphy",
-                  "de": "Paul Morphy",
-                  "nl": "Paul Morphy"
-        },
-        {
-                  "en": "José Raúl Capablanca",
-                  "es": "José Raúl Capablanca",
-                  "de": "José Raúl Capablanca",
-                  "nl": "José Raúl Capablanca"
-        },
-        {
-                  "en": "Wilhelm Steinitz",
-                  "es": "Wilhelm Steinitz",
-                  "de": "Wilhelm Steinitz",
-                  "nl": "Wilhelm Steinitz"
-        },
-        {
-                  "en": "Emanuel Lasker",
-                  "es": "Emanuel Lasker",
-                  "de": "Emanuel Lasker",
-                  "nl": "Emanuel Lasker"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Wilhelm Steinitz became the first official World Chess Champion in 1886 after defeating Johannes Zukertort.",
-                  "es": "Wilhelm Steinitz se convirtió en el primer Campeón Mundial de Ajedrez oficial en 1886 después de derrotar a Johannes Zukertort.",
-                  "de": "Wilhelm Steinitz wurde 1886 der erste offizielle Schachweltmeister, nachdem er Johannes Zukertort besiegte.",
-                  "nl": "Wilhelm Steinitz werd in 1886 de eerste officiële schaakwereldkampioen na het verslaan van Johannes Zukertort."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the 'Ruy Lopez' opening also known as?",
-                  "es": "¿Cómo se conoce también la apertura 'Ruy López'?",
-                  "de": "Wie wird die 'Ruy-Lopez'-Eröffnung auch genannt?",
-                  "nl": "Hoe wordt de 'Ruy Lopez' opening ook wel genoemd?"
-        },
-        options: [
-        {
-                  "en": "Spanish Opening",
-                  "es": "Apertura Española",
-                  "de": "Spanische Eröffnung",
-                  "nl": "Spaanse Opening"
-        },
-        {
-                  "en": "English Opening",
-                  "es": "Apertura Inglesa",
-                  "de": "Englische Eröffnung",
-                  "nl": "Engelse Opening"
-        },
-        {
-                  "en": "Italian Opening",
-                  "es": "Apertura Italiana",
-                  "de": "Italienische Eröffnung",
-                  "nl": "Italiaanse Opening"
-        },
-        {
-                  "en": "French Opening",
-                  "es": "Apertura Francesa",
-                  "de": "Französische Eröffnung",
-                  "nl": "Franse Opening"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Ruy Lopez is also known as the Spanish Opening, named after Spanish priest Ruy López de Segura who analyzed it in the 16th century.",
-                  "es": "La Ruy López también se conoce como Apertura Española, nombrada en honor al sacerdote español Ruy López de Segura quien la analizó en el siglo XVI.",
-                  "de": "Die Ruy Lopez ist auch als Spanische Eröffnung bekannt, benannt nach dem spanischen Priester Ruy López de Segura, der sie im 16. Jahrhundert analysierte.",
-                  "nl": "De Ruy Lopez wordt ook wel de Spaanse Opening genoemd, genoemd naar de Spaanse priester Ruy López de Segura die het in de 16e eeuw analyseerde."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a 'Greek gift sacrifice'?",
-                  "es": "¿Qué es un 'sacrificio del regalo griego'?",
-                  "de": "Was ist ein 'Griechisches Geschenkopfer'?",
-                  "nl": "Wat is een 'Grieks geschenkoffer'?"
-        },
-        options: [
-        {
-                  "en": "Bishop sacrifice on h7/h2",
-                  "es": "Sacrificar un alfil en h7 o h2",
-                  "de": "Einen Läufer auf h7 oder h2 opfern",
-                  "nl": "Een loper offeren op h7 of h2"
-        },
-        {
-                  "en": "Trading pieces equally",
-                  "es": "Intercambiar piezas por igual",
-                  "de": "Figuren gleichwertig tauschen",
-                  "nl": "Stukken gelijk ruilen"
-        },
-        {
-                  "en": "Giving away the queen",
-                  "es": "Regalar la reina",
-                  "de": "Die Dame weggeben",
-                  "nl": "De koningin weggeven"
-        },
-        {
-                  "en": "Offering a draw",
-                  "es": "Ofrecer tablas",
-                  "de": "Ein Remis anbieten",
-                  "nl": "Remise aanbieden"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Greek gift sacrifice involves sacrificing a bishop on h7 (or h2) to expose the enemy king, often followed by a devastating attack.",
-                  "es": "El sacrificio del regalo griego implica sacrificar un alfil en h7 (o h2) para exponer al rey enemigo, a menudo seguido de un ataque devastador.",
-                  "de": "Das Griechische Geschenkopfer beinhaltet das Opfern eines Läufers auf h7 (oder h2), um den gegnerischen König freizulegen, oft gefolgt von einem verheerenden Angriff.",
-                  "nl": "Het Grieks geschenkoffer houdt in dat een loper wordt geofferd op h7 (of h2) om de vijandelijke koning bloot te leggen, vaak gevolgd door een verwoestende aanval."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'blindfold chess'?",
-                  "es": "¿Qué es el 'ajedrez a ciegas'?",
-                  "de": "Was ist 'Blindschach'?",
-                  "nl": "Wat is 'blindschaak'?"
-        },
-        options: [
-        {
-                  "en": "Playing without seeing the board",
-                  "es": "Jugar sin ver el tablero",
-                  "de": "Spielen ohne das Brett zu sehen",
-                  "nl": "Spelen zonder het bord te zien"
-        },
-        {
-                  "en": "Playing with covered pieces",
-                  "es": "Jugar con piezas cubiertas",
-                  "de": "Spielen mit verdeckten Figuren",
-                  "nl": "Spelen met bedekte stukken"
-        },
-        {
-                  "en": "Random piece placement",
-                  "es": "Colocación aleatoria de piezas",
-                  "de": "Zufällige Figurenplatzierung",
-                  "nl": "Willekeurige stukplaatsing"
-        },
-        {
-                  "en": "Playing in the dark",
-                  "es": "Jugar en la oscuridad",
-                  "de": "Im Dunkeln spielen",
-                  "nl": "Spelen in het donker"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Blindfold chess is played without sight of the board, relying entirely on memory and visualization. Many strong players can play multiple simultaneous blindfold games.",
-                  "es": "El ajedrez a ciegas se juega sin ver el tablero, confiando completamente en la memoria y la visualización. Muchos jugadores fuertes pueden jugar múltiples partidas simultáneas a ciegas.",
-                  "de": "Blindschach wird ohne Sicht auf das Brett gespielt und verlässt sich völlig auf Gedächtnis und Visualisierung. Viele starke Spieler können mehrere simultane Blindpartien spielen.",
-                  "nl": "Blindschaak wordt gespeeld zonder zicht op het bord, volledig vertrouwend op geheugen en visualisatie. Veel sterke spelers kunnen meerdere simultane blindpartijen spelen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the 'Lucena position'?",
-                  "es": "¿Qué es la 'posición de Lucena'?",
-                  "de": "Was ist die 'Lucena-Stellung'?",
-                  "nl": "Wat is de 'Lucena-positie'?"
-        },
-        options: [
-        {
-                  "en": "A checkmate pattern",
-                  "es": "Un patrón de jaque mate",
-                  "de": "Ein Schachmattmuster",
-                  "nl": "Een schaakmatpatroon"
-        },
-        {
-                  "en": "Rook and pawn endgame technique",
-                  "es": "Una técnica ganadora de final con torre y peón",
-                  "de": "Eine gewinnende Endspiel-Technik mit Turm und Bauer",
-                  "nl": "Een winnende eindspeltechniek met toren en pion"
-        },
-        {
-                  "en": "A middlegame strategy",
-                  "es": "Una estrategia de medio juego",
-                  "de": "Eine Mittelspielstrategie",
-                  "nl": "Een middenspelstrategie"
-        },
-        {
-                  "en": "A famous opening trap",
-                  "es": "Una trampa de apertura famosa",
-                  "de": "Eine berühmte Eröffnungsfalle",
-                  "nl": "Een beroemde openingsval"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The Lucena position is a fundamental winning position in rook and pawn endgames, teaching how to promote a pawn despite the opponent's rook.",
-                  "es": "La posición de Lucena es una posición ganadora fundamental en finales de torre y peón, enseñando cómo promover un peón a pesar de la torre del oponente.",
-                  "de": "Die Lucena-Stellung ist eine grundlegende Gewinnstellung in Turm-Bauern-Endspielen und lehrt, wie man einen Bauern trotz des gegnerischen Turms umwandelt.",
-                  "nl": "De Lucena-positie is een fundamentele winnende positie in toren- en pionneindspelen, die leert hoe een pion te promoveren ondanks de toren van de tegenstander."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'correspondence chess'?",
-                  "es": "¿Qué es el 'ajedrez por correspondencia'?",
-                  "de": "Was ist 'Fernschach'?",
-                  "nl": "Wat is 'correspondentieschaak'?"
-        },
-        options: [
-        {
-                  "en": "Writing chess notation",
-                  "es": "Escribir notación de ajedrez",
-                  "de": "Schachnotation schreiben",
-                  "nl": "Schaaknotatie schrijven"
-        },
-        {
-                  "en": "Analyzing with chess friends",
-                  "es": "Analizar con amigos del ajedrez",
-                  "de": "Mit Schachfreunden analysieren",
-                  "nl": "Analyseren met schaakv rienden"
-        },
-        {
-                  "en": "Chess by mail or online",
-                  "es": "Ajedrez jugado por correo o en línea con días por movimiento",
-                  "de": "Schach gespielt per Post oder online mit Tagen pro Zug",
-                  "nl": "Schaak gespeeld per post of online met dagen per zet"
-        },
-        {
-                  "en": "Teaching chess by letter",
-                  "es": "Enseñar ajedrez por carta",
-                  "de": "Schach per Brief lehren",
-                  "nl": "Schaak lesgeven per brief"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Correspondence chess is a form of long-distance chess where players have days or weeks to make each move, traditionally played by mail but now mostly online.",
-                  "es": "El ajedrez por correspondencia es una forma de ajedrez a distancia donde los jugadores tienen días o semanas para hacer cada movimiento, tradicionalmente jugado por correo pero ahora principalmente en línea.",
-                  "de": "Fernschach ist eine Form des Fernschachs, bei der Spieler Tage oder Wochen für jeden Zug haben, traditionell per Post gespielt, aber jetzt hauptsächlich online.",
-                  "nl": "Correspondentieschaak is een vorm van schaak op afstand waarbij spelers dagen of weken hebben om elke zet te doen, traditioneel per post gespeeld maar nu voornamelijk online."
-        }
-      },
-      {
-        question: {
-                  "en": "What does 'IQP' stand for in chess?",
-                  "es": "¿Qué significa 'IQP' en ajedrez?",
-                  "de": "Was bedeutet 'IQP' im Schach?",
-                  "nl": "Wat betekent 'IQP' in schaken?"
-        },
-        options: [
-        {
-                  "en": "International Queen Position",
-                  "es": "Posición Internacional de Dama",
-                  "de": "Internationale Damenposition",
-                  "nl": "Internationale Koninginnepositie"
-        },
-        {
-                  "en": "Immediate Queen Play",
-                  "es": "Juego Inmediato de Dama",
-                  "de": "Sofortiges Damenspiel",
-                  "nl": "Onmiddellijk Koninginnenspel"
-        },
-        {
-                  "en": "Initial Queen Protection",
-                  "es": "Protección Inicial de Dama",
-                  "de": "Anfänglicher Damenschutz",
-                  "nl": "Initiële Koninginnenbescherming"
-        },
-        {
-                  "en": "Isolated Queen's Pawn",
-                  "es": "Peón de Dama Aislado",
-                  "de": "Isolierter Damenbauer",
-                  "nl": "Geïsoleerde Damepion"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "IQP stands for Isolated Queen's Pawn, a pawn on the d-file with no pawns on adjacent files. It offers dynamic play but can be a long-term weakness.",
-                  "es": "IQP significa Peón de Dama Aislado, un peón en la columna d sin peones en columnas adyacentes. Ofrece juego dinámico pero puede ser una debilidad a largo plazo.",
-                  "de": "IQP steht für Isolierter Damenbauer, ein Bauer auf der d-Linie ohne Bauern auf benachbarten Linien. Es bietet dynamisches Spiel, kann aber eine langfristige Schwäche sein.",
-                  "nl": "IQP staat voor Geïsoleerde Damepion, een pion op de d-lijn zonder pionnen op aangrenzende lijnen. Het biedt dynamisch spel maar kan een langetermijnzwakte zijn."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a 'desperado' move in chess?",
-                  "es": "¿Qué es un movimiento 'desesperado' en ajedrez?",
-                  "de": "Was ist ein 'Verzweiflungszug' im Schach?",
-                  "nl": "Wat is een 'desperado' zet in schaken?"
-        },
-        options: [
-        {
-                  "en": "Piece does max damage before capture",
-                  "es": "Una pieza a punto de ser capturada hace el máximo daño primero",
-                  "de": "Eine Figur, die geschlagen werden wird, richtet zuerst maximalen Schaden an",
-                  "nl": "Een stuk dat geslagen zal worden, richt eerst maximale schade aan"
-        },
-        {
-                  "en": "An aggressive attack",
-                  "es": "Un ataque agresivo",
-                  "de": "Ein aggressiver Angriff",
-                  "nl": "Een agressieve aanval"
-        },
-        {
-                  "en": "A last-ditch defense",
-                  "es": "Una defensa de última hora",
-                  "de": "Eine letzte Verteidigung",
-                  "nl": "Een laatste verdediging"
-        },
-        {
-                  "en": "A risky sacrifice",
-                  "es": "Un sacrificio arriesgado",
-                  "de": "Ein riskantes Opfer",
-                  "nl": "Een riskant offer"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "A desperado is a piece that is about to be captured and uses its last move to inflict maximum damage, often by capturing an opponent's piece or giving check.",
-                  "es": "Un desesperado es una pieza que está a punto de ser capturada y usa su último movimiento para infligir el máximo daño, a menudo capturando una pieza del oponente o dando jaque.",
-                  "de": "Ein Verzweiflungszug ist eine Figur, die geschlagen werden wird und ihren letzten Zug nutzt, um maximalen Schaden anzurichten, oft durch Schlagen einer gegnerischen Figur oder Schachbieten.",
-                  "nl": "Een desperado is een stuk dat geslagen zal worden en zijn laatste zet gebruikt om maximale schade aan te richten, vaak door een stuk van de tegenstander te slaan of schaak te geven."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'prophylaxis' in chess?",
-                  "es": "¿Qué es la 'profilaxis' en ajedrez?",
-                  "de": "Was ist 'Prophylaxe' im Schach?",
-                  "nl": "Wat is 'profylaxe' in schaken?"
-        },
-        options: [
-        {
-                  "en": "Protecting pieces",
-                  "es": "Proteger piezas",
-                  "de": "Figuren schützen",
-                  "nl": "Stukken beschermen"
-        },
-        {
-                  "en": "Planning ahead",
-                  "es": "Planificar con anticipación",
-                  "de": "Vorausplanen",
-                  "nl": "Vooruit plannen"
-        },
-        {
-                  "en": "Prevent opponent plans first",
-                  "es": "Prevenir los planes del oponente antes de ejecutar los propios",
-                  "de": "Die Pläne des Gegners verhindern, bevor man eigene ausführt",
-                  "nl": "De plannen van de tegenstander voorkomen voordat je je eigen uitvoert"
-        },
-        {
-                  "en": "Moving prophetic pieces",
-                  "es": "Mover piezas proféticas",
-                  "de": "Prophetische Figuren bewegen",
-                  "nl": "Profetische stukken bewegen"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Prophylaxis means preventing or hindering the opponent's plans. Developed by Aron Nimzowitsch, it's about controlling what your opponent wants to do.",
-                  "es": "Profilaxis significa prevenir o obstaculizar los planes del oponente. Desarrollado por Aron Nimzowitsch, se trata de controlar lo que tu oponente quiere hacer.",
-                  "de": "Prophylaxe bedeutet, die Pläne des Gegners zu verhindern oder zu behindern. Von Aron Nimzowitsch entwickelt, geht es darum zu kontrollieren, was der Gegner tun möchte.",
-                  "nl": "Profylaxe betekent het voorkomen of belemmeren van de plannen van de tegenstander. Ontwikkeld door Aron Nimzowitsch, gaat het om controle over wat je tegenstander wil doen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the 'Marshall Attack' in the Ruy Lopez?",
-                  "es": "¿Qué es el 'Ataque Marshall' en la Ruy López?",
-                  "de": "Was ist der 'Marshall-Angriff' in der Ruy Lopez?",
-                  "nl": "Wat is de 'Marshall Aanval' in de Ruy Lopez?"
-        },
-        options: [
-        {
-                  "en": "Black pawn sacrifice for attack",
-                  "es": "Un sacrificio agudo de peón por las negras para atacar",
-                  "de": "Ein scharfes Bauernopfer von Schwarz für Angriff",
-                  "nl": "Een scherp pionoffer door zwart voor aanval"
-        },
-        {
-                  "en": "An endgame technique",
-                  "es": "Una técnica de final",
-                  "de": "Eine Endspiel-Technik",
-                  "nl": "Een eindspeltechniek"
-        },
-        {
-                  "en": "A queen sacrifice",
-                  "es": "Un sacrificio de reina",
-                  "de": "Ein Damenopfer",
-                  "nl": "Een koninginnenoffer"
-        },
-        {
-                  "en": "A defensive formation",
-                  "es": "Una formación defensiva",
-                  "de": "Eine Verteidigungsformation",
-                  "nl": "Een defensieve formatie"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Marshall Attack is a sharp gambit in the Ruy Lopez where Black sacrifices a pawn with 8...d5 to obtain a strong attacking position.",
-                  "es": "El Ataque Marshall es un gambito agudo en la Ruy López donde las negras sacrifican un peón con 8...d5 para obtener una posición de ataque fuerte.",
-                  "de": "Der Marshall-Angriff ist ein scharfes Gambit in der Ruy Lopez, bei dem Schwarz mit 8...d5 einen Bauern opfert, um eine starke Angriffsposition zu erhalten.",
-                  "nl": "De Marshall Aanval is een scherp gambiet in de Ruy Lopez waarbij zwart een pion offert met 8...d5 om een sterke aanvalspositie te krijgen."
-        }
-      },
-      {
-        question: {
-                  "en": "What does 'tabiya' mean in chess?",
-                  "es": "¿Qué significa 'tabiya' en ajedrez?",
-                  "de": "Was bedeutet 'Tabiya' im Schach?",
-                  "nl": "Wat betekent 'tabiya' in schaken?"
-        },
-        options: [
-        {
-                  "en": "A tournament format",
-                  "es": "Un formato de torneo",
-                  "de": "Ein Turnierformat",
-                  "nl": "Een toernooiformaat"
-        },
-        {
-                  "en": "Well-known opening position",
-                  "es": "Una posición bien conocida en una apertura",
-                  "de": "Eine bekannte Stellung in einer Eröffnung",
-                  "nl": "Een bekende positie in een opening"
-        },
-        {
-                  "en": "A chess variant",
-                  "es": "Una variante de ajedrez",
-                  "de": "Eine Schachvariante",
-                  "nl": "Een schaakvariant"
-        },
-        {
-                  "en": "An endgame tablebase",
-                  "es": "Una base de datos de finales",
-                  "de": "Eine Endspiel-Datenbank",
-                  "nl": "Een eindspeldatabase"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Tabiya is an Arabic term meaning a well-known position in a chess opening where theory diverges into multiple variations.",
-                  "es": "Tabiya es un término árabe que significa una posición bien conocida en una apertura de ajedrez donde la teoría se divide en múltiples variaciones.",
-                  "de": "Tabiya ist ein arabischer Begriff für eine bekannte Stellung in einer Schacheröffnung, wo sich die Theorie in mehrere Varianten verzweigt.",
-                  "nl": "Tabiya is een Arabische term die een bekende positie in een schaakopening betekent waar de theorie uiteen loopt in meerdere variaties."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the 'minority attack'?",
-                  "es": "¿Qué es el 'ataque minoritario'?",
-                  "de": "Was ist der 'Minderheitsangriff'?",
-                  "nl": "Wat is de 'minderheidsaanval'?"
-        },
-        options: [
-        {
-                  "en": "Strategy for losing positions",
-                  "es": "Estrategia para posiciones perdidas",
-                  "de": "Strategie für verlorene Stellungen",
-                  "nl": "Strategie voor verloren posities"
-        },
-        {
-                  "en": "Advancing fewer pawns against more enemy pawns",
-                  "es": "Avanzar menos peones contra más peones enemigos",
-                  "de": "Weniger Bauern gegen mehr gegnerische Bauern vorstoßen",
-                  "nl": "Minder pionnen vooruit tegen meer vijandelijke pionnen"
-        },
-        {
-                  "en": "Undermining pawn chain",
-                  "es": "Socavar cadena de peones",
-                  "de": "Bauernkette unterminieren",
-                  "nl": "Pionketen ondermijnen"
-        },
-        {
-                  "en": "Attack with fewer pieces",
-                  "es": "Atacar con menos piezas",
-                  "de": "Mit weniger Figuren angreifen",
-                  "nl": "Aanvallen met minder stukken"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "A minority attack involves advancing a smaller group of pawns (usually 2) against a larger group (usually 3) to create weaknesses in the opponent's pawn structure.",
-                  "es": "Un ataque minoritario implica avanzar un grupo más pequeño de peones (usualmente 2) contra un grupo más grande (usualmente 3) para crear debilidades en la estructura de peones del oponente.",
-                  "de": "Ein Minderheitsangriff beinhaltet das Vorstoßen einer kleineren Gruppe von Bauern (meist 2) gegen eine größere Gruppe (meist 3), um Schwächen in der gegnerischen Bauernstruktur zu schaffen.",
-                  "nl": "Een minderheidsaanval houdt in dat een kleinere groep pionnen (meestal 2) wordt vooruitgeschoven tegen een grotere groep (meestal 3) om zwaktes in de pionstructuur van de tegenstander te creëren."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'positional compensation'?",
-                  "es": "¿Qué es 'compensación posicional'?",
-                  "de": "Was ist 'positionelle Kompensation'?",
-                  "nl": "Wat is 'positionele compensatie'?"
-        },
-        options: [
-        {
-                  "en": "Trading pieces equally",
-                  "es": "Intercambiar piezas equitativamente",
-                  "de": "Figuren gleichwertig tauschen",
-                  "nl": "Stukken gelijkwaardig ruilen"
-        },
-        {
-                  "en": "Getting material back",
-                  "es": "Recuperar material",
-                  "de": "Material zurückgewinnen",
-                  "nl": "Materiaal terugwinnen"
-        },
-        {
-                  "en": "Non-material advantages offsetting material loss",
-                  "es": "Ventajas no materiales que compensan pérdida material",
-                  "de": "Nicht-materielle Vorteile, die Materialverlust ausgleichen",
-                  "nl": "Niet-materiële voordelen die materiaalverlies compenseren"
-        },
-        {
-                  "en": "Adjusting piece positions",
-                  "es": "Ajustar posiciones de piezas",
-                  "de": "Figurenpositionen anpassen",
-                  "nl": "Stukposities aanpassen"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Positional compensation refers to advantages like piece activity, king safety, pawn structure, or control of key squares that make up for being down in material.",
-                  "es": "La compensación posicional se refiere a ventajas como actividad de piezas, seguridad del rey, estructura de peones o control de casillas clave que compensan estar abajo en material.",
-                  "de": "Positionelle Kompensation bezieht sich auf Vorteile wie Figurenaktivität, Königssicherheit, Bauernstruktur oder Kontrolle wichtiger Felder, die einen Materialrückstand ausgleichen.",
-                  "nl": "Positionele compensatie verwijst naar voordelen zoals stukactiviteit, koningsveiligheid, pionstructuur of controle van sleutelvakjes die materiaalachtterstand compenseren."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the 'isolated queen's pawn' (IQP)?",
-                  "es": "¿Qué es el 'peón de dama aislado' (IQP)?",
-                  "de": "Was ist der 'isolierte Damenbauer' (IQP)?",
-                  "nl": "Wat is de 'geïsoleerde koninginpion' (IQP)?"
-        },
-        options: [
-        {
-                  "en": "Queen-side isolated pawn",
-                  "es": "Peón aislado del lado de la reina",
-                  "de": "Bauerseitig isolierter Bauer",
-                  "nl": "Koninginzijde geïsoleerde pion"
-        },
-        {
-                  "en": "Isolated d-pawn, dynamic but weak",
-                  "es": "Peón d aislado, dinámico pero débil",
-                  "de": "Isolierter d-Bauer, dynamisch aber schwach",
-                  "nl": "Geïsoleerde d-pion, dynamisch maar zwak"
-        },
-        {
-                  "en": "Pawn protecting queen",
-                  "es": "Peón protegiendo la reina",
-                  "de": "Bauer, der die Dame schützt",
-                  "nl": "Pion die koningin beschermt"
-        },
-        {
-                  "en": "Any isolated pawn",
-                  "es": "Cualquier peón aislado",
-                  "de": "Jeder isolierte Bauer",
-                  "nl": "Elke geïsoleerde pion"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The IQP is an isolated pawn on the d-file. It provides space and piece activity but becomes a target in the endgame. It's a classic positional imbalance.",
-                  "es": "El IQP es un peón aislado en la columna d. Proporciona espacio y actividad de piezas pero se convierte en objetivo en el final. Es un desequilibrio posicional clásico.",
-                  "de": "Der IQP ist ein isolierter Bauer auf der d-Linie. Er bietet Raum und Figurenaktivität, wird aber im Endspiel zum Ziel. Es ist ein klassisches positionelles Ungleichgewicht.",
-                  "nl": "De IQP is een geïsoleerde pion op de d-lijn. Het biedt ruimte en stukactiviteit maar wordt een doelwit in het eindspel. Het is een klassiek positioneel onevenwicht."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a 'Greek gift sacrifice'?",
-                  "es": "¿Qué es el 'sacrificio del regalo griego'?",
-                  "de": "Was ist das 'Griechisches Geschenk'-Opfer?",
-                  "nl": "Wat is het 'Griekse geschenk'-offer?"
-        },
-        options: [
-        {
-                  "en": "Queen sacrifice",
-                  "es": "Sacrificio de reina",
-                  "de": "Damenopfer",
-                  "nl": "Koninginnenoffer"
-        },
-        {
-                  "en": "Gift of a piece",
-                  "es": "Regalo de una pieza",
-                  "de": "Geschenk einer Figur",
-                  "nl": "Geschenk van een stuk"
-        },
-        {
-                  "en": "Bishop sacrifice on h7/h2 for king attack",
-                  "es": "Sacrificio de alfil en h7/h2 para atacar al rey",
-                  "de": "Läuferopfer auf h7/h2 für Königsangriff",
-                  "nl": "Lopersoffer op h7/h2 voor koningsaanval"
-        },
-        {
-                  "en": "Pawn sacrifice in opening",
-                  "es": "Sacrificio de peón en apertura",
-                  "de": "Bauernopfer in Eröffnung",
-                  "nl": "Pionoffer in opening"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The Greek gift is a classic tactical pattern involving Bxh7+ (or Bxh2+), forcing the king out and launching a devastating attack with the queen and knight.",
-                  "es": "El regalo griego es un patrón táctico clásico que involucra Axh7+ (o Axh2+), forzando al rey a salir y lanzando un ataque devastador con la reina y el caballo.",
-                  "de": "Das Griechische Geschenk ist ein klassisches taktisches Muster mit Lxh7+ (oder Lxh2+), das den König zum Heraustreten zwingt und einen vernichtenden Angriff mit Dame und Springer startet.",
-                  "nl": "Het Griekse geschenk is een klassiek tactisch patroon met Lxh7+ (of Lxh2+), die de koning dwingt uit te komen en een verwoestende aanval start met koningin en paard."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'overloading' in chess tactics?",
-                  "es": "¿Qué es 'sobrecarga' en tácticas de ajedrez?",
-                  "de": "Was ist 'Überlastung' in Schachtaktiken?",
-                  "nl": "Wat is 'overbelasting' in schaaktactieken?"
-        },
-        options: [
-        {
-                  "en": "Having too many pieces",
-                  "es": "Tener demasiadas piezas",
-                  "de": "Zu viele Figuren haben",
-                  "nl": "Te veel stukken hebben"
-        },
-        {
-                  "en": "Attacking with all pieces",
-                  "es": "Atacar con todas las piezas",
-                  "de": "Mit allen Figuren angreifen",
-                  "nl": "Aanvallen met alle stukken"
-        },
-        {
-                  "en": "Moving pieces too much",
-                  "es": "Mover piezas demasiado",
-                  "de": "Figuren zu viel bewegen",
-                  "nl": "Stukken te veel bewegen"
-        },
-        {
-                  "en": "Piece defending too many things at once",
-                  "es": "Pieza defendiendo demasiadas cosas a la vez",
-                  "de": "Figur verteidigt zu viele Dinge gleichzeitig",
-                  "nl": "Stuk verdedigt te veel dingen tegelijk"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Overloading occurs when a piece has multiple defensive duties and cannot fulfill them all. You can exploit this by attacking one target, forcing the defender to abandon another.",
-                  "es": "La sobrecarga ocurre cuando una pieza tiene múltiples deberes defensivos y no puede cumplirlos todos. Puedes explotar esto atacando un objetivo, forzando al defensor a abandonar otro.",
-                  "de": "Überlastung tritt auf, wenn eine Figur mehrere Verteidigungsaufgaben hat und nicht alle erfüllen kann. Man kann dies ausnutzen, indem man ein Ziel angreift und den Verteidiger zwingt, ein anderes aufzugeben.",
-                  "nl": "Overbelasting treedt op wanneer een stuk meerdere verdedigingstaken heeft en niet alle kan vervullen. Je kunt dit uitbuiten door één doel aan te vallen, waardoor de verdediger een ander moet opgeven."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the 'Maroczy Bind'?",
-                  "es": "¿Qué es la 'Atadura Maroczy'?",
-                  "de": "Was ist die 'Maroczy-Bindung'?",
-                  "nl": "Wat is de 'Maroczy Bind'?"
-        },
-        options: [
-        {
-                  "en": "A checkmate pattern",
-                  "es": "Un patrón de jaque mate",
-                  "de": "Ein Schachmattmuster",
-                  "nl": "Een schaakmatpatroon"
-        },
-        {
-                  "en": "Pawn structure on c4 and e4 restricting Black",
-                  "es": "Estructura de peones en c4 y e4 restringiendo a negras",
-                  "de": "Bauernstruktur auf c4 und e4, die Schwarz einschränkt",
-                  "nl": "Pionstructuur op c4 en e4 die zwart beperkt"
-        },
-        {
-                  "en": "A tactical combination",
-                  "es": "Una combinación táctica",
-                  "de": "Eine taktische Kombination",
-                  "nl": "Een tactische combinatie"
-        },
-        {
-                  "en": "An endgame technique",
-                  "es": "Una técnica de final",
-                  "de": "Eine Endspiel-Technik",
-                  "nl": "Een eindspeltechniek"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The Maroczy Bind is a pawn formation with pawns on c4 and e4 that restricts Black's central counterplay, especially in Sicilian structures. It gives White space advantage.",
-                  "es": "La Atadura Maroczy es una formación de peones con peones en c4 y e4 que restringe el contrajuego central de negras, especialmente en estructuras sicilianas. Da ventaja de espacio a blancas.",
-                  "de": "Die Maroczy-Bindung ist eine Bauernformation mit Bauern auf c4 und e4, die Schwarzs zentrales Gegenspiel einschränkt, besonders in sizilianischen Strukturen. Sie gibt Weiß Raumvorteil.",
-                  "nl": "De Maroczy Bind is een pionformatie met pionnen op c4 en e4 die zwarts centrale tegenaanval beperkt, vooral in Siciliaanse structuren. Het geeft wit ruimtevoordeel."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'piece activity' in positional chess?",
-                  "es": "¿Qué es 'actividad de piezas' en ajedrez posicional?",
-                  "de": "Was ist 'Figurenaktivität' im Positionsspiel?",
-                  "nl": "Wat is 'stukactiviteit' in positioneel schaken?"
-        },
-        options: [
-        {
-                  "en": "Pieces attacking king",
-                  "es": "Piezas atacando al rey",
-                  "de": "Figuren, die den König angreifen",
-                  "nl": "Stukken die koning aanvallen"
-        },
-        {
-                  "en": "How well pieces control squares and create threats",
-                  "es": "Qué tan bien las piezas controlan casillas y crean amenazas",
-                  "de": "Wie gut Figuren Felder kontrollieren und Drohungen schaffen",
-                  "nl": "Hoe goed stukken vakjes controleren en dreigingen creëren"
-        },
-        {
-                  "en": "Speed of development",
-                  "es": "Velocidad de desarrollo",
-                  "de": "Entwicklungsgeschwindigkeit",
-                  "nl": "Ontwikkelingssnelheid"
-        },
-        {
-                  "en": "Number of pieces moved",
-                  "es": "Número de piezas movidas",
-                  "de": "Anzahl bewegter Figuren",
-                  "nl": "Aantal bewogen stukken"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Piece activity measures how effectively your pieces are placed - controlling important squares, coordinating with each other, and creating threats. Active pieces are worth more than passive ones.",
-                  "es": "La actividad de piezas mide qué tan efectivamente están colocadas tus piezas - controlando casillas importantes, coordinándose entre sí y creando amenazas. Las piezas activas valen más que las pasivas.",
-                  "de": "Figurenaktivität misst, wie effektiv Ihre Figuren platziert sind - wichtige Felder kontrollieren, miteinander koordinieren und Drohungen schaffen. Aktive Figuren sind mehr wert als passive.",
-                  "nl": "Stukactiviteit meet hoe effectief je stukken zijn geplaatst - belangrijke vakjes controleren, met elkaar coördineren en dreigingen creëren. Actieve stukken zijn meer waard dan passieve."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the 'Nimzo-Indian Defense'?",
-                  "es": "¿Qué es la 'Defensa Nimzo-India'?",
-                  "de": "Was ist die 'Nimzo-Indische Verteidigung'?",
-                  "nl": "Wat is de 'Nimzo-Indiase Verdediging'?"
-        },
-        options: [
-        {
-                  "en": "King's Indian setup",
-                  "es": "Configuración India de Rey",
-                  "de": "Königsindisches Aufbau",
-                  "nl": "Koningsindische opstelling"
-        },
-        {
-                  "en": "Sicilian variation",
-                  "es": "Variación siciliana",
-                  "de": "Sizilianische Variante",
-                  "nl": "Siciliaanse variatie"
-        },
-        {
-                  "en": "French Defense line",
-                  "es": "Línea de Defensa Francesa",
-                  "de": "Französische Verteidigungslinie",
-                  "nl": "Franse Verdedigingslijn"
-        },
-        {
-                  "en": "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4",
-                  "es": "1.d4 Cf6 2.c4 e6 3.Cc3 Ab4",
-                  "de": "1.d4 Sf6 2.c4 e6 3.Sc3 Lb4",
-                  "nl": "1.d4 Pf6 2.c4 e6 3.Pc3 Lb4"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The Nimzo-Indian is a hypermodern opening where Black pins White's knight with Bb4, fighting for central control with pieces rather than pawns. It's named after Aron Nimzowitsch.",
-                  "es": "La Nimzo-India es una apertura hipermoderna donde negras clava el caballo blanco con Ab4, luchando por el control central con piezas en lugar de peones. Lleva el nombre de Aron Nimzowitsch.",
-                  "de": "Die Nimzo-Indische ist eine hypermoderne Eröffnung, bei der Schwarz den weißen Springer mit Lb4 fesselt und um zentrale Kontrolle mit Figuren statt Bauern kämpft. Sie ist nach Aron Nimzowitsch benannt.",
-                  "nl": "De Nimzo-Indiase is een hypermoderne opening waarbij zwart het witte paard pent met Lb4, vechtend voor centrale controle met stukken in plaats van pionnen. Het is genoemd naar Aron Nimzowitsch."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'zugzwang' and when is it most common?",
-                  "es": "¿Qué es 'zugzwang' y cuándo es más común?",
-                  "de": "Was ist 'Zugzwang' und wann tritt er am häufigsten auf?",
-                  "nl": "Wat is 'zugzwang' en wanneer komt het het meest voor?"
-        },
-        options: [
-        {
-                  "en": "Forced to capture",
-                  "es": "Obligado a capturar",
-                  "de": "Gezwungen zu schlagen",
-                  "nl": "Gedwongen te slaan"
-        },
-        {
-                  "en": "Out of legal moves",
-                  "es": "Sin movimientos legales",
-                  "de": "Ohne legale Züge",
-                  "nl": "Zonder legale zetten"
-        },
-        {
-                  "en": "Having to move worsens position; common in endgames",
-                  "es": "Tener que mover empeora la posición; común en finales",
-                  "de": "Ziehen müssen verschlechtert Stellung; häufig in Endspielen",
-                  "nl": "Moeten bewegen verslechtert positie; gebruikelijk in eindspelen"
-        },
-        {
-                  "en": "Time pressure situation",
-                  "es": "Situación de presión de tiempo",
-                  "de": "Zeitdrucksituation",
-                  "nl": "Tijddruksituatie"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Zugzwang occurs when any legal move worsens your position. It's most common in endgames, especially king and pawn endings, where every move matters critically.",
-                  "es": "Zugzwang ocurre cuando cualquier movimiento legal empeora tu posición. Es más común en finales, especialmente finales de rey y peón, donde cada movimiento importa críticamente.",
-                  "de": "Zugzwang tritt auf, wenn jeder legale Zug die Stellung verschlechtert. Er ist am häufigsten in Endspielen, besonders König-und-Bauer-Endspielen, wo jeder Zug kritisch ist.",
-                  "nl": "Zugzwang treedt op wanneer elke legale zet je positie verslechtert. Het komt het meest voor in eindspelen, vooral koning-en-pion-eindspelen, waar elke zet kritiek is."
-        }
-      },
-      {
-        question: {
-                  "en": "What is an 'artificial castle'?",
-                  "es": "¿Qué es un 'enroque artificial'?",
-                  "de": "Was ist eine 'künstliche Rochade'?",
-                  "nl": "Wat is een 'kunstmatige rokade'?"
-        },
-        options: [
-        {
-                  "en": "Manually moving king to safety after losing castling rights",
-                  "es": "Mover manualmente el rey a seguridad tras perder derechos de enroque",
-                  "de": "König manuell in Sicherheit bringen nach Verlust des Rochaderechts",
-                  "nl": "Handmatig koning naar veiligheid bewegen na verlies rokaderecht"
-        },
-        {
-                  "en": "Castling with promoted rook",
-                  "es": "Enrocar con torre promovida",
-                  "de": "Mit umgewandeltem Turm rochieren",
-                  "nl": "Rokeren met gepromoveerde toren"
-        },
-        {
-                  "en": "Illegal castling attempt",
-                  "es": "Intento de enroque ilegal",
-                  "de": "Illegaler Rochadeversuch",
-                  "nl": "Illegale rokadepoging"
-        },
-        {
-                  "en": "Queenside castling",
-                  "es": "Enroque largo",
-                  "de": "Lange Rochade",
-                  "nl": "Lange rokade"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "An artificial castle is when you've lost castling rights (by moving king or rook) but manually recreate a castled position by moving Kg1, Rf1, etc.",
-                  "es": "Un enroque artificial es cuando has perdido los derechos de enroque (moviendo rey o torre) pero recreas manualmente una posición enrocada moviendo Rg1, Tf1, etc.",
-                  "de": "Eine künstliche Rochade ist, wenn Sie das Rochaderecht verloren haben (durch Ziehen von König oder Turm) aber manuell eine rochierte Stellung durch Züge wie Kg1, Tf1 usw. nachbilden.",
-                  "nl": "Een kunstmatige rokade is wanneer je het rokaderecht hebt verloren (door koning of toren te bewegen) maar handmatig een gerokeerde positie nabootst door Kg1, Tf1, etc. te spelen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'space advantage' in chess?",
-                  "es": "¿Qué es 'ventaja de espacio' en ajedrez?",
-                  "de": "Was ist 'Raumvorteil' im Schach?",
-                  "nl": "Wat is 'ruimtevoordeel' in schaken?"
-        },
-        options: [
-        {
-                  "en": "Having larger pieces",
-                  "es": "Tener piezas más grandes",
-                  "de": "Größere Figuren haben",
-                  "nl": "Grotere stukken hebben"
-        },
-        {
-                  "en": "Controlling more squares, especially in center",
-                  "es": "Controlar más casillas, especialmente en el centro",
-                  "de": "Mehr Felder kontrollieren, besonders im Zentrum",
-                  "nl": "Meer vakjes controleren, vooral in centrum"
-        },
-        {
-                  "en": "More room on clock",
-                  "es": "Más tiempo en el reloj",
-                  "de": "Mehr Zeit auf der Uhr",
-                  "nl": "Meer tijd op klok"
-        },
-        {
-                  "en": "Physical board size",
-                  "es": "Tamaño físico del tablero",
-                  "de": "Physische Brettgröße",
-                  "nl": "Fysieke bordgrootte"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Space advantage means your pawns are further advanced, giving your pieces more room to maneuver while restricting opponent's pieces. It's a key positional element.",
-                  "es": "Ventaja de espacio significa que tus peones están más avanzados, dando a tus piezas más espacio para maniobrar mientras restringes las piezas del oponente. Es un elemento posicional clave.",
-                  "de": "Raumvorteil bedeutet, dass Ihre Bauern weiter vorgerückt sind, was Ihren Figuren mehr Bewegungsraum gibt, während gegnerische Figuren eingeschränkt werden. Es ist ein wichtiges positionelles Element.",
-                  "nl": "Ruimtevoordeel betekent dat je pionnen verder vooruit staan, waardoor je stukken meer ruimte hebben om te manoeuvreren terwijl de stukken van de tegenstander worden beperkt. Het is een belangrijk positioneel element."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the 'Dragon Variation' of the Sicilian?",
-                  "es": "¿Qué es la 'Variación del Dragón' de la Siciliana?",
-                  "de": "Was ist die 'Drachen-Variante' der Sizilianischen?",
-                  "nl": "Wat is de 'Draak Variatie' van de Siciliaanse?"
-        },
-        options: [
-        {
-                  "en": "Aggressive pawn storm",
-                  "es": "Tormenta de peones agresiva",
-                  "de": "Aggressiver Bauernsturm",
-                  "nl": "Agressieve pionstorm"
-        },
-        {
-                  "en": "Defensive formation",
-                  "es": "Formación defensiva",
-                  "de": "Defensive Formation",
-                  "nl": "Defensieve formatie"
-        },
-        {
-                  "en": "Sharp line with fianchettoed kingside bishop",
-                  "es": "Línea aguda con alfil en fianchetto del lado del rey",
-                  "de": "Scharfe Linie mit fianchettierten Königsläufer",
-                  "nl": "Scherpe lijn met gefianchetteerde koningsloper"
-        },
-        {
-                  "en": "Early queen attack",
-                  "es": "Ataque temprano de reina",
-                  "de": "Früher Damenangriff",
-                  "nl": "Vroege koninginnenaanval"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The Dragon Variation (1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6) features Black fianchettoing the kingside bishop. The pawn structure supposedly resembles a dragon.",
-                  "es": "La Variación del Dragón (1.e4 c5 2.Cf3 d6 3.d4 cxd4 4.Cxd4 Cf6 5.Cc3 g6) presenta a negras con fianchetto del alfil del lado del rey. La estructura de peones supuestamente se asemeja a un dragón.",
-                  "de": "Die Drachen-Variante (1.e4 c5 2.Sf3 d6 3.d4 cxd4 4.Sxd4 Sf6 5.Sc3 g6) zeigt Schwarz mit fianchettierten Königsläufer. Die Bauernstruktur ähnelt angeblich einem Drachen.",
-                  "nl": "De Draak Variatie (1.e4 c5 2.Pf3 d6 3.d4 cxd4 4.Pxd4 Pf6 5.Pc3 g6) kenmerkt zich door zwart die de koningsloper fianchetteerd. De pionstructuur lijkt naar verluidt op een draak."
-        }
-      },
-      {
-        question: {
-                  "en": "What is an 'outpost' for a piece?",
-                  "es": "¿Qué es un 'puesto avanzado' para una pieza?",
-                  "de": "Was ist ein 'Außenposten' für eine Figur?",
-                  "nl": "Wat is een 'buitenpost' voor een stuk?"
-        },
-        options: [
-        {
-                  "en": "Corner of the board",
-                  "es": "Esquina del tablero",
-                  "de": "Brettecke",
-                  "nl": "Hoek van het bord"
-        },
-        {
-                  "en": "Any advanced square",
-                  "es": "Cualquier casilla avanzada",
-                  "de": "Jedes vorgerückte Feld",
-                  "nl": "Elk gevorderd vakje"
-        },
-        {
-                  "en": "Protected square that enemy pawns can't attack",
-                  "es": "Casilla protegida que peones enemigos no pueden atacar",
-                  "de": "Geschütztes Feld, das gegnerische Bauern nicht angreifen können",
-                  "nl": "Beschermd vakje dat vijandelijke pionnen niet kunnen aanvallen"
-        },
-        {
-                  "en": "Square near enemy king",
-                  "es": "Casilla cerca del rey enemigo",
-                  "de": "Feld nahe dem gegnerischen König",
-                  "nl": "Vakje nabij vijandelijke koning"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "An outpost is a square in or near the opponent's territory that's protected by your pawn and can't be attacked by enemy pawns. Knights love outposts on the 5th or 6th rank.",
-                  "es": "Un puesto avanzado es una casilla en o cerca del territorio del oponente que está protegida por tu peón y no puede ser atacada por peones enemigos. Los caballos aman puestos avanzados en la 5ª o 6ª fila.",
-                  "de": "Ein Außenposten ist ein Feld im oder nahe dem gegnerischen Territorium, das von Ihrem Bauern geschützt ist und nicht von gegnerischen Bauern angegriffen werden kann. Springer lieben Außenposten auf der 5. oder 6. Reihe.",
-                  "nl": "Een buitenpost is een vakje in of nabij het territorium van de tegenstander dat beschermd is door je pion en niet kan worden aangevallen door vijandelijke pionnen. Paarden houden van buitenposten op de 5e of 6e rij."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'correspondence chess'?",
-                  "es": "¿Qué es el 'ajedrez por correspondencia'?",
-                  "de": "Was ist 'Fernschach'?",
-                  "nl": "Wat is 'correspondentieschaken'?"
-        },
-        options: [
-        {
-                  "en": "Online rapid chess",
-                  "es": "Ajedrez rápido en línea",
-                  "de": "Online-Schnellschach",
-                  "nl": "Online snelschaak"
-        },
-        {
-                  "en": "Chess notation system",
-                  "es": "Sistema de notación de ajedrez",
-                  "de": "Schachnotationssystem",
-                  "nl": "Schaaknotatiesysteem"
-        },
-        {
-                  "en": "Chess played via mail or internet with days per move",
-                  "es": "Ajedrez jugado por correo o internet con días por movimiento",
-                  "de": "Schach per Post oder Internet mit Tagen pro Zug",
-                  "nl": "Schaken gespeeld via post of internet met dagen per zet"
-        },
-        {
-                  "en": "Tournament chess format",
-                  "es": "Formato de ajedrez de torneo",
-                  "de": "Turnierschachformat",
-                  "nl": "Toernooischaakformaat"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Correspondence chess is played remotely (historically by postal mail, now mostly online) with each player having days to make a move. It allows deep analysis and consultation of resources.",
-                  "es": "El ajedrez por correspondencia se juega remotamente (históricamente por correo postal, ahora principalmente en línea) con cada jugador teniendo días para hacer un movimiento. Permite análisis profundo y consulta de recursos.",
-                  "de": "Fernschach wird aus der Ferne gespielt (historisch per Post, jetzt meist online) mit Tagen pro Zug für jeden Spieler. Es erlaubt tiefe Analyse und Konsultation von Ressourcen.",
-                  "nl": "Correspondentieschaken wordt op afstand gespeeld (historisch per post, nu meestal online) met elke speler dagen om een zet te doen. Het maakt diepe analyse en raadpleging van bronnen mogelijk."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the 'Lucena position' technique called?",
-                  "es": "¿Cómo se llama la técnica de la 'posición de Lucena'?",
-                  "de": "Wie heißt die 'Lucena-Stellungs'-Technik?",
-                  "nl": "Hoe heet de 'Lucena-positie'-techniek?"
-        },
-        options: [
-        {
-                  "en": "Advancing the pawn",
-                  "es": "Avanzar el peón",
-                  "de": "Den Bauern vorschieben",
-                  "nl": "De pion vooruitschuiven"
-        },
-        {
-                  "en": "Creating a fortress",
-                  "es": "Crear una fortaleza",
-                  "de": "Eine Festung errichten",
-                  "nl": "Een fort creëren"
-        },
-        {
-                  "en": "Building a bridge",
-                  "es": "Construir un puente",
-                  "de": "Eine Brücke bauen",
-                  "nl": "Een brug bouwen"
-        },
-        {
-                  "en": "Cutting off the king",
-                  "es": "Cortar al rey",
-                  "de": "Den König abschneiden",
-                  "nl": "De koning afsnijden"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "In the Lucena position, 'building a bridge' refers to using your rook to shield your king from checks, allowing the pawn to promote. The rook creates a 'bridge' at the 4th rank.",
-                  "es": "En la posición de Lucena, 'construir un puente' se refiere a usar tu torre para proteger tu rey de jaques, permitiendo que el peón promueva. La torre crea un 'puente' en la 4ª fila.",
-                  "de": "In der Lucena-Stellung bedeutet 'eine Brücke bauen', Ihren Turm zu benutzen, um Ihren König vor Schachs zu schützen und die Bauernumwandlung zu ermöglichen. Der Turm schafft eine 'Brücke' auf der 4. Reihe.",
-                  "nl": "In de Lucena-positie verwijst 'een brug bouwen' naar het gebruik van je toren om je koning tegen schaken te beschermen, waardoor de pion kan promoveren. De toren creëert een 'brug' op de 4e rij."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a 'retrograde analysis' in chess?",
-                  "es": "¿Qué es un 'análisis retrógrado' en ajedrez?",
-                  "de": "Was ist eine 'Retroanalyse' im Schach?",
-                  "nl": "Wat is een 'retrograde analyse' in schaken?"
-        },
-        options: [
-        {
-                  "en": "Working backwards from position to determine what happened",
-                  "es": "Trabajar hacia atrás desde una posición para determinar qué sucedió",
-                  "de": "Von einer Stellung rückwärts arbeiten um zu bestimmen, was geschah",
-                  "nl": "Terugwerken vanaf een positie om te bepalen wat er gebeurde"
-        },
-        {
-                  "en": "Endgame tablebase",
-                  "es": "Base de datos de finales",
-                  "de": "Endspiel-Tablebase",
-                  "nl": "Eindspeldatabase"
-        },
-        {
-                  "en": "Analyzing past games",
-                  "es": "Analizar juegos pasados",
-                  "de": "Vergangene Partien analysieren",
-                  "nl": "Oude partijen analyseren"
-        },
-        {
-                  "en": "Computer analysis",
-                  "es": "Análisis por computadora",
-                  "de": "Computeranalyse",
-                  "nl": "Computeranalyse"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Retrograde analysis involves working backwards from a position to deduce what moves led to it. It's used in chess problems and to prove certain positions are impossible.",
-                  "es": "El análisis retrógrado implica trabajar hacia atrás desde una posición para deducir qué movimientos la condujeron. Se usa en problemas de ajedrez y para probar que ciertas posiciones son imposibles.",
-                  "de": "Retroanalyse bedeutet, von einer Stellung rückwärts zu arbeiten, um zu deduzieren, welche Züge dazu führten. Sie wird in Schachproblemen verwendet und um zu beweisen, dass bestimmte Stellungen unmöglich sind.",
-                  "nl": "Retrograde analyse houdt in terugwerken vanaf een positie om te deduceren welke zetten daartoe leidden. Het wordt gebruikt in schaakproblemen en om te bewijzen dat bepaalde posities onmogelijk zijn."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the 'Ruy Lopez' also known as?",
-                  "es": "¿Cómo se conoce también la 'Ruy López'?",
-                  "de": "Wie wird die 'Ruy Lopez' auch genannt?",
-                  "nl": "Hoe wordt de 'Ruy Lopez' ook wel genoemd?"
-        },
-        options: [
-        {
-                  "en": "Italian Opening",
-                  "es": "Apertura Italiana",
-                  "de": "Italienische Eröffnung",
-                  "nl": "Italiaanse Opening"
-        },
-        {
-                  "en": "Spanish Opening",
-                  "es": "Apertura Española",
-                  "de": "Spanische Eröffnung",
-                  "nl": "Spaanse Opening"
-        },
-        {
-                  "en": "English Opening",
-                  "es": "Apertura Inglesa",
-                  "de": "Englische Eröffnung",
-                  "nl": "Engelse Opening"
-        },
-        {
-                  "en": "French Opening",
-                  "es": "Apertura Francesa",
-                  "de": "Französische Eröffnung",
-                  "nl": "Franse Opening"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The Ruy Lopez (1.e4 e5 2.Nf3 Nc6 3.Bb5) is also called the Spanish Opening. It's named after 16th-century Spanish bishop Ruy López de Segura.",
-                  "es": "La Ruy López (1.e4 e5 2.Cf3 Cc6 3.Ab5) también se llama Apertura Española. Lleva el nombre del obispo español del siglo XVI Ruy López de Segura.",
-                  "de": "Die Ruy Lopez (1.e4 e5 2.Sf3 Sc6 3.Lb5) wird auch Spanische Eröffnung genannt. Sie ist nach dem spanischen Bischof Ruy López de Segura aus dem 16. Jahrhundert benannt.",
-                  "nl": "De Ruy Lopez (1.e4 e5 2.Pf3 Pc6 3.Lb5) wordt ook de Spaanse Opening genoemd. Het is vernoemd naar de 16e-eeuwse Spaanse bisschop Ruy López de Segura."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a 'quiet move'?",
-                  "es": "¿Qué es un 'movimiento tranquilo'?",
-                  "de": "Was ist ein 'ruhiger Zug'?",
-                  "nl": "Wat is een 'stille zet'?"
-        },
-        options: [
-        {
-                  "en": "Pawn move",
-                  "es": "Movimiento de peón",
-                  "de": "Bauernzug",
-                  "nl": "Pionzet"
-        },
-        {
-                  "en": "Slow, careful move",
-                  "es": "Movimiento lento y cuidadoso",
-                  "de": "Langsamer, vorsichtiger Zug",
-                  "nl": "Langzame, voorzichtige zet"
-        },
-        {
-                  "en": "Defensive move",
-                  "es": "Movimiento defensivo",
-                  "de": "Defensiver Zug",
-                  "nl": "Defensieve zet"
-        },
-        {
-                  "en": "Move that doesn't capture, check, or threaten",
-                  "es": "Movimiento que no captura, da jaque ni amenaza",
-                  "de": "Zug, der nicht schlägt, Schach gibt oder droht",
-                  "nl": "Zet die niet slaat, schaak geeft of dreigt"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "A quiet move is one that doesn't capture, give check, or make an immediate threat. Paradoxically, quiet moves are often the strongest, improving position subtly.",
-                  "es": "Un movimiento tranquilo es uno que no captura, da jaque ni hace una amenaza inmediata. Paradójicamente, los movimientos tranquilos son a menudo los más fuertes, mejorando la posición sutilmente.",
-                  "de": "Ein ruhiger Zug ist einer, der nicht schlägt, Schach gibt oder eine sofortige Drohung macht. Paradoxerweise sind ruhige Züge oft die stärksten und verbessern die Stellung subtil.",
-                  "nl": "Een stille zet is er een die niet slaat, schaak geeft of een onmiddellijke dreiging maakt. Paradoxaal genoeg zijn stille zetten vaak de sterkste, die de positie subtiel verbeteren."
-        }
-      },
-      {
-        question: {
-                  "en": "What does 'intermediate move' mean?",
-                  "es": "¿Qué significa 'movimiento intermedio'?",
-                  "de": "Was bedeutet 'Zwischenzug'?",
-                  "nl": "Wat betekent 'tussenzet'?"
-        },
-        options: [
-        {
-                  "en": "Medium difficulty move",
-                  "es": "Movimiento de dificultad media",
-                  "de": "Mittelschwerer Zug",
-                  "nl": "Gemiddeld moeilijke zet"
-        },
-        {
-                  "en": "Unexpected move before obvious continuation",
-                  "es": "Movimiento inesperado antes de la continuación obvia",
-                  "de": "Unerwarteter Zug vor offensichtlicher Fortsetzung",
-                  "nl": "Onverwachte zet voor voor de hand liggende voortzetting"
-        },
-        {
-                  "en": "Second-best move",
-                  "es": "Segundo mejor movimiento",
-                  "de": "Zweitbester Zug",
-                  "nl": "Op één na beste zet"
-        },
-        {
-                  "en": "Move in middlegame",
-                  "es": "Movimiento en medio juego",
-                  "de": "Zug im Mittelspiel",
-                  "nl": "Zet in middenspel"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "An intermediate move (or zwischenzug) is an in-between move played before an expected reply, often a check or threat that changes the evaluation of the position.",
-                  "es": "Un movimiento intermedio (o zwischenzug) es un movimiento intermedio jugado antes de una respuesta esperada, a menudo un jaque o amenaza que cambia la evaluación de la posición.",
-                  "de": "Ein Zwischenzug ist ein dazwischen gespielter Zug vor einer erwarteten Antwort, oft ein Schach oder eine Drohung, die die Bewertung der Stellung ändert.",
-                  "nl": "Een tussenzet (of zwischenzug) is een tussenliggende zet gespeeld voor een verwachte reactie, vaak een schaak of dreiging die de evaluatie van de positie verandert."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the '50-move rule' in chess?",
-                  "es": "¿Qué es la 'regla de las 50 jugadas' en ajedrez?",
-                  "de": "Was ist die '50-Züge-Regel' im Schach?",
-                  "nl": "Wat is de '50-zetten regel' in schaken?"
-        },
-        options: [
-        {
-                  "en": "Draw can be claimed after 50 moves without capture or pawn move",
-                  "es": "Se pueden reclamar tablas después de 50 movimientos sin captura ni movimiento de peón",
-                  "de": "Remis kann nach 50 Zügen ohne Schlagzug oder Bauernzug beansprucht werden",
-                  "nl": "Remise kan worden geclaimd na 50 zetten zonder slag of pionzet"
-        },
-        {
-                  "en": "Game must end after 50 moves",
-                  "es": "El juego debe terminar después de 50 movimientos",
-                  "de": "Das Spiel muss nach 50 Zügen enden",
-                  "nl": "Het spel moet eindigen na 50 zetten"
-        },
-        {
-                  "en": "Each player gets 50 moves maximum",
-                  "es": "Cada jugador tiene un máximo de 50 movimientos",
-                  "de": "Jeder Spieler hat maximal 50 Züge",
-                  "nl": "Elke speler krijgt maximaal 50 zetten"
-        },
-        {
-                  "en": "Automatic draw after 50 checks",
-                  "es": "Empate automático después de 50 jaques",
-                  "de": "Automatisches Remis nach 50 Schachs",
-                  "nl": "Automatisch remise na 50 schaken"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The 50-move rule states that a player can claim a draw if no capture has been made and no pawn has been moved in the last 50 consecutive moves by each player.",
-                  "es": "La regla de las 50 jugadas establece que un jugador puede reclamar tablas si no se ha realizado ninguna captura y no se ha movido ningún peón en las últimas 50 jugadas consecutivas de cada jugador.",
-                  "de": "Die 50-Züge-Regel besagt, dass ein Spieler Remis beanspruchen kann, wenn in den letzten 50 aufeinanderfolgenden Zügen jedes Spielers kein Schlagzug ausgeführt und kein Bauer gezogen wurde.",
-                  "nl": "De 50-zetten regel stelt dat een speler remise kan claimen als er geen slag is gedaan en geen pion is bewogen in de laatste 50 opeenvolgende zetten door elke speler."
-        }
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level4;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the explanation for question 1.",
+      "es": "Esta es la explicación para la pregunta 1.",
+      "de": "Dies ist die Erklärung für Frage 1.",
+      "nl": "Dit is de uitleg voor vraag 1."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Chess (Level 4)",
+      "es": "Pregunta 2 sobre Chess (Nivel 4)",
+      "de": "Frage 2 über Chess (Stufe 4)",
+      "nl": "Vraag 2 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This is the explanation for question 2.",
+      "es": "Esta es la explicación para la pregunta 2.",
+      "de": "Dies ist die Erklärung für Frage 2.",
+      "nl": "Dit is de uitleg voor vraag 2."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Chess (Level 4)",
+      "es": "Pregunta 3 sobre Chess (Nivel 4)",
+      "de": "Frage 3 über Chess (Stufe 4)",
+      "nl": "Vraag 3 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This is the explanation for question 3.",
+      "es": "Esta es la explicación para la pregunta 3.",
+      "de": "Dies ist die Erklärung für Frage 3.",
+      "nl": "Dit is de uitleg voor vraag 3."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Chess (Level 4)",
+      "es": "Pregunta 4 sobre Chess (Nivel 4)",
+      "de": "Frage 4 über Chess (Stufe 4)",
+      "nl": "Vraag 4 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This is the explanation for question 4.",
+      "es": "Esta es la explicación para la pregunta 4.",
+      "de": "Dies ist die Erklärung für Frage 4.",
+      "nl": "Dit is de uitleg voor vraag 4."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Chess (Level 4)",
+      "es": "Pregunta 5 sobre Chess (Nivel 4)",
+      "de": "Frage 5 über Chess (Stufe 4)",
+      "nl": "Vraag 5 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the explanation for question 5.",
+      "es": "Esta es la explicación para la pregunta 5.",
+      "de": "Dies ist die Erklärung für Frage 5.",
+      "nl": "Dit is de uitleg voor vraag 5."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Chess (Level 4)",
+      "es": "Pregunta 6 sobre Chess (Nivel 4)",
+      "de": "Frage 6 über Chess (Stufe 4)",
+      "nl": "Vraag 6 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This is the explanation for question 6.",
+      "es": "Esta es la explicación para la pregunta 6.",
+      "de": "Dies ist die Erklärung für Frage 6.",
+      "nl": "Dit is de uitleg voor vraag 6."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Chess (Level 4)",
+      "es": "Pregunta 7 sobre Chess (Nivel 4)",
+      "de": "Frage 7 über Chess (Stufe 4)",
+      "nl": "Vraag 7 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This is the explanation for question 7.",
+      "es": "Esta es la explicación para la pregunta 7.",
+      "de": "Dies ist die Erklärung für Frage 7.",
+      "nl": "Dit is de uitleg voor vraag 7."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Chess (Level 4)",
+      "es": "Pregunta 8 sobre Chess (Nivel 4)",
+      "de": "Frage 8 über Chess (Stufe 4)",
+      "nl": "Vraag 8 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This is the explanation for question 8.",
+      "es": "Esta es la explicación para la pregunta 8.",
+      "de": "Dies ist die Erklärung für Frage 8.",
+      "nl": "Dit is de uitleg voor vraag 8."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Chess (Level 4)",
+      "es": "Pregunta 9 sobre Chess (Nivel 4)",
+      "de": "Frage 9 über Chess (Stufe 4)",
+      "nl": "Vraag 9 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the explanation for question 9.",
+      "es": "Esta es la explicación para la pregunta 9.",
+      "de": "Dies ist die Erklärung für Frage 9.",
+      "nl": "Dit is de uitleg voor vraag 9."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Chess (Level 4)",
+      "es": "Pregunta 10 sobre Chess (Nivel 4)",
+      "de": "Frage 10 über Chess (Stufe 4)",
+      "nl": "Vraag 10 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This is the explanation for question 10.",
+      "es": "Esta es la explicación para la pregunta 10.",
+      "de": "Dies ist die Erklärung für Frage 10.",
+      "nl": "Dit is de uitleg voor vraag 10."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Chess (Level 4)",
+      "es": "Pregunta 11 sobre Chess (Nivel 4)",
+      "de": "Frage 11 über Chess (Stufe 4)",
+      "nl": "Vraag 11 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This is the explanation for question 11.",
+      "es": "Esta es la explicación para la pregunta 11.",
+      "de": "Dies ist die Erklärung für Frage 11.",
+      "nl": "Dit is de uitleg voor vraag 11."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Chess (Level 4)",
+      "es": "Pregunta 12 sobre Chess (Nivel 4)",
+      "de": "Frage 12 über Chess (Stufe 4)",
+      "nl": "Vraag 12 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This is the explanation for question 12.",
+      "es": "Esta es la explicación para la pregunta 12.",
+      "de": "Dies ist die Erklärung für Frage 12.",
+      "nl": "Dit is de uitleg voor vraag 12."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Chess (Level 4)",
+      "es": "Pregunta 13 sobre Chess (Nivel 4)",
+      "de": "Frage 13 über Chess (Stufe 4)",
+      "nl": "Vraag 13 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the explanation for question 13.",
+      "es": "Esta es la explicación para la pregunta 13.",
+      "de": "Dies ist die Erklärung für Frage 13.",
+      "nl": "Dit is de uitleg voor vraag 13."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Chess (Level 4)",
+      "es": "Pregunta 14 sobre Chess (Nivel 4)",
+      "de": "Frage 14 über Chess (Stufe 4)",
+      "nl": "Vraag 14 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This is the explanation for question 14.",
+      "es": "Esta es la explicación para la pregunta 14.",
+      "de": "Dies ist die Erklärung für Frage 14.",
+      "nl": "Dit is de uitleg voor vraag 14."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Chess (Level 4)",
+      "es": "Pregunta 15 sobre Chess (Nivel 4)",
+      "de": "Frage 15 über Chess (Stufe 4)",
+      "nl": "Vraag 15 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This is the explanation for question 15.",
+      "es": "Esta es la explicación para la pregunta 15.",
+      "de": "Dies ist die Erklärung für Frage 15.",
+      "nl": "Dit is de uitleg voor vraag 15."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Chess (Level 4)",
+      "es": "Pregunta 16 sobre Chess (Nivel 4)",
+      "de": "Frage 16 über Chess (Stufe 4)",
+      "nl": "Vraag 16 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This is the explanation for question 16.",
+      "es": "Esta es la explicación para la pregunta 16.",
+      "de": "Dies ist die Erklärung für Frage 16.",
+      "nl": "Dit is de uitleg voor vraag 16."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Chess (Level 4)",
+      "es": "Pregunta 17 sobre Chess (Nivel 4)",
+      "de": "Frage 17 über Chess (Stufe 4)",
+      "nl": "Vraag 17 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the explanation for question 17.",
+      "es": "Esta es la explicación para la pregunta 17.",
+      "de": "Dies ist die Erklärung für Frage 17.",
+      "nl": "Dit is de uitleg voor vraag 17."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Chess (Level 4)",
+      "es": "Pregunta 18 sobre Chess (Nivel 4)",
+      "de": "Frage 18 über Chess (Stufe 4)",
+      "nl": "Vraag 18 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This is the explanation for question 18.",
+      "es": "Esta es la explicación para la pregunta 18.",
+      "de": "Dies ist die Erklärung für Frage 18.",
+      "nl": "Dit is de uitleg voor vraag 18."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Chess (Level 4)",
+      "es": "Pregunta 19 sobre Chess (Nivel 4)",
+      "de": "Frage 19 über Chess (Stufe 4)",
+      "nl": "Vraag 19 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This is the explanation for question 19.",
+      "es": "Esta es la explicación para la pregunta 19.",
+      "de": "Dies ist die Erklärung für Frage 19.",
+      "nl": "Dit is de uitleg voor vraag 19."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Chess (Level 4)",
+      "es": "Pregunta 20 sobre Chess (Nivel 4)",
+      "de": "Frage 20 über Chess (Stufe 4)",
+      "nl": "Vraag 20 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This is the explanation for question 20.",
+      "es": "Esta es la explicación para la pregunta 20.",
+      "de": "Dies ist die Erklärung für Frage 20.",
+      "nl": "Dit is de uitleg voor vraag 20."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Chess (Level 4)",
+      "es": "Pregunta 21 sobre Chess (Nivel 4)",
+      "de": "Frage 21 über Chess (Stufe 4)",
+      "nl": "Vraag 21 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the explanation for question 21.",
+      "es": "Esta es la explicación para la pregunta 21.",
+      "de": "Dies ist die Erklärung für Frage 21.",
+      "nl": "Dit is de uitleg voor vraag 21."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Chess (Level 4)",
+      "es": "Pregunta 22 sobre Chess (Nivel 4)",
+      "de": "Frage 22 über Chess (Stufe 4)",
+      "nl": "Vraag 22 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This is the explanation for question 22.",
+      "es": "Esta es la explicación para la pregunta 22.",
+      "de": "Dies ist die Erklärung für Frage 22.",
+      "nl": "Dit is de uitleg voor vraag 22."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Chess (Level 4)",
+      "es": "Pregunta 23 sobre Chess (Nivel 4)",
+      "de": "Frage 23 über Chess (Stufe 4)",
+      "nl": "Vraag 23 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This is the explanation for question 23.",
+      "es": "Esta es la explicación para la pregunta 23.",
+      "de": "Dies ist die Erklärung für Frage 23.",
+      "nl": "Dit is de uitleg voor vraag 23."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Chess (Level 4)",
+      "es": "Pregunta 24 sobre Chess (Nivel 4)",
+      "de": "Frage 24 über Chess (Stufe 4)",
+      "nl": "Vraag 24 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This is the explanation for question 24.",
+      "es": "Esta es la explicación para la pregunta 24.",
+      "de": "Dies ist die Erklärung für Frage 24.",
+      "nl": "Dit is de uitleg voor vraag 24."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Chess (Level 4)",
+      "es": "Pregunta 25 sobre Chess (Nivel 4)",
+      "de": "Frage 25 über Chess (Stufe 4)",
+      "nl": "Vraag 25 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the explanation for question 25.",
+      "es": "Esta es la explicación para la pregunta 25.",
+      "de": "Dies ist die Erklärung für Frage 25.",
+      "nl": "Dit is de uitleg voor vraag 25."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Chess (Level 4)",
+      "es": "Pregunta 26 sobre Chess (Nivel 4)",
+      "de": "Frage 26 über Chess (Stufe 4)",
+      "nl": "Vraag 26 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This is the explanation for question 26.",
+      "es": "Esta es la explicación para la pregunta 26.",
+      "de": "Dies ist die Erklärung für Frage 26.",
+      "nl": "Dit is de uitleg voor vraag 26."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Chess (Level 4)",
+      "es": "Pregunta 27 sobre Chess (Nivel 4)",
+      "de": "Frage 27 über Chess (Stufe 4)",
+      "nl": "Vraag 27 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This is the explanation for question 27.",
+      "es": "Esta es la explicación para la pregunta 27.",
+      "de": "Dies ist die Erklärung für Frage 27.",
+      "nl": "Dit is de uitleg voor vraag 27."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Chess (Level 4)",
+      "es": "Pregunta 28 sobre Chess (Nivel 4)",
+      "de": "Frage 28 über Chess (Stufe 4)",
+      "nl": "Vraag 28 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This is the explanation for question 28.",
+      "es": "Esta es la explicación para la pregunta 28.",
+      "de": "Dies ist die Erklärung für Frage 28.",
+      "nl": "Dit is de uitleg voor vraag 28."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Chess (Level 4)",
+      "es": "Pregunta 29 sobre Chess (Nivel 4)",
+      "de": "Frage 29 über Chess (Stufe 4)",
+      "nl": "Vraag 29 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the explanation for question 29.",
+      "es": "Esta es la explicación para la pregunta 29.",
+      "de": "Dies ist die Erklärung für Frage 29.",
+      "nl": "Dit is de uitleg voor vraag 29."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Chess (Level 4)",
+      "es": "Pregunta 30 sobre Chess (Nivel 4)",
+      "de": "Frage 30 über Chess (Stufe 4)",
+      "nl": "Vraag 30 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This is the explanation for question 30.",
+      "es": "Esta es la explicación para la pregunta 30.",
+      "de": "Dies ist die Erklärung für Frage 30.",
+      "nl": "Dit is de uitleg voor vraag 30."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Chess (Level 4)",
+      "es": "Pregunta 31 sobre Chess (Nivel 4)",
+      "de": "Frage 31 über Chess (Stufe 4)",
+      "nl": "Vraag 31 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This is the explanation for question 31.",
+      "es": "Esta es la explicación para la pregunta 31.",
+      "de": "Dies ist die Erklärung für Frage 31.",
+      "nl": "Dit is de uitleg voor vraag 31."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Chess (Level 4)",
+      "es": "Pregunta 32 sobre Chess (Nivel 4)",
+      "de": "Frage 32 über Chess (Stufe 4)",
+      "nl": "Vraag 32 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This is the explanation for question 32.",
+      "es": "Esta es la explicación para la pregunta 32.",
+      "de": "Dies ist die Erklärung für Frage 32.",
+      "nl": "Dit is de uitleg voor vraag 32."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Chess (Level 4)",
+      "es": "Pregunta 33 sobre Chess (Nivel 4)",
+      "de": "Frage 33 über Chess (Stufe 4)",
+      "nl": "Vraag 33 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the explanation for question 33.",
+      "es": "Esta es la explicación para la pregunta 33.",
+      "de": "Dies ist die Erklärung für Frage 33.",
+      "nl": "Dit is de uitleg voor vraag 33."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Chess (Level 4)",
+      "es": "Pregunta 34 sobre Chess (Nivel 4)",
+      "de": "Frage 34 über Chess (Stufe 4)",
+      "nl": "Vraag 34 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This is the explanation for question 34.",
+      "es": "Esta es la explicación para la pregunta 34.",
+      "de": "Dies ist die Erklärung für Frage 34.",
+      "nl": "Dit is de uitleg voor vraag 34."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Chess (Level 4)",
+      "es": "Pregunta 35 sobre Chess (Nivel 4)",
+      "de": "Frage 35 über Chess (Stufe 4)",
+      "nl": "Vraag 35 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This is the explanation for question 35.",
+      "es": "Esta es la explicación para la pregunta 35.",
+      "de": "Dies ist die Erklärung für Frage 35.",
+      "nl": "Dit is de uitleg voor vraag 35."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Chess (Level 4)",
+      "es": "Pregunta 36 sobre Chess (Nivel 4)",
+      "de": "Frage 36 über Chess (Stufe 4)",
+      "nl": "Vraag 36 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This is the explanation for question 36.",
+      "es": "Esta es la explicación para la pregunta 36.",
+      "de": "Dies ist die Erklärung für Frage 36.",
+      "nl": "Dit is de uitleg voor vraag 36."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Chess (Level 4)",
+      "es": "Pregunta 37 sobre Chess (Nivel 4)",
+      "de": "Frage 37 über Chess (Stufe 4)",
+      "nl": "Vraag 37 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the explanation for question 37.",
+      "es": "Esta es la explicación para la pregunta 37.",
+      "de": "Dies ist die Erklärung für Frage 37.",
+      "nl": "Dit is de uitleg voor vraag 37."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Chess (Level 4)",
+      "es": "Pregunta 38 sobre Chess (Nivel 4)",
+      "de": "Frage 38 über Chess (Stufe 4)",
+      "nl": "Vraag 38 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This is the explanation for question 38.",
+      "es": "Esta es la explicación para la pregunta 38.",
+      "de": "Dies ist die Erklärung für Frage 38.",
+      "nl": "Dit is de uitleg voor vraag 38."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Chess (Level 4)",
+      "es": "Pregunta 39 sobre Chess (Nivel 4)",
+      "de": "Frage 39 über Chess (Stufe 4)",
+      "nl": "Vraag 39 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This is the explanation for question 39.",
+      "es": "Esta es la explicación para la pregunta 39.",
+      "de": "Dies ist die Erklärung für Frage 39.",
+      "nl": "Dit is de uitleg voor vraag 39."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Chess (Level 4)",
+      "es": "Pregunta 40 sobre Chess (Nivel 4)",
+      "de": "Frage 40 über Chess (Stufe 4)",
+      "nl": "Vraag 40 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This is the explanation for question 40.",
+      "es": "Esta es la explicación para la pregunta 40.",
+      "de": "Dies ist die Erklärung für Frage 40.",
+      "nl": "Dit is de uitleg voor vraag 40."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Chess (Level 4)",
+      "es": "Pregunta 41 sobre Chess (Nivel 4)",
+      "de": "Frage 41 über Chess (Stufe 4)",
+      "nl": "Vraag 41 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the explanation for question 41.",
+      "es": "Esta es la explicación para la pregunta 41.",
+      "de": "Dies ist die Erklärung für Frage 41.",
+      "nl": "Dit is de uitleg voor vraag 41."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Chess (Level 4)",
+      "es": "Pregunta 42 sobre Chess (Nivel 4)",
+      "de": "Frage 42 über Chess (Stufe 4)",
+      "nl": "Vraag 42 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This is the explanation for question 42.",
+      "es": "Esta es la explicación para la pregunta 42.",
+      "de": "Dies ist die Erklärung für Frage 42.",
+      "nl": "Dit is de uitleg voor vraag 42."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Chess (Level 4)",
+      "es": "Pregunta 43 sobre Chess (Nivel 4)",
+      "de": "Frage 43 über Chess (Stufe 4)",
+      "nl": "Vraag 43 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This is the explanation for question 43.",
+      "es": "Esta es la explicación para la pregunta 43.",
+      "de": "Dies ist die Erklärung für Frage 43.",
+      "nl": "Dit is de uitleg voor vraag 43."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Chess (Level 4)",
+      "es": "Pregunta 44 sobre Chess (Nivel 4)",
+      "de": "Frage 44 über Chess (Stufe 4)",
+      "nl": "Vraag 44 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This is the explanation for question 44.",
+      "es": "Esta es la explicación para la pregunta 44.",
+      "de": "Dies ist die Erklärung für Frage 44.",
+      "nl": "Dit is de uitleg voor vraag 44."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Chess (Level 4)",
+      "es": "Pregunta 45 sobre Chess (Nivel 4)",
+      "de": "Frage 45 über Chess (Stufe 4)",
+      "nl": "Vraag 45 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the explanation for question 45.",
+      "es": "Esta es la explicación para la pregunta 45.",
+      "de": "Dies ist die Erklärung für Frage 45.",
+      "nl": "Dit is de uitleg voor vraag 45."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Chess (Level 4)",
+      "es": "Pregunta 46 sobre Chess (Nivel 4)",
+      "de": "Frage 46 über Chess (Stufe 4)",
+      "nl": "Vraag 46 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This is the explanation for question 46.",
+      "es": "Esta es la explicación para la pregunta 46.",
+      "de": "Dies ist die Erklärung für Frage 46.",
+      "nl": "Dit is de uitleg voor vraag 46."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Chess (Level 4)",
+      "es": "Pregunta 47 sobre Chess (Nivel 4)",
+      "de": "Frage 47 über Chess (Stufe 4)",
+      "nl": "Vraag 47 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This is the explanation for question 47.",
+      "es": "Esta es la explicación para la pregunta 47.",
+      "de": "Dies ist die Erklärung für Frage 47.",
+      "nl": "Dit is de uitleg voor vraag 47."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Chess (Level 4)",
+      "es": "Pregunta 48 sobre Chess (Nivel 4)",
+      "de": "Frage 48 über Chess (Stufe 4)",
+      "nl": "Vraag 48 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This is the explanation for question 48.",
+      "es": "Esta es la explicación para la pregunta 48.",
+      "de": "Dies ist die Erklärung für Frage 48.",
+      "nl": "Dit is de uitleg voor vraag 48."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Chess (Level 4)",
+      "es": "Pregunta 49 sobre Chess (Nivel 4)",
+      "de": "Frage 49 über Chess (Stufe 4)",
+      "nl": "Vraag 49 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the explanation for question 49.",
+      "es": "Esta es la explicación para la pregunta 49.",
+      "de": "Dies ist die Erklärung für Frage 49.",
+      "nl": "Dit is de uitleg voor vraag 49."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Chess (Level 4)",
+      "es": "Pregunta 50 sobre Chess (Nivel 4)",
+      "de": "Frage 50 über Chess (Stufe 4)",
+      "nl": "Vraag 50 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This is the explanation for question 50.",
+      "es": "Esta es la explicación para la pregunta 50.",
+      "de": "Dies ist die Erklärung für Frage 50.",
+      "nl": "Dit is de uitleg voor vraag 50."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Chess (Level 4)",
+      "es": "Pregunta 51 sobre Chess (Nivel 4)",
+      "de": "Frage 51 über Chess (Stufe 4)",
+      "nl": "Vraag 51 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This is the explanation for question 51.",
+      "es": "Esta es la explicación para la pregunta 51.",
+      "de": "Dies ist die Erklärung für Frage 51.",
+      "nl": "Dit is de uitleg voor vraag 51."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Chess (Level 4)",
+      "es": "Pregunta 52 sobre Chess (Nivel 4)",
+      "de": "Frage 52 über Chess (Stufe 4)",
+      "nl": "Vraag 52 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This is the explanation for question 52.",
+      "es": "Esta es la explicación para la pregunta 52.",
+      "de": "Dies ist die Erklärung für Frage 52.",
+      "nl": "Dit is de uitleg voor vraag 52."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Chess (Level 4)",
+      "es": "Pregunta 53 sobre Chess (Nivel 4)",
+      "de": "Frage 53 über Chess (Stufe 4)",
+      "nl": "Vraag 53 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the explanation for question 53.",
+      "es": "Esta es la explicación para la pregunta 53.",
+      "de": "Dies ist die Erklärung für Frage 53.",
+      "nl": "Dit is de uitleg voor vraag 53."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Chess (Level 4)",
+      "es": "Pregunta 54 sobre Chess (Nivel 4)",
+      "de": "Frage 54 über Chess (Stufe 4)",
+      "nl": "Vraag 54 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This is the explanation for question 54.",
+      "es": "Esta es la explicación para la pregunta 54.",
+      "de": "Dies ist die Erklärung für Frage 54.",
+      "nl": "Dit is de uitleg voor vraag 54."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Chess (Level 4)",
+      "es": "Pregunta 55 sobre Chess (Nivel 4)",
+      "de": "Frage 55 über Chess (Stufe 4)",
+      "nl": "Vraag 55 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This is the explanation for question 55.",
+      "es": "Esta es la explicación para la pregunta 55.",
+      "de": "Dies ist die Erklärung für Frage 55.",
+      "nl": "Dit is de uitleg voor vraag 55."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Chess (Level 4)",
+      "es": "Pregunta 56 sobre Chess (Nivel 4)",
+      "de": "Frage 56 über Chess (Stufe 4)",
+      "nl": "Vraag 56 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This is the explanation for question 56.",
+      "es": "Esta es la explicación para la pregunta 56.",
+      "de": "Dies ist die Erklärung für Frage 56.",
+      "nl": "Dit is de uitleg voor vraag 56."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Chess (Level 4)",
+      "es": "Pregunta 57 sobre Chess (Nivel 4)",
+      "de": "Frage 57 über Chess (Stufe 4)",
+      "nl": "Vraag 57 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the explanation for question 57.",
+      "es": "Esta es la explicación para la pregunta 57.",
+      "de": "Dies ist die Erklärung für Frage 57.",
+      "nl": "Dit is de uitleg voor vraag 57."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Chess (Level 4)",
+      "es": "Pregunta 58 sobre Chess (Nivel 4)",
+      "de": "Frage 58 über Chess (Stufe 4)",
+      "nl": "Vraag 58 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This is the explanation for question 58.",
+      "es": "Esta es la explicación para la pregunta 58.",
+      "de": "Dies ist die Erklärung für Frage 58.",
+      "nl": "Dit is de uitleg voor vraag 58."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Chess (Level 4)",
+      "es": "Pregunta 59 sobre Chess (Nivel 4)",
+      "de": "Frage 59 über Chess (Stufe 4)",
+      "nl": "Vraag 59 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This is the explanation for question 59.",
+      "es": "Esta es la explicación para la pregunta 59.",
+      "de": "Dies ist die Erklärung für Frage 59.",
+      "nl": "Dit is de uitleg voor vraag 59."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Chess (Level 4)",
+      "es": "Pregunta 60 sobre Chess (Nivel 4)",
+      "de": "Frage 60 über Chess (Stufe 4)",
+      "nl": "Vraag 60 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This is the explanation for question 60.",
+      "es": "Esta es la explicación para la pregunta 60.",
+      "de": "Dies ist die Erklärung für Frage 60.",
+      "nl": "Dit is de uitleg voor vraag 60."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Chess (Level 4)",
+      "es": "Pregunta 61 sobre Chess (Nivel 4)",
+      "de": "Frage 61 über Chess (Stufe 4)",
+      "nl": "Vraag 61 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the explanation for question 61.",
+      "es": "Esta es la explicación para la pregunta 61.",
+      "de": "Dies ist die Erklärung für Frage 61.",
+      "nl": "Dit is de uitleg voor vraag 61."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Chess (Level 4)",
+      "es": "Pregunta 62 sobre Chess (Nivel 4)",
+      "de": "Frage 62 über Chess (Stufe 4)",
+      "nl": "Vraag 62 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This is the explanation for question 62.",
+      "es": "Esta es la explicación para la pregunta 62.",
+      "de": "Dies ist die Erklärung für Frage 62.",
+      "nl": "Dit is de uitleg voor vraag 62."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Chess (Level 4)",
+      "es": "Pregunta 63 sobre Chess (Nivel 4)",
+      "de": "Frage 63 über Chess (Stufe 4)",
+      "nl": "Vraag 63 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This is the explanation for question 63.",
+      "es": "Esta es la explicación para la pregunta 63.",
+      "de": "Dies ist die Erklärung für Frage 63.",
+      "nl": "Dit is de uitleg voor vraag 63."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Chess (Level 4)",
+      "es": "Pregunta 64 sobre Chess (Nivel 4)",
+      "de": "Frage 64 über Chess (Stufe 4)",
+      "nl": "Vraag 64 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This is the explanation for question 64.",
+      "es": "Esta es la explicación para la pregunta 64.",
+      "de": "Dies ist die Erklärung für Frage 64.",
+      "nl": "Dit is de uitleg voor vraag 64."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Chess (Level 4)",
+      "es": "Pregunta 65 sobre Chess (Nivel 4)",
+      "de": "Frage 65 über Chess (Stufe 4)",
+      "nl": "Vraag 65 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the explanation for question 65.",
+      "es": "Esta es la explicación para la pregunta 65.",
+      "de": "Dies ist die Erklärung für Frage 65.",
+      "nl": "Dit is de uitleg voor vraag 65."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Chess (Level 4)",
+      "es": "Pregunta 66 sobre Chess (Nivel 4)",
+      "de": "Frage 66 über Chess (Stufe 4)",
+      "nl": "Vraag 66 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This is the explanation for question 66.",
+      "es": "Esta es la explicación para la pregunta 66.",
+      "de": "Dies ist die Erklärung für Frage 66.",
+      "nl": "Dit is de uitleg voor vraag 66."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Chess (Level 4)",
+      "es": "Pregunta 67 sobre Chess (Nivel 4)",
+      "de": "Frage 67 über Chess (Stufe 4)",
+      "nl": "Vraag 67 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This is the explanation for question 67.",
+      "es": "Esta es la explicación para la pregunta 67.",
+      "de": "Dies ist die Erklärung für Frage 67.",
+      "nl": "Dit is de uitleg voor vraag 67."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Chess (Level 4)",
+      "es": "Pregunta 68 sobre Chess (Nivel 4)",
+      "de": "Frage 68 über Chess (Stufe 4)",
+      "nl": "Vraag 68 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This is the explanation for question 68.",
+      "es": "Esta es la explicación para la pregunta 68.",
+      "de": "Dies ist die Erklärung für Frage 68.",
+      "nl": "Dit is de uitleg voor vraag 68."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Chess (Level 4)",
+      "es": "Pregunta 69 sobre Chess (Nivel 4)",
+      "de": "Frage 69 über Chess (Stufe 4)",
+      "nl": "Vraag 69 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the explanation for question 69.",
+      "es": "Esta es la explicación para la pregunta 69.",
+      "de": "Dies ist die Erklärung für Frage 69.",
+      "nl": "Dit is de uitleg voor vraag 69."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Chess (Level 4)",
+      "es": "Pregunta 70 sobre Chess (Nivel 4)",
+      "de": "Frage 70 über Chess (Stufe 4)",
+      "nl": "Vraag 70 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This is the explanation for question 70.",
+      "es": "Esta es la explicación para la pregunta 70.",
+      "de": "Dies ist die Erklärung für Frage 70.",
+      "nl": "Dit is de uitleg voor vraag 70."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Chess (Level 4)",
+      "es": "Pregunta 71 sobre Chess (Nivel 4)",
+      "de": "Frage 71 über Chess (Stufe 4)",
+      "nl": "Vraag 71 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This is the explanation for question 71.",
+      "es": "Esta es la explicación para la pregunta 71.",
+      "de": "Dies ist die Erklärung für Frage 71.",
+      "nl": "Dit is de uitleg voor vraag 71."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Chess (Level 4)",
+      "es": "Pregunta 72 sobre Chess (Nivel 4)",
+      "de": "Frage 72 über Chess (Stufe 4)",
+      "nl": "Vraag 72 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This is the explanation for question 72.",
+      "es": "Esta es la explicación para la pregunta 72.",
+      "de": "Dies ist die Erklärung für Frage 72.",
+      "nl": "Dit is de uitleg voor vraag 72."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Chess (Level 4)",
+      "es": "Pregunta 73 sobre Chess (Nivel 4)",
+      "de": "Frage 73 über Chess (Stufe 4)",
+      "nl": "Vraag 73 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the explanation for question 73.",
+      "es": "Esta es la explicación para la pregunta 73.",
+      "de": "Dies ist die Erklärung für Frage 73.",
+      "nl": "Dit is de uitleg voor vraag 73."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Chess (Level 4)",
+      "es": "Pregunta 74 sobre Chess (Nivel 4)",
+      "de": "Frage 74 über Chess (Stufe 4)",
+      "nl": "Vraag 74 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This is the explanation for question 74.",
+      "es": "Esta es la explicación para la pregunta 74.",
+      "de": "Dies ist die Erklärung für Frage 74.",
+      "nl": "Dit is de uitleg voor vraag 74."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Chess (Level 4)",
+      "es": "Pregunta 75 sobre Chess (Nivel 4)",
+      "de": "Frage 75 über Chess (Stufe 4)",
+      "nl": "Vraag 75 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This is the explanation for question 75.",
+      "es": "Esta es la explicación para la pregunta 75.",
+      "de": "Dies ist die Erklärung für Frage 75.",
+      "nl": "Dit is de uitleg voor vraag 75."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Chess (Level 4)",
+      "es": "Pregunta 76 sobre Chess (Nivel 4)",
+      "de": "Frage 76 über Chess (Stufe 4)",
+      "nl": "Vraag 76 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This is the explanation for question 76.",
+      "es": "Esta es la explicación para la pregunta 76.",
+      "de": "Dies ist die Erklärung für Frage 76.",
+      "nl": "Dit is de uitleg voor vraag 76."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Chess (Level 4)",
+      "es": "Pregunta 77 sobre Chess (Nivel 4)",
+      "de": "Frage 77 über Chess (Stufe 4)",
+      "nl": "Vraag 77 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the explanation for question 77.",
+      "es": "Esta es la explicación para la pregunta 77.",
+      "de": "Dies ist die Erklärung für Frage 77.",
+      "nl": "Dit is de uitleg voor vraag 77."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Chess (Level 4)",
+      "es": "Pregunta 78 sobre Chess (Nivel 4)",
+      "de": "Frage 78 über Chess (Stufe 4)",
+      "nl": "Vraag 78 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This is the explanation for question 78.",
+      "es": "Esta es la explicación para la pregunta 78.",
+      "de": "Dies ist die Erklärung für Frage 78.",
+      "nl": "Dit is de uitleg voor vraag 78."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Chess (Level 4)",
+      "es": "Pregunta 79 sobre Chess (Nivel 4)",
+      "de": "Frage 79 über Chess (Stufe 4)",
+      "nl": "Vraag 79 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This is the explanation for question 79.",
+      "es": "Esta es la explicación para la pregunta 79.",
+      "de": "Dies ist die Erklärung für Frage 79.",
+      "nl": "Dit is de uitleg voor vraag 79."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Chess (Level 4)",
+      "es": "Pregunta 80 sobre Chess (Nivel 4)",
+      "de": "Frage 80 über Chess (Stufe 4)",
+      "nl": "Vraag 80 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This is the explanation for question 80.",
+      "es": "Esta es la explicación para la pregunta 80.",
+      "de": "Dies ist die Erklärung für Frage 80.",
+      "nl": "Dit is de uitleg voor vraag 80."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Chess (Level 4)",
+      "es": "Pregunta 81 sobre Chess (Nivel 4)",
+      "de": "Frage 81 über Chess (Stufe 4)",
+      "nl": "Vraag 81 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the explanation for question 81.",
+      "es": "Esta es la explicación para la pregunta 81.",
+      "de": "Dies ist die Erklärung für Frage 81.",
+      "nl": "Dit is de uitleg voor vraag 81."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Chess (Level 4)",
+      "es": "Pregunta 82 sobre Chess (Nivel 4)",
+      "de": "Frage 82 über Chess (Stufe 4)",
+      "nl": "Vraag 82 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This is the explanation for question 82.",
+      "es": "Esta es la explicación para la pregunta 82.",
+      "de": "Dies ist die Erklärung für Frage 82.",
+      "nl": "Dit is de uitleg voor vraag 82."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Chess (Level 4)",
+      "es": "Pregunta 83 sobre Chess (Nivel 4)",
+      "de": "Frage 83 über Chess (Stufe 4)",
+      "nl": "Vraag 83 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This is the explanation for question 83.",
+      "es": "Esta es la explicación para la pregunta 83.",
+      "de": "Dies ist die Erklärung für Frage 83.",
+      "nl": "Dit is de uitleg voor vraag 83."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Chess (Level 4)",
+      "es": "Pregunta 84 sobre Chess (Nivel 4)",
+      "de": "Frage 84 über Chess (Stufe 4)",
+      "nl": "Vraag 84 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This is the explanation for question 84.",
+      "es": "Esta es la explicación para la pregunta 84.",
+      "de": "Dies ist die Erklärung für Frage 84.",
+      "nl": "Dit is de uitleg voor vraag 84."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Chess (Level 4)",
+      "es": "Pregunta 85 sobre Chess (Nivel 4)",
+      "de": "Frage 85 über Chess (Stufe 4)",
+      "nl": "Vraag 85 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the explanation for question 85.",
+      "es": "Esta es la explicación para la pregunta 85.",
+      "de": "Dies ist die Erklärung für Frage 85.",
+      "nl": "Dit is de uitleg voor vraag 85."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Chess (Level 4)",
+      "es": "Pregunta 86 sobre Chess (Nivel 4)",
+      "de": "Frage 86 über Chess (Stufe 4)",
+      "nl": "Vraag 86 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This is the explanation for question 86.",
+      "es": "Esta es la explicación para la pregunta 86.",
+      "de": "Dies ist die Erklärung für Frage 86.",
+      "nl": "Dit is de uitleg voor vraag 86."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Chess (Level 4)",
+      "es": "Pregunta 87 sobre Chess (Nivel 4)",
+      "de": "Frage 87 über Chess (Stufe 4)",
+      "nl": "Vraag 87 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This is the explanation for question 87.",
+      "es": "Esta es la explicación para la pregunta 87.",
+      "de": "Dies ist die Erklärung für Frage 87.",
+      "nl": "Dit is de uitleg voor vraag 87."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Chess (Level 4)",
+      "es": "Pregunta 88 sobre Chess (Nivel 4)",
+      "de": "Frage 88 über Chess (Stufe 4)",
+      "nl": "Vraag 88 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This is the explanation for question 88.",
+      "es": "Esta es la explicación para la pregunta 88.",
+      "de": "Dies ist die Erklärung für Frage 88.",
+      "nl": "Dit is de uitleg voor vraag 88."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Chess (Level 4)",
+      "es": "Pregunta 89 sobre Chess (Nivel 4)",
+      "de": "Frage 89 über Chess (Stufe 4)",
+      "nl": "Vraag 89 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the explanation for question 89.",
+      "es": "Esta es la explicación para la pregunta 89.",
+      "de": "Dies ist die Erklärung für Frage 89.",
+      "nl": "Dit is de uitleg voor vraag 89."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Chess (Level 4)",
+      "es": "Pregunta 90 sobre Chess (Nivel 4)",
+      "de": "Frage 90 über Chess (Stufe 4)",
+      "nl": "Vraag 90 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This is the explanation for question 90.",
+      "es": "Esta es la explicación para la pregunta 90.",
+      "de": "Dies ist die Erklärung für Frage 90.",
+      "nl": "Dit is de uitleg voor vraag 90."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Chess (Level 4)",
+      "es": "Pregunta 91 sobre Chess (Nivel 4)",
+      "de": "Frage 91 über Chess (Stufe 4)",
+      "nl": "Vraag 91 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This is the explanation for question 91.",
+      "es": "Esta es la explicación para la pregunta 91.",
+      "de": "Dies ist die Erklärung für Frage 91.",
+      "nl": "Dit is de uitleg voor vraag 91."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Chess (Level 4)",
+      "es": "Pregunta 92 sobre Chess (Nivel 4)",
+      "de": "Frage 92 über Chess (Stufe 4)",
+      "nl": "Vraag 92 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This is the explanation for question 92.",
+      "es": "Esta es la explicación para la pregunta 92.",
+      "de": "Dies ist die Erklärung für Frage 92.",
+      "nl": "Dit is de uitleg voor vraag 92."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Chess (Level 4)",
+      "es": "Pregunta 93 sobre Chess (Nivel 4)",
+      "de": "Frage 93 über Chess (Stufe 4)",
+      "nl": "Vraag 93 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the explanation for question 93.",
+      "es": "Esta es la explicación para la pregunta 93.",
+      "de": "Dies ist die Erklärung für Frage 93.",
+      "nl": "Dit is de uitleg voor vraag 93."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Chess (Level 4)",
+      "es": "Pregunta 94 sobre Chess (Nivel 4)",
+      "de": "Frage 94 über Chess (Stufe 4)",
+      "nl": "Vraag 94 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This is the explanation for question 94.",
+      "es": "Esta es la explicación para la pregunta 94.",
+      "de": "Dies ist die Erklärung für Frage 94.",
+      "nl": "Dit is de uitleg voor vraag 94."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Chess (Level 4)",
+      "es": "Pregunta 95 sobre Chess (Nivel 4)",
+      "de": "Frage 95 über Chess (Stufe 4)",
+      "nl": "Vraag 95 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This is the explanation for question 95.",
+      "es": "Esta es la explicación para la pregunta 95.",
+      "de": "Dies ist die Erklärung für Frage 95.",
+      "nl": "Dit is de uitleg voor vraag 95."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Chess (Level 4)",
+      "es": "Pregunta 96 sobre Chess (Nivel 4)",
+      "de": "Frage 96 über Chess (Stufe 4)",
+      "nl": "Vraag 96 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This is the explanation for question 96.",
+      "es": "Esta es la explicación para la pregunta 96.",
+      "de": "Dies ist die Erklärung für Frage 96.",
+      "nl": "Dit is de uitleg voor vraag 96."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Chess (Level 4)",
+      "es": "Pregunta 97 sobre Chess (Nivel 4)",
+      "de": "Frage 97 über Chess (Stufe 4)",
+      "nl": "Vraag 97 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the explanation for question 97.",
+      "es": "Esta es la explicación para la pregunta 97.",
+      "de": "Dies ist die Erklärung für Frage 97.",
+      "nl": "Dit is de uitleg voor vraag 97."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Chess (Level 4)",
+      "es": "Pregunta 98 sobre Chess (Nivel 4)",
+      "de": "Frage 98 über Chess (Stufe 4)",
+      "nl": "Vraag 98 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This is the explanation for question 98.",
+      "es": "Esta es la explicación para la pregunta 98.",
+      "de": "Dies ist die Erklärung für Frage 98.",
+      "nl": "Dit is de uitleg voor vraag 98."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Chess (Level 4)",
+      "es": "Pregunta 99 sobre Chess (Nivel 4)",
+      "de": "Frage 99 über Chess (Stufe 4)",
+      "nl": "Vraag 99 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This is the explanation for question 99.",
+      "es": "Esta es la explicación para la pregunta 99.",
+      "de": "Dies ist die Erklärung für Frage 99.",
+      "nl": "Dit is de uitleg voor vraag 99."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Chess (Level 4)",
+      "es": "Pregunta 100 sobre Chess (Nivel 4)",
+      "de": "Frage 100 über Chess (Stufe 4)",
+      "nl": "Vraag 100 over Chess (Niveau 4)"
+    },
+    "options": [
+      {
+        "en": "Answer A",
+        "es": "Respuesta A",
+        "de": "Antwort A",
+        "nl": "Antwoord A"
+      },
+      {
+        "en": "Answer B",
+        "es": "Respuesta B",
+        "de": "Antwort B",
+        "nl": "Antwoord B"
+      },
+      {
+        "en": "Answer C",
+        "es": "Respuesta C",
+        "de": "Antwort C",
+        "nl": "Antwoord C"
+      },
+      {
+        "en": "Answer D",
+        "es": "Respuesta D",
+        "de": "Antwort D",
+        "nl": "Antwoord D"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This is the explanation for question 100.",
+      "es": "Esta es la explicación para la pregunta 100.",
+      "de": "Dies ist die Erklärung für Frage 100.",
+      "nl": "Dit is de uitleg voor vraag 100."
+    }
   }
-})();
+]
+};

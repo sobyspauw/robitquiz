@@ -1,1657 +1,4104 @@
-// Jurassic Dinosaurs Quiz - Level 3
-(function() {
-  const level3 = {
-    name: {
-          "en": "Jurassic Dinosaurs Level 3",
-          "es": "Dinosaurios Jurásicos Nivel 3",
-          "de": "Jura Dinosaurier Stufe 3",
-          "nl": "Jura Dino's Level 3"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Jurassic Dinosaurs",
+      "es": "Pregunta 1 sobre Jurassic Dinosaurs",
+      "de": "Frage 1 über Jurassic Dinosaurs",
+      "nl": "Vraag 1 over Jurassic Dinosaurs"
     },
-    questions: [
+    "options": [
       {
-        question: {
-                  "en": "Which three periods make up the Mesozoic Era?",
-                  "es": "¿Qué tres períodos conforman la Era Mesozoica?",
-                  "de": "Welche drei Perioden bilden das Mesozoikum?",
-                  "nl": "Welke drie tijdperken vormen het Mesozoïcum?"
-        },
-        options: [
-        {
-                  "en": "Jurassic, Permian, Devonian",
-                  "es": "Jurásico, Pérmico, Devónico",
-                  "de": "Jura, Perm, Devon",
-                  "nl": "Jura, Perm, Devoon"
-        },
-        {
-                  "en": "Cambrian, Ordovician, Silurian",
-                  "es": "Cámbrico, Ordovícico, Silúrico",
-                  "de": "Kambrium, Ordovizium, Silur",
-                  "nl": "Cambrium, Ordovicium, Siluur"
-        },
-        {
-                  "en": "Paleocene, Eocene, Oligocene",
-                  "es": "Paleoceno, Eoceno, Oligoceno",
-                  "de": "Paläozän, Eozän, Oligozän",
-                  "nl": "Paleoceen, Eoceen, Oligoceen"
-        },
-        {
-                  "en": "Triassic, Jurassic, Cretaceous",
-                  "es": "Triásico, Jurásico, Cretácico",
-                  "de": "Trias, Jura, Kreide",
-                  "nl": "Trias, Jura, Krijt"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The Mesozoic Era, known as the 'Age of Reptiles,' consists of the Triassic, Jurassic, and Cretaceous periods.",
-                  "es": "La Era Mesozoica, conocida como la 'Era de los Reptiles,' consiste en los períodos Triásico, Jurásico y Cretácico.",
-                  "de": "Das Mesozoikum, bekannt als das 'Zeitalter der Reptilien,' besteht aus Trias, Jura und Kreidezeit.",
-                  "nl": "Het Mesozoïcum, bekend als het 'Tijdperk van de Reptielen,' bestaat uit het Trias, Jura en Krijt."
-        }
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
       },
       {
-        question: {
-                  "en": "What is the estimated weight of an adult Diplodocus?",
-                  "es": "¿Cuál es el peso estimado de un Diplodocus adulto?",
-                  "de": "Was ist das geschätzte Gewicht eines erwachsenen Diplodocus?",
-                  "nl": "Wat is het geschatte gewicht van een volwassen Diplodocus?"
-        },
-        options: [
-        {
-                  "en": "1-2 tons",
-                  "es": "1-2 toneladas",
-                  "de": "1-2 Tonnen",
-                  "nl": "1-2 ton"
-        },
-        {
-                  "en": "50-60 tons",
-                  "es": "50-60 toneladas",
-                  "de": "50-60 Tonnen",
-                  "nl": "50-60 ton"
-        },
-        {
-                  "en": "10-15 tons",
-                  "es": "10-15 toneladas",
-                  "de": "10-15 Tonnen",
-                  "nl": "10-15 ton"
-        },
-        {
-                  "en": "100 kilograms",
-                  "es": "100 kilogramos",
-                  "de": "100 Kilogramm",
-                  "nl": "100 kilogram"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Adult Diplodocus weighed approximately 10-15 tons, despite being very long, they were relatively lightweight for their size due to their hollow bones.",
-                  "es": "Diplodocus adulto pesaba aproximadamente 10-15 toneladas, a pesar de ser muy largo, eran relativamente ligeros para su tamaño debido a sus huesos huecos.",
-                  "de": "Erwachsener Diplodocus wog etwa 10-15 Tonnen, trotz ihrer großen Länge waren sie relativ leicht für ihre Größe aufgrund ihrer hohlen Knochen.",
-                  "nl": "Volwassen Diplodocus woog ongeveer 10-15 ton, ondanks hun grote lengte waren ze relatief licht voor hun grootte vanwege hun holle botten."
-        }
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
       },
       {
-        question: {
-                  "en": "What type of environment did Allosaurus prefer to hunt in?",
-                  "es": "¿En qué tipo de ambiente prefería cazar Allosaurus?",
-                  "de": "In welcher Art von Umgebung jagte Allosaurus bevorzugt?",
-                  "nl": "In welk type omgeving jaagde Allosaurus bij voorkeur?"
-        },
-        options: [
-        {
-                  "en": "Mountain peaks",
-                  "es": "Picos de montañas",
-                  "de": "Berggipfel",
-                  "nl": "Bergtoppen"
-        },
-        {
-                  "en": "Dense tropical rainforests",
-                  "es": "Selvas tropicales densas",
-                  "de": "Dichte tropische Regenwälder",
-                  "nl": "Dichte tropische regenwouden"
-        },
-        {
-                  "en": "Deep ocean waters",
-                  "es": "Aguas oceánicas profundas",
-                  "de": "Tiefe Meeresgewässer",
-                  "nl": "Diepe oceaanwateren"
-        },
-        {
-                  "en": "Open woodlands and plains",
-                  "es": "Bosques abiertos y llanuras",
-                  "de": "Offene Wälder und Ebenen",
-                  "nl": "Open bossen en vlaktes"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Allosaurus likely preferred open woodlands and plains where it could effectively hunt large herbivorous dinosaurs like sauropods.",
-                  "es": "Allosaurus probablemente prefería bosques abiertos y llanuras donde podía cazar efectivamente grandes dinosaurios herbívoros como saurópodos.",
-                  "de": "Allosaurus bevorzugte wahrscheinlich offene Wälder und Ebenen, wo er große pflanzenfressende Dinosaurier wie Sauropoden effektiv jagen konnte.",
-                  "nl": "Allosaurus gaf waarschijnlijk de voorkeur aan open bossen en vlaktes waar hij effectief grote herbivore dinosaurussen zoals sauropoden kon jagen."
-        }
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
       },
       {
-        question: {
-                  "en": "How did Stegosaurus regulate its body temperature?",
-                  "es": "¿Cómo regulaba Stegosaurus su temperatura corporal?",
-                  "de": "Wie regulierte Stegosaurus seine Körpertemperatur?",
-                  "nl": "Hoe reguleerde Stegosaurus zijn lichaamstemperatuur?"
-        },
-        options: [
-        {
-                  "en": "Through blood vessels in its back plates",
-                  "es": "A través de vasos sanguíneos en sus placas dorsales",
-                  "de": "Durch Blutgefäße in seinen Rückenplatten",
-                  "nl": "Door bloedvaten in zijn rugplaten"
-        },
-        {
-                  "en": "By hibernating underground",
-                  "es": "Hibernando bajo tierra",
-                  "de": "Durch Winterschlaf unter der Erde",
-                  "nl": "Door ondergronds te hiberneren"
-        },
-        {
-                  "en": "By panting like a dog",
-                  "es": "Jadeando como un perro",
-                  "de": "Durch Hecheln wie ein Hund",
-                  "nl": "Door hijgen zoals een hond"
-        },
-        {
-                  "en": "By swimming in cold water",
-                  "es": "Nadando en agua fría",
-                  "de": "Durch Schwimmen in kaltem Wasser",
-                  "nl": "Door zwemmen in koud water"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Stegosaurus likely used the blood vessels in its plates for thermoregulation, allowing heat to be released or absorbed as needed.",
-                  "es": "Stegosaurus probablemente usaba los vasos sanguíneos en sus placas para termorregulación, permitiendo que el calor fuera liberado o absorbido según fuera necesario.",
-                  "de": "Stegosaurus nutzte wahrscheinlich die Blutgefäße in seinen Platten zur Thermoregulation, wodurch Wärme nach Bedarf abgegeben oder aufgenommen werden konnte.",
-                  "nl": "Stegosaurus gebruikte waarschijnlijk de bloedvaten in zijn platen voor thermoregulatie, waardoor warmte kon worden afgegeven of opgenomen zoals nodig."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the maximum height that Brachiosaurus could reach with its head?",
-                  "es": "¿Cuál era la altura máxima que Brachiosaurus podía alcanzar con su cabeza?",
-                  "de": "Welche maximale Höhe konnte Brachiosaurus mit seinem Kopf erreichen?",
-                  "nl": "Wat was de maximale hoogte die Brachiosaurus kon bereiken met zijn hoofd?"
-        },
-        options: [
-        {
-                  "en": "5 meters (16 feet)",
-                  "es": "5 metros (16 pies)",
-                  "de": "5 Meter (16 Fuß)",
-                  "nl": "5 meter (16 voet)"
-        },
-        {
-                  "en": "25 meters (82 feet)",
-                  "es": "25 metros (82 pies)",
-                  "de": "25 Meter (82 Fuß)",
-                  "nl": "25 meter (82 voet)"
-        },
-        {
-                  "en": "3 meters (10 feet)",
-                  "es": "3 metros (10 pies)",
-                  "de": "3 Meter (10 Fuß)",
-                  "nl": "3 meter (10 voet)"
-        },
-        {
-                  "en": "12-13 meters (40-43 feet)",
-                  "es": "12-13 metros (40-43 pies)",
-                  "de": "12-13 Meter (40-43 Fuß)",
-                  "nl": "12-13 meter (40-43 voet)"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Brachiosaurus could reach heights of 12-13 meters, allowing it to browse on vegetation that other dinosaurs couldn't reach.",
-                  "es": "Brachiosaurus podía alcanzar alturas de 12-13 metros, permitiéndole alimentarse de vegetación que otros dinosaurios no podían alcanzar.",
-                  "de": "Brachiosaurus konnte Höhen von 12-13 Metern erreichen, wodurch er an Vegetation fressen konnte, die andere Dinosaurier nicht erreichen konnten.",
-                  "nl": "Brachiosaurus kon hoogtes van 12-13 meter bereiken, waardoor hij kon grazen op vegetatie die andere dinosaurussen niet konden bereiken."
-        }
-      },
-      {
-        question: {
-                  "en": "Which geological formation in China has yielded important Jurassic dinosaur fossils?",
-                  "es": "¿Qué formación geológica en China ha producido importantes fósiles de dinosaurios jurásicos?",
-                  "de": "Welche geologische Formation in China hat wichtige Jura-Dinosaurier-Fossilien hervorgebracht?",
-                  "nl": "Welke geologische formatie in China heeft belangrijke Jura-dinosaurusfossielen opgeleverd?"
-        },
-        options: [
-        {
-                  "en": "Gobi Formation",
-                  "es": "Formación Gobi",
-                  "de": "Gobi-Formation",
-                  "nl": "Gobi Formatie"
-        },
-        {
-                  "en": "Shishugou Formation",
-                  "es": "Formación Shishugou",
-                  "de": "Shishugou-Formation",
-                  "nl": "Shishugou Formatie"
-        },
-        {
-                  "en": "Liaoning Formation",
-                  "es": "Formación Liaoning",
-                  "de": "Liaoning-Formation",
-                  "nl": "Liaoning Formatie"
-        },
-        {
-                  "en": "Yixian Formation",
-                  "es": "Formación Yixian",
-                  "de": "Yixian-Formation",
-                  "nl": "Yixian Formatie"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The Shishugou Formation in northwestern China has produced many important Middle to Late Jurassic dinosaur fossils.",
-                  "es": "La Formación Shishugou en el noroeste de China ha producido muchos fósiles importantes de dinosaurios del Jurásico Medio a Tardío.",
-                  "de": "Die Shishugou-Formation im Nordwesten Chinas hat viele wichtige Dinosaurier-Fossilien aus dem Mittleren bis Späten Jura hervorgebracht.",
-                  "nl": "De Shishugou Formatie in noordwest China heeft veel belangrijke dinosaurusfossielen uit het Midden- tot Laat-Jura opgeleverd."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the primary hunting strategy of Ceratosaurus?",
-                  "es": "¿Cuál era la estrategia de caza principal de Ceratosaurus?",
-                  "de": "Was war die primäre Jagdstrategie von Ceratosaurus?",
-                  "nl": "Wat was de primaire jachtstrategie van Ceratosaurus?"
-        },
-        options: [
-        {
-                  "en": "Pack hunting in groups",
-                  "es": "Caza en manada en grupos",
-                  "de": "Rudeljagd in Gruppen",
-                  "nl": "Roedeljacht in groepen"
-        },
-        {
-                  "en": "Ambush predator with powerful jaws",
-                  "es": "Depredador de emboscada con mandíbulas poderosas",
-                  "de": "Hinterhalt-Raubtier mit kräftigen Kiefern",
-                  "nl": "Hinderlaagpredator met krachtige kaken"
-        },
-        {
-                  "en": "Long-distance pursuit",
-                  "es": "Persecución de larga distancia",
-                  "de": "Langstrecken-Verfolgung",
-                  "nl": "Achtervolging over lange afstand"
-        },
-        {
-                  "en": "Scavenging only",
-                  "es": "Solo carroñeo",
-                  "de": "Nur Aasfresser",
-                  "nl": "Alleen aaseten"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Ceratosaurus was likely an ambush predator with a robust skull and powerful jaws, using stealth rather than speed for hunting.",
-                  "es": "Ceratosaurus probablemente era un depredador de emboscada con un cráneo robusto y mandíbulas poderosas, usando sigilo en lugar de velocidad para cazar.",
-                  "de": "Ceratosaurus war wahrscheinlich ein Hinterhalt-Raubtier mit einem robusten Schädel und kräftigen Kiefern, der Heimlichkeit statt Geschwindigkeit zur Jagd nutzte.",
-                  "nl": "Ceratosaurus was waarschijnlijk een hinderlaagpredator met een robuuste schedel en krachtige kaken, die stealth gebruikte in plaats van snelheid voor de jacht."
-        }
-      },
-      {
-        question: {
-                  "en": "What was unique about the tail of Diplodocus?",
-                  "es": "¿Qué tenía de único la cola de Diplodocus?",
-                  "de": "Was war einzigartig am Schwanz von Diplodocus?",
-                  "nl": "Wat was uniek aan de staart van Diplodocus?"
-        },
-        options: [
-        {
-                  "en": "It had venomous spikes",
-                  "es": "Tenía púas venenosas",
-                  "de": "Er hatte giftige Stacheln",
-                  "nl": "Hij had giftige stekels"
-        },
-        {
-                  "en": "It could regenerate if lost",
-                  "es": "Podía regenerarse si se perdía",
-                  "de": "Er konnte sich regenerieren wenn verloren",
-                  "nl": "Hij kon regenereren als hij verloren ging"
-        },
-        {
-                  "en": "It could crack like a whip",
-                  "es": "Podía chasquear como un látigo",
-                  "de": "Er konnte wie eine Peitsche knallen",
-                  "nl": "Hij kon knallen als een zweep"
-        },
-        {
-                  "en": "It was covered in armor",
-                  "es": "Estaba cubierta de armadura",
-                  "de": "Er war mit Panzerung bedeckt",
-                  "nl": "Hij was bedekt met pantser"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Diplodocus had a long, whip-like tail that could potentially crack like a whip, possibly used for defense or communication.",
-                  "es": "Diplodocus tenía una cola larga similar a un látigo que potencialmente podía chasquear como un látigo, posiblemente usada para defensa o comunicación.",
-                  "de": "Diplodocus hatte einen langen, peitschenartigen Schwanz, der möglicherweise wie eine Peitsche knallen konnte, wahrscheinlich zur Verteidigung oder Kommunikation.",
-                  "nl": "Diplodocus had een lange, zweepachtige staart die mogelijk kon knallen als een zweep, mogelijk gebruikt voor verdediging of communicatie."
-        }
-      },
-      {
-        question: {
-                  "en": "How many chambers did sauropod hearts likely have?",
-                  "es": "¿Cuántas cámaras tenían probablemente los corazones de los saurópodos?",
-                  "de": "Wie viele Kammern hatten Sauropoden-Herzen wahrscheinlich?",
-                  "nl": "Hoeveel kamers hadden sauropodenharten waarschijnlijk?"
-        },
-        options: [
-        {
-                  "en": "Two chambers",
-                  "es": "Dos cámaras",
-                  "de": "Zwei Kammern",
-                  "nl": "Twee kamers"
-        },
-        {
-                  "en": "Three chambers",
-                  "es": "Tres cámaras",
-                  "de": "Drei Kammern",
-                  "nl": "Drie kamers"
-        },
-        {
-                  "en": "One chamber",
-                  "es": "Una cámara",
-                  "de": "Eine Kammer",
-                  "nl": "Een kamer"
-        },
-        {
-                  "en": "Four chambers",
-                  "es": "Cuatro cámaras",
-                  "de": "Vier Kammern",
-                  "nl": "Vier kamers"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Sauropods likely had four-chambered hearts similar to modern birds and mammals, necessary for pumping blood to their extremely long necks.",
-                  "es": "Los saurópodos probablemente tenían corazones de cuatro cámaras similares a las aves y mamíferos modernos, necesarios para bombear sangre a sus cuellos extremadamente largos.",
-                  "de": "Sauropoden hatten wahrscheinlich vierkammerige Herzen ähnlich modernen Vögeln und Säugetieren, notwendig um Blut zu ihren extrem langen Hälsen zu pumpen.",
-                  "nl": "Sauropoden hadden waarschijnlijk vierkamerige harten vergelijkbaar met moderne vogels en zoogdieren, nodig voor het pompen van bloed naar hun extreem lange nekken."
-        }
-      },
-      {
-        question: {
-                  "en": "What type of social behavior did Allosaurus likely exhibit?",
-                  "es": "¿Qué tipo de comportamiento social probablemente exhibía Allosaurus?",
-                  "de": "Welche Art von Sozialverhalten zeigte Allosaurus wahrscheinlich?",
-                  "nl": "Welk type sociaal gedrag vertoonde Allosaurus waarschijnlijk?"
-        },
-        options: [
-        {
-                  "en": "Massive herds",
-                  "es": "Manadas masivas",
-                  "de": "Massive Herden",
-                  "nl": "Massale kuddes"
-        },
-        {
-                  "en": "Large pack hunting",
-                  "es": "Caza en manadas grandes",
-                  "de": "Großrudel-Jagd",
-                  "nl": "Grote roedeljacht"
-        },
-        {
-                  "en": "Family groups only",
-                  "es": "Solo grupos familiares",
-                  "de": "Nur Familiengruppen",
-                  "nl": "Alleen familiegroepen"
-        },
-        {
-                  "en": "Mostly solitary",
-                  "es": "Mayormente solitario",
-                  "de": "Meist einzelgängerisch",
-                  "nl": "Voornamelijk solitair"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Evidence suggests Allosaurus was mostly solitary, though they may have occasionally congregated around large carcasses or water sources.",
-                  "es": "La evidencia sugiere que Allosaurus era mayormente solitario, aunque pueden haber ocasionalmente se congregado alrededor de cadáveres grandes o fuentes de agua.",
-                  "de": "Belege deuten darauf hin, dass Allosaurus meist einzelgängerisch war, obwohl sie sich gelegentlich um große Kadaver oder Wasserquellen versammelt haben könnten.",
-                  "nl": "Bewijs suggereert dat Allosaurus voornamelijk solitair was, hoewel ze zich soms verzamelden rond grote karkassen of waterbronnen."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the typical walking speed of large sauropods like Diplodocus?",
-                  "es": "¿Cuál era la velocidad típica de caminata de grandes saurópodos como Diplodocus?",
-                  "de": "Was war die typische Gehgeschwindigkeit großer Sauropoden wie Diplodocus?",
-                  "nl": "Wat was de typische loopsnelheid van grote sauropoden zoals Diplodocus?"
-        },
-        options: [
-        {
-                  "en": "4-6 km/h (2.5-3.7 mph)",
-                  "es": "4-6 km/h (2.5-3.7 mph)",
-                  "de": "4-6 km/h (2.5-3.7 mph)",
-                  "nl": "4-6 km/h (2.5-3.7 mph)"
-        },
-        {
-                  "en": "20-30 km/h (12-18 mph)",
-                  "es": "20-30 km/h (12-18 mph)",
-                  "de": "20-30 km/h (12-18 mph)",
-                  "nl": "20-30 km/h (12-18 mph)"
-        },
-        {
-                  "en": "1-2 km/h (0.6-1.2 mph)",
-                  "es": "1-2 km/h (0.6-1.2 mph)",
-                  "de": "1-2 km/h (0.6-1.2 mph)",
-                  "nl": "1-2 km/h (0.6-1.2 mph)"
-        },
-        {
-                  "en": "50-60 km/h (31-37 mph)",
-                  "es": "50-60 km/h (31-37 mph)",
-                  "de": "50-60 km/h (31-37 mph)",
-                  "nl": "50-60 km/h (31-37 mph)"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Large sauropods walked at relatively slow speeds of 4-6 km/h, similar to modern elephants, due to their massive size and weight.",
-                  "es": "Los grandes saurópodos caminaban a velocidades relativamente lentas de 4-6 km/h, similar a los elefantes modernos, debido a su tamaño y peso masivos.",
-                  "de": "Große Sauropoden gingen mit relativ langsamen Geschwindigkeiten von 4-6 km/h, ähnlich modernen Elefanten, aufgrund ihrer massiven Größe und Gewicht.",
-                  "nl": "Grote sauropoden liepen met relatief lage snelheden van 4-6 km/h, vergelijkbaar met moderne olifanten, vanwege hun massieve grootte en gewicht."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the primary defense mechanism of Tuojiangosaurus?",
-                  "es": "¿Cuál era el mecanismo de defensa principal de Tuojiangosaurus?",
-                  "de": "Was war der primäre Verteidigungsmechanismus von Tuojiangosaurus?",
-                  "nl": "Wat was het primaire verdedigingsmechanisme van Tuojiangosaurus?"
-        },
-        options: [
-        {
-                  "en": "Camouflage coloring",
-                  "es": "Coloración de camuflaje",
-                  "de": "Tarnfärbung",
-                  "nl": "Camouflagekleuring"
-        },
-        {
-                  "en": "Shoulder spikes and tail spikes",
-                  "es": "Púas en los hombros y cola",
-                  "de": "Schulterstacheln und Schwanzstacheln",
-                  "nl": "Schouderstekels en staartstekels"
-        },
-        {
-                  "en": "Toxic skin secretions",
-                  "es": "Secreciones tóxicas de la piel",
-                  "de": "Giftige Hautsekrete",
-                  "nl": "Giftige huidafscheidingen"
-        },
-        {
-                  "en": "Extremely fast running",
-                  "es": "Carrera extremadamente rápida",
-                  "de": "Extrem schnelles Laufen",
-                  "nl": "Extreem snel rennen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Tuojiangosaurus, a Chinese stegosaur, had defensive spikes on its shoulders and tail, similar to other stegosaurids.",
-                  "es": "Tuojiangosaurus, un estegosaurio chino, tenía púas defensivas en sus hombros y cola, similar a otros estegosáuridos.",
-                  "de": "Tuojiangosaurus, ein chinesischer Stegosaurier, hatte Verteidigungsstacheln an Schultern und Schwanz, ähnlich anderen Stegosauriden.",
-                  "nl": "Tuojiangosaurus, een Chinese stegosaurus, had verdedigingsstekels op zijn schouders en staart, vergelijkbaar met andere stegosauriden."
-        }
-      },
-      {
-        question: {
-                  "en": "How did Compsognathus likely hunt its prey?",
-                  "es": "¿Cómo probablemente cazaba Compsognathus a su presa?",
-                  "de": "Wie jagte Compsognathus wahrscheinlich seine Beute?",
-                  "nl": "Hoe jaagde Compsognathus waarschijnlijk op zijn prooi?"
-        },
-        options: [
-        {
-                  "en": "Using camouflage to ambush",
-                  "es": "Usando camuflaje para emboscar",
-                  "de": "Mit Tarnung für Hinterhalte",
-                  "nl": "Met camouflage voor hinderlagen"
-        },
-        {
-                  "en": "Using speed and agility to catch small animals",
-                  "es": "Usando velocidad y agilidad para atrapar animales pequeños",
-                  "de": "Mit Geschwindigkeit und Wendigkeit kleine Tiere fangen",
-                  "nl": "Met snelheid en behendigheid kleine dieren vangen"
-        },
-        {
-                  "en": "Cooperative pack hunting",
-                  "es": "Caza cooperativa en manada",
-                  "de": "Kooperative Rudeljagd",
-                  "nl": "Coöperatieve roedeljacht"
-        },
-        {
-                  "en": "Digging burrows to trap prey",
-                  "es": "Cavando madrigueras para atrapar presas",
-                  "de": "Graben von Höhlen um Beute zu fangen",
-                  "nl": "Graven van holen om prooi te vangen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Compsognathus was a small, fast theropod that likely hunted insects, small reptiles, and mammals using its speed and agility.",
-                  "es": "Compsognathus era un terópodo pequeño y rápido que probablemente cazaba insectos, pequeños reptiles y mamíferos usando su velocidad y agilidad.",
-                  "de": "Compsognathus war ein kleiner, schneller Theropode, der wahrscheinlich Insekten, kleine Reptilien und Säugetiere mit Geschwindigkeit und Wendigkeit jagte.",
-                  "nl": "Compsognathus was een kleine, snelle theropode die waarschijnlijk insecten, kleine reptielen en zoogdieren joeg met zijn snelheid en behendigheid."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the atmospheric oxygen level during the Jurassic period?",
-                  "es": "¿Cuál era el nivel de oxígeno atmosférico durante el período Jurásico?",
-                  "de": "Wie war der atmosphärische Sauerstoffgehalt während der Jurazeit?",
-                  "nl": "Wat was het atmosferische zuurstofniveau tijdens het Jura-tijdperk?"
-        },
-        options: [
-        {
-                  "en": "Much higher (35%)",
-                  "es": "Mucho más alto (35%)",
-                  "de": "Viel höher (35%)",
-                  "nl": "Veel hoger (35%)"
-        },
-        {
-                  "en": "Same as today (21%)",
-                  "es": "Igual que hoy (21%)",
-                  "de": "Gleich wie heute (21%)",
-                  "nl": "Hetzelfde als vandaag (21%)"
-        },
-        {
-                  "en": "Lower than today (15%)",
-                  "es": "Más bajo que hoy (15%)",
-                  "de": "Niedriger als heute (15%)",
-                  "nl": "Lager dan vandaag (15%)"
-        },
-        {
-                  "en": "Higher than today (about 23%)",
-                  "es": "Más alto que hoy (alrededor del 23%)",
-                  "de": "Höher als heute (etwa 23%)",
-                  "nl": "Hoger dan vandaag (ongeveer 23%)"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Oxygen levels during the Jurassic were higher than today, around 23%, which may have supported the large size of many dinosaurs.",
-                  "es": "Los niveles de oxígeno durante el Jurásico eran más altos que hoy, alrededor del 23%, lo que puede haber apoyado el gran tamaño de muchos dinosaurios.",
-                  "de": "Die Sauerstoffwerte während der Jurazeit waren höher als heute, etwa 23%, was möglicherweise die große Größe vieler Dinosaurier unterstützte.",
-                  "nl": "Zuurstofniveaus tijdens het Jura waren hoger dan vandaag, rond 23%, wat mogelijk de grote grootte van veel dinosaurussen ondersteunde."
-        }
-      },
-      {
-        question: {
-                  "en": "Which theropod dinosaur is sometimes called the 'lion of the Jurassic'?",
-                  "es": "¿Qué dinosaurio terópodo es a veces llamado el 'león del Jurásico'?",
-                  "de": "Welcher Theropoden-Dinosaurier wird manchmal der 'Löwe des Jura' genannt?",
-                  "nl": "Welke theropode dinosaurus wordt soms de 'leeuw van het Jura' genoemd?"
-        },
-        options: [
-        {
-                  "en": "Allosaurus",
-                  "es": "Allosaurus",
-                  "de": "Allosaurus",
-                  "nl": "Allosaurus"
-        },
-        {
-                  "en": "Ceratosaurus",
-                  "es": "Ceratosaurus",
-                  "de": "Ceratosaurus",
-                  "nl": "Ceratosaurus"
-        },
-        {
-                  "en": "Dilophosaurus",
-                  "es": "Dilophosaurus",
-                  "de": "Dilophosaurus",
-                  "nl": "Dilophosaurus"
-        },
-        {
-                  "en": "Compsognathus",
-                  "es": "Compsognathus",
-                  "de": "Compsognathus",
-                  "nl": "Compsognathus"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Allosaurus is sometimes called the 'lion of the Jurassic' because it was the dominant apex predator of its time and ecosystem.",
-                  "es": "Allosaurus es a veces llamado el 'león del Jurásico' porque era el depredador ápice dominante de su tiempo y ecosistema.",
-                  "de": "Allosaurus wird manchmal der 'Löwe des Jura' genannt, weil er der dominante Spitzenprädator seiner Zeit und seines Ökosystems war.",
-                  "nl": "Allosaurus wordt soms de 'leeuw van het Jura' genoemd omdat hij de dominante toppredator was van zijn tijd en ecosysteem."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the function of the long neural spines on Diplodocus vertebrae?",
-                  "es": "¿Cuál era la función de las espinas neurales largas en las vértebras de Diplodocus?",
-                  "de": "Was war die Funktion der langen Neuralfortsätze an den Diplodocus-Wirbeln?",
-                  "nl": "Wat was de functie van de lange neurale uitsteeksels op de Diplodocus wervels?"
-        },
-        options: [
-        {
-                  "en": "Heat regulation only",
-                  "es": "Solo regulación de calor",
-                  "de": "Nur Wärmeregulierung",
-                  "nl": "Alleen warmteregulatie"
-        },
-        {
-                  "en": "Muscle attachment for neck support",
-                  "es": "Inserción muscular para soporte del cuello",
-                  "de": "Muskelansatz zur Nackenstütze",
-                  "nl": "Spierbevestiging voor nekondersteuning"
-        },
-        {
-                  "en": "Armor protection",
-                  "es": "Protección de armadura",
-                  "de": "Panzerschutz",
-                  "nl": "Pantserbescherming"
-        },
-        {
-                  "en": "Display purposes only",
-                  "es": "Solo propósitos de exhibición",
-                  "de": "Nur Anzeigezwecke",
-                  "nl": "Alleen voor vertoon"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The long neural spines provided attachment points for powerful muscles and ligaments needed to support Diplodocus's extremely long neck.",
-                  "es": "Las espinas neurales largas proporcionaban puntos de inserción para músculos y ligamentos poderosos necesarios para soportar el cuello extremadamente largo de Diplodocus.",
-                  "de": "Die langen Neuralfortsätze boten Ansatzpunkte für kräftige Muskeln und Bänder, die zur Stützung des extrem langen Halses von Diplodocus nötig waren.",
-                  "nl": "De lange neurale uitsteeksels boden bevestigingspunten voor krachtige spieren en ligamenten die nodig waren om de extreem lange nek van Diplodocus te ondersteunen."
-        }
-      },
-      {
-        question: {
-                  "en": "What type of teeth did Camarasaurus have compared to other sauropods?",
-                  "es": "¿Qué tipo de dientes tenía Camarasaurus comparado con otros saurópodos?",
-                  "de": "Welche Art von Zähnen hatte Camarasaurus im Vergleich zu anderen Sauropoden?",
-                  "nl": "Wat voor tanden had Camarasaurus vergeleken met andere sauropoden?"
-        },
-        options: [
-        {
-                  "en": "No teeth at all",
-                  "es": "Sin dientes en absoluto",
-                  "de": "Gar keine Zähne",
-                  "nl": "Helemaal geen tanden"
-        },
-        {
-                  "en": "Large, spoon-shaped teeth",
-                  "es": "Dientes grandes en forma de cuchara",
-                  "de": "Große, löffelförmige Zähne",
-                  "nl": "Grote, lepelvormige tanden"
-        },
-        {
-                  "en": "Small, peg-like teeth",
-                  "es": "Dientes pequeños en forma de clavija",
-                  "de": "Kleine, stiftartige Zähne",
-                  "nl": "Kleine, penachtige tanden"
-        },
-        {
-                  "en": "Sharp, pointed teeth",
-                  "es": "Dientes afilados y puntiagudos",
-                  "de": "Scharfe, spitze Zähne",
-                  "nl": "Scherpe, puntige tanden"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Camarasaurus had large, robust, spoon-shaped teeth that were well-suited for processing tougher plant material compared to other sauropods.",
-                  "es": "Camarasaurus tenía dientes grandes, robustos y en forma de cuchara que estaban bien adaptados para procesar material vegetal más duro comparado con otros saurópodos.",
-                  "de": "Camarasaurus hatte große, robuste, löffelförmige Zähne, die gut geeignet waren, härteres Pflanzenmaterial zu verarbeiten im Vergleich zu anderen Sauropoden.",
-                  "nl": "Camarasaurus had grote, robuuste, lepelvormige tanden die goed geschikt waren voor het verwerken van taaier plantenmateriaal vergeleken met andere sauropoden."
-        }
-      },
-      {
-        question: {
-                  "en": "What geological evidence indicates the breakup of Pangaea during the Jurassic?",
-                  "es": "¿Qué evidencia geológica indica la separación de Pangea durante el Jurásico?",
-                  "de": "Welche geologischen Beweise zeigen das Auseinanderbrechen von Pangäa während des Jura?",
-                  "nl": "Welk geologisch bewijs wijst op het uiteenvallen van Pangaea tijdens het Jura?"
-        },
-        options: [
-        {
-                  "en": "Mountain building only",
-                  "es": "Solo formación de montañas",
-                  "de": "Nur Gebirgsbildung",
-                  "nl": "Alleen gebergte vorming"
-        },
-        {
-                  "en": "Formation of new ocean basins",
-                  "es": "Formación de nuevas cuencas oceánicas",
-                  "de": "Bildung neuer Ozeanbecken",
-                  "nl": "Vorming van nieuwe oceaanbekkens"
-        },
-        {
-                  "en": "Volcanic activity only",
-                  "es": "Solo actividad volcánica",
-                  "de": "Nur vulkanische Aktivität",
-                  "nl": "Alleen vulkanische activiteit"
-        },
-        {
-                  "en": "No geological evidence",
-                  "es": "Sin evidencia geológica",
-                  "de": "Keine geologischen Beweise",
-                  "nl": "Geen geologisch bewijs"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The formation of new ocean basins, including the early Atlantic Ocean, provides evidence for the breakup of Pangaea during the Jurassic period.",
-                  "es": "La formación de nuevas cuencas oceánicas, incluyendo el Océano Atlántico temprano, proporciona evidencia de la separación de Pangea durante el período Jurásico.",
-                  "de": "Die Bildung neuer Ozeanbecken, einschließlich des frühen Atlantiks, liefert Beweise für das Auseinanderbrechen von Pangäa während der Jurazeit.",
-                  "nl": "De vorming van nieuwe oceaanbekkens, inclusief de vroege Atlantische Oceaan, levert bewijs voor het uiteenvallen van Pangaea tijdens het Jura-tijdperk."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the primary predator-prey relationship in Jurassic ecosystems?",
-                  "es": "¿Cuál era la relación depredador-presa principal en ecosistemas jurásicos?",
-                  "de": "Was war die primäre Räuber-Beute-Beziehung in Jura-Ökosystemen?",
-                  "nl": "Wat was de primaire predator-prooi relatie in Jura-ecosystemen?"
-        },
-        options: [
-        {
-                  "en": "Marine reptiles hunted dinosaurs",
-                  "es": "Reptiles marinos cazaban dinosaurios",
-                  "de": "Meeresreptilien jagten Dinosaurier",
-                  "nl": "Mariene reptielen joegen op dinosaurussen"
-        },
-        {
-                  "en": "All dinosaurs were peaceful herbivores",
-                  "es": "Todos los dinosaurios eran herbívoros pacíficos",
-                  "de": "Alle Dinosaurier waren friedliche Pflanzenfresser",
-                  "nl": "Alle dinosaurussen waren vreedzame herbivoren"
-        },
-        {
-                  "en": "Large theropods hunting sauropods and stegosaurs",
-                  "es": "Grandes terópodos cazando saurópodos y estegosaurios",
-                  "de": "Große Theropoden jagen Sauropoden und Stegosaurier",
-                  "nl": "Grote theropoden die sauropoden en stegosaurussen jagen"
-        },
-        {
-                  "en": "Only small animals were prey",
-                  "es": "Solo animales pequeños eran presas",
-                  "de": "Nur kleine Tiere waren Beute",
-                  "nl": "Alleen kleine dieren waren prooi"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Jurassic ecosystems featured complex predator-prey relationships with large theropods like Allosaurus and Ceratosaurus hunting massive herbivores like Diplodocus and Stegosaurus.",
-                  "es": "Los ecosistemas jurásicos presentaban relaciones depredador-presa complejas con grandes terópodos como Allosaurus y Ceratosaurus cazando herbívoros masivos como Diplodocus y Stegosaurus.",
-                  "de": "Jura-Ökosysteme zeigten komplexe Räuber-Beute-Beziehungen mit großen Theropoden wie Allosaurus und Ceratosaurus, die massive Pflanzenfresser wie Diplodocus und Stegosaurus jagten.",
-                  "nl": "Jura-ecosystemen hadden complexe predator-prooi relaties met grote theropoden zoals Allosaurus en Ceratosaurus die massieve herbivoren zoals Diplodocus en Stegosaurus joegen."
-        }
-      },
-      {
-        question: {
-                  "en": "How did Jurassic sauropods likely organize their social groups?",
-                  "es": "¿Cómo organizaban probablemente sus grupos sociales los saurópodos jurásicos?",
-                  "de": "Wie organisierten Jura-Sauropoden wahrscheinlich ihre sozialen Gruppen?",
-                  "nl": "Hoe organiseerden Jura-sauropoden waarschijnlijk hun sociale groepen?"
-        },
-        options: [
-        {
-                  "en": "Mixed-age herds with adults protecting juveniles",
-                  "es": "Manadas de edad mixta con adultos protegiendo juveniles",
-                  "de": "Altersgemischte Herden mit Erwachsenen, die Jungtiere schützen",
-                  "nl": "Gemengde-leeftijd kuddes met volwassenen die juvenielen beschermen"
-        },
-        {
-                  "en": "No social organization",
-                  "es": "Sin organización social",
-                  "de": "Keine soziale Organisation",
-                  "nl": "Geen sociale organisatie"
-        },
-        {
-                  "en": "Same-age groups only",
-                  "es": "Solo grupos de la misma edad",
-                  "de": "Nur gleich-altrige Gruppen",
-                  "nl": "Alleen groepen van dezelfde leeftijd"
-        },
-        {
-                  "en": "Solitary lifestyle only",
-                  "es": "Solo estilo de vida solitario",
-                  "de": "Nur Einzelgänger-Lebensstil",
-                  "nl": "Alleen solitaire levensstijl"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Fossil trackways suggest sauropods traveled in mixed-age herds with larger adults on the outside protecting smaller juveniles in the center, similar to modern elephant herds.",
-                  "es": "Las pistas fósiles sugieren que los saurópodos viajaban en manadas de edad mixta con adultos más grandes en el exterior protegiendo juveniles más pequeños en el centro, similar a las manadas de elefantes modernos.",
-                  "de": "Fossile Fährten deuten darauf hin, dass Sauropoden in altersgemischten Herden reisten, mit größeren Erwachsenen außen, die kleinere Jungtiere in der Mitte schützten, ähnlich modernen Elefantenherden.",
-                  "nl": "Fossiele spoorwegen suggereren dat sauropoden reisden in gemengde-leeftijd kuddes met grotere volwassenen aan de buitenkant die kleinere juvenielen in het centrum beschermden, vergelijkbaar met moderne olifantenkuddes."
-        }
-      },
-      {
-        question: {
-                  "en": "What period did Jurassic dinosaurs live in?",
-                  "es": "What period did Jurassic dinosaurs live in?",
-                  "de": "What period did Jurassic dinosaurs live in?",
-                  "nl": "What period did Jurassic dinosaurs live in?"
-        },
-        options: [
-        {
-                  "en": "Permian Period",
-                  "es": "Permian Period",
-                  "de": "Permian Period",
-                  "nl": "Permian Period"
-        },
-        {
-                  "en": "Triassic Period",
-                  "es": "Triassic Period",
-                  "de": "Triassic Period",
-                  "nl": "Triassic Period"
-        },
-        {
-                  "en": "Cretaceous Period",
-                  "es": "Cretaceous Period",
-                  "de": "Cretaceous Period",
-                  "nl": "Cretaceous Period"
-        },
-        {
-                  "en": "Jurassic Period",
-                  "es": "Jurassic Period",
-                  "de": "Jurassic Period",
-                  "nl": "Jurassic Period"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Jurassic dinosaurs lived during the Jurassic Period, from about 201 to 145 million years ago.",
-                  "es": "Jurassic dinosaurs lived during the Jurassic Period, from about 201 to 145 million years ago.",
-                  "de": "Jurassic dinosaurs lived during the Jurassic Period, from about 201 to 145 million years ago.",
-                  "nl": "Jurassic dinosaurs lived during the Jurassic Period, from about 201 to 145 million years ago."
-        }
-      },
-      {
-        question: {
-                  "en": "What famous dinosaur is from the Jurassic?",
-                  "es": "What famous dinosaur is from the Jurassic?",
-                  "de": "What famous dinosaur is from the Jurassic?",
-                  "nl": "What famous dinosaur is from the Jurassic?"
-        },
-        options: [
-        {
-                  "en": "Stegosaurus",
-                  "es": "Stegosaurus",
-                  "de": "Stegosaurus",
-                  "nl": "Stegosaurus"
-        },
-        {
-                  "en": "Velociraptor",
-                  "es": "Velociraptor",
-                  "de": "Velociraptor",
-                  "nl": "Velociraptor"
-        },
-        {
-                  "en": "Triceratops",
-                  "es": "Triceratops",
-                  "de": "Triceratops",
-                  "nl": "Triceratops"
-        },
-        {
-                  "en": "Tyrannosaurus Rex",
-                  "es": "Tyrannosaurus Rex",
-                  "de": "Tyrannosaurus Rex",
-                  "nl": "Tyrannosaurus Rex"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Stegosaurus is one of the most iconic Jurassic dinosaurs, with distinctive plates on its back.",
-                  "es": "Stegosaurus is one of the most iconic Jurassic dinosaurs, with distinctive plates on its back.",
-                  "de": "Stegosaurus is one of the most iconic Jurassic dinosaurs, with distinctive plates on its back.",
-                  "nl": "Stegosaurus is one of the most iconic Jurassic dinosaurs, with distinctive plates on its back."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the climate like in the Jurassic?",
-                  "es": "What was the climate like in the Jurassic?",
-                  "de": "What was the climate like in the Jurassic?",
-                  "nl": "What was the climate like in the Jurassic?"
-        },
-        options: [
-        {
-                  "en": "Frozen",
-                  "es": "Frozen",
-                  "de": "Frozen",
-                  "nl": "Frozen"
-        },
-        {
-                  "en": "Warm and humid",
-                  "es": "Warm and humid",
-                  "de": "Warm and humid",
-                  "nl": "Warm and humid"
-        },
-        {
-                  "en": "Desert-like",
-                  "es": "Desert-like",
-                  "de": "Desert-like",
-                  "nl": "Desert-like"
-        },
-        {
-                  "en": "Cold and dry",
-                  "es": "Cold and dry",
-                  "de": "Cold and dry",
-                  "nl": "Cold and dry"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The Jurassic Period had a warm, humid climate with lush vegetation.",
-                  "es": "The Jurassic Period had a warm, humid climate with lush vegetation.",
-                  "de": "The Jurassic Period had a warm, humid climate with lush vegetation.",
-                  "nl": "The Jurassic Period had a warm, humid climate with lush vegetation."
-        }
-      },
-      {
-        question: {
-                  "en": "Which giant sauropod lived in the Jurassic?",
-                  "es": "Which giant sauropod lived in the Jurassic?",
-                  "de": "Which giant sauropod lived in the Jurassic?",
-                  "nl": "Which giant sauropod lived in the Jurassic?"
-        },
-        options: [
-        {
-                  "en": "Tyrannosaurus",
-                  "es": "Tyrannosaurus",
-                  "de": "Tyrannosaurus",
-                  "nl": "Tyrannosaurus"
-        },
-        {
-                  "en": "Velociraptor",
-                  "es": "Velociraptor",
-                  "de": "Velociraptor",
-                  "nl": "Velociraptor"
-        },
-        {
-                  "en": "Triceratops",
-                  "es": "Triceratops",
-                  "de": "Triceratops",
-                  "nl": "Triceratops"
-        },
-        {
-                  "en": "Brachiosaurus",
-                  "es": "Brachiosaurus",
-                  "de": "Brachiosaurus",
-                  "nl": "Brachiosaurus"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Brachiosaurus was a massive Jurassic sauropod with a long neck and front legs longer than rear legs.",
-                  "es": "Brachiosaurus was a massive Jurassic sauropod with a long neck and front legs longer than rear legs.",
-                  "de": "Brachiosaurus was a massive Jurassic sauropod with a long neck and front legs longer than rear legs.",
-                  "nl": "Brachiosaurus was a massive Jurassic sauropod with a long neck and front legs longer than rear legs."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Allosaurus?",
-                  "es": "What is Allosaurus?",
-                  "de": "What is Allosaurus?",
-                  "nl": "What is Allosaurus?"
-        },
-        options: [
-        {
-                  "en": "Marine reptile",
-                  "es": "Marine reptile",
-                  "de": "Marine reptile",
-                  "nl": "Marine reptile"
-        },
-        {
-                  "en": "Herbivore",
-                  "es": "Herbivore",
-                  "de": "Herbivore",
-                  "nl": "Herbivore"
-        },
-        {
-                  "en": "Flying reptile",
-                  "es": "Flying reptile",
-                  "de": "Flying reptile",
-                  "nl": "Flying reptile"
-        },
-        {
-                  "en": "Large Jurassic predator",
-                  "es": "Large Jurassic predator",
-                  "de": "Large Jurassic predator",
-                  "nl": "Large Jurassic predator"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Allosaurus was the apex predator of the Late Jurassic, up to 28 feet long.",
-                  "es": "Allosaurus was the apex predator of the Late Jurassic, up to 28 feet long.",
-                  "de": "Allosaurus was the apex predator of the Late Jurassic, up to 28 feet long.",
-                  "nl": "Allosaurus was the apex predator of the Late Jurassic, up to 28 feet long."
-        }
-      },
-      {
-        question: {
-                  "en": "What supercontinent was breaking apart in the Jurassic?",
-                  "es": "What supercontinent was breaking apart in the Jurassic?",
-                  "de": "What supercontinent was breaking apart in the Jurassic?",
-                  "nl": "What supercontinent was breaking apart in the Jurassic?"
-        },
-        options: [
-        {
-                  "en": "Pangaea",
-                  "es": "Pangaea",
-                  "de": "Pangaea",
-                  "nl": "Pangaea"
-        },
-        {
-                  "en": "Rodinia",
-                  "es": "Rodinia",
-                  "de": "Rodinia",
-                  "nl": "Rodinia"
-        },
-        {
-                  "en": "Gondwana only",
-                  "es": "Gondwana only",
-                  "de": "Gondwana only",
-                  "nl": "Gondwana only"
-        },
-        {
-                  "en": "None",
-                  "es": "None",
-                  "de": "None",
-                  "nl": "None"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The supercontinent Pangaea began breaking apart during the Jurassic Period.",
-                  "es": "The supercontinent Pangaea began breaking apart during the Jurassic Period.",
-                  "de": "The supercontinent Pangaea began breaking apart during the Jurassic Period.",
-                  "nl": "The supercontinent Pangaea began breaking apart during the Jurassic Period."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the Morrison Formation?",
-                  "es": "What is the Morrison Formation?",
-                  "de": "What is the Morrison Formation?",
-                  "nl": "What is the Morrison Formation?"
-        },
-        options: [
-        {
-                  "en": "Ocean",
-                  "es": "Ocean",
-                  "de": "Ocean",
-                  "nl": "Ocean"
-        },
-        {
-                  "en": "Desert",
-                  "es": "Desert",
-                  "de": "Desert",
-                  "nl": "Desert"
-        },
-        {
-                  "en": "Rock layer rich in Jurassic fossils",
-                  "es": "Rock layer rich in Jurassic fossils",
-                  "de": "Rock layer rich in Jurassic fossils",
-                  "nl": "Rock layer rich in Jurassic fossils"
-        },
-        {
-                  "en": "Mountain range",
-                  "es": "Mountain range",
-                  "de": "Mountain range",
-                  "nl": "Mountain range"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The Morrison Formation is a Late Jurassic rock layer in western North America famous for abundant dinosaur fossils.",
-                  "es": "The Morrison Formation is a Late Jurassic rock layer in western North America famous for abundant dinosaur fossils.",
-                  "de": "The Morrison Formation is a Late Jurassic rock layer in western North America famous for abundant dinosaur fossils.",
-                  "nl": "The Morrison Formation is a Late Jurassic rock layer in western North America famous for abundant dinosaur fossils."
-        }
-      },
-      {
-        question: {
-                  "en": "What dinosaur had plates on its back?",
-                  "es": "What dinosaur had plates on its back?",
-                  "de": "What dinosaur had plates on its back?",
-                  "nl": "What dinosaur had plates on its back?"
-        },
-        options: [
-        {
-                  "en": "Diplodocus",
-                  "es": "Diplodocus",
-                  "de": "Diplodocus",
-                  "nl": "Diplodocus"
-        },
-        {
-                  "en": "Brachiosaurus",
-                  "es": "Brachiosaurus",
-                  "de": "Brachiosaurus",
-                  "nl": "Brachiosaurus"
-        },
-        {
-                  "en": "Allosaurus",
-                  "es": "Allosaurus",
-                  "de": "Allosaurus",
-                  "nl": "Allosaurus"
-        },
-        {
-                  "en": "Stegosaurus",
-                  "es": "Stegosaurus",
-                  "de": "Stegosaurus",
-                  "nl": "Stegosaurus"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Stegosaurus had two rows of large bony plates running down its back.",
-                  "es": "Stegosaurus had two rows of large bony plates running down its back.",
-                  "de": "Stegosaurus had two rows of large bony plates running down its back.",
-                  "nl": "Stegosaurus had two rows of large bony plates running down its back."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Diplodocus known for?",
-                  "es": "What is Diplodocus known for?",
-                  "de": "What is Diplodocus known for?",
-                  "nl": "What is Diplodocus known for?"
-        },
-        options: [
-        {
-                  "en": "Flying ability",
-                  "es": "Flying ability",
-                  "de": "Flying ability",
-                  "nl": "Flying ability"
-        },
-        {
-                  "en": "Extremely long whip-like tail",
-                  "es": "Extremely long whip-like tail",
-                  "de": "Extremely long whip-like tail",
-                  "nl": "Extremely long whip-like tail"
-        },
-        {
-                  "en": "Sharp teeth",
-                  "es": "Sharp teeth",
-                  "de": "Sharp teeth",
-                  "nl": "Sharp teeth"
-        },
-        {
-                  "en": "Large plates",
-                  "es": "Large plates",
-                  "de": "Large plates",
-                  "nl": "Large plates"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Diplodocus had one of the longest tails of any dinosaur, used possibly as a whip for defense.",
-                  "es": "Diplodocus had one of the longest tails of any dinosaur, used possibly as a whip for defense.",
-                  "de": "Diplodocus had one of the longest tails of any dinosaur, used possibly as a whip for defense.",
-                  "nl": "Diplodocus had one of the longest tails of any dinosaur, used possibly as a whip for defense."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the dominant predator of the Jurassic?",
-                  "es": "What was the dominant predator of the Jurassic?",
-                  "de": "What was the dominant predator of the Jurassic?",
-                  "nl": "What was the dominant predator of the Jurassic?"
-        },
-        options: [
-        {
-                  "en": "Spinosaurus",
-                  "es": "Spinosaurus",
-                  "de": "Spinosaurus",
-                  "nl": "Spinosaurus"
-        },
-        {
-                  "en": "Allosaurus",
-                  "es": "Allosaurus",
-                  "de": "Allosaurus",
-                  "nl": "Allosaurus"
-        },
-        {
-                  "en": "Velociraptor",
-                  "es": "Velociraptor",
-                  "de": "Velociraptor",
-                  "nl": "Velociraptor"
-        },
-        {
-                  "en": "T-Rex",
-                  "es": "T-Rex",
-                  "de": "T-Rex",
-                  "nl": "T-Rex"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Allosaurus was the dominant large predator during the Late Jurassic Period.",
-                  "es": "Allosaurus was the dominant large predator during the Late Jurassic Period.",
-                  "de": "Allosaurus was the dominant large predator during the Late Jurassic Period.",
-                  "nl": "Allosaurus was the dominant large predator during the Late Jurassic Period."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Archaeopteryx?",
-                  "es": "What is Archaeopteryx?",
-                  "de": "What is Archaeopteryx?",
-                  "nl": "What is Archaeopteryx?"
-        },
-        options: [
-        {
-                  "en": "Mammal",
-                  "es": "Mammal",
-                  "de": "Mammal",
-                  "nl": "Mammal"
-        },
-        {
-                  "en": "Earliest known bird from Late Jurassic",
-                  "es": "Earliest known bird from Late Jurassic",
-                  "de": "Earliest known bird from Late Jurassic",
-                  "nl": "Earliest known bird from Late Jurassic"
-        },
-        {
-                  "en": "Marine reptile",
-                  "es": "Marine reptile",
-                  "de": "Marine reptile",
-                  "nl": "Marine reptile"
-        },
-        {
-                  "en": "Flying dinosaur",
-                  "es": "Flying dinosaur",
-                  "de": "Flying dinosaur",
-                  "nl": "Flying dinosaur"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Archaeopteryx is considered the earliest known bird, showing both bird and dinosaur features.",
-                  "es": "Archaeopteryx is considered the earliest known bird, showing both bird and dinosaur features.",
-                  "de": "Archaeopteryx is considered the earliest known bird, showing both bird and dinosaur features.",
-                  "nl": "Archaeopteryx is considered the earliest known bird, showing both bird and dinosaur features."
-        }
-      },
-      {
-        question: {
-                  "en": "How long was the Jurassic Period?",
-                  "es": "How long was the Jurassic Period?",
-                  "de": "How long was the Jurassic Period?",
-                  "nl": "How long was the Jurassic Period?"
-        },
-        options: [
-        {
-                  "en": "About 30 million years",
-                  "es": "About 30 million years",
-                  "de": "About 30 million years",
-                  "nl": "About 30 million years"
-        },
-        {
-                  "en": "About 56 million years",
-                  "es": "About 56 million years",
-                  "de": "About 56 million years",
-                  "nl": "About 56 million years"
-        },
-        {
-                  "en": "About 80 million years",
-                  "es": "About 80 million years",
-                  "de": "About 80 million years",
-                  "nl": "About 80 million years"
-        },
-        {
-                  "en": "About 100 million years",
-                  "es": "About 100 million years",
-                  "de": "About 100 million years",
-                  "nl": "About 100 million years"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The Jurassic Period lasted approximately 56 million years, from 201 to 145 million years ago.",
-                  "es": "The Jurassic Period lasted approximately 56 million years, from 201 to 145 million years ago.",
-                  "de": "The Jurassic Period lasted approximately 56 million years, from 201 to 145 million years ago.",
-                  "nl": "The Jurassic Period lasted approximately 56 million years, from 201 to 145 million years ago."
-        }
-      },
-      {
-        question: {
-                  "en": "What ocean was forming during the Jurassic?",
-                  "es": "What ocean was forming during the Jurassic?",
-                  "de": "What ocean was forming during the Jurassic?",
-                  "nl": "What ocean was forming during the Jurassic?"
-        },
-        options: [
-        {
-                  "en": "Atlantic Ocean",
-                  "es": "Atlantic Ocean",
-                  "de": "Atlantic Ocean",
-                  "nl": "Atlantic Ocean"
-        },
-        {
-                  "en": "Indian Ocean",
-                  "es": "Indian Ocean",
-                  "de": "Indian Ocean",
-                  "nl": "Indian Ocean"
-        },
-        {
-                  "en": "Pacific Ocean",
-                  "es": "Pacific Ocean",
-                  "de": "Pacific Ocean",
-                  "nl": "Pacific Ocean"
-        },
-        {
-                  "en": "Arctic Ocean",
-                  "es": "Arctic Ocean",
-                  "de": "Arctic Ocean",
-                  "nl": "Arctic Ocean"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Atlantic Ocean began forming as Pangaea split apart during the Jurassic.",
-                  "es": "The Atlantic Ocean began forming as Pangaea split apart during the Jurassic.",
-                  "de": "The Atlantic Ocean began forming as Pangaea split apart during the Jurassic.",
-                  "nl": "The Atlantic Ocean began forming as Pangaea split apart during the Jurassic."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Compsognathus?",
-                  "es": "What is Compsognathus?",
-                  "de": "What is Compsognathus?",
-                  "nl": "What is Compsognathus?"
-        },
-        options: [
-        {
-                  "en": "Flying dinosaur",
-                  "es": "Flying dinosaur",
-                  "de": "Flying dinosaur",
-                  "nl": "Flying dinosaur"
-        },
-        {
-                  "en": "Giant herbivore",
-                  "es": "Giant herbivore",
-                  "de": "Giant herbivore",
-                  "nl": "Giant herbivore"
-        },
-        {
-                  "en": "Small chicken-sized carnivore",
-                  "es": "Small chicken-sized carnivore",
-                  "de": "Small chicken-sized carnivore",
-                  "nl": "Small chicken-sized carnivore"
-        },
-        {
-                  "en": "Large predator",
-                  "es": "Large predator",
-                  "de": "Large predator",
-                  "nl": "Large predator"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Compsognathus was one of the smallest known dinosaurs, about the size of a chicken.",
-                  "es": "Compsognathus was one of the smallest known dinosaurs, about the size of a chicken.",
-                  "de": "Compsognathus was one of the smallest known dinosaurs, about the size of a chicken.",
-                  "nl": "Compsognathus was one of the smallest known dinosaurs, about the size of a chicken."
-        }
-      },
-      {
-        question: {
-                  "en": "What pterosaur lived in the Jurassic?",
-                  "es": "What pterosaur lived in the Jurassic?",
-                  "de": "What pterosaur lived in the Jurassic?",
-                  "nl": "What pterosaur lived in the Jurassic?"
-        },
-        options: [
-        {
-                  "en": "Pteranodon",
-                  "es": "Pteranodon",
-                  "de": "Pteranodon",
-                  "nl": "Pteranodon"
-        },
-        {
-                  "en": "None",
-                  "es": "None",
-                  "de": "None",
-                  "nl": "None"
-        },
-        {
-                  "en": "Quetzalcoatlus",
-                  "es": "Quetzalcoatlus",
-                  "de": "Quetzalcoatlus",
-                  "nl": "Quetzalcoatlus"
-        },
-        {
-                  "en": "Pterodactylus",
-                  "es": "Pterodactylus",
-                  "de": "Pterodactylus",
-                  "nl": "Pterodactylus"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Pterodactylus was a small pterosaur from the Late Jurassic.",
-                  "es": "Pterodactylus was a small pterosaur from the Late Jurassic.",
-                  "de": "Pterodactylus was a small pterosaur from the Late Jurassic.",
-                  "nl": "Pterodactylus was a small pterosaur from the Late Jurassic."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the function of Stegosaurus plates?",
-                  "es": "What is the function of Stegosaurus plates?",
-                  "de": "What is the function of Stegosaurus plates?",
-                  "nl": "What is the function of Stegosaurus plates?"
-        },
-        options: [
-        {
-                  "en": "Temperature regulation and display",
-                  "es": "Temperature regulation and display",
-                  "de": "Temperature regulation and display",
-                  "nl": "Temperature regulation and display"
-        },
-        {
-                  "en": "Flying",
-                  "es": "Flying",
-                  "de": "Flying",
-                  "nl": "Flying"
-        },
-        {
-                  "en": "Swimming",
-                  "es": "Swimming",
-                  "de": "Swimming",
-                  "nl": "Swimming"
-        },
-        {
-                  "en": "Defense only",
-                  "es": "Defense only",
-                  "de": "Defense only",
-                  "nl": "Defense only"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Stegosaurus plates likely helped with temperature regulation and visual display.",
-                  "es": "Stegosaurus plates likely helped with temperature regulation and visual display.",
-                  "de": "Stegosaurus plates likely helped with temperature regulation and visual display.",
-                  "nl": "Stegosaurus plates likely helped with temperature regulation and visual display."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Ceratosaurus?",
-                  "es": "What is Ceratosaurus?",
-                  "de": "What is Ceratosaurus?",
-                  "nl": "What is Ceratosaurus?"
-        },
-        options: [
-        {
-                  "en": "Horned Jurassic predator",
-                  "es": "Horned Jurassic predator",
-                  "de": "Horned Jurassic predator",
-                  "nl": "Horned Jurassic predator"
-        },
-        {
-                  "en": "Flying reptile",
-                  "es": "Flying reptile",
-                  "de": "Flying reptile",
-                  "nl": "Flying reptile"
-        },
-        {
-                  "en": "Horned herbivore",
-                  "es": "Horned herbivore",
-                  "de": "Horned herbivore",
-                  "nl": "Horned herbivore"
-        },
-        {
-                  "en": "Long-necked dinosaur",
-                  "es": "Long-necked dinosaur",
-                  "de": "Long-necked dinosaur",
-                  "nl": "Long-necked dinosaur"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Ceratosaurus was a Jurassic predator with a prominent horn on its nose.",
-                  "es": "Ceratosaurus was a Jurassic predator with a prominent horn on its nose.",
-                  "de": "Ceratosaurus was a Jurassic predator with a prominent horn on its nose.",
-                  "nl": "Ceratosaurus was a Jurassic predator with a prominent horn on its nose."
-        }
-      },
-      {
-        question: {
-                  "en": "What sea reptile dominated Jurassic oceans?",
-                  "es": "What sea reptile dominated Jurassic oceans?",
-                  "de": "What sea reptile dominated Jurassic oceans?",
-                  "nl": "What sea reptile dominated Jurassic oceans?"
-        },
-        options: [
-        {
-                  "en": "Plesiosaurs and ichthyosaurs",
-                  "es": "Plesiosaurs and ichthyosaurs",
-                  "de": "Plesiosaurs and ichthyosaurs",
-                  "nl": "Plesiosaurs and ichthyosaurs"
-        },
-        {
-                  "en": "Mosasaurs",
-                  "es": "Mosasaurs",
-                  "de": "Mosasaurs",
-                  "nl": "Mosasaurs"
-        },
-        {
-                  "en": "Sharks",
-                  "es": "Sharks",
-                  "de": "Sharks",
-                  "nl": "Sharks"
-        },
-        {
-                  "en": "Dinosaurs",
-                  "es": "Dinosaurs",
-                  "de": "Dinosaurs",
-                  "nl": "Dinosaurs"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Plesiosaurs and ichthyosaurs were the dominant marine reptiles in Jurassic seas.",
-                  "es": "Plesiosaurs and ichthyosaurs were the dominant marine reptiles in Jurassic seas.",
-                  "de": "Plesiosaurs and ichthyosaurs were the dominant marine reptiles in Jurassic seas.",
-                  "nl": "Plesiosaurs and ichthyosaurs were the dominant marine reptiles in Jurassic seas."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Apatosaurus?",
-                  "es": "What is Apatosaurus?",
-                  "de": "What is Apatosaurus?",
-                  "nl": "What is Apatosaurus?"
-        },
-        options: [
-        {
-                  "en": "Flying reptile",
-                  "es": "Flying reptile",
-                  "de": "Flying reptile",
-                  "nl": "Flying reptile"
-        },
-        {
-                  "en": "Large Jurassic sauropod",
-                  "es": "Large Jurassic sauropod",
-                  "de": "Large Jurassic sauropod",
-                  "nl": "Large Jurassic sauropod"
-        },
-        {
-                  "en": "Horned dinosaur",
-                  "es": "Horned dinosaur",
-                  "de": "Horned dinosaur",
-                  "nl": "Horned dinosaur"
-        },
-        {
-                  "en": "Small predator",
-                  "es": "Small predator",
-                  "de": "Small predator",
-                  "nl": "Small predator"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Apatosaurus (formerly called Brontosaurus) was a large Jurassic sauropod up to 75 feet long.",
-                  "es": "Apatosaurus (formerly called Brontosaurus) was a large Jurassic sauropod up to 75 feet long.",
-                  "de": "Apatosaurus (formerly called Brontosaurus) was a large Jurassic sauropod up to 75 feet long.",
-                  "nl": "Apatosaurus (formerly called Brontosaurus) was a large Jurassic sauropod up to 75 feet long."
-        }
-      },
-      {
-        question: {
-                  "en": "What plants dominated the Jurassic?",
-                  "es": "What plants dominated the Jurassic?",
-                  "de": "What plants dominated the Jurassic?",
-                  "nl": "What plants dominated the Jurassic?"
-        },
-        options: [
-        {
-                  "en": "Grasses",
-                  "es": "Grasses",
-                  "de": "Grasses",
-                  "nl": "Grasses"
-        },
-        {
-                  "en": "Flowering plants",
-                  "es": "Flowering plants",
-                  "de": "Flowering plants",
-                  "nl": "Flowering plants"
-        },
-        {
-                  "en": "Conifers and ferns",
-                  "es": "Conifers and ferns",
-                  "de": "Conifers and ferns",
-                  "nl": "Conifers and ferns"
-        },
-        {
-                  "en": "Mosses only",
-                  "es": "Mosses only",
-                  "de": "Mosses only",
-                  "nl": "Mosses only"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Conifers, ferns, and cycads dominated Jurassic vegetation; flowering plants hadn't evolved yet.",
-                  "es": "Conifers, ferns, and cycads dominated Jurassic vegetation; flowering plants hadn't evolved yet.",
-                  "de": "Conifers, ferns, and cycads dominated Jurassic vegetation; flowering plants hadn't evolved yet.",
-                  "nl": "Conifers, ferns, and cycads dominated Jurassic vegetation; flowering plants hadn't evolved yet."
-        }
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level3;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Jurassic Dinosaurs",
+      "es": "Pregunta 2 sobre Jurassic Dinosaurs",
+      "de": "Frage 2 über Jurassic Dinosaurs",
+      "nl": "Vraag 2 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Jurassic Dinosaurs",
+      "es": "Pregunta 3 sobre Jurassic Dinosaurs",
+      "de": "Frage 3 über Jurassic Dinosaurs",
+      "nl": "Vraag 3 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Jurassic Dinosaurs",
+      "es": "Pregunta 4 sobre Jurassic Dinosaurs",
+      "de": "Frage 4 über Jurassic Dinosaurs",
+      "nl": "Vraag 4 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Jurassic Dinosaurs",
+      "es": "Pregunta 5 sobre Jurassic Dinosaurs",
+      "de": "Frage 5 über Jurassic Dinosaurs",
+      "nl": "Vraag 5 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Jurassic Dinosaurs",
+      "es": "Pregunta 6 sobre Jurassic Dinosaurs",
+      "de": "Frage 6 über Jurassic Dinosaurs",
+      "nl": "Vraag 6 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Jurassic Dinosaurs",
+      "es": "Pregunta 7 sobre Jurassic Dinosaurs",
+      "de": "Frage 7 über Jurassic Dinosaurs",
+      "nl": "Vraag 7 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Jurassic Dinosaurs",
+      "es": "Pregunta 8 sobre Jurassic Dinosaurs",
+      "de": "Frage 8 über Jurassic Dinosaurs",
+      "nl": "Vraag 8 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Jurassic Dinosaurs",
+      "es": "Pregunta 9 sobre Jurassic Dinosaurs",
+      "de": "Frage 9 über Jurassic Dinosaurs",
+      "nl": "Vraag 9 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Jurassic Dinosaurs",
+      "es": "Pregunta 10 sobre Jurassic Dinosaurs",
+      "de": "Frage 10 über Jurassic Dinosaurs",
+      "nl": "Vraag 10 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Jurassic Dinosaurs",
+      "es": "Pregunta 11 sobre Jurassic Dinosaurs",
+      "de": "Frage 11 über Jurassic Dinosaurs",
+      "nl": "Vraag 11 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Jurassic Dinosaurs",
+      "es": "Pregunta 12 sobre Jurassic Dinosaurs",
+      "de": "Frage 12 über Jurassic Dinosaurs",
+      "nl": "Vraag 12 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Jurassic Dinosaurs",
+      "es": "Pregunta 13 sobre Jurassic Dinosaurs",
+      "de": "Frage 13 über Jurassic Dinosaurs",
+      "nl": "Vraag 13 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Jurassic Dinosaurs",
+      "es": "Pregunta 14 sobre Jurassic Dinosaurs",
+      "de": "Frage 14 über Jurassic Dinosaurs",
+      "nl": "Vraag 14 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Jurassic Dinosaurs",
+      "es": "Pregunta 15 sobre Jurassic Dinosaurs",
+      "de": "Frage 15 über Jurassic Dinosaurs",
+      "nl": "Vraag 15 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Jurassic Dinosaurs",
+      "es": "Pregunta 16 sobre Jurassic Dinosaurs",
+      "de": "Frage 16 über Jurassic Dinosaurs",
+      "nl": "Vraag 16 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Jurassic Dinosaurs",
+      "es": "Pregunta 17 sobre Jurassic Dinosaurs",
+      "de": "Frage 17 über Jurassic Dinosaurs",
+      "nl": "Vraag 17 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Jurassic Dinosaurs",
+      "es": "Pregunta 18 sobre Jurassic Dinosaurs",
+      "de": "Frage 18 über Jurassic Dinosaurs",
+      "nl": "Vraag 18 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Jurassic Dinosaurs",
+      "es": "Pregunta 19 sobre Jurassic Dinosaurs",
+      "de": "Frage 19 über Jurassic Dinosaurs",
+      "nl": "Vraag 19 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Jurassic Dinosaurs",
+      "es": "Pregunta 20 sobre Jurassic Dinosaurs",
+      "de": "Frage 20 über Jurassic Dinosaurs",
+      "nl": "Vraag 20 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Jurassic Dinosaurs",
+      "es": "Pregunta 21 sobre Jurassic Dinosaurs",
+      "de": "Frage 21 über Jurassic Dinosaurs",
+      "nl": "Vraag 21 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Jurassic Dinosaurs",
+      "es": "Pregunta 22 sobre Jurassic Dinosaurs",
+      "de": "Frage 22 über Jurassic Dinosaurs",
+      "nl": "Vraag 22 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Jurassic Dinosaurs",
+      "es": "Pregunta 23 sobre Jurassic Dinosaurs",
+      "de": "Frage 23 über Jurassic Dinosaurs",
+      "nl": "Vraag 23 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Jurassic Dinosaurs",
+      "es": "Pregunta 24 sobre Jurassic Dinosaurs",
+      "de": "Frage 24 über Jurassic Dinosaurs",
+      "nl": "Vraag 24 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Jurassic Dinosaurs",
+      "es": "Pregunta 25 sobre Jurassic Dinosaurs",
+      "de": "Frage 25 über Jurassic Dinosaurs",
+      "nl": "Vraag 25 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Jurassic Dinosaurs",
+      "es": "Pregunta 26 sobre Jurassic Dinosaurs",
+      "de": "Frage 26 über Jurassic Dinosaurs",
+      "nl": "Vraag 26 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Jurassic Dinosaurs",
+      "es": "Pregunta 27 sobre Jurassic Dinosaurs",
+      "de": "Frage 27 über Jurassic Dinosaurs",
+      "nl": "Vraag 27 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Jurassic Dinosaurs",
+      "es": "Pregunta 28 sobre Jurassic Dinosaurs",
+      "de": "Frage 28 über Jurassic Dinosaurs",
+      "nl": "Vraag 28 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Jurassic Dinosaurs",
+      "es": "Pregunta 29 sobre Jurassic Dinosaurs",
+      "de": "Frage 29 über Jurassic Dinosaurs",
+      "nl": "Vraag 29 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Jurassic Dinosaurs",
+      "es": "Pregunta 30 sobre Jurassic Dinosaurs",
+      "de": "Frage 30 über Jurassic Dinosaurs",
+      "nl": "Vraag 30 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Jurassic Dinosaurs",
+      "es": "Pregunta 31 sobre Jurassic Dinosaurs",
+      "de": "Frage 31 über Jurassic Dinosaurs",
+      "nl": "Vraag 31 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Jurassic Dinosaurs",
+      "es": "Pregunta 32 sobre Jurassic Dinosaurs",
+      "de": "Frage 32 über Jurassic Dinosaurs",
+      "nl": "Vraag 32 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Jurassic Dinosaurs",
+      "es": "Pregunta 33 sobre Jurassic Dinosaurs",
+      "de": "Frage 33 über Jurassic Dinosaurs",
+      "nl": "Vraag 33 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Jurassic Dinosaurs",
+      "es": "Pregunta 34 sobre Jurassic Dinosaurs",
+      "de": "Frage 34 über Jurassic Dinosaurs",
+      "nl": "Vraag 34 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Jurassic Dinosaurs",
+      "es": "Pregunta 35 sobre Jurassic Dinosaurs",
+      "de": "Frage 35 über Jurassic Dinosaurs",
+      "nl": "Vraag 35 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Jurassic Dinosaurs",
+      "es": "Pregunta 36 sobre Jurassic Dinosaurs",
+      "de": "Frage 36 über Jurassic Dinosaurs",
+      "nl": "Vraag 36 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Jurassic Dinosaurs",
+      "es": "Pregunta 37 sobre Jurassic Dinosaurs",
+      "de": "Frage 37 über Jurassic Dinosaurs",
+      "nl": "Vraag 37 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Jurassic Dinosaurs",
+      "es": "Pregunta 38 sobre Jurassic Dinosaurs",
+      "de": "Frage 38 über Jurassic Dinosaurs",
+      "nl": "Vraag 38 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Jurassic Dinosaurs",
+      "es": "Pregunta 39 sobre Jurassic Dinosaurs",
+      "de": "Frage 39 über Jurassic Dinosaurs",
+      "nl": "Vraag 39 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Jurassic Dinosaurs",
+      "es": "Pregunta 40 sobre Jurassic Dinosaurs",
+      "de": "Frage 40 über Jurassic Dinosaurs",
+      "nl": "Vraag 40 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Jurassic Dinosaurs",
+      "es": "Pregunta 41 sobre Jurassic Dinosaurs",
+      "de": "Frage 41 über Jurassic Dinosaurs",
+      "nl": "Vraag 41 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Jurassic Dinosaurs",
+      "es": "Pregunta 42 sobre Jurassic Dinosaurs",
+      "de": "Frage 42 über Jurassic Dinosaurs",
+      "nl": "Vraag 42 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Jurassic Dinosaurs",
+      "es": "Pregunta 43 sobre Jurassic Dinosaurs",
+      "de": "Frage 43 über Jurassic Dinosaurs",
+      "nl": "Vraag 43 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Jurassic Dinosaurs",
+      "es": "Pregunta 44 sobre Jurassic Dinosaurs",
+      "de": "Frage 44 über Jurassic Dinosaurs",
+      "nl": "Vraag 44 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Jurassic Dinosaurs",
+      "es": "Pregunta 45 sobre Jurassic Dinosaurs",
+      "de": "Frage 45 über Jurassic Dinosaurs",
+      "nl": "Vraag 45 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Jurassic Dinosaurs",
+      "es": "Pregunta 46 sobre Jurassic Dinosaurs",
+      "de": "Frage 46 über Jurassic Dinosaurs",
+      "nl": "Vraag 46 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Jurassic Dinosaurs",
+      "es": "Pregunta 47 sobre Jurassic Dinosaurs",
+      "de": "Frage 47 über Jurassic Dinosaurs",
+      "nl": "Vraag 47 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Jurassic Dinosaurs",
+      "es": "Pregunta 48 sobre Jurassic Dinosaurs",
+      "de": "Frage 48 über Jurassic Dinosaurs",
+      "nl": "Vraag 48 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Jurassic Dinosaurs",
+      "es": "Pregunta 49 sobre Jurassic Dinosaurs",
+      "de": "Frage 49 über Jurassic Dinosaurs",
+      "nl": "Vraag 49 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Jurassic Dinosaurs",
+      "es": "Pregunta 50 sobre Jurassic Dinosaurs",
+      "de": "Frage 50 über Jurassic Dinosaurs",
+      "nl": "Vraag 50 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Jurassic Dinosaurs",
+      "es": "Pregunta 51 sobre Jurassic Dinosaurs",
+      "de": "Frage 51 über Jurassic Dinosaurs",
+      "nl": "Vraag 51 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Jurassic Dinosaurs",
+      "es": "Pregunta 52 sobre Jurassic Dinosaurs",
+      "de": "Frage 52 über Jurassic Dinosaurs",
+      "nl": "Vraag 52 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Jurassic Dinosaurs",
+      "es": "Pregunta 53 sobre Jurassic Dinosaurs",
+      "de": "Frage 53 über Jurassic Dinosaurs",
+      "nl": "Vraag 53 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Jurassic Dinosaurs",
+      "es": "Pregunta 54 sobre Jurassic Dinosaurs",
+      "de": "Frage 54 über Jurassic Dinosaurs",
+      "nl": "Vraag 54 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Jurassic Dinosaurs",
+      "es": "Pregunta 55 sobre Jurassic Dinosaurs",
+      "de": "Frage 55 über Jurassic Dinosaurs",
+      "nl": "Vraag 55 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Jurassic Dinosaurs",
+      "es": "Pregunta 56 sobre Jurassic Dinosaurs",
+      "de": "Frage 56 über Jurassic Dinosaurs",
+      "nl": "Vraag 56 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Jurassic Dinosaurs",
+      "es": "Pregunta 57 sobre Jurassic Dinosaurs",
+      "de": "Frage 57 über Jurassic Dinosaurs",
+      "nl": "Vraag 57 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Jurassic Dinosaurs",
+      "es": "Pregunta 58 sobre Jurassic Dinosaurs",
+      "de": "Frage 58 über Jurassic Dinosaurs",
+      "nl": "Vraag 58 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Jurassic Dinosaurs",
+      "es": "Pregunta 59 sobre Jurassic Dinosaurs",
+      "de": "Frage 59 über Jurassic Dinosaurs",
+      "nl": "Vraag 59 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Jurassic Dinosaurs",
+      "es": "Pregunta 60 sobre Jurassic Dinosaurs",
+      "de": "Frage 60 über Jurassic Dinosaurs",
+      "nl": "Vraag 60 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Jurassic Dinosaurs",
+      "es": "Pregunta 61 sobre Jurassic Dinosaurs",
+      "de": "Frage 61 über Jurassic Dinosaurs",
+      "nl": "Vraag 61 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Jurassic Dinosaurs",
+      "es": "Pregunta 62 sobre Jurassic Dinosaurs",
+      "de": "Frage 62 über Jurassic Dinosaurs",
+      "nl": "Vraag 62 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Jurassic Dinosaurs",
+      "es": "Pregunta 63 sobre Jurassic Dinosaurs",
+      "de": "Frage 63 über Jurassic Dinosaurs",
+      "nl": "Vraag 63 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Jurassic Dinosaurs",
+      "es": "Pregunta 64 sobre Jurassic Dinosaurs",
+      "de": "Frage 64 über Jurassic Dinosaurs",
+      "nl": "Vraag 64 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Jurassic Dinosaurs",
+      "es": "Pregunta 65 sobre Jurassic Dinosaurs",
+      "de": "Frage 65 über Jurassic Dinosaurs",
+      "nl": "Vraag 65 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Jurassic Dinosaurs",
+      "es": "Pregunta 66 sobre Jurassic Dinosaurs",
+      "de": "Frage 66 über Jurassic Dinosaurs",
+      "nl": "Vraag 66 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Jurassic Dinosaurs",
+      "es": "Pregunta 67 sobre Jurassic Dinosaurs",
+      "de": "Frage 67 über Jurassic Dinosaurs",
+      "nl": "Vraag 67 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Jurassic Dinosaurs",
+      "es": "Pregunta 68 sobre Jurassic Dinosaurs",
+      "de": "Frage 68 über Jurassic Dinosaurs",
+      "nl": "Vraag 68 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Jurassic Dinosaurs",
+      "es": "Pregunta 69 sobre Jurassic Dinosaurs",
+      "de": "Frage 69 über Jurassic Dinosaurs",
+      "nl": "Vraag 69 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Jurassic Dinosaurs",
+      "es": "Pregunta 70 sobre Jurassic Dinosaurs",
+      "de": "Frage 70 über Jurassic Dinosaurs",
+      "nl": "Vraag 70 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Jurassic Dinosaurs",
+      "es": "Pregunta 71 sobre Jurassic Dinosaurs",
+      "de": "Frage 71 über Jurassic Dinosaurs",
+      "nl": "Vraag 71 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Jurassic Dinosaurs",
+      "es": "Pregunta 72 sobre Jurassic Dinosaurs",
+      "de": "Frage 72 über Jurassic Dinosaurs",
+      "nl": "Vraag 72 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Jurassic Dinosaurs",
+      "es": "Pregunta 73 sobre Jurassic Dinosaurs",
+      "de": "Frage 73 über Jurassic Dinosaurs",
+      "nl": "Vraag 73 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Jurassic Dinosaurs",
+      "es": "Pregunta 74 sobre Jurassic Dinosaurs",
+      "de": "Frage 74 über Jurassic Dinosaurs",
+      "nl": "Vraag 74 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Jurassic Dinosaurs",
+      "es": "Pregunta 75 sobre Jurassic Dinosaurs",
+      "de": "Frage 75 über Jurassic Dinosaurs",
+      "nl": "Vraag 75 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Jurassic Dinosaurs",
+      "es": "Pregunta 76 sobre Jurassic Dinosaurs",
+      "de": "Frage 76 über Jurassic Dinosaurs",
+      "nl": "Vraag 76 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Jurassic Dinosaurs",
+      "es": "Pregunta 77 sobre Jurassic Dinosaurs",
+      "de": "Frage 77 über Jurassic Dinosaurs",
+      "nl": "Vraag 77 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Jurassic Dinosaurs",
+      "es": "Pregunta 78 sobre Jurassic Dinosaurs",
+      "de": "Frage 78 über Jurassic Dinosaurs",
+      "nl": "Vraag 78 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Jurassic Dinosaurs",
+      "es": "Pregunta 79 sobre Jurassic Dinosaurs",
+      "de": "Frage 79 über Jurassic Dinosaurs",
+      "nl": "Vraag 79 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Jurassic Dinosaurs",
+      "es": "Pregunta 80 sobre Jurassic Dinosaurs",
+      "de": "Frage 80 über Jurassic Dinosaurs",
+      "nl": "Vraag 80 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Jurassic Dinosaurs",
+      "es": "Pregunta 81 sobre Jurassic Dinosaurs",
+      "de": "Frage 81 über Jurassic Dinosaurs",
+      "nl": "Vraag 81 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Jurassic Dinosaurs",
+      "es": "Pregunta 82 sobre Jurassic Dinosaurs",
+      "de": "Frage 82 über Jurassic Dinosaurs",
+      "nl": "Vraag 82 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Jurassic Dinosaurs",
+      "es": "Pregunta 83 sobre Jurassic Dinosaurs",
+      "de": "Frage 83 über Jurassic Dinosaurs",
+      "nl": "Vraag 83 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Jurassic Dinosaurs",
+      "es": "Pregunta 84 sobre Jurassic Dinosaurs",
+      "de": "Frage 84 über Jurassic Dinosaurs",
+      "nl": "Vraag 84 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Jurassic Dinosaurs",
+      "es": "Pregunta 85 sobre Jurassic Dinosaurs",
+      "de": "Frage 85 über Jurassic Dinosaurs",
+      "nl": "Vraag 85 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Jurassic Dinosaurs",
+      "es": "Pregunta 86 sobre Jurassic Dinosaurs",
+      "de": "Frage 86 über Jurassic Dinosaurs",
+      "nl": "Vraag 86 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Jurassic Dinosaurs",
+      "es": "Pregunta 87 sobre Jurassic Dinosaurs",
+      "de": "Frage 87 über Jurassic Dinosaurs",
+      "nl": "Vraag 87 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Jurassic Dinosaurs",
+      "es": "Pregunta 88 sobre Jurassic Dinosaurs",
+      "de": "Frage 88 über Jurassic Dinosaurs",
+      "nl": "Vraag 88 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Jurassic Dinosaurs",
+      "es": "Pregunta 89 sobre Jurassic Dinosaurs",
+      "de": "Frage 89 über Jurassic Dinosaurs",
+      "nl": "Vraag 89 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Jurassic Dinosaurs",
+      "es": "Pregunta 90 sobre Jurassic Dinosaurs",
+      "de": "Frage 90 über Jurassic Dinosaurs",
+      "nl": "Vraag 90 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Jurassic Dinosaurs",
+      "es": "Pregunta 91 sobre Jurassic Dinosaurs",
+      "de": "Frage 91 über Jurassic Dinosaurs",
+      "nl": "Vraag 91 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Jurassic Dinosaurs",
+      "es": "Pregunta 92 sobre Jurassic Dinosaurs",
+      "de": "Frage 92 über Jurassic Dinosaurs",
+      "nl": "Vraag 92 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Jurassic Dinosaurs",
+      "es": "Pregunta 93 sobre Jurassic Dinosaurs",
+      "de": "Frage 93 über Jurassic Dinosaurs",
+      "nl": "Vraag 93 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Jurassic Dinosaurs",
+      "es": "Pregunta 94 sobre Jurassic Dinosaurs",
+      "de": "Frage 94 über Jurassic Dinosaurs",
+      "nl": "Vraag 94 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Jurassic Dinosaurs",
+      "es": "Pregunta 95 sobre Jurassic Dinosaurs",
+      "de": "Frage 95 über Jurassic Dinosaurs",
+      "nl": "Vraag 95 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Jurassic Dinosaurs",
+      "es": "Pregunta 96 sobre Jurassic Dinosaurs",
+      "de": "Frage 96 über Jurassic Dinosaurs",
+      "nl": "Vraag 96 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Jurassic Dinosaurs",
+      "es": "Pregunta 97 sobre Jurassic Dinosaurs",
+      "de": "Frage 97 über Jurassic Dinosaurs",
+      "nl": "Vraag 97 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Jurassic Dinosaurs",
+      "es": "Pregunta 98 sobre Jurassic Dinosaurs",
+      "de": "Frage 98 über Jurassic Dinosaurs",
+      "nl": "Vraag 98 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Jurassic Dinosaurs",
+      "es": "Pregunta 99 sobre Jurassic Dinosaurs",
+      "de": "Frage 99 über Jurassic Dinosaurs",
+      "nl": "Vraag 99 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Jurassic Dinosaurs",
+      "es": "Pregunta 100 sobre Jurassic Dinosaurs",
+      "de": "Frage 100 über Jurassic Dinosaurs",
+      "nl": "Vraag 100 over Jurassic Dinosaurs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Jurassic Dinosaurs",
+        "es": "Respuesta A para Jurassic Dinosaurs",
+        "de": "Antwort A für Jurassic Dinosaurs",
+        "nl": "Antwoord A voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer B for Jurassic Dinosaurs",
+        "es": "Respuesta B para Jurassic Dinosaurs",
+        "de": "Antwort B für Jurassic Dinosaurs",
+        "nl": "Antwoord B voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer C for Jurassic Dinosaurs",
+        "es": "Respuesta C para Jurassic Dinosaurs",
+        "de": "Antwort C für Jurassic Dinosaurs",
+        "nl": "Antwoord C voor Jurassic Dinosaurs"
+      },
+      {
+        "en": "Answer D for Jurassic Dinosaurs",
+        "es": "Respuesta D para Jurassic Dinosaurs",
+        "de": "Antwort D für Jurassic Dinosaurs",
+        "nl": "Antwoord D voor Jurassic Dinosaurs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Jurassic Dinosaurs.",
+      "es": "Esta es la respuesta correcta sobre Jurassic Dinosaurs.",
+      "de": "Dies ist die richtige Antwort über Jurassic Dinosaurs.",
+      "nl": "Dit is het juiste antwoord over Jurassic Dinosaurs."
+    }
   }
-})();
+]
+};

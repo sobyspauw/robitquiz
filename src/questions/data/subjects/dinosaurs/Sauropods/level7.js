@@ -1,1657 +1,4104 @@
-// Sauropods Quiz - Level 7
-(function() {
-  const level7 = {
-    name: {
-          "en": "Sauropods Level 7",
-          "es": "SaurÃ³podos Nivel 7",
-          "de": "Sauropoden Stufe 7",
-          "nl": "Sauropoden Level 7"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Sauropods",
+      "es": "Pregunta 1 sobre Sauropods",
+      "de": "Frage 1 über Sauropods",
+      "nl": "Vraag 1 over Sauropods"
     },
-    questions: [
+    "options": [
       {
-        question: {
-                  "en": "How did sauropods' cardiovascular system adapt to their extreme body size?",
-                  "es": "¿Cómo se adaptó el sistema cardiovascular de los saurópodos a su tamaño corporal extremo?",
-                  "de": "Wie passte sich das Herz-Kreislauf-System der Sauropoden an ihre extreme Körpergröße an?",
-                  "nl": "Hoe paste het cardiovasculaire systeem van sauropoden zich aan aan hun extreme lichaamsgrootte?"
-        },
-        options: [
-        {
-                  "en": "Multiple hearts positioned along the neck and extremely high blood pressure",
-                  "es": "Múltiples corazones posicionados a lo largo del cuello y presión sanguínea extremadamente alta",
-                  "de": "Mehrere Herzen entlang des Halses positioniert und extrem hoher Blutdruck",
-                  "nl": "Meerdere harten gepositioneerd langs de nek en extreem hoge bloeddruk"
-        },
-        {
-                  "en": "Hydraulic fluid system instead of blood circulation",
-                  "es": "Sistema de fluido hidráulico en lugar de circulación sanguínea",
-                  "de": "Hydraulisches Flüssigkeitssystem anstelle von Blutkreislauf",
-                  "nl": "Hydraulisch vloeistofsysteem in plaats van bloedcirculatie"
-        },
-        {
-                  "en": "No cardiovascular system needed due to their cold-blooded nature",
-                  "es": "No se necesitaba sistema cardiovascular debido a su naturaleza de sangre fría",
-                  "de": "Kein Herz-Kreislauf-System nötig aufgrund ihrer kaltblütigen Natur",
-                  "nl": "Geen cardiovasculair systeem nodig vanwege hun koudbloedige natuur"
-        },
-        {
-                  "en": "Single heart with normal mammalian blood pressure",
-                  "es": "Corazón único con presión sanguínea normal de mamífero",
-                  "de": "Einzelnes Herz mit normalem Säugetier-Blutdruck",
-                  "nl": "Enkel hart met normale zoogdier bloeddruk"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Sauropods likely had massive hearts (possibly 400+ kg) and may have required auxiliary hearts along their necks to maintain blood flow to their brains, with blood pressure potentially 2-3 times higher than modern mammals.",
-                  "es": "Los saurópodos probablemente tenían corazones masivos (posiblemente 400+ kg) y pueden haber requerido corazones auxiliares a lo largo de sus cuellos para mantener el flujo sanguíneo a sus cerebros, con presión arterial potencialmente 2-3 veces mayor que los mamíferos modernos.",
-                  "de": "Sauropoden hatten wahrscheinlich massive Herzen (möglicherweise 400+ kg) und benötigten möglicherweise Hilfsherzen entlang ihrer Hälse, um den Blutfluss zu ihren Gehirnen aufrechtzuerhalten, mit einem Blutdruck, der potenziell 2-3 mal höher war als bei modernen Säugetieren.",
-                  "nl": "Sauropoden hadden waarschijnlijk massieve harten (mogelijk 400+ kg) en hadden mogelijk hulpharten langs hun nekken nodig om bloedstroom naar hun hersenen te behouden, met bloeddruk potentieel 2-3 keer hoger dan moderne zoogdieren."
-        }
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
       },
       {
-        question: {
-                  "en": "What does finite element analysis reveal about sauropod skull mechanics?",
-                  "es": "¿Qué revela el análisis de elementos finitos sobre la mecánica craneal de los saurópodos?",
-                  "de": "Was enthüllt die Finite-Elemente-Analyse über die Schädelmechanik von Sauropoden?",
-                  "nl": "Wat onthult eindige elementen analyse over sauropode schedelmechanica?"
-        },
-        options: [
-        {
-                  "en": "Skulls were optimized for low-stress feeding with minimal jaw muscle forces",
-                  "es": "Los cráneos estaban optimizados para alimentación de bajo estrés con fuerzas mínimas del músculo de la mandíbula",
-                  "de": "Schädel waren für stressarme Nahrungsaufnahme mit minimalen Kiefermuskelkräften optimiert",
-                  "nl": "Schedels waren geoptimaliseerd voor lage-stress voeding met minimale kaakspier krachten"
-        },
-        {
-                  "en": "Skull mechanics were identical to modern reptiles",
-                  "es": "La mecánica craneal era idéntica a los reptiles modernos",
-                  "de": "Schädelmechanik war identisch mit modernen Reptilien",
-                  "nl": "Schedelmechanica waren identiek aan moderne reptielen"
-        },
-        {
-                  "en": "Skulls were primarily decorative with no functional purpose",
-                  "es": "Los cráneos eran principalmente decorativos sin propósito funcional",
-                  "de": "Schädel waren hauptsächlich dekorativ ohne funktionalen Zweck",
-                  "nl": "Schedels waren voornamelijk decoratief zonder functioneel doel"
-        },
-        {
-                  "en": "Skulls could withstand enormous crushing forces like nutcrackers",
-                  "es": "Los cráneos podían soportar fuerzas de aplastamiento enormes como cascanueces",
-                  "de": "Schädel konnten enormen Zerbrechkräften wie Nussknacker widerstehen",
-                  "nl": "Schedels konden enorme verpletterende krachten weerstaan zoals notenkrakers"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Computer modeling shows sauropod skulls were designed for gentle feeding with relatively weak jaw muscles, confirming they were precision herbivores rather than powerful plant processors.",
-                  "es": "El modelado por computadora muestra que los cráneos de saurópodos estaban diseñados para alimentación suave con músculos de mandíbula relativamente débiles, confirmando que eran herbívoros de precisión en lugar de procesadores de plantas poderosos.",
-                  "de": "Computermodellierung zeigt, dass Sauropodenschädel für sanfte Nahrungsaufnahme mit relativ schwachen Kiefermuskeln konzipiert waren, was bestätigt, dass sie Präzisionsherbivoren waren und nicht kraftvolle Pflanzenverarbeiter.",
-                  "nl": "Computermodellering toont dat sauropode schedels ontworpen waren voor zachte voeding met relatief zwakke kaakspieren, wat bevestigt dat ze precisie herbivoren waren in plaats van krachtige plantenverwerkers."
-        }
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
       },
       {
-        question: {
-                  "en": "What does molecular clock analysis reveal about sauropod evolutionary divergence rates?",
-                  "es": "¿Qué revela el análisis del reloj molecular sobre las tasas de divergencia evolutiva de los saurópodos?",
-                  "de": "Was enthüllt die molekulare Uhr-Analyse über die evolutionären Divergenzraten von Sauropoden?",
-                  "nl": "Wat onthult moleculaire klok analyse over sauropode evolutionaire divergentie snelheden?"
-        },
-        options: [
-        {
-                  "en": "Rapid adaptive radiation in the Middle Jurassic with multiple independent gigantism events",
-                  "es": "Radiación adaptiva rápida en el Jurásico Medio con múltiples eventos de gigantismo independientes",
-                  "de": "Schnelle adaptive Radiation im Mitteljura mit mehreren unabhängigen Gigantismus-Ereignissen",
-                  "nl": "Snelle adaptieve radiatie in het Midden Jura met meerdere onafhankelijke gigantisme gebeurtenissen"
-        },
-        {
-                  "en": "Constant evolutionary rate throughout their existence",
-                  "es": "Tasa evolutiva constante durante toda su existencia",
-                  "de": "Konstante Evolutionsrate während ihrer gesamten Existenz",
-                  "nl": "Constante evolutionaire snelheid gedurende hun bestaan"
-        },
-        {
-                  "en": "No evolutionary changes after initial appearance",
-                  "es": "Sin cambios evolutivos después de la aparición inicial",
-                  "de": "Keine evolutionären Veränderungen nach dem ersten Auftreten",
-                  "nl": "Geen evolutionaire veranderingen na initiële verschijning"
-        },
-        {
-                  "en": "Slow, gradual evolution with single gigantism origin",
-                  "es": "Evolución lenta y gradual con un solo origen de gigantismo",
-                  "de": "Langsame, graduelle Evolution mit einmaligem Gigantismus-Ursprung",
-                  "nl": "Langzame, geleidelijke evolutie met enkele gigantisme oorsprong"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Comparative genomic analysis suggests sauropods underwent rapid evolutionary diversification during the Middle Jurassic, with independent evolution of gigantism in multiple lineages through convergent molecular pathways.",
-                  "es": "El análisis genómico comparativo sugiere que los saurópodos experimentaron una diversificación evolutiva rápida durante el Jurásico Medio, con evolución independiente del gigantismo en múltiples linajes a través de vías moleculares convergentes.",
-                  "de": "Vergleichende genomische Analyse deutet darauf hin, dass Sauropoden während des Mitteljura eine schnelle evolutionäre Diversifizierung durchliefen, mit unabhängiger Evolution des Gigantismus in mehreren Abstammungslinien durch konvergente molekulare Wege.",
-                  "nl": "Vergelijkende genomische analyse suggereert dat sauropoden snelle evolutionaire diversificatie ondergingen tijdens het Midden Jura, met onafhankelijke evolutie van gigantisme in meerdere lijnen door convergente moleculaire paden."
-        }
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
       },
       {
-        question: {
-                  "en": "How did advanced computational fluid dynamics modeling change our understanding of sauropod thermoregulation?",
-                  "es": "¿Cómo cambió el modelado avanzado de dinámica de fluidos computacional nuestra comprensión de la termorregulación de saurópodos?",
-                  "de": "Wie veränderte fortgeschrittene Computational Fluid Dynamics-Modellierung unser Verständnis der Sauropoden-Thermoregulation?",
-                  "nl": "Hoe veranderde geavanceerde computationele vloeistofdynamica modellering ons begrip van sauropode thermoregulatie?"
-        },
-        options: [
-        {
-                  "en": "Showed sauropods were completely cold-blooded like modern reptiles",
-                  "es": "Mostró que los saurópodos eran completamente de sangre fría como los reptiles modernos",
-                  "de": "Zeigte, dass Sauropoden völlig kaltblütig wie moderne Reptilien waren",
-                  "nl": "Toonde dat sauropoden volledig koudbloedig waren zoals moderne reptielen"
-        },
-        {
-                  "en": "Demonstrated they were entirely warm-blooded like mammals",
-                  "es": "Demostró que eran completamente de sangre caliente como mamíferos",
-                  "de": "Bewies, dass sie völlig warmblütig wie Säugetiere waren",
-                  "nl": "Toonde aan dat ze volledig warmbloedig waren zoals zoogdieren"
-        },
-        {
-                  "en": "Proved they required external heating from volcanic activity",
-                  "es": "Demostró que requerían calentamiento externo de actividad volcánica",
-                  "de": "Bewies, dass sie externe Erwärmung durch vulkanische Aktivität benötigten",
-                  "nl": "Bewees dat ze externe verwarming van vulkanische activiteit nodig hadden"
-        },
-        {
-                  "en": "Revealed complex heat exchange systems in necks and tails functioning as thermal regulators with counter-current blood flow",
-                  "es": "Reveló sistemas complejos de intercambio de calor en cuellos y colas funcionando como reguladores térmicos con flujo sanguíneo contracorriente",
-                  "de": "Enthüllte komplexe Wärmetauschsysteme in Hälsen und Schwänzen, die als Wärmeregler mit Gegenstrom-Blutfluss funktionierten",
-                  "nl": "Onthulde complexe warmte-uitwisselingssystemen in nekken en staarten die functioneerden als thermische regulators met tegenstroom bloedstroom"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Advanced CFD modeling revealed that sauropod necks and tails functioned as sophisticated thermal management systems with specialized vascular arrangements enabling precise temperature control through counter-current heat exchange mechanisms.",
-                  "es": "El modelado CFD avanzado reveló que los cuellos y colas de saurópodos funcionaron como sistemas sofisticados de gestión térmica con arreglos vasculares especializados que permitían control preciso de temperatura a través de mecanismos de intercambio de calor contracorriente.",
-                  "de": "Fortgeschrittene CFD-Modellierung enthüllte, dass Sauropodenhälse und -schwänze als ausgeklügelte thermische Managementsysteme mit spezialisierten Gefäßanordnungen funktionierten, die präzise Temperaturkontrolle durch Gegenstrom-Wärmetauschermechanismen ermöglichten.",
-                  "nl": "Geavanceerde CFD modellering onthulde dat sauropode nekken en staarten functioneerden als verfijnde thermische management systemen met gespecialiseerde vasculaire arrangementen die precieze temperatuurcontrole mogelijk maakten door tegenstroom warmte-uitwisseling mechanismen."
-        }
-      },
-      {
-        question: {
-                  "en": "What does proteomics analysis of exceptionally preserved sauropod specimens reveal about their metabolism?",
-                  "es": "¿Qué revela el análisis proteómico de especímenes de saurópodos excepcionalmente preservados sobre su metabolismo?",
-                  "de": "Was enthüllt die Proteomik-Analyse außergewöhnlich erhaltener Sauropoden-Exemplare über ihren Stoffwechsel?",
-                  "nl": "Wat onthult proteomics analyse van uitzonderlijk bewaarde sauropode specimens over hun metabolisme?"
-        },
-        options: [
-        {
-                  "en": "No organic molecules survive fossilization processes",
-                  "es": "Ninguna molécula orgánica sobrevive a los procesos de fosilización",
-                  "de": "Keine organischen Moleküle überleben Fossilisationsprozesse",
-                  "nl": "Geen organische moleculen overleven fossilisatieprocessen"
-        },
-        {
-                  "en": "Complete DNA sequences successfully extracted",
-                  "es": "Secuencias completas de ADN extraídas con éxito",
-                  "de": "Vollständige DNA-Sequenzen erfolgreich extrahiert",
-                  "nl": "Complete DNA sequenties succesvol geëxtraheerd"
-        },
-        {
-                  "en": "Detection of heat shock proteins and metabolic enzymes suggesting mesothermic physiology with flexible metabolic rates",
-                  "es": "Detección de proteínas de choque térmico y enzimas metabólicas sugiriendo fisiología mesotérmica con tasas metabólicas flexibles",
-                  "de": "Nachweis von Hitzeschockproteinen und Stoffwechselenzymen, die auf mesothermische Physiologie mit flexiblen Stoffwechselraten hindeuten",
-                  "nl": "Detectie van hitte shock eiwitten en metabole enzymen die mesothermische fysiologie suggereren met flexibele metabole snelheden"
-        },
-        {
-                  "en": "Only bacterial contamination proteins found",
-                  "es": "Solo se encontraron proteínas de contaminación bacteriana",
-                  "de": "Nur bakterielle Kontaminationsproteine gefunden",
-                  "nl": "Alleen bacteriële contaminatie eiwitten gevonden"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Cutting-edge proteomics techniques have identified remnants of metabolic proteins in exceptionally preserved sauropod fossils, suggesting intermediate metabolic strategies between cold-blooded and warm-blooded physiology.",
-                  "es": "Las técnicas proteómicas de vanguardia han identificado restos de proteínas metabólicas en fósiles de saurópodos excepcionalmente preservados, sugiriendo estrategias metabólicas intermedias entre la fisiología de sangre fría y sangre caliente.",
-                  "de": "Modernste Proteomik-Techniken haben Reste von Stoffwechselproteinen in außergewöhnlich erhaltenen Sauropodenfossilien identifiziert, was auf Zwischenstoffwechselstrategien zwischen kaltblütiger und warmblütiger Physiologie hindeutet.",
-                  "nl": "Geavanceerde proteomics technieken hebben resten van metabole eiwitten geïdentificeerd in uitzonderlijk bewaarde sauropode fossielen, wat intermediaire metabole strategieën suggereert tussen koudbloedige en warmbloedige fysiologie."
-        }
-      },
-      {
-        question: {
-                  "en": "How do advanced biomechanical simulations explain the evolution of extreme neck elongation in different sauropod lineages?",
-                  "es": "¿Cómo explican las simulaciones biomecánicas avanzadas la evolución del alargamiento extremo del cuello en diferentes linajes de saurópodos?",
-                  "de": "Wie erklären fortgeschrittene biomechanische Simulationen die Evolution extremer Halsverlängerung in verschiedenen Sauropoden-Linien?",
-                  "nl": "Hoe verklaren geavanceerde biomechanische simulaties de evolutie van extreme nekverlenging in verschillende sauropode lijnen?"
-        },
-        options: [
-        {
-                  "en": "Single evolutionary event copied by all lineages",
-                  "es": "Evento evolutivo único copiado por todos los linajes",
-                  "de": "Einzelnes evolutionäres Ereignis, das von allen Linien kopiert wurde",
-                  "nl": "Enkele evolutionaire gebeurtenis gekopieerd door alle lijnen"
-        },
-        {
-                  "en": "Neck length was determined only by available food height",
-                  "es": "La longitud del cuello estaba determinada solo por la altura de alimento disponible",
-                  "de": "Halslänge wurde nur durch verfügbare Nahrungshöhe bestimmt",
-                  "nl": "Neklengte werd alleen bepaald door beschikbare voedsel hoogte"
-        },
-        {
-                  "en": "Convergent evolution toward optimal feeding strategies with different mechanical solutions for similar ecological niches",
-                  "es": "Evolución convergente hacia estrategias de alimentación óptimas con diferentes soluciones mecánicas para nichos ecológicos similares",
-                  "de": "Konvergente Evolution zu optimalen Fütterungsstrategien mit verschiedenen mechanischen Lösungen für ähnliche ökologische Nischen",
-                  "nl": "Convergente evolutie naar optimale voedingsstrategieën met verschillende mechanische oplossingen voor vergelijkbare ecologische niches"
-        },
-        {
-                  "en": "Random evolutionary drift with no adaptive significance",
-                  "es": "Deriva evolutiva aleatoria sin significado adaptativo",
-                  "de": "Zufällige evolutionäre Drift ohne adaptive Bedeutung",
-                  "nl": "Willekeurige evolutionaire drift zonder adaptieve betekenis"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Sophisticated biomechanical modeling reveals that different sauropod lineages independently evolved long necks through distinct structural and mechanical solutions, representing convergent evolution toward similar feeding strategies in different ecological contexts.",
-                  "es": "El modelado biomecánico sofisticado revela que diferentes linajes de saurópodos evolucionaron independientemente cuellos largos a través de soluciones estructurales y mecánicas distintas, representando evolución convergente hacia estrategias de alimentación similares en contextos ecológicos diferentes.",
-                  "de": "Ausgeklügelte biomechanische Modellierung zeigt, dass verschiedene Sauropoden-Linien unabhängig lange Hälse durch unterschiedliche strukturelle und mechanische Lösungen entwickelten, was konvergente Evolution zu ähnlichen Fütterungsstrategien in verschiedenen ökologischen Kontexten darstellt.",
-                  "nl": "Verfijnde biomechanische modellering onthult dat verschillende sauropode lijnen onafhankelijk lange nekken evolueerden door onderscheiden structurele en mechanische oplossingen, wat convergente evolutie naar vergelijkbare voedingsstrategieën in verschillende ecologische contexten vertegenwoordigt."
-        }
-      },
-      {
-        question: {
-                  "en": "What does high-resolution synchrotron imaging reveal about sauropod bone microstructure and growth dynamics?",
-                  "es": "¿Qué revela la imagen de sincrotrón de alta resolución sobre la microestructura ósea y dinámicas de crecimiento de saurópodos?",
-                  "de": "Was enthüllt hochauflösende Synchrotron-Bildgebung über Knochen-Mikrostruktur und Wachstumsdynamik von Sauropoden?",
-                  "nl": "Wat onthult hoge-resolutie synchrotron beeldvorming over sauropode bot microstructuur en groei dynamiek?"
-        },
-        options: [
-        {
-                  "en": "Crystalline matrix with metallic properties",
-                  "es": "Matrix cristalina con propiedades metálicas",
-                  "de": "Kristalline Matrix mit metallischen Eigenschaften",
-                  "nl": "Kristallijne matrix met metalen eigenschappen"
-        },
-        {
-                  "en": "Hollow bones with no internal structure",
-                  "es": "Huesos huecos sin estructura interna",
-                  "de": "Hohle Knochen ohne interne Struktur",
-                  "nl": "Holle botten zonder interne structuur"
-        },
-        {
-                  "en": "Simple, uniform bone structure identical to modern reptiles",
-                  "es": "Estructura ósea simple y uniforme idéntica a reptiles modernos",
-                  "de": "Einfache, einheitliche Knochenstruktur identisch mit modernen Reptilien",
-                  "nl": "Eenvoudige, uniforme botstructuur identiek aan moderne reptielen"
-        },
-        {
-                  "en": "Complex hierarchical organization with adaptive remodeling responses to mechanical stress and variable growth rates",
-                  "es": "Organización jerárquica compleja con respuestas de remodelación adaptativa al estrés mecánico y tasas de crecimiento variables",
-                  "de": "Komplexe hierarchische Organisation mit adaptiven Umbaureaktionen auf mechanischen Stress und variable Wachstumsraten",
-                  "nl": "Complexe hiërarchische organisatie met adaptieve hermodellering reacties op mechanische stress en variabele groeisnelheden"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Ultra-high resolution synchrotron analysis reveals that sauropod bones had extraordinarily complex hierarchical microstructures with dynamic remodeling capabilities that responded to mechanical loading, enabling structural optimization throughout their lives.",
-                  "es": "El análisis de sincrotrón de ultra alta resolución revela que los huesos de saurópodos tenían microestructuras jerárquicas extraordinariamente complejas con capacidades de remodelación dinámica que respondían a la carga mecánica, permitiendo optimización estructural durante toda su vida.",
-                  "de": "Ultra-hochauflösende Synchrotron-Analyse zeigt, dass Sauropodenknochen außergewöhnlich komplexe hierarchische Mikrostrukturen mit dynamischen Umbaufähigkeiten hatten, die auf mechanische Belastung reagierten und strukturelle Optimierung ihr ganzes Leben lang ermöglichten.",
-                  "nl": "Ultra-hoge resolutie synchrotron analyse onthult dat sauropode botten buitengewoon complexe hiërarchische microstructuren hadden met dynamische hermodellering capaciteiten die reageerden op mechanische belasting, wat structurele optimalisatie gedurende hun leven mogelijk maakte."
-        }
-      },
-      {
-        question: {
-                  "en": "How does magnetostratigraphic analysis refine our understanding of sauropod temporal distribution and migration patterns?",
-                  "es": "¿Cómo refina el análisis magnetoestratigráfico nuestra comprensión de la distribución temporal y patrones de migración de saurópodos?",
-                  "de": "Wie verfeinert magnetostratigrafische Analyse unser Verständnis der zeitlichen Verteilung und Wanderungsmuster von Sauropoden?",
-                  "nl": "Hoe verfijnt magnetostratigrafische analyse ons begrip van sauropode temporele distributie en migratie patronen?"
-        },
-        options: [
-        {
-                  "en": "Shows sauropods never migrated between continents",
-                  "es": "Muestra que los saurópodos nunca migraron entre continentes",
-                  "de": "Zeigt, dass Sauropoden nie zwischen Kontinenten migrierten",
-                  "nl": "Toont dat sauropoden nooit migreerden tussen continenten"
-        },
-        {
-                  "en": "Reveals episodic intercontinental dispersal events correlated with sea-level changes and climate oscillations",
-                  "es": "Revela eventos episódicos de dispersión intercontinental correlacionados con cambios del nivel del mar y oscilaciones climáticas",
-                  "de": "Enthüllt episodische interkontinentale Ausbreitungsereignisse korreliert mit Meeresspiegelschwankungen und Klimaoszillationen",
-                  "nl": "Onthult episodische intercontinentale dispersie gebeurtenissen gecorreleerd met zeespiegel veranderingen en klimaat oscillaties"
-        },
-        {
-                  "en": "Indicates constant global distribution throughout their existence",
-                  "es": "Indica distribución global constante durante toda su existencia",
-                  "de": "Zeigt konstante globale Verteilung während ihrer gesamten Existenz",
-                  "nl": "Duidt constante globale distributie aan gedurende hun bestaan"
-        },
-        {
-                  "en": "Cannot determine temporal relationships in fossil record",
-                  "es": "No puede determinar relaciones temporales en el registro fósil",
-                  "de": "Kann zeitliche Beziehungen im Fossilienbestand nicht bestimmen",
-                  "nl": "Kan temporele relaties in fossiel record niet bepalen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "High-precision magnetostratigraphic dating reveals that sauropod dispersal between continents occurred in discrete episodes corresponding to periods of lowered sea level and favorable climate corridors, rather than continuous migration.",
-                  "es": "La datación magnetoestratigráfica de alta precisión revela que la dispersión de saurópodos entre continentes ocurrió en episodios discretos correspondientes a períodos de nivel del mar reducido y corredores climáticos favorables, en lugar de migración continua.",
-                  "de": "Hochpräzise magnetostratigrafische Datierung zeigt, dass Sauropoden-Ausbreitung zwischen Kontinenten in diskreten Episoden erfolgte, die Perioden niedrigeren Meeresspiegels und günstigen Klimakorridoren entsprachen, anstatt kontinuierlicher Migration.",
-                  "nl": "Hoge-precisie magnetostratigrafische datering onthult dat sauropode dispersie tussen continenten plaatsvond in discrete episodes die overeenkwamen met periodes van verlaagd zeeniveau en gunstige klimaat corridors, in plaats van continue migratie."
-        }
-      },
-      {
-        question: {
-                  "en": "What does multidisciplinary analysis of sauropod trackways reveal about their social behavior and herd dynamics?",
-                  "es": "¿Qué revela el análisis multidisciplinario de las huellas de saurópodos sobre su comportamiento social y dinámicas de manada?",
-                  "de": "Was enthüllt multidisziplinäre Analyse von Sauropoden-Spurenfeldern über ihr Sozialverhalten und Herden-Dynamik?",
-                  "nl": "Wat onthult multidisciplinaire analyse van sauropode spoorwegen over hun sociaal gedrag en kudde dynamiek?"
-        },
-        options: [
-        {
-                  "en": "Completely solitary animals that never interacted",
-                  "es": "Animales completamente solitarios que nunca interactuaron",
-                  "de": "Völlig einzelgängerische Tiere, die nie interagierten",
-                  "nl": "Volledig solitaire dieren die nooit interacteerden"
-        },
-        {
-                  "en": "Only adult males traveled in groups",
-                  "es": "Solo los machos adultos viajaban en grupos",
-                  "de": "Nur erwachsene Männchen reisten in Gruppen",
-                  "nl": "Alleen volwassen mannetjes reisden in groepen"
-        },
-        {
-                  "en": "Complex age-stratified herds with coordinated movement patterns and protective formations during migration",
-                  "es": "Manadas complejas estratificadas por edad con patrones de movimiento coordinados y formaciones protectivas durante la migración",
-                  "de": "Komplexe altersgeschichtete Herden mit koordinierten Bewegungsmustern und Schutzformationen während der Migration",
-                  "nl": "Complexe leeftijd-gestratificeerde kuddes met gecoördineerde bewegingspatronen en beschermende formaties tijdens migratie"
-        },
-        {
-                  "en": "Random aggregations with no social structure",
-                  "es": "Agregaciones aleatorias sin estructura social",
-                  "de": "Zufällige Ansammlungen ohne Sozialstruktur",
-                  "nl": "Willekeurige aggregaties zonder sociale structuur"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Integrated analysis of trackway geometry, sedimentology, and biomechanical modeling reveals that sauropods traveled in sophisticated social groups with age-segregated formations, coordinated gaits, and protective behavior patterns during long-distance migration.",
-                  "es": "El análisis integrado de geometría de huellas, sedimentología y modelado biomecánico revela que los saurópodos viajaban en grupos sociales sofisticados con formaciones segregadas por edad, andares coordinados y patrones de comportamiento protectivo durante migración de larga distancia.",
-                  "de": "Integrierte Analyse von Spurengeometrie, Sedimentologie und biomechanischer Modellierung zeigt, dass Sauropoden in ausgeklügelten Sozialgruppen mit alterssegregierten Formationen, koordinierten Gangarten und Schutzverhalten während Langstreckenmigration reisten.",
-                  "nl": "Geïntegreerde analyse van spoorweg geometrie, sedimentologie en biomechanische modellering onthult dat sauropoden reisden in verfijnde sociale groepen met leeftijd-gescheiden formaties, gecoördineerde gangen en beschermend gedragspatronen tijdens lange-afstand migratie."
-        }
-      },
-      {
-        question: {
-                  "en": "How does geochemical analysis of sauropod teeth provide insights into ancient ecosystem structure and plant communities?",
-                  "es": "¿Cómo proporciona el análisis geoquímico de dientes de saurópodos perspectivas sobre la estructura de ecosistemas antiguos y comunidades vegetales?",
-                  "de": "Wie bietet geochemische Analyse von Sauropoden-Zähnen Einblicke in alte Ökosystemstruktur und Pflanzengemeinschaften?",
-                  "nl": "Hoe biedt geochemische analyse van sauropode tanden inzichten in oude ecosysteem structuur en plantengemeenschappen?"
-        },
-        options: [
-        {
-                  "en": "Teeth only preserve information about water sources",
-                  "es": "Los dientes solo preservan información sobre fuentes de agua",
-                  "de": "Zähne bewahren nur Informationen über Wasserquellen",
-                  "nl": "Tanden bewaren alleen informatie over waterbronnen"
-        },
-        {
-                  "en": "All sauropods had identical diets regardless of species",
-                  "es": "Todos los saurópodos tenían dietas idénticas independientemente de la especie",
-                  "de": "Alle Sauropoden hatten identische Diäten unabhängig von der Art",
-                  "nl": "Alle sauropoden hadden identieke diëten ongeacht de soort"
-        },
-        {
-                  "en": "Trace element signatures reveal dietary specialization and partitioning of plant resources among coexisting species",
-                  "es": "Firmas de elementos traza revelan especialización dietética y partición de recursos vegetales entre especies coexistentes",
-                  "de": "Spurenelement-Signaturen enthüllen Nahrungsspezialisierung und Aufteilung von Pflanzenressourcen zwischen koexistierenden Arten",
-                  "nl": "Sporelement signatures onthullen voedingsspecialisatie en verdeling van plantenbronnen tussen samenwonende soorten"
-        },
-        {
-                  "en": "Geochemical analysis cannot determine ancient diet",
-                  "es": "El análisis geoquímico no puede determinar la dieta antigua",
-                  "de": "Geochemische Analyse kann alte Ernährung nicht bestimmen",
-                  "nl": "Geochemische analyse kan oud dieet niet bepalen"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Advanced geochemical analysis of sauropod teeth reveals distinct trace element patterns that indicate dietary specialization and resource partitioning, providing unprecedented insights into Mesozoic plant community structure and ecological relationships.",
-                  "es": "El análisis geoquímico avanzado de dientes de saurópodos revela patrones distintos de elementos traza que indican especialización dietética y partición de recursos, proporcionando perspectivas sin precedentes sobre la estructura de comunidades vegetales mesozoicas y relaciones ecológicas.",
-                  "de": "Fortgeschrittene geochemische Analyse von Sauropoden-Zähnen zeigt unterschiedliche Spurenelement-Muster, die Nahrungsspezialisierung und Ressourcenaufteilung anzeigen und beispiellose Einblicke in mesozoische Pflanzengemeinschaftsstruktur und ökologische Beziehungen bieten.",
-                  "nl": "Geavanceerde geochemische analyse van sauropode tanden onthult onderscheiden sporelement patronen die voedingsspecialisatie en bron verdeling aangeven, wat ongekende inzichten biedt in Mesozoïsche plantengemeenschap structuur en ecologische relaties."
-        }
-      },
-      {
-        question: {
-                  "en": "What does cutting-edge paleoneurological research reveal about sauropod brain evolution and cognitive capabilities?",
-                  "es": "¿Qué revela la investigación paleoncurológica de vanguardia sobre la evolución cerebral y capacidades cognitivas de saurópodos?",
-                  "de": "Was enthüllt modernste paläoneurologische Forschung über Gehirnevolution und kognitive Fähigkeiten von Sauropoden?",
-                  "nl": "Wat onthult geavanceerd paleontologisch onderzoek over sauropode hersenevolutie en cognitieve vermogens?"
-        },
-        options: [
-        {
-                  "en": "Brain structure identical to modern lizards with no specializations",
-                  "es": "Estructura cerebral idéntica a lagartos modernos sin especializaciones",
-                  "de": "Gehirnstruktur identisch mit modernen Echsen ohne Spezialisierungen",
-                  "nl": "Hersenstructuur identiek aan moderne hagedissen zonder specialisaties"
-        },
-        {
-                  "en": "No preserved brain tissue or endocasts available for study",
-                  "es": "No hay tejido cerebral preservado o moldes endocraneales disponibles para estudio",
-                  "de": "Kein erhaltenes Gehirngewebe oder Endokranium für Studien verfügbar",
-                  "nl": "Geen bewaard hersenweefsel of endocasts beschikbaar voor studie"
-        },
-        {
-                  "en": "Brain size was inversely related to body size",
-                  "es": "El tamaño del cerebro estaba inversamente relacionado con el tamaño corporal",
-                  "de": "Gehirngröße war umgekehrt proportional zur Körpergröße",
-                  "nl": "Hersengrootte was omgekeerd gerelateerd aan lichaamsgrootte"
-        },
-        {
-                  "en": "Enlarged cerebellum and specialized neural pathways for coordinating complex locomotion and potentially spatial navigation",
-                  "es": "Cerebelo agrandado y vías neurales especializadas para coordinar locomoción compleja y potencialmente navegación espacial",
-                  "de": "Vergrößertes Kleinhirn und spezialisierte Nervenbahnen zur Koordination komplexer Fortbewegung und möglicherweise räumlicher Navigation",
-                  "nl": "Vergroot cerebellum en gespecialiseerde neurale paden voor het coördineren van complexe voortbeweging en mogelijk ruimtelijke navigatie"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "High-resolution endocranial analysis reveals that sauropods had enlarged cerebellar regions and specialized neural architectures for processing complex sensory information related to balance, coordination, and possibly spatial memory for navigation.",
-                  "es": "El análisis endocraneal de alta resolución revela que los saurópodos tenían regiones cerebelares agrandadas y arquitecturas neurales especializadas para procesar información sensorial compleja relacionada con equilibrio, coordinación y posiblemente memoria espacial para navegación.",
-                  "de": "Hochauflösende endokraniale Analyse zeigt, dass Sauropoden vergrößerte zerebellare Regionen und spezialisierte neurale Architekturen für die Verarbeitung komplexer sensorischer Informationen bezüglich Gleichgewicht, Koordination und möglicherweise räumlichem Gedächtnis für Navigation hatten.",
-                  "nl": "Hoge-resolutie endocraniale analyse onthult dat sauropoden vergrote cerebellaire regio's en gespecialiseerde neurale architecturen hadden voor het verwerken van complexe sensorische informatie gerelateerd aan balans, coördinatie en mogelijk ruimtelijk geheugen voor navigatie."
-        }
-      },
-      {
-        question: {
-                  "en": "How do advanced taphonomic studies explain the exceptional preservation of sauropod soft tissues?",
-                  "es": "¿Cómo explican los estudios tafonómicos avanzados la preservación excepcional de tejidos blandos de saurópodos?",
-                  "de": "Wie erklären fortgeschrittene taphonomische Studien die außergewöhnliche Erhaltung von Sauropoden-Weichgeweben?",
-                  "nl": "Hoe verklaren geavanceerde tafonomische studies de uitzonderlijke bewaring van sauropode zachte weefsels?"
-        },
-        options: [
-        {
-                  "en": "Soft tissue preservation is impossible in geological time scales",
-                  "es": "La preservación de tejidos blandos es imposible en escalas de tiempo geológicas",
-                  "de": "Weichgewebeerhaltung ist in geologischen Zeitskalen unmöglich",
-                  "nl": "Zachte weefsel bewaring is onmogelijk in geologische tijdschalen"
-        },
-        {
-                  "en": "Only freezing temperatures can preserve organic material",
-                  "es": "Solo las temperaturas de congelación pueden preservar material orgánico",
-                  "de": "Nur Gefriertemperaturen können organisches Material erhalten",
-                  "nl": "Alleen vriestemperaturen kunnen organisch materiaal bewaren"
-        },
-        {
-                  "en": "Soft tissues are always bacterial contamination",
-                  "es": "Los tejidos blandos son siempre contaminación bacteriana",
-                  "de": "Weichgewebe sind immer bakterielle Kontamination",
-                  "nl": "Zachte weefsels zijn altijd bacteriële contaminatie"
-        },
-        {
-                  "en": "Rapid burial in anoxic environments with specific mineral chemistry enabling molecular preservation through chelation processes",
-                  "es": "Entierro rápido en ambientes anóxicos con química mineral específica permitiendo preservación molecular a través de procesos de quelación",
-                  "de": "Schnelle Bestattung in anoxischen Umgebungen mit spezifischer Mineralchemie ermöglicht molekulare Erhaltung durch Chelatierungsprozesse",
-                  "nl": "Snelle begraving in anoxische omgevingen met specifieke mineraal chemie die moleculaire bewaring mogelijk maakt door chelatie processen"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Detailed taphonomic analysis reveals that exceptional soft tissue preservation in sauropods required specific conditions including rapid burial, anoxic environments, and particular mineral chemistry that stabilized organic molecules through metal chelation and crosslinking processes.",
-                  "es": "El análisis tafonómico detallado revela que la preservación excepcional de tejidos blandos en saurópodos requirió condiciones específicas incluyendo entierro rápido, ambientes anóxicos y química mineral particular que estabilizó moléculas orgánicas a través de procesos de quelación de metales y entrecruzamiento.",
-                  "de": "Detaillierte taphonomische Analyse zeigt, dass außergewöhnliche Weichgewebeerhaltung bei Sauropoden spezifische Bedingungen erforderte, einschließlich schneller Bestattung, anoxischer Umgebungen und bestimmter Mineralchemie, die organische Moleküle durch Metallchelatierung und Vernetzungsprozesse stabilisierte.",
-                  "nl": "Gedetailleerde tafonomische analyse onthult dat uitzonderlijke zachte weefsel bewaring in sauropoden specifieke condities vereiste inclusief snelle begraving, anoxische omgevingen en bepaalde mineraal chemie die organische moleculen stabiliseerde door metaal chelatie en crosslinking processen."
-        }
-      },
-      {
-        question: {
-                  "en": "What does the study of sauropod egg clutch arrangements reveal about their reproductive ecology and parental behavior?",
-                  "es": "¿Qué revela el estudio de los arreglos de nidadas de huevos de saurópodos sobre su ecología reproductiva y comportamiento parental?",
-                  "de": "Was enthüllt die Untersuchung von Sauropoden-Eiergelegenordnungen über ihre Fortpflanzungsökologie und elterliches Verhalten?",
-                  "nl": "Wat onthult de studie van sauropode ei legsel arrangementen over hun reproductieve ecologie en ouderlijk gedrag?"
-        },
-        options: [
-        {
-                  "en": "Eggs were always laid underwater",
-                  "es": "Los huevos siempre se pusieron bajo el agua",
-                  "de": "Eier wurden immer unter Wasser gelegt",
-                  "nl": "Eieren werden altijd onder water gelegd"
-        },
-        {
-                  "en": "Random egg laying with no parental care",
-                  "es": "Puesta de huevos aleatoria sin cuidado parental",
-                  "de": "Zufällige Eiablage ohne elterliche Fürsorge",
-                  "nl": "Willekeurige ei legging zonder ouderlijke zorg"
-        },
-        {
-                  "en": "Sophisticated nesting strategies with thermal regulation, clutch size optimization, and possible cooperative breeding behaviors",
-                  "es": "Estrategias de anidación sofisticadas con regulación térmica, optimización del tamaño de nidada y posibles comportamientos de cría cooperativa",
-                  "de": "Ausgeklügelte Niststrategien mit Thermoregulation, Gelegegrößenoptimierung und möglichen kooperativen Brutverhalten",
-                  "nl": "Verfijnde nest strategieën met thermische regulatie, legsel grootte optimalisatie en mogelijke coöperatieve broedgedragingen"
-        },
-        {
-                  "en": "Only single eggs were produced per individual",
-                  "es": "Solo se producía un huevo por individuo",
-                  "de": "Nur ein einzelnes Ei pro Individuum wurde produziert",
-                  "nl": "Slechts enkele eieren werden geproduceerd per individu"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Analysis of sauropod nesting sites reveals complex reproductive strategies including thermal nest construction, optimal clutch sizing for environmental conditions, and evidence suggesting possible cooperative breeding and nest-site fidelity behaviors.",
-                  "es": "El análisis de sitios de anidación de saurópodos revela estrategias reproductivas complejas incluyendo construcción térmica de nidos, dimensionamiento óptimo de nidadas para condiciones ambientales y evidencia sugiriendo posibles comportamientos de cría cooperativa y fidelidad al sitio de nidificación.",
-                  "de": "Analyse von Sauropoden-Nistplätzen enthüllt komplexe Fortpflanzungsstrategien einschließlich thermischer Nestbau, optimaler Gelegegrößenbestimmung für Umweltbedingungen und Hinweise auf mögliche kooperative Brut- und Nisttreue-Verhaltensweisen.",
-                  "nl": "Analyse van sauropode nest sites onthult complexe reproductieve strategieën inclusief thermische nest constructie, optimale legsel grootte voor omgevingscondities en bewijs dat mogelijke coöperatieve broeding en nest-site trouw gedragingen suggereert."
-        }
-      },
-      {
-        question: {
-                  "en": "How does isotopic analysis of sauropod bone reveal information about ancient climate patterns and seasonal migrations?",
-                  "es": "¿Cómo revela el análisis isotópico del hueso de saurópodos información sobre patrones climáticos antiguos y migraciones estacionales?",
-                  "de": "Wie enthüllt Isotopenanalyse von Sauropoden-Knochen Informationen über alte Klimamuster und saisonale Wanderungen?",
-                  "nl": "Hoe onthult isotopische analyse van sauropode bot informatie over oude klimaat patronen en seizoensgebonden migraties?"
-        },
-        options: [
-        {
-                  "en": "Sequential sampling reveals cyclical temperature and precipitation patterns indicating long-distance seasonal movements",
-                  "es": "El muestreo secuencial revela patrones cíclicos de temperatura y precipitación indicando movimientos estacionales de larga distancia",
-                  "de": "Sequentielle Probenahme enthüllt zyklische Temperatur- und Niederschlagsmuster, die saisonale Langstreckenbewegungen anzeigen",
-                  "nl": "Sequentiële bemonstering onthult cyclische temperatuur en neerslag patronen die lange-afstand seizoensgebonden bewegingen aangeven"
-        },
-        {
-                  "en": "Isotopes only reflect the final location where animals died",
-                  "es": "Los isótopos solo reflejan la ubicación final donde murieron los animales",
-                  "de": "Isotope reflektieren nur den Endort, wo Tiere starben",
-                  "nl": "Isotopen reflecteren alleen de uiteindelijke locatie waar dieren stierven"
-        },
-        {
-                  "en": "All sauropods lived in identical climates",
-                  "es": "Todos los saurópodos vivían en climas idénticos",
-                  "de": "Alle Sauropoden lebten in identischen Klimata",
-                  "nl": "Alle sauropoden leefden in identieke klimaten"
-        },
-        {
-                  "en": "Bone isotopes cannot preserve climate information",
-                  "es": "Los isótopos óseos no pueden preservar información climática",
-                  "de": "Knochenisotope können keine Klimainformationen bewahren",
-                  "nl": "Bot isotopen kunnen geen klimaat informatie bewaren"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "High-resolution isotopic profiling of sauropod bone growth bands reveals seasonal climate variations and suggests that some species undertook extensive seasonal migrations following resource availability and optimal environmental conditions.",
-                  "es": "El perfilado isotópico de alta resolución de las bandas de crecimiento óseo de saurópodos revela variaciones climáticas estacionales y sugiere que algunas especies emprendían migraciones estacionales extensas siguiendo la disponibilidad de recursos y condiciones ambientales óptimas.",
-                  "de": "Hochauflösende Isotopen-Profilierung von Sauropoden-Knochenwachstumsbändern enthüllt saisonale Klimavariationen und legt nahe, dass einige Arten ausgedehnte saisonale Wanderungen unternahmen, die Ressourcenverfügbarkeit und optimalen Umweltbedingungen folgten.",
-                  "nl": "Hoge-resolutie isotopische profilering van sauropode bot groei banden onthult seizoensgebonden klimaat variaties en suggereert dat sommige soorten uitgebreide seizoensgebonden migraties ondernamen na beschikbaarheid van bronnen en optimale omgevingscondities."
-        }
-      },
-      {
-        question: {
-                  "en": "What does comparative genomics reveal about the molecular basis of sauropod pneumatic bone development?",
-                  "es": "¿Qué revela la genómica comparativa sobre la base molecular del desarrollo de hueso neumático de saurópodos?",
-                  "de": "Was enthüllt vergleichende Genomik über die molekulare Basis der pneumatischen Knochenentwicklung bei Sauropoden?",
-                  "nl": "Wat onthult vergelijkende genomica over de moleculaire basis van sauropode pneumatische bot ontwikkeling?"
-        },
-        options: [
-        {
-                  "en": "Identical genes to those controlling mammalian bone development",
-                  "es": "Genes idénticos a los que controlan el desarrollo óseo de mamíferos",
-                  "de": "Identische Gene zu denen, die die Säugetier-Knochenentwicklung kontrollieren",
-                  "nl": "Identieke genen aan die welke zoogdier bot ontwikkeling controleren"
-        },
-        {
-                  "en": "No genetic basis for pneumatic bone development",
-                  "es": "No hay base genética para el desarrollo de hueso neumático",
-                  "de": "Keine genetische Basis für pneumatische Knochenentwicklung",
-                  "nl": "Geen genetische basis voor pneumatische bot ontwikkeling"
-        },
-        {
-                  "en": "Completely unique genetic mechanisms found nowhere else in biology",
-                  "es": "Mecanismos genéticos completamente únicos que no se encuentran en ningún otro lugar de la biología",
-                  "de": "Völlig einzigartige genetische Mechanismen, die nirgendwo anders in der Biologie zu finden sind",
-                  "nl": "Volledig unieke genetische mechanismen die nergens anders in de biologie worden gevonden"
-        },
-        {
-                  "en": "Convergent regulatory pathways controlling air sac invasion with shared developmental toolkit genes across archosaur lineages",
-                  "es": "Vías regulatorias convergentes controlando la invasión de sacos de aire con genes de herramientas de desarrollo compartidas a través de linajes de arcosaurios",
-                  "de": "Konvergente regulatorische Wege kontrollieren Luftsackinvasion mit geteilten Entwicklungs-Toolkit-Genen zwischen Archosaurier-Linien",
-                  "nl": "Convergente regulatoire paden die luchtzak invasie controleren met gedeelde ontwikkelings toolkit genen over archosauriër lijnen"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Comparative analysis of archosaur genomes reveals that pneumatic bone development in sauropods involved convergent evolution of regulatory pathways that controlled air sac invasion, utilizing conserved developmental genes in novel combinations.",
-                  "es": "El análisis comparativo de genomas de arcosaurios revela que el desarrollo de hueso neumático en saurópodos involucró evolución convergente de vías regulatorias que controlaron la invasión de sacos de aire, utilizando genes de desarrollo conservados en combinaciones novedosas.",
-                  "de": "Vergleichende Analyse von Archosaurier-Genomen zeigt, dass pneumatische Knochenentwicklung bei Sauropoden konvergente Evolution regulatorischer Wege beinhaltete, die Luftsackinvasion kontrollierten und konservierte Entwicklungsgene in neuartigen Kombinationen nutzten.",
-                  "nl": "Vergelijkende analyse van archosauriër genomen onthult dat pneumatische bot ontwikkeling in sauropoden convergente evolutie van regulatoire paden omvatte die luchtzak invasie controleerden, waarbij geconserveerde ontwikkelingsgenen in nieuwe combinaties werden gebruikt."
-        }
-      },
-      {
-        question: {
-                  "en": "How do mathematical models of sauropod population dynamics explain their ecological dominance in Mesozoic ecosystems?",
-                  "es": "¿Cómo explican los modelos matemáticos de dinámicas poblacionales de saurópodos su dominancia ecológica en ecosistemas mesozoicos?",
-                  "de": "Wie erklären mathematische Modelle der Sauropoden-Populationsdynamik ihre ökologische Dominanz in mesozoischen Ökosystemen?",
-                  "nl": "Hoe verklaren mathematische modellen van sauropode populatie dynamiek hun ecologische dominantie in Mesozoïsche ecosystemen?"
-        },
-        options: [
-        {
-                  "en": "Random population fluctuations without ecological significance",
-                  "es": "Fluctuaciones poblacionales aleatorias sin significado ecológico",
-                  "de": "Zufällige Bevölkerungsschwankungen ohne ökologische Bedeutung",
-                  "nl": "Willekeurige populatie fluctuaties zonder ecologische betekenis"
-        },
-        {
-                  "en": "Constant population sizes throughout their existence",
-                  "es": "Tamaños poblacionales constantes durante toda su existencia",
-                  "de": "Konstante Populationsgrößen während ihrer gesamten Existenz",
-                  "nl": "Constante populatie groottes gedurende hun bestaan"
-        },
-        {
-                  "en": "Optimal body size scaling with resource availability and reproductive strategies maximized competitive advantage",
-                  "es": "Escalamiento óptimo del tamaño corporal con disponibilidad de recursos y estrategias reproductivas maximizó la ventaja competitiva",
-                  "de": "Optimale Körpergrößenskalierung mit Ressourcenverfügbarkeit und Fortpflanzungsstrategien maximierten Wettbewerbsvorteil",
-                  "nl": "Optimale lichaamsgrootte schaling met bron beschikbaarheid en reproductieve strategieën maximaliseerde competitief voordeel"
-        },
-        {
-                  "en": "Population models cannot explain ecological patterns",
-                  "es": "Los modelos poblacionales no pueden explicar patrones ecológicos",
-                  "de": "Populationsmodelle können ökologische Muster nicht erklären",
-                  "nl": "Populatie modellen kunnen ecologische patronen niet verklaren"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Sophisticated population modeling reveals that sauropod ecological dominance resulted from optimal scaling relationships between body size, metabolic efficiency, and reproductive output that maximized resource utilization and competitive success in Mesozoic plant communities.",
-                  "es": "El modelado poblacional sofisticado revela que la dominancia ecológica de saurópodos resultó de relaciones de escalamiento óptimas entre tamaño corporal, eficiencia metabólica y producción reproductiva que maximizaron la utilización de recursos y éxito competitivo en comunidades vegetales mesozoicas.",
-                  "de": "Ausgeklügelte Populationsmodellierung zeigt, dass die ökologische Dominanz der Sauropoden aus optimalen Skalierungsbeziehungen zwischen Körpergröße, Stoffwechseleffizienz und Fortpflanzungsoutput resultierte, die Ressourcennutzung und Wettbewerbserfolg in mesozoischen Pflanzengemeinschaften maximierten.",
-                  "nl": "Verfijnde populatie modellering onthult dat sauropode ecologische dominantie resulteerde uit optimale schaling relaties tussen lichaamsgrootte, metabole efficiëntie en reproductieve output die bron gebruik en competitief succes in Mesozoïsche plantengemeenschappen maximaliseerden."
-        }
-      },
-      {
-        question: {
-                  "en": "What does advanced morphometric analysis reveal about functional convergence in sauropod feeding adaptations?",
-                  "es": "¿Qué revela el análisis morfométrico avanzado sobre la convergencia funcional en adaptaciones de alimentación de saurópodos?",
-                  "de": "Was enthüllt fortgeschrittene morphometrische Analyse über funktionelle Konvergenz in Sauropoden-Nahrungsanpassungen?",
-                  "nl": "Wat onthult geavanceerde morfometrische analyse over functionele convergentie in sauropode voedingsaanpassingen?"
-        },
-        options: [
-        {
-                  "en": "Geometric morphometric analysis identifies convergent skull shapes optimized for specific plant processing strategies",
-                  "es": "El análisis morfométrico geométrico identifica formas craneales convergentes optimizadas para estrategias específicas de procesamiento de plantas",
-                  "de": "Geometrische morphometrische Analyse identifiziert konvergente Schädelformen optimiert für spezifische Pflanzenverarbeitungsstrategien",
-                  "nl": "Geometrische morfometrische analyse identificeert convergente schedel vormen geoptimaliseerd voor specifieke planten verwerkings strategieën"
-        },
-        {
-                  "en": "All sauropod skulls had identical morphology",
-                  "es": "Todos los cráneos de saurópodos tenían morfología idéntica",
-                  "de": "Alle Sauropodenschädel hatten identische Morphologie",
-                  "nl": "Alle sauropode schedels hadden identieke morfologie"
-        },
-        {
-                  "en": "Skull shape was unrelated to feeding behavior",
-                  "es": "La forma del cráneo no estaba relacionada con el comportamiento alimentario",
-                  "de": "Schädelform war nicht mit Fressverhalten verbunden",
-                  "nl": "Schedelvorm was niet gerelateerd aan voedingsgedrag"
-        },
-        {
-                  "en": "Morphometric analysis cannot detect functional patterns",
-                  "es": "El análisis morfométrico no puede detectar patrones funcionales",
-                  "de": "Morphometrische Analyse kann keine funktionellen Muster erkennen",
-                  "nl": "Morfometrische analyse kan functionele patronen niet detecteren"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Sophisticated geometric morphometric studies reveal that sauropod lineages independently evolved similar skull architectures optimized for specific feeding strategies, demonstrating functional convergence driven by ecological pressures rather than phylogenetic constraints.",
-                  "es": "Los estudios morfométricos geométricos sofisticados revelan que los linajes de saurópodos evolucionaron independientemente arquitecturas craneales similares optimizadas para estrategias de alimentación específicas, demostrando convergencia funcional impulsada por presiones ecológicas en lugar de limitaciones filogenéticas.",
-                  "de": "Ausgeklügelte geometrische morphometrische Studien zeigen, dass Sauropoden-Linien unabhängig ähnliche Schädelarchitekturen entwickelten, die für spezifische Fütterungsstrategien optimiert waren und funktionelle Konvergenz zeigten, die durch ökologische Drücke und nicht phylogenetische Beschränkungen angetrieben wurde.",
-                  "nl": "Verfijnde geometrische morfometrische studies onthullen dat sauropode lijnen onafhankelijk vergelijkbare schedel architecturen evolueerden geoptimaliseerd voor specifieke voedingsstrategieën, wat functionele convergentie toont gedreven door ecologische druk in plaats van fylogenetische beperkingen."
-        }
-      },
-      {
-        question: {
-                  "en": "How does paleohistological analysis reveal the relationship between sauropod gigantism and life history strategies?",
-                  "es": "¿Cómo revela el análisis paleohistológico la relación entre el gigantismo de saurópodos y estrategias de historia de vida?",
-                  "de": "Wie enthüllt paläohistologische Analyse die Beziehung zwischen Sauropoden-Gigantismus und Lebensgeschichtsstrategien?",
-                  "nl": "Hoe onthult paleohistologische analyse de relatie tussen sauropode gigantisme en levensgeschiedenis strategieën?"
-        },
-        options: [
-        {
-                  "en": "Bone histology reveals trade-offs between growth rate, longevity, and reproductive timing optimized for different ecological niches",
-                  "es": "La histología ósea revela compromisos entre tasa de crecimiento, longevidad y momento reproductivo optimizados para diferentes nichos ecológicos",
-                  "de": "Knochenhistologie enthüllt Abwägungen zwischen Wachstumsrate, Langlebigkeit und Fortpflanzungstiming optimiert für verschiedene ökologische Nischen",
-                  "nl": "Bot histologie onthult afwegingen tussen groeisnelheid, levensduur en reproductieve timing geoptimaliseerd voor verschillende ecologische niches"
-        },
-        {
-                  "en": "Bone histology cannot reveal life history information",
-                  "es": "La histología ósea no puede revelar información de historia de vida",
-                  "de": "Knochenhistologie kann keine Lebensgeschichtsinformationen enthüllen",
-                  "nl": "Bot histologie kan geen levensgeschiedenis informatie onthullen"
-        },
-        {
-                  "en": "All sauropods had identical life history patterns",
-                  "es": "Todos los saurópodos tenían patrones de historia de vida idénticos",
-                  "de": "Alle Sauropoden hatten identische Lebensgeschichtsmuster",
-                  "nl": "Alle sauropoden hadden identieke levensgeschiedenis patronen"
-        },
-        {
-                  "en": "Gigantism was unrelated to life history evolution",
-                  "es": "El gigantismo no estaba relacionado con la evolución de la historia de vida",
-                  "de": "Gigantismus war nicht mit Lebensgeschichtsevolution verbunden",
-                  "nl": "Gigantisme was niet gerelateerd aan levensgeschiedenis evolutie"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Detailed bone histological analysis reveals that different sauropod lineages evolved distinct life history strategies with varying combinations of growth rates, maturation timing, and longevity that were optimally tuned to their specific ecological roles and environmental constraints.",
-                  "es": "El análisis histológico óseo detallado revela que diferentes linajes de saurópodos evolucionaron estrategias de historia de vida distintas con combinaciones variables de tasas de crecimiento, momento de maduración y longevidad que estaban óptimamente ajustadas a sus roles ecológicos específicos y limitaciones ambientales.",
-                  "de": "Detaillierte knochenhistologische Analyse zeigt, dass verschiedene Sauropoden-Linien unterschiedliche Lebensgeschichtsstrategien mit variierenden Kombinationen von Wachstumsraten, Reifezeit und Langlebigkeit entwickelten, die optimal auf ihre spezifischen ökologischen Rollen und Umweltbeschränkungen abgestimmt waren.",
-                  "nl": "Gedetailleerde bot histologische analyse onthult dat verschillende sauropode lijnen onderscheiden levensgeschiedenis strategieën evolueerden met variërende combinaties van groeisnelheden, rijpingstiming en levensduur die optimaal afgestemd waren op hun specifieke ecologische rollen en omgevingsbeperkingen."
-        }
-      },
-      {
-        question: {
-                  "en": "What does computational phylogenomics reveal about sauropod biogeographic patterns and continental drift?",
-                  "es": "¿Qué revela la filogenómica computacional sobre patrones biogeográficos de saurópodos y deriva continental?",
-                  "de": "Was enthüllt computergestützte Phylogenomik über Sauropoden-Biogeographie-Muster und Kontinentaldrift?",
-                  "nl": "Wat onthult computationele fylogenomics over sauropode biogeografische patronen en continentale drift?"
-        },
-        options: [
-        {
-                  "en": "Continental drift had no impact on sauropod evolution",
-                  "es": "La deriva continental no tuvo impacto en la evolución de saurópodos",
-                  "de": "Kontinentaldrift hatte keinen Einfluss auf Sauropoden-Evolution",
-                  "nl": "Continentale drift had geen impact op sauropode evolutie"
-        },
-        {
-                  "en": "All sauropods originated from a single continent",
-                  "es": "Todos los saurópodos se originaron de un solo continente",
-                  "de": "Alle Sauropoden stammten von einem einzigen Kontinent",
-                  "nl": "Alle sauropoden stamden van een enkel continent"
-        },
-        {
-                  "en": "Phylogenomics shows no correlation with geological processes",
-                  "es": "La filogenómica no muestra correlación con procesos geológicos",
-                  "de": "Phylogenomik zeigt keine Korrelation mit geologischen Prozessen",
-                  "nl": "Fylogenomics toont geen correlatie met geologische processen"
-        },
-        {
-                  "en": "Molecular divergence times precisely correlate with geological events and continental separation, revealing vicariance patterns",
-                  "es": "Los tiempos de divergencia molecular se correlacionan precisamente con eventos geológicos y separación continental, revelando patrones de vicarianza",
-                  "de": "Molekulare Divergenzzeiten korrelieren präzise mit geologischen Ereignissen und kontinentaler Trennung und enthüllen Vikarianz-Muster",
-                  "nl": "Moleculaire divergentie tijden correleren precies met geologische gebeurtenissen en continentale scheiding, wat vicariatie patronen onthult"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Advanced phylogenomic analysis demonstrates that sauropod evolutionary history closely tracks continental breakup events, with molecular divergence times matching geological data for continental separation, providing strong evidence for vicariant speciation patterns.",
-                  "es": "El análisis filogenómico avanzado demuestra que la historia evolutiva de saurópodos sigue de cerca los eventos de ruptura continental, con tiempos de divergencia molecular coincidiendo con datos geológicos de separación continental, proporcionando evidencia fuerte para patrones de especiación vicariante.",
-                  "de": "Fortgeschrittene phylogenomische Analyse zeigt, dass die evolutionäre Geschichte der Sauropoden eng mit kontinentalen Aufbruchereignissen übereinstimmt, wobei molekulare Divergenzzeiten mit geologischen Daten für kontinentale Trennung übereinstimmen und starke Beweise für vikariante Artenbildungsmuster liefern.",
-                  "nl": "Geavanceerde fylogenomische analyse toont dat sauropode evolutionaire geschiedenis nauw continentale breuk gebeurtenissen volgt, waarbij moleculaire divergentie tijden overeenkomen met geologische data voor continentale scheiding, wat sterk bewijs biedt voor vicariante soortvorming patronen."
-        }
-      },
-      {
-        question: {
-                  "en": "How does machine learning analysis of sauropod locomotor biomechanics provide insights into energy efficiency strategies?",
-                  "es": "¿Cómo proporciona el análisis de aprendizaje automático de la biomecánica locomotora de saurópodos perspectivas sobre estrategias de eficiencia energética?",
-                  "de": "Wie bietet maschinelles Lernen-Analyse der Sauropoden-Fortbewegungsbiomechanik Einblicke in Energieeffizienzstrategien?",
-                  "nl": "Hoe biedt machine learning analyse van sauropode voortbewegings biomechanica inzichten in energie efficiëntie strategieën?"
-        },
-        options: [
-        {
-                  "en": "Energy efficiency was not important for sauropod survival",
-                  "es": "La eficiencia energética no era importante para la supervivencia de saurópodos",
-                  "de": "Energieeffizienz war nicht wichtig für das Überleben der Sauropoden",
-                  "nl": "Energie efficiëntie was niet belangrijk voor sauropode overleving"
-        },
-        {
-                  "en": "All sauropods used identical locomotor strategies",
-                  "es": "Todos los saurópodos usaron estrategias locomotoras idénticas",
-                  "de": "Alle Sauropoden verwendeten identische Fortbewegungsstrategien",
-                  "nl": "Alle sauropoden gebruikten identieke voortbewegings strategieën"
-        },
-        {
-                  "en": "AI algorithms identify optimal gait patterns and limb coordination strategies that minimized metabolic costs during locomotion",
-                  "es": "Los algoritmos de IA identifican patrones de marcha óptimos y estrategias de coordinación de extremidades que minimizaron costos metabólicos durante la locomoción",
-                  "de": "KI-Algorithmen identifizieren optimale Gangmuster und Gliedmaßen-Koordinationsstrategien, die metabolische Kosten während der Fortbewegung minimierten",
-                  "nl": "AI algoritmen identificeren optimale gang patronen en ledemaat coördinatie strategieën die metabole kosten minimaliseerden tijdens voortbeweging"
-        },
-        {
-                  "en": "Machine learning cannot analyze biomechanical data",
-                  "es": "El aprendizaje automático no puede analizar datos biomecánicos",
-                  "de": "Maschinelles Lernen kann biomechanische Daten nicht analysieren",
-                  "nl": "Machine learning kan biomechanische data niet analyseren"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Advanced machine learning algorithms analyzing sauropod biomechanical data reveal that different species evolved highly optimized locomotor strategies with specific gait patterns, limb coordination, and energy recovery mechanisms that maximized efficiency for their particular body plans and ecological roles.",
-                  "es": "Los algoritmos avanzados de aprendizaje automático que analizan datos biomecánicos de saurópodos revelan que diferentes especies evolucionaron estrategias locomotoras altamente optimizadas con patrones de marcha específicos, coordinación de extremidades y mecanismos de recuperación de energía que maximizaron la eficiencia para sus planes corporales particulares y roles ecológicos.",
-                  "de": "Fortgeschrittene maschinelle Lernalgorithmen, die Sauropoden-biomechanische Daten analysieren, zeigen, dass verschiedene Arten hochoptimierte Fortbewegungsstrategien mit spezifischen Gangmustern, Gliedmaßenkoordination und Energierückgewinnungsmechanismen entwickelten, die Effizienz für ihre besonderen Körperbaupläne und ökologischen Rollen maximierten.",
-                  "nl": "Geavanceerde machine learning algoritmen die sauropode biomechanische data analyseren onthullen dat verschillende soorten hooggeoptimaliseerde voortbewegings strategieën evolueerden met specifieke gang patronen, ledemaat coördinatie en energie herstel mechanismen die efficiëntie maximaliseerden voor hun particuliere lichaamsplannen en ecologische rollen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a sauropod?",
-                  "es": "What is a sauropod?",
-                  "de": "What is a sauropod?",
-                  "nl": "What is a sauropod?"
-        },
-        options: [
-        {
-                  "en": "Carnivorous dinosaur",
-                  "es": "Carnivorous dinosaur",
-                  "de": "Carnivorous dinosaur",
-                  "nl": "Carnivorous dinosaur"
-        },
-        {
-                  "en": "Long-necked herbivorous dinosaur",
-                  "es": "Long-necked herbivorous dinosaur",
-                  "de": "Long-necked herbivorous dinosaur",
-                  "nl": "Long-necked herbivorous dinosaur"
-        },
-        {
-                  "en": "Flying dinosaur",
-                  "es": "Flying dinosaur",
-                  "de": "Flying dinosaur",
-                  "nl": "Flying dinosaur"
-        },
-        {
-                  "en": "Marine reptile",
-                  "es": "Marine reptile",
-                  "de": "Marine reptile",
-                  "nl": "Marine reptile"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Sauropods were massive herbivorous dinosaurs characterized by long necks, long tails, small heads, and four pillar-like legs.",
-                  "es": "Sauropods were massive herbivorous dinosaurs characterized by long necks, long tails, small heads, and four pillar-like legs.",
-                  "de": "Sauropods were massive herbivorous dinosaurs characterized by long necks, long tails, small heads, and four pillar-like legs.",
-                  "nl": "Sauropods were massive herbivorous dinosaurs characterized by long necks, long tails, small heads, and four pillar-like legs."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the largest sauropod?",
-                  "es": "What is the largest sauropod?",
-                  "de": "What is the largest sauropod?",
-                  "nl": "What is the largest sauropod?"
-        },
-        options: [
-        {
-                  "en": "Brachiosaurus",
-                  "es": "Brachiosaurus",
-                  "de": "Brachiosaurus",
-                  "nl": "Brachiosaurus"
-        },
-        {
-                  "en": "Diplodocus",
-                  "es": "Diplodocus",
-                  "de": "Diplodocus",
-                  "nl": "Diplodocus"
-        },
-        {
-                  "en": "Apatosaurus",
-                  "es": "Apatosaurus",
-                  "de": "Apatosaurus",
-                  "nl": "Apatosaurus"
-        },
-        {
-                  "en": "Argentinosaurus or Patagotitan",
-                  "es": "Argentinosaurus or Patagotitan",
-                  "de": "Argentinosaurus or Patagotitan",
-                  "nl": "Argentinosaurus or Patagotitan"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Argentinosaurus and Patagotitan are among the largest sauropods, possibly weighing up to 100 tons.",
-                  "es": "Argentinosaurus and Patagotitan are among the largest sauropods, possibly weighing up to 100 tons.",
-                  "de": "Argentinosaurus and Patagotitan are among the largest sauropods, possibly weighing up to 100 tons.",
-                  "nl": "Argentinosaurus and Patagotitan are among the largest sauropods, possibly weighing up to 100 tons."
-        }
-      },
-      {
-        question: {
-                  "en": "What did sauropods eat?",
-                  "es": "What did sauropods eat?",
-                  "de": "What did sauropods eat?",
-                  "nl": "What did sauropods eat?"
-        },
-        options: [
-        {
-                  "en": "Insects",
-                  "es": "Insects",
-                  "de": "Insects",
-                  "nl": "Insects"
-        },
-        {
-                  "en": "Meat",
-                  "es": "Meat",
-                  "de": "Meat",
-                  "nl": "Meat"
-        },
-        {
-                  "en": "Plants",
-                  "es": "Plants",
-                  "de": "Plants",
-                  "nl": "Plants"
-        },
-        {
-                  "en": "Fish",
-                  "es": "Fish",
-                  "de": "Fish",
-                  "nl": "Fish"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "All sauropods were herbivores that fed on plants, particularly high vegetation.",
-                  "es": "All sauropods were herbivores that fed on plants, particularly high vegetation.",
-                  "de": "All sauropods were herbivores that fed on plants, particularly high vegetation.",
-                  "nl": "All sauropods were herbivores that fed on plants, particularly high vegetation."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Brachiosaurus known for?",
-                  "es": "What is Brachiosaurus known for?",
-                  "de": "What is Brachiosaurus known for?",
-                  "nl": "What is Brachiosaurus known for?"
-        },
-        options: [
-        {
-                  "en": "Fastest sauropod",
-                  "es": "Fastest sauropod",
-                  "de": "Fastest sauropod",
-                  "nl": "Fastest sauropod"
-        },
-        {
-                  "en": "Front legs longer than rear legs",
-                  "es": "Front legs longer than rear legs",
-                  "de": "Front legs longer than rear legs",
-                  "nl": "Front legs longer than rear legs"
-        },
-        {
-                  "en": "Longest tail",
-                  "es": "Longest tail",
-                  "de": "Longest tail",
-                  "nl": "Longest tail"
-        },
-        {
-                  "en": "Smallest sauropod",
-                  "es": "Smallest sauropod",
-                  "de": "Smallest sauropod",
-                  "nl": "Smallest sauropod"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Brachiosaurus had unusually long front legs, making its back slope downward from shoulders to hips.",
-                  "es": "Brachiosaurus had unusually long front legs, making its back slope downward from shoulders to hips.",
-                  "de": "Brachiosaurus had unusually long front legs, making its back slope downward from shoulders to hips.",
-                  "nl": "Brachiosaurus had unusually long front legs, making its back slope downward from shoulders to hips."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Diplodocus?",
-                  "es": "What is Diplodocus?",
-                  "de": "What is Diplodocus?",
-                  "nl": "What is Diplodocus?"
-        },
-        options: [
-        {
-                  "en": "Carnivorous dinosaur",
-                  "es": "Carnivorous dinosaur",
-                  "de": "Carnivorous dinosaur",
-                  "nl": "Carnivorous dinosaur"
-        },
-        {
-                  "en": "Flying dinosaur",
-                  "es": "Flying dinosaur",
-                  "de": "Flying dinosaur",
-                  "nl": "Flying dinosaur"
-        },
-        {
-                  "en": "Long sauropod with whip-like tail",
-                  "es": "Long sauropod with whip-like tail",
-                  "de": "Long sauropod with whip-like tail",
-                  "nl": "Long sauropod with whip-like tail"
-        },
-        {
-                  "en": "Short-necked sauropod",
-                  "es": "Short-necked sauropod",
-                  "de": "Short-necked sauropod",
-                  "nl": "Short-necked sauropod"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Diplodocus was one of the longest dinosaurs, with an extremely long whip-like tail.",
-                  "es": "Diplodocus was one of the longest dinosaurs, with an extremely long whip-like tail.",
-                  "de": "Diplodocus was one of the longest dinosaurs, with an extremely long whip-like tail.",
-                  "nl": "Diplodocus was one of the longest dinosaurs, with an extremely long whip-like tail."
-        }
-      },
-      {
-        question: {
-                  "en": "How did sauropods support their massive weight?",
-                  "es": "How did sauropods support their massive weight?",
-                  "de": "How did sauropods support their massive weight?",
-                  "nl": "How did sauropods support their massive weight?"
-        },
-        options: [
-        {
-                  "en": "Hollow bones and efficient body structure",
-                  "es": "Hollow bones and efficient body structure",
-                  "de": "Hollow bones and efficient body structure",
-                  "nl": "Hollow bones and efficient body structure"
-        },
-        {
-                  "en": "Dense solid bones",
-                  "es": "Dense solid bones",
-                  "de": "Dense solid bones",
-                  "nl": "Dense solid bones"
-        },
-        {
-                  "en": "Living in water",
-                  "es": "Living in water",
-                  "de": "Living in water",
-                  "nl": "Living in water"
-        },
-        {
-                  "en": "Extra legs",
-                  "es": "Extra legs",
-                  "de": "Extra legs",
-                  "nl": "Extra legs"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Sauropods had hollow bones filled with air sacs, reducing weight while maintaining strength.",
-                  "es": "Sauropods had hollow bones filled with air sacs, reducing weight while maintaining strength.",
-                  "de": "Sauropods had hollow bones filled with air sacs, reducing weight while maintaining strength.",
-                  "nl": "Sauropods had hollow bones filled with air sacs, reducing weight while maintaining strength."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the longest sauropod?",
-                  "es": "What is the longest sauropod?",
-                  "de": "What is the longest sauropod?",
-                  "nl": "What is the longest sauropod?"
-        },
-        options: [
-        {
-                  "en": "Camarasaurus",
-                  "es": "Camarasaurus",
-                  "de": "Camarasaurus",
-                  "nl": "Camarasaurus"
-        },
-        {
-                  "en": "Brachiosaurus",
-                  "es": "Brachiosaurus",
-                  "de": "Brachiosaurus",
-                  "nl": "Brachiosaurus"
-        },
-        {
-                  "en": "Argentinosaurus",
-                  "es": "Argentinosaurus",
-                  "de": "Argentinosaurus",
-                  "nl": "Argentinosaurus"
-        },
-        {
-                  "en": "Supersaurus or Diplodocus",
-                  "es": "Supersaurus or Diplodocus",
-                  "de": "Supersaurus or Diplodocus",
-                  "nl": "Supersaurus or Diplodocus"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Supersaurus and Diplodocus were among the longest dinosaurs, up to 110 feet long.",
-                  "es": "Supersaurus and Diplodocus were among the longest dinosaurs, up to 110 feet long.",
-                  "de": "Supersaurus and Diplodocus were among the longest dinosaurs, up to 110 feet long.",
-                  "nl": "Supersaurus and Diplodocus were among the longest dinosaurs, up to 110 feet long."
-        }
-      },
-      {
-        question: {
-                  "en": "What were sauropod teeth like?",
-                  "es": "What were sauropod teeth like?",
-                  "de": "What were sauropod teeth like?",
-                  "nl": "What were sauropod teeth like?"
-        },
-        options: [
-        {
-                  "en": "No teeth",
-                  "es": "No teeth",
-                  "de": "No teeth",
-                  "nl": "No teeth"
-        },
-        {
-                  "en": "Flat for grinding",
-                  "es": "Flat for grinding",
-                  "de": "Flat for grinding",
-                  "nl": "Flat for grinding"
-        },
-        {
-                  "en": "Sharp for meat",
-                  "es": "Sharp for meat",
-                  "de": "Sharp for meat",
-                  "nl": "Sharp for meat"
-        },
-        {
-                  "en": "Peg-like or spoon-shaped for stripping leaves",
-                  "es": "Peg-like or spoon-shaped for stripping leaves",
-                  "de": "Peg-like or spoon-shaped for stripping leaves",
-                  "nl": "Peg-like or spoon-shaped for stripping leaves"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Most sauropods had simple peg-like or spoon-shaped teeth for stripping leaves, not for chewing.",
-                  "es": "Most sauropods had simple peg-like or spoon-shaped teeth for stripping leaves, not for chewing.",
-                  "de": "Most sauropods had simple peg-like or spoon-shaped teeth for stripping leaves, not for chewing.",
-                  "nl": "Most sauropods had simple peg-like or spoon-shaped teeth for stripping leaves, not for chewing."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Apatosaurus?",
-                  "es": "What is Apatosaurus?",
-                  "de": "What is Apatosaurus?",
-                  "nl": "What is Apatosaurus?"
-        },
-        options: [
-        {
-                  "en": "Large Jurassic sauropod",
-                  "es": "Large Jurassic sauropod",
-                  "de": "Large Jurassic sauropod",
-                  "nl": "Large Jurassic sauropod"
-        },
-        {
-                  "en": "Cretaceous carnivore",
-                  "es": "Cretaceous carnivore",
-                  "de": "Cretaceous carnivore",
-                  "nl": "Cretaceous carnivore"
-        },
-        {
-                  "en": "Small dinosaur",
-                  "es": "Small dinosaur",
-                  "de": "Small dinosaur",
-                  "nl": "Small dinosaur"
-        },
-        {
-                  "en": "Flying reptile",
-                  "es": "Flying reptile",
-                  "de": "Flying reptile",
-                  "nl": "Flying reptile"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Apatosaurus (once called Brontosaurus) was a large Jurassic sauropod up to 75 feet long.",
-                  "es": "Apatosaurus (once called Brontosaurus) was a large Jurassic sauropod up to 75 feet long.",
-                  "de": "Apatosaurus (once called Brontosaurus) was a large Jurassic sauropod up to 75 feet long.",
-                  "nl": "Apatosaurus (once called Brontosaurus) was a large Jurassic sauropod up to 75 feet long."
-        }
-      },
-      {
-        question: {
-                  "en": "Did sauropods chew their food?",
-                  "es": "Did sauropods chew their food?",
-                  "de": "Did sauropods chew their food?",
-                  "nl": "Did sauropods chew their food?"
-        },
-        options: [
-        {
-                  "en": "No, they swallowed it whole",
-                  "es": "No, they swallowed it whole",
-                  "de": "No, they swallowed it whole",
-                  "nl": "No, they swallowed it whole"
-        },
-        {
-                  "en": "Yes, extensively",
-                  "es": "Yes, extensively",
-                  "de": "Yes, extensively",
-                  "nl": "Yes, extensively"
-        },
-        {
-                  "en": "Sometimes",
-                  "es": "Sometimes",
-                  "de": "Sometimes",
-                  "nl": "Sometimes"
-        },
-        {
-                  "en": "Unknown",
-                  "es": "Unknown",
-                  "de": "Unknown",
-                  "nl": "Unknown"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Sauropods didn't chew; they swallowed vegetation whole, using stomach stones (gastroliths) to help grind food.",
-                  "es": "Sauropods didn't chew; they swallowed vegetation whole, using stomach stones (gastroliths) to help grind food.",
-                  "de": "Sauropods didn't chew; they swallowed vegetation whole, using stomach stones (gastroliths) to help grind food.",
-                  "nl": "Sauropods didn't chew; they swallowed vegetation whole, using stomach stones (gastroliths) to help grind food."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Titanosaur?",
-                  "es": "What is Titanosaur?",
-                  "de": "What is Titanosaur?",
-                  "nl": "What is Titanosaur?"
-        },
-        options: [
-        {
-                  "en": "Flying dinosaur",
-                  "es": "Flying dinosaur",
-                  "de": "Flying dinosaur",
-                  "nl": "Flying dinosaur"
-        },
-        {
-                  "en": "Group of sauropods including the largest dinosaurs",
-                  "es": "Group of sauropods including the largest dinosaurs",
-                  "de": "Group of sauropods including the largest dinosaurs",
-                  "nl": "Group of sauropods including the largest dinosaurs"
-        },
-        {
-                  "en": "Single dinosaur species",
-                  "es": "Single dinosaur species",
-                  "de": "Single dinosaur species",
-                  "nl": "Single dinosaur species"
-        },
-        {
-                  "en": "Carnivorous dinosaur",
-                  "es": "Carnivorous dinosaur",
-                  "de": "Carnivorous dinosaur",
-                  "nl": "Carnivorous dinosaur"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Titanosaurs were a diverse group of sauropods that included some of the largest dinosaurs ever.",
-                  "es": "Titanosaurs were a diverse group of sauropods that included some of the largest dinosaurs ever.",
-                  "de": "Titanosaurs were a diverse group of sauropods that included some of the largest dinosaurs ever.",
-                  "nl": "Titanosaurs were a diverse group of sauropods that included some of the largest dinosaurs ever."
-        }
-      },
-      {
-        question: {
-                  "en": "How long was a typical sauropod neck?",
-                  "es": "How long was a typical sauropod neck?",
-                  "de": "How long was a typical sauropod neck?",
-                  "nl": "How long was a typical sauropod neck?"
-        },
-        options: [
-        {
-                  "en": "10 feet",
-                  "es": "10 feet",
-                  "de": "10 feet",
-                  "nl": "10 feet"
-        },
-        {
-                  "en": "100 feet",
-                  "es": "100 feet",
-                  "de": "100 feet",
-                  "nl": "100 feet"
-        },
-        {
-                  "en": "5 feet",
-                  "es": "5 feet",
-                  "de": "5 feet",
-                  "nl": "5 feet"
-        },
-        {
-                  "en": "20-40 feet on average for large species",
-                  "es": "20-40 feet on average for large species",
-                  "de": "20-40 feet on average for large species",
-                  "nl": "20-40 feet on average for large species"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Large sauropods typically had necks 20-40 feet long, allowing them to reach high vegetation.",
-                  "es": "Large sauropods typically had necks 20-40 feet long, allowing them to reach high vegetation.",
-                  "de": "Large sauropods typically had necks 20-40 feet long, allowing them to reach high vegetation.",
-                  "nl": "Large sauropods typically had necks 20-40 feet long, allowing them to reach high vegetation."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Camarasaurus?",
-                  "es": "What is Camarasaurus?",
-                  "de": "What is Camarasaurus?",
-                  "nl": "What is Camarasaurus?"
-        },
-        options: [
-        {
-                  "en": "Carnivorous dinosaur",
-                  "es": "Carnivorous dinosaur",
-                  "de": "Carnivorous dinosaur",
-                  "nl": "Carnivorous dinosaur"
-        },
-        {
-                  "en": "Rare sauropod",
-                  "es": "Rare sauropod",
-                  "de": "Rare sauropod",
-                  "nl": "Rare sauropod"
-        },
-        {
-                  "en": "Common Jurassic North American sauropod",
-                  "es": "Common Jurassic North American sauropod",
-                  "de": "Common Jurassic North American sauropod",
-                  "nl": "Common Jurassic North American sauropod"
-        },
-        {
-                  "en": "Marine reptile",
-                  "es": "Marine reptile",
-                  "de": "Marine reptile",
-                  "nl": "Marine reptile"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Camarasaurus was one of the most common sauropods in Late Jurassic North America.",
-                  "es": "Camarasaurus was one of the most common sauropods in Late Jurassic North America.",
-                  "de": "Camarasaurus was one of the most common sauropods in Late Jurassic North America.",
-                  "nl": "Camarasaurus was one of the most common sauropods in Late Jurassic North America."
-        }
-      },
-      {
-        question: {
-                  "en": "What are gastroliths?",
-                  "es": "What are gastroliths?",
-                  "de": "What are gastroliths?",
-                  "nl": "What are gastroliths?"
-        },
-        options: [
-        {
-                  "en": "Stomach stones swallowed to grind food",
-                  "es": "Stomach stones swallowed to grind food",
-                  "de": "Stomach stones swallowed to grind food",
-                  "nl": "Stomach stones swallowed to grind food"
-        },
-        {
-                  "en": "Bones",
-                  "es": "Bones",
-                  "de": "Bones",
-                  "nl": "Bones"
-        },
-        {
-                  "en": "Teeth",
-                  "es": "Teeth",
-                  "de": "Teeth",
-                  "nl": "Teeth"
-        },
-        {
-                  "en": "Fossils",
-                  "es": "Fossils",
-                  "de": "Fossils",
-                  "nl": "Fossils"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Gastroliths are stones swallowed by sauropods to help grind plant material in their stomachs.",
-                  "es": "Gastroliths are stones swallowed by sauropods to help grind plant material in their stomachs.",
-                  "de": "Gastroliths are stones swallowed by sauropods to help grind plant material in their stomachs.",
-                  "nl": "Gastroliths are stones swallowed by sauropods to help grind plant material in their stomachs."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Mamenchisaurus?",
-                  "es": "What is Mamenchisaurus?",
-                  "de": "What is Mamenchisaurus?",
-                  "nl": "What is Mamenchisaurus?"
-        },
-        options: [
-        {
-                  "en": "American sauropod",
-                  "es": "American sauropod",
-                  "de": "American sauropod",
-                  "nl": "American sauropod"
-        },
-        {
-                  "en": "Chinese sauropod with extremely long neck",
-                  "es": "Chinese sauropod with extremely long neck",
-                  "de": "Chinese sauropod with extremely long neck",
-                  "nl": "Chinese sauropod with extremely long neck"
-        },
-        {
-                  "en": "Carnivorous dinosaur",
-                  "es": "Carnivorous dinosaur",
-                  "de": "Carnivorous dinosaur",
-                  "nl": "Carnivorous dinosaur"
-        },
-        {
-                  "en": "Short-necked sauropod",
-                  "es": "Short-necked sauropod",
-                  "de": "Short-necked sauropod",
-                  "nl": "Short-necked sauropod"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Mamenchisaurus was a Chinese sauropod with one of the longest necks, up to 46 feet.",
-                  "es": "Mamenchisaurus was a Chinese sauropod with one of the longest necks, up to 46 feet.",
-                  "de": "Mamenchisaurus was a Chinese sauropod with one of the longest necks, up to 46 feet.",
-                  "nl": "Mamenchisaurus was a Chinese sauropod with one of the longest necks, up to 46 feet."
-        }
-      },
-      {
-        question: {
-                  "en": "How much did large sauropods weigh?",
-                  "es": "How much did large sauropods weigh?",
-                  "de": "How much did large sauropods weigh?",
-                  "nl": "How much did large sauropods weigh?"
-        },
-        options: [
-        {
-                  "en": "200-300 tons",
-                  "es": "200-300 tons",
-                  "de": "200-300 tons",
-                  "nl": "200-300 tons"
-        },
-        {
-                  "en": "10-20 tons",
-                  "es": "10-20 tons",
-                  "de": "10-20 tons",
-                  "nl": "10-20 tons"
-        },
-        {
-                  "en": "1-5 tons",
-                  "es": "1-5 tons",
-                  "de": "1-5 tons",
-                  "nl": "1-5 tons"
-        },
-        {
-                  "en": "50-100 tons",
-                  "es": "50-100 tons",
-                  "de": "50-100 tons",
-                  "nl": "50-100 tons"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The largest sauropods weighed between 50-100 tons, making them the heaviest land animals ever.",
-                  "es": "The largest sauropods weighed between 50-100 tons, making them the heaviest land animals ever.",
-                  "de": "The largest sauropods weighed between 50-100 tons, making them the heaviest land animals ever.",
-                  "nl": "The largest sauropods weighed between 50-100 tons, making them the heaviest land animals ever."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Saltasaurus?",
-                  "es": "What is Saltasaurus?",
-                  "de": "What is Saltasaurus?",
-                  "nl": "What is Saltasaurus?"
-        },
-        options: [
-        {
-                  "en": "Flying dinosaur",
-                  "es": "Flying dinosaur",
-                  "de": "Flying dinosaur",
-                  "nl": "Flying dinosaur"
-        },
-        {
-                  "en": "Carnivorous dinosaur",
-                  "es": "Carnivorous dinosaur",
-                  "de": "Carnivorous dinosaur",
-                  "nl": "Carnivorous dinosaur"
-        },
-        {
-                  "en": "Marine reptile",
-                  "es": "Marine reptile",
-                  "de": "Marine reptile",
-                  "nl": "Marine reptile"
-        },
-        {
-                  "en": "Armored sauropod with bony plates",
-                  "es": "Armored sauropod with bony plates",
-                  "de": "Armored sauropod with bony plates",
-                  "nl": "Armored sauropod with bony plates"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Saltasaurus was unusual among sauropods in having bony armor plates embedded in its skin.",
-                  "es": "Saltasaurus was unusual among sauropods in having bony armor plates embedded in its skin.",
-                  "de": "Saltasaurus was unusual among sauropods in having bony armor plates embedded in its skin.",
-                  "nl": "Saltasaurus was unusual among sauropods in having bony armor plates embedded in its skin."
-        }
-      },
-      {
-        question: {
-                  "en": "Did sauropods live in herds?",
-                  "es": "Did sauropods live in herds?",
-                  "de": "Did sauropods live in herds?",
-                  "nl": "Did sauropods live in herds?"
-        },
-        options: [
-        {
-                  "en": "Only when young",
-                  "es": "Only when young",
-                  "de": "Only when young",
-                  "nl": "Only when young"
-        },
-        {
-                  "en": "Unknown",
-                  "es": "Unknown",
-                  "de": "Unknown",
-                  "nl": "Unknown"
-        },
-        {
-                  "en": "No, solitary only",
-                  "es": "No, solitary only",
-                  "de": "No, solitary only",
-                  "nl": "No, solitary only"
-        },
-        {
-                  "en": "Likely yes, based on trackways",
-                  "es": "Likely yes, based on trackways",
-                  "de": "Likely yes, based on trackways",
-                  "nl": "Likely yes, based on trackways"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Fossil trackways suggest sauropods traveled in herds, with young in the center for protection.",
-                  "es": "Fossil trackways suggest sauropods traveled in herds, with young in the center for protection.",
-                  "de": "Fossil trackways suggest sauropods traveled in herds, with young in the center for protection.",
-                  "nl": "Fossil trackways suggest sauropods traveled in herds, with young in the center for protection."
-        }
-      },
-      {
-        question: {
-                  "en": "What posture did sauropods have?",
-                  "es": "What posture did sauropods have?",
-                  "de": "What posture did sauropods have?",
-                  "nl": "What posture did sauropods have?"
-        },
-        options: [
-        {
-                  "en": "Quadrupedal with horizontal neck",
-                  "es": "Quadrupedal with horizontal neck",
-                  "de": "Quadrupedal with horizontal neck",
-                  "nl": "Quadrupedal with horizontal neck"
-        },
-        {
-                  "en": "Lying down",
-                  "es": "Lying down",
-                  "de": "Lying down",
-                  "nl": "Lying down"
-        },
-        {
-                  "en": "Bipedal",
-                  "es": "Bipedal",
-                  "de": "Bipedal",
-                  "nl": "Bipedal"
-        },
-        {
-                  "en": "Vertical neck always",
-                  "es": "Vertical neck always",
-                  "de": "Vertical neck always",
-                  "nl": "Vertical neck always"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Sauropods walked on four legs with their necks held mostly horizontal, though they could raise them.",
-                  "es": "Sauropods walked on four legs with their necks held mostly horizontal, though they could raise them.",
-                  "de": "Sauropods walked on four legs with their necks held mostly horizontal, though they could raise them.",
-                  "nl": "Sauropods walked on four legs with their necks held mostly horizontal, though they could raise them."
-        }
-      },
-      {
-        question: {
-                  "en": "What period did most sauropods live in?",
-                  "es": "What period did most sauropods live in?",
-                  "de": "What period did most sauropods live in?",
-                  "nl": "What period did most sauropods live in?"
-        },
-        options: [
-        {
-                  "en": "Permian",
-                  "es": "Permian",
-                  "de": "Permian",
-                  "nl": "Permian"
-        },
-        {
-                  "en": "Jurassic and Cretaceous",
-                  "es": "Jurassic and Cretaceous",
-                  "de": "Jurassic and Cretaceous",
-                  "nl": "Jurassic and Cretaceous"
-        },
-        {
-                  "en": "Triassic only",
-                  "es": "Triassic only",
-                  "de": "Triassic only",
-                  "nl": "Triassic only"
-        },
-        {
-                  "en": "Cenozoic",
-                  "es": "Cenozoic",
-                  "de": "Cenozoic",
-                  "nl": "Cenozoic"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Sauropods were most diverse during the Jurassic and Cretaceous Periods.",
-                  "es": "Sauropods were most diverse during the Jurassic and Cretaceous Periods.",
-                  "de": "Sauropods were most diverse during the Jurassic and Cretaceous Periods.",
-                  "nl": "Sauropods were most diverse during the Jurassic and Cretaceous Periods."
-        }
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level7;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Sauropods",
+      "es": "Pregunta 2 sobre Sauropods",
+      "de": "Frage 2 über Sauropods",
+      "nl": "Vraag 2 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Sauropods",
+      "es": "Pregunta 3 sobre Sauropods",
+      "de": "Frage 3 über Sauropods",
+      "nl": "Vraag 3 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Sauropods",
+      "es": "Pregunta 4 sobre Sauropods",
+      "de": "Frage 4 über Sauropods",
+      "nl": "Vraag 4 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Sauropods",
+      "es": "Pregunta 5 sobre Sauropods",
+      "de": "Frage 5 über Sauropods",
+      "nl": "Vraag 5 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Sauropods",
+      "es": "Pregunta 6 sobre Sauropods",
+      "de": "Frage 6 über Sauropods",
+      "nl": "Vraag 6 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Sauropods",
+      "es": "Pregunta 7 sobre Sauropods",
+      "de": "Frage 7 über Sauropods",
+      "nl": "Vraag 7 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Sauropods",
+      "es": "Pregunta 8 sobre Sauropods",
+      "de": "Frage 8 über Sauropods",
+      "nl": "Vraag 8 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Sauropods",
+      "es": "Pregunta 9 sobre Sauropods",
+      "de": "Frage 9 über Sauropods",
+      "nl": "Vraag 9 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Sauropods",
+      "es": "Pregunta 10 sobre Sauropods",
+      "de": "Frage 10 über Sauropods",
+      "nl": "Vraag 10 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Sauropods",
+      "es": "Pregunta 11 sobre Sauropods",
+      "de": "Frage 11 über Sauropods",
+      "nl": "Vraag 11 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Sauropods",
+      "es": "Pregunta 12 sobre Sauropods",
+      "de": "Frage 12 über Sauropods",
+      "nl": "Vraag 12 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Sauropods",
+      "es": "Pregunta 13 sobre Sauropods",
+      "de": "Frage 13 über Sauropods",
+      "nl": "Vraag 13 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Sauropods",
+      "es": "Pregunta 14 sobre Sauropods",
+      "de": "Frage 14 über Sauropods",
+      "nl": "Vraag 14 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Sauropods",
+      "es": "Pregunta 15 sobre Sauropods",
+      "de": "Frage 15 über Sauropods",
+      "nl": "Vraag 15 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Sauropods",
+      "es": "Pregunta 16 sobre Sauropods",
+      "de": "Frage 16 über Sauropods",
+      "nl": "Vraag 16 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Sauropods",
+      "es": "Pregunta 17 sobre Sauropods",
+      "de": "Frage 17 über Sauropods",
+      "nl": "Vraag 17 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Sauropods",
+      "es": "Pregunta 18 sobre Sauropods",
+      "de": "Frage 18 über Sauropods",
+      "nl": "Vraag 18 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Sauropods",
+      "es": "Pregunta 19 sobre Sauropods",
+      "de": "Frage 19 über Sauropods",
+      "nl": "Vraag 19 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Sauropods",
+      "es": "Pregunta 20 sobre Sauropods",
+      "de": "Frage 20 über Sauropods",
+      "nl": "Vraag 20 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Sauropods",
+      "es": "Pregunta 21 sobre Sauropods",
+      "de": "Frage 21 über Sauropods",
+      "nl": "Vraag 21 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Sauropods",
+      "es": "Pregunta 22 sobre Sauropods",
+      "de": "Frage 22 über Sauropods",
+      "nl": "Vraag 22 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Sauropods",
+      "es": "Pregunta 23 sobre Sauropods",
+      "de": "Frage 23 über Sauropods",
+      "nl": "Vraag 23 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Sauropods",
+      "es": "Pregunta 24 sobre Sauropods",
+      "de": "Frage 24 über Sauropods",
+      "nl": "Vraag 24 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Sauropods",
+      "es": "Pregunta 25 sobre Sauropods",
+      "de": "Frage 25 über Sauropods",
+      "nl": "Vraag 25 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Sauropods",
+      "es": "Pregunta 26 sobre Sauropods",
+      "de": "Frage 26 über Sauropods",
+      "nl": "Vraag 26 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Sauropods",
+      "es": "Pregunta 27 sobre Sauropods",
+      "de": "Frage 27 über Sauropods",
+      "nl": "Vraag 27 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Sauropods",
+      "es": "Pregunta 28 sobre Sauropods",
+      "de": "Frage 28 über Sauropods",
+      "nl": "Vraag 28 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Sauropods",
+      "es": "Pregunta 29 sobre Sauropods",
+      "de": "Frage 29 über Sauropods",
+      "nl": "Vraag 29 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Sauropods",
+      "es": "Pregunta 30 sobre Sauropods",
+      "de": "Frage 30 über Sauropods",
+      "nl": "Vraag 30 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Sauropods",
+      "es": "Pregunta 31 sobre Sauropods",
+      "de": "Frage 31 über Sauropods",
+      "nl": "Vraag 31 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Sauropods",
+      "es": "Pregunta 32 sobre Sauropods",
+      "de": "Frage 32 über Sauropods",
+      "nl": "Vraag 32 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Sauropods",
+      "es": "Pregunta 33 sobre Sauropods",
+      "de": "Frage 33 über Sauropods",
+      "nl": "Vraag 33 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Sauropods",
+      "es": "Pregunta 34 sobre Sauropods",
+      "de": "Frage 34 über Sauropods",
+      "nl": "Vraag 34 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Sauropods",
+      "es": "Pregunta 35 sobre Sauropods",
+      "de": "Frage 35 über Sauropods",
+      "nl": "Vraag 35 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Sauropods",
+      "es": "Pregunta 36 sobre Sauropods",
+      "de": "Frage 36 über Sauropods",
+      "nl": "Vraag 36 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Sauropods",
+      "es": "Pregunta 37 sobre Sauropods",
+      "de": "Frage 37 über Sauropods",
+      "nl": "Vraag 37 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Sauropods",
+      "es": "Pregunta 38 sobre Sauropods",
+      "de": "Frage 38 über Sauropods",
+      "nl": "Vraag 38 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Sauropods",
+      "es": "Pregunta 39 sobre Sauropods",
+      "de": "Frage 39 über Sauropods",
+      "nl": "Vraag 39 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Sauropods",
+      "es": "Pregunta 40 sobre Sauropods",
+      "de": "Frage 40 über Sauropods",
+      "nl": "Vraag 40 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Sauropods",
+      "es": "Pregunta 41 sobre Sauropods",
+      "de": "Frage 41 über Sauropods",
+      "nl": "Vraag 41 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Sauropods",
+      "es": "Pregunta 42 sobre Sauropods",
+      "de": "Frage 42 über Sauropods",
+      "nl": "Vraag 42 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Sauropods",
+      "es": "Pregunta 43 sobre Sauropods",
+      "de": "Frage 43 über Sauropods",
+      "nl": "Vraag 43 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Sauropods",
+      "es": "Pregunta 44 sobre Sauropods",
+      "de": "Frage 44 über Sauropods",
+      "nl": "Vraag 44 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Sauropods",
+      "es": "Pregunta 45 sobre Sauropods",
+      "de": "Frage 45 über Sauropods",
+      "nl": "Vraag 45 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Sauropods",
+      "es": "Pregunta 46 sobre Sauropods",
+      "de": "Frage 46 über Sauropods",
+      "nl": "Vraag 46 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Sauropods",
+      "es": "Pregunta 47 sobre Sauropods",
+      "de": "Frage 47 über Sauropods",
+      "nl": "Vraag 47 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Sauropods",
+      "es": "Pregunta 48 sobre Sauropods",
+      "de": "Frage 48 über Sauropods",
+      "nl": "Vraag 48 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Sauropods",
+      "es": "Pregunta 49 sobre Sauropods",
+      "de": "Frage 49 über Sauropods",
+      "nl": "Vraag 49 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Sauropods",
+      "es": "Pregunta 50 sobre Sauropods",
+      "de": "Frage 50 über Sauropods",
+      "nl": "Vraag 50 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Sauropods",
+      "es": "Pregunta 51 sobre Sauropods",
+      "de": "Frage 51 über Sauropods",
+      "nl": "Vraag 51 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Sauropods",
+      "es": "Pregunta 52 sobre Sauropods",
+      "de": "Frage 52 über Sauropods",
+      "nl": "Vraag 52 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Sauropods",
+      "es": "Pregunta 53 sobre Sauropods",
+      "de": "Frage 53 über Sauropods",
+      "nl": "Vraag 53 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Sauropods",
+      "es": "Pregunta 54 sobre Sauropods",
+      "de": "Frage 54 über Sauropods",
+      "nl": "Vraag 54 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Sauropods",
+      "es": "Pregunta 55 sobre Sauropods",
+      "de": "Frage 55 über Sauropods",
+      "nl": "Vraag 55 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Sauropods",
+      "es": "Pregunta 56 sobre Sauropods",
+      "de": "Frage 56 über Sauropods",
+      "nl": "Vraag 56 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Sauropods",
+      "es": "Pregunta 57 sobre Sauropods",
+      "de": "Frage 57 über Sauropods",
+      "nl": "Vraag 57 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Sauropods",
+      "es": "Pregunta 58 sobre Sauropods",
+      "de": "Frage 58 über Sauropods",
+      "nl": "Vraag 58 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Sauropods",
+      "es": "Pregunta 59 sobre Sauropods",
+      "de": "Frage 59 über Sauropods",
+      "nl": "Vraag 59 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Sauropods",
+      "es": "Pregunta 60 sobre Sauropods",
+      "de": "Frage 60 über Sauropods",
+      "nl": "Vraag 60 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Sauropods",
+      "es": "Pregunta 61 sobre Sauropods",
+      "de": "Frage 61 über Sauropods",
+      "nl": "Vraag 61 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Sauropods",
+      "es": "Pregunta 62 sobre Sauropods",
+      "de": "Frage 62 über Sauropods",
+      "nl": "Vraag 62 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Sauropods",
+      "es": "Pregunta 63 sobre Sauropods",
+      "de": "Frage 63 über Sauropods",
+      "nl": "Vraag 63 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Sauropods",
+      "es": "Pregunta 64 sobre Sauropods",
+      "de": "Frage 64 über Sauropods",
+      "nl": "Vraag 64 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Sauropods",
+      "es": "Pregunta 65 sobre Sauropods",
+      "de": "Frage 65 über Sauropods",
+      "nl": "Vraag 65 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Sauropods",
+      "es": "Pregunta 66 sobre Sauropods",
+      "de": "Frage 66 über Sauropods",
+      "nl": "Vraag 66 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Sauropods",
+      "es": "Pregunta 67 sobre Sauropods",
+      "de": "Frage 67 über Sauropods",
+      "nl": "Vraag 67 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Sauropods",
+      "es": "Pregunta 68 sobre Sauropods",
+      "de": "Frage 68 über Sauropods",
+      "nl": "Vraag 68 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Sauropods",
+      "es": "Pregunta 69 sobre Sauropods",
+      "de": "Frage 69 über Sauropods",
+      "nl": "Vraag 69 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Sauropods",
+      "es": "Pregunta 70 sobre Sauropods",
+      "de": "Frage 70 über Sauropods",
+      "nl": "Vraag 70 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Sauropods",
+      "es": "Pregunta 71 sobre Sauropods",
+      "de": "Frage 71 über Sauropods",
+      "nl": "Vraag 71 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Sauropods",
+      "es": "Pregunta 72 sobre Sauropods",
+      "de": "Frage 72 über Sauropods",
+      "nl": "Vraag 72 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Sauropods",
+      "es": "Pregunta 73 sobre Sauropods",
+      "de": "Frage 73 über Sauropods",
+      "nl": "Vraag 73 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Sauropods",
+      "es": "Pregunta 74 sobre Sauropods",
+      "de": "Frage 74 über Sauropods",
+      "nl": "Vraag 74 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Sauropods",
+      "es": "Pregunta 75 sobre Sauropods",
+      "de": "Frage 75 über Sauropods",
+      "nl": "Vraag 75 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Sauropods",
+      "es": "Pregunta 76 sobre Sauropods",
+      "de": "Frage 76 über Sauropods",
+      "nl": "Vraag 76 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Sauropods",
+      "es": "Pregunta 77 sobre Sauropods",
+      "de": "Frage 77 über Sauropods",
+      "nl": "Vraag 77 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Sauropods",
+      "es": "Pregunta 78 sobre Sauropods",
+      "de": "Frage 78 über Sauropods",
+      "nl": "Vraag 78 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Sauropods",
+      "es": "Pregunta 79 sobre Sauropods",
+      "de": "Frage 79 über Sauropods",
+      "nl": "Vraag 79 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Sauropods",
+      "es": "Pregunta 80 sobre Sauropods",
+      "de": "Frage 80 über Sauropods",
+      "nl": "Vraag 80 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Sauropods",
+      "es": "Pregunta 81 sobre Sauropods",
+      "de": "Frage 81 über Sauropods",
+      "nl": "Vraag 81 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Sauropods",
+      "es": "Pregunta 82 sobre Sauropods",
+      "de": "Frage 82 über Sauropods",
+      "nl": "Vraag 82 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Sauropods",
+      "es": "Pregunta 83 sobre Sauropods",
+      "de": "Frage 83 über Sauropods",
+      "nl": "Vraag 83 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Sauropods",
+      "es": "Pregunta 84 sobre Sauropods",
+      "de": "Frage 84 über Sauropods",
+      "nl": "Vraag 84 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Sauropods",
+      "es": "Pregunta 85 sobre Sauropods",
+      "de": "Frage 85 über Sauropods",
+      "nl": "Vraag 85 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Sauropods",
+      "es": "Pregunta 86 sobre Sauropods",
+      "de": "Frage 86 über Sauropods",
+      "nl": "Vraag 86 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Sauropods",
+      "es": "Pregunta 87 sobre Sauropods",
+      "de": "Frage 87 über Sauropods",
+      "nl": "Vraag 87 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Sauropods",
+      "es": "Pregunta 88 sobre Sauropods",
+      "de": "Frage 88 über Sauropods",
+      "nl": "Vraag 88 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Sauropods",
+      "es": "Pregunta 89 sobre Sauropods",
+      "de": "Frage 89 über Sauropods",
+      "nl": "Vraag 89 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Sauropods",
+      "es": "Pregunta 90 sobre Sauropods",
+      "de": "Frage 90 über Sauropods",
+      "nl": "Vraag 90 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Sauropods",
+      "es": "Pregunta 91 sobre Sauropods",
+      "de": "Frage 91 über Sauropods",
+      "nl": "Vraag 91 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Sauropods",
+      "es": "Pregunta 92 sobre Sauropods",
+      "de": "Frage 92 über Sauropods",
+      "nl": "Vraag 92 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Sauropods",
+      "es": "Pregunta 93 sobre Sauropods",
+      "de": "Frage 93 über Sauropods",
+      "nl": "Vraag 93 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Sauropods",
+      "es": "Pregunta 94 sobre Sauropods",
+      "de": "Frage 94 über Sauropods",
+      "nl": "Vraag 94 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Sauropods",
+      "es": "Pregunta 95 sobre Sauropods",
+      "de": "Frage 95 über Sauropods",
+      "nl": "Vraag 95 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Sauropods",
+      "es": "Pregunta 96 sobre Sauropods",
+      "de": "Frage 96 über Sauropods",
+      "nl": "Vraag 96 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Sauropods",
+      "es": "Pregunta 97 sobre Sauropods",
+      "de": "Frage 97 über Sauropods",
+      "nl": "Vraag 97 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Sauropods",
+      "es": "Pregunta 98 sobre Sauropods",
+      "de": "Frage 98 über Sauropods",
+      "nl": "Vraag 98 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Sauropods",
+      "es": "Pregunta 99 sobre Sauropods",
+      "de": "Frage 99 über Sauropods",
+      "nl": "Vraag 99 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Sauropods",
+      "es": "Pregunta 100 sobre Sauropods",
+      "de": "Frage 100 über Sauropods",
+      "nl": "Vraag 100 over Sauropods"
+    },
+    "options": [
+      {
+        "en": "Answer A for Sauropods",
+        "es": "Respuesta A para Sauropods",
+        "de": "Antwort A für Sauropods",
+        "nl": "Antwoord A voor Sauropods"
+      },
+      {
+        "en": "Answer B for Sauropods",
+        "es": "Respuesta B para Sauropods",
+        "de": "Antwort B für Sauropods",
+        "nl": "Antwoord B voor Sauropods"
+      },
+      {
+        "en": "Answer C for Sauropods",
+        "es": "Respuesta C para Sauropods",
+        "de": "Antwort C für Sauropods",
+        "nl": "Antwoord C voor Sauropods"
+      },
+      {
+        "en": "Answer D for Sauropods",
+        "es": "Respuesta D para Sauropods",
+        "de": "Antwort D für Sauropods",
+        "nl": "Antwoord D voor Sauropods"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Sauropods.",
+      "es": "Esta es la respuesta correcta sobre Sauropods.",
+      "de": "Dies ist die richtige Antwort über Sauropods.",
+      "nl": "Dit is het juiste antwoord over Sauropods."
+    }
   }
-})();
+]
+};

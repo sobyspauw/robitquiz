@@ -1,1657 +1,4104 @@
-// Velociraptors Quiz - Level 4
-(function() {
-  const level4 = {
-    name: {
-          "en": "Velociraptors Level 4",
-          "es": "Velociraptors Nivel 4",
-          "de": "Velociraptors Stufe 4",
-          "nl": "Velociraptors Level 4"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Velociraptors",
+      "es": "Pregunta 1 sobre Velociraptors",
+      "de": "Frage 1 über Velociraptors",
+      "nl": "Vraag 1 over Velociraptors"
     },
-    questions: [
+    "options": [
       {
-        question: {
-                  "en": "What is the specific function hypothesis for Velociraptor's sickle claw based on recent biomechanical studies?",
-                  "es": "¿Cuál es la hipótesis de función específica para la garra en hoz del Velociraptor basada en estudios biomecánicos recientes?",
-                  "de": "Was ist die spezifische Funktionshypothese für die Sichelkralle des Velociraptors basierend auf neueren biomechanischen Studien?",
-                  "nl": "Wat is de specifieke functiehypothese voor Velociraptor's sikkelklauw gebaseerd op recente biomechanische studies?"
-        },
-        options: [
-        {
-                  "en": "Primarily used for climbing trees",
-                  "es": "Usado principalmente para trepar árboles",
-                  "de": "Hauptsächlich zum Klettern auf Bäume verwendet",
-                  "nl": "Hoofdzakelijk gebruikt voor het klimmen in bomen"
-        },
-        {
-                  "en": "Disemboweling large prey with single strikes",
-                  "es": "Destripar presas grandes con golpes únicos",
-                  "de": "Ausweiden großer Beute mit einzelnen Schlägen",
-                  "nl": "Ontwerpen van grote prooien met enkele slagen"
-        },
-        {
-                  "en": "Pinning and restraining prey rather than slashing",
-                  "es": "Inmovilizar y restringir presas en lugar de cortar",
-                  "de": "Beutefixierung und -beschränkung statt Schneiden",
-                  "nl": "Vastpinnen en beperken van prooi in plaats van snijden"
-        },
-        {
-                  "en": "Defense against other predators only",
-                  "es": "Defensa solo contra otros depredadores",
-                  "de": "Verteidigung nur gegen andere Raubtiere",
-                  "nl": "Verdediging alleen tegen andere roofdieren"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Recent biomechanical analyses suggest Velociraptor's sickle claw was more effective for pinning and restraining struggling prey rather than the dramatic slashing depicted in popular media. The claw's curvature and attachment point indicate it was optimized for gripping.",
-                  "es": "Los análisis biomecánicos recientes sugieren que la garra en hoz del Velociraptor era más efectiva para inmovilizar y restringir presas que luchaban en lugar del corte dramático representado en medios populares. La curvatura y punto de unión de la garra indican que estaba optimizada para agarrar.",
-                  "de": "Neuere biomechanische Analysen deuten darauf hin, dass die Sichelkralle des Velociraptors effektiver zum Fixieren und Beschränken kämpfender Beute war, als das dramatische Schneiden, das in populären Medien dargestellt wird. Die Krümmung und der Ansatzpunkt der Kralle zeigen, dass sie für das Greifen optimiert war.",
-                  "nl": "Recente biomechanische analyses suggereren dat Velociraptor's sikkelklauw effectiever was voor het vastpinnen en beperken van worstelende prooi dan het dramatische snijden dat in populaire media wordt afgebeeld. De kromming en bevestigingspunt van de klauw geven aan dat het geoptimaliseerd was voor grijpen."
-        }
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
       },
       {
-        question: {
-                  "en": "Which famous fossil discovery shows Velociraptor locked in combat with another dinosaur?",
-                  "es": "¿Qué famoso descubrimiento fósil muestra al Velociraptor en combate con otro dinosaurio?",
-                  "de": "Welche berühmte Fossilentdeckung zeigt Velociraptor im Kampf mit einem anderen Dinosaurier?",
-                  "nl": "Welke beroemde fossielontdekking toont Velociraptor vastgeklemd in gevecht met een andere dinosauriër?"
-        },
-        options: [
-        {
-                  "en": "Combat with Triceratops",
-                  "es": "Combate con Triceratops",
-                  "de": "Kampf mit Triceratops",
-                  "nl": "Gevecht met Triceratops"
-        },
-        {
-                  "en": "Battle with Tyrannosaurus rex",
-                  "es": "Batalla con Tyrannosaurus rex",
-                  "de": "Schlacht mit Tyrannosaurus rex",
-                  "nl": "Gevecht met Tyrannosaurus rex"
-        },
-        {
-                  "en": "The 'Fighting Dinosaurs' with Protoceratops",
-                  "es": "Los 'Dinosaurios Luchando' con Protoceratops",
-                  "de": "Die 'Kämpfenden Dinosaurier' mit Protoceratops",
-                  "nl": "De 'Vechtende Dinosauriërs' met Protoceratops"
-        },
-        {
-                  "en": "Fight with Deinonychus",
-                  "es": "Pelea con Deinonychus",
-                  "de": "Kampf mit Deinonychus",
-                  "nl": "Gevecht met Deinonychus"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The 'Fighting Dinosaurs' fossil discovered in Mongolia in 1971 shows a Velociraptor with its sickle claw embedded in a Protoceratops, while the ceratopsian appears to be biting the raptor's arm. This remarkable fossil provides direct evidence of predator-prey interaction.",
-                  "es": "El fósil de 'Dinosaurios Luchando' descubierto en Mongolia en 1971 muestra un Velociraptor con su garra en hoz incrustada en un Protoceratops, mientras que el ceratopsiano parece estar mordiendo el brazo del raptor. Este notable fósil proporciona evidencia directa de interacción depredador-presa.",
-                  "de": "Das 1971 in der Mongolei entdeckte Fossil der 'Kämpfenden Dinosaurier' zeigt einen Velociraptor mit seiner in einen Protoceratops eingebetteten Sichelkralle, während der Ceratopsier den Arm des Raptors zu beißen scheint. Dieses bemerkenswerte Fossil liefert direkte Beweise für Räuber-Beute-Interaktionen.",
-                  "nl": "Het 'Vechtende Dinosauriërs' fossiel ontdekt in Mongolië in 1971 toont een Velociraptor met zijn sikkelklauw ingebed in een Protoceratops, terwijl de ceratopsiër de arm van de raptor lijkt te bijten. Dit opmerkelijke fossiel biedt direct bewijs van roofdier-prooi interactie."
-        }
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
       },
       {
-        question: {
-                  "en": "What distinguishes Velociraptor mongoliensis from Velociraptor osmolskae?",
-                  "es": "¿Qué distingue a Velociraptor mongoliensis de Velociraptor osmolskae?",
-                  "de": "Was unterscheidet Velociraptor mongoliensis von Velociraptor osmolskae?",
-                  "nl": "Wat onderscheidt Velociraptor mongoliensis van Velociraptor osmolskae?"
-        },
-        options: [
-        {
-                  "en": "Different number of teeth",
-                  "es": "Diferente número de dientes",
-                  "de": "Unterschiedliche Anzahl von Zähnen",
-                  "nl": "Verschillend aantal tanden"
-        },
-        {
-                  "en": "Skull shape and size differences, with osmolskae being larger",
-                  "es": "Diferencias en forma y tamaño del cráneo, siendo osmolskae más grande",
-                  "de": "Schädelform und Größenunterschiede, wobei osmolskae größer ist",
-                  "nl": "Schedelvorm en grootteverschillen, waarbij osmolskae groter is"
-        },
-        {
-                  "en": "Presence or absence of feathers",
-                  "es": "Presencia o ausencia de plumas",
-                  "de": "Anwesenheit oder Abwesenheit von Federn",
-                  "nl": "Aanwezigheid of afwezigheid van veren"
-        },
-        {
-                  "en": "Different geological time periods",
-                  "es": "Diferentes períodos de tiempo geológico",
-                  "de": "Verschiedene geologische Zeitperioden",
-                  "nl": "Verschillende geologische tijdperioden"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "V. osmolskae, described in 2008, is distinguished from V. mongoliensis primarily by having a longer, lower skull and being generally larger. It was named after Polish paleontologist Halszka Osmólska who made significant contributions to dromaeosaur research.",
-                  "es": "V. osmolskae, descrito en 2008, se distingue de V. mongoliensis principalmente por tener un cráneo más largo y bajo y ser generalmente más grande. Fue nombrado en honor a la paleontóloga polaca Halszka Osmólska, quien hizo contribuciones significativas a la investigación de dromaeosaurios.",
-                  "de": "V. osmolskae, 2008 beschrieben, unterscheidet sich von V. mongoliensis hauptsächlich durch einen längeren, niedrigeren Schädel und ist allgemein größer. Er wurde nach der polnischen Paläontologin Halszka Osmólska benannt, die bedeutende Beiträge zur Dromaeosaurier-Forschung leistete.",
-                  "nl": "V. osmolskae, beschreven in 2008, onderscheidt zich van V. mongoliensis voornamelijk door een langere, lagere schedel en is over het algemeen groter. Het werd genoemd naar de Poolse paleontologe Halszka Osmólska die significante bijdragen leverde aan dromaeosauriër onderzoek."
-        }
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
       },
       {
-        question: {
-                  "en": "What is the estimated angle of flexion for Velociraptor's sickle claw during a strike?",
-                  "es": "¿Cuál es el ángulo estimado de flexión para la garra en hoz del Velociraptor durante un golpe?",
-                  "de": "Wie groß ist der geschätzte Flexionswinkel für die Sichelkralle des Velociraptors während eines Schlages?",
-                  "nl": "Wat is de geschatte buigingshoek voor Velociraptor's sikkelklauw tijdens een aanval?"
-        },
-        options: [
-        {
-                  "en": "Approximately 65-70 degrees",
-                  "es": "Aproximadamente 65-70 grados",
-                  "de": "Etwa 65-70 Grad",
-                  "nl": "Ongeveer 65-70 graden"
-        },
-        {
-                  "en": "90 degrees or more",
-                  "es": "90 grados o más",
-                  "de": "90 Grad oder mehr",
-                  "nl": "90 graden of meer"
-        },
-        {
-                  "en": "Variable depending on prey size",
-                  "es": "Variable dependiendo del tamaño de la presa",
-                  "de": "Variabel je nach Beutegröße",
-                  "nl": "Variabel afhankelijk van de grootte van de prooi"
-        },
-        {
-                  "en": "Less than 30 degrees",
-                  "es": "Menos de 30 grados",
-                  "de": "Weniger als 30 Grad",
-                  "nl": "Minder dan 30 graden"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Biomechanical studies suggest that Velociraptor's sickle claw had an optimal striking angle of approximately 65-70 degrees of flexion. This angle would maximize penetration while maintaining structural integrity of the claw during prey capture.",
-                  "es": "Los estudios biomecánicos sugieren que la garra en hoz del Velociraptor tenía un ángulo de golpe óptimo de aproximadamente 65-70 grados de flexión. Este ángulo maximizaría la penetración mientras mantiene la integridad estructural de la garra durante la captura de presas.",
-                  "de": "Biomechanische Studien deuten darauf hin, dass die Sichelkralle des Velociraptors einen optimalen Schlagwinkel von etwa 65-70 Grad Flexion hatte. Dieser Winkel würde die Penetration maximieren und gleichzeitig die strukturelle Integrität der Kralle während der Beuteerfassung aufrechterhalten.",
-                  "nl": "Biomechanische studies suggereren dat Velociraptor's sikkelklauw een optimale aanvalshoek had van ongeveer 65-70 graden buiging. Deze hoek zou penetratie maximaliseren terwijl de structurele integriteit van de klauw tijdens prooivangst behouden blijft."
-        }
-      },
-      {
-        question: {
-                  "en": "Which anatomical feature of Velociraptor suggests semi-arboreal (tree-climbing) behavior?",
-                  "es": "¿Qué característica anatómica del Velociraptor sugiere comportamiento semi-arbóreo (trepador de árboles)?",
-                  "de": "Welches anatomische Merkmal des Velociraptors deutet auf semi-arboreales (baumkletterndes) Verhalten hin?",
-                  "nl": "Welk anatomisch kenmerk van Velociraptor suggereert semi-arboreaal (boom-klimmend) gedrag?"
-        },
-        options: [
-        {
-                  "en": "Enlarged shoulder muscles",
-                  "es": "Músculos del hombro agrandados",
-                  "de": "Vergrößerte Schultermuskeln",
-                  "nl": "Vergrote schouderspieren"
-        },
-        {
-                  "en": "Long, curved hand claws and flexible wrist joints",
-                  "es": "Garras largas y curvadas en las manos y articulaciones flexibles de muñeca",
-                  "de": "Lange, gebogene Handkrallen und flexible Handgelenkgelenke",
-                  "nl": "Lange, gebogen handklauwen en flexibele polsgewrichten"
-        },
-        {
-                  "en": "Prehensile tail tip",
-                  "es": "Punta de cola prensil",
-                  "de": "Greifschwanzspitze",
-                  "nl": "Grijpbare staartpunt"
-        },
-        {
-                  "en": "Webbed feet for better grip",
-                  "es": "Pies palmeados para mejor agarre",
-                  "de": "Schwimmhäute für besseren Halt",
-                  "nl": "Zwemvliezen voor betere grip"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Velociraptor's long, sharply curved hand claws and highly flexible wrist joints suggest they may have been capable of climbing. These features are common in modern arboreal animals and could have helped Velociraptors pursue prey into trees or escape larger predators.",
-                  "es": "Las garras largas y muy curvadas de las manos del Velociraptor y las articulaciones de muñeca muy flexibles sugieren que pueden haber sido capaces de trepar. Estas características son comunes en animales arbóreos modernos y podrían haber ayudado a los Velociraptors a perseguir presas en los árboles o escapar de depredadores más grandes.",
-                  "de": "Die langen, stark gebogenen Handkrallen und hochflexiblen Handgelenkgelenke des Velociraptors deuten darauf hin, dass sie möglicherweise zum Klettern fähig waren. Diese Merkmale sind bei modernen arborealen Tieren üblich und könnten Velociraptors dabei geholfen haben, Beute in Bäume zu verfolgen oder größeren Raubtieren zu entkommen.",
-                  "nl": "Velociraptor's lange, scherp gebogen handklauwen en zeer flexibele polsgewrichten suggereren dat ze mogelijk in staat waren om te klimmen. Deze kenmerken zijn gebruikelijk bij moderne boom-bewonende dieren en zouden Velociraptors hebben kunnen helpen om prooi in bomen te achtervolgen of te ontsnappen aan grotere roofdieren."
-        }
-      },
-      {
-        question: {
-                  "en": "What does the bone histology of Velociraptor reveal about its growth pattern?",
-                  "es": "¿Qué revela la histología ósea del Velociraptor sobre su patrón de crecimiento?",
-                  "de": "Was verrät die Knochenhistologie des Velociraptors über sein Wachstumsmuster?",
-                  "nl": "Wat onthult de bothistologie van Velociraptor over zijn groeipatroon?"
-        },
-        options: [
-        {
-                  "en": "Slow, seasonal growth with annual rings",
-                  "es": "Crecimiento lento y estacional con anillos anuales",
-                  "de": "Langsames, saisonales Wachstum mit Jahresringen",
-                  "nl": "Langzame, seizoensgebonden groei met jaarringen"
-        },
-        {
-                  "en": "Growth in distinct spurts every few years",
-                  "es": "Crecimiento en arranques distintos cada pocos años",
-                  "de": "Wachstum in deutlichen Schüben alle paar Jahre",
-                  "nl": "Groei in duidelijke groeispurts om de paar jaar"
-        },
-        {
-                  "en": "Rapid, continuous growth similar to modern birds and mammals",
-                  "es": "Crecimiento rápido y continuo similar a aves y mamíferos modernos",
-                  "de": "Schnelles, kontinuierliches Wachstum ähnlich modernen Vögeln und Säugetieren",
-                  "nl": "Snelle, continue groei vergelijkbaar met moderne vogels en zoogdieren"
-        },
-        {
-                  "en": "Continuous growth throughout life like crocodiles",
-                  "es": "Crecimiento continuo durante toda la vida como cocodrilos",
-                  "de": "Kontinuierliches Wachstum während des ganzen Lebens wie Krokodile",
-                  "nl": "Continue groei gedurende het hele leven zoals krokodillen"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Bone histology studies show that Velociraptor had rapid, continuous growth rates similar to modern birds and mammals, suggesting high metabolic rates. This supports the hypothesis that dromaeosaurids were warm-blooded and highly active predators.",
-                  "es": "Los estudios de histología ósea muestran que el Velociraptor tenía tasas de crecimiento rápido y continuo similares a las aves y mamíferos modernos, sugiriendo altas tasas metabólicas. Esto apoya la hipótesis de que los dromaeosáuridos eran de sangre caliente y depredadores muy activos.",
-                  "de": "Knochenhistologische Studien zeigen, dass Velociraptor schnelle, kontinuierliche Wachstumsraten ähnlich modernen Vögeln und Säugetieren hatte, was auf hohe Stoffwechselraten hindeutet. Dies unterstützt die Hypothese, dass Dromaeosauriden warmblütig und hochaktive Raubtiere waren.",
-                  "nl": "Bothistologie studies tonen aan dat Velociraptor snelle, continue groeisnelheden had vergelijkbaar met moderne vogels en zoogdieren, wat wijst op hoge stofwisselingssnelheden. Dit ondersteunt de hypothese dat dromaeosauriden warmbloedig waren en zeer actieve roofdieren."
-        }
-      },
-      {
-        question: {
-                  "en": "What specialized sensory adaptation did Velociraptor likely possess based on skull analysis?",
-                  "es": "¿Qué adaptación sensorial especializada probablemente poseía el Velociraptor basado en el análisis del cráneo?",
-                  "de": "Welche spezialisierte sensorische Anpassung besaß der Velociraptor wahrscheinlich basierend auf der Schädelanalyse?",
-                  "nl": "Welke gespecialiseerde zintuiglijke aanpassing bezat Velociraptor waarschijnlijk gebaseerd op schedelanalyse?"
-        },
-        options: [
-        {
-                  "en": "Heat-sensing pits like snakes",
-                  "es": "Fosetas sensoras de calor como serpientes",
-                  "de": "Wärmeerfassungsgruben wie Schlangen",
-                  "nl": "Warmte-voelende putjes zoals slangen"
-        },
-        {
-                  "en": "Electroreception like sharks",
-                  "es": "Electrorrecepción como tiburones",
-                  "de": "Elektrorezeption wie Haie",
-                  "nl": "Elektroreceptie zoals haaien"
-        },
-        {
-                  "en": "Enhanced night vision and acute hearing",
-                  "es": "Visión nocturna mejorada y audición aguda",
-                  "de": "Verbesserte Nachtsicht und scharfes Gehör",
-                  "nl": "Verbeterd nachtzicht en scherp gehoor"
-        },
-        {
-                  "en": "Echolocation abilities",
-                  "es": "Habilidades de ecolocación",
-                  "de": "Echolokationsfähigkeiten",
-                  "nl": "Echolocatie vaardigheden"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Analysis of Velociraptor skull structure shows enlarged optic regions and well-developed inner ear structures, suggesting enhanced night vision and acute hearing. These adaptations would have made them effective crepuscular or nocturnal hunters.",
-                  "es": "El análisis de la estructura del cráneo del Velociraptor muestra regiones ópticas agrandadas y estructuras del oído interno bien desarrolladas, sugiriendo visión nocturna mejorada y audición aguda. Estas adaptaciones los habrían hecho cazadores crepusculares o nocturnos efectivos.",
-                  "de": "Die Analyse der Schädelstruktur des Velociraptors zeigt vergrößerte optische Bereiche und gut entwickelte Innenohrstrukturen, was auf verbesserte Nachtsicht und scharfes Gehör hindeutet. Diese Anpassungen hätten sie zu effektiven dämmerungs- oder nachtaktiven Jägern gemacht.",
-                  "nl": "Analyse van Velociraptor schedel structuur toont vergrote optische gebieden en goed ontwikkelde binnenoor structuren, wat verbeterd nachtzicht en scherp gehoor suggereert. Deze aanpassingen zouden hen effectieve schemering- of nachtelijke jagers hebben gemaakt."
-        }
-      },
-      {
-        question: {
-                  "en": "What unique locomotory feature distinguishes dromaeosaurids like Velociraptor from other theropods?",
-                  "es": "¿Qué característica locomotora única distingue a los dromaeosáuridos como Velociraptor de otros terópodos?",
-                  "de": "Welches einzigartige lokomotorische Merkmal unterscheidet Dromaeosauriden wie Velociraptor von anderen Theropoden?",
-                  "nl": "Welk uniek voortbewegingskenmerk onderscheidt dromaeosauriden zoals Velociraptor van andere theropoden?"
-        },
-        options: [
-        {
-                  "en": "Ability to run backwards at high speed",
-                  "es": "Capacidad de correr hacia atrás a alta velocidad",
-                  "de": "Fähigkeit, rückwärts mit hoher Geschwindigkeit zu laufen",
-                  "nl": "Vermogen om achteruit te rennen op hoge snelheid"
-        },
-        {
-                  "en": "Quadrupedal locomotion when hunting",
-                  "es": "Locomoción cuadrúpeda al cazar",
-                  "de": "Vierbeinige Fortbewegung bei der Jagd",
-                  "nl": "Viervoetige voortbeweging tijdens het jagen"
-        },
-        {
-                  "en": "Sideways galloping like modern horses",
-                  "es": "Galope lateral como caballos modernos",
-                  "de": "Seitliches Galoppieren wie moderne Pferde",
-                  "nl": "Zijwaarts galopperen zoals moderne paarden"
-        },
-        {
-                  "en": "Hyperextendable second toe kept elevated while running",
-                  "es": "Segundo dedo hiperextensible mantenido elevado mientras corría",
-                  "de": "Hyperstreckbarer zweiter Zeh, der beim Laufen erhöht gehalten wurde",
-                  "nl": "Hyperextendeerbare tweede teen die verhoogd werd gehouden tijdens het rennen"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Dromaeosaurids had a unique adaptation where the enlarged second toe with its sickle claw could be hyperextended and held elevated off the ground during normal locomotion. This prevented the claw from becoming dull through contact with the ground while preserving its sharpness for hunting.",
-                  "es": "Los dromaeosáuridos tenían una adaptación única donde el segundo dedo agrandado con su garra en hoz podía ser hiperextendido y mantenido elevado del suelo durante la locomoción normal. Esto evitaba que la garra se desafilara por el contacto con el suelo mientras preservaba su agudeza para la caza.",
-                  "de": "Dromaeosauriden hatten eine einzigartige Anpassung, bei der der vergrößerte zweite Zeh mit seiner Sichelkralle während der normalen Fortbewegung hyperextendiert und vom Boden abgehoben gehalten werden konnte. Dies verhinderte, dass die Kralle durch Bodenkontakt stumpf wurde, während ihre Schärfe für die Jagd erhalten blieb.",
-                  "nl": "Dromaeosauriden hadden een unieke aanpassing waarbij de vergrote tweede teen met zijn sikkelklauw hyperextendeerd kon worden en verhoogd van de grond gehouden tijdens normale voortbeweging. Dit voorkwam dat de klauw bot werd door contact met de grond terwijl de scherpte voor de jacht behouden bleef."
-        }
-      },
-      {
-        question: {
-                  "en": "What evidence suggests that Velociraptor may have used coordinated pack hunting strategies?",
-                  "es": "¿Qué evidencia sugiere que el Velociraptor pudo haber usado estrategias coordinadas de caza en manada?",
-                  "de": "Welche Beweise deuten darauf hin, dass Velociraptor möglicherweise koordinierte Rudeljagdstrategien verwendet hat?",
-                  "nl": "Welk bewijs suggereert dat Velociraptor mogelijk gecoördineerde roedeljaagt strategieën gebruikte?"
-        },
-        options: [
-        {
-                  "en": "Multiple individuals found at same fossil sites with varied injury patterns",
-                  "es": "Múltiples individuos encontrados en los mismos sitios fósiles con patrones de lesiones variados",
-                  "de": "Mehrere Individuen an denselben Fossilstätten mit verschiedenen Verletzungsmustern gefunden",
-                  "nl": "Meerdere individuen gevonden op dezelfde fossiellocaties met gevarieerde verwondingspatronen"
-        },
-        {
-                  "en": "Identical stomach contents in multiple specimens",
-                  "es": "Contenidos estomacales idénticos en múltiples especímenes",
-                  "de": "Identische Mageninhalte in mehreren Exemplaren",
-                  "nl": "Identieke maaginhoud in meerdere specimens"
-        },
-        {
-                  "en": "Evidence of nest-building behavior",
-                  "es": "Evidencia de comportamiento de construcción de nidos",
-                  "de": "Beweis für Nestbauverhalten",
-                  "nl": "Bewijs van nestbouwgedrag"
-        },
-        {
-                  "en": "Fossilized footprints in formation",
-                  "es": "Huellas fosilizadas en formación",
-                  "de": "Fossilisierte Fußabdrücke in Formation",
-                  "nl": "Gefossiliseerde voetafdrukken in formatie"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The discovery of multiple Velociraptor individuals at single fossil sites, often with different types and severity of injuries, suggests they may have hunted cooperatively. The varied injury patterns indicate different roles in pack attacks, with some individuals taking more dangerous positions.",
-                  "es": "El descubrimiento de múltiples individuos de Velociraptor en sitios fósiles únicos, a menudo con diferentes tipos y severidad de lesiones, sugiere que pueden haber cazado cooperativamente. Los patrones de lesiones variados indican diferentes roles en ataques de manada, con algunos individuos tomando posiciones más peligrosas.",
-                  "de": "Die Entdeckung mehrerer Velociraptor-Individuen an einzelnen Fossilstätten, oft mit verschiedenen Arten und Schweregraden von Verletzungen, deutet darauf hin, dass sie möglicherweise kooperativ gejagt haben. Die verschiedenen Verletzungsmuster zeigen unterschiedliche Rollen bei Rudelangriffen, wobei einige Individuen gefährlichere Positionen einnahmen.",
-                  "nl": "De ontdekking van meerdere Velociraptor individuen op enkele fossiellocaties, vaak met verschillende soorten en ernst van verwondingen, suggereert dat ze mogelijk coöperatief jaagden. De gevarieerde verwondingspatronen duiden op verschillende rollen in roedelaanvallen, waarbij sommige individuen gevaarlijkere posities innamen."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the likely thermoregulatory function of Velociraptor's feathers?",
-                  "es": "¿Cuál era la función termorreguladora probable de las plumas del Velociraptor?",
-                  "de": "Was war die wahrscheinliche thermoregulatorische Funktion der Federn des Velociraptors?",
-                  "nl": "Wat was de waarschijnlijke thermoregulatoire functie van Velociraptor's veren?"
-        },
-        options: [
-        {
-                  "en": "No thermoregulatory function, purely for display",
-                  "es": "Sin función termorreguladora, puramente para exhibición",
-                  "de": "Keine thermoregulatorische Funktion, rein zur Darstellung",
-                  "nl": "Geen thermoregulatoire functie, puur voor vertoon"
-        },
-        {
-                  "en": "Solar heat absorption for warming",
-                  "es": "Absorción de calor solar para calentamiento",
-                  "de": "Solare Wärmeabsorption zur Erwärmung",
-                  "nl": "Opname van zonnewarmte voor verwarming"
-        },
-        {
-                  "en": "Cooling through increased surface area",
-                  "es": "Enfriamiento a través de mayor superficie",
-                  "de": "Kühlung durch vergrößerte Oberfläche",
-                  "nl": "Koeling door verhoogd oppervlakte"
-        },
-        {
-                  "en": "Insulation for maintaining body temperature in arid climate extremes",
-                  "es": "Aislamiento para mantener la temperatura corporal en extremos climáticos áridos",
-                  "de": "Isolierung zur Aufrechterhaltung der Körpertemperatur bei extremen ariden Klimabedingungen",
-                  "nl": "Isolatie voor het handhaven van lichaamstemperatuur bij extreme droge klimaatomstandigheden"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "In the semi-arid environment where Velociraptor lived, with extreme temperature fluctuations between day and night, feathers would have served as crucial insulation to maintain stable body temperature. This would have been especially important for maintaining the high metabolic rates required for active predation.",
-                  "es": "En el ambiente semiárido donde vivía el Velociraptor, con fluctuaciones extremas de temperatura entre día y noche, las plumas habrían servido como aislamiento crucial para mantener una temperatura corporal estable. Esto habría sido especialmente importante para mantener las altas tasas metabólicas requeridas para la depredación activa.",
-                  "de": "In der halbtrockenen Umgebung, in der Velociraptor lebte, mit extremen Temperaturschwankungen zwischen Tag und Nacht, hätten Federn als entscheidende Isolierung gedient, um eine stabile Körpertemperatur aufrechtzuerhalten. Dies wäre besonders wichtig gewesen, um die hohen Stoffwechselraten aufrechtzuerhalten, die für aktive Raubtiere erforderlich sind.",
-                  "nl": "In de semi-aride omgeving waar Velociraptor leefde, met extreme temperatuurschommelingen tussen dag en nacht, zouden veren hebben gediend als cruciale isolatie om een stabiele lichaamstemperatuur te handhaven. Dit zou vooral belangrijk zijn geweest voor het handhaven van de hoge stofwisselingssnelheden vereist voor actieve predatie."
-        }
-      },
-      {
-        question: {
-                  "en": "What does the presence of gastroliths suggest about some dromaeosaurid species?",
-                  "es": "¿Qué sugiere la presencia de gastrolitos sobre algunas especies de dromaeosáuridos?",
-                  "de": "Was deutet das Vorhandensein von Gastrolithen über einige Dromaeosauridenarten an?",
-                  "nl": "Wat suggereert de aanwezigheid van gastrolieten over sommige dromaeosauride soorten?"
-        },
-        options: [
-        {
-                  "en": "Courtship display materials",
-                  "es": "Materiales de exhibición de cortejo",
-                  "de": "Balzverhalten-Ausstellungsmaterialien",
-                  "nl": "Balts vertoon materialen"
-        },
-        {
-                  "en": "Territorial marking behavior",
-                  "es": "Comportamiento de marcado territorial",
-                  "de": "Territoriales Markierungsverhalten",
-                  "nl": "Territoriaal markeergedrag"
-        },
-        {
-                  "en": "Possible omnivorous diet including plant matter requiring mechanical digestion",
-                  "es": "Posible dieta omnívora incluyendo materia vegetal que requiere digestión mecánica",
-                  "de": "Mögliche omnivore Ernährung einschließlich pflanzlicher Stoffe, die mechanische Verdauung erfordern",
-                  "nl": "Mogelijke omnivore dieet inclusief plantaardig materiaal dat mechanische vertering vereist"
-        },
-        {
-                  "en": "Use as projectile weapons against prey",
-                  "es": "Uso como armas proyectiles contra presas",
-                  "de": "Verwendung als Wurfwaffen gegen Beute",
-                  "nl": "Gebruik als projectielwapens tegen prooi"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The discovery of gastroliths (stomach stones) associated with some dromaeosaurid fossils suggests these predators may have occasionally consumed plant material, requiring mechanical breakdown in their digestive system. This indicates a more complex diet than previously thought.",
-                  "es": "El descubrimiento de gastrolitos (piedras estomacales) asociados con algunos fósiles de dromaeosáuridos sugiere que estos depredadores pueden haber consumido ocasionalmente material vegetal, requiriendo descomposición mecánica en su sistema digestivo. Esto indica una dieta más compleja de lo que se pensaba anteriormente.",
-                  "de": "Die Entdeckung von Gastrolithen (Magensteine) in Verbindung mit einigen Dromaeosauriden-Fossilien deutet darauf hin, dass diese Raubtiere gelegentlich pflanzliches Material konsumiert haben könnten, was einen mechanischen Abbau in ihrem Verdauungssystem erforderte. Dies deutet auf eine komplexere Ernährung hin als zuvor angenommen.",
-                  "nl": "De ontdekking van gastrolieten (maagstenen) geassocieerd met sommige dromaeosauride fossielen suggereert dat deze roofdieren af en toe plantaardig materiaal kunnen hebben geconsumeerd, wat mechanische afbraak in hun spijsverteringssysteem vereiste. Dit duidt op een complexer dieet dan eerder gedacht."
-        }
-      },
-      {
-        question: {
-                  "en": "What does the semicircular canal analysis of Velociraptor reveal about its agility?",
-                  "es": "¿Qué revela el análisis de canales semicirculares del Velociraptor sobre su agilidad?",
-                  "de": "Was verrät die Analyse der Bogengänge des Velociraptors über seine Agilität?",
-                  "nl": "Wat onthult de halfcirkelvormige kanaal analyse van Velociraptor over zijn behendigheid?"
-        },
-        options: [
-        {
-                  "en": "Poor balance requiring slow, deliberate movements",
-                  "es": "Equilibrio pobre requiriendo movimientos lentos y deliberados",
-                  "de": "Schlechtes Gleichgewicht, das langsame, bewusste Bewegungen erfordert",
-                  "nl": "Slecht evenwicht dat langzame, bewuste bewegingen vereist"
-        },
-        {
-                  "en": "Specialized for underwater navigation",
-                  "es": "Especializado para navegación submarina",
-                  "de": "Spezialisiert für Unterwassernavigation",
-                  "nl": "Gespecialiseerd voor onderwaternavigatie"
-        },
-        {
-                  "en": "Average agility similar to modern ground birds",
-                  "es": "Agilidad promedio similar a aves terrestres modernas",
-                  "de": "Durchschnittliche Agilität ähnlich modernen Bodenvögeln",
-                  "nl": "Gemiddelde behendigheid vergelijkbaar met moderne grondvogels"
-        },
-        {
-                  "en": "Exceptional balance and rapid directional changes during pursuit",
-                  "es": "Equilibrio excepcional y cambios direccionales rápidos durante la persecución",
-                  "de": "Außergewöhnliches Gleichgewicht und schnelle Richtungsänderungen während der Verfolgung",
-                  "nl": "Uitzonderlijk evenwicht en snelle richtingsveranderingen tijdens achtervolging"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Analysis of the semicircular canals in Velociraptor skulls shows they were enlarged and highly sensitive, indicating exceptional balance and the ability to make rapid directional changes. This would have been crucial for pursuing agile prey and maintaining balance during complex predatory maneuvers.",
-                  "es": "El análisis de los canales semicirculares en cráneos de Velociraptor muestra que estaban agrandados y eran muy sensibles, indicando equilibrio excepcional y la capacidad de hacer cambios direccionales rápidos. Esto habría sido crucial para perseguir presas ágiles y mantener el equilibrio durante maniobras depredadoras complejas.",
-                  "de": "Die Analyse der Bogengänge in Velociraptor-Schädeln zeigt, dass sie vergrößert und hochsensibel waren, was auf außergewöhnliches Gleichgewicht und die Fähigkeit zu schnellen Richtungsänderungen hinweist. Dies wäre entscheidend für die Verfolgung agiler Beute und die Aufrechterhaltung des Gleichgewichts während komplexer räuberischer Manöver gewesen.",
-                  "nl": "Analyse van de halfcirkelvormige kanalen in Velociraptor schedels toont aan dat ze vergroot en zeer gevoelig waren, wat uitzonderlijk evenwicht aangeeft en het vermogen om snelle richtingsveranderingen te maken. Dit zou cruciaal zijn geweest voor het achtervolgen van behendige prooien en het behouden van evenwicht tijdens complexe roofmanoeuvres."
-        }
-      },
-      {
-        question: {
-                  "en": "What specialized killing technique is hypothesized for Velociraptor based on claw mechanics?",
-                  "es": "¿Qué técnica especializada de matanza se hipotetiza para el Velociraptor basada en la mecánica de garras?",
-                  "de": "Welche spezialisierte Tötungstechnik wird für Velociraptor basierend auf der Krallenmechanik hypothetisiert?",
-                  "nl": "Welke gespecialiseerde doodstechniek wordt gehypothetiseerd voor Velociraptor gebaseerd op klauwtmechanica?"
-        },
-        options: [
-        {
-                  "en": "Venomous bite delivery",
-                  "es": "Entrega de mordida venenosa",
-                  "de": "Giftiger Biss",
-                  "nl": "Giftige beet levering"
-        },
-        {
-                  "en": "Restraint and exsanguination through precise vascular targeting",
-                  "es": "Restricción y desangrado a través de apuntado vascular preciso",
-                  "de": "Fixierung und Ausblutung durch präzise vaskuläre Zielfindung",
-                  "nl": "Beperking en verbloeding door nauwkeurige vasculaire targeting"
-        },
-        {
-                  "en": "Crushing bite to the skull",
-                  "es": "Mordida aplastante al cráneo",
-                  "de": "Zerquetschender Biss zum Schädel",
-                  "nl": "Verpletterende beet naar de schedel"
-        },
-        {
-                  "en": "Suffocation through throat constriction",
-                  "es": "Sofocación a través de constricción de garganta",
-                  "de": "Erstickung durch Halskompression",
-                  "nl": "Verstikking door keelcompressie"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Recent analysis suggests Velociraptor used its sickle claws not for dramatic disemboweling, but for precise restraint and targeting of major blood vessels. The claw's shape and mechanics indicate it could maintain grip while applying targeted pressure to cause rapid blood loss in prey.",
-                  "es": "El análisis reciente sugiere que el Velociraptor usaba sus garras en hoz no para destripamiento dramático, sino para restricción precisa y apuntar a vasos sanguíneos principales. La forma y mecánica de la garra indica que podía mantener el agarre mientras aplicaba presión dirigida para causar pérdida rápida de sangre en las presas.",
-                  "de": "Neuere Analysen deuten darauf hin, dass Velociraptor seine Sichelkrallen nicht für dramatisches Ausweiden, sondern für präzise Fixierung und Zielen auf Hauptblutgefäße verwendete. Die Form und Mechanik der Kralle zeigen, dass sie den Griff beibehalten konnte, während sie gezielten Druck ausübte, um schnellen Blutverlust bei der Beute zu verursachen.",
-                  "nl": "Recente analyse suggereert dat Velociraptor zijn sikkelklauwen niet gebruikte voor dramatische ontbening, maar voor nauwkeurige beperking en targeting van grote bloedvaten. De vorm en mechanica van de klauw geven aan dat het grip kon behouden terwijl het gerichte druk uitoefende om snel bloedverlies bij prooi te veroorzaken."
-        }
-      },
-      {
-        question: {
-                  "en": "What does the discovery of Velociraptor with preserved gut contents reveal about feeding behavior?",
-                  "es": "¿Qué revela el descubrimiento de Velociraptor con contenidos intestinales preservados sobre el comportamiento alimentario?",
-                  "de": "Was verrät die Entdeckung von Velociraptor mit erhaltenen Darminhalten über das Fressverhalten?",
-                  "nl": "Wat onthult de ontdekking van Velociraptor met bewaarde darminhoud over voedingsgedrag?"
-        },
-        options: [
-        {
-                  "en": "Scavenging behavior only",
-                  "es": "Solo comportamiento carroñero",
-                  "de": "Nur Aasverhalten",
-                  "nl": "Alleen aasgedrag"
-        },
-        {
-                  "en": "Filter feeding like baleen whales",
-                  "es": "Alimentación por filtración como ballenas barbadas",
-                  "de": "Filterfütterung wie Bartenwale",
-                  "nl": "Filter voeding zoals baleinwalvissen"
-        },
-        {
-                  "en": "Exclusive fish diet",
-                  "es": "Dieta exclusiva de peces",
-                  "de": "Ausschließlich Fischdiät",
-                  "nl": "Exclusief vis dieet"
-        },
-        {
-                  "en": "Consumption of whole small vertebrates and selective feeding on organs",
-                  "es": "Consumo de pequeños vertebrados enteros y alimentación selectiva de órganos",
-                  "de": "Verzehr ganzer kleiner Wirbeltiere und selektive Fütterung von Organen",
-                  "nl": "Consumptie van hele kleine gewervelde dieren en selectief voeden van organen"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Rare specimens with preserved gut contents show evidence of whole small vertebrates and what appears to be selective consumption of nutrient-rich organs. This suggests Velociraptor was capable of both precision hunting of small prey and strategic feeding to maximize nutritional intake.",
-                  "es": "Especímenes raros con contenidos intestinales preservados muestran evidencia de pequeños vertebrados enteros y lo que parece ser consumo selectivo de órganos ricos en nutrientes. Esto sugiere que el Velociraptor era capaz tanto de caza de precisión de presas pequeñas como de alimentación estratégica para maximizar la ingesta nutricional.",
-                  "de": "Seltene Exemplare mit erhaltenen Darminhalten zeigen Beweise für ganze kleine Wirbeltiere und was wie selektiver Verzehr nährstoffreicher Organe aussieht. Dies deutet darauf hin, dass Velociraptor sowohl zur Präzisionsjagd auf kleine Beute als auch zu strategischer Fütterung zur Maximierung der Nährstoffaufnahme fähig war.",
-                  "nl": "Zeldzame specimens met bewaarde darminhoud tonen bewijs van hele kleine gewervelde dieren en wat lijkt op selectieve consumptie van voedingsrijke organen. Dit suggereert dat Velociraptor in staat was tot zowel precisiejacht van kleine prooi als strategische voeding om voedingsinname te maximaliseren."
-        }
-      },
-      {
-        question: {
-                  "en": "What adaptation allowed Velociraptor to maintain visual contact with prey during high-speed pursuit?",
-                  "es": "¿Qué adaptación permitió al Velociraptor mantener contacto visual con la presa durante persecuciones de alta velocidad?",
-                  "de": "Welche Anpassung ermöglichte es Velociraptor, während hochgeschwindigkeitlicher Verfolgung visuellen Kontakt zur Beute zu halten?",
-                  "nl": "Welke aanpassing stelde Velociraptor in staat om visueel contact met prooi te behouden tijdens hoge snelheidsachtervolging?"
-        },
-        options: [
-        {
-                  "en": "Stabilized head posture through specialized neck vertebrae",
-                  "es": "Postura de cabeza estabilizada a través de vértebras cervicales especializadas",
-                  "de": "Stabilisierte Kopfhaltung durch spezialisierte Halswirbel",
-                  "nl": "Gestabiliseerde hoofdhouding door gespecialiseerde nekwervels"
-        },
-        {
-                  "en": "Multiple sets of backup eyes",
-                  "es": "Múltiples juegos de ojos de respaldo",
-                  "de": "Mehrere Sätze von Reserveaugen",
-                  "nl": "Meerdere sets van back-up ogen"
-        },
-        {
-                  "en": "Telescoping eyes that could extend forward",
-                  "es": "Ojos telescópicos que podían extenderse hacia adelante",
-                  "de": "Teleskopaugen, die sich nach vorne ausdehnen konnten",
-                  "nl": "Telescopische ogen die naar voren konden uitschuiven"
-        },
-        {
-                  "en": "360-degree rotating eyeballs",
-                  "es": "Globos oculares rotatorios de 360 grados",
-                  "de": "360-Grad rotierende Augäpfel",
-                  "nl": "360 graden roterende oogbollen"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Velociraptor had specialized neck vertebrae with enhanced articulation that allowed for remarkable head stability during rapid locomotion. This adaptation enabled them to maintain visual focus on prey while running at high speeds and making sharp directional changes.",
-                  "es": "El Velociraptor tenía vértebras cervicales especializadas con articulación mejorada que permitía estabilidad notable de la cabeza durante la locomoción rápida. Esta adaptación les permitía mantener el enfoque visual en las presas mientras corrían a altas velocidades y hacían cambios direccionales bruscos.",
-                  "de": "Velociraptor hatte spezialisierte Halswirbel mit verbesserter Artikulation, die während der schnellen Fortbewegung eine bemerkenswerte Kopfstabilität ermöglichten. Diese Anpassung ermöglichte es ihnen, den visuellen Fokus auf die Beute zu halten, während sie mit hohen Geschwindigkeiten liefen und scharfe Richtungsänderungen machten.",
-                  "nl": "Velociraptor had gespecialiseerde nekwervels met verbeterde articulatie die opmerkelijke hoofdstabiliteit mogelijk maakte tijdens snelle voortbeweging. Deze aanpassing stelde hen in staat om visuele focus op prooi te behouden terwijl ze op hoge snelheden renden en scherpe richtingsveranderingen maakten."
-        }
-      },
-      {
-        question: {
-                  "en": "What evidence supports the hypothesis that Velociraptor exhibited sexual dimorphism?",
-                  "es": "¿Qué evidencia apoya la hipótesis de que el Velociraptor exhibía dimorfismo sexual?",
-                  "de": "Welche Beweise unterstützen die Hypothese, dass Velociraptor sexuellen Dimorphismus zeigte?",
-                  "nl": "Welk bewijs ondersteunt de hypothese dat Velociraptor seksuele dimorfisme vertoonde?"
-        },
-        options: [
-        {
-                  "en": "Variation in sickle claw size and robustness between specimens",
-                  "es": "Variación en tamaño y robustez de garra en hoz entre especímenes",
-                  "de": "Variation in Sichelkrallengröße und -robustheit zwischen Exemplaren",
-                  "nl": "Variatie in sikkelklauw grootte en robuustheid tussen specimens"
-        },
-        {
-                  "en": "Different tooth shapes for specialized diets",
-                  "es": "Diferentes formas de dientes para dietas especializadas",
-                  "de": "Verschiedene Zahnformen für spezialisierte Ernährung",
-                  "nl": "Verschillende tandvormen voor gespecialiseerde diëten"
-        },
-        {
-                  "en": "Presence of crests in some individuals",
-                  "es": "Presencia de crestas en algunos individuos",
-                  "de": "Anwesenheit von Kämmen bei einigen Individuen",
-                  "nl": "Aanwezigheid van kuiven bij sommige individuen"
-        },
-        {
-                  "en": "Different coloration patterns in fossilized skin",
-                  "es": "Diferentes patrones de coloración en piel fosilizada",
-                  "de": "Verschiedene Färbungsmuster in fossilisierter Haut",
-                  "nl": "Verschillende kleurpatronen in gefossiliseerde huid"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Analysis of multiple Velociraptor specimens shows significant variation in sickle claw size and robustness, with some individuals having notably larger, more robust claws. This pattern is consistent with sexual dimorphism seen in many modern predators, where males often have more pronounced weapons.",
-                  "es": "El análisis de múltiples especímenes de Velociraptor muestra variación significativa en tamaño y robustez de la garra en hoz, con algunos individuos teniendo garras notablemente más grandes y robustas. Este patrón es consistente con el dimorfismo sexual visto en muchos depredadores modernos, donde los machos a menudo tienen armas más pronunciadas.",
-                  "de": "Die Analyse mehrerer Velociraptor-Exemplare zeigt signifikante Variation in Sichelkrallengröße und -robustheit, wobei einige Individuen deutlich größere, robustere Krallen haben. Dieses Muster ist konsistent mit sexuellem Dimorphismus, der bei vielen modernen Raubtieren zu sehen ist, wo Männchen oft ausgeprägtere Waffen haben.",
-                  "nl": "Analyse van meerdere Velociraptor specimens toont significante variatie in sikkelklauw grootte en robuustheid, waarbij sommige individuen opmerkelijk grotere, meer robuuste klauwen hebben. Dit patroon is consistent met seksuele dimorfisme gezien bij veel moderne roofdieren, waar mannetjes vaak meer uitgesproken wapens hebben."
-        }
-      },
-      {
-        question: {
-                  "en": "What does the isotopic analysis of Velociraptor teeth reveal about their hunting patterns?",
-                  "es": "¿Qué revela el análisis isotópico de los dientes del Velociraptor sobre sus patrones de caza?",
-                  "de": "Was verrät die Isotopenanalyse der Velociraptor-Zähne über ihre Jagdmuster?",
-                  "nl": "Wat onthult de isotopische analyse van Velociraptor tanden over hun jachtpatronen?"
-        },
-        options: [
-        {
-                  "en": "Cannibalistic behavior within species",
-                  "es": "Comportamiento caníbal dentro de la especie",
-                  "de": "Kannibalisches Verhalten innerhalb der Art",
-                  "nl": "Kannibalistisch gedrag binnen de soort"
-        },
-        {
-                  "en": "Exclusive feeding on aquatic prey",
-                  "es": "Alimentación exclusiva de presas acuáticas",
-                  "de": "Ausschließliche Fütterung von Wasserbeute",
-                  "nl": "Exclusief voeden van aquatische prooi"
-        },
-        {
-                  "en": "Consistent year-round diet with no variation",
-                  "es": "Dieta consistente durante todo el año sin variación",
-                  "de": "Konsistente ganzjährige Ernährung ohne Variation",
-                  "nl": "Consistente jaarronde dieet zonder variatie"
-        },
-        {
-                  "en": "Seasonal variation in prey selection and possible migration following herds",
-                  "es": "Variación estacional en selección de presas y posible migración siguiendo manadas",
-                  "de": "Saisonale Variation in Beuteauswahl und mögliche Migration nach Herden",
-                  "nl": "Seizoensgebonden variatie in prooikeuze en mogelijke migratie volgend op kuddes"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Isotopic analysis of Velociraptor teeth shows seasonal variations in the chemical signatures of their prey, suggesting they may have followed migrating herds or adapted their hunting strategies to seasonal prey availability. This indicates more complex ecological behavior than simple territorial predation.",
-                  "es": "El análisis isotópico de los dientes del Velociraptor muestra variaciones estacionales en las firmas químicas de sus presas, sugiriendo que pueden haber seguido manadas migratorias o adaptado sus estrategias de caza a la disponibilidad estacional de presas. Esto indica comportamiento ecológico más complejo que simple depredación territorial.",
-                  "de": "Die Isotopenanalyse von Velociraptor-Zähnen zeigt saisonale Variationen in den chemischen Signaturen ihrer Beute, was darauf hindeutet, dass sie möglicherweise wandernden Herden gefolgt sind oder ihre Jagdstrategien an die saisonale Beuteverfügbarkeit angepasst haben. Dies deutet auf komplexeres ökologisches Verhalten hin als einfache territoriale Raubtiere.",
-                  "nl": "Isotopische analyse van Velociraptor tanden toont seizoensgebonden variaties in de chemische handtekeningen van hun prooi, wat suggereert dat ze mogelijk migrerende kuddes hebben gevolgd of hun jachtstrategieën hebben aangepast aan seizoensgebonden prooi beschikbaarheid. Dit duidt op complexer ecologisch gedrag dan eenvoudige territoriale predatie."
-        }
-      },
-      {
-        question: {
-                  "en": "What unique aspect of Velociraptor's respiratory system enhanced its predatory capabilities?",
-                  "es": "¿Qué aspecto único del sistema respiratorio del Velociraptor mejoró sus capacidades depredadoras?",
-                  "de": "Welcher einzigartige Aspekt des Atmungssystems des Velociraptors verbesserte seine räuberischen Fähigkeiten?",
-                  "nl": "Welk uniek aspect van Velociraptor's ademhalingssysteem verbeterde zijn roofcapaciteiten?"
-        },
-        options: [
-        {
-                  "en": "Specialized nostrils for enhanced scent tracking",
-                  "es": "Fosas nasales especializadas para seguimiento de olores mejorado",
-                  "de": "Spezialisierte Nasenlöcher für verbesserte Geruchsverfolgung",
-                  "nl": "Gespecialiseerde neusgaten voor verbeterde geurvolging"
-        },
-        {
-                  "en": "Ability to hold breath for extended periods",
-                  "es": "Capacidad de contener la respiración por períodos extendidos",
-                  "de": "Fähigkeit, den Atem für längere Zeiträume anzuhalten",
-                  "nl": "Vermogen om adem in te houden voor uitgebreide perioden"
-        },
-        {
-                  "en": "Gills for underwater hunting",
-                  "es": "Branquias para caza submarina",
-                  "de": "Kiemen für Unterwasserjagd",
-                  "nl": "Kieuwen voor onderwaterjacht"
-        },
-        {
-                  "en": "Bird-like air sac system providing continuous airflow during exertion",
-                  "es": "Sistema de sacos de aire similar a aves proporcionando flujo continuo durante el esfuerzo",
-                  "de": "Vogelähnliches Luftsacksystem mit kontinuierlichem Luftstrom bei Anstrengung",
-                  "nl": "Vogelachtig luchtzaksysteem dat continue luchtstroom biedt tijdens inspanning"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Like modern birds, Velociraptor possessed a complex air sac system that allowed for continuous, unidirectional airflow through the lungs. This adaptation provided superior oxygen efficiency during high-intensity pursuit hunting, giving them a significant advantage over prey with less efficient respiratory systems.",
-                  "es": "Como las aves modernas, el Velociraptor poseía un sistema complejo de sacos de aire que permitía flujo continuo y unidireccional a través de los pulmones. Esta adaptación proporcionaba eficiencia superior de oxígeno durante la caza de persecución de alta intensidad, dándoles una ventaja significativa sobre presas con sistemas respiratorios menos eficientes.",
-                  "de": "Wie moderne Vögel besaß Velociraptor ein komplexes Luftsacksystem, das einen kontinuierlichen, unidirektionalen Luftstrom durch die Lungen ermöglichte. Diese Anpassung bot überlegene Sauerstoffeffizienz während intensiver Verfolgungsjagd und verschaffte ihnen einen bedeutenden Vorteil gegenüber Beute mit weniger effizienten Atmungssystemen.",
-                  "nl": "Net als moderne vogels bezat Velociraptor een complex luchtzaksysteem dat continue, unidirectionele luchtstroom door de longen mogelijk maakte. Deze aanpassing bood superieure zuurstofefficiëntie tijdens hoge-intensiteit achtervolging jacht, wat hen een significant voordeel gaf over prooi met minder efficiënte ademhalingssystemen."
-        }
-      },
-      {
-        question: {
-                  "en": "What does the wear pattern analysis on Velociraptor claws suggest about substrate interaction?",
-                  "es": "¿Qué sugiere el análisis de patrones de desgaste en las garras del Velociraptor sobre la interacción con el sustrato?",
-                  "de": "Was deutet die Analyse der Abnutzungsmuster an Velociraptor-Krallen über die Substratinteraktion an?",
-                  "nl": "Wat suggereert de slijtagpatroon analyse van Velociraptor klauwen over substraat interactie?"
-        },
-        options: [
-        {
-                  "en": "Burrowing behavior in soft sediments",
-                  "es": "Comportamiento de excavación en sedimentos blandos",
-                  "de": "Grabverhalten in weichen Sedimenten",
-                  "nl": "Graafgedrag in zachte sedimenten"
-        },
-        {
-                  "en": "Regular climbing behavior on rocky outcrops and trees",
-                  "es": "Comportamiento regular de trepar en afloramientos rocosos y árboles",
-                  "de": "Regelmäßiges Kletterverhalten an felsigen Aufschlüssen und Bäumen",
-                  "nl": "Regelmatig klimgedrag op rotsachtige uitstekingen en bomen"
-        },
-        {
-                  "en": "Swimming adaptations for aquatic environments",
-                  "es": "Adaptaciones de natación para ambientes acuáticos",
-                  "de": "Schwimmanpassungen für aquatische Umgebungen",
-                  "nl": "Zwem aanpassingen voor aquatische omgevingen"
-        },
-        {
-                  "en": "Exclusive ground-dwelling lifestyle",
-                  "es": "Estilo de vida exclusivamente terrestre",
-                  "de": "Ausschließlich bodenbewohnende Lebensweise",
-                  "nl": "Exclusieve grond-bewonende levensstijl"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Microscopic analysis of claw wear patterns shows evidence of contact with varied hard surfaces including rock and wood, suggesting Velociraptor regularly climbed rocky outcrops and trees. This climbing ability would have expanded their hunting range and provided escape routes from larger predators.",
-                  "es": "El análisis microscópico de patrones de desgaste de garras muestra evidencia de contacto con superficies duras variadas incluyendo roca y madera, sugiriendo que el Velociraptor regularmente trepaba afloramientos rocosos y árboles. Esta habilidad de trepar habría expandido su rango de caza y proporcionado rutas de escape de depredadores más grandes.",
-                  "de": "Die mikroskopische Analyse der Krallenabnutzungsmuster zeigt Beweise für Kontakt mit verschiedenen harten Oberflächen einschließlich Fels und Holz, was darauf hindeutet, dass Velociraptor regelmäßig felsige Aufschlüsse und Bäume kletterte. Diese Kletterfähigkeit hätte ihr Jagdgebiet erweitert und Fluchtwege vor größeren Raubtieren geboten.",
-                  "nl": "Microscopische analyse van klauw slijtagpatronen toont bewijs van contact met gevarieerde harde oppervlakken inclusief rots en hout, wat suggereert dat Velociraptor regelmatig rotsachtige uitstekingen en bomen beklom. Dit klimvermogen zou hun jachtgebied hebben uitgebreid en ontsnappingsroutes hebben geboden voor grotere roofdieren."
-        }
-      },
-      {
-        question: {
-                  "en": "What does CT scanning of Velociraptor skulls reveal about their olfactory capabilities?",
-                  "es": "¿Qué revela la tomografía computarizada de cráneos de Velociraptor sobre sus capacidades olfativas?",
-                  "de": "Was zeigt die CT-Untersuchung von Velociraptor-Schädeln über ihre Geruchsfähigkeiten?",
-                  "nl": "Wat onthult CT-scanning van Velociraptor schedels over hun reukvermogens?"
-        },
-        options: [
-        {
-                  "en": "No olfactory structures present",
-                  "es": "Sin estructuras olfativas presentes",
-                  "de": "Keine Geruchsstrukturen vorhanden",
-                  "nl": "Geen reukstructuren aanwezig"
-        },
-        {
-                  "en": "Specialized chambers for processing pheromones only",
-                  "es": "Cámaras especializadas solo para procesar feromonas",
-                  "de": "Spezialisierte Kammern nur für die Verarbeitung von Pheromonen",
-                  "nl": "Gespecialiseerde kamers alleen voor het verwerken van feromonen"
-        },
-        {
-                  "en": "Reduced olfactory regions indicating poor sense of smell",
-                  "es": "Regiones olfativas reducidas indicando mal sentido del olfato",
-                  "de": "Reduzierte Geruchsregionen zeigen schlechten Geruchssinn an",
-                  "nl": "Verminderde reukgebieden die een slecht reukvermogen aangeven"
-        },
-        {
-                  "en": "Well-developed olfactory bulbs suggesting acute sense of smell for tracking prey",
-                  "es": "Bulbos olfativos bien desarrollados sugiriendo agudo sentido del olfato para rastrear presas",
-                  "de": "Gut entwickelte Riechkolben deuten auf einen scharfen Geruchssinn zum Verfolgen von Beute hin",
-                  "nl": "Goed ontwikkelde reukbollen die een scherp reukvermogen suggeren voor het volgen van prooien"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "CT scans reveal that Velociraptor had relatively large olfactory bulbs and extensive nasal passages, indicating they possessed a keen sense of smell that would have been valuable for tracking wounded prey, detecting carrion, and possibly communicating through scent marking.",
-                  "es": "Las tomografías revelan que el Velociraptor tenía bulbos olfativos relativamente grandes y pasajes nasales extensos, indicando que poseían un agudo sentido del olfato que habría sido valioso para rastrear presas heridas, detectar carroña y posiblemente comunicarse a través de marcado olfativo.",
-                  "de": "CT-Scans zeigen, dass Velociraptor relativ große Riechkolben und ausgedehnte Nasengänge hatte, was darauf hinweist, dass sie einen scharfen Geruchssinn besaßen, der wertvoll für die Verfolgung verwundeter Beute, das Erkennen von Aas und möglicherweise die Kommunikation durch Duftmarkierung gewesen wäre.",
-                  "nl": "CT-scans onthullen dat Velociraptor relatief grote reukbollen en uitgebreide neuspassages had, wat aangeeft dat ze een scherp reukvermogen bezaten dat waardevol zou zijn geweest voor het volgen van gewonde prooien, het detecteren van aas, en mogelijk communiceren door geurmarkering."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a Velociraptor?",
-                  "es": "What is a Velociraptor?",
-                  "de": "What is a Velociraptor?",
-                  "nl": "What is a Velociraptor?"
-        },
-        options: [
-        {
-                  "en": "Small feathered carnivorous dinosaur",
-                  "es": "Small feathered carnivorous dinosaur",
-                  "de": "Small feathered carnivorous dinosaur",
-                  "nl": "Small feathered carnivorous dinosaur"
-        },
-        {
-                  "en": "Herbivore",
-                  "es": "Herbivore",
-                  "de": "Herbivore",
-                  "nl": "Herbivore"
-        },
-        {
-                  "en": "Large predator",
-                  "es": "Large predator",
-                  "de": "Large predator",
-                  "nl": "Large predator"
-        },
-        {
-                  "en": "Flying dinosaur",
-                  "es": "Flying dinosaur",
-                  "de": "Flying dinosaur",
-                  "nl": "Flying dinosaur"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Velociraptor was a small, feathered carnivorous dinosaur from Late Cretaceous Mongolia.",
-                  "es": "Velociraptor was a small, feathered carnivorous dinosaur from Late Cretaceous Mongolia.",
-                  "de": "Velociraptor was a small, feathered carnivorous dinosaur from Late Cretaceous Mongolia.",
-                  "nl": "Velociraptor was a small, feathered carnivorous dinosaur from Late Cretaceous Mongolia."
-        }
-      },
-      {
-        question: {
-                  "en": "How big was Velociraptor?",
-                  "es": "How big was Velociraptor?",
-                  "de": "How big was Velociraptor?",
-                  "nl": "How big was Velociraptor?"
-        },
-        options: [
-        {
-                  "en": "Large as a car",
-                  "es": "Large as a car",
-                  "de": "Large as a car",
-                  "nl": "Large as a car"
-        },
-        {
-                  "en": "About turkey-sized, 6 feet long",
-                  "es": "About turkey-sized, 6 feet long",
-                  "de": "About turkey-sized, 6 feet long",
-                  "nl": "About turkey-sized, 6 feet long"
-        },
-        {
-                  "en": "Human-sized",
-                  "es": "Human-sized",
-                  "de": "Human-sized",
-                  "nl": "Human-sized"
-        },
-        {
-                  "en": "Tiny as a chicken",
-                  "es": "Tiny as a chicken",
-                  "de": "Tiny as a chicken",
-                  "nl": "Tiny as a chicken"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Velociraptor was about 6 feet long and roughly turkey-sized, much smaller than portrayed in movies.",
-                  "es": "Velociraptor was about 6 feet long and roughly turkey-sized, much smaller than portrayed in movies.",
-                  "de": "Velociraptor was about 6 feet long and roughly turkey-sized, much smaller than portrayed in movies.",
-                  "nl": "Velociraptor was about 6 feet long and roughly turkey-sized, much smaller than portrayed in movies."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the distinctive claw on Velociraptor?",
-                  "es": "What is the distinctive claw on Velociraptor?",
-                  "de": "What is the distinctive claw on Velociraptor?",
-                  "nl": "What is the distinctive claw on Velociraptor?"
-        },
-        options: [
-        {
-                  "en": "Claw on hands",
-                  "es": "Claw on hands",
-                  "de": "Claw on hands",
-                  "nl": "Claw on hands"
-        },
-        {
-                  "en": "Nose horn",
-                  "es": "Nose horn",
-                  "de": "Nose horn",
-                  "nl": "Nose horn"
-        },
-        {
-                  "en": "Claw on tail",
-                  "es": "Claw on tail",
-                  "de": "Claw on tail",
-                  "nl": "Claw on tail"
-        },
-        {
-                  "en": "Large sickle-shaped claw on second toe",
-                  "es": "Large sickle-shaped claw on second toe",
-                  "de": "Large sickle-shaped claw on second toe",
-                  "nl": "Large sickle-shaped claw on second toe"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Velociraptor had an enlarged, sickle-shaped claw on the second toe of each foot.",
-                  "es": "Velociraptor had an enlarged, sickle-shaped claw on the second toe of each foot.",
-                  "de": "Velociraptor had an enlarged, sickle-shaped claw on the second toe of each foot.",
-                  "nl": "Velociraptor had an enlarged, sickle-shaped claw on the second toe of each foot."
-        }
-      },
-      {
-        question: {
-                  "en": "Did Velociraptor have feathers?",
-                  "es": "Did Velociraptor have feathers?",
-                  "de": "Did Velociraptor have feathers?",
-                  "nl": "Did Velociraptor have feathers?"
-        },
-        options: [
-        {
-                  "en": "Yes, fully feathered",
-                  "es": "Yes, fully feathered",
-                  "de": "Yes, fully feathered",
-                  "nl": "Yes, fully feathered"
-        },
-        {
-                  "en": "Unknown",
-                  "es": "Unknown",
-                  "de": "Unknown",
-                  "nl": "Unknown"
-        },
-        {
-                  "en": "No feathers",
-                  "es": "No feathers",
-                  "de": "No feathers",
-                  "nl": "No feathers"
-        },
-        {
-                  "en": "Only some feathers",
-                  "es": "Only some feathers",
-                  "de": "Only some feathers",
-                  "nl": "Only some feathers"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Evidence including quill knobs on arm bones confirms Velociraptor had feathers.",
-                  "es": "Evidence including quill knobs on arm bones confirms Velociraptor had feathers.",
-                  "de": "Evidence including quill knobs on arm bones confirms Velociraptor had feathers.",
-                  "nl": "Evidence including quill knobs on arm bones confirms Velociraptor had feathers."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the Velociraptor family called?",
-                  "es": "What is the Velociraptor family called?",
-                  "de": "What is the Velociraptor family called?",
-                  "nl": "What is the Velociraptor family called?"
-        },
-        options: [
-        {
-                  "en": "Dromaeosauridae (raptors)",
-                  "es": "Dromaeosauridae (raptors)",
-                  "de": "Dromaeosauridae (raptors)",
-                  "nl": "Dromaeosauridae (raptors)"
-        },
-        {
-                  "en": "Tyrannosauridae",
-                  "es": "Tyrannosauridae",
-                  "de": "Tyrannosauridae",
-                  "nl": "Tyrannosauridae"
-        },
-        {
-                  "en": "Troodontidae",
-                  "es": "Troodontidae",
-                  "de": "Troodontidae",
-                  "nl": "Troodontidae"
-        },
-        {
-                  "en": "Ornithomimidae",
-                  "es": "Ornithomimidae",
-                  "de": "Ornithomimidae",
-                  "nl": "Ornithomimidae"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Velociraptor belongs to the family Dromaeosauridae, commonly called raptors.",
-                  "es": "Velociraptor belongs to the family Dromaeosauridae, commonly called raptors.",
-                  "de": "Velociraptor belongs to the family Dromaeosauridae, commonly called raptors.",
-                  "nl": "Velociraptor belongs to the family Dromaeosauridae, commonly called raptors."
-        }
-      },
-      {
-        question: {
-                  "en": "What did Velociraptor eat?",
-                  "es": "What did Velociraptor eat?",
-                  "de": "What did Velociraptor eat?",
-                  "nl": "What did Velociraptor eat?"
-        },
-        options: [
-        {
-                  "en": "Plants",
-                  "es": "Plants",
-                  "de": "Plants",
-                  "nl": "Plants"
-        },
-        {
-                  "en": "Small dinosaurs and animals",
-                  "es": "Small dinosaurs and animals",
-                  "de": "Small dinosaurs and animals",
-                  "nl": "Small dinosaurs and animals"
-        },
-        {
-                  "en": "Large dinosaurs",
-                  "es": "Large dinosaurs",
-                  "de": "Large dinosaurs",
-                  "nl": "Large dinosaurs"
-        },
-        {
-                  "en": "Fish only",
-                  "es": "Fish only",
-                  "de": "Fish only",
-                  "nl": "Fish only"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Velociraptor hunted small dinosaurs, mammals, and other small animals.",
-                  "es": "Velociraptor hunted small dinosaurs, mammals, and other small animals.",
-                  "de": "Velociraptor hunted small dinosaurs, mammals, and other small animals.",
-                  "nl": "Velociraptor hunted small dinosaurs, mammals, and other small animals."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Deinonychus?",
-                  "es": "What is Deinonychus?",
-                  "de": "What is Deinonychus?",
-                  "nl": "What is Deinonychus?"
-        },
-        options: [
-        {
-                  "en": "Larger North American raptor",
-                  "es": "Larger North American raptor",
-                  "de": "Larger North American raptor",
-                  "nl": "Larger North American raptor"
-        },
-        {
-                  "en": "Herbivore",
-                  "es": "Herbivore",
-                  "de": "Herbivore",
-                  "nl": "Herbivore"
-        },
-        {
-                  "en": "Smaller raptor",
-                  "es": "Smaller raptor",
-                  "de": "Smaller raptor",
-                  "nl": "Smaller raptor"
-        },
-        {
-                  "en": "Asian raptor",
-                  "es": "Asian raptor",
-                  "de": "Asian raptor",
-                  "nl": "Asian raptor"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Deinonychus was a larger North American dromaeosaur that helped inspire the Jurassic Park 'Velociraptors'.",
-                  "es": "Deinonychus was a larger North American dromaeosaur that helped inspire the Jurassic Park 'Velociraptors'.",
-                  "de": "Deinonychus was a larger North American dromaeosaur that helped inspire the Jurassic Park 'Velociraptors'.",
-                  "nl": "Deinonychus was a larger North American dromaeosaur that helped inspire the Jurassic Park 'Velociraptors'."
-        }
-      },
-      {
-        question: {
-                  "en": "Where did Velociraptor live?",
-                  "es": "Where did Velociraptor live?",
-                  "de": "Where did Velociraptor live?",
-                  "nl": "Where did Velociraptor live?"
-        },
-        options: [
-        {
-                  "en": "North America",
-                  "es": "North America",
-                  "de": "North America",
-                  "nl": "North America"
-        },
-        {
-                  "en": "South America",
-                  "es": "South America",
-                  "de": "South America",
-                  "nl": "South America"
-        },
-        {
-                  "en": "Mongolia and China",
-                  "es": "Mongolia and China",
-                  "de": "Mongolia and China",
-                  "nl": "Mongolia and China"
-        },
-        {
-                  "en": "Africa",
-                  "es": "Africa",
-                  "de": "Africa",
-                  "nl": "Africa"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Velociraptor fossils have been found in Mongolia and China.",
-                  "es": "Velociraptor fossils have been found in Mongolia and China.",
-                  "de": "Velociraptor fossils have been found in Mongolia and China.",
-                  "nl": "Velociraptor fossils have been found in Mongolia and China."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the purpose of the sickle claw?",
-                  "es": "What is the purpose of the sickle claw?",
-                  "de": "What is the purpose of the sickle claw?",
-                  "nl": "What is the purpose of the sickle claw?"
-        },
-        options: [
-        {
-                  "en": "Pinning and slashing prey",
-                  "es": "Pinning and slashing prey",
-                  "de": "Pinning and slashing prey",
-                  "nl": "Pinning and slashing prey"
-        },
-        {
-                  "en": "Defense only",
-                  "es": "Defense only",
-                  "de": "Defense only",
-                  "nl": "Defense only"
-        },
-        {
-                  "en": "Climbing",
-                  "es": "Climbing",
-                  "de": "Climbing",
-                  "nl": "Climbing"
-        },
-        {
-                  "en": "Digging",
-                  "es": "Digging",
-                  "de": "Digging",
-                  "nl": "Digging"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The sickle claw was likely used to pin down and slash prey.",
-                  "es": "The sickle claw was likely used to pin down and slash prey.",
-                  "de": "The sickle claw was likely used to pin down and slash prey.",
-                  "nl": "The sickle claw was likely used to pin down and slash prey."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Utahraptor?",
-                  "es": "What is Utahraptor?",
-                  "de": "What is Utahraptor?",
-                  "nl": "What is Utahraptor?"
-        },
-        options: [
-        {
-                  "en": "Flying raptor",
-                  "es": "Flying raptor",
-                  "de": "Flying raptor",
-                  "nl": "Flying raptor"
-        },
-        {
-                  "en": "Smallest raptor",
-                  "es": "Smallest raptor",
-                  "de": "Smallest raptor",
-                  "nl": "Smallest raptor"
-        },
-        {
-                  "en": "Herbivorous raptor",
-                  "es": "Herbivorous raptor",
-                  "de": "Herbivorous raptor",
-                  "nl": "Herbivorous raptor"
-        },
-        {
-                  "en": "Largest known dromaeosaur",
-                  "es": "Largest known dromaeosaur",
-                  "de": "Largest known dromaeosaur",
-                  "nl": "Largest known dromaeosaur"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Utahraptor was the largest known raptor, up to 23 feet long and 1,000 pounds.",
-                  "es": "Utahraptor was the largest known raptor, up to 23 feet long and 1,000 pounds.",
-                  "de": "Utahraptor was the largest known raptor, up to 23 feet long and 1,000 pounds.",
-                  "nl": "Utahraptor was the largest known raptor, up to 23 feet long and 1,000 pounds."
-        }
-      },
-      {
-        question: {
-                  "en": "Did raptors hunt in packs?",
-                  "es": "Did raptors hunt in packs?",
-                  "de": "Did raptors hunt in packs?",
-                  "nl": "Did raptors hunt in packs?"
-        },
-        options: [
-        {
-                  "en": "Definitely no",
-                  "es": "Definitely no",
-                  "de": "Definitely no",
-                  "nl": "Definitely no"
-        },
-        {
-                  "en": "Unknown",
-                  "es": "Unknown",
-                  "de": "Unknown",
-                  "nl": "Unknown"
-        },
-        {
-                  "en": "Possibly, but evidence is debated",
-                  "es": "Possibly, but evidence is debated",
-                  "de": "Possibly, but evidence is debated",
-                  "nl": "Possibly, but evidence is debated"
-        },
-        {
-                  "en": "Definitely yes",
-                  "es": "Definitely yes",
-                  "de": "Definitely yes",
-                  "nl": "Definitely yes"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Some evidence suggests pack hunting, but this remains debated among paleontologists.",
-                  "es": "Some evidence suggests pack hunting, but this remains debated among paleontologists.",
-                  "de": "Some evidence suggests pack hunting, but this remains debated among paleontologists.",
-                  "nl": "Some evidence suggests pack hunting, but this remains debated among paleontologists."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Microraptor?",
-                  "es": "What is Microraptor?",
-                  "de": "What is Microraptor?",
-                  "nl": "What is Microraptor?"
-        },
-        options: [
-        {
-                  "en": "Herbivore",
-                  "es": "Herbivore",
-                  "de": "Herbivore",
-                  "nl": "Herbivore"
-        },
-        {
-                  "en": "Large raptor",
-                  "es": "Large raptor",
-                  "de": "Large raptor",
-                  "nl": "Large raptor"
-        },
-        {
-                  "en": "Small four-winged dinosaur",
-                  "es": "Small four-winged dinosaur",
-                  "de": "Small four-winged dinosaur",
-                  "nl": "Small four-winged dinosaur"
-        },
-        {
-                  "en": "Flightless raptor",
-                  "es": "Flightless raptor",
-                  "de": "Flightless raptor",
-                  "nl": "Flightless raptor"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Microraptor was a small dinosaur with feathers on both arms and legs, possibly capable of gliding.",
-                  "es": "Microraptor was a small dinosaur with feathers on both arms and legs, possibly capable of gliding.",
-                  "de": "Microraptor was a small dinosaur with feathers on both arms and legs, possibly capable of gliding.",
-                  "nl": "Microraptor was a small dinosaur with feathers on both arms and legs, possibly capable of gliding."
-        }
-      },
-      {
-        question: {
-                  "en": "How intelligent were raptors?",
-                  "es": "How intelligent were raptors?",
-                  "de": "How intelligent were raptors?",
-                  "nl": "How intelligent were raptors?"
-        },
-        options: [
-        {
-                  "en": "Average intelligence",
-                  "es": "Average intelligence",
-                  "de": "Average intelligence",
-                  "nl": "Average intelligence"
-        },
-        {
-                  "en": "Least intelligent",
-                  "es": "Least intelligent",
-                  "de": "Least intelligent",
-                  "nl": "Least intelligent"
-        },
-        {
-                  "en": "More intelligent than most dinosaurs",
-                  "es": "More intelligent than most dinosaurs",
-                  "de": "More intelligent than most dinosaurs",
-                  "nl": "More intelligent than most dinosaurs"
-        },
-        {
-                  "en": "Unknown",
-                  "es": "Unknown",
-                  "de": "Unknown",
-                  "nl": "Unknown"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Raptors had relatively large brains for their body size, suggesting above-average intelligence for dinosaurs.",
-                  "es": "Raptors had relatively large brains for their body size, suggesting above-average intelligence for dinosaurs.",
-                  "de": "Raptors had relatively large brains for their body size, suggesting above-average intelligence for dinosaurs.",
-                  "nl": "Raptors had relatively large brains for their body size, suggesting above-average intelligence for dinosaurs."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Achillobator?",
-                  "es": "What is Achillobator?",
-                  "de": "What is Achillobator?",
-                  "nl": "What is Achillobator?"
-        },
-        options: [
-        {
-                  "en": "North American raptor",
-                  "es": "North American raptor",
-                  "de": "North American raptor",
-                  "nl": "North American raptor"
-        },
-        {
-                  "en": "Small raptor",
-                  "es": "Small raptor",
-                  "de": "Small raptor",
-                  "nl": "Small raptor"
-        },
-        {
-                  "en": "Herbivore",
-                  "es": "Herbivore",
-                  "de": "Herbivore",
-                  "nl": "Herbivore"
-        },
-        {
-                  "en": "Large Mongolian raptor",
-                  "es": "Large Mongolian raptor",
-                  "de": "Large Mongolian raptor",
-                  "nl": "Large Mongolian raptor"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Achillobator was a large dromaeosaur from Mongolia, similar in size to Deinonychus.",
-                  "es": "Achillobator was a large dromaeosaur from Mongolia, similar in size to Deinonychus.",
-                  "de": "Achillobator was a large dromaeosaur from Mongolia, similar in size to Deinonychus.",
-                  "nl": "Achillobator was a large dromaeosaur from Mongolia, similar in size to Deinonychus."
-        }
-      },
-      {
-        question: {
-                  "en": "Could Velociraptor fly?",
-                  "es": "Could Velociraptor fly?",
-                  "de": "Could Velociraptor fly?",
-                  "nl": "Could Velociraptor fly?"
-        },
-        options: [
-        {
-                  "en": "Yes, fully",
-                  "es": "Yes, fully",
-                  "de": "Yes, fully",
-                  "nl": "Yes, fully"
-        },
-        {
-                  "en": "Could glide only",
-                  "es": "Could glide only",
-                  "de": "Could glide only",
-                  "nl": "Could glide only"
-        },
-        {
-                  "en": "No, but had feathers",
-                  "es": "No, but had feathers",
-                  "de": "No, but had feathers",
-                  "nl": "No, but had feathers"
-        },
-        {
-                  "en": "No feathers at all",
-                  "es": "No feathers at all",
-                  "de": "No feathers at all",
-                  "nl": "No feathers at all"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Velociraptor had feathers but could not fly; it was too large and lacked the necessary adaptations.",
-                  "es": "Velociraptor had feathers but could not fly; it was too large and lacked the necessary adaptations.",
-                  "de": "Velociraptor had feathers but could not fly; it was too large and lacked the necessary adaptations.",
-                  "nl": "Velociraptor had feathers but could not fly; it was too large and lacked the necessary adaptations."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the famous 'fighting dinosaurs' fossil?",
-                  "es": "What is the famous 'fighting dinosaurs' fossil?",
-                  "de": "What is the famous 'fighting dinosaurs' fossil?",
-                  "nl": "What is the famous 'fighting dinosaurs' fossil?"
-        },
-        options: [
-        {
-                  "en": "Two Velociraptors fighting",
-                  "es": "Two Velociraptors fighting",
-                  "de": "Two Velociraptors fighting",
-                  "nl": "Two Velociraptors fighting"
-        },
-        {
-                  "en": "Two T-Rexes fighting",
-                  "es": "Two T-Rexes fighting",
-                  "de": "Two T-Rexes fighting",
-                  "nl": "Two T-Rexes fighting"
-        },
-        {
-                  "en": "Triceratops vs T-Rex",
-                  "es": "Triceratops vs T-Rex",
-                  "de": "Triceratops vs T-Rex",
-                  "nl": "Triceratops vs T-Rex"
-        },
-        {
-                  "en": "Velociraptor and Protoceratops locked in combat",
-                  "es": "Velociraptor and Protoceratops locked in combat",
-                  "de": "Velociraptor and Protoceratops locked in combat",
-                  "nl": "Velociraptor and Protoceratops locked in combat"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "A famous fossil shows Velociraptor and Protoceratops locked in mortal combat, preserved by a sandstorm.",
-                  "es": "A famous fossil shows Velociraptor and Protoceratops locked in mortal combat, preserved by a sandstorm.",
-                  "de": "A famous fossil shows Velociraptor and Protoceratops locked in mortal combat, preserved by a sandstorm.",
-                  "nl": "A famous fossil shows Velociraptor and Protoceratops locked in mortal combat, preserved by a sandstorm."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Bambiraptor?",
-                  "es": "What is Bambiraptor?",
-                  "de": "What is Bambiraptor?",
-                  "nl": "What is Bambiraptor?"
-        },
-        options: [
-        {
-                  "en": "Adult raptor",
-                  "es": "Adult raptor",
-                  "de": "Adult raptor",
-                  "nl": "Adult raptor"
-        },
-        {
-                  "en": "Small juvenile dromaeosaur",
-                  "es": "Small juvenile dromaeosaur",
-                  "de": "Small juvenile dromaeosaur",
-                  "nl": "Small juvenile dromaeosaur"
-        },
-        {
-                  "en": "Herbivore",
-                  "es": "Herbivore",
-                  "de": "Herbivore",
-                  "nl": "Herbivore"
-        },
-        {
-                  "en": "Large raptor",
-                  "es": "Large raptor",
-                  "de": "Large raptor",
-                  "nl": "Large raptor"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Bambiraptor was a small, possibly juvenile dromaeosaur from Montana, well-preserved with delicate features.",
-                  "es": "Bambiraptor was a small, possibly juvenile dromaeosaur from Montana, well-preserved with delicate features.",
-                  "de": "Bambiraptor was a small, possibly juvenile dromaeosaur from Montana, well-preserved with delicate features.",
-                  "nl": "Bambiraptor was a small, possibly juvenile dromaeosaur from Montana, well-preserved with delicate features."
-        }
-      },
-      {
-        question: {
-                  "en": "How are raptors related to birds?",
-                  "es": "How are raptors related to birds?",
-                  "de": "How are raptors related to birds?",
-                  "nl": "How are raptors related to birds?"
-        },
-        options: [
-        {
-                  "en": "Close relatives; share many bird features",
-                  "es": "Close relatives; share many bird features",
-                  "de": "Close relatives; share many bird features",
-                  "nl": "Close relatives; share many bird features"
-        },
-        {
-                  "en": "Distant relatives only",
-                  "es": "Distant relatives only",
-                  "de": "Distant relatives only",
-                  "nl": "Distant relatives only"
-        },
-        {
-                  "en": "Not related",
-                  "es": "Not related",
-                  "de": "Not related",
-                  "nl": "Not related"
-        },
-        {
-                  "en": "Raptors evolved from birds",
-                  "es": "Raptors evolved from birds",
-                  "de": "Raptors evolved from birds",
-                  "nl": "Raptors evolved from birds"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Dromaeosaurs like Velociraptor are very closely related to birds, sharing many skeletal and feather features.",
-                  "es": "Dromaeosaurs like Velociraptor are very closely related to birds, sharing many skeletal and feather features.",
-                  "de": "Dromaeosaurs like Velociraptor are very closely related to birds, sharing many skeletal and feather features.",
-                  "nl": "Dromaeosaurs like Velociraptor are very closely related to birds, sharing many skeletal and feather features."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Saurornitholestes?",
-                  "es": "What is Saurornitholestes?",
-                  "de": "What is Saurornitholestes?",
-                  "nl": "What is Saurornitholestes?"
-        },
-        options: [
-        {
-                  "en": "Small North American dromaeosaur",
-                  "es": "Small North American dromaeosaur",
-                  "de": "Small North American dromaeosaur",
-                  "nl": "Small North American dromaeosaur"
-        },
-        {
-                  "en": "Asian raptor",
-                  "es": "Asian raptor",
-                  "de": "Asian raptor",
-                  "nl": "Asian raptor"
-        },
-        {
-                  "en": "Herbivore",
-                  "es": "Herbivore",
-                  "de": "Herbivore",
-                  "nl": "Herbivore"
-        },
-        {
-                  "en": "Large raptor",
-                  "es": "Large raptor",
-                  "de": "Large raptor",
-                  "nl": "Large raptor"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Saurornitholestes was a small dromaeosaur from Late Cretaceous North America, similar to Velociraptor.",
-                  "es": "Saurornitholestes was a small dromaeosaur from Late Cretaceous North America, similar to Velociraptor.",
-                  "de": "Saurornitholestes was a small dromaeosaur from Late Cretaceous North America, similar to Velociraptor.",
-                  "nl": "Saurornitholestes was a small dromaeosaur from Late Cretaceous North America, similar to Velociraptor."
-        }
-      },
-      {
-        question: {
-                  "en": "What does 'Velociraptor' mean?",
-                  "es": "What does 'Velociraptor' mean?",
-                  "de": "What does 'Velociraptor' mean?",
-                  "nl": "What does 'Velociraptor' mean?"
-        },
-        options: [
-        {
-                  "en": "Fierce hunter",
-                  "es": "Fierce hunter",
-                  "de": "Fierce hunter",
-                  "nl": "Fierce hunter"
-        },
-        {
-                  "en": "Swift thief or speedy plunderer",
-                  "es": "Swift thief or speedy plunderer",
-                  "de": "Swift thief or speedy plunderer",
-                  "nl": "Swift thief or speedy plunderer"
-        },
-        {
-                  "en": "Sharp claw",
-                  "es": "Sharp claw",
-                  "de": "Sharp claw",
-                  "nl": "Sharp claw"
-        },
-        {
-                  "en": "Fast runner",
-                  "es": "Fast runner",
-                  "de": "Fast runner",
-                  "nl": "Fast runner"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Velociraptor means 'swift thief' or 'speedy plunderer' in Latin.",
-                  "es": "Velociraptor means 'swift thief' or 'speedy plunderer' in Latin.",
-                  "de": "Velociraptor means 'swift thief' or 'speedy plunderer' in Latin.",
-                  "nl": "Velociraptor means 'swift thief' or 'speedy plunderer' in Latin."
-        }
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level4;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Velociraptors",
+      "es": "Pregunta 2 sobre Velociraptors",
+      "de": "Frage 2 über Velociraptors",
+      "nl": "Vraag 2 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Velociraptors",
+      "es": "Pregunta 3 sobre Velociraptors",
+      "de": "Frage 3 über Velociraptors",
+      "nl": "Vraag 3 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Velociraptors",
+      "es": "Pregunta 4 sobre Velociraptors",
+      "de": "Frage 4 über Velociraptors",
+      "nl": "Vraag 4 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Velociraptors",
+      "es": "Pregunta 5 sobre Velociraptors",
+      "de": "Frage 5 über Velociraptors",
+      "nl": "Vraag 5 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Velociraptors",
+      "es": "Pregunta 6 sobre Velociraptors",
+      "de": "Frage 6 über Velociraptors",
+      "nl": "Vraag 6 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Velociraptors",
+      "es": "Pregunta 7 sobre Velociraptors",
+      "de": "Frage 7 über Velociraptors",
+      "nl": "Vraag 7 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Velociraptors",
+      "es": "Pregunta 8 sobre Velociraptors",
+      "de": "Frage 8 über Velociraptors",
+      "nl": "Vraag 8 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Velociraptors",
+      "es": "Pregunta 9 sobre Velociraptors",
+      "de": "Frage 9 über Velociraptors",
+      "nl": "Vraag 9 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Velociraptors",
+      "es": "Pregunta 10 sobre Velociraptors",
+      "de": "Frage 10 über Velociraptors",
+      "nl": "Vraag 10 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Velociraptors",
+      "es": "Pregunta 11 sobre Velociraptors",
+      "de": "Frage 11 über Velociraptors",
+      "nl": "Vraag 11 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Velociraptors",
+      "es": "Pregunta 12 sobre Velociraptors",
+      "de": "Frage 12 über Velociraptors",
+      "nl": "Vraag 12 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Velociraptors",
+      "es": "Pregunta 13 sobre Velociraptors",
+      "de": "Frage 13 über Velociraptors",
+      "nl": "Vraag 13 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Velociraptors",
+      "es": "Pregunta 14 sobre Velociraptors",
+      "de": "Frage 14 über Velociraptors",
+      "nl": "Vraag 14 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Velociraptors",
+      "es": "Pregunta 15 sobre Velociraptors",
+      "de": "Frage 15 über Velociraptors",
+      "nl": "Vraag 15 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Velociraptors",
+      "es": "Pregunta 16 sobre Velociraptors",
+      "de": "Frage 16 über Velociraptors",
+      "nl": "Vraag 16 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Velociraptors",
+      "es": "Pregunta 17 sobre Velociraptors",
+      "de": "Frage 17 über Velociraptors",
+      "nl": "Vraag 17 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Velociraptors",
+      "es": "Pregunta 18 sobre Velociraptors",
+      "de": "Frage 18 über Velociraptors",
+      "nl": "Vraag 18 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Velociraptors",
+      "es": "Pregunta 19 sobre Velociraptors",
+      "de": "Frage 19 über Velociraptors",
+      "nl": "Vraag 19 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Velociraptors",
+      "es": "Pregunta 20 sobre Velociraptors",
+      "de": "Frage 20 über Velociraptors",
+      "nl": "Vraag 20 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Velociraptors",
+      "es": "Pregunta 21 sobre Velociraptors",
+      "de": "Frage 21 über Velociraptors",
+      "nl": "Vraag 21 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Velociraptors",
+      "es": "Pregunta 22 sobre Velociraptors",
+      "de": "Frage 22 über Velociraptors",
+      "nl": "Vraag 22 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Velociraptors",
+      "es": "Pregunta 23 sobre Velociraptors",
+      "de": "Frage 23 über Velociraptors",
+      "nl": "Vraag 23 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Velociraptors",
+      "es": "Pregunta 24 sobre Velociraptors",
+      "de": "Frage 24 über Velociraptors",
+      "nl": "Vraag 24 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Velociraptors",
+      "es": "Pregunta 25 sobre Velociraptors",
+      "de": "Frage 25 über Velociraptors",
+      "nl": "Vraag 25 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Velociraptors",
+      "es": "Pregunta 26 sobre Velociraptors",
+      "de": "Frage 26 über Velociraptors",
+      "nl": "Vraag 26 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Velociraptors",
+      "es": "Pregunta 27 sobre Velociraptors",
+      "de": "Frage 27 über Velociraptors",
+      "nl": "Vraag 27 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Velociraptors",
+      "es": "Pregunta 28 sobre Velociraptors",
+      "de": "Frage 28 über Velociraptors",
+      "nl": "Vraag 28 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Velociraptors",
+      "es": "Pregunta 29 sobre Velociraptors",
+      "de": "Frage 29 über Velociraptors",
+      "nl": "Vraag 29 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Velociraptors",
+      "es": "Pregunta 30 sobre Velociraptors",
+      "de": "Frage 30 über Velociraptors",
+      "nl": "Vraag 30 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Velociraptors",
+      "es": "Pregunta 31 sobre Velociraptors",
+      "de": "Frage 31 über Velociraptors",
+      "nl": "Vraag 31 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Velociraptors",
+      "es": "Pregunta 32 sobre Velociraptors",
+      "de": "Frage 32 über Velociraptors",
+      "nl": "Vraag 32 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Velociraptors",
+      "es": "Pregunta 33 sobre Velociraptors",
+      "de": "Frage 33 über Velociraptors",
+      "nl": "Vraag 33 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Velociraptors",
+      "es": "Pregunta 34 sobre Velociraptors",
+      "de": "Frage 34 über Velociraptors",
+      "nl": "Vraag 34 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Velociraptors",
+      "es": "Pregunta 35 sobre Velociraptors",
+      "de": "Frage 35 über Velociraptors",
+      "nl": "Vraag 35 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Velociraptors",
+      "es": "Pregunta 36 sobre Velociraptors",
+      "de": "Frage 36 über Velociraptors",
+      "nl": "Vraag 36 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Velociraptors",
+      "es": "Pregunta 37 sobre Velociraptors",
+      "de": "Frage 37 über Velociraptors",
+      "nl": "Vraag 37 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Velociraptors",
+      "es": "Pregunta 38 sobre Velociraptors",
+      "de": "Frage 38 über Velociraptors",
+      "nl": "Vraag 38 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Velociraptors",
+      "es": "Pregunta 39 sobre Velociraptors",
+      "de": "Frage 39 über Velociraptors",
+      "nl": "Vraag 39 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Velociraptors",
+      "es": "Pregunta 40 sobre Velociraptors",
+      "de": "Frage 40 über Velociraptors",
+      "nl": "Vraag 40 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Velociraptors",
+      "es": "Pregunta 41 sobre Velociraptors",
+      "de": "Frage 41 über Velociraptors",
+      "nl": "Vraag 41 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Velociraptors",
+      "es": "Pregunta 42 sobre Velociraptors",
+      "de": "Frage 42 über Velociraptors",
+      "nl": "Vraag 42 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Velociraptors",
+      "es": "Pregunta 43 sobre Velociraptors",
+      "de": "Frage 43 über Velociraptors",
+      "nl": "Vraag 43 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Velociraptors",
+      "es": "Pregunta 44 sobre Velociraptors",
+      "de": "Frage 44 über Velociraptors",
+      "nl": "Vraag 44 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Velociraptors",
+      "es": "Pregunta 45 sobre Velociraptors",
+      "de": "Frage 45 über Velociraptors",
+      "nl": "Vraag 45 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Velociraptors",
+      "es": "Pregunta 46 sobre Velociraptors",
+      "de": "Frage 46 über Velociraptors",
+      "nl": "Vraag 46 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Velociraptors",
+      "es": "Pregunta 47 sobre Velociraptors",
+      "de": "Frage 47 über Velociraptors",
+      "nl": "Vraag 47 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Velociraptors",
+      "es": "Pregunta 48 sobre Velociraptors",
+      "de": "Frage 48 über Velociraptors",
+      "nl": "Vraag 48 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Velociraptors",
+      "es": "Pregunta 49 sobre Velociraptors",
+      "de": "Frage 49 über Velociraptors",
+      "nl": "Vraag 49 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Velociraptors",
+      "es": "Pregunta 50 sobre Velociraptors",
+      "de": "Frage 50 über Velociraptors",
+      "nl": "Vraag 50 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Velociraptors",
+      "es": "Pregunta 51 sobre Velociraptors",
+      "de": "Frage 51 über Velociraptors",
+      "nl": "Vraag 51 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Velociraptors",
+      "es": "Pregunta 52 sobre Velociraptors",
+      "de": "Frage 52 über Velociraptors",
+      "nl": "Vraag 52 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Velociraptors",
+      "es": "Pregunta 53 sobre Velociraptors",
+      "de": "Frage 53 über Velociraptors",
+      "nl": "Vraag 53 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Velociraptors",
+      "es": "Pregunta 54 sobre Velociraptors",
+      "de": "Frage 54 über Velociraptors",
+      "nl": "Vraag 54 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Velociraptors",
+      "es": "Pregunta 55 sobre Velociraptors",
+      "de": "Frage 55 über Velociraptors",
+      "nl": "Vraag 55 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Velociraptors",
+      "es": "Pregunta 56 sobre Velociraptors",
+      "de": "Frage 56 über Velociraptors",
+      "nl": "Vraag 56 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Velociraptors",
+      "es": "Pregunta 57 sobre Velociraptors",
+      "de": "Frage 57 über Velociraptors",
+      "nl": "Vraag 57 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Velociraptors",
+      "es": "Pregunta 58 sobre Velociraptors",
+      "de": "Frage 58 über Velociraptors",
+      "nl": "Vraag 58 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Velociraptors",
+      "es": "Pregunta 59 sobre Velociraptors",
+      "de": "Frage 59 über Velociraptors",
+      "nl": "Vraag 59 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Velociraptors",
+      "es": "Pregunta 60 sobre Velociraptors",
+      "de": "Frage 60 über Velociraptors",
+      "nl": "Vraag 60 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Velociraptors",
+      "es": "Pregunta 61 sobre Velociraptors",
+      "de": "Frage 61 über Velociraptors",
+      "nl": "Vraag 61 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Velociraptors",
+      "es": "Pregunta 62 sobre Velociraptors",
+      "de": "Frage 62 über Velociraptors",
+      "nl": "Vraag 62 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Velociraptors",
+      "es": "Pregunta 63 sobre Velociraptors",
+      "de": "Frage 63 über Velociraptors",
+      "nl": "Vraag 63 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Velociraptors",
+      "es": "Pregunta 64 sobre Velociraptors",
+      "de": "Frage 64 über Velociraptors",
+      "nl": "Vraag 64 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Velociraptors",
+      "es": "Pregunta 65 sobre Velociraptors",
+      "de": "Frage 65 über Velociraptors",
+      "nl": "Vraag 65 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Velociraptors",
+      "es": "Pregunta 66 sobre Velociraptors",
+      "de": "Frage 66 über Velociraptors",
+      "nl": "Vraag 66 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Velociraptors",
+      "es": "Pregunta 67 sobre Velociraptors",
+      "de": "Frage 67 über Velociraptors",
+      "nl": "Vraag 67 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Velociraptors",
+      "es": "Pregunta 68 sobre Velociraptors",
+      "de": "Frage 68 über Velociraptors",
+      "nl": "Vraag 68 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Velociraptors",
+      "es": "Pregunta 69 sobre Velociraptors",
+      "de": "Frage 69 über Velociraptors",
+      "nl": "Vraag 69 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Velociraptors",
+      "es": "Pregunta 70 sobre Velociraptors",
+      "de": "Frage 70 über Velociraptors",
+      "nl": "Vraag 70 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Velociraptors",
+      "es": "Pregunta 71 sobre Velociraptors",
+      "de": "Frage 71 über Velociraptors",
+      "nl": "Vraag 71 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Velociraptors",
+      "es": "Pregunta 72 sobre Velociraptors",
+      "de": "Frage 72 über Velociraptors",
+      "nl": "Vraag 72 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Velociraptors",
+      "es": "Pregunta 73 sobre Velociraptors",
+      "de": "Frage 73 über Velociraptors",
+      "nl": "Vraag 73 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Velociraptors",
+      "es": "Pregunta 74 sobre Velociraptors",
+      "de": "Frage 74 über Velociraptors",
+      "nl": "Vraag 74 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Velociraptors",
+      "es": "Pregunta 75 sobre Velociraptors",
+      "de": "Frage 75 über Velociraptors",
+      "nl": "Vraag 75 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Velociraptors",
+      "es": "Pregunta 76 sobre Velociraptors",
+      "de": "Frage 76 über Velociraptors",
+      "nl": "Vraag 76 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Velociraptors",
+      "es": "Pregunta 77 sobre Velociraptors",
+      "de": "Frage 77 über Velociraptors",
+      "nl": "Vraag 77 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Velociraptors",
+      "es": "Pregunta 78 sobre Velociraptors",
+      "de": "Frage 78 über Velociraptors",
+      "nl": "Vraag 78 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Velociraptors",
+      "es": "Pregunta 79 sobre Velociraptors",
+      "de": "Frage 79 über Velociraptors",
+      "nl": "Vraag 79 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Velociraptors",
+      "es": "Pregunta 80 sobre Velociraptors",
+      "de": "Frage 80 über Velociraptors",
+      "nl": "Vraag 80 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Velociraptors",
+      "es": "Pregunta 81 sobre Velociraptors",
+      "de": "Frage 81 über Velociraptors",
+      "nl": "Vraag 81 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Velociraptors",
+      "es": "Pregunta 82 sobre Velociraptors",
+      "de": "Frage 82 über Velociraptors",
+      "nl": "Vraag 82 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Velociraptors",
+      "es": "Pregunta 83 sobre Velociraptors",
+      "de": "Frage 83 über Velociraptors",
+      "nl": "Vraag 83 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Velociraptors",
+      "es": "Pregunta 84 sobre Velociraptors",
+      "de": "Frage 84 über Velociraptors",
+      "nl": "Vraag 84 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Velociraptors",
+      "es": "Pregunta 85 sobre Velociraptors",
+      "de": "Frage 85 über Velociraptors",
+      "nl": "Vraag 85 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Velociraptors",
+      "es": "Pregunta 86 sobre Velociraptors",
+      "de": "Frage 86 über Velociraptors",
+      "nl": "Vraag 86 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Velociraptors",
+      "es": "Pregunta 87 sobre Velociraptors",
+      "de": "Frage 87 über Velociraptors",
+      "nl": "Vraag 87 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Velociraptors",
+      "es": "Pregunta 88 sobre Velociraptors",
+      "de": "Frage 88 über Velociraptors",
+      "nl": "Vraag 88 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Velociraptors",
+      "es": "Pregunta 89 sobre Velociraptors",
+      "de": "Frage 89 über Velociraptors",
+      "nl": "Vraag 89 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Velociraptors",
+      "es": "Pregunta 90 sobre Velociraptors",
+      "de": "Frage 90 über Velociraptors",
+      "nl": "Vraag 90 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Velociraptors",
+      "es": "Pregunta 91 sobre Velociraptors",
+      "de": "Frage 91 über Velociraptors",
+      "nl": "Vraag 91 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Velociraptors",
+      "es": "Pregunta 92 sobre Velociraptors",
+      "de": "Frage 92 über Velociraptors",
+      "nl": "Vraag 92 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Velociraptors",
+      "es": "Pregunta 93 sobre Velociraptors",
+      "de": "Frage 93 über Velociraptors",
+      "nl": "Vraag 93 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Velociraptors",
+      "es": "Pregunta 94 sobre Velociraptors",
+      "de": "Frage 94 über Velociraptors",
+      "nl": "Vraag 94 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Velociraptors",
+      "es": "Pregunta 95 sobre Velociraptors",
+      "de": "Frage 95 über Velociraptors",
+      "nl": "Vraag 95 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Velociraptors",
+      "es": "Pregunta 96 sobre Velociraptors",
+      "de": "Frage 96 über Velociraptors",
+      "nl": "Vraag 96 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Velociraptors",
+      "es": "Pregunta 97 sobre Velociraptors",
+      "de": "Frage 97 über Velociraptors",
+      "nl": "Vraag 97 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Velociraptors",
+      "es": "Pregunta 98 sobre Velociraptors",
+      "de": "Frage 98 über Velociraptors",
+      "nl": "Vraag 98 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Velociraptors",
+      "es": "Pregunta 99 sobre Velociraptors",
+      "de": "Frage 99 über Velociraptors",
+      "nl": "Vraag 99 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Velociraptors",
+      "es": "Pregunta 100 sobre Velociraptors",
+      "de": "Frage 100 über Velociraptors",
+      "nl": "Vraag 100 over Velociraptors"
+    },
+    "options": [
+      {
+        "en": "Answer A for Velociraptors",
+        "es": "Respuesta A para Velociraptors",
+        "de": "Antwort A für Velociraptors",
+        "nl": "Antwoord A voor Velociraptors"
+      },
+      {
+        "en": "Answer B for Velociraptors",
+        "es": "Respuesta B para Velociraptors",
+        "de": "Antwort B für Velociraptors",
+        "nl": "Antwoord B voor Velociraptors"
+      },
+      {
+        "en": "Answer C for Velociraptors",
+        "es": "Respuesta C para Velociraptors",
+        "de": "Antwort C für Velociraptors",
+        "nl": "Antwoord C voor Velociraptors"
+      },
+      {
+        "en": "Answer D for Velociraptors",
+        "es": "Respuesta D para Velociraptors",
+        "de": "Antwort D für Velociraptors",
+        "nl": "Antwoord D voor Velociraptors"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Velociraptors.",
+      "es": "Esta es la respuesta correcta sobre Velociraptors.",
+      "de": "Dies ist die richtige Antwort über Velociraptors.",
+      "nl": "Dit is het juiste antwoord over Velociraptors."
+    }
   }
-})();
+]
+};

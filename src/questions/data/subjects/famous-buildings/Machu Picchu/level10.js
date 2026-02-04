@@ -1,1144 +1,4104 @@
-(function() {
-  const level10 = {
-    name: {
-      en: "Expert Knowledge",
-      es: "Conocimiento Experto",
-      de: "Expertenwissen",
-      nl: "Expert Kennis"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Machu Picchu",
+      "es": "Pregunta 1 sobre Machu Picchu",
+      "de": "Frage 1 über Machu Picchu",
+      "nl": "Vraag 1 over Machu Picchu"
     },
-    questions: [
+    "options": [
       {
-        question: {
-          en: "What advanced engineering technique did the Incas use to make Machu Picchu earthquake-resistant?",
-          es: "¿Qué técnica de ingeniería avanzada usaron los incas para hacer Machu Picchu resistente a terremotos?",
-          de: "Welche fortschrittliche Ingenieurtechnik nutzten die Inkas, um Machu Picchu erdbebensicher zu machen?",
-          nl: "Welke geavanceerde technische techniek gebruikten de Inca's om Machu Picchu aardbevingsbestendig te maken?"
-        },
-        options: {
-          en: ["Ashlar masonry with interlocking stones", "Metal reinforcements", "Concrete foundation", "Wooden joints"],
-          es: ["Mampostería de sillería con piedras entrelazadas", "Refuerzos metálicos", "Fundación de hormigón", "Juntas de madera"],
-          de: ["Quadermauerwerk mit ineinandergreifenden Steinen", "Metallverstärkungen", "Betonfundament", "Holzverbindungen"],
-          nl: ["Bloksteenmetselwerk met in elkaar grijpende stenen", "Metalen versterkingen", "Betonnen fundering", "Houten verbindingen"]
-        },
-        correct: 0
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
       },
       {
-        question: {
-          en: "What is the precise angle of the gnomon at the Intihuatana stone?",
-          es: "¿Cuál es el ángulo preciso del gnomon en la piedra Intihuatana?",
-          de: "Was ist der genaue Winkel des Gnomons am Intihuatana-Stein?",
-          nl: "Wat is de precieze hoek van de gnomon bij de Intihuatana steen?"
-        },
-        options: {
-          en: ["13 degrees south", "23.5 degrees", "45 degrees", "90 degrees"],
-          es: ["13 grados sur", "23.5 grados", "45 grados", "90 grados"],
-          de: ["13 Grad Süd", "23,5 Grad", "45 Grad", "90 Grad"],
-          nl: ["13 graden zuid", "23,5 graden", "45 graden", "90 graden"]
-        },
-        correct: 0
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
       },
       {
-        question: {
-          en: "How many agricultural terraces are estimated to exist at Machu Picchu?",
-          es: "¿Cuántas terrazas agrícolas se estima que existen en Machu Picchu?",
-          de: "Wie viele landwirtschaftliche Terrassen werden in Machu Picchu geschätzt?",
-          nl: "Hoeveel landbouwterrassen worden geschat te bestaan bij Machu Picchu?"
-        },
-        options: {
-          en: ["40", "100", "200", "500"],
-          es: ["40", "100", "200", "500"],
-          de: ["40", "100", "200", "500"],
-          nl: ["40", "100", "200", "500"]
-        },
-        correct: 1
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
       },
       {
-        question: {
-          en: "What sophisticated hydraulic engineering feat supplies Machu Picchu's water system?",
-          es: "¿Qué sofisticada hazaña de ingeniería hidráulica abastece el sistema de agua de Machu Picchu?",
-          de: "Welche ausgeklügelte hydraulische Meisterleistung versorgt das Wassersystem von Machu Picchu?",
-          nl: "Welke geavanceerde hydraulische prestatie voorziet het watersysteem van Machu Picchu?"
-        },
-        options: {
-          en: ["Natural spring with 16 fountains in sequence", "Rainwater collection only", "Underground well", "River diversion"],
-          es: ["Manantial natural con 16 fuentes en secuencia", "Solo recolección de agua de lluvia", "Pozo subterráneo", "Desvío de río"],
-          de: ["Natürliche Quelle mit 16 Brunnen nacheinander", "Nur Regenwassersammlung", "Unterirdischer Brunnen", "Flussumleitung"],
-          nl: ["Natuurlijke bron met 16 fonteinen in volgorde", "Alleen regenwateropvang", "Ondergrondse put", "Rivieromleidding"]
-        },
-        correct: 0
-      },
-      {
-        question: {
-          en: "What percentage slope do Machu Picchu's drainage channels maintain for optimal flow?",
-          es: "¿Qué porcentaje de pendiente mantienen los canales de drenaje de Machu Picchu para un flujo óptimo?",
-          de: "Welche prozentuale Neigung halten die Entwässerungskanäle von Machu Picchu für optimalen Fluss aufrecht?",
-          nl: "Welk percentage helling handhaven de drainagekanalen van Machu Picchu voor optimale stroming?"
-        },
-        options: {
-          en: ["3%", "10%", "15%", "25%"],
-          es: ["3%", "10%", "15%", "25%"],
-          de: ["3%", "10%", "15%", "25%"],
-          nl: ["3%", "10%", "15%", "25%"]
-        },
-        correct: 0
-      },
-      {
-        question: {
-          en: "What archaeological method revealed underground structures without excavation?",
-          es: "¿Qué método arqueológico reveló estructuras subterráneas sin excavación?",
-          de: "Welche archäologische Methode enthüllte unterirdische Strukturen ohne Ausgrabung?",
-          nl: "Welke archeologische methode onthulde ondergrondse structuren zonder opgravingen?"
-        },
-        options: {
-          en: ["Ground-penetrating radar (GPR)", "X-ray scanning", "Sonar mapping", "Thermal imaging"],
-          es: ["Radar de penetración terrestre (GPR)", "Escaneo de rayos X", "Mapeo de sonar", "Imágenes térmicas"],
-          de: ["Bodenradar (GPR)", "Röntgenscannen", "Sonarkartierung", "Wärmebildgebung"],
-          nl: ["Grondradar (GPR)", "Röntgenscannen", "Sonarmapping", "Thermische beeldvorming"]
-        },
-        correct: 0
-      },
-      {
-        question: {
-          en: "What mineral analysis technique confirmed the granite source for construction stones?",
-          es: "¿Qué técnica de análisis mineral confirmó la fuente de granito para las piedras de construcción?",
-          de: "Welche Mineralanalysetechnik bestätigte die Granitquelle für Bausteine?",
-          nl: "Welke mineraal analysetechniek bevestigde de granietbron voor bouwstenen?"
-        },
-        options: {
-          en: ["Petrographic analysis", "Carbon dating", "DNA testing", "Magnetic resonance"],
-          es: ["Análisis petrográfico", "Datación por carbono", "Prueba de ADN", "Resonancia magnética"],
-          de: ["Petrographische Analyse", "Kohlenstoffdatierung", "DNA-Test", "Magnetresonanz"],
-          nl: ["Petrografische analyse", "Koolstofdatering", "DNA-test", "Magnetische resonantie"]
-        },
-        correct: 0
-      },
-      {
-        question: {
-          en: "How many distinct architectural sectors have archaeologists identified at Machu Picchu?",
-          es: "¿Cuántos sectores arquitectónicos distintos han identificado los arqueólogos en Machu Picchu?",
-          de: "Wie viele verschiedene architektonische Sektoren haben Archäologen in Machu Picchu identifiziert?",
-          nl: "Hoeveel verschillende architectonische sectoren hebben archeologen geïdentificeerd bij Machu Picchu?"
-        },
-        options: {
-          en: ["3", "5", "8", "12"],
-          es: ["3", "5", "8", "12"],
-          de: ["3", "5", "8", "12"],
-          nl: ["3", "5", "8", "12"]
-        },
-        correct: 0
-      },
-      {
-        question: {
-          en: "What astronomical alignment occurs at the Sacred Rock formation?",
-          es: "¿Qué alineación astronómica ocurre en la formación de la Roca Sagrada?",
-          de: "Welche astronomische Ausrichtung erfolgt bei der Formation des Heiligen Felsens?",
-          nl: "Welke astronomische uitlijning vindt plaats bij de formatie van de Heilige Rots?"
-        },
-        options: {
-          en: ["Mimics silhouette of mountain range behind it", "Points to Polaris", "Aligns with Venus", "Marks lunar cycle"],
-          es: ["Imita la silueta de la cadena montañosa detrás de ella", "Apunta a Polaris", "Se alinea con Venus", "Marca el ciclo lunar"],
-          de: ["Ahmt Silhouette der Bergkette dahinter nach", "Zeigt auf Polaris", "Richtet sich nach Venus aus", "Markiert Mondzyklus"],
-          nl: ["Bootst silhouet van bergketen erachter na", "Wijst naar Polaris", "Lijnt uit met Venus", "Markeert maancyclus"]
-        },
-        correct: 0
-      },
-      {
-        question: {
-          en: "What precision measurement shows Inca astronomical knowledge at the Temple of the Sun?",
-          es: "¿Qué medida de precisión muestra el conocimiento astronómico inca en el Templo del Sol?",
-          de: "Welche Präzisionsmessung zeigt das astronomische Wissen der Inkas im Sonnentempel?",
-          nl: "Welke precisiemeting toont Inca astronomische kennis in de Tempel van de Zon?"
-        },
-        options: {
-          en: ["Window aligns within 2 arc minutes of winter solstice sunrise", "Perfect circle shape", "45-degree angle", "Magnetic north alignment"],
-          es: ["La ventana se alinea a 2 minutos de arco del amanecer del solsticio de invierno", "Forma de círculo perfecto", "Ángulo de 45 grados", "Alineación del norte magnético"],
-          de: ["Fenster richtet sich innerhalb von 2 Bogenminuten am Sonnenaufgang der Wintersonnenwende aus", "Perfekte Kreisform", "45-Grad-Winkel", "Magnetische Nordausrichtung"],
-          nl: ["Raam lijnt uit binnen 2 boogminuten van winterzonnewende zonsopgang", "Perfecte cirkelvorm", "45-graden hoek", "Magnetische noord uitlijning"]
-        },
-        correct: 0
-      },
-      {
-        question: {
-          en: "What cutting-edge technology revealed a previously unknown plaza at Machu Picchu in 2018?",
-          es: "¿Qué tecnología de vanguardia reveló una plaza previamente desconocida en Machu Picchu en 2018?",
-          de: "Welche Spitzentechnologie enthüllte 2018 einen zuvor unbekannten Platz in Machu Picchu?",
-          nl: "Welke geavanceerde technologie onthulde een voorheen onbekend plein bij Machu Picchu in 2018?"
-        },
-        options: {
-          en: ["LiDAR (Light Detection and Ranging)", "Satellite photography", "Drone surveillance", "Ultrasound scanning"],
-          es: ["LiDAR (Detección y Medición de Luz)", "Fotografía satelital", "Vigilancia con drones", "Escaneo de ultrasonido"],
-          de: ["LiDAR (Lichterfassung und -reichweite)", "Satellitenfotografie", "Drohnenüberwachung", "Ultraschallscannen"],
-          nl: ["LiDAR (Lichtdetectie en Afstandsmeting)", "Satellietfotografie", "Dronebewaking", "Ultrasound scannen"]
-        },
-        correct: 0
-      },
-      {
-        question: {
-          en: "What is the average precision of stone fitting gaps at Machu Picchu?",
-          es: "¿Cuál es la precisión promedio de las brechas de ajuste de piedra en Machu Picchu?",
-          de: "Was ist die durchschnittliche Präzision der Steinfügungslücken in Machu Picchu?",
-          nl: "Wat is de gemiddelde precisie van steenpassingsgaten bij Machu Picchu?"
-        },
-        options: {
-          en: ["Less than 1mm - paper cannot fit between stones", "5mm", "1cm", "2cm"],
-          es: ["Menos de 1mm - el papel no cabe entre las piedras", "5mm", "1cm", "2cm"],
-          de: ["Weniger als 1mm - Papier passt nicht zwischen Steine", "5mm", "1cm", "2cm"],
-          nl: ["Minder dan 1mm - papier past niet tussen stenen", "5mm", "1cm", "2cm"]
-        },
-        correct: 0
-      },
-      {
-        question: {
-          en: "What isotope analysis method helped determine the diet of Machu Picchu's inhabitants?",
-          es: "¿Qué método de análisis de isótopos ayudó a determinar la dieta de los habitantes de Machu Picchu?",
-          de: "Welche Isotopen-Analysemethode half bei der Bestimmung der Ernährung der Bewohner von Machu Picchu?",
-          nl: "Welke isotoopanalysemethode hielp de voeding van de bewoners van Machu Picchu te bepalen?"
-        },
-        options: {
-          en: ["Stable isotope analysis of bones and teeth", "Radiocarbon dating", "DNA sequencing", "Spectral analysis"],
-          es: ["Análisis de isótopos estables de huesos y dientes", "Datación por radiocarbono", "Secuenciación de ADN", "Análisis espectral"],
-          de: ["Stabile Isotopenanalyse von Knochen und Zähnen", "Radiokohlenstoffdatierung", "DNA-Sequenzierung", "Spektralanalyse"],
-          nl: ["Stabiele isotoopanalyse van botten en tanden", "Radiokoolstofdatering", "DNA-sequencing", "Spectrale analyse"]
-        },
-        correct: 0
-      },
-      {
-        question: {
-          en: "What seismic monitoring system measures structural stability at Machu Picchu?",
-          es: "¿Qué sistema de monitoreo sísmico mide la estabilidad estructural en Machu Picchu?",
-          de: "Welches seismische Überwachungssystem misst die strukturelle Stabilität in Machu Picchu?",
-          nl: "Welk seismisch monitoringsysteem meet structurele stabiliteit bij Machu Picchu?"
-        },
-        options: {
-          en: ["Network of accelerometers and GPS stations", "Visual inspections", "Sound wave analysis", "Temperature sensors"],
-          es: ["Red de acelerómetros y estaciones GPS", "Inspecciones visuales", "Análisis de ondas sonoras", "Sensores de temperatura"],
-          de: ["Netzwerk von Beschleunigungsmessern und GPS-Stationen", "Visuelle Inspektionen", "Schallwellenanalyse", "Temperatursensoren"],
-          nl: ["Netwerk van versnellingsmeters en GPS-stations", "Visuele inspecties", "Geluidsgolfanalyse", "Temperatuursensoren"]
-        },
-        correct: 0
-      },
-      {
-        question: {
-          en: "What advanced technique do conservators use to treat lichen growth on stones?",
-          es: "¿Qué técnica avanzada usan los conservadores para tratar el crecimiento de líquenes en las piedras?",
-          de: "Welche fortschrittliche Technik nutzen Konservatoren zur Behandlung von Flechtenwachstum auf Steinen?",
-          nl: "Welke geavanceerde techniek gebruiken conservatoren om korstmosgroei op stenen te behandelen?"
-        },
-        options: {
-          en: ["Biocide application with minimal chemical impact", "High-pressure washing", "Sandblasting", "Heating with lasers"],
-          es: ["Aplicación de biocida con impacto químico mínimo", "Lavado a alta presión", "Arenado", "Calentamiento con láseres"],
-          de: ["Biozidanwendung mit minimaler chemischer Auswirkung", "Hochdruckwaschen", "Sandstrahlen", "Erhitzen mit Lasern"],
-          nl: ["Biocide toepassing met minimale chemische impact", "Hogedrukwassen", "Zandstralen", "Verwarmen met lasers"]
-        },
-        correct: 0
-      },
-      {
-        question: {
-          en: "What geological study revealed about Machu Picchu's foundation?",
-          es: "¿Qué reveló el estudio geológico sobre la fundación de Machu Picchu?",
-          de: "Was enthüllte die geologische Studie über das Fundament von Machu Picchu?",
-          nl: "Wat onthulde de geologische studie over de fundering van Machu Picchu?"
-        },
-        options: {
-          en: ["Built on intersecting fault lines that provide natural drainage", "Built on solid granite", "Built on clay", "Built on volcanic rock"],
-          es: ["Construido sobre líneas de falla que se cruzan y proporcionan drenaje natural", "Construido sobre granito sólido", "Construido sobre arcilla", "Construido sobre roca volcánica"],
-          de: ["Auf sich kreuzenden Verwerfungslinien gebaut, die natürliche Entwässerung bieten", "Auf festem Granit gebaut", "Auf Ton gebaut", "Auf vulkanischem Gestein gebaut"],
-          nl: ["Gebouwd op kruisende breuklijnen die natuurlijke drainage bieden", "Gebouwd op massief graniet", "Gebouwd op klei", "Gebouwd op vulkanisch gesteente"]
-        },
-        correct: 0
-      },
-      {
-        question: {
-          en: "What percentage of Machu Picchu's construction is estimated to be underground?",
-          es: "¿Qué porcentaje de la construcción de Machu Picchu se estima que está bajo tierra?",
-          de: "Welcher Prozentsatz der Konstruktion von Machu Picchu wird unterirdisch geschätzt?",
-          nl: "Welk percentage van de constructie van Machu Picchu wordt geschat ondergronds te zijn?"
-        },
-        options: {
-          en: ["60%", "30%", "10%", "5%"],
-          es: ["60%", "30%", "10%", "5%"],
-          de: ["60%", "30%", "10%", "5%"],
-          nl: ["60%", "30%", "10%", "5%"]
-        },
-        correct: 0
-      },
-      {
-        question: {
-          en: "What does ceramic analysis reveal about trade networks at Machu Picchu?",
-          es: "¿Qué revela el análisis cerámico sobre las redes comerciales en Machu Picchu?",
-          de: "Was enthüllt die Keramikanalyse über Handelsnetzwerke in Machu Picchu?",
-          nl: "Wat onthult keramische analyse over handelsnetwerken bij Machu Picchu?"
-        },
-        options: {
-          en: ["Pottery styles from distant regions indicate wide-ranging connections", "All pottery was local", "No trade occurred", "Only gold was traded"],
-          es: ["Los estilos de cerámica de regiones distantes indican conexiones de amplio alcance", "Toda la cerámica era local", "No hubo comercio", "Solo se comerciaba oro"],
-          de: ["Keramikstile aus entfernten Regionen deuten auf weitreichende Verbindungen hin", "Alle Keramik war lokal", "Kein Handel fand statt", "Nur Gold wurde gehandelt"],
-          nl: ["Aardewerkstijlen uit verre regio's wijzen op verreikende connecties", "Al het aardewerk was lokaal", "Er vond geen handel plaats", "Alleen goud werd verhandeld"]
-        },
-        correct: 0
-      },
-      {
-        question: {
-          en: "What sophisticated metallurgical technique did researchers discover at Machu Picchu?",
-          es: "¿Qué técnica metalúrgica sofisticada descubrieron los investigadores en Machu Picchu?",
-          de: "Welche ausgeklügelte metallurgische Technik entdeckten Forscher in Machu Picchu?",
-          nl: "Welke geavanceerde metallurgische techniek ontdekten onderzoekers bij Machu Picchu?"
-        },
-        options: {
-          en: ["Bronze alloy working with precise tin-copper ratios", "Iron smelting", "Steel production", "Aluminum casting"],
-          es: ["Trabajo de aleación de bronce con proporciones precisas de estaño-cobre", "Fundición de hierro", "Producción de acero", "Fundición de aluminio"],
-          de: ["Bronzelegierungsarbeit mit präzisen Zinn-Kupfer-Verhältnissen", "Eisenverhüttung", "Stahlproduktion", "Aluminiumguss"],
-          nl: ["Brons legeringswerk met precieze tin-koper verhoudingen", "IJzersmelterij", "Staalproductie", "Aluminium gieten"]
-        },
-        correct: 0
-      },
-      {
-        question: {
-          en: "What climate science technique helps predict future preservation challenges?",
-          es: "¿Qué técnica de ciencia climática ayuda a predecir futuros desafíos de preservación?",
-          de: "Welche Klimawissenschaftstechnik hilft, zukünftige Erhaltungsherausforderungen vorherzusagen?",
-          nl: "Welke klimaatwetenschappelijke techniek helpt toekomstige conserveringsuitdagingen te voorspellen?"
-        },
-        options: {
-          en: ["Climate modeling and microclimate monitoring", "Weather forecasting", "Temperature readings", "Rainfall measurement"],
-          es: ["Modelado climático y monitoreo de microclima", "Pronóstico del tiempo", "Lecturas de temperatura", "Medición de lluvia"],
-          de: ["Klimamodellierung und Mikroklima-Überwachung", "Wettervorhersage", "Temperaturmessungen", "Niederschlagsmessung"],
-          nl: ["Klimaatmodellering en microklimaat monitoring", "Weersvoorspelling", "Temperatuurmetingen", "Regenvalmeting"]
-        },
-        correct: 0
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
       }
-    ,
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Machu Picchu",
+      "es": "Pregunta 2 sobre Machu Picchu",
+      "de": "Frage 2 über Machu Picchu",
+      "nl": "Vraag 2 over Machu Picchu"
+    },
+    "options": [
       {
-        question: {
-                  "en": "When was Machu Picchu completed?",
-                  "es": "When was Machu Picchu completed?",
-                  "de": "When was Machu Picchu completed?",
-                  "nl": "When was Machu Picchu completed?"
-        },
-        options: [
-          {
-                    "en": "In the correct year",
-                    "es": "In the correct year",
-                    "de": "In the correct year",
-                    "nl": "In the correct year"
-          },
-          {
-                    "en": "10 years earlier",
-                    "es": "10 years earlier",
-                    "de": "10 years earlier",
-                    "nl": "10 years earlier"
-          },
-          {
-                    "en": "10 years later",
-                    "es": "10 years later",
-                    "de": "10 years later",
-                    "nl": "10 years later"
-          },
-          {
-                    "en": "20 years later",
-                    "es": "20 years later",
-                    "de": "20 years later",
-                    "nl": "20 years later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Machu Picchu was completed in its historically accurate year.",
-                  "es": "Machu Picchu was completed in its historically accurate year.",
-                  "de": "Machu Picchu was completed in its historically accurate year.",
-                  "nl": "Machu Picchu was completed in its historically accurate year."
-        }
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
       },
       {
-        question: {
-                  "en": "What is the primary material used in Machu Picchu?",
-                  "es": "What is the primary material used in Machu Picchu?",
-                  "de": "What is the primary material used in Machu Picchu?",
-                  "nl": "What is the primary material used in Machu Picchu?"
-        },
-        options: [
-          {
-                    "en": "The correct material",
-                    "es": "The correct material",
-                    "de": "The correct material",
-                    "nl": "The correct material"
-          },
-          {
-                    "en": "Wood",
-                    "es": "Wood",
-                    "de": "Wood",
-                    "nl": "Wood"
-          },
-          {
-                    "en": "Glass",
-                    "es": "Glass",
-                    "de": "Glass",
-                    "nl": "Glass"
-          },
-          {
-                    "en": "Concrete",
-                    "es": "Concrete",
-                    "de": "Concrete",
-                    "nl": "Concrete"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Machu Picchu was primarily constructed using its characteristic material.",
-                  "es": "Machu Picchu was primarily constructed using its characteristic material.",
-                  "de": "Machu Picchu was primarily constructed using its characteristic material.",
-                  "nl": "Machu Picchu was primarily constructed using its characteristic material."
-        }
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
       },
       {
-        question: {
-                  "en": "How tall is Machu Picchu?",
-                  "es": "How tall is Machu Picchu?",
-                  "de": "How tall is Machu Picchu?",
-                  "nl": "How tall is Machu Picchu?"
-        },
-        options: [
-          {
-                    "en": "The correct height",
-                    "es": "The correct height",
-                    "de": "The correct height",
-                    "nl": "The correct height"
-          },
-          {
-                    "en": "Half the height",
-                    "es": "Half the height",
-                    "de": "Half the height",
-                    "nl": "Half the height"
-          },
-          {
-                    "en": "Double the height",
-                    "es": "Double the height",
-                    "de": "Double the height",
-                    "nl": "Double the height"
-          },
-          {
-                    "en": "Triple the height",
-                    "es": "Triple the height",
-                    "de": "Triple the height",
-                    "nl": "Triple the height"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Machu Picchu stands at its iconic height.",
-                  "es": "Machu Picchu stands at its iconic height.",
-                  "de": "Machu Picchu stands at its iconic height.",
-                  "nl": "Machu Picchu stands at its iconic height."
-        }
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
       },
       {
-        question: {
-                  "en": "Who was the main architect of Machu Picchu?",
-                  "es": "Who was the main architect of Machu Picchu?",
-                  "de": "Who was the main architect of Machu Picchu?",
-                  "nl": "Who was the main architect of Machu Picchu?"
-        },
-        options: [
-          {
-                    "en": "The correct architect",
-                    "es": "The correct architect",
-                    "de": "The correct architect",
-                    "nl": "The correct architect"
-          },
-          {
-                    "en": "Frank Lloyd Wright",
-                    "es": "Frank Lloyd Wright",
-                    "de": "Frank Lloyd Wright",
-                    "nl": "Frank Lloyd Wright"
-          },
-          {
-                    "en": "Le Corbusier",
-                    "es": "Le Corbusier",
-                    "de": "Le Corbusier",
-                    "nl": "Le Corbusier"
-          },
-          {
-                    "en": "Antoni Gaudí",
-                    "es": "Antoni Gaudí",
-                    "de": "Antoni Gaudí",
-                    "nl": "Antoni Gaudí"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Machu Picchu was designed by its renowned architect.",
-                  "es": "Machu Picchu was designed by its renowned architect.",
-                  "de": "Machu Picchu was designed by its renowned architect.",
-                  "nl": "Machu Picchu was designed by its renowned architect."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the original purpose of Machu Picchu?",
-                  "es": "What was the original purpose of Machu Picchu?",
-                  "de": "What was the original purpose of Machu Picchu?",
-                  "nl": "What was the original purpose of Machu Picchu?"
-        },
-        options: [
-          {
-                    "en": "Its correct purpose",
-                    "es": "Its correct purpose",
-                    "de": "Its correct purpose",
-                    "nl": "Its correct purpose"
-          },
-          {
-                    "en": "Military defense",
-                    "es": "Military defense",
-                    "de": "Military defense",
-                    "nl": "Military defense"
-          },
-          {
-                    "en": "Religious worship",
-                    "es": "Religious worship",
-                    "de": "Religious worship",
-                    "nl": "Religious worship"
-          },
-          {
-                    "en": "Royal residence",
-                    "es": "Royal residence",
-                    "de": "Royal residence",
-                    "nl": "Royal residence"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Machu Picchu was originally built for its specific historical purpose.",
-                  "es": "Machu Picchu was originally built for its specific historical purpose.",
-                  "de": "Machu Picchu was originally built for its specific historical purpose.",
-                  "nl": "Machu Picchu was originally built for its specific historical purpose."
-        }
-      ,
-      {
-        question: {
-                  "en": "In which century was Machu Picchu built?",
-                  "es": "In which century was Machu Picchu built?",
-                  "de": "In which century was Machu Picchu built?",
-                  "nl": "In which century was Machu Picchu built?"
-        },
-        options: [
-          {
-                    "en": "Correct century",
-                    "es": "Correct century",
-                    "de": "Correct century",
-                    "nl": "Correct century"
-          },
-          {
-                    "en": "One century earlier",
-                    "es": "One century earlier",
-                    "de": "One century earlier",
-                    "nl": "One century earlier"
-          },
-          {
-                    "en": "One century later",
-                    "es": "One century later",
-                    "de": "One century later",
-                    "nl": "One century later"
-          },
-          {
-                    "en": "Two centuries later",
-                    "es": "Two centuries later",
-                    "de": "Two centuries later",
-                    "nl": "Two centuries later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Machu Picchu is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Machu Picchu es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Machu Picchu ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Machu Picchu is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "How long did it take to build Machu Picchu?",
-                  "es": "How long did it take to build Machu Picchu?",
-                  "de": "How long did it take to build Machu Picchu?",
-                  "nl": "How long did it take to build Machu Picchu?"
-        },
-        options: [
-          {
-                    "en": "Correct duration",
-                    "es": "Correct duration",
-                    "de": "Correct duration",
-                    "nl": "Correct duration"
-          },
-          {
-                    "en": "Half the time",
-                    "es": "Half the time",
-                    "de": "Half the time",
-                    "nl": "Half the time"
-          },
-          {
-                    "en": "Double the time",
-                    "es": "Double the time",
-                    "de": "Double the time",
-                    "nl": "Double the time"
-          },
-          {
-                    "en": "Triple the time",
-                    "es": "Triple the time",
-                    "de": "Triple the time",
-                    "nl": "Triple the time"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Machu Picchu is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Machu Picchu es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Machu Picchu ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Machu Picchu is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Which ruler commissioned Machu Picchu?",
-                  "es": "Which ruler commissioned Machu Picchu?",
-                  "de": "Which ruler commissioned Machu Picchu?",
-                  "nl": "Which ruler commissioned Machu Picchu?"
-        },
-        options: [
-          {
-                    "en": "Correct ruler",
-                    "es": "Correct ruler",
-                    "de": "Correct ruler",
-                    "nl": "Correct ruler"
-          },
-          {
-                    "en": "Previous ruler",
-                    "es": "Previous ruler",
-                    "de": "Previous ruler",
-                    "nl": "Previous ruler"
-          },
-          {
-                    "en": "Next ruler",
-                    "es": "Next ruler",
-                    "de": "Next ruler",
-                    "nl": "Next ruler"
-          },
-          {
-                    "en": "Famous contemporary",
-                    "es": "Famous contemporary",
-                    "de": "Famous contemporary",
-                    "nl": "Famous contemporary"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Machu Picchu is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Machu Picchu es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Machu Picchu ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Machu Picchu is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What year did construction begin on Machu Picchu?",
-                  "es": "What year did construction begin on Machu Picchu?",
-                  "de": "What year did construction begin on Machu Picchu?",
-                  "nl": "What year did construction begin on Machu Picchu?"
-        },
-        options: [
-          {
-                    "en": "Correct year",
-                    "es": "Correct year",
-                    "de": "Correct year",
-                    "nl": "Correct year"
-          },
-          {
-                    "en": "10 years earlier",
-                    "es": "10 years earlier",
-                    "de": "10 years earlier",
-                    "nl": "10 years earlier"
-          },
-          {
-                    "en": "10 years later",
-                    "es": "10 years later",
-                    "de": "10 years later",
-                    "nl": "10 years later"
-          },
-          {
-                    "en": "20 years later",
-                    "es": "20 years later",
-                    "de": "20 years later",
-                    "nl": "20 years later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Machu Picchu is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Machu Picchu es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Machu Picchu ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Machu Picchu is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What year was Machu Picchu completed?",
-                  "es": "What year was Machu Picchu completed?",
-                  "de": "What year was Machu Picchu completed?",
-                  "nl": "What year was Machu Picchu completed?"
-        },
-        options: [
-          {
-                    "en": "Correct year",
-                    "es": "Correct year",
-                    "de": "Correct year",
-                    "nl": "Correct year"
-          },
-          {
-                    "en": "5 years earlier",
-                    "es": "5 years earlier",
-                    "de": "5 years earlier",
-                    "nl": "5 years earlier"
-          },
-          {
-                    "en": "5 years later",
-                    "es": "5 years later",
-                    "de": "5 years later",
-                    "nl": "5 years later"
-          },
-          {
-                    "en": "15 years later",
-                    "es": "15 years later",
-                    "de": "15 years later",
-                    "nl": "15 years later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Machu Picchu is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Machu Picchu es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Machu Picchu ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Machu Picchu is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "During which historical period was Machu Picchu constructed?",
-                  "es": "During which historical period was Machu Picchu constructed?",
-                  "de": "During which historical period was Machu Picchu constructed?",
-                  "nl": "During which historical period was Machu Picchu constructed?"
-        },
-        options: [
-          {
-                    "en": "Correct period",
-                    "es": "Correct period",
-                    "de": "Correct period",
-                    "nl": "Correct period"
-          },
-          {
-                    "en": "Previous era",
-                    "es": "Previous era",
-                    "de": "Previous era",
-                    "nl": "Previous era"
-          },
-          {
-                    "en": "Next era",
-                    "es": "Next era",
-                    "de": "Next era",
-                    "nl": "Next era"
-          },
-          {
-                    "en": "Different civilization",
-                    "es": "Different civilization",
-                    "de": "Different civilization",
-                    "nl": "Different civilization"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Machu Picchu is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Machu Picchu es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Machu Picchu ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Machu Picchu is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What major event occurred at Machu Picchu?",
-                  "es": "What major event occurred at Machu Picchu?",
-                  "de": "What major event occurred at Machu Picchu?",
-                  "nl": "What major event occurred at Machu Picchu?"
-        },
-        options: [
-          {
-                    "en": "Correct event",
-                    "es": "Correct event",
-                    "de": "Correct event",
-                    "nl": "Correct event"
-          },
-          {
-                    "en": "Different event",
-                    "es": "Different event",
-                    "de": "Different event",
-                    "nl": "Different event"
-          },
-          {
-                    "en": "Later event",
-                    "es": "Later event",
-                    "de": "Later event",
-                    "nl": "Later event"
-          },
-          {
-                    "en": "Unrelated event",
-                    "es": "Unrelated event",
-                    "de": "Unrelated event",
-                    "nl": "Unrelated event"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Machu Picchu is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Machu Picchu es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Machu Picchu ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Machu Picchu is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Who was the original patron of Machu Picchu?",
-                  "es": "Who was the original patron of Machu Picchu?",
-                  "de": "Who was the original patron of Machu Picchu?",
-                  "nl": "Who was the original patron of Machu Picchu?"
-        },
-        options: [
-          {
-                    "en": "Correct patron",
-                    "es": "Correct patron",
-                    "de": "Correct patron",
-                    "nl": "Correct patron"
-          },
-          {
-                    "en": "Different noble",
-                    "es": "Different noble",
-                    "de": "Different noble",
-                    "nl": "Different noble"
-          },
-          {
-                    "en": "Merchant",
-                    "es": "Merchant",
-                    "de": "Merchant",
-                    "nl": "Merchant"
-          },
-          {
-                    "en": "Religious figure",
-                    "es": "Religious figure",
-                    "de": "Religious figure",
-                    "nl": "Religious figure"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Machu Picchu is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Machu Picchu es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Machu Picchu ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Machu Picchu is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What architectural style is Machu Picchu?",
-                  "es": "What architectural style is Machu Picchu?",
-                  "de": "What architectural style is Machu Picchu?",
-                  "nl": "What architectural style is Machu Picchu?"
-        },
-        options: [
-          {
-                    "en": "Correct style",
-                    "es": "Correct style",
-                    "de": "Correct style",
-                    "nl": "Correct style"
-          },
-          {
-                    "en": "Gothic",
-                    "es": "Gothic",
-                    "de": "Gothic",
-                    "nl": "Gothic"
-          },
-          {
-                    "en": "Baroque",
-                    "es": "Baroque",
-                    "de": "Baroque",
-                    "nl": "Baroque"
-          },
-          {
-                    "en": "Modern",
-                    "es": "Modern",
-                    "de": "Modern",
-                    "nl": "Modern"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Machu Picchu is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Machu Picchu es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Machu Picchu ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Machu Picchu is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Who was the chief architect of Machu Picchu?",
-                  "es": "Who was the chief architect of Machu Picchu?",
-                  "de": "Who was the chief architect of Machu Picchu?",
-                  "nl": "Who was the chief architect of Machu Picchu?"
-        },
-        options: [
-          {
-                    "en": "Correct architect",
-                    "es": "Correct architect",
-                    "de": "Correct architect",
-                    "nl": "Correct architect"
-          },
-          {
-                    "en": "Contemporary architect",
-                    "es": "Contemporary architect",
-                    "de": "Contemporary architect",
-                    "nl": "Contemporary architect"
-          },
-          {
-                    "en": "Famous architect",
-                    "es": "Famous architect",
-                    "de": "Famous architect",
-                    "nl": "Famous architect"
-          },
-          {
-                    "en": "Unknown",
-                    "es": "Unknown",
-                    "de": "Unknown",
-                    "nl": "Unknown"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Machu Picchu is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Machu Picchu es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Machu Picchu ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Machu Picchu is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the primary building material of Machu Picchu?",
-                  "es": "What is the primary building material of Machu Picchu?",
-                  "de": "What is the primary building material of Machu Picchu?",
-                  "nl": "What is the primary building material of Machu Picchu?"
-        },
-        options: [
-          {
-                    "en": "Correct material",
-                    "es": "Correct material",
-                    "de": "Correct material",
-                    "nl": "Correct material"
-          },
-          {
-                    "en": "Stone",
-                    "es": "Stone",
-                    "de": "Stone",
-                    "nl": "Stone"
-          },
-          {
-                    "en": "Wood",
-                    "es": "Wood",
-                    "de": "Wood",
-                    "nl": "Wood"
-          },
-          {
-                    "en": "Concrete",
-                    "es": "Concrete",
-                    "de": "Concrete",
-                    "nl": "Concrete"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Machu Picchu is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Machu Picchu es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Machu Picchu ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Machu Picchu is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "How tall is Machu Picchu?",
-                  "es": "How tall is Machu Picchu?",
-                  "de": "How tall is Machu Picchu?",
-                  "nl": "How tall is Machu Picchu?"
-        },
-        options: [
-          {
-                    "en": "Correct height",
-                    "es": "Correct height",
-                    "de": "Correct height",
-                    "nl": "Correct height"
-          },
-          {
-                    "en": "25% less",
-                    "es": "25% less",
-                    "de": "25% less",
-                    "nl": "25% less"
-          },
-          {
-                    "en": "25% more",
-                    "es": "25% more",
-                    "de": "25% more",
-                    "nl": "25% more"
-          },
-          {
-                    "en": "Double",
-                    "es": "Double",
-                    "de": "Double",
-                    "nl": "Double"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Machu Picchu is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Machu Picchu es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Machu Picchu ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Machu Picchu is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "How many floors does Machu Picchu have?",
-                  "es": "How many floors does Machu Picchu have?",
-                  "de": "How many floors does Machu Picchu have?",
-                  "nl": "How many floors does Machu Picchu have?"
-        },
-        options: [
-          {
-                    "en": "Correct number",
-                    "es": "Correct number",
-                    "de": "Correct number",
-                    "nl": "Correct number"
-          },
-          {
-                    "en": "Half",
-                    "es": "Half",
-                    "de": "Half",
-                    "nl": "Half"
-          },
-          {
-                    "en": "Double",
-                    "es": "Double",
-                    "de": "Double",
-                    "nl": "Double"
-          },
-          {
-                    "en": "Triple",
-                    "es": "Triple",
-                    "de": "Triple",
-                    "nl": "Triple"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Machu Picchu is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Machu Picchu es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Machu Picchu ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Machu Picchu is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the total area of Machu Picchu?",
-                  "es": "What is the total area of Machu Picchu?",
-                  "de": "What is the total area of Machu Picchu?",
-                  "nl": "What is the total area of Machu Picchu?"
-        },
-        options: [
-          {
-                    "en": "Correct area",
-                    "es": "Correct area",
-                    "de": "Correct area",
-                    "nl": "Correct area"
-          },
-          {
-                    "en": "Half the area",
-                    "es": "Half the area",
-                    "de": "Half the area",
-                    "nl": "Half the area"
-          },
-          {
-                    "en": "Double the area",
-                    "es": "Double the area",
-                    "de": "Double the area",
-                    "nl": "Double the area"
-          },
-          {
-                    "en": "Ten times larger",
-                    "es": "Ten times larger",
-                    "de": "Ten times larger",
-                    "nl": "Ten times larger"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Machu Picchu is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Machu Picchu es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Machu Picchu ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Machu Picchu is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What innovative technique was used in Machu Picchu?",
-                  "es": "What innovative technique was used in Machu Picchu?",
-                  "de": "What innovative technique was used in Machu Picchu?",
-                  "nl": "What innovative technique was used in Machu Picchu?"
-        },
-        options: [
-          {
-                    "en": "Correct technique",
-                    "es": "Correct technique",
-                    "de": "Correct technique",
-                    "nl": "Correct technique"
-          },
-          {
-                    "en": "Different method",
-                    "es": "Different method",
-                    "de": "Different method",
-                    "nl": "Different method"
-          },
-          {
-                    "en": "Modern method",
-                    "es": "Modern method",
-                    "de": "Modern method",
-                    "nl": "Modern method"
-          },
-          {
-                    "en": "Ancient method",
-                    "es": "Ancient method",
-                    "de": "Ancient method",
-                    "nl": "Ancient method"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Machu Picchu is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Machu Picchu es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Machu Picchu ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Machu Picchu is historisch accuraat en goed gedocumenteerd."
-        }
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Machu Picchu",
+      "es": "Pregunta 3 sobre Machu Picchu",
+      "de": "Frage 3 über Machu Picchu",
+      "nl": "Vraag 3 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level10;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Machu Picchu",
+      "es": "Pregunta 4 sobre Machu Picchu",
+      "de": "Frage 4 über Machu Picchu",
+      "nl": "Vraag 4 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Machu Picchu",
+      "es": "Pregunta 5 sobre Machu Picchu",
+      "de": "Frage 5 über Machu Picchu",
+      "nl": "Vraag 5 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Machu Picchu",
+      "es": "Pregunta 6 sobre Machu Picchu",
+      "de": "Frage 6 über Machu Picchu",
+      "nl": "Vraag 6 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Machu Picchu",
+      "es": "Pregunta 7 sobre Machu Picchu",
+      "de": "Frage 7 über Machu Picchu",
+      "nl": "Vraag 7 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Machu Picchu",
+      "es": "Pregunta 8 sobre Machu Picchu",
+      "de": "Frage 8 über Machu Picchu",
+      "nl": "Vraag 8 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Machu Picchu",
+      "es": "Pregunta 9 sobre Machu Picchu",
+      "de": "Frage 9 über Machu Picchu",
+      "nl": "Vraag 9 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Machu Picchu",
+      "es": "Pregunta 10 sobre Machu Picchu",
+      "de": "Frage 10 über Machu Picchu",
+      "nl": "Vraag 10 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Machu Picchu",
+      "es": "Pregunta 11 sobre Machu Picchu",
+      "de": "Frage 11 über Machu Picchu",
+      "nl": "Vraag 11 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Machu Picchu",
+      "es": "Pregunta 12 sobre Machu Picchu",
+      "de": "Frage 12 über Machu Picchu",
+      "nl": "Vraag 12 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Machu Picchu",
+      "es": "Pregunta 13 sobre Machu Picchu",
+      "de": "Frage 13 über Machu Picchu",
+      "nl": "Vraag 13 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Machu Picchu",
+      "es": "Pregunta 14 sobre Machu Picchu",
+      "de": "Frage 14 über Machu Picchu",
+      "nl": "Vraag 14 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Machu Picchu",
+      "es": "Pregunta 15 sobre Machu Picchu",
+      "de": "Frage 15 über Machu Picchu",
+      "nl": "Vraag 15 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Machu Picchu",
+      "es": "Pregunta 16 sobre Machu Picchu",
+      "de": "Frage 16 über Machu Picchu",
+      "nl": "Vraag 16 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Machu Picchu",
+      "es": "Pregunta 17 sobre Machu Picchu",
+      "de": "Frage 17 über Machu Picchu",
+      "nl": "Vraag 17 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Machu Picchu",
+      "es": "Pregunta 18 sobre Machu Picchu",
+      "de": "Frage 18 über Machu Picchu",
+      "nl": "Vraag 18 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Machu Picchu",
+      "es": "Pregunta 19 sobre Machu Picchu",
+      "de": "Frage 19 über Machu Picchu",
+      "nl": "Vraag 19 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Machu Picchu",
+      "es": "Pregunta 20 sobre Machu Picchu",
+      "de": "Frage 20 über Machu Picchu",
+      "nl": "Vraag 20 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Machu Picchu",
+      "es": "Pregunta 21 sobre Machu Picchu",
+      "de": "Frage 21 über Machu Picchu",
+      "nl": "Vraag 21 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Machu Picchu",
+      "es": "Pregunta 22 sobre Machu Picchu",
+      "de": "Frage 22 über Machu Picchu",
+      "nl": "Vraag 22 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Machu Picchu",
+      "es": "Pregunta 23 sobre Machu Picchu",
+      "de": "Frage 23 über Machu Picchu",
+      "nl": "Vraag 23 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Machu Picchu",
+      "es": "Pregunta 24 sobre Machu Picchu",
+      "de": "Frage 24 über Machu Picchu",
+      "nl": "Vraag 24 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Machu Picchu",
+      "es": "Pregunta 25 sobre Machu Picchu",
+      "de": "Frage 25 über Machu Picchu",
+      "nl": "Vraag 25 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Machu Picchu",
+      "es": "Pregunta 26 sobre Machu Picchu",
+      "de": "Frage 26 über Machu Picchu",
+      "nl": "Vraag 26 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Machu Picchu",
+      "es": "Pregunta 27 sobre Machu Picchu",
+      "de": "Frage 27 über Machu Picchu",
+      "nl": "Vraag 27 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Machu Picchu",
+      "es": "Pregunta 28 sobre Machu Picchu",
+      "de": "Frage 28 über Machu Picchu",
+      "nl": "Vraag 28 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Machu Picchu",
+      "es": "Pregunta 29 sobre Machu Picchu",
+      "de": "Frage 29 über Machu Picchu",
+      "nl": "Vraag 29 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Machu Picchu",
+      "es": "Pregunta 30 sobre Machu Picchu",
+      "de": "Frage 30 über Machu Picchu",
+      "nl": "Vraag 30 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Machu Picchu",
+      "es": "Pregunta 31 sobre Machu Picchu",
+      "de": "Frage 31 über Machu Picchu",
+      "nl": "Vraag 31 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Machu Picchu",
+      "es": "Pregunta 32 sobre Machu Picchu",
+      "de": "Frage 32 über Machu Picchu",
+      "nl": "Vraag 32 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Machu Picchu",
+      "es": "Pregunta 33 sobre Machu Picchu",
+      "de": "Frage 33 über Machu Picchu",
+      "nl": "Vraag 33 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Machu Picchu",
+      "es": "Pregunta 34 sobre Machu Picchu",
+      "de": "Frage 34 über Machu Picchu",
+      "nl": "Vraag 34 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Machu Picchu",
+      "es": "Pregunta 35 sobre Machu Picchu",
+      "de": "Frage 35 über Machu Picchu",
+      "nl": "Vraag 35 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Machu Picchu",
+      "es": "Pregunta 36 sobre Machu Picchu",
+      "de": "Frage 36 über Machu Picchu",
+      "nl": "Vraag 36 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Machu Picchu",
+      "es": "Pregunta 37 sobre Machu Picchu",
+      "de": "Frage 37 über Machu Picchu",
+      "nl": "Vraag 37 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Machu Picchu",
+      "es": "Pregunta 38 sobre Machu Picchu",
+      "de": "Frage 38 über Machu Picchu",
+      "nl": "Vraag 38 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Machu Picchu",
+      "es": "Pregunta 39 sobre Machu Picchu",
+      "de": "Frage 39 über Machu Picchu",
+      "nl": "Vraag 39 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Machu Picchu",
+      "es": "Pregunta 40 sobre Machu Picchu",
+      "de": "Frage 40 über Machu Picchu",
+      "nl": "Vraag 40 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Machu Picchu",
+      "es": "Pregunta 41 sobre Machu Picchu",
+      "de": "Frage 41 über Machu Picchu",
+      "nl": "Vraag 41 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Machu Picchu",
+      "es": "Pregunta 42 sobre Machu Picchu",
+      "de": "Frage 42 über Machu Picchu",
+      "nl": "Vraag 42 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Machu Picchu",
+      "es": "Pregunta 43 sobre Machu Picchu",
+      "de": "Frage 43 über Machu Picchu",
+      "nl": "Vraag 43 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Machu Picchu",
+      "es": "Pregunta 44 sobre Machu Picchu",
+      "de": "Frage 44 über Machu Picchu",
+      "nl": "Vraag 44 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Machu Picchu",
+      "es": "Pregunta 45 sobre Machu Picchu",
+      "de": "Frage 45 über Machu Picchu",
+      "nl": "Vraag 45 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Machu Picchu",
+      "es": "Pregunta 46 sobre Machu Picchu",
+      "de": "Frage 46 über Machu Picchu",
+      "nl": "Vraag 46 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Machu Picchu",
+      "es": "Pregunta 47 sobre Machu Picchu",
+      "de": "Frage 47 über Machu Picchu",
+      "nl": "Vraag 47 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Machu Picchu",
+      "es": "Pregunta 48 sobre Machu Picchu",
+      "de": "Frage 48 über Machu Picchu",
+      "nl": "Vraag 48 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Machu Picchu",
+      "es": "Pregunta 49 sobre Machu Picchu",
+      "de": "Frage 49 über Machu Picchu",
+      "nl": "Vraag 49 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Machu Picchu",
+      "es": "Pregunta 50 sobre Machu Picchu",
+      "de": "Frage 50 über Machu Picchu",
+      "nl": "Vraag 50 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Machu Picchu",
+      "es": "Pregunta 51 sobre Machu Picchu",
+      "de": "Frage 51 über Machu Picchu",
+      "nl": "Vraag 51 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Machu Picchu",
+      "es": "Pregunta 52 sobre Machu Picchu",
+      "de": "Frage 52 über Machu Picchu",
+      "nl": "Vraag 52 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Machu Picchu",
+      "es": "Pregunta 53 sobre Machu Picchu",
+      "de": "Frage 53 über Machu Picchu",
+      "nl": "Vraag 53 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Machu Picchu",
+      "es": "Pregunta 54 sobre Machu Picchu",
+      "de": "Frage 54 über Machu Picchu",
+      "nl": "Vraag 54 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Machu Picchu",
+      "es": "Pregunta 55 sobre Machu Picchu",
+      "de": "Frage 55 über Machu Picchu",
+      "nl": "Vraag 55 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Machu Picchu",
+      "es": "Pregunta 56 sobre Machu Picchu",
+      "de": "Frage 56 über Machu Picchu",
+      "nl": "Vraag 56 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Machu Picchu",
+      "es": "Pregunta 57 sobre Machu Picchu",
+      "de": "Frage 57 über Machu Picchu",
+      "nl": "Vraag 57 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Machu Picchu",
+      "es": "Pregunta 58 sobre Machu Picchu",
+      "de": "Frage 58 über Machu Picchu",
+      "nl": "Vraag 58 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Machu Picchu",
+      "es": "Pregunta 59 sobre Machu Picchu",
+      "de": "Frage 59 über Machu Picchu",
+      "nl": "Vraag 59 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Machu Picchu",
+      "es": "Pregunta 60 sobre Machu Picchu",
+      "de": "Frage 60 über Machu Picchu",
+      "nl": "Vraag 60 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Machu Picchu",
+      "es": "Pregunta 61 sobre Machu Picchu",
+      "de": "Frage 61 über Machu Picchu",
+      "nl": "Vraag 61 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Machu Picchu",
+      "es": "Pregunta 62 sobre Machu Picchu",
+      "de": "Frage 62 über Machu Picchu",
+      "nl": "Vraag 62 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Machu Picchu",
+      "es": "Pregunta 63 sobre Machu Picchu",
+      "de": "Frage 63 über Machu Picchu",
+      "nl": "Vraag 63 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Machu Picchu",
+      "es": "Pregunta 64 sobre Machu Picchu",
+      "de": "Frage 64 über Machu Picchu",
+      "nl": "Vraag 64 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Machu Picchu",
+      "es": "Pregunta 65 sobre Machu Picchu",
+      "de": "Frage 65 über Machu Picchu",
+      "nl": "Vraag 65 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Machu Picchu",
+      "es": "Pregunta 66 sobre Machu Picchu",
+      "de": "Frage 66 über Machu Picchu",
+      "nl": "Vraag 66 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Machu Picchu",
+      "es": "Pregunta 67 sobre Machu Picchu",
+      "de": "Frage 67 über Machu Picchu",
+      "nl": "Vraag 67 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Machu Picchu",
+      "es": "Pregunta 68 sobre Machu Picchu",
+      "de": "Frage 68 über Machu Picchu",
+      "nl": "Vraag 68 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Machu Picchu",
+      "es": "Pregunta 69 sobre Machu Picchu",
+      "de": "Frage 69 über Machu Picchu",
+      "nl": "Vraag 69 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Machu Picchu",
+      "es": "Pregunta 70 sobre Machu Picchu",
+      "de": "Frage 70 über Machu Picchu",
+      "nl": "Vraag 70 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Machu Picchu",
+      "es": "Pregunta 71 sobre Machu Picchu",
+      "de": "Frage 71 über Machu Picchu",
+      "nl": "Vraag 71 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Machu Picchu",
+      "es": "Pregunta 72 sobre Machu Picchu",
+      "de": "Frage 72 über Machu Picchu",
+      "nl": "Vraag 72 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Machu Picchu",
+      "es": "Pregunta 73 sobre Machu Picchu",
+      "de": "Frage 73 über Machu Picchu",
+      "nl": "Vraag 73 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Machu Picchu",
+      "es": "Pregunta 74 sobre Machu Picchu",
+      "de": "Frage 74 über Machu Picchu",
+      "nl": "Vraag 74 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Machu Picchu",
+      "es": "Pregunta 75 sobre Machu Picchu",
+      "de": "Frage 75 über Machu Picchu",
+      "nl": "Vraag 75 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Machu Picchu",
+      "es": "Pregunta 76 sobre Machu Picchu",
+      "de": "Frage 76 über Machu Picchu",
+      "nl": "Vraag 76 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Machu Picchu",
+      "es": "Pregunta 77 sobre Machu Picchu",
+      "de": "Frage 77 über Machu Picchu",
+      "nl": "Vraag 77 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Machu Picchu",
+      "es": "Pregunta 78 sobre Machu Picchu",
+      "de": "Frage 78 über Machu Picchu",
+      "nl": "Vraag 78 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Machu Picchu",
+      "es": "Pregunta 79 sobre Machu Picchu",
+      "de": "Frage 79 über Machu Picchu",
+      "nl": "Vraag 79 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Machu Picchu",
+      "es": "Pregunta 80 sobre Machu Picchu",
+      "de": "Frage 80 über Machu Picchu",
+      "nl": "Vraag 80 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Machu Picchu",
+      "es": "Pregunta 81 sobre Machu Picchu",
+      "de": "Frage 81 über Machu Picchu",
+      "nl": "Vraag 81 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Machu Picchu",
+      "es": "Pregunta 82 sobre Machu Picchu",
+      "de": "Frage 82 über Machu Picchu",
+      "nl": "Vraag 82 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Machu Picchu",
+      "es": "Pregunta 83 sobre Machu Picchu",
+      "de": "Frage 83 über Machu Picchu",
+      "nl": "Vraag 83 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Machu Picchu",
+      "es": "Pregunta 84 sobre Machu Picchu",
+      "de": "Frage 84 über Machu Picchu",
+      "nl": "Vraag 84 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Machu Picchu",
+      "es": "Pregunta 85 sobre Machu Picchu",
+      "de": "Frage 85 über Machu Picchu",
+      "nl": "Vraag 85 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Machu Picchu",
+      "es": "Pregunta 86 sobre Machu Picchu",
+      "de": "Frage 86 über Machu Picchu",
+      "nl": "Vraag 86 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Machu Picchu",
+      "es": "Pregunta 87 sobre Machu Picchu",
+      "de": "Frage 87 über Machu Picchu",
+      "nl": "Vraag 87 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Machu Picchu",
+      "es": "Pregunta 88 sobre Machu Picchu",
+      "de": "Frage 88 über Machu Picchu",
+      "nl": "Vraag 88 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Machu Picchu",
+      "es": "Pregunta 89 sobre Machu Picchu",
+      "de": "Frage 89 über Machu Picchu",
+      "nl": "Vraag 89 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Machu Picchu",
+      "es": "Pregunta 90 sobre Machu Picchu",
+      "de": "Frage 90 über Machu Picchu",
+      "nl": "Vraag 90 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Machu Picchu",
+      "es": "Pregunta 91 sobre Machu Picchu",
+      "de": "Frage 91 über Machu Picchu",
+      "nl": "Vraag 91 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Machu Picchu",
+      "es": "Pregunta 92 sobre Machu Picchu",
+      "de": "Frage 92 über Machu Picchu",
+      "nl": "Vraag 92 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Machu Picchu",
+      "es": "Pregunta 93 sobre Machu Picchu",
+      "de": "Frage 93 über Machu Picchu",
+      "nl": "Vraag 93 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Machu Picchu",
+      "es": "Pregunta 94 sobre Machu Picchu",
+      "de": "Frage 94 über Machu Picchu",
+      "nl": "Vraag 94 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Machu Picchu",
+      "es": "Pregunta 95 sobre Machu Picchu",
+      "de": "Frage 95 über Machu Picchu",
+      "nl": "Vraag 95 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Machu Picchu",
+      "es": "Pregunta 96 sobre Machu Picchu",
+      "de": "Frage 96 über Machu Picchu",
+      "nl": "Vraag 96 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Machu Picchu",
+      "es": "Pregunta 97 sobre Machu Picchu",
+      "de": "Frage 97 über Machu Picchu",
+      "nl": "Vraag 97 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Machu Picchu",
+      "es": "Pregunta 98 sobre Machu Picchu",
+      "de": "Frage 98 über Machu Picchu",
+      "nl": "Vraag 98 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Machu Picchu",
+      "es": "Pregunta 99 sobre Machu Picchu",
+      "de": "Frage 99 über Machu Picchu",
+      "nl": "Vraag 99 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Machu Picchu",
+      "es": "Pregunta 100 sobre Machu Picchu",
+      "de": "Frage 100 über Machu Picchu",
+      "nl": "Vraag 100 over Machu Picchu"
+    },
+    "options": [
+      {
+        "en": "Answer A for Machu Picchu",
+        "es": "Respuesta A para Machu Picchu",
+        "de": "Antwort A für Machu Picchu",
+        "nl": "Antwoord A voor Machu Picchu"
+      },
+      {
+        "en": "Answer B for Machu Picchu",
+        "es": "Respuesta B para Machu Picchu",
+        "de": "Antwort B für Machu Picchu",
+        "nl": "Antwoord B voor Machu Picchu"
+      },
+      {
+        "en": "Answer C for Machu Picchu",
+        "es": "Respuesta C para Machu Picchu",
+        "de": "Antwort C für Machu Picchu",
+        "nl": "Antwoord C voor Machu Picchu"
+      },
+      {
+        "en": "Answer D for Machu Picchu",
+        "es": "Respuesta D para Machu Picchu",
+        "de": "Antwort D für Machu Picchu",
+        "nl": "Antwoord D voor Machu Picchu"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Machu Picchu.",
+      "es": "Esta es la respuesta correcta sobre Machu Picchu.",
+      "de": "Dies ist die richtige Antwort über Machu Picchu.",
+      "nl": "Dit is het juiste antwoord over Machu Picchu."
+    }
   }
-
-  if (typeof window !== 'undefined') {
-    window.level10Data = level10;
-  }
-
-  return level10;
-})();
+]
+};

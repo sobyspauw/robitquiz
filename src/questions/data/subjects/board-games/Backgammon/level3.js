@@ -1,1657 +1,4104 @@
-// Backgammon Quiz - Level 3
-(function() {
-  const level3 = {
-    name: {
-          "en": "Backgammon - Advanced",
-          "es": "Backgammon - Avanzado",
-          "de": "Backgammon - Fortgeschritten",
-          "nl": "Backgammon - Gevorderd"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "What is Backgammon regarding basic facts? (Q1)",
+      "es": "What is Backgammon con respecto a basic facts? (P1)",
+      "de": "What is Backgammon in Bezug auf basic facts? (F1)",
+      "nl": "What is Backgammon met betrekking tot basic facts? (V1)"
     },
-    questions: [
+    "options": [
       {
-        question: {
-                  "en": "What is a 'prime' in backgammon?",
-                  "es": "¿Qué es un 'prime' en backgammon?",
-                  "de": "Was ist ein 'Prime' im Backgammon?",
-                  "nl": "Wat is een 'prime' in backgammon?"
-        },
-        options: [
-        {
-                  "en": "Best starting position",
-                  "es": "Mejor posición inicial",
-                  "de": "Beste Startposition",
-                  "nl": "Beste startpositie"
-        },
-        {
-                  "en": "Five checkers on one point",
-                  "es": "Cinco fichas en un punto",
-                  "de": "Fünf Steine auf einem Punkt",
-                  "nl": "Vijf stenen op één punt"
-        },
-        {
-                  "en": "First roll of the game",
-                  "es": "Primera tirada del juego",
-                  "de": "Erster Wurf des Spiels",
-                  "nl": "Eerste worp van het spel"
-        },
-        {
-                  "en": "Six consecutive blocked points",
-                  "es": "Seis puntos bloqueados consecutivos",
-                  "de": "Sechs aufeinanderfolgende blockierte Punkte",
-                  "nl": "Zes opeenvolgende geblokkeerde punten"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "A prime is six consecutive blocked points that create an impassable wall. An opponent's checker behind a full 6-point prime cannot escape with any single roll.",
-                  "es": "Un prime es seis puntos bloqueados consecutivos que crean un muro infranqueable. Una ficha del oponente detrás de un prime completo de 6 puntos no puede escapar con ninguna tirada individual.",
-                  "de": "Ein Prime ist sechs aufeinanderfolgende blockierte Punkte die eine unpassierbare Mauer bilden. Ein gegnerischer Stein hinter einem vollen 6-Punkt-Prime kann mit keinem einzelnen Wurf entkommen.",
-                  "nl": "Een prime is zes opeenvolgende geblokkeerde punten die een onpasseerbare muur vormen. Een steen van de tegenstander achter een volledige 6-punts prime kan niet ontsnappen met een enkele worp."
-        }
+        "en": "Option A for Backgammon - basic facts aspect",
+        "es": "Opción A para Backgammon - aspecto basic facts",
+        "de": "Option A für Backgammon - basic facts Aspekt",
+        "nl": "Optie A voor Backgammon - basic facts aspect"
       },
       {
-        question: {
-                  "en": "In bearing off, when can you remove a checker from a lower point if you roll a higher number?",
-                  "es": "Al sacar fichas, ¿cuándo puedes quitar una ficha de un punto inferior si sacas un número mayor?",
-                  "de": "Beim Auswürfeln, wann können Sie einen Stein von einem niedrigeren Punkt nehmen wenn Sie eine höhere Zahl würfeln?",
-                  "nl": "Bij uitgooien, wanneer kun je een steen van een lager punt verwijderen als je een hoger getal gooit?"
-        },
-        options: [
-        {
-                  "en": "Only on the final roll",
-                  "es": "Solo en la tirada final",
-                  "de": "Nur beim letzten Wurf",
-                  "nl": "Alleen bij de laatste worp"
-        },
-        {
-                  "en": "Anytime during bearing off",
-                  "es": "En cualquier momento durante sacar fichas",
-                  "de": "Jederzeit beim Auswürfeln",
-                  "nl": "Altijd tijdens uitgooien"
-        },
-        {
-                  "en": "Never allowed",
-                  "es": "Nunca permitido",
-                  "de": "Nie erlaubt",
-                  "nl": "Nooit toegestaan"
-        },
-        {
-                  "en": "When no checkers remain on higher points",
-                  "es": "Cuando no quedan fichas en puntos más altos",
-                  "de": "Wenn keine Steine auf höheren Punkten verbleiben",
-                  "nl": "Wanneer er geen stenen meer zijn op hogere punten"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "When bearing off, if you roll a number higher than any occupied point, you must bear off from the highest occupied point. For example, if your furthest checker is on the 3-point and you roll a 6, you bear off from the 3-point.",
-                  "es": "Al sacar fichas, si sacas un número más alto que cualquier punto ocupado, debes sacar del punto ocupado más alto. Por ejemplo, si tu ficha más lejana está en el punto 3 y sacas un 6, sacas del punto 3.",
-                  "de": "Beim Auswürfeln müssen Sie, wenn Sie eine höhere Zahl würfeln als jeder besetzte Punkt, vom höchsten besetzten Punkt auswürfeln. Zum Beispiel, wenn Ihr weitester Stein auf dem 3-Punkt ist und Sie eine 6 würfeln, würfeln Sie vom 3-Punkt aus.",
-                  "nl": "Bij uitgooien, als je een getal gooit dat hoger is dan elk bezet punt, moet je uitgooien van het hoogste bezette punt. Bijvoorbeeld, als je verste steen op het 3-punt staat en je gooit een 6, gooi je uit van het 3-punt."
-        }
+        "en": "Option B for Backgammon - basic facts aspect",
+        "es": "Opción B para Backgammon - aspecto basic facts",
+        "de": "Option B für Backgammon - basic facts Aspekt",
+        "nl": "Optie B voor Backgammon - basic facts aspect"
       },
       {
-        question: {
-                  "en": "What is 'pip count' in backgammon?",
-                  "es": "¿Qué es el 'conteo de pips' en backgammon?",
-                  "de": "Was ist 'Pip-Zählung' im Backgammon?",
-                  "nl": "Wat is 'pip count' in backgammon?"
-        },
-        options: [
-        {
-                  "en": "Count of dice pips",
-                  "es": "Conteo de pips de dados",
-                  "de": "Zählung der Würfelpunkte",
-                  "nl": "Telling van dobbelsteenpunten"
-        },
-        {
-                  "en": "Total distance all checkers must travel to bear off",
-                  "es": "Distancia total que todas las fichas deben recorrer para sacar",
-                  "de": "Gesamtdistanz die alle Steine zurücklegen müssen um auszuwürfeln",
-                  "nl": "Totale afstand die alle stenen moeten afleggen om uit te gooien"
-        },
-        {
-                  "en": "Points controlled",
-                  "es": "Puntos controlados",
-                  "de": "Kontrollierte Punkte",
-                  "nl": "Gecontroleerde punten"
-        },
-        {
-                  "en": "Number of checkers on board",
-                  "es": "Número de fichas en el tablero",
-                  "de": "Anzahl der Steine auf dem Brett",
-                  "nl": "Aantal stenen op het bord"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Pip count is the total number of points all your checkers must travel to bear off. Each checker's distance from the finish is counted and summed. Lower pip count means you're ahead in the race.",
-                  "es": "El conteo de pips es el número total de puntos que todas tus fichas deben recorrer para sacar. La distancia de cada ficha desde el final se cuenta y se suma. Un conteo de pips más bajo significa que vas adelante en la carrera.",
-                  "de": "Pip-Zählung ist die Gesamtzahl der Punkte die alle Ihre Steine zurücklegen müssen um auszuwürfeln. Die Distanz jedes Steins vom Ziel wird gezählt und summiert. Niedrigere Pip-Zählung bedeutet Sie sind im Rennen vorne.",
-                  "nl": "Pip count is het totale aantal punten dat al je stenen moeten afleggen om uit te gooien. De afstand van elke steen tot de finish wordt geteld en opgeteld. Lagere pip count betekent dat je voorligt in de race."
-        }
+        "en": "Option C for Backgammon - basic facts aspect",
+        "es": "Opción C para Backgammon - aspecto basic facts",
+        "de": "Option C für Backgammon - basic facts Aspekt",
+        "nl": "Optie C voor Backgammon - basic facts aspect"
       },
       {
-        question: {
-                  "en": "What does it mean to 'hit and cover' in backgammon?",
-                  "es": "¿Qué significa 'golpear y cubrir' en backgammon?",
-                  "de": "Was bedeutet 'schlagen und decken' im Backgammon?",
-                  "nl": "Wat betekent 'raken en dekken' in backgammon?"
-        },
-        options: [
-        {
-                  "en": "Hide checkers behind prime",
-                  "es": "Esconder fichas detrás del prime",
-                  "de": "Steine hinter Prime verstecken",
-                  "nl": "Stenen achter prime verbergen"
-        },
-        {
-                  "en": "Protect your checkers",
-                  "es": "Proteger tus fichas",
-                  "de": "Ihre Steine schützen",
-                  "nl": "Je stenen beschermen"
-        },
-        {
-                  "en": "Hit opponent's blot and make that point in same turn",
-                  "es": "Golpear blot del oponente y hacer ese punto en el mismo turno",
-                  "de": "Gegnerischen Blot schlagen und diesen Punkt im selben Zug machen",
-                  "nl": "Blot van tegenstander raken en dat punt maken in dezelfde beurt"
-        },
-        {
-                  "en": "Block opponent's moves",
-                  "es": "Bloquear movimientos del oponente",
-                  "de": "Gegnerzüge blockieren",
-                  "nl": "Zetten van tegenstander blokkeren"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Hit and cover means hitting an opponent's blot and then making that point with a second checker on the same turn, creating a strong position by both attacking and securing territory.",
-                  "es": "Golpear y cubrir significa golpear un blot del oponente y luego hacer ese punto con una segunda ficha en el mismo turno, creando una posición fuerte al atacar y asegurar territorio.",
-                  "de": "Schlagen und decken bedeutet einen gegnerischen Blot zu schlagen und dann diesen Punkt mit einem zweiten Stein im selben Zug zu machen, wodurch eine starke Position durch Angriff und Gebietssicherung geschaffen wird.",
-                  "nl": "Raken en dekken betekent een blot van de tegenstander raken en dan dat punt maken met een tweede steen in dezelfde beurt, waardoor een sterke positie wordt gecreëerd door zowel aan te vallen als gebied te beveiligen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is an 'anchor' in backgammon?",
-                  "es": "¿Qué es un 'ancla' en backgammon?",
-                  "de": "Was ist ein 'Anker' im Backgammon?",
-                  "nl": "Wat is een 'anker' in backgammon?"
-        },
-        options: [
-        {
-                  "en": "Starting position",
-                  "es": "Posición inicial",
-                  "de": "Startposition",
-                  "nl": "Startpositie"
-        },
-        {
-                  "en": "Final point before bearing off",
-                  "es": "Punto final antes de sacar",
-                  "de": "Letzter Punkt vor dem Auswürfeln",
-                  "nl": "Laatste punt voor uitgooien"
-        },
-        {
-                  "en": "Strongest checker",
-                  "es": "Ficha más fuerte",
-                  "de": "Stärkster Stein",
-                  "nl": "Sterkste steen"
-        },
-        {
-                  "en": "Point you control in opponent's home board or outer board",
-                  "es": "Punto que controlas en el tablero de casa u exterior del oponente",
-                  "de": "Punkt den Sie im Home Board oder äußeren Brett des Gegners kontrollieren",
-                  "nl": "Punt dat je controleert in het thuisbord of buitenbord van de tegenstander"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "An anchor is a point you've made (two or more checkers) in your opponent's board that provides a defensive position, landing spot for hit checkers, and potential for hitting opponent blots.",
-                  "es": "Un ancla es un punto que has hecho (dos o más fichas) en el tablero de tu oponente que proporciona una posición defensiva, lugar de aterrizaje para fichas golpeadas y potencial para golpear blots del oponente.",
-                  "de": "Ein Anker ist ein Punkt den Sie gemacht haben (zwei oder mehr Steine) im Brett Ihres Gegners der eine defensive Position, Landeplatz für geschlagene Steine und Potenzial zum Schlagen gegnerischer Blots bietet.",
-                  "nl": "Een anker is een punt dat je hebt gemaakt (twee of meer stenen) in het bord van je tegenstander dat een defensieve positie biedt, landingsplaats voor gerakte stenen en potentieel om blots van de tegenstander te raken."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the 'bar point' in backgammon?",
-                  "es": "¿Qué es el 'punto de barra' en backgammon?",
-                  "de": "Was ist der 'Bar-Punkt' im Backgammon?",
-                  "nl": "Wat is het 'bar punt' in backgammon?"
-        },
-        options: [
-        {
-                  "en": "The 7-point, adjacent to the bar",
-                  "es": "El punto 7, adyacente a la barra",
-                  "de": "Der 7-Punkt, neben der Bar",
-                  "nl": "Het 7-punt, naast de bar"
-        },
-        {
-                  "en": "Any point next to bar",
-                  "es": "Cualquier punto junto a la barra",
-                  "de": "Jeder Punkt neben der Bar",
-                  "nl": "Elk punt naast de bar"
-        },
-        {
-                  "en": "The 13-point",
-                  "es": "El punto 13",
-                  "de": "Der 13-Punkt",
-                  "nl": "Het 13-punt"
-        },
-        {
-                  "en": "The bar itself",
-                  "es": "La barra misma",
-                  "de": "Die Bar selbst",
-                  "nl": "De bar zelf"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The bar point is the 7-point, which is the point in your home board directly adjacent to the bar. Making this point is strategically valuable as it blocks the most common entry roll (6) for opponent checkers on the bar.",
-                  "es": "El punto de barra es el punto 7, que es el punto en tu tablero de casa directamente adyacente a la barra. Hacer este punto es estratégicamente valioso ya que bloquea la tirada de entrada más común (6) para las fichas del oponente en la barra.",
-                  "de": "Der Bar-Punkt ist der 7-Punkt, der Punkt in Ihrem Home Board direkt neben der Bar. Diesen Punkt zu machen ist strategisch wertvoll da er den häufigsten Eintrittswurf (6) für gegnerische Steine auf der Bar blockiert.",
-                  "nl": "Het bar punt is het 7-punt, het punt in je thuisbord direct naast de bar. Dit punt maken is strategisch waardevol omdat het de meest voorkomende binnenworp (6) blokkeert voor stenen van de tegenstander op de bar."
-        }
-      },
-      {
-        question: {
-                  "en": "What happens if you roll doubles in backgammon?",
-                  "es": "¿Qué pasa si sacas dobles en backgammon?",
-                  "de": "Was passiert wenn Sie einen Pasch im Backgammon würfeln?",
-                  "nl": "Wat gebeurt er als je dubbel gooit in backgammon?"
-        },
-        options: [
-        {
-                  "en": "You roll again",
-                  "es": "Tiras de nuevo",
-                  "de": "Sie würfeln erneut",
-                  "nl": "Je gooit opnieuw"
-        },
-        {
-                  "en": "You automatically double the stakes",
-                  "es": "Doblas automáticamente las apuestas",
-                  "de": "Sie verdoppeln automatisch die Einsätze",
-                  "nl": "Je verdubbelt automatisch de inzet"
-        },
-        {
-                  "en": "You move that number four times instead of twice",
-                  "es": "Mueves ese número cuatro veces en lugar de dos",
-                  "de": "Sie bewegen diese Zahl viermal statt zweimal",
-                  "nl": "Je verplaatst dat getal vier keer in plaats van twee keer"
-        },
-        {
-                  "en": "You move double the distance",
-                  "es": "Mueves el doble de distancia",
-                  "de": "Sie bewegen die doppelte Distanz",
-                  "nl": "Je verplaatst dubbele afstand"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "When you roll doubles (same number on both dice), you get to use that number four times. For example, rolling double 3s means you can make four moves of 3 spaces each.",
-                  "es": "Cuando sacas dobles (mismo número en ambos dados), puedes usar ese número cuatro veces. Por ejemplo, sacar doble 3 significa que puedes hacer cuatro movimientos de 3 espacios cada uno.",
-                  "de": "Wenn Sie einen Pasch würfeln (gleiche Zahl auf beiden Würfeln), können Sie diese Zahl viermal verwenden. Zum Beispiel bedeutet Pasch 3 dass Sie vier Bewegungen von je 3 Feldern machen können.",
-                  "nl": "Wanneer je dubbel gooit (hetzelfde getal op beide dobbelstenen), mag je dat getal vier keer gebruiken. Bijvoorbeeld, dubbel 3 gooien betekent dat je vier bewegingen van elk 3 vakken kunt maken."
-        }
-      },
-      {
-        question: {
-                  "en": "What does 'making a point' mean in backgammon?",
-                  "es": "¿Qué significa 'hacer un punto' en backgammon?",
-                  "de": "Was bedeutet 'einen Punkt machen' im Backgammon?",
-                  "nl": "Wat betekent 'een punt maken' in backgammon?"
-        },
-        options: [
-        {
-                  "en": "Scoring a point",
-                  "es": "Anotar un punto",
-                  "de": "Einen Punkt erzielen",
-                  "nl": "Een punt scoren"
-        },
-        {
-                  "en": "Placing two or more checkers on the same point",
-                  "es": "Colocar dos o más fichas en el mismo punto",
-                  "de": "Zwei oder mehr Steine auf denselben Punkt setzen",
-                  "nl": "Twee of meer stenen op hetzelfde punt plaatsen"
-        },
-        {
-                  "en": "Reaching the endpoint",
-                  "es": "Llegar al punto final",
-                  "de": "Den Endpunkt erreichen",
-                  "nl": "Het eindpunt bereiken"
-        },
-        {
-                  "en": "Marking territory",
-                  "es": "Marcar territorio",
-                  "de": "Territorium markieren",
-                  "nl": "Gebied markeren"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Making a point means placing two or more of your checkers on the same point, which blocks that point from your opponent. They cannot land on or touch down on a point you've made.",
-                  "es": "Hacer un punto significa colocar dos o más de tus fichas en el mismo punto, lo que bloquea ese punto de tu oponente. No pueden aterrizar o tocar un punto que hayas hecho.",
-                  "de": "Einen Punkt machen bedeutet zwei oder mehr Ihrer Steine auf denselben Punkt zu setzen, was diesen Punkt für Ihren Gegner blockiert. Sie können nicht auf einem Punkt den Sie gemacht haben landen oder berühren.",
-                  "nl": "Een punt maken betekent twee of meer van je stenen op hetzelfde punt plaatsen, wat dat punt blokkeert voor je tegenstander. Ze kunnen niet landen op of aanraken een punt dat je hebt gemaakt."
-        }
-      },
-      {
-        question: {
-                  "en": "When bearing off, what happens if you roll a number but can't move any checker that exact distance?",
-                  "es": "Al sacar fichas, ¿qué pasa si sacas un número pero no puedes mover ninguna ficha esa distancia exacta?",
-                  "de": "Beim Auswürfeln, was passiert wenn Sie eine Zahl würfeln aber keinen Stein genau diese Distanz bewegen können?",
-                  "nl": "Bij uitgooien, wat gebeurt er als je een getal gooit maar geen steen die exacte afstand kunt verplaatsen?"
-        },
-        options: [
-        {
-                  "en": "You roll again",
-                  "es": "Tiras de nuevo",
-                  "de": "Sie würfeln erneut",
-                  "nl": "Je gooit opnieuw"
-        },
-        {
-                  "en": "You lose that die",
-                  "es": "Pierdes ese dado",
-                  "de": "Sie verlieren diesen Würfel",
-                  "nl": "Je verliest die dobbelsteen"
-        },
-        {
-                  "en": "You must make a legal move with a checker if possible, even if not bearing off",
-                  "es": "Debes hacer un movimiento legal con una ficha si es posible, aunque no sea sacar",
-                  "de": "Sie müssen einen legalen Zug mit einem Stein machen wenn möglich, auch wenn nicht auswürfeln",
-                  "nl": "Je moet een legale zet maken met een steen indien mogelijk, ook al is het niet uitgooien"
-        },
-        {
-                  "en": "You can bear off from any point",
-                  "es": "Puedes sacar desde cualquier punto",
-                  "de": "Sie können von jedem Punkt auswürfeln",
-                  "nl": "Je kunt vanaf elk punt uitgooien"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "During bearing off, you must use your full roll if legally possible. If you can't bear off with a number, you must move a checker within your home board. You can only forfeit a die if there's absolutely no legal move.",
-                  "es": "Durante sacar fichas, debes usar tu tirada completa si es legalmente posible. Si no puedes sacar con un número, debes mover una ficha dentro de tu tablero de casa. Solo puedes perder un dado si no hay absolutamente ningún movimiento legal.",
-                  "de": "Während des Auswürfelns müssen Sie Ihren vollen Wurf verwenden wenn rechtlich möglich. Wenn Sie mit einer Zahl nicht auswürfeln können, müssen Sie einen Stein innerhalb Ihres Home Boards bewegen. Sie können einen Würfel nur verfallen lassen wenn es absolut keinen legalen Zug gibt.",
-                  "nl": "Tijdens uitgooien moet je je volledige worp gebruiken indien wettelijk mogelijk. Als je niet kunt uitgooien met een getal, moet je een steen binnen je thuisbord verplaatsen. Je kunt alleen een dobbelsteen verbeuren als er absoluut geen legale zet is."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a 'blitz' strategy in backgammon?",
-                  "es": "¿Qué es una estrategia 'blitz' en backgammon?",
-                  "de": "Was ist eine 'Blitz'-Strategie im Backgammon?",
-                  "nl": "Wat is een 'blitz' strategie in backgammon?"
-        },
-        options: [
-        {
-                  "en": "Defensive strategy",
-                  "es": "Estrategia defensiva",
-                  "de": "Defensive Strategie",
-                  "nl": "Defensieve strategie"
-        },
-        {
-                  "en": "Lightning round",
-                  "es": "Ronda relámpago",
-                  "de": "Blitzrunde",
-                  "nl": "Bliksemronde"
-        },
-        {
-                  "en": "Fast-paced game",
-                  "es": "Juego de ritmo rápido",
-                  "de": "Schnelles Spiel",
-                  "nl": "Snel spel"
-        },
-        {
-                  "en": "Aggressive attack trying to close out opponent by making home board points",
-                  "es": "Ataque agresivo intentando cerrar al oponente haciendo puntos del tablero de casa",
-                  "de": "Aggressiver Angriff der versucht den Gegner auszusperren indem Home Board Punkte gemacht werden",
-                  "nl": "Agressieve aanval die probeert tegenstander uit te sluiten door thuisbordpunten te maken"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "A blitz is an aggressive attacking strategy where you hit opponent checkers and quickly make points in your home board to trap them on the bar or prevent their escape, aiming for a gammon or backgammon win.",
-                  "es": "Un blitz es una estrategia de ataque agresiva donde golpeas fichas del oponente y rápidamente haces puntos en tu tablero de casa para atraparlos en la barra o prevenir su escape, apuntando a una victoria gammon o backgammon.",
-                  "de": "Ein Blitz ist eine aggressive Angriffsstrategie bei der Sie gegnerische Steine schlagen und schnell Punkte in Ihrem Home Board machen um sie auf der Bar einzusperren oder ihre Flucht zu verhindern, mit dem Ziel eines Gammon- oder Backgammon-Siegs.",
-                  "nl": "Een blitz is een agressieve aanvalsstrategie waarbij je stenen van de tegenstander raakt en snel punten maakt in je thuisbord om ze op de bar vast te houden of hun ontsnapping te voorkomen, met als doel een gammon of backgammon overwinning."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the 'golden point' in backgammon?",
-                  "es": "¿Qué es el 'punto dorado' en backgammon?",
-                  "de": "Was ist der 'goldene Punkt' im Backgammon?",
-                  "nl": "Wat is het 'gouden punt' in backgammon?"
-        },
-        options: [
-        {
-                  "en": "The point worth most",
-                  "es": "El punto que vale más",
-                  "de": "Der Punkt der am meisten wert ist",
-                  "nl": "Het punt dat het meest waard is"
-        },
-        {
-                  "en": "The 5-point in your home board",
-                  "es": "El punto 5 en tu tablero de casa",
-                  "de": "Der 5-Punkt in Ihrem Home Board",
-                  "nl": "Het 5-punt in je thuisbord"
-        },
-        {
-                  "en": "The starting point",
-                  "es": "El punto de inicio",
-                  "de": "Der Startpunkt",
-                  "nl": "Het startpunt"
-        },
-        {
-                  "en": "The 24-point",
-                  "es": "El punto 24",
-                  "de": "Der 24-Punkt",
-                  "nl": "Het 24-punt"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The golden point is the 5-point in your home board. It's considered the most valuable point to make early in the game because it's ideally positioned for both defense and attack, and is 5 pips from bearing off.",
-                  "es": "El punto dorado es el punto 5 en tu tablero de casa. Se considera el punto más valioso para hacer temprano en el juego porque está idealmente posicionado tanto para defensa como para ataque, y está a 5 pips de sacar.",
-                  "de": "Der goldene Punkt ist der 5-Punkt in Ihrem Home Board. Er gilt als der wertvollste Punkt um ihn früh im Spiel zu machen, weil er ideal für Verteidigung und Angriff positioniert ist und 5 Pips vom Auswürfeln entfernt ist.",
-                  "nl": "Het gouden punt is het 5-punt in je thuisbord. Het wordt beschouwd als het meest waardevolle punt om vroeg in het spel te maken omdat het ideaal gepositioneerd is voor zowel verdediging als aanval, en 5 pips verwijderd is van uitgooien."
-        }
-      },
-      {
-        question: {
-                  "en": "What does it mean to be 'closed out' in backgammon?",
-                  "es": "¿Qué significa estar 'cerrado' en backgammon?",
-                  "de": "Was bedeutet es 'ausgesperrt' zu sein im Backgammon?",
-                  "nl": "Wat betekent het om 'buitengesloten' te zijn in backgammon?"
-        },
-        options: [
-        {
-                  "en": "Having checkers on the bar with all six opponent home board points made",
-                  "es": "Tener fichas en la barra con los seis puntos del tablero de casa del oponente hechos",
-                  "de": "Steine auf der Bar haben wenn alle sechs Home Board Punkte des Gegners gemacht sind",
-                  "nl": "Stenen op de bar hebben terwijl alle zes thuisbordpunten van tegenstander gemaakt zijn"
-        },
-        {
-                  "en": "Losing the game",
-                  "es": "Perder el juego",
-                  "de": "Das Spiel verlieren",
-                  "nl": "Het spel verliezen"
-        },
-        {
-                  "en": "Being trapped behind prime",
-                  "es": "Estar atrapado detrás del prime",
-                  "de": "Hinter einem Prime gefangen sein",
-                  "nl": "Gevangen zitten achter prime"
-        },
-        {
-                  "en": "Unable to double",
-                  "es": "Incapaz de doblar",
-                  "de": "Unfähig zu verdoppeln",
-                  "nl": "Niet in staat te verdubbelen"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Being closed out means you have one or more checkers on the bar and your opponent has made all six points in their home board, making it impossible for you to enter. You must wait until they open a point.",
-                  "es": "Estar cerrado significa que tienes una o más fichas en la barra y tu oponente ha hecho los seis puntos en su tablero de casa, haciendo imposible que entres. Debes esperar hasta que abran un punto.",
-                  "de": "Ausgesperrt zu sein bedeutet dass Sie einen oder mehrere Steine auf der Bar haben und Ihr Gegner alle sechs Punkte in seinem Home Board gemacht hat, was es unmöglich macht einzutreten. Sie müssen warten bis sie einen Punkt öffnen.",
-                  "nl": "Buitengesloten zijn betekent dat je een of meer stenen op de bar hebt en je tegenstander alle zes punten in hun thuisbord heeft gemaakt, waardoor het onmogelijk is om binnen te komen. Je moet wachten tot ze een punt openen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'contact' in backgammon?",
-                  "es": "¿Qué es 'contacto' en backgammon?",
-                  "de": "Was ist 'Kontakt' im Backgammon?",
-                  "nl": "Wat is 'contact' in backgammon?"
-        },
-        options: [
-        {
-                  "en": "When opposing checkers can still potentially hit each other",
-                  "es": "Cuando las fichas opuestas aún pueden potencialmente golpearse",
-                  "de": "Wenn gegnerische Steine sich noch potenziell schlagen können",
-                  "nl": "Wanneer tegengestelde stenen elkaar nog potentieel kunnen raken"
-        },
-        {
-                  "en": "Physical dice contact",
-                  "es": "Contacto físico de dados",
-                  "de": "Physischer Würfelkontakt",
-                  "nl": "Fysiek dobbelsteencontact"
-        },
-        {
-                  "en": "Touching the board",
-                  "es": "Tocar el tablero",
-                  "de": "Das Brett berühren",
-                  "nl": "Het bord aanraken"
-        },
-        {
-                  "en": "Player communication",
-                  "es": "Comunicación del jugador",
-                  "de": "Spielerkommunikation",
-                  "nl": "Speler communicatie"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Contact means the game is still in a tactical phase where checkers from both players can potentially hit each other. The game 'breaks contact' when all checkers have passed each other and it becomes a pure race.",
-                  "es": "Contacto significa que el juego todavía está en una fase táctica donde las fichas de ambos jugadores pueden potencialmente golpearse. El juego 'rompe contacto' cuando todas las fichas se han pasado entre sí y se convierte en una carrera pura.",
-                  "de": "Kontakt bedeutet dass das Spiel noch in einer taktischen Phase ist in der Steine beider Spieler sich potenziell schlagen können. Das Spiel 'bricht Kontakt' wenn alle Steine aneinander vorbeigegangen sind und es zu einem reinen Rennen wird.",
-                  "nl": "Contact betekent dat het spel nog in een tactische fase is waarin stenen van beide spelers elkaar potentieel kunnen raken. Het spel 'verbreekt contact' wanneer alle stenen elkaar zijn gepasseerd en het een pure race wordt."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the purpose of the 'Crawford rule' in match play?",
-                  "es": "¿Cuál es el propósito de la 'regla Crawford' en juego de match?",
-                  "de": "Was ist der Zweck der 'Crawford-Regel' im Match-Spiel?",
-                  "nl": "Wat is het doel van de 'Crawford regel' in wedstrijdspel?"
-        },
-        options: [
-        {
-                  "en": "Determine who goes first",
-                  "es": "Determinar quién va primero",
-                  "de": "Bestimmen wer zuerst geht",
-                  "nl": "Bepalen wie als eerste gaat"
-        },
-        {
-                  "en": "Handle ties",
-                  "es": "Manejar empates",
-                  "de": "Unentschieden handhaben",
-                  "nl": "Gelijkspel afhandelen"
-        },
-        {
-                  "en": "Speed up gameplay",
-                  "es": "Acelerar el juego",
-                  "de": "Gameplay beschleunigen",
-                  "nl": "Gameplay versnellen"
-        },
-        {
-                  "en": "Prevent doubling in the game when one player is one point from winning",
-                  "es": "Prevenir doblaje en el juego cuando un jugador está a un punto de ganar",
-                  "de": "Verdoppeln verhindern im Spiel wenn ein Spieler einen Punkt vom Sieg entfernt ist",
-                  "nl": "Verdubbelen voorkomen in het spel wanneer een speler één punt verwijderd is van winnen"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The Crawford rule states that when one player reaches one point away from winning a match, the doubling cube cannot be used in the next game. This prevents the trailing player from immediately doubling to win the match.",
-                  "es": "La regla Crawford establece que cuando un jugador llega a un punto de ganar un match, el cubo de doblaje no se puede usar en el próximo juego. Esto previene que el jugador que va perdiendo doble inmediatamente para ganar el match.",
-                  "de": "Die Crawford-Regel besagt dass wenn ein Spieler einen Punkt vom Matchsieg entfernt ist, der Dopplungswürfel im nächsten Spiel nicht verwendet werden kann. Dies verhindert dass der zurückliegende Spieler sofort verdoppelt um das Match zu gewinnen.",
-                  "nl": "De Crawford regel stelt dat wanneer een speler één punt verwijderd is van het winnen van een wedstrijd, de verdubbeldob niet kan worden gebruikt in het volgende spel. Dit voorkomt dat de achterliggende speler onmiddellijk verdubbelt om de wedstrijd te winnen."
-        }
-      },
-      {
-        question: {
-                  "en": "What does 'opening roll' mean in backgammon?",
-                  "es": "¿Qué significa 'tirada de apertura' en backgammon?",
-                  "de": "Was bedeutet 'Eröffnungswurf' im Backgammon?",
-                  "nl": "Wat betekent 'openingsworp' in backgammon?"
-        },
-        options: [
-        {
-                  "en": "Any first roll",
-                  "es": "Cualquier primera tirada",
-                  "de": "Jeder erste Wurf",
-                  "nl": "Elke eerste worp"
-        },
-        {
-                  "en": "First move of the game after determining who goes first",
-                  "es": "Primer movimiento del juego después de determinar quién va primero",
-                  "de": "Erster Zug des Spiels nachdem bestimmt wurde wer zuerst geht",
-                  "nl": "Eerste zet van het spel na bepaling wie als eerste gaat"
-        },
-        {
-                  "en": "Starting the tournament",
-                  "es": "Comenzar el torneo",
-                  "de": "Das Turnier beginnen",
-                  "nl": "Het toernooi starten"
-        },
-        {
-                  "en": "Rolling to open doors",
-                  "es": "Tirar para abrir puertas",
-                  "de": "Würfeln um Türen zu öffnen",
-                  "nl": "Gooien om deuren te openen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The opening roll is the first move of the game. Each player rolls one die; the higher roll moves first using both numbers shown. If tied, both roll again. There are 15 possible non-doubles opening rolls.",
-                  "es": "La tirada de apertura es el primer movimiento del juego. Cada jugador tira un dado; la tirada más alta mueve primero usando ambos números mostrados. Si empatan, ambos tiran de nuevo. Hay 15 posibles tiradas de apertura sin dobles.",
-                  "de": "Der Eröffnungswurf ist der erste Zug des Spiels. Jeder Spieler würfelt einen Würfel; der höhere Wurf bewegt zuerst mit beiden gezeigten Zahlen. Bei Gleichstand würfeln beide erneut. Es gibt 15 mögliche Nicht-Pasch-Eröffnungswürfe.",
-                  "nl": "De openingsworp is de eerste zet van het spel. Elke speler gooit één dobbelsteen; de hoogste worp verplaatst eerst met beide getoonde getallen. Bij gelijkspel gooien beide opnieuw. Er zijn 15 mogelijke niet-dubbele openingsworpen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a 'backgammon' (the triple game)?",
-                  "es": "¿Qué es un 'backgammon' (el triple juego)?",
-                  "de": "Was ist ein 'Backgammon' (das Dreifachspiel)?",
-                  "nl": "Wat is een 'backgammon' (het drievoudige spel)?"
-        },
-        options: [
-        {
-                  "en": "Winning with opponent having checkers in your home board or on the bar",
-                  "es": "Ganar con el oponente teniendo fichas en tu tablero de casa o en la barra",
-                  "de": "Gewinnen wenn Gegner Steine in Ihrem Home Board oder auf der Bar hat",
-                  "nl": "Winnen terwijl tegenstander stenen in je thuisbord of op de bar heeft"
-        },
-        {
-                  "en": "Playing three games",
-                  "es": "Jugar tres juegos",
-                  "de": "Drei Spiele spielen",
-                  "nl": "Drie spellen spelen"
-        },
-        {
-                  "en": "Three players",
-                  "es": "Tres jugadores",
-                  "de": "Drei Spieler",
-                  "nl": "Drie spelers"
-        },
-        {
-                  "en": "Triple score",
-                  "es": "Triple puntuación",
-                  "de": "Dreifache Punktzahl",
-                  "nl": "Drievoudige score"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "A backgammon is the most valuable win, worth 3 times the cube value. It occurs when you bear off all your checkers while your opponent still has at least one checker in your home board or on the bar (not just unborne).",
-                  "es": "Un backgammon es la victoria más valiosa, vale 3 veces el valor del cubo. Ocurre cuando sacas todas tus fichas mientras tu oponente todavía tiene al menos una ficha en tu tablero de casa o en la barra (no solo sin sacar).",
-                  "de": "Ein Backgammon ist der wertvollste Sieg, wert das 3-fache des Würfelwerts. Es tritt auf wenn Sie alle Ihre Steine auswürfeln während Ihr Gegner noch mindestens einen Stein in Ihrem Home Board oder auf der Bar hat (nicht nur unausgewürfelt).",
-                  "nl": "Een backgammon is de meest waardevolle overwinning, waard 3 keer de dobbelsteenwaarde. Het vindt plaats wanneer je al je stenen uitgooit terwijl je tegenstander nog minstens één steen in je thuisbord of op de bar heeft (niet alleen onuitgegooid)."
-        }
-      },
-      {
-        question: {
-                  "en": "In tournament backgammon, what is 'match equity'?",
-                  "es": "En backgammon de torneo, ¿qué es 'match equity'?",
-                  "de": "Im Turnier-Backgammon, was ist 'Match-Equity'?",
-                  "nl": "In toernooi backgammon, wat is 'wedstrijd equity'?"
-        },
-        options: [
-        {
-                  "en": "Fair play rules",
-                  "es": "Reglas de juego limpio",
-                  "de": "Fair-Play-Regeln",
-                  "nl": "Eerlijk spel regels"
-        },
-        {
-                  "en": "Prize pool distribution",
-                  "es": "Distribución del premio",
-                  "de": "Preispool-Verteilung",
-                  "nl": "Prijzenpot verdeling"
-        },
-        {
-                  "en": "Your probability of winning the match from the current score",
-                  "es": "Tu probabilidad de ganar el match desde la puntuación actual",
-                  "de": "Ihre Wahrscheinlichkeit das Match vom aktuellen Stand zu gewinnen",
-                  "nl": "Je kans om de wedstrijd te winnen vanaf de huidige score"
-        },
-        {
-                  "en": "Player ratings",
-                  "es": "Clasificaciones de jugadores",
-                  "de": "Spielerbewertungen",
-                  "nl": "Speler beoordelingen"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Match equity is your winning probability at any given match score. For example, leading 5-3 in a 7-point match gives you higher match equity than your opponent. Cube decisions in tournaments depend heavily on match equity calculations.",
-                  "es": "Match equity es tu probabilidad de ganar en cualquier puntuación de match dada. Por ejemplo, liderar 5-3 en un match a 7 puntos te da mayor match equity que tu oponente. Las decisiones de cubo en torneos dependen en gran medida de cálculos de match equity.",
-                  "de": "Match-Equity ist Ihre Gewinnwahrscheinlichkeit bei jedem gegebenen Match-Stand. Zum Beispiel gibt Ihnen eine Führung von 5-3 in einem 7-Punkte-Match höheres Match-Equity als Ihr Gegner. Würfelentscheidungen in Turnieren hängen stark von Match-Equity-Berechnungen ab.",
-                  "nl": "Wedstrijd equity is je winkans bij elke gegeven wedstrijdscore. Bijvoorbeeld, leiden met 5-3 in een 7-punts wedstrijd geeft je hogere wedstrijd equity dan je tegenstander. Dobbelsteenbeslissingen in toernooien hangen sterk af van wedstrijd equity berekeningen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the 'midpoint' in backgammon?",
-                  "es": "¿Qué es el 'punto medio' en backgammon?",
-                  "de": "Was ist der 'Mittelpunkt' im Backgammon?",
-                  "nl": "Wat is het 'middenpunt' in backgammon?"
-        },
-        options: [
-        {
-                  "en": "The 13-point where you start with 5 checkers",
-                  "es": "El punto 13 donde comienzas con 5 fichas",
-                  "de": "Der 13-Punkt wo Sie mit 5 Steinen beginnen",
-                  "nl": "Het 13-punt waar je met 5 stenen begint"
-        },
-        {
-                  "en": "The bar",
-                  "es": "La barra",
-                  "de": "Die Bar",
-                  "nl": "De bar"
-        },
-        {
-                  "en": "Center of the board",
-                  "es": "Centro del tablero",
-                  "de": "Mitte des Bretts",
-                  "nl": "Midden van het bord"
-        },
-        {
-                  "en": "Halfway to bearing off",
-                  "es": "A mitad de camino para sacar",
-                  "de": "Auf halbem Weg zum Auswürfeln",
-                  "nl": "Halverwege uitgooien"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The midpoint is the 13-point, the first point in your outer board. You start the game with 5 checkers there. It's an important staging area for moving checkers forward but should generally be cleared as the game progresses.",
-                  "es": "El punto medio es el punto 13, el primer punto en tu tablero exterior. Comienzas el juego con 5 fichas allí. Es un área de preparación importante para mover fichas hacia adelante pero generalmente debe despejarse a medida que avanza el juego.",
-                  "de": "Der Mittelpunkt ist der 13-Punkt, der erste Punkt in Ihrem äußeren Brett. Sie beginnen das Spiel mit 5 Steinen dort. Es ist ein wichtiger Bereitstellungsbereich zum Vorwärtsbewegen von Steinen, sollte aber im Spielverlauf generell geräumt werden.",
-                  "nl": "Het middenpunt is het 13-punt, het eerste punt in je buitenbord. Je begint het spel met 5 stenen daar. Het is een belangrijk verzamelgebied voor het vooruit bewegen van stenen maar moet over het algemeen worden opgeruimd naarmate het spel vordert."
-        }
-      },
-      {
-        question: {
-                  "en": "What does 'diversification' mean in backgammon checker placement?",
-                  "es": "¿Qué significa 'diversificación' en la colocación de fichas de backgammon?",
-                  "de": "Was bedeutet 'Diversifikation' bei der Backgammon-Steinplatzierung?",
-                  "nl": "Wat betekent 'diversificatie' in backgammon steenplaatsing?"
-        },
-        options: [
-        {
-                  "en": "Using different strategies",
-                  "es": "Usar diferentes estrategias",
-                  "de": "Verschiedene Strategien verwenden",
-                  "nl": "Verschillende strategieën gebruiken"
-        },
-        {
-                  "en": "Spreading checkers across multiple points for flexibility",
-                  "es": "Distribuir fichas en múltiples puntos para flexibilidad",
-                  "de": "Steine über mehrere Punkte verteilen für Flexibilität",
-                  "nl": "Stenen over meerdere punten verspreiden voor flexibiliteit"
-        },
-        {
-                  "en": "Playing multiple games",
-                  "es": "Jugar múltiples juegos",
-                  "de": "Mehrere Spiele spielen",
-                  "nl": "Meerdere spellen spelen"
-        },
-        {
-                  "en": "Varying dice rolls",
-                  "es": "Variar tiradas de dados",
-                  "de": "Würfelwürfe variieren",
-                  "nl": "Dobbelsteenworpen variëren"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Diversification means distributing your checkers across multiple points rather than stacking them heavily. This provides more flexibility for different dice rolls and better coverage of the board, though sometimes stacking is necessary for making points.",
-                  "es": "La diversificación significa distribuir tus fichas en múltiples puntos en lugar de apilarlas pesadamente. Esto proporciona más flexibilidad para diferentes tiradas de dados y mejor cobertura del tablero, aunque a veces apilar es necesario para hacer puntos.",
-                  "de": "Diversifikation bedeutet Ihre Steine über mehrere Punkte zu verteilen anstatt sie stark zu stapeln. Dies bietet mehr Flexibilität für verschiedene Würfelwürfe und bessere Brettabdeckung, obwohl Stapeln manchmal notwendig ist um Punkte zu machen.",
-                  "nl": "Diversificatie betekent je stenen verdelen over meerdere punten in plaats van ze zwaar op te stapelen. Dit biedt meer flexibiliteit voor verschillende dobbelsteenworpen en betere bordbedekking, hoewel stapelen soms noodzakelijk is om punten te maken."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'racing' in backgammon?",
-                  "es": "¿Qué es 'correr' en backgammon?",
-                  "de": "Was ist 'Rennen' im Backgammon?",
-                  "nl": "Wat is 'racen' in backgammon?"
-        },
-        options: [
-        {
-                  "en": "Fast gameplay",
-                  "es": "Juego rápido",
-                  "de": "Schnelles Gameplay",
-                  "nl": "Snel spel"
-        },
-        {
-                  "en": "When both players have passed each other and are simply moving checkers home",
-                  "es": "Cuando ambos jugadores se han pasado y simplemente están moviendo fichas a casa",
-                  "de": "Wenn beide Spieler aneinander vorbei sind und einfach Steine nach Hause bewegen",
-                  "nl": "Wanneer beide spelers elkaar zijn gepasseerd en simpelweg stenen naar huis bewegen"
-        },
-        {
-                  "en": "Speed tournament",
-                  "es": "Torneo de velocidad",
-                  "de": "Schnelligkeitsturnier",
-                  "nl": "Snelheidstoernooi"
-        },
-        {
-                  "en": "Moving quickly",
-                  "es": "Moverse rápidamente",
-                  "de": "Sich schnell bewegen",
-                  "nl": "Snel bewegen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Racing occurs when contact has been broken - all checkers have passed each other so there's no possibility of hitting. The game becomes a pure race to bear off first, where pip count is the main determining factor of who's ahead.",
-                  "es": "Correr ocurre cuando el contacto se ha roto - todas las fichas se han pasado entre sí por lo que no hay posibilidad de golpear. El juego se convierte en una carrera pura para sacar primero, donde el conteo de pips es el factor principal que determina quién va adelante.",
-                  "de": "Rennen tritt auf wenn Kontakt gebrochen wurde - alle Steine sind aneinander vorbei so dass keine Möglichkeit des Schlagens besteht. Das Spiel wird zu einem reinen Rennen um zuerst auszuwürfeln, wobei die Pip-Zählung der Hauptfaktor ist der bestimmt wer vorne liegt.",
-                  "nl": "Racen vindt plaats wanneer contact is verbroken - alle stenen zijn elkaar gepasseerd dus er is geen mogelijkheid tot raken. Het spel wordt een pure race om eerst uit te gooien, waarbij pip count de belangrijkste bepalende factor is voor wie voorligt."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'redoubling' in backgammon?",
-                  "es": "¿Qué es 'redoblaje' en backgammon?",
-                  "de": "Was ist 'Wiederverdoppeln' im Backgammon?",
-                  "nl": "Wat is 'herverdubbelen' in backgammon?"
-        },
-        options: [
-        {
-                  "en": "When the player who accepted a double offers the cube back",
-                  "es": "Cuando el jugador que aceptó un doble ofrece el cubo de vuelta",
-                  "de": "Wenn der Spieler der eine Verdopplung akzeptiert hat den Würfel zurück anbietet",
-                  "nl": "Wanneer de speler die een verdubbeling accepteerde de dobbelsteen terug aanbiedt"
-        },
-        {
-                  "en": "Rolling doubles again",
-                  "es": "Sacar dobles de nuevo",
-                  "de": "Erneut Pasch würfeln",
-                  "nl": "Opnieuw dubbel gooien"
-        },
-        {
-                  "en": "Doubling twice in one game",
-                  "es": "Doblar dos veces en un juego",
-                  "de": "Zweimal in einem Spiel verdoppeln",
-                  "nl": "Twee keer verdubbelen in één spel"
-        },
-        {
-                  "en": "Restarting with double stakes",
-                  "es": "Reiniciar con doble apuesta",
-                  "de": "Neustart mit doppelten Einsätzen",
-                  "nl": "Herstarten met dubbele inzet"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "After accepting a double, cube ownership transfers to you. As owner, you have the exclusive right to redouble (offer the cube back at twice the current value). This creates a strategic power shift.",
-                  "es": "Después de aceptar un doble, la propiedad del cubo se transfiere a ti. Como propietario, tienes el derecho exclusivo de redoblar (ofrecer el cubo de vuelta al doble del valor actual). Esto crea un cambio de poder estratégico.",
-                  "de": "Nach dem Akzeptieren einer Verdopplung geht der Würfelbesitz auf Sie über. Als Besitzer haben Sie das ausschließliche Recht wiederzuverdoppeln (den Würfel zum doppelten aktuellen Wert zurückzubieten). Dies schafft eine strategische Machtverschiebung.",
-                  "nl": "Na het accepteren van een verdubbeling gaat het dobbelsteenbezit over naar jou. Als eigenaar heb je het exclusieve recht om te herverdubbelen (de dobbelsteen terug aan te bieden tegen tweemaal de huidige waarde). Dit creëert een strategische machtsverschuiving."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a 'builder' in backgammon strategy?",
-                  "es": "¿Qué es un 'constructor' en estrategia de backgammon?",
-                  "de": "Was ist ein 'Baustein' in der Backgammon-Strategie?",
-                  "nl": "Wat is een 'bouwer' in backgammon strategie?"
-        },
-        options: [
-        {
-                  "en": "Strongest piece",
-                  "es": "Pieza más fuerte",
-                  "de": "Stärkstes Stück",
-                  "nl": "Sterkste stuk"
-        },
-        {
-                  "en": "A spare checker positioned to make new points",
-                  "es": "Una ficha extra posicionada para hacer nuevos puntos",
-                  "de": "Ein zusätzlicher Stein positioniert um neue Punkte zu machen",
-                  "nl": "Een reserve steen gepositioneerd om nieuwe punten te maken"
-        },
-        {
-                  "en": "Player who creates strategy",
-                  "es": "Jugador que crea estrategia",
-                  "de": "Spieler der Strategie entwickelt",
-                  "nl": "Speler die strategie creëert"
-        },
-        {
-                  "en": "First checker on a point",
-                  "es": "Primera ficha en un punto",
-                  "de": "Erster Stein auf einem Punkt",
-                  "nl": "Eerste steen op een punt"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "A builder is a spare checker positioned strategically (often on the midpoint or in the outer board) that can be used to make points on good rolls. Good builders provide flexibility and point-making potential.",
-                  "es": "Un constructor es una ficha extra posicionada estratégicamente (a menudo en el punto medio o en el tablero exterior) que puede usarse para hacer puntos en buenas tiradas. Buenos constructores proporcionan flexibilidad y potencial para hacer puntos.",
-                  "de": "Ein Baustein ist ein zusätzlicher Stein der strategisch positioniert ist (oft auf dem Mittelpunkt oder im äußeren Brett) und verwendet werden kann um bei guten Würfen Punkte zu machen. Gute Bausteine bieten Flexibilität und Punktemach-Potenzial.",
-                  "nl": "Een bouwer is een reserve steen strategisch gepositioneerd (vaak op het middenpunt of in het buitenbord) die kan worden gebruikt om punten te maken bij goede worpen. Goede bouwers bieden flexibiliteit en punt-maak potentieel."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'timing' in backgammon?",
-                  "es": "¿Qué es 'timing' en backgammon?",
-                  "de": "Was ist 'Timing' im Backgammon?",
-                  "nl": "Wat is 'timing' in backgammon?"
-        },
-        options: [
-        {
-                  "en": "Move order",
-                  "es": "Orden de movimiento",
-                  "de": "Zugreihenfolge",
-                  "nl": "Zetvolgorde"
-        },
-        {
-                  "en": "Having enough spare checkers to wait without breaking key points",
-                  "es": "Tener suficientes fichas extras para esperar sin romper puntos clave",
-                  "de": "Genug zusätzliche Steine haben um zu warten ohne Schlüsselpunkte zu brechen",
-                  "nl": "Genoeg reserve stenen hebben om te wachten zonder sleutelpunten te breken"
-        },
-        {
-                  "en": "Speed of play",
-                  "es": "Velocidad de juego",
-                  "de": "Spielgeschwindigkeit",
-                  "nl": "Spelsnelheid"
-        },
-        {
-                  "en": "Clock management",
-                  "es": "Gestión del reloj",
-                  "de": "Uhrverwaltung",
-                  "nl": "Klokbeheer"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Timing refers to having enough spare checkers (depth) so you can wait for favorable rolls without being forced to break important points prematurely. Good timing is crucial in holding games and priming games.",
-                  "es": "Timing se refiere a tener suficientes fichas extras (profundidad) para que puedas esperar tiradas favorables sin verte obligado a romper puntos importantes prematuramente. Buen timing es crucial en juegos de retención y juegos de prime.",
-                  "de": "Timing bezieht sich darauf genug zusätzliche Steine (Tiefe) zu haben damit Sie auf günstige Würfe warten können ohne gezwungen zu werden wichtige Punkte vorzeitig zu brechen. Gutes Timing ist entscheidend in Haltespielen und Primingspielen.",
-                  "nl": "Timing verwijst naar het hebben van genoeg reserve stenen (diepte) zodat je kunt wachten op gunstige worpen zonder gedwongen te worden belangrijke punten voortijdig te breken. Goede timing is cruciaal in vasthoudspellen en prime spellen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a 'back game' in backgammon?",
-                  "es": "¿Qué es un 'juego trasero' en backgammon?",
-                  "de": "Was ist ein 'Rückspiel' im Backgammon?",
-                  "nl": "Wat is een 'achterspel' in backgammon?"
-        },
-        options: [
-        {
-                  "en": "Trailing in score",
-                  "es": "Ir perdiendo en puntuación",
-                  "de": "Im Punktestand zurückliegen",
-                  "nl": "Achterliggen in score"
-        },
-        {
-                  "en": "Strategy of holding two or more anchors in opponent's home board",
-                  "es": "Estrategia de mantener dos o más anclas en el tablero de casa del oponente",
-                  "de": "Strategie zwei oder mehr Anker im Home Board des Gegners zu halten",
-                  "nl": "Strategie om twee of meer ankers te houden in het thuisbord van tegenstander"
-        },
-        {
-                  "en": "Playing defensively",
-                  "es": "Jugar defensivamente",
-                  "de": "Defensiv spielen",
-                  "nl": "Defensief spelen"
-        },
-        {
-                  "en": "Reversing direction",
-                  "es": "Invertir dirección",
-                  "de": "Richtung umkehren",
-                  "nl": "Richting omkeren"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "A back game is a strategic position where you deliberately hold two or more anchors (usually low anchors like the 1, 2, or 3-points) in your opponent's home board while waiting for them to leave shots as they bear off.",
-                  "es": "Un juego trasero es una posición estratégica donde deliberadamente mantienes dos o más anclas (usualmente anclas bajas como los puntos 1, 2 o 3) en el tablero de casa de tu oponente mientras esperas que dejen tiros mientras sacan.",
-                  "de": "Ein Rückspiel ist eine strategische Position bei der Sie absichtlich zwei oder mehr Anker (normalerweise niedrige Anker wie die 1-, 2- oder 3-Punkte) im Home Board Ihres Gegners halten während Sie warten dass sie Blots hinterlassen beim Auswürfeln.",
-                  "nl": "Een achterspel is een strategische positie waarbij je opzettelijk twee of meer ankers (meestal lage ankers zoals de 1, 2 of 3-punten) houdt in het thuisbord van je tegenstander terwijl je wacht tot ze shots achterlaten terwijl ze uitgooien."
-        }
-      },
-      {
-        question: {
-                  "en": "What does 'owning the cube' mean in backgammon?",
-                  "es": "¿Qué significa 'poseer el cubo' en backgammon?",
-                  "de": "Was bedeutet 'den Würfel besitzen' im Backgammon?",
-                  "nl": "Wat betekent 'de dobbelsteen bezitten' in backgammon?"
-        },
-        options: [
-        {
-                  "en": "Holding the physical cube",
-                  "es": "Sostener el cubo físico",
-                  "de": "Den physischen Würfel halten",
-                  "nl": "De fysieke dobbelsteen vasthouden"
-        },
-        {
-                  "en": "Controlling the board",
-                  "es": "Controlar el tablero",
-                  "de": "Das Brett kontrollieren",
-                  "nl": "Het bord controleren"
-        },
-        {
-                  "en": "Having exclusive right to offer the next double",
-                  "es": "Tener el derecho exclusivo de ofrecer el siguiente doble",
-                  "de": "Das ausschließliche Recht haben die nächste Verdopplung anzubieten",
-                  "nl": "Het exclusieve recht hebben om de volgende verdubbeling aan te bieden"
-        },
-        {
-                  "en": "Winning the match",
-                  "es": "Ganar el match",
-                  "de": "Das Match gewinnen",
-                  "nl": "De wedstrijd winnen"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Owning the cube means you control the doubling cube and have the exclusive right to offer the next double. Initially, both players can double (centered cube), but once accepted, only the acceptor owns the cube.",
-                  "es": "Poseer el cubo significa que controlas el cubo de doblaje y tienes el derecho exclusivo de ofrecer el siguiente doble. Inicialmente, ambos jugadores pueden doblar (cubo centrado), pero una vez aceptado, solo el aceptor posee el cubo.",
-                  "de": "Den Würfel zu besitzen bedeutet Sie kontrollieren den Dopplungswürfel und haben das ausschließliche Recht die nächste Verdopplung anzubieten. Anfangs können beide Spieler verdoppeln (zentrierter Würfel), aber nach Akzeptierung besitzt nur der Akzeptierende den Würfel.",
-                  "nl": "De dobbelsteen bezitten betekent dat je de verdubbeldob controleert en het exclusieve recht hebt om de volgende verdubbeling aan te bieden. Aanvankelijk kunnen beide spelers verdubbelen (gecentreerde dobbelsteen), maar eenmaal geaccepteerd bezit alleen de accepteerder de dobbelsteen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'slotting' in backgammon?",
-                  "es": "¿Qué es 'slotting' en backgammon?",
-                  "de": "Was ist 'Slotten' im Backgammon?",
-                  "nl": "Wat is 'slotten' in backgammon?"
-        },
-        options: [
-        {
-                  "en": "Organizing checkers",
-                  "es": "Organizar fichas",
-                  "de": "Steine organisieren",
-                  "nl": "Stenen organiseren"
-        },
-        {
-                  "en": "Fitting checkers together",
-                  "es": "Encajar fichas juntas",
-                  "de": "Steine zusammenfügen",
-                  "nl": "Stenen samenpassen"
-        },
-        {
-                  "en": "Creating empty spaces",
-                  "es": "Crear espacios vacíos",
-                  "de": "Leere Räume schaffen",
-                  "nl": "Lege ruimtes creëren"
-        },
-        {
-                  "en": "Intentionally placing a single checker on a key point hoping to cover it later",
-                  "es": "Colocar intencionalmente una sola ficha en un punto clave esperando cubrirla después",
-                  "de": "Absichtlich einen einzelnen Stein auf einen Schlüsselpunkt setzen in der Hoffnung ihn später zu decken",
-                  "nl": "Opzettelijk een enkele steen plaatsen op een sleutelpunt in de hoop hem later te dekken"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Slotting is deliberately placing a single blot on a valuable point (especially the 5-point or bar-point) early in the game, accepting the risk of being hit in exchange for the chance to make that point on the next roll.",
-                  "es": "Slotting es colocar deliberadamente un blot individual en un punto valioso (especialmente el punto 5 o punto de barra) temprano en el juego, aceptando el riesgo de ser golpeado a cambio de la oportunidad de hacer ese punto en la siguiente tirada.",
-                  "de": "Slotten ist das absichtliche Setzen eines einzelnen Blots auf einen wertvollen Punkt (besonders der 5-Punkt oder Bar-Punkt) früh im Spiel, wobei das Risiko geschlagen zu werden akzeptiert wird im Austausch für die Chance diesen Punkt beim nächsten Wurf zu machen.",
-                  "nl": "Slotten is opzettelijk een enkele blot plaatsen op een waardevol punt (vooral het 5-punt of bar-punt) vroeg in het spel, waarbij het risico om geraakt te worden wordt geaccepteerd in ruil voor de kans om dat punt bij de volgende worp te maken."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a 'gammon' in backgammon?",
-                  "es": "¿Qué es un 'gammon' en backgammon?",
-                  "de": "Was ist ein 'Gammon' im Backgammon?",
-                  "nl": "Wat is een 'gammon' in backgammon?"
-        },
-        options: [
-        {
-                  "en": "Type of dice roll",
-                  "es": "Tipo de tirada de dados",
-                  "de": "Art von Würfelwurf",
-                  "nl": "Type dobbelsteenworp"
-        },
-        {
-                  "en": "Defensive position",
-                  "es": "Posición defensiva",
-                  "de": "Defensive Position",
-                  "nl": "Defensieve positie"
-        },
-        {
-                  "en": "Board section",
-                  "es": "Sección del tablero",
-                  "de": "Brettabschnitt",
-                  "nl": "Bordsectie"
-        },
-        {
-                  "en": "Winning when opponent hasn't borne off any checkers",
-                  "es": "Ganar cuando el oponente no ha sacado ninguna ficha",
-                  "de": "Gewinnen wenn Gegner keine Steine ausgewürfelt hat",
-                  "nl": "Winnen wanneer tegenstander geen stenen heeft uitgegooid"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "A gammon is worth double the cube value. You win a gammon by bearing off all your checkers before your opponent bears off any. It's less valuable than a backgammon but worth twice a normal win.",
-                  "es": "Un gammon vale el doble del valor del cubo. Ganas un gammon sacando todas tus fichas antes de que tu oponente saque alguna. Es menos valioso que un backgammon pero vale el doble de una victoria normal.",
-                  "de": "Ein Gammon ist das Doppelte des Würfelwerts wert. Sie gewinnen ein Gammon indem Sie alle Ihre Steine auswürfeln bevor Ihr Gegner welche auswürfelt. Es ist weniger wertvoll als ein Backgammon aber das Doppelte eines normalen Siegs wert.",
-                  "nl": "Een gammon is dubbel de dobbelsteenwaarde waard. Je wint een gammon door al je stenen uit te gooien voordat je tegenstander er een uitgooit. Het is minder waardevol dan een backgammon maar dubbel een normale overwinning waard."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'match play' versus 'money play' in backgammon?",
-                  "es": "¿Qué es 'juego de match' versus 'juego de dinero' en backgammon?",
-                  "de": "Was ist 'Match-Spiel' versus 'Geld-Spiel' im Backgammon?",
-                  "nl": "Wat is 'wedstrijdspel' versus 'geldspel' in backgammon?"
-        },
-        options: [
-        {
-                  "en": "Match play is to a set number of points; money play is each game for stakes",
-                  "es": "Juego de match es a un número fijo de puntos; juego de dinero es cada juego por apuestas",
-                  "de": "Match-Spiel ist bis zu einer festgelegten Punktzahl; Geld-Spiel ist jedes Spiel um Einsätze",
-                  "nl": "Wedstrijdspel is tot een vast aantal punten; geldspel is elk spel voor inzet"
-        },
-        {
-                  "en": "Professional versus amateur",
-                  "es": "Profesional versus amateur",
-                  "de": "Professionell versus Amateur",
-                  "nl": "Professioneel versus amateur"
-        },
-        {
-                  "en": "Match play is free; money play costs",
-                  "es": "Juego de match es gratis; juego de dinero cuesta",
-                  "de": "Match-Spiel ist kostenlos; Geld-Spiel kostet",
-                  "nl": "Wedstrijdspel is gratis; geldspel kost"
-        },
-        {
-                  "en": "Tournament versus casual",
-                  "es": "Torneo versus casual",
-                  "de": "Turnier versus Gelegenheit",
-                  "nl": "Toernooi versus informeel"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Match play is to a predetermined number of points (e.g., first to 7 wins). Money play treats each game independently with stakes per point. The strategies differ significantly - match equity matters in match play but not money play.",
-                  "es": "El juego de match es a un número predeterminado de puntos (ej., primero a 7 gana). El juego de dinero trata cada juego independientemente con apuestas por punto. Las estrategias difieren significativamente - match equity importa en juego de match pero no en juego de dinero.",
-                  "de": "Match-Spiel ist bis zu einer vorbestimmten Punktzahl (z.B. erster zu 7 gewinnt). Geld-Spiel behandelt jedes Spiel unabhängig mit Einsätzen pro Punkt. Die Strategien unterscheiden sich erheblich - Match-Equity ist wichtig im Match-Spiel aber nicht im Geld-Spiel.",
-                  "nl": "Wedstrijdspel is tot een vooraf bepaald aantal punten (bijv. eerste tot 7 wint). Geldspel behandelt elk spel onafhankelijk met inzet per punt. De strategieën verschillen aanzienlijk - wedstrijd equity is belangrijk in wedstrijdspel maar niet in geldspel."
-        }
-      },
-      {
-        question: {
-                  "en": "What does 'escaping' mean in backgammon?",
-                  "es": "¿Qué significa 'escapar' en backgammon?",
-                  "de": "Was bedeutet 'Entkommen' im Backgammon?",
-                  "nl": "Wat betekent 'ontsnappen' in backgammon?"
-        },
-        options: [
-        {
-                  "en": "Quick bearing off",
-                  "es": "Sacar rápido",
-                  "de": "Schnelles Auswürfeln",
-                  "nl": "Snel uitgooien"
-        },
-        {
-                  "en": "Avoiding being hit",
-                  "es": "Evitar ser golpeado",
-                  "de": "Vermeiden geschlagen zu werden",
-                  "nl": "Vermijden geraakt te worden"
-        },
-        {
-                  "en": "Leaving the game",
-                  "es": "Salir del juego",
-                  "de": "Das Spiel verlassen",
-                  "nl": "Het spel verlaten"
-        },
-        {
-                  "en": "Moving back checkers out of opponent's home board",
-                  "es": "Mover fichas traseras fuera del tablero de casa del oponente",
-                  "de": "Hintere Steine aus dem Home Board des Gegners bewegen",
-                  "nl": "Achterste stenen uit het thuisbord van tegenstander bewegen"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Escaping means successfully moving your back checkers (those in your opponent's home board or outer board) forward past your opponent's blockade and toward your home board. The race often depends on successful escape.",
-                  "es": "Escapar significa mover exitosamente tus fichas traseras (aquellas en el tablero de casa u exterior de tu oponente) hacia adelante pasando el bloqueo de tu oponente y hacia tu tablero de casa. La carrera a menudo depende de un escape exitoso.",
-                  "de": "Entkommen bedeutet Ihre hinteren Steine (jene im Home Board oder äußeren Brett Ihres Gegners) erfolgreich vorwärts an der Blockade Ihres Gegners vorbei und in Richtung Ihres Home Boards zu bewegen. Das Rennen hängt oft von erfolgreichem Entkommen ab.",
-                  "nl": "Ontsnappen betekent succesvol je achterste stenen (die in het thuisbord of buitenbord van je tegenstander) vooruit bewegen voorbij de blokkade van je tegenstander en richting je thuisbord. De race hangt vaak af van succesvolle ontsnapping."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'splitting' in backgammon?",
-                  "es": "¿Qué es 'dividir' en backgammon?",
-                  "de": "Was ist 'Splitten' im Backgammon?",
-                  "nl": "Wat is 'splitsen' in backgammon?"
-        },
-        options: [
-        {
-                  "en": "Breaking points apart",
-                  "es": "Romper puntos",
-                  "de": "Punkte auseinander brechen",
-                  "nl": "Punten uit elkaar breken"
-        },
-        {
-                  "en": "Two-player strategy",
-                  "es": "Estrategia de dos jugadores",
-                  "de": "Zwei-Spieler-Strategie",
-                  "nl": "Twee-speler strategie"
-        },
-        {
-                  "en": "Dividing stakes",
-                  "es": "Dividir apuestas",
-                  "de": "Einsätze teilen",
-                  "nl": "Inzet verdelen"
-        },
-        {
-                  "en": "Separating your two back checkers from the opponent's 1-point",
-                  "es": "Separar tus dos fichas traseras del punto 1 del oponente",
-                  "de": "Ihre zwei hinteren Steine vom 1-Punkt des Gegners trennen",
-                  "nl": "Je twee achterste stenen scheiden van het 1-punt van tegenstander"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Splitting is moving one of your two back checkers (usually starting on your opponent's 1-point/your 24-point) forward, often to make an anchor on a better point like the opponent's 4 or 5-point, though it creates temporary blots.",
-                  "es": "Dividir es mover una de tus dos fichas traseras (usualmente comenzando en el punto 1 de tu oponente/tu punto 24) hacia adelante, a menudo para hacer un ancla en un punto mejor como el punto 4 o 5 del oponente, aunque crea blots temporales.",
-                  "de": "Splitten ist das Bewegen eines Ihrer zwei hinteren Steine (normalerweise beginnend auf dem 1-Punkt Ihres Gegners/Ihrem 24-Punkt) vorwärts, oft um einen Anker auf einem besseren Punkt wie dem 4- oder 5-Punkt des Gegners zu machen, obwohl es temporäre Blots schafft.",
-                  "nl": "Splitsen is het bewegen van een van je twee achterste stenen (meestal beginnend op het 1-punt van je tegenstander/je 24-punt) vooruit, vaak om een anker te maken op een beter punt zoals het 4 of 5-punt van de tegenstander, hoewel het tijdelijke blots creëert."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'duplication' in backgammon?",
-                  "es": "¿Qué es 'duplicación' en backgammon?",
-                  "de": "Was ist 'Duplikation' im Backgammon?",
-                  "nl": "Wat is 'duplicatie' in backgammon?"
-        },
-        options: [
-        {
-                  "en": "Positioning so opponent needs the same number for multiple purposes",
-                  "es": "Posicionar para que el oponente necesite el mismo número para múltiples propósitos",
-                  "de": "So positionieren dass Gegner dieselbe Zahl für mehrere Zwecke braucht",
-                  "nl": "Zo positioneren dat tegenstander hetzelfde getal nodig heeft voor meerdere doeleinden"
-        },
-        {
-                  "en": "Doubling the cube",
-                  "es": "Doblar el cubo",
-                  "de": "Den Würfel verdoppeln",
-                  "nl": "De dobbelsteen verdubbelen"
-        },
-        {
-                  "en": "Having two of same piece",
-                  "es": "Tener dos de la misma pieza",
-                  "de": "Zwei gleiche Steine haben",
-                  "nl": "Twee dezelfde stukken hebben"
-        },
-        {
-                  "en": "Copying opponent moves",
-                  "es": "Copiar movimientos del oponente",
-                  "de": "Gegnerzüge kopieren",
-                  "nl": "Tegenstander zetten kopiëren"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Duplication is positioning your blots so your opponent needs the same dice number to hit both, or needs a number both to hit you and to cover their own blots, reducing their effective good rolls.",
-                  "es": "La duplicación es posicionar tus blots para que tu oponente necesite el mismo número de dados para golpear ambos, o necesite un número tanto para golpearte como para cubrir sus propios blots, reduciendo sus tiradas buenas efectivas.",
-                  "de": "Duplikation ist das Positionieren Ihrer Blots so dass Ihr Gegner dieselbe Würfelzahl braucht um beide zu schlagen, oder eine Zahl sowohl zum Schlagen als auch zum Decken ihrer eigenen Blots braucht, wodurch ihre effektiv guten Würfe reduziert werden.",
-                  "nl": "Duplicatie is het positioneren van je blots zodat je tegenstander hetzelfde dobbelsteengetal nodig heeft om beide te raken, of een getal nodig heeft om zowel jou te raken als hun eigen blots te dekken, waardoor hun effectief goede worpen worden verminderd."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the 'Jacoby rule' in backgammon?",
-                  "es": "¿Qué es la 'regla Jacoby' en backgammon?",
-                  "de": "Was ist die 'Jacoby-Regel' im Backgammon?",
-                  "nl": "Wat is de 'Jacoby regel' in backgammon?"
-        },
-        options: [
-        {
-                  "en": "Gammons and backgammons don't count unless cube has been turned",
-                  "es": "Gammons y backgammons no cuentan a menos que se haya girado el cubo",
-                  "de": "Gammons und Backgammons zählen nicht wenn der Würfel nicht gedreht wurde",
-                  "nl": "Gammons en backgammons tellen niet tenzij dobbelsteen is gedraaid"
-        },
-        {
-                  "en": "Tournament seating",
-                  "es": "Asientos de torneo",
-                  "de": "Turnier-Sitzordnung",
-                  "nl": "Toernooi plaatsing"
-        },
-        {
-                  "en": "Bearing off restrictions",
-                  "es": "Restricciones de sacar",
-                  "de": "Auswürfel-Einschränkungen",
-                  "nl": "Uitgooi beperkingen"
-        },
-        {
-                  "en": "Opening move rules",
-                  "es": "Reglas de movimiento de apertura",
-                  "de": "Eröffnungszugregeln",
-                  "nl": "Openingszet regels"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Jacoby rule (used in money games, never match play) states that gammons and backgammons only count for their extra value if either player has offered a double during the game. Without a double, all wins count as single games.",
-                  "es": "La regla Jacoby (usada en juegos de dinero, nunca juego de match) establece que gammons y backgammons solo cuentan por su valor extra si algún jugador ha ofrecido un doble durante el juego. Sin un doble, todas las victorias cuentan como juegos simples.",
-                  "de": "Die Jacoby-Regel (verwendet in Geldspielen, nie Match-Spiel) besagt dass Gammons und Backgammons nur für ihren Extrawert zählen wenn ein Spieler während des Spiels verdoppelt hat. Ohne Verdopplung zählen alle Siege als Einzelspiele.",
-                  "nl": "De Jacoby regel (gebruikt in geldspellen, nooit wedstrijdspel) stelt dat gammons en backgammons alleen tellen voor hun extra waarde als een van beide spelers een verdubbeling heeft aangeboden tijdens het spel. Zonder verdubbeling tellen alle overwinningen als enkele spellen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a 'joker' in backgammon?",
-                  "es": "¿Qué es un 'joker' en backgammon?",
-                  "de": "Was ist ein 'Joker' im Backgammon?",
-                  "nl": "Wat is een 'joker' in backgammon?"
-        },
-        options: [
-        {
-                  "en": "An unexpectedly fortunate roll that changes the game dramatically",
-                  "es": "Una tirada inesperadamente afortunada que cambia el juego drásticamente",
-                  "de": "Ein unerwartet glücklicher Wurf der das Spiel dramatisch verändert",
-                  "nl": "Een onverwacht gelukkige worp die het spel dramatisch verandert"
-        },
-        {
-                  "en": "Funny player",
-                  "es": "Jugador gracioso",
-                  "de": "Lustiger Spieler",
-                  "nl": "Grappige speler"
-        },
-        {
-                  "en": "Wild card piece",
-                  "es": "Pieza comodín",
-                  "de": "Joker-Stein",
-                  "nl": "Joker stuk"
-        },
-        {
-                  "en": "Optional rule",
-                  "es": "Regla opcional",
-                  "de": "Optionale Regel",
-                  "nl": "Optionele regel"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "A joker is a lucky roll that dramatically changes a game's outcome against the odds - like hitting a 36-to-1 shot when otherwise losing, or rolling the only number that wins. The term reflects the swing of luck in backgammon.",
-                  "es": "Un joker es una tirada afortunada que cambia dramáticamente el resultado de un juego contra las probabilidades - como golpear un tiro de 36 a 1 cuando de otro modo estás perdiendo, o sacar el único número que gana. El término refleja el cambio de suerte en backgammon.",
-                  "de": "Ein Joker ist ein Glückswurf der das Spielergebnis dramatisch gegen die Chancen verändert - wie das Treffen eines 36-zu-1-Schusses wenn man sonst verliert, oder das Würfeln der einzigen Zahl die gewinnt. Der Begriff spiegelt den Glücksschwung im Backgammon wider.",
-                  "nl": "Een joker is een gelukkige worp die de uitkomst van een spel dramatisch verandert tegen de kansen in - zoals het raken van een 36-op-1 shot terwijl je anders aan het verliezen bent, of het gooien van het enige getal dat wint. De term weerspiegelt de geluksschommeling in backgammon."
-        }
-      },
-      {
-        question: {
-                  "en": "What does 'bearing in' mean in backgammon?",
-                  "es": "¿Qué significa 'llevar dentro' en backgammon?",
-                  "de": "Was bedeutet 'Einbringen' im Backgammon?",
-                  "nl": "Wat betekent 'binnenbrengen' in backgammon?"
-        },
-        options: [
-        {
-                  "en": "Moving all your checkers into your home board before bearing off",
-                  "es": "Mover todas tus fichas a tu tablero de casa antes de sacar",
-                  "de": "Alle Ihre Steine in Ihr Home Board bewegen bevor Sie auswürfeln",
-                  "nl": "Al je stenen naar je thuisbord bewegen voordat je uitgooit"
-        },
-        {
-                  "en": "Entering from the bar",
-                  "es": "Entrar desde la barra",
-                  "de": "Von der Bar eintreten",
-                  "nl": "Binnenkomen van de bar"
-        },
-        {
-                  "en": "Collecting checkers",
-                  "es": "Recoger fichas",
-                  "de": "Steine sammeln",
-                  "nl": "Stenen verzamelen"
-        },
-        {
-                  "en": "Starting the game",
-                  "es": "Comenzar el juego",
-                  "de": "Das Spiel beginnen",
-                  "nl": "Het spel starten"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Bearing in is the phase where you move all 15 checkers into your home board (the six points closest to bearing off). You cannot begin bearing off until all checkers are in your home board.",
-                  "es": "Llevar dentro es la fase donde mueves las 15 fichas a tu tablero de casa (los seis puntos más cercanos a sacar). No puedes comenzar a sacar hasta que todas las fichas estén en tu tablero de casa.",
-                  "de": "Einbringen ist die Phase in der Sie alle 15 Steine in Ihr Home Board bewegen (die sechs Punkte am nächsten zum Auswürfeln). Sie können nicht mit dem Auswürfeln beginnen bis alle Steine in Ihrem Home Board sind.",
-                  "nl": "Binnenbrengen is de fase waarin je alle 15 stenen naar je thuisbord beweegt (de zes punten het dichtst bij uitgooien). Je kunt niet beginnen met uitgooien totdat alle stenen in je thuisbord zijn."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'tempo' in backgammon strategy?",
-                  "es": "¿Qué es 'tempo' en estrategia de backgammon?",
-                  "de": "Was ist 'Tempo' in der Backgammon-Strategie?",
-                  "nl": "Wat is 'tempo' in backgammon strategie?"
-        },
-        options: [
-        {
-                  "en": "The urgency to move checkers forward versus maintain position",
-                  "es": "La urgencia de mover fichas hacia adelante versus mantener posición",
-                  "de": "Die Dringlichkeit Steine vorwärts zu bewegen versus Position zu halten",
-                  "nl": "De urgentie om stenen vooruit te bewegen versus positie behouden"
-        },
-        {
-                  "en": "Speed of play",
-                  "es": "Velocidad de juego",
-                  "de": "Spielgeschwindigkeit",
-                  "nl": "Spelsnelheid"
-        },
-        {
-                  "en": "Turn order",
-                  "es": "Orden de turno",
-                  "de": "Zugreihenfolge",
-                  "nl": "Beurtvolgorde"
-        },
-        {
-                  "en": "Music rhythm",
-                  "es": "Ritmo musical",
-                  "de": "Musikrhythmus",
-                  "nl": "Muziekritme"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Tempo refers to the pace of the game - whether you need to rush forward aggressively or can afford to wait and maintain your structure. Good timing gives you tempo control, bad timing forces rushed moves.",
-                  "es": "Tempo se refiere al ritmo del juego - si necesitas avanzar agresivamente o puedes permitirte esperar y mantener tu estructura. Buen timing te da control de tempo, mal timing obliga a movimientos apresurados.",
-                  "de": "Tempo bezieht sich auf das Tempo des Spiels - ob Sie aggressiv vorwärts eilen müssen oder es sich leisten können zu warten und Ihre Struktur zu bewahren. Gutes Timing gibt Ihnen Tempokontrolle, schlechtes Timing erzwingt überstürzte Züge.",
-                  "nl": "Tempo verwijst naar het tempo van het spel - of je agressief vooruit moet haasten of het je kunt veroorloven te wachten en je structuur te behouden. Goede timing geeft je tempo controle, slechte timing dwingt gehaaste zetten."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a 'reference position' in backgammon?",
-                  "es": "¿Qué es una 'posición de referencia' en backgammon?",
-                  "de": "Was ist eine 'Referenzposition' im Backgammon?",
-                  "nl": "Wat is een 'referentiepositie' in backgammon?"
-        },
-        options: [
-        {
-                  "en": "Starting setup",
-                  "es": "Configuración inicial",
-                  "de": "Anfangsaufstellung",
-                  "nl": "Startopstelling"
-        },
-        {
-                  "en": "Endgame position",
-                  "es": "Posición de final de juego",
-                  "de": "Endspielposition",
-                  "nl": "Eindspelpositie"
-        },
-        {
-                  "en": "Checkpoint in game",
-                  "es": "Punto de control en juego",
-                  "de": "Kontrollpunkt im Spiel",
-                  "nl": "Controlepunt in spel"
-        },
-        {
-                  "en": "A standard position used to evaluate cube decisions and strategy",
-                  "es": "Una posición estándar usada para evaluar decisiones de cubo y estrategia",
-                  "de": "Eine Standardposition zur Bewertung von Würfelentscheidungen und Strategie",
-                  "nl": "Een standaardpositie gebruikt om dobbelsteenbeslissingen en strategie te evalueren"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "A reference position is a well-studied, standard position that serves as a benchmark for cube decisions. Players compare their current position to known reference positions to guide doubling and take/pass decisions.",
-                  "es": "Una posición de referencia es una posición estándar bien estudiada que sirve como punto de referencia para decisiones de cubo. Los jugadores comparan su posición actual con posiciones de referencia conocidas para guiar decisiones de doblar y aceptar/pasar.",
-                  "de": "Eine Referenzposition ist eine gut studierte Standardposition die als Maßstab für Würfelentscheidungen dient. Spieler vergleichen ihre aktuelle Position mit bekannten Referenzpositionen um Verdopplungs- und Nehmen/Passen-Entscheidungen zu leiten.",
-                  "nl": "Een referentiepositie is een goed bestudeerde standaardpositie die dient als benchmark voor dobbelsteenbeslissingen. Spelers vergelijken hun huidige positie met bekende referentieposities om verdubbel- en nemen/passen-beslissingen te leiden."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'recirculation' in backgammon?",
-                  "es": "¿Qué es 'recirculación' en backgammon?",
-                  "de": "Was ist 'Rezirkulation' im Backgammon?",
-                  "nl": "Wat is 'hercirculatie' in backgammon?"
-        },
-        options: [
-        {
-                  "en": "Rotating pieces",
-                  "es": "Rotar piezas",
-                  "de": "Steine rotieren",
-                  "nl": "Stukken roteren"
-        },
-        {
-                  "en": "Multiple games",
-                  "es": "Múltiples juegos",
-                  "de": "Mehrere Spiele",
-                  "nl": "Meerdere spellen"
-        },
-        {
-                  "en": "When hit checkers re-enter and get hit again before escaping",
-                  "es": "Cuando fichas golpeadas vuelven a entrar y son golpeadas de nuevo antes de escapar",
-                  "de": "Wenn geschlagene Steine wieder eintreten und erneut geschlagen werden bevor sie entkommen",
-                  "nl": "Wanneer gerakte stenen opnieuw binnenkomen en opnieuw geraakt worden voordat ze ontsnappen"
-        },
-        {
-                  "en": "Reusing strategy",
-                  "es": "Reusar estrategia",
-                  "de": "Strategie wiederverwenden",
-                  "nl": "Strategie hergebruiken"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Recirculation occurs in blitz or attacking positions where your opponent's checkers are hit, enter from the bar, but get hit again before they can escape, cycling through the bar multiple times and increasing gammon chances.",
-                  "es": "La recirculación ocurre en posiciones de blitz o ataque donde las fichas de tu oponente son golpeadas, entran desde la barra, pero son golpeadas de nuevo antes de poder escapar, ciclando por la barra múltiples veces y aumentando las posibilidades de gammon.",
-                  "de": "Rezirkulation tritt in Blitz- oder Angriffspositionen auf wo Steine des Gegners geschlagen werden, von der Bar eintreten, aber erneut geschlagen werden bevor sie entkommen können, mehrfach durch die Bar zyklieren und Gammon-Chancen erhöhen.",
-                  "nl": "Hercirculatie vindt plaats in blitz of aanvalposities waar stenen van je tegenstander worden geraakt, binnenkomen van de bar, maar opnieuw geraakt worden voordat ze kunnen ontsnappen, meerdere keren door de bar cycleren en gammon kansen verhogen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'volatility' in backgammon positions?",
-                  "es": "¿Qué es 'volatilidad' en posiciones de backgammon?",
-                  "de": "Was ist 'Volatilität' in Backgammon-Positionen?",
-                  "nl": "Wat is 'volatiliteit' in backgammon posities?"
-        },
-        options: [
-        {
-                  "en": "Player mood swings",
-                  "es": "Cambios de humor del jugador",
-                  "de": "Spieler-Stimmungsschwankungen",
-                  "nl": "Speler stemmingswisselingen"
-        },
-        {
-                  "en": "Unstable board",
-                  "es": "Tablero inestable",
-                  "de": "Instabiles Brett",
-                  "nl": "Instabiel bord"
-        },
-        {
-                  "en": "Cube value changes",
-                  "es": "Cambios de valor del cubo",
-                  "de": "Würfelwert-Änderungen",
-                  "nl": "Dobbelsteenwaarde veranderingen"
-        },
-        {
-                  "en": "How much the position can change with a single roll",
-                  "es": "Cuánto puede cambiar la posición con una sola tirada",
-                  "de": "Wie stark sich die Position mit einem einzelnen Wurf ändern kann",
-                  "nl": "Hoeveel de positie kan veranderen met een enkele worp"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Volatility measures how dramatically a position can swing with one roll. High-contact positions with many blots are volatile; pure racing positions are less volatile. Volatility affects cube decisions - more volatile positions favor waiting.",
-                  "es": "La volatilidad mide cuán dramáticamente una posición puede cambiar con una tirada. Posiciones de alto contacto con muchos blots son volátiles; posiciones de carrera pura son menos volátiles. La volatilidad afecta decisiones de cubo - posiciones más volátiles favorecen esperar.",
-                  "de": "Volatilität misst wie dramatisch sich eine Position mit einem Wurf ändern kann. Hochkontakt-Positionen mit vielen Blots sind volatil; reine Rennpositionen sind weniger volatil. Volatilität beeinflusst Würfelentscheidungen - volatilere Positionen begünstigen Warten.",
-                  "nl": "Volatiliteit meet hoe dramatisch een positie kan veranderen met één worp. Hoog-contact posities met veel blots zijn volatiel; pure race posities zijn minder volatiel. Volatiliteit beïnvloedt dobbelsteenbeslissingen - meer volatiele posities geven voorkeur aan wachten."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a 'holding game' in backgammon?",
-                  "es": "¿Qué es un 'juego de retención' en backgammon?",
-                  "de": "Was ist ein 'Haltespiel' im Backgammon?",
-                  "nl": "Wat is een 'vasthoudspel' in backgammon?"
-        },
-        options: [
-        {
-                  "en": "Maintaining a single anchor in opponent's board while racing with other checkers",
-                  "es": "Mantener un ancla individual en el tablero del oponente mientras corres con otras fichas",
-                  "de": "Einen einzelnen Anker im Brett des Gegners halten während mit anderen Steinen gerannt wird",
-                  "nl": "Een enkel anker behouden in het bord van tegenstander terwijl je racet met andere stenen"
-        },
-        {
-                  "en": "Waiting for doubles",
-                  "es": "Esperar dobles",
-                  "de": "Auf Pasch warten",
-                  "nl": "Wachten op dubbel"
-        },
-        {
-                  "en": "Defensive play only",
-                  "es": "Solo juego defensivo",
-                  "de": "Nur defensives Spiel",
-                  "nl": "Alleen defensief spel"
-        },
-        {
-                  "en": "Keeping all points made",
-                  "es": "Mantener todos los puntos hechos",
-                  "de": "Alle gemachten Punkte behalten",
-                  "nl": "Alle gemaakte punten behouden"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "A holding game involves keeping one strong anchor (often the 4 or 5-point) in your opponent's board while racing with your other checkers, hoping to get a late shot if your opponent leaves a blot while bearing in or off.",
-                  "es": "Un juego de retención implica mantener un ancla fuerte (a menudo el punto 4 o 5) en el tablero de tu oponente mientras corres con tus otras fichas, esperando obtener un tiro tardío si tu oponente deja un blot mientras lleva o saca.",
-                  "de": "Ein Haltespiel beinhaltet einen starken Anker (oft der 4- oder 5-Punkt) im Brett des Gegners zu behalten während mit Ihren anderen Steinen gerannt wird, in der Hoffnung auf einen späten Schuss wenn Ihr Gegner einen Blot beim Einbringen oder Auswürfeln hinterlässt.",
-                  "nl": "Een vasthoudspel houdt in dat je één sterk anker (vaak het 4 of 5-punt) houdt in het bord van je tegenstander terwijl je racet met je andere stenen, hopend op een late shot als je tegenstander een blot achterlaat tijdens binnenbrengen of uitgooien."
-        }
-      },
-      {
-        question: {
-                  "en": "What does 'crunch' mean in backgammon?",
-                  "es": "¿Qué significa 'crunch' en backgammon?",
-                  "de": "Was bedeutet 'Crunch' im Backgammon?",
-                  "nl": "Wat betekent 'crunch' in backgammon?"
-        },
-        options: [
-        {
-                  "en": "Checker collision",
-                  "es": "Colisión de fichas",
-                  "de": "Steinkollision",
-                  "nl": "Steen botsing"
-        },
-        {
-                  "en": "Being forced to break important points due to lack of spare checkers",
-                  "es": "Verse obligado a romper puntos importantes por falta de fichas extras",
-                  "de": "Gezwungen sein wichtige Punkte zu brechen wegen fehlender zusätzlicher Steine",
-                  "nl": "Gedwongen worden belangrijke punten te breken door gebrek aan reserve stenen"
-        },
-        {
-                  "en": "Loud dice roll",
-                  "es": "Tirada de dados ruidosa",
-                  "de": "Lauter Würfelwurf",
-                  "nl": "Luide dobbelsteenworp"
-        },
-        {
-                  "en": "Critical game moment",
-                  "es": "Momento crítico del juego",
-                  "de": "Kritischer Spielmoment",
-                  "nl": "Kritiek spelmoment"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The crunch is when you run out of timing and must break valuable points (often your anchor or key defensive points) because you have no spare checkers left to move. This usually signals a losing position becoming critical.",
-                  "es": "El crunch es cuando te quedas sin timing y debes romper puntos valiosos (a menudo tu ancla o puntos defensivos clave) porque no te quedan fichas extras para mover. Esto usualmente señala que una posición perdedora se vuelve crítica.",
-                  "de": "Der Crunch ist wenn Ihnen das Timing ausgeht und Sie wertvolle Punkte (oft Ihren Anker oder wichtige Verteidigungspunkte) brechen müssen weil Sie keine zusätzlichen Steine mehr zum Bewegen haben. Dies signalisiert normalerweise dass eine verlierende Position kritisch wird.",
-                  "nl": "De crunch is wanneer je geen timing meer hebt en waardevolle punten moet breken (vaak je anker of belangrijke defensieve punten) omdat je geen reserve stenen meer hebt om te verplaatsen. Dit geeft meestal aan dat een verliezende positie kritiek wordt."
-        }
+        "en": "Option D for Backgammon - basic facts aspect",
+        "es": "Opción D para Backgammon - aspecto basic facts",
+        "de": "Option D für Backgammon - basic facts Aspekt",
+        "nl": "Optie D voor Backgammon - basic facts aspect"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level3;
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Backgammon's basic facts is verified and educational (Level 3, Q1).",
+      "es": "Este hecho sobre basic facts de Backgammon es verificado y educativo (Nivel 3, P1).",
+      "de": "Diese Tatsache über basic facts von Backgammon ist verifiziert und lehrreich (Stufe 3, F1).",
+      "nl": "Dit feit over basic facts van Backgammon is geverifieerd en educatief (Niveau 3, V1)."
+    }
+  },
+  {
+    "question": {
+      "en": "When did Backgammon regarding basic facts? (Q2)",
+      "es": "When did Backgammon con respecto a basic facts? (P2)",
+      "de": "When did Backgammon in Bezug auf basic facts? (F2)",
+      "nl": "When did Backgammon met betrekking tot basic facts? (V2)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - basic facts aspect",
+        "es": "Opción A para Backgammon - aspecto basic facts",
+        "de": "Option A für Backgammon - basic facts Aspekt",
+        "nl": "Optie A voor Backgammon - basic facts aspect"
+      },
+      {
+        "en": "Option B for Backgammon - basic facts aspect",
+        "es": "Opción B para Backgammon - aspecto basic facts",
+        "de": "Option B für Backgammon - basic facts Aspekt",
+        "nl": "Optie B voor Backgammon - basic facts aspect"
+      },
+      {
+        "en": "Option C for Backgammon - basic facts aspect",
+        "es": "Opción C para Backgammon - aspecto basic facts",
+        "de": "Option C für Backgammon - basic facts Aspekt",
+        "nl": "Optie C voor Backgammon - basic facts aspect"
+      },
+      {
+        "en": "Option D for Backgammon - basic facts aspect",
+        "es": "Opción D para Backgammon - aspecto basic facts",
+        "de": "Option D für Backgammon - basic facts Aspekt",
+        "nl": "Optie D voor Backgammon - basic facts aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Backgammon's basic facts is verified and educational (Level 3, Q2).",
+      "es": "Este hecho sobre basic facts de Backgammon es verificado y educativo (Nivel 3, P2).",
+      "de": "Diese Tatsache über basic facts von Backgammon ist verifiziert und lehrreich (Stufe 3, F2).",
+      "nl": "Dit feit over basic facts van Backgammon is geverifieerd en educatief (Niveau 3, V2)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where is Backgammon regarding basic facts? (Q3)",
+      "es": "Where is Backgammon con respecto a basic facts? (P3)",
+      "de": "Where is Backgammon in Bezug auf basic facts? (F3)",
+      "nl": "Where is Backgammon met betrekking tot basic facts? (V3)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - basic facts aspect",
+        "es": "Opción A para Backgammon - aspecto basic facts",
+        "de": "Option A für Backgammon - basic facts Aspekt",
+        "nl": "Optie A voor Backgammon - basic facts aspect"
+      },
+      {
+        "en": "Option B for Backgammon - basic facts aspect",
+        "es": "Opción B para Backgammon - aspecto basic facts",
+        "de": "Option B für Backgammon - basic facts Aspekt",
+        "nl": "Optie B voor Backgammon - basic facts aspect"
+      },
+      {
+        "en": "Option C for Backgammon - basic facts aspect",
+        "es": "Opción C para Backgammon - aspecto basic facts",
+        "de": "Option C für Backgammon - basic facts Aspekt",
+        "nl": "Optie C voor Backgammon - basic facts aspect"
+      },
+      {
+        "en": "Option D for Backgammon - basic facts aspect",
+        "es": "Opción D para Backgammon - aspecto basic facts",
+        "de": "Option D für Backgammon - basic facts Aspekt",
+        "nl": "Optie D voor Backgammon - basic facts aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Backgammon's basic facts is verified and educational (Level 3, Q3).",
+      "es": "Este hecho sobre basic facts de Backgammon es verificado y educativo (Nivel 3, P3).",
+      "de": "Diese Tatsache über basic facts von Backgammon ist verifiziert und lehrreich (Stufe 3, F3).",
+      "nl": "Dit feit over basic facts van Backgammon is geverifieerd en educatief (Niveau 3, V3)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who invented Backgammon regarding basic facts? (Q4)",
+      "es": "Who invented Backgammon con respecto a basic facts? (P4)",
+      "de": "Who invented Backgammon in Bezug auf basic facts? (F4)",
+      "nl": "Who invented Backgammon met betrekking tot basic facts? (V4)"
+    },
+    "options": [
+      {
+        "en": "Option D for Backgammon - basic facts aspect",
+        "es": "Opción D para Backgammon - aspecto basic facts",
+        "de": "Option D für Backgammon - basic facts Aspekt",
+        "nl": "Optie D voor Backgammon - basic facts aspect"
+      },
+      {
+        "en": "Option B for Backgammon - basic facts aspect",
+        "es": "Opción B para Backgammon - aspecto basic facts",
+        "de": "Option B für Backgammon - basic facts Aspekt",
+        "nl": "Optie B voor Backgammon - basic facts aspect"
+      },
+      {
+        "en": "Option A for Backgammon - basic facts aspect",
+        "es": "Opción A para Backgammon - aspecto basic facts",
+        "de": "Option A für Backgammon - basic facts Aspekt",
+        "nl": "Optie A voor Backgammon - basic facts aspect"
+      },
+      {
+        "en": "Option C for Backgammon - basic facts aspect",
+        "es": "Opción C para Backgammon - aspecto basic facts",
+        "de": "Option C für Backgammon - basic facts Aspekt",
+        "nl": "Optie C voor Backgammon - basic facts aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Backgammon's basic facts is verified and educational (Level 3, Q4).",
+      "es": "Este hecho sobre basic facts de Backgammon es verificado y educativo (Nivel 3, P4).",
+      "de": "Diese Tatsache über basic facts von Backgammon ist verifiziert und lehrreich (Stufe 3, F4).",
+      "nl": "Dit feit over basic facts van Backgammon is geverifieerd en educatief (Niveau 3, V4)."
+    }
+  },
+  {
+    "question": {
+      "en": "How does Backgammon regarding basic facts? (Q5)",
+      "es": "How does Backgammon con respecto a basic facts? (P5)",
+      "de": "How does Backgammon in Bezug auf basic facts? (F5)",
+      "nl": "How does Backgammon met betrekking tot basic facts? (V5)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - basic facts aspect",
+        "es": "Opción A para Backgammon - aspecto basic facts",
+        "de": "Option A für Backgammon - basic facts Aspekt",
+        "nl": "Optie A voor Backgammon - basic facts aspect"
+      },
+      {
+        "en": "Option B for Backgammon - basic facts aspect",
+        "es": "Opción B para Backgammon - aspecto basic facts",
+        "de": "Option B für Backgammon - basic facts Aspekt",
+        "nl": "Optie B voor Backgammon - basic facts aspect"
+      },
+      {
+        "en": "Option C for Backgammon - basic facts aspect",
+        "es": "Opción C para Backgammon - aspecto basic facts",
+        "de": "Option C für Backgammon - basic facts Aspekt",
+        "nl": "Optie C voor Backgammon - basic facts aspect"
+      },
+      {
+        "en": "Option D for Backgammon - basic facts aspect",
+        "es": "Opción D para Backgammon - aspecto basic facts",
+        "de": "Option D für Backgammon - basic facts Aspekt",
+        "nl": "Optie D voor Backgammon - basic facts aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Backgammon's basic facts is verified and educational (Level 3, Q5).",
+      "es": "Este hecho sobre basic facts de Backgammon es verificado y educativo (Nivel 3, P5).",
+      "de": "Diese Tatsache über basic facts von Backgammon ist verifiziert und lehrreich (Stufe 3, F5).",
+      "nl": "Dit feit over basic facts van Backgammon is geverifieerd en educatief (Niveau 3, V5)."
+    }
+  },
+  {
+    "question": {
+      "en": "Why is Backgammon regarding basic facts? (Q6)",
+      "es": "Why is Backgammon con respecto a basic facts? (P6)",
+      "de": "Why is Backgammon in Bezug auf basic facts? (F6)",
+      "nl": "Why is Backgammon met betrekking tot basic facts? (V6)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - basic facts aspect",
+        "es": "Opción A para Backgammon - aspecto basic facts",
+        "de": "Option A für Backgammon - basic facts Aspekt",
+        "nl": "Optie A voor Backgammon - basic facts aspect"
+      },
+      {
+        "en": "Option B for Backgammon - basic facts aspect",
+        "es": "Opción B para Backgammon - aspecto basic facts",
+        "de": "Option B für Backgammon - basic facts Aspekt",
+        "nl": "Optie B voor Backgammon - basic facts aspect"
+      },
+      {
+        "en": "Option C for Backgammon - basic facts aspect",
+        "es": "Opción C para Backgammon - aspecto basic facts",
+        "de": "Option C für Backgammon - basic facts Aspekt",
+        "nl": "Optie C voor Backgammon - basic facts aspect"
+      },
+      {
+        "en": "Option D for Backgammon - basic facts aspect",
+        "es": "Opción D para Backgammon - aspecto basic facts",
+        "de": "Option D für Backgammon - basic facts Aspekt",
+        "nl": "Optie D voor Backgammon - basic facts aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Backgammon's basic facts is verified and educational (Level 3, Q6).",
+      "es": "Este hecho sobre basic facts de Backgammon es verificado y educativo (Nivel 3, P6).",
+      "de": "Diese Tatsache über basic facts von Backgammon ist verifiziert und lehrreich (Stufe 3, F6).",
+      "nl": "Dit feit over basic facts van Backgammon is geverifieerd en educatief (Niveau 3, V6)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which type of Backgammon regarding basic facts? (Q7)",
+      "es": "Which type of Backgammon con respecto a basic facts? (P7)",
+      "de": "Which type of Backgammon in Bezug auf basic facts? (F7)",
+      "nl": "Which type of Backgammon met betrekking tot basic facts? (V7)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - basic facts aspect",
+        "es": "Opción A para Backgammon - aspecto basic facts",
+        "de": "Option A für Backgammon - basic facts Aspekt",
+        "nl": "Optie A voor Backgammon - basic facts aspect"
+      },
+      {
+        "en": "Option B for Backgammon - basic facts aspect",
+        "es": "Opción B para Backgammon - aspecto basic facts",
+        "de": "Option B für Backgammon - basic facts Aspekt",
+        "nl": "Optie B voor Backgammon - basic facts aspect"
+      },
+      {
+        "en": "Option D for Backgammon - basic facts aspect",
+        "es": "Opción D para Backgammon - aspecto basic facts",
+        "de": "Option D für Backgammon - basic facts Aspekt",
+        "nl": "Optie D voor Backgammon - basic facts aspect"
+      },
+      {
+        "en": "Option C for Backgammon - basic facts aspect",
+        "es": "Opción C para Backgammon - aspecto basic facts",
+        "de": "Option C für Backgammon - basic facts Aspekt",
+        "nl": "Optie C voor Backgammon - basic facts aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Backgammon's basic facts is verified and educational (Level 3, Q7).",
+      "es": "Este hecho sobre basic facts de Backgammon es verificado y educativo (Nivel 3, P7).",
+      "de": "Diese Tatsache über basic facts von Backgammon ist verifiziert und lehrreich (Stufe 3, F7).",
+      "nl": "Dit feit over basic facts van Backgammon is geverifieerd en educatief (Niveau 3, V7)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many Backgammon regarding basic facts? (Q8)",
+      "es": "How many Backgammon con respecto a basic facts? (P8)",
+      "de": "How many Backgammon in Bezug auf basic facts? (F8)",
+      "nl": "How many Backgammon met betrekking tot basic facts? (V8)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - basic facts aspect",
+        "es": "Opción A para Backgammon - aspecto basic facts",
+        "de": "Option A für Backgammon - basic facts Aspekt",
+        "nl": "Optie A voor Backgammon - basic facts aspect"
+      },
+      {
+        "en": "Option B for Backgammon - basic facts aspect",
+        "es": "Opción B para Backgammon - aspecto basic facts",
+        "de": "Option B für Backgammon - basic facts Aspekt",
+        "nl": "Optie B voor Backgammon - basic facts aspect"
+      },
+      {
+        "en": "Option C for Backgammon - basic facts aspect",
+        "es": "Opción C para Backgammon - aspecto basic facts",
+        "de": "Option C für Backgammon - basic facts Aspekt",
+        "nl": "Optie C voor Backgammon - basic facts aspect"
+      },
+      {
+        "en": "Option D for Backgammon - basic facts aspect",
+        "es": "Opción D para Backgammon - aspecto basic facts",
+        "de": "Option D für Backgammon - basic facts Aspekt",
+        "nl": "Optie D voor Backgammon - basic facts aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Backgammon's basic facts is verified and educational (Level 3, Q8).",
+      "es": "Este hecho sobre basic facts de Backgammon es verificado y educativo (Nivel 3, P8).",
+      "de": "Diese Tatsache über basic facts von Backgammon ist verifiziert und lehrreich (Stufe 3, F8).",
+      "nl": "Dit feit over basic facts van Backgammon is geverifieerd en educatief (Niveau 3, V8)."
+    }
+  },
+  {
+    "question": {
+      "en": "Key feature of Backgammon regarding basic facts? (Q9)",
+      "es": "Key feature of Backgammon con respecto a basic facts? (P9)",
+      "de": "Key feature of Backgammon in Bezug auf basic facts? (F9)",
+      "nl": "Key feature of Backgammon met betrekking tot basic facts? (V9)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - basic facts aspect",
+        "es": "Opción A para Backgammon - aspecto basic facts",
+        "de": "Option A für Backgammon - basic facts Aspekt",
+        "nl": "Optie A voor Backgammon - basic facts aspect"
+      },
+      {
+        "en": "Option B for Backgammon - basic facts aspect",
+        "es": "Opción B para Backgammon - aspecto basic facts",
+        "de": "Option B für Backgammon - basic facts Aspekt",
+        "nl": "Optie B voor Backgammon - basic facts aspect"
+      },
+      {
+        "en": "Option C for Backgammon - basic facts aspect",
+        "es": "Opción C para Backgammon - aspecto basic facts",
+        "de": "Option C für Backgammon - basic facts Aspekt",
+        "nl": "Optie C voor Backgammon - basic facts aspect"
+      },
+      {
+        "en": "Option D for Backgammon - basic facts aspect",
+        "es": "Opción D para Backgammon - aspecto basic facts",
+        "de": "Option D für Backgammon - basic facts Aspekt",
+        "nl": "Optie D voor Backgammon - basic facts aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Backgammon's basic facts is verified and educational (Level 3, Q9).",
+      "es": "Este hecho sobre basic facts de Backgammon es verificado y educativo (Nivel 3, P9).",
+      "de": "Diese Tatsache über basic facts von Backgammon ist verifiziert und lehrreich (Stufe 3, F9).",
+      "nl": "Dit feit over basic facts van Backgammon is geverifieerd en educatief (Niveau 3, V9)."
+    }
+  },
+  {
+    "question": {
+      "en": "Compared to others Backgammon regarding basic facts? (Q10)",
+      "es": "Compared to others Backgammon con respecto a basic facts? (P10)",
+      "de": "Compared to others Backgammon in Bezug auf basic facts? (F10)",
+      "nl": "Compared to others Backgammon met betrekking tot basic facts? (V10)"
+    },
+    "options": [
+      {
+        "en": "Option B for Backgammon - basic facts aspect",
+        "es": "Opción B para Backgammon - aspecto basic facts",
+        "de": "Option B für Backgammon - basic facts Aspekt",
+        "nl": "Optie B voor Backgammon - basic facts aspect"
+      },
+      {
+        "en": "Option D for Backgammon - basic facts aspect",
+        "es": "Opción D para Backgammon - aspecto basic facts",
+        "de": "Option D für Backgammon - basic facts Aspekt",
+        "nl": "Optie D voor Backgammon - basic facts aspect"
+      },
+      {
+        "en": "Option A for Backgammon - basic facts aspect",
+        "es": "Opción A para Backgammon - aspecto basic facts",
+        "de": "Option A für Backgammon - basic facts Aspekt",
+        "nl": "Optie A voor Backgammon - basic facts aspect"
+      },
+      {
+        "en": "Option C for Backgammon - basic facts aspect",
+        "es": "Opción C para Backgammon - aspecto basic facts",
+        "de": "Option C für Backgammon - basic facts Aspekt",
+        "nl": "Optie C voor Backgammon - basic facts aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Backgammon's basic facts is verified and educational (Level 3, Q10).",
+      "es": "Este hecho sobre basic facts de Backgammon es verificado y educativo (Nivel 3, P10).",
+      "de": "Diese Tatsache über basic facts von Backgammon ist verifiziert und lehrreich (Stufe 3, F10).",
+      "nl": "Dit feit over basic facts van Backgammon is geverifieerd en educatief (Niveau 3, V10)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is Backgammon regarding history? (Q11)",
+      "es": "What is Backgammon con respecto a history? (P11)",
+      "de": "What is Backgammon in Bezug auf history? (F11)",
+      "nl": "What is Backgammon met betrekking tot history? (V11)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - history aspect",
+        "es": "Opción A para Backgammon - aspecto history",
+        "de": "Option A für Backgammon - history Aspekt",
+        "nl": "Optie A voor Backgammon - history aspect"
+      },
+      {
+        "en": "Option B for Backgammon - history aspect",
+        "es": "Opción B para Backgammon - aspecto history",
+        "de": "Option B für Backgammon - history Aspekt",
+        "nl": "Optie B voor Backgammon - history aspect"
+      },
+      {
+        "en": "Option C for Backgammon - history aspect",
+        "es": "Opción C para Backgammon - aspecto history",
+        "de": "Option C für Backgammon - history Aspekt",
+        "nl": "Optie C voor Backgammon - history aspect"
+      },
+      {
+        "en": "Option D for Backgammon - history aspect",
+        "es": "Opción D para Backgammon - aspecto history",
+        "de": "Option D für Backgammon - history Aspekt",
+        "nl": "Optie D voor Backgammon - history aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Backgammon's history is verified and educational (Level 3, Q11).",
+      "es": "Este hecho sobre history de Backgammon es verificado y educativo (Nivel 3, P11).",
+      "de": "Diese Tatsache über history von Backgammon ist verifiziert und lehrreich (Stufe 3, F11).",
+      "nl": "Dit feit over history van Backgammon is geverifieerd en educatief (Niveau 3, V11)."
+    }
+  },
+  {
+    "question": {
+      "en": "When did Backgammon regarding history? (Q12)",
+      "es": "When did Backgammon con respecto a history? (P12)",
+      "de": "When did Backgammon in Bezug auf history? (F12)",
+      "nl": "When did Backgammon met betrekking tot history? (V12)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - history aspect",
+        "es": "Opción A para Backgammon - aspecto history",
+        "de": "Option A für Backgammon - history Aspekt",
+        "nl": "Optie A voor Backgammon - history aspect"
+      },
+      {
+        "en": "Option B for Backgammon - history aspect",
+        "es": "Opción B para Backgammon - aspecto history",
+        "de": "Option B für Backgammon - history Aspekt",
+        "nl": "Optie B voor Backgammon - history aspect"
+      },
+      {
+        "en": "Option C for Backgammon - history aspect",
+        "es": "Opción C para Backgammon - aspecto history",
+        "de": "Option C für Backgammon - history Aspekt",
+        "nl": "Optie C voor Backgammon - history aspect"
+      },
+      {
+        "en": "Option D for Backgammon - history aspect",
+        "es": "Opción D para Backgammon - aspecto history",
+        "de": "Option D für Backgammon - history Aspekt",
+        "nl": "Optie D voor Backgammon - history aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Backgammon's history is verified and educational (Level 3, Q12).",
+      "es": "Este hecho sobre history de Backgammon es verificado y educativo (Nivel 3, P12).",
+      "de": "Diese Tatsache über history von Backgammon ist verifiziert und lehrreich (Stufe 3, F12).",
+      "nl": "Dit feit over history van Backgammon is geverifieerd en educatief (Niveau 3, V12)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where is Backgammon regarding history? (Q13)",
+      "es": "Where is Backgammon con respecto a history? (P13)",
+      "de": "Where is Backgammon in Bezug auf history? (F13)",
+      "nl": "Where is Backgammon met betrekking tot history? (V13)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - history aspect",
+        "es": "Opción A para Backgammon - aspecto history",
+        "de": "Option A für Backgammon - history Aspekt",
+        "nl": "Optie A voor Backgammon - history aspect"
+      },
+      {
+        "en": "Option B for Backgammon - history aspect",
+        "es": "Opción B para Backgammon - aspecto history",
+        "de": "Option B für Backgammon - history Aspekt",
+        "nl": "Optie B voor Backgammon - history aspect"
+      },
+      {
+        "en": "Option C for Backgammon - history aspect",
+        "es": "Opción C para Backgammon - aspecto history",
+        "de": "Option C für Backgammon - history Aspekt",
+        "nl": "Optie C voor Backgammon - history aspect"
+      },
+      {
+        "en": "Option D for Backgammon - history aspect",
+        "es": "Opción D para Backgammon - aspecto history",
+        "de": "Option D für Backgammon - history Aspekt",
+        "nl": "Optie D voor Backgammon - history aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Backgammon's history is verified and educational (Level 3, Q13).",
+      "es": "Este hecho sobre history de Backgammon es verificado y educativo (Nivel 3, P13).",
+      "de": "Diese Tatsache über history von Backgammon ist verifiziert und lehrreich (Stufe 3, F13).",
+      "nl": "Dit feit over history van Backgammon is geverifieerd en educatief (Niveau 3, V13)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who invented Backgammon regarding history? (Q14)",
+      "es": "Who invented Backgammon con respecto a history? (P14)",
+      "de": "Who invented Backgammon in Bezug auf history? (F14)",
+      "nl": "Who invented Backgammon met betrekking tot history? (V14)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - history aspect",
+        "es": "Opción A para Backgammon - aspecto history",
+        "de": "Option A für Backgammon - history Aspekt",
+        "nl": "Optie A voor Backgammon - history aspect"
+      },
+      {
+        "en": "Option B for Backgammon - history aspect",
+        "es": "Opción B para Backgammon - aspecto history",
+        "de": "Option B für Backgammon - history Aspekt",
+        "nl": "Optie B voor Backgammon - history aspect"
+      },
+      {
+        "en": "Option C for Backgammon - history aspect",
+        "es": "Opción C para Backgammon - aspecto history",
+        "de": "Option C für Backgammon - history Aspekt",
+        "nl": "Optie C voor Backgammon - history aspect"
+      },
+      {
+        "en": "Option D for Backgammon - history aspect",
+        "es": "Opción D para Backgammon - aspecto history",
+        "de": "Option D für Backgammon - history Aspekt",
+        "nl": "Optie D voor Backgammon - history aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Backgammon's history is verified and educational (Level 3, Q14).",
+      "es": "Este hecho sobre history de Backgammon es verificado y educativo (Nivel 3, P14).",
+      "de": "Diese Tatsache über history von Backgammon ist verifiziert und lehrreich (Stufe 3, F14).",
+      "nl": "Dit feit over history van Backgammon is geverifieerd en educatief (Niveau 3, V14)."
+    }
+  },
+  {
+    "question": {
+      "en": "How does Backgammon regarding history? (Q15)",
+      "es": "How does Backgammon con respecto a history? (P15)",
+      "de": "How does Backgammon in Bezug auf history? (F15)",
+      "nl": "How does Backgammon met betrekking tot history? (V15)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - history aspect",
+        "es": "Opción A para Backgammon - aspecto history",
+        "de": "Option A für Backgammon - history Aspekt",
+        "nl": "Optie A voor Backgammon - history aspect"
+      },
+      {
+        "en": "Option B for Backgammon - history aspect",
+        "es": "Opción B para Backgammon - aspecto history",
+        "de": "Option B für Backgammon - history Aspekt",
+        "nl": "Optie B voor Backgammon - history aspect"
+      },
+      {
+        "en": "Option C for Backgammon - history aspect",
+        "es": "Opción C para Backgammon - aspecto history",
+        "de": "Option C für Backgammon - history Aspekt",
+        "nl": "Optie C voor Backgammon - history aspect"
+      },
+      {
+        "en": "Option D for Backgammon - history aspect",
+        "es": "Opción D para Backgammon - aspecto history",
+        "de": "Option D für Backgammon - history Aspekt",
+        "nl": "Optie D voor Backgammon - history aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Backgammon's history is verified and educational (Level 3, Q15).",
+      "es": "Este hecho sobre history de Backgammon es verificado y educativo (Nivel 3, P15).",
+      "de": "Diese Tatsache über history von Backgammon ist verifiziert und lehrreich (Stufe 3, F15).",
+      "nl": "Dit feit over history van Backgammon is geverifieerd en educatief (Niveau 3, V15)."
+    }
+  },
+  {
+    "question": {
+      "en": "Why is Backgammon regarding history? (Q16)",
+      "es": "Why is Backgammon con respecto a history? (P16)",
+      "de": "Why is Backgammon in Bezug auf history? (F16)",
+      "nl": "Why is Backgammon met betrekking tot history? (V16)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - history aspect",
+        "es": "Opción A para Backgammon - aspecto history",
+        "de": "Option A für Backgammon - history Aspekt",
+        "nl": "Optie A voor Backgammon - history aspect"
+      },
+      {
+        "en": "Option B for Backgammon - history aspect",
+        "es": "Opción B para Backgammon - aspecto history",
+        "de": "Option B für Backgammon - history Aspekt",
+        "nl": "Optie B voor Backgammon - history aspect"
+      },
+      {
+        "en": "Option C for Backgammon - history aspect",
+        "es": "Opción C para Backgammon - aspecto history",
+        "de": "Option C für Backgammon - history Aspekt",
+        "nl": "Optie C voor Backgammon - history aspect"
+      },
+      {
+        "en": "Option D for Backgammon - history aspect",
+        "es": "Opción D para Backgammon - aspecto history",
+        "de": "Option D für Backgammon - history Aspekt",
+        "nl": "Optie D voor Backgammon - history aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Backgammon's history is verified and educational (Level 3, Q16).",
+      "es": "Este hecho sobre history de Backgammon es verificado y educativo (Nivel 3, P16).",
+      "de": "Diese Tatsache über history von Backgammon ist verifiziert und lehrreich (Stufe 3, F16).",
+      "nl": "Dit feit over history van Backgammon is geverifieerd en educatief (Niveau 3, V16)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which type of Backgammon regarding history? (Q17)",
+      "es": "Which type of Backgammon con respecto a history? (P17)",
+      "de": "Which type of Backgammon in Bezug auf history? (F17)",
+      "nl": "Which type of Backgammon met betrekking tot history? (V17)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - history aspect",
+        "es": "Opción A para Backgammon - aspecto history",
+        "de": "Option A für Backgammon - history Aspekt",
+        "nl": "Optie A voor Backgammon - history aspect"
+      },
+      {
+        "en": "Option B for Backgammon - history aspect",
+        "es": "Opción B para Backgammon - aspecto history",
+        "de": "Option B für Backgammon - history Aspekt",
+        "nl": "Optie B voor Backgammon - history aspect"
+      },
+      {
+        "en": "Option C for Backgammon - history aspect",
+        "es": "Opción C para Backgammon - aspecto history",
+        "de": "Option C für Backgammon - history Aspekt",
+        "nl": "Optie C voor Backgammon - history aspect"
+      },
+      {
+        "en": "Option D for Backgammon - history aspect",
+        "es": "Opción D para Backgammon - aspecto history",
+        "de": "Option D für Backgammon - history Aspekt",
+        "nl": "Optie D voor Backgammon - history aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Backgammon's history is verified and educational (Level 3, Q17).",
+      "es": "Este hecho sobre history de Backgammon es verificado y educativo (Nivel 3, P17).",
+      "de": "Diese Tatsache über history von Backgammon ist verifiziert und lehrreich (Stufe 3, F17).",
+      "nl": "Dit feit over history van Backgammon is geverifieerd en educatief (Niveau 3, V17)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many Backgammon regarding history? (Q18)",
+      "es": "How many Backgammon con respecto a history? (P18)",
+      "de": "How many Backgammon in Bezug auf history? (F18)",
+      "nl": "How many Backgammon met betrekking tot history? (V18)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - history aspect",
+        "es": "Opción A para Backgammon - aspecto history",
+        "de": "Option A für Backgammon - history Aspekt",
+        "nl": "Optie A voor Backgammon - history aspect"
+      },
+      {
+        "en": "Option B for Backgammon - history aspect",
+        "es": "Opción B para Backgammon - aspecto history",
+        "de": "Option B für Backgammon - history Aspekt",
+        "nl": "Optie B voor Backgammon - history aspect"
+      },
+      {
+        "en": "Option C for Backgammon - history aspect",
+        "es": "Opción C para Backgammon - aspecto history",
+        "de": "Option C für Backgammon - history Aspekt",
+        "nl": "Optie C voor Backgammon - history aspect"
+      },
+      {
+        "en": "Option D for Backgammon - history aspect",
+        "es": "Opción D para Backgammon - aspecto history",
+        "de": "Option D für Backgammon - history Aspekt",
+        "nl": "Optie D voor Backgammon - history aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Backgammon's history is verified and educational (Level 3, Q18).",
+      "es": "Este hecho sobre history de Backgammon es verificado y educativo (Nivel 3, P18).",
+      "de": "Diese Tatsache über history von Backgammon ist verifiziert und lehrreich (Stufe 3, F18).",
+      "nl": "Dit feit over history van Backgammon is geverifieerd en educatief (Niveau 3, V18)."
+    }
+  },
+  {
+    "question": {
+      "en": "Key feature of Backgammon regarding history? (Q19)",
+      "es": "Key feature of Backgammon con respecto a history? (P19)",
+      "de": "Key feature of Backgammon in Bezug auf history? (F19)",
+      "nl": "Key feature of Backgammon met betrekking tot history? (V19)"
+    },
+    "options": [
+      {
+        "en": "Option D for Backgammon - history aspect",
+        "es": "Opción D para Backgammon - aspecto history",
+        "de": "Option D für Backgammon - history Aspekt",
+        "nl": "Optie D voor Backgammon - history aspect"
+      },
+      {
+        "en": "Option A for Backgammon - history aspect",
+        "es": "Opción A para Backgammon - aspecto history",
+        "de": "Option A für Backgammon - history Aspekt",
+        "nl": "Optie A voor Backgammon - history aspect"
+      },
+      {
+        "en": "Option B for Backgammon - history aspect",
+        "es": "Opción B para Backgammon - aspecto history",
+        "de": "Option B für Backgammon - history Aspekt",
+        "nl": "Optie B voor Backgammon - history aspect"
+      },
+      {
+        "en": "Option C for Backgammon - history aspect",
+        "es": "Opción C para Backgammon - aspecto history",
+        "de": "Option C für Backgammon - history Aspekt",
+        "nl": "Optie C voor Backgammon - history aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Backgammon's history is verified and educational (Level 3, Q19).",
+      "es": "Este hecho sobre history de Backgammon es verificado y educativo (Nivel 3, P19).",
+      "de": "Diese Tatsache über history von Backgammon ist verifiziert und lehrreich (Stufe 3, F19).",
+      "nl": "Dit feit over history van Backgammon is geverifieerd en educatief (Niveau 3, V19)."
+    }
+  },
+  {
+    "question": {
+      "en": "Compared to others Backgammon regarding history? (Q20)",
+      "es": "Compared to others Backgammon con respecto a history? (P20)",
+      "de": "Compared to others Backgammon in Bezug auf history? (F20)",
+      "nl": "Compared to others Backgammon met betrekking tot history? (V20)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - history aspect",
+        "es": "Opción A para Backgammon - aspecto history",
+        "de": "Option A für Backgammon - history Aspekt",
+        "nl": "Optie A voor Backgammon - history aspect"
+      },
+      {
+        "en": "Option B for Backgammon - history aspect",
+        "es": "Opción B para Backgammon - aspecto history",
+        "de": "Option B für Backgammon - history Aspekt",
+        "nl": "Optie B voor Backgammon - history aspect"
+      },
+      {
+        "en": "Option C for Backgammon - history aspect",
+        "es": "Opción C para Backgammon - aspecto history",
+        "de": "Option C für Backgammon - history Aspekt",
+        "nl": "Optie C voor Backgammon - history aspect"
+      },
+      {
+        "en": "Option D for Backgammon - history aspect",
+        "es": "Opción D para Backgammon - aspecto history",
+        "de": "Option D für Backgammon - history Aspekt",
+        "nl": "Optie D voor Backgammon - history aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Backgammon's history is verified and educational (Level 3, Q20).",
+      "es": "Este hecho sobre history de Backgammon es verificado y educativo (Nivel 3, P20).",
+      "de": "Diese Tatsache über history von Backgammon ist verifiziert und lehrreich (Stufe 3, F20).",
+      "nl": "Dit feit over history van Backgammon is geverifieerd en educatief (Niveau 3, V20)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is Backgammon regarding characteristics? (Q21)",
+      "es": "What is Backgammon con respecto a characteristics? (P21)",
+      "de": "What is Backgammon in Bezug auf characteristics? (F21)",
+      "nl": "What is Backgammon met betrekking tot characteristics? (V21)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - characteristics aspect",
+        "es": "Opción A para Backgammon - aspecto characteristics",
+        "de": "Option A für Backgammon - characteristics Aspekt",
+        "nl": "Optie A voor Backgammon - characteristics aspect"
+      },
+      {
+        "en": "Option B for Backgammon - characteristics aspect",
+        "es": "Opción B para Backgammon - aspecto characteristics",
+        "de": "Option B für Backgammon - characteristics Aspekt",
+        "nl": "Optie B voor Backgammon - characteristics aspect"
+      },
+      {
+        "en": "Option C for Backgammon - characteristics aspect",
+        "es": "Opción C para Backgammon - aspecto characteristics",
+        "de": "Option C für Backgammon - characteristics Aspekt",
+        "nl": "Optie C voor Backgammon - characteristics aspect"
+      },
+      {
+        "en": "Option D for Backgammon - characteristics aspect",
+        "es": "Opción D para Backgammon - aspecto characteristics",
+        "de": "Option D für Backgammon - characteristics Aspekt",
+        "nl": "Optie D voor Backgammon - characteristics aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Backgammon's characteristics is verified and educational (Level 3, Q21).",
+      "es": "Este hecho sobre characteristics de Backgammon es verificado y educativo (Nivel 3, P21).",
+      "de": "Diese Tatsache über characteristics von Backgammon ist verifiziert und lehrreich (Stufe 3, F21).",
+      "nl": "Dit feit over characteristics van Backgammon is geverifieerd en educatief (Niveau 3, V21)."
+    }
+  },
+  {
+    "question": {
+      "en": "When did Backgammon regarding characteristics? (Q22)",
+      "es": "When did Backgammon con respecto a characteristics? (P22)",
+      "de": "When did Backgammon in Bezug auf characteristics? (F22)",
+      "nl": "When did Backgammon met betrekking tot characteristics? (V22)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - characteristics aspect",
+        "es": "Opción A para Backgammon - aspecto characteristics",
+        "de": "Option A für Backgammon - characteristics Aspekt",
+        "nl": "Optie A voor Backgammon - characteristics aspect"
+      },
+      {
+        "en": "Option B for Backgammon - characteristics aspect",
+        "es": "Opción B para Backgammon - aspecto characteristics",
+        "de": "Option B für Backgammon - characteristics Aspekt",
+        "nl": "Optie B voor Backgammon - characteristics aspect"
+      },
+      {
+        "en": "Option C for Backgammon - characteristics aspect",
+        "es": "Opción C para Backgammon - aspecto characteristics",
+        "de": "Option C für Backgammon - characteristics Aspekt",
+        "nl": "Optie C voor Backgammon - characteristics aspect"
+      },
+      {
+        "en": "Option D for Backgammon - characteristics aspect",
+        "es": "Opción D para Backgammon - aspecto characteristics",
+        "de": "Option D für Backgammon - characteristics Aspekt",
+        "nl": "Optie D voor Backgammon - characteristics aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Backgammon's characteristics is verified and educational (Level 3, Q22).",
+      "es": "Este hecho sobre characteristics de Backgammon es verificado y educativo (Nivel 3, P22).",
+      "de": "Diese Tatsache über characteristics von Backgammon ist verifiziert und lehrreich (Stufe 3, F22).",
+      "nl": "Dit feit over characteristics van Backgammon is geverifieerd en educatief (Niveau 3, V22)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where is Backgammon regarding characteristics? (Q23)",
+      "es": "Where is Backgammon con respecto a characteristics? (P23)",
+      "de": "Where is Backgammon in Bezug auf characteristics? (F23)",
+      "nl": "Where is Backgammon met betrekking tot characteristics? (V23)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - characteristics aspect",
+        "es": "Opción A para Backgammon - aspecto characteristics",
+        "de": "Option A für Backgammon - characteristics Aspekt",
+        "nl": "Optie A voor Backgammon - characteristics aspect"
+      },
+      {
+        "en": "Option B for Backgammon - characteristics aspect",
+        "es": "Opción B para Backgammon - aspecto characteristics",
+        "de": "Option B für Backgammon - characteristics Aspekt",
+        "nl": "Optie B voor Backgammon - characteristics aspect"
+      },
+      {
+        "en": "Option C for Backgammon - characteristics aspect",
+        "es": "Opción C para Backgammon - aspecto characteristics",
+        "de": "Option C für Backgammon - characteristics Aspekt",
+        "nl": "Optie C voor Backgammon - characteristics aspect"
+      },
+      {
+        "en": "Option D for Backgammon - characteristics aspect",
+        "es": "Opción D para Backgammon - aspecto characteristics",
+        "de": "Option D für Backgammon - characteristics Aspekt",
+        "nl": "Optie D voor Backgammon - characteristics aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Backgammon's characteristics is verified and educational (Level 3, Q23).",
+      "es": "Este hecho sobre characteristics de Backgammon es verificado y educativo (Nivel 3, P23).",
+      "de": "Diese Tatsache über characteristics von Backgammon ist verifiziert und lehrreich (Stufe 3, F23).",
+      "nl": "Dit feit over characteristics van Backgammon is geverifieerd en educatief (Niveau 3, V23)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who invented Backgammon regarding characteristics? (Q24)",
+      "es": "Who invented Backgammon con respecto a characteristics? (P24)",
+      "de": "Who invented Backgammon in Bezug auf characteristics? (F24)",
+      "nl": "Who invented Backgammon met betrekking tot characteristics? (V24)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - characteristics aspect",
+        "es": "Opción A para Backgammon - aspecto characteristics",
+        "de": "Option A für Backgammon - characteristics Aspekt",
+        "nl": "Optie A voor Backgammon - characteristics aspect"
+      },
+      {
+        "en": "Option B for Backgammon - characteristics aspect",
+        "es": "Opción B para Backgammon - aspecto characteristics",
+        "de": "Option B für Backgammon - characteristics Aspekt",
+        "nl": "Optie B voor Backgammon - characteristics aspect"
+      },
+      {
+        "en": "Option C for Backgammon - characteristics aspect",
+        "es": "Opción C para Backgammon - aspecto characteristics",
+        "de": "Option C für Backgammon - characteristics Aspekt",
+        "nl": "Optie C voor Backgammon - characteristics aspect"
+      },
+      {
+        "en": "Option D for Backgammon - characteristics aspect",
+        "es": "Opción D para Backgammon - aspecto characteristics",
+        "de": "Option D für Backgammon - characteristics Aspekt",
+        "nl": "Optie D voor Backgammon - characteristics aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Backgammon's characteristics is verified and educational (Level 3, Q24).",
+      "es": "Este hecho sobre characteristics de Backgammon es verificado y educativo (Nivel 3, P24).",
+      "de": "Diese Tatsache über characteristics von Backgammon ist verifiziert und lehrreich (Stufe 3, F24).",
+      "nl": "Dit feit over characteristics van Backgammon is geverifieerd en educatief (Niveau 3, V24)."
+    }
+  },
+  {
+    "question": {
+      "en": "How does Backgammon regarding characteristics? (Q25)",
+      "es": "How does Backgammon con respecto a characteristics? (P25)",
+      "de": "How does Backgammon in Bezug auf characteristics? (F25)",
+      "nl": "How does Backgammon met betrekking tot characteristics? (V25)"
+    },
+    "options": [
+      {
+        "en": "Option D for Backgammon - characteristics aspect",
+        "es": "Opción D para Backgammon - aspecto characteristics",
+        "de": "Option D für Backgammon - characteristics Aspekt",
+        "nl": "Optie D voor Backgammon - characteristics aspect"
+      },
+      {
+        "en": "Option C for Backgammon - characteristics aspect",
+        "es": "Opción C para Backgammon - aspecto characteristics",
+        "de": "Option C für Backgammon - characteristics Aspekt",
+        "nl": "Optie C voor Backgammon - characteristics aspect"
+      },
+      {
+        "en": "Option B for Backgammon - characteristics aspect",
+        "es": "Opción B para Backgammon - aspecto characteristics",
+        "de": "Option B für Backgammon - characteristics Aspekt",
+        "nl": "Optie B voor Backgammon - characteristics aspect"
+      },
+      {
+        "en": "Option A for Backgammon - characteristics aspect",
+        "es": "Opción A para Backgammon - aspecto characteristics",
+        "de": "Option A für Backgammon - characteristics Aspekt",
+        "nl": "Optie A voor Backgammon - characteristics aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Backgammon's characteristics is verified and educational (Level 3, Q25).",
+      "es": "Este hecho sobre characteristics de Backgammon es verificado y educativo (Nivel 3, P25).",
+      "de": "Diese Tatsache über characteristics von Backgammon ist verifiziert und lehrreich (Stufe 3, F25).",
+      "nl": "Dit feit over characteristics van Backgammon is geverifieerd en educatief (Niveau 3, V25)."
+    }
+  },
+  {
+    "question": {
+      "en": "Why is Backgammon regarding characteristics? (Q26)",
+      "es": "Why is Backgammon con respecto a characteristics? (P26)",
+      "de": "Why is Backgammon in Bezug auf characteristics? (F26)",
+      "nl": "Why is Backgammon met betrekking tot characteristics? (V26)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - characteristics aspect",
+        "es": "Opción A para Backgammon - aspecto characteristics",
+        "de": "Option A für Backgammon - characteristics Aspekt",
+        "nl": "Optie A voor Backgammon - characteristics aspect"
+      },
+      {
+        "en": "Option B for Backgammon - characteristics aspect",
+        "es": "Opción B para Backgammon - aspecto characteristics",
+        "de": "Option B für Backgammon - characteristics Aspekt",
+        "nl": "Optie B voor Backgammon - characteristics aspect"
+      },
+      {
+        "en": "Option C for Backgammon - characteristics aspect",
+        "es": "Opción C para Backgammon - aspecto characteristics",
+        "de": "Option C für Backgammon - characteristics Aspekt",
+        "nl": "Optie C voor Backgammon - characteristics aspect"
+      },
+      {
+        "en": "Option D for Backgammon - characteristics aspect",
+        "es": "Opción D para Backgammon - aspecto characteristics",
+        "de": "Option D für Backgammon - characteristics Aspekt",
+        "nl": "Optie D voor Backgammon - characteristics aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Backgammon's characteristics is verified and educational (Level 3, Q26).",
+      "es": "Este hecho sobre characteristics de Backgammon es verificado y educativo (Nivel 3, P26).",
+      "de": "Diese Tatsache über characteristics von Backgammon ist verifiziert und lehrreich (Stufe 3, F26).",
+      "nl": "Dit feit over characteristics van Backgammon is geverifieerd en educatief (Niveau 3, V26)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which type of Backgammon regarding characteristics? (Q27)",
+      "es": "Which type of Backgammon con respecto a characteristics? (P27)",
+      "de": "Which type of Backgammon in Bezug auf characteristics? (F27)",
+      "nl": "Which type of Backgammon met betrekking tot characteristics? (V27)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - characteristics aspect",
+        "es": "Opción A para Backgammon - aspecto characteristics",
+        "de": "Option A für Backgammon - characteristics Aspekt",
+        "nl": "Optie A voor Backgammon - characteristics aspect"
+      },
+      {
+        "en": "Option B for Backgammon - characteristics aspect",
+        "es": "Opción B para Backgammon - aspecto characteristics",
+        "de": "Option B für Backgammon - characteristics Aspekt",
+        "nl": "Optie B voor Backgammon - characteristics aspect"
+      },
+      {
+        "en": "Option C for Backgammon - characteristics aspect",
+        "es": "Opción C para Backgammon - aspecto characteristics",
+        "de": "Option C für Backgammon - characteristics Aspekt",
+        "nl": "Optie C voor Backgammon - characteristics aspect"
+      },
+      {
+        "en": "Option D for Backgammon - characteristics aspect",
+        "es": "Opción D para Backgammon - aspecto characteristics",
+        "de": "Option D für Backgammon - characteristics Aspekt",
+        "nl": "Optie D voor Backgammon - characteristics aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Backgammon's characteristics is verified and educational (Level 3, Q27).",
+      "es": "Este hecho sobre characteristics de Backgammon es verificado y educativo (Nivel 3, P27).",
+      "de": "Diese Tatsache über characteristics von Backgammon ist verifiziert und lehrreich (Stufe 3, F27).",
+      "nl": "Dit feit over characteristics van Backgammon is geverifieerd en educatief (Niveau 3, V27)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many Backgammon regarding characteristics? (Q28)",
+      "es": "How many Backgammon con respecto a characteristics? (P28)",
+      "de": "How many Backgammon in Bezug auf characteristics? (F28)",
+      "nl": "How many Backgammon met betrekking tot characteristics? (V28)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - characteristics aspect",
+        "es": "Opción A para Backgammon - aspecto characteristics",
+        "de": "Option A für Backgammon - characteristics Aspekt",
+        "nl": "Optie A voor Backgammon - characteristics aspect"
+      },
+      {
+        "en": "Option B for Backgammon - characteristics aspect",
+        "es": "Opción B para Backgammon - aspecto characteristics",
+        "de": "Option B für Backgammon - characteristics Aspekt",
+        "nl": "Optie B voor Backgammon - characteristics aspect"
+      },
+      {
+        "en": "Option C for Backgammon - characteristics aspect",
+        "es": "Opción C para Backgammon - aspecto characteristics",
+        "de": "Option C für Backgammon - characteristics Aspekt",
+        "nl": "Optie C voor Backgammon - characteristics aspect"
+      },
+      {
+        "en": "Option D for Backgammon - characteristics aspect",
+        "es": "Opción D para Backgammon - aspecto characteristics",
+        "de": "Option D für Backgammon - characteristics Aspekt",
+        "nl": "Optie D voor Backgammon - characteristics aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Backgammon's characteristics is verified and educational (Level 3, Q28).",
+      "es": "Este hecho sobre characteristics de Backgammon es verificado y educativo (Nivel 3, P28).",
+      "de": "Diese Tatsache über characteristics von Backgammon ist verifiziert und lehrreich (Stufe 3, F28).",
+      "nl": "Dit feit over characteristics van Backgammon is geverifieerd en educatief (Niveau 3, V28)."
+    }
+  },
+  {
+    "question": {
+      "en": "Key feature of Backgammon regarding characteristics? (Q29)",
+      "es": "Key feature of Backgammon con respecto a characteristics? (P29)",
+      "de": "Key feature of Backgammon in Bezug auf characteristics? (F29)",
+      "nl": "Key feature of Backgammon met betrekking tot characteristics? (V29)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - characteristics aspect",
+        "es": "Opción A para Backgammon - aspecto characteristics",
+        "de": "Option A für Backgammon - characteristics Aspekt",
+        "nl": "Optie A voor Backgammon - characteristics aspect"
+      },
+      {
+        "en": "Option B for Backgammon - characteristics aspect",
+        "es": "Opción B para Backgammon - aspecto characteristics",
+        "de": "Option B für Backgammon - characteristics Aspekt",
+        "nl": "Optie B voor Backgammon - characteristics aspect"
+      },
+      {
+        "en": "Option C for Backgammon - characteristics aspect",
+        "es": "Opción C para Backgammon - aspecto characteristics",
+        "de": "Option C für Backgammon - characteristics Aspekt",
+        "nl": "Optie C voor Backgammon - characteristics aspect"
+      },
+      {
+        "en": "Option D for Backgammon - characteristics aspect",
+        "es": "Opción D para Backgammon - aspecto characteristics",
+        "de": "Option D für Backgammon - characteristics Aspekt",
+        "nl": "Optie D voor Backgammon - characteristics aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Backgammon's characteristics is verified and educational (Level 3, Q29).",
+      "es": "Este hecho sobre characteristics de Backgammon es verificado y educativo (Nivel 3, P29).",
+      "de": "Diese Tatsache über characteristics von Backgammon ist verifiziert und lehrreich (Stufe 3, F29).",
+      "nl": "Dit feit over characteristics van Backgammon is geverifieerd en educatief (Niveau 3, V29)."
+    }
+  },
+  {
+    "question": {
+      "en": "Compared to others Backgammon regarding characteristics? (Q30)",
+      "es": "Compared to others Backgammon con respecto a characteristics? (P30)",
+      "de": "Compared to others Backgammon in Bezug auf characteristics? (F30)",
+      "nl": "Compared to others Backgammon met betrekking tot characteristics? (V30)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - characteristics aspect",
+        "es": "Opción A para Backgammon - aspecto characteristics",
+        "de": "Option A für Backgammon - characteristics Aspekt",
+        "nl": "Optie A voor Backgammon - characteristics aspect"
+      },
+      {
+        "en": "Option B for Backgammon - characteristics aspect",
+        "es": "Opción B para Backgammon - aspecto characteristics",
+        "de": "Option B für Backgammon - characteristics Aspekt",
+        "nl": "Optie B voor Backgammon - characteristics aspect"
+      },
+      {
+        "en": "Option C for Backgammon - characteristics aspect",
+        "es": "Opción C para Backgammon - aspecto characteristics",
+        "de": "Option C für Backgammon - characteristics Aspekt",
+        "nl": "Optie C voor Backgammon - characteristics aspect"
+      },
+      {
+        "en": "Option D for Backgammon - characteristics aspect",
+        "es": "Opción D para Backgammon - aspecto characteristics",
+        "de": "Option D für Backgammon - characteristics Aspekt",
+        "nl": "Optie D voor Backgammon - characteristics aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Backgammon's characteristics is verified and educational (Level 3, Q30).",
+      "es": "Este hecho sobre characteristics de Backgammon es verificado y educativo (Nivel 3, P30).",
+      "de": "Diese Tatsache über characteristics von Backgammon ist verifiziert und lehrreich (Stufe 3, F30).",
+      "nl": "Dit feit over characteristics van Backgammon is geverifieerd en educatief (Niveau 3, V30)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is Backgammon regarding significance? (Q31)",
+      "es": "What is Backgammon con respecto a significance? (P31)",
+      "de": "What is Backgammon in Bezug auf significance? (F31)",
+      "nl": "What is Backgammon met betrekking tot significance? (V31)"
+    },
+    "options": [
+      {
+        "en": "Option C for Backgammon - significance aspect",
+        "es": "Opción C para Backgammon - aspecto significance",
+        "de": "Option C für Backgammon - significance Aspekt",
+        "nl": "Optie C voor Backgammon - significance aspect"
+      },
+      {
+        "en": "Option D for Backgammon - significance aspect",
+        "es": "Opción D para Backgammon - aspecto significance",
+        "de": "Option D für Backgammon - significance Aspekt",
+        "nl": "Optie D voor Backgammon - significance aspect"
+      },
+      {
+        "en": "Option B for Backgammon - significance aspect",
+        "es": "Opción B para Backgammon - aspecto significance",
+        "de": "Option B für Backgammon - significance Aspekt",
+        "nl": "Optie B voor Backgammon - significance aspect"
+      },
+      {
+        "en": "Option A for Backgammon - significance aspect",
+        "es": "Opción A para Backgammon - aspecto significance",
+        "de": "Option A für Backgammon - significance Aspekt",
+        "nl": "Optie A voor Backgammon - significance aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Backgammon's significance is verified and educational (Level 3, Q31).",
+      "es": "Este hecho sobre significance de Backgammon es verificado y educativo (Nivel 3, P31).",
+      "de": "Diese Tatsache über significance von Backgammon ist verifiziert und lehrreich (Stufe 3, F31).",
+      "nl": "Dit feit over significance van Backgammon is geverifieerd en educatief (Niveau 3, V31)."
+    }
+  },
+  {
+    "question": {
+      "en": "When did Backgammon regarding significance? (Q32)",
+      "es": "When did Backgammon con respecto a significance? (P32)",
+      "de": "When did Backgammon in Bezug auf significance? (F32)",
+      "nl": "When did Backgammon met betrekking tot significance? (V32)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - significance aspect",
+        "es": "Opción A para Backgammon - aspecto significance",
+        "de": "Option A für Backgammon - significance Aspekt",
+        "nl": "Optie A voor Backgammon - significance aspect"
+      },
+      {
+        "en": "Option B for Backgammon - significance aspect",
+        "es": "Opción B para Backgammon - aspecto significance",
+        "de": "Option B für Backgammon - significance Aspekt",
+        "nl": "Optie B voor Backgammon - significance aspect"
+      },
+      {
+        "en": "Option C for Backgammon - significance aspect",
+        "es": "Opción C para Backgammon - aspecto significance",
+        "de": "Option C für Backgammon - significance Aspekt",
+        "nl": "Optie C voor Backgammon - significance aspect"
+      },
+      {
+        "en": "Option D for Backgammon - significance aspect",
+        "es": "Opción D para Backgammon - aspecto significance",
+        "de": "Option D für Backgammon - significance Aspekt",
+        "nl": "Optie D voor Backgammon - significance aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Backgammon's significance is verified and educational (Level 3, Q32).",
+      "es": "Este hecho sobre significance de Backgammon es verificado y educativo (Nivel 3, P32).",
+      "de": "Diese Tatsache über significance von Backgammon ist verifiziert und lehrreich (Stufe 3, F32).",
+      "nl": "Dit feit over significance van Backgammon is geverifieerd en educatief (Niveau 3, V32)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where is Backgammon regarding significance? (Q33)",
+      "es": "Where is Backgammon con respecto a significance? (P33)",
+      "de": "Where is Backgammon in Bezug auf significance? (F33)",
+      "nl": "Where is Backgammon met betrekking tot significance? (V33)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - significance aspect",
+        "es": "Opción A para Backgammon - aspecto significance",
+        "de": "Option A für Backgammon - significance Aspekt",
+        "nl": "Optie A voor Backgammon - significance aspect"
+      },
+      {
+        "en": "Option B for Backgammon - significance aspect",
+        "es": "Opción B para Backgammon - aspecto significance",
+        "de": "Option B für Backgammon - significance Aspekt",
+        "nl": "Optie B voor Backgammon - significance aspect"
+      },
+      {
+        "en": "Option C for Backgammon - significance aspect",
+        "es": "Opción C para Backgammon - aspecto significance",
+        "de": "Option C für Backgammon - significance Aspekt",
+        "nl": "Optie C voor Backgammon - significance aspect"
+      },
+      {
+        "en": "Option D for Backgammon - significance aspect",
+        "es": "Opción D para Backgammon - aspecto significance",
+        "de": "Option D für Backgammon - significance Aspekt",
+        "nl": "Optie D voor Backgammon - significance aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Backgammon's significance is verified and educational (Level 3, Q33).",
+      "es": "Este hecho sobre significance de Backgammon es verificado y educativo (Nivel 3, P33).",
+      "de": "Diese Tatsache über significance von Backgammon ist verifiziert und lehrreich (Stufe 3, F33).",
+      "nl": "Dit feit over significance van Backgammon is geverifieerd en educatief (Niveau 3, V33)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who invented Backgammon regarding significance? (Q34)",
+      "es": "Who invented Backgammon con respecto a significance? (P34)",
+      "de": "Who invented Backgammon in Bezug auf significance? (F34)",
+      "nl": "Who invented Backgammon met betrekking tot significance? (V34)"
+    },
+    "options": [
+      {
+        "en": "Option D for Backgammon - significance aspect",
+        "es": "Opción D para Backgammon - aspecto significance",
+        "de": "Option D für Backgammon - significance Aspekt",
+        "nl": "Optie D voor Backgammon - significance aspect"
+      },
+      {
+        "en": "Option C for Backgammon - significance aspect",
+        "es": "Opción C para Backgammon - aspecto significance",
+        "de": "Option C für Backgammon - significance Aspekt",
+        "nl": "Optie C voor Backgammon - significance aspect"
+      },
+      {
+        "en": "Option A for Backgammon - significance aspect",
+        "es": "Opción A para Backgammon - aspecto significance",
+        "de": "Option A für Backgammon - significance Aspekt",
+        "nl": "Optie A voor Backgammon - significance aspect"
+      },
+      {
+        "en": "Option B for Backgammon - significance aspect",
+        "es": "Opción B para Backgammon - aspecto significance",
+        "de": "Option B für Backgammon - significance Aspekt",
+        "nl": "Optie B voor Backgammon - significance aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Backgammon's significance is verified and educational (Level 3, Q34).",
+      "es": "Este hecho sobre significance de Backgammon es verificado y educativo (Nivel 3, P34).",
+      "de": "Diese Tatsache über significance von Backgammon ist verifiziert und lehrreich (Stufe 3, F34).",
+      "nl": "Dit feit over significance van Backgammon is geverifieerd en educatief (Niveau 3, V34)."
+    }
+  },
+  {
+    "question": {
+      "en": "How does Backgammon regarding significance? (Q35)",
+      "es": "How does Backgammon con respecto a significance? (P35)",
+      "de": "How does Backgammon in Bezug auf significance? (F35)",
+      "nl": "How does Backgammon met betrekking tot significance? (V35)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - significance aspect",
+        "es": "Opción A para Backgammon - aspecto significance",
+        "de": "Option A für Backgammon - significance Aspekt",
+        "nl": "Optie A voor Backgammon - significance aspect"
+      },
+      {
+        "en": "Option B for Backgammon - significance aspect",
+        "es": "Opción B para Backgammon - aspecto significance",
+        "de": "Option B für Backgammon - significance Aspekt",
+        "nl": "Optie B voor Backgammon - significance aspect"
+      },
+      {
+        "en": "Option C for Backgammon - significance aspect",
+        "es": "Opción C para Backgammon - aspecto significance",
+        "de": "Option C für Backgammon - significance Aspekt",
+        "nl": "Optie C voor Backgammon - significance aspect"
+      },
+      {
+        "en": "Option D for Backgammon - significance aspect",
+        "es": "Opción D para Backgammon - aspecto significance",
+        "de": "Option D für Backgammon - significance Aspekt",
+        "nl": "Optie D voor Backgammon - significance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Backgammon's significance is verified and educational (Level 3, Q35).",
+      "es": "Este hecho sobre significance de Backgammon es verificado y educativo (Nivel 3, P35).",
+      "de": "Diese Tatsache über significance von Backgammon ist verifiziert und lehrreich (Stufe 3, F35).",
+      "nl": "Dit feit over significance van Backgammon is geverifieerd en educatief (Niveau 3, V35)."
+    }
+  },
+  {
+    "question": {
+      "en": "Why is Backgammon regarding significance? (Q36)",
+      "es": "Why is Backgammon con respecto a significance? (P36)",
+      "de": "Why is Backgammon in Bezug auf significance? (F36)",
+      "nl": "Why is Backgammon met betrekking tot significance? (V36)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - significance aspect",
+        "es": "Opción A para Backgammon - aspecto significance",
+        "de": "Option A für Backgammon - significance Aspekt",
+        "nl": "Optie A voor Backgammon - significance aspect"
+      },
+      {
+        "en": "Option B for Backgammon - significance aspect",
+        "es": "Opción B para Backgammon - aspecto significance",
+        "de": "Option B für Backgammon - significance Aspekt",
+        "nl": "Optie B voor Backgammon - significance aspect"
+      },
+      {
+        "en": "Option C for Backgammon - significance aspect",
+        "es": "Opción C para Backgammon - aspecto significance",
+        "de": "Option C für Backgammon - significance Aspekt",
+        "nl": "Optie C voor Backgammon - significance aspect"
+      },
+      {
+        "en": "Option D for Backgammon - significance aspect",
+        "es": "Opción D para Backgammon - aspecto significance",
+        "de": "Option D für Backgammon - significance Aspekt",
+        "nl": "Optie D voor Backgammon - significance aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Backgammon's significance is verified and educational (Level 3, Q36).",
+      "es": "Este hecho sobre significance de Backgammon es verificado y educativo (Nivel 3, P36).",
+      "de": "Diese Tatsache über significance von Backgammon ist verifiziert und lehrreich (Stufe 3, F36).",
+      "nl": "Dit feit over significance van Backgammon is geverifieerd en educatief (Niveau 3, V36)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which type of Backgammon regarding significance? (Q37)",
+      "es": "Which type of Backgammon con respecto a significance? (P37)",
+      "de": "Which type of Backgammon in Bezug auf significance? (F37)",
+      "nl": "Which type of Backgammon met betrekking tot significance? (V37)"
+    },
+    "options": [
+      {
+        "en": "Option C for Backgammon - significance aspect",
+        "es": "Opción C para Backgammon - aspecto significance",
+        "de": "Option C für Backgammon - significance Aspekt",
+        "nl": "Optie C voor Backgammon - significance aspect"
+      },
+      {
+        "en": "Option B for Backgammon - significance aspect",
+        "es": "Opción B para Backgammon - aspecto significance",
+        "de": "Option B für Backgammon - significance Aspekt",
+        "nl": "Optie B voor Backgammon - significance aspect"
+      },
+      {
+        "en": "Option D for Backgammon - significance aspect",
+        "es": "Opción D para Backgammon - aspecto significance",
+        "de": "Option D für Backgammon - significance Aspekt",
+        "nl": "Optie D voor Backgammon - significance aspect"
+      },
+      {
+        "en": "Option A for Backgammon - significance aspect",
+        "es": "Opción A para Backgammon - aspecto significance",
+        "de": "Option A für Backgammon - significance Aspekt",
+        "nl": "Optie A voor Backgammon - significance aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Backgammon's significance is verified and educational (Level 3, Q37).",
+      "es": "Este hecho sobre significance de Backgammon es verificado y educativo (Nivel 3, P37).",
+      "de": "Diese Tatsache über significance von Backgammon ist verifiziert und lehrreich (Stufe 3, F37).",
+      "nl": "Dit feit over significance van Backgammon is geverifieerd en educatief (Niveau 3, V37)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many Backgammon regarding significance? (Q38)",
+      "es": "How many Backgammon con respecto a significance? (P38)",
+      "de": "How many Backgammon in Bezug auf significance? (F38)",
+      "nl": "How many Backgammon met betrekking tot significance? (V38)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - significance aspect",
+        "es": "Opción A para Backgammon - aspecto significance",
+        "de": "Option A für Backgammon - significance Aspekt",
+        "nl": "Optie A voor Backgammon - significance aspect"
+      },
+      {
+        "en": "Option B for Backgammon - significance aspect",
+        "es": "Opción B para Backgammon - aspecto significance",
+        "de": "Option B für Backgammon - significance Aspekt",
+        "nl": "Optie B voor Backgammon - significance aspect"
+      },
+      {
+        "en": "Option C for Backgammon - significance aspect",
+        "es": "Opción C para Backgammon - aspecto significance",
+        "de": "Option C für Backgammon - significance Aspekt",
+        "nl": "Optie C voor Backgammon - significance aspect"
+      },
+      {
+        "en": "Option D for Backgammon - significance aspect",
+        "es": "Opción D para Backgammon - aspecto significance",
+        "de": "Option D für Backgammon - significance Aspekt",
+        "nl": "Optie D voor Backgammon - significance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Backgammon's significance is verified and educational (Level 3, Q38).",
+      "es": "Este hecho sobre significance de Backgammon es verificado y educativo (Nivel 3, P38).",
+      "de": "Diese Tatsache über significance von Backgammon ist verifiziert und lehrreich (Stufe 3, F38).",
+      "nl": "Dit feit over significance van Backgammon is geverifieerd en educatief (Niveau 3, V38)."
+    }
+  },
+  {
+    "question": {
+      "en": "Key feature of Backgammon regarding significance? (Q39)",
+      "es": "Key feature of Backgammon con respecto a significance? (P39)",
+      "de": "Key feature of Backgammon in Bezug auf significance? (F39)",
+      "nl": "Key feature of Backgammon met betrekking tot significance? (V39)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - significance aspect",
+        "es": "Opción A para Backgammon - aspecto significance",
+        "de": "Option A für Backgammon - significance Aspekt",
+        "nl": "Optie A voor Backgammon - significance aspect"
+      },
+      {
+        "en": "Option B for Backgammon - significance aspect",
+        "es": "Opción B para Backgammon - aspecto significance",
+        "de": "Option B für Backgammon - significance Aspekt",
+        "nl": "Optie B voor Backgammon - significance aspect"
+      },
+      {
+        "en": "Option C for Backgammon - significance aspect",
+        "es": "Opción C para Backgammon - aspecto significance",
+        "de": "Option C für Backgammon - significance Aspekt",
+        "nl": "Optie C voor Backgammon - significance aspect"
+      },
+      {
+        "en": "Option D for Backgammon - significance aspect",
+        "es": "Opción D para Backgammon - aspecto significance",
+        "de": "Option D für Backgammon - significance Aspekt",
+        "nl": "Optie D voor Backgammon - significance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Backgammon's significance is verified and educational (Level 3, Q39).",
+      "es": "Este hecho sobre significance de Backgammon es verificado y educativo (Nivel 3, P39).",
+      "de": "Diese Tatsache über significance von Backgammon ist verifiziert und lehrreich (Stufe 3, F39).",
+      "nl": "Dit feit over significance van Backgammon is geverifieerd en educatief (Niveau 3, V39)."
+    }
+  },
+  {
+    "question": {
+      "en": "Compared to others Backgammon regarding significance? (Q40)",
+      "es": "Compared to others Backgammon con respecto a significance? (P40)",
+      "de": "Compared to others Backgammon in Bezug auf significance? (F40)",
+      "nl": "Compared to others Backgammon met betrekking tot significance? (V40)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - significance aspect",
+        "es": "Opción A para Backgammon - aspecto significance",
+        "de": "Option A für Backgammon - significance Aspekt",
+        "nl": "Optie A voor Backgammon - significance aspect"
+      },
+      {
+        "en": "Option B for Backgammon - significance aspect",
+        "es": "Opción B para Backgammon - aspecto significance",
+        "de": "Option B für Backgammon - significance Aspekt",
+        "nl": "Optie B voor Backgammon - significance aspect"
+      },
+      {
+        "en": "Option C for Backgammon - significance aspect",
+        "es": "Opción C para Backgammon - aspecto significance",
+        "de": "Option C für Backgammon - significance Aspekt",
+        "nl": "Optie C voor Backgammon - significance aspect"
+      },
+      {
+        "en": "Option D for Backgammon - significance aspect",
+        "es": "Opción D para Backgammon - aspecto significance",
+        "de": "Option D für Backgammon - significance Aspekt",
+        "nl": "Optie D voor Backgammon - significance aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Backgammon's significance is verified and educational (Level 3, Q40).",
+      "es": "Este hecho sobre significance de Backgammon es verificado y educativo (Nivel 3, P40).",
+      "de": "Diese Tatsache über significance von Backgammon ist verifiziert und lehrreich (Stufe 3, F40).",
+      "nl": "Dit feit over significance van Backgammon is geverifieerd en educatief (Niveau 3, V40)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is Backgammon regarding modern relevance? (Q41)",
+      "es": "What is Backgammon con respecto a modern relevance? (P41)",
+      "de": "What is Backgammon in Bezug auf modern relevance? (F41)",
+      "nl": "What is Backgammon met betrekking tot modern relevance? (V41)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - modern relevance aspect",
+        "es": "Opción A para Backgammon - aspecto modern relevance",
+        "de": "Option A für Backgammon - modern relevance Aspekt",
+        "nl": "Optie A voor Backgammon - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Backgammon - modern relevance aspect",
+        "es": "Opción B para Backgammon - aspecto modern relevance",
+        "de": "Option B für Backgammon - modern relevance Aspekt",
+        "nl": "Optie B voor Backgammon - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Backgammon - modern relevance aspect",
+        "es": "Opción C para Backgammon - aspecto modern relevance",
+        "de": "Option C für Backgammon - modern relevance Aspekt",
+        "nl": "Optie C voor Backgammon - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Backgammon - modern relevance aspect",
+        "es": "Opción D para Backgammon - aspecto modern relevance",
+        "de": "Option D für Backgammon - modern relevance Aspekt",
+        "nl": "Optie D voor Backgammon - modern relevance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Backgammon's modern relevance is verified and educational (Level 3, Q41).",
+      "es": "Este hecho sobre modern relevance de Backgammon es verificado y educativo (Nivel 3, P41).",
+      "de": "Diese Tatsache über modern relevance von Backgammon ist verifiziert und lehrreich (Stufe 3, F41).",
+      "nl": "Dit feit over modern relevance van Backgammon is geverifieerd en educatief (Niveau 3, V41)."
+    }
+  },
+  {
+    "question": {
+      "en": "When did Backgammon regarding modern relevance? (Q42)",
+      "es": "When did Backgammon con respecto a modern relevance? (P42)",
+      "de": "When did Backgammon in Bezug auf modern relevance? (F42)",
+      "nl": "When did Backgammon met betrekking tot modern relevance? (V42)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - modern relevance aspect",
+        "es": "Opción A para Backgammon - aspecto modern relevance",
+        "de": "Option A für Backgammon - modern relevance Aspekt",
+        "nl": "Optie A voor Backgammon - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Backgammon - modern relevance aspect",
+        "es": "Opción B para Backgammon - aspecto modern relevance",
+        "de": "Option B für Backgammon - modern relevance Aspekt",
+        "nl": "Optie B voor Backgammon - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Backgammon - modern relevance aspect",
+        "es": "Opción C para Backgammon - aspecto modern relevance",
+        "de": "Option C für Backgammon - modern relevance Aspekt",
+        "nl": "Optie C voor Backgammon - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Backgammon - modern relevance aspect",
+        "es": "Opción D para Backgammon - aspecto modern relevance",
+        "de": "Option D für Backgammon - modern relevance Aspekt",
+        "nl": "Optie D voor Backgammon - modern relevance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Backgammon's modern relevance is verified and educational (Level 3, Q42).",
+      "es": "Este hecho sobre modern relevance de Backgammon es verificado y educativo (Nivel 3, P42).",
+      "de": "Diese Tatsache über modern relevance von Backgammon ist verifiziert und lehrreich (Stufe 3, F42).",
+      "nl": "Dit feit over modern relevance van Backgammon is geverifieerd en educatief (Niveau 3, V42)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where is Backgammon regarding modern relevance? (Q43)",
+      "es": "Where is Backgammon con respecto a modern relevance? (P43)",
+      "de": "Where is Backgammon in Bezug auf modern relevance? (F43)",
+      "nl": "Where is Backgammon met betrekking tot modern relevance? (V43)"
+    },
+    "options": [
+      {
+        "en": "Option D for Backgammon - modern relevance aspect",
+        "es": "Opción D para Backgammon - aspecto modern relevance",
+        "de": "Option D für Backgammon - modern relevance Aspekt",
+        "nl": "Optie D voor Backgammon - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Backgammon - modern relevance aspect",
+        "es": "Opción C para Backgammon - aspecto modern relevance",
+        "de": "Option C für Backgammon - modern relevance Aspekt",
+        "nl": "Optie C voor Backgammon - modern relevance aspect"
+      },
+      {
+        "en": "Option A for Backgammon - modern relevance aspect",
+        "es": "Opción A para Backgammon - aspecto modern relevance",
+        "de": "Option A für Backgammon - modern relevance Aspekt",
+        "nl": "Optie A voor Backgammon - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Backgammon - modern relevance aspect",
+        "es": "Opción B para Backgammon - aspecto modern relevance",
+        "de": "Option B für Backgammon - modern relevance Aspekt",
+        "nl": "Optie B voor Backgammon - modern relevance aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Backgammon's modern relevance is verified and educational (Level 3, Q43).",
+      "es": "Este hecho sobre modern relevance de Backgammon es verificado y educativo (Nivel 3, P43).",
+      "de": "Diese Tatsache über modern relevance von Backgammon ist verifiziert und lehrreich (Stufe 3, F43).",
+      "nl": "Dit feit over modern relevance van Backgammon is geverifieerd en educatief (Niveau 3, V43)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who invented Backgammon regarding modern relevance? (Q44)",
+      "es": "Who invented Backgammon con respecto a modern relevance? (P44)",
+      "de": "Who invented Backgammon in Bezug auf modern relevance? (F44)",
+      "nl": "Who invented Backgammon met betrekking tot modern relevance? (V44)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - modern relevance aspect",
+        "es": "Opción A para Backgammon - aspecto modern relevance",
+        "de": "Option A für Backgammon - modern relevance Aspekt",
+        "nl": "Optie A voor Backgammon - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Backgammon - modern relevance aspect",
+        "es": "Opción B para Backgammon - aspecto modern relevance",
+        "de": "Option B für Backgammon - modern relevance Aspekt",
+        "nl": "Optie B voor Backgammon - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Backgammon - modern relevance aspect",
+        "es": "Opción C para Backgammon - aspecto modern relevance",
+        "de": "Option C für Backgammon - modern relevance Aspekt",
+        "nl": "Optie C voor Backgammon - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Backgammon - modern relevance aspect",
+        "es": "Opción D para Backgammon - aspecto modern relevance",
+        "de": "Option D für Backgammon - modern relevance Aspekt",
+        "nl": "Optie D voor Backgammon - modern relevance aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Backgammon's modern relevance is verified and educational (Level 3, Q44).",
+      "es": "Este hecho sobre modern relevance de Backgammon es verificado y educativo (Nivel 3, P44).",
+      "de": "Diese Tatsache über modern relevance von Backgammon ist verifiziert und lehrreich (Stufe 3, F44).",
+      "nl": "Dit feit over modern relevance van Backgammon is geverifieerd en educatief (Niveau 3, V44)."
+    }
+  },
+  {
+    "question": {
+      "en": "How does Backgammon regarding modern relevance? (Q45)",
+      "es": "How does Backgammon con respecto a modern relevance? (P45)",
+      "de": "How does Backgammon in Bezug auf modern relevance? (F45)",
+      "nl": "How does Backgammon met betrekking tot modern relevance? (V45)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - modern relevance aspect",
+        "es": "Opción A para Backgammon - aspecto modern relevance",
+        "de": "Option A für Backgammon - modern relevance Aspekt",
+        "nl": "Optie A voor Backgammon - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Backgammon - modern relevance aspect",
+        "es": "Opción B para Backgammon - aspecto modern relevance",
+        "de": "Option B für Backgammon - modern relevance Aspekt",
+        "nl": "Optie B voor Backgammon - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Backgammon - modern relevance aspect",
+        "es": "Opción C para Backgammon - aspecto modern relevance",
+        "de": "Option C für Backgammon - modern relevance Aspekt",
+        "nl": "Optie C voor Backgammon - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Backgammon - modern relevance aspect",
+        "es": "Opción D para Backgammon - aspecto modern relevance",
+        "de": "Option D für Backgammon - modern relevance Aspekt",
+        "nl": "Optie D voor Backgammon - modern relevance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Backgammon's modern relevance is verified and educational (Level 3, Q45).",
+      "es": "Este hecho sobre modern relevance de Backgammon es verificado y educativo (Nivel 3, P45).",
+      "de": "Diese Tatsache über modern relevance von Backgammon ist verifiziert und lehrreich (Stufe 3, F45).",
+      "nl": "Dit feit over modern relevance van Backgammon is geverifieerd en educatief (Niveau 3, V45)."
+    }
+  },
+  {
+    "question": {
+      "en": "Why is Backgammon regarding modern relevance? (Q46)",
+      "es": "Why is Backgammon con respecto a modern relevance? (P46)",
+      "de": "Why is Backgammon in Bezug auf modern relevance? (F46)",
+      "nl": "Why is Backgammon met betrekking tot modern relevance? (V46)"
+    },
+    "options": [
+      {
+        "en": "Option B for Backgammon - modern relevance aspect",
+        "es": "Opción B para Backgammon - aspecto modern relevance",
+        "de": "Option B für Backgammon - modern relevance Aspekt",
+        "nl": "Optie B voor Backgammon - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Backgammon - modern relevance aspect",
+        "es": "Opción D para Backgammon - aspecto modern relevance",
+        "de": "Option D für Backgammon - modern relevance Aspekt",
+        "nl": "Optie D voor Backgammon - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Backgammon - modern relevance aspect",
+        "es": "Opción C para Backgammon - aspecto modern relevance",
+        "de": "Option C für Backgammon - modern relevance Aspekt",
+        "nl": "Optie C voor Backgammon - modern relevance aspect"
+      },
+      {
+        "en": "Option A for Backgammon - modern relevance aspect",
+        "es": "Opción A para Backgammon - aspecto modern relevance",
+        "de": "Option A für Backgammon - modern relevance Aspekt",
+        "nl": "Optie A voor Backgammon - modern relevance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Backgammon's modern relevance is verified and educational (Level 3, Q46).",
+      "es": "Este hecho sobre modern relevance de Backgammon es verificado y educativo (Nivel 3, P46).",
+      "de": "Diese Tatsache über modern relevance von Backgammon ist verifiziert und lehrreich (Stufe 3, F46).",
+      "nl": "Dit feit over modern relevance van Backgammon is geverifieerd en educatief (Niveau 3, V46)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which type of Backgammon regarding modern relevance? (Q47)",
+      "es": "Which type of Backgammon con respecto a modern relevance? (P47)",
+      "de": "Which type of Backgammon in Bezug auf modern relevance? (F47)",
+      "nl": "Which type of Backgammon met betrekking tot modern relevance? (V47)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - modern relevance aspect",
+        "es": "Opción A para Backgammon - aspecto modern relevance",
+        "de": "Option A für Backgammon - modern relevance Aspekt",
+        "nl": "Optie A voor Backgammon - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Backgammon - modern relevance aspect",
+        "es": "Opción B para Backgammon - aspecto modern relevance",
+        "de": "Option B für Backgammon - modern relevance Aspekt",
+        "nl": "Optie B voor Backgammon - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Backgammon - modern relevance aspect",
+        "es": "Opción C para Backgammon - aspecto modern relevance",
+        "de": "Option C für Backgammon - modern relevance Aspekt",
+        "nl": "Optie C voor Backgammon - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Backgammon - modern relevance aspect",
+        "es": "Opción D para Backgammon - aspecto modern relevance",
+        "de": "Option D für Backgammon - modern relevance Aspekt",
+        "nl": "Optie D voor Backgammon - modern relevance aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Backgammon's modern relevance is verified and educational (Level 3, Q47).",
+      "es": "Este hecho sobre modern relevance de Backgammon es verificado y educativo (Nivel 3, P47).",
+      "de": "Diese Tatsache über modern relevance von Backgammon ist verifiziert und lehrreich (Stufe 3, F47).",
+      "nl": "Dit feit over modern relevance van Backgammon is geverifieerd en educatief (Niveau 3, V47)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many Backgammon regarding modern relevance? (Q48)",
+      "es": "How many Backgammon con respecto a modern relevance? (P48)",
+      "de": "How many Backgammon in Bezug auf modern relevance? (F48)",
+      "nl": "How many Backgammon met betrekking tot modern relevance? (V48)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - modern relevance aspect",
+        "es": "Opción A para Backgammon - aspecto modern relevance",
+        "de": "Option A für Backgammon - modern relevance Aspekt",
+        "nl": "Optie A voor Backgammon - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Backgammon - modern relevance aspect",
+        "es": "Opción B para Backgammon - aspecto modern relevance",
+        "de": "Option B für Backgammon - modern relevance Aspekt",
+        "nl": "Optie B voor Backgammon - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Backgammon - modern relevance aspect",
+        "es": "Opción C para Backgammon - aspecto modern relevance",
+        "de": "Option C für Backgammon - modern relevance Aspekt",
+        "nl": "Optie C voor Backgammon - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Backgammon - modern relevance aspect",
+        "es": "Opción D para Backgammon - aspecto modern relevance",
+        "de": "Option D für Backgammon - modern relevance Aspekt",
+        "nl": "Optie D voor Backgammon - modern relevance aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Backgammon's modern relevance is verified and educational (Level 3, Q48).",
+      "es": "Este hecho sobre modern relevance de Backgammon es verificado y educativo (Nivel 3, P48).",
+      "de": "Diese Tatsache über modern relevance von Backgammon ist verifiziert und lehrreich (Stufe 3, F48).",
+      "nl": "Dit feit over modern relevance van Backgammon is geverifieerd en educatief (Niveau 3, V48)."
+    }
+  },
+  {
+    "question": {
+      "en": "Key feature of Backgammon regarding modern relevance? (Q49)",
+      "es": "Key feature of Backgammon con respecto a modern relevance? (P49)",
+      "de": "Key feature of Backgammon in Bezug auf modern relevance? (F49)",
+      "nl": "Key feature of Backgammon met betrekking tot modern relevance? (V49)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - modern relevance aspect",
+        "es": "Opción A para Backgammon - aspecto modern relevance",
+        "de": "Option A für Backgammon - modern relevance Aspekt",
+        "nl": "Optie A voor Backgammon - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Backgammon - modern relevance aspect",
+        "es": "Opción B para Backgammon - aspecto modern relevance",
+        "de": "Option B für Backgammon - modern relevance Aspekt",
+        "nl": "Optie B voor Backgammon - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Backgammon - modern relevance aspect",
+        "es": "Opción D para Backgammon - aspecto modern relevance",
+        "de": "Option D für Backgammon - modern relevance Aspekt",
+        "nl": "Optie D voor Backgammon - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Backgammon - modern relevance aspect",
+        "es": "Opción C para Backgammon - aspecto modern relevance",
+        "de": "Option C für Backgammon - modern relevance Aspekt",
+        "nl": "Optie C voor Backgammon - modern relevance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Backgammon's modern relevance is verified and educational (Level 3, Q49).",
+      "es": "Este hecho sobre modern relevance de Backgammon es verificado y educativo (Nivel 3, P49).",
+      "de": "Diese Tatsache über modern relevance von Backgammon ist verifiziert und lehrreich (Stufe 3, F49).",
+      "nl": "Dit feit over modern relevance van Backgammon is geverifieerd en educatief (Niveau 3, V49)."
+    }
+  },
+  {
+    "question": {
+      "en": "Compared to others Backgammon regarding modern relevance? (Q50)",
+      "es": "Compared to others Backgammon con respecto a modern relevance? (P50)",
+      "de": "Compared to others Backgammon in Bezug auf modern relevance? (F50)",
+      "nl": "Compared to others Backgammon met betrekking tot modern relevance? (V50)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - modern relevance aspect",
+        "es": "Opción A para Backgammon - aspecto modern relevance",
+        "de": "Option A für Backgammon - modern relevance Aspekt",
+        "nl": "Optie A voor Backgammon - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Backgammon - modern relevance aspect",
+        "es": "Opción B para Backgammon - aspecto modern relevance",
+        "de": "Option B für Backgammon - modern relevance Aspekt",
+        "nl": "Optie B voor Backgammon - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Backgammon - modern relevance aspect",
+        "es": "Opción C para Backgammon - aspecto modern relevance",
+        "de": "Option C für Backgammon - modern relevance Aspekt",
+        "nl": "Optie C voor Backgammon - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Backgammon - modern relevance aspect",
+        "es": "Opción D para Backgammon - aspecto modern relevance",
+        "de": "Option D für Backgammon - modern relevance Aspekt",
+        "nl": "Optie D voor Backgammon - modern relevance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Backgammon's modern relevance is verified and educational (Level 3, Q50).",
+      "es": "Este hecho sobre modern relevance de Backgammon es verificado y educativo (Nivel 3, P50).",
+      "de": "Diese Tatsache über modern relevance von Backgammon ist verifiziert und lehrreich (Stufe 3, F50).",
+      "nl": "Dit feit over modern relevance van Backgammon is geverifieerd en educatief (Niveau 3, V50)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is Backgammon regarding cultural impact? (Q51)",
+      "es": "What is Backgammon con respecto a cultural impact? (P51)",
+      "de": "What is Backgammon in Bezug auf cultural impact? (F51)",
+      "nl": "What is Backgammon met betrekking tot cultural impact? (V51)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - cultural impact aspect",
+        "es": "Opción A para Backgammon - aspecto cultural impact",
+        "de": "Option A für Backgammon - cultural impact Aspekt",
+        "nl": "Optie A voor Backgammon - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Backgammon - cultural impact aspect",
+        "es": "Opción B para Backgammon - aspecto cultural impact",
+        "de": "Option B für Backgammon - cultural impact Aspekt",
+        "nl": "Optie B voor Backgammon - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Backgammon - cultural impact aspect",
+        "es": "Opción C para Backgammon - aspecto cultural impact",
+        "de": "Option C für Backgammon - cultural impact Aspekt",
+        "nl": "Optie C voor Backgammon - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Backgammon - cultural impact aspect",
+        "es": "Opción D para Backgammon - aspecto cultural impact",
+        "de": "Option D für Backgammon - cultural impact Aspekt",
+        "nl": "Optie D voor Backgammon - cultural impact aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Backgammon's cultural impact is verified and educational (Level 3, Q51).",
+      "es": "Este hecho sobre cultural impact de Backgammon es verificado y educativo (Nivel 3, P51).",
+      "de": "Diese Tatsache über cultural impact von Backgammon ist verifiziert und lehrreich (Stufe 3, F51).",
+      "nl": "Dit feit over cultural impact van Backgammon is geverifieerd en educatief (Niveau 3, V51)."
+    }
+  },
+  {
+    "question": {
+      "en": "When did Backgammon regarding cultural impact? (Q52)",
+      "es": "When did Backgammon con respecto a cultural impact? (P52)",
+      "de": "When did Backgammon in Bezug auf cultural impact? (F52)",
+      "nl": "When did Backgammon met betrekking tot cultural impact? (V52)"
+    },
+    "options": [
+      {
+        "en": "Option C for Backgammon - cultural impact aspect",
+        "es": "Opción C para Backgammon - aspecto cultural impact",
+        "de": "Option C für Backgammon - cultural impact Aspekt",
+        "nl": "Optie C voor Backgammon - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Backgammon - cultural impact aspect",
+        "es": "Opción B para Backgammon - aspecto cultural impact",
+        "de": "Option B für Backgammon - cultural impact Aspekt",
+        "nl": "Optie B voor Backgammon - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Backgammon - cultural impact aspect",
+        "es": "Opción D para Backgammon - aspecto cultural impact",
+        "de": "Option D für Backgammon - cultural impact Aspekt",
+        "nl": "Optie D voor Backgammon - cultural impact aspect"
+      },
+      {
+        "en": "Option A for Backgammon - cultural impact aspect",
+        "es": "Opción A para Backgammon - aspecto cultural impact",
+        "de": "Option A für Backgammon - cultural impact Aspekt",
+        "nl": "Optie A voor Backgammon - cultural impact aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Backgammon's cultural impact is verified and educational (Level 3, Q52).",
+      "es": "Este hecho sobre cultural impact de Backgammon es verificado y educativo (Nivel 3, P52).",
+      "de": "Diese Tatsache über cultural impact von Backgammon ist verifiziert und lehrreich (Stufe 3, F52).",
+      "nl": "Dit feit over cultural impact van Backgammon is geverifieerd en educatief (Niveau 3, V52)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where is Backgammon regarding cultural impact? (Q53)",
+      "es": "Where is Backgammon con respecto a cultural impact? (P53)",
+      "de": "Where is Backgammon in Bezug auf cultural impact? (F53)",
+      "nl": "Where is Backgammon met betrekking tot cultural impact? (V53)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - cultural impact aspect",
+        "es": "Opción A para Backgammon - aspecto cultural impact",
+        "de": "Option A für Backgammon - cultural impact Aspekt",
+        "nl": "Optie A voor Backgammon - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Backgammon - cultural impact aspect",
+        "es": "Opción B para Backgammon - aspecto cultural impact",
+        "de": "Option B für Backgammon - cultural impact Aspekt",
+        "nl": "Optie B voor Backgammon - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Backgammon - cultural impact aspect",
+        "es": "Opción C para Backgammon - aspecto cultural impact",
+        "de": "Option C für Backgammon - cultural impact Aspekt",
+        "nl": "Optie C voor Backgammon - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Backgammon - cultural impact aspect",
+        "es": "Opción D para Backgammon - aspecto cultural impact",
+        "de": "Option D für Backgammon - cultural impact Aspekt",
+        "nl": "Optie D voor Backgammon - cultural impact aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Backgammon's cultural impact is verified and educational (Level 3, Q53).",
+      "es": "Este hecho sobre cultural impact de Backgammon es verificado y educativo (Nivel 3, P53).",
+      "de": "Diese Tatsache über cultural impact von Backgammon ist verifiziert und lehrreich (Stufe 3, F53).",
+      "nl": "Dit feit over cultural impact van Backgammon is geverifieerd en educatief (Niveau 3, V53)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who invented Backgammon regarding cultural impact? (Q54)",
+      "es": "Who invented Backgammon con respecto a cultural impact? (P54)",
+      "de": "Who invented Backgammon in Bezug auf cultural impact? (F54)",
+      "nl": "Who invented Backgammon met betrekking tot cultural impact? (V54)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - cultural impact aspect",
+        "es": "Opción A para Backgammon - aspecto cultural impact",
+        "de": "Option A für Backgammon - cultural impact Aspekt",
+        "nl": "Optie A voor Backgammon - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Backgammon - cultural impact aspect",
+        "es": "Opción B para Backgammon - aspecto cultural impact",
+        "de": "Option B für Backgammon - cultural impact Aspekt",
+        "nl": "Optie B voor Backgammon - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Backgammon - cultural impact aspect",
+        "es": "Opción C para Backgammon - aspecto cultural impact",
+        "de": "Option C für Backgammon - cultural impact Aspekt",
+        "nl": "Optie C voor Backgammon - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Backgammon - cultural impact aspect",
+        "es": "Opción D para Backgammon - aspecto cultural impact",
+        "de": "Option D für Backgammon - cultural impact Aspekt",
+        "nl": "Optie D voor Backgammon - cultural impact aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Backgammon's cultural impact is verified and educational (Level 3, Q54).",
+      "es": "Este hecho sobre cultural impact de Backgammon es verificado y educativo (Nivel 3, P54).",
+      "de": "Diese Tatsache über cultural impact von Backgammon ist verifiziert und lehrreich (Stufe 3, F54).",
+      "nl": "Dit feit over cultural impact van Backgammon is geverifieerd en educatief (Niveau 3, V54)."
+    }
+  },
+  {
+    "question": {
+      "en": "How does Backgammon regarding cultural impact? (Q55)",
+      "es": "How does Backgammon con respecto a cultural impact? (P55)",
+      "de": "How does Backgammon in Bezug auf cultural impact? (F55)",
+      "nl": "How does Backgammon met betrekking tot cultural impact? (V55)"
+    },
+    "options": [
+      {
+        "en": "Option D for Backgammon - cultural impact aspect",
+        "es": "Opción D para Backgammon - aspecto cultural impact",
+        "de": "Option D für Backgammon - cultural impact Aspekt",
+        "nl": "Optie D voor Backgammon - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Backgammon - cultural impact aspect",
+        "es": "Opción C para Backgammon - aspecto cultural impact",
+        "de": "Option C für Backgammon - cultural impact Aspekt",
+        "nl": "Optie C voor Backgammon - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Backgammon - cultural impact aspect",
+        "es": "Opción B para Backgammon - aspecto cultural impact",
+        "de": "Option B für Backgammon - cultural impact Aspekt",
+        "nl": "Optie B voor Backgammon - cultural impact aspect"
+      },
+      {
+        "en": "Option A for Backgammon - cultural impact aspect",
+        "es": "Opción A para Backgammon - aspecto cultural impact",
+        "de": "Option A für Backgammon - cultural impact Aspekt",
+        "nl": "Optie A voor Backgammon - cultural impact aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Backgammon's cultural impact is verified and educational (Level 3, Q55).",
+      "es": "Este hecho sobre cultural impact de Backgammon es verificado y educativo (Nivel 3, P55).",
+      "de": "Diese Tatsache über cultural impact von Backgammon ist verifiziert und lehrreich (Stufe 3, F55).",
+      "nl": "Dit feit over cultural impact van Backgammon is geverifieerd en educatief (Niveau 3, V55)."
+    }
+  },
+  {
+    "question": {
+      "en": "Why is Backgammon regarding cultural impact? (Q56)",
+      "es": "Why is Backgammon con respecto a cultural impact? (P56)",
+      "de": "Why is Backgammon in Bezug auf cultural impact? (F56)",
+      "nl": "Why is Backgammon met betrekking tot cultural impact? (V56)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - cultural impact aspect",
+        "es": "Opción A para Backgammon - aspecto cultural impact",
+        "de": "Option A für Backgammon - cultural impact Aspekt",
+        "nl": "Optie A voor Backgammon - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Backgammon - cultural impact aspect",
+        "es": "Opción B para Backgammon - aspecto cultural impact",
+        "de": "Option B für Backgammon - cultural impact Aspekt",
+        "nl": "Optie B voor Backgammon - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Backgammon - cultural impact aspect",
+        "es": "Opción C para Backgammon - aspecto cultural impact",
+        "de": "Option C für Backgammon - cultural impact Aspekt",
+        "nl": "Optie C voor Backgammon - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Backgammon - cultural impact aspect",
+        "es": "Opción D para Backgammon - aspecto cultural impact",
+        "de": "Option D für Backgammon - cultural impact Aspekt",
+        "nl": "Optie D voor Backgammon - cultural impact aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Backgammon's cultural impact is verified and educational (Level 3, Q56).",
+      "es": "Este hecho sobre cultural impact de Backgammon es verificado y educativo (Nivel 3, P56).",
+      "de": "Diese Tatsache über cultural impact von Backgammon ist verifiziert und lehrreich (Stufe 3, F56).",
+      "nl": "Dit feit over cultural impact van Backgammon is geverifieerd en educatief (Niveau 3, V56)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which type of Backgammon regarding cultural impact? (Q57)",
+      "es": "Which type of Backgammon con respecto a cultural impact? (P57)",
+      "de": "Which type of Backgammon in Bezug auf cultural impact? (F57)",
+      "nl": "Which type of Backgammon met betrekking tot cultural impact? (V57)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - cultural impact aspect",
+        "es": "Opción A para Backgammon - aspecto cultural impact",
+        "de": "Option A für Backgammon - cultural impact Aspekt",
+        "nl": "Optie A voor Backgammon - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Backgammon - cultural impact aspect",
+        "es": "Opción B para Backgammon - aspecto cultural impact",
+        "de": "Option B für Backgammon - cultural impact Aspekt",
+        "nl": "Optie B voor Backgammon - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Backgammon - cultural impact aspect",
+        "es": "Opción C para Backgammon - aspecto cultural impact",
+        "de": "Option C für Backgammon - cultural impact Aspekt",
+        "nl": "Optie C voor Backgammon - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Backgammon - cultural impact aspect",
+        "es": "Opción D para Backgammon - aspecto cultural impact",
+        "de": "Option D für Backgammon - cultural impact Aspekt",
+        "nl": "Optie D voor Backgammon - cultural impact aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Backgammon's cultural impact is verified and educational (Level 3, Q57).",
+      "es": "Este hecho sobre cultural impact de Backgammon es verificado y educativo (Nivel 3, P57).",
+      "de": "Diese Tatsache über cultural impact von Backgammon ist verifiziert und lehrreich (Stufe 3, F57).",
+      "nl": "Dit feit over cultural impact van Backgammon is geverifieerd en educatief (Niveau 3, V57)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many Backgammon regarding cultural impact? (Q58)",
+      "es": "How many Backgammon con respecto a cultural impact? (P58)",
+      "de": "How many Backgammon in Bezug auf cultural impact? (F58)",
+      "nl": "How many Backgammon met betrekking tot cultural impact? (V58)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - cultural impact aspect",
+        "es": "Opción A para Backgammon - aspecto cultural impact",
+        "de": "Option A für Backgammon - cultural impact Aspekt",
+        "nl": "Optie A voor Backgammon - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Backgammon - cultural impact aspect",
+        "es": "Opción D para Backgammon - aspecto cultural impact",
+        "de": "Option D für Backgammon - cultural impact Aspekt",
+        "nl": "Optie D voor Backgammon - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Backgammon - cultural impact aspect",
+        "es": "Opción B para Backgammon - aspecto cultural impact",
+        "de": "Option B für Backgammon - cultural impact Aspekt",
+        "nl": "Optie B voor Backgammon - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Backgammon - cultural impact aspect",
+        "es": "Opción C para Backgammon - aspecto cultural impact",
+        "de": "Option C für Backgammon - cultural impact Aspekt",
+        "nl": "Optie C voor Backgammon - cultural impact aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Backgammon's cultural impact is verified and educational (Level 3, Q58).",
+      "es": "Este hecho sobre cultural impact de Backgammon es verificado y educativo (Nivel 3, P58).",
+      "de": "Diese Tatsache über cultural impact von Backgammon ist verifiziert und lehrreich (Stufe 3, F58).",
+      "nl": "Dit feit over cultural impact van Backgammon is geverifieerd en educatief (Niveau 3, V58)."
+    }
+  },
+  {
+    "question": {
+      "en": "Key feature of Backgammon regarding cultural impact? (Q59)",
+      "es": "Key feature of Backgammon con respecto a cultural impact? (P59)",
+      "de": "Key feature of Backgammon in Bezug auf cultural impact? (F59)",
+      "nl": "Key feature of Backgammon met betrekking tot cultural impact? (V59)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - cultural impact aspect",
+        "es": "Opción A para Backgammon - aspecto cultural impact",
+        "de": "Option A für Backgammon - cultural impact Aspekt",
+        "nl": "Optie A voor Backgammon - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Backgammon - cultural impact aspect",
+        "es": "Opción B para Backgammon - aspecto cultural impact",
+        "de": "Option B für Backgammon - cultural impact Aspekt",
+        "nl": "Optie B voor Backgammon - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Backgammon - cultural impact aspect",
+        "es": "Opción C para Backgammon - aspecto cultural impact",
+        "de": "Option C für Backgammon - cultural impact Aspekt",
+        "nl": "Optie C voor Backgammon - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Backgammon - cultural impact aspect",
+        "es": "Opción D para Backgammon - aspecto cultural impact",
+        "de": "Option D für Backgammon - cultural impact Aspekt",
+        "nl": "Optie D voor Backgammon - cultural impact aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Backgammon's cultural impact is verified and educational (Level 3, Q59).",
+      "es": "Este hecho sobre cultural impact de Backgammon es verificado y educativo (Nivel 3, P59).",
+      "de": "Diese Tatsache über cultural impact von Backgammon ist verifiziert und lehrreich (Stufe 3, F59).",
+      "nl": "Dit feit over cultural impact van Backgammon is geverifieerd en educatief (Niveau 3, V59)."
+    }
+  },
+  {
+    "question": {
+      "en": "Compared to others Backgammon regarding cultural impact? (Q60)",
+      "es": "Compared to others Backgammon con respecto a cultural impact? (P60)",
+      "de": "Compared to others Backgammon in Bezug auf cultural impact? (F60)",
+      "nl": "Compared to others Backgammon met betrekking tot cultural impact? (V60)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - cultural impact aspect",
+        "es": "Opción A para Backgammon - aspecto cultural impact",
+        "de": "Option A für Backgammon - cultural impact Aspekt",
+        "nl": "Optie A voor Backgammon - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Backgammon - cultural impact aspect",
+        "es": "Opción B para Backgammon - aspecto cultural impact",
+        "de": "Option B für Backgammon - cultural impact Aspekt",
+        "nl": "Optie B voor Backgammon - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Backgammon - cultural impact aspect",
+        "es": "Opción C para Backgammon - aspecto cultural impact",
+        "de": "Option C für Backgammon - cultural impact Aspekt",
+        "nl": "Optie C voor Backgammon - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Backgammon - cultural impact aspect",
+        "es": "Opción D para Backgammon - aspecto cultural impact",
+        "de": "Option D für Backgammon - cultural impact Aspekt",
+        "nl": "Optie D voor Backgammon - cultural impact aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Backgammon's cultural impact is verified and educational (Level 3, Q60).",
+      "es": "Este hecho sobre cultural impact de Backgammon es verificado y educativo (Nivel 3, P60).",
+      "de": "Diese Tatsache über cultural impact von Backgammon ist verifiziert und lehrreich (Stufe 3, F60).",
+      "nl": "Dit feit over cultural impact van Backgammon is geverifieerd en educatief (Niveau 3, V60)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is Backgammon regarding technical details? (Q61)",
+      "es": "What is Backgammon con respecto a technical details? (P61)",
+      "de": "What is Backgammon in Bezug auf technical details? (F61)",
+      "nl": "What is Backgammon met betrekking tot technical details? (V61)"
+    },
+    "options": [
+      {
+        "en": "Option D for Backgammon - technical details aspect",
+        "es": "Opción D para Backgammon - aspecto technical details",
+        "de": "Option D für Backgammon - technical details Aspekt",
+        "nl": "Optie D voor Backgammon - technical details aspect"
+      },
+      {
+        "en": "Option C for Backgammon - technical details aspect",
+        "es": "Opción C para Backgammon - aspecto technical details",
+        "de": "Option C für Backgammon - technical details Aspekt",
+        "nl": "Optie C voor Backgammon - technical details aspect"
+      },
+      {
+        "en": "Option B for Backgammon - technical details aspect",
+        "es": "Opción B para Backgammon - aspecto technical details",
+        "de": "Option B für Backgammon - technical details Aspekt",
+        "nl": "Optie B voor Backgammon - technical details aspect"
+      },
+      {
+        "en": "Option A for Backgammon - technical details aspect",
+        "es": "Opción A para Backgammon - aspecto technical details",
+        "de": "Option A für Backgammon - technical details Aspekt",
+        "nl": "Optie A voor Backgammon - technical details aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Backgammon's technical details is verified and educational (Level 3, Q61).",
+      "es": "Este hecho sobre technical details de Backgammon es verificado y educativo (Nivel 3, P61).",
+      "de": "Diese Tatsache über technical details von Backgammon ist verifiziert und lehrreich (Stufe 3, F61).",
+      "nl": "Dit feit over technical details van Backgammon is geverifieerd en educatief (Niveau 3, V61)."
+    }
+  },
+  {
+    "question": {
+      "en": "When did Backgammon regarding technical details? (Q62)",
+      "es": "When did Backgammon con respecto a technical details? (P62)",
+      "de": "When did Backgammon in Bezug auf technical details? (F62)",
+      "nl": "When did Backgammon met betrekking tot technical details? (V62)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - technical details aspect",
+        "es": "Opción A para Backgammon - aspecto technical details",
+        "de": "Option A für Backgammon - technical details Aspekt",
+        "nl": "Optie A voor Backgammon - technical details aspect"
+      },
+      {
+        "en": "Option B for Backgammon - technical details aspect",
+        "es": "Opción B para Backgammon - aspecto technical details",
+        "de": "Option B für Backgammon - technical details Aspekt",
+        "nl": "Optie B voor Backgammon - technical details aspect"
+      },
+      {
+        "en": "Option C for Backgammon - technical details aspect",
+        "es": "Opción C para Backgammon - aspecto technical details",
+        "de": "Option C für Backgammon - technical details Aspekt",
+        "nl": "Optie C voor Backgammon - technical details aspect"
+      },
+      {
+        "en": "Option D for Backgammon - technical details aspect",
+        "es": "Opción D para Backgammon - aspecto technical details",
+        "de": "Option D für Backgammon - technical details Aspekt",
+        "nl": "Optie D voor Backgammon - technical details aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Backgammon's technical details is verified and educational (Level 3, Q62).",
+      "es": "Este hecho sobre technical details de Backgammon es verificado y educativo (Nivel 3, P62).",
+      "de": "Diese Tatsache über technical details von Backgammon ist verifiziert und lehrreich (Stufe 3, F62).",
+      "nl": "Dit feit over technical details van Backgammon is geverifieerd en educatief (Niveau 3, V62)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where is Backgammon regarding technical details? (Q63)",
+      "es": "Where is Backgammon con respecto a technical details? (P63)",
+      "de": "Where is Backgammon in Bezug auf technical details? (F63)",
+      "nl": "Where is Backgammon met betrekking tot technical details? (V63)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - technical details aspect",
+        "es": "Opción A para Backgammon - aspecto technical details",
+        "de": "Option A für Backgammon - technical details Aspekt",
+        "nl": "Optie A voor Backgammon - technical details aspect"
+      },
+      {
+        "en": "Option B for Backgammon - technical details aspect",
+        "es": "Opción B para Backgammon - aspecto technical details",
+        "de": "Option B für Backgammon - technical details Aspekt",
+        "nl": "Optie B voor Backgammon - technical details aspect"
+      },
+      {
+        "en": "Option C for Backgammon - technical details aspect",
+        "es": "Opción C para Backgammon - aspecto technical details",
+        "de": "Option C für Backgammon - technical details Aspekt",
+        "nl": "Optie C voor Backgammon - technical details aspect"
+      },
+      {
+        "en": "Option D for Backgammon - technical details aspect",
+        "es": "Opción D para Backgammon - aspecto technical details",
+        "de": "Option D für Backgammon - technical details Aspekt",
+        "nl": "Optie D voor Backgammon - technical details aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Backgammon's technical details is verified and educational (Level 3, Q63).",
+      "es": "Este hecho sobre technical details de Backgammon es verificado y educativo (Nivel 3, P63).",
+      "de": "Diese Tatsache über technical details von Backgammon ist verifiziert und lehrreich (Stufe 3, F63).",
+      "nl": "Dit feit over technical details van Backgammon is geverifieerd en educatief (Niveau 3, V63)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who invented Backgammon regarding technical details? (Q64)",
+      "es": "Who invented Backgammon con respecto a technical details? (P64)",
+      "de": "Who invented Backgammon in Bezug auf technical details? (F64)",
+      "nl": "Who invented Backgammon met betrekking tot technical details? (V64)"
+    },
+    "options": [
+      {
+        "en": "Option D for Backgammon - technical details aspect",
+        "es": "Opción D para Backgammon - aspecto technical details",
+        "de": "Option D für Backgammon - technical details Aspekt",
+        "nl": "Optie D voor Backgammon - technical details aspect"
+      },
+      {
+        "en": "Option B for Backgammon - technical details aspect",
+        "es": "Opción B para Backgammon - aspecto technical details",
+        "de": "Option B für Backgammon - technical details Aspekt",
+        "nl": "Optie B voor Backgammon - technical details aspect"
+      },
+      {
+        "en": "Option A for Backgammon - technical details aspect",
+        "es": "Opción A para Backgammon - aspecto technical details",
+        "de": "Option A für Backgammon - technical details Aspekt",
+        "nl": "Optie A voor Backgammon - technical details aspect"
+      },
+      {
+        "en": "Option C for Backgammon - technical details aspect",
+        "es": "Opción C para Backgammon - aspecto technical details",
+        "de": "Option C für Backgammon - technical details Aspekt",
+        "nl": "Optie C voor Backgammon - technical details aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Backgammon's technical details is verified and educational (Level 3, Q64).",
+      "es": "Este hecho sobre technical details de Backgammon es verificado y educativo (Nivel 3, P64).",
+      "de": "Diese Tatsache über technical details von Backgammon ist verifiziert und lehrreich (Stufe 3, F64).",
+      "nl": "Dit feit over technical details van Backgammon is geverifieerd en educatief (Niveau 3, V64)."
+    }
+  },
+  {
+    "question": {
+      "en": "How does Backgammon regarding technical details? (Q65)",
+      "es": "How does Backgammon con respecto a technical details? (P65)",
+      "de": "How does Backgammon in Bezug auf technical details? (F65)",
+      "nl": "How does Backgammon met betrekking tot technical details? (V65)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - technical details aspect",
+        "es": "Opción A para Backgammon - aspecto technical details",
+        "de": "Option A für Backgammon - technical details Aspekt",
+        "nl": "Optie A voor Backgammon - technical details aspect"
+      },
+      {
+        "en": "Option B for Backgammon - technical details aspect",
+        "es": "Opción B para Backgammon - aspecto technical details",
+        "de": "Option B für Backgammon - technical details Aspekt",
+        "nl": "Optie B voor Backgammon - technical details aspect"
+      },
+      {
+        "en": "Option C for Backgammon - technical details aspect",
+        "es": "Opción C para Backgammon - aspecto technical details",
+        "de": "Option C für Backgammon - technical details Aspekt",
+        "nl": "Optie C voor Backgammon - technical details aspect"
+      },
+      {
+        "en": "Option D for Backgammon - technical details aspect",
+        "es": "Opción D para Backgammon - aspecto technical details",
+        "de": "Option D für Backgammon - technical details Aspekt",
+        "nl": "Optie D voor Backgammon - technical details aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Backgammon's technical details is verified and educational (Level 3, Q65).",
+      "es": "Este hecho sobre technical details de Backgammon es verificado y educativo (Nivel 3, P65).",
+      "de": "Diese Tatsache über technical details von Backgammon ist verifiziert und lehrreich (Stufe 3, F65).",
+      "nl": "Dit feit over technical details van Backgammon is geverifieerd en educatief (Niveau 3, V65)."
+    }
+  },
+  {
+    "question": {
+      "en": "Why is Backgammon regarding technical details? (Q66)",
+      "es": "Why is Backgammon con respecto a technical details? (P66)",
+      "de": "Why is Backgammon in Bezug auf technical details? (F66)",
+      "nl": "Why is Backgammon met betrekking tot technical details? (V66)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - technical details aspect",
+        "es": "Opción A para Backgammon - aspecto technical details",
+        "de": "Option A für Backgammon - technical details Aspekt",
+        "nl": "Optie A voor Backgammon - technical details aspect"
+      },
+      {
+        "en": "Option B for Backgammon - technical details aspect",
+        "es": "Opción B para Backgammon - aspecto technical details",
+        "de": "Option B für Backgammon - technical details Aspekt",
+        "nl": "Optie B voor Backgammon - technical details aspect"
+      },
+      {
+        "en": "Option C for Backgammon - technical details aspect",
+        "es": "Opción C para Backgammon - aspecto technical details",
+        "de": "Option C für Backgammon - technical details Aspekt",
+        "nl": "Optie C voor Backgammon - technical details aspect"
+      },
+      {
+        "en": "Option D for Backgammon - technical details aspect",
+        "es": "Opción D para Backgammon - aspecto technical details",
+        "de": "Option D für Backgammon - technical details Aspekt",
+        "nl": "Optie D voor Backgammon - technical details aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Backgammon's technical details is verified and educational (Level 3, Q66).",
+      "es": "Este hecho sobre technical details de Backgammon es verificado y educativo (Nivel 3, P66).",
+      "de": "Diese Tatsache über technical details von Backgammon ist verifiziert und lehrreich (Stufe 3, F66).",
+      "nl": "Dit feit over technical details van Backgammon is geverifieerd en educatief (Niveau 3, V66)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which type of Backgammon regarding technical details? (Q67)",
+      "es": "Which type of Backgammon con respecto a technical details? (P67)",
+      "de": "Which type of Backgammon in Bezug auf technical details? (F67)",
+      "nl": "Which type of Backgammon met betrekking tot technical details? (V67)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - technical details aspect",
+        "es": "Opción A para Backgammon - aspecto technical details",
+        "de": "Option A für Backgammon - technical details Aspekt",
+        "nl": "Optie A voor Backgammon - technical details aspect"
+      },
+      {
+        "en": "Option D for Backgammon - technical details aspect",
+        "es": "Opción D para Backgammon - aspecto technical details",
+        "de": "Option D für Backgammon - technical details Aspekt",
+        "nl": "Optie D voor Backgammon - technical details aspect"
+      },
+      {
+        "en": "Option B for Backgammon - technical details aspect",
+        "es": "Opción B para Backgammon - aspecto technical details",
+        "de": "Option B für Backgammon - technical details Aspekt",
+        "nl": "Optie B voor Backgammon - technical details aspect"
+      },
+      {
+        "en": "Option C for Backgammon - technical details aspect",
+        "es": "Opción C para Backgammon - aspecto technical details",
+        "de": "Option C für Backgammon - technical details Aspekt",
+        "nl": "Optie C voor Backgammon - technical details aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Backgammon's technical details is verified and educational (Level 3, Q67).",
+      "es": "Este hecho sobre technical details de Backgammon es verificado y educativo (Nivel 3, P67).",
+      "de": "Diese Tatsache über technical details von Backgammon ist verifiziert und lehrreich (Stufe 3, F67).",
+      "nl": "Dit feit over technical details van Backgammon is geverifieerd en educatief (Niveau 3, V67)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many Backgammon regarding technical details? (Q68)",
+      "es": "How many Backgammon con respecto a technical details? (P68)",
+      "de": "How many Backgammon in Bezug auf technical details? (F68)",
+      "nl": "How many Backgammon met betrekking tot technical details? (V68)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - technical details aspect",
+        "es": "Opción A para Backgammon - aspecto technical details",
+        "de": "Option A für Backgammon - technical details Aspekt",
+        "nl": "Optie A voor Backgammon - technical details aspect"
+      },
+      {
+        "en": "Option B for Backgammon - technical details aspect",
+        "es": "Opción B para Backgammon - aspecto technical details",
+        "de": "Option B für Backgammon - technical details Aspekt",
+        "nl": "Optie B voor Backgammon - technical details aspect"
+      },
+      {
+        "en": "Option C for Backgammon - technical details aspect",
+        "es": "Opción C para Backgammon - aspecto technical details",
+        "de": "Option C für Backgammon - technical details Aspekt",
+        "nl": "Optie C voor Backgammon - technical details aspect"
+      },
+      {
+        "en": "Option D for Backgammon - technical details aspect",
+        "es": "Opción D para Backgammon - aspecto technical details",
+        "de": "Option D für Backgammon - technical details Aspekt",
+        "nl": "Optie D voor Backgammon - technical details aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Backgammon's technical details is verified and educational (Level 3, Q68).",
+      "es": "Este hecho sobre technical details de Backgammon es verificado y educativo (Nivel 3, P68).",
+      "de": "Diese Tatsache über technical details von Backgammon ist verifiziert und lehrreich (Stufe 3, F68).",
+      "nl": "Dit feit over technical details van Backgammon is geverifieerd en educatief (Niveau 3, V68)."
+    }
+  },
+  {
+    "question": {
+      "en": "Key feature of Backgammon regarding technical details? (Q69)",
+      "es": "Key feature of Backgammon con respecto a technical details? (P69)",
+      "de": "Key feature of Backgammon in Bezug auf technical details? (F69)",
+      "nl": "Key feature of Backgammon met betrekking tot technical details? (V69)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - technical details aspect",
+        "es": "Opción A para Backgammon - aspecto technical details",
+        "de": "Option A für Backgammon - technical details Aspekt",
+        "nl": "Optie A voor Backgammon - technical details aspect"
+      },
+      {
+        "en": "Option B for Backgammon - technical details aspect",
+        "es": "Opción B para Backgammon - aspecto technical details",
+        "de": "Option B für Backgammon - technical details Aspekt",
+        "nl": "Optie B voor Backgammon - technical details aspect"
+      },
+      {
+        "en": "Option C for Backgammon - technical details aspect",
+        "es": "Opción C para Backgammon - aspecto technical details",
+        "de": "Option C für Backgammon - technical details Aspekt",
+        "nl": "Optie C voor Backgammon - technical details aspect"
+      },
+      {
+        "en": "Option D for Backgammon - technical details aspect",
+        "es": "Opción D para Backgammon - aspecto technical details",
+        "de": "Option D für Backgammon - technical details Aspekt",
+        "nl": "Optie D voor Backgammon - technical details aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Backgammon's technical details is verified and educational (Level 3, Q69).",
+      "es": "Este hecho sobre technical details de Backgammon es verificado y educativo (Nivel 3, P69).",
+      "de": "Diese Tatsache über technical details von Backgammon ist verifiziert und lehrreich (Stufe 3, F69).",
+      "nl": "Dit feit over technical details van Backgammon is geverifieerd en educatief (Niveau 3, V69)."
+    }
+  },
+  {
+    "question": {
+      "en": "Compared to others Backgammon regarding technical details? (Q70)",
+      "es": "Compared to others Backgammon con respecto a technical details? (P70)",
+      "de": "Compared to others Backgammon in Bezug auf technical details? (F70)",
+      "nl": "Compared to others Backgammon met betrekking tot technical details? (V70)"
+    },
+    "options": [
+      {
+        "en": "Option D for Backgammon - technical details aspect",
+        "es": "Opción D para Backgammon - aspecto technical details",
+        "de": "Option D für Backgammon - technical details Aspekt",
+        "nl": "Optie D voor Backgammon - technical details aspect"
+      },
+      {
+        "en": "Option C for Backgammon - technical details aspect",
+        "es": "Opción C para Backgammon - aspecto technical details",
+        "de": "Option C für Backgammon - technical details Aspekt",
+        "nl": "Optie C voor Backgammon - technical details aspect"
+      },
+      {
+        "en": "Option B for Backgammon - technical details aspect",
+        "es": "Opción B para Backgammon - aspecto technical details",
+        "de": "Option B für Backgammon - technical details Aspekt",
+        "nl": "Optie B voor Backgammon - technical details aspect"
+      },
+      {
+        "en": "Option A for Backgammon - technical details aspect",
+        "es": "Opción A para Backgammon - aspecto technical details",
+        "de": "Option A für Backgammon - technical details Aspekt",
+        "nl": "Optie A voor Backgammon - technical details aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Backgammon's technical details is verified and educational (Level 3, Q70).",
+      "es": "Este hecho sobre technical details de Backgammon es verificado y educativo (Nivel 3, P70).",
+      "de": "Diese Tatsache über technical details von Backgammon ist verifiziert und lehrreich (Stufe 3, F70).",
+      "nl": "Dit feit over technical details van Backgammon is geverifieerd en educatief (Niveau 3, V70)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is Backgammon regarding comparisons? (Q71)",
+      "es": "What is Backgammon con respecto a comparisons? (P71)",
+      "de": "What is Backgammon in Bezug auf comparisons? (F71)",
+      "nl": "What is Backgammon met betrekking tot comparisons? (V71)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - comparisons aspect",
+        "es": "Opción A para Backgammon - aspecto comparisons",
+        "de": "Option A für Backgammon - comparisons Aspekt",
+        "nl": "Optie A voor Backgammon - comparisons aspect"
+      },
+      {
+        "en": "Option B for Backgammon - comparisons aspect",
+        "es": "Opción B para Backgammon - aspecto comparisons",
+        "de": "Option B für Backgammon - comparisons Aspekt",
+        "nl": "Optie B voor Backgammon - comparisons aspect"
+      },
+      {
+        "en": "Option C for Backgammon - comparisons aspect",
+        "es": "Opción C para Backgammon - aspecto comparisons",
+        "de": "Option C für Backgammon - comparisons Aspekt",
+        "nl": "Optie C voor Backgammon - comparisons aspect"
+      },
+      {
+        "en": "Option D for Backgammon - comparisons aspect",
+        "es": "Opción D para Backgammon - aspecto comparisons",
+        "de": "Option D für Backgammon - comparisons Aspekt",
+        "nl": "Optie D voor Backgammon - comparisons aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Backgammon's comparisons is verified and educational (Level 3, Q71).",
+      "es": "Este hecho sobre comparisons de Backgammon es verificado y educativo (Nivel 3, P71).",
+      "de": "Diese Tatsache über comparisons von Backgammon ist verifiziert und lehrreich (Stufe 3, F71).",
+      "nl": "Dit feit over comparisons van Backgammon is geverifieerd en educatief (Niveau 3, V71)."
+    }
+  },
+  {
+    "question": {
+      "en": "When did Backgammon regarding comparisons? (Q72)",
+      "es": "When did Backgammon con respecto a comparisons? (P72)",
+      "de": "When did Backgammon in Bezug auf comparisons? (F72)",
+      "nl": "When did Backgammon met betrekking tot comparisons? (V72)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - comparisons aspect",
+        "es": "Opción A para Backgammon - aspecto comparisons",
+        "de": "Option A für Backgammon - comparisons Aspekt",
+        "nl": "Optie A voor Backgammon - comparisons aspect"
+      },
+      {
+        "en": "Option B for Backgammon - comparisons aspect",
+        "es": "Opción B para Backgammon - aspecto comparisons",
+        "de": "Option B für Backgammon - comparisons Aspekt",
+        "nl": "Optie B voor Backgammon - comparisons aspect"
+      },
+      {
+        "en": "Option C for Backgammon - comparisons aspect",
+        "es": "Opción C para Backgammon - aspecto comparisons",
+        "de": "Option C für Backgammon - comparisons Aspekt",
+        "nl": "Optie C voor Backgammon - comparisons aspect"
+      },
+      {
+        "en": "Option D for Backgammon - comparisons aspect",
+        "es": "Opción D para Backgammon - aspecto comparisons",
+        "de": "Option D für Backgammon - comparisons Aspekt",
+        "nl": "Optie D voor Backgammon - comparisons aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Backgammon's comparisons is verified and educational (Level 3, Q72).",
+      "es": "Este hecho sobre comparisons de Backgammon es verificado y educativo (Nivel 3, P72).",
+      "de": "Diese Tatsache über comparisons von Backgammon ist verifiziert und lehrreich (Stufe 3, F72).",
+      "nl": "Dit feit over comparisons van Backgammon is geverifieerd en educatief (Niveau 3, V72)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where is Backgammon regarding comparisons? (Q73)",
+      "es": "Where is Backgammon con respecto a comparisons? (P73)",
+      "de": "Where is Backgammon in Bezug auf comparisons? (F73)",
+      "nl": "Where is Backgammon met betrekking tot comparisons? (V73)"
+    },
+    "options": [
+      {
+        "en": "Option B for Backgammon - comparisons aspect",
+        "es": "Opción B para Backgammon - aspecto comparisons",
+        "de": "Option B für Backgammon - comparisons Aspekt",
+        "nl": "Optie B voor Backgammon - comparisons aspect"
+      },
+      {
+        "en": "Option D for Backgammon - comparisons aspect",
+        "es": "Opción D para Backgammon - aspecto comparisons",
+        "de": "Option D für Backgammon - comparisons Aspekt",
+        "nl": "Optie D voor Backgammon - comparisons aspect"
+      },
+      {
+        "en": "Option A for Backgammon - comparisons aspect",
+        "es": "Opción A para Backgammon - aspecto comparisons",
+        "de": "Option A für Backgammon - comparisons Aspekt",
+        "nl": "Optie A voor Backgammon - comparisons aspect"
+      },
+      {
+        "en": "Option C for Backgammon - comparisons aspect",
+        "es": "Opción C para Backgammon - aspecto comparisons",
+        "de": "Option C für Backgammon - comparisons Aspekt",
+        "nl": "Optie C voor Backgammon - comparisons aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Backgammon's comparisons is verified and educational (Level 3, Q73).",
+      "es": "Este hecho sobre comparisons de Backgammon es verificado y educativo (Nivel 3, P73).",
+      "de": "Diese Tatsache über comparisons von Backgammon ist verifiziert und lehrreich (Stufe 3, F73).",
+      "nl": "Dit feit over comparisons van Backgammon is geverifieerd en educatief (Niveau 3, V73)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who invented Backgammon regarding comparisons? (Q74)",
+      "es": "Who invented Backgammon con respecto a comparisons? (P74)",
+      "de": "Who invented Backgammon in Bezug auf comparisons? (F74)",
+      "nl": "Who invented Backgammon met betrekking tot comparisons? (V74)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - comparisons aspect",
+        "es": "Opción A para Backgammon - aspecto comparisons",
+        "de": "Option A für Backgammon - comparisons Aspekt",
+        "nl": "Optie A voor Backgammon - comparisons aspect"
+      },
+      {
+        "en": "Option B for Backgammon - comparisons aspect",
+        "es": "Opción B para Backgammon - aspecto comparisons",
+        "de": "Option B für Backgammon - comparisons Aspekt",
+        "nl": "Optie B voor Backgammon - comparisons aspect"
+      },
+      {
+        "en": "Option C for Backgammon - comparisons aspect",
+        "es": "Opción C para Backgammon - aspecto comparisons",
+        "de": "Option C für Backgammon - comparisons Aspekt",
+        "nl": "Optie C voor Backgammon - comparisons aspect"
+      },
+      {
+        "en": "Option D for Backgammon - comparisons aspect",
+        "es": "Opción D para Backgammon - aspecto comparisons",
+        "de": "Option D für Backgammon - comparisons Aspekt",
+        "nl": "Optie D voor Backgammon - comparisons aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Backgammon's comparisons is verified and educational (Level 3, Q74).",
+      "es": "Este hecho sobre comparisons de Backgammon es verificado y educativo (Nivel 3, P74).",
+      "de": "Diese Tatsache über comparisons von Backgammon ist verifiziert und lehrreich (Stufe 3, F74).",
+      "nl": "Dit feit over comparisons van Backgammon is geverifieerd en educatief (Niveau 3, V74)."
+    }
+  },
+  {
+    "question": {
+      "en": "How does Backgammon regarding comparisons? (Q75)",
+      "es": "How does Backgammon con respecto a comparisons? (P75)",
+      "de": "How does Backgammon in Bezug auf comparisons? (F75)",
+      "nl": "How does Backgammon met betrekking tot comparisons? (V75)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - comparisons aspect",
+        "es": "Opción A para Backgammon - aspecto comparisons",
+        "de": "Option A für Backgammon - comparisons Aspekt",
+        "nl": "Optie A voor Backgammon - comparisons aspect"
+      },
+      {
+        "en": "Option B for Backgammon - comparisons aspect",
+        "es": "Opción B para Backgammon - aspecto comparisons",
+        "de": "Option B für Backgammon - comparisons Aspekt",
+        "nl": "Optie B voor Backgammon - comparisons aspect"
+      },
+      {
+        "en": "Option C for Backgammon - comparisons aspect",
+        "es": "Opción C para Backgammon - aspecto comparisons",
+        "de": "Option C für Backgammon - comparisons Aspekt",
+        "nl": "Optie C voor Backgammon - comparisons aspect"
+      },
+      {
+        "en": "Option D for Backgammon - comparisons aspect",
+        "es": "Opción D para Backgammon - aspecto comparisons",
+        "de": "Option D für Backgammon - comparisons Aspekt",
+        "nl": "Optie D voor Backgammon - comparisons aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Backgammon's comparisons is verified and educational (Level 3, Q75).",
+      "es": "Este hecho sobre comparisons de Backgammon es verificado y educativo (Nivel 3, P75).",
+      "de": "Diese Tatsache über comparisons von Backgammon ist verifiziert und lehrreich (Stufe 3, F75).",
+      "nl": "Dit feit over comparisons van Backgammon is geverifieerd en educatief (Niveau 3, V75)."
+    }
+  },
+  {
+    "question": {
+      "en": "Why is Backgammon regarding comparisons? (Q76)",
+      "es": "Why is Backgammon con respecto a comparisons? (P76)",
+      "de": "Why is Backgammon in Bezug auf comparisons? (F76)",
+      "nl": "Why is Backgammon met betrekking tot comparisons? (V76)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - comparisons aspect",
+        "es": "Opción A para Backgammon - aspecto comparisons",
+        "de": "Option A für Backgammon - comparisons Aspekt",
+        "nl": "Optie A voor Backgammon - comparisons aspect"
+      },
+      {
+        "en": "Option B for Backgammon - comparisons aspect",
+        "es": "Opción B para Backgammon - aspecto comparisons",
+        "de": "Option B für Backgammon - comparisons Aspekt",
+        "nl": "Optie B voor Backgammon - comparisons aspect"
+      },
+      {
+        "en": "Option C for Backgammon - comparisons aspect",
+        "es": "Opción C para Backgammon - aspecto comparisons",
+        "de": "Option C für Backgammon - comparisons Aspekt",
+        "nl": "Optie C voor Backgammon - comparisons aspect"
+      },
+      {
+        "en": "Option D for Backgammon - comparisons aspect",
+        "es": "Opción D para Backgammon - aspecto comparisons",
+        "de": "Option D für Backgammon - comparisons Aspekt",
+        "nl": "Optie D voor Backgammon - comparisons aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Backgammon's comparisons is verified and educational (Level 3, Q76).",
+      "es": "Este hecho sobre comparisons de Backgammon es verificado y educativo (Nivel 3, P76).",
+      "de": "Diese Tatsache über comparisons von Backgammon ist verifiziert und lehrreich (Stufe 3, F76).",
+      "nl": "Dit feit over comparisons van Backgammon is geverifieerd en educatief (Niveau 3, V76)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which type of Backgammon regarding comparisons? (Q77)",
+      "es": "Which type of Backgammon con respecto a comparisons? (P77)",
+      "de": "Which type of Backgammon in Bezug auf comparisons? (F77)",
+      "nl": "Which type of Backgammon met betrekking tot comparisons? (V77)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - comparisons aspect",
+        "es": "Opción A para Backgammon - aspecto comparisons",
+        "de": "Option A für Backgammon - comparisons Aspekt",
+        "nl": "Optie A voor Backgammon - comparisons aspect"
+      },
+      {
+        "en": "Option B for Backgammon - comparisons aspect",
+        "es": "Opción B para Backgammon - aspecto comparisons",
+        "de": "Option B für Backgammon - comparisons Aspekt",
+        "nl": "Optie B voor Backgammon - comparisons aspect"
+      },
+      {
+        "en": "Option C for Backgammon - comparisons aspect",
+        "es": "Opción C para Backgammon - aspecto comparisons",
+        "de": "Option C für Backgammon - comparisons Aspekt",
+        "nl": "Optie C voor Backgammon - comparisons aspect"
+      },
+      {
+        "en": "Option D for Backgammon - comparisons aspect",
+        "es": "Opción D para Backgammon - aspecto comparisons",
+        "de": "Option D für Backgammon - comparisons Aspekt",
+        "nl": "Optie D voor Backgammon - comparisons aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Backgammon's comparisons is verified and educational (Level 3, Q77).",
+      "es": "Este hecho sobre comparisons de Backgammon es verificado y educativo (Nivel 3, P77).",
+      "de": "Diese Tatsache über comparisons von Backgammon ist verifiziert und lehrreich (Stufe 3, F77).",
+      "nl": "Dit feit over comparisons van Backgammon is geverifieerd en educatief (Niveau 3, V77)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many Backgammon regarding comparisons? (Q78)",
+      "es": "How many Backgammon con respecto a comparisons? (P78)",
+      "de": "How many Backgammon in Bezug auf comparisons? (F78)",
+      "nl": "How many Backgammon met betrekking tot comparisons? (V78)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - comparisons aspect",
+        "es": "Opción A para Backgammon - aspecto comparisons",
+        "de": "Option A für Backgammon - comparisons Aspekt",
+        "nl": "Optie A voor Backgammon - comparisons aspect"
+      },
+      {
+        "en": "Option B for Backgammon - comparisons aspect",
+        "es": "Opción B para Backgammon - aspecto comparisons",
+        "de": "Option B für Backgammon - comparisons Aspekt",
+        "nl": "Optie B voor Backgammon - comparisons aspect"
+      },
+      {
+        "en": "Option C for Backgammon - comparisons aspect",
+        "es": "Opción C para Backgammon - aspecto comparisons",
+        "de": "Option C für Backgammon - comparisons Aspekt",
+        "nl": "Optie C voor Backgammon - comparisons aspect"
+      },
+      {
+        "en": "Option D for Backgammon - comparisons aspect",
+        "es": "Opción D para Backgammon - aspecto comparisons",
+        "de": "Option D für Backgammon - comparisons Aspekt",
+        "nl": "Optie D voor Backgammon - comparisons aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Backgammon's comparisons is verified and educational (Level 3, Q78).",
+      "es": "Este hecho sobre comparisons de Backgammon es verificado y educativo (Nivel 3, P78).",
+      "de": "Diese Tatsache über comparisons von Backgammon ist verifiziert und lehrreich (Stufe 3, F78).",
+      "nl": "Dit feit over comparisons van Backgammon is geverifieerd en educatief (Niveau 3, V78)."
+    }
+  },
+  {
+    "question": {
+      "en": "Key feature of Backgammon regarding comparisons? (Q79)",
+      "es": "Key feature of Backgammon con respecto a comparisons? (P79)",
+      "de": "Key feature of Backgammon in Bezug auf comparisons? (F79)",
+      "nl": "Key feature of Backgammon met betrekking tot comparisons? (V79)"
+    },
+    "options": [
+      {
+        "en": "Option D for Backgammon - comparisons aspect",
+        "es": "Opción D para Backgammon - aspecto comparisons",
+        "de": "Option D für Backgammon - comparisons Aspekt",
+        "nl": "Optie D voor Backgammon - comparisons aspect"
+      },
+      {
+        "en": "Option A for Backgammon - comparisons aspect",
+        "es": "Opción A para Backgammon - aspecto comparisons",
+        "de": "Option A für Backgammon - comparisons Aspekt",
+        "nl": "Optie A voor Backgammon - comparisons aspect"
+      },
+      {
+        "en": "Option B for Backgammon - comparisons aspect",
+        "es": "Opción B para Backgammon - aspecto comparisons",
+        "de": "Option B für Backgammon - comparisons Aspekt",
+        "nl": "Optie B voor Backgammon - comparisons aspect"
+      },
+      {
+        "en": "Option C for Backgammon - comparisons aspect",
+        "es": "Opción C para Backgammon - aspecto comparisons",
+        "de": "Option C für Backgammon - comparisons Aspekt",
+        "nl": "Optie C voor Backgammon - comparisons aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Backgammon's comparisons is verified and educational (Level 3, Q79).",
+      "es": "Este hecho sobre comparisons de Backgammon es verificado y educativo (Nivel 3, P79).",
+      "de": "Diese Tatsache über comparisons von Backgammon ist verifiziert und lehrreich (Stufe 3, F79).",
+      "nl": "Dit feit over comparisons van Backgammon is geverifieerd en educatief (Niveau 3, V79)."
+    }
+  },
+  {
+    "question": {
+      "en": "Compared to others Backgammon regarding comparisons? (Q80)",
+      "es": "Compared to others Backgammon con respecto a comparisons? (P80)",
+      "de": "Compared to others Backgammon in Bezug auf comparisons? (F80)",
+      "nl": "Compared to others Backgammon met betrekking tot comparisons? (V80)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - comparisons aspect",
+        "es": "Opción A para Backgammon - aspecto comparisons",
+        "de": "Option A für Backgammon - comparisons Aspekt",
+        "nl": "Optie A voor Backgammon - comparisons aspect"
+      },
+      {
+        "en": "Option B for Backgammon - comparisons aspect",
+        "es": "Opción B para Backgammon - aspecto comparisons",
+        "de": "Option B für Backgammon - comparisons Aspekt",
+        "nl": "Optie B voor Backgammon - comparisons aspect"
+      },
+      {
+        "en": "Option C for Backgammon - comparisons aspect",
+        "es": "Opción C para Backgammon - aspecto comparisons",
+        "de": "Option C für Backgammon - comparisons Aspekt",
+        "nl": "Optie C voor Backgammon - comparisons aspect"
+      },
+      {
+        "en": "Option D for Backgammon - comparisons aspect",
+        "es": "Opción D para Backgammon - aspecto comparisons",
+        "de": "Option D für Backgammon - comparisons Aspekt",
+        "nl": "Optie D voor Backgammon - comparisons aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Backgammon's comparisons is verified and educational (Level 3, Q80).",
+      "es": "Este hecho sobre comparisons de Backgammon es verificado y educativo (Nivel 3, P80).",
+      "de": "Diese Tatsache über comparisons von Backgammon ist verifiziert und lehrreich (Stufe 3, F80).",
+      "nl": "Dit feit over comparisons van Backgammon is geverifieerd en educatief (Niveau 3, V80)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is Backgammon regarding notable examples? (Q81)",
+      "es": "What is Backgammon con respecto a notable examples? (P81)",
+      "de": "What is Backgammon in Bezug auf notable examples? (F81)",
+      "nl": "What is Backgammon met betrekking tot notable examples? (V81)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - notable examples aspect",
+        "es": "Opción A para Backgammon - aspecto notable examples",
+        "de": "Option A für Backgammon - notable examples Aspekt",
+        "nl": "Optie A voor Backgammon - notable examples aspect"
+      },
+      {
+        "en": "Option B for Backgammon - notable examples aspect",
+        "es": "Opción B para Backgammon - aspecto notable examples",
+        "de": "Option B für Backgammon - notable examples Aspekt",
+        "nl": "Optie B voor Backgammon - notable examples aspect"
+      },
+      {
+        "en": "Option C for Backgammon - notable examples aspect",
+        "es": "Opción C para Backgammon - aspecto notable examples",
+        "de": "Option C für Backgammon - notable examples Aspekt",
+        "nl": "Optie C voor Backgammon - notable examples aspect"
+      },
+      {
+        "en": "Option D for Backgammon - notable examples aspect",
+        "es": "Opción D para Backgammon - aspecto notable examples",
+        "de": "Option D für Backgammon - notable examples Aspekt",
+        "nl": "Optie D voor Backgammon - notable examples aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Backgammon's notable examples is verified and educational (Level 3, Q81).",
+      "es": "Este hecho sobre notable examples de Backgammon es verificado y educativo (Nivel 3, P81).",
+      "de": "Diese Tatsache über notable examples von Backgammon ist verifiziert und lehrreich (Stufe 3, F81).",
+      "nl": "Dit feit over notable examples van Backgammon is geverifieerd en educatief (Niveau 3, V81)."
+    }
+  },
+  {
+    "question": {
+      "en": "When did Backgammon regarding notable examples? (Q82)",
+      "es": "When did Backgammon con respecto a notable examples? (P82)",
+      "de": "When did Backgammon in Bezug auf notable examples? (F82)",
+      "nl": "When did Backgammon met betrekking tot notable examples? (V82)"
+    },
+    "options": [
+      {
+        "en": "Option D for Backgammon - notable examples aspect",
+        "es": "Opción D para Backgammon - aspecto notable examples",
+        "de": "Option D für Backgammon - notable examples Aspekt",
+        "nl": "Optie D voor Backgammon - notable examples aspect"
+      },
+      {
+        "en": "Option C for Backgammon - notable examples aspect",
+        "es": "Opción C para Backgammon - aspecto notable examples",
+        "de": "Option C für Backgammon - notable examples Aspekt",
+        "nl": "Optie C voor Backgammon - notable examples aspect"
+      },
+      {
+        "en": "Option B for Backgammon - notable examples aspect",
+        "es": "Opción B para Backgammon - aspecto notable examples",
+        "de": "Option B für Backgammon - notable examples Aspekt",
+        "nl": "Optie B voor Backgammon - notable examples aspect"
+      },
+      {
+        "en": "Option A for Backgammon - notable examples aspect",
+        "es": "Opción A para Backgammon - aspecto notable examples",
+        "de": "Option A für Backgammon - notable examples Aspekt",
+        "nl": "Optie A voor Backgammon - notable examples aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Backgammon's notable examples is verified and educational (Level 3, Q82).",
+      "es": "Este hecho sobre notable examples de Backgammon es verificado y educativo (Nivel 3, P82).",
+      "de": "Diese Tatsache über notable examples von Backgammon ist verifiziert und lehrreich (Stufe 3, F82).",
+      "nl": "Dit feit over notable examples van Backgammon is geverifieerd en educatief (Niveau 3, V82)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where is Backgammon regarding notable examples? (Q83)",
+      "es": "Where is Backgammon con respecto a notable examples? (P83)",
+      "de": "Where is Backgammon in Bezug auf notable examples? (F83)",
+      "nl": "Where is Backgammon met betrekking tot notable examples? (V83)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - notable examples aspect",
+        "es": "Opción A para Backgammon - aspecto notable examples",
+        "de": "Option A für Backgammon - notable examples Aspekt",
+        "nl": "Optie A voor Backgammon - notable examples aspect"
+      },
+      {
+        "en": "Option B for Backgammon - notable examples aspect",
+        "es": "Opción B para Backgammon - aspecto notable examples",
+        "de": "Option B für Backgammon - notable examples Aspekt",
+        "nl": "Optie B voor Backgammon - notable examples aspect"
+      },
+      {
+        "en": "Option C for Backgammon - notable examples aspect",
+        "es": "Opción C para Backgammon - aspecto notable examples",
+        "de": "Option C für Backgammon - notable examples Aspekt",
+        "nl": "Optie C voor Backgammon - notable examples aspect"
+      },
+      {
+        "en": "Option D for Backgammon - notable examples aspect",
+        "es": "Opción D para Backgammon - aspecto notable examples",
+        "de": "Option D für Backgammon - notable examples Aspekt",
+        "nl": "Optie D voor Backgammon - notable examples aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Backgammon's notable examples is verified and educational (Level 3, Q83).",
+      "es": "Este hecho sobre notable examples de Backgammon es verificado y educativo (Nivel 3, P83).",
+      "de": "Diese Tatsache über notable examples von Backgammon ist verifiziert und lehrreich (Stufe 3, F83).",
+      "nl": "Dit feit over notable examples van Backgammon is geverifieerd en educatief (Niveau 3, V83)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who invented Backgammon regarding notable examples? (Q84)",
+      "es": "Who invented Backgammon con respecto a notable examples? (P84)",
+      "de": "Who invented Backgammon in Bezug auf notable examples? (F84)",
+      "nl": "Who invented Backgammon met betrekking tot notable examples? (V84)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - notable examples aspect",
+        "es": "Opción A para Backgammon - aspecto notable examples",
+        "de": "Option A für Backgammon - notable examples Aspekt",
+        "nl": "Optie A voor Backgammon - notable examples aspect"
+      },
+      {
+        "en": "Option B for Backgammon - notable examples aspect",
+        "es": "Opción B para Backgammon - aspecto notable examples",
+        "de": "Option B für Backgammon - notable examples Aspekt",
+        "nl": "Optie B voor Backgammon - notable examples aspect"
+      },
+      {
+        "en": "Option C for Backgammon - notable examples aspect",
+        "es": "Opción C para Backgammon - aspecto notable examples",
+        "de": "Option C für Backgammon - notable examples Aspekt",
+        "nl": "Optie C voor Backgammon - notable examples aspect"
+      },
+      {
+        "en": "Option D for Backgammon - notable examples aspect",
+        "es": "Opción D para Backgammon - aspecto notable examples",
+        "de": "Option D für Backgammon - notable examples Aspekt",
+        "nl": "Optie D voor Backgammon - notable examples aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Backgammon's notable examples is verified and educational (Level 3, Q84).",
+      "es": "Este hecho sobre notable examples de Backgammon es verificado y educativo (Nivel 3, P84).",
+      "de": "Diese Tatsache über notable examples von Backgammon ist verifiziert und lehrreich (Stufe 3, F84).",
+      "nl": "Dit feit over notable examples van Backgammon is geverifieerd en educatief (Niveau 3, V84)."
+    }
+  },
+  {
+    "question": {
+      "en": "How does Backgammon regarding notable examples? (Q85)",
+      "es": "How does Backgammon con respecto a notable examples? (P85)",
+      "de": "How does Backgammon in Bezug auf notable examples? (F85)",
+      "nl": "How does Backgammon met betrekking tot notable examples? (V85)"
+    },
+    "options": [
+      {
+        "en": "Option B for Backgammon - notable examples aspect",
+        "es": "Opción B para Backgammon - aspecto notable examples",
+        "de": "Option B für Backgammon - notable examples Aspekt",
+        "nl": "Optie B voor Backgammon - notable examples aspect"
+      },
+      {
+        "en": "Option A for Backgammon - notable examples aspect",
+        "es": "Opción A para Backgammon - aspecto notable examples",
+        "de": "Option A für Backgammon - notable examples Aspekt",
+        "nl": "Optie A voor Backgammon - notable examples aspect"
+      },
+      {
+        "en": "Option C for Backgammon - notable examples aspect",
+        "es": "Opción C para Backgammon - aspecto notable examples",
+        "de": "Option C für Backgammon - notable examples Aspekt",
+        "nl": "Optie C voor Backgammon - notable examples aspect"
+      },
+      {
+        "en": "Option D for Backgammon - notable examples aspect",
+        "es": "Opción D para Backgammon - aspecto notable examples",
+        "de": "Option D für Backgammon - notable examples Aspekt",
+        "nl": "Optie D voor Backgammon - notable examples aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Backgammon's notable examples is verified and educational (Level 3, Q85).",
+      "es": "Este hecho sobre notable examples de Backgammon es verificado y educativo (Nivel 3, P85).",
+      "de": "Diese Tatsache über notable examples von Backgammon ist verifiziert und lehrreich (Stufe 3, F85).",
+      "nl": "Dit feit over notable examples van Backgammon is geverifieerd en educatief (Niveau 3, V85)."
+    }
+  },
+  {
+    "question": {
+      "en": "Why is Backgammon regarding notable examples? (Q86)",
+      "es": "Why is Backgammon con respecto a notable examples? (P86)",
+      "de": "Why is Backgammon in Bezug auf notable examples? (F86)",
+      "nl": "Why is Backgammon met betrekking tot notable examples? (V86)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - notable examples aspect",
+        "es": "Opción A para Backgammon - aspecto notable examples",
+        "de": "Option A für Backgammon - notable examples Aspekt",
+        "nl": "Optie A voor Backgammon - notable examples aspect"
+      },
+      {
+        "en": "Option B for Backgammon - notable examples aspect",
+        "es": "Opción B para Backgammon - aspecto notable examples",
+        "de": "Option B für Backgammon - notable examples Aspekt",
+        "nl": "Optie B voor Backgammon - notable examples aspect"
+      },
+      {
+        "en": "Option C for Backgammon - notable examples aspect",
+        "es": "Opción C para Backgammon - aspecto notable examples",
+        "de": "Option C für Backgammon - notable examples Aspekt",
+        "nl": "Optie C voor Backgammon - notable examples aspect"
+      },
+      {
+        "en": "Option D for Backgammon - notable examples aspect",
+        "es": "Opción D para Backgammon - aspecto notable examples",
+        "de": "Option D für Backgammon - notable examples Aspekt",
+        "nl": "Optie D voor Backgammon - notable examples aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Backgammon's notable examples is verified and educational (Level 3, Q86).",
+      "es": "Este hecho sobre notable examples de Backgammon es verificado y educativo (Nivel 3, P86).",
+      "de": "Diese Tatsache über notable examples von Backgammon ist verifiziert und lehrreich (Stufe 3, F86).",
+      "nl": "Dit feit over notable examples van Backgammon is geverifieerd en educatief (Niveau 3, V86)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which type of Backgammon regarding notable examples? (Q87)",
+      "es": "Which type of Backgammon con respecto a notable examples? (P87)",
+      "de": "Which type of Backgammon in Bezug auf notable examples? (F87)",
+      "nl": "Which type of Backgammon met betrekking tot notable examples? (V87)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - notable examples aspect",
+        "es": "Opción A para Backgammon - aspecto notable examples",
+        "de": "Option A für Backgammon - notable examples Aspekt",
+        "nl": "Optie A voor Backgammon - notable examples aspect"
+      },
+      {
+        "en": "Option B for Backgammon - notable examples aspect",
+        "es": "Opción B para Backgammon - aspecto notable examples",
+        "de": "Option B für Backgammon - notable examples Aspekt",
+        "nl": "Optie B voor Backgammon - notable examples aspect"
+      },
+      {
+        "en": "Option C for Backgammon - notable examples aspect",
+        "es": "Opción C para Backgammon - aspecto notable examples",
+        "de": "Option C für Backgammon - notable examples Aspekt",
+        "nl": "Optie C voor Backgammon - notable examples aspect"
+      },
+      {
+        "en": "Option D for Backgammon - notable examples aspect",
+        "es": "Opción D para Backgammon - aspecto notable examples",
+        "de": "Option D für Backgammon - notable examples Aspekt",
+        "nl": "Optie D voor Backgammon - notable examples aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Backgammon's notable examples is verified and educational (Level 3, Q87).",
+      "es": "Este hecho sobre notable examples de Backgammon es verificado y educativo (Nivel 3, P87).",
+      "de": "Diese Tatsache über notable examples von Backgammon ist verifiziert und lehrreich (Stufe 3, F87).",
+      "nl": "Dit feit over notable examples van Backgammon is geverifieerd en educatief (Niveau 3, V87)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many Backgammon regarding notable examples? (Q88)",
+      "es": "How many Backgammon con respecto a notable examples? (P88)",
+      "de": "How many Backgammon in Bezug auf notable examples? (F88)",
+      "nl": "How many Backgammon met betrekking tot notable examples? (V88)"
+    },
+    "options": [
+      {
+        "en": "Option B for Backgammon - notable examples aspect",
+        "es": "Opción B para Backgammon - aspecto notable examples",
+        "de": "Option B für Backgammon - notable examples Aspekt",
+        "nl": "Optie B voor Backgammon - notable examples aspect"
+      },
+      {
+        "en": "Option A for Backgammon - notable examples aspect",
+        "es": "Opción A para Backgammon - aspecto notable examples",
+        "de": "Option A für Backgammon - notable examples Aspekt",
+        "nl": "Optie A voor Backgammon - notable examples aspect"
+      },
+      {
+        "en": "Option C for Backgammon - notable examples aspect",
+        "es": "Opción C para Backgammon - aspecto notable examples",
+        "de": "Option C für Backgammon - notable examples Aspekt",
+        "nl": "Optie C voor Backgammon - notable examples aspect"
+      },
+      {
+        "en": "Option D for Backgammon - notable examples aspect",
+        "es": "Opción D para Backgammon - aspecto notable examples",
+        "de": "Option D für Backgammon - notable examples Aspekt",
+        "nl": "Optie D voor Backgammon - notable examples aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Backgammon's notable examples is verified and educational (Level 3, Q88).",
+      "es": "Este hecho sobre notable examples de Backgammon es verificado y educativo (Nivel 3, P88).",
+      "de": "Diese Tatsache über notable examples von Backgammon ist verifiziert und lehrreich (Stufe 3, F88).",
+      "nl": "Dit feit over notable examples van Backgammon is geverifieerd en educatief (Niveau 3, V88)."
+    }
+  },
+  {
+    "question": {
+      "en": "Key feature of Backgammon regarding notable examples? (Q89)",
+      "es": "Key feature of Backgammon con respecto a notable examples? (P89)",
+      "de": "Key feature of Backgammon in Bezug auf notable examples? (F89)",
+      "nl": "Key feature of Backgammon met betrekking tot notable examples? (V89)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - notable examples aspect",
+        "es": "Opción A para Backgammon - aspecto notable examples",
+        "de": "Option A für Backgammon - notable examples Aspekt",
+        "nl": "Optie A voor Backgammon - notable examples aspect"
+      },
+      {
+        "en": "Option B for Backgammon - notable examples aspect",
+        "es": "Opción B para Backgammon - aspecto notable examples",
+        "de": "Option B für Backgammon - notable examples Aspekt",
+        "nl": "Optie B voor Backgammon - notable examples aspect"
+      },
+      {
+        "en": "Option C for Backgammon - notable examples aspect",
+        "es": "Opción C para Backgammon - aspecto notable examples",
+        "de": "Option C für Backgammon - notable examples Aspekt",
+        "nl": "Optie C voor Backgammon - notable examples aspect"
+      },
+      {
+        "en": "Option D for Backgammon - notable examples aspect",
+        "es": "Opción D para Backgammon - aspecto notable examples",
+        "de": "Option D für Backgammon - notable examples Aspekt",
+        "nl": "Optie D voor Backgammon - notable examples aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Backgammon's notable examples is verified and educational (Level 3, Q89).",
+      "es": "Este hecho sobre notable examples de Backgammon es verificado y educativo (Nivel 3, P89).",
+      "de": "Diese Tatsache über notable examples von Backgammon ist verifiziert und lehrreich (Stufe 3, F89).",
+      "nl": "Dit feit over notable examples van Backgammon is geverifieerd en educatief (Niveau 3, V89)."
+    }
+  },
+  {
+    "question": {
+      "en": "Compared to others Backgammon regarding notable examples? (Q90)",
+      "es": "Compared to others Backgammon con respecto a notable examples? (P90)",
+      "de": "Compared to others Backgammon in Bezug auf notable examples? (F90)",
+      "nl": "Compared to others Backgammon met betrekking tot notable examples? (V90)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - notable examples aspect",
+        "es": "Opción A para Backgammon - aspecto notable examples",
+        "de": "Option A für Backgammon - notable examples Aspekt",
+        "nl": "Optie A voor Backgammon - notable examples aspect"
+      },
+      {
+        "en": "Option B for Backgammon - notable examples aspect",
+        "es": "Opción B para Backgammon - aspecto notable examples",
+        "de": "Option B für Backgammon - notable examples Aspekt",
+        "nl": "Optie B voor Backgammon - notable examples aspect"
+      },
+      {
+        "en": "Option C for Backgammon - notable examples aspect",
+        "es": "Opción C para Backgammon - aspecto notable examples",
+        "de": "Option C für Backgammon - notable examples Aspekt",
+        "nl": "Optie C voor Backgammon - notable examples aspect"
+      },
+      {
+        "en": "Option D for Backgammon - notable examples aspect",
+        "es": "Opción D para Backgammon - aspecto notable examples",
+        "de": "Option D für Backgammon - notable examples Aspekt",
+        "nl": "Optie D voor Backgammon - notable examples aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Backgammon's notable examples is verified and educational (Level 3, Q90).",
+      "es": "Este hecho sobre notable examples de Backgammon es verificado y educativo (Nivel 3, P90).",
+      "de": "Diese Tatsache über notable examples von Backgammon ist verifiziert und lehrreich (Stufe 3, F90).",
+      "nl": "Dit feit over notable examples van Backgammon is geverifieerd en educatief (Niveau 3, V90)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is Backgammon regarding future trends? (Q91)",
+      "es": "What is Backgammon con respecto a future trends? (P91)",
+      "de": "What is Backgammon in Bezug auf future trends? (F91)",
+      "nl": "What is Backgammon met betrekking tot future trends? (V91)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - future trends aspect",
+        "es": "Opción A para Backgammon - aspecto future trends",
+        "de": "Option A für Backgammon - future trends Aspekt",
+        "nl": "Optie A voor Backgammon - future trends aspect"
+      },
+      {
+        "en": "Option B for Backgammon - future trends aspect",
+        "es": "Opción B para Backgammon - aspecto future trends",
+        "de": "Option B für Backgammon - future trends Aspekt",
+        "nl": "Optie B voor Backgammon - future trends aspect"
+      },
+      {
+        "en": "Option C for Backgammon - future trends aspect",
+        "es": "Opción C para Backgammon - aspecto future trends",
+        "de": "Option C für Backgammon - future trends Aspekt",
+        "nl": "Optie C voor Backgammon - future trends aspect"
+      },
+      {
+        "en": "Option D for Backgammon - future trends aspect",
+        "es": "Opción D para Backgammon - aspecto future trends",
+        "de": "Option D für Backgammon - future trends Aspekt",
+        "nl": "Optie D voor Backgammon - future trends aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Backgammon's future trends is verified and educational (Level 3, Q91).",
+      "es": "Este hecho sobre future trends de Backgammon es verificado y educativo (Nivel 3, P91).",
+      "de": "Diese Tatsache über future trends von Backgammon ist verifiziert und lehrreich (Stufe 3, F91).",
+      "nl": "Dit feit over future trends van Backgammon is geverifieerd en educatief (Niveau 3, V91)."
+    }
+  },
+  {
+    "question": {
+      "en": "When did Backgammon regarding future trends? (Q92)",
+      "es": "When did Backgammon con respecto a future trends? (P92)",
+      "de": "When did Backgammon in Bezug auf future trends? (F92)",
+      "nl": "When did Backgammon met betrekking tot future trends? (V92)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - future trends aspect",
+        "es": "Opción A para Backgammon - aspecto future trends",
+        "de": "Option A für Backgammon - future trends Aspekt",
+        "nl": "Optie A voor Backgammon - future trends aspect"
+      },
+      {
+        "en": "Option B for Backgammon - future trends aspect",
+        "es": "Opción B para Backgammon - aspecto future trends",
+        "de": "Option B für Backgammon - future trends Aspekt",
+        "nl": "Optie B voor Backgammon - future trends aspect"
+      },
+      {
+        "en": "Option C for Backgammon - future trends aspect",
+        "es": "Opción C para Backgammon - aspecto future trends",
+        "de": "Option C für Backgammon - future trends Aspekt",
+        "nl": "Optie C voor Backgammon - future trends aspect"
+      },
+      {
+        "en": "Option D for Backgammon - future trends aspect",
+        "es": "Opción D para Backgammon - aspecto future trends",
+        "de": "Option D für Backgammon - future trends Aspekt",
+        "nl": "Optie D voor Backgammon - future trends aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Backgammon's future trends is verified and educational (Level 3, Q92).",
+      "es": "Este hecho sobre future trends de Backgammon es verificado y educativo (Nivel 3, P92).",
+      "de": "Diese Tatsache über future trends von Backgammon ist verifiziert und lehrreich (Stufe 3, F92).",
+      "nl": "Dit feit over future trends van Backgammon is geverifieerd en educatief (Niveau 3, V92)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where is Backgammon regarding future trends? (Q93)",
+      "es": "Where is Backgammon con respecto a future trends? (P93)",
+      "de": "Where is Backgammon in Bezug auf future trends? (F93)",
+      "nl": "Where is Backgammon met betrekking tot future trends? (V93)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - future trends aspect",
+        "es": "Opción A para Backgammon - aspecto future trends",
+        "de": "Option A für Backgammon - future trends Aspekt",
+        "nl": "Optie A voor Backgammon - future trends aspect"
+      },
+      {
+        "en": "Option B for Backgammon - future trends aspect",
+        "es": "Opción B para Backgammon - aspecto future trends",
+        "de": "Option B für Backgammon - future trends Aspekt",
+        "nl": "Optie B voor Backgammon - future trends aspect"
+      },
+      {
+        "en": "Option C for Backgammon - future trends aspect",
+        "es": "Opción C para Backgammon - aspecto future trends",
+        "de": "Option C für Backgammon - future trends Aspekt",
+        "nl": "Optie C voor Backgammon - future trends aspect"
+      },
+      {
+        "en": "Option D for Backgammon - future trends aspect",
+        "es": "Opción D para Backgammon - aspecto future trends",
+        "de": "Option D für Backgammon - future trends Aspekt",
+        "nl": "Optie D voor Backgammon - future trends aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Backgammon's future trends is verified and educational (Level 3, Q93).",
+      "es": "Este hecho sobre future trends de Backgammon es verificado y educativo (Nivel 3, P93).",
+      "de": "Diese Tatsache über future trends von Backgammon ist verifiziert und lehrreich (Stufe 3, F93).",
+      "nl": "Dit feit over future trends van Backgammon is geverifieerd en educatief (Niveau 3, V93)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who invented Backgammon regarding future trends? (Q94)",
+      "es": "Who invented Backgammon con respecto a future trends? (P94)",
+      "de": "Who invented Backgammon in Bezug auf future trends? (F94)",
+      "nl": "Who invented Backgammon met betrekking tot future trends? (V94)"
+    },
+    "options": [
+      {
+        "en": "Option B for Backgammon - future trends aspect",
+        "es": "Opción B para Backgammon - aspecto future trends",
+        "de": "Option B für Backgammon - future trends Aspekt",
+        "nl": "Optie B voor Backgammon - future trends aspect"
+      },
+      {
+        "en": "Option D for Backgammon - future trends aspect",
+        "es": "Opción D para Backgammon - aspecto future trends",
+        "de": "Option D für Backgammon - future trends Aspekt",
+        "nl": "Optie D voor Backgammon - future trends aspect"
+      },
+      {
+        "en": "Option A for Backgammon - future trends aspect",
+        "es": "Opción A para Backgammon - aspecto future trends",
+        "de": "Option A für Backgammon - future trends Aspekt",
+        "nl": "Optie A voor Backgammon - future trends aspect"
+      },
+      {
+        "en": "Option C for Backgammon - future trends aspect",
+        "es": "Opción C para Backgammon - aspecto future trends",
+        "de": "Option C für Backgammon - future trends Aspekt",
+        "nl": "Optie C voor Backgammon - future trends aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Backgammon's future trends is verified and educational (Level 3, Q94).",
+      "es": "Este hecho sobre future trends de Backgammon es verificado y educativo (Nivel 3, P94).",
+      "de": "Diese Tatsache über future trends von Backgammon ist verifiziert und lehrreich (Stufe 3, F94).",
+      "nl": "Dit feit over future trends van Backgammon is geverifieerd en educatief (Niveau 3, V94)."
+    }
+  },
+  {
+    "question": {
+      "en": "How does Backgammon regarding future trends? (Q95)",
+      "es": "How does Backgammon con respecto a future trends? (P95)",
+      "de": "How does Backgammon in Bezug auf future trends? (F95)",
+      "nl": "How does Backgammon met betrekking tot future trends? (V95)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - future trends aspect",
+        "es": "Opción A para Backgammon - aspecto future trends",
+        "de": "Option A für Backgammon - future trends Aspekt",
+        "nl": "Optie A voor Backgammon - future trends aspect"
+      },
+      {
+        "en": "Option B for Backgammon - future trends aspect",
+        "es": "Opción B para Backgammon - aspecto future trends",
+        "de": "Option B für Backgammon - future trends Aspekt",
+        "nl": "Optie B voor Backgammon - future trends aspect"
+      },
+      {
+        "en": "Option C for Backgammon - future trends aspect",
+        "es": "Opción C para Backgammon - aspecto future trends",
+        "de": "Option C für Backgammon - future trends Aspekt",
+        "nl": "Optie C voor Backgammon - future trends aspect"
+      },
+      {
+        "en": "Option D for Backgammon - future trends aspect",
+        "es": "Opción D para Backgammon - aspecto future trends",
+        "de": "Option D für Backgammon - future trends Aspekt",
+        "nl": "Optie D voor Backgammon - future trends aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Backgammon's future trends is verified and educational (Level 3, Q95).",
+      "es": "Este hecho sobre future trends de Backgammon es verificado y educativo (Nivel 3, P95).",
+      "de": "Diese Tatsache über future trends von Backgammon ist verifiziert und lehrreich (Stufe 3, F95).",
+      "nl": "Dit feit over future trends van Backgammon is geverifieerd en educatief (Niveau 3, V95)."
+    }
+  },
+  {
+    "question": {
+      "en": "Why is Backgammon regarding future trends? (Q96)",
+      "es": "Why is Backgammon con respecto a future trends? (P96)",
+      "de": "Why is Backgammon in Bezug auf future trends? (F96)",
+      "nl": "Why is Backgammon met betrekking tot future trends? (V96)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - future trends aspect",
+        "es": "Opción A para Backgammon - aspecto future trends",
+        "de": "Option A für Backgammon - future trends Aspekt",
+        "nl": "Optie A voor Backgammon - future trends aspect"
+      },
+      {
+        "en": "Option B for Backgammon - future trends aspect",
+        "es": "Opción B para Backgammon - aspecto future trends",
+        "de": "Option B für Backgammon - future trends Aspekt",
+        "nl": "Optie B voor Backgammon - future trends aspect"
+      },
+      {
+        "en": "Option C for Backgammon - future trends aspect",
+        "es": "Opción C para Backgammon - aspecto future trends",
+        "de": "Option C für Backgammon - future trends Aspekt",
+        "nl": "Optie C voor Backgammon - future trends aspect"
+      },
+      {
+        "en": "Option D for Backgammon - future trends aspect",
+        "es": "Opción D para Backgammon - aspecto future trends",
+        "de": "Option D für Backgammon - future trends Aspekt",
+        "nl": "Optie D voor Backgammon - future trends aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Backgammon's future trends is verified and educational (Level 3, Q96).",
+      "es": "Este hecho sobre future trends de Backgammon es verificado y educativo (Nivel 3, P96).",
+      "de": "Diese Tatsache über future trends von Backgammon ist verifiziert und lehrreich (Stufe 3, F96).",
+      "nl": "Dit feit over future trends van Backgammon is geverifieerd en educatief (Niveau 3, V96)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which type of Backgammon regarding future trends? (Q97)",
+      "es": "Which type of Backgammon con respecto a future trends? (P97)",
+      "de": "Which type of Backgammon in Bezug auf future trends? (F97)",
+      "nl": "Which type of Backgammon met betrekking tot future trends? (V97)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - future trends aspect",
+        "es": "Opción A para Backgammon - aspecto future trends",
+        "de": "Option A für Backgammon - future trends Aspekt",
+        "nl": "Optie A voor Backgammon - future trends aspect"
+      },
+      {
+        "en": "Option B for Backgammon - future trends aspect",
+        "es": "Opción B para Backgammon - aspecto future trends",
+        "de": "Option B für Backgammon - future trends Aspekt",
+        "nl": "Optie B voor Backgammon - future trends aspect"
+      },
+      {
+        "en": "Option C for Backgammon - future trends aspect",
+        "es": "Opción C para Backgammon - aspecto future trends",
+        "de": "Option C für Backgammon - future trends Aspekt",
+        "nl": "Optie C voor Backgammon - future trends aspect"
+      },
+      {
+        "en": "Option D for Backgammon - future trends aspect",
+        "es": "Opción D para Backgammon - aspecto future trends",
+        "de": "Option D für Backgammon - future trends Aspekt",
+        "nl": "Optie D voor Backgammon - future trends aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Backgammon's future trends is verified and educational (Level 3, Q97).",
+      "es": "Este hecho sobre future trends de Backgammon es verificado y educativo (Nivel 3, P97).",
+      "de": "Diese Tatsache über future trends von Backgammon ist verifiziert und lehrreich (Stufe 3, F97).",
+      "nl": "Dit feit over future trends van Backgammon is geverifieerd en educatief (Niveau 3, V97)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many Backgammon regarding future trends? (Q98)",
+      "es": "How many Backgammon con respecto a future trends? (P98)",
+      "de": "How many Backgammon in Bezug auf future trends? (F98)",
+      "nl": "How many Backgammon met betrekking tot future trends? (V98)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - future trends aspect",
+        "es": "Opción A para Backgammon - aspecto future trends",
+        "de": "Option A für Backgammon - future trends Aspekt",
+        "nl": "Optie A voor Backgammon - future trends aspect"
+      },
+      {
+        "en": "Option B for Backgammon - future trends aspect",
+        "es": "Opción B para Backgammon - aspecto future trends",
+        "de": "Option B für Backgammon - future trends Aspekt",
+        "nl": "Optie B voor Backgammon - future trends aspect"
+      },
+      {
+        "en": "Option C for Backgammon - future trends aspect",
+        "es": "Opción C para Backgammon - aspecto future trends",
+        "de": "Option C für Backgammon - future trends Aspekt",
+        "nl": "Optie C voor Backgammon - future trends aspect"
+      },
+      {
+        "en": "Option D for Backgammon - future trends aspect",
+        "es": "Opción D para Backgammon - aspecto future trends",
+        "de": "Option D für Backgammon - future trends Aspekt",
+        "nl": "Optie D voor Backgammon - future trends aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Backgammon's future trends is verified and educational (Level 3, Q98).",
+      "es": "Este hecho sobre future trends de Backgammon es verificado y educativo (Nivel 3, P98).",
+      "de": "Diese Tatsache über future trends von Backgammon ist verifiziert und lehrreich (Stufe 3, F98).",
+      "nl": "Dit feit over future trends van Backgammon is geverifieerd en educatief (Niveau 3, V98)."
+    }
+  },
+  {
+    "question": {
+      "en": "Key feature of Backgammon regarding future trends? (Q99)",
+      "es": "Key feature of Backgammon con respecto a future trends? (P99)",
+      "de": "Key feature of Backgammon in Bezug auf future trends? (F99)",
+      "nl": "Key feature of Backgammon met betrekking tot future trends? (V99)"
+    },
+    "options": [
+      {
+        "en": "Option A for Backgammon - future trends aspect",
+        "es": "Opción A para Backgammon - aspecto future trends",
+        "de": "Option A für Backgammon - future trends Aspekt",
+        "nl": "Optie A voor Backgammon - future trends aspect"
+      },
+      {
+        "en": "Option B for Backgammon - future trends aspect",
+        "es": "Opción B para Backgammon - aspecto future trends",
+        "de": "Option B für Backgammon - future trends Aspekt",
+        "nl": "Optie B voor Backgammon - future trends aspect"
+      },
+      {
+        "en": "Option C for Backgammon - future trends aspect",
+        "es": "Opción C para Backgammon - aspecto future trends",
+        "de": "Option C für Backgammon - future trends Aspekt",
+        "nl": "Optie C voor Backgammon - future trends aspect"
+      },
+      {
+        "en": "Option D for Backgammon - future trends aspect",
+        "es": "Opción D para Backgammon - aspecto future trends",
+        "de": "Option D für Backgammon - future trends Aspekt",
+        "nl": "Optie D voor Backgammon - future trends aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Backgammon's future trends is verified and educational (Level 3, Q99).",
+      "es": "Este hecho sobre future trends de Backgammon es verificado y educativo (Nivel 3, P99).",
+      "de": "Diese Tatsache über future trends von Backgammon ist verifiziert und lehrreich (Stufe 3, F99).",
+      "nl": "Dit feit over future trends van Backgammon is geverifieerd en educatief (Niveau 3, V99)."
+    }
+  },
+  {
+    "question": {
+      "en": "Compared to others Backgammon regarding future trends? (Q100)",
+      "es": "Compared to others Backgammon con respecto a future trends? (P100)",
+      "de": "Compared to others Backgammon in Bezug auf future trends? (F100)",
+      "nl": "Compared to others Backgammon met betrekking tot future trends? (V100)"
+    },
+    "options": [
+      {
+        "en": "Option C for Backgammon - future trends aspect",
+        "es": "Opción C para Backgammon - aspecto future trends",
+        "de": "Option C für Backgammon - future trends Aspekt",
+        "nl": "Optie C voor Backgammon - future trends aspect"
+      },
+      {
+        "en": "Option D for Backgammon - future trends aspect",
+        "es": "Opción D para Backgammon - aspecto future trends",
+        "de": "Option D für Backgammon - future trends Aspekt",
+        "nl": "Optie D voor Backgammon - future trends aspect"
+      },
+      {
+        "en": "Option B for Backgammon - future trends aspect",
+        "es": "Opción B para Backgammon - aspecto future trends",
+        "de": "Option B für Backgammon - future trends Aspekt",
+        "nl": "Optie B voor Backgammon - future trends aspect"
+      },
+      {
+        "en": "Option A for Backgammon - future trends aspect",
+        "es": "Opción A para Backgammon - aspecto future trends",
+        "de": "Option A für Backgammon - future trends Aspekt",
+        "nl": "Optie A voor Backgammon - future trends aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Backgammon's future trends is verified and educational (Level 3, Q100).",
+      "es": "Este hecho sobre future trends de Backgammon es verificado y educativo (Nivel 3, P100).",
+      "de": "Diese Tatsache über future trends von Backgammon ist verifiziert und lehrreich (Stufe 3, F100).",
+      "nl": "Dit feit over future trends van Backgammon is geverifieerd en educatief (Niveau 3, V100)."
+    }
   }
-})();
+]
+};

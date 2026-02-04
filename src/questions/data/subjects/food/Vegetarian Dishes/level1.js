@@ -1,691 +1,4104 @@
-// Vegetarian Dishes Quiz - Level 1: Basic Vegetarian Knowledge & Common Dishes
-(function() {
-  "use strict";
-  const level1 = {
-    name: {
-      en: "Vegetarian Level 1",
-      es: "Vegetariano Nivel 1",
-      de: "Vegetarisch Stufe 1",
-      nl: "Vegetarisch Level 1"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Vegetarian Dishes",
+      "es": "Pregunta 1 sobre Vegetarian Dishes",
+      "de": "Frage 1 über Vegetarian Dishes",
+      "nl": "Vraag 1 over Vegetarian Dishes"
     },
-    questions: [
+    "options": [
       {
-        question: {
-          en: "What is a vegetarian diet?",
-          es: "¿Qué es una dieta vegetariana?",
-          de: "Was ist eine vegetarische Ernährung?",
-          nl: "Wat is een vegetarisch dieet?"
-        },
-        options: [
-          { en: "A diet that excludes meat, fish, and poultry", es: "Una dieta que excluye carne, pescado y aves", de: "Eine Ernährung, die Fleisch, Fisch und Geflügel ausschließt", nl: "Een dieet dat vlees, vis en gevogelte uitsluit" },
-          { en: "A diet that only includes vegetables", es: "Una dieta que solo incluye verduras", de: "Eine Ernährung, die nur Gemüse enthält", nl: "Een dieet dat alleen groenten bevat" },
-          { en: "A diet for weight loss", es: "Una dieta para perder peso", de: "Eine Diät zum Abnehmen", nl: "Een dieet voor gewichtsverlies" },
-          { en: "A diet without dairy products", es: "Una dieta sin productos lácteos", de: "Eine Ernährung ohne Milchprodukte", nl: "Een dieet zonder zuivelproducten" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "A vegetarian diet excludes meat, fish, and poultry, but may include dairy products and eggs. There are different types of vegetarian diets with varying restrictions.",
-          es: "Una dieta vegetariana excluye carne, pescado y aves, pero puede incluir productos lácteos y huevos. Hay diferentes tipos de dietas vegetarianas con diversas restricciones.",
-          de: "Eine vegetarische Ernährung schließt Fleisch, Fisch und Geflügel aus, kann aber Milchprodukte und Eier enthalten. Es gibt verschiedene Arten vegetarischer Ernährung mit unterschiedlichen Einschränkungen.",
-          nl: "Een vegetarisch dieet sluit vlees, vis en gevogelte uit, maar kan wel zuivelproducten en eieren bevatten. Er zijn verschillende soorten vegetarische diëten met verschillende beperkingen."
-        }
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
       },
       {
-        question: {
-          en: "Which of these is a common vegetarian protein source?",
-          es: "¿Cuál de estos es una fuente común de proteína vegetariana?",
-          de: "Welches davon ist eine häufige vegetarische Proteinquelle?",
-          nl: "Welke van deze is een veelvoorkomende vegetarische eiwitbron?"
-        },
-        options: [
-          { en: "Lentils", es: "Lentejas", de: "Linsen", nl: "Linzen" },
-          { en: "Chicken", es: "Pollo", de: "Huhn", nl: "Kip" },
-          { en: "Salmon", es: "Salmón", de: "Lachs", nl: "Zalm" },
-          { en: "Beef", es: "Carne de res", de: "Rindfleisch", nl: "Rundvlees" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Lentils are an excellent plant-based protein source, providing about 18 grams of protein per cooked cup. They're also rich in fiber, folate, and iron.",
-          es: "Las lentejas son una excelente fuente de proteína vegetal, proporcionando aproximadamente 18 gramos de proteína por taza cocida. También son ricas en fibra, folato y hierro.",
-          de: "Linsen sind eine ausgezeichnete pflanzliche Proteinquelle und liefern etwa 18 Gramm Protein pro gekochte Tasse. Sie sind auch reich an Ballaststoffen, Folsäure und Eisen.",
-          nl: "Linzen zijn een uitstekende plantaardige eiwitbron en leveren ongeveer 18 gram eiwit per gekookte kop. Ze zijn ook rijk aan vezels, folaat en ijzer."
-        }
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
       },
       {
-        question: {
-          en: "What is tofu made from?",
-          es: "¿De qué está hecho el tofu?",
-          de: "Woraus wird Tofu hergestellt?",
-          nl: "Waar wordt tofu van gemaakt?"
-        },
-        options: [
-          { en: "Soybeans", es: "Soja", de: "Sojabohnen", nl: "Sojabonen" },
-          { en: "Rice", es: "Arroz", de: "Reis", nl: "Rijst" },
-          { en: "Wheat", es: "Trigo", de: "Weizen", nl: "Tarwe" },
-          { en: "Corn", es: "Maíz", de: "Mais", nl: "Maïs" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Tofu is made from soybeans by coagulating soy milk and pressing the resulting curds into blocks. It's a versatile protein source that absorbs flavors well.",
-          es: "El tofu se hace de soja coagulando la leche de soja y prensando los cuajos resultantes en bloques. Es una fuente de proteína versátil que absorbe bien los sabores.",
-          de: "Tofu wird aus Sojabohnen hergestellt, indem Sojamilch koaguliert und die entstehenden Quark zu Blöcken gepresst wird. Es ist eine vielseitige Proteinquelle, die Aromen gut aufnimmt.",
-          nl: "Tofu wordt gemaakt van sojabonen door sojamelk te coaguleren en de resulterende wrongel in blokken te persen. Het is een veelzijdige eiwitbron die smaken goed opneemt."
-        }
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
       },
       {
-        question: {
-          en: "Which vegetable is often used as a meat substitute due to its texture?",
-          es: "¿Qué verdura se usa a menudo como sustituto de la carne debido a su textura?",
-          de: "Welches Gemüse wird aufgrund seiner Textur oft als Fleischersatz verwendet?",
-          nl: "Welke groente wordt vaak als vleesvervanger gebruikt vanwege de textuur?"
-        },
-        options: [
-          { en: "Mushrooms", es: "Hongos", de: "Pilze", nl: "Paddenstoelen" },
-          { en: "Carrots", es: "Zanahorias", de: "Karotten", nl: "Wortelen" },
-          { en: "Lettuce", es: "Lechuga", de: "Salat", nl: "Sla" },
-          { en: "Tomatoes", es: "Tomates", de: "Tomaten", nl: "Tomaten" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Mushrooms, especially portobello and shiitake varieties, have a meaty texture and umami flavor that makes them excellent meat substitutes in many dishes.",
-          es: "Los hongos, especialmente las variedades portobello y shiitake, tienen una textura carnosa y sabor umami que los hace excelentes sustitutos de la carne en muchos platos.",
-          de: "Pilze, besonders Portobello- und Shiitake-Sorten, haben eine fleischige Textur und Umami-Geschmack, die sie zu ausgezeichneten Fleischersatz in vielen Gerichten machen.",
-          nl: "Paddenstoelen, vooral portobello en shiitake variëteiten, hebben een vleesachtige textuur en umami smaak die ze uitstekende vleesvervanger maken in veel gerechten."
-        }
-      },
-      {
-        question: {
-          en: "What is a popular vegetarian pasta dish from Italy?",
-          es: "¿Cuál es un plato popular de pasta vegetariana de Italia?",
-          de: "Was ist ein beliebtes vegetarisches Nudelgericht aus Italien?",
-          nl: "Wat is een populair vegetarisch pastagerecht uit Italië?"
-        },
-        options: [
-          { en: "Pasta Primavera", es: "Pasta Primavera", de: "Pasta Primavera", nl: "Pasta Primavera" },
-          { en: "Spaghetti Carbonara", es: "Espagueti Carbonara", de: "Spaghetti Carbonara", nl: "Spaghetti Carbonara" },
-          { en: "Pasta Bolognese", es: "Pasta Boloñesa", de: "Pasta Bolognese", nl: "Pasta Bolognese" },
-          { en: "Pasta with Clam Sauce", es: "Pasta con Salsa de Almejas", de: "Pasta mit Muschelsoße", nl: "Pasta met Mosselsaus" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Pasta Primavera features fresh seasonal vegetables like bell peppers, zucchini, broccoli, and tomatoes in a light sauce, making it a perfect vegetarian dish.",
-          es: "La Pasta Primavera presenta verduras frescas de temporada como pimientos, calabacín, brócoli y tomates en una salsa ligera, haciéndola un plato vegetariano perfecto.",
-          de: "Pasta Primavera enthält frisches Saisongemüse wie Paprika, Zucchini, Brokkoli und Tomaten in einer leichten Sauce, was es zu einem perfekten vegetarischen Gericht macht.",
-          nl: "Pasta Primavera bevat verse seizoensgroenten zoals paprika's, courgette, broccoli en tomaten in een lichte saus, wat het een perfect vegetarisch gerecht maakt."
-        }
-      },
-      {
-        question: {
-          en: "Which grain is naturally gluten-free and high in protein?",
-          es: "¿Qué grano es naturalmente libre de gluten y alto en proteína?",
-          de: "Welches Getreide ist von Natur aus glutenfrei und proteinreich?",
-          nl: "Welk graan is van nature glutenvrij en rijk aan eiwit?"
-        },
-        options: [
-          { en: "Quinoa", es: "Quinoa", de: "Quinoa", nl: "Quinoa" },
-          { en: "Wheat", es: "Trigo", de: "Weizen", nl: "Tarwe" },
-          { en: "Barley", es: "Cebada", de: "Gerste", nl: "Gerst" },
-          { en: "Rye", es: "Centeno", de: "Roggen", nl: "Rogge" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Quinoa is a complete protein containing all essential amino acids and is naturally gluten-free. It's technically a seed but used like a grain in cooking.",
-          es: "La quinoa es una proteína completa que contiene todos los aminoácidos esenciales y es naturalmente libre de gluten. Técnicamente es una semilla pero se usa como un grano en la cocina.",
-          de: "Quinoa ist ein vollständiges Protein, das alle essentiellen Aminosäuren enthält und von Natur aus glutenfrei ist. Technisch ist es ein Samen, wird aber wie Getreide beim Kochen verwendet.",
-          nl: "Quinoa is een compleet eiwit dat alle essentiële aminozuren bevat en is van nature glutenvrij. Het is technisch gezien een zaad maar wordt gebruikt als graan bij het koken."
-        }
-      },
-      {
-        question: {
-          en: "What is a traditional vegetarian dish from India?",
-          es: "¿Cuál es un plato vegetariano tradicional de la India?",
-          de: "Was ist ein traditionelles vegetarisches Gericht aus Indien?",
-          nl: "Wat is een traditioneel vegetarisch gerecht uit India?"
-        },
-        options: [
-          { en: "Dal (lentil curry)", es: "Dal (curry de lentejas)", de: "Dal (Linsencurry)", nl: "Dal (linzencurry)" },
-          { en: "Chicken Tikka Masala", es: "Pollo Tikka Masala", de: "Chicken Tikka Masala", nl: "Kip Tikka Masala" },
-          { en: "Fish Curry", es: "Curry de Pescado", de: "Fischcurry", nl: "Viscurry" },
-          { en: "Lamb Biryani", es: "Biryani de Cordero", de: "Lamm Biryani", nl: "Lamsvlees Biryani" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Dal is a staple dish in Indian cuisine made from various types of lentils, peas, or beans cooked with spices. It's protein-rich and completely vegetarian.",
-          es: "El Dal es un plato básico en la cocina india hecho de varios tipos de lentejas, guisantes o frijoles cocidos con especias. Es rico en proteína y completamente vegetariano.",
-          de: "Dal ist ein Grundnahrungsmittel der indischen Küche, das aus verschiedenen Arten von Linsen, Erbsen oder Bohnen mit Gewürzen gekocht wird. Es ist proteinreich und vollständig vegetarisch.",
-          nl: "Dal is een basisgerecht in de Indiase keuken gemaakt van verschillende soorten linzen, erwten of bonen gekookt met kruiden. Het is eiwitrijk en volledig vegetarisch."
-        }
-      },
-      {
-        question: {
-          en: "Which of these vegetables is highest in iron?",
-          es: "¿Cuál de estas verduras tiene más hierro?",
-          de: "Welches dieser Gemüse hat den höchsten Eisengehalt?",
-          nl: "Welke van deze groenten heeft het hoogste ijzergehalte?"
-        },
-        options: [
-          { en: "Spinach", es: "Espinacas", de: "Spinat", nl: "Spinazie" },
-          { en: "Cucumber", es: "Pepino", de: "Gurke", nl: "Komkommer" },
-          { en: "Celery", es: "Apio", de: "Sellerie", nl: "Selderij" },
-          { en: "Lettuce", es: "Lechuga", de: "Salat", nl: "Sla" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Spinach is one of the best plant-based sources of iron, providing about 6.4mg per cooked cup. Iron is essential for vegetarians to prevent anemia.",
-          es: "Las espinacas son una de las mejores fuentes vegetales de hierro, proporcionando aproximadamente 6.4mg por taza cocida. El hierro es esencial para los vegetarianos para prevenir la anemia.",
-          de: "Spinat ist eine der besten pflanzlichen Eisenquellen und liefert etwa 6,4 mg pro gekochte Tasse. Eisen ist für Vegetarier wichtig, um Anämie zu verhindern.",
-          nl: "Spinazie is een van de beste plantaardige ijzerbronnen en levert ongeveer 6,4 mg per gekookte kop. IJzer is essentieel voor vegetariërs om bloedarmoede te voorkomen."
-        }
-      },
-      {
-        question: {
-          en: "What is hummus made from?",
-          es: "¿De qué está hecho el hummus?",
-          de: "Woraus wird Hummus hergestellt?",
-          nl: "Waar wordt hummus van gemaakt?"
-        },
-        options: [
-          { en: "Chickpeas", es: "Garbanzos", de: "Kichererbsen", nl: "Kikkererwten" },
-          { en: "White beans", es: "Frijoles blancos", de: "Weiße Bohnen", nl: "Witte bonen" },
-          { en: "Black beans", es: "Frijoles negros", de: "Schwarze Bohnen", nl: "Zwarte bonen" },
-          { en: "Kidney beans", es: "Frijoles rojos", de: "Kidneybohnen", nl: "Kidneybonen" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Traditional hummus is made from cooked chickpeas blended with tahini, lemon juice, garlic, and olive oil. It's a protein-rich Middle Eastern dip.",
-          es: "El hummus tradicional está hecho de garbanzos cocidos mezclados con tahini, jugo de limón, ajo y aceite de oliva. Es un dip del Medio Oriente rico en proteína.",
-          de: "Traditioneller Hummus wird aus gekochten Kichererbsen hergestellt, die mit Tahini, Zitronensaft, Knoblauch und Olivenöl vermischt werden. Es ist ein proteinreicher nahöstlicher Dip.",
-          nl: "Traditionele hummus wordt gemaakt van gekookte kikkererwten gemengd met tahini, citroensap, knoflook en olijfolie. Het is een eiwitrijke Midden-Oosterse dip."
-        }
-      },
-      {
-        question: {
-          en: "Which cooking method is best for preserving nutrients in vegetables?",
-          es: "¿Qué método de cocción es mejor para preservar los nutrientes en las verduras?",
-          de: "Welche Kochmethode ist am besten, um Nährstoffe in Gemüse zu bewahren?",
-          nl: "Welke kookmethode is het beste voor het behouden van voedingsstoffen in groenten?"
-        },
-        options: [
-          { en: "Steaming", es: "Cocinar al vapor", de: "Dampfgaren", nl: "Stomen" },
-          { en: "Boiling for long periods", es: "Hervir por períodos largos", de: "Langes Kochen", nl: "Lang koken" },
-          { en: "Deep frying", es: "Freír en aceite abundante", de: "Frittieren", nl: "Frituren" },
-          { en: "Soaking in water", es: "Remojar en agua", de: "In Wasser einweichen", nl: "Weken in water" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Steaming preserves the most nutrients as vegetables don't come in direct contact with water, preventing water-soluble vitamins from leaching out.",
-          es: "Cocinar al vapor preserva la mayor cantidad de nutrientes ya que las verduras no entran en contacto directo con agua, evitando que las vitaminas solubles en agua se pierdan.",
-          de: "Dampfgaren bewahrt die meisten Nährstoffe, da Gemüse nicht direkt mit Wasser in Kontakt kommt, wodurch das Auslaugen wasserlöslicher Vitamine verhindert wird.",
-          nl: "Stomen behoudt de meeste voedingsstoffen omdat groenten niet direct in contact komen met water, waardoor wordt voorkomen dat in water oplosbare vitamines weglekken."
-        }
-      },
-      {
-        question: {
-          en: "What is tempeh?",
-          es: "¿Qué es el tempeh?",
-          de: "Was ist Tempeh?",
-          nl: "Wat is tempeh?"
-        },
-        options: [
-          { en: "Fermented soybeans", es: "Soja fermentada", de: "Fermentierte Sojabohnen", nl: "Gefermenteerde sojabonen" },
-          { en: "Seasoned tofu", es: "Tofu sazonado", de: "Gewürzter Tofu", nl: "Gekruide tofu" },
-          { en: "A type of seaweed", es: "Un tipo de alga marina", de: "Eine Art Seetang", nl: "Een soort zeewier" },
-          { en: "Wheat gluten", es: "Gluten de trigo", de: "Weizengluten", nl: "Tarwegluten" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Tempeh is a traditional Indonesian food made from fermented soybeans. It has a nutty flavor and firm texture, and is rich in protein and probiotics.",
-          es: "El tempeh es un alimento tradicional indonesio hecho de soja fermentada. Tiene un sabor a nuez y textura firme, y es rico en proteína y probióticos.",
-          de: "Tempeh ist ein traditionelles indonesisches Lebensmittel aus fermentierten Sojabohnen. Es hat einen nussigen Geschmack und feste Textur und ist reich an Protein und Probiotika.",
-          nl: "Tempeh is een traditioneel Indonesisch voedsel gemaakt van gefermenteerde sojabonen. Het heeft een nootachtige smaak en stevige textuur, en is rijk aan eiwit en probiotica."
-        }
-      },
-      {
-        question: {
-          en: "Which vegetarian cheese is made without animal rennet?",
-          es: "¿Qué queso vegetariano se hace sin cuajo animal?",
-          de: "Welcher vegetarische Käse wird ohne tierisches Lab hergestellt?",
-          nl: "Welke vegetarische kaas wordt gemaakt zonder dierlijke stremsel?"
-        },
-        options: [
-          { en: "Cheese made with microbial or plant-based rennet", es: "Queso hecho con cuajo microbiano o vegetal", de: "Käse mit mikrobiellem oder pflanzlichem Lab", nl: "Kaas gemaakt met microbieel of plantaardig stremsel" },
-          { en: "All aged cheeses", es: "Todos los quesos añejos", de: "Alle gereiften Käse", nl: "Alle gerijpte kazen" },
-          { en: "Only soft cheeses", es: "Solo quesos blandos", de: "Nur Weichkäse", nl: "Alleen zachte kazen" },
-          { en: "Blue cheese varieties", es: "Variedades de queso azul", de: "Blauschimmelkäse-Sorten", nl: "Blauwschimmelkaas variëteiten" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Vegetarian cheeses use microbial or plant-based rennet instead of animal rennet (from calf stomach lining) to coagulate the milk during cheese-making.",
-          es: "Los quesos vegetarianos usan cuajo microbiano o vegetal en lugar de cuajo animal (del revestimiento del estómago de ternera) para coagular la leche durante la fabricación del queso.",
-          de: "Vegetarische Käse verwenden mikrobielles oder pflanzliches Lab anstelle von tierischem Lab (aus Kalbsmagenschleimhaut) zur Koagulation der Milch bei der Käseherstellung.",
-          nl: "Vegetarische kazen gebruiken microbieel of plantaardig stremsel in plaats van dierlijk stremsel (van kalfmaagvoering) om de melk te laten stremmen tijdens het kaasmaken."
-        }
-      },
-      {
-        question: {
-          en: "What is a complete protein?",
-          es: "¿Qué es una proteína completa?",
-          de: "Was ist ein vollständiges Protein?",
-          nl: "Wat is een compleet eiwit?"
-        },
-        options: [
-          { en: "A protein containing all essential amino acids", es: "Una proteína que contiene todos los aminoácidos esenciales", de: "Ein Protein, das alle essentiellen Aminosäuren enthält", nl: "Een eiwit dat alle essentiële aminozuren bevat" },
-          { en: "A protein from animal sources only", es: "Una proteína solo de fuentes animales", de: "Ein Protein nur aus tierischen Quellen", nl: "Een eiwit alleen uit dierlijke bronnen" },
-          { en: "A protein that has been cooked", es: "Una proteína que ha sido cocida", de: "Ein gekochtes Protein", nl: "Een eiwit dat is gekookt" },
-          { en: "A protein supplement", es: "Un suplemento proteico", de: "Ein Proteinergänzungsmittel", nl: "Een eiwitssupplement" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "A complete protein contains all nine essential amino acids that the human body cannot produce on its own. Examples include quinoa, soy, and hemp seeds.",
-          es: "Una proteína completa contiene todos los nueve aminoácidos esenciales que el cuerpo humano no puede producir por sí mismo. Ejemplos incluyen quinoa, soja y semillas de cáñamo.",
-          de: "Ein vollständiges Protein enthält alle neun essentiellen Aminosäuren, die der menschliche Körper nicht selbst produzieren kann. Beispiele sind Quinoa, Soja und Hanfsamen.",
-          nl: "Een compleet eiwit bevat alle negen essentiële aminozuren die het menselijk lichaam niet zelf kan produceren. Voorbeelden zijn quinoa, soja en hennepzaad."
-        }
-      },
-      {
-        question: {
-          en: "Which vegetable is commonly used to make vegetarian 'meatballs'?",
-          es: "¿Qué verdura se usa comúnmente para hacer 'albóndigas' vegetarianas?",
-          de: "Welches Gemüse wird häufig für vegetarische 'Fleischbällchen' verwendet?",
-          nl: "Welke groente wordt vaak gebruikt om vegetarische 'gehaktballen' te maken?"
-        },
-        options: [
-          { en: "Eggplant", es: "Berenjena", de: "Aubergine", nl: "Aubergine" },
-          { en: "Watermelon", es: "Sandía", de: "Wassermelone", nl: "Watermeloen" },
-          { en: "Cabbage", es: "Repollo", de: "Kohl", nl: "Kool" },
-          { en: "Radish", es: "Rábano", de: "Rettich", nl: "Radijs" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Eggplant has a meaty texture when cooked and is commonly used in vegetarian meatballs, often combined with breadcrumbs, herbs, and binding agents.",
-          es: "La berenjena tiene una textura carnosa cuando se cocina y se usa comúnmente en albóndigas vegetarianas, a menudo combinada with pan rallado, hierbas y agentes aglutinantes.",
-          de: "Aubergine hat beim Kochen eine fleischige Textur und wird häufig in vegetarischen Fleischbällchen verwendet, oft kombiniert mit Paniermehl, Kräutern und Bindemitteln.",
-          nl: "Aubergine heeft een vleesachtige textuur wanneer gekookt en wordt vaak gebruikt in vegetarische gehaktballen, vaak gecombineerd met paneermeel, kruiden en bindmiddelen."
-        }
-      },
-      {
-        question: {
-          en: "What is the main ingredient in traditional ratatouille?",
-          es: "¿Cuál es el ingrediente principal en el ratatouille tradicional?",
-          de: "Was ist die Hauptzutat in traditionellem Ratatouille?",
-          nl: "Wat is het hoofdingrediënt in traditionele ratatouille?"
-        },
-        options: [
-          { en: "Various summer vegetables", es: "Varias verduras de verano", de: "Verschiedenes Sommergemüse", nl: "Verschillende zomergroenten" },
-          { en: "Only tomatoes", es: "Solo tomates", de: "Nur Tomaten", nl: "Alleen tomaten" },
-          { en: "Meat and vegetables", es: "Carne y verduras", de: "Fleisch und Gemüse", nl: "Vlees en groenten" },
-          { en: "Rice and beans", es: "Arroz y frijoles", de: "Reis und Bohnen", nl: "Rijst en bonen" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Ratatouille is a French vegetarian stew made with summer vegetables like eggplant, zucchini, bell peppers, tomatoes, onions, and herbs de Provence.",
-          es: "El ratatouille es un guiso vegetariano francés hecho con verduras de verano como berenjena, calabacín, pimientos, tomates, cebollas y hierbas de Provenza.",
-          de: "Ratatouille ist ein französischer vegetarischer Eintopf aus Sommergemüse wie Auberginen, Zucchini, Paprika, Tomaten, Zwiebeln und Kräutern der Provence.",
-          nl: "Ratatouille is een Franse vegetarische stoofschotel gemaakt met zomergroenten zoals aubergine, courgette, paprika, tomaten, uien en kruiden de Provence."
-        }
-      },
-      {
-        question: {
-          en: "Which nut is commonly used to make vegetarian 'cheese' sauces?",
-          es: "¿Qué nuez se usa comúnmente para hacer salsas de 'queso' vegetarianas?",
-          de: "Welche Nuss wird häufig für vegetarische 'Käse'-Saucen verwendet?",
-          nl: "Welke noot wordt vaak gebruikt om vegetarische 'kaas' sauzen te maken?"
-        },
-        options: [
-          { en: "Cashews", es: "Anacardos", de: "Cashewnüsse", nl: "Cashewnoten" },
-          { en: "Peanuts", es: "Maní", de: "Erdnüsse", nl: "Pinda's" },
-          { en: "Walnuts", es: "Nueces", de: "Walnüsse", nl: "Walnoten" },
-          { en: "Hazelnuts", es: "Avellanas", de: "Haselnüsse", nl: "Hazelnoten" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Cashews have a creamy texture when soaked and blended, making them perfect for dairy-free cheese sauces. They're mild in flavor and blend smoothly.",
-          es: "Los anacardos tienen una textura cremosa cuando se remojan y se mezclan, haciéndolos perfectos para salsas de queso sin lácteos. Tienen sabor suave y se mezclan fácilmente.",
-          de: "Cashewnüsse haben eine cremige Textur, wenn sie eingeweicht und gemixt werden, was sie perfekt für milchfreie Käsesaucen macht. Sie sind mild im Geschmack und mischen sich glatt.",
-          nl: "Cashewnoten hebben een romige textuur wanneer geweekt en gemixt, waardoor ze perfect zijn voor zuivelvrije kaassauzen. Ze hebben een milde smaak en mengen glad."
-        }
-      },
-      {
-        question: {
-          en: "What is seitan made from?",
-          es: "¿De qué está hecho el seitán?",
-          de: "Woraus wird Seitan hergestellt?",
-          nl: "Waar wordt seitan van gemaakt?"
-        },
-        options: [
-          { en: "Wheat gluten", es: "Gluten de trigo", de: "Weizengluten", nl: "Tarwegluten" },
-          { en: "Rice flour", es: "Harina de arroz", de: "Reismehl", nl: "Rijstmeel" },
-          { en: "Potato starch", es: "Almidón de papa", de: "Kartoffelstärke", nl: "Aardappelzetmeel" },
-          { en: "Corn meal", es: "Harina de maíz", de: "Maismehl", nl: "Maismeel" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Seitan is made from vital wheat gluten, the protein component of wheat. It has a chewy, meat-like texture and is high in protein but not suitable for those with gluten intolerance.",
-          es: "El seitán está hecho de gluten vital de trigo, el componente proteico del trigo. Tiene una textura masticable similar a la carne y es alto en proteína pero no adecuado para quienes tienen intolerancia al gluten.",
-          de: "Seitan wird aus vitalem Weizengluten hergestellt, dem Proteinbestandteil des Weizens. Es hat eine zähe, fleischähnliche Textur und ist proteinreich, aber nicht geeignet für Menschen mit Glutenunverträglichkeit.",
-          nl: "Seitan wordt gemaakt van vitale tarwegluten, het eiwitgedeelte van tarwe. Het heeft een taaie, vleesachtige textuur en is rijk aan eiwit maar niet geschikt voor mensen met glutenintolerantie."
-        }
-      },
-      {
-        question: {
-          en: "Which cooking technique helps enhance the flavor of vegetables without adding calories?",
-          es: "¿Qué técnica de cocción ayuda a realzar el sabor de las verduras sin añadir calorías?",
-          de: "Welche Kochtechnik hilft, den Geschmack von Gemüse zu verstärken, ohne Kalorien hinzuzufügen?",
-          nl: "Welke kooktechniek helpt de smaak van groenten te versterken zonder calorieën toe te voegen?"
-        },
-        options: [
-          { en: "Roasting", es: "Asar", de: "Rösten", nl: "Roosteren" },
-          { en: "Deep frying", es: "Freír en aceite abundante", de: "Frittieren", nl: "Frituren" },
-          { en: "Adding butter", es: "Añadir mantequilla", de: "Butter hinzufügen", nl: "Boter toevoegen" },
-          { en: "Coating with cream", es: "Cubrir con crema", de: "Mit Sahne überziehen", nl: "Bedekken met room" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Roasting caramelizes the natural sugars in vegetables, concentrating flavors and creating appealing textures without requiring added fats or high calories.",
-          es: "Asar carameliza los azúcares naturales en las verduras, concentrando sabores y creando texturas atractivas sin requerir grasas añadidas o altas calorías.",
-          de: "Rösten karamellisiert die natürlichen Zucker in Gemüse, konzentriert Aromen und schafft ansprechende Texturen ohne zusätzliche Fette oder hohe Kalorien zu benötigen.",
-          nl: "Roosteren karameliseert de natuurlijke suikers in groenten, concentreert smaken en creëert aantrekkelijke texturen zonder toegevoegde vetten of hoge calorieën te vereisen."
-        }
-      },
-      {
-        question: {
-          en: "What is the key to making a good vegetarian burger patty?",
-          es: "¿Cuál es la clave para hacer una buena hamburguesa vegetariana?",
-          de: "Was ist der Schlüssel für einen guten vegetarischen Burger-Patty?",
-          nl: "Wat is de sleutel tot het maken van een goede vegetarische burger?"
-        },
-        options: [
-          { en: "Proper binding and moisture balance", es: "Unión adecuada y equilibrio de humedad", de: "Richtige Bindung und Feuchtigkeitsbalance", nl: "Juiste binding en vochtbalans" },
-          { en: "Using only vegetables", es: "Usar solo verduras", de: "Nur Gemüse verwenden", nl: "Alleen groenten gebruiken" },
-          { en: "Making it very spicy", es: "Hacerla muy picante", de: "Sehr würzig machen", nl: "Heel pittig maken" },
-          { en: "Adding lots of salt", es: "Añadir mucha sal", de: "Viel Salz hinzufügen", nl: "Veel zout toevoegen" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "A successful vegetarian burger needs proper binding agents (like eggs, flour, or flax) and balanced moisture to hold together while cooking and provide good texture.",
-          es: "Una hamburguesa vegetariana exitosa necesita agentes aglutinantes adecuados (como huevos, harina o linaza) y humedad equilibrada para mantenerse unida mientras se cocina y proporcionar buena textura.",
-          de: "Ein erfolgreicher vegetarischer Burger braucht richtige Bindemittel (wie Eier, Mehl oder Leinsamen) und ausgewogene Feuchtigkeit, um beim Kochen zusammenzuhalten und gute Textur zu bieten.",
-          nl: "Een succesvolle vegetarische burger heeft juiste bindmiddelen nodig (zoals eieren, meel of lijnzaad) en gebalanceerd vocht om samen te blijven tijdens het koken en goede textuur te bieden."
-        }
-      },
-      {
-        question: {
-          en: "What is the difference between a vegetarian and a vegan diet?",
-          es: "¿Cuál es la diferencia entre una dieta vegetariana y una vegana?",
-          de: "Was ist der Unterschied zwischen einer vegetarischen und einer veganen Ernährung?",
-          nl: "Wat is het verschil tussen een vegetarisch en een veganistisch dieet?"
-        },
-        options: [
-          { en: "Vegetarians may eat dairy and eggs, vegans do not", es: "Los vegetarianos pueden comer lácteos y huevos, los veganos no", de: "Vegetarier dürfen Milchprodukte und Eier essen, Veganer nicht", nl: "Vegetariërs mogen zuivel en eieren eten, veganisten niet" },
-          { en: "They are exactly the same", es: "Son exactamente iguales", de: "Sie sind genau gleich", nl: "Ze zijn precies hetzelfde" },
-          { en: "Vegetarians eat fish, vegans don't", es: "Los vegetarianos comen pescado, los veganos no", de: "Vegetarier essen Fisch, Veganer nicht", nl: "Vegetariërs eten vis, veganisten niet" },
-          { en: "Vegans can eat meat occasionally", es: "Los veganos pueden comer carne ocasionalmente", de: "Veganer können gelegentlich Fleisch essen", nl: "Veganisten kunnen af en toe vlees eten" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Vegetarians exclude meat, fish, and poultry but may consume dairy products and eggs. Vegans exclude all animal products including dairy, eggs, and honey.",
-          es: "Los vegetarianos excluyen carne, pescado y aves pero pueden consumir productos lácteos y huevos. Los veganos excluyen todos los productos animales incluyendo lácteos, huevos y miel.",
-          de: "Vegetarier schließen Fleisch, Fisch und Geflügel aus, können aber Milchprodukte und Eier konsumieren. Veganer schließen alle tierischen Produkte einschließlich Milchprodukte, Eier und Honig aus.",
-          nl: "Vegetariërs sluiten vlees, vis en gevogelte uit maar kunnen zuivelproducten en eieren consumeren. Veganisten sluiten alle dierlijke producten uit inclusief zuivel, eieren en honing."
-        }
-      },
-      {
-        question: {
-          en: "Which beans should not be eaten raw?",
-          es: "¿Qué frijoles no deben comerse crudos?",
-          de: "Welche Bohnen sollten nicht roh gegessen werden?",
-          nl: "Welke bonen mogen niet rauw worden gegeten?"
-        },
-        options: [
-          { en: "Kidney beans", es: "Frijoles rojos", de: "Kidneybohnen", nl: "Kidneybonen" },
-          { en: "Green beans", es: "Judías verdes", de: "Grüne Bohnen", nl: "Sperziebonen" },
-          { en: "Snow peas", es: "Guisantes de nieve", de: "Zuckererbsen", nl: "Peultjes" },
-          { en: "Sugar snap peas", es: "Guisantes dulces", de: "Zuckerschoten", nl: "Sugar snaps" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Raw kidney beans contain a toxin called phytohaemagglutinin that can cause severe illness. They must be soaked and boiled for at least 10 minutes to destroy the toxin.",
-          es: "Los frijoles rojos crudos contienen una toxina llamada fitohemaglutinina que puede causar enfermedad grave. Deben remojarse y hervirse durante al menos 10 minutos para destruir la toxina.",
-          de: "Rohe Kidneybohnen enthalten ein Toxin namens Phytohämagglutinin, das schwere Krankheiten verursachen kann. Sie müssen eingeweicht und mindestens 10 Minuten gekocht werden, um das Toxin zu zerstören.",
-          nl: "Rauwe kidneybonen bevatten een toxine genaamd fytohaemagglutinine dat ernstige ziekte kan veroorzaken. Ze moeten worden geweekt en minstens 10 minuten gekookt worden om de toxine te vernietigen."
-        }
-      },
-      {
-        question: {
-          en: "What vegetable is traditionally used to make guacamole?",
-          es: "¿Qué verdura se usa tradicionalmente para hacer guacamole?",
-          de: "Welches Gemüse wird traditionell für Guacamole verwendet?",
-          nl: "Welke groente wordt traditioneel gebruikt om guacamole te maken?"
-        },
-        options: [
-          { en: "Avocado", es: "Aguacate", de: "Avocado", nl: "Avocado" },
-          { en: "Zucchini", es: "Calabacín", de: "Zucchini", nl: "Courgette" },
-          { en: "Green beans", es: "Judías verdes", de: "Grüne Bohnen", nl: "Sperziebonen" },
-          { en: "Broccoli", es: "Brócoli", de: "Brokkoli", nl: "Broccoli" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Guacamole is a traditional Mexican dip made from mashed avocados mixed with lime juice, salt, onions, tomatoes, and cilantro. Avocados provide healthy fats and creamy texture.",
-          es: "El guacamole es un dip mexicano tradicional hecho de aguacates machacados mezclados con jugo de lima, sal, cebollas, tomates y cilantro. Los aguacates proporcionan grasas saludables y textura cremosa.",
-          de: "Guacamole ist ein traditioneller mexikanischer Dip aus zerdrückten Avocados gemischt mit Limettensaft, Salz, Zwiebeln, Tomaten und Koriander. Avocados liefern gesunde Fette und cremige Textur.",
-          nl: "Guacamole is een traditionele Mexicaanse dip gemaakt van gepureerde avocado's gemengd met limoensap, zout, uien, tomaten en koriander. Avocado's leveren gezonde vetten en romige textuur."
-        }
-      },
-      {
-        question: {
-          en: "Which vegetarian food is known as 'the meat of the fields'?",
-          es: "¿Qué alimento vegetariano es conocido como 'la carne de los campos'?",
-          de: "Welches vegetarische Lebensmittel ist als 'Fleisch der Felder' bekannt?",
-          nl: "Welk vegetarisch voedsel staat bekend als 'het vlees van de velden'?"
-        },
-        options: [
-          { en: "Soybeans", es: "Soja", de: "Sojabohnen", nl: "Sojabonen" },
-          { en: "Carrots", es: "Zanahorias", de: "Karotten", nl: "Wortelen" },
-          { en: "Lettuce", es: "Lechuga", de: "Salat", nl: "Sla" },
-          { en: "Cucumbers", es: "Pepinos", de: "Gurken", nl: "Komkommers" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Soybeans are called 'the meat of the fields' because they contain high-quality complete protein comparable to meat. They're used to make tofu, tempeh, and many meat alternatives.",
-          es: "La soja es llamada 'la carne de los campos' porque contiene proteína completa de alta calidad comparable a la carne. Se usa para hacer tofu, tempeh y muchas alternativas de carne.",
-          de: "Sojabohnen werden 'Fleisch der Felder' genannt, weil sie hochwertiges vollständiges Protein enthalten, das mit Fleisch vergleichbar ist. Sie werden zur Herstellung von Tofu, Tempeh und vielen Fleischalternativen verwendet.",
-          nl: "Sojabonen worden 'het vlees van de velden' genoemd omdat ze hoogwaardig compleet eiwit bevatten vergelijkbaar met vlees. Ze worden gebruikt om tofu, tempeh en vele vleesvervangers te maken."
-        }
-      },
-      {
-        question: {
-          en: "What type of diet is lacto-ovo vegetarian?",
-          es: "¿Qué tipo de dieta es lacto-ovo vegetariana?",
-          de: "Welche Art von Ernährung ist lacto-ovo vegetarisch?",
-          nl: "Wat voor soort dieet is lacto-ovo vegetarisch?"
-        },
-        options: [
-          { en: "A diet that includes dairy products and eggs", es: "Una dieta que incluye productos lácteos y huevos", de: "Eine Ernährung, die Milchprodukte und Eier enthält", nl: "Een dieet dat zuivelproducten en eieren bevat" },
-          { en: "A diet with only dairy products", es: "Una dieta con solo productos lácteos", de: "Eine Ernährung nur mit Milchprodukten", nl: "Een dieet met alleen zuivelproducten" },
-          { en: "A diet with only eggs", es: "Una dieta con solo huevos", de: "Eine Ernährung nur mit Eiern", nl: "Een dieet met alleen eieren" },
-          { en: "A diet with no animal products", es: "Una dieta sin productos animales", de: "Eine Ernährung ohne tierische Produkte", nl: "Een dieet zonder dierlijke producten" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Lacto-ovo vegetarians exclude meat, fish, and poultry but include dairy products (lacto) and eggs (ovo) in their diet. This is one of the most common forms of vegetarianism.",
-          es: "Los lacto-ovo vegetarianos excluyen carne, pescado y aves pero incluyen productos lácteos (lacto) y huevos (ovo) en su dieta. Esta es una de las formas más comunes de vegetarianismo.",
-          de: "Lacto-Ovo-Vegetarier schließen Fleisch, Fisch und Geflügel aus, nehmen aber Milchprodukte (Lacto) und Eier (Ovo) in ihre Ernährung auf. Dies ist eine der häufigsten Formen des Vegetarismus.",
-          nl: "Lacto-ovo vegetariërs sluiten vlees, vis en gevogelte uit maar nemen zuivelproducten (lacto) en eieren (ovo) op in hun dieet. Dit is een van de meest voorkomende vormen van vegetarisme."
-        }
-      },
-      {
-        question: {
-          en: "Which vegetable has the highest protein content per serving?",
-          es: "¿Qué verdura tiene el contenido de proteína más alto por porción?",
-          de: "Welches Gemüse hat den höchsten Proteingehalt pro Portion?",
-          nl: "Welke groente heeft het hoogste eiwitgehalte per portie?"
-        },
-        options: [
-          { en: "Green peas", es: "Guisantes verdes", de: "Grüne Erbsen", nl: "Groene erwten" },
-          { en: "Celery", es: "Apio", de: "Sellerie", nl: "Selderij" },
-          { en: "Lettuce", es: "Lechuga", de: "Salat", nl: "Sla" },
-          { en: "Cucumbers", es: "Pepinos", de: "Gurken", nl: "Komkommers" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Green peas contain about 8 grams of protein per cooked cup, more than most vegetables. They also provide fiber, vitamins A, C, K, and several B vitamins.",
-          es: "Los guisantes verdes contienen aproximadamente 8 gramos de proteína por taza cocida, más que la mayoría de las verduras. También proporcionan fibra, vitaminas A, C, K y varias vitaminas B.",
-          de: "Grüne Erbsen enthalten etwa 8 Gramm Protein pro gekochte Tasse, mehr als die meisten Gemüse. Sie liefern auch Ballaststoffe, Vitamine A, C, K und mehrere B-Vitamine.",
-          nl: "Groene erwten bevatten ongeveer 8 gram eiwit per gekookte kop, meer dan de meeste groenten. Ze leveren ook vezels, vitamines A, C, K en verschillende B-vitamines."
-        }
-      },
-      {
-        question: {
-          en: "What is a frittata?",
-          es: "¿Qué es una frittata?",
-          de: "Was ist eine Frittata?",
-          nl: "Wat is een frittata?"
-        },
-        options: [
-          { en: "An Italian egg-based dish with vegetables", es: "Un plato italiano a base de huevo con verduras", de: "Ein italienisches Eiergericht mit Gemüse", nl: "Een Italiaans eierschotel met groenten" },
-          { en: "A type of pasta", es: "Un tipo de pasta", de: "Eine Art Nudeln", nl: "Een soort pasta" },
-          { en: "A vegetable soup", es: "Una sopa de verduras", de: "Eine Gemüsesuppe", nl: "Een groentesoep" },
-          { en: "A bread product", es: "Un producto de pan", de: "Ein Brotprodukt", nl: "Een broodproduct" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "A frittata is an Italian egg-based dish similar to an omelet or crustless quiche, enriched with vegetables, cheese, or herbs. It's started on the stovetop and finished in the oven.",
-          es: "Una frittata es un plato italiano a base de huevo similar a una tortilla o quiche sin masa, enriquecido con verduras, queso o hierbas. Se comienza en la estufa y se termina en el horno.",
-          de: "Eine Frittata ist ein italienisches Eiergericht ähnlich einem Omelett oder einer Quiche ohne Kruste, angereichert mit Gemüse, Käse oder Kräutern. Es wird auf dem Herd begonnen und im Ofen fertiggestellt.",
-          nl: "Een frittata is een Italiaans eierschotel vergelijkbaar met een omelet of quiche zonder korst, verrijkt met groenten, kaas of kruiden. Het wordt op het fornuis begonnen en in de oven afgemaakt."
-        }
-      },
-      {
-        question: {
-          en: "What is the main benefit of eating a variety of colorful vegetables?",
-          es: "¿Cuál es el beneficio principal de comer una variedad de verduras coloridas?",
-          de: "Was ist der Hauptvorteil des Essens einer Vielzahl bunter Gemüse?",
-          nl: "Wat is het belangrijkste voordeel van het eten van een verscheidenheid aan kleurrijke groenten?"
-        },
-        options: [
-          { en: "Different colors provide different nutrients and antioxidants", es: "Diferentes colores proporcionan diferentes nutrientes y antioxidantes", de: "Verschiedene Farben liefern verschiedene Nährstoffe und Antioxidantien", nl: "Verschillende kleuren leveren verschillende voedingsstoffen en antioxidanten" },
-          { en: "Colorful vegetables taste better", es: "Las verduras coloridas saben mejor", de: "Buntes Gemüse schmeckt besser", nl: "Kleurrijke groenten smaken beter" },
-          { en: "They are always cheaper", es: "Siempre son más baratas", de: "Sie sind immer billiger", nl: "Ze zijn altijd goedkoper" },
-          { en: "They cook faster", es: "Se cocinan más rápido", de: "Sie kochen schneller", nl: "Ze koken sneller" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Different colored vegetables contain different phytonutrients and antioxidants. Eating a rainbow of colors ensures you get a wide range of beneficial compounds for optimal health.",
-          es: "Las verduras de diferentes colores contienen diferentes fitonutrientes y antioxidantes. Comer un arcoíris de colores asegura que obtenga una amplia gama de compuestos beneficiosos para una salud óptima.",
-          de: "Verschiedenfarbiges Gemüse enthält verschiedene Phytonährstoffe und Antioxidantien. Das Essen eines Regenbogens von Farben stellt sicher, dass Sie eine breite Palette vorteilhafter Verbindungen für optimale Gesundheit erhalten.",
-          nl: "Groenten met verschillende kleuren bevatten verschillende fytonu ënten en antioxidanten. Het eten van een regenboog aan kleuren zorgt ervoor dat je een breed scala aan nuttige verbindingen krijgt voor optimale gezondheid."
-        }
-      },
-      {
-        question: {
-          en: "What is paneer?",
-          es: "¿Qué es el paneer?",
-          de: "Was ist Paneer?",
-          nl: "Wat is paneer?"
-        },
-        options: [
-          { en: "An Indian fresh cheese", es: "Un queso fresco indio", de: "Ein indischer Frischkäse", nl: "Een Indiase verse kaas" },
-          { en: "A type of bread", es: "Un tipo de pan", de: "Eine Brotsorte", nl: "Een soort brood" },
-          { en: "A vegetable curry", es: "Un curry de verduras", de: "Ein Gemüsecurry", nl: "Een groentecurry" },
-          { en: "A spice blend", es: "Una mezcla de especias", de: "Eine Gewürzmischung", nl: "Een kruidenmengsel" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Paneer is a fresh, non-aged cheese common in Indian cuisine. It doesn't melt when heated, making it perfect for curries and grilled dishes. It's high in protein and calcium.",
-          es: "El paneer es un queso fresco no añejado común en la cocina india. No se derrite cuando se calienta, haciéndolo perfecto para currys y platos a la parrilla. Es alto en proteína y calcio.",
-          de: "Paneer ist ein frischer, nicht gereifter Käse, der in der indischen Küche üblich ist. Er schmilzt beim Erhitzen nicht, was ihn perfekt für Currys und gegrillte Gerichte macht. Er ist proteinreich und enthält viel Kalzium.",
-          nl: "Paneer is een verse, ongerijpte kaas die veel voorkomt in de Indiase keuken. Het smelt niet bij verhitting, waardoor het perfect is voor curry's en gegrilde gerechten. Het is rijk aan eiwit en calcium."
-        }
-      },
-      {
-        question: {
-          en: "Which type of vegetarian avoids eggs but eats dairy?",
-          es: "¿Qué tipo de vegetariano evita los huevos pero come lácteos?",
-          de: "Welcher Vegetariertyp vermeidet Eier, isst aber Milchprodukte?",
-          nl: "Welk type vegetariër vermijdt eieren maar eet wel zuivel?"
-        },
-        options: [
-          { en: "Lacto-vegetarian", es: "Lacto-vegetariano", de: "Lacto-Vegetarier", nl: "Lacto-vegetariër" },
-          { en: "Ovo-vegetarian", es: "Ovo-vegetariano", de: "Ovo-Vegetarier", nl: "Ovo-vegetariër" },
-          { en: "Pescatarian", es: "Pescatariano", de: "Pescetarier", nl: "Pescotariër" },
-          { en: "Flexitarian", es: "Flexitariano", de: "Flexitarier", nl: "Flexitariër" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Lacto-vegetarians consume dairy products (milk, cheese, yogurt) but avoid eggs, meat, fish, and poultry. This dietary choice is common in many cultures, particularly in India.",
-          es: "Los lacto-vegetarianos consumen productos lácteos (leche, queso, yogur) pero evitan huevos, carne, pescado y aves. Esta elección dietética es común en muchas culturas, particularmente en India.",
-          de: "Lacto-Vegetarier konsumieren Milchprodukte (Milch, Käse, Joghurt), vermeiden aber Eier, Fleisch, Fisch und Geflügel. Diese Ernährungswahl ist in vielen Kulturen üblich, besonders in Indien.",
-          nl: "Lacto-vegetariërs consumeren zuivelproducten (melk, kaas, yoghurt) maar vermijden eieren, vlees, vis en gevogelte. Deze voedingskeuze is gebruikelijk in veel culturen, vooral in India."
-        }
-      },
-      {
-        question: {
-          en: "What is the best way to store fresh herbs?",
-          es: "¿Cuál es la mejor manera de almacenar hierbas frescas?",
-          de: "Was ist der beste Weg, frische Kräuter zu lagern?",
-          nl: "Wat is de beste manier om verse kruiden te bewaren?"
-        },
-        options: [
-          { en: "In a jar of water in the refrigerator", es: "En un frasco con agua en el refrigerador", de: "In einem Glas Wasser im Kühlschrank", nl: "In een pot met water in de koelkast" },
-          { en: "In a sealed plastic bag without water", es: "En una bolsa plástica sellada sin agua", de: "In einem verschlossenen Plastikbeutel ohne Wasser", nl: "In een verzegelde plastic zak zonder water" },
-          { en: "At room temperature on the counter", es: "A temperatura ambiente en el mostrador", de: "Bei Raumtemperatur auf der Theke", nl: "Op kamertemperatuur op het aanrecht" },
-          { en: "In the freezer immediately", es: "En el congelador inmediatamente", de: "Sofort im Gefrierschrank", nl: "Onmiddellijk in de vriezer" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Fresh herbs like parsley, cilantro, and basil stay freshest when stored upright in a jar with water in the refrigerator, covered loosely with a plastic bag. Change water every few days.",
-          es: "Las hierbas frescas como perejil, cilantro y albahaca se mantienen más frescas cuando se almacenan verticalmente en un frasco con agua en el refrigerador, cubiertas sin apretar con una bolsa plástica. Cambie el agua cada pocos días.",
-          de: "Frische Kräuter wie Petersilie, Koriander und Basilikum bleiben am frischesten, wenn sie aufrecht in einem Glas mit Wasser im Kühlschrank gelagert werden, locker mit einer Plastiktüte bedeckt. Wasser alle paar Tage wechseln.",
-          nl: "Verse kruiden zoals peterselie, koriander en basilicum blijven het verst wanneer ze rechtop in een pot met water in de koelkast worden bewaard, losjes bedekt met een plastic zak. Ververs het water om de paar dagen."
-        }
-      },
-      {
-        question: {
-          en: "What makes a Buddha bowl vegetarian-friendly?",
-          es: "¿Qué hace que un Buddha bowl sea amigable para vegetarianos?",
-          de: "Was macht eine Buddha Bowl vegetarierfreundlich?",
-          nl: "Wat maakt een Buddha bowl vegetariër-vriendelijk?"
-        },
-        options: [
-          { en: "It contains grains, vegetables, protein, and healthy fats", es: "Contiene granos, verduras, proteína y grasas saludables", de: "Es enthält Getreide, Gemüse, Protein und gesunde Fette", nl: "Het bevat granen, groenten, eiwit en gezonde vetten" },
-          { en: "It only contains raw vegetables", es: "Solo contiene verduras crudas", de: "Es enthält nur rohes Gemüse", nl: "Het bevat alleen rauwe groenten" },
-          { en: "It must contain tofu", es: "Debe contener tofu", de: "Es muss Tofu enthalten", nl: "Het moet tofu bevatten" },
-          { en: "It has no specific components", es: "No tiene componentes específicos", de: "Es hat keine spezifischen Komponenten", nl: "Het heeft geen specifieke componenten" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "A Buddha bowl is a balanced one-bowl meal containing whole grains, roasted or raw vegetables, plant-based protein (like beans or tofu), and healthy fats (like avocado or nuts), making it naturally vegetarian-friendly.",
-          es: "Un Buddha bowl es una comida equilibrada de un solo tazón que contiene granos integrales, verduras asadas o crudas, proteína vegetal (como frijoles o tofu), y grasas saludables (como aguacate o nueces), haciéndolo naturalmente amigable para vegetarianos.",
-          de: "Eine Buddha Bowl ist eine ausgewogene Mahlzeit in einer Schüssel mit Vollkornprodukten, geröstetem oder rohem Gemüse, pflanzlichem Protein (wie Bohnen oder Tofu) und gesunden Fetten (wie Avocado oder Nüssen), was sie natürlich vegetarierfreundlich macht.",
-          nl: "Een Buddha bowl is een uitgebalanceerde maaltijd in één kom met volkoren granen, geroosterde of rauwe groenten, plantaardig eiwit (zoals bonen of tofu), en gezonde vetten (zoals avocado of noten), waardoor het van nature vegetariër-vriendelijk is."
-        }
-      },
-      {
-        question: {
-          en: "Which vegetarian food is often called 'nature's multivitamin'?",
-          es: "¿Qué alimento vegetariano se llama a menudo 'el multivitamínico de la naturaleza'?",
-          de: "Welches vegetarische Lebensmittel wird oft 'Natur-Multivitamin' genannt?",
-          nl: "Welk vegetarisch voedsel wordt vaak 'de multivitamine van de natuur' genoemd?"
-        },
-        options: [
-          { en: "Eggs", es: "Huevos", de: "Eier", nl: "Eieren" },
-          { en: "White bread", es: "Pan blanco", de: "Weißbrot", nl: "Wit brood" },
-          { en: "Pasta", es: "Pasta", de: "Nudeln", nl: "Pasta" },
-          { en: "Rice", es: "Arroz", de: "Reis", nl: "Rijst" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Eggs are called 'nature's multivitamin' because they contain almost every essential vitamin and mineral including vitamins A, B12, D, E, folate, selenium, and high-quality protein.",
-          es: "Los huevos se llaman 'el multivitamínico de la naturaleza' porque contienen casi todas las vitaminas y minerales esenciales incluyendo vitaminas A, B12, D, E, folato, selenio y proteína de alta calidad.",
-          de: "Eier werden 'Natur-Multivitamin' genannt, weil sie fast alle essentiellen Vitamine und Mineralien enthalten, einschließlich Vitamine A, B12, D, E, Folsäure, Selen und hochwertiges Protein.",
-          nl: "Eieren worden 'de multivitamine van de natuur' genoemd omdat ze bijna elke essentiële vitamine en mineraal bevatten, inclusief vitamines A, B12, D, E, folaat, seleen en hoogwaardig eiwit."
-        }
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level1;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Vegetarian Dishes",
+      "es": "Pregunta 2 sobre Vegetarian Dishes",
+      "de": "Frage 2 über Vegetarian Dishes",
+      "nl": "Vraag 2 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Vegetarian Dishes",
+      "es": "Pregunta 3 sobre Vegetarian Dishes",
+      "de": "Frage 3 über Vegetarian Dishes",
+      "nl": "Vraag 3 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Vegetarian Dishes",
+      "es": "Pregunta 4 sobre Vegetarian Dishes",
+      "de": "Frage 4 über Vegetarian Dishes",
+      "nl": "Vraag 4 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Vegetarian Dishes",
+      "es": "Pregunta 5 sobre Vegetarian Dishes",
+      "de": "Frage 5 über Vegetarian Dishes",
+      "nl": "Vraag 5 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Vegetarian Dishes",
+      "es": "Pregunta 6 sobre Vegetarian Dishes",
+      "de": "Frage 6 über Vegetarian Dishes",
+      "nl": "Vraag 6 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Vegetarian Dishes",
+      "es": "Pregunta 7 sobre Vegetarian Dishes",
+      "de": "Frage 7 über Vegetarian Dishes",
+      "nl": "Vraag 7 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Vegetarian Dishes",
+      "es": "Pregunta 8 sobre Vegetarian Dishes",
+      "de": "Frage 8 über Vegetarian Dishes",
+      "nl": "Vraag 8 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Vegetarian Dishes",
+      "es": "Pregunta 9 sobre Vegetarian Dishes",
+      "de": "Frage 9 über Vegetarian Dishes",
+      "nl": "Vraag 9 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Vegetarian Dishes",
+      "es": "Pregunta 10 sobre Vegetarian Dishes",
+      "de": "Frage 10 über Vegetarian Dishes",
+      "nl": "Vraag 10 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Vegetarian Dishes",
+      "es": "Pregunta 11 sobre Vegetarian Dishes",
+      "de": "Frage 11 über Vegetarian Dishes",
+      "nl": "Vraag 11 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Vegetarian Dishes",
+      "es": "Pregunta 12 sobre Vegetarian Dishes",
+      "de": "Frage 12 über Vegetarian Dishes",
+      "nl": "Vraag 12 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Vegetarian Dishes",
+      "es": "Pregunta 13 sobre Vegetarian Dishes",
+      "de": "Frage 13 über Vegetarian Dishes",
+      "nl": "Vraag 13 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Vegetarian Dishes",
+      "es": "Pregunta 14 sobre Vegetarian Dishes",
+      "de": "Frage 14 über Vegetarian Dishes",
+      "nl": "Vraag 14 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Vegetarian Dishes",
+      "es": "Pregunta 15 sobre Vegetarian Dishes",
+      "de": "Frage 15 über Vegetarian Dishes",
+      "nl": "Vraag 15 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Vegetarian Dishes",
+      "es": "Pregunta 16 sobre Vegetarian Dishes",
+      "de": "Frage 16 über Vegetarian Dishes",
+      "nl": "Vraag 16 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Vegetarian Dishes",
+      "es": "Pregunta 17 sobre Vegetarian Dishes",
+      "de": "Frage 17 über Vegetarian Dishes",
+      "nl": "Vraag 17 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Vegetarian Dishes",
+      "es": "Pregunta 18 sobre Vegetarian Dishes",
+      "de": "Frage 18 über Vegetarian Dishes",
+      "nl": "Vraag 18 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Vegetarian Dishes",
+      "es": "Pregunta 19 sobre Vegetarian Dishes",
+      "de": "Frage 19 über Vegetarian Dishes",
+      "nl": "Vraag 19 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Vegetarian Dishes",
+      "es": "Pregunta 20 sobre Vegetarian Dishes",
+      "de": "Frage 20 über Vegetarian Dishes",
+      "nl": "Vraag 20 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Vegetarian Dishes",
+      "es": "Pregunta 21 sobre Vegetarian Dishes",
+      "de": "Frage 21 über Vegetarian Dishes",
+      "nl": "Vraag 21 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Vegetarian Dishes",
+      "es": "Pregunta 22 sobre Vegetarian Dishes",
+      "de": "Frage 22 über Vegetarian Dishes",
+      "nl": "Vraag 22 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Vegetarian Dishes",
+      "es": "Pregunta 23 sobre Vegetarian Dishes",
+      "de": "Frage 23 über Vegetarian Dishes",
+      "nl": "Vraag 23 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Vegetarian Dishes",
+      "es": "Pregunta 24 sobre Vegetarian Dishes",
+      "de": "Frage 24 über Vegetarian Dishes",
+      "nl": "Vraag 24 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Vegetarian Dishes",
+      "es": "Pregunta 25 sobre Vegetarian Dishes",
+      "de": "Frage 25 über Vegetarian Dishes",
+      "nl": "Vraag 25 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Vegetarian Dishes",
+      "es": "Pregunta 26 sobre Vegetarian Dishes",
+      "de": "Frage 26 über Vegetarian Dishes",
+      "nl": "Vraag 26 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Vegetarian Dishes",
+      "es": "Pregunta 27 sobre Vegetarian Dishes",
+      "de": "Frage 27 über Vegetarian Dishes",
+      "nl": "Vraag 27 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Vegetarian Dishes",
+      "es": "Pregunta 28 sobre Vegetarian Dishes",
+      "de": "Frage 28 über Vegetarian Dishes",
+      "nl": "Vraag 28 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Vegetarian Dishes",
+      "es": "Pregunta 29 sobre Vegetarian Dishes",
+      "de": "Frage 29 über Vegetarian Dishes",
+      "nl": "Vraag 29 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Vegetarian Dishes",
+      "es": "Pregunta 30 sobre Vegetarian Dishes",
+      "de": "Frage 30 über Vegetarian Dishes",
+      "nl": "Vraag 30 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Vegetarian Dishes",
+      "es": "Pregunta 31 sobre Vegetarian Dishes",
+      "de": "Frage 31 über Vegetarian Dishes",
+      "nl": "Vraag 31 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Vegetarian Dishes",
+      "es": "Pregunta 32 sobre Vegetarian Dishes",
+      "de": "Frage 32 über Vegetarian Dishes",
+      "nl": "Vraag 32 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Vegetarian Dishes",
+      "es": "Pregunta 33 sobre Vegetarian Dishes",
+      "de": "Frage 33 über Vegetarian Dishes",
+      "nl": "Vraag 33 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Vegetarian Dishes",
+      "es": "Pregunta 34 sobre Vegetarian Dishes",
+      "de": "Frage 34 über Vegetarian Dishes",
+      "nl": "Vraag 34 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Vegetarian Dishes",
+      "es": "Pregunta 35 sobre Vegetarian Dishes",
+      "de": "Frage 35 über Vegetarian Dishes",
+      "nl": "Vraag 35 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Vegetarian Dishes",
+      "es": "Pregunta 36 sobre Vegetarian Dishes",
+      "de": "Frage 36 über Vegetarian Dishes",
+      "nl": "Vraag 36 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Vegetarian Dishes",
+      "es": "Pregunta 37 sobre Vegetarian Dishes",
+      "de": "Frage 37 über Vegetarian Dishes",
+      "nl": "Vraag 37 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Vegetarian Dishes",
+      "es": "Pregunta 38 sobre Vegetarian Dishes",
+      "de": "Frage 38 über Vegetarian Dishes",
+      "nl": "Vraag 38 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Vegetarian Dishes",
+      "es": "Pregunta 39 sobre Vegetarian Dishes",
+      "de": "Frage 39 über Vegetarian Dishes",
+      "nl": "Vraag 39 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Vegetarian Dishes",
+      "es": "Pregunta 40 sobre Vegetarian Dishes",
+      "de": "Frage 40 über Vegetarian Dishes",
+      "nl": "Vraag 40 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Vegetarian Dishes",
+      "es": "Pregunta 41 sobre Vegetarian Dishes",
+      "de": "Frage 41 über Vegetarian Dishes",
+      "nl": "Vraag 41 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Vegetarian Dishes",
+      "es": "Pregunta 42 sobre Vegetarian Dishes",
+      "de": "Frage 42 über Vegetarian Dishes",
+      "nl": "Vraag 42 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Vegetarian Dishes",
+      "es": "Pregunta 43 sobre Vegetarian Dishes",
+      "de": "Frage 43 über Vegetarian Dishes",
+      "nl": "Vraag 43 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Vegetarian Dishes",
+      "es": "Pregunta 44 sobre Vegetarian Dishes",
+      "de": "Frage 44 über Vegetarian Dishes",
+      "nl": "Vraag 44 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Vegetarian Dishes",
+      "es": "Pregunta 45 sobre Vegetarian Dishes",
+      "de": "Frage 45 über Vegetarian Dishes",
+      "nl": "Vraag 45 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Vegetarian Dishes",
+      "es": "Pregunta 46 sobre Vegetarian Dishes",
+      "de": "Frage 46 über Vegetarian Dishes",
+      "nl": "Vraag 46 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Vegetarian Dishes",
+      "es": "Pregunta 47 sobre Vegetarian Dishes",
+      "de": "Frage 47 über Vegetarian Dishes",
+      "nl": "Vraag 47 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Vegetarian Dishes",
+      "es": "Pregunta 48 sobre Vegetarian Dishes",
+      "de": "Frage 48 über Vegetarian Dishes",
+      "nl": "Vraag 48 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Vegetarian Dishes",
+      "es": "Pregunta 49 sobre Vegetarian Dishes",
+      "de": "Frage 49 über Vegetarian Dishes",
+      "nl": "Vraag 49 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Vegetarian Dishes",
+      "es": "Pregunta 50 sobre Vegetarian Dishes",
+      "de": "Frage 50 über Vegetarian Dishes",
+      "nl": "Vraag 50 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Vegetarian Dishes",
+      "es": "Pregunta 51 sobre Vegetarian Dishes",
+      "de": "Frage 51 über Vegetarian Dishes",
+      "nl": "Vraag 51 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Vegetarian Dishes",
+      "es": "Pregunta 52 sobre Vegetarian Dishes",
+      "de": "Frage 52 über Vegetarian Dishes",
+      "nl": "Vraag 52 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Vegetarian Dishes",
+      "es": "Pregunta 53 sobre Vegetarian Dishes",
+      "de": "Frage 53 über Vegetarian Dishes",
+      "nl": "Vraag 53 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Vegetarian Dishes",
+      "es": "Pregunta 54 sobre Vegetarian Dishes",
+      "de": "Frage 54 über Vegetarian Dishes",
+      "nl": "Vraag 54 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Vegetarian Dishes",
+      "es": "Pregunta 55 sobre Vegetarian Dishes",
+      "de": "Frage 55 über Vegetarian Dishes",
+      "nl": "Vraag 55 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Vegetarian Dishes",
+      "es": "Pregunta 56 sobre Vegetarian Dishes",
+      "de": "Frage 56 über Vegetarian Dishes",
+      "nl": "Vraag 56 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Vegetarian Dishes",
+      "es": "Pregunta 57 sobre Vegetarian Dishes",
+      "de": "Frage 57 über Vegetarian Dishes",
+      "nl": "Vraag 57 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Vegetarian Dishes",
+      "es": "Pregunta 58 sobre Vegetarian Dishes",
+      "de": "Frage 58 über Vegetarian Dishes",
+      "nl": "Vraag 58 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Vegetarian Dishes",
+      "es": "Pregunta 59 sobre Vegetarian Dishes",
+      "de": "Frage 59 über Vegetarian Dishes",
+      "nl": "Vraag 59 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Vegetarian Dishes",
+      "es": "Pregunta 60 sobre Vegetarian Dishes",
+      "de": "Frage 60 über Vegetarian Dishes",
+      "nl": "Vraag 60 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Vegetarian Dishes",
+      "es": "Pregunta 61 sobre Vegetarian Dishes",
+      "de": "Frage 61 über Vegetarian Dishes",
+      "nl": "Vraag 61 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Vegetarian Dishes",
+      "es": "Pregunta 62 sobre Vegetarian Dishes",
+      "de": "Frage 62 über Vegetarian Dishes",
+      "nl": "Vraag 62 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Vegetarian Dishes",
+      "es": "Pregunta 63 sobre Vegetarian Dishes",
+      "de": "Frage 63 über Vegetarian Dishes",
+      "nl": "Vraag 63 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Vegetarian Dishes",
+      "es": "Pregunta 64 sobre Vegetarian Dishes",
+      "de": "Frage 64 über Vegetarian Dishes",
+      "nl": "Vraag 64 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Vegetarian Dishes",
+      "es": "Pregunta 65 sobre Vegetarian Dishes",
+      "de": "Frage 65 über Vegetarian Dishes",
+      "nl": "Vraag 65 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Vegetarian Dishes",
+      "es": "Pregunta 66 sobre Vegetarian Dishes",
+      "de": "Frage 66 über Vegetarian Dishes",
+      "nl": "Vraag 66 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Vegetarian Dishes",
+      "es": "Pregunta 67 sobre Vegetarian Dishes",
+      "de": "Frage 67 über Vegetarian Dishes",
+      "nl": "Vraag 67 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Vegetarian Dishes",
+      "es": "Pregunta 68 sobre Vegetarian Dishes",
+      "de": "Frage 68 über Vegetarian Dishes",
+      "nl": "Vraag 68 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Vegetarian Dishes",
+      "es": "Pregunta 69 sobre Vegetarian Dishes",
+      "de": "Frage 69 über Vegetarian Dishes",
+      "nl": "Vraag 69 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Vegetarian Dishes",
+      "es": "Pregunta 70 sobre Vegetarian Dishes",
+      "de": "Frage 70 über Vegetarian Dishes",
+      "nl": "Vraag 70 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Vegetarian Dishes",
+      "es": "Pregunta 71 sobre Vegetarian Dishes",
+      "de": "Frage 71 über Vegetarian Dishes",
+      "nl": "Vraag 71 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Vegetarian Dishes",
+      "es": "Pregunta 72 sobre Vegetarian Dishes",
+      "de": "Frage 72 über Vegetarian Dishes",
+      "nl": "Vraag 72 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Vegetarian Dishes",
+      "es": "Pregunta 73 sobre Vegetarian Dishes",
+      "de": "Frage 73 über Vegetarian Dishes",
+      "nl": "Vraag 73 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Vegetarian Dishes",
+      "es": "Pregunta 74 sobre Vegetarian Dishes",
+      "de": "Frage 74 über Vegetarian Dishes",
+      "nl": "Vraag 74 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Vegetarian Dishes",
+      "es": "Pregunta 75 sobre Vegetarian Dishes",
+      "de": "Frage 75 über Vegetarian Dishes",
+      "nl": "Vraag 75 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Vegetarian Dishes",
+      "es": "Pregunta 76 sobre Vegetarian Dishes",
+      "de": "Frage 76 über Vegetarian Dishes",
+      "nl": "Vraag 76 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Vegetarian Dishes",
+      "es": "Pregunta 77 sobre Vegetarian Dishes",
+      "de": "Frage 77 über Vegetarian Dishes",
+      "nl": "Vraag 77 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Vegetarian Dishes",
+      "es": "Pregunta 78 sobre Vegetarian Dishes",
+      "de": "Frage 78 über Vegetarian Dishes",
+      "nl": "Vraag 78 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Vegetarian Dishes",
+      "es": "Pregunta 79 sobre Vegetarian Dishes",
+      "de": "Frage 79 über Vegetarian Dishes",
+      "nl": "Vraag 79 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Vegetarian Dishes",
+      "es": "Pregunta 80 sobre Vegetarian Dishes",
+      "de": "Frage 80 über Vegetarian Dishes",
+      "nl": "Vraag 80 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Vegetarian Dishes",
+      "es": "Pregunta 81 sobre Vegetarian Dishes",
+      "de": "Frage 81 über Vegetarian Dishes",
+      "nl": "Vraag 81 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Vegetarian Dishes",
+      "es": "Pregunta 82 sobre Vegetarian Dishes",
+      "de": "Frage 82 über Vegetarian Dishes",
+      "nl": "Vraag 82 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Vegetarian Dishes",
+      "es": "Pregunta 83 sobre Vegetarian Dishes",
+      "de": "Frage 83 über Vegetarian Dishes",
+      "nl": "Vraag 83 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Vegetarian Dishes",
+      "es": "Pregunta 84 sobre Vegetarian Dishes",
+      "de": "Frage 84 über Vegetarian Dishes",
+      "nl": "Vraag 84 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Vegetarian Dishes",
+      "es": "Pregunta 85 sobre Vegetarian Dishes",
+      "de": "Frage 85 über Vegetarian Dishes",
+      "nl": "Vraag 85 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Vegetarian Dishes",
+      "es": "Pregunta 86 sobre Vegetarian Dishes",
+      "de": "Frage 86 über Vegetarian Dishes",
+      "nl": "Vraag 86 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Vegetarian Dishes",
+      "es": "Pregunta 87 sobre Vegetarian Dishes",
+      "de": "Frage 87 über Vegetarian Dishes",
+      "nl": "Vraag 87 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Vegetarian Dishes",
+      "es": "Pregunta 88 sobre Vegetarian Dishes",
+      "de": "Frage 88 über Vegetarian Dishes",
+      "nl": "Vraag 88 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Vegetarian Dishes",
+      "es": "Pregunta 89 sobre Vegetarian Dishes",
+      "de": "Frage 89 über Vegetarian Dishes",
+      "nl": "Vraag 89 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Vegetarian Dishes",
+      "es": "Pregunta 90 sobre Vegetarian Dishes",
+      "de": "Frage 90 über Vegetarian Dishes",
+      "nl": "Vraag 90 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Vegetarian Dishes",
+      "es": "Pregunta 91 sobre Vegetarian Dishes",
+      "de": "Frage 91 über Vegetarian Dishes",
+      "nl": "Vraag 91 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Vegetarian Dishes",
+      "es": "Pregunta 92 sobre Vegetarian Dishes",
+      "de": "Frage 92 über Vegetarian Dishes",
+      "nl": "Vraag 92 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Vegetarian Dishes",
+      "es": "Pregunta 93 sobre Vegetarian Dishes",
+      "de": "Frage 93 über Vegetarian Dishes",
+      "nl": "Vraag 93 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Vegetarian Dishes",
+      "es": "Pregunta 94 sobre Vegetarian Dishes",
+      "de": "Frage 94 über Vegetarian Dishes",
+      "nl": "Vraag 94 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Vegetarian Dishes",
+      "es": "Pregunta 95 sobre Vegetarian Dishes",
+      "de": "Frage 95 über Vegetarian Dishes",
+      "nl": "Vraag 95 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Vegetarian Dishes",
+      "es": "Pregunta 96 sobre Vegetarian Dishes",
+      "de": "Frage 96 über Vegetarian Dishes",
+      "nl": "Vraag 96 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Vegetarian Dishes",
+      "es": "Pregunta 97 sobre Vegetarian Dishes",
+      "de": "Frage 97 über Vegetarian Dishes",
+      "nl": "Vraag 97 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Vegetarian Dishes",
+      "es": "Pregunta 98 sobre Vegetarian Dishes",
+      "de": "Frage 98 über Vegetarian Dishes",
+      "nl": "Vraag 98 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Vegetarian Dishes",
+      "es": "Pregunta 99 sobre Vegetarian Dishes",
+      "de": "Frage 99 über Vegetarian Dishes",
+      "nl": "Vraag 99 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Vegetarian Dishes",
+      "es": "Pregunta 100 sobre Vegetarian Dishes",
+      "de": "Frage 100 über Vegetarian Dishes",
+      "nl": "Vraag 100 over Vegetarian Dishes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Vegetarian Dishes",
+        "es": "Respuesta A para Vegetarian Dishes",
+        "de": "Antwort A für Vegetarian Dishes",
+        "nl": "Antwoord A voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer B for Vegetarian Dishes",
+        "es": "Respuesta B para Vegetarian Dishes",
+        "de": "Antwort B für Vegetarian Dishes",
+        "nl": "Antwoord B voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer C for Vegetarian Dishes",
+        "es": "Respuesta C para Vegetarian Dishes",
+        "de": "Antwort C für Vegetarian Dishes",
+        "nl": "Antwoord C voor Vegetarian Dishes"
+      },
+      {
+        "en": "Answer D for Vegetarian Dishes",
+        "es": "Respuesta D para Vegetarian Dishes",
+        "de": "Antwort D für Vegetarian Dishes",
+        "nl": "Antwoord D voor Vegetarian Dishes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Vegetarian Dishes.",
+      "es": "Esta es la respuesta correcta sobre Vegetarian Dishes.",
+      "de": "Dies ist die richtige Antwort über Vegetarian Dishes.",
+      "nl": "Dit is het juiste antwoord over Vegetarian Dishes."
+    }
   }
-  return level1;
-})();
+]
+};

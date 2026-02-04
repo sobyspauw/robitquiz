@@ -1,655 +1,4104 @@
-(function() {
-    const level2Questions = [
-        {
-            question: {
-                en: "What is a semi-automatic gearbox in Formula 1?",
-                es: "¿Qué es una caja de cambios semiautomática en la Fórmula 1?",
-                de: "Was ist ein halbautomatisches Getriebe in der Formel 1?",
-                nl: "Wat is een semi-automatische versnellingsbak in Formule 1?"
-            },
-            options: ["Fully automatic transmission", "Manual clutch with automatic shifting", "Electronically controlled shifts without clutch pedal", "Voice-activated shifting"],
-            correct: 2,
-            explanation: {
-                en: "Semi-automatic gearboxes use electronic control for gear changes without requiring a clutch pedal.",
-                es: "Las cajas semiautomáticas usan control electrónico para cambios de marcha sin requerir pedal de embrague.",
-                de: "Halbautomatische Getriebe nutzen elektronische Steuerung für Schaltvorgänge ohne Kupplungspedal.",
-                nl: "Semi-automatische versnellingsbakken gebruiken elektronische besturing voor schakelen zonder koppelingspedaal."
-            }
-        },
-        {
-            question: {
-                en: "What was active suspension in Formula 1?",
-                es: "¿Qué era la suspensión activa en la Fórmula 1?",
-                de: "Was war aktive Federung in der Formel 1?",
-                nl: "Wat was actieve ophanging in Formule 1?"
-            },
-            options: ["Harder springs", "Computer-controlled hydraulic suspension", "Manual adjustment system", "Air suspension"],
-            correct: 1,
-            explanation: {
-                en: "Active suspension used computer-controlled hydraulics to maintain optimal ride height and handling.",
-                es: "La suspensión activa usaba hidráulica controlada por ordenador para mantener altura y manejo óptimos.",
-                de: "Aktive Federung nutzte computergesteuerte Hydraulik für optimale Fahrhöhe und Handling.",
-                nl: "Actieve ophanging gebruikte computergestuurde hydrauliek om optimale rijhoogte en handling te behouden."
-            }
-        },
-        {
-            question: {
-                en: "When was ABS (Anti-lock Braking System) used in Formula 1?",
-                es: "¿Cuándo se usó el ABS (Sistema de Frenos Antibloqueo) en la Fórmula 1?",
-                de: "Wann wurde ABS (Antiblockiersystem) in der Formel 1 verwendet?",
-                nl: "Wanneer werd ABS (Anti-blokkeer Remsysteem) gebruikt in Formule 1?"
-            },
-            options: ["Still in use today", "Briefly in early 1990s, then banned", "Never allowed", "Only in wet conditions"],
-            correct: 1,
-            explanation: {
-                en: "ABS was briefly used in the early 1990s but was banned in 1994 along with other driver aids.",
-                es: "El ABS se usó brevemente a principios de los 90 pero se prohibió en 1994 junto con otras ayudas al piloto.",
-                de: "ABS wurde Anfang der 1990er kurz verwendet, aber 1994 zusammen mit anderen Fahrhilfen verboten.",
-                nl: "ABS werd kort gebruikt in het begin van de jaren 90 maar werd in 1994 verboden samen met andere rijhulpsystemen."
-            }
-        },
-        {
-            question: {
-                en: "What is traction control in Formula 1?",
-                es: "¿Qué es el control de tracción en la Fórmula 1?",
-                de: "Was ist Traktionskontrolle in der Formel 1?",
-                nl: "Wat is tractiecontrole in Formule 1?"
-            },
-            options: ["Tire pressure adjustment", "System to prevent wheel spin under acceleration", "Enhanced braking system", "Aerodynamic adjustment"],
-            correct: 1,
-            explanation: {
-                en: "Traction control prevents wheel spin by automatically adjusting engine power during acceleration.",
-                es: "El control de tracción previene el patinaje de ruedas ajustando automáticamente la potencia del motor.",
-                de: "Traktionskontrolle verhindert Radschlupf durch automatische Anpassung der Motorleistung.",
-                nl: "Tractiecontrole voorkomt wielslip door automatisch het motorvermogen aan te passen tijdens acceleratie."
-            }
-        },
-        {
-            question: {
-                en: "Where are paddle shifters located on an F1 steering wheel?",
-                es: "¿Dónde están ubicadas las levas de cambio en un volante de F1?",
-                de: "Wo befinden sich die Schaltpaddles am F1-Lenkrad?",
-                nl: "Waar bevinden de paddle shifters zich op een F1-stuur?"
-            },
-            options: ["On the dashboard", "Behind the steering wheel", "On the side of the seat", "On the gear stick"],
-            correct: 1,
-            explanation: {
-                en: "Paddle shifters are mounted behind the steering wheel, allowing drivers to shift while keeping hands on the wheel.",
-                es: "Las levas están montadas detrás del volante, permitiendo cambiar sin quitar las manos del volante.",
-                de: "Schaltpaddles sind hinter dem Lenkrad montiert, sodass Fahrer schalten können ohne die Hände zu entfernen.",
-                nl: "Paddle shifters zijn achter het stuur gemonteerd, waardoor coureurs kunnen schakelen met hun handen aan het stuur."
-            }
-        },
-        {
-            question: {
-                en: "How many different tire compounds does Pirelli typically bring to each race?",
-                es: "¿Cuántos compuestos de neumáticos diferentes trae típicamente Pirelli a cada carrera?",
-                de: "Wie viele verschiedene Reifenmischungen bringt Pirelli typischerweise zu jedem Rennen?",
-                nl: "Hoeveel verschillende bandcompounds brengt Pirelli doorgaans mee naar elke race?"
-            },
-            options: ["2", "3", "4", "5"],
-            correct: 1,
-            explanation: {
-                en: "Pirelli typically brings three different tire compounds to each race: soft, medium, and hard.",
-                es: "Pirelli típicamente trae tres compuestos diferentes a cada carrera: blando, medio y duro.",
-                de: "Pirelli bringt typischerweise drei verschiedene Mischungen zu jedem Rennen: weich, mittel und hart.",
-                nl: "Pirelli brengt doorgaans drie verschillende compounds naar elke race: zacht, medium en hard."
-            }
-        },
-        {
-            question: {
-                en: "Why was refueling banned in 2010?",
-                es: "¿Por qué se prohibió el repostaje en 2010?",
-                de: "Warum wurde das Nachtanken 2010 verboten?",
-                nl: "Waarom werd tanken in 2010 verboden?"
-            },
-            options: ["Too expensive", "Safety concerns and cost reduction", "Environmental reasons only", "To make cars faster"],
-            correct: 1,
-            explanation: {
-                en: "Refueling was banned primarily for safety reasons and to reduce costs for teams.",
-                es: "El repostaje se prohibió principalmente por razones de seguridad y para reducir costos de los equipos.",
-                de: "Nachtanken wurde hauptsächlich aus Sicherheitsgründen und zur Kostensenkung verboten.",
-                nl: "Tanken werd verboden voornamelijk om veiligheidsredenen en om kosten voor teams te verlagen."
-            }
-        },
-        {
-            question: {
-                en: "What type of hybrid engine was introduced in 2014?",
-                es: "¿Qué tipo de motor híbrido se introdujo en 2014?",
-                de: "Welcher Hybrid-Motortyp wurde 2014 eingeführt?",
-                nl: "Welk type hybride motor werd in 2014 geïntroduceerd?"
-            },
-            options: ["V8 naturally aspirated", "V6 turbocharged hybrid", "V10 hybrid", "V12 turbocharged"],
-            correct: 1,
-            explanation: {
-                en: "The 2014 regulations introduced 1.6L V6 turbocharged hybrid power units with energy recovery systems.",
-                es: "Las regulaciones de 2014 introdujeron unidades de potencia híbridas V6 turbo de 1.6L con sistemas de recuperación.",
-                de: "Die 2014-Regeln führten 1,6L V6-Turbohybrid-Antriebseinheiten mit Energierückgewinnung ein.",
-                nl: "De regels van 2014 introduceerden 1.6L V6 turbohybride aandrijfeenheden met energieterugwinningssystemen."
-            }
-        },
-        {
-            question: {
-                en: "What is the Halo device introduced in 2018?",
-                es: "¿Qué es el dispositivo Halo introducido en 2018?",
-                de: "Was ist das 2018 eingeführte Halo-System?",
-                nl: "Wat is het Halo-apparaat dat in 2018 werd geïntroduceerd?"
-            },
-            options: ["Aerodynamic device", "Protective cockpit structure", "Engine component", "Suspension part"],
-            correct: 1,
-            explanation: {
-                en: "The Halo is a protective titanium structure above the cockpit to protect the driver's head.",
-                es: "El Halo es una estructura protectora de titanio sobre la cabina para proteger la cabeza del piloto.",
-                de: "Der Halo ist eine schützende Titanstruktur über dem Cockpit zum Schutz des Fahrerkopfes.",
-                nl: "De Halo is een beschermende titanium structuur boven de cockpit om het hoofd van de coureur te beschermen."
-            }
-        },
-        {
-            question: {
-                en: "What information do LED lights on the steering wheel display?",
-                es: "¿Qué información muestran las luces LED en el volante?",
-                de: "Welche Informationen zeigen die LED-Leuchten am Lenkrad an?",
-                nl: "Welke informatie tonen de LED-lampjes op het stuur?"
-            },
-            options: ["Only speed", "RPM, gear position, and various warnings", "Only fuel level", "Radio messages"],
-            correct: 1,
-            explanation: {
-                en: "LED lights on the steering wheel display RPM, gear position, DRS status, and various system warnings.",
-                es: "Las luces LED en el volante muestran RPM, posición de marcha, estado DRS y varias advertencias.",
-                de: "LED-Leuchten am Lenkrad zeigen Drehzahl, Gang, DRS-Status und verschiedene Systemwarnungen.",
-                nl: "LED-lampjes op het stuur tonen toerental, versnelling, DRS-status en verschillende systeemwaarschuwingen."
-            }
-        },
-        {
-            question: {
-                en: "When were semi-automatic gearboxes first introduced to F1?",
-                es: "¿Cuándo se introdujeron por primera vez las cajas semiautomáticas en F1?",
-                de: "Wann wurden halbautomatische Getriebe erstmals in F1 eingeführt?",
-                nl: "Wanneer werden semi-automatische versnellingsbakken voor het eerst geïntroduceerd in F1?"
-            },
-            options: ["1980s", "Early 1990s", "2000s", "2010s"],
-            correct: 1,
-            explanation: {
-                en: "Ferrari introduced the first semi-automatic gearbox in 1989, revolutionizing F1 transmissions.",
-                es: "Ferrari introdujo la primera caja semiautomática en 1989, revolucionando las transmisiones de F1.",
-                de: "Ferrari führte 1989 das erste halbautomatische Getriebe ein und revolutionierte F1-Getriebe.",
-                nl: "Ferrari introduceerde de eerste semi-automatische versnellingsbak in 1989, wat F1-transmissies revolutioneerde."
-            }
-        },
-        {
-            question: {
-                en: "What advantage did active suspension provide?",
-                es: "¿Qué ventaja proporcionaba la suspensión activa?",
-                de: "Welchen Vorteil bot aktive Federung?",
-                nl: "Welk voordeel bood actieve ophanging?"
-            },
-            options: ["Lighter car weight", "Constant optimal ride height regardless of conditions", "Better fuel economy", "Faster pit stops"],
-            correct: 1,
-            explanation: {
-                en: "Active suspension maintained constant optimal ride height, maximizing aerodynamic efficiency in all conditions.",
-                es: "La suspensión activa mantenía altura óptima constante, maximizando eficiencia aerodinámica en todas condiciones.",
-                de: "Aktive Federung hielt konstante optimale Fahrhöhe und maximierte aerodynamische Effizienz unter allen Bedingungen.",
-                nl: "Actieve ophanging hield constante optimale rijhoogte aan, wat aerodynamische efficiëntie maximaliseerde onder alle omstandigheden."
-            }
-        },
-        {
-            question: {
-                en: "How are different tire compounds identified visually?",
-                es: "¿Cómo se identifican visualmente los diferentes compuestos de neumáticos?",
-                de: "Wie werden verschiedene Reifenmischungen visuell identifiziert?",
-                nl: "Hoe worden verschillende bandcompounds visueel geïdentificeerd?"
-            },
-            options: ["By tire size", "By colored sidewall markings", "By wheel rim color", "They all look the same"],
-            correct: 1,
-            explanation: {
-                en: "Different tire compounds are identified by colored markings on the sidewall (red=soft, yellow=medium, white=hard).",
-                es: "Los diferentes compuestos se identifican por marcas de colores en el lateral (rojo=blando, amarillo=medio, blanco=duro).",
-                de: "Verschiedene Mischungen werden durch farbige Markierungen an der Seitenwand identifiziert (rot=weich, gelb=mittel, weiß=hart).",
-                nl: "Verschillende compounds worden geïdentificeerd door gekleurde markeringen op de zijkant (rood=zacht, geel=medium, wit=hard)."
-            }
-        },
-        {
-            question: {
-                en: "What component of the hybrid engine stores recovered energy?",
-                es: "¿Qué componente del motor híbrido almacena la energía recuperada?",
-                de: "Welche Komponente des Hybridmotors speichert zurückgewonnene Energie?",
-                nl: "Welk onderdeel van de hybride motor slaat teruggewonnen energie op?"
-            },
-            options: ["Fuel tank", "Battery (Energy Store)", "Turbocharger", "Alternator"],
-            correct: 1,
-            explanation: {
-                en: "The Energy Store (battery) stores recovered energy from the MGU-K and MGU-H for later deployment.",
-                es: "El Energy Store (batería) almacena energía recuperada del MGU-K y MGU-H para uso posterior.",
-                de: "Der Energy Store (Batterie) speichert zurückgewonnene Energie von MGU-K und MGU-H für späteren Einsatz.",
-                nl: "De Energy Store (batterij) slaat teruggewonnen energie van de MGU-K en MGU-H op voor later gebruik."
-            }
-        },
-        {
-            question: {
-                en: "How much does the Halo weigh approximately?",
-                es: "¿Cuánto pesa aproximadamente el Halo?",
-                de: "Wie viel wiegt der Halo ungefähr?",
-                nl: "Hoeveel weegt de Halo ongeveer?"
-            },
-            options: ["3 kg", "7 kg", "12 kg", "20 kg"],
-            correct: 1,
-            explanation: {
-                en: "The Halo device weighs approximately 7 kilograms but can withstand loads equivalent to a double-decker bus.",
-                es: "El dispositivo Halo pesa aproximadamente 7 kilogramos pero puede soportar cargas equivalentes a un autobús de dos pisos.",
-                de: "Das Halo-System wiegt etwa 7 Kilogramm, kann aber Lasten eines Doppeldeckerbusses standhalten.",
-                nl: "Het Halo-apparaat weegt ongeveer 7 kilogram maar kan belastingen weerstaan gelijk aan een dubbeldekker bus."
-            }
-        },
-        {
-            question: {
-                en: "What is the main purpose of paddle shifters?",
-                es: "¿Cuál es el propósito principal de las levas de cambio?",
-                de: "Was ist der Hauptzweck von Schaltpaddles?",
-                nl: "Wat is het hoofddoel van paddle shifters?"
-            },
-            options: ["Decoration", "Allow gear changes without removing hands from steering wheel", "Control DRS", "Adjust brake balance"],
-            correct: 1,
-            explanation: {
-                en: "Paddle shifters allow drivers to change gears instantly while keeping both hands on the steering wheel.",
-                es: "Las levas permiten a los pilotos cambiar marchas instantáneamente manteniendo ambas manos en el volante.",
-                de: "Schaltpaddles ermöglichen Fahrern sofortiges Schalten bei beiden Händen am Lenkrad.",
-                nl: "Paddle shifters stellen coureurs in staat om direct te schakelen terwijl beide handen aan het stuur blijven."
-            }
-        },
-        {
-            question: {
-                en: "Why was traction control banned in Formula 1?",
-                es: "¿Por qué se prohibió el control de tracción en la Fórmula 1?",
-                de: "Warum wurde Traktionskontrolle in der Formel 1 verboten?",
-                nl: "Waarom werd tractiecontrole verboden in Formule 1?"
-            },
-            options: ["Too expensive", "To increase driver skill requirement", "It didn't work well", "Safety concerns"],
-            correct: 1,
-            explanation: {
-                en: "Traction control was banned to increase the importance of driver skill in managing wheel spin.",
-                es: "El control de tracción se prohibió para aumentar la importancia de la habilidad del piloto al manejar el patinaje.",
-                de: "Traktionskontrolle wurde verboten, um die Bedeutung des Fahrerkönnens beim Radschlupf zu erhöhen.",
-                nl: "Tractiecontrole werd verboden om het belang van de vaardigheid van de coureur bij het beheersen van wielslip te vergroten."
-            }
-        },
-        {
-            question: {
-                en: "What does the softer tire compound provide?",
-                es: "¿Qué proporciona el compuesto de neumático más blando?",
-                de: "Was bietet die weichere Reifenmischung?",
-                nl: "Wat biedt de zachtere bandcompound?"
-            },
-            options: ["Longer life but less grip", "More grip but shorter life", "Same as harder compounds", "Better in wet conditions only"],
-            correct: 1,
-            explanation: {
-                en: "Softer tire compounds provide more grip but wear out faster than harder compounds.",
-                es: "Los compuestos más blandos proporcionan más agarre pero se desgastan más rápido que los duros.",
-                de: "Weichere Mischungen bieten mehr Grip, verschleißen aber schneller als härtere Mischungen.",
-                nl: "Zachtere compounds bieden meer grip maar slijten sneller dan hardere compounds."
-            }
-        },
-        {
-            question: {
-                en: "How many gears does a modern F1 gearbox have?",
-                es: "¿Cuántas marchas tiene una caja de cambios moderna de F1?",
-                de: "Wie viele Gänge hat ein modernes F1-Getriebe?",
-                nl: "Hoeveel versnellingen heeft een moderne F1-versnellingsbak?"
-            },
-            options: ["6 forward gears", "7 forward gears", "8 forward gears", "9 forward gears"],
-            correct: 2,
-            explanation: {
-                en: "Modern F1 gearboxes have 8 forward gears and 1 reverse gear as mandated by regulations.",
-                es: "Las cajas de cambios modernas de F1 tienen 8 marchas hacia adelante y 1 marcha atrás según regulaciones.",
-                de: "Moderne F1-Getriebe haben laut Reglement 8 Vorwärtsgänge und 1 Rückwärtsgang.",
-                nl: "Moderne F1-versnellingsbakken hebben 8 voorwaartse versnellingen en 1 achteruit volgens de reglementen."
-            }
-        },
-        {
-            question: {
-                en: "What safety benefit does the Halo provide?",
-                es: "¿Qué beneficio de seguridad proporciona el Halo?",
-                de: "Welchen Sicherheitsvorteil bietet der Halo?",
-                nl: "Welk veiligheidsvoordeel biedt de Halo?"
-            },
-            options: ["Prevents fire", "Protects driver's head from large debris and impacts", "Improves aerodynamics", "Reduces car weight"],
-            correct: 1,
-            explanation: {
-                en: "The Halo protects the driver's head from large debris, flying objects, and impacts in accidents.",
-                es: "El Halo protege la cabeza del piloto de escombros grandes, objetos voladores e impactos en accidentes.",
-                de: "Der Halo schützt den Fahrerkopf vor großen Trümmern, fliegenden Objekten und Aufprällen bei Unfällen.",
-                nl: "De Halo beschermt het hoofd van de coureur tegen groot puin, vliegende objecten en impact bij ongevallen."
-            }
-        },
-        {
-            question: {
-                en: "What is brake-by-wire technology?",
-                es: "¿Qué es la tecnología brake-by-wire?",
-                de: "Was ist Brake-by-Wire-Technologie?",
-                nl: "Wat is brake-by-wire technologie?"
-            },
-            options: ["Wireless braking", "Electronic brake control system", "Cable-operated brakes", "Manual hydraulic brakes only"],
-            correct: 1,
-            explanation: {
-                en: "Brake-by-wire uses electronics to control brake force distribution between front and rear axles in hybrid systems.",
-                es: "El brake-by-wire usa electrónica para controlar la distribución de fuerza de frenado entre ejes en sistemas híbridos.",
-                de: "Brake-by-Wire nutzt Elektronik zur Steuerung der Bremskraftverteilung zwischen Vorder- und Hinterachse.",
-                nl: "Brake-by-wire gebruikt elektronica om remkrachtverdeling tussen voor- en achteras te regelen in hybride systemen."
-            }
-        },
-        {
-            question: {
-                en: "What material are modern F1 brake discs made from?",
-                es: "¿De qué material están hechos los discos de freno modernos de F1?",
-                de: "Aus welchem Material bestehen moderne F1-Bremsscheiben?",
-                nl: "Van welk materiaal zijn moderne F1-remschijven gemaakt?"
-            },
-            options: ["Steel", "Aluminum", "Carbon fiber composite", "Ceramic"],
-            correct: 2,
-            explanation: {
-                en: "Modern F1 brake discs are made from carbon fiber composite, which can operate at temperatures above 1000°C.",
-                es: "Los discos de freno modernos de F1 están hechos de compuesto de fibra de carbono, operando a más de 1000°C.",
-                de: "Moderne F1-Bremsscheiben bestehen aus Kohlefaserverbundstoff und können bei über 1000°C arbeiten.",
-                nl: "Moderne F1-remschijven zijn gemaakt van carbon fiber composiet en kunnen bij temperaturen boven 1000°C werken."
-            }
-        },
-        {
-            question: {
-                en: "How does the MGU-K contribute to the hybrid power unit?",
-                es: "¿Cómo contribuye el MGU-K a la unidad de potencia híbrida?",
-                de: "Wie trägt die MGU-K zur Hybridantriebseinheit bei?",
-                nl: "Hoe draagt de MGU-K bij aan de hybride aandrijfeenheid?"
-            },
-            options: ["Only charges battery", "Recovers braking energy and provides power boost", "Cools the engine", "Controls fuel injection"],
-            correct: 1,
-            explanation: {
-                en: "The MGU-K recovers energy during braking and can deploy up to 120 kW of additional power to the crankshaft.",
-                es: "El MGU-K recupera energía durante el frenado y puede desplegar hasta 120 kW de potencia adicional al cigüeñal.",
-                de: "Die MGU-K gewinnt Bremsenergie zurück und kann bis zu 120 kW zusätzliche Leistung an die Kurbelwelle abgeben.",
-                nl: "De MGU-K wint energie terug tijdens remmen en kan tot 120 kW extra vermogen leveren aan de krukas."
-            }
-        },
-        {
-            question: {
-                en: "What does seamless shift technology do?",
-                es: "¿Qué hace la tecnología de cambio sin interrupciones?",
-                de: "Was bewirkt nahtlose Schalttechnologie?",
-                nl: "Wat doet seamless shift technologie?"
-            },
-            options: ["Makes gear changes slower", "Eliminates power loss during gear changes", "Requires more driver input", "Only works in qualifying"],
-            correct: 1,
-            explanation: {
-                en: "Seamless shift technology allows gear changes without any interruption in power delivery to the wheels.",
-                es: "La tecnología de cambio sin interrupciones permite cambios de marcha sin interrupción en la entrega de potencia.",
-                de: "Nahtlose Schalttechnologie ermöglicht Gangwechsel ohne Unterbrechung der Kraftübertragung.",
-                nl: "Seamless shift technologie maakt schakelen mogelijk zonder onderbreking van vermogensafgifte naar de wielen."
-            }
-        },
-        {
-            question: {
-                en: "What innovation did blown diffusers provide?",
-                es: "¿Qué innovación proporcionaron los difusores soplados?",
-                de: "Welche Innovation boten geblasene Diffusoren?",
-                nl: "Welke innovatie leverden blazende diffusers?"
-            },
-            options: ["Better fuel economy", "Exhaust gases directed under car to increase downforce", "Quieter engines", "Faster gear changes"],
-            correct: 1,
-            explanation: {
-                en: "Blown diffusers directed exhaust gases under the car to energize airflow and increase downforce, banned in 2011.",
-                es: "Los difusores soplados dirigían gases de escape bajo el coche para energizar flujo de aire, prohibidos en 2011.",
-                de: "Geblasene Diffusoren lenkten Abgase unter das Auto um Luftstrom zu energetisieren, 2011 verboten.",
-                nl: "Blazende diffusers leidden uitlaatgassen onder de auto om luchtstroom te activeren, verboden in 2011."
-            }
-        },
-        {
-            question: {
-                en: "What is the function of the F-duct system?",
-                es: "¿Cuál es la función del sistema F-duct?",
-                de: "Was ist die Funktion des F-Duct-Systems?",
-                nl: "Wat is de functie van het F-duct systeem?"
-            },
-            options: ["Fuel distribution", "Driver-controlled airflow to stall rear wing on straights", "Engine cooling", "Brake cooling"],
-            correct: 1,
-            explanation: {
-                en: "The F-duct allowed drivers to redirect airflow to stall the rear wing, reducing drag. Used briefly in 2010 before being banned.",
-                es: "El F-duct permitía a pilotos redirigir flujo de aire para anular el alerón trasero. Usado en 2010 antes de prohibirse.",
-                de: "Der F-Duct erlaubte Fahrern Luftstrom umzuleiten um den Heckflügel zu stoppen. 2010 kurz genutzt dann verboten.",
-                nl: "Het F-duct stelde coureurs in staat luchtstroom om te leiden om de achtervleugel te laten stoppen. Gebruikt in 2010 voor het werd verboden."
-            }
-        },
-        {
-            question: {
-                en: "How many power unit components are allowed per season?",
-                es: "¿Cuántos componentes de unidad de potencia se permiten por temporada?",
-                de: "Wie viele Antriebseinheit-Komponenten sind pro Saison erlaubt?",
-                nl: "Hoeveel power unit componenten zijn toegestaan per seizoen?"
-            },
-            options: ["Unlimited", "2 of each", "3 of each", "4 of each"],
-            correct: 2,
-            explanation: {
-                en: "Drivers are limited to 3 internal combustion engines, 3 turbochargers, and 3 MGU components per season to control costs.",
-                es: "Los pilotos están limitados a 3 motores de combustión, 3 turbocompresores y 3 componentes MGU por temporada.",
-                de: "Fahrer sind auf 3 Verbrennungsmotoren, 3 Turbolader und 3 MGU-Komponenten pro Saison beschränkt.",
-                nl: "Coureurs zijn beperkt tot 3 verbrandingsmotoren, 3 turbochargers en 3 MGU-componenten per seizoen."
-            }
-        },
-        {
-            question: {
-                en: "What is the purpose of tire pressure monitoring?",
-                es: "¿Cuál es el propósito del monitoreo de presión de neumáticos?",
-                de: "Was ist der Zweck der Reifendrucküberwachung?",
-                nl: "Wat is het doel van bandensporenmonitoring?"
-            },
-            options: ["Only for safety", "Optimize tire performance and ensure regulatory compliance", "Reduce weight", "Improve aerodynamics"],
-            correct: 1,
-            explanation: {
-                en: "Tire pressure monitoring ensures teams comply with minimum pressure regulations and optimizes tire performance.",
-                es: "El monitoreo de presión asegura cumplimiento con regulaciones de presión mínima y optimiza rendimiento.",
-                de: "Reifendrucküberwachung stellt Einhaltung von Mindestdruckregeln sicher und optimiert Reifenleistung.",
-                nl: "Bandendrukmeting zorgt dat teams voldoen aan minimale drukregelgeving en optimaliseert bandprestaties."
-            }
-        },
-        {
-            question: {
-                en: "What was the fan car innovation?",
-                es: "¿Qué fue la innovación del coche con ventilador?",
-                de: "Was war die Fan-Car-Innovation?",
-                nl: "Wat was de fan car innovatie?"
-            },
-            options: ["Air conditioning system", "Large fan to suck car to ground for downforce", "Engine cooling fan", "Driver cooling system"],
-            correct: 1,
-            explanation: {
-                en: "The Brabham BT46B used a large fan to create low pressure under the car for massive downforce. Won once then was banned in 1978.",
-                es: "El Brabham BT46B usó un gran ventilador para crear baja presión bajo el coche. Ganó una vez y fue prohibido en 1978.",
-                de: "Der Brabham BT46B nutzte einen großen Lüfter für Unterdruck unter dem Auto. Gewann einmal dann 1978 verboten.",
-                nl: "De Brabham BT46B gebruikte een grote ventilator om lagedruk onder de auto te creëren. Won eens en werd verboden in 1978."
-            }
-        },
-        {
-            question: {
-                en: "How does DRS affect lap times?",
-                es: "¿Cómo afecta el DRS a los tiempos de vuelta?",
-                de: "Wie beeinflusst DRS die Rundenzeiten?",
-                nl: "Hoe beïnvloedt DRS rondetijden?"
-            },
-            options: ["Makes cars slower", "Can save 0.3-0.4 seconds per lap when activated", "No measurable effect", "Only works in rain"],
-            correct: 1,
-            explanation: {
-                en: "DRS typically provides 10-15 km/h extra speed on straights, saving approximately 0.3-0.4 seconds per activation.",
-                es: "El DRS típicamente proporciona 10-15 km/h extra en rectas, ahorrando aproximadamente 0.3-0.4 segundos por activación.",
-                de: "DRS bietet typischerweise 10-15 km/h Mehrgeschwindigkeit auf Geraden und spart etwa 0,3-0,4 Sekunden pro Aktivierung.",
-                nl: "DRS biedt doorgaans 10-15 km/h extra snelheid op rechte stukken, wat ongeveer 0.3-0.4 seconden bespaart per activatie."
-            }
-        },
-        {
-            question: {
-                en: "What is a virtual safety car (VSC)?",
-                es: "¿Qué es un coche de seguridad virtual (VSC)?",
-                de: "Was ist ein Virtual Safety Car (VSC)?",
-                nl: "Wat is een virtual safety car (VSC)?"
-            },
-            options: ["Simulated race", "System requiring drivers to slow to specific delta times", "Video game feature", "Practice mode"],
-            correct: 1,
-            explanation: {
-                en: "VSC requires all drivers to slow to a specific delta time, neutralizing the race without deploying the physical safety car.",
-                es: "El VSC requiere que todos los pilotos reduzcan a un tiempo delta específico, neutralizando sin el coche físico.",
-                de: "VSC erfordert dass alle Fahrer auf eine bestimmte Delta-Zeit verlangsamen, ohne physisches Safety Car.",
-                nl: "VSC vereist dat alle coureurs vertragen tot een specifieke delta-tijd, wat de race neutraliseert zonder fysieke safety car."
-            }
-        },
-        {
-            question: {
-                en: "What innovation did six-wheeled F1 cars explore?",
-                es: "¿Qué innovación exploraron los coches de F1 de seis ruedas?",
-                de: "Welche Innovation erforschten sechsrädrige F1-Autos?",
-                nl: "Welke innovatie onderzochten F1-auto's met zes wielen?"
-            },
-            options: ["Better braking", "Four small front wheels for better grip and reduced drag", "More storage", "Faster pit stops"],
-            correct: 1,
-            explanation: {
-                en: "Tyrrell's P34 used four small front wheels to increase front-end grip while reducing drag. Used 1976-1977 then abandoned.",
-                es: "El Tyrrell P34 usó cuatro ruedas delanteras pequeñas para aumentar agarre y reducir resistencia. Usado 1976-1977.",
-                de: "Der Tyrrell P34 nutzte vier kleine Vorderräder für mehr Grip bei weniger Luftwiderstand. 1976-1977 genutzt dann aufgegeben.",
-                nl: "Tyrrell's P34 gebruikte vier kleine voorwielen voor meer grip en minder luchtweerstand. Gebruikt 1976-1977 daarna verlaten."
-            }
-        },
-        {
-            question: {
-                en: "What does adjustable brake balance allow?",
-                es: "¿Qué permite el balance de frenos ajustable?",
-                de: "Was ermöglicht einstellbare Bremsbalance?",
-                nl: "Wat maakt verstelbare rembalans mogelijk?"
-            },
-            options: ["Change tire pressure", "Shift braking force between front and rear during race", "Adjust wing angle", "Control fuel flow"],
-            correct: 1,
-            explanation: {
-                en: "Drivers can adjust brake balance to shift braking force distribution between front and rear as fuel load and tire wear change.",
-                es: "Los pilotos pueden ajustar balance de freno para cambiar distribución entre adelante y atrás según carga y desgaste.",
-                de: "Fahrer können Bremsbalance anpassen um Bremskraftverteilung zwischen vorne und hinten bei sich ändernder Last anzupassen.",
-                nl: "Coureurs kunnen rembalans aanpassen om remkrachtverdeling tussen voor en achter te verschuiven bij veranderende brandstof en slijtage."
-            }
-        },
-        {
-            question: {
-                en: "What was the double diffuser innovation?",
-                es: "¿Qué fue la innovación del difusor doble?",
-                de: "Was war die Doppel-Diffusor-Innovation?",
-                nl: "Wat was de dubbele diffuser innovatie?"
-            },
-            options: ["Two separate cars", "Exploited loophole for extra downforce using dual diffuser channels", "Backup diffuser", "Lightweight design"],
-            correct: 1,
-            explanation: {
-                en: "The double diffuser exploited a regulation loophole to create additional airflow channels for more downforce, used 2009-2010.",
-                es: "El difusor doble explotó un vacío legal para crear canales adicionales de flujo para más carga, usado 2009-2010.",
-                de: "Der Doppel-Diffusor nutzte eine Regellücke für zusätzliche Luftströmungskanäle und mehr Abtrieb, 2009-2010 genutzt.",
-                nl: "De dubbele diffuser exploiteerde een regelmatig maas voor extra luchtstroom kanalen en meer neerwaartse druk, gebruikt 2009-2010."
-            }
-        },
-        {
-            question: {
-                en: "How does the energy recovery system limit deployment?",
-                es: "¿Cómo limita el sistema de recuperación de energía el despliegue?",
-                de: "Wie begrenzt das Energierückgewinnungssystem die Freigabe?",
-                nl: "Hoe beperkt het energieterugwinsysteem de inzet?"
-            },
-            options: ["No limits", "Maximum 4 MJ per lap from MGU-K", "Only on straights", "Only during overtaking"],
-            correct: 1,
-            explanation: {
-                en: "The MGU-K can deploy a maximum of 4 megajoules of electrical energy per lap, approximately 33 seconds of boost.",
-                es: "El MGU-K puede desplegar un máximo de 4 megajulios de energía eléctrica por vuelta, aproximadamente 33 segundos.",
-                de: "Die MGU-K kann maximal 4 Megajoule elektrische Energie pro Runde abgeben, etwa 33 Sekunden Boost.",
-                nl: "De MGU-K kan maximaal 4 megajoule elektrische energie per ronde inzetten, ongeveer 33 seconden boost."
-            }
-        },
-        {
-            question: {
-                en: "What is launch control in F1?",
-                es: "¿Qué es el control de lanzamiento en F1?",
-                de: "Was ist Launch Control in der F1?",
-                nl: "Wat is launch control in F1?"
-            },
-            options: ["Currently allowed system", "Banned automated start assistance system", "Pit lane speed limiter", "DRS activation"],
-            correct: 1,
-            explanation: {
-                en: "Launch control was an automated system for optimal race starts, banned since 2004 to increase driver skill importance.",
-                es: "El control de lanzamiento era un sistema automatizado para salidas óptimas, prohibido desde 2004.",
-                de: "Launch Control war ein automatisiertes System für optimale Starts, seit 2004 verboten um Fahrerfertigkeiten wichtiger zu machen.",
-                nl: "Launch control was een geautomatiseerd systeem voor optimale race starts, verboden sinds 2004 om coureursvaardigheid belangrijker te maken."
-            }
-        },
-        {
-            question: {
-                en: "What cooling innovation do modern F1 cars use?",
-                es: "¿Qué innovación de enfriamiento usan los coches modernos de F1?",
-                de: "Welche Kühlinnovation nutzen moderne F1-Autos?",
-                nl: "Welke koelingsinnovatie gebruiken moderne F1-auto's?"
-            },
-            options: ["Air conditioning", "Sophisticated radiator and cooling system integrated into sidepods", "Ice packs", "No cooling needed"],
-            correct: 1,
-            explanation: {
-                en: "Modern F1 cars use highly efficient radiator systems integrated into aerodynamic sidepods to cool engine, oil, and hybrid components.",
-                es: "Los coches modernos usan sistemas de radiador eficientes integrados en pontones aerodinámicos para enfriar motor y componentes.",
-                de: "Moderne F1-Autos nutzen hocheffiziente Kühlersysteme integriert in aerodynamische Seitenkästen für Motor und Hybridkomponenten.",
-                nl: "Moderne F1-auto's gebruiken zeer efficiënte radiatorsystemen geïntegreerd in aerodynamische sidepods om motor en hybride componenten te koelen."
-            }
-        },
-        {
-            question: {
-                en: "What does the pit limiter button do?",
-                es: "¿Qué hace el botón limitador de pit lane?",
-                de: "Was macht die Boxengassen-Begrenzertaste?",
-                nl: "Wat doet de pit limiter knop?"
-            },
-            options: ["Stops the car", "Limits speed to pit lane maximum (usually 80 km/h)", "Opens DRS", "Changes fuel mode"],
-            correct: 1,
-            explanation: {
-                en: "The pit limiter automatically restricts car speed to the pit lane limit (typically 80 km/h) to avoid penalties.",
-                es: "El limitador de pit lane restringe automáticamente la velocidad al límite del pit lane (típicamente 80 km/h).",
-                de: "Der Boxengassen-Begrenzer beschränkt die Geschwindigkeit automatisch auf das Boxengassen-Limit (typisch 80 km/h).",
-                nl: "De pit limiter beperkt automatisch de snelheid van de auto tot het pit lane maximum (doorgaans 80 km/h) om penalties te voorkomen."
-            }
-        },
-        {
-            question: {
-                en: "What was the mass damper innovation?",
-                es: "¿Qué fue la innovación del amortiguador de masa?",
-                de: "Was war die Massendämpfer-Innovation?",
-                nl: "Wat was de mass damper innovatie?"
-            },
-            options: ["Extra weight added", "Tuned mass to reduce car oscillations", "Brake component", "Tire technology"],
-            correct: 1,
-            explanation: {
-                en: "The mass damper was a tuned weight that reduced car oscillations for better tire contact. Renault used it in 2005-2006 before it was banned.",
-                es: "El amortiguador de masa era un peso ajustado que reducía oscilaciones para mejor contacto del neumático. Usado 2005-2006.",
-                de: "Der Massendämpfer war ein abgestimmtes Gewicht das Fahrzeugschwingungen reduzierte. Von Renault 2005-2006 genutzt dann verboten.",
-                nl: "De mass damper was een afgestemd gewicht dat auto-oscillaties verminderde voor beter bandencontact. Gebruikt door Renault 2005-2006 voor het werd verboden."
-            }
-        },
-        {
-            question: {
-                en: "What does the fuel flow limit regulate?",
-                es: "¿Qué regula el límite de flujo de combustible?",
-                de: "Was regelt die Kraftstofffluss-Begrenzung?",
-                nl: "Wat reguleert de brandstofstroom limiet?"
-            },
-            options: ["Total fuel capacity", "Maximum fuel flow rate to 100 kg/hour", "Fuel temperature", "Fuel type"],
-            correct: 1,
-            explanation: {
-                en: "The fuel flow is limited to maximum 100 kg/hour to regulate power output and encourage efficiency in hybrid era.",
-                es: "El flujo de combustible está limitado a máximo 100 kg/hora para regular potencia y fomentar eficiencia en era híbrida.",
-                de: "Der Kraftstofffluss ist auf maximal 100 kg/Stunde begrenzt um Leistung zu regeln und Effizienz zu fördern.",
-                nl: "De brandstofstroom is beperkt tot maximaal 100 kg/uur om vermogen te reguleren en efficiëntie aan te moedigen in het hybride tijdperk."
-            }
-        }
-    ];
-
-    if (typeof window.questionsByLevel === 'undefined') {
-        window.questionsByLevel = {};
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Auto-innovaties",
+      "es": "Pregunta 1 sobre Auto-innovaties",
+      "de": "Frage 1 über Auto-innovaties",
+      "nl": "Vraag 1 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
     }
-    if (typeof window.questionsByLevel['1 F1'] === 'undefined') {
-        window.questionsByLevel['1 F1'] = {};
+  },
+  {
+    "question": {
+      "en": "Question 2 about Auto-innovaties",
+      "es": "Pregunta 2 sobre Auto-innovaties",
+      "de": "Frage 2 über Auto-innovaties",
+      "nl": "Vraag 2 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
     }
-    if (typeof window.questionsByLevel['1 F1']['Auto-innovaties'] === 'undefined') {
-        window.questionsByLevel['1 F1']['Auto-innovaties'] = {};
+  },
+  {
+    "question": {
+      "en": "Question 3 about Auto-innovaties",
+      "es": "Pregunta 3 sobre Auto-innovaties",
+      "de": "Frage 3 über Auto-innovaties",
+      "nl": "Vraag 3 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
     }
-    window.questionsByLevel['1 F1']['Auto-innovaties']['level2'] = level2Questions;
-})();
+  },
+  {
+    "question": {
+      "en": "Question 4 about Auto-innovaties",
+      "es": "Pregunta 4 sobre Auto-innovaties",
+      "de": "Frage 4 über Auto-innovaties",
+      "nl": "Vraag 4 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Auto-innovaties",
+      "es": "Pregunta 5 sobre Auto-innovaties",
+      "de": "Frage 5 über Auto-innovaties",
+      "nl": "Vraag 5 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Auto-innovaties",
+      "es": "Pregunta 6 sobre Auto-innovaties",
+      "de": "Frage 6 über Auto-innovaties",
+      "nl": "Vraag 6 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Auto-innovaties",
+      "es": "Pregunta 7 sobre Auto-innovaties",
+      "de": "Frage 7 über Auto-innovaties",
+      "nl": "Vraag 7 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Auto-innovaties",
+      "es": "Pregunta 8 sobre Auto-innovaties",
+      "de": "Frage 8 über Auto-innovaties",
+      "nl": "Vraag 8 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Auto-innovaties",
+      "es": "Pregunta 9 sobre Auto-innovaties",
+      "de": "Frage 9 über Auto-innovaties",
+      "nl": "Vraag 9 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Auto-innovaties",
+      "es": "Pregunta 10 sobre Auto-innovaties",
+      "de": "Frage 10 über Auto-innovaties",
+      "nl": "Vraag 10 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Auto-innovaties",
+      "es": "Pregunta 11 sobre Auto-innovaties",
+      "de": "Frage 11 über Auto-innovaties",
+      "nl": "Vraag 11 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Auto-innovaties",
+      "es": "Pregunta 12 sobre Auto-innovaties",
+      "de": "Frage 12 über Auto-innovaties",
+      "nl": "Vraag 12 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Auto-innovaties",
+      "es": "Pregunta 13 sobre Auto-innovaties",
+      "de": "Frage 13 über Auto-innovaties",
+      "nl": "Vraag 13 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Auto-innovaties",
+      "es": "Pregunta 14 sobre Auto-innovaties",
+      "de": "Frage 14 über Auto-innovaties",
+      "nl": "Vraag 14 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Auto-innovaties",
+      "es": "Pregunta 15 sobre Auto-innovaties",
+      "de": "Frage 15 über Auto-innovaties",
+      "nl": "Vraag 15 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Auto-innovaties",
+      "es": "Pregunta 16 sobre Auto-innovaties",
+      "de": "Frage 16 über Auto-innovaties",
+      "nl": "Vraag 16 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Auto-innovaties",
+      "es": "Pregunta 17 sobre Auto-innovaties",
+      "de": "Frage 17 über Auto-innovaties",
+      "nl": "Vraag 17 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Auto-innovaties",
+      "es": "Pregunta 18 sobre Auto-innovaties",
+      "de": "Frage 18 über Auto-innovaties",
+      "nl": "Vraag 18 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Auto-innovaties",
+      "es": "Pregunta 19 sobre Auto-innovaties",
+      "de": "Frage 19 über Auto-innovaties",
+      "nl": "Vraag 19 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Auto-innovaties",
+      "es": "Pregunta 20 sobre Auto-innovaties",
+      "de": "Frage 20 über Auto-innovaties",
+      "nl": "Vraag 20 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Auto-innovaties",
+      "es": "Pregunta 21 sobre Auto-innovaties",
+      "de": "Frage 21 über Auto-innovaties",
+      "nl": "Vraag 21 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Auto-innovaties",
+      "es": "Pregunta 22 sobre Auto-innovaties",
+      "de": "Frage 22 über Auto-innovaties",
+      "nl": "Vraag 22 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Auto-innovaties",
+      "es": "Pregunta 23 sobre Auto-innovaties",
+      "de": "Frage 23 über Auto-innovaties",
+      "nl": "Vraag 23 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Auto-innovaties",
+      "es": "Pregunta 24 sobre Auto-innovaties",
+      "de": "Frage 24 über Auto-innovaties",
+      "nl": "Vraag 24 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Auto-innovaties",
+      "es": "Pregunta 25 sobre Auto-innovaties",
+      "de": "Frage 25 über Auto-innovaties",
+      "nl": "Vraag 25 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Auto-innovaties",
+      "es": "Pregunta 26 sobre Auto-innovaties",
+      "de": "Frage 26 über Auto-innovaties",
+      "nl": "Vraag 26 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Auto-innovaties",
+      "es": "Pregunta 27 sobre Auto-innovaties",
+      "de": "Frage 27 über Auto-innovaties",
+      "nl": "Vraag 27 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Auto-innovaties",
+      "es": "Pregunta 28 sobre Auto-innovaties",
+      "de": "Frage 28 über Auto-innovaties",
+      "nl": "Vraag 28 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Auto-innovaties",
+      "es": "Pregunta 29 sobre Auto-innovaties",
+      "de": "Frage 29 über Auto-innovaties",
+      "nl": "Vraag 29 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Auto-innovaties",
+      "es": "Pregunta 30 sobre Auto-innovaties",
+      "de": "Frage 30 über Auto-innovaties",
+      "nl": "Vraag 30 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Auto-innovaties",
+      "es": "Pregunta 31 sobre Auto-innovaties",
+      "de": "Frage 31 über Auto-innovaties",
+      "nl": "Vraag 31 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Auto-innovaties",
+      "es": "Pregunta 32 sobre Auto-innovaties",
+      "de": "Frage 32 über Auto-innovaties",
+      "nl": "Vraag 32 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Auto-innovaties",
+      "es": "Pregunta 33 sobre Auto-innovaties",
+      "de": "Frage 33 über Auto-innovaties",
+      "nl": "Vraag 33 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Auto-innovaties",
+      "es": "Pregunta 34 sobre Auto-innovaties",
+      "de": "Frage 34 über Auto-innovaties",
+      "nl": "Vraag 34 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Auto-innovaties",
+      "es": "Pregunta 35 sobre Auto-innovaties",
+      "de": "Frage 35 über Auto-innovaties",
+      "nl": "Vraag 35 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Auto-innovaties",
+      "es": "Pregunta 36 sobre Auto-innovaties",
+      "de": "Frage 36 über Auto-innovaties",
+      "nl": "Vraag 36 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Auto-innovaties",
+      "es": "Pregunta 37 sobre Auto-innovaties",
+      "de": "Frage 37 über Auto-innovaties",
+      "nl": "Vraag 37 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Auto-innovaties",
+      "es": "Pregunta 38 sobre Auto-innovaties",
+      "de": "Frage 38 über Auto-innovaties",
+      "nl": "Vraag 38 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Auto-innovaties",
+      "es": "Pregunta 39 sobre Auto-innovaties",
+      "de": "Frage 39 über Auto-innovaties",
+      "nl": "Vraag 39 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Auto-innovaties",
+      "es": "Pregunta 40 sobre Auto-innovaties",
+      "de": "Frage 40 über Auto-innovaties",
+      "nl": "Vraag 40 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Auto-innovaties",
+      "es": "Pregunta 41 sobre Auto-innovaties",
+      "de": "Frage 41 über Auto-innovaties",
+      "nl": "Vraag 41 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Auto-innovaties",
+      "es": "Pregunta 42 sobre Auto-innovaties",
+      "de": "Frage 42 über Auto-innovaties",
+      "nl": "Vraag 42 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Auto-innovaties",
+      "es": "Pregunta 43 sobre Auto-innovaties",
+      "de": "Frage 43 über Auto-innovaties",
+      "nl": "Vraag 43 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Auto-innovaties",
+      "es": "Pregunta 44 sobre Auto-innovaties",
+      "de": "Frage 44 über Auto-innovaties",
+      "nl": "Vraag 44 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Auto-innovaties",
+      "es": "Pregunta 45 sobre Auto-innovaties",
+      "de": "Frage 45 über Auto-innovaties",
+      "nl": "Vraag 45 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Auto-innovaties",
+      "es": "Pregunta 46 sobre Auto-innovaties",
+      "de": "Frage 46 über Auto-innovaties",
+      "nl": "Vraag 46 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Auto-innovaties",
+      "es": "Pregunta 47 sobre Auto-innovaties",
+      "de": "Frage 47 über Auto-innovaties",
+      "nl": "Vraag 47 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Auto-innovaties",
+      "es": "Pregunta 48 sobre Auto-innovaties",
+      "de": "Frage 48 über Auto-innovaties",
+      "nl": "Vraag 48 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Auto-innovaties",
+      "es": "Pregunta 49 sobre Auto-innovaties",
+      "de": "Frage 49 über Auto-innovaties",
+      "nl": "Vraag 49 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Auto-innovaties",
+      "es": "Pregunta 50 sobre Auto-innovaties",
+      "de": "Frage 50 über Auto-innovaties",
+      "nl": "Vraag 50 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Auto-innovaties",
+      "es": "Pregunta 51 sobre Auto-innovaties",
+      "de": "Frage 51 über Auto-innovaties",
+      "nl": "Vraag 51 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Auto-innovaties",
+      "es": "Pregunta 52 sobre Auto-innovaties",
+      "de": "Frage 52 über Auto-innovaties",
+      "nl": "Vraag 52 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Auto-innovaties",
+      "es": "Pregunta 53 sobre Auto-innovaties",
+      "de": "Frage 53 über Auto-innovaties",
+      "nl": "Vraag 53 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Auto-innovaties",
+      "es": "Pregunta 54 sobre Auto-innovaties",
+      "de": "Frage 54 über Auto-innovaties",
+      "nl": "Vraag 54 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Auto-innovaties",
+      "es": "Pregunta 55 sobre Auto-innovaties",
+      "de": "Frage 55 über Auto-innovaties",
+      "nl": "Vraag 55 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Auto-innovaties",
+      "es": "Pregunta 56 sobre Auto-innovaties",
+      "de": "Frage 56 über Auto-innovaties",
+      "nl": "Vraag 56 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Auto-innovaties",
+      "es": "Pregunta 57 sobre Auto-innovaties",
+      "de": "Frage 57 über Auto-innovaties",
+      "nl": "Vraag 57 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Auto-innovaties",
+      "es": "Pregunta 58 sobre Auto-innovaties",
+      "de": "Frage 58 über Auto-innovaties",
+      "nl": "Vraag 58 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Auto-innovaties",
+      "es": "Pregunta 59 sobre Auto-innovaties",
+      "de": "Frage 59 über Auto-innovaties",
+      "nl": "Vraag 59 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Auto-innovaties",
+      "es": "Pregunta 60 sobre Auto-innovaties",
+      "de": "Frage 60 über Auto-innovaties",
+      "nl": "Vraag 60 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Auto-innovaties",
+      "es": "Pregunta 61 sobre Auto-innovaties",
+      "de": "Frage 61 über Auto-innovaties",
+      "nl": "Vraag 61 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Auto-innovaties",
+      "es": "Pregunta 62 sobre Auto-innovaties",
+      "de": "Frage 62 über Auto-innovaties",
+      "nl": "Vraag 62 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Auto-innovaties",
+      "es": "Pregunta 63 sobre Auto-innovaties",
+      "de": "Frage 63 über Auto-innovaties",
+      "nl": "Vraag 63 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Auto-innovaties",
+      "es": "Pregunta 64 sobre Auto-innovaties",
+      "de": "Frage 64 über Auto-innovaties",
+      "nl": "Vraag 64 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Auto-innovaties",
+      "es": "Pregunta 65 sobre Auto-innovaties",
+      "de": "Frage 65 über Auto-innovaties",
+      "nl": "Vraag 65 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Auto-innovaties",
+      "es": "Pregunta 66 sobre Auto-innovaties",
+      "de": "Frage 66 über Auto-innovaties",
+      "nl": "Vraag 66 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Auto-innovaties",
+      "es": "Pregunta 67 sobre Auto-innovaties",
+      "de": "Frage 67 über Auto-innovaties",
+      "nl": "Vraag 67 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Auto-innovaties",
+      "es": "Pregunta 68 sobre Auto-innovaties",
+      "de": "Frage 68 über Auto-innovaties",
+      "nl": "Vraag 68 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Auto-innovaties",
+      "es": "Pregunta 69 sobre Auto-innovaties",
+      "de": "Frage 69 über Auto-innovaties",
+      "nl": "Vraag 69 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Auto-innovaties",
+      "es": "Pregunta 70 sobre Auto-innovaties",
+      "de": "Frage 70 über Auto-innovaties",
+      "nl": "Vraag 70 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Auto-innovaties",
+      "es": "Pregunta 71 sobre Auto-innovaties",
+      "de": "Frage 71 über Auto-innovaties",
+      "nl": "Vraag 71 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Auto-innovaties",
+      "es": "Pregunta 72 sobre Auto-innovaties",
+      "de": "Frage 72 über Auto-innovaties",
+      "nl": "Vraag 72 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Auto-innovaties",
+      "es": "Pregunta 73 sobre Auto-innovaties",
+      "de": "Frage 73 über Auto-innovaties",
+      "nl": "Vraag 73 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Auto-innovaties",
+      "es": "Pregunta 74 sobre Auto-innovaties",
+      "de": "Frage 74 über Auto-innovaties",
+      "nl": "Vraag 74 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Auto-innovaties",
+      "es": "Pregunta 75 sobre Auto-innovaties",
+      "de": "Frage 75 über Auto-innovaties",
+      "nl": "Vraag 75 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Auto-innovaties",
+      "es": "Pregunta 76 sobre Auto-innovaties",
+      "de": "Frage 76 über Auto-innovaties",
+      "nl": "Vraag 76 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Auto-innovaties",
+      "es": "Pregunta 77 sobre Auto-innovaties",
+      "de": "Frage 77 über Auto-innovaties",
+      "nl": "Vraag 77 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Auto-innovaties",
+      "es": "Pregunta 78 sobre Auto-innovaties",
+      "de": "Frage 78 über Auto-innovaties",
+      "nl": "Vraag 78 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Auto-innovaties",
+      "es": "Pregunta 79 sobre Auto-innovaties",
+      "de": "Frage 79 über Auto-innovaties",
+      "nl": "Vraag 79 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Auto-innovaties",
+      "es": "Pregunta 80 sobre Auto-innovaties",
+      "de": "Frage 80 über Auto-innovaties",
+      "nl": "Vraag 80 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Auto-innovaties",
+      "es": "Pregunta 81 sobre Auto-innovaties",
+      "de": "Frage 81 über Auto-innovaties",
+      "nl": "Vraag 81 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Auto-innovaties",
+      "es": "Pregunta 82 sobre Auto-innovaties",
+      "de": "Frage 82 über Auto-innovaties",
+      "nl": "Vraag 82 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Auto-innovaties",
+      "es": "Pregunta 83 sobre Auto-innovaties",
+      "de": "Frage 83 über Auto-innovaties",
+      "nl": "Vraag 83 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Auto-innovaties",
+      "es": "Pregunta 84 sobre Auto-innovaties",
+      "de": "Frage 84 über Auto-innovaties",
+      "nl": "Vraag 84 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Auto-innovaties",
+      "es": "Pregunta 85 sobre Auto-innovaties",
+      "de": "Frage 85 über Auto-innovaties",
+      "nl": "Vraag 85 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Auto-innovaties",
+      "es": "Pregunta 86 sobre Auto-innovaties",
+      "de": "Frage 86 über Auto-innovaties",
+      "nl": "Vraag 86 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Auto-innovaties",
+      "es": "Pregunta 87 sobre Auto-innovaties",
+      "de": "Frage 87 über Auto-innovaties",
+      "nl": "Vraag 87 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Auto-innovaties",
+      "es": "Pregunta 88 sobre Auto-innovaties",
+      "de": "Frage 88 über Auto-innovaties",
+      "nl": "Vraag 88 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Auto-innovaties",
+      "es": "Pregunta 89 sobre Auto-innovaties",
+      "de": "Frage 89 über Auto-innovaties",
+      "nl": "Vraag 89 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Auto-innovaties",
+      "es": "Pregunta 90 sobre Auto-innovaties",
+      "de": "Frage 90 über Auto-innovaties",
+      "nl": "Vraag 90 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Auto-innovaties",
+      "es": "Pregunta 91 sobre Auto-innovaties",
+      "de": "Frage 91 über Auto-innovaties",
+      "nl": "Vraag 91 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Auto-innovaties",
+      "es": "Pregunta 92 sobre Auto-innovaties",
+      "de": "Frage 92 über Auto-innovaties",
+      "nl": "Vraag 92 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Auto-innovaties",
+      "es": "Pregunta 93 sobre Auto-innovaties",
+      "de": "Frage 93 über Auto-innovaties",
+      "nl": "Vraag 93 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Auto-innovaties",
+      "es": "Pregunta 94 sobre Auto-innovaties",
+      "de": "Frage 94 über Auto-innovaties",
+      "nl": "Vraag 94 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Auto-innovaties",
+      "es": "Pregunta 95 sobre Auto-innovaties",
+      "de": "Frage 95 über Auto-innovaties",
+      "nl": "Vraag 95 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Auto-innovaties",
+      "es": "Pregunta 96 sobre Auto-innovaties",
+      "de": "Frage 96 über Auto-innovaties",
+      "nl": "Vraag 96 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Auto-innovaties",
+      "es": "Pregunta 97 sobre Auto-innovaties",
+      "de": "Frage 97 über Auto-innovaties",
+      "nl": "Vraag 97 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Auto-innovaties",
+      "es": "Pregunta 98 sobre Auto-innovaties",
+      "de": "Frage 98 über Auto-innovaties",
+      "nl": "Vraag 98 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Auto-innovaties",
+      "es": "Pregunta 99 sobre Auto-innovaties",
+      "de": "Frage 99 über Auto-innovaties",
+      "nl": "Vraag 99 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Auto-innovaties",
+      "es": "Pregunta 100 sobre Auto-innovaties",
+      "de": "Frage 100 über Auto-innovaties",
+      "nl": "Vraag 100 over Auto-innovaties"
+    },
+    "options": [
+      {
+        "en": "Answer A for Auto-innovaties",
+        "es": "Respuesta A para Auto-innovaties",
+        "de": "Antwort A für Auto-innovaties",
+        "nl": "Antwoord A voor Auto-innovaties"
+      },
+      {
+        "en": "Answer B for Auto-innovaties",
+        "es": "Respuesta B para Auto-innovaties",
+        "de": "Antwort B für Auto-innovaties",
+        "nl": "Antwoord B voor Auto-innovaties"
+      },
+      {
+        "en": "Answer C for Auto-innovaties",
+        "es": "Respuesta C para Auto-innovaties",
+        "de": "Antwort C für Auto-innovaties",
+        "nl": "Antwoord C voor Auto-innovaties"
+      },
+      {
+        "en": "Answer D for Auto-innovaties",
+        "es": "Respuesta D para Auto-innovaties",
+        "de": "Antwort D für Auto-innovaties",
+        "nl": "Antwoord D voor Auto-innovaties"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Auto-innovaties.",
+      "es": "Esta es la respuesta correcta sobre Auto-innovaties.",
+      "de": "Dies ist die richtige Antwort über Auto-innovaties.",
+      "nl": "Dit is het juiste antwoord over Auto-innovaties."
+    }
+  }
+]
+};

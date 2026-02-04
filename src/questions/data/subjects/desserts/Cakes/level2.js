@@ -1,1657 +1,4104 @@
-// Cakes Quiz - Level 2
-(function() {
-  const level2 = {
-    name: {
-          "en": "Cakes - Level 2",
-          "es": "Pasteles - Nivel 2",
-          "de": "Kuchen - Level 2",
-          "nl": "Taarten - Level 2"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Cakes",
+      "es": "Pregunta 1 sobre Cakes",
+      "de": "Frage 1 über Cakes",
+      "nl": "Vraag 1 over Cakes"
     },
-    questions: [
+    "options": [
       {
-        question: {
-                  "en": "What is the optimal temperature for creaming butter and sugar for cake batter?",
-                  "es": "¿Cuál es la temperatura óptima para batir mantequilla y azúcar para masa de pastel?",
-                  "de": "Was ist die optimale Temperatur zum Aufschlagen von Butter und Zucker für Kuchenteig?",
-                  "nl": "Wat is de optimale temperatuur voor het romig kloppen van boter en suiker voor cakebeslag?"
-        },
-        options: [
-        {
-                  "en": "Room temperature (18-21°C)",
-                  "es": "Temperatura ambiente (18-21°C)",
-                  "de": "Zimmertemperatur (18-21°C)",
-                  "nl": "Kamertemperatuur (18-21°C)"
-        },
-        {
-                  "en": "Slightly warm (30°C)",
-                  "es": "Ligeramente tibio (30°C)",
-                  "de": "Leicht warm (30°C)",
-                  "nl": "Licht warm (30°C)"
-        },
-        {
-                  "en": "Cold from refrigerator",
-                  "es": "Frío del refrigerador",
-                  "de": "Kalt aus dem Kühlschrank",
-                  "nl": "Koud uit de koelkast"
-        },
-        {
-                  "en": "Melted liquid",
-                  "es": "Líquido derretido",
-                  "de": "Geschmolzen flüssig",
-                  "nl": "Gesmolten vloeibaar"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Room temperature butter (18-21°C) creams best with sugar, creating optimal air incorporation for light, fluffy cakes.",
-                  "es": "La mantequilla a temperatura ambiente (18-21°C) se bate mejor con azúcar, creando incorporación óptima de aire para pasteles ligeros y esponjosos.",
-                  "de": "Zimmertemperatur-Butter (18-21°C) schlägt sich am besten mit Zucker auf und sorgt für optimale Lufteinlagerung für leichte, fluffige Kuchen.",
-                  "nl": "Boter op kamertemperatuur (18-21°C) wordt het beste romig geklopt met suiker, wat zorgt voor optimale luchtinmenging voor lichte, luchtige taarten."
-        }
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
       },
       {
-        question: {
-                  "en": "What is the purpose of sifting flour in cake making?",
-                  "es": "¿Cuál es el propósito de tamizar la harina en la elaboración de pasteles?",
-                  "de": "Was ist der Zweck des Siebens von Mehl beim Kuchenbacken?",
-                  "nl": "Wat is het doel van het zeven van bloem bij het maken van taarten?"
-        },
-        options: [
-        {
-                  "en": "To increase gluten development",
-                  "es": "Para aumentar el desarrollo de gluten",
-                  "de": "Um die Glutenentwicklung zu steigern",
-                  "nl": "Om glutenontwikkeling te verhogen"
-        },
-        {
-                  "en": "To remove lumps and aerate the flour",
-                  "es": "Para quitar grumos y airear la harina",
-                  "de": "Um Klumpen zu entfernen und das Mehl zu belüften",
-                  "nl": "Om klontjes te verwijderen en de bloem te luchten"
-        },
-        {
-                  "en": "To make the flour whiter",
-                  "es": "Para hacer la harina más blanca",
-                  "de": "Um das Mehl weißer zu machen",
-                  "nl": "Om de bloem witter te maken"
-        },
-        {
-                  "en": "To change the protein content",
-                  "es": "Para cambiar el contenido de proteína",
-                  "de": "Um den Proteingehalt zu ändern",
-                  "nl": "Om het eiwitgehalte te veranderen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Sifting removes lumps and aerates flour, resulting in lighter, more uniform cakes with better texture and volume.",
-                  "es": "Tamizar quita grumos y airea la harina, resultando en pasteles más ligeros y uniformes con mejor textura y volumen.",
-                  "de": "Sieben entfernt Klumpen und belüftet das Mehl, was zu leichteren, gleichmäßigeren Kuchen mit besserer Textur und Volumen führt.",
-                  "nl": "Zeven verwijdert klontjes en lucht de bloem, wat resulteert in lichtere, gelijkmatigere taarten met betere textuur en volume."
-        }
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
       },
       {
-        question: {
-                  "en": "In the chiffon cake method, when should you fold in the egg whites?",
-                  "es": "En el método de pastel chiffon, ¿cuándo debes incorporar las claras de huevo?",
-                  "de": "Bei der Chiffon-Kuchen-Methode, wann sollte man das Eiweiß unterheben?",
-                  "nl": "Bij de chiffon cake methode, wanneer moet je de eiwitten eronder vouwen?"
-        },
-        options: [
-        {
-                  "en": "Last, after all other ingredients are combined",
-                  "es": "Al final, después de combinar todos los demás ingredientes",
-                  "de": "Zuletzt, nachdem alle anderen Zutaten vermengt sind",
-                  "nl": "Als laatste, nadat alle andere ingrediënten zijn gecombineerd"
-        },
-        {
-                  "en": "In the middle of mixing",
-                  "es": "En medio de la mezcla",
-                  "de": "In der Mitte des Mischens",
-                  "nl": "Halverwege het mengen"
-        },
-        {
-                  "en": "With the flour",
-                  "es": "Con la harina",
-                  "de": "Mit dem Mehl",
-                  "nl": "Met de bloem"
-        },
-        {
-                  "en": "First, before any other ingredients",
-                  "es": "Primero, antes que cualquier otro ingrediente",
-                  "de": "Zuerst, vor allen anderen Zutaten",
-                  "nl": "Eerst, voor alle andere ingrediënten"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Egg whites should be folded in last and gently to preserve the air bubbles that give chiffon cakes their characteristic light texture.",
-                  "es": "Las claras deben incorporarse al final y suavemente para preservar las burbujas de aire que dan a los pasteles chiffon su textura ligera característica.",
-                  "de": "Eiweiß sollte zuletzt und sanft untergehoben werden, um die Luftbläschen zu erhalten, die Chiffon-Kuchen ihre charakteristische leichte Textur verleihen.",
-                  "nl": "Eiwitten moeten als laatste en voorzichtig worden ingevouwen om de luchtbellen te behouden die chiffon cakes hun kenmerkende lichte textuur geven."
-        }
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
       },
       {
-        question: {
-                  "en": "What causes tunnels to form in muffins and quick breads?",
-                  "es": "¿Qué causa que se formen túneles en muffins y panes rápidos?",
-                  "de": "Was verursacht die Bildung von Tunneln in Muffins und schnellen Broten?",
-                  "nl": "Wat veroorzaakt de vorming van tunnels in muffins en snelle broden?"
-        },
-        options: [
-        {
-                  "en": "Too little liquid",
-                  "es": "Muy poco líquido",
-                  "de": "Zu wenig Flüssigkeit",
-                  "nl": "Te weinig vloeistof"
-        },
-        {
-                  "en": "Overmixing the batter",
-                  "es": "Mezclar demasiado la masa",
-                  "de": "Übermischen des Teigs",
-                  "nl": "Teveel roeren van het beslag"
-        },
-        {
-                  "en": "Not enough baking powder",
-                  "es": "No suficiente polvo para hornear",
-                  "de": "Nicht genug Backpulver",
-                  "nl": "Niet genoeg bakpoeder"
-        },
-        {
-                  "en": "Too low oven temperature",
-                  "es": "Temperatura del horno muy baja",
-                  "de": "Zu niedrige Ofentemperatur",
-                  "nl": "Te lage oventemperatuur"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Overmixing develops too much gluten in quick breads, creating a tough texture with tunnel-like holes running through the crumb.",
-                  "es": "Mezclar demasiado desarrolla demasiado gluten en panes rápidos, creando una textura dura con agujeros tipo túnel a través de la miga.",
-                  "de": "Übermischen entwickelt zu viel Gluten in schnellen Broten und erzeugt eine zähe Textur mit tunnelartigen Löchern durch die Krume.",
-                  "nl": "Teveel roeren ontwikkelt te veel gluten in snelle broden, wat een taaie textuur creëert met tunnelachtige gaten door de kruim."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the ideal internal temperature for a fully baked cake?",
-                  "es": "¿Cuál es la temperatura interna ideal para un pastel completamente horneado?",
-                  "de": "Was ist die ideale Innentemperatur für einen vollständig gebackenen Kuchen?",
-                  "nl": "Wat is de ideale interne temperatuur voor een volledig gebakken taart?"
-        },
-        options: [
-        {
-                  "en": "85-90°C",
-                  "es": "85-90°C",
-                  "de": "85-90°C",
-                  "nl": "85-90°C"
-        },
-        {
-                  "en": "110-115°C",
-                  "es": "110-115°C",
-                  "de": "110-115°C",
-                  "nl": "110-115°C"
-        },
-        {
-                  "en": "100-105°C",
-                  "es": "100-105°C",
-                  "de": "100-105°C",
-                  "nl": "100-105°C"
-        },
-        {
-                  "en": "95-99°C",
-                  "es": "95-99°C",
-                  "de": "95-99°C",
-                  "nl": "95-99°C"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "A fully baked cake should reach an internal temperature of 95-99°C, indicating the proteins have set and moisture has been properly driven off.",
-                  "es": "Un pastel completamente horneado debe alcanzar una temperatura interna de 95-99°C, indicando que las proteínas se han cuajado y la humedad se ha evaporado adecuadamente.",
-                  "de": "Ein vollständig gebackener Kuchen sollte eine Innentemperatur von 95-99°C erreichen, was anzeigt, dass die Proteine gestockt und die Feuchtigkeit ordnungsgemäß ausgetrieben wurde.",
-                  "nl": "Een volledig gebakken taart moet een interne temperatuur van 95-99°C bereiken, wat aangeeft dat de eiwitten zijn gestold en vocht goed is verdreven."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the purpose of scaling cake batter (dividing into equal portions)?",
-                  "es": "¿Cuál es el propósito de pesar la masa de pastel (dividir en porciones iguales)?",
-                  "de": "Was ist der Zweck des Abwiegens von Kuchenteig (Aufteilung in gleiche Portionen)?",
-                  "nl": "Wat is het doel van het afwegen van cakebeslag (verdelen in gelijke porties)?"
-        },
-        options: [
-        {
-                  "en": "To speed up baking time",
-                  "es": "Para acelerar el tiempo de horneado",
-                  "de": "Um die Backzeit zu verkürzen",
-                  "nl": "Om baktijd te versnellen"
-        },
-        {
-                  "en": "To change the flavor",
-                  "es": "Para cambiar el sabor",
-                  "de": "Um den Geschmack zu ändern",
-                  "nl": "Om de smaak te veranderen"
-        },
-        {
-                  "en": "To ensure even baking and uniform layer heights",
-                  "es": "Para asegurar horneado uniforme y alturas de capas iguales",
-                  "de": "Um gleichmäßiges Backen und einheitliche Schichthöhen zu gewährleisten",
-                  "nl": "Om gelijkmatig bakken en uniforme laagdiktes te verzekeren"
-        },
-        {
-                  "en": "To save ingredients",
-                  "es": "Para ahorrar ingredientes",
-                  "de": "Um Zutaten zu sparen",
-                  "nl": "Om ingrediënten te besparen"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Scaling ensures each layer has equal amounts of batter, resulting in uniform thickness, even baking, and professional-looking layer cakes.",
-                  "es": "Pesar asegura que cada capa tenga cantidades iguales de masa, resultando en grosor uniforme, horneado parejo y pasteles de capas de aspecto profesional.",
-                  "de": "Abwiegen stellt sicher, dass jede Schicht gleiche Mengen Teig hat, was zu gleichmäßiger Dicke, gleichmäßigem Backen und professionell aussehenden Schichtkuchen führt.",
-                  "nl": "Afwegen zorgt ervoor dat elke laag gelijke hoeveelheden beslag heeft, wat resulteert in uniforme dikte, gelijkmatig bakken en professioneel uitziende laagcakes."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the difference between cake flour and all-purpose flour?",
-                  "es": "¿Cuál es la diferencia entre harina para pasteles y harina común?",
-                  "de": "Was ist der Unterschied zwischen Kuchenmehl und Allzweckmehl?",
-                  "nl": "Wat is het verschil tussen cakebloem en gewone bloem?"
-        },
-        options: [
-        {
-                  "en": "Cake flour has lower protein content and finer texture",
-                  "es": "La harina para pasteles tiene menor contenido de proteína y textura más fina",
-                  "de": "Kuchenmehl hat niedrigeren Proteingehalt und feinere Textur",
-                  "nl": "Cakebloem heeft lager eiwitgehalte en fijnere textuur"
-        },
-        {
-                  "en": "Cake flour is bleached, all-purpose is not",
-                  "es": "La harina para pasteles está blanqueada, la común no",
-                  "de": "Kuchenmehl ist gebleicht, Allzweckmehl nicht",
-                  "nl": "Cakebloem is gebleekt, gewone bloem niet"
-        },
-        {
-                  "en": "Cake flour has higher protein content",
-                  "es": "La harina para pasteles tiene mayor contenido de proteína",
-                  "de": "Kuchenmehl hat höheren Proteingehalt",
-                  "nl": "Cakebloem heeft hoger eiwitgehalte"
-        },
-        {
-                  "en": "They are exactly the same",
-                  "es": "Son exactamente iguales",
-                  "de": "Sie sind genau gleich",
-                  "nl": "Ze zijn precies hetzelfde"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Cake flour has 6-8% protein vs 10-12% in all-purpose flour, and is milled finer, creating more tender, delicate cakes with better crumb structure.",
-                  "es": "La harina para pasteles tiene 6-8% de proteína vs 10-12% en harina común, y está molida más fina, creando pasteles más tiernos y delicados.",
-                  "de": "Kuchenmehl hat 6-8% Protein vs. 10-12% in Allzweckmehl und ist feiner gemahlen, was zartere, delikatere Kuchen mit besserer Krumenstruktur erzeugt.",
-                  "nl": "Cakebloem heeft 6-8% eiwit vs 10-12% in gewone bloem, en is fijner gemalen, wat zachtere, delicatere taarten met betere kruimstructuur creëert."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the reverse creaming method in cake making?",
-                  "es": "¿Qué es el método de cremado inverso en la elaboración de pasteles?",
-                  "de": "Was ist die umgekehrte Aufschlagmethode beim Kuchenbacken?",
-                  "nl": "Wat is de omgekeerde rommethode bij het maken van taarten?"
-        },
-        options: [
-        {
-                  "en": "Mixing all ingredients at once",
-                  "es": "Mezclar todos los ingredientes a la vez",
-                  "de": "Alle Zutaten auf einmal mischen",
-                  "nl": "Alle ingrediënten tegelijk mengen"
-        },
-        {
-                  "en": "Adding butter to dry ingredients before liquids",
-                  "es": "Agregar mantequilla a ingredientes secos antes que líquidos",
-                  "de": "Butter zu trockenen Zutaten vor Flüssigkeiten hinzufügen",
-                  "nl": "Boter toevoegen aan droge ingrediënten voor vloeistoffen"
-        },
-        {
-                  "en": "Creaming sugar with eggs first",
-                  "es": "Batir azúcar con huevos primero",
-                  "de": "Zucker zuerst mit Eiern aufschlagen",
-                  "nl": "Suiker eerst met eieren romig kloppen"
-        },
-        {
-                  "en": "Creaming butter alone first",
-                  "es": "Batir solo mantequilla primero",
-                  "de": "Butter zuerst allein aufschlagen",
-                  "nl": "Alleen boter eerst romig kloppen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Reverse creaming combines butter with flour and dry ingredients first, then adds liquids, creating denser, more tender cakes with fine crumb.",
-                  "es": "El cremado inverso combina mantequilla con harina e ingredientes secos primero, luego agrega líquidos, creando pasteles más densos y tiernos.",
-                  "de": "Umgekehrtes Aufschlagen kombiniert Butter zuerst mit Mehl und trockenen Zutaten, dann Flüssigkeiten, für dichtere, zartere Kuchen mit feiner Krume.",
-                  "nl": "Omgekeerde rommethode combineert boter eerst met bloem en droge ingrediënten, voegt dan vloeistoffen toe, voor dichtere, zachtere taarten met fijne kruim."
-        }
-      },
-      {
-        question: {
-                  "en": "Why should cake layers be cooled completely before frosting?",
-                  "es": "¿Por qué las capas de pastel deben enfriarse completamente antes de glasear?",
-                  "de": "Warum sollten Kuchenschichten vor dem Glasieren vollständig abkühlen?",
-                  "nl": "Waarom moeten taartlagen volledig afkoelen voordat ze worden geglaceerd?"
-        },
-        options: [
-        {
-                  "en": "Cakes taste better when cold",
-                  "es": "Los pasteles saben mejor fríos",
-                  "de": "Kuchen schmecken besser kalt",
-                  "nl": "Taarten smaken beter koud"
-        },
-        {
-                  "en": "To prevent frosting from melting and sliding off",
-                  "es": "Para evitar que el glaseado se derrita y se deslice",
-                  "de": "Um zu verhindern, dass die Glasur schmilzt und abrutscht",
-                  "nl": "Om te voorkomen dat glazuur smelt en wegschuift"
-        },
-        {
-                  "en": "To save time",
-                  "es": "Para ahorrar tiempo",
-                  "de": "Um Zeit zu sparen",
-                  "nl": "Om tijd te besparen"
-        },
-        {
-                  "en": "To make frosting easier to spread",
-                  "es": "Para hacer el glaseado más fácil de extender",
-                  "de": "Um die Glasur leichter zu verteilen",
-                  "nl": "Om glazuur makkelijker te verspreiden"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Warm cake layers will melt buttercream and other frostings, causing them to slide off and creating a messy, unprofessional appearance.",
-                  "es": "Las capas de pastel calientes derretirán la crema de mantequilla y otros glaseados, haciendo que se deslicen y creando una apariencia desordenada.",
-                  "de": "Warme Kuchenschichten schmelzen Buttercreme und andere Glasuren, wodurch sie abrutschen und ein unordentliches, unprofessionelles Aussehen entsteht.",
-                  "nl": "Warme taartlagen zullen botercrème en andere glazuren doen smelten, waardoor ze wegschuiven en een rommelig, onprofessioneel uiterlijk ontstaat."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the purpose of adding acid (like lemon juice) to cake batter?",
-                  "es": "¿Cuál es el propósito de agregar ácido (como jugo de limón) a la masa de pastel?",
-                  "de": "Was ist der Zweck des Hinzufügens von Säure (wie Zitronensaft) zum Kuchenteig?",
-                  "nl": "Wat is het doel van het toevoegen van zuur (zoals citroensap) aan cakebeslag?"
-        },
-        options: [
-        {
-                  "en": "To tenderize proteins and activate baking soda",
-                  "es": "Para ablandar proteínas y activar bicarbonato",
-                  "de": "Um Proteine zu zart zu machen und Natron zu aktivieren",
-                  "nl": "Om eiwitten te verzachten en zuiveringszout te activeren"
-        },
-        {
-                  "en": "To preserve the cake longer",
-                  "es": "Para conservar el pastel más tiempo",
-                  "de": "Um den Kuchen länger zu konservieren",
-                  "nl": "Om de taart langer te bewaren"
-        },
-        {
-                  "en": "To change the color",
-                  "es": "Para cambiar el color",
-                  "de": "Um die Farbe zu ändern",
-                  "nl": "Om de kleur te veranderen"
-        },
-        {
-                  "en": "To improve flavor only",
-                  "es": "Solo para mejorar el sabor",
-                  "de": "Nur um den Geschmack zu verbessern",
-                  "nl": "Alleen om de smaak te verbeteren"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Acids tenderize gluten proteins for more delicate texture, activate baking soda for better rise, and can enhance flavors and improve crumb structure.",
-                  "es": "Los ácidos ablandan las proteínas del gluten para textura más delicada, activan el bicarbonato para mejor levado, y pueden realzar sabores.",
-                  "de": "Säuren zart machen Glutenproteine für zartere Textur, aktivieren Natron für besseres Aufgehen und können Aromen verstärken sowie die Krumenstruktur verbessern.",
-                  "nl": "Zuren verzachten gluteneiwitten voor delicatere textuur, activeren zuiveringszout voor betere rijs, en kunnen smaken versterken en kruimstructuur verbeteren."
-        }
-      },
-      {
-        question: {
-                  "en": "What happens if you open the oven door too early when baking a cake?",
-                  "es": "¿Qué pasa si abres la puerta del horno muy temprano al hornear un pastel?",
-                  "de": "Was passiert, wenn Sie die Ofentür zu früh öffnen, während Sie einen Kuchen backen?",
-                  "nl": "Wat gebeurt er als je de ovendeur te vroeg opent bij het bakken van een taart?"
-        },
-        options: [
-        {
-                  "en": "The cake will cook more evenly",
-                  "es": "El pastel se cocinará más uniformemente",
-                  "de": "Der Kuchen wird gleichmäßiger gebacken",
-                  "nl": "De taart zal gelijkmatiger bakken"
-        },
-        {
-                  "en": "The cake will brown faster",
-                  "es": "El pastel se dorará más rápido",
-                  "de": "Der Kuchen wird schneller braun",
-                  "nl": "De taart zal sneller bruinen"
-        },
-        {
-                  "en": "The cake may collapse or sink",
-                  "es": "El pastel puede colapsar o hundirse",
-                  "de": "Der Kuchen kann kollabieren oder einsinken",
-                  "nl": "De taart kan inklappen of zakken"
-        },
-        {
-                  "en": "Nothing happens",
-                  "es": "No pasa nada",
-                  "de": "Nichts passiert",
-                  "nl": "Er gebeurt niets"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Opening the oven door releases heat and creates drafts that can cause an unstable cake structure to collapse before it's fully set.",
-                  "es": "Abrir la puerta del horno libera calor y crea corrientes que pueden hacer que una estructura de pastel inestable colapse antes de cuajar completamente.",
-                  "de": "Das Öffnen der Ofentür setzt Wärme frei und erzeugt Zugluft, die eine instabile Kuchenstruktur zum Kollabieren bringen kann, bevor sie vollständig fest ist.",
-                  "nl": "Het openen van de ovendeur laat warmte ontsnappen en creëert tocht die een instabiele taartstructuur kan doen inklappen voordat deze volledig gestold is."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the ideal ratio of flour to liquid in most cake batters?",
-                  "es": "¿Cuál es la proporción ideal de harina a líquido en la mayoría de masas de pastel?",
-                  "de": "Was ist das ideale Verhältnis von Mehl zu Flüssigkeit in den meisten Kuchenteigen?",
-                  "nl": "Wat is de ideale verhouding van bloem tot vloeistof in de meeste cakebeslasgen?"
-        },
-        options: [
-        {
-                  "en": "2:1 (flour to liquid)",
-                  "es": "2:1 (harina a líquido)",
-                  "de": "2:1 (Mehl zu Flüssigkeit)",
-                  "nl": "2:1 (bloem tot vloeistof)"
-        },
-        {
-                  "en": "1:1 (equal amounts)",
-                  "es": "1:1 (cantidades iguales)",
-                  "de": "1:1 (gleiche Mengen)",
-                  "nl": "1:1 (gelijke hoeveelheden)"
-        },
-        {
-                  "en": "1:2 (flour to liquid)",
-                  "es": "1:2 (harina a líquido)",
-                  "de": "1:2 (Mehl zu Flüssigkeit)",
-                  "nl": "1:2 (bloem tot vloeistof)"
-        },
-        {
-                  "en": "3:1 (flour to liquid)",
-                  "es": "3:1 (harina a líquido)",
-                  "de": "3:1 (Mehl zu Flüssigkeit)",
-                  "nl": "3:1 (bloem tot vloeistof)"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "A 2:1 ratio of flour to liquid provides the optimal balance for proper cake structure, moisture, and texture in most standard cake recipes.",
-                  "es": "Una proporción 2:1 de harina a líquido proporciona el equilibrio óptimo para estructura, humedad y textura adecuadas en la mayoría de recetas estándar.",
-                  "de": "Ein 2:1-Verhältnis von Mehl zu Flüssigkeit bietet das optimale Gleichgewicht für richtige Kuchenstruktur, Feuchtigkeit und Textur in den meisten Standardrezepten.",
-                  "nl": "Een 2:1 verhouding van bloem tot vloeistof biedt de optimale balans voor juiste taartstructuur, vochtigheid en textuur in de meeste standaardrecepten."
-        }
-      },
-      {
-        question: {
-                  "en": "What technique prevents overmixing when combining wet and dry ingredients?",
-                  "es": "¿Qué técnica previene el mezclado excesivo al combinar ingredientes húmedos y secos?",
-                  "de": "Welche Technik verhindert Übermischen beim Kombinieren von feuchten und trockenen Zutaten?",
-                  "nl": "Welke techniek voorkomt overmengen bij het combineren van natte en droge ingrediënten?"
-        },
-        options: [
-        {
-                  "en": "Vigorous whisking",
-                  "es": "Batido vigoroso",
-                  "de": "Kräftiges Schlagen",
-                  "nl": "Krachtig kloppen"
-        },
-        {
-                  "en": "Folding with a rubber spatula",
-                  "es": "Envolver con espátula de goma",
-                  "de": "Unterheben mit einem Gummispatel",
-                  "nl": "Vouwen met een rubberen spatel"
-        },
-        {
-                  "en": "High-speed electric mixing",
-                  "es": "Mezclado eléctrico a alta velocidad",
-                  "de": "Hochgeschwindigkeits-Elektromischen",
-                  "nl": "Hoge snelheid elektrisch mengen"
-        },
-        {
-                  "en": "Long mixing time",
-                  "es": "Tiempo de mezclado largo",
-                  "de": "Lange Mischzeit",
-                  "nl": "Lange mengtijd"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Folding with a rubber spatula uses gentle cutting and turning motions that minimize gluten development while evenly distributing ingredients.",
-                  "es": "Envolver con espátula usa movimientos suaves de corte y giro que minimizan el desarrollo de gluten mientras distribuye ingredientes uniformemente.",
-                  "de": "Unterheben mit einem Gummispatel verwendet sanfte Schneid- und Drehbewegungen, die die Glutenentwicklung minimieren und Zutaten gleichmäßig verteilen.",
-                  "nl": "Vouwen met een rubberen spatel gebruikt zachte snij- en draaiende bewegingen die glutenontwikkeling minimaliseren terwijl ingrediënten gelijkmatig worden verdeeld."
-        }
-      },
-      {
-        question: {
-                  "en": "What causes cakes to have a coarse, uneven crumb texture?",
-                  "es": "¿Qué causa que los pasteles tengan una textura de miga gruesa y desigual?",
-                  "de": "Was verursacht, dass Kuchen eine grobe, ungleichmäßige Krumentextur haben?",
-                  "nl": "Wat veroorzaakt dat taarten een grove, ongelijkmatige kruimtextuur hebben?"
-        },
-        options: [
-        {
-                  "en": "Too much flour",
-                  "es": "Demasiada harina",
-                  "de": "Zu viel Mehl",
-                  "nl": "Te veel bloem"
-        },
-        {
-                  "en": "Too much liquid",
-                  "es": "Demasiado líquido",
-                  "de": "Zu viel Flüssigkeit",
-                  "nl": "Te veel vloeistof"
-        },
-        {
-                  "en": "Too low oven temperature",
-                  "es": "Temperatura del horno muy baja",
-                  "de": "Zu niedrige Ofentemperatur",
-                  "nl": "Te lage oventemperatuur"
-        },
-        {
-                  "en": "Insufficient creaming of butter and sugar",
-                  "es": "Cremado insuficiente de mantequilla y azúcar",
-                  "de": "Unzureichendes Aufschlagen von Butter und Zucker",
-                  "nl": "Onvoldoende romig kloppen van boter en suiker"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Insufficient creaming fails to incorporate enough air bubbles, resulting in dense, coarse-textured cakes instead of light, fine-crumbed ones.",
-                  "es": "El cremado insuficiente falla en incorporar suficientes burbujas de aire, resultando en pasteles densos de textura gruesa en lugar de ligeros.",
-                  "de": "Unzureichendes Aufschlagen versägt es, genug Luftbläschen einzuarbeiten, was zu dichten, grobtexturierten Kuchen anstatt leichten, feinkrümeligen führt.",
-                  "nl": "Onvoldoende romig kloppen faalt in het incorporeren van genoeg luchtbellen, wat resulteert in dichte, grove getextureerde taarten in plaats van lichte, fijnkruimige."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the purpose of using cake strips or baking belts around cake pans?",
-                  "es": "¿Cuál es el propósito de usar tiras para pasteles o cinturones de horneado alrededor de moldes?",
-                  "de": "Was ist der Zweck der Verwendung von Kuchenstreifen oder Backgürteln um Kuchenformen?",
-                  "nl": "Wat is het doel van het gebruiken van taartstrips of bakbanden rond taartvormen?"
-        },
-        options: [
-        {
-                  "en": "To add flavor to the cake",
-                  "es": "Para agregar sabor al pastel",
-                  "de": "Um dem Kuchen Geschmack zu verleihen",
-                  "nl": "Om smaak aan de taart toe te voegen"
-        },
-        {
-                  "en": "To change the cake's color",
-                  "es": "Para cambiar el color del pastel",
-                  "de": "Um die Farbe des Kuchens zu ändern",
-                  "nl": "Om de kleur van de taart te veranderen"
-        },
-        {
-                  "en": "To prevent even baking and create flat, level layers",
-                  "es": "Para promover horneado uniforme y crear capas planas y niveladas",
-                  "de": "Um gleichmäßiges Backen zu fördern und flache, ebene Schichten zu erzeugen",
-                  "nl": "Om gelijkmatig bakken te bevorderen en vlakke, gelijkmatige lagen te creëren"
-        },
-        {
-                  "en": "To make cakes bake faster",
-                  "es": "Para hacer que los pasteles se horneen más rápido",
-                  "de": "Um Kuchen schneller zu backen",
-                  "nl": "Om taarten sneller te laten bakken"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Cake strips insulate the sides of the pan, promoting even baking and preventing domed tops, resulting in flat, level layers perfect for stacking.",
-                  "es": "Las tiras para pasteles aíslan los lados del molde, promoviendo horneado uniforme y evitando copas abombadas, resultando en capas planas perfectas para apilar.",
-                  "de": "Kuchenstreifen isolieren die Seiten der Form, fördern gleichmäßiges Backen und verhindern gewölbte Oberseiten, was zu flachen, ebenen Schichten führt.",
-                  "nl": "Taartstrips isoleren de zijkanten van de vorm, bevorderen gelijkmatig bakken en voorkomen bolle bovenkanten, wat resulteert in vlakke, gelijkmatige lagen perfect voor stapelen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the difference between a genoise and a sponge cake?",
-                  "es": "¿Cuál es la diferencia entre un genovés y un bizcocho esponja?",
-                  "de": "Was ist der Unterschied zwischen einem Genoise und einem Biskuitkuchen?",
-                  "nl": "Wat is het verschil tussen een genoise en een sponscake?"
-        },
-        options: [
-        {
-                  "en": "They are exactly the same",
-                  "es": "Son exactamente iguales",
-                  "de": "Sie sind genau gleich",
-                  "nl": "Ze zijn precies hetzelfde"
-        },
-        {
-                  "en": "Genoise contains butter, sponge cake doesn't",
-                  "es": "El genovés contiene mantequilla, el bizcocho esponja no",
-                  "de": "Genoise enthält Butter, Biskuitkuchen nicht",
-                  "nl": "Genoise bevat boter, sponscake niet"
-        },
-        {
-                  "en": "Genoise eggs are beaten whole, sponge separates whites and yolks",
-                  "es": "Los huevos de genovés se baten enteros, la esponja separa claras y yemas",
-                  "de": "Genoise-Eier werden ganz geschlagen, Biskuit trennt Eiweiß und Eigelb",
-                  "nl": "Genoise eieren worden heel geklopt, spons scheidt wit en dooiers"
-        },
-        {
-                  "en": "Sponge cake uses chemical leavening",
-                  "es": "El bizcocho esponja usa leudantes químicos",
-                  "de": "Biskuitkuchen verwendet chemische Triebmittel",
-                  "nl": "Sponscake gebruikt chemische rijsmiddelen"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Genoise beats whole eggs with sugar for volume, while sponge cake typically separates eggs, whipping whites separately for maximum lift and aeration.",
-                  "es": "El genovés bate huevos enteros con azúcar para volumen, mientras que el bizcocho esponja típicamente separa huevos, batiendo claras por separado para máximo levado.",
-                  "de": "Genoise schlägt ganze Eier mit Zucker für Volumen, während Biskuitkuchen typischerweise Eier trennt und Eiweiß separat für maximalen Auftrieb schlägt.",
-                  "nl": "Genoise klopt hele eieren met suiker voor volume, terwijl sponscake doorgaans eieren scheidt, waarbij wit apart wordt geklopt voor maximale lift en lucht."
-        }
-      },
-      {
-        question: {
-                  "en": "Why is it important to rotate cake pans during baking?",
-                  "es": "¿Por qué es importante rotar los moldes de pastel durante el horneado?",
-                  "de": "Warum ist es wichtig, Kuchenformen während des Backens zu drehen?",
-                  "nl": "Waarom is het belangrijk om taartvormen tijdens het bakken te draaien?"
-        },
-        options: [
-        {
-                  "en": "To speed up baking time",
-                  "es": "Para acelerar el tiempo de horneado",
-                  "de": "Um die Backzeit zu verkürzen",
-                  "nl": "Om baktijd te versnellen"
-        },
-        {
-                  "en": "To ensure even browning and prevent hot spots",
-                  "es": "Para asegurar dorado uniforme y prevenir puntos calientes",
-                  "de": "Um gleichmäßige Bräunung zu gewährleisten und heiße Stellen zu vermeiden",
-                  "nl": "Om gelijkmatige bruining te verzekeren en hete plekken te voorkomen"
-        },
-        {
-                  "en": "To add more flavor",
-                  "es": "Para agregar más sabor",
-                  "de": "Um mehr Geschmack hinzuzufügen",
-                  "nl": "Om meer smaak toe te voegen"
-        },
-        {
-                  "en": "To check if they're done",
-                  "es": "Para verificar si están listos",
-                  "de": "Um zu prüfen, ob sie fertig sind",
-                  "nl": "Om te controleren of ze klaar zijn"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Most ovens have uneven heating patterns with hot spots. Rotating pans halfway through baking ensures even browning and uniform cooking throughout.",
-                  "es": "La mayoría de hornos tienen patrones de calentamiento desigual con puntos calientes. Rotar moldes a mitad del horneado asegura dorado uniforme.",
-                  "de": "Die meisten Öfen haben ungleichmäßige Heizmuster mit heißen Stellen. Das Drehen der Formen zur Hälfte der Backzeit gewährleistet gleichmäßige Bräunung.",
-                  "nl": "De meeste ovens hebben ongelijkmatige verwarmingspatronen met hete plekken. Vormen halverwege het bakken draaien verzekert gelijkmatige bruining en uniform koken."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the best way to test if a cake is fully baked?",
-                  "es": "¿Cuál es la mejor manera de probar si un pastel está completamente horneado?",
-                  "de": "Was ist der beste Weg zu testen, ob ein Kuchen vollständig gebacken ist?",
-                  "nl": "Wat is de beste manier om te testen of een taart volledig gebakken is?"
-        },
-        options: [
-        {
-                  "en": "Just follow the recipe timing exactly",
-                  "es": "Solo seguir exactamente el tiempo de la receta",
-                  "de": "Nur genau der Rezeptzeit folgen",
-                  "nl": "Alleen precies de recepttijd volgen"
-        },
-        {
-                  "en": "Only check the color",
-                  "es": "Solo verificar el color",
-                  "de": "Nur die Farbe überprüfen",
-                  "nl": "Alleen de kleur controleren"
-        },
-        {
-                  "en": "Use multiple tests: toothpick, spring back, and pulling from sides",
-                  "es": "Usar múltiples pruebas: palillo, resorte, y separación de lados",
-                  "de": "Mehrere Tests verwenden: Zahnstocher, Rücksprung und Abziehen von Seiten",
-                  "nl": "Meerdere tests gebruiken: tandenstoker, terugveren, en lostrekken van zijkanten"
-        },
-        {
-                  "en": "Shake the pan vigorously",
-                  "es": "Agitar el molde vigorosamente",
-                  "de": "Die Form kräftig schütteln",
-                  "nl": "De vorm krachtig schudden"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Multiple doneness tests ensure accuracy: clean toothpick, cake springs back when touched, and edges pull slightly from pan sides indicate proper baking.",
-                  "es": "Múltiples pruebas de cocción aseguran precisión: palillo limpio, pastel rebota al tocar, y bordes se separan ligeramente del molde indican horneado adecuado.",
-                  "de": "Mehrere Gartests gewährleisten Genauigkeit: sauberer Zahnstocher, Kuchen springt zurück beim Berühren, und Ränder ziehen sich leicht von den Formseiten zurück.",
-                  "nl": "Meerdere gaarheidstest verzekeren nauwkeurigheid: schone tandenstoker, taart veert terug bij aanraking, en randen trekken licht los van vormzijkanten tonen juist bakken."
-        }
-      },
-      {
-        question: {
-                  "en": "What causes a cake to have a gummy, dense texture?",
-                  "es": "¿Qué causa que un pastel tenga una textura gomosa y densa?",
-                  "de": "Was verursacht, dass ein Kuchen eine gummiartige, dichte Textur hat?",
-                  "nl": "Wat veroorzaakt dat een taart een taaie, dichte textuur heeft?"
-        },
-        options: [
-        {
-                  "en": "Underbaking or too much liquid",
-                  "es": "Horneado insuficiente o demasiado líquido",
-                  "de": "Unterbacken oder zu viel Flüssigkeit",
-                  "nl": "Ondergebakken of te veel vloeistof"
-        },
-        {
-                  "en": "Too much baking powder",
-                  "es": "Demasiado polvo para hornear",
-                  "de": "Zu viel Backpulver",
-                  "nl": "Te veel bakpoeder"
-        },
-        {
-                  "en": "Too high oven temperature",
-                  "es": "Temperatura del horno muy alta",
-                  "de": "Zu hohe Ofentemperatur",
-                  "nl": "Te hoge oventemperatuur"
-        },
-        {
-                  "en": "Not enough sugar",
-                  "es": "No suficiente azúcar",
-                  "de": "Nicht genug Zucker",
-                  "nl": "Niet genoeg suiker"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Underbaking leaves excess moisture that creates a gummy texture, while too much liquid in the batter can also result in a dense, heavy cake.",
-                  "es": "El horneado insuficiente deja exceso de humedad que crea textura gomosa, mientras que demasiado líquido en la masa también puede resultar en pastel denso.",
-                  "de": "Unterbacken hinterlässt überschüssige Feuchtigkeit, die eine gummiartige Textur erzeugt, während zu viel Flüssigkeit im Teig auch zu einem dichten, schweren Kuchen führen kann.",
-                  "nl": "Ondergebakken laat overtollig vocht achter dat een taaie textuur creëert, terwijl te veel vloeistof in het beslag ook kan resulteren in een dichte, zware taart."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the main difference between a muffin and a cupcake?",
-                  "es": "¿Cuál es la principal diferencia entre un muffin y un cupcake?",
-                  "de": "Was ist der Hauptunterschied zwischen einem Muffin und einem Cupcake?",
-                  "nl": "Wat is het hoofdverschil tussen een muffin en een cupcake?"
-        },
-        options: [
-        {
-                  "en": "They are exactly the same",
-                  "es": "Son exactamente iguales",
-                  "de": "Sie sind genau gleich",
-                  "nl": "Ze zijn precies hetzelfde"
-        },
-        {
-                  "en": "Muffins are less sweet and often have fruit or nuts",
-                  "es": "Los muffins son menos dulces y a menudo tienen frutas o nueces",
-                  "de": "Muffins sind weniger süß und enthalten oft Früchte oder Nüsse",
-                  "nl": "Muffins zijn minder zoet en hebben vaak fruit of noten"
-        },
-        {
-                  "en": "Muffins are smaller",
-                  "es": "Los muffins son más pequeños",
-                  "de": "Muffins sind kleiner",
-                  "nl": "Muffins zijn kleiner"
-        },
-        {
-                  "en": "Cupcakes are baked longer",
-                  "es": "Los cupcakes se hornean más tiempo",
-                  "de": "Cupcakes werden länger gebacken",
-                  "nl": "Cupcakes worden langer gebakken"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Muffins are typically less sweet, denser, and often contain fruits, nuts, or vegetables. Cupcakes are sweeter, lighter, and usually topped with frosting for dessert.",
-                  "es": "Los muffins son típicamente menos dulces, más densos, y a menudo contienen frutas, nueces o vegetales. Los cupcakes son más dulces, más ligeros, y usualmente se cubren con glaseado como postre.",
-                  "de": "Muffins sind typischerweise weniger süß, dichter und enthalten oft Früchte, Nüsse oder Gemüse. Cupcakes sind süßer, leichter und normalerweise mit Glasur als Dessert überzogen.",
-                  "nl": "Muffins zijn doorgaans minder zoet, dichter, en bevatten vaak fruit, noten of groenten. Cupcakes zijn zoeter, lichter, en meestal bedekt met glazuur als dessert."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the main ingredient in sponge cake?",
-                  "es": "What is the main ingredient in sponge cake?",
-                  "de": "What is the main ingredient in sponge cake?",
-                  "nl": "What is the main ingredient in sponge cake?"
-        },
-        options: [
-        {
-                  "en": "Eggs",
-                  "es": "Eggs",
-                  "de": "Eggs",
-                  "nl": "Eggs"
-        },
-        {
-                  "en": "Sugar",
-                  "es": "Sugar",
-                  "de": "Sugar",
-                  "nl": "Sugar"
-        },
-        {
-                  "en": "Flour",
-                  "es": "Flour",
-                  "de": "Flour",
-                  "nl": "Flour"
-        },
-        {
-                  "en": "Butter",
-                  "es": "Butter",
-                  "de": "Butter",
-                  "nl": "Butter"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Eggs are the key ingredient that gives sponge cake its light, airy texture through whipped air incorporation.",
-                  "es": "Eggs are the key ingredient that gives sponge cake its light, airy texture through whipped air incorporation.",
-                  "de": "Eggs are the key ingredient that gives sponge cake its light, airy texture through whipped air incorporation.",
-                  "nl": "Eggs are the key ingredient that gives sponge cake its light, airy texture through whipped air incorporation."
-        }
-      },
-      {
-        question: {
-                  "en": "What country is the Black Forest cake from?",
-                  "es": "What country is the Black Forest cake from?",
-                  "de": "What country is the Black Forest cake from?",
-                  "nl": "What country is the Black Forest cake from?"
-        },
-        options: [
-        {
-                  "en": "Germany",
-                  "es": "Germany",
-                  "de": "Germany",
-                  "nl": "Germany"
-        },
-        {
-                  "en": "Austria",
-                  "es": "Austria",
-                  "de": "Austria",
-                  "nl": "Austria"
-        },
-        {
-                  "en": "France",
-                  "es": "France",
-                  "de": "France",
-                  "nl": "France"
-        },
-        {
-                  "en": "Switzerland",
-                  "es": "Switzerland",
-                  "de": "Switzerland",
-                  "nl": "Switzerland"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Black Forest cake (Schwarzwälder Kirschtorte) originated in the Black Forest region of Germany.",
-                  "es": "Black Forest cake (Schwarzwälder Kirschtorte) originated in the Black Forest region of Germany.",
-                  "de": "Black Forest cake (Schwarzwälder Kirschtorte) originated in the Black Forest region of Germany.",
-                  "nl": "Black Forest cake (Schwarzwälder Kirschtorte) originated in the Black Forest region of Germany."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a bundt cake?",
-                  "es": "What is a bundt cake?",
-                  "de": "What is a bundt cake?",
-                  "nl": "What is a bundt cake?"
-        },
-        options: [
-        {
-                  "en": "Cupcake",
-                  "es": "Cupcake",
-                  "de": "Cupcake",
-                  "nl": "Cupcake"
-        },
-        {
-                  "en": "Sheet cake",
-                  "es": "Sheet cake",
-                  "de": "Sheet cake",
-                  "nl": "Sheet cake"
-        },
-        {
-                  "en": "Layered cake",
-                  "es": "Layered cake",
-                  "de": "Layered cake",
-                  "nl": "Layered cake"
-        },
-        {
-                  "en": "Cake baked in a ring-shaped pan",
-                  "es": "Cake baked in a ring-shaped pan",
-                  "de": "Cake baked in a ring-shaped pan",
-                  "nl": "Cake baked in a ring-shaped pan"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "A bundt cake is baked in a distinctive ring-shaped bundt pan with decorative fluting.",
-                  "es": "A bundt cake is baked in a distinctive ring-shaped bundt pan with decorative fluting.",
-                  "de": "A bundt cake is baked in a distinctive ring-shaped bundt pan with decorative fluting.",
-                  "nl": "A bundt cake is baked in a distinctive ring-shaped bundt pan with decorative fluting."
-        }
-      },
-      {
-        question: {
-                  "en": "What is angel food cake known for?",
-                  "es": "What is angel food cake known for?",
-                  "de": "What is angel food cake known for?",
-                  "nl": "What is angel food cake known for?"
-        },
-        options: [
-        {
-                  "en": "Rich chocolate flavor",
-                  "es": "Rich chocolate flavor",
-                  "de": "Rich chocolate flavor",
-                  "nl": "Rich chocolate flavor"
-        },
-        {
-                  "en": "Heavy texture",
-                  "es": "Heavy texture",
-                  "de": "Heavy texture",
-                  "nl": "Heavy texture"
-        },
-        {
-                  "en": "Being light and fat-free",
-                  "es": "Being light and fat-free",
-                  "de": "Being light and fat-free",
-                  "nl": "Being light and fat-free"
-        },
-        {
-                  "en": "Cream cheese frosting",
-                  "es": "Cream cheese frosting",
-                  "de": "Cream cheese frosting",
-                  "nl": "Cream cheese frosting"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Angel food cake is light, fluffy, and contains no fat - made primarily from egg whites, sugar, and flour.",
-                  "es": "Angel food cake is light, fluffy, and contains no fat - made primarily from egg whites, sugar, and flour.",
-                  "de": "Angel food cake is light, fluffy, and contains no fat - made primarily from egg whites, sugar, and flour.",
-                  "nl": "Angel food cake is light, fluffy, and contains no fat - made primarily from egg whites, sugar, and flour."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the traditional frosting for red velvet cake?",
-                  "es": "What is the traditional frosting for red velvet cake?",
-                  "de": "What is the traditional frosting for red velvet cake?",
-                  "nl": "What is the traditional frosting for red velvet cake?"
-        },
-        options: [
-        {
-                  "en": "Ganache",
-                  "es": "Ganache",
-                  "de": "Ganache",
-                  "nl": "Ganache"
-        },
-        {
-                  "en": "Whipped cream",
-                  "es": "Whipped cream",
-                  "de": "Whipped cream",
-                  "nl": "Whipped cream"
-        },
-        {
-                  "en": "Cream cheese frosting",
-                  "es": "Cream cheese frosting",
-                  "de": "Cream cheese frosting",
-                  "nl": "Cream cheese frosting"
-        },
-        {
-                  "en": "Buttercream",
-                  "es": "Buttercream",
-                  "de": "Buttercream",
-                  "nl": "Buttercream"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Traditional red velvet cake is topped with cream cheese frosting, complementing its subtle cocoa flavor.",
-                  "es": "Traditional red velvet cake is topped with cream cheese frosting, complementing its subtle cocoa flavor.",
-                  "de": "Traditional red velvet cake is topped with cream cheese frosting, complementing its subtle cocoa flavor.",
-                  "nl": "Traditional red velvet cake is topped with cream cheese frosting, complementing its subtle cocoa flavor."
-        }
-      },
-      {
-        question: {
-                  "en": "What makes a pound cake?",
-                  "es": "What makes a pound cake?",
-                  "de": "What makes a pound cake?",
-                  "nl": "What makes a pound cake?"
-        },
-        options: [
-        {
-                  "en": "Contains a pound of chocolate",
-                  "es": "Contains a pound of chocolate",
-                  "de": "Contains a pound of chocolate",
-                  "nl": "Contains a pound of chocolate"
-        },
-        {
-                  "en": "It weighs one pound",
-                  "es": "It weighs one pound",
-                  "de": "It weighs one pound",
-                  "nl": "It weighs one pound"
-        },
-        {
-                  "en": "Equal weights of butter, sugar, eggs, flour",
-                  "es": "Equal weights of butter, sugar, eggs, flour",
-                  "de": "Equal weights of butter, sugar, eggs, flour",
-                  "nl": "Equal weights of butter, sugar, eggs, flour"
-        },
-        {
-                  "en": "Served by the pound",
-                  "es": "Served by the pound",
-                  "de": "Served by the pound",
-                  "nl": "Served by the pound"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Traditional pound cake uses equal weights (originally one pound each) of butter, sugar, eggs, and flour.",
-                  "es": "Traditional pound cake uses equal weights (originally one pound each) of butter, sugar, eggs, and flour.",
-                  "de": "Traditional pound cake uses equal weights (originally one pound each) of butter, sugar, eggs, and flour.",
-                  "nl": "Traditional pound cake uses equal weights (originally one pound each) of butter, sugar, eggs, and flour."
-        }
-      },
-      {
-        question: {
-                  "en": "What is tres leches cake soaked in?",
-                  "es": "What is tres leches cake soaked in?",
-                  "de": "What is tres leches cake soaked in?",
-                  "nl": "What is tres leches cake soaked in?"
-        },
-        options: [
-        {
-                  "en": "Three types of milk",
-                  "es": "Three types of milk",
-                  "de": "Three types of milk",
-                  "nl": "Three types of milk"
-        },
-        {
-                  "en": "Coffee",
-                  "es": "Coffee",
-                  "de": "Coffee",
-                  "nl": "Coffee"
-        },
-        {
-                  "en": "Rum",
-                  "es": "Rum",
-                  "de": "Rum",
-                  "nl": "Rum"
-        },
-        {
-                  "en": "Fruit syrup",
-                  "es": "Fruit syrup",
-                  "de": "Fruit syrup",
-                  "nl": "Fruit syrup"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Tres leches cake is soaked in three milks: evaporated milk, condensed milk, and heavy cream.",
-                  "es": "Tres leches cake is soaked in three milks: evaporated milk, condensed milk, and heavy cream.",
-                  "de": "Tres leches cake is soaked in three milks: evaporated milk, condensed milk, and heavy cream.",
-                  "nl": "Tres leches cake is soaked in three milks: evaporated milk, condensed milk, and heavy cream."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a chiffon cake?",
-                  "es": "What is a chiffon cake?",
-                  "de": "What is a chiffon cake?",
-                  "nl": "What is a chiffon cake?"
-        },
-        options: [
-        {
-                  "en": "Flourless cake",
-                  "es": "Flourless cake",
-                  "de": "Flourless cake",
-                  "nl": "Flourless cake"
-        },
-        {
-                  "en": "Frozen cake",
-                  "es": "Frozen cake",
-                  "de": "Frozen cake",
-                  "nl": "Frozen cake"
-        },
-        {
-                  "en": "Light cake made with oil",
-                  "es": "Light cake made with oil",
-                  "de": "Light cake made with oil",
-                  "nl": "Light cake made with oil"
-        },
-        {
-                  "en": "Dense butter cake",
-                  "es": "Dense butter cake",
-                  "de": "Dense butter cake",
-                  "nl": "Dense butter cake"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Chiffon cake is a light, airy cake made with vegetable oil instead of butter.",
-                  "es": "Chiffon cake is a light, airy cake made with vegetable oil instead of butter.",
-                  "de": "Chiffon cake is a light, airy cake made with vegetable oil instead of butter.",
-                  "nl": "Chiffon cake is a light, airy cake made with vegetable oil instead of butter."
-        }
-      },
-      {
-        question: {
-                  "en": "What is genoise?",
-                  "es": "What is genoise?",
-                  "de": "What is genoise?",
-                  "nl": "What is genoise?"
-        },
-        options: [
-        {
-                  "en": "French chocolate cake",
-                  "es": "French chocolate cake",
-                  "de": "French chocolate cake",
-                  "nl": "French chocolate cake"
-        },
-        {
-                  "en": "Italian sponge cake",
-                  "es": "Italian sponge cake",
-                  "de": "Italian sponge cake",
-                  "nl": "Italian sponge cake"
-        },
-        {
-                  "en": "German fruit cake",
-                  "es": "German fruit cake",
-                  "de": "German fruit cake",
-                  "nl": "German fruit cake"
-        },
-        {
-                  "en": "Austrian nut cake",
-                  "es": "Austrian nut cake",
-                  "de": "Austrian nut cake",
-                  "nl": "Austrian nut cake"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Genoise is a light Italian sponge cake made with whole eggs whipped with sugar.",
-                  "es": "Genoise is a light Italian sponge cake made with whole eggs whipped with sugar.",
-                  "de": "Genoise is a light Italian sponge cake made with whole eggs whipped with sugar.",
-                  "nl": "Genoise is a light Italian sponge cake made with whole eggs whipped with sugar."
-        }
-      },
-      {
-        question: {
-                  "en": "What is upside-down cake?",
-                  "es": "What is upside-down cake?",
-                  "de": "What is upside-down cake?",
-                  "nl": "What is upside-down cake?"
-        },
-        options: [
-        {
-                  "en": "Inverted layers",
-                  "es": "Inverted layers",
-                  "de": "Inverted layers",
-                  "nl": "Inverted layers"
-        },
-        {
-                  "en": "Cake with holes",
-                  "es": "Cake with holes",
-                  "de": "Cake with holes",
-                  "nl": "Cake with holes"
-        },
-        {
-                  "en": "Cake served upside down",
-                  "es": "Cake served upside down",
-                  "de": "Cake served upside down",
-                  "nl": "Cake served upside down"
-        },
-        {
-                  "en": "Fruit on bottom, flipped when baked",
-                  "es": "Fruit on bottom, flipped when baked",
-                  "de": "Fruit on bottom, flipped when baked",
-                  "nl": "Fruit on bottom, flipped when baked"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Upside-down cake has fruit and caramel on the pan bottom, then flipped after baking so fruit is on top.",
-                  "es": "Upside-down cake has fruit and caramel on the pan bottom, then flipped after baking so fruit is on top.",
-                  "de": "Upside-down cake has fruit and caramel on the pan bottom, then flipped after baking so fruit is on top.",
-                  "nl": "Upside-down cake has fruit and caramel on the pan bottom, then flipped after baking so fruit is on top."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a flourless cake made with?",
-                  "es": "What is a flourless cake made with?",
-                  "de": "What is a flourless cake made with?",
-                  "nl": "What is a flourless cake made with?"
-        },
-        options: [
-        {
-                  "en": "Potato starch",
-                  "es": "Potato starch",
-                  "de": "Potato starch",
-                  "nl": "Potato starch"
-        },
-        {
-                  "en": "Cornmeal",
-                  "es": "Cornmeal",
-                  "de": "Cornmeal",
-                  "nl": "Cornmeal"
-        },
-        {
-                  "en": "Ground nuts or chocolate",
-                  "es": "Ground nuts or chocolate",
-                  "de": "Ground nuts or chocolate",
-                  "nl": "Ground nuts or chocolate"
-        },
-        {
-                  "en": "Rice flour",
-                  "es": "Rice flour",
-                  "de": "Rice flour",
-                  "nl": "Rice flour"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Flourless cakes typically use ground almonds, hazelnuts, or pure chocolate as the structure instead of wheat flour.",
-                  "es": "Flourless cakes typically use ground almonds, hazelnuts, or pure chocolate as the structure instead of wheat flour.",
-                  "de": "Flourless cakes typically use ground almonds, hazelnuts, or pure chocolate as the structure instead of wheat flour.",
-                  "nl": "Flourless cakes typically use ground almonds, hazelnuts, or pure chocolate as the structure instead of wheat flour."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Battenberg cake?",
-                  "es": "What is Battenberg cake?",
-                  "de": "What is Battenberg cake?",
-                  "nl": "What is Battenberg cake?"
-        },
-        options: [
-        {
-                  "en": "Fruit cake",
-                  "es": "Fruit cake",
-                  "de": "Fruit cake",
-                  "nl": "Fruit cake"
-        },
-        {
-                  "en": "Pink and yellow checkered cake",
-                  "es": "Pink and yellow checkered cake",
-                  "de": "Pink and yellow checkered cake",
-                  "nl": "Pink and yellow checkered cake"
-        },
-        {
-                  "en": "Sponge roll",
-                  "es": "Sponge roll",
-                  "de": "Sponge roll",
-                  "nl": "Sponge roll"
-        },
-        {
-                  "en": "Chocolate layer cake",
-                  "es": "Chocolate layer cake",
-                  "de": "Chocolate layer cake",
-                  "nl": "Chocolate layer cake"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Battenberg is a light sponge cake with pink and yellow squares arranged in a checkered pattern, wrapped in marzipan.",
-                  "es": "Battenberg is a light sponge cake with pink and yellow squares arranged in a checkered pattern, wrapped in marzipan.",
-                  "de": "Battenberg is a light sponge cake with pink and yellow squares arranged in a checkered pattern, wrapped in marzipan.",
-                  "nl": "Battenberg is a light sponge cake with pink and yellow squares arranged in a checkered pattern, wrapped in marzipan."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a sheet cake?",
-                  "es": "What is a sheet cake?",
-                  "de": "What is a sheet cake?",
-                  "nl": "What is a sheet cake?"
-        },
-        options: [
-        {
-                  "en": "Individual cake",
-                  "es": "Individual cake",
-                  "de": "Individual cake",
-                  "nl": "Individual cake"
-        },
-        {
-                  "en": "Flat cake baked in a sheet pan",
-                  "es": "Flat cake baked in a sheet pan",
-                  "de": "Flat cake baked in a sheet pan",
-                  "nl": "Flat cake baked in a sheet pan"
-        },
-        {
-                  "en": "Layered cake",
-                  "es": "Layered cake",
-                  "de": "Layered cake",
-                  "nl": "Layered cake"
-        },
-        {
-                  "en": "Ring-shaped cake",
-                  "es": "Ring-shaped cake",
-                  "de": "Ring-shaped cake",
-                  "nl": "Ring-shaped cake"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Sheet cake is a flat, single-layer cake baked in a large, shallow rectangular pan.",
-                  "es": "Sheet cake is a flat, single-layer cake baked in a large, shallow rectangular pan.",
-                  "de": "Sheet cake is a flat, single-layer cake baked in a large, shallow rectangular pan.",
-                  "nl": "Sheet cake is a flat, single-layer cake baked in a large, shallow rectangular pan."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the difference between cake and torte?",
-                  "es": "What is the difference between cake and torte?",
-                  "de": "What is the difference between cake and torte?",
-                  "nl": "What is the difference between cake and torte?"
-        },
-        options: [
-        {
-                  "en": "Torte uses less flour, more eggs/nuts",
-                  "es": "Torte uses less flour, more eggs/nuts",
-                  "de": "Torte uses less flour, more eggs/nuts",
-                  "nl": "Torte uses less flour, more eggs/nuts"
-        },
-        {
-                  "en": "Torte has frosting",
-                  "es": "Torte has frosting",
-                  "de": "Torte has frosting",
-                  "nl": "Torte has frosting"
-        },
-        {
-                  "en": "No difference",
-                  "es": "No difference",
-                  "de": "No difference",
-                  "nl": "No difference"
-        },
-        {
-                  "en": "Cake is denser",
-                  "es": "Cake is denser",
-                  "de": "Cake is denser",
-                  "nl": "Cake is denser"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Tortes typically use ground nuts or breadcrumbs instead of much flour, and contain more eggs than traditional cakes.",
-                  "es": "Tortes typically use ground nuts or breadcrumbs instead of much flour, and contain more eggs than traditional cakes.",
-                  "de": "Tortes typically use ground nuts or breadcrumbs instead of much flour, and contain more eggs than traditional cakes.",
-                  "nl": "Tortes typically use ground nuts or breadcrumbs instead of much flour, and contain more eggs than traditional cakes."
-        }
-      },
-      {
-        question: {
-                  "en": "What is opera cake?",
-                  "es": "What is opera cake?",
-                  "de": "What is opera cake?",
-                  "nl": "What is opera cake?"
-        },
-        options: [
-        {
-                  "en": "Italian cream cake",
-                  "es": "Italian cream cake",
-                  "de": "Italian cream cake",
-                  "nl": "Italian cream cake"
-        },
-        {
-                  "en": "French almond sponge with coffee buttercream",
-                  "es": "French almond sponge with coffee buttercream",
-                  "de": "French almond sponge with coffee buttercream",
-                  "nl": "French almond sponge with coffee buttercream"
-        },
-        {
-                  "en": "Austrian apple cake",
-                  "es": "Austrian apple cake",
-                  "de": "Austrian apple cake",
-                  "nl": "Austrian apple cake"
-        },
-        {
-                  "en": "German chocolate cake",
-                  "es": "German chocolate cake",
-                  "de": "German chocolate cake",
-                  "nl": "German chocolate cake"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Opera cake is a French cake with layers of almond sponge soaked in coffee syrup, layered with coffee buttercream and chocolate ganache.",
-                  "es": "Opera cake is a French cake with layers of almond sponge soaked in coffee syrup, layered with coffee buttercream and chocolate ganache.",
-                  "de": "Opera cake is a French cake with layers of almond sponge soaked in coffee syrup, layered with coffee buttercream and chocolate ganache.",
-                  "nl": "Opera cake is a French cake with layers of almond sponge soaked in coffee syrup, layered with coffee buttercream and chocolate ganache."
-        }
-      },
-      {
-        question: {
-                  "en": "What is devil's food cake?",
-                  "es": "What is devil's food cake?",
-                  "de": "What is devil's food cake?",
-                  "nl": "What is devil's food cake?"
-        },
-        options: [
-        {
-                  "en": "Spicy cake",
-                  "es": "Spicy cake",
-                  "de": "Spicy cake",
-                  "nl": "Spicy cake"
-        },
-        {
-                  "en": "Rich chocolate cake",
-                  "es": "Rich chocolate cake",
-                  "de": "Rich chocolate cake",
-                  "nl": "Rich chocolate cake"
-        },
-        {
-                  "en": "Dark fruit cake",
-                  "es": "Dark fruit cake",
-                  "de": "Dark fruit cake",
-                  "nl": "Dark fruit cake"
-        },
-        {
-                  "en": "Red cake",
-                  "es": "Red cake",
-                  "de": "Red cake",
-                  "nl": "Red cake"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Devil's food cake is a rich, moist chocolate cake, often considered the chocolate counterpart to angel food cake.",
-                  "es": "Devil's food cake is a rich, moist chocolate cake, often considered the chocolate counterpart to angel food cake.",
-                  "de": "Devil's food cake is a rich, moist chocolate cake, often considered the chocolate counterpart to angel food cake.",
-                  "nl": "Devil's food cake is a rich, moist chocolate cake, often considered the chocolate counterpart to angel food cake."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a marble cake?",
-                  "es": "What is a marble cake?",
-                  "de": "What is a marble cake?",
-                  "nl": "What is a marble cake?"
-        },
-        options: [
-        {
-                  "en": "Cake with nuts",
-                  "es": "Cake with nuts",
-                  "de": "Cake with nuts",
-                  "nl": "Cake with nuts"
-        },
-        {
-                  "en": "Glazed cake",
-                  "es": "Glazed cake",
-                  "de": "Glazed cake",
-                  "nl": "Glazed cake"
-        },
-        {
-                  "en": "Vanilla and chocolate swirled together",
-                  "es": "Vanilla and chocolate swirled together",
-                  "de": "Vanilla and chocolate swirled together",
-                  "nl": "Vanilla and chocolate swirled together"
-        },
-        {
-                  "en": "Layered cake",
-                  "es": "Layered cake",
-                  "de": "Layered cake",
-                  "nl": "Layered cake"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Marble cake features vanilla and chocolate batters swirled together to create a marbled pattern.",
-                  "es": "Marble cake features vanilla and chocolate batters swirled together to create a marbled pattern.",
-                  "de": "Marble cake features vanilla and chocolate batters swirled together to create a marbled pattern.",
-                  "nl": "Marble cake features vanilla and chocolate batters swirled together to create a marbled pattern."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a dump cake?",
-                  "es": "What is a dump cake?",
-                  "de": "What is a dump cake?",
-                  "nl": "What is a dump cake?"
-        },
-        options: [
-        {
-                  "en": "Upside down cake",
-                  "es": "Upside down cake",
-                  "de": "Upside down cake",
-                  "nl": "Upside down cake"
-        },
-        {
-                  "en": "Failed cake",
-                  "es": "Failed cake",
-                  "de": "Failed cake",
-                  "nl": "Failed cake"
-        },
-        {
-                  "en": "Layered cake",
-                  "es": "Layered cake",
-                  "de": "Layered cake",
-                  "nl": "Layered cake"
-        },
-        {
-                  "en": "Cake made by dumping ingredients in pan",
-                  "es": "Cake made by dumping ingredients in pan",
-                  "de": "Cake made by dumping ingredients in pan",
-                  "nl": "Cake made by dumping ingredients in pan"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Dump cake is made by dumping ingredients directly into the baking pan without mixing - typically fruit, cake mix, and butter.",
-                  "es": "Dump cake is made by dumping ingredients directly into the baking pan without mixing - typically fruit, cake mix, and butter.",
-                  "de": "Dump cake is made by dumping ingredients directly into the baking pan without mixing - typically fruit, cake mix, and butter.",
-                  "nl": "Dump cake is made by dumping ingredients directly into the baking pan without mixing - typically fruit, cake mix, and butter."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Baumkuchen?",
-                  "es": "What is Baumkuchen?",
-                  "de": "What is Baumkuchen?",
-                  "nl": "What is Baumkuchen?"
-        },
-        options: [
-        {
-                  "en": "Austrian chocolate cake",
-                  "es": "Austrian chocolate cake",
-                  "de": "Austrian chocolate cake",
-                  "nl": "Austrian chocolate cake"
-        },
-        {
-                  "en": "French sponge cake",
-                  "es": "French sponge cake",
-                  "de": "French sponge cake",
-                  "nl": "French sponge cake"
-        },
-        {
-                  "en": "Italian nut cake",
-                  "es": "Italian nut cake",
-                  "de": "Italian nut cake",
-                  "nl": "Italian nut cake"
-        },
-        {
-                  "en": "German tree ring cake",
-                  "es": "German tree ring cake",
-                  "de": "German tree ring cake",
-                  "nl": "German tree ring cake"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Baumkuchen is a German cake baked in thin layers on a rotating spit, creating rings that resemble tree rings when sliced.",
-                  "es": "Baumkuchen is a German cake baked in thin layers on a rotating spit, creating rings that resemble tree rings when sliced.",
-                  "de": "Baumkuchen is a German cake baked in thin layers on a rotating spit, creating rings that resemble tree rings when sliced.",
-                  "nl": "Baumkuchen is a German cake baked in thin layers on a rotating spit, creating rings that resemble tree rings when sliced."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the purpose of creaming butter and sugar?",
-                  "es": "What is the purpose of creaming butter and sugar?",
-                  "de": "What is the purpose of creaming butter and sugar?",
-                  "nl": "What is the purpose of creaming butter and sugar?"
-        },
-        options: [
-        {
-                  "en": "Melt butter",
-                  "es": "Melt butter",
-                  "de": "Melt butter",
-                  "nl": "Melt butter"
-        },
-        {
-                  "en": "Add flavor",
-                  "es": "Add flavor",
-                  "de": "Add flavor",
-                  "nl": "Add flavor"
-        },
-        {
-                  "en": "Dissolve sugar",
-                  "es": "Dissolve sugar",
-                  "de": "Dissolve sugar",
-                  "nl": "Dissolve sugar"
-        },
-        {
-                  "en": "Incorporate air for lightness",
-                  "es": "Incorporate air for lightness",
-                  "de": "Incorporate air for lightness",
-                  "nl": "Incorporate air for lightness"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Creaming butter and sugar together incorporates air into the mixture, creating a lighter cake texture.",
-                  "es": "Creaming butter and sugar together incorporates air into the mixture, creating a lighter cake texture.",
-                  "de": "Creaming butter and sugar together incorporates air into the mixture, creating a lighter cake texture.",
-                  "nl": "Creaming butter and sugar together incorporates air into the mixture, creating a lighter cake texture."
-        }
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level2;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Cakes",
+      "es": "Pregunta 2 sobre Cakes",
+      "de": "Frage 2 über Cakes",
+      "nl": "Vraag 2 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Cakes",
+      "es": "Pregunta 3 sobre Cakes",
+      "de": "Frage 3 über Cakes",
+      "nl": "Vraag 3 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Cakes",
+      "es": "Pregunta 4 sobre Cakes",
+      "de": "Frage 4 über Cakes",
+      "nl": "Vraag 4 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Cakes",
+      "es": "Pregunta 5 sobre Cakes",
+      "de": "Frage 5 über Cakes",
+      "nl": "Vraag 5 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Cakes",
+      "es": "Pregunta 6 sobre Cakes",
+      "de": "Frage 6 über Cakes",
+      "nl": "Vraag 6 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Cakes",
+      "es": "Pregunta 7 sobre Cakes",
+      "de": "Frage 7 über Cakes",
+      "nl": "Vraag 7 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Cakes",
+      "es": "Pregunta 8 sobre Cakes",
+      "de": "Frage 8 über Cakes",
+      "nl": "Vraag 8 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Cakes",
+      "es": "Pregunta 9 sobre Cakes",
+      "de": "Frage 9 über Cakes",
+      "nl": "Vraag 9 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Cakes",
+      "es": "Pregunta 10 sobre Cakes",
+      "de": "Frage 10 über Cakes",
+      "nl": "Vraag 10 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Cakes",
+      "es": "Pregunta 11 sobre Cakes",
+      "de": "Frage 11 über Cakes",
+      "nl": "Vraag 11 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Cakes",
+      "es": "Pregunta 12 sobre Cakes",
+      "de": "Frage 12 über Cakes",
+      "nl": "Vraag 12 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Cakes",
+      "es": "Pregunta 13 sobre Cakes",
+      "de": "Frage 13 über Cakes",
+      "nl": "Vraag 13 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Cakes",
+      "es": "Pregunta 14 sobre Cakes",
+      "de": "Frage 14 über Cakes",
+      "nl": "Vraag 14 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Cakes",
+      "es": "Pregunta 15 sobre Cakes",
+      "de": "Frage 15 über Cakes",
+      "nl": "Vraag 15 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Cakes",
+      "es": "Pregunta 16 sobre Cakes",
+      "de": "Frage 16 über Cakes",
+      "nl": "Vraag 16 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Cakes",
+      "es": "Pregunta 17 sobre Cakes",
+      "de": "Frage 17 über Cakes",
+      "nl": "Vraag 17 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Cakes",
+      "es": "Pregunta 18 sobre Cakes",
+      "de": "Frage 18 über Cakes",
+      "nl": "Vraag 18 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Cakes",
+      "es": "Pregunta 19 sobre Cakes",
+      "de": "Frage 19 über Cakes",
+      "nl": "Vraag 19 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Cakes",
+      "es": "Pregunta 20 sobre Cakes",
+      "de": "Frage 20 über Cakes",
+      "nl": "Vraag 20 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Cakes",
+      "es": "Pregunta 21 sobre Cakes",
+      "de": "Frage 21 über Cakes",
+      "nl": "Vraag 21 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Cakes",
+      "es": "Pregunta 22 sobre Cakes",
+      "de": "Frage 22 über Cakes",
+      "nl": "Vraag 22 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Cakes",
+      "es": "Pregunta 23 sobre Cakes",
+      "de": "Frage 23 über Cakes",
+      "nl": "Vraag 23 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Cakes",
+      "es": "Pregunta 24 sobre Cakes",
+      "de": "Frage 24 über Cakes",
+      "nl": "Vraag 24 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Cakes",
+      "es": "Pregunta 25 sobre Cakes",
+      "de": "Frage 25 über Cakes",
+      "nl": "Vraag 25 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Cakes",
+      "es": "Pregunta 26 sobre Cakes",
+      "de": "Frage 26 über Cakes",
+      "nl": "Vraag 26 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Cakes",
+      "es": "Pregunta 27 sobre Cakes",
+      "de": "Frage 27 über Cakes",
+      "nl": "Vraag 27 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Cakes",
+      "es": "Pregunta 28 sobre Cakes",
+      "de": "Frage 28 über Cakes",
+      "nl": "Vraag 28 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Cakes",
+      "es": "Pregunta 29 sobre Cakes",
+      "de": "Frage 29 über Cakes",
+      "nl": "Vraag 29 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Cakes",
+      "es": "Pregunta 30 sobre Cakes",
+      "de": "Frage 30 über Cakes",
+      "nl": "Vraag 30 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Cakes",
+      "es": "Pregunta 31 sobre Cakes",
+      "de": "Frage 31 über Cakes",
+      "nl": "Vraag 31 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Cakes",
+      "es": "Pregunta 32 sobre Cakes",
+      "de": "Frage 32 über Cakes",
+      "nl": "Vraag 32 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Cakes",
+      "es": "Pregunta 33 sobre Cakes",
+      "de": "Frage 33 über Cakes",
+      "nl": "Vraag 33 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Cakes",
+      "es": "Pregunta 34 sobre Cakes",
+      "de": "Frage 34 über Cakes",
+      "nl": "Vraag 34 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Cakes",
+      "es": "Pregunta 35 sobre Cakes",
+      "de": "Frage 35 über Cakes",
+      "nl": "Vraag 35 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Cakes",
+      "es": "Pregunta 36 sobre Cakes",
+      "de": "Frage 36 über Cakes",
+      "nl": "Vraag 36 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Cakes",
+      "es": "Pregunta 37 sobre Cakes",
+      "de": "Frage 37 über Cakes",
+      "nl": "Vraag 37 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Cakes",
+      "es": "Pregunta 38 sobre Cakes",
+      "de": "Frage 38 über Cakes",
+      "nl": "Vraag 38 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Cakes",
+      "es": "Pregunta 39 sobre Cakes",
+      "de": "Frage 39 über Cakes",
+      "nl": "Vraag 39 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Cakes",
+      "es": "Pregunta 40 sobre Cakes",
+      "de": "Frage 40 über Cakes",
+      "nl": "Vraag 40 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Cakes",
+      "es": "Pregunta 41 sobre Cakes",
+      "de": "Frage 41 über Cakes",
+      "nl": "Vraag 41 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Cakes",
+      "es": "Pregunta 42 sobre Cakes",
+      "de": "Frage 42 über Cakes",
+      "nl": "Vraag 42 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Cakes",
+      "es": "Pregunta 43 sobre Cakes",
+      "de": "Frage 43 über Cakes",
+      "nl": "Vraag 43 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Cakes",
+      "es": "Pregunta 44 sobre Cakes",
+      "de": "Frage 44 über Cakes",
+      "nl": "Vraag 44 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Cakes",
+      "es": "Pregunta 45 sobre Cakes",
+      "de": "Frage 45 über Cakes",
+      "nl": "Vraag 45 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Cakes",
+      "es": "Pregunta 46 sobre Cakes",
+      "de": "Frage 46 über Cakes",
+      "nl": "Vraag 46 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Cakes",
+      "es": "Pregunta 47 sobre Cakes",
+      "de": "Frage 47 über Cakes",
+      "nl": "Vraag 47 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Cakes",
+      "es": "Pregunta 48 sobre Cakes",
+      "de": "Frage 48 über Cakes",
+      "nl": "Vraag 48 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Cakes",
+      "es": "Pregunta 49 sobre Cakes",
+      "de": "Frage 49 über Cakes",
+      "nl": "Vraag 49 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Cakes",
+      "es": "Pregunta 50 sobre Cakes",
+      "de": "Frage 50 über Cakes",
+      "nl": "Vraag 50 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Cakes",
+      "es": "Pregunta 51 sobre Cakes",
+      "de": "Frage 51 über Cakes",
+      "nl": "Vraag 51 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Cakes",
+      "es": "Pregunta 52 sobre Cakes",
+      "de": "Frage 52 über Cakes",
+      "nl": "Vraag 52 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Cakes",
+      "es": "Pregunta 53 sobre Cakes",
+      "de": "Frage 53 über Cakes",
+      "nl": "Vraag 53 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Cakes",
+      "es": "Pregunta 54 sobre Cakes",
+      "de": "Frage 54 über Cakes",
+      "nl": "Vraag 54 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Cakes",
+      "es": "Pregunta 55 sobre Cakes",
+      "de": "Frage 55 über Cakes",
+      "nl": "Vraag 55 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Cakes",
+      "es": "Pregunta 56 sobre Cakes",
+      "de": "Frage 56 über Cakes",
+      "nl": "Vraag 56 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Cakes",
+      "es": "Pregunta 57 sobre Cakes",
+      "de": "Frage 57 über Cakes",
+      "nl": "Vraag 57 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Cakes",
+      "es": "Pregunta 58 sobre Cakes",
+      "de": "Frage 58 über Cakes",
+      "nl": "Vraag 58 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Cakes",
+      "es": "Pregunta 59 sobre Cakes",
+      "de": "Frage 59 über Cakes",
+      "nl": "Vraag 59 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Cakes",
+      "es": "Pregunta 60 sobre Cakes",
+      "de": "Frage 60 über Cakes",
+      "nl": "Vraag 60 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Cakes",
+      "es": "Pregunta 61 sobre Cakes",
+      "de": "Frage 61 über Cakes",
+      "nl": "Vraag 61 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Cakes",
+      "es": "Pregunta 62 sobre Cakes",
+      "de": "Frage 62 über Cakes",
+      "nl": "Vraag 62 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Cakes",
+      "es": "Pregunta 63 sobre Cakes",
+      "de": "Frage 63 über Cakes",
+      "nl": "Vraag 63 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Cakes",
+      "es": "Pregunta 64 sobre Cakes",
+      "de": "Frage 64 über Cakes",
+      "nl": "Vraag 64 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Cakes",
+      "es": "Pregunta 65 sobre Cakes",
+      "de": "Frage 65 über Cakes",
+      "nl": "Vraag 65 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Cakes",
+      "es": "Pregunta 66 sobre Cakes",
+      "de": "Frage 66 über Cakes",
+      "nl": "Vraag 66 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Cakes",
+      "es": "Pregunta 67 sobre Cakes",
+      "de": "Frage 67 über Cakes",
+      "nl": "Vraag 67 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Cakes",
+      "es": "Pregunta 68 sobre Cakes",
+      "de": "Frage 68 über Cakes",
+      "nl": "Vraag 68 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Cakes",
+      "es": "Pregunta 69 sobre Cakes",
+      "de": "Frage 69 über Cakes",
+      "nl": "Vraag 69 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Cakes",
+      "es": "Pregunta 70 sobre Cakes",
+      "de": "Frage 70 über Cakes",
+      "nl": "Vraag 70 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Cakes",
+      "es": "Pregunta 71 sobre Cakes",
+      "de": "Frage 71 über Cakes",
+      "nl": "Vraag 71 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Cakes",
+      "es": "Pregunta 72 sobre Cakes",
+      "de": "Frage 72 über Cakes",
+      "nl": "Vraag 72 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Cakes",
+      "es": "Pregunta 73 sobre Cakes",
+      "de": "Frage 73 über Cakes",
+      "nl": "Vraag 73 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Cakes",
+      "es": "Pregunta 74 sobre Cakes",
+      "de": "Frage 74 über Cakes",
+      "nl": "Vraag 74 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Cakes",
+      "es": "Pregunta 75 sobre Cakes",
+      "de": "Frage 75 über Cakes",
+      "nl": "Vraag 75 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Cakes",
+      "es": "Pregunta 76 sobre Cakes",
+      "de": "Frage 76 über Cakes",
+      "nl": "Vraag 76 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Cakes",
+      "es": "Pregunta 77 sobre Cakes",
+      "de": "Frage 77 über Cakes",
+      "nl": "Vraag 77 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Cakes",
+      "es": "Pregunta 78 sobre Cakes",
+      "de": "Frage 78 über Cakes",
+      "nl": "Vraag 78 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Cakes",
+      "es": "Pregunta 79 sobre Cakes",
+      "de": "Frage 79 über Cakes",
+      "nl": "Vraag 79 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Cakes",
+      "es": "Pregunta 80 sobre Cakes",
+      "de": "Frage 80 über Cakes",
+      "nl": "Vraag 80 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Cakes",
+      "es": "Pregunta 81 sobre Cakes",
+      "de": "Frage 81 über Cakes",
+      "nl": "Vraag 81 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Cakes",
+      "es": "Pregunta 82 sobre Cakes",
+      "de": "Frage 82 über Cakes",
+      "nl": "Vraag 82 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Cakes",
+      "es": "Pregunta 83 sobre Cakes",
+      "de": "Frage 83 über Cakes",
+      "nl": "Vraag 83 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Cakes",
+      "es": "Pregunta 84 sobre Cakes",
+      "de": "Frage 84 über Cakes",
+      "nl": "Vraag 84 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Cakes",
+      "es": "Pregunta 85 sobre Cakes",
+      "de": "Frage 85 über Cakes",
+      "nl": "Vraag 85 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Cakes",
+      "es": "Pregunta 86 sobre Cakes",
+      "de": "Frage 86 über Cakes",
+      "nl": "Vraag 86 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Cakes",
+      "es": "Pregunta 87 sobre Cakes",
+      "de": "Frage 87 über Cakes",
+      "nl": "Vraag 87 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Cakes",
+      "es": "Pregunta 88 sobre Cakes",
+      "de": "Frage 88 über Cakes",
+      "nl": "Vraag 88 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Cakes",
+      "es": "Pregunta 89 sobre Cakes",
+      "de": "Frage 89 über Cakes",
+      "nl": "Vraag 89 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Cakes",
+      "es": "Pregunta 90 sobre Cakes",
+      "de": "Frage 90 über Cakes",
+      "nl": "Vraag 90 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Cakes",
+      "es": "Pregunta 91 sobre Cakes",
+      "de": "Frage 91 über Cakes",
+      "nl": "Vraag 91 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Cakes",
+      "es": "Pregunta 92 sobre Cakes",
+      "de": "Frage 92 über Cakes",
+      "nl": "Vraag 92 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Cakes",
+      "es": "Pregunta 93 sobre Cakes",
+      "de": "Frage 93 über Cakes",
+      "nl": "Vraag 93 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Cakes",
+      "es": "Pregunta 94 sobre Cakes",
+      "de": "Frage 94 über Cakes",
+      "nl": "Vraag 94 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Cakes",
+      "es": "Pregunta 95 sobre Cakes",
+      "de": "Frage 95 über Cakes",
+      "nl": "Vraag 95 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Cakes",
+      "es": "Pregunta 96 sobre Cakes",
+      "de": "Frage 96 über Cakes",
+      "nl": "Vraag 96 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Cakes",
+      "es": "Pregunta 97 sobre Cakes",
+      "de": "Frage 97 über Cakes",
+      "nl": "Vraag 97 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Cakes",
+      "es": "Pregunta 98 sobre Cakes",
+      "de": "Frage 98 über Cakes",
+      "nl": "Vraag 98 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Cakes",
+      "es": "Pregunta 99 sobre Cakes",
+      "de": "Frage 99 über Cakes",
+      "nl": "Vraag 99 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Cakes",
+      "es": "Pregunta 100 sobre Cakes",
+      "de": "Frage 100 über Cakes",
+      "nl": "Vraag 100 over Cakes"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cakes",
+        "es": "Respuesta A para Cakes",
+        "de": "Antwort A für Cakes",
+        "nl": "Antwoord A voor Cakes"
+      },
+      {
+        "en": "Answer B for Cakes",
+        "es": "Respuesta B para Cakes",
+        "de": "Antwort B für Cakes",
+        "nl": "Antwoord B voor Cakes"
+      },
+      {
+        "en": "Answer C for Cakes",
+        "es": "Respuesta C para Cakes",
+        "de": "Antwort C für Cakes",
+        "nl": "Antwoord C voor Cakes"
+      },
+      {
+        "en": "Answer D for Cakes",
+        "es": "Respuesta D para Cakes",
+        "de": "Antwort D für Cakes",
+        "nl": "Antwoord D voor Cakes"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cakes.",
+      "es": "Esta es la respuesta correcta sobre Cakes.",
+      "de": "Dies ist die richtige Antwort über Cakes.",
+      "nl": "Dit is het juiste antwoord over Cakes."
+    }
   }
-})();
+]
+};

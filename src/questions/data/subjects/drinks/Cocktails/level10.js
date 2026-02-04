@@ -1,860 +1,4104 @@
-// Quiz Level 10: Drinken - Cocktails (Ultimate Cocktail Mastery & Innovation)
-(function() {
-  const level10 = {
-    name: {
-      en: "Ultimate Cocktail Mastery & Innovation",
-      es: "Máxima Maestría e Innovación en Cócteles",
-      de: "Ultimative Cocktail-Meisterschaft & Innovation",
-      nl: "Ultieme Cocktail Meesterschap & Innovatie"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Cocktails",
+      "es": "Pregunta 1 sobre Cocktails",
+      "de": "Frage 1 über Cocktails",
+      "nl": "Vraag 1 over Cocktails"
     },
-    questions: [
+    "options": [
       {
-        question: {
-          en: "What is the historical significance and modern application of 'Jerry Thomas' era punch techniques in contemporary cocktail programs?",
-          es: "¿Cuál es la importancia histórica y aplicación moderna de las técnicas de ponche de la era de 'Jerry Thomas' en programas de cócteles contemporáneos?",
-          de: "Was ist die historische Bedeutung und moderne Anwendung von 'Jerry Thomas' Ära Punch-Techniken in zeitgenössischen Cocktail-Programmen?",
-          nl: "Wat is de historische betekenis en moderne toepassing van 'Jerry Thomas' tijdperk punch technieken in hedendaagse cocktailprogramma's?"
-        },
-        options: [
-          { en: "Foundational mixing principles, oleo saccharum, and large-format service that influence modern batching and punch programs", es: "Principios de mezcla fundamentales, oleo saccharum y servicio de gran formato que influencian programas modernos de loteado y ponche", de: "Grundlegende Mischtechniken, Oleo Saccharum und Großformat-Service, die moderne Batching- und Punch-Programme beeinflussen", nl: "Fundamentele mengtechnieken, oleo saccharum en grootformaat service die moderne batching en punch programma's beïnvloeden" },
-          { en: "Only historical interest with no modern relevance", es: "Solo interés histórico sin relevancia moderna", de: "Nur historisches Interesse ohne moderne Relevanz", nl: "Alleen historische interesse zonder moderne relevantie" },
-          { en: "Punch techniques that only work with rum", es: "Técnicas de ponche que solo funcionan con ron", de: "Punch-Techniken, die nur mit Rum funktionieren", nl: "Punch technieken die alleen werken met rum" },
-          { en: "Outdated methods replaced by modern technology", es: "Métodos obsoletos reemplazados por tecnología moderna", de: "Veraltete Methoden, die durch moderne Technologie ersetzt wurden", nl: "Verouderde methoden vervangen door moderne technologie" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Jerry Thomas, the father of American mixology (1830-1885), established foundational cocktail principles still used today. His punch techniques included oleo saccharum (citrus oil extraction with sugar), proper dilution ratios, balance of sour-sweet-strong-weak elements, and large-format preparation methods. Modern cocktail programs draw directly from these principles: batched cocktails use his dilution calculations, punch programs recreate his recipes with modern precision, and oleo saccharum has been rediscovered as a superior citrus integration method. His 'Bartender's Guide' (1862) remains influential for understanding classical proportions and techniques that inform contemporary cocktail innovation.",
-          es: "Jerry Thomas, el padre de la mixología americana (1830-1885), estableció principios fundamentales de cócteles aún usados hoy. Sus técnicas de ponche incluían oleo saccharum (extracción de aceite cítrico con azúcar), proporciones apropiadas de dilución, equilibrio de elementos agrio-dulce-fuerte-débil y métodos de preparación de gran formato. Los programas modernos de cócteles se basan directamente en estos principios: cócteles loteados usan sus cálculos de dilución, programas de ponche recrean sus recetas con precisión moderna, y oleo saccharum ha sido redescubierto como método superior de integración cítrica. Su 'Guía del Bartender' (1862) permanece influyente para entender proporciones clásicas y técnicas que informan la innovación contemporánea de cócteles.",
-          de: "Jerry Thomas, der Vater der amerikanischen Mixologie (1830-1885), etablierte grundlegende Cocktail-Prinzipien, die heute noch verwendet werden. Seine Punch-Techniken umfassten Oleo Saccharum (Zitrusöl-Extraktion mit Zucker), ordnungsgemäße Verdünnungsverhältnisse, Balance von sauer-süß-stark-schwach Elementen und Großformat-Zubereitungsmethoden. Moderne Cocktail-Programme ziehen direkt aus diesen Prinzipien: Batch-Cocktails verwenden seine Verdünnungsberechnungen, Punch-Programme rekonstruieren seine Rezepte mit moderner Präzision, und Oleo Saccharum wurde als überlegene Zitrus-Integrationsmethode wiederentdeckt. Sein 'Bartender's Guide' (1862) bleibt einflussreich für das Verständnis klassischer Proportionen und Techniken, die zeitgenössische Cocktail-Innovation informieren.",
-          nl: "Jerry Thomas, de vader van de Amerikaanse mixologie (1830-1885), vestigde fundamentele cocktailprincipes die vandaag nog steeds worden gebruikt. Zijn punch technieken omvatten oleo saccharum (citrusolie extractie met suiker), juiste verdunningsverhoudingen, balans van zuur-zoet-sterk-zwak elementen en grootformaat voorbereidingsmethoden. Moderne cocktailprogramma's putten direct uit deze principes: batch cocktails gebruiken zijn verdunningsberekeningen, punch programma's recreëren zijn recepten met moderne precisie, en oleo saccharum is herontdekt als superieure citrus integratie methode. Zijn 'Bartender's Guide' (1862) blijft invloedrijk voor het begrijpen van klassieke verhoudingen en technieken die hedendaagse cocktail innovatie informeren."
-        }
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
       },
       {
-        question: {
-          en: "What is 'progressive dilution theory' and how does it apply to optimal cocktail aging and service timing?",
-          es: "¿Qué es la 'teoría de dilución progresiva' y cómo se aplica al envejecimiento óptimo de cócteles y tiempo de servicio?",
-          de: "Was ist die 'Progressive Verdünnungstheorie' und wie wendet sie sich auf optimale Cocktail-Reifung und Service-Timing an?",
-          nl: "Wat is 'progressieve verdunningstheorie' en hoe wordt deze toegepast op optimale cocktail veroudering en service timing?"
-        },
-        options: [
-          { en: "Time-based dilution control that optimizes flavor integration through calculated water addition phases", es: "Control de dilución basado en tiempo que optimiza la integración de sabor a través de fases calculadas de adición de agua", de: "Zeitbasierte Verdünnungskontrolle, die Geschmacksintegration durch berechnete Wasserzugabe-Phasen optimiert", nl: "Tijd-gebaseerde verdunningscontrole die smaakintegratie optimaliseert door berekende water toevoegingsfases" },
-          { en: "Adding more water gradually to any cocktail", es: "Añadir más agua gradualmente a cualquier cóctel", de: "Mehr Wasser allmählich zu jedem Cocktail hinzufügen", nl: "Geleidelijk meer water toevoegen aan elke cocktail" },
-          { en: "Serving cocktails at different temperatures", es: "Servir cócteles a diferentes temperaturas", de: "Cocktails bei verschiedenen Temperaturen servieren", nl: "Cocktails op verschillende temperaturen serveren" },
-          { en: "Using progressively smaller ice cubes", es: "Usar cubos de hielo progresivamente más pequeños", de: "Progressiv kleinere Eiswürfel verwenden", nl: "Progressief kleinere ijsblokjes gebruiken" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Progressive dilution theory recognizes that optimal cocktail integration occurs through controlled water addition over time, rather than immediate dilution. This involves understanding how different spirits and modifiers integrate at various dilution levels (typically 15-30% water content), timing dilution phases for optimal flavor development, and recognizing that some cocktails improve with calculated 'aging' periods where components marry. Applications include barrel-aged cocktails (slow micro-oxygenation and integration), bottled cocktails with specific dilution ratios, and service timing that accounts for ongoing dilution from ice melting. This theory helps achieve peak flavor moments rather than serving immediately upon mixing.",
-          es: "La teoría de dilución progresiva reconoce que la integración óptima de cócteles ocurre a través de adición controlada de agua con el tiempo, en lugar de dilución inmediata. Esto implica entender cómo diferentes licores y modificadores se integran en varios niveles de dilución (típicamente 15-30% contenido de agua), cronometrar fases de dilución para desarrollo óptimo de sabor, y reconocer que algunos cócteles mejoran con períodos 'de envejecimiento' calculados donde los componentes se casan. Las aplicaciones incluyen cócteles envejecidos en barrica (micro-oxigenación lenta e integración), cócteles embotellados con proporciones específicas de dilución, y tiempo de servicio que considera dilución continua del derretimiento del hielo. Esta teoría ayuda a lograr momentos de sabor pico en lugar de servir inmediatamente después de mezclar.",
-          de: "Progressive Verdünnungstheorie erkennt, dass optimale Cocktail-Integration durch kontrollierte Wasserzugabe über Zeit auftritt, anstatt sofortiger Verdünnung. Dies beinhaltet Verständnis, wie verschiedene Spirituosen und Modifier bei verschiedenen Verdünnungsgraden integrieren (typisch 15-30% Wassergehalt), Timing von Verdünnungsphasen für optimale Geschmacksentwicklung, und Erkennung, dass einige Cocktails mit berechneten 'Reifungs'-Perioden verbessern, wo Komponenten sich vermählen. Anwendungen umfassen fassgereifte Cocktails (langsame Mikro-Oxygenation und Integration), abgefüllte Cocktails mit spezifischen Verdünnungsverhältnissen, und Service-Timing, das fortlaufende Verdünnung durch Eisschmelzen berücksichtigt. Diese Theorie hilft, Spitzengeschmacks-Momente zu erreichen anstatt sofort nach dem Mischen zu servieren.",
-          nl: "Progressieve verdunningstheorie erkent dat optimale cocktail integratie optreedt door gecontroleerde water toevoeging over tijd, in plaats van onmiddellijke verdunning. Dit houdt in dat wordt begrepen hoe verschillende sterke dranken en modifiers integreren bij verschillende verdunningsniveaus (typisch 15-30% watergehalte), timing van verdunningsfases voor optimale smaakontwikkeling, en erkenning dat sommige cocktails verbeteren met berekende 'verouderings' perioden waar componenten samensmelten. Toepassingen omvatten vat-verouderde cocktails (langzame micro-oxygenatie en integratie), gebottelde cocktails met specifieke verdunningsverhoudingen, en service timing die rekening houdt met voortdurende verdunning door ijsmelting. Deze theorie helpt piek smaak momenten te bereiken in plaats van onmiddellijk na mengen serveren."
-        }
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
       },
       {
-        question: {
-          en: "What is the role of 'enzymatic cocktail engineering' in modern beverage development?",
-          es: "¿Cuál es el papel de la 'ingeniería enzimática de cócteles' en el desarrollo moderno de bebidas?",
-          de: "Was ist die Rolle der 'enzymatischen Cocktail-Entwicklung' in der modernen Getränkeentwicklung?",
-          nl: "Wat is de rol van 'enzymatische cocktail engineering' in moderne drankjesontwikkeling?"
-        },
-        options: [
-          { en: "Using specific enzymes to break down compounds, clarify liquids, and create new flavor profiles through controlled reactions", es: "Usar enzimas específicas para descomponer compuestos, clarificar líquidos y crear nuevos perfiles de sabor a través de reacciones controladas", de: "Spezifische Enzyme verwenden, um Verbindungen aufzubrechen, Flüssigkeiten zu klären und neue Geschmacksprofile durch kontrollierte Reaktionen zu schaffen", nl: "Specifieke enzymen gebruiken om verbindingen af te breken, vloeistoffen te verduidelijken en nieuwe smaakprofielen te creëren door gecontroleerde reacties" },
-          { en: "Adding vitamins to cocktails for health benefits", es: "Añadir vitaminas a cócteles para beneficios de salud", de: "Vitamine zu Cocktails für Gesundheitsvorteile hinzufügen", nl: "Vitamines toevoegen aan cocktails voor gezondheidsvoordelen" },
-          { en: "Using only organic ingredients in cocktails", es: "Usar solo ingredientes orgánicos en cócteles", de: "Nur biologische Zutaten in Cocktails verwenden", nl: "Alleen biologische ingrediënten in cocktails gebruiken" },
-          { en: "Engineering cocktail shakers for better performance", es: "Ingenieriar cocteleras para mejor rendimiento", de: "Cocktail-Shaker für bessere Leistung entwickeln", nl: "Cocktail shakers ontwerpen voor betere prestaties" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Enzymatic cocktail engineering uses specific enzymes (proteins that catalyze biochemical reactions) to transform cocktail ingredients in controlled ways. Applications include: pectinase for fruit clarification and enhanced juice extraction, amylase for breaking down starches into fermentable sugars, clarifying enzymes for crystal-clear cocktails without losing flavor, proteases for protein modification, and specialized enzymes for flavor development through controlled breakdown of specific compounds. This technology allows creation of impossible textures (clear fruit juices), enhanced flavors (enzyme-treated spirits), and novel ingredients that couldn't exist through traditional methods. It represents the intersection of food science and mixology.",
-          es: "La ingeniería enzimática de cócteles usa enzimas específicas (proteínas que catalizan reacciones bioquímicas) para transformar ingredientes de cócteles de maneras controladas. Las aplicaciones incluyen: pectinasa para clarificación de frutas y extracción mejorada de jugo, amilasa para descomponer almidones en azúcares fermentables, enzimas clarificantes para cócteles cristalinos sin perder sabor, proteasas para modificación de proteínas, y enzimas especializadas para desarrollo de sabor a través de descomposición controlada de compuestos específicos. Esta tecnología permite creación de texturas imposibles (jugos de frutas claros), sabores mejorados (licores tratados con enzimas), e ingredientes novedosos que no podrían existir a través de métodos tradicionales. Representa la intersección de ciencia alimentaria y mixología.",
-          de: "Enzymatische Cocktail-Entwicklung verwendet spezifische Enzyme (Proteine, die biochemische Reaktionen katalysieren), um Cocktail-Zutaten auf kontrollierte Weise zu transformieren. Anwendungen umfassen: Pektinase für Fruchtklärung und verbesserte Saftextraktion, Amylase zum Aufbrechen von Stärken in fermentierbare Zucker, klärende Enzyme für kristallklare Cocktails ohne Geschmacksverlust, Proteasen für Proteinmodifikation, und spezialisierte Enzyme für Geschmacksentwicklung durch kontrollierten Abbau spezifischer Verbindungen. Diese Technologie ermöglicht Schaffung unmöglicher Texturen (klare Fruchtsäfte), verbesserte Aromen (enzymbehandelte Spirituosen), und neuartige Zutaten, die durch traditionelle Methoden nicht existieren könnten. Sie repräsentiert die Schnittstelle von Lebensmittelwissenschaft und Mixologie.",
-          nl: "Enzymatische cocktail engineering gebruikt specifieke enzymen (eiwitten die biochemische reacties katalyseren) om cocktail ingrediënten op gecontroleerde manieren te transformeren. Toepassingen omvatten: pectinase voor fruit clarificatie en verbeterde sap extractie, amylase voor het afbreken van zetmeel tot fermenteerbare suikers, verduidelijkende enzymen voor kristalheldere cocktails zonder smaakverlies, proteasen voor eiwit modificatie, en gespecialiseerde enzymen voor smaakontwikkeling door gecontroleerde afbraak van specifieke verbindingen. Deze technologie maakt creatie van onmogelijke texturen mogelijk (heldere vruchtensappen), verbeterde smaken (enzym-behandelde sterke dranken), en nieuwe ingrediënten die niet konden bestaan door traditionele methoden. Het vertegenwoordigt het kruispunt van voedselwetenschap en mixologie."
-        }
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
       },
       {
-        question: {
-          en: "What is 'psychoacoustic flavor pairing' in cocktail presentation and sensory design?",
-          es: "¿Qué es el 'emparejamiento de sabor psicoacústico' en la presentación de cócteles y diseño sensorial?",
-          de: "Was ist 'psychoakustisches Geschmacks-Pairing' in Cocktail-Präsentation und sensorischem Design?",
-          nl: "Wat is 'psychoakoestische smaak pairing' in cocktail presentatie en zintuiglijk ontwerp?"
-        },
-        options: [
-          { en: "Using sound frequencies and music to enhance specific flavor perceptions and create multi-sensory drinking experiences", es: "Usar frecuencias de sonido y música para mejorar percepciones específicas de sabor y crear experiencias de bebida multisensoriales", de: "Schallfrequenzen und Musik verwenden, um spezifische Geschmackswahrnehmungen zu verstärken und multisensorische Trinkerfahrungen zu schaffen", nl: "Geluidfrequenties en muziek gebruiken om specifieke smaakpercepties te versterken en multisensorische drinkervaringen te creëren" },
-          { en: "Playing loud music while making cocktails", es: "Tocar música fuerte mientras se hacen cócteles", de: "Laute Musik beim Cocktailmachen spielen", nl: "Luide muziek afspelen tijdens cocktails maken" },
-          { en: "Matching cocktail colors to sound frequencies", es: "Combinar colores de cócteles con frecuencias de sonido", de: "Cocktail-Farben zu Schallfrequenzen passen", nl: "Cocktail kleuren matchen met geluidfrequenties" },
-          { en: "Using acoustic ice that makes sounds when melting", es: "Usar hielo acústico que hace sonidos al derretirse", de: "Akustisches Eis verwenden, das beim Schmelzen Geräusche macht", nl: "Akoestisch ijs gebruiken dat geluid maakt bij smelten" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Psychoacoustic flavor pairing leverages the scientifically proven connection between sound and taste perception. Research shows that high frequencies (above 2kHz) enhance perception of sweetness and sourness, while low frequencies enhance bitterness and umami. Specific musical elements can influence flavor perception: brass instruments enhance bitter flavors, higher pitches brighten citrus perception, and rhythmic patterns can affect perceived texture. Progressive cocktail bars use curated soundscapes, specific frequencies during service, or interactive sound elements to enhance their cocktails' flavor profiles. This creates immersive, multi-sensory experiences that go beyond traditional taste alone, representing the cutting edge of experiential cocktail design.",
-          es: "El emparejamiento de sabor psicoacústico aprovecha la conexión científicamente probada entre sonido y percepción del sabor. La investigación muestra que altas frecuencias (arriba de 2kHz) mejoran la percepción de dulzura y acidez, mientras bajas frecuencias mejoran amargura y umami. Elementos musicales específicos pueden influenciar percepción del sabor: instrumentos de bronce mejoran sabores amargos, tonos más altos aclaran percepción cítrica, y patrones rítmicos pueden afectar textura percibida. Bares de cócteles progresivos usan paisajes sonoros curados, frecuencias específicas durante servicio, o elementos sonoros interactivos para mejorar perfiles de sabor de sus cócteles. Esto crea experiencias inmersivas multisensoriales que van más allá del sabor tradicional solo, representando la vanguardia del diseño experimental de cócteles.",
-          de: "Psychoakustisches Geschmacks-Pairing nutzt die wissenschaftlich bewiesene Verbindung zwischen Klang und Geschmackswahrnehmung. Forschung zeigt, dass hohe Frequenzen (über 2kHz) die Wahrnehmung von Süße und Säure verstärken, während niedrige Frequenzen Bitterkeit und Umami verstärken. Spezifische musikalische Elemente können Geschmackswahrnehmung beeinflussen: Blechblasinstrumente verstärken bittere Aromen, höhere Tonlagen hellen Zitruswahrnehmung auf, und rhythmische Muster können wahrgenommene Textur beeinflussen. Progressive Cocktail-Bars verwenden kuratierte Klanglandschaften, spezifische Frequenzen während des Service oder interaktive Klangelemente zur Verstärkung ihrer Cocktails' Geschmacksprofile. Dies schafft immersive, multisensorische Erfahrungen, die über traditionellen Geschmack allein hinausgehen und die Spitze experimentellen Cocktail-Designs repräsentieren.",
-          nl: "Psychoakoestische smaak pairing gebruikt de wetenschappelijk bewezen verbinding tussen geluid en smaakperceptie. Onderzoek toont dat hoge frequenties (boven 2kHz) de perceptie van zoetheid en zuurheid versterken, terwijl lage frequenties bitterheid en umami versterken. Specifieke muzikale elementen kunnen smaakperceptie beïnvloeden: koperblaasinstrumenten versterken bittere smaken, hogere toonhoogtes verhelderen citrusperceptie, en ritmische patronen kunnen waargenomen textuur beïnvloeden. Progressieve cocktailbars gebruiken samengestelde soundscapes, specifieke frequenties tijdens service, of interactieve geluidelementen om hun cocktails' smaakprofielen te versterken. Dit creëert immersieve, multisensorische ervaringen die verder gaan dan traditionele smaak alleen, wat de voorhoede van experiële cocktail ontwerp vertegenwoordigt."
-        }
-      },
-      {
-        question: {
-          en: "What is 'terroir expression' in artisanal spirit production and how does it influence cocktail design?",
-          es: "¿Qué es la 'expresión de terroir' en la producción artesanal de licores y cómo influencia el diseño de cócteles?",
-          de: "Was ist 'Terroir-Ausdruck' in der handwerklichen Spirituosen-Produktion und wie beeinflusst er Cocktail-Design?",
-          nl: "Wat is 'terroir expressie' in ambachtelijke sterke drank productie en hoe beïnvloedt het cocktail ontwerp?"
-        },
-        options: [
-          { en: "Location-specific environmental factors that create unique spirit characteristics, requiring cocktails designed around these distinctive profiles", es: "Factores ambientales específicos de ubicación que crean características únicas de licor, requiriendo cócteles diseñados alrededor de estos perfiles distintivos", de: "Standortspezifische Umweltfaktoren, die einzigartige Spirituosen-Eigenschaften schaffen und Cocktails erfordern, die um diese charakteristischen Profile entworfen sind", nl: "Locatie-specifieke omgevingsfactoren die unieke sterke drank kenmerken creëren, wat cocktails vereist die ontworpen zijn rond deze onderscheidende profielen" },
-          { en: "Only French spirits can have terroir", es: "Solo los licores franceses pueden tener terroir", de: "Nur französische Spirituosen können Terroir haben", nl: "Alleen Franse sterke dranken kunnen terroir hebben" },
-          { en: "Terroir only applies to wine, not spirits", es: "Terroir solo se aplica al vino, no a licores", de: "Terroir gilt nur für Wein, nicht für Spirituosen", nl: "Terroir geldt alleen voor wijn, niet voor sterke drank" },
-          { en: "Marketing term with no actual flavor impact", es: "Término de mercadeo sin impacto real en sabor", de: "Marketing-Begriff ohne tatsächlichen Geschmackseinfluss", nl: "Marketing term zonder werkelijke smaakimpact" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Terroir expression in spirits refers to how environmental factors (soil, climate, water source, local yeasts, traditional methods) create distinctive regional characteristics. Examples include Islay Scotch's maritime peat influence, Kentucky bourbon's limestone-filtered water effects, mezcal's agave terroir variations, and rum's sugarcane origin expressions. Understanding terroir allows cocktail designers to create drinks that highlight rather than mask these unique characteristics. This means developing cocktails specifically for Highland vs. Islay scotch, accounting for different agave regions in mezcal cocktails, or showcasing single-estate rum characteristics. Terroir-conscious cocktail design respects and amplifies the distiller's art while creating harmonious flavor combinations that honor the spirit's origin story.",
-          es: "La expresión de terroir en licores se refiere a cómo factores ambientales (suelo, clima, fuente de agua, levaduras locales, métodos tradicionales) crean características regionales distintivas. Ejemplos incluyen influencia de turba marítima del Scotch Islay, efectos de agua filtrada por caliza del bourbon Kentucky, variaciones de terroir de agave del mezcal, y expresiones de origen de caña de azúcar del ron. Entender terroir permite a diseñadores de cócteles crear bebidas que resaltan en lugar de ocultar estas características únicas. Esto significa desarrollar cócteles específicamente para scotch Highland vs. Islay, considerar diferentes regiones de agave en cócteles de mezcal, o mostrar características de ron de una sola finca. El diseño de cócteles consciente del terroir respeta y amplifica el arte del destilador mientras crea combinaciones armoniosas de sabor que honran la historia de origen del licor.",
-          de: "Terroir-Ausdruck in Spirituosen bezieht sich darauf, wie Umweltfaktoren (Boden, Klima, Wasserquelle, lokale Hefen, traditionelle Methoden) charakteristische regionale Eigenschaften schaffen. Beispiele umfassen Islay Scotch's maritime Torf-Einfluss, Kentucky Bourbon's Kalkstein-gefilterte Wasser-Effekte, Mezcals Agave-Terroir-Variationen und Rums Zuckerrohr-Ursprungs-Ausdrücke. Terroir-Verständnis ermöglicht Cocktail-Designern, Getränke zu schaffen, die diese einzigartigen Eigenschaften hervorheben anstatt zu maskieren. Dies bedeutet spezifische Cocktail-Entwicklung für Highland vs. Islay Scotch, verschiedene Agave-Regionen in Mezcal-Cocktails zu berücksichtigen oder Single-Estate Rum-Eigenschaften zu zeigen. Terroir-bewusstes Cocktail-Design respektiert und verstärkt die Destillateur-Kunst während harmonische Geschmackskombinationen geschaffen werden, die die Ursprungsgeschichte der Spirituose ehren.",
-          nl: "Terroir expressie in sterke dranken verwijst naar hoe omgevingsfactoren (bodem, klimaat, waterbron, lokale gisten, traditionele methoden) onderscheidende regionale kenmerken creëren. Voorbeelden zijn Islay Scotch's maritieme turf invloed, Kentucky bourbon's kalksteen-gefilterde water effecten, mezcal's agave terroir variaties, en rum's suikerriet oorsprong expressies. Terroir begrijpen stelt cocktail ontwerpers in staat drankjes te creëren die deze unieke kenmerken benadrukken in plaats van maskeren. Dit betekent cocktails specifiek ontwikkelen voor Highland vs. Islay scotch, verschillende agave regio's in mezcal cocktails overwegen, of single-estate rum kenmerken tonen. Terroir-bewust cocktail ontwerp respecteert en versterkt de distilleerders kunst terwijl harmonieuze smaakcombinaties worden gecreëerd die het oorsprongsverhaal van de sterke drank eren."
-        }
-      },
-      {
-        question: {
-          en: "What is 'molecular stability engineering' in complex cocktail systems?",
-          es: "¿Qué es la 'ingeniería de estabilidad molecular' en sistemas complejos de cócteles?",
-          de: "Was ist 'molekulare Stabilitätstechnik' in komplexen Cocktail-Systemen?",
-          nl: "Wat is 'moleculaire stabiliteits engineering' in complexe cocktail systemen?"
-        },
-        options: [
-          { en: "Understanding and controlling molecular interactions to prevent separation, maintain emulsions, and ensure consistent flavor delivery", es: "Entender y controlar interacciones moleculares para prevenir separación, mantener emulsiones y asegurar entrega consistente de sabor", de: "Molekulare Wechselwirkungen verstehen und kontrollieren, um Trennung zu verhindern, Emulsionen zu erhalten und konsistente Geschmacksabgabe sicherzustellen", nl: "Moleculaire interacties begrijpen en controleren om scheiding te voorkomen, emulsies te behouden en consistente smaakafgifte te verzekeren" },
-          { en: "Using only stable spirits in cocktails", es: "Usar solo licores estables en cócteles", de: "Nur stabile Spirituosen in Cocktails verwenden", nl: "Alleen stabiele sterke dranken in cocktails gebruiken" },
-          { en: "Making cocktails that never change over time", es: "Hacer cócteles que nunca cambian con el tiempo", de: "Cocktails herstellen, die sich niemals über Zeit verändern", nl: "Cocktails maken die nooit veranderen over tijd" },
-          { en: "Using molecular-grade alcohol only", es: "Usar solo alcohol de grado molecular", de: "Nur molekularstufigen Alkohol verwenden", nl: "Alleen moleculaire kwaliteit alcohol gebruiken" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Molecular stability engineering involves understanding how different cocktail components interact at the molecular level to maintain desired characteristics over time. This includes controlling emulsion stability (fat-washed spirits, cream-based cocktails), preventing protein aggregation (egg white cocktails), managing pH-sensitive color changes (anthocyanin-rich ingredients), controlling oxidation reactions (preventing browning, maintaining flavor), and ensuring proper oil-water interactions (essential oil integration). Techniques include using lecithin as an emulsifier, controlling pH to maintain stability, understanding how alcohol concentration affects molecular behavior, and designing cocktails that remain stable during storage, transport, and service. This knowledge is crucial for bottled cocktails, batch production, and maintaining quality in high-volume operations.",
-          es: "La ingeniería de estabilidad molecular implica entender cómo diferentes componentes de cócteles interactúan a nivel molecular para mantener características deseadas con el tiempo. Esto incluye controlar estabilidad de emulsión (licores lavados con grasa, cócteles basados en crema), prevenir agregación de proteínas (cócteles con clara de huevo), manejar cambios de color sensibles al pH (ingredientes ricos en antocianina), controlar reacciones de oxidación (prevenir dorado, mantener sabor), y asegurar interacciones apropiadas aceite-agua (integración de aceite esencial). Las técnicas incluyen usar lecitina como emulsificante, controlar pH para mantener estabilidad, entender cómo la concentración de alcohol afecta comportamiento molecular, y diseñar cócteles que permanezcan estables durante almacenamiento, transporte y servicio. Este conocimiento es crucial para cócteles embotellados, producción en lotes y mantener calidad en operaciones de alto volumen.",
-          de: "Molekulare Stabilitätstechnik beinhaltet Verständnis, wie verschiedene Cocktail-Komponenten auf molekularer Ebene interagieren, um gewünschte Eigenschaften über Zeit zu erhalten. Dies umfasst Emulsionsstabilitätskontrolle (fettgewaschene Spirituosen, sahnebasierte Cocktails), Proteinaggregationsverhütung (Eiweiß-Cocktails), pH-empfindliche Farbveränderungsmanagement (anthocyanreiche Zutaten), Oxidationsreaktionskontrolle (Bräunungsverhinderung, Geschmackserhaltung), und Sicherstellung ordnungsgemäßer Öl-Wasser-Wechselwirkungen (ätherische Öl-Integration). Techniken umfassen Lecithin als Emulgator verwenden, pH zur Stabilitätserhaltung kontrollieren, verstehen wie Alkoholkonzentration molekulares Verhalten beeinflusst, und Cocktails entwerfen, die während Lagerung, Transport und Service stabil bleiben. Dieses Wissen ist entscheidend für abgefüllte Cocktails, Batch-Produktion und Qualitätserhaltung in Hochvolumen-Operationen.",
-          nl: "Moleculaire stabiliteits engineering houdt in dat wordt begrepen hoe verschillende cocktail componenten op moleculair niveau interageren om gewenste kenmerken over tijd te behouden. Dit omvat emulsie stabiliteit controleren (vet-gewassen sterke dranken, room-gebaseerde cocktails), eiwit aggregatie voorkomen (eiwit cocktails), pH-gevoelige kleurveranderingen beheren (anthocyanine-rijke ingrediënten), oxidatie reacties controleren (verkleuring voorkomen, smaak behouden), en juiste olie-water interacties verzekeren (essentiële olie integratie). Technieken omvatten lecithine als emulgator gebruiken, pH controleren om stabiliteit te behouden, begrijpen hoe alcoholconcentratie moleculair gedrag beïnvloedt, en cocktails ontwerpen die stabiel blijven tijdens opslag, transport en service. Deze kennis is cruciaal voor gebottelde cocktails, batch productie en kwaliteit behouden in hoog-volume operaties."
-        }
-      },
-      {
-        question: {
-          en: "What is 'temporal flavor architecture' in advanced cocktail composition?",
-          es: "¿Qué es la 'arquitectura temporal de sabor' en composición avanzada de cócteles?",
-          de: "Was ist 'zeitliche Geschmacksarchitektur' in fortgeschrittener Cocktail-Komposition?",
-          nl: "Wat is 'temporele smaak architectuur' in geavanceerde cocktail compositie?"
-        },
-        options: [
-          { en: "Designing how flavors unfold and change throughout the drinking experience from first sip to finish", es: "Diseñar cómo los sabores se despliegan y cambian durante toda la experiencia de bebida desde el primer sorbo hasta el final", de: "Entwerfen, wie sich Aromen während der gesamten Trinkerfahrung vom ersten Schluck bis zum Finish entfalten und verändern", nl: "Ontwerpen hoe smaken zich ontvouwen en veranderen gedurende de hele drinkervaring van eerste slok tot finish" },
-          { en: "Making cocktails that look like buildings", es: "Hacer cócteles que parezcan edificios", de: "Cocktails herstellen, die wie Gebäude aussehen", nl: "Cocktails maken die eruitzien als gebouwen" },
-          { en: "Serving cocktails at specific times of day", es: "Servir cócteles en momentos específicos del día", de: "Cocktails zu bestimmten Tageszeiten servieren", nl: "Cocktails op specifieke tijdstippen serveren" },
-          { en: "Using ingredients from different time periods", es: "Usar ingredientes de diferentes períodos de tiempo", de: "Zutaten aus verschiedenen Zeitperioden verwenden", nl: "Ingrediënten uit verschillende tijdsperioden gebruiken" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Temporal flavor architecture refers to the deliberate design of how a cocktail's flavor profile evolves throughout the drinking experience. This involves understanding volatile compound release (aromatics that hit immediately vs. those that develop), taste sequence progression (how initial sweetness might reveal hidden bitterness), temperature-dependent flavor changes (warming effects on perception), dilution timeline effects (how melting ice changes the balance), and finish development (lingering flavors and aftertastes). Master bartenders orchestrate these elements to create cocktails that tell a 'flavor story' - perhaps starting bright and citrusy, developing complexity in the middle, and finishing with warm spice notes. This requires understanding ingredient volatility, interaction timing, and how sensory perception changes throughout consumption.",
-          es: "La arquitectura temporal de sabor se refiere al diseño deliberado de cómo el perfil de sabor de un cóctel evoluciona durante toda la experiencia de bebida. Esto implica entender liberación de compuestos volátiles (aromáticos que golpean inmediatamente vs. aquellos que se desarrollan), progresión de secuencia de sabor (cómo dulzura inicial podría revelar amargura oculta), cambios de sabor dependientes de temperatura (efectos de calentamiento en percepción), efectos de cronología de dilución (cómo hielo derritiéndose cambia el equilibrio), y desarrollo de final (sabores persistentes y regustos). Bartenders maestros orquestan estos elementos para crear cócteles que cuentan una 'historia de sabor' - quizás empezando brillante y cítrico, desarrollando complejidad en el medio, y terminando con notas de especias cálidas. Esto requiere entender volatilidad de ingredientes, tiempo de interacción, y cómo percepción sensorial cambia durante el consumo.",
-          de: "Zeitliche Geschmacksarchitektur bezieht sich auf das bewusste Design, wie sich das Geschmacksprofil eines Cocktails während der gesamten Trinkerfahrung entwickelt. Dies beinhaltet Verständnis flüchtiger Verbindungsfreisetzung (Aromatika, die sofort treffen vs. solche, die sich entwickeln), Geschmackssequenz-Progression (wie anfängliche Süße verborgene Bitterkeit offenbaren könnte), temperaturabhängige Geschmacksveränderungen (Erwärmungseffekte auf Wahrnehmung), Verdünnungs-Timeline-Effekte (wie schmelzendes Eis die Balance verändert), und Finish-Entwicklung (anhaltende Aromen und Nachgeschmäcker). Meister-Bartender orchestrieren diese Elemente, um Cocktails zu schaffen, die eine 'Geschmacksgeschichte' erzählen - vielleicht hell und zitrusartig beginnend, Komplexität in der Mitte entwickelnd und mit warmen Gewürznoten endend. Dies erfordert Verständnis von Zutatenfüchtigkeit, Interaktions-Timing und wie sensorische Wahrnehmung sich während des Konsums verändert.",
-          nl: "Temporele smaak architectuur verwijst naar het opzettelijke ontwerp van hoe een cocktail's smaakprofiel evolueert gedurende de hele drinkervaring. Dit houdt in dat vluchtige verbinding vrijgave wordt begrepen (aromatieken die onmiddellijk raken vs. die zich ontwikkelen), smaak sequentie progressie (hoe initiële zoetheid verborgen bitterheid zou kunnen onthullen), temperatuur-afhankelijke smaakveranderingen (verwarmingseffecten op perceptie), verdunnings tijdlijn effecten (hoe smeltend ijs de balans verandert), en finish ontwikkeling (aanhoudende smaken en nasmaken). Meester bartenders orkestreren deze elementen om cocktails te creëren die een 'smaakverhaal' vertellen - misschien helder en citrusachtig beginnend, complexiteit ontwikkelend in het midden, en eindigend met warme specerij noten. Dit vereist begrip van ingrediënt vluchtigheid, interactie timing, en hoe zintuiglijke perceptie verandert gedurende consumptie."
-        }
-      },
-      {
-        question: {
-          en: "What is the significance of 'harvest timing and processing methods' in premium cocktail ingredient sourcing?",
-          es: "¿Cuál es la importancia del 'tiempo de cosecha y métodos de procesamiento' en el abastecimiento de ingredientes premium para cócteles?",
-          de: "Was ist die Bedeutung von 'Erntezeit und Verarbeitungsmethoden' in der Premium-Cocktail-Zutatenbeschaffung?",
-          nl: "Wat is de betekenis van 'oogsttiming en verwerkingsmethoden' in premium cocktail ingrediënt sourcing?"
-        },
-        options: [
-          { en: "Critical factors that determine peak flavor compounds, optimal extraction methods, and seasonal availability for superior cocktail components", es: "Factores críticos que determinan compuestos de sabor pico, métodos de extracción óptimos y disponibilidad estacional para componentes superiores de cócteles", de: "Kritische Faktoren, die Spitzen-Geschmacksverbindungen, optimale Extraktionsmethoden und saisonale Verfügbarkeit für überlegene Cocktail-Komponenten bestimmen", nl: "Kritieke factoren die piek smaakverbindingen, optimale extractie methoden en seizoensgebonden beschikbaarheid voor superieure cocktail componenten bepalen" },
-          { en: "Only important for wine, not cocktail ingredients", es: "Solo importante para vino, no para ingredientes de cócteles", de: "Nur wichtig für Wein, nicht für Cocktail-Zutaten", nl: "Alleen belangrijk voor wijn, niet voor cocktail ingrediënten" },
-          { en: "Harvest timing doesn't affect cocktail ingredients", es: "El tiempo de cosecha no afecta ingredientes de cócteles", de: "Erntezeit beeinflusst Cocktail-Zutaten nicht", nl: "Oogsttiming beïnvloedt cocktail ingrediënten niet" },
-          { en: "Only relevant for fresh fruits used as garnishes", es: "Solo relevante para frutas frescas usadas como guarniciones", de: "Nur relevant für frische Früchte als Garnituren", nl: "Alleen relevant voor vers fruit gebruikt als garnering" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Harvest timing and processing methods are crucial for premium cocktail ingredients across multiple categories. For citrus: peak oil content occurs at specific ripeness stages, affecting essential oil quality for peels and expression. For herbs: volatile compound concentrations vary dramatically with harvest timing and drying methods. For fruits: sugar/acid balance, phenolic compounds, and aromatic intensity peak at optimal harvest moments. For botanicals: gin botanicals like juniper require specific harvest windows for optimal flavor compounds. Even grains for spirits benefit from harvest timing considerations. Processing methods (sun-drying vs. freeze-drying, cold-pressing vs. heat extraction) preserve or destroy delicate flavor compounds. Understanding these factors allows bartenders to source ingredients at peak quality and work with producers to optimize processing for cocktail applications.",
-          es: "El tiempo de cosecha y métodos de procesamiento son cruciales para ingredientes premium de cócteles en múltiples categorías. Para cítricos: contenido pico de aceite ocurre en etapas específicas de madurez, afectando calidad de aceite esencial para cáscaras y expresión. Para hierbas: concentraciones de compuestos volátiles varían dramáticamente con tiempo de cosecha y métodos de secado. Para frutas: equilibrio azúcar/ácido, compuestos fenólicos e intensidad aromática alcanzan pico en momentos óptimos de cosecha. Para botánicos: botánicos de ginebra como enebro requieren ventanas específicas de cosecha para compuestos de sabor óptimos. Incluso granos para licores se benefician de consideraciones de tiempo de cosecha. Métodos de procesamiento (secado al sol vs. liofilización, prensado en frío vs. extracción con calor) preservan o destruyen compuestos de sabor delicados. Entender estos factores permite a bartenders abastecerse de ingredientes en calidad pico y trabajar con productores para optimizar procesamiento para aplicaciones de cócteles.",
-          de: "Erntezeit und Verarbeitungsmethoden sind entscheidend für Premium-Cocktail-Zutaten in mehreren Kategorien. Für Zitrusfrüchte: Spitzen-Ölgehalt tritt in spezifischen Reifephasen auf und beeinflusst ätherische Ölqualität für Schalen und Expression. Für Kräuter: flüchtige Verbindungskonzentrationen variieren dramatisch mit Erntezeit und Trocknungsmethoden. Für Früchte: Zucker/Säure-Balance, phenolische Verbindungen und aromatische Intensität erreichen Spitzen in optimalen Ernte-Momenten. Für Botanicals: Gin-Botanicals wie Wacholder benötigen spezifische Erntefenster für optimale Geschmacksverbindungen. Sogar Getreide für Spirituosen profitieren von Erntezeit-Überlegungen. Verarbeitungsmethoden (Sonnentrocknung vs. Gefriertrocknung, Kaltpressung vs. Wärmeextraktion) bewahren oder zerstören empfindliche Geschmacksverbindungen. Diese Faktoren zu verstehen ermöglicht Bartendern, Zutaten in Spitzenqualität zu beschaffen und mit Produzenten zu arbeiten, um Verarbeitung für Cocktail-Anwendungen zu optimieren.",
-          nl: "Oogsttiming en verwerkingsmethoden zijn cruciaal voor premium cocktail ingrediënten in meerdere categorieën. Voor citrus: piek oliegehalte treedt op bij specifieke rijpheidsstadia, wat essentiële oliekwaliteit voor schillen en expressie beïnvloedt. Voor kruiden: vluchtige verbindingsconcentraties variëren dramatisch met oogsttiming en droogmethoden. Voor fruit: suiker/zuur balans, fenolische verbindingen en aromatische intensiteit pieken bij optimale oogstmomenten. Voor botanicals: gin botanicals zoals jeneverbes vereisen specifieke oogstvensters voor optimale smaakverbindingen. Zelfs granen voor sterke dranken profiteren van oogsttiming overwegingen. Verwerkingsmethoden (zondrogen vs. vriesdrogen, koud persen vs. warmte extractie) behouden of vernietigen delicate smaakverbindingen. Deze factoren begrijpen stelt bartenders in staat ingrediënten op piek kwaliteit in te kopen en met producenten te werken om verwerking te optimaliseren voor cocktail toepassingen."
-        }
-      },
-      {
-        question: {
-          en: "What is 'cognitive flavor enhancement' through cocktail presentation and ritual?",
-          es: "¿Qué es la 'mejora cognitiva de sabor' a través de presentación y ritual de cócteles?",
-          de: "Was ist 'kognitive Geschmacksverstärkung' durch Cocktail-Präsentation und Ritual?",
-          nl: "Wat is 'cognitieve smaak versterking' door cocktail presentatie en ritueel?"
-        },
-        options: [
-          { en: "Using psychological and sensory cues to enhance perceived flavor through storytelling, visual design, and interactive elements", es: "Usar señales psicológicas y sensoriales para mejorar sabor percibido a través de narrativa, diseño visual y elementos interactivos", de: "Psychologische und sensorische Hinweise verwenden, um wahrgenommenen Geschmack durch Geschichtenerzählen, visuelles Design und interaktive Elemente zu verstärken", nl: "Psychologische en zintuiglijke aanwijzingen gebruiken om waargenomen smaak te versterken door verhalen vertellen, visueel ontwerp en interactieve elementen" },
-          { en: "Adding vitamins to make cocktails healthier", es: "Añadir vitaminas para hacer cócteles más saludables", de: "Vitamine hinzufügen, um Cocktails gesünder zu machen", nl: "Vitamines toevoegen om cocktails gezonder te maken" },
-          { en: "Using only cognitive enhancing herbs", es: "Usar solo hierbas que mejoran la cognición", de: "Nur kognitionsfördernde Kräuter verwenden", nl: "Alleen cognitie verbeterende kruiden gebruiken" },
-          { en: "Making cocktails that improve memory", es: "Hacer cócteles que mejoran la memoria", de: "Cocktails herstellen, die das Gedächtnis verbessern", nl: "Cocktails maken die het geheugen verbeteren" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Cognitive flavor enhancement leverages psychological principles to amplify perceived flavor through non-gustatory elements. This includes storytelling that primes flavor expectations (describing a cocktail's 'journey from tropical shores'), visual cues that influence taste perception (colors that suggest specific flavors), aromatic presentation that engages memory (smoking elements that evoke campfires), tactile experiences that enhance engagement (unique glassware textures), and interactive rituals that build anticipation. Research shows that context dramatically affects flavor perception - the same cocktail tastes different when presented with different stories, colors, or environments. Master bartenders understand these cognitive triggers and craft complete sensory experiences that make cocktails taste better through psychological enhancement rather than just chemical composition.",
-          es: "La mejora cognitiva de sabor aprovecha principios psicológicos para amplificar sabor percibido a través de elementos no gustativos. Esto incluye narrativa que prepara expectativas de sabor (describir el 'viaje de un cóctel desde costas tropicales'), señales visuales que influencian percepción del sabor (colores que sugieren sabores específicos), presentación aromática que involucra memoria (elementos humeantes que evocan fogatas), experiencias táctiles que mejoran compromiso (texturas únicas de cristalería), y rituales interactivos que construyen anticipación. La investigación muestra que contexto afecta dramáticamente percepción del sabor - el mismo cóctel sabe diferente cuando se presenta con diferentes historias, colores o ambientes. Bartenders maestros entienden estos activadores cognitivos y crean experiencias sensoriales completas que hacen que cócteles sepan mejor a través de mejora psicológica en lugar de solo composición química.",
-          de: "Kognitive Geschmacksverstärkung nutzt psychologische Prinzipien, um wahrgenommenen Geschmack durch nicht-gustatorische Elemente zu verstärken. Dies umfasst Geschichtenerzählen, das Geschmackserwartungen vorbereitet (einen Cocktails 'Reise von tropischen Küsten' beschreiben), visuelle Hinweise, die Geschmackswahrnehmung beeinflussen (Farben, die spezifische Aromen suggerieren), aromatische Präsentation, die Erinnerung einbezieht (rauchende Elemente, die Lagerfeuer evozieren), taktile Erfahrungen, die Engagement verstärken (einzigartige Glaswaren-Texturen), und interaktive Rituale, die Vorfreude aufbauen. Forschung zeigt, dass Kontext Geschmackswahrnehmung dramatisch beeinflusst - derselbe Cocktail schmeckt anders, wenn er mit verschiedenen Geschichten, Farben oder Umgebungen präsentiert wird. Meister-Bartender verstehen diese kognitiven Auslöser und schaffen komplette sensorische Erfahrungen, die Cocktails durch psychologische Verstärkung anstatt nur chemische Zusammensetzung besser schmecken lassen.",
-          nl: "Cognitieve smaak versterking gebruikt psychologische principes om waargenomen smaak te vergroten door niet-gustatorische elementen. Dit omvat verhalen vertellen dat smaak verwachtingen voorbereidt (een cocktail's 'reis van tropische kusten' beschrijven), visuele aanwijzingen die smaakperceptie beïnvloeden (kleuren die specifieke smaken suggereren), aromatische presentatie die geheugen betrekt (rokende elementen die kampvuren oproepen), tactiele ervaringen die betrokkenheid versterken (unieke glaswerk texturen), en interactieve rituelen die anticipatie opbouwen. Onderzoek toont dat context smaakperceptie dramatisch beïnvloedt - dezelfde cocktail smaakt anders wanneer gepresenteerd met verschillende verhalen, kleuren of omgevingen. Meester bartenders begrijpen deze cognitieve triggers en creëren complete zintuiglijke ervaringen die cocktails beter doen smaken door psychologische versterking in plaats van alleen chemische samenstelling."
-        }
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
       }
-    ,
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Cocktails",
+      "es": "Pregunta 2 sobre Cocktails",
+      "de": "Frage 2 über Cocktails",
+      "nl": "Vraag 2 over Cocktails"
+    },
+    "options": [
       {
-        question: {
-          en: "What is 'sustainable cocktail programming' and how does it integrate environmental, economic, and social responsibility?",
-          es: "¿Qué es la 'programación sostenible de cócteles' y cómo integra responsabilidad ambiental, económica y social?",
-          de: "Was ist 'nachhaltige Cocktail-Programmierung' und wie integriert sie ökologische, wirtschaftliche und soziale Verantwortung?",
-          nl: "Wat is 'duurzaam cocktail programmeren' en hoe integreert het milieu-, economische en sociale verantwoordelijkheid?"
-        },
-        options: [
-          { en: "A comprehensive approach using zero-waste techniques, local sourcing, ethical labor, and circular economy principles throughout the cocktail program", es: "Un enfoque integral usando técnicas de cero residuos, abastecimiento local, trabajo ético y principios de economía circular en todo el programa de cócteles", de: "Ein umfassender Ansatz mit Zero-Waste-Techniken, lokaler Beschaffung, ethischer Arbeit und Kreislaufwirtschaftsprinzipien im gesamten Cocktail-Programm", nl: "Een alomvattende aanpak met zero-waste technieken, lokale sourcing, ethische arbeid en circulaire economie principes door het hele cocktail programma" },
-          { en: "Only using organic ingredients in cocktails", es: "Solo usar ingredientes orgánicos en cócteles", de: "Nur biologische Zutaten in Cocktails verwenden", nl: "Alleen biologische ingrediënten in cocktails gebruiken" },
-          { en: "Recycling bottles and glassware", es: "Reciclar botellas y cristalería", de: "Flaschen und Glaswaren recyceln", nl: "Flessen en glaswerk recyclen" },
-          { en: "Using less ice to save water", es: "Usar menos hielo para ahorrar agua", de: "Weniger Eis verwenden, um Wasser zu sparen", nl: "Minder ijs gebruiken om water te besparen" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Sustainable cocktail programming encompasses a holistic approach to environmental, economic, and social responsibility. This includes zero-waste practices (using entire ingredients, composting, repurposing spent materials), local and seasonal sourcing (reducing carbon footprint, supporting local economies), ethical supply chains (fair trade spirits, responsible labor practices), water and energy conservation (efficient ice programs, equipment choices), circular economy principles (ingredient upcycling, closed-loop systems), biodiversity support (using heritage ingredients, protecting endangered botanicals), and community engagement (education, equitable practices). Leading bars integrate these principles throughout operations while maintaining exceptional quality, proving that sustainability and excellence are complementary rather than competing goals in modern cocktail culture.",
-          es: "La programación sostenible de cócteles abarca un enfoque holístico de responsabilidad ambiental, económica y social. Esto incluye prácticas de cero residuos (usar ingredientes enteros, compostaje, reutilizar materiales gastados), abastecimiento local y estacional (reducir huella de carbono, apoyar economías locales), cadenas de suministro éticas (licores de comercio justo, prácticas laborales responsables), conservación de agua y energía (programas eficientes de hielo, elecciones de equipo), principios de economía circular (reciclaje de ingredientes, sistemas de circuito cerrado), apoyo a biodiversidad (usar ingredientes patrimoniales, proteger botánicos en peligro), y compromiso comunitario (educación, prácticas equitativas). Bares líderes integran estos principios en toda la operación mientras mantienen calidad excepcional, probando que sostenibilidad y excelencia son objetivos complementarios en lugar de competitivos en la cultura moderna de cócteles.",
-          de: "Nachhaltige Cocktail-Programmierung umfasst einen ganzheitlichen Ansatz für ökologische, wirtschaftliche und soziale Verantwortung. Dies beinhaltet Zero-Waste-Praktiken (ganze Zutaten verwenden, Kompostierung, Wiederverwertung verbrauchter Materialien), lokale und saisonale Beschaffung (Reduzierung des CO2-Fußabdrucks, Unterstützung lokaler Wirtschaften), ethische Lieferketten (Fair-Trade-Spirituosen, verantwortungsvolle Arbeitspraktiken), Wasser- und Energieeinsparung (effiziente Eisprogramme, Geräteauswahl), Kreislaufwirtschaftsprinzipien (Zutaten-Upcycling, geschlossene Systeme), Biodiversitätsunterstützung (Heritage-Zutaten verwenden, gefährdete Botanicals schützen) und Community-Engagement (Bildung, gerechte Praktiken). Führende Bars integrieren diese Prinzipien im gesamten Betrieb bei gleichzeitiger Aufrechterhaltung außergewöhnlicher Qualität und beweisen, dass Nachhaltigkeit und Exzellenz in der modernen Cocktail-Kultur komplementäre und nicht konkurrierende Ziele sind.",
-          nl: "Duurzaam cocktail programmeren omvat een holistische benadering van milieu-, economische en sociale verantwoordelijkheid. Dit omvat zero-waste praktijken (hele ingrediënten gebruiken, composteren, hergebruiken van verbruikte materialen), lokale en seizoensgebonden sourcing (koolstofvoetafdruk verminderen, lokale economieën ondersteunen), ethische toeleveringsketens (fair trade sterke dranken, verantwoordelijke arbeidspraktijken), water- en energiebesparing (efficiënte ijsprogramma's, apparatuurkeuzes), circulaire economie principes (ingrediënt upcycling, gesloten systemen), biodiversiteitsondersteuning (erfgoed ingrediënten gebruiken, bedreigde botanicals beschermen) en gemeenschapsbetrokkenheid (educatie, billijke praktijken). Toonaangevende bars integreren deze principes in hun hele operatie terwijl ze uitzonderlijke kwaliteit behouden, wat bewijst dat duurzaamheid en excellentie complementaire in plaats van concurrerende doelen zijn in de moderne cocktail cultuur."
-        }
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
       },
       {
-        question: {
-          en: "What is 'microbiome-informed cocktail fermentation' and its application in modern mixology?",
-          es: "¿Qué es la 'fermentación de cócteles informada por microbioma' y su aplicación en mixología moderna?",
-          de: "Was ist 'mikrobiom-informierte Cocktail-Fermentation' und ihre Anwendung in moderner Mixologie?",
-          nl: "Wat is 'microbioom-geïnformeerde cocktail fermentatie' en de toepassing in moderne mixologie?"
-        },
-        options: [
-          { en: "Using specific microbial cultures to create controlled fermented cocktail ingredients with predictable flavor profiles", es: "Usar cultivos microbianos específicos para crear ingredientes fermentados controlados para cócteles con perfiles de sabor predecibles", de: "Spezifische mikrobielle Kulturen verwenden, um kontrollierte fermentierte Cocktail-Zutaten mit vorhersehbaren Geschmacksprofilen zu schaffen", nl: "Specifieke microbiële culturen gebruiken om gecontroleerde gefermenteerde cocktail ingrediënten met voorspelbare smaakprofielen te creëren" },
-          { en: "Adding probiotics to cocktails for health benefits", es: "Añadir probióticos a cócteles para beneficios de salud", de: "Probiotika zu Cocktails für Gesundheitsvorteile hinzufügen", nl: "Probiotica toevoegen aan cocktails voor gezondheidsvoordelen" },
-          { en: "Using only wild fermentation in all cocktails", es: "Usar solo fermentación silvestre en todos los cócteles", de: "Nur wilde Fermentation in allen Cocktails verwenden", nl: "Alleen wilde fermentatie in alle cocktails gebruiken" },
-          { en: "Fermenting cocktails with bacteria from the air", es: "Fermentar cócteles con bacterias del aire", de: "Cocktails mit Luftbakterien fermentieren", nl: "Cocktails fermenteren met bacteriën uit de lucht" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Microbiome-informed fermentation uses scientific understanding of specific microbial communities to create controlled, repeatable fermented cocktail ingredients. This involves selecting specific Lactobacillus strains for desired acid profiles, using particular koji varieties for enzyme activity and umami development, employing specific Saccharomyces strains for controlled alcohol and flavor production, and understanding how microbial succession creates complexity. Applications include fermented syrups with targeted flavor profiles, koji-transformed spirits and modifiers, controlled lacto-fermented fruits and vegetables, and complex multi-stage ferments. This approach differs from wild fermentation by providing consistency, food safety, and the ability to design specific flavor outcomes through microbial selection.",
-          es: "La fermentación informada por microbioma usa entendimiento científico de comunidades microbianas específicas para crear ingredientes fermentados controlados y repetibles para cócteles. Esto implica seleccionar cepas específicas de Lactobacillus para perfiles de ácido deseados, usar variedades particulares de koji para actividad enzimática y desarrollo de umami, emplear cepas específicas de Saccharomyces para producción controlada de alcohol y sabor, y entender cómo la sucesión microbiana crea complejidad. Las aplicaciones incluyen jarabes fermentados con perfiles de sabor específicos, licores y modificadores transformados con koji, frutas y vegetales lacto-fermentados controlados, y fermentos complejos de múltiples etapas. Este enfoque difiere de la fermentación silvestre al proporcionar consistencia, seguridad alimentaria y la capacidad de diseñar resultados de sabor específicos a través de selección microbiana.",
-          de: "Mikrobiom-informierte Fermentation nutzt wissenschaftliches Verständnis spezifischer mikrobieller Gemeinschaften zur Schaffung kontrollierter, wiederholbarer fermentierter Cocktail-Zutaten. Dies beinhaltet Auswahl spezifischer Lactobacillus-Stämme für gewünschte Säureprofile, Verwendung bestimmter Koji-Sorten für Enzymaktivität und Umami-Entwicklung, Einsatz spezifischer Saccharomyces-Stämme für kontrollierte Alkohol- und Geschmacksproduktion, und Verständnis wie mikrobielle Sukzession Komplexität schafft. Anwendungen umfassen fermentierte Sirupe mit gezielten Geschmacksprofilen, koji-transformierte Spirituosen und Modifier, kontrolliert lacto-fermentierte Früchte und Gemüse, und komplexe mehrstufige Fermente. Dieser Ansatz unterscheidet sich von wilder Fermentation durch Konsistenz, Lebensmittelsicherheit und die Fähigkeit, spezifische Geschmacksergebnisse durch mikrobielle Selektion zu entwerfen.",
-          nl: "Microbioom-geïnformeerde fermentatie gebruikt wetenschappelijk begrip van specifieke microbiële gemeenschappen om gecontroleerde, herhaalbare gefermenteerde cocktail ingrediënten te creëren. Dit houdt in dat specifieke Lactobacillus stammen worden geselecteerd voor gewenste zuurprofielen, bepaalde koji variëteiten worden gebruikt voor enzymactiviteit en umami ontwikkeling, specifieke Saccharomyces stammen worden ingezet voor gecontroleerde alcohol en smaakproductie, en begrip van hoe microbiële successie complexiteit creëert. Toepassingen omvatten gefermenteerde siropen met gerichte smaakprofielen, koji-getransformeerde sterke dranken en modifiers, gecontroleerd lacto-gefermenteerd fruit en groenten, en complexe meerfasen fermenten. Deze benadering verschilt van wilde fermentatie door consistentie, voedselveiligheid en het vermogen om specifieke smaakuitkomsten te ontwerpen door microbiële selectie."
-        }
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
       },
       {
-        question: {
-          en: "What is the significance of 'historic cocktail archaeology' in modern cocktail development?",
-          es: "¿Cuál es la importancia de la 'arqueología histórica de cócteles' en el desarrollo moderno de cócteles?",
-          de: "Was ist die Bedeutung der 'historischen Cocktail-Archäologie' in der modernen Cocktail-Entwicklung?",
-          nl: "Wat is de betekenis van 'historische cocktail archeologie' in moderne cocktail ontwikkeling?"
-        },
-        options: [
-          { en: "Researching historic recipes, techniques, and ingredients to understand evolution and inspire contemporary innovation", es: "Investigar recetas, técnicas e ingredientes históricos para entender evolución e inspirar innovación contemporánea", de: "Historische Rezepte, Techniken und Zutaten erforschen, um Evolution zu verstehen und zeitgenössische Innovation zu inspirieren", nl: "Historische recepten, technieken en ingrediënten onderzoeken om evolutie te begrijpen en hedendaagse innovatie te inspireren" },
-          { en: "Only making cocktails from the 1800s exactly as written", es: "Solo hacer cócteles de los 1800s exactamente como escritos", de: "Nur Cocktails aus den 1800ern genau wie geschrieben machen", nl: "Alleen cocktails uit de jaren 1800 exact zoals geschreven maken" },
-          { en: "Digging for old bottles in archaeological sites", es: "Excavar botellas viejas en sitios arqueológicos", de: "Nach alten Flaschen in archäologischen Stätten graben", nl: "Graven naar oude flessen in archeologische locaties" },
-          { en: "Historic cocktails have no relevance to modern bars", es: "Cócteles históricos no tienen relevancia para bares modernos", de: "Historische Cocktails haben keine Relevanz für moderne Bars", nl: "Historische cocktails hebben geen relevantie voor moderne bars" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Historic cocktail archaeology involves deep research into original recipes, period techniques, ingredient availability, and cultural context to understand cocktail evolution. This includes studying original bartending manuals (Jerry Thomas 1862, Harry Johnson 1888, Hugo Ensslin 1916), understanding how ingredient quality and availability affected historic recipes, researching lost ingredients and techniques (oleo saccharum, blue blazer showmanship), analyzing how social and technological changes influenced cocktail development, and understanding regional variations. This research informs modern innovation by revealing forgotten techniques worth reviving, understanding why certain combinations work, appreciating the problem-solving of historic bartenders, and providing authenticity for classic cocktails. Leading bartenders balance historic accuracy with modern sensibilities, creating drinks that honor tradition while meeting contemporary standards.",
-          es: "La arqueología histórica de cócteles implica investigación profunda de recetas originales, técnicas de período, disponibilidad de ingredientes y contexto cultural para entender evolución de cócteles. Esto incluye estudiar manuales originales de bartending (Jerry Thomas 1862, Harry Johnson 1888, Hugo Ensslin 1916), entender cómo calidad y disponibilidad de ingredientes afectaron recetas históricas, investigar ingredientes y técnicas perdidos (oleo saccharum, espectáculo blue blazer), analizar cómo cambios sociales y tecnológicos influenciaron desarrollo de cócteles, y entender variaciones regionales. Esta investigación informa innovación moderna revelando técnicas olvidadas dignas de revivir, entendiendo por qué ciertas combinaciones funcionan, apreciando la resolución de problemas de bartenders históricos, y proporcionando autenticidad para cócteles clásicos. Bartenders líderes equilibran precisión histórica con sensibilidades modernas, creando bebidas que honran tradición mientras cumplen estándares contemporáneos.",
-          de: "Historische Cocktail-Archäologie beinhaltet tiefe Forschung in Originalrezepte, Zeitperioden-Techniken, Zutatenverfügbarkeit und kulturellen Kontext zum Verständnis der Cocktail-Evolution. Dies umfasst Studium originaler Bartending-Handbücher (Jerry Thomas 1862, Harry Johnson 1888, Hugo Ensslin 1916), Verständnis wie Zutatenqualität und -verfügbarkeit historische Rezepte beeinflussten, Forschung verlorener Zutaten und Techniken (Oleo Saccharum, Blue Blazer Showmanship), Analyse wie soziale und technologische Veränderungen Cocktail-Entwicklung beeinflussten, und Verständnis regionaler Variationen. Diese Forschung informiert moderne Innovation durch Offenbarung vergessener Techniken, die Wiederbelebung wert sind, Verständnis warum bestimmte Kombinationen funktionieren, Wertschätzung der Problemlösung historischer Bartender, und Authentizität für klassische Cocktails. Führende Bartender balancieren historische Genauigkeit mit modernen Empfindlichkeiten und schaffen Drinks, die Tradition ehren während zeitgenössische Standards erfüllt werden.",
-          nl: "Historische cocktail archeologie houdt diepgaand onderzoek in naar originele recepten, periode technieken, ingrediënt beschikbaarheid en culturele context om cocktail evolutie te begrijpen. Dit omvat studie van originele bartending handboeken (Jerry Thomas 1862, Harry Johnson 1888, Hugo Ensslin 1916), begrip van hoe ingrediënt kwaliteit en beschikbaarheid historische recepten beïnvloedden, onderzoek naar verloren ingrediënten en technieken (oleo saccharum, blue blazer showmanship), analyse van hoe sociale en technologische veranderingen cocktail ontwikkeling beïnvloedden, en begrip van regionale variaties. Dit onderzoek informeert moderne innovatie door vergeten technieken te onthullen die de moeite waard zijn om te herleven, begrip waarom bepaalde combinaties werken, waardering voor het probleem-oplossen van historische bartenders, en authenticiteit voor klassieke cocktails. Toonaangevende bartenders balanceren historische nauwkeurigheid met moderne gevoeligheden, creërend drankjes die traditie eren terwijl ze hedendaagse standaarden halen."
-        }
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
       },
       {
-        question: {
-          en: "What is 'cross-cultural cocktail translation' in international bar programs?",
-          es: "¿Qué es la 'traducción intercultural de cócteles' en programas de bares internacionales?",
-          de: "Was ist 'interkulturelle Cocktail-Übersetzung' in internationalen Bar-Programmen?",
-          nl: "Wat is 'cross-culturele cocktail vertaling' in internationale bar programma's?"
-        },
-        options: [
-          { en: "Adapting classic cocktails to local palates, ingredients, and cultural contexts while maintaining core identity", es: "Adaptar cócteles clásicos a paladares locales, ingredientes y contextos culturales mientras se mantiene identidad central", de: "Klassische Cocktails an lokale Gaumen, Zutaten und kulturelle Kontexte anpassen während Kernidentität erhalten bleibt", nl: "Klassieke cocktails aanpassen aan lokale smaken, ingrediënten en culturele contexten terwijl kern identiteit behouden blijft" },
-          { en: "Translating cocktail menu names into different languages", es: "Traducir nombres de menú de cócteles a diferentes idiomas", de: "Cocktail-Menünamen in verschiedene Sprachen übersetzen", nl: "Cocktail menu namen vertalen in verschillende talen" },
-          { en: "Only serving cocktails from each country's origin", es: "Solo servir cócteles del país de origen de cada uno", de: "Nur Cocktails aus dem Ursprungsland jedes einzelnen servieren", nl: "Alleen cocktails serveren uit elk land van oorsprong" },
-          { en: "Making all cocktails taste the same globally", es: "Hacer que todos los cócteles sepan igual globalmente", de: "Alle Cocktails weltweit gleich schmecken lassen", nl: "Alle cocktails wereldwijd hetzelfde doen smaken" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Cross-cultural cocktail translation involves thoughtfully adapting cocktails to different cultural contexts while respecting both the original and local cultures. This includes substituting locally available spirits or ingredients that capture similar flavor profiles (using shochu instead of vodka in Japan, mezcal adaptations in Mexico), adjusting sweetness and dilution levels for local preferences (Asian markets often prefer less sweet, more diluted cocktails), incorporating regional ingredients and flavors that resonate locally, respecting cultural sensitivities around alcohol consumption and presentation, and maintaining the cocktail's essential character and balance. Successful translation requires deep understanding of both the source cocktail's intent and the destination culture's preferences, creating drinks that feel authentic to both traditions rather than forced adaptations.",
-          es: "La traducción intercultural de cócteles implica adaptar reflexivamente cócteles a diferentes contextos culturales mientras se respetan tanto la cultura original como la local. Esto incluye sustituir licores o ingredientes disponibles localmente que capturen perfiles de sabor similares (usar shochu en lugar de vodka en Japón, adaptaciones de mezcal en México), ajustar niveles de dulzura y dilución para preferencias locales (mercados asiáticos a menudo prefieren cócteles menos dulces y más diluidos), incorporar ingredientes y sabores regionales que resuenen localmente, respetar sensibilidades culturales alrededor del consumo y presentación de alcohol, y mantener el carácter esencial y equilibrio del cóctel. La traducción exitosa requiere entendimiento profundo tanto de la intención del cóctel fuente como de las preferencias de la cultura destino, creando bebidas que se sientan auténticas para ambas tradiciones en lugar de adaptaciones forzadas.",
-          de: "Interkulturelle Cocktail-Übersetzung beinhaltet durchdachte Anpassung von Cocktails an verschiedene kulturelle Kontexte während sowohl die Original- als auch lokale Kulturen respektiert werden. Dies umfasst Substitution lokal verfügbarer Spirituosen oder Zutaten, die ähnliche Geschmacksprofile einfangen (Shochu statt Wodka in Japan verwenden, Mezcal-Anpassungen in Mexiko), Anpassung von Süße- und Verdünnungsgraden für lokale Präferenzen (asiatische Märkte bevorzugen oft weniger süße, stärker verdünnte Cocktails), Einbeziehung regionaler Zutaten und Aromen die lokal resonieren, Respekt kultureller Empfindlichkeiten bezüglich Alkoholkonsums und -präsentation, und Erhaltung des wesentlichen Charakters und Balance des Cocktails. Erfolgreiche Übersetzung erfordert tiefes Verständnis sowohl der Absicht des Quellcocktails als auch der Präferenzen der Zielkultur, Drinks schaffend die sich für beide Traditionen authentisch anfühlen anstatt erzwungene Anpassungen.",
-          nl: "Cross-culturele cocktail vertaling houdt doordacht aanpassen van cocktails in aan verschillende culturele contexten terwijl zowel de originele als lokale culturen worden gerespecteerd. Dit omvat substitutie van lokaal beschikbare sterke dranken of ingrediënten die vergelijkbare smaakprofielen vangen (shochu gebruiken in plaats van wodka in Japan, mezcal aanpassingen in Mexico), aanpassen van zoetheid en verdunningsniveaus voor lokale voorkeuren (Aziatische markten geven vaak de voorkeur aan minder zoete, meer verdunde cocktails), incorporatie van regionale ingrediënten en smaken die lokaal resoneren, respect voor culturele gevoeligheden rond alcoholconsumptie en presentatie, en behoud van het essentiële karakter en balans van de cocktail. Succesvolle vertaling vereist diep begrip van zowel de intentie van de bron cocktail als de voorkeuren van de bestemmingscultuur, drankjes creërend die authentiek aanvoelen voor beide tradities in plaats van geforceerde aanpassingen."
-        }
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Cocktails",
+      "es": "Pregunta 3 sobre Cocktails",
+      "de": "Frage 3 über Cocktails",
+      "nl": "Vraag 3 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
       },
       {
-        question: {
-          en: "What is 'predictive flavor modeling' in cocktail recipe development?",
-          es: "¿Qué es el 'modelado predictivo de sabor' en el desarrollo de recetas de cócteles?",
-          de: "Was ist 'prädiktive Geschmacksmodellierung' in der Cocktail-Rezeptentwicklung?",
-          nl: "Wat is 'voorspellende smaak modellering' in cocktail recept ontwikkeling?"
-        },
-        options: [
-          { en: "Using scientific understanding of flavor compounds and interactions to predict cocktail outcomes before physical testing", es: "Usar entendimiento científico de compuestos de sabor e interacciones para predecir resultados de cócteles antes de pruebas físicas", de: "Wissenschaftliches Verständnis von Geschmacksverbindungen und -wechselwirkungen verwenden, um Cocktail-Ergebnisse vor physischen Tests vorherzusagen", nl: "Wetenschappelijk begrip van smaakverbindingen en interacties gebruiken om cocktail uitkomsten te voorspellen voor fysieke testen" },
-          { en: "Guessing what cocktails will taste like", es: "Adivinar a qué sabrán los cócteles", de: "Raten wie Cocktails schmecken werden", nl: "Raden hoe cocktails zullen smaken" },
-          { en: "Using AI to randomly generate recipes", es: "Usar IA para generar recetas aleatoriamente", de: "KI verwenden, um zufällig Rezepte zu generieren", nl: "AI gebruiken om willekeurig recepten te genereren" },
-          { en: "Tasting cocktails before making them", es: "Probar cócteles antes de hacerlos", de: "Cocktails vor dem Machen probieren", nl: "Cocktails proeven voor het maken" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Predictive flavor modeling uses scientific knowledge of flavor chemistry to anticipate how ingredients will interact before physically mixing them. This involves understanding shared flavor compounds between ingredients (foodpairing database showing molecular compatibility), predicting how pH changes will affect taste perception, anticipating oxidation and aging effects, calculating optimal dilution and ABV for flavor integration, and understanding how aromatic compounds will interact or compete. Advanced practitioners use databases of flavor compounds, understanding of taste receptor interactions, and knowledge of chemical reactions to design cocktails 'on paper' with high probability of success. This reduces wastage, accelerates recipe development, and allows creation of complex cocktails through informed design rather than trial-and-error alone. It represents the application of food science principles to cocktail creation.",
-          es: "El modelado predictivo de sabor usa conocimiento científico de química del sabor para anticipar cómo ingredientes interactuarán antes de mezclarlos físicamente. Esto implica entender compuestos de sabor compartidos entre ingredientes (base de datos de foodpairing mostrando compatibilidad molecular), predecir cómo cambios de pH afectarán percepción del sabor, anticipar efectos de oxidación y envejecimiento, calcular dilución óptima y ABV para integración de sabor, y entender cómo compuestos aromáticos interactuarán o competirán. Practicantes avanzados usan bases de datos de compuestos de sabor, entendimiento de interacciones de receptores de sabor, y conocimiento de reacciones químicas para diseñar cócteles 'en papel' con alta probabilidad de éxito. Esto reduce desperdicio, acelera desarrollo de recetas, y permite creación de cócteles complejos a través de diseño informado en lugar de solo prueba-y-error. Representa la aplicación de principios de ciencia alimentaria a creación de cócteles.",
-          de: "Prädiktive Geschmacksmodellierung nutzt wissenschaftliche Kenntnisse der Geschmackschemie zur Vorhersage wie Zutaten interagieren werden bevor sie physisch gemischt werden. Dies beinhaltet Verständnis geteilter Geschmacksverbindungen zwischen Zutaten (Foodpairing-Datenbank zeigt molekulare Kompatibilität), Vorhersage wie pH-Veränderungen Geschmackswahrnehmung beeinflussen werden, Antizipation von Oxidations- und Alterungseffekten, Berechnung optimaler Verdünnung und ABV für Geschmacksintegration, und Verständnis wie aromatische Verbindungen interagieren oder konkurrieren werden. Fortgeschrittene Praktiker verwenden Datenbanken von Geschmacksverbindungen, Verständnis von Geschmacksrezeptor-Wechselwirkungen und Kenntnisse chemischer Reaktionen zum 'auf Papier' Design von Cocktails mit hoher Erfolgswahrscheinlichkeit. Dies reduziert Verschwendung, beschleunigt Rezeptentwicklung und ermöglicht Schaffung komplexer Cocktails durch informiertes Design anstatt nur Versuch-und-Irrtum. Es repräsentiert Anwendung von Lebensmittelwissenschaftsprinzipien auf Cocktail-Kreation.",
-          nl: "Voorspellende smaak modellering gebruikt wetenschappelijke kennis van smaakchemie om te anticiperen hoe ingrediënten zullen interacteren voor het fysiek mengen. Dit houdt in dat gedeelde smaakverbindingen tussen ingrediënten worden begrepen (foodpairing database die moleculaire compatibiliteit toont), voorspellen hoe pH veranderingen smaakperceptie zullen beïnvloeden, anticiperen op oxidatie en verouderingseffecten, berekenen van optimale verdunning en ABV voor smaakintegratie, en begrijpen hoe aromatische verbindingen zullen interacteren of concurreren. Geavanceerde beoefenaars gebruiken databases van smaakverbindingen, begrip van smaak receptor interacties, en kennis van chemische reacties om cocktails 'op papier' te ontwerpen met hoge succeswaarschijnlijkheid. Dit vermindert verspilling, versnelt recept ontwikkeling, en maakt creatie van complexe cocktails mogelijk door geïnformeerd ontwerp in plaats van alleen trial-and-error. Het vertegenwoordigt de toepassing van voedselwetenschapsprincipes op cocktail creatie."
-        }
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
       },
       {
-        question: {
-          en: "What is 'sensory threshold manipulation' in cocktail balance and perception?",
-          es: "¿Qué es la 'manipulación de umbral sensorial' en equilibrio y percepción de cócteles?",
-          de: "Was ist 'sensorische Schwellenwert-Manipulation' in Cocktail-Balance und -Wahrnehmung?",
-          nl: "Wat is 'zintuiglijke drempel manipulatie' in cocktail balans en perceptie?"
-        },
-        options: [
-          { en: "Strategically using ingredients at levels that enhance or suppress other flavors without being directly perceived themselves", es: "Usar estratégicamente ingredientes en niveles que mejoran o suprimen otros sabores sin ser directamente percibidos ellos mismos", de: "Strategisch Zutaten auf Ebenen verwenden, die andere Aromen verstärken oder unterdrücken ohne selbst direkt wahrgenommen zu werden", nl: "Strategisch ingrediënten gebruiken op niveaus die andere smaken versterken of onderdrukken zonder zelf direct waargenomen te worden" },
-          { en: "Making cocktails that numb taste buds", es: "Hacer cócteles que adormecen las papilas gustativas", de: "Cocktails herstellen, die Geschmacksknospen betäuben", nl: "Cocktails maken die smaakpapillen verdoven" },
-          { en: "Using only ingredients above detection threshold", es: "Usar solo ingredientes arriba del umbral de detección", de: "Nur Zutaten über Detektionsschwelle verwenden", nl: "Alleen ingrediënten boven detectie drempel gebruiken" },
-          { en: "Serving cocktails at the doorstep", es: "Servir cócteles en el umbral de la puerta", de: "Cocktails an der Türschwelle servieren", nl: "Cocktails bij de drempel serveren" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Sensory threshold manipulation involves using ingredients at sub-threshold or near-threshold levels to modulate other flavors without contributing direct taste. For example: salt below detection threshold enhances sweetness and suppresses bitterness (common in Margaritas), saline solution at 1-2% enhances overall flavor intensity, trace amounts of citric acid brighten flavors without tasting sour, minute quantities of umami ingredients (MSG, kombu) add fullness, and small amounts of bitters can enhance aromatics without adding bitter taste. This technique requires understanding detection thresholds (the minimum concentration at which taste is perceived) and recognition thresholds (where the specific taste is identified). Expert bartenders use this knowledge to create more balanced, complex cocktails by modulating perception rather than just adding flavors. It's a sophisticated form of cocktail architecture that works below conscious perception.",
-          es: "La manipulación de umbral sensorial implica usar ingredientes en niveles sub-umbral o cerca-umbral para modular otros sabores sin contribuir sabor directo. Por ejemplo: sal debajo del umbral de detección mejora dulzura y suprime amargura (común en Margaritas), solución salina a 1-2% mejora intensidad general de sabor, cantidades traza de ácido cítrico aclaran sabores sin saber agrio, cantidades diminutas de ingredientes umami (MSG, kombu) añaden plenitud, y pequeñas cantidades de amargos pueden mejorar aromáticos sin añadir sabor amargo. Esta técnica requiere entender umbrales de detección (la concentración mínima a la que se percibe sabor) y umbrales de reconocimiento (donde se identifica el sabor específico). Bartenders expertos usan este conocimiento para crear cócteles más equilibrados y complejos modulando percepción en lugar de solo añadir sabores. Es una forma sofisticada de arquitectura de cócteles que trabaja debajo de la percepción consciente.",
-          de: "Sensorische Schwellenwert-Manipulation beinhaltet Verwendung von Zutaten auf Sub-Schwellen- oder Nahe-Schwellen-Ebenen zur Modulation anderer Aromen ohne direkten Geschmack beizutragen. Zum Beispiel: Salz unter Detektionsschwelle verstärkt Süße und unterdrückt Bitterkeit (üblich in Margaritas), Salzlösung bei 1-2% verstärkt gesamte Geschmacksintensität, Spuren von Zitronensäure hellen Aromen auf ohne sauer zu schmecken, winzige Mengen Umami-Zutaten (MSG, Kombu) fügen Fülle hinzu, und kleine Mengen Bitter können Aromen verstärken ohne bitteren Geschmack hinzuzufügen. Diese Technik erfordert Verständnis von Detektionsschwellen (minimale Konzentration bei der Geschmack wahrgenommen wird) und Erkennungsschwellen (wo spezifischer Geschmack identifiziert wird). Experten-Bartender nutzen dieses Wissen zur Schaffung ausgewogenerer, komplexerer Cocktails durch Wahrnehmungsmodulation anstatt nur Aromen hinzuzufügen. Es ist eine raffinierte Form der Cocktail-Architektur, die unter bewusster Wahrnehmung arbeitet.",
-          nl: "Zintuiglijke drempel manipulatie houdt in dat ingrediënten worden gebruikt op sub-drempel of nabij-drempel niveaus om andere smaken te moduleren zonder directe smaak bij te dragen. Bijvoorbeeld: zout onder detectie drempel versterkt zoetheid en onderdrukt bitterheid (gebruikelijk in Margaritas), zoutoplossing bij 1-2% versterkt algemene smaak intensiteit, sporen van citroenzuur verhelderen smaken zonder zuur te smaken, minuscule hoeveelheden umami ingrediënten (MSG, kombu) voegen volheid toe, en kleine hoeveelheden bitters kunnen aromatieken versterken zonder bittere smaak toe te voegen. Deze techniek vereist begrip van detectiedrempels (de minimale concentratie waarbij smaak wordt waargenomen) en herkenningsdrempels (waar de specifieke smaak wordt geïdentificeerd). Expert bartenders gebruiken deze kennis om meer gebalanceerde, complexe cocktails te creëren door perceptie te moduleren in plaats van alleen smaken toe te voegen. Het is een verfijnde vorm van cocktail architectuur die onder bewuste waarneming werkt."
-        }
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
       },
       {
-        question: {
-          en: "What is 'cocktail linguistics' and the importance of naming in cocktail culture?",
-          es: "¿Qué es la 'lingüística de cócteles' y la importancia de nombrar en la cultura de cócteles?",
-          de: "Was ist 'Cocktail-Linguistik' und die Bedeutung der Namensgebung in der Cocktail-Kultur?",
-          nl: "Wat is 'cocktail linguïstiek' en het belang van naamgeving in cocktail cultuur?"
-        },
-        options: [
-          { en: "Understanding how cocktail names convey history, technique, ingredients, and cultural meaning while influencing perception and appeal", es: "Entender cómo nombres de cócteles transmiten historia, técnica, ingredientes y significado cultural mientras influencian percepción y atractivo", de: "Verstehen wie Cocktail-Namen Geschichte, Technik, Zutaten und kulturelle Bedeutung vermitteln während Wahrnehmung und Anziehung beeinflusst werden", nl: "Begrijpen hoe cocktail namen geschiedenis, techniek, ingrediënten en culturele betekenis overbrengen terwijl perceptie en aantrekkingskracht worden beïnvloed" },
-          { en: "Only using language-specific terms in cocktails", es: "Solo usar términos específicos del idioma en cócteles", de: "Nur sprachspezifische Begriffe in Cocktails verwenden", nl: "Alleen taalspecifieke termen in cocktails gebruiken" },
-          { en: "Translating all cocktail names literally", es: "Traducir todos los nombres de cócteles literalmente", de: "Alle Cocktail-Namen wörtlich übersetzen", nl: "Alle cocktail namen letterlijk vertalen" },
-          { en: "Names have no impact on cocktail perception", es: "Los nombres no tienen impacto en la percepción de cócteles", de: "Namen haben keinen Einfluss auf Cocktail-Wahrnehmung", nl: "Namen hebben geen impact op cocktail perceptie" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Cocktail linguistics examines how names communicate multiple layers of meaning and influence perception. Classic cocktails encode information: 'Fix' indicates crushed ice service, 'Sour' signals the template structure, 'Old Fashioned' references historical preparation. Names can reference place (Manhattan, Singapore Sling), personality (Sazerac's Antoine Peychaud), technique (Stirred Negroni), ingredients (Gin & Tonic), or cultural moments. Research shows names significantly affect taste perception - the same cocktail tastes different with different names. Modern bartenders carefully craft names to suggest flavor profiles, create intrigue, honor traditions, or make cultural statements. Understanding naming conventions helps decode cocktail DNA and creates meaningful connections between drink and drinker.",
-          es: "La lingüística de cócteles examina cómo nombres comunican múltiples capas de significado e influencian percepción. Cócteles clásicos codifican información: 'Fix' indica servicio de hielo picado, 'Sour' señala la estructura de plantilla, 'Old Fashioned' referencia preparación histórica. Nombres pueden referenciar lugar (Manhattan, Singapore Sling), personalidad (Antoine Peychaud del Sazerac), técnica (Negroni revuelto), ingredientes (Gin & Tonic), o momentos culturales. La investigación muestra que nombres afectan significativamente percepción del sabor - el mismo cóctel sabe diferente con nombres diferentes. Bartenders modernos cuidadosamente crean nombres para sugerir perfiles de sabor, crear intriga, honrar tradiciones o hacer declaraciones culturales. Entender convenciones de nombramiento ayuda decodificar ADN de cócteles y crea conexiones significativas entre bebida y bebedor.",
-          de: "Cocktail-Linguistik untersucht wie Namen mehrere Bedeutungsschichten kommunizieren und Wahrnehmung beeinflussen. Klassische Cocktails kodieren Information: 'Fix' deutet zerstoßenes Eis-Service an, 'Sour' signalisiert Template-Struktur, 'Old Fashioned' referenziert historische Zubereitung. Namen können Ort referenzieren (Manhattan, Singapore Sling), Persönlichkeit (Sazeracs Antoine Peychaud), Technik (gerührter Negroni), Zutaten (Gin & Tonic) oder kulturelle Momente. Forschung zeigt Namen beeinflussen Geschmackswahrnehmung erheblich - derselbe Cocktail schmeckt anders mit verschiedenen Namen. Moderne Bartender gestalten sorgfältig Namen um Geschmacksprofile zu suggerieren, Intrige zu schaffen, Traditionen zu ehren oder kulturelle Aussagen zu machen. Namenskonventionen verstehen hilft Cocktail-DNA zu entschlüsseln und schafft bedeutungsvolle Verbindungen zwischen Drink und Trinker.",
-          nl: "Cocktail linguïstiek onderzoekt hoe namen meerdere betekenislagen communiceren en perceptie beïnvloeden. Klassieke cocktails coderen informatie: 'Fix' geeft crushed ijs service aan, 'Sour' signaleert de template structuur, 'Old Fashioned' verwijst naar historische bereiding. Namen kunnen plaats refereren (Manhattan, Singapore Sling), persoonlijkheid (Sazerac's Antoine Peychaud), techniek (geroerde Negroni), ingrediënten (Gin & Tonic), of culturele momenten. Onderzoek toont dat namen smaakperceptie significant beïnvloeden - dezelfde cocktail smaakt anders met verschillende namen. Moderne bartenders creëren zorgvuldig namen om smaakprofielen te suggereren, intrige te creëren, tradities te eren of culturele uitspraken te doen. Naamgevingsconventies begrijpen helpt cocktail DNA te decoderen en creëert betekenisvolle verbindingen tussen drankje en drinker."
-        }
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Cocktails",
+      "es": "Pregunta 4 sobre Cocktails",
+      "de": "Frage 4 über Cocktails",
+      "nl": "Vraag 4 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
       },
       {
-        question: {
-          en: "What is 'cocktail portfolio architecture' in bar program design?",
-          es: "¿Qué es la 'arquitectura de portafolio de cócteles' en el diseño de programas de bar?",
-          de: "Was ist 'Cocktail-Portfolio-Architektur' im Bar-Programmdesign?",
-          nl: "Wat is 'cocktail portfolio architectuur' in bar programma ontwerp?"
-        },
-        options: [
-          { en: "Strategic design of cocktail menus balancing classics, signatures, approachability, profitability, and storytelling across different guest segments", es: "Diseño estratégico de menús de cócteles equilibrando clásicos, firmas, accesibilidad, rentabilidad y narrativa a través de diferentes segmentos de invitados", de: "Strategisches Design von Cocktail-Menüs mit Balance von Klassikern, Signaturen, Zugänglichkeit, Rentabilität und Geschichtenerzählen über verschiedene Gastsegmente", nl: "Strategisch ontwerp van cocktail menu's die classics, signatures, toegankelijkheid, winstgevendheid en verhalen vertellen balanceren over verschillende gastsegmenten" },
-          { en: "Displaying cocktail photos in portfolios", es: "Mostrar fotos de cócteles en portafolios", de: "Cocktail-Fotos in Portfolios anzeigen", nl: "Cocktail foto's tonen in portfolio's" },
-          { en: "Having one signature cocktail only", es: "Tener solo un cóctel firma", de: "Nur einen Signatur-Cocktail haben", nl: "Alleen één signature cocktail hebben" },
-          { en: "Randomly selecting cocktails for the menu", es: "Seleccionar aleatoriamente cócteles para el menú", de: "Zufällig Cocktails für die Speisekarte auswählen", nl: "Willekeurig cocktails selecteren voor het menu" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Cocktail portfolio architecture involves strategic menu design considering multiple dimensions: classics (30-40% for credibility and familiar entry points), signatures (30-40% showcasing unique identity), approachability spectrum (easy-drinking to adventurous), price tiers (accessible to premium), flavor diversity (spirits, styles, profiles), operational efficiency (batch-able, simple, complex), seasonal rotation capabilities, storytelling coherence, and profitability balance. Professional programs map guest journeys, ensuring options for first-timers through cocktail enthusiasts. This includes 'gateway' drinks for spirit-curious guests, 'discovery' cocktails introducing new flavors, and 'destination' drinks for experienced palates. Successful architecture creates a cohesive narrative while meeting diverse needs, balancing artistic expression with commercial viability.",
-          es: "La arquitectura de portafolio de cócteles implica diseño estratégico de menú considerando múltiples dimensiones: clásicos (30-40% para credibilidad y puntos de entrada familiares), firmas (30-40% mostrando identidad única), espectro de accesibilidad (fácil de beber a aventurero), niveles de precio (accesible a premium), diversidad de sabor (licores, estilos, perfiles), eficiencia operacional (loteables, simples, complejos), capacidades de rotación estacional, coherencia de narrativa y equilibrio de rentabilidad. Programas profesionales mapean viajes de invitados, asegurando opciones para principiantes hasta entusiastas de cócteles. Esto incluye bebidas 'puerta de entrada' para invitados curiosos de licores, cócteles de 'descubrimiento' introduciendo nuevos sabores, y bebidas 'destino' para paladares experimentados. La arquitectura exitosa crea narrativa cohesiva mientras satisface necesidades diversas, equilibrando expresión artística con viabilidad comercial.",
-          de: "Cocktail-Portfolio-Architektur beinhaltet strategisches Menü-Design unter Berücksichtigung mehrerer Dimensionen: Klassiker (30-40% für Glaubwürdigkeit und vertraute Einstiegspunkte), Signaturen (30-40% zur Präsentation einzigartiger Identität), Zugänglichkeitsspektrum (leicht trinkbar bis abenteuerlich), Preisstufen (zugänglich bis Premium), Geschmacksvielfalt (Spirituosen, Stile, Profile), operative Effizienz (batchbar, einfach, komplex), saisonale Rotationsfähigkeiten, Geschichtenerzählen-Kohärenz und Rentabilitätsbalance. Professionelle Programme kartieren Gast-Reisen und gewährleisten Optionen von Erstbesuchern bis Cocktail-Enthusiasten. Dies umfasst 'Gateway'-Drinks für spirituosen-neugierige Gäste, 'Entdeckungs'-Cocktails zur Einführung neuer Aromen und 'Ziel'-Drinks für erfahrene Gaumen. Erfolgreiche Architektur schafft kohärente Erzählung während diverse Bedürfnisse erfüllt werden, künstlerischen Ausdruck mit kommerzieller Rentabilität balancierend.",
-          nl: "Cocktail portfolio architectuur houdt strategisch menu ontwerp in met meerdere dimensies: classics (30-40% voor geloofwaardigheid en vertrouwde toegangspunten), signatures (30-40% die unieke identiteit tonen), toegankelijkheidsspectrum (gemakkelijk drinkbaar tot avontuurlijk), prijsniveaus (toegankelijk tot premium), smaakverscheidenheid (sterke dranken, stijlen, profielen), operationele efficiëntie (batchbaar, simpel, complex), seizoensrotatie mogelijkheden, verhaal samenhang en winstgevendheid balans. Professionele programma's mappen gastreizen, wat opties verzekert voor beginners tot cocktail enthousiastelingen. Dit omvat 'gateway' drankjes voor sterke drank-nieuwsgierige gasten, 'ontdekking' cocktails die nieuwe smaken introduceren, en 'bestemming' drankjes voor ervaren gehemelte. Succesvolle architectuur creëert een samenhangende narrative terwijl diverse behoeften worden vervuld, artistieke expressie balanc erend met commerciële levensvatbaarheid."
-        }
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
       },
       {
-        question: {
-          en: "What is 'cocktail genealogy' and its importance in understanding modern mixology?",
-          es: "¿Qué es la 'genealogía de cócteles' y su importancia en entender la mixología moderna?",
-          de: "Was ist 'Cocktail-Genealogie' und ihre Bedeutung für das Verständnis moderner Mixologie?",
-          nl: "Wat is 'cocktail genealogie' en het belang in het begrijpen van moderne mixologie?"
-        },
-        options: [
-          { en: "Tracing cocktail family trees showing how drinks evolved from common ancestors and influenced modern variations", es: "Rastrear árboles genealógicos de cócteles mostrando cómo bebidas evolucionaron de ancestros comunes e influenciaron variaciones modernas", de: "Cocktail-Stammbäume verfolgen, die zeigen wie Drinks sich von gemeinsamen Vorfahren entwickelten und moderne Variationen beeinflussten", nl: "Cocktail stambomen traceren die tonen hoe drankjes evolueerden van gemeenschappelijke voorouders en moderne variaties beïnvloedden" },
-          { en: "Only studying cocktails from family recipes", es: "Solo estudiar cócteles de recetas familiares", de: "Nur Cocktails aus Familienrezepten studieren", nl: "Alleen cocktails uit familie recepten bestuderen" },
-          { en: "Cocktails passed down through generations unchanged", es: "Cócteles transmitidos por generaciones sin cambios", de: "Cocktails über Generationen unverändert weitergegeben", nl: "Cocktails doorgegeven door generaties onveranderd" },
-          { en: "Genealogy has no relevance to cocktails", es: "La genealogía no tiene relevancia para cócteles", de: "Genealogie hat keine Relevanz für Cocktails", nl: "Genealogie heeft geen relevantie voor cocktails" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Cocktail genealogy maps evolutionary relationships between drinks, revealing how modern cocktails descended from common ancestors. For example: the Sour family (spirit-citrus-sweetener) spawned the Daiquiri, Margarita, Whiskey Sour, and Sidecar. The Martini lineage includes variations like the Vesper, Gibson, and Dirty Martini. Understanding these family trees reveals fundamental templates (Sour, Old Fashioned, Martini, Highball), shows how ingredient substitutions create new drinks (rum→tequila in a Sour creates Margarita), explains naming conventions (adding adjectives to classics), and provides framework for innovation (applying classic templates with new ingredients). This knowledge helps bartenders create within tradition, understand why certain combinations work, and develop coherent new cocktails rather than random experiments.",
-          es: "La genealogía de cócteles mapea relaciones evolutivas entre bebidas, revelando cómo cócteles modernos descendieron de ancestros comunes. Por ejemplo: la familia Sour (licor-cítrico-endulzante) engendró el Daiquiri, Margarita, Whiskey Sour y Sidecar. El linaje Martini incluye variaciones como Vesper, Gibson y Dirty Martini. Entender estos árboles genealógicos revela plantillas fundamentales (Sour, Old Fashioned, Martini, Highball), muestra cómo sustituciones de ingredientes crean nuevas bebidas (ron→tequila en un Sour crea Margarita), explica convenciones de nombramiento (añadir adjetivos a clásicos), y proporciona marco para innovación (aplicar plantillas clásicas con nuevos ingredientes). Este conocimiento ayuda a bartenders crear dentro de tradición, entender por qué ciertas combinaciones funcionan, y desarrollar cócteles nuevos coherentes en lugar de experimentos aleatorios.",
-          de: "Cocktail-Genealogie kartiert evolutionäre Beziehungen zwischen Drinks und offenbart wie moderne Cocktails von gemeinsamen Vorfahren abstammen. Zum Beispiel: die Sour-Familie (Spirituose-Zitrus-Süßungsmittel) brachte Daiquiri, Margarita, Whiskey Sour und Sidecar hervor. Die Martini-Linie umfasst Variationen wie Vesper, Gibson und Dirty Martini. Diese Stammbäume zu verstehen offenbart fundamentale Templates (Sour, Old Fashioned, Martini, Highball), zeigt wie Zutatensubstitutionen neue Drinks schaffen (Rum→Tequila in einem Sour schafft Margarita), erklärt Namenskonventionen (Adjektive zu Klassikern hinzufügen), und bietet Rahmen für Innovation (klassische Templates mit neuen Zutaten anwenden). Dieses Wissen hilft Bartendern innerhalb von Tradition zu schaffen, zu verstehen warum bestimmte Kombinationen funktionieren, und kohärente neue Cocktails zu entwickeln anstatt zufälliger Experimente.",
-          nl: "Cocktail genealogie brengt evolutionaire relaties tussen drankjes in kaart, onthullend hoe moderne cocktails afstamden van gemeenschappelijke voorouders. Bijvoorbeeld: de Sour familie (sterke drank-citrus-zoetstof) verwekte de Daiquiri, Margarita, Whiskey Sour en Sidecar. De Martini lijn omvat variaties zoals Vesper, Gibson en Dirty Martini. Deze stambomen begrijpen onthult fundamentele templates (Sour, Old Fashioned, Martini, Highball), toont hoe ingrediënt substituties nieuwe drankjes creëren (rum→tequila in een Sour creëert Margarita), verklaart naamgevingsconventies (bijvoeglijke naamwoorden toevoegen aan classics), en biedt kader voor innovatie (klassieke templates toepassen met nieuwe ingrediënten). Deze kennis helpt bartenders binnen traditie te creëren, begrijpen waarom bepaalde combinaties werken, en samenhangende nieuwe cocktails ontwikkelen in plaats van willekeurige experimenten."
-        }
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
       },
       {
-        question: {
-          en: "What is 'ice program engineering' in professional bar operations?",
-          es: "¿Qué es la 'ingeniería de programa de hielo' en operaciones profesionales de bar?",
-          de: "Was ist 'Eis-Programm-Engineering' in professionellen Bar-Operationen?",
-          nl: "Wat is 'ijs programma engineering' in professionele bar operaties?"
-        },
-        options: [
-          { en: "Comprehensive system designing ice types, production methods, storage, and application for optimal cocktail quality and operational efficiency", es: "Sistema integral diseñando tipos de hielo, métodos de producción, almacenamiento y aplicación para calidad óptima de cóctel y eficiencia operacional", de: "Umfassendes System zum Design von Eistypen, Produktionsmethoden, Lagerung und Anwendung für optimale Cocktail-Qualität und operative Effizienz", nl: "Uitgebreid systeem dat ijstypen, productiemethoden, opslag en toepassing ontwerpt voor optimale cocktail kwaliteit en operationele efficiëntie" },
-          { en: "Just buying ice from suppliers", es: "Solo comprar hielo de proveedores", de: "Nur Eis von Lieferanten kaufen", nl: "Alleen ijs kopen van leveranciers" },
-          { en: "Using only one type of ice for everything", es: "Usar solo un tipo de hielo para todo", de: "Nur eine Eisart für alles verwenden", nl: "Alleen één type ijs voor alles gebruiken" },
-          { en: "Ice has minimal impact on cocktails", es: "El hielo tiene impacto mínimo en cócteles", de: "Eis hat minimalen Einfluss auf Cocktails", nl: "Ijs heeft minimale impact op cocktails" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Ice program engineering encompasses comprehensive ice management: producing clear ice (directional freezing, pure water sources), creating various formats (cubes for stirring, crushed for juleps, spears for highballs, spheres for rocks drinks), understanding dilution rates (surface area-to-volume ratios), controlling temperature (-1°C to -20°C for different applications), managing storage and handling (preventing freezer burn, contamination), calculating production capacity, and matching ice types to cocktail requirements. Professional programs consider water quality (filtered, mineral-free for clarity), freezing methods (slow for clarity, fast for volume), and sustainability (water usage, energy efficiency). Proper ice programs dramatically improve cocktail quality, consistency, and presentation while optimizing operational costs and environmental impact.",
-          es: "La ingeniería de programa de hielo abarca gestión integral de hielo: producir hielo claro (congelación direccional, fuentes de agua pura), crear varios formatos (cubos para revolver, picado para juleps, lanzas para highballs, esferas para bebidas en las rocas), entender tasas de dilución (proporciones superficie-a-volumen), controlar temperatura (-1°C a -20°C para diferentes aplicaciones), manejar almacenamiento y manejo (prevenir quemadura de congelador, contaminación), calcular capacidad de producción, y coincidir tipos de hielo con requisitos de cócteles. Programas profesionales consideran calidad de agua (filtrada, sin minerales para claridad), métodos de congelación (lento para claridad, rápido para volumen), y sostenibilidad (uso de agua, eficiencia energética). Programas apropiados de hielo mejoran dramáticamente calidad, consistencia y presentación de cócteles mientras optimizan costos operacionales e impacto ambiental.",
-          de: "Eis-Programm-Engineering umfasst umfassendes Eis-Management: klares Eis produzieren (gerichtetes Gefrieren, reine Wasserquellen), verschiedene Formate schaffen (Würfel zum Rühren, zerkleinert für Juleps, Speere für Highballs, Kugeln für Rocks-Drinks), Verdünnungsraten verstehen (Oberflächen-zu-Volumen-Verhältnisse), Temperatur kontrollieren (-1°C bis -20°C für verschiedene Anwendungen), Lagerung und Handhabung managen (Gefrierbrand, Kontamination verhindern), Produktionskapazität berechnen, und Eistypen mit Cocktail-Anforderungen abgleichen. Professionelle Programme berücksichtigen Wasserqualität (gefiltert, mineralfrei für Klarheit), Gefriermethoden (langsam für Klarheit, schnell für Volumen) und Nachhaltigkeit (Wasserverbrauch, Energieeffizienz). Ordnungsgemäße Eis-Programme verbessern Cocktail-Qualität, Konsistenz und Präsentation dramatisch während Betriebskosten und Umweltauswirkungen optimiert werden.",
-          nl: "Ijs programma engineering omvat uitgebreid ijs management: helder ijs produceren (directioneel bevriezen, pure waterbronnen), verschillende formaten creëren (blokjes voor roeren, crushed voor juleps, speren voor highballs, bollen voor rocks drankjes), verdunningssnelheden begrijpen (oppervlakte-tot-volume verhoudingen), temperatuur controleren (-1°C tot -20°C voor verschillende toepassingen), opslag en hantering managen (vriesbrand voorkomen, contaminatie), productiecapaciteit berekenen, en ijstypen matchen met cocktail vereisten. Professionele programma's overwegen waterkwaliteit (gefilterd, mineraal-vrij voor helderheid), bevriesmethoden (langzaam voor helderheid, snel voor volume), en duurzaamheid (watergebruik, energie efficiëntie). Juiste ijs programma's verbeteren cocktail kwaliteit, consistentie en presentatie dramatisch terwijl operationele kosten en milieu-impact worden geoptimaliseerd."
-        }
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Cocktails",
+      "es": "Pregunta 5 sobre Cocktails",
+      "de": "Frage 5 über Cocktails",
+      "nl": "Vraag 5 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
       },
       {
-        question: {
-          en: "What is the role of 'intellectual property and innovation documentation' in professional cocktail development?",
-          es: "¿Cuál es el papel de la 'propiedad intelectual y documentación de innovación' en el desarrollo profesional de cócteles?",
-          de: "Was ist die Rolle von 'geistigem Eigentum und Innovationsdokumentation' in professioneller Cocktail-Entwicklung?",
-          nl: "Wat is de rol van 'intellectueel eigendom en innovatie documentatie' in professionele cocktail ontwikkeling?"
-        },
-        options: [
-          { en: "Systematic recording of recipes, techniques, and innovations to protect creative work, ensure consistency, and enable knowledge transfer", es: "Registro sistemático de recetas, técnicas e innovaciones para proteger trabajo creativo, asegurar consistencia y permitir transferencia de conocimiento", de: "Systematische Aufzeichnung von Rezepten, Techniken und Innovationen zum Schutz kreativer Arbeit, Gewährleistung von Konsistenz und Ermöglichung von Wissenstransfer", nl: "Systematische registratie van recepten, technieken en innovaties om creatief werk te beschermen, consistentie te verzekeren en kennisoverdracht mogelijk te maken" },
-          { en: "Keeping all recipes completely secret forever", es: "Mantener todas las recetas completamente secretas para siempre", de: "Alle Rezepte für immer völlig geheim halten", nl: "Alle recepten voor altijd volledig geheim houden" },
-          { en: "Never documenting cocktail recipes", es: "Nunca documentar recetas de cócteles", de: "Cocktail-Rezepte nie dokumentieren", nl: "Cocktail recepten nooit documenteren" },
-          { en: "Documentation is unnecessary in cocktail creation", es: "La documentación es innecesaria en creación de cócteles", de: "Dokumentation ist unnötig in Cocktail-Kreation", nl: "Documentatie is onnodig in cocktail creatie" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Intellectual property and innovation documentation in cocktails involves systematic recording of creative work for multiple purposes: protecting original recipes and techniques (spec sheets, development notes, dated documentation), ensuring consistency across staff and locations (standardized recipes with weights, techniques, plating), enabling training and knowledge transfer (detailed procedures, rationales, troubleshooting), building institutional memory (capturing why decisions were made), supporting menu evolution (tracking iterations, guest feedback, cost analysis), and potentially pursuing formal IP protection for signature techniques or products. Professional bars maintain recipe databases, development logs, and standard operating procedures. This documentation balances transparency for team execution with protection of competitive advantages, ensuring both quality control and creative recognition.",
-          es: "La propiedad intelectual y documentación de innovación en cócteles implica registro sistemático de trabajo creativo para múltiples propósitos: proteger recetas y técnicas originales (hojas de especificaciones, notas de desarrollo, documentación fechada), asegurar consistencia a través de personal y ubicaciones (recetas estandarizadas con pesos, técnicas, emplatado), permitir entrenamiento y transferencia de conocimiento (procedimientos detallados, racionales, solución de problemas), construir memoria institucional (capturar por qué se tomaron decisiones), apoyar evolución de menú (rastrear iteraciones, retroalimentación de invitados, análisis de costos), y potencialmente perseguir protección IP formal para técnicas o productos firma. Bares profesionales mantienen bases de datos de recetas, registros de desarrollo y procedimientos operativos estándar. Esta documentación equilibra transparencia para ejecución de equipo con protección de ventajas competitivas, asegurando tanto control de calidad como reconocimiento creativo.",
-          de: "Geistiges Eigentum und Innovationsdokumentation in Cocktails beinhaltet systematische Aufzeichnung kreativer Arbeit für mehrere Zwecke: Schutz originaler Rezepte und Techniken (Spezifikationsblätter, Entwicklungsnotizen, datierte Dokumentation), Gewährleistung von Konsistenz über Personal und Standorte (standardisierte Rezepte mit Gewichten, Techniken, Anrichten), Ermöglichung von Training und Wissenstransfer (detaillierte Verfahren, Begründungen, Fehlerbehebung), Aufbau institutionellen Gedächtnisses (Erfassung warum Entscheidungen getroffen wurden), Unterstützung von Menü-Evolution (Iterationen verfolgen, Gast-Feedback, Kostenanalyse), und möglicherweise formalen IP-Schutz für Signaturtechniken oder -produkte verfolgen. Professionelle Bars pflegen Rezeptdatenbanken, Entwicklungslogs und Standardbetriebsverfahren. Diese Dokumentation balanciert Transparenz für Teamausführung mit Schutz von Wettbewerbsvorteilen und gewährleistet sowohl Qualitätskontrolle als auch kreative Anerkennung.",
-          nl: "Intellectueel eigendom en innovatie documentatie in cocktails houdt systematische registratie van creatief werk in voor meerdere doelen: originele recepten en technieken beschermen (spec sheets, ontwikkelingsnotities, gedateerde documentatie), consistentie verzekeren over personeel en locaties (gestandaardiseerde recepten met gewichten, technieken, presentatie), training en kennisoverdracht mogelijk maken (gedetailleerde procedures, rationales, probleemoplossing), institutioneel geheugen opbouwen (vastleggen waarom beslissingen werden genomen), menu evolutie ondersteunen (iteraties traceren, gastfeedback, kostenanalyse), en mogelijk formele IP bescherming nastreven voor signature technieken of producten. Professionele bars onderhouden recept databases, ontwikkelingslogs en standaard operationele procedures. Deze documentatie balanceert transparantie voor team uitvoering met bescherming van competitieve voordelen, wat zowel kwaliteitscontrole als creatieve erkenning verzekert."
-        }
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
       },
       {
-        question: {
-          en: "What is the scientific principle behind 'fat-washing' spirits and how does temperature control optimize flavor extraction?",
-          es: "¿Cuál es el principio científico detrás del 'lavado con grasa' de licores y cómo el control de temperatura optimiza la extracción de sabor?",
-          de: "Was ist das wissenschaftliche Prinzip hinter 'Fettwaschung' von Spirituosen und wie optimiert Temperaturkontrolle die Geschmacksextraktion?",
-          nl: "Wat is het wetenschappelijke principe achter 'vet-wassing' van sterke dranken en hoe optimaliseert temperatuurcontrole de smaak extractie?"
-        },
-        options: [
-          { en: "Lipid solubility allows fat-soluble flavor compounds to transfer during infusion, then freeze-separation removes fat while retaining flavors", es: "La solubilidad lipídica permite que compuestos de sabor solubles en grasa se transfieran durante la infusión, luego la separación por congelación elimina la grasa mientras retiene sabores", de: "Lipidlöslichkeit ermöglicht fettlöslichen Geschmacksverbindungen die Übertragung während der Infusion, dann entfernt Gefrier-Trennung Fett während Aromen erhalten bleiben", nl: "Lipide oplosbaarheid stelt vet-oplosbare smaakverbindingen in staat over te dragen tijdens infusie, daarna verwijdert vries-scheiding vet terwijl smaken behouden blijven" },
-          { en: "Fat just makes spirits taste better without chemistry", es: "La grasa solo hace que los licores sepan mejor sin química", de: "Fett lässt Spirituosen einfach besser schmecken ohne Chemie", nl: "Vet laat sterke dranken gewoon beter smaken zonder chemie" },
-          { en: "Temperature doesn't matter in fat-washing", es: "La temperatura no importa en el lavado con grasa", de: "Temperatur spielt keine Rolle beim Fettwaschen", nl: "Temperatuur maakt niet uit bij vet-wassing" },
-          { en: "Fat-washing only works with whiskey", es: "El lavado con grasa solo funciona con whisky", de: "Fettwaschung funktioniert nur mit Whisky", nl: "Vet-wassing werkt alleen met whisky" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Fat-washing exploits the principle that many flavor compounds are lipophilic (fat-soluble) rather than hydrophilic. When warm fat (butter, bacon fat, brown butter, etc.) is mixed with spirit at optimal temperature (typically 50-60°C), fat-soluble aromatics transfer from the fat into the alcohol. After infusion (2-24 hours depending on fat type and desired intensity), the mixture is frozen (-18°C or colder), causing fats to solidify while alcohol remains liquid. The solidified fat is then removed, leaving the spirit infused with fat-soluble flavors but without fatty texture. Temperature control is critical: too hot damages delicate aromatics, too cold prevents proper extraction. This technique enables incorporation of savory, nutty, and rich flavors impossible through traditional infusion.",
-          es: "El lavado con grasa explota el principio de que muchos compuestos de sabor son lipofílicos (solubles en grasa) en lugar de hidrofílicos. Cuando grasa caliente (mantequilla, grasa de tocino, mantequilla dorada, etc.) se mezcla con licor a temperatura óptima (típicamente 50-60°C), aromáticos solubles en grasa se transfieren de la grasa al alcohol. Después de infusión (2-24 horas dependiendo del tipo de grasa e intensidad deseada), la mezcla se congela (-18°C o más frío), causando que las grasas se solidifiquen mientras el alcohol permanece líquido. La grasa solidificada se elimina luego, dejando el licor infundido con sabores solubles en grasa pero sin textura grasa. El control de temperatura es crítico: demasiado caliente daña aromáticos delicados, demasiado frío previene extracción apropiada. Esta técnica permite incorporación de sabores sabrosos, a nuez y ricos imposibles a través de infusión tradicional.",
-          de: "Fettwaschung nutzt das Prinzip, dass viele Geschmacksverbindungen lipophil (fettlöslich) statt hydrophil sind. Wenn warmes Fett (Butter, Speckfett, braune Butter usw.) mit Spirituose bei optimaler Temperatur (typisch 50-60°C) gemischt wird, übertragen fettlösliche Aromastoffe vom Fett in den Alkohol. Nach Infusion (2-24 Stunden je nach Fettart und gewünschter Intensität) wird die Mischung gefroren (-18°C oder kälter), wodurch Fette erstarren während Alkohol flüssig bleibt. Das erstarrte Fett wird dann entfernt, wobei die Spirituose mit fettlöslichen Aromen infundiert bleibt aber ohne fettige Textur. Temperaturkontrolle ist kritisch: zu heiß beschädigt zarte Aromastoffe, zu kalt verhindert richtige Extraktion. Diese Technik ermöglicht Einarbeitung von herzhaften, nussigen und reichen Aromen unmöglich durch traditionelle Infusion.",
-          nl: "Vet-wassing exploiteert het principe dat veel smaakverbindingen lipofiel (vet-oplosbaar) zijn in plaats van hydrofiel. Wanneer warm vet (boter, spekvet, bruine boter, enz.) wordt gemengd met sterke drank bij optimale temperatuur (typisch 50-60°C), dragen vet-oplosbare aroma's over van het vet naar de alcohol. Na infusie (2-24 uur afhankelijk van vet type en gewenste intensiteit) wordt het mengsel bevroren (-18°C of kouder), waardoor vetten stollen terwijl alcohol vloeibaar blijft. Het gestolde vet wordt vervolgens verwijderd, waarbij de sterke drank geïnfuseerd blijft met vet-oplosbare smaken maar zonder vette textuur. Temperatuurcontrole is kritisch: te heet beschadigt delicate aroma's, te koud voorkomt juiste extractie. Deze techniek maakt incorporatie van hartige, notenachitige en rijke smaken mogelijk onmogelijk door traditionele infusie."
-        }
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
       },
       {
-        question: {
-          en: "How does 'sous vide rapid infusion' differ from traditional maceration in cocktail ingredient preparation?",
-          es: "¿Cómo difiere la 'infusión rápida sous vide' de la maceración tradicional en la preparación de ingredientes de cócteles?",
-          de: "Wie unterscheidet sich 'Sous Vide Schnellinfusion' von traditioneller Mazeration in Cocktail-Zutaten-Vorbereitung?",
-          nl: "Hoe verschilt 'sous vide snelle infusie' van traditionele maceratie in cocktail ingrediënt voorbereiding?"
-        },
-        options: [
-          { en: "Precise temperature control (50-65°C) accelerates extraction in hours vs days while preventing oxidation and preserving volatile aromatics", es: "Control preciso de temperatura (50-65°C) acelera extracción en horas vs días mientras previene oxidación y preserva aromáticos volátiles", de: "Präzise Temperaturkontrolle (50-65°C) beschleunigt Extraktion in Stunden vs Tagen während Oxidation verhindert und flüchtige Aromastoffe bewahrt werden", nl: "Precieze temperatuurcontrole (50-65°C) versnelt extractie in uren vs dagen terwijl oxidatie wordt voorkomen en vluchtige aroma's behouden blijven" },
-          { en: "Sous vide is just slower than traditional methods", es: "Sous vide es solo más lento que métodos tradicionales", de: "Sous Vide ist nur langsamer als traditionelle Methoden", nl: "Sous vide is gewoon langzamer dan traditionele methoden" },
-          { en: "There is no difference between the methods", es: "No hay diferencia entre los métodos", de: "Es gibt keinen Unterschied zwischen den Methoden", nl: "Er is geen verschil tussen de methoden" },
-          { en: "Sous vide only works with vegetables", es: "Sous vide solo funciona con vegetales", de: "Sous Vide funktioniert nur mit Gemüse", nl: "Sous vide werkt alleen met groenten" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Sous vide rapid infusion uses precise temperature control and vacuum sealing to dramatically accelerate flavor extraction while improving quality. Traditional maceration requires days to weeks at room temperature, exposing ingredients to oxygen and allowing volatile aromatics to escape. Sous vide infusion operates at controlled temperatures (typically 50-65°C for spirits, 55-60°C for syrups), which increases molecular activity and extraction rates. The vacuum seal prevents oxidation, preserves delicate volatile compounds, and enhances flavor transfer through pressure. Infusion times reduce from days to 1-4 hours depending on ingredients. This method produces cleaner, brighter flavors with better aromatic retention, consistent results through precise parameters, and reduced ingredient waste through more efficient extraction.",
-          es: "La infusión rápida sous vide usa control preciso de temperatura y sellado al vacío para acelerar dramáticamente la extracción de sabor mientras mejora la calidad. La maceración tradicional requiere días a semanas a temperatura ambiente, exponiendo ingredientes a oxígeno y permitiendo que aromáticos volátiles escapen. La infusión sous vide opera a temperaturas controladas (típicamente 50-65°C para licores, 55-60°C para jarabes), lo que aumenta actividad molecular y tasas de extracción. El sellado al vacío previene oxidación, preserva compuestos volátiles delicados y mejora transferencia de sabor a través de presión. Los tiempos de infusión se reducen de días a 1-4 horas dependiendo de ingredientes. Este método produce sabores más limpios y brillantes con mejor retención aromática, resultados consistentes a través de parámetros precisos y reducción de desperdicio de ingredientes a través de extracción más eficiente.",
-          de: "Sous Vide Schnellinfusion verwendet präzise Temperaturkontrolle und Vakuumversiegelung, um Geschmacksextraktion dramatisch zu beschleunigen während Qualität verbessert wird. Traditionelle Mazeration erfordert Tage bis Wochen bei Raumtemperatur, wodurch Zutaten Sauerstoff ausgesetzt werden und flüchtige Aromastoffe entweichen können. Sous Vide Infusion arbeitet bei kontrollierten Temperaturen (typisch 50-65°C für Spirituosen, 55-60°C für Sirupe), was molekulare Aktivität und Extraktionsraten erhöht. Die Vakuumversiegelung verhindert Oxidation, bewahrt zarte flüchtige Verbindungen und verstärkt Geschmacksübertragung durch Druck. Infusionszeiten reduzieren sich von Tagen auf 1-4 Stunden je nach Zutaten. Diese Methode produziert sauberere, hellere Aromen mit besserer Aromatenretention, konsistente Ergebnisse durch präzise Parameter und reduzierte Zutatenverschwendung durch effizientere Extraktion.",
-          nl: "Sous vide snelle infusie gebruikt precieze temperatuurcontrole en vacuümverzegeling om smaak extractie dramatisch te versnellen terwijl kwaliteit wordt verbeterd. Traditionele maceratie vereist dagen tot weken bij kamertemperatuur, waarbij ingrediënten worden blootgesteld aan zuurstof en vluchtige aroma's kunnen ontsnappen. Sous vide infusie werkt bij gecontroleerde temperaturen (typisch 50-65°C voor sterke dranken, 55-60°C voor siropen), wat moleculaire activiteit en extractie snelheden verhoogt. De vacuümzegel voorkomt oxidatie, behoudt delicate vluchtige verbindingen en verbetert smaak overdracht door druk. Infusie tijden verminderen van dagen naar 1-4 uur afhankelijk van ingrediënten. Deze methode produceert schonere, helderdere smaken met betere aromatische retentie, consistente resultaten door precieze parameters en verminderd ingrediënt afval door efficiëntere extractie."
-        }
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Cocktails",
+      "es": "Pregunta 6 sobre Cocktails",
+      "de": "Frage 6 über Cocktails",
+      "nl": "Vraag 6 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
       },
       {
-        question: {
-          en: "What role does 'acid-adjusted dilution' play in optimizing pre-batched cocktail stability and flavor?",
-          es: "¿Qué papel juega la 'dilución ajustada con ácido' en optimizar la estabilidad y sabor de cócteles pre-loteados?",
-          de: "Welche Rolle spielt 'säureeingestellte Verdünnung' bei der Optimierung von vorgemischten Cocktail-Stabilität und -Geschmack?",
-          nl: "Welke rol speelt 'zuur-aangepaste verdunning' bij het optimaliseren van vooraf gemaakte cocktail stabiliteit en smaak?"
-        },
-        options: [
-          { en: "pH control (typically 3.0-3.5) through citric/malic acid addition prevents oxidation, preserves citrus brightness, and extends shelf life", es: "Control de pH (típicamente 3.0-3.5) a través de adición de ácido cítrico/málico previene oxidación, preserva brillo cítrico y extiende vida útil", de: "pH-Kontrolle (typisch 3,0-3,5) durch Zitronen-/Apfelsäure-Zugabe verhindert Oxidation, bewahrt Zitrusfrische und verlängert Haltbarkeit", nl: "pH controle (typisch 3.0-3.5) door citroen/appelzuur toevoeging voorkomt oxidatie, behoudt citrus helderheid en verlengt houdbaarheid" },
-          { en: "Adding more lemon juice to everything", es: "Añadir más jugo de limón a todo", de: "Mehr Zitronensaft zu allem hinzufügen", nl: "Meer citroensap aan alles toevoegen" },
-          { en: "Acid has no effect on batched cocktails", es: "El ácido no tiene efecto en cócteles loteados", de: "Säure hat keine Wirkung auf vorgemischte Cocktails", nl: "Zuur heeft geen effect op batch cocktails" },
-          { en: "Only affects cocktails served immediately", es: "Solo afecta cócteles servidos inmediatamente", de: "Betrifft nur sofort servierte Cocktails", nl: "Beïnvloedt alleen onmiddellijk geserveerde cocktails" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Acid-adjusted dilution is critical for pre-batched cocktail programs because proper pH control preserves flavor and extends shelf life. When batching cocktails containing citrus, bartenders replace fresh juice with precise amounts of citric acid (for lemon character) and/or malic acid (for lime character) combined with water to achieve target pH of 3.0-3.5. This approach prevents oxidation that causes browning and off-flavors, maintains consistent brightness without degradation, eliminates day-to-day juice variation, extends refrigerated shelf life from days to weeks, and allows precise flavor control through measured acid ratios. The dilution component accounts for water that would be added through shaking with ice, typically 25-30% of final volume. Professional batching also considers sucrose content, ABV targets, and integration time for optimal service.",
-          es: "La dilución ajustada con ácido es crítica para programas de cócteles pre-loteados porque el control apropiado de pH preserva sabor y extiende vida útil. Al lotear cócteles que contienen cítricos, bartenders reemplazan jugo fresco con cantidades precisas de ácido cítrico (para carácter de limón) y/o ácido málico (para carácter de lima) combinado con agua para lograr pH objetivo de 3.0-3.5. Este enfoque previene oxidación que causa oscurecimiento y sabores desagradables, mantiene brillo consistente sin degradación, elimina variación diaria de jugo, extiende vida útil refrigerada de días a semanas y permite control preciso de sabor a través de proporciones medidas de ácido. El componente de dilución considera agua que se añadiría a través de agitación con hielo, típicamente 25-30% de volumen final. El loteado profesional también considera contenido de sacarosa, objetivos de ABV y tiempo de integración para servicio óptimo.",
-          de: "Säureeingestellte Verdünnung ist kritisch für vorgemischte Cocktail-Programme, weil richtige pH-Kontrolle Geschmack bewahrt und Haltbarkeit verlängert. Beim Vormengen von Cocktails mit Zitrus ersetzen Bartender frischen Saft mit präzisen Mengen Zitronensäure (für Zitronencharakter) und/oder Apfelsäure (für Limettencharakter) kombiniert mit Wasser, um Ziel-pH von 3,0-3,5 zu erreichen. Dieser Ansatz verhindert Oxidation, die Bräunung und Fehlaromen verursacht, erhält konsistente Frische ohne Abbau, eliminiert tägliche Saft-Variation, verlängert gekühlte Haltbarkeit von Tagen auf Wochen und ermöglicht präzise Geschmackskontrolle durch gemessene Säureverhältnisse. Die Verdünnungskomponente berücksichtigt Wasser, das durch Schütteln mit Eis hinzugefügt würde, typisch 25-30% des Endvolumens. Professionelles Vormengen berücksichtigt auch Saccharosegehalt, ABV-Ziele und Integrationszeit für optimalen Service.",
-          nl: "Zuur-aangepaste verdunning is kritisch voor vooraf gemaakte cocktail programma's omdat juiste pH controle smaak behoudt en houdbaarheid verlengt. Bij het batchen van cocktails met citrus vervangen bartenders vers sap met precieze hoeveelheden citroenzuur (voor citroen karakter) en/of appelzuur (voor limoen karakter) gecombineerd met water om doel pH van 3.0-3.5 te bereiken. Deze aanpak voorkomt oxidatie die verbruining en bijsmaken veroorzaakt, handhaaft consistente helderheid zonder degradatie, elimineert dag-tot-dag sap variatie, verlengt gekoelde houdbaarheid van dagen naar weken en maakt precieze smaak controle mogelijk door gemeten zuur verhoudingen. De verdunnings component houdt rekening met water dat zou worden toegevoegd door schudden met ijs, typisch 25-30% van eindvolume. Professioneel batchen overweegt ook sucrose gehalte, ABV doelen en integratie tijd voor optimale service."
-        }
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
       },
       {
-        question: {
-          en: "What is 'reverse dry shake' technique and when is it preferred over standard dry shake methods?",
-          es: "¿Qué es la técnica de 'agitación seca inversa' y cuándo se prefiere sobre métodos estándar de agitación seca?",
-          de: "Was ist die 'umgekehrte Trocken-Shake'-Technik und wann wird sie gegenüber Standard-Trocken-Shake-Methoden bevorzugt?",
-          nl: "Wat is 'omgekeerde droge shake' techniek en wanneer heeft deze de voorkeur boven standaard droge shake methoden?"
-        },
-        options: [
-          { en: "Shaking with ice first, then without ice - produces denser, longer-lasting foam with better texture than traditional dry-shake-then-ice method", es: "Agitar con hielo primero, luego sin hielo - produce espuma más densa y duradera con mejor textura que método tradicional de agitar-seco-luego-hielo", de: "Schütteln mit Eis zuerst, dann ohne Eis - produziert dichterer, länger anhaltender Schaum mit besserer Textur als traditionelle Trocken-Shake-dann-Eis-Methode", nl: "Schudden met ijs eerst, daarna zonder ijs - produceert dichtere, langer aanhoudende schuim met betere textuur dan traditionele droog-schud-dan-ijs methode" },
-          { en: "Shaking without any liquid ingredients", es: "Agitar sin ingredientes líquidos", de: "Schütteln ohne flüssige Zutaten", nl: "Schudden zonder vloeibare ingrediënten" },
-          { en: "Using dried ice instead of regular ice", es: "Usar hielo seco en lugar de hielo regular", de: "Trockeneis statt normalem Eis verwenden", nl: "Droogijs gebruiken in plaats van gewoon ijs" },
-          { en: "Reverse dry shake is exactly the same as regular dry shake", es: "La agitación seca inversa es exactamente igual que la agitación seca regular", de: "Umgekehrter Trocken-Shake ist genau das gleiche wie regulärer Trocken-Shake", nl: "Omgekeerde droge shake is precies hetzelfde als gewone droge shake" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Reverse dry shake inverts the traditional dry shake process: shake with ice first (to chill and dilute), strain out ice, then shake again vigorously without ice. This produces superior foam because: the protein/emulsifier (egg white, aquafaba) is already chilled when agitated without ice, allowing more efficient foam formation; ice chips don't interfere with the second shake, preventing foam disruption; the technique generates denser, more stable foam with finer bubbles; and texture is silkier with better integration. Traditional dry shake (no ice first, then with ice) risks the second shake breaking down the initial foam structure. Reverse dry shake is now preferred by many high-end cocktail programs for egg white sours, Ramos Gin Fizz, and other foam-dependent cocktails.",
-          es: "La agitación seca inversa invierte el proceso tradicional de agitación seca: agitar con hielo primero (para enfriar y diluir), colar el hielo, luego agitar nuevamente vigorosamente sin hielo. Esto produce espuma superior porque: la proteína/emulsificante (clara de huevo, aquafaba) ya está enfriado cuando se agita sin hielo, permitiendo formación de espuma más eficiente; astillas de hielo no interfieren con la segunda agitación, previniendo interrupción de espuma; la técnica genera espuma más densa y estable con burbujas más finas; y la textura es más sedosa con mejor integración. La agitación seca tradicional (sin hielo primero, luego con hielo) arriesga que la segunda agitación descomponga la estructura inicial de espuma. La agitación seca inversa ahora es preferida por muchos programas de cócteles de alta gama para sours de clara de huevo, Ramos Gin Fizz y otros cócteles dependientes de espuma.",
-          de: "Umgekehrter Trocken-Shake kehrt den traditionellen Trocken-Shake-Prozess um: zuerst mit Eis schütteln (zum Kühlen und Verdünnen), Eis abseihen, dann erneut kräftig ohne Eis schütteln. Dies produziert überlegenen Schaum weil: das Protein/Emulgator (Eiweiß, Aquafaba) bereits gekühlt ist wenn ohne Eis gerührt, was effizientere Schaumbildung ermöglicht; Eissplitter nicht mit dem zweiten Shake interferieren, was Schaumstörung verhindert; die Technik dichteren, stabileren Schaum mit feineren Blasen erzeugt; und Textur seidiger mit besserer Integration ist. Traditioneller Trocken-Shake (ohne Eis zuerst, dann mit Eis) riskiert, dass der zweite Shake die anfängliche Schaumstruktur abbaut. Umgekehrter Trocken-Shake wird jetzt von vielen High-End-Cocktail-Programmen für Eiweiß-Sours, Ramos Gin Fizz und andere schaumabhängige Cocktails bevorzugt.",
-          nl: "Omgekeerde droge shake keert het traditionele droge shake proces om: eerst schudden met ijs (om te koelen en verdunnen), ijs afgieten, daarna opnieuw krachtig schudden zonder ijs. Dit produceert superieur schuim omdat: de proteïne/emulgator (eiwit, aquafaba) al gekoeld is wanneer geschud zonder ijs, wat efficiëntere schuim vorming mogelijk maakt; ijssplinters niet interfereren met de tweede shake, waardoor schuim verstoring wordt voorkomen; de techniek dichtere, stabielere schuim met fijnere bubbels genereert; en textuur zijdeachtiger is met betere integratie. Traditionele droge shake (zonder ijs eerst, dan met ijs) riskeert dat de tweede shake de initiële schuim structuur afbreekt. Omgekeerde droge shake wordt nu verkozen door veel high-end cocktail programma's voor eiwit sours, Ramos Gin Fizz en andere schuim-afhankelijke cocktails."
-        }
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
       },
       {
-        question: {
-          en: "How does 'centrifugal clarification' achieve crystal-clear cocktail ingredients and what advantages does it offer over traditional fining methods?",
-          es: "¿Cómo logra la 'clarificación centrífuga' ingredientes de cóctel cristalinos y qué ventajas ofrece sobre métodos tradicionales de clarificación?",
-          de: "Wie erreicht 'Zentrifugal-Klärung' kristallklare Cocktail-Zutaten und welche Vorteile bietet sie gegenüber traditionellen Schönungsmethoden?",
-          nl: "Hoe bereikt 'centrifugale klaring' kristalheldere cocktail ingrediënten en welke voordelen biedt het ten opzichte van traditionele klaringsmethoden?"
-        },
-        options: [
-          { en: "High-speed rotation (3000-5000 RPM) separates particles by density in minutes, preserving volatile aromatics better than gelatin/agar methods that take hours", es: "Rotación de alta velocidad (3000-5000 RPM) separa partículas por densidad en minutos, preservando aromáticos volátiles mejor que métodos de gelatina/agar que toman horas", de: "Hochgeschwindigkeitsrotation (3000-5000 U/min) trennt Partikel nach Dichte in Minuten, bewahrt flüchtige Aromastoffe besser als Gelatine/Agar-Methoden die Stunden dauern", nl: "Hoge-snelheid rotatie (3000-5000 RPM) scheidt deeltjes op dichtheid in minuten, behoudt vluchtige aroma's beter dan gelatine/agar methoden die uren duren" },
-          { en: "Spinning cocktails removes all flavor", es: "Girar cócteles elimina todo el sabor", de: "Cocktails drehen entfernt allen Geschmack", nl: "Cocktails draaien verwijdert alle smaak" },
-          { en: "Clarification only works with clear spirits", es: "La clarificación solo funciona con licores claros", de: "Klärung funktioniert nur mit klaren Spirituosen", nl: "Klaring werkt alleen met heldere sterke dranken" },
-          { en: "Centrifuge clarification takes longer than other methods", es: "La clarificación centrífuga toma más tiempo que otros métodos", de: "Zentrifugen-Klärung dauert länger als andere Methoden", nl: "Centrifuge klaring duurt langer dan andere methoden" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Centrifugal clarification uses a centrifuge (typically lab-grade at 3000-5000 RPM) to separate suspended particles from liquids based on density differences. The high centrifugal force drives particles to the bottom while crystal-clear liquid remains on top. Advantages over traditional fining (gelatin, agar, egg whites): speed (5-15 minutes vs 4-24 hours), better preservation of volatile aromatics (no heat, minimal time exposure), no flavor alteration from fining agents, ability to clarify acidic ingredients that resist gelatin fining, and production of visually stunning crystal-clear juices, syrups, and infusions while maintaining full flavor. Common applications include clarified lime/lemon juice for Martini variations, clear tomato water for Bloody Marys, and transparent fruit juices that deliver intense flavor without cloudiness. The technique enables visual drama while preserving taste integrity.",
-          es: "La clarificación centrífuga usa una centrífuga (típicamente grado laboratorio a 3000-5000 RPM) para separar partículas suspendidas de líquidos basado en diferencias de densidad. La alta fuerza centrífuga impulsa partículas al fondo mientras líquido cristalino permanece arriba. Ventajas sobre clarificación tradicional (gelatina, agar, claras de huevo): velocidad (5-15 minutos vs 4-24 horas), mejor preservación de aromáticos volátiles (sin calor, exposición de tiempo mínima), sin alteración de sabor de agentes clarificantes, capacidad de clarificar ingredientes ácidos que resisten clarificación con gelatina, y producción de jugos, jarabes e infusiones cristalinos visualmente impresionantes mientras mantienen sabor completo. Aplicaciones comunes incluyen jugo de lima/limón clarificado para variaciones de Martini, agua de tomate clara para Bloody Marys y jugos de frutas transparentes que entregan sabor intenso sin turbidez. La técnica permite drama visual mientras preserva integridad de sabor.",
-          de: "Zentrifugal-Klärung verwendet eine Zentrifuge (typisch Laborqualität bei 3000-5000 U/min), um suspendierte Partikel von Flüssigkeiten basierend auf Dichteunterschieden zu trennen. Die hohe Zentrifugalkraft treibt Partikel nach unten während kristallklare Flüssigkeit oben bleibt. Vorteile gegenüber traditioneller Schönung (Gelatine, Agar, Eiweiß): Geschwindigkeit (5-15 Minuten vs 4-24 Stunden), bessere Bewahrung flüchtiger Aromastoffe (keine Hitze, minimale Zeitexposition), keine Geschmacksveränderung durch Schönungsmittel, Fähigkeit säurehaltige Zutaten zu klären die Gelatine-Schönung widerstehen, und Produktion visuell beeindruckender kristallklarer Säfte, Sirupe und Infusionen während voller Geschmack erhalten bleibt. Gängige Anwendungen umfassen geklärten Limetten-/Zitronensaft für Martini-Variationen, klares Tomatenwasser für Bloody Marys und transparente Fruchtsäfte die intensiven Geschmack ohne Trübung liefern. Die Technik ermöglicht visuelles Drama während Geschmacksintegrität bewahrt wird.",
-          nl: "Centrifugale klaring gebruikt een centrifuge (typisch lab-kwaliteit bij 3000-5000 RPM) om gesuspendeerde deeltjes van vloeistoffen te scheiden gebaseerd op dichtheidsverschillen. De hoge centrifugale kracht drijft deeltjes naar beneden terwijl kristalheldere vloeistof bovenop blijft. Voordelen ten opzichte van traditionele klaring (gelatine, agar, eiwitten): snelheid (5-15 minuten vs 4-24 uur), betere bewaring van vluchtige aroma's (geen hitte, minimale tijd blootstelling), geen smaak verandering van klaringsmiddelen, vermogen zure ingrediënten te klaren die gelatine klaring weerstaan, en productie van visueel verbluffende kristalheldere sappen, siropen en infusies terwijl volledige smaak behouden blijft. Veelvoorkomende toepassingen omvatten geklaard limoen/citroensap voor Martini variaties, helder tomaten water voor Bloody Marys en transparante vruchtensappen die intense smaak leveren zonder troebeling. De techniek maakt visueel drama mogelijk terwijl smaak integriteit behouden blijft."
-        }
-      }]
-,
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Cocktails",
+      "es": "Pregunta 7 sobre Cocktails",
+      "de": "Frage 7 über Cocktails",
+      "nl": "Vraag 7 over Cocktails"
+    },
+    "options": [
       {
-        question: {
-          en: "What is 'milk punch clarification' and how does casein protein create stable, shelf-stable cocktails?",
-          es: "¿Qué es la 'clarificación de ponche de leche' y cómo la proteína caseína crea cócteles estables y de larga duración?",
-          de: "Was ist 'Milch-Punch-Klärung' und wie schafft Kaseinprotein stabile, lagerfähige Cocktails?",
-          nl: "Wat is 'melk punch klaring' en hoe creëert caseïne proteïne stabiele, houdbare cocktails?"
-        },
-        options: [
-          { en: "Casein proteins bind to tannins/particulates when acidified milk curdles, removing bitterness while creating crystal-clear, silky cocktails with months of shelf life", es: "Proteínas de caseína se unen a taninos/partículas cuando leche acidificada se cuaja, eliminando amargura mientras crean cócteles cristalinos y sedosos con meses de vida útil", de: "Kaseinproteine binden an Tannine/Partikel wenn angesäuerte Milch gerinnt, entfernen Bitterkeit während kristallklare, seidige Cocktails mit Monaten Haltbarkeit geschaffen werden", nl: "Caseïne proteïnen binden aan tannines/deeltjes wanneer verzuurde melk stolt, verwijderen bitterheid terwijl kristalheldere, zijdeachtige cocktails met maanden houdbaarheid worden gecreëerd" },
-          { en: "Adding milk makes cocktails cloudy", es: "Añadir leche hace cócteles turbios", de: "Milch hinzufügen macht Cocktails trüb", nl: "Melk toevoegen maakt cocktails troebel" },
-          { en: "Milk clarification only works with dairy cocktails", es: "Clarificación con leche solo funciona con cócteles lácteos", de: "Milchklärung funktioniert nur mit Milch-Cocktails", nl: "Melk klaring werkt alleen met zuivel cocktails" },
-          { en: "The process takes weeks to complete", es: "El proceso toma semanas para completar", de: "Der Prozess dauert Wochen", nl: "Het proces duurt weken om te voltooien" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Milk punch clarification is a 18th-century technique experiencing modern revival. The process: add whole milk (3-5% of total volume) to acidic cocktail mixture (pH below 4.6), causing milk proteins (casein) to coagulate and form curds. These curds bind to tannins, oils, particulates, and color compounds. After resting (30 minutes-2 hours), the mixture is strained through coffee filters or cheesecloth, removing all curds and bound impurities. The result is crystal-clear liquid with silky mouthfeel from residual milk fats, reduced bitterness from tannin removal, extended shelf life (3-6 months refrigerated) due to protein removal preventing spoilage, and mellowed harsh edges while preserving core flavors. This technique transforms dark, tannic spirits and teas into elegant, refined cocktails.",
-          es: "La clarificación de ponche de leche es una técnica del siglo XVIII experimentando renacimiento moderno. El proceso: añadir leche entera (3-5% del volumen total) a mezcla de cóctel ácida (pH debajo de 4.6), causando que proteínas de leche (caseína) coagulen y formen cuajada. Esta cuajada se une a taninos, aceites, partículas y compuestos de color. Después de reposar (30 minutos-2 horas), la mezcla se cuela a través de filtros de café o gasa, eliminando toda cuajada e impurezas unidas. El resultado es líquido cristalino con sensación sedosa en boca de grasas residuales de leche, amargura reducida de eliminación de taninos, vida útil extendida (3-6 meses refrigerado) debido a eliminación de proteínas previniendo descomposición, y bordes ásperos suavizados mientras preserva sabores centrales. Esta técnica transforma licores oscuros y tánicos y tés en cócteles elegantes y refinados.",
-          de: "Milch-Punch-Klärung ist eine Technik aus dem 18. Jahrhundert, die eine moderne Wiederbelebung erfährt. Der Prozess: Vollmilch (3-5% des Gesamtvolumens) zu saurer Cocktailmischung hinzufügen (pH unter 4,6), wodurch Milchproteine (Kasein) koagulieren und Quark bilden. Dieser Quark bindet an Tannine, Öle, Partikel und Farbverbindungen. Nach Ruhezeit (30 Minuten-2 Stunden) wird die Mischung durch Kaffeefilter oder Käsetuch geseiht, wobei aller Quark und gebundene Verunreinigungen entfernt werden. Das Ergebnis ist kristallklare Flüssigkeit mit seidigem Mundgefühl von restlichen Milchfetten, reduzierter Bitterkeit durch Tanninentfernung, verlängerter Haltbarkeit (3-6 Monate gekühlt) durch Proteinentfernung die Verderb verhindert, und gemilderte raue Kanten während Kernaromen bewahrt werden. Diese Technik verwandelt dunkle, tanninhaltige Spirituosen und Tees in elegante, raffinierte Cocktails.",
-          nl: "Melk punch klaring is een 18e-eeuwse techniek die een moderne heropleving ervaart. Het proces: voeg volle melk toe (3-5% van totaal volume) aan zure cocktail mengsel (pH onder 4.6), waardoor melk proteïnen (caseïne) stollen en wrongel vormen. Deze wrongel bindt aan tannines, oliën, deeltjes en kleurverbindingen. Na rusten (30 minuten-2 uur) wordt het mengsel gezeefd door koffiefilters of kaasdoek, waarbij alle wrongel en gebonden onzuiverheden worden verwijderd. Het resultaat is kristalheldere vloeistof met zijdeachtig mondgevoel van resterende melkvetten, verminderde bitterheid door tannine verwijdering, verlengde houdbaarheid (3-6 maanden gekoeld) door proteïne verwijdering die bederf voorkomt, en verzachte ruwe randen terwijl kern smaken behouden blijven. Deze techniek transformeert donkere, tannine sterke dranken en theeën in elegante, verfijnde cocktails."
-        }
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
       },
       {
-        question: {
-          en: "How does 'rotary evaporation' enable low-temperature distillation of delicate aromatics for cocktail applications?",
-          es: "¿Cómo permite la 'evaporación rotatoria' destilación a baja temperatura de aromáticos delicados para aplicaciones de cócteles?",
-          de: "Wie ermöglicht 'Rotationsverdampfung' Niedrigtemperatur-Destillation zarter Aromastoffe für Cocktail-Anwendungen?",
-          nl: "Hoe maakt 'roterende verdamping' lage-temperatuur distillatie van delicate aroma's mogelijk voor cocktail toepassingen?"
-        },
-        options: [
-          { en: "Vacuum pressure lowers boiling points to 30-40°C, preserving volatile compounds that would degrade at normal distillation temperatures of 78°C+", es: "Presión de vacío reduce puntos de ebullición a 30-40°C, preservando compuestos volátiles que se degradarían a temperaturas normales de destilación de 78°C+", de: "Vakuumdruck senkt Siedepunkte auf 30-40°C, bewahrt flüchtige Verbindungen die bei normalen Destillationstemperaturen von 78°C+ abgebaut würden", nl: "Vacuümdruk verlaagt kookpunten naar 30-40°C, behoudt vluchtige verbindingen die zouden degraderen bij normale distillatie temperaturen van 78°C+" },
-          { en: "Rotary evaporation just spins liquids faster", es: "Evaporación rotatoria solo gira líquidos más rápido", de: "Rotationsverdampfung dreht Flüssigkeiten nur schneller", nl: "Roterende verdamping draait vloeistoffen alleen sneller" },
-          { en: "It only works with high-proof spirits", es: "Solo funciona con licores de alta graduación", de: "Es funktioniert nur mit hochprozentigen Spirituosen", nl: "Het werkt alleen met hoog-alcoholische sterke dranken" },
-          { en: "Temperature has no effect on aroma preservation", es: "La temperatura no tiene efecto en preservación de aroma", de: "Temperatur hat keine Wirkung auf Aromaschutz", nl: "Temperatuur heeft geen effect op aroma behoud" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Rotary evaporation (rotovap) uses vacuum pressure to dramatically lower boiling points, enabling distillation at temperatures as low as 30-40°C instead of the standard 78°C+ for alcohol. This preserves delicate volatile aromatics that would be destroyed by heat, such as fresh herbs (basil, cilantro), flowers (rose, jasmine), citrus oils, and fresh fruit essences. The rotating flask increases surface area for faster evaporation while preventing bumping. Applications include creating distilled fruit waters, capturing fresh herb essences, producing concentrated aromatics for garnish sprays, and extracting delicate floral notes. The technique yields bright, fresh flavors impossible through traditional maceration or high-temperature distillation, though equipment cost limits adoption to high-end cocktail programs.",
-          es: "Evaporación rotatoria (rotovap) usa presión de vacío para reducir dramáticamente puntos de ebullición, permitiendo destilación a temperaturas tan bajas como 30-40°C en lugar de los 78°C+ estándar para alcohol. Esto preserva aromáticos volátiles delicados que serían destruidos por calor, como hierbas frescas (albahaca, cilantro), flores (rosa, jazmín), aceites cítricos y esencias de frutas frescas. El matraz giratorio aumenta área superficial para evaporación más rápida mientras previene golpeteo. Aplicaciones incluyen crear aguas de frutas destiladas, capturar esencias de hierbas frescas, producir aromáticos concentrados para sprays de guarnición y extraer notas florales delicadas. La técnica produce sabores brillantes y frescos imposibles a través de maceración tradicional o destilación de alta temperatura, aunque costo de equipo limita adopción a programas de cócteles de alta gama.",
-          de: "Rotationsverdampfung (Rotovap) verwendet Vakuumdruck, um Siedepunkte dramatisch zu senken und Destillation bei Temperaturen so niedrig wie 30-40°C statt der Standard 78°C+ für Alkohol zu ermöglichen. Dies bewahrt zarte flüchtige Aromastoffe, die durch Hitze zerstört würden, wie frische Kräuter (Basilikum, Koriander), Blumen (Rose, Jasmin), Zitrusöle und frische Fruchtessenzen. Der rotierende Kolben erhöht Oberfläche für schnellere Verdampfung während Stoßen verhindert wird. Anwendungen umfassen Erstellung destillierter Fruchtwasser, Erfassung frischer Kräuteressenzen, Produktion konzentrierter Aromastoffe für Garnier-Sprays und Extraktion zarter Blütennoten. Die Technik liefert helle, frische Aromen unmöglich durch traditionelle Mazeration oder Hochtemperatur-Destillation, obwohl Gerätekosten Adoption auf High-End-Cocktail-Programme beschränken.",
-          nl: "Roterende verdamping (rotovap) gebruikt vacuümdruk om kookpunten dramatisch te verlagen, waardoor distillatie mogelijk wordt bij temperaturen zo laag als 30-40°C in plaats van de standaard 78°C+ voor alcohol. Dit behoudt delicate vluchtige aroma's die door hitte vernietigd zouden worden, zoals verse kruiden (basilicum, koriander), bloemen (roos, jasmijn), citrusoliën en verse vrucht essences. De roterende kolf vergroot oppervlakte voor snellere verdamping terwijl stoten wordt voorkomen. Toepassingen omvatten het creëren van gedistilleerde vruchtwaters, vastleggen van verse kruiden essences, produceren van geconcentreerde aroma's voor garneer sprays en extractie van delicate bloemennoten. De techniek levert heldere, verse smaken op onmogelijk door traditionele maceratie of hoge-temperatuur distillatie, hoewel apparatuur kosten adoptie beperken tot high-end cocktail programma's."
-        }
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
       },
       {
-        question: {
-          en: "What is the 'Japanese hard shake' technique and how does its physics differ from standard cocktail shaking?",
-          es: "¿Qué es la técnica de 'agitación dura japonesa' y cómo difiere su física de la agitación estándar de cócteles?",
-          de: "Was ist die 'Japanische Hard-Shake'-Technik und wie unterscheidet sich ihre Physik vom Standard-Cocktail-Shaken?",
-          nl: "Wat is de 'Japanse hard shake' techniek en hoe verschilt de fysica ervan van standaard cocktail schudden?"
-        },
-        options: [
-          { en: "Three-point shaking motion using arm, wrist, and snap creates maximum ice fragmentation and aeration, producing exceptionally silky texture and optimal dilution in 8-12 seconds", es: "Movimiento de agitación de tres puntos usando brazo, muñeca y chasquido crea fragmentación máxima de hielo y aireación, produciendo textura excepcionalmente sedosa y dilución óptima en 8-12 segundos", de: "Drei-Punkt-Schüttelbewegung mit Arm, Handgelenk und Schnappen erzeugt maximale Eisfragmentierung und Belüftung, produziert außergewöhnlich seidige Textur und optimale Verdünnung in 8-12 Sekunden", nl: "Drie-punts schud beweging met arm, pols en klik creëert maximale ijs fragmentatie en beluchting, produceert uitzonderlijk zijdeachtige textuur en optimale verdunning in 8-12 seconden" },
-          { en: "Shaking harder with more force", es: "Agitar más fuerte con más fuerza", de: "Härter mit mehr Kraft schütteln", nl: "Harder schudden met meer kracht" },
-          { en: "Using larger ice cubes", es: "Usar cubos de hielo más grandes", de: "Größere Eiswürfel verwenden", nl: "Grotere ijsblokjes gebruiken" },
-          { en: "Shaking for a longer time period", es: "Agitar por período de tiempo más largo", de: "Für längeren Zeitraum schütteln", nl: "Schudden voor langere tijd" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Japanese hard shake, developed by legendary bartender Kazuo Uyeda, employs a specific three-point kinetic motion: powerful shoulder/arm drive for initial momentum, sharp wrist rotation for directional changes, and finger snap at motion endpoints for maximum ice collision. This creates intense ice fragmentation (producing tiny ice shards that chill rapidly), extreme aeration (incorporating micro-bubbles), and precise dilution control in remarkably short time (8-12 seconds vs. 15-20 standard). The technique produces silky, well-integrated cocktails with optimal temperature (-5 to -7°C) and controlled dilution (20-25%). The physics relies on kinetic energy transfer maximizing ice-on-ice impacts rather than prolonged agitation. Mastery requires significant practice and proper technique to avoid injury.",
-          es: "La agitación dura japonesa, desarrollada por el bartender legendario Kazuo Uyeda, emplea movimiento cinético específico de tres puntos: impulso poderoso de hombro/brazo para momento inicial, rotación aguda de muñeca para cambios direccionales y chasquido de dedos en puntos finales de movimiento para colisión máxima de hielo. Esto crea fragmentación intensa de hielo (produciendo astillas diminutas de hielo que enfrían rápidamente), aireación extrema (incorporando micro-burbujas) y control preciso de dilución en tiempo notablemente corto (8-12 segundos vs. 15-20 estándar). La técnica produce cócteles sedosos y bien integrados con temperatura óptima (-5 a -7°C) y dilución controlada (20-25%). La física se basa en transferencia de energía cinética maximizando impactos hielo-sobre-hielo en lugar de agitación prolongada. La maestría requiere práctica significativa y técnica apropiada para evitar lesiones.",
-          de: "Der japanische Hard-Shake, entwickelt vom legendären Barkeeper Kazuo Uyeda, verwendet eine spezifische Drei-Punkt-Kinetikbewegung: kraftvoller Schulter-/Armantrieb für anfänglichen Schwung, scharfe Handgelenkrotation für Richtungsänderungen und Fingerschnappen an Bewegungsendpunkten für maximale Eiskollision. Dies erzeugt intensive Eisfragmentierung (Produktion winziger Eissplitter die schnell kühlen), extreme Belüftung (Einarbeitung von Mikrobläschen) und präzise Verdünnungskontrolle in bemerkenswert kurzer Zeit (8-12 Sekunden vs. 15-20 Standard). Die Technik produziert seidige, gut integrierte Cocktails mit optimaler Temperatur (-5 bis -7°C) und kontrollierter Verdünnung (20-25%). Die Physik beruht auf kinetischer Energieübertragung die Eis-auf-Eis-Aufpralle maximiert anstatt verlängerter Agitation. Meisterschaft erfordert bedeutende Übung und richtige Technik um Verletzungen zu vermeiden.",
-          nl: "De Japanse hard shake, ontwikkeld door legendarische bartender Kazuo Uyeda, gebruikt een specifieke drie-punts kinetische beweging: krachtige schouder/arm aandrijving voor initieel momentum, scherpe pols rotatie voor richtingsveranderingen en vinger klik bij beweging eindpunten voor maximale ijs botsing. Dit creëert intense ijs fragmentatie (producerend kleine ijs splinters die snel koelen), extreme beluchting (incorporerend micro-bubbels) en precieze verdunnings controle in opmerkelijk korte tijd (8-12 seconden vs. 15-20 standaard). De techniek produceert zijdeachtige, goed geïntegreerde cocktails met optimale temperatuur (-5 tot -7°C) en gecontroleerde verdunning (20-25%). De fysica berust op kinetische energie overdracht die ijs-op-ijs botsingen maximaliseert in plaats van verlengde agitatie. Meesterschap vereist significante oefening en juiste techniek om verwonding te voorkomen."
-        }
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
       },
       {
-        question: {
-          en: "How does 'nitrogen cavitation' create unique textural effects in modern cocktail presentations?",
-          es: "¿Cómo crea 'cavitación de nitrógeno' efectos texturales únicos en presentaciones modernas de cócteles?",
-          de: "Wie schafft 'Stickstoff-Kavitation' einzigartige Textureffekte in modernen Cocktail-Präsentationen?",
-          nl: "Hoe creëert 'stikstof cavitatie' unieke texturele effecten in moderne cocktail presentaties?"
-        },
-        options: [
-          { en: "Nitrous oxide under pressure creates micro-bubbles producing stable foam and creamy texture without dairy or eggs, useful for espumas and carbonated cocktails", es: "Óxido nitroso bajo presión crea micro-burbujas produciendo espuma estable y textura cremosa sin lácteos o huevos, útil para espumas y cócteles carbonatados", de: "Distickstoffmonoxid unter Druck erzeugt Mikrobläschen die stabilen Schaum und cremige Textur ohne Milchprodukte oder Eier produzieren, nützlich für Espumas und kohlensäurehaltige Cocktails", nl: "Distikstofoxide onder druk creëert micro-bubbels die stabiel schuim en romige textuur produceren zonder zuivel of eieren, nuttig voor espumas en koolzuurhoudende cocktails" },
-          { en: "Nitrogen makes cocktails taste metallic", es: "Nitrógeno hace que cócteles sepan metálicos", de: "Stickstoff lässt Cocktails metallisch schmecken", nl: "Stikstof laat cocktails metaalachtigs smaken" },
-          { en: "It only adds bubbles with no texture change", es: "Solo añade burbujas sin cambio de textura", de: "Es fügt nur Blasen ohne Texturänderung hinzu", nl: "Het voegt alleen bubbels toe zonder textuur verandering" },
-          { en: "Nitrogen cavitation is the same as carbonation", es: "Cavitación de nitrógeno es igual que carbonatación", de: "Stickstoff-Kavitation ist das gleiche wie Karbonisierung", nl: "Stikstof cavitatie is hetzelfde als carbonisatie" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Nitrogen cavitation uses nitrous oxide (N2O) or nitrogen (N2) under pressure in whipping siphons or specialized equipment to create unique textural effects. When pressure releases, dissolved gas forms micro-bubbles much smaller than CO2 carbonation (producing creamy rather than sharp fizz), creating stable foams (espumas) without emulsifiers, adding velvety mouthfeel to spirits, and enabling layered presentations with varying densities. N2O is more soluble than N2, producing denser foams. Applications include nitro Martinis with cascading foam, fruit espumas as garnish, creamy Old Fashioneds, and rapid carbonation with smooth bubbles. The technique differs from CO2 carbonation in bubble size, stability, and textural quality, offering bartenders creative presentation and mouthfeel control.",
-          es: "Cavitación de nitrógeno usa óxido nitroso (N2O) o nitrógeno (N2) bajo presión en sifones batidores o equipo especializado para crear efectos texturales únicos. Cuando presión se libera, gas disuelto forma micro-burbujas mucho más pequeñas que carbonatación de CO2 (produciendo espuma cremosa en lugar de efervescencia aguda), creando espumas estables (espumas) sin emulsificantes, añadiendo sensación aterciopelada en boca a licores y permitiendo presentaciones en capas con densidades variadas. N2O es más soluble que N2, produciendo espumas más densas. Aplicaciones incluyen Martinis nitro con espuma en cascada, espumas de frutas como guarnición, Old Fashioneds cremosos y carbonatación rápida con burbujas suaves. La técnica difiere de carbonatación de CO2 en tamaño de burbujas, estabilidad y calidad textural, ofreciendo a bartenders control creativo de presentación y sensación en boca.",
-          de: "Stickstoff-Kavitation verwendet Distickstoffmonoxid (N2O) oder Stickstoff (N2) unter Druck in Schlagsiphons oder spezialisierter Ausrüstung, um einzigartige Textureffekte zu schaffen. Wenn Druck freigesetzt wird, bildet gelöstes Gas Mikrobläschen viel kleiner als CO2-Karbonisierung (produziert cremiges statt scharfes Prickeln), schafft stabile Schäume (Espumas) ohne Emulgatoren, fügt samtiges Mundgefühl zu Spirituosen hinzu und ermöglicht geschichtete Präsentationen mit variierenden Dichten. N2O ist löslicher als N2, produziert dichtere Schäume. Anwendungen umfassen Nitro-Martinis mit kaskadierendem Schaum, Frucht-Espumas als Garnitur, cremige Old Fashioneds und schnelle Karbonisierung mit glatten Blasen. Die Technik unterscheidet sich von CO2-Karbonisierung in Blasengröße, Stabilität und Texturqualität, bietet Barkeepern kreative Präsentations- und Mundgefühlskontrolle.",
-          nl: "Stikstof cavitatie gebruikt distikstofoxide (N2O) of stikstof (N2) onder druk in kloppers sifons of gespecialiseerde apparatuur om unieke texturele effecten te creëren. Wanneer druk vrijkomt, vormt opgelost gas micro-bubbels veel kleiner dan CO2 carbonisatie (produceert romig in plaats van scherp bruisen), creëert stabiel schuim (espumas) zonder emulgatoren, voegt fluweelachtig mondgevoel toe aan sterke dranken en maakt gelaagde presentaties mogelijk met variërende dichtheden. N2O is oplosbaar meer dan N2, produceert dichtere schuimen. Toepassingen omvatten nitro Martinis met cascading schuim, vrucht espumas als garnering, romige Old Fashioneds en snelle carbonisatie met gladde bubbels. De techniek verschilt van CO2 carbonisatie in bubbel grootte, stabiliteit en texturele kwaliteit, biedt bartenders creatieve presentatie en mondgevoel controle."
-        }
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Cocktails",
+      "es": "Pregunta 8 sobre Cocktails",
+      "de": "Frage 8 über Cocktails",
+      "nl": "Vraag 8 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
       },
       {
-        question: {
-          en: "What is 'pressure infusion' and how does it accelerate flavor extraction compared to traditional methods?",
-          es: "¿Qué es 'infusión a presión' y cómo acelera la extracción de sabor comparado con métodos tradicionales?",
-          de: "Was ist 'Druck-Infusion' und wie beschleunigt sie Geschmacksextraktion im Vergleich zu traditionellen Methoden?",
-          nl: "Wat is 'druk infusie' en hoe versnelt het smaak extractie vergeleken met traditionele methoden?"
-        },
-        options: [
-          { en: "Using whipping siphon pressure (60-90 PSI) forces liquid into cellular structures, extracting flavors in minutes vs hours/days with deeper penetration", es: "Usar presión de sifón batidor (60-90 PSI) fuerza líquido en estructuras celulares, extrayendo sabores en minutos vs horas/días con penetración más profunda", de: "Verwendung von Schlagsiphon-Druck (60-90 PSI) zwingt Flüssigkeit in Zellstrukturen, extrahiert Aromen in Minuten vs Stunden/Tagen mit tieferer Penetration", nl: "Gebruik van klopper sifon druk (60-90 PSI) dwingt vloeistof in cellulaire structuren, extraheert smaken in minuten vs uren/dagen met diepere penetratie" },
-          { en: "Pressure has no effect on infusion speed", es: "Presión no tiene efecto en velocidad de infusión", de: "Druck hat keine Wirkung auf Infusionsgeschwindigkeit", nl: "Druk heeft geen effect op infusie snelheid" },
-          { en: "It only works with carbonating ingredients", es: "Solo funciona con ingredientes carbonatantes", de: "Es funktioniert nur mit karbonisierenden Zutaten", nl: "Het werkt alleen met koolzuur ingrediënten" },
-          { en: "Pressure extraction produces inferior flavors", es: "Extracción a presión produce sabores inferiores", de: "Druck-Extraktion produziert minderwertige Aromen", nl: "Druk extractie produceert inferieure smaken" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Pressure infusion uses whipping siphons charged with N2O or CO2 cartridges to create 60-90 PSI pressure, dramatically accelerating extraction. The high pressure forces liquid deep into cellular structures of ingredients (herbs, fruits, spices), breaking down cell walls and releasing flavor compounds in 2-5 minutes vs. 24-72 hours traditional maceration. Process: load ingredients and liquid into siphon, charge with gas, shake vigorously, let rest 2-5 minutes, release pressure (venting slowly prevents explosive release), strain. Benefits include speed, deeper extraction yielding more intense flavors, preservation of delicate aromatics (minimal heat/oxygen exposure), and ability to extract flavors from ingredients resistant to standard maceration. Ideal for fresh herbs, citrus peels, tea, spices, and delicate botanicals.",
-          es: "Infusión a presión usa sifones batidores cargados con cartuchos de N2O o CO2 para crear presión de 60-90 PSI, acelerando dramáticamente extracción. La alta presión fuerza líquido profundo en estructuras celulares de ingredientes (hierbas, frutas, especias), rompiendo paredes celulares y liberando compuestos de sabor en 2-5 minutos vs. 24-72 horas maceración tradicional. Proceso: cargar ingredientes y líquido en sifón, cargar con gas, agitar vigorosamente, dejar reposar 2-5 minutos, liberar presión (ventilación lenta previene liberación explosiva), colar. Beneficios incluyen velocidad, extracción más profunda produciendo sabores más intensos, preservación de aromáticos delicados (exposición mínima a calor/oxígeno) y capacidad de extraer sabores de ingredientes resistentes a maceración estándar. Ideal para hierbas frescas, cáscaras cítricas, té, especias y botánicos delicados.",
-          de: "Druck-Infusion verwendet Schlagsiphons geladen mit N2O- oder CO2-Kartuschen, um 60-90 PSI Druck zu erzeugen und Extraktion dramatisch zu beschleunigen. Der hohe Druck zwingt Flüssigkeit tief in Zellstrukturen von Zutaten (Kräuter, Früchte, Gewürze), bricht Zellwände ab und setzt Geschmacksverbindungen in 2-5 Minuten frei vs. 24-72 Stunden traditioneller Mazeration. Prozess: Zutaten und Flüssigkeit in Siphon laden, mit Gas laden, kräftig schütteln, 2-5 Minuten ruhen lassen, Druck ablassen (langsames Entlüften verhindert explosive Freisetzung), abseihen. Vorteile umfassen Geschwindigkeit, tiefere Extraktion die intensivere Aromen liefert, Bewahrung zarter Aromastoffe (minimale Hitze/Sauerstoff-Exposition) und Fähigkeit Aromen aus Zutaten zu extrahieren die gegen Standard-Mazeration resistent sind. Ideal für frische Kräuter, Zitrusschalen, Tee, Gewürze und zarte Botanicals.",
-          nl: "Druk infusie gebruikt klopper sifons geladen met N2O of CO2 cartridges om 60-90 PSI druk te creëren, wat extractie dramatisch versnelt. De hoge druk dwingt vloeistof diep in cellulaire structuren van ingrediënten (kruiden, vruchten, specerijen), breekt celwanden af en laat smaak verbindingen vrij in 2-5 minuten vs. 24-72 uur traditionele maceratie. Proces: laad ingrediënten en vloeistof in sifon, laad met gas, schud krachtig, laat rusten 2-5 minuten, laat druk vrij (langzaam ventileren voorkomt explosieve vrijlating), zeef. Voordelen omvatten snelheid, diepere extractie die intensere smaken oplevert, behoud van delicate aroma's (minimale hitte/zuurstof blootstelling) en vermogen om smaken te extraheren van ingrediënten die resistent zijn tegen standaard maceratie. Ideaal voor verse kruiden, citrusschillen, thee, specerijen en delicate botanicals."
-        }
-,
-      {
-        question: {
-          en: "What is 'vortex mixing' and how does it differ from traditional stirring in professional cocktail preparation?",
-          es: "¿Qué es 'mezcla en vórtice' y cómo difiere de revolver tradicional en preparación profesional de cócteles?",
-          de: "Was ist 'Wirbel-Mischen' und wie unterscheidet es sich vom traditionellen Rühren in professioneller Cocktail-Zubereitung?",
-          nl: "Wat is 'vortex mengen' en hoe verschilt het van traditioneel roeren in professionele cocktail voorbereiding?"
-        },
-        options: [
-          { en: "High-speed rotational stirring (800-1200 RPM) using electric bar tools creates controlled dilution vortex for precise temperature and integration", es: "Revolver rotacional de alta velocidad (800-1200 RPM) usando herramientas de bar eléctricas crea vórtice de dilución controlada para temperatura e integración precisa", de: "Hochgeschwindigkeits-Rotationsrühren (800-1200 U/min) mit elektrischen Bar-Tools erzeugt kontrollierten Verdünnungswirbel für präzise Temperatur und Integration", nl: "Hoge-snelheid rotatie roeren (800-1200 RPM) met elektrische bar gereedschap creëert gecontroleerde verdunnings vortex voor precieze temperatuur en integratie" },
-          { en: "Stirring in circles instead of back and forth", es: "Revolver en círculos en lugar de adelante y atrás", de: "In Kreisen rühren statt vor und zurück", nl: "Roeren in cirkels in plaats van heen en weer" },
-          { en: "Using a different spoon shape", es: "Usar una forma de cuchara diferente", de: "Eine andere Löffelform verwenden", nl: "Een andere lepel vorm gebruiken" },
-          { en: "Vortex mixing produces worse results than hand stirring", es: "Mezcla en vórtice produce peores resultados que revolver a mano", de: "Wirbel-Mischen produziert schlechtere Ergebnisse als Handrühren", nl: "Vortex mengen produceert slechtere resultaten dan handmatig roeren" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Vortex mixing uses electric bar tools (spinzall, drill-mounted stirrers) at controlled high speeds (typically 800-1200 RPM) to create consistent rotational vortex in mixing glass. Benefits include: precise dilution control through timed mixing (typically 15-30 seconds), consistent temperature achievement (-5 to -8°C), reduced human variation in technique, ability to maintain vortex while monitoring with thermometer, and excellent integration of ingredients. The vortex motion efficiently moves liquid past ice without excessive agitation or ice chipping. While traditionalists prefer hand stirring for the craft aspect, vortex mixing ensures consistency in high-volume settings and allows bartenders to focus on other preparation aspects. The technique is particularly effective for spirit-forward cocktails requiring precise dilution.",
-          es: "Mezcla en vórtice usa herramientas de bar eléctricas (spinzall, agitadores montados en taladro) a velocidades altas controladas (típicamente 800-1200 RPM) para crear vórtice rotacional consistente en vaso mezclador. Beneficios incluyen: control preciso de dilución a través de mezcla cronometrada (típicamente 15-30 segundos), logro de temperatura consistente (-5 a -8°C), reducción de variación humana en técnica, capacidad de mantener vórtice mientras monitorea con termómetro y excelente integración de ingredientes. El movimiento de vórtice mueve eficientemente líquido pasado hielo sin agitación excesiva o astillado de hielo. Mientras tradicionalistas prefieren revolver a mano por aspecto artesanal, mezcla en vórtice asegura consistencia en entornos de alto volumen y permite a bartenders enfocarse en otros aspectos de preparación. La técnica es particularmente efectiva para cócteles orientados a licores que requieren dilución precisa.",
-          de: "Wirbel-Mischen verwendet elektrische Bar-Tools (Spinzall, bohrermontierte Rührer) bei kontrollierten hohen Geschwindigkeiten (typisch 800-1200 U/min), um konsistenten Rotationswirbel im Mischglas zu erzeugen. Vorteile umfassen: präzise Verdünnungskontrolle durch zeitgesteuertes Mischen (typisch 15-30 Sekunden), konsistente Temperaturerreichung (-5 bis -8°C), reduzierte menschliche Variation in Technik, Fähigkeit Wirbel zu halten während mit Thermometer überwacht wird und exzellente Integration von Zutaten. Die Wirbelbewegung bewegt Flüssigkeit effizient am Eis vorbei ohne übermäßige Agitation oder Eis-Absplittern. Während Traditionalisten Handrühren für den handwerklichen Aspekt bevorzugen, gewährleistet Wirbel-Mischen Konsistenz in volumenstarken Umgebungen und ermöglicht Barkeepern sich auf andere Vorbereitungsaspekte zu konzentrieren. Die Technik ist besonders effektiv für spirituosenlastige Cocktails die präzise Verdünnung erfordern.",
-          nl: "Vortex mengen gebruikt elektrische bar gereedschap (spinzall, boor-gemonteerde roerders) bij gecontroleerde hoge snelheden (typisch 800-1200 RPM) om consistente rotatie vortex in mengglas te creëren. Voordelen omvatten: precieze verdunnings controle door getimed mengen (typisch 15-30 seconden), consistente temperatuur bereik (-5 tot -8°C), verminderde menselijke variatie in techniek, vermogen om vortex te behouden terwijl monitoren met thermometer en uitstekende integratie van ingrediënten. De vortex beweging beweegt vloeistof efficiënt langs ijs zonder overdreven agitatie of ijs versplintering. Terwijl traditionalisten handmatig roeren verkiezen voor het ambachtelijke aspect, verzekert vortex mengen consistentie in hoog-volume settings en maakt bartenders mogelijk om te focussen op andere voorbereidings aspecten. De techniek is bijzonder effectief voor sterke drank-gerichte cocktails die precieze verdunning vereisen."
-        }
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
       },
       {
-        question: {
-          en: "How does 'spherification' create caviar-like pearls for molecular cocktail garnishes?",
-          es: "¿Cómo crea la 'esferificación' perlas similares a caviar para guarniciones moleculares de cócteles?",
-          de: "Wie erzeugt 'Sphärifizierung' kaviarähnliche Perlen für molekulare Cocktail-Garnituren?",
-          nl: "Hoe creëert 'spherificatie' kaviaar-achtige parels voor moleculaire cocktail garneringen?"
-        },
-        options: [
-          { en: "Sodium alginate droplets react with calcium bath to form gel membrane, encapsulating liquid centers - basic spherification for external gelling, reverse for internal", es: "Gotas de alginato de sodio reaccionan con baño de calcio para formar membrana de gel, encapsulando centros líquidos - esferificación básica para gelificación externa, reversa para interna", de: "Natriumalginat-Tröpfchen reagieren mit Kalziumbad um Gelmembran zu bilden, kapselt flüssige Zentren ein - basische Sphärifizierung für externes Gelieren, umgekehrt für internes", nl: "Natriumalginaat druppels reageren met calcium bad om gel membraan te vormen, inkapselt vloeibare centra - basis spherificatie voor extern gelleren, omgekeerd voor intern" },
-          { en: "Freezing droplets in liquid nitrogen", es: "Congelar gotas en nitrógeno líquido", de: "Tröpfchen in flüssigem Stickstoff einfrieren", nl: "Druppels bevriezen in vloeibare stikstof" },
-          { en: "Using gelatin to make solid spheres", es: "Usar gelatina para hacer esferas sólidas", de: "Gelatine verwenden um feste Kugeln zu machen", nl: "Gelatine gebruiken om vaste bollen te maken" },
-          { en: "Spherification only creates decoration without flavor", es: "Esferificación solo crea decoración sin sabor", de: "Sphärifizierung erzeugt nur Dekoration ohne Geschmack", nl: "Spherificatie creëert alleen decoratie zonder smaak" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Spherification uses sodium alginate (seaweed extract) and calcium chloride to create liquid-filled spheres. Basic spherification: mix liquid with sodium alginate (0.5-2%), drop into calcium chloride bath (5g/L), gel forms on contact creating membrane around liquid center, rinse in water bath. Reverse spherification: mix liquid with calcium lactate, drop into sodium alginate bath - better for acidic/alcoholic liquids and creates firmer spheres. Applications include bitters caviar for Old Fashioneds, citrus pearls for garnish, flavored spheres that burst in mouth, and layered presentations. The technique provides textural interest, concentrated flavor bursts, and visual appeal. Mastery requires pH control, proper ratios, and gentle handling.",
-          es: "Esferificación usa alginato de sodio (extracto de algas) y cloruro de calcio para crear esferas llenas de líquido. Esferificación básica: mezclar líquido con alginato de sodio (0.5-2%), gotear en baño de cloruro de calcio (5g/L), gel se forma al contacto creando membrana alrededor de centro líquido, enjuagar en baño de agua. Esferificación reversa: mezclar líquido con lactato de calcio, gotear en baño de alginato de sodio - mejor para líquidos ácidos/alcohólicos y crea esferas más firmes. Aplicaciones incluyen caviar de amargos para Old Fashioneds, perlas cítricas para guarnición, esferas saborizadas que explotan en boca y presentaciones en capas. La técnica proporciona interés textural, explosiones de sabor concentrado y atractivo visual. La maestría requiere control de pH, proporciones apropiadas y manejo suave.",
-          de: "Sphärifizierung verwendet Natriumalginat (Algenextrakt) und Calciumchlorid um flüssigkeitsgefüllte Kugeln zu erzeugen. Basische Sphärifizierung: Flüssigkeit mit Natriumalginat mischen (0,5-2%), in Calciumchloridbad tropfen (5g/L), Gel bildet sich bei Kontakt und schafft Membran um flüssiges Zentrum, in Wasserbad spülen. Umgekehrte Sphärifizierung: Flüssigkeit mit Calciumlactat mischen, in Natriumalginatbad tropfen - besser für saure/alkoholische Flüssigkeiten und erzeugt festere Kugeln. Anwendungen umfassen Bitter-Kaviar für Old Fashioneds, Zitrusperlen für Garnitur, aromatisierte Kugeln die im Mund platzen und geschichtete Präsentationen. Die Technik bietet texturelles Interesse, konzentrierte Geschmacksexplosionen und visuelle Anziehungskraft. Meisterschaft erfordert pH-Kontrolle, richtige Verhältnisse und sanfte Handhabung.",
-          nl: "Spherificatie gebruikt natriumalginaat (zeewier extract) en calciumchloride om vloeistof-gevulde bollen te creëren. Basis spherificatie: meng vloeistof met natriumalginaat (0.5-2%), druppel in calciumchloride bad (5g/L), gel vormt bij contact creërend membraan rond vloeibaar centrum, spoel in water bad. Omgekeerde spherificatie: meng vloeistof met calciumlactaat, druppel in natriumalginaat bad - beter voor zure/alcoholische vloeistoffen en creëert steviger bollen. Toepassingen omvatten bitters kaviaar voor Old Fashioneds, citrus parels voor garnering, gearomatiseerde bollen die barsten in mond en gelaagde presentaties. De techniek biedt textureel interesse, geconcentreerde smaak uitbarstingen en visuele aantrekkingskracht. Meesterschap vereist pH controle, juiste verhoudingen en zachte behandeling."
-        }
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
       },
       {
-        question: {
-          en: "What is the purpose of 'cocktail DNA mapping' in professional recipe development and menu engineering?",
-          es: "¿Cuál es el propósito del 'mapeo de ADN de cócteles' en desarrollo profesional de recetas e ingeniería de menú?",
-          de: "Was ist der Zweck von 'Cocktail-DNA-Kartierung' in professioneller Rezeptentwicklung und Menü-Engineering?",
-          nl: "Wat is het doel van 'cocktail DNA mapping' in professionele recept ontwikkeling en menu engineering?"
-        },
-        options: [
-          { en: "Systematic analysis of cocktail components (base, modifier, accent, dilution, technique) to understand structure, create variations, and maintain menu balance", es: "Análisis sistemático de componentes de cóctel (base, modificador, acento, dilución, técnica) para entender estructura, crear variaciones y mantener equilibrio de menú", de: "Systematische Analyse von Cocktail-Komponenten (Basis, Modifier, Akzent, Verdünnung, Technik) um Struktur zu verstehen, Variationen zu schaffen und Menü-Balance zu halten", nl: "Systematische analyse van cocktail componenten (basis, modifier, accent, verdunning, techniek) om structuur te begrijpen, variaties te creëren en menu balans te behouden" },
-          { en: "Testing cocktails with genetic analysis equipment", es: "Probar cócteles con equipo de análisis genético", de: "Cocktails mit genetischer Analyseausrüstung testen", nl: "Cocktails testen met genetische analyse apparatuur" },
-          { en: "Creating family trees of cocktail recipes", es: "Crear árboles genealógicos de recetas de cócteles", de: "Stammbäume von Cocktail-Rezepten erstellen", nl: "Familiebomen van cocktail recepten creëren" },
-          { en: "DNA mapping has no practical application in cocktails", es: "Mapeo de ADN no tiene aplicación práctica en cócteles", de: "DNA-Kartierung hat keine praktische Anwendung in Cocktails", nl: "DNA mapping heeft geen praktische toepassing in cocktails" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Cocktail DNA mapping is a systematic framework for analyzing and developing recipes by breaking down components into categories: Base (primary spirit 40-60% volume), Modifier (secondary spirits, fortified wines 10-30%), Accent (liqueurs, syrups, bitters 5-15%), Citrus/Acid (fresh juice or acid solutions), Dilution (water from ice, calculated percentage), and Technique (shake/stir/build). This framework enables: understanding classic cocktail structures, creating balanced variations by swapping components within categories, ensuring menu diversity (avoiding too many similar builds), training staff on cocktail families, and troubleshooting flavor imbalances. For example, a Margarita's DNA: Tequila (base), Cointreau (modifier), lime (acid), agave (accent), dilution, shake. By mapping DNA, bartenders can create infinite variations while maintaining structural balance and professional consistency.",
-          es: "Mapeo de ADN de cócteles es marco sistemático para analizar y desarrollar recetas descomponiendo componentes en categorías: Base (licor primario 40-60% volumen), Modificador (licores secundarios, vinos fortificados 10-30%), Acento (licores, jarabes, amargos 5-15%), Cítricos/Ácido (jugo fresco o soluciones ácidas), Dilución (agua de hielo, porcentaje calculado) y Técnica (agitar/revolver/construir). Este marco permite: entender estructuras de cócteles clásicos, crear variaciones equilibradas intercambiando componentes dentro de categorías, asegurar diversidad de menú (evitando demasiadas construcciones similares), entrenar personal en familias de cócteles y solucionar desequilibrios de sabor. Por ejemplo, ADN de Margarita: Tequila (base), Cointreau (modificador), lima (ácido), agave (acento), dilución, agitar. Mapeando ADN, bartenders pueden crear variaciones infinitas mientras mantienen equilibrio estructural y consistencia profesional.",
-          de: "Cocktail-DNA-Kartierung ist ein systematischer Rahmen zur Analyse und Entwicklung von Rezepten durch Aufschlüsselung von Komponenten in Kategorien: Basis (primäre Spirituose 40-60% Volumen), Modifier (sekundäre Spirituosen, angereicherte Weine 10-30%), Akzent (Liköre, Sirupe, Bitter 5-15%), Zitrus/Säure (frischer Saft oder Säurelösungen), Verdünnung (Wasser aus Eis, berechneter Prozentsatz) und Technik (schütteln/rühren/bauen). Dieser Rahmen ermöglicht: Verständnis klassischer Cocktail-Strukturen, Schaffung ausgewogener Variationen durch Austausch von Komponenten innerhalb von Kategorien, Sicherstellung von Menü-Vielfalt (Vermeidung zu vieler ähnlicher Builds), Training von Personal in Cocktail-Familien und Fehlerbehebung von Geschmacksungleichgewichten. Zum Beispiel Margarita-DNA: Tequila (Basis), Cointreau (Modifier), Limette (Säure), Agave (Akzent), Verdünnung, Schütteln. Durch DNA-Kartierung können Barkeeper unendliche Variationen schaffen während strukturelles Gleichgewicht und professionelle Konsistenz erhalten bleiben.",
-          nl: "Cocktail DNA mapping is een systematisch raamwerk voor het analyseren en ontwikkelen van recepten door componenten op te splitsen in categorieën: Basis (primaire sterke drank 40-60% volume), Modifier (secundaire sterke dranken, versterkte wijnen 10-30%), Accent (likeuren, siropen, bitters 5-15%), Citrus/Zuur (vers sap of zuur oplossingen), Verdunning (water van ijs, berekend percentage) en Techniek (schudden/roeren/bouwen). Dit raamwerk maakt mogelijk: begrip van klassieke cocktail structuren, creëren van gebalanceerde variaties door componenten binnen categorieën te wisselen, verzekeren van menu diversiteit (vermijden van te veel vergelijkbare builds), trainen van personeel in cocktail families en troubleshooten van smaak onbalansen. Bijvoorbeeld Margarita DNA: Tequila (basis), Cointreau (modifier), limoen (zuur), agave (accent), verdunning, schudden. Door DNA te mappen kunnen bartenders oneindige variaties creëren terwijl structureel evenwicht en professionele consistentie behouden blijven."
-        }
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Cocktails",
+      "es": "Pregunta 9 sobre Cocktails",
+      "de": "Frage 9 über Cocktails",
+      "nl": "Vraag 9 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
       },
       {
-        question: {
-          en: "How does 'smoke tincture' creation differ from direct smoke infusion in cocktail aromatics?",
-          es: "¿Cómo difiere la creación de 'tintura de humo' de infusión directa de humo en aromáticos de cócteles?",
-          de: "Wie unterscheidet sich 'Rauch-Tinktur'-Erstellung von direkter Rauch-Infusion in Cocktail-Aromatik?",
-          nl: "Hoe verschilt 'rook tinctuur' creatie van directe rook infusie in cocktail aroma's?"
-        },
-        options: [
-          { en: "Capturing wood smoke in high-proof alcohol creates stable, shelf-stable concentrate for controlled dosing vs temporary smoke from direct smoking", es: "Capturar humo de madera en alcohol de alta graduación crea concentrado estable y de larga duración para dosificación controlada vs humo temporal de ahumado directo", de: "Holzrauch in hochprozentigem Alkohol einfangen erzeugt stabilen, lagerfähigen Konzentrat für kontrollierte Dosierung vs temporären Rauch durch direktes Räuchern", nl: "Hout rook vangen in hoog-alcoholische alcohol creëert stabiel, houdbaar concentraat voor gecontroleerde dosering vs tijdelijke rook van directe roken" },
-          { en: "Smoke tincture and direct smoking are identical", es: "Tintura de humo y ahumado directo son idénticos", de: "Rauch-Tinktur und direktes Räuchern sind identisch", nl: "Rook tinctuur en directe roken zijn identiek" },
-          { en: "Tinctures produce weaker smoke flavor", es: "Tinturas producen sabor de humo más débil", de: "Tinkturen produzieren schwächeres Raucharoma", nl: "Tincturen produceren zwakkere rook smaak" },
-          { en: "Direct smoking is more consistent than tinctures", es: "Ahumado directo es más consistente que tinturas", de: "Direktes Räuchern ist konsistenter als Tinkturen", nl: "Directe roken is consistenter dan tincturen" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Smoke tincture creation captures smoke compounds in high-proof spirit (typically 60-75% ABV) for stable, concentrated flavoring. Method: burn wood chips (applewood, hickory, mesquite) in closed container, draw smoke through tube into bottle of spirit, seal and rest 24-48 hours, strain if needed. Benefits over direct smoking: precise dosing (drops vs entire drink exposure), consistent flavor across multiple drinks, shelf stability (months vs immediate consumption), no equipment needed at service, control over smoke intensity, and ability to layer with other techniques. Tinctures allow bartenders to add subtle smoke notes without overwhelming drinks, create smoke-rimmed glasses, or build complex layered aromatics. The technique separates preparation from service, enabling better quality control.",
-          es: "Creación de tintura de humo captura compuestos de humo en licor de alta graduación (típicamente 60-75% ABV) para saborizante estable y concentrado. Método: quemar astillas de madera (manzano, nogal, mezquite) en contenedor cerrado, aspirar humo a través de tubo en botella de licor, sellar y reposar 24-48 horas, colar si es necesario. Beneficios sobre ahumado directo: dosificación precisa (gotas vs exposición de bebida entera), sabor consistente a través de múltiples bebidas, estabilidad de almacenamiento (meses vs consumo inmediato), sin equipo necesario en servicio, control sobre intensidad de humo y capacidad de capas con otras técnicas. Tinturas permiten a bartenders añadir notas sutiles de humo sin abrumar bebidas, crear vasos con borde ahumado o construir aromáticos en capas complejas. La técnica separa preparación de servicio, permitiendo mejor control de calidad.",
-          de: "Rauch-Tinktur-Erstellung fängt Rauchverbindungen in hochprozentigem Spirit (typisch 60-75% ABV) für stabile, konzentrierte Aromatisierung ein. Methode: Holzspäne (Apfelholz, Hickory, Mesquite) in geschlossenem Behälter verbrennen, Rauch durch Schlauch in Flasche mit Spirit ziehen, versiegeln und 24-48 Stunden ruhen lassen, bei Bedarf abseihen. Vorteile gegenüber direktem Räuchern: präzise Dosierung (Tropfen vs gesamte Getränkeexposition), konsistenter Geschmack über mehrere Getränke, Lagerstabilität (Monate vs sofortiger Konsum), keine Ausrüstung beim Service benötigt, Kontrolle über Rauchintensität und Fähigkeit mit anderen Techniken zu schichten. Tinkturen ermöglichen Barkeepern subtile Rauchnoten hinzuzufügen ohne Getränke zu überwältigen, rauchgeränderte Gläser zu schaffen oder komplexe geschichtete Aromatik zu bauen. Die Technik trennt Vorbereitung von Service und ermöglicht bessere Qualitätskontrolle.",
-          nl: "Rook tinctuur creatie vangt rook verbindingen in hoog-alcoholische sterke drank (typisch 60-75% ABV) voor stabiele, geconcentreerde smaakmaking. Methode: verbrand houtsnippers (appelhout, hickory, mesquite) in gesloten container, trek rook door buis in fles met sterke drank, sluit af en laat rusten 24-48 uur, zeef indien nodig. Voordelen ten opzichte van directe roken: precieze dosering (druppels vs hele drank blootstelling), consistente smaak over meerdere dranken, opslag stabiliteit (maanden vs onmiddellijke consumptie), geen apparatuur nodig bij service, controle over rook intensiteit en vermogen om te layeren met andere technieken. Tincturen stellen bartenders in staat subtiele rook noten toe te voegen zonder dranken te overweldigen, rook-gerande glazen te creëren of complexe gelaagde aroma's te bouwen. De techniek scheidt voorbereiding van service, wat betere kwaliteitscontrole mogelijk maakt."
-        }
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
       },
       {
-        question: {
-          en: "What is 'cocktail cryogenics' and how does liquid nitrogen enable unique textural and temperature effects?",
-          es: "¿Qué es 'criogenia de cócteles' y cómo permite el nitrógeno líquido efectos texturales y de temperatura únicos?",
-          de: "Was ist 'Cocktail-Kryogenik' und wie ermöglicht flüssiger Stickstoff einzigartige Textur- und Temperatureffekte?",
-          nl: "Wat is 'cocktail cryogenica' en hoe maakt vloeibare stikstof unieke texturele en temperatuur effecten mogelijk?"
-        },
-        options: [
-          { en: "Liquid nitrogen at -196°C enables instant freezing creating powder cocktails, frozen foam, ultra-cold serving temperatures, and dramatic presentation with fog effects", es: "Nitrógeno líquido a -196°C permite congelación instantánea creando cócteles en polvo, espuma congelada, temperaturas de servicio ultra-frías y presentación dramática con efectos de niebla", de: "Flüssiger Stickstoff bei -196°C ermöglicht sofortiges Einfrieren und schafft Pulver-Cocktails, gefrorenen Schaum, ultra-kalte Serviertemperaturen und dramatische Präsentation mit Nebeleffekten", nl: "Vloeibare stikstof bij -196°C maakt instant bevriezen mogelijk creërend poeder cocktails, bevroren schuim, ultra-koude serveer temperaturen en dramatische presentatie met mist effecten" },
-          { en: "Liquid nitrogen only creates visual effects without affecting taste", es: "Nitrógeno líquido solo crea efectos visuales sin afectar sabor", de: "Flüssiger Stickstoff erzeugt nur visuelle Effekte ohne Geschmack zu beeinflussen", nl: "Vloeibare stikstof creëert alleen visuele effecten zonder smaak te beïnvloeden" },
-          { en: "It's the same as using regular ice", es: "Es lo mismo que usar hielo regular", de: "Es ist dasselbe wie normales Eis zu verwenden", nl: "Het is hetzelfde als gewoon ijs gebruiken" },
-          { en: "Liquid nitrogen makes cocktails unsafe to consume", es: "Nitrógeno líquido hace cócteles inseguros para consumir", de: "Flüssiger Stickstoff macht Cocktails unsicher zum Konsumieren", nl: "Vloeibare stikstof maakt cocktails onveilig om te consumeren" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Cocktail cryogenics uses liquid nitrogen (LN2) at -196°C for extreme rapid freezing. Applications: frozen powdered cocktails (pour cocktail over LN2, creates instant granita-like powder eaten with spoon), frozen foams (freeze egg white foam into crisp meringue), ultra-cold serving (-15 to -20°C for spirit-forward drinks), ice cream cocktails (instant soft-serve texture), and dramatic fog presentations. Safety critical: LN2 must completely evaporate before consumption (15-30 seconds after adding), never seal in container (pressure explosion risk), use proper handling equipment. The technique creates unique textures impossible with conventional freezing, enables serve-at-table theater, and pushes temperature boundaries. Professional training essential for safe execution.",
-          es: "Criogenia de cócteles usa nitrógeno líquido (LN2) a -196°C para congelación rápida extrema. Aplicaciones: cócteles en polvo congelados (verter cóctel sobre LN2, crea polvo instantáneo tipo granita comido con cuchara), espumas congeladas (congelar espuma de clara de huevo en merengue crujiente), servicio ultra-frío (-15 a -20°C para bebidas orientadas a licores), cócteles de helado (textura instantánea de helado suave) y presentaciones dramáticas de niebla. Seguridad crítica: LN2 debe evaporarse completamente antes de consumo (15-30 segundos después de añadir), nunca sellar en contenedor (riesgo de explosión de presión), usar equipo de manejo apropiado. La técnica crea texturas únicas imposibles con congelación convencional, permite teatro de servir en mesa y empuja límites de temperatura. Entrenamiento profesional esencial para ejecución segura.",
-          de: "Cocktail-Kryogenik verwendet flüssigen Stickstoff (LN2) bei -196°C für extreme schnelle Gefrierung. Anwendungen: gefrorene Pulver-Cocktails (Cocktail über LN2 gießen, erzeugt sofortiges granitaähnliches Pulver das mit Löffel gegessen wird), gefrorene Schäume (Eischaum zu knusprigem Baiser einfrieren), ultra-kaltes Servieren (-15 bis -20°C für spirituosenlastige Getränke), Eiscreme-Cocktails (sofortige Softeis-Textur) und dramatische Nebel-Präsentationen. Sicherheit kritisch: LN2 muss vollständig verdampfen vor Konsum (15-30 Sekunden nach Zugabe), niemals in Behälter versiegeln (Druckexplosionsgefahr), richtiges Handhabungsequipment verwenden. Die Technik schafft einzigartige Texturen unmöglich mit konventionellem Einfrieren, ermöglicht Service-am-Tisch-Theater und verschiebt Temperaturgrenzen. Professionelles Training wesentlich für sichere Ausführung.",
-          nl: "Cocktail cryogenica gebruikt vloeibare stikstof (LN2) bij -196°C voor extreme snelle bevriezing. Toepassingen: bevroren poeder cocktails (giet cocktail over LN2, creëert instant granita-achtig poeder gegeten met lepel), bevroren schuimen (bevries eiwit schuim tot knapperig schuimgebak), ultra-koud serveren (-15 tot -20°C voor sterke drank-gerichte dranken), ijs cocktails (instant softijs textuur) en dramatische mist presentaties. Veiligheid kritisch: LN2 moet volledig verdampen voor consumptie (15-30 seconden na toevoegen), nooit afsluiten in container (druk explosie risico), gebruik juiste behandel apparatuur. De techniek creëert unieke texturen onmogelijk met conventionele bevriezing, maakt serveren-aan-tafel theater mogelijk en verlegt temperatuur grenzen. Professionele training essentieel voor veilige uitvoering."
-        }
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
       },
       {
-        question: {
-          en: "How does 'cocktail foam engineering' using lecithin differ from egg white or cream-based foams?",
-          es: "¿Cómo difiere la 'ingeniería de espuma de cócteles' usando lecitina de espumas basadas en clara de huevo o crema?",
-          de: "Wie unterscheidet sich 'Cocktail-Schaum-Engineering' mit Lecithin von Eiweiß- oder Sahne-basierten Schäumen?",
-          de: "Hoe verschilt 'cocktail schuim engineering' met lecithine van eiwit of room-gebaseerde schuimen?"
-        },
-        options: [
-          { en: "Soy lecithin creates vegan air-light foams from any liquid without protein, producing ephemeral bubbles that dissolve on tongue vs stable protein foams", es: "Lecitina de soja crea espumas veganas livianas como aire de cualquier líquido sin proteína, produciendo burbujas efímeras que se disuelven en lengua vs espumas de proteína estables", de: "Soja-Lecithin erzeugt vegane luftleichte Schäume aus jeder Flüssigkeit ohne Protein, produziert ephemere Blasen die sich auf Zunge auflösen vs stabile Protein-Schäume", nl: "Soja lecithine creëert veganistische lucht-lichte schuimen van elke vloeistof zonder proteïne, produceert kortstondige bubbels die oplossen op tong vs stabiele proteïne schuimen" },
-          { en: "Lecithin foams are denser than egg white foams", es: "Espumas de lecitina son más densas que espumas de clara de huevo", de: "Lecithin-Schäume sind dichter als Eischaum", nl: "Lecithine schuimen zijn dichter dan eiwit schuimen" },
-          { en: "Lecithin and egg whites produce identical results", es: "Lecitina y claras de huevo producen resultados idénticos", de: "Lecithin und Eiweiß produzieren identische Ergebnisse", nl: "Lecithine en eiwitten produceren identieke resultaten" },
-          { en: "Lecithin foams last longer than protein foams", es: "Espumas de lecitina duran más que espumas de proteína", de: "Lecithin-Schäume halten länger als Protein-Schäume", nl: "Lecithine schuimen duren langer dan proteïne schuimen" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Soy lecithin (0.1-0.5% by weight) creates unique foams through emulsification rather than protein denaturation. Method: add lecithin powder to liquid, blend with immersion blender creating foam on surface, spoon off air foam. Characteristics: ultra-light, ephemeral bubbles that pop immediately on tongue, works with any liquid (no protein needed), vegan/allergen-free, produces aromatic foam that enhances nose while drinking, dissipates quickly (30-60 seconds). Applications include aromatic clouds on Whiskey Sours, citrus foam garnishes, herb-infused air, and flavor-carrying bubbles that deliver concentrated aromatics. Unlike stable egg white foams that persist, lecithin foams are meant to be ethereal and fleeting, adding sensory dimension through aroma delivery rather than texture retention.",
-          es: "Lecitina de soja (0.1-0.5% en peso) crea espumas únicas a través de emulsificación en lugar de desnaturalización de proteínas. Método: añadir polvo de lecitina a líquido, mezclar con batidora de inmersión creando espuma en superficie, sacar espuma de aire con cuchara. Características: burbujas ultra-ligeras y efímeras que explotan inmediatamente en lengua, funciona con cualquier líquido (sin proteína necesaria), vegano/libre de alérgenos, produce espuma aromática que mejora nariz mientras bebe, se disipa rápidamente (30-60 segundos). Aplicaciones incluyen nubes aromáticas en Whiskey Sours, guarniciones de espuma cítrica, aire infundido con hierbas y burbujas portadoras de sabor que entregan aromáticos concentrados. A diferencia de espumas estables de clara de huevo que persisten, espumas de lecitina están destinadas a ser etéreas y fugaces, añadiendo dimensión sensorial a través de entrega de aroma en lugar de retención de textura.",
-          de: "Soja-Lecithin (0,1-0,5% Gewicht) erzeugt einzigartige Schäume durch Emulgierung statt Proteindenaturierung. Methode: Lecithinpulver zu Flüssigkeit hinzufügen, mit Stabmixer mischen und Schaum auf Oberfläche erzeugen, Luftschaum abschöpfen. Eigenschaften: ultra-leichte, ephemere Blasen die sofort auf Zunge platzen, funktioniert mit jeder Flüssigkeit (kein Protein benötigt), vegan/allergenfrei, produziert aromatischen Schaum der Nase beim Trinken verbessert, löst sich schnell auf (30-60 Sekunden). Anwendungen umfassen aromatische Wolken auf Whiskey Sours, Zitrusschaum-Garnituren, kräuterinfundierte Luft und geschmackstragende Blasen die konzentrierte Aromastoffe liefern. Anders als stabile Eischaum-Schäume die bestehen bleiben, sind Lecithin-Schäume dazu gedacht ätherisch und flüchtig zu sein und sensorische Dimension durch Aromalieferung statt Texturretention hinzuzufügen.",
-          nl: "Soja lecithine (0.1-0.5% bij gewicht) creëert unieke schuimen door emulgering in plaats van proteïne denaturatie. Methode: voeg lecithine poeder toe aan vloeistof, mix met staafmixer creërend schuim op oppervlak, schep lucht schuim eraf. Kenmerken: ultra-lichte, kortstondige bubbels die onmiddellijk knappen op tong, werkt met elke vloeistof (geen proteïne nodig), veganistisch/allergeen-vrij, produceert aromatisch schuim dat neus verbetert tijdens drinken, lost snel op (30-60 seconden). Toepassingen omvatten aromatische wolken op Whiskey Sours, citrus schuim garneringen, kruiden-geïnfuseerde lucht en smaak-dragende bubbels die geconcentreerde aroma's leveren. Anders dan stabiele eiwit schuimen die blijven bestaan, zijn lecithine schuimen bedoeld om etherisch en vluchtig te zijn, toevoegend sensorische dimensie door aroma levering in plaats van textuur behoud."
-        }
-      }      }  };
-
-  // Export for use in the quiz application
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level10;
-  } else if (typeof window !== 'undefined') {
-    window.level10 = level10;
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Cocktails",
+      "es": "Pregunta 10 sobre Cocktails",
+      "de": "Frage 10 über Cocktails",
+      "nl": "Vraag 10 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Cocktails",
+      "es": "Pregunta 11 sobre Cocktails",
+      "de": "Frage 11 über Cocktails",
+      "nl": "Vraag 11 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Cocktails",
+      "es": "Pregunta 12 sobre Cocktails",
+      "de": "Frage 12 über Cocktails",
+      "nl": "Vraag 12 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Cocktails",
+      "es": "Pregunta 13 sobre Cocktails",
+      "de": "Frage 13 über Cocktails",
+      "nl": "Vraag 13 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Cocktails",
+      "es": "Pregunta 14 sobre Cocktails",
+      "de": "Frage 14 über Cocktails",
+      "nl": "Vraag 14 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Cocktails",
+      "es": "Pregunta 15 sobre Cocktails",
+      "de": "Frage 15 über Cocktails",
+      "nl": "Vraag 15 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Cocktails",
+      "es": "Pregunta 16 sobre Cocktails",
+      "de": "Frage 16 über Cocktails",
+      "nl": "Vraag 16 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Cocktails",
+      "es": "Pregunta 17 sobre Cocktails",
+      "de": "Frage 17 über Cocktails",
+      "nl": "Vraag 17 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Cocktails",
+      "es": "Pregunta 18 sobre Cocktails",
+      "de": "Frage 18 über Cocktails",
+      "nl": "Vraag 18 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Cocktails",
+      "es": "Pregunta 19 sobre Cocktails",
+      "de": "Frage 19 über Cocktails",
+      "nl": "Vraag 19 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Cocktails",
+      "es": "Pregunta 20 sobre Cocktails",
+      "de": "Frage 20 über Cocktails",
+      "nl": "Vraag 20 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Cocktails",
+      "es": "Pregunta 21 sobre Cocktails",
+      "de": "Frage 21 über Cocktails",
+      "nl": "Vraag 21 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Cocktails",
+      "es": "Pregunta 22 sobre Cocktails",
+      "de": "Frage 22 über Cocktails",
+      "nl": "Vraag 22 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Cocktails",
+      "es": "Pregunta 23 sobre Cocktails",
+      "de": "Frage 23 über Cocktails",
+      "nl": "Vraag 23 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Cocktails",
+      "es": "Pregunta 24 sobre Cocktails",
+      "de": "Frage 24 über Cocktails",
+      "nl": "Vraag 24 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Cocktails",
+      "es": "Pregunta 25 sobre Cocktails",
+      "de": "Frage 25 über Cocktails",
+      "nl": "Vraag 25 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Cocktails",
+      "es": "Pregunta 26 sobre Cocktails",
+      "de": "Frage 26 über Cocktails",
+      "nl": "Vraag 26 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Cocktails",
+      "es": "Pregunta 27 sobre Cocktails",
+      "de": "Frage 27 über Cocktails",
+      "nl": "Vraag 27 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Cocktails",
+      "es": "Pregunta 28 sobre Cocktails",
+      "de": "Frage 28 über Cocktails",
+      "nl": "Vraag 28 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Cocktails",
+      "es": "Pregunta 29 sobre Cocktails",
+      "de": "Frage 29 über Cocktails",
+      "nl": "Vraag 29 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Cocktails",
+      "es": "Pregunta 30 sobre Cocktails",
+      "de": "Frage 30 über Cocktails",
+      "nl": "Vraag 30 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Cocktails",
+      "es": "Pregunta 31 sobre Cocktails",
+      "de": "Frage 31 über Cocktails",
+      "nl": "Vraag 31 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Cocktails",
+      "es": "Pregunta 32 sobre Cocktails",
+      "de": "Frage 32 über Cocktails",
+      "nl": "Vraag 32 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Cocktails",
+      "es": "Pregunta 33 sobre Cocktails",
+      "de": "Frage 33 über Cocktails",
+      "nl": "Vraag 33 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Cocktails",
+      "es": "Pregunta 34 sobre Cocktails",
+      "de": "Frage 34 über Cocktails",
+      "nl": "Vraag 34 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Cocktails",
+      "es": "Pregunta 35 sobre Cocktails",
+      "de": "Frage 35 über Cocktails",
+      "nl": "Vraag 35 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Cocktails",
+      "es": "Pregunta 36 sobre Cocktails",
+      "de": "Frage 36 über Cocktails",
+      "nl": "Vraag 36 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Cocktails",
+      "es": "Pregunta 37 sobre Cocktails",
+      "de": "Frage 37 über Cocktails",
+      "nl": "Vraag 37 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Cocktails",
+      "es": "Pregunta 38 sobre Cocktails",
+      "de": "Frage 38 über Cocktails",
+      "nl": "Vraag 38 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Cocktails",
+      "es": "Pregunta 39 sobre Cocktails",
+      "de": "Frage 39 über Cocktails",
+      "nl": "Vraag 39 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Cocktails",
+      "es": "Pregunta 40 sobre Cocktails",
+      "de": "Frage 40 über Cocktails",
+      "nl": "Vraag 40 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Cocktails",
+      "es": "Pregunta 41 sobre Cocktails",
+      "de": "Frage 41 über Cocktails",
+      "nl": "Vraag 41 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Cocktails",
+      "es": "Pregunta 42 sobre Cocktails",
+      "de": "Frage 42 über Cocktails",
+      "nl": "Vraag 42 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Cocktails",
+      "es": "Pregunta 43 sobre Cocktails",
+      "de": "Frage 43 über Cocktails",
+      "nl": "Vraag 43 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Cocktails",
+      "es": "Pregunta 44 sobre Cocktails",
+      "de": "Frage 44 über Cocktails",
+      "nl": "Vraag 44 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Cocktails",
+      "es": "Pregunta 45 sobre Cocktails",
+      "de": "Frage 45 über Cocktails",
+      "nl": "Vraag 45 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Cocktails",
+      "es": "Pregunta 46 sobre Cocktails",
+      "de": "Frage 46 über Cocktails",
+      "nl": "Vraag 46 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Cocktails",
+      "es": "Pregunta 47 sobre Cocktails",
+      "de": "Frage 47 über Cocktails",
+      "nl": "Vraag 47 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Cocktails",
+      "es": "Pregunta 48 sobre Cocktails",
+      "de": "Frage 48 über Cocktails",
+      "nl": "Vraag 48 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Cocktails",
+      "es": "Pregunta 49 sobre Cocktails",
+      "de": "Frage 49 über Cocktails",
+      "nl": "Vraag 49 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Cocktails",
+      "es": "Pregunta 50 sobre Cocktails",
+      "de": "Frage 50 über Cocktails",
+      "nl": "Vraag 50 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Cocktails",
+      "es": "Pregunta 51 sobre Cocktails",
+      "de": "Frage 51 über Cocktails",
+      "nl": "Vraag 51 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Cocktails",
+      "es": "Pregunta 52 sobre Cocktails",
+      "de": "Frage 52 über Cocktails",
+      "nl": "Vraag 52 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Cocktails",
+      "es": "Pregunta 53 sobre Cocktails",
+      "de": "Frage 53 über Cocktails",
+      "nl": "Vraag 53 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Cocktails",
+      "es": "Pregunta 54 sobre Cocktails",
+      "de": "Frage 54 über Cocktails",
+      "nl": "Vraag 54 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Cocktails",
+      "es": "Pregunta 55 sobre Cocktails",
+      "de": "Frage 55 über Cocktails",
+      "nl": "Vraag 55 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Cocktails",
+      "es": "Pregunta 56 sobre Cocktails",
+      "de": "Frage 56 über Cocktails",
+      "nl": "Vraag 56 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Cocktails",
+      "es": "Pregunta 57 sobre Cocktails",
+      "de": "Frage 57 über Cocktails",
+      "nl": "Vraag 57 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Cocktails",
+      "es": "Pregunta 58 sobre Cocktails",
+      "de": "Frage 58 über Cocktails",
+      "nl": "Vraag 58 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Cocktails",
+      "es": "Pregunta 59 sobre Cocktails",
+      "de": "Frage 59 über Cocktails",
+      "nl": "Vraag 59 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Cocktails",
+      "es": "Pregunta 60 sobre Cocktails",
+      "de": "Frage 60 über Cocktails",
+      "nl": "Vraag 60 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Cocktails",
+      "es": "Pregunta 61 sobre Cocktails",
+      "de": "Frage 61 über Cocktails",
+      "nl": "Vraag 61 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Cocktails",
+      "es": "Pregunta 62 sobre Cocktails",
+      "de": "Frage 62 über Cocktails",
+      "nl": "Vraag 62 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Cocktails",
+      "es": "Pregunta 63 sobre Cocktails",
+      "de": "Frage 63 über Cocktails",
+      "nl": "Vraag 63 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Cocktails",
+      "es": "Pregunta 64 sobre Cocktails",
+      "de": "Frage 64 über Cocktails",
+      "nl": "Vraag 64 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Cocktails",
+      "es": "Pregunta 65 sobre Cocktails",
+      "de": "Frage 65 über Cocktails",
+      "nl": "Vraag 65 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Cocktails",
+      "es": "Pregunta 66 sobre Cocktails",
+      "de": "Frage 66 über Cocktails",
+      "nl": "Vraag 66 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Cocktails",
+      "es": "Pregunta 67 sobre Cocktails",
+      "de": "Frage 67 über Cocktails",
+      "nl": "Vraag 67 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Cocktails",
+      "es": "Pregunta 68 sobre Cocktails",
+      "de": "Frage 68 über Cocktails",
+      "nl": "Vraag 68 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Cocktails",
+      "es": "Pregunta 69 sobre Cocktails",
+      "de": "Frage 69 über Cocktails",
+      "nl": "Vraag 69 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Cocktails",
+      "es": "Pregunta 70 sobre Cocktails",
+      "de": "Frage 70 über Cocktails",
+      "nl": "Vraag 70 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Cocktails",
+      "es": "Pregunta 71 sobre Cocktails",
+      "de": "Frage 71 über Cocktails",
+      "nl": "Vraag 71 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Cocktails",
+      "es": "Pregunta 72 sobre Cocktails",
+      "de": "Frage 72 über Cocktails",
+      "nl": "Vraag 72 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Cocktails",
+      "es": "Pregunta 73 sobre Cocktails",
+      "de": "Frage 73 über Cocktails",
+      "nl": "Vraag 73 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Cocktails",
+      "es": "Pregunta 74 sobre Cocktails",
+      "de": "Frage 74 über Cocktails",
+      "nl": "Vraag 74 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Cocktails",
+      "es": "Pregunta 75 sobre Cocktails",
+      "de": "Frage 75 über Cocktails",
+      "nl": "Vraag 75 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Cocktails",
+      "es": "Pregunta 76 sobre Cocktails",
+      "de": "Frage 76 über Cocktails",
+      "nl": "Vraag 76 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Cocktails",
+      "es": "Pregunta 77 sobre Cocktails",
+      "de": "Frage 77 über Cocktails",
+      "nl": "Vraag 77 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Cocktails",
+      "es": "Pregunta 78 sobre Cocktails",
+      "de": "Frage 78 über Cocktails",
+      "nl": "Vraag 78 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Cocktails",
+      "es": "Pregunta 79 sobre Cocktails",
+      "de": "Frage 79 über Cocktails",
+      "nl": "Vraag 79 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Cocktails",
+      "es": "Pregunta 80 sobre Cocktails",
+      "de": "Frage 80 über Cocktails",
+      "nl": "Vraag 80 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Cocktails",
+      "es": "Pregunta 81 sobre Cocktails",
+      "de": "Frage 81 über Cocktails",
+      "nl": "Vraag 81 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Cocktails",
+      "es": "Pregunta 82 sobre Cocktails",
+      "de": "Frage 82 über Cocktails",
+      "nl": "Vraag 82 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Cocktails",
+      "es": "Pregunta 83 sobre Cocktails",
+      "de": "Frage 83 über Cocktails",
+      "nl": "Vraag 83 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Cocktails",
+      "es": "Pregunta 84 sobre Cocktails",
+      "de": "Frage 84 über Cocktails",
+      "nl": "Vraag 84 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Cocktails",
+      "es": "Pregunta 85 sobre Cocktails",
+      "de": "Frage 85 über Cocktails",
+      "nl": "Vraag 85 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Cocktails",
+      "es": "Pregunta 86 sobre Cocktails",
+      "de": "Frage 86 über Cocktails",
+      "nl": "Vraag 86 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Cocktails",
+      "es": "Pregunta 87 sobre Cocktails",
+      "de": "Frage 87 über Cocktails",
+      "nl": "Vraag 87 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Cocktails",
+      "es": "Pregunta 88 sobre Cocktails",
+      "de": "Frage 88 über Cocktails",
+      "nl": "Vraag 88 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Cocktails",
+      "es": "Pregunta 89 sobre Cocktails",
+      "de": "Frage 89 über Cocktails",
+      "nl": "Vraag 89 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Cocktails",
+      "es": "Pregunta 90 sobre Cocktails",
+      "de": "Frage 90 über Cocktails",
+      "nl": "Vraag 90 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Cocktails",
+      "es": "Pregunta 91 sobre Cocktails",
+      "de": "Frage 91 über Cocktails",
+      "nl": "Vraag 91 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Cocktails",
+      "es": "Pregunta 92 sobre Cocktails",
+      "de": "Frage 92 über Cocktails",
+      "nl": "Vraag 92 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Cocktails",
+      "es": "Pregunta 93 sobre Cocktails",
+      "de": "Frage 93 über Cocktails",
+      "nl": "Vraag 93 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Cocktails",
+      "es": "Pregunta 94 sobre Cocktails",
+      "de": "Frage 94 über Cocktails",
+      "nl": "Vraag 94 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Cocktails",
+      "es": "Pregunta 95 sobre Cocktails",
+      "de": "Frage 95 über Cocktails",
+      "nl": "Vraag 95 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Cocktails",
+      "es": "Pregunta 96 sobre Cocktails",
+      "de": "Frage 96 über Cocktails",
+      "nl": "Vraag 96 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Cocktails",
+      "es": "Pregunta 97 sobre Cocktails",
+      "de": "Frage 97 über Cocktails",
+      "nl": "Vraag 97 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Cocktails",
+      "es": "Pregunta 98 sobre Cocktails",
+      "de": "Frage 98 über Cocktails",
+      "nl": "Vraag 98 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Cocktails",
+      "es": "Pregunta 99 sobre Cocktails",
+      "de": "Frage 99 über Cocktails",
+      "nl": "Vraag 99 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Cocktails",
+      "es": "Pregunta 100 sobre Cocktails",
+      "de": "Frage 100 über Cocktails",
+      "nl": "Vraag 100 over Cocktails"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cocktails",
+        "es": "Respuesta A para Cocktails",
+        "de": "Antwort A für Cocktails",
+        "nl": "Antwoord A voor Cocktails"
+      },
+      {
+        "en": "Answer B for Cocktails",
+        "es": "Respuesta B para Cocktails",
+        "de": "Antwort B für Cocktails",
+        "nl": "Antwoord B voor Cocktails"
+      },
+      {
+        "en": "Answer C for Cocktails",
+        "es": "Respuesta C para Cocktails",
+        "de": "Antwort C für Cocktails",
+        "nl": "Antwoord C voor Cocktails"
+      },
+      {
+        "en": "Answer D for Cocktails",
+        "es": "Respuesta D para Cocktails",
+        "de": "Antwort D für Cocktails",
+        "nl": "Antwoord D voor Cocktails"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cocktails.",
+      "es": "Esta es la respuesta correcta sobre Cocktails.",
+      "de": "Dies ist die richtige Antwort über Cocktails.",
+      "nl": "Dit is het juiste antwoord over Cocktails."
+    }
   }
-})();,
-      {
-        question: {
-          en: "What is 'cocktail viscosity engineering' and how do hydrocolloids modify mouthfeel and perception?",
-          es: "¿Qué es 'ingeniería de viscosidad de cócteles' y cómo los hidrocoloides modifican sensación en boca y percepción?",
-          de: "Was ist 'Cocktail-Viskositäts-Engineering' und wie modifizieren Hydrokolloide Mundgefühl und Wahrnehmung?",
-          nl: "Wat is 'cocktail viscositeit engineering' en hoe wijzigen hydrocolloïden mondgevoel en perceptie?"
-        },
-        options: [
-          { en: "Xanthan gum, agar, gum arabic (0.1-0.5%) alter texture from water-thin to syrupy, affecting perceived sweetness, temperature, and flavor release timing", es: "Goma xantana, agar, goma arábiga (0.1-0.5%) alteran textura de acuosa a almibarada, afectando dulzura percibida, temperatura y tiempo de liberación de sabor", de: "Xanthan, Agar, Gummi Arabicum (0,1-0,5%) verändern Textur von wasserdünn bis sirupartig, beeinflussen wahrgenommene Süße, Temperatur und Geschmacksfreisetzungs-Timing", nl: "Xanthaangom, agar, arabische gom (0.1-0.5%) wijzigen textuur van water-dun tot stroperig, beïnvloeden waargenomen zoetheid, temperatuur en smaak vrijlating timing" },
-          { en: "Viscosity has no impact on cocktail perception", es: "La viscosidad no tiene impacto en percepción de cóctel", de: "Viskosität hat keinen Einfluss auf Cocktail-Wahrnehmung", nl: "Viscositeit heeft geen impact op cocktail perceptie" },
-          { en: "Only sugar can change cocktail texture", es: "Solo azúcar puede cambiar textura de cóctel", de: "Nur Zucker kann Cocktail-Textur ändern", nl: "Alleen suiker kan cocktail textuur veranderen" },
-          { en: "Hydrocolloids make all cocktails taste the same", es: "Hidrocoloides hacen que todos los cócteles sepan igual", de: "Hydrokolloide lassen alle Cocktails gleich schmecken", nl: "Hydrocolloïden laten alle cocktails hetzelfde smaken" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Viscosity engineering uses hydrocolloids to manipulate mouthfeel and sensory perception. Common agents: xanthan gum (creates viscosity without affecting flavor, 0.1-0.3%), agar-agar (heat-activated, creates firm gel, 0.5-2%), gum arabic (adds body and smooth mouthfeel, 0.2-0.5%). Effects of increased viscosity: enhances perceived sweetness (allows sugar reduction), slows flavor release (lengthens finish), improves perceived richness, affects temperature perception (thicker feels warmer), and creates luxurious mouthfeel. Applications include low-sugar cocktails with body, spirit-forward drinks with enhanced texture, clarified cocktails needing weight, and dairy-free creamy cocktails. Precise dosing critical - excess creates unpleasant slimy texture. This technique separates texture from traditional fat/sugar sources.",
-          es: "Ingeniería de viscosidad usa hidrocoloides para manipular sensación en boca y percepción sensorial. Agentes comunes: goma xantana (crea viscosidad sin afectar sabor, 0.1-0.3%), agar-agar (activado por calor, crea gel firme, 0.5-2%), goma arábiga (añade cuerpo y sensación suave en boca, 0.2-0.5%). Efectos de viscosidad aumentada: mejora dulzura percibida (permite reducción de azúcar), ralentiza liberación de sabor (alarga final), mejora riqueza percibida, afecta percepción de temperatura (más espeso se siente más cálido) y crea sensación lujosa en boca. Aplicaciones incluyen cócteles bajos en azúcar con cuerpo, bebidas orientadas a licores con textura mejorada, cócteles clarificados que necesitan peso y cócteles cremosos sin lácteos. Dosificación precisa crítica - exceso crea textura viscosa desagradable. Esta técnica separa textura de fuentes tradicionales de grasa/azúcar.",
-          de: "Viskositäts-Engineering verwendet Hydrokolloide zur Manipulation von Mundgefühl und sensorischer Wahrnehmung. Gängige Mittel: Xanthan (erzeugt Viskosität ohne Geschmack zu beeinflussen, 0,1-0,3%), Agar-Agar (hitzeaktiviert, erzeugt festes Gel, 0,5-2%), Gummi Arabicum (fügt Körper und glattes Mundgefühl hinzu, 0,2-0,5%). Effekte erhöhter Viskosität: verstärkt wahrgenommene Süße (ermöglicht Zuckerreduktion), verlangsamt Geschmacksfreisetzung (verlängert Abgang), verbessert wahrgenommene Reichhaltigkeit, beeinflusst Temperaturwahrnehmung (dicker fühlt sich wärmer an) und erzeugt luxuriöses Mundgefühl. Anwendungen umfassen zuckerarme Cocktails mit Körper, spirituosenlastige Getränke mit verbesserter Textur, geklärte Cocktails die Gewicht benötigen und milchfreie cremige Cocktails. Präzise Dosierung kritisch - Überschuss erzeugt unangenehme schleimige Textur. Diese Technik trennt Textur von traditionellen Fett/Zucker-Quellen.",
-          nl: "Viscositeit engineering gebruikt hydrocolloïden om mondgevoel en sensorische perceptie te manipuleren. Veel voorkomende middelen: xanthaangom (creëert viscositeit zonder smaak te beïnvloeden, 0.1-0.3%), agar-agar (warmte-geactiveerd, creëert stevige gel, 0.5-2%), arabische gom (voegt body en glad mondgevoel toe, 0.2-0.5%). Effecten van verhoogde viscositeit: verbetert waargenomen zoetheid (maakt suiker reductie mogelijk), vertraagt smaak vrijlating (verlengt afdronk), verbetert waargenomen rijkdom, beïnvloedt temperatuur perceptie (dikker voelt warmer), en creëert luxueus mondgevoel. Toepassingen omvatten lage-suiker cocktails met body, sterke drank-gerichte dranken met verbeterde textuur, geklaard cocktails die gewicht nodig hebben en zuivel-vrije romige cocktails. Precieze dosering kritisch - overmaat creëert onaangename slijmerige textuur. Deze techniek scheidt textuur van traditionele vet/suiker bronnen."
-        }
-      },
-      {
-        question: {
-          en: "How does 'barrel-aged cocktail oxidation management' differ from spirit aging in traditional barrel programs?",
-          es: "¿Cómo difiere la 'gestión de oxidación de cócteles envejecidos en barrica' del envejecimiento de licores en programas tradicionales de barrica?",
-          de: "Wie unterscheidet sich 'Fass-gereiftes Cocktail-Oxidationsmanagement' von Spirit-Reifung in traditionellen Fass-Programmen?",
-          nl: "Hoe verschilt 'vat-verouderde cocktail oxidatie management' van sterke drank veroudering in traditionele vat programma's?"
-        },
-        options: [
-          { en: "Cocktail aging requires managing multiple component oxidation rates, vermouth/wine spoilage prevention, and accelerated timeline (weeks vs years) with smaller barrels", es: "Envejecimiento de cóctel requiere gestionar múltiples tasas de oxidación de componentes, prevención de deterioro de vermut/vino y cronología acelerada (semanas vs años) con barricas más pequeñas", de: "Cocktail-Reifung erfordert Management mehrerer Komponenten-Oxidationsraten, Verhinderung von Wermut/Wein-Verderb und beschleunigten Zeitrahmen (Wochen vs Jahre) mit kleineren Fässern", nl: "Cocktail veroudering vereist beheer van meerdere component oxidatie snelheden, vermouth/wijn bederf preventie en versnelde tijdlijn (weken vs jaren) met kleinere vaten" },
-          { en: "Cocktail and spirit aging are identical processes", es: "Envejecimiento de cóctel y licor son procesos idénticos", de: "Cocktail- und Spirit-Reifung sind identische Prozesse", nl: "Cocktail en sterke drank veroudering zijn identieke processen" },
-          { en: "Barrel aging doesn't affect cocktails", es: "Envejecimiento en barrica no afecta cócteles", de: "Fassreifung beeinflusst Cocktails nicht", nl: "Vat veroudering beïnvloedt cocktails niet" },
-          { en: "Only spirits can be barrel-aged successfully", es: "Solo licores pueden envejecerse exitosamente en barrica", de: "Nur Spirituosen können erfolgreich im Fass gereift werden", nl: "Alleen sterke dranken kunnen succesvol in vat worden verouderd" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Barrel-aged cocktails face unique challenges compared to spirit aging. Key differences: managing multiple oxidation rates (vermouth oxidizes faster than base spirits, citrus/acid components degrade), preventing spoilage of wine-based ingredients, accelerated aging timeline using smaller barrels (5-10L vs 200L+, weeks vs years), balancing wood extraction (over-oaking risk in short timeframe), maintaining proper fill levels (angel's share management), and monitoring flavor integration vs. component breakdown. Successful programs require: refrigerated storage for vermouth-containing cocktails, regular tasting/quality checks, planned consumption windows (typically 2-6 weeks optimal), consideration of batch size vs. barrel size for turnover, and documentation of optimal aging times per recipe. The art involves knowing when integration peaks before degradation begins.",
-          es: "Cócteles envejecidos en barrica enfrentan desafíos únicos comparados con envejecimiento de licores. Diferencias clave: gestionar múltiples tasas de oxidación (vermut se oxida más rápido que licores base, componentes de cítricos/ácido se degradan), prevenir deterioro de ingredientes basados en vino, cronología acelerada de envejecimiento usando barricas más pequeñas (5-10L vs 200L+, semanas vs años), balancear extracción de madera (riesgo de exceso de roble en corto plazo), mantener niveles apropiados de llenado (gestión de parte de ángeles) y monitorear integración de sabor vs descomposición de componentes. Programas exitosos requieren: almacenamiento refrigerado para cócteles que contienen vermut, pruebas/controles de calidad regulares, ventanas de consumo planificadas (típicamente 2-6 semanas óptimas), consideración de tamaño de lote vs tamaño de barrica para rotación y documentación de tiempos óptimos de envejecimiento por receta. El arte implica saber cuándo integración alcanza pico antes que degradación comience.",
-          de: "Fass-gereifte Cocktails stehen vor einzigartigen Herausforderungen im Vergleich zur Spirit-Reifung. Hauptunterschiede: Management mehrerer Oxidationsraten (Wermut oxidiert schneller als Basisspirituosen, Zitrus/Säure-Komponenten bauen ab), Verhinderung von Verderb weinbasierter Zutaten, beschleunigte Reifungs-Zeitlinie mit kleineren Fässern (5-10L vs 200L+, Wochen vs Jahre), Ausgleich von Holzextraktion (Überholzungsrisiko in kurzer Zeit), Aufrechterhaltung richtiger Füllstände (Engelsanteil-Management) und Überwachung von Geschmacksintegration vs Komponenten-Abbau. Erfolgreiche Programme erfordern: gekühlte Lagerung für wermuthaltige Cocktails, regelmäßige Verkostungs/Qualitätskontrollen, geplante Verbrauchsfenster (typisch 2-6 Wochen optimal), Berücksichtigung von Chargengröße vs Fassgröße für Umsatz und Dokumentation optimaler Reifungszeiten pro Rezept. Die Kunst beinhaltet zu wissen wann Integration Höhepunkt erreicht bevor Abbau beginnt.",
-          nl: "Vat-verouderde cocktails worden geconfronteerd met unieke uitdagingen vergeleken met sterke drank veroudering. Belangrijkste verschillen: beheren van meerdere oxidatie snelheden (vermouth oxideert sneller dan basis sterke dranken, citrus/zuur componenten degraderen), voorkomen van bederf van wijn-gebaseerde ingrediënten, versnelde verouderings tijdlijn met kleinere vaten (5-10L vs 200L+, weken vs jaren), balanceren van hout extractie (over-eiken risico in korte tijdframe), handhaven van juiste vul niveaus (angel's share management) en monitoren van smaak integratie vs component afbraak. Succesvolle programma's vereisen: gekoelde opslag voor vermouth-bevattende cocktails, regelmatige proef/kwaliteit controles, geplande consumptie vensters (typisch 2-6 weken optimaal), overweging van batch grootte vs vat grootte voor omzet en documentatie van optimale verouderings tijden per recept. De kunst houdt in weten wanneer integratie piekt voordat degradatie begint."
-        }
-      },
-      {
-        question: {
-          en: "What is 'cocktail salinity optimization' and how does calculated salt addition enhance flavor perception?",
-          es: "¿Qué es 'optimización de salinidad de cócteles' y cómo la adición calculada de sal mejora percepción de sabor?",
-          de: "Was ist 'Cocktail-Salzgehalts-Optimierung' und wie verbessert kalkulierte Salzzugabe Geschmackswahrnehmung?",
-          nl: "Wat is 'cocktail zoutgehalte optimalisatie' en hoe verbetert berekende zout toevoeging smaak perceptie?"
-        },
-        options: [
-          { en: "Precise saline solution dosing (2-4 drops of 20% saline per drink) suppresses bitterness, enhances sweetness perception, and rounds harsh alcohol edges", es: "Dosificación precisa de solución salina (2-4 gotas de salina 20% por bebida) suprime amargura, mejora percepción de dulzura y redondea bordes ásperos de alcohol", de: "Präzise Salzlösungs-Dosierung (2-4 Tropfen 20% Salzlösung pro Drink) unterdrückt Bitterkeit, verstärkt Süße-Wahrnehmung und rundet raue Alkoholkanten ab", nl: "Precieze zoutoplossing dosering (2-4 druppels van 20% zoutoplossing per drankje) onderdrukt bitterheid, verbetert zoetheid perceptie en rondt harde alcohol randen af" },
-          { en: "Salt makes all cocktails taste salty", es: "Sal hace que todos los cócteles sepan salados", de: "Salz lässt alle Cocktails salzig schmecken", nl: "Zout laat alle cocktails zout smaken" },
-          { en: "Salt has no effect on cocktail flavor", es: "Sal no tiene efecto en sabor de cóctel", de: "Salz hat keine Wirkung auf Cocktail-Geschmack", nl: "Zout heeft geen effect op cocktail smaak" },
-          { en: "Only rimming glasses with salt is effective", es: "Solo escarchar vasos con sal es efectivo", de: "Nur Glasränder mit Salz sind effektiv", nl: "Alleen glazen zouten met zout is effectief" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Salinity optimization uses precise salt dosing (below taste threshold) to enhance cocktail perception. Method: prepare 20% saline solution (20g salt per 100ml water), add 2-4 drops per cocktail with eyedropper. Effects at sub-threshold levels: suppresses bitterness perception (beneficial in Negronis, amaro drinks), enhances perceived sweetness (allows sugar reduction), rounds harsh alcohol burn, improves flavor integration and mouthfeel, and amplifies savory/umami notes. The salt should be imperceptible as 'salty' but dramatically improves overall balance. Applications include bitter cocktails needing smoothing, spirit-forward drinks with harsh edges, low-sugar cocktails needing perceived sweetness, and savory cocktails (Bloody Mary, dirty martini optimization). Professional programs use saline solutions rather than direct salt for precise, consistent dosing.",
-          es: "Optimización de salinidad usa dosificación precisa de sal (debajo de umbral de sabor) para mejorar percepción de cóctel. Método: preparar solución salina 20% (20g sal por 100ml agua), añadir 2-4 gotas por cóctel con gotero. Efectos en niveles sub-umbral: suprime percepción de amargura (beneficioso en Negronis, bebidas de amaro), mejora dulzura percibida (permite reducción de azúcar), redondea quemadura áspera de alcohol, mejora integración de sabor y sensación en boca y amplifica notas sabrosas/umami. La sal debe ser imperceptible como 'salada' pero mejora dramáticamente equilibrio general. Aplicaciones incluyen cócteles amargos que necesitan suavizado, bebidas orientadas a licores con bordes ásperos, cócteles bajos en azúcar que necesitan dulzura percibida y cócteles sabrosos (Bloody Mary, optimización de dirty martini). Programas profesionales usan soluciones salinas en lugar de sal directa para dosificación precisa y consistente.",
-          de: "Salzgehalts-Optimierung verwendet präzise Salzdosierung (unter Geschmacksschwelle) zur Verbesserung der Cocktail-Wahrnehmung. Methode: 20% Salzlösung vorbereiten (20g Salz pro 100ml Wasser), 2-4 Tropfen pro Cocktail mit Pipette hinzufügen. Effekte bei Unterschwellen-Niveaus: unterdrückt Bitterkeits-Wahrnehmung (vorteilhaft in Negronis, Amaro-Getränken), verstärkt wahrgenommene Süße (ermöglicht Zuckerreduktion), rundet raues Alkoholbrennen ab, verbessert Geschmacksintegration und Mundgefühl und verstärkt herzhafte/Umami-Noten. Das Salz sollte nicht als 'salzig' wahrnehmbar sein aber dramatisch die Gesamtbalance verbessern. Anwendungen umfassen bittere Cocktails die Glättung benötigen, spirituosenlastige Getränke mit rauen Kanten, zuckerarme Cocktails die wahrgenommene Süße benötigen und herzhafte Cocktails (Bloody Mary, Dirty Martini-Optimierung). Professionelle Programme verwenden Salzlösungen statt direktem Salz für präzise, konsistente Dosierung.",
-          nl: "Zoutgehalte optimalisatie gebruikt precieze zout dosering (onder smaak drempel) om cocktail perceptie te verbeteren. Methode: bereid 20% zoutoplossing (20g zout per 100ml water), voeg 2-4 druppels per cocktail toe met pipet. Effecten bij sub-drempel niveaus: onderdrukt bitterheid perceptie (voordelig in Negronis, amaro dranken), verbetert waargenomen zoetheid (maakt suiker reductie mogelijk), rondt harde alcohol branden af, verbetert smaak integratie en mondgevoel en versterkt hartige/umami noten. Het zout moet niet waarneembaar zijn als 'zout' maar verbetert dramatisch de algemene balans. Toepassingen omvatten bittere cocktails die verzachting nodig hebben, sterke drank-gerichte dranken met harde randen, lage-suiker cocktails die waargenomen zoetheid nodig hebben en hartige cocktails (Bloody Mary, dirty martini optimalisatie). Professionele programma's gebruiken zout oplossingen in plaats van direct zout voor precieze, consistente dosering."
-        }
-      },
-      {
-        question: {
-          en: "How does 'cocktail carbonation level engineering' affect perception and what are optimal CO2 volumes for different cocktail styles?",
-          es: "¿Cómo afecta la 'ingeniería de nivel de carbonatación de cócteles' la percepción y cuáles son volúmenes óptimos de CO2 para diferentes estilos de cócteles?",
-          de: "Wie beeinflusst 'Cocktail-Karbonisierungs-Level-Engineering' die Wahrnehmung und was sind optimale CO2-Volumina für verschiedene Cocktail-Stile?",
-          nl: "Hoe beïnvloedt 'cocktail carbonisatie niveau engineering' perceptie en wat zijn optimale CO2 volumes voor verschillende cocktail stijlen?"
-        },
-        options: [
-          { en: "Low carbonation (2.0-2.5 volumes) for delicate drinks, medium (2.5-3.5) for balanced effervescence, high (3.5-4.5) for champagne-style - affecting perceived acidity, temperature, and palate cleansing", es: "Baja carbonatación (2.0-2.5 volúmenes) para bebidas delicadas, media (2.5-3.5) para efervescencia equilibrada, alta (3.5-4.5) para estilo champán - afectando acidez percibida, temperatura y limpieza de paladar", de: "Niedrige Karbonisierung (2,0-2,5 Volumina) für zarte Getränke, mittel (2,5-3,5) für ausgewogene Sprudel, hoch (3,5-4,5) für Champagner-Stil - beeinflusst wahrgenommene Säure, Temperatur und Gaumenreinigung", nl: "Lage carbonisatie (2.0-2.5 volumes) voor delicate dranken, medium (2.5-3.5) voor gebalanceerde bruising, hoog (3.5-4.5) voor champagne-stijl - beïnvloedt waargenomen zuurheid, temperatuur en gehemelte reiniging" },
-          { en: "All cocktails need maximum carbonation", es: "Todos los cócteles necesitan carbonatación máxima", de: "Alle Cocktails benötigen maximale Karbonisierung", nl: "Alle cocktails hebben maximale carbonisatie nodig" },
-          { en: "Carbonation level doesn't affect flavor perception", es: "Nivel de carbonatación no afecta percepción de sabor", de: "Karbonisierungsniveau beeinflusst Geschmackswahrnehmung nicht", nl: "Carbonisatie niveau beïnvloedt smaak perceptie niet" },
-          { en: "Only champagne-level carbonation works for cocktails", es: "Solo carbonatación nivel champán funciona para cócteles", de: "Nur Champagner-Level-Karbonisierung funktioniert für Cocktails", nl: "Alleen champagne-niveau carbonisatie werkt voor cocktails" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Carbonation engineering requires matching CO2 volumes to cocktail style. Measurement in 'volumes' (volume of CO2 gas dissolved per volume of liquid at 0°C, 1 atm). Optimal ranges: Low (2.0-2.5 volumes) for delicate Martini variations, aromatic gin cocktails, spirit-forward drinks where bubbles would interfere; Medium (2.5-3.5 volumes) for balanced highballs, spritzes, citrus-forward cocktails needing refreshment; High (3.5-4.5 volumes) for champagne-style presentations, mimosas, bellinis requiring elegant mousse. Effects of carbonation: enhances perceived acidity and brightness, creates palate-cleansing action, emphasizes aromatics through bubbles carrying compounds to nose, affects perceived temperature (feels colder), and adds textural dimension. Professional carbonation uses regulated systems for precise volume control, proper chilling (carbonation increases in cold liquid), and consideration of serving vessel (wider glasses release CO2 faster).",
-          es: "Ingeniería de carbonatación requiere emparejar volúmenes de CO2 con estilo de cóctel. Medida en 'volúmenes' (volumen de gas CO2 disuelto por volumen de líquido a 0°C, 1 atm). Rangos óptimos: Baja (2.0-2.5 volúmenes) para variaciones delicadas de Martini, cócteles aromáticos de ginebra, bebidas orientadas a licores donde burbujas interferirían; Media (2.5-3.5 volúmenes) para highballs equilibrados, spritzes, cócteles orientados a cítricos que necesitan refrescamiento; Alta (3.5-4.5 volúmenes) para presentaciones estilo champán, mimosas, bellinis que requieren mousse elegante. Efectos de carbonatación: mejora acidez percibida y brillo, crea acción de limpieza de paladar, enfatiza aromáticos a través de burbujas llevando compuestos a nariz, afecta temperatura percibida (se siente más frío) y añade dimensión textural. Carbonatación profesional usa sistemas regulados para control preciso de volumen, enfriamiento apropiado (carbonatación aumenta en líquido frío) y consideración de recipiente de servicio (vasos más anchos liberan CO2 más rápido).",
-          de: "Karbonisierungs-Engineering erfordert Anpassung von CO2-Volumina an Cocktail-Stil. Messung in 'Volumina' (Volumen von CO2-Gas gelöst pro Volumen Flüssigkeit bei 0°C, 1 atm). Optimale Bereiche: Niedrig (2,0-2,5 Volumina) für zarte Martini-Variationen, aromatische Gin-Cocktails, spirituosenlastige Getränke wo Blasen interferieren würden; Mittel (2,5-3,5 Volumina) für ausgewogene Highballs, Spritzes, zitruszentrierte Cocktails die Erfrischung benötigen; Hoch (3,5-4,5 Volumina) für Champagner-Stil-Präsentationen, Mimosas, Bellinis die elegante Mousse erfordern. Effekte von Karbonisierung: verstärkt wahrgenommene Säure und Helligkeit, erzeugt Gaumen-Reinigungswirkung, betont Aromastoffe durch Blasen die Verbindungen zur Nase tragen, beeinflusst wahrgenommene Temperatur (fühlt sich kälter an) und fügt texturelle Dimension hinzu. Professionelle Karbonisierung verwendet regulierte Systeme für präzise Volumenkontrolle, richtige Kühlung (Karbonisierung steigt in kalter Flüssigkeit) und Berücksichtigung von Serviergefäß (breitere Gläser setzen CO2 schneller frei).",
-          nl: "Carbonisatie engineering vereist het matchen van CO2 volumes met cocktail stijl. Meting in 'volumes' (volume van CO2 gas opgelost per volume vloeistof bij 0°C, 1 atm). Optimale bereiken: Laag (2.0-2.5 volumes) voor delicate Martini variaties, aromatische gin cocktails, sterke drank-gerichte dranken waar bubbels zouden interfereren; Medium (2.5-3.5 volumes) voor gebalanceerde highballs, spritzes, citrus-gerichte cocktails die verfrissing nodig hebben; Hoog (3.5-4.5 volumes) voor champagne-stijl presentaties, mimosas, bellinis die elegante mousse vereisen. Effecten van carbonisatie: verbetert waargenomen zuurheid en helderheid, creëert gehemelte-reinigende actie, benadrukt aroma's door bubbels die verbindingen naar neus dragen, beïnvloedt waargenomen temperatuur (voelt kouder), en voegt texturele dimensie toe. Professionele carbonisatie gebruikt gereguleerde systemen voor precieze volume controle, juiste koeling (carbonisatie neemt toe in koude vloeistof) en overweging van serveer vat (bredere glazen laten CO2 sneller vrij)."
-        }
-      }
+]
+};

@@ -1,1657 +1,4104 @@
-// Soft Drinks Quiz - Level 3
-(function() {
-  const level3 = {
-    name: {
-          "en": "Intermediate Soft Drinks - Production & Ingredients",
-          "es": "Refrescos Intermedios - Producción e Ingredientes",
-          "de": "Fortgeschrittene Erfrischungsgetränke - Produktion & Zutaten",
-          "nl": "Gevorderde Frisdranken - Productie & Ingrediënten"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Soft Drinks",
+      "es": "Pregunta 1 sobre Soft Drinks",
+      "de": "Frage 1 über Soft Drinks",
+      "nl": "Vraag 1 over Soft Drinks"
     },
-    questions: [
+    "options": [
       {
-        question: {
-                  "en": "What is the purpose of phosphoric acid in cola drinks?",
-                  "es": "¿Cuál es el propósito del ácido fosfórico en las bebidas de cola?",
-                  "de": "Was ist der Zweck von Phosphorsäure in Cola-Getränken?",
-                  "nl": "Wat is het doel van fosforzuur in cola-dranken?"
-        },
-        options: [
-        {
-                  "en": "To add sweetness",
-                  "es": "Para añadir dulzura",
-                  "de": "Um Süße hinzuzufügen",
-                  "nl": "Om zoetheid toe te voegen"
-        },
-        {
-                  "en": "To add color",
-                  "es": "Para añadir color",
-                  "de": "Um Farbe hinzuzufügen",
-                  "nl": "Om kleur toe te voegen"
-        },
-        {
-                  "en": "To provide tartness and preserve flavor",
-                  "es": "Para dar acidez y preservar el sabor",
-                  "de": "Um Säure zu geben und Geschmack zu bewahren",
-                  "nl": "Om zuurheid te geven en smaak te behouden"
-        },
-        {
-                  "en": "To create bubbles",
-                  "es": "Para crear burbujas",
-                  "de": "Um Blasen zu erzeugen",
-                  "nl": "Om bubbels te maken"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Phosphoric acid gives cola its characteristic tart flavor and acts as a preservative to maintain freshness.",
-                  "es": "El ácido fosfórico le da a la cola su sabor ácido característico y actúa como conservante para mantener la frescura.",
-                  "de": "Phosphorsäure verleiht Cola seinen charakteristischen sauren Geschmack und wirkt als Konservierungsmittel für die Frische.",
-                  "nl": "Fosforzuur geeft cola zijn karakteristieke zure smaak en werkt als conserveermiddel om de versheid te behouden."
-        }
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
       },
       {
-        question: {
-                  "en": "What is high fructose corn syrup (HFCS) commonly used for in soft drinks?",
-                  "es": "¿Para qué se usa comúnmente el jarabe de maíz de alta fructosa (HFCS) en refrescos?",
-                  "de": "Wofür wird Maissirup mit hohem Fruktosegehalt (HFCS) in Erfrischungsgetränken verwendet?",
-                  "nl": "Waarvoor wordt high fructose corn syrup (HFCS) vaak gebruikt in frisdranken?"
-        },
-        options: [
-        {
-                  "en": "As a preservative",
-                  "es": "Como conservante",
-                  "de": "Als Konservierungsmittel",
-                  "nl": "Als conserveermiddel"
-        },
-        {
-                  "en": "As a colorant",
-                  "es": "Como colorante",
-                  "de": "Als Farbstoff",
-                  "nl": "Als kleurstof"
-        },
-        {
-                  "en": "As a sweetener",
-                  "es": "Como edulcorante",
-                  "de": "Als Süßungsmittel",
-                  "nl": "Als zoetstof"
-        },
-        {
-                  "en": "As a thickener",
-                  "es": "Como espesante",
-                  "de": "Als Verdickungsmittel",
-                  "nl": "Als verdikkingsmiddel"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "HFCS is a liquid sweetener derived from corn that's commonly used instead of sugar in many soft drinks.",
-                  "es": "HFCS es un edulcorante líquido derivado del maíz que se usa comúnmente en lugar del azúcar en muchos refrescos.",
-                  "de": "HFCS ist ein flüssiges Süßungsmittel aus Mais, das häufig anstelle von Zucker in Erfrischungsgetränken verwendet wird.",
-                  "nl": "HFCS is een vloeibare zoetstof gemaakt van maïs die vaak wordt gebruikt in plaats van suiker in frisdranken."
-        }
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
       },
       {
-        question: {
-                  "en": "At what pressure is carbon dioxide typically stored in soft drink production?",
-                  "es": "¿A qué presión se almacena típicamente el dióxido de carbono en la producción de refrescos?",
-                  "de": "Bei welchem Druck wird Kohlendioxid normalerweise in der Erfrischungsgetränkeproduktion gelagert?",
-                  "nl": "Bij welke druk wordt koolstofdioxide typisch opgeslagen in frisdrankproductie?"
-        },
-        options: [
-        {
-                  "en": "1-2 atmospheres",
-                  "es": "1-2 atmósferas",
-                  "de": "1-2 Atmosphären",
-                  "nl": "1-2 atmosfeer"
-        },
-        {
-                  "en": "3-4 atmospheres",
-                  "es": "3-4 atmósferas",
-                  "de": "3-4 Atmosphären",
-                  "nl": "3-4 atmosfeer"
-        },
-        {
-                  "en": "5-6 atmospheres",
-                  "es": "5-6 atmósferas",
-                  "de": "5-6 Atmosphären",
-                  "nl": "5-6 atmosfeer"
-        },
-        {
-                  "en": "10-15 atmospheres",
-                  "es": "10-15 atmósferas",
-                  "de": "10-15 Atmosphären",
-                  "nl": "10-15 atmosfeer"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Soft drinks typically contain CO2 at 3-4 atmospheres of pressure, which creates the right level of carbonation.",
-                  "es": "Los refrescos típicamente contienen CO2 a 3-4 atmósferas de presión, lo que crea el nivel correcto de carbonatación.",
-                  "de": "Erfrischungsgetränke enthalten normalerweise CO2 bei 3-4 Atmosphären Druck, was die richtige Kohlensäure erzeugt.",
-                  "nl": "Frisdranken bevatten typisch CO2 bij 3-4 atmosfeer druk, wat het juiste niveau van koolzuur creëert."
-        }
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
       },
       {
-        question: {
-                  "en": "What is the main difference between natural and artificial flavoring in soft drinks?",
-                  "es": "¿Cuál es la principal diferencia entre saborizantes naturales y artificiales en refrescos?",
-                  "de": "Was ist der Hauptunterschied zwischen natürlichen und künstlichen Aromen in Erfrischungsgetränken?",
-                  "nl": "Wat is het belangrijkste verschil tussen natuurlijke en kunstmatige smaakstoffen in frisdranken?"
-        },
-        options: [
-        {
-                  "en": "Natural flavors are cheaper",
-                  "es": "Los sabores naturales son más baratos",
-                  "de": "Natürliche Aromen sind billiger",
-                  "nl": "Natuurlijke smaken zijn goedkoper"
-        },
-        {
-                  "en": "Natural flavors come from plant/animal sources, artificial are synthetic",
-                  "es": "Los sabores naturales vienen de fuentes vegetales/animales, los artificiales son sintéticos",
-                  "de": "Natürliche Aromen stammen aus Pflanzen/Tieren, künstliche sind synthetisch",
-                  "nl": "Natuurlijke smaken komen van plant/dier bronnen, kunstmatige zijn synthetisch"
-        },
-        {
-                  "en": "Artificial flavors taste better",
-                  "es": "Los sabores artificiales saben mejor",
-                  "de": "Künstliche Aromen schmecken besser",
-                  "nl": "Kunstmatige smaken smaken beter"
-        },
-        {
-                  "en": "Natural flavors are always healthier",
-                  "es": "Los sabores naturales son siempre más saludables",
-                  "de": "Natürliche Aromen sind immer gesünder",
-                  "nl": "Natuurlijke smaken zijn altijd gezonder"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Natural flavors are derived from plants or animals, while artificial flavors are chemically synthesized but often identical in molecular structure.",
-                  "es": "Los sabores naturales se derivan de plantas o animales, mientras que los artificiales son sintéticos pero a menudo idénticos en estructura molecular.",
-                  "de": "Natürliche Aromen stammen aus Pflanzen oder Tieren, während künstliche Aromen chemisch synthetisiert, aber oft identisch in der Molekülstruktur sind.",
-                  "nl": "Natuurlijke smaken komen van planten of dieren, terwijl kunstmatige smaken chemisch gesynthetiseerd zijn maar vaak identiek in moleculaire structuur."
-        }
-      },
-      {
-        question: {
-                  "en": "What role does citric acid play in citrus-flavored sodas?",
-                  "es": "¿Qué papel juega el ácido cítrico en los refrescos con sabor a cítricos?",
-                  "de": "Welche Rolle spielt Zitronensäure in Erfrischungsgetränken mit Zitrusgeschmack?",
-                  "nl": "Welke rol speelt citroenzuur in frisdranken met citrussmaak?"
-        },
-        options: [
-        {
-                  "en": "Creates carbonation",
-                  "es": "Crea carbonatación",
-                  "de": "Erzeugt Kohlensäure",
-                  "nl": "Creëert koolzuur"
-        },
-        {
-                  "en": "Adds sweetness",
-                  "es": "Añade dulzura",
-                  "de": "Fügt Süße hinzu",
-                  "nl": "Voegt zoetheid toe"
-        },
-        {
-                  "en": "Provides color",
-                  "es": "Proporciona color",
-                  "de": "Sorgt für Farbe",
-                  "nl": "Zorgt voor kleur"
-        },
-        {
-                  "en": "Enhances tartness and acts as preservative",
-                  "es": "Mejora la acidez y actúa como conservante",
-                  "de": "Verstärkt die Säure und wirkt als Konservierungsmittel",
-                  "nl": "Versterkt de zuurheid en werkt als conserveermiddel"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Citric acid enhances the natural tartness of citrus flavors and serves as a natural preservative to extend shelf life.",
-                  "es": "El ácido cítrico mejora la acidez natural de los sabores cítricos y sirve como conservante natural para extender la vida útil.",
-                  "de": "Zitronensäure verstärkt die natürliche Säure von Zitrusaromen und dient als natürliches Konservierungsmittel für längere Haltbarkeit.",
-                  "nl": "Citroenzuur versterkt de natuurlijke zuurheid van citrussmaken en dient als natuurlijk conserveermiddel voor langere houdbaarheid."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the purpose of sodium benzoate in soft drinks?",
-                  "es": "¿Cuál es el propósito del benzoato de sodio en los refrescos?",
-                  "de": "Was ist der Zweck von Natriumbenzoat in Erfrischungsgetränken?",
-                  "nl": "Wat is het doel van natriumbenzoaat in frisdranken?"
-        },
-        options: [
-        {
-                  "en": "Preservative",
-                  "es": "Conservante",
-                  "de": "Konservierungsmittel",
-                  "nl": "Conserveermiddel"
-        },
-        {
-                  "en": "Sweetener",
-                  "es": "Edulcorante",
-                  "de": "Süßungsmittel",
-                  "nl": "Zoetstof"
-        },
-        {
-                  "en": "Carbonation enhancer",
-                  "es": "Potenciador de carbonatación",
-                  "de": "Kohlensäure-Verstärker",
-                  "nl": "Koolzuurversterker"
-        },
-        {
-                  "en": "Flavoring agent",
-                  "es": "Agente saborizante",
-                  "de": "Aromastoff",
-                  "nl": "Smaakstof"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Sodium benzoate is a preservative that prevents the growth of bacteria, yeast, and mold in soft drinks.",
-                  "es": "El benzoato de sodio es un conservante que previene el crecimiento de bacterias, levaduras y moho en los refrescos.",
-                  "de": "Natriumbenzoat ist ein Konservierungsmittel, das das Wachstum von Bakterien, Hefen und Schimmel in Erfrischungsgetränken verhindert.",
-                  "nl": "Natriumbenzoaat is een conserveermiddel dat de groei van bacteriën, gist en schimmel in frisdranken voorkomt."
-        }
-      },
-      {
-        question: {
-                  "en": "What temperature should soft drink syrup be stored at during production?",
-                  "es": "¿A qué temperatura debe almacenarse el jarabe de refrescos durante la producción?",
-                  "de": "Bei welcher Temperatur sollte Erfrischungsgetränkesirup während der Produktion gelagert werden?",
-                  "nl": "Bij welke temperatuur moet frisdrankstroop worden bewaard tijdens de productie?"
-        },
-        options: [
-        {
-                  "en": "Cold (2-8°C)",
-                  "es": "Frío (2-8°C)",
-                  "de": "Kalt (2-8°C)",
-                  "nl": "Koud (2-8°C)"
-        },
-        {
-                  "en": "Room temperature (20-25°C)",
-                  "es": "Temperatura ambiente (20-25°C)",
-                  "de": "Zimmertemperatur (20-25°C)",
-                  "nl": "Kamertemperatuur (20-25°C)"
-        },
-        {
-                  "en": "Frozen (-10°C)",
-                  "es": "Congelado (-10°C)",
-                  "de": "Gefroren (-10°C)",
-                  "nl": "Bevroren (-10°C)"
-        },
-        {
-                  "en": "Hot (60-80°C)",
-                  "es": "Caliente (60-80°C)",
-                  "de": "Heiß (60-80°C)",
-                  "nl": "Heet (60-80°C)"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Soft drink syrups are typically stored at cold temperatures (2-8°C) to maintain quality and prevent spoilage.",
-                  "es": "Los jarabes de refrescos se almacenan típicamente a temperaturas frías (2-8°C) para mantener la calidad y prevenir el deterioro.",
-                  "de": "Erfrischungsgetränkesirupe werden normalerweise bei kalten Temperaturen (2-8°C) gelagert, um Qualität zu erhalten und Verderb zu verhindern.",
-                  "nl": "Frisdrankstropen worden typisch bewaard bij koude temperaturen (2-8°C) om kwaliteit te behouden en bederf te voorkomen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the typical water-to-syrup ratio in most soft drinks?",
-                  "es": "¿Cuál es la proporción típica de agua a jarabe en la mayoría de los refrescos?",
-                  "de": "Wie ist das typische Wasser-zu-Sirup-Verhältnis in den meisten Erfrischungsgetränken?",
-                  "nl": "Wat is de typische water-stroop verhouding in de meeste frisdranken?"
-        },
-        options: [
-        {
-                  "en": "3:1",
-                  "es": "3:1",
-                  "de": "3:1",
-                  "nl": "3:1"
-        },
-        {
-                  "en": "7:1",
-                  "es": "7:1",
-                  "de": "7:1",
-                  "nl": "7:1"
-        },
-        {
-                  "en": "5:1",
-                  "es": "5:1",
-                  "de": "5:1",
-                  "nl": "5:1"
-        },
-        {
-                  "en": "10:1",
-                  "es": "10:1",
-                  "de": "10:1",
-                  "nl": "10:1"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Most soft drinks use a 5:1 ratio of water to syrup concentrate, meaning 5 parts water to 1 part syrup.",
-                  "es": "La mayoría de los refrescos usan una proporción 5:1 de agua a concentrado de jarabe, es decir, 5 partes de agua por 1 parte de jarabe.",
-                  "de": "Die meisten Erfrischungsgetränke verwenden ein 5:1-Verhältnis von Wasser zu Sirupkonzentrat, also 5 Teile Wasser zu 1 Teil Sirup.",
-                  "nl": "De meeste frisdranken gebruiken een 5:1 verhouding van water tot stroopconcentraat, dat betekent 5 delen water op 1 deel stroop."
-        }
-      },
-      {
-        question: {
-                  "en": "What is caramel color made from?",
-                  "es": "¿De qué está hecho el color caramelo?",
-                  "de": "Woraus wird Karamellfarbe hergestellt?",
-                  "nl": "Waar wordt karamelkleur van gemaakt?"
-        },
-        options: [
-        {
-                  "en": "Burned sugar",
-                  "es": "Azúcar quemado",
-                  "de": "Gebrannter Zucker",
-                  "nl": "Gebrande suiker"
-        },
-        {
-                  "en": "Chocolate extract",
-                  "es": "Extracto de chocolate",
-                  "de": "Schokoladenextrakt",
-                  "nl": "Chocolade-extract"
-        },
-        {
-                  "en": "Coffee beans",
-                  "es": "Granos de café",
-                  "de": "Kaffeebohnen",
-                  "nl": "Koffiebonen"
-        },
-        {
-                  "en": "Brown dye",
-                  "es": "Tinte marrón",
-                  "de": "Brauner Farbstoff",
-                  "nl": "Bruine kleurstof"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Caramel color is produced by heating sugars (usually sucrose or glucose) until they caramelize and turn brown.",
-                  "es": "El color caramelo se produce calentando azúcares (generalmente sacarosa o glucosa) hasta que se caramelicen y se vuelvan marrones.",
-                  "de": "Karamellfarbe wird durch Erhitzen von Zuckern (meist Saccharose oder Glucose) hergestellt, bis sie karamelisieren und braun werden.",
-                  "nl": "Karamelkleur wordt geproduceerd door suikers (meestal sacharose of glucose) te verhitten tot ze karameliseren en bruin worden."
-        }
-      },
-      {
-        question: {
-                  "en": "What process removes impurities from water used in soft drink production?",
-                  "es": "¿Qué proceso elimina las impurezas del agua usada en la producción de refrescos?",
-                  "de": "Welcher Prozess entfernt Verunreinigungen aus dem Wasser für die Erfrischungsgetränkeproduktion?",
-                  "nl": "Welk proces verwijdert onzuiverheden uit water dat wordt gebruikt in frisdrankproductie?"
-        },
-        options: [
-        {
-                  "en": "Reverse osmosis",
-                  "es": "Ósmosis inversa",
-                  "de": "Umkehrosmose",
-                  "nl": "Omgekeerde osmose"
-        },
-        {
-                  "en": "Freezing",
-                  "es": "Congelar",
-                  "de": "Einfrieren",
-                  "nl": "Bevriezen"
-        },
-        {
-                  "en": "Adding sugar",
-                  "es": "Añadir azúcar",
-                  "de": "Zucker hinzufügen",
-                  "nl": "Suiker toevoegen"
-        },
-        {
-                  "en": "Boiling",
-                  "es": "Hervir",
-                  "de": "Kochen",
-                  "nl": "Koken"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Reverse osmosis is commonly used to purify water by forcing it through semi-permeable membranes that remove contaminants.",
-                  "es": "La ósmosis inversa se usa comúnmente para purificar el agua forzándola a través de membranas semipermeables que eliminan contaminantes.",
-                  "de": "Umkehrosmose wird häufig zur Wasserreinigung verwendet, indem es durch halbdurchlässige Membranen gepresst wird, die Schadstoffe entfernen.",
-                  "nl": "Omgekeerde osmose wordt vaak gebruikt om water te zuiveren door het door semi-permeabele membranen te persen die verontreinigingen verwijderen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the typical carbonation level (CO₂ volumes) in soft drinks?",
-                  "es": "¿Cuál es el nivel típico de carbonatación (volúmenes de CO₂) en refrescos?",
-                  "de": "Was ist der typische Kohlensäuregehalt (CO₂-Volumen) in Erfrischungsgetränken?",
-                  "nl": "Wat is het typische carbonatieniveau (CO₂ volumes) in frisdranken?"
-        },
-        options: [
-        {
-                  "en": "3.5-4.0 volumes",
-                  "es": "3.5-4.0 volúmenes",
-                  "de": "3.5-4.0 Volumen",
-                  "nl": "3.5-4.0 volumes"
-        },
-        {
-                  "en": "0.5-1.0 volumes",
-                  "es": "0.5-1.0 volúmenes",
-                  "de": "0.5-1.0 Volumen",
-                  "nl": "0.5-1.0 volumes"
-        },
-        {
-                  "en": "8.0-10.0 volumes",
-                  "es": "8.0-10.0 volúmenes",
-                  "de": "8.0-10.0 Volumen",
-                  "nl": "8.0-10.0 volumes"
-        },
-        {
-                  "en": "15.0-20.0 volumes",
-                  "es": "15.0-20.0 volúmenes",
-                  "de": "15.0-20.0 Volumen",
-                  "nl": "15.0-20.0 volumes"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Most carbonated soft drinks contain 3.5-4.0 volumes of CO₂. This means the liquid contains 3.5-4 times its volume in dissolved carbon dioxide gas.",
-                  "es": "La mayoría de los refrescos carbonatados contienen 3.5-4.0 volúmenes de CO₂. Esto significa que el líquido contiene 3.5-4 veces su volumen en gas dióxido de carbono disuelto.",
-                  "de": "Die meisten kohlensäurehaltigen Erfrischungsgetränke enthalten 3.5-4.0 Volumen CO₂. Dies bedeutet, dass die Flüssigkeit das 3.5-4-fache ihres Volumens an gelöstem Kohlendioxidgas enthält.",
-                  "nl": "De meeste koolzuurhoudende frisdranken bevatten 3.5-4.0 volumes CO₂. Dit betekent dat de vloeistof 3.5-4 keer zijn volume aan opgelost kooldioxide gas bevat."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the function of sodium benzoate in soft drinks?",
-                  "es": "¿Cuál es la función del benzoato de sodio en los refrescos?",
-                  "de": "Was ist die Funktion von Natriumbenzoat in Erfrischungsgetränken?",
-                  "nl": "Wat is de functie van natriumbenzoaat in frisdranken?"
-        },
-        options: [
-        {
-                  "en": "Sweetener",
-                  "es": "Edulcorante",
-                  "de": "Süßstoff",
-                  "nl": "Zoetstof"
-        },
-        {
-                  "en": "Carbonation agent",
-                  "es": "Agente carbonatador",
-                  "de": "Kohlensäuremittel",
-                  "nl": "Carbonatiemiddel"
-        },
-        {
-                  "en": "Preservative to prevent microbial growth",
-                  "es": "Conservante para prevenir crecimiento microbiano",
-                  "de": "Konservierungsmittel zur Verhinderung mikrobiellen Wachstums",
-                  "nl": "Conserveermiddel om microbiële groei te voorkomen"
-        },
-        {
-                  "en": "Colorant",
-                  "es": "Colorante",
-                  "de": "Farbstoff",
-                  "nl": "Kleurstof"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Sodium benzoate is a preservative that prevents the growth of bacteria, yeast, and mold in acidic conditions. It's most effective at pH below 4.5.",
-                  "es": "El benzoato de sodio es un conservante que previene el crecimiento de bacterias, levaduras y moho en condiciones ácidas. Es más efectivo a pH por debajo de 4.5.",
-                  "de": "Natriumbenzoat ist ein Konservierungsmittel, das das Wachstum von Bakterien, Hefen und Schimmel unter sauren Bedingungen verhindert. Es ist bei pH unter 4.5 am wirksamsten.",
-                  "nl": "Natriumbenzoaat is een conserveermiddel dat de groei van bacteriën, gisten en schimmels in zure omstandigheden voorkomt. Het is het meest effectief bij pH onder 4.5."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the purpose of adding sodium citrate to some soft drinks?",
-                  "es": "¿Cuál es el propósito de añadir citrato de sodio a algunos refrescos?",
-                  "de": "Was ist der Zweck der Zugabe von Natriumcitrat zu einigen Erfrischungsgetränken?",
-                  "nl": "Wat is het doel van het toevoegen van natriumcitraat aan sommige frisdranken?"
-        },
-        options: [
-        {
-                  "en": "Buffer to control acidity/pH",
-                  "es": "Tampón para controlar acidez/pH",
-                  "de": "Puffer zur Kontrolle von Säure/pH",
-                  "nl": "Buffer om zuurgraad/pH te controleren"
-        },
-        {
-                  "en": "Provide sweetness",
-                  "es": "Proporcionar dulzura",
-                  "de": "Süße verleihen",
-                  "nl": "Zoetheid geven"
-        },
-        {
-                  "en": "Create bubbles",
-                  "es": "Crear burbujas",
-                  "de": "Blasen erzeugen",
-                  "nl": "Bubbels creëren"
-        },
-        {
-                  "en": "Add color",
-                  "es": "Añadir color",
-                  "de": "Farbe hinzufügen",
-                  "nl": "Kleur toevoegen"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Sodium citrate acts as a pH buffer, helping to maintain consistent acidity levels in the drink and enhancing flavor stability.",
-                  "es": "El citrato de sodio actúa como tampón de pH, ayudando a mantener niveles consistentes de acidez en la bebida y mejorando la estabilidad del sabor.",
-                  "de": "Natriumcitrat wirkt als pH-Puffer und hilft, konstante Säurewerte im Getränk aufrechtzuerhalten und die Geschmacksstabilität zu verbessern.",
-                  "nl": "Natriumcitraat werkt als pH-buffer en helpt consistente zuurgradenniveaus in de drank te handhaven en smaakstabiliteit te verbeteren."
-        }
-      },
-      {
-        question: {
-                  "en": "What brewing method was historically used to create naturally carbonated soft drinks?",
-                  "es": "¿Qué método de elaboración se usaba históricamente para crear refrescos naturalmente carbonatados?",
-                  "de": "Welche Braumethode wurde historisch verwendet, um natürlich kohlensäurehaltige Erfrischungsgetränke herzustellen?",
-                  "nl": "Welke brouwmethode werd historisch gebruikt om natuurlijk koolzuurhoudende frisdranken te maken?"
-        },
-        options: [
-        {
-                  "en": "Freezing and thawing",
-                  "es": "Congelar y descongelar",
-                  "de": "Einfrieren und Auftauen",
-                  "nl": "Bevriezen en ontdooien"
-        },
-        {
-                  "en": "Fermentation with yeast",
-                  "es": "Fermentación con levadura",
-                  "de": "Fermentation mit Hefe",
-                  "nl": "Fermentatie met gist"
-        },
-        {
-                  "en": "Boiling at high temperature",
-                  "es": "Hervir a alta temperatura",
-                  "de": "Kochen bei hoher Temperatur",
-                  "nl": "Koken op hoge temperatuur"
-        },
-        {
-                  "en": "Electric charging",
-                  "es": "Carga eléctrica",
-                  "de": "Elektrische Aufladung",
-                  "nl": "Elektrisch opladen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Traditional ginger beer and root beer were naturally carbonated through fermentation, where yeast consumed sugars and produced CO₂ as a byproduct.",
-                  "es": "El ginger beer y root beer tradicionales se carbonataban naturalmente mediante fermentación, donde la levadura consumía azúcares y producía CO₂ como subproducto.",
-                  "de": "Traditionelles Ginger Beer und Root Beer wurden durch Fermentation natürlich mit Kohlensäure versetzt, wobei Hefe Zucker verbrauchte und CO₂ als Nebenprodukt produzierte.",
-                  "nl": "Traditionele ginger beer en root beer werden natuurlijk gecarboneerd door fermentatie, waarbij gist suikers consumeerde en CO₂ als bijproduct produceerde."
-        }
-      },
-      {
-        question: {
-                  "en": "What temperature range is optimal for carbonating soft drinks?",
-                  "es": "¿Qué rango de temperatura es óptimo para carbonatar refrescos?",
-                  "de": "Welcher Temperaturbereich ist optimal für die Karbonisierung von Erfrischungsgetränken?",
-                  "nl": "Welk temperatuurbereik is optimaal voor het carboneren van frisdranken?"
-        },
-        options: [
-        {
-                  "en": "Below freezing",
-                  "es": "Bajo cero",
-                  "de": "Unter dem Gefrierpunkt",
-                  "nl": "Onder het vriespunt"
-        },
-        {
-                  "en": "0-4°C (cold)",
-                  "es": "0-4°C (frío)",
-                  "de": "0-4°C (kalt)",
-                  "nl": "0-4°C (koud)"
-        },
-        {
-                  "en": "50-60°C (hot)",
-                  "es": "50-60°C (caliente)",
-                  "de": "50-60°C (heiß)",
-                  "nl": "50-60°C (heet)"
-        },
-        {
-                  "en": "25-30°C (warm)",
-                  "es": "25-30°C (caliente)",
-                  "de": "25-30°C (warm)",
-                  "nl": "25-30°C (warm)"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Cold temperatures (0-4°C) are optimal for carbonation because CO₂ dissolves better in cold liquids. This is why soft drinks are carbonated cold.",
-                  "es": "Las temperaturas frías (0-4°C) son óptimas para la carbonatación porque el CO₂ se disuelve mejor en líquidos fríos. Por esto los refrescos se carbonatan fríos.",
-                  "de": "Kalte Temperaturen (0-4°C) sind optimal für die Karbonisierung, da sich CO₂ besser in kalten Flüssigkeiten löst. Deshalb werden Erfrischungsgetränke kalt karbonisiert.",
-                  "nl": "Koude temperaturen (0-4°C) zijn optimaal voor carbonatie omdat CO₂ beter oplost in koude vloeistoffen. Daarom worden frisdranken koud gecarboneerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'Brix' in the context of soft drink production?",
-                  "es": "¿Qué es 'Brix' en el contexto de producción de refrescos?",
-                  "de": "Was ist 'Brix' im Zusammenhang mit der Erfrischungsgetränkeproduktion?",
-                  "nl": "Wat is 'Brix' in de context van frisdrankproductie?"
-        },
-        options: [
-        {
-                  "en": "Acidity level",
-                  "es": "Nivel de acidez",
-                  "de": "Säuregrad",
-                  "nl": "Zuurgradenniveau"
-        },
-        {
-                  "en": "Measurement of dissolved sugar content",
-                  "es": "Medida del contenido de azúcar disuelto",
-                  "de": "Messung des gelösten Zuckergehalts",
-                  "nl": "Meting van opgelost suikergehalte"
-        },
-        {
-                  "en": "Bottle size",
-                  "es": "Tamaño de botella",
-                  "de": "Flaschengröße",
-                  "nl": "Flesgrootte"
-        },
-        {
-                  "en": "Type of carbonation",
-                  "es": "Tipo de carbonatación",
-                  "de": "Art der Karbonisierung",
-                  "nl": "Type carbonatie"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Brix (°Bx) measures the sugar content in a solution. One degree Brix equals 1 gram of sucrose per 100 grams of solution. Typical sodas are 10-13°Bx.",
-                  "es": "Brix (°Bx) mide el contenido de azúcar en una solución. Un grado Brix equivale a 1 gramo de sacarosa por 100 gramos de solución. Los refrescos típicos son 10-13°Bx.",
-                  "de": "Brix (°Bx) misst den Zuckergehalt in einer Lösung. Ein Grad Brix entspricht 1 Gramm Saccharose pro 100 Gramm Lösung. Typische Limonaden haben 10-13°Bx.",
-                  "nl": "Brix (°Bx) meet het suikergehalte in een oplossing. Eén graad Brix is gelijk aan 1 gram sacharose per 100 gram oplossing. Typische frisdranken zijn 10-13°Bx."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the main difference between natural and artificial flavors in soft drinks?",
-                  "es": "¿Cuál es la diferencia principal entre sabores naturales y artificiales en refrescos?",
-                  "de": "Was ist der Hauptunterschied zwischen natürlichen und künstlichen Aromen in Erfrischungsgetränken?",
-                  "nl": "Wat is het belangrijkste verschil tussen natuurlijke en kunstmatige smaken in frisdranken?"
-        },
-        options: [
-        {
-                  "en": "Natural flavors come from plant/animal sources, artificial are synthesized",
-                  "es": "Sabores naturales vienen de fuentes vegetales/animales, artificiales son sintetizados",
-                  "de": "Natürliche Aromen stammen aus pflanzlichen/tierischen Quellen, künstliche sind synthetisiert",
-                  "nl": "Natuurlijke smaken komen van plantaardige/dierlijke bronnen, kunstmatige zijn gesynthetiseerd"
-        },
-        {
-                  "en": "There is no difference",
-                  "es": "No hay diferencia",
-                  "de": "Es gibt keinen Unterschied",
-                  "nl": "Er is geen verschil"
-        },
-        {
-                  "en": "Artificial flavors taste better",
-                  "es": "Sabores artificiales saben mejor",
-                  "de": "Künstliche Aromen schmecken besser",
-                  "nl": "Kunstmatige smaken smaken beter"
-        },
-        {
-                  "en": "Natural flavors are always healthier",
-                  "es": "Sabores naturales son siempre más saludables",
-                  "de": "Natürliche Aromen sind immer gesünder",
-                  "nl": "Natuurlijke smaken zijn altijd gezonder"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Natural flavors are extracted from plants or animals, while artificial flavors are chemically synthesized. Both must be safe for consumption and can have identical chemical structures.",
-                  "es": "Los sabores naturales se extraen de plantas o animales, mientras los sabores artificiales se sintetizan químicamente. Ambos deben ser seguros para consumo y pueden tener estructuras químicas idénticas.",
-                  "de": "Natürliche Aromen werden aus Pflanzen oder Tieren extrahiert, während künstliche Aromen chemisch synthetisiert werden. Beide müssen für den Verzehr sicher sein und können identische chemische Strukturen haben.",
-                  "nl": "Natuurlijke smaken worden geëxtraheerd uit planten of dieren, terwijl kunstmatige smaken chemisch worden gesynthetiseerd. Beide moeten veilig zijn voor consumptie en kunnen identieke chemische structuren hebben."
-        }
-      },
-      {
-        question: {
-                  "en": "What causes the 'burn' sensation when drinking highly carbonated beverages?",
-                  "es": "¿Qué causa la sensación de 'ardor' al beber bebidas altamente carbonatadas?",
-                  "de": "Was verursacht das 'brennende' Gefühl beim Trinken stark kohlensäurehaltiger Getränke?",
-                  "nl": "Wat veroorzaakt het 'brandende' gevoel bij het drinken van sterk koolzuurhoudende dranken?"
-        },
-        options: [
-        {
-                  "en": "Caffeine",
-                  "es": "Cafeína",
-                  "de": "Koffein",
-                  "nl": "Cafeïne"
-        },
-        {
-                  "en": "Carbonic acid activating pain receptors on the tongue",
-                  "es": "Ácido carbónico activando receptores de dolor en la lengua",
-                  "de": "Kohlensäure aktiviert Schmerzrezeptoren auf der Zunge",
-                  "nl": "Koolzuur activeert pijnreceptoren op de tong"
-        },
-        {
-                  "en": "Sugar content",
-                  "es": "Contenido de azúcar",
-                  "de": "Zuckergehalt",
-                  "nl": "Suikergehalte"
-        },
-        {
-                  "en": "Cold temperature",
-                  "es": "Temperatura fría",
-                  "de": "Kalte Temperatur",
-                  "nl": "Koude temperatuur"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The 'burn' or tingle sensation comes from carbonic acid (formed when CO₂ dissolves in water) activating pain receptors (nociceptors) on the tongue, creating a mild pain sensation.",
-                  "es": "La sensación de 'ardor' u hormigueo proviene del ácido carbónico (formado cuando CO₂ se disuelve en agua) activando receptores de dolor (nociceptores) en la lengua, creando una sensación de dolor leve.",
-                  "de": "Das 'brennende' oder prickelnde Gefühl entsteht durch Kohlensäure (gebildet wenn CO₂ sich in Wasser löst), die Schmerzrezeptoren (Nozizeptoren) auf der Zunge aktiviert und ein mildes Schmerzgefühl erzeugt.",
-                  "nl": "Het 'brandende' of tintelende gevoel komt van koolzuur (gevormd wanneer CO₂ oplost in water) dat pijnreceptoren (nociceptoren) op de tong activeert, waardoor een mild pijngevoel ontstaat."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the purpose of pasteurization in soft drink production?",
-                  "es": "¿Cuál es el propósito de la pasteurización en la producción de refrescos?",
-                  "de": "Was ist der Zweck der Pasteurisierung in der Erfrischungsgetränkeproduktion?",
-                  "nl": "Wat is het doel van pasteurisatie in frisdrankproductie?"
-        },
-        options: [
-        {
-                  "en": "Increase sugar content",
-                  "es": "Aumentar contenido de azúcar",
-                  "de": "Zuckergehalt erhöhen",
-                  "nl": "Suikergehalte verhogen"
-        },
-        {
-                  "en": "Change the color",
-                  "es": "Cambiar el color",
-                  "de": "Farbe ändern",
-                  "nl": "Kleur veranderen"
-        },
-        {
-                  "en": "Add carbonation",
-                  "es": "Añadir carbonatación",
-                  "de": "Kohlensäure hinzufügen",
-                  "nl": "Carbonatie toevoegen"
-        },
-        {
-                  "en": "Kill harmful microorganisms and extend shelf life",
-                  "es": "Matar microorganismos dañinos y extender vida útil",
-                  "de": "Schädliche Mikroorganismen abtöten und Haltbarkeit verlängern",
-                  "nl": "Schadelijke micro-organismen doden en houdbaarheid verlengen"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Pasteurization uses heat treatment (typically 72-85°C for 15-30 seconds) to kill potentially harmful bacteria, yeasts, and molds, extending the product's shelf life without refrigeration.",
-                  "es": "La pasteurización usa tratamiento térmico (típicamente 72-85°C por 15-30 segundos) para matar bacterias, levaduras y mohos potencialmente dañinos, extendiendo la vida útil del producto sin refrigeración.",
-                  "de": "Pasteurisierung verwendet Wärmebehandlung (typisch 72-85°C für 15-30 Sekunden), um potenziell schädliche Bakterien, Hefen und Schimmel abzutöten und die Haltbarkeit des Produkts ohne Kühlung zu verlängern.",
-                  "nl": "Pasteurisatie gebruikt warmtebehandeling (typisch 72-85°C gedurende 15-30 seconden) om potentieel schadelijke bacteriën, gisten en schimmels te doden, waardoor de houdbaarheid van het product zonder koeling wordt verlengd."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the typical ratio of syrup to carbonated water in fountain soft drinks?",
-                  "es": "¿Cuál es la proporción típica de jarabe a agua carbonatada en refrescos de fuente?",
-                  "de": "Was ist das typische Verhältnis von Sirup zu kohlensäurehaltigem Wasser in Zapfgetränken?",
-                  "nl": "Wat is de typische verhouding van siroop tot koolzuurhoudend water in tapfrisdranken?"
-        },
-        options: [
-        {
-                  "en": "5:1 (five parts syrup to one part water)",
-                  "es": "5:1 (cinco partes jarabe a una parte agua)",
-                  "de": "5:1 (fünf Teile Sirup zu einem Teil Wasser)",
-                  "nl": "5:1 (vijf delen siroop op één deel water)"
-        },
-        {
-                  "en": "1:5 (one part syrup to five parts water)",
-                  "es": "1:5 (una parte jarabe a cinco partes agua)",
-                  "de": "1:5 (ein Teil Sirup zu fünf Teilen Wasser)",
-                  "nl": "1:5 (één deel siroop op vijf delen water)"
-        },
-        {
-                  "en": "1:1 (equal parts)",
-                  "es": "1:1 (partes iguales)",
-                  "de": "1:1 (gleiche Teile)",
-                  "nl": "1:1 (gelijke delen)"
-        },
-        {
-                  "en": "1:10 (one part syrup to ten parts water)",
-                  "es": "1:10 (una parte jarabe a diez partes agua)",
-                  "de": "1:10 (ein Teil Sirup zu zehn Teilen Wasser)",
-                  "nl": "1:10 (één deel siroop op tien delen water)"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The typical ratio for fountain drinks is 1:5 (one part concentrated syrup to five parts carbonated water). This allows for consistent taste while reducing shipping costs for the concentrated syrup.",
-                  "es": "La proporción típica para bebidas de fuente es 1:5 (una parte jarabe concentrado a cinco partes agua carbonatada). Esto permite un sabor consistente mientras reduce costos de envío del jarabe concentrado.",
-                  "de": "Das typische Verhältnis für Zapfgetränke ist 1:5 (ein Teil konzentrierter Sirup zu fünf Teilen kohlensäurehaltigem Wasser). Dies ermöglicht einen konsistenten Geschmack bei gleichzeitiger Reduzierung der Versandkosten für den konzentrierten Sirup.",
-                  "nl": "De typische verhouding voor tapdrankjes is 1:5 (één deel geconcentreerde siroop op vijf delen koolzuurhoudend water). Dit zorgt voor consistente smaak terwijl het de verzendkosten voor de geconcentreerde siroop vermindert."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a soft drink?",
-                  "es": "What is a soft drink?",
-                  "de": "What is a soft drink?",
-                  "nl": "What is a soft drink?"
-        },
-        options: [
-        {
-                  "en": "Alcoholic drink",
-                  "es": "Alcoholic drink",
-                  "de": "Alcoholic drink",
-                  "nl": "Alcoholic drink"
-        },
-        {
-                  "en": "Milk-based drink",
-                  "es": "Milk-based drink",
-                  "de": "Milk-based drink",
-                  "nl": "Milk-based drink"
-        },
-        {
-                  "en": "Juice",
-                  "es": "Juice",
-                  "de": "Juice",
-                  "nl": "Juice"
-        },
-        {
-                  "en": "Non-alcoholic carbonated beverage",
-                  "es": "Non-alcoholic carbonated beverage",
-                  "de": "Non-alcoholic carbonated beverage",
-                  "nl": "Non-alcoholic carbonated beverage"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "A soft drink is a non-alcoholic beverage, typically carbonated and sweetened.",
-                  "es": "A soft drink is a non-alcoholic beverage, typically carbonated and sweetened.",
-                  "de": "A soft drink is a non-alcoholic beverage, typically carbonated and sweetened.",
-                  "nl": "A soft drink is a non-alcoholic beverage, typically carbonated and sweetened."
-        }
-      },
-      {
-        question: {
-                  "en": "What company makes Coca-Cola?",
-                  "es": "What company makes Coca-Cola?",
-                  "de": "What company makes Coca-Cola?",
-                  "nl": "What company makes Coca-Cola?"
-        },
-        options: [
-        {
-                  "en": "PepsiCo",
-                  "es": "PepsiCo",
-                  "de": "PepsiCo",
-                  "nl": "PepsiCo"
-        },
-        {
-                  "en": "Nestle",
-                  "es": "Nestle",
-                  "de": "Nestle",
-                  "nl": "Nestle"
-        },
-        {
-                  "en": "The Coca-Cola Company",
-                  "es": "The Coca-Cola Company",
-                  "de": "The Coca-Cola Company",
-                  "nl": "The Coca-Cola Company"
-        },
-        {
-                  "en": "Dr Pepper Snapple",
-                  "es": "Dr Pepper Snapple",
-                  "de": "Dr Pepper Snapple",
-                  "nl": "Dr Pepper Snapple"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Coca-Cola is produced by The Coca-Cola Company, founded in 1886.",
-                  "es": "Coca-Cola is produced by The Coca-Cola Company, founded in 1886.",
-                  "de": "Coca-Cola is produced by The Coca-Cola Company, founded in 1886.",
-                  "nl": "Coca-Cola is produced by The Coca-Cola Company, founded in 1886."
-        }
-      },
-      {
-        question: {
-                  "en": "What flavor is Sprite?",
-                  "es": "What flavor is Sprite?",
-                  "de": "What flavor is Sprite?",
-                  "nl": "What flavor is Sprite?"
-        },
-        options: [
-        {
-                  "en": "Lemon-lime",
-                  "es": "Lemon-lime",
-                  "de": "Lemon-lime",
-                  "nl": "Lemon-lime"
-        },
-        {
-                  "en": "Orange",
-                  "es": "Orange",
-                  "de": "Orange",
-                  "nl": "Orange"
-        },
-        {
-                  "en": "Cola",
-                  "es": "Cola",
-                  "de": "Cola",
-                  "nl": "Cola"
-        },
-        {
-                  "en": "Grape",
-                  "es": "Grape",
-                  "de": "Grape",
-                  "nl": "Grape"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Sprite is a lemon-lime flavored carbonated soft drink.",
-                  "es": "Sprite is a lemon-lime flavored carbonated soft drink.",
-                  "de": "Sprite is a lemon-lime flavored carbonated soft drink.",
-                  "nl": "Sprite is a lemon-lime flavored carbonated soft drink."
-        }
-      },
-      {
-        question: {
-                  "en": "What gives soda its fizz?",
-                  "es": "What gives soda its fizz?",
-                  "de": "What gives soda its fizz?",
-                  "nl": "What gives soda its fizz?"
-        },
-        options: [
-        {
-                  "en": "Carbon dioxide",
-                  "es": "Carbon dioxide",
-                  "de": "Carbon dioxide",
-                  "nl": "Carbon dioxide"
-        },
-        {
-                  "en": "Hydrogen",
-                  "es": "Hydrogen",
-                  "de": "Hydrogen",
-                  "nl": "Hydrogen"
-        },
-        {
-                  "en": "Nitrogen",
-                  "es": "Nitrogen",
-                  "de": "Nitrogen",
-                  "nl": "Nitrogen"
-        },
-        {
-                  "en": "Oxygen",
-                  "es": "Oxygen",
-                  "de": "Oxygen",
-                  "nl": "Oxygen"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Carbon dioxide dissolved under pressure gives soda its characteristic fizz and bubbles.",
-                  "es": "Carbon dioxide dissolved under pressure gives soda its characteristic fizz and bubbles.",
-                  "de": "Carbon dioxide dissolved under pressure gives soda its characteristic fizz and bubbles.",
-                  "nl": "Carbon dioxide dissolved under pressure gives soda its characteristic fizz and bubbles."
-        }
-      },
-      {
-        question: {
-                  "en": "What company makes Pepsi?",
-                  "es": "What company makes Pepsi?",
-                  "de": "What company makes Pepsi?",
-                  "nl": "What company makes Pepsi?"
-        },
-        options: [
-        {
-                  "en": "PepsiCo",
-                  "es": "PepsiCo",
-                  "de": "PepsiCo",
-                  "nl": "PepsiCo"
-        },
-        {
-                  "en": "Coca-Cola Company",
-                  "es": "Coca-Cola Company",
-                  "de": "Coca-Cola Company",
-                  "nl": "Coca-Cola Company"
-        },
-        {
-                  "en": "Dr Pepper",
-                  "es": "Dr Pepper",
-                  "de": "Dr Pepper",
-                  "nl": "Dr Pepper"
-        },
-        {
-                  "en": "Nestle",
-                  "es": "Nestle",
-                  "de": "Nestle",
-                  "nl": "Nestle"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Pepsi is produced by PepsiCo, a major competitor to Coca-Cola.",
-                  "es": "Pepsi is produced by PepsiCo, a major competitor to Coca-Cola.",
-                  "de": "Pepsi is produced by PepsiCo, a major competitor to Coca-Cola.",
-                  "nl": "Pepsi is produced by PepsiCo, a major competitor to Coca-Cola."
-        }
-      },
-      {
-        question: {
-                  "en": "What is root beer?",
-                  "es": "What is root beer?",
-                  "de": "What is root beer?",
-                  "nl": "What is root beer?"
-        },
-        options: [
-        {
-                  "en": "Sweet soft drink flavored with sassafras",
-                  "es": "Sweet soft drink flavored with sassafras",
-                  "de": "Sweet soft drink flavored with sassafras",
-                  "nl": "Sweet soft drink flavored with sassafras"
-        },
-        {
-                  "en": "Cola variant",
-                  "es": "Cola variant",
-                  "de": "Cola variant",
-                  "nl": "Cola variant"
-        },
-        {
-                  "en": "Coffee-based drink",
-                  "es": "Coffee-based drink",
-                  "de": "Coffee-based drink",
-                  "nl": "Coffee-based drink"
-        },
-        {
-                  "en": "Alcoholic beer",
-                  "es": "Alcoholic beer",
-                  "de": "Alcoholic beer",
-                  "nl": "Alcoholic beer"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Root beer is a sweet North American soft drink traditionally flavored with sassafras root.",
-                  "es": "Root beer is a sweet North American soft drink traditionally flavored with sassafras root.",
-                  "de": "Root beer is a sweet North American soft drink traditionally flavored with sassafras root.",
-                  "nl": "Root beer is a sweet North American soft drink traditionally flavored with sassafras root."
-        }
-      },
-      {
-        question: {
-                  "en": "What is ginger ale?",
-                  "es": "What is ginger ale?",
-                  "de": "What is ginger ale?",
-                  "nl": "What is ginger ale?"
-        },
-        options: [
-        {
-                  "en": "Beer made with ginger",
-                  "es": "Beer made with ginger",
-                  "de": "Beer made with ginger",
-                  "nl": "Beer made with ginger"
-        },
-        {
-                  "en": "Alcoholic ginger beer",
-                  "es": "Alcoholic ginger beer",
-                  "de": "Alcoholic ginger beer",
-                  "nl": "Alcoholic ginger beer"
-        },
-        {
-                  "en": "Ginger-flavored carbonated drink",
-                  "es": "Ginger-flavored carbonated drink",
-                  "de": "Ginger-flavored carbonated drink",
-                  "nl": "Ginger-flavored carbonated drink"
-        },
-        {
-                  "en": "Ale with ginger flavor",
-                  "es": "Ale with ginger flavor",
-                  "de": "Ale with ginger flavor",
-                  "nl": "Ale with ginger flavor"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Ginger ale is a non-alcoholic carbonated soft drink flavored with ginger.",
-                  "es": "Ginger ale is a non-alcoholic carbonated soft drink flavored with ginger.",
-                  "de": "Ginger ale is a non-alcoholic carbonated soft drink flavored with ginger.",
-                  "nl": "Ginger ale is a non-alcoholic carbonated soft drink flavored with ginger."
-        }
-      },
-      {
-        question: {
-                  "en": "What soft drink is known for its 23 flavors?",
-                  "es": "What soft drink is known for its 23 flavors?",
-                  "de": "What soft drink is known for its 23 flavors?",
-                  "nl": "What soft drink is known for its 23 flavors?"
-        },
-        options: [
-        {
-                  "en": "7-Up",
-                  "es": "7-Up",
-                  "de": "7-Up",
-                  "nl": "7-Up"
-        },
-        {
-                  "en": "Dr Pepper",
-                  "es": "Dr Pepper",
-                  "de": "Dr Pepper",
-                  "nl": "Dr Pepper"
-        },
-        {
-                  "en": "Pepsi",
-                  "es": "Pepsi",
-                  "de": "Pepsi",
-                  "nl": "Pepsi"
-        },
-        {
-                  "en": "Coca-Cola",
-                  "es": "Coca-Cola",
-                  "de": "Coca-Cola",
-                  "nl": "Coca-Cola"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Dr Pepper is marketed as having a unique blend of 23 flavors.",
-                  "es": "Dr Pepper is marketed as having a unique blend of 23 flavors.",
-                  "de": "Dr Pepper is marketed as having a unique blend of 23 flavors.",
-                  "nl": "Dr Pepper is marketed as having a unique blend of 23 flavors."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Mountain Dew?",
-                  "es": "What is Mountain Dew?",
-                  "de": "What is Mountain Dew?",
-                  "nl": "What is Mountain Dew?"
-        },
-        options: [
-        {
-                  "en": "Tea-based drink",
-                  "es": "Tea-based drink",
-                  "de": "Tea-based drink",
-                  "nl": "Tea-based drink"
-        },
-        {
-                  "en": "Citrus-flavored caffeinated soft drink",
-                  "es": "Citrus-flavored caffeinated soft drink",
-                  "de": "Citrus-flavored caffeinated soft drink",
-                  "nl": "Citrus-flavored caffeinated soft drink"
-        },
-        {
-                  "en": "Energy drink",
-                  "es": "Energy drink",
-                  "de": "Energy drink",
-                  "nl": "Energy drink"
-        },
-        {
-                  "en": "Juice",
-                  "es": "Juice",
-                  "de": "Juice",
-                  "nl": "Juice"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Mountain Dew is a citrus-flavored carbonated soft drink with caffeine.",
-                  "es": "Mountain Dew is a citrus-flavored carbonated soft drink with caffeine.",
-                  "de": "Mountain Dew is a citrus-flavored carbonated soft drink with caffeine.",
-                  "nl": "Mountain Dew is a citrus-flavored carbonated soft drink with caffeine."
-        }
-      },
-      {
-        question: {
-                  "en": "What is tonic water?",
-                  "es": "What is tonic water?",
-                  "de": "What is tonic water?",
-                  "nl": "What is tonic water?"
-        },
-        options: [
-        {
-                  "en": "Sweet soda",
-                  "es": "Sweet soda",
-                  "de": "Sweet soda",
-                  "nl": "Sweet soda"
-        },
-        {
-                  "en": "Carbonated water with quinine",
-                  "es": "Carbonated water with quinine",
-                  "de": "Carbonated water with quinine",
-                  "nl": "Carbonated water with quinine"
-        },
-        {
-                  "en": "Flavored water",
-                  "es": "Flavored water",
-                  "de": "Flavored water",
-                  "nl": "Flavored water"
-        },
-        {
-                  "en": "Plain carbonated water",
-                  "es": "Plain carbonated water",
-                  "de": "Plain carbonated water",
-                  "nl": "Plain carbonated water"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Tonic water is carbonated water flavored with quinine, originally used to prevent malaria.",
-                  "es": "Tonic water is carbonated water flavored with quinine, originally used to prevent malaria.",
-                  "de": "Tonic water is carbonated water flavored with quinine, originally used to prevent malaria.",
-                  "nl": "Tonic water is carbonated water flavored with quinine, originally used to prevent malaria."
-        }
-      },
-      {
-        question: {
-                  "en": "What is club soda?",
-                  "es": "What is club soda?",
-                  "de": "What is club soda?",
-                  "nl": "What is club soda?"
-        },
-        options: [
-        {
-                  "en": "Fruit-flavored soda",
-                  "es": "Fruit-flavored soda",
-                  "de": "Fruit-flavored soda",
-                  "nl": "Fruit-flavored soda"
-        },
-        {
-                  "en": "Sweet soda",
-                  "es": "Sweet soda",
-                  "de": "Sweet soda",
-                  "nl": "Sweet soda"
-        },
-        {
-                  "en": "Alcoholic soda",
-                  "es": "Alcoholic soda",
-                  "de": "Alcoholic soda",
-                  "nl": "Alcoholic soda"
-        },
-        {
-                  "en": "Carbonated water with minerals",
-                  "es": "Carbonated water with minerals",
-                  "de": "Carbonated water with minerals",
-                  "nl": "Carbonated water with minerals"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Club soda is carbonated water with added minerals like sodium bicarbonate or potassium sulfate.",
-                  "es": "Club soda is carbonated water with added minerals like sodium bicarbonate or potassium sulfate.",
-                  "de": "Club soda is carbonated water with added minerals like sodium bicarbonate or potassium sulfate.",
-                  "nl": "Club soda is carbonated water with added minerals like sodium bicarbonate or potassium sulfate."
-        }
-      },
-      {
-        question: {
-                  "en": "What color is original Coca-Cola?",
-                  "es": "What color is original Coca-Cola?",
-                  "de": "What color is original Coca-Cola?",
-                  "nl": "What color is original Coca-Cola?"
-        },
-        options: [
-        {
-                  "en": "Black",
-                  "es": "Black",
-                  "de": "Black",
-                  "nl": "Black"
-        },
-        {
-                  "en": "Caramel brown",
-                  "es": "Caramel brown",
-                  "de": "Caramel brown",
-                  "nl": "Caramel brown"
-        },
-        {
-                  "en": "Red",
-                  "es": "Red",
-                  "de": "Red",
-                  "nl": "Red"
-        },
-        {
-                  "en": "Clear",
-                  "es": "Clear",
-                  "de": "Clear",
-                  "nl": "Clear"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Coca-Cola has a distinctive caramel brown color from caramel coloring.",
-                  "es": "Coca-Cola has a distinctive caramel brown color from caramel coloring.",
-                  "de": "Coca-Cola has a distinctive caramel brown color from caramel coloring.",
-                  "nl": "Coca-Cola has a distinctive caramel brown color from caramel coloring."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Fanta?",
-                  "es": "What is Fanta?",
-                  "de": "What is Fanta?",
-                  "nl": "What is Fanta?"
-        },
-        options: [
-        {
-                  "en": "Lemon-lime soda",
-                  "es": "Lemon-lime soda",
-                  "de": "Lemon-lime soda",
-                  "nl": "Lemon-lime soda"
-        },
-        {
-                  "en": "Cola drink",
-                  "es": "Cola drink",
-                  "de": "Cola drink",
-                  "nl": "Cola drink"
-        },
-        {
-                  "en": "Orange-flavored soft drink",
-                  "es": "Orange-flavored soft drink",
-                  "de": "Orange-flavored soft drink",
-                  "nl": "Orange-flavored soft drink"
-        },
-        {
-                  "en": "Root beer",
-                  "es": "Root beer",
-                  "de": "Root beer",
-                  "nl": "Root beer"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Fanta is a fruit-flavored carbonated soft drink, most commonly orange-flavored.",
-                  "es": "Fanta is a fruit-flavored carbonated soft drink, most commonly orange-flavored.",
-                  "de": "Fanta is a fruit-flavored carbonated soft drink, most commonly orange-flavored.",
-                  "nl": "Fanta is a fruit-flavored carbonated soft drink, most commonly orange-flavored."
-        }
-      },
-      {
-        question: {
-                  "en": "What does 'diet' or 'zero' soda mean?",
-                  "es": "What does 'diet' or 'zero' soda mean?",
-                  "de": "What does 'diet' or 'zero' soda mean?",
-                  "nl": "What does 'diet' or 'zero' soda mean?"
-        },
-        options: [
-        {
-                  "en": "Less carbonation",
-                  "es": "Less carbonation",
-                  "de": "Less carbonation",
-                  "nl": "Less carbonation"
-        },
-        {
-                  "en": "Sweetened with artificial sweeteners, no sugar",
-                  "es": "Sweetened with artificial sweeteners, no sugar",
-                  "de": "Sweetened with artificial sweeteners, no sugar",
-                  "nl": "Sweetened with artificial sweeteners, no sugar"
-        },
-        {
-                  "en": "No caffeine",
-                  "es": "No caffeine",
-                  "de": "No caffeine",
-                  "nl": "No caffeine"
-        },
-        {
-                  "en": "Organic ingredients",
-                  "es": "Organic ingredients",
-                  "de": "Organic ingredients",
-                  "nl": "Organic ingredients"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Diet or zero sodas use artificial sweeteners instead of sugar, reducing calories.",
-                  "es": "Diet or zero sodas use artificial sweeteners instead of sugar, reducing calories.",
-                  "de": "Diet or zero sodas use artificial sweeteners instead of sugar, reducing calories.",
-                  "nl": "Diet or zero sodas use artificial sweeteners instead of sugar, reducing calories."
-        }
-      },
-      {
-        question: {
-                  "en": "What is cream soda?",
-                  "es": "What is cream soda?",
-                  "de": "What is cream soda?",
-                  "nl": "What is cream soda?"
-        },
-        options: [
-        {
-                  "en": "Coffee soda",
-                  "es": "Coffee soda",
-                  "de": "Coffee soda",
-                  "nl": "Coffee soda"
-        },
-        {
-                  "en": "Soda with cream",
-                  "es": "Soda with cream",
-                  "de": "Soda with cream",
-                  "nl": "Soda with cream"
-        },
-        {
-                  "en": "Vanilla-flavored carbonated drink",
-                  "es": "Vanilla-flavored carbonated drink",
-                  "de": "Vanilla-flavored carbonated drink",
-                  "nl": "Vanilla-flavored carbonated drink"
-        },
-        {
-                  "en": "Chocolate soda",
-                  "es": "Chocolate soda",
-                  "de": "Chocolate soda",
-                  "nl": "Chocolate soda"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Cream soda is a sweet carbonated beverage flavored with vanilla.",
-                  "es": "Cream soda is a sweet carbonated beverage flavored with vanilla.",
-                  "de": "Cream soda is a sweet carbonated beverage flavored with vanilla.",
-                  "nl": "Cream soda is a sweet carbonated beverage flavored with vanilla."
-        }
-      },
-      {
-        question: {
-                  "en": "What is energy drink classified as?",
-                  "es": "What is energy drink classified as?",
-                  "de": "What is energy drink classified as?",
-                  "nl": "What is energy drink classified as?"
-        },
-        options: [
-        {
-                  "en": "Juice",
-                  "es": "Juice",
-                  "de": "Juice",
-                  "nl": "Juice"
-        },
-        {
-                  "en": "Soft drink with added stimulants",
-                  "es": "Soft drink with added stimulants",
-                  "de": "Soft drink with added stimulants",
-                  "nl": "Soft drink with added stimulants"
-        },
-        {
-                  "en": "Sports drink",
-                  "es": "Sports drink",
-                  "de": "Sports drink",
-                  "nl": "Sports drink"
-        },
-        {
-                  "en": "Tea",
-                  "es": "Tea",
-                  "de": "Tea",
-                  "nl": "Tea"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Energy drinks are soft drinks containing caffeine and other stimulants like taurine.",
-                  "es": "Energy drinks are soft drinks containing caffeine and other stimulants like taurine.",
-                  "de": "Energy drinks are soft drinks containing caffeine and other stimulants like taurine.",
-                  "nl": "Energy drinks are soft drinks containing caffeine and other stimulants like taurine."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 7-Up?",
-                  "es": "What is 7-Up?",
-                  "de": "What is 7-Up?",
-                  "nl": "What is 7-Up?"
-        },
-        options: [
-        {
-                  "en": "Lemon-lime flavored soft drink",
-                  "es": "Lemon-lime flavored soft drink",
-                  "de": "Lemon-lime flavored soft drink",
-                  "nl": "Lemon-lime flavored soft drink"
-        },
-        {
-                  "en": "Root beer",
-                  "es": "Root beer",
-                  "de": "Root beer",
-                  "nl": "Root beer"
-        },
-        {
-                  "en": "Cola",
-                  "es": "Cola",
-                  "de": "Cola",
-                  "nl": "Cola"
-        },
-        {
-                  "en": "Orange soda",
-                  "es": "Orange soda",
-                  "de": "Orange soda",
-                  "nl": "Orange soda"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "7-Up is a lemon-lime flavored non-caffeinated soft drink.",
-                  "es": "7-Up is a lemon-lime flavored non-caffeinated soft drink.",
-                  "de": "7-Up is a lemon-lime flavored non-caffeinated soft drink.",
-                  "nl": "7-Up is a lemon-lime flavored non-caffeinated soft drink."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the sweetener in regular soda?",
-                  "es": "What is the sweetener in regular soda?",
-                  "de": "What is the sweetener in regular soda?",
-                  "nl": "What is the sweetener in regular soda?"
-        },
-        options: [
-        {
-                  "en": "Artificial sweetener",
-                  "es": "Artificial sweetener",
-                  "de": "Artificial sweetener",
-                  "nl": "Artificial sweetener"
-        },
-        {
-                  "en": "Sugar or high-fructose corn syrup",
-                  "es": "Sugar or high-fructose corn syrup",
-                  "de": "Sugar or high-fructose corn syrup",
-                  "nl": "Sugar or high-fructose corn syrup"
-        },
-        {
-                  "en": "Fruit juice",
-                  "es": "Fruit juice",
-                  "de": "Fruit juice",
-                  "nl": "Fruit juice"
-        },
-        {
-                  "en": "Honey",
-                  "es": "Honey",
-                  "de": "Honey",
-                  "nl": "Honey"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Regular sodas are typically sweetened with sugar or high-fructose corn syrup.",
-                  "es": "Regular sodas are typically sweetened with sugar or high-fructose corn syrup.",
-                  "de": "Regular sodas are typically sweetened with sugar or high-fructose corn syrup.",
-                  "nl": "Regular sodas are typically sweetened with sugar or high-fructose corn syrup."
-        }
-      },
-      {
-        question: {
-                  "en": "What is seltzer water?",
-                  "es": "What is seltzer water?",
-                  "de": "What is seltzer water?",
-                  "nl": "What is seltzer water?"
-        },
-        options: [
-        {
-                  "en": "Plain carbonated water",
-                  "es": "Plain carbonated water",
-                  "de": "Plain carbonated water",
-                  "nl": "Plain carbonated water"
-        },
-        {
-                  "en": "Mineral water",
-                  "es": "Mineral water",
-                  "de": "Mineral water",
-                  "nl": "Mineral water"
-        },
-        {
-                  "en": "Tonic water",
-                  "es": "Tonic water",
-                  "de": "Tonic water",
-                  "nl": "Tonic water"
-        },
-        {
-                  "en": "Flavored soda",
-                  "es": "Flavored soda",
-                  "de": "Flavored soda",
-                  "nl": "Flavored soda"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Seltzer water is simply water that has been carbonated, with no added minerals or flavoring.",
-                  "es": "Seltzer water is simply water that has been carbonated, with no added minerals or flavoring.",
-                  "de": "Seltzer water is simply water that has been carbonated, with no added minerals or flavoring.",
-                  "nl": "Seltzer water is simply water that has been carbonated, with no added minerals or flavoring."
-        }
-      },
-      {
-        question: {
-                  "en": "What soft drink was originally a mixer for whiskey?",
-                  "es": "What soft drink was originally a mixer for whiskey?",
-                  "de": "What soft drink was originally a mixer for whiskey?",
-                  "nl": "What soft drink was originally a mixer for whiskey?"
-        },
-        options: [
-        {
-                  "en": "Ginger ale",
-                  "es": "Ginger ale",
-                  "de": "Ginger ale",
-                  "nl": "Ginger ale"
-        },
-        {
-                  "en": "Sprite",
-                  "es": "Sprite",
-                  "de": "Sprite",
-                  "nl": "Sprite"
-        },
-        {
-                  "en": "Coca-Cola",
-                  "es": "Coca-Cola",
-                  "de": "Coca-Cola",
-                  "nl": "Coca-Cola"
-        },
-        {
-                  "en": "Root beer",
-                  "es": "Root beer",
-                  "de": "Root beer",
-                  "nl": "Root beer"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Ginger ale was originally created in the 1850s and often used as a mixer for whiskey.",
-                  "es": "Ginger ale was originally created in the 1850s and often used as a mixer for whiskey.",
-                  "de": "Ginger ale was originally created in the 1850s and often used as a mixer for whiskey.",
-                  "nl": "Ginger ale was originally created in the 1850s and often used as a mixer for whiskey."
-        }
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level3;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Soft Drinks",
+      "es": "Pregunta 2 sobre Soft Drinks",
+      "de": "Frage 2 über Soft Drinks",
+      "nl": "Vraag 2 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Soft Drinks",
+      "es": "Pregunta 3 sobre Soft Drinks",
+      "de": "Frage 3 über Soft Drinks",
+      "nl": "Vraag 3 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Soft Drinks",
+      "es": "Pregunta 4 sobre Soft Drinks",
+      "de": "Frage 4 über Soft Drinks",
+      "nl": "Vraag 4 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Soft Drinks",
+      "es": "Pregunta 5 sobre Soft Drinks",
+      "de": "Frage 5 über Soft Drinks",
+      "nl": "Vraag 5 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Soft Drinks",
+      "es": "Pregunta 6 sobre Soft Drinks",
+      "de": "Frage 6 über Soft Drinks",
+      "nl": "Vraag 6 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Soft Drinks",
+      "es": "Pregunta 7 sobre Soft Drinks",
+      "de": "Frage 7 über Soft Drinks",
+      "nl": "Vraag 7 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Soft Drinks",
+      "es": "Pregunta 8 sobre Soft Drinks",
+      "de": "Frage 8 über Soft Drinks",
+      "nl": "Vraag 8 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Soft Drinks",
+      "es": "Pregunta 9 sobre Soft Drinks",
+      "de": "Frage 9 über Soft Drinks",
+      "nl": "Vraag 9 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Soft Drinks",
+      "es": "Pregunta 10 sobre Soft Drinks",
+      "de": "Frage 10 über Soft Drinks",
+      "nl": "Vraag 10 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Soft Drinks",
+      "es": "Pregunta 11 sobre Soft Drinks",
+      "de": "Frage 11 über Soft Drinks",
+      "nl": "Vraag 11 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Soft Drinks",
+      "es": "Pregunta 12 sobre Soft Drinks",
+      "de": "Frage 12 über Soft Drinks",
+      "nl": "Vraag 12 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Soft Drinks",
+      "es": "Pregunta 13 sobre Soft Drinks",
+      "de": "Frage 13 über Soft Drinks",
+      "nl": "Vraag 13 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Soft Drinks",
+      "es": "Pregunta 14 sobre Soft Drinks",
+      "de": "Frage 14 über Soft Drinks",
+      "nl": "Vraag 14 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Soft Drinks",
+      "es": "Pregunta 15 sobre Soft Drinks",
+      "de": "Frage 15 über Soft Drinks",
+      "nl": "Vraag 15 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Soft Drinks",
+      "es": "Pregunta 16 sobre Soft Drinks",
+      "de": "Frage 16 über Soft Drinks",
+      "nl": "Vraag 16 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Soft Drinks",
+      "es": "Pregunta 17 sobre Soft Drinks",
+      "de": "Frage 17 über Soft Drinks",
+      "nl": "Vraag 17 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Soft Drinks",
+      "es": "Pregunta 18 sobre Soft Drinks",
+      "de": "Frage 18 über Soft Drinks",
+      "nl": "Vraag 18 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Soft Drinks",
+      "es": "Pregunta 19 sobre Soft Drinks",
+      "de": "Frage 19 über Soft Drinks",
+      "nl": "Vraag 19 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Soft Drinks",
+      "es": "Pregunta 20 sobre Soft Drinks",
+      "de": "Frage 20 über Soft Drinks",
+      "nl": "Vraag 20 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Soft Drinks",
+      "es": "Pregunta 21 sobre Soft Drinks",
+      "de": "Frage 21 über Soft Drinks",
+      "nl": "Vraag 21 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Soft Drinks",
+      "es": "Pregunta 22 sobre Soft Drinks",
+      "de": "Frage 22 über Soft Drinks",
+      "nl": "Vraag 22 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Soft Drinks",
+      "es": "Pregunta 23 sobre Soft Drinks",
+      "de": "Frage 23 über Soft Drinks",
+      "nl": "Vraag 23 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Soft Drinks",
+      "es": "Pregunta 24 sobre Soft Drinks",
+      "de": "Frage 24 über Soft Drinks",
+      "nl": "Vraag 24 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Soft Drinks",
+      "es": "Pregunta 25 sobre Soft Drinks",
+      "de": "Frage 25 über Soft Drinks",
+      "nl": "Vraag 25 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Soft Drinks",
+      "es": "Pregunta 26 sobre Soft Drinks",
+      "de": "Frage 26 über Soft Drinks",
+      "nl": "Vraag 26 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Soft Drinks",
+      "es": "Pregunta 27 sobre Soft Drinks",
+      "de": "Frage 27 über Soft Drinks",
+      "nl": "Vraag 27 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Soft Drinks",
+      "es": "Pregunta 28 sobre Soft Drinks",
+      "de": "Frage 28 über Soft Drinks",
+      "nl": "Vraag 28 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Soft Drinks",
+      "es": "Pregunta 29 sobre Soft Drinks",
+      "de": "Frage 29 über Soft Drinks",
+      "nl": "Vraag 29 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Soft Drinks",
+      "es": "Pregunta 30 sobre Soft Drinks",
+      "de": "Frage 30 über Soft Drinks",
+      "nl": "Vraag 30 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Soft Drinks",
+      "es": "Pregunta 31 sobre Soft Drinks",
+      "de": "Frage 31 über Soft Drinks",
+      "nl": "Vraag 31 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Soft Drinks",
+      "es": "Pregunta 32 sobre Soft Drinks",
+      "de": "Frage 32 über Soft Drinks",
+      "nl": "Vraag 32 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Soft Drinks",
+      "es": "Pregunta 33 sobre Soft Drinks",
+      "de": "Frage 33 über Soft Drinks",
+      "nl": "Vraag 33 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Soft Drinks",
+      "es": "Pregunta 34 sobre Soft Drinks",
+      "de": "Frage 34 über Soft Drinks",
+      "nl": "Vraag 34 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Soft Drinks",
+      "es": "Pregunta 35 sobre Soft Drinks",
+      "de": "Frage 35 über Soft Drinks",
+      "nl": "Vraag 35 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Soft Drinks",
+      "es": "Pregunta 36 sobre Soft Drinks",
+      "de": "Frage 36 über Soft Drinks",
+      "nl": "Vraag 36 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Soft Drinks",
+      "es": "Pregunta 37 sobre Soft Drinks",
+      "de": "Frage 37 über Soft Drinks",
+      "nl": "Vraag 37 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Soft Drinks",
+      "es": "Pregunta 38 sobre Soft Drinks",
+      "de": "Frage 38 über Soft Drinks",
+      "nl": "Vraag 38 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Soft Drinks",
+      "es": "Pregunta 39 sobre Soft Drinks",
+      "de": "Frage 39 über Soft Drinks",
+      "nl": "Vraag 39 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Soft Drinks",
+      "es": "Pregunta 40 sobre Soft Drinks",
+      "de": "Frage 40 über Soft Drinks",
+      "nl": "Vraag 40 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Soft Drinks",
+      "es": "Pregunta 41 sobre Soft Drinks",
+      "de": "Frage 41 über Soft Drinks",
+      "nl": "Vraag 41 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Soft Drinks",
+      "es": "Pregunta 42 sobre Soft Drinks",
+      "de": "Frage 42 über Soft Drinks",
+      "nl": "Vraag 42 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Soft Drinks",
+      "es": "Pregunta 43 sobre Soft Drinks",
+      "de": "Frage 43 über Soft Drinks",
+      "nl": "Vraag 43 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Soft Drinks",
+      "es": "Pregunta 44 sobre Soft Drinks",
+      "de": "Frage 44 über Soft Drinks",
+      "nl": "Vraag 44 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Soft Drinks",
+      "es": "Pregunta 45 sobre Soft Drinks",
+      "de": "Frage 45 über Soft Drinks",
+      "nl": "Vraag 45 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Soft Drinks",
+      "es": "Pregunta 46 sobre Soft Drinks",
+      "de": "Frage 46 über Soft Drinks",
+      "nl": "Vraag 46 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Soft Drinks",
+      "es": "Pregunta 47 sobre Soft Drinks",
+      "de": "Frage 47 über Soft Drinks",
+      "nl": "Vraag 47 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Soft Drinks",
+      "es": "Pregunta 48 sobre Soft Drinks",
+      "de": "Frage 48 über Soft Drinks",
+      "nl": "Vraag 48 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Soft Drinks",
+      "es": "Pregunta 49 sobre Soft Drinks",
+      "de": "Frage 49 über Soft Drinks",
+      "nl": "Vraag 49 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Soft Drinks",
+      "es": "Pregunta 50 sobre Soft Drinks",
+      "de": "Frage 50 über Soft Drinks",
+      "nl": "Vraag 50 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Soft Drinks",
+      "es": "Pregunta 51 sobre Soft Drinks",
+      "de": "Frage 51 über Soft Drinks",
+      "nl": "Vraag 51 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Soft Drinks",
+      "es": "Pregunta 52 sobre Soft Drinks",
+      "de": "Frage 52 über Soft Drinks",
+      "nl": "Vraag 52 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Soft Drinks",
+      "es": "Pregunta 53 sobre Soft Drinks",
+      "de": "Frage 53 über Soft Drinks",
+      "nl": "Vraag 53 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Soft Drinks",
+      "es": "Pregunta 54 sobre Soft Drinks",
+      "de": "Frage 54 über Soft Drinks",
+      "nl": "Vraag 54 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Soft Drinks",
+      "es": "Pregunta 55 sobre Soft Drinks",
+      "de": "Frage 55 über Soft Drinks",
+      "nl": "Vraag 55 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Soft Drinks",
+      "es": "Pregunta 56 sobre Soft Drinks",
+      "de": "Frage 56 über Soft Drinks",
+      "nl": "Vraag 56 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Soft Drinks",
+      "es": "Pregunta 57 sobre Soft Drinks",
+      "de": "Frage 57 über Soft Drinks",
+      "nl": "Vraag 57 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Soft Drinks",
+      "es": "Pregunta 58 sobre Soft Drinks",
+      "de": "Frage 58 über Soft Drinks",
+      "nl": "Vraag 58 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Soft Drinks",
+      "es": "Pregunta 59 sobre Soft Drinks",
+      "de": "Frage 59 über Soft Drinks",
+      "nl": "Vraag 59 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Soft Drinks",
+      "es": "Pregunta 60 sobre Soft Drinks",
+      "de": "Frage 60 über Soft Drinks",
+      "nl": "Vraag 60 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Soft Drinks",
+      "es": "Pregunta 61 sobre Soft Drinks",
+      "de": "Frage 61 über Soft Drinks",
+      "nl": "Vraag 61 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Soft Drinks",
+      "es": "Pregunta 62 sobre Soft Drinks",
+      "de": "Frage 62 über Soft Drinks",
+      "nl": "Vraag 62 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Soft Drinks",
+      "es": "Pregunta 63 sobre Soft Drinks",
+      "de": "Frage 63 über Soft Drinks",
+      "nl": "Vraag 63 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Soft Drinks",
+      "es": "Pregunta 64 sobre Soft Drinks",
+      "de": "Frage 64 über Soft Drinks",
+      "nl": "Vraag 64 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Soft Drinks",
+      "es": "Pregunta 65 sobre Soft Drinks",
+      "de": "Frage 65 über Soft Drinks",
+      "nl": "Vraag 65 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Soft Drinks",
+      "es": "Pregunta 66 sobre Soft Drinks",
+      "de": "Frage 66 über Soft Drinks",
+      "nl": "Vraag 66 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Soft Drinks",
+      "es": "Pregunta 67 sobre Soft Drinks",
+      "de": "Frage 67 über Soft Drinks",
+      "nl": "Vraag 67 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Soft Drinks",
+      "es": "Pregunta 68 sobre Soft Drinks",
+      "de": "Frage 68 über Soft Drinks",
+      "nl": "Vraag 68 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Soft Drinks",
+      "es": "Pregunta 69 sobre Soft Drinks",
+      "de": "Frage 69 über Soft Drinks",
+      "nl": "Vraag 69 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Soft Drinks",
+      "es": "Pregunta 70 sobre Soft Drinks",
+      "de": "Frage 70 über Soft Drinks",
+      "nl": "Vraag 70 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Soft Drinks",
+      "es": "Pregunta 71 sobre Soft Drinks",
+      "de": "Frage 71 über Soft Drinks",
+      "nl": "Vraag 71 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Soft Drinks",
+      "es": "Pregunta 72 sobre Soft Drinks",
+      "de": "Frage 72 über Soft Drinks",
+      "nl": "Vraag 72 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Soft Drinks",
+      "es": "Pregunta 73 sobre Soft Drinks",
+      "de": "Frage 73 über Soft Drinks",
+      "nl": "Vraag 73 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Soft Drinks",
+      "es": "Pregunta 74 sobre Soft Drinks",
+      "de": "Frage 74 über Soft Drinks",
+      "nl": "Vraag 74 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Soft Drinks",
+      "es": "Pregunta 75 sobre Soft Drinks",
+      "de": "Frage 75 über Soft Drinks",
+      "nl": "Vraag 75 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Soft Drinks",
+      "es": "Pregunta 76 sobre Soft Drinks",
+      "de": "Frage 76 über Soft Drinks",
+      "nl": "Vraag 76 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Soft Drinks",
+      "es": "Pregunta 77 sobre Soft Drinks",
+      "de": "Frage 77 über Soft Drinks",
+      "nl": "Vraag 77 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Soft Drinks",
+      "es": "Pregunta 78 sobre Soft Drinks",
+      "de": "Frage 78 über Soft Drinks",
+      "nl": "Vraag 78 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Soft Drinks",
+      "es": "Pregunta 79 sobre Soft Drinks",
+      "de": "Frage 79 über Soft Drinks",
+      "nl": "Vraag 79 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Soft Drinks",
+      "es": "Pregunta 80 sobre Soft Drinks",
+      "de": "Frage 80 über Soft Drinks",
+      "nl": "Vraag 80 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Soft Drinks",
+      "es": "Pregunta 81 sobre Soft Drinks",
+      "de": "Frage 81 über Soft Drinks",
+      "nl": "Vraag 81 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Soft Drinks",
+      "es": "Pregunta 82 sobre Soft Drinks",
+      "de": "Frage 82 über Soft Drinks",
+      "nl": "Vraag 82 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Soft Drinks",
+      "es": "Pregunta 83 sobre Soft Drinks",
+      "de": "Frage 83 über Soft Drinks",
+      "nl": "Vraag 83 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Soft Drinks",
+      "es": "Pregunta 84 sobre Soft Drinks",
+      "de": "Frage 84 über Soft Drinks",
+      "nl": "Vraag 84 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Soft Drinks",
+      "es": "Pregunta 85 sobre Soft Drinks",
+      "de": "Frage 85 über Soft Drinks",
+      "nl": "Vraag 85 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Soft Drinks",
+      "es": "Pregunta 86 sobre Soft Drinks",
+      "de": "Frage 86 über Soft Drinks",
+      "nl": "Vraag 86 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Soft Drinks",
+      "es": "Pregunta 87 sobre Soft Drinks",
+      "de": "Frage 87 über Soft Drinks",
+      "nl": "Vraag 87 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Soft Drinks",
+      "es": "Pregunta 88 sobre Soft Drinks",
+      "de": "Frage 88 über Soft Drinks",
+      "nl": "Vraag 88 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Soft Drinks",
+      "es": "Pregunta 89 sobre Soft Drinks",
+      "de": "Frage 89 über Soft Drinks",
+      "nl": "Vraag 89 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Soft Drinks",
+      "es": "Pregunta 90 sobre Soft Drinks",
+      "de": "Frage 90 über Soft Drinks",
+      "nl": "Vraag 90 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Soft Drinks",
+      "es": "Pregunta 91 sobre Soft Drinks",
+      "de": "Frage 91 über Soft Drinks",
+      "nl": "Vraag 91 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Soft Drinks",
+      "es": "Pregunta 92 sobre Soft Drinks",
+      "de": "Frage 92 über Soft Drinks",
+      "nl": "Vraag 92 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Soft Drinks",
+      "es": "Pregunta 93 sobre Soft Drinks",
+      "de": "Frage 93 über Soft Drinks",
+      "nl": "Vraag 93 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Soft Drinks",
+      "es": "Pregunta 94 sobre Soft Drinks",
+      "de": "Frage 94 über Soft Drinks",
+      "nl": "Vraag 94 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Soft Drinks",
+      "es": "Pregunta 95 sobre Soft Drinks",
+      "de": "Frage 95 über Soft Drinks",
+      "nl": "Vraag 95 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Soft Drinks",
+      "es": "Pregunta 96 sobre Soft Drinks",
+      "de": "Frage 96 über Soft Drinks",
+      "nl": "Vraag 96 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Soft Drinks",
+      "es": "Pregunta 97 sobre Soft Drinks",
+      "de": "Frage 97 über Soft Drinks",
+      "nl": "Vraag 97 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Soft Drinks",
+      "es": "Pregunta 98 sobre Soft Drinks",
+      "de": "Frage 98 über Soft Drinks",
+      "nl": "Vraag 98 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Soft Drinks",
+      "es": "Pregunta 99 sobre Soft Drinks",
+      "de": "Frage 99 über Soft Drinks",
+      "nl": "Vraag 99 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Soft Drinks",
+      "es": "Pregunta 100 sobre Soft Drinks",
+      "de": "Frage 100 über Soft Drinks",
+      "nl": "Vraag 100 over Soft Drinks"
+    },
+    "options": [
+      {
+        "en": "Answer A for Soft Drinks",
+        "es": "Respuesta A para Soft Drinks",
+        "de": "Antwort A für Soft Drinks",
+        "nl": "Antwoord A voor Soft Drinks"
+      },
+      {
+        "en": "Answer B for Soft Drinks",
+        "es": "Respuesta B para Soft Drinks",
+        "de": "Antwort B für Soft Drinks",
+        "nl": "Antwoord B voor Soft Drinks"
+      },
+      {
+        "en": "Answer C for Soft Drinks",
+        "es": "Respuesta C para Soft Drinks",
+        "de": "Antwort C für Soft Drinks",
+        "nl": "Antwoord C voor Soft Drinks"
+      },
+      {
+        "en": "Answer D for Soft Drinks",
+        "es": "Respuesta D para Soft Drinks",
+        "de": "Antwort D für Soft Drinks",
+        "nl": "Antwoord D voor Soft Drinks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Soft Drinks.",
+      "es": "Esta es la respuesta correcta sobre Soft Drinks.",
+      "de": "Dies ist die richtige Antwort über Soft Drinks.",
+      "nl": "Dit is het juiste antwoord over Soft Drinks."
+    }
   }
-})();
+]
+};

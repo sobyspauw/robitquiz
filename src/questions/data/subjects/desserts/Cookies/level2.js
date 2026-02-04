@@ -1,1657 +1,4104 @@
-// Cookies Quiz - Level 2
-(function() {
-  const level2 = {
-    name: {
-          "en": "Cookies - Level 2",
-          "es": "Galletas - Nivel 2",
-          "de": "Kekse - Level 2",
-          "nl": "Koekjes - Level 2"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Cookies",
+      "es": "Pregunta 1 sobre Cookies",
+      "de": "Frage 1 über Cookies",
+      "nl": "Vraag 1 over Cookies"
     },
-    questions: [
+    "options": [
       {
-        question: {
-                  "en": "What is the primary factor that determines whether cookies spread during baking?",
-                  "es": "¿Cuál es el factor principal que determina si las galletas se extienden durante el horneado?",
-                  "de": "Was ist der Hauptfaktor, der bestimmt, ob Kekse beim Backen verlaufen?",
-                  "nl": "Wat is de primaire factor die bepaalt of koekjes uitlopen tijdens het bakken?"
-        },
-        options: [
-        {
-                  "en": "Fat temperature and type",
-                  "es": "Temperatura y tipo de grasa",
-                  "de": "Fetttemperatur und -typ",
-                  "nl": "Vettemperatuur en type"
-        },
-        {
-                  "en": "Flour protein level",
-                  "es": "Nivel de proteína en harina",
-                  "de": "Mehlproteingehalt",
-                  "nl": "Bloem eiwitgehalte"
-        },
-        {
-                  "en": "Oven temperature only",
-                  "es": "Solo temperatura del horno",
-                  "de": "Nur Ofentemperatur",
-                  "nl": "Alleen oventemperatuur"
-        },
-        {
-                  "en": "Sugar content",
-                  "es": "Contenido de azúcar",
-                  "de": "Zuckergehalt",
-                  "nl": "Suikergehalte"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Fat temperature and type are the primary factors controlling cookie spread. Cold butter creates less spread, while melted butter creates more spread during baking.",
-                  "es": "La temperatura y tipo de grasa son los factores principales que controlan la extensión de las galletas. La mantequilla fría crea menos extensión, mientras que la mantequilla derretida crea más extensión.",
-                  "de": "Fetttemperatur und -typ sind die Hauptfaktoren, die das Verlaufen von Keksen kontrollieren. Kalte Butter erzeugt weniger Verlaufen, während geschmolzene Butter mehr Verlaufen verursacht.",
-                  "nl": "Vettemperatuur en type zijn de primaire factoren die koekjes uitlopen controleren. Koude boter creëert minder uitlopen, terwijl gesmolten boter meer uitlopen veroorzaakt."
-        }
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
       },
       {
-        question: {
-                  "en": "What is the difference between brown sugar and white sugar in cookie dough?",
-                  "es": "¿Cuál es la diferencia entre azúcar moreno y azúcar blanco en la masa de galletas?",
-                  "de": "Was ist der Unterschied zwischen braunem Zucker und weißem Zucker im Keksteig?",
-                  "nl": "Wat is het verschil tussen bruine suiker en witte suiker in koekjesdeeg?"
-        },
-        options: [
-        {
-                  "en": "Brown sugar makes cookies more crispy",
-                  "es": "El azúcar moreno hace las galletas más crujientes",
-                  "de": "Brauner Zucker macht Kekse knuspriger",
-                  "nl": "Bruine suiker maakt koekjes knapperiger"
-        },
-        {
-                  "en": "No difference in texture",
-                  "es": "No hay diferencia en textura",
-                  "de": "Kein Unterschied in der Textur",
-                  "nl": "Geen verschil in textuur"
-        },
-        {
-                  "en": "Only affects color",
-                  "es": "Solo afecta el color",
-                  "de": "Beeinflusst nur die Farbe",
-                  "nl": "Beïnvloedt alleen kleur"
-        },
-        {
-                  "en": "Brown sugar adds moisture and chewiness",
-                  "es": "El azúcar moreno añade humedad y masticabilidad",
-                  "de": "Brauner Zucker fügt Feuchtigkeit und Kaubarkeit hinzu",
-                  "nl": "Bruine suiker voegt vocht en kauwbaarheid toe"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Brown sugar contains molasses, which adds moisture and creates chewier cookies, while white sugar contributes to crispness and spread.",
-                  "es": "El azúcar moreno contiene melaza, que añade humedad y crea galletas más masticables, mientras que el azúcar blanco contribuye a la textura crujiente y extensión.",
-                  "de": "Brauner Zucker enthält Melasse, die Feuchtigkeit hinzufügt und kaubarere Kekse erzeugt, während weißer Zucker zu Knusprigkeit und Verlaufen beiträgt.",
-                  "nl": "Bruine suiker bevat melasse, wat vocht toevoegt en kauwbaardere koekjes creëert, terwijl witte suiker bijdraagt aan knapperigheid en uitlopen."
-        }
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
       },
       {
-        question: {
-                  "en": "What technique prevents chocolate chip cookies from becoming flat and greasy?",
-                  "es": "¿Qué técnica previene que las galletas de chispas de chocolate se vuelvan planas y grasosas?",
-                  "de": "Welche Technik verhindert, dass Schokoladenkekse flach und fettig werden?",
-                  "nl": "Welke techniek voorkomt dat chocolate chip cookies plat en vettig worden?"
-        },
-        options: [
-        {
-                  "en": "Baking at very high temperature",
-                  "es": "Hornear a temperatura muy alta",
-                  "de": "Bei sehr hoher Temperatur backen",
-                  "nl": "Bakken op zeer hoge temperatuur"
-        },
-        {
-                  "en": "Adding extra flour",
-                  "es": "Agregar harina extra",
-                  "de": "Extra Mehl hinzufügen",
-                  "nl": "Extra bloem toevoegen"
-        },
-        {
-                  "en": "Using only white sugar",
-                  "es": "Usar solo azúcar blanco",
-                  "de": "Nur weißen Zucker verwenden",
-                  "nl": "Alleen witte suiker gebruiken"
-        },
-        {
-                  "en": "Chilling the dough before baking",
-                  "es": "Enfriar la masa antes de hornear",
-                  "de": "Den Teig vor dem Backen kühlen",
-                  "nl": "Het deeg koelen voor het bakken"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Chilling cookie dough solidifies the fat, which slows spreading during the initial baking phase, resulting in thicker, less greasy cookies with better shape retention.",
-                  "es": "Enfriar la masa de galletas solidifica la grasa, lo que ralentiza la extensión durante la fase inicial de horneado, resultando en galletas más gruesas y menos grasosas.",
-                  "de": "Das Kühlen des Keksteigs festigt das Fett, was das Verlaufen während der anfänglichen Backphase verlangsamt und dickere, weniger fettige Kekse mit besserer Formbeibehaltung ergibt.",
-                  "nl": "Het koelen van koekjesdeeg verstevigt het vet, wat uitlopen tijdens de eerste bakfase vertraagt, resulterend in dikkere, minder vette koekjes met betere vormretentie."
-        }
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
       },
       {
-        question: {
-                  "en": "What is the purpose of cream of tartar in snickerdoodle cookies?",
-                  "es": "¿Cuál es el propósito del cremor tártaro en las galletas snickerdoodle?",
-                  "de": "Was ist der Zweck von Weinstein in Snickerdoodle-Keksen?",
-                  "nl": "Wat is het doel van wijnsteen in snickerdoodle koekjes?"
-        },
-        options: [
-        {
-                  "en": "Activate baking soda and create tender texture",
-                  "es": "Activar bicarbonato y crear textura tierna",
-                  "de": "Natron aktivieren und zarte Textur erzeugen",
-                  "nl": "Zuiveringszout activeren en zachte textuur creëren"
-        },
-        {
-                  "en": "Preserve color",
-                  "es": "Preservar color",
-                  "de": "Farbe erhalten",
-                  "nl": "Kleur behouden"
-        },
-        {
-                  "en": "Prevent spreading",
-                  "es": "Prevenir extensión",
-                  "de": "Verlaufen verhindern",
-                  "nl": "Uitlopen voorkomen"
-        },
-        {
-                  "en": "Add flavor only",
-                  "es": "Solo agregar sabor",
-                  "de": "Nur Geschmack hinzufügen",
-                  "nl": "Alleen smaak toevoegen"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Cream of tartar provides acid to activate baking soda, creating lift and tender texture, while also contributing to the characteristic tangy flavor of snickerdoodles.",
-                  "es": "El cremor tártaro proporciona ácido para activar el bicarbonato, creando levado y textura tierna, mientras también contribuye al sabor ácido característico de los snickerdoodles.",
-                  "de": "Weinstein liefert Säure zur Aktivierung von Natron, erzeugt Auftrieb und zarte Textur, während es auch zum charakteristischen säuerlichen Geschmack von Snickerdoodles beiträgt.",
-                  "nl": "Wijnsteen levert zuur om zuiveringszout te activeren, creëert lift en zachte textuur, terwijl het ook bijdraagt aan de kenmerkende zure smaak van snickerdoodles."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the optimal mixing method for maintaining tender cookie texture?",
-                  "es": "¿Cuál es el método óptimo de mezclado para mantener textura tierna en galletas?",
-                  "de": "Was ist die optimale Mischmethode für die Erhaltung zarter Kekstextur?",
-                  "nl": "Wat is de optimale mengmethode voor het behouden van zachte koekjestextuur?"
-        },
-        options: [
-        {
-                  "en": "High-speed mixing for maximum air incorporation",
-                  "es": "Mezclado a alta velocidad para máxima incorporación de aire",
-                  "de": "Hochgeschwindigkeitsmischen für maximale Lufteinarbeitung",
-                  "nl": "Hoge snelheid mengen voor maximale luchtinwerking"
-        },
-        {
-                  "en": "Long mixing time to develop gluten",
-                  "es": "Tiempo de mezclado largo para desarrollar gluten",
-                  "de": "Lange Mischzeit zur Glutenentwicklung",
-                  "nl": "Lange mengtijd om gluten te ontwikkelen"
-        },
-        {
-                  "en": "Alternating wet and dry ingredients",
-                  "es": "Alternando ingredientes húmedos y secos",
-                  "de": "Abwechselnd feuchte und trockene Zutaten",
-                  "nl": "Afwisselend natte en droge ingrediënten"
-        },
-        {
-                  "en": "Minimal mixing just until ingredients are combined",
-                  "es": "Mezclado mínimo solo hasta combinar ingredientes",
-                  "de": "Minimales Mischen nur bis Zutaten kombiniert sind",
-                  "nl": "Minimaal mengen tot ingrediënten net gecombineerd zijn"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Minimal mixing prevents excessive gluten development, which would create tough cookies. Mix just until flour is incorporated for optimal tenderness.",
-                  "es": "El mezclado mínimo previene el desarrollo excesivo de gluten, que crearía galletas duras. Mezclar solo hasta incorporar la harina para terneza óptima.",
-                  "de": "Minimales Mischen verhindert übermäßige Glutenentwicklung, die zähe Kekse erzeugen würde. Nur mischen, bis Mehl eingearbeitet ist für optimale Zartheit.",
-                  "nl": "Minimaal mengen voorkomt overmatige glutenontwikkeling, wat taaie koekjes zou creëren. Alleen mengen tot bloem is ingewerkt voor optimale zachtheid."
-        }
-      },
-      {
-        question: {
-                  "en": "What causes cookies to become tough and dense?",
-                  "es": "¿Qué causa que las galletas se vuelvan duras y densas?",
-                  "de": "Was verursacht, dass Kekse zäh und dicht werden?",
-                  "nl": "Wat veroorzaakt dat koekjes taai en dicht worden?"
-        },
-        options: [
-        {
-                  "en": "Too much sugar",
-                  "es": "Demasiado azúcar",
-                  "de": "Zu viel Zucker",
-                  "nl": "Te veel suiker"
-        },
-        {
-                  "en": "Not enough fat",
-                  "es": "No suficiente grasa",
-                  "de": "Nicht genug Fett",
-                  "nl": "Niet genoeg vet"
-        },
-        {
-                  "en": "Baking temperature too low",
-                  "es": "Temperatura de horneado muy baja",
-                  "de": "Backtemperatur zu niedrig",
-                  "nl": "Baktemperatuur te laag"
-        },
-        {
-                  "en": "Overmixing and too much flour",
-                  "es": "Mezclado excesivo y demasiada harina",
-                  "de": "Übermischen und zu viel Mehl",
-                  "nl": "Overmengen en te veel bloem"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Overmixing develops too much gluten, and excess flour creates dry, dense cookies. Both factors work against the tender, light texture desired in cookies.",
-                  "es": "El mezclado excesivo desarrolla demasiado gluten, y el exceso de harina crea galletas secas y densas. Ambos factores van contra la textura tierna y ligera deseada.",
-                  "de": "Übermischen entwickelt zu viel Gluten, und überschüssiges Mehl erzeugt trockene, dichte Kekse. Beide Faktoren arbeiten gegen die gewünschte zarte, leichte Textur.",
-                  "nl": "Overmengen ontwikkelt te veel gluten, en overtollige bloem creëert droge, dichte koekjes. Beide factoren werken tegen de gewenste zachte, lichte textuur."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the purpose of using parchment paper versus greasing cookie sheets?",
-                  "es": "¿Cuál es el propósito de usar papel pergamino versus engrasar bandejas para galletas?",
-                  "de": "Was ist der Zweck der Verwendung von Backpapier gegenüber dem Einfetten von Keksblechen?",
-                  "nl": "Wat is het doel van het gebruik van bakpapier versus het invetten van koekjesplaten?"
-        },
-        options: [
-        {
-                  "en": "Parchment prevents over-browning and sticking",
-                  "es": "El pergamino previene exceso de dorado y pegado",
-                  "de": "Backpapier verhindert Überbräunung und Ankleben",
-                  "nl": "Bakpapier voorkomt overbruinen en aanplakken"
-        },
-        {
-                  "en": "Greasing is always better",
-                  "es": "Engrasar es siempre mejor",
-                  "de": "Einfetten ist immer besser",
-                  "nl": "Invetten is altijd beter"
-        },
-        {
-                  "en": "No difference",
-                  "es": "No hay diferencia",
-                  "de": "Kein Unterschied",
-                  "nl": "Geen verschil"
-        },
-        {
-                  "en": "Parchment only prevents sticking",
-                  "es": "El pergamino solo previene pegado",
-                  "de": "Backpapier verhindert nur Ankleben",
-                  "nl": "Bakpapier voorkomt alleen aanplakken"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Parchment paper provides insulation that prevents over-browning of cookie bottoms while also preventing sticking, resulting in more evenly baked cookies.",
-                  "es": "El papel pergamino proporciona aislamiento que previene el exceso de dorado en el fondo de las galletas mientras también previene el pegado, resultando en galletas más uniformemente horneadas.",
-                  "de": "Backpapier bietet Isolierung, die Überbräunung der Keksunterseiten verhindert, während es auch Ankleben verhindert, was gleichmäßiger gebackene Kekse ergibt.",
-                  "nl": "Bakpapier biedt isolatie die overbruinen van koekjesbodem voorkomt terwijl het ook aanplakken voorkomt, resulterend in gelijkmatiger gebakken koekjes."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the ideal ratio of flour to fat for optimal cookie texture?",
-                  "es": "¿Cuál es la proporción ideal de harina a grasa para textura óptima de galletas?",
-                  "de": "Was ist das ideale Verhältnis von Mehl zu Fett für optimale Kekstextur?",
-                  "nl": "Wat is de ideale verhouding van bloem tot vet voor optimale koekjestextuur?"
-        },
-        options: [
-        {
-                  "en": "1:1 (equal amounts)",
-                  "es": "1:1 (cantidades iguales)",
-                  "de": "1:1 (gleiche Mengen)",
-                  "nl": "1:1 (gelijke hoeveelheden)"
-        },
-        {
-                  "en": "3:1 (flour to fat)",
-                  "es": "3:1 (harina a grasa)",
-                  "de": "3:1 (Mehl zu Fett)",
-                  "nl": "3:1 (bloem tot vet)"
-        },
-        {
-                  "en": "2:1 (flour to fat)",
-                  "es": "2:1 (harina a grasa)",
-                  "de": "2:1 (Mehl zu Fett)",
-                  "nl": "2:1 (bloem tot vet)"
-        },
-        {
-                  "en": "4:1 (flour to fat)",
-                  "es": "4:1 (harina a grasa)",
-                  "de": "4:1 (Mehl zu Fett)",
-                  "nl": "4:1 (bloem tot vet)"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "A 3:1 ratio of flour to fat provides the optimal balance for most cookies, ensuring proper structure while maintaining tenderness and flavor.",
-                  "es": "Una proporción 3:1 de harina a grasa proporciona el equilibrio óptimo para la mayoría de galletas, asegurando estructura adecuada mientras mantiene terneza y sabor.",
-                  "de": "Ein 3:1-Verhältnis von Mehl zu Fett bietet das optimale Gleichgewicht für die meisten Kekse, gewährleistet richtige Struktur bei Erhaltung von Zartheit und Geschmack.",
-                  "nl": "Een 3:1 verhouding van bloem tot vet biedt de optimale balans voor de meeste koekjes, verzekert juiste structuur terwijl zachtheid en smaak behouden blijven."
-        }
-      },
-      {
-        question: {
-                  "en": "What technique creates the characteristic texture in shortbread cookies?",
-                  "es": "¿Qué técnica crea la textura característica en las galletas shortbread?",
-                  "de": "Welche Technik erzeugt die charakteristische Textur in Shortbread-Keksen?",
-                  "nl": "Welke techniek creëert de kenmerkende textuur in shortbread koekjes?"
-        },
-        options: [
-        {
-                  "en": "Chemical leavening agents",
-                  "es": "Agentes leudantes químicos",
-                  "de": "Chemische Triebmittel",
-                  "nl": "Chemische rijsmiddelen"
-        },
-        {
-                  "en": "High ratio of butter with minimal liquid",
-                  "es": "Alta proporción de mantequilla con líquido mínimo",
-                  "de": "Hoher Butteranteil mit minimaler Flüssigkeit",
-                  "nl": "Hoge verhouding boter met minimale vloeistof"
-        },
-        {
-                  "en": "Long mixing time",
-                  "es": "Tiempo de mezclado largo",
-                  "de": "Lange Mischzeit",
-                  "nl": "Lange mengtijd"
-        },
-        {
-                  "en": "Adding eggs for binding",
-                  "es": "Agregar huevos para unir",
-                  "de": "Eier zum Binden hinzufügen",
-                  "nl": "Eieren toevoegen voor binding"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Shortbread's characteristic crumbly, tender texture comes from a high ratio of butter to flour with minimal liquid, creating a 'short' (tender) texture from fat coating flour proteins.",
-                  "es": "La textura característica desmenuzable y tierna del shortbread viene de una alta proporción de mantequilla a harina con líquido mínimo, creando una textura 'corta' (tierna) del grasa cubriendo proteínas de harina.",
-                  "de": "Shortbreads charakteristische krümelige, zarte Textur kommt von einem hohen Verhältnis von Butter zu Mehl mit minimaler Flüssigkeit, was eine 'kurze' (zarte) Textur durch Fett erzeugt, das Mehlproteine umhüllt.",
-                  "nl": "Shortbreads kenmerkende kruimelige, zachte textuur komt van een hoge verhouding boter tot bloem met minimale vloeistof, wat een 'korte' (zachte) textuur creëert door vet dat bloem eiwitten omhult."
-        }
-      },
-      {
-        question: {
-                  "en": "Why do sugar cookies require rolling and cutting rather than drop-cookie method?",
-                  "es": "¿Por qué las galletas de azúcar requieren estirar y cortar en lugar del método de galletas por gotas?",
-                  "de": "Warum erfordern Zuckerkekse Ausrollen und Ausstechen anstatt der Klecks-Keks-Methode?",
-                  "nl": "Waarom vereisen suikerkoekjes uitrollen en uitsnijden in plaats van de drop-koekjes methode?"
-        },
-        options: [
-        {
-                  "en": "Sugar crystals need even distribution",
-                  "es": "Los cristales de azúcar necesitan distribución uniforme",
-                  "de": "Zuckerkristalle benötigen gleichmäßige Verteilung",
-                  "nl": "Suikerkristallen hebben gelijkmatige verdeling nodig"
-        },
-        {
-                  "en": "Higher fat content makes dough too soft to drop",
-                  "es": "Mayor contenido de grasa hace la masa muy suave para gotear",
-                  "de": "Höherer Fettgehalt macht Teig zu weich zum Tropfen",
-                  "nl": "Hoger vetgehalte maakt deeg te zacht om te laten vallen"
-        },
-        {
-                  "en": "Lower moisture content creates firmer dough suitable for rolling",
-                  "es": "Menor contenido de humedad crea masa más firme adecuada para estirar",
-                  "de": "Niedrigerer Feuchtigkeitsgehalt erzeugt festeren Teig geeignet zum Ausrollen",
-                  "nl": "Lager vochtgehalte creëert steviger deeg geschikt voor uitrollen"
-        },
-        {
-                  "en": "Temperature requirements differ",
-                  "es": "Los requisitos de temperatura difieren",
-                  "de": "Temperaturanforderungen unterscheiden sich",
-                  "nl": "Temperatuurvereisten verschillen"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Sugar cookie dough has lower moisture content and firmer consistency, making it ideal for rolling and cutting into shapes while maintaining clean edges and defined forms.",
-                  "es": "La masa de galletas de azúcar tiene menor contenido de humedad y consistencia más firme, haciéndola ideal para estirar y cortar en formas mientras mantiene bordes limpios y formas definidas.",
-                  "de": "Zuckerkeksteig hat niedrigeren Feuchtigkeitsgehalt und festere Konsistenz, was ihn ideal zum Ausrollen und Ausstechen in Formen macht, während saubere Kanten und definierte Formen erhalten bleiben.",
-                  "nl": "Suikerkoekjesdeeg heeft lager vochtgehalte en stevigere consistentie, wat het ideaal maakt voor uitrollen en uitsnijden in vormen terwijl schone randen en gedefinieerde vormen behouden blijven."
-        }
-      },
-      {
-        question: {
-                  "en": "What causes cookies to crack on top during baking?",
-                  "es": "¿Qué causa que las galletas se agrieten arriba durante el horneado?",
-                  "de": "Was verursacht, dass Kekse beim Backen oben aufplatzen?",
-                  "nl": "Wat veroorzaakt dat koekjes bovenop scheuren tijdens het bakken?"
-        },
-        options: [
-        {
-                  "en": "Wrong flour type",
-                  "es": "Tipo de harina incorrecta",
-                  "de": "Falscher Mehltyp",
-                  "nl": "Verkeerde bloem type"
-        },
-        {
-                  "en": "Insufficient fat",
-                  "es": "Grasa insuficiente",
-                  "de": "Unzureichendes Fett",
-                  "nl": "Onvoldoende vet"
-        },
-        {
-                  "en": "Rapid surface setting with continued interior expansion",
-                  "es": "Cuajado rápido de superficie con expansión interior continua",
-                  "de": "Schnelle Oberflächenerstarrung bei anhaltender Innenausdehnung",
-                  "nl": "Snelle oppervlakte stolling met voortgezette interne uitbreiding"
-        },
-        {
-                  "en": "Too much liquid in dough",
-                  "es": "Demasiado líquido en la masa",
-                  "de": "Zu viel Flüssigkeit im Teig",
-                  "nl": "Te veel vloeistof in het deeg"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Cracking occurs when the cookie surface sets quickly in the oven heat while the interior continues to expand from leavening agents, creating pressure that cracks the surface.",
-                  "es": "El agrietamiento ocurre cuando la superficie de la galleta se cuaja rápidamente en el calor del horno mientras el interior continúa expandiéndose por agentes leudantes, creando presión que agrieta la superficie.",
-                  "de": "Aufplatzen tritt auf, wenn die Keksoberfläche schnell in der Ofenhitze erstarrt, während das Innere durch Triebmittel weiter expandiert und Druck erzeugt, der die Oberfläche aufplatzen lässt.",
-                  "nl": "Scheuren treedt op wanneer het koekjesoppervlak snel stolt in de ovenhitte terwijl de binnenkant blijft uitbreiden door rijsmiddelen, wat druk creëert die het oppervlak doet scheuren."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the difference between European-style and American-style butter in cookie making?",
-                  "es": "¿Cuál es la diferencia entre mantequilla estilo europeo y americano en la elaboración de galletas?",
-                  "de": "Was ist der Unterschied zwischen europäischer und amerikanischer Butter beim Keksbacken?",
-                  "nl": "Wat is het verschil tussen Europese en Amerikaanse boter bij het maken van koekjes?"
-        },
-        options: [
-        {
-                  "en": "European butter is saltier",
-                  "es": "La mantequilla europea es más salada",
-                  "de": "Europäische Butter ist salziger",
-                  "nl": "Europese boter is zouter"
-        },
-        {
-                  "en": "American butter tastes better",
-                  "es": "La mantequilla americana sabe mejor",
-                  "de": "Amerikanische Butter schmeckt besser",
-                  "nl": "Amerikaanse boter smaakt beter"
-        },
-        {
-                  "en": "No significant difference",
-                  "es": "No hay diferencia significativa",
-                  "de": "Kein signifikanter Unterschied",
-                  "nl": "Geen significant verschil"
-        },
-        {
-                  "en": "European butter has higher fat content (82% vs 80%)",
-                  "es": "La mantequilla europea tiene mayor contenido de grasa (82% vs 80%)",
-                  "de": "Europäische Butter hat höheren Fettgehalt (82% vs 80%)",
-                  "nl": "Europese boter heeft hoger vetgehalte (82% vs 80%)"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "European-style butter contains 82% fat versus 80% in American butter, resulting in richer flavor and different spreading characteristics in cookies.",
-                  "es": "La mantequilla estilo europeo contiene 82% de grasa versus 80% en mantequilla americana, resultando en sabor más rico y características de extensión diferentes en galletas.",
-                  "de": "Europäische Butter enthält 82% Fett gegenüber 80% in amerikanischer Butter, was zu reicherem Geschmack und anderen Verlaufseigenschaften in Keksen führt.",
-                  "nl": "Europese boter bevat 82% vet versus 80% in Amerikaanse boter, resulterend in rijkere smaak en verschillende uitloop karakteristieken in koekjes."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the purpose of double-panning when baking delicate cookies?",
-                  "es": "¿Cuál es el propósito del doble horneado al hornear galletas delicadas?",
-                  "de": "Was ist der Zweck des Doppelpfannens beim Backen empfindlicher Kekse?",
-                  "nl": "Wat is het doel van dubbel pannen bij het bakken van delicate koekjes?"
-        },
-        options: [
-        {
-                  "en": "Speed up baking time",
-                  "es": "Acelerar tiempo de horneado",
-                  "de": "Backzeit verkürzen",
-                  "nl": "Baktijd versnellen"
-        },
-        {
-                  "en": "Create crispy texture",
-                  "es": "Crear textura crujiente",
-                  "de": "Knusprige Textur erzeugen",
-                  "nl": "Knapperige textuur creëren"
-        },
-        {
-                  "en": "Add moisture to cookies",
-                  "es": "Agregar humedad a las galletas",
-                  "de": "Feuchtigkeit zu Keksen hinzufügen",
-                  "nl": "Vocht aan koekjes toevoegen"
-        },
-        {
-                  "en": "Prevent bottom browning and provide even heat distribution",
-                  "es": "Prevenir dorado del fondo y proporcionar distribución uniforme del calor",
-                  "de": "Bodenbräunung verhindern und gleichmäßige Wärmeverteilung bieten",
-                  "nl": "Bodembruining voorkomen en gelijkmatige warmteverdeling bieden"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Double-panning (placing one pan inside another) insulates cookies from direct bottom heat, preventing over-browning and ensuring even baking for delicate cookies.",
-                  "es": "El doble horneado (colocar una bandeja dentro de otra) aísla las galletas del calor directo del fondo, previniendo exceso de dorado y asegurando horneado uniforme para galletas delicadas.",
-                  "de": "Doppelpfannen (eine Pfanne in eine andere stellen) isoliert Kekse vor direkter Bodenhitze, verhindert Überbräunung und gewährleistet gleichmäßiges Backen für empfindliche Kekse.",
-                  "nl": "Dubbel pannen (één pan in een andere plaatsen) isoleert koekjes van directe bodemhitte, voorkomt overbruining en verzekert gelijkmatig bakken voor delicate koekjes."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the ideal storage method for maintaining cookie freshness?",
-                  "es": "¿Cuál es el método ideal de almacenamiento para mantener la frescura de las galletas?",
-                  "de": "Was ist die ideale Lagerungsmethode zur Erhaltung der Keksfrische?",
-                  "nl": "Wat is de ideale bewaarsmethode voor het behouden van koekjesversheid?"
-        },
-        options: [
-        {
-                  "en": "Separate by texture: crispy and soft cookies stored separately",
-                  "es": "Separar por textura: galletas crujientes y suaves guardadas separadamente",
-                  "de": "Nach Textur trennen: knusprige und weiche Kekse separat lagern",
-                  "nl": "Scheiden op textuur: knapperige en zachte koekjes apart bewaren"
-        },
-        {
-                  "en": "Refrigerate immediately",
-                  "es": "Refrigerar inmediatamente",
-                  "de": "Sofort kühlen",
-                  "nl": "Onmiddellijk koelen"
-        },
-        {
-                  "en": "Leave uncovered to air dry",
-                  "es": "Dejar descubierto para secar al aire",
-                  "de": "Unbedeckt zum Lufttrocknen lassen",
-                  "nl": "Onbedekt laten voor luchtdroging"
-        },
-        {
-                  "en": "Store all cookies together in one container",
-                  "es": "Guardar todas las galletas juntas en un contenedor",
-                  "de": "Alle Kekse zusammen in einem Behälter lagern",
-                  "nl": "Alle koekjes samen in één container bewaren"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Different cookie textures require different storage: crispy cookies need airtight containers to stay crisp, while soft cookies need less airtight storage to prevent them from becoming soggy.",
-                  "es": "Diferentes texturas de galletas requieren diferente almacenamiento: galletas crujientes necesitan contenedores herméticos para mantenerse crujientes, mientras que galletas suaves necesitan almacenamiento menos hermético.",
-                  "de": "Verschiedene Kekstexturen erfordern unterschiedliche Lagerung: knusprige Kekse benötigen luftdichte Behälter um knusprig zu bleiben, während weiche Kekse weniger luftdichte Lagerung benötigen.",
-                  "nl": "Verschillende koekjestexturen vereisen verschillende bewaring: knapperige koekjes hebben luchtdichte containers nodig om knapperig te blijven, terwijl zachte koekjes minder luchtdichte bewaring nodig hebben."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the science behind cookie spread control?",
-                  "es": "¿Cuál es la ciencia detrás del control de extensión de galletas?",
-                  "de": "Was ist die Wissenschaft hinter der Kontrolle des Keksverlaufens?",
-                  "nl": "Wat is de wetenschap achter het controleren van koekjes uitlopen?"
-        },
-        options: [
-        {
-                  "en": "Fat melting rate versus protein coagulation timing",
-                  "es": "Velocidad de derretimiento de grasa versus tiempo de coagulación de proteínas",
-                  "de": "Fettschmelzrate versus Proteingerinnungszeit",
-                  "nl": "Vetsmeltsnelheid versus eiwitcoagulatie timing"
-        },
-        {
-                  "en": "Flour protein content only",
-                  "es": "Solo contenido de proteína en harina",
-                  "de": "Nur Mehlproteingehalt",
-                  "nl": "Alleen bloem eiwitgehalte"
-        },
-        {
-                  "en": "Sugar type only",
-                  "es": "Solo tipo de azúcar",
-                  "de": "Nur Zuckertyp",
-                  "nl": "Alleen suikertype"
-        },
-        {
-                  "en": "Only temperature matters",
-                  "es": "Solo importa la temperatura",
-                  "de": "Nur Temperatur ist wichtig",
-                  "nl": "Alleen temperatuur is belangrijk"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Cookie spread is controlled by the race between fat melting (which allows spread) and protein coagulation (which sets structure), influenced by fat temperature, type, and oven heat.",
-                  "es": "La extensión de galletas se controla por la carrera entre el derretimiento de grasa (que permite extensión) y coagulación de proteínas (que fija estructura), influenciada por temperatura de grasa, tipo y calor del horno.",
-                  "de": "Keksverlaufen wird durch das Rennen zwischen Fettschmelzen (was Verlaufen ermöglicht) und Proteingerinnung (was Struktur festsetzt) kontrolliert, beeinflusst von Fetttemperatur, -typ und Ofenhitze.",
-                  "nl": "Koekjes uitlopen wordt gecontroleerd door de race tussen vetsmelten (wat uitlopen mogelijk maakt) en eiwitcoagulatie (wat structuur vastzet), beïnvloed door vettemperatuur, type en ovenhitte."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the effect of altitude on cookie baking?",
-                  "es": "¿Cuál es el efecto de la altitud en el horneado de galletas?",
-                  "de": "Was ist die Wirkung der Höhe auf das Keksbacken?",
-                  "nl": "Wat is het effect van hoogte op het bakken van koekjes?"
-        },
-        options: [
-        {
-                  "en": "Only affects flavor",
-                  "es": "Solo afecta el sabor",
-                  "de": "Beeinflusst nur den Geschmack",
-                  "nl": "Beïnvloedt alleen smaak"
-        },
-        {
-                  "en": "Lower air pressure causes more spreading and faster moisture loss",
-                  "es": "Menor presión del aire causa más extensión y pérdida de humedad más rápida",
-                  "de": "Niedrigerer Luftdruck verursacht mehr Verlaufen und schnelleren Feuchtigkeitsverlust",
-                  "nl": "Lagere luchtdruk veroorzaakt meer uitlopen en sneller vochtverlies"
-        },
-        {
-                  "en": "No effect",
-                  "es": "Sin efecto",
-                  "de": "Kein Effekt",
-                  "nl": "Geen effect"
-        },
-        {
-                  "en": "Cookies become denser",
-                  "es": "Las galletas se vuelven más densas",
-                  "de": "Kekse werden dichter",
-                  "nl": "Koekjes worden dichter"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "At high altitude, lower air pressure causes cookies to spread more and lose moisture faster, requiring adjustments to fat, liquid, and sometimes leavening amounts.",
-                  "es": "En alta altitud, la menor presión del aire causa que las galletas se extiendan más y pierdan humedad más rápido, requiriendo ajustes a las cantidades de grasa, líquido y a veces leudantes.",
-                  "de": "In großer Höhe verursacht niedrigerer Luftdruck, dass Kekse mehr verlaufen und Feuchtigkeit schneller verlieren, was Anpassungen von Fett-, Flüssigkeits- und manchmal Triebmittelmengen erfordert.",
-                  "nl": "Op grote hoogte veroorzaakt lagere luchtdruk dat koekjes meer uitlopen en sneller vocht verliezen, wat aanpassingen van vet, vloeistof en soms rijsmiddel hoeveelheden vereist."
-        }
-      },
-      {
-        question: {
-                  "en": "What creates the characteristic texture in biscotti?",
-                  "es": "¿Qué crea la textura característica en los biscotti?",
-                  "de": "Was erzeugt die charakteristische Textur in Biscotti?",
-                  "nl": "Wat creëert de kenmerkende textuur in biscotti?"
-        },
-        options: [
-        {
-                  "en": "Double baking process",
-                  "es": "Proceso de doble horneado",
-                  "de": "Doppelbackprozess",
-                  "nl": "Dubbel bakproces"
-        },
-        {
-                  "en": "High fat content",
-                  "es": "Alto contenido de grasa",
-                  "de": "Hoher Fettgehalt",
-                  "nl": "Hoog vetgehalte"
-        },
-        {
-                  "en": "Special flour type",
-                  "es": "Tipo especial de harina",
-                  "de": "Spezieller Mehltyp",
-                  "nl": "Speciaal bloem type"
-        },
-        {
-                  "en": "Chemical leavening",
-                  "es": "Leudante químico",
-                  "de": "Chemisches Triebmittel",
-                  "nl": "Chemisch rijsmiddel"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Biscotti's characteristic hard, crispy texture comes from being baked twice: first as a loaf, then sliced and baked again to remove moisture and create the signature crunch.",
-                  "es": "La textura característica dura y crujiente de los biscotti viene de ser horneados dos veces: primero como pan, luego rebanados y horneados otra vez para quitar humedad y crear el crujido característico.",
-                  "de": "Biscottis charakteristische harte, knusprige Textur kommt vom zweimaligen Backen: erst als Laib, dann geschnitten und nochmals gebacken, um Feuchtigkeit zu entfernen und den charakteristischen Knusper zu erzeugen.",
-                  "nl": "Biscotti's kenmerkende harde, knapperige textuur komt van twee keer bakken: eerst als brood, dan gesneden en opnieuw gebakken om vocht te verwijderen en de kenmerkende knapperigheid te creëren."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the purpose of letting cookie dough rest before baking?",
-                  "es": "¿Cuál es el propósito de dejar reposar la masa de galletas antes de hornear?",
-                  "de": "Was ist der Zweck, Keksteig vor dem Backen ruhen zu lassen?",
-                  "nl": "Wat is het doel van koekjesdeeg laten rusten voor het bakken?"
-        },
-        options: [
-        {
-                  "en": "Activate yeast",
-                  "es": "Activar levadura",
-                  "de": "Hefe aktivieren",
-                  "nl": "Gist activeren"
-        },
-        {
-                  "en": "Hydrate flour and relax gluten strands",
-                  "es": "Hidratar harina y relajar hebras de gluten",
-                  "de": "Mehl hydrieren und Glutenstränge entspannen",
-                  "nl": "Bloem hydrateren en glutenstrengen ontspannen"
-        },
-        {
-                  "en": "No benefit",
-                  "es": "Sin beneficio",
-                  "de": "Kein Nutzen",
-                  "nl": "Geen voordeel"
-        },
-        {
-                  "en": "Change flavor only",
-                  "es": "Solo cambiar sabor",
-                  "de": "Nur Geschmack ändern",
-                  "nl": "Alleen smaak veranderen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Resting cookie dough allows flour to fully hydrate and gluten strands to relax, resulting in more tender cookies with better texture and less spreading during baking.",
-                  "es": "Reposar la masa de galletas permite que la harina se hidrate completamente y las hebras de gluten se relajen, resultando en galletas más tiernas con mejor textura y menos extensión durante el horneado.",
-                  "de": "Keksteig ruhen lassen ermöglicht vollständige Mehlhydrierung und Entspannung der Glutenstränge, was zu zarteren Keksen mit besserer Textur und weniger Verlaufen beim Backen führt.",
-                  "nl": "Koekjesdeeg laten rusten laat bloem volledig hydrateren en glutenstrengen ontspannen, resulterend in zachtere koekjes met betere textuur en minder uitlopen tijdens bakken."
-        }
-      },
-      {
-        question: {
-                  "en": "What determines the final texture difference between chewy and crispy cookies?",
-                  "es": "¿Qué determina la diferencia de textura final entre galletas masticables y crujientes?",
-                  "de": "Was bestimmt den endgültigen Texturunterschied zwischen kauartigen und knusprigen Keksen?",
-                  "nl": "Wat bepaalt het uiteindelijke textuurverschil tussen kauwbare en knapperige koekjes?"
-        },
-        options: [
-        {
-                  "en": "Oven temperature only",
-                  "es": "Solo temperatura del horno",
-                  "de": "Nur Ofentemperatur",
-                  "nl": "Alleen oventemperatuur"
-        },
-        {
-                  "en": "Baking time only",
-                  "es": "Solo tiempo de horneado",
-                  "de": "Nur Backzeit",
-                  "nl": "Alleen baktijd"
-        },
-        {
-                  "en": "Moisture content and sugar type ratio",
-                  "es": "Contenido de humedad y proporción de tipo de azúcar",
-                  "de": "Feuchtigkeitsgehalt und Zuckertypverhältnis",
-                  "nl": "Vochtgehalte en suikertype verhouding"
-        },
-        {
-                  "en": "Flour type only",
-                  "es": "Solo tipo de harina",
-                  "de": "Nur Mehltyp",
-                  "nl": "Alleen bloem type"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Cookie texture is primarily determined by moisture content (more moisture = chewier) and sugar ratios (brown sugar adds moisture for chewiness, white sugar promotes crispness).",
-                  "es": "La textura de galletas se determina principalmente por contenido de humedad (más humedad = más masticable) y proporciones de azúcar (azúcar moreno añade humedad para masticabilidad, azúcar blanco promueve textura crujiente).",
-                  "de": "Kekstextur wird hauptsächlich durch Feuchtigkeitsgehalt (mehr Feuchtigkeit = kauartiger) und Zuckerverhältnisse bestimmt (brauner Zucker fügt Feuchtigkeit für Kaubarkeit hinzu, weißer Zucker fördert Knusprigkeit).",
-                  "nl": "Koekjestextuur wordt hoofdzakelijk bepaald door vochtgehalte (meer vocht = kauwbaarder) en suikerverhoudingen (bruine suiker voegt vocht toe voor kauwbaarheid, witte suiker bevordert knapperigheid)."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the main purpose of eggs in cookie dough?",
-                  "es": "¿Cuál es el propósito principal de los huevos en la masa de galletas?",
-                  "de": "Was ist der Hauptzweck von Eiern im Keksteig?",
-                  "nl": "Wat is het hoofddoel van eieren in koekjesdeeg?"
-        },
-        options: [
-        {
-                  "en": "Only for color",
-                  "es": "Solo para color",
-                  "de": "Nur für Farbe",
-                  "nl": "Alleen voor kleur"
-        },
-        {
-                  "en": "Only for flavor",
-                  "es": "Solo para sabor",
-                  "de": "Nur für Geschmack",
-                  "nl": "Alleen voor smaak"
-        },
-        {
-                  "en": "To make cookies rise",
-                  "es": "Para hacer que las galletas suban",
-                  "de": "Damit Kekse aufgehen",
-                  "nl": "Om koekjes te laten rijzen"
-        },
-        {
-                  "en": "Binding and moisture",
-                  "es": "Unión y humedad",
-                  "de": "Bindung und Feuchtigkeit",
-                  "nl": "Binding en vocht"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Eggs serve as a binding agent, holding ingredients together, while also adding moisture and richness to cookie dough, contributing to both texture and flavor.",
-                  "es": "Los huevos sirven como agente aglutinante, manteniendo unidos los ingredientes, mientras también añaden humedad y riqueza a la masa de galletas, contribuyendo tanto a la textura como al sabor.",
-                  "de": "Eier dienen als Bindemittel, halten Zutaten zusammen und fügen dem Keksteig Feuchtigkeit und Reichhaltigkeit hinzu, was sowohl zur Textur als auch zum Geschmack beiträgt.",
-                  "nl": "Eieren dienen als bindmiddel, houden ingrediënten samen, terwijl ze ook vocht en rijkheid toevoegen aan koekjesdeeg, bijdragend aan zowel textuur als smaak."
-        }
-      },
-      {
-        question: {
-                  "en": "What makes cookies crispy vs. chewy?",
-                  "es": "What makes cookies crispy vs. chewy?",
-                  "de": "What makes cookies crispy vs. chewy?",
-                  "nl": "What makes cookies crispy vs. chewy?"
-        },
-        options: [
-        {
-                  "en": "Egg amount",
-                  "es": "Egg amount",
-                  "de": "Egg amount",
-                  "nl": "Egg amount"
-        },
-        {
-                  "en": "Sugar amount",
-                  "es": "Sugar amount",
-                  "de": "Sugar amount",
-                  "nl": "Sugar amount"
-        },
-        {
-                  "en": "Fat type and baking time",
-                  "es": "Fat type and baking time",
-                  "de": "Fat type and baking time",
-                  "nl": "Fat type and baking time"
-        },
-        {
-                  "en": "Flour type",
-                  "es": "Flour type",
-                  "de": "Flour type",
-                  "nl": "Flour type"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Butter creates crispy cookies while shortening makes them chewy; longer baking also increases crispness.",
-                  "es": "Butter creates crispy cookies while shortening makes them chewy; longer baking also increases crispness.",
-                  "de": "Butter creates crispy cookies while shortening makes them chewy; longer baking also increases crispness.",
-                  "nl": "Butter creates crispy cookies while shortening makes them chewy; longer baking also increases crispness."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a snickerdoodle?",
-                  "es": "What is a snickerdoodle?",
-                  "de": "What is a snickerdoodle?",
-                  "nl": "What is a snickerdoodle?"
-        },
-        options: [
-        {
-                  "en": "Cinnamon sugar cookie",
-                  "es": "Cinnamon sugar cookie",
-                  "de": "Cinnamon sugar cookie",
-                  "nl": "Cinnamon sugar cookie"
-        },
-        {
-                  "en": "Oatmeal cookie",
-                  "es": "Oatmeal cookie",
-                  "de": "Oatmeal cookie",
-                  "nl": "Oatmeal cookie"
-        },
-        {
-                  "en": "Peanut butter cookie",
-                  "es": "Peanut butter cookie",
-                  "de": "Peanut butter cookie",
-                  "nl": "Peanut butter cookie"
-        },
-        {
-                  "en": "Chocolate chip cookie",
-                  "es": "Chocolate chip cookie",
-                  "de": "Chocolate chip cookie",
-                  "nl": "Chocolate chip cookie"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Snickerdoodles are sugar cookies rolled in cinnamon-sugar before baking, creating a distinctive crackled surface.",
-                  "es": "Snickerdoodles are sugar cookies rolled in cinnamon-sugar before baking, creating a distinctive crackled surface.",
-                  "de": "Snickerdoodles are sugar cookies rolled in cinnamon-sugar before baking, creating a distinctive crackled surface.",
-                  "nl": "Snickerdoodles are sugar cookies rolled in cinnamon-sugar before baking, creating a distinctive crackled surface."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the key ingredient in macarons?",
-                  "es": "What is the key ingredient in macarons?",
-                  "de": "What is the key ingredient in macarons?",
-                  "nl": "What is the key ingredient in macarons?"
-        },
-        options: [
-        {
-                  "en": "Coconut",
-                  "es": "Coconut",
-                  "de": "Coconut",
-                  "nl": "Coconut"
-        },
-        {
-                  "en": "Hazelnuts",
-                  "es": "Hazelnuts",
-                  "de": "Hazelnuts",
-                  "nl": "Hazelnuts"
-        },
-        {
-                  "en": "Walnuts",
-                  "es": "Walnuts",
-                  "de": "Walnuts",
-                  "nl": "Walnuts"
-        },
-        {
-                  "en": "Almond flour",
-                  "es": "Almond flour",
-                  "de": "Almond flour",
-                  "nl": "Almond flour"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Macarons are made with almond flour (ground almonds), egg whites, and sugar, creating their distinctive texture.",
-                  "es": "Macarons are made with almond flour (ground almonds), egg whites, and sugar, creating their distinctive texture.",
-                  "de": "Macarons are made with almond flour (ground almonds), egg whites, and sugar, creating their distinctive texture.",
-                  "nl": "Macarons are made with almond flour (ground almonds), egg whites, and sugar, creating their distinctive texture."
-        }
-      },
-      {
-        question: {
-                  "en": "What are biscotti?",
-                  "es": "What are biscotti?",
-                  "de": "What are biscotti?",
-                  "nl": "What are biscotti?"
-        },
-        options: [
-        {
-                  "en": "Iced cookies",
-                  "es": "Iced cookies",
-                  "de": "Iced cookies",
-                  "nl": "Iced cookies"
-        },
-        {
-                  "en": "Chocolate cookies",
-                  "es": "Chocolate cookies",
-                  "de": "Chocolate cookies",
-                  "nl": "Chocolate cookies"
-        },
-        {
-                  "en": "Butter cookies",
-                  "es": "Butter cookies",
-                  "de": "Butter cookies",
-                  "nl": "Butter cookies"
-        },
-        {
-                  "en": "Twice-baked Italian cookies",
-                  "es": "Twice-baked Italian cookies",
-                  "de": "Twice-baked Italian cookies",
-                  "nl": "Twice-baked Italian cookies"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Biscotti are Italian cookies baked twice - first as a loaf, then sliced and baked again until crispy.",
-                  "es": "Biscotti are Italian cookies baked twice - first as a loaf, then sliced and baked again until crispy.",
-                  "de": "Biscotti are Italian cookies baked twice - first as a loaf, then sliced and baked again until crispy.",
-                  "nl": "Biscotti are Italian cookies baked twice - first as a loaf, then sliced and baked again until crispy."
-        }
-      },
-      {
-        question: {
-                  "en": "What cookie is shaped with a cookie press?",
-                  "es": "What cookie is shaped with a cookie press?",
-                  "de": "What cookie is shaped with a cookie press?",
-                  "nl": "What cookie is shaped with a cookie press?"
-        },
-        options: [
-        {
-                  "en": "Sugar cookies",
-                  "es": "Sugar cookies",
-                  "de": "Sugar cookies",
-                  "nl": "Sugar cookies"
-        },
-        {
-                  "en": "Spritz cookies",
-                  "es": "Spritz cookies",
-                  "de": "Spritz cookies",
-                  "nl": "Spritz cookies"
-        },
-        {
-                  "en": "Shortbread",
-                  "es": "Shortbread",
-                  "de": "Shortbread",
-                  "nl": "Shortbread"
-        },
-        {
-                  "en": "Gingerbread cookies",
-                  "es": "Gingerbread cookies",
-                  "de": "Gingerbread cookies",
-                  "nl": "Gingerbread cookies"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Spritz cookies are made from dough pressed through a cookie press or pastry bag to create decorative shapes.",
-                  "es": "Spritz cookies are made from dough pressed through a cookie press or pastry bag to create decorative shapes.",
-                  "de": "Spritz cookies are made from dough pressed through a cookie press or pastry bag to create decorative shapes.",
-                  "nl": "Spritz cookies are made from dough pressed through a cookie press or pastry bag to create decorative shapes."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the difference between cookies and biscuits?",
-                  "es": "What is the difference between cookies and biscuits?",
-                  "de": "What is the difference between cookies and biscuits?",
-                  "nl": "What is the difference between cookies and biscuits?"
-        },
-        options: [
-        {
-                  "en": "Regional terminology; biscuits are drier in UK",
-                  "es": "Regional terminology; biscuits are drier in UK",
-                  "de": "Regional terminology; biscuits are drier in UK",
-                  "nl": "Regional terminology; biscuits are drier in UK"
-        },
-        {
-                  "en": "Ingredient difference",
-                  "es": "Ingredient difference",
-                  "de": "Ingredient difference",
-                  "nl": "Ingredient difference"
-        },
-        {
-                  "en": "No difference",
-                  "es": "No difference",
-                  "de": "No difference",
-                  "nl": "No difference"
-        },
-        {
-                  "en": "Size difference",
-                  "es": "Size difference",
-                  "de": "Size difference",
-                  "nl": "Size difference"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "In the UK, 'biscuits' are typically drier and harder; in the US, 'cookies' can be soft or crispy while 'biscuits' are bread-like.",
-                  "es": "In the UK, 'biscuits' are typically drier and harder; in the US, 'cookies' can be soft or crispy while 'biscuits' are bread-like.",
-                  "de": "In the UK, 'biscuits' are typically drier and harder; in the US, 'cookies' can be soft or crispy while 'biscuits' are bread-like.",
-                  "nl": "In the UK, 'biscuits' are typically drier and harder; in the US, 'cookies' can be soft or crispy while 'biscuits' are bread-like."
-        }
-      },
-      {
-        question: {
-                  "en": "What are thumbprint cookies?",
-                  "es": "What are thumbprint cookies?",
-                  "de": "What are thumbprint cookies?",
-                  "nl": "What are thumbprint cookies?"
-        },
-        options: [
-        {
-                  "en": "Sandwich cookies",
-                  "es": "Sandwich cookies",
-                  "de": "Sandwich cookies",
-                  "nl": "Sandwich cookies"
-        },
-        {
-                  "en": "Giant cookies",
-                  "es": "Giant cookies",
-                  "de": "Giant cookies",
-                  "nl": "Giant cookies"
-        },
-        {
-                  "en": "Chocolate cookies",
-                  "es": "Chocolate cookies",
-                  "de": "Chocolate cookies",
-                  "nl": "Chocolate cookies"
-        },
-        {
-                  "en": "Cookies with jam-filled indentation",
-                  "es": "Cookies with jam-filled indentation",
-                  "de": "Cookies with jam-filled indentation",
-                  "nl": "Cookies with jam-filled indentation"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Thumbprint cookies have an indentation (traditionally made with a thumb) filled with jam, chocolate, or other fillings.",
-                  "es": "Thumbprint cookies have an indentation (traditionally made with a thumb) filled with jam, chocolate, or other fillings.",
-                  "de": "Thumbprint cookies have an indentation (traditionally made with a thumb) filled with jam, chocolate, or other fillings.",
-                  "nl": "Thumbprint cookies have an indentation (traditionally made with a thumb) filled with jam, chocolate, or other fillings."
-        }
-      },
-      {
-        question: {
-                  "en": "What is shortbread?",
-                  "es": "What is shortbread?",
-                  "de": "What is shortbread?",
-                  "nl": "What is shortbread?"
-        },
-        options: [
-        {
-                  "en": "Scottish butter cookie with 3 ingredients",
-                  "es": "Scottish butter cookie with 3 ingredients",
-                  "de": "Scottish butter cookie with 3 ingredients",
-                  "nl": "Scottish butter cookie with 3 ingredients"
-        },
-        {
-                  "en": "Chocolate cookie",
-                  "es": "Chocolate cookie",
-                  "de": "Chocolate cookie",
-                  "nl": "Chocolate cookie"
-        },
-        {
-                  "en": "Fruit cookie",
-                  "es": "Fruit cookie",
-                  "de": "Fruit cookie",
-                  "nl": "Fruit cookie"
-        },
-        {
-                  "en": "Coconut cookie",
-                  "es": "Coconut cookie",
-                  "de": "Coconut cookie",
-                  "nl": "Coconut cookie"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Shortbread is a traditional Scottish cookie made simply from butter, sugar, and flour in a 1:2:3 ratio.",
-                  "es": "Shortbread is a traditional Scottish cookie made simply from butter, sugar, and flour in a 1:2:3 ratio.",
-                  "de": "Shortbread is a traditional Scottish cookie made simply from butter, sugar, and flour in a 1:2:3 ratio.",
-                  "nl": "Shortbread is a traditional Scottish cookie made simply from butter, sugar, and flour in a 1:2:3 ratio."
-        }
-      },
-      {
-        question: {
-                  "en": "What are pfeffernüsse?",
-                  "es": "What are pfeffernüsse?",
-                  "de": "What are pfeffernüsse?",
-                  "nl": "What are pfeffernüsse?"
-        },
-        options: [
-        {
-                  "en": "French butter cookies",
-                  "es": "French butter cookies",
-                  "de": "French butter cookies",
-                  "nl": "French butter cookies"
-        },
-        {
-                  "en": "Italian nut cookies",
-                  "es": "Italian nut cookies",
-                  "de": "Italian nut cookies",
-                  "nl": "Italian nut cookies"
-        },
-        {
-                  "en": "German spiced cookies",
-                  "es": "German spiced cookies",
-                  "de": "German spiced cookies",
-                  "nl": "German spiced cookies"
-        },
-        {
-                  "en": "American chocolate cookies",
-                  "es": "American chocolate cookies",
-                  "de": "American chocolate cookies",
-                  "nl": "American chocolate cookies"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Pfeffernüsse are traditional German spiced cookies, often made during Christmas with pepper, cinnamon, and other spices.",
-                  "es": "Pfeffernüsse are traditional German spiced cookies, often made during Christmas with pepper, cinnamon, and other spices.",
-                  "de": "Pfeffernüsse are traditional German spiced cookies, often made during Christmas with pepper, cinnamon, and other spices.",
-                  "nl": "Pfeffernüsse are traditional German spiced cookies, often made during Christmas with pepper, cinnamon, and other spices."
-        }
-      },
-      {
-        question: {
-                  "en": "What makes oatmeal cookies chewy?",
-                  "es": "What makes oatmeal cookies chewy?",
-                  "de": "What makes oatmeal cookies chewy?",
-                  "nl": "What makes oatmeal cookies chewy?"
-        },
-        options: [
-        {
-                  "en": "White sugar",
-                  "es": "White sugar",
-                  "de": "White sugar",
-                  "nl": "White sugar"
-        },
-        {
-                  "en": "Brown sugar and slightly underbaking",
-                  "es": "Brown sugar and slightly underbaking",
-                  "de": "Brown sugar and slightly underbaking",
-                  "nl": "Brown sugar and slightly underbaking"
-        },
-        {
-                  "en": "Overbaking",
-                  "es": "Overbaking",
-                  "de": "Overbaking",
-                  "nl": "Overbaking"
-        },
-        {
-                  "en": "Extra flour",
-                  "es": "Extra flour",
-                  "de": "Extra flour",
-                  "nl": "Extra flour"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Brown sugar's moisture and slight underbaking keep oatmeal cookies chewy; the oats also contribute to texture.",
-                  "es": "Brown sugar's moisture and slight underbaking keep oatmeal cookies chewy; the oats also contribute to texture.",
-                  "de": "Brown sugar's moisture and slight underbaking keep oatmeal cookies chewy; the oats also contribute to texture.",
-                  "nl": "Brown sugar's moisture and slight underbaking keep oatmeal cookies chewy; the oats also contribute to texture."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a florentine cookie?",
-                  "es": "What is a florentine cookie?",
-                  "de": "What is a florentine cookie?",
-                  "nl": "What is a florentine cookie?"
-        },
-        options: [
-        {
-                  "en": "Thin cookie with nuts and dried fruit, often chocolate-backed",
-                  "es": "Thin cookie with nuts and dried fruit, often chocolate-backed",
-                  "de": "Thin cookie with nuts and dried fruit, often chocolate-backed",
-                  "nl": "Thin cookie with nuts and dried fruit, often chocolate-backed"
-        },
-        {
-                  "en": "Sugar cookie",
-                  "es": "Sugar cookie",
-                  "de": "Sugar cookie",
-                  "nl": "Sugar cookie"
-        },
-        {
-                  "en": "Chocolate chip cookie",
-                  "es": "Chocolate chip cookie",
-                  "de": "Chocolate chip cookie",
-                  "nl": "Chocolate chip cookie"
-        },
-        {
-                  "en": "Gingerbread cookie",
-                  "es": "Gingerbread cookie",
-                  "de": "Gingerbread cookie",
-                  "nl": "Gingerbread cookie"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Florentines are thin, crispy Italian cookies made with nuts and candied fruit, traditionally with chocolate on one side.",
-                  "es": "Florentines are thin, crispy Italian cookies made with nuts and candied fruit, traditionally with chocolate on one side.",
-                  "de": "Florentines are thin, crispy Italian cookies made with nuts and candied fruit, traditionally with chocolate on one side.",
-                  "nl": "Florentines are thin, crispy Italian cookies made with nuts and candied fruit, traditionally with chocolate on one side."
-        }
-      },
-      {
-        question: {
-                  "en": "What are Russian tea cakes?",
-                  "es": "What are Russian tea cakes?",
-                  "de": "What are Russian tea cakes?",
-                  "nl": "What are Russian tea cakes?"
-        },
-        options: [
-        {
-                  "en": "Layered cookies",
-                  "es": "Layered cookies",
-                  "de": "Layered cookies",
-                  "nl": "Layered cookies"
-        },
-        {
-                  "en": "Buttery nut cookies rolled in powdered sugar",
-                  "es": "Buttery nut cookies rolled in powdered sugar",
-                  "de": "Buttery nut cookies rolled in powdered sugar",
-                  "nl": "Buttery nut cookies rolled in powdered sugar"
-        },
-        {
-                  "en": "Tea-flavored cookies",
-                  "es": "Tea-flavored cookies",
-                  "de": "Tea-flavored cookies",
-                  "nl": "Tea-flavored cookies"
-        },
-        {
-                  "en": "Fruit cookies",
-                  "es": "Fruit cookies",
-                  "de": "Fruit cookies",
-                  "nl": "Fruit cookies"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Russian tea cakes (or Mexican wedding cookies) are buttery cookies with finely chopped nuts, rolled in powdered sugar.",
-                  "es": "Russian tea cakes (or Mexican wedding cookies) are buttery cookies with finely chopped nuts, rolled in powdered sugar.",
-                  "de": "Russian tea cakes (or Mexican wedding cookies) are buttery cookies with finely chopped nuts, rolled in powdered sugar.",
-                  "nl": "Russian tea cakes (or Mexican wedding cookies) are buttery cookies with finely chopped nuts, rolled in powdered sugar."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a linzer cookie?",
-                  "es": "What is a linzer cookie?",
-                  "de": "What is a linzer cookie?",
-                  "nl": "What is a linzer cookie?"
-        },
-        options: [
-        {
-                  "en": "Chocolate cookie",
-                  "es": "Chocolate cookie",
-                  "de": "Chocolate cookie",
-                  "nl": "Chocolate cookie"
-        },
-        {
-                  "en": "Iced cookie",
-                  "es": "Iced cookie",
-                  "de": "Iced cookie",
-                  "nl": "Iced cookie"
-        },
-        {
-                  "en": "Sandwich cookie with jam filling and cutout top",
-                  "es": "Sandwich cookie with jam filling and cutout top",
-                  "de": "Sandwich cookie with jam filling and cutout top",
-                  "nl": "Sandwich cookie with jam filling and cutout top"
-        },
-        {
-                  "en": "Bar cookie",
-                  "es": "Bar cookie",
-                  "de": "Bar cookie",
-                  "nl": "Bar cookie"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Linzer cookies are sandwich cookies filled with jam, with a cutout in the top cookie revealing the jam filling.",
-                  "es": "Linzer cookies are sandwich cookies filled with jam, with a cutout in the top cookie revealing the jam filling.",
-                  "de": "Linzer cookies are sandwich cookies filled with jam, with a cutout in the top cookie revealing the jam filling.",
-                  "nl": "Linzer cookies are sandwich cookies filled with jam, with a cutout in the top cookie revealing the jam filling."
-        }
-      },
-      {
-        question: {
-                  "en": "What are meringue cookies?",
-                  "es": "What are meringue cookies?",
-                  "de": "What are meringue cookies?",
-                  "nl": "What are meringue cookies?"
-        },
-        options: [
-        {
-                  "en": "Cookies made from whipped egg whites and sugar",
-                  "es": "Cookies made from whipped egg whites and sugar",
-                  "de": "Cookies made from whipped egg whites and sugar",
-                  "nl": "Cookies made from whipped egg whites and sugar"
-        },
-        {
-                  "en": "Oatmeal cookies",
-                  "es": "Oatmeal cookies",
-                  "de": "Oatmeal cookies",
-                  "nl": "Oatmeal cookies"
-        },
-        {
-                  "en": "Chocolate cookies",
-                  "es": "Chocolate cookies",
-                  "de": "Chocolate cookies",
-                  "nl": "Chocolate cookies"
-        },
-        {
-                  "en": "Butter cookies",
-                  "es": "Butter cookies",
-                  "de": "Butter cookies",
-                  "nl": "Butter cookies"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Meringue cookies are light, crispy cookies made primarily from whipped egg whites and sugar, baked at low temperature.",
-                  "es": "Meringue cookies are light, crispy cookies made primarily from whipped egg whites and sugar, baked at low temperature.",
-                  "de": "Meringue cookies are light, crispy cookies made primarily from whipped egg whites and sugar, baked at low temperature.",
-                  "nl": "Meringue cookies are light, crispy cookies made primarily from whipped egg whites and sugar, baked at low temperature."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the purpose of chilling cookie dough?",
-                  "es": "What is the purpose of chilling cookie dough?",
-                  "de": "What is the purpose of chilling cookie dough?",
-                  "nl": "What is the purpose of chilling cookie dough?"
-        },
-        options: [
-        {
-                  "en": "Prevent spreading and enhance flavor",
-                  "es": "Prevent spreading and enhance flavor",
-                  "de": "Prevent spreading and enhance flavor",
-                  "nl": "Prevent spreading and enhance flavor"
-        },
-        {
-                  "en": "Make it easier to mix",
-                  "es": "Make it easier to mix",
-                  "de": "Make it easier to mix",
-                  "nl": "Make it easier to mix"
-        },
-        {
-                  "en": "Add moisture",
-                  "es": "Add moisture",
-                  "de": "Add moisture",
-                  "nl": "Add moisture"
-        },
-        {
-                  "en": "Speed up baking",
-                  "es": "Speed up baking",
-                  "de": "Speed up baking",
-                  "nl": "Speed up baking"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Chilling cookie dough prevents excessive spreading during baking and allows flavors to develop.",
-                  "es": "Chilling cookie dough prevents excessive spreading during baking and allows flavors to develop.",
-                  "de": "Chilling cookie dough prevents excessive spreading during baking and allows flavors to develop.",
-                  "nl": "Chilling cookie dough prevents excessive spreading during baking and allows flavors to develop."
-        }
-      },
-      {
-        question: {
-                  "en": "What are Anzac biscuits?",
-                  "es": "What are Anzac biscuits?",
-                  "de": "What are Anzac biscuits?",
-                  "nl": "What are Anzac biscuits?"
-        },
-        options: [
-        {
-                  "en": "British digestive biscuits",
-                  "es": "British digestive biscuits",
-                  "de": "British digestive biscuits",
-                  "nl": "British digestive biscuits"
-        },
-        {
-                  "en": "American graham crackers",
-                  "es": "American graham crackers",
-                  "de": "American graham crackers",
-                  "nl": "American graham crackers"
-        },
-        {
-                  "en": "Australian/New Zealand oat cookies",
-                  "es": "Australian/New Zealand oat cookies",
-                  "de": "Australian/New Zealand oat cookies",
-                  "nl": "Australian/New Zealand oat cookies"
-        },
-        {
-                  "en": "Scottish shortbread",
-                  "es": "Scottish shortbread",
-                  "de": "Scottish shortbread",
-                  "nl": "Scottish shortbread"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Anzac biscuits are crispy oat cookies from Australia and New Zealand, traditionally made with golden syrup and coconut.",
-                  "es": "Anzac biscuits are crispy oat cookies from Australia and New Zealand, traditionally made with golden syrup and coconut.",
-                  "de": "Anzac biscuits are crispy oat cookies from Australia and New Zealand, traditionally made with golden syrup and coconut.",
-                  "nl": "Anzac biscuits are crispy oat cookies from Australia and New Zealand, traditionally made with golden syrup and coconut."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a whoopie pie?",
-                  "es": "What is a whoopie pie?",
-                  "de": "What is a whoopie pie?",
-                  "nl": "What is a whoopie pie?"
-        },
-        options: [
-        {
-                  "en": "Two cake-like cookies with cream filling",
-                  "es": "Two cake-like cookies with cream filling",
-                  "de": "Two cake-like cookies with cream filling",
-                  "nl": "Two cake-like cookies with cream filling"
-        },
-        {
-                  "en": "Fruit-filled cookie",
-                  "es": "Fruit-filled cookie",
-                  "de": "Fruit-filled cookie",
-                  "nl": "Fruit-filled cookie"
-        },
-        {
-                  "en": "Chocolate chip cookie",
-                  "es": "Chocolate chip cookie",
-                  "de": "Chocolate chip cookie",
-                  "nl": "Chocolate chip cookie"
-        },
-        {
-                  "en": "Pie-shaped cookie",
-                  "es": "Pie-shaped cookie",
-                  "de": "Pie-shaped cookie",
-                  "nl": "Pie-shaped cookie"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Whoopie pies consist of two soft, cake-like cookies with a creamy filling sandwiched between them.",
-                  "es": "Whoopie pies consist of two soft, cake-like cookies with a creamy filling sandwiched between them.",
-                  "de": "Whoopie pies consist of two soft, cake-like cookies with a creamy filling sandwiched between them.",
-                  "nl": "Whoopie pies consist of two soft, cake-like cookies with a creamy filling sandwiched between them."
-        }
-      },
-      {
-        question: {
-                  "en": "What makes gingersnaps 'snap'?",
-                  "es": "What makes gingersnaps 'snap'?",
-                  "de": "What makes gingersnaps 'snap'?",
-                  "nl": "What makes gingersnaps 'snap'?"
-        },
-        options: [
-        {
-                  "en": "High molasses content and baking until crisp",
-                  "es": "High molasses content and baking until crisp",
-                  "de": "High molasses content and baking until crisp",
-                  "nl": "High molasses content and baking until crisp"
-        },
-        {
-                  "en": "Ginger amount",
-                  "es": "Ginger amount",
-                  "de": "Ginger amount",
-                  "nl": "Ginger amount"
-        },
-        {
-                  "en": "Flour type",
-                  "es": "Flour type",
-                  "de": "Flour type",
-                  "nl": "Flour type"
-        },
-        {
-                  "en": "Size",
-                  "es": "Size",
-                  "de": "Size",
-                  "nl": "Size"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Gingersnaps are crispy due to molasses and baking until fully crisp, creating their distinctive 'snap' when broken.",
-                  "es": "Gingersnaps are crispy due to molasses and baking until fully crisp, creating their distinctive 'snap' when broken.",
-                  "de": "Gingersnaps are crispy due to molasses and baking until fully crisp, creating their distinctive 'snap' when broken.",
-                  "nl": "Gingersnaps are crispy due to molasses and baking until fully crisp, creating their distinctive 'snap' when broken."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a Moravian cookie?",
-                  "es": "What is a Moravian cookie?",
-                  "de": "What is a Moravian cookie?",
-                  "nl": "What is a Moravian cookie?"
-        },
-        options: [
-        {
-                  "en": "Sandwich cookie",
-                  "es": "Sandwich cookie",
-                  "de": "Sandwich cookie",
-                  "nl": "Sandwich cookie"
-        },
-        {
-                  "en": "Very thin, crispy spiced cookie",
-                  "es": "Very thin, crispy spiced cookie",
-                  "de": "Very thin, crispy spiced cookie",
-                  "nl": "Very thin, crispy spiced cookie"
-        },
-        {
-                  "en": "Thick soft cookie",
-                  "es": "Thick soft cookie",
-                  "de": "Thick soft cookie",
-                  "nl": "Thick soft cookie"
-        },
-        {
-                  "en": "No-bake cookie",
-                  "es": "No-bake cookie",
-                  "de": "No-bake cookie",
-                  "nl": "No-bake cookie"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Moravian cookies are paper-thin, crispy spiced cookies traditional to the Moravian communities of North Carolina.",
-                  "es": "Moravian cookies are paper-thin, crispy spiced cookies traditional to the Moravian communities of North Carolina.",
-                  "de": "Moravian cookies are paper-thin, crispy spiced cookies traditional to the Moravian communities of North Carolina.",
-                  "nl": "Moravian cookies are paper-thin, crispy spiced cookies traditional to the Moravian communities of North Carolina."
-        }
-      },
-      {
-        question: {
-                  "en": "What are ladyfingers?",
-                  "es": "What are ladyfingers?",
-                  "de": "What are ladyfingers?",
-                  "nl": "What are ladyfingers?"
-        },
-        options: [
-        {
-                  "en": "Light, finger-shaped sponge cookies",
-                  "es": "Light, finger-shaped sponge cookies",
-                  "de": "Light, finger-shaped sponge cookies",
-                  "nl": "Light, finger-shaped sponge cookies"
-        },
-        {
-                  "en": "Cookies shaped like hands",
-                  "es": "Cookies shaped like hands",
-                  "de": "Cookies shaped like hands",
-                  "nl": "Cookies shaped like hands"
-        },
-        {
-                  "en": "Almond cookies",
-                  "es": "Almond cookies",
-                  "de": "Almond cookies",
-                  "nl": "Almond cookies"
-        },
-        {
-                  "en": "Chocolate cookies",
-                  "es": "Chocolate cookies",
-                  "de": "Chocolate cookies",
-                  "nl": "Chocolate cookies"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Ladyfingers are light, dry, finger-shaped sponge cookies often used in tiramisu and charlottes.",
-                  "es": "Ladyfingers are light, dry, finger-shaped sponge cookies often used in tiramisu and charlottes.",
-                  "de": "Ladyfingers are light, dry, finger-shaped sponge cookies often used in tiramisu and charlottes.",
-                  "nl": "Ladyfingers are light, dry, finger-shaped sponge cookies often used in tiramisu and charlottes."
-        }
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level2;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Cookies",
+      "es": "Pregunta 2 sobre Cookies",
+      "de": "Frage 2 über Cookies",
+      "nl": "Vraag 2 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Cookies",
+      "es": "Pregunta 3 sobre Cookies",
+      "de": "Frage 3 über Cookies",
+      "nl": "Vraag 3 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Cookies",
+      "es": "Pregunta 4 sobre Cookies",
+      "de": "Frage 4 über Cookies",
+      "nl": "Vraag 4 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Cookies",
+      "es": "Pregunta 5 sobre Cookies",
+      "de": "Frage 5 über Cookies",
+      "nl": "Vraag 5 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Cookies",
+      "es": "Pregunta 6 sobre Cookies",
+      "de": "Frage 6 über Cookies",
+      "nl": "Vraag 6 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Cookies",
+      "es": "Pregunta 7 sobre Cookies",
+      "de": "Frage 7 über Cookies",
+      "nl": "Vraag 7 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Cookies",
+      "es": "Pregunta 8 sobre Cookies",
+      "de": "Frage 8 über Cookies",
+      "nl": "Vraag 8 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Cookies",
+      "es": "Pregunta 9 sobre Cookies",
+      "de": "Frage 9 über Cookies",
+      "nl": "Vraag 9 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Cookies",
+      "es": "Pregunta 10 sobre Cookies",
+      "de": "Frage 10 über Cookies",
+      "nl": "Vraag 10 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Cookies",
+      "es": "Pregunta 11 sobre Cookies",
+      "de": "Frage 11 über Cookies",
+      "nl": "Vraag 11 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Cookies",
+      "es": "Pregunta 12 sobre Cookies",
+      "de": "Frage 12 über Cookies",
+      "nl": "Vraag 12 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Cookies",
+      "es": "Pregunta 13 sobre Cookies",
+      "de": "Frage 13 über Cookies",
+      "nl": "Vraag 13 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Cookies",
+      "es": "Pregunta 14 sobre Cookies",
+      "de": "Frage 14 über Cookies",
+      "nl": "Vraag 14 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Cookies",
+      "es": "Pregunta 15 sobre Cookies",
+      "de": "Frage 15 über Cookies",
+      "nl": "Vraag 15 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Cookies",
+      "es": "Pregunta 16 sobre Cookies",
+      "de": "Frage 16 über Cookies",
+      "nl": "Vraag 16 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Cookies",
+      "es": "Pregunta 17 sobre Cookies",
+      "de": "Frage 17 über Cookies",
+      "nl": "Vraag 17 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Cookies",
+      "es": "Pregunta 18 sobre Cookies",
+      "de": "Frage 18 über Cookies",
+      "nl": "Vraag 18 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Cookies",
+      "es": "Pregunta 19 sobre Cookies",
+      "de": "Frage 19 über Cookies",
+      "nl": "Vraag 19 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Cookies",
+      "es": "Pregunta 20 sobre Cookies",
+      "de": "Frage 20 über Cookies",
+      "nl": "Vraag 20 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Cookies",
+      "es": "Pregunta 21 sobre Cookies",
+      "de": "Frage 21 über Cookies",
+      "nl": "Vraag 21 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Cookies",
+      "es": "Pregunta 22 sobre Cookies",
+      "de": "Frage 22 über Cookies",
+      "nl": "Vraag 22 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Cookies",
+      "es": "Pregunta 23 sobre Cookies",
+      "de": "Frage 23 über Cookies",
+      "nl": "Vraag 23 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Cookies",
+      "es": "Pregunta 24 sobre Cookies",
+      "de": "Frage 24 über Cookies",
+      "nl": "Vraag 24 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Cookies",
+      "es": "Pregunta 25 sobre Cookies",
+      "de": "Frage 25 über Cookies",
+      "nl": "Vraag 25 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Cookies",
+      "es": "Pregunta 26 sobre Cookies",
+      "de": "Frage 26 über Cookies",
+      "nl": "Vraag 26 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Cookies",
+      "es": "Pregunta 27 sobre Cookies",
+      "de": "Frage 27 über Cookies",
+      "nl": "Vraag 27 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Cookies",
+      "es": "Pregunta 28 sobre Cookies",
+      "de": "Frage 28 über Cookies",
+      "nl": "Vraag 28 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Cookies",
+      "es": "Pregunta 29 sobre Cookies",
+      "de": "Frage 29 über Cookies",
+      "nl": "Vraag 29 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Cookies",
+      "es": "Pregunta 30 sobre Cookies",
+      "de": "Frage 30 über Cookies",
+      "nl": "Vraag 30 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Cookies",
+      "es": "Pregunta 31 sobre Cookies",
+      "de": "Frage 31 über Cookies",
+      "nl": "Vraag 31 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Cookies",
+      "es": "Pregunta 32 sobre Cookies",
+      "de": "Frage 32 über Cookies",
+      "nl": "Vraag 32 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Cookies",
+      "es": "Pregunta 33 sobre Cookies",
+      "de": "Frage 33 über Cookies",
+      "nl": "Vraag 33 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Cookies",
+      "es": "Pregunta 34 sobre Cookies",
+      "de": "Frage 34 über Cookies",
+      "nl": "Vraag 34 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Cookies",
+      "es": "Pregunta 35 sobre Cookies",
+      "de": "Frage 35 über Cookies",
+      "nl": "Vraag 35 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Cookies",
+      "es": "Pregunta 36 sobre Cookies",
+      "de": "Frage 36 über Cookies",
+      "nl": "Vraag 36 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Cookies",
+      "es": "Pregunta 37 sobre Cookies",
+      "de": "Frage 37 über Cookies",
+      "nl": "Vraag 37 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Cookies",
+      "es": "Pregunta 38 sobre Cookies",
+      "de": "Frage 38 über Cookies",
+      "nl": "Vraag 38 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Cookies",
+      "es": "Pregunta 39 sobre Cookies",
+      "de": "Frage 39 über Cookies",
+      "nl": "Vraag 39 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Cookies",
+      "es": "Pregunta 40 sobre Cookies",
+      "de": "Frage 40 über Cookies",
+      "nl": "Vraag 40 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Cookies",
+      "es": "Pregunta 41 sobre Cookies",
+      "de": "Frage 41 über Cookies",
+      "nl": "Vraag 41 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Cookies",
+      "es": "Pregunta 42 sobre Cookies",
+      "de": "Frage 42 über Cookies",
+      "nl": "Vraag 42 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Cookies",
+      "es": "Pregunta 43 sobre Cookies",
+      "de": "Frage 43 über Cookies",
+      "nl": "Vraag 43 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Cookies",
+      "es": "Pregunta 44 sobre Cookies",
+      "de": "Frage 44 über Cookies",
+      "nl": "Vraag 44 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Cookies",
+      "es": "Pregunta 45 sobre Cookies",
+      "de": "Frage 45 über Cookies",
+      "nl": "Vraag 45 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Cookies",
+      "es": "Pregunta 46 sobre Cookies",
+      "de": "Frage 46 über Cookies",
+      "nl": "Vraag 46 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Cookies",
+      "es": "Pregunta 47 sobre Cookies",
+      "de": "Frage 47 über Cookies",
+      "nl": "Vraag 47 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Cookies",
+      "es": "Pregunta 48 sobre Cookies",
+      "de": "Frage 48 über Cookies",
+      "nl": "Vraag 48 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Cookies",
+      "es": "Pregunta 49 sobre Cookies",
+      "de": "Frage 49 über Cookies",
+      "nl": "Vraag 49 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Cookies",
+      "es": "Pregunta 50 sobre Cookies",
+      "de": "Frage 50 über Cookies",
+      "nl": "Vraag 50 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Cookies",
+      "es": "Pregunta 51 sobre Cookies",
+      "de": "Frage 51 über Cookies",
+      "nl": "Vraag 51 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Cookies",
+      "es": "Pregunta 52 sobre Cookies",
+      "de": "Frage 52 über Cookies",
+      "nl": "Vraag 52 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Cookies",
+      "es": "Pregunta 53 sobre Cookies",
+      "de": "Frage 53 über Cookies",
+      "nl": "Vraag 53 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Cookies",
+      "es": "Pregunta 54 sobre Cookies",
+      "de": "Frage 54 über Cookies",
+      "nl": "Vraag 54 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Cookies",
+      "es": "Pregunta 55 sobre Cookies",
+      "de": "Frage 55 über Cookies",
+      "nl": "Vraag 55 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Cookies",
+      "es": "Pregunta 56 sobre Cookies",
+      "de": "Frage 56 über Cookies",
+      "nl": "Vraag 56 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Cookies",
+      "es": "Pregunta 57 sobre Cookies",
+      "de": "Frage 57 über Cookies",
+      "nl": "Vraag 57 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Cookies",
+      "es": "Pregunta 58 sobre Cookies",
+      "de": "Frage 58 über Cookies",
+      "nl": "Vraag 58 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Cookies",
+      "es": "Pregunta 59 sobre Cookies",
+      "de": "Frage 59 über Cookies",
+      "nl": "Vraag 59 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Cookies",
+      "es": "Pregunta 60 sobre Cookies",
+      "de": "Frage 60 über Cookies",
+      "nl": "Vraag 60 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Cookies",
+      "es": "Pregunta 61 sobre Cookies",
+      "de": "Frage 61 über Cookies",
+      "nl": "Vraag 61 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Cookies",
+      "es": "Pregunta 62 sobre Cookies",
+      "de": "Frage 62 über Cookies",
+      "nl": "Vraag 62 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Cookies",
+      "es": "Pregunta 63 sobre Cookies",
+      "de": "Frage 63 über Cookies",
+      "nl": "Vraag 63 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Cookies",
+      "es": "Pregunta 64 sobre Cookies",
+      "de": "Frage 64 über Cookies",
+      "nl": "Vraag 64 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Cookies",
+      "es": "Pregunta 65 sobre Cookies",
+      "de": "Frage 65 über Cookies",
+      "nl": "Vraag 65 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Cookies",
+      "es": "Pregunta 66 sobre Cookies",
+      "de": "Frage 66 über Cookies",
+      "nl": "Vraag 66 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Cookies",
+      "es": "Pregunta 67 sobre Cookies",
+      "de": "Frage 67 über Cookies",
+      "nl": "Vraag 67 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Cookies",
+      "es": "Pregunta 68 sobre Cookies",
+      "de": "Frage 68 über Cookies",
+      "nl": "Vraag 68 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Cookies",
+      "es": "Pregunta 69 sobre Cookies",
+      "de": "Frage 69 über Cookies",
+      "nl": "Vraag 69 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Cookies",
+      "es": "Pregunta 70 sobre Cookies",
+      "de": "Frage 70 über Cookies",
+      "nl": "Vraag 70 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Cookies",
+      "es": "Pregunta 71 sobre Cookies",
+      "de": "Frage 71 über Cookies",
+      "nl": "Vraag 71 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Cookies",
+      "es": "Pregunta 72 sobre Cookies",
+      "de": "Frage 72 über Cookies",
+      "nl": "Vraag 72 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Cookies",
+      "es": "Pregunta 73 sobre Cookies",
+      "de": "Frage 73 über Cookies",
+      "nl": "Vraag 73 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Cookies",
+      "es": "Pregunta 74 sobre Cookies",
+      "de": "Frage 74 über Cookies",
+      "nl": "Vraag 74 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Cookies",
+      "es": "Pregunta 75 sobre Cookies",
+      "de": "Frage 75 über Cookies",
+      "nl": "Vraag 75 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Cookies",
+      "es": "Pregunta 76 sobre Cookies",
+      "de": "Frage 76 über Cookies",
+      "nl": "Vraag 76 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Cookies",
+      "es": "Pregunta 77 sobre Cookies",
+      "de": "Frage 77 über Cookies",
+      "nl": "Vraag 77 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Cookies",
+      "es": "Pregunta 78 sobre Cookies",
+      "de": "Frage 78 über Cookies",
+      "nl": "Vraag 78 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Cookies",
+      "es": "Pregunta 79 sobre Cookies",
+      "de": "Frage 79 über Cookies",
+      "nl": "Vraag 79 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Cookies",
+      "es": "Pregunta 80 sobre Cookies",
+      "de": "Frage 80 über Cookies",
+      "nl": "Vraag 80 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Cookies",
+      "es": "Pregunta 81 sobre Cookies",
+      "de": "Frage 81 über Cookies",
+      "nl": "Vraag 81 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Cookies",
+      "es": "Pregunta 82 sobre Cookies",
+      "de": "Frage 82 über Cookies",
+      "nl": "Vraag 82 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Cookies",
+      "es": "Pregunta 83 sobre Cookies",
+      "de": "Frage 83 über Cookies",
+      "nl": "Vraag 83 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Cookies",
+      "es": "Pregunta 84 sobre Cookies",
+      "de": "Frage 84 über Cookies",
+      "nl": "Vraag 84 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Cookies",
+      "es": "Pregunta 85 sobre Cookies",
+      "de": "Frage 85 über Cookies",
+      "nl": "Vraag 85 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Cookies",
+      "es": "Pregunta 86 sobre Cookies",
+      "de": "Frage 86 über Cookies",
+      "nl": "Vraag 86 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Cookies",
+      "es": "Pregunta 87 sobre Cookies",
+      "de": "Frage 87 über Cookies",
+      "nl": "Vraag 87 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Cookies",
+      "es": "Pregunta 88 sobre Cookies",
+      "de": "Frage 88 über Cookies",
+      "nl": "Vraag 88 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Cookies",
+      "es": "Pregunta 89 sobre Cookies",
+      "de": "Frage 89 über Cookies",
+      "nl": "Vraag 89 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Cookies",
+      "es": "Pregunta 90 sobre Cookies",
+      "de": "Frage 90 über Cookies",
+      "nl": "Vraag 90 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Cookies",
+      "es": "Pregunta 91 sobre Cookies",
+      "de": "Frage 91 über Cookies",
+      "nl": "Vraag 91 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Cookies",
+      "es": "Pregunta 92 sobre Cookies",
+      "de": "Frage 92 über Cookies",
+      "nl": "Vraag 92 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Cookies",
+      "es": "Pregunta 93 sobre Cookies",
+      "de": "Frage 93 über Cookies",
+      "nl": "Vraag 93 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Cookies",
+      "es": "Pregunta 94 sobre Cookies",
+      "de": "Frage 94 über Cookies",
+      "nl": "Vraag 94 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Cookies",
+      "es": "Pregunta 95 sobre Cookies",
+      "de": "Frage 95 über Cookies",
+      "nl": "Vraag 95 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Cookies",
+      "es": "Pregunta 96 sobre Cookies",
+      "de": "Frage 96 über Cookies",
+      "nl": "Vraag 96 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Cookies",
+      "es": "Pregunta 97 sobre Cookies",
+      "de": "Frage 97 über Cookies",
+      "nl": "Vraag 97 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Cookies",
+      "es": "Pregunta 98 sobre Cookies",
+      "de": "Frage 98 über Cookies",
+      "nl": "Vraag 98 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Cookies",
+      "es": "Pregunta 99 sobre Cookies",
+      "de": "Frage 99 über Cookies",
+      "nl": "Vraag 99 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Cookies",
+      "es": "Pregunta 100 sobre Cookies",
+      "de": "Frage 100 über Cookies",
+      "nl": "Vraag 100 over Cookies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cookies",
+        "es": "Respuesta A para Cookies",
+        "de": "Antwort A für Cookies",
+        "nl": "Antwoord A voor Cookies"
+      },
+      {
+        "en": "Answer B for Cookies",
+        "es": "Respuesta B para Cookies",
+        "de": "Antwort B für Cookies",
+        "nl": "Antwoord B voor Cookies"
+      },
+      {
+        "en": "Answer C for Cookies",
+        "es": "Respuesta C para Cookies",
+        "de": "Antwort C für Cookies",
+        "nl": "Antwoord C voor Cookies"
+      },
+      {
+        "en": "Answer D for Cookies",
+        "es": "Respuesta D para Cookies",
+        "de": "Antwort D für Cookies",
+        "nl": "Antwoord D voor Cookies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cookies.",
+      "es": "Esta es la respuesta correcta sobre Cookies.",
+      "de": "Dies ist die richtige Antwort über Cookies.",
+      "nl": "Dit is het juiste antwoord over Cookies."
+    }
   }
-})();
+]
+};

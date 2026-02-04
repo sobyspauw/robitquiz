@@ -1,0 +1,104 @@
+========================================
+QUESTION FILES REQUIRING IMMEDIATE FIX
+========================================
+
+PRIORITY 1: SYNTAX ERRORS (12 files)
+-------------------------------------
+
+Board Games - Card Games (2 files):
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\board-games\Card Games\level5.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\board-games\Card Games\level6.js
+
+Board Games - Stratego (2 files):
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\board-games\Stratego\level4.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\board-games\Stratego\level5.js
+
+Famous Buildings - Sydney Opera House (8 files):
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\famous-buildings\Sydney Opera House\level3.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\famous-buildings\Sydney Opera House\level4.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\famous-buildings\Sydney Opera House\level5.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\famous-buildings\Sydney Opera House\level6.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\famous-buildings\Sydney Opera House\level7.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\famous-buildings\Sydney Opera House\level8.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\famous-buildings\Sydney Opera House\level9.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\famous-buildings\Sydney Opera House\level10.js
+
+========================================
+
+PRIORITY 2: TEMPLATE/PLACEHOLDER QUESTIONS (50 files)
+------------------------------------------------------
+
+AI - AI in gaming (10 files):
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\AI in gaming\level1.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\AI in gaming\level2.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\AI in gaming\level3.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\AI in gaming\level4.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\AI in gaming\level5.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\AI in gaming\level6.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\AI in gaming\level7.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\AI in gaming\level8.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\AI in gaming\level9.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\AI in gaming\level10.js
+
+AI - AI in transport (10 files):
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\AI in transport\level1.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\AI in transport\level2.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\AI in transport\level3.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\AI in transport\level4.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\AI in transport\level5.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\AI in transport\level6.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\AI in transport\level7.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\AI in transport\level8.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\AI in transport\level9.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\AI in transport\level10.js
+
+AI - AI toekomst (10 files):
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\AI toekomst\level1.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\AI toekomst\level2.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\AI toekomst\level3.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\AI toekomst\level4.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\AI toekomst\level5.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\AI toekomst\level6.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\AI toekomst\level7.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\AI toekomst\level8.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\AI toekomst\level9.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\AI toekomst\level10.js
+
+AI - Deep learning (10 files):
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\Deep learning\level1.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\Deep learning\level2.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\Deep learning\level3.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\Deep learning\level4.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\Deep learning\level5.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\Deep learning\level6.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\Deep learning\level7.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\Deep learning\level8.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\Deep learning\level9.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\Deep learning\level10.js
+
+AI - AI ethiek (5 files):
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\AI ethiek\level1.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\AI ethiek\level2.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\AI ethiek\level3.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\AI ethiek\level4.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\AI ethiek\level5.js
+
+AI - Natuurlijke taalverwerking (5 files):
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\Natuurlijke taalverwerking\level1.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\Natuurlijke taalverwerking\level2.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\Natuurlijke taalverwerking\level3.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\Natuurlijke taalverwerking\level4.js
+  c:\Users\rbosch\OneDrive - A.S. Watson Europe\prive\RobitQuiz\src\questions\data\subjects\ai\Natuurlijke taalverwerking\level5.js
+
+========================================
+SUMMARY
+========================================
+Total files with issues: 62
+  - Syntax errors: 12 files (CRITICAL)
+  - Template questions: 50 files
+
+Valid files: 1,748 / 1,810 (96.6%)
+
+Run these commands to re-check after fixes:
+  node analyze_all_questions_v2.js
+  node check_syntax_details.js

@@ -1,1657 +1,4104 @@
-// Hieroglyphs Quiz - Level 8
-(function() {
-  const level8 = {
-    name: {
-          "en": "Advanced Hieroglyphic Texts",
-          "es": "Textos Jeroglíficos Avanzados",
-          "de": "Fortgeschrittene hieroglyphische Texte",
-          "nl": "Geavanceerde Hiëroglifische Teksten"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Hieroglyphs",
+      "es": "Pregunta 1 sobre Hieroglyphs",
+      "de": "Frage 1 über Hieroglyphs",
+      "nl": "Vraag 1 over Hieroglyphs"
     },
-    questions: [
+    "options": [
       {
-        question: {
-                  "en": "What is the Pyramid Texts' significance in Egyptian literature?",
-                  "es": "¿Cuál es la importancia de los Textos de las Pirámides en la literatura egipcia?",
-                  "de": "Was ist die Bedeutung der Pyramidentexte in der ägyptischen Literatur?",
-                  "nl": "Wat is de betekenis van de Piramide Teksten in de Egyptische literatuur?"
-        },
-        options: [
-        {
-                  "en": "They record historical events only",
-                  "es": "Solo registran eventos históricos",
-                  "de": "Sie verzeichnen nur historische Ereignisse",
-                  "nl": "Ze registreren alleen historische gebeurtenissen"
-        },
-        {
-                  "en": "They describe pyramid construction methods",
-                  "es": "Describen métodos de construcción de pirámides",
-                  "de": "Sie beschreiben Pyramidenbaumethoden",
-                  "nl": "Ze beschrijven piramide constructie methoden"
-        },
-        {
-                  "en": "They are the oldest religious texts in the world",
-                  "es": "Son los textos religiosos más antiguos del mundo",
-                  "de": "Sie sind die ältesten religiösen Texte der Welt",
-                  "nl": "Ze zijn de oudste religieuze teksten ter wereld"
-        },
-        {
-                  "en": "They are mathematical treatises",
-                  "es": "Son tratados matemáticos",
-                  "de": "Sie sind mathematische Abhandlungen",
-                  "nl": "Ze zijn wiskundige verhandelingen"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The Pyramid Texts, found in Old Kingdom pyramids, are among the oldest religious texts in the world, containing spells and incantations designed to ensure the pharaoh's successful journey to the afterlife.",
-                  "es": "Los Textos de las Pirámides, encontrados en pirámides del Reino Antiguo, están entre los textos religiosos más antiguos del mundo, conteniendo hechizos e incantaciones diseñados para asegurar el viaje exitoso del faraón al más allá.",
-                  "de": "Die Pyramidentexte, die in Pyramiden des Alten Reiches gefunden wurden, gehören zu den ältesten religiösen Texten der Welt und enthalten Sprüche und Beschwörungen, die die erfolgreiche Reise des Pharaos ins Jenseits sicherstellen sollten.",
-                  "nl": "De Piramide Teksten, gevonden in Oude Koninkrijk piramides, behoren tot de oudste religieuze teksten ter wereld, met spreuken en bezweringen ontworpen om de succesvolle reis van de farao naar het hiernamaals te verzekeren."
-        }
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
       },
       {
-        question: {
-                  "en": "What are the Coffin Texts?",
-                  "es": "¿Qué son los Textos de los Sarcófagos?",
-                  "de": "Was sind die Sargtexte?",
-                  "nl": "Wat zijn de Kist Teksten?"
-        },
-        options: [
-        {
-                  "en": "Love poems written on coffins",
-                  "es": "Poemas de amor escritos en sarcófagos",
-                  "de": "Liebesgedichte auf Särgen geschrieben",
-                  "nl": "Liefdesgedichten geschreven op kisten"
-        },
-        {
-                  "en": "Medical prescriptions for the deceased",
-                  "es": "Prescripciones médicas para los difuntos",
-                  "de": "Medizinische Verschreibungen für die Verstorbenen",
-                  "nl": "Medische voorschriften voor de overledenen"
-        },
-        {
-                  "en": "Middle Kingdom funerary texts for non-royal burials",
-                  "es": "Textos funerarios del Reino Medio para entierros no reales",
-                  "de": "Mittleres Reich Begräbnistexte für nicht-königliche Bestattungen",
-                  "nl": "Middenrijk begrafenisteksten voor niet-koninklijke begrafenissen"
-        },
-        {
-                  "en": "Instructions for coffin construction",
-                  "es": "Instrucciones para construcción de sarcófagos",
-                  "de": "Anleitungen für Sargbau",
-                  "nl": "Instructies voor kist constructie"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Coffin Texts were Middle Kingdom funerary texts written on coffins for non-royal individuals, democratizing access to afterlife spells previously reserved for pharaohs in the Pyramid Texts.",
-                  "es": "Los Textos de los Sarcófagos eran textos funerarios del Reino Medio escritos en sarcófagos para individuos no reales, democratizando el acceso a hechizos del más allá previamente reservados para faraones en los Textos de las Pirámides.",
-                  "de": "Sargtexte waren Begräbnistexte des Mittleren Reiches, die auf Särgen für nicht-königliche Personen geschrieben wurden und den Zugang zu Jenseits-Sprüchen demokratisierten, die zuvor den Pharaonen in den Pyramidentexten vorbehalten waren.",
-                  "nl": "Kist Teksten waren Middenrijk begrafenisteksten geschreven op kisten voor niet-koninklijke individuen, democratiserend toegang tot hiernamaals spreuken die eerder gereserveerd waren voor farao's in de Piramide Teksten."
-        }
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
       },
       {
-        question: {
-                  "en": "What is the Book of the Dead?",
-                  "es": "¿Qué es el Libro de los Muertos?",
-                  "de": "Was ist das Totenbuch?",
-                  "nl": "Wat is het Boek van de Doden?"
-        },
-        options: [
-        {
-                  "en": "A historical chronicle",
-                  "es": "Una crónica histórica",
-                  "de": "Eine historische Chronik",
-                  "nl": "Een historische kroniek"
-        },
-        {
-                  "en": "A census of deceased Egyptians",
-                  "es": "Un censo de egipcios fallecidos",
-                  "de": "Eine Volkszählung verstorbener Ägypter",
-                  "nl": "Een telling van overleden Egyptenaren"
-        },
-        {
-                  "en": "A medical treatise",
-                  "es": "Un tratado médico",
-                  "de": "Eine medizinische Abhandlung",
-                  "nl": "Een medische verhandeling"
-        },
-        {
-                  "en": "A collection of funerary spells on papyrus",
-                  "es": "Una colección de hechizos funerarios en papiro",
-                  "de": "Eine Sammlung von Begräbnissprüchen auf Papyrus",
-                  "nl": "Een verzameling begrafenisspreuken op papyrus"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The Book of the Dead is a collection of funerary spells written on papyrus scrolls, developed from earlier Pyramid and Coffin Texts, intended to guide and protect the deceased in the afterlife.",
-                  "es": "El Libro de los Muertos es una colección de hechizos funerarios escritos en rollos de papiro, desarrollados de los Textos de Pirámides y Sarcófagos anteriores, destinados a guiar y proteger al difunto en el más allá.",
-                  "de": "Das Totenbuch ist eine Sammlung von Begräbnissprüchen, die auf Papyrusrollen geschrieben wurden, entwickelt aus früheren Pyramiden- und Sargtexten, um die Verstorbenen im Jenseits zu führen und zu schützen.",
-                  "nl": "Het Boek van de Doden is een verzameling begrafenisspreuken geschreven op papyrusrollen, ontwikkeld uit eerdere Piramide en Kist Teksten, bedoeld om de overledenen te leiden en beschermen in het hiernamaals."
-        }
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
       },
       {
-        question: {
-                  "en": "What is the Story of Sinuhe about?",
-                  "es": "¿De qué trata la Historia de Sinuhé?",
-                  "de": "Wovon handelt die Geschichte des Sinuhe?",
-                  "nl": "Waar gaat het Verhaal van Sinuhe over?"
-        },
-        options: [
-        {
-                  "en": "A battle between pharaohs",
-                  "es": "Una batalla entre faraones",
-                  "de": "Eine Schlacht zwischen Pharaonen",
-                  "nl": "Een strijd tussen farao's"
-        },
-        {
-                  "en": "An Egyptian official's exile and return",
-                  "es": "El exilio y regreso de un funcionario egipcio",
-                  "de": "Das Exil und die Rückkehr eines ägyptischen Beamten",
-                  "nl": "Een Egyptische ambtenaar's ballingschap en terugkeer"
-        },
-        {
-                  "en": "Instructions for mummification",
-                  "es": "Instrucciones para momificación",
-                  "de": "Anleitungen zur Mumifizierung",
-                  "nl": "Instructies voor mummificatie"
-        },
-        {
-                  "en": "A love story between gods",
-                  "es": "Una historia de amor entre dioses",
-                  "de": "Eine Liebesgeschichte zwischen Göttern",
-                  "nl": "Een liefdesverhaal tussen goden"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The Story of Sinuhe tells of an Egyptian official who flees Egypt after Amenemhat I's assassination, lives in exile in Syria-Palestine, and eventually returns to Egypt, welcomed by the new pharaoh.",
-                  "es": "La Historia de Sinuhé cuenta de un funcionario egipcio que huye de Egipto después del asesinato de Amenemhat I, vive en exilio en Siria-Palestina y finalmente regresa a Egipto, bienvenido por el nuevo faraón.",
-                  "de": "Die Geschichte des Sinuhe erzählt von einem ägyptischen Beamten, der nach der Ermordung Amenemhats I. aus Ägypten flieht, im Exil in Syrien-Palästina lebt und schließlich nach Ägypten zurückkehrt, vom neuen Pharao willkommen geheißen.",
-                  "nl": "Het Verhaal van Sinuhe vertelt over een Egyptische ambtenaar die Egypte ontvlucht na de moord op Amenemhat I, in ballingschap leeft in Syrië-Palestina en uiteindelijk terugkeert naar Egypte, verwelkomd door de nieuwe farao."
-        }
-      },
-      {
-        question: {
-                  "en": "What type of text is the 'Instructions of Ptahhotep'?",
-                  "es": "¿Qué tipo de texto son las 'Instrucciones de Ptahhotep'?",
-                  "de": "Was für ein Text sind die 'Lehren des Ptahhotep'?",
-                  "nl": "Wat voor type tekst zijn de 'Instructies van Ptahhotep'?"
-        },
-        options: [
-        {
-                  "en": "A military strategy guide",
-                  "es": "Una guía de estrategia militar",
-                  "de": "Ein militärischer Strategieleitfaden",
-                  "nl": "Een militaire strategie gids"
-        },
-        {
-                  "en": "A medical manual",
-                  "es": "Un manual médico",
-                  "de": "Ein medizinisches Handbuch",
-                  "nl": "Een medische handleiding"
-        },
-        {
-                  "en": "Wisdom literature offering moral guidance",
-                  "es": "Literatura sapiencial que ofrece guía moral",
-                  "de": "Weisheitsliteratur mit moralischer Führung",
-                  "nl": "Wijsheidsliteratuur die morele begeleiding biedt"
-        },
-        {
-                  "en": "Construction blueprints",
-                  "es": "Planos de construcción",
-                  "de": "Baupläne",
-                  "nl": "Constructie blauwdrukken"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The Instructions of Ptahhotep is wisdom literature from the Old Kingdom, offering moral and practical guidance on proper behavior, ethics, and social conduct for officials and educated individuals.",
-                  "es": "Las Instrucciones de Ptahhotep es literatura sapiencial del Reino Antiguo, ofreciendo guía moral y práctica sobre comportamiento apropiado, ética y conducta social para funcionarios e individuos educados.",
-                  "de": "Die Lehren des Ptahhotep sind Weisheitsliteratur aus dem Alten Reich, die moralische und praktische Führung über angemessenes Verhalten, Ethik und soziales Verhalten für Beamte und gebildete Personen bietet.",
-                  "nl": "De Instructies van Ptahhotep is wijsheidsliteratuur uit het Oude Koninkrijk, die morele en praktische begeleiding biedt over gepast gedrag, ethiek en sociaal gedrag voor ambtenaren en opgeleide individuen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the Edwin Smith Papyrus famous for?",
-                  "es": "¿Por qué es famoso el Papiro Edwin Smith?",
-                  "de": "Wofür ist der Edwin Smith Papyrus berühmt?",
-                  "nl": "Waarvoor is de Edwin Smith Papyrus beroemd?"
-        },
-        options: [
-        {
-                  "en": "Being the oldest medical text describing surgical procedures",
-                  "es": "Ser el texto médico más antiguo que describe procedimientos quirúrgicos",
-                  "de": "Der älteste medizinische Text zu sein, der chirurgische Verfahren beschreibt",
-                  "nl": "Het oudste medische tekst te zijn die chirurgische procedures beschrijft"
-        },
-        {
-                  "en": "Recording historical battles",
-                  "es": "Registrar batallas históricas",
-                  "de": "Historische Schlachten zu verzeichnen",
-                  "nl": "Historische veldslagen te registreren"
-        },
-        {
-                  "en": "Describing pyramid construction",
-                  "es": "Describir construcción de pirámides",
-                  "de": "Pyramidenbau zu beschreiben",
-                  "nl": "Piramide constructie te beschrijven"
-        },
-        {
-                  "en": "Containing mathematical formulas",
-                  "es": "Contener fórmulas matemáticas",
-                  "de": "Mathematische Formeln zu enthalten",
-                  "nl": "Wiskundige formules te bevatten"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Edwin Smith Papyrus is famous for being one of the oldest medical texts, containing detailed descriptions of surgical procedures, anatomical observations, and rational medical treatments rather than magical cures.",
-                  "es": "El Papiro Edwin Smith es famoso por ser uno de los textos médicos más antiguos, conteniendo descripciones detalladas de procedimientos quirúrgicos, observaciones anatómicas y tratamientos médicos racionales en lugar de curas mágicas.",
-                  "de": "Der Edwin Smith Papyrus ist berühmt dafür, einer der ältesten medizinischen Texte zu sein, der detaillierte Beschreibungen chirurgischer Verfahren, anatomische Beobachtungen und rationale medizinische Behandlungen statt magischer Heilungen enthält.",
-                  "nl": "De Edwin Smith Papyrus is beroemd omdat het een van de oudste medische teksten is, met gedetailleerde beschrijvingen van chirurgische procedures, anatomische observaties en rationele medische behandelingen in plaats van magische genezingen."
-        }
-      },
-      {
-        question: {
-                  "en": "What genre does the 'Tale of the Two Brothers' represent?",
-                  "es": "¿Qué género representa el 'Cuento de los Dos Hermanos'?",
-                  "de": "Welches Genre stellt das 'Märchen von den zwei Brüdern' dar?",
-                  "nl": "Welk genre vertegenwoordigt het 'Verhaal van de Twee Broers'?"
-        },
-        options: [
-        {
-                  "en": "Religious hymn",
-                  "es": "Himno religioso",
-                  "de": "Religiöse Hymne",
-                  "nl": "Religieuze hymne"
-        },
-        {
-                  "en": "Mythological/folkloric narrative",
-                  "es": "Narrativa mitológica/folclórica",
-                  "de": "Mythologische/folkloristische Erzählung",
-                  "nl": "Mythologisch/folkloristisch verhaal"
-        },
-        {
-                  "en": "Historical chronicle",
-                  "es": "Crónica histórica",
-                  "de": "Historische Chronik",
-                  "nl": "Historische kroniek"
-        },
-        {
-                  "en": "Legal document",
-                  "es": "Documento legal",
-                  "de": "Rechtliches Dokument",
-                  "nl": "Juridisch document"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The Tale of the Two Brothers is a mythological/folkloric narrative containing magical elements, divine interventions, and moral lessons, representing one of the earliest examples of structured storytelling in world literature.",
-                  "es": "El Cuento de los Dos Hermanos es una narrativa mitológica/folclórica que contiene elementos mágicos, intervenciones divinas y lecciones morales, representando uno de los primeros ejemplos de narración estructurada en la literatura mundial.",
-                  "de": "Das Märchen von den zwei Brüdern ist eine mythologische/folkloristische Erzählung mit magischen Elementen, göttlichen Eingriffen und moralischen Lehren, die eines der frühesten Beispiele strukturierten Geschichtenerzählens in der Weltliteratur darstellt.",
-                  "nl": "Het Verhaal van de Twee Broers is een mythologisch/folkloristisch verhaal met magische elementen, goddelijke interventies en morele lessen, dat een van de vroegste voorbeelden van gestructureerd verhalen vertellen in de wereldliteratuur vertegenwoordigt."
-        }
-      },
-      {
-        question: {
-                  "en": "What is significant about the Rhind Mathematical Papyrus?",
-                  "es": "¿Qué es significativo sobre el Papiro Matemático Rhind?",
-                  "de": "Was ist bedeutsam am Rhind Mathematischen Papyrus?",
-                  "nl": "Wat is significant aan de Rhind Wiskundige Papyrus?"
-        },
-        options: [
-        {
-                  "en": "It contains royal decrees",
-                  "es": "Contiene decretos reales",
-                  "de": "Es enthält königliche Dekrete",
-                  "nl": "Het bevat koninklijke decreten"
-        },
-        {
-                  "en": "It records astronomical observations",
-                  "es": "Registra observaciones astronómicas",
-                  "de": "Es verzeichnet astronomische Beobachtungen",
-                  "nl": "Het registreert astronomische observaties"
-        },
-        {
-                  "en": "It contains the earliest known mathematical problems and solutions",
-                  "es": "Contiene los problemas y soluciones matemáticos más antiguos conocidos",
-                  "de": "Es enthält die frühesten bekannten mathematischen Probleme und Lösungen",
-                  "nl": "Het bevat de vroegst bekende wiskundige problemen en oplossingen"
-        },
-        {
-                  "en": "It describes religious ceremonies",
-                  "es": "Describe ceremonias religiosas",
-                  "de": "Es beschreibt religiöse Zeremonien",
-                  "nl": "Het beschrijft religieuze ceremonies"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The Rhind Mathematical Papyrus is significant for containing some of the earliest known mathematical problems and solutions, demonstrating ancient Egyptian knowledge of arithmetic, geometry, and fractions.",
-                  "es": "El Papiro Matemático Rhind es significativo por contener algunos de los problemas y soluciones matemáticos más antiguos conocidos, demostrando el conocimiento egipcio antiguo de aritmética, geometría y fracciones.",
-                  "de": "Der Rhind Mathematische Papyrus ist bedeutsam, weil er einige der frühesten bekannten mathematischen Probleme und Lösungen enthält und das altägyptische Wissen über Arithmetik, Geometrie und Brüche demonstriert.",
-                  "nl": "De Rhind Wiskundige Papyrus is significant omdat het enkele van de vroegst bekende wiskundige problemen en oplossingen bevat, waarbij de oude Egyptische kennis van rekenkunde, meetkunde en breuken wordt gedemonstreerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What type of text is the 'Cannibal Hymn' in the Pyramid Texts?",
-                  "es": "¿Qué tipo de texto es el 'Himno Caníbal' en los Textos de las Pirámides?",
-                  "de": "Was für ein Text ist die 'Kannibalen-Hymne' in den Pyramidentexten?",
-                  "nl": "Wat voor type tekst is de 'Kannibaal Hymne' in de Piramide Teksten?"
-        },
-        options: [
-        {
-                  "en": "A cookbook",
-                  "es": "Un libro de cocina",
-                  "de": "Ein Kochbuch",
-                  "nl": "Een kookboek"
-        },
-        {
-                  "en": "A metaphorical text about spiritual consumption of divine power",
-                  "es": "Un texto metafórico sobre consumo espiritual de poder divino",
-                  "de": "Ein metaphorischer Text über spirituelle Aufnahme göttlicher Kraft",
-                  "nl": "Een metaforische tekst over spirituele consumptie van goddelijke macht"
-        },
-        {
-                  "en": "A medical prescription",
-                  "es": "Una prescripción médica",
-                  "de": "Eine medizinische Verschreibung",
-                  "nl": "Een medisch voorschrift"
-        },
-        {
-                  "en": "A historical account of warfare",
-                  "es": "Un relato histórico de guerra",
-                  "de": "Ein historischer Bericht über Kriegsführung",
-                  "nl": "Een historisch verslag van oorlogvoering"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The Cannibal Hymn is a metaphorical text describing the pharaoh's spiritual consumption of divine powers from gods and spirits, symbolizing his acquisition of supernatural abilities for the afterlife.",
-                  "es": "El Himno Caníbal es un texto metafórico que describe el consumo espiritual del faraón de poderes divinos de dioses y espíritus, simbolizando su adquisición de habilidades sobrenaturales para el más allá.",
-                  "de": "Die Kannibalen-Hymne ist ein metaphorischer Text, der die spirituelle Aufnahme göttlicher Kräfte von Göttern und Geistern durch den Pharao beschreibt und seine Erlangung übernatürlicher Fähigkeiten fürs Jenseits symbolisiert.",
-                  "nl": "De Kannibaal Hymne is een metaforische tekst die de spirituele consumptie van goddelijke krachten van goden en geesten door de farao beschrijft, symboliserend zijn verkrijging van bovennatuurlijke vaardigheden voor het hiernamaals."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the 'Admonitions of Ipuwer' about?",
-                  "es": "¿De qué tratan las 'Admoniciones de Ipuwer'?",
-                  "de": "Wovon handeln die 'Mahnungen des Ipuwer'?",
-                  "nl": "Waar gaan de 'Vermaningen van Ipuwer' over?"
-        },
-        options: [
-        {
-                  "en": "Love poetry",
-                  "es": "Poesía amorosa",
-                  "de": "Liebespoesie",
-                  "nl": "Liefdespoëzie"
-        },
-        {
-                  "en": "Social upheaval and political chaos",
-                  "es": "Trastorno social y caos político",
-                  "de": "Sozialer Aufruhr und politisches Chaos",
-                  "nl": "Sociale onrust en politieke chaos"
-        },
-        {
-                  "en": "Temple construction",
-                  "es": "Construcción de templos",
-                  "de": "Tempelbau",
-                  "nl": "Tempelbouw"
-        },
-        {
-                  "en": "Agricultural techniques",
-                  "es": "Técnicas agrícolas",
-                  "de": "Landwirtschaftliche Techniken",
-                  "nl": "Landbouwtechnieken"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The Admonitions of Ipuwer describes social upheaval and political chaos, possibly reflecting the collapse of the Old Kingdom, with vivid descriptions of social order being reversed and authority challenged.",
-                  "es": "Las Admoniciones de Ipuwer describen trastorno social y caos político, posiblemente reflejando el colapso del Reino Antiguo, con descripciones vívidas del orden social siendo invertido y la autoridad desafiada.",
-                  "de": "Die Mahnungen des Ipuwer beschreiben sozialen Aufruhr und politisches Chaos, möglicherweise den Zusammenbruch des Alten Reiches widerspiegelnd, mit lebhaften Beschreibungen der Umkehrung der sozialen Ordnung und herausgeforderte Autorität.",
-                  "nl": "De Vermaningen van Ipuwer beschrijven sociale onrust en politieke chaos, mogelijk de ineenstorting van het Oude Koninkrijk weergevend, met levendige beschrijvingen van sociale orde die wordt omgekeerd en autoriteit die wordt uitgedaagd."
-        }
-      },
-      {
-        question: {
-                  "en": "What characterizes the 'Eloquent Peasant' story?",
-                  "es": "¿Qué caracteriza la historia del 'Campesino Elocuente'?",
-                  "de": "Was charakterisiert die Geschichte des 'Beredsamen Bauern'?",
-                  "nl": "Wat kenmerkt het verhaal van de 'Welsprekende Boer'?"
-        },
-        options: [
-        {
-                  "en": "Religious rituals",
-                  "es": "Rituales religiosos",
-                  "de": "Religiöse Rituale",
-                  "nl": "Religieuze rituelen"
-        },
-        {
-                  "en": "Military campaigns",
-                  "es": "Campañas militares",
-                  "de": "Militärkampagnen",
-                  "nl": "Militaire campagnes"
-        },
-        {
-                  "en": "Agricultural instructions",
-                  "es": "Instrucciones agrícolas",
-                  "de": "Landwirtschaftliche Anleitungen",
-                  "nl": "Landbouw instructies"
-        },
-        {
-                  "en": "Sophisticated rhetoric about justice and social equity",
-                  "es": "Retórica sofisticada sobre justicia y equidad social",
-                  "de": "Ausgeklügelte Rhetorik über Gerechtigkeit und soziale Gleichberechtigung",
-                  "nl": "Geavanceerde retoriek over rechtvaardigheid en sociale gelijkheid"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The Eloquent Peasant features sophisticated rhetoric about justice and social equity, as a peasant delivers eloquent speeches demanding justice from officials, showcasing Egyptian literary artistry and social consciousness.",
-                  "es": "El Campesino Elocuente presenta retórica sofisticada sobre justicia y equidad social, mientras un campesino entrega discursos elocuentes exigiendo justicia de los funcionarios, mostrando el arte literario egipcio y conciencia social.",
-                  "de": "Der Beredsame Bauer zeigt ausgeklügelte Rhetorik über Gerechtigkeit und soziale Gleichberechtigung, während ein Bauer eloquente Reden hält und Gerechtigkeit von Beamten fordert, was ägyptische literarische Kunstfertigkeit und soziales Bewusstsein zeigt.",
-                  "nl": "De Welsprekende Boer toont geavanceerde retoriek over rechtvaardigheid en sociale gelijkheid, terwijl een boer welsprekende toespraken houdt waarin hij rechtvaardigheid eist van ambtenaren, wat Egyptische literaire kunstzinnigheid en sociaal bewustzijn toont."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the purpose of the 'Negative Confession' in the Book of the Dead?",
-                  "es": "¿Cuál es el propósito de la 'Confesión Negativa' en el Libro de los Muertos?",
-                  "de": "Was ist der Zweck des 'Negativen Bekenntnisses' im Totenbuch?",
-                  "nl": "Wat is het doel van de 'Negatieve Bekentenis' in het Boek van de Doden?"
-        },
-        options: [
-        {
-                  "en": "To request forgiveness",
-                  "es": "Solicitar perdón",
-                  "de": "Um Vergebung zu bitten",
-                  "nl": "Vergiffenis vragen"
-        },
-        {
-                  "en": "To confess sins to the gods",
-                  "es": "Confesar pecados a los dioses",
-                  "de": "Sünden den Göttern zu bekennen",
-                  "nl": "Zonden bekennen aan de goden"
-        },
-        {
-                  "en": "To curse enemies",
-                  "es": "Maldecir enemigos",
-                  "de": "Feinde zu verfluchen",
-                  "nl": "Vijanden vervloeken"
-        },
-        {
-                  "en": "To declare innocence before divine judgment",
-                  "es": "Declarar inocencia ante el juicio divino",
-                  "de": "Unschuld vor dem göttlichen Gericht zu erklären",
-                  "nl": "Onschuld verklaren voor goddelijk oordeel"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The Negative Confession allows the deceased to declare innocence by stating they have not committed various sins, preparing them for judgment before Osiris and the weighing of the heart ceremony.",
-                  "es": "La Confesión Negativa permite al difunto declarar inocencia declarando que no ha cometido varios pecados, preparándolo para el juicio ante Osiris y la ceremonia del pesado del corazón.",
-                  "de": "Das Negative Bekenntnis ermöglicht es dem Verstorbenen, Unschuld zu erklären, indem er erklärt, verschiedene Sünden nicht begangen zu haben, und bereitet ihn auf das Gericht vor Osiris und die Herzwägungszeremonie vor.",
-                  "nl": "De Negatieve Bekentenis stelt de overledene in staat onschuld te verklaren door te verklaren dat zij verschillende zonden niet hebben begaan, hen voorbereidend op het oordeel voor Osiris en de hartweging ceremonie."
-        }
-      },
-      {
-        question: {
-                  "en": "What literary device is prominent in Egyptian love poetry?",
-                  "es": "¿Qué dispositivo literario es prominente en la poesía amorosa egipcia?",
-                  "de": "Welches literarische Mittel ist in der ägyptischen Liebespoesie prominent?",
-                  "nl": "Welk literair middel is prominent in Egyptische liefdespoëzie?"
-        },
-        options: [
-        {
-                  "en": "Nature imagery and garden settings",
-                  "es": "Imágenes de la naturaleza y ambientes de jardín",
-                  "de": "Naturbilder und Gartenszenen",
-                  "nl": "Natuurbeelden en tuinomgevingen"
-        },
-        {
-                  "en": "Military metaphors",
-                  "es": "Metáforas militares",
-                  "de": "Militärische Metaphern",
-                  "nl": "Militaire metaforen"
-        },
-        {
-                  "en": "Historical references only",
-                  "es": "Solo referencias históricas",
-                  "de": "Nur historische Verweise",
-                  "nl": "Alleen historische verwijzingen"
-        },
-        {
-                  "en": "Mathematical calculations",
-                  "es": "Cálculos matemáticos",
-                  "de": "Mathematische Berechnungen",
-                  "nl": "Wiskundige berekeningen"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Egyptian love poetry prominently features nature imagery and garden settings, with lovers compared to flowers, birds, and trees, creating romantic atmospheres through natural metaphors and seasonal references.",
-                  "es": "La poesía amorosa egipcia presenta prominentemente imágenes de la naturaleza y ambientes de jardín, con amantes comparados a flores, pájaros y árboles, creando atmósferas románticas a través de metáforas naturales y referencias estacionales.",
-                  "de": "Die ägyptische Liebespoesie zeigt prominent Naturbilder und Gartenszenen, wobei Liebende mit Blumen, Vögeln und Bäumen verglichen werden und romantische Atmosphären durch Naturmetaphern und jahreszeitliche Verweise geschaffen werden.",
-                  "nl": "Egyptische liefdespoëzie toont prominent natuurbeelden en tuinomgevingen, waarbij geliefden vergeleken worden met bloemen, vogels en bomen, romantische sferen creërend door natuurmetaforen en seizoensverwijzingen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the 'Report of Wenamun' about?",
-                  "es": "¿De qué trata el 'Informe de Wenamun'?",
-                  "de": "Wovon handelt der 'Bericht des Wenamun'?",
-                  "nl": "Waar gaat het 'Rapport van Wenamun' over?"
-        },
-        options: [
-        {
-                  "en": "A military conquest",
-                  "es": "Una conquista militar",
-                  "de": "Eine militärische Eroberung",
-                  "nl": "Een militaire verovering"
-        },
-        {
-                  "en": "An Egyptian official's diplomatic mission to Lebanon",
-                  "es": "Una misión diplomática de un funcionario egipcio al Líbano",
-                  "de": "Eine diplomatische Mission eines ägyptischen Beamten in den Libanon",
-                  "nl": "Een diplomatieke missie van een Egyptische ambtenaar naar Libanon"
-        },
-        {
-                  "en": "A religious pilgrimage",
-                  "es": "Una peregrinación religiosa",
-                  "de": "Eine religiöse Pilgerfahrt",
-                  "nl": "Een religieuze bedevaart"
-        },
-        {
-                  "en": "A trading expedition to Nubia",
-                  "es": "Una expedición comercial a Nubia",
-                  "de": "Eine Handelsexpedition nach Nubien",
-                  "nl": "Een handelsexpeditie naar Nubië"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The Report of Wenamun describes an Egyptian official's troubled diplomatic mission to Lebanon to obtain cedar wood, revealing Egypt's declining international prestige during the Late Period.",
-                  "es": "El Informe de Wenamun describe la problemática misión diplomática de un funcionario egipcio al Líbano para obtener madera de cedro, revelando el prestigio internacional declinante de Egipto durante el Período Tardío.",
-                  "de": "Der Bericht des Wenamun beschreibt die problematische diplomatische Mission eines ägyptischen Beamten in den Libanon, um Zedernholz zu beschaffen, und enthüllt Ägyptens schwindendes internationales Ansehen während der Spätzeit.",
-                  "nl": "Het Rapport van Wenamun beschrijft de problematische diplomatieke missie van een Egyptische ambtenaar naar Libanon om cederhout te verkrijgen, waarbij Egypte's afnemende internationale prestige tijdens de Late Periode wordt onthuld."
-        }
-      },
-      {
-        question: {
-                  "en": "What makes the 'Shipwrecked Sailor' tale unique in Egyptian literature?",
-                  "es": "¿Qué hace único al cuento del 'Marinero Náufrago' en la literatura egipcia?",
-                  "de": "Was macht das Märchen vom 'Schiffbrüchigen Seemann' in der ägyptischen Literatur einzigartig?",
-                  "nl": "Wat maakt het verhaal van de 'Schipbreukeling' uniek in de Egyptische literatuur?"
-        },
-        options: [
-        {
-                  "en": "It contains fantastical elements like a talking serpent",
-                  "es": "Contiene elementos fantásticos como una serpiente parlante",
-                  "de": "Es enthält fantastische Elemente wie eine sprechende Schlange",
-                  "nl": "Het bevat fantastische elementen zoals een pratende slang"
-        },
-        {
-                  "en": "It's written in verse only",
-                  "es": "Está escrito solo en verso",
-                  "de": "Es ist nur in Versen geschrieben",
-                  "nl": "Het is alleen in verzen geschreven"
-        },
-        {
-                  "en": "It's a realistic sea adventure",
-                  "es": "Es una aventura marina realista",
-                  "de": "Es ist ein realistisches Seeabenteuer",
-                  "nl": "Het is een realistisch zeeeavontuur"
-        },
-        {
-                  "en": "It describes actual naval battles",
-                  "es": "Describe batallas navales reales",
-                  "de": "Es beschreibt tatsächliche Seeschlachten",
-                  "nl": "Het beschrijft werkelijke zeeslagen"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Shipwrecked Sailor is unique for containing fantastical elements like a talking serpent on a magical island, blending adventure narrative with supernatural elements and moral instruction.",
-                  "es": "El Marinero Náufrago es único por contener elementos fantásticos como una serpiente parlante en una isla mágica, mezclando narrativa de aventura con elementos sobrenaturales e instrucción moral.",
-                  "de": "Der Schiffbrüchige Seemann ist einzigartig, weil er fantastische Elemente wie eine sprechende Schlange auf einer magischen Insel enthält und Abenteuererzählung mit übernatürlichen Elementen und moralischer Belehrung verbindet.",
-                  "nl": "De Schipbreukeling is uniek omdat het fantastische elementen bevat zoals een pratende slang op een magisch eiland, avontuurverhaal combinerend met bovennatuurlijke elementen en morele instructie."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the 'Memphite Theology' text about?",
-                  "es": "¿De qué trata el texto de la 'Teología Menfita'?",
-                  "de": "Wovon handelt der Text der 'Memphitischen Theologie'?",
-                  "nl": "Waar gaat de tekst van de 'Memphische Theologie' over?"
-        },
-        options: [
-        {
-                  "en": "Ptah as the supreme creator god",
-                  "es": "Ptah como el dios creador supremo",
-                  "de": "Ptah als oberster Schöpfergott",
-                  "nl": "Ptah als de opperste scheppergod"
-        },
-        {
-                  "en": "Battle strategies",
-                  "es": "Estrategias de batalla",
-                  "de": "Kampfstrategien",
-                  "nl": "Gevechtsstrategieën"
-        },
-        {
-                  "en": "Astronomical calculations",
-                  "es": "Cálculos astronómicos",
-                  "de": "Astronomische Berechnungen",
-                  "nl": "Astronomische berekeningen"
-        },
-        {
-                  "en": "Economic policies",
-                  "es": "Políticas económicas",
-                  "de": "Wirtschaftspolitik",
-                  "nl": "Economisch beleid"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Memphite Theology presents Ptah as the supreme creator god who creates through divine speech and thought, representing sophisticated theological concepts about creation and divine power centered in Memphis.",
-                  "es": "La Teología Menfita presenta a Ptah como el dios creador supremo que crea a través del habla y pensamiento divinos, representando conceptos teológicos sofisticados sobre creación y poder divino centrado en Memphis.",
-                  "de": "Die Memphitische Theologie stellt Ptah als obersten Schöpfergott dar, der durch göttliche Sprache und Gedanken erschafft, und repräsentiert ausgeklügelte theologische Konzepte über Schöpfung und göttliche Macht mit Zentrum in Memphis.",
-                  "nl": "De Memphische Theologie presenteert Ptah als de opperste scheppergod die creëert door goddelijke spraak en gedachte, geavanceerde theologische concepten over schepping en goddelijke macht gecentreerd in Memphis vertegenwoordigend."
-        }
-      },
-      {
-        question: {
-                  "en": "What characterizes the scribal training texts from ancient Egypt?",
-                  "es": "¿Qué caracteriza los textos de entrenamiento escriba del antiguo Egipto?",
-                  "de": "Was charakterisiert die Schreiberausbildungstexte aus dem alten Ägypten?",
-                  "nl": "Wat kenmerkt de schrijver trainingsteksten uit het oude Egypte?"
-        },
-        options: [
-        {
-                  "en": "They focus only on hieroglyph copying",
-                  "es": "Se enfocan solo en copiar jeroglíficos",
-                  "de": "Sie konzentrieren sich nur aufs Hieroglyphen-Kopieren",
-                  "nl": "Ze focussen alleen op hiëroglief kopiëren"
-        },
-        {
-                  "en": "They combine writing practice with moral instruction and professional values",
-                  "es": "Combinan práctica de escritura con instrucción moral y valores profesionales",
-                  "de": "Sie verbinden Schreibpraxis mit moralischer Belehrung und beruflichen Werten",
-                  "nl": "Ze combineren schrijfoefening met morele instructie en professionele waarden"
-        },
-        {
-                  "en": "They focus exclusively on religious topics",
-                  "es": "Se enfocan exclusivamente en temas religiosos",
-                  "de": "Sie konzentrieren sich ausschließlich auf religiöse Themen",
-                  "nl": "Ze focussen uitsluitend op religieuze onderwerpen"
-        },
-        {
-                  "en": "They contain only mathematical problems",
-                  "es": "Contienen solo problemas matemáticos",
-                  "de": "Sie enthalten nur mathematische Probleme",
-                  "nl": "Ze bevatten alleen wiskundige problemen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Scribal training texts combine writing practice with moral instruction and professional values, teaching students proper behavior, the importance of education, and scribal ethics alongside technical writing skills.",
-                  "es": "Los textos de entrenamiento escriba combinan práctica de escritura con instrucción moral y valores profesionales, enseñando a los estudiantes comportamiento apropiado, la importancia de la educación y ética escriba junto con habilidades técnicas de escritura.",
-                  "de": "Schreiberausbildungstexte verbinden Schreibpraxis mit moralischer Belehrung und beruflichen Werten und lehren Studenten angemessenes Verhalten, die Wichtigkeit der Bildung und Schreiberethik neben technischen Schreibfähigkeiten.",
-                  "nl": "Schrijver trainingsteksten combineren schrijfoefening met morele instructie en professionele waarden, waarbij studenten gepast gedrag, het belang van onderwijs en schrijversethiek wordt geleerd naast technische schrijfvaardigheden."
-        }
-      },
-      {
-        question: {
-                  "en": "What is significant about the 'Instructions for Merikare'?",
-                  "es": "¿Qué es significativo sobre las 'Instrucciones para Merikare'?",
-                  "de": "Was ist bedeutsam an den 'Lehren für Merikare'?",
-                  "nl": "Wat is significant aan de 'Instructies voor Merikare'?"
-        },
-        options: [
-        {
-                  "en": "They are royal advice on kingship and statecraft",
-                  "es": "Son consejos reales sobre reinado y arte de gobernar",
-                  "de": "Sie sind königliche Ratschläge über Königtum und Staatskunst",
-                  "nl": "Ze zijn koninklijk advies over koningschap en staatskunst"
-        },
-        {
-                  "en": "They describe military tactics",
-                  "es": "Describen tácticas militares",
-                  "de": "Sie beschreiben militärische Taktiken",
-                  "nl": "Ze beschrijven militaire tactieken"
-        },
-        {
-                  "en": "They record trade agreements",
-                  "es": "Registran acuerdos comerciales",
-                  "de": "Sie verzeichnen Handelsabkommen",
-                  "nl": "Ze registreren handelsakkoorden"
-        },
-        {
-                  "en": "They are love poems",
-                  "es": "Son poemas de amor",
-                  "de": "Sie sind Liebesgedichte",
-                  "nl": "Ze zijn liefdesgedichten"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Instructions for Merikare are significant as royal advice on kingship and statecraft, where a king instructs his son on governance, justice, and the responsibilities of rulership during the First Intermediate Period.",
-                  "es": "Las Instrucciones para Merikare son significativas como consejo real sobre reinado y arte de gobernar, donde un rey instruye a su hijo sobre gobernanza, justicia y las responsabilidades del liderazgo durante el Primer Período Intermedio.",
-                  "de": "Die Lehren für Merikare sind bedeutsam als königliche Ratschläge über Königtum und Staatskunst, wo ein König seinen Sohn über Regierung, Gerechtigkeit und die Verantwortlichkeiten der Herrschaft während der Ersten Zwischenzeit unterrichtet.",
-                  "nl": "De Instructies voor Merikare zijn significant als koninklijk advies over koningschap en staatskunst, waarbij een koning zijn zoon onderricht over bestuur, rechtvaardigheid en de verantwoordelijkheden van heerschappij tijdens de Eerste Tussenperiode."
-        }
-      },
-      {
-        question: {
-                  "en": "What makes the 'Dialogue of a Man with His Soul' philosophically important?",
-                  "es": "¿Qué hace que el 'Diálogo de un Hombre con su Alma' sea filosóficamente importante?",
-                  "de": "Was macht den 'Dialog eines Mannes mit seiner Seele' philosophisch wichtig?",
-                  "nl": "Wat maakt de 'Dialoog van een Man met zijn Ziel' filosofisch belangrijk?"
-        },
-        options: [
-        {
-                  "en": "It describes diplomatic negotiations",
-                  "es": "Describe negociaciones diplomáticas",
-                  "de": "Es beschreibt diplomatische Verhandlungen",
-                  "nl": "Het beschrijft diplomatieke onderhandelingen"
-        },
-        {
-                  "en": "It explores existential questions about life, death, and meaning",
-                  "es": "Explora preguntas existenciales sobre vida, muerte y significado",
-                  "de": "Es erforscht existenzielle Fragen über Leben, Tod und Bedeutung",
-                  "nl": "Het verkent existentiële vragen over leven, dood en betekenis"
-        },
-        {
-                  "en": "It contains mathematical formulas",
-                  "es": "Contiene fórmulas matemáticas",
-                  "de": "Es enthält mathematische Formeln",
-                  "nl": "Het bevat wiskundige formules"
-        },
-        {
-                  "en": "It records historical battles",
-                  "es": "Registra batallas históricas",
-                  "de": "Es verzeichnet historische Schlachten",
-                  "nl": "Het registreert historische veldslagen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The Dialogue of a Man with His Soul is philosophically important for exploring existential questions about life, death, meaning, and whether existence is worth continuing, representing sophisticated philosophical thinking in ancient literature.",
-                  "es": "El Diálogo de un Hombre con su Alma es filosóficamente importante por explorar preguntas existenciales sobre vida, muerte, significado y si la existencia vale la pena continuar, representando pensamiento filosófico sofisticado en literatura antigua.",
-                  "de": "Der Dialog eines Mannes mit seiner Seele ist philosophisch wichtig, weil er existenzielle Fragen über Leben, Tod, Bedeutung und ob das Dasein fortgesetzt werden sollte erforscht und ausgeklügeltes philosophisches Denken in der antiken Literatur repräsentiert.",
-                  "nl": "De Dialoog van een Man met zijn Ziel is filosofisch belangrijk omdat het existentiële vragen over leven, dood, betekenis en of het bestaan de moeite waard is om voort te zetten verkent, geavanceerd filosofisch denken in oude literatuur vertegenwoordigend."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the 'Gardiner Sign List'?",
-                  "es": "¿Qué es la 'Lista de Signos de Gardiner'?",
-                  "de": "Was ist die 'Gardiner-Zeichenliste'?",
-                  "nl": "Wat is de 'Gardiner Tekenlijst'?"
-        },
-        options: [
-        {
-                  "en": "An ancient shopping list",
-                  "es": "Una lista de compras antigua",
-                  "de": "Eine alte Einkaufsliste",
-                  "nl": "Een oude boodschappenlijst"
-        },
-        {
-                  "en": "A standardized categorization of hieroglyphs",
-                  "es": "Una categorización estandarizada de jeroglíficos",
-                  "de": "Eine standardisierte Kategorisierung von Hieroglyphen",
-                  "nl": "Een gestandaardiseerde categorisering van hiërogliefen"
-        },
-        {
-                  "en": "A list of pharaohs",
-                  "es": "Una lista de faraones",
-                  "de": "Eine Liste von Pharaonen",
-                  "nl": "Een lijst van farao's"
-        },
-        {
-                  "en": "A royal decree",
-                  "es": "Un decreto real",
-                  "de": "Ein königlicher Erlass",
-                  "nl": "Een koninklijk decreet"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The Gardiner Sign List, created by Egyptologist Sir Alan Gardiner in 1927, is the standard categorization of hieroglyphs into 26 groups (A-Z) based on their pictorial content. It includes 763 signs and remains the primary reference system for hieroglyphic study.",
-                  "es": "La Lista de Signos de Gardiner, creada por el egiptólogo Sir Alan Gardiner en 1927, es la categorización estándar de jeroglíficos en 26 grupos (A-Z) basados en su contenido pictórico. Incluye 763 signos y sigue siendo el sistema de referencia principal para el estudio jeroglífico.",
-                  "de": "Die Gardiner-Zeichenliste, erstellt vom Ägyptologen Sir Alan Gardiner im Jahr 1927, ist die Standardkategorisierung von Hieroglyphen in 26 Gruppen (A-Z) basierend auf ihrem bildlichen Inhalt. Sie umfasst 763 Zeichen und bleibt das primäre Referenzsystem für das Hieroglyphenstudium.",
-                  "nl": "De Gardiner Tekenlijst, gemaakt door egyptoloog Sir Alan Gardiner in 1927, is de standaardcategorisering van hiërogliefen in 26 groepen (A-Z) gebaseerd op hun picturale inhoud. Het bevat 763 tekens en blijft het primaire referentiesysteem voor hiëroglifische studie."
-        }
-      },
-      {
-        question: {
-                  "en": "What are hieroglyphs?",
-                  "es": "What are hieroglyphs?",
-                  "de": "What are hieroglyphs?",
-                  "nl": "What are hieroglyphs?"
-        },
-        options: [
-        {
-                  "en": "Pyramid designs",
-                  "es": "Pyramid designs",
-                  "de": "Pyramid designs",
-                  "nl": "Pyramid designs"
-        },
-        {
-                  "en": "Ancient Egyptian writing system",
-                  "es": "Ancient Egyptian writing system",
-                  "de": "Ancient Egyptian writing system",
-                  "nl": "Ancient Egyptian writing system"
-        },
-        {
-                  "en": "Tomb decorations",
-                  "es": "Tomb decorations",
-                  "de": "Tomb decorations",
-                  "nl": "Tomb decorations"
-        },
-        {
-                  "en": "Egyptian gods",
-                  "es": "Egyptian gods",
-                  "de": "Egyptian gods",
-                  "nl": "Egyptian gods"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Hieroglyphs are the formal writing system of ancient Egypt using pictorial symbols.",
-                  "es": "Hieroglyphs are the formal writing system of ancient Egypt using pictorial symbols.",
-                  "de": "Hieroglyphs are the formal writing system of ancient Egypt using pictorial symbols.",
-                  "nl": "Hieroglyphs are the formal writing system of ancient Egypt using pictorial symbols."
-        }
-      },
-      {
-        question: {
-                  "en": "What stone helped decode hieroglyphs?",
-                  "es": "What stone helped decode hieroglyphs?",
-                  "de": "What stone helped decode hieroglyphs?",
-                  "nl": "What stone helped decode hieroglyphs?"
-        },
-        options: [
-        {
-                  "en": "Pyramid Stone",
-                  "es": "Pyramid Stone",
-                  "de": "Pyramid Stone",
-                  "nl": "Pyramid Stone"
-        },
-        {
-                  "en": "Sphinx Stone",
-                  "es": "Sphinx Stone",
-                  "de": "Sphinx Stone",
-                  "nl": "Sphinx Stone"
-        },
-        {
-                  "en": "Rosetta Stone",
-                  "es": "Rosetta Stone",
-                  "de": "Rosetta Stone",
-                  "nl": "Rosetta Stone"
-        },
-        {
-                  "en": "Nile Stone",
-                  "es": "Nile Stone",
-                  "de": "Nile Stone",
-                  "nl": "Nile Stone"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The Rosetta Stone, discovered in 1799, provided the key to deciphering hieroglyphs.",
-                  "es": "The Rosetta Stone, discovered in 1799, provided the key to deciphering hieroglyphs.",
-                  "de": "The Rosetta Stone, discovered in 1799, provided the key to deciphering hieroglyphs.",
-                  "nl": "The Rosetta Stone, discovered in 1799, provided the key to deciphering hieroglyphs."
-        }
-      },
-      {
-        question: {
-                  "en": "Who deciphered hieroglyphs?",
-                  "es": "Who deciphered hieroglyphs?",
-                  "de": "Who deciphered hieroglyphs?",
-                  "nl": "Who deciphered hieroglyphs?"
-        },
-        options: [
-        {
-                  "en": "Ptolemy",
-                  "es": "Ptolemy",
-                  "de": "Ptolemy",
-                  "nl": "Ptolemy"
-        },
-        {
-                  "en": "Napoleon",
-                  "es": "Napoleon",
-                  "de": "Napoleon",
-                  "nl": "Napoleon"
-        },
-        {
-                  "en": "Jean-François Champollion",
-                  "es": "Jean-François Champollion",
-                  "de": "Jean-François Champollion",
-                  "nl": "Jean-François Champollion"
-        },
-        {
-                  "en": "Howard Carter",
-                  "es": "Howard Carter",
-                  "de": "Howard Carter",
-                  "nl": "Howard Carter"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "French scholar Jean-François Champollion deciphered hieroglyphs in 1822.",
-                  "es": "French scholar Jean-François Champollion deciphered hieroglyphs in 1822.",
-                  "de": "French scholar Jean-François Champollion deciphered hieroglyphs in 1822.",
-                  "nl": "French scholar Jean-François Champollion deciphered hieroglyphs in 1822."
-        }
-      },
-      {
-        question: {
-                  "en": "How many hieroglyphic symbols existed?",
-                  "es": "How many hieroglyphic symbols existed?",
-                  "de": "How many hieroglyphic symbols existed?",
-                  "nl": "How many hieroglyphic symbols existed?"
-        },
-        options: [
-        {
-                  "en": "26 letters",
-                  "es": "26 letters",
-                  "de": "26 letters",
-                  "nl": "26 letters"
-        },
-        {
-                  "en": "Over 700",
-                  "es": "Over 700",
-                  "de": "Over 700",
-                  "nl": "Over 700"
-        },
-        {
-                  "en": "100",
-                  "es": "100",
-                  "de": "100",
-                  "nl": "100"
-        },
-        {
-                  "en": "50",
-                  "es": "50",
-                  "de": "50",
-                  "nl": "50"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Ancient Egyptian hieroglyphs included over 700 distinct symbols.",
-                  "es": "Ancient Egyptian hieroglyphs included over 700 distinct symbols.",
-                  "de": "Ancient Egyptian hieroglyphs included over 700 distinct symbols.",
-                  "nl": "Ancient Egyptian hieroglyphs included over 700 distinct symbols."
-        }
-      },
-      {
-        question: {
-                  "en": "What direction could hieroglyphs be written?",
-                  "es": "What direction could hieroglyphs be written?",
-                  "de": "What direction could hieroglyphs be written?",
-                  "nl": "What direction could hieroglyphs be written?"
-        },
-        options: [
-        {
-                  "en": "Any direction (left, right, up, down)",
-                  "es": "Any direction (left, right, up, down)",
-                  "de": "Any direction (left, right, up, down)",
-                  "nl": "Any direction (left, right, up, down)"
-        },
-        {
-                  "en": "Left to right only",
-                  "es": "Left to right only",
-                  "de": "Left to right only",
-                  "nl": "Left to right only"
-        },
-        {
-                  "en": "Right to left only",
-                  "es": "Right to left only",
-                  "de": "Right to left only",
-                  "nl": "Right to left only"
-        },
-        {
-                  "en": "Top to bottom only",
-                  "es": "Top to bottom only",
-                  "de": "Top to bottom only",
-                  "nl": "Top to bottom only"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Hieroglyphs could be written in multiple directions; the direction animals/people faced showed reading direction.",
-                  "es": "Hieroglyphs could be written in multiple directions; the direction animals/people faced showed reading direction.",
-                  "de": "Hieroglyphs could be written in multiple directions; the direction animals/people faced showed reading direction.",
-                  "nl": "Hieroglyphs could be written in multiple directions; the direction animals/people faced showed reading direction."
-        }
-      },
-      {
-        question: {
-                  "en": "What is hieratic script?",
-                  "es": "What is hieratic script?",
-                  "de": "What is hieratic script?",
-                  "nl": "What is hieratic script?"
-        },
-        options: [
-        {
-                  "en": "Sacred hieroglyphs",
-                  "es": "Sacred hieroglyphs",
-                  "de": "Sacred hieroglyphs",
-                  "nl": "Sacred hieroglyphs"
-        },
-        {
-                  "en": "Cursive form of hieroglyphs",
-                  "es": "Cursive form of hieroglyphs",
-                  "de": "Cursive form of hieroglyphs",
-                  "nl": "Cursive form of hieroglyphs"
-        },
-        {
-                  "en": "Foreign script",
-                  "es": "Foreign script",
-                  "de": "Foreign script",
-                  "nl": "Foreign script"
-        },
-        {
-                  "en": "Number system",
-                  "es": "Number system",
-                  "de": "Number system",
-                  "nl": "Number system"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Hieratic was a cursive, simplified form of hieroglyphic writing used for everyday documents.",
-                  "es": "Hieratic was a cursive, simplified form of hieroglyphic writing used for everyday documents.",
-                  "de": "Hieratic was a cursive, simplified form of hieroglyphic writing used for everyday documents.",
-                  "nl": "Hieratic was a cursive, simplified form of hieroglyphic writing used for everyday documents."
-        }
-      },
-      {
-        question: {
-                  "en": "What is demotic script?",
-                  "es": "What is demotic script?",
-                  "de": "What is demotic script?",
-                  "nl": "What is demotic script?"
-        },
-        options: [
-        {
-                  "en": "Royal script",
-                  "es": "Royal script",
-                  "de": "Royal script",
-                  "nl": "Royal script"
-        },
-        {
-                  "en": "Sacred hieroglyphs",
-                  "es": "Sacred hieroglyphs",
-                  "de": "Sacred hieroglyphs",
-                  "nl": "Sacred hieroglyphs"
-        },
-        {
-                  "en": "Even more simplified Egyptian writing",
-                  "es": "Even more simplified Egyptian writing",
-                  "de": "Even more simplified Egyptian writing",
-                  "nl": "Even more simplified Egyptian writing"
-        },
-        {
-                  "en": "Greek writing",
-                  "es": "Greek writing",
-                  "de": "Greek writing",
-                  "nl": "Greek writing"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Demotic was an even more simplified script that developed later, used for business and literature.",
-                  "es": "Demotic was an even more simplified script that developed later, used for business and literature.",
-                  "de": "Demotic was an even more simplified script that developed later, used for business and literature.",
-                  "nl": "Demotic was an even more simplified script that developed later, used for business and literature."
-        }
-      },
-      {
-        question: {
-                  "en": "What material did Egyptians write on?",
-                  "es": "What material did Egyptians write on?",
-                  "de": "What material did Egyptians write on?",
-                  "nl": "What material did Egyptians write on?"
-        },
-        options: [
-        {
-                  "en": "Animal skins",
-                  "es": "Animal skins",
-                  "de": "Animal skins",
-                  "nl": "Animal skins"
-        },
-        {
-                  "en": "Clay tablets",
-                  "es": "Clay tablets",
-                  "de": "Clay tablets",
-                  "nl": "Clay tablets"
-        },
-        {
-                  "en": "Papyrus",
-                  "es": "Papyrus",
-                  "de": "Papyrus",
-                  "nl": "Papyrus"
-        },
-        {
-                  "en": "Paper",
-                  "es": "Paper",
-                  "de": "Paper",
-                  "nl": "Paper"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Egyptians wrote on papyrus, a paper-like material made from papyrus plant.",
-                  "es": "Egyptians wrote on papyrus, a paper-like material made from papyrus plant.",
-                  "de": "Egyptians wrote on papyrus, a paper-like material made from papyrus plant.",
-                  "nl": "Egyptians wrote on papyrus, a paper-like material made from papyrus plant."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a determinative in hieroglyphs?",
-                  "es": "What is a determinative in hieroglyphs?",
-                  "de": "What is a determinative in hieroglyphs?",
-                  "nl": "What is a determinative in hieroglyphs?"
-        },
-        options: [
-        {
-                  "en": "Vowel marker",
-                  "es": "Vowel marker",
-                  "de": "Vowel marker",
-                  "nl": "Vowel marker"
-        },
-        {
-                  "en": "Number",
-                  "es": "Number",
-                  "de": "Number",
-                  "nl": "Number"
-        },
-        {
-                  "en": "Symbol clarifying meaning of words",
-                  "es": "Symbol clarifying meaning of words",
-                  "de": "Symbol clarifying meaning of words",
-                  "nl": "Symbol clarifying meaning of words"
-        },
-        {
-                  "en": "Punctuation",
-                  "es": "Punctuation",
-                  "de": "Punctuation",
-                  "nl": "Punctuation"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Determinatives are symbols placed at word ends to clarify meaning and category.",
-                  "es": "Determinatives are symbols placed at word ends to clarify meaning and category.",
-                  "de": "Determinatives are symbols placed at word ends to clarify meaning and category.",
-                  "nl": "Determinatives are symbols placed at word ends to clarify meaning and category."
-        }
-      },
-      {
-        question: {
-                  "en": "What symbol represents the sound 'n'?",
-                  "es": "What symbol represents the sound 'n'?",
-                  "de": "What symbol represents the sound 'n'?",
-                  "nl": "What symbol represents the sound 'n'?"
-        },
-        options: [
-        {
-                  "en": "Owl",
-                  "es": "Owl",
-                  "de": "Owl",
-                  "nl": "Owl"
-        },
-        {
-                  "en": "Mouth",
-                  "es": "Mouth",
-                  "de": "Mouth",
-                  "nl": "Mouth"
-        },
-        {
-                  "en": "Reed",
-                  "es": "Reed",
-                  "de": "Reed",
-                  "nl": "Reed"
-        },
-        {
-                  "en": "Water ripple",
-                  "es": "Water ripple",
-                  "de": "Water ripple",
-                  "nl": "Water ripple"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The water ripple hieroglyph represented the sound 'n'.",
-                  "es": "The water ripple hieroglyph represented the sound 'n'.",
-                  "de": "The water ripple hieroglyph represented the sound 'n'.",
-                  "nl": "The water ripple hieroglyph represented the sound 'n'."
-        }
-      },
-      {
-        question: {
-                  "en": "What animal represents the sound 'm'?",
-                  "es": "What animal represents the sound 'm'?",
-                  "de": "What animal represents the sound 'm'?",
-                  "nl": "What animal represents the sound 'm'?"
-        },
-        options: [
-        {
-                  "en": "Owl",
-                  "es": "Owl",
-                  "de": "Owl",
-                  "nl": "Owl"
-        },
-        {
-                  "en": "Lion",
-                  "es": "Lion",
-                  "de": "Lion",
-                  "nl": "Lion"
-        },
-        {
-                  "en": "Bird",
-                  "es": "Bird",
-                  "de": "Bird",
-                  "nl": "Bird"
-        },
-        {
-                  "en": "Snake",
-                  "es": "Snake",
-                  "de": "Snake",
-                  "nl": "Snake"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The owl hieroglyph represented the sound 'm'.",
-                  "es": "The owl hieroglyph represented the sound 'm'.",
-                  "de": "The owl hieroglyph represented the sound 'm'.",
-                  "nl": "The owl hieroglyph represented the sound 'm'."
-        }
-      },
-      {
-        question: {
-                  "en": "Did hieroglyphs represent only pictures?",
-                  "es": "Did hieroglyphs represent only pictures?",
-                  "de": "Did hieroglyphs represent only pictures?",
-                  "nl": "Did hieroglyphs represent only pictures?"
-        },
-        options: [
-        {
-                  "en": "No, they were phonetic too",
-                  "es": "No, they were phonetic too",
-                  "de": "No, they were phonetic too",
-                  "nl": "No, they were phonetic too"
-        },
-        {
-                  "en": "Yes, only pictures",
-                  "es": "Yes, only pictures",
-                  "de": "Yes, only pictures",
-                  "nl": "Yes, only pictures"
-        },
-        {
-                  "en": "Only ideas",
-                  "es": "Only ideas",
-                  "de": "Only ideas",
-                  "nl": "Only ideas"
-        },
-        {
-                  "en": "Only sounds",
-                  "es": "Only sounds",
-                  "de": "Only sounds",
-                  "nl": "Only sounds"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Hieroglyphs functioned as logograms (concepts), phonograms (sounds), and determinatives.",
-                  "es": "Hieroglyphs functioned as logograms (concepts), phonograms (sounds), and determinatives.",
-                  "de": "Hieroglyphs functioned as logograms (concepts), phonograms (sounds), and determinatives.",
-                  "nl": "Hieroglyphs functioned as logograms (concepts), phonograms (sounds), and determinatives."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a cartouche used for?",
-                  "es": "What is a cartouche used for?",
-                  "de": "What is a cartouche used for?",
-                  "nl": "What is a cartouche used for?"
-        },
-        options: [
-        {
-                  "en": "Mathematical symbols",
-                  "es": "Mathematical symbols",
-                  "de": "Mathematical symbols",
-                  "nl": "Mathematical symbols"
-        },
-        {
-                  "en": "Decorative borders",
-                  "es": "Decorative borders",
-                  "de": "Decorative borders",
-                  "nl": "Decorative borders"
-        },
-        {
-                  "en": "Enclosing royal names",
-                  "es": "Enclosing royal names",
-                  "de": "Enclosing royal names",
-                  "nl": "Enclosing royal names"
-        },
-        {
-                  "en": "Marking tomb entrances",
-                  "es": "Marking tomb entrances",
-                  "de": "Marking tomb entrances",
-                  "nl": "Marking tomb entrances"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Cartouches are oval frames that enclosed hieroglyphs spelling royal names.",
-                  "es": "Cartouches are oval frames that enclosed hieroglyphs spelling royal names.",
-                  "de": "Cartouches are oval frames that enclosed hieroglyphs spelling royal names.",
-                  "nl": "Cartouches are oval frames that enclosed hieroglyphs spelling royal names."
-        }
-      },
-      {
-        question: {
-                  "en": "What does the ankh symbol mean?",
-                  "es": "What does the ankh symbol mean?",
-                  "de": "What does the ankh symbol mean?",
-                  "nl": "What does the ankh symbol mean?"
-        },
-        options: [
-        {
-                  "en": "Life",
-                  "es": "Life",
-                  "de": "Life",
-                  "nl": "Life"
-        },
-        {
-                  "en": "Water",
-                  "es": "Water",
-                  "de": "Water",
-                  "nl": "Water"
-        },
-        {
-                  "en": "Death",
-                  "es": "Death",
-                  "de": "Death",
-                  "nl": "Death"
-        },
-        {
-                  "en": "Power",
-                  "es": "Power",
-                  "de": "Power",
-                  "nl": "Power"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The ankh hieroglyph symbolizes life and was often carried by gods and pharaohs.",
-                  "es": "The ankh hieroglyph symbolizes life and was often carried by gods and pharaohs.",
-                  "de": "The ankh hieroglyph symbolizes life and was often carried by gods and pharaohs.",
-                  "nl": "The ankh hieroglyph symbolizes life and was often carried by gods and pharaohs."
-        }
-      },
-      {
-        question: {
-                  "en": "When did hieroglyphic writing end?",
-                  "es": "When did hieroglyphic writing end?",
-                  "de": "When did hieroglyphic writing end?",
-                  "nl": "When did hieroglyphic writing end?"
-        },
-        options: [
-        {
-                  "en": "Still used today",
-                  "es": "Still used today",
-                  "de": "Still used today",
-                  "nl": "Still used today"
-        },
-        {
-                  "en": "100 BCE",
-                  "es": "100 BCE",
-                  "de": "100 BCE",
-                  "nl": "100 BCE"
-        },
-        {
-                  "en": "Around 400 CE",
-                  "es": "Around 400 CE",
-                  "de": "Around 400 CE",
-                  "nl": "Around 400 CE"
-        },
-        {
-                  "en": "1000 CE",
-                  "es": "1000 CE",
-                  "de": "1000 CE",
-                  "nl": "1000 CE"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The last known hieroglyphic inscription dates to 394 CE.",
-                  "es": "The last known hieroglyphic inscription dates to 394 CE.",
-                  "de": "The last known hieroglyphic inscription dates to 394 CE.",
-                  "nl": "The last known hieroglyphic inscription dates to 394 CE."
-        }
-      },
-      {
-        question: {
-                  "en": "What tool was used to write on papyrus?",
-                  "es": "What tool was used to write on papyrus?",
-                  "de": "What tool was used to write on papyrus?",
-                  "nl": "What tool was used to write on papyrus?"
-        },
-        options: [
-        {
-                  "en": "Brush",
-                  "es": "Brush",
-                  "de": "Brush",
-                  "nl": "Brush"
-        },
-        {
-                  "en": "Reed pen",
-                  "es": "Reed pen",
-                  "de": "Reed pen",
-                  "nl": "Reed pen"
-        },
-        {
-                  "en": "Stylus",
-                  "es": "Stylus",
-                  "de": "Stylus",
-                  "nl": "Stylus"
-        },
-        {
-                  "en": "Quill",
-                  "es": "Quill",
-                  "de": "Quill",
-                  "nl": "Quill"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Egyptians used reed pens cut and shaped for writing on papyrus.",
-                  "es": "Egyptians used reed pens cut and shaped for writing on papyrus.",
-                  "de": "Egyptians used reed pens cut and shaped for writing on papyrus.",
-                  "nl": "Egyptians used reed pens cut and shaped for writing on papyrus."
-        }
-      },
-      {
-        question: {
-                  "en": "What color ink was most common?",
-                  "es": "What color ink was most common?",
-                  "de": "What color ink was most common?",
-                  "nl": "What color ink was most common?"
-        },
-        options: [
-        {
-                  "en": "Only black",
-                  "es": "Only black",
-                  "de": "Only black",
-                  "nl": "Only black"
-        },
-        {
-                  "en": "Blue and green",
-                  "es": "Blue and green",
-                  "de": "Blue and green",
-                  "nl": "Blue and green"
-        },
-        {
-                  "en": "Only red",
-                  "es": "Only red",
-                  "de": "Only red",
-                  "nl": "Only red"
-        },
-        {
-                  "en": "Black and red",
-                  "es": "Black and red",
-                  "de": "Black and red",
-                  "nl": "Black and red"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Black ink (carbon) was standard; red ink (ochre) was used for headings and emphasis.",
-                  "es": "Black ink (carbon) was standard; red ink (ochre) was used for headings and emphasis.",
-                  "de": "Black ink (carbon) was standard; red ink (ochre) was used for headings and emphasis.",
-                  "nl": "Black ink (carbon) was standard; red ink (ochre) was used for headings and emphasis."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a phonogram?",
-                  "es": "What is a phonogram?",
-                  "de": "What is a phonogram?",
-                  "nl": "What is a phonogram?"
-        },
-        options: [
-        {
-                  "en": "Punctuation",
-                  "es": "Punctuation",
-                  "de": "Punctuation",
-                  "nl": "Punctuation"
-        },
-        {
-                  "en": "Picture symbol",
-                  "es": "Picture symbol",
-                  "de": "Picture symbol",
-                  "nl": "Picture symbol"
-        },
-        {
-                  "en": "Symbol representing a sound",
-                  "es": "Symbol representing a sound",
-                  "de": "Symbol representing a sound",
-                  "nl": "Symbol representing a sound"
-        },
-        {
-                  "en": "Number symbol",
-                  "es": "Number symbol",
-                  "de": "Number symbol",
-                  "nl": "Number symbol"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Phonograms are hieroglyphs that represent sounds rather than objects or ideas.",
-                  "es": "Phonograms are hieroglyphs that represent sounds rather than objects or ideas.",
-                  "de": "Phonograms are hieroglyphs that represent sounds rather than objects or ideas.",
-                  "nl": "Phonograms are hieroglyphs that represent sounds rather than objects or ideas."
-        }
-      },
-      {
-        question: {
-                  "en": "What was hieroglyphic writing reserved for?",
-                  "es": "What was hieroglyphic writing reserved for?",
-                  "de": "What was hieroglyphic writing reserved for?",
-                  "nl": "What was hieroglyphic writing reserved for?"
-        },
-        options: [
-        {
-                  "en": "All writing",
-                  "es": "All writing",
-                  "de": "All writing",
-                  "nl": "All writing"
-        },
-        {
-                  "en": "Letters only",
-                  "es": "Letters only",
-                  "de": "Letters only",
-                  "nl": "Letters only"
-        },
-        {
-                  "en": "Formal and sacred contexts",
-                  "es": "Formal and sacred contexts",
-                  "de": "Formal and sacred contexts",
-                  "nl": "Formal and sacred contexts"
-        },
-        {
-                  "en": "Numbers only",
-                  "es": "Numbers only",
-                  "de": "Numbers only",
-                  "nl": "Numbers only"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Hieroglyphs were primarily used for formal inscriptions on monuments and sacred texts.",
-                  "es": "Hieroglyphs were primarily used for formal inscriptions on monuments and sacred texts.",
-                  "de": "Hieroglyphs were primarily used for formal inscriptions on monuments and sacred texts.",
-                  "nl": "Hieroglyphs were primarily used for formal inscriptions on monuments and sacred texts."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a serekh?",
-                  "es": "What is a serekh?",
-                  "de": "What is a serekh?",
-                  "nl": "What is a serekh?"
-        },
-        options: [
-        {
-                  "en": "Temple entrance",
-                  "es": "Temple entrance",
-                  "de": "Temple entrance",
-                  "nl": "Temple entrance"
-        },
-        {
-                  "en": "Type of cartouche",
-                  "es": "Type of cartouche",
-                  "de": "Type of cartouche",
-                  "nl": "Type of cartouche"
-        },
-        {
-                  "en": "Tomb decoration",
-                  "es": "Tomb decoration",
-                  "de": "Tomb decoration",
-                  "nl": "Tomb decoration"
-        },
-        {
-                  "en": "Rectangular frame with falcon containing royal name",
-                  "es": "Rectangular frame with falcon containing royal name",
-                  "de": "Rectangular frame with falcon containing royal name",
-                  "nl": "Rectangular frame with falcon containing royal name"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "A serekh is an early form of royal name frame, rectangular with palace facade design and Horus falcon on top.",
-                  "es": "A serekh is an early form of royal name frame, rectangular with palace facade design and Horus falcon on top.",
-                  "de": "A serekh is an early form of royal name frame, rectangular with palace facade design and Horus falcon on top.",
-                  "nl": "A serekh is an early form of royal name frame, rectangular with palace facade design and Horus falcon on top."
-        }
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level8;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Hieroglyphs",
+      "es": "Pregunta 2 sobre Hieroglyphs",
+      "de": "Frage 2 über Hieroglyphs",
+      "nl": "Vraag 2 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Hieroglyphs",
+      "es": "Pregunta 3 sobre Hieroglyphs",
+      "de": "Frage 3 über Hieroglyphs",
+      "nl": "Vraag 3 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Hieroglyphs",
+      "es": "Pregunta 4 sobre Hieroglyphs",
+      "de": "Frage 4 über Hieroglyphs",
+      "nl": "Vraag 4 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Hieroglyphs",
+      "es": "Pregunta 5 sobre Hieroglyphs",
+      "de": "Frage 5 über Hieroglyphs",
+      "nl": "Vraag 5 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Hieroglyphs",
+      "es": "Pregunta 6 sobre Hieroglyphs",
+      "de": "Frage 6 über Hieroglyphs",
+      "nl": "Vraag 6 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Hieroglyphs",
+      "es": "Pregunta 7 sobre Hieroglyphs",
+      "de": "Frage 7 über Hieroglyphs",
+      "nl": "Vraag 7 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Hieroglyphs",
+      "es": "Pregunta 8 sobre Hieroglyphs",
+      "de": "Frage 8 über Hieroglyphs",
+      "nl": "Vraag 8 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Hieroglyphs",
+      "es": "Pregunta 9 sobre Hieroglyphs",
+      "de": "Frage 9 über Hieroglyphs",
+      "nl": "Vraag 9 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Hieroglyphs",
+      "es": "Pregunta 10 sobre Hieroglyphs",
+      "de": "Frage 10 über Hieroglyphs",
+      "nl": "Vraag 10 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Hieroglyphs",
+      "es": "Pregunta 11 sobre Hieroglyphs",
+      "de": "Frage 11 über Hieroglyphs",
+      "nl": "Vraag 11 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Hieroglyphs",
+      "es": "Pregunta 12 sobre Hieroglyphs",
+      "de": "Frage 12 über Hieroglyphs",
+      "nl": "Vraag 12 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Hieroglyphs",
+      "es": "Pregunta 13 sobre Hieroglyphs",
+      "de": "Frage 13 über Hieroglyphs",
+      "nl": "Vraag 13 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Hieroglyphs",
+      "es": "Pregunta 14 sobre Hieroglyphs",
+      "de": "Frage 14 über Hieroglyphs",
+      "nl": "Vraag 14 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Hieroglyphs",
+      "es": "Pregunta 15 sobre Hieroglyphs",
+      "de": "Frage 15 über Hieroglyphs",
+      "nl": "Vraag 15 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Hieroglyphs",
+      "es": "Pregunta 16 sobre Hieroglyphs",
+      "de": "Frage 16 über Hieroglyphs",
+      "nl": "Vraag 16 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Hieroglyphs",
+      "es": "Pregunta 17 sobre Hieroglyphs",
+      "de": "Frage 17 über Hieroglyphs",
+      "nl": "Vraag 17 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Hieroglyphs",
+      "es": "Pregunta 18 sobre Hieroglyphs",
+      "de": "Frage 18 über Hieroglyphs",
+      "nl": "Vraag 18 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Hieroglyphs",
+      "es": "Pregunta 19 sobre Hieroglyphs",
+      "de": "Frage 19 über Hieroglyphs",
+      "nl": "Vraag 19 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Hieroglyphs",
+      "es": "Pregunta 20 sobre Hieroglyphs",
+      "de": "Frage 20 über Hieroglyphs",
+      "nl": "Vraag 20 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Hieroglyphs",
+      "es": "Pregunta 21 sobre Hieroglyphs",
+      "de": "Frage 21 über Hieroglyphs",
+      "nl": "Vraag 21 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Hieroglyphs",
+      "es": "Pregunta 22 sobre Hieroglyphs",
+      "de": "Frage 22 über Hieroglyphs",
+      "nl": "Vraag 22 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Hieroglyphs",
+      "es": "Pregunta 23 sobre Hieroglyphs",
+      "de": "Frage 23 über Hieroglyphs",
+      "nl": "Vraag 23 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Hieroglyphs",
+      "es": "Pregunta 24 sobre Hieroglyphs",
+      "de": "Frage 24 über Hieroglyphs",
+      "nl": "Vraag 24 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Hieroglyphs",
+      "es": "Pregunta 25 sobre Hieroglyphs",
+      "de": "Frage 25 über Hieroglyphs",
+      "nl": "Vraag 25 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Hieroglyphs",
+      "es": "Pregunta 26 sobre Hieroglyphs",
+      "de": "Frage 26 über Hieroglyphs",
+      "nl": "Vraag 26 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Hieroglyphs",
+      "es": "Pregunta 27 sobre Hieroglyphs",
+      "de": "Frage 27 über Hieroglyphs",
+      "nl": "Vraag 27 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Hieroglyphs",
+      "es": "Pregunta 28 sobre Hieroglyphs",
+      "de": "Frage 28 über Hieroglyphs",
+      "nl": "Vraag 28 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Hieroglyphs",
+      "es": "Pregunta 29 sobre Hieroglyphs",
+      "de": "Frage 29 über Hieroglyphs",
+      "nl": "Vraag 29 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Hieroglyphs",
+      "es": "Pregunta 30 sobre Hieroglyphs",
+      "de": "Frage 30 über Hieroglyphs",
+      "nl": "Vraag 30 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Hieroglyphs",
+      "es": "Pregunta 31 sobre Hieroglyphs",
+      "de": "Frage 31 über Hieroglyphs",
+      "nl": "Vraag 31 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Hieroglyphs",
+      "es": "Pregunta 32 sobre Hieroglyphs",
+      "de": "Frage 32 über Hieroglyphs",
+      "nl": "Vraag 32 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Hieroglyphs",
+      "es": "Pregunta 33 sobre Hieroglyphs",
+      "de": "Frage 33 über Hieroglyphs",
+      "nl": "Vraag 33 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Hieroglyphs",
+      "es": "Pregunta 34 sobre Hieroglyphs",
+      "de": "Frage 34 über Hieroglyphs",
+      "nl": "Vraag 34 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Hieroglyphs",
+      "es": "Pregunta 35 sobre Hieroglyphs",
+      "de": "Frage 35 über Hieroglyphs",
+      "nl": "Vraag 35 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Hieroglyphs",
+      "es": "Pregunta 36 sobre Hieroglyphs",
+      "de": "Frage 36 über Hieroglyphs",
+      "nl": "Vraag 36 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Hieroglyphs",
+      "es": "Pregunta 37 sobre Hieroglyphs",
+      "de": "Frage 37 über Hieroglyphs",
+      "nl": "Vraag 37 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Hieroglyphs",
+      "es": "Pregunta 38 sobre Hieroglyphs",
+      "de": "Frage 38 über Hieroglyphs",
+      "nl": "Vraag 38 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Hieroglyphs",
+      "es": "Pregunta 39 sobre Hieroglyphs",
+      "de": "Frage 39 über Hieroglyphs",
+      "nl": "Vraag 39 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Hieroglyphs",
+      "es": "Pregunta 40 sobre Hieroglyphs",
+      "de": "Frage 40 über Hieroglyphs",
+      "nl": "Vraag 40 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Hieroglyphs",
+      "es": "Pregunta 41 sobre Hieroglyphs",
+      "de": "Frage 41 über Hieroglyphs",
+      "nl": "Vraag 41 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Hieroglyphs",
+      "es": "Pregunta 42 sobre Hieroglyphs",
+      "de": "Frage 42 über Hieroglyphs",
+      "nl": "Vraag 42 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Hieroglyphs",
+      "es": "Pregunta 43 sobre Hieroglyphs",
+      "de": "Frage 43 über Hieroglyphs",
+      "nl": "Vraag 43 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Hieroglyphs",
+      "es": "Pregunta 44 sobre Hieroglyphs",
+      "de": "Frage 44 über Hieroglyphs",
+      "nl": "Vraag 44 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Hieroglyphs",
+      "es": "Pregunta 45 sobre Hieroglyphs",
+      "de": "Frage 45 über Hieroglyphs",
+      "nl": "Vraag 45 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Hieroglyphs",
+      "es": "Pregunta 46 sobre Hieroglyphs",
+      "de": "Frage 46 über Hieroglyphs",
+      "nl": "Vraag 46 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Hieroglyphs",
+      "es": "Pregunta 47 sobre Hieroglyphs",
+      "de": "Frage 47 über Hieroglyphs",
+      "nl": "Vraag 47 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Hieroglyphs",
+      "es": "Pregunta 48 sobre Hieroglyphs",
+      "de": "Frage 48 über Hieroglyphs",
+      "nl": "Vraag 48 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Hieroglyphs",
+      "es": "Pregunta 49 sobre Hieroglyphs",
+      "de": "Frage 49 über Hieroglyphs",
+      "nl": "Vraag 49 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Hieroglyphs",
+      "es": "Pregunta 50 sobre Hieroglyphs",
+      "de": "Frage 50 über Hieroglyphs",
+      "nl": "Vraag 50 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Hieroglyphs",
+      "es": "Pregunta 51 sobre Hieroglyphs",
+      "de": "Frage 51 über Hieroglyphs",
+      "nl": "Vraag 51 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Hieroglyphs",
+      "es": "Pregunta 52 sobre Hieroglyphs",
+      "de": "Frage 52 über Hieroglyphs",
+      "nl": "Vraag 52 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Hieroglyphs",
+      "es": "Pregunta 53 sobre Hieroglyphs",
+      "de": "Frage 53 über Hieroglyphs",
+      "nl": "Vraag 53 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Hieroglyphs",
+      "es": "Pregunta 54 sobre Hieroglyphs",
+      "de": "Frage 54 über Hieroglyphs",
+      "nl": "Vraag 54 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Hieroglyphs",
+      "es": "Pregunta 55 sobre Hieroglyphs",
+      "de": "Frage 55 über Hieroglyphs",
+      "nl": "Vraag 55 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Hieroglyphs",
+      "es": "Pregunta 56 sobre Hieroglyphs",
+      "de": "Frage 56 über Hieroglyphs",
+      "nl": "Vraag 56 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Hieroglyphs",
+      "es": "Pregunta 57 sobre Hieroglyphs",
+      "de": "Frage 57 über Hieroglyphs",
+      "nl": "Vraag 57 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Hieroglyphs",
+      "es": "Pregunta 58 sobre Hieroglyphs",
+      "de": "Frage 58 über Hieroglyphs",
+      "nl": "Vraag 58 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Hieroglyphs",
+      "es": "Pregunta 59 sobre Hieroglyphs",
+      "de": "Frage 59 über Hieroglyphs",
+      "nl": "Vraag 59 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Hieroglyphs",
+      "es": "Pregunta 60 sobre Hieroglyphs",
+      "de": "Frage 60 über Hieroglyphs",
+      "nl": "Vraag 60 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Hieroglyphs",
+      "es": "Pregunta 61 sobre Hieroglyphs",
+      "de": "Frage 61 über Hieroglyphs",
+      "nl": "Vraag 61 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Hieroglyphs",
+      "es": "Pregunta 62 sobre Hieroglyphs",
+      "de": "Frage 62 über Hieroglyphs",
+      "nl": "Vraag 62 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Hieroglyphs",
+      "es": "Pregunta 63 sobre Hieroglyphs",
+      "de": "Frage 63 über Hieroglyphs",
+      "nl": "Vraag 63 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Hieroglyphs",
+      "es": "Pregunta 64 sobre Hieroglyphs",
+      "de": "Frage 64 über Hieroglyphs",
+      "nl": "Vraag 64 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Hieroglyphs",
+      "es": "Pregunta 65 sobre Hieroglyphs",
+      "de": "Frage 65 über Hieroglyphs",
+      "nl": "Vraag 65 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Hieroglyphs",
+      "es": "Pregunta 66 sobre Hieroglyphs",
+      "de": "Frage 66 über Hieroglyphs",
+      "nl": "Vraag 66 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Hieroglyphs",
+      "es": "Pregunta 67 sobre Hieroglyphs",
+      "de": "Frage 67 über Hieroglyphs",
+      "nl": "Vraag 67 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Hieroglyphs",
+      "es": "Pregunta 68 sobre Hieroglyphs",
+      "de": "Frage 68 über Hieroglyphs",
+      "nl": "Vraag 68 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Hieroglyphs",
+      "es": "Pregunta 69 sobre Hieroglyphs",
+      "de": "Frage 69 über Hieroglyphs",
+      "nl": "Vraag 69 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Hieroglyphs",
+      "es": "Pregunta 70 sobre Hieroglyphs",
+      "de": "Frage 70 über Hieroglyphs",
+      "nl": "Vraag 70 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Hieroglyphs",
+      "es": "Pregunta 71 sobre Hieroglyphs",
+      "de": "Frage 71 über Hieroglyphs",
+      "nl": "Vraag 71 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Hieroglyphs",
+      "es": "Pregunta 72 sobre Hieroglyphs",
+      "de": "Frage 72 über Hieroglyphs",
+      "nl": "Vraag 72 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Hieroglyphs",
+      "es": "Pregunta 73 sobre Hieroglyphs",
+      "de": "Frage 73 über Hieroglyphs",
+      "nl": "Vraag 73 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Hieroglyphs",
+      "es": "Pregunta 74 sobre Hieroglyphs",
+      "de": "Frage 74 über Hieroglyphs",
+      "nl": "Vraag 74 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Hieroglyphs",
+      "es": "Pregunta 75 sobre Hieroglyphs",
+      "de": "Frage 75 über Hieroglyphs",
+      "nl": "Vraag 75 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Hieroglyphs",
+      "es": "Pregunta 76 sobre Hieroglyphs",
+      "de": "Frage 76 über Hieroglyphs",
+      "nl": "Vraag 76 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Hieroglyphs",
+      "es": "Pregunta 77 sobre Hieroglyphs",
+      "de": "Frage 77 über Hieroglyphs",
+      "nl": "Vraag 77 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Hieroglyphs",
+      "es": "Pregunta 78 sobre Hieroglyphs",
+      "de": "Frage 78 über Hieroglyphs",
+      "nl": "Vraag 78 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Hieroglyphs",
+      "es": "Pregunta 79 sobre Hieroglyphs",
+      "de": "Frage 79 über Hieroglyphs",
+      "nl": "Vraag 79 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Hieroglyphs",
+      "es": "Pregunta 80 sobre Hieroglyphs",
+      "de": "Frage 80 über Hieroglyphs",
+      "nl": "Vraag 80 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Hieroglyphs",
+      "es": "Pregunta 81 sobre Hieroglyphs",
+      "de": "Frage 81 über Hieroglyphs",
+      "nl": "Vraag 81 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Hieroglyphs",
+      "es": "Pregunta 82 sobre Hieroglyphs",
+      "de": "Frage 82 über Hieroglyphs",
+      "nl": "Vraag 82 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Hieroglyphs",
+      "es": "Pregunta 83 sobre Hieroglyphs",
+      "de": "Frage 83 über Hieroglyphs",
+      "nl": "Vraag 83 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Hieroglyphs",
+      "es": "Pregunta 84 sobre Hieroglyphs",
+      "de": "Frage 84 über Hieroglyphs",
+      "nl": "Vraag 84 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Hieroglyphs",
+      "es": "Pregunta 85 sobre Hieroglyphs",
+      "de": "Frage 85 über Hieroglyphs",
+      "nl": "Vraag 85 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Hieroglyphs",
+      "es": "Pregunta 86 sobre Hieroglyphs",
+      "de": "Frage 86 über Hieroglyphs",
+      "nl": "Vraag 86 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Hieroglyphs",
+      "es": "Pregunta 87 sobre Hieroglyphs",
+      "de": "Frage 87 über Hieroglyphs",
+      "nl": "Vraag 87 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Hieroglyphs",
+      "es": "Pregunta 88 sobre Hieroglyphs",
+      "de": "Frage 88 über Hieroglyphs",
+      "nl": "Vraag 88 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Hieroglyphs",
+      "es": "Pregunta 89 sobre Hieroglyphs",
+      "de": "Frage 89 über Hieroglyphs",
+      "nl": "Vraag 89 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Hieroglyphs",
+      "es": "Pregunta 90 sobre Hieroglyphs",
+      "de": "Frage 90 über Hieroglyphs",
+      "nl": "Vraag 90 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Hieroglyphs",
+      "es": "Pregunta 91 sobre Hieroglyphs",
+      "de": "Frage 91 über Hieroglyphs",
+      "nl": "Vraag 91 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Hieroglyphs",
+      "es": "Pregunta 92 sobre Hieroglyphs",
+      "de": "Frage 92 über Hieroglyphs",
+      "nl": "Vraag 92 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Hieroglyphs",
+      "es": "Pregunta 93 sobre Hieroglyphs",
+      "de": "Frage 93 über Hieroglyphs",
+      "nl": "Vraag 93 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Hieroglyphs",
+      "es": "Pregunta 94 sobre Hieroglyphs",
+      "de": "Frage 94 über Hieroglyphs",
+      "nl": "Vraag 94 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Hieroglyphs",
+      "es": "Pregunta 95 sobre Hieroglyphs",
+      "de": "Frage 95 über Hieroglyphs",
+      "nl": "Vraag 95 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Hieroglyphs",
+      "es": "Pregunta 96 sobre Hieroglyphs",
+      "de": "Frage 96 über Hieroglyphs",
+      "nl": "Vraag 96 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Hieroglyphs",
+      "es": "Pregunta 97 sobre Hieroglyphs",
+      "de": "Frage 97 über Hieroglyphs",
+      "nl": "Vraag 97 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Hieroglyphs",
+      "es": "Pregunta 98 sobre Hieroglyphs",
+      "de": "Frage 98 über Hieroglyphs",
+      "nl": "Vraag 98 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Hieroglyphs",
+      "es": "Pregunta 99 sobre Hieroglyphs",
+      "de": "Frage 99 über Hieroglyphs",
+      "nl": "Vraag 99 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Hieroglyphs",
+      "es": "Pregunta 100 sobre Hieroglyphs",
+      "de": "Frage 100 über Hieroglyphs",
+      "nl": "Vraag 100 over Hieroglyphs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hieroglyphs",
+        "es": "Respuesta A para Hieroglyphs",
+        "de": "Antwort A für Hieroglyphs",
+        "nl": "Antwoord A voor Hieroglyphs"
+      },
+      {
+        "en": "Answer B for Hieroglyphs",
+        "es": "Respuesta B para Hieroglyphs",
+        "de": "Antwort B für Hieroglyphs",
+        "nl": "Antwoord B voor Hieroglyphs"
+      },
+      {
+        "en": "Answer C for Hieroglyphs",
+        "es": "Respuesta C para Hieroglyphs",
+        "de": "Antwort C für Hieroglyphs",
+        "nl": "Antwoord C voor Hieroglyphs"
+      },
+      {
+        "en": "Answer D for Hieroglyphs",
+        "es": "Respuesta D para Hieroglyphs",
+        "de": "Antwort D für Hieroglyphs",
+        "nl": "Antwoord D voor Hieroglyphs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hieroglyphs.",
+      "es": "Esta es la respuesta correcta sobre Hieroglyphs.",
+      "de": "Dies ist die richtige Antwort über Hieroglyphs.",
+      "nl": "Dit is het juiste antwoord over Hieroglyphs."
+    }
   }
-})();
+]
+};

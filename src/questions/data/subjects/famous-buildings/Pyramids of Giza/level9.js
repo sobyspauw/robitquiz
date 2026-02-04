@@ -1,1249 +1,4104 @@
-(function() {
-    const level9Questions = [
-        {
-            question: {
-                en: "What is the exact orientation error of the Great Pyramid's base?",
-                es: "¿Cuál es el error de orientación exacto de la base de la Gran Pirámide?",
-                de: "Wie groß ist der genaue Ausrichtungsfehler der Basis der Großen Pyramide?",
-                nl: "Wat is de exacte oriëntatiefout van de basis van de Grote Piramide?"
-            },
-            options: [
-                { en: "15 degrees", es: "15 grados", de: "15 Grad", nl: "15 graden" },
-                { en: "1 degree", es: "1 grado", de: "1 Grad", nl: "1 graad" },
-                { en: "3 arcminutes 54 arcseconds", es: "3 minutos de arco 54 segundos de arco", de: "3 Bogenminuten 54 Bogensekunden", nl: "3 boogminuten 54 boogseconden" },
-                { en: "30 arcminutes", es: "30 minutos de arco", de: "30 Bogenminuten", nl: "30 boogminuten" }
-            ],
-            correctIndex: 2,
-            explanation: {
-                en: "The Great Pyramid's alignment to true north is remarkably accurate, with an error of only 3 arcminutes 54 arcseconds (about 0.067 degrees), achieved without modern instruments.",
-                es: "La alineación de la Gran Pirámide con el norte verdadero es notablemente precisa, con un error de solo 3 minutos de arco 54 segundos de arco (aproximadamente 0,067 grados), logrado sin instrumentos modernos.",
-                de: "Die Ausrichtung der Großen Pyramide zum wahren Norden ist bemerkenswert genau, mit einem Fehler von nur 3 Bogenminuten 54 Bogensekunden (etwa 0,067 Grad), erreicht ohne moderne Instrumente.",
-                nl: "De uitlijning van de Grote Piramide met het ware noorden is opmerkelijk nauwkeurig, met een fout van slechts 3 boogminuten 54 boogseconden (ongeveer 0,067 graden), bereikt zonder moderne instrumenten."
-            }
-        },
-        {
-            question: {
-                en: "What astronomical phenomenon did the southern shaft of the King's Chamber target?",
-                es: "¿Qué fenómeno astronómico apuntaba el conducto sur de la Cámara del Rey?",
-                de: "Welches astronomische Phänomen zielte der südliche Schacht der Königskammer an?",
-                nl: "Welk astronomisch fenomeen richtte de zuidelijke schacht van de Koningskamer zich op?"
-            },
-            options: [
-                { en: "Sirius", es: "Sirio", de: "Sirius", nl: "Sirius" },
-                { en: "Orion's Belt (Al Nitak)", es: "Cinturón de Orión (Al Nitak)", de: "Oriongürtel (Al Nitak)", nl: "Gordel van Orion (Al Nitak)" },
-                { en: "Polaris", es: "Polaris", de: "Polaris", nl: "Polaris" },
-                { en: "Venus", es: "Venus", de: "Venus", nl: "Venus" }
-            ],
-            correctIndex: 1,
-            explanation: {
-                en: "The southern shaft of the King's Chamber pointed at Al Nitak (Zeta Orionis) in Orion's Belt at around 2450 BC, which the Egyptians associated with Osiris.",
-                es: "El conducto sur de la Cámara del Rey apuntaba a Al Nitak (Zeta Orionis) en el Cinturón de Orión alrededor del 2450 a.C., que los egipcios asociaban con Osiris.",
-                de: "Der südliche Schacht der Königskammer zielte um 2450 v. Chr. auf Al Nitak (Zeta Orionis) im Oriongürtel, den die Ägypter mit Osiris assoziierten.",
-                nl: "De zuidelijke schacht van de Koningskamer richtte zich rond 2450 v.Chr. op Al Nitak (Zeta Orionis) in de Gordel van Orion, die de Egyptenaren associeerden met Osiris."
-            }
-        },
-        {
-            question: {
-                en: "What star did the northern shaft of the King's Chamber target?",
-                es: "¿Qué estrella apuntaba el conducto norte de la Cámara del Rey?",
-                de: "Welchen Stern zielte der nördliche Schacht der Königskammer an?",
-                nl: "Welke ster richtte de noordelijke schacht van de Koningskamer zich op?"
-            },
-            options: [
-                { en: "Polaris", es: "Polaris", de: "Polaris", nl: "Polaris" },
-                { en: "Thuban (Alpha Draconis)", es: "Thuban (Alfa Draconis)", de: "Thuban (Alpha Draconis)", nl: "Thuban (Alfa Draconis)" },
-                { en: "Sirius", es: "Sirio", de: "Sirius", nl: "Sirius" },
-                { en: "Betelgeuse", es: "Betelgeuse", de: "Beteigeuze", nl: "Betelgeuse" }
-            ],
-            correctIndex: 1,
-            explanation: {
-                en: "The northern shaft targeted Thuban (Alpha Draconis), which was the pole star around 2700 BC, crucial for the pharaoh's journey to join the circumpolar 'imperishable stars.'",
-                es: "El conducto norte apuntaba a Thuban (Alfa Draconis), que era la estrella polar alrededor del 2700 a.C., crucial para el viaje del faraón para unirse a las 'estrellas imperecederas' circumpolares.",
-                de: "Der nördliche Schacht zielte auf Thuban (Alpha Draconis), der um 2700 v. Chr. der Polarstern war, entscheidend für die Reise des Pharaos, um sich den zirkumpolaren 'unvergänglichen Sternen' anzuschließen.",
-                nl: "De noordelijke schacht richtte zich op Thuban (Alfa Draconis), die rond 2700 v.Chr. de poolster was, cruciaal voor de reis van de farao om zich bij de circumpolaire 'onvergankelijke sterren' te voegen."
-            }
-        },
-        {
-            question: {
-                en: "What is the precise slope angle of the Great Pyramid?",
-                es: "¿Cuál es el ángulo de inclinación preciso de la Gran Pirámide?",
-                de: "Was ist der genaue Neigungswinkel der Großen Pyramide?",
-                nl: "Wat is de precieze helling hoek van de Grote Piramide?"
-            },
-            options: [
-                { en: "45 degrees", es: "45 grados", de: "45 Grad", nl: "45 graden" },
-                { en: "51°50'40\"", es: "51°50'40\"", de: "51°50'40\"", nl: "51°50'40\"" },
-                { en: "60 degrees", es: "60 grados", de: "60 Grad", nl: "60 graden" },
-                { en: "43 degrees", es: "43 grados", de: "43 Grad", nl: "43 graden" }
-            ],
-            correctIndex: 1,
-            explanation: {
-                en: "The Great Pyramid's slope angle is 51°50'40\" (or approximately 51.84 degrees), achieved through a seked (Egyptian measure) of 5½ palms per cubit, approximating the golden ratio.",
-                es: "El ángulo de inclinación de la Gran Pirámide es 51°50'40\" (o aproximadamente 51,84 grados), logrado a través de un seked (medida egipcia) de 5½ palmas por codo, aproximando la proporción áurea.",
-                de: "Der Neigungswinkel der Großen Pyramide beträgt 51°50'40\" (oder etwa 51,84 Grad), erreicht durch ein Seked (ägyptisches Maß) von 5½ Palmen pro Elle, was das goldene Verhältnis annähert.",
-                nl: "De helling hoek van de Grote Piramide is 51°50'40\" (of ongeveer 51,84 graden), bereikt door een seked (Egyptische maat) van 5½ palmen per el, wat de gulden snede benadert."
-            }
-        },
-        {
-            question: {
-                en: "What mathematical relationship exists between the pyramid's height and base perimeter?",
-                es: "¿Qué relación matemática existe entre la altura de la pirámide y el perímetro de la base?",
-                de: "Welche mathematische Beziehung besteht zwischen der Höhe der Pyramide und dem Basisumfang?",
-                nl: "Welke wiskundige relatie bestaat er tussen de hoogte van de piramide en de omtrek van de basis?"
-            },
-            options: [
-                { en: "They are equal", es: "Son iguales", de: "Sie sind gleich", nl: "Ze zijn gelijk" },
-                { en: "Base perimeter ÷ (2 × height) ≈ π", es: "Perímetro de base ÷ (2 × altura) ≈ π", de: "Basisumfang ÷ (2 × Höhe) ≈ π", nl: "Basis omtrek ÷ (2 × hoogte) ≈ π" },
-                { en: "Height = base × 2", es: "Altura = base × 2", de: "Höhe = Basis × 2", nl: "Hoogte = basis × 2" },
-                { en: "No relationship", es: "Sin relación", de: "Keine Beziehung", nl: "Geen relatie" }
-            ],
-            correctIndex: 1,
-            explanation: {
-                en: "The base perimeter (921.6m) divided by twice the height (293m) equals approximately π (3.14159), though whether this was intentional or coincidental remains debated among scholars.",
-                es: "El perímetro de la base (921,6 m) dividido por el doble de la altura (293 m) es igual a aproximadamente π (3,14159), aunque si esto fue intencional o coincidental sigue siendo debatido entre académicos.",
-                de: "Der Basisumfang (921,6 m) geteilt durch die doppelte Höhe (293 m) ergibt ungefähr π (3,14159), obwohl unter Gelehrten umstritten ist, ob dies beabsichtigt oder zufällig war.",
-                nl: "De omtrek van de basis (921,6 m) gedeeld door tweemaal de hoogte (293 m) is ongeveer gelijk aan π (3,14159), hoewel het onder geleerden omstreden blijft of dit opzettelijk of toevallig was."
-            }
-        },
-        {
-            question: {
-                en: "What is the Egyptian royal cubit measurement used in the Great Pyramid?",
-                es: "¿Cuál es la medida del codo real egipcio utilizada en la Gran Pirámide?",
-                de: "Was ist das ägyptische königliche Ellen-Maß, das in der Großen Pyramide verwendet wurde?",
-                nl: "Wat is de Egyptische koninklijke el-maat gebruikt in de Grote Piramide?"
-            },
-            options: [
-                { en: "30 centimeters", es: "30 centímetros", de: "30 Zentimeter", nl: "30 centimeter" },
-                { en: "45 centimeters", es: "45 centímetros", de: "45 Zentimeter", nl: "45 centimeter" },
-                { en: "52.36 centimeters", es: "52,36 centímetros", de: "52,36 Zentimeter", nl: "52,36 centimeter" },
-                { en: "60 centimeters", es: "60 centímetros", de: "60 Zentimeter", nl: "60 centimeter" }
-            ],
-            correctIndex: 2,
-            explanation: {
-                en: "The royal cubit used in the Great Pyramid is approximately 52.36 cm (20.62 inches), divided into 7 palms of 4 digits each, totaling 28 digits per cubit.",
-                es: "El codo real utilizado en la Gran Pirámide es de aproximadamente 52,36 cm (20,62 pulgadas), dividido en 7 palmas de 4 dígitos cada una, totalizando 28 dígitos por codo.",
-                de: "Die in der Großen Pyramide verwendete königliche Elle beträgt etwa 52,36 cm (20,62 Zoll), aufgeteilt in 7 Palmen mit je 4 Fingern, insgesamt 28 Finger pro Elle.",
-                nl: "De koninklijke el gebruikt in de Grote Piramide is ongeveer 52,36 cm (20,62 inch), verdeeld in 7 palmen van elk 4 vingers, in totaal 28 vingers per el."
-            }
-        },
-        {
-            question: {
-                en: "What was the seked measurement system used for?",
-                es: "¿Para qué se utilizaba el sistema de medición seked?",
-                de: "Wofür wurde das Seked-Messsystem verwendet?",
-                nl: "Waar werd het seked-meetsysteem voor gebruikt?"
-            },
-            options: [
-                { en: "Measuring weight", es: "Medir peso", de: "Gewicht messen", nl: "Gewicht meten" },
-                { en: "Measuring slope angles", es: "Medir ángulos de inclinación", de: "Neigungswinkel messen", nl: "Helling hoeken meten" },
-                { en: "Measuring time", es: "Medir tiempo", de: "Zeit messen", nl: "Tijd meten" },
-                { en: "Measuring volume", es: "Medir volumen", de: "Volumen messen", nl: "Volume meten" }
-            ],
-            correctIndex: 1,
-            explanation: {
-                en: "The seked was an Egyptian measure for slope angles, expressing the horizontal run in palms for each royal cubit of vertical rise. The Great Pyramid used a seked of 5½.",
-                es: "El seked era una medida egipcia para ángulos de inclinación, expresando el recorrido horizontal en palmas por cada codo real de elevación vertical. La Gran Pirámide usó un seked de 5½.",
-                de: "Das Seked war ein ägyptisches Maß für Neigungswinkel, das den horizontalen Verlauf in Palmen für jede königliche Elle vertikalen Anstiegs ausdrückte. Die Große Pyramide verwendete ein Seked von 5½.",
-                nl: "De seked was een Egyptische maat voor helling hoeken, waarbij de horizontale loop in palmen werd uitgedrukt voor elke koninklijke el van verticale stijging. De Grote Piramide gebruikte een seked van 5½."
-            }
-        },
-        {
-            question: {
-                en: "What is the significance of the ratio 11:7 in the Great Pyramid?",
-                es: "¿Cuál es la importancia de la proporción 11:7 en la Gran Pirámide?",
-                de: "Was ist die Bedeutung des Verhältnisses 11:7 in der Großen Pyramide?",
-                nl: "Wat is de betekenis van de verhouding 11:7 in de Grote Piramide?"
-            },
-            options: [
-                { en: "Number of chambers", es: "Número de cámaras", de: "Anzahl der Kammern", nl: "Aantal kamers" },
-                { en: "Half base to height ratio (approximates √φ)", es: "Proporción de media base a altura (aproxima √φ)", de: "Verhältnis halbe Basis zu Höhe (nähert √φ)", nl: "Verhouding halve basis tot hoogte (benadert √φ)" },
-                { en: "Stone block count", es: "Cuenta de bloques de piedra", de: "Anzahl der Steinblöcke", nl: "Aantal stenen blokken" },
-                { en: "Worker shifts", es: "Turnos de trabajadores", de: "Arbeitsschichten", nl: "Werknemersdiensten" }
-            ],
-            correctIndex: 1,
-            explanation: {
-                en: "The ratio of half the base (115.2m) to height (146.5m) is approximately 11:14, which when expressed as 11:7 (for apothem:half base) approximates √φ (square root of golden ratio).",
-                es: "La proporción de la mitad de la base (115,2 m) a la altura (146,5 m) es aproximadamente 11:14, que cuando se expresa como 11:7 (para apotema:media base) aproxima √φ (raíz cuadrada de la proporción áurea).",
-                de: "Das Verhältnis der halben Basis (115,2 m) zur Höhe (146,5 m) beträgt etwa 11:14, was, wenn es als 11:7 (für Apotheme:halbe Basis) ausgedrückt wird, √φ (Quadratwurzel des goldenen Verhältnisses) annähert.",
-                nl: "De verhouding van de helft van de basis (115,2 m) tot de hoogte (146,5 m) is ongeveer 11:14, wat wanneer uitgedrukt als 11:7 (voor apothema:halve basis) √φ (vierkantswortel van gulden snede) benadert."
-            }
-        },
-        {
-            question: {
-                en: "What construction theory involves a single external ramp?",
-                es: "¿Qué teoría de construcción implica una rampa externa única?",
-                de: "Welche Bautheorie beinhaltet eine einzelne externe Rampe?",
-                nl: "Welke constructietheorie omvat een enkele externe helling?"
-            },
-            options: [
-                { en: "Straight ramp theory", es: "Teoría de rampa recta", de: "Gerade-Rampen-Theorie", nl: "Rechte helling theorie" },
-                { en: "Spiral ramp theory", es: "Teoría de rampa espiral", de: "Spiral-Rampen-Theorie", nl: "Spiraal helling theorie" },
-                { en: "Internal ramp theory", es: "Teoría de rampa interna", de: "Interne-Rampen-Theorie", nl: "Interne helling theorie" },
-                { en: "No ramp theory", es: "Teoría sin rampa", de: "Keine-Rampen-Theorie", nl: "Geen helling theorie" }
-            ],
-            correctIndex: 0,
-            explanation: {
-                en: "The straight ramp theory proposes a single long ramp extending from the pyramid, though calculations show it would need to be over 1.6 km long to maintain a usable slope.",
-                es: "La teoría de la rampa recta propone una rampa larga única que se extiende desde la pirámide, aunque los cálculos muestran que necesitaría tener más de 1,6 km de largo para mantener una pendiente utilizable.",
-                de: "Die Gerade-Rampen-Theorie schlägt eine einzelne lange Rampe vor, die von der Pyramide ausgeht, obwohl Berechnungen zeigen, dass sie über 1,6 km lang sein müsste, um eine nutzbare Steigung beizubehalten.",
-                nl: "De rechte helling theorie stelt een enkele lange helling voor die vanaf de piramide loopt, hoewel berekeningen aantonen dat het meer dan 1,6 km lang zou moeten zijn om een bruikbare helling te behouden."
-            }
-        },
-        {
-            question: {
-                en: "What does the Orion Correlation Theory propose?",
-                es: "¿Qué propone la Teoría de Correlación de Orión?",
-                de: "Was schlägt die Orion-Korrelationstheorie vor?",
-                nl: "Wat stelt de Orion Correlatie Theorie voor?"
-            },
-            options: [
-                { en: "Pyramids are randomly placed", es: "Las pirámides están colocadas al azar", de: "Pyramiden sind zufällig platziert", nl: "Piramides zijn willekeurig geplaatst" },
-                { en: "Giza pyramids mirror Orion's Belt stars", es: "Las pirámides de Giza reflejan las estrellas del Cinturón de Orión", de: "Gizeh-Pyramiden spiegeln die Sterne des Oriongürtels wider", nl: "Gizeh-piramides weerspiegelen de sterren van de Gordel van Orion" },
-                { en: "Pyramids point to Mars", es: "Las pirámides apuntan a Marte", de: "Pyramiden zeigen auf Mars", nl: "Piramides wijzen naar Mars" },
-                { en: "Pyramids align with the Moon", es: "Las pirámides se alinean con la Luna", de: "Pyramiden richten sich nach dem Mond aus", nl: "Piramides lijnen uit met de Maan" }
-            ],
-            correctIndex: 1,
-            explanation: {
-                en: "Robert Bauval's Orion Correlation Theory (1983) proposes that the three Giza pyramids' layout mirrors the three stars of Orion's Belt, with the Nile representing the Milky Way.",
-                es: "La Teoría de Correlación de Orión de Robert Bauval (1983) propone que el diseño de las tres pirámides de Giza refleja las tres estrellas del Cinturón de Orión, con el Nilo representando la Vía Láctea.",
-                de: "Robert Bauvals Orion-Korrelationstheorie (1983) schlägt vor, dass das Layout der drei Gizeh-Pyramiden die drei Sterne des Oriongürtels widerspiegelt, wobei der Nil die Milchstraße darstellt.",
-                nl: "Robert Bauval's Orion Correlatie Theorie (1983) stelt voor dat de indeling van de drie Gizeh-piramides de drie sterren van de Gordel van Orion weerspiegelt, waarbij de Nijl de Melkweg vertegenwoordigt."
-            }
-        },
-        {
-            question: {
-                en: "What is Jean-Pierre Houdin's internal ramp theory?",
-                es: "¿Qué es la teoría de rampa interna de Jean-Pierre Houdin?",
-                de: "Was ist Jean-Pierre Houdins interne Rampentheorie?",
-                nl: "Wat is Jean-Pierre Houdin's interne helling theorie?"
-            },
-            options: [
-                { en: "External spiral ramp only", es: "Solo rampa espiral externa", de: "Nur externe Spiralrampe", nl: "Alleen externe spiraal helling" },
-                { en: "Internal spiral tunnel within pyramid structure", es: "Túnel espiral interno dentro de la estructura de la pirámide", de: "Interner Spiraltunnel innerhalb der Pyramidenstruktur", nl: "Interne spiraal tunnel binnen piramidestructuur" },
-                { en: "Vertical elevator system", es: "Sistema de elevador vertical", de: "Vertikales Aufzugssystem", nl: "Verticaal liftsysteem" },
-                { en: "No ramps at all", es: "Sin rampas en absoluto", de: "Überhaupt keine Rampen", nl: "Helemaal geen hellingen" }
-            ],
-            correctIndex: 1,
-            explanation: {
-                en: "Houdin proposes an external ramp for the first third, then an internal spiral ramp within the pyramid's structure for the upper portions, explaining how the apex was completed efficiently.",
-                es: "Houdin propone una rampa externa para el primer tercio, luego una rampa espiral interna dentro de la estructura de la pirámide para las porciones superiores, explicando cómo se completó eficientemente el ápice.",
-                de: "Houdin schlägt eine externe Rampe für das erste Drittel vor, dann eine interne Spiralrampe innerhalb der Pyramidenstruktur für die oberen Teile, was erklärt, wie die Spitze effizient fertiggestellt wurde.",
-                nl: "Houdin stelt een externe helling voor voor het eerste derde deel, dan een interne spiraal helling binnen de piramidestructuur voor de bovenste gedeelten, wat verklaart hoe de top efficiënt werd voltooid."
-            }
-        },
-        {
-            question: {
-                en: "What is the estimated margin of error in the Great Pyramid's base square?",
-                es: "¿Cuál es el margen de error estimado en el cuadrado de la base de la Gran Pirámide?",
-                de: "Was ist die geschätzte Fehlertoleranz im Basisquadrat der Großen Pyramide?",
-                nl: "Wat is de geschatte foutmarge in het basisvierkant van de Grote Piramide?"
-            },
-            options: [
-                { en: "50 centimeters", es: "50 centímetros", de: "50 Zentimeter", nl: "50 centimeter" },
-                { en: "5.8 centimeters", es: "5,8 centímetros", de: "5,8 Zentimeter", nl: "5,8 centimeter" },
-                { en: "1 meter", es: "1 metro", de: "1 Meter", nl: "1 meter" },
-                { en: "10 centimeters", es: "10 centímetros", de: "10 Zentimeter", nl: "10 centimeter" }
-            ],
-            correctIndex: 1,
-            explanation: {
-                en: "The maximum difference in the lengths of the four sides of the Great Pyramid's base is only 5.8 cm out of 230 meters, representing an accuracy of 99.97%.",
-                es: "La diferencia máxima en las longitudes de los cuatro lados de la base de la Gran Pirámide es de solo 5,8 cm de 230 metros, representando una precisión del 99,97%.",
-                de: "Der maximale Unterschied in den Längen der vier Seiten der Basis der Großen Pyramide beträgt nur 5,8 cm von 230 Metern, was eine Genauigkeit von 99,97% darstellt.",
-                nl: "Het maximale verschil in de lengtes van de vier zijden van de basis van de Grote Piramide is slechts 5,8 cm van 230 meter, wat een nauwkeurigheid van 99,97% vertegenwoordigt."
-            }
-        },
-        {
-            question: {
-                en: "What is the significance of the 'boss' marks on some casing stones?",
-                es: "¿Cuál es la importancia de las marcas de 'jefe' en algunas piedras de revestimiento?",
-                de: "Was ist die Bedeutung der 'Boss'-Markierungen auf einigen Verkleidungssteinen?",
-                nl: "Wat is de betekenis van de 'boss'-markeringen op sommige bekledingsstenen?"
-            },
-            options: [
-                { en: "Decorative elements", es: "Elementos decorativos", de: "Dekorative Elemente", nl: "Decoratieve elementen" },
-                { en: "Temporary knobs for handling and positioning stones", es: "Perillas temporales para manejar y posicionar piedras", de: "Temporäre Knöpfe zum Handhaben und Positionieren von Steinen", nl: "Tijdelijke knoppen voor het hanteren en positioneren van stenen" },
-                { en: "Religious symbols", es: "Símbolos religiosos", de: "Religiöse Symbole", nl: "Religieuze symbolen" },
-                { en: "Builder signatures", es: "Firmas de constructores", de: "Bauherrensignaturen", nl: "Bouwerhandtekeningen" }
-            ],
-            correctIndex: 1,
-            explanation: {
-                en: "Boss marks (protrusions) on casing stones were temporary knobs used with ropes for handling and positioning the stones precisely. They were to be removed after final placement but some remain.",
-                es: "Las marcas de jefe (protuberancias) en las piedras de revestimiento eran perillas temporales utilizadas con cuerdas para manejar y posicionar las piedras con precisión. Debían eliminarse después de la colocación final, pero algunas permanecen.",
-                de: "Boss-Markierungen (Vorsprünge) auf Verkleidungssteinen waren temporäre Knöpfe, die mit Seilen zum präzisen Handhaben und Positionieren der Steine verwendet wurden. Sie sollten nach der endgültigen Platzierung entfernt werden, aber einige bleiben.",
-                nl: "Boss-markeringen (uitsteeksels) op bekledingsstenen waren tijdelijke knoppen die met touwen werden gebruikt voor het nauwkeurig hanteren en positioneren van de stenen. Ze moesten na definitieve plaatsing worden verwijderd, maar sommige blijven."
-            }
-        },
-        {
-            question: {
-                en: "What was the purpose of the copper 'handles' found in Queen's Chamber shafts?",
-                es: "¿Cuál era el propósito de las 'manijas' de cobre encontradas en los conductos de la Cámara de la Reina?",
-                de: "Was war der Zweck der Kupfer-'Griffe', die in den Schächten der Königinnenkammer gefunden wurden?",
-                nl: "Wat was het doel van de koperen 'handvatten' gevonden in de schachten van de Koninginnenkamer?"
-            },
-            options: [
-                { en: "Door handles", es: "Manijas de puerta", de: "Türgriffe", nl: "Deurhandvatten" },
-                { en: "Symbolic pins or ritual objects", es: "Alfileres simbólicos u objetos rituales", de: "Symbolische Stifte oder rituelle Objekte", nl: "Symbolische pinnen of rituele objecten" },
-                { en: "Construction tools", es: "Herramientas de construcción", de: "Bauwerkzeuge", nl: "Bouwgereedschap" },
-                { en: "Lighting fixtures", es: "Accesorios de iluminación", de: "Beleuchtungskörper", nl: "Verlichtingsarmaturen" }
-            ],
-            correctIndex: 1,
-            explanation: {
-                en: "The copper 'handles' or pins on the blocking stones in the Queen's Chamber shafts are believed to be symbolic or ritual objects rather than functional handles, possibly representing door mechanisms.",
-                es: "Las 'manijas' o alfileres de cobre en las piedras de bloqueo en los conductos de la Cámara de la Reina se cree que son objetos simbólicos o rituales en lugar de manijas funcionales, posiblemente representando mecanismos de puerta.",
-                de: "Die Kupfer-'Griffe' oder Stifte an den Sperrsteinen in den Schächten der Königinnenkammer werden als symbolische oder rituelle Objekte und nicht als funktionale Griffe angesehen, möglicherweise Türmechanismen darstellend.",
-                nl: "De koperen 'handvatten' of pinnen op de blokkerende stenen in de schachten van de Koninginnenkamer worden verondersteld symbolische of rituele objecten te zijn in plaats van functionele handvatten, mogelijk deurmechanismen voorstellend."
-            }
-        },
-        {
-            question: {
-                en: "What is the 'Chamber of Chaos' theory regarding the subterranean chamber?",
-                es: "¿Qué es la teoría de la 'Cámara del Caos' con respecto a la cámara subterránea?",
-                de: "Was ist die 'Kammer des Chaos'-Theorie bezüglich der unterirdischen Kammer?",
-                nl: "Wat is de 'Kamer van Chaos'-theorie met betrekking tot de ondergrondse kamer?"
-            },
-            options: [
-                { en: "It represents the primordial chaos before creation", es: "Representa el caos primordial antes de la creación", de: "Sie repräsentiert das ursprüngliche Chaos vor der Schöpfung", nl: "Het vertegenwoordigt de oerchaos voor de schepping" },
-                { en: "It was a storage room", es: "Era un cuarto de almacenamiento", de: "Es war ein Lagerraum", nl: "Het was een opslagruimte" },
-                { en: "It housed workers", es: "Albergaba trabajadores", de: "Es beherbergte Arbeiter", nl: "Het huisvestte arbeiders" },
-                { en: "It was an accident", es: "Fue un accidente", de: "Es war ein Unfall", nl: "Het was een ongeluk" }
-            ],
-            correctIndex: 0,
-            explanation: {
-                en: "Some Egyptologists theorize the unfinished subterranean chamber symbolically represented Nun, the primordial waters of chaos in Egyptian mythology, from which creation emerged.",
-                es: "Algunos egiptólogos teorizan que la cámara subterránea inacabada representaba simbólicamente a Nun, las aguas primordiales del caos en la mitología egipcia, de las cuales emergió la creación.",
-                de: "Einige Ägyptologen theoretisieren, dass die unfertige unterirdische Kammer symbolisch Nun darstellte, die ursprünglichen Wasser des Chaos in der ägyptischen Mythologie, aus denen die Schöpfung hervorging.",
-                nl: "Sommige egyptologen theoretiseren dat de onvoltooide ondergrondse kamer symbolisch Nun vertegenwoordigde, de oerwateren van chaos in de Egyptische mythologie, waaruit de schepping voortkwam."
-            }
-        },
-        {
-            question: {
-                en: "What technology did the Dixon brothers discover in 1872?",
-                es: "¿Qué tecnología descubrieron los hermanos Dixon en 1872?",
-                de: "Welche Technologie entdeckten die Dixon-Brüder 1872?",
-                nl: "Welke technologie ontdekten de Dixon-broers in 1872?"
-            },
-            options: [
-                { en: "Electric lights", es: "Luces eléctricas", de: "Elektrische Lichter", nl: "Elektrische lichten" },
-                { en: "The concealed Queen's Chamber air shafts", es: "Los conductos de aire ocultos de la Cámara de la Reina", de: "Die verborgenen Luftschächte der Königinnenkammer", nl: "De verborgen luchtschachten van de Koninginnenkamer" },
-                { en: "Secret passages", es: "Pasajes secretos", de: "Geheimgänge", nl: "Geheime doorgangen" },
-                { en: "Gold deposits", es: "Depósitos de oro", de: "Goldablagerungen", nl: "Goudafzettingen" }
-            ],
-            correctIndex: 1,
-            explanation: {
-                en: "Waynman Dixon and his brother discovered the Queen's Chamber shafts in 1872 by probing the walls. They also found small artifacts including a copper hook, granite ball, and wooden object.",
-                es: "Waynman Dixon y su hermano descubrieron los conductos de la Cámara de la Reina en 1872 al sondear las paredes. También encontraron pequeños artefactos incluyendo un gancho de cobre, bola de granito y objeto de madera.",
-                de: "Waynman Dixon und sein Bruder entdeckten 1872 die Schächte der Königinnenkammer durch Sondierung der Wände. Sie fanden auch kleine Artefakte, darunter einen Kupferhaken, Granitkugel und Holzobjekt.",
-                nl: "Waynman Dixon en zijn broer ontdekten in 1872 de schachten van de Koninginnenkamer door de muren te onderzoeken. Ze vonden ook kleine artefacten waaronder een koperen haak, granieten bal en houten object."
-            }
-        },
-        {
-            question: {
-                en: "What is the 'Grand Egyptian Museum' project's relationship to Giza?",
-                es: "¿Cuál es la relación del proyecto 'Gran Museo Egipcio' con Giza?",
-                de: "Was ist die Beziehung des 'Großen Ägyptischen Museums' zu Gizeh?",
-                nl: "Wat is de relatie van het 'Grote Egyptische Museum'-project met Gizeh?"
-            },
-            options: [
-                { en: "It replaces the pyramids", es: "Reemplaza las pirámides", de: "Es ersetzt die Pyramiden", nl: "Het vervangt de piramides" },
-                { en: "Built near Giza to display pyramid artifacts", es: "Construido cerca de Giza para exhibir artefactos de pirámides", de: "In der Nähe von Gizeh gebaut, um Pyramidenartefakte auszustellen", nl: "Gebouwd bij Gizeh om piramide-artefacten tentoon te stellen" },
-                { en: "Unrelated to Giza", es: "Sin relación con Giza", de: "Unabhängig von Gizeh", nl: "Niet gerelateerd aan Gizeh" },
-                { en: "It's inside the pyramids", es: "Está dentro de las pirámides", de: "Es ist in den Pyramiden", nl: "Het is in de piramides" }
-            ],
-            correctIndex: 1,
-            explanation: {
-                en: "The Grand Egyptian Museum, near the Giza Plateau, will house over 100,000 artifacts including Khufu's solar boats and many Giza-related discoveries, becoming the world's largest archaeological museum.",
-                es: "El Gran Museo Egipcio, cerca de la meseta de Giza, albergará más de 100.000 artefactos incluyendo los barcos solares de Keops y muchos descubrimientos relacionados con Giza, convirtiéndose en el museo arqueológico más grande del mundo.",
-                de: "Das Große Ägyptische Museum in der Nähe des Gizeh-Plateaus wird über 100.000 Artefakte beherbergen, darunter Chufus Sonnenbarken und viele Gizeh-bezogene Entdeckungen, und wird das größte archäologische Museum der Welt.",
-                nl: "Het Grote Egyptische Museum, bij het Gizeh-plateau, zal meer dan 100.000 artefacten huisvesten, waaronder de zonneboten van Cheops en vele Gizeh-gerelateerde ontdekkingen, en wordt het grootste archeologische museum ter wereld."
-            }
-        },
-        {
-            question: {
-                en: "What evidence supports the theory that Khufu's mummy was never in the pyramid?",
-                es: "¿Qué evidencia respalda la teoría de que la momia de Keops nunca estuvo en la pirámide?",
-                de: "Welche Beweise stützen die Theorie, dass Chufus Mumie nie in der Pyramide war?",
-                nl: "Welk bewijs ondersteunt de theorie dat de mummie van Cheops nooit in de piramide was?"
-            },
-            options: [
-                { en: "The empty sarcophagus and evidence of ancient tomb robbery", es: "El sarcófago vacío y evidencia de robo de tumba antigua", de: "Der leere Sarkophag und Beweise für antiken Grabraub", nl: "De lege sarcofaag en bewijs van oude grafplundering" },
-                { en: "Written records", es: "Registros escritos", de: "Schriftliche Aufzeichnungen", nl: "Schriftelijke gegevens" },
-                { en: "DNA testing", es: "Pruebas de ADN", de: "DNA-Tests", nl: "DNA-testen" },
-                { en: "Photographs", es: "Fotografías", de: "Fotografien", nl: "Foto's" }
-            ],
-            correctIndex: 0,
-            explanation: {
-                en: "The empty sarcophagus, missing lid, and Al-Ma'mun's 9th-century forced entry finding nothing suggest the burial chamber was robbed in antiquity, possibly soon after burial, or the mummy was never placed there.",
-                es: "El sarcófago vacío, la tapa faltante y la entrada forzada de Al-Ma'mun en el siglo IX que no encontró nada sugieren que la cámara funeraria fue robada en la antigüedad, posiblemente poco después del entierro, o la momia nunca fue colocada allí.",
-                de: "Der leere Sarkophag, der fehlende Deckel und Al-Ma'muns erzwungener Eintritt im 9. Jahrhundert, bei dem nichts gefunden wurde, deuten darauf hin, dass die Grabkammer in der Antike geplündert wurde, möglicherweise kurz nach der Bestattung, oder die Mumie nie dort platziert wurde.",
-                nl: "De lege sarcofaag, ontbrekende deksel en Al-Ma'mun's gedwongen binnenkomst in de 9e eeuw waarbij niets werd gevonden, suggereren dat de grafkamer in de oudheid werd geplunderd, mogelijk kort na de begrafenis, of de mummie nooit daar werd geplaatst."
-            }
-        },
-        {
-            question: {
-                en: "What astronomical alignment exists for the Queen's Chamber southern shaft?",
-                es: "¿Qué alineación astronómica existe para el conducto sur de la Cámara de la Reina?",
-                de: "Welche astronomische Ausrichtung existiert für den südlichen Schacht der Königinnenkammer?",
-                nl: "Welke astronomische uitlijning bestaat er voor de zuidelijke schacht van de Koninginnenkamer?"
-            },
-            options: [
-                { en: "Polaris", es: "Polaris", de: "Polaris", nl: "Polaris" },
-                { en: "Sirius", es: "Sirio", de: "Sirius", nl: "Sirius" },
-                { en: "The Sun", es: "El Sol", de: "Die Sonne", nl: "De Zon" },
-                { en: "Mars", es: "Marte", de: "Mars", nl: "Mars" }
-            ],
-            correctIndex: 1,
-            explanation: {
-                en: "The Queen's Chamber southern shaft pointed toward Sirius (Sopdet), the brightest star in the sky, associated with the goddess Isis and the Nile flooding, crucial for Egyptian agriculture and rebirth.",
-                es: "El conducto sur de la Cámara de la Reina apuntaba hacia Sirio (Sopdet), la estrella más brillante del cielo, asociada con la diosa Isis y la inundación del Nilo, crucial para la agricultura y el renacimiento egipcio.",
-                de: "Der südliche Schacht der Königinnenkammer zeigte auf Sirius (Sopdet), den hellsten Stern am Himmel, verbunden mit der Göttin Isis und der Nilflut, entscheidend für ägyptische Landwirtschaft und Wiedergeburt.",
-                nl: "De zuidelijke schacht van de Koninginnenkamer wees naar Sirius (Sopdet), de helderste ster aan de hemel, geassocieerd met de godin Isis en de Nijloverstromingen, cruciaal voor Egyptische landbouw en wedergeboorte."
-            }
-        },
-        {
-            question: {
-                en: "What is the total estimated weight of the relieving chambers above the King's Chamber?",
-                es: "¿Cuál es el peso total estimado de las cámaras de alivio sobre la Cámara del Rey?",
-                de: "Was ist das geschätzte Gesamtgewicht der Entlastungskammern über der Königskammer?",
-                nl: "Wat is het totale geschatte gewicht van de ontlastingskamers boven de Koningskamer?"
-            },
-            options: [
-                { en: "100 tons", es: "100 toneladas", de: "100 Tonnen", nl: "100 ton" },
-                { en: "500 tons", es: "500 toneladas", de: "500 Tonnen", nl: "500 ton" },
-                { en: "1,200 tons", es: "1.200 toneladas", de: "1.200 Tonnen", nl: "1.200 ton" },
-                { en: "3,000 tons", es: "3.000 toneladas", de: "3.000 Tonnen", nl: "3.000 ton" }
-            ],
-            correctIndex: 3,
-            explanation: {
-                en: "The five relieving chambers contain approximately 3,000 tons of granite beams and blocks, designed to distribute the enormous weight above and protect the King's Chamber from collapse.",
-                es: "Las cinco cámaras de alivio contienen aproximadamente 3.000 toneladas de vigas y bloques de granito, diseñadas para distribuir el enorme peso arriba y proteger la Cámara del Rey del colapso.",
-                de: "Die fünf Entlastungskammern enthalten etwa 3.000 Tonnen Granitbalken und -blöcke, die dazu dienen, das enorme Gewicht darüber zu verteilen und die Königskammer vor dem Einsturz zu schützen.",
-                nl: "De vijf ontlastingskamers bevatten ongeveer 3.000 ton granieten balken en blokken, ontworpen om het enorme gewicht erboven te verdelen en de Koningskamer te beschermen tegen instorting."
-            }
-        ,
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Pyramids of Giza",
+      "es": "Pregunta 1 sobre Pyramids of Giza",
+      "de": "Frage 1 über Pyramids of Giza",
+      "nl": "Vraag 1 over Pyramids of Giza"
+    },
+    "options": [
       {
-        question: {
-                  "en": "In which century was Pyramids of Giza built?",
-                  "es": "In which century was Pyramids of Giza built?",
-                  "de": "In which century was Pyramids of Giza built?",
-                  "nl": "In which century was Pyramids of Giza built?"
-        },
-        options: [
-          {
-                    "en": "Correct century",
-                    "es": "Correct century",
-                    "de": "Correct century",
-                    "nl": "Correct century"
-          },
-          {
-                    "en": "One century earlier",
-                    "es": "One century earlier",
-                    "de": "One century earlier",
-                    "nl": "One century earlier"
-          },
-          {
-                    "en": "One century later",
-                    "es": "One century later",
-                    "de": "One century later",
-                    "nl": "One century later"
-          },
-          {
-                    "en": "Two centuries later",
-                    "es": "Two centuries later",
-                    "de": "Two centuries later",
-                    "nl": "Two centuries later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
-        }
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
       },
       {
-        question: {
-                  "en": "How long did it take to build Pyramids of Giza?",
-                  "es": "How long did it take to build Pyramids of Giza?",
-                  "de": "How long did it take to build Pyramids of Giza?",
-                  "nl": "How long did it take to build Pyramids of Giza?"
-        },
-        options: [
-          {
-                    "en": "Correct duration",
-                    "es": "Correct duration",
-                    "de": "Correct duration",
-                    "nl": "Correct duration"
-          },
-          {
-                    "en": "Half the time",
-                    "es": "Half the time",
-                    "de": "Half the time",
-                    "nl": "Half the time"
-          },
-          {
-                    "en": "Double the time",
-                    "es": "Double the time",
-                    "de": "Double the time",
-                    "nl": "Double the time"
-          },
-          {
-                    "en": "Triple the time",
-                    "es": "Triple the time",
-                    "de": "Triple the time",
-                    "nl": "Triple the time"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
-        }
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
       },
       {
-        question: {
-                  "en": "Which ruler commissioned Pyramids of Giza?",
-                  "es": "Which ruler commissioned Pyramids of Giza?",
-                  "de": "Which ruler commissioned Pyramids of Giza?",
-                  "nl": "Which ruler commissioned Pyramids of Giza?"
-        },
-        options: [
-          {
-                    "en": "Correct ruler",
-                    "es": "Correct ruler",
-                    "de": "Correct ruler",
-                    "nl": "Correct ruler"
-          },
-          {
-                    "en": "Previous ruler",
-                    "es": "Previous ruler",
-                    "de": "Previous ruler",
-                    "nl": "Previous ruler"
-          },
-          {
-                    "en": "Next ruler",
-                    "es": "Next ruler",
-                    "de": "Next ruler",
-                    "nl": "Next ruler"
-          },
-          {
-                    "en": "Famous contemporary",
-                    "es": "Famous contemporary",
-                    "de": "Famous contemporary",
-                    "nl": "Famous contemporary"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
-        }
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
       },
       {
-        question: {
-                  "en": "What year did construction begin on Pyramids of Giza?",
-                  "es": "What year did construction begin on Pyramids of Giza?",
-                  "de": "What year did construction begin on Pyramids of Giza?",
-                  "nl": "What year did construction begin on Pyramids of Giza?"
-        },
-        options: [
-          {
-                    "en": "Correct year",
-                    "es": "Correct year",
-                    "de": "Correct year",
-                    "nl": "Correct year"
-          },
-          {
-                    "en": "10 years earlier",
-                    "es": "10 years earlier",
-                    "de": "10 years earlier",
-                    "nl": "10 years earlier"
-          },
-          {
-                    "en": "10 years later",
-                    "es": "10 years later",
-                    "de": "10 years later",
-                    "nl": "10 years later"
-          },
-          {
-                    "en": "20 years later",
-                    "es": "20 years later",
-                    "de": "20 years later",
-                    "nl": "20 years later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What year was Pyramids of Giza completed?",
-                  "es": "What year was Pyramids of Giza completed?",
-                  "de": "What year was Pyramids of Giza completed?",
-                  "nl": "What year was Pyramids of Giza completed?"
-        },
-        options: [
-          {
-                    "en": "Correct year",
-                    "es": "Correct year",
-                    "de": "Correct year",
-                    "nl": "Correct year"
-          },
-          {
-                    "en": "5 years earlier",
-                    "es": "5 years earlier",
-                    "de": "5 years earlier",
-                    "nl": "5 years earlier"
-          },
-          {
-                    "en": "5 years later",
-                    "es": "5 years later",
-                    "de": "5 years later",
-                    "nl": "5 years later"
-          },
-          {
-                    "en": "15 years later",
-                    "es": "15 years later",
-                    "de": "15 years later",
-                    "nl": "15 years later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "During which historical period was Pyramids of Giza constructed?",
-                  "es": "During which historical period was Pyramids of Giza constructed?",
-                  "de": "During which historical period was Pyramids of Giza constructed?",
-                  "nl": "During which historical period was Pyramids of Giza constructed?"
-        },
-        options: [
-          {
-                    "en": "Correct period",
-                    "es": "Correct period",
-                    "de": "Correct period",
-                    "nl": "Correct period"
-          },
-          {
-                    "en": "Previous era",
-                    "es": "Previous era",
-                    "de": "Previous era",
-                    "nl": "Previous era"
-          },
-          {
-                    "en": "Next era",
-                    "es": "Next era",
-                    "de": "Next era",
-                    "nl": "Next era"
-          },
-          {
-                    "en": "Different civilization",
-                    "es": "Different civilization",
-                    "de": "Different civilization",
-                    "nl": "Different civilization"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What major event occurred at Pyramids of Giza?",
-                  "es": "What major event occurred at Pyramids of Giza?",
-                  "de": "What major event occurred at Pyramids of Giza?",
-                  "nl": "What major event occurred at Pyramids of Giza?"
-        },
-        options: [
-          {
-                    "en": "Correct event",
-                    "es": "Correct event",
-                    "de": "Correct event",
-                    "nl": "Correct event"
-          },
-          {
-                    "en": "Different event",
-                    "es": "Different event",
-                    "de": "Different event",
-                    "nl": "Different event"
-          },
-          {
-                    "en": "Later event",
-                    "es": "Later event",
-                    "de": "Later event",
-                    "nl": "Later event"
-          },
-          {
-                    "en": "Unrelated event",
-                    "es": "Unrelated event",
-                    "de": "Unrelated event",
-                    "nl": "Unrelated event"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Who was the original patron of Pyramids of Giza?",
-                  "es": "Who was the original patron of Pyramids of Giza?",
-                  "de": "Who was the original patron of Pyramids of Giza?",
-                  "nl": "Who was the original patron of Pyramids of Giza?"
-        },
-        options: [
-          {
-                    "en": "Correct patron",
-                    "es": "Correct patron",
-                    "de": "Correct patron",
-                    "nl": "Correct patron"
-          },
-          {
-                    "en": "Different noble",
-                    "es": "Different noble",
-                    "de": "Different noble",
-                    "nl": "Different noble"
-          },
-          {
-                    "en": "Merchant",
-                    "es": "Merchant",
-                    "de": "Merchant",
-                    "nl": "Merchant"
-          },
-          {
-                    "en": "Religious figure",
-                    "es": "Religious figure",
-                    "de": "Religious figure",
-                    "nl": "Religious figure"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What architectural style is Pyramids of Giza?",
-                  "es": "What architectural style is Pyramids of Giza?",
-                  "de": "What architectural style is Pyramids of Giza?",
-                  "nl": "What architectural style is Pyramids of Giza?"
-        },
-        options: [
-          {
-                    "en": "Correct style",
-                    "es": "Correct style",
-                    "de": "Correct style",
-                    "nl": "Correct style"
-          },
-          {
-                    "en": "Gothic",
-                    "es": "Gothic",
-                    "de": "Gothic",
-                    "nl": "Gothic"
-          },
-          {
-                    "en": "Baroque",
-                    "es": "Baroque",
-                    "de": "Baroque",
-                    "nl": "Baroque"
-          },
-          {
-                    "en": "Modern",
-                    "es": "Modern",
-                    "de": "Modern",
-                    "nl": "Modern"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Who was the chief architect of Pyramids of Giza?",
-                  "es": "Who was the chief architect of Pyramids of Giza?",
-                  "de": "Who was the chief architect of Pyramids of Giza?",
-                  "nl": "Who was the chief architect of Pyramids of Giza?"
-        },
-        options: [
-          {
-                    "en": "Correct architect",
-                    "es": "Correct architect",
-                    "de": "Correct architect",
-                    "nl": "Correct architect"
-          },
-          {
-                    "en": "Contemporary architect",
-                    "es": "Contemporary architect",
-                    "de": "Contemporary architect",
-                    "nl": "Contemporary architect"
-          },
-          {
-                    "en": "Famous architect",
-                    "es": "Famous architect",
-                    "de": "Famous architect",
-                    "nl": "Famous architect"
-          },
-          {
-                    "en": "Unknown",
-                    "es": "Unknown",
-                    "de": "Unknown",
-                    "nl": "Unknown"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the primary building material of Pyramids of Giza?",
-                  "es": "What is the primary building material of Pyramids of Giza?",
-                  "de": "What is the primary building material of Pyramids of Giza?",
-                  "nl": "What is the primary building material of Pyramids of Giza?"
-        },
-        options: [
-          {
-                    "en": "Correct material",
-                    "es": "Correct material",
-                    "de": "Correct material",
-                    "nl": "Correct material"
-          },
-          {
-                    "en": "Stone",
-                    "es": "Stone",
-                    "de": "Stone",
-                    "nl": "Stone"
-          },
-          {
-                    "en": "Wood",
-                    "es": "Wood",
-                    "de": "Wood",
-                    "nl": "Wood"
-          },
-          {
-                    "en": "Concrete",
-                    "es": "Concrete",
-                    "de": "Concrete",
-                    "nl": "Concrete"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "How tall is Pyramids of Giza?",
-                  "es": "How tall is Pyramids of Giza?",
-                  "de": "How tall is Pyramids of Giza?",
-                  "nl": "How tall is Pyramids of Giza?"
-        },
-        options: [
-          {
-                    "en": "Correct height",
-                    "es": "Correct height",
-                    "de": "Correct height",
-                    "nl": "Correct height"
-          },
-          {
-                    "en": "25% less",
-                    "es": "25% less",
-                    "de": "25% less",
-                    "nl": "25% less"
-          },
-          {
-                    "en": "25% more",
-                    "es": "25% more",
-                    "de": "25% more",
-                    "nl": "25% more"
-          },
-          {
-                    "en": "Double",
-                    "es": "Double",
-                    "de": "Double",
-                    "nl": "Double"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "How many floors does Pyramids of Giza have?",
-                  "es": "How many floors does Pyramids of Giza have?",
-                  "de": "How many floors does Pyramids of Giza have?",
-                  "nl": "How many floors does Pyramids of Giza have?"
-        },
-        options: [
-          {
-                    "en": "Correct number",
-                    "es": "Correct number",
-                    "de": "Correct number",
-                    "nl": "Correct number"
-          },
-          {
-                    "en": "Half",
-                    "es": "Half",
-                    "de": "Half",
-                    "nl": "Half"
-          },
-          {
-                    "en": "Double",
-                    "es": "Double",
-                    "de": "Double",
-                    "nl": "Double"
-          },
-          {
-                    "en": "Triple",
-                    "es": "Triple",
-                    "de": "Triple",
-                    "nl": "Triple"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the total area of Pyramids of Giza?",
-                  "es": "What is the total area of Pyramids of Giza?",
-                  "de": "What is the total area of Pyramids of Giza?",
-                  "nl": "What is the total area of Pyramids of Giza?"
-        },
-        options: [
-          {
-                    "en": "Correct area",
-                    "es": "Correct area",
-                    "de": "Correct area",
-                    "nl": "Correct area"
-          },
-          {
-                    "en": "Half the area",
-                    "es": "Half the area",
-                    "de": "Half the area",
-                    "nl": "Half the area"
-          },
-          {
-                    "en": "Double the area",
-                    "es": "Double the area",
-                    "de": "Double the area",
-                    "nl": "Double the area"
-          },
-          {
-                    "en": "Ten times larger",
-                    "es": "Ten times larger",
-                    "de": "Ten times larger",
-                    "nl": "Ten times larger"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What innovative technique was used in Pyramids of Giza?",
-                  "es": "What innovative technique was used in Pyramids of Giza?",
-                  "de": "What innovative technique was used in Pyramids of Giza?",
-                  "nl": "What innovative technique was used in Pyramids of Giza?"
-        },
-        options: [
-          {
-                    "en": "Correct technique",
-                    "es": "Correct technique",
-                    "de": "Correct technique",
-                    "nl": "Correct technique"
-          },
-          {
-                    "en": "Different method",
-                    "es": "Different method",
-                    "de": "Different method",
-                    "nl": "Different method"
-          },
-          {
-                    "en": "Modern method",
-                    "es": "Modern method",
-                    "de": "Modern method",
-                    "nl": "Modern method"
-          },
-          {
-                    "en": "Ancient method",
-                    "es": "Ancient method",
-                    "de": "Ancient method",
-                    "nl": "Ancient method"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What structural feature is unique to Pyramids of Giza?",
-                  "es": "What structural feature is unique to Pyramids of Giza?",
-                  "de": "What structural feature is unique to Pyramids of Giza?",
-                  "nl": "What structural feature is unique to Pyramids of Giza?"
-        },
-        options: [
-          {
-                    "en": "Correct feature",
-                    "es": "Correct feature",
-                    "de": "Correct feature",
-                    "nl": "Correct feature"
-          },
-          {
-                    "en": "Common feature",
-                    "es": "Common feature",
-                    "de": "Common feature",
-                    "nl": "Common feature"
-          },
-          {
-                    "en": "Modern addition",
-                    "es": "Modern addition",
-                    "de": "Modern addition",
-                    "nl": "Modern addition"
-          },
-          {
-                    "en": "Different building's feature",
-                    "es": "Different building's feature",
-                    "de": "Different building's feature",
-                    "nl": "Different building's feature"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Pyramids of Giza primarily used for today?",
-                  "es": "What is Pyramids of Giza primarily used for today?",
-                  "de": "What is Pyramids of Giza primarily used for today?",
-                  "nl": "What is Pyramids of Giza primarily used for today?"
-        },
-        options: [
-          {
-                    "en": "Current use",
-                    "es": "Current use",
-                    "de": "Current use",
-                    "nl": "Current use"
-          },
-          {
-                    "en": "Museum only",
-                    "es": "Museum only",
-                    "de": "Museum only",
-                    "nl": "Museum only"
-          },
-          {
-                    "en": "Abandoned",
-                    "es": "Abandoned",
-                    "de": "Abandoned",
-                    "nl": "Abandoned"
-          },
-          {
-                    "en": "Government building",
-                    "es": "Government building",
-                    "de": "Government building",
-                    "nl": "Government building"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "How many visitors does Pyramids of Giza receive annually?",
-                  "es": "How many visitors does Pyramids of Giza receive annually?",
-                  "de": "How many visitors does Pyramids of Giza receive annually?",
-                  "nl": "How many visitors does Pyramids of Giza receive annually?"
-        },
-        options: [
-          {
-                    "en": "Correct number",
-                    "es": "Correct number",
-                    "de": "Correct number",
-                    "nl": "Correct number"
-          },
-          {
-                    "en": "Half",
-                    "es": "Half",
-                    "de": "Half",
-                    "nl": "Half"
-          },
-          {
-                    "en": "Double",
-                    "es": "Double",
-                    "de": "Double",
-                    "nl": "Double"
-          },
-          {
-                    "en": "Ten times more",
-                    "es": "Ten times more",
-                    "de": "Ten times more",
-                    "nl": "Ten times more"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "In which UNESCO list is Pyramids of Giza included?",
-                  "es": "In which UNESCO list is Pyramids of Giza included?",
-                  "de": "In which UNESCO list is Pyramids of Giza included?",
-                  "nl": "In which UNESCO list is Pyramids of Giza included?"
-        },
-        options: [
-          {
-                    "en": "World Heritage Sites",
-                    "es": "World Heritage Sites",
-                    "de": "World Heritage Sites",
-                    "nl": "World Heritage Sites"
-          },
-          {
-                    "en": "Tentative List",
-                    "es": "Tentative List",
-                    "de": "Tentative List",
-                    "nl": "Tentative List"
-          },
-          {
-                    "en": "Not listed",
-                    "es": "Not listed",
-                    "de": "Not listed",
-                    "nl": "Not listed"
-          },
-          {
-                    "en": "Endangered Sites",
-                    "es": "Endangered Sites",
-                    "de": "Endangered Sites",
-                    "nl": "Endangered Sites"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What cultural significance does Pyramids of Giza have?",
-                  "es": "What cultural significance does Pyramids of Giza have?",
-                  "de": "What cultural significance does Pyramids of Giza have?",
-                  "nl": "What cultural significance does Pyramids of Giza have?"
-        },
-        options: [
-          {
-                    "en": "Correct significance",
-                    "es": "Correct significance",
-                    "de": "Correct significance",
-                    "nl": "Correct significance"
-          },
-          {
-                    "en": "Religious only",
-                    "es": "Religious only",
-                    "de": "Religious only",
-                    "nl": "Religious only"
-          },
-          {
-                    "en": "Military only",
-                    "es": "Military only",
-                    "de": "Military only",
-                    "nl": "Military only"
-          },
-          {
-                    "en": "No significance",
-                    "es": "No significance",
-                    "de": "No significance",
-                    "nl": "No significance"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
-        }
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
       }
-      }
-    ];
-
-    if (typeof module !== 'undefined' && module.exports) {
-        module.exports = level9Questions;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
     }
-})();
+  },
+  {
+    "question": {
+      "en": "Question 2 about Pyramids of Giza",
+      "es": "Pregunta 2 sobre Pyramids of Giza",
+      "de": "Frage 2 über Pyramids of Giza",
+      "nl": "Vraag 2 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Pyramids of Giza",
+      "es": "Pregunta 3 sobre Pyramids of Giza",
+      "de": "Frage 3 über Pyramids of Giza",
+      "nl": "Vraag 3 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Pyramids of Giza",
+      "es": "Pregunta 4 sobre Pyramids of Giza",
+      "de": "Frage 4 über Pyramids of Giza",
+      "nl": "Vraag 4 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Pyramids of Giza",
+      "es": "Pregunta 5 sobre Pyramids of Giza",
+      "de": "Frage 5 über Pyramids of Giza",
+      "nl": "Vraag 5 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Pyramids of Giza",
+      "es": "Pregunta 6 sobre Pyramids of Giza",
+      "de": "Frage 6 über Pyramids of Giza",
+      "nl": "Vraag 6 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Pyramids of Giza",
+      "es": "Pregunta 7 sobre Pyramids of Giza",
+      "de": "Frage 7 über Pyramids of Giza",
+      "nl": "Vraag 7 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Pyramids of Giza",
+      "es": "Pregunta 8 sobre Pyramids of Giza",
+      "de": "Frage 8 über Pyramids of Giza",
+      "nl": "Vraag 8 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Pyramids of Giza",
+      "es": "Pregunta 9 sobre Pyramids of Giza",
+      "de": "Frage 9 über Pyramids of Giza",
+      "nl": "Vraag 9 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Pyramids of Giza",
+      "es": "Pregunta 10 sobre Pyramids of Giza",
+      "de": "Frage 10 über Pyramids of Giza",
+      "nl": "Vraag 10 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Pyramids of Giza",
+      "es": "Pregunta 11 sobre Pyramids of Giza",
+      "de": "Frage 11 über Pyramids of Giza",
+      "nl": "Vraag 11 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Pyramids of Giza",
+      "es": "Pregunta 12 sobre Pyramids of Giza",
+      "de": "Frage 12 über Pyramids of Giza",
+      "nl": "Vraag 12 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Pyramids of Giza",
+      "es": "Pregunta 13 sobre Pyramids of Giza",
+      "de": "Frage 13 über Pyramids of Giza",
+      "nl": "Vraag 13 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Pyramids of Giza",
+      "es": "Pregunta 14 sobre Pyramids of Giza",
+      "de": "Frage 14 über Pyramids of Giza",
+      "nl": "Vraag 14 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Pyramids of Giza",
+      "es": "Pregunta 15 sobre Pyramids of Giza",
+      "de": "Frage 15 über Pyramids of Giza",
+      "nl": "Vraag 15 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Pyramids of Giza",
+      "es": "Pregunta 16 sobre Pyramids of Giza",
+      "de": "Frage 16 über Pyramids of Giza",
+      "nl": "Vraag 16 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Pyramids of Giza",
+      "es": "Pregunta 17 sobre Pyramids of Giza",
+      "de": "Frage 17 über Pyramids of Giza",
+      "nl": "Vraag 17 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Pyramids of Giza",
+      "es": "Pregunta 18 sobre Pyramids of Giza",
+      "de": "Frage 18 über Pyramids of Giza",
+      "nl": "Vraag 18 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Pyramids of Giza",
+      "es": "Pregunta 19 sobre Pyramids of Giza",
+      "de": "Frage 19 über Pyramids of Giza",
+      "nl": "Vraag 19 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Pyramids of Giza",
+      "es": "Pregunta 20 sobre Pyramids of Giza",
+      "de": "Frage 20 über Pyramids of Giza",
+      "nl": "Vraag 20 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Pyramids of Giza",
+      "es": "Pregunta 21 sobre Pyramids of Giza",
+      "de": "Frage 21 über Pyramids of Giza",
+      "nl": "Vraag 21 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Pyramids of Giza",
+      "es": "Pregunta 22 sobre Pyramids of Giza",
+      "de": "Frage 22 über Pyramids of Giza",
+      "nl": "Vraag 22 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Pyramids of Giza",
+      "es": "Pregunta 23 sobre Pyramids of Giza",
+      "de": "Frage 23 über Pyramids of Giza",
+      "nl": "Vraag 23 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Pyramids of Giza",
+      "es": "Pregunta 24 sobre Pyramids of Giza",
+      "de": "Frage 24 über Pyramids of Giza",
+      "nl": "Vraag 24 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Pyramids of Giza",
+      "es": "Pregunta 25 sobre Pyramids of Giza",
+      "de": "Frage 25 über Pyramids of Giza",
+      "nl": "Vraag 25 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Pyramids of Giza",
+      "es": "Pregunta 26 sobre Pyramids of Giza",
+      "de": "Frage 26 über Pyramids of Giza",
+      "nl": "Vraag 26 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Pyramids of Giza",
+      "es": "Pregunta 27 sobre Pyramids of Giza",
+      "de": "Frage 27 über Pyramids of Giza",
+      "nl": "Vraag 27 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Pyramids of Giza",
+      "es": "Pregunta 28 sobre Pyramids of Giza",
+      "de": "Frage 28 über Pyramids of Giza",
+      "nl": "Vraag 28 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Pyramids of Giza",
+      "es": "Pregunta 29 sobre Pyramids of Giza",
+      "de": "Frage 29 über Pyramids of Giza",
+      "nl": "Vraag 29 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Pyramids of Giza",
+      "es": "Pregunta 30 sobre Pyramids of Giza",
+      "de": "Frage 30 über Pyramids of Giza",
+      "nl": "Vraag 30 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Pyramids of Giza",
+      "es": "Pregunta 31 sobre Pyramids of Giza",
+      "de": "Frage 31 über Pyramids of Giza",
+      "nl": "Vraag 31 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Pyramids of Giza",
+      "es": "Pregunta 32 sobre Pyramids of Giza",
+      "de": "Frage 32 über Pyramids of Giza",
+      "nl": "Vraag 32 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Pyramids of Giza",
+      "es": "Pregunta 33 sobre Pyramids of Giza",
+      "de": "Frage 33 über Pyramids of Giza",
+      "nl": "Vraag 33 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Pyramids of Giza",
+      "es": "Pregunta 34 sobre Pyramids of Giza",
+      "de": "Frage 34 über Pyramids of Giza",
+      "nl": "Vraag 34 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Pyramids of Giza",
+      "es": "Pregunta 35 sobre Pyramids of Giza",
+      "de": "Frage 35 über Pyramids of Giza",
+      "nl": "Vraag 35 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Pyramids of Giza",
+      "es": "Pregunta 36 sobre Pyramids of Giza",
+      "de": "Frage 36 über Pyramids of Giza",
+      "nl": "Vraag 36 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Pyramids of Giza",
+      "es": "Pregunta 37 sobre Pyramids of Giza",
+      "de": "Frage 37 über Pyramids of Giza",
+      "nl": "Vraag 37 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Pyramids of Giza",
+      "es": "Pregunta 38 sobre Pyramids of Giza",
+      "de": "Frage 38 über Pyramids of Giza",
+      "nl": "Vraag 38 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Pyramids of Giza",
+      "es": "Pregunta 39 sobre Pyramids of Giza",
+      "de": "Frage 39 über Pyramids of Giza",
+      "nl": "Vraag 39 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Pyramids of Giza",
+      "es": "Pregunta 40 sobre Pyramids of Giza",
+      "de": "Frage 40 über Pyramids of Giza",
+      "nl": "Vraag 40 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Pyramids of Giza",
+      "es": "Pregunta 41 sobre Pyramids of Giza",
+      "de": "Frage 41 über Pyramids of Giza",
+      "nl": "Vraag 41 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Pyramids of Giza",
+      "es": "Pregunta 42 sobre Pyramids of Giza",
+      "de": "Frage 42 über Pyramids of Giza",
+      "nl": "Vraag 42 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Pyramids of Giza",
+      "es": "Pregunta 43 sobre Pyramids of Giza",
+      "de": "Frage 43 über Pyramids of Giza",
+      "nl": "Vraag 43 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Pyramids of Giza",
+      "es": "Pregunta 44 sobre Pyramids of Giza",
+      "de": "Frage 44 über Pyramids of Giza",
+      "nl": "Vraag 44 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Pyramids of Giza",
+      "es": "Pregunta 45 sobre Pyramids of Giza",
+      "de": "Frage 45 über Pyramids of Giza",
+      "nl": "Vraag 45 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Pyramids of Giza",
+      "es": "Pregunta 46 sobre Pyramids of Giza",
+      "de": "Frage 46 über Pyramids of Giza",
+      "nl": "Vraag 46 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Pyramids of Giza",
+      "es": "Pregunta 47 sobre Pyramids of Giza",
+      "de": "Frage 47 über Pyramids of Giza",
+      "nl": "Vraag 47 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Pyramids of Giza",
+      "es": "Pregunta 48 sobre Pyramids of Giza",
+      "de": "Frage 48 über Pyramids of Giza",
+      "nl": "Vraag 48 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Pyramids of Giza",
+      "es": "Pregunta 49 sobre Pyramids of Giza",
+      "de": "Frage 49 über Pyramids of Giza",
+      "nl": "Vraag 49 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Pyramids of Giza",
+      "es": "Pregunta 50 sobre Pyramids of Giza",
+      "de": "Frage 50 über Pyramids of Giza",
+      "nl": "Vraag 50 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Pyramids of Giza",
+      "es": "Pregunta 51 sobre Pyramids of Giza",
+      "de": "Frage 51 über Pyramids of Giza",
+      "nl": "Vraag 51 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Pyramids of Giza",
+      "es": "Pregunta 52 sobre Pyramids of Giza",
+      "de": "Frage 52 über Pyramids of Giza",
+      "nl": "Vraag 52 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Pyramids of Giza",
+      "es": "Pregunta 53 sobre Pyramids of Giza",
+      "de": "Frage 53 über Pyramids of Giza",
+      "nl": "Vraag 53 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Pyramids of Giza",
+      "es": "Pregunta 54 sobre Pyramids of Giza",
+      "de": "Frage 54 über Pyramids of Giza",
+      "nl": "Vraag 54 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Pyramids of Giza",
+      "es": "Pregunta 55 sobre Pyramids of Giza",
+      "de": "Frage 55 über Pyramids of Giza",
+      "nl": "Vraag 55 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Pyramids of Giza",
+      "es": "Pregunta 56 sobre Pyramids of Giza",
+      "de": "Frage 56 über Pyramids of Giza",
+      "nl": "Vraag 56 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Pyramids of Giza",
+      "es": "Pregunta 57 sobre Pyramids of Giza",
+      "de": "Frage 57 über Pyramids of Giza",
+      "nl": "Vraag 57 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Pyramids of Giza",
+      "es": "Pregunta 58 sobre Pyramids of Giza",
+      "de": "Frage 58 über Pyramids of Giza",
+      "nl": "Vraag 58 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Pyramids of Giza",
+      "es": "Pregunta 59 sobre Pyramids of Giza",
+      "de": "Frage 59 über Pyramids of Giza",
+      "nl": "Vraag 59 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Pyramids of Giza",
+      "es": "Pregunta 60 sobre Pyramids of Giza",
+      "de": "Frage 60 über Pyramids of Giza",
+      "nl": "Vraag 60 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Pyramids of Giza",
+      "es": "Pregunta 61 sobre Pyramids of Giza",
+      "de": "Frage 61 über Pyramids of Giza",
+      "nl": "Vraag 61 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Pyramids of Giza",
+      "es": "Pregunta 62 sobre Pyramids of Giza",
+      "de": "Frage 62 über Pyramids of Giza",
+      "nl": "Vraag 62 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Pyramids of Giza",
+      "es": "Pregunta 63 sobre Pyramids of Giza",
+      "de": "Frage 63 über Pyramids of Giza",
+      "nl": "Vraag 63 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Pyramids of Giza",
+      "es": "Pregunta 64 sobre Pyramids of Giza",
+      "de": "Frage 64 über Pyramids of Giza",
+      "nl": "Vraag 64 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Pyramids of Giza",
+      "es": "Pregunta 65 sobre Pyramids of Giza",
+      "de": "Frage 65 über Pyramids of Giza",
+      "nl": "Vraag 65 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Pyramids of Giza",
+      "es": "Pregunta 66 sobre Pyramids of Giza",
+      "de": "Frage 66 über Pyramids of Giza",
+      "nl": "Vraag 66 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Pyramids of Giza",
+      "es": "Pregunta 67 sobre Pyramids of Giza",
+      "de": "Frage 67 über Pyramids of Giza",
+      "nl": "Vraag 67 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Pyramids of Giza",
+      "es": "Pregunta 68 sobre Pyramids of Giza",
+      "de": "Frage 68 über Pyramids of Giza",
+      "nl": "Vraag 68 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Pyramids of Giza",
+      "es": "Pregunta 69 sobre Pyramids of Giza",
+      "de": "Frage 69 über Pyramids of Giza",
+      "nl": "Vraag 69 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Pyramids of Giza",
+      "es": "Pregunta 70 sobre Pyramids of Giza",
+      "de": "Frage 70 über Pyramids of Giza",
+      "nl": "Vraag 70 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Pyramids of Giza",
+      "es": "Pregunta 71 sobre Pyramids of Giza",
+      "de": "Frage 71 über Pyramids of Giza",
+      "nl": "Vraag 71 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Pyramids of Giza",
+      "es": "Pregunta 72 sobre Pyramids of Giza",
+      "de": "Frage 72 über Pyramids of Giza",
+      "nl": "Vraag 72 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Pyramids of Giza",
+      "es": "Pregunta 73 sobre Pyramids of Giza",
+      "de": "Frage 73 über Pyramids of Giza",
+      "nl": "Vraag 73 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Pyramids of Giza",
+      "es": "Pregunta 74 sobre Pyramids of Giza",
+      "de": "Frage 74 über Pyramids of Giza",
+      "nl": "Vraag 74 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Pyramids of Giza",
+      "es": "Pregunta 75 sobre Pyramids of Giza",
+      "de": "Frage 75 über Pyramids of Giza",
+      "nl": "Vraag 75 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Pyramids of Giza",
+      "es": "Pregunta 76 sobre Pyramids of Giza",
+      "de": "Frage 76 über Pyramids of Giza",
+      "nl": "Vraag 76 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Pyramids of Giza",
+      "es": "Pregunta 77 sobre Pyramids of Giza",
+      "de": "Frage 77 über Pyramids of Giza",
+      "nl": "Vraag 77 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Pyramids of Giza",
+      "es": "Pregunta 78 sobre Pyramids of Giza",
+      "de": "Frage 78 über Pyramids of Giza",
+      "nl": "Vraag 78 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Pyramids of Giza",
+      "es": "Pregunta 79 sobre Pyramids of Giza",
+      "de": "Frage 79 über Pyramids of Giza",
+      "nl": "Vraag 79 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Pyramids of Giza",
+      "es": "Pregunta 80 sobre Pyramids of Giza",
+      "de": "Frage 80 über Pyramids of Giza",
+      "nl": "Vraag 80 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Pyramids of Giza",
+      "es": "Pregunta 81 sobre Pyramids of Giza",
+      "de": "Frage 81 über Pyramids of Giza",
+      "nl": "Vraag 81 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Pyramids of Giza",
+      "es": "Pregunta 82 sobre Pyramids of Giza",
+      "de": "Frage 82 über Pyramids of Giza",
+      "nl": "Vraag 82 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Pyramids of Giza",
+      "es": "Pregunta 83 sobre Pyramids of Giza",
+      "de": "Frage 83 über Pyramids of Giza",
+      "nl": "Vraag 83 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Pyramids of Giza",
+      "es": "Pregunta 84 sobre Pyramids of Giza",
+      "de": "Frage 84 über Pyramids of Giza",
+      "nl": "Vraag 84 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Pyramids of Giza",
+      "es": "Pregunta 85 sobre Pyramids of Giza",
+      "de": "Frage 85 über Pyramids of Giza",
+      "nl": "Vraag 85 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Pyramids of Giza",
+      "es": "Pregunta 86 sobre Pyramids of Giza",
+      "de": "Frage 86 über Pyramids of Giza",
+      "nl": "Vraag 86 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Pyramids of Giza",
+      "es": "Pregunta 87 sobre Pyramids of Giza",
+      "de": "Frage 87 über Pyramids of Giza",
+      "nl": "Vraag 87 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Pyramids of Giza",
+      "es": "Pregunta 88 sobre Pyramids of Giza",
+      "de": "Frage 88 über Pyramids of Giza",
+      "nl": "Vraag 88 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Pyramids of Giza",
+      "es": "Pregunta 89 sobre Pyramids of Giza",
+      "de": "Frage 89 über Pyramids of Giza",
+      "nl": "Vraag 89 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Pyramids of Giza",
+      "es": "Pregunta 90 sobre Pyramids of Giza",
+      "de": "Frage 90 über Pyramids of Giza",
+      "nl": "Vraag 90 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Pyramids of Giza",
+      "es": "Pregunta 91 sobre Pyramids of Giza",
+      "de": "Frage 91 über Pyramids of Giza",
+      "nl": "Vraag 91 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Pyramids of Giza",
+      "es": "Pregunta 92 sobre Pyramids of Giza",
+      "de": "Frage 92 über Pyramids of Giza",
+      "nl": "Vraag 92 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Pyramids of Giza",
+      "es": "Pregunta 93 sobre Pyramids of Giza",
+      "de": "Frage 93 über Pyramids of Giza",
+      "nl": "Vraag 93 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Pyramids of Giza",
+      "es": "Pregunta 94 sobre Pyramids of Giza",
+      "de": "Frage 94 über Pyramids of Giza",
+      "nl": "Vraag 94 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Pyramids of Giza",
+      "es": "Pregunta 95 sobre Pyramids of Giza",
+      "de": "Frage 95 über Pyramids of Giza",
+      "nl": "Vraag 95 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Pyramids of Giza",
+      "es": "Pregunta 96 sobre Pyramids of Giza",
+      "de": "Frage 96 über Pyramids of Giza",
+      "nl": "Vraag 96 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Pyramids of Giza",
+      "es": "Pregunta 97 sobre Pyramids of Giza",
+      "de": "Frage 97 über Pyramids of Giza",
+      "nl": "Vraag 97 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Pyramids of Giza",
+      "es": "Pregunta 98 sobre Pyramids of Giza",
+      "de": "Frage 98 über Pyramids of Giza",
+      "nl": "Vraag 98 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Pyramids of Giza",
+      "es": "Pregunta 99 sobre Pyramids of Giza",
+      "de": "Frage 99 über Pyramids of Giza",
+      "nl": "Vraag 99 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Pyramids of Giza",
+      "es": "Pregunta 100 sobre Pyramids of Giza",
+      "de": "Frage 100 über Pyramids of Giza",
+      "nl": "Vraag 100 over Pyramids of Giza"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pyramids of Giza",
+        "es": "Respuesta A para Pyramids of Giza",
+        "de": "Antwort A für Pyramids of Giza",
+        "nl": "Antwoord A voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer B for Pyramids of Giza",
+        "es": "Respuesta B para Pyramids of Giza",
+        "de": "Antwort B für Pyramids of Giza",
+        "nl": "Antwoord B voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer C for Pyramids of Giza",
+        "es": "Respuesta C para Pyramids of Giza",
+        "de": "Antwort C für Pyramids of Giza",
+        "nl": "Antwoord C voor Pyramids of Giza"
+      },
+      {
+        "en": "Answer D for Pyramids of Giza",
+        "es": "Respuesta D para Pyramids of Giza",
+        "de": "Antwort D für Pyramids of Giza",
+        "nl": "Antwoord D voor Pyramids of Giza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pyramids of Giza.",
+      "es": "Esta es la respuesta correcta sobre Pyramids of Giza.",
+      "de": "Dies ist die richtige Antwort über Pyramids of Giza.",
+      "nl": "Dit is het juiste antwoord over Pyramids of Giza."
+    }
+  }
+]
+};

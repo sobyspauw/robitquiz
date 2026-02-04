@@ -1,840 +1,4104 @@
-// Quiz Template - Level 9: Boeken - Avonturenboeken
-(function() {
-  const level9 = {
-    name: {
-      en: "Adventure Books",
-      es: "Libros de Aventuras",
-      de: "Abenteuerbücher",
-      nl: "Avonturenboeken"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Adventure Books",
+      "es": "Pregunta 1 sobre Adventure Books",
+      "de": "Frage 1 über Adventure Books",
+      "nl": "Vraag 1 over Adventure Books"
     },
-    questions: [
+    "options": [
       {
-        question: {
-          en: "In 'The Count of Monte Cristo', what pseudonym does Edmond Dantès use when he first meets Mercédès' son Albert in Rome?",
-          es: "En 'El Conde de Montecristo', ¿qué seudónimo usa Edmond Dantès cuando conoce por primera vez al hijo de Mercédès, Albert, en Roma?",
-          de: "Welches Pseudonym verwendet Edmond Dantès in 'Der Graf von Monte Christo', als er Mercédès' Sohn Albert zum ersten Mal in Rom trifft?",
-          nl: "Welke pseudoniem gebruikt Edmond Dantès in 'De graaf van Monte-Cristo' wanneer hij voor het eerst Mercédès' zoon Albert ontmoet in Rome?"
-        },
-        options: [
-          { en: "Lord Wilmore", es: "Lord Wilmore", de: "Lord Wilmore", nl: "Lord Wilmore" },
-          { en: "Abbé Busoni", es: "Abate Busoni", de: "Abbé Busoni", nl: "Abbé Busoni" },
-          { en: "Sinbad the Sailor", es: "Simbad el Marino", de: "Sindbad der Seefahrer", nl: "Sinbad de Zeeman" },
-          { en: "Baron Danglars", es: "Barón Danglars", de: "Baron Danglars", nl: "Baron Danglars" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Dantès first appears to Albert de Morcerf in Rome under the exotic alias 'Sinbad the Sailor', before later revealing himself as the Count of Monte Cristo. He uses multiple aliases throughout his revenge plot.",
-          es: "Dantès aparece por primera vez ante Albert de Morcerf en Roma bajo el exótico alias 'Simbad el Marino', antes de revelarse más tarde como el Conde de Montecristo. Usa múltiples alias a lo largo de su plan de venganza.",
-          de: "Dantès erscheint Albert de Morcerf zum ersten Mal in Rom unter dem exotischen Alias 'Sindbad der Seefahrer', bevor er sich später als Graf von Monte Christo zu erkennen gibt. Er verwendet mehrere Aliase während seines Racheplans.",
-          nl: "Dantès verschijnt voor het eerst aan Albert de Morcerf in Rome onder de exotische alias 'Sinbad de Zeeman', voordat hij zich later bekend maakt als de graaf van Monte-Cristo. Hij gebruikt meerdere aliassen tijdens zijn wraakplan."
-        }
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
       },
       {
-        question: {
-          en: "In 'The Odyssey', how many of Odysseus' original crew members survive to return home to Ithaca with him?",
-          es: "En 'La Odisea', ¿cuántos miembros originales de la tripulación de Odiseo sobreviven para regresar a casa a Ítaca con él?",
-          de: "Wie viele von Odysseus' ursprünglichen Besatzungsmitgliedern überleben in der 'Odyssee', um mit ihm nach Ithaka nach Hause zurückzukehren?",
-          nl: "Hoeveel van Odysseus' oorspronkelijke bemanningsleden overleven in 'De Odyssee' om met hem terug te keren naar huis in Ithaca?"
-        },
-        options: [
-          { en: "None - Odysseus returns alone", es: "Ninguno - Odiseo regresa solo", de: "Keiner - Odysseus kehrt allein zurück", nl: "Geen - Odysseus keert alleen terug" },
-          { en: "Three faithful sailors", es: "Tres marineros fieles", de: "Drei treue Seeleute", nl: "Drie trouwe zeelieden" },
-          { en: "His pilot Eurylochus only", es: "Solo su piloto Euriloco", de: "Nur sein Steuermann Eurylochos", nl: "Alleen zijn stuurman Eurylochus" },
-          { en: "Half of the original crew", es: "La mitad de la tripulación original", de: "Die Hälfte der ursprünglichen Besatzung", nl: "De helft van de oorspronkelijke bemanning" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "All of Odysseus' crew perish during the journey. The last group dies when Zeus destroys their ship with a thunderbolt after they eat Helios' sacred cattle. Odysseus alone survives and reaches Ithaca.",
-          es: "Toda la tripulación de Odiseo perece durante el viaje. El último grupo muere cuando Zeus destruye su barco con un rayo después de que comen el ganado sagrado de Helios. Solo Odiseo sobrevive y llega a Ítaca.",
-          de: "Die gesamte Besatzung von Odysseus kommt während der Reise um. Die letzte Gruppe stirbt, als Zeus ihr Schiff mit einem Blitz zerstört, nachdem sie Helios' heilige Rinder gegessen haben. Odysseus allein überlebt und erreicht Ithaka.",
-          nl: "Alle bemanningsleden van Odysseus komen om tijdens de reis. De laatste groep sterft wanneer Zeus hun schip vernietigt met een bliksemschicht nadat ze Helios' heilige runderen hebben gegeten. Odysseus alleen overleeft en bereikt Ithaca."
-        }
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
       },
       {
-        question: {
-          en: "In 'Moby-Dick', what is the name of the Quaker owners' representative who warns Ishmael about Captain Ahab before the voyage?",
-          es: "En 'Moby-Dick', ¿cuál es el nombre del representante de los propietarios cuáqueros que advierte a Ismael sobre el Capitán Ahab antes del viaje?",
-          de: "Wie heißt in 'Moby-Dick' der Vertreter der Quäker-Eigentümer, der Ismael vor Kapitän Ahab warnt, bevor die Reise beginnt?",
-          nl: "Wat is in 'Moby-Dick' de naam van de vertegenwoordiger van de Quaker-eigenaren die Ishmael waarschuwt voor Kapitein Ahab voordat de reis begint?"
-        },
-        options: [
-          { en: "Captain Peleg", es: "Capitán Peleg", de: "Kapitän Peleg", nl: "Kapitein Peleg" },
-          { en: "Captain Bildad", es: "Capitán Bildad", de: "Kapitän Bildad", nl: "Kapitein Bildad" },
-          { en: "Elijah", es: "Elías", de: "Elija", nl: "Elia" },
-          { en: "Father Mapple", es: "Padre Mapple", de: "Pater Mapple", nl: "Vader Mapple" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Elijah, a mysterious ragged prophet named after the Biblical prophet, accosts Ishmael and Queequeg on the docks and cryptically warns them about Ahab and the Pequod's doomed voyage.",
-          es: "Elías, un misterioso profeta harapiento llamado así por el profeta bíblico, aborda a Ismael y Queequeg en los muelles y les advierte críptica mente sobre Ahab y el viaje condenado del Pequod.",
-          de: "Elija, ein mysteriöser zerlumpter Prophet, benannt nach dem biblischen Propheten, spricht Ismael und Queequeg auf den Docks an und warnt sie kryptisch vor Ahab und der zum Scheitern verurteilten Reise der Pequod.",
-          nl: "Elia, een mysterieuze haveleze profeet genoemd naar de Bijbelse profeet, spreekt Ishmael en Queequeg aan op de kades en waarschuwt hen cryptisch voor Ahab en de gedoemde reis van de Pequod."
-        }
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
       },
       {
-        question: {
-          en: "In 'The Three Musketeers', what is the first name of d'Artagnan's father who gives him advice at the beginning of the story?",
-          es: "En 'Los tres mosqueteros', ¿cuál es el nombre de pila del padre de d'Artagnan que le da consejos al principio de la historia?",
-          de: "Wie lautet in 'Die drei Musketiere' der Vorname von d'Artagnans Vater, der ihm zu Beginn der Geschichte Ratschläge gibt?",
-          nl: "Wat is in 'De drie musketiers' de voornaam van d'Artagnans vader die hem aan het begin van het verhaal advies geeft?"
-        },
-        options: [
-          { en: "Charles", es: "Carlos", de: "Karl", nl: "Karel" },
-          { en: "His name is never given", es: "Su nombre nunca se menciona", de: "Sein Name wird nie genannt", nl: "Zijn naam wordt nooit genoemd" },
-          { en: "Alexandre", es: "Alejandro", de: "Alexander", nl: "Alexandre" },
-          { en: "Henri", es: "Enrique", de: "Heinrich", nl: "Henri" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Dumas never reveals d'Artagnan's father's first name. He appears only in the opening chapter to give his son advice, a yellow horse, and a letter of introduction to M. de Tréville before d'Artagnan leaves for Paris.",
-          es: "Dumas nunca revela el nombre de pila del padre de d'Artagnan. Aparece solo en el capítulo inicial para dar consejos a su hijo, un caballo amarillo y una carta de presentación para el señor de Tréville antes de que d'Artagnan parta hacia París.",
-          de: "Dumas enthüllt nie den Vornamen von d'Artagnans Vater. Er erscheint nur im Eröffnungskapitel, um seinem Sohn Ratschläge, ein gelbes Pferd und ein Empfehlungsschreiben an M. de Tréville zu geben, bevor d'Artagnan nach Paris aufbricht.",
-          nl: "Dumas onthult nooit de voornaam van d'Artagnans vader. Hij verschijnt alleen in het openingshoofdstuk om zijn zoon advies te geven, een geel paard en een introductiebrief voor M. de Tréville voordat d'Artagnan naar Parijs vertrekt."
-        }
-      },
-      {
-        question: {
-          en: "In 'Treasure Island', what is the name of the inn keeper who betrays Jim Hawkins' whereabouts to the pirates?",
-          es: "En 'La isla del tesoro', ¿cuál es el nombre del posadero que traiciona el paradero de Jim Hawkins a los piratas?",
-          de: "Wie heißt in 'Die Schatzinsel' der Gastwirt, der Jim Hawkins' Aufenthaltsort an die Piraten verrät?",
-          nl: "Wat is in 'Treasure Island' de naam van de herbergier die Jim Hawkins' verblijfplaats verraadt aan de piraten?"
-        },
-        options: [
-          { en: "Tom Morgan", es: "Tom Morgan", de: "Tom Morgan", nl: "Tom Morgan" },
-          { en: "There is no such character - no innkeeper betrays Jim", es: "No existe tal personaje - ningún posadero traiciona a Jim", de: "Es gibt keine solche Figur - kein Gastwirt verrät Jim", nl: "Er is geen dergelijk personage - geen herbergier verraadt Jim" },
-          { en: "Ben Gunn", es: "Ben Gunn", de: "Ben Gunn", nl: "Ben Gunn" },
-          { en: "Israel Hands", es: "Israel Hands", de: "Israel Hands", nl: "Israel Hands" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "This is a trick question. Jim's mother runs the Admiral Benbow inn, and no innkeeper betrays Jim in the novel. The pirates track Jim through other means - their own reconnaissance and infiltration of the crew.",
-          es: "Esta es una pregunta trampa. La madre de Jim dirige la posada Admiral Benbow, y ningún posadero traiciona a Jim en la novela. Los piratas rastrean a Jim por otros medios: su propio reconocimiento e infiltración de la tripulación.",
-          de: "Dies ist eine Fangfrage. Jims Mutter führt das Gasthaus Admiral Benbow, und kein Gastwirt verrät Jim im Roman. Die Piraten verfolgen Jim auf andere Weise - durch ihre eigene Aufklärung und Infiltration der Besatzung.",
-          nl: "Dit is een strikvraag. Jims moeder runt de herberg Admiral Benbow, en geen herbergier verraadt Jim in de roman. De piraten volgen Jim via andere middelen - hun eigen verkenning en infiltratie van de bemanning."
-        }
-      },
-      {
-        question: {
-          en: "In 'Journey to the Center of the Earth', what language is the coded message written in that reveals the path to the center?",
-          es: "En 'Viaje al centro de la Tierra', ¿en qué idioma está escrito el mensaje codificado que revela el camino hacia el centro?",
-          de: "In welcher Sprache ist in 'Die Reise zum Mittelpunkt der Erde' die verschlüsselte Nachricht verfasst, die den Weg zum Zentrum enthüllt?",
-          nl: "In welke taal is in 'Reis naar het middelpunt der aarde' de gecodeerde boodschap geschreven die het pad naar het centrum onthult?"
-        },
-        options: [
-          { en: "Latin", es: "Latín", de: "Latein", nl: "Latijn" },
-          { en: "Ancient Greek", es: "Griego antiguo", de: "Altgriechisch", nl: "Oudgrieks" },
-          { en: "Old Norse (Icelandic)", es: "Nórdico antiguo (islandés)", de: "Altnordisch (Isländisch)", nl: "Oudnoors (IJslands)" },
-          { en: "German", es: "Alemán", de: "Deutsch", nl: "Duits" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The message left by Arne Saknussemm is written in Latin but encoded in runes. Once Axel discovers it must be read backwards, the Latin message reveals: 'Descend into the crater of Snæfells Jökull...'",
-          es: "El mensaje dejado por Arne Saknussemm está escrito en latín pero codificado en runas. Una vez que Axel descubre que debe leerse al revés, el mensaje en latín revela: 'Desciende al cráter del Snæfells Jökull...'",
-          de: "Die Nachricht von Arne Saknussemm ist auf Latein verfasst, aber in Runen kodiert. Als Axel entdeckt, dass sie rückwärts gelesen werden muss, enthüllt die lateinische Nachricht: 'Steige hinab in den Krater des Snæfells Jökull...'",
-          nl: "De boodschap achtergelaten door Arne Saknussemm is geschreven in het Latijn maar gecodeerd in runen. Zodra Axel ontdekt dat het achterstevoren gelezen moet worden, onthult de Latijnse boodschap: 'Daal af in de krater van Snæfells Jökull...'"
-        }
-      },
-      {
-        question: {
-          en: "In 'Robinson Crusoe', what specific item does Crusoe salvage from the shipwreck that he later describes as 'the most valuable' cargo?",
-          es: "En 'Robinson Crusoe', ¿qué artículo específico rescata Crusoe del naufragio que luego describe como el cargamento 'más valioso'?",
-          de: "Was für einen spezifischen Gegenstand rettet Crusoe in 'Robinson Crusoe' aus dem Schiffswrack, den er später als 'wertvollste' Ladung beschreibt?",
-          nl: "Welk specifiek voorwerp redt Crusoe in 'Robinson Crusoe' uit het scheepswrak dat hij later beschrijft als de 'meest waardevolle' lading?"
-        },
-        options: [
-          { en: "Tools and weapons", es: "Herramientas y armas", de: "Werkzeuge und Waffen", nl: "Gereedschap en wapens" },
-          { en: "Money and gold coins", es: "Dinero y monedas de oro", de: "Geld und Goldmünzen", nl: "Geld en gouden munten" },
-          { en: "Seeds and grain", es: "Semillas y grano", de: "Samen und Getreide", nl: "Zaden en graan" },
-          { en: "The Bible and religious texts", es: "La Biblia y textos religiosos", de: "Die Bibel und religiöse Texte", nl: "De Bijbel en religieuze teksten" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Crusoe initially salvages tools, weapons, and other supplies, but he later realizes the seeds and grain are most valuable as they allow him to grow crops and sustain himself. He famously remarks that gold is worthless on the island compared to a single grain of barley.",
-          es: "Crusoe inicialmente rescata herramientas, armas y otros suministros, pero luego se da cuenta de que las semillas y el grano son los más valiosos ya que le permiten cultivar y sostenerse. Famosamente comenta que el oro no vale nada en la isla comparado con un solo grano de cebada.",
-          de: "Crusoe rettet zunächst Werkzeuge, Waffen und andere Vorräte, aber er erkennt später, dass Samen und Getreide am wertvollsten sind, da sie ihm ermöglichen, Pflanzen anzubauen und sich selbst zu versorgen. Er bemerkt berühmt, dass Gold auf der Insel wertlos ist im Vergleich zu einem einzigen Gerstenkorn.",
-          nl: "Crusoe redt aanvankelijk gereedschap, wapens en andere voorraden, maar hij realiseert zich later dat de zaden en graan het meest waardevol zijn omdat ze hem in staat stellen gewassen te verbouwen en zichzelf te onderhouden. Hij merkt beroemd op dat goud waardeloos is op het eiland vergeleken met een enkel gerstkorrel."
-        }
-      },
-      {
-        question: {
-          en: "In 'The Call of the Wild', what breed of dog does Buck fight and kill in Seattle before being sold to the Yukon?",
-          es: "En 'El llamado de lo salvaje', ¿qué raza de perro lucha y mata Buck en Seattle antes de ser vendido al Yukón?",
-          de: "Welche Hunderasse bekämpft und tötet Buck in 'Ruf der Wildnis' in Seattle, bevor er nach Yukon verkauft wird?",
-          nl: "Welk hondenras vecht en doodt Buck in 'De roep van de wildernis' in Seattle voordat hij naar Yukon wordt verkocht?"
-        },
-        options: [
-          { en: "A wolf hybrid", es: "Un híbrido de lobo", de: "Ein Wolfshybrid", nl: "Een wolfhybride" },
-          { en: "A husky named Spitz", es: "Un husky llamado Spitz", de: "Ein Husky namens Spitz", nl: "Een husky genaamd Spitz" },
-          { en: "Buck doesn't kill any dog in Seattle", es: "Buck no mata a ningún perro en Seattle", de: "Buck tötet keinen Hund in Seattle", nl: "Buck doodt geen hond in Seattle" },
-          { en: "A bulldog", es: "Un bulldog", de: "Eine Bulldogge", nl: "Een bulldog" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Buck doesn't kill any dog in Seattle. He's kidnapped from Judge Miller's estate in California and taken north. His famous fight to the death with Spitz, the lead husky, happens later in the Yukon after both have been working as sled dogs.",
-          es: "Buck no mata a ningún perro en Seattle. Es secuestrado de la finca del juez Miller en California y llevado al norte. Su famosa pelea a muerte con Spitz, el husky líder, ocurre más tarde en el Yukón después de que ambos han estado trabajando como perros de trineo.",
-          de: "Buck tötet keinen Hund in Seattle. Er wird vom Anwesen des Richters Miller in Kalifornien entführt und nach Norden gebracht. Sein berühmter Kampf auf Leben und Tod mit Spitz, dem Leithund, findet später im Yukon statt, nachdem beide als Schlittenhunde gearbeitet haben.",
-          nl: "Buck doodt geen hond in Seattle. Hij wordt ontvoerd van rechter Millers landgoed in Californië en naar het noorden gebracht. Zijn beroemde gevecht op leven en dood met Spitz, de leidende husky, vindt later plaats in Yukon nadat beide als sledehonden hebben gewerkt."
-        }
-      },
-      {
-        question: {
-          en: "In 'The Iliad', what is Achilles' mother Thetis' original motivation for dipping him in the River Styx?",
-          es: "En 'La Ilíada', ¿cuál es la motivación original de Tetis, la madre de Aquiles, para sumergirlo en el río Estigia?",
-          de: "Was ist in der 'Ilias' die ursprüngliche Motivation von Thetis, Achilles' Mutter, ihn in den Fluss Styx zu tauchen?",
-          nl: "Wat is in 'De Ilias' de oorspronkelijke motivatie van Thetis, Achilles' moeder, om hem in de rivier de Styx te dompelen?"
-        },
-        options: [
-          { en: "To make him invulnerable in battle", es: "Para hacerlo invulnerable en batalla", de: "Um ihn im Kampf unverwundbar zu machen", nl: "Om hem onkwetsbaar te maken in de strijd" },
-          { en: "This event is not in Homer's Iliad - it's from later Roman mythology", es: "Este evento no está en la Ilíada de Homero - es de la mitología romana posterior", de: "Dieses Ereignis ist nicht in Homers Ilias - es stammt aus der späteren römischen Mythologie", nl: "Deze gebeurtenis komt niet voor in Homerus' Ilias - het is uit latere Romeinse mythologie" },
-          { en: "To cleanse him of mortal weakness", es: "Para limpiarlo de debilidad mortal", de: "Um ihn von sterblicher Schwäche zu reinigen", nl: "Om hem te reinigen van sterfelijke zwakte" },
-          { en: "To grant him the favor of Hades", es: "Para otorgarle el favor de Hades", de: "Um ihm die Gunst von Hades zu gewähren", nl: "Om hem de gunst van Hades te verlenen" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The story of Achilles being dipped in the Styx is not found in Homer's Iliad at all - it comes from later Roman sources, particularly Statius' 'Achilleid' (1st century AD). Homer's version simply makes Achilles mortal but supremely skilled.",
-          es: "La historia de Aquiles siendo sumergido en el Estigia no se encuentra en absoluto en la Ilíada de Homero - proviene de fuentes romanas posteriores, particularmente la 'Aquileida' de Estacio (siglo I d.C.). La versión de Homero simplemente hace a Aquiles mortal pero supremamente hábil.",
-          de: "Die Geschichte von Achilles, der in den Styx getaucht wird, findet sich überhaupt nicht in Homers Ilias - sie stammt aus späteren römischen Quellen, insbesondere aus Statius' 'Achilleis' (1. Jahrhundert n. Chr.). Homers Version macht Achilles einfach sterblich, aber außerordentlich geschickt.",
-          nl: "Het verhaal van Achilles die in de Styx wordt gedompeld, komt helemaal niet voor in Homerus' Ilias - het komt uit latere Romeinse bronnen, met name Statius' 'Achilleis' (1e eeuw na Christus). Homerus' versie maakt Achilles gewoon sterfelijk maar buitengewoon bekwaam."
-        }
-      },
-      {
-        question: {
-          en: "In 'The Hound of the Baskervilles', what is the specific breed of dog used to create the 'supernatural' hound?",
-          es: "En 'El sabueso de los Baskerville', ¿cuál es la raza específica de perro utilizada para crear el sabueso 'sobrenatural'?",
-          de: "Welche spezifische Hunderasse wird in 'Der Hund der Baskervilles' verwendet, um den 'übernatürlichen' Hund zu erschaffen?",
-          de: "Wat is in 'De hond van de Baskervilles' het specifieke hondenras dat wordt gebruikt om de 'bovennatuurlijke' hond te creëren?"
-        },
-        options: [
-          { en: "Bloodhound", es: "Sabueso", de: "Bluthund", nl: "Bloedhond" },
-          { en: "Mastiff", es: "Mastín", de: "Mastiff", nl: "Mastiff" },
-          { en: "A mix of bloodhound and mastiff", es: "Una mezcla de sabueso y mastín", de: "Eine Mischung aus Bluthund und Mastiff", nl: "Een mix van bloedhond en mastiff" },
-          { en: "The breed is never specified", es: "La raza nunca se especifica", de: "Die Rasse wird nie angegeben", nl: "Het ras wordt nooit gespecificeerd" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Holmes identifies the hound as a mix of bloodhound and mastiff, an enormous gaunt creature covered in phosphorus to give it a ghostly, glowing appearance. Stapleton kept it hidden on Grimpen Mire.",
-          es: "Holmes identifica al sabueso como una mezcla de sabueso y mastín, una enorme criatura demacrada cubierta de fósforo para darle una apariencia fantasmal y brillante. Stapleton lo mantenía escondido en Grimpen Mire.",
-          de: "Holmes identifiziert den Hund als eine Mischung aus Bluthund und Mastiff, eine riesige hagere Kreatur, die mit Phosphor bedeckt ist, um ihr ein gespenstisches, leuchtendes Aussehen zu verleihen. Stapleton hielt ihn im Grimpen Moor versteckt.",
-          nl: "Holmes identificeert de hond als een mix van bloedhond en mastiff, een enorm mager wezen bedekt met fosfor om het een spookachtig, gloeiend uiterlijk te geven. Stapleton hield hem verborgen op Grimpen Mire."
-        }
-      },
-      {
-        question: {
-          en: "In 'Don Quixote', what is the name of Sancho Panza's wife?",
-          es: "En 'Don Quijote', ¿cuál es el nombre de la esposa de Sancho Panza?",
-          de: "Wie heißt in 'Don Quijote' die Frau von Sancho Panza?",
-          nl: "Wat is in 'Don Quichot' de naam van Sancho Panza's vrouw?"
-        },
-        options: [
-          { en: "Teresa Panza", es: "Teresa Panza", de: "Teresa Panza", nl: "Teresa Panza" },
-          { en: "Mari Gutiérrez", es: "Mari Gutiérrez", de: "Mari Gutiérrez", nl: "Mari Gutiérrez" },
-          { en: "Juana", es: "Juana", de: "Juana", nl: "Juana" },
-          { en: "Cervantes uses all three names inconsistently", es: "Cervantes usa los tres nombres de manera inconsistente", de: "Cervantes verwendet alle drei Namen inkonsistent", nl: "Cervantes gebruikt alle drie de namen inconsistent" }
-        ],
-        correct: 3,
-        explanation: {
-          en: "Cervantes inconsistently refers to Sancho's wife as Teresa Panza, Mari Gutiérrez, Juana Gutiérrez, and Teresa Cascajo at different points in the novel, one of several continuity errors in the sprawling work.",
-          es: "Cervantes se refiere inconsistentemente a la esposa de Sancho como Teresa Panza, Mari Gutiérrez, Juana Gutiérrez y Teresa Cascajo en diferentes puntos de la novela, uno de varios errores de continuidad en la extensa obra.",
-          de: "Cervantes bezeichnet Sanchos Frau inkonsistent als Teresa Panza, Mari Gutiérrez, Juana Gutiérrez und Teresa Cascajo an verschiedenen Stellen des Romans, einer von mehreren Kontinuitätsfehlern in dem weitläufigen Werk.",
-          nl: "Cervantes verwijst inconsistent naar Sancho's vrouw als Teresa Panza, Mari Gutiérrez, Juana Gutiérrez en Teresa Cascajo op verschillende punten in de roman, een van de verschillende continuïteitsfouten in het uitgebreide werk."
-        }
-      },
-      {
-        question: {
-          en: "In 'Heart of Darkness', what is the name of the Company station manager who delays Marlow's journey upriver?",
-          es: "En 'El corazón de las tinieblas', ¿cuál es el nombre del gerente de la estación de la Compañía que retrasa el viaje río arriba de Marlow?",
-          de: "Wie heißt in 'Herz der Finsternis' der Stationsleiter der Gesellschaft, der Marlows Reise flussaufwärts verzögert?",
-          nl: "Wat is in 'Hart der duisternis' de naam van de Compagniestation manager die Marlow's reis stroomopwaarts vertraagt?"
-        },
-        options: [
-          { en: "He is called only 'the Manager' - no name given", es: "Se le llama solo 'el Gerente' - no se da nombre", de: "Er wird nur 'der Manager' genannt - kein Name angegeben", nl: "Hij wordt alleen 'de Manager' genoemd - geen naam gegeven" },
-          { en: "Mr. Kurtz", es: "Sr. Kurtz", de: "Herr Kurtz", nl: "Dhr. Kurtz" },
-          { en: "The Russian", es: "El ruso", de: "Der Russe", nl: "De Rus" },
-          { en: "Georges Antoine Klein", es: "Georges Antoine Klein", de: "Georges Antoine Klein", nl: "Georges Antoine Klein" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Conrad never names the Manager at the Central Station. He's referred to only as 'the Manager' throughout the novella, emphasizing his role over his individual identity. This anonymity reinforces the dehumanizing nature of colonial bureaucracy.",
-          es: "Conrad nunca nombra al Gerente de la Estación Central. Se le menciona solo como 'el Gerente' a lo largo de la novela, enfatizando su rol sobre su identidad individual. Este anonimato refuerza la naturaleza deshumanizante de la burocracia colonial.",
-          de: "Conrad nennt den Manager der Zentralstation nie beim Namen. Er wird in der gesamten Novelle nur als 'der Manager' bezeichnet, was seine Rolle über seine individuelle Identität betont. Diese Anonymität verstärkt die entmenschlichende Natur der kolonialen Bürokratie.",
-          nl: "Conrad noemt de Manager van het Centraal Station nooit bij naam. Hij wordt gedurende de novelle alleen aangeduid als 'de Manager', waarbij zijn rol wordt benadrukt boven zijn individuele identiteit. Deze anonimiteit versterkt de ontmenselijkende aard van koloniale bureaucratie."
-        }
-      },
-      {
-        question: {
-          en: "In 'The Old Man and the Sea', what does Santiago eat while fighting the marlin for three days?",
-          es: "En 'El viejo y el mar', ¿qué come Santiago mientras lucha contra el marlín durante tres días?",
-          de: "Was isst Santiago in 'Der alte Mann und das Meer', während er drei Tage lang gegen den Marlin kämpft?",
-          nl: "Wat eet Santiago in 'De oude man en de zee' terwijl hij drie dagen tegen de marlijn vecht?"
-        },
-        options: [
-          { en: "Raw tuna he catches", es: "Atún crudo que pesca", de: "Rohen Thunfisch, den er fängt", nl: "Rauwe tonijn die hij vangt" },
-          { en: "Flying fish and raw dolphin fish", es: "Peces voladores y dorado crudo", de: "Fliegende Fische und rohen Goldmakrelen", nl: "Vliegende vis en rauwe dolfijnvis" },
-          { en: "Dried provisions he brought", es: "Provisiones secas que trajo", de: "Getrocknete Vorräte, die er mitbrachte", nl: "Gedroogde voorraden die hij meenam" },
-          { en: "He eats nothing during the fight", es: "No come nada durante la pelea", de: "Er isst während des Kampfes nichts", nl: "Hij eet niets tijdens het gevecht" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Santiago catches flying fish that land in his boat and later catches a dolphin fish (dorado/mahi-mahi) which he eats raw to maintain his strength. He also drinks water from his bottle. The raw fish sustains him during the exhausting battle.",
-          es: "Santiago atrapa peces voladores que caen en su bote y más tarde atrapa un dorado que come crudo para mantener su fuerza. También bebe agua de su botella. El pescado crudo lo sostiene durante la agotadora batalla.",
-          de: "Santiago fängt fliegende Fische, die in sein Boot landen, und später fängt er eine Goldmakrele (Dorado/Mahi-Mahi), die er roh isst, um seine Kraft aufrechtzuerhalten. Er trinkt auch Wasser aus seiner Flasche. Der rohe Fisch erhält ihn während des erschöpfenden Kampfes.",
-          nl: "Santiago vangt vliegende vis die in zijn boot landen en vangt later een dolfijnvis (dorado/mahi-mahi) die hij rauw eet om zijn kracht te behouden. Hij drinkt ook water uit zijn fles. De rauwe vis houdt hem op de been tijdens het uitputtende gevecht."
-        }
-      },
-      {
-        question: {
-          en: "In 'The Jungle Book', what is the Law of the Jungle's penalty for killing a human without cause?",
-          es: "En 'El libro de la selva', ¿cuál es la pena de la Ley de la Selva por matar a un humano sin causa?",
-          de: "Was ist in 'Das Dschungelbuch' die Strafe des Dschungelgesetzes für das grundlose Töten eines Menschen?",
-          nl: "Wat is in 'Het jungleboek' de straf van de Junglewet voor het zonder reden doden van een mens?"
-        },
-        options: [
-          { en: "Banishment from the jungle", es: "Destierro de la selva", de: "Verbannung aus dem Dschungel", nl: "Verbanning uit de jungle" },
-          { en: "Death", es: "Muerte", de: "Tod", nl: "Dood" },
-          { en: "The killer must leave the hunting grounds and show himself to the humans at the village edge", es: "El asesino debe abandonar los terrenos de caza y mostrarse a los humanos en el borde del pueblo", de: "Der Mörder muss die Jagdgründe verlassen und sich den Menschen am Dorfrand zeigen", nl: "De moordenaar moet de jachtgronden verlaten en zich tonen aan de mensen aan de rand van het dorp" },
-          { en: "Trial by combat with the Pack Council", es: "Juicio por combate con el Consejo de la Manada", de: "Gerichtskampf mit dem Rudelsrat", nl: "Berechting door gevecht met de Roedelraad" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "The Law of the Jungle states that if a predator kills a human without cause (not in self-defense or protection of young), it must leave its hunting grounds and go to the village edge to show itself, allowing humans to know a man-eater is among them. This is why Shere Khan becomes an outcast.",
-          es: "La Ley de la Selva establece que si un depredador mata a un humano sin causa (no en defensa propia o protección de crías), debe abandonar sus terrenos de caza e ir al borde del pueblo para mostrarse, permitiendo que los humanos sepan que hay un devorador de hombres entre ellos. Por eso Shere Khan se convierte en un paria.",
-          de: "Das Dschungelgesetz besagt, dass ein Raubtier, das einen Menschen grundlos tötet (nicht zur Selbstverteidigung oder zum Schutz der Jungen), seine Jagdgründe verlassen und zum Dorfrand gehen muss, um sich zu zeigen, damit die Menschen wissen, dass ein Menschenfresser unter ihnen ist. Deshalb wird Shere Khan zum Ausgestoßenen.",
-          nl: "De Junglewet stelt dat als een roofdier een mens zonder reden doodt (niet uit zelfverdediging of bescherming van jongen), het zijn jachtgronden moet verlaten en naar de rand van het dorp moet gaan om zich te tonen, zodat mensen weten dat er een menseneter onder hen is. Daarom wordt Shere Khan een verstoteling."
-        }
-      },
-      {
-        question: {
-          en: "In 'Around the World in Eighty Days', which mode of transportation does Phileas Fogg NOT use during his journey?",
-          es: "En 'La vuelta al mundo en ochenta días', ¿qué medio de transporte NO usa Phileas Fogg durante su viaje?",
-          de: "Welches Verkehrsmittel benutzt Phileas Fogg in 'In 80 Tagen um die Welt' NICHT während seiner Reise?",
-          nl: "Welk vervoermiddel gebruikt Phileas Fogg NIET tijdens zijn reis in 'Reis om de wereld in tachtig dagen'?"
-        },
-        options: [
-          { en: "Elephant", es: "Elefante", de: "Elefant", nl: "Olifant" },
-          { en: "Hot air balloon", es: "Globo aerostático", de: "Heißluftballon", nl: "Heteluchtballon" },
-          { en: "Sledge", es: "Trineo", de: "Schlitten", nl: "Slee" },
-          { en: "All of these are used in the journey", es: "Todos estos se usan en el viaje", de: "Alle diese werden während der Reise benutzt", nl: "Al deze worden gebruikt tijdens de reis" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Despite popular belief, Fogg never uses a hot air balloon in Verne's novel. He travels by train, steamship, elephant, sledge, and even a wind-powered sledge, but no balloon. The balloon association likely comes from the 1956 film adaptation.",
-          es: "A pesar de la creencia popular, Fogg nunca usa un globo aerostático en la novela de Verne. Viaja en tren, barco de vapor, elefante, trineo e incluso un trineo impulsado por viento, pero ningún globo. La asociación con el globo probablemente proviene de la adaptación cinematográfica de 1956.",
-          de: "Entgegen der landläufigen Meinung benutzt Fogg in Vernes Roman nie einen Heißluftballon. Er reist mit Zug, Dampfschiff, Elefant, Schlitten und sogar einem windgetriebenen Schlitten, aber keinem Ballon. Die Ballonassoziation stammt wahrscheinlich aus der Filmadaption von 1956.",
-          nl: "Ondanks de populaire overtuiging gebruikt Fogg nooit een heteluchtballon in Vernes roman. Hij reist per trein, stoomschip, olifant, slee en zelfs een door wind aangedreven slee, maar geen ballon. De ballonassociatie komt waarschijnlijk uit de filmbewerking van 1956."
-        }
-      },
-      {
-        question: {
-          en: "In 'Twenty Thousand Leagues Under the Sea', what nationality is Captain Nemo revealed to be in Verne's sequel 'The Mysterious Island'?",
-          es: "En 'Veinte mil leguas de viaje submarino', ¿qué nacionalidad se revela que tiene el Capitán Nemo en la secuela de Verne 'La isla misteriosa'?",
-          de: "Welche Nationalität hat Kapitän Nemo in 'Zwanzigtausend Meilen unter dem Meer' laut Vernes Fortsetzung 'Die geheimnisvolle Insel'?",
-          nl: "Welke nationaliteit blijkt Kapitein Nemo te hebben in 'Twintigduizend mijlen onder zee' volgens Vernes vervolg 'Het geheimzinnige eiland'?"
-        },
-        options: [
-          { en: "French", es: "Francés", de: "Französisch", nl: "Frans" },
-          { en: "Indian (Prince Dakkar of Bundelkhand)", es: "Indio (Príncipe Dakkar de Bundelkhand)", de: "Indisch (Prinz Dakkar von Bundelkhand)", nl: "Indiaas (Prins Dakkar van Bundelkhand)" },
-          { en: "Greek", es: "Griego", de: "Griechisch", nl: "Grieks" },
-          { en: "His nationality is never revealed in either novel", es: "Su nacionalidad nunca se revela en ninguna de las novelas", de: "Seine Nationalität wird in keinem der Romane enthüllt", nl: "Zijn nationaliteit wordt in geen van beide romans onthuld" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "In 'The Mysterious Island' (1875), Verne reveals Nemo is Prince Dakkar, an Indian prince from Bundelkhand who fought against British colonialism in the 1857 rebellion. After his family's death and the rebellion's failure, he became Nemo ('nobody' in Latin) and built the Nautilus.",
-          es: "En 'La isla misteriosa' (1875), Verne revela que Nemo es el Príncipe Dakkar, un príncipe indio de Bundelkhand que luchó contra el colonialismo británico en la rebelión de 1857. Después de la muerte de su familia y el fracaso de la rebelión, se convirtió en Nemo ('nadie' en latín) y construyó el Nautilus.",
-          de: "In 'Die geheimnisvolle Insel' (1875) enthüllt Verne, dass Nemo Prinz Dakkar ist, ein indischer Prinz aus Bundelkhand, der gegen den britischen Kolonialismus im Aufstand von 1857 kämpfte. Nach dem Tod seiner Familie und dem Scheitern des Aufstands wurde er zu Nemo ('niemand' auf Latein) und baute die Nautilus.",
-          nl: "In 'Het geheimzinnige eiland' (1875) onthult Verne dat Nemo Prins Dakkar is, een Indiase prins uit Bundelkhand die vocht tegen het Britse kolonialisme in de opstand van 1857. Na de dood van zijn familie en het falen van de opstand werd hij Nemo ('niemand' in het Latijn) en bouwde de Nautilus."
-        }
-      },
-      {
-        question: {
-          en: "In 'The Scarlet Pimpernel', what is Sir Percy Blakeney's secret sign to identify fellow League members?",
-          es: "En 'La pimpinela escarlata', ¿cuál es la señal secreta de Sir Percy Blakeney para identificar a los miembros de la Liga?",
-          de: "Was ist in 'Die scharlachrote Pimpernell' Sir Percy Blakeneys geheimes Zeichen, um andere Mitglieder der Liga zu identifizieren?",
-          nl: "Wat is in 'De rode pimpernel' Sir Percy Blakeney's geheime teken om medeleden van de Liga te identificeren?"
-        },
-        options: [
-          { en: "A small tattoo of a scarlet pimpernel flower", es: "Un pequeño tatuaje de una flor pimpinela escarlata", de: "Ein kleines Tattoo einer scharlachroten Pimpernellblume", nl: "Een kleine tatoeage van een rode pimpernelbloem" },
-          { en: "A ring with the pimpernel emblem", es: "Un anillo con el emblema de la pimpinela", de: "Ein Ring mit dem Pimpernell-Emblem", nl: "Een ring met het pimpernelembleem" },
-          { en: "A specific handshake", es: "Un apretón de manos específico", de: "Ein spezifischer Händedruck", nl: "Een specifieke handdruk" },
-          { en: "The novel doesn't specify a physical sign - they use coded messages", es: "La novela no especifica una señal física - usan mensajes codificados", de: "Der Roman spezifiziert kein physisches Zeichen - sie verwenden kodierte Nachrichten", nl: "De roman specificeert geen fysiek teken - ze gebruiken gecodeerde berichten" }
-        ],
-        correct: 3,
-        explanation: {
-          en: "Orczy's novel doesn't describe a specific physical sign or handshake. League members recognize each other through coded messages, prearranged meetings, and the scarlet pimpernel symbol left at rescue sites. The ring is often featured in film adaptations but not emphasized in the original text.",
-          es: "La novela de Orczy no describe una señal física o apretón de manos específico. Los miembros de la Liga se reconocen a través de mensajes codificados, reuniones preestablecidas y el símbolo de la pimpinela escarlata dejado en los sitios de rescate. El anillo aparece a menudo en adaptaciones cinematográficas pero no se enfatiza en el texto original.",
-          de: "Orczys Roman beschreibt kein spezifisches physisches Zeichen oder Händedruck. Die Mitglieder der Liga erkennen sich durch kodierte Nachrichten, vorher vereinbarte Treffen und das scharlachrote Pimpernell-Symbol, das an Rettungsorten hinterlassen wird. Der Ring wird oft in Filmadaptionen gezeigt, aber im Originaltext nicht betont.",
-          nl: "Orczy's roman beschrijft geen specifiek fysiek teken of handdruk. Leageleden herkennen elkaar via gecodeerde berichten, vooraf geplande ontmoetingen en het rode pimpernelsymbool dat wordt achtergelaten op reddingsplaatsen. De ring wordt vaak getoond in filmbewerkingen maar wordt niet benadrukt in de originele tekst."
-        }
-      },
-      {
-        question: {
-          en: "In 'Beowulf', what is the name of the sword that Beowulf uses to kill Grendel's mother?",
-          es: "En 'Beowulf', ¿cuál es el nombre de la espada que Beowulf usa para matar a la madre de Grendel?",
-          de: "Wie heißt in 'Beowulf' das Schwert, mit dem Beowulf Grendels Mutter tötet?",
-          nl: "Wat is in 'Beowulf' de naam van het zwaard dat Beowulf gebruikt om Grendels moeder te doden?"
-        },
-        options: [
-          { en: "Hrunting", es: "Hrunting", de: "Hrunting", nl: "Hrunting" },
-          { en: "Naegling", es: "Naegling", de: "Naegling", nl: "Naegling" },
-          { en: "An unnamed giant-forged sword he finds in her lair", es: "Una espada forjada por gigantes sin nombre que encuentra en su guarida", de: "Ein namenloses, von Riesen geschmiedetes Schwert, das er in ihrem Versteck findet", nl: "Een naamloos door reuzen gesmeed zwaard dat hij in haar hol vindt" },
-          { en: "Excalibur", es: "Excalibur", de: "Excalibur", nl: "Excalibur" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Beowulf borrows Hrunting from Unferth, but it fails against Grendel's mother. He then finds an ancient giant-forged sword hanging in her lair, which he uses to behead her. The sword's blade melts from her toxic blood, leaving only the jeweled hilt. The sword itself is never named.",
-          es: "Beowulf toma prestada Hrunting de Unferth, pero falla contra la madre de Grendel. Luego encuentra una antigua espada forjada por gigantes colgando en su guarida, que usa para decapitarla. La hoja de la espada se derrite por su sangre tóxica, dejando solo la empuñadura enjoyada. La espada en sí nunca es nombrada.",
-          de: "Beowulf leiht sich Hrunting von Unferth, aber es versagt gegen Grendels Mutter. Dann findet er ein altes, von Riesen geschmiedetes Schwert, das in ihrem Versteck hängt, und mit dem er sie enthauptet. Die Klinge des Schwertes schmilzt durch ihr giftiges Blut und hinterlässt nur den juwelenbesetzten Griff. Das Schwert selbst wird nie benannt.",
-          nl: "Beowulf leent Hrunting van Unferth, maar het faalt tegen Grendels moeder. Hij vindt dan een oud door reuzen gesmeed zwaard dat in haar hol hangt, dat hij gebruikt om haar te onthoofden. Het lemmet van het zwaard smelt door haar giftige bloed, waardoor alleen het met juwelen versierde gevest overblijft. Het zwaard zelf wordt nooit bij naam genoemd."
-        }
-      },
-      {
-        question: {
-          en: "In 'The Princess Bride', what is Inigo Montoya's father's profession?",
-          es: "En 'La princesa prometida', ¿cuál es la profesión del padre de Iñigo Montoya?",
-          de: "Was ist in 'Die Braut des Prinzen' der Beruf von Inigo Montoyas Vater?",
-          nl: "Wat is in 'De Bruid' het beroep van Inigo Montoya's vader?"
-        },
-        options: [
-          { en: "Fencing master", es: "Maestro de esgrima", de: "Fechtmeister", nl: "Schermmeester" },
-          { en: "Swordsmith", es: "Forjador de espadas", de: "Schwertschmied", nl: "Zwaardsmid" },
-          { en: "Blacksmith", es: "Herrero", de: "Schmied", nl: "Smid" },
-          { en: "Armorer", es: "Armero", de: "Waffenschmied", nl: "Wapensmid" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Domingo Montoya was a master swordsmith who spent a year crafting a special sword for the six-fingered man (Count Rugen). When Rugen refused to pay the agreed price and insulted the sword, Domingo challenged him and was killed. This sword becomes central to Inigo's quest for revenge.",
-          es: "Domingo Montoya era un maestro forjador de espadas que pasó un año fabricando una espada especial para el hombre de seis dedos (Conde Rugen). Cuando Rugen se negó a pagar el precio acordado e insultó la espada, Domingo lo desafió y fue asesinado. Esta espada se vuelve central en la búsqueda de venganza de Iñigo.",
-          de: "Domingo Montoya war ein Meisterschmied, der ein Jahr damit verbrachte, ein besonderes Schwert für den Sechsfingermann (Graf Rugen) zu schmieden. Als Rugen sich weigerte, den vereinbarten Preis zu zahlen und das Schwert beleidigte, forderte Domingo ihn heraus und wurde getötet. Dieses Schwert wird zentral für Inigos Rachequest.",
-          nl: "Domingo Montoya was een meester-zwaardsmid die een jaar besteedde aan het smeden van een speciaal zwaard voor de zespingerige man (Graaf Rugen). Toen Rugen weigerde de afgesproken prijs te betalen en het zwaard beledigde, daagde Domingo hem uit en werd gedood. Dit zwaard wordt centraal in Inigo's zoektocht naar wraak."
-        }
-      },
-      {
-        question: {
-          en: "In 'Kim', what is the full title of the Tibetan lama who becomes Kim's spiritual guide?",
-          es: "En 'Kim', ¿cuál es el título completo del lama tibetano que se convierte en la guía espiritual de Kim?",
-          de: "Was ist in 'Kim' der vollständige Titel des tibetischen Lamas, der Kims spiritueller Führer wird?",
-          nl: "Wat is in 'Kim' de volledige titel van de Tibetaanse lama die Kim's spirituele gids wordt?"
-        },
-        options: [
-          { en: "The Teshoo Lama", es: "El Teshoo Lama", de: "Der Teshoo Lama", nl: "De Teshoo Lama" },
-          { en: "The Dalai Lama", es: "El Dalai Lama", de: "Der Dalai Lama", nl: "De Dalai Lama" },
-          { en: "He has no title - he's a simple monk seeking the River", es: "No tiene título - es un simple monje que busca el Río", de: "Er hat keinen Titel - er ist ein einfacher Mönch, der den Fluss sucht", nl: "Hij heeft geen titel - hij is een eenvoudige monnik op zoek naar de Rivier" },
-          { en: "The Abbot of Such-zen", es: "El Abad de Such-zen", de: "Der Abt von Such-zen", nl: "De Abt van Such-zen" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "The lama is never given a formal title in the novel. He's described as a learned monk from a monastery near Such-zen who is on a pilgrimage to find the legendary River of the Arrow that will wash away sin. He's referred to simply as 'the lama' throughout.",
-          es: "Al lama nunca se le da un título formal en la novela. Se le describe como un monje erudito de un monasterio cerca de Such-zen que está en una peregrinación para encontrar el legendario Río de la Flecha que lavará los pecados. Se le llama simplemente 'el lama' en toda la obra.",
-          de: "Der Lama erhält im Roman nie einen formellen Titel. Er wird als gelehrter Mönch aus einem Kloster in der Nähe von Such-zen beschrieben, der auf einer Pilgerreise ist, um den legendären Fluss des Pfeils zu finden, der die Sünde wegwaschen wird. Er wird durchgehend einfach als 'der Lama' bezeichnet.",
-          nl: "De lama krijgt nooit een formele titel in de roman. Hij wordt beschreven als een geleerde monnik uit een klooster nabij Such-zen die op bedevaart is om de legendarische Rivier van de Pijl te vinden die de zonden zal wegwassen. Hij wordt simpelweg 'de lama' genoemd door de hele roman."
-        }      },
-      {
-        question: {
-          en: "Who wrote The Scarlet Pimpernel?",
-          es: "Who wrote The Scarlet Pimpernel?",
-          de: "Who wrote The Scarlet Pimpernel?",
-          nl: "Who wrote The Scarlet Pimpernel?"
-        },
-        options: [
-          { en: "Baroness Orczy", es: "Baroness Orczy", de: "Baroness Orczy", nl: "Baroness Orczy" },
-          { en: "Alexandre Dumas", es: "Alexandre Dumas", de: "Alexandre Dumas", nl: "Alexandre Dumas" },
-          { en: "Victor Hugo", es: "Victor Hugo", de: "Victor Hugo", nl: "Victor Hugo" },
-          { en: "Charles Dickens", es: "Charles Dickens", de: "Charles Dickens", nl: "Charles Dickens" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Baroness Orczy wrote The Scarlet Pimpernel in 1905 about a hero rescuing aristocrats during French Revolution.",
-          es: "Baroness Orczy wrote The Scarlet Pimpernel in 1905 about a hero rescuing aristocrats during French Revolution.",
-          de: "Baroness Orczy wrote The Scarlet Pimpernel in 1905 about a hero rescuing aristocrats during French Revolution.",
-          nl: "Baroness Orczy wrote The Scarlet Pimpernel in 1905 about a hero rescuing aristocrats during French Revolution."
-        }      },
-      {
-        question: {
-          en: "What is the name of Captain Nemos submarine?",
-          es: "What is the name of Captain Nemos submarine?",
-          de: "What is the name of Captain Nemos submarine?",
-          nl: "What is the name of Captain Nemos submarine?"
-        },
-        options: [
-          { en: "Nautilus", es: "Nautilus", de: "Nautilus", nl: "Nautilus" },
-          { en: "Triton", es: "Triton", de: "Triton", nl: "Triton" },
-          { en: "Poseidon", es: "Poseidon", de: "Poseidon", nl: "Poseidon" },
-          { en: "Leviathan", es: "Leviathan", de: "Leviathan", nl: "Leviathan" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Nautilus is the advanced submarine in Twenty Thousand Leagues Under the Sea.",
-          es: "The Nautilus is the advanced submarine in Twenty Thousand Leagues Under the Sea.",
-          de: "The Nautilus is the advanced submarine in Twenty Thousand Leagues Under the Sea.",
-          nl: "The Nautilus is the advanced submarine in Twenty Thousand Leagues Under the Sea."
-        }      },
-      {
-        question: {
-          en: "Who wrote The Coral Island?",
-          es: "Who wrote The Coral Island?",
-          de: "Who wrote The Coral Island?",
-          nl: "Who wrote The Coral Island?"
-        },
-        options: [
-          { en: "R.M. Ballantyne", es: "R.M. Ballantyne", de: "R.M. Ballantyne", nl: "R.M. Ballantyne" },
-          { en: "Daniel Defoe", es: "Daniel Defoe", de: "Daniel Defoe", nl: "Daniel Defoe" },
-          { en: "Robert Louis Stevenson", es: "Robert Louis Stevenson", de: "Robert Louis Stevenson", nl: "Robert Louis Stevenson" },
-          { en: "Jules Verne", es: "Jules Verne", de: "Jules Verne", nl: "Jules Verne" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "R.M. Ballantyne wrote The Coral Island in 1857 about boys stranded on a Pacific island.",
-          es: "R.M. Ballantyne wrote The Coral Island in 1857 about boys stranded on a Pacific island.",
-          de: "R.M. Ballantyne wrote The Coral Island in 1857 about boys stranded on a Pacific island.",
-          nl: "R.M. Ballantyne wrote The Coral Island in 1857 about boys stranded on a Pacific island."
-        }      },
-      {
-        question: {
-          en: "In which book does Natty Bumppo appear?",
-          es: "In which book does Natty Bumppo appear?",
-          de: "In which book does Natty Bumppo appear?",
-          nl: "In which book does Natty Bumppo appear?"
-        },
-        options: [
-          { en: "The Leatherstocking Tales", es: "The Leatherstocking Tales", de: "The Leatherstocking Tales", nl: "The Leatherstocking Tales" },
-          { en: "The Last Mohican", es: "The Last Mohican", de: "The Last Mohican", nl: "The Last Mohican" },
-          { en: "The Pathfinder", es: "The Pathfinder", de: "The Pathfinder", nl: "The Pathfinder" },
-          { en: "All of the above", es: "All of the above", de: "All of the above", nl: "All of the above" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Natty Bumppo appears throughout James Fenimore Coopers Leatherstocking Tales series.",
-          es: "Natty Bumppo appears throughout James Fenimore Coopers Leatherstocking Tales series.",
-          de: "Natty Bumppo appears throughout James Fenimore Coopers Leatherstocking Tales series.",
-          nl: "Natty Bumppo appears throughout James Fenimore Coopers Leatherstocking Tales series."
-        }      },
-      {
-        question: {
-          en: "Who created the character Phileas Fogg?",
-          es: "Who created the character Phileas Fogg?",
-          de: "Who created the character Phileas Fogg?",
-          nl: "Who created the character Phileas Fogg?"
-        },
-        options: [
-          { en: "Jules Verne", es: "Jules Verne", de: "Jules Verne", nl: "Jules Verne" },
-          { en: "H.G. Wells", es: "H.G. Wells", de: "H.G. Wells", nl: "H.G. Wells" },
-          { en: "Arthur Conan Doyle", es: "Arthur Conan Doyle", de: "Arthur Conan Doyle", nl: "Arthur Conan Doyle" },
-          { en: "Mark Twain", es: "Mark Twain", de: "Mark Twain", nl: "Mark Twain" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Jules Verne created Phileas Fogg for Around the World in Eighty Days.",
-          es: "Jules Verne created Phileas Fogg for Around the World in Eighty Days.",
-          de: "Jules Verne created Phileas Fogg for Around the World in Eighty Days.",
-          nl: "Jules Verne created Phileas Fogg for Around the World in Eighty Days."
-        }      },
-      {
-        question: {
-          en: "What is Bagheera in The Jungle Book?",
-          es: "What is Bagheera in The Jungle Book?",
-          de: "What is Bagheera in The Jungle Book?",
-          nl: "What is Bagheera in The Jungle Book?"
-        },
-        options: [
-          { en: "A black panther", es: "A black panther", de: "A black panther", nl: "A black panther" },
-          { en: "A brown bear", es: "A brown bear", de: "A brown bear", nl: "A brown bear" },
-          { en: "A wolf", es: "A wolf", de: "A wolf", nl: "A wolf" },
-          { en: "A tiger", es: "A tiger", de: "A tiger", nl: "A tiger" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Bagheera is the sleek black panther who befriends and protects Mowgli.",
-          es: "Bagheera is the sleek black panther who befriends and protects Mowgli.",
-          de: "Bagheera is the sleek black panther who befriends and protects Mowgli.",
-          nl: "Bagheera is the sleek black panther who befriends and protects Mowgli."
-        }      },
-      {
-        question: {
-          en: "Who wrote She about adventures in Africa?",
-          es: "Who wrote She about adventures in Africa?",
-          de: "Who wrote She about adventures in Africa?",
-          nl: "Who wrote She about adventures in Africa?"
-        },
-        options: [
-          { en: "H. Rider Haggard", es: "H. Rider Haggard", de: "H. Rider Haggard", nl: "H. Rider Haggard" },
-          { en: "Joseph Conrad", es: "Joseph Conrad", de: "Joseph Conrad", nl: "Joseph Conrad" },
-          { en: "Rudyard Kipling", es: "Rudyard Kipling", de: "Rudyard Kipling", nl: "Rudyard Kipling" },
-          { en: "Edgar Rice Burroughs", es: "Edgar Rice Burroughs", de: "Edgar Rice Burroughs", nl: "Edgar Rice Burroughs" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "H. Rider Haggard wrote She in 1887 about the immortal queen Ayesha.",
-          es: "H. Rider Haggard wrote She in 1887 about the immortal queen Ayesha.",
-          de: "H. Rider Haggard wrote She in 1887 about the immortal queen Ayesha.",
-          nl: "H. Rider Haggard wrote She in 1887 about the immortal queen Ayesha."
-        }      },
-      {
-        question: {
-          en: "In Moby Dick, who is the narrator?",
-          es: "In Moby Dick, who is the narrator?",
-          de: "In Moby Dick, who is the narrator?",
-          nl: "In Moby Dick, who is the narrator?"
-        },
-        options: [
-          { en: "Ishmael", es: "Ishmael", de: "Ishmael", nl: "Ishmael" },
-          { en: "Ahab", es: "Ahab", de: "Ahab", nl: "Ahab" },
-          { en: "Starbuck", es: "Starbuck", de: "Starbuck", nl: "Starbuck" },
-          { en: "Queequeg", es: "Queequeg", de: "Queequeg", nl: "Queequeg" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Ishmael is the narrator who begins with Call me Ishmael.",
-          es: "Ishmael is the narrator who begins with Call me Ishmael.",
-          de: "Ishmael is the narrator who begins with Call me Ishmael.",
-          nl: "Ishmael is the narrator who begins with Call me Ishmael."
-        }      },
-      {
-        question: {
-          en: "Who wrote The Man in the Iron Mask?",
-          es: "Who wrote The Man in the Iron Mask?",
-          de: "Who wrote The Man in the Iron Mask?",
-          nl: "Who wrote The Man in the Iron Mask?"
-        },
-        options: [
-          { en: "Alexandre Dumas", es: "Alexandre Dumas", de: "Alexandre Dumas", nl: "Alexandre Dumas" },
-          { en: "Victor Hugo", es: "Victor Hugo", de: "Victor Hugo", nl: "Victor Hugo" },
-          { en: "Emile Zola", es: "Emile Zola", de: "Emile Zola", nl: "Emile Zola" },
-          { en: "Honore de Balzac", es: "Honore de Balzac", de: "Honore de Balzac", nl: "Honore de Balzac" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Alexandre Dumas wrote The Man in the Iron Mask as part of The Vicomte of Bragelonne.",
-          es: "Alexandre Dumas wrote The Man in the Iron Mask as part of The Vicomte of Bragelonne.",
-          de: "Alexandre Dumas wrote The Man in the Iron Mask as part of The Vicomte of Bragelonne.",
-          nl: "Alexandre Dumas wrote The Man in the Iron Mask as part of The Vicomte of Bragelonne."
-        }      },
-      {
-        question: {
-          en: "What ship is featured in Treasure Island?",
-          es: "What ship is featured in Treasure Island?",
-          de: "What ship is featured in Treasure Island?",
-          nl: "What ship is featured in Treasure Island?"
-        },
-        options: [
-          { en: "Hispaniola", es: "Hispaniola", de: "Hispaniola", nl: "Hispaniola" },
-          { en: "Pequod", es: "Pequod", de: "Pequod", nl: "Pequod" },
-          { en: "Nautilus", es: "Nautilus", de: "Nautilus", nl: "Nautilus" },
-          { en: "Bounty", es: "Bounty", de: "Bounty", nl: "Bounty" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Hispaniola is the ship that sails to Treasure Island.",
-          es: "The Hispaniola is the ship that sails to Treasure Island.",
-          de: "The Hispaniola is the ship that sails to Treasure Island.",
-          nl: "The Hispaniola is the ship that sails to Treasure Island."
-        }      },
-      {
-        question: {
-          en: "Who is the author of The Thirty-Nine Steps?",
-          es: "Who is the author of The Thirty-Nine Steps?",
-          de: "Who is the author of The Thirty-Nine Steps?",
-          nl: "Who is the author of The Thirty-Nine Steps?"
-        },
-        options: [
-          { en: "John Buchan", es: "John Buchan", de: "John Buchan", nl: "John Buchan" },
-          { en: "Eric Ambler", es: "Eric Ambler", de: "Eric Ambler", nl: "Eric Ambler" },
-          { en: "Graham Greene", es: "Graham Greene", de: "Graham Greene", nl: "Graham Greene" },
-          { en: "Ian Fleming", es: "Ian Fleming", de: "Ian Fleming", nl: "Ian Fleming" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "John Buchan wrote The Thirty-Nine Steps in 1915 featuring Richard Hannay.",
-          es: "John Buchan wrote The Thirty-Nine Steps in 1915 featuring Richard Hannay.",
-          de: "John Buchan wrote The Thirty-Nine Steps in 1915 featuring Richard Hannay.",
-          nl: "John Buchan wrote The Thirty-Nine Steps in 1915 featuring Richard Hannay."
-        }      },
-      {
-        question: {
-          en: "In King Solomons Mines, what are they searching for?",
-          es: "In King Solomons Mines, what are they searching for?",
-          de: "In King Solomons Mines, what are they searching for?",
-          nl: "In King Solomons Mines, what are they searching for?"
-        },
-        options: [
-          { en: "Diamond mines", es: "Diamond mines", de: "Diamond mines", nl: "Diamond mines" },
-          { en: "Gold mines", es: "Gold mines", de: "Gold mines", nl: "Gold mines" },
-          { en: "Lost city", es: "Lost city", de: "Lost city", nl: "Lost city" },
-          { en: "Ancient scrolls", es: "Ancient scrolls", de: "Ancient scrolls", nl: "Ancient scrolls" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "They search for the legendary diamond mines of King Solomon in Africa.",
-          es: "They search for the legendary diamond mines of King Solomon in Africa.",
-          de: "They search for the legendary diamond mines of King Solomon in Africa.",
-          nl: "They search for the legendary diamond mines of King Solomon in Africa."
-        }      },
-      {
-        question: {
-          en: "Who wrote Two Years Before the Mast?",
-          es: "Who wrote Two Years Before the Mast?",
-          de: "Who wrote Two Years Before the Mast?",
-          nl: "Who wrote Two Years Before the Mast?"
-        },
-        options: [
-          { en: "Richard Henry Dana Jr.", es: "Richard Henry Dana Jr.", de: "Richard Henry Dana Jr.", nl: "Richard Henry Dana Jr." },
-          { en: "Herman Melville", es: "Herman Melville", de: "Herman Melville", nl: "Herman Melville" },
-          { en: "Jack London", es: "Jack London", de: "Jack London", nl: "Jack London" },
-          { en: "Joseph Conrad", es: "Joseph Conrad", de: "Joseph Conrad", nl: "Joseph Conrad" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Richard Henry Dana Jr. wrote this 1840 memoir of life as a sailor.",
-          es: "Richard Henry Dana Jr. wrote this 1840 memoir of life as a sailor.",
-          de: "Richard Henry Dana Jr. wrote this 1840 memoir of life as a sailor.",
-          nl: "Richard Henry Dana Jr. wrote this 1840 memoir of life as a sailor."
-        }      },
-      {
-        question: {
-          en: "What is the name of Tom Sawyers girlfriend?",
-          es: "What is the name of Tom Sawyers girlfriend?",
-          de: "What is the name of Tom Sawyers girlfriend?",
-          nl: "What is the name of Tom Sawyers girlfriend?"
-        },
-        options: [
-          { en: "Becky Thatcher", es: "Becky Thatcher", de: "Becky Thatcher", nl: "Becky Thatcher" },
-          { en: "Mary Jane", es: "Mary Jane", de: "Mary Jane", nl: "Mary Jane" },
-          { en: "Sally Harper", es: "Sally Harper", de: "Sally Harper", nl: "Sally Harper" },
-          { en: "Susan Miller", es: "Susan Miller", de: "Susan Miller", nl: "Susan Miller" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Becky Thatcher is Tom Sawyers love interest in Mark Twains novels.",
-          es: "Becky Thatcher is Tom Sawyers love interest in Mark Twains novels.",
-          de: "Becky Thatcher is Tom Sawyers love interest in Mark Twains novels.",
-          nl: "Becky Thatcher is Tom Sawyers love interest in Mark Twains novels."
-        }      },
-      {
-        question: {
-          en: "Who created Allan Quatermain?",
-          es: "Who created Allan Quatermain?",
-          de: "Who created Allan Quatermain?",
-          nl: "Who created Allan Quatermain?"
-        },
-        options: [
-          { en: "H. Rider Haggard", es: "H. Rider Haggard", de: "H. Rider Haggard", nl: "H. Rider Haggard" },
-          { en: "Arthur Conan Doyle", es: "Arthur Conan Doyle", de: "Arthur Conan Doyle", nl: "Arthur Conan Doyle" },
-          { en: "Edgar Rice Burroughs", es: "Edgar Rice Burroughs", de: "Edgar Rice Burroughs", nl: "Edgar Rice Burroughs" },
-          { en: "Jules Verne", es: "Jules Verne", de: "Jules Verne", nl: "Jules Verne" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "H. Rider Haggard created the hunter Allan Quatermain in King Solomons Mines.",
-          es: "H. Rider Haggard created the hunter Allan Quatermain in King Solomons Mines.",
-          de: "H. Rider Haggard created the hunter Allan Quatermain in King Solomons Mines.",
-          nl: "H. Rider Haggard created the hunter Allan Quatermain in King Solomons Mines."
-        }      },
-      {
-        question: {
-          en: "In The Count of Monte Cristo, what is the treasure island called?",
-          es: "In The Count of Monte Cristo, what is the treasure island called?",
-          de: "In The Count of Monte Cristo, what is the treasure island called?",
-          nl: "In The Count of Monte Cristo, what is the treasure island called?"
-        },
-        options: [
-          { en: "Monte Cristo", es: "Monte Cristo", de: "Monte Cristo", nl: "Monte Cristo" },
-          { en: "Elba", es: "Elba", de: "Elba", nl: "Elba" },
-          { en: "Corsica", es: "Corsica", de: "Corsica", nl: "Corsica" },
-          { en: "Sardinia", es: "Sardinia", de: "Sardinia", nl: "Sardinia" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The treasure is hidden on the island of Monte Cristo where Dantes finds his fortune.",
-          es: "The treasure is hidden on the island of Monte Cristo where Dantes finds his fortune.",
-          de: "The treasure is hidden on the island of Monte Cristo where Dantes finds his fortune.",
-          nl: "The treasure is hidden on the island of Monte Cristo where Dantes finds his fortune."
-        }      },
-      {
-        question: {
-          en: "Who wrote Master and Commander?",
-          es: "Who wrote Master and Commander?",
-          de: "Who wrote Master and Commander?",
-          nl: "Who wrote Master and Commander?"
-        },
-        options: [
-          { en: "Patrick OBrian", es: "Patrick OBrian", de: "Patrick OBrian", nl: "Patrick OBrian" },
-          { en: "C.S. Forester", es: "C.S. Forester", de: "C.S. Forester", nl: "C.S. Forester" },
-          { en: "Herman Melville", es: "Herman Melville", de: "Herman Melville", nl: "Herman Melville" },
-          { en: "Joseph Conrad", es: "Joseph Conrad", de: "Joseph Conrad", nl: "Joseph Conrad" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Patrick OBrian wrote Master and Commander starting the Aubrey-Maturin series in 1969.",
-          es: "Patrick OBrian wrote Master and Commander starting the Aubrey-Maturin series in 1969.",
-          de: "Patrick OBrian wrote Master and Commander starting the Aubrey-Maturin series in 1969.",
-          nl: "Patrick OBrian wrote Master and Commander starting the Aubrey-Maturin series in 1969."
-        }      },
-      {
-        question: {
-          en: "What animal is Kaa in The Jungle Book?",
-          es: "What animal is Kaa in The Jungle Book?",
-          de: "What animal is Kaa in The Jungle Book?",
-          nl: "What animal is Kaa in The Jungle Book?"
-        },
-        options: [
-          { en: "Python", es: "Python", de: "Python", nl: "Python" },
-          { en: "Cobra", es: "Cobra", de: "Cobra", nl: "Cobra" },
-          { en: "Viper", es: "Viper", de: "Viper", nl: "Viper" },
-          { en: "Anaconda", es: "Anaconda", de: "Anaconda", nl: "Anaconda" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Kaa is a python who uses hypnosis and appears in several Jungle Book stories.",
-          es: "Kaa is a python who uses hypnosis and appears in several Jungle Book stories.",
-          de: "Kaa is a python who uses hypnosis and appears in several Jungle Book stories.",
-          nl: "Kaa is a python who uses hypnosis and appears in several Jungle Book stories."
-        }      },
-      {
-        question: {
-          en: "Who is the villain in The Three Musketeers?",
-          es: "Who is the villain in The Three Musketeers?",
-          de: "Who is the villain in The Three Musketeers?",
-          nl: "Who is the villain in The Three Musketeers?"
-        },
-        options: [
-          { en: "Cardinal Richelieu", es: "Cardinal Richelieu", de: "Cardinal Richelieu", nl: "Cardinal Richelieu" },
-          { en: "Milady de Winter", es: "Milady de Winter", de: "Milady de Winter", nl: "Milady de Winter" },
-          { en: "Both A and B", es: "Both A and B", de: "Both A and B", nl: "Both A and B" },
-          { en: "Comte de Rochefort", es: "Comte de Rochefort", de: "Comte de Rochefort", nl: "Comte de Rochefort" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Both Cardinal Richelieu and Milady de Winter serve as antagonists.",
-          es: "Both Cardinal Richelieu and Milady de Winter serve as antagonists.",
-          de: "Both Cardinal Richelieu and Milady de Winter serve as antagonists.",
-          nl: "Both Cardinal Richelieu and Milady de Winter serve as antagonists."
-        }      },
-      {
-        question: {
-          en: "In Robinson Crusoe, how many years is he stranded?",
-          es: "In Robinson Crusoe, how many years is he stranded?",
-          de: "In Robinson Crusoe, how many years is he stranded?",
-          nl: "In Robinson Crusoe, how many years is he stranded?"
-        },
-        options: [
-          { en: "28 years", es: "28 years", de: "28 years", nl: "28 years" },
-          { en: "10 years", es: "10 years", de: "10 years", nl: "10 years" },
-          { en: "15 years", es: "15 years", de: "15 years", nl: "15 years" },
-          { en: "20 years", es: "20 years", de: "20 years", nl: "20 years" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Robinson Crusoe is stranded for 28 years before being rescued.",
-          es: "Robinson Crusoe is stranded for 28 years before being rescued.",
-          de: "Robinson Crusoe is stranded for 28 years before being rescued.",
-          nl: "Robinson Crusoe is stranded for 28 years before being rescued."
-        }
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
       }
-    ]
-  };
-
-  // Export for use in the quiz application
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level9;
-  } else if (typeof window !== 'undefined') {
-    window.level9 = level9;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Adventure Books",
+      "es": "Pregunta 2 sobre Adventure Books",
+      "de": "Frage 2 über Adventure Books",
+      "nl": "Vraag 2 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Adventure Books",
+      "es": "Pregunta 3 sobre Adventure Books",
+      "de": "Frage 3 über Adventure Books",
+      "nl": "Vraag 3 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Adventure Books",
+      "es": "Pregunta 4 sobre Adventure Books",
+      "de": "Frage 4 über Adventure Books",
+      "nl": "Vraag 4 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Adventure Books",
+      "es": "Pregunta 5 sobre Adventure Books",
+      "de": "Frage 5 über Adventure Books",
+      "nl": "Vraag 5 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Adventure Books",
+      "es": "Pregunta 6 sobre Adventure Books",
+      "de": "Frage 6 über Adventure Books",
+      "nl": "Vraag 6 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Adventure Books",
+      "es": "Pregunta 7 sobre Adventure Books",
+      "de": "Frage 7 über Adventure Books",
+      "nl": "Vraag 7 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Adventure Books",
+      "es": "Pregunta 8 sobre Adventure Books",
+      "de": "Frage 8 über Adventure Books",
+      "nl": "Vraag 8 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Adventure Books",
+      "es": "Pregunta 9 sobre Adventure Books",
+      "de": "Frage 9 über Adventure Books",
+      "nl": "Vraag 9 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Adventure Books",
+      "es": "Pregunta 10 sobre Adventure Books",
+      "de": "Frage 10 über Adventure Books",
+      "nl": "Vraag 10 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Adventure Books",
+      "es": "Pregunta 11 sobre Adventure Books",
+      "de": "Frage 11 über Adventure Books",
+      "nl": "Vraag 11 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Adventure Books",
+      "es": "Pregunta 12 sobre Adventure Books",
+      "de": "Frage 12 über Adventure Books",
+      "nl": "Vraag 12 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Adventure Books",
+      "es": "Pregunta 13 sobre Adventure Books",
+      "de": "Frage 13 über Adventure Books",
+      "nl": "Vraag 13 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Adventure Books",
+      "es": "Pregunta 14 sobre Adventure Books",
+      "de": "Frage 14 über Adventure Books",
+      "nl": "Vraag 14 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Adventure Books",
+      "es": "Pregunta 15 sobre Adventure Books",
+      "de": "Frage 15 über Adventure Books",
+      "nl": "Vraag 15 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Adventure Books",
+      "es": "Pregunta 16 sobre Adventure Books",
+      "de": "Frage 16 über Adventure Books",
+      "nl": "Vraag 16 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Adventure Books",
+      "es": "Pregunta 17 sobre Adventure Books",
+      "de": "Frage 17 über Adventure Books",
+      "nl": "Vraag 17 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Adventure Books",
+      "es": "Pregunta 18 sobre Adventure Books",
+      "de": "Frage 18 über Adventure Books",
+      "nl": "Vraag 18 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Adventure Books",
+      "es": "Pregunta 19 sobre Adventure Books",
+      "de": "Frage 19 über Adventure Books",
+      "nl": "Vraag 19 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Adventure Books",
+      "es": "Pregunta 20 sobre Adventure Books",
+      "de": "Frage 20 über Adventure Books",
+      "nl": "Vraag 20 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Adventure Books",
+      "es": "Pregunta 21 sobre Adventure Books",
+      "de": "Frage 21 über Adventure Books",
+      "nl": "Vraag 21 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Adventure Books",
+      "es": "Pregunta 22 sobre Adventure Books",
+      "de": "Frage 22 über Adventure Books",
+      "nl": "Vraag 22 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Adventure Books",
+      "es": "Pregunta 23 sobre Adventure Books",
+      "de": "Frage 23 über Adventure Books",
+      "nl": "Vraag 23 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Adventure Books",
+      "es": "Pregunta 24 sobre Adventure Books",
+      "de": "Frage 24 über Adventure Books",
+      "nl": "Vraag 24 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Adventure Books",
+      "es": "Pregunta 25 sobre Adventure Books",
+      "de": "Frage 25 über Adventure Books",
+      "nl": "Vraag 25 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Adventure Books",
+      "es": "Pregunta 26 sobre Adventure Books",
+      "de": "Frage 26 über Adventure Books",
+      "nl": "Vraag 26 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Adventure Books",
+      "es": "Pregunta 27 sobre Adventure Books",
+      "de": "Frage 27 über Adventure Books",
+      "nl": "Vraag 27 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Adventure Books",
+      "es": "Pregunta 28 sobre Adventure Books",
+      "de": "Frage 28 über Adventure Books",
+      "nl": "Vraag 28 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Adventure Books",
+      "es": "Pregunta 29 sobre Adventure Books",
+      "de": "Frage 29 über Adventure Books",
+      "nl": "Vraag 29 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Adventure Books",
+      "es": "Pregunta 30 sobre Adventure Books",
+      "de": "Frage 30 über Adventure Books",
+      "nl": "Vraag 30 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Adventure Books",
+      "es": "Pregunta 31 sobre Adventure Books",
+      "de": "Frage 31 über Adventure Books",
+      "nl": "Vraag 31 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Adventure Books",
+      "es": "Pregunta 32 sobre Adventure Books",
+      "de": "Frage 32 über Adventure Books",
+      "nl": "Vraag 32 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Adventure Books",
+      "es": "Pregunta 33 sobre Adventure Books",
+      "de": "Frage 33 über Adventure Books",
+      "nl": "Vraag 33 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Adventure Books",
+      "es": "Pregunta 34 sobre Adventure Books",
+      "de": "Frage 34 über Adventure Books",
+      "nl": "Vraag 34 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Adventure Books",
+      "es": "Pregunta 35 sobre Adventure Books",
+      "de": "Frage 35 über Adventure Books",
+      "nl": "Vraag 35 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Adventure Books",
+      "es": "Pregunta 36 sobre Adventure Books",
+      "de": "Frage 36 über Adventure Books",
+      "nl": "Vraag 36 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Adventure Books",
+      "es": "Pregunta 37 sobre Adventure Books",
+      "de": "Frage 37 über Adventure Books",
+      "nl": "Vraag 37 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Adventure Books",
+      "es": "Pregunta 38 sobre Adventure Books",
+      "de": "Frage 38 über Adventure Books",
+      "nl": "Vraag 38 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Adventure Books",
+      "es": "Pregunta 39 sobre Adventure Books",
+      "de": "Frage 39 über Adventure Books",
+      "nl": "Vraag 39 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Adventure Books",
+      "es": "Pregunta 40 sobre Adventure Books",
+      "de": "Frage 40 über Adventure Books",
+      "nl": "Vraag 40 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Adventure Books",
+      "es": "Pregunta 41 sobre Adventure Books",
+      "de": "Frage 41 über Adventure Books",
+      "nl": "Vraag 41 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Adventure Books",
+      "es": "Pregunta 42 sobre Adventure Books",
+      "de": "Frage 42 über Adventure Books",
+      "nl": "Vraag 42 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Adventure Books",
+      "es": "Pregunta 43 sobre Adventure Books",
+      "de": "Frage 43 über Adventure Books",
+      "nl": "Vraag 43 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Adventure Books",
+      "es": "Pregunta 44 sobre Adventure Books",
+      "de": "Frage 44 über Adventure Books",
+      "nl": "Vraag 44 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Adventure Books",
+      "es": "Pregunta 45 sobre Adventure Books",
+      "de": "Frage 45 über Adventure Books",
+      "nl": "Vraag 45 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Adventure Books",
+      "es": "Pregunta 46 sobre Adventure Books",
+      "de": "Frage 46 über Adventure Books",
+      "nl": "Vraag 46 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Adventure Books",
+      "es": "Pregunta 47 sobre Adventure Books",
+      "de": "Frage 47 über Adventure Books",
+      "nl": "Vraag 47 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Adventure Books",
+      "es": "Pregunta 48 sobre Adventure Books",
+      "de": "Frage 48 über Adventure Books",
+      "nl": "Vraag 48 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Adventure Books",
+      "es": "Pregunta 49 sobre Adventure Books",
+      "de": "Frage 49 über Adventure Books",
+      "nl": "Vraag 49 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Adventure Books",
+      "es": "Pregunta 50 sobre Adventure Books",
+      "de": "Frage 50 über Adventure Books",
+      "nl": "Vraag 50 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Adventure Books",
+      "es": "Pregunta 51 sobre Adventure Books",
+      "de": "Frage 51 über Adventure Books",
+      "nl": "Vraag 51 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Adventure Books",
+      "es": "Pregunta 52 sobre Adventure Books",
+      "de": "Frage 52 über Adventure Books",
+      "nl": "Vraag 52 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Adventure Books",
+      "es": "Pregunta 53 sobre Adventure Books",
+      "de": "Frage 53 über Adventure Books",
+      "nl": "Vraag 53 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Adventure Books",
+      "es": "Pregunta 54 sobre Adventure Books",
+      "de": "Frage 54 über Adventure Books",
+      "nl": "Vraag 54 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Adventure Books",
+      "es": "Pregunta 55 sobre Adventure Books",
+      "de": "Frage 55 über Adventure Books",
+      "nl": "Vraag 55 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Adventure Books",
+      "es": "Pregunta 56 sobre Adventure Books",
+      "de": "Frage 56 über Adventure Books",
+      "nl": "Vraag 56 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Adventure Books",
+      "es": "Pregunta 57 sobre Adventure Books",
+      "de": "Frage 57 über Adventure Books",
+      "nl": "Vraag 57 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Adventure Books",
+      "es": "Pregunta 58 sobre Adventure Books",
+      "de": "Frage 58 über Adventure Books",
+      "nl": "Vraag 58 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Adventure Books",
+      "es": "Pregunta 59 sobre Adventure Books",
+      "de": "Frage 59 über Adventure Books",
+      "nl": "Vraag 59 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Adventure Books",
+      "es": "Pregunta 60 sobre Adventure Books",
+      "de": "Frage 60 über Adventure Books",
+      "nl": "Vraag 60 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Adventure Books",
+      "es": "Pregunta 61 sobre Adventure Books",
+      "de": "Frage 61 über Adventure Books",
+      "nl": "Vraag 61 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Adventure Books",
+      "es": "Pregunta 62 sobre Adventure Books",
+      "de": "Frage 62 über Adventure Books",
+      "nl": "Vraag 62 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Adventure Books",
+      "es": "Pregunta 63 sobre Adventure Books",
+      "de": "Frage 63 über Adventure Books",
+      "nl": "Vraag 63 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Adventure Books",
+      "es": "Pregunta 64 sobre Adventure Books",
+      "de": "Frage 64 über Adventure Books",
+      "nl": "Vraag 64 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Adventure Books",
+      "es": "Pregunta 65 sobre Adventure Books",
+      "de": "Frage 65 über Adventure Books",
+      "nl": "Vraag 65 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Adventure Books",
+      "es": "Pregunta 66 sobre Adventure Books",
+      "de": "Frage 66 über Adventure Books",
+      "nl": "Vraag 66 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Adventure Books",
+      "es": "Pregunta 67 sobre Adventure Books",
+      "de": "Frage 67 über Adventure Books",
+      "nl": "Vraag 67 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Adventure Books",
+      "es": "Pregunta 68 sobre Adventure Books",
+      "de": "Frage 68 über Adventure Books",
+      "nl": "Vraag 68 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Adventure Books",
+      "es": "Pregunta 69 sobre Adventure Books",
+      "de": "Frage 69 über Adventure Books",
+      "nl": "Vraag 69 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Adventure Books",
+      "es": "Pregunta 70 sobre Adventure Books",
+      "de": "Frage 70 über Adventure Books",
+      "nl": "Vraag 70 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Adventure Books",
+      "es": "Pregunta 71 sobre Adventure Books",
+      "de": "Frage 71 über Adventure Books",
+      "nl": "Vraag 71 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Adventure Books",
+      "es": "Pregunta 72 sobre Adventure Books",
+      "de": "Frage 72 über Adventure Books",
+      "nl": "Vraag 72 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Adventure Books",
+      "es": "Pregunta 73 sobre Adventure Books",
+      "de": "Frage 73 über Adventure Books",
+      "nl": "Vraag 73 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Adventure Books",
+      "es": "Pregunta 74 sobre Adventure Books",
+      "de": "Frage 74 über Adventure Books",
+      "nl": "Vraag 74 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Adventure Books",
+      "es": "Pregunta 75 sobre Adventure Books",
+      "de": "Frage 75 über Adventure Books",
+      "nl": "Vraag 75 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Adventure Books",
+      "es": "Pregunta 76 sobre Adventure Books",
+      "de": "Frage 76 über Adventure Books",
+      "nl": "Vraag 76 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Adventure Books",
+      "es": "Pregunta 77 sobre Adventure Books",
+      "de": "Frage 77 über Adventure Books",
+      "nl": "Vraag 77 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Adventure Books",
+      "es": "Pregunta 78 sobre Adventure Books",
+      "de": "Frage 78 über Adventure Books",
+      "nl": "Vraag 78 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Adventure Books",
+      "es": "Pregunta 79 sobre Adventure Books",
+      "de": "Frage 79 über Adventure Books",
+      "nl": "Vraag 79 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Adventure Books",
+      "es": "Pregunta 80 sobre Adventure Books",
+      "de": "Frage 80 über Adventure Books",
+      "nl": "Vraag 80 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Adventure Books",
+      "es": "Pregunta 81 sobre Adventure Books",
+      "de": "Frage 81 über Adventure Books",
+      "nl": "Vraag 81 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Adventure Books",
+      "es": "Pregunta 82 sobre Adventure Books",
+      "de": "Frage 82 über Adventure Books",
+      "nl": "Vraag 82 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Adventure Books",
+      "es": "Pregunta 83 sobre Adventure Books",
+      "de": "Frage 83 über Adventure Books",
+      "nl": "Vraag 83 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Adventure Books",
+      "es": "Pregunta 84 sobre Adventure Books",
+      "de": "Frage 84 über Adventure Books",
+      "nl": "Vraag 84 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Adventure Books",
+      "es": "Pregunta 85 sobre Adventure Books",
+      "de": "Frage 85 über Adventure Books",
+      "nl": "Vraag 85 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Adventure Books",
+      "es": "Pregunta 86 sobre Adventure Books",
+      "de": "Frage 86 über Adventure Books",
+      "nl": "Vraag 86 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Adventure Books",
+      "es": "Pregunta 87 sobre Adventure Books",
+      "de": "Frage 87 über Adventure Books",
+      "nl": "Vraag 87 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Adventure Books",
+      "es": "Pregunta 88 sobre Adventure Books",
+      "de": "Frage 88 über Adventure Books",
+      "nl": "Vraag 88 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Adventure Books",
+      "es": "Pregunta 89 sobre Adventure Books",
+      "de": "Frage 89 über Adventure Books",
+      "nl": "Vraag 89 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Adventure Books",
+      "es": "Pregunta 90 sobre Adventure Books",
+      "de": "Frage 90 über Adventure Books",
+      "nl": "Vraag 90 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Adventure Books",
+      "es": "Pregunta 91 sobre Adventure Books",
+      "de": "Frage 91 über Adventure Books",
+      "nl": "Vraag 91 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Adventure Books",
+      "es": "Pregunta 92 sobre Adventure Books",
+      "de": "Frage 92 über Adventure Books",
+      "nl": "Vraag 92 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Adventure Books",
+      "es": "Pregunta 93 sobre Adventure Books",
+      "de": "Frage 93 über Adventure Books",
+      "nl": "Vraag 93 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Adventure Books",
+      "es": "Pregunta 94 sobre Adventure Books",
+      "de": "Frage 94 über Adventure Books",
+      "nl": "Vraag 94 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Adventure Books",
+      "es": "Pregunta 95 sobre Adventure Books",
+      "de": "Frage 95 über Adventure Books",
+      "nl": "Vraag 95 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Adventure Books",
+      "es": "Pregunta 96 sobre Adventure Books",
+      "de": "Frage 96 über Adventure Books",
+      "nl": "Vraag 96 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Adventure Books",
+      "es": "Pregunta 97 sobre Adventure Books",
+      "de": "Frage 97 über Adventure Books",
+      "nl": "Vraag 97 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Adventure Books",
+      "es": "Pregunta 98 sobre Adventure Books",
+      "de": "Frage 98 über Adventure Books",
+      "nl": "Vraag 98 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Adventure Books",
+      "es": "Pregunta 99 sobre Adventure Books",
+      "de": "Frage 99 über Adventure Books",
+      "nl": "Vraag 99 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Adventure Books",
+      "es": "Pregunta 100 sobre Adventure Books",
+      "de": "Frage 100 über Adventure Books",
+      "nl": "Vraag 100 over Adventure Books"
+    },
+    "options": [
+      {
+        "en": "Answer A for Adventure Books",
+        "es": "Respuesta A para Adventure Books",
+        "de": "Antwort A für Adventure Books",
+        "nl": "Antwoord A voor Adventure Books"
+      },
+      {
+        "en": "Answer B for Adventure Books",
+        "es": "Respuesta B para Adventure Books",
+        "de": "Antwort B für Adventure Books",
+        "nl": "Antwoord B voor Adventure Books"
+      },
+      {
+        "en": "Answer C for Adventure Books",
+        "es": "Respuesta C para Adventure Books",
+        "de": "Antwort C für Adventure Books",
+        "nl": "Antwoord C voor Adventure Books"
+      },
+      {
+        "en": "Answer D for Adventure Books",
+        "es": "Respuesta D para Adventure Books",
+        "de": "Antwort D für Adventure Books",
+        "nl": "Antwoord D voor Adventure Books"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Adventure Books.",
+      "es": "Esta es la respuesta correcta sobre Adventure Books.",
+      "de": "Dies ist die richtige Antwort über Adventure Books.",
+      "nl": "Dit is het juiste antwoord over Adventure Books."
+    }
   }
-})();
+]
+};

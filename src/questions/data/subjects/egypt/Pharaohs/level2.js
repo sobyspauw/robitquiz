@@ -1,859 +1,4104 @@
-﻿// Pharaohs Quiz - Level 2: Advanced Knowledge
-(function() {
-  const level2 = {
-    name: {
-      en: "Pharaohs Level 2",
-      es: "Faraones Nivel 2",
-      de: "Pharaonen Stufe 2",
-      nl: "Faraos Level 2"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Pharaohs",
+      "es": "Pregunta 1 sobre Pharaohs",
+      "de": "Frage 1 über Pharaohs",
+      "nl": "Vraag 1 over Pharaohs"
     },
-    questions: [
+    "options": [
       {
-        question: {
-          en: "Which pharaoh initiated the Amarna Period by moving the capital to Akhetaten?",
-          es: "¿Qué faraón inició el Período de Amarna al mover la capital a Akhetaten?",
-          de: "Welcher Pharao initiierte die Amarna-Zeit durch den Umzug der Hauptstadt nach Akhetaten?",
-          nl: "Welke farao begon de Amarna Periode door de hoofdstad naar Akhetaten te verplaatsen?"
-        },
-        options: [
-          { en: "Akhenaten", es: "Akenatón", de: "Echnaton", nl: "Achnaton" },
-          { en: "Tutankhamun", es: "Tutankamón", de: "Tutanchamun", nl: "Toetanchamon" },
-          { en: "Ramesses II", es: "Ramsés II", de: "Ramses II", nl: "Ramses II" },
-          { en: "Thutmose III", es: "Tutmosis III", de: "Thutmosis III", nl: "Thoetmosis III" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Akhenaten (formerly Amenhotep IV) established a new capital at Akhetaten (modern Amarna) and promoted the worship of Aten, initiating one of ancient Egypt's most revolutionary periods.",
-          es: "Akenatón (anteriormente Amenhotep IV) estableció una nueva capital en Akhetaten (moderna Amarna) y promovió el culto a Atón, iniciando uno de los períodos más revolucionarios del antiguo Egipto.",
-          de: "Echnaton (früher Amenhotep IV) errichtete eine neue Hauptstadt in Akhetaten (heute Amarna) und förderte die Verehrung von Aton, was eine der revolutionärsten Perioden des alten Ägypten einleitete.",
-          nl: "Achnaton (voorheen Amenhotep IV) vestigde een nieuwe hoofdstad in Achetaton (hedendaags Amarna) en bevorderde de aanbidding van Aton, wat een van de meest revolutionaire periodes van het oude Egypte inluidde."
-        }
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
       },
       {
-        question: {
-          en: "What military achievement made Thutmose III known as Egypt's greatest warrior pharaoh?",
-          es: "¿Qué logro militar hizo que Tutmosis III fuera conocido como el faraón guerrero más grande de Egipto?",
-          de: "Welche militärische Leistung machte Thutmosis III zum größten Krieger-Pharao Ägyptens?",
-          nl: "Welke militaire prestatie maakte Thoetmosis III bekend als Egypte's grootste krijger-farao?"
-        },
-        options: [
-          { en: "17 military campaigns extending Egyptian territory to its greatest extent", es: "17 campañas militares extendiendo el territorio egipcio a su mayor extensión", de: "17 Militärkampagnen, die das ägyptische Territorium auf seine größte Ausdehnung erweiterten", nl: "17 militaire campagnes die het Egyptische territorium tot zijn grootste omvang uitbreidden" },
-          { en: "Defeating the Hittites at Kadesh", es: "Derrotar a los hititas en Kadesh", de: "Besiegung der Hethiter bei Kadesch", nl: "Het verslaan van de Hettieten bij Kadesh" },
-          { en: "Building the Great Pyramid", es: "Construir la Gran Pirámide", de: "Bau der Großen Pyramide", nl: "Het bouwen van de Grote Piramide" },
-          { en: "Unifying Upper and Lower Egypt", es: "Unificar el Alto y Bajo Egipto", de: "Vereinigung von Ober- und Unterägypten", nl: "Het verenigen van Opper- en Neder-Egypte" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Thutmose III conducted at least 17 military campaigns over 20 years, extending Egyptian influence from Nubia to the Euphrates River, earning him the title of Egypt's Napoleon.",
-          es: "Tutmosis III llevó a cabo al menos 17 campañas militares durante 20 años, extendiendo la influencia egipcia desde Nubia hasta el río Éufrates, ganándose el título del Napoleón de Egipto.",
-          de: "Thutmosis III führte mindestens 17 Militärkampagnen über 20 Jahre durch und erweiterte den ägyptischen Einfluss von Nubien bis zum Euphrat, was ihm den Titel des Napoleon Ägyptens einbrachte.",
-          nl: "Thoetmosis III voerde minstens 17 militaire campagnes uit over 20 jaar, waarbij hij de Egyptische invloed uitbreidde van Nubië tot de Eufraat, wat hem de titel van Egypte's Napoleon opleverde."
-        }
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
       },
       {
-        question: {
-          en: "Which female pharaoh ruled Egypt and commissioned extensive building projects including her mortuary temple at Deir el-Bahari?",
-          es: "¿Qué faraona gobernó Egipto y encargó extensos proyectos de construcción incluyendo su templo mortuorio en Deir el-Bahari?",
-          de: "Welche weibliche Pharaonin regierte Ägypten und beauftragte umfangreiche Bauprojekte einschließlich ihres Totentempels in Deir el-Bahari?",
-          nl: "Welke vrouwelijke farao regeerde Egypte en gaf opdracht voor uitgebreide bouwprojecten waaronder haar dodentempel in Deir el-Bahari?"
-        },
-        options: [
-          { en: "Hatshepsut", es: "Hatshepsut", de: "Hatschepsut", nl: "Hatsjepsoet" },
-          { en: "Nefertiti", es: "Nefertiti", de: "Nofretete", nl: "Nefertiti" },
-          { en: "Cleopatra VII", es: "Cleopatra VII", de: "Kleopatra VII", nl: "Cleopatra VII" },
-          { en: "Nefertari", es: "Nefertari", de: "Nefertari", nl: "Nefertari" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Hatshepsut, one of ancient Egypt's most successful pharaohs, ruled for approximately 22 years and commissioned magnificent architectural projects, most notably her mortuary temple at Deir el-Bahari.",
-          es: "Hatshepsut, una de las faraones más exitosas del antiguo Egipto, gobernó durante aproximadamente 22 años y encargó magníficos proyectos arquitectónicos, más notablemente su templo mortuorio en Deir el-Bahari.",
-          de: "Hatschepsut, eine der erfolgreichsten Pharaoninnen des alten Ägypten, regierte etwa 22 Jahre und beauftragte prächtige Architekturprojekte, insbesondere ihren Totentempel in Deir el-Bahari.",
-          nl: "Hatsjepsoet, een van de meest succesvolle farao's van het oude Egypte, regeerde ongeveer 22 jaar en gaf opdracht voor prachtige architectonische projecten, met name haar dodentempel in Deir el-Bahari."
-        }
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
       },
       {
-        question: {
-          en: "What was significant about Khufu's reign during the 4th Dynasty?",
-          es: "¿Qué fue significativo sobre el reinado de Keops durante la Dinastía IV?",
-          de: "Was war bedeutend an Chufus Herrschaft während der 4. Dynastie?",
-          nl: "Wat was significant aan Khufu's regering tijdens de 4e Dynastie?"
-        },
-        options: [
-          { en: "He built the Great Pyramid of Giza, the largest pyramid ever constructed", es: "Construyó la Gran Pirámide de Giza, la pirámide más grande jamás construida", de: "Er baute die Große Pyramide von Gizeh, die größte jemals errichtete Pyramide", nl: "Hij bouwde de Grote Piramide van Gizeh, de grootste piramide ooit gebouwd" },
-          { en: "He introduced monotheism to Egypt", es: "Introdujo el monoteísmo en Egipto", de: "Er führte den Monotheismus in Ägypten ein", nl: "Hij introduceerde het monotheïsme in Egypte" },
-          { en: "He defeated the Sea Peoples", es: "Derrotó a los Pueblos del Mar", de: "Er besiegte die Seevölker", nl: "Hij versloeg de Zeevolken" },
-          { en: "He established the first dynasty", es: "Estableció la primera dinastía", de: "Er gründete die erste Dynastie", nl: "Hij vestigde de eerste dynastie" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Khufu (Cheops) commissioned the Great Pyramid of Giza, the largest of the three pyramids on the Giza plateau and one of the Seven Wonders of the Ancient World.",
-          es: "Keops encargó la Gran Pirámide de Giza, la más grande de las tres pirámides en la meseta de Giza y una de las Siete Maravillas del Mundo Antiguo.",
-          de: "Chufu (Cheops) beauftragte die Große Pyramide von Gizeh, die größte der drei Pyramiden auf dem Gizeh-Plateau und eines der Sieben Weltwunder der Antike.",
-          nl: "Khufu (Cheops) gaf opdracht voor de Grote Piramide van Gizeh, de grootste van de drie piramides op het Gizeh-plateau en een van de Zeven Wereldwonderen van de Oude Wereld."
-        }
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Pharaohs",
+      "es": "Pregunta 2 sobre Pharaohs",
+      "de": "Frage 2 über Pharaohs",
+      "nl": "Vraag 2 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
       },
       {
-        question: {
-          en: "Which pharaoh signed the first recorded peace treaty in history with the Hittite Empire?",
-          es: "¿Qué faraón firmó el primer tratado de paz registrado en la historia con el Imperio hitita?",
-          de: "Welcher Pharao unterzeichnete den ersten aufgezeichneten Friedensvertrag der Geschichte mit dem Hethiterreich?",
-          nl: "Welke farao ondertekende het eerste geregistreerde vredesverdrag in de geschiedenis met het Hettitische Rijk?"
-        },
-        options: [
-          { en: "Ramesses II", es: "Ramsés II", de: "Ramses II", nl: "Ramses II" },
-          { en: "Seti I", es: "Seti I", de: "Sethos I", nl: "Seti I" },
-          { en: "Merneptah", es: "Merneptah", de: "Merenptah", nl: "Merenptah" },
-          { en: "Amenhotep III", es: "Amenhotep III", de: "Amenophis III", nl: "Amenhotep III" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Ramesses II signed the Egyptian-Hittite peace treaty around 1259 BCE following the Battle of Kadesh, establishing one of the earliest known diplomatic agreements in recorded history.",
-          es: "Ramsés II firmó el tratado de paz egipcio-hitita alrededor de 1259 a.C. después de la Batalla de Kadesh, estableciendo uno de los acuerdos diplomáticos más antiguos conocidos en la historia registrada.",
-          de: "Ramses II unterzeichnete den ägyptisch-hethitischen Friedensvertrag um 1259 v. Chr. nach der Schlacht von Kadesch und etablierte eines der frühesten bekannten diplomatischen Abkommen der aufgezeichneten Geschichte.",
-          nl: "Ramses II ondertekende het Egyptisch-Hettitische vredesverdrag rond 1259 v.Chr. na de Slag bij Kadesh, wat een van de vroegst bekende diplomatieke overeenkomsten in de geregistreerde geschiedenis vestigde."
-        }
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
       },
       {
-        question: {
-          en: "What was Sneferu's major contribution to pyramid construction during the Old Kingdom?",
-          es: "¿Cuál fue la mayor contribución de Snefru a la construcción de pirámides durante el Reino Antiguo?",
-          de: "Was war Snofrus wichtigster Beitrag zum Pyramidenbau während des Alten Reiches?",
-          nl: "Wat was Snofroe's belangrijkste bijdrage aan piramide constructie tijdens het Oude Rijk?"
-        },
-        options: [
-          { en: "He built three pyramids and perfected the true pyramid shape", es: "Construyó tres pirámides y perfeccionó la forma de pirámide verdadera", de: "Er baute drei Pyramiden und perfektionierte die wahre Pyramidenform", nl: "Hij bouwde drie piramides en perfectioneerde de echte piramide vorm" },
-          { en: "He invented hieroglyphic writing", es: "Inventó la escritura jeroglífica", de: "Er erfand die Hieroglyphenschrift", nl: "Hij vond de hiërogliefen schrift uit" },
-          { en: "He established the Valley of the Kings", es: "Estableció el Valle de los Reyes", de: "Er gründete das Tal der Könige", nl: "Hij vestigde de Vallei der Koningen" },
-          { en: "He built the Sphinx", es: "Construyó la Esfinge", de: "Er baute die Sphinx", nl: "Hij bouwde de Sfinx" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Sneferu built three pyramids (Medium, Bent, and Red Pyramids) and is credited with perfecting the smooth-sided true pyramid design that became the standard for subsequent pyramids.",
-          es: "Snefru construyó tres pirámides (Meidum, Acodada y Roja) y se le atribuye la perfección del diseño de pirámide verdadera de lados lisos que se convirtió en el estándar para pirámides posteriores.",
-          de: "Snofru baute drei Pyramiden (Meidum, Knick- und Rote Pyramide) und wird mit der Perfektionierung des glattseitigen echten Pyramidendesigns kreditiert, das zum Standard für nachfolgende Pyramiden wurde.",
-          nl: "Snofroe bouwde drie piramides (Meidum, Geknikte en Rode Piramides) en wordt gecrediteerd met het perfectioneren van het gladde echte piramide ontwerp dat de standaard werd voor volgende piramides."
-        }
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
       },
       {
-        question: {
-          en: "Which pharaoh's tomb discovery in 1922 provided unprecedented insights into royal burial practices?",
-          es: "¿El descubrimiento de la tumba de qué faraón en 1922 proporcionó conocimientos sin precedentes sobre las prácticas de entierro real?",
-          de: "Welche Pharaonengrabentdeckung von 1922 lieferte beispiellose Einblicke in königliche Bestattungspraktiken?",
-          nl: "Welke farao's graf ontdekking in 1922 leverde ongekende inzichten in koninklijke begrafenispraktijken?"
-        },
-        options: [
-          { en: "Tutankhamun", es: "Tutankamón", de: "Tutanchamun", nl: "Toetanchamon" },
-          { en: "Ramesses II", es: "Ramsés II", de: "Ramses II", nl: "Ramses II" },
-          { en: "Khufu", es: "Keops", de: "Chufu", nl: "Khufu" },
-          { en: "Seti I", es: "Seti I", de: "Sethos I", nl: "Seti I" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Howard Carter's discovery of Tutankhamun's nearly intact tomb in the Valley of the Kings revealed thousands of artifacts and provided invaluable information about New Kingdom burial practices and treasures.",
-          es: "El descubrimiento de Howard Carter de la tumba casi intacta de Tutankamón en el Valle de los Reyes reveló miles de artefactos y proporcionó información invaluable sobre las prácticas de entierro del Reino Nuevo.",
-          de: "Howard Carters Entdeckung von Tutanchamuns nahezu intaktem Grab im Tal der Könige enthüllte Tausende von Artefakten und lieferte unschätzbare Informationen über Bestattungspraktiken des Neuen Reiches.",
-          nl: "Howard Carter's ontdekking van Toetanchamons bijna intacte graf in de Vallei der Koningen onthulde duizenden artefacten en leverde onschatbare informatie over Nieuw Rijk begrafenispraktijken."
-        }
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Pharaohs",
+      "es": "Pregunta 3 sobre Pharaohs",
+      "de": "Frage 3 über Pharaohs",
+      "nl": "Vraag 3 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
       },
       {
-        question: {
-          en: "What religious reform did Akhenaten introduce that was later reversed?",
-          es: "¿Qué reforma religiosa introdujo Akenatón que fue posteriormente revertida?",
-          de: "Welche religiöse Reform führte Echnaton ein, die später rückgängig gemacht wurde?",
-          nl: "Welke religieuze hervorming introduceerde Achnaton die later werd teruggedraaid?"
-        },
-        options: [
-          { en: "Worship of Aten as the sole deity (monotheism)", es: "Adoración de Atón como única deidad (monoteísmo)", de: "Verehrung von Aton als einziger Gottheit (Monotheismus)", nl: "Aanbidding van Aton als enige godheid (monotheïsme)" },
-          { en: "Building pyramids instead of temples", es: "Construir pirámides en lugar de templos", de: "Bau von Pyramiden statt Tempeln", nl: "Piramides bouwen in plaats van tempels" },
-          { en: "Abolishing mummification", es: "Abolir la momificación", de: "Abschaffung der Mumifizierung", nl: "Afschaffing van mummificatie" },
-          { en: "Banning hieroglyphic writing", es: "Prohibir la escritura jeroglífica", de: "Verbot der Hieroglyphenschrift", nl: "Verbod op hiërogliefen schrift" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Akhenaten promoted Aten as the sole god, suppressing traditional polytheistic worship. After his death, his successors, including Tutankhamun, restored the traditional Egyptian pantheon.",
-          es: "Akenatón promovió a Atón como el único dios, suprimiendo el culto politeísta tradicional. Después de su muerte, sus sucesores, incluyendo Tutankamón, restauraron el panteón egipcio tradicional.",
-          de: "Echnaton förderte Aton als einzigen Gott und unterdrückte die traditionelle polytheistische Verehrung. Nach seinem Tod stellten seine Nachfolger, einschließlich Tutanchamun, das traditionelle ägyptische Pantheon wieder her.",
-          nl: "Achnaton bevorderde Aton als enige god, waarbij hij traditionele polytheïstische aanbidding onderdrukte. Na zijn dood herstelden zijn opvolgers, waaronder Toetanchamon, het traditionele Egyptische pantheon."
-        }
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
       },
       {
-        question: {
-          en: "Which pharaoh's reign marked the beginning of the New Kingdom?",
-          es: "¿El reinado de qué faraón marcó el comienzo del Reino Nuevo?",
-          de: "Welche Pharaonenherrschaft markierte den Beginn des Neuen Reiches?",
-          nl: "Welke farao's regering markeerde het begin van het Nieuwe Rijk?"
-        },
-        options: [
-          { en: "Ahmose I", es: "Ahmose I", de: "Ahmose I", nl: "Ahmose I" },
-          { en: "Narmer", es: "Narmer", de: "Narmer", nl: "Narmer" },
-          { en: "Mentuhotep II", es: "Mentuhotep II", de: "Mentuhotep II", nl: "Mentoehotep II" },
-          { en: "Psamtik I", es: "Psamético I", de: "Psammetich I", nl: "Psamtik I" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Ahmose I expelled the Hyksos from Egypt and reunified the country, establishing the 18th Dynasty and beginning the New Kingdom period (c. 1550 BCE).",
-          es: "Ahmose I expulsó a los hicsos de Egipto y reunificó el país, estableciendo la Dinastía XVIII y comenzando el período del Reino Nuevo (c. 1550 a.C.).",
-          de: "Ahmose I vertrieb die Hyksos aus Ägypten und vereinte das Land wieder, gründete die 18. Dynastie und begann die Zeit des Neuen Reiches (ca. 1550 v. Chr.).",
-          nl: "Ahmose I verdreef de Hyksos uit Egypte en herenigde het land, waarbij hij de 18e Dynastie vestigde en de Nieuwe Rijk periode begon (ca. 1550 v.Chr.)."
-        }
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
       },
       {
-        question: {
-          en: "What was Seti I's major military accomplishment?",
-          es: "¿Cuál fue el mayor logro militar de Seti I?",
-          de: "Was war Sethos I. größte militärische Leistung?",
-          nl: "Wat was Seti I's belangrijkste militaire prestatie?"
-        },
-        options: [
-          { en: "Reconquering territories in Canaan and Syria lost during the Amarna Period", es: "Reconquistar territorios en Canaán y Siria perdidos durante el Período de Amarna", de: "Rückeroberung von Gebieten in Kanaan und Syrien, die während der Amarna-Zeit verloren gingen", nl: "Herovering van gebieden in Kanaän en Syrië verloren tijdens de Amarna Periode" },
-          { en: "Building the Great Pyramid", es: "Construir la Gran Pirámide", de: "Bau der Großen Pyramide", nl: "Bouwen van de Grote Piramide" },
-          { en: "Defeating Alexander the Great", es: "Derrotar a Alejandro Magno", de: "Besiegung Alexanders des Großen", nl: "Het verslaan van Alexander de Grote" },
-          { en: "Unifying Upper and Lower Egypt", es: "Unificar el Alto y Bajo Egipto", de: "Vereinigung von Ober- und Unterägypten", nl: "Verenigen van Opper- en Neder-Egypte" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Seti I conducted successful military campaigns to restore Egyptian control over Canaan and Syria, territories that had been neglected or lost during Akhenaten's religious reforms.",
-          es: "Seti I llevó a cabo campañas militares exitosas para restaurar el control egipcio sobre Canaán y Siria, territorios que habían sido descuidados o perdidos durante las reformas religiosas de Akenatón.",
-          de: "Sethos I führte erfolgreiche Militärkampagnen durch, um die ägyptische Kontrolle über Kanaan und Syrien wiederherzustellen, Gebiete, die während Echnatons religiösen Reformen vernachlässigt oder verloren worden waren.",
-          nl: "Seti I voerde succesvolle militaire campagnes uit om Egyptische controle over Kanaän en Syrië te herstellen, gebieden die waren verwaarloosd of verloren tijdens Achnatons religieuze hervormingen."
-        }
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Pharaohs",
+      "es": "Pregunta 4 sobre Pharaohs",
+      "de": "Frage 4 über Pharaohs",
+      "nl": "Vraag 4 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
       },
       {
-        question: {
-          en: "Which pharaoh built the famous temple complex at Abu Simbel?",
-          es: "¿Qué faraón construyó el famoso complejo de templos en Abu Simbel?",
-          de: "Welcher Pharao baute den berühmten Tempelkomplex in Abu Simbel?",
-          nl: "Welke farao bouwde het beroemde tempelcomplex in Aboe Simbel?"
-        },
-        options: [
-          { en: "Ramesses II", es: "Ramsés II", de: "Ramses II", nl: "Ramses II" },
-          { en: "Amenhotep III", es: "Amenhotep III", de: "Amenophis III", nl: "Amenhotep III" },
-          { en: "Hatshepsut", es: "Hatshepsut", de: "Hatschepsut", nl: "Hatsjepsoet" },
-          { en: "Pepi II", es: "Pepi II", de: "Pepi II", nl: "Pepi II" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Ramesses II built the magnificent rock-cut temples at Abu Simbel in Nubia, featuring colossal statues of himself and dedicated to various gods, including one temple for his wife Nefertari.",
-          es: "Ramsés II construyó los magníficos templos tallados en roca en Abu Simbel en Nubia, con estatuas colosales de sí mismo y dedicados a varios dioses, incluyendo un templo para su esposa Nefertari.",
-          de: "Ramses II baute die prächtigen Felsentempel in Abu Simbel in Nubien mit kolossalen Statuen von sich selbst und verschiedenen Göttern gewidmet, einschließlich eines Tempels für seine Frau Nefertari.",
-          nl: "Ramses II bouwde de prachtige in rots gehouwen tempels in Aboe Simbel in Nubië, met kolossale standbeelden van zichzelf en gewijd aan verschillende goden, waaronder een tempel voor zijn vrouw Nefertari."
-        }
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
       },
       {
-        question: {
-          en: "What innovation is attributed to the pharaoh Djoser?",
-          es: "¿Qué innovación se atribuye al faraón Djoser?",
-          de: "Welche Innovation wird dem Pharao Djoser zugeschrieben?",
-          nl: "Welke innovatie wordt toegeschreven aan farao Djoser?"
-        },
-        options: [
-          { en: "Building the first pyramid (Step Pyramid)", es: "Construir la primera pirámide (Pirámide Escalonada)", de: "Bau der ersten Pyramide (Stufenpyramide)", nl: "Bouwen van de eerste piramide (Trappiramide)" },
-          { en: "Inventing the solar calendar", es: "Inventar el calendario solar", de: "Erfindung des Sonnenkalenders", nl: "Uitvinden van de zonnekalender" },
-          { en: "Creating the first navy", es: "Crear la primera armada", de: "Schaffung der ersten Marine", nl: "Creëren van de eerste marine" },
-          { en: "Establishing democracy", es: "Establecer la democracia", de: "Einführung der Demokratie", nl: "Vestigen van democratie" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Djoser, with his architect Imhotep, built the Step Pyramid at Saqqara, the first monumental stone building and pyramid in Egypt, revolutionizing royal tomb architecture.",
-          es: "Djoser, con su arquitecto Imhotep, construyó la Pirámide Escalonada en Saqqara, el primer edificio de piedra monumental y pirámide en Egipto, revolucionando la arquitectura de tumbas reales.",
-          de: "Djoser baute mit seinem Architekten Imhotep die Stufenpyramide in Sakkara, das erste monumentale Steingebäude und die erste Pyramide in Ägypten, was die königliche Grabarchitektur revolutionierte.",
-          nl: "Djoser bouwde met zijn architect Imhotep de Trappiramide in Saqqara, het eerste monumentale stenen gebouw en piramide in Egypte, wat de koninklijke graf architectuur revolutioneerde."
-        }
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
       },
       {
-        question: {
-          en: "Which pharaoh's mummy shows evidence of dying in battle, possibly against the Sea Peoples?",
-          es: "¿La momia de qué faraón muestra evidencia de morir en batalla, posiblemente contra los Pueblos del Mar?",
-          de: "Welche Pharaonenmumie zeigt Hinweise darauf, in der Schlacht gestorben zu sein, möglicherweise gegen die Seevölker?",
-          nl: "Welke farao's mummie toont bewijs van sterven in de strijd, mogelijk tegen de Zeevolken?"
-        },
-        options: [
-          { en: "Seqenenre Tao", es: "Seqenenra Tao", de: "Seqenenre Tao", nl: "Seqenenre Tao" },
-          { en: "Ramesses III", es: "Ramsés III", de: "Ramses III", nl: "Ramses III" },
-          { en: "Tutankhamun", es: "Tutankamón", de: "Tutanchamun", nl: "Toetanchamon" },
-          { en: "Khufu", es: "Keops", de: "Chufu", nl: "Khufu" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Seqenenre Tao's mummy shows severe head wounds consistent with battle injuries, suggesting he died fighting the Hyksos during Egypt's struggle for independence from foreign rule.",
-          es: "La momia de Seqenenra Tao muestra heridas graves en la cabeza consistentes con lesiones de batalla, sugiriendo que murió luchando contra los hicsos durante la lucha de Egipto por la independencia del dominio extranjero.",
-          de: "Seqenenre Taos Mumie zeigt schwere Kopfwunden, die mit Kampfverletzungen übereinstimmen, was darauf hindeutet, dass er im Kampf gegen die Hyksos während Ägyptens Kampf um Unabhängigkeit von fremder Herrschaft starb.",
-          nl: "Seqenenre Tao's mummie toont ernstige hoofdwonden consistent met gevechts verwondingen, wat suggereert dat hij stierf tijdens het vechten tegen de Hyksos tijdens Egypte's strijd voor onafhankelijkheid van buitenlandse heerschappij."
-        }
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Pharaohs",
+      "es": "Pregunta 5 sobre Pharaohs",
+      "de": "Frage 5 über Pharaohs",
+      "nl": "Vraag 5 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
       },
       {
-        question: {
-          en: "What distinguishes Amenhotep III's reign in the 18th Dynasty?",
-          es: "¿Qué distingue el reinado de Amenhotep III en la Dinastía XVIII?",
-          de: "Was zeichnet Amenophis III. Herrschaft in der 18. Dynastie aus?",
-          nl: "Wat onderscheidt Amenhotep III's regering in de 18e Dynastie?"
-        },
-        options: [
-          { en: "A period of unprecedented prosperity, diplomacy, and monumental building", es: "Un período de prosperidad, diplomacia y construcción monumental sin precedentes", de: "Eine Zeit beispiellosen Wohlstands, Diplomatie und monumentalen Bauens", nl: "Een periode van ongekende welvaart, diplomatie en monumentale bouw" },
-          { en: "Introduction of iron weapons", es: "Introducción de armas de hierro", de: "Einführung von Eisenwaffen", nl: "Introductie van ijzeren wapens" },
-          { en: "Conquest of Greece", es: "Conquista de Grecia", de: "Eroberung Griechenlands", nl: "Verovering van Griekenland" },
-          { en: "Abolition of slavery", es: "Abolición de la esclavitud", de: "Abschaffung der Sklaverei", nl: "Afschaffing van slavernij" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Amenhotep III's 38-year reign was marked by peace, prosperity, and extensive diplomatic relations. He commissioned hundreds of buildings, statues, and stelae, more than any other pharaoh.",
-          es: "El reinado de 38 años de Amenhotep III estuvo marcado por la paz, prosperidad y extensas relaciones diplomáticas. Encargó cientos de edificios, estatuas y estelas, más que cualquier otro faraón.",
-          de: "Amenophis III. 38-jährige Herrschaft war geprägt von Frieden, Wohlstand und umfangreichen diplomatischen Beziehungen. Er beauftragte Hunderte von Gebäuden, Statuen und Stelen, mehr als jeder andere Pharao.",
-          nl: "Amenhotep III's 38-jarige regering werd gekenmerkt door vrede, welvaart en uitgebreide diplomatieke relaties. Hij gaf opdracht voor honderden gebouwen, standbeelden en stèles, meer dan welke andere farao ook."
-        }
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
       },
       {
-        question: {
-          en: "Which pharaoh successfully defended Egypt against the Sea Peoples invasion?",
-          es: "¿Qué faraón defendió con éxito a Egipto contra la invasión de los Pueblos del Mar?",
-          de: "Welcher Pharao verteidigte Ägypten erfolgreich gegen die Invasion der Seevölker?",
-          nl: "Welke farao verdedigde Egypte succesvol tegen de invasie van de Zeevolken?"
-        },
-        options: [
-          { en: "Ramesses III", es: "Ramsés III", de: "Ramses III", nl: "Ramses III" },
-          { en: "Akhenaten", es: "Akenatón", de: "Echnaton", nl: "Achnaton" },
-          { en: "Tutankhamun", es: "Tutankamón", de: "Tutanchamun", nl: "Toetanchamon" },
-          { en: "Khufu", es: "Keops", de: "Chufu", nl: "Khufu" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Ramesses III successfully repelled multiple invasions by the Sea Peoples around 1175 BCE, as recorded in detailed reliefs at his mortuary temple at Medinet Habu.",
-          es: "Ramsés III repelió con éxito múltiples invasiones de los Pueblos del Mar alrededor de 1175 a.C., como se registra en relieves detallados en su templo mortuorio en Medinet Habu.",
-          de: "Ramses III wehrte um 1175 v. Chr. erfolgreich mehrere Invasionen der Seevölker ab, wie in detaillierten Reliefs in seinem Totentempel in Medinet Habu festgehalten.",
-          nl: "Ramses III weerstond succesvol meerdere invasies van de Zeevolken rond 1175 v.Chr., zoals vastgelegd in gedetailleerde reliëfs in zijn dodentempel in Medinet Haboe."
-        }
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
       },
       {
-        question: {
-          en: "What was significant about Mentuhotep II's achievement?",
-          es: "¿Qué fue significativo sobre el logro de Mentuhotep II?",
-          de: "Was war bedeutend an Mentuhotep II. Leistung?",
-          nl: "Wat was significant aan Mentoehotep II's prestatie?"
-        },
-        options: [
-          { en: "He reunified Egypt after the First Intermediate Period, starting the Middle Kingdom", es: "Reunificó Egipto después del Primer Período Intermedio, iniciando el Reino Medio", de: "Er vereinte Ägypten nach der Ersten Zwischenzeit wieder und begann das Mittlere Reich", nl: "Hij herenigde Egypte na de Eerste Tussenperiode, wat het Middenrijk begon" },
-          { en: "He built the Great Sphinx", es: "Construyó la Gran Esfinge", de: "Er baute die Große Sphinx", nl: "Hij bouwde de Grote Sfinx" },
-          { en: "He invented papyrus paper", es: "Inventó el papel de papiro", de: "Er erfand Papyruspapier", nl: "Hij vond papyrus papier uit" },
-          { en: "He conquered Mesopotamia", es: "Conquistó Mesopotamia", de: "Er eroberte Mesopotamien", nl: "Hij veroverde Mesopotamië" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Mentuhotep II reunified Upper and Lower Egypt after decades of division during the First Intermediate Period, establishing the 11th Dynasty and beginning the Middle Kingdom around 2055 BCE.",
-          es: "Mentuhotep II reunificó el Alto y Bajo Egipto después de décadas de división durante el Primer Período Intermedio, estableciendo la Dinastía XI y comenzando el Reino Medio alrededor de 2055 a.C.",
-          de: "Mentuhotep II vereinte Ober- und Unterägypten nach Jahrzehnten der Teilung während der Ersten Zwischenzeit wieder, gründete die 11. Dynastie und begann das Mittlere Reich um 2055 v. Chr.",
-          nl: "Mentoehotep II herenigde Opper- en Neder-Egypte na decennia van verdeeldheid tijdens de Eerste Tussenperiode, waarbij hij de 11e Dynastie vestigde en het Middenrijk begon rond 2055 v.Chr."
-        }
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Pharaohs",
+      "es": "Pregunta 6 sobre Pharaohs",
+      "de": "Frage 6 über Pharaohs",
+      "nl": "Vraag 6 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
       },
       {
-        question: {
-          en: "Which pharaoh is known for the extensive diplomatic correspondence found in the Amarna Letters?",
-          es: "¿Qué faraón es conocido por la extensa correspondencia diplomática encontrada en las Cartas de Amarna?",
-          de: "Welcher Pharao ist bekannt für die umfangreiche diplomatische Korrespondenz in den Amarna-Briefen?",
-          nl: "Welke farao is bekend om de uitgebreide diplomatieke correspondentie gevonden in de Amarna Brieven?"
-        },
-        options: [
-          { en: "Akhenaten and Amenhotep III", es: "Akenatón y Amenhotep III", de: "Echnaton und Amenophis III", nl: "Achnaton en Amenhotep III" },
-          { en: "Ramesses II and Seti I", es: "Ramsés II y Seti I", de: "Ramses II und Sethos I", nl: "Ramses II en Seti I" },
-          { en: "Khufu and Khafre", es: "Keops y Kefrén", de: "Chufu und Chephren", nl: "Khufu en Chefren" },
-          { en: "Narmer and Menes", es: "Narmer y Menes", de: "Narmer und Menes", nl: "Narmer en Menes" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Amarna Letters are a collection of diplomatic correspondence primarily from the reigns of Amenhotep III and Akhenaten, revealing extensive international relations with Near Eastern kingdoms.",
-          es: "Las Cartas de Amarna son una colección de correspondencia diplomática principalmente de los reinados de Amenhotep III y Akenatón, revelando extensas relaciones internacionales con reinos del Cercano Oriente.",
-          de: "Die Amarna-Briefe sind eine Sammlung diplomatischer Korrespondenz hauptsächlich aus den Herrschaftszeiten von Amenophis III und Echnaton, die umfangreiche internationale Beziehungen mit nahöstlichen Königreichen offenbaren.",
-          nl: "De Amarna Brieven zijn een verzameling van diplomatieke correspondentie voornamelijk uit de regeringen van Amenhotep III en Achnaton, die uitgebreide internationale relaties met Nabije Oosten koninkrijken onthullen."
-        }
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
       },
       {
-        question: {
-          en: "What architectural legacy did Ramesses II leave behind?",
-          es: "¿Qué legado arquitectónico dejó Ramsés II?",
-          de: "Welches architektonische Erbe hinterließ Ramses II?",
-          nl: "Welke architectonische erfenis liet Ramses II achter?"
-        },
-        options: [
-          { en: "More temples, statues, and monuments than any other pharaoh", es: "Más templos, estatuas y monumentos que cualquier otro faraón", de: "Mehr Tempel, Statuen und Denkmäler als jeder andere Pharao", nl: "Meer tempels, standbeelden en monumenten dan welke andere farao ook" },
-          { en: "The first use of bronze in construction", es: "El primer uso de bronce en construcción", de: "Die erste Verwendung von Bronze im Bauwesen", nl: "Het eerste gebruik van brons in de bouw" },
-          { en: "The invention of the arch", es: "La invención del arco", de: "Die Erfindung des Bogens", nl: "De uitvinding van de boog" },
-          { en: "Creating the first library", es: "Crear la primera biblioteca", de: "Schaffung der ersten Bibliothek", nl: "Creëren van de eerste bibliotheek" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Ramesses II's 66-year reign produced an unprecedented building program including the Ramesseum, Abu Simbel, expansions to Karnak and Luxor temples, and numerous colossal statues throughout Egypt.",
-          es: "El reinado de 66 años de Ramsés II produjo un programa de construcción sin precedentes incluyendo el Ramesseum, Abu Simbel, expansiones a los templos de Karnak y Luxor, y numerosas estatuas colosales por todo Egipto.",
-          de: "Ramses II. 66-jährige Herrschaft brachte ein beispielloses Bauprogramm hervor, einschließlich des Ramesseum, Abu Simbel, Erweiterungen der Tempel von Karnak und Luxor und zahlreicher kolossaler Statuen in ganz Ägypten.",
-          nl: "Ramses II's 66-jarige regering produceerde een ongekend bouwprogramma inclusief het Ramesseum, Aboe Simbel, uitbreidingen van Karnak en Luxor tempels, en talrijke kolossale standbeelden door heel Egypte."
-        }
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
       },
       {
-        question: {
-          en: "Which pharaoh's name was later used as a generic title for all Egyptian kings in the Bible?",
-          es: "¿El nombre de qué faraón se usó más tarde como título genérico para todos los reyes egipcios en la Biblia?",
-          de: "Welches Pharaonennamens wurde später als generischer Titel für alle ägyptischen Könige in der Bibel verwendet?",
-          nl: "Welke farao's naam werd later gebruikt als generieke titel voor alle Egyptische koningen in de Bijbel?"
-        },
-        options: [
-          { en: "Pharaoh (from Per-aa, meaning 'Great House')", es: "Faraón (de Per-aa, que significa 'Gran Casa')", de: "Pharao (von Per-aa, bedeutet 'Großes Haus')", nl: "Farao (van Per-aa, wat 'Groot Huis' betekent)" },
-          { en: "Ramesses", es: "Ramsés", de: "Ramses", nl: "Ramses" },
-          { en: "Tutankhamun", es: "Tutankamón", de: "Tutanchamun", nl: "Toetanchamon" },
-          { en: "Khufu", es: "Keops", de: "Chufu", nl: "Khufu" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The term 'Pharaoh' derives from the Egyptian 'Per-aa' (Great House), originally referring to the royal palace but eventually becoming the standard title for Egyptian kings, as used in biblical texts.",
-          es: "El término 'Faraón' deriva del egipcio 'Per-aa' (Gran Casa), originalmente refiriéndose al palacio real pero eventualmente convirtiéndose en el título estándar para los reyes egipcios, como se usa en textos bíblicos.",
-          de: "Der Begriff 'Pharao' leitet sich vom ägyptischen 'Per-aa' (Großes Haus) ab, ursprünglich bezog er sich auf den königlichen Palast, wurde aber schließlich zum Standardtitel für ägyptische Könige, wie in biblischen Texten verwendet.",
-          nl: "De term 'Farao' is afgeleid van het Egyptische 'Per-aa' (Groot Huis), oorspronkelijk verwijzend naar het koninklijk paleis maar uiteindelijk de standaard titel voor Egyptische koningen geworden, zoals gebruikt in bijbelse teksten."
-        }
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Pharaohs",
+      "es": "Pregunta 7 sobre Pharaohs",
+      "de": "Frage 7 über Pharaohs",
+      "nl": "Vraag 7 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
       },
       {
-        question: {
-          en: "What made Pepi II's reign historically notable?",
-          es: "¿Qué hizo que el reinado de Pepi II fuera históricamente notable?",
-          de: "Was machte Pepi II. Herrschaft historisch bemerkenswert?",
-          nl: "Wat maakte Pepi II's regering historisch opmerkelijk?"
-        },
-        options: [
-          { en: "He had the longest documented reign in history, ruling for approximately 94 yrs", es: "Tuvo el reinado documentado más largo de la historia, gobernando durante aproximadamente 94 años", de: "Er hatte die längste dokumentierte Herrschaft der Geschichte und regierte etwa 94 Jahre", nl: "Hij had de langst gedocumenteerde regering in de geschiedenis, regerend voor ongeveer 94 jaar" },
-          { en: "He built the tallest pyramid", es: "Construyó la pirámide más alta", de: "Er baute die höchste Pyramide", nl: "Hij bouwde de hoogste piramide" },
-          { en: "He conquered all of Africa", es: "Conquistó toda África", de: "Er eroberte ganz Afrika", nl: "Hij veroverde heel Afrika" },
-          { en: "He invented writing", es: "Inventó la escritura", de: "Er erfand die Schrift", nl: "Hij vond het schrift uit" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Pepi II reportedly ruled for 94 years (though some scholars suggest 64 years), making it one of the longest reigns in history. His extremely long reign may have contributed to the weakening of central authority.",
-          es: "Se informa que Pepi II gobernó durante 94 años (aunque algunos eruditos sugieren 64 años), convirtiéndolo en uno de los reinados más largos de la historia. Su reinado extremadamente largo puede haber contribuido al debilitamiento de la autoridad central.",
-          de: "Pepi II regierte angeblich 94 Jahre (obwohl einige Gelehrte 64 Jahre vermuten), was es zu einer der längsten Herrschaften der Geschichte macht. Seine extrem lange Herrschaft könnte zur Schwächung der Zentralgewalt beigetragen haben.",
-          nl: "Pepi II regeerde naar verluidt 94 jaar (hoewel sommige geleerden 64 jaar suggereren), wat het een van de langste regeringen in de geschiedenis maakt. Zijn extreem lange regering kan hebben bijgedragen aan de verzwakking van het centrale gezag."
-        }    },
-    {
-      question: {
-        en: "What does 'pharaoh' mean?",
-        es: "What does 'pharaoh' mean?",
-        de: "What does 'pharaoh' mean?",
-        nl: "What does 'pharaoh' mean?"
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
       },
-      options: [
-        { en: "Great house", es: "Great house", de: "Great house", nl: "Great house" },
-        { en: "God king", es: "God king", de: "God king", nl: "God king" },
-        { en: "Supreme ruler", es: "Supreme ruler", de: "Supreme ruler", nl: "Supreme ruler" },
-        { en: "Royal palace", es: "Royal palace", de: "Royal palace", nl: "Royal palace" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Pharaoh derives from 'per-aa' meaning 'great house', referring to the royal palace.",
-        es: "Pharaoh derives from 'per-aa' meaning 'great house', referring to the royal palace.",
-        de: "Pharaoh derives from 'per-aa' meaning 'great house', referring to the royal palace.",
-        nl: "Pharaoh derives from 'per-aa' meaning 'great house', referring to the royal palace."
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Pharaohs",
+      "es": "Pregunta 8 sobre Pharaohs",
+      "de": "Frage 8 über Pharaohs",
+      "nl": "Vraag 8 over Pharaohs"
     },
-    {
-      question: {
-        en: "Who was the first pharaoh to unite Egypt?",
-        es: "Who was the first pharaoh to unite Egypt?",
-        de: "Who was the first pharaoh to unite Egypt?",
-        nl: "Who was the first pharaoh to unite Egypt?"
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
       },
-      options: [
-        { en: "Narmer (or Menes)", es: "Narmer (or Menes)", de: "Narmer (or Menes)", nl: "Narmer (or Menes)" },
-        { en: "Khufu", es: "Khufu", de: "Khufu", nl: "Khufu" },
-        { en: "Tutankhamun", es: "Tutankhamun", de: "Tutankhamun", nl: "Tutankhamun" },
-        { en: "Ramesses", es: "Ramesses", de: "Ramesses", nl: "Ramesses" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Narmer (possibly same as Menes) united Upper and Lower Egypt around 3100 BCE.",
-        es: "Narmer (possibly same as Menes) united Upper and Lower Egypt around 3100 BCE.",
-        de: "Narmer (possibly same as Menes) united Upper and Lower Egypt around 3100 BCE.",
-        nl: "Narmer (possibly same as Menes) united Upper and Lower Egypt around 3100 BCE."
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Pharaohs",
+      "es": "Pregunta 9 sobre Pharaohs",
+      "de": "Frage 9 über Pharaohs",
+      "nl": "Vraag 9 over Pharaohs"
     },
-    {
-      question: {
-        en: "What pharaoh built the Great Pyramid?",
-        es: "What pharaoh built the Great Pyramid?",
-        de: "What pharaoh built the Great Pyramid?",
-        nl: "What pharaoh built the Great Pyramid?"
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
       },
-      options: [
-        { en: "Khufu (Cheops)", es: "Khufu (Cheops)", de: "Khufu (Cheops)", nl: "Khufu (Cheops)" },
-        { en: "Khafre", es: "Khafre", de: "Khafre", nl: "Khafre" },
-        { en: "Menkaure", es: "Menkaure", de: "Menkaure", nl: "Menkaure" },
-        { en: "Sneferu", es: "Sneferu", de: "Sneferu", nl: "Sneferu" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Pharaoh Khufu built the Great Pyramid of Giza during the Old Kingdom.",
-        es: "Pharaoh Khufu built the Great Pyramid of Giza during the Old Kingdom.",
-        de: "Pharaoh Khufu built the Great Pyramid of Giza during the Old Kingdom.",
-        nl: "Pharaoh Khufu built the Great Pyramid of Giza during the Old Kingdom."
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Pharaohs",
+      "es": "Pregunta 10 sobre Pharaohs",
+      "de": "Frage 10 über Pharaohs",
+      "nl": "Vraag 10 over Pharaohs"
     },
-    {
-      question: {
-        en: "Which pharaoh was the boy king?",
-        es: "Which pharaoh was the boy king?",
-        de: "Which pharaoh was the boy king?",
-        nl: "Which pharaoh was the boy king?"
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
       },
-      options: [
-        { en: "Tutankhamun", es: "Tutankhamun", de: "Tutankhamun", nl: "Tutankhamun" },
-        { en: "Ramesses II", es: "Ramesses II", de: "Ramesses II", nl: "Ramesses II" },
-        { en: "Akhenaten", es: "Akhenaten", de: "Akhenaten", nl: "Akhenaten" },
-        { en: "Thutmose III", es: "Thutmose III", de: "Thutmose III", nl: "Thutmose III" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Tutankhamun became pharaoh at about 9 years old and died around age 19.",
-        es: "Tutankhamun became pharaoh at about 9 years old and died around age 19.",
-        de: "Tutankhamun became pharaoh at about 9 years old and died around age 19.",
-        nl: "Tutankhamun became pharaoh at about 9 years old and died around age 19."
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Pharaohs",
+      "es": "Pregunta 11 sobre Pharaohs",
+      "de": "Frage 11 über Pharaohs",
+      "nl": "Vraag 11 over Pharaohs"
     },
-    {
-      question: {
-        en: "Who was Egypt's first female pharaoh?",
-        es: "Who was Egypt's first female pharaoh?",
-        de: "Who was Egypt's first female pharaoh?",
-        nl: "Who was Egypt's first female pharaoh?"
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
       },
-      options: [
-        { en: "Hatshepsut", es: "Hatshepsut", de: "Hatshepsut", nl: "Hatshepsut" },
-        { en: "Cleopatra", es: "Cleopatra", de: "Cleopatra", nl: "Cleopatra" },
-        { en: "Nefertiti", es: "Nefertiti", de: "Nefertiti", nl: "Nefertiti" },
-        { en: "Sobekneferu", es: "Sobekneferu", de: "Sobekneferu", nl: "Sobekneferu" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Hatshepsut ruled as pharaoh (not just queen) during the New Kingdom.",
-        es: "Hatshepsut ruled as pharaoh (not just queen) during the New Kingdom.",
-        de: "Hatshepsut ruled as pharaoh (not just queen) during the New Kingdom.",
-        nl: "Hatshepsut ruled as pharaoh (not just queen) during the New Kingdom."
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Pharaohs",
+      "es": "Pregunta 12 sobre Pharaohs",
+      "de": "Frage 12 über Pharaohs",
+      "nl": "Vraag 12 over Pharaohs"
     },
-    {
-      question: {
-        en: "What pharaoh built Abu Simbel?",
-        es: "What pharaoh built Abu Simbel?",
-        de: "What pharaoh built Abu Simbel?",
-        nl: "What pharaoh built Abu Simbel?"
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
       },
-      options: [
-        { en: "Ramesses II", es: "Ramesses II", de: "Ramesses II", nl: "Ramesses II" },
-        { en: "Khufu", es: "Khufu", de: "Khufu", nl: "Khufu" },
-        { en: "Tutankhamun", es: "Tutankhamun", de: "Tutankhamun", nl: "Tutankhamun" },
-        { en: "Akhenaten", es: "Akhenaten", de: "Akhenaten", nl: "Akhenaten" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Ramesses II built the massive rock temples at Abu Simbel.",
-        es: "Ramesses II built the massive rock temples at Abu Simbel.",
-        de: "Ramesses II built the massive rock temples at Abu Simbel.",
-        nl: "Ramesses II built the massive rock temples at Abu Simbel."
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Pharaohs",
+      "es": "Pregunta 13 sobre Pharaohs",
+      "de": "Frage 13 über Pharaohs",
+      "nl": "Vraag 13 over Pharaohs"
     },
-    {
-      question: {
-        en: "Which pharaoh introduced monotheism?",
-        es: "Which pharaoh introduced monotheism?",
-        de: "Which pharaoh introduced monotheism?",
-        nl: "Which pharaoh introduced monotheism?"
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
       },
-      options: [
-        { en: "Akhenaten", es: "Akhenaten", de: "Akhenaten", nl: "Akhenaten" },
-        { en: "Tutankhamun", es: "Tutankhamun", de: "Tutankhamun", nl: "Tutankhamun" },
-        { en: "Ramesses II", es: "Ramesses II", de: "Ramesses II", nl: "Ramesses II" },
-        { en: "Thutmose III", es: "Thutmose III", de: "Thutmose III", nl: "Thutmose III" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Akhenaten attempted to establish monotheistic worship of Aten.",
-        es: "Akhenaten attempted to establish monotheistic worship of Aten.",
-        de: "Akhenaten attempted to establish monotheistic worship of Aten.",
-        nl: "Akhenaten attempted to establish monotheistic worship of Aten."
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Pharaohs",
+      "es": "Pregunta 14 sobre Pharaohs",
+      "de": "Frage 14 über Pharaohs",
+      "nl": "Vraag 14 over Pharaohs"
     },
-    {
-      question: {
-        en: "What was the double crown called?",
-        es: "What was the double crown called?",
-        de: "What was the double crown called?",
-        nl: "What was the double crown called?"
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
       },
-      options: [
-        { en: "Pschent", es: "Pschent", de: "Pschent", nl: "Pschent" },
-        { en: "Hedjet", es: "Hedjet", de: "Hedjet", nl: "Hedjet" },
-        { en: "Deshret", es: "Deshret", de: "Deshret", nl: "Deshret" },
-        { en: "Khepresh", es: "Khepresh", de: "Khepresh", nl: "Khepresh" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "The Pschent was the double crown combining red and white crowns of Upper and Lower Egypt.",
-        es: "The Pschent was the double crown combining red and white crowns of Upper and Lower Egypt.",
-        de: "The Pschent was the double crown combining red and white crowns of Upper and Lower Egypt.",
-        nl: "The Pschent was the double crown combining red and white crowns of Upper and Lower Egypt."
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Pharaohs",
+      "es": "Pregunta 15 sobre Pharaohs",
+      "de": "Frage 15 über Pharaohs",
+      "nl": "Vraag 15 over Pharaohs"
     },
-    {
-      question: {
-        en: "Who was known as 'Ramesses the Great'?",
-        es: "Who was known as 'Ramesses the Great'?",
-        de: "Who was known as 'Ramesses the Great'?",
-        nl: "Who was known as 'Ramesses the Great'?"
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
       },
-      options: [
-        { en: "Ramesses II", es: "Ramesses II", de: "Ramesses II", nl: "Ramesses II" },
-        { en: "Ramesses I", es: "Ramesses I", de: "Ramesses I", nl: "Ramesses I" },
-        { en: "Ramesses III", es: "Ramesses III", de: "Ramesses III", nl: "Ramesses III" },
-        { en: "Ramesses IV", es: "Ramesses IV", de: "Ramesses IV", nl: "Ramesses IV" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Ramesses II earned the epithet 'the Great' for his long reign and building projects.",
-        es: "Ramesses II earned the epithet 'the Great' for his long reign and building projects.",
-        de: "Ramesses II earned the epithet 'the Great' for his long reign and building projects.",
-        nl: "Ramesses II earned the epithet 'the Great' for his long reign and building projects."
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Pharaohs",
+      "es": "Pregunta 16 sobre Pharaohs",
+      "de": "Frage 16 über Pharaohs",
+      "nl": "Vraag 16 over Pharaohs"
     },
-    {
-      question: {
-        en: "What pharaoh's tomb was found intact?",
-        es: "What pharaoh's tomb was found intact?",
-        de: "What pharaoh's tomb was found intact?",
-        nl: "What pharaoh's tomb was found intact?"
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
       },
-      options: [
-        { en: "Tutankhamun", es: "Tutankhamun", de: "Tutankhamun", nl: "Tutankhamun" },
-        { en: "Ramesses II", es: "Ramesses II", de: "Ramesses II", nl: "Ramesses II" },
-        { en: "Khufu", es: "Khufu", de: "Khufu", nl: "Khufu" },
-        { en: "Hatshepsut", es: "Hatshepsut", de: "Hatshepsut", nl: "Hatshepsut" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Tutankhamun's tomb, discovered by Howard Carter in 1922, was found largely intact.",
-        es: "Tutankhamun's tomb, discovered by Howard Carter in 1922, was found largely intact.",
-        de: "Tutankhamun's tomb, discovered by Howard Carter in 1922, was found largely intact.",
-        nl: "Tutankhamun's tomb, discovered by Howard Carter in 1922, was found largely intact."
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Pharaohs",
+      "es": "Pregunta 17 sobre Pharaohs",
+      "de": "Frage 17 über Pharaohs",
+      "nl": "Vraag 17 over Pharaohs"
     },
-    {
-      question: {
-        en: "How long did Ramesses II reign?",
-        es: "How long did Ramesses II reign?",
-        de: "How long did Ramesses II reign?",
-        nl: "How long did Ramesses II reign?"
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
       },
-      options: [
-        { en: "66 years", es: "66 years", de: "66 years", nl: "66 years" },
-        { en: "20 years", es: "20 years", de: "20 years", nl: "20 years" },
-        { en: "40 years", es: "40 years", de: "40 years", nl: "40 years" },
-        { en: "10 years", es: "10 years", de: "10 years", nl: "10 years" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Ramesses II reigned for an exceptionally long 66 years.",
-        es: "Ramesses II reigned for an exceptionally long 66 years.",
-        de: "Ramesses II reigned for an exceptionally long 66 years.",
-        nl: "Ramesses II reigned for an exceptionally long 66 years."
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Pharaohs",
+      "es": "Pregunta 18 sobre Pharaohs",
+      "de": "Frage 18 über Pharaohs",
+      "nl": "Vraag 18 over Pharaohs"
     },
-    {
-      question: {
-        en: "What was the crook and flail?",
-        es: "What was the crook and flail?",
-        de: "What was the crook and flail?",
-        nl: "What was the crook and flail?"
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
       },
-      options: [
-        { en: "Royal regalia symbols", es: "Royal regalia symbols", de: "Royal regalia symbols", nl: "Royal regalia symbols" },
-        { en: "Farming tools", es: "Farming tools", de: "Farming tools", nl: "Farming tools" },
-        { en: "Weapons", es: "Weapons", de: "Weapons", nl: "Weapons" },
-        { en: "Religious offerings", es: "Religious offerings", de: "Religious offerings", nl: "Religious offerings" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "The crook and flail were symbols of pharaonic authority and rulership.",
-        es: "The crook and flail were symbols of pharaonic authority and rulership.",
-        de: "The crook and flail were symbols of pharaonic authority and rulership.",
-        nl: "The crook and flail were symbols of pharaonic authority and rulership."
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Pharaohs",
+      "es": "Pregunta 19 sobre Pharaohs",
+      "de": "Frage 19 über Pharaohs",
+      "nl": "Vraag 19 over Pharaohs"
     },
-    {
-      question: {
-        en: "Who expanded Egypt's empire the most?",
-        es: "Who expanded Egypt's empire the most?",
-        de: "Who expanded Egypt's empire the most?",
-        nl: "Who expanded Egypt's empire the most?"
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
       },
-      options: [
-        { en: "Thutmose III", es: "Thutmose III", de: "Thutmose III", nl: "Thutmose III" },
-        { en: "Ramesses II", es: "Ramesses II", de: "Ramesses II", nl: "Ramesses II" },
-        { en: "Akhenaten", es: "Akhenaten", de: "Akhenaten", nl: "Akhenaten" },
-        { en: "Tutankhamun", es: "Tutankhamun", de: "Tutankhamun", nl: "Tutankhamun" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Thutmose III is considered Egypt's greatest military pharaoh, expanding the empire significantly.",
-        es: "Thutmose III is considered Egypt's greatest military pharaoh, expanding the empire significantly.",
-        de: "Thutmose III is considered Egypt's greatest military pharaoh, expanding the empire significantly.",
-        nl: "Thutmose III is considered Egypt's greatest military pharaoh, expanding the empire significantly."
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Pharaohs",
+      "es": "Pregunta 20 sobre Pharaohs",
+      "de": "Frage 20 über Pharaohs",
+      "nl": "Vraag 20 over Pharaohs"
     },
-    {
-      question: {
-        en: "What dynasty was Tutankhamun from?",
-        es: "What dynasty was Tutankhamun from?",
-        de: "What dynasty was Tutankhamun from?",
-        nl: "What dynasty was Tutankhamun from?"
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
       },
-      options: [
-        { en: "18th Dynasty", es: "18th Dynasty", de: "18th Dynasty", nl: "18th Dynasty" },
-        { en: "4th Dynasty", es: "4th Dynasty", de: "4th Dynasty", nl: "4th Dynasty" },
-        { en: "12th Dynasty", es: "12th Dynasty", de: "12th Dynasty", nl: "12th Dynasty" },
-        { en: "19th Dynasty", es: "19th Dynasty", de: "19th Dynasty", nl: "19th Dynasty" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Tutankhamun ruled during the 18th Dynasty of the New Kingdom.",
-        es: "Tutankhamun ruled during the 18th Dynasty of the New Kingdom.",
-        de: "Tutankhamun ruled during the 18th Dynasty of the New Kingdom.",
-        nl: "Tutankhamun ruled during the 18th Dynasty of the New Kingdom."
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Pharaohs",
+      "es": "Pregunta 21 sobre Pharaohs",
+      "de": "Frage 21 über Pharaohs",
+      "nl": "Vraag 21 over Pharaohs"
     },
-    {
-      question: {
-        en: "What false beard did pharaohs wear?",
-        es: "What false beard did pharaohs wear?",
-        de: "What false beard did pharaohs wear?",
-        nl: "What false beard did pharaohs wear?"
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
       },
-      options: [
-        { en: "Ceremonial postiche beard", es: "Ceremonial postiche beard", de: "Ceremonial postiche beard", nl: "Ceremonial postiche beard" },
-        { en: "Natural beard", es: "Natural beard", de: "Natural beard", nl: "Natural beard" },
-        { en: "No beard", es: "No beard", de: "No beard", nl: "No beard" },
-        { en: "Animal fur beard", es: "Animal fur beard", de: "Animal fur beard", nl: "Animal fur beard" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Pharaohs wore a ceremonial false beard called a postiche as symbol of divine authority.",
-        es: "Pharaohs wore a ceremonial false beard called a postiche as symbol of divine authority.",
-        de: "Pharaohs wore a ceremonial false beard called a postiche as symbol of divine authority.",
-        nl: "Pharaohs wore a ceremonial false beard called a postiche as symbol of divine authority."
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Pharaohs",
+      "es": "Pregunta 22 sobre Pharaohs",
+      "de": "Frage 22 über Pharaohs",
+      "nl": "Vraag 22 over Pharaohs"
     },
-    {
-      question: {
-        en: "Who was Akhenaten's wife?",
-        es: "Who was Akhenaten's wife?",
-        de: "Who was Akhenaten's wife?",
-        nl: "Who was Akhenaten's wife?"
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
       },
-      options: [
-        { en: "Nefertiti", es: "Nefertiti", de: "Nefertiti", nl: "Nefertiti" },
-        { en: "Cleopatra", es: "Cleopatra", de: "Cleopatra", nl: "Cleopatra" },
-        { en: "Hatshepsut", es: "Hatshepsut", de: "Hatshepsut", nl: "Hatshepsut" },
-        { en: "Ankhesenamun", es: "Ankhesenamun", de: "Ankhesenamun", nl: "Ankhesenamun" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Queen Nefertiti was Akhenaten's Great Royal Wife.",
-        es: "Queen Nefertiti was Akhenaten's Great Royal Wife.",
-        de: "Queen Nefertiti was Akhenaten's Great Royal Wife.",
-        nl: "Queen Nefertiti was Akhenaten's Great Royal Wife."
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Pharaohs",
+      "es": "Pregunta 23 sobre Pharaohs",
+      "de": "Frage 23 über Pharaohs",
+      "nl": "Vraag 23 over Pharaohs"
     },
-    {
-      question: {
-        en: "What pharaoh built the Step Pyramid?",
-        es: "What pharaoh built the Step Pyramid?",
-        de: "What pharaoh built the Step Pyramid?",
-        nl: "What pharaoh built the Step Pyramid?"
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
       },
-      options: [
-        { en: "Djoser", es: "Djoser", de: "Djoser", nl: "Djoser" },
-        { en: "Khufu", es: "Khufu", de: "Khufu", nl: "Khufu" },
-        { en: "Sneferu", es: "Sneferu", de: "Sneferu", nl: "Sneferu" },
-        { en: "Menkaure", es: "Menkaure", de: "Menkaure", nl: "Menkaure" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Djoser built the Step Pyramid at Saqqara, Egypt's first pyramid.",
-        es: "Djoser built the Step Pyramid at Saqqara, Egypt's first pyramid.",
-        de: "Djoser built the Step Pyramid at Saqqara, Egypt's first pyramid.",
-        nl: "Djoser built the Step Pyramid at Saqqara, Egypt's first pyramid."
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Pharaohs",
+      "es": "Pregunta 24 sobre Pharaohs",
+      "de": "Frage 24 über Pharaohs",
+      "nl": "Vraag 24 over Pharaohs"
     },
-    {
-      question: {
-        en: "How were pharaohs viewed?",
-        es: "How were pharaohs viewed?",
-        de: "How were pharaohs viewed?",
-        nl: "How were pharaohs viewed?"
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
       },
-      options: [
-        { en: "As living gods", es: "As living gods", de: "As living gods", nl: "As living gods" },
-        { en: "As ordinary kings", es: "As ordinary kings", de: "As ordinary kings", nl: "As ordinary kings" },
-        { en: "As priests", es: "As priests", de: "As priests", nl: "As priests" },
-        { en: "As military leaders only", es: "As military leaders only", de: "As military leaders only", nl: "As military leaders only" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Pharaohs were considered living gods, intermediaries between gods and people.",
-        es: "Pharaohs were considered living gods, intermediaries between gods and people.",
-        de: "Pharaohs were considered living gods, intermediaries between gods and people.",
-        nl: "Pharaohs were considered living gods, intermediaries between gods and people."
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Pharaohs",
+      "es": "Pregunta 25 sobre Pharaohs",
+      "de": "Frage 25 über Pharaohs",
+      "nl": "Vraag 25 over Pharaohs"
     },
-    {
-      question: {
-        en: "What was a pharaoh's soul called?",
-        es: "What was a pharaoh's soul called?",
-        de: "What was a pharaoh's soul called?",
-        nl: "What was a pharaoh's soul called?"
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
       },
-      options: [
-        { en: "Ka", es: "Ka", de: "Ka", nl: "Ka" },
-        { en: "Ba", es: "Ba", de: "Ba", nl: "Ba" },
-        { en: "Akh", es: "Akh", de: "Akh", nl: "Akh" },
-        { en: "Ib", es: "Ib", de: "Ib", nl: "Ib" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "The ka was one part of the soul, the life force that lived on after death.",
-        es: "The ka was one part of the soul, the life force that lived on after death.",
-        de: "The ka was one part of the soul, the life force that lived on after death.",
-        nl: "The ka was one part of the soul, the life force that lived on after death."
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Pharaohs",
+      "es": "Pregunta 26 sobre Pharaohs",
+      "de": "Frage 26 über Pharaohs",
+      "nl": "Vraag 26 over Pharaohs"
     },
-    {
-      question: {
-        en: "Which pharaoh fought the Hittites?",
-        es: "Which pharaoh fought the Hittites?",
-        de: "Which pharaoh fought the Hittites?",
-        nl: "Which pharaoh fought the Hittites?"
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
       },
-      options: [
-        { en: "Ramesses II", es: "Ramesses II", de: "Ramesses II", nl: "Ramesses II" },
-        { en: "Thutmose III", es: "Thutmose III", de: "Thutmose III", nl: "Thutmose III" },
-        { en: "Akhenaten", es: "Akhenaten", de: "Akhenaten", nl: "Akhenaten" },
-        { en: "Tutankhamun", es: "Tutankhamun", de: "Tutankhamun", nl: "Tutankhamun" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Ramesses II fought the famous Battle of Kadesh against the Hittites.",
-        es: "Ramesses II fought the famous Battle of Kadesh against the Hittites.",
-        de: "Ramesses II fought the famous Battle of Kadesh against the Hittites.",
-        nl: "Ramesses II fought the famous Battle of Kadesh against the Hittites."
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
       }
-
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Pharaohs",
+      "es": "Pregunta 27 sobre Pharaohs",
+      "de": "Frage 27 über Pharaohs",
+      "nl": "Vraag 27 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level2;
-  } else if (typeof window !== 'undefined') {
-    window.level2 = level2;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Pharaohs",
+      "es": "Pregunta 28 sobre Pharaohs",
+      "de": "Frage 28 über Pharaohs",
+      "nl": "Vraag 28 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Pharaohs",
+      "es": "Pregunta 29 sobre Pharaohs",
+      "de": "Frage 29 über Pharaohs",
+      "nl": "Vraag 29 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Pharaohs",
+      "es": "Pregunta 30 sobre Pharaohs",
+      "de": "Frage 30 über Pharaohs",
+      "nl": "Vraag 30 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Pharaohs",
+      "es": "Pregunta 31 sobre Pharaohs",
+      "de": "Frage 31 über Pharaohs",
+      "nl": "Vraag 31 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Pharaohs",
+      "es": "Pregunta 32 sobre Pharaohs",
+      "de": "Frage 32 über Pharaohs",
+      "nl": "Vraag 32 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Pharaohs",
+      "es": "Pregunta 33 sobre Pharaohs",
+      "de": "Frage 33 über Pharaohs",
+      "nl": "Vraag 33 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Pharaohs",
+      "es": "Pregunta 34 sobre Pharaohs",
+      "de": "Frage 34 über Pharaohs",
+      "nl": "Vraag 34 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Pharaohs",
+      "es": "Pregunta 35 sobre Pharaohs",
+      "de": "Frage 35 über Pharaohs",
+      "nl": "Vraag 35 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Pharaohs",
+      "es": "Pregunta 36 sobre Pharaohs",
+      "de": "Frage 36 über Pharaohs",
+      "nl": "Vraag 36 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Pharaohs",
+      "es": "Pregunta 37 sobre Pharaohs",
+      "de": "Frage 37 über Pharaohs",
+      "nl": "Vraag 37 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Pharaohs",
+      "es": "Pregunta 38 sobre Pharaohs",
+      "de": "Frage 38 über Pharaohs",
+      "nl": "Vraag 38 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Pharaohs",
+      "es": "Pregunta 39 sobre Pharaohs",
+      "de": "Frage 39 über Pharaohs",
+      "nl": "Vraag 39 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Pharaohs",
+      "es": "Pregunta 40 sobre Pharaohs",
+      "de": "Frage 40 über Pharaohs",
+      "nl": "Vraag 40 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Pharaohs",
+      "es": "Pregunta 41 sobre Pharaohs",
+      "de": "Frage 41 über Pharaohs",
+      "nl": "Vraag 41 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Pharaohs",
+      "es": "Pregunta 42 sobre Pharaohs",
+      "de": "Frage 42 über Pharaohs",
+      "nl": "Vraag 42 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Pharaohs",
+      "es": "Pregunta 43 sobre Pharaohs",
+      "de": "Frage 43 über Pharaohs",
+      "nl": "Vraag 43 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Pharaohs",
+      "es": "Pregunta 44 sobre Pharaohs",
+      "de": "Frage 44 über Pharaohs",
+      "nl": "Vraag 44 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Pharaohs",
+      "es": "Pregunta 45 sobre Pharaohs",
+      "de": "Frage 45 über Pharaohs",
+      "nl": "Vraag 45 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Pharaohs",
+      "es": "Pregunta 46 sobre Pharaohs",
+      "de": "Frage 46 über Pharaohs",
+      "nl": "Vraag 46 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Pharaohs",
+      "es": "Pregunta 47 sobre Pharaohs",
+      "de": "Frage 47 über Pharaohs",
+      "nl": "Vraag 47 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Pharaohs",
+      "es": "Pregunta 48 sobre Pharaohs",
+      "de": "Frage 48 über Pharaohs",
+      "nl": "Vraag 48 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Pharaohs",
+      "es": "Pregunta 49 sobre Pharaohs",
+      "de": "Frage 49 über Pharaohs",
+      "nl": "Vraag 49 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Pharaohs",
+      "es": "Pregunta 50 sobre Pharaohs",
+      "de": "Frage 50 über Pharaohs",
+      "nl": "Vraag 50 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Pharaohs",
+      "es": "Pregunta 51 sobre Pharaohs",
+      "de": "Frage 51 über Pharaohs",
+      "nl": "Vraag 51 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Pharaohs",
+      "es": "Pregunta 52 sobre Pharaohs",
+      "de": "Frage 52 über Pharaohs",
+      "nl": "Vraag 52 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Pharaohs",
+      "es": "Pregunta 53 sobre Pharaohs",
+      "de": "Frage 53 über Pharaohs",
+      "nl": "Vraag 53 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Pharaohs",
+      "es": "Pregunta 54 sobre Pharaohs",
+      "de": "Frage 54 über Pharaohs",
+      "nl": "Vraag 54 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Pharaohs",
+      "es": "Pregunta 55 sobre Pharaohs",
+      "de": "Frage 55 über Pharaohs",
+      "nl": "Vraag 55 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Pharaohs",
+      "es": "Pregunta 56 sobre Pharaohs",
+      "de": "Frage 56 über Pharaohs",
+      "nl": "Vraag 56 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Pharaohs",
+      "es": "Pregunta 57 sobre Pharaohs",
+      "de": "Frage 57 über Pharaohs",
+      "nl": "Vraag 57 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Pharaohs",
+      "es": "Pregunta 58 sobre Pharaohs",
+      "de": "Frage 58 über Pharaohs",
+      "nl": "Vraag 58 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Pharaohs",
+      "es": "Pregunta 59 sobre Pharaohs",
+      "de": "Frage 59 über Pharaohs",
+      "nl": "Vraag 59 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Pharaohs",
+      "es": "Pregunta 60 sobre Pharaohs",
+      "de": "Frage 60 über Pharaohs",
+      "nl": "Vraag 60 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Pharaohs",
+      "es": "Pregunta 61 sobre Pharaohs",
+      "de": "Frage 61 über Pharaohs",
+      "nl": "Vraag 61 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Pharaohs",
+      "es": "Pregunta 62 sobre Pharaohs",
+      "de": "Frage 62 über Pharaohs",
+      "nl": "Vraag 62 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Pharaohs",
+      "es": "Pregunta 63 sobre Pharaohs",
+      "de": "Frage 63 über Pharaohs",
+      "nl": "Vraag 63 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Pharaohs",
+      "es": "Pregunta 64 sobre Pharaohs",
+      "de": "Frage 64 über Pharaohs",
+      "nl": "Vraag 64 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Pharaohs",
+      "es": "Pregunta 65 sobre Pharaohs",
+      "de": "Frage 65 über Pharaohs",
+      "nl": "Vraag 65 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Pharaohs",
+      "es": "Pregunta 66 sobre Pharaohs",
+      "de": "Frage 66 über Pharaohs",
+      "nl": "Vraag 66 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Pharaohs",
+      "es": "Pregunta 67 sobre Pharaohs",
+      "de": "Frage 67 über Pharaohs",
+      "nl": "Vraag 67 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Pharaohs",
+      "es": "Pregunta 68 sobre Pharaohs",
+      "de": "Frage 68 über Pharaohs",
+      "nl": "Vraag 68 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Pharaohs",
+      "es": "Pregunta 69 sobre Pharaohs",
+      "de": "Frage 69 über Pharaohs",
+      "nl": "Vraag 69 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Pharaohs",
+      "es": "Pregunta 70 sobre Pharaohs",
+      "de": "Frage 70 über Pharaohs",
+      "nl": "Vraag 70 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Pharaohs",
+      "es": "Pregunta 71 sobre Pharaohs",
+      "de": "Frage 71 über Pharaohs",
+      "nl": "Vraag 71 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Pharaohs",
+      "es": "Pregunta 72 sobre Pharaohs",
+      "de": "Frage 72 über Pharaohs",
+      "nl": "Vraag 72 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Pharaohs",
+      "es": "Pregunta 73 sobre Pharaohs",
+      "de": "Frage 73 über Pharaohs",
+      "nl": "Vraag 73 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Pharaohs",
+      "es": "Pregunta 74 sobre Pharaohs",
+      "de": "Frage 74 über Pharaohs",
+      "nl": "Vraag 74 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Pharaohs",
+      "es": "Pregunta 75 sobre Pharaohs",
+      "de": "Frage 75 über Pharaohs",
+      "nl": "Vraag 75 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Pharaohs",
+      "es": "Pregunta 76 sobre Pharaohs",
+      "de": "Frage 76 über Pharaohs",
+      "nl": "Vraag 76 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Pharaohs",
+      "es": "Pregunta 77 sobre Pharaohs",
+      "de": "Frage 77 über Pharaohs",
+      "nl": "Vraag 77 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Pharaohs",
+      "es": "Pregunta 78 sobre Pharaohs",
+      "de": "Frage 78 über Pharaohs",
+      "nl": "Vraag 78 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Pharaohs",
+      "es": "Pregunta 79 sobre Pharaohs",
+      "de": "Frage 79 über Pharaohs",
+      "nl": "Vraag 79 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Pharaohs",
+      "es": "Pregunta 80 sobre Pharaohs",
+      "de": "Frage 80 über Pharaohs",
+      "nl": "Vraag 80 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Pharaohs",
+      "es": "Pregunta 81 sobre Pharaohs",
+      "de": "Frage 81 über Pharaohs",
+      "nl": "Vraag 81 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Pharaohs",
+      "es": "Pregunta 82 sobre Pharaohs",
+      "de": "Frage 82 über Pharaohs",
+      "nl": "Vraag 82 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Pharaohs",
+      "es": "Pregunta 83 sobre Pharaohs",
+      "de": "Frage 83 über Pharaohs",
+      "nl": "Vraag 83 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Pharaohs",
+      "es": "Pregunta 84 sobre Pharaohs",
+      "de": "Frage 84 über Pharaohs",
+      "nl": "Vraag 84 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Pharaohs",
+      "es": "Pregunta 85 sobre Pharaohs",
+      "de": "Frage 85 über Pharaohs",
+      "nl": "Vraag 85 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Pharaohs",
+      "es": "Pregunta 86 sobre Pharaohs",
+      "de": "Frage 86 über Pharaohs",
+      "nl": "Vraag 86 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Pharaohs",
+      "es": "Pregunta 87 sobre Pharaohs",
+      "de": "Frage 87 über Pharaohs",
+      "nl": "Vraag 87 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Pharaohs",
+      "es": "Pregunta 88 sobre Pharaohs",
+      "de": "Frage 88 über Pharaohs",
+      "nl": "Vraag 88 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Pharaohs",
+      "es": "Pregunta 89 sobre Pharaohs",
+      "de": "Frage 89 über Pharaohs",
+      "nl": "Vraag 89 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Pharaohs",
+      "es": "Pregunta 90 sobre Pharaohs",
+      "de": "Frage 90 über Pharaohs",
+      "nl": "Vraag 90 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Pharaohs",
+      "es": "Pregunta 91 sobre Pharaohs",
+      "de": "Frage 91 über Pharaohs",
+      "nl": "Vraag 91 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Pharaohs",
+      "es": "Pregunta 92 sobre Pharaohs",
+      "de": "Frage 92 über Pharaohs",
+      "nl": "Vraag 92 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Pharaohs",
+      "es": "Pregunta 93 sobre Pharaohs",
+      "de": "Frage 93 über Pharaohs",
+      "nl": "Vraag 93 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Pharaohs",
+      "es": "Pregunta 94 sobre Pharaohs",
+      "de": "Frage 94 über Pharaohs",
+      "nl": "Vraag 94 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Pharaohs",
+      "es": "Pregunta 95 sobre Pharaohs",
+      "de": "Frage 95 über Pharaohs",
+      "nl": "Vraag 95 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Pharaohs",
+      "es": "Pregunta 96 sobre Pharaohs",
+      "de": "Frage 96 über Pharaohs",
+      "nl": "Vraag 96 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Pharaohs",
+      "es": "Pregunta 97 sobre Pharaohs",
+      "de": "Frage 97 über Pharaohs",
+      "nl": "Vraag 97 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Pharaohs",
+      "es": "Pregunta 98 sobre Pharaohs",
+      "de": "Frage 98 über Pharaohs",
+      "nl": "Vraag 98 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Pharaohs",
+      "es": "Pregunta 99 sobre Pharaohs",
+      "de": "Frage 99 über Pharaohs",
+      "nl": "Vraag 99 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Pharaohs",
+      "es": "Pregunta 100 sobre Pharaohs",
+      "de": "Frage 100 über Pharaohs",
+      "nl": "Vraag 100 over Pharaohs"
+    },
+    "options": [
+      {
+        "en": "Answer A for Pharaohs",
+        "es": "Respuesta A para Pharaohs",
+        "de": "Antwort A für Pharaohs",
+        "nl": "Antwoord A voor Pharaohs"
+      },
+      {
+        "en": "Answer B for Pharaohs",
+        "es": "Respuesta B para Pharaohs",
+        "de": "Antwort B für Pharaohs",
+        "nl": "Antwoord B voor Pharaohs"
+      },
+      {
+        "en": "Answer C for Pharaohs",
+        "es": "Respuesta C para Pharaohs",
+        "de": "Antwort C für Pharaohs",
+        "nl": "Antwoord C voor Pharaohs"
+      },
+      {
+        "en": "Answer D for Pharaohs",
+        "es": "Respuesta D para Pharaohs",
+        "de": "Antwort D für Pharaohs",
+        "nl": "Antwoord D voor Pharaohs"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Pharaohs.",
+      "es": "Esta es la respuesta correcta sobre Pharaohs.",
+      "de": "Dies ist die richtige Antwort über Pharaohs.",
+      "nl": "Dit is het juiste antwoord over Pharaohs."
+    }
   }
-})();
+]
+};

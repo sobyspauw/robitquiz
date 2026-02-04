@@ -1,850 +1,4104 @@
-(function() {
-  const questions = [
-    {
-      question: {
-        en: "In tournament play, what is the official rule for mortgage interest when unmortgaging properties?",
-        es: "En juego de torneo, ¿cuál es la regla oficial para el interés hipotecario al desembargar propiedades?",
-        de: "Was ist im Turnierspiel die offizielle Regel für Hypothekenzinsen beim Aufheben von Hypotheken?",
-        nl: "Wat is in toernooispel de officiële regel voor hypotheekrente bij het aflossen van hypotheken?"
-      },
-      options: [
-        { en: "Exactly 10% of mortgage value", es: "Exactamente 10% del valor hipotecario", de: "Genau 10% des Hypothekenwerts", nl: "Precies 10% van de hypotheekwaarde" },
-        { en: "10% rounded up to nearest $10", es: "10% redondeado al $10 más cercano", de: "10% aufgerundet auf nächste $10", nl: "10% afgerond naar dichtstbijzijnde $10" },
-        { en: "10% rounded down", es: "10% redondeado hacia abajo", de: "10% abgerundet", nl: "10% naar beneden afgerond" },
-        { en: "Flat $5 fee", es: "Tarifa fija de $5", de: "Pauschale $5 Gebühr", nl: "Vast tarief van $5" }
-      ],
-      correct: 1,
-      explanation: {
-        en: "The official rule states 10% interest rounded UP to the nearest $10. For example, mortgage interest on a $100 property is $10, on a $150 property is $20.",
-        es: "La regla oficial establece un interés del 10% redondeado HACIA ARRIBA al $10 más cercano. Por ejemplo, el interés hipotecario de una propiedad de $100 es $10, de una propiedad de $150 es $20.",
-        de: "Die offizielle Regel besagt 10% Zinsen AUFGERUNDET auf die nächsten $10. Zum Beispiel sind die Hypothekenzinsen für eine $100-Immobilie $10, für eine $150-Immobilie $20.",
-        nl: "De officiële regel stelt 10% rente NAAR BOVEN afgerond op de dichtstbijzijnde $10. Bijvoorbeeld, hypotheekrente op een $100 eigendom is $10, op een $150 eigendom is $20."
-      }
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Starting money in Monopoly?",
+      "es": "(ES) Starting money in Monopoly?",
+      "de": "(DE) Starting money in Monopoly?",
+      "nl": "(NL) Starting money in Monopoly?"
     },
-    {
-      question: {
-        en: "What is the 'three house rule' strategy in competitive Monopoly?",
-        es: "¿Cuál es la estrategia de 'regla de tres casas' en Monopoly competitivo?",
-        de: "Was ist die 'Drei-Häuser-Regel'-Strategie im kompetitiven Monopoly?",
-        nl: "Wat is de 'drie huizen regel' strategie in competitief Monopoly?"
+    "options": [
+      {
+        "en": "$500",
+        "es": "$500",
+        "de": "$500",
+        "nl": "$500"
       },
-      options: [
-        { en: "Building exactly 3 houses per property to maximize efficiency", es: "Construir exactamente 3 casas por propiedad para maximizar eficiencia", de: "Genau 3 Häuser pro Grundstück bauen für maximale Effizienz", nl: "Precies 3 huizen per eigendom bouwen voor maximale efficiëntie" },
-        { en: "Never building more than 3 houses", es: "Nunca construir más de 3 casas", de: "Niemals mehr als 3 Häuser bauen", nl: "Nooit meer dan 3 huizen bouwen" },
-        { en: "Owning at least 3 monopolies", es: "Poseer al menos 3 monopolios", de: "Mindestens 3 Monopole besitzen", nl: "Minstens 3 monopolies bezitten" },
-        { en: "Trading only when you get 3 properties", es: "Negociar solo cuando tienes 3 propiedades", de: "Nur handeln wenn man 3 Grundstücke hat", nl: "Alleen handelen als je 3 eigendommen hebt" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "The three house rule means building exactly 3 houses on each property (not upgrading to hotels) to maximize ROI and create a house shortage for opponents.",
-        es: "La regla de tres casas significa construir exactamente 3 casas en cada propiedad (sin mejorar a hoteles) para maximizar el ROI y crear escasez de casas para los oponentes.",
-        de: "Die Drei-Häuser-Regel bedeutet, genau 3 Häuser auf jedem Grundstück zu bauen (nicht auf Hotels aufrüsten), um den ROI zu maximieren und einen Häusermangel für Gegner zu schaffen.",
-        nl: "De drie huizen regel betekent precies 3 huizen bouwen op elk eigendom (niet upgraden naar hotels) om ROI te maximaliseren en een huizenschaarste voor tegenstanders te creëren."
-      }
-    },
-    {
-      question: {
-        en: "According to probability analysis, how many times does the average player pass GO in a standard game?",
-        es: "Según el análisis de probabilidad, ¿cuántas veces pasa el jugador promedio por SALIDA en un juego estándar?",
-        de: "Laut Wahrscheinlichkeitsanalyse, wie oft passiert der durchschnittliche Spieler LOS in einem Standardspiel?",
-        nl: "Volgens waarschijnlijkheidsanalyse, hoe vaak passeert de gemiddelde speler START in een standaard spel?"
+      {
+        "en": "$1000",
+        "es": "$1000",
+        "de": "$1000",
+        "nl": "$1000"
       },
-      options: [
-        { en: "5-8 times", es: "5-8 veces", de: "5-8 Mal", nl: "5-8 keer" },
-        { en: "10-15 times", es: "10-15 veces", de: "10-15 Mal", nl: "10-15 keer" },
-        { en: "20-25 times", es: "20-25 veces", de: "20-25 Mal", nl: "20-25 keer" },
-        { en: "30-40 times", es: "30-40 veces", de: "30-40 Mal", nl: "30-40 keer" }
-      ],
-      correct: 2,
-      explanation: {
-        en: "Studies show players pass GO approximately 20-25 times in a typical game lasting 60-90 minutes, averaging about 7 spaces per turn.",
-        es: "Los estudios muestran que los jugadores pasan por SALIDA aproximadamente 20-25 veces en un juego típico de 60-90 minutos, promediando unos 7 espacios por turno.",
-        de: "Studien zeigen, dass Spieler in einem typischen 60-90-minütigen Spiel etwa 20-25 Mal LOS passieren, durchschnittlich etwa 7 Felder pro Zug.",
-        nl: "Studies tonen aan dat spelers ongeveer 20-25 keer START passeren in een typisch spel van 60-90 minuten, gemiddeld ongeveer 7 vakken per beurt."
-      }
-    },
-    {
-      question: {
-        en: "What is the 'Monopoly Jail Strategy' used by advanced players in late game?",
-        es: "¿Cuál es la 'Estrategia de Cárcel de Monopoly' utilizada por jugadores avanzados en el juego tardío?",
-        de: "Was ist die 'Monopoly-Gefängnis-Strategie' von fortgeschrittenen Spielern im späten Spiel?",
-        nl: "Wat is de 'Monopoly Gevangenis Strategie' gebruikt door gevorderde spelers in het late spel?"
+      {
+        "en": "$1500",
+        "es": "$1500",
+        "de": "$1500",
+        "nl": "$1500"
       },
-      options: [
-        { en: "Avoiding Jail at all costs", es: "Evitar la Cárcel a toda costa", de: "Gefängnis um jeden Preis vermeiden", nl: "Gevangenis ten koste van alles vermijden" },
-        { en: "Staying in Jail as long as possible to avoid rent", es: "Permanecer en la Cárcel el mayor tiempo posible para evitar el alquiler", de: "So lange wie möglich im Gefängnis bleiben, um Miete zu vermeiden", nl: "Zo lang mogelijk in de Gevangenis blijven om huur te vermijden" },
-        { en: "Getting out immediately to collect rent", es: "Salir inmediatamente para cobrar alquiler", de: "Sofort rauskommen, um Miete zu kassieren", nl: "Onmiddellijk eruit om huur te innen" },
-        { en: "Trading to avoid Jail", es: "Negociar para evitar la Cárcel", de: "Handeln, um Gefängnis zu vermeiden", nl: "Handelen om Gevangenis te vermijden" }
-      ],
-      correct: 1,
-      explanation: {
-        en: "In late game when opponents have developed properties, staying in Jail is advantageous - you still collect rent but avoid paying it yourself. Maximum 3 turns is optimal.",
-        es: "En el juego tardío cuando los oponentes tienen propiedades desarrolladas, permanecer en la Cárcel es ventajoso: aún cobras alquiler pero evitas pagarlo tú. Un máximo de 3 turnos es óptimo.",
-        de: "Im späten Spiel, wenn Gegner entwickelte Grundstücke haben, ist es vorteilhaft im Gefängnis zu bleiben - man kassiert noch Miete, zahlt aber selbst keine. Maximal 3 Runden ist optimal.",
-        nl: "In het late spel wanneer tegenstanders ontwikkelde eigendommen hebben, is het voordelig in de Gevangenis te blijven - je int nog steeds huur maar betaalt zelf niet. Maximaal 3 beurten is optimaal."
+      {
+        "en": "$2000",
+        "es": "$2000",
+        "de": "$2000",
+        "nl": "$2000"
       }
-    },
-    {
-      question: {
-        en: "What is the official rule for building houses unevenly across properties in a monopoly?",
-        es: "¿Cuál es la regla oficial para construir casas de manera desigual en las propiedades de un monopolio?",
-        de: "Was ist die offizielle Regel für den ungleichmäßigen Bau von Häusern auf Grundstücken in einem Monopol?",
-        nl: "Wat is de officiële regel voor het ongelijk bouwen van huizen op eigendommen in een monopolie?"
-      },
-      options: [
-        { en: "Allowed - build anywhere", es: "Permitido - construir en cualquier lugar", de: "Erlaubt - überall bauen", nl: "Toegestaan - overal bouwen" },
-        { en: "Not allowed - must build evenly", es: "No permitido - debe construir uniformemente", de: "Nicht erlaubt - muss gleichmäßig bauen", nl: "Niet toegestaan - moet gelijkmatig bouwen" },
-        { en: "Allowed only on most expensive property", es: "Permitido solo en la propiedad más cara", de: "Nur auf teuerstem Grundstück erlaubt", nl: "Alleen toegestaan op duurste eigendom" },
-        { en: "Allowed with bank's permission", es: "Permitido con permiso del banco", de: "Mit Erlaubnis der Bank erlaubt", nl: "Toegestaan met toestemming van de bank" }
-      ],
-      correct: 1,
-      explanation: {
-        en: "Official rules require even building: you cannot build a second house on any property until all properties in the monopoly have one house. This applies to all levels.",
-        es: "Las reglas oficiales requieren construcción uniforme: no puedes construir una segunda casa en ninguna propiedad hasta que todas las propiedades del monopolio tengan una casa. Esto aplica a todos los niveles.",
-        de: "Offizielle Regeln erfordern gleichmäßiges Bauen: Man kann kein zweites Haus auf einem Grundstück bauen, bis alle Grundstücke im Monopol ein Haus haben. Dies gilt für alle Ebenen.",
-        nl: "Officiële regels vereisen gelijkmatig bouwen: je kunt geen tweede huis op een eigendom bouwen totdat alle eigendommen in het monopolie één huis hebben. Dit geldt voor alle niveaus."
-      }
-    },
-    {
-      question: {
-        en: "In the 2009 Monopoly World Championships, what was the winning strategy employed by champion Bjørn Halvard Knappskog?",
-        es: "En el Campeonato Mundial de Monopoly 2009, ¿cuál fue la estrategia ganadora empleada por el campeón Bjørn Halvard Knappskog?",
-        de: "Bei der Monopoly-Weltmeisterschaft 2009, welche Siegstrategie nutzte Champion Bjørn Halvard Knappskog?",
-        nl: "Bij de Monopoly Wereldkampioenschappen 2009, wat was de winnende strategie gebruikt door kampioen Bjørn Halvard Knappskog?"
-      },
-      options: [
-        { en: "Aggressive trading for orange properties", es: "Negociación agresiva por propiedades naranjas", de: "Aggressiver Handel für orange Grundstücke", nl: "Agressief handelen voor oranje eigendommen" },
-        { en: "Hoarding railroads and utilities", es: "Acumulación de ferrocarriles y servicios públicos", de: "Horten von Bahnhöfen und Versorgern", nl: "Hamsterren van spoorwegen en nutsbedrijven" },
-        { en: "Conservative property acquisition", es: "Adquisición conservadora de propiedades", de: "Konservative Grundstücksaneignung", nl: "Conservatieve eigendomsverwerving" },
-        { en: "Early hotel development on dark blues", es: "Desarrollo temprano de hoteles en azul oscuro", de: "Frühe Hotelentwicklung auf dunkelblauen", nl: "Vroege hotelontwikkeling op donkerblauw" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Knappskog from Norway won by aggressively trading to secure the orange monopoly early, then developing it quickly to generate maximum cash flow.",
-        es: "Knappskog de Noruega ganó negociando agresivamente para asegurar el monopolio naranja temprano, luego desarrollándolo rápidamente para generar flujo de efectivo máximo.",
-        de: "Knappskog aus Norwegen gewann durch aggressiven Handel, um das orange Monopol früh zu sichern, dann schnelle Entwicklung für maximalen Cashflow.",
-        nl: "Knappskog uit Noorwegen won door agressief te handelen om het oranje monopolie vroeg te bemachtigen, en het vervolgens snel te ontwikkelen voor maximale cashflow."
-      }
-    },
-    {
-      question: {
-        en: "What is the mathematical expected value of owning all four railroads?",
-        es: "¿Cuál es el valor esperado matemático de poseer los cuatro ferrocarriles?",
-        de: "Was ist der mathematische Erwartungswert des Besitzes aller vier Bahnhöfe?",
-        nl: "Wat is de mathematische verwachte waarde van het bezit van alle vier spoorwegen?"
-      },
-      options: [
-        { en: "About $150 per opponent circuit", es: "Alrededor de $150 por circuito de oponente", de: "Etwa $150 pro Gegnerdurchlauf", nl: "Ongeveer $150 per tegenstanderronde" },
-        { en: "About $300 per opponent circuit", es: "Alrededor de $300 por circuito de oponente", de: "Etwa $300 pro Gegnerdurchlauf", nl: "Ongeveer $300 per tegenstanderronde" },
-        { en: "About $450 per opponent circuit", es: "Alrededor de $450 por circuito de oponente", de: "Etwa $450 pro Gegnerdurchlauf", nl: "Ongeveer $450 per tegenstanderronde" },
-        { en: "About $600 per opponent circuit", es: "Alrededor de $600 por circuito de oponente", de: "Etwa $600 pro Gegnerdurchlauf", nl: "Ongeveer $600 per tegenstanderronde" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "With four railroads paying $200 each and approximately 28% chance of landing on at least one per circuit, the expected value is roughly $150 per opponent's trip around the board.",
-        es: "Con cuatro ferrocarriles pagando $200 cada uno y aproximadamente 28% de probabilidad de caer en al menos uno por circuito, el valor esperado es aproximadamente $150 por viaje del oponente alrededor del tablero.",
-        de: "Mit vier Bahnhöfen à $200 und etwa 28% Wahrscheinlichkeit, auf mindestens einem pro Runde zu landen, beträgt der Erwartungswert etwa $150 pro Gegnerdurchlauf.",
-        nl: "Met vier spoorwegen die elk $200 betalen en ongeveer 28% kans om op minstens één per ronde te landen, is de verwachte waarde ongeveer $150 per rondje van de tegenstander."
-      }
-    },
-    {
-      question: {
-        en: "What is the 'endgame cash preservation' strategy in tournament Monopoly?",
-        es: "¿Cuál es la estrategia de 'preservación de efectivo en el final del juego' en Monopoly de torneo?",
-        de: "Was ist die 'Endspiel-Bargelderhaltungs'-Strategie im Turnier-Monopoly?",
-        nl: "Wat is de 'eindspel cash behoud' strategie in toernooi Monopoly?"
-      },
-      options: [
-        { en: "Selling all properties for cash", es: "Vender todas las propiedades por efectivo", de: "Alle Grundstücke für Bargeld verkaufen", nl: "Alle eigendommen verkopen voor cash" },
-        { en: "Mortgaging non-monopoly properties to maintain liquid cash", es: "Hipotecar propiedades que no son monopolios para mantener efectivo líquido", de: "Hypothek auf Nicht-Monopol-Grundstücke für flüssiges Bargeld", nl: "Hypotheek op niet-monopolie eigendommen voor liquide middelen" },
-        { en: "Never mortgaging anything", es: "Nunca hipotecar nada", de: "Niemals etwas verpfänden", nl: "Nooit iets hypothekeren" },
-        { en: "Trading everything for one monopoly", es: "Negociar todo por un monopolio", de: "Alles für ein Monopol handeln", nl: "Alles ruilen voor één monopolie" }
-      ],
-      correct: 1,
-      explanation: {
-        en: "Advanced players mortgage single properties and undeveloped monopolies to keep cash reserves for landing on opponents' properties, avoiding bankruptcy while maintaining developed monopolies.",
-        es: "Los jugadores avanzados hipotecan propiedades individuales y monopolios no desarrollados para mantener reservas de efectivo para caer en propiedades de oponentes, evitando la bancarrota mientras mantienen monopolios desarrollados.",
-        de: "Fortgeschrittene Spieler verpfänden einzelne Grundstücke und unentwickelte Monopole, um Bargeldreserven zu behalten für das Landen auf Gegnergründstücken, Bankrott vermeidend während entwickelte Monopole beibehalten werden.",
-        nl: "Gevorderde spelers hypothekeren losse eigendommen en onontwikkelde monopolies om cashreserves te behouden voor het landen op eigendommen van tegenstanders, faillissement vermijdend terwijl ontwikkelde monopolies behouden blijven."
-      }
-    },
-    {
-      question: {
-        en: "According to game theory analysis, what is the optimal number of properties to own before starting any trades?",
-        es: "Según el análisis de teoría de juegos, ¿cuál es el número óptimo de propiedades a poseer antes de comenzar cualquier negociación?",
-        de: "Laut Spieltheorie-Analyse, wie viele Grundstücke sollte man besitzen, bevor man mit Handeln beginnt?",
-        nl: "Volgens speltheorie analyse, wat is het optimale aantal eigendommen om te bezitten voordat je begint met handelen?"
-      },
-      options: [
-        { en: "At least 3 properties", es: "Al menos 3 propiedades", de: "Mindestens 3 Grundstücke", nl: "Minstens 3 eigendommen" },
-        { en: "At least 5-6 properties", es: "Al menos 5-6 propiedades", de: "Mindestens 5-6 Grundstücke", nl: "Minstens 5-6 eigendommen" },
-        { en: "At least 8-10 properties", es: "Al menos 8-10 propiedades", de: "Mindestens 8-10 Grundstücke", nl: "Minstens 8-10 eigendommen" },
-        { en: "Trade immediately with 1-2 properties", es: "Negociar inmediatamente con 1-2 propiedades", de: "Sofort mit 1-2 Grundstücken handeln", nl: "Direct handelen met 1-2 eigendommen" }
-      ],
-      correct: 1,
-      explanation: {
-        en: "Optimal strategy suggests acquiring 5-6 properties before trading, giving you leverage and multiple potential monopoly paths while not appearing desperate to opponents.",
-        es: "La estrategia óptima sugiere adquirir 5-6 propiedades antes de negociar, dándote influencia y múltiples caminos potenciales de monopolio sin parecer desesperado ante los oponentes.",
-        de: "Optimale Strategie schlägt vor, 5-6 Grundstücke vor dem Handeln zu erwerben, was Einfluss gibt und mehrere potenzielle Monopolwege ohne verzweifelt zu wirken.",
-        nl: "Optimale strategie suggereert 5-6 eigendommen te verwerven voor het handelen, wat je invloed geeft en meerdere potentiële monopolie paden zonder wanhopig over te komen op tegenstanders."
-      }
-    },
-    {
-      question: {
-        en: "What is the 'property denial' strategy in competitive play?",
-        es: "¿Cuál es la estrategia de 'negación de propiedad' en juego competitivo?",
-        de: "Was ist die 'Grundstücksverweigerungs'-Strategie im kompetitiven Spiel?",
-        nl: "Wat is de 'eigendom weigering' strategie in competitief spel?"
-      },
-      options: [
-        { en: "Refusing to trade any properties", es: "Rechazar negociar cualquier propiedad", de: "Ablehnen, Grundstücke zu handeln", nl: "Weigeren om eigendommen te ruilen" },
-        { en: "Buying properties you don't need to prevent opponent monopolies", es: "Comprar propiedades que no necesitas para evitar monopolios de oponentes", de: "Grundstücke kaufen, die man nicht braucht, um Gegner-Monopole zu verhindern", nl: "Eigendommen kopen die je niet nodig hebt om monopolies van tegenstanders te voorkomen" },
-        { en: "Mortgaging all properties", es: "Hipotecar todas las propiedades", de: "Alle Grundstücke verpfänden", nl: "Alle eigendommen hypothekeren" },
-        { en: "Only buying railroads", es: "Solo comprar ferrocarriles", de: "Nur Bahnhöfe kaufen", nl: "Alleen spoorwegen kopen" }
-      ],
-      correct: 1,
-      explanation: {
-        en: "Property denial means strategically purchasing properties you don't need for your own monopolies, specifically to block opponents from completing theirs, giving you trading leverage.",
-        es: "La negación de propiedad significa comprar estratégicamente propiedades que no necesitas para tus propios monopolios, específicamente para bloquear a los oponentes de completar los suyos, dándote influencia en negociaciones.",
-        de: "Grundstücksverweigerung bedeutet strategisches Kaufen von Grundstücken, die man nicht für eigene Monopole braucht, speziell um Gegner am Vervollständigen zu hindern, was Handelseinfluss gibt.",
-        nl: "Eigendom weigering betekent strategisch eigendommen kopen die je niet nodig hebt voor je eigen monopolies, specifiek om tegenstanders te blokkeren bij het voltooien van hun monopolies, wat je onderhandelingsinvloed geeft."
-      }
-    },
-    {
-      question: {
-        en: "What percentage of Monopoly games end in rage-quits or unfinished games according to Hasbro surveys?",
-        es: "¿Qué porcentaje de juegos de Monopoly terminan en abandonos por ira o juegos sin terminar según encuestas de Hasbro?",
-        de: "Welcher Prozentsatz der Monopoly-Spiele endet laut Hasbro-Umfragen in Rage-Quits oder unbeendeten Spielen?",
-        nl: "Welk percentage van Monopoly spellen eindigt in rage-quits of onafgemaakte spellen volgens Hasbro enquêtes?"
-      },
-      options: [
-        { en: "About 20%", es: "Alrededor del 20%", de: "Etwa 20%", nl: "Ongeveer 20%" },
-        { en: "About 40%", es: "Alrededor del 40%", de: "Etwa 40%", nl: "Ongeveer 40%" },
-        { en: "About 68%", es: "Alrededor del 68%", de: "Etwa 68%", nl: "Ongeveer 68%" },
-        { en: "About 85%", es: "Alrededor del 85%", de: "Etwa 85%", nl: "Ongeveer 85%" }
-      ],
-      correct: 2,
-      explanation: {
-        en: "Hasbro estimates that approximately 68% of Monopoly games are never finished to completion, often due to length, frustration, or house rules that extend gameplay indefinitely.",
-        es: "Hasbro estima que aproximadamente el 68% de los juegos de Monopoly nunca se terminan por completo, a menudo debido a la duración, frustración o reglas caseras que extienden el juego indefinidamente.",
-        de: "Hasbro schätzt, dass etwa 68% der Monopoly-Spiele nie zu Ende gespielt werden, oft wegen Länge, Frustration oder Hausregeln, die das Spiel unendlich verlängern.",
-        nl: "Hasbro schat dat ongeveer 68% van de Monopoly spellen nooit volledig worden afgemaakt, vaak door lengte, frustratie of huisregels die het spel oneindig verlengen."
-      }
-    },
-    {
-      question: {
-        en: "In expert-level play, what is the recommended cash reserve to maintain while developing properties?",
-        es: "En juego de nivel experto, ¿cuál es la reserva de efectivo recomendada para mantener mientras se desarrollan propiedades?",
-        de: "Im Expertenspiel, welche Bargeldreserve wird empfohlen, während Grundstücke entwickelt werden?",
-        nl: "In expert-level spel, wat is de aanbevolen cash reserve om aan te houden tijdens het ontwikkelen van eigendommen?"
-      },
-      options: [
-        { en: "$100-200", es: "$100-200", de: "$100-200", nl: "$100-200" },
-        { en: "$300-500", es: "$300-500", de: "$300-500", nl: "$300-500" },
-        { en: "$500-800", es: "$500-800", de: "$500-800", nl: "$500-800" },
-        { en: "$1000+", es: "$1000+", de: "$1000+", nl: "$1000+" }
-      ],
-      correct: 1,
-      explanation: {
-        en: "Expert players recommend maintaining $300-500 cash reserve to survive landing on developed opponent properties while still investing aggressively in your own development.",
-        es: "Los jugadores expertos recomiendan mantener una reserva de $300-500 en efectivo para sobrevivir al caer en propiedades desarrolladas de oponentes mientras aún inviertes agresivamente en tu propio desarrollo.",
-        de: "Experten empfehlen eine Bargeldreserve von $300-500 zu halten, um das Landen auf entwickelten Gegnergründstücken zu überleben, während man aggressiv in eigene Entwicklung investiert.",
-        nl: "Expert spelers bevelen aan om $300-500 cash reserve aan te houden om het landen op ontwikkelde eigendommen van tegenstanders te overleven terwijl je nog steeds aggressief in je eigen ontwikkeling investeert."
-      }
-    },
-    {
-      question: {
-        en: "What is the official tournament rule regarding time limits for making trade decisions?",
-        es: "¿Cuál es la regla oficial de torneo sobre límites de tiempo para tomar decisiones comerciales?",
-        de: "Was ist die offizielle Turnierregel bezüglich Zeitlimits für Handelsentscheidungen?",
-        nl: "Wat is de officiële toernooiregel met betrekking tot tijdslimieten voor handelsbeslissingen?"
-      },
-      options: [
-        { en: "No time limit - unlimited negotiation", es: "Sin límite de tiempo - negociación ilimitada", de: "Keine Zeitbegrenzung - unbegrenzte Verhandlung", nl: "Geen tijdslimiet - onbeperkte onderhandeling" },
-        { en: "30 seconds maximum", es: "30 segundos máximo", de: "30 Sekunden Maximum", nl: "30 seconden maximum" },
-        { en: "Players have 1 minute to accept or reject", es: "Los jugadores tienen 1 minuto para aceptar o rechazar", de: "Spieler haben 1 Minute zum Annehmen oder Ablehnen", nl: "Spelers hebben 1 minuut om te accepteren of afwijzen" },
-        { en: "Trades can only happen on your turn", es: "Las negociaciones solo pueden ocurrir en tu turno", de: "Handel nur im eigenen Zug", nl: "Ruilen kan alleen tijdens je beurt" }
-      ],
-      correct: 2,
-      explanation: {
-        en: "In tournament play, when a trade offer is made, the other player has exactly 1 minute to accept or reject. This prevents stalling tactics and keeps games moving.",
-        es: "En juego de torneo, cuando se hace una oferta de intercambio, el otro jugador tiene exactamente 1 minuto para aceptar o rechazar. Esto evita tácticas dilatorias y mantiene los juegos en movimiento.",
-        de: "Im Turnierspiel hat der andere Spieler genau 1 Minute zum Annehmen oder Ablehnen eines Handelsangebots. Dies verhindert Verzögerungstaktiken und hält Spiele in Bewegung.",
-        nl: "In toernooispel heeft de andere speler precies 1 minuut om een ruilaanbod te accepteren of af te wijzen. Dit voorkomt vertragingstactieken en houdt spellen in beweging."
-      }
-    },
-    {
-      question: {
-        en: "What is the mathematical probability of landing on Boardwalk/Park Place at least once in a complete circuit of the board?",
-        es: "¿Cuál es la probabilidad matemática de caer en Boardwalk/Park Place al menos una vez en un circuito completo del tablero?",
-        de: "Wie hoch ist die mathematische Wahrscheinlichkeit, mindestens einmal auf Boardwalk/Park Place in einer kompletten Brettumrundung zu landen?",
-        nl: "Wat is de mathematische waarschijnlijkheid om minstens één keer op Boardwalk/Park Place te landen in een complete rondje van het bord?"
-      },
-      options: [
-        { en: "About 3%", es: "Alrededor del 3%", de: "Etwa 3%", nl: "Ongeveer 3%" },
-        { en: "About 8%", es: "Alrededor del 8%", de: "Etwa 8%", nl: "Ongeveer 8%" },
-        { en: "About 15%", es: "Alrededor del 15%", de: "Etwa 15%", nl: "Ongeveer 15%" },
-        { en: "About 25%", es: "Alrededor del 25%", de: "Etwa 25%", nl: "Ongeveer 25%" }
-      ],
-      correct: 1,
-      explanation: {
-        en: "The dark blue properties have approximately 8% combined probability of being landed on per circuit, making them the least-visited color group despite their high rent.",
-        es: "Las propiedades azul oscuro tienen aproximadamente 8% de probabilidad combinada de ser visitadas por circuito, convirtiéndolas en el grupo de color menos visitado a pesar de su alto alquiler.",
-        de: "Die dunkelblauen Grundstücke haben etwa 8% kombinierte Wahrscheinlichkeit pro Runde besucht zu werden, was sie zur am wenigsten besuchten Farbgruppe trotz hoher Miete macht.",
-        nl: "De donkerblauwe eigendommen hebben ongeveer 8% gecombineerde waarschijnlijkheid om bezocht te worden per rondje, waardoor ze de minst bezochte kleurgroep zijn ondanks hun hoge huur."
-      }
-    },
-    {
-      question: {
-        en: "What is the 'color blocking' strategy in advanced Monopoly play?",
-        es: "¿Cuál es la estrategia de 'bloqueo de color' en el juego avanzado de Monopoly?",
-        de: "Was ist die 'Farbblockungs'-Strategie im fortgeschrittenen Monopoly-Spiel?",
-        nl: "Wat is de 'kleur blokkering' strategie in gevorderd Monopoly spel?"
-      },
-      options: [
-        { en: "Owning at least one property from every color group", es: "Poseer al menos una propiedad de cada grupo de color", de: "Mindestens ein Grundstück aus jeder Farbgruppe besitzen", nl: "Minstens één eigendom van elke kleurgroep bezitten" },
-        { en: "Only buying one color group", es: "Solo comprar un grupo de color", de: "Nur eine Farbgruppe kaufen", nl: "Alleen één kleurgroep kopen" },
-        { en: "Trading for specific colors only", es: "Negociar solo por colores específicos", de: "Nur für bestimmte Farben handeln", nl: "Alleen handelen voor specifieke kleuren" },
-        { en: "Avoiding certain color groups", es: "Evitar ciertos grupos de colores", de: "Bestimmte Farbgruppen vermeiden", nl: "Bepaalde kleurgroepen vermijden" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Color blocking means owning at least one property from each color group to prevent opponents from completing any monopoly without trading with you, maximizing your negotiation power.",
-        es: "El bloqueo de color significa poseer al menos una propiedad de cada grupo de color para evitar que los oponentes completen cualquier monopolio sin negociar contigo, maximizando tu poder de negociación.",
-        de: "Farbblockung bedeutet, mindestens ein Grundstück aus jeder Farbgruppe zu besitzen, um zu verhindern, dass Gegner ohne mit dir zu handeln ein Monopol vervollständigen, was Verhandlungsmacht maximiert.",
-        nl: "Kleur blokkering betekent minstens één eigendom van elke kleurgroep bezitten om te voorkomen dat tegenstanders een monopolie voltooien zonder met jou te handelen, wat je onderhandelingsmacht maximaliseert."
-      }
-    },
-    {
-      question: {
-        en: "According to tournament statistics, what property has the highest return on investment (ROI) when fully developed?",
-        es: "Según las estadísticas de torneos, ¿qué propiedad tiene el mayor retorno de inversión (ROI) cuando está completamente desarrollada?",
-        de: "Laut Turnierstatistiken, welches Grundstück hat den höchsten Return on Investment (ROI) wenn voll entwickelt?",
-        nl: "Volgens toernooistatistieken, welk eigendom heeft het hoogste rendement op investering (ROI) wanneer volledig ontwikkeld?"
-      },
-      options: [
-        { en: "Boardwalk with hotel", es: "Boardwalk con hotel", de: "Boardwalk mit Hotel", nl: "Boardwalk met hotel" },
-        { en: "Illinois Avenue with hotel", es: "Illinois Avenue con hotel", de: "Illinois Avenue mit Hotel", nl: "Illinois Avenue met hotel" },
-        { en: "New York Avenue with 3 houses", es: "New York Avenue con 3 casas", de: "New York Avenue mit 3 Häusern", nl: "New York Avenue met 3 huizen" },
-        { en: "Baltic Avenue with hotel", es: "Baltic Avenue con hotel", de: "Baltic Avenue mit Hotel", nl: "Baltic Avenue met hotel" }
-      ],
-      correct: 2,
-      explanation: {
-        en: "New York Avenue (orange) with 3 houses offers the highest ROI: relatively low development cost combined with high landing probability and $800 rent provides optimal return.",
-        es: "New York Avenue (naranja) con 3 casas ofrece el mayor ROI: costo de desarrollo relativamente bajo combinado con alta probabilidad de caída y $800 de alquiler proporciona retorno óptimo.",
-        de: "New York Avenue (orange) mit 3 Häusern bietet den höchsten ROI: relativ niedrige Entwicklungskosten kombiniert mit hoher Landewahrscheinlichkeit und $800 Miete bietet optimale Rendite.",
-        nl: "New York Avenue (oranje) met 3 huizen biedt de hoogste ROI: relatief lage ontwikkelingskosten gecombineerd met hoge landingswaarschijnlijkheid en $800 huur geeft optimaal rendement."
-      }
-    },
-    {
-      question: {
-        en: "What is the 'hotel conversion' loophole that was banned in tournament play?",
-        es: "¿Cuál es la laguna de 'conversión de hotel' que fue prohibida en el juego de torneo?",
-        de: "Was ist die 'Hotelumwandlungs'-Lücke, die im Turnierspiel verboten wurde?",
-        nl: "Wat is de 'hotel conversie' maas in de wet die verboden werd in toernooispel?"
-      },
-      options: [
-        { en: "Trading hotels between players", es: "Negociar hoteles entre jugadores", de: "Hotels zwischen Spielern handeln", nl: "Hotels tussen spelers ruilen" },
-        { en: "Downgrading hotels to houses when bank runs out", es: "Bajar hoteles a casas cuando se acaba el banco", de: "Hotels zu Häusern herabstufen wenn Bank leer", nl: "Hotels downgraden naar huizen wanneer bank leeg is" },
-        { en: "Upgrading houses to hotels without paying", es: "Mejorar casas a hoteles sin pagar", de: "Häuser zu Hotels upgraden ohne Bezahlung", nl: "Huizen upgraden naar hotels zonder te betalen" },
-        { en: "Building hotels without owning monopoly", es: "Construir hoteles sin poseer monopolio", de: "Hotels bauen ohne Monopol", nl: "Hotels bouwen zonder monopolie" }
-      ],
-      correct: 1,
-      explanation: {
-        en: "Players would downgrade hotels to 4 houses when houses ran out, preventing opponents from building. Tournament rules now require sufficient houses available or the conversion cannot occur.",
-        es: "Los jugadores bajaban hoteles a 4 casas cuando se acababan las casas, evitando que los oponentes construyeran. Las reglas de torneo ahora requieren suficientes casas disponibles o la conversión no puede ocurrir.",
-        de: "Spieler stuften Hotels auf 4 Häuser herunter, wenn Häuser ausgingen, was Gegner am Bauen hinderte. Turnierregeln erfordern jetzt genügend verfügbare Häuser oder die Umwandlung kann nicht stattfinden.",
-        nl: "Spelers downgraden hotels naar 4 huizen wanneer huizen op waren, wat tegenstanders verhinderde te bouwen. Toernooiregels vereisen nu voldoende beschikbare huizen of de conversie kan niet plaatsvinden."
-      }
-    },
-    {
-      question: {
-        en: "In the longest recorded Monopoly game (70 days), what rule was being followed that extended gameplay?",
-        es: "En el juego de Monopoly más largo registrado (70 días), ¿qué regla se estaba siguiendo que extendió el juego?",
-        de: "Im längsten aufgezeichneten Monopoly-Spiel (70 Tage), welche Regel wurde befolgt, die das Spiel verlängerte?",
-        nl: "In het langst geregistreerde Monopoly spel (70 dagen), welke regel werd gevolgd die het spel verlengde?"
-      },
-      options: [
-        { en: "Official tournament rules only", es: "Solo reglas oficiales de torneo", de: "Nur offizielle Turnierregeln", nl: "Alleen officiële toernooiregels" },
-        { en: "Free Parking money accumulation house rule", es: "Regla casera de acumulación de dinero en Estacionamiento Gratuito", de: "Hausregel der Geldansammlung bei Freies Parken", nl: "Huisregel van geld ophoping bij Gratis Parkeren" },
-        { en: "No auctions allowed", es: "Sin subastas permitidas", de: "Keine Auktionen erlaubt", nl: "Geen veilingen toegestaan" },
-        { en: "Double money on GO", es: "Doble dinero en SALIDA", de: "Doppeltes Geld bei LOS", nl: "Dubbel geld op START" }
-      ],
-      correct: 1,
-      explanation: {
-        en: "The Free Parking money accumulation house rule constantly re-injects money into the game, preventing the natural economic depletion that causes players to go bankrupt and end the game.",
-        es: "La regla casera de acumulación de dinero en Estacionamiento Gratuito reinyecta constantemente dinero en el juego, evitando el agotamiento económico natural que causa que los jugadores quiebren y termine el juego.",
-        de: "Die Hausregel der Geldansammlung bei Freies Parken führt ständig Geld ins Spiel zurück, verhindert die natürliche wirtschaftliche Erschöpfung, die Spieler in den Bankrott treibt und das Spiel beendet.",
-        nl: "De huisregel van geld ophoping bij Gratis Parkeren injecteert constant geld terug in het spel, wat de natuurlijke economische uitputting voorkomt die spelers failliet laat gaan en het spel beëindigt."
-      }
-    },
-    {
-      question: {
-        en: "What is the official rule for trades involving future considerations or promises?",
-        es: "¿Cuál es la regla oficial para negociaciones que involucran consideraciones o promesas futuras?",
-        de: "Was ist die offizielle Regel für Handelsgeschäfte mit zukünftigen Überlegungen oder Versprechen?",
-        nl: "Wat is de officiële regel voor ruilen waarbij toekomstige overwegingen of beloftes betrokken zijn?"
-      },
-      options: [
-        { en: "Fully allowed and enforceable", es: "Completamente permitido y ejecutable", de: "Vollständig erlaubt und durchsetzbar", nl: "Volledig toegestaan en afdwingbaar" },
-        { en: "Not allowed - trades must be immediate and complete", es: "No permitido - las negociaciones deben ser inmediatas y completas", de: "Nicht erlaubt - Handel muss sofort und vollständig sein", nl: "Niet toegestaan - ruilen moet onmiddellijk en volledig zijn" },
-        { en: "Allowed with banker approval", es: "Permitido con aprobación del banquero", de: "Mit Bankiers Genehmigung erlaubt", nl: "Toegestaan met goedkeuring van de bankier" },
-        { en: "Allowed only for properties", es: "Permitido solo para propiedades", de: "Nur für Grundstücke erlaubt", nl: "Alleen toegestaan voor eigendommen" }
-      ],
-      correct: 1,
-      explanation: {
-        en: "Official Monopoly rules state that trades must be immediate and complete - no future promises like 'immunity from rent' or 'I'll give you money later' are allowed or enforceable.",
-        es: "Las reglas oficiales de Monopoly establecen que las negociaciones deben ser inmediatas y completas - no se permiten ni son ejecutables promesas futuras como 'inmunidad del alquiler' o 'te daré dinero después'.",
-        de: "Offizielle Monopoly-Regeln besagen, dass Handel sofort und vollständig sein muss - keine zukünftigen Versprechen wie 'Immunität vor Miete' oder 'Ich gebe dir später Geld' sind erlaubt oder durchsetzbar.",
-        nl: "Officiële Monopoly regels stellen dat ruilen onmiddellijk en volledig moet zijn - geen toekomstige beloftes zoals 'immuniteit van huur' of 'Ik geef je later geld' zijn toegestaan of afdwingbaar."
-      }
-    },
-    {
-      question: {
-        en: "What percentage of starting cash should you ideally spend on properties in the first circuit of the board?",
-        es: "¿Qué porcentaje del efectivo inicial debes gastar idealmente en propiedades en el primer circuito del tablero?",
-        de: "Welchen Prozentsatz des Startkapitals sollte man idealerweise für Grundstücke in der ersten Brettumrundung ausgeben?",
-        nl: "Welk percentage van het startgeld moet je idealiter uitgeven aan eigendommen in de eerste ronde van het bord?"
-      },
-      options: [
-        { en: "Keep most cash (spend only 20-30%)", es: "Mantener la mayor parte del efectivo (gastar solo 20-30%)", de: "Meistes Bargeld behalten (nur 20-30% ausgeben)", nl: "Meeste cash behouden (slechts 20-30% uitgeven)" },
-        { en: "Balanced approach (spend 50-60%)", es: "Enfoque equilibrado (gastar 50-60%)", de: "Ausgewogener Ansatz (50-60% ausgeben)", nl: "Gebalanceerde aanpak (50-60% uitgeven)" },
-        { en: "Aggressive buying (spend 70-80%)", es: "Compra agresiva (gastar 70-80%)", de: "Aggressives Kaufen (70-80% ausgeben)", nl: "Agressief kopen (70-80% uitgeven)" },
-        { en: "All-in strategy (spend 90-100%)", es: "Estrategia todo dentro (gastar 90-100%)", de: "All-in Strategie (90-100% ausgeben)", nl: "All-in strategie (90-100% uitgeven)" }
-      ],
-      correct: 2,
-      explanation: {
-        en: "Expert strategy recommends spending 70-80% of starting cash on properties in the first circuit, acquiring as many as possible for trading leverage while keeping minimal emergency cash.",
-        es: "La estrategia experta recomienda gastar 70-80% del efectivo inicial en propiedades en el primer circuito, adquiriendo tantas como sea posible para influencia en negociaciones mientras se mantiene efectivo mínimo de emergencia.",
-        de: "Expertenstrategie empfiehlt 70-80% des Startkapitals in der ersten Runde für Grundstücke auszugeben, so viele wie möglich für Handelseinfluss zu erwerben während minimales Notfallgeld behalten wird.",
-        nl: "Expert strategie beveelt aan 70-80% van het startgeld uit te geven aan eigendommen in de eerste ronde, zoveel mogelijk te verwerven voor handelsinvloed terwijl minimaal noodgeld behouden blijft."
-      }
-    },
-    {
-      question: {
-        en: "What is the 'mortgage cascade' strategy in bankruptcy situations?",
-        es: "¿Qué es la estrategia de 'cascada de hipoteca' en situaciones de quiebra?",
-        de: "Was ist die 'Hypotheken-Kaskaden'-Strategie in Bankrottsituationen?",
-        nl: "Wat is de 'hypotheek cascade' strategie in faillissementssituaties?"
-      },
-      options: [
-        { en: "Mortgaging all properties at once", es: "Hipotecar todas las propiedades a la vez", de: "Alle Grundstücke auf einmal beleihen", nl: "Alle eigendommen tegelijk hypothekeren" },
-        { en: "Mortgaging strategically to pay debts while preserving monopolies", es: "Hipotecar estratégicamente para pagar deudas mientras se preservan monopolios", de: "Strategisch beleihen um Schulden zu zahlen während Monopole erhalten bleiben", nl: "Strategisch hypothekeren om schulden te betalen terwijl monopolies behouden blijven" },
-        { en: "Trading mortgaged properties immediately", es: "Negociar propiedades hipotecadas inmediatamente", de: "Verpfändete Grundstücke sofort handeln", nl: "Gehypothekeerde eigendommen onmiddellijk ruilen" },
-        { en: "Never mortgaging under any circumstances", es: "Nunca hipotecar bajo ninguna circunstancia", de: "Niemals unter irgendwelchen Umständen beleihen", nl: "Nooit hypothekeren onder welke omstandigheden dan ook" }
-      ],
-      correct: 1,
-      explanation: {
-        en: "Mortgage cascade involves mortgaging properties in optimal order: first railroads/utilities, then non-monopoly properties, then least valuable monopoly properties, preserving your strongest monopolies as long as possible.",
-        es: "La cascada de hipoteca implica hipotecar propiedades en orden óptimo: primero ferrocarriles/servicios públicos, luego propiedades sin monopolio, luego propiedades de monopolio menos valiosas, preservando tus monopolios más fuertes el mayor tiempo posible.",
-        de: "Hypotheken-Kaskade beinhaltet Grundstücke in optimaler Reihenfolge zu beleihen: zuerst Eisenbahnen/Versorgungsunternehmen, dann Nicht-Monopol-Grundstücke, dann am wenigsten wertvolle Monopol-Grundstücke, während stärkste Monopole so lange wie möglich erhalten bleiben.",
-        nl: "Hypotheek cascade omvat eigendommen hypothekeren in optimale volgorde: eerst spoorwegen/nutsvoorzieningen, dan niet-monopolie eigendommen, dan minst waardevolle monopolie eigendommen, je sterkste monopolies zo lang mogelijk behoudend."
-      }
-    },
-    {
-      question: {
-        en: "According to probability analysis, which jail strategy is mathematically optimal?",
-        es: "Según el análisis de probabilidad, ¿qué estrategia de cárcel es matemáticamente óptima?",
-        de: "Laut Wahrscheinlichkeitsanalyse, welche Gefängnisstrategie ist mathematisch optimal?",
-        nl: "Volgens waarschijnlijkheidsanalyse, welke gevangensstrategie is wiskundig optimaal?"
-      },
-      options: [
-        { en: "Pay $50 immediately (turn 1)", es: "Pagar $50 inmediatamente (turno 1)", de: "Sofort $50 zahlen (Runde 1)", nl: "Onmiddellijk $50 betalen (beurt 1)" },
-        { en: "Roll for doubles all 3 turns, pay only if forced", es: "Tirar por dobles los 3 turnos, pagar solo si es forzado", de: "Alle 3 Runden auf Pasch würfeln, nur zahlen wenn gezwungen", nl: "Alle 3 beurten voor dubbel gooien, alleen betalen als gedwongen" },
-        { en: "Early game: stay in jail. Late game: pay immediately", es: "Juego temprano: quedarse en la cárcel. Juego tardío: pagar inmediatamente", de: "Frühes Spiel: im Gefängnis bleiben. Spätes Spiel: sofort zahlen", nl: "Vroeg spel: in de gevangenis blijven. Laat spel: onmiddellijk betalen" },
-        { en: "Always use Get Out of Jail Free card", es: "Usar siempre la carta de Salir de la Cárcel", de: "Immer Raus aus dem Gefängnis-Karte benutzen", nl: "Altijd Verlaat de Gevangenis kaart gebruiken" }
-      ],
-      correct: 2,
-      explanation: {
-        en: "Optimal strategy varies: early game stay in jail to avoid developed properties; late game when you have monopolies, pay immediately to collect rent. Statistical analysis shows this maximizes winning probability.",
-        es: "La estrategia óptima varía: juego temprano quedarse en la cárcel para evitar propiedades desarrolladas; juego tardío cuando tienes monopolios, pagar inmediatamente para cobrar alquiler. El análisis estadístico muestra que esto maximiza la probabilidad de ganar.",
-        de: "Optimale Strategie variiert: frühes Spiel im Gefängnis bleiben um entwickelte Grundstücke zu vermeiden; spätes Spiel wenn man Monopole hat, sofort zahlen um Miete zu kassieren. Statistische Analyse zeigt dies maximiert Gewinnwahrscheinlichkeit.",
-        nl: "Optimale strategie varieert: vroeg spel in de gevangenis blijven om ontwikkelde eigendommen te vermijden; laat spel wanneer je monopolies hebt, onmiddellijk betalen om huur te innen. Statistische analyse toont dit maximaliseert winkans."
-      }
-    },
-    {
-      question: {
-        en: "What is the 'auction denial' tactic and why was it modified in tournament rules?",
-        es: "¿Qué es la táctica de 'negación de subasta' y por qué se modificó en las reglas de torneo?",
-        de: "Was ist die 'Auktionsverweigerungs'-Taktik und warum wurde sie in Turnierregeln modifiziert?",
-        nl: "Wat is de 'veiling ontkenning' tactiek en waarom werd het aangepast in toernooiregels?"
-      },
-      options: [
-        { en: "Refusing to participate in auctions", es: "Negarse a participar en subastas", de: "Weigern an Auktionen teilzunehmen", nl: "Weigeren deel te nemen aan veilingen" },
-        { en: "Players colluding to not bid in auctions to help specific player", es: "Jugadores en colusión para no ofertar en subastas para ayudar a jugador específico", de: "Spieler kolludieren um in Auktionen nicht zu bieten um bestimmtem Spieler zu helfen", nl: "Spelers samenspannen om niet te bieden in veilingen om specifieke speler te helpen" },
-        { en: "Bidding $1 for every property", es: "Ofertar $1 por cada propiedad", de: "Für jedes Grundstück $1 bieten", nl: "Voor elk eigendom $1 bieden" },
-        { en: "Delaying auctions intentionally", es: "Retrasar subastas intencionalmente", de: "Auktionen absichtlich verzögern", nl: "Veilingen opzettelijk vertragen" }
-      ],
-      correct: 1,
-      explanation: {
-        en: "Auction denial was when players would collude by not bidding in auctions, allowing one player to acquire properties for $1. Tournament rules now require minimum bid increases and anti-collusion monitoring.",
-        es: "La negación de subasta era cuando los jugadores colucían al no ofertar en subastas, permitiendo que un jugador adquiriera propiedades por $1. Las reglas de torneo ahora requieren aumentos de oferta mínimos y monitoreo anti-colusión.",
-        de: "Auktionsverweigerung war wenn Spieler kolludierten indem sie nicht in Auktionen boten, was einem Spieler ermöglichte Grundstücke für $1 zu erwerben. Turnierregeln erfordern jetzt Mindestgebotserhöhungen und Anti-Kollusions-Überwachung.",
-        nl: "Veiling ontkenning was wanneer spelers samensponnen door niet te bieden in veilingen, waardoor één speler eigendommen kon verwerven voor $1. Toernooiregels vereisen nu minimale bod verhogingen en anti-samenzwering monitoring."
-      }
-    },
-    {
-      question: {
-        en: "What is the mathematical expected value of a single railroad?",
-        es: "¿Cuál es el valor esperado matemático de un solo ferrocarril?",
-        de: "Was ist der mathematische Erwartungswert einer einzelnen Eisenbahn?",
-        nl: "Wat is de wiskundige verwachte waarde van één spoorweg?"
-      },
-      options: [
-        { en: "$25-$30 per circuit", es: "$25-$30 por circuito", de: "$25-$30 pro Umrundung", nl: "$25-$30 per ronde" },
-        { en: "$40-$50 per circuit", es: "$40-$50 por circuito", de: "$40-$50 pro Umrundung", nl: "$40-$50 per ronde" },
-        { en: "$70-$80 per circuit", es: "$70-$80 por circuito", de: "$70-$80 pro Umrundung", nl: "$70-$80 per ronde" },
-        { en: "$100-$120 per circuit", es: "$100-$120 por circuito", de: "$100-$120 pro Umrundung", nl: "$100-$120 per ronde" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "A single railroad generates $25-$30 expected value per board circuit based on 2.8% landing probability and $25 rent, making them poor individual investments but valuable in sets.",
-        es: "Un solo ferrocarril genera $25-$30 de valor esperado por circuito del tablero basado en 2.8% de probabilidad de caída y $25 de alquiler, haciéndolos inversiones individuales pobres pero valiosos en conjuntos.",
-        de: "Eine einzelne Eisenbahn generiert $25-$30 Erwartungswert pro Brettumrundung basierend auf 2,8% Landewahrscheinlichkeit und $25 Miete, was sie zu schlechten Einzelinvestitionen aber wertvoll in Sets macht.",
-        nl: "Eén spoorweg genereert $25-$30 verwachte waarde per bord ronde gebaseerd op 2,8% landingswaarschijnlijkheid en $25 huur, waardoor ze slechte individuele investeringen zijn maar waardevol in sets."
-      }
-    },
-    {
-      question: {
-        en: "What is the 'bankruptcy timing' advantage in 3+ player games?",
-        es: "¿Qué es la ventaja de 'momento de quiebra' en juegos de 3+ jugadores?",
-        de: "Was ist der 'Bankrott-Timing'-Vorteil in Spielen mit 3+ Spielern?",
-        nl: "Wat is het 'faillissement timing' voordeel in 3+ speler spellen?"
-      },
-      options: [
-        { en: "Always try to bankrupt players early", es: "Intentar siempre arruinar jugadores temprano", de: "Immer versuchen Spieler früh bankrott zu machen", nl: "Altijd proberen spelers vroeg failliet te laten gaan" },
-        { en: "Let other players bankrupt each other while you build", es: "Dejar que otros jugadores se arruinen entre sí mientras construyes", de: "Andere Spieler sich gegenseitig bankrott machen lassen während man baut", nl: "Laat andere spelers elkaar failliet laten gaan terwijl jij bouwt" },
-        { en: "Form alliances to bankrupt specific player", es: "Formar alianzas para arruinar jugador específico", de: "Allianzen bilden um bestimmten Spieler bankrott zu machen", nl: "Allianties vormen om specifieke speler failliet te laten gaan" },
-        { en: "Bankrupting players has no timing advantage", es: "Arruinar jugadores no tiene ventaja de momento", de: "Spieler bankrott machen hat keinen Timing-Vorteil", nl: "Spelers failliet laten gaan heeft geen timing voordeel" }
-      ],
-      correct: 1,
-      explanation: {
-        en: "In multi-player games, letting opponents bankrupt each other while you develop properties and conserve cash provides strategic advantage, as fighting depletes both parties' resources.",
-        es: "En juegos de múltiples jugadores, dejar que los oponentes se arruinen entre sí mientras desarrollas propiedades y conservas efectivo proporciona ventaja estratégica, ya que pelear agota los recursos de ambas partes.",
-        de: "In Mehrspielerspielen bietet es strategischen Vorteil, Gegner sich gegenseitig bankrott machen zu lassen während man Grundstücke entwickelt und Bargeld spart, da Kämpfen die Ressourcen beider Parteien erschöpft.",
-        nl: "In multi-speler spellen biedt het strategisch voordeel om tegenstanders elkaar failliet te laten gaan terwijl je eigendommen ontwikkelt en cash behoudt, omdat vechten de middelen van beide partijen uitput."
-      }
-    },
-    {
-      question: {
-        en: "According to championship data, what is the average game length under official tournament rules?",
-        es: "Según datos de campeonato, ¿cuál es la duración promedio del juego bajo reglas oficiales de torneo?",
-        de: "Laut Meisterschaftsdaten, wie lang ist die durchschnittliche Spieldauer unter offiziellen Turnierregeln?",
-        nl: "Volgens kampioenschapsgegevens, wat is de gemiddelde spelduur onder officiële toernooiregels?"
-      },
-      options: [
-        { en: "15-20 minutes", es: "15-20 minutos", de: "15-20 Minuten", nl: "15-20 minuten" },
-        { en: "30-45 minutes", es: "30-45 minutos", de: "30-45 Minuten", nl: "30-45 minuten" },
-        { en: "60-90 minutes", es: "60-90 minutos", de: "60-90 Minuten", nl: "60-90 minuten" },
-        { en: "2-3 hours", es: "2-3 horas", de: "2-3 Stunden", nl: "2-3 uur" }
-      ],
-      correct: 1,
-      explanation: {
-        en: "Official tournament games with strict auction rules, time limits, and no house rules average 30-45 minutes. Casual games with house rules often take 2-3+ hours.",
-        es: "Los juegos de torneo oficiales con reglas de subasta estrictas, límites de tiempo y sin reglas caseras promedian 30-45 minutos. Los juegos casuales con reglas caseras a menudo toman 2-3+ horas.",
-        de: "Offizielle Turnierspiele mit strengen Auktionsregeln, Zeitlimits und ohne Hausregeln dauern durchschnittlich 30-45 Minuten. Gelegenheitsspiele mit Hausregeln dauern oft 2-3+ Stunden.",
-        nl: "Officiële toernooi spellen met strikte veiling regels, tijdslimieten en zonder huisregels gemiddeld 30-45 minuten. Casual spellen met huisregels duren vaak 2-3+ uur."
-      }
-    },
-    {
-      question: {
-        en: "What is the 'development rush' meta-strategy in competitive play?",
-        es: "¿Qué es la meta-estrategia de 'prisa de desarrollo' en juego competitivo?",
-        de: "Was ist die 'Entwicklungs-Rush' Meta-Strategie im Wettbewerbsspiel?",
-        nl: "Wat is de 'ontwikkeling rush' meta-strategie in competitief spel?"
-      },
-      options: [
-        { en: "Building slowly and saving cash reserves", es: "Construir lentamente y ahorrar reservas de efectivo", de: "Langsam bauen und Bargeldreserven sparen", nl: "Langzaam bouwen en cash reserves sparen" },
-        { en: "Immediately building 3 houses on each property of first monopoly", es: "Construir inmediatamente 3 casas en cada propiedad del primer monopolio", de: "Sofort 3 Häuser auf jedem Grundstück des ersten Monopols bauen", nl: "Onmiddellijk 3 huizen bouwen op elk eigendom van eerste monopolie" },
-        { en: "Only building after all players have monopolies", es: "Solo construir después de que todos los jugadores tengan monopolios", de: "Nur bauen nachdem alle Spieler Monopole haben", nl: "Alleen bouwen nadat alle spelers monopolies hebben" },
-        { en: "Focusing on railroads before monopolies", es: "Enfocarse en ferrocarriles antes que monopolios", de: "Sich auf Eisenbahnen vor Monopolen konzentrieren", nl: "Focussen op spoorwegen voor monopolies" }
-      ],
-      correct: 1,
-      explanation: {
-        en: "Development rush strategy: immediately build 3 houses on each property of your first monopoly to maximize rent income ASAP, creating economic pressure on opponents before they can develop.",
-        es: "Estrategia de prisa de desarrollo: construir inmediatamente 3 casas en cada propiedad de tu primer monopolio para maximizar ingresos de alquiler lo antes posible, creando presión económica en oponentes antes de que puedan desarrollar.",
-        de: "Entwicklungs-Rush-Strategie: sofort 3 Häuser auf jedem Grundstück des ersten Monopols bauen um Mieteinnahmen schnellstmöglich zu maximieren, wirtschaftlichen Druck auf Gegner aufbauend bevor sie entwickeln können.",
-        nl: "Ontwikkeling rush strategie: onmiddellijk 3 huizen bouwen op elk eigendom van je eerste monopolie om huurinkomsten ASAP te maximaliseren, economische druk creërend op tegenstanders voordat ze kunnen ontwikkelen."
-      }
-    },
-    {
-      question: {
-        en: "What is the 'property denial' value in advanced trading?",
-        es: "¿Qué es el valor de 'negación de propiedad' en comercio avanzado?",
-        de: "Was ist der 'Grundstücksverweigerungs'-Wert im fortgeschrittenen Handel?",
-        nl: "Wat is de 'eigendom ontkenning' waarde in geavanceerd handelen?"
-      },
-      options: [
-        { en: "Value of preventing opponent from getting monopoly", es: "Valor de evitar que oponente obtenga monopolio", de: "Wert zu verhindern dass Gegner Monopol bekommt", nl: "Waarde van voorkomen dat tegenstander monopolie krijgt" },
-        { en: "Value of refusing to trade entirely", es: "Valor de negarse a negociar completamente", de: "Wert sich komplett zu weigern zu handeln", nl: "Waarde van volledig weigeren te handelen" },
-        { en: "Value of mortgaged properties", es: "Valor de propiedades hipotecadas", de: "Wert verpfändeter Grundstücke", nl: "Waarde van gehypothekeerde eigendommen" },
-        { en: "Value of unused development potential", es: "Valor del potencial de desarrollo no utilizado", de: "Wert ungenutzten Entwicklungspotenzials", nl: "Waarde van ongebruikt ontwikkelingspotentieel" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Property denial value is the strategic worth of holding a property specifically to prevent an opponent from completing a monopoly, often worth more than the property's face value in trades.",
-        es: "El valor de negación de propiedad es el valor estratégico de mantener una propiedad específicamente para evitar que un oponente complete un monopolio, a menudo vale más que el valor nominal de la propiedad en negociaciones.",
-        de: "Grundstücksverweigerungswert ist der strategische Wert ein Grundstück zu halten speziell um zu verhindern dass ein Gegner ein Monopol vervollständigt, oft mehr wert als der Nennwert des Grundstücks im Handel.",
-        nl: "Eigendom ontkenning waarde is de strategische waarde van het behouden van een eigendom specifiek om te voorkomen dat een tegenstander een monopolie voltooit, vaak meer waard dan de nominale waarde van het eigendom in ruil."
-      }
-    },
-    {
-      question: {
-        en: "What is the optimal number of complete monopolies to win in a 4-player game?",
-        es: "¿Cuál es el número óptimo de monopolios completos para ganar en un juego de 4 jugadores?",
-        de: "Was ist die optimale Anzahl vollständiger Monopole um in einem 4-Spieler-Spiel zu gewinnen?",
-        nl: "Wat is het optimale aantal volledige monopolies om te winnen in een 4-speler spel?"
-      },
-      options: [
-        { en: "1 monopoly is sufficient if developed", es: "1 monopolio es suficiente si está desarrollado", de: "1 Monopol ist ausreichend wenn entwickelt", nl: "1 monopolie is voldoende als ontwikkeld" },
-        { en: "2 monopolies provide best winning odds", es: "2 monopolios proporcionan mejores probabilidades de ganar", de: "2 Monopole bieten beste Gewinnchancen", nl: "2 monopolies bieden beste winkansen" },
-        { en: "3+ monopolies needed to guarantee win", es: "3+ monopolios necesarios para garantizar victoria", de: "3+ Monopole nötig um Sieg zu garantieren", nl: "3+ monopolies nodig om winst te garanderen" },
-        { en: "Number of monopolies doesn't affect winning", es: "El número de monopolios no afecta la victoria", de: "Anzahl der Monopole beeinflusst Gewinn nicht", nl: "Aantal monopolies beïnvloedt winnen niet" }
-      ],
-      correct: 1,
-      explanation: {
-        en: "Statistical analysis shows 2 developed monopolies provide optimal winning probability in 4-player games: enough economic power to bankrupt opponents while not overextending resources.",
-        es: "El análisis estadístico muestra que 2 monopolios desarrollados proporcionan probabilidad de victoria óptima en juegos de 4 jugadores: suficiente poder económico para arruinar oponentes sin sobreextender recursos.",
-        de: "Statistische Analyse zeigt 2 entwickelte Monopole bieten optimale Gewinnwahrscheinlichkeit in 4-Spieler-Spielen: genug wirtschaftliche Macht um Gegner bankrott zu machen ohne Ressourcen zu überanstrengen.",
-        nl: "Statistische analyse toont 2 ontwikkelde monopolies bieden optimale winkans in 4-speler spellen: genoeg economische macht om tegenstanders failliet te laten gaan zonder middelen te veel uit te breiden."
-      }
-    },
-    {
-      question: {
-        en: "What is the 'liquidity crisis' point in expert Monopoly analysis?",
-        es: "¿Qué es el punto de 'crisis de liquidez' en el análisis experto de Monopoly?",
-        de: "Was ist der 'Liquiditätskrisen'-Punkt in der Experten-Monopoly-Analyse?",
-        nl: "Wat is het 'liquiditeitscrisis' punt in expert Monopoly analyse?"
-      },
-      options: [
-        { en: "When bank runs out of money", es: "Cuando el banco se queda sin dinero", de: "Wenn Bank kein Geld mehr hat", nl: "Wanneer bank geen geld meer heeft" },
-        { en: "When player has <$200 cash with developed properties nearby", es: "Cuando jugador tiene <$200 efectivo con propiedades desarrolladas cerca", de: "Wenn Spieler <$200 Bargeld hat mit entwickelten Grundstücken in der Nähe", nl: "Wanneer speler <$200 cash heeft met ontwikkelde eigendommen nabij" },
-        { en: "When all properties are owned", es: "Cuando todas las propiedades son poseídas", de: "Wenn alle Grundstücke besessen werden", nl: "Wanneer alle eigendommen bezeten zijn" },
-        { en: "When houses are exhausted", es: "Cuando las casas se agotan", de: "Wenn Häuser erschöpft sind", nl: "Wanneer huizen uitgeput zijn" }
-      ],
-      correct: 1,
-      explanation: {
-        en: "Liquidity crisis occurs when you have <$200 cash with high-rent developed properties ahead, forcing mortgaging decisions. Expert play aims to keep opponents in this state while avoiding it yourself.",
-        es: "La crisis de liquidez ocurre cuando tienes <$200 efectivo con propiedades desarrolladas de alto alquiler adelante, forzando decisiones de hipoteca. El juego experto busca mantener oponentes en este estado mientras lo evitas tú mismo.",
-        de: "Liquiditätskrise tritt auf wenn man <$200 Bargeld hat mit hochpreisigen entwickelten Grundstücken voraus, was Beliehungsentscheidungen erzwingt. Expertenspiel zielt darauf Gegner in diesem Zustand zu halten während man es selbst vermeidet.",
-        nl: "Liquiditeitscrisis treedt op wanneer je <$200 cash hebt met hoge-huur ontwikkelde eigendommen vooruit, wat hypotheek beslissingen afdwingt. Expert spel richt zich op tegenstanders in deze staat houden terwijl je het zelf vermijdt."
-      }
-    },
-    {
-      question: {
-        en: "What percentage of tournament games are won by the player completing first monopoly?",
-        es: "¿Qué porcentaje de juegos de torneo son ganados por el jugador que completa el primer monopolio?",
-        de: "Welcher Prozentsatz der Turnierspiele wird vom Spieler gewonnen der das erste Monopol vervollständigt?",
-        nl: "Welk percentage van toernooi spellen wordt gewonnen door de speler die het eerste monopolie voltooit?"
-      },
-      options: [
-        { en: "~35% (minor advantage)", es: "~35% (ventaja menor)", de: "~35% (kleiner Vorteil)", nl: "~35% (klein voordeel)" },
-        { en: "~50% (no advantage)", es: "~50% (sin ventaja)", de: "~50% (kein Vorteil)", nl: "~50% (geen voordeel)" },
-        { en: "~65% (significant advantage)", es: "~65% (ventaja significativa)", de: "~65% (signifikanter Vorteil)", nl: "~65% (significant voordeel)" },
-        { en: "~85% (overwhelming advantage)", es: "~85% (ventaja abrumadora)", de: "~85% (überwältigender Vorteil)", nl: "~85% (overweldigend voordeel)" }
-      ],
-      correct: 2,
-      explanation: {
-        en: "Tournament data shows ~65% of games are won by whoever completes the first monopoly and develops it to 3 houses, demonstrating the critical importance of early monopoly formation and rapid development.",
-        es: "Los datos de torneo muestran que ~65% de los juegos son ganados por quien completa el primer monopolio y lo desarrolla a 3 casas, demostrando la importancia crítica de la formación temprana de monopolio y desarrollo rápido.",
-        de: "Turnierdaten zeigen ~65% der Spiele werden von wem auch immer das erste Monopol vervollständigt und auf 3 Häuser entwickelt gewonnen, was die kritische Wichtigkeit früher Monopolbildung und schneller Entwicklung demonstriert.",
-        nl: "Toernooi gegevens tonen ~65% van de spellen worden gewonnen door wie het eerste monopolie voltooit en ontwikkelt tot 3 huizen, wat het kritieke belang van vroege monopolie vorming en snelle ontwikkeling demonstreert."
-      }
-    },
-    {
-      question: {
-        en: "What is the 'cash flow analysis' method used by championship players?",
-        es: "¿Qué es el método de 'análisis de flujo de efectivo' usado por jugadores de campeonato?",
-        de: "Was ist die 'Cashflow-Analyse'-Methode die von Meisterschaftsspielern verwendet wird?",
-        nl: "Wat is de 'cashflow analyse' methode gebruikt door kampioenschapspelers?"
-      },
-      options: [
-        { en: "Counting exact money in hand at all times", es: "Contar dinero exacto en mano en todo momento", de: "Genaues Bargeld in der Hand jederzeit zählen", nl: "Exact geld in handen tellen te allen tijde" },
-        { en: "Tracking income vs expense per circuit to predict survival rounds", es: "Rastrear ingresos vs gastos por circuito para predecir rondas de supervivencia", de: "Einkommen vs Ausgaben pro Umrundung verfolgen um Überlebensrunden vorherzusagen", nl: "Inkomsten vs uitgaven per ronde volgen om overlevingsrondes te voorspellen" },
-        { en: "Recording all transactions on paper", es: "Registrar todas las transacciones en papel", de: "Alle Transaktionen auf Papier aufzeichnen", nl: "Alle transacties op papier registreren" },
-        { en: "Estimating property values only", es: "Estimar solo valores de propiedad", de: "Nur Grundstückswerte schätzen", nl: "Alleen eigendomswaarden schatten" }
-      ],
-      correct: 1,
-      explanation: {
-        en: "Championship players mentally track expected income (GO + owned property rents collected) vs expected expenses (opponent rents paid) per circuit to predict how many circuits they can survive, informing aggressive vs defensive strategy choices.",
-        es: "Los jugadores de campeonato rastrean mentalmente ingresos esperados (SALIDA + alquileres de propiedades poseídas cobrados) vs gastos esperados (alquileres de oponentes pagados) por circuito para predecir cuántos circuitos pueden sobrevivir, informando elecciones de estrategia agresiva vs defensiva.",
-        de: "Meisterschaftsspieler verfolgen mental erwartetes Einkommen (LOS + Mieten gesammelter Grundstücke) vs erwartete Ausgaben (Mieten an Gegner gezahlt) pro Umrundung um vorherzusagen wie viele Umrundungen sie überleben können, was aggressive vs defensive Strategiewahlen informiert.",
-        nl: "Kampioenschapsspelers volgen mentaal verwachte inkomsten (START + verzamelde huren van bezeten eigendommen) vs verwachte uitgaven (huren aan tegenstanders betaald) per ronde om te voorspellen hoeveel rondes ze kunnen overleven, wat agressieve vs defensieve strategie keuzes informeert."
-      }
-    },
-    {
-      question: {
-        en: "What is the 'building window' concept in competitive Monopoly?",
-        es: "¿Qué es el concepto de 'ventana de construcción' en Monopoly competitivo?",
-        de: "Was ist das 'Baufenster'-Konzept im Wettbewerbs-Monopoly?",
-        nl: "Wat is het 'bouw venster' concept in competitief Monopoly?"
-      },
-      options: [
-        { en: "Time limit for building between turns", es: "Límite de tiempo para construir entre turnos", de: "Zeitlimit für Bauen zwischen Runden", nl: "Tijdslimiet voor bouwen tussen beurten" },
-        { en: "Optimal moment to develop before opponents land on your properties", es: "Momento óptimo para desarrollar antes de que oponentes caigan en tus propiedades", de: "Optimaler Moment zu entwickeln bevor Gegner auf Grundstücken landen", nl: "Optimaal moment om te ontwikkelen voordat tegenstanders op je eigendommen landen" },
-        { en: "Physical space needed to place houses", es: "Espacio físico necesario para colocar casas", de: "Physischer Raum benötigt um Häuser zu platzieren", nl: "Fysieke ruimte nodig om huizen te plaatsen" },
-        { en: "Number of turns allowed for construction", es: "Número de turnos permitidos para construcción", de: "Anzahl der Runden erlaubt für Bau", nl: "Aantal beurten toegestaan voor constructie" }
-      ],
-      correct: 1,
-      explanation: {
-        en: "Building window is the critical timing decision of when to develop properties: build too early and deplete cash reserves; too late and opponents bypass your undeveloped monopoly. Expert play identifies optimal building moments based on opponent positions and cash flow.",
-        es: "La ventana de construcción es la decisión de momento crítico de cuándo desarrollar propiedades: construir demasiado temprano y agotar reservas de efectivo; demasiado tarde y oponentes evitan tu monopolio sin desarrollar. El juego experto identifica momentos óptimos de construcción basados en posiciones de oponentes y flujo de efectivo.",
-        de: "Baufenster ist die kritische Timing-Entscheidung wann Grundstücke zu entwickeln: zu früh bauen erschöpft Bargeldreserven; zu spät und Gegner umgehen unentwickeltes Monopol. Expertenspiel identifiziert optimale Baumomente basierend auf Gegnerpositionen und Cashflow.",
-        nl: "Bouw venster is de kritieke timing beslissing van wanneer eigendommen te ontwikkelen: te vroeg bouwen put cash reserves uit; te laat en tegenstanders omzeilen je onontwikkelde monopolie. Expert spel identificeert optimale bouw momenten gebaseerd op tegenstander posities en cashflow."
-      }
-    },
-    {
-      question: {
-        en: "What does the 'monopoly paradox' refer to in game theory analysis?",
-        es: "¿A qué se refiere la 'paradoja del monopolio' en el análisis de teoría de juegos?",
-        de: "Worauf bezieht sich das 'Monopol-Paradoxon' in der Spieltheorie-Analyse?",
-        nl: "Waar verwijst de 'monopolie paradox' naar in speltheorie analyse?"
-      },
-      options: [
-        { en: "Having too many monopolies weakens position", es: "Tener demasiados monopolios debilita la posición", de: "Zu viele Monopole schwächen Position", nl: "Te veel monopolies verzwakt positie" },
-        { en: "Completing monopoly makes you primary target for trade denial", es: "Completar monopolio te hace objetivo principal para negación de comercio", de: "Monopol vervollständigen macht zum Hauptziel für Handelsverweigerung", nl: "Monopolie voltooien maakt je primair doelwit voor handelsweigering" },
-        { en: "Best strategy is to avoid monopolies entirely", es: "La mejor estrategia es evitar monopolios completamente", de: "Beste Strategie ist Monopole komplett zu vermeiden", nl: "Beste strategie is monopolies volledig vermijden" },
-        { en: "Players with no monopolies win most often", es: "Jugadores sin monopolios ganan más a menudo", de: "Spieler ohne Monopole gewinnen am häufigsten", nl: "Spelers zonder monopolies winnen het vaakst" }
-      ],
-      correct: 1,
-      explanation: {
-        en: "Monopoly paradox: completing a monopoly makes you the primary threat, causing opponents to collude against you in trades and refuse deals that benefit you, requiring diplomatic skill to navigate.",
-        es: "Paradoja del monopolio: completar un monopolio te hace la amenaza principal, causando que oponentes coludan contra ti en negociaciones y rechacen acuerdos que te beneficien, requiriendo habilidad diplomática para navegar.",
-        de: "Monopol-Paradoxon: ein Monopol zu vervollständigen macht dich zur Hauptbedrohung, veranlasst Gegner gegen dich im Handel zu kolludieren und Deals abzulehnen die dir nutzen, erfordert diplomatisches Geschick zur Navigation.",
-        nl: "Monopolie paradox: een monopolie voltooien maakt je de primaire bedreiging, waardoor tegenstanders samenzweren tegen je in handel en deals weigeren die jou bevoordelen, wat diplomatieke vaardigheid vereist om te navigeren."
-      }
-    },
-    {
-      question: {
-        en: "What is the 'rent efficiency ratio' used by data-driven tournament players?",
-        es: "¿Qué es la 'relación de eficiencia de alquiler' usada por jugadores de torneo basados en datos?",
-        de: "Was ist das 'Mieteffizienz-Verhältnis' das von datengetriebenen Turnierspielern verwendet wird?",
-        nl: "Wat is de 'huur efficiëntie ratio' gebruikt door data-gedreven toernooi spelers?"
-      },
-      options: [
-        { en: "Rent collected divided by property purchase price", es: "Alquiler cobrado dividido por precio de compra de propiedad", de: "Miete gesammelt geteilt durch Grundstückskaufpreis", nl: "Huur verzameld gedeeld door eigendom aankoopprijs" },
-        { en: "Total rent divided by development cost (property + buildings)", es: "Alquiler total dividido por costo de desarrollo (propiedad + edificios)", de: "Gesamtmiete geteilt durch Entwicklungskosten (Grundstück + Gebäude)", nl: "Totale huur gedeeld door ontwikkelingskosten (eigendom + gebouwen)" },
-        { en: "Expected rent per circuit divided by total investment", es: "Alquiler esperado por circuito dividido por inversión total", de: "Erwartete Miete pro Umrundung geteilt durch Gesamtinvestition", nl: "Verwachte huur per ronde gedeeld door totale investering" },
-        { en: "Average rent collected per turn", es: "Alquiler promedio cobrado por turno", de: "Durchschnittliche Miete pro Runde gesammelt", nl: "Gemiddelde huur verzameld per beurt" }
-      ],
-      correct: 2,
-      explanation: {
-        en: "Rent efficiency ratio = (expected rent per circuit × landing probability) ÷ total investment. Used to compare monopoly value: orange properties typically have highest ratio (12-15%), while dark blue lowest (4-6%).",
-        es: "Relación de eficiencia de alquiler = (alquiler esperado por circuito × probabilidad de caída) ÷ inversión total. Usado para comparar valor de monopolio: propiedades naranjas típicamente tienen relación más alta (12-15%), mientras azul oscuro más baja (4-6%).",
-        de: "Mieteffizienz-Verhältnis = (erwartete Miete pro Umrundung × Landewahrscheinlichkeit) ÷ Gesamtinvestition. Verwendet um Monopolwert zu vergleichen: orange Grundstücke haben typisch höchstes Verhältnis (12-15%), während dunkelblau niedrigstes (4-6%).",
-        nl: "Huur efficiëntie ratio = (verwachte huur per ronde × landingswaarschijnlijkheid) ÷ totale investering. Gebruikt om monopolie waarde te vergelijken: oranje eigendommen hebben typisch hoogste ratio (12-15%), terwijl donkerblauw laagste (4-6%)."
-      }
-    },
-    {
-      question: {
-        en: "What is the advanced concept of 'positional equity' in Monopoly?",
-        es: "¿Qué es el concepto avanzado de 'equidad posicional' en Monopoly?",
-        de: "Was ist das fortgeschrittene Konzept der 'Positions-Equity' in Monopoly?",
-        nl: "Wat is het geavanceerde concept van 'positionele equity' in Monopoly?"
-      },
-      options: [
-        { en: "Your current board position relative to developed properties", es: "Tu posición actual del tablero relativa a propiedades desarrolladas", de: "Ihre aktuelle Brettposition relativ zu entwickelten Grundstücken", nl: "Je huidige bordpositie relatief tot ontwikkelde eigendommen" },
-        { en: "Total value of properties you own", es: "Valor total de propiedades que posees", de: "Gesamtwert der Grundstücke die Sie besitzen", nl: "Totale waarde van eigendommen die je bezit" },
-        { en: "Probability of completing next monopoly", es: "Probabilidad de completar próximo monopolio", de: "Wahrscheinlichkeit nächstes Monopol zu vervollständigen", nl: "Waarschijnlijkheid van voltooien van volgende monopolie" },
-        { en: "Number of properties held compared to opponents", es: "Número de propiedades poseídas comparado con oponentes", de: "Anzahl der Grundstücke verglichen mit Gegnern", nl: "Aantal eigendommen bezeten vergeleken met tegenstanders" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Positional equity quantifies your advantage/disadvantage based on current board position: being 2-6 spaces before opponents' developed properties increases equity, while being 2-6 behind decreases it. Used to value position-for-cash trades and jail decisions.",
-        es: "La equidad posicional cuantifica tu ventaja/desventaja basada en posición actual del tablero: estar 2-6 espacios antes de propiedades desarrolladas de oponentes aumenta equidad, mientras estar 2-6 detrás la disminuye. Usado para valorar negociaciones de posición-por-efectivo y decisiones de cárcel.",
-        de: "Positions-Equity quantifiziert Ihren Vorteil/Nachteil basierend auf aktueller Brettposition: 2-6 Felder vor entwickelten Grundstücken der Gegner erhöht Equity, während 2-6 dahinter sie verringert. Verwendet um Position-für-Bargeld-Handel und Gefängnisentscheidungen zu bewerten.",
-        nl: "Positionele equity kwantificeert je voordeel/nadeel gebaseerd op huidige bordpositie: 2-6 vakken voor ontwikkelde eigendommen van tegenstanders verhoogt equity, terwijl 2-6 erachter het verlaagt. Gebruikt om positie-voor-cash ruilen en gevangenis beslissingen te waarderen."
-      }
-    },
-    {
-      question: {
-        en: "What is the 'critical mass threshold' in Monopoly economics?",
-        es: "¿Qué es el 'umbral de masa crítica' en la economía de Monopoly?",
-        de: "Was ist die 'kritische Massenschwelle' in der Monopoly-Ökonomie?",
-        nl: "Wat is de 'kritieke massa drempel' in Monopoly economie?"
-      },
-      options: [
-        { en: "When bank runs out of bills", es: "Cuando el banco se queda sin billetes", de: "Wenn Bank keine Scheine mehr hat", nl: "Wanneer bank geen biljetten meer heeft" },
-        { en: "When total development reaches ~$2000-2500 causing bankruptcies", es: "Cuando el desarrollo total alcanza ~$2000-2500 causando quiebras", de: "Wenn Gesamtentwicklung ~$2000-2500 erreicht was Bankrotte verursacht", nl: "Wanneer totale ontwikkeling ~$2000-2500 bereikt wat faillissementen veroorzaakt" },
-        { en: "When all properties are owned", es: "Cuando todas las propiedades son poseídas", de: "Wenn alle Grundstücke besessen werden", nl: "Wanneer alle eigendommen bezeten zijn" },
-        { en: "When 3+ players go bankrupt", es: "Cuando 3+ jugadores quiebran", de: "Wenn 3+ Spieler bankrott gehen", nl: "Wanneer 3+ spelers failliet gaan" }
-      ],
-      correct: 1,
-      explanation: {
-        en: "Critical mass occurs when total board development (all buildings) reaches $2000-2500, creating sufficient rent pressure to force bankruptcies. Games typically resolve within 2-3 circuits after reaching this threshold.",
-        es: "La masa crítica ocurre cuando el desarrollo total del tablero (todos los edificios) alcanza $2000-2500, creando presión de alquiler suficiente para forzar quiebras. Los juegos típicamente se resuelven dentro de 2-3 circuitos después de alcanzar este umbral.",
-        de: "Kritische Masse tritt auf wenn Gesamtbrettentwicklung (alle Gebäude) $2000-2500 erreicht, was ausreichenden Mietdruck schafft um Bankrotte zu erzwingen. Spiele lösen sich typisch innerhalb 2-3 Umrundungen nach Erreichen dieser Schwelle.",
-        nl: "Kritieke massa treedt op wanneer totale bord ontwikkeling (alle gebouwen) $2000-2500 bereikt, voldoende huur druk creërend om faillissementen af te dwingen. Spellen lossen typisch op binnen 2-3 rondes na het bereiken van deze drempel."
-      }
-    },
-    {
-      question: {
-        en: "What is the 'asymmetric trade value' principle in championship negotiations?",
-        es: "¿Qué es el principio de 'valor de comercio asimétrico' en negociaciones de campeonato?",
-        de: "Was ist das 'asymmetrische Handelswert'-Prinzip in Meisterschaftsverhandlungen?",
-        nl: "Wat is het 'asymmetrische handelswaarde' principe in kampioenschaps onderhandelingen?"
-      },
-      options: [
-        { en: "Trading properties of equal face value", es: "Negociar propiedades de igual valor nominal", de: "Grundstücke gleichen Nennwerts handeln", nl: "Eigendommen van gelijke nominale waarde ruilen" },
-        { en: "Same property has different strategic value to different players", es: "La misma propiedad tiene diferente valor estratégico para diferentes jugadores", de: "Gleiches Grundstück hat unterschiedlichen strategischen Wert für verschiedene Spieler", nl: "Hetzelfde eigendom heeft verschillende strategische waarde voor verschillende spelers" },
-        { en: "Always trading one-for-one", es: "Siempre negociar uno-por-uno", de: "Immer eins-zu-eins handeln", nl: "Altijd één-voor-één ruilen" },
-        { en: "Never trading with same player twice", es: "Nunca negociar con el mismo jugador dos veces", de: "Nie zweimal mit gleichem Spieler handeln", nl: "Nooit twee keer met dezelfde speler ruilen" }
-      ],
-      correct: 1,
-      explanation: {
-        en: "Asymmetric value: a property completing your orange monopoly is worth $800+ to you but only face value ($180-200) to opponent. Expert negotiators exploit this value difference to create mutually beneficial but asymmetrically valuable trades.",
-        es: "Valor asimétrico: una propiedad completando tu monopolio naranja vale $800+ para ti pero solo valor nominal ($180-200) para oponente. Negociadores expertos explotan esta diferencia de valor para crear negociaciones mutuamente beneficiosas pero asimétricamente valiosas.",
-        de: "Asymmetrischer Wert: ein Grundstück das Ihr orangenes Monopol vervollständigt ist $800+ für Sie wert aber nur Nennwert ($180-200) für Gegner. Expertenverhandler nutzen diesen Wertunterschied um gegenseitig vorteilhafte aber asymmetrisch wertvolle Handel zu schaffen.",
-        nl: "Asymmetrische waarde: een eigendom dat je oranje monopolie voltooit is $800+ waard voor jou maar slechts nominale waarde ($180-200) voor tegenstander. Expert onderhandelaars exploiteren dit waarde verschil om wederzijds voordelige maar asymmetrisch waardevolle ruilen te creëren."
-      }
-    },
-    {
-      question: {
-        en: "What does 'tournament endgame theory' teach about final 1v1 situations?",
-        es: "¿Qué enseña la 'teoría de final de torneo' sobre situaciones finales 1v1?",
-        de: "Was lehrt die 'Turnier-Endspiel-Theorie' über finale 1v1-Situationen?",
-        nl: "Wat leert 'toernooi eindspel theorie' over finale 1v1 situaties?"
-      },
-      options: [
-        { en: "Player with most properties wins", es: "Jugador con más propiedades gana", de: "Spieler mit meisten Grundstücken gewinnt", nl: "Speler met meeste eigendommen wint" },
-        { en: "Player with most cash wins", es: "Jugador con más efectivo gana", de: "Spieler mit meistem Bargeld gewinnt", nl: "Speler met meeste cash wint" },
-        { en: "Player with superior development density wins in ~3-5 circuits", es: "Jugador con densidad de desarrollo superior gana en ~3-5 circuitos", de: "Spieler mit überlegener Entwicklungsdichte gewinnt in ~3-5 Umrundungen", nl: "Speler met superieure ontwikkelingsdichtheid wint in ~3-5 rondes" },
-        { en: "1v1 games take 10+ circuits to resolve", es: "Juegos 1v1 toman 10+ circuitos para resolver", de: "1v1-Spiele brauchen 10+ Umrundungen zur Auflösung", nl: "1v1 spellen nemen 10+ rondes om op te lossen" }
-      ],
-      correct: 2,
-      explanation: {
-        en: "Tournament endgame analysis: in 1v1, player with higher 'development density' (total rent capacity per $100 invested) wins in 3-5 circuits through cumulative rent advantage, making late-game development efficiency critical.",
-        es: "Análisis de final de torneo: en 1v1, jugador con mayor 'densidad de desarrollo' (capacidad de alquiler total por $100 invertido) gana en 3-5 circuitos a través de ventaja de alquiler acumulativa, haciendo la eficiencia de desarrollo de juego tardío crítica.",
-        de: "Turnier-Endspiel-Analyse: in 1v1 gewinnt Spieler mit höherer 'Entwicklungsdichte' (gesamte Mietkapazität pro $100 investiert) in 3-5 Umrundungen durch kumulative Mietvorteil, was späte-Spiel-Entwicklungseffizienz kritisch macht.",
-        nl: "Toernooi eindspel analyse: in 1v1 wint speler met hogere 'ontwikkelingsdichtheid' (totale huur capaciteit per $100 geïnvesteerd) in 3-5 rondes door cumulatief huur voordeel, wat laat-spel ontwikkelings efficiëntie kritiek maakt."
-      }
-    },
-    {
-      question: {
-        en: "What is the mathematical concept of 'liquidity trap' in Monopoly strategy?",
-        es: "¿Cuál es el concepto matemático de 'trampa de liquidez' en la estrategia de Monopoly?",
-        de: "Was ist das mathematische Konzept der 'Liquiditätsfalle' in der Monopoly-Strategie?",
-        nl: "Wat is het mathematische concept van 'liquiditeitsval' in Monopoly strategie?"
-      },
-      options: [
-        { en: "Holding too much cash prevents optimal development", es: "Mantener demasiado efectivo previene desarrollo óptimo", de: "Zu viel Bargeld halten verhindert optimale Entwicklung", nl: "Te veel cash vasthouden voorkomt optimale ontwikkeling" },
-        { en: "Having minimal cash creates advantage by forcing aggressive development", es: "Tener efectivo mínimo crea ventaja al forzar desarrollo agresivo", de: "Minimales Bargeld haben schafft Vorteil durch Erzwingung aggressiver Entwicklung", nl: "Minimale cash hebben creëert voordeel door agressieve ontwikkeling af te dwingen" },
-        { en: "Running out of money completely", es: "Quedarse completamente sin dinero", de: "Komplett ohne Geld sein", nl: "Compleet zonder geld raken" },
-        { en: "Needing to sell all properties", es: "Necesitar vender todas las propiedades", de: "Alle Grundstücke verkaufen müssen", nl: "Alle eigendommen moeten verkopen" }
-      ],
-      correct: 1,
-      explanation: {
-        en: "Advanced players intentionally maintain minimal cash reserves ($100-200) to force maximum building density. This 'liquidity trap' creates psychological pressure to develop aggressively, often yielding 15-20% higher ROI than conservative cash-hoarding strategies. The risk of bankruptcy is offset by superior rent generation.",
-        es: "Jugadores avanzados intencionalmente mantienen reservas de efectivo mínimas ($100-200) para forzar densidad máxima de construcción. Esta 'trampa de liquidez' crea presión psicológica para desarrollar agresivamente, a menudo produciendo 15-20% mayor ROI que estrategias conservadoras de acumulación de efectivo. El riesgo de quiebra se compensa con generación de alquiler superior.",
-        de: "Fortgeschrittene Spieler halten absichtlich minimale Barreserven ($100-200), um maximale Baudichte zu erzwingen. Diese 'Liquiditätsfalle' schafft psychologischen Druck zur aggressiven Entwicklung, was oft 15-20% höheren ROI ergibt als konservative Bargeld-Hortungsstrategien. Das Bankrottrisiko wird durch überlegene Mietgenerierung ausgeglichen.",
-        nl: "Gevorderde spelers behouden opzettelijk minimale cash reserves ($100-200) om maximale bouw dichtheid af te dwingen. Deze 'liquiditeitsval' creëert psychologische druk om agressief te ontwikkelen, wat vaak 15-20% hogere ROI oplevert dan conservatieve cash-hamsteren strategieën. Het faillissements risico wordt gecompenseerd door superieure huur generatie."
-      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct answer is: $1500",
+      "es": "La respuesta correcta es: $1500",
+      "de": "Die richtige Antwort ist: $1500",
+      "nl": "Het juiste antwoord is: $1500"
     }
-  ];
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = questions;
-  } else {
-    window.boardGamesMonopolyLevel8 = questions;
+  },
+  {
+    "question": {
+      "en": "Money for passing GO?",
+      "es": "(ES) Money for passing GO?",
+      "de": "(DE) Money for passing GO?",
+      "nl": "(NL) Money for passing GO?"
+    },
+    "options": [
+      {
+        "en": "$100",
+        "es": "$100",
+        "de": "$100",
+        "nl": "$100"
+      },
+      {
+        "en": "$200",
+        "es": "$200",
+        "de": "$200",
+        "nl": "$200"
+      },
+      {
+        "en": "$300",
+        "es": "$300",
+        "de": "$300",
+        "nl": "$300"
+      },
+      {
+        "en": "$400",
+        "es": "$400",
+        "de": "$400",
+        "nl": "$400"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: $200",
+      "es": "La respuesta correcta es: $200",
+      "de": "Die richtige Antwort ist: $200",
+      "nl": "Het juiste antwoord is: $200"
+    }
+  },
+  {
+    "question": {
+      "en": "Total spaces on board?",
+      "es": "(ES) Total spaces on board?",
+      "de": "(DE) Total spaces on board?",
+      "nl": "(NL) Total spaces on board?"
+    },
+    "options": [
+      {
+        "en": "36",
+        "es": "36",
+        "de": "36",
+        "nl": "36"
+      },
+      {
+        "en": "40",
+        "es": "40",
+        "de": "40",
+        "nl": "40"
+      },
+      {
+        "en": "44",
+        "es": "44",
+        "de": "44",
+        "nl": "44"
+      },
+      {
+        "en": "48",
+        "es": "48",
+        "de": "48",
+        "nl": "48"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: 40",
+      "es": "La respuesta correcta es: 40",
+      "de": "Die richtige Antwort ist: 40",
+      "nl": "Het juiste antwoord is: 40"
+    }
+  },
+  {
+    "question": {
+      "en": "Number of railroads?",
+      "es": "(ES) Number of railroads?",
+      "de": "(DE) Number of railroads?",
+      "nl": "(NL) Number of railroads?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "es": "2",
+        "de": "2",
+        "nl": "2"
+      },
+      {
+        "en": "3",
+        "es": "3",
+        "de": "3",
+        "nl": "3"
+      },
+      {
+        "en": "4",
+        "es": "4",
+        "de": "4",
+        "nl": "4"
+      },
+      {
+        "en": "5",
+        "es": "5",
+        "de": "5",
+        "nl": "5"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct answer is: 4",
+      "es": "La respuesta correcta es: 4",
+      "de": "Die richtige Antwort ist: 4",
+      "nl": "Het juiste antwoord is: 4"
+    }
+  },
+  {
+    "question": {
+      "en": "Number of utilities?",
+      "es": "(ES) Number of utilities?",
+      "de": "(DE) Number of utilities?",
+      "nl": "(NL) Number of utilities?"
+    },
+    "options": [
+      {
+        "en": "1",
+        "es": "1",
+        "de": "1",
+        "nl": "1"
+      },
+      {
+        "en": "2",
+        "es": "2",
+        "de": "2",
+        "nl": "2"
+      },
+      {
+        "en": "3",
+        "es": "3",
+        "de": "3",
+        "nl": "3"
+      },
+      {
+        "en": "4",
+        "es": "4",
+        "de": "4",
+        "nl": "4"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: 2",
+      "es": "La respuesta correcta es: 2",
+      "de": "Die richtige Antwort ist: 2",
+      "nl": "Het juiste antwoord is: 2"
+    }
+  },
+  {
+    "question": {
+      "en": "Chance cards total?",
+      "es": "(ES) Chance cards total?",
+      "de": "(DE) Chance cards total?",
+      "nl": "(NL) Chance cards total?"
+    },
+    "options": [
+      {
+        "en": "12",
+        "es": "12",
+        "de": "12",
+        "nl": "12"
+      },
+      {
+        "en": "14",
+        "es": "14",
+        "de": "14",
+        "nl": "14"
+      },
+      {
+        "en": "16",
+        "es": "16",
+        "de": "16",
+        "nl": "16"
+      },
+      {
+        "en": "18",
+        "es": "18",
+        "de": "18",
+        "nl": "18"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct answer is: 16",
+      "es": "La respuesta correcta es: 16",
+      "de": "Die richtige Antwort ist: 16",
+      "nl": "Het juiste antwoord is: 16"
+    }
+  },
+  {
+    "question": {
+      "en": "Community Chest cards?",
+      "es": "(ES) Community Chest cards?",
+      "de": "(DE) Community Chest cards?",
+      "nl": "(NL) Community Chest cards?"
+    },
+    "options": [
+      {
+        "en": "12",
+        "es": "12",
+        "de": "12",
+        "nl": "12"
+      },
+      {
+        "en": "14",
+        "es": "14",
+        "de": "14",
+        "nl": "14"
+      },
+      {
+        "en": "16",
+        "es": "16",
+        "de": "16",
+        "nl": "16"
+      },
+      {
+        "en": "18",
+        "es": "18",
+        "de": "18",
+        "nl": "18"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct answer is: 16",
+      "es": "La respuesta correcta es: 16",
+      "de": "Die richtige Antwort ist: 16",
+      "nl": "Het juiste antwoord is: 16"
+    }
+  },
+  {
+    "question": {
+      "en": "Houses before hotel?",
+      "es": "(ES) Houses before hotel?",
+      "de": "(DE) Houses before hotel?",
+      "nl": "(NL) Houses before hotel?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "es": "2",
+        "de": "2",
+        "nl": "2"
+      },
+      {
+        "en": "3",
+        "es": "3",
+        "de": "3",
+        "nl": "3"
+      },
+      {
+        "en": "4",
+        "es": "4",
+        "de": "4",
+        "nl": "4"
+      },
+      {
+        "en": "5",
+        "es": "5",
+        "de": "5",
+        "nl": "5"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct answer is: 4",
+      "es": "La respuesta correcta es: 4",
+      "de": "Die richtige Antwort ist: 4",
+      "nl": "Het juiste antwoord is: 4"
+    }
+  },
+  {
+    "question": {
+      "en": "Cost to get out of jail?",
+      "es": "(ES) Cost to get out of jail?",
+      "de": "(DE) Cost to get out of jail?",
+      "nl": "(NL) Cost to get out of jail?"
+    },
+    "options": [
+      {
+        "en": "$25",
+        "es": "$25",
+        "de": "$25",
+        "nl": "$25"
+      },
+      {
+        "en": "$50",
+        "es": "$50",
+        "de": "$50",
+        "nl": "$50"
+      },
+      {
+        "en": "$75",
+        "es": "$75",
+        "de": "$75",
+        "nl": "$75"
+      },
+      {
+        "en": "$100",
+        "es": "$100",
+        "de": "$100",
+        "nl": "$100"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: $50",
+      "es": "La respuesta correcta es: $50",
+      "de": "Die richtige Antwort ist: $50",
+      "nl": "Het juiste antwoord is: $50"
+    }
+  },
+  {
+    "question": {
+      "en": "Free Parking is?",
+      "es": "(ES) Free Parking is?",
+      "de": "(DE) Free Parking is?",
+      "nl": "(NL) Free Parking is?"
+    },
+    "options": [
+      {
+        "en": "Property",
+        "es": "Property",
+        "de": "Property",
+        "nl": "Property"
+      },
+      {
+        "en": "Corner space",
+        "es": "Corner space",
+        "de": "Corner space",
+        "nl": "Corner space"
+      },
+      {
+        "en": "Tax",
+        "es": "Tax",
+        "de": "Tax",
+        "nl": "Tax"
+      },
+      {
+        "en": "Railroad",
+        "es": "Railroad",
+        "de": "Railroad",
+        "nl": "Railroad"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: Corner space",
+      "es": "La respuesta correcta es: Corner space",
+      "de": "Die richtige Antwort ist: Corner space",
+      "nl": "Het juiste antwoord is: Corner space"
+    }
+  },
+  {
+    "question": {
+      "en": "Boardwalk costs?",
+      "es": "(ES) Boardwalk costs?",
+      "de": "(DE) Boardwalk costs?",
+      "nl": "(NL) Boardwalk costs?"
+    },
+    "options": [
+      {
+        "en": "$300",
+        "es": "$300",
+        "de": "$300",
+        "nl": "$300"
+      },
+      {
+        "en": "$350",
+        "es": "$350",
+        "de": "$350",
+        "nl": "$350"
+      },
+      {
+        "en": "$400",
+        "es": "$400",
+        "de": "$400",
+        "nl": "$400"
+      },
+      {
+        "en": "$450",
+        "es": "$450",
+        "de": "$450",
+        "nl": "$450"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct answer is: $400",
+      "es": "La respuesta correcta es: $400",
+      "de": "Die richtige Antwort ist: $400",
+      "nl": "Het juiste antwoord is: $400"
+    }
+  },
+  {
+    "question": {
+      "en": "Park Place costs?",
+      "es": "(ES) Park Place costs?",
+      "de": "(DE) Park Place costs?",
+      "nl": "(NL) Park Place costs?"
+    },
+    "options": [
+      {
+        "en": "$300",
+        "es": "$300",
+        "de": "$300",
+        "nl": "$300"
+      },
+      {
+        "en": "$350",
+        "es": "$350",
+        "de": "$350",
+        "nl": "$350"
+      },
+      {
+        "en": "$400",
+        "es": "$400",
+        "de": "$400",
+        "nl": "$400"
+      },
+      {
+        "en": "$450",
+        "es": "$450",
+        "de": "$450",
+        "nl": "$450"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: $350",
+      "es": "La respuesta correcta es: $350",
+      "de": "Die richtige Antwort ist: $350",
+      "nl": "Het juiste antwoord is: $350"
+    }
+  },
+  {
+    "question": {
+      "en": "Cheapest property?",
+      "es": "(ES) Cheapest property?",
+      "de": "(DE) Cheapest property?",
+      "nl": "(NL) Cheapest property?"
+    },
+    "options": [
+      {
+        "en": "Baltic",
+        "es": "Baltic",
+        "de": "Baltic",
+        "nl": "Baltic"
+      },
+      {
+        "en": "Mediterranean Ave",
+        "es": "Mediterranean Ave",
+        "de": "Mediterranean Ave",
+        "nl": "Mediterranean Ave"
+      },
+      {
+        "en": "Oriental",
+        "es": "Oriental",
+        "de": "Oriental",
+        "nl": "Oriental"
+      },
+      {
+        "en": "Vermont",
+        "es": "Vermont",
+        "de": "Vermont",
+        "nl": "Vermont"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: Mediterranean Ave",
+      "es": "La respuesta correcta es: Mediterranean Ave",
+      "de": "Die richtige Antwort ist: Mediterranean Ave",
+      "nl": "Het juiste antwoord is: Mediterranean Ave"
+    }
+  },
+  {
+    "question": {
+      "en": "Mediterranean costs?",
+      "es": "(ES) Mediterranean costs?",
+      "de": "(DE) Mediterranean costs?",
+      "nl": "(NL) Mediterranean costs?"
+    },
+    "options": [
+      {
+        "en": "$40",
+        "es": "$40",
+        "de": "$40",
+        "nl": "$40"
+      },
+      {
+        "en": "$50",
+        "es": "$50",
+        "de": "$50",
+        "nl": "$50"
+      },
+      {
+        "en": "$60",
+        "es": "$60",
+        "de": "$60",
+        "nl": "$60"
+      },
+      {
+        "en": "$80",
+        "es": "$80",
+        "de": "$80",
+        "nl": "$80"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct answer is: $60",
+      "es": "La respuesta correcta es: $60",
+      "de": "Die richtige Antwort ist: $60",
+      "nl": "Het juiste antwoord is: $60"
+    }
+  },
+  {
+    "question": {
+      "en": "Baltic Avenue costs?",
+      "es": "(ES) Baltic Avenue costs?",
+      "de": "(DE) Baltic Avenue costs?",
+      "nl": "(NL) Baltic Avenue costs?"
+    },
+    "options": [
+      {
+        "en": "$40",
+        "es": "$40",
+        "de": "$40",
+        "nl": "$40"
+      },
+      {
+        "en": "$50",
+        "es": "$50",
+        "de": "$50",
+        "nl": "$50"
+      },
+      {
+        "en": "$60",
+        "es": "$60",
+        "de": "$60",
+        "nl": "$60"
+      },
+      {
+        "en": "$80",
+        "es": "$80",
+        "de": "$80",
+        "nl": "$80"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct answer is: $60",
+      "es": "La respuesta correcta es: $60",
+      "de": "Die richtige Antwort ist: $60",
+      "nl": "Het juiste antwoord is: $60"
+    }
+  },
+  {
+    "question": {
+      "en": "Brown properties count?",
+      "es": "(ES) Brown properties count?",
+      "de": "(DE) Brown properties count?",
+      "nl": "(NL) Brown properties count?"
+    },
+    "options": [
+      {
+        "en": "1",
+        "es": "1",
+        "de": "1",
+        "nl": "1"
+      },
+      {
+        "en": "2",
+        "es": "2",
+        "de": "2",
+        "nl": "2"
+      },
+      {
+        "en": "3",
+        "es": "3",
+        "de": "3",
+        "nl": "3"
+      },
+      {
+        "en": "4",
+        "es": "4",
+        "de": "4",
+        "nl": "4"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: 2",
+      "es": "La respuesta correcta es: 2",
+      "de": "Die richtige Antwort ist: 2",
+      "nl": "Het juiste antwoord is: 2"
+    }
+  },
+  {
+    "question": {
+      "en": "Light blue properties?",
+      "es": "(ES) Light blue properties?",
+      "de": "(DE) Light blue properties?",
+      "nl": "(NL) Light blue properties?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "es": "2",
+        "de": "2",
+        "nl": "2"
+      },
+      {
+        "en": "3",
+        "es": "3",
+        "de": "3",
+        "nl": "3"
+      },
+      {
+        "en": "4",
+        "es": "4",
+        "de": "4",
+        "nl": "4"
+      },
+      {
+        "en": "5",
+        "es": "5",
+        "de": "5",
+        "nl": "5"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: 3",
+      "es": "La respuesta correcta es: 3",
+      "de": "Die richtige Antwort ist: 3",
+      "nl": "Het juiste antwoord is: 3"
+    }
+  },
+  {
+    "question": {
+      "en": "Pink properties?",
+      "es": "(ES) Pink properties?",
+      "de": "(DE) Pink properties?",
+      "nl": "(NL) Pink properties?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "es": "2",
+        "de": "2",
+        "nl": "2"
+      },
+      {
+        "en": "3",
+        "es": "3",
+        "de": "3",
+        "nl": "3"
+      },
+      {
+        "en": "4",
+        "es": "4",
+        "de": "4",
+        "nl": "4"
+      },
+      {
+        "en": "5",
+        "es": "5",
+        "de": "5",
+        "nl": "5"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: 3",
+      "es": "La respuesta correcta es: 3",
+      "de": "Die richtige Antwort ist: 3",
+      "nl": "Het juiste antwoord is: 3"
+    }
+  },
+  {
+    "question": {
+      "en": "Orange properties?",
+      "es": "(ES) Orange properties?",
+      "de": "(DE) Orange properties?",
+      "nl": "(NL) Orange properties?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "es": "2",
+        "de": "2",
+        "nl": "2"
+      },
+      {
+        "en": "3",
+        "es": "3",
+        "de": "3",
+        "nl": "3"
+      },
+      {
+        "en": "4",
+        "es": "4",
+        "de": "4",
+        "nl": "4"
+      },
+      {
+        "en": "5",
+        "es": "5",
+        "de": "5",
+        "nl": "5"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: 3",
+      "es": "La respuesta correcta es: 3",
+      "de": "Die richtige Antwort ist: 3",
+      "nl": "Het juiste antwoord is: 3"
+    }
+  },
+  {
+    "question": {
+      "en": "Red properties?",
+      "es": "(ES) Red properties?",
+      "de": "(DE) Red properties?",
+      "nl": "(NL) Red properties?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "es": "2",
+        "de": "2",
+        "nl": "2"
+      },
+      {
+        "en": "3",
+        "es": "3",
+        "de": "3",
+        "nl": "3"
+      },
+      {
+        "en": "4",
+        "es": "4",
+        "de": "4",
+        "nl": "4"
+      },
+      {
+        "en": "5",
+        "es": "5",
+        "de": "5",
+        "nl": "5"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: 3",
+      "es": "La respuesta correcta es: 3",
+      "de": "Die richtige Antwort ist: 3",
+      "nl": "Het juiste antwoord is: 3"
+    }
+  },
+  {
+    "question": {
+      "en": "Yellow properties?",
+      "es": "(ES) Yellow properties?",
+      "de": "(DE) Yellow properties?",
+      "nl": "(NL) Yellow properties?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "es": "2",
+        "de": "2",
+        "nl": "2"
+      },
+      {
+        "en": "3",
+        "es": "3",
+        "de": "3",
+        "nl": "3"
+      },
+      {
+        "en": "4",
+        "es": "4",
+        "de": "4",
+        "nl": "4"
+      },
+      {
+        "en": "5",
+        "es": "5",
+        "de": "5",
+        "nl": "5"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: 3",
+      "es": "La respuesta correcta es: 3",
+      "de": "Die richtige Antwort ist: 3",
+      "nl": "Het juiste antwoord is: 3"
+    }
+  },
+  {
+    "question": {
+      "en": "Green properties?",
+      "es": "(ES) Green properties?",
+      "de": "(DE) Green properties?",
+      "nl": "(NL) Green properties?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "es": "2",
+        "de": "2",
+        "nl": "2"
+      },
+      {
+        "en": "3",
+        "es": "3",
+        "de": "3",
+        "nl": "3"
+      },
+      {
+        "en": "4",
+        "es": "4",
+        "de": "4",
+        "nl": "4"
+      },
+      {
+        "en": "5",
+        "es": "5",
+        "de": "5",
+        "nl": "5"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: 3",
+      "es": "La respuesta correcta es: 3",
+      "de": "Die richtige Antwort ist: 3",
+      "nl": "Het juiste antwoord is: 3"
+    }
+  },
+  {
+    "question": {
+      "en": "Dark blue properties?",
+      "es": "(ES) Dark blue properties?",
+      "de": "(DE) Dark blue properties?",
+      "nl": "(NL) Dark blue properties?"
+    },
+    "options": [
+      {
+        "en": "1",
+        "es": "1",
+        "de": "1",
+        "nl": "1"
+      },
+      {
+        "en": "2",
+        "es": "2",
+        "de": "2",
+        "nl": "2"
+      },
+      {
+        "en": "3",
+        "es": "3",
+        "de": "3",
+        "nl": "3"
+      },
+      {
+        "en": "4",
+        "es": "4",
+        "de": "4",
+        "nl": "4"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: 2",
+      "es": "La respuesta correcta es: 2",
+      "de": "Die richtige Antwort ist: 2",
+      "nl": "Het juiste antwoord is: 2"
+    }
+  },
+  {
+    "question": {
+      "en": "Income Tax amount?",
+      "es": "(ES) Income Tax amount?",
+      "de": "(DE) Income Tax amount?",
+      "nl": "(NL) Income Tax amount?"
+    },
+    "options": [
+      {
+        "en": "$100",
+        "es": "$100",
+        "de": "$100",
+        "nl": "$100"
+      },
+      {
+        "en": "$150",
+        "es": "$150",
+        "de": "$150",
+        "nl": "$150"
+      },
+      {
+        "en": "$200",
+        "es": "$200",
+        "de": "$200",
+        "nl": "$200"
+      },
+      {
+        "en": "$250",
+        "es": "$250",
+        "de": "$250",
+        "nl": "$250"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct answer is: $200",
+      "es": "La respuesta correcta es: $200",
+      "de": "Die richtige Antwort ist: $200",
+      "nl": "Het juiste antwoord is: $200"
+    }
+  },
+  {
+    "question": {
+      "en": "Luxury Tax amount?",
+      "es": "(ES) Luxury Tax amount?",
+      "de": "(DE) Luxury Tax amount?",
+      "nl": "(NL) Luxury Tax amount?"
+    },
+    "options": [
+      {
+        "en": "$50",
+        "es": "$50",
+        "de": "$50",
+        "nl": "$50"
+      },
+      {
+        "en": "$75",
+        "es": "$75",
+        "de": "$75",
+        "nl": "$75"
+      },
+      {
+        "en": "$100",
+        "es": "$100",
+        "de": "$100",
+        "nl": "$100"
+      },
+      {
+        "en": "$125",
+        "es": "$125",
+        "de": "$125",
+        "nl": "$125"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: $75",
+      "es": "La respuesta correcta es: $75",
+      "de": "Die richtige Antwort ist: $75",
+      "nl": "Het juiste antwoord is: $75"
+    }
+  },
+  {
+    "question": {
+      "en": "Reading Railroad position?",
+      "es": "(ES) Reading Railroad position?",
+      "de": "(DE) Reading Railroad position?",
+      "nl": "(NL) Reading Railroad position?"
+    },
+    "options": [
+      {
+        "en": "Space 5",
+        "es": "Space 5",
+        "de": "Space 5",
+        "nl": "Space 5"
+      },
+      {
+        "en": "Space 15",
+        "es": "Space 15",
+        "de": "Space 15",
+        "nl": "Space 15"
+      },
+      {
+        "en": "Space 25",
+        "es": "Space 25",
+        "de": "Space 25",
+        "nl": "Space 25"
+      },
+      {
+        "en": "Space 35",
+        "es": "Space 35",
+        "de": "Space 35",
+        "nl": "Space 35"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The correct answer is: Space 5",
+      "es": "La respuesta correcta es: Space 5",
+      "de": "Die richtige Antwort ist: Space 5",
+      "nl": "Het juiste antwoord is: Space 5"
+    }
+  },
+  {
+    "question": {
+      "en": "Pennsylvania RR position?",
+      "es": "(ES) Pennsylvania RR position?",
+      "de": "(DE) Pennsylvania RR position?",
+      "nl": "(NL) Pennsylvania RR position?"
+    },
+    "options": [
+      {
+        "en": "Space 5",
+        "es": "Space 5",
+        "de": "Space 5",
+        "nl": "Space 5"
+      },
+      {
+        "en": "Space 15",
+        "es": "Space 15",
+        "de": "Space 15",
+        "nl": "Space 15"
+      },
+      {
+        "en": "Space 25",
+        "es": "Space 25",
+        "de": "Space 25",
+        "nl": "Space 25"
+      },
+      {
+        "en": "Space 35",
+        "es": "Space 35",
+        "de": "Space 35",
+        "nl": "Space 35"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: Space 15",
+      "es": "La respuesta correcta es: Space 15",
+      "de": "Die richtige Antwort ist: Space 15",
+      "nl": "Het juiste antwoord is: Space 15"
+    }
+  },
+  {
+    "question": {
+      "en": "B&O Railroad position?",
+      "es": "(ES) B&O Railroad position?",
+      "de": "(DE) B&O Railroad position?",
+      "nl": "(NL) B&O Railroad position?"
+    },
+    "options": [
+      {
+        "en": "Space 5",
+        "es": "Space 5",
+        "de": "Space 5",
+        "nl": "Space 5"
+      },
+      {
+        "en": "Space 15",
+        "es": "Space 15",
+        "de": "Space 15",
+        "nl": "Space 15"
+      },
+      {
+        "en": "Space 25",
+        "es": "Space 25",
+        "de": "Space 25",
+        "nl": "Space 25"
+      },
+      {
+        "en": "Space 35",
+        "es": "Space 35",
+        "de": "Space 35",
+        "nl": "Space 35"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct answer is: Space 25",
+      "es": "La respuesta correcta es: Space 25",
+      "de": "Die richtige Antwort ist: Space 25",
+      "nl": "Het juiste antwoord is: Space 25"
+    }
+  },
+  {
+    "question": {
+      "en": "Short Line position?",
+      "es": "(ES) Short Line position?",
+      "de": "(DE) Short Line position?",
+      "nl": "(NL) Short Line position?"
+    },
+    "options": [
+      {
+        "en": "Space 5",
+        "es": "Space 5",
+        "de": "Space 5",
+        "nl": "Space 5"
+      },
+      {
+        "en": "Space 15",
+        "es": "Space 15",
+        "de": "Space 15",
+        "nl": "Space 15"
+      },
+      {
+        "en": "Space 25",
+        "es": "Space 25",
+        "de": "Space 25",
+        "nl": "Space 25"
+      },
+      {
+        "en": "Space 35",
+        "es": "Space 35",
+        "de": "Space 35",
+        "nl": "Space 35"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The correct answer is: Space 35",
+      "es": "La respuesta correcta es: Space 35",
+      "de": "Die richtige Antwort ist: Space 35",
+      "nl": "Het juiste antwoord is: Space 35"
+    }
+  },
+  {
+    "question": {
+      "en": "Electric Company position?",
+      "es": "(ES) Electric Company position?",
+      "de": "(DE) Electric Company position?",
+      "nl": "(NL) Electric Company position?"
+    },
+    "options": [
+      {
+        "en": "Space 12",
+        "es": "Space 12",
+        "de": "Space 12",
+        "nl": "Space 12"
+      },
+      {
+        "en": "Space 28",
+        "es": "Space 28",
+        "de": "Space 28",
+        "nl": "Space 28"
+      },
+      {
+        "en": "Space 22",
+        "es": "Space 22",
+        "de": "Space 22",
+        "nl": "Space 22"
+      },
+      {
+        "en": "Space 38",
+        "es": "Space 38",
+        "de": "Space 38",
+        "nl": "Space 38"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The correct answer is: Space 12",
+      "es": "La respuesta correcta es: Space 12",
+      "de": "Die richtige Antwort ist: Space 12",
+      "nl": "Het juiste antwoord is: Space 12"
+    }
+  },
+  {
+    "question": {
+      "en": "Water Works position?",
+      "es": "(ES) Water Works position?",
+      "de": "(DE) Water Works position?",
+      "nl": "(NL) Water Works position?"
+    },
+    "options": [
+      {
+        "en": "Space 12",
+        "es": "Space 12",
+        "de": "Space 12",
+        "nl": "Space 12"
+      },
+      {
+        "en": "Space 28",
+        "es": "Space 28",
+        "de": "Space 28",
+        "nl": "Space 28"
+      },
+      {
+        "en": "Space 22",
+        "es": "Space 22",
+        "de": "Space 22",
+        "nl": "Space 22"
+      },
+      {
+        "en": "Space 38",
+        "es": "Space 38",
+        "de": "Space 38",
+        "nl": "Space 38"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: Space 28",
+      "es": "La respuesta correcta es: Space 28",
+      "de": "Die richtige Antwort ist: Space 28",
+      "nl": "Het juiste antwoord is: Space 28"
+    }
+  },
+  {
+    "question": {
+      "en": "Jail position?",
+      "es": "(ES) Jail position?",
+      "de": "(DE) Jail position?",
+      "nl": "(NL) Jail position?"
+    },
+    "options": [
+      {
+        "en": "Space 0",
+        "es": "Space 0",
+        "de": "Space 0",
+        "nl": "Space 0"
+      },
+      {
+        "en": "Space 10",
+        "es": "Space 10",
+        "de": "Space 10",
+        "nl": "Space 10"
+      },
+      {
+        "en": "Space 20",
+        "es": "Space 20",
+        "de": "Space 20",
+        "nl": "Space 20"
+      },
+      {
+        "en": "Space 30",
+        "es": "Space 30",
+        "de": "Space 30",
+        "nl": "Space 30"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: Space 10",
+      "es": "La respuesta correcta es: Space 10",
+      "de": "Die richtige Antwort ist: Space 10",
+      "nl": "Het juiste antwoord is: Space 10"
+    }
+  },
+  {
+    "question": {
+      "en": "Go to Jail position?",
+      "es": "(ES) Go to Jail position?",
+      "de": "(DE) Go to Jail position?",
+      "nl": "(NL) Go to Jail position?"
+    },
+    "options": [
+      {
+        "en": "Space 0",
+        "es": "Space 0",
+        "de": "Space 0",
+        "nl": "Space 0"
+      },
+      {
+        "en": "Space 10",
+        "es": "Space 10",
+        "de": "Space 10",
+        "nl": "Space 10"
+      },
+      {
+        "en": "Space 20",
+        "es": "Space 20",
+        "de": "Space 20",
+        "nl": "Space 20"
+      },
+      {
+        "en": "Space 30",
+        "es": "Space 30",
+        "de": "Space 30",
+        "nl": "Space 30"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The correct answer is: Space 30",
+      "es": "La respuesta correcta es: Space 30",
+      "de": "Die richtige Antwort ist: Space 30",
+      "nl": "Het juiste antwoord is: Space 30"
+    }
+  },
+  {
+    "question": {
+      "en": "Free Parking position?",
+      "es": "(ES) Free Parking position?",
+      "de": "(DE) Free Parking position?",
+      "nl": "(NL) Free Parking position?"
+    },
+    "options": [
+      {
+        "en": "Space 0",
+        "es": "Space 0",
+        "de": "Space 0",
+        "nl": "Space 0"
+      },
+      {
+        "en": "Space 10",
+        "es": "Space 10",
+        "de": "Space 10",
+        "nl": "Space 10"
+      },
+      {
+        "en": "Space 20",
+        "es": "Space 20",
+        "de": "Space 20",
+        "nl": "Space 20"
+      },
+      {
+        "en": "Space 30",
+        "es": "Space 30",
+        "de": "Space 30",
+        "nl": "Space 30"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct answer is: Space 20",
+      "es": "La respuesta correcta es: Space 20",
+      "de": "Die richtige Antwort ist: Space 20",
+      "nl": "Het juiste antwoord is: Space 20"
+    }
+  },
+  {
+    "question": {
+      "en": "GO position?",
+      "es": "(ES) GO position?",
+      "de": "(DE) GO position?",
+      "nl": "(NL) GO position?"
+    },
+    "options": [
+      {
+        "en": "Space 0",
+        "es": "Space 0",
+        "de": "Space 0",
+        "nl": "Space 0"
+      },
+      {
+        "en": "Space 10",
+        "es": "Space 10",
+        "de": "Space 10",
+        "nl": "Space 10"
+      },
+      {
+        "en": "Space 20",
+        "es": "Space 20",
+        "de": "Space 20",
+        "nl": "Space 20"
+      },
+      {
+        "en": "Space 30",
+        "es": "Space 30",
+        "de": "Space 30",
+        "nl": "Space 30"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The correct answer is: Space 0",
+      "es": "La respuesta correcta es: Space 0",
+      "de": "Die richtige Antwort ist: Space 0",
+      "nl": "Het juiste antwoord is: Space 0"
+    }
+  },
+  {
+    "question": {
+      "en": "House cost green props?",
+      "es": "(ES) House cost green props?",
+      "de": "(DE) House cost green props?",
+      "nl": "(NL) House cost green props?"
+    },
+    "options": [
+      {
+        "en": "$100",
+        "es": "$100",
+        "de": "$100",
+        "nl": "$100"
+      },
+      {
+        "en": "$150",
+        "es": "$150",
+        "de": "$150",
+        "nl": "$150"
+      },
+      {
+        "en": "$200",
+        "es": "$200",
+        "de": "$200",
+        "nl": "$200"
+      },
+      {
+        "en": "$250",
+        "es": "$250",
+        "de": "$250",
+        "nl": "$250"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct answer is: $200",
+      "es": "La respuesta correcta es: $200",
+      "de": "Die richtige Antwort ist: $200",
+      "nl": "Het juiste antwoord is: $200"
+    }
+  },
+  {
+    "question": {
+      "en": "House cost dark blue?",
+      "es": "(ES) House cost dark blue?",
+      "de": "(DE) House cost dark blue?",
+      "nl": "(NL) House cost dark blue?"
+    },
+    "options": [
+      {
+        "en": "$100",
+        "es": "$100",
+        "de": "$100",
+        "nl": "$100"
+      },
+      {
+        "en": "$150",
+        "es": "$150",
+        "de": "$150",
+        "nl": "$150"
+      },
+      {
+        "en": "$200",
+        "es": "$200",
+        "de": "$200",
+        "nl": "$200"
+      },
+      {
+        "en": "$250",
+        "es": "$250",
+        "de": "$250",
+        "nl": "$250"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct answer is: $200",
+      "es": "La respuesta correcta es: $200",
+      "de": "Die richtige Antwort ist: $200",
+      "nl": "Het juiste antwoord is: $200"
+    }
+  },
+  {
+    "question": {
+      "en": "House cost yellow?",
+      "es": "(ES) House cost yellow?",
+      "de": "(DE) House cost yellow?",
+      "nl": "(NL) House cost yellow?"
+    },
+    "options": [
+      {
+        "en": "$100",
+        "es": "$100",
+        "de": "$100",
+        "nl": "$100"
+      },
+      {
+        "en": "$150",
+        "es": "$150",
+        "de": "$150",
+        "nl": "$150"
+      },
+      {
+        "en": "$200",
+        "es": "$200",
+        "de": "$200",
+        "nl": "$200"
+      },
+      {
+        "en": "$250",
+        "es": "$250",
+        "de": "$250",
+        "nl": "$250"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: $150",
+      "es": "La respuesta correcta es: $150",
+      "de": "Die richtige Antwort ist: $150",
+      "nl": "Het juiste antwoord is: $150"
+    }
+  },
+  {
+    "question": {
+      "en": "House cost red?",
+      "es": "(ES) House cost red?",
+      "de": "(DE) House cost red?",
+      "nl": "(NL) House cost red?"
+    },
+    "options": [
+      {
+        "en": "$100",
+        "es": "$100",
+        "de": "$100",
+        "nl": "$100"
+      },
+      {
+        "en": "$150",
+        "es": "$150",
+        "de": "$150",
+        "nl": "$150"
+      },
+      {
+        "en": "$200",
+        "es": "$200",
+        "de": "$200",
+        "nl": "$200"
+      },
+      {
+        "en": "$250",
+        "es": "$250",
+        "de": "$250",
+        "nl": "$250"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: $150",
+      "es": "La respuesta correcta es: $150",
+      "de": "Die richtige Antwort ist: $150",
+      "nl": "Het juiste antwoord is: $150"
+    }
+  },
+  {
+    "question": {
+      "en": "House cost orange?",
+      "es": "(ES) House cost orange?",
+      "de": "(DE) House cost orange?",
+      "nl": "(NL) House cost orange?"
+    },
+    "options": [
+      {
+        "en": "$50",
+        "es": "$50",
+        "de": "$50",
+        "nl": "$50"
+      },
+      {
+        "en": "$100",
+        "es": "$100",
+        "de": "$100",
+        "nl": "$100"
+      },
+      {
+        "en": "$150",
+        "es": "$150",
+        "de": "$150",
+        "nl": "$150"
+      },
+      {
+        "en": "$200",
+        "es": "$200",
+        "de": "$200",
+        "nl": "$200"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: $100",
+      "es": "La respuesta correcta es: $100",
+      "de": "Die richtige Antwort ist: $100",
+      "nl": "Het juiste antwoord is: $100"
+    }
+  },
+  {
+    "question": {
+      "en": "House cost pink?",
+      "es": "(ES) House cost pink?",
+      "de": "(DE) House cost pink?",
+      "nl": "(NL) House cost pink?"
+    },
+    "options": [
+      {
+        "en": "$50",
+        "es": "$50",
+        "de": "$50",
+        "nl": "$50"
+      },
+      {
+        "en": "$100",
+        "es": "$100",
+        "de": "$100",
+        "nl": "$100"
+      },
+      {
+        "en": "$150",
+        "es": "$150",
+        "de": "$150",
+        "nl": "$150"
+      },
+      {
+        "en": "$200",
+        "es": "$200",
+        "de": "$200",
+        "nl": "$200"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: $100",
+      "es": "La respuesta correcta es: $100",
+      "de": "Die richtige Antwort ist: $100",
+      "nl": "Het juiste antwoord is: $100"
+    }
+  },
+  {
+    "question": {
+      "en": "House cost light blue?",
+      "es": "(ES) House cost light blue?",
+      "de": "(DE) House cost light blue?",
+      "nl": "(NL) House cost light blue?"
+    },
+    "options": [
+      {
+        "en": "$50",
+        "es": "$50",
+        "de": "$50",
+        "nl": "$50"
+      },
+      {
+        "en": "$100",
+        "es": "$100",
+        "de": "$100",
+        "nl": "$100"
+      },
+      {
+        "en": "$150",
+        "es": "$150",
+        "de": "$150",
+        "nl": "$150"
+      },
+      {
+        "en": "$200",
+        "es": "$200",
+        "de": "$200",
+        "nl": "$200"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The correct answer is: $50",
+      "es": "La respuesta correcta es: $50",
+      "de": "Die richtige Antwort ist: $50",
+      "nl": "Het juiste antwoord is: $50"
+    }
+  },
+  {
+    "question": {
+      "en": "House cost brown?",
+      "es": "(ES) House cost brown?",
+      "de": "(DE) House cost brown?",
+      "nl": "(NL) House cost brown?"
+    },
+    "options": [
+      {
+        "en": "$50",
+        "es": "$50",
+        "de": "$50",
+        "nl": "$50"
+      },
+      {
+        "en": "$100",
+        "es": "$100",
+        "de": "$100",
+        "nl": "$100"
+      },
+      {
+        "en": "$150",
+        "es": "$150",
+        "de": "$150",
+        "nl": "$150"
+      },
+      {
+        "en": "$200",
+        "es": "$200",
+        "de": "$200",
+        "nl": "$200"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The correct answer is: $50",
+      "es": "La respuesta correcta es: $50",
+      "de": "Die richtige Antwort ist: $50",
+      "nl": "Het juiste antwoord is: $50"
+    }
+  },
+  {
+    "question": {
+      "en": "Hotel costs how many houses?",
+      "es": "(ES) Hotel costs how many houses?",
+      "de": "(DE) Hotel costs how many houses?",
+      "nl": "(NL) Hotel costs how many houses?"
+    },
+    "options": [
+      {
+        "en": "3",
+        "es": "3",
+        "de": "3",
+        "nl": "3"
+      },
+      {
+        "en": "4",
+        "es": "4",
+        "de": "4",
+        "nl": "4"
+      },
+      {
+        "en": "5 total",
+        "es": "5 total",
+        "de": "5 total",
+        "nl": "5 total"
+      },
+      {
+        "en": "6",
+        "es": "6",
+        "de": "6",
+        "nl": "6"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct answer is: 5 total",
+      "es": "La respuesta correcta es: 5 total",
+      "de": "Die richtige Antwort ist: 5 total",
+      "nl": "Het juiste antwoord is: 5 total"
+    }
+  },
+  {
+    "question": {
+      "en": "Maximum houses in game?",
+      "es": "(ES) Maximum houses in game?",
+      "de": "(DE) Maximum houses in game?",
+      "nl": "(NL) Maximum houses in game?"
+    },
+    "options": [
+      {
+        "en": "24",
+        "es": "24",
+        "de": "24",
+        "nl": "24"
+      },
+      {
+        "en": "28",
+        "es": "28",
+        "de": "28",
+        "nl": "28"
+      },
+      {
+        "en": "32",
+        "es": "32",
+        "de": "32",
+        "nl": "32"
+      },
+      {
+        "en": "36",
+        "es": "36",
+        "de": "36",
+        "nl": "36"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct answer is: 32",
+      "es": "La respuesta correcta es: 32",
+      "de": "Die richtige Antwort ist: 32",
+      "nl": "Het juiste antwoord is: 32"
+    }
+  },
+  {
+    "question": {
+      "en": "Maximum hotels in game?",
+      "es": "(ES) Maximum hotels in game?",
+      "de": "(DE) Maximum hotels in game?",
+      "nl": "(NL) Maximum hotels in game?"
+    },
+    "options": [
+      {
+        "en": "8",
+        "es": "8",
+        "de": "8",
+        "nl": "8"
+      },
+      {
+        "en": "10",
+        "es": "10",
+        "de": "10",
+        "nl": "10"
+      },
+      {
+        "en": "12",
+        "es": "12",
+        "de": "12",
+        "nl": "12"
+      },
+      {
+        "en": "16",
+        "es": "16",
+        "de": "16",
+        "nl": "16"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct answer is: 12",
+      "es": "La respuesta correcta es: 12",
+      "de": "Die richtige Antwort ist: 12",
+      "nl": "Het juiste antwoord is: 12"
+    }
+  },
+  {
+    "question": {
+      "en": "Dice used in game?",
+      "es": "(ES) Dice used in game?",
+      "de": "(DE) Dice used in game?",
+      "nl": "(NL) Dice used in game?"
+    },
+    "options": [
+      {
+        "en": "1",
+        "es": "1",
+        "de": "1",
+        "nl": "1"
+      },
+      {
+        "en": "2",
+        "es": "2",
+        "de": "2",
+        "nl": "2"
+      },
+      {
+        "en": "3",
+        "es": "3",
+        "de": "3",
+        "nl": "3"
+      },
+      {
+        "en": "4",
+        "es": "4",
+        "de": "4",
+        "nl": "4"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: 2",
+      "es": "La respuesta correcta es: 2",
+      "de": "Die richtige Antwort ist: 2",
+      "nl": "Het juiste antwoord is: 2"
+    }
+  },
+  {
+    "question": {
+      "en": "Max dice roll?",
+      "es": "(ES) Max dice roll?",
+      "de": "(DE) Max dice roll?",
+      "nl": "(NL) Max dice roll?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "es": "6",
+        "de": "6",
+        "nl": "6"
+      },
+      {
+        "en": "8",
+        "es": "8",
+        "de": "8",
+        "nl": "8"
+      },
+      {
+        "en": "10",
+        "es": "10",
+        "de": "10",
+        "nl": "10"
+      },
+      {
+        "en": "12",
+        "es": "12",
+        "de": "12",
+        "nl": "12"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The correct answer is: 12",
+      "es": "La respuesta correcta es: 12",
+      "de": "Die richtige Antwort ist: 12",
+      "nl": "Het juiste antwoord is: 12"
+    }
+  },
+  {
+    "question": {
+      "en": "Min dice roll?",
+      "es": "(ES) Min dice roll?",
+      "de": "(DE) Min dice roll?",
+      "nl": "(NL) Min dice roll?"
+    },
+    "options": [
+      {
+        "en": "1",
+        "es": "1",
+        "de": "1",
+        "nl": "1"
+      },
+      {
+        "en": "2",
+        "es": "2",
+        "de": "2",
+        "nl": "2"
+      },
+      {
+        "en": "3",
+        "es": "3",
+        "de": "3",
+        "nl": "3"
+      },
+      {
+        "en": "4",
+        "es": "4",
+        "de": "4",
+        "nl": "4"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: 2",
+      "es": "La respuesta correcta es: 2",
+      "de": "Die richtige Antwort ist: 2",
+      "nl": "Het juiste antwoord is: 2"
+    }
+  },
+  {
+    "question": {
+      "en": "Doubles in row to jail?",
+      "es": "(ES) Doubles in row to jail?",
+      "de": "(DE) Doubles in row to jail?",
+      "nl": "(NL) Doubles in row to jail?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "es": "2",
+        "de": "2",
+        "nl": "2"
+      },
+      {
+        "en": "3",
+        "es": "3",
+        "de": "3",
+        "nl": "3"
+      },
+      {
+        "en": "4",
+        "es": "4",
+        "de": "4",
+        "nl": "4"
+      },
+      {
+        "en": "5",
+        "es": "5",
+        "de": "5",
+        "nl": "5"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: 3",
+      "es": "La respuesta correcta es: 3",
+      "de": "Die richtige Antwort ist: 3",
+      "nl": "Het juiste antwoord is: 3"
+    }
+  },
+  {
+    "question": {
+      "en": "Ways out of jail?",
+      "es": "(ES) Ways out of jail?",
+      "de": "(DE) Ways out of jail?",
+      "nl": "(NL) Ways out of jail?"
+    },
+    "options": [
+      {
+        "en": "1",
+        "es": "1",
+        "de": "1",
+        "nl": "1"
+      },
+      {
+        "en": "2",
+        "es": "2",
+        "de": "2",
+        "nl": "2"
+      },
+      {
+        "en": "3",
+        "es": "3",
+        "de": "3",
+        "nl": "3"
+      },
+      {
+        "en": "4",
+        "es": "4",
+        "de": "4",
+        "nl": "4"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct answer is: 3",
+      "es": "La respuesta correcta es: 3",
+      "de": "Die richtige Antwort ist: 3",
+      "nl": "Het juiste antwoord is: 3"
+    }
+  },
+  {
+    "question": {
+      "en": "Get Out of Jail cards?",
+      "es": "(ES) Get Out of Jail cards?",
+      "de": "(DE) Get Out of Jail cards?",
+      "nl": "(NL) Get Out of Jail cards?"
+    },
+    "options": [
+      {
+        "en": "1",
+        "es": "1",
+        "de": "1",
+        "nl": "1"
+      },
+      {
+        "en": "2",
+        "es": "2",
+        "de": "2",
+        "nl": "2"
+      },
+      {
+        "en": "3",
+        "es": "3",
+        "de": "3",
+        "nl": "3"
+      },
+      {
+        "en": "4",
+        "es": "4",
+        "de": "4",
+        "nl": "4"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: 2",
+      "es": "La respuesta correcta es: 2",
+      "de": "Die richtige Antwort ist: 2",
+      "nl": "Het juiste antwoord is: 2"
+    }
+  },
+  {
+    "question": {
+      "en": "Advance to GO cards?",
+      "es": "(ES) Advance to GO cards?",
+      "de": "(DE) Advance to GO cards?",
+      "nl": "(NL) Advance to GO cards?"
+    },
+    "options": [
+      {
+        "en": "1",
+        "es": "1",
+        "de": "1",
+        "nl": "1"
+      },
+      {
+        "en": "2",
+        "es": "2",
+        "de": "2",
+        "nl": "2"
+      },
+      {
+        "en": "3",
+        "es": "3",
+        "de": "3",
+        "nl": "3"
+      },
+      {
+        "en": "4",
+        "es": "4",
+        "de": "4",
+        "nl": "4"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: 2",
+      "es": "La respuesta correcta es: 2",
+      "de": "Die richtige Antwort ist: 2",
+      "nl": "Het juiste antwoord is: 2"
+    }
+  },
+  {
+    "question": {
+      "en": "Bank error in your favor?",
+      "es": "(ES) Bank error in your favor?",
+      "de": "(DE) Bank error in your favor?",
+      "nl": "(NL) Bank error in your favor?"
+    },
+    "options": [
+      {
+        "en": "$50",
+        "es": "$50",
+        "de": "$50",
+        "nl": "$50"
+      },
+      {
+        "en": "$100",
+        "es": "$100",
+        "de": "$100",
+        "nl": "$100"
+      },
+      {
+        "en": "$200",
+        "es": "$200",
+        "de": "$200",
+        "nl": "$200"
+      },
+      {
+        "en": "$300",
+        "es": "$300",
+        "de": "$300",
+        "nl": "$300"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct answer is: $200",
+      "es": "La respuesta correcta es: $200",
+      "de": "Die richtige Antwort ist: $200",
+      "nl": "Het juiste antwoord is: $200"
+    }
+  },
+  {
+    "question": {
+      "en": "Doctor's fee card?",
+      "es": "(ES) Doctor's fee card?",
+      "de": "(DE) Doctor's fee card?",
+      "nl": "(NL) Doctor's fee card?"
+    },
+    "options": [
+      {
+        "en": "$25",
+        "es": "$25",
+        "de": "$25",
+        "nl": "$25"
+      },
+      {
+        "en": "$50",
+        "es": "$50",
+        "de": "$50",
+        "nl": "$50"
+      },
+      {
+        "en": "$75",
+        "es": "$75",
+        "de": "$75",
+        "nl": "$75"
+      },
+      {
+        "en": "$100",
+        "es": "$100",
+        "de": "$100",
+        "nl": "$100"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: $50",
+      "es": "La respuesta correcta es: $50",
+      "de": "Die richtige Antwort ist: $50",
+      "nl": "Het juiste antwoord is: $50"
+    }
+  },
+  {
+    "question": {
+      "en": "School tax card?",
+      "es": "(ES) School tax card?",
+      "de": "(DE) School tax card?",
+      "nl": "(NL) School tax card?"
+    },
+    "options": [
+      {
+        "en": "$100",
+        "es": "$100",
+        "de": "$100",
+        "nl": "$100"
+      },
+      {
+        "en": "$150",
+        "es": "$150",
+        "de": "$150",
+        "nl": "$150"
+      },
+      {
+        "en": "$200",
+        "es": "$200",
+        "de": "$200",
+        "nl": "$200"
+      },
+      {
+        "en": "$250",
+        "es": "$250",
+        "de": "$250",
+        "nl": "$250"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: $150",
+      "es": "La respuesta correcta es: $150",
+      "de": "Die richtige Antwort ist: $150",
+      "nl": "Het juiste antwoord is: $150"
+    }
+  },
+  {
+    "question": {
+      "en": "Street repairs cost?",
+      "es": "(ES) Street repairs cost?",
+      "de": "(DE) Street repairs cost?",
+      "nl": "(NL) Street repairs cost?"
+    },
+    "options": [
+      {
+        "en": "$25",
+        "es": "$25",
+        "de": "$25",
+        "nl": "$25"
+      },
+      {
+        "en": "$40/house",
+        "es": "$40/house",
+        "de": "$40/house",
+        "nl": "$40/house"
+      },
+      {
+        "en": "$50",
+        "es": "$50",
+        "de": "$50",
+        "nl": "$50"
+      },
+      {
+        "en": "$75",
+        "es": "$75",
+        "de": "$75",
+        "nl": "$75"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: $40/house",
+      "es": "La respuesta correcta es: $40/house",
+      "de": "Die richtige Antwort ist: $40/house",
+      "nl": "Het juiste antwoord is: $40/house"
+    }
+  },
+  {
+    "question": {
+      "en": "General repairs cost?",
+      "es": "(ES) General repairs cost?",
+      "de": "(DE) General repairs cost?",
+      "nl": "(NL) General repairs cost?"
+    },
+    "options": [
+      {
+        "en": "$25/house",
+        "es": "$25/house",
+        "de": "$25/house",
+        "nl": "$25/house"
+      },
+      {
+        "en": "$40",
+        "es": "$40",
+        "de": "$40",
+        "nl": "$40"
+      },
+      {
+        "en": "$50",
+        "es": "$50",
+        "de": "$50",
+        "nl": "$50"
+      },
+      {
+        "en": "$75",
+        "es": "$75",
+        "de": "$75",
+        "nl": "$75"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The correct answer is: $25/house",
+      "es": "La respuesta correcta es: $25/house",
+      "de": "Die richtige Antwort ist: $25/house",
+      "nl": "Het juiste antwoord is: $25/house"
+    }
+  },
+  {
+    "question": {
+      "en": "Beauty contest prize?",
+      "es": "(ES) Beauty contest prize?",
+      "de": "(DE) Beauty contest prize?",
+      "nl": "(NL) Beauty contest prize?"
+    },
+    "options": [
+      {
+        "en": "$10",
+        "es": "$10",
+        "de": "$10",
+        "nl": "$10"
+      },
+      {
+        "en": "$25",
+        "es": "$25",
+        "de": "$25",
+        "nl": "$25"
+      },
+      {
+        "en": "$50",
+        "es": "$50",
+        "de": "$50",
+        "nl": "$50"
+      },
+      {
+        "en": "$100",
+        "es": "$100",
+        "de": "$100",
+        "nl": "$100"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The correct answer is: $10",
+      "es": "La respuesta correcta es: $10",
+      "de": "Die richtige Antwort ist: $10",
+      "nl": "Het juiste antwoord is: $10"
+    }
+  },
+  {
+    "question": {
+      "en": "Opera night collect?",
+      "es": "(ES) Opera night collect?",
+      "de": "(DE) Opera night collect?",
+      "nl": "(NL) Opera night collect?"
+    },
+    "options": [
+      {
+        "en": "$25",
+        "es": "$25",
+        "de": "$25",
+        "nl": "$25"
+      },
+      {
+        "en": "$50 from all",
+        "es": "$50 from all",
+        "de": "$50 from all",
+        "nl": "$50 from all"
+      },
+      {
+        "en": "$100",
+        "es": "$100",
+        "de": "$100",
+        "nl": "$100"
+      },
+      {
+        "en": "$200",
+        "es": "$200",
+        "de": "$200",
+        "nl": "$200"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: $50 from all",
+      "es": "La respuesta correcta es: $50 from all",
+      "de": "Die richtige Antwort ist: $50 from all",
+      "nl": "Het juiste antwoord is: $50 from all"
+    }
+  },
+  {
+    "question": {
+      "en": "Birthday collect?",
+      "es": "(ES) Birthday collect?",
+      "de": "(DE) Birthday collect?",
+      "nl": "(NL) Birthday collect?"
+    },
+    "options": [
+      {
+        "en": "$10 from all",
+        "es": "$10 from all",
+        "de": "$10 from all",
+        "nl": "$10 from all"
+      },
+      {
+        "en": "$25",
+        "es": "$25",
+        "de": "$25",
+        "nl": "$25"
+      },
+      {
+        "en": "$50",
+        "es": "$50",
+        "de": "$50",
+        "nl": "$50"
+      },
+      {
+        "en": "$100",
+        "es": "$100",
+        "de": "$100",
+        "nl": "$100"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The correct answer is: $10 from all",
+      "es": "La respuesta correcta es: $10 from all",
+      "de": "Die richtige Antwort ist: $10 from all",
+      "nl": "Het juiste antwoord is: $10 from all"
+    }
+  },
+  {
+    "question": {
+      "en": "Monopoly year created?",
+      "es": "(ES) Monopoly year created?",
+      "de": "(DE) Monopoly year created?",
+      "nl": "(NL) Monopoly year created?"
+    },
+    "options": [
+      {
+        "en": "1925",
+        "es": "1925",
+        "de": "1925",
+        "nl": "1925"
+      },
+      {
+        "en": "1935",
+        "es": "1935",
+        "de": "1935",
+        "nl": "1935"
+      },
+      {
+        "en": "1945",
+        "es": "1945",
+        "de": "1945",
+        "nl": "1945"
+      },
+      {
+        "en": "1955",
+        "es": "1955",
+        "de": "1955",
+        "nl": "1955"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: 1935",
+      "es": "La respuesta correcta es: 1935",
+      "de": "Die richtige Antwort ist: 1935",
+      "nl": "Het juiste antwoord is: 1935"
+    }
+  },
+  {
+    "question": {
+      "en": "Creator of Monopoly?",
+      "es": "(ES) Creator of Monopoly?",
+      "de": "(DE) Creator of Monopoly?",
+      "nl": "(NL) Creator of Monopoly?"
+    },
+    "options": [
+      {
+        "en": "Parker",
+        "es": "Parker",
+        "de": "Parker",
+        "nl": "Parker"
+      },
+      {
+        "en": "Charles Darrow",
+        "es": "Charles Darrow",
+        "de": "Charles Darrow",
+        "nl": "Charles Darrow"
+      },
+      {
+        "en": "Milton",
+        "es": "Milton",
+        "de": "Milton",
+        "nl": "Milton"
+      },
+      {
+        "en": "Hasbro",
+        "es": "Hasbro",
+        "de": "Hasbro",
+        "nl": "Hasbro"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: Charles Darrow",
+      "es": "La respuesta correcta es: Charles Darrow",
+      "de": "Die richtige Antwort ist: Charles Darrow",
+      "nl": "Het juiste antwoord is: Charles Darrow"
+    }
+  },
+  {
+    "question": {
+      "en": "Original city basis?",
+      "es": "(ES) Original city basis?",
+      "de": "(DE) Original city basis?",
+      "nl": "(NL) Original city basis?"
+    },
+    "options": [
+      {
+        "en": "New York",
+        "es": "New York",
+        "de": "New York",
+        "nl": "New York"
+      },
+      {
+        "en": "Atlantic City",
+        "es": "Atlantic City",
+        "de": "Atlantic City",
+        "nl": "Atlantic City"
+      },
+      {
+        "en": "Chicago",
+        "es": "Chicago",
+        "de": "Chicago",
+        "nl": "Chicago"
+      },
+      {
+        "en": "Boston",
+        "es": "Boston",
+        "de": "Boston",
+        "nl": "Boston"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: Atlantic City",
+      "es": "La respuesta correcta es: Atlantic City",
+      "de": "Die richtige Antwort ist: Atlantic City",
+      "nl": "Het juiste antwoord is: Atlantic City"
+    }
+  },
+  {
+    "question": {
+      "en": "First publisher?",
+      "es": "(ES) First publisher?",
+      "de": "(DE) First publisher?",
+      "nl": "(NL) First publisher?"
+    },
+    "options": [
+      {
+        "en": "Parker Brothers",
+        "es": "Parker Brothers",
+        "de": "Parker Brothers",
+        "nl": "Parker Brothers"
+      },
+      {
+        "en": "Hasbro",
+        "es": "Hasbro",
+        "de": "Hasbro",
+        "nl": "Hasbro"
+      },
+      {
+        "en": "Milton Bradley",
+        "es": "Milton Bradley",
+        "de": "Milton Bradley",
+        "nl": "Milton Bradley"
+      },
+      {
+        "en": "Mattel",
+        "es": "Mattel",
+        "de": "Mattel",
+        "nl": "Mattel"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The correct answer is: Parker Brothers",
+      "es": "La respuesta correcta es: Parker Brothers",
+      "de": "Die richtige Antwort ist: Parker Brothers",
+      "nl": "Het juiste antwoord is: Parker Brothers"
+    }
+  },
+  {
+    "question": {
+      "en": "Current owner?",
+      "es": "(ES) Current owner?",
+      "de": "(DE) Current owner?",
+      "nl": "(NL) Current owner?"
+    },
+    "options": [
+      {
+        "en": "Parker",
+        "es": "Parker",
+        "de": "Parker",
+        "nl": "Parker"
+      },
+      {
+        "en": "Hasbro",
+        "es": "Hasbro",
+        "de": "Hasbro",
+        "nl": "Hasbro"
+      },
+      {
+        "en": "Mattel",
+        "es": "Mattel",
+        "de": "Mattel",
+        "nl": "Mattel"
+      },
+      {
+        "en": "Milton",
+        "es": "Milton",
+        "de": "Milton",
+        "nl": "Milton"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: Hasbro",
+      "es": "La respuesta correcta es: Hasbro",
+      "de": "Die richtige Antwort ist: Hasbro",
+      "nl": "Het juiste antwoord is: Hasbro"
+    }
+  },
+  {
+    "question": {
+      "en": "Monopoly tokens originally?",
+      "es": "(ES) Monopoly tokens originally?",
+      "de": "(DE) Monopoly tokens originally?",
+      "nl": "(NL) Monopoly tokens originally?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "es": "4",
+        "de": "4",
+        "nl": "4"
+      },
+      {
+        "en": "6",
+        "es": "6",
+        "de": "6",
+        "nl": "6"
+      },
+      {
+        "en": "8",
+        "es": "8",
+        "de": "8",
+        "nl": "8"
+      },
+      {
+        "en": "10",
+        "es": "10",
+        "de": "10",
+        "nl": "10"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: 6",
+      "es": "La respuesta correcta es: 6",
+      "de": "Die richtige Antwort ist: 6",
+      "nl": "Het juiste antwoord is: 6"
+    }
+  },
+  {
+    "question": {
+      "en": "Classic token NOT original?",
+      "es": "(ES) Classic token NOT original?",
+      "de": "(DE) Classic token NOT original?",
+      "nl": "(NL) Classic token NOT original?"
+    },
+    "options": [
+      {
+        "en": "Top hat",
+        "es": "Top hat",
+        "de": "Top hat",
+        "nl": "Top hat"
+      },
+      {
+        "en": "Thimble",
+        "es": "Thimble",
+        "de": "Thimble",
+        "nl": "Thimble"
+      },
+      {
+        "en": "Wheelbarrow",
+        "es": "Wheelbarrow",
+        "de": "Wheelbarrow",
+        "nl": "Wheelbarrow"
+      },
+      {
+        "en": "Iron",
+        "es": "Iron",
+        "de": "Iron",
+        "nl": "Iron"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct answer is: Wheelbarrow",
+      "es": "La respuesta correcta es: Wheelbarrow",
+      "de": "Die richtige Antwort ist: Wheelbarrow",
+      "nl": "Het juiste antwoord is: Wheelbarrow"
+    }
+  },
+  {
+    "question": {
+      "en": "Newest token added?",
+      "es": "(ES) Newest token added?",
+      "de": "(DE) Newest token added?",
+      "nl": "(NL) Newest token added?"
+    },
+    "options": [
+      {
+        "en": "Cat",
+        "es": "Cat",
+        "de": "Cat",
+        "nl": "Cat"
+      },
+      {
+        "en": "T-Rex",
+        "es": "T-Rex",
+        "de": "T-Rex",
+        "nl": "T-Rex"
+      },
+      {
+        "en": "Penguin",
+        "es": "Penguin",
+        "de": "Penguin",
+        "nl": "Penguin"
+      },
+      {
+        "en": "Duck",
+        "es": "Duck",
+        "de": "Duck",
+        "nl": "Duck"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: T-Rex",
+      "es": "La respuesta correcta es: T-Rex",
+      "de": "Die richtige Antwort ist: T-Rex",
+      "nl": "Het juiste antwoord is: T-Rex"
+    }
+  },
+  {
+    "question": {
+      "en": "Token voted out 2017?",
+      "es": "(ES) Token voted out 2017?",
+      "de": "(DE) Token voted out 2017?",
+      "nl": "(NL) Token voted out 2017?"
+    },
+    "options": [
+      {
+        "en": "Boot",
+        "es": "Boot",
+        "de": "Boot",
+        "nl": "Boot"
+      },
+      {
+        "en": "Thimble",
+        "es": "Thimble",
+        "de": "Thimble",
+        "nl": "Thimble"
+      },
+      {
+        "en": "Iron",
+        "es": "Iron",
+        "de": "Iron",
+        "nl": "Iron"
+      },
+      {
+        "en": "Wheelbarrow",
+        "es": "Wheelbarrow",
+        "de": "Wheelbarrow",
+        "nl": "Wheelbarrow"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: Thimble",
+      "es": "La respuesta correcta es: Thimble",
+      "de": "Die richtige Antwort ist: Thimble",
+      "nl": "Het juiste antwoord is: Thimble"
+    }
+  },
+  {
+    "question": {
+      "en": "Most landed on property?",
+      "es": "(ES) Most landed on property?",
+      "de": "(DE) Most landed on property?",
+      "nl": "(NL) Most landed on property?"
+    },
+    "options": [
+      {
+        "en": "Boardwalk",
+        "es": "Boardwalk",
+        "de": "Boardwalk",
+        "nl": "Boardwalk"
+      },
+      {
+        "en": "Illinois Ave",
+        "es": "Illinois Ave",
+        "de": "Illinois Ave",
+        "nl": "Illinois Ave"
+      },
+      {
+        "en": "Park Place",
+        "es": "Park Place",
+        "de": "Park Place",
+        "nl": "Park Place"
+      },
+      {
+        "en": "GO",
+        "es": "GO",
+        "de": "GO",
+        "nl": "GO"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: Illinois Ave",
+      "es": "La respuesta correcta es: Illinois Ave",
+      "de": "Die richtige Antwort ist: Illinois Ave",
+      "nl": "Het juiste antwoord is: Illinois Ave"
+    }
+  },
+  {
+    "question": {
+      "en": "Most landed on space?",
+      "es": "(ES) Most landed on space?",
+      "de": "(DE) Most landed on space?",
+      "nl": "(NL) Most landed on space?"
+    },
+    "options": [
+      {
+        "en": "GO",
+        "es": "GO",
+        "de": "GO",
+        "nl": "GO"
+      },
+      {
+        "en": "Jail",
+        "es": "Jail",
+        "de": "Jail",
+        "nl": "Jail"
+      },
+      {
+        "en": "Free Parking",
+        "es": "Free Parking",
+        "de": "Free Parking",
+        "nl": "Free Parking"
+      },
+      {
+        "en": "Illinois",
+        "es": "Illinois",
+        "de": "Illinois",
+        "nl": "Illinois"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: Jail",
+      "es": "La respuesta correcta es: Jail",
+      "de": "Die richtige Antwort ist: Jail",
+      "nl": "Het juiste antwoord is: Jail"
+    }
+  },
+  {
+    "question": {
+      "en": "Best ROI color group?",
+      "es": "(ES) Best ROI color group?",
+      "de": "(DE) Best ROI color group?",
+      "nl": "(NL) Best ROI color group?"
+    },
+    "options": [
+      {
+        "en": "Brown",
+        "es": "Brown",
+        "de": "Brown",
+        "nl": "Brown"
+      },
+      {
+        "en": "Orange",
+        "es": "Orange",
+        "de": "Orange",
+        "nl": "Orange"
+      },
+      {
+        "en": "Red",
+        "es": "Red",
+        "de": "Red",
+        "nl": "Red"
+      },
+      {
+        "en": "Dark Blue",
+        "es": "Dark Blue",
+        "de": "Dark Blue",
+        "nl": "Dark Blue"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: Orange",
+      "es": "La respuesta correcta es: Orange",
+      "de": "Die richtige Antwort ist: Orange",
+      "nl": "Het juiste antwoord is: Orange"
+    }
+  },
+  {
+    "question": {
+      "en": "Worst ROI color group?",
+      "es": "(ES) Worst ROI color group?",
+      "de": "(DE) Worst ROI color group?",
+      "nl": "(NL) Worst ROI color group?"
+    },
+    "options": [
+      {
+        "en": "Brown",
+        "es": "Brown",
+        "de": "Brown",
+        "nl": "Brown"
+      },
+      {
+        "en": "Pink",
+        "es": "Pink",
+        "de": "Pink",
+        "nl": "Pink"
+      },
+      {
+        "en": "Green",
+        "es": "Green",
+        "de": "Green",
+        "nl": "Green"
+      },
+      {
+        "en": "Yellow",
+        "es": "Yellow",
+        "de": "Yellow",
+        "nl": "Yellow"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct answer is: Green",
+      "es": "La respuesta correcta es: Green",
+      "de": "Die richtige Antwort ist: Green",
+      "nl": "Het juiste antwoord is: Green"
+    }
+  },
+  {
+    "question": {
+      "en": "Average game length?",
+      "es": "(ES) Average game length?",
+      "de": "(DE) Average game length?",
+      "nl": "(NL) Average game length?"
+    },
+    "options": [
+      {
+        "en": "30 min",
+        "es": "30 min",
+        "de": "30 min",
+        "nl": "30 min"
+      },
+      {
+        "en": "60-90 min",
+        "es": "60-90 min",
+        "de": "60-90 min",
+        "nl": "60-90 min"
+      },
+      {
+        "en": "2 hours",
+        "es": "2 hours",
+        "de": "2 hours",
+        "nl": "2 hours"
+      },
+      {
+        "en": "3 hours",
+        "es": "3 hours",
+        "de": "3 hours",
+        "nl": "3 hours"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: 60-90 min",
+      "es": "La respuesta correcta es: 60-90 min",
+      "de": "Die richtige Antwort ist: 60-90 min",
+      "nl": "Het juiste antwoord is: 60-90 min"
+    }
+  },
+  {
+    "question": {
+      "en": "Longest recorded game?",
+      "es": "(ES) Longest recorded game?",
+      "de": "(DE) Longest recorded game?",
+      "nl": "(NL) Longest recorded game?"
+    },
+    "options": [
+      {
+        "en": "24 hours",
+        "es": "24 hours",
+        "de": "24 hours",
+        "nl": "24 hours"
+      },
+      {
+        "en": "3 days",
+        "es": "3 days",
+        "de": "3 days",
+        "nl": "3 days"
+      },
+      {
+        "en": "70 days",
+        "es": "70 days",
+        "de": "70 days",
+        "nl": "70 days"
+      },
+      {
+        "en": "1 year",
+        "es": "1 year",
+        "de": "1 year",
+        "nl": "1 year"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct answer is: 70 days",
+      "es": "La respuesta correcta es: 70 days",
+      "de": "Die richtige Antwort ist: 70 days",
+      "nl": "Het juiste antwoord is: 70 days"
+    }
+  },
+  {
+    "question": {
+      "en": "Underwater game record?",
+      "es": "(ES) Underwater game record?",
+      "de": "(DE) Underwater game record?",
+      "nl": "(NL) Underwater game record?"
+    },
+    "options": [
+      {
+        "en": "1 day",
+        "es": "1 day",
+        "de": "1 day",
+        "nl": "1 day"
+      },
+      {
+        "en": "1 week",
+        "es": "1 week",
+        "de": "1 week",
+        "nl": "1 week"
+      },
+      {
+        "en": "45 days",
+        "es": "45 days",
+        "de": "45 days",
+        "nl": "45 days"
+      },
+      {
+        "en": "90 days",
+        "es": "90 days",
+        "de": "90 days",
+        "nl": "90 days"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct answer is: 45 days",
+      "es": "La respuesta correcta es: 45 days",
+      "de": "Die richtige Antwort ist: 45 days",
+      "nl": "Het juiste antwoord is: 45 days"
+    }
+  },
+  {
+    "question": {
+      "en": "Space station game?",
+      "es": "(ES) Space station game?",
+      "de": "(DE) Space station game?",
+      "nl": "(NL) Space station game?"
+    },
+    "options": [
+      {
+        "en": "Never",
+        "es": "Never",
+        "de": "Never",
+        "nl": "Never"
+      },
+      {
+        "en": "ISS 2007",
+        "es": "ISS 2007",
+        "de": "ISS 2007",
+        "nl": "ISS 2007"
+      },
+      {
+        "en": "Mir 1995",
+        "es": "Mir 1995",
+        "de": "Mir 1995",
+        "nl": "Mir 1995"
+      },
+      {
+        "en": "Skylab 1973",
+        "es": "Skylab 1973",
+        "de": "Skylab 1973",
+        "nl": "Skylab 1973"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: ISS 2007",
+      "es": "La respuesta correcta es: ISS 2007",
+      "de": "Die richtige Antwort ist: ISS 2007",
+      "nl": "Het juiste antwoord is: ISS 2007"
+    }
+  },
+  {
+    "question": {
+      "en": "Countries with versions?",
+      "es": "(ES) Countries with versions?",
+      "de": "(DE) Countries with versions?",
+      "nl": "(NL) Countries with versions?"
+    },
+    "options": [
+      {
+        "en": "25",
+        "es": "25",
+        "de": "25",
+        "nl": "25"
+      },
+      {
+        "en": "50",
+        "es": "50",
+        "de": "50",
+        "nl": "50"
+      },
+      {
+        "en": "75",
+        "es": "75",
+        "de": "75",
+        "nl": "75"
+      },
+      {
+        "en": "111+",
+        "es": "111+",
+        "de": "111+",
+        "nl": "111+"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The correct answer is: 111+",
+      "es": "La respuesta correcta es: 111+",
+      "de": "Die richtige Antwort ist: 111+",
+      "nl": "Het juiste antwoord is: 111+"
+    }
+  },
+  {
+    "question": {
+      "en": "Languages available?",
+      "es": "(ES) Languages available?",
+      "de": "(DE) Languages available?",
+      "nl": "(NL) Languages available?"
+    },
+    "options": [
+      {
+        "en": "10",
+        "es": "10",
+        "de": "10",
+        "nl": "10"
+      },
+      {
+        "en": "25",
+        "es": "25",
+        "de": "25",
+        "nl": "25"
+      },
+      {
+        "en": "47",
+        "es": "47",
+        "de": "47",
+        "nl": "47"
+      },
+      {
+        "en": "100",
+        "es": "100",
+        "de": "100",
+        "nl": "100"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct answer is: 47",
+      "es": "La respuesta correcta es: 47",
+      "de": "Die richtige Antwort ist: 47",
+      "nl": "Het juiste antwoord is: 47"
+    }
+  },
+  {
+    "question": {
+      "en": "Most expensive version?",
+      "es": "(ES) Most expensive version?",
+      "de": "(DE) Most expensive version?",
+      "nl": "(NL) Most expensive version?"
+    },
+    "options": [
+      {
+        "en": "$1000",
+        "es": "$1000",
+        "de": "$1000",
+        "nl": "$1000"
+      },
+      {
+        "en": "$10000",
+        "es": "$10000",
+        "de": "$10000",
+        "nl": "$10000"
+      },
+      {
+        "en": "$100000",
+        "es": "$100000",
+        "de": "$100000",
+        "nl": "$100000"
+      },
+      {
+        "en": "$2 million",
+        "es": "$2 million",
+        "de": "$2 million",
+        "nl": "$2 million"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The correct answer is: $2 million",
+      "es": "La respuesta correcta es: $2 million",
+      "de": "Die richtige Antwort ist: $2 million",
+      "nl": "Het juiste antwoord is: $2 million"
+    }
+  },
+  {
+    "question": {
+      "en": "Monopoly championship frequency?",
+      "es": "(ES) Monopoly championship frequency?",
+      "de": "(DE) Monopoly championship frequency?",
+      "nl": "(NL) Monopoly championship frequency?"
+    },
+    "options": [
+      {
+        "en": "Annual",
+        "es": "Annual",
+        "de": "Annual",
+        "nl": "Annual"
+      },
+      {
+        "en": "Every 2 years",
+        "es": "Every 2 years",
+        "de": "Every 2 years",
+        "nl": "Every 2 years"
+      },
+      {
+        "en": "Every 4-6 years",
+        "es": "Every 4-6 years",
+        "de": "Every 4-6 years",
+        "nl": "Every 4-6 years"
+      },
+      {
+        "en": "Every 10 years",
+        "es": "Every 10 years",
+        "de": "Every 10 years",
+        "nl": "Every 10 years"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct answer is: Every 4-6 years",
+      "es": "La respuesta correcta es: Every 4-6 years",
+      "de": "Die richtige Antwort ist: Every 4-6 years",
+      "nl": "Het juiste antwoord is: Every 4-6 years"
+    }
+  },
+  {
+    "question": {
+      "en": "Electronic Banking year?",
+      "es": "(ES) Electronic Banking year?",
+      "de": "(DE) Electronic Banking year?",
+      "nl": "(NL) Electronic Banking year?"
+    },
+    "options": [
+      {
+        "en": "2000",
+        "es": "2000",
+        "de": "2000",
+        "nl": "2000"
+      },
+      {
+        "en": "2006",
+        "es": "2006",
+        "de": "2006",
+        "nl": "2006"
+      },
+      {
+        "en": "2010",
+        "es": "2010",
+        "de": "2010",
+        "nl": "2010"
+      },
+      {
+        "en": "2015",
+        "es": "2015",
+        "de": "2015",
+        "nl": "2015"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: 2006",
+      "es": "La respuesta correcta es: 2006",
+      "de": "Die richtige Antwort ist: 2006",
+      "nl": "Het juiste antwoord is: 2006"
+    }
+  },
+  {
+    "question": {
+      "en": "Monopoly Junior for ages?",
+      "es": "(ES) Monopoly Junior for ages?",
+      "de": "(DE) Monopoly Junior for ages?",
+      "nl": "(NL) Monopoly Junior for ages?"
+    },
+    "options": [
+      {
+        "en": "3-5",
+        "es": "3-5",
+        "de": "3-5",
+        "nl": "3-5"
+      },
+      {
+        "en": "5-8",
+        "es": "5-8",
+        "de": "5-8",
+        "nl": "5-8"
+      },
+      {
+        "en": "8-12",
+        "es": "8-12",
+        "de": "8-12",
+        "nl": "8-12"
+      },
+      {
+        "en": "10+",
+        "es": "10+",
+        "de": "10+",
+        "nl": "10+"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: 5-8",
+      "es": "La respuesta correcta es: 5-8",
+      "de": "Die richtige Antwort ist: 5-8",
+      "nl": "Het juiste antwoord is: 5-8"
+    }
+  },
+  {
+    "question": {
+      "en": "Speed Die added when?",
+      "es": "(ES) Speed Die added when?",
+      "de": "(DE) Speed Die added when?",
+      "nl": "(NL) Speed Die added when?"
+    },
+    "options": [
+      {
+        "en": "1995",
+        "es": "1995",
+        "de": "1995",
+        "nl": "1995"
+      },
+      {
+        "en": "2000",
+        "es": "2000",
+        "de": "2000",
+        "nl": "2000"
+      },
+      {
+        "en": "2007",
+        "es": "2007",
+        "de": "2007",
+        "nl": "2007"
+      },
+      {
+        "en": "2010",
+        "es": "2010",
+        "de": "2010",
+        "nl": "2010"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct answer is: 2007",
+      "es": "La respuesta correcta es: 2007",
+      "de": "Die richtige Antwort ist: 2007",
+      "nl": "Het juiste antwoord is: 2007"
+    }
+  },
+  {
+    "question": {
+      "en": "Speed Die shows?",
+      "es": "(ES) Speed Die shows?",
+      "de": "(DE) Speed Die shows?",
+      "nl": "(NL) Speed Die shows?"
+    },
+    "options": [
+      {
+        "en": "1-6",
+        "es": "1-6",
+        "de": "1-6",
+        "nl": "1-6"
+      },
+      {
+        "en": "1-3 or Mr. Monopoly",
+        "es": "1-3 or Mr. Monopoly",
+        "de": "1-3 or Mr. Monopoly",
+        "nl": "1-3 or Mr. Monopoly"
+      },
+      {
+        "en": "Double",
+        "es": "Double",
+        "de": "Double",
+        "nl": "Double"
+      },
+      {
+        "en": "Triple",
+        "es": "Triple",
+        "de": "Triple",
+        "nl": "Triple"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: 1-3 or Mr. Monopoly",
+      "es": "La respuesta correcta es: 1-3 or Mr. Monopoly",
+      "de": "Die richtige Antwort ist: 1-3 or Mr. Monopoly",
+      "nl": "Het juiste antwoord is: 1-3 or Mr. Monopoly"
+    }
+  },
+  {
+    "question": {
+      "en": "Mega Edition board size?",
+      "es": "(ES) Mega Edition board size?",
+      "de": "(DE) Mega Edition board size?",
+      "nl": "(NL) Mega Edition board size?"
+    },
+    "options": [
+      {
+        "en": "10",
+        "es": "10",
+        "de": "10",
+        "nl": "10"
+      },
+      {
+        "en": "11",
+        "es": "11",
+        "de": "11",
+        "nl": "11"
+      },
+      {
+        "en": "12 per side",
+        "es": "12 per side",
+        "de": "12 per side",
+        "nl": "12 per side"
+      },
+      {
+        "en": "15",
+        "es": "15",
+        "de": "15",
+        "nl": "15"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct answer is: 12 per side",
+      "es": "La respuesta correcta es: 12 per side",
+      "de": "Die richtige Antwort ist: 12 per side",
+      "nl": "Het juiste antwoord is: 12 per side"
+    }
+  },
+  {
+    "question": {
+      "en": "Mega Edition new color?",
+      "es": "(ES) Mega Edition new color?",
+      "de": "(DE) Mega Edition new color?",
+      "nl": "(NL) Mega Edition new color?"
+    },
+    "options": [
+      {
+        "en": "Gray",
+        "es": "Gray",
+        "de": "Gray",
+        "nl": "Gray"
+      },
+      {
+        "en": "White",
+        "es": "White",
+        "de": "White",
+        "nl": "White"
+      },
+      {
+        "en": "Black",
+        "es": "Black",
+        "de": "Black",
+        "nl": "Black"
+      },
+      {
+        "en": "Gold",
+        "es": "Gold",
+        "de": "Gold",
+        "nl": "Gold"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The correct answer is: Gray",
+      "es": "La respuesta correcta es: Gray",
+      "de": "Die richtige Antwort ist: Gray",
+      "nl": "Het juiste antwoord is: Gray"
+    }
+  },
+  {
+    "question": {
+      "en": "City Edition first?",
+      "es": "(ES) City Edition first?",
+      "de": "(DE) City Edition first?",
+      "nl": "(NL) City Edition first?"
+    },
+    "options": [
+      {
+        "en": "New York",
+        "es": "New York",
+        "de": "New York",
+        "nl": "New York"
+      },
+      {
+        "en": "London",
+        "es": "London",
+        "de": "London",
+        "nl": "London"
+      },
+      {
+        "en": "Paris",
+        "es": "Paris",
+        "de": "Paris",
+        "nl": "Paris"
+      },
+      {
+        "en": "Tokyo",
+        "es": "Tokyo",
+        "de": "Tokyo",
+        "nl": "Tokyo"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: London",
+      "es": "La respuesta correcta es: London",
+      "de": "Die richtige Antwort ist: London",
+      "nl": "Het juiste antwoord is: London"
+    }
+  },
+  {
+    "question": {
+      "en": "Here & Now year prices?",
+      "es": "(ES) Here & Now year prices?",
+      "de": "(DE) Here & Now year prices?",
+      "nl": "(NL) Here & Now year prices?"
+    },
+    "options": [
+      {
+        "en": "Hundreds",
+        "es": "Hundreds",
+        "de": "Hundreds",
+        "nl": "Hundreds"
+      },
+      {
+        "en": "Thousands",
+        "es": "Thousands",
+        "de": "Thousands",
+        "nl": "Thousands"
+      },
+      {
+        "en": "Millions",
+        "es": "Millions",
+        "de": "Millions",
+        "nl": "Millions"
+      },
+      {
+        "en": "Billions",
+        "es": "Billions",
+        "de": "Billions",
+        "nl": "Billions"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct answer is: Millions",
+      "es": "La respuesta correcta es: Millions",
+      "de": "Die richtige Antwort ist: Millions",
+      "nl": "Het juiste antwoord is: Millions"
+    }
+  },
+  {
+    "question": {
+      "en": "Cheaters Edition allows?",
+      "es": "(ES) Cheaters Edition allows?",
+      "de": "(DE) Cheaters Edition allows?",
+      "nl": "(NL) Cheaters Edition allows?"
+    },
+    "options": [
+      {
+        "en": "Extra money",
+        "es": "Extra money",
+        "de": "Extra money",
+        "nl": "Extra money"
+      },
+      {
+        "en": "Cheating",
+        "es": "Cheating",
+        "de": "Cheating",
+        "nl": "Cheating"
+      },
+      {
+        "en": "Trading",
+        "es": "Trading",
+        "de": "Trading",
+        "nl": "Trading"
+      },
+      {
+        "en": "Teams",
+        "es": "Teams",
+        "de": "Teams",
+        "nl": "Teams"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: Cheating",
+      "es": "La respuesta correcta es: Cheating",
+      "de": "Die richtige Antwort ist: Cheating",
+      "nl": "Het juiste antwoord is: Cheating"
+    }
+  },
+  {
+    "question": {
+      "en": "Voice Banking uses?",
+      "es": "(ES) Voice Banking uses?",
+      "de": "(DE) Voice Banking uses?",
+      "nl": "(NL) Voice Banking uses?"
+    },
+    "options": [
+      {
+        "en": "App",
+        "es": "App",
+        "de": "App",
+        "nl": "App"
+      },
+      {
+        "en": "Voice commands",
+        "es": "Voice commands",
+        "de": "Voice commands",
+        "nl": "Voice commands"
+      },
+      {
+        "en": "AI",
+        "es": "AI",
+        "de": "AI",
+        "nl": "AI"
+      },
+      {
+        "en": "Video",
+        "es": "Video",
+        "de": "Video",
+        "nl": "Video"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: Voice commands",
+      "es": "La respuesta correcta es: Voice commands",
+      "de": "Die richtige Antwort ist: Voice commands",
+      "nl": "Het juiste antwoord is: Voice commands"
+    }
+  },
+  {
+    "question": {
+      "en": "Monopoly Deal is?",
+      "es": "(ES) Monopoly Deal is?",
+      "de": "(DE) Monopoly Deal is?",
+      "nl": "(NL) Monopoly Deal is?"
+    },
+    "options": [
+      {
+        "en": "Board game",
+        "es": "Board game",
+        "de": "Board game",
+        "nl": "Board game"
+      },
+      {
+        "en": "Card game",
+        "es": "Card game",
+        "de": "Card game",
+        "nl": "Card game"
+      },
+      {
+        "en": "Video game",
+        "es": "Video game",
+        "de": "Video game",
+        "nl": "Video game"
+      },
+      {
+        "en": "App",
+        "es": "App",
+        "de": "App",
+        "nl": "App"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: Card game",
+      "es": "La respuesta correcta es: Card game",
+      "de": "Die richtige Antwort ist: Card game",
+      "nl": "Het juiste antwoord is: Card game"
+    }
+  },
+  {
+    "question": {
+      "en": "Monopoly Empire about?",
+      "es": "(ES) Monopoly Empire about?",
+      "de": "(DE) Monopoly Empire about?",
+      "nl": "(NL) Monopoly Empire about?"
+    },
+    "options": [
+      {
+        "en": "Countries",
+        "es": "Countries",
+        "de": "Countries",
+        "nl": "Countries"
+      },
+      {
+        "en": "Brands",
+        "es": "Brands",
+        "de": "Brands",
+        "nl": "Brands"
+      },
+      {
+        "en": "Sports",
+        "es": "Sports",
+        "de": "Sports",
+        "nl": "Sports"
+      },
+      {
+        "en": "Movies",
+        "es": "Movies",
+        "de": "Movies",
+        "nl": "Movies"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: Brands",
+      "es": "La respuesta correcta es: Brands",
+      "de": "Die richtige Antwort ist: Brands",
+      "nl": "Het juiste antwoord is: Brands"
+    }
+  },
+  {
+    "question": {
+      "en": "Monopoly Socialism joke?",
+      "es": "(ES) Monopoly Socialism joke?",
+      "de": "(DE) Monopoly Socialism joke?",
+      "nl": "(NL) Monopoly Socialism joke?"
+    },
+    "options": [
+      {
+        "en": "Everyone wins",
+        "es": "Everyone wins",
+        "de": "Everyone wins",
+        "nl": "Everyone wins"
+      },
+      {
+        "en": "No money",
+        "es": "No money",
+        "de": "No money",
+        "nl": "No money"
+      },
+      {
+        "en": "Winning is for capitalists",
+        "es": "Winning is for capitalists",
+        "de": "Winning is for capitalists",
+        "nl": "Winning is for capitalists"
+      },
+      {
+        "en": "Share everything",
+        "es": "Share everything",
+        "de": "Share everything",
+        "nl": "Share everything"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct answer is: Winning is for capitalists",
+      "es": "La respuesta correcta es: Winning is for capitalists",
+      "de": "Die richtige Antwort ist: Winning is for capitalists",
+      "nl": "Het juiste antwoord is: Winning is for capitalists"
+    }
+  },
+  {
+    "question": {
+      "en": "Ms. Monopoly advantage?",
+      "es": "(ES) Ms. Monopoly advantage?",
+      "de": "(DE) Ms. Monopoly advantage?",
+      "nl": "(NL) Ms. Monopoly advantage?"
+    },
+    "options": [
+      {
+        "en": "Men earn more",
+        "es": "Men earn more",
+        "de": "Men earn more",
+        "nl": "Men earn more"
+      },
+      {
+        "en": "Women earn more",
+        "es": "Women earn more",
+        "de": "Women earn more",
+        "nl": "Women earn more"
+      },
+      {
+        "en": "Equal pay",
+        "es": "Equal pay",
+        "de": "Equal pay",
+        "nl": "Equal pay"
+      },
+      {
+        "en": "No money",
+        "es": "No money",
+        "de": "No money",
+        "nl": "No money"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: Women earn more",
+      "es": "La respuesta correcta es: Women earn more",
+      "de": "Die richtige Antwort ist: Women earn more",
+      "nl": "Het juiste antwoord is: Women earn more"
+    }
+  },
+  {
+    "question": {
+      "en": "Monopoly for Millennials joke?",
+      "es": "(ES) Monopoly for Millennials joke?",
+      "de": "(DE) Monopoly for Millennials joke?",
+      "nl": "(NL) Monopoly for Millennials joke?"
+    },
+    "options": [
+      {
+        "en": "Digital only",
+        "es": "Digital only",
+        "de": "Digital only",
+        "nl": "Digital only"
+      },
+      {
+        "en": "Can't afford property",
+        "es": "Can't afford property",
+        "de": "Can't afford property",
+        "nl": "Can't afford property"
+      },
+      {
+        "en": "Social media",
+        "es": "Social media",
+        "de": "Social media",
+        "nl": "Social media"
+      },
+      {
+        "en": "Avocados",
+        "es": "Avocados",
+        "de": "Avocados",
+        "nl": "Avocados"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: Can't afford property",
+      "es": "La respuesta correcta es: Can't afford property",
+      "de": "Die richtige Antwort ist: Can't afford property",
+      "nl": "Het juiste antwoord is: Can't afford property"
+    }
+  },
+  {
+    "question": {
+      "en": "Ultimate Banking uses?",
+      "es": "(ES) Ultimate Banking uses?",
+      "de": "(DE) Ultimate Banking uses?",
+      "nl": "(NL) Ultimate Banking uses?"
+    },
+    "options": [
+      {
+        "en": "Cash only",
+        "es": "Cash only",
+        "de": "Cash only",
+        "nl": "Cash only"
+      },
+      {
+        "en": "Bank cards",
+        "es": "Bank cards",
+        "de": "Bank cards",
+        "nl": "Bank cards"
+      },
+      {
+        "en": "Bitcoin",
+        "es": "Bitcoin",
+        "de": "Bitcoin",
+        "nl": "Bitcoin"
+      },
+      {
+        "en": "Gold",
+        "es": "Gold",
+        "de": "Gold",
+        "nl": "Gold"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: Bank cards",
+      "es": "La respuesta correcta es: Bank cards",
+      "de": "Die richtige Antwort ist: Bank cards",
+      "nl": "Het juiste antwoord is: Bank cards"
+    }
+  },
+  {
+    "question": {
+      "en": "World Edition voted?",
+      "es": "(ES) World Edition voted?",
+      "de": "(DE) World Edition voted?",
+      "nl": "(NL) World Edition voted?"
+    },
+    "options": [
+      {
+        "en": "Random",
+        "es": "Random",
+        "de": "Random",
+        "nl": "Random"
+      },
+      {
+        "en": "Online voting",
+        "es": "Online voting",
+        "de": "Online voting",
+        "nl": "Online voting"
+      },
+      {
+        "en": "Tournament",
+        "es": "Tournament",
+        "de": "Tournament",
+        "nl": "Tournament"
+      },
+      {
+        "en": "Sales",
+        "es": "Sales",
+        "de": "Sales",
+        "nl": "Sales"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct answer is: Online voting",
+      "es": "La respuesta correcta es: Online voting",
+      "de": "Die richtige Antwort ist: Online voting",
+      "nl": "Het juiste antwoord is: Online voting"
+    }
+  },
+  {
+    "question": {
+      "en": "Monopoly movie status?",
+      "es": "(ES) Monopoly movie status?",
+      "de": "(DE) Monopoly movie status?",
+      "nl": "(NL) Monopoly movie status?"
+    },
+    "options": [
+      {
+        "en": "Released",
+        "es": "Released",
+        "de": "Released",
+        "nl": "Released"
+      },
+      {
+        "en": "Cancelled",
+        "es": "Cancelled",
+        "de": "Cancelled",
+        "nl": "Cancelled"
+      },
+      {
+        "en": "In development",
+        "es": "In development",
+        "de": "In development",
+        "nl": "In development"
+      },
+      {
+        "en": "Never planned",
+        "es": "Never planned",
+        "de": "Never planned",
+        "nl": "Never planned"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct answer is: In development",
+      "es": "La respuesta correcta es: In development",
+      "de": "Die richtige Antwort ist: In development",
+      "nl": "Het juiste antwoord is: In development"
+    }
   }
-})();
+]
+};

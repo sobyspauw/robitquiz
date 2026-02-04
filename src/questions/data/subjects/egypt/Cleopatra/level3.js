@@ -1,1657 +1,4104 @@
-// Cleopatra Quiz - Level 3
-(function() {
-  const level3 = {
-    name: {
-          "en": "Cleopatra Level 3",
-          "es": "Cleopatra Nivel 3",
-          "de": "Kleopatra Stufe 3",
-          "nl": "Cleopatra Level 3"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Cleopatra",
+      "es": "Pregunta 1 sobre Cleopatra",
+      "de": "Frage 1 über Cleopatra",
+      "nl": "Vraag 1 over Cleopatra"
     },
-    questions: [
+    "options": [
       {
-        question: {
-                  "en": "What was the name of Cleopatra's father?",
-                  "es": "¿Cuál era el nombre del padre de Cleopatra?",
-                  "de": "Wie hieß Kleopatras Vater?",
-                  "nl": "Wat was de naam van Cleopatra's vader?"
-        },
-        options: [
-        {
-                  "en": "Ptolemy IX",
-                  "es": "Ptolomeo IX",
-                  "de": "Ptolemaios IX",
-                  "nl": "Ptolemaeus IX"
-        },
-        {
-                  "en": "Ptolemy X",
-                  "es": "Ptolomeo X",
-                  "de": "Ptolemaios X",
-                  "nl": "Ptolemaeus X"
-        },
-        {
-                  "en": "Ptolemy XII Auletes",
-                  "es": "Ptolomeo XII Auletes",
-                  "de": "Ptolemaios XII. Auletes",
-                  "nl": "Ptolemaeus XII Auletes"
-        },
-        {
-                  "en": "Ptolemy XI",
-                  "es": "Ptolomeo XI",
-                  "de": "Ptolemaios XI",
-                  "nl": "Ptolemaeus XI"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Cleopatra's father was Ptolemy XII Auletes ('the Flute Player'). His weak rule and dependence on Rome set the stage for Cleopatra's later political challenges. He was expelled from Egypt but restored with Roman help.",
-                  "es": "El padre de Cleopatra era Ptolomeo XII Auletes ('el Flautista'). Su gobierno débil y dependencia de Roma preparó el escenario para los desafíos políticos posteriores de Cleopatra. Fue expulsado de Egipto pero restaurado con ayuda romana.",
-                  "de": "Kleopatras Vater war Ptolemaios XII. Auletes ('der Flötenspieler'). Seine schwache Herrschaft und Abhängigkeit von Rom bereiteten den Boden für Kleopatras spätere politische Herausforderungen. Er wurde aus Ägypten vertrieben, aber mit römischer Hilfe wiederhergestellt.",
-                  "nl": "Cleopatra's vader was Ptolemaeus XII Auletes ('de Fluitspeler'). Zijn zwakke bewind en afhankelijkheid van Rome legden de basis voor Cleopatra's latere politieke uitdagingen. Hij werd uit Egypte verdreven maar hersteld met Romeinse hulp."
-        }
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
       },
       {
-        question: {
-                  "en": "Which Roman politician helped restore Ptolemy XII to power in exchange for enormous bribes?",
-                  "es": "¿Qué político romano ayudó a restaurar a Ptolomeo XII al poder a cambio de enormes sobornos?",
-                  "de": "Welcher römische Politiker half Ptolemaios XII. gegen enorme Bestechungsgelder wieder an die Macht?",
-                  "nl": "Welke Romeinse politicus hielp Ptolemaeus XII terug aan de macht in ruil voor enorme steekpenningen?"
-        },
-        options: [
-        {
-                  "en": "Aulus Gabinius",
-                  "es": "Aulo Gabinio",
-                  "de": "Aulus Gabinius",
-                  "nl": "Aulus Gabinius"
-        },
-        {
-                  "en": "Cicero",
-                  "es": "Cicerón",
-                  "de": "Cicero",
-                  "nl": "Cicero"
-        },
-        {
-                  "en": "Pompey the Great",
-                  "es": "Pompeyo el Grande",
-                  "de": "Pompeius der Große",
-                  "nl": "Pompeius de Grote"
-        },
-        {
-                  "en": "Marcus Crassus",
-                  "es": "Marco Craso",
-                  "de": "Marcus Crassus",
-                  "nl": "Marcus Crassus"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Aulus Gabinius, governor of Syria, restored Ptolemy XII to the Egyptian throne in 55 BCE in exchange for 10,000 talents. This massive bribe left Egypt deeply indebted to Rome, a situation Cleopatra later had to manage.",
-                  "es": "Aulo Gabinio, gobernador de Siria, restauró a Ptolomeo XII al trono egipcio en 55 a.C. a cambio de 10,000 talentos. Este soborno masivo dejó a Egipto profundamente endeudado con Roma, una situación que Cleopatra tuvo que manejar más tarde.",
-                  "de": "Aulus Gabinius, Statthalter von Syrien, stellte 55 v. Chr. Ptolemaios XII. gegen 10.000 Talente wieder auf den ägyptischen Thron. Diese massive Bestechung hinterließ Ägypten tief bei Rom verschuldet, eine Situation, die Kleopatra später bewältigen musste.",
-                  "nl": "Aulus Gabinius, gouverneur van Syrië, herstelde Ptolemaeus XII op de Egyptische troon in 55 v.Chr. in ruil voor 10.000 talenten. Deze massale steekpenning liet Egypte diep in de schuld bij Rome, een situatie die Cleopatra later moest beheren."
-        }
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
       },
       {
-        question: {
-                  "en": "How old was Cleopatra when she became co-ruler of Egypt?",
-                  "es": "¿Qué edad tenía Cleopatra cuando se convirtió en co-gobernante de Egipto?",
-                  "de": "Wie alt war Kleopatra, als sie Mitregentin Ägyptens wurde?",
-                  "nl": "Hoe oud was Cleopatra toen ze mede-heerser van Egypte werd?"
-        },
-        options: [
-        {
-                  "en": "18 years old",
-                  "es": "18 años",
-                  "de": "18 Jahre alt",
-                  "nl": "18 jaar oud"
-        },
-        {
-                  "en": "14 years old",
-                  "es": "14 años",
-                  "de": "14 Jahre alt",
-                  "nl": "14 jaar oud"
-        },
-        {
-                  "en": "21 years old",
-                  "es": "21 años",
-                  "de": "21 Jahre alt",
-                  "nl": "21 jaar oud"
-        },
-        {
-                  "en": "25 years old",
-                  "es": "25 años",
-                  "de": "25 Jahre alt",
-                  "nl": "25 jaar oud"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Cleopatra was 18 years old when she became co-ruler with her 10-year-old brother Ptolemy XIII in 51 BCE, after their father's death. Despite her youth, she quickly demonstrated political acumen and ambition.",
-                  "es": "Cleopatra tenía 18 años cuando se convirtió en co-gobernante con su hermano de 10 años Ptolomeo XIII en 51 a.C., después de la muerte de su padre. A pesar de su juventud, rápidamente demostró perspicacia política y ambición.",
-                  "de": "Kleopatra war 18 Jahre alt, als sie 51 v. Chr. nach dem Tod ihres Vaters Mitregentin mit ihrem 10-jährigen Bruder Ptolemaios XIII. wurde. Trotz ihrer Jugend zeigte sie schnell politischen Scharfsinn und Ehrgeiz.",
-                  "nl": "Cleopatra was 18 jaar oud toen ze mede-heerser werd met haar 10-jarige broer Ptolemaeus XIII in 51 v.Chr., na de dood van hun vader. Ondanks haar jeugd toonde ze snel politiek inzicht en ambitie."
-        }
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
       },
       {
-        question: {
-                  "en": "What powerful group of advisors controlled young Ptolemy XIII and opposed Cleopatra?",
-                  "es": "¿Qué poderoso grupo de consejeros controlaba al joven Ptolomeo XIII y se oponía a Cleopatra?",
-                  "de": "Welche mächtige Beratergruppe kontrollierte den jungen Ptolemaios XIII. und widersetzte sich Kleopatra?",
-                  "nl": "Welke machtige groep adviseurs controleerde de jonge Ptolemaeus XIII en verzette zich tegen Cleopatra?"
-        },
-        options: [
-        {
-                  "en": "The Egyptian Priesthood",
-                  "es": "El Sacerdocio Egipcio",
-                  "de": "Die ägyptische Priesterschaft",
-                  "nl": "Het Egyptische Priesterschap"
-        },
-        {
-                  "en": "The Roman Senate",
-                  "es": "El Senado Romano",
-                  "de": "Der römische Senat",
-                  "nl": "De Romeinse Senaat"
-        },
-        {
-                  "en": "The Alexandrian Merchants",
-                  "es": "Los Mercaderes Alejandrinos",
-                  "de": "Die alexandrinischen Kaufleute",
-                  "nl": "De Alexandrijnse Kooplieden"
-        },
-        {
-                  "en": "The Regency Council (led by Pothinus, Achillas, and Theodotus)",
-                  "es": "El Consejo de Regencia (liderado por Potino, Aquilas y Teodoto)",
-                  "de": "Der Regentschaftsrat (geführt von Pothinus, Achillas und Theodotus)",
-                  "nl": "De Regentschapsraad (geleid door Pothinus, Achillas en Theodotus)"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Ptolemy XIII's regency council consisted of the eunuch Pothinus (chief minister), general Achillas, and rhetoric teacher Theodotus. They manipulated the young king against Cleopatra, forcing her into exile in 49 BCE.",
-                  "es": "El consejo de regencia de Ptolomeo XIII consistía del eunuco Potino (ministro principal), el general Aquilas y el profesor de retórica Teodoto. Manipularon al joven rey contra Cleopatra, forzándola al exilio en 49 a.C.",
-                  "de": "Ptolemaios XIII.'s Regentschaftsrat bestand aus dem Eunuchen Pothinus (Hauptminister), General Achillas und Rhetoriklehrer Theodotus. Sie manipulierten den jungen König gegen Kleopatra und zwangen sie 49 v. Chr. ins Exil.",
-                  "nl": "Ptolemaeus XIII's regentschapsraad bestond uit de eunuch Pothinus (hoofdminister), generaal Achillas en retorica-leraar Theodotus. Ze manipuleerden de jonge koning tegen Cleopatra, waardoor ze in 49 v.Chr. in ballingschap werd gedwongen."
-        }
-      },
-      {
-        question: {
-                  "en": "How did Cleopatra famously gain access to Julius Caesar in the palace?",
-                  "es": "¿Cómo obtuvo famosamente Cleopatra acceso a Julio César en el palacio?",
-                  "de": "Wie verschaffte sich Kleopatra berühmt Zugang zu Julius Cäsar im Palast?",
-                  "nl": "Hoe kreeg Cleopatra beroemd toegang tot Julius Caesar in het paleis?"
-        },
-        options: [
-        {
-                  "en": "She disguised herself as a servant",
-                  "es": "Se disfrazó de sirvienta",
-                  "de": "Sie verkleidete sich als Dienerin",
-                  "nl": "Ze vermomde zich als dienares"
-        },
-        {
-                  "en": "She was smuggled in a carpet/bedding roll",
-                  "es": "Fue introducida clandestinamente en una alfombra/rollo de ropa de cama",
-                  "de": "Sie wurde in einem Teppich/Bettzeug eingeschmuggelt",
-                  "nl": "Ze werd gesmokkeld in een tapijt/beddenrol"
-        },
-        {
-                  "en": "She arrived by boat",
-                  "es": "Llegó en barco",
-                  "de": "Sie kam per Boot an",
-                  "nl": "Ze arriveerde per boot"
-        },
-        {
-                  "en": "She walked through the front gate",
-                  "es": "Entró por la puerta principal",
-                  "de": "Sie ging durch das Haupttor",
-                  "nl": "Ze liep door de hoofdpoort"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Cleopatra was famously smuggled into Caesar's quarters rolled up in a carpet or bedding (the exact item is debated). Her servant Apollodorus carried the bundle past guards, allowing her to meet Caesar secretly and dramatically.",
-                  "es": "Cleopatra fue famosamente introducida en los aposentos de César enrollada en una alfombra o ropa de cama (el artículo exacto es debatido). Su sirviente Apolodoro llevó el bulto pasando a los guardias, permitiéndole conocer a César en secreto y dramáticamente.",
-                  "de": "Kleopatra wurde berühmt in einen Teppich oder Bettzeug gerollt in Cäsars Gemächer geschmuggelt (der genaue Gegenstand wird debattiert). Ihr Diener Apollodorus trug das Bündel an Wachen vorbei, sodass sie Cäsar heimlich und dramatisch treffen konnte.",
-                  "nl": "Cleopatra werd beroemd Caesars vertrekken binnengesmokkeld opgerold in een tapijt of beddengoed (het exacte voorwerp wordt bediscussieerd). Haar dienaar Apollodorus droeg de bundel langs wachters, waardoor ze Caesar heimelijk en dramatisch kon ontmoeten."
-        }
-      },
-      {
-        question: {
-                  "en": "What happened to Ptolemy XIII after the Alexandrian War?",
-                  "es": "¿Qué le pasó a Ptolomeo XIII después de la Guerra Alejandrina?",
-                  "de": "Was geschah mit Ptolemaios XIII. nach dem Alexandrinischen Krieg?",
-                  "nl": "Wat gebeurde er met Ptolemaeus XIII na de Alexandrijnse Oorlog?"
-        },
-        options: [
-        {
-                  "en": "He was exiled to Rome",
-                  "es": "Fue exiliado a Roma",
-                  "de": "Er wurde nach Rom verbannt",
-                  "nl": "Hij werd verbannen naar Rome"
-        },
-        {
-                  "en": "He became Caesar's prisoner",
-                  "es": "Se convirtió en prisionero de César",
-                  "de": "Er wurde Cäsars Gefangener",
-                  "nl": "Hij werd Caesars gevangene"
-        },
-        {
-                  "en": "He drowned in the Nile while fleeing",
-                  "es": "Se ahogó en el Nilo mientras huía",
-                  "de": "Er ertrank auf der Flucht im Nil",
-                  "nl": "Hij verdronk in de Nijl tijdens zijn vlucht"
-        },
-        {
-                  "en": "He ruled Cyprus",
-                  "es": "Gobernó Chipre",
-                  "de": "Er regierte Zypern",
-                  "nl": "Hij regeerde Cyprus"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Ptolemy XIII drowned in the Nile River in 47 BCE while fleeing from Caesar's forces after the Battle of the Nile. He was reportedly weighed down by his golden armor. His body was later recovered and displayed.",
-                  "es": "Ptolomeo XIII se ahogó en el río Nilo en 47 a.C. mientras huía de las fuerzas de César después de la Batalla del Nilo. Supuestamente fue hundido por su armadura de oro. Su cuerpo fue recuperado más tarde y exhibido.",
-                  "de": "Ptolemaios XIII. ertrank 47 v. Chr. im Nil, während er nach der Schlacht am Nil vor Cäsars Truppen floh. Er soll von seiner goldenen Rüstung beschwert worden sein. Seine Leiche wurde später geborgen und ausgestellt.",
-                  "nl": "Ptolemaeus XIII verdronk in de Nijl in 47 v.Chr. tijdens zijn vlucht voor Caesars troepen na de Slag bij de Nijl. Hij zou verzwaard zijn door zijn gouden wapenrusting. Zijn lichaam werd later geborgen en tentoongesteld."
-        }
-      },
-      {
-        question: {
-                  "en": "Who did Cleopatra marry after Ptolemy XIII's death to maintain legitimacy?",
-                  "es": "¿Con quién se casó Cleopatra después de la muerte de Ptolomeo XIII para mantener la legitimidad?",
-                  "de": "Wen heiratete Kleopatra nach Ptolemaios XIII.'s Tod, um die Legitimität zu wahren?",
-                  "nl": "Met wie trouwde Cleopatra na de dood van Ptolemaeus XIII om legitimiteit te behouden?"
-        },
-        options: [
-        {
-                  "en": "Julius Caesar",
-                  "es": "Julio César",
-                  "de": "Julius Cäsar",
-                  "nl": "Julius Caesar"
-        },
-        {
-                  "en": "Mark Antony",
-                  "es": "Marco Antonio",
-                  "de": "Marcus Antonius",
-                  "nl": "Marcus Antonius"
-        },
-        {
-                  "en": "A Roman senator",
-                  "es": "Un senador romano",
-                  "de": "Einen römischen Senator",
-                  "nl": "Een Romeinse senator"
-        },
-        {
-                  "en": "Her younger brother Ptolemy XIV",
-                  "es": "Su hermano menor Ptolomeo XIV",
-                  "de": "Ihren jüngeren Bruder Ptolemaios XIV",
-                  "nl": "Haar jongere broer Ptolemaeus XIV"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Cleopatra married her younger brother Ptolemy XIV (about 12 years old) to maintain the tradition of sibling co-rulers. However, she held all real power, especially with Caesar's support. Ptolemy XIV died mysteriously in 44 BCE.",
-                  "es": "Cleopatra se casó con su hermano menor Ptolomeo XIV (de unos 12 años) para mantener la tradición de co-gobernantes hermanos. Sin embargo, ella tenía todo el poder real, especialmente con el apoyo de César. Ptolomeo XIV murió misteriosamente en 44 a.C.",
-                  "de": "Kleopatra heiratete ihren jüngeren Bruder Ptolemaios XIV (etwa 12 Jahre alt), um die Tradition der Geschwister-Mitregenten aufrechtzuerhalten. Sie hatte jedoch alle wirkliche Macht, besonders mit Cäsars Unterstützung. Ptolemaios XIV starb 44 v. Chr. unter mysteriösen Umständen.",
-                  "nl": "Cleopatra trouwde met haar jongere broer Ptolemaeus XIV (ongeveer 12 jaar oud) om de traditie van broer-zus mede-heersers te behouden. Zij had echter alle werkelijke macht, vooral met Caesars steun. Ptolemaeus XIV stierf mysterieus in 44 v.Chr."
-        }
-      },
-      {
-        question: {
-                  "en": "What famous cruise did Cleopatra and Caesar take together?",
-                  "es": "¿Qué famoso crucero hicieron juntos Cleopatra y César?",
-                  "de": "Welche berühmte Kreuzfahrt unternahmen Kleopatra und Cäsar zusammen?",
-                  "nl": "Welke beroemde cruise maakten Cleopatra en Caesar samen?"
-        },
-        options: [
-        {
-                  "en": "A Mediterranean voyage",
-                  "es": "Un viaje por el Mediterráneo",
-                  "de": "Eine Mittelmeerfahrt",
-                  "nl": "Een Middellandse Zee reis"
-        },
-        {
-                  "en": "A journey to Rome",
-                  "es": "Un viaje a Roma",
-                  "de": "Eine Reise nach Rom",
-                  "nl": "Een reis naar Rome"
-        },
-        {
-                  "en": "A Nile River voyage",
-                  "es": "Un viaje por el río Nilo",
-                  "de": "Eine Nilflussfahrt",
-                  "nl": "Een Nijlrivier reis"
-        },
-        {
-                  "en": "A Red Sea expedition",
-                  "es": "Una expedición por el Mar Rojo",
-                  "de": "Eine Rotes-Meer-Expedition",
-                  "nl": "Een Rode Zee expeditie"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Cleopatra and Caesar took a famous two-month cruise along the Nile in 47 BCE on a massive luxury barge (thalamegos). This voyage displayed her wealth and power to Egyptian subjects and solidified their relationship.",
-                  "es": "Cleopatra y César hicieron un famoso crucero de dos meses por el Nilo en 47 a.C. en una enorme barcaza de lujo (thalamegos). Este viaje mostró su riqueza y poder a los súbditos egipcios y solidificó su relación.",
-                  "de": "Kleopatra und Cäsar unternahmen 47 v. Chr. eine berühmte zweimonatige Kreuzfahrt auf dem Nil auf einer riesigen Luxusbarke (Thalamegos). Diese Reise zeigte ihren Reichtum und ihre Macht den ägyptischen Untertanen und festigte ihre Beziehung.",
-                  "nl": "Cleopatra en Caesar maakten een beroemde twee maanden durende cruise langs de Nijl in 47 v.Chr. op een enorme luxe boot (thalamegos). Deze reis toonde haar rijkdom en macht aan Egyptische onderdanen en verstevigde hun relatie."
-        }
-      },
-      {
-        question: {
-                  "en": "When did Cleopatra visit Rome as Caesar's guest?",
-                  "es": "¿Cuándo visitó Cleopatra Roma como invitada de César?",
-                  "de": "Wann besuchte Kleopatra Rom als Cäsars Gast?",
-                  "nl": "Wanneer bezocht Cleopatra Rome als gast van Caesar?"
-        },
-        options: [
-        {
-                  "en": "42-40 BCE",
-                  "es": "42-40 a.C.",
-                  "de": "42-40 v. Chr.",
-                  "nl": "42-40 v.Chr."
-        },
-        {
-                  "en": "46-44 BCE",
-                  "es": "46-44 a.C.",
-                  "de": "46-44 v. Chr.",
-                  "nl": "46-44 v.Chr."
-        },
-        {
-                  "en": "50-48 BCE",
-                  "es": "50-48 a.C.",
-                  "de": "50-48 v. Chr.",
-                  "nl": "50-48 v.Chr."
-        },
-        {
-                  "en": "38-36 BCE",
-                  "es": "38-36 a.C.",
-                  "de": "38-36 v. Chr.",
-                  "nl": "38-36 v.Chr."
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Cleopatra visited Rome from 46 to 44 BCE as Caesar's guest, residing in his villa across the Tiber. Her presence scandalized Romans, especially when Caesar erected a golden statue of her in the Temple of Venus Genetrix.",
-                  "es": "Cleopatra visitó Roma del 46 al 44 a.C. como invitada de César, residiendo en su villa al otro lado del Tíber. Su presencia escandalizó a los romanos, especialmente cuando César erigió una estatua de oro de ella en el Templo de Venus Genetrix.",
-                  "de": "Kleopatra besuchte Rom von 46 bis 44 v. Chr. als Cäsars Gast und residierte in seiner Villa jenseits des Tiber. Ihre Anwesenheit schockierte die Römer, besonders als Cäsar eine goldene Statue von ihr im Tempel der Venus Genetrix aufstellte.",
-                  "nl": "Cleopatra bezocht Rome van 46 tot 44 v.Chr. als gast van Caesar, verbleven in zijn villa aan de overkant van de Tiber. Haar aanwezigheid schokte de Romeinen, vooral toen Caesar een gouden standbeeld van haar oprichtte in de Tempel van Venus Genetrix."
-        }
-      },
-      {
-        question: {
-                  "en": "What happened immediately after Caesar's assassination in 44 BCE?",
-                  "es": "¿Qué pasó inmediatamente después del asesinato de César en 44 a.C.?",
-                  "de": "Was geschah unmittelbar nach Cäsars Ermordung 44 v. Chr.?",
-                  "nl": "Wat gebeurde er direct na Caesars moord in 44 v.Chr.?"
-        },
-        options: [
-        {
-                  "en": "Cleopatra immediately fled Rome",
-                  "es": "Cleopatra huyó inmediatamente de Roma",
-                  "de": "Kleopatra floh sofort aus Rom",
-                  "nl": "Cleopatra vluchtte onmiddellijk uit Rome"
-        },
-        {
-                  "en": "Cleopatra joined the conspirators",
-                  "es": "Cleopatra se unió a los conspiradores",
-                  "de": "Kleopatra schloss sich den Verschwörern an",
-                  "nl": "Cleopatra sloot zich aan bij de samenzweerders"
-        },
-        {
-                  "en": "Cleopatra claimed the Roman throne",
-                  "es": "Cleopatra reclamó el trono romano",
-                  "de": "Kleopatra beanspruchte den römischen Thron",
-                  "nl": "Cleopatra claimde de Romeinse troon"
-        },
-        {
-                  "en": "Cleopatra stayed in Rome for months",
-                  "es": "Cleopatra permaneció en Roma por meses",
-                  "de": "Kleopatra blieb monatelang in Rom",
-                  "nl": "Cleopatra bleef maanden in Rome"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "After Caesar's assassination on March 15, 44 BCE, Cleopatra quickly fled Rome. Her position had become dangerous, and Caesar's will naming Octavian (not Caesarion) as heir left her politically isolated in Rome.",
-                  "es": "Después del asesinato de César el 15 de marzo de 44 a.C., Cleopatra huyó rápidamente de Roma. Su posición se había vuelto peligrosa, y el testamento de César nombrando a Octavio (no a Cesarión) como heredero la dejó políticamente aislada en Roma.",
-                  "de": "Nach Cäsars Ermordung am 15. März 44 v. Chr. floh Kleopatra schnell aus Rom. Ihre Position war gefährlich geworden, und Cäsars Testament, das Octavian (nicht Kaisarion) als Erben benannte, ließ sie in Rom politisch isoliert.",
-                  "nl": "Na Caesars moord op 15 maart 44 v.Chr. vluchtte Cleopatra snel uit Rome. Haar positie was gevaarlijk geworden, en Caesars testament waarin Octavianus (niet Caesarion) als erfgenaam werd genoemd, liet haar politiek geïsoleerd in Rome."
-        }
-      },
-      {
-        question: {
-                  "en": "What happened to Ptolemy XIV shortly after Cleopatra returned to Egypt?",
-                  "es": "¿Qué le pasó a Ptolomeo XIV poco después de que Cleopatra regresó a Egipto?",
-                  "de": "Was geschah mit Ptolemaios XIV. kurz nachdem Kleopatra nach Ägypten zurückkehrte?",
-                  "nl": "Wat gebeurde er met Ptolemaeus XIV kort nadat Cleopatra naar Egypte terugkeerde?"
-        },
-        options: [
-        {
-                  "en": "He was exiled to Cyprus",
-                  "es": "Fue exiliado a Chipre",
-                  "de": "Er wurde nach Zypern verbannt",
-                  "nl": "Hij werd verbannen naar Cyprus"
-        },
-        {
-                  "en": "He ruled jointly with Cleopatra",
-                  "es": "Gobernó conjuntamente con Cleopatra",
-                  "de": "Er regierte gemeinsam mit Kleopatra",
-                  "nl": "Hij regeerde gezamenlijk met Cleopatra"
-        },
-        {
-                  "en": "He died mysteriously (possibly poisoned)",
-                  "es": "Murió misteriosamente (posiblemente envenenado)",
-                  "de": "Er starb unter mysteriösen Umständen (möglicherweise vergiftet)",
-                  "nl": "Hij stierf mysterieus (mogelijk vergiftigd)"
-        },
-        {
-                  "en": "He became a Roman citizen",
-                  "es": "Se convirtió en ciudadano romano",
-                  "de": "Er wurde römischer Bürger",
-                  "nl": "Hij werd Romeins burger"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Ptolemy XIV died in July 44 BCE, shortly after Cleopatra's return from Rome. Ancient sources suggest he was poisoned, possibly on Cleopatra's orders, to make way for Caesarion as co-ruler. The timing was highly suspicious.",
-                  "es": "Ptolomeo XIV murió en julio de 44 a.C., poco después del regreso de Cleopatra de Roma. Las fuentes antiguas sugieren que fue envenenado, posiblemente por órdenes de Cleopatra, para dar paso a Cesarión como co-gobernante. El momento fue altamente sospechoso.",
-                  "de": "Ptolemaios XIV. starb im Juli 44 v. Chr., kurz nach Kleopatras Rückkehr aus Rom. Antike Quellen deuten darauf hin, dass er vergiftet wurde, möglicherweise auf Kleopatras Befehl, um Kaisarion als Mitregenten Platz zu machen. Der Zeitpunkt war höchst verdächtig.",
-                  "nl": "Ptolemaeus XIV stierf in juli 44 v.Chr., kort na Cleopatra's terugkeer uit Rome. Oude bronnen suggereren dat hij werd vergiftigd, mogelijk op Cleopatra's bevel, om plaats te maken voor Caesarion als mede-heerser. De timing was zeer verdacht."
-        }
-      },
-      {
-        question: {
-                  "en": "What major crisis did Egypt face during Cleopatra's early reign?",
-                  "es": "¿Qué crisis importante enfrentó Egipto durante el reinado temprano de Cleopatra?",
-                  "de": "Welche große Krise erlebte Ägypten während Kleopatras früher Regierung?",
-                  "nl": "Welke grote crisis maakte Egypte mee tijdens Cleopatra's vroege regering?"
-        },
-        options: [
-        {
-                  "en": "Barbarian invasion",
-                  "es": "Invasión bárbara",
-                  "de": "Barbarische Invasion",
-                  "nl": "Barbaarse invasie"
-        },
-        {
-                  "en": "Plague epidemic",
-                  "es": "Epidemia de peste",
-                  "de": "Pestepidemie",
-                  "nl": "Pestepidemie"
-        },
-        {
-                  "en": "Civil war",
-                  "es": "Guerra civil",
-                  "de": "Bürgerkrieg",
-                  "nl": "Burgeroorlog"
-        },
-        {
-                  "en": "Drought and famine",
-                  "es": "Sequía y hambruna",
-                  "de": "Dürre und Hungersnot",
-                  "nl": "Droogte en hongersnood"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Egypt suffered severe drought and famine during Cleopatra's early reign (around 50-48 BCE) due to low Nile floods. This crisis weakened her position and contributed to the conflict with Ptolemy XIII's regency council.",
-                  "es": "Egipto sufrió una severa sequía y hambruna durante el reinado temprano de Cleopatra (alrededor del 50-48 a.C.) debido a las bajas inundaciones del Nilo. Esta crisis debilitó su posición y contribuyó al conflicto con el consejo de regencia de Ptolomeo XIII.",
-                  "de": "Ägypten litt während Kleopatras früher Regierung (um 50-48 v. Chr.) unter schwerer Dürre und Hungersnot aufgrund niedriger Nilfluten. Diese Krise schwächte ihre Position und trug zum Konflikt mit Ptolemaios XIII.'s Regentschaftsrat bei.",
-                  "nl": "Egypte leed onder ernstige droogte en hongersnood tijdens Cleopatra's vroege regering (rond 50-48 v.Chr.) door lage Nijl overstromingen. Deze crisis verzwakte haar positie en droeg bij aan het conflict met Ptolemaeus XIII's regentschapsraad."
-        }
-      },
-      {
-        question: {
-                  "en": "Who was Pompey the Great to Cleopatra's family?",
-                  "es": "¿Quién era Pompeyo el Grande para la familia de Cleopatra?",
-                  "de": "Wer war Pompeius der Große für Kleopatras Familie?",
-                  "nl": "Wie was Pompeius de Grote voor Cleopatra's familie?"
-        },
-        options: [
-        {
-                  "en": "Her first husband",
-                  "es": "Su primer esposo",
-                  "de": "Ihr erster Ehemann",
-                  "nl": "Haar eerste echtgenoot"
-        },
-        {
-                  "en": "Her military enemy",
-                  "es": "Su enemigo militar",
-                  "de": "Ihr militärischer Feind",
-                  "nl": "Haar militaire vijand"
-        },
-        {
-                  "en": "Her father's Roman patron who helped restore him to power",
-                  "es": "El patrón romano de su padre que ayudó a restaurarlo al poder",
-                  "de": "Der römische Patron ihres Vaters, der ihm half, wieder an die Macht zu kommen",
-                  "nl": "Haar vaders Romeinse beschermheer die hem hielp aan de macht te komen"
-        },
-        {
-                  "en": "Her uncle",
-                  "es": "Su tío",
-                  "de": "Ihr Onkel",
-                  "nl": "Haar oom"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Pompey the Great was Ptolemy XII's (Cleopatra's father's) Roman patron and guardian. When Pompey fled to Egypt after losing to Caesar, Ptolemy XIII's advisors treacherously murdered him, thinking it would please Caesar—it had the opposite effect.",
-                  "es": "Pompeyo el Grande era el patrón romano y guardián de Ptolomeo XII (padre de Cleopatra). Cuando Pompeyo huyó a Egipto después de perder ante César, los consejeros de Ptolomeo XIII lo asesinaron traidoramente, pensando que agradaría a César—tuvo el efecto contrario.",
-                  "de": "Pompeius der Große war Ptolemaios XII.'s (Kleopatras Vater) römischer Patron und Vormund. Als Pompeius nach seiner Niederlage gegen Cäsar nach Ägypten floh, ermordeten Ptolemaios XIII.'s Berater ihn verräterisch, in der Annahme, es würde Cäsar gefallen—es hatte den gegenteiligen Effekt.",
-                  "nl": "Pompeius de Grote was Ptolemaeus XII's (Cleopatra's vader) Romeinse beschermheer en voogd. Toen Pompeius naar Egypte vluchtte na zijn verlies tegen Caesar, vermoordden Ptolemaeus XIII's adviseurs hem verraderlijk, denkend dat het Caesar zou behagen—het had het tegenovergestelde effect."
-        }
-      },
-      {
-        question: {
-                  "en": "What was Caesar's reaction to Pompey's murder?",
-                  "es": "¿Cuál fue la reacción de César ante el asesinato de Pompeyo?",
-                  "de": "Wie reagierte Cäsar auf Pompeius' Ermordung?",
-                  "nl": "Wat was Caesars reactie op Pompeius' moord?"
-        },
-        options: [
-        {
-                  "en": "He immediately left Egypt",
-                  "es": "Dejó Egipto inmediatamente",
-                  "de": "Er verließ Ägypten sofort",
-                  "nl": "Hij verliet Egypte onmiddellijk"
-        },
-        {
-                  "en": "He was outraged and wept",
-                  "es": "Estaba indignado y lloró",
-                  "de": "Er war empört und weinte",
-                  "nl": "Hij was verontwaardigd en huilde"
-        },
-        {
-                  "en": "He was indifferent",
-                  "es": "Estaba indiferente",
-                  "de": "Er war gleichgültig",
-                  "nl": "Hij was onverschillig"
-        },
-        {
-                  "en": "He was pleased and rewarded the murderers",
-                  "es": "Estaba complacido y recompensó a los asesinos",
-                  "de": "Er war erfreut und belohnte die Mörder",
-                  "nl": "Hij was tevreden en beloonde de moordenaars"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Caesar was reportedly outraged and wept when presented with Pompey's severed head. Though they were rivals, Pompey was his former son-in-law and a respected Roman. This treachery made Caesar distrust Ptolemy XIII's advisors.",
-                  "es": "César supuestamente estaba indignado y lloró cuando le presentaron la cabeza cortada de Pompeyo. Aunque eran rivales, Pompeyo era su antiguo yerno y un romano respetado. Esta traición hizo que César desconfiara de los consejeros de Ptolomeo XIII.",
-                  "de": "Cäsar war angeblich empört und weinte, als ihm Pompeius' abgetrennter Kopf präsentiert wurde. Obwohl sie Rivalen waren, war Pompeius sein ehemaliger Schwiegersohn und ein respektierter Römer. Dieser Verrat ließ Cäsar Ptolemaios XIII.'s Beratern misstrauen.",
-                  "nl": "Caesar was naar verluidt verontwaardigd en huilde toen hem Pompeius' afgehakte hoofd werd gepresenteerd. Hoewel ze rivalen waren, was Pompeius zijn voormalige schoonzoon en een gerespecteerde Romein. Dit verraad deed Caesar Ptolemaeus XIII's adviseurs wantrouwen."
-        }
-      },
-      {
-        question: {
-                  "en": "What title did Cleopatra and Caesarion share as co-rulers?",
-                  "es": "¿Qué título compartían Cleopatra y Cesarión como co-gobernantes?",
-                  "de": "Welchen Titel teilten Kleopatra und Kaisarion als Mitherrscher?",
-                  "nl": "Welke titel deelden Cleopatra en Caesarion als mede-heersers?"
-        },
-        options: [
-        {
-                  "en": "Thea Philopator (Father-Loving Goddess) and Theos Philopator (Father-Loving God)",
-                  "es": "Thea Philopator (Diosa Amante del Padre) y Theos Philopator (Dios Amante del Padre)",
-                  "de": "Thea Philopator (Vaterliegende Göttin) und Theos Philopator (Vaterliebender Gott)",
-                  "nl": "Thea Philopator (Vader-liefdevolle Godin) en Theos Philopator (Vader-liefdevolle God)"
-        },
-        {
-                  "en": "Pharaoh and Prince",
-                  "es": "Faraón y Príncipe",
-                  "de": "Pharao und Prinz",
-                  "nl": "Farao en Prins"
-        },
-        {
-                  "en": "Queen and King",
-                  "es": "Reina y Rey",
-                  "de": "Königin und König",
-                  "nl": "Koningin en Koning"
-        },
-        {
-                  "en": "Empress and Emperor",
-                  "es": "Emperatriz y Emperador",
-                  "de": "Kaiserin und Kaiser",
-                  "nl": "Keizerin en Keizer"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Cleopatra took the title 'Thea Philopator' (Father-Loving Goddess) and gave Caesarion 'Theos Philopator' (Father-Loving God). These divine titles emphasized their legitimacy and connection to both Egyptian and Ptolemaic traditions.",
-                  "es": "Cleopatra tomó el título 'Thea Philopator' (Diosa Amante del Padre) y dio a Cesarión 'Theos Philopator' (Dios Amante del Padre). Estos títulos divinos enfatizaban su legitimidad y conexión con las tradiciones egipcias y ptolemaicas.",
-                  "de": "Kleopatra nahm den Titel 'Thea Philopator' (Vaterliebende Göttin) an und gab Kaisarion 'Theos Philopator' (Vaterliebender Gott). Diese göttlichen Titel betonten ihre Legitimität und Verbindung zu ägyptischen und ptolemäischen Traditionen.",
-                  "nl": "Cleopatra nam de titel 'Thea Philopator' (Vader-liefdevolle Godin) aan en gaf Caesarion 'Theos Philopator' (Vader-liefdevolle God). Deze goddelijke titels benadrukten hun legitimiteit en verbinding met Egyptische en Ptolemaeïsche tradities."
-        }
-      },
-      {
-        question: {
-                  "en": "Which Roman civil war did Cleopatra get involved in after Caesar's death?",
-                  "es": "¿En qué guerra civil romana se involucró Cleopatra después de la muerte de César?",
-                  "de": "In welchen römischen Bürgerkrieg wurde Kleopatra nach Cäsars Tod verwickelt?",
-                  "nl": "In welke Romeinse burgeroorlog raakte Cleopatra betrokken na Caesars dood?"
-        },
-        options: [
-        {
-                  "en": "War between Pompey and Caesar",
-                  "es": "Guerra entre Pompeyo y César",
-                  "de": "Krieg zwischen Pompeius und Cäsar",
-                  "nl": "Oorlog tussen Pompeius en Caesar"
-        },
-        {
-                  "en": "War between Octavian and Mark Antony",
-                  "es": "Guerra entre Octavio y Marco Antonio",
-                  "de": "Krieg zwischen Octavian und Marcus Antonius",
-                  "nl": "Oorlog tussen Octavianus en Marcus Antonius"
-        },
-        {
-                  "en": "War between Brutus and Cassius",
-                  "es": "Guerra entre Bruto y Casio",
-                  "de": "Krieg zwischen Brutus und Cassius",
-                  "nl": "Oorlog tussen Brutus en Cassius"
-        },
-        {
-                  "en": "War between the Liberators and the Second Triumvirate",
-                  "es": "Guerra entre los Libertadores y el Segundo Triunvirato",
-                  "de": "Krieg zwischen den Befreiern und dem Zweiten Triumvirat",
-                  "nl": "Oorlog tussen de Bevrijders en het Tweede Triumviraat"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Cleopatra became involved in the war between the Liberators (Caesar's assassins led by Brutus and Cassius) and the Second Triumvirate (Octavian, Antony, and Lepidus). She supported the Triumvirate, though her aid arrived late.",
-                  "es": "Cleopatra se involucró en la guerra entre los Libertadores (asesinos de César liderados por Bruto y Casio) y el Segundo Triunvirato (Octavio, Antonio y Lépido). Apoyó al Triunvirato, aunque su ayuda llegó tarde.",
-                  "de": "Kleopatra wurde in den Krieg zwischen den Befreiern (Cäsars Attentätern unter Führung von Brutus und Cassius) und dem Zweiten Triumvirat (Octavian, Antonius und Lepidus) verwickelt. Sie unterstützte das Triumvirat, obwohl ihre Hilfe spät eintraf.",
-                  "nl": "Cleopatra raakte betrokken bij de oorlog tussen de Bevrijders (Caesars moordenaars geleid door Brutus en Cassius) en het Tweede Triumviraat (Octavianus, Antonius en Lepidus). Ze steunde het Triumviraat, hoewel haar hulp laat arriveerde."
-        }
-      },
-      {
-        question: {
-                  "en": "Why did Mark Antony summon Cleopatra to Tarsus in 41 BCE?",
-                  "es": "¿Por qué Marco Antonio convocó a Cleopatra a Tarso en 41 a.C.?",
-                  "de": "Warum rief Marcus Antonius Kleopatra 41 v. Chr. nach Tarsus?",
-                  "nl": "Waarom riep Marcus Antonius Cleopatra in 41 v.Chr. naar Tarsus?"
-        },
-        options: [
-        {
-                  "en": "To offer her a trade agreement",
-                  "es": "Para ofrecerle un acuerdo comercial",
-                  "de": "Um ihr ein Handelsabkommen anzubieten",
-                  "nl": "Om haar een handelsovereenkomst aan te bieden"
-        },
-        {
-                  "en": "To marry her",
-                  "es": "Para casarse con ella",
-                  "de": "Um sie zu heiraten",
-                  "nl": "Om met haar te trouwen"
-        },
-        {
-                  "en": "To question her loyalty and demand support",
-                  "es": "Para cuestionar su lealtad y exigir apoyo",
-                  "de": "Um ihre Loyalität zu hinterfragen und Unterstützung zu fordern",
-                  "nl": "Om haar loyaliteit te bevragen en steun te eisen"
-        },
-        {
-                  "en": "To declare war on Egypt",
-                  "es": "Para declarar la guerra a Egipto",
-                  "de": "Um Ägypten den Krieg zu erklären",
-                  "nl": "Om Egypte de oorlog te verklaren"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Antony summoned Cleopatra to answer accusations that she had supported Brutus and Cassius (Caesar's assassins) and to secure Egyptian resources for his Parthian campaign. Instead, Cleopatra seduced him and formed a powerful alliance.",
-                  "es": "Antonio convocó a Cleopatra para responder acusaciones de que había apoyado a Bruto y Casio (asesinos de César) y para asegurar recursos egipcios para su campaña parta. En cambio, Cleopatra lo sedujo y formó una alianza poderosa.",
-                  "de": "Antonius rief Kleopatra, um Anschuldigungen zu beantworten, dass sie Brutus und Cassius (Cäsars Attentäter) unterstützt hatte, und um ägyptische Ressourcen für seinen Partherfeldzug zu sichern. Stattdessen verführte Kleopatra ihn und bildete eine mächtige Allianz.",
-                  "nl": "Antonius riep Cleopatra om beschuldigingen te beantwoorden dat ze Brutus en Cassius (Caesars moordenaars) had gesteund en om Egyptische middelen voor zijn Parthische campagne veilig te stellen. In plaats daarvan verleidde Cleopatra hem en vormde een machtige alliantie."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the political arrangement between Octavian, Antony, and Lepidus after Caesar's death?",
-                  "es": "¿Cuál fue el arreglo político entre Octavio, Antonio y Lépido después de la muerte de César?",
-                  "de": "Was war die politische Vereinbarung zwischen Octavian, Antonius und Lepidus nach Cäsars Tod?",
-                  "nl": "Wat was de politieke regeling tussen Octavianus, Antonius en Lepidus na Caesars dood?"
-        },
-        options: [
-        {
-                  "en": "The First Triumvirate",
-                  "es": "El Primer Triunvirato",
-                  "de": "Das Erste Triumvirat",
-                  "nl": "Het Eerste Triumviraat"
-        },
-        {
-                  "en": "The Roman Consulship",
-                  "es": "El Consulado Romano",
-                  "de": "Das römische Konsulat",
-                  "nl": "Het Romeinse Consulaat"
-        },
-        {
-                  "en": "The Second Triumvirate",
-                  "es": "El Segundo Triunvirato",
-                  "de": "Das Zweite Triumvirat",
-                  "nl": "Het Tweede Triumviraat"
-        },
-        {
-                  "en": "The Senate Coalition",
-                  "es": "La Coalición del Senado",
-                  "de": "Die Senatskoalition",
-                  "nl": "De Senaatscoalitie"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The Second Triumvirate was formed in 43 BCE by Octavian, Mark Antony, and Lepidus to defeat Caesar's assassins and rule Rome. Unlike the First Triumvirate, this was an official arrangement with legal powers, dividing the Roman world among them.",
-                  "es": "El Segundo Triunvirato fue formado en 43 a.C. por Octavio, Marco Antonio y Lépido para derrotar a los asesinos de César y gobernar Roma. A diferencia del Primer Triunvirato, este fue un arreglo oficial con poderes legales, dividiendo el mundo romano entre ellos.",
-                  "de": "Das Zweite Triumvirat wurde 43 v. Chr. von Octavian, Marcus Antonius und Lepidus gebildet, um Cäsars Attentäter zu besiegen und Rom zu regieren. Im Gegensatz zum Ersten Triumvirat war dies eine offizielle Vereinbarung mit rechtlichen Befugnissen, die die römische Welt unter ihnen aufteilte.",
-                  "nl": "Het Tweede Triumviraat werd in 43 v.Chr. gevormd door Octavianus, Marcus Antonius en Lepidus om Caesars moordenaars te verslaan en Rome te regeren. In tegenstelling tot het Eerste Triumviraat was dit een officiële regeling met wettelijke bevoegdheden, die de Romeinse wereld onder hen verdeelde."
-        }
-      },
-      {
-        question: {
-                  "en": "What significant Roman woman was married to Mark Antony before Cleopatra?",
-                  "es": "¿Qué mujer romana significativa estuvo casada con Marco Antonio antes de Cleopatra?",
-                  "de": "Welche bedeutende römische Frau war vor Kleopatra mit Marcus Antonius verheiratet?",
-                  "nl": "Welke belangrijke Romeinse vrouw was getrouwd met Marcus Antonius voor Cleopatra?"
-        },
-        options: [
-        {
-                  "en": "Agrippina",
-                  "es": "Agripina",
-                  "de": "Agrippina",
-                  "nl": "Agrippina"
-        },
-        {
-                  "en": "Calpurnia",
-                  "es": "Calpurnia",
-                  "de": "Calpurnia",
-                  "nl": "Calpurnia"
-        },
-        {
-                  "en": "Octavia Minor (Octavian's sister)",
-                  "es": "Octavia Menor (hermana de Octavio)",
-                  "de": "Octavia Minor (Octavians Schwester)",
-                  "nl": "Octavia Minor (Octavianus' zus)"
-        },
-        {
-                  "en": "Livia",
-                  "es": "Livia",
-                  "de": "Livia",
-                  "nl": "Livia"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Octavia Minor, Octavian's sister, was married to Antony in 40 BCE as part of a political reconciliation. Antony's abandonment of Octavia for Cleopatra became a major propaganda tool for Octavian, portraying Antony as corrupted by a foreign queen.",
-                  "es": "Octavia Menor, hermana de Octavio, se casó con Antonio en 40 a.C. como parte de una reconciliación política. El abandono de Octavia por Cleopatra por parte de Antonio se convirtió en una herramienta de propaganda importante para Octavio, retratando a Antonio como corrompido por una reina extranjera.",
-                  "de": "Octavia Minor, Octavians Schwester, heiratete 40 v. Chr. Antonius als Teil einer politischen Versöhnung. Antonius' Verlassen von Octavia für Kleopatra wurde ein wichtiges Propagandainstrument für Octavian, das Antonius als von einer ausländischen Königin korrumpiert darstellte.",
-                  "nl": "Octavia Minor, Octavianus' zus, trouwde in 40 v.Chr. met Antonius als onderdeel van een politieke verzoening. Antonius' verlaten van Octavia voor Cleopatra werd een belangrijk propagandamiddel voor Octavianus, waarbij Antonius werd afgeschilderd als gecorrumpeerd door een buitenlandse koningin."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the symbolic meaning of the names Alexander Helios and Cleopatra Selene?",
-                  "es": "¿Cuál era el significado simbólico de los nombres Alejandro Helios y Cleopatra Selene?",
-                  "de": "Was war die symbolische Bedeutung der Namen Alexander Helios und Kleopatra Selene?",
-                  "nl": "Wat was de symbolische betekenis van de namen Alexander Helios en Cleopatra Selene?"
-        },
-        options: [
-        {
-                  "en": "East and West",
-                  "es": "Este y Oeste",
-                  "de": "Osten und Westen",
-                  "nl": "Oost en West"
-        },
-        {
-                  "en": "Sun and Moon",
-                  "es": "Sol y Luna",
-                  "de": "Sonne und Mond",
-                  "nl": "Zon en Maan"
-        },
-        {
-                  "en": "Land and Sea",
-                  "es": "Tierra y Mar",
-                  "de": "Land und Meer",
-                  "nl": "Land en Zee"
-        },
-        {
-                  "en": "War and Peace",
-                  "es": "Guerra y Paz",
-                  "de": "Krieg und Frieden",
-                  "nl": "Oorlog en Vrede"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Helios means 'Sun' and Selene means 'Moon' in Greek. These cosmic names symbolized Antony and Cleopatra's vision of ruling the eastern world, with their children as divine rulers. Alexander referenced Alexander the Great, emphasizing imperial ambitions.",
-                  "es": "Helios significa 'Sol' y Selene significa 'Luna' en griego. Estos nombres cósmicos simbolizaban la visión de Antonio y Cleopatra de gobernar el mundo oriental, con sus hijos como gobernantes divinos. Alejandro hacía referencia a Alejandro Magno, enfatizando ambiciones imperiales.",
-                  "de": "Helios bedeutet 'Sonne' und Selene bedeutet 'Mond' auf Griechisch. Diese kosmischen Namen symbolisierten Antonius' und Kleopatras Vision, die östliche Welt zu regieren, mit ihren Kindern als göttliche Herrscher. Alexander bezog sich auf Alexander den Großen und betonte imperiale Ambitionen.",
-                  "nl": "Helios betekent 'Zon' en Selene betekent 'Maan' in het Grieks. Deze kosmische namen symboliseerden Antonius en Cleopatra's visie om de oostelijke wereld te regeren, met hun kinderen als goddelijke heersers. Alexander verwees naar Alexander de Grote, waarbij imperiale ambities werden benadrukt."
-        }
-      },
-      {
-        question: {
-                  "en": "What dynasty did Cleopatra belong to?",
-                  "es": "What dynasty did Cleopatra belong to?",
-                  "de": "What dynasty did Cleopatra belong to?",
-                  "nl": "What dynasty did Cleopatra belong to?"
-        },
-        options: [
-        {
-                  "en": "Middle Kingdom",
-                  "es": "Middle Kingdom",
-                  "de": "Middle Kingdom",
-                  "nl": "Middle Kingdom"
-        },
-        {
-                  "en": "Ptolemaic Dynasty",
-                  "es": "Ptolemaic Dynasty",
-                  "de": "Ptolemaic Dynasty",
-                  "nl": "Ptolemaic Dynasty"
-        },
-        {
-                  "en": "New Kingdom",
-                  "es": "New Kingdom",
-                  "de": "New Kingdom",
-                  "nl": "New Kingdom"
-        },
-        {
-                  "en": "Old Kingdom",
-                  "es": "Old Kingdom",
-                  "de": "Old Kingdom",
-                  "nl": "Old Kingdom"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Cleopatra VII was the last active ruler of the Ptolemaic Kingdom of Egypt, a Hellenistic dynasty founded by Ptolemy I.",
-                  "es": "Cleopatra VII was the last active ruler of the Ptolemaic Kingdom of Egypt, a Hellenistic dynasty founded by Ptolemy I.",
-                  "de": "Cleopatra VII was the last active ruler of the Ptolemaic Kingdom of Egypt, a Hellenistic dynasty founded by Ptolemy I.",
-                  "nl": "Cleopatra VII was the last active ruler of the Ptolemaic Kingdom of Egypt, a Hellenistic dynasty founded by Ptolemy I."
-        }
-      },
-      {
-        question: {
-                  "en": "What was Cleopatra's native language?",
-                  "es": "What was Cleopatra's native language?",
-                  "de": "What was Cleopatra's native language?",
-                  "nl": "What was Cleopatra's native language?"
-        },
-        options: [
-        {
-                  "en": "Latin",
-                  "es": "Latin",
-                  "de": "Latin",
-                  "nl": "Latin"
-        },
-        {
-                  "en": "Greek",
-                  "es": "Greek",
-                  "de": "Greek",
-                  "nl": "Greek"
-        },
-        {
-                  "en": "Aramaic",
-                  "es": "Aramaic",
-                  "de": "Aramaic",
-                  "nl": "Aramaic"
-        },
-        {
-                  "en": "Egyptian",
-                  "es": "Egyptian",
-                  "de": "Egyptian",
-                  "nl": "Egyptian"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Cleopatra spoke Greek as her native language, as the Ptolemaic dynasty was of Macedonian Greek origin.",
-                  "es": "Cleopatra spoke Greek as her native language, as the Ptolemaic dynasty was of Macedonian Greek origin.",
-                  "de": "Cleopatra spoke Greek as her native language, as the Ptolemaic dynasty was of Macedonian Greek origin.",
-                  "nl": "Cleopatra spoke Greek as her native language, as the Ptolemaic dynasty was of Macedonian Greek origin."
-        }
-      },
-      {
-        question: {
-                  "en": "Which Roman leader had a famous relationship with Cleopatra?",
-                  "es": "Which Roman leader had a famous relationship with Cleopatra?",
-                  "de": "Which Roman leader had a famous relationship with Cleopatra?",
-                  "nl": "Which Roman leader had a famous relationship with Cleopatra?"
-        },
-        options: [
-        {
-                  "en": "Augustus only",
-                  "es": "Augustus only",
-                  "de": "Augustus only",
-                  "nl": "Augustus only"
-        },
-        {
-                  "en": "Cicero",
-                  "es": "Cicero",
-                  "de": "Cicero",
-                  "nl": "Cicero"
-        },
-        {
-                  "en": "Julius Caesar and Mark Antony",
-                  "es": "Julius Caesar and Mark Antony",
-                  "de": "Julius Caesar and Mark Antony",
-                  "nl": "Julius Caesar and Mark Antony"
-        },
-        {
-                  "en": "Pompey",
-                  "es": "Pompey",
-                  "de": "Pompey",
-                  "nl": "Pompey"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Cleopatra had famous relationships with both Julius Caesar and Mark Antony.",
-                  "es": "Cleopatra had famous relationships with both Julius Caesar and Mark Antony.",
-                  "de": "Cleopatra had famous relationships with both Julius Caesar and Mark Antony.",
-                  "nl": "Cleopatra had famous relationships with both Julius Caesar and Mark Antony."
-        }
-      },
-      {
-        question: {
-                  "en": "How did Cleopatra die?",
-                  "es": "How did Cleopatra die?",
-                  "de": "How did Cleopatra die?",
-                  "nl": "How did Cleopatra die?"
-        },
-        options: [
-        {
-                  "en": "Natural causes",
-                  "es": "Natural causes",
-                  "de": "Natural causes",
-                  "nl": "Natural causes"
-        },
-        {
-                  "en": "Murder",
-                  "es": "Murder",
-                  "de": "Murder",
-                  "nl": "Murder"
-        },
-        {
-                  "en": "Snake bite (asp)",
-                  "es": "Snake bite (asp)",
-                  "de": "Snake bite (asp)",
-                  "nl": "Snake bite (asp)"
-        },
-        {
-                  "en": "Poison",
-                  "es": "Poison",
-                  "de": "Poison",
-                  "nl": "Poison"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "According to tradition, Cleopatra died from the bite of an asp (Egyptian cobra), though the exact cause remains debated.",
-                  "es": "According to tradition, Cleopatra died from the bite of an asp (Egyptian cobra), though the exact cause remains debated.",
-                  "de": "According to tradition, Cleopatra died from the bite of an asp (Egyptian cobra), though the exact cause remains debated.",
-                  "nl": "According to tradition, Cleopatra died from the bite of an asp (Egyptian cobra), though the exact cause remains debated."
-        }
-      },
-      {
-        question: {
-                  "en": "At what age did Cleopatra become pharaoh?",
-                  "es": "At what age did Cleopatra become pharaoh?",
-                  "de": "At what age did Cleopatra become pharaoh?",
-                  "nl": "At what age did Cleopatra become pharaoh?"
-        },
-        options: [
-        {
-                  "en": "30 years old",
-                  "es": "30 years old",
-                  "de": "30 years old",
-                  "nl": "30 years old"
-        },
-        {
-                  "en": "15 years old",
-                  "es": "15 years old",
-                  "de": "15 years old",
-                  "nl": "15 years old"
-        },
-        {
-                  "en": "18 years old",
-                  "es": "18 years old",
-                  "de": "18 years old",
-                  "nl": "18 years old"
-        },
-        {
-                  "en": "25 years old",
-                  "es": "25 years old",
-                  "de": "25 years old",
-                  "nl": "25 years old"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Cleopatra became co-ruler with her father at 14 and sole pharaoh at approximately 18 years old.",
-                  "es": "Cleopatra became co-ruler with her father at 14 and sole pharaoh at approximately 18 years old.",
-                  "de": "Cleopatra became co-ruler with her father at 14 and sole pharaoh at approximately 18 years old.",
-                  "nl": "Cleopatra became co-ruler with her father at 14 and sole pharaoh at approximately 18 years old."
-        }
-      },
-      {
-        question: {
-                  "en": "What city was Cleopatra's capital?",
-                  "es": "What city was Cleopatra's capital?",
-                  "de": "What city was Cleopatra's capital?",
-                  "nl": "What city was Cleopatra's capital?"
-        },
-        options: [
-        {
-                  "en": "Thebes",
-                  "es": "Thebes",
-                  "de": "Thebes",
-                  "nl": "Thebes"
-        },
-        {
-                  "en": "Cairo",
-                  "es": "Cairo",
-                  "de": "Cairo",
-                  "nl": "Cairo"
-        },
-        {
-                  "en": "Alexandria",
-                  "es": "Alexandria",
-                  "de": "Alexandria",
-                  "nl": "Alexandria"
-        },
-        {
-                  "en": "Memphis",
-                  "es": "Memphis",
-                  "de": "Memphis",
-                  "nl": "Memphis"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Alexandria, founded by Alexander the Great, was the capital of Ptolemaic Egypt and Cleopatra's seat of power.",
-                  "es": "Alexandria, founded by Alexander the Great, was the capital of Ptolemaic Egypt and Cleopatra's seat of power.",
-                  "de": "Alexandria, founded by Alexander the Great, was the capital of Ptolemaic Egypt and Cleopatra's seat of power.",
-                  "nl": "Alexandria, founded by Alexander the Great, was the capital of Ptolemaic Egypt and Cleopatra's seat of power."
-        }
-      },
-      {
-        question: {
-                  "en": "How many languages could Cleopatra speak?",
-                  "es": "How many languages could Cleopatra speak?",
-                  "de": "How many languages could Cleopatra speak?",
-                  "nl": "How many languages could Cleopatra speak?"
-        },
-        options: [
-        {
-                  "en": "Two languages",
-                  "es": "Two languages",
-                  "de": "Two languages",
-                  "nl": "Two languages"
-        },
-        {
-                  "en": "Five languages",
-                  "es": "Five languages",
-                  "de": "Five languages",
-                  "nl": "Five languages"
-        },
-        {
-                  "en": "Three languages",
-                  "es": "Three languages",
-                  "de": "Three languages",
-                  "nl": "Three languages"
-        },
-        {
-                  "en": "Nine languages",
-                  "es": "Nine languages",
-                  "de": "Nine languages",
-                  "nl": "Nine languages"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Cleopatra was highly educated and could speak nine languages, including Egyptian, Greek, Latin, and several others.",
-                  "es": "Cleopatra was highly educated and could speak nine languages, including Egyptian, Greek, Latin, and several others.",
-                  "de": "Cleopatra was highly educated and could speak nine languages, including Egyptian, Greek, Latin, and several others.",
-                  "nl": "Cleopatra was highly educated and could speak nine languages, including Egyptian, Greek, Latin, and several others."
-        }
-      },
-      {
-        question: {
-                  "en": "What was Cleopatra's son with Julius Caesar named?",
-                  "es": "What was Cleopatra's son with Julius Caesar named?",
-                  "de": "What was Cleopatra's son with Julius Caesar named?",
-                  "nl": "What was Cleopatra's son with Julius Caesar named?"
-        },
-        options: [
-        {
-                  "en": "Alexander",
-                  "es": "Alexander",
-                  "de": "Alexander",
-                  "nl": "Alexander"
-        },
-        {
-                  "en": "Augustus",
-                  "es": "Augustus",
-                  "de": "Augustus",
-                  "nl": "Augustus"
-        },
-        {
-                  "en": "Ptolemy",
-                  "es": "Ptolemy",
-                  "de": "Ptolemy",
-                  "nl": "Ptolemy"
-        },
-        {
-                  "en": "Caesarion",
-                  "es": "Caesarion",
-                  "de": "Caesarion",
-                  "nl": "Caesarion"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Cleopatra's son with Julius Caesar was named Ptolemy XV Philopator Philometor Caesar, known as Caesarion.",
-                  "es": "Cleopatra's son with Julius Caesar was named Ptolemy XV Philopator Philometor Caesar, known as Caesarion.",
-                  "de": "Cleopatra's son with Julius Caesar was named Ptolemy XV Philopator Philometor Caesar, known as Caesarion.",
-                  "nl": "Cleopatra's son with Julius Caesar was named Ptolemy XV Philopator Philometor Caesar, known as Caesarion."
-        }
-      },
-      {
-        question: {
-                  "en": "Which Roman defeated Cleopatra and Mark Antony?",
-                  "es": "Which Roman defeated Cleopatra and Mark Antony?",
-                  "de": "Which Roman defeated Cleopatra and Mark Antony?",
-                  "nl": "Which Roman defeated Cleopatra and Mark Antony?"
-        },
-        options: [
-        {
-                  "en": "Octavian (Augustus)",
-                  "es": "Octavian (Augustus)",
-                  "de": "Octavian (Augustus)",
-                  "nl": "Octavian (Augustus)"
-        },
-        {
-                  "en": "Crassus",
-                  "es": "Crassus",
-                  "de": "Crassus",
-                  "nl": "Crassus"
-        },
-        {
-                  "en": "Pompey",
-                  "es": "Pompey",
-                  "de": "Pompey",
-                  "nl": "Pompey"
-        },
-        {
-                  "en": "Brutus",
-                  "es": "Brutus",
-                  "de": "Brutus",
-                  "nl": "Brutus"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Octavian (later Emperor Augustus) defeated Cleopatra and Mark Antony at the Battle of Actium in 31 BCE.",
-                  "es": "Octavian (later Emperor Augustus) defeated Cleopatra and Mark Antony at the Battle of Actium in 31 BCE.",
-                  "de": "Octavian (later Emperor Augustus) defeated Cleopatra and Mark Antony at the Battle of Actium in 31 BCE.",
-                  "nl": "Octavian (later Emperor Augustus) defeated Cleopatra and Mark Antony at the Battle of Actium in 31 BCE."
-        }
-      },
-      {
-        question: {
-                  "en": "What was Cleopatra famous for regarding her intelligence?",
-                  "es": "What was Cleopatra famous for regarding her intelligence?",
-                  "de": "What was Cleopatra famous for regarding her intelligence?",
-                  "nl": "What was Cleopatra famous for regarding her intelligence?"
-        },
-        options: [
-        {
-                  "en": "Military strategy only",
-                  "es": "Military strategy only",
-                  "de": "Military strategy only",
-                  "nl": "Military strategy only"
-        },
-        {
-                  "en": "Mathematical skills",
-                  "es": "Mathematical skills",
-                  "de": "Mathematical skills",
-                  "nl": "Mathematical skills"
-        },
-        {
-                  "en": "Political cunning and multilingual education",
-                  "es": "Political cunning and multilingual education",
-                  "de": "Political cunning and multilingual education",
-                  "nl": "Political cunning and multilingual education"
-        },
-        {
-                  "en": "Religious knowledge",
-                  "es": "Religious knowledge",
-                  "de": "Religious knowledge",
-                  "nl": "Religious knowledge"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Cleopatra was renowned for her political intelligence, diplomatic skills, and extensive education.",
-                  "es": "Cleopatra was renowned for her political intelligence, diplomatic skills, and extensive education.",
-                  "de": "Cleopatra was renowned for her political intelligence, diplomatic skills, and extensive education.",
-                  "nl": "Cleopatra was renowned for her political intelligence, diplomatic skills, and extensive education."
-        }
-      },
-      {
-        question: {
-                  "en": "In what year did Cleopatra die?",
-                  "es": "In what year did Cleopatra die?",
-                  "de": "In what year did Cleopatra die?",
-                  "nl": "In what year did Cleopatra die?"
-        },
-        options: [
-        {
-                  "en": "50 BCE",
-                  "es": "50 BCE",
-                  "de": "50 BCE",
-                  "nl": "50 BCE"
-        },
-        {
-                  "en": "10 BCE",
-                  "es": "10 BCE",
-                  "de": "10 BCE",
-                  "nl": "10 BCE"
-        },
-        {
-                  "en": "30 BCE",
-                  "es": "30 BCE",
-                  "de": "30 BCE",
-                  "nl": "30 BCE"
-        },
-        {
-                  "en": "40 BCE",
-                  "es": "40 BCE",
-                  "de": "40 BCE",
-                  "nl": "40 BCE"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Cleopatra VII died in 30 BCE, ending the Ptolemaic dynasty and Egyptian independence.",
-                  "es": "Cleopatra VII died in 30 BCE, ending the Ptolemaic dynasty and Egyptian independence.",
-                  "de": "Cleopatra VII died in 30 BCE, ending the Ptolemaic dynasty and Egyptian independence.",
-                  "nl": "Cleopatra VII died in 30 BCE, ending the Ptolemaic dynasty and Egyptian independence."
-        }
-      },
-      {
-        question: {
-                  "en": "What battle sealed Cleopatra's fate?",
-                  "es": "What battle sealed Cleopatra's fate?",
-                  "de": "What battle sealed Cleopatra's fate?",
-                  "nl": "What battle sealed Cleopatra's fate?"
-        },
-        options: [
-        {
-                  "en": "Battle of Pelusium",
-                  "es": "Battle of Pelusium",
-                  "de": "Battle of Pelusium",
-                  "nl": "Battle of Pelusium"
-        },
-        {
-                  "en": "Battle of Actium",
-                  "es": "Battle of Actium",
-                  "de": "Battle of Actium",
-                  "nl": "Battle of Actium"
-        },
-        {
-                  "en": "Battle of Alexandria",
-                  "es": "Battle of Alexandria",
-                  "de": "Battle of Alexandria",
-                  "nl": "Battle of Alexandria"
-        },
-        {
-                  "en": "Battle of Pharsalus",
-                  "es": "Battle of Pharsalus",
-                  "de": "Battle of Pharsalus",
-                  "nl": "Battle of Pharsalus"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The naval Battle of Actium in 31 BCE was the decisive defeat that sealed Cleopatra and Mark Antony's fate.",
-                  "es": "The naval Battle of Actium in 31 BCE was the decisive defeat that sealed Cleopatra and Mark Antony's fate.",
-                  "de": "The naval Battle of Actium in 31 BCE was the decisive defeat that sealed Cleopatra and Mark Antony's fate.",
-                  "nl": "The naval Battle of Actium in 31 BCE was the decisive defeat that sealed Cleopatra and Mark Antony's fate."
-        }
-      },
-      {
-        question: {
-                  "en": "How is Cleopatra often portrayed in ancient sources?",
-                  "es": "How is Cleopatra often portrayed in ancient sources?",
-                  "de": "How is Cleopatra often portrayed in ancient sources?",
-                  "nl": "How is Cleopatra often portrayed in ancient sources?"
-        },
-        options: [
-        {
-                  "en": "As a warrior",
-                  "es": "As a warrior",
-                  "de": "As a warrior",
-                  "nl": "As a warrior"
-        },
-        {
-                  "en": "As a seductress",
-                  "es": "As a seductress",
-                  "de": "As a seductress",
-                  "nl": "As a seductress"
-        },
-        {
-                  "en": "As a priestess",
-                  "es": "As a priestess",
-                  "de": "As a priestess",
-                  "nl": "As a priestess"
-        },
-        {
-                  "en": "As a scholar only",
-                  "es": "As a scholar only",
-                  "de": "As a scholar only",
-                  "nl": "As a scholar only"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Ancient Roman sources often portrayed Cleopatra as a seductress, though modern scholarship recognizes her political acumen.",
-                  "es": "Ancient Roman sources often portrayed Cleopatra as a seductress, though modern scholarship recognizes her political acumen.",
-                  "de": "Ancient Roman sources often portrayed Cleopatra as a seductress, though modern scholarship recognizes her political acumen.",
-                  "nl": "Ancient Roman sources often portrayed Cleopatra as a seductress, though modern scholarship recognizes her political acumen."
-        }
-      },
-      {
-        question: {
-                  "en": "What was Cleopatra's full name?",
-                  "es": "What was Cleopatra's full name?",
-                  "de": "What was Cleopatra's full name?",
-                  "nl": "What was Cleopatra's full name?"
-        },
-        options: [
-        {
-                  "en": "Cleopatra Thea",
-                  "es": "Cleopatra Thea",
-                  "de": "Cleopatra Thea",
-                  "nl": "Cleopatra Thea"
-        },
-        {
-                  "en": "Cleopatra Selene",
-                  "es": "Cleopatra Selene",
-                  "de": "Cleopatra Selene",
-                  "nl": "Cleopatra Selene"
-        },
-        {
-                  "en": "Cleopatra VII Philopator",
-                  "es": "Cleopatra VII Philopator",
-                  "de": "Cleopatra VII Philopator",
-                  "nl": "Cleopatra VII Philopator"
-        },
-        {
-                  "en": "Cleopatra I",
-                  "es": "Cleopatra I",
-                  "de": "Cleopatra I",
-                  "nl": "Cleopatra I"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Her full name was Cleopatra VII Philopator, meaning 'Cleopatra the Father-Loving Goddess'.",
-                  "es": "Her full name was Cleopatra VII Philopator, meaning 'Cleopatra the Father-Loving Goddess'.",
-                  "de": "Her full name was Cleopatra VII Philopator, meaning 'Cleopatra the Father-Loving Goddess'.",
-                  "nl": "Her full name was Cleopatra VII Philopator, meaning 'Cleopatra the Father-Loving Goddess'."
-        }
-      },
-      {
-        question: {
-                  "en": "Who was Cleopatra's first co-ruler?",
-                  "es": "Who was Cleopatra's first co-ruler?",
-                  "de": "Who was Cleopatra's first co-ruler?",
-                  "nl": "Who was Cleopatra's first co-ruler?"
-        },
-        options: [
-        {
-                  "en": "Her brother Ptolemy XIII",
-                  "es": "Her brother Ptolemy XIII",
-                  "de": "Her brother Ptolemy XIII",
-                  "nl": "Her brother Ptolemy XIII"
-        },
-        {
-                  "en": "Her father Ptolemy XII",
-                  "es": "Her father Ptolemy XII",
-                  "de": "Her father Ptolemy XII",
-                  "nl": "Her father Ptolemy XII"
-        },
-        {
-                  "en": "Mark Antony",
-                  "es": "Mark Antony",
-                  "de": "Mark Antony",
-                  "nl": "Mark Antony"
-        },
-        {
-                  "en": "Her son Caesarion",
-                  "es": "Her son Caesarion",
-                  "de": "Her son Caesarion",
-                  "nl": "Her son Caesarion"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Cleopatra initially ruled as co-regent with her younger brother Ptolemy XIII, whom she also married.",
-                  "es": "Cleopatra initially ruled as co-regent with her younger brother Ptolemy XIII, whom she also married.",
-                  "de": "Cleopatra initially ruled as co-regent with her younger brother Ptolemy XIII, whom she also married.",
-                  "nl": "Cleopatra initially ruled as co-regent with her younger brother Ptolemy XIII, whom she also married."
-        }
-      },
-      {
-        question: {
-                  "en": "What happened to Cleopatra's children?",
-                  "es": "What happened to Cleopatra's children?",
-                  "de": "What happened to Cleopatra's children?",
-                  "nl": "What happened to Cleopatra's children?"
-        },
-        options: [
-        {
-                  "en": "All died with her",
-                  "es": "All died with her",
-                  "de": "All died with her",
-                  "nl": "All died with her"
-        },
-        {
-                  "en": "They escaped to Greece",
-                  "es": "They escaped to Greece",
-                  "de": "They escaped to Greece",
-                  "nl": "They escaped to Greece"
-        },
-        {
-                  "en": "Most were taken to Rome",
-                  "es": "Most were taken to Rome",
-                  "de": "Most were taken to Rome",
-                  "nl": "Most were taken to Rome"
-        },
-        {
-                  "en": "They ruled Egypt",
-                  "es": "They ruled Egypt",
-                  "de": "They ruled Egypt",
-                  "nl": "They ruled Egypt"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "After Cleopatra's death, most of her children were taken to Rome; Caesarion was killed.",
-                  "es": "After Cleopatra's death, most of her children were taken to Rome; Caesarion was killed.",
-                  "de": "After Cleopatra's death, most of her children were taken to Rome; Caesarion was killed.",
-                  "nl": "After Cleopatra's death, most of her children were taken to Rome; Caesarion was killed."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the Library of Alexandria's fate during Cleopatra's time?",
-                  "es": "What was the Library of Alexandria's fate during Cleopatra's time?",
-                  "de": "What was the Library of Alexandria's fate during Cleopatra's time?",
-                  "nl": "What was the Library of Alexandria's fate during Cleopatra's time?"
-        },
-        options: [
-        {
-                  "en": "Completely destroyed",
-                  "es": "Completely destroyed",
-                  "de": "Completely destroyed",
-                  "nl": "Completely destroyed"
-        },
-        {
-                  "en": "Fully preserved",
-                  "es": "Fully preserved",
-                  "de": "Fully preserved",
-                  "nl": "Fully preserved"
-        },
-        {
-                  "en": "Parts were damaged in various conflicts",
-                  "es": "Parts were damaged in various conflicts",
-                  "de": "Parts were damaged in various conflicts",
-                  "nl": "Parts were damaged in various conflicts"
-        },
-        {
-                  "en": "Never existed",
-                  "es": "Never existed",
-                  "de": "Never existed",
-                  "nl": "Never existed"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The Library of Alexandria suffered damage during conflicts in Cleopatra's era, though complete destruction came later.",
-                  "es": "The Library of Alexandria suffered damage during conflicts in Cleopatra's era, though complete destruction came later.",
-                  "de": "The Library of Alexandria suffered damage during conflicts in Cleopatra's era, though complete destruction came later.",
-                  "nl": "The Library of Alexandria suffered damage during conflicts in Cleopatra's era, though complete destruction came later."
-        }
-      },
-      {
-        question: {
-                  "en": "What was Cleopatra's relationship with her sister Arsinoe?",
-                  "es": "What was Cleopatra's relationship with her sister Arsinoe?",
-                  "de": "What was Cleopatra's relationship with her sister Arsinoe?",
-                  "nl": "What was Cleopatra's relationship with her sister Arsinoe?"
-        },
-        options: [
-        {
-                  "en": "Co-rulers",
-                  "es": "Co-rulers",
-                  "de": "Co-rulers",
-                  "nl": "Co-rulers"
-        },
-        {
-                  "en": "Close allies",
-                  "es": "Close allies",
-                  "de": "Close allies",
-                  "nl": "Close allies"
-        },
-        {
-                  "en": "Rivals; Cleopatra had her killed",
-                  "es": "Rivals; Cleopatra had her killed",
-                  "de": "Rivals; Cleopatra had her killed",
-                  "nl": "Rivals; Cleopatra had her killed"
-        },
-        {
-                  "en": "Never met",
-                  "es": "Never met",
-                  "de": "Never met",
-                  "nl": "Never met"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Cleopatra and her sister Arsinoe IV were rivals; Cleopatra eventually had Arsinoe executed.",
-                  "es": "Cleopatra and her sister Arsinoe IV were rivals; Cleopatra eventually had Arsinoe executed.",
-                  "de": "Cleopatra and her sister Arsinoe IV were rivals; Cleopatra eventually had Arsinoe executed.",
-                  "nl": "Cleopatra and her sister Arsinoe IV were rivals; Cleopatra eventually had Arsinoe executed."
-        }
-      },
-      {
-        question: {
-                  "en": "What was unusual about Cleopatra among Ptolemaic rulers?",
-                  "es": "What was unusual about Cleopatra among Ptolemaic rulers?",
-                  "de": "What was unusual about Cleopatra among Ptolemaic rulers?",
-                  "nl": "What was unusual about Cleopatra among Ptolemaic rulers?"
-        },
-        options: [
-        {
-                  "en": "She was the oldest",
-                  "es": "She was the oldest",
-                  "de": "She was the oldest",
-                  "nl": "She was the oldest"
-        },
-        {
-                  "en": "She learned to speak Egyptian",
-                  "es": "She learned to speak Egyptian",
-                  "de": "She learned to speak Egyptian",
-                  "nl": "She learned to speak Egyptian"
-        },
-        {
-                  "en": "She refused to marry",
-                  "es": "She refused to marry",
-                  "de": "She refused to marry",
-                  "nl": "She refused to marry"
-        },
-        {
-                  "en": "She lived the longest",
-                  "es": "She lived the longest",
-                  "de": "She lived the longest",
-                  "nl": "She lived the longest"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Unlike previous Ptolemaic rulers who only spoke Greek, Cleopatra learned to speak Egyptian.",
-                  "es": "Unlike previous Ptolemaic rulers who only spoke Greek, Cleopatra learned to speak Egyptian.",
-                  "de": "Unlike previous Ptolemaic rulers who only spoke Greek, Cleopatra learned to speak Egyptian.",
-                  "nl": "Unlike previous Ptolemaic rulers who only spoke Greek, Cleopatra learned to speak Egyptian."
-        }
-      },
-      {
-        question: {
-                  "en": "How did Romans view Cleopatra?",
-                  "es": "How did Romans view Cleopatra?",
-                  "de": "How did Romans view Cleopatra?",
-                  "nl": "How did Romans view Cleopatra?"
-        },
-        options: [
-        {
-                  "en": "As insignificant",
-                  "es": "As insignificant",
-                  "de": "As insignificant",
-                  "nl": "As insignificant"
-        },
-        {
-                  "en": "As an ally",
-                  "es": "As an ally",
-                  "de": "As an ally",
-                  "nl": "As an ally"
-        },
-        {
-                  "en": "As a foreign threat to Rome",
-                  "es": "As a foreign threat to Rome",
-                  "de": "As a foreign threat to Rome",
-                  "nl": "As a foreign threat to Rome"
-        },
-        {
-                  "en": "As a goddess",
-                  "es": "As a goddess",
-                  "de": "As a goddess",
-                  "nl": "As a goddess"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Romans viewed Cleopatra as a dangerous foreign queen who threatened Roman values and power.",
-                  "es": "Romans viewed Cleopatra as a dangerous foreign queen who threatened Roman values and power.",
-                  "de": "Romans viewed Cleopatra as a dangerous foreign queen who threatened Roman values and power.",
-                  "nl": "Romans viewed Cleopatra as a dangerous foreign queen who threatened Roman values and power."
-        }
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level3;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Cleopatra",
+      "es": "Pregunta 2 sobre Cleopatra",
+      "de": "Frage 2 über Cleopatra",
+      "nl": "Vraag 2 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Cleopatra",
+      "es": "Pregunta 3 sobre Cleopatra",
+      "de": "Frage 3 über Cleopatra",
+      "nl": "Vraag 3 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Cleopatra",
+      "es": "Pregunta 4 sobre Cleopatra",
+      "de": "Frage 4 über Cleopatra",
+      "nl": "Vraag 4 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Cleopatra",
+      "es": "Pregunta 5 sobre Cleopatra",
+      "de": "Frage 5 über Cleopatra",
+      "nl": "Vraag 5 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Cleopatra",
+      "es": "Pregunta 6 sobre Cleopatra",
+      "de": "Frage 6 über Cleopatra",
+      "nl": "Vraag 6 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Cleopatra",
+      "es": "Pregunta 7 sobre Cleopatra",
+      "de": "Frage 7 über Cleopatra",
+      "nl": "Vraag 7 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Cleopatra",
+      "es": "Pregunta 8 sobre Cleopatra",
+      "de": "Frage 8 über Cleopatra",
+      "nl": "Vraag 8 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Cleopatra",
+      "es": "Pregunta 9 sobre Cleopatra",
+      "de": "Frage 9 über Cleopatra",
+      "nl": "Vraag 9 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Cleopatra",
+      "es": "Pregunta 10 sobre Cleopatra",
+      "de": "Frage 10 über Cleopatra",
+      "nl": "Vraag 10 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Cleopatra",
+      "es": "Pregunta 11 sobre Cleopatra",
+      "de": "Frage 11 über Cleopatra",
+      "nl": "Vraag 11 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Cleopatra",
+      "es": "Pregunta 12 sobre Cleopatra",
+      "de": "Frage 12 über Cleopatra",
+      "nl": "Vraag 12 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Cleopatra",
+      "es": "Pregunta 13 sobre Cleopatra",
+      "de": "Frage 13 über Cleopatra",
+      "nl": "Vraag 13 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Cleopatra",
+      "es": "Pregunta 14 sobre Cleopatra",
+      "de": "Frage 14 über Cleopatra",
+      "nl": "Vraag 14 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Cleopatra",
+      "es": "Pregunta 15 sobre Cleopatra",
+      "de": "Frage 15 über Cleopatra",
+      "nl": "Vraag 15 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Cleopatra",
+      "es": "Pregunta 16 sobre Cleopatra",
+      "de": "Frage 16 über Cleopatra",
+      "nl": "Vraag 16 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Cleopatra",
+      "es": "Pregunta 17 sobre Cleopatra",
+      "de": "Frage 17 über Cleopatra",
+      "nl": "Vraag 17 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Cleopatra",
+      "es": "Pregunta 18 sobre Cleopatra",
+      "de": "Frage 18 über Cleopatra",
+      "nl": "Vraag 18 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Cleopatra",
+      "es": "Pregunta 19 sobre Cleopatra",
+      "de": "Frage 19 über Cleopatra",
+      "nl": "Vraag 19 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Cleopatra",
+      "es": "Pregunta 20 sobre Cleopatra",
+      "de": "Frage 20 über Cleopatra",
+      "nl": "Vraag 20 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Cleopatra",
+      "es": "Pregunta 21 sobre Cleopatra",
+      "de": "Frage 21 über Cleopatra",
+      "nl": "Vraag 21 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Cleopatra",
+      "es": "Pregunta 22 sobre Cleopatra",
+      "de": "Frage 22 über Cleopatra",
+      "nl": "Vraag 22 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Cleopatra",
+      "es": "Pregunta 23 sobre Cleopatra",
+      "de": "Frage 23 über Cleopatra",
+      "nl": "Vraag 23 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Cleopatra",
+      "es": "Pregunta 24 sobre Cleopatra",
+      "de": "Frage 24 über Cleopatra",
+      "nl": "Vraag 24 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Cleopatra",
+      "es": "Pregunta 25 sobre Cleopatra",
+      "de": "Frage 25 über Cleopatra",
+      "nl": "Vraag 25 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Cleopatra",
+      "es": "Pregunta 26 sobre Cleopatra",
+      "de": "Frage 26 über Cleopatra",
+      "nl": "Vraag 26 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Cleopatra",
+      "es": "Pregunta 27 sobre Cleopatra",
+      "de": "Frage 27 über Cleopatra",
+      "nl": "Vraag 27 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Cleopatra",
+      "es": "Pregunta 28 sobre Cleopatra",
+      "de": "Frage 28 über Cleopatra",
+      "nl": "Vraag 28 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Cleopatra",
+      "es": "Pregunta 29 sobre Cleopatra",
+      "de": "Frage 29 über Cleopatra",
+      "nl": "Vraag 29 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Cleopatra",
+      "es": "Pregunta 30 sobre Cleopatra",
+      "de": "Frage 30 über Cleopatra",
+      "nl": "Vraag 30 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Cleopatra",
+      "es": "Pregunta 31 sobre Cleopatra",
+      "de": "Frage 31 über Cleopatra",
+      "nl": "Vraag 31 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Cleopatra",
+      "es": "Pregunta 32 sobre Cleopatra",
+      "de": "Frage 32 über Cleopatra",
+      "nl": "Vraag 32 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Cleopatra",
+      "es": "Pregunta 33 sobre Cleopatra",
+      "de": "Frage 33 über Cleopatra",
+      "nl": "Vraag 33 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Cleopatra",
+      "es": "Pregunta 34 sobre Cleopatra",
+      "de": "Frage 34 über Cleopatra",
+      "nl": "Vraag 34 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Cleopatra",
+      "es": "Pregunta 35 sobre Cleopatra",
+      "de": "Frage 35 über Cleopatra",
+      "nl": "Vraag 35 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Cleopatra",
+      "es": "Pregunta 36 sobre Cleopatra",
+      "de": "Frage 36 über Cleopatra",
+      "nl": "Vraag 36 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Cleopatra",
+      "es": "Pregunta 37 sobre Cleopatra",
+      "de": "Frage 37 über Cleopatra",
+      "nl": "Vraag 37 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Cleopatra",
+      "es": "Pregunta 38 sobre Cleopatra",
+      "de": "Frage 38 über Cleopatra",
+      "nl": "Vraag 38 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Cleopatra",
+      "es": "Pregunta 39 sobre Cleopatra",
+      "de": "Frage 39 über Cleopatra",
+      "nl": "Vraag 39 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Cleopatra",
+      "es": "Pregunta 40 sobre Cleopatra",
+      "de": "Frage 40 über Cleopatra",
+      "nl": "Vraag 40 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Cleopatra",
+      "es": "Pregunta 41 sobre Cleopatra",
+      "de": "Frage 41 über Cleopatra",
+      "nl": "Vraag 41 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Cleopatra",
+      "es": "Pregunta 42 sobre Cleopatra",
+      "de": "Frage 42 über Cleopatra",
+      "nl": "Vraag 42 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Cleopatra",
+      "es": "Pregunta 43 sobre Cleopatra",
+      "de": "Frage 43 über Cleopatra",
+      "nl": "Vraag 43 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Cleopatra",
+      "es": "Pregunta 44 sobre Cleopatra",
+      "de": "Frage 44 über Cleopatra",
+      "nl": "Vraag 44 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Cleopatra",
+      "es": "Pregunta 45 sobre Cleopatra",
+      "de": "Frage 45 über Cleopatra",
+      "nl": "Vraag 45 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Cleopatra",
+      "es": "Pregunta 46 sobre Cleopatra",
+      "de": "Frage 46 über Cleopatra",
+      "nl": "Vraag 46 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Cleopatra",
+      "es": "Pregunta 47 sobre Cleopatra",
+      "de": "Frage 47 über Cleopatra",
+      "nl": "Vraag 47 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Cleopatra",
+      "es": "Pregunta 48 sobre Cleopatra",
+      "de": "Frage 48 über Cleopatra",
+      "nl": "Vraag 48 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Cleopatra",
+      "es": "Pregunta 49 sobre Cleopatra",
+      "de": "Frage 49 über Cleopatra",
+      "nl": "Vraag 49 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Cleopatra",
+      "es": "Pregunta 50 sobre Cleopatra",
+      "de": "Frage 50 über Cleopatra",
+      "nl": "Vraag 50 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Cleopatra",
+      "es": "Pregunta 51 sobre Cleopatra",
+      "de": "Frage 51 über Cleopatra",
+      "nl": "Vraag 51 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Cleopatra",
+      "es": "Pregunta 52 sobre Cleopatra",
+      "de": "Frage 52 über Cleopatra",
+      "nl": "Vraag 52 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Cleopatra",
+      "es": "Pregunta 53 sobre Cleopatra",
+      "de": "Frage 53 über Cleopatra",
+      "nl": "Vraag 53 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Cleopatra",
+      "es": "Pregunta 54 sobre Cleopatra",
+      "de": "Frage 54 über Cleopatra",
+      "nl": "Vraag 54 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Cleopatra",
+      "es": "Pregunta 55 sobre Cleopatra",
+      "de": "Frage 55 über Cleopatra",
+      "nl": "Vraag 55 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Cleopatra",
+      "es": "Pregunta 56 sobre Cleopatra",
+      "de": "Frage 56 über Cleopatra",
+      "nl": "Vraag 56 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Cleopatra",
+      "es": "Pregunta 57 sobre Cleopatra",
+      "de": "Frage 57 über Cleopatra",
+      "nl": "Vraag 57 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Cleopatra",
+      "es": "Pregunta 58 sobre Cleopatra",
+      "de": "Frage 58 über Cleopatra",
+      "nl": "Vraag 58 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Cleopatra",
+      "es": "Pregunta 59 sobre Cleopatra",
+      "de": "Frage 59 über Cleopatra",
+      "nl": "Vraag 59 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Cleopatra",
+      "es": "Pregunta 60 sobre Cleopatra",
+      "de": "Frage 60 über Cleopatra",
+      "nl": "Vraag 60 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Cleopatra",
+      "es": "Pregunta 61 sobre Cleopatra",
+      "de": "Frage 61 über Cleopatra",
+      "nl": "Vraag 61 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Cleopatra",
+      "es": "Pregunta 62 sobre Cleopatra",
+      "de": "Frage 62 über Cleopatra",
+      "nl": "Vraag 62 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Cleopatra",
+      "es": "Pregunta 63 sobre Cleopatra",
+      "de": "Frage 63 über Cleopatra",
+      "nl": "Vraag 63 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Cleopatra",
+      "es": "Pregunta 64 sobre Cleopatra",
+      "de": "Frage 64 über Cleopatra",
+      "nl": "Vraag 64 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Cleopatra",
+      "es": "Pregunta 65 sobre Cleopatra",
+      "de": "Frage 65 über Cleopatra",
+      "nl": "Vraag 65 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Cleopatra",
+      "es": "Pregunta 66 sobre Cleopatra",
+      "de": "Frage 66 über Cleopatra",
+      "nl": "Vraag 66 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Cleopatra",
+      "es": "Pregunta 67 sobre Cleopatra",
+      "de": "Frage 67 über Cleopatra",
+      "nl": "Vraag 67 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Cleopatra",
+      "es": "Pregunta 68 sobre Cleopatra",
+      "de": "Frage 68 über Cleopatra",
+      "nl": "Vraag 68 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Cleopatra",
+      "es": "Pregunta 69 sobre Cleopatra",
+      "de": "Frage 69 über Cleopatra",
+      "nl": "Vraag 69 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Cleopatra",
+      "es": "Pregunta 70 sobre Cleopatra",
+      "de": "Frage 70 über Cleopatra",
+      "nl": "Vraag 70 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Cleopatra",
+      "es": "Pregunta 71 sobre Cleopatra",
+      "de": "Frage 71 über Cleopatra",
+      "nl": "Vraag 71 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Cleopatra",
+      "es": "Pregunta 72 sobre Cleopatra",
+      "de": "Frage 72 über Cleopatra",
+      "nl": "Vraag 72 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Cleopatra",
+      "es": "Pregunta 73 sobre Cleopatra",
+      "de": "Frage 73 über Cleopatra",
+      "nl": "Vraag 73 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Cleopatra",
+      "es": "Pregunta 74 sobre Cleopatra",
+      "de": "Frage 74 über Cleopatra",
+      "nl": "Vraag 74 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Cleopatra",
+      "es": "Pregunta 75 sobre Cleopatra",
+      "de": "Frage 75 über Cleopatra",
+      "nl": "Vraag 75 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Cleopatra",
+      "es": "Pregunta 76 sobre Cleopatra",
+      "de": "Frage 76 über Cleopatra",
+      "nl": "Vraag 76 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Cleopatra",
+      "es": "Pregunta 77 sobre Cleopatra",
+      "de": "Frage 77 über Cleopatra",
+      "nl": "Vraag 77 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Cleopatra",
+      "es": "Pregunta 78 sobre Cleopatra",
+      "de": "Frage 78 über Cleopatra",
+      "nl": "Vraag 78 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Cleopatra",
+      "es": "Pregunta 79 sobre Cleopatra",
+      "de": "Frage 79 über Cleopatra",
+      "nl": "Vraag 79 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Cleopatra",
+      "es": "Pregunta 80 sobre Cleopatra",
+      "de": "Frage 80 über Cleopatra",
+      "nl": "Vraag 80 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Cleopatra",
+      "es": "Pregunta 81 sobre Cleopatra",
+      "de": "Frage 81 über Cleopatra",
+      "nl": "Vraag 81 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Cleopatra",
+      "es": "Pregunta 82 sobre Cleopatra",
+      "de": "Frage 82 über Cleopatra",
+      "nl": "Vraag 82 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Cleopatra",
+      "es": "Pregunta 83 sobre Cleopatra",
+      "de": "Frage 83 über Cleopatra",
+      "nl": "Vraag 83 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Cleopatra",
+      "es": "Pregunta 84 sobre Cleopatra",
+      "de": "Frage 84 über Cleopatra",
+      "nl": "Vraag 84 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Cleopatra",
+      "es": "Pregunta 85 sobre Cleopatra",
+      "de": "Frage 85 über Cleopatra",
+      "nl": "Vraag 85 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Cleopatra",
+      "es": "Pregunta 86 sobre Cleopatra",
+      "de": "Frage 86 über Cleopatra",
+      "nl": "Vraag 86 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Cleopatra",
+      "es": "Pregunta 87 sobre Cleopatra",
+      "de": "Frage 87 über Cleopatra",
+      "nl": "Vraag 87 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Cleopatra",
+      "es": "Pregunta 88 sobre Cleopatra",
+      "de": "Frage 88 über Cleopatra",
+      "nl": "Vraag 88 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Cleopatra",
+      "es": "Pregunta 89 sobre Cleopatra",
+      "de": "Frage 89 über Cleopatra",
+      "nl": "Vraag 89 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Cleopatra",
+      "es": "Pregunta 90 sobre Cleopatra",
+      "de": "Frage 90 über Cleopatra",
+      "nl": "Vraag 90 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Cleopatra",
+      "es": "Pregunta 91 sobre Cleopatra",
+      "de": "Frage 91 über Cleopatra",
+      "nl": "Vraag 91 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Cleopatra",
+      "es": "Pregunta 92 sobre Cleopatra",
+      "de": "Frage 92 über Cleopatra",
+      "nl": "Vraag 92 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Cleopatra",
+      "es": "Pregunta 93 sobre Cleopatra",
+      "de": "Frage 93 über Cleopatra",
+      "nl": "Vraag 93 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Cleopatra",
+      "es": "Pregunta 94 sobre Cleopatra",
+      "de": "Frage 94 über Cleopatra",
+      "nl": "Vraag 94 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Cleopatra",
+      "es": "Pregunta 95 sobre Cleopatra",
+      "de": "Frage 95 über Cleopatra",
+      "nl": "Vraag 95 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Cleopatra",
+      "es": "Pregunta 96 sobre Cleopatra",
+      "de": "Frage 96 über Cleopatra",
+      "nl": "Vraag 96 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Cleopatra",
+      "es": "Pregunta 97 sobre Cleopatra",
+      "de": "Frage 97 über Cleopatra",
+      "nl": "Vraag 97 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Cleopatra",
+      "es": "Pregunta 98 sobre Cleopatra",
+      "de": "Frage 98 über Cleopatra",
+      "nl": "Vraag 98 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Cleopatra",
+      "es": "Pregunta 99 sobre Cleopatra",
+      "de": "Frage 99 über Cleopatra",
+      "nl": "Vraag 99 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Cleopatra",
+      "es": "Pregunta 100 sobre Cleopatra",
+      "de": "Frage 100 über Cleopatra",
+      "nl": "Vraag 100 over Cleopatra"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cleopatra",
+        "es": "Respuesta A para Cleopatra",
+        "de": "Antwort A für Cleopatra",
+        "nl": "Antwoord A voor Cleopatra"
+      },
+      {
+        "en": "Answer B for Cleopatra",
+        "es": "Respuesta B para Cleopatra",
+        "de": "Antwort B für Cleopatra",
+        "nl": "Antwoord B voor Cleopatra"
+      },
+      {
+        "en": "Answer C for Cleopatra",
+        "es": "Respuesta C para Cleopatra",
+        "de": "Antwort C für Cleopatra",
+        "nl": "Antwoord C voor Cleopatra"
+      },
+      {
+        "en": "Answer D for Cleopatra",
+        "es": "Respuesta D para Cleopatra",
+        "de": "Antwort D für Cleopatra",
+        "nl": "Antwoord D voor Cleopatra"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cleopatra.",
+      "es": "Esta es la respuesta correcta sobre Cleopatra.",
+      "de": "Dies ist die richtige Antwort über Cleopatra.",
+      "nl": "Dit is het juiste antwoord over Cleopatra."
+    }
   }
-})();
+]
+};

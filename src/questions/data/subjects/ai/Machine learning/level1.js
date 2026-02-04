@@ -1,860 +1,2546 @@
-// AI Machine Learning Quiz - Level 1: Beginner
-(function() {
-  const level1 = {
-    name: {
-      en: "Machine Learning Basics",
-      es: "Fundamentos de Aprendizaje Automático",
-      de: "Grundlagen des maschinellen Lernens",
-      nl: "Machine Learning Basics"
-    },
-    questions: [
-      {
-        question: {
-          en: "What does AI stand for?",
-          es: "¿Qué significa IA?",
-          de: "Wofür steht KI?",
-          nl: "Waar staat AI voor?"
-        },
-        options: [
-          { en: "Artificial Intelligence", es: "Inteligencia Artificial", de: "Künstliche Intelligenz", nl: "Artificial Intelligence" },
-          { en: "Automatic Information", es: "Información Automática", de: "Automatische Information", nl: "Automatische Informatie" },
-          { en: "Advanced Internet", es: "Internet Avanzado", de: "Erweiterte Internet", nl: "Geavanceerd Internet" },
-          { en: "Application Interface", es: "Interfaz de Aplicación", de: "Anwendungsschnittstelle", nl: "Applicatie Interface" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "AI stands for Artificial Intelligence, which refers to computer systems that can perform tasks typically requiring human intelligence.",
-          es: "IA significa Inteligencia Artificial, que se refiere a sistemas informáticos que pueden realizar tareas que normalmente requieren inteligencia humana.",
-          de: "KI steht für Künstliche Intelligenz, die sich auf Computersysteme bezieht, die Aufgaben ausführen können, die normalerweise menschliche Intelligenz erfordern.",
-          nl: "AI staat voor Artificial Intelligence, wat verwijst naar computersystemen die taken kunnen uitvoeren die normaal menselijke intelligentie vereisen."
-        }
+module.exports = {
+  questions: [
+    {
+      question: {
+        en: "What is machine learning?",
+        es: "¿Qué es el aprendizaje automático?",
+        de: "Was ist maschinelles Lernen?",
+        nl: "Wat is machine learning?"
       },
-      {
-        question: {
-          en: "Which company developed the voice assistant Siri?",
-          es: "¿Qué empresa desarrolló el asistente de voz Siri?",
-          de: "Welches Unternehmen hat den Sprachassistenten Siri entwickelt?",
-          nl: "Welk bedrijf ontwikkelde de spraakassistent Siri?"
+      options: [
+        {
+          en: "Computers learning from data",
+          es: "Computadoras aprendiendo de datos",
+          de: "Computer lernen aus Daten",
+          nl: "Computers die leren van data"
         },
-        options: [
-          { en: "Google", es: "Google", de: "Google", nl: "Google" },
-          { en: "Apple", es: "Apple", de: "Apple", nl: "Apple" },
-          { en: "Microsoft", es: "Microsoft", de: "Microsoft", nl: "Microsoft" },
-          { en: "Amazon", es: "Amazon", de: "Amazon", nl: "Amazon" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Apple developed Siri, which was first introduced in 2011 as one of the first mainstream voice assistants for smartphones.",
-          es: "Apple desarrolló Siri, que se introdujo por primera vez en 2011 como uno de los primeros asistentes de voz convencionales para teléfonos inteligentes.",
-          de: "Apple entwickelte Siri, das 2011 als einer der ersten Mainstream-Sprachassistenten für Smartphones eingeführt wurde.",
-          nl: "Apple ontwikkelde Siri, dat in 2011 werd geïntroduceerd als een van de eerste mainstream spraakassistenten voor smartphones."
-        }
-      },
-      {
-        question: {
-          en: "What is machine learning?",
-          es: "¿Qué es el aprendizaje automático?",
-          de: "Was ist maschinelles Lernen?",
-          nl: "Wat is machine learning?"
+        {
+          en: "Manual programming only",
+          es: "Solo programación manual",
+          de: "Nur manuelle Programmierung",
+          nl: "Alleen handmatig programmeren"
         },
-        options: [
-          { en: "Teaching computers to think like humans", es: "Enseñar a las computadoras a pensar como humanos", de: "Computern beibringen, wie Menschen zu denken", nl: "Computers leren denken zoals mensen" },
-          { en: "Programming computers with fixed rules", es: "Programar computadoras con reglas fijas", de: "Computer mit festen Regeln programmieren", nl: "Computers programmeren met vaste regels" },
-          { en: "Learning from data without programming", es: "Computadoras que aprenden de datos sin programación explícita", de: "Computer lernen aus Daten ohne explizite Programmierung", nl: "Computers die leren van data zonder expliciete programmering" },
-          { en: "Building robot bodies", es: "Construir cuerpos de robots", de: "Roboterkörper bauen", nl: "Robotlichamen bouwen" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Machine learning enables computers to learn and improve from data automatically, without being explicitly programmed for every task.",
-          es: "El aprendizaje automático permite a las computadoras aprender y mejorar automáticamente a partir de datos, sin ser programadas explícitamente para cada tarea.",
-          de: "Maschinelles Lernen ermöglicht es Computern, automatisch aus Daten zu lernen und sich zu verbessern, ohne für jede Aufgabe explizit programmiert zu werden.",
-          nl: "Machine learning stelt computers in staat om automatisch te leren en te verbeteren op basis van data, zonder expliciet geprogrammeerd te worden voor elke taak."
-        }
-      },
-      {
-        question: {
-          en: "Which of these is a popular application of AI?",
-          es: "¿Cuál de estas es una aplicación popular de IA?",
-          de: "Welche davon ist eine beliebte Anwendung von KI?",
-          nl: "Welke hiervan is een populaire toepassing van AI?"
+        {
+          en: "Hardware installation",
+          es: "Instalación de hardware",
+          de: "Hardware-Installation",
+          nl: "Hardware installatie"
         },
-        options: [
-          { en: "Spam filtering", es: "Filtrado de spam en email", de: "E-Mail-Spam-Filterung", nl: "Spam filtering" },
-          { en: "Calculator apps", es: "Aplicaciones de calculadora", de: "Rechner-Apps", nl: "Rekenmachine apps" },
-          { en: "Digital clocks", es: "Relojes digitales", de: "Digitaluhren", nl: "Digitale klokken" },
-          { en: "Text editors", es: "Editores de texto", de: "Text-Editoren", nl: "Teksteditors" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Email spam filtering uses machine learning algorithms to automatically detect and filter unwanted emails based on patterns in the content.",
-          es: "El filtrado de spam de correo electrónico utiliza algoritmos de aprendizaje automático para detectar y filtrar automáticamente correos electrónicos no deseados basándose en patrones en el contenido.",
-          de: "E-Mail-Spam-Filterung verwendet maschinelle Lernalgorithmen, um unerwünschte E-Mails basierend auf Mustern im Inhalt automatisch zu erkennen und zu filtern.",
-          nl: "Email spam filtering gebruikt machine learning algoritmes om automatisch ongewenste emails te detecteren en filteren op basis van patronen in de inhoud."
+        {
+          en: "Internet browsing",
+          es: "Navegación por internet",
+          de: "Internet-Browsing",
+          nl: "Internetten"
         }
-      },
-      {
-        question: {
-          en: "What does 'training data' mean in machine learning?",
-          es: "¿Qué significa 'datos de entrenamiento' en aprendizaje automático?",
-          de: "Was bedeutet 'Trainingsdaten' im maschinellen Lernen?",
-          nl: "Wat betekent 'trainingsdata' in machine learning?"
-        },
-        options: [
-          { en: "Data used to test if the AI works", es: "Datos utilizados para probar si la IA funciona", de: "Daten zum Testen, ob die KI funktioniert", nl: "Data gebruikt om te testen of de AI werkt" },
-          { en: "Examples used to teach the AI system", es: "Ejemplos utilizados para enseñar al sistema de IA", de: "Beispiele zum Lehren des KI-Systems", nl: "Voorbeelden gebruikt om het AI systeem te leren" },
-          { en: "Data about gym workouts", es: "Datos sobre entrenamientos de gimnasio", de: "Daten über Gym-Workouts", nl: "Data over sportschool trainingen" },
-          { en: "Information about train schedules", es: "Información sobre horarios de trenes", de: "Informationen über Zugfahrpläne", nl: "Informatie over treinschema's" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Training data consists of examples that are fed to machine learning algorithms so they can learn patterns and make predictions on new, unseen data.",
-          es: "Los datos de entrenamiento consisten en ejemplos que se alimentan a los algoritmos de aprendizaje automático para que puedan aprender patrones y hacer predicciones sobre datos nuevos y no vistos.",
-          de: "Trainingsdaten bestehen aus Beispielen, die an maschinelle Lernalgorithmen gefüttert werden, damit sie Muster lernen und Vorhersagen über neue, ungesehene Daten treffen können.",
-          nl: "Trainingsdata bestaat uit voorbeelden die aan machine learning algoritmes worden gegeven zodat ze patronen kunnen leren en voorspellingen kunnen maken over nieuwe, ongeziene data."
-        }
-      },
-      {
-        question: {
-          en: "What is the main goal of artificial intelligence?",
-          es: "¿Cuál es el objetivo principal de la inteligencia artificial?",
-          de: "Was ist das Hauptziel der künstlichen Intelligenz?",
-          nl: "Wat is het hoofddoel van kunstmatige intelligentie?"
-        },
-        options: [
-          { en: "Make computers intelligent", es: "Hacer que las computadoras actúen inteligentemente como los humanos", de: "Computer dazu zu bringen, intelligent wie Menschen zu handeln", nl: "Computers intelligent laten handelen zoals mensen" },
-          { en: "To replace all human workers", es: "Reemplazar a todos los trabajadores humanos", de: "Alle menschlichen Arbeiter zu ersetzen", nl: "Alle menselijke werknemers vervangen" },
-          { en: "To make computers faster", es: "Hacer las computadoras más rápidas", de: "Computer schneller zu machen", nl: "Computers sneller maken" },
-          { en: "To create smaller devices", es: "Crear dispositivos más pequeños", de: "Kleinere Geräte zu schaffen", nl: "Kleinere apparaten maken" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "AI aims to create systems that can perform tasks requiring human-like intelligence, such as reasoning, learning, and problem-solving.",
-          es: "La IA busca crear sistemas que puedan realizar tareas que requieren inteligencia similar a la humana, como razonamiento, aprendizaje y resolución de problemas.",
-          de: "KI zielt darauf ab, Systeme zu schaffen, die Aufgaben ausführen können, die menschliche Intelligenz erfordern, wie Denken, Lernen und Problemlösung.",
-          nl: "AI streeft ernaar systemen te creëren die taken kunnen uitvoeren die menselijke intelligentie vereisen, zoals redeneren, leren en probleemoplossing."
-        }
-      },
-      {
-        question: {
-          en: "What is the difference between AI and machine learning?",
-          es: "¿Cuál es la diferencia entre IA y aprendizaje automático?",
-          de: "Was ist der Unterschied zwischen KI und maschinellem Lernen?",
-          nl: "Wat is het verschil tussen AI en machine learning?"
-        },
-        options: [
-          { en: "Machine learning is a subset of AI focused on learning from data", es: "El aprendizaje automático es un subconjunto de IA enfocado en aprender de los datos", de: "Maschinelles Lernen ist eine Teilmenge der KI, die sich auf das Lernen aus Daten konzentriert", nl: "Machine learning is een subset van AI gericht op leren van data" },
-          { en: "AI and machine learning are exactly the same thing", es: "IA y aprendizaje automático son exactamente lo mismo", de: "KI und maschinelles Lernen sind genau dasselbe", nl: "AI en machine learning zijn precies hetzelfde" },
-          { en: "AI is older than machine learning", es: "La IA es más antigua que el aprendizaje automático", de: "KI ist älter als maschinelles Lernen", nl: "AI is ouder dan machine learning" },
-          { en: "Machine learning is more advanced than AI", es: "El aprendizaje automático es más avanzado que la IA", de: "Maschinelles Lernen ist fortschrittlicher als KI", nl: "Machine learning is geavanceerder dan AI" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "AI is the broader concept of machines being able to carry out tasks in a smart way, while machine learning is a specific approach to achieve AI through learning from data.",
-          es: "La IA es el concepto más amplio de máquinas capaces de realizar tareas de manera inteligente, mientras que el aprendizaje automático es un enfoque específico para lograr IA mediante el aprendizaje de datos.",
-          de: "KI ist das breitere Konzept von Maschinen, die Aufgaben intelligent ausführen können, während maschinelles Lernen ein spezifischer Ansatz ist, um KI durch Lernen aus Daten zu erreichen.",
-          nl: "AI is het bredere concept van machines die taken op een slimme manier kunnen uitvoeren, terwijl machine learning een specifieke benadering is om AI te bereiken door van data te leren."
-        }
-      },
-      {
-        question: {
-          en: "Which of these is an example of supervised learning?",
-          es: "¿Cuál de estos es un ejemplo de aprendizaje supervisado?",
-          de: "Welches ist ein Beispiel für überwachtes Lernen?",
-          nl: "Welke hiervan is een voorbeeld van supervised learning?"
-        },
-        options: [
-          { en: "Email spam detection using labeled examples", es: "Detección de spam en email usando ejemplos etiquetados", de: "E-Mail-Spam-Erkennung mit beschrifteten Beispielen", nl: "Email spam detectie met gelabelde voorbeelden" },
-          { en: "Discovering hidden patterns in data", es: "Descubrir patrones ocultos en los datos", de: "Versteckte Muster in Daten entdecken", nl: "Verborgen patronen in data ontdekken" },
-          { en: "Playing games without instructions", es: "Jugar juegos sin instrucciones", de: "Spiele ohne Anweisungen spielen", nl: "Spellen spelen zonder instructies" },
-          { en: "Exploring data without any guidance", es: "Explorar datos sin ninguna guía", de: "Daten ohne Anleitung erkunden", nl: "Data verkennen zonder begeleiding" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Supervised learning uses labeled training data where the correct answers are provided, like training a spam filter with emails already marked as spam or not spam.",
-          es: "El aprendizaje supervisado utiliza datos de entrenamiento etiquetados donde se proporcionan las respuestas correctas, como entrenar un filtro de spam con correos ya marcados como spam o no spam.",
-          de: "Überwachtes Lernen verwendet beschriftete Trainingsdaten, bei denen die korrekten Antworten bereitgestellt werden, wie das Training eines Spam-Filters mit E-Mails, die bereits als Spam oder nicht-Spam markiert sind.",
-          nl: "Supervised learning gebruikt gelabelde trainingsdata waar de juiste antwoorden worden gegeven, zoals het trainen van een spamfilter met emails die al gemarkeerd zijn als spam of niet-spam."
-        }
-      },
-      {
-        question: {
-          en: "What is unsupervised learning?",
-          es: "¿Qué es el aprendizaje no supervisado?",
-          de: "Was ist unüberwachtes Lernen?",
-          nl: "Wat is unsupervised learning?"
-        },
-        options: [
-          { en: "Learning patterns from data without correct answers provided", es: "Aprender patrones de datos sin respuestas correctas proporcionadas", de: "Muster aus Daten lernen ohne bereitgestellte korrekte Antworten", nl: "Patronen leren uit data zonder juiste antwoorden gegeven" },
-          { en: "Learning only when a teacher is not watching", es: "Aprender solo cuando un maestro no está mirando", de: "Nur lernen, wenn ein Lehrer nicht zuschaut", nl: "Alleen leren wanneer een leraar niet kijkt" },
-          { en: "Learning without using a computer", es: "Aprender sin usar una computadora", de: "Lernen ohne Computer zu verwenden", nl: "Leren zonder een computer te gebruiken" },
-          { en: "Learning only basic concepts", es: "Aprender solo conceptos básicos", de: "Nur grundlegende Konzepte lernen", nl: "Alleen basisbegrippen leren" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Unsupervised learning finds hidden patterns in data without being given examples of correct answers, like grouping customers with similar buying habits.",
-          es: "El aprendizaje no supervisado encuentra patrones ocultos en los datos sin recibir ejemplos de respuestas correctas, como agrupar clientes con hábitos de compra similares.",
-          de: "Unüberwachtes Lernen findet versteckte Muster in Daten, ohne Beispiele korrekter Antworten zu erhalten, wie das Gruppieren von Kunden mit ähnlichen Kaufgewohnheiten.",
-          nl: "Unsupervised learning vindt verborgen patronen in data zonder voorbeelden van juiste antwoorden te krijgen, zoals het groeperen van klanten met vergelijkbare koopgewoonten."
-        }
-      },
-      {
-        question: {
-          en: "What is an algorithm in the context of machine learning?",
-          es: "¿Qué es un algoritmo en el contexto del aprendizaje automático?",
-          de: "Was ist ein Algorithmus im Kontext des maschinellen Lernens?",
-          nl: "Wat is een algoritme in de context van machine learning?"
-        },
-        options: [
-          { en: "A set of rules and instructions for solving problems", es: "Un conjunto de reglas e instrucciones para resolver problemas", de: "Ein Satz von Regeln und Anweisungen zur Problemlösung", nl: "Een set regels en instructies voor het oplossen van problemen" },
-          { en: "A type of computer hardware", es: "Un tipo de hardware de computadora", de: "Eine Art Computerhardware", nl: "Een type computerhardware" },
-          { en: "A programming language", es: "Un lenguaje de programación", de: "Eine Programmiersprache", nl: "Een programmeertaal" },
-          { en: "A storage device", es: "Un dispositivo de almacenamiento", de: "Ein Speichergerät", nl: "Een opslagapparaat" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "In machine learning, an algorithm is a mathematical procedure that tells the computer how to find patterns in data and make predictions.",
-          es: "En aprendizaje automático, un algoritmo es un procedimiento matemático que le dice a la computadora cómo encontrar patrones en los datos y hacer predicciones.",
-          de: "Im maschinellen Lernen ist ein Algorithmus ein mathematisches Verfahren, das dem Computer sagt, wie er Muster in Daten finden und Vorhersagen treffen kann.",
-          nl: "In machine learning is een algoritme een wiskundige procedure die de computer vertelt hoe patronen in data te vinden en voorspellingen te maken."
-        }
-      },
-      {
-        question: {
-          en: "What does 'big data' refer to?",
-          es: "¿A qué se refiere 'big data'?",
-          de: "Worauf bezieht sich 'Big Data'?",
-          nl: "Waar verwijst 'big data' naar?"
-        },
-        options: [
-          { en: "Extremely large datasets that require special tools to process", es: "Conjuntos de datos extremadamente grandes que requieren herramientas especiales para procesar", de: "Extrem große Datensätze, die spezielle Werkzeuge zur Verarbeitung benötigen", nl: "Extreem grote datasets die speciale tools nodig hebben om te verwerken" },
-          { en: "Data files that are bigger than 1 GB", es: "Archivos de datos que son mayores a 1 GB", de: "Datendateien, die größer als 1 GB sind", nl: "Databestanden die groter zijn dan 1 GB" },
-          { en: "Important business information", es: "Información comercial importante", de: "Wichtige Geschäftsinformationen", nl: "Belangrijke bedrijfsinformatie" },
-          { en: "Data stored on large hard drives", es: "Datos almacenados en discos duros grandes", de: "Daten, die auf großen Festplatten gespeichert sind", nl: "Data opgeslagen op grote harde schijven" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Big data refers to datasets so large and complex that traditional data processing software cannot handle them efficiently.",
-          es: "Big data se refiere a conjuntos de datos tan grandes y complejos que el software tradicional de procesamiento de datos no puede manejarlos eficientemente.",
-          de: "Big Data bezieht sich auf Datensätze, die so groß und komplex sind, dass traditionelle Datenverarbeitungssoftware sie nicht effizient handhaben kann.",
-          nl: "Big data verwijst naar datasets die zo groot en complex zijn dat traditionele dataverwerkingssoftware ze niet efficiënt kan verwerken."
-        }
-      },
-      {
-        question: {
-          en: "What is a chatbot?",
-          es: "¿Qué es un chatbot?",
-          de: "Was ist ein Chatbot?",
-          nl: "Wat is een chatbot?"
-        },
-        options: [
-          { en: "A computer program that can have conversations with humans", es: "Un programa de computadora que puede tener conversaciones con humanos", de: "Ein Computerprogramm, das Gespräche mit Menschen führen kann", nl: "Een computerprogramma dat gesprekken kan voeren met mensen" },
-          { en: "A robot that cleans your house", es: "Un robot que limpia tu casa", de: "Ein Roboter, der dein Haus putzt", nl: "Een robot die je huis schoonmaakt" },
-          { en: "A video game character", es: "Un personaje de videojuego", de: "Eine Videospiel-Figur", nl: "Een videospel personage" },
-          { en: "A type of social media app", es: "Un tipo de aplicación de redes sociales", de: "Eine Art Social-Media-App", nl: "Een type sociale media app" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "A chatbot is an AI program designed to simulate conversation with human users, often used for customer service or information assistance.",
-          es: "Un chatbot es un programa de IA diseñado para simular conversaciones con usuarios humanos, a menudo utilizado para servicio al cliente o asistencia de información.",
-          de: "Ein Chatbot ist ein KI-Programm, das entwickelt wurde, um Gespräche mit menschlichen Benutzern zu simulieren, oft für Kundenservice oder Informationshilfe verwendet.",
-          nl: "Een chatbot is een AI-programma ontworpen om gesprekken met menselijke gebruikers te simuleren, vaak gebruikt voor klantenservice of informatie-assistentie."
-        }
-      },
-      {
-        question: {
-          en: "What does it mean when we say an AI system 'learns'?",
-          es: "¿Qué significa cuando decimos que un sistema de IA 'aprende'?",
-          de: "Was bedeutet es, wenn wir sagen, dass ein KI-System 'lernt'?",
-          nl: "Wat betekent het wanneer we zeggen dat een AI-systeem 'leert'?"
-        },
-        options: [
-          { en: "It improves its performance based on experience with data", es: "Mejora su rendimiento basado en la experiencia con los datos", de: "Es verbessert seine Leistung basierend auf Erfahrung mit Daten", nl: "Het verbetert zijn prestaties gebaseerd op ervaring met data" },
-          { en: "It reads textbooks like humans do", es: "Lee libros de texto como lo hacen los humanos", de: "Es liest Lehrbücher wie Menschen", nl: "Het leest tekstboeken zoals mensen doen" },
-          { en: "It downloads new software updates", es: "Descarga nuevas actualizaciones de software", de: "Es lädt neue Software-Updates herunter", nl: "Het downloadt nieuwe software-updates" },
-          { en: "It gets taught by human teachers", es: "Es enseñado por maestros humanos", de: "Es wird von menschlichen Lehrern unterrichtet", nl: "Het wordt onderwezen door menselijke leraren" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "AI learning means the system automatically adjusts and improves its performance by finding patterns in data and updating its internal parameters.",
-          es: "El aprendizaje de IA significa que el sistema ajusta automáticamente y mejora su rendimiento encontrando patrones en los datos y actualizando sus parámetros internos.",
-          de: "KI-Lernen bedeutet, dass das System automatisch seine Leistung anpasst und verbessert, indem es Muster in Daten findet und seine internen Parameter aktualisiert.",
-          nl: "AI-leren betekent dat het systeem automatisch zijn prestaties aanpast en verbetert door patronen in data te vinden en zijn interne parameters bij te werken."
-        }
-      },
-      {
-        question: {
-          en: "What is the purpose of testing data in machine learning?",
-          es: "¿Cuál es el propósito de los datos de prueba en aprendizaje automático?",
-          de: "Was ist der Zweck von Testdaten im maschinellen Lernen?",
-          nl: "Wat is het doel van testdata in machine learning?"
-        },
-        options: [
-          { en: "To evaluate how well the AI performs on new, unseen data", es: "Evaluar qué tan bien funciona la IA en datos nuevos y no vistos", de: "Zu bewerten, wie gut die KI bei neuen, ungesehenen Daten funktioniert", nl: "Om te evalueren hoe goed de AI presteert op nieuwe, ongeziene data" },
-          { en: "To train the AI system", es: "Para entrenar el sistema de IA", de: "Um das KI-System zu trainieren", nl: "Om het AI-systeem te trainen" },
-          { en: "To fix bugs in the software", es: "Para corregir errores en el software", de: "Um Fehler in der Software zu beheben", nl: "Om bugs in de software te repareren" },
-          { en: "To make the AI run faster", es: "Para hacer que la IA funcione más rápido", de: "Um die KI schneller laufen zu lassen", nl: "Om de AI sneller te laten werken" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Testing data is kept separate during training and used to measure how well the trained model generalizes to new examples it hasn't seen before.",
-          es: "Los datos de prueba se mantienen separados durante el entrenamiento y se usan para medir qué tan bien el modelo entrenado generaliza a nuevos ejemplos que no ha visto antes.",
-          de: "Testdaten werden während des Trainings getrennt gehalten und verwendet, um zu messen, wie gut das trainierte Modell auf neue Beispiele generalisiert, die es zuvor nicht gesehen hat.",
-          nl: "Testdata wordt gescheiden gehouden tijdens training en gebruikt om te meten hoe goed het getrainde model generaliseert naar nieuwe voorbeelden die het nog niet eerder heeft gezien."
-        }
-      },
-      {
-        question: {
-          en: "What is a neural network inspired by?",
-          es: "¿En qué se inspira una red neuronal?",
-          de: "Wovon ist ein neuronales Netzwerk inspiriert?",
-          nl: "Waarop is een neuraal netwerk geïnspireerd?"
-        },
-        options: [
-          { en: "The human brain and its neurons", es: "El cerebro humano y sus neuronas", de: "Das menschliche Gehirn und seine Neuronen", nl: "Het menselijke brein en zijn neuronen" },
-          { en: "Computer networks and the internet", es: "Redes informáticas e internet", de: "Computernetzwerke und das Internet", nl: "Computernetwerken en het internet" },
-          { en: "Telephone systems", es: "Sistemas telefónicos", de: "Telefonsysteme", nl: "Telefoonsystemen" },
-          { en: "Road and highway systems", es: "Sistemas de carreteras y autopistas", de: "Straßen- und Autobahnsysteme", nl: "Weg- en snelwegsystemen" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Neural networks are modeled after the human brain, with artificial neurons that process and pass information similar to biological neurons.",
-          es: "Las redes neuronales están modeladas según el cerebro humano, con neuronas artificiales que procesan y pasan información similar a las neuronas biológicas.",
-          de: "Neuronale Netzwerke sind nach dem menschlichen Gehirn modelliert, mit künstlichen Neuronen, die Informationen verarbeiten und weiterleiten, ähnlich biologischen Neuronen.",
-          nl: "Neurale netwerken zijn gemodelleerd naar het menselijke brein, met kunstmatige neuronen die informatie verwerken en doorgeven vergelijkbaar met biologische neuronen."
-        }
-      },
-      {
-        question: {
-          en: "What is pattern recognition in AI?",
-          es: "¿Qué es el reconocimiento de patrones en IA?",
-          de: "Was ist Mustererkennung in der KI?",
-          nl: "Wat is patroonherkenning in AI?"
-        },
-        options: [
-          { en: "The ability to identify recurring structures or trends in data", es: "La capacidad de identificar estructuras o tendencias recurrentes en los datos", de: "Die Fähigkeit, wiederkehrende Strukturen oder Trends in Daten zu identifizieren", nl: "Het vermogen om terugkerende structuren of trends in data te identificeren" },
-          { en: "Drawing geometric patterns", es: "Dibujar patrones geométricos", de: "Geometrische Muster zeichnen", nl: "Geometrische patronen tekenen" },
-          { en: "Recognizing clothing patterns", es: "Reconocer patrones de ropa", de: "Kleidungsmuster erkennen", nl: "Kledingpatronen herkennen" },
-          { en: "Creating art with patterns", es: "Crear arte con patrones", de: "Kunst mit Mustern schaffen", nl: "Kunst maken met patronen" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Pattern recognition is a fundamental AI capability that allows systems to identify regularities, similarities, and meaningful structures in data.",
-          es: "El reconocimiento de patrones es una capacidad fundamental de IA que permite a los sistemas identificar regularidades, similitudes y estructuras significativas en los datos.",
-          de: "Mustererkennung ist eine grundlegende KI-Fähigkeit, die es Systemen ermöglicht, Regelmäßigkeiten, Ähnlichkeiten und bedeutungsvolle Strukturen in Daten zu identifizieren.",
-          nl: "Patroonherkenning is een fundamentele AI-capaciteit die systemen in staat stelt regelmatigheden, overeenkomsten en betekenisvolle structuren in data te identificeren."
-        }
-      },
-      {
-        question: {
-          en: "What is a simple example of machine learning in everyday life?",
-          es: "¿Cuál es un ejemplo simple de aprendizaje automático en la vida cotidiana?",
-          de: "Was ist ein einfaches Beispiel für maschinelles Lernen im Alltag?",
-          nl: "Wat is een eenvoudig voorbeeld van machine learning in het dagelijks leven?"
-        },
-        options: [
-          { en: "Music streaming services recommending songs you might like", es: "Servicios de streaming de música recomendando canciones que podrían gustarte", de: "Musik-Streaming-Dienste empfehlen Lieder, die dir gefallen könnten", nl: "Muziekstreaming diensten die liedjes aanbevelen die je misschien leuk vindt" },
-          { en: "Using a calculator to do math", es: "Usar una calculadora para hacer matemáticas", de: "Einen Rechner für Mathematik verwenden", nl: "Een rekenmachine gebruiken voor wiskunde" },
-          { en: "Turning on a light switch", es: "Encender un interruptor de luz", de: "Einen Lichtschalter anschalten", nl: "Een lichtschakelaar aanzetten" },
-          { en: "Reading a digital clock", es: "Leer un reloj digital", de: "Eine Digitaluhr ablesen", nl: "Een digitale klok lezen" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Music recommendation systems use machine learning to analyze your listening history and preferences to suggest new songs you might enjoy.",
-          es: "Los sistemas de recomendación de música usan aprendizaje automático para analizar tu historial de escucha y preferencias para sugerir nuevas canciones que podrías disfrutar.",
-          de: "Musikempfehlungssysteme verwenden maschinelles Lernen, um deine Hörgewohnheiten und Vorlieben zu analysieren, um neue Lieder vorzuschlagen, die dir gefallen könnten.",
-          nl: "Muziekaanbevelingssystemen gebruiken machine learning om je luistergeschiedenis en voorkeuren te analyseren om nieuwe liedjes voor te stellen die je misschien leuk vindt."
-        }
-      },
-      {
-        question: {
-          en: "What does 'prediction' mean in machine learning?",
-          es: "¿Qué significa 'predicción' en aprendizaje automático?",
-          de: "Was bedeutet 'Vorhersage' im maschinellen Lernen?",
-          nl: "Wat betekent 'voorspelling' in machine learning?"
-        },
-        options: [
-          { en: "Making educated guesses about future or unknown outcomes based on data", es: "Hacer conjeturas educadas sobre resultados futuros o desconocidos basados en datos", de: "Fundierte Vermutungen über zukünftige oder unbekannte Ergebnisse basierend auf Daten machen", nl: "Goed onderbouwde gissingen maken over toekomstige of onbekende uitkomsten gebaseerd op data" },
-          { en: "Reading fortune cookies", es: "Leer galletas de la fortuna", de: "Glückskekse lesen", nl: "Gelukskoekjes lezen" },
-          { en: "Guessing random numbers", es: "Adivinar números aleatorios", de: "Zufallszahlen raten", nl: "Willekeurige nummers raden" },
-          { en: "Looking into crystal balls", es: "Mirar en bolas de cristal", de: "In Kristallkugeln schauen", nl: "In kristallen bollen kijken" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "In machine learning, prediction means using learned patterns from historical data to estimate what might happen with new, unseen data.",
-          es: "En aprendizaje automático, predicción significa usar patrones aprendidos de datos históricos para estimar qué podría pasar con datos nuevos y no vistos.",
-          de: "Im maschinellen Lernen bedeutet Vorhersage, gelernte Muster aus historischen Daten zu verwenden, um zu schätzen, was mit neuen, ungesehenen Daten passieren könnte.",
-          nl: "In machine learning betekent voorspelling het gebruik van geleerde patronen uit historische data om te schatten wat er zou kunnen gebeuren met nieuwe, ongeziene data."
-        }
-      },
-      {
-        question: {
-          en: "Why is data important for machine learning?",
-          es: "¿Por qué son importantes los datos para el aprendizaje automático?",
-          de: "Warum sind Daten für maschinelles Lernen wichtig?",
-          nl: "Waarom is data belangrijk voor machine learning?"
-        },
-        options: [
-          { en: "Data provides the examples and patterns that algorithms learn from", es: "Los datos proporcionan los ejemplos y patrones de los que aprenden los algoritmos", de: "Daten liefern die Beispiele und Muster, aus denen Algorithmen lernen", nl: "Data biedt de voorbeelden en patronen waarvan algoritmes leren" },
-          { en: "Data makes computers run faster", es: "Los datos hacen que las computadoras funcionen más rápido", de: "Daten lassen Computer schneller laufen", nl: "Data laat computers sneller werken" },
-          { en: "Data is only needed for storage", es: "Los datos solo se necesitan para almacenamiento", de: "Daten werden nur für die Speicherung benötigt", nl: "Data is alleen nodig voor opslag" },
-          { en: "Data helps reduce electricity costs", es: "Los datos ayudan a reducir los costos de electricidad", de: "Daten helfen, Stromkosten zu reduzieren", nl: "Data helpt elektriciteitskosten te verlagen" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Machine learning algorithms need data to find patterns, learn relationships, and make accurate predictions - data is the fuel that powers AI systems.",
-          es: "Los algoritmos de aprendizaje automático necesitan datos para encontrar patrones, aprender relaciones y hacer predicciones precisas - los datos son el combustible que impulsa los sistemas de IA.",
-          de: "Maschinelle Lernalgorithmen benötigen Daten, um Muster zu finden, Beziehungen zu lernen und genaue Vorhersagen zu treffen - Daten sind der Treibstoff, der KI-Systeme antreibt.",
-          nl: "Machine learning algoritmes hebben data nodig om patronen te vinden, relaties te leren en nauwkeurige voorspellingen te maken - data is de brandstof die AI-systemen aandrijft."
-        }
-      },
-      {
-        question: {
-          en: "What is the main difference between traditional programming and machine learning?",
-          es: "¿Cuál es la principal diferencia entre programación tradicional y aprendizaje automático?",
-          de: "Was ist der Hauptunterschied zwischen traditioneller Programmierung und maschinellem Lernen?",
-          nl: "Wat is het hoofdverschil tussen traditionele programmering en machine learning?"
-        },
-        options: [
-          { en: "Traditional programming uses explicit rules, machine learning learns rules from data", es: "La programación tradicional usa reglas explícitas, el aprendizaje automático aprende reglas de los datos", de: "Traditionelle Programmierung verwendet explizite Regeln, maschinelles Lernen lernt Regeln aus Daten", nl: "Traditionele programmering gebruikt expliciete regels, machine learning leert regels uit data" },
-          { en: "Machine learning is always faster than traditional programming", es: "El aprendizaje automático siempre es más rápido que la programación tradicional", de: "Maschinelles Lernen ist immer schneller als traditionelle Programmierung", nl: "Machine learning is altijd sneller dan traditionele programmering" },
-          { en: "Traditional programming only works on old computers", es: "La programación tradicional solo funciona en computadoras viejas", de: "Traditionelle Programmierung funktioniert nur auf alten Computern", nl: "Traditionele programmering werkt alleen op oude computers" },
-          { en: "Machine learning doesn't use any programming", es: "El aprendizaje automático no usa ninguna programación", de: "Maschinelles Lernen verwendet keine Programmierung", nl: "Machine learning gebruikt geen programmering" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "In traditional programming, developers write specific rules and instructions. In machine learning, the system discovers rules and patterns automatically from data examples.",
-          es: "En programación tradicional, los desarrolladores escriben reglas e instrucciones específicas. En aprendizaje automático, el sistema descubre reglas y patrones automáticamente a partir de ejemplos de datos.",
-          de: "In der traditionellen Programmierung schreiben Entwickler spezifische Regeln und Anweisungen. Im maschinellen Lernen entdeckt das System automatisch Regeln und Muster aus Datenbeispielen.",
-          nl: "In traditionele programmering schrijven ontwikkelaars specifieke regels en instructies. In machine learning ontdekt het systeem automatisch regels en patronen uit data voorbeelden."
-        }
-      },
-      {
-        question: {
-          en: "What is a dataset in machine learning?",
-          es: "¿Qué es un conjunto de datos en aprendizaje automático?",
-          de: "Was ist ein Datensatz im maschinellen Lernen?",
-          nl: "Wat is een dataset in machine learning?"
-        },
-        options: [
-          { en: "A collection of data used to train or test AI models", es: "Una colección de datos utilizada para entrenar o probar modelos IA", de: "Eine Sammlung von Daten zum Trainieren oder Testen von KI-Modellen", nl: "Een verzameling data gebruikt om AI modellen te trainen of testen" },
-          { en: "A specific date and time setting", es: "Una configuración específica de fecha y hora", de: "Eine spezifische Datums- und Zeiteinstellung", nl: "Een specifieke datum en tijd instelling" },
-          { en: "A type of computer hardware", es: "Un tipo de hardware de computadora", de: "Eine Art Computerhardware", nl: "Een type computerhardware" },
-          { en: "A website for storing files", es: "Un sitio web para almacenar archivos", de: "Eine Website zum Speichern von Dateien", nl: "Een website voor het opslaan van bestanden" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "A dataset is a structured collection of data examples used to train, validate, or test machine learning models, like a collection of images for teaching an AI to recognize cats.",
-          es: "Un conjunto de datos es una colección estructurada de ejemplos de datos utilizada para entrenar, validar o probar modelos de aprendizaje automático, como una colección de imágenes para enseñar a una IA a reconocer gatos.",
-          de: "Ein Datensatz ist eine strukturierte Sammlung von Datenbeispielen, die zum Trainieren, Validieren oder Testen maschineller Lernmodelle verwendet wird, wie eine Sammlung von Bildern zum Lehren einer KI Katzen zu erkennen.",
-          nl: "Een dataset is een gestructureerde verzameling van data voorbeelden gebruikt om machine learning modellen te trainen, valideren of testen, zoals een verzameling afbeeldingen om een AI te leren katten te herkennen."
-        }
-      },
-      {
-        question: {
-          en: "Which company created Alexa?",
-          es: "¿Qué empresa creó Alexa?",
-          de: "Welches Unternehmen hat Alexa erschaffen?",
-          nl: "Welk bedrijf creëerde Alexa?"
-        },
-        options: [
-          { en: "Amazon", es: "Amazon", de: "Amazon", nl: "Amazon" },
-          { en: "Google", es: "Google", de: "Google", nl: "Google" },
-          { en: "Facebook", es: "Facebook", de: "Facebook", nl: "Facebook" },
-          { en: "Microsoft", es: "Microsoft", de: "Microsoft", nl: "Microsoft" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Amazon created Alexa, a voice-controlled virtual assistant launched in 2014, now used in millions of Echo devices worldwide.",
-          es: "Amazon creó Alexa, un asistente virtual controlado por voz lanzado en 2014, ahora utilizado en millones de dispositivos Echo en todo el mundo.",
-          de: "Amazon schuf Alexa, einen sprachgesteuerten virtuellen Assistenten, der 2014 gestartet wurde und jetzt in Millionen von Echo-Geräten weltweit verwendet wird.",
-          nl: "Amazon creëerde Alexa, een spraakgestuurde virtuele assistent gelanceerd in 2014, nu gebruikt in miljoenen Echo apparaten wereldwijd."
-        }
-      },
-      {
-        question: {
-          en: "What does it mean for a model to 'overfit'?",
-          es: "¿Qué significa que un modelo esté 'sobreajustado'?",
-          de: "Was bedeutet es, wenn ein Modell 'überanpasst'?",
-          nl: "Wat betekent het wanneer een model 'overfit'?"
-        },
-        options: [
-          { en: "Learning training data too well, performing poorly on new data", es: "Aprender los datos de entrenamiento demasiado bien, funcionando mal con datos nuevos", de: "Trainingsdaten zu gut lernen, schlecht bei neuen Daten funktionieren", nl: "Trainingsdata te goed leren, slecht presteren op nieuwe data" },
-          { en: "The model is too large to fit in memory", es: "El modelo es demasiado grande para caber en la memoria", de: "Das Modell ist zu groß um in den Speicher zu passen", nl: "Het model is te groot om in het geheugen te passen" },
-          { en: "The model runs too fast", es: "El modelo funciona demasiado rápido", de: "Das Modell läuft zu schnell", nl: "Het model draait te snel" },
-          { en: "The model is physically too big", es: "El modelo es físicamente demasiado grande", de: "Das Modell ist physisch zu groß", nl: "Het model is fysiek te groot" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Overfitting occurs when a model memorizes training data instead of learning general patterns, making it accurate on training data but poor at predicting new, unseen examples.",
-          es: "El sobreajuste ocurre cuando un modelo memoriza datos de entrenamiento en lugar de aprender patrones generales, haciéndolo preciso en datos de entrenamiento pero pobre prediciendo ejemplos nuevos y no vistos.",
-          de: "Überanpassung tritt auf wenn ein Modell Trainingsdaten auswendig lernt statt allgemeine Muster zu lernen, macht es genau bei Trainingsdaten aber schlecht beim Vorhersagen neuer, ungesehener Beispiele.",
-          nl: "Overfitting treedt op wanneer een model trainingsdata uit het hoofd leert in plaats van algemene patronen te leren, maakt het nauwkeurig op trainingsdata maar slecht in het voorspellen van nieuwe, ongeziene voorbeelden."
-        }
-      },
-      {
-        question: {
-          en: "What is a feature in machine learning?",
-          es: "¿Qué es una característica en aprendizaje automático?",
-          de: "Was ist ein Feature im maschinellen Lernen?",
-          nl: "Wat is een feature in machine learning?"
-        },
-        options: [
-          { en: "An individual measurable property used as input to a model", es: "Una propiedad medible individual usada como entrada a un modelo", de: "Eine einzelne messbare Eigenschaft als Eingabe für ein Modell", nl: "Een individuele meetbare eigenschap gebruikt als input voor een model" },
-          { en: "A special function of the software", es: "Una función especial del software", de: "Eine spezielle Funktion der Software", nl: "Een speciale functie van de software" },
-          { en: "The main selling point of AI", es: "El principal punto de venta de IA", de: "Das Hauptverkaufsargument von KI", nl: "Het belangrijkste verkooppunt van AI" },
-          { en: "A bug in the algorithm", es: "Un error en el algoritmo", de: "Ein Fehler im Algorithmus", nl: "Een bug in het algoritme" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Features are measurable characteristics or attributes of data used as inputs for ML models, like 'color', 'size', or 'weight' when identifying objects.",
-          es: "Las características son características o atributos medibles de datos utilizados como entradas para modelos ML, como 'color', 'tamaño' o 'peso' al identificar objetos.",
-          de: "Features sind messbare Merkmale oder Attribute von Daten die als Eingaben für ML-Modelle verwendet werden, wie 'Farbe', 'Größe' oder 'Gewicht' beim Identifizieren von Objekten.",
-          nl: "Features zijn meetbare kenmerken of attributen van data gebruikt als inputs voor ML modellen, zoals 'kleur', 'grootte' of 'gewicht' bij het identificeren van objecten."
-        }
-      },
-      {
-        question: {
-          en: "What is image recognition?",
-          es: "¿Qué es el reconocimiento de imágenes?",
-          de: "Was ist Bilderkennung?",
-          nl: "Wat is beeldherkenning?"
-        },
-        options: [
-          { en: "AI identifying objects, people, or scenes in images", es: "IA identificando objetos, personas o escenas en imágenes", de: "KI identifiziert Objekte, Personen oder Szenen in Bildern", nl: "AI identificeert objecten, mensen of scènes in afbeeldingen" },
-          { en: "Scanning images to reduce file size", es: "Escanear imágenes para reducir tamaño de archivo", de: "Bilder scannen um Dateigröße zu reduzieren", nl: "Afbeeldingen scannen om bestandsgrootte te verkleinen" },
-          { en: "Taking photos with a camera", es: "Tomar fotos con una cámara", de: "Fotos mit einer Kamera machen", nl: "Foto's maken met een camera" },
-          { en: "Editing images in software", es: "Editar imágenes en software", de: "Bilder in Software bearbeiten", nl: "Afbeeldingen bewerken in software" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Image recognition is a ML application that analyzes images to identify and classify objects, faces, text, or scenes, used in applications like facial recognition and self-driving cars.",
-          es: "El reconocimiento de imágenes es una aplicación ML que analiza imágenes para identificar y clasificar objetos, rostros, texto o escenas, utilizada en aplicaciones como reconocimiento facial y coches autónomos.",
-          de: "Bilderkennung ist eine ML-Anwendung die Bilder analysiert um Objekte, Gesichter, Text oder Szenen zu identifizieren und zu klassifizieren, verwendet in Anwendungen wie Gesichtserkennung und selbstfahrenden Autos.",
-          nl: "Beeldherkenning is een ML applicatie die afbeeldingen analyseert om objecten, gezichten, tekst of scènes te identificeren en classificeren, gebruikt in applicaties zoals gezichtsherkenning en zelfrijdende auto's."
-        }
-      },
-      {
-        question: {
-          en: "What is a label in supervised learning?",
-          es: "¿Qué es una etiqueta en aprendizaje supervisado?",
-          de: "Was ist ein Label im überwachten Lernen?",
-          nl: "Wat is een label in supervised learning?"
-        },
-        options: [
-          { en: "The correct answer associated with training data", es: "La respuesta correcta asociada con datos de entrenamiento", de: "Die korrekte Antwort verbunden mit Trainingsdaten", nl: "Het correcte antwoord geassocieerd met trainingsdata" },
-          { en: "A sticker on computer hardware", es: "Una etiqueta en hardware de computadora", de: "Ein Aufkleber auf Computerhardware", nl: "Een sticker op computerhardware" },
-          { en: "The name of the AI model", es: "El nombre del modelo IA", de: "Der Name des KI-Modells", nl: "De naam van het AI model" },
-          { en: "A tag for organizing files", es: "Una etiqueta para organizar archivos", de: "Ein Tag zum Organisieren von Dateien", nl: "Een tag voor het organiseren van bestanden" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "In supervised learning, labels are the correct answers or outcomes provided with training examples, like labeling images as 'cat' or 'dog' so the AI can learn to distinguish them.",
-          es: "En aprendizaje supervisado, las etiquetas son las respuestas correctas o resultados proporcionados con ejemplos de entrenamiento, como etiquetar imágenes como 'gato' o 'perro' para que la IA pueda aprender a distinguirlos.",
-          de: "Im überwachten Lernen sind Labels die korrekten Antworten oder Ergebnisse die mit Trainingsbeispielen bereitgestellt werden, wie Bilder als 'Katze' oder 'Hund' zu beschriften damit die KI lernen kann sie zu unterscheiden.",
-          nl: "In supervised learning zijn labels de correcte antwoorden of uitkomsten die bij trainingsvoorbeelden worden gegeven, zoals afbeeldingen labelen als 'kat' of 'hond' zodat de AI kan leren ze te onderscheiden."
-        }
-      },
-      {
-        question: {
-          en: "What is reinforcement learning?",
-          es: "¿Qué es el aprendizaje por refuerzo?",
-          de: "Was ist Verstärkungslernen?",
-          nl: "Wat is reinforcement learning?"
-        },
-        options: [
-          { en: "Learning through trial and error with rewards and penalties", es: "Aprender a través de prueba y error con recompensas y penalizaciones", de: "Lernen durch Versuch und Irrtum mit Belohnungen und Strafen", nl: "Leren door trial and error met beloningen en straffen" },
-          { en: "Reinforcing computer hardware", es: "Reforzar hardware de computadora", de: "Computerhardware verstärken", nl: "Computerhardware versterken" },
-          { en: "Learning only from correct examples", es: "Aprender solo de ejemplos correctos", de: "Nur von korrekten Beispielen lernen", nl: "Alleen leren van correcte voorbeelden" },
-          { en: "Repeating the same training multiple times", es: "Repetir el mismo entrenamiento múltiples veces", de: "Dasselbe Training mehrmals wiederholen", nl: "Dezelfde training meerdere keren herhalen" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Reinforcement learning trains AI by letting it take actions and learn from feedback in the form of rewards (for good actions) or penalties (for bad ones), similar to training a pet.",
-          es: "El aprendizaje por refuerzo entrena IA permitiéndole tomar acciones y aprender de retroalimentación en forma de recompensas (por acciones buenas) o penalizaciones (por malas), similar a entrenar una mascota.",
-          de: "Verstärkungslernen trainiert KI indem es Aktionen ausführen lässt und aus Feedback in Form von Belohnungen (für gute Aktionen) oder Strafen (für schlechte) lernt, ähnlich wie ein Haustier zu trainieren.",
-          nl: "Reinforcement learning traint AI door het acties te laten nemen en te leren van feedback in de vorm van beloningen (voor goede acties) of straffen (voor slechte), vergelijkbaar met het trainen van een huisdier."
-        }
-      },
-      {
-        question: {
-          en: "What is classification in machine learning?",
-          es: "¿Qué es la clasificación en aprendizaje automático?",
-          de: "Was ist Klassifizierung im maschinellen Lernen?",
-          nl: "Wat is classificatie in machine learning?"
-        },
-        options: [
-          { en: "Categorizing data into predefined groups or classes", es: "Categorizar datos en grupos o clases predefinidos", de: "Daten in vordefinierte Gruppen oder Klassen kategorisieren", nl: "Data categoriseren in voorgedefinieerde groepen of klassen" },
-          { en: "Organizing files in folders", es: "Organizar archivos en carpetas", de: "Dateien in Ordnern organisieren", nl: "Bestanden organiseren in mappen" },
-          { en: "Ranking items by importance", es: "Clasificar elementos por importancia", de: "Elemente nach Wichtigkeit ordnen", nl: "Items rangschikken op belangrijkheid" },
-          { en: "Giving secret clearance levels", es: "Dar niveles de autorización secreta", de: "Geheime Freigabestufen vergeben", nl: "Geheime machtigingsniveaus geven" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Classification is assigning input data to one of several predefined categories, like classifying emails as 'spam' or 'not spam', or identifying whether an image contains a cat or dog.",
-          es: "La clasificación es asignar datos de entrada a una de varias categorías predefinidas, como clasificar correos como 'spam' o 'no spam', o identificar si una imagen contiene un gato o perro.",
-          de: "Klassifizierung ist die Zuweisung von Eingabedaten zu einer von mehreren vordefinierten Kategorien, wie E-Mails als 'Spam' oder 'kein Spam' zu klassifizieren, oder zu identifizieren ob ein Bild eine Katze oder Hund enthält.",
-          nl: "Classificatie is het toewijzen van invoerdata aan een van meerdere voorgedefinieerde categorieën, zoals emails classificeren als 'spam' of 'geen spam', of identificeren of een afbeelding een kat of hond bevat."
-        }
-      },
-      {
-        question: {
-          en: "What is regression in machine learning?",
-          es: "¿Qué es la regresión en aprendizaje automático?",
-          de: "Was ist Regression im maschinellen Lernen?",
-          nl: "Wat is regressie in machine learning?"
-        },
-        options: [
-          { en: "Predicting continuous numerical values", es: "Predecir valores numéricos continuos", de: "Kontinuierliche numerische Werte vorhersagen", nl: "Continue numerieke waarden voorspellen" },
-          { en: "Going backwards in training", es: "Retroceder en el entrenamiento", de: "Rückwärts im Training gehen", nl: "Achteruit gaan in training" },
-          { en: "Removing errors from data", es: "Eliminar errores de los datos", de: "Fehler aus Daten entfernen", nl: "Fouten uit data verwijderen" },
-          { en: "Testing old algorithms", es: "Probar algoritmos antiguos", de: "Alte Algorithmen testen", nl: "Oude algoritmes testen" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Regression predicts continuous numerical values based on input data, like estimating house prices based on size and location, or forecasting tomorrow's temperature.",
-          es: "La regresión predice valores numéricos continuos basados en datos de entrada, como estimar precios de casas basados en tamaño y ubicación, o pronosticar la temperatura de mañana.",
-          de: "Regression sagt kontinuierliche numerische Werte basierend auf Eingabedaten vorher, wie Hauspreise basierend auf Größe und Lage zu schätzen, oder die Temperatur von morgen vorherzusagen.",
-          nl: "Regressie voorspelt continue numerieke waarden gebaseerd op invoerdata, zoals huisprijzen schatten gebaseerd op grootte en locatie, of de temperatuur van morgen voorspellen."
-        }
-      },
-      {
-        question: {
-          en: "What is clustering in machine learning?",
-          es: "¿Qué es el agrupamiento en aprendizaje automático?",
-          de: "Was ist Clustering im maschinellen Lernen?",
-          nl: "Wat is clustering in machine learning?"
-        },
-        options: [
-          { en: "Grouping similar data points together without predefined labels", es: "Agrupar puntos de datos similares sin etiquetas predefinidas", de: "Ähnliche Datenpunkte ohne vordefinierte Labels gruppieren", nl: "Vergelijkbare datapunten groeperen zonder voorgedefinieerde labels" },
-          { en: "Connecting multiple computers together", es: "Conectar múltiples computadoras juntas", de: "Mehrere Computer zusammenverbinden", nl: "Meerdere computers met elkaar verbinden" },
-          { en: "Organizing files by date created", es: "Organizar archivos por fecha de creación", de: "Dateien nach Erstellungsdatum organisieren", nl: "Bestanden organiseren op aanmaakdatum" },
-          { en: "Removing duplicate data", es: "Eliminar datos duplicados", de: "Doppelte Daten entfernen", nl: "Dubbele data verwijderen" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Clustering is an unsupervised learning technique that groups similar data points together based on their characteristics, like grouping customers with similar shopping habits for targeted marketing.",
-          es: "El agrupamiento es una técnica de aprendizaje no supervisado que agrupa puntos de datos similares basados en sus características, como agrupar clientes con hábitos de compra similares para marketing dirigido.",
-          de: "Clustering ist eine unüberwachte Lerntechnik die ähnliche Datenpunkte basierend auf ihren Merkmalen gruppiert, wie Kunden mit ähnlichen Einkaufsgewohnheiten für gezieltes Marketing zu gruppieren.",
-          nl: "Clustering is een unsupervised learning techniek die vergelijkbare datapunten groepeert gebaseerd op hun kenmerken, zoals klanten groeperen met vergelijkbare koopgewoonten voor gerichte marketing."
-        }
-      },
-      {
-        question: {
-          en: "Which of these is an example of AI in daily life?",
-          es: "¿Cuál de estos es un ejemplo de IA en la vida diaria?",
-          de: "Welches ist ein Beispiel für KI im Alltag?",
-          nl: "Welke hiervan is een voorbeeld van AI in het dagelijks leven?"
-        },
-        options: [
-          { en: "Netflix recommending movies based on viewing history", es: "Netflix recomendando películas basado en historial de visualización", de: "Netflix empfiehlt Filme basierend auf Sehgewohnheiten", nl: "Netflix die films aanbeveelt gebaseerd op kijkgeschiedenis" },
-          { en: "Using a microwave to heat food", es: "Usar un microondas para calentar comida", de: "Eine Mikrowelle zum Erhitzen von Essen verwenden", nl: "Een magnetron gebruiken om eten op te warmen" },
-          { en: "Writing with a pen and paper", es: "Escribir con pluma y papel", de: "Mit Stift und Papier schreiben", nl: "Schrijven met pen en papier" },
-          { en: "Making a phone call", es: "Hacer una llamada telefónica", de: "Einen Telefonanruf tätigen", nl: "Een telefoontje plegen" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Netflix uses machine learning algorithms to analyze your viewing patterns and preferences to suggest shows and movies you might enjoy, making it a practical daily AI application.",
-          es: "Netflix usa algoritmos de aprendizaje automático para analizar tus patrones de visualización y preferencias para sugerir programas y películas que podrías disfrutar, haciéndolo una aplicación práctica diaria de IA.",
-          de: "Netflix verwendet maschinelle Lernalgorithmen um deine Sehgewohnheiten und Vorlieben zu analysieren um Shows und Filme vorzuschlagen die dir gefallen könnten, macht es zu einer praktischen täglichen KI-Anwendung.",
-          nl: "Netflix gebruikt machine learning algoritmes om je kijkpatronen en voorkeuren te analyseren om shows en films voor te stellen die je misschien leuk vindt, maakt het een praktische dagelijkse AI applicatie."
-        }
-      },
-      {
-        question: {
-          en: "What does 'accuracy' mean in machine learning?",
-          es: "¿Qué significa 'precisión' en aprendizaje automático?",
-          de: "Was bedeutet 'Genauigkeit' im maschinellen Lernen?",
-          nl: "Wat betekent 'nauwkeurigheid' in machine learning?"
-        },
-        options: [
-          { en: "The percentage of correct predictions made by a model", es: "El porcentaje de predicciones correctas hechas por un modelo", de: "Der Prozentsatz korrekter Vorhersagen eines Modells", nl: "Het percentage correcte voorspellingen gemaakt door een model" },
-          { en: "How fast the model runs", es: "Qué tan rápido funciona el modelo", de: "Wie schnell das Modell läuft", nl: "Hoe snel het model draait" },
-          { en: "The size of the training data", es: "El tamaño de los datos de entrenamiento", de: "Die Größe der Trainingsdaten", nl: "De grootte van de trainingsdata" },
-          { en: "The complexity of the algorithm", es: "La complejidad del algoritmo", de: "Die Komplexität des Algorithmus", nl: "De complexiteit van het algoritme" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Accuracy measures how often the ML model makes correct predictions, calculated as the number of correct predictions divided by total predictions, typically expressed as a percentage.",
-          es: "La precisión mide con qué frecuencia el modelo ML hace predicciones correctas, calculada como el número de predicciones correctas dividido por predicciones totales, típicamente expresado como porcentaje.",
-          de: "Genauigkeit misst wie oft das ML-Modell korrekte Vorhersagen macht, berechnet als Anzahl korrekter Vorhersagen geteilt durch Gesamtvorhersagen, typischerweise als Prozentsatz ausgedrückt.",
-          nl: "Nauwkeurigheid meet hoe vaak het ML model correcte voorspellingen maakt, berekend als het aantal correcte voorspellingen gedeeld door totale voorspellingen, typisch uitgedrukt als percentage."
-        }
-      },
-      {
-        question: {
-          en: "What is natural language processing (NLP)?",
-          es: "¿Qué es el procesamiento del lenguaje natural (PLN)?",
-          de: "Was ist natürliche Sprachverarbeitung (NLP)?",
-          nl: "Wat is natuurlijke taalverwerking (NLP)?"
-        },
-        options: [
-          { en: "AI technology that helps computers understand human language", es: "Tecnología IA que ayuda a las computadoras a entender lenguaje humano", de: "KI-Technologie die Computern hilft menschliche Sprache zu verstehen", nl: "AI technologie die computers helpt menselijke taal te begrijpen" },
-          { en: "Processing images naturally", es: "Procesar imágenes naturalmente", de: "Bilder natürlich verarbeiten", nl: "Afbeeldingen natuurlijk verwerken" },
-          { en: "Learning programming languages", es: "Aprender lenguajes de programación", de: "Programmiersprachen lernen", nl: "Programmeertalen leren" },
-          { en: "Processing data faster", es: "Procesar datos más rápido", de: "Daten schneller verarbeiten", nl: "Data sneller verwerken" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "NLP enables computers to understand, interpret, and respond to human language in text or speech, powering applications like translation, chatbots, and voice assistants.",
-          es: "PLN permite a las computadoras entender, interpretar y responder al lenguaje humano en texto o habla, impulsando aplicaciones como traducción, chatbots y asistentes de voz.",
-          de: "NLP ermöglicht Computern menschliche Sprache in Text oder Sprache zu verstehen, interpretieren und darauf zu reagieren, treibt Anwendungen wie Übersetzung, Chatbots und Sprachassistenten an.",
-          nl: "NLP stelt computers in staat om menselijke taal in tekst of spraak te begrijpen, interpreteren en erop te reageren, drijft applicaties aan zoals vertaling, chatbots en spraakassistenten."
-        }
-      },
-      {
-        question: {
-          en: "What is a validation set used for?",
-          es: "¿Para qué se usa un conjunto de validación?",
-          de: "Wofür wird ein Validierungssatz verwendet?",
-          nl: "Waarvoor wordt een validatieset gebruikt?"
-        },
-        options: [
-          { en: "To tune model parameters during training", es: "Para ajustar parámetros del modelo durante el entrenamiento", de: "Zum Anpassen von Modellparametern während des Trainings", nl: "Om modelparameters aan te passen tijdens training" },
-          { en: "To validate user passwords", es: "Para validar contraseñas de usuario", de: "Zum Validieren von Benutzerpasswörtern", nl: "Om gebruikerswachtwoorden te valideren" },
-          { en: "To check if data is corrupted", es: "Para verificar si los datos están corruptos", de: "Zum Prüfen ob Daten beschädigt sind", nl: "Om te controleren of data beschadigd is" },
-          { en: "To approve the final model", es: "Para aprobar el modelo final", de: "Zum Genehmigen des finalen Modells", nl: "Om het finale model goed te keuren" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The validation set is used during model development to tune hyperparameters and prevent overfitting, helping select the best model before final testing on the test set.",
-          es: "El conjunto de validación se usa durante el desarrollo del modelo para ajustar hiperparámetros y prevenir sobreajuste, ayudando a seleccionar el mejor modelo antes de la prueba final en el conjunto de prueba.",
-          de: "Der Validierungssatz wird während der Modellentwicklung verwendet um Hyperparameter anzupassen und Überanpassung zu verhindern, hilft das beste Modell vor dem finalen Testen auf dem Testsatz auszuwählen.",
-          nl: "De validatieset wordt gebruikt tijdens modelontwikkeling om hyperparameters af te stellen en overfitting te voorkomen, helpt het beste model te selecteren voor finale testen op de testset."
-        }
-      },
-      {
-        question: {
-          en: "What is computer vision?",
-          es: "¿Qué es la visión por computadora?",
-          de: "Was ist Computer Vision?",
-          nl: "Wat is computer vision?"
-        },
-        options: [
-          { en: "AI field enabling computers to interpret visual information", es: "Campo IA que permite a las computadoras interpretar información visual", de: "KI-Feld das Computern ermöglicht visuelle Informationen zu interpretieren", nl: "AI gebied dat computers in staat stelt visuele informatie te interpreteren" },
-          { en: "Monitors and display screens", es: "Monitores y pantallas de visualización", de: "Monitore und Bildschirme", nl: "Monitors en beeldschermen" },
-          { en: "Software for video editing", es: "Software para edición de video", de: "Software für Videobearbeitung", nl: "Software voor videobewerking" },
-          { en: "Virtual reality headsets", es: "Cascos de realidad virtual", de: "Virtual-Reality-Headsets", nl: "Virtual reality headsets" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Computer vision teaches machines to 'see' and understand images and videos, enabling applications like facial recognition, autonomous vehicles, and medical image analysis.",
-          es: "La visión por computadora enseña a las máquinas a 'ver' y entender imágenes y videos, habilitando aplicaciones como reconocimiento facial, vehículos autónomos y análisis de imágenes médicas.",
-          de: "Computer Vision lehrt Maschinen zu 'sehen' und Bilder und Videos zu verstehen, ermöglicht Anwendungen wie Gesichtserkennung, autonome Fahrzeuge und medizinische Bildanalyse.",
-          nl: "Computer vision leert machines te 'zien' en afbeeldingen en video's te begrijpen, maakt applicaties mogelijk zoals gezichtsherkenning, autonome voertuigen en medische beeldanalyse."
-        }
-      },
-      {
-        question: {
-          en: "What is the purpose of data preprocessing?",
-          es: "¿Cuál es el propósito del preprocesamiento de datos?",
-          de: "Was ist der Zweck der Datenvorverarbeitung?",
-          nl: "Wat is het doel van data preprocessing?"
-        },
-        options: [
-          { en: "Cleaning and preparing data for better model performance", es: "Limpiar y preparar datos para mejor rendimiento del modelo", de: "Daten reinigen und vorbereiten für bessere Modellleistung", nl: "Data schoonmaken en voorbereiden voor betere modelprestaties" },
-          { en: "Processing data before it's collected", es: "Procesar datos antes de que sean recolectados", de: "Daten verarbeiten bevor sie gesammelt werden", nl: "Data verwerken voordat het verzameld wordt" },
-          { en: "Compressing data to save space", es: "Comprimir datos para ahorrar espacio", de: "Daten komprimieren um Platz zu sparen", nl: "Data comprimeren om ruimte te besparen" },
-          { en: "Backing up data before use", es: "Respaldar datos antes de usar", de: "Daten vor Verwendung sichern", nl: "Data back-uppen voor gebruik" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Data preprocessing transforms raw data into a clean, consistent format by handling missing values, removing outliers, and normalizing features, improving model training quality and accuracy.",
-          es: "El preprocesamiento de datos transforma datos brutos en un formato limpio y consistente manejando valores faltantes, eliminando valores atípicos y normalizando características, mejorando calidad y precisión del entrenamiento del modelo.",
-          de: "Datenvorverarbeitung transformiert Rohdaten in ein sauberes, konsistentes Format durch Behandlung fehlender Werte, Entfernung von Ausreißern und Normalisierung von Features, verbessert Modelltrainingsqualität und Genauigkeit.",
-          nl: "Data preprocessing transformeert ruwe data naar een schoon, consistent formaat door ontbrekende waarden te behandelen, uitschieters te verwijderen en features te normaliseren, verbetert modeltrainingskwaliteit en nauwkeurigheid."
-        }
-      },
-      {
-        question: {
-          en: "What is a model in machine learning?",
-          es: "¿Qué es un modelo en aprendizaje automático?",
-          de: "Was ist ein Modell im maschinellen Lernen?",
-          nl: "Wat is een model in machine learning?"
-        },
-        options: [
-          { en: "A mathematical representation trained to make predictions", es: "Una representación matemática entrenada para hacer predicciones", de: "Eine mathematische Darstellung trainiert um Vorhersagen zu machen", nl: "Een wiskundige representatie getraind om voorspellingen te maken" },
-          { en: "A physical replica of something", es: "Una réplica física de algo", de: "Eine physische Nachbildung von etwas", nl: "Een fysieke replica van iets" },
-          { en: "A perfect example to follow", es: "Un ejemplo perfecto a seguir", de: "Ein perfektes Beispiel zum Folgen", nl: "Een perfect voorbeeld om te volgen" },
-          { en: "A template for coding", es: "Una plantilla para codificar", de: "Eine Vorlage zum Codieren", nl: "Een sjabloon voor coderen" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "An ML model is the mathematical structure created through training that captures patterns in data and can make predictions on new inputs, like a trained spam detector or image classifier.",
-          es: "Un modelo ML es la estructura matemática creada a través del entrenamiento que captura patrones en datos y puede hacer predicciones en nuevas entradas, como un detector de spam entrenado o clasificador de imágenes.",
-          de: "Ein ML-Modell ist die mathematische Struktur die durch Training erstellt wird die Muster in Daten erfasst und Vorhersagen für neue Eingaben machen kann, wie ein trainierter Spam-Detektor oder Bildklassifikator.",
-          nl: "Een ML model is de wiskundige structuur gecreëerd door training die patronen in data vastlegt en voorspellingen kan maken op nieuwe inputs, zoals een getrainde spamdetector of beeldclassificator."
-        }
-      },
-      {
-        question: {
-          en: "What does 'training' mean in machine learning?",
-          es: "¿Qué significa 'entrenamiento' en aprendizaje automático?",
-          de: "Was bedeutet 'Training' im maschinellen Lernen?",
-          nl: "Wat betekent 'training' in machine learning?"
-        },
-        options: [
-          { en: "The process of teaching a model by feeding it data", es: "El proceso de enseñar a un modelo alimentándolo con datos", de: "Der Prozess ein Modell durch Füttern mit Daten zu lehren", nl: "Het proces van een model leren door het data te voeden" },
-          { en: "Physical exercise for programmers", es: "Ejercicio físico para programadores", de: "Körperliches Training für Programmierer", nl: "Fysieke training voor programmeurs" },
-          { en: "Teaching users how to use AI", es: "Enseñar a usuarios cómo usar IA", de: "Benutzern beibringen wie man KI verwendet", nl: "Gebruikers leren hoe AI te gebruiken" },
-          { en: "Installing software updates", es: "Instalar actualizaciones de software", de: "Software-Updates installieren", nl: "Software-updates installeren" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Training is the process where an ML algorithm learns from data by adjusting its internal parameters to minimize errors and improve its ability to make accurate predictions.",
-          es: "El entrenamiento es el proceso donde un algoritmo ML aprende de datos ajustando sus parámetros internos para minimizar errores y mejorar su capacidad para hacer predicciones precisas.",
-          de: "Training ist der Prozess bei dem ein ML-Algorithmus aus Daten lernt indem er seine internen Parameter anpasst um Fehler zu minimieren und seine Fähigkeit genaue Vorhersagen zu machen zu verbessern.",
-          nl: "Training is het proces waarbij een ML algoritme leert van data door zijn interne parameters aan te passen om fouten te minimaliseren en zijn vermogen om nauwkeurige voorspellingen te maken te verbeteren."
-        }
-      },
-      {
-        question: {
-          en: "What is Google Assistant?",
-          es: "¿Qué es Google Assistant?",
-          de: "Was ist Google Assistant?",
-          nl: "Wat is Google Assistant?"
-        },
-        options: [
-          { en: "An AI-powered virtual assistant by Google", es: "Un asistente virtual impulsado por IA de Google", de: "Ein KI-gestützter virtueller Assistent von Google", nl: "Een AI-aangedreven virtuele assistent van Google" },
-          { en: "A search engine", es: "Un motor de búsqueda", de: "Eine Suchmaschine", nl: "Een zoekmachine" },
-          { en: "A human employee at Google", es: "Un empleado humano en Google", de: "Ein menschlicher Mitarbeiter bei Google", nl: "Een menselijke medewerker bij Google" },
-          { en: "A web browser", es: "Un navegador web", de: "Ein Webbrowser", nl: "Een webbrowser" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Google Assistant is a voice-activated AI assistant developed by Google that can answer questions, control smart devices, set reminders, and perform various tasks through natural language interaction.",
-          es: "Google Assistant es un asistente IA activado por voz desarrollado por Google que puede responder preguntas, controlar dispositivos inteligentes, establecer recordatorios y realizar varias tareas a través de interacción en lenguaje natural.",
-          de: "Google Assistant ist ein sprachaktivierter KI-Assistent entwickelt von Google der Fragen beantworten, Smart Devices steuern, Erinnerungen setzen und verschiedene Aufgaben durch natürliche Sprachinteraktion ausführen kann.",
-          nl: "Google Assistant is een spraakgestuurde AI assistent ontwikkeld door Google die vragen kan beantwoorden, slimme apparaten kan besturen, herinneringen kan instellen en verschillende taken kan uitvoeren door natuurlijke taalinteractie."
-        }
-      },
-      {
-        question: {
-          en: "What is an example of bias in AI?",
-          es: "¿Qué es un ejemplo de sesgo en IA?",
-          de: "Was ist ein Beispiel für Voreingenommenheit in KI?",
-          nl: "Wat is een voorbeeld van bias in AI?"
-        },
-        options: [
-          { en: "A facial recognition system working better for some groups than others", es: "Un sistema de reconocimiento facial que funciona mejor para algunos grupos que otros", de: "Ein Gesichtserkennungssystem das für manche Gruppen besser funktioniert als für andere", nl: "Een gezichtsherkennungssysteem dat beter werkt voor sommige groepen dan anderen" },
-          { en: "A computer preferring one color over another", es: "Una computadora prefiriendo un color sobre otro", de: "Ein Computer der eine Farbe einer anderen vorzieht", nl: "Een computer die een kleur verkiest boven een andere" },
-          { en: "AI running faster on newer hardware", es: "IA funcionando más rápido en hardware más nuevo", de: "KI läuft schneller auf neuerer Hardware", nl: "AI draait sneller op nieuwere hardware" },
-          { en: "Different programming languages for AI", es: "Diferentes lenguajes de programación para IA", de: "Verschiedene Programmiersprachen für KI", nl: "Verschillende programmeertalen voor AI" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "AI bias occurs when a model performs differently for different groups, often because the training data doesn't equally represent all groups or contains historical biases.",
-          es: "El sesgo de IA ocurre cuando un modelo funciona de manera diferente para diferentes grupos, a menudo porque los datos de entrenamiento no representan igualmente a todos los grupos o contienen sesgos históricos.",
-          de: "KI-Voreingenommenheit tritt auf wenn ein Modell für verschiedene Gruppen unterschiedlich funktioniert, oft weil die Trainingsdaten nicht alle Gruppen gleich repräsentieren oder historische Vorurteile enthalten.",
-          nl: "AI bias treedt op wanneer een model anders presteert voor verschillende groepen, vaak omdat de trainingsdata niet alle groepen gelijk vertegenwoordigt of historische vooroordelen bevat."
-        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Machine learning is a type of AI where computers learn patterns from data without being explicitly programmed for each specific task.",
+        es: "El aprendizaje automático es un tipo de IA donde las computadoras aprenden patrones de datos sin ser programadas explícitamente para cada tarea.",
+        de: "Maschinelles Lernen ist eine Art von KI, bei der Computer Muster aus Daten lernen, ohne explizit für jede Aufgabe programmiert zu werden.",
+        nl: "Machine learning is een vorm van AI waarbij computers patronen leren uit data zonder expliciet geprogrammeerd te worden voor elke taak."
       }
-    ]
-  };
-
-  // Export for use in the quiz application
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level1;
-  } else if (typeof window !== 'undefined') {
-    window.level1 = level1;
-  }
-})();
+    },
+    {
+      question: {
+        en: "Which company developed ChatGPT?",
+        es: "¿Qué empresa desarrolló ChatGPT?",
+        de: "Welches Unternehmen entwickelte ChatGPT?",
+        nl: "Welk bedrijf ontwikkelde ChatGPT?"
+      },
+      options: [
+        {
+          en: "OpenAI",
+          es: "OpenAI",
+          de: "OpenAI",
+          nl: "OpenAI"
+        },
+        {
+          en: "Google",
+          es: "Google",
+          de: "Google",
+          nl: "Google"
+        },
+        {
+          en: "Microsoft",
+          es: "Microsoft",
+          de: "Microsoft",
+          nl: "Microsoft"
+        },
+        {
+          en: "Facebook",
+          es: "Facebook",
+          de: "Facebook",
+          nl: "Facebook"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "OpenAI developed ChatGPT, releasing it in November 2022. It's based on their GPT (Generative Pre-trained Transformer) technology.",
+        es: "OpenAI desarrolló ChatGPT, lanzándolo en noviembre de 2022. Se basa en su tecnología GPT (Generative Pre-trained Transformer).",
+        de: "OpenAI entwickelte ChatGPT und veröffentlichte es im November 2022. Es basiert auf ihrer GPT-Technologie.",
+        nl: "OpenAI ontwikkelde ChatGPT en lanceerde het in november 2022. Het is gebaseerd op hun GPT-technologie."
+      }
+    },
+    {
+      question: {
+        en: "What does AI stand for?",
+        es: "¿Qué significa IA?",
+        de: "Wofür steht KI?",
+        nl: "Waar staat AI voor?"
+      },
+      options: [
+        {
+          en: "Artificial Intelligence",
+          es: "Inteligencia Artificial",
+          de: "Künstliche Intelligenz",
+          nl: "Artificiële Intelligentie"
+        },
+        {
+          en: "Automatic Internet",
+          es: "Internet Automático",
+          de: "Automatisches Internet",
+          nl: "Automatisch Internet"
+        },
+        {
+          en: "Advanced Input",
+          es: "Entrada Avanzada",
+          de: "Erweiterte Eingabe",
+          nl: "Geavanceerde Input"
+        },
+        {
+          en: "Applied Information",
+          es: "Información Aplicada",
+          de: "Angewandte Information",
+          nl: "Toegepaste Informatie"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "AI stands for Artificial Intelligence - the simulation of human intelligence in machines programmed to think and learn like humans.",
+        es: "IA significa Inteligencia Artificial: la simulación de la inteligencia humana en máquinas programadas para pensar y aprender como humanos.",
+        de: "KI steht für Künstliche Intelligenz - die Simulation menschlicher Intelligenz in Maschinen, die programmiert sind zu denken und zu lernen.",
+        nl: "AI staat voor Artificiële Intelligentie - de simulatie van menselijke intelligentie in machines die geprogrammeerd zijn om te denken en leren."
+      }
+    },
+    {
+      question: {
+        en: "What is a neural network inspired by?",
+        es: "¿En qué se inspira una red neuronal?",
+        de: "Wovon ist ein neuronales Netzwerk inspiriert?",
+        nl: "Waarop is een neuraal netwerk geïnspireerd?"
+      },
+      options: [
+        {
+          en: "The human brain",
+          es: "El cerebro humano",
+          de: "Das menschliche Gehirn",
+          nl: "Het menselijk brein"
+        },
+        {
+          en: "Spider webs",
+          es: "Telas de araña",
+          de: "Spinnennetze",
+          nl: "Spinnenwebben"
+        },
+        {
+          en: "Computer circuits",
+          es: "Circuitos de computadora",
+          de: "Computerschaltkreise",
+          nl: "Computer circuits"
+        },
+        {
+          en: "The internet",
+          es: "El internet",
+          de: "Das Internet",
+          nl: "Het internet"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Neural networks are inspired by the human brain's structure, with interconnected nodes (neurons) that process and transmit information.",
+        es: "Las redes neuronales se inspiran en la estructura del cerebro humano, con nodos interconectados (neuronas) que procesan y transmiten información.",
+        de: "Neuronale Netze sind von der Struktur des menschlichen Gehirns inspiriert, mit verbundenen Knoten (Neuronen), die Informationen verarbeiten.",
+        nl: "Neurale netwerken zijn geïnspireerd op de structuur van het menselijk brein, met onderling verbonden knooppunten (neuronen) die informatie verwerken."
+      }
+    },
+    {
+      question: {
+        en: "What is supervised learning?",
+        es: "¿Qué es el aprendizaje supervisado?",
+        de: "Was ist überwachtes Lernen?",
+        nl: "Wat is supervised learning?"
+      },
+      options: [
+        {
+          en: "Learning with labeled data",
+          es: "Aprender con datos etiquetados",
+          de: "Lernen mit beschrifteten Daten",
+          nl: "Leren met gelabelde data"
+        },
+        {
+          en: "Learning without any data",
+          es: "Aprender sin datos",
+          de: "Lernen ohne Daten",
+          nl: "Leren zonder data"
+        },
+        {
+          en: "Learning by watching videos",
+          es: "Aprender viendo videos",
+          de: "Lernen durch Videos schauen",
+          nl: "Leren door video's kijken"
+        },
+        {
+          en: "Learning with a teacher present",
+          es: "Aprender con un profesor presente",
+          de: "Lernen mit einem anwesenden Lehrer",
+          nl: "Leren met een leraar aanwezig"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Supervised learning uses labeled training data where the correct answers are provided, helping the model learn to make predictions.",
+        es: "El aprendizaje supervisado usa datos de entrenamiento etiquetados donde se proporcionan las respuestas correctas, ayudando al modelo a aprender.",
+        de: "Überwachtes Lernen verwendet beschriftete Trainingsdaten, bei denen die richtigen Antworten bereitgestellt werden.",
+        nl: "Supervised learning gebruikt gelabelde trainingsdata waarbij de juiste antwoorden worden gegeven, zodat het model leert voorspellingen te maken."
+      }
+    },
+    {
+      question: {
+        en: "What is the main goal of machine learning?",
+        es: "¿Cuál es el objetivo principal del aprendizaje automático?",
+        de: "Was ist das Hauptziel des maschinellen Lernens?",
+        nl: "Wat is het hoofddoel van machine learning?"
+      },
+      options: [
+        {
+          en: "Make predictions from patterns",
+          es: "Hacer predicciones desde patrones",
+          de: "Vorhersagen aus Mustern machen",
+          nl: "Voorspellingen maken uit patronen"
+        },
+        {
+          en: "Replace all human jobs",
+          es: "Reemplazar todos los trabajos humanos",
+          de: "Alle menschlichen Jobs ersetzen",
+          nl: "Alle menselijke banen vervangen"
+        },
+        {
+          en: "Create robots",
+          es: "Crear robots",
+          de: "Roboter erschaffen",
+          nl: "Robots maken"
+        },
+        {
+          en: "Speed up internet",
+          es: "Acelerar el internet",
+          de: "Internet beschleunigen",
+          nl: "Internet versnellen"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The main goal of machine learning is to enable computers to identify patterns in data and make accurate predictions or decisions without explicit programming.",
+        es: "El objetivo principal del aprendizaje automático es permitir que las computadoras identifiquen patrones en datos y hagan predicciones precisas.",
+        de: "Das Hauptziel des maschinellen Lernens ist es, Computern zu ermöglichen, Muster in Daten zu erkennen und genaue Vorhersagen zu treffen.",
+        nl: "Het hoofddoel van machine learning is om computers patronen in data te laten herkennen en accurate voorspellingen te maken zonder expliciete programmering."
+      }
+    },
+    {
+      question: {
+        en: "Which is an example of machine learning in daily life?",
+        es: "¿Cuál es un ejemplo de aprendizaje automático en la vida diaria?",
+        de: "Was ist ein Beispiel für maschinelles Lernen im Alltag?",
+        nl: "Wat is een voorbeeld van machine learning in het dagelijks leven?"
+      },
+      options: [
+        {
+          en: "Email spam filters",
+          es: "Filtros de spam de correo",
+          de: "E-Mail-Spamfilter",
+          nl: "Email spamfilters"
+        },
+        {
+          en: "Using a calculator",
+          es: "Usar una calculadora",
+          de: "Einen Taschenrechner benutzen",
+          nl: "Een rekenmachine gebruiken"
+        },
+        {
+          en: "Turning on a light",
+          es: "Encender una luz",
+          de: "Ein Licht einschalten",
+          nl: "Een lamp aanzetten"
+        },
+        {
+          en: "Opening a door",
+          es: "Abrir una puerta",
+          de: "Eine Tür öffnen",
+          nl: "Een deur openen"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Email spam filters use machine learning to identify and block unwanted emails by learning from patterns in millions of spam messages.",
+        es: "Los filtros de spam usan aprendizaje automático para identificar y bloquear correos no deseados aprendiendo de patrones en millones de mensajes.",
+        de: "E-Mail-Spamfilter verwenden maschinelles Lernen, um unerwünschte E-Mails zu identifizieren, indem sie aus Mustern in Millionen von Spam-Nachrichten lernen.",
+        nl: "Email spamfilters gebruiken machine learning om ongewenste emails te identificeren door te leren van patronen in miljoenen spamberichten."
+      }
+    },
+    {
+      question: {
+        en: "What type of data do computers need to learn?",
+        es: "¿Qué tipo de datos necesitan las computadoras para aprender?",
+        de: "Welche Art von Daten benötigen Computer zum Lernen?",
+        nl: "Welk type data hebben computers nodig om te leren?"
+      },
+      options: [
+        {
+          en: "Digital data (numbers, text, images)",
+          es: "Datos digitales (números, texto, imágenes)",
+          de: "Digitale Daten (Zahlen, Text, Bilder)",
+          nl: "Digitale data (getallen, tekst, afbeeldingen)"
+        },
+        {
+          en: "Only printed books",
+          es: "Solo libros impresos",
+          de: "Nur gedruckte Bücher",
+          nl: "Alleen gedrukte boeken"
+        },
+        {
+          en: "Physical objects only",
+          es: "Solo objetos físicos",
+          de: "Nur physische Objekte",
+          nl: "Alleen fysieke objecten"
+        },
+        {
+          en: "Human thoughts directly",
+          es: "Pensamientos humanos directamente",
+          de: "Menschliche Gedanken direkt",
+          nl: "Menselijke gedachten direct"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Computers need digital data like numbers, text, images, or sounds that can be processed. This data must be converted to a format computers understand.",
+        es: "Las computadoras necesitan datos digitales como números, texto, imágenes o sonidos que puedan ser procesados en un formato que entiendan.",
+        de: "Computer benötigen digitale Daten wie Zahlen, Text, Bilder oder Töne, die verarbeitet werden können.",
+        nl: "Computers hebben digitale data nodig zoals getallen, tekst, afbeeldingen of geluid die verwerkt kunnen worden in een formaat dat ze begrijpen."
+      }
+    },
+    {
+      question: {
+        en: "What is a dataset?",
+        es: "¿Qué es un conjunto de datos?",
+        de: "Was ist ein Datensatz?",
+        nl: "Wat is een dataset?"
+      },
+      options: [
+        {
+          en: "A collection of data for training",
+          es: "Una colección de datos para entrenar",
+          de: "Eine Sammlung von Daten zum Trainieren",
+          nl: "Een verzameling data voor training"
+        },
+        {
+          en: "A computer program",
+          es: "Un programa de computadora",
+          de: "Ein Computerprogramm",
+          nl: "Een computerprogramma"
+        },
+        {
+          en: "A type of computer",
+          es: "Un tipo de computadora",
+          de: "Ein Computertyp",
+          nl: "Een type computer"
+        },
+        {
+          en: "An internet website",
+          es: "Un sitio web de internet",
+          de: "Eine Internetwebsite",
+          nl: "Een internetwebsite"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A dataset is a collection of data used to train machine learning models. It contains examples the model learns from to make predictions.",
+        es: "Un conjunto de datos es una colección de datos utilizada para entrenar modelos de aprendizaje automático con ejemplos para hacer predicciones.",
+        de: "Ein Datensatz ist eine Sammlung von Daten, die zum Trainieren von Machine-Learning-Modellen verwendet wird.",
+        nl: "Een dataset is een verzameling data die gebruikt wordt om machine learning modellen te trainen met voorbeelden om voorspellingen te maken."
+      }
+    },
+    {
+      question: {
+        en: "What is image recognition?",
+        es: "¿Qué es el reconocimiento de imágenes?",
+        de: "Was ist Bilderkennung?",
+        nl: "Wat is beeldherkenning?"
+      },
+      options: [
+        {
+          en: "AI identifying objects in pictures",
+          es: "IA identificando objetos en imágenes",
+          de: "KI identifiziert Objekte in Bildern",
+          nl: "AI die objecten in afbeeldingen identificeert"
+        },
+        {
+          en: "Taking photos with a camera",
+          es: "Tomar fotos con una cámara",
+          de: "Fotos mit einer Kamera machen",
+          nl: "Foto's maken met een camera"
+        },
+        {
+          en: "Drawing pictures",
+          es: "Dibujar imágenes",
+          de: "Bilder zeichnen",
+          nl: "Afbeeldingen tekenen"
+        },
+        {
+          en: "Printing images",
+          es: "Imprimir imágenes",
+          de: "Bilder drucken",
+          nl: "Afbeeldingen printen"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Image recognition is when AI analyzes visual data to identify and classify objects, faces, text, or scenes in images automatically.",
+        es: "El reconocimiento de imágenes es cuando la IA analiza datos visuales para identificar y clasificar objetos, caras, texto o escenas automáticamente.",
+        de: "Bilderkennung ist, wenn KI visuelle Daten analysiert, um Objekte, Gesichter, Text oder Szenen in Bildern automatisch zu identifizieren.",
+        nl: "Beeldherkenning is wanneer AI visuele data analyseert om objecten, gezichten, tekst of scènes in afbeeldingen automatisch te identificeren."
+      }
+    },
+    {
+      question: {
+        en: "What does 'training' mean in machine learning?",
+        es: "¿Qué significa 'entrenar' en aprendizaje automático?",
+        de: "Was bedeutet 'Training' im maschinellen Lernen?",
+        nl: "Wat betekent 'trainen' in machine learning?"
+      },
+      options: [
+        {
+          en: "Teaching the model with examples",
+          es: "Enseñar al modelo con ejemplos",
+          de: "Das Modell mit Beispielen lehren",
+          nl: "Het model leren met voorbeelden"
+        },
+        {
+          en: "Physical exercise for robots",
+          es: "Ejercicio físico para robots",
+          de: "Körperliche Übung für Roboter",
+          nl: "Fysieke oefening voor robots"
+        },
+        {
+          en: "Installing software",
+          es: "Instalar software",
+          de: "Software installieren",
+          nl: "Software installeren"
+        },
+        {
+          en: "Buying new computers",
+          es: "Comprar computadoras nuevas",
+          de: "Neue Computer kaufen",
+          nl: "Nieuwe computers kopen"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Training in ML means feeding data to an algorithm so it can learn patterns and improve its ability to make accurate predictions.",
+        es: "Entrenar en ML significa alimentar datos a un algoritmo para que pueda aprender patrones y mejorar su capacidad de hacer predicciones precisas.",
+        de: "Training im ML bedeutet, einem Algorithmus Daten zu geben, damit er Muster lernen und seine Vorhersagefähigkeit verbessern kann.",
+        nl: "Trainen in ML betekent data voeden aan een algoritme zodat het patronen kan leren en zijn vermogen om accurate voorspellingen te maken kan verbeteren."
+      }
+    },
+    {
+      question: {
+        en: "Which company created Alexa?",
+        es: "¿Qué empresa creó Alexa?",
+        de: "Welches Unternehmen hat Alexa erstellt?",
+        nl: "Welk bedrijf creëerde Alexa?"
+      },
+      options: [
+        {
+          en: "Amazon",
+          es: "Amazon",
+          de: "Amazon",
+          nl: "Amazon"
+        },
+        {
+          en: "Apple",
+          es: "Apple",
+          de: "Apple",
+          nl: "Apple"
+        },
+        {
+          en: "Google",
+          es: "Google",
+          de: "Google",
+          nl: "Google"
+        },
+        {
+          en: "Microsoft",
+          es: "Microsoft",
+          de: "Microsoft",
+          nl: "Microsoft"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Amazon created Alexa, their virtual assistant AI that uses natural language processing to respond to voice commands and questions.",
+        es: "Amazon creó Alexa, su asistente virtual de IA que usa procesamiento de lenguaje natural para responder a comandos y preguntas de voz.",
+        de: "Amazon hat Alexa erstellt, ihren virtuellen KI-Assistenten, der natürliche Sprachverarbeitung verwendet, um auf Sprachbefehle zu reagieren.",
+        nl: "Amazon creëerde Alexa, hun virtuele AI-assistent die natuurlijke taalverwerking gebruikt om op spraakcommando's en vragen te reageren."
+      }
+    },
+    {
+      question: {
+        en: "What is a chatbot?",
+        es: "¿Qué es un chatbot?",
+        de: "Was ist ein Chatbot?",
+        nl: "Wat is een chatbot?"
+      },
+      options: [
+        {
+          en: "AI that can have text conversations",
+          es: "IA que puede tener conversaciones de texto",
+          de: "KI, die Textgespräche führen kann",
+          nl: "AI die tekstgesprekken kan voeren"
+        },
+        {
+          en: "A robot that walks",
+          es: "Un robot que camina",
+          de: "Ein Roboter, der läuft",
+          nl: "Een robot die loopt"
+        },
+        {
+          en: "A computer virus",
+          es: "Un virus informático",
+          de: "Ein Computervirus",
+          nl: "Een computervirus"
+        },
+        {
+          en: "A social media platform",
+          es: "Una plataforma de redes sociales",
+          de: "Eine Social-Media-Plattform",
+          nl: "Een sociaal media platform"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A chatbot is an AI program designed to simulate human conversation through text or voice, often used for customer service or assistance.",
+        es: "Un chatbot es un programa de IA diseñado para simular conversaciones humanas a través de texto o voz, usado para servicio al cliente.",
+        de: "Ein Chatbot ist ein KI-Programm, das menschliche Konversation durch Text oder Sprache simuliert, oft für Kundenservice verwendet.",
+        nl: "Een chatbot is een AI-programma ontworpen om menselijke conversatie te simuleren via tekst of spraak, vaak gebruikt voor klantenservice."
+      }
+    },
+    {
+      question: {
+        en: "What does a recommendation system do?",
+        es: "¿Qué hace un sistema de recomendación?",
+        de: "Was macht ein Empfehlungssystem?",
+        nl: "Wat doet een aanbevelingssysteem?"
+      },
+      options: [
+        {
+          en: "Suggests content based on preferences",
+          es: "Sugiere contenido basado en preferencias",
+          de: "Schlägt Inhalte basierend auf Präferenzen vor",
+          nl: "Suggereert content op basis van voorkeuren"
+        },
+        {
+          en: "Blocks all advertisements",
+          es: "Bloquea todos los anuncios",
+          de: "Blockiert alle Werbungen",
+          nl: "Blokkeert alle advertenties"
+        },
+        {
+          en: "Deletes old files",
+          es: "Elimina archivos antiguos",
+          de: "Löscht alte Dateien",
+          nl: "Verwijdert oude bestanden"
+        },
+        {
+          en: "Speeds up computer",
+          es: "Acelera la computadora",
+          de: "Beschleunigt den Computer",
+          nl: "Versnelt de computer"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Recommendation systems analyze user behavior and preferences to suggest relevant content, products, or services, like Netflix movie suggestions.",
+        es: "Los sistemas de recomendación analizan el comportamiento del usuario para sugerir contenido relevante, como las sugerencias de Netflix.",
+        de: "Empfehlungssysteme analysieren Nutzerverhalten, um relevante Inhalte, Produkte oder Dienste vorzuschlagen, wie Netflix-Filmvorschläge.",
+        nl: "Aanbevelingssystemen analyseren gebruikersgedrag en voorkeuren om relevante content, producten of diensten voor te stellen, zoals Netflix-suggesties."
+      }
+    },
+    {
+      question: {
+        en: "What is facial recognition used for?",
+        es: "¿Para qué se usa el reconocimiento facial?",
+        de: "Wofür wird Gesichtserkennung verwendet?",
+        nl: "Waarvoor wordt gezichtsherkenning gebruikt?"
+      },
+      options: [
+        {
+          en: "Unlocking phones and security",
+          es: "Desbloquear teléfonos y seguridad",
+          de: "Telefone entsperren und Sicherheit",
+          nl: "Telefoons ontgrendelen en beveiliging"
+        },
+        {
+          en: "Making phone calls",
+          es: "Hacer llamadas telefónicas",
+          de: "Telefonanrufe tätigen",
+          nl: "Telefoongesprekken voeren"
+        },
+        {
+          en: "Charging batteries",
+          es: "Cargar baterías",
+          de: "Batterien aufladen",
+          nl: "Batterijen opladen"
+        },
+        {
+          en: "Sending emails",
+          es: "Enviar correos electrónicos",
+          de: "E-Mails senden",
+          nl: "Emails versturen"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Facial recognition identifies people by analyzing facial features. It's used for security, unlocking devices, and identity verification.",
+        es: "El reconocimiento facial identifica personas analizando características faciales. Se usa para seguridad y verificación de identidad.",
+        de: "Gesichtserkennung identifiziert Personen durch Analyse von Gesichtsmerkmalen. Sie wird für Sicherheit und Identitätsverifizierung verwendet.",
+        nl: "Gezichtsherkenning identificeert mensen door gezichtskenmerken te analyseren. Het wordt gebruikt voor beveiliging en identiteitsverificatie."
+      }
+    },
+    {
+      question: {
+        en: "What language is commonly used for machine learning?",
+        es: "¿Qué lenguaje se usa comúnmente para aprendizaje automático?",
+        de: "Welche Sprache wird häufig für maschinelles Lernen verwendet?",
+        nl: "Welke taal wordt vaak gebruikt voor machine learning?"
+      },
+      options: [
+        {
+          en: "Python",
+          es: "Python",
+          de: "Python",
+          nl: "Python"
+        },
+        {
+          en: "Spanish",
+          es: "Español",
+          de: "Spanisch",
+          nl: "Spaans"
+        },
+        {
+          en: "HTML",
+          es: "HTML",
+          de: "HTML",
+          nl: "HTML"
+        },
+        {
+          en: "English",
+          es: "Inglés",
+          de: "Englisch",
+          nl: "Engels"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Python is the most popular programming language for machine learning due to its simplicity and powerful libraries like TensorFlow and PyTorch.",
+        es: "Python es el lenguaje de programación más popular para aprendizaje automático debido a su simplicidad y bibliotecas como TensorFlow.",
+        de: "Python ist die beliebteste Programmiersprache für maschinelles Lernen aufgrund seiner Einfachheit und Bibliotheken wie TensorFlow.",
+        nl: "Python is de meest populaire programmeertaal voor machine learning vanwege zijn eenvoud en krachtige libraries zoals TensorFlow."
+      }
+    },
+    {
+      question: {
+        en: "What can AI do with speech?",
+        es: "¿Qué puede hacer la IA con el habla?",
+        de: "Was kann KI mit Sprache machen?",
+        nl: "Wat kan AI met spraak doen?"
+      },
+      options: [
+        {
+          en: "Convert speech to text and vice versa",
+          es: "Convertir voz a texto y viceversa",
+          de: "Sprache in Text umwandeln und umgekehrt",
+          nl: "Spraak naar tekst converteren en andersom"
+        },
+        {
+          en: "Only record sounds",
+          es: "Solo grabar sonidos",
+          de: "Nur Töne aufnehmen",
+          nl: "Alleen geluiden opnemen"
+        },
+        {
+          en: "Make people speak faster",
+          es: "Hacer que la gente hable más rápido",
+          de: "Menschen schneller sprechen lassen",
+          nl: "Mensen sneller laten praten"
+        },
+        {
+          en: "Delete all audio files",
+          es: "Eliminar todos los archivos de audio",
+          de: "Alle Audiodateien löschen",
+          nl: "Alle audiobestanden verwijderen"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "AI can recognize speech and convert it to text (speech recognition) or convert text to natural-sounding speech (text-to-speech synthesis).",
+        es: "La IA puede reconocer el habla y convertirla en texto o convertir texto en habla que suena natural.",
+        de: "KI kann Sprache erkennen und in Text umwandeln oder Text in natürlich klingende Sprache umwandeln.",
+        nl: "AI kan spraak herkennen en converteren naar tekst (spraakherkenning) of tekst omzetten naar natuurlijk klinkende spraak."
+      }
+    },
+    {
+      question: {
+        en: "What is Google Assistant?",
+        es: "¿Qué es Google Assistant?",
+        de: "Was ist Google Assistant?",
+        nl: "Wat is Google Assistant?"
+      },
+      options: [
+        {
+          en: "An AI virtual assistant",
+          es: "Un asistente virtual de IA",
+          de: "Ein virtueller KI-Assistent",
+          nl: "Een AI virtuele assistent"
+        },
+        {
+          en: "A search engine only",
+          es: "Solo un motor de búsqueda",
+          de: "Nur eine Suchmaschine",
+          nl: "Alleen een zoekmachine"
+        },
+        {
+          en: "An email program",
+          es: "Un programa de correo",
+          de: "Ein E-Mail-Programm",
+          nl: "Een emailprogramma"
+        },
+        {
+          en: "A video game",
+          es: "Un videojuego",
+          de: "Ein Videospiel",
+          nl: "Een videogame"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Google Assistant is an AI-powered virtual assistant that can answer questions, control smart devices, and perform tasks through voice commands.",
+        es: "Google Assistant es un asistente virtual con IA que puede responder preguntas, controlar dispositivos y realizar tareas mediante comandos de voz.",
+        de: "Google Assistant ist ein KI-gesteuerter virtueller Assistent, der Fragen beantworten und Aufgaben durch Sprachbefehle ausführen kann.",
+        nl: "Google Assistant is een AI-aangedreven virtuele assistent die vragen kan beantwoorden en taken kan uitvoeren via spraakcommando's."
+      }
+    },
+    {
+      question: {
+        en: "What is predictive text?",
+        es: "¿Qué es el texto predictivo?",
+        de: "Was ist prädiktiver Text?",
+        nl: "Wat is voorspellende tekst?"
+      },
+      options: [
+        {
+          en: "AI suggesting next words while typing",
+          es: "IA sugiriendo palabras mientras escribes",
+          de: "KI schlägt Wörter beim Tippen vor",
+          nl: "AI die woorden voorstelt tijdens het typen"
+        },
+        {
+          en: "Reading future events",
+          es: "Leer eventos futuros",
+          de: "Zukünftige Ereignisse lesen",
+          nl: "Toekomstige gebeurtenissen lezen"
+        },
+        {
+          en: "Printing text on paper",
+          es: "Imprimir texto en papel",
+          de: "Text auf Papier drucken",
+          nl: "Tekst op papier printen"
+        },
+        {
+          en: "Deleting old messages",
+          es: "Eliminar mensajes antiguos",
+          de: "Alte Nachrichten löschen",
+          nl: "Oude berichten verwijderen"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Predictive text uses AI to suggest the next word or complete sentences based on what you're typing, making texting faster and easier.",
+        es: "El texto predictivo usa IA para sugerir la siguiente palabra o completar oraciones basándose en lo que escribes, haciendo el texto más rápido.",
+        de: "Prädiktiver Text verwendet KI, um das nächste Wort vorzuschlagen oder Sätze zu vervollständigen, basierend auf dem, was Sie tippen.",
+        nl: "Voorspellende tekst gebruikt AI om het volgende woord voor te stellen of zinnen af te maken op basis van wat je typt."
+      }
+    },
+    {
+      question: {
+        en: "What is the purpose of AI in games?",
+        es: "¿Cuál es el propósito de la IA en juegos?",
+        de: "Was ist der Zweck von KI in Spielen?",
+        nl: "Wat is het doel van AI in games?"
+      },
+      options: [
+        {
+          en: "Control non-player characters",
+          es: "Controlar personajes no jugadores",
+          de: "Nicht-Spieler-Charaktere steuern",
+          nl: "Non-player characters besturen"
+        },
+        {
+          en: "Turn off the game",
+          es: "Apagar el juego",
+          de: "Das Spiel ausschalten",
+          nl: "Het spel uitzetten"
+        },
+        {
+          en: "Charge the controller",
+          es: "Cargar el control",
+          de: "Den Controller aufladen",
+          nl: "De controller opladen"
+        },
+        {
+          en: "Print game scores",
+          es: "Imprimir puntuaciones",
+          de: "Spielstände drucken",
+          nl: "Spelscores printen"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "AI in games controls non-player characters (NPCs), making them behave intelligently and react to player actions for more realistic gameplay.",
+        es: "La IA en juegos controla personajes no jugadores (NPCs), haciéndolos comportarse inteligentemente y reaccionar a las acciones del jugador.",
+        de: "KI in Spielen steuert Nicht-Spieler-Charaktere (NPCs), damit sie intelligent handeln und auf Spieleraktionen reagieren.",
+        nl: "AI in games bestuurt non-player characters (NPCs), zodat ze intelligent gedragen en reageren op speleracties voor realistischer gameplay."
+      }
+    },
+    {
+      question: {
+        en: "What is Siri?",
+        es: "¿Qué es Siri?",
+        de: "Was ist Siri?",
+        nl: "Wat is Siri?"
+      },
+      options: [
+        {
+          en: "Apple's virtual assistant",
+          es: "El asistente virtual de Apple",
+          de: "Apples virtueller Assistent",
+          nl: "Apple's virtuele assistent"
+        },
+        {
+          en: "A computer virus",
+          es: "Un virus informático",
+          de: "Ein Computervirus",
+          nl: "Een computervirus"
+        },
+        {
+          en: "A web browser",
+          es: "Un navegador web",
+          de: "Ein Webbrowser",
+          nl: "Een webbrowser"
+        },
+        {
+          en: "A programming language",
+          es: "Un lenguaje de programación",
+          de: "Eine Programmiersprache",
+          nl: "Een programmeertaal"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Siri is Apple's AI-powered virtual assistant, available on iPhones, iPads, and Macs, responding to voice commands and questions.",
+        es: "Siri es el asistente virtual con IA de Apple, disponible en iPhones, iPads y Macs, que responde a comandos y preguntas de voz.",
+        de: "Siri ist Apples KI-gesteuerter virtueller Assistent, verfügbar auf iPhones, iPads und Macs, der auf Sprachbefehle reagiert.",
+        nl: "Siri is Apple's AI-aangedreven virtuele assistent, beschikbaar op iPhones, iPads en Macs, die reageert op spraakcommando's."
+      }
+    },
+    {
+      question: {
+        en: "What does ML stand for?",
+        es: "¿Qué significa ML?",
+        de: "Wofür steht ML?",
+        nl: "Waar staat ML voor?"
+      },
+      options: [
+        {
+          en: "Machine Learning",
+          es: "Aprendizaje Automático",
+          de: "Maschinelles Lernen",
+          nl: "Machine Learning"
+        },
+        {
+          en: "Mobile Link",
+          es: "Enlace Móvil",
+          de: "Mobiler Link",
+          nl: "Mobiele Link"
+        },
+        {
+          en: "Main Language",
+          es: "Lenguaje Principal",
+          de: "Hauptsprache",
+          nl: "Hoofdtaal"
+        },
+        {
+          en: "Maximum Level",
+          es: "Nivel Máximo",
+          de: "Maximale Stufe",
+          nl: "Maximum Level"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "ML stands for Machine Learning, a subset of AI where computers learn from data to improve their performance on tasks without explicit programming.",
+        es: "ML significa Aprendizaje Automático, un subconjunto de IA donde las computadoras aprenden de datos para mejorar su rendimiento.",
+        de: "ML steht für Maschinelles Lernen, ein Teilbereich der KI, bei dem Computer aus Daten lernen, um ihre Leistung zu verbessern.",
+        nl: "ML staat voor Machine Learning, een subset van AI waarbij computers leren van data om hun prestaties te verbeteren zonder expliciete programmering."
+      }
+    },
+    {
+      question: {
+        en: "What type of AI is in smart speakers?",
+        es: "¿Qué tipo de IA hay en altavoces inteligentes?",
+        de: "Welche Art von KI ist in Smart-Lautsprechern?",
+        nl: "Welk type AI zit in slimme speakers?"
+      },
+      options: [
+        {
+          en: "Voice recognition and natural language",
+          es: "Reconocimiento de voz y lenguaje natural",
+          de: "Spracherkennung und natürliche Sprache",
+          nl: "Spraakherkenning en natuurlijke taal"
+        },
+        {
+          en: "Only music playing",
+          es: "Solo reproducir música",
+          de: "Nur Musik abspielen",
+          nl: "Alleen muziek afspelen"
+        },
+        {
+          en: "Video editing",
+          es: "Edición de video",
+          de: "Videobearbeitung",
+          nl: "Video bewerking"
+        },
+        {
+          en: "Photo printing",
+          es: "Impresión de fotos",
+          de: "Foto drucken",
+          nl: "Foto's printen"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Smart speakers use voice recognition to hear commands and natural language processing to understand and respond to questions naturally.",
+        es: "Los altavoces inteligentes usan reconocimiento de voz para escuchar comandos y procesamiento de lenguaje natural para entender y responder.",
+        de: "Smart-Lautsprecher verwenden Spracherkennung für Befehle und natürliche Sprachverarbeitung, um Fragen zu verstehen und zu beantworten.",
+        nl: "Slimme speakers gebruiken spraakherkenning om commando's te horen en natuurlijke taalverwerking om vragen te begrijpen en beantwoorden."
+      }
+    },
+    {
+      question: {
+        en: "What is a self-driving car an example of?",
+        es: "¿De qué es ejemplo un coche autónomo?",
+        de: "Wofür ist ein selbstfahrendes Auto ein Beispiel?",
+        nl: "Waar is een zelfrijdende auto een voorbeeld van?"
+      },
+      options: [
+        {
+          en: "AI in transportation",
+          es: "IA en transporte",
+          de: "KI im Verkehr",
+          nl: "AI in transport"
+        },
+        {
+          en: "Manual driving",
+          es: "Conducción manual",
+          de: "Manuelles Fahren",
+          nl: "Handmatig rijden"
+        },
+        {
+          en: "Car washing",
+          es: "Lavado de autos",
+          de: "Autowäsche",
+          nl: "Auto wassen"
+        },
+        {
+          en: "Fuel production",
+          es: "Producción de combustible",
+          de: "Kraftstoffproduktion",
+          nl: "Brandstofproductie"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Self-driving cars use AI with sensors, cameras, and machine learning to navigate roads, detect obstacles, and drive without human input.",
+        es: "Los coches autónomos usan IA con sensores, cámaras y aprendizaje automático para navegar, detectar obstáculos y conducir sin intervención humana.",
+        de: "Selbstfahrende Autos verwenden KI mit Sensoren, Kameras und maschinellem Lernen, um ohne menschliche Eingabe zu fahren.",
+        nl: "Zelfrijdende auto's gebruiken AI met sensoren, camera's en machine learning om te navigeren en rijden zonder menselijke input."
+      }
+    },
+    {
+      question: {
+        en: "What do AI models need to improve?",
+        es: "¿Qué necesitan los modelos de IA para mejorar?",
+        de: "Was brauchen KI-Modelle zur Verbesserung?",
+        nl: "Wat hebben AI-modellen nodig om te verbeteren?"
+      },
+      options: [
+        {
+          en: "More data and training",
+          es: "Más datos y entrenamiento",
+          de: "Mehr Daten und Training",
+          nl: "Meer data en training"
+        },
+        {
+          en: "Less electricity",
+          es: "Menos electricidad",
+          de: "Weniger Strom",
+          nl: "Minder elektriciteit"
+        },
+        {
+          en: "Smaller computers",
+          es: "Computadoras más pequeñas",
+          de: "Kleinere Computer",
+          nl: "Kleinere computers"
+        },
+        {
+          en: "Louder speakers",
+          es: "Altavoces más fuertes",
+          de: "Lautere Lautsprecher",
+          nl: "Luidere speakers"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "AI models improve with more diverse, quality data and additional training iterations, allowing them to learn better patterns and make accurate predictions.",
+        es: "Los modelos de IA mejoran con más datos diversos y de calidad y entrenamiento adicional, permitiéndoles aprender mejores patrones.",
+        de: "KI-Modelle verbessern sich mit mehr vielfältigen, qualitativ hochwertigen Daten und zusätzlichem Training.",
+        nl: "AI-modellen verbeteren met meer diverse, kwalitatieve data en extra training, waardoor ze betere patronen leren en accuratere voorspellingen maken."
+      }
+    },
+    {
+      question: {
+        en: "What is computer vision?",
+        es: "¿Qué es la visión por computadora?",
+        de: "Was ist Computer Vision?",
+        nl: "Wat is computer vision?"
+      },
+      options: [
+        {
+          en: "AI understanding images and videos",
+          es: "IA entendiendo imágenes y videos",
+          de: "KI versteht Bilder und Videos",
+          nl: "AI die beelden en video's begrijpt"
+        },
+        {
+          en: "Computers needing glasses",
+          es: "Computadoras necesitando gafas",
+          de: "Computer brauchen Brillen",
+          nl: "Computers die een bril nodig hebben"
+        },
+        {
+          en: "Screen brightness settings",
+          es: "Ajustes de brillo de pantalla",
+          de: "Bildschirmhelligkeitseinstellungen",
+          nl: "Schermhelderheid instellingen"
+        },
+        {
+          en: "Computer monitor repair",
+          es: "Reparación de monitores",
+          de: "Computermonitor-Reparatur",
+          nl: "Computermonitor reparatie"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Computer vision enables AI to interpret and understand visual information from images and videos, like identifying objects or reading text.",
+        es: "La visión por computadora permite a la IA interpretar información visual de imágenes y videos, como identificar objetos o leer texto.",
+        de: "Computer Vision ermöglicht es KI, visuelle Informationen aus Bildern und Videos zu interpretieren, wie Objekte zu identifizieren.",
+        nl: "Computer vision stelt AI in staat om visuele informatie uit beelden en video's te interpreteren, zoals objecten identificeren of tekst lezen."
+      }
+    },
+    {
+      question: {
+        en: "What is Netflix's recommendation system based on?",
+        es: "¿En qué se basa el sistema de recomendación de Netflix?",
+        de: "Worauf basiert Netflix's Empfehlungssystem?",
+        nl: "Waarop is Netflix's aanbevelingssysteem gebaseerd?"
+      },
+      options: [
+        {
+          en: "Your viewing history and preferences",
+          es: "Tu historial y preferencias de visualización",
+          de: "Ihre Sehgewohnheiten und Präferenzen",
+          nl: "Je kijkgeschiedenis en voorkeuren"
+        },
+        {
+          en: "Random selection",
+          es: "Selección aleatoria",
+          de: "Zufällige Auswahl",
+          nl: "Willekeurige selectie"
+        },
+        {
+          en: "Alphabetical order",
+          es: "Orden alfabético",
+          de: "Alphabetische Reihenfolge",
+          nl: "Alfabetische volgorde"
+        },
+        {
+          en: "Movie release dates only",
+          es: "Solo fechas de estreno",
+          de: "Nur Veröffentlichungsdaten",
+          nl: "Alleen release datums"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Netflix uses machine learning to analyze your viewing history, ratings, and preferences to recommend shows and movies you might enjoy.",
+        es: "Netflix usa aprendizaje automático para analizar tu historial, calificaciones y preferencias para recomendar programas que podrías disfrutar.",
+        de: "Netflix verwendet maschinelles Lernen, um Ihre Sehgewohnheiten und Bewertungen zu analysieren und Empfehlungen zu geben.",
+        nl: "Netflix gebruikt machine learning om je kijkgeschiedenis, beoordelingen en voorkeuren te analyseren voor aanbevelingen."
+      }
+    },
+    {
+      question: {
+        en: "What is pattern recognition in AI?",
+        es: "¿Qué es el reconocimiento de patrones en IA?",
+        de: "Was ist Mustererkennung in KI?",
+        nl: "Wat is patroonherkenning in AI?"
+      },
+      options: [
+        {
+          en: "Finding recurring trends in data",
+          es: "Encontrar tendencias recurrentes en datos",
+          de: "Wiederkehrende Trends in Daten finden",
+          nl: "Terugkerende trends in data vinden"
+        },
+        {
+          en: "Drawing patterns on paper",
+          es: "Dibujar patrones en papel",
+          de: "Muster auf Papier zeichnen",
+          nl: "Patronen tekenen op papier"
+        },
+        {
+          en: "Sewing clothes",
+          es: "Coser ropa",
+          de: "Kleidung nähen",
+          nl: "Kleding naaien"
+        },
+        {
+          en: "Painting walls",
+          es: "Pintar paredes",
+          de: "Wände streichen",
+          nl: "Muren verven"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Pattern recognition allows AI to identify recurring trends, similarities, or regularities in data, essential for making predictions and decisions.",
+        es: "El reconocimiento de patrones permite a la IA identificar tendencias recurrentes o regularidades en datos, esencial para hacer predicciones.",
+        de: "Mustererkennung ermöglicht es KI, wiederkehrende Trends oder Regelmäßigkeiten in Daten zu identifizieren.",
+        nl: "Patroonherkenning stelt AI in staat om terugkerende trends of regelmatigheden in data te identificeren, essentieel voor voorspellingen."
+      }
+    },
+    {
+      question: {
+        en: "What is an algorithm?",
+        es: "¿Qué es un algoritmo?",
+        de: "Was ist ein Algorithmus?",
+        nl: "Wat is een algoritme?"
+      },
+      options: [
+        {
+          en: "Step-by-step instructions for solving problems",
+          es: "Instrucciones paso a paso para resolver problemas",
+          de: "Schritt-für-Schritt-Anweisungen zur Problemlösung",
+          nl: "Stap-voor-stap instructies voor het oplossen van problemen"
+        },
+        {
+          en: "A type of computer",
+          es: "Un tipo de computadora",
+          de: "Ein Computertyp",
+          nl: "Een type computer"
+        },
+        {
+          en: "A video game",
+          es: "Un videojuego",
+          de: "Ein Videospiel",
+          nl: "Een videogame"
+        },
+        {
+          en: "A social media app",
+          es: "Una aplicación de redes sociales",
+          de: "Eine Social-Media-App",
+          nl: "Een social media app"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "An algorithm is a set of step-by-step instructions or rules that a computer follows to solve a problem or complete a task.",
+        es: "Un algoritmo es un conjunto de instrucciones paso a paso que una computadora sigue para resolver un problema o completar una tarea.",
+        de: "Ein Algorithmus ist eine Reihe von Schritt-für-Schritt-Anweisungen, die ein Computer befolgt, um ein Problem zu lösen.",
+        nl: "Een algoritme is een set stap-voor-stap instructies die een computer volgt om een probleem op te lossen of taak te voltooien."
+      }
+    },
+    {
+      question: {
+        en: "What can AI do in healthcare?",
+        es: "¿Qué puede hacer la IA en salud?",
+        de: "Was kann KI im Gesundheitswesen?",
+        nl: "Wat kan AI in de gezondheidszorg?"
+      },
+      options: [
+        {
+          en: "Help diagnose diseases from medical images",
+          es: "Ayudar a diagnosticar enfermedades desde imágenes médicas",
+          de: "Bei der Diagnose von Krankheiten aus medizinischen Bildern helfen",
+          nl: "Helpen ziektes te diagnosticeren uit medische beelden"
+        },
+        {
+          en: "Replace all doctors",
+          es: "Reemplazar a todos los médicos",
+          de: "Alle Ärzte ersetzen",
+          nl: "Alle dokters vervangen"
+        },
+        {
+          en: "Make people sick",
+          es: "Enfermar a la gente",
+          de: "Menschen krank machen",
+          nl: "Mensen ziek maken"
+        },
+        {
+          en: "Close hospitals",
+          es: "Cerrar hospitales",
+          de: "Krankenhäuser schließen",
+          nl: "Ziekenhuizen sluiten"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "AI assists healthcare by analyzing medical images to detect diseases early, predicting patient outcomes, and helping doctors make better diagnoses.",
+        es: "La IA ayuda en salud analizando imágenes médicas para detectar enfermedades temprano y ayudando a los médicos a hacer mejores diagnósticos.",
+        de: "KI unterstützt das Gesundheitswesen durch Analyse medizinischer Bilder zur Früherkennung von Krankheiten.",
+        nl: "AI helpt in de gezondheidszorg door medische beelden te analyseren om ziektes vroeg te detecteren en dokters te helpen bij diagnoses."
+      }
+    },
+    {
+      question: {
+        en: "What does 'learning rate' mean in ML?",
+        es: "¿Qué significa 'tasa de aprendizaje' en ML?",
+        de: "Was bedeutet 'Lernrate' im ML?",
+        nl: "Wat betekent 'learning rate' in ML?"
+      },
+      options: [
+        {
+          en: "How fast the model adjusts during training",
+          es: "Qué tan rápido se ajusta el modelo durante el entrenamiento",
+          de: "Wie schnell sich das Modell während des Trainings anpasst",
+          nl: "Hoe snel het model zich aanpast tijdens training"
+        },
+        {
+          en: "Reading speed of humans",
+          es: "Velocidad de lectura de humanos",
+          de: "Lesegeschwindigkeit von Menschen",
+          nl: "Leessnelheid van mensen"
+        },
+        {
+          en: "Internet connection speed",
+          es: "Velocidad de conexión a internet",
+          de: "Internetverbindungsgeschwindigkeit",
+          nl: "Internetverbinding snelheid"
+        },
+        {
+          en: "Computer startup time",
+          es: "Tiempo de inicio de la computadora",
+          de: "Computer-Startzeit",
+          nl: "Computer opstarttijd"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Learning rate controls how much the model adjusts its parameters during each training step. Too high can overshoot, too low takes forever.",
+        es: "La tasa de aprendizaje controla cuánto ajusta el modelo sus parámetros durante cada paso de entrenamiento.",
+        de: "Die Lernrate steuert, wie stark das Modell seine Parameter während jedes Trainingsschritts anpasst.",
+        nl: "Learning rate bepaalt hoeveel het model zijn parameters aanpast tijdens elke trainingsstap."
+      }
+    },
+    {
+      question: {
+        en: "What is Google Translate using?",
+        es: "¿Qué usa Google Translate?",
+        de: "Was verwendet Google Translate?",
+        nl: "Wat gebruikt Google Translate?"
+      },
+      options: [
+        {
+          en: "Neural machine translation",
+          es: "Traducción automática neuronal",
+          de: "Neuronale maschinelle Übersetzung",
+          nl: "Neurale machinevertaling"
+        },
+        {
+          en: "Human translators only",
+          es: "Solo traductores humanos",
+          de: "Nur menschliche Übersetzer",
+          nl: "Alleen menselijke vertalers"
+        },
+        {
+          en: "Dictionary lookups only",
+          es: "Solo búsquedas en diccionario",
+          de: "Nur Wörterbuchsuchen",
+          nl: "Alleen woordenboek opzoeken"
+        },
+        {
+          en: "Random word selection",
+          es: "Selección aleatoria de palabras",
+          de: "Zufällige Wortauswahl",
+          nl: "Willekeurige woordselectie"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Google Translate uses neural machine translation, an AI system that learns from millions of translated texts to provide accurate translations.",
+        es: "Google Translate usa traducción automática neuronal, un sistema de IA que aprende de millones de textos traducidos.",
+        de: "Google Translate verwendet neuronale maschinelle Übersetzung, ein KI-System, das aus Millionen übersetzter Texte lernt.",
+        nl: "Google Translate gebruikt neurale machinevertaling, een AI-systeem dat leert van miljoenen vertaalde teksten."
+      }
+    },
+    {
+      question: {
+        en: "What is Tesla Autopilot?",
+        es: "¿Qué es el piloto automático de Tesla?",
+        de: "Was ist Tesla Autopilot?",
+        nl: "Wat is Tesla Autopilot?"
+      },
+      options: [
+        {
+          en: "AI-assisted driving system",
+          es: "Sistema de conducción asistida por IA",
+          de: "KI-unterstütztes Fahrsystem",
+          nl: "AI-ondersteund rijsysteem"
+        },
+        {
+          en: "Airplane control system",
+          es: "Sistema de control de aviones",
+          de: "Flugzeugsteuerungssystem",
+          nl: "Vliegtuig besturingssysteem"
+        },
+        {
+          en: "Battery charger",
+          es: "Cargador de batería",
+          de: "Batterieladegerät",
+          nl: "Batterijlader"
+        },
+        {
+          en: "Music player",
+          es: "Reproductor de música",
+          de: "Musikplayer",
+          nl: "Muziekspeler"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Tesla Autopilot is an advanced driver-assistance system using AI, cameras, and sensors to help with steering, accelerating, and braking.",
+        es: "Tesla Autopilot es un sistema avanzado de asistencia al conductor que usa IA, cámaras y sensores para ayudar con la conducción.",
+        de: "Tesla Autopilot ist ein fortschrittliches Fahrerassistenzsystem mit KI, Kameras und Sensoren zur Unterstützung beim Fahren.",
+        nl: "Tesla Autopilot is een geavanceerd rijhulpsysteem dat AI, camera's en sensoren gebruikt om te helpen met sturen en remmen."
+      }
+    },
+    {
+      question: {
+        en: "What is reinforcement learning?",
+        es: "¿Qué es el aprendizaje por refuerzo?",
+        de: "Was ist verstärkendes Lernen?",
+        nl: "Wat is reinforcement learning?"
+      },
+      options: [
+        {
+          en: "AI learning through rewards and penalties",
+          es: "IA aprendiendo mediante recompensas y penalizaciones",
+          de: "KI lernt durch Belohnungen und Strafen",
+          nl: "AI die leert door beloningen en straffen"
+        },
+        {
+          en: "Building stronger computers",
+          es: "Construir computadoras más fuertes",
+          de: "Stärkere Computer bauen",
+          nl: "Sterkere computers bouwen"
+        },
+        {
+          en: "Reinforcing concrete structures",
+          es: "Reforzar estructuras de concreto",
+          de: "Betonkonstruktionen verstärken",
+          nl: "Betonstructuren versterken"
+        },
+        {
+          en: "Making louder sounds",
+          es: "Hacer sonidos más fuertes",
+          de: "Lautere Geräusche machen",
+          nl: "Luidere geluiden maken"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Reinforcement learning trains AI by giving rewards for good actions and penalties for bad ones, like training a pet with treats.",
+        es: "El aprendizaje por refuerzo entrena IA dando recompensas por buenas acciones y penalizaciones por malas, como entrenar una mascota.",
+        de: "Verstärkendes Lernen trainiert KI durch Belohnungen für gute und Strafen für schlechte Aktionen, wie beim Haustiertraining.",
+        nl: "Reinforcement learning traint AI door beloningen te geven voor goede acties en straffen voor slechte, zoals bij het trainen van huisdieren."
+      }
+    },
+    {
+      question: {
+        en: "What is deep learning?",
+        es: "¿Qué es el aprendizaje profundo?",
+        de: "Was ist Deep Learning?",
+        nl: "Wat is deep learning?"
+      },
+      options: [
+        {
+          en: "ML with multiple neural network layers",
+          es: "ML con múltiples capas de red neuronal",
+          de: "ML mit mehreren neuronalen Netzwerkschichten",
+          nl: "ML met meerdere neurale netwerklagen"
+        },
+        {
+          en: "Learning while swimming",
+          es: "Aprender mientras nadas",
+          de: "Lernen beim Schwimmen",
+          nl: "Leren tijdens het zwemmen"
+        },
+        {
+          en: "Studying very hard",
+          es: "Estudiar muy duro",
+          de: "Sehr hart studieren",
+          nl: "Heel hard studeren"
+        },
+        {
+          en: "Deep sea exploration",
+          es: "Exploración del mar profundo",
+          de: "Tiefsee-Erkundung",
+          nl: "Diepzee verkenning"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Deep learning uses neural networks with many layers (deep) to learn complex patterns, powering advances in image recognition and language processing.",
+        es: "El aprendizaje profundo usa redes neuronales con muchas capas para aprender patrones complejos en reconocimiento de imágenes y lenguaje.",
+        de: "Deep Learning verwendet neuronale Netze mit vielen Schichten, um komplexe Muster zu lernen.",
+        nl: "Deep learning gebruikt neurale netwerken met vele lagen om complexe patronen te leren voor beeldherkenning en taalverwerking."
+      }
+    },
+    {
+      question: {
+        en: "What is a GPU used for in AI?",
+        es: "¿Para qué se usa una GPU en IA?",
+        de: "Wofür wird eine GPU in KI verwendet?",
+        nl: "Waarvoor wordt een GPU gebruikt in AI?"
+      },
+      options: [
+        {
+          en: "Fast parallel processing of data",
+          es: "Procesamiento paralelo rápido de datos",
+          de: "Schnelle parallele Datenverarbeitung",
+          nl: "Snelle parallelle verwerking van data"
+        },
+        {
+          en: "Playing video games only",
+          es: "Solo jugar videojuegos",
+          de: "Nur Videospiele spielen",
+          nl: "Alleen videogames spelen"
+        },
+        {
+          en: "Storing files",
+          es: "Almacenar archivos",
+          de: "Dateien speichern",
+          nl: "Bestanden opslaan"
+        },
+        {
+          en: "Printing documents",
+          es: "Imprimir documentos",
+          de: "Dokumente drucken",
+          nl: "Documenten printen"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "GPUs (Graphics Processing Units) excel at parallel processing, making them perfect for the massive calculations needed in AI training.",
+        es: "Las GPUs (Unidades de Procesamiento Gráfico) sobresalen en procesamiento paralelo, perfectas para los cálculos masivos en entrenamiento de IA.",
+        de: "GPUs (Grafikprozessoren) sind hervorragend für parallele Verarbeitung, perfekt für die massiven Berechnungen im KI-Training.",
+        nl: "GPUs (Graphics Processing Units) zijn uitstekend in parallelle verwerking, perfect voor de massieve berekeningen in AI-training."
+      }
+    },
+    {
+      question: {
+        en: "What is NLP in AI?",
+        es: "¿Qué es PLN en IA?",
+        de: "Was ist NLP in KI?",
+        nl: "Wat is NLP in AI?"
+      },
+      options: [
+        {
+          en: "Natural Language Processing",
+          es: "Procesamiento de Lenguaje Natural",
+          de: "Natürliche Sprachverarbeitung",
+          nl: "Natural Language Processing"
+        },
+        {
+          en: "New Learning Program",
+          es: "Nuevo Programa de Aprendizaje",
+          de: "Neues Lernprogramm",
+          nl: "Nieuw Leer Programma"
+        },
+        {
+          en: "Network Link Protocol",
+          es: "Protocolo de Enlace de Red",
+          de: "Netzwerk-Link-Protokoll",
+          nl: "Netwerk Link Protocol"
+        },
+        {
+          en: "Next Level Player",
+          es: "Jugador de Siguiente Nivel",
+          de: "Next Level Spieler",
+          nl: "Next Level Speler"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Natural Language Processing enables AI to understand, interpret, and generate human language, powering chatbots and translation services.",
+        es: "El Procesamiento de Lenguaje Natural permite a la IA entender, interpretar y generar lenguaje humano, impulsando chatbots y traducción.",
+        de: "Natürliche Sprachverarbeitung ermöglicht es KI, menschliche Sprache zu verstehen und zu generieren.",
+        nl: "Natural Language Processing stelt AI in staat menselijke taal te begrijpen, interpreteren en genereren voor chatbots en vertaaldiensten."
+      }
+    },
+    {
+      question: {
+        en: "What is Spotify using AI for?",
+        es: "¿Para qué usa Spotify la IA?",
+        de: "Wofür nutzt Spotify KI?",
+        nl: "Waarvoor gebruikt Spotify AI?"
+      },
+      options: [
+        {
+          en: "Creating personalized playlists",
+          es: "Crear listas de reproducción personalizadas",
+          de: "Personalisierte Playlists erstellen",
+          nl: "Gepersonaliseerde afspeellijsten maken"
+        },
+        {
+          en: "Recording new songs",
+          es: "Grabar nuevas canciones",
+          de: "Neue Songs aufnehmen",
+          nl: "Nieuwe liedjes opnemen"
+        },
+        {
+          en: "Selling headphones",
+          es: "Vender audífonos",
+          de: "Kopfhörer verkaufen",
+          nl: "Koptelefoons verkopen"
+        },
+        {
+          en: "Building speakers",
+          es: "Construir altavoces",
+          de: "Lautsprecher bauen",
+          nl: "Speakers bouwen"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Spotify uses AI to analyze your listening habits and create personalized playlists like Discover Weekly, recommending new music you might enjoy.",
+        es: "Spotify usa IA para analizar tus hábitos de escucha y crear listas personalizadas como Discover Weekly, recomendando música nueva.",
+        de: "Spotify nutzt KI, um Ihre Hörgewohnheiten zu analysieren und personalisierte Playlists wie Discover Weekly zu erstellen.",
+        nl: "Spotify gebruikt AI om je luistergewoonten te analyseren en gepersonaliseerde afspeellijsten zoals Discover Weekly te maken."
+      }
+    },
+    {
+      question: {
+        en: "What is the Turing Test?",
+        es: "¿Qué es la Prueba de Turing?",
+        de: "Was ist der Turing-Test?",
+        nl: "Wat is de Turing Test?"
+      },
+      options: [
+        {
+          en: "Test if AI can imitate human conversation",
+          es: "Prueba si la IA puede imitar conversación humana",
+          de: "Test ob KI menschliche Konversation imitieren kann",
+          nl: "Test of AI menselijke conversatie kan imiteren"
+        },
+        {
+          en: "A math exam",
+          es: "Un examen de matemáticas",
+          de: "Eine Matheprüfung",
+          nl: "Een wiskunde examen"
+        },
+        {
+          en: "Computer speed test",
+          es: "Prueba de velocidad de computadora",
+          de: "Computer-Geschwindigkeitstest",
+          nl: "Computer snelheidstest"
+        },
+        {
+          en: "Memory test",
+          es: "Prueba de memoria",
+          de: "Gedächtnistest",
+          nl: "Geheugentest"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Turing Test, proposed by Alan Turing, evaluates if a machine can exhibit intelligent behavior indistinguishable from a human in conversation.",
+        es: "La Prueba de Turing, propuesta por Alan Turing, evalúa si una máquina puede exhibir comportamiento inteligente indistinguible de un humano.",
+        de: "Der Turing-Test, vorgeschlagen von Alan Turing, bewertet, ob eine Maschine intelligentes Verhalten zeigen kann.",
+        nl: "De Turing Test, voorgesteld door Alan Turing, evalueert of een machine intelligent gedrag kan vertonen dat niet te onderscheiden is van een mens."
+      }
+    },
+    {
+      question: {
+        en: "What is sentiment analysis?",
+        es: "¿Qué es el análisis de sentimientos?",
+        de: "Was ist Sentimentanalyse?",
+        nl: "Wat is sentimentanalyse?"
+      },
+      options: [
+        {
+          en: "AI detecting emotions in text",
+          es: "IA detectando emociones en texto",
+          de: "KI erkennt Emotionen in Text",
+          nl: "AI die emoties detecteert in tekst"
+        },
+        {
+          en: "Feeling sad or happy",
+          es: "Sentirse triste o feliz",
+          de: "Sich traurig oder glücklich fühlen",
+          nl: "Je verdrietig of blij voelen"
+        },
+        {
+          en: "Writing poetry",
+          es: "Escribir poesía",
+          de: "Gedichte schreiben",
+          nl: "Poëzie schrijven"
+        },
+        {
+          en: "Measuring temperature",
+          es: "Medir temperatura",
+          de: "Temperatur messen",
+          nl: "Temperatuur meten"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Sentiment analysis uses AI to determine if text expresses positive, negative, or neutral emotions, useful for analyzing customer reviews.",
+        es: "El análisis de sentimientos usa IA para determinar si el texto expresa emociones positivas, negativas o neutrales, útil para reseñas.",
+        de: "Sentimentanalyse verwendet KI, um zu bestimmen, ob Text positive, negative oder neutrale Emotionen ausdrückt.",
+        nl: "Sentimentanalyse gebruikt AI om te bepalen of tekst positieve, negatieve of neutrale emoties uitdrukt, nuttig voor klantrecensies."
+      }
+    },
+    {
+      question: {
+        en: "What is data mining?",
+        es: "¿Qué es la minería de datos?",
+        de: "Was ist Data Mining?",
+        nl: "Wat is data mining?"
+      },
+      options: [
+        {
+          en: "Finding patterns in large datasets",
+          es: "Encontrar patrones en grandes conjuntos de datos",
+          de: "Muster in großen Datensätzen finden",
+          nl: "Patronen vinden in grote datasets"
+        },
+        {
+          en: "Digging for gold",
+          es: "Cavar para encontrar oro",
+          de: "Nach Gold graben",
+          nl: "Graven naar goud"
+        },
+        {
+          en: "Deleting old data",
+          es: "Eliminar datos antiguos",
+          de: "Alte Daten löschen",
+          nl: "Oude data verwijderen"
+        },
+        {
+          en: "Backing up files",
+          es: "Hacer copias de seguridad",
+          de: "Dateien sichern",
+          nl: "Bestanden back-uppen"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Data mining uses AI to discover patterns, correlations, and insights from large amounts of data that humans might miss.",
+        es: "La minería de datos usa IA para descubrir patrones, correlaciones e ideas de grandes cantidades de datos que los humanos podrían pasar por alto.",
+        de: "Data Mining verwendet KI, um Muster und Erkenntnisse aus großen Datenmengen zu entdecken, die Menschen übersehen könnten.",
+        nl: "Data mining gebruikt AI om patronen, correlaties en inzichten te ontdekken uit grote hoeveelheden data die mensen zouden missen."
+      }
+    },
+    {
+      question: {
+        en: "What is transfer learning?",
+        es: "¿Qué es el aprendizaje por transferencia?",
+        de: "Was ist Transfer Learning?",
+        nl: "Wat is transfer learning?"
+      },
+      options: [
+        {
+          en: "Using knowledge from one task for another",
+          es: "Usar conocimiento de una tarea para otra",
+          de: "Wissen von einer Aufgabe für eine andere nutzen",
+          nl: "Kennis van één taak gebruiken voor een andere"
+        },
+        {
+          en: "Moving files between computers",
+          es: "Mover archivos entre computadoras",
+          de: "Dateien zwischen Computern verschieben",
+          nl: "Bestanden verplaatsen tussen computers"
+        },
+        {
+          en: "Changing schools",
+          es: "Cambiar de escuela",
+          de: "Die Schule wechseln",
+          nl: "Van school veranderen"
+        },
+        {
+          en: "Sending money",
+          es: "Enviar dinero",
+          de: "Geld senden",
+          nl: "Geld overmaken"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Transfer learning reuses a pre-trained model's knowledge for a new but related task, saving time and computational resources.",
+        es: "El aprendizaje por transferencia reutiliza el conocimiento de un modelo preentrenado para una tarea nueva pero relacionada, ahorrando tiempo.",
+        de: "Transfer Learning nutzt das Wissen eines vortrainierten Modells für eine neue, aber verwandte Aufgabe.",
+        nl: "Transfer learning hergebruikt kennis van een voorgetraind model voor een nieuwe maar gerelateerde taak, wat tijd en resources bespaart."
+      }
+    },
+    {
+      question: {
+        en: "What is bias in AI?",
+        es: "¿Qué es el sesgo en IA?",
+        de: "Was ist Bias in KI?",
+        nl: "Wat is bias in AI?"
+      },
+      options: [
+        {
+          en: "Unfair preferences in AI decisions",
+          es: "Preferencias injustas en decisiones de IA",
+          de: "Unfaire Präferenzen in KI-Entscheidungen",
+          nl: "Oneerlijke voorkeuren in AI-beslissingen"
+        },
+        {
+          en: "Leaning to one side",
+          es: "Inclinarse hacia un lado",
+          de: "Sich zur Seite neigen",
+          nl: "Naar één kant leunen"
+        },
+        {
+          en: "A type of battery",
+          es: "Un tipo de batería",
+          de: "Ein Batterietyp",
+          nl: "Een type batterij"
+        },
+        {
+          en: "Computer weight",
+          es: "Peso de la computadora",
+          de: "Computergewicht",
+          nl: "Computer gewicht"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Bias in AI occurs when algorithms make unfair or prejudiced decisions, often reflecting biases present in training data or design choices.",
+        es: "El sesgo en IA ocurre cuando los algoritmos toman decisiones injustas, reflejando sesgos presentes en los datos de entrenamiento.",
+        de: "Bias in KI tritt auf, wenn Algorithmen unfaire Entscheidungen treffen, oft basierend auf Vorurteilen in Trainingsdaten.",
+        nl: "Bias in AI ontstaat wanneer algoritmes oneerlijke beslissingen nemen, vaak door vooroordelen in trainingsdata of ontwerpkeuzes."
+      }
+    },
+    {
+      question: {
+        en: "What is edge AI?",
+        es: "¿Qué es IA de borde?",
+        de: "Was ist Edge-KI?",
+        nl: "Wat is edge AI?"
+      },
+      options: [
+        {
+          en: "AI processing on local devices",
+          es: "Procesamiento de IA en dispositivos locales",
+          de: "KI-Verarbeitung auf lokalen Geräten",
+          nl: "AI-verwerking op lokale apparaten"
+        },
+        {
+          en: "AI at the edge of a cliff",
+          es: "IA al borde de un acantilado",
+          de: "KI am Rand einer Klippe",
+          nl: "AI aan de rand van een klif"
+        },
+        {
+          en: "Sharp AI tools",
+          es: "Herramientas de IA afiladas",
+          de: "Scharfe KI-Werkzeuge",
+          nl: "Scherpe AI-tools"
+        },
+        {
+          en: "Cutting paper with AI",
+          es: "Cortar papel con IA",
+          de: "Papier mit KI schneiden",
+          nl: "Papier knippen met AI"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Edge AI runs AI algorithms directly on devices (phones, cameras) rather than cloud servers, providing faster responses and better privacy.",
+        es: "La IA de borde ejecuta algoritmos directamente en dispositivos (teléfonos, cámaras) en lugar de servidores en la nube, dando respuestas más rápidas.",
+        de: "Edge-KI führt KI-Algorithmen direkt auf Geräten (Telefone, Kameras) statt auf Cloud-Servern aus.",
+        nl: "Edge AI draait AI-algoritmes direct op apparaten (telefoons, camera's) in plaats van cloudservers, voor snellere reacties en betere privacy."
+      }
+    },
+    {
+      question: {
+        en: "What company created DALL-E?",
+        es: "¿Qué empresa creó DALL-E?",
+        de: "Welches Unternehmen hat DALL-E erstellt?",
+        nl: "Welk bedrijf creëerde DALL-E?"
+      },
+      options: [
+        {
+          en: "OpenAI",
+          es: "OpenAI",
+          de: "OpenAI",
+          nl: "OpenAI"
+        },
+        {
+          en: "Meta",
+          es: "Meta",
+          de: "Meta",
+          nl: "Meta"
+        },
+        {
+          en: "Adobe",
+          es: "Adobe",
+          de: "Adobe",
+          nl: "Adobe"
+        },
+        {
+          en: "Disney",
+          es: "Disney",
+          de: "Disney",
+          nl: "Disney"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "OpenAI created DALL-E, an AI system that can generate images from text descriptions, revolutionizing AI art creation.",
+        es: "OpenAI creó DALL-E, un sistema de IA que puede generar imágenes a partir de descripciones de texto, revolucionando la creación de arte con IA.",
+        de: "OpenAI hat DALL-E erstellt, ein KI-System, das Bilder aus Textbeschreibungen generieren kann.",
+        nl: "OpenAI creëerde DALL-E, een AI-systeem dat afbeeldingen kan genereren uit tekstbeschrijvingen, wat AI-kunstcreatie revolutioneerde."
+      }
+    },
+    {
+      question: {
+        en: "What is OCR technology?",
+        es: "¿Qué es la tecnología OCR?",
+        de: "Was ist OCR-Technologie?",
+        nl: "Wat is OCR-technologie?"
+      },
+      options: [
+        {
+          en: "Converting images to text",
+          es: "Convertir imágenes a texto",
+          de: "Bilder in Text umwandeln",
+          nl: "Afbeeldingen naar tekst converteren"
+        },
+        {
+          en: "Recording ocean sounds",
+          es: "Grabar sonidos del océano",
+          de: "Ozeangeräusche aufnehmen",
+          nl: "Oceaangeluiden opnemen"
+        },
+        {
+          en: "Organizing computer rooms",
+          es: "Organizar salas de computadoras",
+          de: "Computerräume organisieren",
+          nl: "Computerkamers organiseren"
+        },
+        {
+          en: "Opening car radios",
+          es: "Abrir radios de autos",
+          de: "Autoradios öffnen",
+          nl: "Autoradio's openen"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Optical Character Recognition (OCR) uses AI to recognize and convert text in images or scanned documents into editable digital text.",
+        es: "El Reconocimiento Óptico de Caracteres (OCR) usa IA para reconocer y convertir texto en imágenes a texto digital editable.",
+        de: "Optische Zeichenerkennung (OCR) verwendet KI, um Text in Bildern oder gescannten Dokumenten in bearbeitbaren digitalen Text umzuwandeln.",
+        nl: "Optical Character Recognition (OCR) gebruikt AI om tekst in afbeeldingen of gescande documenten te herkennen en om te zetten naar digitale tekst."
+      }
+    },
+    {
+      question: {
+        en: "What is a bot in computing?",
+        es: "¿Qué es un bot en computación?",
+        de: "Was ist ein Bot in der Informatik?",
+        nl: "Wat is een bot in computing?"
+      },
+      options: [
+        {
+          en: "Automated program performing tasks",
+          es: "Programa automatizado realizando tareas",
+          de: "Automatisiertes Programm, das Aufgaben ausführt",
+          nl: "Geautomatiseerd programma dat taken uitvoert"
+        },
+        {
+          en: "A broken computer",
+          es: "Una computadora rota",
+          de: "Ein kaputter Computer",
+          nl: "Een kapotte computer"
+        },
+        {
+          en: "Bottom of a webpage",
+          es: "Parte inferior de una página web",
+          de: "Unterseite einer Webseite",
+          nl: "Onderkant van een webpagina"
+        },
+        {
+          en: "A computer button",
+          es: "Un botón de computadora",
+          de: "Ein Computerknopf",
+          nl: "Een computerknop"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A bot is an automated program that performs repetitive tasks, like web crawling, customer service chatbots, or social media posting.",
+        es: "Un bot es un programa automatizado que realiza tareas repetitivas, como rastreo web, chatbots de servicio al cliente o publicación en redes.",
+        de: "Ein Bot ist ein automatisiertes Programm, das sich wiederholende Aufgaben ausführt, wie Web-Crawling oder Kundenservice-Chatbots.",
+        nl: "Een bot is een geautomatiseerd programma dat repetitieve taken uitvoert, zoals webcrawling, klantenservice chatbots of social media posts."
+      }
+    },
+    {
+      question: {
+        en: "What does AI need lots of to work well?",
+        es: "¿Qué necesita mucha la IA para funcionar bien?",
+        de: "Was braucht KI viel, um gut zu funktionieren?",
+        nl: "Wat heeft AI veel nodig om goed te werken?"
+      },
+      options: [
+        {
+          en: "Data and computing power",
+          es: "Datos y poder de cómputo",
+          de: "Daten und Rechenleistung",
+          nl: "Data en rekenkracht"
+        },
+        {
+          en: "Coffee and snacks",
+          es: "Café y bocadillos",
+          de: "Kaffee und Snacks",
+          nl: "Koffie en snacks"
+        },
+        {
+          en: "Paper and pencils",
+          es: "Papel y lápices",
+          de: "Papier und Stifte",
+          nl: "Papier en potloden"
+        },
+        {
+          en: "Windows and doors",
+          es: "Ventanas y puertas",
+          de: "Fenster und Türen",
+          nl: "Ramen en deuren"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "AI systems require large amounts of quality data to learn from and significant computing power to process that data efficiently.",
+        es: "Los sistemas de IA requieren grandes cantidades de datos de calidad para aprender y poder de cómputo significativo para procesarlos.",
+        de: "KI-Systeme benötigen große Mengen an Qualitätsdaten zum Lernen und erhebliche Rechenleistung zur effizienten Verarbeitung.",
+        nl: "AI-systemen hebben grote hoeveelheden kwaliteitsdata nodig om van te leren en significante rekenkracht om die data efficiënt te verwerken."
+      }
+    },
+    {
+      question: {
+        en: "What is IBM Watson?",
+        es: "¿Qué es IBM Watson?",
+        de: "Was ist IBM Watson?",
+        nl: "Wat is IBM Watson?"
+      },
+      options: [
+        {
+          en: "AI platform for business",
+          es: "Plataforma de IA para negocios",
+          de: "KI-Plattform für Unternehmen",
+          nl: "AI-platform voor bedrijven"
+        },
+        {
+          en: "A detective story",
+          es: "Una historia de detectives",
+          de: "Eine Detektivgeschichte",
+          nl: "Een detectiveverhaal"
+        },
+        {
+          en: "A phone brand",
+          es: "Una marca de teléfonos",
+          de: "Eine Telefonmarke",
+          nl: "Een telefoonmerk"
+        },
+        {
+          en: "A video game",
+          es: "Un videojuego",
+          de: "Ein Videospiel",
+          nl: "Een videogame"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "IBM Watson is an AI platform that helps businesses analyze data, automate processes, and make predictions. It famously won on Jeopardy! in 2011.",
+        es: "IBM Watson es una plataforma de IA que ayuda a las empresas a analizar datos y automatizar procesos. Ganó en Jeopardy! en 2011.",
+        de: "IBM Watson ist eine KI-Plattform, die Unternehmen bei der Datenanalyse und Automatisierung hilft. Sie gewann 2011 bei Jeopardy!",
+        nl: "IBM Watson is een AI-platform dat bedrijven helpt data te analyseren en processen te automatiseren. Het won Jeopardy! in 2011."
+      }
+    },
+    {
+      question: {
+        en: "What is augmented reality (AR) with AI?",
+        es: "¿Qué es realidad aumentada (RA) con IA?",
+        de: "Was ist Augmented Reality (AR) mit KI?",
+        nl: "Wat is augmented reality (AR) met AI?"
+      },
+      options: [
+        {
+          en: "Digital information overlaid on real world",
+          es: "Información digital superpuesta en el mundo real",
+          de: "Digitale Informationen über die reale Welt gelegt",
+          nl: "Digitale informatie over de echte wereld heen"
+        },
+        {
+          en: "Making things bigger",
+          es: "Hacer las cosas más grandes",
+          de: "Dinge größer machen",
+          nl: "Dingen groter maken"
+        },
+        {
+          en: "Virtual reality games",
+          es: "Juegos de realidad virtual",
+          de: "Virtual-Reality-Spiele",
+          nl: "Virtual reality games"
+        },
+        {
+          en: "3D movies",
+          es: "Películas 3D",
+          de: "3D-Filme",
+          nl: "3D-films"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "AR with AI overlays digital information onto the real world through devices, like Pokémon GO or furniture placement apps that show items in your room.",
+        es: "RA con IA superpone información digital en el mundo real a través de dispositivos, como Pokémon GO o apps que muestran muebles en tu habitación.",
+        de: "AR mit KI überlagert digitale Informationen in die reale Welt durch Geräte, wie Pokémon GO oder Möbelplatzierungs-Apps.",
+        nl: "AR met AI legt digitale informatie over de echte wereld via apparaten, zoals Pokémon GO of apps die meubels in je kamer tonen."
+      }
+    },
+    {
+      question: {
+        en: "What is automated decision making?",
+        es: "¿Qué es la toma de decisiones automatizada?",
+        de: "Was ist automatisierte Entscheidungsfindung?",
+        nl: "Wat is geautomatiseerde besluitvorming?"
+      },
+      options: [
+        {
+          en: "AI making choices without human input",
+          es: "IA tomando decisiones sin intervención humana",
+          de: "KI trifft Entscheidungen ohne menschliche Eingabe",
+          nl: "AI die keuzes maakt zonder menselijke input"
+        },
+        {
+          en: "People voting online",
+          es: "Personas votando en línea",
+          de: "Menschen wählen online",
+          nl: "Mensen die online stemmen"
+        },
+        {
+          en: "Random selection",
+          es: "Selección aleatoria",
+          de: "Zufällige Auswahl",
+          nl: "Willekeurige selectie"
+        },
+        {
+          en: "Manual paperwork",
+          es: "Papeleo manual",
+          de: "Manuelle Papierarbeit",
+          nl: "Handmatig papierwerk"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Automated decision making uses AI algorithms to make choices based on data analysis, like loan approvals or content recommendations, without human intervention.",
+        es: "La toma de decisiones automatizada usa algoritmos de IA para hacer elecciones basadas en análisis de datos, sin intervención humana.",
+        de: "Automatisierte Entscheidungsfindung verwendet KI-Algorithmen, um Entscheidungen basierend auf Datenanalyse zu treffen.",
+        nl: "Geautomatiseerde besluitvorming gebruikt AI-algoritmes om keuzes te maken op basis van data-analyse, zonder menselijke tussenkomst."
+      }
+    },
+    {
+      question: {
+        en: "What is generative AI?",
+        es: "¿Qué es IA generativa?",
+        de: "Was ist generative KI?",
+        nl: "Wat is generatieve AI?"
+      },
+      options: [
+        {
+          en: "AI that creates new content",
+          es: "IA que crea contenido nuevo",
+          de: "KI, die neue Inhalte erstellt",
+          nl: "AI die nieuwe content creëert"
+        },
+        {
+          en: "AI that generates electricity",
+          es: "IA que genera electricidad",
+          de: "KI, die Strom erzeugt",
+          nl: "AI die elektriciteit genereert"
+        },
+        {
+          en: "AI for older generations",
+          es: "IA para generaciones mayores",
+          de: "KI für ältere Generationen",
+          nl: "AI voor oudere generaties"
+        },
+        {
+          en: "AI that deletes files",
+          es: "IA que elimina archivos",
+          de: "KI, die Dateien löscht",
+          nl: "AI die bestanden verwijdert"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Generative AI creates new content like text, images, music, or code based on patterns learned from training data, like ChatGPT or DALL-E.",
+        es: "La IA generativa crea contenido nuevo como texto, imágenes, música o código basado en patrones aprendidos, como ChatGPT o DALL-E.",
+        de: "Generative KI erstellt neue Inhalte wie Text, Bilder, Musik oder Code basierend auf gelernten Mustern, wie ChatGPT oder DALL-E.",
+        nl: "Generatieve AI creëert nieuwe content zoals tekst, afbeeldingen, muziek of code gebaseerd op geleerde patronen, zoals ChatGPT of DALL-E."
+      }
+    },
+    {
+      question: {
+        en: "What is AI ethics about?",
+        es: "¿De qué trata la ética de IA?",
+        de: "Worum geht es bei KI-Ethik?",
+        nl: "Waar gaat AI-ethiek over?"
+      },
+      options: [
+        {
+          en: "Responsible and fair use of AI",
+          es: "Uso responsable y justo de IA",
+          de: "Verantwortungsvolle und faire Nutzung von KI",
+          nl: "Verantwoord en eerlijk gebruik van AI"
+        },
+        {
+          en: "Making AI faster",
+          es: "Hacer la IA más rápida",
+          de: "KI schneller machen",
+          nl: "AI sneller maken"
+        },
+        {
+          en: "Building more robots",
+          es: "Construir más robots",
+          de: "Mehr Roboter bauen",
+          nl: "Meer robots bouwen"
+        },
+        {
+          en: "Selling AI products",
+          es: "Vender productos de IA",
+          de: "KI-Produkte verkaufen",
+          nl: "AI-producten verkopen"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "AI ethics focuses on developing and using AI responsibly, addressing issues like bias, privacy, transparency, and ensuring AI benefits society fairly.",
+        es: "La ética de IA se centra en desarrollar y usar IA responsablemente, abordando temas como sesgo, privacidad y transparencia.",
+        de: "KI-Ethik konzentriert sich auf die verantwortungsvolle Entwicklung und Nutzung von KI, einschließlich Bias, Privatsphäre und Transparenz.",
+        nl: "AI-ethiek richt zich op het verantwoord ontwikkelen en gebruiken van AI, met aandacht voor bias, privacy en transparantie."
+      }
+    },
+    {
+      question: {
+        en: "What is cloud computing for AI?",
+        es: "¿Qué es la computación en la nube para IA?",
+        de: "Was ist Cloud Computing für KI?",
+        nl: "Wat is cloud computing voor AI?"
+      },
+      options: [
+        {
+          en: "Running AI on remote servers",
+          es: "Ejecutar IA en servidores remotos",
+          de: "KI auf entfernten Servern ausführen",
+          nl: "AI draaien op externe servers"
+        },
+        {
+          en: "Weather prediction only",
+          es: "Solo predicción del clima",
+          de: "Nur Wettervorhersage",
+          nl: "Alleen weersvoorspelling"
+        },
+        {
+          en: "Storing rain data",
+          es: "Almacenar datos de lluvia",
+          de: "Regendaten speichern",
+          nl: "Regendata opslaan"
+        },
+        {
+          en: "Flying computers",
+          es: "Computadoras voladoras",
+          de: "Fliegende Computer",
+          nl: "Vliegende computers"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Cloud computing provides remote servers and resources for running AI applications, offering scalable power without needing expensive local hardware.",
+        es: "La computación en la nube proporciona servidores remotos para ejecutar aplicaciones de IA, ofreciendo poder escalable sin hardware local costoso.",
+        de: "Cloud Computing bietet entfernte Server und Ressourcen für KI-Anwendungen, mit skalierbarer Leistung ohne teure lokale Hardware.",
+        nl: "Cloud computing biedt externe servers en resources voor AI-toepassingen, met schaalbare kracht zonder dure lokale hardware."
+      }
+    },
+    {
+      question: {
+        en: "What is predictive analytics?",
+        es: "¿Qué es el análisis predictivo?",
+        de: "Was ist prädiktive Analytik?",
+        nl: "Wat is predictive analytics?"
+      },
+      options: [
+        {
+          en: "Using AI to forecast future trends",
+          es: "Usar IA para pronosticar tendencias futuras",
+          de: "KI nutzen, um zukünftige Trends vorherzusagen",
+          nl: "AI gebruiken om toekomstige trends te voorspellen"
+        },
+        {
+          en: "Guessing randomly",
+          es: "Adivinar aleatoriamente",
+          de: "Zufällig raten",
+          nl: "Willekeurig gokken"
+        },
+        {
+          en: "Looking at old photos",
+          es: "Ver fotos antiguas",
+          de: "Alte Fotos anschauen",
+          nl: "Oude foto's bekijken"
+        },
+        {
+          en: "Reading horoscopes",
+          es: "Leer horóscopos",
+          de: "Horoskope lesen",
+          nl: "Horoscopen lezen"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Predictive analytics uses AI and statistical techniques to analyze historical data and predict future outcomes, like sales forecasts or risk assessment.",
+        es: "El análisis predictivo usa IA y técnicas estadísticas para analizar datos históricos y predecir resultados futuros, como pronósticos de ventas.",
+        de: "Prädiktive Analytik nutzt KI und statistische Techniken, um historische Daten zu analysieren und zukünftige Ergebnisse vorherzusagen.",
+        nl: "Predictive analytics gebruikt AI en statistische technieken om historische data te analyseren en toekomstige uitkomsten te voorspellen."
+      }
+    },
+    {
+      question: {
+        en: "What is robotic process automation (RPA)?",
+        es: "¿Qué es la automatización robótica de procesos (RPA)?",
+        de: "Was ist Robotic Process Automation (RPA)?",
+        nl: "Wat is robotic process automation (RPA)?"
+      },
+      options: [
+        {
+          en: "Software bots automating repetitive tasks",
+          es: "Bots de software automatizando tareas repetitivas",
+          de: "Software-Bots automatisieren repetitive Aufgaben",
+          nl: "Software bots die repetitieve taken automatiseren"
+        },
+        {
+          en: "Building physical robots",
+          es: "Construir robots físicos",
+          de: "Physische Roboter bauen",
+          nl: "Fysieke robots bouwen"
+        },
+        {
+          en: "Robot dancing",
+          es: "Baile de robots",
+          de: "Roboter tanzen",
+          nl: "Robot dansen"
+        },
+        {
+          en: "Robot racing",
+          es: "Carreras de robots",
+          de: "Roboterrennen",
+          nl: "Robot racen"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "RPA uses software bots to automate repetitive digital tasks like data entry, form filling, and report generation, improving efficiency.",
+        es: "RPA usa bots de software para automatizar tareas digitales repetitivas como entrada de datos y generación de informes, mejorando la eficiencia.",
+        de: "RPA verwendet Software-Bots zur Automatisierung sich wiederholender digitaler Aufgaben wie Dateneingabe und Berichtserstellung.",
+        nl: "RPA gebruikt software bots om repetitieve digitale taken zoals data-invoer en rapportgeneratie te automatiseren voor betere efficiëntie."
+      }
+    },
+    {
+      question: {
+        en: "What is anomaly detection in AI?",
+        es: "¿Qué es la detección de anomalías en IA?",
+        de: "Was ist Anomalieerkennung in KI?",
+        nl: "Wat is anomalie detectie in AI?"
+      },
+      options: [
+        {
+          en: "Finding unusual patterns in data",
+          es: "Encontrar patrones inusuales en datos",
+          de: "Ungewöhnliche Muster in Daten finden",
+          nl: "Ongewone patronen in data vinden"
+        },
+        {
+          en: "Detecting aliens",
+          es: "Detectar alienígenas",
+          de: "Außerirdische entdecken",
+          nl: "Buitenaardse wezens detecteren"
+        },
+        {
+          en: "Finding lost items",
+          es: "Encontrar objetos perdidos",
+          de: "Verlorene Gegenstände finden",
+          nl: "Verloren voorwerpen vinden"
+        },
+        {
+          en: "Measuring temperature",
+          es: "Medir temperatura",
+          de: "Temperatur messen",
+          nl: "Temperatuur meten"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Anomaly detection uses AI to identify unusual patterns or outliers in data that differ from normal behavior, useful for fraud detection or system monitoring.",
+        es: "La detección de anomalías usa IA para identificar patrones inusuales en datos que difieren del comportamiento normal, útil para detectar fraude.",
+        de: "Anomalieerkennung nutzt KI, um ungewöhnliche Muster in Daten zu identifizieren, die vom normalen Verhalten abweichen.",
+        nl: "Anomalie detectie gebruikt AI om ongewone patronen in data te identificeren die afwijken van normaal gedrag, nuttig voor fraudedetectie."
+      }
+    },
+    {
+      question: {
+        en: "What is AI-powered personalization?",
+        es: "¿Qué es la personalización impulsada por IA?",
+        de: "Was ist KI-gestützte Personalisierung?",
+        nl: "Wat is AI-aangedreven personalisatie?"
+      },
+      options: [
+        {
+          en: "Customizing experiences based on user data",
+          es: "Personalizar experiencias basadas en datos de usuario",
+          de: "Erfahrungen basierend auf Nutzerdaten anpassen",
+          nl: "Ervaringen aanpassen op basis van gebruikersdata"
+        },
+        {
+          en: "Making everyone the same",
+          es: "Hacer a todos iguales",
+          de: "Alle gleich machen",
+          nl: "Iedereen hetzelfde maken"
+        },
+        {
+          en: "Writing names on items",
+          es: "Escribir nombres en artículos",
+          de: "Namen auf Gegenstände schreiben",
+          nl: "Namen op items schrijven"
+        },
+        {
+          en: "Taking selfies",
+          es: "Tomar selfies",
+          de: "Selfies machen",
+          nl: "Selfies maken"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "AI-powered personalization analyzes user behavior and preferences to customize content, recommendations, and experiences for each individual user.",
+        es: "La personalización con IA analiza el comportamiento del usuario para personalizar contenido, recomendaciones y experiencias para cada individuo.",
+        de: "KI-gestützte Personalisierung analysiert Nutzerverhalten, um Inhalte, Empfehlungen und Erfahrungen für jeden Nutzer anzupassen.",
+        nl: "AI-aangedreven personalisatie analyseert gebruikersgedrag om content, aanbevelingen en ervaringen aan te passen voor elke gebruiker."
+      }
+    },
+    {
+      question: {
+        en: "What is synthetic data in AI?",
+        es: "¿Qué son los datos sintéticos en IA?",
+        de: "Was sind synthetische Daten in KI?",
+        nl: "Wat is synthetische data in AI?"
+      },
+      options: [
+        {
+          en: "Artificially generated training data",
+          es: "Datos de entrenamiento generados artificialmente",
+          de: "Künstlich erzeugte Trainingsdaten",
+          nl: "Kunstmatig gegenereerde trainingsdata"
+        },
+        {
+          en: "Plastic information",
+          es: "Información de plástico",
+          de: "Plastikinformationen",
+          nl: "Plastic informatie"
+        },
+        {
+          en: "Fake news",
+          es: "Noticias falsas",
+          de: "Falsche Nachrichten",
+          nl: "Nepnieuws"
+        },
+        {
+          en: "Chemical data",
+          es: "Datos químicos",
+          de: "Chemische Daten",
+          nl: "Chemische data"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Synthetic data is artificially generated data that mimics real data, used to train AI models when real data is scarce, sensitive, or expensive.",
+        es: "Los datos sintéticos son datos generados artificialmente que imitan datos reales, usados para entrenar modelos cuando los datos reales son escasos.",
+        de: "Synthetische Daten sind künstlich erzeugte Daten, die echte Daten nachahmen, verwendet zum Training wenn echte Daten knapp sind.",
+        nl: "Synthetische data is kunstmatig gegenereerde data die echte data nabootst, gebruikt om AI-modellen te trainen wanneer echte data schaars is."
+      }
+    },
+    {
+      question: {
+        en: "What is federated learning?",
+        es: "¿Qué es el aprendizaje federado?",
+        de: "Was ist föderiertes Lernen?",
+        nl: "Wat is federated learning?"
+      },
+      options: [
+        {
+          en: "Training AI on distributed devices",
+          es: "Entrenar IA en dispositivos distribuidos",
+          de: "KI auf verteilten Geräten trainieren",
+          nl: "AI trainen op gedistribueerde apparaten"
+        },
+        {
+          en: "Learning about governments",
+          es: "Aprender sobre gobiernos",
+          de: "Über Regierungen lernen",
+          nl: "Leren over overheden"
+        },
+        {
+          en: "Federal education programs",
+          es: "Programas educativos federales",
+          de: "Bundesbildungsprogramme",
+          nl: "Federale onderwijsprogramma's"
+        },
+        {
+          en: "Learning to fly",
+          es: "Aprender a volar",
+          de: "Fliegen lernen",
+          nl: "Leren vliegen"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Federated learning trains AI models across multiple devices or servers holding local data, without exchanging the data itself, preserving privacy.",
+        es: "El aprendizaje federado entrena modelos de IA en múltiples dispositivos con datos locales, sin intercambiar los datos, preservando la privacidad.",
+        de: "Föderiertes Lernen trainiert KI-Modelle auf mehreren Geräten mit lokalen Daten, ohne die Daten auszutauschen.",
+        nl: "Federated learning traint AI-modellen op meerdere apparaten met lokale data, zonder de data zelf uit te wisselen voor privacy."
+      }
+    },
+    {
+      question: {
+        en: "What is explainable AI (XAI)?",
+        es: "¿Qué es IA explicable (XAI)?",
+        de: "Was ist erklärbare KI (XAI)?",
+        nl: "Wat is explainable AI (XAI)?"
+      },
+      options: [
+        {
+          en: "AI that can explain its decisions",
+          es: "IA que puede explicar sus decisiones",
+          de: "KI, die ihre Entscheidungen erklären kann",
+          nl: "AI die haar beslissingen kan uitleggen"
+        },
+        {
+          en: "AI that teaches math",
+          es: "IA que enseña matemáticas",
+          de: "KI, die Mathematik lehrt",
+          nl: "AI die wiskunde onderwijst"
+        },
+        {
+          en: "Very simple AI",
+          es: "IA muy simple",
+          de: "Sehr einfache KI",
+          nl: "Heel simpele AI"
+        },
+        {
+          en: "AI for children",
+          es: "IA para niños",
+          de: "KI für Kinder",
+          nl: "AI voor kinderen"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Explainable AI creates models whose decisions can be understood by humans, showing how and why certain conclusions were reached.",
+        es: "La IA explicable crea modelos cuyas decisiones pueden ser entendidas por humanos, mostrando cómo y por qué se llegó a ciertas conclusiones.",
+        de: "Erklärbare KI erstellt Modelle, deren Entscheidungen von Menschen verstanden werden können, zeigt wie und warum Schlussfolgerungen erreicht wurden.",
+        nl: "Explainable AI creëert modellen waarvan de beslissingen begrepen kunnen worden door mensen, door te tonen hoe en waarom conclusies werden bereikt."
+      }
+    },
+    {
+      question: {
+        en: "What is the main challenge with AI today?",
+        es: "¿Cuál es el principal desafío con la IA hoy?",
+        de: "Was ist die größte Herausforderung mit KI heute?",
+        nl: "Wat is de grootste uitdaging met AI vandaag?"
+      },
+      options: [
+        {
+          en: "Ensuring fairness and avoiding bias",
+          es: "Garantizar equidad y evitar sesgos",
+          de: "Fairness sicherstellen und Bias vermeiden",
+          nl: "Eerlijkheid waarborgen en bias vermijden"
+        },
+        {
+          en: "Making AI slower",
+          es: "Hacer la IA más lenta",
+          de: "KI langsamer machen",
+          nl: "AI langzamer maken"
+        },
+        {
+          en: "Using less data",
+          es: "Usar menos datos",
+          de: "Weniger Daten verwenden",
+          nl: "Minder data gebruiken"
+        },
+        {
+          en: "Making it more expensive",
+          es: "Hacerla más cara",
+          de: "Sie teurer machen",
+          nl: "Het duurder maken"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A major challenge is ensuring AI systems are fair, unbiased, and ethical, avoiding discrimination while maintaining transparency and accountability.",
+        es: "Un gran desafío es garantizar que los sistemas de IA sean justos, sin sesgos y éticos, evitando la discriminación manteniendo transparencia.",
+        de: "Eine große Herausforderung ist sicherzustellen, dass KI-Systeme fair, unvoreingenommen und ethisch sind.",
+        nl: "Een grote uitdaging is ervoor zorgen dat AI-systemen eerlijk, onbevooroordeeld en ethisch zijn, discriminatie vermijden met transparantie."
+      }
+    }
+  ]
+};

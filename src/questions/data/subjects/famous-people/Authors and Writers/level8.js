@@ -1,1040 +1,4104 @@
-// Authors and Writers Quiz - Level 8: Knowledge about Authors and Writers
-(function() {
-  const level8 = {
-    name: {
-      en: "Authors and Writers Level 8",
-      es: "Autores y Escritores Nivel 8",
-      de: "Autoren und Schriftsteller Stufe 8",
-      nl: "Auteurs en Schrijvers Level 8"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Authors and Writers",
+      "es": "Pregunta 1 sobre Authors and Writers",
+      "de": "Frage 1 über Authors and Writers",
+      "nl": "Vraag 1 over Authors and Writers"
     },
-    questions: [
+    "options": [
       {
-        question: {
-          en: "Which modernist writer coined the term 'stream of consciousness' while reviewing a novel by Dorothy Richardson?",
-          es: "¿Qué escritor modernista acuñó el término 'flujo de conciencia' mientras reseñaba una novela de Dorothy Richardson?",
-          de: "Welcher modernistische Schriftsteller prägte den Begriff 'Bewusstseinsstrom' beim Rezensieren eines Romans von Dorothy Richardson?",
-          nl: "Welke modernistische schrijver muntte de term 'bewustzijnsstroom' terwijl hij een roman van Dorothy Richardson besprak?"
-        },
-        options: [
-          {en: "Virginia Woolf", es: "Virginia Woolf", de: "Virginia Woolf", nl: "Virginia Woolf"},
-          {en: "May Sinclair", es: "May Sinclair", de: "May Sinclair", nl: "May Sinclair"},
-          {en: "William James", es: "William James", de: "William James", nl: "William James"},
-          {en: "Henry James", es: "Henry James", de: "Henry James", nl: "Henry James"}
-        ],
-        correct: 1,
-        explanation: {
-          en: "May Sinclair first used the phrase 'stream of consciousness' in a 1918 review of Dorothy Richardson's novels. Though William James had used the concept in psychology, Sinclair applied it specifically to literary technique.",
-          es: "May Sinclair usó por primera vez la frase 'flujo de conciencia' en una reseña de 1918 de las novelas de Dorothy Richardson. Aunque William James había usado el concepto en psicología, Sinclair lo aplicó específicamente a la técnica literaria.",
-          de: "May Sinclair verwendete zuerst die Phrase 'Bewusstseinsstrom' in einer Rezension von 1918 über Dorothy Richardsons Romane. Obwohl William James das Konzept in der Psychologie verwendet hatte, wandte Sinclair es speziell auf literarische Technik an.",
-          nl: "May Sinclair gebruikte eerst de uitdrukking 'bewustzijnsstrom' in een recensie uit 1918 van Dorothy Richardson's romans. Hoewel William James het concept in de psychologie had gebruikt, paste Sinclair het specifiek toe op literaire techniek."
-        }
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
       },
       {
-        question: {
-          en: "Which postmodern author wrote 'The Crying of Lot 49', featuring the mysterious postal system W.A.S.T.E.?",
-          es: "¿Qué autor posmoderno escribió 'El subastador de lote 49', protagonizando el misterioso sistema postal W.A.S.T.E.?",
-          de: "Welcher postmoderne Autor schrieb 'Die Versteigerung von Los 49' mit dem geheimnisvollen Postsystem W.A.S.T.E.?",
-          nl: "Welke postmoderne auteur schreef 'The Crying of Lot 49', met het mysterieuze postsysteem W.A.S.T.E.?"
-        },
-        options: [
-          {en: "Don DeLillo", es: "Don DeLillo", de: "Don DeLillo", nl: "Don DeLillo"},
-          {en: "Thomas Pynchon", es: "Thomas Pynchon", de: "Thomas Pynchon", nl: "Thomas Pynchon"},
-          {en: "Kurt Vonnegut", es: "Kurt Vonnegut", de: "Kurt Vonnegut", nl: "Kurt Vonnegut"},
-          {en: "Philip K. Dick", es: "Philip K. Dick", de: "Philip K. Dick", nl: "Philip K. Dick"}
-        ],
-        correct: 1,
-        explanation: {
-          en: "Thomas Pynchon wrote 'The Crying of Lot 49' (1966), a paranoid fiction about Oedipa Maas discovering the underground postal system Trystero and its symbol W.A.S.T.E. The novella explores themes of communication, conspiracy, and entropy.",
-          es: "Thomas Pynchon escribió 'El subastador de lote 49' (1966), una ficción paranoica sobre Oedipa Maas descubriendo el sistema postal subterráneo Trystero y su símbolo W.A.S.T.E. La novela corta explora temas de comunicación, conspiración y entropía.",
-          de: "Thomas Pynchon schrieb 'Die Versteigerung von Los 49' (1966), eine paranoide Fiktion über Oedipa Maas, die das unterirdische Postsystem Trystero und sein Symbol W.A.S.T.E. entdeckt. Die Novelle erforscht Themen der Kommunikation, Verschwörung und Entropie.",
-          nl: "Thomas Pynchon schreef 'The Crying of Lot 49' (1966), een paranoïde fictie over Oedipa Maas die het ondergrondse postsysteem Trystero en zijn symbool W.A.S.T.E. ontdekt. De novelle verkent thema's van communicatie, samenzwering en entropie."
-        }
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
       },
       {
-        question: {
-          en: "Which French existentialist author wrote 'The Stranger' and won the Nobel Prize in Literature?",
-          es: "¿Qué autor existencialista francés escribió 'El extranjero' y ganó el Premio Nobel de Literatura?",
-          de: "Welcher französische existentialistische Autor schrieb 'Der Fremde' und gewann den Nobelpreis für Literatur?",
-          nl: "Welke Franse existentialistische auteur schreef 'De Vreemdeling' en won de Nobelprijs voor Literatuur?"
-        },
-        options: [
-          {en: "Jean-Paul Sartre", es: "Jean-Paul Sartre", de: "Jean-Paul Sartre", nl: "Jean-Paul Sartre"},
-          {en: "Albert Camus", es: "Albert Camus", de: "Albert Camus", nl: "Albert Camus"},
-          {en: "André Gide", es: "André Gide", de: "André Gide", nl: "André Gide"},
-          {en: "Maurice Merleau-Ponty", es: "Maurice Merleau-Ponty", de: "Maurice Merleau-Ponty", nl: "Maurice Merleau-Ponty"}
-        ],
-        correct: 1,
-        explanation: {
-          en: "Albert Camus wrote 'The Stranger' (L'Étranger) in 1942 and won the Nobel Prize in Literature in 1957. The novel explores themes of absurdism and existentialism through protagonist Meursault.",
-          es: "Albert Camus escribió 'El extranjero' (L'Étranger) en 1942 y ganó el Premio Nobel de Literatura en 1957. La novela explora temas de absurdismo y existencialismo a través del protagonista Meursault.",
-          de: "Albert Camus schrieb 'Der Fremde' (L'Étranger) 1942 und gewann 1957 den Nobelpreis für Literatur. Der Roman erforscht Themen des Absurdismus und Existentialismus durch den Protagonisten Meursault.",
-          nl: "Albert Camus schreef 'De Vreemdeling' (L'Étranger) in 1942 en won de Nobelprijs voor Literatuur in 1957. De roman verkent thema's van absurdisme en existentialisme door protagonist Meursault."
-        }
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
       },
       {
-        question: {
-          en: "Who wrote the epic fantasy series 'A Song of Ice and Fire', which inspired the TV series 'Game of Thrones'?",
-          es: "¿Quién escribió la serie de fantasía épica 'Canción de hielo y fuego', que inspiró la serie de TV 'Juego de tronos'?",
-          de: "Wer schrieb die epische Fantasy-Serie 'Das Lied von Eis und Feuer', die die TV-Serie 'Game of Thrones' inspirierte?",
-          nl: "Wie schreef de epische fantasyserie 'A Song of Ice and Fire', die de TV-serie 'Game of Thrones' inspireerde?"
-        },
-        options: [
-          {en: "Brandon Sanderson", es: "Brandon Sanderson", de: "Brandon Sanderson", nl: "Brandon Sanderson"},
-          {en: "George R.R. Martin", es: "George R.R. Martin", de: "George R.R. Martin", nl: "George R.R. Martin"},
-          {en: "Robin Hobb", es: "Robin Hobb", de: "Robin Hobb", nl: "Robin Hobb"},
-          {en: "Joe Abercrombie", es: "Joe Abercrombie", de: "Joe Abercrombie", nl: "Joe Abercrombie"}
-        ],
-        correct: 1,
-        explanation: {
-          en: "George R.R. Martin wrote the 'A Song of Ice and Fire' series, beginning with 'A Game of Thrones' in 1996. The series is known for its complex political intrigue and morally gray characters.",
-          es: "George R.R. Martin escribió la serie 'Canción de hielo y fuego', comenzando con 'Juego de tronos' en 1996. La serie es conocida por su compleja intriga política y personajes moralmente grises.",
-          de: "George R.R. Martin schrieb die Serie 'Das Lied von Eis und Feuer', beginnend mit 'Die Herren von Winterfell' 1996. Die Serie ist bekannt für komplexe politische Intrigen und moralisch graue Charaktere.",
-          nl: "George R.R. Martin schreef de 'A Song of Ice and Fire' serie, beginnend met 'A Game of Thrones' in 1996. De serie staat bekend om zijn complexe politieke intriges en moreel grijze personages."
-        }
-      },
-      {
-        question: {
-          en: "Which Colombian author wrote 'One Hundred Years of Solitude' and won the Nobel Prize in Literature?",
-          es: "¿Qué autor colombiano escribió 'Cien años de soledad' y ganó el Premio Nobel de Literatura?",
-          de: "Welcher kolumbianische Autor schrieb 'Hundert Jahre Einsamkeit' und gewann den Nobelpreis für Literatur?",
-          nl: "Welke Colombiaanse auteur schreef 'Honderd jaar eenzaamheid' en won de Nobelprijs voor Literatuur?"
-        },
-        options: [
-          {en: "Mario Vargas Llosa", es: "Mario Vargas Llosa", de: "Mario Vargas Llosa", nl: "Mario Vargas Llosa"},
-          {en: "Gabriel García Márquez", es: "Gabriel García Márquez", de: "Gabriel García Márquez", nl: "Gabriel García Márquez"},
-          {en: "Julio Cortázar", es: "Julio Cortázar", de: "Julio Cortázar", nl: "Julio Cortázar"},
-          {en: "Jorge Luis Borges", es: "Jorge Luis Borges", de: "Jorge Luis Borges", nl: "Jorge Luis Borges"}
-        ],
-        correct: 1,
-        explanation: {
-          en: "Gabriel García Márquez wrote 'One Hundred Years of Solitude' (1967) and won the Nobel Prize in Literature in 1982. He is considered a master of magical realism.",
-          es: "Gabriel García Márquez escribió 'Cien años de soledad' (1967) y ganó el Premio Nobel de Literatura en 1982. Es considerado un maestro del realismo mágico.",
-          de: "Gabriel García Márquez schrieb 'Hundert Jahre Einsamkeit' (1967) und gewann 1982 den Nobelpreis für Literatur. Er gilt als Meister des magischen Realismus.",
-          nl: "Gabriel García Márquez schreef 'Honderd jaar eenzaamheid' (1967) en won de Nobelprijs voor Literatuur in 1982. Hij wordt beschouwd als een meester van het magisch realisme."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'The Great Gatsby', considered one of the greatest American novels?",
-          es: "¿Quién escribió 'El gran Gatsby', considerada una de las mejores novelas estadounidenses?",
-          de: "Wer schrieb 'Der große Gatsby', der als einer der größten amerikanischen Romane gilt?",
-          nl: "Wie schreef 'The Great Gatsby', beschouwd als een van de grootste Amerikaanse romans?"
-        },
-        options: [
-          {en: "Ernest Hemingway", es: "Ernest Hemingway", de: "Ernest Hemingway", nl: "Ernest Hemingway"},
-          {en: "F. Scott Fitzgerald", es: "F. Scott Fitzgerald", de: "F. Scott Fitzgerald", nl: "F. Scott Fitzgerald"},
-          {en: "John Steinbeck", es: "John Steinbeck", de: "John Steinbeck", nl: "John Steinbeck"},
-          {en: "William Faulkner", es: "William Faulkner", de: "William Faulkner", nl: "William Faulkner"}
-        ],
-        correct: 1,
-        explanation: {
-          en: "F. Scott Fitzgerald wrote 'The Great Gatsby' in 1925. The novel explores themes of the American Dream, wealth, and moral decay in the Jazz Age.",
-          es: "F. Scott Fitzgerald escribió 'El gran Gatsby' en 1925. La novela explora temas del Sueño Americano, riqueza y decadencia moral en la Era del Jazz.",
-          de: "F. Scott Fitzgerald schrieb 'Der große Gatsby' 1925. Der Roman erforscht Themen des amerikanischen Traums, Reichtum und moralischen Verfall im Jazz-Zeitalter.",
-          nl: "F. Scott Fitzgerald schreef 'The Great Gatsby' in 1925. De roman verkent thema's van de Amerikaanse Droom, rijkdom en moreel verval in het Jazz-tijdperk."
-        }
-      },
-      {
-        question: {
-          en: "Which Japanese author wrote 'Norwegian Wood' and 'Kafka on the Shore'?",
-          es: "¿Qué autor japonés escribió 'Norwegian Wood' y 'Kafka en la orilla'?",
-          de: "Welcher japanische Autor schrieb 'Norwegian Wood' und 'Kafka am Strand'?",
-          nl: "Welke Japanse auteur schreef 'Norwegian Wood' en 'Kafka on the Shore'?"
-        },
-        options: [
-          {en: "Yukio Mishima", es: "Yukio Mishima", de: "Yukio Mishima", nl: "Yukio Mishima"},
-          {en: "Haruki Murakami", es: "Haruki Murakami", de: "Haruki Murakami", nl: "Haruki Murakami"},
-          {en: "Kazuo Ishiguro", es: "Kazuo Ishiguro", de: "Kazuo Ishiguro", nl: "Kazuo Ishiguro"},
-          {en: "Yasunari Kawabata", es: "Yasunari Kawabata", de: "Yasunari Kawabata", nl: "Yasunari Kawabata"}
-        ],
-        correct: 1,
-        explanation: {
-          en: "Haruki Murakami is a contemporary Japanese author known for his surreal, often dreamlike narratives. 'Norwegian Wood' (1987) and 'Kafka on the Shore' (2002) are among his most popular works.",
-          es: "Haruki Murakami es un autor japonés contemporáneo conocido por sus narrativas surrealistas, a menudo oníricas. 'Norwegian Wood' (1987) y 'Kafka en la orilla' (2002) están entre sus obras más populares.",
-          de: "Haruki Murakami ist ein zeitgenössischer japanischer Autor, bekannt für seine surrealen, oft traumhaften Erzählungen. 'Norwegian Wood' (1987) und 'Kafka am Strand' (2002) gehören zu seinen populärsten Werken.",
-          nl: "Haruki Murakami is een hedendaagse Japanse auteur bekend om zijn surrealistische, vaak droomachtige verhalen. 'Norwegian Wood' (1987) en 'Kafka on the Shore' (2002) behoren tot zijn populairste werken."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote the dystopian novel '1984' featuring Big Brother and thoughtcrime?",
-          es: "¿Quién escribió la novela distópica '1984' que presenta a Gran Hermano y el crimen de pensamiento?",
-          de: "Wer schrieb den dystopischen Roman '1984' mit Big Brother und Gedankenverbrechen?",
-          nl: "Wie schreef de dystopische roman '1984' met Big Brother en gedachtecriminaliteit?"
-        },
-        options: [
-          {en: "Aldous Huxley", es: "Aldous Huxley", de: "Aldous Huxley", nl: "Aldous Huxley"},
-          {en: "George Orwell", es: "George Orwell", de: "George Orwell", nl: "George Orwell"},
-          {en: "Ray Bradbury", es: "Ray Bradbury", de: "Ray Bradbury", nl: "Ray Bradbury"},
-          {en: "Kurt Vonnegut", es: "Kurt Vonnegut", de: "Kurt Vonnegut", nl: "Kurt Vonnegut"}
-        ],
-        correct: 1,
-        explanation: {
-          en: "George Orwell wrote '1984' in 1948, creating concepts like Big Brother, thoughtcrime, and doublethink that have become part of political discourse about surveillance and authoritarianism.",
-          es: "George Orwell escribió '1984' en 1948, creando conceptos como Gran Hermano, crimen de pensamiento y doblepensar que se han convertido en parte del discurso político sobre vigilancia y autoritarismo.",
-          de: "George Orwell schrieb '1984' 1948 und schuf Konzepte wie Big Brother, Gedankenverbrechen und Doppeldenk, die Teil des politischen Diskurses über Überwachung und Autoritarismus geworden sind.",
-          nl: "George Orwell schreef '1984' in 1948, en creëerde concepten zoals Big Brother, gedachtecriminaliteit en dubbeldenk die onderdeel zijn geworden van politiek discours over surveillance en autoritarisme."
-        }
-      },
-      {
-        question: {
-          en: "Which British author created the character Sherlock Holmes?",
-          es: "¿Qué autor británico creó el personaje de Sherlock Holmes?",
-          de: "Welcher britische Autor schuf die Figur Sherlock Holmes?",
-          nl: "Welke Britse auteur creëerde het personage Sherlock Holmes?"
-        },
-        options: [
-          {en: "Agatha Christie", es: "Agatha Christie", de: "Agatha Christie", nl: "Agatha Christie"},
-          {en: "Arthur Conan Doyle", es: "Arthur Conan Doyle", de: "Arthur Conan Doyle", nl: "Arthur Conan Doyle"},
-          {en: "Edgar Allan Poe", es: "Edgar Allan Poe", de: "Edgar Allan Poe", nl: "Edgar Allan Poe"},
-          {en: "G.K. Chesterton", es: "G.K. Chesterton", de: "G.K. Chesterton", nl: "G.K. Chesterton"}
-        ],
-        correct: 1,
-        explanation: {
-          en: "Arthur Conan Doyle created Sherlock Holmes in 1887 with 'A Study in Scarlet'. The detective appeared in 4 novels and 56 short stories, becoming one of literature's most famous characters.",
-          es: "Arthur Conan Doyle creó a Sherlock Holmes en 1887 con 'Estudio en escarlata'. El detective apareció en 4 novelas y 56 relatos cortos, convirtiéndose en uno de los personajes más famosos de la literatura.",
-          de: "Arthur Conan Doyle schuf Sherlock Holmes 1887 mit 'Eine Studie in Scharlachrot'. Der Detektiv erschien in 4 Romanen und 56 Kurzgeschichten und wurde zu einer der berühmtesten Figuren der Literatur.",
-          nl: "Arthur Conan Doyle creëerde Sherlock Holmes in 1887 met 'A Study in Scarlet'. De detective verscheen in 4 romans en 56 korte verhalen, en werd een van de beroemdste personages uit de literatuur."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'To Kill a Mockingbird', exploring themes of racial injustice in the American South?",
-          es: "¿Quién escribió 'Matar a un ruiseñor', explorando temas de injusticia racial en el sur de Estados Unidos?",
-          de: "Wer schrieb 'Wer die Nachtigall stört', der Themen der Rassenungerechtigkeit im amerikanischen Süden erforscht?",
-          nl: "Wie schreef 'To Kill a Mockingbird', dat thema's van raciale onrechtvaardigheid in het Amerikaanse Zuiden verkent?"
-        },
-        options: [
-          {en: "Toni Morrison", es: "Toni Morrison", de: "Toni Morrison", nl: "Toni Morrison"},
-          {en: "Harper Lee", es: "Harper Lee", de: "Harper Lee", nl: "Harper Lee"},
-          {en: "Flannery O'Connor", es: "Flannery O'Connor", de: "Flannery O'Connor", nl: "Flannery O'Connor"},
-          {en: "Maya Angelou", es: "Maya Angelou", de: "Maya Angelou", nl: "Maya Angelou"}
-        ],
-        correct: 1,
-        explanation: {
-          en: "Harper Lee wrote 'To Kill a Mockingbird' in 1960, which won the Pulitzer Prize. The novel addresses issues of racial inequality through the eyes of young Scout Finch.",
-          es: "Harper Lee escribió 'Matar a un ruiseñor' en 1960, que ganó el Premio Pulitzer. La novela aborda temas de desigualdad racial a través de los ojos de la joven Scout Finch.",
-          de: "Harper Lee schrieb 'Wer die Nachtigall stört' 1960, das den Pulitzer-Preis gewann. Der Roman behandelt Themen der Rassenungleichheit durch die Augen der jungen Scout Finch.",
-          nl: "Harper Lee schreef 'To Kill a Mockingbird' in 1960, dat de Pulitzer Prijs won. De roman behandelt thema's van raciale ongelijkheid door de ogen van de jonge Scout Finch."
-        }
-      },
-      {
-        question: {
-          en: "Which Russian author wrote 'Crime and Punishment' and 'The Brothers Karamazov'?",
-          es: "¿Qué autor ruso escribió 'Crimen y castigo' y 'Los hermanos Karamazov'?",
-          de: "Welcher russische Autor schrieb 'Schuld und Sühne' und 'Die Brüder Karamasow'?",
-          nl: "Welke Russische auteur schreef 'Misdaad en straf' en 'De gebroeders Karamazov'?"
-        },
-        options: [
-          {en: "Leo Tolstoy", es: "Leo Tolstoy", de: "Leo Tolstoi", nl: "Leo Tolstoj"},
-          {en: "Fyodor Dostoevsky", es: "Fyodor Dostoevsky", de: "Fjodor Dostojewski", nl: "Fjodor Dostojevski"},
-          {en: "Anton Chekhov", es: "Anton Chekhov", de: "Anton Tschechow", nl: "Anton Tsjechov"},
-          {en: "Ivan Turgenev", es: "Ivan Turgenev", de: "Iwan Turgenew", nl: "Ivan Toergenjev"}
-        ],
-        correct: 1,
-        explanation: {
-          en: "Fyodor Dostoevsky wrote both 'Crime and Punishment' (1866) and 'The Brothers Karamazov' (1880). His works explore deep psychological and philosophical themes, often dealing with faith, suffering, and redemption.",
-          es: "Fyodor Dostoevsky escribió tanto 'Crimen y castigo' (1866) como 'Los hermanos Karamazov' (1880). Sus obras exploran temas psicológicos y filosóficos profundos, a menudo tratando fe, sufrimiento y redención.",
-          de: "Fjodor Dostojewski schrieb sowohl 'Schuld und Sühne' (1866) als auch 'Die Brüder Karamasow' (1880). Seine Werke erforschen tiefe psychologische und philosophische Themen, oft Glaube, Leiden und Erlösung behandelnd.",
-          nl: "Fjodor Dostojevski schreef zowel 'Misdaad en straf' (1866) als 'De gebroeders Karamazov' (1880). Zijn werken verkennen diepe psychologische en filosofische thema's, vaak handelend over geloof, lijden en verlossing."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'The Handmaid's Tale', a dystopian novel about women's rights?",
-          es: "¿Quién escribió 'El cuento de la criada', una novela distópica sobre los derechos de las mujeres?",
-          de: "Wer schrieb 'Der Report der Magd', einen dystopischen Roman über Frauenrechte?",
-          nl: "Wie schreef 'The Handmaid's Tale', een dystopische roman over vrouwenrechten?"
-        },
-        options: [
-          {en: "Ursula K. Le Guin", es: "Ursula K. Le Guin", de: "Ursula K. Le Guin", nl: "Ursula K. Le Guin"},
-          {en: "Margaret Atwood", es: "Margaret Atwood", de: "Margaret Atwood", nl: "Margaret Atwood"},
-          {en: "Octavia Butler", es: "Octavia Butler", de: "Octavia Butler", nl: "Octavia Butler"},
-          {en: "Doris Lessing", es: "Doris Lessing", de: "Doris Lessing", nl: "Doris Lessing"}
-        ],
-        correct: 1,
-        explanation: {
-          en: "Margaret Atwood wrote 'The Handmaid's Tale' in 1985. The novel depicts a totalitarian society where women's rights are severely restricted, and it has gained renewed relevance in contemporary discussions about women's autonomy.",
-          es: "Margaret Atwood escribió 'El cuento de la criada' en 1985. La novela retrata una sociedad totalitaria donde los derechos de las mujeres están severamente restringidos, y ha ganado relevancia renovada en discusiones contemporáneas sobre autonomía femenina.",
-          de: "Margaret Atwood schrieb 'Der Report der Magd' 1985. Der Roman schildert eine totalitäre Gesellschaft wo Frauenrechte stark eingeschränkt sind, und hat in zeitgenössischen Diskussionen über weibliche Autonomie erneute Relevanz gewonnen.",
-          nl: "Margaret Atwood schreef 'The Handmaid's Tale' in 1985. De roman beeldt een totalitaire samenleving af waar vrouwenrechten zwaar beperkt zijn, en heeft hernieuwde relevantie gekregen in hedendaagse discussies over vrouwelijke autonomie."
-        }
-      },
-      {
-        question: {
-          en: "Which Beat Generation author wrote 'On the Road', a defining novel of the 1950s counterculture?",
-          es: "¿Qué autor de la Generación Beat escribió 'En el camino', una novela definitoria de la contracultura de los años 50?",
-          de: "Welcher Autor der Beat Generation schrieb 'Unterwegs', einen definierenden Roman der Gegenkultur der 1950er?",
-          nl: "Welke Beat Generation auteur schreef 'On the Road', een bepalende roman van de tegencultuur van de jaren 50?"
-        },
-        options: [
-          {en: "Allen Ginsberg", es: "Allen Ginsberg", de: "Allen Ginsberg", nl: "Allen Ginsberg"},
-          {en: "Jack Kerouac", es: "Jack Kerouac", de: "Jack Kerouac", nl: "Jack Kerouac"},
-          {en: "William Burroughs", es: "William Burroughs", de: "William Burroughs", nl: "William Burroughs"},
-          {en: "Gary Snyder", es: "Gary Snyder", de: "Gary Snyder", nl: "Gary Snyder"}
-        ],
-        correct: 1,
-        explanation: {
-          en: "Jack Kerouac wrote 'On the Road' in 1957, which became a defining work of the Beat Generation. The novel was written in a spontaneous prose style and chronicles cross-country travels and adventures.",
-          es: "Jack Kerouac escribió 'En el camino' en 1957, que se convirtió en una obra definitoria de la Generación Beat. La novela fue escrita en un estilo de prosa espontánea y narra viajes y aventuras por todo el país.",
-          de: "Jack Kerouac schrieb 'Unterwegs' 1957, das zu einem definierenden Werk der Beat Generation wurde. Der Roman wurde in spontanem Prosastil geschrieben und erzählt von landesweiten Reisen und Abenteuern.",
-          nl: "Jack Kerouac schreef 'On the Road' in 1957, dat een bepalend werk van de Beat Generation werd. De roman werd geschreven in een spontane prozastijl en chronicleert reizen en avonturen door het hele land."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'Beloved', a novel about slavery's lasting trauma that won the Pulitzer Prize?",
-          es: "¿Quién escribió 'Beloved', una novela sobre el trauma duradero de la esclavitud que ganó el Premio Pulitzer?",
-          de: "Wer schrieb 'Beloved', einen Roman über das anhaltende Trauma der Sklaverei, der den Pulitzer-Preis gewann?",
-          nl: "Wie schreef 'Beloved', een roman over het blijvende trauma van slavernij die de Pulitzer Prijs won?"
-        },
-        options: [
-          {en: "Alice Walker", es: "Alice Walker", de: "Alice Walker", nl: "Alice Walker"},
-          {en: "Toni Morrison", es: "Toni Morrison", de: "Toni Morrison", nl: "Toni Morrison"},
-          {en: "Zora Neale Hurston", es: "Zora Neale Hurston", de: "Zora Neale Hurston", nl: "Zora Neale Hurston"},
-          {en: "Gloria Naylor", es: "Gloria Naylor", de: "Gloria Naylor", nl: "Gloria Naylor"}
-        ],
-        correct: 1,
-        explanation: {
-          en: "Toni Morrison wrote 'Beloved' in 1987, which won the Pulitzer Prize for Fiction in 1988. The novel explores the psychological impact of slavery through the story of Sethe, a former slave haunted by her past.",
-          es: "Toni Morrison escribió 'Beloved' en 1987, que ganó el Premio Pulitzer de Ficción en 1988. La novela explora el impacto psicológico de la esclavitud a través de la historia de Sethe, una ex esclava atormentada por su pasado.",
-          de: "Toni Morrison schrieb 'Beloved' 1987, das 1988 den Pulitzer-Preis für Belletristik gewann. Der Roman erforscht die psychologischen Auswirkungen der Sklaverei durch die Geschichte von Sethe, einer ehemaligen Sklavin, die von ihrer Vergangenheit verfolgt wird.",
-          nl: "Toni Morrison schreef 'Beloved' in 1987, dat de Pulitzer Prijs voor Fictie won in 1988. De roman verkent de psychologische impact van slavernij door het verhaal van Sethe, een voormalige slavin achtervolgd door haar verleden."
-        }
-      },
-      {
-        question: {
-          en: "Which Nigerian author wrote 'Things Fall Apart', exploring colonialism's impact on African society?",
-          es: "¿Qué autor nigeriano escribió 'Todo se desmorona', explorando el impacto del colonialismo en la sociedad africana?",
-          de: "Welcher nigerianische Autor schrieb 'Alles zerfällt', der den Einfluss des Kolonialismus auf die afrikanische Gesellschaft erforscht?",
-          nl: "Welke Nigeriaanse auteur schreef 'Things Fall Apart', dat de impact van kolonialisme op de Afrikaanse samenleving verkent?"
-        },
-        options: [
-          {en: "Wole Soyinka", es: "Wole Soyinka", de: "Wole Soyinka", nl: "Wole Soyinka"},
-          {en: "Chinua Achebe", es: "Chinua Achebe", de: "Chinua Achebe", nl: "Chinua Achebe"},
-          {en: "Ngugi wa Thiong'o", es: "Ngugi wa Thiong'o", de: "Ngugi wa Thiong'o", nl: "Ngugi wa Thiong'o"},
-          {en: "Buchi Emecheta", es: "Buchi Emecheta", de: "Buchi Emecheta", nl: "Buchi Emecheta"}
-        ],
-        correct: 1,
-        explanation: {
-          en: "Chinua Achebe wrote 'Things Fall Apart' in 1958, which is considered one of the most important works of African literature. The novel depicts the collision between traditional Igbo society and European colonialism.",
-          es: "Chinua Achebe escribió 'Todo se desmorona' en 1958, que es considerada una de las obras más importantes de la literatura africana. La novela retrata la colisión entre la sociedad Igbo tradicional y el colonialismo europeo.",
-          de: "Chinua Achebe schrieb 'Alles zerfällt' 1958, das als eines der wichtigsten Werke der afrikanischen Literatur gilt. Der Roman schildert die Kollision zwischen traditioneller Igbo-Gesellschaft und europäischem Kolonialismus.",
-          nl: "Chinua Achebe schreef 'Things Fall Apart' in 1958, dat beschouwd wordt als een van de belangrijkste werken van de Afrikaanse literatuur. De roman beeldt de botsing af tussen traditionele Igbo samenleving en Europees kolonialisme."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'The Picture of Dorian Gray', a novel about vanity and moral corruption?",
-          es: "¿Quién escribió 'El retrato de Dorian Gray', una novela sobre vanidad y corrupción moral?",
-          de: "Wer schrieb 'Das Bildnis des Dorian Gray', einen Roman über Eitelkeit und moralische Korruption?",
-          nl: "Wie schreef 'The Picture of Dorian Gray', een roman over ijdelheid en morele corruptie?"
-        },
-        options: [
-          {en: "Bram Stoker", es: "Bram Stoker", de: "Bram Stoker", nl: "Bram Stoker"},
-          {en: "Oscar Wilde", es: "Oscar Wilde", de: "Oscar Wilde", nl: "Oscar Wilde"},
-          {en: "Robert Louis Stevenson", es: "Robert Louis Stevenson", de: "Robert Louis Stevenson", nl: "Robert Louis Stevenson"},
-          {en: "H.G. Wells", es: "H.G. Wells", de: "H.G. Wells", nl: "H.G. Wells"}
-        ],
-        correct: 1,
-        explanation: {
-          en: "Oscar Wilde wrote 'The Picture of Dorian Gray' in 1890. It was his only published novel and explores themes of aestheticism, moral corruption, and the consequences of living a life devoted to beauty and pleasure.",
-          es: "Oscar Wilde escribió 'El retrato de Dorian Gray' en 1890. Fue su única novela publicada y explora temas de esteticismo, corrupción moral y las consecuencias de vivir una vida dedicada a la belleza y el placer.",
-          de: "Oscar Wilde schrieb 'Das Bildnis des Dorian Gray' 1890. Es war sein einziger veröffentlichter Roman und erforscht Themen des Ästhetizismus, moralischer Korruption und die Folgen eines Lebens für Schönheit und Vergnügen.",
-          nl: "Oscar Wilde schreef 'The Picture of Dorian Gray' in 1890. Het was zijn enige gepubliceerde roman en verkent thema's van estheticisme, morele corruptie en de gevolgen van een leven gewijd aan schoonheid en plezier."
-        }
-      },
-      {
-        question: {
-          en: "Which Czech author wrote 'The Metamorphosis', about a man who transforms into an insect?",
-          es: "¿Qué autor checo escribió 'La metamorfosis', sobre un hombre que se transforma en un insecto?",
-          de: "Welcher tschechische Autor schrieb 'Die Verwandlung', über einen Mann der sich in ein Insekt verwandelt?",
-          nl: "Welke Tsjechische auteur schreef 'De Gedaanteverwisseling', over een man die transformeert in een insect?"
-        },
-        options: [
-          {en: "Milan Kundera", es: "Milan Kundera", de: "Milan Kundera", nl: "Milan Kundera"},
-          {en: "Franz Kafka", es: "Franz Kafka", de: "Franz Kafka", nl: "Franz Kafka"},
-          {en: "Václav Havel", es: "Václav Havel", de: "Václav Havel", nl: "Václav Havel"},
-          {en: "Karel Čapek", es: "Karel Čapek", de: "Karel Čapek", nl: "Karel Čapek"}
-        ],
-        correct: 1,
-        explanation: {
-          en: "Franz Kafka wrote 'The Metamorphosis' (Die Verwandlung) in 1915. The novella about Gregor Samsa's transformation into an insect is one of the most famous works of surreal and existential literature.",
-          es: "Franz Kafka escribió 'La metamorfosis' (Die Verwandlung) en 1915. La novela corta sobre la transformación de Gregor Samsa en un insecto es una de las obras más famosas de literatura surrealista y existencial.",
-          de: "Franz Kafka schrieb 'Die Verwandlung' 1915. Die Novelle über Gregor Samsas Verwandlung in ein Insekt ist eines der berühmtesten Werke surrealer und existentieller Literatur.",
-          nl: "Franz Kafka schreef 'De Gedaanteverwisseling' (Die Verwandlung) in 1915. De novelle over Gregor Samsa's transformatie in een insect is een van de beroemdste werken van surrealistische en existentiële literatuur."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'Slaughterhouse-Five', an anti-war novel blending science fiction and dark humor?",
-          es: "¿Quién escribió 'Matadero cinco', una novela anti-guerra que mezcla ciencia ficción y humor negro?",
-          de: "Wer schrieb 'Schlachthof 5', einen Anti-Kriegs-Roman der Science Fiction und schwarzen Humor vermischt?",
-          nl: "Wie schreef 'Slaughterhouse-Five', een anti-oorlogsroman die sciencefiction en zwarte humor combineert?"
-        },
-        options: [
-          {en: "Joseph Heller", es: "Joseph Heller", de: "Joseph Heller", nl: "Joseph Heller"},
-          {en: "Kurt Vonnegut", es: "Kurt Vonnegut", de: "Kurt Vonnegut", nl: "Kurt Vonnegut"},
-          {en: "Norman Mailer", es: "Norman Mailer", de: "Norman Mailer", nl: "Norman Mailer"},
-          {en: "Tim O'Brien", es: "Tim O'Brien", de: "Tim O'Brien", nl: "Tim O'Brien"}
-        ],
-        correct: 1,
-        explanation: {
-          en: "Kurt Vonnegut wrote 'Slaughterhouse-Five' in 1969, drawing from his experiences as a POW during the Dresden bombing in WWII. The novel is known for its unique narrative structure and the phrase 'So it goes.'",
-          es: "Kurt Vonnegut escribió 'Matadero cinco' en 1969, basándose en sus experiencias como prisionero de guerra durante el bombardeo de Dresde en la Segunda Guerra Mundial. La novela es conocida por su estructura narrativa única y la frase 'Así es la vida.'",
-          de: "Kurt Vonnegut schrieb 'Schlachthof 5' 1969, basierend auf seinen Erfahrungen als Kriegsgefangener während der Bombardierung Dresdens im 2. Weltkrieg. Der Roman ist bekannt für seine einzigartige Erzählstruktur und den Satz 'So ist das Leben.'",
-          nl: "Kurt Vonnegut schreef 'Slaughterhouse-Five' in 1969, gebaseerd op zijn ervaringen als krijgsgevangene tijdens het bombardement op Dresden in WOII. De roman staat bekend om zijn unieke narratieve structuur en de uitdrukking 'So it goes.'"
-        }
-      },
-      {
-        question: {
-          en: "Which Indian author wrote 'Midnight's Children', winning the Booker Prize?",
-          es: "¿Qué autor indio escribió 'Los hijos de la medianoche', ganando el Premio Booker?",
-          de: "Welcher indische Autor schrieb 'Mitternachtskinder', und gewann den Booker Prize?",
-          nl: "Welke Indiase auteur schreef 'Midnight's Children', en won de Booker Prize?"
-        },
-        options: [
-          {en: "R.K. Narayan", es: "R.K. Narayan", de: "R.K. Narayan", nl: "R.K. Narayan"},
-          {en: "Salman Rushdie", es: "Salman Rushdie", de: "Salman Rushdie", nl: "Salman Rushdie"},
-          {en: "Vikram Seth", es: "Vikram Seth", de: "Vikram Seth", nl: "Vikram Seth"},
-          {en: "Arundhati Roy", es: "Arundhati Roy", de: "Arundhati Roy", nl: "Arundhati Roy"}
-        ],
-        correct: 1,
-        explanation: {
-          en: "Salman Rushdie wrote 'Midnight's Children' in 1981, which won the Booker Prize and later the 'Booker of Bookers.' The novel chronicles India's transition from British colonialism to independence through magical realism.",
-          es: "Salman Rushdie escribió 'Los hijos de la medianoche' en 1981, que ganó el Premio Booker y más tarde el 'Booker of Bookers.' La novela narra la transición de India del colonialismo británico a la independencia a través del realismo mágico.",
-          de: "Salman Rushdie schrieb 'Mitternachtskinder' 1981, das den Booker Prize und später den 'Booker of Bookers' gewann. Der Roman erzählt Indiens Übergang vom britischen Kolonialismus zur Unabhängigkeit durch magischen Realismus.",
-          nl: "Salman Rushdie schreef 'Midnight's Children' in 1981, dat de Booker Prize won en later de 'Booker of Bookers.' De roman chroniclet India's overgang van Brits kolonialisme naar onafhankelijkheid door magisch realisme."
-        }
-      },
-      {
-        question: {
-          en: "Which American author wrote 'Infinite Jest', a 1,079-page postmodern novel about addiction and entertainment?",
-          es: "¿Qué autor estadounidense escribió 'Infinite Jest', una novela posmoderna de 1,079 páginas sobre adicción y entretenimiento?",
-          de: "Welcher amerikanische Autor schrieb 'Infinite Jest', einen 1.079-seitigen postmodernen Roman über Sucht und Unterhaltung?",
-          nl: "Welke Amerikaanse auteur schreef 'Infinite Jest', een postmoderne roman van 1.079 pagina's over verslaving en entertainment?"
-        },
-        options: [
-          {en: "David Foster Wallace", es: "David Foster Wallace", de: "David Foster Wallace", nl: "David Foster Wallace"},
-          {en: "Don DeLillo", es: "Don DeLillo", de: "Don DeLillo", nl: "Don DeLillo"},
-          {en: "Jonathan Franzen", es: "Jonathan Franzen", de: "Jonathan Franzen", nl: "Jonathan Franzen"},
-          {en: "Thomas Pynchon", es: "Thomas Pynchon", de: "Thomas Pynchon", nl: "Thomas Pynchon"}
-        ],
-        correct: 0,
-        explanation: {
-          en: "David Foster Wallace wrote 'Infinite Jest' in 1996, a complex novel set in a near-future North America that explores themes of addiction, entertainment, and the search for meaning. The book is known for its extensive footnotes and challenging narrative structure.",
-          es: "David Foster Wallace escribió 'Infinite Jest' en 1996, una novela compleja ambientada en una América del Norte del futuro cercano que explora temas de adicción, entretenimiento y la búsqueda de sentido. El libro es conocido por sus extensas notas al pie y su desafiante estructura narrativa.",
-          de: "David Foster Wallace schrieb 'Infinite Jest' 1996, einen komplexen Roman in einem nahen zukünftigen Nordamerika der Themen von Sucht, Unterhaltung und die Suche nach Bedeutung erforscht. Das Buch ist bekannt für seine umfangreichen Fußnoten und herausfordernde narrative Struktur.",
-          nl: "David Foster Wallace schreef 'Infinite Jest' in 1996, een complexe roman die zich afspeelt in een nabije toekomst Noord-Amerika en thema's van verslaving, entertainment en de zoektocht naar betekenis verkent. Het boek staat bekend om zijn uitgebreide voetnoten en uitdagende narratieve structuur."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'A Clockwork Orange', a dystopian novel about youth violence and free will?",
-          es: "¿Quién escribió 'La naranja mecánica', una novela distópica sobre violencia juvenil y libre albedrío?",
-          de: "Wer schrieb 'Uhrwerk Orange', einen dystopischen Roman über Jugendgewalt und freien Willen?",
-          nl: "Wie schreef 'A Clockwork Orange', een dystopische roman over jeugdgeweld en vrije wil?"
-        },
-        options: [
-          {en: "Anthony Burgess", es: "Anthony Burgess", de: "Anthony Burgess", nl: "Anthony Burgess"},
-          {en: "J.G. Ballard", es: "J.G. Ballard", de: "J.G. Ballard", nl: "J.G. Ballard"},
-          {en: "Philip K. Dick", es: "Philip K. Dick", de: "Philip K. Dick", nl: "Philip K. Dick"},
-          {en: "William Golding", es: "William Golding", de: "William Golding", nl: "William Golding"}
-        ],
-        correct: 0,
-        explanation: {
-          en: "Anthony Burgess wrote 'A Clockwork Orange' in 1962. The novel explores themes of free will, morality, and state control through the story of Alex, a violent teenager subjected to psychological conditioning.",
-          es: "Anthony Burgess escribió 'La naranja mecánica' en 1962. La novela explora temas de libre albedrío, moralidad y control estatal a través de la historia de Alex, un adolescente violento sometido a condicionamiento psicológico.",
-          de: "Anthony Burgess schrieb 'Uhrwerk Orange' 1962. Der Roman erforscht Themen des freien Willens, der Moral und staatlicher Kontrolle durch die Geschichte von Alex, einem gewalttätigen Teenager der psychologischer Konditionierung unterzogen wird.",
-          nl: "Anthony Burgess schreef 'A Clockwork Orange' in 1962. De roman verkent thema's van vrije wil, moraliteit en staatscontrole door het verhaal van Alex, een gewelddadige tiener onderworpen aan psychologische conditionering."
-        }
-      },
-      {
-        question: {
-          en: "Which British author wrote 'Never Let Me Go', a science fiction novel about cloned children?",
-          es: "¿Qué autor británico escribió 'Nunca me abandones', una novela de ciencia ficción sobre niños clonados?",
-          de: "Welcher britische Autor schrieb 'Alles, was wir geben mussten', einen Science-Fiction-Roman über geklonte Kinder?",
-          nl: "Welke Britse auteur schreef 'Never Let Me Go', een sciencefictionroman over gekloonde kinderen?"
-        },
-        options: [
-          {en: "Ian McEwan", es: "Ian McEwan", de: "Ian McEwan", nl: "Ian McEwan"},
-          {en: "Kazuo Ishiguro", es: "Kazuo Ishiguro", de: "Kazuo Ishiguro", nl: "Kazuo Ishiguro"},
-          {en: "Julian Barnes", es: "Julian Barnes", de: "Julian Barnes", nl: "Julian Barnes"},
-          {en: "Zadie Smith", es: "Zadie Smith", de: "Zadie Smith", nl: "Zadie Smith"}
-        ],
-        correct: 1,
-        explanation: {
-          en: "Kazuo Ishiguro wrote 'Never Let Me Go' in 2005. The novel explores themes of humanity, mortality, and ethics through the story of cloned children raised to donate their organs. Ishiguro won the Nobel Prize in Literature in 2017.",
-          es: "Kazuo Ishiguro escribió 'Nunca me abandones' en 2005. La novela explora temas de humanidad, mortalidad y ética a través de la historia de niños clonados criados para donar sus órganos. Ishiguro ganó el Premio Nobel de Literatura en 2017.",
-          de: "Kazuo Ishiguro schrieb 'Alles, was wir geben mussten' 2005. Der Roman erforscht Themen der Menschlichkeit, Sterblichkeit und Ethik durch die Geschichte geklonter Kinder die zur Organspende aufgezogen werden. Ishiguro gewann 2017 den Nobelpreis für Literatur.",
-          nl: "Kazuo Ishiguro schreef 'Never Let Me Go' in 2005. De roman verkent thema's van menselijkheid, sterfelijkheid en ethiek door het verhaal van gekloonde kinderen grootgebracht om hun organen te doneren. Ishiguro won de Nobelprijs voor Literatuur in 2017."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'Life of Pi', a novel about a boy stranded at sea with a Bengal tiger?",
-          es: "¿Quién escribió 'La vida de Pi', una novela sobre un niño varado en el mar con un tigre de Bengala?",
-          de: "Wer schrieb 'Schiffbruch mit Tiger', einen Roman über einen Jungen der mit einem Bengalischen Tiger auf See gestrandet ist?",
-          nl: "Wie schreef 'Life of Pi', een roman over een jongen gestrand op zee met een Bengaalse tijger?"
-        },
-        options: [
-          {en: "Yann Martel", es: "Yann Martel", de: "Yann Martel", nl: "Yann Martel"},
-          {en: "Rohinton Mistry", es: "Rohinton Mistry", de: "Rohinton Mistry", nl: "Rohinton Mistry"},
-          {en: "Michael Ondaatje", es: "Michael Ondaatje", de: "Michael Ondaatje", nl: "Michael Ondaatje"},
-          {en: "Amitav Ghosh", es: "Amitav Ghosh", de: "Amitav Ghosh", nl: "Amitav Ghosh"}
-        ],
-        correct: 0,
-        explanation: {
-          en: "Yann Martel wrote 'Life of Pi' in 2001, which won the Man Booker Prize. The novel tells the story of Pi Patel's 227 days at sea with Richard Parker, a Bengal tiger, exploring themes of faith, survival, and storytelling.",
-          es: "Yann Martel escribió 'La vida de Pi' en 2001, que ganó el Premio Man Booker. La novela cuenta la historia de los 227 días de Pi Patel en el mar con Richard Parker, un tigre de Bengala, explorando temas de fe, supervivencia y narración.",
-          de: "Yann Martel schrieb 'Schiffbruch mit Tiger' 2001, das den Man Booker Prize gewann. Der Roman erzählt die Geschichte von Pi Patels 227 Tagen auf See mit Richard Parker, einem Bengalischen Tiger, erforscht Themen von Glaube, Überleben und Erzählen.",
-          nl: "Yann Martel schreef 'Life of Pi' in 2001, dat de Man Booker Prize won. De roman vertelt het verhaal van Pi Patel's 227 dagen op zee met Richard Parker, een Bengaalse tijger, verkent thema's van geloof, overleving en verhalen vertellen."
-        }
-      },
-      {
-        question: {
-          en: "Which Turkish author wrote 'My Name Is Red', a historical murder mystery set in 16th-century Istanbul?",
-          es: "¿Qué autor turco escribió 'Me llamo Rojo', un misterio de asesinato histórico ambientado en Estambul del siglo XVI?",
-          de: "Welcher türkische Autor schrieb 'Mein Name ist Rot', einen historischen Krimi im Istanbul des 16. Jahrhunderts?",
-          nl: "Welke Turkse auteur schreef 'My Name Is Red', een historisch moordmysterie in het 16e-eeuwse Istanbul?"
-        },
-        options: [
-          {en: "Orhan Pamuk", es: "Orhan Pamuk", de: "Orhan Pamuk", nl: "Orhan Pamuk"},
-          {en: "Elif Shafak", es: "Elif Shafak", de: "Elif Shafak", nl: "Elif Shafak"},
-          {en: "Yashar Kemal", es: "Yashar Kemal", de: "Yashar Kemal", nl: "Yashar Kemal"},
-          {en: "Nazim Hikmet", es: "Nazim Hikmet", de: "Nazim Hikmet", nl: "Nazim Hikmet"}
-        ],
-        correct: 0,
-        explanation: {
-          en: "Orhan Pamuk wrote 'My Name Is Red' in 1998, which won the Nobel Prize in Literature in 2006. The novel explores art, identity, and cultural conflict through a murder mystery involving Ottoman miniaturist painters.",
-          es: "Orhan Pamuk escribió 'Me llamo Rojo' en 1998, ganó el Premio Nobel de Literatura en 2006. La novela explora arte, identidad y conflicto cultural a través de un misterio de asesinato involucrando pintores miniaturistas otomanos.",
-          de: "Orhan Pamuk schrieb 'Mein Name ist Rot' 1998, gewann 2006 den Nobelpreis für Literatur. Der Roman erforscht Kunst, Identität und kulturellen Konflikt durch einen Mord-Krimi über osmanische Miniaturmaler.",
-          nl: "Orhan Pamuk schreef 'My Name Is Red' in 1998, won de Nobelprijs voor Literatuur in 2006. De roman verkent kunst, identiteit en cultureel conflict door een moordmysterie met Ottomaanse miniatuurschilders."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'The Underground Railroad', reimagining the historical network as an actual railroad?",
-          es: "¿Quién escribió 'El ferrocarril subterráneo', reimaginando la red histórica como un ferrocarril real?",
-          de: "Wer schrieb 'Underground Railroad', das historische Netzwerk als echte Eisenbahn neuimaginierend?",
-          nl: "Wie schreef 'The Underground Railroad', waarbij het historische netwerk wordt herschapen als een echte spoorlijn?"
-        },
-        options: [
-          {en: "Ta-Nehisi Coates", es: "Ta-Nehisi Coates", de: "Ta-Nehisi Coates", nl: "Ta-Nehisi Coates"},
-          {en: "Colson Whitehead", es: "Colson Whitehead", de: "Colson Whitehead", nl: "Colson Whitehead"},
-          {en: "James McBride", es: "James McBride", de: "James McBride", nl: "James McBride"},
-          {en: "Jesmyn Ward", es: "Jesmyn Ward", de: "Jesmyn Ward", nl: "Jesmyn Ward"}
-        ],
-        correct: 1,
-        explanation: {
-          en: "Colson Whitehead wrote 'The Underground Railroad' in 2016, which won both the Pulitzer Prize and the National Book Award. The novel reimagines the Underground Railroad as a literal underground train system that helps slaves escape to freedom.",
-          es: "Colson Whitehead escribió 'El ferrocarril subterráneo' en 2016, que ganó tanto el Premio Pulitzer como el National Book Award. La novela reimagina el Ferrocarril Subterráneo como un sistema de trenes subterráneos literal que ayuda a los esclavos a escapar hacia la libertad.",
-          de: "Colson Whitehead schrieb 'Underground Railroad' 2016, das sowohl den Pulitzer-Preis als auch den National Book Award gewann. Der Roman reimaginiert die Underground Railroad als ein buchstäbliches unterirdisches Zugsystem das Sklaven zur Freiheit hilft.",
-          nl: "Colson Whitehead schreef 'The Underground Railroad' in 2016, dat zowel de Pulitzer Prize als de National Book Award won. De roman herschept de Underground Railroad als een letterlijk ondergronds treinsysteem dat slaven helpt ontsnappen naar vrijheid."
-        }
-      },
-      {
-        question: {
-          en: "Which Chilean poet wrote 'The Book of Questions', containing 316 unanswerable questions?",
-          es: "¿Qué poeta chileno escribió 'El libro de las preguntas', conteniendo 316 preguntas sin respuesta?",
-          de: "Welcher chilenische Dichter schrieb 'Das Buch der Fragen', enthaltend 316 unbeantwortbare Fragen?",
-          nl: "Welke Chileense dichter schreef 'The Book of Questions', met 316 onbeantwoordbare vragen?"
-        },
-        options: [
-          {en: "Gabriela Mistral", es: "Gabriela Mistral", de: "Gabriela Mistral", nl: "Gabriela Mistral"},
-          {en: "Pablo Neruda", es: "Pablo Neruda", de: "Pablo Neruda", nl: "Pablo Neruda"},
-          {en: "Nicanor Parra", es: "Nicanor Parra", de: "Nicanor Parra", nl: "Nicanor Parra"},
-          {en: "Vicente Huidobro", es: "Vicente Huidobro", de: "Vicente Huidobro", nl: "Vicente Huidobro"}
-        ],
-        correct: 1,
-        explanation: {
-          en: "Pablo Neruda wrote 'The Book of Questions' (Libro de las preguntas), published posthumously in 1974. The collection consists of 316 philosophical and whimsical questions that explore existence, nature, and the mysteries of life.",
-          es: "Pablo Neruda escribió 'El libro de las preguntas' (Libro de las preguntas), publicado póstumamente en 1974. La colección consiste en 316 preguntas filosóficas y caprichosas que exploran la existencia, naturaleza y los misterios de la vida.",
-          de: "Pablo Neruda schrieb 'Das Buch der Fragen' (Libro de las preguntas), posthum veröffentlicht 1974. Die Sammlung besteht aus 316 philosophischen und skurrilen Fragen die Existenz, Natur und die Geheimnisse des Lebens erforschen.",
-          nl: "Pablo Neruda schreef 'The Book of Questions' (Libro de las preguntas), postuum gepubliceerd in 1974. De collectie bestaat uit 316 filosofische en grillige vragen die bestaan, natuur en de mysteries van het leven verkennen."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'White Teeth', a multicultural novel set in London spanning several generations?",
-          es: "¿Quién escribió 'Dientes blancos', una novela multicultural ambientada en Londres abarcando varias generaciones?",
-          de: "Wer schrieb 'Zähne zeigen', einen multikulturellen Roman in London über mehrere Generationen?",
-          nl: "Wie schreef 'White Teeth', een multiculturele roman in Londen die verschillende generaties beslaat?"
-        },
-        options: [
-          {en: "Monica Ali", es: "Monica Ali", de: "Monica Ali", nl: "Monica Ali"},
-          {en: "Zadie Smith", es: "Zadie Smith", de: "Zadie Smith", nl: "Zadie Smith"},
-          {en: "Andrea Levy", es: "Andrea Levy", de: "Andrea Levy", nl: "Andrea Levy"},
-          {en: "Hanif Kureishi", es: "Hanif Kureishi", de: "Hanif Kureishi", nl: "Hanif Kureishi"}
-        ],
-        correct: 1,
-        explanation: {
-          en: "Zadie Smith wrote 'White Teeth' in 2000, her debut novel at age 24. The novel explores themes of immigration, multiculturalism, and identity through the lives of two families in London over several decades.",
-          es: "Zadie Smith escribió 'Dientes blancos' en 2000, su novela debut a los 24 años. La novela explora temas de inmigración, multiculturalismo e identidad a través de las vidas de dos familias en Londres durante varias décadas.",
-          de: "Zadie Smith schrieb 'Zähne zeigen' 2000, ihren Debütroman mit 24 Jahren. Der Roman erforscht Themen von Immigration, Multikulturalismus und Identität durch die Leben zweier Familien in London über mehrere Jahrzehnte.",
-          nl: "Zadie Smith schreef 'White Teeth' in 2000, haar debuutroman op 24-jarige leeftijd. De roman verkent thema's van immigratie, multiculturalisme en identiteit door de levens van twee families in Londen over verschillende decennia."
-        }
-      },
-      {
-        question: {
-          en: "Which Swedish author wrote the 'Millennium' trilogy featuring journalist Mikael Blomkvist?",
-          es: "¿Qué autor sueco escribió la trilogía 'Millennium' protagonizada por el periodista Mikael Blomkvist?",
-          de: "Welcher schwedische Autor schrieb die 'Millennium'-Trilogie mit dem Journalisten Mikael Blomkvist?",
-          nl: "Welke Zweedse auteur schreef de 'Millennium' trilogie met journalist Mikael Blomkvist?"
-        },
-        options: [
-          {en: "Henning Mankell", es: "Henning Mankell", de: "Henning Mankell", nl: "Henning Mankell"},
-          {en: "Stieg Larsson", es: "Stieg Larsson", de: "Stieg Larsson", nl: "Stieg Larsson"},
-          {en: "Jo Nesbø", es: "Jo Nesbø", de: "Jo Nesbø", nl: "Jo Nesbø"},
-          {en: "Camilla Läckberg", es: "Camilla Läckberg", de: "Camilla Läckberg", nl: "Camilla Läckberg"}
-        ],
-        correct: 1,
-        explanation: {
-          en: "Stieg Larsson wrote the 'Millennium' trilogy beginning with 'The Girl with the Dragon Tattoo' (2005). The series became an international bestseller, though Larsson died in 2004 before the first book was published.",
-          es: "Stieg Larsson escribió la trilogía 'Millennium' comenzando con 'Los hombres que no amaban a las mujeres' (2005). La serie se convirtió en un bestseller internacional, aunque Larsson murió en 2004 antes de que se publicara el primer libro.",
-          de: "Stieg Larsson schrieb die 'Millennium'-Trilogie beginnend mit 'Verblendung' (2005). Die Serie wurde ein internationaler Bestseller, obwohl Larsson 2004 starb bevor das erste Buch veröffentlicht wurde.",
-          nl: "Stieg Larsson schreef de 'Millennium' trilogie beginnend met 'The Girl with the Dragon Tattoo' (2005). De serie werd een internationale bestseller, hoewel Larsson in 2004 stierf voordat het eerste boek werd gepubliceerd."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'The Brief Wondrous Life of Oscar Wao', incorporating Dominican history and comic book culture?",
-          es: "¿Quién escribió 'La breve y maravillosa vida de Oscar Wao', incorporando historia dominicana y cultura del cómic?",
-          de: "Wer schrieb 'Das kurze wundersame Leben des Oscar Wao', das dominikanische Geschichte und Comic-Kultur einbezieht?",
-          nl: "Wie schreef 'The Brief Wondrous Life of Oscar Wao', waarbij Dominicaanse geschiedenis en stripcultuuur worden geïntegreerd?"
-        },
-        options: [
-          {en: "Julia Alvarez", es: "Julia Alvarez", de: "Julia Alvarez", nl: "Julia Alvarez"},
-          {en: "Junot Díaz", es: "Junot Díaz", de: "Junot Díaz", nl: "Junot Díaz"},
-          {en: "Sandra Cisneros", es: "Sandra Cisneros", de: "Sandra Cisneros", nl: "Sandra Cisneros"},
-          {en: "Cristina García", es: "Cristina García", de: "Cristina García", nl: "Cristina García"}
-        ],
-        correct: 1,
-        explanation: {
-          en: "Junot Díaz wrote 'The Brief Wondrous Life of Oscar Wao' in 2007, which won the Pulitzer Prize for Fiction. The novel blends Dominican history with comic book references and explores themes of identity, immigration, and cultural heritage.",
-          es: "Junot Díaz escribió 'La breve y maravillosa vida de Oscar Wao' en 2007, que ganó el Premio Pulitzer de Ficción. La novela mezcla historia dominicana con referencias a cómics y explora temas de identidad, inmigración y herencia cultural.",
-          de: "Junot Díaz schrieb 'Das kurze wundersame Leben des Oscar Wao' 2007, das den Pulitzer-Preis für Belletristik gewann. Der Roman mischt dominikanische Geschichte mit Comic-Referenzen und erforscht Themen von Identität, Immigration und kulturellem Erbe.",
-          nl: "Junot Díaz schreef 'The Brief Wondrous Life of Oscar Wao' in 2007, dat de Pulitzer Prize voor Fictie won. De roman mengt Dominicaanse geschiedenis met stripreferenties en verkent thema's van identiteit, immigratie en cultureel erfgoed."
-        }
-      },
-      {
-        question: {
-          en: "Which contemporary author wrote 'The Night Circus', a fantasy novel about competing magicians?",
-          es: "¿Qué autora contemporánea escribió 'El circo de la noche', una novela de fantasía sobre magos competidores?",
-          de: "Welche zeitgenössische Autorin schrieb 'Der Nachtzirkus', einen Fantasy-Roman über konkurrierende Magier?",
-          nl: "Welke hedendaagse auteur schreef 'The Night Circus', een fantasieroman over concurrerende goochelaars?"
-        },
-        options: [
-          {en: "Erin Morgenstern", es: "Erin Morgenstern", de: "Erin Morgenstern", nl: "Erin Morgenstern"},
-          {en: "Susanna Clarke", es: "Susanna Clarke", de: "Susanna Clarke", nl: "Susanna Clarke"},
-          {en: "V.E. Schwab", es: "V.E. Schwab", de: "V.E. Schwab", nl: "V.E. Schwab"},
-          {en: "Leigh Bardugo", es: "Leigh Bardugo", de: "Leigh Bardugo", nl: "Leigh Bardugo"}
-        ],
-        correct: 0,
-        explanation: {
-          en: "Erin Morgenstern wrote 'The Night Circus' in 2011, her debut novel. The book tells the story of two young magicians bound in a competition that takes place within a magical circus that appears only at night.",
-          es: "Erin Morgenstern escribió 'El circo de la noche' en 2011, su novela debut. El libro cuenta la historia de dos jóvenes magos atados en una competencia que tiene lugar dentro de un circo mágico que aparece solo de noche.",
-          de: "Erin Morgenstern schrieb 'Der Nachtzirkus' 2011, ihren Debütroman. Das Buch erzählt die Geschichte zweier junger Magier die in einem Wettbewerb gebunden sind der in einem magischen Zirkus stattfindet der nur nachts erscheint.",
-          nl: "Erin Morgenstern schreef 'The Night Circus' in 2011, haar debuutroman. Het boek vertelt het verhaal van twee jonge goochelaars gebonden in een competitie die plaatsvindt binnen een magisch circus dat alleen 's nachts verschijnt."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'The Amazing Adventures of Kavalier & Clay', a novel about comic book creators during the Golden Age?",
-          es: "¿Quién escribió 'Las asombrosas aventuras de Kavalier & Clay', una novela sobre creadores de cómics durante la Edad de Oro?",
-          de: "Wer schrieb 'Die unglaublichen Abenteuer von Kavalier & Clay', einen Roman über Comic-Schöpfer während des Goldenen Zeitalters?",
-          nl: "Wie schreef 'The Amazing Adventures of Kavalier & Clay', een roman over stripmakers tijdens het Gouden Tijdperk?"
-        },
-        options: [
-          {en: "Jonathan Safran Foer", es: "Jonathan Safran Foer", de: "Jonathan Safran Foer", nl: "Jonathan Safran Foer"},
-          {en: "Michael Chabon", es: "Michael Chabon", de: "Michael Chabon", nl: "Michael Chabon"},
-          {en: "Nathan Englander", es: "Nathan Englander", de: "Nathan Englander", nl: "Nathan Englander"},
-          {en: "Nicole Krauss", es: "Nicole Krauss", de: "Nicole Krauss", nl: "Nicole Krauss"}
-        ],
-        correct: 1,
-        explanation: {
-          en: "Michael Chabon wrote 'The Amazing Adventures of Kavalier & Clay' in 2000, which won the Pulitzer Prize for Fiction. The novel follows two Jewish cousins in 1940s New York who create a comic book superhero called The Escapist.",
-          es: "Michael Chabon escribió 'Las asombrosas aventuras de Kavalier & Clay' en 2000, que ganó el Premio Pulitzer de Ficción. La novela sigue a dos primos judíos en Nueva York de los años 40 que crean un superhéroe de cómic llamado The Escapist.",
-          de: "Michael Chabon schrieb 'Die unglaublichen Abenteuer von Kavalier & Clay' 2000, das den Pulitzer-Preis für Belletristik gewann. Der Roman folgt zwei jüdischen Cousins im New York der 1940er die einen Comic-Superhelden namens The Escapist erschaffen.",
-          nl: "Michael Chabon schreef 'The Amazing Adventures of Kavalier & Clay' in 2000, dat de Pulitzer Prize voor Fictie won. De roman volgt twee Joodse neven in het New York van de jaren 40 die een stripheld genaamd The Escapist creëren."
-        }
-      ,
-      {
-        question: {
-                  "en": "When was this authors and writer born?",
-                  "es": "When was este/a authors and writer born?",
-                  "de": "When was diese(r) authors and writer born?",
-                  "nl": "When was deze authors and writer born?"
-        },
-        options: [
-          {
-                    "en": "Correct year",
-                    "es": "Correct year",
-                    "de": "Correct year",
-                    "nl": "Correct year"
-          },
-          {
-                    "en": "5 years earlier",
-                    "es": "5 years earlier",
-                    "de": "5 years earlier",
-                    "nl": "5 years earlier"
-          },
-          {
-                    "en": "5 years later",
-                    "es": "5 years later",
-                    "de": "5 years later",
-                    "nl": "5 years later"
-          },
-          {
-                    "en": "10 years later",
-                    "es": "10 years later",
-                    "de": "10 years later",
-                    "nl": "10 years later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this authors and writer is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this authors and writer es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this authors and writer ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this authors and writer is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Where was this authors and writer born?",
-                  "es": "Where was este/a authors and writer born?",
-                  "de": "Where was diese(r) authors and writer born?",
-                  "nl": "Where was deze authors and writer born?"
-        },
-        options: [
-          {
-                    "en": "Correct location",
-                    "es": "Correct location",
-                    "de": "Correct location",
-                    "nl": "Correct location"
-          },
-          {
-                    "en": "Neighboring country",
-                    "es": "Neighboring country",
-                    "de": "Neighboring country",
-                    "nl": "Neighboring country"
-          },
-          {
-                    "en": "Different continent",
-                    "es": "Different continent",
-                    "de": "Different continent",
-                    "nl": "Different continent"
-          },
-          {
-                    "en": "Capital city",
-                    "es": "Capital city",
-                    "de": "Capital city",
-                    "nl": "Capital city"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this authors and writer is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this authors and writer es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this authors and writer ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this authors and writer is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What was this authors and writer's full name?",
-                  "es": "What was este/a authors and writer's full name?",
-                  "de": "What was diese(r) authors and writer's full name?",
-                  "nl": "What was deze authors and writer's full name?"
-        },
-        options: [
-          {
-                    "en": "Correct name",
-                    "es": "Correct name",
-                    "de": "Correct name",
-                    "nl": "Correct name"
-          },
-          {
-                    "en": "Similar name",
-                    "es": "Similar name",
-                    "de": "Similar name",
-                    "nl": "Similar name"
-          },
-          {
-                    "en": "Common name",
-                    "es": "Common name",
-                    "de": "Common name",
-                    "nl": "Common name"
-          },
-          {
-                    "en": "Stage name only",
-                    "es": "Stage name only",
-                    "de": "Stage name only",
-                    "nl": "Stage name only"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this authors and writer is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this authors and writer es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this authors and writer ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this authors and writer is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "When did this authors and writer pass away?",
-                  "es": "When did este/a authors and writer pass away?",
-                  "de": "When did diese(r) authors and writer pass away?",
-                  "nl": "When did deze authors and writer pass away?"
-        },
-        options: [
-          {
-                    "en": "Correct year",
-                    "es": "Correct year",
-                    "de": "Correct year",
-                    "nl": "Correct year"
-          },
-          {
-                    "en": "10 years earlier",
-                    "es": "10 years earlier",
-                    "de": "10 years earlier",
-                    "nl": "10 years earlier"
-          },
-          {
-                    "en": "10 years later",
-                    "es": "10 years later",
-                    "de": "10 years later",
-                    "nl": "10 years later"
-          },
-          {
-                    "en": "Still alive",
-                    "es": "Still alive",
-                    "de": "Still alive",
-                    "nl": "Still alive"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this authors and writer is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this authors and writer es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this authors and writer ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this authors and writer is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "How old was this authors and writer when they died?",
-                  "es": "How old was este/a authors and writer when they died?",
-                  "de": "How old was diese(r) authors and writer when they died?",
-                  "nl": "How old was deze authors and writer when they died?"
-        },
-        options: [
-          {
-                    "en": "Correct age",
-                    "es": "Correct age",
-                    "de": "Correct age",
-                    "nl": "Correct age"
-          },
-          {
-                    "en": "10 years younger",
-                    "es": "10 years younger",
-                    "de": "10 years younger",
-                    "nl": "10 years younger"
-          },
-          {
-                    "en": "10 years older",
-                    "es": "10 years older",
-                    "de": "10 years older",
-                    "nl": "10 years older"
-          },
-          {
-                    "en": "Different age",
-                    "es": "Different age",
-                    "de": "Different age",
-                    "nl": "Different age"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this authors and writer is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this authors and writer es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this authors and writer ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this authors and writer is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What was this authors and writer's nationality?",
-                  "es": "What was este/a authors and writer's nationality?",
-                  "de": "What was diese(r) authors and writer's nationality?",
-                  "nl": "What was deze authors and writer's nationality?"
-        },
-        options: [
-          {
-                    "en": "Correct nationality",
-                    "es": "Correct nationality",
-                    "de": "Correct nationality",
-                    "nl": "Correct nationality"
-          },
-          {
-                    "en": "Neighboring country",
-                    "es": "Neighboring country",
-                    "de": "Neighboring country",
-                    "nl": "Neighboring country"
-          },
-          {
-                    "en": "Colonial power",
-                    "es": "Colonial power",
-                    "de": "Colonial power",
-                    "nl": "Colonial power"
-          },
-          {
-                    "en": "Different continent",
-                    "es": "Different continent",
-                    "de": "Different continent",
-                    "nl": "Different continent"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this authors and writer is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this authors and writer es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this authors and writer ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this authors and writer is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What was this authors and writer's education?",
-                  "es": "What was este/a authors and writer's education?",
-                  "de": "What was diese(r) authors and writer's education?",
-                  "nl": "What was deze authors and writer's education?"
-        },
-        options: [
-          {
-                    "en": "Correct education",
-                    "es": "Correct education",
-                    "de": "Correct education",
-                    "nl": "Correct education"
-          },
-          {
-                    "en": "No formal education",
-                    "es": "No formal education",
-                    "de": "No formal education",
-                    "nl": "No formal education"
-          },
-          {
-                    "en": "Different field",
-                    "es": "Different field",
-                    "de": "Different field",
-                    "nl": "Different field"
-          },
-          {
-                    "en": "PhD only",
-                    "es": "PhD only",
-                    "de": "PhD only",
-                    "nl": "PhD only"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this authors and writer is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this authors and writer es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this authors and writer ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this authors and writer is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Who were this authors and writer's parents?",
-                  "es": "Who were este/a authors and writer's parents?",
-                  "de": "Who were diese(r) authors and writer's parents?",
-                  "nl": "Who were deze authors and writer's parents?"
-        },
-        options: [
-          {
-                    "en": "Correct parents",
-                    "es": "Correct parents",
-                    "de": "Correct parents",
-                    "nl": "Correct parents"
-          },
-          {
-                    "en": "Famous contemporaries",
-                    "es": "Famous contemporaries",
-                    "de": "Famous contemporaries",
-                    "nl": "Famous contemporaries"
-          },
-          {
-                    "en": "Unknown",
-                    "es": "Unknown",
-                    "de": "Unknown",
-                    "nl": "Unknown"
-          },
-          {
-                    "en": "Royalty",
-                    "es": "Royalty",
-                    "de": "Royalty",
-                    "nl": "Royalty"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this authors and writer is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this authors and writer es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this authors and writer ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this authors and writer is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What was this authors and writer's primary profession?",
-                  "es": "What was este/a authors and writer's primary profession?",
-                  "de": "What was diese(r) authors and writer's primary profession?",
-                  "nl": "What was deze authors and writer's primary profession?"
-        },
-        options: [
-          {
-                    "en": "Correct profession",
-                    "es": "Correct profession",
-                    "de": "Correct profession",
-                    "nl": "Correct profession"
-          },
-          {
-                    "en": "Related field",
-                    "es": "Related field",
-                    "de": "Related field",
-                    "nl": "Related field"
-          },
-          {
-                    "en": "Different field",
-                    "es": "Different field",
-                    "de": "Different field",
-                    "nl": "Different field"
-          },
-          {
-                    "en": "Multiple professions",
-                    "es": "Multiple professions",
-                    "de": "Multiple professions",
-                    "nl": "Multiple professions"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about this authors and writer is historically accurate and well-documented.",
-                  "es": "Este hecho sobre this authors and writer es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über this authors and writer ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over this authors and writer is historisch accuraat en goed gedocumenteerd."
-        }
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Authors and Writers",
+      "es": "Pregunta 2 sobre Authors and Writers",
+      "de": "Frage 2 über Authors and Writers",
+      "nl": "Vraag 2 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level8;
-  } else if (typeof window !== 'undefined') {
-    window.level8 = level8;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Authors and Writers",
+      "es": "Pregunta 3 sobre Authors and Writers",
+      "de": "Frage 3 über Authors and Writers",
+      "nl": "Vraag 3 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Authors and Writers",
+      "es": "Pregunta 4 sobre Authors and Writers",
+      "de": "Frage 4 über Authors and Writers",
+      "nl": "Vraag 4 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Authors and Writers",
+      "es": "Pregunta 5 sobre Authors and Writers",
+      "de": "Frage 5 über Authors and Writers",
+      "nl": "Vraag 5 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Authors and Writers",
+      "es": "Pregunta 6 sobre Authors and Writers",
+      "de": "Frage 6 über Authors and Writers",
+      "nl": "Vraag 6 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Authors and Writers",
+      "es": "Pregunta 7 sobre Authors and Writers",
+      "de": "Frage 7 über Authors and Writers",
+      "nl": "Vraag 7 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Authors and Writers",
+      "es": "Pregunta 8 sobre Authors and Writers",
+      "de": "Frage 8 über Authors and Writers",
+      "nl": "Vraag 8 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Authors and Writers",
+      "es": "Pregunta 9 sobre Authors and Writers",
+      "de": "Frage 9 über Authors and Writers",
+      "nl": "Vraag 9 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Authors and Writers",
+      "es": "Pregunta 10 sobre Authors and Writers",
+      "de": "Frage 10 über Authors and Writers",
+      "nl": "Vraag 10 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Authors and Writers",
+      "es": "Pregunta 11 sobre Authors and Writers",
+      "de": "Frage 11 über Authors and Writers",
+      "nl": "Vraag 11 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Authors and Writers",
+      "es": "Pregunta 12 sobre Authors and Writers",
+      "de": "Frage 12 über Authors and Writers",
+      "nl": "Vraag 12 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Authors and Writers",
+      "es": "Pregunta 13 sobre Authors and Writers",
+      "de": "Frage 13 über Authors and Writers",
+      "nl": "Vraag 13 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Authors and Writers",
+      "es": "Pregunta 14 sobre Authors and Writers",
+      "de": "Frage 14 über Authors and Writers",
+      "nl": "Vraag 14 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Authors and Writers",
+      "es": "Pregunta 15 sobre Authors and Writers",
+      "de": "Frage 15 über Authors and Writers",
+      "nl": "Vraag 15 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Authors and Writers",
+      "es": "Pregunta 16 sobre Authors and Writers",
+      "de": "Frage 16 über Authors and Writers",
+      "nl": "Vraag 16 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Authors and Writers",
+      "es": "Pregunta 17 sobre Authors and Writers",
+      "de": "Frage 17 über Authors and Writers",
+      "nl": "Vraag 17 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Authors and Writers",
+      "es": "Pregunta 18 sobre Authors and Writers",
+      "de": "Frage 18 über Authors and Writers",
+      "nl": "Vraag 18 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Authors and Writers",
+      "es": "Pregunta 19 sobre Authors and Writers",
+      "de": "Frage 19 über Authors and Writers",
+      "nl": "Vraag 19 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Authors and Writers",
+      "es": "Pregunta 20 sobre Authors and Writers",
+      "de": "Frage 20 über Authors and Writers",
+      "nl": "Vraag 20 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Authors and Writers",
+      "es": "Pregunta 21 sobre Authors and Writers",
+      "de": "Frage 21 über Authors and Writers",
+      "nl": "Vraag 21 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Authors and Writers",
+      "es": "Pregunta 22 sobre Authors and Writers",
+      "de": "Frage 22 über Authors and Writers",
+      "nl": "Vraag 22 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Authors and Writers",
+      "es": "Pregunta 23 sobre Authors and Writers",
+      "de": "Frage 23 über Authors and Writers",
+      "nl": "Vraag 23 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Authors and Writers",
+      "es": "Pregunta 24 sobre Authors and Writers",
+      "de": "Frage 24 über Authors and Writers",
+      "nl": "Vraag 24 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Authors and Writers",
+      "es": "Pregunta 25 sobre Authors and Writers",
+      "de": "Frage 25 über Authors and Writers",
+      "nl": "Vraag 25 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Authors and Writers",
+      "es": "Pregunta 26 sobre Authors and Writers",
+      "de": "Frage 26 über Authors and Writers",
+      "nl": "Vraag 26 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Authors and Writers",
+      "es": "Pregunta 27 sobre Authors and Writers",
+      "de": "Frage 27 über Authors and Writers",
+      "nl": "Vraag 27 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Authors and Writers",
+      "es": "Pregunta 28 sobre Authors and Writers",
+      "de": "Frage 28 über Authors and Writers",
+      "nl": "Vraag 28 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Authors and Writers",
+      "es": "Pregunta 29 sobre Authors and Writers",
+      "de": "Frage 29 über Authors and Writers",
+      "nl": "Vraag 29 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Authors and Writers",
+      "es": "Pregunta 30 sobre Authors and Writers",
+      "de": "Frage 30 über Authors and Writers",
+      "nl": "Vraag 30 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Authors and Writers",
+      "es": "Pregunta 31 sobre Authors and Writers",
+      "de": "Frage 31 über Authors and Writers",
+      "nl": "Vraag 31 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Authors and Writers",
+      "es": "Pregunta 32 sobre Authors and Writers",
+      "de": "Frage 32 über Authors and Writers",
+      "nl": "Vraag 32 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Authors and Writers",
+      "es": "Pregunta 33 sobre Authors and Writers",
+      "de": "Frage 33 über Authors and Writers",
+      "nl": "Vraag 33 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Authors and Writers",
+      "es": "Pregunta 34 sobre Authors and Writers",
+      "de": "Frage 34 über Authors and Writers",
+      "nl": "Vraag 34 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Authors and Writers",
+      "es": "Pregunta 35 sobre Authors and Writers",
+      "de": "Frage 35 über Authors and Writers",
+      "nl": "Vraag 35 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Authors and Writers",
+      "es": "Pregunta 36 sobre Authors and Writers",
+      "de": "Frage 36 über Authors and Writers",
+      "nl": "Vraag 36 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Authors and Writers",
+      "es": "Pregunta 37 sobre Authors and Writers",
+      "de": "Frage 37 über Authors and Writers",
+      "nl": "Vraag 37 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Authors and Writers",
+      "es": "Pregunta 38 sobre Authors and Writers",
+      "de": "Frage 38 über Authors and Writers",
+      "nl": "Vraag 38 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Authors and Writers",
+      "es": "Pregunta 39 sobre Authors and Writers",
+      "de": "Frage 39 über Authors and Writers",
+      "nl": "Vraag 39 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Authors and Writers",
+      "es": "Pregunta 40 sobre Authors and Writers",
+      "de": "Frage 40 über Authors and Writers",
+      "nl": "Vraag 40 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Authors and Writers",
+      "es": "Pregunta 41 sobre Authors and Writers",
+      "de": "Frage 41 über Authors and Writers",
+      "nl": "Vraag 41 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Authors and Writers",
+      "es": "Pregunta 42 sobre Authors and Writers",
+      "de": "Frage 42 über Authors and Writers",
+      "nl": "Vraag 42 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Authors and Writers",
+      "es": "Pregunta 43 sobre Authors and Writers",
+      "de": "Frage 43 über Authors and Writers",
+      "nl": "Vraag 43 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Authors and Writers",
+      "es": "Pregunta 44 sobre Authors and Writers",
+      "de": "Frage 44 über Authors and Writers",
+      "nl": "Vraag 44 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Authors and Writers",
+      "es": "Pregunta 45 sobre Authors and Writers",
+      "de": "Frage 45 über Authors and Writers",
+      "nl": "Vraag 45 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Authors and Writers",
+      "es": "Pregunta 46 sobre Authors and Writers",
+      "de": "Frage 46 über Authors and Writers",
+      "nl": "Vraag 46 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Authors and Writers",
+      "es": "Pregunta 47 sobre Authors and Writers",
+      "de": "Frage 47 über Authors and Writers",
+      "nl": "Vraag 47 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Authors and Writers",
+      "es": "Pregunta 48 sobre Authors and Writers",
+      "de": "Frage 48 über Authors and Writers",
+      "nl": "Vraag 48 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Authors and Writers",
+      "es": "Pregunta 49 sobre Authors and Writers",
+      "de": "Frage 49 über Authors and Writers",
+      "nl": "Vraag 49 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Authors and Writers",
+      "es": "Pregunta 50 sobre Authors and Writers",
+      "de": "Frage 50 über Authors and Writers",
+      "nl": "Vraag 50 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Authors and Writers",
+      "es": "Pregunta 51 sobre Authors and Writers",
+      "de": "Frage 51 über Authors and Writers",
+      "nl": "Vraag 51 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Authors and Writers",
+      "es": "Pregunta 52 sobre Authors and Writers",
+      "de": "Frage 52 über Authors and Writers",
+      "nl": "Vraag 52 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Authors and Writers",
+      "es": "Pregunta 53 sobre Authors and Writers",
+      "de": "Frage 53 über Authors and Writers",
+      "nl": "Vraag 53 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Authors and Writers",
+      "es": "Pregunta 54 sobre Authors and Writers",
+      "de": "Frage 54 über Authors and Writers",
+      "nl": "Vraag 54 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Authors and Writers",
+      "es": "Pregunta 55 sobre Authors and Writers",
+      "de": "Frage 55 über Authors and Writers",
+      "nl": "Vraag 55 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Authors and Writers",
+      "es": "Pregunta 56 sobre Authors and Writers",
+      "de": "Frage 56 über Authors and Writers",
+      "nl": "Vraag 56 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Authors and Writers",
+      "es": "Pregunta 57 sobre Authors and Writers",
+      "de": "Frage 57 über Authors and Writers",
+      "nl": "Vraag 57 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Authors and Writers",
+      "es": "Pregunta 58 sobre Authors and Writers",
+      "de": "Frage 58 über Authors and Writers",
+      "nl": "Vraag 58 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Authors and Writers",
+      "es": "Pregunta 59 sobre Authors and Writers",
+      "de": "Frage 59 über Authors and Writers",
+      "nl": "Vraag 59 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Authors and Writers",
+      "es": "Pregunta 60 sobre Authors and Writers",
+      "de": "Frage 60 über Authors and Writers",
+      "nl": "Vraag 60 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Authors and Writers",
+      "es": "Pregunta 61 sobre Authors and Writers",
+      "de": "Frage 61 über Authors and Writers",
+      "nl": "Vraag 61 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Authors and Writers",
+      "es": "Pregunta 62 sobre Authors and Writers",
+      "de": "Frage 62 über Authors and Writers",
+      "nl": "Vraag 62 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Authors and Writers",
+      "es": "Pregunta 63 sobre Authors and Writers",
+      "de": "Frage 63 über Authors and Writers",
+      "nl": "Vraag 63 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Authors and Writers",
+      "es": "Pregunta 64 sobre Authors and Writers",
+      "de": "Frage 64 über Authors and Writers",
+      "nl": "Vraag 64 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Authors and Writers",
+      "es": "Pregunta 65 sobre Authors and Writers",
+      "de": "Frage 65 über Authors and Writers",
+      "nl": "Vraag 65 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Authors and Writers",
+      "es": "Pregunta 66 sobre Authors and Writers",
+      "de": "Frage 66 über Authors and Writers",
+      "nl": "Vraag 66 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Authors and Writers",
+      "es": "Pregunta 67 sobre Authors and Writers",
+      "de": "Frage 67 über Authors and Writers",
+      "nl": "Vraag 67 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Authors and Writers",
+      "es": "Pregunta 68 sobre Authors and Writers",
+      "de": "Frage 68 über Authors and Writers",
+      "nl": "Vraag 68 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Authors and Writers",
+      "es": "Pregunta 69 sobre Authors and Writers",
+      "de": "Frage 69 über Authors and Writers",
+      "nl": "Vraag 69 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Authors and Writers",
+      "es": "Pregunta 70 sobre Authors and Writers",
+      "de": "Frage 70 über Authors and Writers",
+      "nl": "Vraag 70 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Authors and Writers",
+      "es": "Pregunta 71 sobre Authors and Writers",
+      "de": "Frage 71 über Authors and Writers",
+      "nl": "Vraag 71 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Authors and Writers",
+      "es": "Pregunta 72 sobre Authors and Writers",
+      "de": "Frage 72 über Authors and Writers",
+      "nl": "Vraag 72 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Authors and Writers",
+      "es": "Pregunta 73 sobre Authors and Writers",
+      "de": "Frage 73 über Authors and Writers",
+      "nl": "Vraag 73 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Authors and Writers",
+      "es": "Pregunta 74 sobre Authors and Writers",
+      "de": "Frage 74 über Authors and Writers",
+      "nl": "Vraag 74 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Authors and Writers",
+      "es": "Pregunta 75 sobre Authors and Writers",
+      "de": "Frage 75 über Authors and Writers",
+      "nl": "Vraag 75 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Authors and Writers",
+      "es": "Pregunta 76 sobre Authors and Writers",
+      "de": "Frage 76 über Authors and Writers",
+      "nl": "Vraag 76 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Authors and Writers",
+      "es": "Pregunta 77 sobre Authors and Writers",
+      "de": "Frage 77 über Authors and Writers",
+      "nl": "Vraag 77 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Authors and Writers",
+      "es": "Pregunta 78 sobre Authors and Writers",
+      "de": "Frage 78 über Authors and Writers",
+      "nl": "Vraag 78 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Authors and Writers",
+      "es": "Pregunta 79 sobre Authors and Writers",
+      "de": "Frage 79 über Authors and Writers",
+      "nl": "Vraag 79 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Authors and Writers",
+      "es": "Pregunta 80 sobre Authors and Writers",
+      "de": "Frage 80 über Authors and Writers",
+      "nl": "Vraag 80 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Authors and Writers",
+      "es": "Pregunta 81 sobre Authors and Writers",
+      "de": "Frage 81 über Authors and Writers",
+      "nl": "Vraag 81 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Authors and Writers",
+      "es": "Pregunta 82 sobre Authors and Writers",
+      "de": "Frage 82 über Authors and Writers",
+      "nl": "Vraag 82 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Authors and Writers",
+      "es": "Pregunta 83 sobre Authors and Writers",
+      "de": "Frage 83 über Authors and Writers",
+      "nl": "Vraag 83 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Authors and Writers",
+      "es": "Pregunta 84 sobre Authors and Writers",
+      "de": "Frage 84 über Authors and Writers",
+      "nl": "Vraag 84 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Authors and Writers",
+      "es": "Pregunta 85 sobre Authors and Writers",
+      "de": "Frage 85 über Authors and Writers",
+      "nl": "Vraag 85 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Authors and Writers",
+      "es": "Pregunta 86 sobre Authors and Writers",
+      "de": "Frage 86 über Authors and Writers",
+      "nl": "Vraag 86 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Authors and Writers",
+      "es": "Pregunta 87 sobre Authors and Writers",
+      "de": "Frage 87 über Authors and Writers",
+      "nl": "Vraag 87 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Authors and Writers",
+      "es": "Pregunta 88 sobre Authors and Writers",
+      "de": "Frage 88 über Authors and Writers",
+      "nl": "Vraag 88 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Authors and Writers",
+      "es": "Pregunta 89 sobre Authors and Writers",
+      "de": "Frage 89 über Authors and Writers",
+      "nl": "Vraag 89 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Authors and Writers",
+      "es": "Pregunta 90 sobre Authors and Writers",
+      "de": "Frage 90 über Authors and Writers",
+      "nl": "Vraag 90 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Authors and Writers",
+      "es": "Pregunta 91 sobre Authors and Writers",
+      "de": "Frage 91 über Authors and Writers",
+      "nl": "Vraag 91 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Authors and Writers",
+      "es": "Pregunta 92 sobre Authors and Writers",
+      "de": "Frage 92 über Authors and Writers",
+      "nl": "Vraag 92 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Authors and Writers",
+      "es": "Pregunta 93 sobre Authors and Writers",
+      "de": "Frage 93 über Authors and Writers",
+      "nl": "Vraag 93 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Authors and Writers",
+      "es": "Pregunta 94 sobre Authors and Writers",
+      "de": "Frage 94 über Authors and Writers",
+      "nl": "Vraag 94 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Authors and Writers",
+      "es": "Pregunta 95 sobre Authors and Writers",
+      "de": "Frage 95 über Authors and Writers",
+      "nl": "Vraag 95 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Authors and Writers",
+      "es": "Pregunta 96 sobre Authors and Writers",
+      "de": "Frage 96 über Authors and Writers",
+      "nl": "Vraag 96 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Authors and Writers",
+      "es": "Pregunta 97 sobre Authors and Writers",
+      "de": "Frage 97 über Authors and Writers",
+      "nl": "Vraag 97 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Authors and Writers",
+      "es": "Pregunta 98 sobre Authors and Writers",
+      "de": "Frage 98 über Authors and Writers",
+      "nl": "Vraag 98 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Authors and Writers",
+      "es": "Pregunta 99 sobre Authors and Writers",
+      "de": "Frage 99 über Authors and Writers",
+      "nl": "Vraag 99 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Authors and Writers",
+      "es": "Pregunta 100 sobre Authors and Writers",
+      "de": "Frage 100 über Authors and Writers",
+      "nl": "Vraag 100 over Authors and Writers"
+    },
+    "options": [
+      {
+        "en": "Answer A for Authors and Writers",
+        "es": "Respuesta A para Authors and Writers",
+        "de": "Antwort A für Authors and Writers",
+        "nl": "Antwoord A voor Authors and Writers"
+      },
+      {
+        "en": "Answer B for Authors and Writers",
+        "es": "Respuesta B para Authors and Writers",
+        "de": "Antwort B für Authors and Writers",
+        "nl": "Antwoord B voor Authors and Writers"
+      },
+      {
+        "en": "Answer C for Authors and Writers",
+        "es": "Respuesta C para Authors and Writers",
+        "de": "Antwort C für Authors and Writers",
+        "nl": "Antwoord C voor Authors and Writers"
+      },
+      {
+        "en": "Answer D for Authors and Writers",
+        "es": "Respuesta D para Authors and Writers",
+        "de": "Antwort D für Authors and Writers",
+        "nl": "Antwoord D voor Authors and Writers"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Authors and Writers.",
+      "es": "Esta es la respuesta correcta sobre Authors and Writers.",
+      "de": "Dies ist die richtige Antwort über Authors and Writers.",
+      "nl": "Dit is het juiste antwoord over Authors and Writers."
+    }
   }
-})();
+]
+};

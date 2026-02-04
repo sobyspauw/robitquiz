@@ -1,1657 +1,2259 @@
-// Machine learning Quiz - Level 2
-(function() {
-  const level2 = {
-    name: {
-          "en": "Machine Learning Concepts",
-          "es": "Conceptos de Aprendizaje AutomÃ¡tico",
-          "de": "Maschinelles Lernen Konzepte",
-          "nl": "Machine Learning Concepten"
-    },
-    questions: [
-      {
-        question: {
-                  "en": "What are the three main types of machine learning?",
-                  "es": "Â¿CuÃ¡les son los tres tipos principales de aprendizaje automÃ¡tico?",
-                  "de": "Was sind die drei Haupttypen des maschinellen Lernens?",
-                  "nl": "Wat zijn de drie hoofdtypen van machine learning?"
-        },
-        options: [
-        {
-                  "en": "Fast, Medium, Slow",
-                  "es": "RÃ¡pido, Medio, Lento",
-                  "de": "Schnell, Mittel, Langsam",
-                  "nl": "Snel, Medium, Langzaam"
-        },
-        {
-                  "en": "Supervised, Unsupervised, Reinforcement",
-                  "es": "Supervisado, No supervisado, Refuerzo",
-                  "de": "Ãœberwacht, UnÃ¼berwacht, VerstÃ¤rkung",
-                  "nl": "Supervised, Unsupervised, Reinforcement"
-        },
-        {
-                  "en": "Easy, Normal, Hard",
-                  "es": "FÃ¡cil, Normal, DifÃ­cil",
-                  "de": "Einfach, Normal, Schwer",
-                  "nl": "Makkelijk, Normaal, Moeilijk"
-        },
-        {
-                  "en": "Big, Small, Medium",
-                  "es": "Grande, PequeÃ±o, Mediano",
-                  "de": "GroÃŸ, Klein, Mittel",
-                  "nl": "Groot, Klein, Medium"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "These three categories represent different learning approaches: supervised learning uses labeled data, unsupervised finds patterns in unlabeled data, and reinforcement learning learns through trial and reward.",
-                  "es": "Estas tres categorÃ­as representan diferentes enfoques de aprendizaje: el aprendizaje supervisado usa datos etiquetados, el no supervisado encuentra patrones en datos no etiquetados, y el aprendizaje por refuerzo aprende a travÃ©s de prueba y recompensa.",
-                  "de": "Diese drei Kategorien reprÃ¤sentieren verschiedene LernansÃ¤tze: Ã¼berwachtes Lernen verwendet beschriftete Daten, unÃ¼berwachtes findet Muster in unbeschrifteten Daten, und VerstÃ¤rkungslernen lernt durch Versuch und Belohnung.",
-                  "nl": "Deze drie categorieÃ«n vertegenwoordigen verschillende leerbenaderingen: supervised learning gebruikt gelabelde data, unsupervised vindt patronen in ongelabelde data, en reinforcement learning leert door trial en beloning."
-        }
+module.exports = {
+  questions: [
+    {
+      question: {
+        en: "What type of learning uses labeled data?",
+        es: "¿Qué tipo de aprendizaje usa datos etiquetados?",
+        de: "Welche Art des Lernens verwendet beschriftete Daten?",
+        nl: "Welk type leren gebruikt gelabelde data?"
       },
-      {
-        question: {
-                  "en": "What is an algorithm in machine learning?",
-                  "es": "Â¿QuÃ© es un algoritmo en aprendizaje automÃ¡tico?",
-                  "de": "Was ist ein Algorithmus im maschinellen Lernen?",
-                  "nl": "Wat is een algoritme in machine learning?"
-        },
-        options: [
-        {
-                  "en": "A set of rules for solving problems",
-                  "es": "Un conjunto de reglas para resolver problemas",
-                  "de": "Ein Regelwerk zur ProblemlÃ¶sung",
-                  "nl": "Een set regels voor het oplossen van problemen"
-        },
-        {
-                  "en": "A computer program",
-                  "es": "Un programa de computadora",
-                  "de": "Ein Computerprogramm",
-                  "nl": "Een computerprogramma"
-        },
-        {
-                  "en": "A type of robot",
-                  "es": "Un tipo de robot",
-                  "de": "Eine Art von Roboter",
-                  "nl": "Een type robot"
-        },
-        {
-                  "en": "A social media platform",
-                  "es": "Una plataforma de redes sociales",
-                  "de": "Eine Social-Media-Plattform",
-                  "nl": "Een social media platform"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "An algorithm is a step-by-step set of instructions or rules that tells the computer how to solve a specific problem or complete a task.",
-                  "es": "Un algoritmo es un conjunto paso a paso de instrucciones o reglas que le dice a la computadora cÃ³mo resolver un problema especÃ­fico o completar una tarea.",
-                  "de": "Ein Algorithmus ist eine schrittweise Anleitung oder Regelwerk, das dem Computer sagt, wie er ein spezifisches Problem lÃ¶sen oder eine Aufgabe erfÃ¼llen kann.",
-                  "nl": "Een algoritme is een stapsgewijze set instructies of regels die de computer vertelt hoe een specifiek probleem op te lossen of een taak te voltooien."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the 'Netflix recommendation system' an example of?",
-                  "es": "Â¿De quÃ© es un ejemplo el 'sistema de recomendaciones de Netflix'?",
-                  "de": "WofÃ¼r ist das 'Netflix-Empfehlungssystem' ein Beispiel?",
-                  "nl": "Waar is het 'Netflix aanbevelingssysteem' een voorbeeld van?"
-        },
-        options: [
-        {
-                  "en": "Human decision making",
-                  "es": "Toma de decisiones humanas",
-                  "de": "Menschliche Entscheidungsfindung",
-                  "nl": "Menselijke besluitvorming"
-        },
-        {
-                  "en": "A manual process",
-                  "es": "Un proceso manual",
-                  "de": "Ein manueller Prozess",
-                  "nl": "Een handmatig proces"
-        },
-        {
-                  "en": "Machine learning in action",
-                  "es": "Aprendizaje automÃ¡tico en acciÃ³n",
-                  "de": "Maschinelles Lernen in Aktion",
-                  "nl": "Machine learning in actie"
-        },
-        {
-                  "en": "Random selection",
-                  "es": "SelecciÃ³n aleatoria",
-                  "de": "ZufÃ¤llige Auswahl",
-                  "nl": "Willekeurige selectie"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Netflix uses machine learning algorithms to analyze your viewing history and preferences to automatically suggest movies and shows you might enjoy.",
-                  "es": "Netflix utiliza algoritmos de aprendizaje automÃ¡tico para analizar tu historial de visualizaciÃ³n y preferencias para sugerir automÃ¡ticamente pelÃ­culas y programas que podrÃ­an gustarte.",
-                  "de": "Netflix verwendet maschinelle Lernalgorithmen, um Ihre Sehgewohnheiten und Vorlieben zu analysieren und automatisch Filme und Serien vorzuschlagen, die Ihnen gefallen kÃ¶nnten.",
-                  "nl": "Netflix gebruikt machine learning algoritmes om je kijkgeschiedenis en voorkeuren te analyseren om automatisch films en shows voor te stellen die je misschien leuk vindt."
-        }
-      },
-      {
-        question: {
-                  "en": "What does 'Big Data' mean in the context of AI?",
-                  "es": "Â¿QuÃ© significa 'Big Data' en el contexto de IA?",
-                  "de": "Was bedeutet 'Big Data' im Kontext von KI?",
-                  "nl": "Wat betekent 'Big Data' in de context van AI?"
-        },
-        options: [
-        {
-                  "en": "Data stored on large computers",
-                  "es": "Datos almacenados en computadoras grandes",
-                  "de": "Daten auf groÃŸen Computern gespeichert",
-                  "nl": "Data opgeslagen op grote computers"
-        },
-        {
-                  "en": "Important business data",
-                  "es": "Datos comerciales importantes",
-                  "de": "Wichtige GeschÃ¤ftsdaten",
-                  "nl": "Belangrijke bedrijfsdata"
-        },
-        {
-                  "en": "Data about big companies",
-                  "es": "Datos sobre grandes empresas",
-                  "de": "Daten Ã¼ber groÃŸe Unternehmen",
-                  "nl": "Data over grote bedrijven"
-        },
-        {
-                  "en": "Very large amounts of information",
-                  "es": "Cantidades muy grandes de informaciÃ³n",
-                  "de": "Sehr groÃŸe Mengen an Informationen",
-                  "nl": "Zeer grote hoeveelheden informatie"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Big Data refers to datasets that are so large and complex that traditional data processing applications cannot handle them effectively, often requiring specialized AI tools.",
-                  "es": "Big Data se refiere a conjuntos de datos que son tan grandes y complejos que las aplicaciones tradicionales de procesamiento de datos no pueden manejarlos efectivamente, a menudo requiriendo herramientas especializadas de IA.",
-                  "de": "Big Data bezieht sich auf DatensÃ¤tze, die so groÃŸ und komplex sind, dass herkÃ¶mmliche Datenverarbeitungsanwendungen sie nicht effektiv handhaben kÃ¶nnen, oft spezialisierte KI-Tools erfordern.",
-                  "nl": "Big Data verwijst naar datasets die zo groot en complex zijn dat traditionele gegevensverwerkingsapplicaties ze niet effectief kunnen verwerken, vaak gespecialiseerde AI-tools vereisen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a neural network inspired by?",
-                  "es": "Â¿En quÃ© estÃ¡ inspirada una red neuronal?",
-                  "de": "Wovon ist ein neuronales Netzwerk inspiriert?",
-                  "nl": "Waar is een neuraal netwerk op geÃ¯nspireerd?"
-        },
-        options: [
-        {
-                  "en": "Road networks",
-                  "es": "Redes de carreteras",
-                  "de": "StraÃŸennetze",
-                  "nl": "Wegennetwerken"
-        },
-        {
-                  "en": "Computer circuits",
-                  "es": "Circuitos de computadora",
-                  "de": "Computerschaltkreise",
-                  "nl": "Computer circuits"
-        },
-        {
-                  "en": "Social networks",
-                  "es": "Redes sociales",
-                  "de": "Soziale Netzwerke",
-                  "nl": "Sociale netwerken"
-        },
-        {
-                  "en": "The human brain",
-                  "es": "El cerebro humano",
-                  "de": "Das menschliche Gehirn",
-                  "nl": "Het menselijk brein"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Neural networks are designed to mimic how neurons in the human brain connect and process information, though in a much simplified way.",
-                  "es": "Las redes neuronales estÃ¡n diseÃ±adas para imitar cÃ³mo las neuronas en el cerebro humano se conectan y procesan informaciÃ³n, aunque de una manera muy simplificada.",
-                  "de": "Neuronale Netzwerke sind darauf ausgelegt, nachzuahmen, wie Neuronen im menschlichen Gehirn sich verbinden und Informationen verarbeiten, allerdings in sehr vereinfachter Weise.",
-                  "nl": "Neurale netwerken zijn ontworpen om na te bootsen hoe neuronen in het menselijk brein verbinden en informatie verwerken, hoewel op een veel vereenvoudigde manier."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the difference between classification and regression?",
-                  "es": "¿Cuál es la diferencia entre clasificación y regresión?",
-                  "de": "Was ist der Unterschied zwischen Klassifikation und Regression?",
-                  "nl": "Wat is het verschil tussen classificatie en regressie?"
-        },
-        options: [
-        {
-                  "en": "Classification predicts categories, regression predicts numbers",
-                  "es": "Clasificación predice categorías, regresión predice números",
-                  "de": "Klassifikation sagt Kategorien vorher, Regression sagt Zahlen vorher",
-                  "nl": "Classificatie voorspelt categorieën, regressie voorspelt getallen"
-        },
-        {
-                  "en": "Regression only works with images",
-                  "es": "Regresión solo funciona con imágenes",
-                  "de": "Regression funktioniert nur mit Bildern",
-                  "nl": "Regressie werkt alleen met afbeeldingen"
-        },
-        {
-                  "en": "They are exactly the same",
-                  "es": "Son exactamente iguales",
-                  "de": "Sie sind genau gleich",
-                  "nl": "Ze zijn precies hetzelfde"
-        },
-        {
-                  "en": "Classification is faster than regression",
-                  "es": "Clasificación es más rápida que regresión",
-                  "de": "Klassifikation ist schneller als Regression",
-                  "nl": "Classificatie is sneller dan regressie"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Classification predicts discrete categories or classes (like spam/not spam), while regression predicts continuous numerical values (like house prices or temperature).",
-                  "es": "Clasificación predice categorías o clases discretas (como spam/no spam), mientras regresión predice valores numéricos continuos (como precios de casas o temperatura).",
-                  "de": "Klassifikation sagt diskrete Kategorien oder Klassen vorher (wie Spam/kein Spam), während Regression kontinuierliche numerische Werte vorhersagt (wie Hauspreise oder Temperatur).",
-                  "nl": "Classificatie voorspelt discrete categorieën of klassen (zoals spam/geen spam), terwijl regressie continue numerieke waarden voorspelt (zoals huisprijzen of temperatuur)."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'training data' in machine learning?",
-                  "es": "¿Qué son los 'datos de entrenamiento' en machine learning?",
-                  "de": "Was sind 'Trainingsdaten' im maschinellen Lernen?",
-                  "nl": "Wat zijn 'trainingsdata' in machine learning?"
-        },
-        options: [
-        {
-                  "en": "Data for testing computers",
-                  "es": "Datos para probar computadoras",
-                  "de": "Daten zum Testen von Computern",
-                  "nl": "Data voor het testen van computers"
-        },
-        {
-                  "en": "Examples used to teach the algorithm",
-                  "es": "Ejemplos usados para enseñar al algoritmo",
-                  "de": "Beispiele zum Lehren des Algorithmus",
-                  "nl": "Voorbeelden gebruikt om het algoritme te leren"
-        },
-        {
-                  "en": "Information about trains",
-                  "es": "Información sobre trenes",
-                  "de": "Informationen über Züge",
-                  "nl": "Informatie over treinen"
-        },
-        {
-                  "en": "Data that moves very fast",
-                  "es": "Datos que se mueven muy rápido",
-                  "de": "Daten die sich sehr schnell bewegen",
-                  "nl": "Data die heel snel beweegt"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Training data is the dataset used to teach a machine learning algorithm. It contains input examples and their correct outputs, helping the algorithm learn patterns.",
-                  "es": "Los datos de entrenamiento son el conjunto de datos usado para enseñar un algoritmo de machine learning. Contiene ejemplos de entrada y sus salidas correctas, ayudando al algoritmo a aprender patrones.",
-                  "de": "Trainingsdaten sind der Datensatz, der verwendet wird, um einem maschinellen Lernalgorithmus zu lehren. Sie enthalten Eingabebeispiele und ihre korrekten Ausgaben und helfen dem Algorithmus, Muster zu lernen.",
-                  "nl": "Trainingsdata is de dataset gebruikt om een machine learning algoritme te leren. Het bevat invoervoorbeelden en hun correcte uitvoer, wat het algoritme helpt patronen te leren."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'testing data' used for?",
-                  "es": "¿Para qué se usan los 'datos de prueba'?",
-                  "de": "Wofür werden 'Testdaten' verwendet?",
-                  "nl": "Waarvoor worden 'testdata' gebruikt?"
-        },
-        options: [
-        {
-                  "en": "To check how well the trained model works on new data",
-                  "es": "Para verificar qué tan bien funciona el modelo entrenado en datos nuevos",
-                  "de": "Um zu prüfen, wie gut das trainierte Modell bei neuen Daten funktioniert",
-                  "nl": "Om te controleren hoe goed het getrainde model werkt op nieuwe data"
-        },
-        {
-                  "en": "To train the algorithm faster",
-                  "es": "Para entrenar el algoritmo más rápido",
-                  "de": "Um den Algorithmus schneller zu trainieren",
-                  "nl": "Om het algoritme sneller te trainen"
-        },
-        {
-                  "en": "To store extra information",
-                  "es": "Para almacenar información extra",
-                  "de": "Um zusätzliche Informationen zu speichern",
-                  "nl": "Om extra informatie op te slaan"
-        },
-        {
-                  "en": "To make the computer run tests",
-                  "es": "Para hacer que la computadora ejecute pruebas",
-                  "de": "Damit der Computer Tests ausführt",
-                  "nl": "Om de computer tests te laten uitvoeren"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Testing data is used to evaluate how well a trained model performs on data it hasn't seen before, helping measure if the model can generalize to new situations.",
-                  "es": "Los datos de prueba se usan para evaluar qué tan bien funciona un modelo entrenado en datos que no ha visto antes, ayudando a medir si el modelo puede generalizar a nuevas situaciones.",
-                  "de": "Testdaten werden verwendet, um zu bewerten, wie gut ein trainiertes Modell bei Daten funktioniert, die es zuvor nicht gesehen hat, und helfen zu messen, ob das Modell auf neue Situationen verallgemeinern kann.",
-                  "nl": "Testdata worden gebruikt om te evalueren hoe goed een getraind model presteert op data die het nog niet eerder heeft gezien, wat helpt om te meten of het model kan generaliseren naar nieuwe situaties."
-        }
-      },
-      {
-        question: {
-                  "en": "What does 'machine learning model' mean?",
-                  "es": "¿Qué significa 'modelo de machine learning'?",
-                  "de": "Was bedeutet 'maschinelles Lernmodell'?",
-                  "nl": "Wat betekent 'machine learning model'?"
-        },
-        options: [
-        {
-                  "en": "A small toy computer",
-                  "es": "Una computadora de juguete pequeña",
-                  "de": "Ein kleiner Spielzeugcomputer",
-                  "nl": "Een kleine speelgoedcomputer"
-        },
-        {
-                  "en": "A 3D printed robot",
-                  "es": "Un robot impreso en 3D",
-                  "de": "Ein 3D-gedruckter Roboter",
-                  "nl": "Een 3D geprinte robot"
-        },
-        {
-                  "en": "A picture of a machine",
-                  "es": "Una imagen de una máquina",
-                  "de": "Ein Bild einer Maschine",
-                  "nl": "Een afbeelding van een machine"
-        },
-        {
-                  "en": "A trained algorithm that can make predictions",
-                  "es": "Un algoritmo entrenado que puede hacer predicciones",
-                  "de": "Ein trainierter Algorithmus, der Vorhersagen treffen kann",
-                  "nl": "Een getraind algoritme dat voorspellingen kan maken"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "A machine learning model is the result of training an algorithm on data. It represents the patterns learned and can make predictions on new, unseen data.",
-                  "es": "Un modelo de machine learning es el resultado de entrenar un algoritmo con datos. Representa los patrones aprendidos y puede hacer predicciones en datos nuevos y no vistos.",
-                  "de": "Ein maschinelles Lernmodell ist das Ergebnis des Trainings eines Algorithmus mit Daten. Es repräsentiert die gelernten Muster und kann Vorhersagen für neue, ungesehene Daten treffen.",
-                  "nl": "Een machine learning model is het resultaat van het trainen van een algoritme op data. Het vertegenwoordigt de geleerde patronen en kan voorspellingen maken op nieuwe, ongeziene data."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a 'feature' in machine learning?",
-                  "es": "¿Qué es una 'característica' en machine learning?",
-                  "de": "Was ist ein 'Merkmal' im maschinellen Lernen?",
-                  "nl": "Wat is een 'feature' in machine learning?"
-        },
-        options: [
-        {
-                  "en": "An individual measurable property of something being observed",
-                  "es": "Una propiedad medible individual de algo que se está observando",
-                  "de": "Eine einzelne messbare Eigenschaft von etwas, das beobachtet wird",
-                  "nl": "Een individuele meetbare eigenschap van iets dat wordt waargenomen"
-        },
-        {
-                  "en": "A special function of the computer",
-                  "es": "Una función especial de la computadora",
-                  "de": "Eine spezielle Funktion des Computers",
-                  "nl": "Een speciale functie van de computer"
-        },
-        {
-                  "en": "A broken part of the algorithm",
-                  "es": "Una parte rota del algoritmo",
-                  "de": "Ein defekter Teil des Algorithmus",
-                  "nl": "Een kapot onderdeel van het algoritme"
-        },
-        {
-                  "en": "A movie about machines",
-                  "es": "Una película sobre máquinas",
-                  "de": "Ein Film über Maschinen",
-                  "nl": "Een film over machines"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "A feature is an individual measurable property or characteristic of something being observed, like height, weight, or color. Features are the input variables used to make predictions.",
-                  "es": "Una característica es una propiedad o característica medible individual de algo que se está observando, como altura, peso o color. Las características son las variables de entrada usadas para hacer predicciones.",
-                  "de": "Ein Merkmal ist eine einzelne messbare Eigenschaft oder Charakteristikum von etwas, das beobachtet wird, wie Größe, Gewicht oder Farbe. Merkmale sind die Eingabevariablen, die für Vorhersagen verwendet werden.",
-                  "nl": "Een feature is een individuele meetbare eigenschap of karakteristiek van iets dat wordt waargenomen, zoals lengte, gewicht of kleur. Features zijn de inputvariabelen die gebruikt worden om voorspellingen te maken."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'artificial intelligence' (AI)?",
-                  "es": "¿Qué es la 'inteligencia artificial' (IA)?",
-                  "de": "Was ist 'künstliche Intelligenz' (KI)?",
-                  "nl": "Wat is 'kunstmatige intelligentie' (AI)?"
-        },
-        options: [
-        {
-                  "en": "Fake intelligence that doesn't work",
-                  "es": "Inteligencia falsa que no funciona",
-                  "de": "Falsche Intelligenz, die nicht funktioniert",
-                  "nl": "Neppe intelligentie die niet werkt"
-        },
-        {
-                  "en": "Intelligence that costs a lot of money",
-                  "es": "Inteligencia que cuesta mucho dinero",
-                  "de": "Intelligenz, die viel Geld kostet",
-                  "nl": "Intelligentie die veel geld kost"
-        },
-        {
-                  "en": "Technology that enables machines to think and learn like humans",
-                  "es": "Tecnología que permite a las máquinas pensar y aprender como humanos",
-                  "de": "Technologie, die Maschinen ermöglicht, wie Menschen zu denken und zu lernen",
-                  "nl": "Technologie die machines in staat stelt om te denken en leren zoals mensen"
-        },
-        {
-                  "en": "Only intelligence found in robots",
-                  "es": "Solo inteligencia encontrada en robots",
-                  "de": "Nur Intelligenz, die in Robotern gefunden wird",
-                  "nl": "Alleen intelligentie gevonden in robots"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Artificial Intelligence (AI) is technology that enables machines to simulate human intelligence - learning, reasoning, perceiving, and making decisions. Machine learning is a subset of AI.",
-                  "es": "Inteligencia Artificial (IA) es tecnología que permite a las máquinas simular inteligencia humana - aprender, razonar, percibir y tomar decisiones. Machine learning es un subconjunto de IA.",
-                  "de": "Künstliche Intelligenz (KI) ist Technologie, die Maschinen ermöglicht, menschliche Intelligenz zu simulieren - Lernen, Schließen, Wahrnehmen und Entscheidungen treffen. Maschinelles Lernen ist eine Teilmenge von KI.",
-                  "nl": "Kunstmatige Intelligentie (AI) is technologie die machines in staat stelt menselijke intelligentie te simuleren - leren, redeneren, waarnemen en beslissingen nemen. Machine learning is een onderdeel van AI."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a 'dataset' in machine learning?",
-                  "es": "¿Qué es un 'conjunto de datos' en machine learning?",
-                  "de": "Was ist ein 'Datensatz' im maschinellen Lernen?",
-                  "nl": "Wat is een 'dataset' in machine learning?"
-        },
-        options: [
-        {
-                  "en": "A computer's memory",
-                  "es": "La memoria de una computadora",
-                  "de": "Der Speicher eines Computers",
-                  "nl": "Het geheugen van een computer"
-        },
-        {
-                  "en": "A set of dates on a calendar",
-                  "es": "Un conjunto de fechas en un calendario",
-                  "de": "Eine Reihe von Daten in einem Kalender",
-                  "nl": "Een set datums op een kalender"
-        },
-        {
-                  "en": "A collection of data used for training and testing",
-                  "es": "Una colección de datos usada para entrenamiento y pruebas",
-                  "de": "Eine Sammlung von Daten für Training und Tests",
-                  "nl": "Een verzameling data gebruikt voor training en testen"
-        },
-        {
-                  "en": "A single piece of information",
-                  "es": "Una sola pieza de información",
-                  "de": "Ein einzelnes Stück Information",
-                  "nl": "Een enkel stuk informatie"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "A dataset is a collection of related data points or examples that machines use to learn patterns. It typically includes many examples with features and target values for training algorithms.",
-                  "es": "Un conjunto de datos es una colección de puntos de datos o ejemplos relacionados que las máquinas usan para aprender patrones. Típicamente incluye muchos ejemplos con características y valores objetivo para entrenar algoritmos.",
-                  "de": "Ein Datensatz ist eine Sammlung verwandter Datenpunkte oder Beispiele, die Maschinen verwenden, um Muster zu lernen. Er enthält typischerweise viele Beispiele mit Merkmalen und Zielwerten für das Training von Algorithmen.",
-                  "nl": "Een dataset is een verzameling van gerelateerde datapunten of voorbeelden die machines gebruiken om patronen te leren. Het bevat meestal vele voorbeelden met features en doelwaarden voor het trainen van algoritmes."
-        }
-      },
-      {
-        question: {
-                  "en": "What does 'pattern recognition' mean in AI?",
-                  "es": "¿Qué significa 'reconocimiento de patrones' en IA?",
-                  "de": "Was bedeutet 'Mustererkennung' in der KI?",
-                  "nl": "Wat betekent 'patroonherkenning' in AI?"
-        },
-        options: [
-        {
-                  "en": "Drawing geometric shapes",
-                  "es": "Dibujar formas geométricas",
-                  "de": "Geometrische Formen zeichnen",
-                  "nl": "Geometrische vormen tekenen"
-        },
-        {
-                  "en": "Finding repeating structures or regularities in data",
-                  "es": "Encontrar estructuras repetitivas o regularidades en datos",
-                  "de": "Wiederkehrende Strukturen oder Regelmäßigkeiten in Daten finden",
-                  "nl": "Het vinden van herhalende structuren of regelmatigheden in data"
-        },
-        {
-                  "en": "Recognizing famous people",
-                  "es": "Reconocer personas famosas",
-                  "de": "Berühmte Personen erkennen",
-                  "nl": "Beroemde mensen herkennen"
-        },
-        {
-                  "en": "Making patterns on fabric",
-                  "es": "Hacer patrones en tela",
-                  "de": "Muster auf Stoff erstellen",
-                  "nl": "Patronen maken op stof"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Pattern recognition is the ability to identify regularities, trends, or repeating structures in data. This is fundamental to how machine learning algorithms work - they find patterns to make predictions.",
-                  "es": "Reconocimiento de patrones es la habilidad de identificar regularidades, tendencias o estructuras repetitivas en datos. Esto es fundamental para cómo funcionan los algoritmos de machine learning - encuentran patrones para hacer predicciones.",
-                  "de": "Mustererkennung ist die Fähigkeit, Regelmäßigkeiten, Trends oder wiederkehrende Strukturen in Daten zu identifizieren. Dies ist grundlegend dafür, wie maschinelle Lernalgorithmen funktionieren - sie finden Muster, um Vorhersagen zu treffen.",
-                  "nl": "Patroonherkenning is het vermogen om regelmatigheden, trends of herhalende structuren in data te identificeren. Dit is fundamenteel voor hoe machine learning algoritmes werken - ze vinden patronen om voorspellingen te maken."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'data' in the context of machine learning?",
-                  "es": "¿Qué es 'data' en el contexto de machine learning?",
-                  "de": "Was sind 'Daten' im Kontext des maschinellen Lernens?",
-                  "nl": "Wat is 'data' in de context van machine learning?"
-        },
-        options: [
-        {
-                  "en": "Information stored on phones",
-                  "es": "Información almacenada en teléfonos",
-                  "de": "Informationen auf Telefonen gespeichert",
-                  "nl": "Informatie opgeslagen op telefoons"
-        },
-        {
-                  "en": "Only numbers and calculations",
-                  "es": "Solo números y cálculos",
-                  "de": "Nur Zahlen und Berechnungen",
-                  "nl": "Alleen getallen en berekeningen"
-        },
-        {
-                  "en": "Information that can be processed by computers to learn patterns",
-                  "es": "Información que puede ser procesada por computadoras para aprender patrones",
-                  "de": "Informationen, die von Computern verarbeitet werden können, um Muster zu lernen",
-                  "nl": "Informatie die door computers kan worden verwerkt om patronen te leren"
-        },
-        {
-                  "en": "Pictures and videos only",
-                  "es": "Solo imágenes y videos",
-                  "de": "Nur Bilder und Videos",
-                  "nl": "Alleen afbeeldingen en video's"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Data in machine learning can be any information - numbers, text, images, sounds, or measurements - that computers can process to identify patterns and make predictions.",
-                  "es": "Los datos en machine learning pueden ser cualquier información - números, texto, imágenes, sonidos o mediciones - que las computadoras pueden procesar para identificar patrones y hacer predicciones.",
-                  "de": "Daten im maschinellen Lernen können jede Information sein - Zahlen, Text, Bilder, Töne oder Messungen - die Computer verarbeiten können, um Muster zu identifizieren und Vorhersagen zu treffen.",
-                  "nl": "Data in machine learning kan elke informatie zijn - getallen, tekst, afbeeldingen, geluiden of metingen - die computers kunnen verwerken om patronen te identificeren en voorspellingen te maken."
-        }
-      },
-      {
-        question: {
-                  "en": "What does 'learning' mean when we talk about machine learning?",
-                  "es": "¿Qué significa 'aprender' cuando hablamos de machine learning?",
-                  "de": "Was bedeutet 'Lernen' wenn wir über maschinelles Lernen sprechen?",
-                  "nl": "Wat betekent 'leren' als we het hebben over machine learning?"
-        },
-        options: [
-        {
-                  "en": "Improving performance by finding patterns in data",
-                  "es": "Mejorar el rendimiento encontrando patrones en datos",
-                  "de": "Leistung verbessern durch das Finden von Mustern in Daten",
-                  "nl": "Prestaties verbeteren door patronen in data te vinden"
-        },
-        {
-                  "en": "Reading books and studying",
-                  "es": "Leer libros y estudiar",
-                  "de": "Bücher lesen und studieren",
-                  "nl": "Boeken lezen en studeren"
-        },
-        {
-                  "en": "Memorizing everything perfectly",
-                  "es": "Memorizar todo perfectamente",
-                  "de": "Alles perfekt auswendig lernen",
-                  "nl": "Alles perfect onthouden"
-        },
-        {
-                  "en": "Going to school like humans",
-                  "es": "Ir a la escuela como humanos",
-                  "de": "Zur Schule gehen wie Menschen",
-                  "nl": "Naar school gaan zoals mensen"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "In machine learning, 'learning' means the algorithm gets better at making predictions by analyzing data and finding patterns, similar to how humans learn from experience.",
-                  "es": "En machine learning, 'aprender' significa que el algoritmo mejora haciendo predicciones analizando datos y encontrando patrones, similar a cómo los humanos aprenden de la experiencia.",
-                  "de": "Im maschinellen Lernen bedeutet 'Lernen', dass der Algorithmus besser darin wird, Vorhersagen zu treffen, indem er Daten analysiert und Muster findet, ähnlich wie Menschen aus Erfahrung lernen.",
-                  "nl": "In machine learning betekent 'leren' dat het algoritme beter wordt in het maken van voorspellingen door data te analyseren en patronen te vinden, vergelijkbaar met hoe mensen leren van ervaring."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the main goal of machine learning?",
-                  "es": "¿Cuál es el objetivo principal de machine learning?",
-                  "de": "Was ist das Hauptziel des maschinellen Lernens?",
-                  "nl": "Wat is het hoofddoel van machine learning?"
-        },
-        options: [
-        {
-                  "en": "To replace all human workers",
-                  "es": "Reemplazar a todos los trabajadores humanos",
-                  "de": "Alle menschlichen Arbeiter zu ersetzen",
-                  "nl": "Alle menselijke werknemers vervangen"
-        },
-        {
-                  "en": "To make computers think like humans",
-                  "es": "Hacer que las computadoras piensen como humanos",
-                  "de": "Computer dazu zu bringen, wie Menschen zu denken",
-                  "nl": "Computers laten denken zoals mensen"
-        },
-        {
-                  "en": "To store large amounts of data",
-                  "es": "Almacenar grandes cantidades de datos",
-                  "de": "Große Datenmengen zu speichern",
-                  "nl": "Grote hoeveelheden data opslaan"
-        },
-        {
-                  "en": "To make accurate predictions on new, unseen data",
-                  "es": "Hacer predicciones precisas en datos nuevos y no vistos",
-                  "de": "Genaue Vorhersagen für neue, ungesehene Daten zu treffen",
-                  "nl": "Nauwkeurige voorspellingen maken op nieuwe, ongeziene data"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The main goal of machine learning is to create models that can generalize from training data to make accurate predictions or decisions on new, previously unseen data.",
-                  "es": "El objetivo principal de machine learning es crear modelos que puedan generalizar de datos de entrenamiento para hacer predicciones o decisiones precisas en datos nuevos y previamente no vistos.",
-                  "de": "Das Hauptziel des maschinellen Lernens ist es, Modelle zu erstellen, die von Trainingsdaten verallgemeinern können, um genaue Vorhersagen oder Entscheidungen für neue, zuvor ungesehene Daten zu treffen.",
-                  "nl": "Het hoofddoel van machine learning is om modellen te creëren die kunnen generaliseren van trainingsdata om nauwkeurige voorspellingen of beslissingen te maken op nieuwe, eerder ongeziene data."
-        }
-      },
-      {
-        question: {
-                  "en": "What is an example of unsupervised learning?",
-                  "es": "¿Qué es un ejemplo de aprendizaje no supervisado?",
-                  "de": "Was ist ein Beispiel für unüberwachtes Lernen?",
-                  "nl": "Wat is een voorbeeld van unsupervised learning?"
-        },
-        options: [
-        {
-                  "en": "Finding groups of similar customers without knowing the groups beforehand",
-                  "es": "Encontrar grupos de clientes similares sin conocer los grupos de antemano",
-                  "de": "Gruppen ähnlicher Kunden finden ohne die Gruppen vorher zu kennen",
-                  "nl": "Groepen van vergelijkbare klanten vinden zonder de groepen van tevoren te kennen"
-        },
-        {
-                  "en": "Learning without any computer",
-                  "es": "Aprender sin ninguna computadora",
-                  "de": "Lernen ohne Computer",
-                  "nl": "Leren zonder computer"
-        },
-        {
-                  "en": "Predicting house prices with known examples",
-                  "es": "Predecir precios de casas con ejemplos conocidos",
-                  "de": "Hauspreise mit bekannten Beispielen vorhersagen",
-                  "nl": "Huisprijzen voorspellen met bekende voorbeelden"
-        },
-        {
-                  "en": "Teaching computers to recognize cats with labeled pictures",
-                  "es": "Enseñar a computadoras a reconocer gatos con imágenes etiquetadas",
-                  "de": "Computer lehren, Katzen mit beschrifteten Bildern zu erkennen",
-                  "nl": "Computers leren katten te herkennen met gelabelde afbeeldingen"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Unsupervised learning finds hidden patterns in data without being told what to look for. Clustering customers by shopping behavior is a common example - the algorithm discovers groups on its own.",
-                  "es": "El aprendizaje no supervisado encuentra patrones ocultos en datos sin que se le diga qué buscar. Agrupar clientes por comportamiento de compra es un ejemplo común - el algoritmo descubre grupos por sí solo.",
-                  "de": "Unüberwachtes Lernen findet versteckte Muster in Daten, ohne gesagt zu bekommen, wonach zu suchen ist. Das Gruppieren von Kunden nach Einkaufsverhalten ist ein häufiges Beispiel - der Algorithmus entdeckt Gruppen selbständig.",
-                  "nl": "Unsupervised learning vindt verborgen patronen in data zonder te worden verteld waarnaar te zoeken. Het groeperen van klanten op winkelgedrag is een veelvoorkomend voorbeeld - het algoritme ontdekt groepen zelfstandig."
-        }
-      },
-      {
-        question: {
-                  "en": "What is an example of reinforcement learning?",
-                  "es": "¿Qué es un ejemplo de aprendizaje por refuerzo?",
-                  "de": "Was ist ein Beispiel für Verstärkungslernen?",
-                  "nl": "Wat is een voorbeeld van reinforcement learning?"
-        },
-        options: [
-        {
-                  "en": "A computer learning to play chess by playing many games and getting rewards for wins",
-                  "es": "Una computadora aprendiendo a jugar ajedrez jugando muchos juegos y recibiendo recompensas por victorias",
-                  "de": "Ein Computer lernt Schach zu spielen, indem er viele Spiele spielt und Belohnungen für Siege erhält",
-                  "nl": "Een computer die leert schaken door veel spellen te spelen en beloningen te krijgen voor overwinningen"
-        },
-        {
-                  "en": "Teaching with many examples and correct answers",
-                  "es": "Enseñar con muchos ejemplos y respuestas correctas",
-                  "de": "Lehren mit vielen Beispielen und richtigen Antworten",
-                  "nl": "Leren met veel voorbeelden en juiste antwoorden"
-        },
-        {
-                  "en": "Finding patterns without any guidance",
-                  "es": "Encontrar patrones sin ninguna orientación",
-                  "de": "Muster finden ohne jede Anleitung",
-                  "nl": "Patronen vinden zonder enige begeleiding"
-        },
-        {
-                  "en": "Learning only from textbooks",
-                  "es": "Aprender solo de libros de texto",
-                  "de": "Nur aus Lehrbüchern lernen",
-                  "nl": "Alleen leren uit tekstboeken"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Reinforcement learning learns through trial and error with rewards and penalties. Like training a pet with treats, the algorithm learns what actions lead to good outcomes through experience.",
-                  "es": "El aprendizaje por refuerzo aprende a través de prueba y error con recompensas y penalidades. Como entrenar una mascota con premios, el algoritmo aprende qué acciones llevan a buenos resultados a través de la experiencia.",
-                  "de": "Verstärkungslernen lernt durch Versuch und Irrtum mit Belohnungen und Strafen. Wie das Training eines Haustiers mit Leckerlis lernt der Algorithmus durch Erfahrung, welche Aktionen zu guten Ergebnissen führen.",
-                  "nl": "Reinforcement learning leert door trial en error met beloningen en straffen. Zoals het trainen van een huisdier met traktaties, leert het algoritme door ervaring welke acties tot goede resultaten leiden."
-        }
-      },
-      {
-        question: {
-                  "en": "What is feature selection in machine learning?",
-                  "es": "¿Qué es la selección de características en aprendizaje automático?",
-                  "de": "Was ist Feature-Auswahl im maschinellen Lernen?",
-                  "nl": "Wat is feature selectie in machine learning?"
-        },
-        options: [
-        {
-                  "en": "Choosing the best computer hardware for training",
-                  "es": "Elegir el mejor hardware de computadora para entrenamiento",
-                  "de": "Die beste Computer-Hardware für das Training auswählen",
-                  "nl": "De beste computerhardware kiezen voor training"
-        },
-        {
-                  "en": "Choosing the most important input variables for training the model",
-                  "es": "Elegir las variables de entrada más importantes para entrenar el modelo",
-                  "de": "Die wichtigsten Eingabevariablen für das Training des Modells auswählen",
-                  "nl": "De belangrijkste invoervariabelen kiezen voor het trainen van het model"
-        },
-        {
-                  "en": "Selecting which machine learning algorithm to use",
-                  "es": "Seleccionar qué algoritmo de aprendizaje automático usar",
-                  "de": "Auswählen welcher maschinelle Lernalgorithmus zu verwenden ist",
-                  "nl": "Selecteren welk machine learning algoritme te gebruiken"
-        },
-        {
-                  "en": "Picking features for the user interface",
-                  "es": "Elegir características para la interfaz de usuario",
-                  "de": "Features für die Benutzeroberfläche auswählen",
-                  "nl": "Features kiezen voor de gebruikersinterface"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Feature selection helps improve model performance by removing irrelevant or redundant input variables, reducing complexity and potentially improving accuracy.",
-                  "es": "La selección de características ayuda a mejorar el rendimiento del modelo eliminando variables de entrada irrelevantes o redundantes, reduciendo complejidad y potencialmente mejorando la precisión.",
-                  "de": "Feature-Auswahl hilft die Modellleistung zu verbessern durch Entfernung irrelevanter oder redundanter Eingabevariablen, reduziert Komplexität und verbessert potenziell die Genauigkeit.",
-                  "nl": "Feature selectie helpt modelprestaties te verbeteren door irrelevante of redundante invoervariabelen te verwijderen, vermindert complexiteit en verbetert mogelijk de nauwkeurigheid."
-        }
-      },
-      {
-        question: {
-                  "en": "What is cross-validation in machine learning?",
-                  "es": "¿Qué es la validación cruzada en aprendizaje automático?",
-                  "de": "Was ist Kreuzvalidierung im maschinellen Lernen?",
-                  "nl": "Wat is cross-validatie in machine learning?"
-        },
-        options: [
-        {
-                  "en": "Checking if the data is correct by asking multiple people",
-                  "es": "Verificar si los datos son correctos preguntando a múltiples personas",
-                  "de": "Prüfen ob die Daten korrekt sind durch Befragung mehrerer Personen",
-                  "nl": "Controleren of de data correct is door meerdere mensen te vragen"
-        },
-        {
-                  "en": "A technique to test model performance by splitting data into multiple folds for training and testing",
-                  "es": "Una técnica para probar el rendimiento del modelo dividiendo datos en múltiples partes para entrenamiento y prueba",
-                  "de": "Eine Technik um Modellleistung zu testen durch Aufteilen von Daten in mehrere Abschnitte für Training und Testen",
-                  "nl": "Een techniek om modelprestaties te testen door data op te splitsen in meerdere delen voor training en testen"
-        },
-        {
-                  "en": "Training models on different types of computers",
-                  "es": "Entrenar modelos en diferentes tipos de computadoras",
-                  "de": "Modelle auf verschiedenen Computertypen trainieren",
-                  "nl": "Modellen trainen op verschillende soorten computers"
-        },
-        {
-                  "en": "Validating that different algorithms give the same results",
-                  "es": "Validar que diferentes algoritmos den los mismos resultados",
-                  "de": "Validieren dass verschiedene Algorithmen dieselben Ergebnisse geben",
-                  "nl": "Valideren dat verschillende algoritmes dezelfde resultaten geven"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Cross-validation provides a more reliable estimate of model performance by training and testing on different portions of the data multiple times, helping detect overfitting.",
-                  "es": "La validación cruzada proporciona una estimación más confiable del rendimiento del modelo entrenando y probando en diferentes porciones de los datos múltiples veces, ayudando a detectar sobreajuste.",
-                  "de": "Kreuzvalidierung bietet eine zuverlässigere Schätzung der Modellleistung durch Training und Testen auf verschiedenen Datenteilen mehrfach, hilft Overfitting zu erkennen.",
-                  "nl": "Cross-validatie biedt een betrouwbaardere schatting van modelprestaties door meerdere keren te trainen en testen op verschillende delen van de data, helpt overfitting te detecteren."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the difference between a model and an algorithm?",
-                  "es": "¿Cuál es la diferencia entre un modelo y un algoritmo?",
-                  "de": "Was ist der Unterschied zwischen einem Modell und einem Algorithmus?",
-                  "nl": "Wat is het verschil tussen een model en een algoritme?"
-        },
-        options: [
+      options: [
         {
-                  "en": "A model is always faster than an algorithm",
-                  "es": "Un modelo es siempre más rápido que un algoritmo",
-                  "de": "Ein Modell ist immer schneller als ein Algorithmus",
-                  "nl": "Een model is altijd sneller dan een algoritme"
+          en: "Supervised learning",
+          es: "Aprendizaje supervisado",
+          de: "Überwachtes Lernen",
+          nl: "Gesuperviseerd leren"
         },
         {
-                  "en": "An algorithm is the process, a model is the result of training",
-                  "es": "Un algoritmo es el proceso, un modelo es el resultado del entrenamiento",
-                  "de": "Ein Algorithmus ist der Prozess, ein Modell ist das Ergebnis des Trainings",
-                  "nl": "Een algoritme is het proces, een model is het resultaat van training"
+          en: "Unsupervised learning",
+          es: "Aprendizaje no supervisado",
+          de: "Unüberwachtes Lernen",
+          nl: "Ongesuperviseerd leren"
         },
         {
-                  "en": "They are exactly the same thing",
-                  "es": "Son exactamente lo mismo",
-                  "de": "Sie sind genau dasselbe",
-                  "nl": "Ze zijn precies hetzelfde"
+          en: "Random learning",
+          es: "Aprendizaje aleatorio",
+          de: "Zufälliges Lernen",
+          nl: "Willekeurig leren"
         },
         {
-                  "en": "An algorithm is for math, a model is for images",
-                  "es": "Un algoritmo es para matemáticas, un modelo es para imágenes",
-                  "de": "Ein Algorithmus ist für Mathematik, ein Modell ist für Bilder",
-                  "nl": "Een algoritme is voor wiskunde, een model is voor afbeeldingen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "An algorithm is the learning method or procedure, while a model is the trained structure that results from applying the algorithm to data.",
-                  "es": "Un algoritmo es el método o procedimiento de aprendizaje, mientras que un modelo es la estructura entrenada que resulta de aplicar el algoritmo a los datos.",
-                  "de": "Ein Algorithmus ist die Lernmethode oder das Verfahren, während ein Modell die trainierte Struktur ist die aus der Anwendung des Algorithmus auf Daten resultiert.",
-                  "nl": "Een algoritme is de leermethode of procedure, terwijl een model de getrainde structuur is die resulteert uit het toepassen van het algoritme op data."
-        }
-      },
-      {
-        question: {
-                  "en": "What does 'underfitting' mean?",
-                  "es": "¿Qué significa 'subajuste'?",
-                  "de": "Was bedeutet 'Unteranpassung'?",
-                  "nl": "Wat betekent 'underfitting'?"
-        },
-        options: [
-        {
-                  "en": "Model doesn't fit in computer memory",
-                  "es": "El modelo no cabe en la memoria de la computadora",
-                  "de": "Modell passt nicht in den Computerspeicher",
-                  "nl": "Model past niet in het computergeheugen"
-        },
-        {
-                  "en": "Model is too simple and performs poorly on both training and new data",
-                  "es": "El modelo es demasiado simple y funciona mal tanto en datos de entrenamiento como en datos nuevos",
-                  "de": "Modell ist zu einfach und funktioniert schlecht sowohl bei Trainings- als auch neuen Daten",
-                  "nl": "Model is te simpel en presteert slecht op zowel trainings- als nieuwe data"
-        },
-        {
-                  "en": "Training data is too small",
-                  "es": "Los datos de entrenamiento son demasiado pequeños",
-                  "de": "Trainingsdaten sind zu klein",
-                  "nl": "Trainingsdata is te klein"
-        },
-        {
-                  "en": "Model trains too quickly",
-                  "es": "El modelo entrena demasiado rápido",
-                  "de": "Modell trainiert zu schnell",
-                  "nl": "Model traint te snel"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Underfitting occurs when a model is too simple to capture the underlying patterns in data, resulting in poor performance on both training and test data.",
-                  "es": "El subajuste ocurre cuando un modelo es demasiado simple para capturar los patrones subyacentes en los datos, resultando en un rendimiento pobre tanto en datos de entrenamiento como de prueba.",
-                  "de": "Unteranpassung tritt auf wenn ein Modell zu einfach ist um die zugrunde liegenden Muster in Daten zu erfassen, resultiert in schlechter Leistung sowohl bei Trainings- als auch Testdaten.",
-                  "nl": "Underfitting treedt op wanneer een model te simpel is om de onderliggende patronen in data vast te leggen, resulteert in slechte prestaties op zowel trainings- als testdata."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a confusion matrix?",
-                  "es": "¿Qué es una matriz de confusión?",
-                  "de": "Was ist eine Konfusionsmatrix?",
-                  "nl": "Wat is een confusion matrix?"
-        },
-        options: [
-        {
-                  "en": "A table showing correct vs incorrect predictions for each class",
-                  "es": "Una tabla que muestra predicciones correctas vs incorrectas para cada clase",
-                  "de": "Eine Tabelle die korrekte vs inkorrekte Vorhersagen für jede Klasse zeigt",
-                  "nl": "Een tabel die correcte vs incorrecte voorspellingen toont voor elke klasse"
-        },
-        {
-                  "en": "A list of errors in the code",
-                  "es": "Una lista de errores en el código",
-                  "de": "Eine Liste von Fehlern im Code",
-                  "nl": "Een lijst van fouten in de code"
-        },
-        {
-                  "en": "A confusing type of neural network",
-                  "es": "Un tipo confuso de red neuronal",
-                  "de": "Eine verwirrende Art von neuronalem Netzwerk",
-                  "nl": "Een verwarrend type neuraal netwerk"
-        },
-        {
-                  "en": "A matrix that causes confusion in calculations",
-                  "es": "Una matriz que causa confusión en los cálculos",
-                  "de": "Eine Matrix die Verwirrung in Berechnungen verursacht",
-                  "nl": "Een matrix die verwarring veroorzaakt in berekeningen"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "A confusion matrix displays the performance of a classification model by showing true positives, true negatives, false positives, and false negatives for each class.",
-                  "es": "Una matriz de confusión muestra el rendimiento de un modelo de clasificación mostrando verdaderos positivos, verdaderos negativos, falsos positivos y falsos negativos para cada clase.",
-                  "de": "Eine Konfusionsmatrix zeigt die Leistung eines Klassifikationsmodells durch Anzeige von echten Positiven, echten Negativen, falschen Positiven und falschen Negativen für jede Klasse.",
-                  "nl": "Een confusion matrix toont de prestaties van een classificatiemodel door true positives, true negatives, false positives en false negatives te tonen voor elke klasse."
-        }
-      },
-      {
-        question: {
-                  "en": "What is precision in classification?",
-                  "es": "¿Qué es la precisión en clasificación?",
-                  "de": "Was ist Präzision in der Klassifikation?",
-                  "nl": "Wat is precisie in classificatie?"
-        },
-        options: [
-        {
-                  "en": "How precise the measurements are",
-                  "es": "Qué tan precisas son las mediciones",
-                  "de": "Wie präzise die Messungen sind",
-                  "nl": "Hoe precies de metingen zijn"
-        },
-        {
-                  "en": "The total number of correct predictions",
-                  "es": "El número total de predicciones correctas",
-                  "de": "Die Gesamtzahl korrekter Vorhersagen",
-                  "nl": "Het totaal aantal correcte voorspellingen"
-        },
-        {
-                  "en": "How fast the model makes predictions",
-                  "es": "Qué tan rápido el modelo hace predicciones",
-                  "de": "Wie schnell das Modell Vorhersagen macht",
-                  "nl": "Hoe snel het model voorspellingen maakt"
-        },
-        {
-                  "en": "The ratio of correct positive predictions to all positive predictions",
-                  "es": "La proporción de predicciones positivas correctas sobre todas las predicciones positivas",
-                  "de": "Das Verhältnis korrekter positiver Vorhersagen zu allen positiven Vorhersagen",
-                  "nl": "De verhouding van correcte positieve voorspellingen tot alle positieve voorspellingen"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Precision measures how many of the items identified as positive are actually positive, calculated as true positives divided by (true positives + false positives).",
-                  "es": "La precisión mide cuántos de los elementos identificados como positivos son realmente positivos, calculado como verdaderos positivos dividido por (verdaderos positivos + falsos positivos).",
-                  "de": "Präzision misst wie viele der als positiv identifizierten Elemente tatsächlich positiv sind, berechnet als echte Positive geteilt durch (echte Positive + falsche Positive).",
-                  "nl": "Precisie meet hoeveel van de items geïdentificeerd als positief daadwerkelijk positief zijn, berekend als true positives gedeeld door (true positives + false positives)."
-        }
-      },
-      {
-        question: {
-                  "en": "What is recall in classification?",
-                  "es": "¿Qué es el recall en clasificación?",
-                  "de": "Was ist Recall in der Klassifikation?",
-                  "nl": "Wat is recall in classificatie?"
-        },
-        options: [
-        {
-                  "en": "Recalling previously made predictions",
-                  "es": "Recordar predicciones hechas anteriormente",
-                  "de": "Zuvor gemachte Vorhersagen abrufen",
-                  "nl": "Eerder gemaakte voorspellingen herinneren"
-        },
-        {
-                  "en": "The speed of retrieving predictions",
-                  "es": "La velocidad de recuperar predicciones",
-                  "de": "Die Geschwindigkeit des Abrufens von Vorhersagen",
-                  "nl": "De snelheid van het ophalen van voorspellingen"
-        },
-        {
-                  "en": "The ratio of correct positive predictions to all actual positives",
-                  "es": "La proporción de predicciones positivas correctas sobre todos los positivos reales",
-                  "de": "Das Verhältnis korrekter positiver Vorhersagen zu allen tatsächlichen Positiven",
-                  "nl": "De verhouding van correcte positieve voorspellingen tot alle daadwerkelijke positieven"
-        },
-        {
-                  "en": "How well the model remembers training data",
-                  "es": "Qué tan bien el modelo recuerda los datos de entrenamiento",
-                  "de": "Wie gut das Modell sich an Trainingsdaten erinnert",
-                  "nl": "Hoe goed het model trainingsdata onthoudt"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Recall measures how many of the actual positive cases were correctly identified, calculated as true positives divided by (true positives + false negatives).",
-                  "es": "El recall mide cuántos de los casos positivos reales fueron identificados correctamente, calculado como verdaderos positivos dividido por (verdaderos positivos + falsos negativos).",
-                  "de": "Recall misst wie viele der tatsächlichen positiven Fälle korrekt identifiziert wurden, berechnet als echte Positive geteilt durch (echte Positive + falsche Negative).",
-                  "nl": "Recall meet hoeveel van de daadwerkelijke positieve gevallen correct geïdentificeerd werden, berekend als true positives gedeeld door (true positives + false negatives)."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the bias-variance tradeoff?",
-                  "es": "¿Qué es el equilibrio sesgo-varianza?",
-                  "de": "Was ist der Bias-Varianz-Tradeoff?",
-                  "nl": "Wat is de bias-variance tradeoff?"
-        },
-        options: [
-        {
-                  "en": "Choosing between different algorithms",
-                  "es": "Elegir entre diferentes algoritmos",
-                  "de": "Wählen zwischen verschiedenen Algorithmen",
-                  "nl": "Kiezen tussen verschillende algoritmes"
-        },
-        {
-                  "en": "Trading computational resources for accuracy",
-                  "es": "Intercambiar recursos computacionales por precisión",
-                  "de": "Rechenressourcen gegen Genauigkeit tauschen",
-                  "nl": "Computationele middelen ruilen voor nauwkeurigheid"
-        },
-        {
-                  "en": "The cost of training vs testing",
-                  "es": "El costo de entrenamiento vs prueba",
-                  "de": "Die Kosten von Training vs Testen",
-                  "nl": "De kosten van training vs testen"
-        },
-        {
-                  "en": "Balancing model simplicity (bias) against flexibility (variance)",
-                  "es": "Equilibrar simplicidad del modelo (sesgo) contra flexibilidad (varianza)",
-                  "de": "Balance zwischen Modell-Einfachheit (Bias) und Flexibilität (Varianz)",
-                  "nl": "Balanceren van model-eenvoud (bias) tegen flexibiliteit (variance)"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The bias-variance tradeoff is the balance between a model's ability to minimize bias (error from wrong assumptions) and variance (error from sensitivity to training data fluctuations).",
-                  "es": "El equilibrio sesgo-varianza es el balance entre la capacidad del modelo de minimizar sesgo (error de suposiciones incorrectas) y varianza (error de sensibilidad a fluctuaciones de datos de entrenamiento).",
-                  "de": "Der Bias-Varianz-Tradeoff ist das Gleichgewicht zwischen der Fähigkeit eines Modells Bias (Fehler aus falschen Annahmen) und Varianz (Fehler aus Empfindlichkeit gegenüber Trainingsdaten-Schwankungen) zu minimieren.",
-                  "nl": "De bias-variance tradeoff is de balans tussen het vermogen van een model om bias (fout van verkeerde aannames) en variance (fout van gevoeligheid voor trainingsdata fluctuaties) te minimaliseren."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a hyperparameter?",
-                  "es": "¿Qué es un hiperparámetro?",
-                  "de": "Was ist ein Hyperparameter?",
-                  "nl": "Wat is een hyperparameter?"
-        },
-        options: [
-        {
-                  "en": "A parameter set before training that controls the learning process",
-                  "es": "Un parámetro establecido antes del entrenamiento que controla el proceso de aprendizaje",
-                  "de": "Ein Parameter der vor dem Training festgelegt wird und den Lernprozess steuert",
-                  "nl": "Een parameter ingesteld voor training die het leerproces bestuurt"
-        },
-        {
-                  "en": "A parameter that changes during training",
-                  "es": "Un parámetro que cambia durante el entrenamiento",
-                  "de": "Ein Parameter der sich während des Trainings ändert",
-                  "nl": "Een parameter die verandert tijdens training"
-        },
-        {
-                  "en": "The highest value in the dataset",
-                  "es": "El valor más alto en el conjunto de datos",
-                  "de": "Der höchste Wert im Datensatz",
-                  "nl": "De hoogste waarde in de dataset"
-        },
-        {
-                  "en": "An extremely important parameter",
-                  "es": "Un parámetro extremadamente importante",
-                  "de": "Ein extrem wichtiger Parameter",
-                  "nl": "Een extreem belangrijke parameter"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Hyperparameters are configuration settings chosen before training begins, like learning rate or number of layers, that control how the model learns but aren't learned from data.",
-                  "es": "Los hiperparámetros son configuraciones elegidas antes de comenzar el entrenamiento, como la tasa de aprendizaje o número de capas, que controlan cómo aprende el modelo pero no se aprenden de los datos.",
-                  "de": "Hyperparameter sind Konfigurationseinstellungen die vor dem Trainingsbeginn gewählt werden, wie Lernrate oder Anzahl der Schichten, die steuern wie das Modell lernt aber nicht aus Daten gelernt werden.",
-                  "nl": "Hyperparameters zijn configuratie-instellingen gekozen voor de training begint, zoals leersnelheid of aantal lagen, die controleren hoe het model leert maar niet geleerd worden van data."
-        }
-      },
-      {
-        question: {
-                  "en": "What is gradient descent?",
-                  "es": "¿Qué es el descenso de gradiente?",
-                  "de": "Was ist Gradientenabstieg?",
-                  "nl": "Wat is gradient descent?"
-        },
-        options: [
-        {
-                  "en": "Going downhill in mountainous terrain",
-                  "es": "Descender por terreno montañoso",
-                  "de": "Bergab gehen in bergigem Gelände",
-                  "nl": "Naar beneden gaan in bergachtig terrein"
-        },
-        {
-                  "en": "Reducing model complexity over time",
-                  "es": "Reducir la complejidad del modelo con el tiempo",
-                  "de": "Modellkomplexität im Laufe der Zeit reduzieren",
-                  "nl": "Modelcomplexiteit verminderen over tijd"
-        },
-        {
-                  "en": "Decreasing the dataset size gradually",
-                  "es": "Disminuir el tamaño del conjunto de datos gradualmente",
-                  "de": "Datensatzgröße schrittweise verringern",
-                  "nl": "Geleidelijk de dataset-grootte verkleinen"
-        },
-        {
-                  "en": "An optimization algorithm to minimize errors by adjusting parameters",
-                  "es": "Un algoritmo de optimización para minimizar errores ajustando parámetros",
-                  "de": "Ein Optimierungsalgorithmus um Fehler durch Anpassung von Parametern zu minimieren",
-                  "nl": "Een optimalisatie-algoritme om fouten te minimaliseren door parameters aan te passen"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Gradient descent iteratively adjusts model parameters in the direction that reduces error, like finding the lowest point in a valley by following the steepest downward slope.",
-                  "es": "El descenso de gradiente ajusta iterativamente los parámetros del modelo en la dirección que reduce el error, como encontrar el punto más bajo en un valle siguiendo la pendiente descendente más pronunciada.",
-                  "de": "Gradientenabstieg passt iterativ Modellparameter in die Richtung an die den Fehler reduziert, wie den niedrigsten Punkt in einem Tal zu finden indem man der steilsten Abwärtsneigung folgt.",
-                  "nl": "Gradient descent past iteratief modelparameters aan in de richting die de fout vermindert, zoals het vinden van het laagste punt in een vallei door de steilste helling naar beneden te volgen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a loss function?",
-                  "es": "¿Qué es una función de pérdida?",
-                  "de": "Was ist eine Verlustfunktion?",
-                  "nl": "Wat is een loss function?"
-        },
-        options: [
-        {
-                  "en": "A function that removes bad data",
-                  "es": "Una función que elimina datos malos",
-                  "de": "Eine Funktion die schlechte Daten entfernt",
-                  "nl": "Een functie die slechte data verwijdert"
-        },
-        {
-                  "en": "The cost of running the algorithm",
-                  "es": "El costo de ejecutar el algoritmo",
-                  "de": "Die Kosten des Algorithmus-Ausführens",
-                  "nl": "De kosten van het draaien van het algoritme"
-        },
-        {
-                  "en": "A function that calculates data loss during storage",
-                  "es": "Una función que calcula pérdida de datos durante el almacenamiento",
-                  "de": "Eine Funktion die Datenverlust während der Speicherung berechnet",
-                  "nl": "Een functie die dataverlies tijdens opslag berekent"
-        },
-        {
-                  "en": "A function that measures how wrong the model's predictions are",
-                  "es": "Una función que mide qué tan incorrectas son las predicciones del modelo",
-                  "de": "Eine Funktion die misst wie falsch die Vorhersagen des Modells sind",
-                  "nl": "Een functie die meet hoe fout de voorspellingen van het model zijn"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "A loss function quantifies the difference between predicted and actual values, providing a metric that the model tries to minimize during training.",
-                  "es": "Una función de pérdida cuantifica la diferencia entre valores predichos y reales, proporcionando una métrica que el modelo intenta minimizar durante el entrenamiento.",
-                  "de": "Eine Verlustfunktion quantifiziert die Differenz zwischen vorhergesagten und tatsächlichen Werten, bietet eine Metrik die das Modell während des Trainings zu minimieren versucht.",
-                  "nl": "Een loss function kwantificeert het verschil tussen voorspelde en werkelijke waarden, biedt een metriek die het model probeert te minimaliseren tijdens training."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the purpose of normalization in ML?",
-                  "es": "¿Cuál es el propósito de la normalización en ML?",
-                  "de": "Was ist der Zweck der Normalisierung in ML?",
-                  "nl": "Wat is het doel van normalisatie in ML?"
-        },
-        options: [
-        {
-                  "en": "Converting all text to lowercase",
-                  "es": "Convertir todo el texto a minúsculas",
-                  "de": "Allen Text in Kleinbuchstaben umwandeln",
-                  "nl": "Alle tekst naar kleine letters converteren"
-        },
-        {
-                  "en": "Scaling features to a similar range for better training",
-                  "es": "Escalar características a un rango similar para mejor entrenamiento",
-                  "de": "Features auf einen ähnlichen Bereich skalieren für besseres Training",
-                  "nl": "Features schalen naar een vergelijkbaar bereik voor betere training"
-        },
-        {
-                  "en": "Making all data values equal to 1",
-                  "es": "Hacer que todos los valores de datos sean iguales a 1",
-                  "de": "Alle Datenwerte gleich 1 machen",
-                  "nl": "Alle datawaarden gelijk maken aan 1"
-        },
-        {
-                  "en": "Removing outliers from the dataset",
-                  "es": "Eliminar valores atípicos del conjunto de datos",
-                  "de": "Ausreißer aus dem Datensatz entfernen",
-                  "nl": "Uitschieters uit de dataset verwijderen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Normalization scales numeric features to a standard range (often 0-1), preventing features with larger values from dominating the learning process.",
-                  "es": "La normalización escala características numéricas a un rango estándar (a menudo 0-1), evitando que características con valores más grandes dominen el proceso de aprendizaje.",
-                  "de": "Normalisierung skaliert numerische Features auf einen Standardbereich (oft 0-1), verhindert dass Features mit größeren Werten den Lernprozess dominieren.",
-                  "nl": "Normalisatie schaalt numerieke features naar een standaardbereik (vaak 0-1), voorkomt dat features met grotere waarden het leerproces domineren."
-        }
-      },
-      {
-        question: {
-                  "en": "What is batch size in training?",
-                  "es": "¿Qué es el tamaño de lote en entrenamiento?",
-                  "de": "Was ist Batch-Größe im Training?",
-                  "nl": "Wat is batch size in training?"
-        },
-        options: [
-        {
-                  "en": "How many models to train at once",
-                  "es": "Cuántos modelos entrenar a la vez",
-                  "de": "Wie viele Modelle gleichzeitig trainiert werden",
-                  "nl": "Hoeveel modellen tegelijk te trainen"
-        },
-        {
-                  "en": "The total size of the dataset",
-                  "es": "El tamaño total del conjunto de datos",
-                  "de": "Die Gesamtgröße des Datensatzes",
-                  "nl": "De totale grootte van de dataset"
-        },
-        {
-                  "en": "Number of training examples used in one iteration",
-                  "es": "Número de ejemplos de entrenamiento usados en una iteración",
-                  "de": "Anzahl der Trainingsbeispiele in einer Iteration",
-                  "nl": "Aantal trainingsvoorbeelden gebruikt in één iteratie"
-        },
-        {
-                  "en": "The number of layers in the network",
-                  "es": "El número de capas en la red",
-                  "de": "Die Anzahl der Schichten im Netzwerk",
-                  "nl": "Het aantal lagen in het netwerk"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Batch size determines how many training samples are processed before updating the model's parameters, affecting training speed and memory usage.",
-                  "es": "El tamaño de lote determina cuántas muestras de entrenamiento se procesan antes de actualizar los parámetros del modelo, afectando la velocidad de entrenamiento y el uso de memoria.",
-                  "de": "Batch-Größe bestimmt wie viele Trainingsproben verarbeitet werden bevor die Parameter des Modells aktualisiert werden, beeinflusst Trainingsgeschwindigkeit und Speichernutzung.",
-                  "nl": "Batch size bepaalt hoeveel trainingssamples verwerkt worden voordat de parameters van het model bijgewerkt worden, beïnvloedt trainingssnelheid en geheugengebruik."
-        }
-      },
-      {
-        question: {
-                  "en": "What is an epoch in machine learning?",
-                  "es": "¿Qué es una época en aprendizaje automático?",
-                  "de": "Was ist eine Epoche im maschinellen Lernen?",
-                  "nl": "Wat is een epoch in machine learning?"
-        },
-        options: [
-        {
-                  "en": "The time it takes to train a model",
-                  "es": "El tiempo que tarda en entrenar un modelo",
-                  "de": "Die Zeit die es braucht ein Modell zu trainieren",
-                  "nl": "De tijd die het kost om een model te trainen"
-        },
-        {
-                  "en": "One complete pass through the entire training dataset",
-                  "es": "Un pase completo a través de todo el conjunto de datos de entrenamiento",
-                  "de": "Ein vollständiger Durchlauf durch den gesamten Trainingsdatensatz",
-                  "nl": "Eén complete doorgang door de hele trainingsdataset"
-        },
-        {
-                  "en": "A historical period in AI development",
-                  "es": "Un período histórico en el desarrollo de IA",
-                  "de": "Eine historische Periode in der KI-Entwicklung",
-                  "nl": "Een historische periode in AI ontwikkeling"
-        },
-        {
-                  "en": "A single training example",
-                  "es": "Un solo ejemplo de entrenamiento",
-                  "de": "Ein einzelnes Trainingsbeispiel",
-                  "nl": "Een enkel trainingsvoorbeeld"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "An epoch represents one full cycle where the model has seen and learned from every example in the training dataset once.",
-                  "es": "Una época representa un ciclo completo donde el modelo ha visto y aprendido de cada ejemplo en el conjunto de datos de entrenamiento una vez.",
-                  "de": "Eine Epoche repräsentiert einen vollständigen Zyklus wo das Modell jedes Beispiel im Trainingsdatensatz einmal gesehen und daraus gelernt hat.",
-                  "nl": "Een epoch vertegenwoordigt één volledige cyclus waarin het model elk voorbeeld in de trainingsdataset één keer heeft gezien en ervan heeft geleerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What is data augmentation?",
-                  "es": "¿Qué es el aumento de datos?",
-                  "de": "Was ist Datenaugmentation?",
-                  "nl": "Wat is data augmentation?"
-        },
-        options: [
-        {
-                  "en": "Increasing the quality of images",
-                  "es": "Aumentar la calidad de las imágenes",
-                  "de": "Bildqualität erhöhen",
-                  "nl": "Kwaliteit van afbeeldingen verhogen"
-        },
-        {
-                  "en": "Creating modified versions of data to expand training set",
-                  "es": "Crear versiones modificadas de datos para expandir el conjunto de entrenamiento",
-                  "de": "Modifizierte Versionen von Daten erstellen um Trainingsset zu erweitern",
-                  "nl": "Gemodificeerde versies van data maken om trainingsset uit te breiden"
-        },
-        {
-                  "en": "Adding more storage to hold data",
-                  "es": "Agregar más almacenamiento para contener datos",
-                  "de": "Mehr Speicher hinzufügen um Daten zu halten",
-                  "nl": "Meer opslag toevoegen om data vast te houden"
-        },
-        {
-                  "en": "Collecting more real-world data",
-                  "es": "Recolectar más datos del mundo real",
-                  "de": "Mehr reale Daten sammeln",
-                  "nl": "Meer real-world data verzamelen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Data augmentation artificially increases training data by applying transformations like rotation, flipping, or cropping to existing examples, helping prevent overfitting.",
-                  "es": "El aumento de datos aumenta artificialmente los datos de entrenamiento aplicando transformaciones como rotación, volteo o recorte a ejemplos existentes, ayudando a prevenir sobreajuste.",
-                  "de": "Datenaugmentation erhöht künstlich Trainingsdaten durch Anwendung von Transformationen wie Rotation, Spiegelung oder Zuschneiden auf bestehende Beispiele, hilft Overfitting zu verhindern.",
-                  "nl": "Data augmentation vergroot kunstmatig trainingsdata door transformaties toe te passen zoals rotatie, spiegelen of bijsnijden op bestaande voorbeelden, helpt overfitting te voorkomen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is transfer learning?",
-                  "es": "¿Qué es el aprendizaje por transferencia?",
-                  "de": "Was ist Transfer Learning?",
-                  "nl": "Wat is transfer learning?"
-        },
-        options: [
-        {
-                  "en": "Using a pre-trained model as starting point for a new task",
-                  "es": "Usar un modelo pre-entrenado como punto de partida para una nueva tarea",
-                  "de": "Ein vortrainiertes Modell als Ausgangspunkt für eine neue Aufgabe verwenden",
-                  "nl": "Een voorgetraind model gebruiken als startpunt voor een nieuwe taak"
-        },
-        {
-                  "en": "Moving a model from training to production",
-                  "es": "Mover un modelo de entrenamiento a producción",
-                  "de": "Ein Modell vom Training zur Produktion verschieben",
-                  "nl": "Een model verplaatsen van training naar productie"
-        },
-        {
-                  "en": "Transferring data between computers",
-                  "es": "Transferir datos entre computadoras",
-                  "de": "Daten zwischen Computern übertragen",
-                  "nl": "Data overdragen tussen computers"
-        },
-        {
-                  "en": "Teaching AI to learn faster",
-                  "es": "Enseñar a IA a aprender más rápido",
-                  "de": "KI beibringen schneller zu lernen",
-                  "nl": "AI leren om sneller te leren"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Transfer learning leverages knowledge from a model trained on one task to improve learning on a related but different task, saving time and data requirements.",
-                  "es": "El aprendizaje por transferencia aprovecha el conocimiento de un modelo entrenado en una tarea para mejorar el aprendizaje en una tarea relacionada pero diferente, ahorrando tiempo y requisitos de datos.",
-                  "de": "Transfer Learning nutzt Wissen von einem auf einer Aufgabe trainierten Modell um das Lernen bei einer verwandten aber anderen Aufgabe zu verbessern, spart Zeit und Datenanforderungen.",
-                  "nl": "Transfer learning maakt gebruik van kennis van een model getraind op één taak om het leren op een gerelateerde maar verschillende taak te verbeteren, bespaart tijd en datavereisten."
-        }
-      },
-      {
-        question: {
-                  "en": "What is dimensionality reduction?",
-                  "es": "¿Qué es la reducción de dimensionalidad?",
-                  "de": "Was ist Dimensionsreduktion?",
-                  "nl": "Wat is dimensionaliteitsreductie?"
-        },
-        options: [
-        {
-                  "en": "Simplifying the model architecture",
-                  "es": "Simplificar la arquitectura del modelo",
-                  "de": "Modellarchitektur vereinfachen",
-                  "nl": "Modelarchitectuur vereenvoudigen"
-        },
-        {
-                  "en": "Making images smaller in size",
-                  "es": "Hacer imágenes más pequeñas en tamaño",
-                  "de": "Bilder in der Größe verkleinern",
-                  "nl": "Afbeeldingen kleiner maken in grootte"
-        },
-        {
-                  "en": "Removing data from the dataset",
-                  "es": "Eliminar datos del conjunto de datos",
-                  "de": "Daten aus dem Datensatz entfernen",
-                  "nl": "Data uit de dataset verwijderen"
-        },
-        {
-                  "en": "Reducing the number of input features while preserving important information",
-                  "es": "Reducir el número de características de entrada mientras se preserva información importante",
-                  "de": "Anzahl der Eingabefeatures reduzieren während wichtige Informationen erhalten bleiben",
-                  "nl": "Aantal invoerfeatures verminderen terwijl belangrijke informatie behouden blijft"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Dimensionality reduction techniques like PCA reduce the number of variables in data while retaining most important patterns, helping with visualization and reducing computational cost.",
-                  "es": "Las técnicas de reducción de dimensionalidad como PCA reducen el número de variables en datos mientras retienen los patrones más importantes, ayudando con visualización y reduciendo costo computacional.",
-                  "de": "Dimensionsreduktionstechniken wie PCA reduzieren die Anzahl der Variablen in Daten während die wichtigsten Muster erhalten bleiben, hilft bei Visualisierung und reduziert Rechenkosten.",
-                  "nl": "Dimensionaliteitsreductie technieken zoals PCA verminderen het aantal variabelen in data terwijl de belangrijkste patronen behouden blijven, helpt bij visualisatie en vermindert rekenkosten."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the F1 score?",
-                  "es": "¿Qué es el puntaje F1?",
-                  "de": "Was ist der F1-Score?",
-                  "nl": "Wat is de F1 score?"
-        },
-        options: [
-        {
-                  "en": "A score from 1 to 10 for model quality",
-                  "es": "Una puntuación de 1 a 10 para calidad del modelo",
-                  "de": "Eine Punktzahl von 1 bis 10 für Modellqualität",
-                  "nl": "Een score van 1 tot 10 voor modelkwaliteit"
-        },
-        {
-                  "en": "The harmonic mean of precision and recall",
-                  "es": "La media armónica de precisión y recall",
-                  "de": "Das harmonische Mittel von Präzision und Recall",
-                  "nl": "Het harmonisch gemiddelde van precisie en recall"
-        },
-        {
-                  "en": "The first formula used in machine learning",
-                  "es": "La primera fórmula usada en aprendizaje automático",
-                  "de": "Die erste Formel im maschinellen Lernen",
-                  "nl": "De eerste formule gebruikt in machine learning"
-        },
-        {
-                  "en": "The final score after all testing",
-                  "es": "La puntuación final después de todas las pruebas",
-                  "de": "Die endgültige Punktzahl nach allen Tests",
-                  "nl": "De uiteindelijke score na alle testen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "F1 score combines precision and recall into a single metric, useful when you need a balance between identifying all positive cases and ensuring predictions are accurate.",
-                  "es": "El puntaje F1 combina precisión y recall en una sola métrica, útil cuando necesitas un balance entre identificar todos los casos positivos y asegurar que las predicciones sean precisas.",
-                  "de": "F1-Score kombiniert Präzision und Recall in eine einzelne Metrik, nützlich wenn man ein Gleichgewicht zwischen Identifizierung aller positiven Fälle und Sicherstellung genauer Vorhersagen benötigt.",
-                  "nl": "F1 score combineert precisie en recall in een enkele metriek, nuttig wanneer je een balans nodig hebt tussen het identificeren van alle positieve gevallen en zorgen dat voorspellingen nauwkeurig zijn."
-        }
-      },
-      {
-        question: {
-                  "en": "What is ensemble learning?",
-                  "es": "¿Qué es el aprendizaje en conjunto?",
-                  "de": "Was ist Ensemble Learning?",
-                  "nl": "Wat is ensemble learning?"
-        },
-        options: [
-        {
-                  "en": "Combining multiple models to improve predictions",
-                  "es": "Combinar múltiples modelos para mejorar predicciones",
-                  "de": "Mehrere Modelle kombinieren um Vorhersagen zu verbessern",
-                  "nl": "Meerdere modellen combineren om voorspellingen te verbeteren"
-        },
-        {
-                  "en": "Using music ensembles to teach AI",
-                  "es": "Usar conjuntos musicales para enseñar IA",
-                  "de": "Musik-Ensembles verwenden um KI zu lehren",
-                  "nl": "Muziekensembles gebruiken om AI te leren"
-        },
-        {
-                  "en": "Learning from multiple datasets simultaneously",
-                  "es": "Aprender de múltiples conjuntos de datos simultáneamente",
-                  "de": "Von mehreren Datensätzen gleichzeitig lernen",
-                  "nl": "Leren van meerdere datasets tegelijkertijd"
-        },
-        {
-                  "en": "Training models in groups",
-                  "es": "Entrenar modelos en grupos",
-                  "de": "Modelle in Gruppen trainieren",
-                  "nl": "Modellen in groepen trainen"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Ensemble learning combines predictions from multiple models (like decision trees in random forests) to achieve better accuracy than any single model alone.",
-                  "es": "El aprendizaje en conjunto combina predicciones de múltiples modelos (como árboles de decisión en bosques aleatorios) para lograr mejor precisión que cualquier modelo individual solo.",
-                  "de": "Ensemble Learning kombiniert Vorhersagen von mehreren Modellen (wie Entscheidungsbäume in Random Forests) um bessere Genauigkeit als jedes einzelne Modell allein zu erreichen.",
-                  "nl": "Ensemble learning combineert voorspellingen van meerdere modellen (zoals decision trees in random forests) om betere nauwkeurigheid te bereiken dan elk afzonderlijk model alleen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a decision tree?",
-                  "es": "¿Qué es un árbol de decisión?",
-                  "de": "Was ist ein Entscheidungsbaum?",
-                  "nl": "Wat is een decision tree?"
-        },
-        options: [
-        {
-                  "en": "A tree structure for storing data",
-                  "es": "Una estructura de árbol para almacenar datos",
-                  "de": "Eine Baumstruktur zum Speichern von Daten",
-                  "nl": "Een boomstructuur voor het opslaan van data"
-        },
-        {
-                  "en": "A tree-like model that makes decisions through branching questions",
-                  "es": "Un modelo en forma de árbol que toma decisiones a través de preguntas ramificadas",
-                  "de": "Ein baumartiges Modell das Entscheidungen durch verzweigende Fragen trifft",
-                  "nl": "Een boomachtig model dat beslissingen neemt via vertakkende vragen"
-        },
-        {
-                  "en": "A forest of neural networks",
-                  "es": "Un bosque de redes neuronales",
-                  "de": "Ein Wald von neuronalen Netzwerken",
-                  "nl": "Een bos van neurale netwerken"
-        },
-        {
-                  "en": "A diagram of all possible decisions",
-                  "es": "Un diagrama de todas las decisiones posibles",
-                  "de": "Ein Diagramm aller möglichen Entscheidungen",
-                  "nl": "Een diagram van alle mogelijke beslissingen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Decision trees split data into branches based on feature values, creating a flowchart-like structure where each internal node represents a test and each leaf represents a decision or prediction.",
-                  "es": "Los árboles de decisión dividen datos en ramas basándose en valores de características, creando una estructura tipo diagrama de flujo donde cada nodo interno representa una prueba y cada hoja representa una decisión o predicción.",
-                  "de": "Entscheidungsbäume teilen Daten in Zweige basierend auf Feature-Werten auf, erstellen eine flussdiagrammartige Struktur wo jeder interne Knoten einen Test repräsentiert und jedes Blatt eine Entscheidung oder Vorhersage.",
-                  "nl": "Decision trees splitsen data in takken gebaseerd op feature waarden, creëren een stroomdiagram-achtige structuur waar elke interne node een test vertegenwoordigt en elk blad een beslissing of voorspelling."
-        }
-      },
-      {
-        question: {
-                  "en": "What is random forest?",
-                  "es": "¿Qué es un bosque aleatorio?",
-                  "de": "Was ist ein Random Forest?",
-                  "nl": "Wat is random forest?"
-        },
-        options: [
-        {
-                  "en": "A type of neural network architecture",
-                  "es": "Un tipo de arquitectura de red neuronal",
-                  "de": "Eine Art neuronaler Netzwerkarchitektur",
-                  "nl": "Een type neuraal netwerkarchitectuur"
-        },
-        {
-                  "en": "An ensemble of decision trees that vote on predictions",
-                  "es": "Un conjunto de árboles de decisión que votan sobre predicciones",
-                  "de": "Ein Ensemble von Entscheidungsbäumen die über Vorhersagen abstimmen",
-                  "nl": "Een ensemble van decision trees die stemmen op voorspellingen"
-        },
-        {
-                  "en": "Random selection of training data",
-                  "es": "Selección aleatoria de datos de entrenamiento",
-                  "de": "Zufällige Auswahl von Trainingsdaten",
-                  "nl": "Willekeurige selectie van trainingsdata"
-        },
-        {
-                  "en": "A forest where trees are placed randomly",
-                  "es": "Un bosque donde los árboles se colocan aleatoriamente",
-                  "de": "Ein Wald wo Bäume zufällig platziert werden",
-                  "nl": "Een bos waar bomen willekeurig geplaatst worden"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Random forest builds multiple decision trees on random subsets of data and features, then combines their predictions through voting, reducing overfitting and improving accuracy.",
-                  "es": "El bosque aleatorio construye múltiples árboles de decisión en subconjuntos aleatorios de datos y características, luego combina sus predicciones a través de votación, reduciendo sobreajuste y mejorando precisión.",
-                  "de": "Random Forest baut mehrere Entscheidungsbäume auf zufälligen Teilmengen von Daten und Features, kombiniert dann ihre Vorhersagen durch Abstimmung, reduziert Overfitting und verbessert Genauigkeit.",
-                  "nl": "Random forest bouwt meerdere decision trees op willekeurige subsets van data en features, combineert dan hun voorspellingen door stemming, vermindert overfitting en verbetert nauwkeurigheid."
-        }
-      },
-      {
-        question: {
-                  "en": "What is k-fold cross-validation?",
-                  "es": "¿Qué es la validación cruzada de k iteraciones?",
-                  "de": "Was ist k-fache Kreuzvalidierung?",
-                  "nl": "Wat is k-fold cross-validatie?"
-        },
-        options: [
-        {
-                  "en": "Splitting data into k parts, training k times using different parts for testing",
-                  "es": "Dividir datos en k partes, entrenar k veces usando diferentes partes para prueba",
-                  "de": "Daten in k Teile aufteilen, k-mal trainieren mit verschiedenen Teilen zum Testen",
-                  "nl": "Data splitsen in k delen, k keer trainen met verschillende delen voor testen"
-        },
-        {
-                  "en": "Using k different algorithms",
-                  "es": "Usar k algoritmos diferentes",
-                  "de": "k verschiedene Algorithmen verwenden",
-                  "nl": "k verschillende algoritmes gebruiken"
-        },
-        {
-                  "en": "Validating the model k times with same data",
-                  "es": "Validar el modelo k veces con los mismos datos",
-                  "de": "Modell k-mal mit denselben Daten validieren",
-                  "nl": "Model k keer valideren met dezelfde data"
-        },
-        {
-                  "en": "Folding the paper k times for organization",
-                  "es": "Doblar el papel k veces para organización",
-                  "de": "Papier k-mal falten zur Organisation",
-                  "nl": "Papier k keer vouwen voor organisatie"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "K-fold cross-validation divides data into k equal parts, trains the model k times using k-1 parts for training and 1 for validation each time, giving a more robust performance estimate.",
-                  "es": "La validación cruzada de k iteraciones divide datos en k partes iguales, entrena el modelo k veces usando k-1 partes para entrenamiento y 1 para validación cada vez, dando una estimación de rendimiento más robusta.",
-                  "de": "K-fache Kreuzvalidierung teilt Daten in k gleiche Teile, trainiert das Modell k-mal mit k-1 Teilen zum Training und 1 zur Validierung jedes Mal, gibt eine robustere Leistungsschätzung.",
-                  "nl": "K-fold cross-validatie verdeelt data in k gelijke delen, traint het model k keer met k-1 delen voor training en 1 voor validatie elke keer, geeft een robuustere prestatie-schatting."
+          en: "Manual learning",
+          es: "Aprendizaje manual",
+          de: "Manuelles Lernen",
+          nl: "Handmatig leren"
         }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Supervised learning uses labeled training data where each example has an input and desired output. The model learns to map inputs to outputs based on these examples.",
+        es: "El aprendizaje supervisado usa datos de entrenamiento etiquetados donde cada ejemplo tiene una entrada y salida deseada. El modelo aprende a mapear entradas a salidas.",
+        de: "Überwachtes Lernen verwendet beschriftete Trainingsdaten, bei denen jedes Beispiel eine Eingabe und gewünschte Ausgabe hat.",
+        nl: "Gesuperviseerd leren gebruikt gelabelde trainingsdata waarbij elk voorbeeld een input en gewenste output heeft."
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level2;
-  }
-})();
+    },
+    {
+      question: {
+        en: "What is overfitting in machine learning?",
+        es: "¿Qué es el sobreajuste en aprendizaje automático?",
+        de: "Was ist Überanpassung im maschinellen Lernen?",
+        nl: "Wat is overfitting in machine learning?"
+      },
+      options: [
+        {
+          en: "Model fits too well to training data",
+          es: "Modelo se ajusta demasiado a datos de entrenamiento",
+          de: "Modell passt zu gut zu Trainingsdaten",
+          nl: "Model past te goed op trainingsdata"
+        },
+        {
+          en: "Model doesn't learn anything",
+          es: "Modelo no aprende nada",
+          de: "Modell lernt nichts",
+          nl: "Model leert niets"
+        },
+        {
+          en: "Model is too simple",
+          es: "Modelo es muy simple",
+          de: "Modell ist zu einfach",
+          nl: "Model is te simpel"
+        },
+        {
+          en: "Model trains too fast",
+          es: "Modelo entrena muy rápido",
+          de: "Modell trainiert zu schnell",
+          nl: "Model traint te snel"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Overfitting occurs when a model learns the training data too well, including noise and details that don't generalize to new data. This reduces performance on unseen data.",
+        es: "El sobreajuste ocurre cuando un modelo aprende los datos de entrenamiento demasiado bien, incluyendo ruido que no generaliza a nuevos datos.",
+        de: "Überanpassung tritt auf, wenn ein Modell die Trainingsdaten zu gut lernt, einschließlich Rauschen, das nicht auf neue Daten verallgemeinert.",
+        nl: "Overfitting gebeurt wanneer een model de trainingsdata te goed leert, inclusief ruis die niet generaliseert naar nieuwe data."
+      }
+    },
+    {
+      question: {
+        en: "Which algorithm is commonly used for classification?",
+        es: "¿Qué algoritmo se usa comúnmente para clasificación?",
+        de: "Welcher Algorithmus wird häufig zur Klassifikation verwendet?",
+        nl: "Welk algoritme wordt vaak gebruikt voor classificatie?"
+      },
+      options: [
+        {
+          en: "Linear regression",
+          es: "Regresión lineal",
+          de: "Lineare Regression",
+          nl: "Lineaire regressie"
+        },
+        {
+          en: "Decision trees",
+          es: "Árboles de decisión",
+          de: "Entscheidungsbäume",
+          nl: "Beslisbomen"
+        },
+        {
+          en: "K-means clustering",
+          es: "Agrupamiento K-medias",
+          de: "K-Means-Clustering",
+          nl: "K-means clustering"
+        },
+        {
+          en: "PCA",
+          es: "ACP",
+          de: "PCA",
+          nl: "PCA"
+        }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Decision trees are commonly used for classification tasks. They split data into branches based on feature values to predict class labels for new instances.",
+        es: "Los árboles de decisión se usan comúnmente para tareas de clasificación. Dividen datos en ramas basadas en valores de características.",
+        de: "Entscheidungsbäume werden häufig für Klassifikationsaufgaben verwendet. Sie teilen Daten basierend auf Merkmalswerten in Zweige auf.",
+        nl: "Beslisbomen worden vaak gebruikt voor classificatietaken. Ze splitsen data in takken op basis van kenmerkwaarden."
+      }
+    },
+    {
+      question: {
+        en: "What is a training dataset used for?",
+        es: "¿Para qué se usa un conjunto de datos de entrenamiento?",
+        de: "Wofür wird ein Trainingsdatensatz verwendet?",
+        nl: "Waar wordt een trainingsdataset voor gebruikt?"
+      },
+      options: [
+        {
+          en: "To teach the model patterns",
+          es: "Para enseñar patrones al modelo",
+          de: "Um dem Modell Muster beizubringen",
+          nl: "Om het model patronen te leren"
+        },
+        {
+          en: "To test final performance",
+          es: "Para probar rendimiento final",
+          de: "Um finale Leistung zu testen",
+          nl: "Om finale prestaties te testen"
+        },
+        {
+          en: "To validate hyperparameters",
+          es: "Para validar hiperparámetros",
+          de: "Um Hyperparameter zu validieren",
+          nl: "Om hyperparameters te valideren"
+        },
+        {
+          en: "To deploy the model",
+          es: "Para desplegar el modelo",
+          de: "Um das Modell einzusetzen",
+          nl: "Om het model te deployen"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Training datasets are used to teach machine learning models patterns and relationships in data. The model adjusts its parameters based on this data to learn.",
+        es: "Los conjuntos de datos de entrenamiento se usan para enseñar a los modelos patrones y relaciones en los datos.",
+        de: "Trainingsdatensätze werden verwendet, um maschinellen Lernmodellen Muster und Beziehungen in Daten beizubringen.",
+        nl: "Trainingsdatasets worden gebruikt om machine learning modellen patronen en relaties in data te leren."
+      }
+    },
+    {
+      question: {
+        en: "What does 'feature' mean in machine learning?",
+        es: "¿Qué significa 'característica' en aprendizaje automático?",
+        de: "Was bedeutet 'Merkmal' im maschinellen Lernen?",
+        nl: "Wat betekent 'kenmerk' in machine learning?"
+      },
+      options: [
+        {
+          en: "Input variable or attribute",
+          es: "Variable o atributo de entrada",
+          de: "Eingabevariable oder Attribut",
+          nl: "Inputvariabele of attribuut"
+        },
+        {
+          en: "Output prediction",
+          es: "Predicción de salida",
+          de: "Ausgabevorhersage",
+          nl: "Output voorspelling"
+        },
+        {
+          en: "Training algorithm",
+          es: "Algoritmo de entrenamiento",
+          de: "Trainingsalgorithmus",
+          nl: "Trainingsalgoritme"
+        },
+        {
+          en: "Model architecture",
+          es: "Arquitectura del modelo",
+          de: "Modellarchitektur",
+          nl: "Modelarchitectuur"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A feature is an individual measurable property or characteristic used as input to a machine learning model. Examples include age, height, or pixel values in images.",
+        es: "Una característica es una propiedad medible individual usada como entrada a un modelo de aprendizaje automático.",
+        de: "Ein Merkmal ist eine einzelne messbare Eigenschaft, die als Eingabe für ein maschinelles Lernmodell verwendet wird.",
+        nl: "Een kenmerk is een individuele meetbare eigenschap gebruikt als input voor een machine learning model."
+      }
+    },
+    {
+      question: {
+        en: "What is gradient descent?",
+        es: "¿Qué es el descenso de gradiente?",
+        de: "Was ist Gradientenabstieg?",
+        nl: "Wat is gradient descent?"
+      },
+      options: [
+        {
+          en: "Optimization algorithm",
+          es: "Algoritmo de optimización",
+          de: "Optimierungsalgorithmus",
+          nl: "Optimalisatie-algoritme"
+        },
+        {
+          en: "Data preprocessing technique",
+          es: "Técnica de preprocesamiento",
+          de: "Datenvorverarbeitungstechnik",
+          nl: "Data preprocessing techniek"
+        },
+        {
+          en: "Classification method",
+          es: "Método de clasificación",
+          de: "Klassifikationsmethode",
+          nl: "Classificatiemethode"
+        },
+        {
+          en: "Evaluation metric",
+          es: "Métrica de evaluación",
+          de: "Bewertungsmetrik",
+          nl: "Evaluatiemetriek"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Gradient descent is an optimization algorithm used to minimize the loss function in machine learning by iteratively moving in the direction of steepest descent.",
+        es: "El descenso de gradiente es un algoritmo de optimización usado para minimizar la función de pérdida moviendo iterativamente en la dirección de mayor descenso.",
+        de: "Gradientenabstieg ist ein Optimierungsalgorithmus zur Minimierung der Verlustfunktion durch iterative Bewegung in Richtung des steilsten Abstiegs.",
+        nl: "Gradient descent is een optimalisatie-algoritme gebruikt om de loss functie te minimaliseren door iteratief in de richting van steilste daling te bewegen."
+      }
+    },
+    {
+      question: {
+        en: "What is cross-validation used for?",
+        es: "¿Para qué se usa la validación cruzada?",
+        de: "Wofür wird Kreuzvalidierung verwendet?",
+        nl: "Waar wordt kruisvalidatie voor gebruikt?"
+      },
+      options: [
+        {
+          en: "Assessing model performance",
+          es: "Evaluar rendimiento del modelo",
+          de: "Modellleistung bewerten",
+          nl: "Modelprestaties beoordelen"
+        },
+        {
+          en: "Increasing training speed",
+          es: "Aumentar velocidad de entrenamiento",
+          de: "Trainingsgeschwindigkeit erhöhen",
+          nl: "Trainingssnelheid verhogen"
+        },
+        {
+          en: "Reducing data size",
+          es: "Reducir tamaño de datos",
+          de: "Datengröße reduzieren",
+          nl: "Datagrootte verkleinen"
+        },
+        {
+          en: "Creating new features",
+          es: "Crear nuevas características",
+          de: "Neue Merkmale erstellen",
+          nl: "Nieuwe kenmerken maken"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Cross-validation is used to assess how well a model generalizes to unseen data by splitting data into multiple folds and training/testing on different combinations.",
+        es: "La validación cruzada se usa para evaluar qué tan bien un modelo generaliza a datos no vistos dividiendo datos en múltiples pliegues.",
+        de: "Kreuzvalidierung wird verwendet, um zu bewerten, wie gut ein Modell auf ungesehene Daten generalisiert.",
+        nl: "Kruisvalidatie wordt gebruikt om te beoordelen hoe goed een model generaliseert naar ongeziene data."
+      }
+    },
+    {
+      question: {
+        en: "What is the purpose of a validation set?",
+        es: "¿Cuál es el propósito de un conjunto de validación?",
+        de: "Was ist der Zweck eines Validierungssatzes?",
+        nl: "Wat is het doel van een validatieset?"
+      },
+      options: [
+        {
+          en: "Training the initial model",
+          es: "Entrenar el modelo inicial",
+          de: "Das initiale Modell trainieren",
+          nl: "Het initiële model trainen"
+        },
+        {
+          en: "Tuning hyperparameters",
+          es: "Ajustar hiperparámetros",
+          de: "Hyperparameter abstimmen",
+          nl: "Hyperparameters afstemmen"
+        },
+        {
+          en: "Final testing",
+          es: "Prueba final",
+          de: "Finaler Test",
+          nl: "Finale test"
+        },
+        {
+          en: "Data augmentation",
+          es: "Aumento de datos",
+          de: "Datenerweiterung",
+          nl: "Data-augmentatie"
+        }
+      ],
+      correct: 1,
+      explanation: {
+        en: "A validation set is used to tune hyperparameters and make decisions during model development without touching the test set, preventing overfitting to test data.",
+        es: "Un conjunto de validación se usa para ajustar hiperparámetros y tomar decisiones durante el desarrollo sin tocar el conjunto de prueba.",
+        de: "Ein Validierungssatz wird verwendet, um Hyperparameter abzustimmen und Entscheidungen während der Entwicklung zu treffen.",
+        nl: "Een validatieset wordt gebruikt om hyperparameters af te stemmen en beslissingen te nemen tijdens ontwikkeling."
+      }
+    },
+    {
+      question: {
+        en: "What is a confusion matrix?",
+        es: "¿Qué es una matriz de confusión?",
+        de: "Was ist eine Verwirrungsmatrix?",
+        nl: "Wat is een confusion matrix?"
+      },
+      options: [
+        {
+          en: "Table showing prediction results",
+          es: "Tabla mostrando resultados de predicción",
+          de: "Tabelle mit Vorhersageergebnissen",
+          nl: "Tabel met voorspellingsresultaten"
+        },
+        {
+          en: "Neural network layer",
+          es: "Capa de red neuronal",
+          de: "Neuronale Netzwerkschicht",
+          nl: "Neurale netwerklaag"
+        },
+        {
+          en: "Data preprocessing tool",
+          es: "Herramienta de preprocesamiento",
+          de: "Datenvorverarbeitungstool",
+          nl: "Data preprocessing tool"
+        },
+        {
+          en: "Training algorithm",
+          es: "Algoritmo de entrenamiento",
+          de: "Trainingsalgorithmus",
+          nl: "Trainingsalgoritme"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A confusion matrix is a table that visualizes the performance of a classification model by showing true vs predicted labels, helping identify where the model makes mistakes.",
+        es: "Una matriz de confusión es una tabla que visualiza el rendimiento de un modelo de clasificación mostrando etiquetas verdaderas vs predichas.",
+        de: "Eine Verwirrungsmatrix ist eine Tabelle, die die Leistung eines Klassifikationsmodells durch wahre vs vorhergesagte Labels visualisiert.",
+        nl: "Een confusion matrix is een tabel die de prestaties van een classificatiemodel visualiseert door ware vs voorspelde labels te tonen."
+      }
+    },
+    {
+      question: {
+        en: "What is regularization in machine learning?",
+        es: "¿Qué es la regularización en aprendizaje automático?",
+        de: "Was ist Regularisierung im maschinellen Lernen?",
+        nl: "Wat is regularisatie in machine learning?"
+      },
+      options: [
+        {
+          en: "Preventing overfitting",
+          es: "Prevenir sobreajuste",
+          de: "Überanpassung verhindern",
+          nl: "Overfitting voorkomen"
+        },
+        {
+          en: "Speeding up training",
+          es: "Acelerar entrenamiento",
+          de: "Training beschleunigen",
+          nl: "Training versnellen"
+        },
+        {
+          en: "Adding more data",
+          es: "Agregar más datos",
+          de: "Mehr Daten hinzufügen",
+          nl: "Meer data toevoegen"
+        },
+        {
+          en: "Removing features",
+          es: "Eliminar características",
+          de: "Merkmale entfernen",
+          nl: "Kenmerken verwijderen"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Regularization is a technique to prevent overfitting by adding a penalty term to the loss function, discouraging complex models. Examples include L1 and L2 regularization.",
+        es: "La regularización es una técnica para prevenir sobreajuste agregando un término de penalización a la función de pérdida.",
+        de: "Regularisierung ist eine Technik zur Verhinderung von Überanpassung durch Hinzufügen eines Strafterms zur Verlustfunktion.",
+        nl: "Regularisatie is een techniek om overfitting te voorkomen door een penalty term toe te voegen aan de loss functie."
+      }
+    },
+    {
+      question: {
+        en: "What is the difference between precision and recall?",
+        es: "¿Cuál es la diferencia entre precisión y recall?",
+        de: "Was ist der Unterschied zwischen Präzision und Recall?",
+        nl: "Wat is het verschil tussen precision en recall?"
+      },
+      options: [
+        {
+          en: "Precision: correct positives ratio, Recall: found positives ratio",
+          es: "Precisión: ratio positivos correctos, Recall: ratio positivos encontrados",
+          de: "Präzision: korrekte Positive, Recall: gefundene Positive",
+          nl: "Precision: correcte positieven, Recall: gevonden positieven"
+        },
+        {
+          en: "Both measure the same thing",
+          es: "Ambos miden lo mismo",
+          de: "Beide messen dasselbe",
+          nl: "Beide meten hetzelfde"
+        },
+        {
+          en: "Precision is for regression, Recall for classification",
+          es: "Precisión es para regresión, Recall para clasificación",
+          de: "Präzision ist für Regression, Recall für Klassifikation",
+          nl: "Precision is voor regressie, Recall voor classificatie"
+        },
+        {
+          en: "No difference exists",
+          es: "No existe diferencia",
+          de: "Kein Unterschied existiert",
+          nl: "Er bestaat geen verschil"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Precision measures what fraction of predicted positives are correct, while recall measures what fraction of actual positives were found. Both are important for evaluation.",
+        es: "La precisión mide qué fracción de positivos predichos son correctos, mientras recall mide qué fracción de positivos reales fueron encontrados.",
+        de: "Präzision misst, welcher Anteil der vorhergesagten Positiven korrekt ist, während Recall misst, welcher Anteil der tatsächlichen Positiven gefunden wurde.",
+        nl: "Precision meet welk deel van voorspelde positieven correct is, terwijl recall meet welk deel van werkelijke positieven gevonden werd."
+      }
+    },
+    {
+      question: {
+        en: "What is ensemble learning?",
+        es: "¿Qué es el aprendizaje por conjuntos?",
+        de: "Was ist Ensemble-Lernen?",
+        nl: "Wat is ensemble learning?"
+      },
+      options: [
+        {
+          en: "Combining multiple models",
+          es: "Combinar múltiples modelos",
+          de: "Mehrere Modelle kombinieren",
+          nl: "Meerdere modellen combineren"
+        },
+        {
+          en: "Training one large model",
+          es: "Entrenar un modelo grande",
+          de: "Ein großes Modell trainieren",
+          nl: "Één groot model trainen"
+        },
+        {
+          en: "Using single algorithm",
+          es: "Usar algoritmo único",
+          de: "Einzelnen Algorithmus verwenden",
+          nl: "Enkel algoritme gebruiken"
+        },
+        {
+          en: "Reducing model size",
+          es: "Reducir tamaño del modelo",
+          de: "Modellgröße reduzieren",
+          nl: "Modelgrootte verkleinen"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Ensemble learning combines predictions from multiple models to improve overall performance. Methods include bagging, boosting, and stacking.",
+        es: "El aprendizaje por conjuntos combina predicciones de múltiples modelos para mejorar el rendimiento general.",
+        de: "Ensemble-Lernen kombiniert Vorhersagen mehrerer Modelle zur Verbesserung der Gesamtleistung.",
+        nl: "Ensemble learning combineert voorspellingen van meerdere modellen om de algehele prestaties te verbeteren."
+      }
+    },
+    {
+      question: {
+        en: "What is Random Forest?",
+        es: "¿Qué es Random Forest?",
+        de: "Was ist Random Forest?",
+        nl: "Wat is Random Forest?"
+      },
+      options: [
+        {
+          en: "Ensemble of decision trees",
+          es: "Conjunto de árboles de decisión",
+          de: "Ensemble von Entscheidungsbäumen",
+          nl: "Ensemble van beslisbomen"
+        },
+        {
+          en: "Single complex tree",
+          es: "Árbol complejo único",
+          de: "Einzelner komplexer Baum",
+          nl: "Enkele complexe boom"
+        },
+        {
+          en: "Neural network type",
+          es: "Tipo de red neuronal",
+          de: "Neuronaler Netzwerktyp",
+          nl: "Neuraal netwerktype"
+        },
+        {
+          en: "Clustering algorithm",
+          es: "Algoritmo de agrupamiento",
+          de: "Clustering-Algorithmus",
+          nl: "Clustering-algoritme"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Random Forest is an ensemble learning method that creates multiple decision trees using random subsets of features and data, then combines their predictions.",
+        es: "Random Forest es un método de conjunto que crea múltiples árboles de decisión usando subconjuntos aleatorios de características y datos.",
+        de: "Random Forest ist eine Ensemble-Methode, die mehrere Entscheidungsbäume mit zufälligen Teilmengen von Merkmalen und Daten erstellt.",
+        nl: "Random Forest is een ensemble methode die meerdere beslisbomen maakt met willekeurige subsets van kenmerken en data."
+      }
+    },
+    {
+      question: {
+        en: "What is the purpose of dropout in neural networks?",
+        es: "¿Cuál es el propósito del dropout en redes neuronales?",
+        de: "Was ist der Zweck von Dropout in neuronalen Netzen?",
+        nl: "Wat is het doel van dropout in neurale netwerken?"
+      },
+      options: [
+        {
+          en: "Prevent overfitting",
+          es: "Prevenir sobreajuste",
+          de: "Überanpassung verhindern",
+          nl: "Overfitting voorkomen"
+        },
+        {
+          en: "Speed up training",
+          es: "Acelerar entrenamiento",
+          de: "Training beschleunigen",
+          nl: "Training versnellen"
+        },
+        {
+          en: "Add more neurons",
+          es: "Agregar más neuronas",
+          de: "Mehr Neuronen hinzufügen",
+          nl: "Meer neuronen toevoegen"
+        },
+        {
+          en: "Increase accuracy",
+          es: "Aumentar precisión",
+          de: "Genauigkeit erhöhen",
+          nl: "Nauwkeurigheid verhogen"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Dropout is a regularization technique that randomly deactivates neurons during training to prevent overfitting and improve generalization to new data.",
+        es: "Dropout es una técnica de regularización que desactiva neuronas aleatoriamente durante el entrenamiento para prevenir sobreajuste.",
+        de: "Dropout ist eine Regularisierungstechnik, die während des Trainings zufällig Neuronen deaktiviert, um Überanpassung zu verhindern.",
+        nl: "Dropout is een regularisatietechniek die willekeurig neuronen deactiveert tijdens training om overfitting te voorkomen."
+      }
+    },
+    {
+      question: {
+        en: "What is transfer learning?",
+        es: "¿Qué es el aprendizaje por transferencia?",
+        de: "Was ist Transfer-Lernen?",
+        nl: "Wat is transfer learning?"
+      },
+      options: [
+        {
+          en: "Using pre-trained models",
+          es: "Usar modelos preentrenados",
+          de: "Vortrainierte Modelle nutzen",
+          nl: "Voorgetrainde modellen gebruiken"
+        },
+        {
+          en: "Moving data between computers",
+          es: "Mover datos entre computadoras",
+          de: "Daten zwischen Computern verschieben",
+          nl: "Data tussen computers verplaatsen"
+        },
+        {
+          en: "Training from scratch",
+          es: "Entrenar desde cero",
+          de: "Von Grund auf trainieren",
+          nl: "Vanaf nul trainen"
+        },
+        {
+          en: "Copying model weights",
+          es: "Copiar pesos del modelo",
+          de: "Modellgewichte kopieren",
+          nl: "Modelgewichten kopiëren"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Transfer learning uses knowledge from pre-trained models on large datasets and applies it to new, related tasks with less data, saving time and resources.",
+        es: "El aprendizaje por transferencia usa conocimiento de modelos preentrenados en grandes conjuntos de datos y lo aplica a nuevas tareas relacionadas.",
+        de: "Transfer-Lernen nutzt Wissen aus vortrainierten Modellen auf großen Datensätzen und wendet es auf neue, verwandte Aufgaben an.",
+        nl: "Transfer learning gebruikt kennis van voorgetrainde modellen op grote datasets en past dit toe op nieuwe, gerelateerde taken."
+      }
+    },
+    {
+      question: {
+        en: "What is batch normalization?",
+        es: "¿Qué es la normalización por lotes?",
+        de: "Was ist Batch-Normalisierung?",
+        nl: "Wat is batch normalization?"
+      },
+      options: [
+        {
+          en: "Normalizing inputs per batch",
+          es: "Normalizar entradas por lote",
+          de: "Eingaben pro Batch normalisieren",
+          nl: "Inputs per batch normaliseren"
+        },
+        {
+          en: "Grouping similar data",
+          es: "Agrupar datos similares",
+          de: "Ähnliche Daten gruppieren",
+          nl: "Vergelijkbare data groeperen"
+        },
+        {
+          en: "Splitting datasets",
+          es: "Dividir conjuntos de datos",
+          de: "Datensätze aufteilen",
+          nl: "Datasets splitsen"
+        },
+        {
+          en: "Removing outliers",
+          es: "Eliminar valores atípicos",
+          de: "Ausreißer entfernen",
+          nl: "Uitschieters verwijderen"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Batch normalization normalizes the inputs of each layer per mini-batch during training, which stabilizes learning and often allows higher learning rates.",
+        es: "La normalización por lotes normaliza las entradas de cada capa por mini-lote durante el entrenamiento, estabilizando el aprendizaje.",
+        de: "Batch-Normalisierung normalisiert die Eingaben jeder Schicht pro Mini-Batch während des Trainings und stabilisiert das Lernen.",
+        nl: "Batch normalization normaliseert de inputs van elke laag per mini-batch tijdens training, wat het leren stabiliseert."
+      }
+    },
+    {
+      question: {
+        en: "What is the vanishing gradient problem?",
+        es: "¿Qué es el problema del gradiente desvaneciente?",
+        de: "Was ist das Problem des verschwindenden Gradienten?",
+        nl: "Wat is het vanishing gradient probleem?"
+      },
+      options: [
+        {
+          en: "Gradients become too small",
+          es: "Gradientes se vuelven muy pequeños",
+          de: "Gradienten werden zu klein",
+          nl: "Gradiënten worden te klein"
+        },
+        {
+          en: "Gradients become too large",
+          es: "Gradientes se vuelven muy grandes",
+          de: "Gradienten werden zu groß",
+          nl: "Gradiënten worden te groot"
+        },
+        {
+          en: "Gradients disappear randomly",
+          es: "Gradientes desaparecen aleatoriamente",
+          de: "Gradienten verschwinden zufällig",
+          nl: "Gradiënten verdwijnen willekeurig"
+        },
+        {
+          en: "Gradients change direction",
+          es: "Gradientes cambian dirección",
+          de: "Gradienten ändern Richtung",
+          nl: "Gradiënten veranderen richting"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The vanishing gradient problem occurs in deep networks when gradients become exponentially small as they backpropagate, making it difficult to train earlier layers.",
+        es: "El problema del gradiente desvaneciente ocurre en redes profundas cuando los gradientes se vuelven exponencialmente pequeños.",
+        de: "Das Problem des verschwindenden Gradienten tritt in tiefen Netzen auf, wenn Gradienten exponentiell klein werden.",
+        nl: "Het vanishing gradient probleem treedt op in diepe netwerken wanneer gradiënten exponentieel klein worden."
+      }
+    },
+    {
+      question: {
+        en: "What is K-means clustering?",
+        es: "¿Qué es el agrupamiento K-medias?",
+        de: "Was ist K-Means-Clustering?",
+        nl: "Wat is K-means clustering?"
+      },
+      options: [
+        {
+          en: "Unsupervised clustering algorithm",
+          es: "Algoritmo de agrupamiento no supervisado",
+          de: "Unüberwachter Clustering-Algorithmus",
+          nl: "Ongesuperviseerd clustering-algoritme"
+        },
+        {
+          en: "Supervised classification method",
+          es: "Método de clasificación supervisado",
+          de: "Überwachte Klassifikationsmethode",
+          nl: "Gesuperviseerde classificatiemethode"
+        },
+        {
+          en: "Regression technique",
+          es: "Técnica de regresión",
+          de: "Regressionstechnik",
+          nl: "Regressietechniek"
+        },
+        {
+          en: "Dimensionality reduction",
+          es: "Reducción de dimensionalidad",
+          de: "Dimensionsreduktion",
+          nl: "Dimensionaliteitsreductie"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "K-means is an unsupervised clustering algorithm that partitions data into K clusters by minimizing within-cluster variance, grouping similar data points together.",
+        es: "K-medias es un algoritmo de agrupamiento no supervisado que particiona datos en K grupos minimizando la varianza dentro del grupo.",
+        de: "K-Means ist ein unüberwachter Clustering-Algorithmus, der Daten in K Cluster partitioniert, indem er die Varianz innerhalb der Cluster minimiert.",
+        nl: "K-means is een ongesuperviseerd clustering-algoritme dat data in K clusters verdeelt door binnen-cluster variantie te minimaliseren."
+      }
+    },
+    {
+      question: {
+        en: "What is the purpose of activation functions?",
+        es: "¿Cuál es el propósito de las funciones de activación?",
+        de: "Was ist der Zweck von Aktivierungsfunktionen?",
+        nl: "Wat is het doel van activatiefuncties?"
+      },
+      options: [
+        {
+          en: "Add non-linearity to networks",
+          es: "Agregar no linealidad a las redes",
+          de: "Nichtlinearität zu Netzen hinzufügen",
+          nl: "Non-lineariteit toevoegen aan netwerken"
+        },
+        {
+          en: "Speed up computations",
+          es: "Acelerar cálculos",
+          de: "Berechnungen beschleunigen",
+          nl: "Berekeningen versnellen"
+        },
+        {
+          en: "Reduce memory usage",
+          es: "Reducir uso de memoria",
+          de: "Speichernutzung reduzieren",
+          nl: "Geheugengebruik verminderen"
+        },
+        {
+          en: "Initialize weights",
+          es: "Inicializar pesos",
+          de: "Gewichte initialisieren",
+          nl: "Gewichten initialiseren"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Activation functions add non-linearity to neural networks, allowing them to learn complex patterns. Without them, networks would only learn linear relationships.",
+        es: "Las funciones de activación agregan no linealidad a las redes neuronales, permitiéndoles aprender patrones complejos.",
+        de: "Aktivierungsfunktionen fügen neuronalen Netzen Nichtlinearität hinzu und ermöglichen es ihnen, komplexe Muster zu lernen.",
+        nl: "Activatiefuncties voegen non-lineariteit toe aan neurale netwerken, waardoor ze complexe patronen kunnen leren."
+      }
+    },
+    {
+      question: {
+        en: "What is ReLU in neural networks?",
+        es: "¿Qué es ReLU en redes neuronales?",
+        de: "Was ist ReLU in neuronalen Netzen?",
+        nl: "Wat is ReLU in neurale netwerken?"
+      },
+      options: [
+        {
+          en: "Rectified Linear Unit activation",
+          es: "Activación Unidad Lineal Rectificada",
+          de: "Rectified Linear Unit Aktivierung",
+          nl: "Rectified Linear Unit activatie"
+        },
+        {
+          en: "Recurrent Learning Unit",
+          es: "Unidad de Aprendizaje Recurrente",
+          de: "Rekurrente Lerneinheit",
+          nl: "Recurrente Leereeinheid"
+        },
+        {
+          en: "Regularized Loss Unit",
+          es: "Unidad de Pérdida Regularizada",
+          de: "Regularisierte Verlusteinheit",
+          nl: "Geregulariseerde Verlieseenheid"
+        },
+        {
+          en: "Random Learning Update",
+          es: "Actualización de Aprendizaje Aleatorio",
+          de: "Zufälliges Lernupdate",
+          nl: "Willekeurige Leerupdate"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "ReLU (Rectified Linear Unit) is a popular activation function that outputs the input if positive, otherwise zero. It helps avoid vanishing gradient problems.",
+        es: "ReLU es una función de activación popular que devuelve la entrada si es positiva, de lo contrario cero.",
+        de: "ReLU ist eine beliebte Aktivierungsfunktion, die die Eingabe ausgibt, wenn sie positiv ist, sonst null.",
+        nl: "ReLU is een populaire activatiefunctie die de input uitvoert als deze positief is, anders nul."
+      }
+    },
+    {
+      question: {
+        en: "What is a learning rate?",
+        es: "¿Qué es una tasa de aprendizaje?",
+        de: "Was ist eine Lernrate?",
+        nl: "Wat is een learning rate?"
+      },
+      options: [
+        {
+          en: "Step size for gradient updates",
+          es: "Tamaño de paso para actualizaciones",
+          de: "Schrittgröße für Gradientenaktualisierungen",
+          nl: "Stapgrootte voor gradient updates"
+        },
+        {
+          en: "Speed of data loading",
+          es: "Velocidad de carga de datos",
+          de: "Geschwindigkeit des Datenladens",
+          nl: "Snelheid van data laden"
+        },
+        {
+          en: "Model accuracy measure",
+          es: "Medida de precisión del modelo",
+          de: "Modellgenauigkeitsmaß",
+          nl: "Model nauwkeurigheidsmaat"
+        },
+        {
+          en: "Training duration",
+          es: "Duración del entrenamiento",
+          de: "Trainingsdauer",
+          nl: "Trainingsduur"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Learning rate is a hyperparameter that controls the step size when updating model weights during training. Too high can overshoot, too low slows convergence.",
+        es: "La tasa de aprendizaje es un hiperparámetro que controla el tamaño del paso al actualizar los pesos del modelo durante el entrenamiento.",
+        de: "Die Lernrate ist ein Hyperparameter, der die Schrittgröße bei der Aktualisierung der Modellgewichte während des Trainings steuert.",
+        nl: "Learning rate is een hyperparameter die de stapgrootte bepaalt bij het updaten van modelgewichten tijdens training."
+      }
+    },
+    {
+      question: {
+        en: "What is data augmentation?",
+        es: "¿Qué es el aumento de datos?",
+        de: "Was ist Datenerweiterung?",
+        nl: "Wat is data-augmentatie?"
+      },
+      options: [
+        {
+          en: "Creating variations of training data",
+          es: "Crear variaciones de datos de entrenamiento",
+          de: "Variationen von Trainingsdaten erstellen",
+          nl: "Variaties van trainingsdata maken"
+        },
+        {
+          en: "Collecting more real data",
+          es: "Recopilar más datos reales",
+          de: "Mehr reale Daten sammeln",
+          nl: "Meer echte data verzamelen"
+        },
+        {
+          en: "Removing duplicate data",
+          es: "Eliminar datos duplicados",
+          de: "Doppelte Daten entfernen",
+          nl: "Dubbele data verwijderen"
+        },
+        {
+          en: "Compressing datasets",
+          es: "Comprimir conjuntos de datos",
+          de: "Datensätze komprimieren",
+          nl: "Datasets comprimeren"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Data augmentation artificially increases training data by creating modified versions of existing data (rotations, flips, crops) to improve model generalization.",
+        es: "El aumento de datos incrementa artificialmente los datos de entrenamiento creando versiones modificadas de datos existentes.",
+        de: "Datenerweiterung erhöht künstlich die Trainingsdaten durch Erstellen modifizierter Versionen vorhandener Daten.",
+        nl: "Data-augmentatie verhoogt kunstmatig trainingsdata door gemodificeerde versies van bestaande data te maken."
+      }
+    },
+    {
+      question: {
+        en: "What is a hyperparameter?",
+        es: "¿Qué es un hiperparámetro?",
+        de: "Was ist ein Hyperparameter?",
+        nl: "Wat is een hyperparameter?"
+      },
+      options: [
+        {
+          en: "Configuration set before training",
+          es: "Configuración establecida antes del entrenamiento",
+          de: "Konfiguration vor dem Training festgelegt",
+          nl: "Configuratie ingesteld voor training"
+        },
+        {
+          en: "Weight learned during training",
+          es: "Peso aprendido durante el entrenamiento",
+          de: "Während des Trainings gelerntes Gewicht",
+          nl: "Gewicht geleerd tijdens training"
+        },
+        {
+          en: "Output of the model",
+          es: "Salida del modelo",
+          de: "Ausgabe des Modells",
+          nl: "Output van het model"
+        },
+        {
+          en: "Training data feature",
+          es: "Característica de datos de entrenamiento",
+          de: "Trainingsdatenmerkmal",
+          nl: "Trainingsdata kenmerk"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Hyperparameters are configuration variables set before training begins (like learning rate, batch size, number of layers) that control the learning process.",
+        es: "Los hiperparámetros son variables de configuración establecidas antes del entrenamiento que controlan el proceso de aprendizaje.",
+        de: "Hyperparameter sind Konfigurationsvariablen, die vor dem Training festgelegt werden und den Lernprozess steuern.",
+        nl: "Hyperparameters zijn configuratievariabelen ingesteld voor training die het leerproces controleren."
+      }
+    },
+    {
+      question: {
+        en: "What is the bias-variance tradeoff?",
+        es: "¿Qué es el compromiso sesgo-varianza?",
+        de: "Was ist der Bias-Varianz-Kompromiss?",
+        nl: "Wat is de bias-variance tradeoff?"
+      },
+      options: [
+        {
+          en: "Balance between underfitting and overfitting",
+          es: "Equilibrio entre subajuste y sobreajuste",
+          de: "Balance zwischen Unter- und Überanpassung",
+          nl: "Balans tussen underfitting en overfitting"
+        },
+        {
+          en: "Choosing between models",
+          es: "Elegir entre modelos",
+          de: "Zwischen Modellen wählen",
+          nl: "Kiezen tussen modellen"
+        },
+        {
+          en: "Data splitting strategy",
+          es: "Estrategia de división de datos",
+          de: "Datenaufteilungsstrategie",
+          nl: "Data splitsingstrategie"
+        },
+        {
+          en: "Training time vs accuracy",
+          es: "Tiempo de entrenamiento vs precisión",
+          de: "Trainingszeit vs Genauigkeit",
+          nl: "Trainingstijd vs nauwkeurigheid"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The bias-variance tradeoff is the balance between a model's ability to fit training data (low bias) and generalize to new data (low variance).",
+        es: "El compromiso sesgo-varianza es el equilibrio entre la capacidad de un modelo para ajustar datos de entrenamiento y generalizar a nuevos datos.",
+        de: "Der Bias-Varianz-Kompromiss ist das Gleichgewicht zwischen der Fähigkeit eines Modells, Trainingsdaten anzupassen und auf neue Daten zu verallgemeinern.",
+        nl: "De bias-variance tradeoff is de balans tussen het vermogen van een model om trainingsdata te fitten en te generaliseren naar nieuwe data."
+      }
+    },
+    {
+      question: {
+        en: "What is early stopping?",
+        es: "¿Qué es la parada temprana?",
+        de: "Was ist frühes Stoppen?",
+        nl: "Wat is early stopping?"
+      },
+      options: [
+        {
+          en: "Stop training when validation error increases",
+          es: "Detener entrenamiento cuando aumenta error de validación",
+          de: "Training stoppen wenn Validierungsfehler steigt",
+          nl: "Training stoppen als validatiefout toeneemt"
+        },
+        {
+          en: "Start training early in the day",
+          es: "Comenzar entrenamiento temprano en el día",
+          de: "Training früh am Tag beginnen",
+          nl: "Training vroeg op de dag starten"
+        },
+        {
+          en: "Use fewer epochs",
+          es: "Usar menos épocas",
+          de: "Weniger Epochen verwenden",
+          nl: "Minder epochs gebruiken"
+        },
+        {
+          en: "Skip initial layers",
+          es: "Omitir capas iniciales",
+          de: "Anfangsschichten überspringen",
+          nl: "Initiële lagen overslaan"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Early stopping is a regularization technique that stops training when validation performance starts to degrade, preventing overfitting to training data.",
+        es: "La parada temprana es una técnica de regularización que detiene el entrenamiento cuando el rendimiento de validación comienza a degradarse.",
+        de: "Frühes Stoppen ist eine Regularisierungstechnik, die das Training stoppt, wenn die Validierungsleistung abnimmt.",
+        nl: "Early stopping is een regularisatietechniek die training stopt wanneer validatieprestaties beginnen te verslechteren."
+      }
+    },
+    {
+      question: {
+        en: "What is dimensionality reduction?",
+        es: "¿Qué es la reducción de dimensionalidad?",
+        de: "Was ist Dimensionsreduktion?",
+        nl: "Wat is dimensionaliteitsreductie?"
+      },
+      options: [
+        {
+          en: "Reducing number of features",
+          es: "Reducir número de características",
+          de: "Anzahl der Merkmale reduzieren",
+          nl: "Aantal kenmerken verminderen"
+        },
+        {
+          en: "Making models smaller",
+          es: "Hacer modelos más pequeños",
+          de: "Modelle kleiner machen",
+          nl: "Modellen kleiner maken"
+        },
+        {
+          en: "Compressing images",
+          es: "Comprimir imágenes",
+          de: "Bilder komprimieren",
+          nl: "Afbeeldingen comprimeren"
+        },
+        {
+          en: "Reducing training time",
+          es: "Reducir tiempo de entrenamiento",
+          de: "Trainingszeit reduzieren",
+          nl: "Trainingstijd verminderen"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Dimensionality reduction reduces the number of features while preserving important information, helping with visualization and reducing computational complexity.",
+        es: "La reducción de dimensionalidad reduce el número de características mientras preserva información importante.",
+        de: "Dimensionsreduktion reduziert die Anzahl der Merkmale unter Beibehaltung wichtiger Informationen.",
+        nl: "Dimensionaliteitsreductie vermindert het aantal kenmerken terwijl belangrijke informatie behouden blijft."
+      }
+    },
+    {
+      question: {
+        en: "What is Principal Component Analysis (PCA)?",
+        es: "¿Qué es el Análisis de Componentes Principales?",
+        de: "Was ist die Hauptkomponentenanalyse?",
+        nl: "Wat is Principal Component Analysis?"
+      },
+      options: [
+        {
+          en: "Dimensionality reduction technique",
+          es: "Técnica de reducción de dimensionalidad",
+          de: "Dimensionsreduktionstechnik",
+          nl: "Dimensionaliteitsreductietechniek"
+        },
+        {
+          en: "Classification algorithm",
+          es: "Algoritmo de clasificación",
+          de: "Klassifikationsalgorithmus",
+          nl: "Classificatie-algoritme"
+        },
+        {
+          en: "Neural network type",
+          es: "Tipo de red neuronal",
+          de: "Neuronaler Netzwerktyp",
+          nl: "Neuraal netwerktype"
+        },
+        {
+          en: "Clustering method",
+          es: "Método de agrupamiento",
+          de: "Clustering-Methode",
+          nl: "Clusteringmethode"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "PCA is a dimensionality reduction technique that finds principal components - directions of maximum variance in data - to reduce features while preserving information.",
+        es: "PCA es una técnica de reducción de dimensionalidad que encuentra componentes principales para reducir características preservando información.",
+        de: "PCA ist eine Dimensionsreduktionstechnik, die Hauptkomponenten findet, um Merkmale zu reduzieren und Informationen zu erhalten.",
+        nl: "PCA is een dimensionaliteitsreductietechniek die hoofdcomponenten vindt om kenmerken te verminderen terwijl informatie behouden blijft."
+      }
+    },
+    {
+      question: {
+        en: "What is the purpose of a loss function?",
+        es: "¿Cuál es el propósito de una función de pérdida?",
+        de: "Was ist der Zweck einer Verlustfunktion?",
+        nl: "Wat is het doel van een loss functie?"
+      },
+      options: [
+        {
+          en: "Measure prediction errors",
+          es: "Medir errores de predicción",
+          de: "Vorhersagefehler messen",
+          nl: "Voorspellingsfouten meten"
+        },
+        {
+          en: "Generate new data",
+          es: "Generar nuevos datos",
+          de: "Neue Daten generieren",
+          nl: "Nieuwe data genereren"
+        },
+        {
+          en: "Speed up training",
+          es: "Acelerar entrenamiento",
+          de: "Training beschleunigen",
+          nl: "Training versnellen"
+        },
+        {
+          en: "Select features",
+          es: "Seleccionar características",
+          de: "Merkmale auswählen",
+          nl: "Kenmerken selecteren"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A loss function measures how wrong the model's predictions are compared to true values. The goal of training is to minimize this loss.",
+        es: "Una función de pérdida mide qué tan incorrectas son las predicciones del modelo comparadas con los valores verdaderos.",
+        de: "Eine Verlustfunktion misst, wie falsch die Vorhersagen des Modells im Vergleich zu wahren Werten sind.",
+        nl: "Een loss functie meet hoe fout de voorspellingen van het model zijn vergeleken met werkelijke waarden."
+      }
+    },
+    {
+      question: {
+        en: "What is reinforcement learning?",
+        es: "¿Qué es el aprendizaje por refuerzo?",
+        de: "Was ist verstärkendes Lernen?",
+        nl: "Wat is reinforcement learning?"
+      },
+      options: [
+        {
+          en: "Learning through rewards and penalties",
+          es: "Aprender mediante recompensas y penalizaciones",
+          de: "Lernen durch Belohnungen und Strafen",
+          nl: "Leren door beloningen en straffen"
+        },
+        {
+          en: "Learning from labeled data",
+          es: "Aprender de datos etiquetados",
+          de: "Aus beschrifteten Daten lernen",
+          nl: "Leren van gelabelde data"
+        },
+        {
+          en: "Learning without labels",
+          es: "Aprender sin etiquetas",
+          de: "Ohne Labels lernen",
+          nl: "Leren zonder labels"
+        },
+        {
+          en: "Learning from examples",
+          es: "Aprender de ejemplos",
+          de: "Aus Beispielen lernen",
+          nl: "Leren van voorbeelden"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Reinforcement learning trains agents to make decisions by rewarding desired behaviors and penalizing undesired ones, learning optimal strategies through trial and error.",
+        es: "El aprendizaje por refuerzo entrena agentes para tomar decisiones recompensando comportamientos deseados y penalizando los no deseados.",
+        de: "Verstärkendes Lernen trainiert Agenten, Entscheidungen zu treffen, indem erwünschte Verhaltensweisen belohnt und unerwünschte bestraft werden.",
+        nl: "Reinforcement learning traint agenten om beslissingen te nemen door gewenst gedrag te belonen en ongewenst gedrag te bestraffen."
+      }
+    },
+    {
+      question: {
+        en: "What is a convolutional neural network (CNN)?",
+        es: "¿Qué es una red neuronal convolucional?",
+        de: "Was ist ein konvolutionales neuronales Netz?",
+        nl: "Wat is een convolutioneel neuraal netwerk?"
+      },
+      options: [
+        {
+          en: "Network designed for image processing",
+          es: "Red diseñada para procesamiento de imágenes",
+          de: "Netzwerk für Bildverarbeitung",
+          nl: "Netwerk ontworpen voor beeldverwerking"
+        },
+        {
+          en: "Network for text analysis",
+          es: "Red para análisis de texto",
+          de: "Netzwerk für Textanalyse",
+          nl: "Netwerk voor tekstanalyse"
+        },
+        {
+          en: "Network for time series",
+          es: "Red para series temporales",
+          de: "Netzwerk für Zeitreihen",
+          nl: "Netwerk voor tijdreeksen"
+        },
+        {
+          en: "Network for audio processing",
+          es: "Red para procesamiento de audio",
+          de: "Netzwerk für Audioverarbeitung",
+          nl: "Netwerk voor audioverwerking"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "CNNs are neural networks designed for processing grid-like data such as images, using convolutional layers to detect features like edges and patterns.",
+        es: "Las CNN son redes neuronales diseñadas para procesar datos tipo cuadrícula como imágenes, usando capas convolucionales para detectar características.",
+        de: "CNNs sind neuronale Netze für rasterartige Daten wie Bilder, die Faltungsschichten zur Erkennung von Merkmalen verwenden.",
+        nl: "CNN's zijn neurale netwerken ontworpen voor rasterachtige data zoals afbeeldingen, gebruiken convolutionele lagen om kenmerken te detecteren."
+      }
+    },
+    {
+      question: {
+        en: "What is a recurrent neural network (RNN)?",
+        es: "¿Qué es una red neuronal recurrente?",
+        de: "Was ist ein rekurrentes neuronales Netz?",
+        nl: "Wat is een recurrent neuraal netwerk?"
+      },
+      options: [
+        {
+          en: "Network for sequential data",
+          es: "Red para datos secuenciales",
+          de: "Netzwerk für sequenzielle Daten",
+          nl: "Netwerk voor sequentiële data"
+        },
+        {
+          en: "Network for image data",
+          es: "Red para datos de imagen",
+          de: "Netzwerk für Bilddaten",
+          nl: "Netwerk voor beelddata"
+        },
+        {
+          en: "Network for tabular data",
+          es: "Red para datos tabulares",
+          de: "Netzwerk für tabellarische Daten",
+          nl: "Netwerk voor tabulaire data"
+        },
+        {
+          en: "Network for graph data",
+          es: "Red para datos de grafo",
+          de: "Netzwerk für Graphdaten",
+          nl: "Netwerk voor grafiekdata"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "RNNs are designed for sequential data like text or time series, with connections that loop back to maintain memory of previous inputs in the sequence.",
+        es: "Las RNN están diseñadas para datos secuenciales como texto o series temporales, con conexiones que mantienen memoria de entradas previas.",
+        de: "RNNs sind für sequenzielle Daten wie Text oder Zeitreihen konzipiert, mit Verbindungen die Speicher früherer Eingaben erhalten.",
+        nl: "RNN's zijn ontworpen voor sequentiële data zoals tekst of tijdreeksen, met verbindingen die geheugen van eerdere inputs behouden."
+      }
+    },
+    {
+      question: {
+        en: "What is LSTM in neural networks?",
+        es: "¿Qué es LSTM en redes neuronales?",
+        de: "Was ist LSTM in neuronalen Netzen?",
+        nl: "Wat is LSTM in neurale netwerken?"
+      },
+      options: [
+        {
+          en: "Long Short-Term Memory",
+          es: "Memoria a Largo-Corto Plazo",
+          de: "Long Short-Term Memory",
+          nl: "Long Short-Term Memory"
+        },
+        {
+          en: "Large Scale Training Method",
+          es: "Método de Entrenamiento a Gran Escala",
+          de: "Großskaliges Trainingsverfahren",
+          nl: "Grootschalige Trainingsmethode"
+        },
+        {
+          en: "Linear System Transfer Model",
+          es: "Modelo de Transferencia de Sistema Lineal",
+          de: "Lineares Systemtransfermodell",
+          nl: "Lineair Systeem Transfer Model"
+        },
+        {
+          en: "Learning State Transition Machine",
+          es: "Máquina de Transición de Estado de Aprendizaje",
+          de: "Lernende Zustandsübergangsmaschine",
+          nl: "Lerende Staat Transitie Machine"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "LSTM (Long Short-Term Memory) is a type of RNN that can learn long-term dependencies, solving the vanishing gradient problem in traditional RNNs.",
+        es: "LSTM es un tipo de RNN que puede aprender dependencias a largo plazo, resolviendo el problema del gradiente desvaneciente.",
+        de: "LSTM ist ein RNN-Typ, der langfristige Abhängigkeiten lernen kann und das Problem des verschwindenden Gradienten löst.",
+        nl: "LSTM is een type RNN dat lange-termijn afhankelijkheden kan leren, lost het vanishing gradient probleem op."
+      }
+    },
+    {
+      question: {
+        en: "What is autoencoder used for?",
+        es: "¿Para qué se usa un autocodificador?",
+        de: "Wofür wird ein Autoencoder verwendet?",
+        nl: "Waar wordt een autoencoder voor gebruikt?"
+      },
+      options: [
+        {
+          en: "Dimensionality reduction and compression",
+          es: "Reducción de dimensionalidad y compresión",
+          de: "Dimensionsreduktion und Kompression",
+          nl: "Dimensionaliteitsreductie en compressie"
+        },
+        {
+          en: "Classification tasks",
+          es: "Tareas de clasificación",
+          de: "Klassifikationsaufgaben",
+          nl: "Classificatietaken"
+        },
+        {
+          en: "Regression analysis",
+          es: "Análisis de regresión",
+          de: "Regressionsanalyse",
+          nl: "Regressieanalyse"
+        },
+        {
+          en: "Clustering data",
+          es: "Agrupamiento de datos",
+          de: "Daten clustern",
+          nl: "Data clusteren"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Autoencoders are neural networks that learn to compress data into a lower-dimensional representation and reconstruct it, useful for dimensionality reduction and denoising.",
+        es: "Los autocodificadores son redes neuronales que aprenden a comprimir datos en una representación de menor dimensión y reconstruirlos.",
+        de: "Autoencoder sind neuronale Netze, die Daten in eine niedrigdimensionale Darstellung komprimieren und rekonstruieren.",
+        nl: "Autoencoders zijn neurale netwerken die data leren comprimeren naar een lagere dimensionale representatie en reconstrueren."
+      }
+    },
+    {
+      question: {
+        en: "What is GAN in machine learning?",
+        es: "¿Qué es GAN en aprendizaje automático?",
+        de: "Was ist GAN im maschinellen Lernen?",
+        nl: "Wat is GAN in machine learning?"
+      },
+      options: [
+        {
+          en: "Generative Adversarial Network",
+          es: "Red Generativa Adversaria",
+          de: "Generative Adversarial Network",
+          nl: "Generative Adversarial Network"
+        },
+        {
+          en: "Global Average Network",
+          es: "Red Promedio Global",
+          de: "Globales Durchschnittsnetzwerk",
+          nl: "Globaal Gemiddeld Netwerk"
+        },
+        {
+          en: "Gradient Activation Network",
+          es: "Red de Activación de Gradiente",
+          de: "Gradientenaktivierungsnetzwerk",
+          nl: "Gradiënt Activatie Netwerk"
+        },
+        {
+          en: "Graph Analysis Network",
+          es: "Red de Análisis de Grafos",
+          de: "Graphanalysenetzwerk",
+          nl: "Grafiek Analyse Netwerk"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "GANs consist of two neural networks competing against each other - a generator creating fake data and a discriminator detecting fakes, used for generating realistic data.",
+        es: "Las GAN consisten en dos redes neuronales compitiendo - un generador creando datos falsos y un discriminador detectando falsificaciones.",
+        de: "GANs bestehen aus zwei konkurrierenden neuronalen Netzen - einem Generator der falsche Daten erstellt und einem Diskriminator der Fälschungen erkennt.",
+        nl: "GAN's bestaan uit twee neurale netwerken die tegen elkaar concurreren - een generator die valse data maakt en een discriminator die vervalsingen detecteert."
+      }
+    },
+    {
+      question: {
+        en: "What is the difference between AI and ML?",
+        es: "¿Cuál es la diferencia entre IA y AA?",
+        de: "Was ist der Unterschied zwischen KI und ML?",
+        nl: "Wat is het verschil tussen AI en ML?"
+      },
+      options: [
+        {
+          en: "AI is broader, ML is a subset",
+          es: "IA es más amplia, AA es un subconjunto",
+          de: "KI ist breiter, ML ist eine Teilmenge",
+          nl: "AI is breder, ML is een subset"
+        },
+        {
+          en: "They are the same thing",
+          es: "Son lo mismo",
+          de: "Sie sind dasselbe",
+          nl: "Ze zijn hetzelfde"
+        },
+        {
+          en: "ML is broader, AI is a subset",
+          es: "AA es más amplia, IA es un subconjunto",
+          de: "ML ist breiter, KI ist eine Teilmenge",
+          nl: "ML is breder, AI is een subset"
+        },
+        {
+          en: "No relationship exists",
+          es: "No existe relación",
+          de: "Keine Beziehung existiert",
+          nl: "Er bestaat geen relatie"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "AI is the broader concept of machines being able to perform tasks intelligently, while ML is a specific subset where machines learn from data.",
+        es: "IA es el concepto más amplio de máquinas realizando tareas inteligentemente, mientras AA es un subconjunto donde las máquinas aprenden de datos.",
+        de: "KI ist das breitere Konzept von Maschinen die Aufgaben intelligent ausführen, während ML eine Teilmenge ist wo Maschinen aus Daten lernen.",
+        nl: "AI is het bredere concept van machines die taken intelligent uitvoeren, terwijl ML een subset is waar machines leren van data."
+      }
+    },
+    {
+      question: {
+        en: "What is a support vector machine (SVM)?",
+        es: "¿Qué es una máquina de vectores de soporte?",
+        de: "Was ist eine Support Vector Machine?",
+        nl: "Wat is een support vector machine?"
+      },
+      options: [
+        {
+          en: "Classification algorithm finding optimal boundary",
+          es: "Algoritmo de clasificación encontrando límite óptimo",
+          de: "Klassifikationsalgorithmus der optimale Grenze findet",
+          nl: "Classificatie-algoritme dat optimale grens vindt"
+        },
+        {
+          en: "Neural network architecture",
+          es: "Arquitectura de red neuronal",
+          de: "Neuronale Netzwerkarchitektur",
+          nl: "Neurale netwerkarchitectuur"
+        },
+        {
+          en: "Clustering technique",
+          es: "Técnica de agrupamiento",
+          de: "Clustering-Technik",
+          nl: "Clusteringtechniek"
+        },
+        {
+          en: "Regression method",
+          es: "Método de regresión",
+          de: "Regressionsmethode",
+          nl: "Regressiemethode"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "SVM is a classification algorithm that finds the optimal hyperplane to separate different classes with maximum margin between them.",
+        es: "SVM es un algoritmo de clasificación que encuentra el hiperplano óptimo para separar diferentes clases con máximo margen entre ellas.",
+        de: "SVM ist ein Klassifikationsalgorithmus, der die optimale Hyperebene findet, um verschiedene Klassen mit maximalem Abstand zu trennen.",
+        nl: "SVM is een classificatie-algoritme dat het optimale hypervlak vindt om verschillende klassen met maximale marge te scheiden."
+      }
+    },
+    {
+      question: {
+        en: "What is feature engineering?",
+        es: "¿Qué es la ingeniería de características?",
+        de: "Was ist Feature Engineering?",
+        nl: "Wat is feature engineering?"
+      },
+      options: [
+        {
+          en: "Creating new features from raw data",
+          es: "Crear nuevas características de datos crudos",
+          de: "Neue Merkmale aus Rohdaten erstellen",
+          nl: "Nieuwe kenmerken maken uit ruwe data"
+        },
+        {
+          en: "Building neural networks",
+          es: "Construir redes neuronales",
+          de: "Neuronale Netze bauen",
+          nl: "Neurale netwerken bouwen"
+        },
+        {
+          en: "Testing model performance",
+          es: "Probar rendimiento del modelo",
+          de: "Modellleistung testen",
+          nl: "Modelprestaties testen"
+        },
+        {
+          en: "Collecting more data",
+          es: "Recopilar más datos",
+          de: "Mehr Daten sammeln",
+          nl: "Meer data verzamelen"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Feature engineering is the process of creating new features or transforming existing ones to improve model performance by making patterns more apparent.",
+        es: "La ingeniería de características es el proceso de crear nuevas características o transformar las existentes para mejorar el rendimiento del modelo.",
+        de: "Feature Engineering ist der Prozess, neue Merkmale zu erstellen oder bestehende zu transformieren, um die Modellleistung zu verbessern.",
+        nl: "Feature engineering is het proces van nieuwe kenmerken maken of bestaande transformeren om modelprestaties te verbeteren."
+      }
+    },
+    {
+      question: {
+        en: "What is the curse of dimensionality?",
+        es: "¿Qué es la maldición de la dimensionalidad?",
+        de: "Was ist der Fluch der Dimensionalität?",
+        nl: "Wat is de vloek van dimensionaliteit?"
+      },
+      options: [
+        {
+          en: "Problems arising with high-dimensional data",
+          es: "Problemas que surgen con datos de alta dimensión",
+          de: "Probleme mit hochdimensionalen Daten",
+          nl: "Problemen met hoogdimensionale data"
+        },
+        {
+          en: "Too few features in dataset",
+          es: "Muy pocas características en el conjunto de datos",
+          de: "Zu wenige Merkmale im Datensatz",
+          nl: "Te weinig kenmerken in dataset"
+        },
+        {
+          en: "Model complexity issues",
+          es: "Problemas de complejidad del modelo",
+          de: "Modellkomplexitätsprobleme",
+          nl: "Model complexiteitsproblemen"
+        },
+        {
+          en: "Training time limitations",
+          es: "Limitaciones de tiempo de entrenamiento",
+          de: "Trainingszeitbeschränkungen",
+          nl: "Trainingstijd beperkingen"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The curse of dimensionality refers to various problems that arise when analyzing data in high-dimensional spaces, including sparsity and increased computational complexity.",
+        es: "La maldición de la dimensionalidad se refiere a varios problemas que surgen al analizar datos en espacios de alta dimensión.",
+        de: "Der Fluch der Dimensionalität bezieht sich auf Probleme bei der Analyse von Daten in hochdimensionalen Räumen.",
+        nl: "De vloek van dimensionaliteit verwijst naar problemen die ontstaan bij het analyseren van data in hoogdimensionale ruimtes."
+      }
+    },
+    {
+      question: {
+        en: "What is semi-supervised learning?",
+        es: "¿Qué es el aprendizaje semi-supervisado?",
+        de: "Was ist halbüberwachtes Lernen?",
+        nl: "Wat is semi-gesuperviseerd leren?"
+      },
+      options: [
+        {
+          en: "Using both labeled and unlabeled data",
+          es: "Usar datos etiquetados y no etiquetados",
+          de: "Beschriftete und unbeschriftete Daten nutzen",
+          nl: "Gelabelde en ongelabelde data gebruiken"
+        },
+        {
+          en: "Only using labeled data",
+          es: "Solo usar datos etiquetados",
+          de: "Nur beschriftete Daten verwenden",
+          nl: "Alleen gelabelde data gebruiken"
+        },
+        {
+          en: "Only using unlabeled data",
+          es: "Solo usar datos no etiquetados",
+          de: "Nur unbeschriftete Daten verwenden",
+          nl: "Alleen ongelabelde data gebruiken"
+        },
+        {
+          en: "Learning without any data",
+          es: "Aprender sin datos",
+          de: "Ohne Daten lernen",
+          nl: "Leren zonder data"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Semi-supervised learning uses a small amount of labeled data combined with a large amount of unlabeled data, useful when labeling is expensive.",
+        es: "El aprendizaje semi-supervisado usa una pequeña cantidad de datos etiquetados combinados con muchos datos no etiquetados.",
+        de: "Halbüberwachtes Lernen verwendet eine kleine Menge beschrifteter Daten kombiniert mit vielen unbeschrifteten Daten.",
+        nl: "Semi-gesuperviseerd leren gebruikt een kleine hoeveelheid gelabelde data gecombineerd met veel ongelabelde data."
+      }
+    },
+    {
+      question: {
+        en: "What is online learning in ML?",
+        es: "¿Qué es el aprendizaje en línea en AA?",
+        de: "Was ist Online-Lernen in ML?",
+        nl: "Wat is online learning in ML?"
+      },
+      options: [
+        {
+          en: "Learning from data streams continuously",
+          es: "Aprender de flujos de datos continuamente",
+          de: "Kontinuierlich aus Datenströmen lernen",
+          nl: "Continu leren van datastromen"
+        },
+        {
+          en: "Learning through the internet",
+          es: "Aprender a través de internet",
+          de: "Über das Internet lernen",
+          nl: "Leren via het internet"
+        },
+        {
+          en: "Learning in batches",
+          es: "Aprender en lotes",
+          de: "In Stapeln lernen",
+          nl: "Leren in batches"
+        },
+        {
+          en: "Learning offline",
+          es: "Aprender sin conexión",
+          de: "Offline lernen",
+          nl: "Offline leren"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Online learning (incremental learning) trains models on data streams, updating continuously as new data arrives rather than retraining on entire datasets.",
+        es: "El aprendizaje en línea entrena modelos en flujos de datos, actualizándose continuamente cuando llegan nuevos datos.",
+        de: "Online-Lernen trainiert Modelle auf Datenströmen und aktualisiert kontinuierlich, wenn neue Daten ankommen.",
+        nl: "Online learning traint modellen op datastromen, updatet continu wanneer nieuwe data aankomt."
+      }
+    },
+    {
+      question: {
+        en: "What is a Transformer model?",
+        es: "¿Qué es un modelo Transformer?",
+        de: "Was ist ein Transformer-Modell?",
+        nl: "Wat is een Transformer model?"
+      },
+      options: [
+        {
+          en: "Architecture using attention mechanisms",
+          es: "Arquitectura usando mecanismos de atención",
+          de: "Architektur mit Aufmerksamkeitsmechanismen",
+          nl: "Architectuur met attentiemechanismen"
+        },
+        {
+          en: "Type of CNN",
+          es: "Tipo de CNN",
+          de: "CNN-Typ",
+          nl: "Type CNN"
+        },
+        {
+          en: "Type of RNN",
+          es: "Tipo de RNN",
+          de: "RNN-Typ",
+          nl: "Type RNN"
+        },
+        {
+          en: "Classical ML algorithm",
+          es: "Algoritmo de AA clásico",
+          de: "Klassischer ML-Algorithmus",
+          nl: "Klassiek ML-algoritme"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Transformers are neural network architectures that use self-attention mechanisms to process sequential data, revolutionizing NLP tasks like language translation.",
+        es: "Los Transformers son arquitecturas de redes neuronales que usan mecanismos de autoatención para procesar datos secuenciales.",
+        de: "Transformer sind neuronale Netzwerkarchitekturen, die Selbstaufmerksamkeitsmechanismen zur Verarbeitung sequenzieller Daten verwenden.",
+        nl: "Transformers zijn neurale netwerkarchitecturen die zelf-attentiemechanismen gebruiken om sequentiële data te verwerken."
+      }
+    },
+    {
+      question: {
+        en: "What is BERT in NLP?",
+        es: "¿Qué es BERT en PLN?",
+        de: "Was ist BERT in NLP?",
+        nl: "Wat is BERT in NLP?"
+      },
+      options: [
+        {
+          en: "Bidirectional Encoder Representations from Transformers",
+          es: "Representaciones de Codificador Bidireccional de Transformers",
+          de: "Bidirektionale Encoder-Repräsentationen von Transformers",
+          nl: "Bidirectional Encoder Representations from Transformers"
+        },
+        {
+          en: "Basic Error Reduction Technique",
+          es: "Técnica Básica de Reducción de Errores",
+          de: "Grundlegende Fehlerreduktionstechnik",
+          nl: "Basis Fout Reductie Techniek"
+        },
+        {
+          en: "Batch Evaluation and Regression Tool",
+          es: "Herramienta de Evaluación y Regresión por Lotes",
+          de: "Batch-Bewertungs- und Regressionstool",
+          nl: "Batch Evaluatie en Regressie Tool"
+        },
+        {
+          en: "Binary Encoding Recognition Technology",
+          es: "Tecnología de Reconocimiento de Codificación Binaria",
+          de: "Binäre Kodierungserkennungstechnologie",
+          nl: "Binaire Codering Herkenning Technologie"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "BERT is a pre-trained language model that understands context from both directions, significantly improving performance on various NLP tasks.",
+        es: "BERT es un modelo de lenguaje preentrenado que entiende el contexto desde ambas direcciones, mejorando el rendimiento en tareas de PLN.",
+        de: "BERT ist ein vortrainiertes Sprachmodell, das Kontext aus beiden Richtungen versteht und die Leistung bei NLP-Aufgaben verbessert.",
+        nl: "BERT is een voorgetraind taalmodel dat context uit beide richtingen begrijpt, verbetert prestaties op NLP-taken."
+      }
+    },
+    {
+      question: {
+        en: "What is federated learning?",
+        es: "¿Qué es el aprendizaje federado?",
+        de: "Was ist föderiertes Lernen?",
+        nl: "Wat is federated learning?"
+      },
+      options: [
+        {
+          en: "Training on distributed data without centralizing",
+          es: "Entrenar en datos distribuidos sin centralizar",
+          de: "Training auf verteilten Daten ohne Zentralisierung",
+          nl: "Trainen op gedistribueerde data zonder centralisatie"
+        },
+        {
+          en: "Training multiple models together",
+          es: "Entrenar múltiples modelos juntos",
+          de: "Mehrere Modelle zusammen trainieren",
+          nl: "Meerdere modellen samen trainen"
+        },
+        {
+          en: "Centralizing all data first",
+          es: "Centralizar todos los datos primero",
+          de: "Alle Daten zuerst zentralisieren",
+          nl: "Alle data eerst centraliseren"
+        },
+        {
+          en: "Training on cloud platforms",
+          es: "Entrenar en plataformas en la nube",
+          de: "Training auf Cloud-Plattformen",
+          nl: "Trainen op cloud platforms"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Federated learning trains models on distributed datasets without moving data to a central server, preserving privacy while learning from multiple sources.",
+        es: "El aprendizaje federado entrena modelos en conjuntos de datos distribuidos sin mover datos a un servidor central, preservando la privacidad.",
+        de: "Föderiertes Lernen trainiert Modelle auf verteilten Datensätzen ohne Daten zu einem zentralen Server zu verschieben.",
+        nl: "Federated learning traint modellen op gedistribueerde datasets zonder data naar een centrale server te verplaatsen."
+      }
+    },
+    {
+      question: {
+        en: "What is the Adam optimizer?",
+        es: "¿Qué es el optimizador Adam?",
+        de: "Was ist der Adam-Optimierer?",
+        nl: "Wat is de Adam optimizer?"
+      },
+      options: [
+        {
+          en: "Adaptive moment estimation optimizer",
+          es: "Optimizador de estimación de momento adaptativo",
+          de: "Adaptiver Momentschätzungsoptimierer",
+          nl: "Adaptieve moment schatting optimizer"
+        },
+        {
+          en: "Advanced data augmentation method",
+          es: "Método avanzado de aumento de datos",
+          de: "Erweiterte Datenerweiterungsmethode",
+          nl: "Geavanceerde data-augmentatiemethode"
+        },
+        {
+          en: "Automatic model selector",
+          es: "Selector automático de modelos",
+          de: "Automatischer Modellselektor",
+          nl: "Automatische modelselector"
+        },
+        {
+          en: "Accuracy measurement tool",
+          es: "Herramienta de medición de precisión",
+          de: "Genauigkeitsmesswerkzeug",
+          nl: "Nauwkeurigheid meetinstrument"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Adam is an optimization algorithm that combines advantages of AdaGrad and RMSProp, adapting learning rates for each parameter based on first and second moments.",
+        es: "Adam es un algoritmo de optimización que combina ventajas de AdaGrad y RMSProp, adaptando tasas de aprendizaje para cada parámetro.",
+        de: "Adam ist ein Optimierungsalgorithmus, der Vorteile von AdaGrad und RMSProp kombiniert und Lernraten für jeden Parameter anpasst.",
+        nl: "Adam is een optimalisatie-algoritme dat voordelen van AdaGrad en RMSProp combineert, past learning rates aan voor elke parameter."
+      }
+    },
+    {
+      question: {
+        en: "What is zero-shot learning?",
+        es: "¿Qué es el aprendizaje zero-shot?",
+        de: "Was ist Zero-Shot-Lernen?",
+        nl: "Wat is zero-shot learning?"
+      },
+      options: [
+        {
+          en: "Classifying unseen classes without examples",
+          es: "Clasificar clases no vistas sin ejemplos",
+          de: "Ungesehene Klassen ohne Beispiele klassifizieren",
+          nl: "Ongeziene klassen classificeren zonder voorbeelden"
+        },
+        {
+          en: "Training without any data",
+          es: "Entrenar sin ningún dato",
+          de: "Training ohne Daten",
+          nl: "Trainen zonder data"
+        },
+        {
+          en: "Using zero training epochs",
+          es: "Usar cero épocas de entrenamiento",
+          de: "Null Trainingsepochen verwenden",
+          nl: "Nul training epochs gebruiken"
+        },
+        {
+          en: "Learning with zero errors",
+          es: "Aprender con cero errores",
+          de: "Mit null Fehlern lernen",
+          nl: "Leren met nul fouten"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Zero-shot learning enables models to classify or recognize objects/concepts they haven't seen during training by leveraging auxiliary information or relationships.",
+        es: "El aprendizaje zero-shot permite a los modelos clasificar objetos/conceptos que no han visto durante el entrenamiento usando información auxiliar.",
+        de: "Zero-Shot-Lernen ermöglicht Modellen, Objekte/Konzepte zu klassifizieren, die sie während des Trainings nicht gesehen haben.",
+        nl: "Zero-shot learning stelt modellen in staat objecten/concepten te classificeren die ze niet tijdens training hebben gezien."
+      }
+    },
+    {
+      question: {
+        en: "What is model interpretability?",
+        es: "¿Qué es la interpretabilidad del modelo?",
+        de: "Was ist Modellinterpretierbarkeit?",
+        nl: "Wat is model interpreteerbaarheid?"
+      },
+      options: [
+        {
+          en: "Understanding how models make decisions",
+          es: "Entender cómo los modelos toman decisiones",
+          de: "Verstehen, wie Modelle Entscheidungen treffen",
+          nl: "Begrijpen hoe modellen beslissingen nemen"
+        },
+        {
+          en: "Translating models between languages",
+          es: "Traducir modelos entre idiomas",
+          de: "Modelle zwischen Sprachen übersetzen",
+          nl: "Modellen vertalen tussen talen"
+        },
+        {
+          en: "Making models faster",
+          es: "Hacer modelos más rápidos",
+          de: "Modelle schneller machen",
+          nl: "Modellen sneller maken"
+        },
+        {
+          en: "Reducing model size",
+          es: "Reducir tamaño del modelo",
+          de: "Modellgröße reduzieren",
+          nl: "Modelgrootte verkleinen"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Model interpretability refers to the degree to which humans can understand and explain how a machine learning model arrives at its predictions or decisions.",
+        es: "La interpretabilidad del modelo se refiere al grado en que los humanos pueden entender y explicar cómo un modelo llega a sus predicciones.",
+        de: "Modellinterpretierbarkeit bezieht sich darauf, wie gut Menschen verstehen können, wie ein Modell zu seinen Vorhersagen kommt.",
+        nl: "Model interpreteerbaarheid verwijst naar de mate waarin mensen kunnen begrijpen hoe een model tot voorspellingen komt."
+      }
+    },
+    {
+      question: {
+        en: "What is the purpose of A/B testing in ML?",
+        es: "¿Cuál es el propósito de las pruebas A/B en AA?",
+        de: "Was ist der Zweck von A/B-Tests in ML?",
+        nl: "Wat is het doel van A/B testing in ML?"
+      },
+      options: [
+        {
+          en: "Comparing model versions in production",
+          es: "Comparar versiones de modelos en producción",
+          de: "Modellversionen in Produktion vergleichen",
+          nl: "Modelversies vergelijken in productie"
+        },
+        {
+          en: "Training two models simultaneously",
+          es: "Entrenar dos modelos simultáneamente",
+          de: "Zwei Modelle gleichzeitig trainieren",
+          nl: "Twee modellen tegelijk trainen"
+        },
+        {
+          en: "Splitting data into sets",
+          es: "Dividir datos en conjuntos",
+          de: "Daten in Sets aufteilen",
+          nl: "Data splitsen in sets"
+        },
+        {
+          en: "Testing accuracy metrics",
+          es: "Probar métricas de precisión",
+          de: "Genauigkeitsmetriken testen",
+          nl: "Nauwkeurigheidsmetrieken testen"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A/B testing in ML compares different model versions or features in production with real users to determine which performs better based on defined metrics.",
+        es: "Las pruebas A/B en AA comparan diferentes versiones de modelos en producción con usuarios reales para determinar cuál funciona mejor.",
+        de: "A/B-Tests in ML vergleichen verschiedene Modellversionen in der Produktion mit echten Benutzern, um zu bestimmen, welche besser funktioniert.",
+        nl: "A/B testing in ML vergelijkt verschillende modelversies in productie met echte gebruikers om te bepalen welke beter presteert."
+      }
+    },
+    {
+      question: {
+        en: "What is MLOps?",
+        es: "¿Qué es MLOps?",
+        de: "Was ist MLOps?",
+        nl: "Wat is MLOps?"
+      },
+      options: [
+        {
+          en: "Machine Learning Operations practices",
+          es: "Prácticas de Operaciones de Aprendizaje Automático",
+          de: "Machine Learning Operations Praktiken",
+          nl: "Machine Learning Operations praktijken"
+        },
+        {
+          en: "ML optimization techniques",
+          es: "Técnicas de optimización de AA",
+          de: "ML-Optimierungstechniken",
+          nl: "ML optimalisatietechnieken"
+        },
+        {
+          en: "ML programming language",
+          es: "Lenguaje de programación de AA",
+          de: "ML-Programmiersprache",
+          nl: "ML programmeertaal"
+        },
+        {
+          en: "ML testing framework",
+          es: "Marco de pruebas de AA",
+          de: "ML-Testframework",
+          nl: "ML testframework"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "MLOps combines ML, DevOps, and data engineering practices to deploy and maintain ML models in production reliably and efficiently.",
+        es: "MLOps combina prácticas de AA, DevOps e ingeniería de datos para desplegar y mantener modelos de AA en producción de manera confiable.",
+        de: "MLOps kombiniert ML-, DevOps- und Data-Engineering-Praktiken, um ML-Modelle zuverlässig in der Produktion einzusetzen.",
+        nl: "MLOps combineert ML, DevOps en data engineering praktijken om ML-modellen betrouwbaar in productie te deployen."
+      }
+    },
+    {
+      question: {
+        en: "What is fine-tuning in ML?",
+        es: "¿Qué es el ajuste fino en AA?",
+        de: "Was ist Feinabstimmung in ML?",
+        nl: "Wat is fine-tuning in ML?"
+      },
+      options: [
+        {
+          en: "Adapting pre-trained models to specific tasks",
+          es: "Adaptar modelos preentrenados a tareas específicas",
+          de: "Vortrainierte Modelle an spezifische Aufgaben anpassen",
+          nl: "Voorgetrainde modellen aanpassen aan specifieke taken"
+        },
+        {
+          en: "Adjusting hyperparameters",
+          es: "Ajustar hiperparámetros",
+          de: "Hyperparameter anpassen",
+          nl: "Hyperparameters aanpassen"
+        },
+        {
+          en: "Reducing model size",
+          es: "Reducir tamaño del modelo",
+          de: "Modellgröße reduzieren",
+          nl: "Modelgrootte verkleinen"
+        },
+        {
+          en: "Improving model speed",
+          es: "Mejorar velocidad del modelo",
+          de: "Modellgeschwindigkeit verbessern",
+          nl: "Modelsnelheid verbeteren"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Fine-tuning takes a pre-trained model and continues training it on a smaller, task-specific dataset to adapt it for a particular use case.",
+        es: "El ajuste fino toma un modelo preentrenado y continúa entrenándolo en un conjunto de datos específico para adaptarlo a un caso de uso particular.",
+        de: "Feinabstimmung nimmt ein vortrainiertes Modell und trainiert es auf einem kleineren, aufgabenspezifischen Datensatz weiter.",
+        nl: "Fine-tuning neemt een voorgetraind model en traint het verder op een kleinere, taakspecifieke dataset."
+      }
+    },
+    {
+      question: {
+        en: "What is model drift?",
+        es: "¿Qué es la deriva del modelo?",
+        de: "Was ist Modelldrift?",
+        nl: "Wat is model drift?"
+      },
+      options: [
+        {
+          en: "Model performance degrading over time",
+          es: "Rendimiento del modelo degradándose con el tiempo",
+          de: "Modellleistung verschlechtert sich über Zeit",
+          nl: "Modelprestaties verslechteren over tijd"
+        },
+        {
+          en: "Model moving to different servers",
+          es: "Modelo moviéndose a diferentes servidores",
+          de: "Modell zu verschiedenen Servern verschieben",
+          nl: "Model verplaatsen naar andere servers"
+        },
+        {
+          en: "Model size increasing",
+          es: "Tamaño del modelo aumentando",
+          de: "Modellgröße nimmt zu",
+          nl: "Modelgrootte neemt toe"
+        },
+        {
+          en: "Model training speed changing",
+          es: "Velocidad de entrenamiento del modelo cambiando",
+          de: "Modelltrainingsgeschwindigkeit ändert sich",
+          nl: "Model trainingssnelheid verandert"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Model drift occurs when a model's performance degrades over time due to changes in the underlying data distribution or relationships it was trained on.",
+        es: "La deriva del modelo ocurre cuando el rendimiento de un modelo se degrada con el tiempo debido a cambios en la distribución de datos.",
+        de: "Modelldrift tritt auf, wenn die Leistung eines Modells im Laufe der Zeit aufgrund von Änderungen in der Datenverteilung abnimmt.",
+        nl: "Model drift treedt op wanneer modelprestaties verslechteren door veranderingen in de onderliggende datadistributie."
+      }
+    },
+    {
+      question: {
+        en: "What is edge AI?",
+        es: "¿Qué es IA de borde?",
+        de: "Was ist Edge-KI?",
+        nl: "Wat is edge AI?"
+      },
+      options: [
+        {
+          en: "AI running on local devices",
+          es: "IA ejecutándose en dispositivos locales",
+          de: "KI auf lokalen Geräten",
+          nl: "AI draaiend op lokale apparaten"
+        },
+        {
+          en: "AI at the cutting edge",
+          es: "IA en la vanguardia",
+          de: "KI an der Spitze",
+          nl: "AI aan de voorhoede"
+        },
+        {
+          en: "AI in cloud servers",
+          es: "IA en servidores en la nube",
+          de: "KI in Cloud-Servern",
+          nl: "AI in cloud servers"
+        },
+        {
+          en: "AI for edge detection",
+          es: "IA para detección de bordes",
+          de: "KI für Kantenerkennung",
+          nl: "AI voor randdetectie"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Edge AI refers to artificial intelligence algorithms processed locally on hardware devices, rather than in the cloud, enabling real-time processing with lower latency.",
+        es: "IA de borde se refiere a algoritmos de IA procesados localmente en dispositivos, en lugar de la nube, permitiendo procesamiento en tiempo real.",
+        de: "Edge-KI bezieht sich auf KI-Algorithmen, die lokal auf Geräten verarbeitet werden, anstatt in der Cloud.",
+        nl: "Edge AI verwijst naar AI-algoritmen verwerkt op lokale apparaten, in plaats van in de cloud, voor real-time verwerking."
+      }
+    },
+    {
+      question: {
+        en: "What is XGBoost?",
+        es: "¿Qué es XGBoost?",
+        de: "Was ist XGBoost?",
+        nl: "Wat is XGBoost?"
+      },
+      options: [
+        {
+          en: "Extreme Gradient Boosting algorithm",
+          es: "Algoritmo de Gradient Boosting Extremo",
+          de: "Extreme Gradient Boosting Algorithmus",
+          nl: "Extreme Gradient Boosting algoritme"
+        },
+        {
+          en: "Extra GPU Boost technology",
+          es: "Tecnología Extra GPU Boost",
+          de: "Extra GPU Boost Technologie",
+          nl: "Extra GPU Boost technologie"
+        },
+        {
+          en: "Extended Graph Building tool",
+          es: "Herramienta de Construcción de Grafos Extendida",
+          de: "Erweitertes Graph-Erstellungstool",
+          nl: "Uitgebreide Grafiek Bouw tool"
+        },
+        {
+          en: "Cross-platform Gaming Boost",
+          es: "Impulso de Juegos Multiplataforma",
+          de: "Plattformübergreifender Gaming-Boost",
+          nl: "Cross-platform Gaming Boost"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "XGBoost is an optimized gradient boosting library designed for speed and performance, widely used in machine learning competitions and production systems.",
+        es: "XGBoost es una biblioteca de gradient boosting optimizada diseñada para velocidad y rendimiento, ampliamente usada en competencias de AA.",
+        de: "XGBoost ist eine optimierte Gradient-Boosting-Bibliothek für Geschwindigkeit und Leistung, weit verbreitet in ML-Wettbewerben.",
+        nl: "XGBoost is een geoptimaliseerde gradient boosting bibliotheek ontworpen voor snelheid en prestaties, veel gebruikt in ML-competities."
+      }
+    },
+    {
+      question: {
+        en: "What is active learning in ML?",
+        es: "¿Qué es el aprendizaje activo en AA?",
+        de: "Was ist aktives Lernen in ML?",
+        nl: "Wat is active learning in ML?"
+      },
+      options: [
+        {
+          en: "Selecting most informative samples for labeling",
+          es: "Seleccionar muestras más informativas para etiquetar",
+          de: "Informativste Proben zur Beschriftung auswählen",
+          nl: "Meest informatieve samples selecteren voor labeling"
+        },
+        {
+          en: "Training models continuously",
+          es: "Entrenar modelos continuamente",
+          de: "Modelle kontinuierlich trainieren",
+          nl: "Modellen continu trainen"
+        },
+        {
+          en: "Using active GPUs",
+          es: "Usar GPUs activas",
+          de: "Aktive GPUs verwenden",
+          nl: "Actieve GPU's gebruiken"
+        },
+        {
+          en: "Interactive model training",
+          es: "Entrenamiento interactivo del modelo",
+          de: "Interaktives Modelltraining",
+          nl: "Interactieve modeltraining"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Active learning is a technique where the model identifies which unlabeled data points would be most valuable to label next, reducing labeling costs.",
+        es: "El aprendizaje activo es una técnica donde el modelo identifica qué puntos de datos no etiquetados serían más valiosos para etiquetar.",
+        de: "Aktives Lernen ist eine Technik, bei der das Modell identifiziert, welche unbeschrifteten Datenpunkte am wertvollsten zu beschriften wären.",
+        nl: "Active learning is een techniek waarbij het model identificeert welke ongelabelde datapunten het meest waardevol zijn om te labelen."
+      }
+    },
+    {
+      question: {
+        en: "What is multi-task learning?",
+        es: "¿Qué es el aprendizaje multitarea?",
+        de: "Was ist Multi-Task-Lernen?",
+        nl: "Wat is multi-task learning?"
+      },
+      options: [
+        {
+          en: "Training one model for multiple related tasks",
+          es: "Entrenar un modelo para múltiples tareas relacionadas",
+          de: "Ein Modell für mehrere verwandte Aufgaben trainieren",
+          nl: "Één model trainen voor meerdere gerelateerde taken"
+        },
+        {
+          en: "Training multiple separate models",
+          es: "Entrenar múltiples modelos separados",
+          de: "Mehrere separate Modelle trainieren",
+          nl: "Meerdere aparte modellen trainen"
+        },
+        {
+          en: "Running tasks in parallel",
+          es: "Ejecutar tareas en paralelo",
+          de: "Aufgaben parallel ausführen",
+          nl: "Taken parallel uitvoeren"
+        },
+        {
+          en: "Switching between tasks",
+          es: "Cambiar entre tareas",
+          de: "Zwischen Aufgaben wechseln",
+          nl: "Wisselen tussen taken"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Multi-task learning trains a single model to perform multiple related tasks simultaneously, sharing representations to improve performance on all tasks.",
+        es: "El aprendizaje multitarea entrena un modelo único para realizar múltiples tareas relacionadas simultáneamente, compartiendo representaciones.",
+        de: "Multi-Task-Lernen trainiert ein einzelnes Modell für mehrere verwandte Aufgaben gleichzeitig und teilt Repräsentationen.",
+        nl: "Multi-task learning traint één model om meerdere gerelateerde taken tegelijk uit te voeren, deelt representaties."
+      }
+    },
+    {
+      question: {
+        en: "What is knowledge distillation?",
+        es: "¿Qué es la destilación de conocimiento?",
+        de: "Was ist Wissensdestillation?",
+        nl: "Wat is knowledge distillation?"
+      },
+      options: [
+        {
+          en: "Transferring knowledge from large to small models",
+          es: "Transferir conocimiento de modelos grandes a pequeños",
+          de: "Wissen von großen auf kleine Modelle übertragen",
+          nl: "Kennis overdragen van grote naar kleine modellen"
+        },
+        {
+          en: "Extracting features from data",
+          es: "Extraer características de datos",
+          de: "Merkmale aus Daten extrahieren",
+          nl: "Kenmerken uit data extraheren"
+        },
+        {
+          en: "Compressing datasets",
+          es: "Comprimir conjuntos de datos",
+          de: "Datensätze komprimieren",
+          nl: "Datasets comprimeren"
+        },
+        {
+          en: "Filtering training data",
+          es: "Filtrar datos de entrenamiento",
+          de: "Trainingsdaten filtern",
+          nl: "Trainingsdata filteren"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Knowledge distillation trains a smaller 'student' model to mimic a larger 'teacher' model, creating efficient models that retain much of the teacher's performance.",
+        es: "La destilación de conocimiento entrena un modelo 'estudiante' más pequeño para imitar un modelo 'maestro' más grande.",
+        de: "Wissensdestillation trainiert ein kleineres 'Schüler'-Modell, um ein größeres 'Lehrer'-Modell nachzuahmen.",
+        nl: "Knowledge distillation traint een kleiner 'student' model om een groter 'teacher' model na te bootsen."
+      }
+    }
+  ]
+};

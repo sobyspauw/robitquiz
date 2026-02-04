@@ -1,1657 +1,4104 @@
-// Juices Quiz - Level 7
-(function() {
-  const level7 = {
-    name: {
-          "en": "Juice Processing Technology",
-          "es": "Tecnología de Procesamiento de Jugos",
-          "de": "Saftverarbeitungstechnologie",
-          "nl": "Sapverwerkingstechnologie"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Juices",
+      "es": "Pregunta 1 sobre Juices",
+      "de": "Frage 1 über Juices",
+      "nl": "Vraag 1 over Juices"
     },
-    questions: [
+    "options": [
       {
-        question: {
-                  "en": "What is the optimal pressure and temperature combination for high-pressure processing (HPP) of fruit juices to achieve 5-log reduction of pathogens?",
-                  "es": "¿Cuál es la combinación óptima de presión y temperatura para procesamiento de alta presión (HPP) de jugos de frutas para lograr reducción 5-log de patógenos?",
-                  "de": "Was ist die optimale Druck- und Temperaturkombination für Hochdruckverarbeitung (HPP) von Fruchtsäften zur Erreichung einer 5-log-Reduktion von Pathogenen?",
-                  "nl": "Wat is de optimale druk en temperatuur combinatie voor hoge-druk verwerking (HPP) van vruchtensappen om 5-log reductie van pathogenen te bereiken?"
-        },
-        options: [
-        {
-                  "en": "200 MPa at 80°C for 5 minutes",
-                  "es": "200 MPa a 80°C por 5 minutos",
-                  "de": "200 MPa bei 80°C für 5 Minuten",
-                  "nl": "200 MPa bij 80°C voor 5 minuten"
-        },
-        {
-                  "en": "100 MPa at 90°C for 1 minute",
-                  "es": "100 MPa a 90°C por 1 minuto",
-                  "de": "100 MPa bei 90°C für 1 Minute",
-                  "nl": "100 MPa bij 90°C voor 1 minuut"
-        },
-        {
-                  "en": "300 MPa at 60°C for 10 minutes",
-                  "es": "300 MPa a 60°C por 10 minutos",
-                  "de": "300 MPa bei 60°C für 10 Minuten",
-                  "nl": "300 MPa bij 60°C voor 10 minuten"
-        },
-        {
-                  "en": "600 MPa at 20°C for 3 minutes",
-                  "es": "600 MPa a 20°C por 3 minutos",
-                  "de": "600 MPa bei 20°C für 3 Minuten",
-                  "nl": "600 MPa bij 20°C voor 3 minuten"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "HPP at 600 MPa and 20°C for 3 minutes effectively achieves 5-log pathogen reduction while preserving heat-sensitive nutrients and maintaining fresh-like sensory characteristics. Lower pressures or higher temperatures compromise either safety or quality.",
-                  "es": "HPP a 600 MPa y 20°C por 3 minutos logra efectivamente reducción 5-log de patógenos mientras preserva nutrientes sensibles al calor y mantiene características sensoriales frescas. Presiones menores o temperaturas mayores comprometen seguridad o calidad.",
-                  "de": "HPP bei 600 MPa und 20°C für 3 Minuten erreicht effektiv 5-log-Pathogenreduktion bei gleichzeitiger Erhaltung hitzeempfindlicher Nährstoffe und frischartiger sensorischer Eigenschaften. Niedrigere Drücke oder höhere Temperaturen beeinträchtigen Sicherheit oder Qualität.",
-                  "nl": "HPP bij 600 MPa en 20°C voor 3 minuten bereikt effectief 5-log pathogeen reductie terwijl hittegevoelige voedingsstoffen behouden blijven en vers-achtige sensorische eigenschappen worden gehandhaafd. Lagere drukken of hogere temperaturen compromitteren veiligheid of kwaliteit."
-        }
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
       },
       {
-        question: {
-                  "en": "Which membrane technology configuration provides optimal separation efficiency for clarifying cloudy apple juice while retaining flavor compounds?",
-                  "es": "¿Qué configuración de tecnología de membrana proporciona eficiencia de separación óptima para clarificar jugo de manzana turbio mientras retiene compuestos de sabor?",
-                  "de": "Welche Membrantechnologie-Konfiguration bietet optimale Trennungseffizienz zur Klärung trüben Apfelsafts bei gleichzeitiger Retention von Geschmacksverbindungen?",
-                  "nl": "Welke membraantechnologie configuratie biedt optimale scheidingsefficiëntie voor het klaren van troebel appelsap terwijl smaakverbindingen behouden blijven?"
-        },
-        options: [
-        {
-                  "en": "Dead-end ultrafiltration with polymer membranes",
-                  "es": "Ultrafiltración de extremo cerrado con membranas poliméricas",
-                  "de": "Sackgassen-Ultrafiltration mit Polymermembranen",
-                  "nl": "Doodlopende ultrafiltratie met polymeer membranen"
-        },
-        {
-                  "en": "Forward osmosis with salt solutions",
-                  "es": "Ósmosis directa con soluciones salinas",
-                  "de": "Vorwärtsosmose mit Salzlösungen",
-                  "nl": "Voorwaartse osmose met zoutoplossingen"
-        },
-        {
-                  "en": "Reverse osmosis at high pressure",
-                  "es": "Ósmosis inversa a alta presión",
-                  "de": "Umkehrosmose bei hohem Druck",
-                  "nl": "Omgekeerde osmose bij hoge druk"
-        },
-        {
-                  "en": "Cross-flow microfiltration with 0.2 μm ceramic membranes at 2 bar transmembrane pressure",
-                  "es": "Microfiltración de flujo cruzado con membranas cerámicas de 0.2 μm a 2 bar de presión transmembrana",
-                  "de": "Querstrom-Mikrofiltration mit 0.2 μm Keramikmembranen bei 2 bar Transmembrandruck",
-                  "nl": "Dwarsstroming microfiltratie met 0.2 μm keramische membranen bij 2 bar transmembraan druk"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Cross-flow microfiltration with 0.2 μm ceramic membranes at low transmembrane pressure effectively removes suspended particles and microorganisms while allowing flavor compounds and soluble nutrients to pass through. Ceramic membranes offer superior chemical resistance and cleanability.",
-                  "es": "La microfiltración de flujo cruzado con membranas cerámicas de 0.2 μm a baja presión transmembrana remueve efectivamente partículas suspendidas y microorganismos mientras permite que compuestos de sabor y nutrientes solubles pasen. Las membranas cerámicas ofrecen resistencia química superior y limpieza.",
-                  "de": "Querstrom-Mikrofiltration mit 0.2 μm Keramikmembranen bei niedrigem Transmembrandruck entfernt effektiv suspendierte Partikel und Mikroorganismen, während Geschmacksverbindungen und lösliche Nährstoffe passieren können. Keramikmembranen bieten überlegene chemische Beständigkeit und Reinigbarkeit.",
-                  "nl": "Dwarsstroming microfiltratie met 0.2 μm keramische membranen bij lage transmembraan druk verwijdert effectief zwevende deeltjes en micro-organismen terwijl smaakverbindingen en oplosbare voedingsstoffen erdoor kunnen. Keramische membranen bieden superieure chemische weerstand en reinigbaarheid."
-        }
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
       },
       {
-        question: {
-                  "en": "What is the critical parameter for optimizing pulsed electric field (PEF) treatment to maximize polyphenol extraction from grape skins without causing cell wall damage?",
-                  "es": "¿Cuál es el parámetro crítico para optimizar el tratamiento de campo eléctrico pulsado (PEF) para maximizar la extracción de polifenoles de las pieles de uva sin causar daño a la pared celular?",
-                  "de": "Was ist der kritische Parameter zur Optimierung der gepulsten elektrischen Feld (PEF) Behandlung zur Maximierung der Polyphenol-Extraktion aus Traubenschalen ohne Zellwandschäden zu verursachen?",
-                  "nl": "Wat is de kritieke parameter voor het optimaliseren van gepulseerde elektrische veld (PEF) behandeling om polyfenol extractie uit druivenschillen te maximaliseren zonder celwandschade te veroorzaken?"
-        },
-        options: [
-        {
-                  "en": "Electric field strength of 1-3 kV/cm with pulse duration of 1-10 μs",
-                  "es": "Fuerza de campo eléctrico de 1-3 kV/cm con duración de pulso de 1-10 μs",
-                  "de": "Elektrische Feldstärke von 1-3 kV/cm mit Pulsdauer von 1-10 μs",
-                  "nl": "Elektrische veldsterkte van 1-3 kV/cm met pulsduur van 1-10 μs"
-        },
-        {
-                  "en": "High frequency continuous waves",
-                  "es": "Ondas continuas de alta frecuencia",
-                  "de": "Hochfrequenz-Dauerwellen",
-                  "nl": "Hoge frequentie continue golven"
-        },
-        {
-                  "en": "Low voltage long duration pulses",
-                  "es": "Pulsos de larga duración de bajo voltaje",
-                  "de": "Niederspannung-Langzeit-Impulse",
-                  "nl": "Lage spanning lange duur pulsen"
-        },
-        {
-                  "en": "DC current application",
-                  "es": "Aplicación de corriente DC",
-                  "de": "Gleichstrom-Anwendung",
-                  "nl": "DC stroom toepassing"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "PEF treatment with 1-3 kV/cm field strength and microsecond pulse duration creates reversible membrane permeabilization allowing selective extraction of intracellular polyphenols without permanent cell structure damage. This preserves cell integrity while enabling efficient compound release.",
-                  "es": "El tratamiento PEF con fuerza de campo de 1-3 kV/cm y duración de pulso de microsegundos crea permeabilización reversible de membrana permitiendo extracción selectiva de polifenoles intracelulares sin daño permanente de estructura celular. Esto preserva integridad celular mientras permite liberación eficiente de compuestos.",
-                  "de": "PEF-Behandlung mit 1-3 kV/cm Feldstärke und Mikrosekunden-Pulsdauer erzeugt reversible Membranpermeabilisierung, die selektive Extraktion intrazellulärer Polyphenole ohne permanente Zellstrukturschäden ermöglicht. Dies erhält Zellintegrität bei gleichzeitiger effizienter Verbindungsfreisetzung.",
-                  "nl": "PEF behandeling met 1-3 kV/cm veldsterkte en microseconde pulsduur creëert reversibele membraan permeabilisatie die selectieve extractie van intracellulaire polyfenolen mogelijk maakt zonder permanente celstructuurschade. Dit behoudt celintegriteit terwijl efficiënte verbindingsvrijmaking mogelijk wordt."
-        }
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
       },
       {
-        question: {
-                  "en": "Which ohmic heating configuration provides uniform temperature distribution for viscous fruit purees while maintaining nutritional quality?",
-                  "es": "¿Qué configuración de calentamiento óhmico proporciona distribución uniforme de temperatura para purés de frutas viscosos mientras mantiene calidad nutricional?",
-                  "de": "Welche ohm'sche Heizungskonfiguration bietet gleichmäßige Temperaturverteilung für viskose Fruchtpürees bei gleichzeitiger Erhaltung der Nährqualität?",
-                  "nl": "Welke ohmische verwarmingsconfiguratie biedt uniforme temperatuurverdeling voor viskeuze fruitpurees terwijl voedingskwaliteit behouden blijft?"
-        },
-        options: [
-        {
-                  "en": "Steam injection heating",
-                  "es": "Calentamiento por inyección de vapor",
-                  "de": "Dampfinjektionsheizung",
-                  "nl": "Stoom injectie verwarming"
-        },
-        {
-                  "en": "High frequency microwave heating",
-                  "es": "Calentamiento por microondas de alta frecuencia",
-                  "de": "Hochfrequenz-Mikrowellenheizung",
-                  "nl": "Hoge frequentie magnetron verwarming"
-        },
-        {
-                  "en": "Single electrode pair with DC current",
-                  "es": "Par de electrodos único con corriente DC",
-                  "de": "Einzelnes Elektrodenpaar mit Gleichstrom",
-                  "nl": "Enkel elektrode paar met DC stroom"
-        },
-        {
-                  "en": "Multi-electrode system with 60 Hz AC current and temperature feedback control",
-                  "es": "Sistema multi-electrodo con corriente AC de 60 Hz y control de retroalimentación de temperatura",
-                  "de": "Multi-Elektroden-System mit 60 Hz AC-Strom und Temperatur-Feedback-Kontrolle",
-                  "nl": "Multi-elektrode systeem met 60 Hz AC stroom en temperatuur feedback controle"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Multi-electrode ohmic heating with 60 Hz AC current provides rapid, uniform volumetric heating by converting electrical energy directly to thermal energy within the product. Temperature feedback control prevents overheating and maintains optimal processing conditions for heat-sensitive nutrients.",
-                  "es": "El calentamiento óhmico multi-electrodo con corriente AC de 60 Hz proporciona calentamiento volumétrico rápido y uniforme convirtiendo energía eléctrica directamente a energía térmica dentro del producto. El control de retroalimentación de temperatura previene sobrecalentamiento y mantiene condiciones óptimas de procesamiento para nutrientes sensibles al calor.",
-                  "de": "Multi-Elektroden ohm'sche Heizung mit 60 Hz AC-Strom bietet schnelle, gleichmäßige volumetrische Heizung durch direkte Umwandlung elektrischer Energie in thermische Energie im Produkt. Temperatur-Feedback-Kontrolle verhindert Überhitzung und erhält optimale Verarbeitungsbedingungen für hitzeempfindliche Nährstoffe.",
-                  "nl": "Multi-elektrode ohmische verwarming met 60 Hz AC stroom biedt snelle, uniforme volumetrische verwarming door elektrische energie direct om te zetten in thermische energie binnen het product. Temperatuur feedback controle voorkomt oververhitting en handhaaft optimale verwerkingscondities voor hittegevoelige voedingsstoffen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the optimal enzyme inactivation strategy for preserving natural flavor compounds while ensuring microbial safety in cold-pressed citrus juices?",
-                  "es": "¿Cuál es la estrategia óptima de inactivación enzimática para preservar compuestos de sabor naturales mientras se asegura seguridad microbiana en jugos cítricos prensados en frío?",
-                  "de": "Was ist die optimale Enzym-Inaktivierungsstrategie zur Erhaltung natürlicher Geschmacksverbindungen bei gleichzeitiger Gewährleistung mikrobieller Sicherheit in kaltgepressten Zitrusäften?",
-                  "nl": "Wat is de optimale enzym inactivatie strategie voor het behouden van natuurlijke smaakverbindingen terwijl microbiële veiligheid wordt gewaarborgd in koudgeperste citrussappen?"
-        },
-        options: [
-        {
-                  "en": "UV-C treatment at 254 nm with 40 mJ/cm² dose followed by mild heat treatment at 60°C for 30 seconds",
-                  "es": "Tratamiento UV-C a 254 nm con dosis de 40 mJ/cm² seguido de tratamiento térmico suave a 60°C por 30 segundos",
-                  "de": "UV-C-Behandlung bei 254 nm mit 40 mJ/cm² Dosis gefolgt von milder Wärmebehandlung bei 60°C für 30 Sekunden",
-                  "nl": "UV-C behandeling bij 254 nm met 40 mJ/cm² dosis gevolgd door milde warmtebehandeling bij 60°C voor 30 seconden"
-        },
-        {
-                  "en": "Chemical preservatives addition",
-                  "es": "Adición de conservantes químicos",
-                  "de": "Chemische Konservierungsmittel Zugabe",
-                  "nl": "Chemische conserveermiddelen toevoeging"
-        },
-        {
-                  "en": "Freezing at -20°C for enzyme inactivation",
-                  "es": "Congelación a -20°C para inactivación enzimática",
-                  "de": "Einfrieren bei -20°C zur Enzym-Inaktivierung",
-                  "nl": "Bevriezen bij -20°C voor enzym inactivatie"
-        },
-        {
-                  "en": "Pasteurization at 95°C for 15 seconds only",
-                  "es": "Solo pasteurización a 95°C por 15 segundos",
-                  "de": "Nur Pasteurisierung bei 95°C für 15 Sekunden",
-                  "nl": "Alleen pasteurisatie bij 95°C voor 15 seconden"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "UV-C treatment inactivates vegetative pathogens and some enzymes without heat damage, while the subsequent mild heat treatment completes enzyme inactivation (particularly pectin methylesterase) that affects cloud stability. This combination preserves volatile flavor compounds better than high-temperature pasteurization alone.",
-                  "es": "El tratamiento UV-C inactiva patógenos vegetativos y algunas enzimas sin daño térmico, mientras que el tratamiento térmico suave subsecuente completa la inactivación enzimática (particularmente pectina metilesterasa) que afecta estabilidad de nube. Esta combinación preserva compuestos de sabor volátiles mejor que pasteurización de alta temperatura sola.",
-                  "de": "UV-C-Behandlung inaktiviert vegetative Pathogene und einige Enzyme ohne Hitzeschäden, während die nachfolgende milde Wärmebehandlung die Enzym-Inaktivierung (besonders Pektinmethylesterase) vervollständigt, die die Trübungsstabilität beeinflusst. Diese Kombination erhält flüchtige Geschmacksverbindungen besser als Hochtemperatur-Pasteurisierung allein.",
-                  "nl": "UV-C behandeling inactiveert vegetatieve pathogenen en sommige enzymen zonder hitteschade, terwijl de daaropvolgende milde warmtebehandeling enzym inactivatie voltooit (vooral pectine methylesterase) die wolkstabiliteit beïnvloedt. Deze combinatie behoudt vluchtige smaakverbindingen beter dan alleen hoge-temperatuur pasteurisatie."
-        }
-      },
-      {
-        question: {
-                  "en": "Which concentration technology provides the best energy efficiency and flavor retention for producing orange juice concentrate?",
-                  "es": "¿Qué tecnología de concentración proporciona la mejor eficiencia energética y retención de sabor para producir concentrado de jugo de naranja?",
-                  "de": "Welche Konzentrationstechnologie bietet die beste Energieeffizienz und Geschmackserhaltung für die Produktion von Orangensaftkonzentrat?",
-                  "nl": "Welke concentratie technologie biedt de beste energie-efficiëntie en smaakbehoud voor het produceren van sinaasappelsap concentraat?"
-        },
-        options: [
-        {
-                  "en": "Multi-effect falling film evaporator with aroma recovery system operating at 40-60°C",
-                  "es": "Evaporador de película descendente de múltiple efecto con sistema de recuperación de aroma operando a 40-60°C",
-                  "de": "Mehrstufiger Fallfilm-Verdampfer mit Aroma-Rückgewinnungssystem bei 40-60°C",
-                  "nl": "Multi-effect vallende film verdamper met aroma herstel systeem werkend bij 40-60°C"
-        },
-        {
-                  "en": "Single-effect evaporator at atmospheric pressure",
-                  "es": "Evaporador de efecto único a presión atmosférica",
-                  "de": "Einstufiger Verdampfer bei Atmosphärendruck",
-                  "nl": "Enkel-effect verdamper bij atmosferische druk"
-        },
-        {
-                  "en": "Reverse osmosis to 65° Brix",
-                  "es": "Ósmosis inversa a 65° Brix",
-                  "de": "Umkehrosmose auf 65° Brix",
-                  "nl": "Omgekeerde osmose tot 65° Brix"
-        },
-        {
-                  "en": "Freeze concentration only",
-                  "es": "Solo concentración por congelación",
-                  "de": "Nur Gefrierkonzentrierung",
-                  "nl": "Alleen vries concentratie"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Multi-effect falling film evaporators with aroma recovery maximize energy efficiency through steam reuse while operating at low temperatures to preserve heat-sensitive compounds. The aroma recovery system captures and reintroduces volatile compounds lost during evaporation, maintaining fresh juice flavor profile.",
-                  "es": "Los evaporadores de película descendente de múltiple efecto con recuperación de aroma maximizan eficiencia energética a través de reutilización de vapor mientras operan a bajas temperaturas para preservar compuestos sensibles al calor. El sistema de recuperación de aroma captura y reintroduce compuestos volátiles perdidos durante evaporación, manteniendo perfil de sabor de jugo fresco.",
-                  "de": "Mehrstufige Fallfilm-Verdampfer mit Aroma-Rückgewinnung maximieren Energieeffizienz durch Dampfwiederverwendung bei niedrigen Temperaturen zur Erhaltung hitzeempfindlicher Verbindungen. Das Aroma-Rückgewinnungssystem erfasst und führt flüchtige Verbindungen wieder ein, die während der Verdampfung verloren gehen, und erhält das frische Saftgeschmacksprofil.",
-                  "nl": "Multi-effect vallende film verdampers met aroma herstel maximaliseren energie-efficiëntie door stoom hergebruik terwijl ze werken bij lage temperaturen om hittegevoelige verbindingen te behouden. Het aroma herstel systeem vangt vluchtige verbindingen op en voert ze weer toe die verloren gaan tijdens verdamping, waardoor het verse sap smaakprofiel behouden blijft."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the optimal ultrasonic frequency and power combination for enhancing extraction yield from fibrous fruit materials without damaging beneficial compounds?",
-                  "es": "¿Cuál es la combinación óptima de frecuencia ultrasónica y potencia para mejorar el rendimiento de extracción de materiales de frutas fibrosas sin dañar compuestos beneficiosos?",
-                  "de": "Was ist die optimale Ultraschallfrequenz- und Leistungskombination zur Verbesserung der Extraktionsausbeute aus faserigen Fruchtmaterialien ohne Schädigung nützlicher Verbindungen?",
-                  "nl": "Wat is de optimale ultrasone frequentie en vermogen combinatie voor het verbeteren van extractie opbrengst uit vezelachtige fruitmateriaal zonder schadelijke verbindingen te beschadigen?"
-        },
-        options: [
-        {
-                  "en": "Low frequency 5 kHz with extended treatment time",
-                  "es": "Baja frecuencia 5 kHz con tiempo de tratamiento extendido",
-                  "de": "Niedrige Frequenz 5 kHz mit verlängerter Behandlungszeit",
-                  "nl": "Lage frequentie 5 kHz met verlengde behandelingstijd"
-        },
-        {
-                  "en": "Variable frequency sweeping at high power",
-                  "es": "Barrido de frecuencia variable a alta potencia",
-                  "de": "Variable Frequenzdurchlauf bei hoher Leistung",
-                  "nl": "Variabele frequentie doorlopen bij hoog vermogen"
-        },
-        {
-                  "en": "20-40 kHz frequency with 200-400 W/L power density for 10-20 minutes",
-                  "es": "Frecuencia de 20-40 kHz con densidad de potencia de 200-400 W/L por 10-20 minutos",
-                  "de": "20-40 kHz Frequenz mit 200-400 W/L Leistungsdichte für 10-20 Minuten",
-                  "nl": "20-40 kHz frequentie met 200-400 W/L vermogensdichtheid voor 10-20 minuten"
-        },
-        {
-                  "en": "High frequency 100 kHz with maximum power",
-                  "es": "Alta frecuencia 100 kHz con máxima potencia",
-                  "de": "Hochfrequenz 100 kHz mit maximaler Leistung",
-                  "nl": "Hoge frequentie 100 kHz met maximum vermogen"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Ultrasonic treatment at 20-40 kHz with moderate power density creates optimal cavitation effects for cell wall disruption and mass transfer enhancement without excessive heat generation or molecular degradation. This frequency range provides efficient extraction while preserving bioactive compounds.",
-                  "es": "El tratamiento ultrasónico a 20-40 kHz con densidad de potencia moderada crea efectos de cavitación óptimos para disrupción de pared celular y mejora de transferencia de masa sin generación excesiva de calor o degradación molecular. Este rango de frecuencia proporciona extracción eficiente mientras preserva compuestos bioactivos.",
-                  "de": "Ultraschallbehandlung bei 20-40 kHz mit moderater Leistungsdichte erzeugt optimale Kavitationseffekte für Zellwandstörung und Massentransfer-Verbesserung ohne übermäßige Wärmeerzeugung oder molekulare Degradation. Dieser Frequenzbereich bietet effiziente Extraktion bei gleichzeitiger Erhaltung bioaktiver Verbindungen.",
-                  "nl": "Ultrasone behandeling bij 20-40 kHz met gematigde vermogensdichtheid creëert optimale cavitatie effecten voor celwandverstoring en massaoverdracht verbetering zonder overmatige warmtegeneratie of moleculaire degradatie. Dit frequentiebereik biedt efficiënte extractie terwijl bioactieve verbindingen behouden blijven."
-        }
-      },
-      {
-        question: {
-                  "en": "Which membrane distillation configuration is most suitable for concentrating heat-sensitive fruit juice extracts while maintaining low operating temperatures?",
-                  "es": "¿Qué configuración de destilación por membrana es más adecuada para concentrar extractos de jugo de frutas sensibles al calor mientras mantiene bajas temperaturas operativas?",
-                  "de": "Welche Membrandestillationskonfiguration ist am besten geeignet zur Konzentration hitzeempfindlicher Fruchtsaftextrakte bei gleichzeitiger Beibehaltung niedriger Betriebstemperaturen?",
-                  "nl": "Welke membraan distillatie configuratie is het meest geschikt voor het concentreren van hittegevoelige vruchtensap extracten terwijl lage operationele temperaturen worden gehandhaafd?"
-        },
-        options: [
-        {
-                  "en": "Air gap membrane distillation at high temperature",
-                  "es": "Destilación de membrana con brecha de aire a alta temperatura",
-                  "de": "Luftspalt-Membrandestillation bei hoher Temperatur",
-                  "nl": "Luchtgap membraan distillatie bij hoge temperatuur"
-        },
-        {
-                  "en": "Direct contact membrane distillation at 80°C",
-                  "es": "Destilación de membrana de contacto directo a 80°C",
-                  "de": "Direktkontakt-Membrandestillation bei 80°C",
-                  "nl": "Direct contact membraan distillatie bij 80°C"
-        },
-        {
-                  "en": "Pervaporation with dense membranes",
-                  "es": "Pervaporación con membranas densas",
-                  "de": "Pervaporation mit dichten Membranen",
-                  "nl": "Pervaporatie met dichte membranen"
-        },
-        {
-                  "en": "Vacuum membrane distillation (VMD) with PTFE hydrophobic membranes at 50-60°C",
-                  "es": "Destilación de membrana al vacío (VMD) con membranas hidrofóbicas de PTFE a 50-60°C",
-                  "de": "Vakuum-Membrandestillation (VMD) mit PTFE hydrophoben Membranen bei 50-60°C",
-                  "nl": "Vacuüm membraan distillatie (VMD) met PTFE hydrofobe membranen bij 50-60°C"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "VMD with PTFE hydrophobic membranes operates effectively at 50-60°C under vacuum conditions, enabling gentle concentration of heat-sensitive compounds. The vacuum reduces vapor pressure requirements, allowing lower operating temperatures while maintaining high mass transfer rates through the membrane.",
-                  "es": "VMD con membranas hidrofóbicas de PTFE opera efectivamente a 50-60°C bajo condiciones de vacío, permitiendo concentración suave de compuestos sensibles al calor. El vacío reduce requisitos de presión de vapor, permitiendo temperaturas operativas menores mientras mantiene altas tasas de transferencia de masa a través de la membrana.",
-                  "de": "VMD mit PTFE hydrophoben Membranen arbeitet effektiv bei 50-60°C unter Vakuumbedingungen und ermöglicht schonende Konzentration hitzeempfindlicher Verbindungen. Das Vakuum reduziert Dampfdruckanforderungen und ermöglicht niedrigere Betriebstemperaturen bei gleichzeitiger Aufrechterhaltung hoher Massentransferraten durch die Membran.",
-                  "nl": "VMD met PTFE hydrofobe membranen werkt effectief bij 50-60°C onder vacuümcondities, waardoor zachte concentratie van hittegevoelige verbindingen mogelijk is. Het vacuüm vermindert dampspanningsvereisten, waardoor lagere operationele temperaturen mogelijk zijn terwijl hoge massaoverdracht snelheden door het membraan behouden blijven."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the critical factor for optimizing supercritical CO2 extraction of essential oils from citrus peels in juice processing?",
-                  "es": "¿Cuál es el factor crítico para optimizar la extracción supercrítica de CO2 de aceites esenciales de cáscaras cítricas en procesamiento de jugos?",
-                  "de": "Was ist der kritische Faktor zur Optimierung der superkritischen CO2-Extraktion ätherischer Öle aus Zitrusschalen in der Saftverarbeitung?",
-                  "nl": "Wat is de kritieke factor voor het optimaliseren van superkritische CO2 extractie van essentiële oliën uit citrusschillen in sapverwerking?"
-        },
-        options: [
-        {
-                  "en": "Maximum pressure and temperature conditions",
-                  "es": "Condiciones máximas de presión y temperatura",
-                  "de": "Maximale Druck- und Temperaturbedingungen",
-                  "nl": "Maximum druk en temperatuur condities"
-        },
-        {
-                  "en": "Atmospheric pressure extraction",
-                  "es": "Extracción a presión atmosférica",
-                  "de": "Atmosphärendruck-Extraktion",
-                  "nl": "Atmosferische druk extractie"
-        },
-        {
-                  "en": "High temperature steam distillation",
-                  "es": "Destilación por vapor a alta temperatura",
-                  "de": "Hochtemperatur-Wasserdampfdestillation",
-                  "nl": "Hoge temperatuur stoomdistillatie"
-        },
-        {
-                  "en": "Pressure 80-100 bar, temperature 40-50°C, and CO2 flow rate optimization",
-                  "es": "Presión 80-100 bar, temperatura 40-50°C, y optimización de tasa de flujo de CO2",
-                  "de": "Druck 80-100 bar, Temperatur 40-50°C und CO2-Durchflussraten-Optimierung",
-                  "nl": "Druk 80-100 bar, temperatuur 40-50°C, en CO2 stroomsnelheid optimalisatie"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Supercritical CO2 extraction at 80-100 bar and 40-50°C provides optimal solvent power for essential oil extraction while maintaining low temperatures that preserve volatile compounds. CO2 flow rate optimization ensures efficient mass transfer and complete extraction without co-extracting unwanted compounds.",
-                  "es": "La extracción supercrítica de CO2 a 80-100 bar y 40-50°C proporciona poder de solvente óptimo para extracción de aceites esenciales mientras mantiene bajas temperaturas que preservan compuestos volátiles. La optimización de tasa de flujo de CO2 asegura transferencia de masa eficiente y extracción completa sin co-extraer compuestos no deseados.",
-                  "de": "Superkritische CO2-Extraktion bei 80-100 bar und 40-50°C bietet optimale Lösungsmittelkraft für ätherische Ölextraktion bei gleichzeitiger Beibehaltung niedriger Temperaturen, die flüchtige Verbindungen erhalten. CO2-Durchflussraten-Optimierung gewährleistet effiziente Massentransfer und vollständige Extraktion ohne Mitextraktion unerwünschter Verbindungen.",
-                  "nl": "Superkritische CO2 extractie bij 80-100 bar en 40-50°C biedt optimale oplosmiddelkracht voor essentiële olie extractie terwijl lage temperaturen worden gehandhaafd die vluchtige verbindingen behouden. CO2 stroomsnelheid optimalisatie zorgt voor efficiënte massaoverdracht en volledige extractie zonder mee-extractie van ongewenste verbindingen."
-        }
-      },
-      {
-        question: {
-                  "en": "Which non-thermal plasma treatment parameters are optimal for surface decontamination of fresh produce before juice processing?",
-                  "es": "¿Qué parámetros de tratamiento de plasma no térmico son óptimos para descontaminación superficial de productos frescos antes del procesamiento de jugos?",
-                  "de": "Welche nicht-thermischen Plasmabehandlungsparameter sind optimal für Oberflächendekontamination frischer Produkte vor der Saftverarbeitung?",
-                  "nl": "Welke niet-thermische plasma behandelingsparameters zijn optimaal voor oppervlakte decontaminatie van verse producten voor sapverwerking?"
-        },
-        options: [
-        {
-                  "en": "Atmospheric pressure plasma with 10-20 kV voltage, 1-5 minutes treatment time",
-                  "es": "Plasma a presión atmosférica con voltaje de 10-20 kV, tiempo de tratamiento de 1-5 minutos",
-                  "de": "Atmosphärendruck-Plasma mit 10-20 kV Spannung, 1-5 Minuten Behandlungszeit",
-                  "nl": "Atmosferische druk plasma met 10-20 kV spanning, 1-5 minuten behandeltijd"
-        },
-        {
-                  "en": "Underwater plasma discharge",
-                  "es": "Descarga de plasma bajo agua",
-                  "de": "Unterwasser-Plasmaentladung",
-                  "nl": "Onderwater plasma ontlading"
-        },
-        {
-                  "en": "High temperature plasma treatment",
-                  "es": "Tratamiento de plasma de alta temperatura",
-                  "de": "Hochtemperatur-Plasmabehandlung",
-                  "nl": "Hoge temperatuur plasma behandeling"
-        },
-        {
-                  "en": "Low pressure plasma with extended treatment",
-                  "es": "Plasma de baja presión con tratamiento extendido",
-                  "de": "Niederdruck-Plasma mit verlängerter Behandlung",
-                  "nl": "Lage druk plasma met verlengde behandeling"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Atmospheric pressure plasma at 10-20 kV for 1-5 minutes generates reactive oxygen and nitrogen species that effectively inactivate surface microorganisms without heat damage to produce. The treatment is rapid, chemical-free, and maintains product quality while achieving significant microbial reduction.",
-                  "es": "El plasma a presión atmosférica a 10-20 kV por 1-5 minutos genera especies reactivas de oxígeno y nitrógeno que inactivan efectivamente microorganismos superficiales sin daño térmico a los productos. El tratamiento es rápido, libre de químicos, y mantiene calidad del producto mientras logra reducción microbiana significativa.",
-                  "de": "Atmosphärendruck-Plasma bei 10-20 kV für 1-5 Minuten erzeugt reaktive Sauerstoff- und Stickstoffspezies, die Oberflächenmikroorganismen effektiv inaktivieren ohne Hitzeschäden an Produkten. Die Behandlung ist schnell, chemiefrei und erhält Produktqualität bei gleichzeitiger signifikanter mikrobieller Reduktion.",
-                  "nl": "Atmosferische druk plasma bij 10-20 kV voor 1-5 minuten genereert reactieve zuurstof en stikstof species die oppervlakte micro-organismen effectief inactiveren zonder hitteschade aan producten. De behandeling is snel, chemievrij, en handhaaft productkwaliteit terwijl significante microbiële reductie wordt bereikt."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the Maillard reaction's role in thermally processed juice quality degradation?",
-                  "es": "¿Cuál es el papel de la reacción de Maillard en la degradación de calidad de jugos procesados térmicamente?",
-                  "de": "Welche Rolle spielt die Maillard-Reaktion bei der Qualitätsdegradation thermisch verarbeiteter Säfte?",
-                  "nl": "Wat is de rol van de Maillard-reactie in kwaliteitsdegradatie van thermisch verwerkt sap?"
-        },
-        options: [
-        {
-                  "en": "Enzymatic oxidation only",
-                  "es": "Solo oxidación enzimática",
-                  "de": "Nur enzymatische Oxidation",
-                  "nl": "Alleen enzymatische oxidatie"
-        },
-        {
-                  "en": "Microbial fermentation process",
-                  "es": "Proceso de fermentación microbiana",
-                  "de": "Mikrobielle Fermentationsprozess",
-                  "nl": "Microbieel fermentatieproces"
-        },
-        {
-                  "en": "Non-enzymatic browning from amino acids reacting with reducing sugars, causing color/flavor changes",
-                  "es": "Pardeamiento no enzimático de aminoácidos reaccionando con azúcares reductores, causando cambios de color/sabor",
-                  "de": "Nicht-enzymatische Bräunung durch Reaktion von Aminosäuren mit reduzierenden Zuckern, die Farb-/Geschmacksveränderungen verursacht",
-                  "nl": "Niet-enzymatische bruinering van aminozuren reagerend met reducerende suikers, veroorzakend kleur/smaak veranderingen"
-        },
-        {
-                  "en": "Vitamin fortification reaction",
-                  "es": "Reacción de fortificación con vitaminas",
-                  "de": "Vitamin-Anreicherungsreaktion",
-                  "nl": "Vitamine verrijkingsreactie"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The Maillard reaction is non-enzymatic browning between amino acids and reducing sugars during heat treatment. It produces melanoidins (brown pigments), off-flavors, and reduces nutritional value. Minimized by shorter heating times (HTST vs UHT) and lower storage temperatures.",
-                  "es": "La reacción de Maillard es pardeamiento no enzimático entre aminoácidos y azúcares reductores durante tratamiento térmico. Produce melanoidinas (pigmentos marrones), sabores indeseables, y reduce valor nutricional. Se minimiza con tiempos de calentamiento más cortos (HTST vs UHT) y temperaturas de almacenamiento más bajas.",
-                  "de": "Die Maillard-Reaktion ist nicht-enzymatische Bräunung zwischen Aminosäuren und reduzierenden Zuckern während Wärmebehandlung. Sie produziert Melanoidine (braune Pigmente), Fehlgeschmäcker und reduziert Nährwert. Minimiert durch kürzere Erhitzungszeiten (HTST vs UHT) und niedrigere Lagertemperaturen.",
-                  "nl": "De Maillard-reactie is niet-enzymatische bruinering tussen aminozuren en reducerende suikers tijdens warmtebehandeling. Het produceert melanoidines (bruine pigmenten), ongewenste smaken, en vermindert voedingswaarde. Geminimaliseerd door kortere verwarmingstijden (HTST vs UHT) en lagere opslagtemperaturen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the role of limonin and naringin in citrus juice bitterness and how are they managed?",
-                  "es": "¿Cuál es el papel de limonina y naringina en el amargor del jugo cítrico y cómo se gestionan?",
-                  "de": "Welche Rolle spielen Limonin und Naringin bei der Bitterkeit von Zitrusssaft und wie werden sie verwaltet?",
-                  "nl": "Wat is de rol van limonine en naringine in citrus sap bitterheid en hoe worden ze beheerd?"
-        },
-        options: [
-        {
-                  "en": "Dilution with water",
-                  "es": "Dilución con agua",
-                  "de": "Verdünnung mit Wasser",
-                  "nl": "Verdunning met water"
-        },
-        {
-                  "en": "Bitter compounds removed by enzymatic treatment (naringinase) or adsorbent resins",
-                  "es": "Compuestos amargos removidos por tratamiento enzimático (naringinasa) o resinas adsorbentes",
-                  "de": "Bittere Verbindungen entfernt durch enzymatische Behandlung (Naringinase) oder Adsorptionsharze",
-                  "nl": "Bittere verbindingen verwijderd door enzymatische behandeling (naringinase) of adsorbent harsen"
-        },
-        {
-                  "en": "Natural sweeteners added only",
-                  "es": "Solo se añaden edulcorantes naturales",
-                  "de": "Nur natürliche Süßstoffe hinzugefügt",
-                  "nl": "Alleen natuurlijke zoetstoffen toegevoegd"
-        },
-        {
-                  "en": "Cold storage removal",
-                  "es": "Remoción por almacenamiento en frío",
-                  "de": "Entfernung durch Kühllagerung",
-                  "nl": "Koude opslag verwijdering"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Limonin (limonoid aglycone) and naringin (flavonoid) cause delayed and immediate bitterness in citrus juice. Managed by enzymatic debittering using naringinase enzyme, adsorption on ion-exchange resins, or selecting low-bitter fruit varieties. Critical for grapefruit and navel orange juice quality.",
-                  "es": "Limonina (aglicona limonoide) y naringina (flavonoide) causan amargor retardado e inmediato en jugo cítrico. Se gestionan mediante desamarización enzimática usando enzima naringinasa, adsorción en resinas de intercambio iónico, o seleccionando variedades de frutas de bajo amargor. Crítico para calidad de jugo de toronja y naranja navel.",
-                  "de": "Limonin (Limonoid-Aglycon) und Naringin (Flavonoid) verursachen verzögerte und sofortige Bitterkeit in Zitrussaft. Verwaltet durch enzymatische Entbitterung mit Naringinase-Enzym, Adsorption an Ionenaustauschharzen oder Auswahl bitterarmer Fruchtsorten. Kritisch für Grapefruit- und Navel-Orangensaftqualität.",
-                  "nl": "Limonine (limonoide aglycon) en naringine (flavonoïde) veroorzaken vertraagde en onmiddellijke bitterheid in citrus sap. Beheerd door enzymatische ontbittering met naringinase enzym, adsorptie op ionenwisselingsharsen, of selectie van laag-bittere fruitvariëteiten. Kritiek voor grapefruit en navel sinaasappel sapkwaliteit."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'pulsed electric field (PEF)' technology in juice processing and what are its advantages?",
-                  "es": "¿Qué es la tecnología de 'campo eléctrico pulsado (PEF)' en procesamiento de jugos y cuáles son sus ventajas?",
-                  "de": "Was ist 'gepulstes elektrisches Feld (PEF)'-Technologie in der Saftverarbeitung und was sind ihre Vorteile?",
-                  "nl": "Wat is 'gepulseerd elektrisch veld (PEF)'-technologie in sapverwerking en wat zijn de voordelen?"
-        },
-        options: [
-        {
-                  "en": "Continuous low voltage treatment",
-                  "es": "Tratamiento continuo de bajo voltaje",
-                  "de": "Kontinuierliche Niederspannungsbehandlung",
-                  "nl": "Continue lage spanning behandeling"
-        },
-        {
-                  "en": "Short high-voltage pulses (20-80 kV/cm) permeabilize cell membranes for microbial inactivation without heat",
-                  "es": "Pulsos cortos de alto voltaje (20-80 kV/cm) permeabilizan membranas celulares para inactivación microbiana sin calor",
-                  "de": "Kurze Hochspannungsimpulse (20-80 kV/cm) permeabilisieren Zellmembranen zur mikrobiellen Inaktivierung ohne Hitze",
-                  "nl": "Korte hoogspanningspulsen (20-80 kV/cm) permeabiliseren celmembranen voor microbiële inactivatie zonder warmte"
-        },
-        {
-                  "en": "Magnetic field purification",
-                  "es": "Purificación por campo magnético",
-                  "de": "Magnetfeldreinigung",
-                  "nl": "Magnetisch veld zuivering"
-        },
-        {
-                  "en": "Electric heating technology",
-                  "es": "Tecnología de calentamiento eléctrico",
-                  "de": "Elektrische Heiztechnologie",
-                  "nl": "Elektrische verwarmingstechnologie"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "PEF applies short (microseconds) high-voltage pulses (20-80 kV/cm) that create pores in microbial cell membranes (electroporation), inactivating pathogens. Advantages: non-thermal processing preserves fresh flavor, color, vitamins; increases juice yield through enhanced extraction; energy efficient compared to thermal methods.",
-                  "es": "PEF aplica pulsos cortos (microsegundos) de alto voltaje (20-80 kV/cm) que crean poros en membranas celulares microbianas (electroporación), inactivando patógenos. Ventajas: procesamiento no térmico preserva sabor fresco, color, vitaminas; aumenta rendimiento de jugo mediante extracción mejorada; eficiente energéticamente comparado con métodos térmicos.",
-                  "de": "PEF wendet kurze (Mikrosekunden) Hochspannungsimpulse (20-80 kV/cm) an, die Poren in mikrobiellen Zellmembranen erzeugen (Elektroporation), was Pathogene inaktiviert. Vorteile: nicht-thermische Verarbeitung erhält frischen Geschmack, Farbe, Vitamine; erhöht Saftausbeute durch verbesserte Extraktion; energieeffizient im Vergleich zu thermischen Methoden.",
-                  "nl": "PEF past korte (microseconden) hoogspanningspulsen (20-80 kV/cm) toe die poriën creëren in microbiële celmembranen (elektroporatie), wat pathogenen inactiveert. Voordelen: niet-thermische verwerking behoudt verse smaak, kleur, vitamines; verhoogt sapopbrengst door verbeterde extractie; energie-efficiënt vergeleken met thermische methoden."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'phenolic compound extraction' and its impact on functional juice properties?",
-                  "es": "¿Qué es la 'extracción de compuestos fenólicos' y su impacto en propiedades funcionales del jugo?",
-                  "de": "Was ist 'Extraktion phenolischer Verbindungen' und ihre Auswirkung auf funktionelle Safteigenschaften?",
-                  "nl": "Wat is 'fenolische verbinding extractie' en de impact op functionele sapeigenschappen?"
-        },
-        options: [
-        {
-                  "en": "Adding artificial antioxidants",
-                  "es": "Añadir antioxidantes artificiales",
-                  "de": "Künstliche Antioxidantien hinzufügen",
-                  "nl": "Kunstmatige antioxidanten toevoegen"
-        },
-        {
-                  "en": "Extracting antioxidant polyphenols (anthocyanins, flavonoids, tannins) enhances health benefits but may increase astringency",
-                  "es": "Extraer polifenoles antioxidantes (antocianinas, flavonoides, taninos) mejora beneficios de salud pero puede aumentar astringencia",
-                  "de": "Extraktion antioxidativer Polyphenole (Anthocyane, Flavonoide, Tannine) verbessert Gesundheitsvorteile, kann aber Adstringenz erhöhen",
-                  "nl": "Extractie van antioxidant polyfenolen (anthocyanines, flavonoïden, tannines) verbetert gezondheidsvoordelen maar kan wrangheid verhogen"
-        },
-        {
-                  "en": "Removing all bitter compounds",
-                  "es": "Remover todos los compuestos amargos",
-                  "de": "Entfernung aller bitteren Verbindungen",
-                  "nl": "Verwijderen van alle bittere verbindingen"
-        },
-        {
-                  "en": "Color stabilization only",
-                  "es": "Solo estabilización de color",
-                  "de": "Nur Farbstabilisierung",
-                  "nl": "Alleen kleurstabilisatie"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Phenolic compounds (anthocyanins, flavonoids, catechins, tannins) are bioactive antioxidants extracted from fruit skins/seeds. Enhanced extraction (PEF, enzyme treatment, ultrasound) increases health benefits (anti-inflammatory, cardiovascular protection). Challenge: balancing high phenolic content with acceptable sensory properties, as tannins cause astringency.",
-                  "es": "Compuestos fenólicos (antocianinas, flavonoides, catequinas, taninos) son antioxidantes bioactivos extraídos de pieles/semillas de frutas. Extracción mejorada (PEF, tratamiento enzimático, ultrasonido) aumenta beneficios de salud (antiinflamatorio, protección cardiovascular). Desafío: equilibrar alto contenido fenólico con propiedades sensoriales aceptables, ya que taninos causan astringencia.",
-                  "de": "Phenolische Verbindungen (Anthocyane, Flavonoide, Catechine, Tannine) sind bioaktive Antioxidantien aus Fruchtschalen/-kernen extrahiert. Verbesserte Extraktion (PEF, Enzymbehandlung, Ultraschall) erhöht Gesundheitsvorteile (entzündungshemmend, kardiovaskulärer Schutz). Herausforderung: Ausgleich hohen Phenolgehalts mit akzeptablen sensorischen Eigenschaften, da Tannine Adstringenz verursachen.",
-                  "nl": "Fenolische verbindingen (anthocyanines, flavonoïden, catechines, tannines) zijn bioactieve antioxidanten geëxtraheerd uit fruitschillen/zaden. Verbeterde extractie (PEF, enzymbehandeling, ultrasoon) verhoogt gezondheidsvoordelen (ontstekingsremmend, cardiovasculaire bescherming). Uitdaging: balanceren hoog fenolisch gehalte met acceptabele sensorische eigenschappen, omdat tannines wrangheid veroorzaken."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'osmotic dehydration' pretreatment in juice concentrate production?",
-                  "es": "¿Qué es el pretratamiento de 'deshidratación osmótica' en producción de concentrado de jugo?",
-                  "de": "Was ist 'osmotische Dehydratisierung'-Vorbehandlung in der Saftkonzentrat-Produktion?",
-                  "nl": "Wat is 'osmotische dehydratie'-voorbehandeling in sapconcentraat productie?"
-        },
-        options: [
-        {
-                  "en": "Freeze-drying process",
-                  "es": "Proceso de liofilización",
-                  "de": "Gefriertrocknung",
-                  "nl": "Vriesdroogproces"
-        },
-        {
-                  "en": "Membrane filtration",
-                  "es": "Filtración por membrana",
-                  "de": "Membranfiltration",
-                  "nl": "Membraan filtratie"
-        },
-        {
-                  "en": "Immersing fruit in hypertonic solution to remove water while retaining nutrients and volatile compounds",
-                  "es": "Sumergir fruta en solución hipertónica para remover agua mientras se retienen nutrientes y compuestos volátiles",
-                  "de": "Eintauchen von Früchten in hypertonische Lösung zur Wasserentfernung bei Erhalt von Nährstoffen und flüchtigen Verbindungen",
-                  "nl": "Fruit onderdompelen in hypertonische oplossing om water te verwijderen terwijl voedingsstoffen en vluchtige verbindingen behouden blijven"
-        },
-        {
-                  "en": "High temperature evaporation",
-                  "es": "Evaporación a alta temperatura",
-                  "de": "Hochtemperaturverdampfung",
-                  "nl": "Hoge temperatuur verdamping"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Osmotic dehydration immerses fruit pieces in concentrated sugar/salt solutions (hypertonic). Water moves out by osmosis while solutes move in. Advantages: removes water at ambient temperature, preserves heat-sensitive compounds, reduces energy for subsequent concentration, maintains better color/flavor. Used as pretreatment before thermal concentration or drying.",
-                  "es": "La deshidratación osmótica sumerge piezas de fruta en soluciones concentradas de azúcar/sal (hipertónicas). El agua sale por ósmosis mientras los solutos entran. Ventajas: remueve agua a temperatura ambiente, preserva compuestos termosensibles, reduce energía para concentración subsecuente, mantiene mejor color/sabor. Usado como pretratamiento antes de concentración térmica o secado.",
-                  "de": "Osmotische Dehydratisierung taucht Fruchtstücke in konzentrierte Zucker-/Salzlösungen (hypertonisch). Wasser bewegt sich durch Osmose heraus, während gelöste Stoffe eindringen. Vorteile: entfernt Wasser bei Umgebungstemperatur, erhält hitzeempfindliche Verbindungen, reduziert Energie für nachfolgende Konzentration, erhält bessere Farbe/Geschmack. Als Vorbehandlung vor thermischer Konzentration oder Trocknung verwendet.",
-                  "nl": "Osmotische dehydratie dompelt fruitstukken onder in geconcentreerde suiker/zout oplossingen (hypertonisch). Water beweegt naar buiten door osmose terwijl opgeloste stoffen naar binnen bewegen. Voordelen: verwijdert water bij omgevingstemperatuur, behoudt hittegevoelige verbindingen, vermindert energie voor daaropvolgende concentratie, handhaaft betere kleur/smaak. Gebruikt als voorbehandeling voor thermische concentratie of drogen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'forward osmosis' (FO) concentration technology in juice processing?",
-                  "es": "¿Qué es la tecnología de concentración por 'ósmosis directa' (FO) en procesamiento de jugos?",
-                  "de": "Was ist 'Vorwärtsosmose' (FO)-Konzentrationstechnologie in der Saftverarbeitung?",
-                  "nl": "Wat is 'voorwaartse osmose' (FO) concentratietechnologie in sapverwerking?"
-        },
-        options: [
-        {
-                  "en": "Traditional reverse osmosis system",
-                  "es": "Sistema tradicional de ósmosis inversa",
-                  "de": "Traditionelles Umkehrosmosesystem",
-                  "nl": "Traditioneel omgekeerde osmose systeem"
-        },
-        {
-                  "en": "Using osmotic pressure gradient with draw solution to concentrate juice without heat or high pressure",
-                  "es": "Usar gradiente de presión osmótica con solución de extracción para concentrar jugo sin calor o alta presión",
-                  "de": "Verwendung eines osmotischen Druckgradienten mit Zugabenlösung zur Saftkonzentration ohne Hitze oder Hochdruck",
-                  "nl": "Osmotische drukgradiënt gebruiken met trekkingsoplossing om sap te concentreren zonder warmte of hoge druk"
-        },
-        {
-                  "en": "Centrifugal separation",
-                  "es": "Separación centrífuga",
-                  "de": "Zentrifugaltrennung",
-                  "nl": "Centrifugale scheiding"
-        },
-        {
-                  "en": "Thermal evaporation method",
-                  "es": "Método de evaporación térmica",
-                  "de": "Thermische Verdampfungsmethode",
-                  "nl": "Thermische verdampingsmethode"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Forward osmosis uses natural osmotic pressure difference between juice and concentrated 'draw solution' across semi-permeable membrane. Water moves from juice to draw solution without applied pressure. Advantages: no heat, low energy, preserves flavor/nutrients. Challenge: selecting and regenerating draw solution (typically sugars or salts).",
-                  "es": "La ósmosis directa usa diferencia de presión osmótica natural entre jugo y 'solución de extracción' concentrada a través de membrana semipermeable. El agua se mueve del jugo a la solución de extracción sin presión aplicada. Ventajas: sin calor, baja energía, preserva sabor/nutrientes. Desafío: seleccionar y regenerar solución de extracción (típicamente azúcares o sales).",
-                  "de": "Vorwärtsosmose nutzt natürlichen osmotischen Druckunterschied zwischen Saft und konzentrierter 'Zugabenlösung' über semipermeabler Membran. Wasser bewegt sich vom Saft zur Zugabenlösung ohne angelegten Druck. Vorteile: keine Hitze, geringe Energie, erhält Geschmack/Nährstoffe. Herausforderung: Auswahl und Regeneration der Zugabenlösung (typischerweise Zucker oder Salze).",
-                  "nl": "Voorwaartse osmose gebruikt natuurlijk osmotisch drukverschil tussen sap en geconcentreerde 'trekkingsoplossing' over semi-permeabel membraan. Water beweegt van sap naar trekkingsoplossing zonder toegepaste druk. Voordelen: geen warmte, lage energie, behoudt smaak/voedingsstoffen. Uitdaging: selecteren en regenereren trekkingsoplossing (typisch suikers of zouten)."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'anthocyanin degradation kinetics' and how is it minimized during juice storage?",
-                  "es": "¿Qué es la 'cinética de degradación de antocianinas' y cómo se minimiza durante el almacenamiento de jugos?",
-                  "de": "Was ist 'Anthocyan-Abbaukinetik' und wie wird sie während der Saftlagerung minimiert?",
-                  "nl": "Wat is 'anthocyanine afbraakkinetiek' en hoe wordt het geminimaliseerd tijdens sapopslag?"
-        },
-        options: [
-        {
-                  "en": "Permanent color stabilization",
-                  "es": "Estabilización permanente de color",
-                  "de": "Permanente Farbstabilisierung",
-                  "nl": "Permanente kleurstabilisatie"
-        },
-        {
-                  "en": "Microbial color production",
-                  "es": "Producción microbiana de color",
-                  "de": "Mikrobielle Farbproduktion",
-                  "nl": "Microbiële kleurproductie"
-        },
-        {
-                  "en": "Enzymatic color enhancement",
-                  "es": "Mejora enzimática del color",
-                  "de": "Enzymatische Farbverbesserung",
-                  "nl": "Enzymatische kleurverbetering"
-        },
-        {
-                  "en": "Time-dependent color loss following first-order kinetics; minimized by low temperature, pH control, oxygen exclusion",
-                  "es": "Pérdida de color dependiente del tiempo siguiendo cinética de primer orden; minimizada por baja temperatura, control de pH, exclusión de oxígeno",
-                  "de": "Zeitabhängiger Farbverlust nach Kinetik erster Ordnung; minimiert durch niedrige Temperatur, pH-Kontrolle, Sauerstoffausschluss",
-                  "nl": "Tijdsafhankelijk kleurverlies volgens eerste-orde kinetiek; geminimaliseerd door lage temperatuur, pH-controle, zuurstofuitsluiting"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Anthocyanins (red/purple pigments in berries) degrade following first-order kinetics. Rate depends on temperature (Q10≈2-4), pH (more stable at pH<3), oxygen presence, light exposure, and ascorbic acid. Minimized by: refrigeration, acidification, deaeration, dark storage, adding copigments (metal ions, polyphenols) for color stabilization.",
-                  "es": "Las antocianinas (pigmentos rojos/morados en bayas) se degradan siguiendo cinética de primer orden. La tasa depende de temperatura (Q10≈2-4), pH (más estables a pH<3), presencia de oxígeno, exposición a luz, y ácido ascórbico. Se minimiza por: refrigeración, acidificación, desaireación, almacenamiento oscuro, añadir copigmentos (iones metálicos, polifenoles) para estabilización de color.",
-                  "de": "Anthocyane (rot/lila Pigmente in Beeren) bauen sich nach Kinetik erster Ordnung ab. Rate hängt ab von Temperatur (Q10≈2-4), pH (stabiler bei pH<3), Sauerstoffpresenz, Lichtexposition und Ascorbinsäure. Minimiert durch: Kühlung, Ansäuerung, Entlüftung, Dunkellagerung, Zugabe von Copigmenten (Metallionen, Polyphenole) zur Farbstabilisierung.",
-                  "nl": "Anthocyanines (rode/paarse pigmenten in bessen) breken af volgens eerste-orde kinetiek. Snelheid hangt af van temperatuur (Q10≈2-4), pH (stabieler bij pH<3), zuurstofaanwezigheid, lichtblootstelling, en ascorbinezuur. Geminimaliseerd door: koeling, aanzuren, ontluchting, donkere opslag, toevoegen copigmenten (metaalionen, polyfenolen) voor kleurstabilisatie."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'ultrasound-assisted extraction' (UAE) and its applications in juice processing?",
-                  "es": "¿Qué es la 'extracción asistida por ultrasonido' (UAE) y sus aplicaciones en procesamiento de jugos?",
-                  "de": "Was ist 'Ultraschall-unterstützte Extraktion' (UAE) und ihre Anwendungen in der Saftverarbeitung?",
-                  "nl": "Wat is 'ultrasoon-ondersteunde extractie' (UAE) en toepassingen in sapverwerking?"
-        },
-        options: [
-        {
-                  "en": "Musical frequency treatment",
-                  "es": "Tratamiento de frecuencia musical",
-                  "de": "Musikalische Frequenzbehandlung",
-                  "nl": "Muzikale frequentie behandeling"
-        },
-        {
-                  "en": "Sound wave pasteurization",
-                  "es": "Pasteurización por ondas sonoras",
-                  "de": "Schallwellen-Pasteurisierung",
-                  "nl": "Geluidsgolf pasteurisatie"
-        },
-        {
-                  "en": "Using 20-100 kHz ultrasonic waves creating cavitation for enhanced juice/bioactive compound extraction",
-                  "es": "Usar ondas ultrasónicas de 20-100 kHz creando cavitación para extracción mejorada de jugo/compuestos bioactivos",
-                  "de": "Verwendung von 20-100 kHz Ultraschallwellen zur Kavitationserzeugung für verbesserte Saft-/Bioaktivstoff-Extraktion",
-                  "nl": "20-100 kHz ultrasone golven gebruiken die cavitatie creëren voor verbeterde sap/bioactieve verbinding extractie"
-        },
-        {
-                  "en": "Noise reduction technology",
-                  "es": "Tecnología de reducción de ruido",
-                  "de": "Lärmreduktionstechnologie",
-                  "nl": "Geluidsreductie technologie"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Ultrasound (20-100 kHz) creates acoustic cavitation—formation and violent collapse of bubbles producing micro-jets and shock waves. This disrupts cell walls, increasing juice yield (5-30%) and extracting phenolics, carotenoids, and vitamins. Benefits: reduced extraction time, lower temperature, enhanced bioactive recovery, enzymatic activity acceleration.",
-                  "es": "El ultrasonido (20-100 kHz) crea cavitación acústica—formación y colapso violento de burbujas produciendo micro-chorros y ondas de choque. Esto interrumpe paredes celulares, aumentando rendimiento de jugo (5-30%) y extrayendo fenólicos, carotenoides y vitaminas. Beneficios: tiempo de extracción reducido, temperatura más baja, recuperación bioactiva mejorada, aceleración de actividad enzimática.",
-                  "de": "Ultraschall (20-100 kHz) erzeugt akustische Kavitation—Bildung und gewaltsamer Kollaps von Blasen, die Mikrojets und Stoßwellen produzieren. Dies zerstört Zellwände, erhöht Saftausbeute (5-30%) und extrahiert Phenole, Carotinoide und Vitamine. Vorteile: reduzierte Extraktionszeit, niedrigere Temperatur, verbesserte Bioaktivstoff-Rückgewinnung, Beschleunigung enzymatischer Aktivität.",
-                  "nl": "Ultrasoon (20-100 kHz) creëert akoestische cavitatie—vorming en gewelddadige ineenstorting van bellen die micro-jets en schokgolven produceren. Dit verstoort celwanden, verhoogt sapopbrengst (5-30%) en extraheert fenolen, carotenoïden en vitamines. Voordelen: verkorte extractietijd, lagere temperatuur, verbeterde bioactieve terugwinning, enzymatische activiteit versnelling."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'juice cloud stability' and what factors affect sedimentation in cloudy juices?",
-                  "es": "¿Qué es la 'estabilidad de nube del jugo' y qué factores afectan la sedimentación en jugos turbios?",
-                  "de": "Was ist 'Saftwolkenstabilität' und welche Faktoren beeinflussen Sedimentation in trüben Säften?",
-                  "nl": "Wat is 'sap wolk stabiliteit' en welke factoren beïnvloeden sedimentatie in troebele sappen?"
-        },
-        options: [
-        {
-                  "en": "Sugar concentration",
-                  "es": "Concentración de azúcar",
-                  "de": "Zuckerkonzentration",
-                  "nl": "Suikerconcentratie"
-        },
-        {
-                  "en": "Particle size (<1µm stable), pectin content, ionic strength, pH, and homogenization determine cloud stability",
-                  "es": "Tamaño de partícula (<1µm estable), contenido de pectina, fuerza iónica, pH, y homogeneización determinan estabilidad de nube",
-                  "de": "Partikelgröße (<1µm stabil), Pektingehalt, Ionenstärke, pH und Homogenisierung bestimmen Wolkenstabilität",
-                  "nl": "Deeltjesgrootte (<1µm stabiel), pectinegehalte, ionische sterkte, pH, en homogenisatie bepalen wolk stabiliteit"
-        },
-        {
-                  "en": "Temperature control only",
-                  "es": "Solo control de temperatura",
-                  "de": "Nur Temperaturkontrolle",
-                  "nl": "Alleen temperatuurcontrole"
-        },
-        {
-                  "en": "Microbial activity",
-                  "es": "Actividad microbiana",
-                  "de": "Mikrobielle Aktivität",
-                  "nl": "Microbiële activiteit"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Cloud stability depends on: particle size (submicron <1µm most stable), pectin as stabilizing colloid (prevents flocculation), pH (affects pectin charge), ionic strength (high Ca²⁺ causes aggregation), protein-pectin interactions. Improved by homogenization (reduces particle size), adding pectin, controlling mineral content, enzyme inactivation to prevent pectin degradation.",
-                  "es": "La estabilidad de nube depende de: tamaño de partícula (submicrónico <1µm más estable), pectina como coloide estabilizante (previene floculación), pH (afecta carga de pectina), fuerza iónica (Ca²⁺ alto causa agregación), interacciones proteína-pectina. Mejorado por homogeneización (reduce tamaño de partícula), añadir pectina, controlar contenido mineral, inactivación enzimática para prevenir degradación de pectina.",
-                  "de": "Wolkenstabilität hängt ab von: Partikelgröße (submikron <1µm am stabilsten), Pektin als stabilisierendes Kolloid (verhindert Flockung), pH (beeinflusst Pektinladung), Ionenstärke (hohes Ca²⁺ verursacht Aggregation), Protein-Pektin-Wechselwirkungen. Verbessert durch Homogenisierung (reduziert Partikelgröße), Pektinzugabe, Mineralkontrolle, Enzyminaktivierung zur Verhinderung von Pektinabbau.",
-                  "nl": "Wolk stabiliteit hangt af van: deeltjesgrootte (submicron <1µm meest stabiel), pectine als stabiliserend colloïd (voorkomt flocculatie), pH (beïnvloedt pectine lading), ionische sterkte (hoge Ca²⁺ veroorzaakt aggregatie), eiwit-pectine interacties. Verbeterd door homogenisatie (vermindert deeltjesgrootte), pectine toevoegen, mineraalgehalte controleren, enzym inactivatie om pectine afbraak te voorkomen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'thermosonication' and how does it enhance juice pasteurization efficiency?",
-                  "es": "¿Qué es la 'termosonicación' y cómo mejora la eficiencia de pasteurización de jugos?",
-                  "de": "Was ist 'Thermosonication' und wie verbessert sie die Saftp asteurisierungseffizienz?",
-                  "nl": "Wat is 'thermosonicatie' en hoe verbetert het sappasteurisatie efficiëntie?"
-        },
-        options: [
-        {
-                  "en": "High temperature steam treatment",
-                  "es": "Tratamiento de vapor a alta temperatura",
-                  "de": "Hochtemperatur-Dampfbehandlung",
-                  "nl": "Hoge temperatuur stoombehandeling"
-        },
-        {
-                  "en": "Combining mild heat (50-60°C) with ultrasound (20-100 kHz) for synergistic microbial inactivation",
-                  "es": "Combinar calor suave (50-60°C) con ultrasonido (20-100 kHz) para inactivación microbiana sinérgica",
-                  "de": "Kombination milder Wärme (50-60°C) mit Ultraschall (20-100 kHz) für synergistische mikrobielle Inaktivierung",
-                  "nl": "Milde warmte (50-60°C) combineren met ultrasoon (20-100 kHz) voor synergistische microbiële inactivatie"
-        },
-        {
-                  "en": "Chemical sterilization method",
-                  "es": "Método de esterilización química",
-                  "de": "Chemische Sterilisationsmethode",
-                  "nl": "Chemische sterilisatiemethode"
-        },
-        {
-                  "en": "Acoustic pasteurization only",
-                  "es": "Solo pasteurización acústica",
-                  "de": "Nur akustische Pasteurisierung",
-                  "nl": "Alleen akoestische pasteurisatie"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Thermosonication combines moderate heat (50-60°C) with ultrasound (20-100 kHz). Ultrasound cavitation damages microbial cell membranes while heat denatures enzymes/proteins. Synergistic effect achieves pasteurization at lower temperatures/times than conventional thermal treatment, better preserving flavor, vitamins, and bioactive compounds. Effective against bacteria, yeasts, molds, and enzymes.",
-                  "es": "La termosonicación combina calor moderado (50-60°C) con ultrasonido (20-100 kHz). La cavitación ultrasónica daña membranas celulares microbianas mientras el calor desnaturaliza enzimas/proteínas. Efecto sinérgico logra pasteurización a temperaturas/tiempos más bajos que tratamiento térmico convencional, preservando mejor sabor, vitaminas y compuestos bioactivos. Efectivo contra bacterias, levaduras, mohos y enzimas.",
-                  "de": "Thermosonication kombiniert moderate Wärme (50-60°C) mit Ultraschall (20-100 kHz). Ultraschall-Kavitation schädigt mikrobielle Zellmembranen, während Wärme Enzyme/Proteine denaturiert. Synergistischer Effekt erreicht Pasteurisierung bei niedrigeren Temperaturen/Zeiten als konventionelle Wärmebehandlung, erhält besser Geschmack, Vitamine und bioaktive Verbindungen. Wirksam gegen Bakterien, Hefen, Schimmel und Enzyme.",
-                  "nl": "Thermosonicatie combineert gematigde warmte (50-60°C) met ultrasoon (20-100 kHz). Ultrasone cavitatie beschadigt microbiële celmembranen terwijl warmte enzymen/eiwitten denatureert. Synergistisch effect bereikt pasteurisatie bij lagere temperaturen/tijden dan conventionele thermische behandeling, behoudt beter smaak, vitamines en bioactieve verbindingen. Effectief tegen bacteriën, gisten, schimmels en enzymen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is orange juice made from?",
-                  "es": "What is orange juice made from?",
-                  "de": "What is orange juice made from?",
-                  "nl": "What is orange juice made from?"
-        },
-        options: [
-        {
-                  "en": "Orange concentrate only",
-                  "es": "Orange concentrate only",
-                  "de": "Orange concentrate only",
-                  "nl": "Orange concentrate only"
-        },
-        {
-                  "en": "Orange flavoring",
-                  "es": "Orange flavoring",
-                  "de": "Orange flavoring",
-                  "nl": "Orange flavoring"
-        },
-        {
-                  "en": "Pressed oranges",
-                  "es": "Pressed oranges",
-                  "de": "Pressed oranges",
-                  "nl": "Pressed oranges"
-        },
-        {
-                  "en": "Tang powder",
-                  "es": "Tang powder",
-                  "de": "Tang powder",
-                  "nl": "Tang powder"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Orange juice is made by pressing or extracting the liquid from fresh oranges.",
-                  "es": "Orange juice is made by pressing or extracting the liquid from fresh oranges.",
-                  "de": "Orange juice is made by pressing or extracting the liquid from fresh oranges.",
-                  "nl": "Orange juice is made by pressing or extracting the liquid from fresh oranges."
-        }
-      },
-      {
-        question: {
-                  "en": "What vitamin is orange juice famous for?",
-                  "es": "What vitamin is orange juice famous for?",
-                  "de": "What vitamin is orange juice famous for?",
-                  "nl": "What vitamin is orange juice famous for?"
-        },
-        options: [
-        {
-                  "en": "Vitamin C",
-                  "es": "Vitamin C",
-                  "de": "Vitamin C",
-                  "nl": "Vitamin C"
-        },
-        {
-                  "en": "Vitamin B12",
-                  "es": "Vitamin B12",
-                  "de": "Vitamin B12",
-                  "nl": "Vitamin B12"
-        },
-        {
-                  "en": "Vitamin D",
-                  "es": "Vitamin D",
-                  "de": "Vitamin D",
-                  "nl": "Vitamin D"
-        },
-        {
-                  "en": "Vitamin A",
-                  "es": "Vitamin A",
-                  "de": "Vitamin A",
-                  "nl": "Vitamin A"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Orange juice is particularly high in Vitamin C (ascorbic acid).",
-                  "es": "Orange juice is particularly high in Vitamin C (ascorbic acid).",
-                  "de": "Orange juice is particularly high in Vitamin C (ascorbic acid).",
-                  "nl": "Orange juice is particularly high in Vitamin C (ascorbic acid)."
-        }
-      },
-      {
-        question: {
-                  "en": "What is pulp in juice?",
-                  "es": "What is pulp in juice?",
-                  "de": "What is pulp in juice?",
-                  "nl": "What is pulp in juice?"
-        },
-        options: [
-        {
-                  "en": "Seeds",
-                  "es": "Seeds",
-                  "de": "Seeds",
-                  "nl": "Seeds"
-        },
-        {
-                  "en": "Sugar",
-                  "es": "Sugar",
-                  "de": "Sugar",
-                  "nl": "Sugar"
-        },
-        {
-                  "en": "Fruit fibers and tissue",
-                  "es": "Fruit fibers and tissue",
-                  "de": "Fruit fibers and tissue",
-                  "nl": "Fruit fibers and tissue"
-        },
-        {
-                  "en": "Water content",
-                  "es": "Water content",
-                  "de": "Water content",
-                  "nl": "Water content"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Pulp consists of the fibrous fruit tissues that remain suspended in juice after pressing.",
-                  "es": "Pulp consists of the fibrous fruit tissues that remain suspended in juice after pressing.",
-                  "de": "Pulp consists of the fibrous fruit tissues that remain suspended in juice after pressing.",
-                  "nl": "Pulp consists of the fibrous fruit tissues that remain suspended in juice after pressing."
-        }
-      },
-      {
-        question: {
-                  "en": "What is apple cider?",
-                  "es": "What is apple cider?",
-                  "de": "What is apple cider?",
-                  "nl": "What is apple cider?"
-        },
-        options: [
-        {
-                  "en": "Filtered apple juice",
-                  "es": "Filtered apple juice",
-                  "de": "Filtered apple juice",
-                  "nl": "Filtered apple juice"
-        },
-        {
-                  "en": "Fermented apple drink",
-                  "es": "Fermented apple drink",
-                  "de": "Fermented apple drink",
-                  "nl": "Fermented apple drink"
-        },
-        {
-                  "en": "Unfiltered apple juice",
-                  "es": "Unfiltered apple juice",
-                  "de": "Unfiltered apple juice",
-                  "nl": "Unfiltered apple juice"
-        },
-        {
-                  "en": "Apple-flavored soda",
-                  "es": "Apple-flavored soda",
-                  "de": "Apple-flavored soda",
-                  "nl": "Apple-flavored soda"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Apple cider is unfiltered, unsweetened apple juice (in North America; in UK, cider refers to alcoholic version).",
-                  "es": "Apple cider is unfiltered, unsweetened apple juice (in North America; in UK, cider refers to alcoholic version).",
-                  "de": "Apple cider is unfiltered, unsweetened apple juice (in North America; in UK, cider refers to alcoholic version).",
-                  "nl": "Apple cider is unfiltered, unsweetened apple juice (in North America; in UK, cider refers to alcoholic version)."
-        }
-      },
-      {
-        question: {
-                  "en": "What is concentrate?",
-                  "es": "What is concentrate?",
-                  "de": "What is concentrate?",
-                  "nl": "What is concentrate?"
-        },
-        options: [
-        {
-                  "en": "Fresh-squeezed juice",
-                  "es": "Fresh-squeezed juice",
-                  "de": "Fresh-squeezed juice",
-                  "nl": "Fresh-squeezed juice"
-        },
-        {
-                  "en": "Juice with water removed, then re-added",
-                  "es": "Juice with water removed, then re-added",
-                  "de": "Juice with water removed, then re-added",
-                  "nl": "Juice with water removed, then re-added"
-        },
-        {
-                  "en": "Juice with extra fruit",
-                  "es": "Juice with extra fruit",
-                  "de": "Juice with extra fruit",
-                  "nl": "Juice with extra fruit"
-        },
-        {
-                  "en": "Artificial juice",
-                  "es": "Artificial juice",
-                  "de": "Artificial juice",
-                  "nl": "Artificial juice"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Juice concentrate has water removed for storage/transport, then water is added back before sale.",
-                  "es": "Juice concentrate has water removed for storage/transport, then water is added back before sale.",
-                  "de": "Juice concentrate has water removed for storage/transport, then water is added back before sale.",
-                  "nl": "Juice concentrate has water removed for storage/transport, then water is added back before sale."
-        }
-      },
-      {
-        question: {
-                  "en": "What fruit is cranberry juice made from?",
-                  "es": "What fruit is cranberry juice made from?",
-                  "de": "What fruit is cranberry juice made from?",
-                  "nl": "What fruit is cranberry juice made from?"
-        },
-        options: [
-        {
-                  "en": "Raspberries",
-                  "es": "Raspberries",
-                  "de": "Raspberries",
-                  "nl": "Raspberries"
-        },
-        {
-                  "en": "Cranberries",
-                  "es": "Cranberries",
-                  "de": "Cranberries",
-                  "nl": "Cranberries"
-        },
-        {
-                  "en": "Strawberries",
-                  "es": "Strawberries",
-                  "de": "Strawberries",
-                  "nl": "Strawberries"
-        },
-        {
-                  "en": "Cherries",
-                  "es": "Cherries",
-                  "de": "Cherries",
-                  "nl": "Cherries"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Cranberry juice is made from cranberries, tart red berries native to North America.",
-                  "es": "Cranberry juice is made from cranberries, tart red berries native to North America.",
-                  "de": "Cranberry juice is made from cranberries, tart red berries native to North America.",
-                  "nl": "Cranberry juice is made from cranberries, tart red berries native to North America."
-        }
-      },
-      {
-        question: {
-                  "en": "What is pasteurization?",
-                  "es": "What is pasteurization?",
-                  "de": "What is pasteurization?",
-                  "nl": "What is pasteurization?"
-        },
-        options: [
-        {
-                  "en": "Adding vitamins",
-                  "es": "Adding vitamins",
-                  "de": "Adding vitamins",
-                  "nl": "Adding vitamins"
-        },
-        {
-                  "en": "Adding preservatives",
-                  "es": "Adding preservatives",
-                  "de": "Adding preservatives",
-                  "nl": "Adding preservatives"
-        },
-        {
-                  "en": "Heating to kill bacteria",
-                  "es": "Heating to kill bacteria",
-                  "de": "Heating to kill bacteria",
-                  "nl": "Heating to kill bacteria"
-        },
-        {
-                  "en": "Removing pulp",
-                  "es": "Removing pulp",
-                  "de": "Removing pulp",
-                  "nl": "Removing pulp"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Pasteurization heats juice briefly to kill harmful bacteria and extend shelf life.",
-                  "es": "Pasteurization heats juice briefly to kill harmful bacteria and extend shelf life.",
-                  "de": "Pasteurization heats juice briefly to kill harmful bacteria and extend shelf life.",
-                  "nl": "Pasteurization heats juice briefly to kill harmful bacteria and extend shelf life."
-        }
-      },
-      {
-        question: {
-                  "en": "What is tomato juice?",
-                  "es": "What is tomato juice?",
-                  "de": "What is tomato juice?",
-                  "nl": "What is tomato juice?"
-        },
-        options: [
-        {
-                  "en": "Tomato sauce diluted",
-                  "es": "Tomato sauce diluted",
-                  "de": "Tomato sauce diluted",
-                  "nl": "Tomato sauce diluted"
-        },
-        {
-                  "en": "Vegetable blend",
-                  "es": "Vegetable blend",
-                  "de": "Vegetable blend",
-                  "nl": "Vegetable blend"
-        },
-        {
-                  "en": "Juice from tomatoes",
-                  "es": "Juice from tomatoes",
-                  "de": "Juice from tomatoes",
-                  "nl": "Juice from tomatoes"
-        },
-        {
-                  "en": "Spiced juice",
-                  "es": "Spiced juice",
-                  "de": "Spiced juice",
-                  "nl": "Spiced juice"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Tomato juice is the liquid extracted from tomatoes, often seasoned with salt and spices.",
-                  "es": "Tomato juice is the liquid extracted from tomatoes, often seasoned with salt and spices.",
-                  "de": "Tomato juice is the liquid extracted from tomatoes, often seasoned with salt and spices.",
-                  "nl": "Tomato juice is the liquid extracted from tomatoes, often seasoned with salt and spices."
-        }
-      },
-      {
-        question: {
-                  "en": "What is 'not from concentrate' mean?",
-                  "es": "What is 'not from concentrate' mean?",
-                  "de": "What is 'not from concentrate' mean?",
-                  "nl": "What is 'not from concentrate' mean?"
-        },
-        options: [
-        {
-                  "en": "Water never removed from juice",
-                  "es": "Water never removed from juice",
-                  "de": "Water never removed from juice",
-                  "nl": "Water never removed from juice"
-        },
-        {
-                  "en": "No added sugar",
-                  "es": "No added sugar",
-                  "de": "No added sugar",
-                  "nl": "No added sugar"
-        },
-        {
-                  "en": "No artificial ingredients",
-                  "es": "No artificial ingredients",
-                  "de": "No artificial ingredients",
-                  "nl": "No artificial ingredients"
-        },
-        {
-                  "en": "Fresh-squeezed only",
-                  "es": "Fresh-squeezed only",
-                  "de": "Fresh-squeezed only",
-                  "nl": "Fresh-squeezed only"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "'Not from concentrate' means the juice wasn't concentrated and reconstituted; water was never removed.",
-                  "es": "'Not from concentrate' means the juice wasn't concentrated and reconstituted; water was never removed.",
-                  "de": "'Not from concentrate' means the juice wasn't concentrated and reconstituted; water was never removed.",
-                  "nl": "'Not from concentrate' means the juice wasn't concentrated and reconstituted; water was never removed."
-        }
-      },
-      {
-        question: {
-                  "en": "What is grapefruit juice?",
-                  "es": "What is grapefruit juice?",
-                  "de": "What is grapefruit juice?",
-                  "nl": "What is grapefruit juice?"
-        },
-        options: [
-        {
-                  "en": "Blend of grape and fruit juices",
-                  "es": "Blend of grape and fruit juices",
-                  "de": "Blend of grape and fruit juices",
-                  "nl": "Blend of grape and fruit juices"
-        },
-        {
-                  "en": "Sweetened grape juice",
-                  "es": "Sweetened grape juice",
-                  "de": "Sweetened grape juice",
-                  "nl": "Sweetened grape juice"
-        },
-        {
-                  "en": "Juice from grapefruits",
-                  "es": "Juice from grapefruits",
-                  "de": "Juice from grapefruits",
-                  "nl": "Juice from grapefruits"
-        },
-        {
-                  "en": "Artificially flavored juice",
-                  "es": "Artificially flavored juice",
-                  "de": "Artificially flavored juice",
-                  "nl": "Artificially flavored juice"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Grapefruit juice is extracted from grapefruits, with a tart, slightly bitter flavor.",
-                  "es": "Grapefruit juice is extracted from grapefruits, with a tart, slightly bitter flavor.",
-                  "de": "Grapefruit juice is extracted from grapefruits, with a tart, slightly bitter flavor.",
-                  "nl": "Grapefruit juice is extracted from grapefruits, with a tart, slightly bitter flavor."
-        }
-      },
-      {
-        question: {
-                  "en": "What fruit is prune juice made from?",
-                  "es": "What fruit is prune juice made from?",
-                  "de": "What fruit is prune juice made from?",
-                  "nl": "What fruit is prune juice made from?"
-        },
-        options: [
-        {
-                  "en": "Prunes (fresh fruit)",
-                  "es": "Prunes (fresh fruit)",
-                  "de": "Prunes (fresh fruit)",
-                  "nl": "Prunes (fresh fruit)"
-        },
-        {
-                  "en": "Dried plums",
-                  "es": "Dried plums",
-                  "de": "Dried plums",
-                  "nl": "Dried plums"
-        },
-        {
-                  "en": "Grapes",
-                  "es": "Grapes",
-                  "de": "Grapes",
-                  "nl": "Grapes"
-        },
-        {
-                  "en": "Plums",
-                  "es": "Plums",
-                  "de": "Plums",
-                  "nl": "Plums"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Prune juice is made from dried plums, known for digestive benefits.",
-                  "es": "Prune juice is made from dried plums, known for digestive benefits.",
-                  "de": "Prune juice is made from dried plums, known for digestive benefits.",
-                  "nl": "Prune juice is made from dried plums, known for digestive benefits."
-        }
-      },
-      {
-        question: {
-                  "en": "What is pomegranate juice?",
-                  "es": "What is pomegranate juice?",
-                  "de": "What is pomegranate juice?",
-                  "nl": "What is pomegranate juice?"
-        },
-        options: [
-        {
-                  "en": "Red fruit blend",
-                  "es": "Red fruit blend",
-                  "de": "Red fruit blend",
-                  "nl": "Red fruit blend"
-        },
-        {
-                  "en": "Pomegranate-flavored juice",
-                  "es": "Pomegranate-flavored juice",
-                  "de": "Pomegranate-flavored juice",
-                  "nl": "Pomegranate-flavored juice"
-        },
-        {
-                  "en": "Juice from pomegranate seeds",
-                  "es": "Juice from pomegranate seeds",
-                  "de": "Juice from pomegranate seeds",
-                  "nl": "Juice from pomegranate seeds"
-        },
-        {
-                  "en": "Juice from pomegranate skin",
-                  "es": "Juice from pomegranate skin",
-                  "de": "Juice from pomegranate skin",
-                  "nl": "Juice from pomegranate skin"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Pomegranate juice is extracted from the juicy seeds (arils) inside pomegranates.",
-                  "es": "Pomegranate juice is extracted from the juicy seeds (arils) inside pomegranates.",
-                  "de": "Pomegranate juice is extracted from the juicy seeds (arils) inside pomegranates.",
-                  "nl": "Pomegranate juice is extracted from the juicy seeds (arils) inside pomegranates."
-        }
-      },
-      {
-        question: {
-                  "en": "What makes juice 'cold-pressed'?",
-                  "es": "What makes juice 'cold-pressed'?",
-                  "de": "What makes juice 'cold-pressed'?",
-                  "nl": "What makes juice 'cold-pressed'?"
-        },
-        options: [
-        {
-                  "en": "Served cold",
-                  "es": "Served cold",
-                  "de": "Served cold",
-                  "nl": "Served cold"
-        },
-        {
-                  "en": "Made from frozen fruit",
-                  "es": "Made from frozen fruit",
-                  "de": "Made from frozen fruit",
-                  "nl": "Made from frozen fruit"
-        },
-        {
-                  "en": "Extracted without heat",
-                  "es": "Extracted without heat",
-                  "de": "Extracted without heat",
-                  "nl": "Extracted without heat"
-        },
-        {
-                  "en": "Refrigerated immediately",
-                  "es": "Refrigerated immediately",
-                  "de": "Refrigerated immediately",
-                  "nl": "Refrigerated immediately"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Cold-pressed juice is extracted using hydraulic pressure without heat, preserving nutrients.",
-                  "es": "Cold-pressed juice is extracted using hydraulic pressure without heat, preserving nutrients.",
-                  "de": "Cold-pressed juice is extracted using hydraulic pressure without heat, preserving nutrients.",
-                  "nl": "Cold-pressed juice is extracted using hydraulic pressure without heat, preserving nutrients."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the difference between juice and nectar?",
-                  "es": "What is the difference between juice and nectar?",
-                  "de": "What is the difference between juice and nectar?",
-                  "nl": "What is the difference between juice and nectar?"
-        },
-        options: [
-        {
-                  "en": "Nectar is thicker",
-                  "es": "Nectar is thicker",
-                  "de": "Nectar is thicker",
-                  "nl": "Nectar is thicker"
-        },
-        {
-                  "en": "No difference",
-                  "es": "No difference",
-                  "de": "No difference",
-                  "nl": "No difference"
-        },
-        {
-                  "en": "Nectar has added water and sugar",
-                  "es": "Nectar has added water and sugar",
-                  "de": "Nectar has added water and sugar",
-                  "nl": "Nectar has added water and sugar"
-        },
-        {
-                  "en": "Juice is artificial",
-                  "es": "Juice is artificial",
-                  "de": "Juice is artificial",
-                  "nl": "Juice is artificial"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Fruit nectar contains fruit juice or purée plus added water and sugar; juice is just fruit liquid.",
-                  "es": "Fruit nectar contains fruit juice or purée plus added water and sugar; juice is just fruit liquid.",
-                  "de": "Fruit nectar contains fruit juice or purée plus added water and sugar; juice is just fruit liquid.",
-                  "nl": "Fruit nectar contains fruit juice or purée plus added water and sugar; juice is just fruit liquid."
-        }
-      },
-      {
-        question: {
-                  "en": "What is grape juice?",
-                  "es": "What is grape juice?",
-                  "de": "What is grape juice?",
-                  "nl": "What is grape juice?"
-        },
-        options: [
-        {
-                  "en": "Fruit punch",
-                  "es": "Fruit punch",
-                  "de": "Fruit punch",
-                  "nl": "Fruit punch"
-        },
-        {
-                  "en": "Juice from grapes",
-                  "es": "Juice from grapes",
-                  "de": "Juice from grapes",
-                  "nl": "Juice from grapes"
-        },
-        {
-                  "en": "Purple-colored juice",
-                  "es": "Purple-colored juice",
-                  "de": "Purple-colored juice",
-                  "nl": "Purple-colored juice"
-        },
-        {
-                  "en": "Wine without alcohol",
-                  "es": "Wine without alcohol",
-                  "de": "Wine without alcohol",
-                  "nl": "Wine without alcohol"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Grape juice is the liquid extracted from crushing grapes, available in purple or white varieties.",
-                  "es": "Grape juice is the liquid extracted from crushing grapes, available in purple or white varieties.",
-                  "de": "Grape juice is the liquid extracted from crushing grapes, available in purple or white varieties.",
-                  "nl": "Grape juice is the liquid extracted from crushing grapes, available in purple or white varieties."
-        }
-      },
-      {
-        question: {
-                  "en": "What nutrients are lost in most commercial juicing?",
-                  "es": "What nutrients are lost in most commercial juicing?",
-                  "de": "What nutrients are lost in most commercial juicing?",
-                  "nl": "What nutrients are lost in most commercial juicing?"
-        },
-        options: [
-        {
-                  "en": "Water",
-                  "es": "Water",
-                  "de": "Water",
-                  "nl": "Water"
-        },
-        {
-                  "en": "Vitamins",
-                  "es": "Vitamins",
-                  "de": "Vitamins",
-                  "nl": "Vitamins"
-        },
-        {
-                  "en": "Sugars",
-                  "es": "Sugars",
-                  "de": "Sugars",
-                  "nl": "Sugars"
-        },
-        {
-                  "en": "Fiber",
-                  "es": "Fiber",
-                  "de": "Fiber",
-                  "nl": "Fiber"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Most commercial juicing removes fiber; fresh whole fruit contains more fiber than juice.",
-                  "es": "Most commercial juicing removes fiber; fresh whole fruit contains more fiber than juice.",
-                  "de": "Most commercial juicing removes fiber; fresh whole fruit contains more fiber than juice.",
-                  "nl": "Most commercial juicing removes fiber; fresh whole fruit contains more fiber than juice."
-        }
-      },
-      {
-        question: {
-                  "en": "What is pineapple juice?",
-                  "es": "What is pineapple juice?",
-                  "de": "What is pineapple juice?",
-                  "nl": "What is pineapple juice?"
-        },
-        options: [
-        {
-                  "en": "Yellow-colored juice",
-                  "es": "Yellow-colored juice",
-                  "de": "Yellow-colored juice",
-                  "nl": "Yellow-colored juice"
-        },
-        {
-                  "en": "Pine-flavored juice",
-                  "es": "Pine-flavored juice",
-                  "de": "Pine-flavored juice",
-                  "nl": "Pine-flavored juice"
-        },
-        {
-                  "en": "Tropical fruit blend",
-                  "es": "Tropical fruit blend",
-                  "de": "Tropical fruit blend",
-                  "nl": "Tropical fruit blend"
-        },
-        {
-                  "en": "Juice from pineapples",
-                  "es": "Juice from pineapples",
-                  "de": "Juice from pineapples",
-                  "nl": "Juice from pineapples"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Pineapple juice is extracted from fresh pineapples, high in vitamin C and bromelain enzyme.",
-                  "es": "Pineapple juice is extracted from fresh pineapples, high in vitamin C and bromelain enzyme.",
-                  "de": "Pineapple juice is extracted from fresh pineapples, high in vitamin C and bromelain enzyme.",
-                  "nl": "Pineapple juice is extracted from fresh pineapples, high in vitamin C and bromelain enzyme."
-        }
-      },
-      {
-        question: {
-                  "en": "What is lemon juice used for?",
-                  "es": "What is lemon juice used for?",
-                  "de": "What is lemon juice used for?",
-                  "nl": "What is lemon juice used for?"
-        },
-        options: [
-        {
-                  "en": "Sweetener",
-                  "es": "Sweetener",
-                  "de": "Sweetener",
-                  "nl": "Sweetener"
-        },
-        {
-                  "en": "Preservative only",
-                  "es": "Preservative only",
-                  "de": "Preservative only",
-                  "nl": "Preservative only"
-        },
-        {
-                  "en": "Coloring",
-                  "es": "Coloring",
-                  "de": "Coloring",
-                  "nl": "Coloring"
-        },
-        {
-                  "en": "Flavoring and vitamin C",
-                  "es": "Flavoring and vitamin C",
-                  "de": "Flavoring and vitamin C",
-                  "nl": "Flavoring and vitamin C"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Lemon juice is used for its tart flavor and high vitamin C content.",
-                  "es": "Lemon juice is used for its tart flavor and high vitamin C content.",
-                  "de": "Lemon juice is used for its tart flavor and high vitamin C content.",
-                  "nl": "Lemon juice is used for its tart flavor and high vitamin C content."
-        }
-      },
-      {
-        question: {
-                  "en": "What does '100% juice' mean?",
-                  "es": "What does '100% juice' mean?",
-                  "de": "What does '100% juice' mean?",
-                  "nl": "What does '100% juice' mean?"
-        },
-        options: [
-        {
-                  "en": "Organic only",
-                  "es": "Organic only",
-                  "de": "Organic only",
-                  "nl": "Organic only"
-        },
-        {
-                  "en": "Not from concentrate",
-                  "es": "Not from concentrate",
-                  "de": "Not from concentrate",
-                  "nl": "Not from concentrate"
-        },
-        {
-                  "en": "No added water or sugar",
-                  "es": "No added water or sugar",
-                  "de": "No added water or sugar",
-                  "nl": "No added water or sugar"
-        },
-        {
-                  "en": "Fresh-squeezed",
-                  "es": "Fresh-squeezed",
-                  "de": "Fresh-squeezed",
-                  "nl": "Fresh-squeezed"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "'100% juice' means the product contains only juice from fruit, with no water or sugar added.",
-                  "es": "'100% juice' means the product contains only juice from fruit, with no water or sugar added.",
-                  "de": "'100% juice' means the product contains only juice from fruit, with no water or sugar added.",
-                  "nl": "'100% juice' means the product contains only juice from fruit, with no water or sugar added."
-        }
-      },
-      {
-        question: {
-                  "en": "What is carrot juice?",
-                  "es": "What is carrot juice?",
-                  "de": "What is carrot juice?",
-                  "nl": "What is carrot juice?"
-        },
-        options: [
-        {
-                  "en": "Juice from carrots",
-                  "es": "Juice from carrots",
-                  "de": "Juice from carrots",
-                  "nl": "Juice from carrots"
-        },
-        {
-                  "en": "Orange-colored juice",
-                  "es": "Orange-colored juice",
-                  "de": "Orange-colored juice",
-                  "nl": "Orange-colored juice"
-        },
-        {
-                  "en": "Carrot-flavored drink",
-                  "es": "Carrot-flavored drink",
-                  "de": "Carrot-flavored drink",
-                  "nl": "Carrot-flavored drink"
-        },
-        {
-                  "en": "Vegetable blend",
-                  "es": "Vegetable blend",
-                  "de": "Vegetable blend",
-                  "nl": "Vegetable blend"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Carrot juice is extracted from fresh carrots, rich in beta-carotene (vitamin A).",
-                  "es": "Carrot juice is extracted from fresh carrots, rich in beta-carotene (vitamin A).",
-                  "de": "Carrot juice is extracted from fresh carrots, rich in beta-carotene (vitamin A).",
-                  "nl": "Carrot juice is extracted from fresh carrots, rich in beta-carotene (vitamin A)."
-        }
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level7;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Juices",
+      "es": "Pregunta 2 sobre Juices",
+      "de": "Frage 2 über Juices",
+      "nl": "Vraag 2 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Juices",
+      "es": "Pregunta 3 sobre Juices",
+      "de": "Frage 3 über Juices",
+      "nl": "Vraag 3 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Juices",
+      "es": "Pregunta 4 sobre Juices",
+      "de": "Frage 4 über Juices",
+      "nl": "Vraag 4 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Juices",
+      "es": "Pregunta 5 sobre Juices",
+      "de": "Frage 5 über Juices",
+      "nl": "Vraag 5 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Juices",
+      "es": "Pregunta 6 sobre Juices",
+      "de": "Frage 6 über Juices",
+      "nl": "Vraag 6 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Juices",
+      "es": "Pregunta 7 sobre Juices",
+      "de": "Frage 7 über Juices",
+      "nl": "Vraag 7 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Juices",
+      "es": "Pregunta 8 sobre Juices",
+      "de": "Frage 8 über Juices",
+      "nl": "Vraag 8 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Juices",
+      "es": "Pregunta 9 sobre Juices",
+      "de": "Frage 9 über Juices",
+      "nl": "Vraag 9 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Juices",
+      "es": "Pregunta 10 sobre Juices",
+      "de": "Frage 10 über Juices",
+      "nl": "Vraag 10 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Juices",
+      "es": "Pregunta 11 sobre Juices",
+      "de": "Frage 11 über Juices",
+      "nl": "Vraag 11 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Juices",
+      "es": "Pregunta 12 sobre Juices",
+      "de": "Frage 12 über Juices",
+      "nl": "Vraag 12 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Juices",
+      "es": "Pregunta 13 sobre Juices",
+      "de": "Frage 13 über Juices",
+      "nl": "Vraag 13 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Juices",
+      "es": "Pregunta 14 sobre Juices",
+      "de": "Frage 14 über Juices",
+      "nl": "Vraag 14 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Juices",
+      "es": "Pregunta 15 sobre Juices",
+      "de": "Frage 15 über Juices",
+      "nl": "Vraag 15 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Juices",
+      "es": "Pregunta 16 sobre Juices",
+      "de": "Frage 16 über Juices",
+      "nl": "Vraag 16 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Juices",
+      "es": "Pregunta 17 sobre Juices",
+      "de": "Frage 17 über Juices",
+      "nl": "Vraag 17 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Juices",
+      "es": "Pregunta 18 sobre Juices",
+      "de": "Frage 18 über Juices",
+      "nl": "Vraag 18 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Juices",
+      "es": "Pregunta 19 sobre Juices",
+      "de": "Frage 19 über Juices",
+      "nl": "Vraag 19 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Juices",
+      "es": "Pregunta 20 sobre Juices",
+      "de": "Frage 20 über Juices",
+      "nl": "Vraag 20 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Juices",
+      "es": "Pregunta 21 sobre Juices",
+      "de": "Frage 21 über Juices",
+      "nl": "Vraag 21 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Juices",
+      "es": "Pregunta 22 sobre Juices",
+      "de": "Frage 22 über Juices",
+      "nl": "Vraag 22 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Juices",
+      "es": "Pregunta 23 sobre Juices",
+      "de": "Frage 23 über Juices",
+      "nl": "Vraag 23 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Juices",
+      "es": "Pregunta 24 sobre Juices",
+      "de": "Frage 24 über Juices",
+      "nl": "Vraag 24 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Juices",
+      "es": "Pregunta 25 sobre Juices",
+      "de": "Frage 25 über Juices",
+      "nl": "Vraag 25 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Juices",
+      "es": "Pregunta 26 sobre Juices",
+      "de": "Frage 26 über Juices",
+      "nl": "Vraag 26 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Juices",
+      "es": "Pregunta 27 sobre Juices",
+      "de": "Frage 27 über Juices",
+      "nl": "Vraag 27 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Juices",
+      "es": "Pregunta 28 sobre Juices",
+      "de": "Frage 28 über Juices",
+      "nl": "Vraag 28 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Juices",
+      "es": "Pregunta 29 sobre Juices",
+      "de": "Frage 29 über Juices",
+      "nl": "Vraag 29 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Juices",
+      "es": "Pregunta 30 sobre Juices",
+      "de": "Frage 30 über Juices",
+      "nl": "Vraag 30 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Juices",
+      "es": "Pregunta 31 sobre Juices",
+      "de": "Frage 31 über Juices",
+      "nl": "Vraag 31 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Juices",
+      "es": "Pregunta 32 sobre Juices",
+      "de": "Frage 32 über Juices",
+      "nl": "Vraag 32 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Juices",
+      "es": "Pregunta 33 sobre Juices",
+      "de": "Frage 33 über Juices",
+      "nl": "Vraag 33 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Juices",
+      "es": "Pregunta 34 sobre Juices",
+      "de": "Frage 34 über Juices",
+      "nl": "Vraag 34 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Juices",
+      "es": "Pregunta 35 sobre Juices",
+      "de": "Frage 35 über Juices",
+      "nl": "Vraag 35 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Juices",
+      "es": "Pregunta 36 sobre Juices",
+      "de": "Frage 36 über Juices",
+      "nl": "Vraag 36 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Juices",
+      "es": "Pregunta 37 sobre Juices",
+      "de": "Frage 37 über Juices",
+      "nl": "Vraag 37 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Juices",
+      "es": "Pregunta 38 sobre Juices",
+      "de": "Frage 38 über Juices",
+      "nl": "Vraag 38 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Juices",
+      "es": "Pregunta 39 sobre Juices",
+      "de": "Frage 39 über Juices",
+      "nl": "Vraag 39 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Juices",
+      "es": "Pregunta 40 sobre Juices",
+      "de": "Frage 40 über Juices",
+      "nl": "Vraag 40 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Juices",
+      "es": "Pregunta 41 sobre Juices",
+      "de": "Frage 41 über Juices",
+      "nl": "Vraag 41 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Juices",
+      "es": "Pregunta 42 sobre Juices",
+      "de": "Frage 42 über Juices",
+      "nl": "Vraag 42 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Juices",
+      "es": "Pregunta 43 sobre Juices",
+      "de": "Frage 43 über Juices",
+      "nl": "Vraag 43 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Juices",
+      "es": "Pregunta 44 sobre Juices",
+      "de": "Frage 44 über Juices",
+      "nl": "Vraag 44 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Juices",
+      "es": "Pregunta 45 sobre Juices",
+      "de": "Frage 45 über Juices",
+      "nl": "Vraag 45 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Juices",
+      "es": "Pregunta 46 sobre Juices",
+      "de": "Frage 46 über Juices",
+      "nl": "Vraag 46 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Juices",
+      "es": "Pregunta 47 sobre Juices",
+      "de": "Frage 47 über Juices",
+      "nl": "Vraag 47 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Juices",
+      "es": "Pregunta 48 sobre Juices",
+      "de": "Frage 48 über Juices",
+      "nl": "Vraag 48 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Juices",
+      "es": "Pregunta 49 sobre Juices",
+      "de": "Frage 49 über Juices",
+      "nl": "Vraag 49 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Juices",
+      "es": "Pregunta 50 sobre Juices",
+      "de": "Frage 50 über Juices",
+      "nl": "Vraag 50 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Juices",
+      "es": "Pregunta 51 sobre Juices",
+      "de": "Frage 51 über Juices",
+      "nl": "Vraag 51 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Juices",
+      "es": "Pregunta 52 sobre Juices",
+      "de": "Frage 52 über Juices",
+      "nl": "Vraag 52 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Juices",
+      "es": "Pregunta 53 sobre Juices",
+      "de": "Frage 53 über Juices",
+      "nl": "Vraag 53 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Juices",
+      "es": "Pregunta 54 sobre Juices",
+      "de": "Frage 54 über Juices",
+      "nl": "Vraag 54 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Juices",
+      "es": "Pregunta 55 sobre Juices",
+      "de": "Frage 55 über Juices",
+      "nl": "Vraag 55 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Juices",
+      "es": "Pregunta 56 sobre Juices",
+      "de": "Frage 56 über Juices",
+      "nl": "Vraag 56 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Juices",
+      "es": "Pregunta 57 sobre Juices",
+      "de": "Frage 57 über Juices",
+      "nl": "Vraag 57 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Juices",
+      "es": "Pregunta 58 sobre Juices",
+      "de": "Frage 58 über Juices",
+      "nl": "Vraag 58 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Juices",
+      "es": "Pregunta 59 sobre Juices",
+      "de": "Frage 59 über Juices",
+      "nl": "Vraag 59 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Juices",
+      "es": "Pregunta 60 sobre Juices",
+      "de": "Frage 60 über Juices",
+      "nl": "Vraag 60 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Juices",
+      "es": "Pregunta 61 sobre Juices",
+      "de": "Frage 61 über Juices",
+      "nl": "Vraag 61 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Juices",
+      "es": "Pregunta 62 sobre Juices",
+      "de": "Frage 62 über Juices",
+      "nl": "Vraag 62 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Juices",
+      "es": "Pregunta 63 sobre Juices",
+      "de": "Frage 63 über Juices",
+      "nl": "Vraag 63 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Juices",
+      "es": "Pregunta 64 sobre Juices",
+      "de": "Frage 64 über Juices",
+      "nl": "Vraag 64 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Juices",
+      "es": "Pregunta 65 sobre Juices",
+      "de": "Frage 65 über Juices",
+      "nl": "Vraag 65 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Juices",
+      "es": "Pregunta 66 sobre Juices",
+      "de": "Frage 66 über Juices",
+      "nl": "Vraag 66 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Juices",
+      "es": "Pregunta 67 sobre Juices",
+      "de": "Frage 67 über Juices",
+      "nl": "Vraag 67 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Juices",
+      "es": "Pregunta 68 sobre Juices",
+      "de": "Frage 68 über Juices",
+      "nl": "Vraag 68 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Juices",
+      "es": "Pregunta 69 sobre Juices",
+      "de": "Frage 69 über Juices",
+      "nl": "Vraag 69 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Juices",
+      "es": "Pregunta 70 sobre Juices",
+      "de": "Frage 70 über Juices",
+      "nl": "Vraag 70 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Juices",
+      "es": "Pregunta 71 sobre Juices",
+      "de": "Frage 71 über Juices",
+      "nl": "Vraag 71 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Juices",
+      "es": "Pregunta 72 sobre Juices",
+      "de": "Frage 72 über Juices",
+      "nl": "Vraag 72 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Juices",
+      "es": "Pregunta 73 sobre Juices",
+      "de": "Frage 73 über Juices",
+      "nl": "Vraag 73 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Juices",
+      "es": "Pregunta 74 sobre Juices",
+      "de": "Frage 74 über Juices",
+      "nl": "Vraag 74 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Juices",
+      "es": "Pregunta 75 sobre Juices",
+      "de": "Frage 75 über Juices",
+      "nl": "Vraag 75 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Juices",
+      "es": "Pregunta 76 sobre Juices",
+      "de": "Frage 76 über Juices",
+      "nl": "Vraag 76 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Juices",
+      "es": "Pregunta 77 sobre Juices",
+      "de": "Frage 77 über Juices",
+      "nl": "Vraag 77 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Juices",
+      "es": "Pregunta 78 sobre Juices",
+      "de": "Frage 78 über Juices",
+      "nl": "Vraag 78 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Juices",
+      "es": "Pregunta 79 sobre Juices",
+      "de": "Frage 79 über Juices",
+      "nl": "Vraag 79 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Juices",
+      "es": "Pregunta 80 sobre Juices",
+      "de": "Frage 80 über Juices",
+      "nl": "Vraag 80 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Juices",
+      "es": "Pregunta 81 sobre Juices",
+      "de": "Frage 81 über Juices",
+      "nl": "Vraag 81 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Juices",
+      "es": "Pregunta 82 sobre Juices",
+      "de": "Frage 82 über Juices",
+      "nl": "Vraag 82 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Juices",
+      "es": "Pregunta 83 sobre Juices",
+      "de": "Frage 83 über Juices",
+      "nl": "Vraag 83 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Juices",
+      "es": "Pregunta 84 sobre Juices",
+      "de": "Frage 84 über Juices",
+      "nl": "Vraag 84 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Juices",
+      "es": "Pregunta 85 sobre Juices",
+      "de": "Frage 85 über Juices",
+      "nl": "Vraag 85 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Juices",
+      "es": "Pregunta 86 sobre Juices",
+      "de": "Frage 86 über Juices",
+      "nl": "Vraag 86 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Juices",
+      "es": "Pregunta 87 sobre Juices",
+      "de": "Frage 87 über Juices",
+      "nl": "Vraag 87 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Juices",
+      "es": "Pregunta 88 sobre Juices",
+      "de": "Frage 88 über Juices",
+      "nl": "Vraag 88 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Juices",
+      "es": "Pregunta 89 sobre Juices",
+      "de": "Frage 89 über Juices",
+      "nl": "Vraag 89 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Juices",
+      "es": "Pregunta 90 sobre Juices",
+      "de": "Frage 90 über Juices",
+      "nl": "Vraag 90 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Juices",
+      "es": "Pregunta 91 sobre Juices",
+      "de": "Frage 91 über Juices",
+      "nl": "Vraag 91 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Juices",
+      "es": "Pregunta 92 sobre Juices",
+      "de": "Frage 92 über Juices",
+      "nl": "Vraag 92 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Juices",
+      "es": "Pregunta 93 sobre Juices",
+      "de": "Frage 93 über Juices",
+      "nl": "Vraag 93 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Juices",
+      "es": "Pregunta 94 sobre Juices",
+      "de": "Frage 94 über Juices",
+      "nl": "Vraag 94 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Juices",
+      "es": "Pregunta 95 sobre Juices",
+      "de": "Frage 95 über Juices",
+      "nl": "Vraag 95 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Juices",
+      "es": "Pregunta 96 sobre Juices",
+      "de": "Frage 96 über Juices",
+      "nl": "Vraag 96 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Juices",
+      "es": "Pregunta 97 sobre Juices",
+      "de": "Frage 97 über Juices",
+      "nl": "Vraag 97 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Juices",
+      "es": "Pregunta 98 sobre Juices",
+      "de": "Frage 98 über Juices",
+      "nl": "Vraag 98 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Juices",
+      "es": "Pregunta 99 sobre Juices",
+      "de": "Frage 99 über Juices",
+      "nl": "Vraag 99 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Juices",
+      "es": "Pregunta 100 sobre Juices",
+      "de": "Frage 100 über Juices",
+      "nl": "Vraag 100 over Juices"
+    },
+    "options": [
+      {
+        "en": "Answer A for Juices",
+        "es": "Respuesta A para Juices",
+        "de": "Antwort A für Juices",
+        "nl": "Antwoord A voor Juices"
+      },
+      {
+        "en": "Answer B for Juices",
+        "es": "Respuesta B para Juices",
+        "de": "Antwort B für Juices",
+        "nl": "Antwoord B voor Juices"
+      },
+      {
+        "en": "Answer C for Juices",
+        "es": "Respuesta C para Juices",
+        "de": "Antwort C für Juices",
+        "nl": "Antwoord C voor Juices"
+      },
+      {
+        "en": "Answer D for Juices",
+        "es": "Respuesta D para Juices",
+        "de": "Antwort D für Juices",
+        "nl": "Antwoord D voor Juices"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Juices.",
+      "es": "Esta es la respuesta correcta sobre Juices.",
+      "de": "Dies ist die richtige Antwort über Juices.",
+      "nl": "Dit is het juiste antwoord over Juices."
+    }
   }
-})();
+]
+};

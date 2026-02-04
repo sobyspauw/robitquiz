@@ -1,840 +1,4104 @@
-// Quiz Template - Level 9: Boeken - Biografieën
-(function() {
-  const level9 = {
-    name: {
-      en: "Biographies",
-      es: "Biografías",
-      de: "Biografien",
-      nl: "Biografieën"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Biographies",
+      "es": "Pregunta 1 sobre Biographies",
+      "de": "Frage 1 über Biographies",
+      "nl": "Vraag 1 over Biographies"
     },
-    questions: [
+    "options": [
       {
-        question: {
-          en: "What was the exact date when the Secret Annex was raided and Anne Frank's family was arrested?",
-          es: "¿Cuál fue la fecha exacta en que se allanó la Casa de atrás y se arrestó a la familia de Ana Frank?",
-          de: "An welchem genauen Datum wurde das Hinterhaus durchsucht und Anne Franks Familie verhaftet?",
-          nl: "Wat was de exacte datum waarop het Achterhuis een inval kreeg en Anne Franks familie werd gearresteerd?"
-        },
-        options: [
-          { en: "August 4, 1944", es: "4 de agosto de 1944", de: "4. August 1944", nl: "4 augustus 1944" },
-          { en: "July 15, 1944", es: "15 de julio de 1944", de: "15. Juli 1944", nl: "15 juli 1944" },
-          { en: "September 3, 1944", es: "3 de septiembre de 1944", de: "3. September 1944", nl: "3 september 1944" },
-          { en: "June 6, 1944", es: "6 de junio de 1944", de: "6. Juni 1944", nl: "6 juni 1944" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Secret Annex was raided on August 4, 1944, by the Sicherheitsdienst (SD) led by SS-Oberscharführer Karl Silberbauer. The identity of the betrayer has never been definitively established, though several theories exist. Anne's last diary entry was three days earlier on August 1, 1944.",
-          es: "La Casa de atrás fue allanada el 4 de agosto de 1944 por el Sicherheitsdienst (SD) dirigido por el SS-Oberscharführer Karl Silberbauer. La identidad del traidor nunca se ha establecido definitivamente, aunque existen varias teorías. La última entrada del diario de Ana fue tres días antes, el 1 de agosto de 1944.",
-          de: "Das Hinterhaus wurde am 4. August 1944 vom Sicherheitsdienst (SD) unter Leitung von SS-Oberscharführer Karl Silberbauer durchsucht. Die Identität des Verräters wurde nie definitiv geklärt, obwohl mehrere Theorien existieren. Annes letzter Tagebucheintrag war drei Tage zuvor am 1. August 1944.",
-          nl: "Het Achterhuis kreeg een inval op 4 augustus 1944 door de Sicherheitsdienst (SD) onder leiding van SS-Oberscharführer Karl Silberbauer. De identiteit van de verrader is nooit definitief vastgesteld, hoewel er verschillende theorieën bestaan. Anne's laatste dagboeknotitie was drie dagen eerder op 1 augustus 1944."
-        }
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
       },
       {
-        question: {
-          en: "What was Nelson Mandela's clan name, which became his honorific title?",
-          es: "¿Cuál era el nombre de clan de Nelson Mandela, que se convirtió en su título honorífico?",
-          de: "Was war Nelson Mandelas Clanname, der zu seinem Ehrentitel wurde?",
-          nl: "Wat was Nelson Mandela's clannaam, die zijn eretitel werd?"
-        },
-        options: [
-          { en: "Rolihlahla", es: "Rolihlahla", de: "Rolihlahla", nl: "Rolihlahla" },
-          { en: "Madiba", es: "Madiba", de: "Madiba", nl: "Madiba" },
-          { en: "Dalibhunga", es: "Dalibhunga", de: "Dalibhunga", nl: "Dalibhunga" },
-          { en: "Thembu", es: "Thembu", de: "Thembu", nl: "Thembu" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Madiba was Mandela's clan name, referencing the Thembu chief who ruled in the 18th century. This became an affectionate honorific by which South Africans referred to him. His birth name was Rolihlahla, his circumcision name was Dalibhunga, and he was from the Thembu ethnic group.",
-          es: "Madiba era el nombre de clan de Mandela, en referencia al jefe Thembu que gobernó en el siglo XVIII. Este se convirtió en un honorífico afectuoso con el que los sudafricanos se referían a él. Su nombre de nacimiento era Rolihlahla, su nombre de circuncisión era Dalibhunga, y era del grupo étnico Thembu.",
-          de: "Madiba war Mandelas Clanname, der sich auf den Thembu-Häuptling bezog, der im 18. Jahrhundert herrschte. Dies wurde zu einem liebevollen Ehrentitel, mit dem Südafrikaner ihn bezeichneten. Sein Geburtsname war Rolihlahla, sein Beschneidungsname war Dalibhunga, und er stammte aus der ethnischen Gruppe der Thembu.",
-          nl: "Madiba was Mandela's clannaam, verwijzend naar de Thembu-leider die in de 18e eeuw regeerde. Dit werd een liefkozende eretitel waarmee Zuid-Afrikanen naar hem verwezen. Zijn geboortenaam was Rolihlahla, zijn besnijdenisnaam was Dalibhunga, en hij was van de Thembu etnische groep."
-        }
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
       },
       {
-        question: {
-          en: "In 'Educated', what false belief did Tara Westover's father hold that prevented him from seeking proper medical care or allowing his children to attend school?",
-          es: "En 'Una educación', ¿qué creencia falsa tenía el padre de Tara Westover que le impedía buscar atención médica adecuada o permitir que sus hijos asistieran a la escuela?",
-          de: "Welche falsche Überzeugung hatte Tara Westovers Vater in 'Befreit', die ihn daran hinderte, angemessene medizinische Versorgung zu suchen oder seinen Kindern zu erlauben, zur Schule zu gehen?",
-          nl: "Welk vals geloof had Tara Westovers vader in 'Het Besluit' dat hem ervan weerhield om goede medische zorg te zoeken of zijn kinderen toe te staan naar school te gaan?"
-        },
-        options: [
-          { en: "He believed the government would brainwash children and control citizens", es: "Creía que el gobierno lavaría el cerebro a los niños y controlaría a los ciudadanos", de: "Er glaubte, die Regierung würde Kinder einer Gehirnwäsche unterziehen und Bürger kontrollieren", nl: "Hij geloofde dat de overheid kinderen zou hersenspoelen en burgers zou controleren" },
-          { en: "He was Amish and rejected modern technology", es: "Era amish y rechazaba la tecnología moderna", de: "Er war Amish und lehnte moderne Technologie ab", nl: "Hij was Amish en verwierp moderne technologie" },
-          { en: "He believed in natural selection only", es: "Creía solo en la selección natural", de: "Er glaubte nur an natürliche Selektion", nl: "Hij geloofde alleen in natuurlijke selectie" },
-          { en: "He was following a specific religious sect's teachings", es: "Seguía las enseñanzas de una secta religiosa específica", de: "Er folgte den Lehren einer bestimmten religiösen Sekte", nl: "Hij volgde de leringen van een specifieke religieuze sekte" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Gene (LaRue) Westover was a Mormon fundamentalist survivalist who believed the federal government was part of an Illuminati conspiracy. He thought public schools would indoctrinate children, doctors were part of a socialist medical establishment, and that the Days of Abomination were imminent. His paranoid delusions, possibly stemming from bipolar disorder, dominated the family's isolated existence.",
-          es: "Gene (LaRue) Westover era un supervivencialista fundamentalista mormón que creía que el gobierno federal era parte de una conspiración Illuminati. Pensaba que las escuelas públicas adoctrinarían a los niños, los médicos eran parte de un establecimiento médico socialista, y que los Días de la Abominación eran inminentes. Sus delirios paranoicos, posiblemente derivados del trastorno bipolar, dominaron la existencia aislada de la familia.",
-          de: "Gene (LaRue) Westover war ein mormonischer fundamentalistischer Überlebenskünstler, der glaubte, die Bundesregierung sei Teil einer Illuminati-Verschwörung. Er dachte, öffentliche Schulen würden Kinder indoktrinieren, Ärzte seien Teil eines sozialistischen medizinischen Establishments, und die Tage der Abscheulichkeit stünden bevor. Seine paranoiden Wahnvorstellungen, möglicherweise aus einer bipolaren Störung stammend, beherrschten die isolierte Existenz der Familie.",
-          nl: "Gene (LaRue) Westover was een mormoonse fundamentalistische survivalist die geloofde dat de federale overheid deel uitmaakte van een Illuminati-samenzwering. Hij dacht dat openbare scholen kinderen zouden indoctrineren, artsen deel uitmaakten van een socialistisch medisch establishment, en dat de Dagen van Gruwel ophanden waren. Zijn paranoïde waanideeën, mogelijk voortkomend uit een bipolaire stoornis, domineerden het geïsoleerde bestaan van de familie."
-        }
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
       },
       {
-        question: {
-          en: "What was the name Malcolm X adopted after his pilgrimage to Mecca and break with the Nation of Islam?",
-          es: "¿Qué nombre adoptó Malcolm X después de su peregrinación a La Meca y su ruptura con la Nación del Islam?",
-          de: "Welchen Namen nahm Malcolm X nach seiner Pilgerfahrt nach Mekka und seinem Bruch mit der Nation of Islam an?",
-          nl: "Welke naam nam Malcolm X aan na zijn bedevaart naar Mekka en breuk met de Nation of Islam?"
-        },
-        options: [
-          { en: "El-Hajj Malik El-Shabazz", es: "El-Hajj Malik El-Shabazz", de: "El-Hajj Malik El-Shabazz", nl: "El-Hajj Malik El-Shabazz" },
-          { en: "Malcolm Shabazz", es: "Malcolm Shabazz", de: "Malcolm Shabazz", nl: "Malcolm Shabazz" },
-          { en: "Malik Al-Hajj", es: "Malik Al-Hajj", de: "Malik Al-Hajj", nl: "Malik Al-Hajj" },
-          { en: "Muhammad Ali Shabazz", es: "Muhammad Ali Shabazz", de: "Muhammad Ali Shabazz", nl: "Muhammad Ali Shabazz" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "After his 1964 pilgrimage to Mecca (Hajj), Malcolm X adopted the name El-Hajj Malik El-Shabazz. 'El-Hajj' indicates he had completed the Hajj, 'Malik' means 'king' in Arabic, and 'Shabazz' was a name used by the Nation of Islam referring to a supposed ancient Black tribe. He was assassinated less than a year later in February 1965.",
-          es: "Después de su peregrinación a La Meca (Hajj) en 1964, Malcolm X adoptó el nombre El-Hajj Malik El-Shabazz. 'El-Hajj' indica que había completado el Hajj, 'Malik' significa 'rey' en árabe, y 'Shabazz' era un nombre usado por la Nación del Islam refiriéndose a una supuesta antigua tribu negra. Fue asesinado menos de un año después en febrero de 1965.",
-          de: "Nach seiner Pilgerfahrt nach Mekka (Hadsch) im Jahr 1964 nahm Malcolm X den Namen El-Hajj Malik El-Shabazz an. 'El-Hajj' zeigt an, dass er den Hadsch vollendet hatte, 'Malik' bedeutet 'König' auf Arabisch, und 'Shabazz' war ein Name, der von der Nation of Islam verwendet wurde und sich auf einen angeblichen alten schwarzen Stamm bezog. Er wurde weniger als ein Jahr später im Februar 1965 ermordet.",
-          nl: "Na zijn bedevaart naar Mekka (Hadj) in 1964 nam Malcolm X de naam El-Hajj Malik El-Shabazz aan. 'El-Hajj' geeft aan dat hij de Hadj had voltooid, 'Malik' betekent 'koning' in het Arabisch, en 'Shabazz' was een naam die door de Nation of Islam werd gebruikt verwijzend naar een vermeende oude zwarte stam. Hij werd minder dan een jaar later vermoord in februari 1965."
-        }
-      },
-      {
-        question: {
-          en: "In Benjamin Franklin's autobiography, what was the name of the subscription library he founded in Philadelphia in 1731?",
-          es: "En la autobiografía de Benjamin Franklin, ¿cómo se llamaba la biblioteca de suscripción que fundó en Filadelfia en 1731?",
-          de: "Wie hieß die Abonnementbibliothek, die Benjamin Franklin 1731 in Philadelphia gründete, laut seiner Autobiografie?",
-          nl: "Hoe heette de abonnementsbibliotheek die Benjamin Franklin in 1731 in Philadelphia oprichtte volgens zijn autobiografie?"
-        },
-        options: [
-          { en: "The Philadelphia Library", es: "La Biblioteca de Filadelfia", de: "Die Philadelphia-Bibliothek", nl: "De Philadelphia Bibliotheek" },
-          { en: "The Library Company of Philadelphia", es: "La Compañía de Biblioteca de Filadelfia", de: "Die Library Company of Philadelphia", nl: "De Library Company of Philadelphia" },
-          { en: "Franklin's Reading Room", es: "La Sala de Lectura de Franklin", de: "Franklins Lesezimmer", nl: "Franklin's Leeszaal" },
-          { en: "The American Philosophical Society Library", es: "La Biblioteca de la Sociedad Filosófica Americana", de: "Die Bibliothek der American Philosophical Society", nl: "De American Philosophical Society Bibliotheek" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The Library Company of Philadelphia, founded by Franklin in 1731, was the first subscription library in America. Members paid dues to borrow books, making literature accessible beyond the wealthy elite. It became a model for public libraries across America and still exists today as a scholarly research library.",
-          es: "La Compañía de Biblioteca de Filadelfia, fundada por Franklin en 1731, fue la primera biblioteca de suscripción en América. Los miembros pagaban cuotas para tomar prestados libros, haciendo la literatura accesible más allá de la élite adinerada. Se convirtió en un modelo para las bibliotecas públicas en toda América y todavía existe hoy como una biblioteca de investigación académica.",
-          de: "Die Library Company of Philadelphia, 1731 von Franklin gegründet, war die erste Abonnementbibliothek in Amerika. Mitglieder zahlten Beiträge, um Bücher auszuleihen, wodurch Literatur über die wohlhabende Elite hinaus zugänglich wurde. Sie wurde zum Vorbild für öffentliche Bibliotheken in ganz Amerika und existiert heute noch als wissenschaftliche Forschungsbibliothek.",
-          nl: "De Library Company of Philadelphia, opgericht door Franklin in 1731, was de eerste abonnementsbibliotheek in Amerika. Leden betaalden contributie om boeken te lenen, waardoor literatuur toegankelijk werd voor meer dan alleen de rijke elite. Het werd een model voor openbare bibliotheken in heel Amerika en bestaat vandaag nog steeds als een wetenschappelijke onderzoeksbibliotheek."
-        }
-      },
-      {
-        question: {
-          en: "During which year was Nelson Mandela moved from Robben Island to Pollsmoor Prison, marking a change in his imprisonment conditions?",
-          es: "¿En qué año fue trasladado Nelson Mandela de la Isla Robben a la Prisión Pollsmoor, marcando un cambio en sus condiciones de encarcelamiento?",
-          de: "In welchem Jahr wurde Nelson Mandela von Robben Island ins Pollsmoor-Gefängnis verlegt, was eine Änderung seiner Haftbedingungen markierte?",
-          nl: "In welk jaar werd Nelson Mandela overgebracht van Robbeneiland naar Pollsmoor-gevangenis, wat een verandering in zijn gevangenschap markeerde?"
-        },
-        options: [
-          { en: "1976", es: "1976", de: "1976", nl: "1976" },
-          { en: "1980", es: "1980", de: "1980", nl: "1980" },
-          { en: "1982", es: "1982", de: "1982", nl: "1982" },
-          { en: "1985", es: "1985", de: "1985", nl: "1985" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Mandela was transferred from Robben Island to Pollsmoor Prison in 1982, after 18 years on the island. The move was intended to isolate him from younger political prisoners, but ironically provided better conditions and eventually facilitated secret negotiations with the government. He spent six years at Pollsmoor before being moved to Victor Verster in 1988.",
-          es: "Mandela fue trasladado de la Isla Robben a la Prisión Pollsmoor en 1982, después de 18 años en la isla. El traslado tenía la intención de aislarlo de los prisioneros políticos más jóvenes, pero irónicamente proporcionó mejores condiciones y eventualmente facilitó negociaciones secretas con el gobierno. Pasó seis años en Pollsmoor antes de ser trasladado a Victor Verster en 1988.",
-          de: "Mandela wurde 1982 nach 18 Jahren auf der Insel von Robben Island ins Pollsmoor-Gefängnis verlegt. Die Verlegung sollte ihn von jüngeren politischen Gefangenen isolieren, bot aber ironischerweise bessere Bedingungen und ermöglichte schließlich geheime Verhandlungen mit der Regierung. Er verbrachte sechs Jahre in Pollsmoor, bevor er 1988 nach Victor Verster verlegt wurde.",
-          nl: "Mandela werd in 1982 overgebracht van Robbeneiland naar Pollsmoor-gevangenis, na 18 jaar op het eiland. De verhuizing was bedoeld om hem te isoleren van jongere politieke gevangenen, maar bood ironisch genoeg betere omstandigheden en faciliteerde uiteindelijk geheime onderhandelingen met de regering. Hij bracht zes jaar door in Pollsmoor voordat hij in 1988 naar Victor Verster werd overgebracht."
-        }
-      },
-      {
-        question: {
-          en: "What specific type of work did Helen Keller and Anne Sullivan perform together to raise funds for the American Foundation for the Blind?",
-          es: "¿Qué tipo específico de trabajo realizaron juntas Helen Keller y Anne Sullivan para recaudar fondos para la Fundación Americana para Ciegos?",
-          de: "Welche spezifische Art von Arbeit führten Helen Keller und Anne Sullivan gemeinsam durch, um Gelder für die American Foundation for the Blind zu sammeln?",
-          nl: "Welk specifiek type werk voerden Helen Keller en Anne Sullivan samen uit om geld in te zamelen voor de American Foundation for the Blind?"
-        },
-        options: [
-          { en: "Writing books only", es: "Solo escribir libros", de: "Nur Bücher schreiben", nl: "Alleen boeken schrijven" },
-          { en: "Vaudeville performances", es: "Actuaciones de vodevil", de: "Vaudeville-Auftritte", nl: "Vaudeville-optredens" },
-          { en: "Radio broadcasts", es: "Transmisiones de radio", de: "Radiosendungen", nl: "Radio-uitzendingen" },
-          { en: "University lectures only", es: "Solo conferencias universitarias", de: "Nur Universitätsvorlesungen", nl: "Alleen universitaire lezingen" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "From 1920-1924, Helen Keller and Anne Sullivan performed on the vaudeville circuit, appearing in theaters across America. Their act demonstrated Helen's abilities and raised awareness about disabilities while earning substantial funds. Though some criticized it as undignified, Keller defended it as effective advocacy and honest work.",
-          es: "De 1920 a 1924, Helen Keller y Anne Sullivan actuaron en el circuito de vodevil, apareciendo en teatros de toda América. Su acto demostraba las habilidades de Helen y creaba conciencia sobre las discapacidades mientras ganaba fondos sustanciales. Aunque algunos lo criticaron como indigno, Keller lo defendió como una defensa efectiva y trabajo honesto.",
-          de: "Von 1920 bis 1924 traten Helen Keller und Anne Sullivan im Vaudeville-Circuit auf und erschienen in Theatern in ganz Amerika. Ihre Darbietung demonstrierte Helens Fähigkeiten und schuf Bewusstsein für Behinderungen, während sie erhebliche Mittel einbrachte. Obwohl einige es als unwürdig kritisierten, verteidigte Keller es als effektive Interessenvertretung und ehrliche Arbeit.",
-          nl: "Van 1920-1924 traden Helen Keller en Anne Sullivan op in het vaudeville-circuit en verschenen in theaters in heel Amerika. Hun act toonde Helen's vaardigheden en creëerde bewustzijn over handicaps terwijl ze aanzienlijke fondsen verdienen. Hoewel sommigen het als onwaardig bekritiseerden, verdedigde Keller het als effectieve belangenbehartiging en eerlijk werk."
-        }
-      },
-      {
-        question: {
-          en: "In 'I Know Why the Caged Bird Sings', what was the name of Maya Angelou's son, born when she was only 17?",
-          es: "En 'Yo sé por qué canta el pájaro enjaulado', ¿cómo se llamaba el hijo de Maya Angelou, nacido cuando ella tenía solo 17 años?",
-          de: "Wie hieß Maya Angelous Sohn in 'Ich weiß, warum der gefangene Vogel singt', der geboren wurde, als sie erst 17 Jahre alt war?",
-          nl: "Hoe heette Maya Angelou's zoon in 'Ik weet waarom gekooide vogels zingen', geboren toen ze pas 17 jaar oud was?"
-        },
-        options: [
-          { en: "Bailey Johnson Jr.", es: "Bailey Johnson Jr.", de: "Bailey Johnson Jr.", nl: "Bailey Johnson Jr." },
-          { en: "Clyde Bailey Johnson", es: "Clyde Bailey Johnson", de: "Clyde Bailey Johnson", nl: "Clyde Bailey Johnson" },
-          { en: "Guy Johnson", es: "Guy Johnson", de: "Guy Johnson", nl: "Guy Johnson" },
-          { en: "Marcus Johnson", es: "Marcus Johnson", de: "Marcus Johnson", nl: "Marcus Johnson" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Guy Johnson was born to Maya Angelou in 1945 when she was 17 years old. The memoir ends with his birth. Maya initially feared she wouldn't be a good mother, but her mother helped her overcome these fears. Guy later became a writer and poet himself and has written about growing up with his famous mother.",
-          es: "Guy Johnson nació de Maya Angelou en 1945 cuando ella tenía 17 años. Las memorias terminan con su nacimiento. Maya inicialmente temía que no sería una buena madre, pero su madre la ayudó a superar estos temores. Guy más tarde se convirtió en escritor y poeta y ha escrito sobre crecer con su famosa madre.",
-          de: "Guy Johnson wurde 1945 von Maya Angelou geboren, als sie 17 Jahre alt war. Die Memoiren enden mit seiner Geburt. Maya befürchtete zunächst, keine gute Mutter zu sein, aber ihre Mutter half ihr, diese Ängste zu überwinden. Guy wurde später selbst Schriftsteller und Dichter und hat über das Aufwachsen mit seiner berühmten Mutter geschrieben.",
-          nl: "Guy Johnson werd in 1945 geboren bij Maya Angelou toen ze 17 jaar oud was. De memoires eindigen met zijn geboorte. Maya was aanvankelijk bang dat ze geen goede moeder zou zijn, maar haar moeder hielp haar deze angsten te overwinnen. Guy werd later zelf schrijver en dichter en heeft geschreven over opgroeien met zijn beroemde moeder."
-        }
-      },
-      {
-        question: {
-          en: "In 'The Glass Castle', what chronic health condition did Jeannette Walls' father Rex suffer from that contributed to his inability to maintain employment?",
-          es: "En 'El castillo de cristal', ¿qué condición de salud crónica sufría el padre de Jeannette Walls, Rex, que contribuyó a su incapacidad para mantener un empleo?",
-          de: "An welcher chronischen Gesundheitszustand litt Jeannette Walls' Vater Rex in 'Schloss aus Glas', der zu seiner Unfähigkeit beitrug, eine Anstellung zu behalten?",
-          nl: "Aan welke chronische gezondheidstoestand leed Jeannette Walls' vader Rex in 'De glazen burcht' die bijdroeg aan zijn onvermogen om werk te behouden?"
-        },
-        options: [
-          { en: "Diabetes", es: "Diabetes", de: "Diabetes", nl: "Diabetes" },
-          { en: "Tuberculosis", es: "Tuberculosis", de: "Tuberkulose", nl: "Tuberculose" },
-          { en: "Alcoholism", es: "Alcoholismo", de: "Alkoholismus", nl: "Alcoholisme" },
-          { en: "Heart disease", es: "Enfermedad cardíaca", de: "Herzkrankheit", nl: "Hartziekte" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Rex Walls suffered from severe alcoholism throughout the memoir. His drinking led to lost jobs, violent outbursts, stealing from his children, and putting the family in danger. Despite his intelligence and charm, his addiction prevented him from providing for his family. He died in 1994 from a heart attack related to his alcoholism.",
-          es: "Rex Walls sufrió de alcoholismo severo a lo largo de las memorias. Su consumo de alcohol llevó a trabajos perdidos, estallidos violentos, robo a sus hijos y poner a la familia en peligro. A pesar de su inteligencia y encanto, su adicción le impidió proveer para su familia. Murió en 1994 de un ataque al corazón relacionado con su alcoholismo.",
-          de: "Rex Walls litt in den gesamten Memoiren an schwerem Alkoholismus. Sein Trinken führte zu verlorenen Jobs, gewalttätigen Ausbrüchen, Diebstahl von seinen Kindern und Gefährdung der Familie. Trotz seiner Intelligenz und seines Charmes hinderte ihn seine Sucht daran, für seine Familie zu sorgen. Er starb 1994 an einem Herzinfarkt im Zusammenhang mit seinem Alkoholismus.",
-          nl: "Rex Walls leed aan ernstig alcoholisme door de hele memoires heen. Zijn drankgebruik leidde tot verloren banen, gewelddadige uitbarstingen, stelen van zijn kinderen en het in gevaar brengen van het gezin. Ondanks zijn intelligentie en charme verhinderde zijn verslaving hem om voor zijn gezin te zorgen. Hij stierf in 1994 aan een hartaanval gerelateerd aan zijn alcoholisme."
-        }
-      },
-      {
-        question: {
-          en: "In Frederick Douglass's narrative, what was the name of his first wife whom he married shortly after escaping to freedom?",
-          es: "En la narrativa de Frederick Douglass, ¿cómo se llamaba su primera esposa con quien se casó poco después de escapar a la libertad?",
-          de: "Wie hieß Frederick Douglass' erste Frau, die er kurz nach seiner Flucht in die Freiheit heiratete, laut seiner Erzählung?",
-          nl: "Hoe heette Frederick Douglass' eerste vrouw met wie hij trouwde kort na zijn ontsnapping naar de vrijheid volgens zijn verhaal?"
-        },
-        options: [
-          { en: "Anna Murray", es: "Anna Murray", de: "Anna Murray", nl: "Anna Murray" },
-          { en: "Helen Pitts", es: "Helen Pitts", de: "Helen Pitts", nl: "Helen Pitts" },
-          { en: "Harriet Tubman", es: "Harriet Tubman", de: "Harriet Tubman", nl: "Harriet Tubman" },
-          { en: "Sojourner Truth", es: "Sojourner Truth", de: "Sojourner Truth", nl: "Sojourner Truth" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Anna Murray was a free Black woman from Baltimore who helped Douglass escape and whom he married on September 15, 1838, just 11 days after reaching New York. She had saved money to help fund his escape. They remained married for 44 years until her death in 1882, having five children together. He later married Helen Pitts, a white suffragist.",
-          es: "Anna Murray era una mujer negra libre de Baltimore que ayudó a Douglass a escapar y con quien se casó el 15 de septiembre de 1838, solo 11 días después de llegar a Nueva York. Ella había ahorrado dinero para ayudar a financiar su escape. Permanecieron casados durante 44 años hasta su muerte en 1882, teniendo cinco hijos juntos. Más tarde se casó con Helen Pitts, una sufragista blanca.",
-          de: "Anna Murray war eine freie schwarze Frau aus Baltimore, die Douglass bei der Flucht half und die er am 15. September 1838, nur 11 Tage nach seiner Ankunft in New York, heiratete. Sie hatte Geld gespart, um seine Flucht zu finanzieren. Sie blieben 44 Jahre lang verheiratet bis zu ihrem Tod 1882 und hatten fünf Kinder zusammen. Später heiratete er Helen Pitts, eine weiße Suffragette.",
-          nl: "Anna Murray was een vrije zwarte vrouw uit Baltimore die Douglass hielp ontsnappen en met wie hij trouwde op 15 september 1838, slechts 11 dagen na aankomst in New York. Ze had geld gespaard om zijn ontsnapping te financieren. Ze bleven 44 jaar getrouwd tot haar dood in 1882 en kregen vijf kinderen samen. Hij trouwde later met Helen Pitts, een blanke suffragette."
-        }
-      },
-      {
-        question: {
-          en: "In 'Becoming', what was the name of Michelle Obama's brother who became a basketball coach?",
-          es: "En 'Mi historia', ¿cómo se llamaba el hermano de Michelle Obama que se convirtió en entrenador de baloncesto?",
-          de: "Wie hieß Michelle Obamas Bruder in 'Becoming', der Basketballtrainer wurde?",
-          nl: "Hoe heette Michelle Obama's broer in 'Mijn verhaal' die basketbalcoach werd?"
-        },
-        options: [
-          { en: "Marcus Robinson", es: "Marcus Robinson", de: "Marcus Robinson", nl: "Marcus Robinson" },
-          { en: "Craig Robinson", es: "Craig Robinson", de: "Craig Robinson", nl: "Craig Robinson" },
-          { en: "Fraser Robinson IV", es: "Fraser Robinson IV", de: "Fraser Robinson IV", nl: "Fraser Robinson IV" },
-          { en: "David Robinson", es: "David Robinson", de: "David Robinson", nl: "David Robinson" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Craig Robinson is Michelle Obama's older brother. He played basketball at Princeton University and later became a basketball coach, including serving as head coach at Oregon State University and Brown University. Craig was very protective of Michelle and initially skeptical of Barack Obama when they started dating, famously playing basketball with him to assess his character.",
-          es: "Craig Robinson es el hermano mayor de Michelle Obama. Jugó baloncesto en la Universidad de Princeton y más tarde se convirtió en entrenador de baloncesto, incluyendo servir como entrenador principal en la Universidad Estatal de Oregon y la Universidad Brown. Craig era muy protector con Michelle e inicialmente escéptico de Barack Obama cuando comenzaron a salir, famosamente jugando baloncesto con él para evaluar su carácter.",
-          de: "Craig Robinson ist Michelle Obamas älterer Bruder. Er spielte Basketball an der Princeton University und wurde später Basketballtrainer, unter anderem als Cheftrainer an der Oregon State University und der Brown University. Craig war sehr beschützend gegenüber Michelle und zunächst skeptisch gegenüber Barack Obama, als sie sich zu daten begannen, und spielte berühmt Basketball mit ihm, um seinen Charakter einzuschätzen.",
-          nl: "Craig Robinson is Michelle Obama's oudere broer. Hij speelde basketbal aan Princeton University en werd later basketbalcoach, inclusief als hoofdcoach aan Oregon State University en Brown University. Craig was erg beschermend over Michelle en aanvankelijk sceptisch over Barack Obama toen ze begonnen te daten, en speelde beroemd basketbal met hem om zijn karakter te beoordelen."
-        }
-      },
-      {
-        question: {
-          en: "What year did Malala Yousafzai become the youngest person ever to win the Nobel Peace Prize?",
-          es: "¿En qué año se convirtió Malala Yousafzai en la persona más joven en ganar el Premio Nobel de la Paz?",
-          de: "In welchem Jahr wurde Malala Yousafzai die jüngste Person, die jemals den Friedensnobelpreis gewonnen hat?",
-          nl: "In welk jaar werd Malala Yousafzai de jongste persoon ooit die de Nobelprijs voor de Vrede won?"
-        },
-        options: [
-          { en: "2012", es: "2012", de: "2012", nl: "2012" },
-          { en: "2013", es: "2013", de: "2013", nl: "2013" },
-          { en: "2014", es: "2014", de: "2014", nl: "2014" },
-          { en: "2015", es: "2015", de: "2015", nl: "2015" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Malala Yousafzai was awarded the Nobel Peace Prize in 2014 at age 17, sharing it with Indian child rights activist Kailash Satyarthi. She remains the youngest Nobel laureate in any category. The prize recognized her struggle against the suppression of children and young people and for the right of all children to education.",
-          es: "Malala Yousafzai recibió el Premio Nobel de la Paz en 2014 a los 17 años, compartiéndolo con el activista indio por los derechos de los niños Kailash Satyarthi. Sigue siendo la laureada Nobel más joven en cualquier categoría. El premio reconoció su lucha contra la supresión de niños y jóvenes y por el derecho de todos los niños a la educación.",
-          de: "Malala Yousafzai wurde 2014 im Alter von 17 Jahren mit dem Friedensnobelpreis ausgezeichnet, den sie mit dem indischen Kinderrechtsaktivisten Kailash Satyarthi teilte. Sie bleibt die jüngste Nobelpreisträgerin in jeder Kategorie. Der Preis würdigte ihren Kampf gegen die Unterdrückung von Kindern und Jugendlichen und für das Recht aller Kinder auf Bildung.",
-          nl: "Malala Yousafzai ontving de Nobelprijs voor de Vrede in 2014 op 17-jarige leeftijd, die ze deelde met de Indiase kinderrechtenactivist Kailash Satyarthi. Ze blijft de jongste Nobelprijswinnaar in welke categorie dan ook. De prijs erkende haar strijd tegen de onderdrukking van kinderen en jongeren en voor het recht van alle kinderen op onderwijs."
-        }
-      },
-      {
-        question: {
-          en: "In 'Angela's Ashes', what was the name of Frank McCourt's youngest brother who died in infancy?",
-          es: "En 'Las cenizas de Ángela', ¿cómo se llamaba el hermano menor de Frank McCourt que murió en la infancia?",
-          de: "Wie hieß Frank McCourts jüngster Bruder in 'Die Asche meiner Mutter', der im Säuglingsalter starb?",
-          nl: "Hoe heette Frank McCourts jongste broer in 'De as van mijn moeder' die in de kindertijd stierf?"
-        },
-        options: [
-          { en: "Eugene", es: "Eugene", de: "Eugene", nl: "Eugene" },
-          { en: "Michael", es: "Michael", de: "Michael", nl: "Michael" },
-          { en: "Margaret", es: "Margaret", de: "Margaret", nl: "Margaret" },
-          { en: "Alphonsus", es: "Alphonsus", de: "Alphonsus", nl: "Alphonsus" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Margaret (also called 'the baby' in the memoir) was Frank's baby sister who died at seven weeks old in 1935, shortly after the family arrived in Ireland from America. Her death devastated the family, particularly Angela. The twins Oliver and Eugene died later. Alphonsus (Alphie) was the youngest brother who survived. Margaret's death is one of the first major tragedies in the memoir.",
-          es: "Margaret (también llamada 'el bebé' en las memorias) era la hermana bebé de Frank que murió a las siete semanas en 1935, poco después de que la familia llegara a Irlanda desde América. Su muerte devastó a la familia, particularmente a Ángela. Los gemelos Oliver y Eugene murieron después. Alphonsus (Alphie) era el hermano menor que sobrevivió. La muerte de Margaret es una de las primeras grandes tragedias en las memorias.",
-          de: "Margaret (in den Memoiren auch 'das Baby' genannt) war Franks kleine Schwester, die 1935 im Alter von sieben Wochen starb, kurz nachdem die Familie aus Amerika nach Irland gekommen war. Ihr Tod verwüstete die Familie, besonders Angela. Die Zwillinge Oliver und Eugene starben später. Alphonsus (Alphie) war der jüngste Bruder, der überlebte. Margarets Tod ist eine der ersten großen Tragödien in den Memoiren.",
-          nl: "Margaret (ook 'de baby' genoemd in de memoires) was Franks kleine zusje die op zevenweekse leeftijd stierf in 1935, kort nadat het gezin uit Amerika in Ierland aankwam. Haar dood was verwoestend voor het gezin, vooral voor Angela. De tweeling Oliver en Eugene stierven later. Alphonsus (Alphie) was de jongste broer die overleefde. Margarets dood is een van de eerste grote tragedies in de memoires."
-        }
-      },
-      {
-        question: {
-          en: "What prestigious scholarship did Tara Westover receive to study at Cambridge University?",
-          es: "¿Qué prestigiosa beca recibió Tara Westover para estudiar en la Universidad de Cambridge?",
-          de: "Welches prestigeträchtige Stipendium erhielt Tara Westover für ihr Studium an der Universität Cambridge?",
-          nl: "Welke prestigieuze beurs ontving Tara Westover om te studeren aan Cambridge University?"
-        },
-        options: [
-          { en: "Rhodes Scholarship", es: "Beca Rhodes", de: "Rhodes-Stipendium", nl: "Rhodes-beurs" },
-          { en: "Fulbright Scholarship", es: "Beca Fulbright", de: "Fulbright-Stipendium", nl: "Fulbright-beurs" },
-          { en: "Gates Cambridge Scholarship", es: "Beca Gates Cambridge", de: "Gates-Cambridge-Stipendium", nl: "Gates Cambridge-beurs" },
-          { en: "Marshall Scholarship", es: "Beca Marshall", de: "Marshall-Stipendium", nl: "Marshall-beurs" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Tara Westover received the Gates Cambridge Scholarship, funded by the Bill & Melinda Gates Foundation. This highly competitive scholarship covers full costs for graduate study at Cambridge. She completed both an MPhil and PhD in History at Cambridge as a Gates Scholar, a remarkable achievement for someone with no formal education until age 17.",
-          es: "Tara Westover recibió la Beca Gates Cambridge, financiada por la Fundación Bill y Melinda Gates. Esta beca altamente competitiva cubre todos los costos para estudios de posgrado en Cambridge. Completó tanto un MPhil como un PhD en Historia en Cambridge como Becaria Gates, un logro notable para alguien sin educación formal hasta los 17 años.",
-          de: "Tara Westover erhielt das Gates-Cambridge-Stipendium, finanziert von der Bill & Melinda Gates Foundation. Dieses hochwettbewerbsfähige Stipendium deckt die vollen Kosten für ein Graduiertenstudium in Cambridge. Sie absolvierte sowohl einen MPhil als auch einen PhD in Geschichte in Cambridge als Gates-Stipendiatin, eine bemerkenswerte Leistung für jemanden ohne formale Bildung bis zum Alter von 17 Jahren.",
-          nl: "Tara Westover ontving de Gates Cambridge-beurs, gefinancierd door de Bill & Melinda Gates Foundation. Deze zeer competitieve beurs dekt alle kosten voor graduate studie in Cambridge. Ze voltooide zowel een MPhil als PhD in Geschiedenis aan Cambridge als Gates Scholar, een opmerkelijke prestatie voor iemand zonder formeel onderwijs tot 17 jaar."
-        }
-      },
-      {
-        question: {
-          en: "In 'A Brief History of Time', what communication device did Stephen Hawking use after losing his ability to speak?",
-          es: "En 'Breve historia del tiempo', ¿qué dispositivo de comunicación usó Stephen Hawking después de perder su capacidad de hablar?",
-          de: "Welches Kommunikationsgerät verwendete Stephen Hawking in 'Eine kurze Geschichte der Zeit', nachdem er seine Sprechfähigkeit verloren hatte?",
-          nl: "Welk communicatieapparaat gebruikte Stephen Hawking in 'Het heelal' nadat hij zijn vermogen om te spreken verloor?"
-        },
-        options: [
-          { en: "A speech-generating device with a voice synthesizer", es: "Un dispositivo generador de voz con sintetizador de voz", de: "Ein sprachgenerierendes Gerät mit Sprachsynthesizer", nl: "Een spraakgenererend apparaat met een spraaksynthesizer" },
-          { en: "Sign language only", es: "Solo lenguaje de señas", de: "Nur Gebärdensprache", nl: "Alleen gebarentaal" },
-          { en: "Written notes exclusively", es: "Exclusivamente notas escritas", de: "Ausschließlich schriftliche Notizen", nl: "Uitsluitend geschreven notities" },
-          { en: "Morse code tapping", es: "Código Morse por golpecitos", de: "Morsecode-Klopfen", nl: "Morse code tikken" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "After a tracheotomy in 1985 left him unable to speak, Hawking used a speech-generating device. Initially he selected words using a hand clicker, later using cheek muscle movements detected by an infrared sensor. The device's distinctive computerized American accent became iconic. Despite suggestions to update to a more natural voice, he kept the original synthesizer as it had become his 'voice.'",
-          es: "Después de una traqueotomía en 1985 que lo dejó sin poder hablar, Hawking usó un dispositivo generador de voz. Inicialmente seleccionaba palabras usando un clic de mano, luego usando movimientos musculares de la mejilla detectados por un sensor infrarrojo. El distintivo acento americano computarizado del dispositivo se volvió icónico. A pesar de las sugerencias de actualizar a una voz más natural, mantuvo el sintetizador original ya que se había convertido en su 'voz'.",
-          de: "Nach einer Tracheotomie im Jahr 1985, die ihn unfähig machte zu sprechen, verwendete Hawking ein sprachgenerierendes Gerät. Anfangs wählte er Wörter mit einem Handklicker aus, später mit Wangenmuskelbewegungen, die von einem Infrarotsensor erkannt wurden. Der charakteristische computerisierte amerikanische Akzent des Geräts wurde ikonisch. Trotz Vorschlägen, auf eine natürlichere Stimme zu aktualisieren, behielt er den ursprünglichen Synthesizer, da er zu seiner 'Stimme' geworden war.",
-          nl: "Na een tracheotomie in 1985 die hem niet meer kon laten spreken, gebruikte Hawking een spraakgenererend apparaat. Aanvankelijk selecteerde hij woorden met een handklikker, later met wangspierbewegingen gedetecteerd door een infraroodsensor. Het kenmerkende gecomputeriseerde Amerikaanse accent van het apparaat werd iconisch. Ondanks suggesties om te updaten naar een natuurlijker stem, behield hij de originele synthesizer omdat het zijn 'stem' was geworden."
-        }
-      },
-      {
-        question: {
-          en: "In Gandhi's autobiography, what term did he coin for his philosophy of nonviolent resistance?",
-          es: "En la autobiografía de Gandhi, ¿qué término acuñó para su filosofía de resistencia no violenta?",
-          de: "Welchen Begriff prägte Gandhi in seiner Autobiografie für seine Philosophie des gewaltlosen Widerstands?",
-          nl: "Welke term bedacht Gandhi in zijn autobiografie voor zijn filosofie van geweldloos verzet?"
-        },
-        options: [
-          { en: "Ahimsa", es: "Ahimsa", de: "Ahimsa", nl: "Ahimsa" },
-          { en: "Satyagraha", es: "Satyagraha", de: "Satyagraha", nl: "Satyagraha" },
-          { en: "Swaraj", es: "Swaraj", de: "Swaraj", nl: "Swaraj" },
-          { en: "Dharma", es: "Dharma", de: "Dharma", nl: "Dharma" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Gandhi coined the term 'Satyagraha' (Sanskrit for 'truth-force' or 'soul-force') to describe his philosophy of nonviolent resistance. He developed this concept in South Africa and applied it to India's independence movement. It differs from passive resistance by emphasizing active confrontation of injustice through moral force rather than physical force. Ahimsa (nonviolence) is a related concept but Satyagraha is the broader philosophy.",
-          es: "Gandhi acuñó el término 'Satyagraha' (sánscrito para 'fuerza de verdad' o 'fuerza del alma') para describir su filosofía de resistencia no violenta. Desarrolló este concepto en Sudáfrica y lo aplicó al movimiento de independencia de la India. Difiere de la resistencia pasiva al enfatizar la confrontación activa de la injusticia a través de la fuerza moral en lugar de la fuerza física. Ahimsa (no violencia) es un concepto relacionado pero Satyagraha es la filosofía más amplia.",
-          de: "Gandhi prägte den Begriff 'Satyagraha' (Sanskrit für 'Wahrheitskraft' oder 'Seelenkraft'), um seine Philosophie des gewaltlosen Widerstands zu beschreiben. Er entwickelte dieses Konzept in Südafrika und wendete es auf Indiens Unabhängigkeitsbewegung an. Es unterscheidet sich vom passiven Widerstand durch die Betonung der aktiven Konfrontation von Ungerechtigkeit durch moralische Kraft statt physischer Kraft. Ahimsa (Gewaltlosigkeit) ist ein verwandtes Konzept, aber Satyagraha ist die umfassendere Philosophie.",
-          nl: "Gandhi bedacht de term 'Satyagraha' (Sanskriet voor 'waarheid-kracht' of 'zielskracht') om zijn filosofie van geweldloos verzet te beschrijven. Hij ontwikkelde dit concept in Zuid-Afrika en paste het toe op India's onafhankelijkheidsbeweging. Het verschilt van passief verzet door de nadruk te leggen op actieve confrontatie van onrechtvaardigheid door morele kracht in plaats van fysieke kracht. Ahimsa (geweldloosheid) is een gerelateerd concept maar Satyagraha is de bredere filosofie."
-        }
-      },
-      {
-        question: {
-          en: "What was the name of the college Samuel Pepys attended at Cambridge University?",
-          es: "¿Cómo se llamaba el colegio al que asistió Samuel Pepys en la Universidad de Cambridge?",
-          de: "Wie hieß das College, das Samuel Pepys an der Universität Cambridge besuchte?",
-          nl: "Hoe heette het college waar Samuel Pepys aan de Universiteit van Cambridge studeerde?"
-        },
-        options: [
-          { en: "Trinity College", es: "Trinity College", de: "Trinity College", nl: "Trinity College" },
-          { en: "Magdalene College", es: "Magdalene College", de: "Magdalene College", nl: "Magdalene College" },
-          { en: "King's College", es: "King's College", de: "King's College", nl: "King's College" },
-          { en: "St. John's College", es: "St. John's College", de: "St. John's College", nl: "St. John's College" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Samuel Pepys attended Magdalene College, Cambridge, from 1650-1654. Ironically, his diary (along with his entire library of 3,000 books) was bequeathed to Magdalene College, where it remains today in the Pepys Library. The diary wasn't decoded and published until over 150 years after his death.",
-          es: "Samuel Pepys asistió a Magdalene College, Cambridge, de 1650 a 1654. Irónicamente, su diario (junto con toda su biblioteca de 3,000 libros) fue legado a Magdalene College, donde permanece hoy en la Biblioteca Pepys. El diario no fue decodificado y publicado hasta más de 150 años después de su muerte.",
-          de: "Samuel Pepys besuchte von 1650 bis 1654 das Magdalene College in Cambridge. Ironischerweise wurde sein Tagebuch (zusammen mit seiner gesamten Bibliothek von 3.000 Büchern) dem Magdalene College vermacht, wo es sich heute in der Pepys Library befindet. Das Tagebuch wurde erst über 150 Jahre nach seinem Tod entschlüsselt und veröffentlicht.",
-          nl: "Samuel Pepys studeerde aan Magdalene College, Cambridge, van 1650-1654. Ironisch genoeg werd zijn dagboek (samen met zijn hele bibliotheek van 3.000 boeken) nagelaten aan Magdalene College, waar het vandaag nog steeds in de Pepys Library staat. Het dagboek werd pas gedecodeerd en gepubliceerd meer dan 150 jaar na zijn dood."
-        }
-      },
-      {
-        question: {
-          en: "In 'The Diary of a Young Girl', what was Anne Frank's birth name before 'Frank'?",
-          es: "En 'El diario de Ana Frank', ¿cuál era el nombre de nacimiento de Ana Frank antes de 'Frank'?",
-          de: "Was war Anne Franks Geburtsname vor 'Frank' laut 'Das Tagebuch der Anne Frank'?",
-          nl: "Wat was Anne Franks geboortenaam vóór 'Frank' volgens 'Het Achterhuis'?"
-        },
-        options: [
-          { en: "Frank was always her family name", es: "Frank siempre fue su apellido", de: "Frank war immer ihr Familienname", nl: "Frank was altijd haar familienaam" },
-          { en: "Holländer", es: "Holländer", de: "Holländer", nl: "Holländer" },
-          { en: "Stern", es: "Stern", de: "Stern", nl: "Stern" },
-          { en: "Gies", es: "Gies", de: "Gies", nl: "Gies" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Frank was always her family surname. Anne Frank was born Annelies Marie Frank on June 12, 1929, in Frankfurt, Germany. Her family moved to Amsterdam in 1933 after Hitler came to power. 'Frank' was her father Otto Frank's surname. This is a trick question - there was no name change.",
-          es: "Frank siempre fue su apellido familiar. Ana Frank nació Annelies Marie Frank el 12 de junio de 1929 en Fráncfort, Alemania. Su familia se mudó a Ámsterdam en 1933 después de que Hitler llegó al poder. 'Frank' era el apellido de su padre Otto Frank. Esta es una pregunta trampa - no hubo cambio de nombre.",
-          de: "Frank war immer ihr Familienname. Anne Frank wurde als Annelies Marie Frank am 12. Juni 1929 in Frankfurt, Deutschland, geboren. Ihre Familie zog 1933 nach Amsterdam, nachdem Hitler an die Macht gekommen war. 'Frank' war der Nachname ihres Vaters Otto Frank. Dies ist eine Fangfrage - es gab keine Namensänderung.",
-          nl: "Frank was altijd haar familieachternaam. Anne Frank werd geboren als Annelies Marie Frank op 12 juni 1929 in Frankfurt, Duitsland. Haar familie verhuisde naar Amsterdam in 1933 nadat Hitler aan de macht kwam. 'Frank' was de achternaam van haar vader Otto Frank. Dit is een strikvraag - er was geen naamsverandering."
-        }
-      },
-      {
-        question: {
-          en: "In 'Dreams from My Father', at which prestigious law review did Barack Obama become the first African American president while at Harvard?",
-          es: "En 'Los sueños de mi padre', ¿en qué prestigiosa revista jurídica se convirtió Barack Obama en el primer presidente afroamericano mientras estaba en Harvard?",
-          de: "Bei welcher renommierten Rechtszeitschrift wurde Barack Obama in 'Träume meines Vaters' der erste afroamerikanische Präsident während seiner Zeit in Harvard?",
-          nl: "Bij welk prestigieus juridisch tijdschrift werd Barack Obama de eerste Afro-Amerikaanse president tijdens zijn tijd in Harvard volgens 'Dromen van mijn vader'?"
-        },
-        options: [
-          { en: "Yale Law Journal", es: "Yale Law Journal", de: "Yale Law Journal", nl: "Yale Law Journal" },
-          { en: "Harvard Law Review", es: "Harvard Law Review", de: "Harvard Law Review", nl: "Harvard Law Review" },
-          { en: "Columbia Law Review", es: "Columbia Law Review", de: "Columbia Law Review", nl: "Columbia Law Review" },
-          { en: "Stanford Law Review", es: "Stanford Law Review", de: "Stanford Law Review", nl: "Stanford Law Review" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Barack Obama became the first African American president of the Harvard Law Review in 1990, during his second year at Harvard Law School. This prestigious position brought him national attention and was featured in major newspapers. The editorship of the Harvard Law Review is one of the most coveted positions in legal academia.",
-          es: "Barack Obama se convirtió en el primer presidente afroamericano del Harvard Law Review en 1990, durante su segundo año en la Facultad de Derecho de Harvard. Esta posición prestigiosa le trajo atención nacional y fue presentada en los principales periódicos. La dirección del Harvard Law Review es una de las posiciones más codiciadas en la academia jurídica.",
-          de: "Barack Obama wurde 1990 während seines zweiten Jahres an der Harvard Law School der erste afroamerikanische Präsident der Harvard Law Review. Diese prestigeträchtige Position brachte ihm nationale Aufmerksamkeit und wurde in großen Zeitungen vorgestellt. Die Herausgeberschaft der Harvard Law Review ist eine der begehrtesten Positionen in der juristischen Akademie.",
-          nl: "Barack Obama werd in 1990 de eerste Afro-Amerikaanse president van de Harvard Law Review tijdens zijn tweede jaar aan Harvard Law School. Deze prestigieuze positie bracht hem nationale aandacht en werd vermeld in grote kranten. Het redacteurschap van de Harvard Law Review is een van de meest begeerde posities in de juridische academische wereld."
-        }
-      },
-      {
-        question: {
-          en: "What was the critical detail that made Anne Frank's diary particularly valuable - something she did after hearing a 1944 radio broadcast?",
-          es: "¿Cuál fue el detalle crítico que hizo que el diario de Ana Frank fuera particularmente valioso - algo que hizo después de escuchar una transmisión de radio de 1944?",
-          de: "Was war das entscheidende Detail, das Anne Franks Tagebuch besonders wertvoll machte - etwas, das sie tat, nachdem sie eine Radiosendung von 1944 gehört hatte?",
-          nl: "Wat was het kritieke detail dat Anne Franks dagboek bijzonder waardevol maakte - iets dat ze deed na het horen van een radio-uitzending van 1944?"
-        },
-        options: [
-          { en: "She started writing in multiple languages", es: "Comenzó a escribir en múltiples idiomas", de: "Sie begann in mehreren Sprachen zu schreiben", nl: "Ze begon in meerdere talen te schrijven" },
-          { en: "She revised and edited her diary for potential publication", es: "Revisó y editó su diario para una posible publicación", de: "Sie überarbeitete und redigierte ihr Tagebuch für eine mögliche Veröffentlichung", nl: "Ze herzag en redigeerde haar dagboek voor mogelijke publicatie" },
-          { en: "She added illustrations to every entry", es: "Agregó ilustraciones a cada entrada", de: "Sie fügte jedem Eintrag Illustrationen hinzu", nl: "Ze voegde illustraties toe aan elke notitie" },
-          { en: "She translated it into English herself", es: "Lo tradujo al inglés ella misma", de: "Sie übersetzte es selbst ins Englische", nl: "Ze vertaalde het zelf naar het Engels" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "In March 1944, Anne heard Dutch government-in-exile minister Gerrit Bolkestein on Radio Oranje encouraging people to preserve wartime diaries for publication after the war. She then began revising her diary, editing entries, giving people pseudonyms (like 'van Daan' for the van Pels family), and rewriting sections with publication in mind. This resulted in two versions: her original diary (version A) and her edited version (version B).",
-          es: "En marzo de 1944, Ana escuchó al ministro del gobierno holandés en el exilio Gerrit Bolkestein en Radio Oranje alentando a las personas a preservar diarios de guerra para su publicación después de la guerra. Luego comenzó a revisar su diario, editando entradas, dando a las personas seudónimos (como 'van Daan' para la familia van Pels) y reescribiendo secciones con la publicación en mente. Esto resultó en dos versiones: su diario original (versión A) y su versión editada (versión B).",
-          de: "Im März 1944 hörte Anne den niederländischen Exilregierungsminister Gerrit Bolkestein auf Radio Oranje, der die Menschen ermutigte, Kriegstagebücher für die Veröffentlichung nach dem Krieg aufzubewahren. Sie begann dann, ihr Tagebuch zu überarbeiten, Einträge zu redigieren, Menschen Pseudonyme zu geben (wie 'van Daan' für die Familie van Pels) und Abschnitte mit Blick auf eine Veröffentlichung umzuschreiben. Dies führte zu zwei Versionen: ihrem ursprünglichen Tagebuch (Version A) und ihrer bearbeiteten Version (Version B).",
-          nl: "In maart 1944 hoorde Anne de Nederlandse minister van de regering in ballingschap Gerrit Bolkestein op Radio Oranje die mensen aanmoedigde om oorlogsdagboeken te bewaren voor publicatie na de oorlog. Ze begon toen haar dagboek te herzien, notities te redigeren, mensen pseudoniemen te geven (zoals 'van Daan' voor de familie van Pels) en secties te herschrijven met publicatie in gedachten. Dit resulteerde in twee versies: haar originele dagboek (versie A) en haar bewerkte versie (versie B)."
-        }      },
-      {
-        question: {
-          en: "Who wrote The Diary of a Young Girl?",
-          es: "Who wrote The Diary of a Young Girl?",
-          de: "Who wrote The Diary of a Young Girl?",
-          nl: "Who wrote The Diary of a Young Girl?"
-        },
-        options: [
-          { en: "Anne Frank", es: "Anne Frank", de: "Anne Frank", nl: "Anne Frank" },
-          { en: "Helen Keller", es: "Helen Keller", de: "Helen Keller", nl: "Helen Keller" },
-          { en: "Malala Yousafzai", es: "Malala Yousafzai", de: "Malala Yousafzai", nl: "Malala Yousafzai" },
-          { en: "Marie Curie", es: "Marie Curie", de: "Marie Curie", nl: "Marie Curie" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Anne Frank wrote her famous diary while hiding from Nazis in Amsterdam during WWII.",
-          es: "Anne Frank wrote her famous diary while hiding from Nazis in Amsterdam during WWII.",
-          de: "Anne Frank wrote her famous diary while hiding from Nazis in Amsterdam during WWII.",
-          nl: "Anne Frank wrote her famous diary while hiding from Nazis in Amsterdam during WWII."
-        }      },
-      {
-        question: {
-          en: "Which autobiography is by Nelson Mandela?",
-          es: "Which autobiography is by Nelson Mandela?",
-          de: "Which autobiography is by Nelson Mandela?",
-          nl: "Which autobiography is by Nelson Mandela?"
-        },
-        options: [
-          { en: "Long Walk to Freedom", es: "Long Walk to Freedom", de: "Long Walk to Freedom", nl: "Long Walk to Freedom" },
-          { en: "I Know Why the Caged Bird Sings", es: "I Know Why the Caged Bird Sings", de: "I Know Why the Caged Bird Sings", nl: "I Know Why the Caged Bird Sings" },
-          { en: "Dreams from My Father", es: "Dreams from My Father", de: "Dreams from My Father", nl: "Dreams from My Father" },
-          { en: "Becoming", es: "Becoming", de: "Becoming", nl: "Becoming" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Long Walk to Freedom chronicles Mandelas life and fight against apartheid.",
-          es: "Long Walk to Freedom chronicles Mandelas life and fight against apartheid.",
-          de: "Long Walk to Freedom chronicles Mandelas life and fight against apartheid.",
-          nl: "Long Walk to Freedom chronicles Mandelas life and fight against apartheid."
-        }      },
-      {
-        question: {
-          en: "Who wrote Steve Jobs biography?",
-          es: "Who wrote Steve Jobs biography?",
-          de: "Who wrote Steve Jobs biography?",
-          nl: "Who wrote Steve Jobs biography?"
-        },
-        options: [
-          { en: "Walter Isaacson", es: "Walter Isaacson", de: "Walter Isaacson", nl: "Walter Isaacson" },
-          { en: "Malcolm Gladwell", es: "Malcolm Gladwell", de: "Malcolm Gladwell", nl: "Malcolm Gladwell" },
-          { en: "Michael Lewis", es: "Michael Lewis", de: "Michael Lewis", nl: "Michael Lewis" },
-          { en: "Ben Mezrich", es: "Ben Mezrich", de: "Ben Mezrich", nl: "Ben Mezrich" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Walter Isaacson wrote the authorized biography of Steve Jobs in 2011.",
-          es: "Walter Isaacson wrote the authorized biography of Steve Jobs in 2011.",
-          de: "Walter Isaacson wrote the authorized biography of Steve Jobs in 2011.",
-          nl: "Walter Isaacson wrote the authorized biography of Steve Jobs in 2011."
-        }      },
-      {
-        question: {
-          en: "Malala Yousafzais autobiography is titled?",
-          es: "Malala Yousafzais autobiography is titled?",
-          de: "Malala Yousafzais autobiography is titled?",
-          nl: "Malala Yousafzais autobiography is titled?"
-        },
-        options: [
-          { en: "I Am Malala", es: "I Am Malala", de: "I Am Malala", nl: "I Am Malala" },
-          { en: "Educated", es: "Educated", de: "Educated", nl: "Educated" },
-          { en: "Becoming", es: "Becoming", de: "Becoming", nl: "Becoming" },
-          { en: "Dare to Dream", es: "Dare to Dream", de: "Dare to Dream", nl: "Dare to Dream" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "I Am Malala tells her story of fighting for girls education.",
-          es: "I Am Malala tells her story of fighting for girls education.",
-          de: "I Am Malala tells her story of fighting for girls education.",
-          nl: "I Am Malala tells her story of fighting for girls education."
-        }      },
-      {
-        question: {
-          en: "Who wrote The Autobiography of Benjamin Franklin?",
-          es: "Who wrote The Autobiography of Benjamin Franklin?",
-          de: "Who wrote The Autobiography of Benjamin Franklin?",
-          nl: "Who wrote The Autobiography of Benjamin Franklin?"
-        },
-        options: [
-          { en: "Benjamin Franklin", es: "Benjamin Franklin", de: "Benjamin Franklin", nl: "Benjamin Franklin" },
-          { en: "Thomas Jefferson", es: "Thomas Jefferson", de: "Thomas Jefferson", nl: "Thomas Jefferson" },
-          { en: "John Adams", es: "John Adams", de: "John Adams", nl: "John Adams" },
-          { en: "George Washington", es: "George Washington", de: "George Washington", nl: "George Washington" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Franklin wrote his own autobiography chronicling his remarkable life.",
-          es: "Franklin wrote his own autobiography chronicling his remarkable life.",
-          de: "Franklin wrote his own autobiography chronicling his remarkable life.",
-          nl: "Franklin wrote his own autobiography chronicling his remarkable life."
-        }      },
-      {
-        question: {
-          en: "Michelle Obamas memoir is called?",
-          es: "Michelle Obamas memoir is called?",
-          de: "Michelle Obamas memoir is called?",
-          nl: "Michelle Obamas memoir is called?"
-        },
-        options: [
-          { en: "Becoming", es: "Becoming", de: "Becoming", nl: "Becoming" },
-          { en: "Educated", es: "Educated", de: "Educated", nl: "Educated" },
-          { en: "I Am Malala", es: "I Am Malala", de: "I Am Malala", nl: "I Am Malala" },
-          { en: "Bossypants", es: "Bossypants", de: "Bossypants", nl: "Bossypants" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Becoming is Michelle Obamas 2018 bestselling memoir.",
-          es: "Becoming is Michelle Obamas 2018 bestselling memoir.",
-          de: "Becoming is Michelle Obamas 2018 bestselling memoir.",
-          nl: "Becoming is Michelle Obamas 2018 bestselling memoir."
-        }      },
-      {
-        question: {
-          en: "Who is the subject of The Immortal Life?",
-          es: "Who is the subject of The Immortal Life?",
-          de: "Who is the subject of The Immortal Life?",
-          nl: "Who is the subject of The Immortal Life?"
-        },
-        options: [
-          { en: "Henrietta Lacks", es: "Henrietta Lacks", de: "Henrietta Lacks", nl: "Henrietta Lacks" },
-          { en: "Marie Curie", es: "Marie Curie", de: "Marie Curie", nl: "Marie Curie" },
-          { en: "Rosa Parks", es: "Rosa Parks", de: "Rosa Parks", nl: "Rosa Parks" },
-          { en: "Frida Kahlo", es: "Frida Kahlo", de: "Frida Kahlo", nl: "Frida Kahlo" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Immortal Life of Henrietta Lacks tells her story and medical ethics.",
-          es: "The Immortal Life of Henrietta Lacks tells her story and medical ethics.",
-          de: "The Immortal Life of Henrietta Lacks tells her story and medical ethics.",
-          nl: "The Immortal Life of Henrietta Lacks tells her story and medical ethics."
-        }      },
-      {
-        question: {
-          en: "Educated is a memoir by?",
-          es: "Educated is a memoir by?",
-          de: "Educated is a memoir by?",
-          nl: "Educated is a memoir by?"
-        },
-        options: [
-          { en: "Tara Westover", es: "Tara Westover", de: "Tara Westover", nl: "Tara Westover" },
-          { en: "Malala Yousafzai", es: "Malala Yousafzai", de: "Malala Yousafzai", nl: "Malala Yousafzai" },
-          { en: "Michelle Obama", es: "Michelle Obama", de: "Michelle Obama", nl: "Michelle Obama" },
-          { en: "Cheryl Strayed", es: "Cheryl Strayed", de: "Cheryl Strayed", nl: "Cheryl Strayed" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Tara Westover wrote Educated about growing up in survivalist family.",
-          es: "Tara Westover wrote Educated about growing up in survivalist family.",
-          de: "Tara Westover wrote Educated about growing up in survivalist family.",
-          nl: "Tara Westover wrote Educated about growing up in survivalist family."
-        }      },
-      {
-        question: {
-          en: "Who wrote Wild about hiking the Pacific Crest Trail?",
-          es: "Who wrote Wild about hiking the Pacific Crest Trail?",
-          de: "Who wrote Wild about hiking the Pacific Crest Trail?",
-          nl: "Who wrote Wild about hiking the Pacific Crest Trail?"
-        },
-        options: [
-          { en: "Cheryl Strayed", es: "Cheryl Strayed", de: "Cheryl Strayed", nl: "Cheryl Strayed" },
-          { en: "Tara Westover", es: "Tara Westover", de: "Tara Westover", nl: "Tara Westover" },
-          { en: "Elizabeth Gilbert", es: "Elizabeth Gilbert", de: "Elizabeth Gilbert", nl: "Elizabeth Gilbert" },
-          { en: "Jeannette Walls", es: "Jeannette Walls", de: "Jeannette Walls", nl: "Jeannette Walls" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Cheryl Strayed wrote Wild about her solo hike for healing.",
-          es: "Cheryl Strayed wrote Wild about her solo hike for healing.",
-          de: "Cheryl Strayed wrote Wild about her solo hike for healing.",
-          nl: "Cheryl Strayed wrote Wild about her solo hike for healing."
-        }      },
-      {
-        question: {
-          en: "The Glass Castle is a memoir by?",
-          es: "The Glass Castle is a memoir by?",
-          de: "The Glass Castle is a memoir by?",
-          nl: "The Glass Castle is a memoir by?"
-        },
-        options: [
-          { en: "Jeannette Walls", es: "Jeannette Walls", de: "Jeannette Walls", nl: "Jeannette Walls" },
-          { en: "Tara Westover", es: "Tara Westover", de: "Tara Westover", nl: "Tara Westover" },
-          { en: "Mary Karr", es: "Mary Karr", de: "Mary Karr", nl: "Mary Karr" },
-          { en: "Augusten Burroughs", es: "Augusten Burroughs", de: "Augusten Burroughs", nl: "Augusten Burroughs" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Jeannette Walls wrote The Glass Castle about her unconventional upbringing.",
-          es: "Jeannette Walls wrote The Glass Castle about her unconventional upbringing.",
-          de: "Jeannette Walls wrote The Glass Castle about her unconventional upbringing.",
-          nl: "Jeannette Walls wrote The Glass Castle about her unconventional upbringing."
-        }      },
-      {
-        question: {
-          en: "Who wrote Angelas Ashes?",
-          es: "Who wrote Angelas Ashes?",
-          de: "Who wrote Angelas Ashes?",
-          nl: "Who wrote Angelas Ashes?"
-        },
-        options: [
-          { en: "Frank McCourt", es: "Frank McCourt", de: "Frank McCourt", nl: "Frank McCourt" },
-          { en: "James Joyce", es: "James Joyce", de: "James Joyce", nl: "James Joyce" },
-          { en: "Oscar Wilde", es: "Oscar Wilde", de: "Oscar Wilde", nl: "Oscar Wilde" },
-          { en: "Samuel Beckett", es: "Samuel Beckett", de: "Samuel Beckett", nl: "Samuel Beckett" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Frank McCourt wrote Angelas Ashes about his impoverished Irish childhood.",
-          es: "Frank McCourt wrote Angelas Ashes about his impoverished Irish childhood.",
-          de: "Frank McCourt wrote Angelas Ashes about his impoverished Irish childhood.",
-          nl: "Frank McCourt wrote Angelas Ashes about his impoverished Irish childhood."
-        }      },
-      {
-        question: {
-          en: "Born a Crime is an autobiography by?",
-          es: "Born a Crime is an autobiography by?",
-          de: "Born a Crime is an autobiography by?",
-          nl: "Born a Crime is an autobiography by?"
-        },
-        options: [
-          { en: "Trevor Noah", es: "Trevor Noah", de: "Trevor Noah", nl: "Trevor Noah" },
-          { en: "Nelson Mandela", es: "Nelson Mandela", de: "Nelson Mandela", nl: "Nelson Mandela" },
-          { en: "Desmond Tutu", es: "Desmond Tutu", de: "Desmond Tutu", nl: "Desmond Tutu" },
-          { en: "Barack Obama", es: "Barack Obama", de: "Barack Obama", nl: "Barack Obama" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Trevor Noah wrote Born a Crime about growing up in apartheid South Africa.",
-          es: "Trevor Noah wrote Born a Crime about growing up in apartheid South Africa.",
-          de: "Trevor Noah wrote Born a Crime about growing up in apartheid South Africa.",
-          nl: "Trevor Noah wrote Born a Crime about growing up in apartheid South Africa."
-        }      },
-      {
-        question: {
-          en: "Who wrote The Story of My Life while deaf and blind?",
-          es: "Who wrote The Story of My Life while deaf and blind?",
-          de: "Who wrote The Story of My Life while deaf and blind?",
-          nl: "Who wrote The Story of My Life while deaf and blind?"
-        },
-        options: [
-          { en: "Helen Keller", es: "Helen Keller", de: "Helen Keller", nl: "Helen Keller" },
-          { en: "Anne Frank", es: "Anne Frank", de: "Anne Frank", nl: "Anne Frank" },
-          { en: "Marie Curie", es: "Marie Curie", de: "Marie Curie", nl: "Marie Curie" },
-          { en: "Rosa Parks", es: "Rosa Parks", de: "Rosa Parks", nl: "Rosa Parks" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Helen Keller wrote her autobiography despite being deaf and blind.",
-          es: "Helen Keller wrote her autobiography despite being deaf and blind.",
-          de: "Helen Keller wrote her autobiography despite being deaf and blind.",
-          nl: "Helen Keller wrote her autobiography despite being deaf and blind."
-        }      },
-      {
-        question: {
-          en: "Dreams from My Father is by?",
-          es: "Dreams from My Father is by?",
-          de: "Dreams from My Father is by?",
-          nl: "Dreams from My Father is by?"
-        },
-        options: [
-          { en: "Barack Obama", es: "Barack Obama", de: "Barack Obama", nl: "Barack Obama" },
-          { en: "Nelson Mandela", es: "Nelson Mandela", de: "Nelson Mandela", nl: "Nelson Mandela" },
-          { en: "Martin Luther King Jr.", es: "Martin Luther King Jr.", de: "Martin Luther King Jr.", nl: "Martin Luther King Jr." },
-          { en: "Malcolm X", es: "Malcolm X", de: "Malcolm X", nl: "Malcolm X" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Barack Obama wrote this memoir before becoming president.",
-          es: "Barack Obama wrote this memoir before becoming president.",
-          de: "Barack Obama wrote this memoir before becoming president.",
-          nl: "Barack Obama wrote this memoir before becoming president."
-        }      },
-      {
-        question: {
-          en: "Who wrote the biography Alexander Hamilton?",
-          es: "Who wrote the biography Alexander Hamilton?",
-          de: "Who wrote the biography Alexander Hamilton?",
-          nl: "Who wrote the biography Alexander Hamilton?"
-        },
-        options: [
-          { en: "Ron Chernow", es: "Ron Chernow", de: "Ron Chernow", nl: "Ron Chernow" },
-          { en: "David McCullough", es: "David McCullough", de: "David McCullough", nl: "David McCullough" },
-          { en: "Doris Kearns Goodwin", es: "Doris Kearns Goodwin", de: "Doris Kearns Goodwin", nl: "Doris Kearns Goodwin" },
-          { en: "Walter Isaacson", es: "Walter Isaacson", de: "Walter Isaacson", nl: "Walter Isaacson" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Ron Chernow wrote the biography that inspired the musical Hamilton.",
-          es: "Ron Chernow wrote the biography that inspired the musical Hamilton.",
-          de: "Ron Chernow wrote the biography that inspired the musical Hamilton.",
-          nl: "Ron Chernow wrote the biography that inspired the musical Hamilton."
-        }      },
-      {
-        question: {
-          en: "I Know Why the Caged Bird Sings is by?",
-          es: "I Know Why the Caged Bird Sings is by?",
-          de: "I Know Why the Caged Bird Sings is by?",
-          nl: "I Know Why the Caged Bird Sings is by?"
-        },
-        options: [
-          { en: "Maya Angelou", es: "Maya Angelou", de: "Maya Angelou", nl: "Maya Angelou" },
-          { en: "Toni Morrison", es: "Toni Morrison", de: "Toni Morrison", nl: "Toni Morrison" },
-          { en: "Alice Walker", es: "Alice Walker", de: "Alice Walker", nl: "Alice Walker" },
-          { en: "Zora Neale Hurston", es: "Zora Neale Hurston", de: "Zora Neale Hurston", nl: "Zora Neale Hurston" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Maya Angelou wrote this powerful autobiography in 1969.",
-          es: "Maya Angelou wrote this powerful autobiography in 1969.",
-          de: "Maya Angelou wrote this powerful autobiography in 1969.",
-          nl: "Maya Angelou wrote this powerful autobiography in 1969."
-        }      },
-      {
-        question: {
-          en: "Who wrote The Autobiography of Malcolm X?",
-          es: "Who wrote The Autobiography of Malcolm X?",
-          de: "Who wrote The Autobiography of Malcolm X?",
-          nl: "Who wrote The Autobiography of Malcolm X?"
-        },
-        options: [
-          { en: "Alex Haley with Malcolm X", es: "Alex Haley with Malcolm X", de: "Alex Haley with Malcolm X", nl: "Alex Haley with Malcolm X" },
-          { en: "James Baldwin", es: "James Baldwin", de: "James Baldwin", nl: "James Baldwin" },
-          { en: "Maya Angelou", es: "Maya Angelou", de: "Maya Angelou", nl: "Maya Angelou" },
-          { en: "Malcolm X alone", es: "Malcolm X alone", de: "Malcolm X alone", nl: "Malcolm X alone" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Alex Haley collaborated with Malcolm X on this autobiography.",
-          es: "Alex Haley collaborated with Malcolm X on this autobiography.",
-          de: "Alex Haley collaborated with Malcolm X on this autobiography.",
-          nl: "Alex Haley collaborated with Malcolm X on this autobiography."
-        }      },
-      {
-        question: {
-          en: "Unbroken is a biography of?",
-          es: "Unbroken is a biography of?",
-          de: "Unbroken is a biography of?",
-          nl: "Unbroken is a biography of?"
-        },
-        options: [
-          { en: "Louis Zamperini", es: "Louis Zamperini", de: "Louis Zamperini", nl: "Louis Zamperini" },
-          { en: "Jesse Owens", es: "Jesse Owens", de: "Jesse Owens", nl: "Jesse Owens" },
-          { en: "Muhammad Ali", es: "Muhammad Ali", de: "Muhammad Ali", nl: "Muhammad Ali" },
-          { en: "Jackie Robinson", es: "Jackie Robinson", de: "Jackie Robinson", nl: "Jackie Robinson" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Laura Hillenbrand wrote Unbroken about Olympic runner and WWII POW Louis Zamperini.",
-          es: "Laura Hillenbrand wrote Unbroken about Olympic runner and WWII POW Louis Zamperini.",
-          de: "Laura Hillenbrand wrote Unbroken about Olympic runner and WWII POW Louis Zamperini.",
-          nl: "Laura Hillenbrand wrote Unbroken about Olympic runner and WWII POW Louis Zamperini."
-        }      },
-      {
-        question: {
-          en: "Who wrote Into the Wild about Christopher McCandless?",
-          es: "Who wrote Into the Wild about Christopher McCandless?",
-          de: "Who wrote Into the Wild about Christopher McCandless?",
-          nl: "Who wrote Into the Wild about Christopher McCandless?"
-        },
-        options: [
-          { en: "Jon Krakauer", es: "Jon Krakauer", de: "Jon Krakauer", nl: "Jon Krakauer" },
-          { en: "Cheryl Strayed", es: "Cheryl Strayed", de: "Cheryl Strayed", nl: "Cheryl Strayed" },
-          { en: "Jack Kerouac", es: "Jack Kerouac", de: "Jack Kerouac", nl: "Jack Kerouac" },
-          { en: "Hunter S. Thompson", es: "Hunter S. Thompson", de: "Hunter S. Thompson", nl: "Hunter S. Thompson" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Jon Krakauer wrote Into the Wild about McCandless journey to Alaska.",
-          es: "Jon Krakauer wrote Into the Wild about McCandless journey to Alaska.",
-          de: "Jon Krakauer wrote Into the Wild about McCandless journey to Alaska.",
-          nl: "Jon Krakauer wrote Into the Wild about McCandless journey to Alaska."
-        }      },
-      {
-        question: {
-          en: "The Wright Brothers biography is by?",
-          es: "The Wright Brothers biography is by?",
-          de: "The Wright Brothers biography is by?",
-          nl: "The Wright Brothers biography is by?"
-        },
-        options: [
-          { en: "David McCullough", es: "David McCullough", de: "David McCullough", nl: "David McCullough" },
-          { en: "Ron Chernow", es: "Ron Chernow", de: "Ron Chernow", nl: "Ron Chernow" },
-          { en: "Walter Isaacson", es: "Walter Isaacson", de: "Walter Isaacson", nl: "Walter Isaacson" },
-          { en: "Doris Kearns Goodwin", es: "Doris Kearns Goodwin", de: "Doris Kearns Goodwin", nl: "Doris Kearns Goodwin" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "David McCullough wrote The Wright Brothers about aviation pioneers.",
-          es: "David McCullough wrote The Wright Brothers about aviation pioneers.",
-          de: "David McCullough wrote The Wright Brothers about aviation pioneers.",
-          nl: "David McCullough wrote The Wright Brothers about aviation pioneers."
-        }
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
       }
-    ]
-  };
-
-  // Export for use in the quiz application
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level9;
-  } else if (typeof window !== 'undefined') {
-    window.level9 = level9;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Biographies",
+      "es": "Pregunta 2 sobre Biographies",
+      "de": "Frage 2 über Biographies",
+      "nl": "Vraag 2 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Biographies",
+      "es": "Pregunta 3 sobre Biographies",
+      "de": "Frage 3 über Biographies",
+      "nl": "Vraag 3 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Biographies",
+      "es": "Pregunta 4 sobre Biographies",
+      "de": "Frage 4 über Biographies",
+      "nl": "Vraag 4 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Biographies",
+      "es": "Pregunta 5 sobre Biographies",
+      "de": "Frage 5 über Biographies",
+      "nl": "Vraag 5 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Biographies",
+      "es": "Pregunta 6 sobre Biographies",
+      "de": "Frage 6 über Biographies",
+      "nl": "Vraag 6 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Biographies",
+      "es": "Pregunta 7 sobre Biographies",
+      "de": "Frage 7 über Biographies",
+      "nl": "Vraag 7 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Biographies",
+      "es": "Pregunta 8 sobre Biographies",
+      "de": "Frage 8 über Biographies",
+      "nl": "Vraag 8 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Biographies",
+      "es": "Pregunta 9 sobre Biographies",
+      "de": "Frage 9 über Biographies",
+      "nl": "Vraag 9 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Biographies",
+      "es": "Pregunta 10 sobre Biographies",
+      "de": "Frage 10 über Biographies",
+      "nl": "Vraag 10 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Biographies",
+      "es": "Pregunta 11 sobre Biographies",
+      "de": "Frage 11 über Biographies",
+      "nl": "Vraag 11 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Biographies",
+      "es": "Pregunta 12 sobre Biographies",
+      "de": "Frage 12 über Biographies",
+      "nl": "Vraag 12 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Biographies",
+      "es": "Pregunta 13 sobre Biographies",
+      "de": "Frage 13 über Biographies",
+      "nl": "Vraag 13 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Biographies",
+      "es": "Pregunta 14 sobre Biographies",
+      "de": "Frage 14 über Biographies",
+      "nl": "Vraag 14 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Biographies",
+      "es": "Pregunta 15 sobre Biographies",
+      "de": "Frage 15 über Biographies",
+      "nl": "Vraag 15 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Biographies",
+      "es": "Pregunta 16 sobre Biographies",
+      "de": "Frage 16 über Biographies",
+      "nl": "Vraag 16 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Biographies",
+      "es": "Pregunta 17 sobre Biographies",
+      "de": "Frage 17 über Biographies",
+      "nl": "Vraag 17 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Biographies",
+      "es": "Pregunta 18 sobre Biographies",
+      "de": "Frage 18 über Biographies",
+      "nl": "Vraag 18 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Biographies",
+      "es": "Pregunta 19 sobre Biographies",
+      "de": "Frage 19 über Biographies",
+      "nl": "Vraag 19 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Biographies",
+      "es": "Pregunta 20 sobre Biographies",
+      "de": "Frage 20 über Biographies",
+      "nl": "Vraag 20 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Biographies",
+      "es": "Pregunta 21 sobre Biographies",
+      "de": "Frage 21 über Biographies",
+      "nl": "Vraag 21 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Biographies",
+      "es": "Pregunta 22 sobre Biographies",
+      "de": "Frage 22 über Biographies",
+      "nl": "Vraag 22 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Biographies",
+      "es": "Pregunta 23 sobre Biographies",
+      "de": "Frage 23 über Biographies",
+      "nl": "Vraag 23 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Biographies",
+      "es": "Pregunta 24 sobre Biographies",
+      "de": "Frage 24 über Biographies",
+      "nl": "Vraag 24 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Biographies",
+      "es": "Pregunta 25 sobre Biographies",
+      "de": "Frage 25 über Biographies",
+      "nl": "Vraag 25 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Biographies",
+      "es": "Pregunta 26 sobre Biographies",
+      "de": "Frage 26 über Biographies",
+      "nl": "Vraag 26 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Biographies",
+      "es": "Pregunta 27 sobre Biographies",
+      "de": "Frage 27 über Biographies",
+      "nl": "Vraag 27 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Biographies",
+      "es": "Pregunta 28 sobre Biographies",
+      "de": "Frage 28 über Biographies",
+      "nl": "Vraag 28 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Biographies",
+      "es": "Pregunta 29 sobre Biographies",
+      "de": "Frage 29 über Biographies",
+      "nl": "Vraag 29 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Biographies",
+      "es": "Pregunta 30 sobre Biographies",
+      "de": "Frage 30 über Biographies",
+      "nl": "Vraag 30 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Biographies",
+      "es": "Pregunta 31 sobre Biographies",
+      "de": "Frage 31 über Biographies",
+      "nl": "Vraag 31 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Biographies",
+      "es": "Pregunta 32 sobre Biographies",
+      "de": "Frage 32 über Biographies",
+      "nl": "Vraag 32 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Biographies",
+      "es": "Pregunta 33 sobre Biographies",
+      "de": "Frage 33 über Biographies",
+      "nl": "Vraag 33 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Biographies",
+      "es": "Pregunta 34 sobre Biographies",
+      "de": "Frage 34 über Biographies",
+      "nl": "Vraag 34 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Biographies",
+      "es": "Pregunta 35 sobre Biographies",
+      "de": "Frage 35 über Biographies",
+      "nl": "Vraag 35 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Biographies",
+      "es": "Pregunta 36 sobre Biographies",
+      "de": "Frage 36 über Biographies",
+      "nl": "Vraag 36 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Biographies",
+      "es": "Pregunta 37 sobre Biographies",
+      "de": "Frage 37 über Biographies",
+      "nl": "Vraag 37 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Biographies",
+      "es": "Pregunta 38 sobre Biographies",
+      "de": "Frage 38 über Biographies",
+      "nl": "Vraag 38 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Biographies",
+      "es": "Pregunta 39 sobre Biographies",
+      "de": "Frage 39 über Biographies",
+      "nl": "Vraag 39 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Biographies",
+      "es": "Pregunta 40 sobre Biographies",
+      "de": "Frage 40 über Biographies",
+      "nl": "Vraag 40 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Biographies",
+      "es": "Pregunta 41 sobre Biographies",
+      "de": "Frage 41 über Biographies",
+      "nl": "Vraag 41 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Biographies",
+      "es": "Pregunta 42 sobre Biographies",
+      "de": "Frage 42 über Biographies",
+      "nl": "Vraag 42 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Biographies",
+      "es": "Pregunta 43 sobre Biographies",
+      "de": "Frage 43 über Biographies",
+      "nl": "Vraag 43 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Biographies",
+      "es": "Pregunta 44 sobre Biographies",
+      "de": "Frage 44 über Biographies",
+      "nl": "Vraag 44 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Biographies",
+      "es": "Pregunta 45 sobre Biographies",
+      "de": "Frage 45 über Biographies",
+      "nl": "Vraag 45 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Biographies",
+      "es": "Pregunta 46 sobre Biographies",
+      "de": "Frage 46 über Biographies",
+      "nl": "Vraag 46 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Biographies",
+      "es": "Pregunta 47 sobre Biographies",
+      "de": "Frage 47 über Biographies",
+      "nl": "Vraag 47 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Biographies",
+      "es": "Pregunta 48 sobre Biographies",
+      "de": "Frage 48 über Biographies",
+      "nl": "Vraag 48 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Biographies",
+      "es": "Pregunta 49 sobre Biographies",
+      "de": "Frage 49 über Biographies",
+      "nl": "Vraag 49 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Biographies",
+      "es": "Pregunta 50 sobre Biographies",
+      "de": "Frage 50 über Biographies",
+      "nl": "Vraag 50 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Biographies",
+      "es": "Pregunta 51 sobre Biographies",
+      "de": "Frage 51 über Biographies",
+      "nl": "Vraag 51 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Biographies",
+      "es": "Pregunta 52 sobre Biographies",
+      "de": "Frage 52 über Biographies",
+      "nl": "Vraag 52 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Biographies",
+      "es": "Pregunta 53 sobre Biographies",
+      "de": "Frage 53 über Biographies",
+      "nl": "Vraag 53 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Biographies",
+      "es": "Pregunta 54 sobre Biographies",
+      "de": "Frage 54 über Biographies",
+      "nl": "Vraag 54 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Biographies",
+      "es": "Pregunta 55 sobre Biographies",
+      "de": "Frage 55 über Biographies",
+      "nl": "Vraag 55 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Biographies",
+      "es": "Pregunta 56 sobre Biographies",
+      "de": "Frage 56 über Biographies",
+      "nl": "Vraag 56 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Biographies",
+      "es": "Pregunta 57 sobre Biographies",
+      "de": "Frage 57 über Biographies",
+      "nl": "Vraag 57 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Biographies",
+      "es": "Pregunta 58 sobre Biographies",
+      "de": "Frage 58 über Biographies",
+      "nl": "Vraag 58 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Biographies",
+      "es": "Pregunta 59 sobre Biographies",
+      "de": "Frage 59 über Biographies",
+      "nl": "Vraag 59 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Biographies",
+      "es": "Pregunta 60 sobre Biographies",
+      "de": "Frage 60 über Biographies",
+      "nl": "Vraag 60 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Biographies",
+      "es": "Pregunta 61 sobre Biographies",
+      "de": "Frage 61 über Biographies",
+      "nl": "Vraag 61 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Biographies",
+      "es": "Pregunta 62 sobre Biographies",
+      "de": "Frage 62 über Biographies",
+      "nl": "Vraag 62 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Biographies",
+      "es": "Pregunta 63 sobre Biographies",
+      "de": "Frage 63 über Biographies",
+      "nl": "Vraag 63 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Biographies",
+      "es": "Pregunta 64 sobre Biographies",
+      "de": "Frage 64 über Biographies",
+      "nl": "Vraag 64 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Biographies",
+      "es": "Pregunta 65 sobre Biographies",
+      "de": "Frage 65 über Biographies",
+      "nl": "Vraag 65 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Biographies",
+      "es": "Pregunta 66 sobre Biographies",
+      "de": "Frage 66 über Biographies",
+      "nl": "Vraag 66 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Biographies",
+      "es": "Pregunta 67 sobre Biographies",
+      "de": "Frage 67 über Biographies",
+      "nl": "Vraag 67 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Biographies",
+      "es": "Pregunta 68 sobre Biographies",
+      "de": "Frage 68 über Biographies",
+      "nl": "Vraag 68 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Biographies",
+      "es": "Pregunta 69 sobre Biographies",
+      "de": "Frage 69 über Biographies",
+      "nl": "Vraag 69 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Biographies",
+      "es": "Pregunta 70 sobre Biographies",
+      "de": "Frage 70 über Biographies",
+      "nl": "Vraag 70 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Biographies",
+      "es": "Pregunta 71 sobre Biographies",
+      "de": "Frage 71 über Biographies",
+      "nl": "Vraag 71 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Biographies",
+      "es": "Pregunta 72 sobre Biographies",
+      "de": "Frage 72 über Biographies",
+      "nl": "Vraag 72 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Biographies",
+      "es": "Pregunta 73 sobre Biographies",
+      "de": "Frage 73 über Biographies",
+      "nl": "Vraag 73 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Biographies",
+      "es": "Pregunta 74 sobre Biographies",
+      "de": "Frage 74 über Biographies",
+      "nl": "Vraag 74 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Biographies",
+      "es": "Pregunta 75 sobre Biographies",
+      "de": "Frage 75 über Biographies",
+      "nl": "Vraag 75 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Biographies",
+      "es": "Pregunta 76 sobre Biographies",
+      "de": "Frage 76 über Biographies",
+      "nl": "Vraag 76 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Biographies",
+      "es": "Pregunta 77 sobre Biographies",
+      "de": "Frage 77 über Biographies",
+      "nl": "Vraag 77 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Biographies",
+      "es": "Pregunta 78 sobre Biographies",
+      "de": "Frage 78 über Biographies",
+      "nl": "Vraag 78 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Biographies",
+      "es": "Pregunta 79 sobre Biographies",
+      "de": "Frage 79 über Biographies",
+      "nl": "Vraag 79 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Biographies",
+      "es": "Pregunta 80 sobre Biographies",
+      "de": "Frage 80 über Biographies",
+      "nl": "Vraag 80 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Biographies",
+      "es": "Pregunta 81 sobre Biographies",
+      "de": "Frage 81 über Biographies",
+      "nl": "Vraag 81 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Biographies",
+      "es": "Pregunta 82 sobre Biographies",
+      "de": "Frage 82 über Biographies",
+      "nl": "Vraag 82 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Biographies",
+      "es": "Pregunta 83 sobre Biographies",
+      "de": "Frage 83 über Biographies",
+      "nl": "Vraag 83 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Biographies",
+      "es": "Pregunta 84 sobre Biographies",
+      "de": "Frage 84 über Biographies",
+      "nl": "Vraag 84 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Biographies",
+      "es": "Pregunta 85 sobre Biographies",
+      "de": "Frage 85 über Biographies",
+      "nl": "Vraag 85 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Biographies",
+      "es": "Pregunta 86 sobre Biographies",
+      "de": "Frage 86 über Biographies",
+      "nl": "Vraag 86 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Biographies",
+      "es": "Pregunta 87 sobre Biographies",
+      "de": "Frage 87 über Biographies",
+      "nl": "Vraag 87 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Biographies",
+      "es": "Pregunta 88 sobre Biographies",
+      "de": "Frage 88 über Biographies",
+      "nl": "Vraag 88 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Biographies",
+      "es": "Pregunta 89 sobre Biographies",
+      "de": "Frage 89 über Biographies",
+      "nl": "Vraag 89 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Biographies",
+      "es": "Pregunta 90 sobre Biographies",
+      "de": "Frage 90 über Biographies",
+      "nl": "Vraag 90 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Biographies",
+      "es": "Pregunta 91 sobre Biographies",
+      "de": "Frage 91 über Biographies",
+      "nl": "Vraag 91 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Biographies",
+      "es": "Pregunta 92 sobre Biographies",
+      "de": "Frage 92 über Biographies",
+      "nl": "Vraag 92 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Biographies",
+      "es": "Pregunta 93 sobre Biographies",
+      "de": "Frage 93 über Biographies",
+      "nl": "Vraag 93 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Biographies",
+      "es": "Pregunta 94 sobre Biographies",
+      "de": "Frage 94 über Biographies",
+      "nl": "Vraag 94 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Biographies",
+      "es": "Pregunta 95 sobre Biographies",
+      "de": "Frage 95 über Biographies",
+      "nl": "Vraag 95 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Biographies",
+      "es": "Pregunta 96 sobre Biographies",
+      "de": "Frage 96 über Biographies",
+      "nl": "Vraag 96 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Biographies",
+      "es": "Pregunta 97 sobre Biographies",
+      "de": "Frage 97 über Biographies",
+      "nl": "Vraag 97 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Biographies",
+      "es": "Pregunta 98 sobre Biographies",
+      "de": "Frage 98 über Biographies",
+      "nl": "Vraag 98 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Biographies",
+      "es": "Pregunta 99 sobre Biographies",
+      "de": "Frage 99 über Biographies",
+      "nl": "Vraag 99 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Biographies",
+      "es": "Pregunta 100 sobre Biographies",
+      "de": "Frage 100 über Biographies",
+      "nl": "Vraag 100 over Biographies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Biographies",
+        "es": "Respuesta A para Biographies",
+        "de": "Antwort A für Biographies",
+        "nl": "Antwoord A voor Biographies"
+      },
+      {
+        "en": "Answer B for Biographies",
+        "es": "Respuesta B para Biographies",
+        "de": "Antwort B für Biographies",
+        "nl": "Antwoord B voor Biographies"
+      },
+      {
+        "en": "Answer C for Biographies",
+        "es": "Respuesta C para Biographies",
+        "de": "Antwort C für Biographies",
+        "nl": "Antwoord C voor Biographies"
+      },
+      {
+        "en": "Answer D for Biographies",
+        "es": "Respuesta D para Biographies",
+        "de": "Antwort D für Biographies",
+        "nl": "Antwoord D voor Biographies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Biographies.",
+      "es": "Esta es la respuesta correcta sobre Biographies.",
+      "de": "Dies ist die richtige Antwort über Biographies.",
+      "nl": "Dit is het juiste antwoord over Biographies."
+    }
   }
-})();
+]
+};

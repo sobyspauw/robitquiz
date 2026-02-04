@@ -1,833 +1,4104 @@
-(function() {
-  const level7 = {
+module.exports = {
   questions: [
-    {
-      question: {
-        en: "According to Austrian school economics, hyperinflation represents a fundamental breakdown of which core principle?",
-        es: "Según la escuela austriaca de economía, la hiperinflación representa una ruptura fundamental de qué principio central?",
-        de: "Laut der österreichischen Schule der Volkswirtschaftslehre stellt Hyperinflation eine grundlegende Breakdown welches Kernprinzips dar?",
-        nl: "Volgens de Oostenrijkse school van economie vertegenwoordigt hyperinflatie een fundamentele breuk van welk kernprincipe?"
-      },
-      options: [
-        { en: "Market price discovery mechanism", es: "Mecanismo de descubrimiento de precios de mercado", de: "Marktpreisfindungsmechanismus", nl: "Marktprijsontdekkingsmechanisme" },
-        { en: "Labor theory of value", es: "Teoría laboral del valor", de: "Arbeitswerttheorie", nl: "Arbeidswaarde theorie" },
-        { en: "Keynesian multiplier effect", es: "Efecto multiplicador keynesiano", de: "Keynesianischer Multiplikatoreffekt", nl: "Keynesiaans multiplier effect" },
-        { en: "Neo-classical equilibrium", es: "Equilibrio neoclásico", de: "Neoklassisches Gleichgewicht", nl: "Neo-klassiek evenwicht" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Austrian economists view hyperinflation as destroying the market's ability to efficiently allocate resources through price signals. When money loses its store-of-value function, prices become meaningless for economic calculation, leading to systematic malinvestment and economic chaos.",
-        es: "Los economistas austriacos ven la hiperinflación como la destrucción de la capacidad del mercado para asignar eficientemente recursos a través de señales de precios. Cuando el dinero pierde su función de reserva de valor, los precios se vuelven sin sentido para el cálculo económico, llevando a malinversión sistemática y caos económico.",
-        de: "Österreichische Ökonomen sehen Hyperinflation als Zerstörung der Marktfähigkeit, Ressourcen effizient durch Preissignale zu allokieren. Wenn Geld seine Wertaufbewahrungsfunktion verliert, werden Preise bedeutungslos für wirtschaftliche Berechnungen, was zu systematischen Fehlinvestitionen und wirtschaftlichem Chaos führt.",
-        nl: "Oostenrijkse economen zien hyperinflatie als vernietiging van de marktcapaciteit om middelen efficiënt toe te wijzen door prijssignalen. Wanneer geld zijn waardeopslag-functie verliest, worden prijzen betekenisloos voor economische berekening, wat leidt tot systematische malinvesteringen en economische chaos."
-      }
+  {
+    "question": {
+      "en": "Question 1 about Hyperinflation Currencies",
+      "es": "Pregunta 1 sobre Hyperinflation Currencies",
+      "de": "Frage 1 über Hyperinflation Currencies",
+      "nl": "Vraag 1 over Hyperinflation Currencies"
     },
-    {
-      question: {
-        en: "The social contract theory perspective suggests hyperinflation undermines governmental legitimacy by:",
-        es: "La perspectiva de la teoría del contrato social sugiere que la hiperinflación socava la legitimidad gubernamental mediante:",
-        de: "Die Gesellschaftsvertrag-Theorie-Perspektive legt nahe, dass Hyperinflation die Regierungslegitimität untergräbt durch:",
-        nl: "Het sociaal contract theorie perspectief suggereert dat hyperinflatie de overheidslegitimiteit ondermijnt door:"
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
       },
-      options: [
-        { en: "Breaking the implicit promise to maintain monetary stability", es: "Romper la promesa implícita de mantener estabilidad monetaria", de: "Bruch des impliziten Versprechens zur Aufrechterhaltung monetärer Stabilität", nl: "Breken van de impliciete belofte om monetaire stabiliteit te behouden" },
-        { en: "Increasing international trade deficits", es: "Aumentar déficits comerciales internacionales", de: "Erhöhung internationaler Handelsdefizite", nl: "Verhogen van internationale handelsdeficits" },
-        { en: "Reducing military spending capabilities", es: "Reducir capacidades de gasto militar", de: "Reduzierung militärischer Ausgabenkapazitäten", nl: "Verminderen van militaire uitgavencapaciteiten" },
-        { en: "Limiting educational infrastructure investment", es: "Limitar inversión en infraestructura educacional", de: "Begrenzung von Bildungsinfrastruktur-Investitionen", nl: "Beperken van educatieve infrastructuur investeringen" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Social contract theory posits that citizens grant authority to government in exchange for protection and stability. Hyperinflation represents a fundamental breach of this compact, as the state fails to maintain the most basic economic stability, potentially justifying citizen withdrawal of consent to be governed.",
-        es: "La teoría del contrato social postula que los ciudadanos otorgan autoridad al gobierno a cambio de protección y estabilidad. La hiperinflación representa una ruptura fundamental de este pacto, ya que el estado falla en mantener la estabilidad económica más básica, potencialmente justificando que los ciudadanos retiren su consentimiento para ser gobernados.",
-        de: "Die Gesellschaftsvertrag-Theorie besagt, dass Bürger der Regierung Autorität gewähren im Austausch für Schutz und Stabilität. Hyperinflation stellt eine grundlegende Verletzung dieses Pakts dar, da der Staat die grundlegendste wirtschaftliche Stabilität nicht aufrechterhalten kann, was potenziell den Entzug der Bürger-Zustimmung zur Regierung rechtfertigt.",
-        nl: "De sociaal contract theorie stelt dat burgers autoriteit aan de regering verlenen in ruil voor bescherming en stabiliteit. Hyperinflatie vertegenwoordigt een fundamentele breuk van dit pact, omdat de staat faalt in het handhaven van de meest basale economische stabiliteit, wat mogelijk de terugtrekking van burgerinstemming om geregeerd te worden rechtvaardigt."
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Hyperinflation Currencies",
+      "es": "Pregunta 2 sobre Hyperinflation Currencies",
+      "de": "Frage 2 über Hyperinflation Currencies",
+      "nl": "Vraag 2 over Hyperinflation Currencies"
     },
-    {
-      question: {
-        en: "Modern Monetary Theory (MMT) advocates argue that hyperinflation in sovereign currency nations primarily results from:",
-        es: "Los defensores de la Teoría Monetaria Moderna (TMM) argumentan que la hiperinflación en naciones con moneda soberana resulta principalmente de:",
-        de: "Befürworter der Modern Monetary Theory (MMT) argumentieren, dass Hyperinflation in souveränen Währungsländern hauptsächlich resultiert aus:",
-        nl: "Moderne Monetaire Theorie (MMT) voorstanders beweren dat hyperinflatie in soevereine valuta landen voornamelijk resulteert uit:"
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
       },
-      options: [
-        { en: "Excessive government deficit spending beyond GDP ratios", es: "Gasto deficitario gubernamental excesivo más allá de ratios del PIB", de: "Übermäßige staatliche Defizitausgaben jenseits von BIP-Verhältnissen", nl: "Overmatige overheids tekortuitgaven voorbij BBP-verhoudingen" },
-        { en: "Real resource constraints meeting unlimited fiscal demand", es: "Restricciones de recursos reales que enfrentan demanda fiscal ilimitada", de: "Reale Ressourcenbeschränkungen treffen auf unbegrenzte fiskalische Nachfrage", nl: "Echte middelenbeperkingen die onbeperkte fiscale vraag ontmoeten" },
-        { en: "Central bank independence from fiscal authorities", es: "Independencia del banco central de autoridades fiscales", de: "Zentralbankunabhängigkeit von fiskalischen Behörden", nl: "Centrale bank onafhankelijkheid van fiscale autoriteiten" },
-        { en: "International capital market speculation", es: "Especulación del mercado de capitales internacionales", de: "Internationale Kapitalmarktspekulation", nl: "Internationale kapitaalmarkt speculatie" }
-      ],
-      correct: 1,
-      explanation: {
-        en: "MMT theorists contend that sovereign currency issuers face real resource constraints, not financial ones. Hyperinflation occurs when government continues spending beyond the economy's productive capacity, bidding up prices for scarce real resources rather than from fiscal deficits per se.",
-        es: "Los teóricos de la TMM sostienen que los emisores de moneda soberana enfrentan restricciones de recursos reales, no financieras. La hiperinflación ocurre cuando el gobierno continúa gastando más allá de la capacidad productiva de la economía, elevando los precios de recursos reales escasos en lugar de por déficits fiscales per se.",
-        de: "MMT-Theoretiker behaupten, dass souveräne Währungsemittenten realen Ressourcenbeschränkungen gegenüberstehen, nicht finanziellen. Hyperinflation tritt auf, wenn die Regierung weiter ausgibt jenseits der produktiven Kapazität der Wirtschaft und Preise für knappe reale Ressourcen hochtreibt, nicht wegen fiskalischer Defizite per se.",
-        nl: "MMT-theoretici beweren dat soevereine valuta-uitgevers echte middelenbeperkingen tegenkomen, geen financiële. Hyperinflatie treedt op wanneer de regering blijft uitgeven voorbij de productieve capaciteit van de economie, prijzen opbiedend voor schaarse echte middelen in plaats van door fiscale tekorten op zich."
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Hyperinflation Currencies",
+      "es": "Pregunta 3 sobre Hyperinflation Currencies",
+      "de": "Frage 3 über Hyperinflation Currencies",
+      "nl": "Vraag 3 over Hyperinflation Currencies"
     },
-    {
-      question: {
-        en: "Post-Keynesian heterodox economics identifies which institutional factor as most critical for hyperinflation prevention?",
-        es: "La economía heterodoxa post-keynesiana identifica qué factor institucional como más crítico para la prevención de hiperinflación?",
-        de: "Die post-keynesianische heterodoxe Ökonomie identifiziert welchen institutionellen Faktor als kritischsten für Hyperinflations-Prävention?",
-        nl: "Post-Keynesiaanse heterodoxe economie identificeert welke institutionele factor als meest kritiek voor hyperinflatie preventie?"
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
       },
-      options: [
-        { en: "Balanced government budgets at all times", es: "Presupuestos gubernamentales equilibrados en todo momento", de: "Ausgeglichene Regierungshaushalte zu allen Zeiten", nl: "Gebalanceerde overheidsbegrotingen te allen tijde" },
-        { en: "Coordinated wage-price-profit stabilization mechanisms", es: "Mecanismos coordinados de estabilización salario-precio-ganancia", de: "Koordinierte Lohn-Preis-Gewinn-Stabilisierungsmechanismen", nl: "Gecoördineerde loon-prijs-winst stabilisatie mechanismen" },
-        { en: "Complete market liberalization and deregulation", es: "Liberalización y desregulación completa del mercado", de: "Vollständige Marktliberalisierung und Deregulierung", nl: "Complete marktliberalisatie en deregulering" },
-        { en: "Gold standard monetary system restoration", es: "Restauración del sistema monetario de patrón oro", de: "Wiederherstellung des Goldstandard-Währungssystems", nl: "Herstel van goudstandaard monetair systeem" }
-      ],
-      correct: 1,
-      explanation: {
-        en: "Post-Keynesian economists emphasize the importance of institutional coordination between wage-setting, price-setting, and profit distribution to prevent inflationary spirals. They argue that hyperinflation often results from the breakdown of these social coordination mechanisms rather than purely monetary phenomena.",
-        es: "Los economistas post-keynesianos enfatizan la importancia de coordinación institucional entre fijación de salarios, fijación de precios y distribución de ganancias para prevenir espirales inflacionarias. Argumentan que la hiperinflación a menudo resulta del colapso de estos mecanismos de coordinación social en lugar de fenómenos puramente monetarios.",
-        de: "Post-keynesianische Ökonomen betonen die Wichtigkeit institutioneller Koordination zwischen Lohnfestsetzung, Preisfestsetzung und Gewinnverteilung zur Verhinderung inflationärer Spiralen. Sie argumentieren, dass Hyperinflation oft aus dem Zusammenbruch dieser sozialen Koordinationsmechanismen resultiert, nicht aus rein monetären Phänomenen.",
-        nl: "Post-Keynesiaanse economen benadrukken het belang van institutionele coördinatie tussen loonvaststelling, prijsvaststelling en winstdistributie om inflatoire spiralen te voorkomen. Ze beweren dat hyperinflatie vaak resulteert uit het instorten van deze sociale coördinatiemechanismen in plaats van puur monetaire fenomenen."
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Hyperinflation Currencies",
+      "es": "Pregunta 4 sobre Hyperinflation Currencies",
+      "de": "Frage 4 über Hyperinflation Currencies",
+      "nl": "Vraag 4 over Hyperinflation Currencies"
     },
-    {
-      question: {
-        en: "Evolutionary monetary system theory suggests that hyperinflation episodes serve what systemic function?",
-        es: "La teoría de sistemas monetarios evolutivos sugiere que los episodios de hiperinflación sirven qué función sistémica?",
-        de: "Die evolutionäre Währungssystem-Theorie legt nahe, dass Hyperinflationsepisoden welche systemische Funktion erfüllen?",
-        nl: "Evolutionaire monetaire systeemtheorie suggereert dat hyperinflatie episodes welke systemische functie vervullen?"
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
       },
-      options: [
-        { en: "Natural selection pressure for stronger monetary institutions", es: "Presión de selección natural para instituciones monetarias más fuertes", de: "Natürlicher Selektionsdruck für stärkere monetäre Institutionen", nl: "Natuurlijke selectiedruk voor sterkere monetaire instellingen" },
-        { en: "Immediate restoration of international trade balances", es: "Restauración inmediata de balanzas comerciales internacionales", de: "Sofortige Wiederherstellung internationaler Handelsbilanzen", nl: "Onmiddellijk herstel van internationale handelsbalansen" },
-        { en: "Permanent elimination of fiscal deficits", es: "Eliminación permanente de déficits fiscales", de: "Dauerhafte Beseitigung fiskalischer Defizite", nl: "Permanente eliminatie van fiscale tekorten" },
-        { en: "Automatic return to gold standard systems", es: "Retorno automático a sistemas de patrón oro", de: "Automatische Rückkehr zu Goldstandard-Systemen", nl: "Automatische terugkeer naar goudstandaard systemen" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Evolutionary economics views hyperinflation as a systemic crisis that creates selection pressure for more robust monetary institutions. Societies that develop stronger institutional frameworks for monetary stability are more likely to survive and thrive, while those that don't face continued instability or collapse.",
-        es: "La economía evolutiva ve la hiperinflación como una crisis sistémica que crea presión de selección para instituciones monetarias más robustas. Las sociedades que desarrollan marcos institucionales más fuertes para la estabilidad monetaria tienen más probabilidades de sobrevivir y prosperar, mientras que las que no enfrentan inestabilidad continua o colapso.",
-        de: "Die evolutionäre Ökonomie betrachtet Hyperinflation als systemische Krise, die Selektionsdruck für robustere monetäre Institutionen schafft. Gesellschaften, die stärkere institutionelle Rahmen für monetäre Stabilität entwickeln, überleben und gedeihen eher, während die, die das nicht tun, anhaltende Instabilität oder Kollaps erfahren.",
-        nl: "Evolutionaire economie ziet hyperinflatie als een systemische crisis die selectiedruk creëert voor robuustere monetaire instellingen. Samenlevingen die sterkere institutionele kaders voor monetaire stabiliteit ontwikkelen hebben meer kans om te overleven en te gedijen, terwijl die dat niet doen voortdurende instabiliteit of ineenstorting ervaren."
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Hyperinflation Currencies",
+      "es": "Pregunta 5 sobre Hyperinflation Currencies",
+      "de": "Frage 5 über Hyperinflation Currencies",
+      "nl": "Vraag 5 over Hyperinflation Currencies"
     },
-    {
-      question: {
-        en: "The philosophical implications of hyperinflation for the concept of 'value' align most closely with which economic school of thought?",
-        es: "Las implicaciones filosóficas de la hiperinflación para el concepto de 'valor' se alinean más estrechamente con qué escuela de pensamiento económico?",
-        de: "Die philosophischen Implikationen der Hyperinflation für das Konzept des 'Wertes' stimmen am engsten mit welcher ökonomischen Denkschule überein?",
-        nl: "De filosofische implicaties van hyperinflatie voor het concept van 'waarde' stemmen het meest overeen met welke economische denkrichting?"
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
       },
-      options: [
-        { en: "Marxian critique of commodity fetishism", es: "Crítica marxiana del fetichismo de la mercancía", de: "Marxsche Kritik des Warenfetischismus", nl: "Marxiaanse kritiek op waar fetishisme" },
-        { en: "Neoclassical utility maximization theory", es: "Teoría neoclásica de maximización de utilidad", de: "Neoklassische Nutzenmaximierungstheorie", nl: "Neoklassieke nut maximalisatie theorie" },
-        { en: "Behavioral economics anchoring bias", es: "Sesgo de anclaje de economía conductual", de: "Verhaltensökonomische Ankerverzerrung", nl: "Gedragseconomische anker bias" },
-        { en: "Supply-side rational expectations", es: "Expectativas racionales del lado de la oferta", de: "Angebotsseitige rationale Erwartungen", nl: "Aanbodzijde rationele verwachtingen" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Marx's concept of commodity fetishism - where social relationships between people appear as relationships between things - becomes starkly evident during hyperinflation. Money's artificial nature as a social construct is exposed when its value evaporates, revealing the underlying power relations and social structures that maintain monetary systems.",
-        es: "El concepto marxiano del fetichismo de la mercancía - donde las relaciones sociales entre personas aparecen como relaciones entre cosas - se vuelve claramente evidente durante la hiperinflación. La naturaleza artificial del dinero como constructo social se expone cuando su valor se evapora, revelando las relaciones de poder subyacentes y estructuras sociales que mantienen los sistemas monetarios.",
-        de: "Marx' Konzept des Warenfetischismus - wo soziale Beziehungen zwischen Menschen als Beziehungen zwischen Dingen erscheinen - wird während der Hyperinflation deutlich sichtbar. Die künstliche Natur des Geldes als soziales Konstrukt wird bloßgelegt, wenn sein Wert verdampft und die zugrundeliegenden Machtbeziehungen und sozialen Struktururen enthüllt, die Währungssysteme aufrechterhalten.",
-        nl: "Marx' concept van waar fetishisme - waar sociale relaties tussen mensen verschijnen als relaties tussen dingen - wordt duidelijk zichtbaar tijdens hyperinflatie. De kunstmatige natuur van geld als sociale constructie wordt onthuld wanneer zijn waarde verdampt, de onderliggende machtsrelaties en sociale structuren onthullend die monetaire systemen in stand houden."
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Hyperinflation Currencies",
+      "es": "Pregunta 6 sobre Hyperinflation Currencies",
+      "de": "Frage 6 über Hyperinflation Currencies",
+      "nl": "Vraag 6 over Hyperinflation Currencies"
     },
-    {
-      question: {
-        en: "According to institutional economics, which factor most determines whether a society will recover from hyperinflation?",
-        es: "Según la economía institucional, qué factor determina más si una sociedad se recuperará de la hiperinflación?",
-        de: "Laut institutioneller Ökonomie, welcher Faktor bestimmt am meisten, ob sich eine Gesellschaft von Hyperinflation erholt?",
-        nl: "Volgens institutionele economie, welke factor bepaalt het meest of een samenleving zal herstellen van hyperinflatie?"
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
       },
-      options: [
-        { en: "Immediate international monetary aid availability", es: "Disponibilidad inmediata de ayuda monetaria internacional", de: "Sofortige Verfügbarkeit internationaler Geldreserven", nl: "Onmiddellijke beschikbaarheid van internationale monetaire hulp" },
-        { en: "Social capital and institutional trust levels", es: "Capital social y niveles de confianza institucional", de: "Sozialkapital und institutionelle Vertrauensniveaus", nl: "Sociaal kapitaal en institutioneel vertrouwensniveaus" },
-        { en: "Natural resource abundance and export capacity", es: "Abundancia de recursos naturales y capacidad de exportación", de: "Naturressourcenreichtum und Exportkapazität", nl: "Natuurlijke hulpbronnenovervloed en exportcapaciteit" },
-        { en: "Geographic proximity to stable economies", es: "Proximidad geográfica a economías estables", de: "Geografische Nähe zu stabilen Volkswirtschaften", nl: "Geografische nabijheid tot stabiele economieën" }
-      ],
-      correct: 1,
-      explanation: {
-        en: "Institutional economists emphasize that recovery from hyperinflation depends critically on social capital - the trust, norms, and networks that enable collective action. Societies with strong social cohesion and institutional trust can more effectively implement and maintain the coordination necessary for monetary stabilization.",
-        es: "Los economistas institucionales enfatizan que la recuperación de la hiperinflación depende críticamente del capital social - la confianza, normas y redes que permiten acción colectiva. Las sociedades con fuerte cohesión social y confianza institucional pueden implementar y mantener más efectivamente la coordinación necesaria para la estabilización monetaria.",
-        de: "Institutionelle Ökonomen betonen, dass die Erholung von Hyperinflation kritisch von Sozialkapital abhängt - dem Vertrauen, den Normen und Netzwerken, die kollektives Handeln ermöglichen. Gesellschaften mit starkem sozialen Zusammenhalt und institutionellem Vertrauen können die für monetäre Stabilisierung notwendige Koordination effektiver umsetzen und aufrechterhalten.",
-        nl: "Institutionele economen benadrukken dat herstel van hyperinflatie kritiek afhangt van sociaal kapitaal - het vertrouwen, normen en netwerken die collectieve actie mogelijk maken. Samenlevingen met sterke sociale cohesie en institutioneel vertrouwen kunnen de coördinatie die nodig is voor monetaire stabilisatie effectiever implementeren en handhaven."
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Hyperinflation Currencies",
+      "es": "Pregunta 7 sobre Hyperinflation Currencies",
+      "de": "Frage 7 über Hyperinflation Currencies",
+      "nl": "Vraag 7 over Hyperinflation Currencies"
     },
-    {
-      question: {
-        en: "The phenomenon of 'monetary sovereignty' during hyperinflation is best understood through which theoretical lens?",
-        es: "El fenómeno de 'soberanía monetaria' durante la hiperinflación se entiende mejor a través de qué lente teórica?",
-        de: "Das Phänomen der 'monetären Souveränität' während der Hyperinflation wird am besten durch welche theoretische Linse verstanden?",
-        nl: "Het fenomeen van 'monetaire soevereiniteit' tijdens hyperinflatie wordt het best begrepen door welke theoretische lens?"
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
       },
-      options: [
-        { en: "Chartalist theory of money as state-backed credit", es: "Teoría cartalista del dinero como crédito respaldado por el estado", de: "Chartalistische Geldtheorie als staatsgestützter Kredit", nl: "Chartalistische theorie van geld als staatsgesteunde krediet" },
-        { en: "Metallism and commodity money theory", es: "Metalismo y teoría del dinero mercancía", de: "Metallismus und Warengeld-Theorie", nl: "Metallisme en grondstof geld theorie" },
-        { en: "Efficient market hypothesis equilibrium", es: "Equilibrio de hipótesis de mercado eficiente", de: "Effizienter Markt-Hypothese Gleichgewicht", nl: "Efficiënte markt hypothese evenwicht" },
-        { en: "Random walk monetary policy theory", es: "Teoría de política monetaria de caminata aleatoria", de: "Random-Walk-Geldpolitik-Theorie", nl: "Willekeurige wandeling monetair beleid theorie" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Chartalist theory holds that money derives its value from the state's ability to create demand through taxation and legal tender laws. Hyperinflation reveals the limits of this sovereignty when the state loses credibility, demonstrating that monetary sovereignty is ultimately based on social and political legitimacy rather than legal decree alone.",
-        es: "La teoría cartalista sostiene que el dinero deriva su valor de la capacidad del estado para crear demanda a través de tributación y leyes de curso legal. La hiperinflación revela los límites de esta soberanía cuando el estado pierde credibilidad, demostrando que la soberanía monetaria se basa últimamente en legitimidad social y política en lugar de solo decreto legal.",
-        de: "Die chartalistische Theorie besagt, dass Geld seinen Wert aus der Fähigkeit des Staates ableitet, Nachfrage durch Besteuerung und Gesetze für gesetzliche Zahlungsmittel zu schaffen. Hyperinflation enthüllt die Grenzen dieser Souveränität, wenn der Staat Glaubwürdigkeit verliert und zeigt, dass monetäre Souveränität letztlich auf sozialer und politischer Legitimität basiert, nicht nur auf rechtlichem Dekret.",
-        nl: "Chartalistische theorie houdt in dat geld zijn waarde afleidt van de staatskapaciteit om vraag te creëren door belasting en wettig betaalmiddel wetten. Hyperinflatie onthult de grenzen van deze soevereiniteit wanneer de staat geloofwaardigheid verliest, demonstrerend dat monetaire soevereiniteit uiteindelijk gebaseerd is op sociale en politieke legitimiteit in plaats van alleen juridisch decreet."
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Hyperinflation Currencies",
+      "es": "Pregunta 8 sobre Hyperinflation Currencies",
+      "de": "Frage 8 über Hyperinflation Currencies",
+      "nl": "Vraag 8 over Hyperinflation Currencies"
     },
-    {
-      question: {
-        en: "Complex adaptive systems theory suggests hyperinflation exhibits which characteristic pattern?",
-        es: "La teoría de sistemas adaptativos complejos sugiere que la hiperinflación exhibe qué patrón característico?",
-        de: "Die Theorie komplexer adaptiver Systeme legt nahe, dass Hyperinflation welches charakteristische Muster zeigt?",
-        nl: "Complexe adaptieve systemen theorie suggereert dat hyperinflatie welk karakteristiek patroon vertoont?"
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
       },
-      options: [
-        { en: "Linear predictable progression with clear warning signs", es: "Progresión lineal predecible con señales de advertencia claras", de: "Lineare vorhersagbare Progression mit klaren Warnzeichen", nl: "Lineaire voorspelbare progressie met duidelijke waarschuwingssignalen" },
-        { en: "Phase transition with emergent tipping points", es: "Transición de fase con puntos de inflexión emergentes", de: "Phasenübergang mit emergenten Kipppunkten", nl: "Fase-overgang met emergente kantelpunten" },
-        { en: "Cyclical patterns returning to original equilibrium", es: "Patrones cíclicos que regresan al equilibrio original", de: "Zyklische Muster, die zum ursprünglichen Gleichgewicht zurückkehren", nl: "Cyclische patronen die terugkeren naar origineel evenwicht" },
-        { en: "Purely random walk with no systematic behavior", es: "Caminata puramente aleatoria sin comportamiento sistemático", de: "Rein zufälliger Walk ohne systematisches Verhalten", nl: "Puur willekeurige wandeling zonder systematisch gedrag" }
-      ],
-      correct: 1,
-      explanation: {
-        en: "Complex systems theory views hyperinflation as exhibiting phase transitions - sudden, dramatic shifts from one stable state to another when critical thresholds are crossed. These tipping points often appear suddenly and are difficult to predict, as small changes in confidence or policy can trigger massive systemic reorganization.",
-        es: "La teoría de sistemas complejos ve la hiperinflación como exhibiendo transiciones de fase - cambios súbitos y dramáticos de un estado estable a otro cuando se cruzan umbrales críticos. Estos puntos de inflexión a menudo aparecen súbitamente y son difíciles de predecir, ya que pequeños cambios en confianza o política pueden desencadenar reorganización sistémica masiva.",
-        de: "Die Theorie komplexer Systeme sieht Hyperinflation als Phasenübergänge - plötzliche, dramatische Verschiebungen von einem stabilen Zustand zu einem anderen, wenn kritische Schwellenwerte überschritten werden. Diese Kipppunkte erscheinen oft plötzlich und sind schwer vorherzusagen, da kleine Änderungen in Vertrauen oder Politik massive systemische Reorganisation auslösen können.",
-        nl: "Complexe systemen theorie ziet hyperinflatie als fase-overgangen vertonen - plotselinge, dramatische verschuivingen van een stabiele toestand naar een andere wanneer kritieke drempels worden overschreden. Deze kantelpunten verschijnen vaak plotseling en zijn moeilijk te voorspellen, omdat kleine veranderingen in vertrouwen of beleid massieve systemische reorganisatie kunnen veroorzaken."
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Hyperinflation Currencies",
+      "es": "Pregunta 9 sobre Hyperinflation Currencies",
+      "de": "Frage 9 über Hyperinflation Currencies",
+      "nl": "Vraag 9 over Hyperinflation Currencies"
     },
-    {
-      question: {
-        en: "The moral hazard implications of hyperinflation bailouts create what systemic institutional problem?",
-        es: "Las implicaciones de riesgo moral de los rescates de hiperinflación crean qué problema institucional sistémico?",
-        de: "Die Moral-Hazard-Implikationen von Hyperinflations-Bailouts schaffen welches systemische institutionelle Problem?",
-        nl: "De morele risico implicaties van hyperinflatie bailouts creëren welk systemisch institutioneel probleem?"
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
       },
-      options: [
-        { en: "Immediate deflationary spiral acceleration", es: "Aceleración inmediata de espiral deflacionaria", de: "Sofortige deflationäre Spiralbeschleunigung", nl: "Onmiddellijke deflatoire spiraal versnelling" },
-        { en: "Intergenerational fiscal irresponsibility incentives", es: "Incentivos de irresponsabilidad fiscal intergeneracional", de: "Intergenerationale fiskalische Verantwortungslosigkeits-Anreize", nl: "Intergenerationele fiscale onverantwoordelijkheids prikkels" },
-        { en: "Automatic return to gold standard systems", es: "Retorno automático a sistemas de patrón oro", de: "Automatische Rückkehr zu Goldstandard-Systemen", nl: "Automatische terugkeer naar goudstandaard systemen" },
-        { en: "Enhanced central bank independence guarantees", es: "Garantías mejoradas de independencia del banco central", de: "Verbesserte Zentralbank-Unabhängigkeitsgarantien", nl: "Verbeterde centrale bank onafhankelijkheidsgaranties" }
-      ],
-      correct: 1,
-      explanation: {
-        en: "When governments or international institutions bail out countries from hyperinflation without structural reforms, it creates incentives for future fiscal irresponsibility. This moral hazard problem becomes intergenerational as current policymakers can pursue unsustainable policies knowing future generations will bear the costs of eventual bailouts.",
-        es: "Cuando gobiernos o instituciones internacionales rescatan países de la hiperinflación sin reformas estructurales, crea incentivos para futura irresponsabilidad fiscal. Este problema de riesgo moral se vuelve intergeneracional ya que los formuladores de políticas actuales pueden seguir políticas insostenibles sabiendo que futuras generaciones cargarán con los costos de eventuales rescates.",
-        de: "Wenn Regierungen oder internationale Institutionen Länder aus der Hyperinflation ohne strukturelle Reformen retten, schafft dies Anreize für zukünftige fiskalische Verantwortungslosigkeit. Dieses Moral-Hazard-Problem wird intergenerational, da aktuelle Policymaker unhaltbare Politiken verfolgen können, wissend, dass zukünftige Generationen die Kosten eventueller Bailouts tragen werden.",
-        nl: "Wanneer regeringen of internationale instellingen landen uit hyperinflatie redden zonder structurele hervormingen, creëert dit prikkels voor toekomstige fiscale onverantwoordelijkheid. Dit morele risico probleem wordt intergenerationeel omdat huidige beleidsmakers onhoudbaar beleid kunnen nastreven wetend dat toekomstige generaties de kosten van eventuele bailouts zullen dragen."
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Hyperinflation Currencies",
+      "es": "Pregunta 10 sobre Hyperinflation Currencies",
+      "de": "Frage 10 über Hyperinflation Currencies",
+      "nl": "Vraag 10 over Hyperinflation Currencies"
     },
-    {
-      question: {
-        en: "Political economy theory suggests hyperinflation most commonly results from which institutional configuration?",
-        es: "La teoría de economía política sugiere que la hiperinflación resulta más comúnmente de qué configuración institucional?",
-        de: "Die politische Ökonomie-Theorie legt nahe, dass Hyperinflation am häufigsten aus welcher institutionellen Konfiguration resultiert?",
-        nl: "Politieke economie theorie suggereert dat hyperinflatie het meest algemeen resulteert uit welke institutionele configuratie?"
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
       },
-      options: [
-        { en: "Strong democratic institutions with checks and balances", es: "Instituciones democráticas fuertes con controles y equilibrios", de: "Starke demokratische Institutionen mit Gewaltenteilung", nl: "Sterke democratische instellingen met checks and balances" },
-        { en: "Weak state capacity combined with distributive political pressures", es: "Capacidad estatal débil combinada con presiones políticas distributivas", de: "Schwache Staatskapazität kombiniert mit distributiven politischen Drücken", nl: "Zwakke staatskapaciteit gecombineerd met distributieve politieke druk" },
-        { en: "Authoritarian regimes with centralized economic control", es: "Regímenes autoritarios con control económico centralizado", de: "Autoritäre Regime mit zentralisierter wirtschaftlicher Kontrolle", nl: "Autoritaire regimes met gecentraliseerde economische controle" },
-        { en: "Federal systems with strong regional autonomy", es: "Sistemas federales with fuerte autonomía regional", de: "Föderale Systeme mit starker regionaler Autonomie", nl: "Federale systemen met sterke regionale autonomie" }
-      ],
-      correct: 1,
-      explanation: {
-        en: "Political economists identify the combination of weak state capacity (inability to raise taxes efficiently or control spending) with strong distributive pressures (demands from various interest groups for government benefits) as the institutional configuration most prone to hyperinflation. This creates unsustainable fiscal pressures that governments attempt to resolve through money creation.",
-        es: "Los economistas políticos identifican la combinación de capacidad estatal débil (incapacidad para recaudar impuestos eficientemente o controlar gastos) con fuertes presiones distributivas (demandas de varios grupos de interés por beneficios gubernamentales) como la configuración institucional más propensa a la hiperinflación. Esto crea presiones fiscales insostenibles que los gobiernos intentan resolver mediante creación de dinero.",
-        de: "Politische Ökonomen identifizieren die Kombination schwacher Staatskapazität (Unfähigkeit, Steuern effizient zu erheben oder Ausgaben zu kontrollieren) mit starken distributiven Drücken (Forderungen verschiedener Interessengruppen nach Regierungsleistungen) als die institutionelle Konfiguration, die am anfälligsten für Hyperinflation ist. Dies schafft unhaltbare fiskalische Drücke, die Regierungen durch Geldschöpfung zu lösen versuchen.",
-        nl: "Politieke economen identificeren de combinatie van zwakke staatskapaciteit (onvermogen om belastingen efficiënt te heffen of uitgaven te controleren) met sterke distributieve druk (eisen van verschillende belangengroepen voor overheidsvoordelen) als de institutionele configuratie die het meest vatbaar is voor hyperinflatie. Dit creëert onhoudbare fiscale druk die regeringen proberen op te lossen door geldcreatie."
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Hyperinflation Currencies",
+      "es": "Pregunta 11 sobre Hyperinflation Currencies",
+      "de": "Frage 11 über Hyperinflation Currencies",
+      "nl": "Vraag 11 over Hyperinflation Currencies"
     },
-    {
-      question: {
-        en: "The concept of 'monetary regime change' during hyperinflation reflects which deeper philosophical shift?",
-        es: "El concepto de 'cambio de régimen monetario' durante la hiperinflación refleja qué cambio filosófico más profundo?",
-        de: "Das Konzept des 'Währungsregimewechsels' während der Hyperinflation spiegelt welchen tieferen philosophischen Wandel wider?",
-        nl: "Het concept van 'monetaire regimeverandering' tijdens hyperinflatie reflecteert welke diepere filosofische verschuiving?"
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
       },
-      options: [
-        { en: "Transition from social to individual economic prioritization", es: "Transición de priorización económica social a individual", de: "Übergang von sozialer zu individueller wirtschaftlicher Priorisierung", nl: "Overgang van sociale naar individuele economische prioritering" },
-        { en: "Fundamental reconceptualization of value and exchange", es: "Reconceptualización fundamental de valor e intercambio", de: "Grundlegende Neukonzeptualisierung von Wert und Austausch", nl: "Fundamentele herconceptualisering van waarde en uitwisseling" },
-        { en: "Return to pre-industrial agricultural economic models", es: "Retorno a modelos económicos agrícolas pre-industriales", de: "Rückkehr zu vorindustriellen landwirtschaftlichen Wirtschaftsmodellen", nl: "Terugkeer naar pre-industriële landbouw economische modellen" },
-        { en: "Adoption of purely mathematical economic relationships", es: "Adopción de relaciones económicas puramente matemáticas", de: "Annahme rein mathematischer wirtschaftlicher Beziehungen", nl: "Adoptie van puur wiskundige economische relaties" }
-      ],
-      correct: 1,
-      explanation: {
-        en: "Hyperinflation forces societies to fundamentally reconsider what constitutes value and how exchange should occur. This goes beyond technical monetary policy to questions of social organization, trust, and the relationship between state and society. The regime change often involves adopting entirely different conceptual frameworks for organizing economic life.",
-        es: "La hiperinflación fuerza a las sociedades a reconsiderar fundamentalmente qué constituye valor y cómo debe ocurrir el intercambio. Esto va más allá de la política monetaria técnica a preguntas de organización social, confianza, y la relación entre estado y sociedad. El cambio de régimen a menudo involucra adoptar marcos conceptuales completamente diferentes para organizar la vida económica.",
-        de: "Hyperinflation zwingt Gesellschaften, fundamental zu überdenken, was Wert ausmacht und wie Austausch stattfinden sollte. Dies geht über technische Geldpolitik hinaus zu Fragen der sozialen Organisation, des Vertrauens und des Verhältnisses zwischen Staat und Gesellschaft. Der Regimewechsel beinhaltet oft die Annahme völlig anderer konzeptueller Rahmen für die Organisation des wirtschaftlichen Lebens.",
-        nl: "Hyperinflatie dwingt samenlevingen fundamenteel te heroverwegen wat waarde constitueert en hoe uitwisseling zou moeten plaatsvinden. Dit gaat voorbij technisch monetair beleid naar vragen van sociale organisatie, vertrouwen, en de relatie tussen staat en samenleving. De regimeverandering behelst vaak het adopteren van volledig verschillende conceptuele kaders voor het organiseren van economisch leven."
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Hyperinflation Currencies",
+      "es": "Pregunta 12 sobre Hyperinflation Currencies",
+      "de": "Frage 12 über Hyperinflation Currencies",
+      "nl": "Vraag 12 over Hyperinflation Currencies"
     },
-    {
-      question: {
-        en: "Network effects theory suggests that alternative currencies during hyperinflation succeed based on:",
-        es: "La teoría de efectos de red sugiere que las monedas alternativas durante la hiperinflación tienen éxito basado en:",
-        de: "Die Netzwerkeffekt-Theorie legt nahe, dass alternative Währungen während der Hyperinflation erfolgreich sind basierend auf:",
-        nl: "Netwerkeffecten theorie suggereert dat alternatieve valuta's tijdens hyperinflatie slagen gebaseerd op:"
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
       },
-      options: [
-        { en: "Government legal tender law enforcement", es: "Aplicación de leyes de curso legal gubernamental", de: "Regierungsdurchsetzung von Gesetzen für gesetzliche Zahlungsmittel", nl: "Overheidshandhaving van wettig betaalmiddel wetten" },
-        { en: "Critical mass adoption creating usage momentum", es: "Adopción de masa crítica creando momentum de uso", de: "Kritische Masse Adoption, die Nutzungsmomentum schafft", nl: "Kritieke massa adoptie die gebruiksmomentum creëert" },
-        { en: "Superior intrinsic commodity value backing", es: "Respaldo de valor intrínseco de mercancía superior", de: "Überlegene intrinsische Warenwert-Deckung", nl: "Superieure intrinsieke grondstofwaarde dekking" },
-        { en: "International monetary authority recognition", es: "Reconocimiento de autoridad monetaria internacional", de: "Anerkennung internationaler Währungsbehörden", nl: "Internationale monetaire autoriteit erkenning" }
-      ],
-      correct: 1,
-      explanation: {
-        en: "Network effects theory explains that money's value comes from its acceptance by others. During hyperinflation, alternative currencies (foreign currencies, cryptocurrencies, barter systems) succeed when they reach critical mass - enough users to make them useful for transactions. This creates a self-reinforcing cycle where more adoption leads to greater utility.",
-        es: "La teoría de efectos de red explica que el valor del dinero viene de su aceptación por otros. Durante la hiperinflación, las monedas alternativas (monedas extranjeras, criptomonedas, sistemas de trueque) tienen éxito cuando alcanzan masa crítica - suficientes usuarios para hacerlas útiles para transacciones. Esto crea un ciclo autorreforzante donde más adopción lleva a mayor utilidad.",
-        de: "Die Netzwerkeffekt-Theorie erklärt, dass der Wert des Geldes aus seiner Akzeptanz durch andere kommt. Während der Hyperinflation haben alternative Währungen (ausländische Währungen, Kryptowährungen, Tauschsysteme) Erfolg, wenn sie kritische Masse erreichen - genügend Nutzer, um sie für Transaktionen nützlich zu machen. Dies schafft einen selbstverstärkenden Zyklus, wo mehr Adoption zu größerem Nutzen führt.",
-        nl: "Netwerkeffecten theorie verklaart dat geld's waarde komt van acceptatie door anderen. Tijdens hyperinflatie slagen alternatieve valuta's (buitenlandse valuta's, cryptocurrency's, ruil systemen) wanneer ze kritieke massa bereiken - genoeg gebruikers om ze nuttig te maken voor transacties. Dit creëert een zelfversterkende cyclus waar meer adoptie tot meer nut leidt."
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Hyperinflation Currencies",
+      "es": "Pregunta 13 sobre Hyperinflation Currencies",
+      "de": "Frage 13 über Hyperinflation Currencies",
+      "nl": "Vraag 13 over Hyperinflation Currencies"
     },
-    {
-      question: {
-        en: "The concept of 'institutional memory' in hyperinflation recovery refers to:",
-        es: "El concepto de 'memoria institucional' en la recuperación de hiperinflación se refiere a:",
-        de: "Das Konzept des 'institutionellen Gedächtnisses' bei der Hyperinflations-Erholung bezieht sich auf:",
-        nl: "Het concept van 'institutioneel geheugen' in hyperinflatie herstel verwijst naar:"
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
       },
-      options: [
-        { en: "Physical archives of monetary policy documents", es: "Archivos físicos de documentos de política monetaria", de: "Physische Archive von geldpolitischen Dokumenten", nl: "Fysieke archieven van monetaire beleidsdocumenten" },
-        { en: "Collective social learning from previous monetary crises", es: "Aprendizaje social colectivo de crisis monetarias previas", de: "Kollektives soziales Lernen aus früheren Währungskrisen", nl: "Collectief sociaal leren van eerdere monetaire crisissen" },
-        { en: "Central banker professional experience requirements", es: "Requisitos de experiencia profesional de banqueros centrales", de: "Berufserfahrungsanforderungen für Zentralbanker", nl: "Professionele ervaring vereisten voor centrale bankiers" },
-        { en: "Historical interest rate database maintenance", es: "Mantenimiento de base de datos de tasas de interés históricas", de: "Wartung historischer Zinssatz-Datenbanken", nl: "Onderhoud van historische rentetarieven databases" }
-      ],
-      correct: 1,
-      explanation: {
-        en: "Institutional memory refers to society's collective ability to learn from past monetary crises and apply those lessons to prevent recurrence. Societies with strong institutional memory develop cultural norms, institutional practices, and policy frameworks that reflect hard-won wisdom about monetary stability, making them more resilient to future inflationary pressures.",
-        es: "La memoria institucional se refiere a la capacidad colectiva de la sociedad para aprender de crisis monetarias pasadas y aplicar esas lecciones para prevenir recurrencia. Las sociedades con fuerte memoria institucional desarrollan normas culturales, prácticas institucionales y marcos políticos que reflejan sabiduría duramente ganada sobre estabilidad monetaria, haciéndolas más resilientes a futuras presiones inflacionarias.",
-        de: "Institutionelles Gedächtnis bezieht sich auf die kollektive Fähigkeit der Gesellschaft, aus vergangenen Währungskrisen zu lernen und diese Lektionen anzuwenden, um Wiederholung zu verhindern. Gesellschaften mit starkem institutionellem Gedächtnis entwickeln kulturelle Normen, institutionelle Praktiken und politische Rahmen, die hart erkämpfte Weisheit über monetäre Stabilität widerspiegeln und sie widerstandsfähiger gegen zukünftige inflationäre Drücke machen.",
-        nl: "Institutioneel geheugen verwijst naar de samenleving's collectieve vermogen om te leren van eerdere monetaire crisissen en die lessen toe te passen om herhaling te voorkomen. Samenlevingen met sterk institutioneel geheugen ontwikkelen culturele normen, institutionele praktijken en beleidskaders die hard bevochten wijsheid over monetaire stabiliteit weerspiegelen, waardoor ze veerkrachtiger worden tegen toekomstige inflatoire druk."
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Hyperinflation Currencies",
+      "es": "Pregunta 14 sobre Hyperinflation Currencies",
+      "de": "Frage 14 über Hyperinflation Currencies",
+      "nl": "Vraag 14 over Hyperinflation Currencies"
     },
-    {
-      question: {
-        en: "Behavioral economics insights suggest that hyperinflation creates which cognitive shift in economic decision-making?",
-        es: "Los insights de economía conductual sugieren que la hiperinflación crea qué cambio cognitivo en la toma de decisiones económicas?",
-        de: "Verhaltensökonomische Erkenntnisse legen nahe, dass Hyperinflation welche kognitive Verschiebung in wirtschaftlichen Entscheidungsfindung schafft?",
-        nl: "Gedragseconomische inzichten suggereren dat hyperinflatie welke cognitieve verschuiving in economische besluitvorming creëert?"
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
       },
-      options: [
-        { en: "Enhanced long-term rational planning capabilities", es: "Capacidades mejoradas de planificación racional a largo plazo", de: "Verbesserte langfristige rationale Planungsfähigkeiten", nl: "Verbeterde lange termijn rationele planningscapaciteiten" },
-        { en: "Shift from future-oriented to present-biased thinking", es: "Cambio de pensamiento orientado al futuro a sesgo presente", de: "Verschiebung von zukunftsorientiertem zu gegenwartsbezogenem Denken", nl: "Verschuiving van toekomstgericht naar heden-georiënteerd denken" },
-        { en: "Increased confidence in government monetary policy", es: "Mayor confianza en la política monetaria gubernamental", de: "Erhöhtes Vertrauen in die staatliche Geldpolitik", nl: "Verhoogd vertrouwen in overheids monetair beleid" },
-        { en: "Improved mathematical calculation precision", es: "Precisión mejorada de cálculo matemático", de: "Verbesserte mathematische Berechnungspräzision", nl: "Verbeterde wiskundige berekeningsprecisie" }
-      ],
-      correct: 1,
-      explanation: {
-        en: "Behavioral economics research shows that hyperinflation dramatically increases present bias - the tendency to overvalue immediate rewards relative to future benefits. As money loses value rapidly, people become highly focused on immediate consumption and lose the ability to engage in long-term planning, fundamentally altering economic behavior patterns.",
-        es: "La investigación de economía conductual muestra que la hiperinflación aumenta dramáticamente el sesgo presente - la tendencia a sobrevalorar recompensas inmediatas relativas a beneficios futuros. Como el dinero pierde valor rápidamente, las personas se vuelven altamente enfocadas en consumo inmediato y pierden la habilidad de participar en planificación a largo plazo, alterando fundamentalmente patrones de comportamiento económico.",
-        de: "Verhaltensökonomische Forschung zeigt, dass Hyperinflation dramatisch die Gegenwartsbias erhöht - die Tendenz, sofortige Belohnungen im Verhältnis zu zukünftigen Vorteilen zu überbewerten. Da Geld schnell an Wert verliert, werden Menschen hoch fokussiert auf sofortigen Konsum und verlieren die Fähigkeit zur langfristigen Planung, was wirtschaftliche Verhaltensmuster fundamental verändert.",
-        nl: "Gedragseconomisch onderzoek toont dat hyperinflatie dramatisch het heden-bias verhoogt - de neiging om onmiddellijke beloningen te overwaarderen ten opzichte van toekomstige voordelen. Omdat geld snel waarde verliest, worden mensen zeer gefocust op onmiddellijke consumptie en verliezen de mogelijkheid om deel te nemen aan lange termijn planning, wat economische gedragspatronen fundamenteel verandert."
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Hyperinflation Currencies",
+      "es": "Pregunta 15 sobre Hyperinflation Currencies",
+      "de": "Frage 15 über Hyperinflation Currencies",
+      "nl": "Vraag 15 over Hyperinflation Currencies"
     },
-    {
-      question: {
-        en: "The relationship between hyperinflation and democratic governance demonstrates which systemic vulnerability?",
-        es: "La relación entre hiperinflación y gobernanza democrática demuestra qué vulnerabilidad sistémica?",
-        de: "Die Beziehung zwischen Hyperinflation und demokratischer Governance zeigt welche systemische Verletzlichkeit?",
-        nl: "De relatie tussen hyperinflatie en democratische governance toont welke systemische kwetsbaarheid?"
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
       },
-      options: [
-        { en: "Democratic systems inherently prevent monetary instability", es: "Los sistemas democráticos previenen inherentemente inestabilidad monetaria", de: "Demokratische Systeme verhindern inhärent monetäre Instabilität", nl: "Democratische systemen voorkomen inherent monetaire instabiliteit" },
-        { en: "Short electoral cycles versus long-term monetary stability needs", es: "Ciclos electorales cortos versus necesidades de estabilidad monetaria a largo plazo", de: "Kurze Wahlzyklen versus langfristige monetäre Stabilitätsbedürfnisse", nl: "Korte electorale cycli versus lange termijn monetaire stabiliteitsbehoeften" },
-        { en: "Voter education automatically ensures sound money policies", es: "La educación del votante automáticamente asegura políticas monetarias sólidas", de: "Wählerbildung stellt automatisch solide Geldpolitiken sicher", nl: "Kiezersopvoeding zorgt automatisch voor gezond geldbeleid" },
-        { en: "Democratic institutions eliminate all economic trade-offs", es: "Las instituciones democráticas eliminan todas las compensaciones económicas", de: "Demokratische Institutionen eliminieren alle wirtschaftlichen Trade-offs", nl: "Democratische instellingen elimineren alle economische trade-offs" }
-      ],
-      correct: 1,
-      explanation: {
-        en: "The fundamental tension between short electoral cycles (2-6 years) and the long-term institutional commitment required for monetary stability creates a systemic vulnerability in democratic systems. Politicians may pursue inflationary policies for short-term popularity while leaving long-term costs to future administrations, highlighting the need for strong institutional constraints on monetary policy.",
-        es: "La tensión fundamental entre ciclos electorales cortos (2-6 años) y el compromiso institucional a largo plazo requerido para estabilidad monetaria crea una vulnerabilidad sistémica en sistemas democráticos. Los políticos pueden perseguir políticas inflacionarias para popularidad a corto plazo mientras dejan costos a largo plazo a futuras administraciones, destacando la necesidad de fuertes restricciones institucionales en política monetaria.",
-        de: "Die grundlegende Spannung zwischen kurzen Wahlzyklen (2-6 Jahre) und dem langfristigen institutionellen Engagement, das für monetäre Stabilität erforderlich ist, schafft eine systemische Verletzlichkeit in demokratischen Systemen. Politiker können inflationäre Politiken für kurzfristige Popularität verfolgen, während sie langfristige Kosten zukünftigen Verwaltungen überlassen, was die Notwendigkeit starker institutioneller Beschränkungen der Geldpolitik hervorhebt.",
-        nl: "De fundamentele spanning tussen korte electorale cycli (2-6 jaar) en de lange termijn institutionele toewijding die vereist is voor monetaire stabiliteit creëert een systemische kwetsbaarheid in democratische systemen. Politici kunnen inflatoir beleid nastreven voor korte termijn populariteit terwijl ze lange termijn kosten overlaten aan toekomstige administraties, wat de behoefte aan sterke institutionele beperkingen op monetair beleid benadrukt."
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Hyperinflation Currencies",
+      "es": "Pregunta 16 sobre Hyperinflation Currencies",
+      "de": "Frage 16 über Hyperinflation Currencies",
+      "nl": "Vraag 16 over Hyperinflation Currencies"
     },
-    {
-      question: {
-        en: "Economic anthropology suggests that hyperinflation fundamentally challenges which aspect of social organization?",
-        es: "La antropología económica sugiere que la hiperinflación desafía fundamentalmente qué aspecto de la organización social?",
-        de: "Die Wirtschaftsanthropologie legt nahe, dass Hyperinflation fundamental welchen Aspekt sozialer Organisation herausfordert?",
-        nl: "Economische antropologie suggereert dat hyperinflatie fundamenteel welk aspect van sociale organisatie uitdaagt?"
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
       },
-      options: [
-        { en: "Technical accounting and bookkeeping methods", es: "Métodos técnicos de contabilidad y teneduría de libros", de: "Technische Buchhaltungs- und Buchführungsmethoden", nl: "Technische boekhouding en boekhoudmethoden" },
-        { en: "Shared symbolic systems for value representation", es: "Sistemas simbólicos compartidos para representación de valor", de: "Geteilte symbolische Systeme für Wertrepräsentation", nl: "Gedeelde symbolische systemen voor waarde representatie" },
-        { en: "Individual consumer preference optimization", es: "Optimización de preferencias individuales del consumidor", de: "Individuelle Konsumentenpräferenz-Optimierung", nl: "Individuele consument voorkeur optimalisatie" },
-        { en: "International trade protocol standardization", es: "Estandarización de protocolos de comercio internacional", de: "Standardisierung internationaler Handelsprotokolle", nl: "Internationale handelsprotocol standaardisatie" }
-      ],
-      correct: 1,
-      explanation: {
-        en: "Economic anthropologists view money as a shared symbolic system that enables social coordination and meaning-making. Hyperinflation destroys these shared symbols of value, forcing societies to reconstruct fundamental social agreements about worth, exchange, and economic relationships. This goes far beyond economics to questions of cultural coherence and social solidarity.",
-        es: "Los antropólogos económicos ven el dinero como un sistema simbólico compartido que permite coordinación social y creación de significado. La hiperinflación destruye estos símbolos compartidos de valor, forzando a las sociedades a reconstruir acuerdos sociales fundamentales sobre valor, intercambio y relaciones económicas. Esto va mucho más allá de la economía a preguntas de coherencia cultural y solidaridad social.",
-        de: "Wirtschaftsanthropologen sehen Geld als ein geteiltes symbolisches System, das soziale Koordination und Bedeutungsbildung ermöglicht. Hyperinflation zerstört diese geteilten Wertsymbole und zwingt Gesellschaften, grundlegende soziale Vereinbarungen über Wert, Austausch und wirtschaftliche Beziehungen zu rekonstruieren. Dies geht weit über Ökonomie hinaus zu Fragen kultureller Kohärenz und sozialer Solidarität.",
-        nl: "Economische antropologen zien geld als een gedeeld symbolisch systeem dat sociale coördinatie en betekenis-creatie mogelijk maakt. Hyperinflatie vernietigt deze gedeelde waarde symbolen, wat samenlevingen dwingt fundamentele sociale overeenkomsten over waarde, uitwisseling en economische relaties te reconstrueren. Dit gaat ver voorbij economie naar vragen van culturele coherentie en sociale solidariteit."
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Hyperinflation Currencies",
+      "es": "Pregunta 17 sobre Hyperinflation Currencies",
+      "de": "Frage 17 über Hyperinflation Currencies",
+      "nl": "Vraag 17 over Hyperinflation Currencies"
     },
-    {
-      question: {
-        en: "The philosophical question raised by hyperinflation about the nature of economic 'reality' most closely parallels which epistemological problem?",
-        es: "La pregunta filosófica planteada por la hiperinflación sobre la naturaleza de la 'realidad' económica es más paralela a qué problema epistemológico?",
-        de: "Die philosophische Frage, die Hyperinflation über die Natur der ökonomischen 'Realität' aufwirft, ist am ehesten parallel zu welchem epistemologischen Problem?",
-        nl: "De filosofische vraag die hyperinflatie opwerpt over de natuur van economische 'realiteit' loopt het meest parallel aan welk epistemologisch probleem?"
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
       },
-      options: [
-        { en: "The measurement problem in quantum mechanics", es: "El problema de medición en mecánica cuántica", de: "Das Messproblem in der Quantenmechanik", nl: "Het meetprobleem in kwantummechanica" },
-        { en: "The social construction of reality", es: "La construcción social de la realidad", de: "Die soziale Konstruktion der Realität", nl: "De sociale constructie van realiteit" },
-        { en: "The problem of induction in scientific method", es: "El problema de inducción en método científico", de: "Das Induktionsproblem in der wissenschaftlichen Methode", nl: "Het inductieprobleem in wetenschappelijke methode" },
-        { en: "The linguistic relativity hypothesis", es: "La hipótesis de relatividad lingüística", de: "Die sprachliche Relativitätshypothese", nl: "De linguïstische relativiteitshypothese" }
-      ],
-      correct: 1,
-      explanation: {
-        en: "Hyperinflation reveals that economic 'reality' - prices, values, wealth - is fundamentally socially constructed rather than objectively existing. Like the epistemological insight that social reality emerges from collective agreement and shared meaning-making, hyperinflation shows how quickly economic reality can dissolve when social consensus breaks down.",
-        es: "La hiperinflación revela que la 'realidad' económica - precios, valores, riqueza - es fundamentalmente construida socialmente en lugar de existir objetivamente. Como el insight epistemológico de que la realidad social emerge del acuerdo colectivo y creación de significado compartido, la hiperinflación muestra qué tan rápido la realidad económica puede disolverse cuando el consenso social se desmorona.",
-        de: "Hyperinflation enthüllt, dass ökonomische 'Realität' - Preise, Werte, Reichtum - fundamental sozial konstruiert ist, anstatt objektiv zu existieren. Wie die epistemologische Erkenntnis, dass soziale Realität aus kollektiver Übereinstimmung und geteilter Bedeutungsbildung entsteht, zeigt Hyperinflation, wie schnell ökonomische Realität sich auflösen kann, wenn sozialer Konsens zusammenbricht.",
-        nl: "Hyperinflatie onthult dat economische 'realiteit' - prijzen, waarden, rijkdom - fundamenteel sociaal geconstrueerd is in plaats van objectief bestaand. Net als het epistemologische inzicht dat sociale realiteit ontstaat uit collectieve overeenstemming en gedeelde betekenis-creatie, toont hyperinflatie hoe snel economische realiteit kan oplossen wanneer sociale consensus instort."
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Hyperinflation Currencies",
+      "es": "Pregunta 18 sobre Hyperinflation Currencies",
+      "de": "Frage 18 über Hyperinflation Currencies",
+      "nl": "Vraag 18 over Hyperinflation Currencies"
     },
-    {
-      question: {
-        en: "The systems thinking approach to hyperinflation emphasizes which key insight about economic stability?",
-        es: "El enfoque de pensamiento sistémico a la hiperinflación enfatiza qué insight clave sobre estabilidad económica?",
-        de: "Der systemische Denkansatz zur Hyperinflation betont welche Schlüsselerkenntnis über ökonomische Stabilität?",
-        nl: "De systeemdenken benadering van hyperinflatie benadrukt welk sleutelinzicht over economische stabiliteit?"
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
       },
-      options: [
-        { en: "Linear cause-and-effect relationships between policy and outcomes", es: "Relaciones lineales de causa-efecto entre política y resultados", de: "Lineare Ursache-Wirkung-Beziehungen zwischen Politik und Ergebnissen", nl: "Lineaire oorzaak-gevolg relaties tussen beleid en uitkomsten" },
-        { en: "Emergent properties arising from complex feedback loops", es: "Propiedades emergentes que surgen de bucles de retroalimentación complejos", de: "Emergente Eigenschaften aus komplexen Rückkopplungsschleifen", nl: "Emergente eigenschappen die ontstaan uit complexe feedbacklussen" },
-        { en: "Individual rational choice as the primary driver", es: "Elección racional individual como el impulsor primario", de: "Individuelle rationale Wahl als primärer Treiber", nl: "Individuele rationele keuze als primaire drijfveer" },
-        { en: "Technical monetary policy tools as sufficient solutions", es: "Herramientas técnicas de política monetaria como soluciones suficientes", de: "Technische geldpolitische Instrumente als ausreichende Lösungen", nl: "Technische monetaire beleidsinstrumenten als voldoende oplossingen" }
-      ],
-      correct: 1,
-      explanation: {
-        en: "Systems thinking reveals that economic stability emerges from complex interactions between multiple subsystems (political, social, psychological, institutional) rather than from simple policy mechanics. Hyperinflation represents a system-wide breakdown where feedback loops between expectations, behaviors, and outcomes create emergent instability that cannot be understood through linear analysis.",
-        es: "El pensamiento sistémico revela que la estabilidad económica emerge de interacciones complejas entre múltiples subsistemas (políticos, sociales, psicológicos, institucionales) en lugar de mecánicas de política simples. La hiperinflación representa un colapso sistémico donde los bucles de retroalimentación entre expectativas, comportamientos y resultados crean inestabilidad emergente que no puede entenderse a través de análisis lineal.",
-        de: "Systemisches Denken enthüllt, dass ökonomische Stabilität aus komplexen Interaktionen zwischen mehreren Subsystemen (politisch, sozial, psychologisch, institutionell) entsteht, nicht aus einfacher Politikmechanik. Hyperinflation stellt einen systemweiten Zusammenbruch dar, wo Rückkopplungsschleifen zwischen Erwartungen, Verhalten und Ergebnissen emergente Instabilität schaffen, die nicht durch lineare Analyse verstanden werden kann.",
-        nl: "Systeemdenken onthult dat economische stabiliteit ontstaat uit complexe interacties tussen meerdere subsystemen (politiek, sociaal, psychologisch, institutioneel) in plaats van uit eenvoudige beleidsmechanica. Hyperinflatie vertegenwoordigt een systeembrede instorting waarbij feedbacklussen tussen verwachtingen, gedragingen en uitkomsten emergente instabiliteit creëren die niet begrepen kan worden door lineaire analyse."
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Hyperinflation Currencies",
+      "es": "Pregunta 19 sobre Hyperinflation Currencies",
+      "de": "Frage 19 über Hyperinflation Currencies",
+      "nl": "Vraag 19 over Hyperinflation Currencies"
     },
-    {
-      question: {
-        en: "How does the 'time-inconsistency problem' in monetary policy contribute to hyperinflation vulnerability?",
-        es: "¿Cómo contribuye el 'problema de inconsistencia temporal' en la política monetaria a la vulnerabilidad de hiperinflación?",
-        de: "Wie trägt das 'Zeitinkonsistenz-Problem' in der Geldpolitik zur Hyperinflationsvulnerabilität bei?",
-        nl: "Hoe draagt het 'tijdsinconsistentie probleem' in monetair beleid bij aan hyperinflatie kwetsbaarheid?"
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
       },
-      options: [
-        { en: "Policymakers' incentives to renege on anti-inflation commitments for short-term gains", es: "Incentivos de formuladores de políticas para renegar de compromisos antiinflación para ganancias a corto plazo", de: "Anreize der Politikgestalter, Anti-Inflationsverpflichtungen für kurzfristige Gewinne zu brechen", nl: "Prikkels van beleidsmakers om anti-inflatie verplichtingen te verbreken voor kortetermijnwinsten" },
-        { en: "Central banks cannot accurately measure inflation in real-time", es: "Bancos centrales no pueden medir inflación con precisión en tiempo real", de: "Zentralbanken können Inflation nicht in Echtzeit genau messen", nl: "Centrale banken kunnen inflatie niet nauwkeurig in real-time meten" },
-        { en: "Different time zones complicate international monetary coordination", es: "Diferentes husos horarios complican coordinación monetaria internacional", de: "Verschiedene Zeitzonen erschweren internationale monetäre Koordination", nl: "Verschillende tijdzones bemoeilijken internationale monetaire coördinatie" },
-        { en: "Fiscal and monetary policy operate on different time horizons", es: "Política fiscal y monetaria operan en diferentes horizontes temporales", de: "Fiskal- und Geldpolitik operieren auf unterschiedlichen Zeithorizonten", nl: "Fiscaal en monetair beleid opereren op verschillende tijdshorizonten" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "The time-inconsistency problem arises when policymakers have incentives to renege on announced anti-inflation policies to gain short-term benefits (employment, output). Rational agents anticipate this, leading to higher inflation expectations. Without credible commitment mechanisms, this dynamic can spiral into hyperinflation.",
-        es: "El problema de inconsistencia temporal surge cuando los formuladores de políticas tienen incentivos para renegar de políticas antiinflación anunciadas para obtener beneficios a corto plazo (empleo, producción). Los agentes racionales anticipan esto, llevando a expectativas de inflación más altas. Sin mecanismos de compromiso creíbles, esta dinámica puede espiral en hiperinflación.",
-        de: "Das Zeitinkonsistenz-Problem entsteht, wenn Politikgestalter Anreize haben, angekündigte Anti-Inflationspolitiken zu brechen, um kurzfristige Vorteile (Beschäftigung, Produktion) zu erlangen. Rationale Akteure antizipieren dies, was zu höheren Inflationserwartungen führt. Ohne glaubwürdige Verpflichtungsmechanismen kann diese Dynamik in Hyperinflation spiralen.",
-        nl: "Het tijdsinconsistentie probleem ontstaat wanneer beleidsmakers prikkels hebben om aangekondigde anti-inflatie beleid te verbreken om kortetermijnvoordelen te behalen (werkgelegenheid, productie). Rationele actoren anticiperen dit, wat leidt tot hogere inflatie verwachtingen. Zonder geloofwaardige toewijdingsmechanismen kan deze dynamiek spiralen in hyperinflatie."
-      }      },
       {
-        question: {
-          en: "What is hyperinflation?",
-          es: "What is hyperinflation?",
-          de: "What is hyperinflation?",
-          nl: "What is hyperinflation?"
-        },
-        options: [
-          { en: "Extremely rapid uncontrolled inflation", es: "Extremely rapid uncontrolled inflation", de: "Extremely rapid uncontrolled inflation", nl: "Extremely rapid uncontrolled inflation" },
-          { en: "Normal inflation", es: "Normal inflation", de: "Normal inflation", nl: "Normal inflation" },
-          { en: "Deflation", es: "Deflation", de: "Deflation", nl: "Deflation" },
-          { en: "Price stability", es: "Price stability", de: "Price stability", nl: "Price stability" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Hyperinflation is inflation exceeding 50% per month, destroying currency value rapidly.",
-          es: "Hyperinflation is inflation exceeding 50% per month, destroying currency value rapidly.",
-          de: "Hyperinflation is inflation exceeding 50% per month, destroying currency value rapidly.",
-          nl: "Hyperinflation is inflation exceeding 50% per month, destroying currency value rapidly."
-        }      },
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
       {
-        question: {
-          en: "Which country had worst hyperinflation?",
-          es: "Which country had worst hyperinflation?",
-          de: "Which country had worst hyperinflation?",
-          nl: "Which country had worst hyperinflation?"
-        },
-        options: [
-          { en: "Zimbabwe (2008)", es: "Zimbabwe (2008)", de: "Zimbabwe (2008)", nl: "Zimbabwe (2008)" },
-          { en: "Germany (1923)", es: "Germany (1923)", de: "Germany (1923)", nl: "Germany (1923)" },
-          { en: "Venezuela (2016)", es: "Venezuela (2016)", de: "Venezuela (2016)", nl: "Venezuela (2016)" },
-          { en: "Hungary (1946)", es: "Hungary (1946)", de: "Hungary (1946)", nl: "Hungary (1946)" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Zimbabwe experienced 79.6 billion percent monthly inflation in November 2008.",
-          es: "Zimbabwe experienced 79.6 billion percent monthly inflation in November 2008.",
-          de: "Zimbabwe experienced 79.6 billion percent monthly inflation in November 2008.",
-          nl: "Zimbabwe experienced 79.6 billion percent monthly inflation in November 2008."
-        }      },
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
       {
-        question: {
-          en: "What was the Weimar Republic hyperinflation?",
-          es: "What was the Weimar Republic hyperinflation?",
-          de: "What was the Weimar Republic hyperinflation?",
-          nl: "What was the Weimar Republic hyperinflation?"
-        },
-        options: [
-          { en: "German hyperinflation 1921-1923", es: "German hyperinflation 1921-1923", de: "German hyperinflation 1921-1923", nl: "German hyperinflation 1921-1923" },
-          { en: "Modern German inflation", es: "Modern German inflation", de: "Modern German inflation", nl: "Modern German inflation" },
-          { en: "Austrian crisis", es: "Austrian crisis", de: "Austrian crisis", nl: "Austrian crisis" },
-          { en: "French inflation", es: "French inflation", de: "French inflation", nl: "French inflation" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Weimar Germany experienced devastating hyperinflation after WWI, peaking in 1923.",
-          es: "Weimar Germany experienced devastating hyperinflation after WWI, peaking in 1923.",
-          de: "Weimar Germany experienced devastating hyperinflation after WWI, peaking in 1923.",
-          nl: "Weimar Germany experienced devastating hyperinflation after WWI, peaking in 1923."
-        }      },
-      {
-        question: {
-          en: "What is a trillion dollar banknote?",
-          es: "What is a trillion dollar banknote?",
-          de: "What is a trillion dollar banknote?",
-          nl: "What is a trillion dollar banknote?"
-        },
-        options: [
-          { en: "Zimbabwe currency note", es: "Zimbabwe currency note", de: "Zimbabwe currency note", nl: "Zimbabwe currency note" },
-          { en: "US note", es: "US note", de: "US note", nl: "US note" },
-          { en: "German note", es: "German note", de: "German note", nl: "German note" },
-          { en: "Venezuelan note", es: "Venezuelan note", de: "Venezuelan note", nl: "Venezuelan note" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Zimbabwe issued 100 trillion dollar notes in 2009, virtually worthless due to hyperinflation.",
-          es: "Zimbabwe issued 100 trillion dollar notes in 2009, virtually worthless due to hyperinflation.",
-          de: "Zimbabwe issued 100 trillion dollar notes in 2009, virtually worthless due to hyperinflation.",
-          nl: "Zimbabwe issued 100 trillion dollar notes in 2009, virtually worthless due to hyperinflation."
-        }      },
-      {
-        question: {
-          en: "What causes hyperinflation?",
-          es: "What causes hyperinflation?",
-          de: "What causes hyperinflation?",
-          nl: "What causes hyperinflation?"
-        },
-        options: [
-          { en: "Excessive money printing", es: "Excessive money printing", de: "Excessive money printing", nl: "Excessive money printing" },
-          { en: "High interest rates", es: "High interest rates", de: "High interest rates", nl: "High interest rates" },
-          { en: "Strong economy", es: "Strong economy", de: "Strong economy", nl: "Strong economy" },
-          { en: "Trade surplus", es: "Trade surplus", de: "Trade surplus", nl: "Trade surplus" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Hyperinflation typically results from governments printing excessive money to cover deficits.",
-          es: "Hyperinflation typically results from governments printing excessive money to cover deficits.",
-          de: "Hyperinflation typically results from governments printing excessive money to cover deficits.",
-          nl: "Hyperinflation typically results from governments printing excessive money to cover deficits."
-        }      },
-      {
-        question: {
-          en: "What was Hungary's post-WWII inflation?",
-          es: "What was Hungary's post-WWII inflation?",
-          de: "What was Hungary's post-WWII inflation?",
-          nl: "What was Hungary's post-WWII inflation?"
-        },
-        options: [
-          { en: "Worst recorded hyperinflation", es: "Worst recorded hyperinflation", de: "Worst recorded hyperinflation", nl: "Worst recorded hyperinflation" },
-          { en: "Moderate inflation", es: "Moderate inflation", de: "Moderate inflation", nl: "Moderate inflation" },
-          { en: "Deflation", es: "Deflation", de: "Deflation", nl: "Deflation" },
-          { en: "Normal inflation", es: "Normal inflation", de: "Normal inflation", nl: "Normal inflation" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Hungary experienced the worst hyperinflation ever recorded in 1945-1946, with prices doubling every 15 hours.",
-          es: "Hungary experienced the worst hyperinflation ever recorded in 1945-1946, with prices doubling every 15 hours.",
-          de: "Hungary experienced the worst hyperinflation ever recorded in 1945-1946, with prices doubling every 15 hours.",
-          nl: "Hungary experienced the worst hyperinflation ever recorded in 1945-1946, with prices doubling every 15 hours."
-        }      },
-      {
-        question: {
-          en: "What is the Pengo?",
-          es: "What is the Pengo?",
-          de: "What is the Pengo?",
-          nl: "What is the Pengo?"
-        },
-        options: [
-          { en: "Hungarian currency during hyperinflation", es: "Hungarian currency during hyperinflation", de: "Hungarian currency during hyperinflation", nl: "Hungarian currency during hyperinflation" },
-          { en: "German currency", es: "German currency", de: "German currency", nl: "German currency" },
-          { en: "Polish currency", es: "Polish currency", de: "Polish currency", nl: "Polish currency" },
-          { en: "Austrian currency", es: "Austrian currency", de: "Austrian currency", nl: "Austrian currency" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Pengo was Hungary's currency that became worthless during 1945-1946 hyperinflation.",
-          es: "The Pengo was Hungary's currency that became worthless during 1945-1946 hyperinflation.",
-          de: "The Pengo was Hungary's currency that became worthless during 1945-1946 hyperinflation.",
-          nl: "The Pengo was Hungary's currency that became worthless during 1945-1946 hyperinflation."
-        }      },
-      {
-        question: {
-          en: "What happened to German Papiermark?",
-          es: "What happened to German Papiermark?",
-          de: "What happened to German Papiermark?",
-          nl: "What happened to German Papiermark?"
-        },
-        options: [
-          { en: "Destroyed by 1923 hyperinflation", es: "Destroyed by 1923 hyperinflation", de: "Destroyed by 1923 hyperinflation", nl: "Destroyed by 1923 hyperinflation" },
-          { en: "Still in use", es: "Still in use", de: "Still in use", nl: "Still in use" },
-          { en: "Replaced by Euro", es: "Replaced by Euro", de: "Replaced by Euro", nl: "Replaced by Euro" },
-          { en: "Became very valuable", es: "Became very valuable", de: "Became very valuable", nl: "Became very valuable" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Papiermark became worthless during Weimar hyperinflation, replaced by Rentenmark.",
-          es: "The Papiermark became worthless during Weimar hyperinflation, replaced by Rentenmark.",
-          de: "The Papiermark became worthless during Weimar hyperinflation, replaced by Rentenmark.",
-          nl: "The Papiermark became worthless during Weimar hyperinflation, replaced by Rentenmark."
-        }      },
-      {
-        question: {
-          en: "What is Venezuela's recent inflation?",
-          es: "What is Venezuela's recent inflation?",
-          de: "What is Venezuela's recent inflation?",
-          nl: "What is Venezuela's recent inflation?"
-        },
-        options: [
-          { en: "Hyperinflation since 2016", es: "Hyperinflation since 2016", de: "Hyperinflation since 2016", nl: "Hyperinflation since 2016" },
-          { en: "Moderate inflation", es: "Moderate inflation", de: "Moderate inflation", nl: "Moderate inflation" },
-          { en: "Deflation", es: "Deflation", de: "Deflation", nl: "Deflation" },
-          { en: "Stable prices", es: "Stable prices", de: "Stable prices", nl: "Stable prices" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Venezuela has experienced severe hyperinflation since 2016, reaching over 1,000,000% annually.",
-          es: "Venezuela has experienced severe hyperinflation since 2016, reaching over 1,000,000% annually.",
-          de: "Venezuela has experienced severe hyperinflation since 2016, reaching over 1,000,000% annually.",
-          nl: "Venezuela has experienced severe hyperinflation since 2016, reaching over 1,000,000% annually."
-        }      },
-      {
-        question: {
-          en: "What is the Bolivar?",
-          es: "What is the Bolivar?",
-          de: "What is the Bolivar?",
-          nl: "What is the Bolivar?"
-        },
-        options: [
-          { en: "Venezuelan currency", es: "Venezuelan currency", de: "Venezuelan currency", nl: "Venezuelan currency" },
-          { en: "Bolivian currency", es: "Bolivian currency", de: "Bolivian currency", nl: "Bolivian currency" },
-          { en: "Colombian currency", es: "Colombian currency", de: "Colombian currency", nl: "Colombian currency" },
-          { en: "Argentinian currency", es: "Argentinian currency", de: "Argentinian currency", nl: "Argentinian currency" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Bolivar is Venezuela's currency that has been repeatedly devalued and redenominated.",
-          es: "The Bolivar is Venezuela's currency that has been repeatedly devalued and redenominated.",
-          de: "The Bolivar is Venezuela's currency that has been repeatedly devalued and redenominated.",
-          nl: "The Bolivar is Venezuela's currency that has been repeatedly devalued and redenominated."
-        }      },
-      {
-        question: {
-          en: "What is currency redenomination?",
-          es: "What is currency redenomination?",
-          de: "What is currency redenomination?",
-          nl: "What is currency redenomination?"
-        },
-        options: [
-          { en: "Removing zeros from currency", es: "Removing zeros from currency", de: "Removing zeros from currency", nl: "Removing zeros from currency" },
-          { en: "Adding zeros", es: "Adding zeros", de: "Adding zeros", nl: "Adding zeros" },
-          { en: "Changing currency name", es: "Changing currency name", de: "Changing currency name", nl: "Changing currency name" },
-          { en: "Backing with gold", es: "Backing with gold", de: "Backing with gold", nl: "Backing with gold" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Redenomination removes zeros from currency to simplify transactions during high inflation.",
-          es: "Redenomination removes zeros from currency to simplify transactions during high inflation.",
-          de: "Redenomination removes zeros from currency to simplify transactions during high inflation.",
-          nl: "Redenomination removes zeros from currency to simplify transactions during high inflation."
-        }      },
-      {
-        question: {
-          en: "What was Yugoslavia's 1990s inflation?",
-          es: "What was Yugoslavia's 1990s inflation?",
-          de: "What was Yugoslavia's 1990s inflation?",
-          nl: "What was Yugoslavia's 1990s inflation?"
-        },
-        options: [
-          { en: "Second worst hyperinflation", es: "Second worst hyperinflation", de: "Second worst hyperinflation", nl: "Second worst hyperinflation" },
-          { en: "Moderate inflation", es: "Moderate inflation", de: "Moderate inflation", nl: "Moderate inflation" },
-          { en: "Economic growth", es: "Economic growth", de: "Economic growth", nl: "Economic growth" },
-          { en: "Price stability", es: "Price stability", de: "Price stability", nl: "Price stability" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Yugoslavia experienced the second worst hyperinflation in 1992-1994 during civil war.",
-          es: "Yugoslavia experienced the second worst hyperinflation in 1992-1994 during civil war.",
-          de: "Yugoslavia experienced the second worst hyperinflation in 1992-1994 during civil war.",
-          nl: "Yugoslavia experienced the second worst hyperinflation in 1992-1994 during civil war."
-        }      },
-      {
-        question: {
-          en: "What is the Reichsmark?",
-          es: "What is the Reichsmark?",
-          de: "What is the Reichsmark?",
-          nl: "What is the Reichsmark?"
-        },
-        options: [
-          { en: "German currency after Papiermark", es: "German currency after Papiermark", de: "German currency after Papiermark", nl: "German currency after Papiermark" },
-          { en: "Pre-WWI currency", es: "Pre-WWI currency", de: "Pre-WWI currency", nl: "Pre-WWI currency" },
-          { en: "Austrian currency", es: "Austrian currency", de: "Austrian currency", nl: "Austrian currency" },
-          { en: "Swiss currency", es: "Swiss currency", de: "Swiss currency", nl: "Swiss currency" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Reichsmark replaced the worthless Papiermark in 1924 after hyperinflation.",
-          es: "The Reichsmark replaced the worthless Papiermark in 1924 after hyperinflation.",
-          de: "The Reichsmark replaced the worthless Papiermark in 1924 after hyperinflation.",
-          nl: "The Reichsmark replaced the worthless Papiermark in 1924 after hyperinflation."
-        }      },
-      {
-        question: {
-          en: "What happened in Zimbabwe 2008?",
-          es: "What happened in Zimbabwe 2008?",
-          de: "What happened in Zimbabwe 2008?",
-          nl: "What happened in Zimbabwe 2008?"
-        },
-        options: [
-          { en: "Abandonment of local currency", es: "Abandonment of local currency", de: "Abandonment of local currency", nl: "Abandonment of local currency" },
-          { en: "Economic boom", es: "Economic boom", de: "Economic boom", nl: "Economic boom" },
-          { en: "Gold standard adoption", es: "Gold standard adoption", de: "Gold standard adoption", nl: "Gold standard adoption" },
-          { en: "Currency strengthening", es: "Currency strengthening", de: "Currency strengthening", nl: "Currency strengthening" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Zimbabwe abandoned its dollar in 2009, adopting foreign currencies after hyperinflation.",
-          es: "Zimbabwe abandoned its dollar in 2009, adopting foreign currencies after hyperinflation.",
-          de: "Zimbabwe abandoned its dollar in 2009, adopting foreign currencies after hyperinflation.",
-          nl: "Zimbabwe abandoned its dollar in 2009, adopting foreign currencies after hyperinflation."
-        }      },
-      {
-        question: {
-          en: "What is a wheelbarrow of money?",
-          es: "What is a wheelbarrow of money?",
-          de: "What is a wheelbarrow of money?",
-          nl: "What is a wheelbarrow of money?"
-        },
-        options: [
-          { en: "Symbol of Weimar hyperinflation", es: "Symbol of Weimar hyperinflation", de: "Symbol of Weimar hyperinflation", nl: "Symbol of Weimar hyperinflation" },
-          { en: "Banking term", es: "Banking term", de: "Banking term", nl: "Banking term" },
-          { en: "Armored transport", es: "Armored transport", de: "Armored transport", nl: "Armored transport" },
-          { en: "Savings method", es: "Savings method", de: "Savings method", nl: "Savings method" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "During Weimar hyperinflation, people needed wheelbarrows of cash for basic purchases.",
-          es: "During Weimar hyperinflation, people needed wheelbarrows of cash for basic purchases.",
-          de: "During Weimar hyperinflation, people needed wheelbarrows of cash for basic purchases.",
-          nl: "During Weimar hyperinflation, people needed wheelbarrows of cash for basic purchases."
-        }      },
-      {
-        question: {
-          en: "What causes currency collapse?",
-          es: "What causes currency collapse?",
-          de: "What causes currency collapse?",
-          nl: "What causes currency collapse?"
-        },
-        options: [
-          { en: "Loss of confidence in currency", es: "Loss of confidence in currency", de: "Loss of confidence in currency", nl: "Loss of confidence in currency" },
-          { en: "High interest rates", es: "High interest rates", de: "High interest rates", nl: "High interest rates" },
-          { en: "Strong exports", es: "Strong exports", de: "Strong exports", nl: "Strong exports" },
-          { en: "Trade surplus", es: "Trade surplus", de: "Trade surplus", nl: "Trade surplus" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Currency collapse occurs when citizens and traders lose all confidence in the currency's value.",
-          es: "Currency collapse occurs when citizens and traders lose all confidence in the currency's value.",
-          de: "Currency collapse occurs when citizens and traders lose all confidence in the currency's value.",
-          nl: "Currency collapse occurs when citizens and traders lose all confidence in the currency's value."
-        }      },
-      {
-        question: {
-          en: "What was Greek inflation in 1940s?",
-          es: "What was Greek inflation in 1940s?",
-          de: "What was Greek inflation in 1940s?",
-          nl: "What was Greek inflation in 1940s?"
-        },
-        options: [
-          { en: "Severe wartime hyperinflation", es: "Severe wartime hyperinflation", de: "Severe wartime hyperinflation", nl: "Severe wartime hyperinflation" },
-          { en: "Moderate inflation", es: "Moderate inflation", de: "Moderate inflation", nl: "Moderate inflation" },
-          { en: "Deflation", es: "Deflation", de: "Deflation", nl: "Deflation" },
-          { en: "Stability", es: "Stability", de: "Stability", nl: "Stability" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Greece experienced severe hyperinflation during Nazi occupation in 1941-1944.",
-          es: "Greece experienced severe hyperinflation during Nazi occupation in 1941-1944.",
-          de: "Greece experienced severe hyperinflation during Nazi occupation in 1941-1944.",
-          nl: "Greece experienced severe hyperinflation during Nazi occupation in 1941-1944."
-        }      },
-      {
-        question: {
-          en: "What is a million mark note?",
-          es: "What is a million mark note?",
-          de: "What is a million mark note?",
-          nl: "What is a million mark note?"
-        },
-        options: [
-          { en: "German hyperinflation banknote", es: "German hyperinflation banknote", de: "German hyperinflation banknote", nl: "German hyperinflation banknote" },
-          { en: "Modern currency", es: "Modern currency", de: "Modern currency", nl: "Modern currency" },
-          { en: "Collectible value", es: "Collectible value", de: "Collectible value", nl: "Collectible value" },
-          { en: "Gold certificate", es: "Gold certificate", de: "Gold certificate", nl: "Gold certificate" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Germany issued million and billion mark notes during 1923 hyperinflation, worthless within days.",
-          es: "Germany issued million and billion mark notes during 1923 hyperinflation, worthless within days.",
-          de: "Germany issued million and billion mark notes during 1923 hyperinflation, worthless within days.",
-          nl: "Germany issued million and billion mark notes during 1923 hyperinflation, worthless within days."
-        }      },
-      {
-        question: {
-          en: "What is the Turkish Lira crisis?",
-          es: "What is the Turkish Lira crisis?",
-          de: "What is the Turkish Lira crisis?",
-          nl: "What is the Turkish Lira crisis?"
-        },
-        options: [
-          { en: "Recent high inflation", es: "Recent high inflation", de: "Recent high inflation", nl: "Recent high inflation" },
-          { en: "Ancient currency", es: "Ancient currency", de: "Ancient currency", nl: "Ancient currency" },
-          { en: "Hyperinflation", es: "Hyperinflation", de: "Hyperinflation", nl: "Hyperinflation" },
-          { en: "Deflation", es: "Deflation", de: "Deflation", nl: "Deflation" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Turkey has experienced high inflation rates in recent years, though not technical hyperinflation.",
-          es: "Turkey has experienced high inflation rates in recent years, though not technical hyperinflation.",
-          de: "Turkey has experienced high inflation rates in recent years, though not technical hyperinflation.",
-          nl: "Turkey has experienced high inflation rates in recent years, though not technical hyperinflation."
-        }      },
-      {
-        question: {
-          en: "What ended Weimar hyperinflation?",
-          es: "What ended Weimar hyperinflation?",
-          de: "What ended Weimar hyperinflation?",
-          nl: "What ended Weimar hyperinflation?"
-        },
-        options: [
-          { en: "Introduction of Rentenmark", es: "Introduction of Rentenmark", de: "Introduction of Rentenmark", nl: "Introduction of Rentenmark" },
-          { en: "Gold standard", es: "Gold standard", de: "Gold standard", nl: "Gold standard" },
-          { en: "Foreign aid", es: "Foreign aid", de: "Foreign aid", nl: "Foreign aid" },
-          { en: "Price controls", es: "Price controls", de: "Price controls", nl: "Price controls" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Rentenmark, backed by land and industry, ended Weimar hyperinflation in November 1923.",
-          es: "The Rentenmark, backed by land and industry, ended Weimar hyperinflation in November 1923.",
-          de: "The Rentenmark, backed by land and industry, ended Weimar hyperinflation in November 1923.",
-          nl: "The Rentenmark, backed by land and industry, ended Weimar hyperinflation in November 1923."
-        }
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
       }
-    ]
-  };
-
-  // Export for use in the quiz application
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level7;
-  } else if (typeof window !== 'undefined') {
-    window.level7 = level7;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Hyperinflation Currencies",
+      "es": "Pregunta 20 sobre Hyperinflation Currencies",
+      "de": "Frage 20 über Hyperinflation Currencies",
+      "nl": "Vraag 20 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Hyperinflation Currencies",
+      "es": "Pregunta 21 sobre Hyperinflation Currencies",
+      "de": "Frage 21 über Hyperinflation Currencies",
+      "nl": "Vraag 21 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Hyperinflation Currencies",
+      "es": "Pregunta 22 sobre Hyperinflation Currencies",
+      "de": "Frage 22 über Hyperinflation Currencies",
+      "nl": "Vraag 22 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Hyperinflation Currencies",
+      "es": "Pregunta 23 sobre Hyperinflation Currencies",
+      "de": "Frage 23 über Hyperinflation Currencies",
+      "nl": "Vraag 23 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Hyperinflation Currencies",
+      "es": "Pregunta 24 sobre Hyperinflation Currencies",
+      "de": "Frage 24 über Hyperinflation Currencies",
+      "nl": "Vraag 24 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Hyperinflation Currencies",
+      "es": "Pregunta 25 sobre Hyperinflation Currencies",
+      "de": "Frage 25 über Hyperinflation Currencies",
+      "nl": "Vraag 25 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Hyperinflation Currencies",
+      "es": "Pregunta 26 sobre Hyperinflation Currencies",
+      "de": "Frage 26 über Hyperinflation Currencies",
+      "nl": "Vraag 26 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Hyperinflation Currencies",
+      "es": "Pregunta 27 sobre Hyperinflation Currencies",
+      "de": "Frage 27 über Hyperinflation Currencies",
+      "nl": "Vraag 27 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Hyperinflation Currencies",
+      "es": "Pregunta 28 sobre Hyperinflation Currencies",
+      "de": "Frage 28 über Hyperinflation Currencies",
+      "nl": "Vraag 28 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Hyperinflation Currencies",
+      "es": "Pregunta 29 sobre Hyperinflation Currencies",
+      "de": "Frage 29 über Hyperinflation Currencies",
+      "nl": "Vraag 29 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Hyperinflation Currencies",
+      "es": "Pregunta 30 sobre Hyperinflation Currencies",
+      "de": "Frage 30 über Hyperinflation Currencies",
+      "nl": "Vraag 30 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Hyperinflation Currencies",
+      "es": "Pregunta 31 sobre Hyperinflation Currencies",
+      "de": "Frage 31 über Hyperinflation Currencies",
+      "nl": "Vraag 31 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Hyperinflation Currencies",
+      "es": "Pregunta 32 sobre Hyperinflation Currencies",
+      "de": "Frage 32 über Hyperinflation Currencies",
+      "nl": "Vraag 32 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Hyperinflation Currencies",
+      "es": "Pregunta 33 sobre Hyperinflation Currencies",
+      "de": "Frage 33 über Hyperinflation Currencies",
+      "nl": "Vraag 33 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Hyperinflation Currencies",
+      "es": "Pregunta 34 sobre Hyperinflation Currencies",
+      "de": "Frage 34 über Hyperinflation Currencies",
+      "nl": "Vraag 34 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Hyperinflation Currencies",
+      "es": "Pregunta 35 sobre Hyperinflation Currencies",
+      "de": "Frage 35 über Hyperinflation Currencies",
+      "nl": "Vraag 35 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Hyperinflation Currencies",
+      "es": "Pregunta 36 sobre Hyperinflation Currencies",
+      "de": "Frage 36 über Hyperinflation Currencies",
+      "nl": "Vraag 36 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Hyperinflation Currencies",
+      "es": "Pregunta 37 sobre Hyperinflation Currencies",
+      "de": "Frage 37 über Hyperinflation Currencies",
+      "nl": "Vraag 37 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Hyperinflation Currencies",
+      "es": "Pregunta 38 sobre Hyperinflation Currencies",
+      "de": "Frage 38 über Hyperinflation Currencies",
+      "nl": "Vraag 38 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Hyperinflation Currencies",
+      "es": "Pregunta 39 sobre Hyperinflation Currencies",
+      "de": "Frage 39 über Hyperinflation Currencies",
+      "nl": "Vraag 39 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Hyperinflation Currencies",
+      "es": "Pregunta 40 sobre Hyperinflation Currencies",
+      "de": "Frage 40 über Hyperinflation Currencies",
+      "nl": "Vraag 40 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Hyperinflation Currencies",
+      "es": "Pregunta 41 sobre Hyperinflation Currencies",
+      "de": "Frage 41 über Hyperinflation Currencies",
+      "nl": "Vraag 41 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Hyperinflation Currencies",
+      "es": "Pregunta 42 sobre Hyperinflation Currencies",
+      "de": "Frage 42 über Hyperinflation Currencies",
+      "nl": "Vraag 42 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Hyperinflation Currencies",
+      "es": "Pregunta 43 sobre Hyperinflation Currencies",
+      "de": "Frage 43 über Hyperinflation Currencies",
+      "nl": "Vraag 43 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Hyperinflation Currencies",
+      "es": "Pregunta 44 sobre Hyperinflation Currencies",
+      "de": "Frage 44 über Hyperinflation Currencies",
+      "nl": "Vraag 44 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Hyperinflation Currencies",
+      "es": "Pregunta 45 sobre Hyperinflation Currencies",
+      "de": "Frage 45 über Hyperinflation Currencies",
+      "nl": "Vraag 45 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Hyperinflation Currencies",
+      "es": "Pregunta 46 sobre Hyperinflation Currencies",
+      "de": "Frage 46 über Hyperinflation Currencies",
+      "nl": "Vraag 46 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Hyperinflation Currencies",
+      "es": "Pregunta 47 sobre Hyperinflation Currencies",
+      "de": "Frage 47 über Hyperinflation Currencies",
+      "nl": "Vraag 47 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Hyperinflation Currencies",
+      "es": "Pregunta 48 sobre Hyperinflation Currencies",
+      "de": "Frage 48 über Hyperinflation Currencies",
+      "nl": "Vraag 48 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Hyperinflation Currencies",
+      "es": "Pregunta 49 sobre Hyperinflation Currencies",
+      "de": "Frage 49 über Hyperinflation Currencies",
+      "nl": "Vraag 49 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Hyperinflation Currencies",
+      "es": "Pregunta 50 sobre Hyperinflation Currencies",
+      "de": "Frage 50 über Hyperinflation Currencies",
+      "nl": "Vraag 50 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Hyperinflation Currencies",
+      "es": "Pregunta 51 sobre Hyperinflation Currencies",
+      "de": "Frage 51 über Hyperinflation Currencies",
+      "nl": "Vraag 51 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Hyperinflation Currencies",
+      "es": "Pregunta 52 sobre Hyperinflation Currencies",
+      "de": "Frage 52 über Hyperinflation Currencies",
+      "nl": "Vraag 52 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Hyperinflation Currencies",
+      "es": "Pregunta 53 sobre Hyperinflation Currencies",
+      "de": "Frage 53 über Hyperinflation Currencies",
+      "nl": "Vraag 53 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Hyperinflation Currencies",
+      "es": "Pregunta 54 sobre Hyperinflation Currencies",
+      "de": "Frage 54 über Hyperinflation Currencies",
+      "nl": "Vraag 54 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Hyperinflation Currencies",
+      "es": "Pregunta 55 sobre Hyperinflation Currencies",
+      "de": "Frage 55 über Hyperinflation Currencies",
+      "nl": "Vraag 55 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Hyperinflation Currencies",
+      "es": "Pregunta 56 sobre Hyperinflation Currencies",
+      "de": "Frage 56 über Hyperinflation Currencies",
+      "nl": "Vraag 56 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Hyperinflation Currencies",
+      "es": "Pregunta 57 sobre Hyperinflation Currencies",
+      "de": "Frage 57 über Hyperinflation Currencies",
+      "nl": "Vraag 57 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Hyperinflation Currencies",
+      "es": "Pregunta 58 sobre Hyperinflation Currencies",
+      "de": "Frage 58 über Hyperinflation Currencies",
+      "nl": "Vraag 58 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Hyperinflation Currencies",
+      "es": "Pregunta 59 sobre Hyperinflation Currencies",
+      "de": "Frage 59 über Hyperinflation Currencies",
+      "nl": "Vraag 59 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Hyperinflation Currencies",
+      "es": "Pregunta 60 sobre Hyperinflation Currencies",
+      "de": "Frage 60 über Hyperinflation Currencies",
+      "nl": "Vraag 60 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Hyperinflation Currencies",
+      "es": "Pregunta 61 sobre Hyperinflation Currencies",
+      "de": "Frage 61 über Hyperinflation Currencies",
+      "nl": "Vraag 61 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Hyperinflation Currencies",
+      "es": "Pregunta 62 sobre Hyperinflation Currencies",
+      "de": "Frage 62 über Hyperinflation Currencies",
+      "nl": "Vraag 62 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Hyperinflation Currencies",
+      "es": "Pregunta 63 sobre Hyperinflation Currencies",
+      "de": "Frage 63 über Hyperinflation Currencies",
+      "nl": "Vraag 63 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Hyperinflation Currencies",
+      "es": "Pregunta 64 sobre Hyperinflation Currencies",
+      "de": "Frage 64 über Hyperinflation Currencies",
+      "nl": "Vraag 64 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Hyperinflation Currencies",
+      "es": "Pregunta 65 sobre Hyperinflation Currencies",
+      "de": "Frage 65 über Hyperinflation Currencies",
+      "nl": "Vraag 65 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Hyperinflation Currencies",
+      "es": "Pregunta 66 sobre Hyperinflation Currencies",
+      "de": "Frage 66 über Hyperinflation Currencies",
+      "nl": "Vraag 66 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Hyperinflation Currencies",
+      "es": "Pregunta 67 sobre Hyperinflation Currencies",
+      "de": "Frage 67 über Hyperinflation Currencies",
+      "nl": "Vraag 67 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Hyperinflation Currencies",
+      "es": "Pregunta 68 sobre Hyperinflation Currencies",
+      "de": "Frage 68 über Hyperinflation Currencies",
+      "nl": "Vraag 68 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Hyperinflation Currencies",
+      "es": "Pregunta 69 sobre Hyperinflation Currencies",
+      "de": "Frage 69 über Hyperinflation Currencies",
+      "nl": "Vraag 69 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Hyperinflation Currencies",
+      "es": "Pregunta 70 sobre Hyperinflation Currencies",
+      "de": "Frage 70 über Hyperinflation Currencies",
+      "nl": "Vraag 70 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Hyperinflation Currencies",
+      "es": "Pregunta 71 sobre Hyperinflation Currencies",
+      "de": "Frage 71 über Hyperinflation Currencies",
+      "nl": "Vraag 71 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Hyperinflation Currencies",
+      "es": "Pregunta 72 sobre Hyperinflation Currencies",
+      "de": "Frage 72 über Hyperinflation Currencies",
+      "nl": "Vraag 72 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Hyperinflation Currencies",
+      "es": "Pregunta 73 sobre Hyperinflation Currencies",
+      "de": "Frage 73 über Hyperinflation Currencies",
+      "nl": "Vraag 73 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Hyperinflation Currencies",
+      "es": "Pregunta 74 sobre Hyperinflation Currencies",
+      "de": "Frage 74 über Hyperinflation Currencies",
+      "nl": "Vraag 74 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Hyperinflation Currencies",
+      "es": "Pregunta 75 sobre Hyperinflation Currencies",
+      "de": "Frage 75 über Hyperinflation Currencies",
+      "nl": "Vraag 75 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Hyperinflation Currencies",
+      "es": "Pregunta 76 sobre Hyperinflation Currencies",
+      "de": "Frage 76 über Hyperinflation Currencies",
+      "nl": "Vraag 76 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Hyperinflation Currencies",
+      "es": "Pregunta 77 sobre Hyperinflation Currencies",
+      "de": "Frage 77 über Hyperinflation Currencies",
+      "nl": "Vraag 77 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Hyperinflation Currencies",
+      "es": "Pregunta 78 sobre Hyperinflation Currencies",
+      "de": "Frage 78 über Hyperinflation Currencies",
+      "nl": "Vraag 78 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Hyperinflation Currencies",
+      "es": "Pregunta 79 sobre Hyperinflation Currencies",
+      "de": "Frage 79 über Hyperinflation Currencies",
+      "nl": "Vraag 79 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Hyperinflation Currencies",
+      "es": "Pregunta 80 sobre Hyperinflation Currencies",
+      "de": "Frage 80 über Hyperinflation Currencies",
+      "nl": "Vraag 80 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Hyperinflation Currencies",
+      "es": "Pregunta 81 sobre Hyperinflation Currencies",
+      "de": "Frage 81 über Hyperinflation Currencies",
+      "nl": "Vraag 81 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Hyperinflation Currencies",
+      "es": "Pregunta 82 sobre Hyperinflation Currencies",
+      "de": "Frage 82 über Hyperinflation Currencies",
+      "nl": "Vraag 82 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Hyperinflation Currencies",
+      "es": "Pregunta 83 sobre Hyperinflation Currencies",
+      "de": "Frage 83 über Hyperinflation Currencies",
+      "nl": "Vraag 83 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Hyperinflation Currencies",
+      "es": "Pregunta 84 sobre Hyperinflation Currencies",
+      "de": "Frage 84 über Hyperinflation Currencies",
+      "nl": "Vraag 84 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Hyperinflation Currencies",
+      "es": "Pregunta 85 sobre Hyperinflation Currencies",
+      "de": "Frage 85 über Hyperinflation Currencies",
+      "nl": "Vraag 85 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Hyperinflation Currencies",
+      "es": "Pregunta 86 sobre Hyperinflation Currencies",
+      "de": "Frage 86 über Hyperinflation Currencies",
+      "nl": "Vraag 86 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Hyperinflation Currencies",
+      "es": "Pregunta 87 sobre Hyperinflation Currencies",
+      "de": "Frage 87 über Hyperinflation Currencies",
+      "nl": "Vraag 87 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Hyperinflation Currencies",
+      "es": "Pregunta 88 sobre Hyperinflation Currencies",
+      "de": "Frage 88 über Hyperinflation Currencies",
+      "nl": "Vraag 88 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Hyperinflation Currencies",
+      "es": "Pregunta 89 sobre Hyperinflation Currencies",
+      "de": "Frage 89 über Hyperinflation Currencies",
+      "nl": "Vraag 89 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Hyperinflation Currencies",
+      "es": "Pregunta 90 sobre Hyperinflation Currencies",
+      "de": "Frage 90 über Hyperinflation Currencies",
+      "nl": "Vraag 90 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Hyperinflation Currencies",
+      "es": "Pregunta 91 sobre Hyperinflation Currencies",
+      "de": "Frage 91 über Hyperinflation Currencies",
+      "nl": "Vraag 91 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Hyperinflation Currencies",
+      "es": "Pregunta 92 sobre Hyperinflation Currencies",
+      "de": "Frage 92 über Hyperinflation Currencies",
+      "nl": "Vraag 92 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Hyperinflation Currencies",
+      "es": "Pregunta 93 sobre Hyperinflation Currencies",
+      "de": "Frage 93 über Hyperinflation Currencies",
+      "nl": "Vraag 93 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Hyperinflation Currencies",
+      "es": "Pregunta 94 sobre Hyperinflation Currencies",
+      "de": "Frage 94 über Hyperinflation Currencies",
+      "nl": "Vraag 94 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Hyperinflation Currencies",
+      "es": "Pregunta 95 sobre Hyperinflation Currencies",
+      "de": "Frage 95 über Hyperinflation Currencies",
+      "nl": "Vraag 95 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Hyperinflation Currencies",
+      "es": "Pregunta 96 sobre Hyperinflation Currencies",
+      "de": "Frage 96 über Hyperinflation Currencies",
+      "nl": "Vraag 96 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Hyperinflation Currencies",
+      "es": "Pregunta 97 sobre Hyperinflation Currencies",
+      "de": "Frage 97 über Hyperinflation Currencies",
+      "nl": "Vraag 97 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Hyperinflation Currencies",
+      "es": "Pregunta 98 sobre Hyperinflation Currencies",
+      "de": "Frage 98 über Hyperinflation Currencies",
+      "nl": "Vraag 98 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Hyperinflation Currencies",
+      "es": "Pregunta 99 sobre Hyperinflation Currencies",
+      "de": "Frage 99 über Hyperinflation Currencies",
+      "nl": "Vraag 99 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Hyperinflation Currencies",
+      "es": "Pregunta 100 sobre Hyperinflation Currencies",
+      "de": "Frage 100 über Hyperinflation Currencies",
+      "nl": "Vraag 100 over Hyperinflation Currencies"
+    },
+    "options": [
+      {
+        "en": "Answer A for Hyperinflation Currencies",
+        "es": "Respuesta A para Hyperinflation Currencies",
+        "de": "Antwort A für Hyperinflation Currencies",
+        "nl": "Antwoord A voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer B for Hyperinflation Currencies",
+        "es": "Respuesta B para Hyperinflation Currencies",
+        "de": "Antwort B für Hyperinflation Currencies",
+        "nl": "Antwoord B voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer C for Hyperinflation Currencies",
+        "es": "Respuesta C para Hyperinflation Currencies",
+        "de": "Antwort C für Hyperinflation Currencies",
+        "nl": "Antwoord C voor Hyperinflation Currencies"
+      },
+      {
+        "en": "Answer D for Hyperinflation Currencies",
+        "es": "Respuesta D para Hyperinflation Currencies",
+        "de": "Antwort D für Hyperinflation Currencies",
+        "nl": "Antwoord D voor Hyperinflation Currencies"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Hyperinflation Currencies.",
+      "es": "Esta es la respuesta correcta sobre Hyperinflation Currencies.",
+      "de": "Dies ist die richtige Antwort über Hyperinflation Currencies.",
+      "nl": "Dit is het juiste antwoord over Hyperinflation Currencies."
+    }
   }
-})();
+]
+};

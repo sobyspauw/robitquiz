@@ -302,7 +302,8 @@
       "Bash(git fetch:*)",
       "Bash(lsof:*)",
       "Bash(tail:*)",
-      "Bash(else echo \"Level $i: File not found\")"
+      "Bash(else echo \"Level $i: File not found\")",
+      "Bash(while read subject)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"

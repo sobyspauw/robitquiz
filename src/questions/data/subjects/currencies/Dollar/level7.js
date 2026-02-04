@@ -1,840 +1,4104 @@
-// Quiz Template - Level 7: Currencies - Dollar
-(function() {
-  const level7 = {
-    name: {
-      en: "US Dollar - Advanced+",
-      es: "Dólar Estadounidense - Avanzado+",
-      de: "US-Dollar - Fortgeschritten+",
-      nl: "Amerikaanse Dollar - Gevorderd+"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "What is the value of Dollar regarding basic facts? (Q1)",
+      "es": "What is the value of Dollar con respecto a basic facts? (P1)",
+      "de": "What is the value of Dollar in Bezug auf basic facts? (F1)",
+      "nl": "What is the value of Dollar met betrekking tot basic facts? (V1)"
     },
-    questions: [
+    "options": [
       {
-        question: {
-          en: "What is the name of the intaglio printing process used for US currency?",
-          es: "¿Cuál es el nombre del proceso de impresión de huecograbado usado para la moneda estadounidense?",
-          de: "Wie heißt das Tiefdruckverfahren, das für US-Währung verwendet wird?",
-          nl: "Wat is de naam van het diepdrukproces dat wordt gebruikt voor Amerikaanse valuta?"
-        },
-        options: [
-          { en: "Gravure printing", es: "Impresión en huecograbado", de: "Tiefdruck", nl: "Rotogravure" },
-          { en: "Letterpress printing", es: "Impresión tipográfica", de: "Hochdruck", nl: "Boekdruk" },
-          { en: "Offset lithography", es: "Litografía offset", de: "Offsetlithografie", nl: "Offsetlitho" },
-          { en: "Screen printing", es: "Serigrafía", de: "Siebdruck", nl: "Zeefdruk" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Intaglio gravure printing is used for US currency. This process creates raised ink that can be felt by touch, making it extremely difficult to counterfeit. The ink is forced into engraved lines on steel plates.",
-          es: "La impresión de huecograbado intaglio se usa para la moneda estadounidense. Este proceso crea tinta elevada que se puede sentir al tacto, haciéndola extremadamente difícil de falsificar. La tinta se fuerza en líneas grabadas en placas de acero.",
-          de: "Intaglio-Tiefdruck wird für US-Währung verwendet. Dieser Prozess erzeugt erhabene Tinte, die durch Berührung gefühlt werden kann, was Fälschungen extrem schwierig macht. Die Tinte wird in gravierte Linien auf Stahlplatten gepresst.",
-          nl: "Intaglio diepdruk wordt gebruikt voor Amerikaanse valuta. Dit proces creëert verhoogde inkt die voelbaar is bij aanraking, waardoor het extreem moeilijk te vervalsen is. De inkt wordt in gegraveerde lijnen op stalen platen geperst."
-        }
+        "en": "Option A for Dollar - basic facts aspect",
+        "es": "Opción A para Dollar - aspecto basic facts",
+        "de": "Option A für Dollar - basic facts Aspekt",
+        "nl": "Optie A voor Dollar - basic facts aspect"
       },
       {
-        question: {
-          en: "Which special ink changes color from copper to green when tilted on newer $10, $20, $50, and $100 bills?",
-          es: "¿Qué tinta especial cambia de color de cobre a verde cuando se inclina en los billetes más nuevos de $10, $20, $50 y $100?",
-          de: "Welche spezielle Tinte ändert ihre Farbe von Kupfer zu Grün, wenn neuere 10-, 20-, 50- und 100-Dollar-Scheine geneigt werden?",
-          nl: "Welke speciale inkt verandert van kleur van koper naar groen wanneer nieuwere $10, $20, $50 en $100 biljetten worden gekanteld?"
-        },
-        options: [
-          { en: "Optically Variable Ink (OVI)", es: "Tinta Ópticamente Variable (OVI)", de: "Optisch Variable Tinte (OVI)", nl: "Optisch Variabele Inkt (OVI)" },
-          { en: "Thermochromic ink", es: "Tinta termocrómática", de: "Thermochrome Tinte", nl: "Thermochrome inkt" },
-          { en: "Photochromic ink", es: "Tinta fotocrómática", de: "Photochrome Tinte", nl: "Fotochrome inkt" },
-          { en: "Magnetic ink", es: "Tinta magnética", de: "Magnetische Tinte", nl: "Magnetische inkt" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Optically Variable Ink (OVI) is used on the numeral in the lower right corner of newer denominations. This special ink appears copper when viewed straight on and shifts to green when tilted, providing an easily verifiable security feature.",
-          es: "La Tinta Ópticamente Variable (OVI) se usa en el numeral en la esquina inferior derecha de las denominaciones más nuevas. Esta tinta especial aparece de color cobre cuando se ve de frente y cambia a verde cuando se inclina, proporcionando una característica de seguridad fácilmente verificable.",
-          de: "Optisch Variable Tinte (OVI) wird auf der Ziffer in der unteren rechten Ecke neuerer Stückelungen verwendet. Diese spezielle Tinte erscheint kupferfarben bei frontaler Betrachtung und wechselt zu Grün beim Neigen, was ein leicht überprüfbares Sicherheitsmerkmal bietet.",
-          nl: "Optisch Variabele Inkt (OVI) wordt gebruikt op het cijfer in de rechter benedenhoek van nieuwere denominaties. Deze speciale inkt verschijnt koperkleurig bij recht kijken en verschuift naar groen bij kantelen, wat een makkelijk verifieerbaar beveiligingskenmerk biedt."
-        }
+        "en": "Option B for Dollar - basic facts aspect",
+        "es": "Opción B para Dollar - aspecto basic facts",
+        "de": "Option B für Dollar - basic facts Aspekt",
+        "nl": "Optie B voor Dollar - basic facts aspect"
       },
       {
-        question: {
-          en: "What is the thickness of a US dollar bill in thousandths of an inch?",
-          es: "¿Cuál es el grosor de un billete de dólar estadounidense en milésimas de pulgada?",
-          de: "Wie dick ist ein US-Dollarschein in Tausendstel Zoll?",
-          nl: "Wat is de dikte van een Amerikaanse dollarbiljet in duizendsten van een inch?"
-        },
-        options: [
-          { en: "4.3 thousandths", es: "4.3 milésimas", de: "4,3 Tausendstel", nl: "4,3 duizendsten" },
-          { en: "6.8 thousandths", es: "6.8 milésimas", de: "6,8 Tausendstel", nl: "6,8 duizendsten" },
-          { en: "8.2 thousandths", es: "8.2 milésimas", de: "8,2 Tausendstel", nl: "8,2 duizendsten" },
-          { en: "10.1 thousandths", es: "10.1 milésimas", de: "10,1 Tausendstel", nl: "10,1 duizendsten" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "A US dollar bill is 4.3 thousandths of an inch thick (0.0043 inches or about 0.11 mm). This precise thickness is maintained through careful control of the cotton-linen paper manufacturing process.",
-          es: "Un billete de dólar estadounidense tiene 4.3 milésimas de pulgada de grosor (0.0043 pulgadas o aproximadamente 0.11 mm). Este grosor preciso se mantiene a través del control cuidadoso del proceso de fabricación del papel de algodón-lino.",
-          de: "Ein US-Dollarschein ist 4,3 Tausendstel Zoll dick (0,0043 Zoll oder etwa 0,11 mm). Diese präzise Dicke wird durch sorgfältige Kontrolle des Baumwoll-Leinen-Papierherstellungsprozesses aufrechterhalten.",
-          nl: "Een Amerikaanse dollarbiljet is 4,3 duizendsten van een inch dik (0,0043 inch of ongeveer 0,11 mm). Deze precieze dikte wordt gehandhaafd door zorgvuldige controle van het katoen-linnen papierproductieproces."
-        }
+        "en": "Option C for Dollar - basic facts aspect",
+        "es": "Opción C para Dollar - aspecto basic facts",
+        "de": "Option C für Dollar - basic facts Aspekt",
+        "nl": "Optie C voor Dollar - basic facts aspect"
       },
       {
-        question: {
-          en: "What was the original reason for printing 'In God We Trust' on US currency?",
-          es: "¿Cuál fue la razón original para imprimir 'En Dios Confiamos' en la moneda estadounidense?",
-          de: "Was war der ursprüngliche Grund für den Druck von 'Auf Gott vertrauen wir' auf US-Währung?",
-          nl: "Wat was de oorspronkelijke reden voor het drukken van 'In God vertrouwen wij' op Amerikaanse valuta?"
-        },
-        options: [
-          { en: "Religious revival during Civil War", es: "Renacimiento religioso durante la Guerra Civil", de: "Religiöse Erweckung während des Bürgerkriegs", nl: "Religieuze opleving tijdens de Burgeroorlog" },
-          { en: "Constitutional requirement", es: "Requisito constitucional", de: "Verfassungsanforderung", nl: "Grondwettelijke vereiste" },
-          { en: "Anti-communist sentiment", es: "Sentimiento anticomunista", de: "Antikommunistische Stimmung", nl: "Anticommunistisch sentiment" },
-          { en: "Economic prosperity symbol", es: "Símbolo de prosperidad económica", de: "Symbol für wirtschaftlichen Wohlstand", nl: "Symbool van economische voorspoed" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The motto originated during the Civil War when religious sentiment increased. Rev. M.R. Watkinson wrote to Treasury Secretary Salmon Chase in 1861 requesting recognition of God on coins. It first appeared on the 2-cent coin in 1864.",
-          es: "El lema se originó durante la Guerra Civil cuando aumentó el sentimiento religioso. El Rev. M.R. Watkinson escribió al Secretario del Tesoro Salmon Chase en 1861 solicitando el reconocimiento de Dios en las monedas. Apareció por primera vez en la moneda de 2 centavos en 1864.",
-          de: "Das Motto entstand während des Bürgerkriegs, als religiöse Gefühle zunahmen. Rev. M.R. Watkinson schrieb 1861 an Finanzminister Salmon Chase mit der Bitte um Anerkennung Gottes auf Münzen. Es erschien erstmals 1864 auf der 2-Cent-Münze.",
-          nl: "Het motto ontstond tijdens de Burgeroorlog toen religieus sentiment toenam. Rev. M.R. Watkinson schreef in 1861 aan Treasury Secretary Salmon Chase met het verzoek om erkenning van God op munten. Het verscheen voor het eerst op de 2-cent munt in 1864."
-        }
-      },
-      {
-        question: {
-          en: "How many layers make up the security thread in modern US bills?",
-          es: "¿Cuántas capas componen el hilo de seguridad en los billetes estadounidenses modernos?",
-          de: "Aus wie vielen Schichten besteht der Sicherheitsfaden in modernen US-Scheinen?",
-          nl: "Hoeveel lagen vormen de veiligheidsdraad in moderne Amerikaanse biljetten?"
-        },
-        options: [
-          { en: "2 layers", es: "2 capas", de: "2 Schichten", nl: "2 lagen" },
-          { en: "3 layers", es: "3 capas", de: "3 Schichten", nl: "3 lagen" },
-          { en: "5 layers", es: "5 capas", de: "5 Schichten", nl: "5 lagen" },
-          { en: "7 layers", es: "7 capas", de: "7 Schichten", nl: "7 lagen" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "The security thread consists of 5 layers: a clear polyester base, microprinted text, metallic coating for UV fluorescence, additional microprinting, and a protective clear coating. This complex structure makes replication extremely difficult.",
-          es: "El hilo de seguridad consiste en 5 capas: una base de poliéster transparente, texto microimpreso, recubrimiento metálico para fluorescencia UV, microimpresión adicional, y un recubrimiento protector transparente. Esta estructura compleja hace que la replicación sea extremadamente difícil.",
-          de: "Der Sicherheitsfaden besteht aus 5 Schichten: einer klaren Polyesterbasis, mikrogedrucktem Text, metallischer Beschichtung für UV-Fluoreszenz, zusätzlichem Mikrodruck und einer schützenden klaren Beschichtung. Diese komplexe Struktur macht Nachbildungen extrem schwierig.",
-          nl: "De veiligheidsdraad bestaat uit 5 lagen: een heldere polyester basis, microgedrukte tekst, metallische coating voor UV-fluorescentie, aanvullende microdruk, en een beschermende heldere coating. Deze complexe structuur maakt replicatie extreem moeilijk."
-        }
-      },
-      {
-        question: {
-          en: "What printing technique creates the raised tactile feel on the portraits and main design elements?",
-          es: "¿Qué técnica de impresión crea la sensación táctil elevada en los retratos y elementos de diseño principales?",
-          de: "Welche Drucktechnik erzeugt das erhabene Tastgefühl bei den Porträts und Hauptgestaltungselementen?",
-          nl: "Welke druktechniek creëert het verhoogde tactiele gevoel bij de portretten en hoofdontwerpelementen?"
-        },
-        options: [
-          { en: "Embossing", es: "Estampado en relieve", de: "Prägung", nl: "Reliëfdruk" },
-          { en: "Intaglio engraving", es: "Grabado en hueco", de: "Tiefdruckgravur", nl: "Diepdrukgravure" },
-          { en: "Letterpress", es: "Tipografía", de: "Hochdruck", nl: "Boekdruk" },
-          { en: "Flexography", es: "Flexografía", de: "Flexodruck", nl: "Flexodruk" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Intaglio engraving forces ink into deep grooves cut into steel plates, creating raised ink that produces the distinctive tactile feel. This process requires specialized equipment and expertise, making it virtually impossible for counterfeiters to replicate.",
-          es: "El grabado en hueco fuerza la tinta en surcos profundos cortados en placas de acero, creando tinta elevada que produce la sensación táctil distintiva. Este proceso requiere equipo especializado y experiencia, haciéndolo virtualmente imposible de replicar para los falsificadores.",
-          de: "Tiefdruckgravur presst Tinte in tiefe Rillen, die in Stahlplatten geschnitten sind, und erzeugt erhabene Tinte, die das charakteristische Tastgefühl erzeugt. Dieser Prozess erfordert spezialisierte Ausrüstung und Fachwissen, was es für Fälscher praktisch unmöglich macht zu replizieren.",
-          nl: "Diepdrukgravure perst inkt in diepe groeven gesneden in stalen platen, waardoor verhoogde inkt ontstaat die het kenmerkende tactiele gevoel produceert. Dit proces vereist gespecialiseerde apparatuur en expertise, waardoor het vrijwel onmogelijk is voor vervalsers om te repliceren."
-        }
-      },
-      {
-        question: {
-          en: "What was the 'Educational Series' of US banknotes known for?",
-          es: "¿Por qué era conocida la 'Serie Educativa' de billetes estadounidenses?",
-          de: "Wofür war die 'Educational Series' der US-Banknoten bekannt?",
-          nl: "Waarvoor stond de 'Educational Series' van Amerikaanse bankbiljetten bekend?"
-        },
-        options: [
-          { en: "Complex allegorical artwork", es: "Obra de arte alegórica compleja", de: "Komplexe allegorische Kunstwerke", nl: "Complexe allegorische kunstwerken" },
-          { en: "First use of photographs", es: "Primer uso de fotografías", de: "Erste Verwendung von Fotografien", nl: "Eerste gebruik van foto's" },
-          { en: "Smallest denomination bills", es: "Billetes de menor denominación", de: "Kleinste Stückelungsscheine", nl: "Kleinste denominatiebiljetten" },
-          { en: "First security features", es: "Primeras características de seguridad", de: "Erste Sicherheitsmerkmale", nl: "Eerste beveiligingskenmerken" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Educational Series (1896) featured elaborate allegorical designs representing History, Science, and Electricity. These beautiful but complex artworks were criticized as too artistic and impractical, leading to their replacement after just one year.",
-          es: "La Serie Educativa (1896) presentaba diseños alegóricos elaborados que representaban Historia, Ciencia y Electricidad. Estas obras de arte hermosas pero complejas fueron criticadas como demasiado artísticas e impracticables, llevando a su reemplazo después de solo un año.",
-          de: "Die Educational Series (1896) zeigte aufwendige allegorische Designs, die Geschichte, Wissenschaft und Elektrizität darstellten. Diese schönen aber komplexen Kunstwerke wurden als zu künstlerisch und unpraktisch kritisiert, was zu ihrer Ersetzung nach nur einem Jahr führte.",
-          nl: "De Educational Series (1896) kenmerkte zich door uitgebreide allegorische ontwerpen die Geschiedenis, Wetenschap en Elektriciteit vertegenwoordigden. Deze mooie maar complexe kunstwerken werden bekritiseerd als te artistiek en onpraktisch, wat leidde tot hun vervanging na slechts één jaar."
-        }
-      },
-      {
-        question: {
-          en: "What is the specific name for the watermark portrait visible in modern US bills?",
-          es: "¿Cuál es el nombre específico del retrato de marca de agua visible en los billetes estadounidenses modernos?",
-          de: "Wie heißt das Wasserzeichenporträt, das in modernen US-Scheinen sichtbar ist?",
-          nl: "Wat is de specifieke naam voor het watermerkportret zichtbaar in moderne Amerikaanse biljetten?"
-        },
-        options: [
-          { en: "Shadow portrait", es: "Retrato sombra", de: "Schattenporträt", nl: "Schaduwportret" },
-          { en: "Watermark portrait", es: "Retrato de marca de agua", de: "Wasserzeichenporträt", nl: "Watermerkportret" },
-          { en: "Ghost image", es: "Imagen fantasma", de: "Geisterbild", nl: "Spookbeeld" },
-          { en: "Security portrait", es: "Retrato de seguridad", de: "Sicherheitsporträt", nl: "Beveiligingsportret" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The official term is 'shadow portrait' - a faint watermark image of the same person featured in the main portrait, visible when held up to light. It's embedded in the paper during manufacturing and matches the denomination.",
-          es: "El término oficial es 'retrato sombra' - una imagen de marca de agua tenue de la misma persona presentada en el retrato principal, visible cuando se sostiene a la luz. Está incrustado en el papel durante la fabricación y coincide con la denominación.",
-          de: "Der offizielle Begriff ist 'Schattenporträt' - ein schwaches Wasserzeichenbild derselben Person, die im Hauptporträt zu sehen ist, sichtbar bei Gegenlicht. Es wird während der Herstellung in das Papier eingebettet und passt zur Stückelung.",
-          nl: "De officiële term is 'schaduwportret' - een vaag watermerkbeeld van dezelfde persoon die in het hoofdportret wordt getoond, zichtbaar wanneer tegen het licht gehouden. Het is ingebed in het papier tijdens productie en komt overeen met de denominatie."
-        }
-      },
-      {
-        question: {
-          en: "What year marked the first use of the current size for US paper currency?",
-          es: "¿Qué año marcó el primer uso del tamaño actual para la moneda de papel estadounidense?",
-          de: "In welchem Jahr wurde erstmals die aktuelle Größe für US-Papiergeld verwendet?",
-          nl: "Welk jaar markeerde het eerste gebruik van de huidige grootte voor Amerikaanse papiervaluta?"
-        },
-        options: [
-          { en: "1929", es: "1929", de: "1929", nl: "1929" },
-          { en: "1933", es: "1933", de: "1933", nl: "1933" },
-          { en: "1935", es: "1935", de: "1935", nl: "1935" },
-          { en: "1941", es: "1941", de: "1941", nl: "1941" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "In 1929, US currency was reduced from its original large size (7.42 × 3.13 inches) to the current small size (6.14 × 2.61 inches) to reduce printing costs and make bills more convenient to handle and store.",
-          es: "En 1929, la moneda estadounidense se redujo de su tamaño grande original (7.42 × 3.13 pulgadas) al tamaño pequeño actual (6.14 × 2.61 pulgadas) para reducir costos de impresión y hacer los billetes más convenientes de manejar y almacenar.",
-          de: "1929 wurde die US-Währung von ihrer ursprünglichen großen Größe (7,42 × 3,13 Zoll) auf die aktuelle kleine Größe (6,14 × 2,61 Zoll) reduziert, um Druckkosten zu senken und Scheine handlicher und lagerfreundlicher zu machen.",
-          nl: "In 1929 werd Amerikaanse valuta verkleind van de oorspronkelijke grote maat (7,42 × 3,13 inch) naar de huidige kleine maat (6,14 × 2,61 inch) om drukkosten te verlagen en biljetten handiger te maken om vast te houden en op te slaan."
-        }
-      },
-      {
-        question: {
-          en: "What is the name of the building depicted on the back of the $100 bill?",
-          es: "¿Cuál es el nombre del edificio representado en el reverso del billete de $100?",
-          de: "Wie heißt das Gebäude, das auf der Rückseite des 100-Dollar-Scheins abgebildet ist?",
-          nl: "Wat is de naam van het gebouw afgebeeld op de achterkant van het $100 biljet?"
-        },
-        options: [
-          { en: "Philadelphia State House", es: "Casa del Estado de Filadelfia", de: "Philadelphia State House", nl: "Philadelphia State House" },
-          { en: "Independence Hall", es: "Salón de la Independencia", de: "Independence Hall", nl: "Independence Hall" },
-          { en: "Federal Hall", es: "Salón Federal", de: "Federal Hall", nl: "Federal Hall" },
-          { en: "Constitution Hall", es: "Salón de la Constitución", de: "Constitution Hall", nl: "Constitution Hall" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Independence Hall in Philadelphia appears on the back of the $100 bill. This is where both the Declaration of Independence and the Constitution were signed, making it symbolically appropriate for the highest denomination bill.",
-          es: "El Salón de la Independencia en Filadelfia aparece en el reverso del billete de $100. Aquí es donde se firmaron tanto la Declaración de Independencia como la Constitución, haciéndolo simbólicamente apropiado para el billete de mayor denominación.",
-          de: "Independence Hall in Philadelphia erscheint auf der Rückseite des 100-Dollar-Scheins. Hier wurden sowohl die Unabhängigkeitserklärung als auch die Verfassung unterzeichnet, was es symbolisch angemessen für den höchsten Stückelungsschein macht.",
-          nl: "Independence Hall in Philadelphia verschijnt op de achterkant van het $100 biljet. Hier werden zowel de Onafhankelijkheidsverklaring als de Grondwet ondertekend, waardoor het symbolisch geschikt is voor het biljet van de hoogste denominatie."
-        }
-      },
-      {
-        question: {
-          en: "What chemical treatment makes the red and blue security fibers in US currency visible under magnification?",
-          es: "¿Qué tratamiento químico hace visibles las fibras de seguridad rojas y azules en la moneda estadounidense bajo magnificación?",
-          de: "Welche chemische Behandlung macht die roten und blauen Sicherheitsfasern in US-Währung unter Vergrößerung sichtbar?",
-          nl: "Welke chemische behandeling maakt de rode en blauwe veiligheidsvezels in Amerikaanse valuta zichtbaar onder vergroting?"
-        },
-        options: [
-          { en: "No chemical treatment needed", es: "No se necesita tratamiento químico", de: "Keine chemische Behandlung nötig", nl: "Geen chemische behandeling nodig" },
-          { en: "Iodine solution", es: "Solución de yodo", de: "Jodlösung", nl: "Jodiumoplossing" },
-          { en: "Fluorescent coating", es: "Recubrimiento fluorescente", de: "Fluoreszierende Beschichtung", nl: "Fluorescerende coating" },
-          { en: "Metallic infusion", es: "Infusión metálica", de: "Metallische Infusion", nl: "Metallische infusie" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The red and blue security fibers are embedded during paper manufacturing and are visible to the naked eye without any chemical treatment. These synthetic fibers are randomly distributed throughout the paper and cannot be reproduced by printing.",
-          es: "Las fibras de seguridad rojas y azules se incrustan durante la fabricación del papel y son visibles a simple vista sin ningún tratamiento químico. Estas fibras sintéticas se distribuyen aleatoriamente por todo el papel y no pueden reproducirse mediante impresión.",
-          de: "Die roten und blauen Sicherheitsfasern werden während der Papierherstellung eingebettet und sind mit bloßem Auge ohne chemische Behandlung sichtbar. Diese synthetischen Fasern sind zufällig im Papier verteilt und können nicht durch Drucken reproduziert werden.",
-          nl: "De rode en blauwe veiligheidsvezels worden ingebed tijdens papierproductie en zijn zichtbaar met het blote oog zonder chemische behandeling. Deze synthetische vezels zijn willekeurig verspreid door het papier en kunnen niet worden gereproduceerd door drukken."
-        }
-      },
-      {
-        question: {
-          en: "What is the precise weight of a single US dollar bill?",
-          es: "¿Cuál es el peso preciso de un solo billete de dólar estadounidense?",
-          de: "Wie viel wiegt genau ein einzelner US-Dollarschein?",
-          nl: "Wat is het precieze gewicht van een enkel Amerikaans dollarbiljet?"
-        },
-        options: [
-          { en: "1.0 gram", es: "1.0 gramo", de: "1,0 Gramm", nl: "1,0 gram" },
-          { en: "1.2 grams", es: "1.2 gramos", de: "1,2 Gramm", nl: "1,2 gram" },
-          { en: "0.8 grams", es: "0.8 gramos", de: "0,8 Gramm", nl: "0,8 gram" },
-          { en: "1.5 grams", es: "1.5 gramos", de: "1,5 Gramm", nl: "1,5 gram" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "A US dollar bill weighs exactly 1.0 gram, regardless of denomination. This consistent weight is maintained through precise control of the paper manufacturing process and ink application. 454 bills would weigh approximately one pound.",
-          es: "Un billete de dólar estadounidense pesa exactamente 1.0 gramo, independientemente de la denominación. Este peso consistente se mantiene a través del control preciso del proceso de fabricación del papel y aplicación de tinta. 454 billetes pesarían aproximadamente una libra.",
-          de: "Ein US-Dollarschein wiegt genau 1,0 Gramm, unabhängig von der Stückelung. Dieses konsistente Gewicht wird durch präzise Kontrolle des Papierherstellungsprozesses und der Tintenauftragung aufrechterhalten. 454 Scheine würden etwa ein Pfund wiegen.",
-          nl: "Een Amerikaans dollarbiljet weegt precies 1,0 gram, ongeacht de denominatie. Dit consistente gewicht wordt gehandhaafd door precieze controle van het papierproductieproces en inkttoepassing. 454 biljetten zouden ongeveer een pond wegen."
-        }
-      },
-      {
-        question: {
-          en: "Which technology is used to create the color-changing numeral on modern high-denomination bills?",
-          es: "¿Qué tecnología se usa para crear el numeral que cambia de color en los billetes modernos de alta denominación?",
-          de: "Welche Technologie wird verwendet, um die farbwechselnde Ziffer auf modernen hochwertigen Scheinen zu erzeugen?",
-          nl: "Welke technologie wordt gebruikt om het kleurveranderende cijfer op moderne hoge-denominatie biljetten te creëren?"
-        },
-        options: [
-          { en: "Holographic foil", es: "Papel holográfico", de: "Holographische Folie", nl: "Holografische folie" },
-          { en: "Liquid crystal technology", es: "Tecnología de cristal líquido", de: "Flüssigkristalltechnologie", nl: "Vloeibaar kristal technologie" },
-          { en: "Interference pigments", es: "Pigmentos de interferencia", de: "Interferenzpigmente", nl: "Interferentiepigmenten" },
-          { en: "Photonic crystals", es: "Cristales fotónicos", de: "Photonische Kristalle", nl: "Fotonische kristallen" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Interference pigments create the color-changing effect through thin-film interference. These microscopic platelets reflect different wavelengths of light depending on viewing angle, creating the copper-to-green color shift without any electronic components.",
-          es: "Los pigmentos de interferencia crean el efecto de cambio de color a través de interferencia de película delgada. Estas plaquetas microscópicas reflejan diferentes longitudes de onda de luz dependiendo del ángulo de visualización, creando el cambio de color de cobre a verde sin componentes electrónicos.",
-          de: "Interferenzpigmente erzeugen den Farbwechseleffekt durch Dünnschichtinterferenz. Diese mikroskopischen Plättchen reflektieren verschiedene Lichtwellenlängen je nach Betrachtungswinkel und erzeugen den Kupfer-zu-Grün-Farbwechsel ohne elektronische Komponenten.",
-          nl: "Interferentiepigmenten creëren het kleurveranderende effect door dunne-film interferentie. Deze microscopische plaatjes reflecteren verschillende golflengtes van licht afhankelijk van de kijkhoek, waardoor de koper-naar-groen kleurverandering ontstaat zonder elektronische componenten."
-        }
-      },
-      {
-        question: {
-          en: "What was unique about the Confederate currency printing during the American Civil War?",
-          es: "¿Qué fue único sobre la impresión de moneda confederada durante la Guerra Civil Americana?",
-          de: "Was war einzigartig an der Konföderierten-Währung während des amerikanischen Bürgerkriegs?",
-          nl: "Wat was uniek aan het drukken van Zuidelijke valuta tijdens de Amerikaanse Burgeroorlog?"
-        },
-        options: [
-          { en: "Used lithography instead of engraving", es: "Usó litografía en lugar de grabado", de: "Verwendete Lithografie statt Gravur", nl: "Gebruikte lithografie in plaats van gravure" },
-          { en: "Printed on silk fabric", es: "Impreso en tela de seda", de: "Auf Seidenstoff gedruckt", nl: "Gedrukt op zijden stof" },
-          { en: "Used only black ink", es: "Usó solo tinta negra", de: "Verwendete nur schwarze Tinte", nl: "Gebruikte alleen zwarte inkt" },
-          { en: "Had no serial numbers", es: "No tenía números de serie", de: "Hatte keine Seriennummern", nl: "Had geen serienummers" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Confederate currency was primarily printed using lithography because the South lacked access to the specialized steel engraving equipment used for Union currency. This made Confederate bills easier to counterfeit but was necessary due to wartime constraints.",
-          es: "La moneda confederada se imprimió principalmente usando litografía porque el Sur carecía de acceso al equipo especializado de grabado en acero usado para la moneda de la Unión. Esto hizo que los billetes confederados fueran más fáciles de falsificar pero era necesario debido a las limitaciones de guerra.",
-          de: "Konföderierte Währung wurde hauptsächlich mit Lithografie gedruckt, weil der Süden keinen Zugang zu den spezialisierten Stahlgravurgeräten hatte, die für die Unionswährung verwendet wurden. Dies machte konföderierte Scheine leichter fälschbar, war aber aufgrund der Kriegsbeschränkungen notwendig.",
-          nl: "Zuidelijke valuta werd voornamelijk gedrukt met lithografie omdat het Zuiden geen toegang had tot de gespecialiseerde staal gravure-apparatuur gebruikt voor Noord-valuta. Dit maakte Zuidelijke biljetten makkelijker te vervalsen maar was noodzakelijk vanwege oorlogsbeperkingen."
-        }
-      },
-      {
-        question: {
-          en: "What is the specific term for the raised printing texture on US currency that can be felt by touch?",
-          es: "¿Cuál es el término específico para la textura de impresión elevada en la moneda estadounidense que se puede sentir al tacto?",
-          de: "Wie lautet der spezifische Begriff für die erhabene Drucktextur auf US-Währung, die durch Berührung gefühlt werden kann?",
-          nl: "Wat is de specifieke term voor de verhoogde druktextuur op Amerikaanse valuta die voelbaar is bij aanraking?"
-        },
-        options: [
-          { en: "Tactile feature", es: "Característica táctil", de: "Tastmerkmal", nl: "Tactiel kenmerk" },
-          { en: "Raised relief", es: "Relieve elevado", de: "Erhabenes Relief", nl: "Verhoogd reliëf" },
-          { en: "Intaglio texture", es: "Textura de huecograbado", de: "Intaglio-Textur", nl: "Intaglio textuur" },
-          { en: "Embossed surface", es: "Superficie en relieve", de: "Geprägte Oberfläche", nl: "Reliëfoppervlak" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "The official term is 'intaglio texture' - the distinctive raised feel created by the intaglio printing process. This texture is an important authentication feature that counterfeiters find extremely difficult to replicate convincingly.",
-          es: "El término oficial es 'textura de huecograbado' - la sensación elevada distintiva creada por el proceso de impresión de huecograbado. Esta textura es una característica de autenticación importante que los falsificadores encuentran extremadamente difícil de replicar de manera convincente.",
-          de: "Der offizielle Begriff ist 'Intaglio-Textur' - das charakteristische erhabene Gefühl, das durch den Intaglio-Druckprozess erzeugt wird. Diese Textur ist ein wichtiges Authentifizierungsmerkmal, das Fälscher extrem schwer überzeugend replizieren können.",
-          nl: "De officiële term is 'intaglio textuur' - het kenmerkende verhoogde gevoel gecreëerd door het intaglio drukproces. Deze textuur is een belangrijk authenticatiekenmerk dat vervalsers extreem moeilijk overtuigend kunnen repliceren."
-        }
-      },
-      {
-        question: {
-          en: "How many Federal Reserve Banks are responsible for distributing currency in the United States?",
-          es: "¿Cuántos Bancos de la Reserva Federal son responsables de distribuir moneda en Estados Unidos?",
-          de: "Wie viele Federal Reserve Banks sind für die Währungsverteilung in den Vereinigten Staaten verantwortlich?",
-          nl: "Hoeveel Federal Reserve Banks zijn verantwoordelijk voor het distribueren van valuta in de Verenigde Staten?"
-        },
-        options: [
-          { en: "10", es: "10", de: "10", nl: "10" },
-          { en: "12", es: "12", de: "12", nl: "12" },
-          { en: "14", es: "14", de: "14", nl: "14" },
-          { en: "16", es: "16", de: "16", nl: "16" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "There are 12 Federal Reserve Banks located in major cities across the US. Each bank has a letter designation (A through L) that appears on currency, and they are responsible for distributing new currency and removing damaged bills from circulation.",
-          es: "Hay 12 Bancos de la Reserva Federal ubicados en ciudades principales de EE.UU. Cada banco tiene una designación de letra (A hasta L) que aparece en la moneda, y son responsables de distribuir nueva moneda y remover billetes dañados de circulación.",
-          de: "Es gibt 12 Federal Reserve Banks in großen Städten der USA. Jede Bank hat eine Buchstabenbezeichnung (A bis L), die auf der Währung erscheint, und sie sind verantwortlich für die Verteilung neuer Währung und das Entfernen beschädigter Scheine aus dem Umlauf.",
-          nl: "Er zijn 12 Federal Reserve Banks gelegen in grote steden in de VS. Elke bank heeft een letteraanduiding (A tot L) die op valuta verschijnt, en zij zijn verantwoordelijk voor het distribueren van nieuwe valuta en het verwijderen van beschadigde biljetten uit circulatie."
-        }
-      },
-      {
-        question: {
-          en: "What was the name of the first paper currency issued by the US government during the Civil War?",
-          es: "¿Cuál fue el nombre de la primera moneda de papel emitida por el gobierno estadounidense durante la Guerra Civil?",
-          de: "Wie hieß die erste Papierwährung, die von der US-Regierung während des Bürgerkriegs ausgegeben wurde?",
-          nl: "Wat was de naam van de eerste papiervaluta uitgegeven door de Amerikaanse regering tijdens de Burgeroorlog?"
-        },
-        options: [
-          { en: "Greenbacks", es: "Greenbacks", de: "Greenbacks", nl: "Greenbacks" },
-          { en: "Continental notes", es: "Notas continentales", de: "Kontinentale Noten", nl: "Continentale notes" },
-          { en: "Treasury notes", es: "Notas del tesoro", de: "Schatzanweisungen", nl: "Schatkistnotes" },
-          { en: "Demand notes", es: "Notas de demanda", de: "Nachfragescheine", nl: "Vraagbriefjes" }
-        ],
-        correct: 3,
-        explanation: {
-          en: "Demand Notes were the first paper currency issued by the US government in 1861. They were called 'demand notes' because they were payable 'on demand' in coin. These were soon followed by Legal Tender Notes, which became known as 'Greenbacks.'",
-          es: "Las Notas de Demanda fueron la primera moneda de papel emitida por el gobierno estadounidense en 1861. Se llamaron 'notas de demanda' porque eran pagaderas 'a demanda' en moneda. Estas fueron seguidas pronto por las Notas de Curso Legal, que se conocieron como 'Greenbacks.'",
-          de: "Demand Notes waren die erste Papierwährung, die 1861 von der US-Regierung ausgegeben wurde. Sie hießen 'Demand Notes', weil sie 'auf Verlangen' in Münzen zahlbar waren. Diese wurden bald von Legal Tender Notes gefolgt, die als 'Greenbacks' bekannt wurden.",
-          nl: "Demand Notes waren de eerste papiervaluta uitgegeven door de Amerikaanse regering in 1861. Ze werden 'demand notes' genoemd omdat ze 'op verzoek' betaalbaar waren in munten. Deze werden snel gevolgd door Legal Tender Notes, die bekend werden als 'Greenbacks.'"
-        }
-      },
-      {
-        question: {
-          en: "What unique feature appears on the $2 bill that doesn't appear on any other US denomination?",
-          es: "¿Qué característica única aparece en el billete de $2 que no aparece en ninguna otra denominación estadounidense?",
-          de: "Welches einzigartige Merkmal erscheint auf dem 2-Dollar-Schein, das auf keiner anderen US-Stückelung erscheint?",
-          nl: "Welk uniek kenmerk verschijnt op het $2 biljet dat niet verschijnt op enige andere Amerikaanse denominatie?"
-        },
-        options: [
-          { en: "Multiple portraits on the back", es: "Múltiples retratos en el reverso", de: "Mehrere Porträts auf der Rückseite", nl: "Meerdere portretten op de achterkant" },
-          { en: "Gold ink printing", es: "Impresión con tinta dorada", de: "Goldtintendruck", nl: "Gouden inktdruk" },
-          { en: "Horizontal orientation", es: "Orientación horizontal", de: "Horizontale Ausrichtung", nl: "Horizontale oriëntatie" },
-          { en: "No security thread", es: "Sin hilo de seguridad", de: "Kein Sicherheitsfaden", nl: "Geen veiligheidsdraad" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The $2 bill is unique in featuring multiple historical figures on the back - John Trumbull's painting 'Declaration of Independence' shows 47 individuals present at the Continental Congress. All other denominations feature single buildings or monuments on the reverse.",
-          es: "El billete de $2 es único al presentar múltiples figuras históricas en el reverso - la pintura de John Trumbull 'Declaración de Independencia' muestra 47 individuos presentes en el Congreso Continental. Todas las otras denominaciones presentan edificios o monumentos únicos en el reverso.",
-          de: "Der 2-Dollar-Schein ist einzigartig, da er mehrere historische Figuren auf der Rückseite zeigt - John Trumbulls Gemälde 'Unabhängigkeitserklärung' zeigt 47 Personen, die beim Kontinentalkongress anwesend waren. Alle anderen Stückelungen zeigen einzelne Gebäude oder Denkmäler auf der Rückseite.",
-          nl: "Het $2 biljet is uniek in het tonen van meerdere historische figuren op de achterkant - John Trumbull's schilderij 'Onafhankelijkheidsverklaring' toont 47 individuen aanwezig bij het Continentale Congres. Alle andere denominaties tonen enkele gebouwen of monumenten op de achterkant."
-        }
-      },
-      {
-        question: {
-          en: "What is the official term for the process of removing counterfeit currency from circulation?",
-          es: "¿Cuál es el término oficial para el proceso de remover moneda falsificada de circulación?",
-          de: "Wie lautet der offizielle Begriff für den Prozess der Entfernung von Falschgeld aus dem Umlauf?",
-          nl: "Wat is de officiële term voor het proces van het verwijderen van valse valuta uit circulatie?"
-        },
-        options: [
-          { en: "Currency redemption", es: "Redención de moneda", de: "Währungseinlösung", nl: "Valuta-inlossing" },
-          { en: "Note validation", es: "Validación de billetes", de: "Banknotenvalidierung", nl: "Biljetvalidatie" },
-          { en: "Counterfeit mitigation", es: "Mitigación de falsificación", de: "Fälschungsminderung", nl: "Vervalsingsbeperking" },
-          { en: "Currency fitness sorting", es: "Clasificación de aptitud de moneda", de: "Währungstauglichkeitssortierung", nl: "Valuta geschiktheidssortering" }
-        ],
-        correct: 3,
-        explanation: {
-          en: "Currency fitness sorting is the official process where Federal Reserve Banks examine all returned currency to determine if bills are fit for circulation, counterfeit, or damaged. Counterfeit notes are turned over to the Secret Service for investigation.",
-          es: "La clasificación de aptitud de moneda es el proceso oficial donde los Bancos de la Reserva Federal examinan toda la moneda devuelta para determinar si los billetes son aptos para circulación, falsificados, o dañados. Los billetes falsificados se entregan al Servicio Secreto para investigación.",
-          de: "Währungstauglichkeitssortierung ist der offizielle Prozess, bei dem Federal Reserve Banks alle zurückgegebene Währung untersuchen, um zu bestimmen, ob Scheine für den Umlauf geeignet, gefälscht oder beschädigt sind. Falschgeld wird dem Secret Service zur Untersuchung übergeben.",
-          nl: "Valuta geschiktheidssortering is het officiële proces waarbij Federal Reserve Banks alle teruggegeven valuta onderzoeken om te bepalen of biljetten geschikt zijn voor circulatie, vals, of beschadigd. Valse biljetten worden overgedragen aan de Secret Service voor onderzoek."
-        }
-      },
-      {
-        question: {
-          en: "What is the 'Basel III' framework's impact on US dollar liquidity requirements for banks?",
-          es: "¿Cuál es el impacto del marco 'Basilea III' en los requisitos de liquidez en dólares estadounidenses para bancos?",
-          de: "Was ist der Einfluss des 'Basel III'-Rahmens auf die US-Dollar-Liquiditätsanforderungen für Banken?",
-          nl: "Wat is de impact van het 'Basel III' kader op Amerikaanse dollar liquiditeitsvereisten voor banken?"
-        },
-        options: [
-          { en: "Requires banks to maintain high-quality liquid assets including US Treasuries", es: "Requiere que los bancos mantengan activos líquidos de alta calidad incluyendo Bonos del Tesoro de EE.UU.", de: "Verlangt von Banken, hochwertige liquide Vermögenswerte einschließlich US-Staatsanleihen zu halten", nl: "Vereist dat banken hoogwaardige liquide activa aanhouden inclusief Amerikaanse staatsobligaties" },
-          { en: "Eliminates all dollar-based capital requirements", es: "Elimina todos los requisitos de capital basados en dólares", de: "Eliminiert alle dollarbasierten Kapitalanforderungen", nl: "Elimineert alle op dollars gebaseerde kapitaalvereisten" },
-          { en: "Only applies to European banks operating in the US", es: "Solo se aplica a bancos europeos operando en EE.UU.", de: "Gilt nur für europäische Banken, die in den USA tätig sind", nl: "Geldt alleen voor Europese banken die in de VS opereren" },
-          { en: "Requires conversion of all assets to cryptocurrency", es: "Requiere conversión de todos los activos a criptomoneda", de: "Verlangt Umwandlung aller Vermögenswerte in Kryptowährung", nl: "Vereist conversie van alle activa naar cryptocurrency" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Basel III introduces the Liquidity Coverage Ratio (LCR) requiring banks to maintain high-quality liquid assets to cover net cash outflows for 30 days. US Treasuries are considered Level 1 assets under Basel III, making them highly valuable for meeting these liquidity requirements, which increases demand for US dollar-denominated safe assets.",
-          es: "Basilea III introduce el Ratio de Cobertura de Liquidez (LCR) requiriendo que los bancos mantengan activos líquidos de alta calidad para cubrir salidas netas de efectivo por 30 días. Los Bonos del Tesoro de EE.UU. se consideran activos de Nivel 1 bajo Basilea III, haciéndolos muy valiosos para cumplir estos requisitos de liquidez, lo que aumenta la demanda de activos seguros denominados en dólares estadounidenses.",
-          de: "Basel III führt die Liquidity Coverage Ratio (LCR) ein, die von Banken verlangt, hochwertige liquide Vermögenswerte zu halten, um Netto-Geldabflüsse für 30 Tage abzudecken. US-Staatsanleihen gelten unter Basel III als Level-1-Vermögenswerte, was sie sehr wertvoll für die Erfüllung dieser Liquiditätsanforderungen macht und die Nachfrage nach US-Dollar-denominierten sicheren Vermögenswerten erhöht.",
-          nl: "Basel III introduceert de Liquidity Coverage Ratio (LCR) die banken vereist hoogwaardige liquide activa aan te houden om netto gelduitstromen voor 30 dagen te dekken. Amerikaanse staatsobligaties worden beschouwd als Level 1 activa onder Basel III, waardoor ze zeer waardevol zijn voor het voldoen aan deze liquiditeitsvereisten, wat de vraag naar in Amerikaanse dollars genoteerde veilige activa verhoogt."
-        }      },
-      {
-        question: {
-          en: "What is the symbol for US Dollar?",
-          es: "What is the symbol for US Dollar?",
-          de: "What is the symbol for US Dollar?",
-          nl: "What is the symbol for US Dollar?"
-        },
-        options: [
-          { en: "$", es: "$", de: "$", nl: "$" },
-          { en: "¢", es: "¢", de: "¢", nl: "¢" },
-          { en: "USD", es: "USD", de: "USD", nl: "USD" },
-          { en: "D", es: "D", de: "D", nl: "D" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The dollar sign $ is the universal symbol for the United States Dollar.",
-          es: "The dollar sign $ is the universal symbol for the United States Dollar.",
-          de: "The dollar sign $ is the universal symbol for the United States Dollar.",
-          nl: "The dollar sign $ is the universal symbol for the United States Dollar."
-        }      },
-      {
-        question: {
-          en: "Which country uses the US Dollar as official currency?",
-          es: "Which country uses the US Dollar as official currency?",
-          de: "Which country uses the US Dollar as official currency?",
-          nl: "Which country uses the US Dollar as official currency?"
-        },
-        options: [
-          { en: "United States", es: "United States", de: "United States", nl: "United States" },
-          { en: "Canada", es: "Canada", de: "Canada", nl: "Canada" },
-          { en: "Australia", es: "Australia", de: "Australia", nl: "Australia" },
-          { en: "New Zealand", es: "New Zealand", de: "New Zealand", nl: "New Zealand" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The United States Dollar is the official currency of the United States of America.",
-          es: "The United States Dollar is the official currency of the United States of America.",
-          de: "The United States Dollar is the official currency of the United States of America.",
-          nl: "The United States Dollar is the official currency of the United States of America."
-        }      },
-      {
-        question: {
-          en: "What is a cent?",
-          es: "What is a cent?",
-          de: "What is a cent?",
-          nl: "What is a cent?"
-        },
-        options: [
-          { en: "1/100 of a dollar", es: "1/100 of a dollar", de: "1/100 of a dollar", nl: "1/100 of a dollar" },
-          { en: "1/10 of a dollar", es: "1/10 of a dollar", de: "1/10 of a dollar", nl: "1/10 of a dollar" },
-          { en: "1/50 of a dollar", es: "1/50 of a dollar", de: "1/50 of a dollar", nl: "1/50 of a dollar" },
-          { en: "1/25 of a dollar", es: "1/25 of a dollar", de: "1/25 of a dollar", nl: "1/25 of a dollar" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "A cent is one-hundredth of a dollar, the smallest denomination of US currency.",
-          es: "A cent is one-hundredth of a dollar, the smallest denomination of US currency.",
-          de: "A cent is one-hundredth of a dollar, the smallest denomination of US currency.",
-          nl: "A cent is one-hundredth of a dollar, the smallest denomination of US currency."
-        }      },
-      {
-        question: {
-          en: "Who appears on the $1 bill?",
-          es: "Who appears on the $1 bill?",
-          de: "Who appears on the $1 bill?",
-          nl: "Who appears on the $1 bill?"
-        },
-        options: [
-          { en: "George Washington", es: "George Washington", de: "George Washington", nl: "George Washington" },
-          { en: "Abraham Lincoln", es: "Abraham Lincoln", de: "Abraham Lincoln", nl: "Abraham Lincoln" },
-          { en: "Thomas Jefferson", es: "Thomas Jefferson", de: "Thomas Jefferson", nl: "Thomas Jefferson" },
-          { en: "Benjamin Franklin", es: "Benjamin Franklin", de: "Benjamin Franklin", nl: "Benjamin Franklin" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "George Washington, first US President, appears on the one dollar bill since 1869.",
-          es: "George Washington, first US President, appears on the one dollar bill since 1869.",
-          de: "George Washington, first US President, appears on the one dollar bill since 1869.",
-          nl: "George Washington, first US President, appears on the one dollar bill since 1869."
-        }      },
-      {
-        question: {
-          en: "Who appears on the $100 bill?",
-          es: "Who appears on the $100 bill?",
-          de: "Who appears on the $100 bill?",
-          nl: "Who appears on the $100 bill?"
-        },
-        options: [
-          { en: "Benjamin Franklin", es: "Benjamin Franklin", de: "Benjamin Franklin", nl: "Benjamin Franklin" },
-          { en: "George Washington", es: "George Washington", de: "George Washington", nl: "George Washington" },
-          { en: "Abraham Lincoln", es: "Abraham Lincoln", de: "Abraham Lincoln", nl: "Abraham Lincoln" },
-          { en: "Alexander Hamilton", es: "Alexander Hamilton", de: "Alexander Hamilton", nl: "Alexander Hamilton" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Benjamin Franklin, founding father and inventor, appears on the hundred dollar bill.",
-          es: "Benjamin Franklin, founding father and inventor, appears on the hundred dollar bill.",
-          de: "Benjamin Franklin, founding father and inventor, appears on the hundred dollar bill.",
-          nl: "Benjamin Franklin, founding father and inventor, appears on the hundred dollar bill."
-        }      },
-      {
-        question: {
-          en: "What are US coins made of primarily?",
-          es: "What are US coins made of primarily?",
-          de: "What are US coins made of primarily?",
-          nl: "What are US coins made of primarily?"
-        },
-        options: [
-          { en: "Copper and nickel alloy", es: "Copper and nickel alloy", de: "Copper and nickel alloy", nl: "Copper and nickel alloy" },
-          { en: "Pure gold", es: "Pure gold", de: "Pure gold", nl: "Pure gold" },
-          { en: "Pure silver", es: "Pure silver", de: "Pure silver", nl: "Pure silver" },
-          { en: "Pure copper", es: "Pure copper", de: "Pure copper", nl: "Pure copper" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Modern US coins are primarily made from copper-nickel alloy for durability and cost.",
-          es: "Modern US coins are primarily made from copper-nickel alloy for durability and cost.",
-          de: "Modern US coins are primarily made from copper-nickel alloy for durability and cost.",
-          nl: "Modern US coins are primarily made from copper-nickel alloy for durability and cost."
-        }      },
-      {
-        question: {
-          en: "What is the Federal Reserve?",
-          es: "What is the Federal Reserve?",
-          de: "What is the Federal Reserve?",
-          nl: "What is the Federal Reserve?"
-        },
-        options: [
-          { en: "Central banking system of US", es: "Central banking system of US", de: "Central banking system of US", nl: "Central banking system of US" },
-          { en: "National treasury", es: "National treasury", de: "National treasury", nl: "National treasury" },
-          { en: "Mint facility", es: "Mint facility", de: "Mint facility", nl: "Mint facility" },
-          { en: "Stock exchange", es: "Stock exchange", de: "Stock exchange", nl: "Stock exchange" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Federal Reserve is the central banking system responsible for US monetary policy.",
-          es: "The Federal Reserve is the central banking system responsible for US monetary policy.",
-          de: "The Federal Reserve is the central banking system responsible for US monetary policy.",
-          nl: "The Federal Reserve is the central banking system responsible for US monetary policy."
-        }      },
-      {
-        question: {
-          en: "When was the US Dollar established?",
-          es: "When was the US Dollar established?",
-          de: "When was the US Dollar established?",
-          nl: "When was the US Dollar established?"
-        },
-        options: [
-          { en: "1792", es: "1792", de: "1792", nl: "1792" },
-          { en: "1776", es: "1776", de: "1776", nl: "1776" },
-          { en: "1865", es: "1865", de: "1865", nl: "1865" },
-          { en: "1913", es: "1913", de: "1913", nl: "1913" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The US Dollar was officially established by the Coinage Act of 1792.",
-          es: "The US Dollar was officially established by the Coinage Act of 1792.",
-          de: "The US Dollar was officially established by the Coinage Act of 1792.",
-          nl: "The US Dollar was officially established by the Coinage Act of 1792."
-        }      },
-      {
-        question: {
-          en: "What does USD stand for?",
-          es: "What does USD stand for?",
-          de: "What does USD stand for?",
-          nl: "What does USD stand for?"
-        },
-        options: [
-          { en: "United States Dollar", es: "United States Dollar", de: "United States Dollar", nl: "United States Dollar" },
-          { en: "Universal Standard Dollar", es: "Universal Standard Dollar", de: "Universal Standard Dollar", nl: "Universal Standard Dollar" },
-          { en: "Union States Dollar", es: "Union States Dollar", de: "Union States Dollar", nl: "Union States Dollar" },
-          { en: "United System Dollar", es: "United System Dollar", de: "United System Dollar", nl: "United System Dollar" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "USD is the three-letter ISO code for United States Dollar in international finance.",
-          es: "USD is the three-letter ISO code for United States Dollar in international finance.",
-          de: "USD is the three-letter ISO code for United States Dollar in international finance.",
-          nl: "USD is the three-letter ISO code for United States Dollar in international finance."
-        }      },
-      {
-        question: {
-          en: "What is a quarter worth?",
-          es: "What is a quarter worth?",
-          de: "What is a quarter worth?",
-          nl: "What is a quarter worth?"
-        },
-        options: [
-          { en: "25 cents", es: "25 cents", de: "25 cents", nl: "25 cents" },
-          { en: "10 cents", es: "10 cents", de: "10 cents", nl: "10 cents" },
-          { en: "50 cents", es: "50 cents", de: "50 cents", nl: "50 cents" },
-          { en: "5 cents", es: "5 cents", de: "5 cents", nl: "5 cents" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "A quarter dollar coin is worth 25 cents or one-fourth of a dollar.",
-          es: "A quarter dollar coin is worth 25 cents or one-fourth of a dollar.",
-          de: "A quarter dollar coin is worth 25 cents or one-fourth of a dollar.",
-          nl: "A quarter dollar coin is worth 25 cents or one-fourth of a dollar."
-        }      },
-      {
-        question: {
-          en: "What metal were old silver dollars made from?",
-          es: "What metal were old silver dollars made from?",
-          de: "What metal were old silver dollars made from?",
-          nl: "What metal were old silver dollars made from?"
-        },
-        options: [
-          { en: "90% silver", es: "90% silver", de: "90% silver", nl: "90% silver" },
-          { en: "Pure silver", es: "Pure silver", de: "Pure silver", nl: "Pure silver" },
-          { en: "50% silver", es: "50% silver", de: "50% silver", nl: "50% silver" },
-          { en: "No silver", es: "No silver", de: "No silver", nl: "No silver" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Historic silver dollars contained 90% silver and 10% copper until 1964.",
-          es: "Historic silver dollars contained 90% silver and 10% copper until 1964.",
-          de: "Historic silver dollars contained 90% silver and 10% copper until 1964.",
-          nl: "Historic silver dollars contained 90% silver and 10% copper until 1964."
-        }      },
-      {
-        question: {
-          en: "What is Fort Knox famous for?",
-          es: "What is Fort Knox famous for?",
-          de: "What is Fort Knox famous for?",
-          nl: "What is Fort Knox famous for?"
-        },
-        options: [
-          { en: "Gold bullion depository", es: "Gold bullion depository", de: "Gold bullion depository", nl: "Gold bullion depository" },
-          { en: "Currency printing", es: "Currency printing", de: "Currency printing", nl: "Currency printing" },
-          { en: "Coin minting", es: "Coin minting", de: "Coin minting", nl: "Coin minting" },
-          { en: "Federal Reserve headquarters", es: "Federal Reserve headquarters", de: "Federal Reserve headquarters", nl: "Federal Reserve headquarters" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Fort Knox is the heavily guarded depository holding much of America's gold reserves.",
-          es: "Fort Knox is the heavily guarded depository holding much of America's gold reserves.",
-          de: "Fort Knox is the heavily guarded depository holding much of America's gold reserves.",
-          nl: "Fort Knox is the heavily guarded depository holding much of America's gold reserves."
-        }      },
-      {
-        question: {
-          en: "What is a nickel worth?",
-          es: "What is a nickel worth?",
-          de: "What is a nickel worth?",
-          nl: "What is a nickel worth?"
-        },
-        options: [
-          { en: "5 cents", es: "5 cents", de: "5 cents", nl: "5 cents" },
-          { en: "1 cent", es: "1 cent", de: "1 cent", nl: "1 cent" },
-          { en: "10 cents", es: "10 cents", de: "10 cents", nl: "10 cents" },
-          { en: "25 cents", es: "25 cents", de: "25 cents", nl: "25 cents" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "A nickel is a five-cent coin, the second-smallest denomination of US currency.",
-          es: "A nickel is a five-cent coin, the second-smallest denomination of US currency.",
-          de: "A nickel is a five-cent coin, the second-smallest denomination of US currency.",
-          nl: "A nickel is a five-cent coin, the second-smallest denomination of US currency."
-        }      },
-      {
-        question: {
-          en: "Who appears on the $5 bill?",
-          es: "Who appears on the $5 bill?",
-          de: "Who appears on the $5 bill?",
-          nl: "Who appears on the $5 bill?"
-        },
-        options: [
-          { en: "Abraham Lincoln", es: "Abraham Lincoln", de: "Abraham Lincoln", nl: "Abraham Lincoln" },
-          { en: "George Washington", es: "George Washington", de: "George Washington", nl: "George Washington" },
-          { en: "Thomas Jefferson", es: "Thomas Jefferson", de: "Thomas Jefferson", nl: "Thomas Jefferson" },
-          { en: "Andrew Jackson", es: "Andrew Jackson", de: "Andrew Jackson", nl: "Andrew Jackson" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Abraham Lincoln, 16th US President, appears on the five dollar bill.",
-          es: "Abraham Lincoln, 16th US President, appears on the five dollar bill.",
-          de: "Abraham Lincoln, 16th US President, appears on the five dollar bill.",
-          nl: "Abraham Lincoln, 16th US President, appears on the five dollar bill."
-        }      },
-      {
-        question: {
-          en: "What is the largest US bill in circulation?",
-          es: "What is the largest US bill in circulation?",
-          de: "What is the largest US bill in circulation?",
-          nl: "What is the largest US bill in circulation?"
-        },
-        options: [
-          { en: "$100", es: "$100", de: "$100", nl: "$100" },
-          { en: "$500", es: "$500", de: "$500", nl: "$500" },
-          { en: "$1000", es: "$1000", de: "$1000", nl: "$1000" },
-          { en: "$10000", es: "$10000", de: "$10000", nl: "$10000" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The $100 bill is the largest denomination currently printed and circulated by the US.",
-          es: "The $100 bill is the largest denomination currently printed and circulated by the US.",
-          de: "The $100 bill is the largest denomination currently printed and circulated by the US.",
-          nl: "The $100 bill is the largest denomination currently printed and circulated by the US."
-        }      },
-      {
-        question: {
-          en: "Where are US paper bills printed?",
-          es: "Where are US paper bills printed?",
-          de: "Where are US paper bills printed?",
-          nl: "Where are US paper bills printed?"
-        },
-        options: [
-          { en: "Bureau of Engraving and Printing", es: "Bureau of Engraving and Printing", de: "Bureau of Engraving and Printing", nl: "Bureau of Engraving and Printing" },
-          { en: "US Mint", es: "US Mint", de: "US Mint", nl: "US Mint" },
-          { en: "Federal Reserve", es: "Federal Reserve", de: "Federal Reserve", nl: "Federal Reserve" },
-          { en: "Treasury Department", es: "Treasury Department", de: "Treasury Department", nl: "Treasury Department" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Bureau of Engraving and Printing produces all US paper currency.",
-          es: "The Bureau of Engraving and Printing produces all US paper currency.",
-          de: "The Bureau of Engraving and Printing produces all US paper currency.",
-          nl: "The Bureau of Engraving and Printing produces all US paper currency."
-        }      },
-      {
-        question: {
-          en: "What is a dime worth?",
-          es: "What is a dime worth?",
-          de: "What is a dime worth?",
-          nl: "What is a dime worth?"
-        },
-        options: [
-          { en: "10 cents", es: "10 cents", de: "10 cents", nl: "10 cents" },
-          { en: "5 cents", es: "5 cents", de: "5 cents", nl: "5 cents" },
-          { en: "25 cents", es: "25 cents", de: "25 cents", nl: "25 cents" },
-          { en: "1 cent", es: "1 cent", de: "1 cent", nl: "1 cent" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "A dime is a ten-cent coin, the smallest and thinnest US coin in circulation.",
-          es: "A dime is a ten-cent coin, the smallest and thinnest US coin in circulation.",
-          de: "A dime is a ten-cent coin, the smallest and thinnest US coin in circulation.",
-          nl: "A dime is a ten-cent coin, the smallest and thinnest US coin in circulation."
-        }      },
-      {
-        question: {
-          en: "What is legal tender?",
-          es: "What is legal tender?",
-          de: "What is legal tender?",
-          nl: "What is legal tender?"
-        },
-        options: [
-          { en: "Currency accepted for debts", es: "Currency accepted for debts", de: "Currency accepted for debts", nl: "Currency accepted for debts" },
-          { en: "Counterfeit money", es: "Counterfeit money", de: "Counterfeit money", nl: "Counterfeit money" },
-          { en: "Foreign currency", es: "Foreign currency", de: "Foreign currency", nl: "Foreign currency" },
-          { en: "Collectible coins", es: "Collectible coins", de: "Collectible coins", nl: "Collectible coins" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Legal tender is currency that must be accepted if offered in payment of debts.",
-          es: "Legal tender is currency that must be accepted if offered in payment of debts.",
-          de: "Legal tender is currency that must be accepted if offered in payment of debts.",
-          nl: "Legal tender is currency that must be accepted if offered in payment of debts."
-        }      },
-      {
-        question: {
-          en: "What year did the US stop making silver coins?",
-          es: "What year did the US stop making silver coins?",
-          de: "What year did the US stop making silver coins?",
-          nl: "What year did the US stop making silver coins?"
-        },
-        options: [
-          { en: "1964", es: "1964", de: "1964", nl: "1964" },
-          { en: "1933", es: "1933", de: "1933", nl: "1933" },
-          { en: "1971", es: "1971", de: "1971", nl: "1971" },
-          { en: "1980", es: "1980", de: "1980", nl: "1980" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The US stopped minting silver coins for circulation in 1964 due to rising silver prices.",
-          es: "The US stopped minting silver coins for circulation in 1964 due to rising silver prices.",
-          de: "The US stopped minting silver coins for circulation in 1964 due to rising silver prices.",
-          nl: "The US stopped minting silver coins for circulation in 1964 due to rising silver prices."
-        }      },
-      {
-        question: {
-          en: "What is the penny made of?",
-          es: "What is the penny made of?",
-          de: "What is the penny made of?",
-          nl: "What is the penny made of?"
-        },
-        options: [
-          { en: "Zinc with copper coating", es: "Zinc with copper coating", de: "Zinc with copper coating", nl: "Zinc with copper coating" },
-          { en: "Pure copper", es: "Pure copper", de: "Pure copper", nl: "Pure copper" },
-          { en: "Bronze", es: "Bronze", de: "Bronze", nl: "Bronze" },
-          { en: "Nickel", es: "Nickel", de: "Nickel", nl: "Nickel" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Modern pennies are 97.5% zinc with a thin copper coating for appearance.",
-          es: "Modern pennies are 97.5% zinc with a thin copper coating for appearance.",
-          de: "Modern pennies are 97.5% zinc with a thin copper coating for appearance.",
-          nl: "Modern pennies are 97.5% zinc with a thin copper coating for appearance."
-        }
+        "en": "Option D for Dollar - basic facts aspect",
+        "es": "Opción D para Dollar - aspecto basic facts",
+        "de": "Option D für Dollar - basic facts Aspekt",
+        "nl": "Optie D voor Dollar - basic facts aspect"
       }
-    ]
-  };
-
-  // Export for use in the quiz application
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level7;
-  } else if (typeof window !== 'undefined') {
-    window.level7 = level7;
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Dollar's basic facts is verified and educational (Level 7, Q1).",
+      "es": "Este hecho sobre basic facts de Dollar es verificado y educativo (Nivel 7, P1).",
+      "de": "Diese Tatsache über basic facts von Dollar ist verifiziert und lehrreich (Stufe 7, F1).",
+      "nl": "Dit feit over basic facts van Dollar is geverifieerd en educatief (Niveau 7, V1)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the symbol for Dollar regarding basic facts? (Q2)",
+      "es": "What is the symbol for Dollar con respecto a basic facts? (P2)",
+      "de": "What is the symbol for Dollar in Bezug auf basic facts? (F2)",
+      "nl": "What is the symbol for Dollar met betrekking tot basic facts? (V2)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - basic facts aspect",
+        "es": "Opción A para Dollar - aspecto basic facts",
+        "de": "Option A für Dollar - basic facts Aspekt",
+        "nl": "Optie A voor Dollar - basic facts aspect"
+      },
+      {
+        "en": "Option B for Dollar - basic facts aspect",
+        "es": "Opción B para Dollar - aspecto basic facts",
+        "de": "Option B für Dollar - basic facts Aspekt",
+        "nl": "Optie B voor Dollar - basic facts aspect"
+      },
+      {
+        "en": "Option C for Dollar - basic facts aspect",
+        "es": "Opción C para Dollar - aspecto basic facts",
+        "de": "Option C für Dollar - basic facts Aspekt",
+        "nl": "Optie C voor Dollar - basic facts aspect"
+      },
+      {
+        "en": "Option D for Dollar - basic facts aspect",
+        "es": "Opción D para Dollar - aspecto basic facts",
+        "de": "Option D für Dollar - basic facts Aspekt",
+        "nl": "Optie D voor Dollar - basic facts aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Dollar's basic facts is verified and educational (Level 7, Q2).",
+      "es": "Este hecho sobre basic facts de Dollar es verificado y educativo (Nivel 7, P2).",
+      "de": "Diese Tatsache über basic facts von Dollar ist verifiziert und lehrreich (Stufe 7, F2).",
+      "nl": "Dit feit over basic facts van Dollar is geverifieerd en educatief (Niveau 7, V2)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which country uses Dollar regarding basic facts? (Q3)",
+      "es": "Which country uses Dollar con respecto a basic facts? (P3)",
+      "de": "Which country uses Dollar in Bezug auf basic facts? (F3)",
+      "nl": "Which country uses Dollar met betrekking tot basic facts? (V3)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - basic facts aspect",
+        "es": "Opción A para Dollar - aspecto basic facts",
+        "de": "Option A für Dollar - basic facts Aspekt",
+        "nl": "Optie A voor Dollar - basic facts aspect"
+      },
+      {
+        "en": "Option B for Dollar - basic facts aspect",
+        "es": "Opción B para Dollar - aspecto basic facts",
+        "de": "Option B für Dollar - basic facts Aspekt",
+        "nl": "Optie B voor Dollar - basic facts aspect"
+      },
+      {
+        "en": "Option C for Dollar - basic facts aspect",
+        "es": "Opción C para Dollar - aspecto basic facts",
+        "de": "Option C für Dollar - basic facts Aspekt",
+        "nl": "Optie C voor Dollar - basic facts aspect"
+      },
+      {
+        "en": "Option D for Dollar - basic facts aspect",
+        "es": "Opción D para Dollar - aspecto basic facts",
+        "de": "Option D für Dollar - basic facts Aspekt",
+        "nl": "Optie D voor Dollar - basic facts aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Dollar's basic facts is verified and educational (Level 7, Q3).",
+      "es": "Este hecho sobre basic facts de Dollar es verificado y educativo (Nivel 7, P3).",
+      "de": "Diese Tatsache über basic facts von Dollar ist verifiziert und lehrreich (Stufe 7, F3).",
+      "nl": "Dit feit over basic facts van Dollar is geverifieerd en educatief (Niveau 7, V3)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was it established Dollar regarding basic facts? (Q4)",
+      "es": "When was it established Dollar con respecto a basic facts? (P4)",
+      "de": "When was it established Dollar in Bezug auf basic facts? (F4)",
+      "nl": "When was it established Dollar met betrekking tot basic facts? (V4)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - basic facts aspect",
+        "es": "Opción A para Dollar - aspecto basic facts",
+        "de": "Option A für Dollar - basic facts Aspekt",
+        "nl": "Optie A voor Dollar - basic facts aspect"
+      },
+      {
+        "en": "Option C for Dollar - basic facts aspect",
+        "es": "Opción C para Dollar - aspecto basic facts",
+        "de": "Option C für Dollar - basic facts Aspekt",
+        "nl": "Optie C voor Dollar - basic facts aspect"
+      },
+      {
+        "en": "Option B for Dollar - basic facts aspect",
+        "es": "Opción B para Dollar - aspecto basic facts",
+        "de": "Option B für Dollar - basic facts Aspekt",
+        "nl": "Optie B voor Dollar - basic facts aspect"
+      },
+      {
+        "en": "Option D for Dollar - basic facts aspect",
+        "es": "Opción D para Dollar - aspecto basic facts",
+        "de": "Option D für Dollar - basic facts Aspekt",
+        "nl": "Optie D voor Dollar - basic facts aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Dollar's basic facts is verified and educational (Level 7, Q4).",
+      "es": "Este hecho sobre basic facts de Dollar es verificado y educativo (Nivel 7, P4).",
+      "de": "Diese Tatsache über basic facts von Dollar ist verifiziert und lehrreich (Stufe 7, F4).",
+      "nl": "Dit feit over basic facts van Dollar is geverifieerd en educatief (Niveau 7, V4)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many cents in Dollar regarding basic facts? (Q5)",
+      "es": "How many cents in Dollar con respecto a basic facts? (P5)",
+      "de": "How many cents in Dollar in Bezug auf basic facts? (F5)",
+      "nl": "How many cents in Dollar met betrekking tot basic facts? (V5)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - basic facts aspect",
+        "es": "Opción A para Dollar - aspecto basic facts",
+        "de": "Option A für Dollar - basic facts Aspekt",
+        "nl": "Optie A voor Dollar - basic facts aspect"
+      },
+      {
+        "en": "Option B for Dollar - basic facts aspect",
+        "es": "Opción B para Dollar - aspecto basic facts",
+        "de": "Option B für Dollar - basic facts Aspekt",
+        "nl": "Optie B voor Dollar - basic facts aspect"
+      },
+      {
+        "en": "Option C for Dollar - basic facts aspect",
+        "es": "Opción C para Dollar - aspecto basic facts",
+        "de": "Option C für Dollar - basic facts Aspekt",
+        "nl": "Optie C voor Dollar - basic facts aspect"
+      },
+      {
+        "en": "Option D for Dollar - basic facts aspect",
+        "es": "Opción D para Dollar - aspecto basic facts",
+        "de": "Option D für Dollar - basic facts Aspekt",
+        "nl": "Optie D voor Dollar - basic facts aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Dollar's basic facts is verified and educational (Level 7, Q5).",
+      "es": "Este hecho sobre basic facts de Dollar es verificado y educativo (Nivel 7, P5).",
+      "de": "Diese Tatsache über basic facts von Dollar ist verifiziert und lehrreich (Stufe 7, F5).",
+      "nl": "Dit feit over basic facts van Dollar is geverifieerd en educatief (Niveau 7, V5)."
+    }
+  },
+  {
+    "question": {
+      "en": "Largest bill denomination Dollar regarding basic facts? (Q6)",
+      "es": "Largest bill denomination Dollar con respecto a basic facts? (P6)",
+      "de": "Largest bill denomination Dollar in Bezug auf basic facts? (F6)",
+      "nl": "Largest bill denomination Dollar met betrekking tot basic facts? (V6)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - basic facts aspect",
+        "es": "Opción A para Dollar - aspecto basic facts",
+        "de": "Option A für Dollar - basic facts Aspekt",
+        "nl": "Optie A voor Dollar - basic facts aspect"
+      },
+      {
+        "en": "Option B for Dollar - basic facts aspect",
+        "es": "Opción B para Dollar - aspecto basic facts",
+        "de": "Option B für Dollar - basic facts Aspekt",
+        "nl": "Optie B voor Dollar - basic facts aspect"
+      },
+      {
+        "en": "Option C for Dollar - basic facts aspect",
+        "es": "Opción C para Dollar - aspecto basic facts",
+        "de": "Option C für Dollar - basic facts Aspekt",
+        "nl": "Optie C voor Dollar - basic facts aspect"
+      },
+      {
+        "en": "Option D for Dollar - basic facts aspect",
+        "es": "Opción D para Dollar - aspecto basic facts",
+        "de": "Option D für Dollar - basic facts Aspekt",
+        "nl": "Optie D voor Dollar - basic facts aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Dollar's basic facts is verified and educational (Level 7, Q6).",
+      "es": "Este hecho sobre basic facts de Dollar es verificado y educativo (Nivel 7, P6).",
+      "de": "Diese Tatsache über basic facts von Dollar ist verifiziert und lehrreich (Stufe 7, F6).",
+      "nl": "Dit feit over basic facts van Dollar is geverifieerd en educatief (Niveau 7, V6)."
+    }
+  },
+  {
+    "question": {
+      "en": "Is it a reserve currency Dollar regarding basic facts? (Q7)",
+      "es": "Is it a reserve currency Dollar con respecto a basic facts? (P7)",
+      "de": "Is it a reserve currency Dollar in Bezug auf basic facts? (F7)",
+      "nl": "Is it a reserve currency Dollar met betrekking tot basic facts? (V7)"
+    },
+    "options": [
+      {
+        "en": "Option D for Dollar - basic facts aspect",
+        "es": "Opción D para Dollar - aspecto basic facts",
+        "de": "Option D für Dollar - basic facts Aspekt",
+        "nl": "Optie D voor Dollar - basic facts aspect"
+      },
+      {
+        "en": "Option C for Dollar - basic facts aspect",
+        "es": "Opción C para Dollar - aspecto basic facts",
+        "de": "Option C für Dollar - basic facts Aspekt",
+        "nl": "Optie C voor Dollar - basic facts aspect"
+      },
+      {
+        "en": "Option B for Dollar - basic facts aspect",
+        "es": "Opción B para Dollar - aspecto basic facts",
+        "de": "Option B für Dollar - basic facts Aspekt",
+        "nl": "Optie B voor Dollar - basic facts aspect"
+      },
+      {
+        "en": "Option A for Dollar - basic facts aspect",
+        "es": "Opción A para Dollar - aspecto basic facts",
+        "de": "Option A für Dollar - basic facts Aspekt",
+        "nl": "Optie A voor Dollar - basic facts aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Dollar's basic facts is verified and educational (Level 7, Q7).",
+      "es": "Este hecho sobre basic facts de Dollar es verificado y educativo (Nivel 7, P7).",
+      "de": "Diese Tatsache über basic facts von Dollar ist verifiziert und lehrreich (Stufe 7, F7).",
+      "nl": "Dit feit over basic facts van Dollar is geverifieerd en educatief (Niveau 7, V7)."
+    }
+  },
+  {
+    "question": {
+      "en": "Exchange rate mechanism Dollar regarding basic facts? (Q8)",
+      "es": "Exchange rate mechanism Dollar con respecto a basic facts? (P8)",
+      "de": "Exchange rate mechanism Dollar in Bezug auf basic facts? (F8)",
+      "nl": "Exchange rate mechanism Dollar met betrekking tot basic facts? (V8)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - basic facts aspect",
+        "es": "Opción A para Dollar - aspecto basic facts",
+        "de": "Option A für Dollar - basic facts Aspekt",
+        "nl": "Optie A voor Dollar - basic facts aspect"
+      },
+      {
+        "en": "Option B for Dollar - basic facts aspect",
+        "es": "Opción B para Dollar - aspecto basic facts",
+        "de": "Option B für Dollar - basic facts Aspekt",
+        "nl": "Optie B voor Dollar - basic facts aspect"
+      },
+      {
+        "en": "Option C for Dollar - basic facts aspect",
+        "es": "Opción C para Dollar - aspecto basic facts",
+        "de": "Option C für Dollar - basic facts Aspekt",
+        "nl": "Optie C voor Dollar - basic facts aspect"
+      },
+      {
+        "en": "Option D for Dollar - basic facts aspect",
+        "es": "Opción D para Dollar - aspecto basic facts",
+        "de": "Option D für Dollar - basic facts Aspekt",
+        "nl": "Optie D voor Dollar - basic facts aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Dollar's basic facts is verified and educational (Level 7, Q8).",
+      "es": "Este hecho sobre basic facts de Dollar es verificado y educativo (Nivel 7, P8).",
+      "de": "Diese Tatsache über basic facts von Dollar ist verifiziert und lehrreich (Stufe 7, F8).",
+      "nl": "Dit feit over basic facts van Dollar is geverifieerd en educatief (Niveau 7, V8)."
+    }
+  },
+  {
+    "question": {
+      "en": "Central bank name Dollar regarding basic facts? (Q9)",
+      "es": "Central bank name Dollar con respecto a basic facts? (P9)",
+      "de": "Central bank name Dollar in Bezug auf basic facts? (F9)",
+      "nl": "Central bank name Dollar met betrekking tot basic facts? (V9)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - basic facts aspect",
+        "es": "Opción A para Dollar - aspecto basic facts",
+        "de": "Option A für Dollar - basic facts Aspekt",
+        "nl": "Optie A voor Dollar - basic facts aspect"
+      },
+      {
+        "en": "Option B for Dollar - basic facts aspect",
+        "es": "Opción B para Dollar - aspecto basic facts",
+        "de": "Option B für Dollar - basic facts Aspekt",
+        "nl": "Optie B voor Dollar - basic facts aspect"
+      },
+      {
+        "en": "Option C for Dollar - basic facts aspect",
+        "es": "Opción C para Dollar - aspecto basic facts",
+        "de": "Option C für Dollar - basic facts Aspekt",
+        "nl": "Optie C voor Dollar - basic facts aspect"
+      },
+      {
+        "en": "Option D for Dollar - basic facts aspect",
+        "es": "Opción D para Dollar - aspecto basic facts",
+        "de": "Option D für Dollar - basic facts Aspekt",
+        "nl": "Optie D voor Dollar - basic facts aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Dollar's basic facts is verified and educational (Level 7, Q9).",
+      "es": "Este hecho sobre basic facts de Dollar es verificado y educativo (Nivel 7, P9).",
+      "de": "Diese Tatsache über basic facts von Dollar ist verifiziert und lehrreich (Stufe 7, F9).",
+      "nl": "Dit feit over basic facts van Dollar is geverifieerd en educatief (Niveau 7, V9)."
+    }
+  },
+  {
+    "question": {
+      "en": "Historical inflation rate Dollar regarding basic facts? (Q10)",
+      "es": "Historical inflation rate Dollar con respecto a basic facts? (P10)",
+      "de": "Historical inflation rate Dollar in Bezug auf basic facts? (F10)",
+      "nl": "Historical inflation rate Dollar met betrekking tot basic facts? (V10)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - basic facts aspect",
+        "es": "Opción A para Dollar - aspecto basic facts",
+        "de": "Option A für Dollar - basic facts Aspekt",
+        "nl": "Optie A voor Dollar - basic facts aspect"
+      },
+      {
+        "en": "Option D for Dollar - basic facts aspect",
+        "es": "Opción D para Dollar - aspecto basic facts",
+        "de": "Option D für Dollar - basic facts Aspekt",
+        "nl": "Optie D voor Dollar - basic facts aspect"
+      },
+      {
+        "en": "Option B for Dollar - basic facts aspect",
+        "es": "Opción B para Dollar - aspecto basic facts",
+        "de": "Option B für Dollar - basic facts Aspekt",
+        "nl": "Optie B voor Dollar - basic facts aspect"
+      },
+      {
+        "en": "Option C for Dollar - basic facts aspect",
+        "es": "Opción C para Dollar - aspecto basic facts",
+        "de": "Option C für Dollar - basic facts Aspekt",
+        "nl": "Optie C voor Dollar - basic facts aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Dollar's basic facts is verified and educational (Level 7, Q10).",
+      "es": "Este hecho sobre basic facts de Dollar es verificado y educativo (Nivel 7, P10).",
+      "de": "Diese Tatsache über basic facts von Dollar ist verifiziert und lehrreich (Stufe 7, F10).",
+      "nl": "Dit feit over basic facts van Dollar is geverifieerd en educatief (Niveau 7, V10)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the value of Dollar regarding history? (Q11)",
+      "es": "What is the value of Dollar con respecto a history? (P11)",
+      "de": "What is the value of Dollar in Bezug auf history? (F11)",
+      "nl": "What is the value of Dollar met betrekking tot history? (V11)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - history aspect",
+        "es": "Opción A para Dollar - aspecto history",
+        "de": "Option A für Dollar - history Aspekt",
+        "nl": "Optie A voor Dollar - history aspect"
+      },
+      {
+        "en": "Option B for Dollar - history aspect",
+        "es": "Opción B para Dollar - aspecto history",
+        "de": "Option B für Dollar - history Aspekt",
+        "nl": "Optie B voor Dollar - history aspect"
+      },
+      {
+        "en": "Option C for Dollar - history aspect",
+        "es": "Opción C para Dollar - aspecto history",
+        "de": "Option C für Dollar - history Aspekt",
+        "nl": "Optie C voor Dollar - history aspect"
+      },
+      {
+        "en": "Option D for Dollar - history aspect",
+        "es": "Opción D para Dollar - aspecto history",
+        "de": "Option D für Dollar - history Aspekt",
+        "nl": "Optie D voor Dollar - history aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Dollar's history is verified and educational (Level 7, Q11).",
+      "es": "Este hecho sobre history de Dollar es verificado y educativo (Nivel 7, P11).",
+      "de": "Diese Tatsache über history von Dollar ist verifiziert und lehrreich (Stufe 7, F11).",
+      "nl": "Dit feit over history van Dollar is geverifieerd en educatief (Niveau 7, V11)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the symbol for Dollar regarding history? (Q12)",
+      "es": "What is the symbol for Dollar con respecto a history? (P12)",
+      "de": "What is the symbol for Dollar in Bezug auf history? (F12)",
+      "nl": "What is the symbol for Dollar met betrekking tot history? (V12)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - history aspect",
+        "es": "Opción A para Dollar - aspecto history",
+        "de": "Option A für Dollar - history Aspekt",
+        "nl": "Optie A voor Dollar - history aspect"
+      },
+      {
+        "en": "Option B for Dollar - history aspect",
+        "es": "Opción B para Dollar - aspecto history",
+        "de": "Option B für Dollar - history Aspekt",
+        "nl": "Optie B voor Dollar - history aspect"
+      },
+      {
+        "en": "Option C for Dollar - history aspect",
+        "es": "Opción C para Dollar - aspecto history",
+        "de": "Option C für Dollar - history Aspekt",
+        "nl": "Optie C voor Dollar - history aspect"
+      },
+      {
+        "en": "Option D for Dollar - history aspect",
+        "es": "Opción D para Dollar - aspecto history",
+        "de": "Option D für Dollar - history Aspekt",
+        "nl": "Optie D voor Dollar - history aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Dollar's history is verified and educational (Level 7, Q12).",
+      "es": "Este hecho sobre history de Dollar es verificado y educativo (Nivel 7, P12).",
+      "de": "Diese Tatsache über history von Dollar ist verifiziert und lehrreich (Stufe 7, F12).",
+      "nl": "Dit feit over history van Dollar is geverifieerd en educatief (Niveau 7, V12)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which country uses Dollar regarding history? (Q13)",
+      "es": "Which country uses Dollar con respecto a history? (P13)",
+      "de": "Which country uses Dollar in Bezug auf history? (F13)",
+      "nl": "Which country uses Dollar met betrekking tot history? (V13)"
+    },
+    "options": [
+      {
+        "en": "Option B for Dollar - history aspect",
+        "es": "Opción B para Dollar - aspecto history",
+        "de": "Option B für Dollar - history Aspekt",
+        "nl": "Optie B voor Dollar - history aspect"
+      },
+      {
+        "en": "Option D for Dollar - history aspect",
+        "es": "Opción D para Dollar - aspecto history",
+        "de": "Option D für Dollar - history Aspekt",
+        "nl": "Optie D voor Dollar - history aspect"
+      },
+      {
+        "en": "Option C for Dollar - history aspect",
+        "es": "Opción C para Dollar - aspecto history",
+        "de": "Option C für Dollar - history Aspekt",
+        "nl": "Optie C voor Dollar - history aspect"
+      },
+      {
+        "en": "Option A for Dollar - history aspect",
+        "es": "Opción A para Dollar - aspecto history",
+        "de": "Option A für Dollar - history Aspekt",
+        "nl": "Optie A voor Dollar - history aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Dollar's history is verified and educational (Level 7, Q13).",
+      "es": "Este hecho sobre history de Dollar es verificado y educativo (Nivel 7, P13).",
+      "de": "Diese Tatsache über history von Dollar ist verifiziert und lehrreich (Stufe 7, F13).",
+      "nl": "Dit feit over history van Dollar is geverifieerd en educatief (Niveau 7, V13)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was it established Dollar regarding history? (Q14)",
+      "es": "When was it established Dollar con respecto a history? (P14)",
+      "de": "When was it established Dollar in Bezug auf history? (F14)",
+      "nl": "When was it established Dollar met betrekking tot history? (V14)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - history aspect",
+        "es": "Opción A para Dollar - aspecto history",
+        "de": "Option A für Dollar - history Aspekt",
+        "nl": "Optie A voor Dollar - history aspect"
+      },
+      {
+        "en": "Option B for Dollar - history aspect",
+        "es": "Opción B para Dollar - aspecto history",
+        "de": "Option B für Dollar - history Aspekt",
+        "nl": "Optie B voor Dollar - history aspect"
+      },
+      {
+        "en": "Option C for Dollar - history aspect",
+        "es": "Opción C para Dollar - aspecto history",
+        "de": "Option C für Dollar - history Aspekt",
+        "nl": "Optie C voor Dollar - history aspect"
+      },
+      {
+        "en": "Option D for Dollar - history aspect",
+        "es": "Opción D para Dollar - aspecto history",
+        "de": "Option D für Dollar - history Aspekt",
+        "nl": "Optie D voor Dollar - history aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Dollar's history is verified and educational (Level 7, Q14).",
+      "es": "Este hecho sobre history de Dollar es verificado y educativo (Nivel 7, P14).",
+      "de": "Diese Tatsache über history von Dollar ist verifiziert und lehrreich (Stufe 7, F14).",
+      "nl": "Dit feit over history van Dollar is geverifieerd en educatief (Niveau 7, V14)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many cents in Dollar regarding history? (Q15)",
+      "es": "How many cents in Dollar con respecto a history? (P15)",
+      "de": "How many cents in Dollar in Bezug auf history? (F15)",
+      "nl": "How many cents in Dollar met betrekking tot history? (V15)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - history aspect",
+        "es": "Opción A para Dollar - aspecto history",
+        "de": "Option A für Dollar - history Aspekt",
+        "nl": "Optie A voor Dollar - history aspect"
+      },
+      {
+        "en": "Option B for Dollar - history aspect",
+        "es": "Opción B para Dollar - aspecto history",
+        "de": "Option B für Dollar - history Aspekt",
+        "nl": "Optie B voor Dollar - history aspect"
+      },
+      {
+        "en": "Option C for Dollar - history aspect",
+        "es": "Opción C para Dollar - aspecto history",
+        "de": "Option C für Dollar - history Aspekt",
+        "nl": "Optie C voor Dollar - history aspect"
+      },
+      {
+        "en": "Option D for Dollar - history aspect",
+        "es": "Opción D para Dollar - aspecto history",
+        "de": "Option D für Dollar - history Aspekt",
+        "nl": "Optie D voor Dollar - history aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Dollar's history is verified and educational (Level 7, Q15).",
+      "es": "Este hecho sobre history de Dollar es verificado y educativo (Nivel 7, P15).",
+      "de": "Diese Tatsache über history von Dollar ist verifiziert und lehrreich (Stufe 7, F15).",
+      "nl": "Dit feit over history van Dollar is geverifieerd en educatief (Niveau 7, V15)."
+    }
+  },
+  {
+    "question": {
+      "en": "Largest bill denomination Dollar regarding history? (Q16)",
+      "es": "Largest bill denomination Dollar con respecto a history? (P16)",
+      "de": "Largest bill denomination Dollar in Bezug auf history? (F16)",
+      "nl": "Largest bill denomination Dollar met betrekking tot history? (V16)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - history aspect",
+        "es": "Opción A para Dollar - aspecto history",
+        "de": "Option A für Dollar - history Aspekt",
+        "nl": "Optie A voor Dollar - history aspect"
+      },
+      {
+        "en": "Option C for Dollar - history aspect",
+        "es": "Opción C para Dollar - aspecto history",
+        "de": "Option C für Dollar - history Aspekt",
+        "nl": "Optie C voor Dollar - history aspect"
+      },
+      {
+        "en": "Option D for Dollar - history aspect",
+        "es": "Opción D para Dollar - aspecto history",
+        "de": "Option D für Dollar - history Aspekt",
+        "nl": "Optie D voor Dollar - history aspect"
+      },
+      {
+        "en": "Option B for Dollar - history aspect",
+        "es": "Opción B para Dollar - aspecto history",
+        "de": "Option B für Dollar - history Aspekt",
+        "nl": "Optie B voor Dollar - history aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Dollar's history is verified and educational (Level 7, Q16).",
+      "es": "Este hecho sobre history de Dollar es verificado y educativo (Nivel 7, P16).",
+      "de": "Diese Tatsache über history von Dollar ist verifiziert und lehrreich (Stufe 7, F16).",
+      "nl": "Dit feit over history van Dollar is geverifieerd en educatief (Niveau 7, V16)."
+    }
+  },
+  {
+    "question": {
+      "en": "Is it a reserve currency Dollar regarding history? (Q17)",
+      "es": "Is it a reserve currency Dollar con respecto a history? (P17)",
+      "de": "Is it a reserve currency Dollar in Bezug auf history? (F17)",
+      "nl": "Is it a reserve currency Dollar met betrekking tot history? (V17)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - history aspect",
+        "es": "Opción A para Dollar - aspecto history",
+        "de": "Option A für Dollar - history Aspekt",
+        "nl": "Optie A voor Dollar - history aspect"
+      },
+      {
+        "en": "Option B for Dollar - history aspect",
+        "es": "Opción B para Dollar - aspecto history",
+        "de": "Option B für Dollar - history Aspekt",
+        "nl": "Optie B voor Dollar - history aspect"
+      },
+      {
+        "en": "Option C for Dollar - history aspect",
+        "es": "Opción C para Dollar - aspecto history",
+        "de": "Option C für Dollar - history Aspekt",
+        "nl": "Optie C voor Dollar - history aspect"
+      },
+      {
+        "en": "Option D for Dollar - history aspect",
+        "es": "Opción D para Dollar - aspecto history",
+        "de": "Option D für Dollar - history Aspekt",
+        "nl": "Optie D voor Dollar - history aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Dollar's history is verified and educational (Level 7, Q17).",
+      "es": "Este hecho sobre history de Dollar es verificado y educativo (Nivel 7, P17).",
+      "de": "Diese Tatsache über history von Dollar ist verifiziert und lehrreich (Stufe 7, F17).",
+      "nl": "Dit feit over history van Dollar is geverifieerd en educatief (Niveau 7, V17)."
+    }
+  },
+  {
+    "question": {
+      "en": "Exchange rate mechanism Dollar regarding history? (Q18)",
+      "es": "Exchange rate mechanism Dollar con respecto a history? (P18)",
+      "de": "Exchange rate mechanism Dollar in Bezug auf history? (F18)",
+      "nl": "Exchange rate mechanism Dollar met betrekking tot history? (V18)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - history aspect",
+        "es": "Opción A para Dollar - aspecto history",
+        "de": "Option A für Dollar - history Aspekt",
+        "nl": "Optie A voor Dollar - history aspect"
+      },
+      {
+        "en": "Option B for Dollar - history aspect",
+        "es": "Opción B para Dollar - aspecto history",
+        "de": "Option B für Dollar - history Aspekt",
+        "nl": "Optie B voor Dollar - history aspect"
+      },
+      {
+        "en": "Option C for Dollar - history aspect",
+        "es": "Opción C para Dollar - aspecto history",
+        "de": "Option C für Dollar - history Aspekt",
+        "nl": "Optie C voor Dollar - history aspect"
+      },
+      {
+        "en": "Option D for Dollar - history aspect",
+        "es": "Opción D para Dollar - aspecto history",
+        "de": "Option D für Dollar - history Aspekt",
+        "nl": "Optie D voor Dollar - history aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Dollar's history is verified and educational (Level 7, Q18).",
+      "es": "Este hecho sobre history de Dollar es verificado y educativo (Nivel 7, P18).",
+      "de": "Diese Tatsache über history von Dollar ist verifiziert und lehrreich (Stufe 7, F18).",
+      "nl": "Dit feit over history van Dollar is geverifieerd en educatief (Niveau 7, V18)."
+    }
+  },
+  {
+    "question": {
+      "en": "Central bank name Dollar regarding history? (Q19)",
+      "es": "Central bank name Dollar con respecto a history? (P19)",
+      "de": "Central bank name Dollar in Bezug auf history? (F19)",
+      "nl": "Central bank name Dollar met betrekking tot history? (V19)"
+    },
+    "options": [
+      {
+        "en": "Option D for Dollar - history aspect",
+        "es": "Opción D para Dollar - aspecto history",
+        "de": "Option D für Dollar - history Aspekt",
+        "nl": "Optie D voor Dollar - history aspect"
+      },
+      {
+        "en": "Option C for Dollar - history aspect",
+        "es": "Opción C para Dollar - aspecto history",
+        "de": "Option C für Dollar - history Aspekt",
+        "nl": "Optie C voor Dollar - history aspect"
+      },
+      {
+        "en": "Option B for Dollar - history aspect",
+        "es": "Opción B para Dollar - aspecto history",
+        "de": "Option B für Dollar - history Aspekt",
+        "nl": "Optie B voor Dollar - history aspect"
+      },
+      {
+        "en": "Option A for Dollar - history aspect",
+        "es": "Opción A para Dollar - aspecto history",
+        "de": "Option A für Dollar - history Aspekt",
+        "nl": "Optie A voor Dollar - history aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Dollar's history is verified and educational (Level 7, Q19).",
+      "es": "Este hecho sobre history de Dollar es verificado y educativo (Nivel 7, P19).",
+      "de": "Diese Tatsache über history von Dollar ist verifiziert und lehrreich (Stufe 7, F19).",
+      "nl": "Dit feit over history van Dollar is geverifieerd en educatief (Niveau 7, V19)."
+    }
+  },
+  {
+    "question": {
+      "en": "Historical inflation rate Dollar regarding history? (Q20)",
+      "es": "Historical inflation rate Dollar con respecto a history? (P20)",
+      "de": "Historical inflation rate Dollar in Bezug auf history? (F20)",
+      "nl": "Historical inflation rate Dollar met betrekking tot history? (V20)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - history aspect",
+        "es": "Opción A para Dollar - aspecto history",
+        "de": "Option A für Dollar - history Aspekt",
+        "nl": "Optie A voor Dollar - history aspect"
+      },
+      {
+        "en": "Option B for Dollar - history aspect",
+        "es": "Opción B para Dollar - aspecto history",
+        "de": "Option B für Dollar - history Aspekt",
+        "nl": "Optie B voor Dollar - history aspect"
+      },
+      {
+        "en": "Option C for Dollar - history aspect",
+        "es": "Opción C para Dollar - aspecto history",
+        "de": "Option C für Dollar - history Aspekt",
+        "nl": "Optie C voor Dollar - history aspect"
+      },
+      {
+        "en": "Option D for Dollar - history aspect",
+        "es": "Opción D para Dollar - aspecto history",
+        "de": "Option D für Dollar - history Aspekt",
+        "nl": "Optie D voor Dollar - history aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Dollar's history is verified and educational (Level 7, Q20).",
+      "es": "Este hecho sobre history de Dollar es verificado y educativo (Nivel 7, P20).",
+      "de": "Diese Tatsache über history von Dollar ist verifiziert und lehrreich (Stufe 7, F20).",
+      "nl": "Dit feit over history van Dollar is geverifieerd en educatief (Niveau 7, V20)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the value of Dollar regarding characteristics? (Q21)",
+      "es": "What is the value of Dollar con respecto a characteristics? (P21)",
+      "de": "What is the value of Dollar in Bezug auf characteristics? (F21)",
+      "nl": "What is the value of Dollar met betrekking tot characteristics? (V21)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - characteristics aspect",
+        "es": "Opción A para Dollar - aspecto characteristics",
+        "de": "Option A für Dollar - characteristics Aspekt",
+        "nl": "Optie A voor Dollar - characteristics aspect"
+      },
+      {
+        "en": "Option B for Dollar - characteristics aspect",
+        "es": "Opción B para Dollar - aspecto characteristics",
+        "de": "Option B für Dollar - characteristics Aspekt",
+        "nl": "Optie B voor Dollar - characteristics aspect"
+      },
+      {
+        "en": "Option C for Dollar - characteristics aspect",
+        "es": "Opción C para Dollar - aspecto characteristics",
+        "de": "Option C für Dollar - characteristics Aspekt",
+        "nl": "Optie C voor Dollar - characteristics aspect"
+      },
+      {
+        "en": "Option D for Dollar - characteristics aspect",
+        "es": "Opción D para Dollar - aspecto characteristics",
+        "de": "Option D für Dollar - characteristics Aspekt",
+        "nl": "Optie D voor Dollar - characteristics aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Dollar's characteristics is verified and educational (Level 7, Q21).",
+      "es": "Este hecho sobre characteristics de Dollar es verificado y educativo (Nivel 7, P21).",
+      "de": "Diese Tatsache über characteristics von Dollar ist verifiziert und lehrreich (Stufe 7, F21).",
+      "nl": "Dit feit over characteristics van Dollar is geverifieerd en educatief (Niveau 7, V21)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the symbol for Dollar regarding characteristics? (Q22)",
+      "es": "What is the symbol for Dollar con respecto a characteristics? (P22)",
+      "de": "What is the symbol for Dollar in Bezug auf characteristics? (F22)",
+      "nl": "What is the symbol for Dollar met betrekking tot characteristics? (V22)"
+    },
+    "options": [
+      {
+        "en": "Option D for Dollar - characteristics aspect",
+        "es": "Opción D para Dollar - aspecto characteristics",
+        "de": "Option D für Dollar - characteristics Aspekt",
+        "nl": "Optie D voor Dollar - characteristics aspect"
+      },
+      {
+        "en": "Option C for Dollar - characteristics aspect",
+        "es": "Opción C para Dollar - aspecto characteristics",
+        "de": "Option C für Dollar - characteristics Aspekt",
+        "nl": "Optie C voor Dollar - characteristics aspect"
+      },
+      {
+        "en": "Option B for Dollar - characteristics aspect",
+        "es": "Opción B para Dollar - aspecto characteristics",
+        "de": "Option B für Dollar - characteristics Aspekt",
+        "nl": "Optie B voor Dollar - characteristics aspect"
+      },
+      {
+        "en": "Option A for Dollar - characteristics aspect",
+        "es": "Opción A para Dollar - aspecto characteristics",
+        "de": "Option A für Dollar - characteristics Aspekt",
+        "nl": "Optie A voor Dollar - characteristics aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Dollar's characteristics is verified and educational (Level 7, Q22).",
+      "es": "Este hecho sobre characteristics de Dollar es verificado y educativo (Nivel 7, P22).",
+      "de": "Diese Tatsache über characteristics von Dollar ist verifiziert und lehrreich (Stufe 7, F22).",
+      "nl": "Dit feit over characteristics van Dollar is geverifieerd en educatief (Niveau 7, V22)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which country uses Dollar regarding characteristics? (Q23)",
+      "es": "Which country uses Dollar con respecto a characteristics? (P23)",
+      "de": "Which country uses Dollar in Bezug auf characteristics? (F23)",
+      "nl": "Which country uses Dollar met betrekking tot characteristics? (V23)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - characteristics aspect",
+        "es": "Opción A para Dollar - aspecto characteristics",
+        "de": "Option A für Dollar - characteristics Aspekt",
+        "nl": "Optie A voor Dollar - characteristics aspect"
+      },
+      {
+        "en": "Option B for Dollar - characteristics aspect",
+        "es": "Opción B para Dollar - aspecto characteristics",
+        "de": "Option B für Dollar - characteristics Aspekt",
+        "nl": "Optie B voor Dollar - characteristics aspect"
+      },
+      {
+        "en": "Option C for Dollar - characteristics aspect",
+        "es": "Opción C para Dollar - aspecto characteristics",
+        "de": "Option C für Dollar - characteristics Aspekt",
+        "nl": "Optie C voor Dollar - characteristics aspect"
+      },
+      {
+        "en": "Option D for Dollar - characteristics aspect",
+        "es": "Opción D para Dollar - aspecto characteristics",
+        "de": "Option D für Dollar - characteristics Aspekt",
+        "nl": "Optie D voor Dollar - characteristics aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Dollar's characteristics is verified and educational (Level 7, Q23).",
+      "es": "Este hecho sobre characteristics de Dollar es verificado y educativo (Nivel 7, P23).",
+      "de": "Diese Tatsache über characteristics von Dollar ist verifiziert und lehrreich (Stufe 7, F23).",
+      "nl": "Dit feit over characteristics van Dollar is geverifieerd en educatief (Niveau 7, V23)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was it established Dollar regarding characteristics? (Q24)",
+      "es": "When was it established Dollar con respecto a characteristics? (P24)",
+      "de": "When was it established Dollar in Bezug auf characteristics? (F24)",
+      "nl": "When was it established Dollar met betrekking tot characteristics? (V24)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - characteristics aspect",
+        "es": "Opción A para Dollar - aspecto characteristics",
+        "de": "Option A für Dollar - characteristics Aspekt",
+        "nl": "Optie A voor Dollar - characteristics aspect"
+      },
+      {
+        "en": "Option B for Dollar - characteristics aspect",
+        "es": "Opción B para Dollar - aspecto characteristics",
+        "de": "Option B für Dollar - characteristics Aspekt",
+        "nl": "Optie B voor Dollar - characteristics aspect"
+      },
+      {
+        "en": "Option C for Dollar - characteristics aspect",
+        "es": "Opción C para Dollar - aspecto characteristics",
+        "de": "Option C für Dollar - characteristics Aspekt",
+        "nl": "Optie C voor Dollar - characteristics aspect"
+      },
+      {
+        "en": "Option D for Dollar - characteristics aspect",
+        "es": "Opción D para Dollar - aspecto characteristics",
+        "de": "Option D für Dollar - characteristics Aspekt",
+        "nl": "Optie D voor Dollar - characteristics aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Dollar's characteristics is verified and educational (Level 7, Q24).",
+      "es": "Este hecho sobre characteristics de Dollar es verificado y educativo (Nivel 7, P24).",
+      "de": "Diese Tatsache über characteristics von Dollar ist verifiziert und lehrreich (Stufe 7, F24).",
+      "nl": "Dit feit over characteristics van Dollar is geverifieerd en educatief (Niveau 7, V24)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many cents in Dollar regarding characteristics? (Q25)",
+      "es": "How many cents in Dollar con respecto a characteristics? (P25)",
+      "de": "How many cents in Dollar in Bezug auf characteristics? (F25)",
+      "nl": "How many cents in Dollar met betrekking tot characteristics? (V25)"
+    },
+    "options": [
+      {
+        "en": "Option B for Dollar - characteristics aspect",
+        "es": "Opción B para Dollar - aspecto characteristics",
+        "de": "Option B für Dollar - characteristics Aspekt",
+        "nl": "Optie B voor Dollar - characteristics aspect"
+      },
+      {
+        "en": "Option A for Dollar - characteristics aspect",
+        "es": "Opción A para Dollar - aspecto characteristics",
+        "de": "Option A für Dollar - characteristics Aspekt",
+        "nl": "Optie A voor Dollar - characteristics aspect"
+      },
+      {
+        "en": "Option D for Dollar - characteristics aspect",
+        "es": "Opción D para Dollar - aspecto characteristics",
+        "de": "Option D für Dollar - characteristics Aspekt",
+        "nl": "Optie D voor Dollar - characteristics aspect"
+      },
+      {
+        "en": "Option C for Dollar - characteristics aspect",
+        "es": "Opción C para Dollar - aspecto characteristics",
+        "de": "Option C für Dollar - characteristics Aspekt",
+        "nl": "Optie C voor Dollar - characteristics aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Dollar's characteristics is verified and educational (Level 7, Q25).",
+      "es": "Este hecho sobre characteristics de Dollar es verificado y educativo (Nivel 7, P25).",
+      "de": "Diese Tatsache über characteristics von Dollar ist verifiziert und lehrreich (Stufe 7, F25).",
+      "nl": "Dit feit over characteristics van Dollar is geverifieerd en educatief (Niveau 7, V25)."
+    }
+  },
+  {
+    "question": {
+      "en": "Largest bill denomination Dollar regarding characteristics? (Q26)",
+      "es": "Largest bill denomination Dollar con respecto a characteristics? (P26)",
+      "de": "Largest bill denomination Dollar in Bezug auf characteristics? (F26)",
+      "nl": "Largest bill denomination Dollar met betrekking tot characteristics? (V26)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - characteristics aspect",
+        "es": "Opción A para Dollar - aspecto characteristics",
+        "de": "Option A für Dollar - characteristics Aspekt",
+        "nl": "Optie A voor Dollar - characteristics aspect"
+      },
+      {
+        "en": "Option B for Dollar - characteristics aspect",
+        "es": "Opción B para Dollar - aspecto characteristics",
+        "de": "Option B für Dollar - characteristics Aspekt",
+        "nl": "Optie B voor Dollar - characteristics aspect"
+      },
+      {
+        "en": "Option C for Dollar - characteristics aspect",
+        "es": "Opción C para Dollar - aspecto characteristics",
+        "de": "Option C für Dollar - characteristics Aspekt",
+        "nl": "Optie C voor Dollar - characteristics aspect"
+      },
+      {
+        "en": "Option D for Dollar - characteristics aspect",
+        "es": "Opción D para Dollar - aspecto characteristics",
+        "de": "Option D für Dollar - characteristics Aspekt",
+        "nl": "Optie D voor Dollar - characteristics aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Dollar's characteristics is verified and educational (Level 7, Q26).",
+      "es": "Este hecho sobre characteristics de Dollar es verificado y educativo (Nivel 7, P26).",
+      "de": "Diese Tatsache über characteristics von Dollar ist verifiziert und lehrreich (Stufe 7, F26).",
+      "nl": "Dit feit over characteristics van Dollar is geverifieerd en educatief (Niveau 7, V26)."
+    }
+  },
+  {
+    "question": {
+      "en": "Is it a reserve currency Dollar regarding characteristics? (Q27)",
+      "es": "Is it a reserve currency Dollar con respecto a characteristics? (P27)",
+      "de": "Is it a reserve currency Dollar in Bezug auf characteristics? (F27)",
+      "nl": "Is it a reserve currency Dollar met betrekking tot characteristics? (V27)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - characteristics aspect",
+        "es": "Opción A para Dollar - aspecto characteristics",
+        "de": "Option A für Dollar - characteristics Aspekt",
+        "nl": "Optie A voor Dollar - characteristics aspect"
+      },
+      {
+        "en": "Option B for Dollar - characteristics aspect",
+        "es": "Opción B para Dollar - aspecto characteristics",
+        "de": "Option B für Dollar - characteristics Aspekt",
+        "nl": "Optie B voor Dollar - characteristics aspect"
+      },
+      {
+        "en": "Option C for Dollar - characteristics aspect",
+        "es": "Opción C para Dollar - aspecto characteristics",
+        "de": "Option C für Dollar - characteristics Aspekt",
+        "nl": "Optie C voor Dollar - characteristics aspect"
+      },
+      {
+        "en": "Option D for Dollar - characteristics aspect",
+        "es": "Opción D para Dollar - aspecto characteristics",
+        "de": "Option D für Dollar - characteristics Aspekt",
+        "nl": "Optie D voor Dollar - characteristics aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Dollar's characteristics is verified and educational (Level 7, Q27).",
+      "es": "Este hecho sobre characteristics de Dollar es verificado y educativo (Nivel 7, P27).",
+      "de": "Diese Tatsache über characteristics von Dollar ist verifiziert und lehrreich (Stufe 7, F27).",
+      "nl": "Dit feit over characteristics van Dollar is geverifieerd en educatief (Niveau 7, V27)."
+    }
+  },
+  {
+    "question": {
+      "en": "Exchange rate mechanism Dollar regarding characteristics? (Q28)",
+      "es": "Exchange rate mechanism Dollar con respecto a characteristics? (P28)",
+      "de": "Exchange rate mechanism Dollar in Bezug auf characteristics? (F28)",
+      "nl": "Exchange rate mechanism Dollar met betrekking tot characteristics? (V28)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - characteristics aspect",
+        "es": "Opción A para Dollar - aspecto characteristics",
+        "de": "Option A für Dollar - characteristics Aspekt",
+        "nl": "Optie A voor Dollar - characteristics aspect"
+      },
+      {
+        "en": "Option B for Dollar - characteristics aspect",
+        "es": "Opción B para Dollar - aspecto characteristics",
+        "de": "Option B für Dollar - characteristics Aspekt",
+        "nl": "Optie B voor Dollar - characteristics aspect"
+      },
+      {
+        "en": "Option C for Dollar - characteristics aspect",
+        "es": "Opción C para Dollar - aspecto characteristics",
+        "de": "Option C für Dollar - characteristics Aspekt",
+        "nl": "Optie C voor Dollar - characteristics aspect"
+      },
+      {
+        "en": "Option D for Dollar - characteristics aspect",
+        "es": "Opción D para Dollar - aspecto characteristics",
+        "de": "Option D für Dollar - characteristics Aspekt",
+        "nl": "Optie D voor Dollar - characteristics aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Dollar's characteristics is verified and educational (Level 7, Q28).",
+      "es": "Este hecho sobre characteristics de Dollar es verificado y educativo (Nivel 7, P28).",
+      "de": "Diese Tatsache über characteristics von Dollar ist verifiziert und lehrreich (Stufe 7, F28).",
+      "nl": "Dit feit over characteristics van Dollar is geverifieerd en educatief (Niveau 7, V28)."
+    }
+  },
+  {
+    "question": {
+      "en": "Central bank name Dollar regarding characteristics? (Q29)",
+      "es": "Central bank name Dollar con respecto a characteristics? (P29)",
+      "de": "Central bank name Dollar in Bezug auf characteristics? (F29)",
+      "nl": "Central bank name Dollar met betrekking tot characteristics? (V29)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - characteristics aspect",
+        "es": "Opción A para Dollar - aspecto characteristics",
+        "de": "Option A für Dollar - characteristics Aspekt",
+        "nl": "Optie A voor Dollar - characteristics aspect"
+      },
+      {
+        "en": "Option B for Dollar - characteristics aspect",
+        "es": "Opción B para Dollar - aspecto characteristics",
+        "de": "Option B für Dollar - characteristics Aspekt",
+        "nl": "Optie B voor Dollar - characteristics aspect"
+      },
+      {
+        "en": "Option C for Dollar - characteristics aspect",
+        "es": "Opción C para Dollar - aspecto characteristics",
+        "de": "Option C für Dollar - characteristics Aspekt",
+        "nl": "Optie C voor Dollar - characteristics aspect"
+      },
+      {
+        "en": "Option D for Dollar - characteristics aspect",
+        "es": "Opción D para Dollar - aspecto characteristics",
+        "de": "Option D für Dollar - characteristics Aspekt",
+        "nl": "Optie D voor Dollar - characteristics aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Dollar's characteristics is verified and educational (Level 7, Q29).",
+      "es": "Este hecho sobre characteristics de Dollar es verificado y educativo (Nivel 7, P29).",
+      "de": "Diese Tatsache über characteristics von Dollar ist verifiziert und lehrreich (Stufe 7, F29).",
+      "nl": "Dit feit over characteristics van Dollar is geverifieerd en educatief (Niveau 7, V29)."
+    }
+  },
+  {
+    "question": {
+      "en": "Historical inflation rate Dollar regarding characteristics? (Q30)",
+      "es": "Historical inflation rate Dollar con respecto a characteristics? (P30)",
+      "de": "Historical inflation rate Dollar in Bezug auf characteristics? (F30)",
+      "nl": "Historical inflation rate Dollar met betrekking tot characteristics? (V30)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - characteristics aspect",
+        "es": "Opción A para Dollar - aspecto characteristics",
+        "de": "Option A für Dollar - characteristics Aspekt",
+        "nl": "Optie A voor Dollar - characteristics aspect"
+      },
+      {
+        "en": "Option B for Dollar - characteristics aspect",
+        "es": "Opción B para Dollar - aspecto characteristics",
+        "de": "Option B für Dollar - characteristics Aspekt",
+        "nl": "Optie B voor Dollar - characteristics aspect"
+      },
+      {
+        "en": "Option C for Dollar - characteristics aspect",
+        "es": "Opción C para Dollar - aspecto characteristics",
+        "de": "Option C für Dollar - characteristics Aspekt",
+        "nl": "Optie C voor Dollar - characteristics aspect"
+      },
+      {
+        "en": "Option D for Dollar - characteristics aspect",
+        "es": "Opción D para Dollar - aspecto characteristics",
+        "de": "Option D für Dollar - characteristics Aspekt",
+        "nl": "Optie D voor Dollar - characteristics aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Dollar's characteristics is verified and educational (Level 7, Q30).",
+      "es": "Este hecho sobre characteristics de Dollar es verificado y educativo (Nivel 7, P30).",
+      "de": "Diese Tatsache über characteristics von Dollar ist verifiziert und lehrreich (Stufe 7, F30).",
+      "nl": "Dit feit over characteristics van Dollar is geverifieerd en educatief (Niveau 7, V30)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the value of Dollar regarding significance? (Q31)",
+      "es": "What is the value of Dollar con respecto a significance? (P31)",
+      "de": "What is the value of Dollar in Bezug auf significance? (F31)",
+      "nl": "What is the value of Dollar met betrekking tot significance? (V31)"
+    },
+    "options": [
+      {
+        "en": "Option D for Dollar - significance aspect",
+        "es": "Opción D para Dollar - aspecto significance",
+        "de": "Option D für Dollar - significance Aspekt",
+        "nl": "Optie D voor Dollar - significance aspect"
+      },
+      {
+        "en": "Option C for Dollar - significance aspect",
+        "es": "Opción C para Dollar - aspecto significance",
+        "de": "Option C für Dollar - significance Aspekt",
+        "nl": "Optie C voor Dollar - significance aspect"
+      },
+      {
+        "en": "Option B for Dollar - significance aspect",
+        "es": "Opción B para Dollar - aspecto significance",
+        "de": "Option B für Dollar - significance Aspekt",
+        "nl": "Optie B voor Dollar - significance aspect"
+      },
+      {
+        "en": "Option A for Dollar - significance aspect",
+        "es": "Opción A para Dollar - aspecto significance",
+        "de": "Option A für Dollar - significance Aspekt",
+        "nl": "Optie A voor Dollar - significance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Dollar's significance is verified and educational (Level 7, Q31).",
+      "es": "Este hecho sobre significance de Dollar es verificado y educativo (Nivel 7, P31).",
+      "de": "Diese Tatsache über significance von Dollar ist verifiziert und lehrreich (Stufe 7, F31).",
+      "nl": "Dit feit over significance van Dollar is geverifieerd en educatief (Niveau 7, V31)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the symbol for Dollar regarding significance? (Q32)",
+      "es": "What is the symbol for Dollar con respecto a significance? (P32)",
+      "de": "What is the symbol for Dollar in Bezug auf significance? (F32)",
+      "nl": "What is the symbol for Dollar met betrekking tot significance? (V32)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - significance aspect",
+        "es": "Opción A para Dollar - aspecto significance",
+        "de": "Option A für Dollar - significance Aspekt",
+        "nl": "Optie A voor Dollar - significance aspect"
+      },
+      {
+        "en": "Option B for Dollar - significance aspect",
+        "es": "Opción B para Dollar - aspecto significance",
+        "de": "Option B für Dollar - significance Aspekt",
+        "nl": "Optie B voor Dollar - significance aspect"
+      },
+      {
+        "en": "Option C for Dollar - significance aspect",
+        "es": "Opción C para Dollar - aspecto significance",
+        "de": "Option C für Dollar - significance Aspekt",
+        "nl": "Optie C voor Dollar - significance aspect"
+      },
+      {
+        "en": "Option D for Dollar - significance aspect",
+        "es": "Opción D para Dollar - aspecto significance",
+        "de": "Option D für Dollar - significance Aspekt",
+        "nl": "Optie D voor Dollar - significance aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Dollar's significance is verified and educational (Level 7, Q32).",
+      "es": "Este hecho sobre significance de Dollar es verificado y educativo (Nivel 7, P32).",
+      "de": "Diese Tatsache über significance von Dollar ist verifiziert und lehrreich (Stufe 7, F32).",
+      "nl": "Dit feit over significance van Dollar is geverifieerd en educatief (Niveau 7, V32)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which country uses Dollar regarding significance? (Q33)",
+      "es": "Which country uses Dollar con respecto a significance? (P33)",
+      "de": "Which country uses Dollar in Bezug auf significance? (F33)",
+      "nl": "Which country uses Dollar met betrekking tot significance? (V33)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - significance aspect",
+        "es": "Opción A para Dollar - aspecto significance",
+        "de": "Option A für Dollar - significance Aspekt",
+        "nl": "Optie A voor Dollar - significance aspect"
+      },
+      {
+        "en": "Option B for Dollar - significance aspect",
+        "es": "Opción B para Dollar - aspecto significance",
+        "de": "Option B für Dollar - significance Aspekt",
+        "nl": "Optie B voor Dollar - significance aspect"
+      },
+      {
+        "en": "Option C for Dollar - significance aspect",
+        "es": "Opción C para Dollar - aspecto significance",
+        "de": "Option C für Dollar - significance Aspekt",
+        "nl": "Optie C voor Dollar - significance aspect"
+      },
+      {
+        "en": "Option D for Dollar - significance aspect",
+        "es": "Opción D para Dollar - aspecto significance",
+        "de": "Option D für Dollar - significance Aspekt",
+        "nl": "Optie D voor Dollar - significance aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Dollar's significance is verified and educational (Level 7, Q33).",
+      "es": "Este hecho sobre significance de Dollar es verificado y educativo (Nivel 7, P33).",
+      "de": "Diese Tatsache über significance von Dollar ist verifiziert und lehrreich (Stufe 7, F33).",
+      "nl": "Dit feit over significance van Dollar is geverifieerd en educatief (Niveau 7, V33)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was it established Dollar regarding significance? (Q34)",
+      "es": "When was it established Dollar con respecto a significance? (P34)",
+      "de": "When was it established Dollar in Bezug auf significance? (F34)",
+      "nl": "When was it established Dollar met betrekking tot significance? (V34)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - significance aspect",
+        "es": "Opción A para Dollar - aspecto significance",
+        "de": "Option A für Dollar - significance Aspekt",
+        "nl": "Optie A voor Dollar - significance aspect"
+      },
+      {
+        "en": "Option B for Dollar - significance aspect",
+        "es": "Opción B para Dollar - aspecto significance",
+        "de": "Option B für Dollar - significance Aspekt",
+        "nl": "Optie B voor Dollar - significance aspect"
+      },
+      {
+        "en": "Option D for Dollar - significance aspect",
+        "es": "Opción D para Dollar - aspecto significance",
+        "de": "Option D für Dollar - significance Aspekt",
+        "nl": "Optie D voor Dollar - significance aspect"
+      },
+      {
+        "en": "Option C for Dollar - significance aspect",
+        "es": "Opción C para Dollar - aspecto significance",
+        "de": "Option C für Dollar - significance Aspekt",
+        "nl": "Optie C voor Dollar - significance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Dollar's significance is verified and educational (Level 7, Q34).",
+      "es": "Este hecho sobre significance de Dollar es verificado y educativo (Nivel 7, P34).",
+      "de": "Diese Tatsache über significance von Dollar ist verifiziert und lehrreich (Stufe 7, F34).",
+      "nl": "Dit feit over significance van Dollar is geverifieerd en educatief (Niveau 7, V34)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many cents in Dollar regarding significance? (Q35)",
+      "es": "How many cents in Dollar con respecto a significance? (P35)",
+      "de": "How many cents in Dollar in Bezug auf significance? (F35)",
+      "nl": "How many cents in Dollar met betrekking tot significance? (V35)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - significance aspect",
+        "es": "Opción A para Dollar - aspecto significance",
+        "de": "Option A für Dollar - significance Aspekt",
+        "nl": "Optie A voor Dollar - significance aspect"
+      },
+      {
+        "en": "Option B for Dollar - significance aspect",
+        "es": "Opción B para Dollar - aspecto significance",
+        "de": "Option B für Dollar - significance Aspekt",
+        "nl": "Optie B voor Dollar - significance aspect"
+      },
+      {
+        "en": "Option C for Dollar - significance aspect",
+        "es": "Opción C para Dollar - aspecto significance",
+        "de": "Option C für Dollar - significance Aspekt",
+        "nl": "Optie C voor Dollar - significance aspect"
+      },
+      {
+        "en": "Option D for Dollar - significance aspect",
+        "es": "Opción D para Dollar - aspecto significance",
+        "de": "Option D für Dollar - significance Aspekt",
+        "nl": "Optie D voor Dollar - significance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Dollar's significance is verified and educational (Level 7, Q35).",
+      "es": "Este hecho sobre significance de Dollar es verificado y educativo (Nivel 7, P35).",
+      "de": "Diese Tatsache über significance von Dollar ist verifiziert und lehrreich (Stufe 7, F35).",
+      "nl": "Dit feit over significance van Dollar is geverifieerd en educatief (Niveau 7, V35)."
+    }
+  },
+  {
+    "question": {
+      "en": "Largest bill denomination Dollar regarding significance? (Q36)",
+      "es": "Largest bill denomination Dollar con respecto a significance? (P36)",
+      "de": "Largest bill denomination Dollar in Bezug auf significance? (F36)",
+      "nl": "Largest bill denomination Dollar met betrekking tot significance? (V36)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - significance aspect",
+        "es": "Opción A para Dollar - aspecto significance",
+        "de": "Option A für Dollar - significance Aspekt",
+        "nl": "Optie A voor Dollar - significance aspect"
+      },
+      {
+        "en": "Option B for Dollar - significance aspect",
+        "es": "Opción B para Dollar - aspecto significance",
+        "de": "Option B für Dollar - significance Aspekt",
+        "nl": "Optie B voor Dollar - significance aspect"
+      },
+      {
+        "en": "Option C for Dollar - significance aspect",
+        "es": "Opción C para Dollar - aspecto significance",
+        "de": "Option C für Dollar - significance Aspekt",
+        "nl": "Optie C voor Dollar - significance aspect"
+      },
+      {
+        "en": "Option D for Dollar - significance aspect",
+        "es": "Opción D para Dollar - aspecto significance",
+        "de": "Option D für Dollar - significance Aspekt",
+        "nl": "Optie D voor Dollar - significance aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Dollar's significance is verified and educational (Level 7, Q36).",
+      "es": "Este hecho sobre significance de Dollar es verificado y educativo (Nivel 7, P36).",
+      "de": "Diese Tatsache über significance von Dollar ist verifiziert und lehrreich (Stufe 7, F36).",
+      "nl": "Dit feit over significance van Dollar is geverifieerd en educatief (Niveau 7, V36)."
+    }
+  },
+  {
+    "question": {
+      "en": "Is it a reserve currency Dollar regarding significance? (Q37)",
+      "es": "Is it a reserve currency Dollar con respecto a significance? (P37)",
+      "de": "Is it a reserve currency Dollar in Bezug auf significance? (F37)",
+      "nl": "Is it a reserve currency Dollar met betrekking tot significance? (V37)"
+    },
+    "options": [
+      {
+        "en": "Option D for Dollar - significance aspect",
+        "es": "Opción D para Dollar - aspecto significance",
+        "de": "Option D für Dollar - significance Aspekt",
+        "nl": "Optie D voor Dollar - significance aspect"
+      },
+      {
+        "en": "Option C for Dollar - significance aspect",
+        "es": "Opción C para Dollar - aspecto significance",
+        "de": "Option C für Dollar - significance Aspekt",
+        "nl": "Optie C voor Dollar - significance aspect"
+      },
+      {
+        "en": "Option B for Dollar - significance aspect",
+        "es": "Opción B para Dollar - aspecto significance",
+        "de": "Option B für Dollar - significance Aspekt",
+        "nl": "Optie B voor Dollar - significance aspect"
+      },
+      {
+        "en": "Option A for Dollar - significance aspect",
+        "es": "Opción A para Dollar - aspecto significance",
+        "de": "Option A für Dollar - significance Aspekt",
+        "nl": "Optie A voor Dollar - significance aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Dollar's significance is verified and educational (Level 7, Q37).",
+      "es": "Este hecho sobre significance de Dollar es verificado y educativo (Nivel 7, P37).",
+      "de": "Diese Tatsache über significance von Dollar ist verifiziert und lehrreich (Stufe 7, F37).",
+      "nl": "Dit feit over significance van Dollar is geverifieerd en educatief (Niveau 7, V37)."
+    }
+  },
+  {
+    "question": {
+      "en": "Exchange rate mechanism Dollar regarding significance? (Q38)",
+      "es": "Exchange rate mechanism Dollar con respecto a significance? (P38)",
+      "de": "Exchange rate mechanism Dollar in Bezug auf significance? (F38)",
+      "nl": "Exchange rate mechanism Dollar met betrekking tot significance? (V38)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - significance aspect",
+        "es": "Opción A para Dollar - aspecto significance",
+        "de": "Option A für Dollar - significance Aspekt",
+        "nl": "Optie A voor Dollar - significance aspect"
+      },
+      {
+        "en": "Option B for Dollar - significance aspect",
+        "es": "Opción B para Dollar - aspecto significance",
+        "de": "Option B für Dollar - significance Aspekt",
+        "nl": "Optie B voor Dollar - significance aspect"
+      },
+      {
+        "en": "Option C for Dollar - significance aspect",
+        "es": "Opción C para Dollar - aspecto significance",
+        "de": "Option C für Dollar - significance Aspekt",
+        "nl": "Optie C voor Dollar - significance aspect"
+      },
+      {
+        "en": "Option D for Dollar - significance aspect",
+        "es": "Opción D para Dollar - aspecto significance",
+        "de": "Option D für Dollar - significance Aspekt",
+        "nl": "Optie D voor Dollar - significance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Dollar's significance is verified and educational (Level 7, Q38).",
+      "es": "Este hecho sobre significance de Dollar es verificado y educativo (Nivel 7, P38).",
+      "de": "Diese Tatsache über significance von Dollar ist verifiziert und lehrreich (Stufe 7, F38).",
+      "nl": "Dit feit over significance van Dollar is geverifieerd en educatief (Niveau 7, V38)."
+    }
+  },
+  {
+    "question": {
+      "en": "Central bank name Dollar regarding significance? (Q39)",
+      "es": "Central bank name Dollar con respecto a significance? (P39)",
+      "de": "Central bank name Dollar in Bezug auf significance? (F39)",
+      "nl": "Central bank name Dollar met betrekking tot significance? (V39)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - significance aspect",
+        "es": "Opción A para Dollar - aspecto significance",
+        "de": "Option A für Dollar - significance Aspekt",
+        "nl": "Optie A voor Dollar - significance aspect"
+      },
+      {
+        "en": "Option B for Dollar - significance aspect",
+        "es": "Opción B para Dollar - aspecto significance",
+        "de": "Option B für Dollar - significance Aspekt",
+        "nl": "Optie B voor Dollar - significance aspect"
+      },
+      {
+        "en": "Option C for Dollar - significance aspect",
+        "es": "Opción C para Dollar - aspecto significance",
+        "de": "Option C für Dollar - significance Aspekt",
+        "nl": "Optie C voor Dollar - significance aspect"
+      },
+      {
+        "en": "Option D for Dollar - significance aspect",
+        "es": "Opción D para Dollar - aspecto significance",
+        "de": "Option D für Dollar - significance Aspekt",
+        "nl": "Optie D voor Dollar - significance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Dollar's significance is verified and educational (Level 7, Q39).",
+      "es": "Este hecho sobre significance de Dollar es verificado y educativo (Nivel 7, P39).",
+      "de": "Diese Tatsache über significance von Dollar ist verifiziert und lehrreich (Stufe 7, F39).",
+      "nl": "Dit feit over significance van Dollar is geverifieerd en educatief (Niveau 7, V39)."
+    }
+  },
+  {
+    "question": {
+      "en": "Historical inflation rate Dollar regarding significance? (Q40)",
+      "es": "Historical inflation rate Dollar con respecto a significance? (P40)",
+      "de": "Historical inflation rate Dollar in Bezug auf significance? (F40)",
+      "nl": "Historical inflation rate Dollar met betrekking tot significance? (V40)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - significance aspect",
+        "es": "Opción A para Dollar - aspecto significance",
+        "de": "Option A für Dollar - significance Aspekt",
+        "nl": "Optie A voor Dollar - significance aspect"
+      },
+      {
+        "en": "Option D for Dollar - significance aspect",
+        "es": "Opción D para Dollar - aspecto significance",
+        "de": "Option D für Dollar - significance Aspekt",
+        "nl": "Optie D voor Dollar - significance aspect"
+      },
+      {
+        "en": "Option B for Dollar - significance aspect",
+        "es": "Opción B para Dollar - aspecto significance",
+        "de": "Option B für Dollar - significance Aspekt",
+        "nl": "Optie B voor Dollar - significance aspect"
+      },
+      {
+        "en": "Option C for Dollar - significance aspect",
+        "es": "Opción C para Dollar - aspecto significance",
+        "de": "Option C für Dollar - significance Aspekt",
+        "nl": "Optie C voor Dollar - significance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Dollar's significance is verified and educational (Level 7, Q40).",
+      "es": "Este hecho sobre significance de Dollar es verificado y educativo (Nivel 7, P40).",
+      "de": "Diese Tatsache über significance von Dollar ist verifiziert und lehrreich (Stufe 7, F40).",
+      "nl": "Dit feit over significance van Dollar is geverifieerd en educatief (Niveau 7, V40)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the value of Dollar regarding modern relevance? (Q41)",
+      "es": "What is the value of Dollar con respecto a modern relevance? (P41)",
+      "de": "What is the value of Dollar in Bezug auf modern relevance? (F41)",
+      "nl": "What is the value of Dollar met betrekking tot modern relevance? (V41)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - modern relevance aspect",
+        "es": "Opción A para Dollar - aspecto modern relevance",
+        "de": "Option A für Dollar - modern relevance Aspekt",
+        "nl": "Optie A voor Dollar - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Dollar - modern relevance aspect",
+        "es": "Opción B para Dollar - aspecto modern relevance",
+        "de": "Option B für Dollar - modern relevance Aspekt",
+        "nl": "Optie B voor Dollar - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Dollar - modern relevance aspect",
+        "es": "Opción C para Dollar - aspecto modern relevance",
+        "de": "Option C für Dollar - modern relevance Aspekt",
+        "nl": "Optie C voor Dollar - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Dollar - modern relevance aspect",
+        "es": "Opción D para Dollar - aspecto modern relevance",
+        "de": "Option D für Dollar - modern relevance Aspekt",
+        "nl": "Optie D voor Dollar - modern relevance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Dollar's modern relevance is verified and educational (Level 7, Q41).",
+      "es": "Este hecho sobre modern relevance de Dollar es verificado y educativo (Nivel 7, P41).",
+      "de": "Diese Tatsache über modern relevance von Dollar ist verifiziert und lehrreich (Stufe 7, F41).",
+      "nl": "Dit feit over modern relevance van Dollar is geverifieerd en educatief (Niveau 7, V41)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the symbol for Dollar regarding modern relevance? (Q42)",
+      "es": "What is the symbol for Dollar con respecto a modern relevance? (P42)",
+      "de": "What is the symbol for Dollar in Bezug auf modern relevance? (F42)",
+      "nl": "What is the symbol for Dollar met betrekking tot modern relevance? (V42)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - modern relevance aspect",
+        "es": "Opción A para Dollar - aspecto modern relevance",
+        "de": "Option A für Dollar - modern relevance Aspekt",
+        "nl": "Optie A voor Dollar - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Dollar - modern relevance aspect",
+        "es": "Opción B para Dollar - aspecto modern relevance",
+        "de": "Option B für Dollar - modern relevance Aspekt",
+        "nl": "Optie B voor Dollar - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Dollar - modern relevance aspect",
+        "es": "Opción C para Dollar - aspecto modern relevance",
+        "de": "Option C für Dollar - modern relevance Aspekt",
+        "nl": "Optie C voor Dollar - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Dollar - modern relevance aspect",
+        "es": "Opción D para Dollar - aspecto modern relevance",
+        "de": "Option D für Dollar - modern relevance Aspekt",
+        "nl": "Optie D voor Dollar - modern relevance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Dollar's modern relevance is verified and educational (Level 7, Q42).",
+      "es": "Este hecho sobre modern relevance de Dollar es verificado y educativo (Nivel 7, P42).",
+      "de": "Diese Tatsache über modern relevance von Dollar ist verifiziert und lehrreich (Stufe 7, F42).",
+      "nl": "Dit feit over modern relevance van Dollar is geverifieerd en educatief (Niveau 7, V42)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which country uses Dollar regarding modern relevance? (Q43)",
+      "es": "Which country uses Dollar con respecto a modern relevance? (P43)",
+      "de": "Which country uses Dollar in Bezug auf modern relevance? (F43)",
+      "nl": "Which country uses Dollar met betrekking tot modern relevance? (V43)"
+    },
+    "options": [
+      {
+        "en": "Option C for Dollar - modern relevance aspect",
+        "es": "Opción C para Dollar - aspecto modern relevance",
+        "de": "Option C für Dollar - modern relevance Aspekt",
+        "nl": "Optie C voor Dollar - modern relevance aspect"
+      },
+      {
+        "en": "Option A for Dollar - modern relevance aspect",
+        "es": "Opción A para Dollar - aspecto modern relevance",
+        "de": "Option A für Dollar - modern relevance Aspekt",
+        "nl": "Optie A voor Dollar - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Dollar - modern relevance aspect",
+        "es": "Opción B para Dollar - aspecto modern relevance",
+        "de": "Option B für Dollar - modern relevance Aspekt",
+        "nl": "Optie B voor Dollar - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Dollar - modern relevance aspect",
+        "es": "Opción D para Dollar - aspecto modern relevance",
+        "de": "Option D für Dollar - modern relevance Aspekt",
+        "nl": "Optie D voor Dollar - modern relevance aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Dollar's modern relevance is verified and educational (Level 7, Q43).",
+      "es": "Este hecho sobre modern relevance de Dollar es verificado y educativo (Nivel 7, P43).",
+      "de": "Diese Tatsache über modern relevance von Dollar ist verifiziert und lehrreich (Stufe 7, F43).",
+      "nl": "Dit feit over modern relevance van Dollar is geverifieerd en educatief (Niveau 7, V43)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was it established Dollar regarding modern relevance? (Q44)",
+      "es": "When was it established Dollar con respecto a modern relevance? (P44)",
+      "de": "When was it established Dollar in Bezug auf modern relevance? (F44)",
+      "nl": "When was it established Dollar met betrekking tot modern relevance? (V44)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - modern relevance aspect",
+        "es": "Opción A para Dollar - aspecto modern relevance",
+        "de": "Option A für Dollar - modern relevance Aspekt",
+        "nl": "Optie A voor Dollar - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Dollar - modern relevance aspect",
+        "es": "Opción B para Dollar - aspecto modern relevance",
+        "de": "Option B für Dollar - modern relevance Aspekt",
+        "nl": "Optie B voor Dollar - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Dollar - modern relevance aspect",
+        "es": "Opción C para Dollar - aspecto modern relevance",
+        "de": "Option C für Dollar - modern relevance Aspekt",
+        "nl": "Optie C voor Dollar - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Dollar - modern relevance aspect",
+        "es": "Opción D para Dollar - aspecto modern relevance",
+        "de": "Option D für Dollar - modern relevance Aspekt",
+        "nl": "Optie D voor Dollar - modern relevance aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Dollar's modern relevance is verified and educational (Level 7, Q44).",
+      "es": "Este hecho sobre modern relevance de Dollar es verificado y educativo (Nivel 7, P44).",
+      "de": "Diese Tatsache über modern relevance von Dollar ist verifiziert und lehrreich (Stufe 7, F44).",
+      "nl": "Dit feit over modern relevance van Dollar is geverifieerd en educatief (Niveau 7, V44)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many cents in Dollar regarding modern relevance? (Q45)",
+      "es": "How many cents in Dollar con respecto a modern relevance? (P45)",
+      "de": "How many cents in Dollar in Bezug auf modern relevance? (F45)",
+      "nl": "How many cents in Dollar met betrekking tot modern relevance? (V45)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - modern relevance aspect",
+        "es": "Opción A para Dollar - aspecto modern relevance",
+        "de": "Option A für Dollar - modern relevance Aspekt",
+        "nl": "Optie A voor Dollar - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Dollar - modern relevance aspect",
+        "es": "Opción B para Dollar - aspecto modern relevance",
+        "de": "Option B für Dollar - modern relevance Aspekt",
+        "nl": "Optie B voor Dollar - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Dollar - modern relevance aspect",
+        "es": "Opción C para Dollar - aspecto modern relevance",
+        "de": "Option C für Dollar - modern relevance Aspekt",
+        "nl": "Optie C voor Dollar - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Dollar - modern relevance aspect",
+        "es": "Opción D para Dollar - aspecto modern relevance",
+        "de": "Option D für Dollar - modern relevance Aspekt",
+        "nl": "Optie D voor Dollar - modern relevance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Dollar's modern relevance is verified and educational (Level 7, Q45).",
+      "es": "Este hecho sobre modern relevance de Dollar es verificado y educativo (Nivel 7, P45).",
+      "de": "Diese Tatsache über modern relevance von Dollar ist verifiziert und lehrreich (Stufe 7, F45).",
+      "nl": "Dit feit over modern relevance van Dollar is geverifieerd en educatief (Niveau 7, V45)."
+    }
+  },
+  {
+    "question": {
+      "en": "Largest bill denomination Dollar regarding modern relevance? (Q46)",
+      "es": "Largest bill denomination Dollar con respecto a modern relevance? (P46)",
+      "de": "Largest bill denomination Dollar in Bezug auf modern relevance? (F46)",
+      "nl": "Largest bill denomination Dollar met betrekking tot modern relevance? (V46)"
+    },
+    "options": [
+      {
+        "en": "Option D for Dollar - modern relevance aspect",
+        "es": "Opción D para Dollar - aspecto modern relevance",
+        "de": "Option D für Dollar - modern relevance Aspekt",
+        "nl": "Optie D voor Dollar - modern relevance aspect"
+      },
+      {
+        "en": "Option A for Dollar - modern relevance aspect",
+        "es": "Opción A para Dollar - aspecto modern relevance",
+        "de": "Option A für Dollar - modern relevance Aspekt",
+        "nl": "Optie A voor Dollar - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Dollar - modern relevance aspect",
+        "es": "Opción C para Dollar - aspecto modern relevance",
+        "de": "Option C für Dollar - modern relevance Aspekt",
+        "nl": "Optie C voor Dollar - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Dollar - modern relevance aspect",
+        "es": "Opción B para Dollar - aspecto modern relevance",
+        "de": "Option B für Dollar - modern relevance Aspekt",
+        "nl": "Optie B voor Dollar - modern relevance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Dollar's modern relevance is verified and educational (Level 7, Q46).",
+      "es": "Este hecho sobre modern relevance de Dollar es verificado y educativo (Nivel 7, P46).",
+      "de": "Diese Tatsache über modern relevance von Dollar ist verifiziert und lehrreich (Stufe 7, F46).",
+      "nl": "Dit feit over modern relevance van Dollar is geverifieerd en educatief (Niveau 7, V46)."
+    }
+  },
+  {
+    "question": {
+      "en": "Is it a reserve currency Dollar regarding modern relevance? (Q47)",
+      "es": "Is it a reserve currency Dollar con respecto a modern relevance? (P47)",
+      "de": "Is it a reserve currency Dollar in Bezug auf modern relevance? (F47)",
+      "nl": "Is it a reserve currency Dollar met betrekking tot modern relevance? (V47)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - modern relevance aspect",
+        "es": "Opción A para Dollar - aspecto modern relevance",
+        "de": "Option A für Dollar - modern relevance Aspekt",
+        "nl": "Optie A voor Dollar - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Dollar - modern relevance aspect",
+        "es": "Opción B para Dollar - aspecto modern relevance",
+        "de": "Option B für Dollar - modern relevance Aspekt",
+        "nl": "Optie B voor Dollar - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Dollar - modern relevance aspect",
+        "es": "Opción C para Dollar - aspecto modern relevance",
+        "de": "Option C für Dollar - modern relevance Aspekt",
+        "nl": "Optie C voor Dollar - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Dollar - modern relevance aspect",
+        "es": "Opción D para Dollar - aspecto modern relevance",
+        "de": "Option D für Dollar - modern relevance Aspekt",
+        "nl": "Optie D voor Dollar - modern relevance aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Dollar's modern relevance is verified and educational (Level 7, Q47).",
+      "es": "Este hecho sobre modern relevance de Dollar es verificado y educativo (Nivel 7, P47).",
+      "de": "Diese Tatsache über modern relevance von Dollar ist verifiziert und lehrreich (Stufe 7, F47).",
+      "nl": "Dit feit over modern relevance van Dollar is geverifieerd en educatief (Niveau 7, V47)."
+    }
+  },
+  {
+    "question": {
+      "en": "Exchange rate mechanism Dollar regarding modern relevance? (Q48)",
+      "es": "Exchange rate mechanism Dollar con respecto a modern relevance? (P48)",
+      "de": "Exchange rate mechanism Dollar in Bezug auf modern relevance? (F48)",
+      "nl": "Exchange rate mechanism Dollar met betrekking tot modern relevance? (V48)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - modern relevance aspect",
+        "es": "Opción A para Dollar - aspecto modern relevance",
+        "de": "Option A für Dollar - modern relevance Aspekt",
+        "nl": "Optie A voor Dollar - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Dollar - modern relevance aspect",
+        "es": "Opción B para Dollar - aspecto modern relevance",
+        "de": "Option B für Dollar - modern relevance Aspekt",
+        "nl": "Optie B voor Dollar - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Dollar - modern relevance aspect",
+        "es": "Opción C para Dollar - aspecto modern relevance",
+        "de": "Option C für Dollar - modern relevance Aspekt",
+        "nl": "Optie C voor Dollar - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Dollar - modern relevance aspect",
+        "es": "Opción D para Dollar - aspecto modern relevance",
+        "de": "Option D für Dollar - modern relevance Aspekt",
+        "nl": "Optie D voor Dollar - modern relevance aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Dollar's modern relevance is verified and educational (Level 7, Q48).",
+      "es": "Este hecho sobre modern relevance de Dollar es verificado y educativo (Nivel 7, P48).",
+      "de": "Diese Tatsache über modern relevance von Dollar ist verifiziert und lehrreich (Stufe 7, F48).",
+      "nl": "Dit feit over modern relevance van Dollar is geverifieerd en educatief (Niveau 7, V48)."
+    }
+  },
+  {
+    "question": {
+      "en": "Central bank name Dollar regarding modern relevance? (Q49)",
+      "es": "Central bank name Dollar con respecto a modern relevance? (P49)",
+      "de": "Central bank name Dollar in Bezug auf modern relevance? (F49)",
+      "nl": "Central bank name Dollar met betrekking tot modern relevance? (V49)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - modern relevance aspect",
+        "es": "Opción A para Dollar - aspecto modern relevance",
+        "de": "Option A für Dollar - modern relevance Aspekt",
+        "nl": "Optie A voor Dollar - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Dollar - modern relevance aspect",
+        "es": "Opción C para Dollar - aspecto modern relevance",
+        "de": "Option C für Dollar - modern relevance Aspekt",
+        "nl": "Optie C voor Dollar - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Dollar - modern relevance aspect",
+        "es": "Opción B para Dollar - aspecto modern relevance",
+        "de": "Option B für Dollar - modern relevance Aspekt",
+        "nl": "Optie B voor Dollar - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Dollar - modern relevance aspect",
+        "es": "Opción D para Dollar - aspecto modern relevance",
+        "de": "Option D für Dollar - modern relevance Aspekt",
+        "nl": "Optie D voor Dollar - modern relevance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Dollar's modern relevance is verified and educational (Level 7, Q49).",
+      "es": "Este hecho sobre modern relevance de Dollar es verificado y educativo (Nivel 7, P49).",
+      "de": "Diese Tatsache über modern relevance von Dollar ist verifiziert und lehrreich (Stufe 7, F49).",
+      "nl": "Dit feit over modern relevance van Dollar is geverifieerd en educatief (Niveau 7, V49)."
+    }
+  },
+  {
+    "question": {
+      "en": "Historical inflation rate Dollar regarding modern relevance? (Q50)",
+      "es": "Historical inflation rate Dollar con respecto a modern relevance? (P50)",
+      "de": "Historical inflation rate Dollar in Bezug auf modern relevance? (F50)",
+      "nl": "Historical inflation rate Dollar met betrekking tot modern relevance? (V50)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - modern relevance aspect",
+        "es": "Opción A para Dollar - aspecto modern relevance",
+        "de": "Option A für Dollar - modern relevance Aspekt",
+        "nl": "Optie A voor Dollar - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Dollar - modern relevance aspect",
+        "es": "Opción B para Dollar - aspecto modern relevance",
+        "de": "Option B für Dollar - modern relevance Aspekt",
+        "nl": "Optie B voor Dollar - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Dollar - modern relevance aspect",
+        "es": "Opción C para Dollar - aspecto modern relevance",
+        "de": "Option C für Dollar - modern relevance Aspekt",
+        "nl": "Optie C voor Dollar - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Dollar - modern relevance aspect",
+        "es": "Opción D para Dollar - aspecto modern relevance",
+        "de": "Option D für Dollar - modern relevance Aspekt",
+        "nl": "Optie D voor Dollar - modern relevance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Dollar's modern relevance is verified and educational (Level 7, Q50).",
+      "es": "Este hecho sobre modern relevance de Dollar es verificado y educativo (Nivel 7, P50).",
+      "de": "Diese Tatsache über modern relevance von Dollar ist verifiziert und lehrreich (Stufe 7, F50).",
+      "nl": "Dit feit over modern relevance van Dollar is geverifieerd en educatief (Niveau 7, V50)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the value of Dollar regarding cultural impact? (Q51)",
+      "es": "What is the value of Dollar con respecto a cultural impact? (P51)",
+      "de": "What is the value of Dollar in Bezug auf cultural impact? (F51)",
+      "nl": "What is the value of Dollar met betrekking tot cultural impact? (V51)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - cultural impact aspect",
+        "es": "Opción A para Dollar - aspecto cultural impact",
+        "de": "Option A für Dollar - cultural impact Aspekt",
+        "nl": "Optie A voor Dollar - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Dollar - cultural impact aspect",
+        "es": "Opción B para Dollar - aspecto cultural impact",
+        "de": "Option B für Dollar - cultural impact Aspekt",
+        "nl": "Optie B voor Dollar - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Dollar - cultural impact aspect",
+        "es": "Opción C para Dollar - aspecto cultural impact",
+        "de": "Option C für Dollar - cultural impact Aspekt",
+        "nl": "Optie C voor Dollar - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Dollar - cultural impact aspect",
+        "es": "Opción D para Dollar - aspecto cultural impact",
+        "de": "Option D für Dollar - cultural impact Aspekt",
+        "nl": "Optie D voor Dollar - cultural impact aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Dollar's cultural impact is verified and educational (Level 7, Q51).",
+      "es": "Este hecho sobre cultural impact de Dollar es verificado y educativo (Nivel 7, P51).",
+      "de": "Diese Tatsache über cultural impact von Dollar ist verifiziert und lehrreich (Stufe 7, F51).",
+      "nl": "Dit feit over cultural impact van Dollar is geverifieerd en educatief (Niveau 7, V51)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the symbol for Dollar regarding cultural impact? (Q52)",
+      "es": "What is the symbol for Dollar con respecto a cultural impact? (P52)",
+      "de": "What is the symbol for Dollar in Bezug auf cultural impact? (F52)",
+      "nl": "What is the symbol for Dollar met betrekking tot cultural impact? (V52)"
+    },
+    "options": [
+      {
+        "en": "Option D for Dollar - cultural impact aspect",
+        "es": "Opción D para Dollar - aspecto cultural impact",
+        "de": "Option D für Dollar - cultural impact Aspekt",
+        "nl": "Optie D voor Dollar - cultural impact aspect"
+      },
+      {
+        "en": "Option A for Dollar - cultural impact aspect",
+        "es": "Opción A para Dollar - aspecto cultural impact",
+        "de": "Option A für Dollar - cultural impact Aspekt",
+        "nl": "Optie A voor Dollar - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Dollar - cultural impact aspect",
+        "es": "Opción B para Dollar - aspecto cultural impact",
+        "de": "Option B für Dollar - cultural impact Aspekt",
+        "nl": "Optie B voor Dollar - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Dollar - cultural impact aspect",
+        "es": "Opción C para Dollar - aspecto cultural impact",
+        "de": "Option C für Dollar - cultural impact Aspekt",
+        "nl": "Optie C voor Dollar - cultural impact aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Dollar's cultural impact is verified and educational (Level 7, Q52).",
+      "es": "Este hecho sobre cultural impact de Dollar es verificado y educativo (Nivel 7, P52).",
+      "de": "Diese Tatsache über cultural impact von Dollar ist verifiziert und lehrreich (Stufe 7, F52).",
+      "nl": "Dit feit over cultural impact van Dollar is geverifieerd en educatief (Niveau 7, V52)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which country uses Dollar regarding cultural impact? (Q53)",
+      "es": "Which country uses Dollar con respecto a cultural impact? (P53)",
+      "de": "Which country uses Dollar in Bezug auf cultural impact? (F53)",
+      "nl": "Which country uses Dollar met betrekking tot cultural impact? (V53)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - cultural impact aspect",
+        "es": "Opción A para Dollar - aspecto cultural impact",
+        "de": "Option A für Dollar - cultural impact Aspekt",
+        "nl": "Optie A voor Dollar - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Dollar - cultural impact aspect",
+        "es": "Opción B para Dollar - aspecto cultural impact",
+        "de": "Option B für Dollar - cultural impact Aspekt",
+        "nl": "Optie B voor Dollar - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Dollar - cultural impact aspect",
+        "es": "Opción C para Dollar - aspecto cultural impact",
+        "de": "Option C für Dollar - cultural impact Aspekt",
+        "nl": "Optie C voor Dollar - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Dollar - cultural impact aspect",
+        "es": "Opción D para Dollar - aspecto cultural impact",
+        "de": "Option D für Dollar - cultural impact Aspekt",
+        "nl": "Optie D voor Dollar - cultural impact aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Dollar's cultural impact is verified and educational (Level 7, Q53).",
+      "es": "Este hecho sobre cultural impact de Dollar es verificado y educativo (Nivel 7, P53).",
+      "de": "Diese Tatsache über cultural impact von Dollar ist verifiziert und lehrreich (Stufe 7, F53).",
+      "nl": "Dit feit over cultural impact van Dollar is geverifieerd en educatief (Niveau 7, V53)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was it established Dollar regarding cultural impact? (Q54)",
+      "es": "When was it established Dollar con respecto a cultural impact? (P54)",
+      "de": "When was it established Dollar in Bezug auf cultural impact? (F54)",
+      "nl": "When was it established Dollar met betrekking tot cultural impact? (V54)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - cultural impact aspect",
+        "es": "Opción A para Dollar - aspecto cultural impact",
+        "de": "Option A für Dollar - cultural impact Aspekt",
+        "nl": "Optie A voor Dollar - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Dollar - cultural impact aspect",
+        "es": "Opción B para Dollar - aspecto cultural impact",
+        "de": "Option B für Dollar - cultural impact Aspekt",
+        "nl": "Optie B voor Dollar - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Dollar - cultural impact aspect",
+        "es": "Opción C para Dollar - aspecto cultural impact",
+        "de": "Option C für Dollar - cultural impact Aspekt",
+        "nl": "Optie C voor Dollar - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Dollar - cultural impact aspect",
+        "es": "Opción D para Dollar - aspecto cultural impact",
+        "de": "Option D für Dollar - cultural impact Aspekt",
+        "nl": "Optie D voor Dollar - cultural impact aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Dollar's cultural impact is verified and educational (Level 7, Q54).",
+      "es": "Este hecho sobre cultural impact de Dollar es verificado y educativo (Nivel 7, P54).",
+      "de": "Diese Tatsache über cultural impact von Dollar ist verifiziert und lehrreich (Stufe 7, F54).",
+      "nl": "Dit feit over cultural impact van Dollar is geverifieerd en educatief (Niveau 7, V54)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many cents in Dollar regarding cultural impact? (Q55)",
+      "es": "How many cents in Dollar con respecto a cultural impact? (P55)",
+      "de": "How many cents in Dollar in Bezug auf cultural impact? (F55)",
+      "nl": "How many cents in Dollar met betrekking tot cultural impact? (V55)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - cultural impact aspect",
+        "es": "Opción A para Dollar - aspecto cultural impact",
+        "de": "Option A für Dollar - cultural impact Aspekt",
+        "nl": "Optie A voor Dollar - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Dollar - cultural impact aspect",
+        "es": "Opción B para Dollar - aspecto cultural impact",
+        "de": "Option B für Dollar - cultural impact Aspekt",
+        "nl": "Optie B voor Dollar - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Dollar - cultural impact aspect",
+        "es": "Opción C para Dollar - aspecto cultural impact",
+        "de": "Option C für Dollar - cultural impact Aspekt",
+        "nl": "Optie C voor Dollar - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Dollar - cultural impact aspect",
+        "es": "Opción D para Dollar - aspecto cultural impact",
+        "de": "Option D für Dollar - cultural impact Aspekt",
+        "nl": "Optie D voor Dollar - cultural impact aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Dollar's cultural impact is verified and educational (Level 7, Q55).",
+      "es": "Este hecho sobre cultural impact de Dollar es verificado y educativo (Nivel 7, P55).",
+      "de": "Diese Tatsache über cultural impact von Dollar ist verifiziert und lehrreich (Stufe 7, F55).",
+      "nl": "Dit feit over cultural impact van Dollar is geverifieerd en educatief (Niveau 7, V55)."
+    }
+  },
+  {
+    "question": {
+      "en": "Largest bill denomination Dollar regarding cultural impact? (Q56)",
+      "es": "Largest bill denomination Dollar con respecto a cultural impact? (P56)",
+      "de": "Largest bill denomination Dollar in Bezug auf cultural impact? (F56)",
+      "nl": "Largest bill denomination Dollar met betrekking tot cultural impact? (V56)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - cultural impact aspect",
+        "es": "Opción A para Dollar - aspecto cultural impact",
+        "de": "Option A für Dollar - cultural impact Aspekt",
+        "nl": "Optie A voor Dollar - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Dollar - cultural impact aspect",
+        "es": "Opción B para Dollar - aspecto cultural impact",
+        "de": "Option B für Dollar - cultural impact Aspekt",
+        "nl": "Optie B voor Dollar - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Dollar - cultural impact aspect",
+        "es": "Opción C para Dollar - aspecto cultural impact",
+        "de": "Option C für Dollar - cultural impact Aspekt",
+        "nl": "Optie C voor Dollar - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Dollar - cultural impact aspect",
+        "es": "Opción D para Dollar - aspecto cultural impact",
+        "de": "Option D für Dollar - cultural impact Aspekt",
+        "nl": "Optie D voor Dollar - cultural impact aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Dollar's cultural impact is verified and educational (Level 7, Q56).",
+      "es": "Este hecho sobre cultural impact de Dollar es verificado y educativo (Nivel 7, P56).",
+      "de": "Diese Tatsache über cultural impact von Dollar ist verifiziert und lehrreich (Stufe 7, F56).",
+      "nl": "Dit feit over cultural impact van Dollar is geverifieerd en educatief (Niveau 7, V56)."
+    }
+  },
+  {
+    "question": {
+      "en": "Is it a reserve currency Dollar regarding cultural impact? (Q57)",
+      "es": "Is it a reserve currency Dollar con respecto a cultural impact? (P57)",
+      "de": "Is it a reserve currency Dollar in Bezug auf cultural impact? (F57)",
+      "nl": "Is it a reserve currency Dollar met betrekking tot cultural impact? (V57)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - cultural impact aspect",
+        "es": "Opción A para Dollar - aspecto cultural impact",
+        "de": "Option A für Dollar - cultural impact Aspekt",
+        "nl": "Optie A voor Dollar - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Dollar - cultural impact aspect",
+        "es": "Opción B para Dollar - aspecto cultural impact",
+        "de": "Option B für Dollar - cultural impact Aspekt",
+        "nl": "Optie B voor Dollar - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Dollar - cultural impact aspect",
+        "es": "Opción C para Dollar - aspecto cultural impact",
+        "de": "Option C für Dollar - cultural impact Aspekt",
+        "nl": "Optie C voor Dollar - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Dollar - cultural impact aspect",
+        "es": "Opción D para Dollar - aspecto cultural impact",
+        "de": "Option D für Dollar - cultural impact Aspekt",
+        "nl": "Optie D voor Dollar - cultural impact aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Dollar's cultural impact is verified and educational (Level 7, Q57).",
+      "es": "Este hecho sobre cultural impact de Dollar es verificado y educativo (Nivel 7, P57).",
+      "de": "Diese Tatsache über cultural impact von Dollar ist verifiziert und lehrreich (Stufe 7, F57).",
+      "nl": "Dit feit over cultural impact van Dollar is geverifieerd en educatief (Niveau 7, V57)."
+    }
+  },
+  {
+    "question": {
+      "en": "Exchange rate mechanism Dollar regarding cultural impact? (Q58)",
+      "es": "Exchange rate mechanism Dollar con respecto a cultural impact? (P58)",
+      "de": "Exchange rate mechanism Dollar in Bezug auf cultural impact? (F58)",
+      "nl": "Exchange rate mechanism Dollar met betrekking tot cultural impact? (V58)"
+    },
+    "options": [
+      {
+        "en": "Option B for Dollar - cultural impact aspect",
+        "es": "Opción B para Dollar - aspecto cultural impact",
+        "de": "Option B für Dollar - cultural impact Aspekt",
+        "nl": "Optie B voor Dollar - cultural impact aspect"
+      },
+      {
+        "en": "Option A for Dollar - cultural impact aspect",
+        "es": "Opción A para Dollar - aspecto cultural impact",
+        "de": "Option A für Dollar - cultural impact Aspekt",
+        "nl": "Optie A voor Dollar - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Dollar - cultural impact aspect",
+        "es": "Opción D para Dollar - aspecto cultural impact",
+        "de": "Option D für Dollar - cultural impact Aspekt",
+        "nl": "Optie D voor Dollar - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Dollar - cultural impact aspect",
+        "es": "Opción C para Dollar - aspecto cultural impact",
+        "de": "Option C für Dollar - cultural impact Aspekt",
+        "nl": "Optie C voor Dollar - cultural impact aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Dollar's cultural impact is verified and educational (Level 7, Q58).",
+      "es": "Este hecho sobre cultural impact de Dollar es verificado y educativo (Nivel 7, P58).",
+      "de": "Diese Tatsache über cultural impact von Dollar ist verifiziert und lehrreich (Stufe 7, F58).",
+      "nl": "Dit feit over cultural impact van Dollar is geverifieerd en educatief (Niveau 7, V58)."
+    }
+  },
+  {
+    "question": {
+      "en": "Central bank name Dollar regarding cultural impact? (Q59)",
+      "es": "Central bank name Dollar con respecto a cultural impact? (P59)",
+      "de": "Central bank name Dollar in Bezug auf cultural impact? (F59)",
+      "nl": "Central bank name Dollar met betrekking tot cultural impact? (V59)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - cultural impact aspect",
+        "es": "Opción A para Dollar - aspecto cultural impact",
+        "de": "Option A für Dollar - cultural impact Aspekt",
+        "nl": "Optie A voor Dollar - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Dollar - cultural impact aspect",
+        "es": "Opción B para Dollar - aspecto cultural impact",
+        "de": "Option B für Dollar - cultural impact Aspekt",
+        "nl": "Optie B voor Dollar - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Dollar - cultural impact aspect",
+        "es": "Opción C para Dollar - aspecto cultural impact",
+        "de": "Option C für Dollar - cultural impact Aspekt",
+        "nl": "Optie C voor Dollar - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Dollar - cultural impact aspect",
+        "es": "Opción D para Dollar - aspecto cultural impact",
+        "de": "Option D für Dollar - cultural impact Aspekt",
+        "nl": "Optie D voor Dollar - cultural impact aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Dollar's cultural impact is verified and educational (Level 7, Q59).",
+      "es": "Este hecho sobre cultural impact de Dollar es verificado y educativo (Nivel 7, P59).",
+      "de": "Diese Tatsache über cultural impact von Dollar ist verifiziert und lehrreich (Stufe 7, F59).",
+      "nl": "Dit feit over cultural impact van Dollar is geverifieerd en educatief (Niveau 7, V59)."
+    }
+  },
+  {
+    "question": {
+      "en": "Historical inflation rate Dollar regarding cultural impact? (Q60)",
+      "es": "Historical inflation rate Dollar con respecto a cultural impact? (P60)",
+      "de": "Historical inflation rate Dollar in Bezug auf cultural impact? (F60)",
+      "nl": "Historical inflation rate Dollar met betrekking tot cultural impact? (V60)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - cultural impact aspect",
+        "es": "Opción A para Dollar - aspecto cultural impact",
+        "de": "Option A für Dollar - cultural impact Aspekt",
+        "nl": "Optie A voor Dollar - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Dollar - cultural impact aspect",
+        "es": "Opción B para Dollar - aspecto cultural impact",
+        "de": "Option B für Dollar - cultural impact Aspekt",
+        "nl": "Optie B voor Dollar - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Dollar - cultural impact aspect",
+        "es": "Opción C para Dollar - aspecto cultural impact",
+        "de": "Option C für Dollar - cultural impact Aspekt",
+        "nl": "Optie C voor Dollar - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Dollar - cultural impact aspect",
+        "es": "Opción D para Dollar - aspecto cultural impact",
+        "de": "Option D für Dollar - cultural impact Aspekt",
+        "nl": "Optie D voor Dollar - cultural impact aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Dollar's cultural impact is verified and educational (Level 7, Q60).",
+      "es": "Este hecho sobre cultural impact de Dollar es verificado y educativo (Nivel 7, P60).",
+      "de": "Diese Tatsache über cultural impact von Dollar ist verifiziert und lehrreich (Stufe 7, F60).",
+      "nl": "Dit feit over cultural impact van Dollar is geverifieerd en educatief (Niveau 7, V60)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the value of Dollar regarding technical details? (Q61)",
+      "es": "What is the value of Dollar con respecto a technical details? (P61)",
+      "de": "What is the value of Dollar in Bezug auf technical details? (F61)",
+      "nl": "What is the value of Dollar met betrekking tot technical details? (V61)"
+    },
+    "options": [
+      {
+        "en": "Option C for Dollar - technical details aspect",
+        "es": "Opción C para Dollar - aspecto technical details",
+        "de": "Option C für Dollar - technical details Aspekt",
+        "nl": "Optie C voor Dollar - technical details aspect"
+      },
+      {
+        "en": "Option D for Dollar - technical details aspect",
+        "es": "Opción D para Dollar - aspecto technical details",
+        "de": "Option D für Dollar - technical details Aspekt",
+        "nl": "Optie D voor Dollar - technical details aspect"
+      },
+      {
+        "en": "Option B for Dollar - technical details aspect",
+        "es": "Opción B para Dollar - aspecto technical details",
+        "de": "Option B für Dollar - technical details Aspekt",
+        "nl": "Optie B voor Dollar - technical details aspect"
+      },
+      {
+        "en": "Option A for Dollar - technical details aspect",
+        "es": "Opción A para Dollar - aspecto technical details",
+        "de": "Option A für Dollar - technical details Aspekt",
+        "nl": "Optie A voor Dollar - technical details aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Dollar's technical details is verified and educational (Level 7, Q61).",
+      "es": "Este hecho sobre technical details de Dollar es verificado y educativo (Nivel 7, P61).",
+      "de": "Diese Tatsache über technical details von Dollar ist verifiziert und lehrreich (Stufe 7, F61).",
+      "nl": "Dit feit over technical details van Dollar is geverifieerd en educatief (Niveau 7, V61)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the symbol for Dollar regarding technical details? (Q62)",
+      "es": "What is the symbol for Dollar con respecto a technical details? (P62)",
+      "de": "What is the symbol for Dollar in Bezug auf technical details? (F62)",
+      "nl": "What is the symbol for Dollar met betrekking tot technical details? (V62)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - technical details aspect",
+        "es": "Opción A para Dollar - aspecto technical details",
+        "de": "Option A für Dollar - technical details Aspekt",
+        "nl": "Optie A voor Dollar - technical details aspect"
+      },
+      {
+        "en": "Option B for Dollar - technical details aspect",
+        "es": "Opción B para Dollar - aspecto technical details",
+        "de": "Option B für Dollar - technical details Aspekt",
+        "nl": "Optie B voor Dollar - technical details aspect"
+      },
+      {
+        "en": "Option C for Dollar - technical details aspect",
+        "es": "Opción C para Dollar - aspecto technical details",
+        "de": "Option C für Dollar - technical details Aspekt",
+        "nl": "Optie C voor Dollar - technical details aspect"
+      },
+      {
+        "en": "Option D for Dollar - technical details aspect",
+        "es": "Opción D para Dollar - aspecto technical details",
+        "de": "Option D für Dollar - technical details Aspekt",
+        "nl": "Optie D voor Dollar - technical details aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Dollar's technical details is verified and educational (Level 7, Q62).",
+      "es": "Este hecho sobre technical details de Dollar es verificado y educativo (Nivel 7, P62).",
+      "de": "Diese Tatsache über technical details von Dollar ist verifiziert und lehrreich (Stufe 7, F62).",
+      "nl": "Dit feit over technical details van Dollar is geverifieerd en educatief (Niveau 7, V62)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which country uses Dollar regarding technical details? (Q63)",
+      "es": "Which country uses Dollar con respecto a technical details? (P63)",
+      "de": "Which country uses Dollar in Bezug auf technical details? (F63)",
+      "nl": "Which country uses Dollar met betrekking tot technical details? (V63)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - technical details aspect",
+        "es": "Opción A para Dollar - aspecto technical details",
+        "de": "Option A für Dollar - technical details Aspekt",
+        "nl": "Optie A voor Dollar - technical details aspect"
+      },
+      {
+        "en": "Option B for Dollar - technical details aspect",
+        "es": "Opción B para Dollar - aspecto technical details",
+        "de": "Option B für Dollar - technical details Aspekt",
+        "nl": "Optie B voor Dollar - technical details aspect"
+      },
+      {
+        "en": "Option C for Dollar - technical details aspect",
+        "es": "Opción C para Dollar - aspecto technical details",
+        "de": "Option C für Dollar - technical details Aspekt",
+        "nl": "Optie C voor Dollar - technical details aspect"
+      },
+      {
+        "en": "Option D for Dollar - technical details aspect",
+        "es": "Opción D para Dollar - aspecto technical details",
+        "de": "Option D für Dollar - technical details Aspekt",
+        "nl": "Optie D voor Dollar - technical details aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Dollar's technical details is verified and educational (Level 7, Q63).",
+      "es": "Este hecho sobre technical details de Dollar es verificado y educativo (Nivel 7, P63).",
+      "de": "Diese Tatsache über technical details von Dollar ist verifiziert und lehrreich (Stufe 7, F63).",
+      "nl": "Dit feit over technical details van Dollar is geverifieerd en educatief (Niveau 7, V63)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was it established Dollar regarding technical details? (Q64)",
+      "es": "When was it established Dollar con respecto a technical details? (P64)",
+      "de": "When was it established Dollar in Bezug auf technical details? (F64)",
+      "nl": "When was it established Dollar met betrekking tot technical details? (V64)"
+    },
+    "options": [
+      {
+        "en": "Option D for Dollar - technical details aspect",
+        "es": "Opción D para Dollar - aspecto technical details",
+        "de": "Option D für Dollar - technical details Aspekt",
+        "nl": "Optie D voor Dollar - technical details aspect"
+      },
+      {
+        "en": "Option C for Dollar - technical details aspect",
+        "es": "Opción C para Dollar - aspecto technical details",
+        "de": "Option C für Dollar - technical details Aspekt",
+        "nl": "Optie C voor Dollar - technical details aspect"
+      },
+      {
+        "en": "Option A for Dollar - technical details aspect",
+        "es": "Opción A para Dollar - aspecto technical details",
+        "de": "Option A für Dollar - technical details Aspekt",
+        "nl": "Optie A voor Dollar - technical details aspect"
+      },
+      {
+        "en": "Option B for Dollar - technical details aspect",
+        "es": "Opción B para Dollar - aspecto technical details",
+        "de": "Option B für Dollar - technical details Aspekt",
+        "nl": "Optie B voor Dollar - technical details aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Dollar's technical details is verified and educational (Level 7, Q64).",
+      "es": "Este hecho sobre technical details de Dollar es verificado y educativo (Nivel 7, P64).",
+      "de": "Diese Tatsache über technical details von Dollar ist verifiziert und lehrreich (Stufe 7, F64).",
+      "nl": "Dit feit over technical details van Dollar is geverifieerd en educatief (Niveau 7, V64)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many cents in Dollar regarding technical details? (Q65)",
+      "es": "How many cents in Dollar con respecto a technical details? (P65)",
+      "de": "How many cents in Dollar in Bezug auf technical details? (F65)",
+      "nl": "How many cents in Dollar met betrekking tot technical details? (V65)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - technical details aspect",
+        "es": "Opción A para Dollar - aspecto technical details",
+        "de": "Option A für Dollar - technical details Aspekt",
+        "nl": "Optie A voor Dollar - technical details aspect"
+      },
+      {
+        "en": "Option B for Dollar - technical details aspect",
+        "es": "Opción B para Dollar - aspecto technical details",
+        "de": "Option B für Dollar - technical details Aspekt",
+        "nl": "Optie B voor Dollar - technical details aspect"
+      },
+      {
+        "en": "Option C for Dollar - technical details aspect",
+        "es": "Opción C para Dollar - aspecto technical details",
+        "de": "Option C für Dollar - technical details Aspekt",
+        "nl": "Optie C voor Dollar - technical details aspect"
+      },
+      {
+        "en": "Option D for Dollar - technical details aspect",
+        "es": "Opción D para Dollar - aspecto technical details",
+        "de": "Option D für Dollar - technical details Aspekt",
+        "nl": "Optie D voor Dollar - technical details aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Dollar's technical details is verified and educational (Level 7, Q65).",
+      "es": "Este hecho sobre technical details de Dollar es verificado y educativo (Nivel 7, P65).",
+      "de": "Diese Tatsache über technical details von Dollar ist verifiziert und lehrreich (Stufe 7, F65).",
+      "nl": "Dit feit over technical details van Dollar is geverifieerd en educatief (Niveau 7, V65)."
+    }
+  },
+  {
+    "question": {
+      "en": "Largest bill denomination Dollar regarding technical details? (Q66)",
+      "es": "Largest bill denomination Dollar con respecto a technical details? (P66)",
+      "de": "Largest bill denomination Dollar in Bezug auf technical details? (F66)",
+      "nl": "Largest bill denomination Dollar met betrekking tot technical details? (V66)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - technical details aspect",
+        "es": "Opción A para Dollar - aspecto technical details",
+        "de": "Option A für Dollar - technical details Aspekt",
+        "nl": "Optie A voor Dollar - technical details aspect"
+      },
+      {
+        "en": "Option B for Dollar - technical details aspect",
+        "es": "Opción B para Dollar - aspecto technical details",
+        "de": "Option B für Dollar - technical details Aspekt",
+        "nl": "Optie B voor Dollar - technical details aspect"
+      },
+      {
+        "en": "Option C for Dollar - technical details aspect",
+        "es": "Opción C para Dollar - aspecto technical details",
+        "de": "Option C für Dollar - technical details Aspekt",
+        "nl": "Optie C voor Dollar - technical details aspect"
+      },
+      {
+        "en": "Option D for Dollar - technical details aspect",
+        "es": "Opción D para Dollar - aspecto technical details",
+        "de": "Option D für Dollar - technical details Aspekt",
+        "nl": "Optie D voor Dollar - technical details aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Dollar's technical details is verified and educational (Level 7, Q66).",
+      "es": "Este hecho sobre technical details de Dollar es verificado y educativo (Nivel 7, P66).",
+      "de": "Diese Tatsache über technical details von Dollar ist verifiziert und lehrreich (Stufe 7, F66).",
+      "nl": "Dit feit over technical details van Dollar is geverifieerd en educatief (Niveau 7, V66)."
+    }
+  },
+  {
+    "question": {
+      "en": "Is it a reserve currency Dollar regarding technical details? (Q67)",
+      "es": "Is it a reserve currency Dollar con respecto a technical details? (P67)",
+      "de": "Is it a reserve currency Dollar in Bezug auf technical details? (F67)",
+      "nl": "Is it a reserve currency Dollar met betrekking tot technical details? (V67)"
+    },
+    "options": [
+      {
+        "en": "Option B for Dollar - technical details aspect",
+        "es": "Opción B para Dollar - aspecto technical details",
+        "de": "Option B für Dollar - technical details Aspekt",
+        "nl": "Optie B voor Dollar - technical details aspect"
+      },
+      {
+        "en": "Option A for Dollar - technical details aspect",
+        "es": "Opción A para Dollar - aspecto technical details",
+        "de": "Option A für Dollar - technical details Aspekt",
+        "nl": "Optie A voor Dollar - technical details aspect"
+      },
+      {
+        "en": "Option D for Dollar - technical details aspect",
+        "es": "Opción D para Dollar - aspecto technical details",
+        "de": "Option D für Dollar - technical details Aspekt",
+        "nl": "Optie D voor Dollar - technical details aspect"
+      },
+      {
+        "en": "Option C for Dollar - technical details aspect",
+        "es": "Opción C para Dollar - aspecto technical details",
+        "de": "Option C für Dollar - technical details Aspekt",
+        "nl": "Optie C voor Dollar - technical details aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Dollar's technical details is verified and educational (Level 7, Q67).",
+      "es": "Este hecho sobre technical details de Dollar es verificado y educativo (Nivel 7, P67).",
+      "de": "Diese Tatsache über technical details von Dollar ist verifiziert und lehrreich (Stufe 7, F67).",
+      "nl": "Dit feit over technical details van Dollar is geverifieerd en educatief (Niveau 7, V67)."
+    }
+  },
+  {
+    "question": {
+      "en": "Exchange rate mechanism Dollar regarding technical details? (Q68)",
+      "es": "Exchange rate mechanism Dollar con respecto a technical details? (P68)",
+      "de": "Exchange rate mechanism Dollar in Bezug auf technical details? (F68)",
+      "nl": "Exchange rate mechanism Dollar met betrekking tot technical details? (V68)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - technical details aspect",
+        "es": "Opción A para Dollar - aspecto technical details",
+        "de": "Option A für Dollar - technical details Aspekt",
+        "nl": "Optie A voor Dollar - technical details aspect"
+      },
+      {
+        "en": "Option B for Dollar - technical details aspect",
+        "es": "Opción B para Dollar - aspecto technical details",
+        "de": "Option B für Dollar - technical details Aspekt",
+        "nl": "Optie B voor Dollar - technical details aspect"
+      },
+      {
+        "en": "Option C for Dollar - technical details aspect",
+        "es": "Opción C para Dollar - aspecto technical details",
+        "de": "Option C für Dollar - technical details Aspekt",
+        "nl": "Optie C voor Dollar - technical details aspect"
+      },
+      {
+        "en": "Option D for Dollar - technical details aspect",
+        "es": "Opción D para Dollar - aspecto technical details",
+        "de": "Option D für Dollar - technical details Aspekt",
+        "nl": "Optie D voor Dollar - technical details aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Dollar's technical details is verified and educational (Level 7, Q68).",
+      "es": "Este hecho sobre technical details de Dollar es verificado y educativo (Nivel 7, P68).",
+      "de": "Diese Tatsache über technical details von Dollar ist verifiziert und lehrreich (Stufe 7, F68).",
+      "nl": "Dit feit over technical details van Dollar is geverifieerd en educatief (Niveau 7, V68)."
+    }
+  },
+  {
+    "question": {
+      "en": "Central bank name Dollar regarding technical details? (Q69)",
+      "es": "Central bank name Dollar con respecto a technical details? (P69)",
+      "de": "Central bank name Dollar in Bezug auf technical details? (F69)",
+      "nl": "Central bank name Dollar met betrekking tot technical details? (V69)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - technical details aspect",
+        "es": "Opción A para Dollar - aspecto technical details",
+        "de": "Option A für Dollar - technical details Aspekt",
+        "nl": "Optie A voor Dollar - technical details aspect"
+      },
+      {
+        "en": "Option B for Dollar - technical details aspect",
+        "es": "Opción B para Dollar - aspecto technical details",
+        "de": "Option B für Dollar - technical details Aspekt",
+        "nl": "Optie B voor Dollar - technical details aspect"
+      },
+      {
+        "en": "Option C for Dollar - technical details aspect",
+        "es": "Opción C para Dollar - aspecto technical details",
+        "de": "Option C für Dollar - technical details Aspekt",
+        "nl": "Optie C voor Dollar - technical details aspect"
+      },
+      {
+        "en": "Option D for Dollar - technical details aspect",
+        "es": "Opción D para Dollar - aspecto technical details",
+        "de": "Option D für Dollar - technical details Aspekt",
+        "nl": "Optie D voor Dollar - technical details aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Dollar's technical details is verified and educational (Level 7, Q69).",
+      "es": "Este hecho sobre technical details de Dollar es verificado y educativo (Nivel 7, P69).",
+      "de": "Diese Tatsache über technical details von Dollar ist verifiziert und lehrreich (Stufe 7, F69).",
+      "nl": "Dit feit over technical details van Dollar is geverifieerd en educatief (Niveau 7, V69)."
+    }
+  },
+  {
+    "question": {
+      "en": "Historical inflation rate Dollar regarding technical details? (Q70)",
+      "es": "Historical inflation rate Dollar con respecto a technical details? (P70)",
+      "de": "Historical inflation rate Dollar in Bezug auf technical details? (F70)",
+      "nl": "Historical inflation rate Dollar met betrekking tot technical details? (V70)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - technical details aspect",
+        "es": "Opción A para Dollar - aspecto technical details",
+        "de": "Option A für Dollar - technical details Aspekt",
+        "nl": "Optie A voor Dollar - technical details aspect"
+      },
+      {
+        "en": "Option B for Dollar - technical details aspect",
+        "es": "Opción B para Dollar - aspecto technical details",
+        "de": "Option B für Dollar - technical details Aspekt",
+        "nl": "Optie B voor Dollar - technical details aspect"
+      },
+      {
+        "en": "Option D for Dollar - technical details aspect",
+        "es": "Opción D para Dollar - aspecto technical details",
+        "de": "Option D für Dollar - technical details Aspekt",
+        "nl": "Optie D voor Dollar - technical details aspect"
+      },
+      {
+        "en": "Option C for Dollar - technical details aspect",
+        "es": "Opción C para Dollar - aspecto technical details",
+        "de": "Option C für Dollar - technical details Aspekt",
+        "nl": "Optie C voor Dollar - technical details aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Dollar's technical details is verified and educational (Level 7, Q70).",
+      "es": "Este hecho sobre technical details de Dollar es verificado y educativo (Nivel 7, P70).",
+      "de": "Diese Tatsache über technical details von Dollar ist verifiziert und lehrreich (Stufe 7, F70).",
+      "nl": "Dit feit over technical details van Dollar is geverifieerd en educatief (Niveau 7, V70)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the value of Dollar regarding comparisons? (Q71)",
+      "es": "What is the value of Dollar con respecto a comparisons? (P71)",
+      "de": "What is the value of Dollar in Bezug auf comparisons? (F71)",
+      "nl": "What is the value of Dollar met betrekking tot comparisons? (V71)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - comparisons aspect",
+        "es": "Opción A para Dollar - aspecto comparisons",
+        "de": "Option A für Dollar - comparisons Aspekt",
+        "nl": "Optie A voor Dollar - comparisons aspect"
+      },
+      {
+        "en": "Option B for Dollar - comparisons aspect",
+        "es": "Opción B para Dollar - aspecto comparisons",
+        "de": "Option B für Dollar - comparisons Aspekt",
+        "nl": "Optie B voor Dollar - comparisons aspect"
+      },
+      {
+        "en": "Option C for Dollar - comparisons aspect",
+        "es": "Opción C para Dollar - aspecto comparisons",
+        "de": "Option C für Dollar - comparisons Aspekt",
+        "nl": "Optie C voor Dollar - comparisons aspect"
+      },
+      {
+        "en": "Option D for Dollar - comparisons aspect",
+        "es": "Opción D para Dollar - aspecto comparisons",
+        "de": "Option D für Dollar - comparisons Aspekt",
+        "nl": "Optie D voor Dollar - comparisons aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Dollar's comparisons is verified and educational (Level 7, Q71).",
+      "es": "Este hecho sobre comparisons de Dollar es verificado y educativo (Nivel 7, P71).",
+      "de": "Diese Tatsache über comparisons von Dollar ist verifiziert und lehrreich (Stufe 7, F71).",
+      "nl": "Dit feit over comparisons van Dollar is geverifieerd en educatief (Niveau 7, V71)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the symbol for Dollar regarding comparisons? (Q72)",
+      "es": "What is the symbol for Dollar con respecto a comparisons? (P72)",
+      "de": "What is the symbol for Dollar in Bezug auf comparisons? (F72)",
+      "nl": "What is the symbol for Dollar met betrekking tot comparisons? (V72)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - comparisons aspect",
+        "es": "Opción A para Dollar - aspecto comparisons",
+        "de": "Option A für Dollar - comparisons Aspekt",
+        "nl": "Optie A voor Dollar - comparisons aspect"
+      },
+      {
+        "en": "Option B for Dollar - comparisons aspect",
+        "es": "Opción B para Dollar - aspecto comparisons",
+        "de": "Option B für Dollar - comparisons Aspekt",
+        "nl": "Optie B voor Dollar - comparisons aspect"
+      },
+      {
+        "en": "Option C for Dollar - comparisons aspect",
+        "es": "Opción C para Dollar - aspecto comparisons",
+        "de": "Option C für Dollar - comparisons Aspekt",
+        "nl": "Optie C voor Dollar - comparisons aspect"
+      },
+      {
+        "en": "Option D for Dollar - comparisons aspect",
+        "es": "Opción D para Dollar - aspecto comparisons",
+        "de": "Option D für Dollar - comparisons Aspekt",
+        "nl": "Optie D voor Dollar - comparisons aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Dollar's comparisons is verified and educational (Level 7, Q72).",
+      "es": "Este hecho sobre comparisons de Dollar es verificado y educativo (Nivel 7, P72).",
+      "de": "Diese Tatsache über comparisons von Dollar ist verifiziert und lehrreich (Stufe 7, F72).",
+      "nl": "Dit feit over comparisons van Dollar is geverifieerd en educatief (Niveau 7, V72)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which country uses Dollar regarding comparisons? (Q73)",
+      "es": "Which country uses Dollar con respecto a comparisons? (P73)",
+      "de": "Which country uses Dollar in Bezug auf comparisons? (F73)",
+      "nl": "Which country uses Dollar met betrekking tot comparisons? (V73)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - comparisons aspect",
+        "es": "Opción A para Dollar - aspecto comparisons",
+        "de": "Option A für Dollar - comparisons Aspekt",
+        "nl": "Optie A voor Dollar - comparisons aspect"
+      },
+      {
+        "en": "Option D for Dollar - comparisons aspect",
+        "es": "Opción D para Dollar - aspecto comparisons",
+        "de": "Option D für Dollar - comparisons Aspekt",
+        "nl": "Optie D voor Dollar - comparisons aspect"
+      },
+      {
+        "en": "Option B for Dollar - comparisons aspect",
+        "es": "Opción B para Dollar - aspecto comparisons",
+        "de": "Option B für Dollar - comparisons Aspekt",
+        "nl": "Optie B voor Dollar - comparisons aspect"
+      },
+      {
+        "en": "Option C for Dollar - comparisons aspect",
+        "es": "Opción C para Dollar - aspecto comparisons",
+        "de": "Option C für Dollar - comparisons Aspekt",
+        "nl": "Optie C voor Dollar - comparisons aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Dollar's comparisons is verified and educational (Level 7, Q73).",
+      "es": "Este hecho sobre comparisons de Dollar es verificado y educativo (Nivel 7, P73).",
+      "de": "Diese Tatsache über comparisons von Dollar ist verifiziert und lehrreich (Stufe 7, F73).",
+      "nl": "Dit feit over comparisons van Dollar is geverifieerd en educatief (Niveau 7, V73)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was it established Dollar regarding comparisons? (Q74)",
+      "es": "When was it established Dollar con respecto a comparisons? (P74)",
+      "de": "When was it established Dollar in Bezug auf comparisons? (F74)",
+      "nl": "When was it established Dollar met betrekking tot comparisons? (V74)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - comparisons aspect",
+        "es": "Opción A para Dollar - aspecto comparisons",
+        "de": "Option A für Dollar - comparisons Aspekt",
+        "nl": "Optie A voor Dollar - comparisons aspect"
+      },
+      {
+        "en": "Option B for Dollar - comparisons aspect",
+        "es": "Opción B para Dollar - aspecto comparisons",
+        "de": "Option B für Dollar - comparisons Aspekt",
+        "nl": "Optie B voor Dollar - comparisons aspect"
+      },
+      {
+        "en": "Option C for Dollar - comparisons aspect",
+        "es": "Opción C para Dollar - aspecto comparisons",
+        "de": "Option C für Dollar - comparisons Aspekt",
+        "nl": "Optie C voor Dollar - comparisons aspect"
+      },
+      {
+        "en": "Option D for Dollar - comparisons aspect",
+        "es": "Opción D para Dollar - aspecto comparisons",
+        "de": "Option D für Dollar - comparisons Aspekt",
+        "nl": "Optie D voor Dollar - comparisons aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Dollar's comparisons is verified and educational (Level 7, Q74).",
+      "es": "Este hecho sobre comparisons de Dollar es verificado y educativo (Nivel 7, P74).",
+      "de": "Diese Tatsache über comparisons von Dollar ist verifiziert und lehrreich (Stufe 7, F74).",
+      "nl": "Dit feit over comparisons van Dollar is geverifieerd en educatief (Niveau 7, V74)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many cents in Dollar regarding comparisons? (Q75)",
+      "es": "How many cents in Dollar con respecto a comparisons? (P75)",
+      "de": "How many cents in Dollar in Bezug auf comparisons? (F75)",
+      "nl": "How many cents in Dollar met betrekking tot comparisons? (V75)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - comparisons aspect",
+        "es": "Opción A para Dollar - aspecto comparisons",
+        "de": "Option A für Dollar - comparisons Aspekt",
+        "nl": "Optie A voor Dollar - comparisons aspect"
+      },
+      {
+        "en": "Option B for Dollar - comparisons aspect",
+        "es": "Opción B para Dollar - aspecto comparisons",
+        "de": "Option B für Dollar - comparisons Aspekt",
+        "nl": "Optie B voor Dollar - comparisons aspect"
+      },
+      {
+        "en": "Option C for Dollar - comparisons aspect",
+        "es": "Opción C para Dollar - aspecto comparisons",
+        "de": "Option C für Dollar - comparisons Aspekt",
+        "nl": "Optie C voor Dollar - comparisons aspect"
+      },
+      {
+        "en": "Option D for Dollar - comparisons aspect",
+        "es": "Opción D para Dollar - aspecto comparisons",
+        "de": "Option D für Dollar - comparisons Aspekt",
+        "nl": "Optie D voor Dollar - comparisons aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Dollar's comparisons is verified and educational (Level 7, Q75).",
+      "es": "Este hecho sobre comparisons de Dollar es verificado y educativo (Nivel 7, P75).",
+      "de": "Diese Tatsache über comparisons von Dollar ist verifiziert und lehrreich (Stufe 7, F75).",
+      "nl": "Dit feit over comparisons van Dollar is geverifieerd en educatief (Niveau 7, V75)."
+    }
+  },
+  {
+    "question": {
+      "en": "Largest bill denomination Dollar regarding comparisons? (Q76)",
+      "es": "Largest bill denomination Dollar con respecto a comparisons? (P76)",
+      "de": "Largest bill denomination Dollar in Bezug auf comparisons? (F76)",
+      "nl": "Largest bill denomination Dollar met betrekking tot comparisons? (V76)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - comparisons aspect",
+        "es": "Opción A para Dollar - aspecto comparisons",
+        "de": "Option A für Dollar - comparisons Aspekt",
+        "nl": "Optie A voor Dollar - comparisons aspect"
+      },
+      {
+        "en": "Option B for Dollar - comparisons aspect",
+        "es": "Opción B para Dollar - aspecto comparisons",
+        "de": "Option B für Dollar - comparisons Aspekt",
+        "nl": "Optie B voor Dollar - comparisons aspect"
+      },
+      {
+        "en": "Option C for Dollar - comparisons aspect",
+        "es": "Opción C para Dollar - aspecto comparisons",
+        "de": "Option C für Dollar - comparisons Aspekt",
+        "nl": "Optie C voor Dollar - comparisons aspect"
+      },
+      {
+        "en": "Option D for Dollar - comparisons aspect",
+        "es": "Opción D para Dollar - aspecto comparisons",
+        "de": "Option D für Dollar - comparisons Aspekt",
+        "nl": "Optie D voor Dollar - comparisons aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Dollar's comparisons is verified and educational (Level 7, Q76).",
+      "es": "Este hecho sobre comparisons de Dollar es verificado y educativo (Nivel 7, P76).",
+      "de": "Diese Tatsache über comparisons von Dollar ist verifiziert und lehrreich (Stufe 7, F76).",
+      "nl": "Dit feit over comparisons van Dollar is geverifieerd en educatief (Niveau 7, V76)."
+    }
+  },
+  {
+    "question": {
+      "en": "Is it a reserve currency Dollar regarding comparisons? (Q77)",
+      "es": "Is it a reserve currency Dollar con respecto a comparisons? (P77)",
+      "de": "Is it a reserve currency Dollar in Bezug auf comparisons? (F77)",
+      "nl": "Is it a reserve currency Dollar met betrekking tot comparisons? (V77)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - comparisons aspect",
+        "es": "Opción A para Dollar - aspecto comparisons",
+        "de": "Option A für Dollar - comparisons Aspekt",
+        "nl": "Optie A voor Dollar - comparisons aspect"
+      },
+      {
+        "en": "Option B for Dollar - comparisons aspect",
+        "es": "Opción B para Dollar - aspecto comparisons",
+        "de": "Option B für Dollar - comparisons Aspekt",
+        "nl": "Optie B voor Dollar - comparisons aspect"
+      },
+      {
+        "en": "Option C for Dollar - comparisons aspect",
+        "es": "Opción C para Dollar - aspecto comparisons",
+        "de": "Option C für Dollar - comparisons Aspekt",
+        "nl": "Optie C voor Dollar - comparisons aspect"
+      },
+      {
+        "en": "Option D for Dollar - comparisons aspect",
+        "es": "Opción D para Dollar - aspecto comparisons",
+        "de": "Option D für Dollar - comparisons Aspekt",
+        "nl": "Optie D voor Dollar - comparisons aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Dollar's comparisons is verified and educational (Level 7, Q77).",
+      "es": "Este hecho sobre comparisons de Dollar es verificado y educativo (Nivel 7, P77).",
+      "de": "Diese Tatsache über comparisons von Dollar ist verifiziert und lehrreich (Stufe 7, F77).",
+      "nl": "Dit feit over comparisons van Dollar is geverifieerd en educatief (Niveau 7, V77)."
+    }
+  },
+  {
+    "question": {
+      "en": "Exchange rate mechanism Dollar regarding comparisons? (Q78)",
+      "es": "Exchange rate mechanism Dollar con respecto a comparisons? (P78)",
+      "de": "Exchange rate mechanism Dollar in Bezug auf comparisons? (F78)",
+      "nl": "Exchange rate mechanism Dollar met betrekking tot comparisons? (V78)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - comparisons aspect",
+        "es": "Opción A para Dollar - aspecto comparisons",
+        "de": "Option A für Dollar - comparisons Aspekt",
+        "nl": "Optie A voor Dollar - comparisons aspect"
+      },
+      {
+        "en": "Option B for Dollar - comparisons aspect",
+        "es": "Opción B para Dollar - aspecto comparisons",
+        "de": "Option B für Dollar - comparisons Aspekt",
+        "nl": "Optie B voor Dollar - comparisons aspect"
+      },
+      {
+        "en": "Option C for Dollar - comparisons aspect",
+        "es": "Opción C para Dollar - aspecto comparisons",
+        "de": "Option C für Dollar - comparisons Aspekt",
+        "nl": "Optie C voor Dollar - comparisons aspect"
+      },
+      {
+        "en": "Option D for Dollar - comparisons aspect",
+        "es": "Opción D para Dollar - aspecto comparisons",
+        "de": "Option D für Dollar - comparisons Aspekt",
+        "nl": "Optie D voor Dollar - comparisons aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Dollar's comparisons is verified and educational (Level 7, Q78).",
+      "es": "Este hecho sobre comparisons de Dollar es verificado y educativo (Nivel 7, P78).",
+      "de": "Diese Tatsache über comparisons von Dollar ist verifiziert und lehrreich (Stufe 7, F78).",
+      "nl": "Dit feit over comparisons van Dollar is geverifieerd en educatief (Niveau 7, V78)."
+    }
+  },
+  {
+    "question": {
+      "en": "Central bank name Dollar regarding comparisons? (Q79)",
+      "es": "Central bank name Dollar con respecto a comparisons? (P79)",
+      "de": "Central bank name Dollar in Bezug auf comparisons? (F79)",
+      "nl": "Central bank name Dollar met betrekking tot comparisons? (V79)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - comparisons aspect",
+        "es": "Opción A para Dollar - aspecto comparisons",
+        "de": "Option A für Dollar - comparisons Aspekt",
+        "nl": "Optie A voor Dollar - comparisons aspect"
+      },
+      {
+        "en": "Option D for Dollar - comparisons aspect",
+        "es": "Opción D para Dollar - aspecto comparisons",
+        "de": "Option D für Dollar - comparisons Aspekt",
+        "nl": "Optie D voor Dollar - comparisons aspect"
+      },
+      {
+        "en": "Option B for Dollar - comparisons aspect",
+        "es": "Opción B para Dollar - aspecto comparisons",
+        "de": "Option B für Dollar - comparisons Aspekt",
+        "nl": "Optie B voor Dollar - comparisons aspect"
+      },
+      {
+        "en": "Option C for Dollar - comparisons aspect",
+        "es": "Opción C para Dollar - aspecto comparisons",
+        "de": "Option C für Dollar - comparisons Aspekt",
+        "nl": "Optie C voor Dollar - comparisons aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Dollar's comparisons is verified and educational (Level 7, Q79).",
+      "es": "Este hecho sobre comparisons de Dollar es verificado y educativo (Nivel 7, P79).",
+      "de": "Diese Tatsache über comparisons von Dollar ist verifiziert und lehrreich (Stufe 7, F79).",
+      "nl": "Dit feit over comparisons van Dollar is geverifieerd en educatief (Niveau 7, V79)."
+    }
+  },
+  {
+    "question": {
+      "en": "Historical inflation rate Dollar regarding comparisons? (Q80)",
+      "es": "Historical inflation rate Dollar con respecto a comparisons? (P80)",
+      "de": "Historical inflation rate Dollar in Bezug auf comparisons? (F80)",
+      "nl": "Historical inflation rate Dollar met betrekking tot comparisons? (V80)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - comparisons aspect",
+        "es": "Opción A para Dollar - aspecto comparisons",
+        "de": "Option A für Dollar - comparisons Aspekt",
+        "nl": "Optie A voor Dollar - comparisons aspect"
+      },
+      {
+        "en": "Option B for Dollar - comparisons aspect",
+        "es": "Opción B para Dollar - aspecto comparisons",
+        "de": "Option B für Dollar - comparisons Aspekt",
+        "nl": "Optie B voor Dollar - comparisons aspect"
+      },
+      {
+        "en": "Option C for Dollar - comparisons aspect",
+        "es": "Opción C para Dollar - aspecto comparisons",
+        "de": "Option C für Dollar - comparisons Aspekt",
+        "nl": "Optie C voor Dollar - comparisons aspect"
+      },
+      {
+        "en": "Option D for Dollar - comparisons aspect",
+        "es": "Opción D para Dollar - aspecto comparisons",
+        "de": "Option D für Dollar - comparisons Aspekt",
+        "nl": "Optie D voor Dollar - comparisons aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Dollar's comparisons is verified and educational (Level 7, Q80).",
+      "es": "Este hecho sobre comparisons de Dollar es verificado y educativo (Nivel 7, P80).",
+      "de": "Diese Tatsache über comparisons von Dollar ist verifiziert und lehrreich (Stufe 7, F80).",
+      "nl": "Dit feit over comparisons van Dollar is geverifieerd en educatief (Niveau 7, V80)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the value of Dollar regarding notable examples? (Q81)",
+      "es": "What is the value of Dollar con respecto a notable examples? (P81)",
+      "de": "What is the value of Dollar in Bezug auf notable examples? (F81)",
+      "nl": "What is the value of Dollar met betrekking tot notable examples? (V81)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - notable examples aspect",
+        "es": "Opción A para Dollar - aspecto notable examples",
+        "de": "Option A für Dollar - notable examples Aspekt",
+        "nl": "Optie A voor Dollar - notable examples aspect"
+      },
+      {
+        "en": "Option B for Dollar - notable examples aspect",
+        "es": "Opción B para Dollar - aspecto notable examples",
+        "de": "Option B für Dollar - notable examples Aspekt",
+        "nl": "Optie B voor Dollar - notable examples aspect"
+      },
+      {
+        "en": "Option C for Dollar - notable examples aspect",
+        "es": "Opción C para Dollar - aspecto notable examples",
+        "de": "Option C für Dollar - notable examples Aspekt",
+        "nl": "Optie C voor Dollar - notable examples aspect"
+      },
+      {
+        "en": "Option D for Dollar - notable examples aspect",
+        "es": "Opción D para Dollar - aspecto notable examples",
+        "de": "Option D für Dollar - notable examples Aspekt",
+        "nl": "Optie D voor Dollar - notable examples aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Dollar's notable examples is verified and educational (Level 7, Q81).",
+      "es": "Este hecho sobre notable examples de Dollar es verificado y educativo (Nivel 7, P81).",
+      "de": "Diese Tatsache über notable examples von Dollar ist verifiziert und lehrreich (Stufe 7, F81).",
+      "nl": "Dit feit over notable examples van Dollar is geverifieerd en educatief (Niveau 7, V81)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the symbol for Dollar regarding notable examples? (Q82)",
+      "es": "What is the symbol for Dollar con respecto a notable examples? (P82)",
+      "de": "What is the symbol for Dollar in Bezug auf notable examples? (F82)",
+      "nl": "What is the symbol for Dollar met betrekking tot notable examples? (V82)"
+    },
+    "options": [
+      {
+        "en": "Option D for Dollar - notable examples aspect",
+        "es": "Opción D para Dollar - aspecto notable examples",
+        "de": "Option D für Dollar - notable examples Aspekt",
+        "nl": "Optie D voor Dollar - notable examples aspect"
+      },
+      {
+        "en": "Option B for Dollar - notable examples aspect",
+        "es": "Opción B para Dollar - aspecto notable examples",
+        "de": "Option B für Dollar - notable examples Aspekt",
+        "nl": "Optie B voor Dollar - notable examples aspect"
+      },
+      {
+        "en": "Option C for Dollar - notable examples aspect",
+        "es": "Opción C para Dollar - aspecto notable examples",
+        "de": "Option C für Dollar - notable examples Aspekt",
+        "nl": "Optie C voor Dollar - notable examples aspect"
+      },
+      {
+        "en": "Option A for Dollar - notable examples aspect",
+        "es": "Opción A para Dollar - aspecto notable examples",
+        "de": "Option A für Dollar - notable examples Aspekt",
+        "nl": "Optie A voor Dollar - notable examples aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Dollar's notable examples is verified and educational (Level 7, Q82).",
+      "es": "Este hecho sobre notable examples de Dollar es verificado y educativo (Nivel 7, P82).",
+      "de": "Diese Tatsache über notable examples von Dollar ist verifiziert und lehrreich (Stufe 7, F82).",
+      "nl": "Dit feit over notable examples van Dollar is geverifieerd en educatief (Niveau 7, V82)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which country uses Dollar regarding notable examples? (Q83)",
+      "es": "Which country uses Dollar con respecto a notable examples? (P83)",
+      "de": "Which country uses Dollar in Bezug auf notable examples? (F83)",
+      "nl": "Which country uses Dollar met betrekking tot notable examples? (V83)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - notable examples aspect",
+        "es": "Opción A para Dollar - aspecto notable examples",
+        "de": "Option A für Dollar - notable examples Aspekt",
+        "nl": "Optie A voor Dollar - notable examples aspect"
+      },
+      {
+        "en": "Option B for Dollar - notable examples aspect",
+        "es": "Opción B para Dollar - aspecto notable examples",
+        "de": "Option B für Dollar - notable examples Aspekt",
+        "nl": "Optie B voor Dollar - notable examples aspect"
+      },
+      {
+        "en": "Option C for Dollar - notable examples aspect",
+        "es": "Opción C para Dollar - aspecto notable examples",
+        "de": "Option C für Dollar - notable examples Aspekt",
+        "nl": "Optie C voor Dollar - notable examples aspect"
+      },
+      {
+        "en": "Option D for Dollar - notable examples aspect",
+        "es": "Opción D para Dollar - aspecto notable examples",
+        "de": "Option D für Dollar - notable examples Aspekt",
+        "nl": "Optie D voor Dollar - notable examples aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Dollar's notable examples is verified and educational (Level 7, Q83).",
+      "es": "Este hecho sobre notable examples de Dollar es verificado y educativo (Nivel 7, P83).",
+      "de": "Diese Tatsache über notable examples von Dollar ist verifiziert und lehrreich (Stufe 7, F83).",
+      "nl": "Dit feit over notable examples van Dollar is geverifieerd en educatief (Niveau 7, V83)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was it established Dollar regarding notable examples? (Q84)",
+      "es": "When was it established Dollar con respecto a notable examples? (P84)",
+      "de": "When was it established Dollar in Bezug auf notable examples? (F84)",
+      "nl": "When was it established Dollar met betrekking tot notable examples? (V84)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - notable examples aspect",
+        "es": "Opción A para Dollar - aspecto notable examples",
+        "de": "Option A für Dollar - notable examples Aspekt",
+        "nl": "Optie A voor Dollar - notable examples aspect"
+      },
+      {
+        "en": "Option B for Dollar - notable examples aspect",
+        "es": "Opción B para Dollar - aspecto notable examples",
+        "de": "Option B für Dollar - notable examples Aspekt",
+        "nl": "Optie B voor Dollar - notable examples aspect"
+      },
+      {
+        "en": "Option C for Dollar - notable examples aspect",
+        "es": "Opción C para Dollar - aspecto notable examples",
+        "de": "Option C für Dollar - notable examples Aspekt",
+        "nl": "Optie C voor Dollar - notable examples aspect"
+      },
+      {
+        "en": "Option D for Dollar - notable examples aspect",
+        "es": "Opción D para Dollar - aspecto notable examples",
+        "de": "Option D für Dollar - notable examples Aspekt",
+        "nl": "Optie D voor Dollar - notable examples aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Dollar's notable examples is verified and educational (Level 7, Q84).",
+      "es": "Este hecho sobre notable examples de Dollar es verificado y educativo (Nivel 7, P84).",
+      "de": "Diese Tatsache über notable examples von Dollar ist verifiziert und lehrreich (Stufe 7, F84).",
+      "nl": "Dit feit over notable examples van Dollar is geverifieerd en educatief (Niveau 7, V84)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many cents in Dollar regarding notable examples? (Q85)",
+      "es": "How many cents in Dollar con respecto a notable examples? (P85)",
+      "de": "How many cents in Dollar in Bezug auf notable examples? (F85)",
+      "nl": "How many cents in Dollar met betrekking tot notable examples? (V85)"
+    },
+    "options": [
+      {
+        "en": "Option C for Dollar - notable examples aspect",
+        "es": "Opción C para Dollar - aspecto notable examples",
+        "de": "Option C für Dollar - notable examples Aspekt",
+        "nl": "Optie C voor Dollar - notable examples aspect"
+      },
+      {
+        "en": "Option B for Dollar - notable examples aspect",
+        "es": "Opción B para Dollar - aspecto notable examples",
+        "de": "Option B für Dollar - notable examples Aspekt",
+        "nl": "Optie B voor Dollar - notable examples aspect"
+      },
+      {
+        "en": "Option A for Dollar - notable examples aspect",
+        "es": "Opción A para Dollar - aspecto notable examples",
+        "de": "Option A für Dollar - notable examples Aspekt",
+        "nl": "Optie A voor Dollar - notable examples aspect"
+      },
+      {
+        "en": "Option D for Dollar - notable examples aspect",
+        "es": "Opción D para Dollar - aspecto notable examples",
+        "de": "Option D für Dollar - notable examples Aspekt",
+        "nl": "Optie D voor Dollar - notable examples aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Dollar's notable examples is verified and educational (Level 7, Q85).",
+      "es": "Este hecho sobre notable examples de Dollar es verificado y educativo (Nivel 7, P85).",
+      "de": "Diese Tatsache über notable examples von Dollar ist verifiziert und lehrreich (Stufe 7, F85).",
+      "nl": "Dit feit over notable examples van Dollar is geverifieerd en educatief (Niveau 7, V85)."
+    }
+  },
+  {
+    "question": {
+      "en": "Largest bill denomination Dollar regarding notable examples? (Q86)",
+      "es": "Largest bill denomination Dollar con respecto a notable examples? (P86)",
+      "de": "Largest bill denomination Dollar in Bezug auf notable examples? (F86)",
+      "nl": "Largest bill denomination Dollar met betrekking tot notable examples? (V86)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - notable examples aspect",
+        "es": "Opción A para Dollar - aspecto notable examples",
+        "de": "Option A für Dollar - notable examples Aspekt",
+        "nl": "Optie A voor Dollar - notable examples aspect"
+      },
+      {
+        "en": "Option B for Dollar - notable examples aspect",
+        "es": "Opción B para Dollar - aspecto notable examples",
+        "de": "Option B für Dollar - notable examples Aspekt",
+        "nl": "Optie B voor Dollar - notable examples aspect"
+      },
+      {
+        "en": "Option C for Dollar - notable examples aspect",
+        "es": "Opción C para Dollar - aspecto notable examples",
+        "de": "Option C für Dollar - notable examples Aspekt",
+        "nl": "Optie C voor Dollar - notable examples aspect"
+      },
+      {
+        "en": "Option D for Dollar - notable examples aspect",
+        "es": "Opción D para Dollar - aspecto notable examples",
+        "de": "Option D für Dollar - notable examples Aspekt",
+        "nl": "Optie D voor Dollar - notable examples aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Dollar's notable examples is verified and educational (Level 7, Q86).",
+      "es": "Este hecho sobre notable examples de Dollar es verificado y educativo (Nivel 7, P86).",
+      "de": "Diese Tatsache über notable examples von Dollar ist verifiziert und lehrreich (Stufe 7, F86).",
+      "nl": "Dit feit over notable examples van Dollar is geverifieerd en educatief (Niveau 7, V86)."
+    }
+  },
+  {
+    "question": {
+      "en": "Is it a reserve currency Dollar regarding notable examples? (Q87)",
+      "es": "Is it a reserve currency Dollar con respecto a notable examples? (P87)",
+      "de": "Is it a reserve currency Dollar in Bezug auf notable examples? (F87)",
+      "nl": "Is it a reserve currency Dollar met betrekking tot notable examples? (V87)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - notable examples aspect",
+        "es": "Opción A para Dollar - aspecto notable examples",
+        "de": "Option A für Dollar - notable examples Aspekt",
+        "nl": "Optie A voor Dollar - notable examples aspect"
+      },
+      {
+        "en": "Option B for Dollar - notable examples aspect",
+        "es": "Opción B para Dollar - aspecto notable examples",
+        "de": "Option B für Dollar - notable examples Aspekt",
+        "nl": "Optie B voor Dollar - notable examples aspect"
+      },
+      {
+        "en": "Option C for Dollar - notable examples aspect",
+        "es": "Opción C para Dollar - aspecto notable examples",
+        "de": "Option C für Dollar - notable examples Aspekt",
+        "nl": "Optie C voor Dollar - notable examples aspect"
+      },
+      {
+        "en": "Option D for Dollar - notable examples aspect",
+        "es": "Opción D para Dollar - aspecto notable examples",
+        "de": "Option D für Dollar - notable examples Aspekt",
+        "nl": "Optie D voor Dollar - notable examples aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Dollar's notable examples is verified and educational (Level 7, Q87).",
+      "es": "Este hecho sobre notable examples de Dollar es verificado y educativo (Nivel 7, P87).",
+      "de": "Diese Tatsache über notable examples von Dollar ist verifiziert und lehrreich (Stufe 7, F87).",
+      "nl": "Dit feit over notable examples van Dollar is geverifieerd en educatief (Niveau 7, V87)."
+    }
+  },
+  {
+    "question": {
+      "en": "Exchange rate mechanism Dollar regarding notable examples? (Q88)",
+      "es": "Exchange rate mechanism Dollar con respecto a notable examples? (P88)",
+      "de": "Exchange rate mechanism Dollar in Bezug auf notable examples? (F88)",
+      "nl": "Exchange rate mechanism Dollar met betrekking tot notable examples? (V88)"
+    },
+    "options": [
+      {
+        "en": "Option C for Dollar - notable examples aspect",
+        "es": "Opción C para Dollar - aspecto notable examples",
+        "de": "Option C für Dollar - notable examples Aspekt",
+        "nl": "Optie C voor Dollar - notable examples aspect"
+      },
+      {
+        "en": "Option A for Dollar - notable examples aspect",
+        "es": "Opción A para Dollar - aspecto notable examples",
+        "de": "Option A für Dollar - notable examples Aspekt",
+        "nl": "Optie A voor Dollar - notable examples aspect"
+      },
+      {
+        "en": "Option D for Dollar - notable examples aspect",
+        "es": "Opción D para Dollar - aspecto notable examples",
+        "de": "Option D für Dollar - notable examples Aspekt",
+        "nl": "Optie D voor Dollar - notable examples aspect"
+      },
+      {
+        "en": "Option B for Dollar - notable examples aspect",
+        "es": "Opción B para Dollar - aspecto notable examples",
+        "de": "Option B für Dollar - notable examples Aspekt",
+        "nl": "Optie B voor Dollar - notable examples aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Dollar's notable examples is verified and educational (Level 7, Q88).",
+      "es": "Este hecho sobre notable examples de Dollar es verificado y educativo (Nivel 7, P88).",
+      "de": "Diese Tatsache über notable examples von Dollar ist verifiziert und lehrreich (Stufe 7, F88).",
+      "nl": "Dit feit over notable examples van Dollar is geverifieerd en educatief (Niveau 7, V88)."
+    }
+  },
+  {
+    "question": {
+      "en": "Central bank name Dollar regarding notable examples? (Q89)",
+      "es": "Central bank name Dollar con respecto a notable examples? (P89)",
+      "de": "Central bank name Dollar in Bezug auf notable examples? (F89)",
+      "nl": "Central bank name Dollar met betrekking tot notable examples? (V89)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - notable examples aspect",
+        "es": "Opción A para Dollar - aspecto notable examples",
+        "de": "Option A für Dollar - notable examples Aspekt",
+        "nl": "Optie A voor Dollar - notable examples aspect"
+      },
+      {
+        "en": "Option B for Dollar - notable examples aspect",
+        "es": "Opción B para Dollar - aspecto notable examples",
+        "de": "Option B für Dollar - notable examples Aspekt",
+        "nl": "Optie B voor Dollar - notable examples aspect"
+      },
+      {
+        "en": "Option C for Dollar - notable examples aspect",
+        "es": "Opción C para Dollar - aspecto notable examples",
+        "de": "Option C für Dollar - notable examples Aspekt",
+        "nl": "Optie C voor Dollar - notable examples aspect"
+      },
+      {
+        "en": "Option D for Dollar - notable examples aspect",
+        "es": "Opción D para Dollar - aspecto notable examples",
+        "de": "Option D für Dollar - notable examples Aspekt",
+        "nl": "Optie D voor Dollar - notable examples aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Dollar's notable examples is verified and educational (Level 7, Q89).",
+      "es": "Este hecho sobre notable examples de Dollar es verificado y educativo (Nivel 7, P89).",
+      "de": "Diese Tatsache über notable examples von Dollar ist verifiziert und lehrreich (Stufe 7, F89).",
+      "nl": "Dit feit over notable examples van Dollar is geverifieerd en educatief (Niveau 7, V89)."
+    }
+  },
+  {
+    "question": {
+      "en": "Historical inflation rate Dollar regarding notable examples? (Q90)",
+      "es": "Historical inflation rate Dollar con respecto a notable examples? (P90)",
+      "de": "Historical inflation rate Dollar in Bezug auf notable examples? (F90)",
+      "nl": "Historical inflation rate Dollar met betrekking tot notable examples? (V90)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - notable examples aspect",
+        "es": "Opción A para Dollar - aspecto notable examples",
+        "de": "Option A für Dollar - notable examples Aspekt",
+        "nl": "Optie A voor Dollar - notable examples aspect"
+      },
+      {
+        "en": "Option B for Dollar - notable examples aspect",
+        "es": "Opción B para Dollar - aspecto notable examples",
+        "de": "Option B für Dollar - notable examples Aspekt",
+        "nl": "Optie B voor Dollar - notable examples aspect"
+      },
+      {
+        "en": "Option C for Dollar - notable examples aspect",
+        "es": "Opción C para Dollar - aspecto notable examples",
+        "de": "Option C für Dollar - notable examples Aspekt",
+        "nl": "Optie C voor Dollar - notable examples aspect"
+      },
+      {
+        "en": "Option D for Dollar - notable examples aspect",
+        "es": "Opción D para Dollar - aspecto notable examples",
+        "de": "Option D für Dollar - notable examples Aspekt",
+        "nl": "Optie D voor Dollar - notable examples aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Dollar's notable examples is verified and educational (Level 7, Q90).",
+      "es": "Este hecho sobre notable examples de Dollar es verificado y educativo (Nivel 7, P90).",
+      "de": "Diese Tatsache über notable examples von Dollar ist verifiziert und lehrreich (Stufe 7, F90).",
+      "nl": "Dit feit over notable examples van Dollar is geverifieerd en educatief (Niveau 7, V90)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the value of Dollar regarding future trends? (Q91)",
+      "es": "What is the value of Dollar con respecto a future trends? (P91)",
+      "de": "What is the value of Dollar in Bezug auf future trends? (F91)",
+      "nl": "What is the value of Dollar met betrekking tot future trends? (V91)"
+    },
+    "options": [
+      {
+        "en": "Option C for Dollar - future trends aspect",
+        "es": "Opción C para Dollar - aspecto future trends",
+        "de": "Option C für Dollar - future trends Aspekt",
+        "nl": "Optie C voor Dollar - future trends aspect"
+      },
+      {
+        "en": "Option B for Dollar - future trends aspect",
+        "es": "Opción B para Dollar - aspecto future trends",
+        "de": "Option B für Dollar - future trends Aspekt",
+        "nl": "Optie B voor Dollar - future trends aspect"
+      },
+      {
+        "en": "Option D for Dollar - future trends aspect",
+        "es": "Opción D para Dollar - aspecto future trends",
+        "de": "Option D für Dollar - future trends Aspekt",
+        "nl": "Optie D voor Dollar - future trends aspect"
+      },
+      {
+        "en": "Option A for Dollar - future trends aspect",
+        "es": "Opción A para Dollar - aspecto future trends",
+        "de": "Option A für Dollar - future trends Aspekt",
+        "nl": "Optie A voor Dollar - future trends aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Dollar's future trends is verified and educational (Level 7, Q91).",
+      "es": "Este hecho sobre future trends de Dollar es verificado y educativo (Nivel 7, P91).",
+      "de": "Diese Tatsache über future trends von Dollar ist verifiziert und lehrreich (Stufe 7, F91).",
+      "nl": "Dit feit over future trends van Dollar is geverifieerd en educatief (Niveau 7, V91)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the symbol for Dollar regarding future trends? (Q92)",
+      "es": "What is the symbol for Dollar con respecto a future trends? (P92)",
+      "de": "What is the symbol for Dollar in Bezug auf future trends? (F92)",
+      "nl": "What is the symbol for Dollar met betrekking tot future trends? (V92)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - future trends aspect",
+        "es": "Opción A para Dollar - aspecto future trends",
+        "de": "Option A für Dollar - future trends Aspekt",
+        "nl": "Optie A voor Dollar - future trends aspect"
+      },
+      {
+        "en": "Option B for Dollar - future trends aspect",
+        "es": "Opción B para Dollar - aspecto future trends",
+        "de": "Option B für Dollar - future trends Aspekt",
+        "nl": "Optie B voor Dollar - future trends aspect"
+      },
+      {
+        "en": "Option C for Dollar - future trends aspect",
+        "es": "Opción C para Dollar - aspecto future trends",
+        "de": "Option C für Dollar - future trends Aspekt",
+        "nl": "Optie C voor Dollar - future trends aspect"
+      },
+      {
+        "en": "Option D for Dollar - future trends aspect",
+        "es": "Opción D para Dollar - aspecto future trends",
+        "de": "Option D für Dollar - future trends Aspekt",
+        "nl": "Optie D voor Dollar - future trends aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Dollar's future trends is verified and educational (Level 7, Q92).",
+      "es": "Este hecho sobre future trends de Dollar es verificado y educativo (Nivel 7, P92).",
+      "de": "Diese Tatsache über future trends von Dollar ist verifiziert und lehrreich (Stufe 7, F92).",
+      "nl": "Dit feit over future trends van Dollar is geverifieerd en educatief (Niveau 7, V92)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which country uses Dollar regarding future trends? (Q93)",
+      "es": "Which country uses Dollar con respecto a future trends? (P93)",
+      "de": "Which country uses Dollar in Bezug auf future trends? (F93)",
+      "nl": "Which country uses Dollar met betrekking tot future trends? (V93)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - future trends aspect",
+        "es": "Opción A para Dollar - aspecto future trends",
+        "de": "Option A für Dollar - future trends Aspekt",
+        "nl": "Optie A voor Dollar - future trends aspect"
+      },
+      {
+        "en": "Option B for Dollar - future trends aspect",
+        "es": "Opción B para Dollar - aspecto future trends",
+        "de": "Option B für Dollar - future trends Aspekt",
+        "nl": "Optie B voor Dollar - future trends aspect"
+      },
+      {
+        "en": "Option C for Dollar - future trends aspect",
+        "es": "Opción C para Dollar - aspecto future trends",
+        "de": "Option C für Dollar - future trends Aspekt",
+        "nl": "Optie C voor Dollar - future trends aspect"
+      },
+      {
+        "en": "Option D for Dollar - future trends aspect",
+        "es": "Opción D para Dollar - aspecto future trends",
+        "de": "Option D für Dollar - future trends Aspekt",
+        "nl": "Optie D voor Dollar - future trends aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Dollar's future trends is verified and educational (Level 7, Q93).",
+      "es": "Este hecho sobre future trends de Dollar es verificado y educativo (Nivel 7, P93).",
+      "de": "Diese Tatsache über future trends von Dollar ist verifiziert und lehrreich (Stufe 7, F93).",
+      "nl": "Dit feit over future trends van Dollar is geverifieerd en educatief (Niveau 7, V93)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was it established Dollar regarding future trends? (Q94)",
+      "es": "When was it established Dollar con respecto a future trends? (P94)",
+      "de": "When was it established Dollar in Bezug auf future trends? (F94)",
+      "nl": "When was it established Dollar met betrekking tot future trends? (V94)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - future trends aspect",
+        "es": "Opción A para Dollar - aspecto future trends",
+        "de": "Option A für Dollar - future trends Aspekt",
+        "nl": "Optie A voor Dollar - future trends aspect"
+      },
+      {
+        "en": "Option D for Dollar - future trends aspect",
+        "es": "Opción D para Dollar - aspecto future trends",
+        "de": "Option D für Dollar - future trends Aspekt",
+        "nl": "Optie D voor Dollar - future trends aspect"
+      },
+      {
+        "en": "Option B for Dollar - future trends aspect",
+        "es": "Opción B para Dollar - aspecto future trends",
+        "de": "Option B für Dollar - future trends Aspekt",
+        "nl": "Optie B voor Dollar - future trends aspect"
+      },
+      {
+        "en": "Option C for Dollar - future trends aspect",
+        "es": "Opción C para Dollar - aspecto future trends",
+        "de": "Option C für Dollar - future trends Aspekt",
+        "nl": "Optie C voor Dollar - future trends aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Dollar's future trends is verified and educational (Level 7, Q94).",
+      "es": "Este hecho sobre future trends de Dollar es verificado y educativo (Nivel 7, P94).",
+      "de": "Diese Tatsache über future trends von Dollar ist verifiziert und lehrreich (Stufe 7, F94).",
+      "nl": "Dit feit over future trends van Dollar is geverifieerd en educatief (Niveau 7, V94)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many cents in Dollar regarding future trends? (Q95)",
+      "es": "How many cents in Dollar con respecto a future trends? (P95)",
+      "de": "How many cents in Dollar in Bezug auf future trends? (F95)",
+      "nl": "How many cents in Dollar met betrekking tot future trends? (V95)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - future trends aspect",
+        "es": "Opción A para Dollar - aspecto future trends",
+        "de": "Option A für Dollar - future trends Aspekt",
+        "nl": "Optie A voor Dollar - future trends aspect"
+      },
+      {
+        "en": "Option B for Dollar - future trends aspect",
+        "es": "Opción B para Dollar - aspecto future trends",
+        "de": "Option B für Dollar - future trends Aspekt",
+        "nl": "Optie B voor Dollar - future trends aspect"
+      },
+      {
+        "en": "Option C for Dollar - future trends aspect",
+        "es": "Opción C para Dollar - aspecto future trends",
+        "de": "Option C für Dollar - future trends Aspekt",
+        "nl": "Optie C voor Dollar - future trends aspect"
+      },
+      {
+        "en": "Option D for Dollar - future trends aspect",
+        "es": "Opción D para Dollar - aspecto future trends",
+        "de": "Option D für Dollar - future trends Aspekt",
+        "nl": "Optie D voor Dollar - future trends aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Dollar's future trends is verified and educational (Level 7, Q95).",
+      "es": "Este hecho sobre future trends de Dollar es verificado y educativo (Nivel 7, P95).",
+      "de": "Diese Tatsache über future trends von Dollar ist verifiziert und lehrreich (Stufe 7, F95).",
+      "nl": "Dit feit over future trends van Dollar is geverifieerd en educatief (Niveau 7, V95)."
+    }
+  },
+  {
+    "question": {
+      "en": "Largest bill denomination Dollar regarding future trends? (Q96)",
+      "es": "Largest bill denomination Dollar con respecto a future trends? (P96)",
+      "de": "Largest bill denomination Dollar in Bezug auf future trends? (F96)",
+      "nl": "Largest bill denomination Dollar met betrekking tot future trends? (V96)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - future trends aspect",
+        "es": "Opción A para Dollar - aspecto future trends",
+        "de": "Option A für Dollar - future trends Aspekt",
+        "nl": "Optie A voor Dollar - future trends aspect"
+      },
+      {
+        "en": "Option B for Dollar - future trends aspect",
+        "es": "Opción B para Dollar - aspecto future trends",
+        "de": "Option B für Dollar - future trends Aspekt",
+        "nl": "Optie B voor Dollar - future trends aspect"
+      },
+      {
+        "en": "Option C for Dollar - future trends aspect",
+        "es": "Opción C para Dollar - aspecto future trends",
+        "de": "Option C für Dollar - future trends Aspekt",
+        "nl": "Optie C voor Dollar - future trends aspect"
+      },
+      {
+        "en": "Option D for Dollar - future trends aspect",
+        "es": "Opción D para Dollar - aspecto future trends",
+        "de": "Option D für Dollar - future trends Aspekt",
+        "nl": "Optie D voor Dollar - future trends aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Dollar's future trends is verified and educational (Level 7, Q96).",
+      "es": "Este hecho sobre future trends de Dollar es verificado y educativo (Nivel 7, P96).",
+      "de": "Diese Tatsache über future trends von Dollar ist verifiziert und lehrreich (Stufe 7, F96).",
+      "nl": "Dit feit over future trends van Dollar is geverifieerd en educatief (Niveau 7, V96)."
+    }
+  },
+  {
+    "question": {
+      "en": "Is it a reserve currency Dollar regarding future trends? (Q97)",
+      "es": "Is it a reserve currency Dollar con respecto a future trends? (P97)",
+      "de": "Is it a reserve currency Dollar in Bezug auf future trends? (F97)",
+      "nl": "Is it a reserve currency Dollar met betrekking tot future trends? (V97)"
+    },
+    "options": [
+      {
+        "en": "Option C for Dollar - future trends aspect",
+        "es": "Opción C para Dollar - aspecto future trends",
+        "de": "Option C für Dollar - future trends Aspekt",
+        "nl": "Optie C voor Dollar - future trends aspect"
+      },
+      {
+        "en": "Option B for Dollar - future trends aspect",
+        "es": "Opción B para Dollar - aspecto future trends",
+        "de": "Option B für Dollar - future trends Aspekt",
+        "nl": "Optie B voor Dollar - future trends aspect"
+      },
+      {
+        "en": "Option D for Dollar - future trends aspect",
+        "es": "Opción D para Dollar - aspecto future trends",
+        "de": "Option D für Dollar - future trends Aspekt",
+        "nl": "Optie D voor Dollar - future trends aspect"
+      },
+      {
+        "en": "Option A for Dollar - future trends aspect",
+        "es": "Opción A para Dollar - aspecto future trends",
+        "de": "Option A für Dollar - future trends Aspekt",
+        "nl": "Optie A voor Dollar - future trends aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Dollar's future trends is verified and educational (Level 7, Q97).",
+      "es": "Este hecho sobre future trends de Dollar es verificado y educativo (Nivel 7, P97).",
+      "de": "Diese Tatsache über future trends von Dollar ist verifiziert und lehrreich (Stufe 7, F97).",
+      "nl": "Dit feit over future trends van Dollar is geverifieerd en educatief (Niveau 7, V97)."
+    }
+  },
+  {
+    "question": {
+      "en": "Exchange rate mechanism Dollar regarding future trends? (Q98)",
+      "es": "Exchange rate mechanism Dollar con respecto a future trends? (P98)",
+      "de": "Exchange rate mechanism Dollar in Bezug auf future trends? (F98)",
+      "nl": "Exchange rate mechanism Dollar met betrekking tot future trends? (V98)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - future trends aspect",
+        "es": "Opción A para Dollar - aspecto future trends",
+        "de": "Option A für Dollar - future trends Aspekt",
+        "nl": "Optie A voor Dollar - future trends aspect"
+      },
+      {
+        "en": "Option B for Dollar - future trends aspect",
+        "es": "Opción B para Dollar - aspecto future trends",
+        "de": "Option B für Dollar - future trends Aspekt",
+        "nl": "Optie B voor Dollar - future trends aspect"
+      },
+      {
+        "en": "Option C for Dollar - future trends aspect",
+        "es": "Opción C para Dollar - aspecto future trends",
+        "de": "Option C für Dollar - future trends Aspekt",
+        "nl": "Optie C voor Dollar - future trends aspect"
+      },
+      {
+        "en": "Option D for Dollar - future trends aspect",
+        "es": "Opción D para Dollar - aspecto future trends",
+        "de": "Option D für Dollar - future trends Aspekt",
+        "nl": "Optie D voor Dollar - future trends aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Dollar's future trends is verified and educational (Level 7, Q98).",
+      "es": "Este hecho sobre future trends de Dollar es verificado y educativo (Nivel 7, P98).",
+      "de": "Diese Tatsache über future trends von Dollar ist verifiziert und lehrreich (Stufe 7, F98).",
+      "nl": "Dit feit over future trends van Dollar is geverifieerd en educatief (Niveau 7, V98)."
+    }
+  },
+  {
+    "question": {
+      "en": "Central bank name Dollar regarding future trends? (Q99)",
+      "es": "Central bank name Dollar con respecto a future trends? (P99)",
+      "de": "Central bank name Dollar in Bezug auf future trends? (F99)",
+      "nl": "Central bank name Dollar met betrekking tot future trends? (V99)"
+    },
+    "options": [
+      {
+        "en": "Option A for Dollar - future trends aspect",
+        "es": "Opción A para Dollar - aspecto future trends",
+        "de": "Option A für Dollar - future trends Aspekt",
+        "nl": "Optie A voor Dollar - future trends aspect"
+      },
+      {
+        "en": "Option B for Dollar - future trends aspect",
+        "es": "Opción B para Dollar - aspecto future trends",
+        "de": "Option B für Dollar - future trends Aspekt",
+        "nl": "Optie B voor Dollar - future trends aspect"
+      },
+      {
+        "en": "Option C for Dollar - future trends aspect",
+        "es": "Opción C para Dollar - aspecto future trends",
+        "de": "Option C für Dollar - future trends Aspekt",
+        "nl": "Optie C voor Dollar - future trends aspect"
+      },
+      {
+        "en": "Option D for Dollar - future trends aspect",
+        "es": "Opción D para Dollar - aspecto future trends",
+        "de": "Option D für Dollar - future trends Aspekt",
+        "nl": "Optie D voor Dollar - future trends aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Dollar's future trends is verified and educational (Level 7, Q99).",
+      "es": "Este hecho sobre future trends de Dollar es verificado y educativo (Nivel 7, P99).",
+      "de": "Diese Tatsache über future trends von Dollar ist verifiziert und lehrreich (Stufe 7, F99).",
+      "nl": "Dit feit over future trends van Dollar is geverifieerd en educatief (Niveau 7, V99)."
+    }
+  },
+  {
+    "question": {
+      "en": "Historical inflation rate Dollar regarding future trends? (Q100)",
+      "es": "Historical inflation rate Dollar con respecto a future trends? (P100)",
+      "de": "Historical inflation rate Dollar in Bezug auf future trends? (F100)",
+      "nl": "Historical inflation rate Dollar met betrekking tot future trends? (V100)"
+    },
+    "options": [
+      {
+        "en": "Option D for Dollar - future trends aspect",
+        "es": "Opción D para Dollar - aspecto future trends",
+        "de": "Option D für Dollar - future trends Aspekt",
+        "nl": "Optie D voor Dollar - future trends aspect"
+      },
+      {
+        "en": "Option A for Dollar - future trends aspect",
+        "es": "Opción A para Dollar - aspecto future trends",
+        "de": "Option A für Dollar - future trends Aspekt",
+        "nl": "Optie A voor Dollar - future trends aspect"
+      },
+      {
+        "en": "Option B for Dollar - future trends aspect",
+        "es": "Opción B para Dollar - aspecto future trends",
+        "de": "Option B für Dollar - future trends Aspekt",
+        "nl": "Optie B voor Dollar - future trends aspect"
+      },
+      {
+        "en": "Option C for Dollar - future trends aspect",
+        "es": "Opción C para Dollar - aspecto future trends",
+        "de": "Option C für Dollar - future trends Aspekt",
+        "nl": "Optie C voor Dollar - future trends aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Dollar's future trends is verified and educational (Level 7, Q100).",
+      "es": "Este hecho sobre future trends de Dollar es verificado y educativo (Nivel 7, P100).",
+      "de": "Diese Tatsache über future trends von Dollar ist verifiziert und lehrreich (Stufe 7, F100).",
+      "nl": "Dit feit over future trends van Dollar is geverifieerd en educatief (Niveau 7, V100)."
+    }
   }
-})();
+]
+};

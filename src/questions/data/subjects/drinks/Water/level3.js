@@ -1,1698 +1,4104 @@
-// Water Quiz - Level 3
-(function() {
-  const level3 = {
-    name: {
-          "en": "Water Health and Hydration",
-          "es": "Salud e Hidratación del Agua",
-          "de": "Wasser Gesundheit und Hydratation",
-          "nl": "Water Gezondheid en Hydratatie"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Water",
+      "es": "Pregunta 1 sobre Water",
+      "de": "Frage 1 über Water",
+      "nl": "Vraag 1 over Water"
     },
-    questions: [
+    "options": [
       {
-        question: {
-                  "en": "What percentage of the human body is water in a healthy adult?",
-                  "es": "¿Qué porcentaje del cuerpo humano es agua en un adulto sano?",
-                  "de": "Welcher Prozentsatz des menschlichen Körpers ist Wasser bei einem gesunden Erwachsenen?",
-                  "nl": "Welk percentage van het menselijk lichaam is water bij een gezonde volwassene?"
-        },
-        options: [
-        {
-                  "en": "70-75%",
-                  "es": "70-75%",
-                  "de": "70-75%",
-                  "nl": "70-75%"
-        },
-        {
-                  "en": "60-65%",
-                  "es": "60-65%",
-                  "de": "60-65%",
-                  "nl": "60-65%"
-        },
-        {
-                  "en": "45-50%",
-                  "es": "45-50%",
-                  "de": "45-50%",
-                  "nl": "45-50%"
-        },
-        {
-                  "en": "55-60%",
-                  "es": "55-60%",
-                  "de": "55-60%",
-                  "nl": "55-60%"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "A healthy adult human body is approximately 60-65% water, with variations based on age, gender, and body composition.",
-                  "es": "Un cuerpo humano adulto sano es aproximadamente 60-65% agua, con variaciones basadas en edad, género y composición corporal.",
-                  "de": "Ein gesunder erwachsener menschlicher Körper besteht zu etwa 60-65% aus Wasser, mit Variationen basierend auf Alter, Geschlecht und Körperzusammensetzung.",
-                  "nl": "Een gezond volwassen menselijk lichaam bestaat voor ongeveer 60-65% uit water, met variaties gebaseerd op leeftijd, geslacht en lichaamssamenstelling."
-        }
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
       },
       {
-        question: {
-                  "en": "How much water should an average adult drink per day according to general health guidelines?",
-                  "es": "¿Cuánta agua debe beber un adulto promedio por día según las pautas generales de salud?",
-                  "de": "Wie viel Wasser sollte ein durchschnittlicher Erwachsener pro Tag nach allgemeinen Gesundheitsrichtlinien trinken?",
-                  "nl": "Hoeveel water moet een gemiddelde volwassene per dag drinken volgens algemene gezondheidsrichtlijnen?"
-        },
-        options: [
-        {
-                  "en": "4-5 liters",
-                  "es": "4-5 litros",
-                  "de": "4-5 Liter",
-                  "nl": "4-5 liter"
-        },
-        {
-                  "en": "2-2.5 liters",
-                  "es": "2-2.5 litros",
-                  "de": "2-2,5 Liter",
-                  "nl": "2-2,5 liter"
-        },
-        {
-                  "en": "1-1.5 liters",
-                  "es": "1-1.5 litros",
-                  "de": "1-1,5 Liter",
-                  "nl": "1-1,5 liter"
-        },
-        {
-                  "en": "3-3.5 liters",
-                  "es": "3-3.5 litros",
-                  "de": "3-3,5 Liter",
-                  "nl": "3-3,5 liter"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "General health guidelines recommend about 2-2.5 liters (8-10 cups) of water daily for adults, though individual needs vary based on activity, climate, and health.",
-                  "es": "Las pautas generales de salud recomiendan aproximadamente 2-2.5 litros (8-10 tazas) de agua diariamente para adultos, aunque las necesidades individuales varían según la actividad, clima y salud.",
-                  "de": "Allgemeine Gesundheitsrichtlinien empfehlen etwa 2-2,5 Liter (8-10 Tassen) Wasser täglich für Erwachsene, obwohl individuelle Bedürfnisse je nach Aktivität, Klima und Gesundheit variieren.",
-                  "nl": "Algemene gezondheidsrichtlijnen bevelen ongeveer 2-2,5 liter (8-10 kopjes) water per dag aan voor volwassenen, hoewel individuele behoeften variëren op basis van activiteit, klimaat en gezondheid."
-        }
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
       },
       {
-        question: {
-                  "en": "What is the first sign of mild dehydration?",
-                  "es": "¿Cuál es el primer signo de deshidratación leve?",
-                  "de": "Was ist das erste Anzeichen einer leichten Dehydrierung?",
-                  "nl": "Wat is het eerste teken van milde uitdroging?"
-        },
-        options: [
-        {
-                  "en": "Headache",
-                  "es": "Dolor de cabeza",
-                  "de": "Kopfschmerzen",
-                  "nl": "Hoofdpijn"
-        },
-        {
-                  "en": "Thirst",
-                  "es": "Sed",
-                  "de": "Durst",
-                  "nl": "Dorst"
-        },
-        {
-                  "en": "Dark urine",
-                  "es": "Orina oscura",
-                  "de": "Dunkler Urin",
-                  "nl": "Donkere urine"
-        },
-        {
-                  "en": "Fatigue",
-                  "es": "Fatiga",
-                  "de": "Müdigkeit",
-                  "nl": "Vermoeidheid"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Thirst is the body's first warning signal of dehydration. By the time you feel thirsty, you're already mildly dehydrated.",
-                  "es": "La sed es la primera señal de advertencia del cuerpo de deshidratación. Para cuando sientes sed, ya estás ligeramente deshidratado.",
-                  "de": "Durst ist das erste Warnsignal des Körpers für Dehydrierung. Wenn Sie Durst verspüren, sind Sie bereits leicht dehydriert.",
-                  "nl": "Dorst is het eerste waarschuwingssignaal van het lichaam voor uitdroging. Tegen de tijd dat je dorst voelt, ben je al licht uitgedroogd."
-        }
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
       },
       {
-        question: {
-                  "en": "Which organ in the human body has the highest water content?",
-                  "es": "¿Qué órgano del cuerpo humano tiene el mayor contenido de agua?",
-                  "de": "Welches Organ im menschlichen Körper hat den höchsten Wassergehalt?",
-                  "nl": "Welk orgaan in het menselijk lichaam heeft het hoogste watergehalte?"
-        },
-        options: [
-        {
-                  "en": "Brain",
-                  "es": "Cerebro",
-                  "de": "Gehirn",
-                  "nl": "Hersenen"
-        },
-        {
-                  "en": "Kidneys",
-                  "es": "Riñones",
-                  "de": "Nieren",
-                  "nl": "Nieren"
-        },
-        {
-                  "en": "Lungs",
-                  "es": "Pulmones",
-                  "de": "Lungen",
-                  "nl": "Longen"
-        },
-        {
-                  "en": "Heart",
-                  "es": "Corazón",
-                  "de": "Herz",
-                  "nl": "Hart"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The brain has the highest water content of any organ, consisting of approximately 75-80% water, which is crucial for proper neural function.",
-                  "es": "El cerebro tiene el mayor contenido de agua de cualquier órgano, consistiendo en aproximadamente 75-80% agua, lo cual es crucial para la función neural adecuada.",
-                  "de": "Das Gehirn hat den höchsten Wassergehalt aller Organe und besteht aus etwa 75-80% Wasser, was für die ordnungsgemäße Neuralfunktion entscheidend ist.",
-                  "nl": "De hersenen hebben het hoogste watergehalte van alle organen, bestaande uit ongeveer 75-80% water, wat cruciaal is voor een goede neurale functie."
-        }
-      },
-      {
-        question: {
-                  "en": "What happens to your metabolism when you're dehydrated?",
-                  "es": "¿Qué le pasa a tu metabolismo cuando estás deshidratado?",
-                  "de": "Was passiert mit Ihrem Stoffwechsel, wenn Sie dehydriert sind?",
-                  "nl": "Wat gebeurt er met je stofwisseling wanneer je uitgedroogd bent?"
-        },
-        options: [
-        {
-                  "en": "It stops completely",
-                  "es": "Se detiene completamente",
-                  "de": "Es stoppt vollständig",
-                  "nl": "Het stopt volledig"
-        },
-        {
-                  "en": "It slows down",
-                  "es": "Se ralentiza",
-                  "de": "Es verlangsamt sich",
-                  "nl": "Het vertraagt"
-        },
-        {
-                  "en": "It speeds up significantly",
-                  "es": "Se acelera significativamente",
-                  "de": "Es beschleunigt sich erheblich",
-                  "nl": "Het versnelt aanzienlijk"
-        },
-        {
-                  "en": "It remains unchanged",
-                  "es": "Permanece sin cambios",
-                  "de": "Es bleibt unverändert",
-                  "nl": "Het blijft onveranderd"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Dehydration can slow your metabolism by 2-3%, making it harder to burn calories and maintain energy levels throughout the day.",
-                  "es": "La deshidratación puede ralentizar tu metabolismo en un 2-3%, haciendo más difícil quemar calorías y mantener niveles de energía durante el día.",
-                  "de": "Dehydrierung kann Ihren Stoffwechsel um 2-3% verlangsamen, wodurch es schwieriger wird, Kalorien zu verbrennen und Energielevel den ganzen Tag aufrechtzuerhalten.",
-                  "nl": "Uitdroging kan je stofwisseling met 2-3% vertragen, waardoor het moeilijker wordt om calorieën te verbranden en energieniveaus gedurende de dag te behouden."
-        }
-      },
-      {
-        question: {
-                  "en": "Why is water important for joint health?",
-                  "es": "¿Por qué es importante el agua para la salud de las articulaciones?",
-                  "de": "Warum ist Wasser wichtig für die Gelenkgesundheit?",
-                  "nl": "Waarom is water belangrijk voor gewrichtsgezondheid?"
-        },
-        options: [
-        {
-                  "en": "It builds muscle around joints",
-                  "es": "Construye músculo alrededor de las articulaciones",
-                  "de": "Es baut Muskeln um Gelenke auf",
-                  "nl": "Het bouwt spieren rond gewrichten op"
-        },
-        {
-                  "en": "It lubricates cartilage and reduces friction",
-                  "es": "Lubrica el cartílago y reduce la fricción",
-                  "de": "Es schmiert den Knorpel und reduziert Reibung",
-                  "nl": "Het smeert kraakbeen en vermindert wrijving"
-        },
-        {
-                  "en": "It prevents inflammation",
-                  "es": "Previene la inflamación",
-                  "de": "Es verhindert Entzündungen",
-                  "nl": "Het voorkomt ontstekingen"
-        },
-        {
-                  "en": "It strengthens bones",
-                  "es": "Fortalece los huesos",
-                  "de": "Es stärkt die Knochen",
-                  "nl": "Het versterkt botten"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Water is a major component of synovial fluid, which lubricates joints and cartilage, reducing friction and allowing smooth movement.",
-                  "es": "El agua es un componente principal del líquido sinovial, que lubrica las articulaciones y el cartílago, reduciendo la fricción y permitiendo movimiento suave.",
-                  "de": "Wasser ist ein Hauptbestandteil der Synovialflüssigkeit, die Gelenke und Knorpel schmiert, Reibung reduziert und geschmeidige Bewegung ermöglicht.",
-                  "nl": "Water is een hoofdbestanddeel van synoviaal vocht, dat gewrichten en kraakbeen smeert, wrijving vermindert en soepele beweging mogelijk maakt."
-        }
-      },
-      {
-        question: {
-                  "en": "What role does water play in regulating body temperature?",
-                  "es": "¿Qué papel juega el agua en regular la temperatura corporal?",
-                  "de": "Welche Rolle spielt Wasser bei der Regulierung der Körpertemperatur?",
-                  "nl": "Welke rol speelt water bij het reguleren van lichaamstemperatuur?"
-        },
-        options: [
-        {
-                  "en": "It prevents heat production in cells",
-                  "es": "Previene la producción de calor en las células",
-                  "de": "Es verhindert Wärmeproduktion in Zellen",
-                  "nl": "Het voorkomt warmteproductie in cellen"
-        },
-        {
-                  "en": "It only cools the body down",
-                  "es": "Solo enfría el cuerpo",
-                  "de": "Es kühlt nur den Körper ab",
-                  "nl": "Het koelt het lichaam alleen af"
-        },
-        {
-                  "en": "It absorbs and releases heat through sweating and circulation",
-                  "es": "Absorbe y libera calor a través de la sudoración y circulación",
-                  "de": "Es absorbiert und gibt Wärme durch Schwitzen und Kreislauf ab",
-                  "nl": "Het absorbeert en geeft warmte af door zweten en circulatie"
-        },
-        {
-                  "en": "It generates heat through chemical reactions",
-                  "es": "Genera calor a través de reacciones químicas",
-                  "de": "Es erzeugt Wärme durch chemische Reaktionen",
-                  "nl": "Het genereert warmte door chemische reacties"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Water regulates body temperature through sweating (cooling), circulation (heat distribution), and its high heat capacity to absorb and release thermal energy.",
-                  "es": "El agua regula la temperatura corporal a través de la sudoración (enfriamiento), circulación (distribución de calor), y su alta capacidad calorífica para absorber y liberar energía térmica.",
-                  "de": "Wasser reguliert die Körpertemperatur durch Schwitzen (Kühlung), Kreislauf (Wärmeverteilung) und seine hohe Wärmekapazität, um thermische Energie zu absorbieren und freizusetzen.",
-                  "nl": "Water reguleert lichaamstemperatuur door zweten (koeling), circulatie (warmteverdeling), en zijn hoge warmtecapaciteit om thermische energie te absorberen en af te geven."
-        }
-      },
-      {
-        question: {
-                  "en": "How does dehydration affect kidney function?",
-                  "es": "¿Cómo afecta la deshidratación a la función renal?",
-                  "de": "Wie beeinflusst Dehydrierung die Nierenfunktion?",
-                  "nl": "Hoe beïnvloedt uitdroging de nierfunctie?"
-        },
-        options: [
-        {
-                  "en": "It only affects urine color",
-                  "es": "Solo afecta el color de la orina",
-                  "de": "Es beeinflusst nur die Urinfarbe",
-                  "nl": "Het beïnvloedt alleen de urinekleur"
-        },
-        {
-                  "en": "It has no effect on kidneys",
-                  "es": "No tiene efecto en los riñones",
-                  "de": "Es hat keine Auswirkung auf die Nieren",
-                  "nl": "Het heeft geen effect op nieren"
-        },
-        {
-                  "en": "It improves filtration efficiency",
-                  "es": "Mejora la eficiencia de filtración",
-                  "de": "Es verbessert die Filtrationseffizienz",
-                  "nl": "Het verbetert filtratie-efficiëntie"
-        },
-        {
-                  "en": "It reduces blood flow and impairs waste removal",
-                  "es": "Reduce el flujo sanguíneo y perjudica la eliminación de desechos",
-                  "de": "Es reduziert den Blutfluss und beeinträchtigt die Abfallentfernung",
-                  "nl": "Het vermindert bloedstroom en verslechtert afvalverwijdering"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Dehydration reduces blood volume and flow to the kidneys, impairing their ability to filter waste and maintain proper electrolyte balance.",
-                  "es": "La deshidratación reduce el volumen sanguíneo y el flujo a los riñones, perjudicando su capacidad de filtrar desechos y mantener el equilibrio electrolítico adecuado.",
-                  "de": "Dehydrierung reduziert das Blutvolumen und den Fluss zu den Nieren, was ihre Fähigkeit beeinträchtigt, Abfall zu filtern und das richtige Elektrolytgleichgewicht aufrechtzuerhalten.",
-                  "nl": "Uitdroging vermindert bloedvolume en -stroom naar de nieren, wat hun vermogen verslechtert om afval te filteren en de juiste elektrolytbalans te behouden."
-        }
-      },
-      {
-        question: {
-                  "en": "What is water intoxication (hyponatremia)?",
-                  "es": "¿Qué es la intoxicación por agua (hiponatremia)?",
-                  "de": "Was ist Wasserintoxikation (Hyponatriämie)?",
-                  "nl": "Wat is watervergiftiging (hyponatriëmie)?"
-        },
-        options: [
-        {
-                  "en": "Drinking contaminated water",
-                  "es": "Beber agua contaminada",
-                  "de": "Trinken von kontaminiertem Wasser",
-                  "nl": "Drinken van vervuild water"
-        },
-        {
-                  "en": "Drinking too much water too quickly, diluting blood sodium",
-                  "es": "Beber demasiada agua muy rápido, diluyendo el sodio en sangre",
-                  "de": "Zu viel Wasser zu schnell trinken, wodurch das Blutnatrium verdünnt wird",
-                  "nl": "Te veel water te snel drinken, waardoor bloednatrium wordt verdund"
-        },
-        {
-                  "en": "Dehydration from drinking only water",
-                  "es": "Deshidratación por beber solo agua",
-                  "de": "Dehydrierung durch ausschließliches Wassertrinken",
-                  "nl": "Uitdroging door alleen water drinken"
-        },
-        {
-                  "en": "Allergic reaction to minerals in water",
-                  "es": "Reacción alérgica a minerales en el agua",
-                  "de": "Allergische Reaktion auf Mineralien im Wasser",
-                  "nl": "Allergische reactie op mineralen in water"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Water intoxication occurs when excessive water consumption dilutes blood sodium levels, potentially causing cells to swell and leading to serious health complications.",
-                  "es": "La intoxicación por agua ocurre cuando el consumo excesivo de agua diluye los niveles de sodio en sangre, potencialmente causando hinchazón celular y complicaciones serias de salud.",
-                  "de": "Wasserintoxikation tritt auf, wenn übermäßiger Wasserkonsum die Blutnatriumspiegel verdünnt, was möglicherweise zu Zellschwellung und ernsthaften Gesundheitskomplikationen führt.",
-                  "nl": "Watervergiftiging treedt op wanneer overmatig waterverbruik de bloednatriumspiegels verdunt, mogelijk celzwelling veroorzakend en leidend tot ernstige gezondheidscomplicaties."
-        }
-      },
-      {
-        question: {
-                  "en": "How does proper hydration affect cognitive function?",
-                  "es": "¿Cómo afecta la hidratación adecuada a la función cognitiva?",
-                  "de": "Wie beeinflusst ordnungsgemäße Hydratation die kognitive Funktion?",
-                  "nl": "Hoe beïnvloedt goede hydratatie de cognitieve functie?"
-        },
-        options: [
-        {
-                  "en": "It makes you more tired",
-                  "es": "Te hace más cansado",
-                  "de": "Es macht Sie müder",
-                  "nl": "Het maakt je meer moe"
-        },
-        {
-                  "en": "It improves memory, concentration and alertness",
-                  "es": "Mejora la memoria, concentración y alerta",
-                  "de": "Es verbessert Gedächtnis, Konzentration und Aufmerksamkeit",
-                  "nl": "Het verbetert geheugen, concentratie en alertheid"
-        },
-        {
-                  "en": "It only affects physical performance",
-                  "es": "Solo afecta el rendimiento físico",
-                  "de": "Es beeinflusst nur die körperliche Leistung",
-                  "nl": "Het beïnvloedt alleen fysieke prestaties"
-        },
-        {
-                  "en": "It has no effect on brain function",
-                  "es": "No tiene efecto en la función cerebral",
-                  "de": "Es hat keine Auswirkung auf die Gehirnfunktion",
-                  "nl": "Het heeft geen effect op hersenfunctie"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Proper hydration is crucial for optimal brain function. Even mild dehydration can impair memory, concentration, mood, and cognitive performance.",
-                  "es": "La hidratación adecuada es crucial para la función cerebral óptima. Incluso la deshidratación leve puede perjudicar la memoria, concentración, estado de ánimo y rendimiento cognitivo.",
-                  "de": "Ordnungsgemäße Hydratation ist entscheidend für optimale Gehirnfunktion. Selbst leichte Dehydrierung kann Gedächtnis, Konzentration, Stimmung und kognitive Leistung beeinträchtigen.",
-                  "nl": "Goede hydratatie is cruciaal voor optimale hersenfunctie. Zelfs milde uitdroging kan geheugen, concentratie, stemming en cognitieve prestaties verslechteren."
-        }
-      },
-      {
-        question: {
-                  "en": "What color should healthy, properly hydrated urine be?",
-                  "es": "¿De qué color debe ser la orina saludable y bien hidratada?",
-                  "de": "Welche Farbe sollte gesunder, gut hydrierter Urin haben?",
-                  "nl": "Welke kleur moet gezonde, goed gehydrateerde urine hebben?"
-        },
-        options: [
-        {
-                  "en": "Orange",
-                  "es": "Naranja",
-                  "de": "Orange",
-                  "nl": "Oranje"
-        },
-        {
-                  "en": "Bright yellow",
-                  "es": "Amarillo brillante",
-                  "de": "Hellgelb",
-                  "nl": "Heldergeel"
-        },
-        {
-                  "en": "Pale yellow to clear",
-                  "es": "Amarillo pálido a transparente",
-                  "de": "Blassgelb bis klar",
-                  "nl": "Lichtgeel tot helder"
-        },
-        {
-                  "en": "Dark yellow or amber",
-                  "es": "Amarillo oscuro o ámbar",
-                  "de": "Dunkelgelb oder bernsteinfarben",
-                  "nl": "Donkergeel of amber"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Healthy, well-hydrated urine should be pale yellow to almost clear. Dark urine indicates dehydration and concentrated waste products.",
-                  "es": "La orina saludable y bien hidratada debe ser amarillo pálido a casi transparente. La orina oscura indica deshidratación y productos de desecho concentrados.",
-                  "de": "Gesunder, gut hydrierter Urin sollte blassgelb bis fast klar sein. Dunkler Urin weist auf Dehydrierung und konzentrierte Abfallprodukte hin.",
-                  "nl": "Gezonde, goed gehydrateerde urine moet lichtgeel tot bijna helder zijn. Donkere urine wijst op uitdroging en geconcentreerde afvalproducten."
-        }
-      },
-      {
-        question: {
-                  "en": "When is the best time to drink water during the day?",
-                  "es": "¿Cuál es el mejor momento para beber agua durante el día?",
-                  "de": "Wann ist die beste Zeit, um tagsüber Wasser zu trinken?",
-                  "nl": "Wat is de beste tijd om water te drinken tijdens de dag?"
-        },
-        options: [
-        {
-                  "en": "Throughout the day at regular intervals",
-                  "es": "A lo largo del día a intervalos regulares",
-                  "de": "Den ganzen Tag über in regelmäßigen Abständen",
-                  "nl": "Gedurende de dag met regelmatige tussenpozen"
-        },
-        {
-                  "en": "Only in the morning",
-                  "es": "Solo por la mañana",
-                  "de": "Nur morgens",
-                  "nl": "Alleen in de ochtend"
-        },
-        {
-                  "en": "Only when you feel thirsty",
-                  "es": "Solo cuando sientes sed",
-                  "de": "Nur wenn Sie Durst haben",
-                  "nl": "Alleen als je dorst hebt"
-        },
-        {
-                  "en": "Only during meals",
-                  "es": "Solo durante las comidas",
-                  "de": "Nur während der Mahlzeiten",
-                  "nl": "Alleen tijdens maaltijden"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "It's best to drink water consistently throughout the day rather than waiting until you're thirsty. Spreading intake helps maintain optimal hydration levels.",
-                  "es": "Es mejor beber agua constantemente durante el día en lugar de esperar hasta tener sed. Distribuir la ingesta ayuda a mantener niveles de hidratación óptimos.",
-                  "de": "Es ist am besten, den ganzen Tag über kontinuierlich Wasser zu trinken, anstatt zu warten, bis Sie Durst haben. Verteilte Aufnahme hilft, optimale Hydratationslevel aufrechtzuerhalten.",
-                  "nl": "Het is het beste om de hele dag door consistent water te drinken in plaats van te wachten tot je dorst hebt. Gespreid innemen helpt optimale hydratieniveaus te behouden."
-        }
-      },
-      {
-        question: {
-                  "en": "How does water help with digestion?",
-                  "es": "¿Cómo ayuda el agua con la digestión?",
-                  "de": "Wie hilft Wasser bei der Verdauung?",
-                  "nl": "Hoe helpt water bij de spijsvertering?"
-        },
-        options: [
-        {
-                  "en": "It helps break down food and move it through the digestive tract",
-                  "es": "Ayuda a descomponer alimentos y moverlos por el tracto digestivo",
-                  "de": "Es hilft, Nahrung abzubauen und durch den Verdauungstrakt zu bewegen",
-                  "nl": "Het helpt voedsel af te breken en door het spijsverteringskanaal te bewegen"
-        },
-        {
-                  "en": "It dilutes stomach acid",
-                  "es": "Diluye el ácido estomacal",
-                  "de": "Es verdünnt Magensäure",
-                  "nl": "Het verdunt maagzuur"
-        },
-        {
-                  "en": "It stops digestion",
-                  "es": "Detiene la digestión",
-                  "de": "Es stoppt die Verdauung",
-                  "nl": "Het stopt de spijsvertering"
-        },
-        {
-                  "en": "It only prevents constipation",
-                  "es": "Solo previene el estreñimiento",
-                  "de": "Es verhindert nur Verstopfung",
-                  "nl": "Het voorkomt alleen constipatie"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Water is essential for digestion. It helps dissolve nutrients, break down food, produce digestive enzymes and saliva, and move food through the intestines.",
-                  "es": "El agua es esencial para la digestión. Ayuda a disolver nutrientes, descomponer alimentos, producir enzimas digestivas y saliva, y mover alimentos por los intestinos.",
-                  "de": "Wasser ist essentiell für die Verdauung. Es hilft, Nährstoffe zu lösen, Nahrung abzubauen, Verdauungsenzyme und Speichel zu produzieren und Nahrung durch die Därme zu bewegen.",
-                  "nl": "Water is essentieel voor spijsvertering. Het helpt voedingsstoffen op te lossen, voedsel af te breken, spijsverteringsenzymen en speeksel te produceren, en voedsel door de darmen te bewegen."
-        }
-      },
-      {
-        question: {
-                  "en": "Can you get hydration from foods?",
-                  "es": "¿Puedes obtener hidratación de los alimentos?",
-                  "de": "Kann man Hydratation aus Nahrung gewinnen?",
-                  "nl": "Kun je hydratatie uit voedsel krijgen?"
-        },
-        options: [
-        {
-                  "en": "Only dairy products provide hydration",
-                  "es": "Solo los productos lácteos proporcionan hidratación",
-                  "de": "Nur Milchprodukte spenden Hydratation",
-                  "nl": "Alleen zuivelproducten zorgen voor hydratatie"
-        },
-        {
-                  "en": "Yes, many fruits and vegetables contain significant water",
-                  "es": "Sí, muchas frutas y verduras contienen agua significativa",
-                  "de": "Ja, viele Früchte und Gemüse enthalten erheblich Wasser",
-                  "nl": "Ja, veel fruit en groenten bevatten aanzienlijk water"
-        },
-        {
-                  "en": "Only meat provides hydration",
-                  "es": "Solo la carne proporciona hidratación",
-                  "de": "Nur Fleisch spendet Hydratation",
-                  "nl": "Alleen vlees zorgt voor hydratatie"
-        },
-        {
-                  "en": "No, only water provides hydration",
-                  "es": "No, solo el agua proporciona hidratación",
-                  "de": "Nein, nur Wasser spendet Hydratation",
-                  "nl": "Nee, alleen water zorgt voor hydratatie"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "About 20% of daily water intake comes from food. Fruits like watermelon, cucumbers, oranges, and lettuce contain 85-95% water and contribute to hydration.",
-                  "es": "Aproximadamente el 20% del consumo diario de agua proviene de alimentos. Frutas como sandía, pepinos, naranjas y lechuga contienen 85-95% agua y contribuyen a la hidratación.",
-                  "de": "Etwa 20% der täglichen Wasseraufnahme stammt aus Nahrung. Früchte wie Wassermelone, Gurken, Orangen und Salat enthalten 85-95% Wasser und tragen zur Hydratation bei.",
-                  "nl": "Ongeveer 20% van de dagelijkse waterinname komt uit voedsel. Fruit zoals watermeloen, komkommers, sinaasappels en sla bevat 85-95% water en draagt bij aan hydratatie."
-        }
-      },
-      {
-        question: {
-                  "en": "How does exercise affect water needs?",
-                  "es": "¿Cómo afecta el ejercicio a las necesidades de agua?",
-                  "de": "Wie beeinflusst Bewegung den Wasserbedarf?",
-                  "nl": "Hoe beïnvloedt lichaamsbeweging de waterbehoefte?"
-        },
-        options: [
-        {
-                  "en": "Exercise reduces water needs",
-                  "es": "El ejercicio reduce las necesidades de agua",
-                  "de": "Bewegung reduziert den Wasserbedarf",
-                  "nl": "Lichaamsbeweging vermindert de waterbehoefte"
-        },
-        {
-                  "en": "Exercise has no effect on water needs",
-                  "es": "El ejercicio no tiene efecto en las necesidades de agua",
-                  "de": "Bewegung hat keinen Einfluss auf den Wasserbedarf",
-                  "nl": "Lichaamsbeweging heeft geen effect op waterbehoefte"
-        },
-        {
-                  "en": "Exercise significantly increases water needs due to sweat loss",
-                  "es": "El ejercicio aumenta significativamente las necesidades de agua debido a pérdida por sudor",
-                  "de": "Bewegung erhöht den Wasserbedarf erheblich durch Schweißverlust",
-                  "nl": "Lichaamsbeweging verhoogt de waterbehoefte aanzienlijk door zweetverlies"
-        },
-        {
-                  "en": "Only intense exercise affects water needs",
-                  "es": "Solo el ejercicio intenso afecta las necesidades de agua",
-                  "de": "Nur intensive Bewegung beeinflusst den Wasserbedarf",
-                  "nl": "Alleen intense lichaamsbeweging beïnvloedt waterbehoefte"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Exercise increases water needs significantly through sweat loss. You should drink before, during, and after exercise to replace fluids. An extra 1.5-2.5 cups per hour of exercise is recommended.",
-                  "es": "El ejercicio aumenta significativamente las necesidades de agua a través de la pérdida por sudor. Debes beber antes, durante y después del ejercicio para reemplazar líquidos. Se recomiendan 1.5-2.5 tazas extra por hora de ejercicio.",
-                  "de": "Bewegung erhöht den Wasserbedarf erheblich durch Schweißverlust. Sie sollten vor, während und nach dem Training trinken, um Flüssigkeiten zu ersetzen. Zusätzliche 1,5-2,5 Tassen pro Stunde Training werden empfohlen.",
-                  "nl": "Lichaamsbeweging verhoogt de waterbehoefte aanzienlijk door zweetverlies. Je moet voor, tijdens en na lichaamsbeweging drinken om vloeistoffen aan te vullen. Een extra 1,5-2,5 kopjes per uur lichaamsbeweging wordt aanbevolen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the relationship between water and skin health?",
-                  "es": "¿Cuál es la relación entre el agua y la salud de la piel?",
-                  "de": "Was ist die Beziehung zwischen Wasser und Hautgesundheit?",
-                  "nl": "Wat is de relatie tussen water en huidgezondheid?"
-        },
-        options: [
-        {
-                  "en": "Only external water affects skin",
-                  "es": "Solo el agua externa afecta la piel",
-                  "de": "Nur äußeres Wasser beeinflusst die Haut",
-                  "nl": "Alleen extern water beïnvloedt de huid"
-        },
-        {
-                  "en": "Water has no effect on skin",
-                  "es": "El agua no tiene efecto en la piel",
-                  "de": "Wasser hat keine Wirkung auf die Haut",
-                  "nl": "Water heeft geen effect op de huid"
-        },
-        {
-                  "en": "Water helps maintain skin elasticity, moisture, and flush out toxins",
-                  "es": "El agua ayuda a mantener elasticidad, humedad de la piel y eliminar toxinas",
-                  "de": "Wasser hilft, Hautelastizität, Feuchtigkeit zu erhalten und Toxine auszuspülen",
-                  "nl": "Water helpt huidelasticiteit, vocht te behouden en gifstoffen uit te spoelen"
-        },
-        {
-                  "en": "Water makes skin oily",
-                  "es": "El agua hace la piel grasa",
-                  "de": "Wasser macht die Haut fettig",
-                  "nl": "Water maakt de huid vettig"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Proper hydration maintains skin moisture, improves elasticity, reduces wrinkles, flushes out toxins, and helps skin cells regenerate. Dehydrated skin appears dry, tight, and flaky.",
-                  "es": "La hidratación adecuada mantiene la humedad de la piel, mejora la elasticidad, reduce arrugas, elimina toxinas y ayuda a las células de la piel a regenerarse. La piel deshidratada se ve seca, tensa y escamosa.",
-                  "de": "Ordnungsgemäße Hydratation erhält Hautfeuchtigkeit, verbessert Elastizität, reduziert Falten, spült Toxine aus und hilft Hautzellen bei der Regeneration. Dehydrierte Haut erscheint trocken, straff und schuppig.",
-                  "nl": "Goede hydratatie behoudt huidvocht, verbetert elasticiteit, vermindert rimpels, spoelt gifstoffen uit en helpt huidcellen te regenereren. Uitgedroogde huid ziet er droog, strak en schilferig uit."
-        }
-      },
-      {
-        question: {
-                  "en": "How much water can you lose through breathing in a day?",
-                  "es": "¿Cuánta agua puedes perder por respiración en un día?",
-                  "de": "Wie viel Wasser können Sie an einem Tag durch Atmung verlieren?",
-                  "nl": "Hoeveel water kun je per dag verliezen door ademhaling?"
-        },
-        options: [
-        {
-                  "en": "About 250-400 ml",
-                  "es": "Aproximadamente 250-400 ml",
-                  "de": "Etwa 250-400 ml",
-                  "nl": "Ongeveer 250-400 ml"
-        },
-        {
-                  "en": "About 2 liters",
-                  "es": "Aproximadamente 2 litros",
-                  "de": "Etwa 2 Liter",
-                  "nl": "Ongeveer 2 liter"
-        },
-        {
-                  "en": "About 50 ml",
-                  "es": "Aproximadamente 50 ml",
-                  "de": "Etwa 50 ml",
-                  "nl": "Ongeveer 50 ml"
-        },
-        {
-                  "en": "About 1 liter",
-                  "es": "Aproximadamente 1 litro",
-                  "de": "Etwa 1 Liter",
-                  "nl": "Ongeveer 1 liter"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Humans lose approximately 250-400 ml (1-1.5 cups) of water per day through breathing as water vapor in exhaled air. This is called insensible water loss.",
-                  "es": "Los humanos pierden aproximadamente 250-400 ml (1-1.5 tazas) de agua por día a través de la respiración como vapor de agua en el aire exhalado. Esto se llama pérdida de agua insensible.",
-                  "de": "Menschen verlieren etwa 250-400 ml (1-1,5 Tassen) Wasser pro Tag durch Atmung als Wasserdampf in ausgeatmeter Luft. Dies wird als unsichtbarer Wasserverlust bezeichnet.",
-                  "nl": "Mensen verliezen ongeveer 250-400 ml (1-1,5 kopjes) water per dag door ademhaling als waterdamp in uitgeademde lucht. Dit wordt onmerkbaar waterverlies genoemd."
-        }
-      },
-      {
-        question: {
-                  "en": "Why is it important to drink water when sick with a fever?",
-                  "es": "¿Por qué es importante beber agua cuando estás enfermo con fiebre?",
-                  "de": "Warum ist es wichtig, Wasser zu trinken, wenn man krank mit Fieber ist?",
-                  "nl": "Waarom is het belangrijk om water te drinken wanneer je ziek bent met koorts?"
-        },
-        options: [
-        {
-                  "en": "Fever increases body temperature and fluid loss through sweating",
-                  "es": "La fiebre aumenta la temperatura corporal y pérdida de líquidos por sudor",
-                  "de": "Fieber erhöht die Körpertemperatur und Flüssigkeitsverlust durch Schwitzen",
-                  "nl": "Koorts verhoogt lichaamstemperatuur en vloeistofverlies door zweten"
-        },
-        {
-                  "en": "Fever has no effect on hydration",
-                  "es": "La fiebre no tiene efecto en la hidratación",
-                  "de": "Fieber hat keine Auswirkung auf die Hydratation",
-                  "nl": "Koorts heeft geen effect op hydratatie"
-        },
-        {
-                  "en": "Water cures the illness",
-                  "es": "El agua cura la enfermedad",
-                  "de": "Wasser heilt die Krankheit",
-                  "nl": "Water geneest de ziekte"
-        },
-        {
-                  "en": "Only cold water helps with fever",
-                  "es": "Solo el agua fría ayuda con la fiebre",
-                  "de": "Nur kaltes Wasser hilft bei Fieber",
-                  "nl": "Alleen koud water helpt bij koorts"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Fever raises body temperature, causing increased sweating and respiration, which leads to significant fluid loss. Drinking water prevents dehydration and helps the body fight infection.",
-                  "es": "La fiebre aumenta la temperatura corporal, causando aumento de sudoración y respiración, lo que lleva a pérdida significativa de líquidos. Beber agua previene la deshidratación y ayuda al cuerpo a combatir infecciones.",
-                  "de": "Fieber erhöht die Körpertemperatur, was zu verstärktem Schwitzen und Atmen führt, was zu erheblichem Flüssigkeitsverlust führt. Wasser trinken verhindert Dehydrierung und hilft dem Körper, Infektionen zu bekämpfen.",
-                  "nl": "Koorts verhoogt lichaamstemperatuur, wat verhoogd zweten en ademhaling veroorzaakt, wat leidt tot aanzienlijk vloeistofverlies. Water drinken voorkomt uitdroging en helpt het lichaam infecties te bestrijden."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the effect of caffeine on hydration?",
-                  "es": "¿Cuál es el efecto de la cafeína en la hidratación?",
-                  "de": "Was ist die Wirkung von Koffein auf die Hydratation?",
-                  "nl": "Wat is het effect van cafeïne op hydratatie?"
-        },
-        options: [
-        {
-                  "en": "Caffeine has no effect on hydration",
-                  "es": "La cafeína no tiene efecto en la hidratación",
-                  "de": "Koffein hat keine Wirkung auf die Hydratation",
-                  "nl": "Cafeïne heeft geen effect op hydratatie"
-        },
-        {
-                  "en": "Caffeine severely dehydrates the body",
-                  "es": "La cafeína deshidrata severamente el cuerpo",
-                  "de": "Koffein dehydriert den Körper stark",
-                  "nl": "Cafeïne droogt het lichaam ernstig uit"
-        },
-        {
-                  "en": "Caffeine improves hydration",
-                  "es": "La cafeína mejora la hidratación",
-                  "de": "Koffein verbessert die Hydratation",
-                  "nl": "Cafeïne verbetert hydratatie"
-        },
-        {
-                  "en": "Caffeine is a mild diuretic but moderate intake doesn't cause dehydration",
-                  "es": "La cafeína es un diurético leve pero consumo moderado no causa deshidratación",
-                  "de": "Koffein ist ein mildes Diuretikum, aber mäßige Aufnahme verursacht keine Dehydrierung",
-                  "nl": "Cafeïne is een mild diureticum maar matige inname veroorzaakt geen uitdroging"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "While caffeine is a mild diuretic (increases urination), research shows moderate caffeine consumption (up to 400mg/day) doesn't cause dehydration. Caffeinated beverages still contribute to daily fluid intake.",
-                  "es": "Aunque la cafeína es un diurético leve (aumenta la micción), investigaciones muestran que consumo moderado de cafeína (hasta 400mg/día) no causa deshidratación. Bebidas con cafeína aún contribuyen a la ingesta diaria de líquidos.",
-                  "de": "Obwohl Koffein ein mildes Diuretikum ist (erhöht Harndrang), zeigen Forschungen, dass mäßiger Koffeinkonsum (bis 400mg/Tag) keine Dehydrierung verursacht. Koffeinhaltige Getränke tragen dennoch zur täglichen Flüssigkeitsaufnahme bei.",
-                  "nl": "Hoewel cafeïne een mild diureticum is (verhoogt urineren), tonen onderzoeken dat matige cafeïne-inname (tot 400mg/dag) geen uitdroging veroorzaakt. Cafeïnehoudende dranken dragen nog steeds bij aan dagelijkse vloeistofinname."
-        }
-      },
-      {
-        question: {
-                  "en": "How does altitude affect water needs?",
-                  "es": "¿Cómo afecta la altitud a las necesidades de agua?",
-                  "de": "Wie beeinflusst die Höhe den Wasserbedarf?",
-                  "nl": "Hoe beïnvloedt hoogte de waterbehoefte?"
-        },
-        options: [
-        {
-                  "en": "Higher altitude increases water needs due to increased respiration and lower humidity",
-                  "es": "Mayor altitud aumenta necesidades de agua por respiración aumentada y menor humedad",
-                  "de": "Höhere Höhe erhöht Wasserbedarf durch erhöhte Atmung und niedrigere Luftfeuchtigkeit",
-                  "nl": "Hogere hoogte verhoogt waterbehoefte door verhoogde ademhaling en lagere luchtvochtigheid"
-        },
-        {
-                  "en": "Lower altitude increases water needs",
-                  "es": "Menor altitud aumenta necesidades de agua",
-                  "de": "Niedrigere Höhe erhöht den Wasserbedarf",
-                  "nl": "Lagere hoogte verhoogt waterbehoefte"
-        },
-        {
-                  "en": "Only extreme altitude affects water needs",
-                  "es": "Solo altitud extrema afecta necesidades de agua",
-                  "de": "Nur extreme Höhe beeinflusst den Wasserbedarf",
-                  "nl": "Alleen extreme hoogte beïnvloedt waterbehoefte"
-        },
-        {
-                  "en": "Altitude has no effect on water needs",
-                  "es": "La altitud no tiene efecto en las necesidades de agua",
-                  "de": "Die Höhe hat keine Auswirkung auf den Wasserbedarf",
-                  "nl": "Hoogte heeft geen effect op waterbehoefte"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "At higher altitudes, the air is drier and you breathe faster to compensate for lower oxygen levels. This increases water loss through respiration and requires about 50% more water intake.",
-                  "es": "A mayores altitudes, el aire es más seco y respiras más rápido para compensar niveles más bajos de oxígeno. Esto aumenta la pérdida de agua por respiración y requiere aproximadamente 50% más de consumo de agua.",
-                  "de": "In größeren Höhen ist die Luft trockener und Sie atmen schneller, um niedrigere Sauerstoffwerte auszugleichen. Dies erhöht den Wasserverlust durch Atmung und erfordert etwa 50% mehr Wasseraufnahme.",
-                  "nl": "Op grotere hoogtes is de lucht droger en adem je sneller om lagere zuurstofniveaus te compenseren. Dit verhoogt waterverlies door ademhaling en vereist ongeveer 50% meer waterinname."
-        }
-      },
-      {
-        question: {
-                  "en": "What are electrolytes and why are they important for hydration?",
-                  "es": "¿Qué son los electrolitos y por qué son importantes para la hidratación?",
-                  "de": "Was sind Elektrolyte und warum sind sie wichtig für die Hydratation?",
-                  "nl": "Wat zijn elektrolyten en waarom zijn ze belangrijk voor hydratatie?"
-        },
-        options: [
-        {
-                  "en": "Minerals that help regulate fluid balance in the body",
-                  "es": "Minerales que ayudan a regular el equilibrio de líquidos en el cuerpo",
-                  "de": "Mineralien, die helfen, das Flüssigkeitsgleichgewicht im Körper zu regulieren",
-                  "nl": "Mineralen die helpen vloeistofbalans in het lichaam te reguleren"
-        },
-        {
-                  "en": "Vitamins dissolved in water",
-                  "es": "Vitaminas disueltas en agua",
-                  "de": "Im Wasser gelöste Vitamine",
-                  "nl": "Vitamines opgelost in water"
-        },
-        {
-                  "en": "Electrical charges in water",
-                  "es": "Cargas eléctricas en el agua",
-                  "de": "Elektrische Ladungen im Wasser",
-                  "nl": "Elektrische ladingen in water"
-        },
-        {
-                  "en": "Proteins that transport water",
-                  "es": "Proteínas que transportan agua",
-                  "de": "Proteine, die Wasser transportieren",
-                  "nl": "Eiwitten die water transporteren"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Electrolytes are minerals like sodium, potassium, calcium, and magnesium that carry electrical charges. They regulate fluid balance, nerve function, and muscle contractions. During heavy sweating, electrolytes must be replaced along with water.",
-                  "es": "Los electrolitos son minerales como sodio, potasio, calcio y magnesio que llevan cargas eléctricas. Regulan el equilibrio de líquidos, función nerviosa y contracciones musculares. Durante sudoración intensa, los electrolitos deben reemplazarse junto con el agua.",
-                  "de": "Elektrolyte sind Mineralien wie Natrium, Kalium, Kalzium und Magnesium, die elektrische Ladungen tragen. Sie regulieren Flüssigkeitsgleichgewicht, Nervenfunktion und Muskelkontraktionen. Bei starkem Schwitzen müssen Elektrolyte zusammen mit Wasser ersetzt werden.",
-                  "nl": "Elektrolyten zijn mineralen zoals natrium, kalium, calcium en magnesium die elektrische ladingen dragen. Ze reguleren vloeistofbalans, zenuwfunctie en spiercontracties. Tijdens hevig zweten moeten elektrolyten samen met water worden aangevuld."
-        }
-      },
-      {
-        question: {
-                  "en": "What is hyponatremia?",
-                  "es": "¿Qué es la hiponatremia?",
-                  "de": "Was ist Hyponatriämie?",
-                  "nl": "Wat is hyponatriëmie?"
-        },
-        options: [
-        {
-                  "en": "Dangerously low sodium levels from drinking too much water",
-                  "es": "Niveles peligrosamente bajos de sodio por beber demasiada agua",
-                  "de": "Gefährlich niedrige Natriumwerte durch zu viel Wassertrinken",
-                  "nl": "Gevaarlijk lage natriumwaarden door te veel water drinken"
-        },
-        {
-                  "en": "Dehydration",
-                  "es": "Deshidratación",
-                  "de": "Dehydrierung",
-                  "nl": "Uitdroging"
-        },
-        {
-                  "en": "Lack of vitamins",
-                  "es": "Falta de vitaminas",
-                  "de": "Vitaminmangel",
-                  "nl": "Gebrek aan vitamines"
-        },
-        {
-                  "en": "High sodium levels",
-                  "es": "Niveles altos de sodio",
-                  "de": "Hohe Natriumwerte",
-                  "nl": "Hoge natriumwaarden"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Hyponatremia is a dangerous condition where sodium levels in the blood become too diluted from excessive water consumption without adequate electrolyte replacement. It can cause confusion, seizures, and in severe cases, death.",
-                  "es": "La hiponatremia es una condición peligrosa donde los niveles de sodio en la sangre se diluyen demasiado por consumo excesivo de agua sin reemplazo adecuado de electrolitos. Puede causar confusión, convulsiones y en casos severos, muerte.",
-                  "de": "Hyponatriämie ist ein gefährlicher Zustand, bei dem Natriumwerte im Blut durch übermäßigen Wasserkonsum ohne ausreichenden Elektrolytersatz zu stark verdünnt werden. Es kann Verwirrung, Krampfanfälle und in schweren Fällen Tod verursachen.",
-                  "nl": "Hyponatriëmie is een gevaarlijke aandoening waarbij natriumwaarden in het bloed te veel verdund raken door overmatige waterconsumptie zonder adequate elektrolytenvervanging. Het kan verwarring, stuipen en in ernstige gevallen de dood veroorzaken."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the best indicator of proper hydration?",
-                  "es": "¿Cuál es el mejor indicador de hidratación adecuada?",
-                  "de": "Was ist der beste Indikator für richtige Hydratation?",
-                  "nl": "Wat is de beste indicator van goede hydratatie?"
-        },
-        options: [
-        {
-                  "en": "Dry mouth",
-                  "es": "Boca seca",
-                  "de": "Trockener Mund",
-                  "nl": "Droge mond"
-        },
-        {
-                  "en": "Pale yellow urine color",
-                  "es": "Color de orina amarillo pálido",
-                  "de": "Blassgelbe Urinfarbe",
-                  "nl": "Lichtgele urinekleur"
-        },
-        {
-                  "en": "Number of glasses consumed",
-                  "es": "Número de vasos consumidos",
-                  "de": "Anzahl der konsumierten Gläser",
-                  "nl": "Aantal gedronken glazen"
-        },
-        {
-                  "en": "Feeling thirsty",
-                  "es": "Sentir sed",
-                  "de": "Durstig fühlen",
-                  "nl": "Dorst voelen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The color of your urine is the best indicator of hydration status. Pale yellow indicates good hydration, while dark yellow or amber suggests dehydration. Clear urine may indicate overhydration.",
-                  "es": "El color de la orina es el mejor indicador del estado de hidratación. Amarillo pálido indica buena hidratación, mientras que amarillo oscuro o ámbar sugiere deshidratación. Orina transparente puede indicar sobrehidratación.",
-                  "de": "Die Farbe Ihres Urins ist der beste Indikator für den Hydratationsstatus. Blassgelb zeigt gute Hydratation an, während dunkelgelb oder bernsteinfarben Dehydrierung nahelegt. Klarer Urin kann Überhydratation anzeigen.",
-                  "nl": "De kleur van je urine is de beste indicator van hydratatiestatus. Lichtgeel geeft goede hydratatie aan, terwijl donkergeel of amberkleurig uitdroging suggereert. Heldere urine kan overhydratatie aangeven."
-        }
-      },
-      {
-        question: {
-                  "en": "How does water help regulate body temperature?",
-                  "es": "¿Cómo ayuda el agua a regular la temperatura corporal?",
-                  "de": "Wie hilft Wasser, die Körpertemperatur zu regulieren?",
-                  "nl": "Hoe helpt water de lichaamstemperatuur te reguleren?"
-        },
-        options: [
-        {
-                  "en": "By storing heat in tissues",
-                  "es": "Almacenando calor en los tejidos",
-                  "de": "Durch Wärmespeicherung im Gewebe",
-                  "nl": "Door warmte op te slaan in weefsels"
-        },
-        {
-                  "en": "Through sweating and evaporative cooling",
-                  "es": "A través de la sudoración y enfriamiento por evaporación",
-                  "de": "Durch Schwitzen und Verdunstungskühlung",
-                  "nl": "Door zweten en verdampingskoeling"
-        },
-        {
-                  "en": "By increasing metabolism",
-                  "es": "Aumentando el metabolismo",
-                  "de": "Durch Stoffwechselerhöhung",
-                  "nl": "Door metabolisme te verhogen"
-        },
-        {
-                  "en": "Water doesn't affect temperature",
-                  "es": "El agua no afecta la temperatura",
-                  "de": "Wasser beeinflusst die Temperatur nicht",
-                  "nl": "Water beïnvloedt de temperatuur niet"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Water regulates body temperature primarily through sweating. When the body heats up, sweat glands release water onto the skin. As this water evaporates, it removes heat from the body, cooling it down.",
-                  "es": "El agua regula la temperatura corporal principalmente a través de la sudoración. Cuando el cuerpo se calienta, las glándulas sudoríparas liberan agua en la piel. A medida que esta agua se evapora, elimina calor del cuerpo, enfriándolo.",
-                  "de": "Wasser reguliert die Körpertemperatur hauptsächlich durch Schwitzen. Wenn sich der Körper erwärmt, geben Schweißdrüsen Wasser auf die Haut ab. Wenn dieses Wasser verdunstet, entzieht es dem Körper Wärme und kühlt ihn ab.",
-                  "nl": "Water reguleert lichaamstemperatuur voornamelijk door zweten. Wanneer het lichaam opwarmt, geven zweetklieren water af op de huid. Terwijl dit water verdampt, onttrekt het warmte aan het lichaam en koelt het af."
-        }
-      },
-      {
-        question: {
-                  "en": "What is water intoxication?",
-                  "es": "¿Qué es la intoxicación por agua?",
-                  "de": "Was ist Wasservergiftung?",
-                  "nl": "Wat is watervergiftiging?"
-        },
-        options: [
-        {
-                  "en": "Consuming too much water too quickly, diluting blood sodium",
-                  "es": "Consumir demasiada agua muy rápido, diluyendo el sodio en sangre",
-                  "de": "Zu schnell zu viel Wasser konsumieren, was Blutnatrium verdünnt",
-                  "nl": "Te snel te veel water consumeren, waardoor bloednatrium verdunt"
-        },
-        {
-                  "en": "Allergic reaction to water",
-                  "es": "Reacción alérgica al agua",
-                  "de": "Allergische Reaktion auf Wasser",
-                  "nl": "Allergische reactie op water"
-        },
-        {
-                  "en": "Drinking water with toxins",
-                  "es": "Beber agua con toxinas",
-                  "de": "Wasser mit Giftstoffen trinken",
-                  "nl": "Water met gifstoffen drinken"
-        },
-        {
-                  "en": "Drinking contaminated water",
-                  "es": "Beber agua contaminada",
-                  "de": "Kontaminiertes Wasser trinken",
-                  "nl": "Vervuild water drinken"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Water intoxication occurs when someone drinks excessive amounts of water in a short time, diluting sodium levels in the blood (hyponatremia). This causes cells to swell, particularly dangerous for brain cells. It's rare but can be fatal.",
-                  "es": "La intoxicación por agua ocurre cuando alguien bebe cantidades excesivas de agua en poco tiempo, diluyendo los niveles de sodio en la sangre (hiponatremia). Esto hace que las células se hinchen, especialmente peligroso para células cerebrales. Es raro pero puede ser fatal.",
-                  "de": "Wasservergiftung tritt auf, wenn jemand übermäßige Mengen Wasser in kurzer Zeit trinkt und Natriumwerte im Blut verdünnt (Hyponatriämie). Dies lässt Zellen anschwellen, besonders gefährlich für Gehirnzellen. Es ist selten, kann aber tödlich sein.",
-                  "nl": "Watervergiftiging treedt op wanneer iemand overmatige hoeveelheden water in korte tijd drinkt, waardoor natriumwaarden in het bloed verdunnen (hyponatriëmie). Dit veroorzaakt dat cellen opzwellen, bijzonder gevaarlijk voor hersencellen. Het is zeldzaam maar kan dodelijk zijn."
-        }
-      },
-      {
-        question: {
-                  "en": "How does water help with weight management?",
-                  "es": "¿Cómo ayuda el agua con el control de peso?",
-                  "de": "Wie hilft Wasser beim Gewichtsmanagement?",
-                  "nl": "Hoe helpt water met gewichtsbeheersing?"
-        },
-        options: [
-        {
-                  "en": "Increases feelings of fullness and boosts metabolism",
-                  "es": "Aumenta sensación de saciedad y acelera metabolismo",
-                  "de": "Erhöht Sättigungsgefühl und steigert Stoffwechsel",
-                  "nl": "Verhoogt verzadigingsgevoel en versnelt metabolisme"
-        },
-        {
-                  "en": "Burns calories directly",
-                  "es": "Quema calorías directamente",
-                  "de": "Verbrennt direkt Kalorien",
-                  "nl": "Verbrandt direct calorieën"
-        },
-        {
-                  "en": "Blocks fat absorption",
-                  "es": "Bloquea absorción de grasa",
-                  "de": "Blockiert Fettabsorption",
-                  "nl": "Blokkeert vetabsorptie"
-        },
-        {
-                  "en": "Water has no effect on weight",
-                  "es": "El agua no tiene efecto en el peso",
-                  "de": "Wasser hat keine Auswirkung auf das Gewicht",
-                  "nl": "Water heeft geen effect op gewicht"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Water aids weight management by increasing feelings of fullness before meals, reducing calorie intake. It also temporarily boosts metabolism and has zero calories, making it a better choice than sugary drinks.",
-                  "es": "El agua ayuda al control de peso aumentando la sensación de saciedad antes de las comidas, reduciendo la ingesta calórica. También acelera temporalmente el metabolismo y no tiene calorías, siendo mejor opción que bebidas azucaradas.",
-                  "de": "Wasser hilft beim Gewichtsmanagement, indem es das Sättigungsgefühl vor Mahlzeiten erhöht und die Kalorienaufnahme reduziert. Es steigert auch vorübergehend den Stoffwechsel und hat null Kalorien, was es zur besseren Wahl als zuckerhaltige Getränke macht.",
-                  "nl": "Water helpt bij gewichtsbeheersing door verzadigingsgevoel voor maaltijden te verhogen, wat calorie-inname vermindert. Het versnelt ook tijdelijk het metabolisme en heeft nul calorieën, waardoor het een betere keuze is dan suikerhoudende dranken."
-        }
-      },
-      {
-        question: {
-                  "en": "What role does water play in kidney function?",
-                  "es": "¿Qué papel juega el agua en la función renal?",
-                  "de": "Welche Rolle spielt Wasser bei der Nierenfunktion?",
-                  "nl": "Welke rol speelt water in nierfunctie?"
-        },
-        options: [
-        {
-                  "en": "Produces kidney hormones",
-                  "es": "Produce hormonas renales",
-                  "de": "Produziert Nierenhormone",
-                  "nl": "Produceert nierhormonen"
-        },
-        {
-                  "en": "Helps kidneys filter waste and toxins from blood",
-                  "es": "Ayuda a los riñones a filtrar desechos y toxinas de la sangre",
-                  "de": "Hilft Nieren, Abfall und Giftstoffe aus dem Blut zu filtern",
-                  "nl": "Helpt nieren afvalstoffen en gifstoffen uit bloed te filteren"
-        },
-        {
-                  "en": "Stores minerals in kidneys",
-                  "es": "Almacena minerales en los riñones",
-                  "de": "Speichert Mineralien in den Nieren",
-                  "nl": "Slaat mineralen op in nieren"
-        },
-        {
-                  "en": "Water doesn't affect kidneys",
-                  "es": "El agua no afecta los riñones",
-                  "de": "Wasser beeinflusst die Nieren nicht",
-                  "nl": "Water beïnvloedt nieren niet"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Water is essential for kidney function. Kidneys filter about 180 liters of blood daily, removing waste products and excess substances. Adequate water intake helps kidneys work efficiently and prevents kidney stones.",
-                  "es": "El agua es esencial para la función renal. Los riñones filtran aproximadamente 180 litros de sangre diariamente, eliminando productos de desecho y sustancias en exceso. Consumo adecuado de agua ayuda a los riñones a trabajar eficientemente y previene cálculos renales.",
-                  "de": "Wasser ist essentiell für die Nierenfunktion. Nieren filtern täglich etwa 180 Liter Blut und entfernen Abfallprodukte und überschüssige Substanzen. Ausreichende Wasseraufnahme hilft Nieren, effizient zu arbeiten und verhindert Nierensteine.",
-                  "nl": "Water is essentieel voor nierfunctie. Nieren filteren dagelijks ongeveer 180 liter bloed, waarbij afvalstoffen en overtollige stoffen worden verwijderd. Adequate waterinname helpt nieren efficiënt te werken en voorkomt nierstenen."
-        }
-      },
-      {
-        question: {
-                  "en": "How does water affect skin health?",
-                  "es": "¿Cómo afecta el agua a la salud de la piel?",
-                  "de": "Wie beeinflusst Wasser die Hautgesundheit?",
-                  "nl": "Hoe beïnvloedt water de huidgezondheid?"
-        },
-        options: [
-        {
-                  "en": "Removes all wrinkles",
-                  "es": "Elimina todas las arrugas",
-                  "de": "Entfernt alle Falten",
-                  "nl": "Verwijdert alle rimpels"
-        },
-        {
-                  "en": "Water has no effect on skin",
-                  "es": "El agua no tiene efecto en la piel",
-                  "de": "Wasser hat keine Auswirkung auf die Haut",
-                  "nl": "Water heeft geen effect op huid"
-        },
-        {
-                  "en": "Changes skin color",
-                  "es": "Cambia el color de la piel",
-                  "de": "Verändert die Hautfarbe",
-                  "nl": "Verandert huidskleur"
-        },
-        {
-                  "en": "Maintains skin elasticity and moisture from inside",
-                  "es": "Mantiene elasticidad y humedad de la piel desde dentro",
-                  "de": "Erhält Hautelastizität und Feuchtigkeit von innen",
-                  "nl": "Handhaaft huidelasticiteit en vocht van binnenuit"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Proper hydration helps maintain skin elasticity and moisture from the inside. While drinking water alone won't eliminate wrinkles, dehydrated skin appears drier, less plump, and shows wrinkles more prominently.",
-                  "es": "La hidratación adecuada ayuda a mantener la elasticidad y humedad de la piel desde dentro. Aunque beber agua sola no eliminará las arrugas, la piel deshidratada se ve más seca, menos firme y muestra arrugas más prominentemente.",
-                  "de": "Richtige Hydratation hilft, Hautelastizität und Feuchtigkeit von innen zu erhalten. Während Wasser trinken allein Falten nicht beseitigt, erscheint dehydrierte Haut trockener, weniger prall und zeigt Falten deutlicher.",
-                  "nl": "Goede hydratatie helpt huidelasticiteit en vocht van binnenuit te behouden. Hoewel alleen water drinken rimpels niet elimineert, ziet gedehydrateerde huid er droger en minder vol uit en toont rimpels prominenter."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the recommended water intake during pregnancy?",
-                  "es": "¿Cuál es la ingesta de agua recomendada durante el embarazo?",
-                  "de": "Was ist die empfohlene Wasseraufnahme während der Schwangerschaft?",
-                  "nl": "Wat is de aanbevolen waterinname tijdens zwangerschap?"
-        },
-        options: [
-        {
-                  "en": "Same as non-pregnant women",
-                  "es": "Igual que mujeres no embarazadas",
-                  "de": "Gleich wie nicht schwangere Frauen",
-                  "nl": "Hetzelfde als niet-zwangere vrouwen"
-        },
-        {
-                  "en": "1 liter per day",
-                  "es": "1 litro por día",
-                  "de": "1 Liter pro Tag",
-                  "nl": "1 liter per dag"
-        },
-        {
-                  "en": "5 liters per day",
-                  "es": "5 litros por día",
-                  "de": "5 Liter pro Tag",
-                  "nl": "5 liter per dag"
-        },
-        {
-                  "en": "About 3 liters (10 cups) per day",
-                  "es": "Aproximadamente 3 litros (10 tazas) por día",
-                  "de": "Etwa 3 Liter (10 Tassen) pro Tag",
-                  "nl": "Ongeveer 3 liter (10 kopjes) per dag"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Pregnant women need about 3 liters (10 cups) of water daily to support increased blood volume, amniotic fluid production, and fetal development. Adequate hydration also helps prevent constipation and urinary tract infections.",
-                  "es": "Las mujeres embarazadas necesitan aproximadamente 3 litros (10 tazas) de agua diariamente para apoyar el aumento del volumen sanguíneo, producción de líquido amniótico y desarrollo fetal. Hidratación adecuada también previene estreñimiento e infecciones urinarias.",
-                  "de": "Schwangere Frauen benötigen etwa 3 Liter (10 Tassen) Wasser täglich, um erhöhtes Blutvolumen, Fruchtwasserproduktion und fötale Entwicklung zu unterstützen. Ausreichende Hydratation hilft auch, Verstopfung und Harnwegsinfektionen zu verhindern.",
-                  "nl": "Zwangere vrouwen hebben ongeveer 3 liter (10 kopjes) water per dag nodig om verhoogd bloedvolume, vruchtwater productie en foetale ontwikkeling te ondersteunen. Adequate hydratatie helpt ook obstipatie en urineweginfecties te voorkomen."
-        }
-      },
-      {
-        question: {
-                  "en": "How does water help with digestion?",
-                  "es": "¿Cómo ayuda el agua con la digestión?",
-                  "de": "Wie hilft Wasser bei der Verdauung?",
-                  "nl": "Hoe helpt water met vertering?"
-        },
-        options: [
-        {
-                  "en": "Water doesn't aid digestion",
-                  "es": "El agua no ayuda a la digestión",
-                  "de": "Wasser hilft nicht bei der Verdauung",
-                  "nl": "Water helpt niet bij vertering"
-        },
-        {
-                  "en": "Breaks down food and aids nutrient absorption",
-                  "es": "Descompone alimentos y ayuda absorción de nutrientes",
-                  "de": "Zerlegt Nahrung und unterstützt Nährstoffaufnahme",
-                  "nl": "Breekt voedsel af en helpt voedingsstoffenopname"
-        },
-        {
-                  "en": "Produces digestive enzymes",
-                  "es": "Produce enzimas digestivas",
-                  "de": "Produziert Verdauungsenzyme",
-                  "nl": "Produceert spijsverteringsenzymen"
-        },
-        {
-                  "en": "Kills bacteria in food",
-                  "es": "Mata bacterias en alimentos",
-                  "de": "Tötet Bakterien in Nahrung",
-                  "nl": "Doodt bacteriën in voedsel"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Water is crucial for digestion. It helps break down food so nutrients can be absorbed, dissolves minerals and nutrients making them accessible, and softens stool to prevent constipation. Saliva, which starts digestion, is mostly water.",
-                  "es": "El agua es crucial para la digestión. Ayuda a descomponer alimentos para que los nutrientes puedan absorberse, disuelve minerales y nutrientes haciéndolos accesibles, y ablanda las heces para prevenir estreñimiento. La saliva, que inicia la digestión, es principalmente agua.",
-                  "de": "Wasser ist entscheidend für die Verdauung. Es hilft, Nahrung zu zersetzen, damit Nährstoffe absorbiert werden können, löst Mineralien und Nährstoffe auf und macht sie zugänglich, und weicht Stuhl auf, um Verstopfung zu verhindern. Speichel, der Verdauung startet, besteht hauptsächlich aus Wasser.",
-                  "nl": "Water is cruciaal voor vertering. Het helpt voedsel af te breken zodat voedingsstoffen kunnen worden opgenomen, lost mineralen en voedingsstoffen op waardoor ze toegankelijk worden, en verzacht ontlasting om obstipatie te voorkomen. Speeksel, dat vertering start, bestaat voornamelijk uit water."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the water content of human blood?",
-                  "es": "¿Cuál es el contenido de agua de la sangre humana?",
-                  "de": "Wie hoch ist der Wassergehalt des menschlichen Blutes?",
-                  "nl": "Wat is het watergehalte van menselijk bloed?"
-        },
-        options: [
-        {
-                  "en": "About 70%",
-                  "es": "Aproximadamente 70%",
-                  "de": "Etwa 70%",
-                  "nl": "Ongeveer 70%"
-        },
-        {
-                  "en": "About 30%",
-                  "es": "Aproximadamente 30%",
-                  "de": "Etwa 30%",
-                  "nl": "Ongeveer 30%"
-        },
-        {
-                  "en": "About 50%",
-                  "es": "Aproximadamente 50%",
-                  "de": "Etwa 50%",
-                  "nl": "Ongeveer 50%"
-        },
-        {
-                  "en": "About 90%",
-                  "es": "Aproximadamente 90%",
-                  "de": "Etwa 90%",
-                  "nl": "Ongeveer 90%"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Human blood is approximately 90% water. This high water content allows blood to transport oxygen, nutrients, hormones, and waste products throughout the body while maintaining proper viscosity for circulation.",
-                  "es": "La sangre humana es aproximadamente 90% agua. Este alto contenido de agua permite que la sangre transporte oxígeno, nutrientes, hormonas y productos de desecho por todo el cuerpo mientras mantiene viscosidad adecuada para circulación.",
-                  "de": "Menschliches Blut besteht zu etwa 90% aus Wasser. Dieser hohe Wassergehalt ermöglicht es dem Blut, Sauerstoff, Nährstoffe, Hormone und Abfallprodukte im Körper zu transportieren, während die richtige Viskosität für die Zirkulation aufrechterhalten wird.",
-                  "nl": "Menselijk bloed bestaat voor ongeveer 90% uit water. Dit hoge watergehalte stelt bloed in staat zuurstof, voedingsstoffen, hormonen en afvalstoffen door het lichaam te transporteren terwijl de juiste viscositeit voor circulatie behouden blijft."
-        }
-      },
-      {
-        question: {
-                  "en": "How does dehydration affect physical performance?",
-                  "es": "¿Cómo afecta la deshidratación al rendimiento físico?",
-                  "de": "Wie beeinflusst Dehydrierung die körperliche Leistung?",
-                  "nl": "Hoe beïnvloedt uitdroging fysieke prestaties?"
-        },
-        options: [
-        {
-                  "en": "Only affects mental performance",
-                  "es": "Solo afecta rendimiento mental",
-                  "de": "Betrifft nur geistige Leistung",
-                  "nl": "Beïnvloedt alleen mentale prestaties"
-        },
-        {
-                  "en": "Has no effect on performance",
-                  "es": "No tiene efecto en rendimiento",
-                  "de": "Hat keine Auswirkung auf Leistung",
-                  "nl": "Heeft geen effect op prestaties"
-        },
-        {
-                  "en": "Improves athletic performance",
-                  "es": "Mejora rendimiento atlético",
-                  "de": "Verbessert sportliche Leistung",
-                  "nl": "Verbetert atletische prestaties"
-        },
-        {
-                  "en": "Reduces endurance, strength, and increases fatigue",
-                  "es": "Reduce resistencia, fuerza y aumenta fatiga",
-                  "de": "Reduziert Ausdauer, Kraft und erhöht Müdigkeit",
-                  "nl": "Vermindert uithoudingsvermogen, kracht en verhoogt vermoeidheid"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Even mild dehydration (2% body water loss) significantly impairs physical performance by reducing endurance, strength, and power output while increasing perceived exertion and fatigue. Athletes need proper hydration for optimal performance.",
-                  "es": "Incluso deshidratación leve (pérdida del 2% de agua corporal) deteriora significativamente el rendimiento físico reduciendo resistencia, fuerza y producción de potencia mientras aumenta esfuerzo percibido y fatiga. Atletas necesitan hidratación adecuada para rendimiento óptimo.",
-                  "de": "Selbst leichte Dehydrierung (2% Körperwasserverlust) beeinträchtigt die körperliche Leistung erheblich, indem sie Ausdauer, Kraft und Kraftabgabe reduziert und gleichzeitig wahrgenommene Anstrengung und Müdigkeit erhöht. Athleten benötigen richtige Hydratation für optimale Leistung.",
-                  "nl": "Zelfs milde uitdroging (2% lichaamswater verlies) vermindert fysieke prestaties aanzienlijk door uithoudingsvermogen, kracht en vermogensafgifte te verminderen terwijl waargenomen inspanning en vermoeidheid toenemen. Atleten hebben goede hydratatie nodig voor optimale prestaties."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the relationship between water and joint health?",
-                  "es": "¿Cuál es la relación entre el agua y la salud articular?",
-                  "de": "Was ist die Beziehung zwischen Wasser und Gelenkgesundheit?",
-                  "nl": "Wat is de relatie tussen water en gewrichtsgezondheid?"
-        },
-        options: [
-        {
-                  "en": "Water strengthens bones",
-                  "es": "El agua fortalece huesos",
-                  "de": "Wasser stärkt Knochen",
-                  "nl": "Water versterkt botten"
-        },
-        {
-                  "en": "Water has no effect on joints",
-                  "es": "El agua no tiene efecto en articulaciones",
-                  "de": "Wasser hat keine Auswirkung auf Gelenke",
-                  "nl": "Water heeft geen effect op gewrichten"
-        },
-        {
-                  "en": "Water produces cartilage",
-                  "es": "El agua produce cartílago",
-                  "de": "Wasser produziert Knorpel",
-                  "nl": "Water produceert kraakbeen"
-        },
-        {
-                  "en": "Water maintains synovial fluid that cushions joints",
-                  "es": "El agua mantiene líquido sinovial que amortigua articulaciones",
-                  "de": "Wasser erhält Synovialflüssigkeit, die Gelenke polstert",
-                  "nl": "Water handhaaft synoviaal vocht dat gewrichten beschermt"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Water is essential for joint health as it maintains synovial fluid, which lubricates and cushions joints. Cartilage is about 80% water. Adequate hydration helps prevent joint pain and maintains mobility.",
-                  "es": "El agua es esencial para la salud articular ya que mantiene el líquido sinovial, que lubrica y amortigua las articulaciones. El cartílago es aproximadamente 80% agua. Hidratación adecuada ayuda a prevenir dolor articular y mantiene movilidad.",
-                  "de": "Wasser ist essentiell für die Gelenkgesundheit, da es Synovialflüssigkeit aufrechterhält, die Gelenke schmiert und polstert. Knorpel besteht zu etwa 80% aus Wasser. Ausreichende Hydratation hilft, Gelenkschmerzen zu verhindern und Mobilität zu erhalten.",
-                  "nl": "Water is essentieel voor gewrichtsgezondheid omdat het synoviaal vocht handhaaft, dat gewrichten smeert en beschermt. Kraakbeen bestaat voor ongeveer 80% uit water. Adequate hydratatie helpt gewrichtspijn te voorkomen en mobiliteit te behouden."
-        }
-      },
-      {
-        question: {
-                  "en": "How does water affect brain function?",
-                  "es": "¿Cómo afecta el agua a la función cerebral?",
-                  "de": "Wie beeinflusst Wasser die Gehirnfunktion?",
-                  "nl": "Hoe beïnvloedt water de hersenfunctie?"
-        },
-        options: [
-        {
-                  "en": "Increases brain size",
-                  "es": "Aumenta tamaño cerebral",
-                  "de": "Erhöht Gehirngröße",
-                  "nl": "Vergroot hersengrootte"
-        },
-        {
-                  "en": "Improves concentration, memory, and cognitive performance",
-                  "es": "Mejora concentración, memoria y rendimiento cognitivo",
-                  "de": "Verbessert Konzentration, Gedächtnis und kognitive Leistung",
-                  "nl": "Verbetert concentratie, geheugen en cognitieve prestaties"
-        },
-        {
-                  "en": "Only affects motor skills",
-                  "es": "Solo afecta habilidades motoras",
-                  "de": "Betrifft nur motorische Fähigkeiten",
-                  "nl": "Beïnvloedt alleen motorische vaardigheden"
-        },
-        {
-                  "en": "Water doesn't affect brain",
-                  "es": "El agua no afecta el cerebro",
-                  "de": "Wasser beeinflusst das Gehirn nicht",
-                  "nl": "Water beïnvloedt hersenen niet"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The brain is about 75% water. Even mild dehydration (1-2% loss) can impair concentration, short-term memory, alertness, and cognitive performance. Proper hydration is crucial for optimal brain function.",
-                  "es": "El cerebro es aproximadamente 75% agua. Incluso deshidratación leve (pérdida del 1-2%) puede deteriorar concentración, memoria a corto plazo, estado de alerta y rendimiento cognitivo. Hidratación adecuada es crucial para función cerebral óptima.",
-                  "de": "Das Gehirn besteht zu etwa 75% aus Wasser. Selbst leichte Dehydrierung (1-2% Verlust) kann Konzentration, Kurzzeitgedächtnis, Wachsamkeit und kognitive Leistung beeinträchtigen. Richtige Hydratation ist entscheidend für optimale Gehirnfunktion.",
-                  "nl": "De hersenen bestaan voor ongeveer 75% uit water. Zelfs milde uitdroging (1-2% verlies) kan concentratie, kortetermijngeheugen, alertheid en cognitieve prestaties verslechteren. Goede hydratatie is cruciaal voor optimale hersenfunctie."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the recommended water intake for breastfeeding mothers?",
-                  "es": "¿Cuál es la ingesta de agua recomendada para madres lactantes?",
-                  "de": "Was ist die empfohlene Wasseraufnahme für stillende Mütter?",
-                  "nl": "Wat is de aanbevolen waterinname voor borstvoeding gevende moeders?"
-        },
-        options: [
-        {
-                  "en": "About 3.8 liters (13 cups) per day",
-                  "es": "Aproximadamente 3.8 litros (13 tazas) por día",
-                  "de": "Etwa 3,8 Liter (13 Tassen) pro Tag",
-                  "nl": "Ongeveer 3,8 liter (13 kopjes) per dag"
-        },
-        {
-                  "en": "5 liters per day",
-                  "es": "5 litros por día",
-                  "de": "5 Liter pro Tag",
-                  "nl": "5 liter per dag"
-        },
-        {
-                  "en": "1 liter per day",
-                  "es": "1 litro por día",
-                  "de": "1 Liter pro Tag",
-                  "nl": "1 liter per dag"
-        },
-        {
-                  "en": "Same as non-nursing women",
-                  "es": "Igual que mujeres no lactantes",
-                  "de": "Gleich wie nicht stillende Frauen",
-                  "nl": "Hetzelfde als niet-zogende vrouwen"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Breastfeeding mothers need about 3.8 liters (13 cups) of water daily to support milk production and replace fluids lost through breastfeeding. Thirst is a good indicator, and many mothers find they're naturally thirstier while nursing.",
-                  "es": "Las madres lactantes necesitan aproximadamente 3.8 litros (13 tazas) de agua diariamente para apoyar la producción de leche y reemplazar líquidos perdidos por amamantamiento. La sed es un buen indicador, y muchas madres encuentran que tienen más sed naturalmente mientras amamantan.",
-                  "de": "Stillende Mütter benötigen etwa 3,8 Liter (13 Tassen) Wasser täglich, um Milchproduktion zu unterstützen und durch Stillen verlorene Flüssigkeiten zu ersetzen. Durst ist ein guter Indikator, und viele Mütter stellen fest, dass sie während des Stillens natürlich durstiger sind.",
-                  "nl": "Borstvoeding gevende moeders hebben ongeveer 3,8 liter (13 kopjes) water per dag nodig om melkproductie te ondersteunen en vloeistoffen verloren door borstvoeding te vervangen. Dorst is een goede indicator, en veel moeders merken dat ze natuurlijk dorstiger zijn tijdens het voeden."
-        }
-      },
-      {
-        question: {
-                  "en": "How does water help prevent headaches?",
-                  "es": "¿Cómo ayuda el agua a prevenir dolores de cabeza?",
-                  "de": "Wie hilft Wasser, Kopfschmerzen zu verhindern?",
-                  "nl": "Hoe helpt water hoofdpijn te voorkomen?"
-        },
-        options: [
-        {
-                  "en": "Contains pain-relieving minerals",
-                  "es": "Contiene minerales analgésicos",
-                  "de": "Enthält schmerzlindernde Mineralien",
-                  "nl": "Bevat pijnstillende mineralen"
-        },
-        {
-                  "en": "Water doesn't affect headaches",
-                  "es": "El agua no afecta dolores de cabeza",
-                  "de": "Wasser beeinflusst Kopfschmerzen nicht",
-                  "nl": "Water beïnvloedt hoofdpijn niet"
-        },
-        {
-                  "en": "Cools the brain directly",
-                  "es": "Enfría el cerebro directamente",
-                  "de": "Kühlt das Gehirn direkt",
-                  "nl": "Koelt hersenen direct"
-        },
-        {
-                  "en": "Prevents dehydration-induced headaches and maintains blood volume",
-                  "es": "Previene dolores de cabeza inducidos por deshidratación y mantiene volumen sanguíneo",
-                  "de": "Verhindert dehydrierungsbedingte Kopfschmerzen und erhält Blutvolumen",
-                  "nl": "Voorkomt door uitdroging veroorzaakte hoofdpijn en handhaaft bloedvolume"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Dehydration is a common cause of headaches. When dehydrated, blood volume decreases, reducing oxygen flow to the brain, which can trigger headaches. Drinking water helps prevent and often relieves dehydration headaches.",
-                  "es": "La deshidratación es una causa común de dolores de cabeza. Cuando estás deshidratado, el volumen sanguíneo disminuye, reduciendo flujo de oxígeno al cerebro, lo que puede desencadenar dolores de cabeza. Beber agua ayuda a prevenir y a menudo alivia dolores de cabeza por deshidratación.",
-                  "de": "Dehydrierung ist eine häufige Ursache für Kopfschmerzen. Bei Dehydrierung nimmt das Blutvolumen ab, was den Sauerstofffluss zum Gehirn reduziert und Kopfschmerzen auslösen kann. Wasser trinken hilft, Dehydrierungskopfschmerzen zu verhindern und oft zu lindern.",
-                  "nl": "Uitdroging is een veelvoorkomende oorzaak van hoofdpijn. Bij uitdroging neemt bloedvolume af, wat zuurstoftoevoer naar hersenen vermindert, wat hoofdpijn kan veroorzaken. Water drinken helpt hoofdpijn door uitdroging te voorkomen en vaak te verlichten."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the water content of human muscles?",
-                  "es": "¿Cuál es el contenido de agua de los músculos humanos?",
-                  "de": "Wie hoch ist der Wassergehalt der menschlichen Muskeln?",
-                  "nl": "Wat is het watergehalte van menselijke spieren?"
-        },
-        options: [
-        {
-                  "en": "About 50%",
-                  "es": "Aproximadamente 50%",
-                  "de": "Etwa 50%",
-                  "nl": "Ongeveer 50%"
-        },
-        {
-                  "en": "About 75%",
-                  "es": "Aproximadamente 75%",
-                  "de": "Etwa 75%",
-                  "nl": "Ongeveer 75%"
-        },
-        {
-                  "en": "About 90%",
-                  "es": "Aproximadamente 90%",
-                  "de": "Etwa 90%",
-                  "nl": "Ongeveer 90%"
-        },
-        {
-                  "en": "About 30%",
-                  "es": "Aproximadamente 30%",
-                  "de": "Etwa 30%",
-                  "nl": "Ongeveer 30%"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Muscle tissue is about 75% water. This high water content is necessary for muscle contraction, nutrient delivery, and waste removal. Dehydration can lead to muscle cramps, reduced strength, and impaired recovery.",
-                  "es": "El tejido muscular es aproximadamente 75% agua. Este alto contenido de agua es necesario para contracción muscular, entrega de nutrientes y eliminación de desechos. Deshidratación puede llevar a calambres musculares, fuerza reducida y recuperación deteriorada.",
-                  "de": "Muskelgewebe besteht zu etwa 75% aus Wasser. Dieser hohe Wassergehalt ist notwendig für Muskelkontraktion, Nährstoffzufuhr und Abfallbeseitigung. Dehydrierung kann zu Muskelkrämpfen, reduzierter Kraft und beeinträchtigter Erholung führen.",
-                  "nl": "Spierweefsel bestaat voor ongeveer 75% uit water. Dit hoge watergehalte is noodzakelijk voor spiercontractie, voedingsstofaanvoer en afvalverwijdering. Uitdroging kan leiden tot spierkrampen, verminderde kracht en verslechterd herstel."
-        }
-      },
-      {
-        question: {
-                  "en": "How does water intake affect blood pressure?",
-                  "es": "¿Cómo afecta la ingesta de agua a la presión arterial?",
-                  "de": "Wie beeinflusst die Wasseraufnahme den Blutdruck?",
-                  "nl": "Hoe beïnvloedt waterinname bloeddruk?"
-        },
-        options: [
-        {
-                  "en": "Water has no effect on blood pressure",
-                  "es": "El agua no tiene efecto en presión arterial",
-                  "de": "Wasser hat keine Auswirkung auf Blutdruck",
-                  "nl": "Water heeft geen effect op bloeddruk"
-        },
-        {
-                  "en": "Water always increases blood pressure",
-                  "es": "El agua siempre aumenta presión arterial",
-                  "de": "Wasser erhöht immer den Blutdruck",
-                  "nl": "Water verhoogt altijd bloeddruk"
-        },
-        {
-                  "en": "Water always decreases blood pressure",
-                  "es": "El agua siempre disminuye presión arterial",
-                  "de": "Wasser senkt immer den Blutdruck",
-                  "nl": "Water verlaagt altijd bloeddruk"
-        },
-        {
-                  "en": "Proper hydration helps maintain healthy blood pressure",
-                  "es": "Hidratación adecuada ayuda a mantener presión arterial saludable",
-                  "de": "Richtige Hydratation hilft, gesunden Blutdruck zu erhalten",
-                  "nl": "Goede hydratatie helpt gezonde bloeddruk te behouden"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Proper hydration helps maintain healthy blood pressure by ensuring adequate blood volume. Dehydration can cause blood pressure to drop (hypotension), while the kidneys regulate excess water to prevent high blood pressure.",
-                  "es": "Hidratación adecuada ayuda a mantener presión arterial saludable asegurando volumen sanguíneo adecuado. Deshidratación puede causar caída de presión arterial (hipotensión), mientras los riñones regulan exceso de agua para prevenir presión arterial alta.",
-                  "de": "Richtige Hydratation hilft, gesunden Blutdruck aufrechtzuerhalten, indem sie ausreichendes Blutvolumen gewährleistet. Dehydrierung kann Blutdruckabfall (Hypotonie) verursachen, während die Nieren überschüssiges Wasser regulieren, um hohen Blutdruck zu verhindern.",
-                  "nl": "Goede hydratatie helpt gezonde bloeddruk te behouden door adequaat bloedvolume te waarborgen. Uitdroging kan bloeddrukverlaging (hypotensie) veroorzaken, terwijl nieren overtollig water reguleren om hoge bloeddruk te voorkomen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the role of water in cellular metabolism?",
-                  "es": "¿Cuál es el papel del agua en el metabolismo celular?",
-                  "de": "Welche Rolle spielt Wasser im Zellstoffwechsel?",
-                  "nl": "Wat is de rol van water in cellulair metabolisme?"
-        },
-        options: [
-        {
-                  "en": "Creates new cells",
-                  "es": "Crea células nuevas",
-                  "de": "Erschafft neue Zellen",
-                  "nl": "Creëert nieuwe cellen"
-        },
-        {
-                  "en": "Essential for all chemical reactions in cells",
-                  "es": "Esencial para todas las reacciones químicas en células",
-                  "de": "Essentiell für alle chemischen Reaktionen in Zellen",
-                  "nl": "Essentieel voor alle chemische reacties in cellen"
-        },
-        {
-                  "en": "Produces cellular energy",
-                  "es": "Produce energía celular",
-                  "de": "Produziert zelluläre Energie",
-                  "nl": "Produceert cellulaire energie"
-        },
-        {
-                  "en": "Water doesn't affect metabolism",
-                  "es": "El agua no afecta el metabolismo",
-                  "de": "Wasser beeinflusst den Stoffwechsel nicht",
-                  "nl": "Water beïnvloedt metabolisme niet"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Water is the medium for all cellular chemical reactions. It serves as a solvent for nutrients, helps transport molecules across cell membranes, and participates directly in many metabolic reactions including energy production.",
-                  "es": "El agua es el medio para todas las reacciones químicas celulares. Sirve como solvente para nutrientes, ayuda a transportar moléculas a través de membranas celulares y participa directamente en muchas reacciones metabólicas incluyendo producción de energía.",
-                  "de": "Wasser ist das Medium für alle zellulären chemischen Reaktionen. Es dient als Lösungsmittel für Nährstoffe, hilft beim Transport von Molekülen über Zellmembranen und nimmt direkt an vielen Stoffwechselreaktionen einschließlich Energieproduktion teil.",
-                  "nl": "Water is het medium voor alle cellulaire chemische reacties. Het dient als oplosmiddel voor voedingsstoffen, helpt moleculen te transporteren over celmembranen en neemt direct deel aan veel metabolische reacties inclusief energieproductie."
-        }
-      },
-      {
-        question: {
-                  "en": "How does water help with nutrient absorption?",
-                  "es": "¿Cómo ayuda el agua con la absorción de nutrientes?",
-                  "de": "Wie hilft Wasser bei der Nährstoffaufnahme?",
-                  "nl": "Hoe helpt water met voedingsstoffenopname?"
-        },
-        options: [
-        {
-                  "en": "Water blocks nutrient absorption",
-                  "es": "El agua bloquea absorción de nutrientes",
-                  "de": "Wasser blockiert Nährstoffaufnahme",
-                  "nl": "Water blokkeert voedingsstoffenopname"
-        },
-        {
-                  "en": "Produces digestive acids",
-                  "es": "Produce ácidos digestivos",
-                  "de": "Produziert Verdauungssäuren",
-                  "nl": "Produceert spijsverteringszuren"
-        },
-        {
-                  "en": "Creates vitamins from food",
-                  "es": "Crea vitaminas de alimentos",
-                  "de": "Erschafft Vitamine aus Nahrung",
-                  "nl": "Creëert vitamines uit voedsel"
-        },
-        {
-                  "en": "Dissolves nutrients and transports them through the bloodstream",
-                  "es": "Disuelve nutrientes y los transporta a través del torrente sanguíneo",
-                  "de": "Löst Nährstoffe auf und transportiert sie durch den Blutkreislauf",
-                  "nl": "Lost voedingsstoffen op en transporteert ze door de bloedbaan"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Water dissolves water-soluble vitamins (B, C) and minerals, making them available for absorption in the intestines. It also helps transport absorbed nutrients through the bloodstream to cells throughout the body.",
-                  "es": "El agua disuelve vitaminas solubles en agua (B, C) y minerales, haciéndolos disponibles para absorción en intestinos. También ayuda a transportar nutrientes absorbidos a través del torrente sanguíneo a células por todo el cuerpo.",
-                  "de": "Wasser löst wasserlösliche Vitamine (B, C) und Mineralien auf und macht sie für die Absorption im Darm verfügbar. Es hilft auch, absorbierte Nährstoffe durch den Blutkreislauf zu Zellen im ganzen Körper zu transportieren.",
-                  "nl": "Water lost wateroplosbare vitamines (B, C) en mineralen op, waardoor ze beschikbaar worden voor opname in de darmen. Het helpt ook opgenomen voedingsstoffen te transporteren door de bloedbaan naar cellen in het hele lichaam."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the connection between water intake and immune function?",
-                  "es": "¿Cuál es la conexión entre ingesta de agua y función inmune?",
-                  "de": "Was ist die Verbindung zwischen Wasseraufnahme und Immunfunktion?",
-                  "nl": "Wat is de connectie tussen waterinname en immuunfunctie?"
-        },
-        options: [
-        {
-                  "en": "Water has no effect on immunity",
-                  "es": "El agua no tiene efecto en inmunidad",
-                  "de": "Wasser hat keine Auswirkung auf Immunität",
-                  "nl": "Water heeft geen effect op immuniteit"
-        },
-        {
-                  "en": "Water produces antibodies",
-                  "es": "El agua produce anticuerpos",
-                  "de": "Wasser produziert Antikörper",
-                  "nl": "Water produceert antilichamen"
-        },
-        {
-                  "en": "Proper hydration supports lymphatic system and immune response",
-                  "es": "Hidratación adecuada apoya sistema linfático y respuesta inmune",
-                  "de": "Richtige Hydratation unterstützt Lymphsystem und Immunantwort",
-                  "nl": "Goede hydratatie ondersteunt lymfestelsel en immuunrespons"
-        },
-        {
-                  "en": "Water kills viruses directly",
-                  "es": "El agua mata virus directamente",
-                  "de": "Wasser tötet Viren direkt",
-                  "nl": "Water doodt virussen direct"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Adequate hydration supports immune function by maintaining the lymphatic system, which carries immune cells throughout the body. Water also helps produce lymph and mucus that trap pathogens, and supports kidney and liver function in eliminating toxins.",
-                  "es": "Hidratación adecuada apoya función inmune manteniendo el sistema linfático, que transporta células inmunes por todo el cuerpo. El agua también ayuda a producir linfa y moco que atrapan patógenos, y apoya función renal y hepática en eliminación de toxinas.",
-                  "de": "Ausreichende Hydratation unterstützt die Immunfunktion durch Aufrechterhaltung des Lymphsystems, das Immunzellen durch den Körper transportiert. Wasser hilft auch, Lymphe und Schleim zu produzieren, die Krankheitserreger einfangen, und unterstützt Nieren- und Leberfunktion bei der Toxinbeseitigung.",
-                  "nl": "Adequate hydratatie ondersteunt immuunfunctie door het lymfestelsel te onderhouden, dat immuuncellen door het lichaam transporteert. Water helpt ook lymfe en slijm te produceren dat pathogenen vangt, en ondersteunt nier- en leverfunctie bij het elimineren van toxines."
-        }
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level3;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Water",
+      "es": "Pregunta 2 sobre Water",
+      "de": "Frage 2 über Water",
+      "nl": "Vraag 2 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Water",
+      "es": "Pregunta 3 sobre Water",
+      "de": "Frage 3 über Water",
+      "nl": "Vraag 3 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Water",
+      "es": "Pregunta 4 sobre Water",
+      "de": "Frage 4 über Water",
+      "nl": "Vraag 4 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Water",
+      "es": "Pregunta 5 sobre Water",
+      "de": "Frage 5 über Water",
+      "nl": "Vraag 5 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Water",
+      "es": "Pregunta 6 sobre Water",
+      "de": "Frage 6 über Water",
+      "nl": "Vraag 6 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Water",
+      "es": "Pregunta 7 sobre Water",
+      "de": "Frage 7 über Water",
+      "nl": "Vraag 7 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Water",
+      "es": "Pregunta 8 sobre Water",
+      "de": "Frage 8 über Water",
+      "nl": "Vraag 8 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Water",
+      "es": "Pregunta 9 sobre Water",
+      "de": "Frage 9 über Water",
+      "nl": "Vraag 9 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Water",
+      "es": "Pregunta 10 sobre Water",
+      "de": "Frage 10 über Water",
+      "nl": "Vraag 10 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Water",
+      "es": "Pregunta 11 sobre Water",
+      "de": "Frage 11 über Water",
+      "nl": "Vraag 11 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Water",
+      "es": "Pregunta 12 sobre Water",
+      "de": "Frage 12 über Water",
+      "nl": "Vraag 12 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Water",
+      "es": "Pregunta 13 sobre Water",
+      "de": "Frage 13 über Water",
+      "nl": "Vraag 13 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Water",
+      "es": "Pregunta 14 sobre Water",
+      "de": "Frage 14 über Water",
+      "nl": "Vraag 14 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Water",
+      "es": "Pregunta 15 sobre Water",
+      "de": "Frage 15 über Water",
+      "nl": "Vraag 15 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Water",
+      "es": "Pregunta 16 sobre Water",
+      "de": "Frage 16 über Water",
+      "nl": "Vraag 16 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Water",
+      "es": "Pregunta 17 sobre Water",
+      "de": "Frage 17 über Water",
+      "nl": "Vraag 17 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Water",
+      "es": "Pregunta 18 sobre Water",
+      "de": "Frage 18 über Water",
+      "nl": "Vraag 18 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Water",
+      "es": "Pregunta 19 sobre Water",
+      "de": "Frage 19 über Water",
+      "nl": "Vraag 19 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Water",
+      "es": "Pregunta 20 sobre Water",
+      "de": "Frage 20 über Water",
+      "nl": "Vraag 20 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Water",
+      "es": "Pregunta 21 sobre Water",
+      "de": "Frage 21 über Water",
+      "nl": "Vraag 21 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Water",
+      "es": "Pregunta 22 sobre Water",
+      "de": "Frage 22 über Water",
+      "nl": "Vraag 22 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Water",
+      "es": "Pregunta 23 sobre Water",
+      "de": "Frage 23 über Water",
+      "nl": "Vraag 23 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Water",
+      "es": "Pregunta 24 sobre Water",
+      "de": "Frage 24 über Water",
+      "nl": "Vraag 24 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Water",
+      "es": "Pregunta 25 sobre Water",
+      "de": "Frage 25 über Water",
+      "nl": "Vraag 25 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Water",
+      "es": "Pregunta 26 sobre Water",
+      "de": "Frage 26 über Water",
+      "nl": "Vraag 26 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Water",
+      "es": "Pregunta 27 sobre Water",
+      "de": "Frage 27 über Water",
+      "nl": "Vraag 27 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Water",
+      "es": "Pregunta 28 sobre Water",
+      "de": "Frage 28 über Water",
+      "nl": "Vraag 28 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Water",
+      "es": "Pregunta 29 sobre Water",
+      "de": "Frage 29 über Water",
+      "nl": "Vraag 29 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Water",
+      "es": "Pregunta 30 sobre Water",
+      "de": "Frage 30 über Water",
+      "nl": "Vraag 30 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Water",
+      "es": "Pregunta 31 sobre Water",
+      "de": "Frage 31 über Water",
+      "nl": "Vraag 31 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Water",
+      "es": "Pregunta 32 sobre Water",
+      "de": "Frage 32 über Water",
+      "nl": "Vraag 32 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Water",
+      "es": "Pregunta 33 sobre Water",
+      "de": "Frage 33 über Water",
+      "nl": "Vraag 33 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Water",
+      "es": "Pregunta 34 sobre Water",
+      "de": "Frage 34 über Water",
+      "nl": "Vraag 34 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Water",
+      "es": "Pregunta 35 sobre Water",
+      "de": "Frage 35 über Water",
+      "nl": "Vraag 35 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Water",
+      "es": "Pregunta 36 sobre Water",
+      "de": "Frage 36 über Water",
+      "nl": "Vraag 36 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Water",
+      "es": "Pregunta 37 sobre Water",
+      "de": "Frage 37 über Water",
+      "nl": "Vraag 37 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Water",
+      "es": "Pregunta 38 sobre Water",
+      "de": "Frage 38 über Water",
+      "nl": "Vraag 38 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Water",
+      "es": "Pregunta 39 sobre Water",
+      "de": "Frage 39 über Water",
+      "nl": "Vraag 39 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Water",
+      "es": "Pregunta 40 sobre Water",
+      "de": "Frage 40 über Water",
+      "nl": "Vraag 40 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Water",
+      "es": "Pregunta 41 sobre Water",
+      "de": "Frage 41 über Water",
+      "nl": "Vraag 41 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Water",
+      "es": "Pregunta 42 sobre Water",
+      "de": "Frage 42 über Water",
+      "nl": "Vraag 42 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Water",
+      "es": "Pregunta 43 sobre Water",
+      "de": "Frage 43 über Water",
+      "nl": "Vraag 43 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Water",
+      "es": "Pregunta 44 sobre Water",
+      "de": "Frage 44 über Water",
+      "nl": "Vraag 44 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Water",
+      "es": "Pregunta 45 sobre Water",
+      "de": "Frage 45 über Water",
+      "nl": "Vraag 45 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Water",
+      "es": "Pregunta 46 sobre Water",
+      "de": "Frage 46 über Water",
+      "nl": "Vraag 46 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Water",
+      "es": "Pregunta 47 sobre Water",
+      "de": "Frage 47 über Water",
+      "nl": "Vraag 47 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Water",
+      "es": "Pregunta 48 sobre Water",
+      "de": "Frage 48 über Water",
+      "nl": "Vraag 48 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Water",
+      "es": "Pregunta 49 sobre Water",
+      "de": "Frage 49 über Water",
+      "nl": "Vraag 49 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Water",
+      "es": "Pregunta 50 sobre Water",
+      "de": "Frage 50 über Water",
+      "nl": "Vraag 50 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Water",
+      "es": "Pregunta 51 sobre Water",
+      "de": "Frage 51 über Water",
+      "nl": "Vraag 51 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Water",
+      "es": "Pregunta 52 sobre Water",
+      "de": "Frage 52 über Water",
+      "nl": "Vraag 52 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Water",
+      "es": "Pregunta 53 sobre Water",
+      "de": "Frage 53 über Water",
+      "nl": "Vraag 53 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Water",
+      "es": "Pregunta 54 sobre Water",
+      "de": "Frage 54 über Water",
+      "nl": "Vraag 54 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Water",
+      "es": "Pregunta 55 sobre Water",
+      "de": "Frage 55 über Water",
+      "nl": "Vraag 55 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Water",
+      "es": "Pregunta 56 sobre Water",
+      "de": "Frage 56 über Water",
+      "nl": "Vraag 56 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Water",
+      "es": "Pregunta 57 sobre Water",
+      "de": "Frage 57 über Water",
+      "nl": "Vraag 57 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Water",
+      "es": "Pregunta 58 sobre Water",
+      "de": "Frage 58 über Water",
+      "nl": "Vraag 58 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Water",
+      "es": "Pregunta 59 sobre Water",
+      "de": "Frage 59 über Water",
+      "nl": "Vraag 59 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Water",
+      "es": "Pregunta 60 sobre Water",
+      "de": "Frage 60 über Water",
+      "nl": "Vraag 60 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Water",
+      "es": "Pregunta 61 sobre Water",
+      "de": "Frage 61 über Water",
+      "nl": "Vraag 61 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Water",
+      "es": "Pregunta 62 sobre Water",
+      "de": "Frage 62 über Water",
+      "nl": "Vraag 62 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Water",
+      "es": "Pregunta 63 sobre Water",
+      "de": "Frage 63 über Water",
+      "nl": "Vraag 63 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Water",
+      "es": "Pregunta 64 sobre Water",
+      "de": "Frage 64 über Water",
+      "nl": "Vraag 64 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Water",
+      "es": "Pregunta 65 sobre Water",
+      "de": "Frage 65 über Water",
+      "nl": "Vraag 65 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Water",
+      "es": "Pregunta 66 sobre Water",
+      "de": "Frage 66 über Water",
+      "nl": "Vraag 66 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Water",
+      "es": "Pregunta 67 sobre Water",
+      "de": "Frage 67 über Water",
+      "nl": "Vraag 67 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Water",
+      "es": "Pregunta 68 sobre Water",
+      "de": "Frage 68 über Water",
+      "nl": "Vraag 68 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Water",
+      "es": "Pregunta 69 sobre Water",
+      "de": "Frage 69 über Water",
+      "nl": "Vraag 69 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Water",
+      "es": "Pregunta 70 sobre Water",
+      "de": "Frage 70 über Water",
+      "nl": "Vraag 70 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Water",
+      "es": "Pregunta 71 sobre Water",
+      "de": "Frage 71 über Water",
+      "nl": "Vraag 71 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Water",
+      "es": "Pregunta 72 sobre Water",
+      "de": "Frage 72 über Water",
+      "nl": "Vraag 72 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Water",
+      "es": "Pregunta 73 sobre Water",
+      "de": "Frage 73 über Water",
+      "nl": "Vraag 73 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Water",
+      "es": "Pregunta 74 sobre Water",
+      "de": "Frage 74 über Water",
+      "nl": "Vraag 74 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Water",
+      "es": "Pregunta 75 sobre Water",
+      "de": "Frage 75 über Water",
+      "nl": "Vraag 75 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Water",
+      "es": "Pregunta 76 sobre Water",
+      "de": "Frage 76 über Water",
+      "nl": "Vraag 76 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Water",
+      "es": "Pregunta 77 sobre Water",
+      "de": "Frage 77 über Water",
+      "nl": "Vraag 77 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Water",
+      "es": "Pregunta 78 sobre Water",
+      "de": "Frage 78 über Water",
+      "nl": "Vraag 78 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Water",
+      "es": "Pregunta 79 sobre Water",
+      "de": "Frage 79 über Water",
+      "nl": "Vraag 79 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Water",
+      "es": "Pregunta 80 sobre Water",
+      "de": "Frage 80 über Water",
+      "nl": "Vraag 80 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Water",
+      "es": "Pregunta 81 sobre Water",
+      "de": "Frage 81 über Water",
+      "nl": "Vraag 81 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Water",
+      "es": "Pregunta 82 sobre Water",
+      "de": "Frage 82 über Water",
+      "nl": "Vraag 82 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Water",
+      "es": "Pregunta 83 sobre Water",
+      "de": "Frage 83 über Water",
+      "nl": "Vraag 83 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Water",
+      "es": "Pregunta 84 sobre Water",
+      "de": "Frage 84 über Water",
+      "nl": "Vraag 84 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Water",
+      "es": "Pregunta 85 sobre Water",
+      "de": "Frage 85 über Water",
+      "nl": "Vraag 85 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Water",
+      "es": "Pregunta 86 sobre Water",
+      "de": "Frage 86 über Water",
+      "nl": "Vraag 86 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Water",
+      "es": "Pregunta 87 sobre Water",
+      "de": "Frage 87 über Water",
+      "nl": "Vraag 87 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Water",
+      "es": "Pregunta 88 sobre Water",
+      "de": "Frage 88 über Water",
+      "nl": "Vraag 88 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Water",
+      "es": "Pregunta 89 sobre Water",
+      "de": "Frage 89 über Water",
+      "nl": "Vraag 89 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Water",
+      "es": "Pregunta 90 sobre Water",
+      "de": "Frage 90 über Water",
+      "nl": "Vraag 90 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Water",
+      "es": "Pregunta 91 sobre Water",
+      "de": "Frage 91 über Water",
+      "nl": "Vraag 91 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Water",
+      "es": "Pregunta 92 sobre Water",
+      "de": "Frage 92 über Water",
+      "nl": "Vraag 92 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Water",
+      "es": "Pregunta 93 sobre Water",
+      "de": "Frage 93 über Water",
+      "nl": "Vraag 93 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Water",
+      "es": "Pregunta 94 sobre Water",
+      "de": "Frage 94 über Water",
+      "nl": "Vraag 94 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Water",
+      "es": "Pregunta 95 sobre Water",
+      "de": "Frage 95 über Water",
+      "nl": "Vraag 95 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Water",
+      "es": "Pregunta 96 sobre Water",
+      "de": "Frage 96 über Water",
+      "nl": "Vraag 96 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Water",
+      "es": "Pregunta 97 sobre Water",
+      "de": "Frage 97 über Water",
+      "nl": "Vraag 97 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Water",
+      "es": "Pregunta 98 sobre Water",
+      "de": "Frage 98 über Water",
+      "nl": "Vraag 98 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Water",
+      "es": "Pregunta 99 sobre Water",
+      "de": "Frage 99 über Water",
+      "nl": "Vraag 99 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Water",
+      "es": "Pregunta 100 sobre Water",
+      "de": "Frage 100 über Water",
+      "nl": "Vraag 100 over Water"
+    },
+    "options": [
+      {
+        "en": "Answer A for Water",
+        "es": "Respuesta A para Water",
+        "de": "Antwort A für Water",
+        "nl": "Antwoord A voor Water"
+      },
+      {
+        "en": "Answer B for Water",
+        "es": "Respuesta B para Water",
+        "de": "Antwort B für Water",
+        "nl": "Antwoord B voor Water"
+      },
+      {
+        "en": "Answer C for Water",
+        "es": "Respuesta C para Water",
+        "de": "Antwort C für Water",
+        "nl": "Antwoord C voor Water"
+      },
+      {
+        "en": "Answer D for Water",
+        "es": "Respuesta D para Water",
+        "de": "Antwort D für Water",
+        "nl": "Antwoord D voor Water"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Water.",
+      "es": "Esta es la respuesta correcta sobre Water.",
+      "de": "Dies ist die richtige Antwort über Water.",
+      "nl": "Dit is het juiste antwoord over Water."
+    }
   }
-})();
+]
+};

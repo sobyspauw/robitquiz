@@ -1,1657 +1,4104 @@
-// Valley of the Kings Quiz - Level 2
-(function() {
-  const level2 = {
-    name: {
-          "en": "Valley of the  Kings Level 2",
-          "es": "Valley of the  Kings Nivel 2",
-          "de": "Valley of the  Kings Stufe 2",
-          "nl": "Valley of the  Kings Level 2"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Valley of the Kings",
+      "es": "Pregunta 1 sobre Valley of the Kings",
+      "de": "Frage 1 über Valley of the Kings",
+      "nl": "Vraag 1 over Valley of the Kings"
     },
-    questions: [
+    "options": [
       {
-        question: {
-                  "en": "What were the Egyptian pyramids primarily built for?",
-                  "es": "Â¿Para quÃ© se construyeron principalmente las pirÃ¡mides egipcias?",
-                  "de": "WofÃ¼r wurden die Ã¤gyptischen Pyramiden hauptsÃ¤chlich gebaut?",
-                  "nl": "Waarvoor werden de Egyptische piramides voornamelijk gebouwd?"
-        },
-        options: [
-        {
-                  "en": "Temples for worship",
-                  "es": "Templos de adoraciÃ³n",
-                  "de": "Anbetungstempel",
-                  "nl": "Tempels voor aanbidding"
-        },
-        {
-                  "en": "Tombs for pharaohs",
-                  "es": "Tumbas para faraones",
-                  "de": "GrÃ¤ber fÃ¼r Pharaonen",
-                  "nl": "Graven voor farao's"
-        },
-        {
-                  "en": "Schools for children",
-                  "es": "Escuelas para niÃ±os",
-                  "de": "Schulen fÃ¼r Kinder",
-                  "nl": "Scholen voor kinderen"
-        },
-        {
-                  "en": "Storage for grain",
-                  "es": "Almacenamiento de grano",
-                  "de": "Getreidespeicher",
-                  "nl": "Opslag voor graan"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Pyramids were built as eternal resting places for pharaohs, who were considered gods on earth and needed elaborate tombs for the afterlife.",
-                  "es": "Las pirÃ¡mides se construyeron como lugares de descanso eterno para los faraones, que eran considerados dioses en la tierra y necesitaban tumbas elaboradas para la vida despuÃ©s de la muerte.",
-                  "de": "Pyramiden wurden als ewige RuhestÃ¤tten fÃ¼r Pharaonen gebaut, die als GÃ¶tter auf Erden galten und aufwendige GrÃ¤ber fÃ¼r das Jenseits benÃ¶tigten.",
-                  "nl": "Piramides werden gebouwd als eeuwige rustplaatsen voor farao's, die werden beschouwd als goden op aarde en uitgebreide graven nodig hadden voor het hiernamaals."
-        }
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
       },
       {
-        question: {
-                  "en": "Where are the most famous pyramids located?",
-                  "es": "Â¿DÃ³nde se encuentran las pirÃ¡mides mÃ¡s famosas?",
-                  "de": "Wo befinden sich die berÃ¼hmtesten Pyramiden?",
-                  "nl": "Waar bevinden zich de beroemdste piramides?"
-        },
-        options: [
-        {
-                  "en": "Cairo",
-                  "es": "El Cairo",
-                  "de": "Kairo",
-                  "nl": "CaÃ¯ro"
-        },
-        {
-                  "en": "Alexandria",
-                  "es": "AlejandrÃ­a",
-                  "de": "Alexandria",
-                  "nl": "AlexandriÃ«"
-        },
-        {
-                  "en": "Giza",
-                  "es": "Giza",
-                  "de": "Gizeh",
-                  "nl": "Giza"
-        },
-        {
-                  "en": "Luxor",
-                  "es": "Luxor",
-                  "de": "Luxor",
-                  "nl": "Luxor"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The Great Pyramid of Giza, along with two other large pyramids, stands on the Giza plateau near Cairo, forming one of the Seven Wonders of the Ancient World.",
-                  "es": "La Gran PirÃ¡mide de Giza, junto con otras dos pirÃ¡mides grandes, se encuentra en la meseta de Giza cerca de El Cairo, formando una de las Siete Maravillas del Mundo Antiguo.",
-                  "de": "Die GroÃŸe Pyramide von Gizeh steht zusammen mit zwei anderen groÃŸen Pyramiden auf dem Gizeh-Plateau bei Kairo und bildet eines der Sieben Weltwunder der Antike.",
-                  "nl": "De Grote Piramide van Giza, samen met twee andere grote piramides, staat op het Giza-plateau bij CaÃ¯ro en vormt een van de Zeven Wereldwonderen van de Oudheid."
-        }
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
       },
       {
-        question: {
-                  "en": "What is the largest pyramid in Egypt called?",
-                  "es": "Â¿CÃ³mo se llama la pirÃ¡mide mÃ¡s grande de Egipto?",
-                  "de": "Wie heiÃŸt die grÃ¶ÃŸte Pyramide in Ã„gypten?",
-                  "nl": "Hoe heet de grootste piramide in Egypte?"
-        },
-        options: [
-        {
-                  "en": "Great Pyramid of Khufu (Cheops)",
-                  "es": "Gran PirÃ¡mide de Keops",
-                  "de": "GroÃŸe Pyramide des Cheops",
-                  "nl": "Grote Piramide van Cheops"
-        },
-        {
-                  "en": "Step Pyramid of Djoser",
-                  "es": "PirÃ¡mide Escalonada de Zoser",
-                  "de": "Stufenpyramide des Djoser",
-                  "nl": "Trappenpirami de van Djoser"
-        },
-        {
-                  "en": "Pyramid of Khafre",
-                  "es": "PirÃ¡mide de KefrÃ©n",
-                  "de": "Pyramide des Chephren",
-                  "nl": "Piramide van Chefren"
-        },
-        {
-                  "en": "Red Pyramid",
-                  "es": "PirÃ¡mide Roja",
-                  "de": "Rote Pyramide",
-                  "nl": "Rode Piramide"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Great Pyramid of Khufu (also called Cheops) is the largest pyramid in Egypt and was the tallest man-made structure in the world for over 3,800 years.",
-                  "es": "La Gran PirÃ¡mide de Keops es la pirÃ¡mide mÃ¡s grande de Egipto y fue la estructura artificial mÃ¡s alta del mundo durante mÃ¡s de 3,800 aÃ±os.",
-                  "de": "Die GroÃŸe Pyramide des Cheops ist die grÃ¶ÃŸte Pyramide in Ã„gypten und war Ã¼ber 3.800 Jahre lang das hÃ¶chste von Menschen geschaffene Bauwerk der Welt.",
-                  "nl": "De Grote Piramide van Cheops is de grootste piramide in Egypte en was meer dan 3.800 jaar lang het hoogste door mensen gemaakte bouwwerk ter wereld."
-        }
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
       },
       {
-        question: {
-                  "en": "How many sides does a typical Egyptian pyramid have?",
-                  "es": "Â¿CuÃ¡ntos lados tiene una pirÃ¡mide egipcia tÃ­pica?",
-                  "de": "Wie viele Seiten hat eine typische Ã¤gyptische Pyramide?",
-                  "nl": "Hoeveel zijden heeft een typische Egyptische piramide?"
-        },
-        options: [
-        {
-                  "en": "3 sides",
-                  "es": "3 lados",
-                  "de": "3 Seiten",
-                  "nl": "3 zijden"
-        },
-        {
-                  "en": "8 sides",
-                  "es": "8 lados",
-                  "de": "8 Seiten",
-                  "nl": "8 zijden"
-        },
-        {
-                  "en": "4 sides",
-                  "es": "4 lados",
-                  "de": "4 Seiten",
-                  "nl": "4 zijden"
-        },
-        {
-                  "en": "6 sides",
-                  "es": "6 lados",
-                  "de": "6 Seiten",
-                  "nl": "6 zijden"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Egyptian pyramids have four triangular sides that meet at a point at the top, built on a square base.",
-                  "es": "Las pirÃ¡mides egipcias tienen cuatro lados triangulares que se encuentran en un punto en la parte superior, construidas sobre una base cuadrada.",
-                  "de": "Ã„gyptische Pyramiden haben vier dreieckige Seiten, die sich an einem Punkt an der Spitze treffen, gebaut auf einem quadratischen Fundament.",
-                  "nl": "Egyptische piramides hebben vier driehoekige zijden die samenkomen in een punt aan de top, gebouwd op een vierkante basis."
-        }
-      },
-      {
-        question: {
-                  "en": "What material were most pyramids built from?",
-                  "es": "Â¿De quÃ© material se construyeron la mayorÃ­a de las pirÃ¡mides?",
-                  "de": "Aus welchem Material wurden die meisten Pyramiden gebaut?",
-                  "nl": "Van welk materiaal werden de meeste piramides gebouwd?"
-        },
-        options: [
-        {
-                  "en": "Wood planks",
-                  "es": "Tablones de madera",
-                  "de": "Holzplanken",
-                  "nl": "Houten planken"
-        },
-        {
-                  "en": "Clay bricks",
-                  "es": "Ladrillos de arcilla",
-                  "de": "Lehmziegel",
-                  "nl": "Klei bakstenen"
-        },
-        {
-                  "en": "Metal sheets",
-                  "es": "LÃ¡minas de metal",
-                  "de": "Metallbleche",
-                  "nl": "Metalen platen"
-        },
-        {
-                  "en": "Limestone blocks",
-                  "es": "Bloques de piedra caliza",
-                  "de": "KalksteinblÃ¶cke",
-                  "nl": "Kalkstenen blokken"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Pyramids were built using massive limestone blocks, some weighing several tons, carefully cut and fitted together without modern machinery.",
-                  "es": "Las pirÃ¡mides se construyeron usando bloques masivos de piedra caliza, algunos pesando varias toneladas, cuidadosamente cortados y encajados sin maquinaria moderna.",
-                  "de": "Pyramiden wurden aus massiven KalksteinblÃ¶cken gebaut, einige wogen mehrere Tonnen, sorgfÃ¤ltig geschnitten und ohne moderne Maschinen zusammengefÃ¼gt.",
-                  "nl": "Piramides werden gebouwd met massieve kalkstenen blokken, sommige wegen meerdere tonnen, zorgvuldig gesneden en samengevoegd zonder moderne machines."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the Great Sphinx?",
-                  "es": "¿Qué es la Gran Esfinge?",
-                  "de": "Was ist die Große Sphinx?",
-                  "nl": "Wat is de Grote Sfinx?"
-        },
-        options: [
-        {
-                  "en": "A giant statue with a lion's body and human head",
-                  "es": "Una estatua gigante con cuerpo de león y cabeza humana",
-                  "de": "Eine riesige Statue mit Löwenkörper und Menschenkopf",
-                  "nl": "Een gigantisch standbeeld met een leeuwenlichaam en mensenhoofd"
-        },
-        {
-                  "en": "A temple entrance",
-                  "es": "Una entrada de templo",
-                  "de": "Ein Tempeleingang",
-                  "nl": "Een tempelingang"
-        },
-        {
-                  "en": "A small pyramid",
-                  "es": "Una pirámide pequeña",
-                  "de": "Eine kleine Pyramide",
-                  "nl": "Een kleine piramide"
-        },
-        {
-                  "en": "An underground tunnel",
-                  "es": "Un túnel subterráneo",
-                  "de": "Ein unterirdischer Tunnel",
-                  "nl": "Een ondergrondse tunnel"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Great Sphinx guards the pyramids at Giza. It has the body of a lion and a human head, believed to represent Pharaoh Khafre. It's one of the largest statues in the world.",
-                  "es": "La Gran Esfinge custodia las pirámides de Giza. Tiene el cuerpo de un león y una cabeza humana, se cree que representa al faraón Kefrén. Es una de las estatuas más grandes del mundo.",
-                  "de": "Die Große Sphinx bewacht die Pyramiden von Gizeh. Sie hat den Körper eines Löwen und einen menschlichen Kopf, vermutlich stellt sie Pharao Chephren dar. Sie ist eine der größten Statuen der Welt.",
-                  "nl": "De Grote Sfinx bewaakt de piramides in Giza. Het heeft het lichaam van een leeuw en een mensenhoofd, waarschijnlijk voorstellend farao Chefren. Het is een van de grootste standbeelden ter wereld."
-        }
-      },
-      {
-        question: {
-                  "en": "How tall was the Great Pyramid when it was first built?",
-                  "es": "¿Qué altura tenía la Gran Pirámide cuando se construyó por primera vez?",
-                  "de": "Wie hoch war die Große Pyramide, als sie ursprünglich gebaut wurde?",
-                  "nl": "Hoe hoog was de Grote Piramide toen deze voor het eerst werd gebouwd?"
-        },
-        options: [
-        {
-                  "en": "About 146 meters (481 feet)",
-                  "es": "Alrededor de 146 metros (481 pies)",
-                  "de": "Etwa 146 Meter (481 Fuß)",
-                  "nl": "Ongeveer 146 meter (481 voet)"
-        },
-        {
-                  "en": "About 200 meters (656 feet)",
-                  "es": "Alrededor de 200 metros (656 pies)",
-                  "de": "Etwa 200 Meter (656 Fuß)",
-                  "nl": "Ongeveer 200 meter (656 voet)"
-        },
-        {
-                  "en": "About 50 meters (164 feet)",
-                  "es": "Alrededor de 50 metros (164 pies)",
-                  "de": "Etwa 50 Meter (164 Fuß)",
-                  "nl": "Ongeveer 50 meter (164 voet)"
-        },
-        {
-                  "en": "About 100 meters (328 feet)",
-                  "es": "Alrededor de 100 metros (328 pies)",
-                  "de": "Etwa 100 Meter (328 Fuß)",
-                  "nl": "Ongeveer 100 meter (328 voet)"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Great Pyramid originally stood at 146.6 meters tall, but erosion and loss of its outer casing have reduced it to about 138.8 meters today.",
-                  "es": "La Gran Pirámide originalmente medía 146.6 metros de altura, pero la erosión y la pérdida de su revestimiento exterior la han reducido a unos 138.8 metros hoy.",
-                  "de": "Die Große Pyramide war ursprünglich 146,6 Meter hoch, aber Erosion und Verlust ihrer äußeren Verkleidung haben sie auf etwa 138,8 Meter reduziert.",
-                  "nl": "De Grote Piramide was oorspronkelijk 146,6 meter hoog, maar erosie en verlies van de buitenste bekleding hebben het tot ongeveer 138,8 meter teruggebracht."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the first pyramid ever built in Egypt?",
-                  "es": "¿Cuál fue la primera pirámide construida en Egipto?",
-                  "de": "Was war die erste jemals in Ägypten gebaute Pyramide?",
-                  "nl": "Wat was de eerste piramide die ooit in Egypte werd gebouwd?"
-        },
-        options: [
-        {
-                  "en": "The Bent Pyramid",
-                  "es": "La Pirámide Acodada",
-                  "de": "Die Knickpyramide",
-                  "nl": "De Knikpiramide"
-        },
-        {
-                  "en": "The Red Pyramid",
-                  "es": "La Pirámide Roja",
-                  "de": "Die Rote Pyramide",
-                  "nl": "De Rode Piramide"
-        },
-        {
-                  "en": "The Great Pyramid of Khufu",
-                  "es": "La Gran Pirámide de Keops",
-                  "de": "Die Große Pyramide des Cheops",
-                  "nl": "De Grote Piramide van Cheops"
-        },
-        {
-                  "en": "The Step Pyramid of Djoser",
-                  "es": "La Pirámide Escalonada de Zoser",
-                  "de": "Die Stufenpyramide des Djoser",
-                  "nl": "De Trappenpyramide van Djoser"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The Step Pyramid at Saqqara, built for Pharaoh Djoser around 2650 BC, was the first pyramid. It has six large steps and was designed by the architect Imhotep.",
-                  "es": "La Pirámide Escalonada de Saqqara, construida para el faraón Zoser alrededor del 2650 a.C., fue la primera pirámide. Tiene seis grandes escalones y fue diseñada por el arquitecto Imhotep.",
-                  "de": "Die Stufenpyramide in Sakkara, um 2650 v. Chr. für Pharao Djoser gebaut, war die erste Pyramide. Sie hat sechs große Stufen und wurde vom Architekten Imhotep entworfen.",
-                  "nl": "De Trappenpyramide in Saqqara, gebouwd voor farao Djoser rond 2650 v.Chr., was de eerste piramide. Het heeft zes grote treden en werd ontworpen door de architect Imhotep."
-        }
-      },
-      {
-        question: {
-                  "en": "What is inside the pyramids?",
-                  "es": "¿Qué hay dentro de las pirámides?",
-                  "de": "Was befindet sich in den Pyramiden?",
-                  "nl": "Wat zit er in de piramides?"
-        },
-        options: [
-        {
-                  "en": "Living quarters for pharaohs",
-                  "es": "Habitaciones para faraones",
-                  "de": "Wohnquartiere für Pharaonen",
-                  "nl": "Woonvertrekken voor farao's"
-        },
-        {
-                  "en": "Treasure rooms filled with gold",
-                  "es": "Salas de tesoros llenas de oro",
-                  "de": "Schatzkammern voller Gold",
-                  "nl": "Schatkamers vol goud"
-        },
-        {
-                  "en": "Giant libraries",
-                  "es": "Bibliotecas gigantes",
-                  "de": "Riesige Bibliotheken",
-                  "nl": "Gigantische bibliotheken"
-        },
-        {
-                  "en": "Burial chambers and passageways",
-                  "es": "Cámaras funerarias y pasadizos",
-                  "de": "Grabkammern und Gänge",
-                  "nl": "Grafkamers en gangen"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Pyramids contain narrow passageways leading to burial chambers where pharaohs were laid to rest. They also had smaller chambers for offerings and sometimes for family members.",
-                  "es": "Las pirámides contienen pasadizos estrechos que conducen a cámaras funerarias donde descansaban los faraones. También tenían cámaras más pequeñas para ofrendas y a veces para miembros de la familia.",
-                  "de": "Pyramiden enthalten schmale Gänge, die zu Grabkammern führen, wo die Pharaonen zur Ruhe gelegt wurden. Sie hatten auch kleinere Kammern für Opfergaben und manchmal für Familienmitglieder.",
-                  "nl": "Piramides bevatten smalle gangen die leiden naar grafkamers waar farao's werden begraven. Ze hadden ook kleinere kamers voor offers en soms voor familieleden."
-        }
-      },
-      {
-        question: {
-                  "en": "How many pyramids are there at Giza?",
-                  "es": "¿Cuántas pirámides hay en Giza?",
-                  "de": "Wie viele Pyramiden gibt es in Gizeh?",
-                  "nl": "Hoeveel piramides zijn er in Giza?"
-        },
-        options: [
-        {
-                  "en": "Three large pyramids",
-                  "es": "Tres pirámides grandes",
-                  "de": "Drei große Pyramiden",
-                  "nl": "Drie grote piramides"
-        },
-        {
-                  "en": "Ten pyramids",
-                  "es": "Diez pirámides",
-                  "de": "Zehn Pyramiden",
-                  "nl": "Tien piramides"
-        },
-        {
-                  "en": "One pyramid",
-                  "es": "Una pirámide",
-                  "de": "Eine Pyramide",
-                  "nl": "Eén piramide"
-        },
-        {
-                  "en": "Five pyramids",
-                  "es": "Cinco pirámides",
-                  "de": "Fünf Pyramiden",
-                  "nl": "Vijf piramides"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Giza plateau has three main pyramids: the Great Pyramid of Khufu, the Pyramid of Khafre, and the Pyramid of Menkaure. There are also several smaller pyramids for queens.",
-                  "es": "La meseta de Giza tiene tres pirámides principales: la Gran Pirámide de Keops, la Pirámide de Kefrén y la Pirámide de Micerino. También hay varias pirámides más pequeñas para reinas.",
-                  "de": "Das Gizeh-Plateau hat drei Hauptpyramiden: die Große Pyramide des Cheops, die Pyramide des Chephren und die Pyramide des Mykerinos. Es gibt auch mehrere kleinere Pyramiden für Königinnen.",
-                  "nl": "Het Giza-plateau heeft drie hoofdpiramides: de Grote Piramide van Cheops, de Piramide van Chefren en de Piramide van Mykerinos. Er zijn ook verschillende kleinere piramides voor koninginnen."
-        }
-      },
-      {
-        question: {
-                  "en": "What covered the outside of pyramids when they were new?",
-                  "es": "¿Qué cubría el exterior de las pirámides cuando eran nuevas?",
-                  "de": "Was bedeckte die Außenseite der Pyramiden, als sie neu waren?",
-                  "nl": "Wat bedekte de buitenkant van piramides toen ze nieuw waren?"
-        },
-        options: [
-        {
-                  "en": "Colorful paint",
-                  "es": "Pintura colorida",
-                  "de": "Bunte Farbe",
-                  "nl": "Kleurrijke verf"
-        },
-        {
-                  "en": "Clay tiles",
-                  "es": "Azulejos de arcilla",
-                  "de": "Tonfliesen",
-                  "nl": "Kleitegels"
-        },
-        {
-                  "en": "Gold sheets",
-                  "es": "Láminas de oro",
-                  "de": "Goldplatten",
-                  "nl": "Gouden platen"
-        },
-        {
-                  "en": "Smooth white limestone casing",
-                  "es": "Revestimiento liso de piedra caliza blanca",
-                  "de": "Glatte weiße Kalksteinverkleidung",
-                  "nl": "Gladde witte kalkstenen bekleding"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Pyramids were originally covered in smooth, polished white limestone that reflected the sun and made them shine brilliantly. Most of this casing was removed over the centuries for other buildings.",
-                  "es": "Las pirámides estaban originalmente cubiertas de piedra caliza blanca lisa y pulida que reflejaba el sol y las hacía brillar intensamente. La mayor parte de este revestimiento se eliminó a lo largo de los siglos para otros edificios.",
-                  "de": "Pyramiden waren ursprünglich mit glattem, poliertem weißem Kalkstein bedeckt, der die Sonne reflektierte und sie brillant leuchten ließ. Die meiste dieser Verkleidung wurde über die Jahrhunderte für andere Gebäude entfernt.",
-                  "nl": "Piramides waren oorspronkelijk bedekt met glad, gepolijst wit kalksteen dat de zon reflecteerde en ze briljant deed schijnen. Het meeste van deze bekleding werd door de eeuwen heen verwijderd voor andere gebouwen."
-        }
-      },
-      {
-        question: {
-                  "en": "How long did it take to build the Great Pyramid?",
-                  "es": "¿Cuánto tiempo tomó construir la Gran Pirámide?",
-                  "de": "Wie lange dauerte der Bau der Großen Pyramide?",
-                  "nl": "Hoe lang duurde het om de Grote Piramide te bouwen?"
-        },
-        options: [
-        {
-                  "en": "About 50 yrs",
-                  "es": "Alrededor de 50 años",
-                  "de": "Etwa 50 Jahre",
-                  "nl": "Ongeveer 50 jaar"
-        },
-        {
-                  "en": "About 5 yrs",
-                  "es": "Alrededor de 5 años",
-                  "de": "Etwa 5 Jahre",
-                  "nl": "Ongeveer 5 jaar"
-        },
-        {
-                  "en": "About 20 yrs",
-                  "es": "Alrededor de 20 años",
-                  "de": "Etwa 20 Jahre",
-                  "nl": "Ongeveer 20 jaar"
-        },
-        {
-                  "en": "About 100 yrs",
-                  "es": "Alrededor de 100 años",
-                  "de": "Etwa 100 Jahre",
-                  "nl": "Ongeveer 100 jaar"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Historians estimate it took approximately 20 years to build the Great Pyramid, with tens of thousands of workers moving about 2.3 million stone blocks.",
-                  "es": "Los historiadores estiman que tomó aproximadamente 20 años construir la Gran Pirámide, con decenas de miles de trabajadores moviendo alrededor de 2.3 millones de bloques de piedra.",
-                  "de": "Historiker schätzen, dass es etwa 20 Jahre dauerte, die Große Pyramide zu bauen, wobei Zehntausende von Arbeitern etwa 2,3 Millionen Steinblöcke bewegten.",
-                  "nl": "Historici schatten dat het ongeveer 20 jaar duurde om de Grote Piramide te bouwen, met tienduizenden arbeiders die ongeveer 2,3 miljoen stenen blokken verplaatsten."
-        }
-      },
-      {
-        question: {
-                  "en": "What pointed the way to the burial chamber inside pyramids?",
-                  "es": "¿Qué indicaba el camino a la cámara funeraria dentro de las pirámides?",
-                  "de": "Was zeigte den Weg zur Grabkammer in den Pyramiden?",
-                  "nl": "Wat wees de weg naar de grafkamer binnen piramides?"
-        },
-        options: [
-        {
-                  "en": "Narrow passageways and corridors",
-                  "es": "Pasadizos y corredores estrechos",
-                  "de": "Schmale Gänge und Korridore",
-                  "nl": "Smalle gangen en corridors"
-        },
-        {
-                  "en": "Guard statues",
-                  "es": "Estatuas de guardia",
-                  "de": "Wächterstatuen",
-                  "nl": "Wachtstandbeelden"
-        },
-        {
-                  "en": "Painted arrows on walls",
-                  "es": "Flechas pintadas en las paredes",
-                  "de": "Gemalte Pfeile an Wänden",
-                  "nl": "Geschilderde pijlen op muren"
-        },
-        {
-                  "en": "Torches lighting the way",
-                  "es": "Antorchas iluminando el camino",
-                  "de": "Fackeln, die den Weg beleuchten",
-                  "nl": "Fakkels die de weg verlichten"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Complex systems of narrow passageways, some ascending and some descending, led to the burial chamber deep inside the pyramid. Some passages were blocked with stone plugs after the pharaoh was buried.",
-                  "es": "Complejos sistemas de pasadizos estrechos, algunos ascendentes y otros descendentes, conducían a la cámara funeraria en el interior de la pirámide. Algunos pasajes fueron bloqueados con tapones de piedra después de que el faraón fue enterrado.",
-                  "de": "Komplexe Systeme schmaler Gänge, einige aufsteigend und einige absteigend, führten zur Grabkammer tief im Inneren der Pyramide. Einige Gänge wurden mit Steinpfropfen blockiert, nachdem der Pharao beigesetzt wurde.",
-                  "nl": "Complexe systemen van smalle gangen, sommige oplopend en sommige aflopend, leidden naar de grafkamer diep in de piramide. Sommige gangen werden geblokkeerd met stenen pluggen nadat de farao was begraven."
-        }
-      },
-      {
-        question: {
-                  "en": "Who do historians think built the pyramids?",
-                  "es": "¿Quién creen los historiadores que construyó las pirámides?",
-                  "de": "Wer hat laut Historikern die Pyramiden gebaut?",
-                  "nl": "Wie hebben volgens historici de piramides gebouwd?"
-        },
-        options: [
-        {
-                  "en": "Foreign armies",
-                  "es": "Ejércitos extranjeros",
-                  "de": "Ausländische Armeen",
-                  "nl": "Buitenlandse legers"
-        },
-        {
-                  "en": "Skilled workers and farmers during flood season",
-                  "es": "Trabajadores calificados y agricultores durante la temporada de inundaciones",
-                  "de": "Facharbeiter und Bauern während der Überschwemmungszeit",
-                  "nl": "Geschoolde arbeiders en boeren tijdens het overstromingsseizoen"
-        },
-        {
-                  "en": "Magical powers",
-                  "es": "Poderes mágicos",
-                  "de": "Magische Kräfte",
-                  "nl": "Magische krachten"
-        },
-        {
-                  "en": "Slaves from other countries",
-                  "es": "Esclavos de otros países",
-                  "de": "Sklaven aus anderen Ländern",
-                  "nl": "Slaven uit andere landen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Modern evidence shows pyramids were built by skilled Egyptian workers and farmers who worked during the Nile flood season when farming was impossible. They were paid workers, not slaves.",
-                  "es": "La evidencia moderna muestra que las pirámides fueron construidas por trabajadores egipcios calificados y agricultores que trabajaban durante la temporada de inundaciones del Nilo cuando la agricultura era imposible. Eran trabajadores pagados, no esclavos.",
-                  "de": "Moderne Beweise zeigen, dass Pyramiden von qualifizierten ägyptischen Arbeitern und Bauern gebaut wurden, die während der Nilüberschwemmungszeit arbeiteten, wenn Landwirtschaft unmöglich war. Sie waren bezahlte Arbeiter, keine Sklaven.",
-                  "nl": "Modern bewijs toont dat piramides werden gebouwd door geschoolde Egyptische arbeiders en boeren die werkten tijdens het Nijl-overstromingsseizoen wanneer landbouw onmogelijk was. Het waren betaalde arbeiders, geen slaven."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the Bent Pyramid famous for?",
-                  "es": "¿Por qué es famosa la Pirámide Acodada?",
-                  "de": "Wofür ist die Knickpyramide berühmt?",
-                  "nl": "Waarvoor is de Knikpiramide beroemd?"
-        },
-        options: [
-        {
-                  "en": "It's made of gold",
-                  "es": "Está hecha de oro",
-                  "de": "Sie ist aus Gold",
-                  "nl": "Het is gemaakt van goud"
-        },
-        {
-                  "en": "It has no entrance",
-                  "es": "No tiene entrada",
-                  "de": "Sie hat keinen Eingang",
-                  "nl": "Het heeft geen ingang"
-        },
-        {
-                  "en": "Its angle changes halfway up",
-                  "es": "Su ángulo cambia a la mitad",
-                  "de": "Ihr Winkel ändert sich auf halber Höhe",
-                  "nl": "De hoek verandert halverwege"
-        },
-        {
-                  "en": "It's the tallest pyramid",
-                  "es": "Es la pirámide más alta",
-                  "de": "Sie ist die höchste Pyramide",
-                  "nl": "Het is de hoogste piramide"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The Bent Pyramid at Dahshur has a unique shape because its angle changes partway up. Builders likely changed the angle to prevent collapse, making it an important step in learning to build true pyramids.",
-                  "es": "La Pirámide Acodada en Dahshur tiene una forma única porque su ángulo cambia a mitad de camino. Los constructores probablemente cambiaron el ángulo para evitar el colapso, lo que la convierte en un paso importante para aprender a construir pirámides verdaderas.",
-                  "de": "Die Knickpyramide in Dahschur hat eine einzigartige Form, weil sich ihr Winkel auf halbem Weg ändert. Die Baumeister änderten wahrscheinlich den Winkel, um einen Einsturz zu verhindern, was sie zu einem wichtigen Schritt beim Erlernen des Baus echter Pyramiden macht.",
-                  "nl": "De Knikpiramide in Dahsjoer heeft een unieke vorm omdat de hoek halverwege verandert. Bouwers veranderden waarschijnlijk de hoek om instorting te voorkomen, waardoor het een belangrijke stap werd in het leren bouwen van echte piramides."
-        }
-      },
-      {
-        question: {
-                  "en": "How were the massive stone blocks moved to build pyramids?",
-                  "es": "¿Cómo se movieron los enormes bloques de piedra para construir las pirámides?",
-                  "de": "Wie wurden die massiven Steinblöcke zum Bau der Pyramiden bewegt?",
-                  "nl": "Hoe werden de massieve stenen blokken verplaatst om piramides te bouwen?"
-        },
-        options: [
-        {
-                  "en": "By floating them on water",
-                  "es": "Flotándolos sobre agua",
-                  "de": "Indem man sie auf Wasser schwimmen ließ",
-                  "nl": "Door ze op water te laten drijven"
-        },
-        {
-                  "en": "Using helicopters",
-                  "es": "Usando helicópteros",
-                  "de": "Mit Hubschraubern",
-                  "nl": "Met helikopters"
-        },
-        {
-                  "en": "Using ramps, sledges, and rollers",
-                  "es": "Usando rampas, trineos y rodillos",
-                  "de": "Mit Rampen, Schlitten und Rollen",
-                  "nl": "Met hellingen, sleden en rollen"
-        },
-        {
-                  "en": "With cranes and pulleys",
-                  "es": "Con grúas y poleas",
-                  "de": "Mit Kränen und Flaschenzügen",
-                  "nl": "Met kranen en katrol len"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Workers used wooden sledges to drag blocks, sometimes wetting the sand to reduce friction. Ramps were built to move stones up the pyramid, and rollers helped move them across flat ground.",
-                  "es": "Los trabajadores usaban trineos de madera para arrastrar bloques, a veces mojando la arena para reducir la fricción. Se construyeron rampas para mover piedras hacia arriba de la pirámide, y los rodillos ayudaban a moverlas por terreno plano.",
-                  "de": "Arbeiter benutzten Holzschlitten, um Blöcke zu ziehen, manchmal wurde der Sand benetzt, um die Reibung zu verringern. Rampen wurden gebaut, um Steine die Pyramide hinaufzubewegen, und Rollen halfen, sie über ebenes Gelände zu bewegen.",
-                  "nl": "Arbeiders gebruikten houten sleden om blokken te slepen, soms maakten ze het zand nat om wrijving te verminderen. Hellingen werden gebouwd om stenen omhoog te verplaatsen, en rollen hielpen ze over vlak terrein te verplaatsen."
-        }
-      },
-      {
-        question: {
-                  "en": "Why did pyramids point to the sky?",
-                  "es": "¿Por qué las pirámides apuntaban al cielo?",
-                  "de": "Warum zeigten Pyramiden zum Himmel?",
-                  "nl": "Waarom wezen piramides naar de hemel?"
-        },
-        options: [
-        {
-                  "en": "To create shade",
-                  "es": "Para crear sombra",
-                  "de": "Um Schatten zu spenden",
-                  "nl": "Om schaduw te creëren"
-        },
-        {
-                  "en": "To help pharaohs reach the sun god Ra",
-                  "es": "Para ayudar a los faraones a alcanzar al dios sol Ra",
-                  "de": "Um Pharaonen zu helfen, den Sonnengott Ra zu erreichen",
-                  "nl": "Om farao's te helpen de zonnegod Ra te bereiken"
-        },
-        {
-                  "en": "To collect rainwater",
-                  "es": "Para recolectar agua de lluvia",
-                  "de": "Um Regenwasser zu sammeln",
-                  "nl": "Om regenwater te verzamelen"
-        },
-        {
-                  "en": "To spot enemies from far away",
-                  "es": "Para detectar enemigos desde lejos",
-                  "de": "Um Feinde aus der Ferne zu erkennen",
-                  "nl": "Om vijanden van ver te zien"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The pyramid shape represented a stairway to heaven and the sun's rays. Egyptians believed it would help the pharaoh's spirit ascend to join Ra, the sun god, in the afterlife.",
-                  "es": "La forma piramidal representaba una escalera al cielo y los rayos del sol. Los egipcios creían que ayudaría al espíritu del faraón a ascender para unirse a Ra, el dios sol, en la vida después de la muerte.",
-                  "de": "Die Pyramidenform stellte eine Treppe zum Himmel und die Sonnenstrahlen dar. Die Ägypter glaubten, sie würde dem Geist des Pharaos helfen, aufzusteigen und sich Ra, dem Sonnengott, im Jenseits anzuschließen.",
-                  "nl": "De piramidevorm vertegenwoordigde een trap naar de hemel en de zonnestralen. Egyptenaren geloofden dat het de geest van de farao zou helpen opstijgen om zich bij Ra, de zonnegod, in het hiernamaals te voegen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is special about the alignment of the Great Pyramid?",
-                  "es": "¿Qué tiene de especial la alineación de la Gran Pirámide?",
-                  "de": "Was ist besonders an der Ausrichtung der Großen Pyramide?",
-                  "nl": "Wat is bijzonder aan de uitlijning van de Grote Piramide?"
-        },
-        options: [
-        {
-                  "en": "It's perfectly aligned with cardinal directions (N, S, E, W)",
-                  "es": "Está perfectamente alineada con los puntos cardinales (N, S, E, O)",
-                  "de": "Sie ist perfekt auf die Himmelsrichtungen ausgerichtet (N, S, O, W)",
-                  "nl": "Het is perfect uitgelijnd met de windrichtingen (N, Z, O, W)"
-        },
-        {
-                  "en": "It points to the moon",
-                  "es": "Apunta a la luna",
-                  "de": "Sie zeigt zum Mond",
-                  "nl": "Het wijst naar de maan"
-        },
-        {
-                  "en": "It has no specific alignment",
-                  "es": "No tiene alineación específica",
-                  "de": "Sie hat keine spezifische Ausrichtung",
-                  "nl": "Het heeft geen specifieke uitlijning"
-        },
-        {
-                  "en": "It faces the Nile River",
-                  "es": "Mira hacia el río Nilo",
-                  "de": "Sie ist zum Nil ausgerichtet",
-                  "nl": "Het kijkt uit op de Nijl"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Great Pyramid is remarkably aligned with the four cardinal directions (north, south, east, and west) with incredible precision, showing the ancient Egyptians' advanced astronomical knowledge.",
-                  "es": "La Gran Pirámide está notablemente alineada con los cuatro puntos cardinales (norte, sur, este y oeste) con increíble precisión, mostrando el avanzado conocimiento astronómico de los antiguos egipcios.",
-                  "de": "Die Große Pyramide ist bemerkenswert präzise auf die vier Himmelsrichtungen (Norden, Süden, Osten und Westen) ausgerichtet, was das fortgeschrittene astronomische Wissen der alten Ägypter zeigt.",
-                  "nl": "De Grote Piramide is opmerkelijk uitgelijnd met de vier windrichtingen (noord, zuid, oost en west) met ongelooflijke precisie, wat de geavanceerde astronomische kennis van de oude Egyptenaren aantoont."
-        }
-      },
-      {
-        question: {
-                  "en": "What happened to most treasures buried in pyramids?",
-                  "es": "¿Qué pasó con la mayoría de los tesoros enterrados en las pirámides?",
-                  "de": "Was geschah mit den meisten in Pyramiden begrabenen Schätzen?",
-                  "nl": "Wat gebeurde er met de meeste schatten die in piramides werden begraven?"
-        },
-        options: [
-        {
-                  "en": "They're still all inside",
-                  "es": "Todavía están todos dentro",
-                  "de": "Sie sind alle noch drinnen",
-                  "nl": "Ze zijn er allemaal nog steeds"
-        },
-        {
-                  "en": "They were given to museums",
-                  "es": "Fueron entregados a museos",
-                  "de": "Sie wurden an Museen gegeben",
-                  "nl": "Ze werden aan musea gegeven"
-        },
-        {
-                  "en": "They were stolen by tomb robbers",
-                  "es": "Fueron robados por saqueadores de tumbas",
-                  "de": "Sie wurden von Grabräubern gestohlen",
-                  "nl": "Ze werden gestolen door grafrovers"
-        },
-        {
-                  "en": "They dissolved over time",
-                  "es": "Se disolvieron con el tiempo",
-                  "de": "Sie lösten sich mit der Zeit auf",
-                  "nl": "Ze losten op in de loop der tijd"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Most pyramid treasures were stolen by tomb robbers in ancient times. Pyramids were too visible and easy to find, which is why pharaohs later built hidden tombs in the Valley of the Kings.",
-                  "es": "La mayoría de los tesoros de las pirámides fueron robados por saqueadores de tumbas en la antigüedad. Las pirámides eran demasiado visibles y fáciles de encontrar, por eso los faraones construyeron más tarde tumbas ocultas en el Valle de los Reyes.",
-                  "de": "Die meisten Pyramidenschätze wurden in der Antike von Grabräubern gestohlen. Pyramiden waren zu sichtbar und leicht zu finden, weshalb Pharaonen später versteckte Gräber im Tal der Könige bauten.",
-                  "nl": "De meeste piramideschatten werden in de oudheid gestolen door grafrovers. Piramides waren te zichtbaar en gemakkelijk te vinden, daarom bouwden farao's later verborgen graven in de Vallei der Koningen."
-        }
-      },
-      {
-        question: {
-                  "en": "How many stone blocks are in the Great Pyramid?",
-                  "es": "¿Cuántos bloques de piedra hay en la Gran Pirámide?",
-                  "de": "Wie viele Steinblöcke befinden sich in der Großen Pyramide?",
-                  "nl": "Hoeveel stenen blokken zitten er in de Grote Piramide?"
-        },
-        options: [
-        {
-                  "en": "About 500,000 blocks",
-                  "es": "Alrededor de 500,000 bloques",
-                  "de": "Etwa 500.000 Blöcke",
-                  "nl": "Ongeveer 500.000 blokken"
-        },
-        {
-                  "en": "About 5 million blocks",
-                  "es": "Alrededor de 5 millones de bloques",
-                  "de": "Etwa 5 Millionen Blöcke",
-                  "nl": "Ongeveer 5 miljoen blokken"
-        },
-        {
-                  "en": "About 100,000 blocks",
-                  "es": "Alrededor de 100,000 bloques",
-                  "de": "Etwa 100.000 Blöcke",
-                  "nl": "Ongeveer 100.000 blokken"
-        },
-        {
-                  "en": "About 2.3 million blocks",
-                  "es": "Alrededor de 2.3 millones de bloques",
-                  "de": "Etwa 2,3 Millionen Blöcke",
-                  "nl": "Ongeveer 2,3 miljoen blokken"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The Great Pyramid contains approximately 2.3 million limestone blocks. Each block weighs an average of 2.5 tons, with some weighing up to 80 tons. The total weight is estimated at 6 million tons.",
-                  "es": "La Gran Pirámide contiene aproximadamente 2.3 millones de bloques de piedra caliza. Cada bloque pesa un promedio de 2.5 toneladas, algunos pesan hasta 80 toneladas. El peso total se estima en 6 millones de toneladas.",
-                  "de": "Die Große Pyramide enthält etwa 2,3 Millionen Kalksteinblöcke. Jeder Block wiegt durchschnittlich 2,5 Tonnen, einige wiegen bis zu 80 Tonnen. Das Gesamtgewicht wird auf 6 Millionen Tonnen geschätzt.",
-                  "nl": "De Grote Piramide bevat ongeveer 2,3 miljoen kalkstenen blokken. Elk blok weegt gemiddeld 2,5 ton, sommige wegen tot 80 ton. Het totale gewicht wordt geschat op 6 miljoen ton."
-        }
-      },
-      {
-        question: {
-                  "en": "Where is the Valley of the Kings?",
-                  "es": "Where is the Valley of the Kings?",
-                  "de": "Where is the Valley of the Kings?",
-                  "nl": "Where is the Valley of the Kings?"
-        },
-        options: [
-        {
-                  "en": "West bank of Nile near Luxor/Thebes",
-                  "es": "West bank of Nile near Luxor/Thebes",
-                  "de": "West bank of Nile near Luxor/Thebes",
-                  "nl": "West bank of Nile near Luxor/Thebes"
-        },
-        {
-                  "en": "Giza",
-                  "es": "Giza",
-                  "de": "Giza",
-                  "nl": "Giza"
-        },
-        {
-                  "en": "Alexandria",
-                  "es": "Alexandria",
-                  "de": "Alexandria",
-                  "nl": "Alexandria"
-        },
-        {
-                  "en": "Cairo",
-                  "es": "Cairo",
-                  "de": "Cairo",
-                  "nl": "Cairo"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Valley of the Kings is on the west bank of the Nile near ancient Thebes (modern Luxor).",
-                  "es": "The Valley of the Kings is on the west bank of the Nile near ancient Thebes (modern Luxor).",
-                  "de": "The Valley of the Kings is on the west bank of the Nile near ancient Thebes (modern Luxor).",
-                  "nl": "The Valley of the Kings is on the west bank of the Nile near ancient Thebes (modern Luxor)."
-        }
-      },
-      {
-        question: {
-                  "en": "What period are most Valley tombs from?",
-                  "es": "What period are most Valley tombs from?",
-                  "de": "What period are most Valley tombs from?",
-                  "nl": "What period are most Valley tombs from?"
-        },
-        options: [
-        {
-                  "en": "Ptolemaic Period",
-                  "es": "Ptolemaic Period",
-                  "de": "Ptolemaic Period",
-                  "nl": "Ptolemaic Period"
-        },
-        {
-                  "en": "New Kingdom",
-                  "es": "New Kingdom",
-                  "de": "New Kingdom",
-                  "nl": "New Kingdom"
-        },
-        {
-                  "en": "Old Kingdom",
-                  "es": "Old Kingdom",
-                  "de": "Old Kingdom",
-                  "nl": "Old Kingdom"
-        },
-        {
-                  "en": "Middle Kingdom",
-                  "es": "Middle Kingdom",
-                  "de": "Middle Kingdom",
-                  "nl": "Middle Kingdom"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Most tombs in the Valley of the Kings date from the New Kingdom (16th-11th centuries BCE).",
-                  "es": "Most tombs in the Valley of the Kings date from the New Kingdom (16th-11th centuries BCE).",
-                  "de": "Most tombs in the Valley of the Kings date from the New Kingdom (16th-11th centuries BCE).",
-                  "nl": "Most tombs in the Valley of the Kings date from the New Kingdom (16th-11th centuries BCE)."
-        }
-      },
-      {
-        question: {
-                  "en": "How many tombs are in the Valley?",
-                  "es": "How many tombs are in the Valley?",
-                  "de": "How many tombs are in the Valley?",
-                  "nl": "How many tombs are in the Valley?"
-        },
-        options: [
-        {
-                  "en": "Hundreds",
-                  "es": "Hundreds",
-                  "de": "Hundreds",
-                  "nl": "Hundreds"
-        },
-        {
-                  "en": "Over 60",
-                  "es": "Over 60",
-                  "de": "Over 60",
-                  "nl": "Over 60"
-        },
-        {
-                  "en": "Three",
-                  "es": "Three",
-                  "de": "Three",
-                  "nl": "Three"
-        },
-        {
-                  "en": "Ten",
-                  "es": "Ten",
-                  "de": "Ten",
-                  "nl": "Ten"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Over 60 tombs and chambers have been discovered in the Valley of the Kings.",
-                  "es": "Over 60 tombs and chambers have been discovered in the Valley of the Kings.",
-                  "de": "Over 60 tombs and chambers have been discovered in the Valley of the Kings.",
-                  "nl": "Over 60 tombs and chambers have been discovered in the Valley of the Kings."
-        }
-      },
-      {
-        question: {
-                  "en": "Who discovered Tutankhamun's tomb?",
-                  "es": "Who discovered Tutankhamun's tomb?",
-                  "de": "Who discovered Tutankhamun's tomb?",
-                  "nl": "Who discovered Tutankhamun's tomb?"
-        },
-        options: [
-        {
-                  "en": "Howard Carter",
-                  "es": "Howard Carter",
-                  "de": "Howard Carter",
-                  "nl": "Howard Carter"
-        },
-        {
-                  "en": "Auguste Mariette",
-                  "es": "Auguste Mariette",
-                  "de": "Auguste Mariette",
-                  "nl": "Auguste Mariette"
-        },
-        {
-                  "en": "Flinders Petrie",
-                  "es": "Flinders Petrie",
-                  "de": "Flinders Petrie",
-                  "nl": "Flinders Petrie"
-        },
-        {
-                  "en": "Jean-François Champollion",
-                  "es": "Jean-François Champollion",
-                  "de": "Jean-François Champollion",
-                  "nl": "Jean-François Champollion"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "British archaeologist Howard Carter discovered Tutankhamun's tomb in 1922.",
-                  "es": "British archaeologist Howard Carter discovered Tutankhamun's tomb in 1922.",
-                  "de": "British archaeologist Howard Carter discovered Tutankhamun's tomb in 1922.",
-                  "nl": "British archaeologist Howard Carter discovered Tutankhamun's tomb in 1922."
-        }
-      },
-      {
-        question: {
-                  "en": "Why did pharaohs stop building pyramids?",
-                  "es": "Why did pharaohs stop building pyramids?",
-                  "de": "Why did pharaohs stop building pyramids?",
-                  "nl": "Why did pharaohs stop building pyramids?"
-        },
-        options: [
-        {
-                  "en": "Religious change",
-                  "es": "Religious change",
-                  "de": "Religious change",
-                  "nl": "Religious change"
-        },
-        {
-                  "en": "Too expensive",
-                  "es": "Too expensive",
-                  "de": "Too expensive",
-                  "nl": "Too expensive"
-        },
-        {
-                  "en": "Ran out of stone",
-                  "es": "Ran out of stone",
-                  "de": "Ran out of stone",
-                  "nl": "Ran out of stone"
-        },
-        {
-                  "en": "Security - pyramids attracted tomb robbers",
-                  "es": "Security - pyramids attracted tomb robbers",
-                  "de": "Security - pyramids attracted tomb robbers",
-                  "nl": "Security - pyramids attracted tomb robbers"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Pharaohs switched to hidden rock-cut tombs in the Valley to prevent robbery.",
-                  "es": "Pharaohs switched to hidden rock-cut tombs in the Valley to prevent robbery.",
-                  "de": "Pharaohs switched to hidden rock-cut tombs in the Valley to prevent robbery.",
-                  "nl": "Pharaohs switched to hidden rock-cut tombs in the Valley to prevent robbery."
-        }
-      },
-      {
-        question: {
-                  "en": "What was KV62?",
-                  "es": "What was KV62?",
-                  "de": "What was KV62?",
-                  "nl": "What was KV62?"
-        },
-        options: [
-        {
-                  "en": "Tutankhamun's tomb designation",
-                  "es": "Tutankhamun's tomb designation",
-                  "de": "Tutankhamun's tomb designation",
-                  "nl": "Tutankhamun's tomb designation"
-        },
-        {
-                  "en": "Empty tomb",
-                  "es": "Empty tomb",
-                  "de": "Empty tomb",
-                  "nl": "Empty tomb"
-        },
-        {
-                  "en": "Seti I tomb",
-                  "es": "Seti I tomb",
-                  "de": "Seti I tomb",
-                  "nl": "Seti I tomb"
-        },
-        {
-                  "en": "Ramesses VI tomb",
-                  "es": "Ramesses VI tomb",
-                  "de": "Ramesses VI tomb",
-                  "nl": "Ramesses VI tomb"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "KV62 is the archaeological designation for Tutankhamun's tomb.",
-                  "es": "KV62 is the archaeological designation for Tutankhamun's tomb.",
-                  "de": "KV62 is the archaeological designation for Tutankhamun's tomb.",
-                  "nl": "KV62 is the archaeological designation for Tutankhamun's tomb."
-        }
-      },
-      {
-        question: {
-                  "en": "What decorated tomb walls?",
-                  "es": "What decorated tomb walls?",
-                  "de": "What decorated tomb walls?",
-                  "nl": "What decorated tomb walls?"
-        },
-        options: [
-        {
-                  "en": "Paintings and hieroglyphs",
-                  "es": "Paintings and hieroglyphs",
-                  "de": "Paintings and hieroglyphs",
-                  "nl": "Paintings and hieroglyphs"
-        },
-        {
-                  "en": "Nothing",
-                  "es": "Nothing",
-                  "de": "Nothing",
-                  "nl": "Nothing"
-        },
-        {
-                  "en": "Tapestries",
-                  "es": "Tapestries",
-                  "de": "Tapestries",
-                  "nl": "Tapestries"
-        },
-        {
-                  "en": "Mosaics",
-                  "es": "Mosaics",
-                  "de": "Mosaics",
-                  "nl": "Mosaics"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Tomb walls were decorated with colorful paintings and hieroglyphic texts.",
-                  "es": "Tomb walls were decorated with colorful paintings and hieroglyphic texts.",
-                  "de": "Tomb walls were decorated with colorful paintings and hieroglyphic texts.",
-                  "nl": "Tomb walls were decorated with colorful paintings and hieroglyphic texts."
-        }
-      },
-      {
-        question: {
-                  "en": "What texts are in royal tombs?",
-                  "es": "What texts are in royal tombs?",
-                  "de": "What texts are in royal tombs?",
-                  "nl": "What texts are in royal tombs?"
-        },
-        options: [
-        {
-                  "en": "Historical records",
-                  "es": "Historical records",
-                  "de": "Historical records",
-                  "nl": "Historical records"
-        },
-        {
-                  "en": "Book of the Dead, Amduat, Book of Gates",
-                  "es": "Book of the Dead, Amduat, Book of Gates",
-                  "de": "Book of the Dead, Amduat, Book of Gates",
-                  "nl": "Book of the Dead, Amduat, Book of Gates"
-        },
-        {
-                  "en": "Poetry",
-                  "es": "Poetry",
-                  "de": "Poetry",
-                  "nl": "Poetry"
-        },
-        {
-                  "en": "Mathematical formulas",
-                  "es": "Mathematical formulas",
-                  "de": "Mathematical formulas",
-                  "nl": "Mathematical formulas"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Royal tombs contain funerary texts like the Amduat and Book of Gates guiding the deceased.",
-                  "es": "Royal tombs contain funerary texts like the Amduat and Book of Gates guiding the deceased.",
-                  "de": "Royal tombs contain funerary texts like the Amduat and Book of Gates guiding the deceased.",
-                  "nl": "Royal tombs contain funerary texts like the Amduat and Book of Gates guiding the deceased."
-        }
-      },
-      {
-        question: {
-                  "en": "Who was buried in KV5?",
-                  "es": "Who was buried in KV5?",
-                  "de": "Who was buried in KV5?",
-                  "nl": "Who was buried in KV5?"
-        },
-        options: [
-        {
-                  "en": "Sons of Ramesses II",
-                  "es": "Sons of Ramesses II",
-                  "de": "Sons of Ramesses II",
-                  "nl": "Sons of Ramesses II"
-        },
-        {
-                  "en": "Seti I",
-                  "es": "Seti I",
-                  "de": "Seti I",
-                  "nl": "Seti I"
-        },
-        {
-                  "en": "Tutankhamun",
-                  "es": "Tutankhamun",
-                  "de": "Tutankhamun",
-                  "nl": "Tutankhamun"
-        },
-        {
-                  "en": "Ramesses II",
-                  "es": "Ramesses II",
-                  "de": "Ramesses II",
-                  "nl": "Ramesses II"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "KV5 is the tomb complex of many sons of Ramesses II, the largest in the valley.",
-                  "es": "KV5 is the tomb complex of many sons of Ramesses II, the largest in the valley.",
-                  "de": "KV5 is the tomb complex of many sons of Ramesses II, the largest in the valley.",
-                  "nl": "KV5 is the tomb complex of many sons of Ramesses II, the largest in the valley."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the Valley of the Queens?",
-                  "es": "What is the Valley of the Queens?",
-                  "de": "What is the Valley of the Queens?",
-                  "nl": "What is the Valley of the Queens?"
-        },
-        options: [
-        {
-                  "en": "Alternative name for Valley of Kings",
-                  "es": "Alternative name for Valley of Kings",
-                  "de": "Alternative name for Valley of Kings",
-                  "nl": "Alternative name for Valley of Kings"
-        },
-        {
-                  "en": "Burial place for queens and royal children",
-                  "es": "Burial place for queens and royal children",
-                  "de": "Burial place for queens and royal children",
-                  "nl": "Burial place for queens and royal children"
-        },
-        {
-                  "en": "Modern cemetery",
-                  "es": "Modern cemetery",
-                  "de": "Modern cemetery",
-                  "nl": "Modern cemetery"
-        },
-        {
-                  "en": "Temple complex",
-                  "es": "Temple complex",
-                  "de": "Temple complex",
-                  "nl": "Temple complex"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The Valley of the Queens is a separate necropolis for queens and royal children.",
-                  "es": "The Valley of the Queens is a separate necropolis for queens and royal children.",
-                  "de": "The Valley of the Queens is a separate necropolis for queens and royal children.",
-                  "nl": "The Valley of the Queens is a separate necropolis for queens and royal children."
-        }
-      },
-      {
-        question: {
-                  "en": "What protected tombs from robbers?",
-                  "es": "What protected tombs from robbers?",
-                  "de": "What protected tombs from robbers?",
-                  "nl": "What protected tombs from robbers?"
-        },
-        options: [
-        {
-                  "en": "Hidden entrances, debris, false passages",
-                  "es": "Hidden entrances, debris, false passages",
-                  "de": "Hidden entrances, debris, false passages",
-                  "nl": "Hidden entrances, debris, false passages"
-        },
-        {
-                  "en": "Curses",
-                  "es": "Curses",
-                  "de": "Curses",
-                  "nl": "Curses"
-        },
-        {
-                  "en": "Guards",
-                  "es": "Guards",
-                  "de": "Guards",
-                  "nl": "Guards"
-        },
-        {
-                  "en": "Magic spells",
-                  "es": "Magic spells",
-                  "de": "Magic spells",
-                  "nl": "Magic spells"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Tombs had hidden entrances, were covered with debris, and some had false passages.",
-                  "es": "Tombs had hidden entrances, were covered with debris, and some had false passages.",
-                  "de": "Tombs had hidden entrances, were covered with debris, and some had false passages.",
-                  "nl": "Tombs had hidden entrances, were covered with debris, and some had false passages."
-        }
-      },
-      {
-        question: {
-                  "en": "What famous curse is associated with the Valley?",
-                  "es": "What famous curse is associated with the Valley?",
-                  "de": "What famous curse is associated with the Valley?",
-                  "nl": "What famous curse is associated with the Valley?"
-        },
-        options: [
-        {
-                  "en": "Mummy's curse",
-                  "es": "Mummy's curse",
-                  "de": "Mummy's curse",
-                  "nl": "Mummy's curse"
-        },
-        {
-                  "en": "Anubis's curse",
-                  "es": "Anubis's curse",
-                  "de": "Anubis's curse",
-                  "nl": "Anubis's curse"
-        },
-        {
-                  "en": "No curses",
-                  "es": "No curses",
-                  "de": "No curses",
-                  "nl": "No curses"
-        },
-        {
-                  "en": "Curse of the pharaohs",
-                  "es": "Curse of the pharaohs",
-                  "de": "Curse of the pharaohs",
-                  "nl": "Curse of the pharaohs"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The 'Curse of the Pharaohs' legend arose after Tutankhamun's tomb discovery.",
-                  "es": "The 'Curse of the Pharaohs' legend arose after Tutankhamun's tomb discovery.",
-                  "de": "The 'Curse of the Pharaohs' legend arose after Tutankhamun's tomb discovery.",
-                  "nl": "The 'Curse of the Pharaohs' legend arose after Tutankhamun's tomb discovery."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Deir el-Medina?",
-                  "es": "What is Deir el-Medina?",
-                  "de": "What is Deir el-Medina?",
-                  "nl": "What is Deir el-Medina?"
-        },
-        options: [
-        {
-                  "en": "Temple",
-                  "es": "Temple",
-                  "de": "Temple",
-                  "nl": "Temple"
-        },
-        {
-                  "en": "Village of tomb workers",
-                  "es": "Village of tomb workers",
-                  "de": "Village of tomb workers",
-                  "nl": "Village of tomb workers"
-        },
-        {
-                  "en": "Pyramid site",
-                  "es": "Pyramid site",
-                  "de": "Pyramid site",
-                  "nl": "Pyramid site"
-        },
-        {
-                  "en": "Royal palace",
-                  "es": "Royal palace",
-                  "de": "Royal palace",
-                  "nl": "Royal palace"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Deir el-Medina was the village where craftsmen who built Valley tombs lived.",
-                  "es": "Deir el-Medina was the village where craftsmen who built Valley tombs lived.",
-                  "de": "Deir el-Medina was the village where craftsmen who built Valley tombs lived.",
-                  "nl": "Deir el-Medina was the village where craftsmen who built Valley tombs lived."
-        }
-      },
-      {
-        question: {
-                  "en": "Who sponsored Carter's excavation?",
-                  "es": "Who sponsored Carter's excavation?",
-                  "de": "Who sponsored Carter's excavation?",
-                  "nl": "Who sponsored Carter's excavation?"
-        },
-        options: [
-        {
-                  "en": "Lord Carnarvon",
-                  "es": "Lord Carnarvon",
-                  "de": "Lord Carnarvon",
-                  "nl": "Lord Carnarvon"
-        },
-        {
-                  "en": "Egyptian government",
-                  "es": "Egyptian government",
-                  "de": "Egyptian government",
-                  "nl": "Egyptian government"
-        },
-        {
-                  "en": "British Museum",
-                  "es": "British Museum",
-                  "de": "British Museum",
-                  "nl": "British Museum"
-        },
-        {
-                  "en": "French government",
-                  "es": "French government",
-                  "de": "French government",
-                  "nl": "French government"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "British aristocrat Lord Carnarvon financed Howard Carter's excavations.",
-                  "es": "British aristocrat Lord Carnarvon financed Howard Carter's excavations.",
-                  "de": "British aristocrat Lord Carnarvon financed Howard Carter's excavations.",
-                  "nl": "British aristocrat Lord Carnarvon financed Howard Carter's excavations."
-        }
-      },
-      {
-        question: {
-                  "en": "What tomb has the most beautiful paintings?",
-                  "es": "What tomb has the most beautiful paintings?",
-                  "de": "What tomb has the most beautiful paintings?",
-                  "nl": "What tomb has the most beautiful paintings?"
-        },
-        options: [
-        {
-                  "en": "Seti I tomb",
-                  "es": "Seti I tomb",
-                  "de": "Seti I tomb",
-                  "nl": "Seti I tomb"
-        },
-        {
-                  "en": "Ramesses VI tomb",
-                  "es": "Ramesses VI tomb",
-                  "de": "Ramesses VI tomb",
-                  "nl": "Ramesses VI tomb"
-        },
-        {
-                  "en": "Tutankhamun's tomb",
-                  "es": "Tutankhamun's tomb",
-                  "de": "Tutankhamun's tomb",
-                  "nl": "Tutankhamun's tomb"
-        },
-        {
-                  "en": "Tomb of Nefertari (Valley of Queens)",
-                  "es": "Tomb of Nefertari (Valley of Queens)",
-                  "de": "Tomb of Nefertari (Valley of Queens)",
-                  "nl": "Tomb of Nefertari (Valley of Queens)"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The tomb of Queen Nefertari is renowned for its exquisite painted decorations.",
-                  "es": "The tomb of Queen Nefertari is renowned for its exquisite painted decorations.",
-                  "de": "The tomb of Queen Nefertari is renowned for its exquisite painted decorations.",
-                  "nl": "The tomb of Queen Nefertari is renowned for its exquisite painted decorations."
-        }
-      },
-      {
-        question: {
-                  "en": "What was placed in tombs?",
-                  "es": "What was placed in tombs?",
-                  "de": "What was placed in tombs?",
-                  "nl": "What was placed in tombs?"
-        },
-        options: [
-        {
-                  "en": "Religious texts only",
-                  "es": "Religious texts only",
-                  "de": "Religious texts only",
-                  "nl": "Religious texts only"
-        },
-        {
-                  "en": "Nothing",
-                  "es": "Nothing",
-                  "de": "Nothing",
-                  "nl": "Nothing"
-        },
-        {
-                  "en": "Treasures, food, furniture, shabti figures",
-                  "es": "Treasures, food, furniture, shabti figures",
-                  "de": "Treasures, food, furniture, shabti figures",
-                  "nl": "Treasures, food, furniture, shabti figures"
-        },
-        {
-                  "en": "Only bodies",
-                  "es": "Only bodies",
-                  "de": "Only bodies",
-                  "nl": "Only bodies"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Tombs contained everything needed for the afterlife: furniture, food, clothing, jewelry, and servant figures.",
-                  "es": "Tombs contained everything needed for the afterlife: furniture, food, clothing, jewelry, and servant figures.",
-                  "de": "Tombs contained everything needed for the afterlife: furniture, food, clothing, jewelry, and servant figures.",
-                  "nl": "Tombs contained everything needed for the afterlife: furniture, food, clothing, jewelry, and servant figures."
-        }
-      },
-      {
-        question: {
-                  "en": "What are shabti figures?",
-                  "es": "What are shabti figures?",
-                  "de": "What are shabti figures?",
-                  "nl": "What are shabti figures?"
-        },
-        options: [
-        {
-                  "en": "Decorations",
-                  "es": "Decorations",
-                  "de": "Decorations",
-                  "nl": "Decorations"
-        },
-        {
-                  "en": "Gods statues",
-                  "es": "Gods statues",
-                  "de": "Gods statues",
-                  "nl": "Gods statues"
-        },
-        {
-                  "en": "Servant figures for the afterlife",
-                  "es": "Servant figures for the afterlife",
-                  "de": "Servant figures for the afterlife",
-                  "nl": "Servant figures for the afterlife"
-        },
-        {
-                  "en": "Toys",
-                  "es": "Toys",
-                  "de": "Toys",
-                  "nl": "Toys"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Shabti (or ushabti) were small figurines meant to serve the deceased in the afterlife.",
-                  "es": "Shabti (or ushabti) were small figurines meant to serve the deceased in the afterlife.",
-                  "de": "Shabti (or ushabti) were small figurines meant to serve the deceased in the afterlife.",
-                  "nl": "Shabti (or ushabti) were small figurines meant to serve the deceased in the afterlife."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the Amduat?",
-                  "es": "What is the Amduat?",
-                  "de": "What is the Amduat?",
-                  "nl": "What is the Amduat?"
-        },
-        options: [
-        {
-                  "en": "Historical chronicle",
-                  "es": "Historical chronicle",
-                  "de": "Historical chronicle",
-                  "nl": "Historical chronicle"
-        },
-        {
-                  "en": "Funerary text describing sun god's journey",
-                  "es": "Funerary text describing sun god's journey",
-                  "de": "Funerary text describing sun god's journey",
-                  "nl": "Funerary text describing sun god's journey"
-        },
-        {
-                  "en": "Love poetry",
-                  "es": "Love poetry",
-                  "de": "Love poetry",
-                  "nl": "Love poetry"
-        },
-        {
-                  "en": "Medical text",
-                  "es": "Medical text",
-                  "de": "Medical text",
-                  "nl": "Medical text"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The Amduat is a funerary text describing the sun god's nightly journey through the underworld.",
-                  "es": "The Amduat is a funerary text describing the sun god's nightly journey through the underworld.",
-                  "de": "The Amduat is a funerary text describing the sun god's nightly journey through the underworld.",
-                  "nl": "The Amduat is a funerary text describing the sun god's nightly journey through the underworld."
-        }
-      },
-      {
-        question: {
-                  "en": "Why is the valley on the west bank?",
-                  "es": "Why is the valley on the west bank?",
-                  "de": "Why is the valley on the west bank?",
-                  "nl": "Why is the valley on the west bank?"
-        },
-        options: [
-        {
-                  "en": "West symbolized realm of the dead",
-                  "es": "West symbolized realm of the dead",
-                  "de": "West symbolized realm of the dead",
-                  "nl": "West symbolized realm of the dead"
-        },
-        {
-                  "en": "Better stone",
-                  "es": "Better stone",
-                  "de": "Better stone",
-                  "nl": "Better stone"
-        },
-        {
-                  "en": "Random choice",
-                  "es": "Random choice",
-                  "de": "Random choice",
-                  "nl": "Random choice"
-        },
-        {
-                  "en": "Closer to capital",
-                  "es": "Closer to capital",
-                  "de": "Closer to capital",
-                  "nl": "Closer to capital"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The west, where the sun sets, symbolized the realm of the dead in Egyptian belief.",
-                  "es": "The west, where the sun sets, symbolized the realm of the dead in Egyptian belief.",
-                  "de": "The west, where the sun sets, symbolized the realm of the dead in Egyptian belief.",
-                  "nl": "The west, where the sun sets, symbolized the realm of the dead in Egyptian belief."
-        }
-      },
-      {
-        question: {
-                  "en": "What modern threat affects the tombs?",
-                  "es": "What modern threat affects the tombs?",
-                  "de": "What modern threat affects the tombs?",
-                  "nl": "What modern threat affects the tombs?"
-        },
-        options: [
-        {
-                  "en": "Earthquakes",
-                  "es": "Earthquakes",
-                  "de": "Earthquakes",
-                  "nl": "Earthquakes"
-        },
-        {
-                  "en": "War",
-                  "es": "War",
-                  "de": "War",
-                  "nl": "War"
-        },
-        {
-                  "en": "River flooding",
-                  "es": "River flooding",
-                  "de": "River flooding",
-                  "nl": "River flooding"
-        },
-        {
-                  "en": "Tourism humidity and light damage",
-                  "es": "Tourism humidity and light damage",
-                  "de": "Tourism humidity and light damage",
-                  "nl": "Tourism humidity and light damage"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Modern threats include damage from tourist humidity, lights, and touching causing deterioration.",
-                  "es": "Modern threats include damage from tourist humidity, lights, and touching causing deterioration.",
-                  "de": "Modern threats include damage from tourist humidity, lights, and touching causing deterioration.",
-                  "nl": "Modern threats include damage from tourist humidity, lights, and touching causing deterioration."
-        }
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level2;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Valley of the Kings",
+      "es": "Pregunta 2 sobre Valley of the Kings",
+      "de": "Frage 2 über Valley of the Kings",
+      "nl": "Vraag 2 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Valley of the Kings",
+      "es": "Pregunta 3 sobre Valley of the Kings",
+      "de": "Frage 3 über Valley of the Kings",
+      "nl": "Vraag 3 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Valley of the Kings",
+      "es": "Pregunta 4 sobre Valley of the Kings",
+      "de": "Frage 4 über Valley of the Kings",
+      "nl": "Vraag 4 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Valley of the Kings",
+      "es": "Pregunta 5 sobre Valley of the Kings",
+      "de": "Frage 5 über Valley of the Kings",
+      "nl": "Vraag 5 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Valley of the Kings",
+      "es": "Pregunta 6 sobre Valley of the Kings",
+      "de": "Frage 6 über Valley of the Kings",
+      "nl": "Vraag 6 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Valley of the Kings",
+      "es": "Pregunta 7 sobre Valley of the Kings",
+      "de": "Frage 7 über Valley of the Kings",
+      "nl": "Vraag 7 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Valley of the Kings",
+      "es": "Pregunta 8 sobre Valley of the Kings",
+      "de": "Frage 8 über Valley of the Kings",
+      "nl": "Vraag 8 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Valley of the Kings",
+      "es": "Pregunta 9 sobre Valley of the Kings",
+      "de": "Frage 9 über Valley of the Kings",
+      "nl": "Vraag 9 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Valley of the Kings",
+      "es": "Pregunta 10 sobre Valley of the Kings",
+      "de": "Frage 10 über Valley of the Kings",
+      "nl": "Vraag 10 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Valley of the Kings",
+      "es": "Pregunta 11 sobre Valley of the Kings",
+      "de": "Frage 11 über Valley of the Kings",
+      "nl": "Vraag 11 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Valley of the Kings",
+      "es": "Pregunta 12 sobre Valley of the Kings",
+      "de": "Frage 12 über Valley of the Kings",
+      "nl": "Vraag 12 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Valley of the Kings",
+      "es": "Pregunta 13 sobre Valley of the Kings",
+      "de": "Frage 13 über Valley of the Kings",
+      "nl": "Vraag 13 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Valley of the Kings",
+      "es": "Pregunta 14 sobre Valley of the Kings",
+      "de": "Frage 14 über Valley of the Kings",
+      "nl": "Vraag 14 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Valley of the Kings",
+      "es": "Pregunta 15 sobre Valley of the Kings",
+      "de": "Frage 15 über Valley of the Kings",
+      "nl": "Vraag 15 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Valley of the Kings",
+      "es": "Pregunta 16 sobre Valley of the Kings",
+      "de": "Frage 16 über Valley of the Kings",
+      "nl": "Vraag 16 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Valley of the Kings",
+      "es": "Pregunta 17 sobre Valley of the Kings",
+      "de": "Frage 17 über Valley of the Kings",
+      "nl": "Vraag 17 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Valley of the Kings",
+      "es": "Pregunta 18 sobre Valley of the Kings",
+      "de": "Frage 18 über Valley of the Kings",
+      "nl": "Vraag 18 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Valley of the Kings",
+      "es": "Pregunta 19 sobre Valley of the Kings",
+      "de": "Frage 19 über Valley of the Kings",
+      "nl": "Vraag 19 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Valley of the Kings",
+      "es": "Pregunta 20 sobre Valley of the Kings",
+      "de": "Frage 20 über Valley of the Kings",
+      "nl": "Vraag 20 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Valley of the Kings",
+      "es": "Pregunta 21 sobre Valley of the Kings",
+      "de": "Frage 21 über Valley of the Kings",
+      "nl": "Vraag 21 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Valley of the Kings",
+      "es": "Pregunta 22 sobre Valley of the Kings",
+      "de": "Frage 22 über Valley of the Kings",
+      "nl": "Vraag 22 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Valley of the Kings",
+      "es": "Pregunta 23 sobre Valley of the Kings",
+      "de": "Frage 23 über Valley of the Kings",
+      "nl": "Vraag 23 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Valley of the Kings",
+      "es": "Pregunta 24 sobre Valley of the Kings",
+      "de": "Frage 24 über Valley of the Kings",
+      "nl": "Vraag 24 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Valley of the Kings",
+      "es": "Pregunta 25 sobre Valley of the Kings",
+      "de": "Frage 25 über Valley of the Kings",
+      "nl": "Vraag 25 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Valley of the Kings",
+      "es": "Pregunta 26 sobre Valley of the Kings",
+      "de": "Frage 26 über Valley of the Kings",
+      "nl": "Vraag 26 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Valley of the Kings",
+      "es": "Pregunta 27 sobre Valley of the Kings",
+      "de": "Frage 27 über Valley of the Kings",
+      "nl": "Vraag 27 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Valley of the Kings",
+      "es": "Pregunta 28 sobre Valley of the Kings",
+      "de": "Frage 28 über Valley of the Kings",
+      "nl": "Vraag 28 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Valley of the Kings",
+      "es": "Pregunta 29 sobre Valley of the Kings",
+      "de": "Frage 29 über Valley of the Kings",
+      "nl": "Vraag 29 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Valley of the Kings",
+      "es": "Pregunta 30 sobre Valley of the Kings",
+      "de": "Frage 30 über Valley of the Kings",
+      "nl": "Vraag 30 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Valley of the Kings",
+      "es": "Pregunta 31 sobre Valley of the Kings",
+      "de": "Frage 31 über Valley of the Kings",
+      "nl": "Vraag 31 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Valley of the Kings",
+      "es": "Pregunta 32 sobre Valley of the Kings",
+      "de": "Frage 32 über Valley of the Kings",
+      "nl": "Vraag 32 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Valley of the Kings",
+      "es": "Pregunta 33 sobre Valley of the Kings",
+      "de": "Frage 33 über Valley of the Kings",
+      "nl": "Vraag 33 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Valley of the Kings",
+      "es": "Pregunta 34 sobre Valley of the Kings",
+      "de": "Frage 34 über Valley of the Kings",
+      "nl": "Vraag 34 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Valley of the Kings",
+      "es": "Pregunta 35 sobre Valley of the Kings",
+      "de": "Frage 35 über Valley of the Kings",
+      "nl": "Vraag 35 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Valley of the Kings",
+      "es": "Pregunta 36 sobre Valley of the Kings",
+      "de": "Frage 36 über Valley of the Kings",
+      "nl": "Vraag 36 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Valley of the Kings",
+      "es": "Pregunta 37 sobre Valley of the Kings",
+      "de": "Frage 37 über Valley of the Kings",
+      "nl": "Vraag 37 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Valley of the Kings",
+      "es": "Pregunta 38 sobre Valley of the Kings",
+      "de": "Frage 38 über Valley of the Kings",
+      "nl": "Vraag 38 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Valley of the Kings",
+      "es": "Pregunta 39 sobre Valley of the Kings",
+      "de": "Frage 39 über Valley of the Kings",
+      "nl": "Vraag 39 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Valley of the Kings",
+      "es": "Pregunta 40 sobre Valley of the Kings",
+      "de": "Frage 40 über Valley of the Kings",
+      "nl": "Vraag 40 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Valley of the Kings",
+      "es": "Pregunta 41 sobre Valley of the Kings",
+      "de": "Frage 41 über Valley of the Kings",
+      "nl": "Vraag 41 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Valley of the Kings",
+      "es": "Pregunta 42 sobre Valley of the Kings",
+      "de": "Frage 42 über Valley of the Kings",
+      "nl": "Vraag 42 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Valley of the Kings",
+      "es": "Pregunta 43 sobre Valley of the Kings",
+      "de": "Frage 43 über Valley of the Kings",
+      "nl": "Vraag 43 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Valley of the Kings",
+      "es": "Pregunta 44 sobre Valley of the Kings",
+      "de": "Frage 44 über Valley of the Kings",
+      "nl": "Vraag 44 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Valley of the Kings",
+      "es": "Pregunta 45 sobre Valley of the Kings",
+      "de": "Frage 45 über Valley of the Kings",
+      "nl": "Vraag 45 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Valley of the Kings",
+      "es": "Pregunta 46 sobre Valley of the Kings",
+      "de": "Frage 46 über Valley of the Kings",
+      "nl": "Vraag 46 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Valley of the Kings",
+      "es": "Pregunta 47 sobre Valley of the Kings",
+      "de": "Frage 47 über Valley of the Kings",
+      "nl": "Vraag 47 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Valley of the Kings",
+      "es": "Pregunta 48 sobre Valley of the Kings",
+      "de": "Frage 48 über Valley of the Kings",
+      "nl": "Vraag 48 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Valley of the Kings",
+      "es": "Pregunta 49 sobre Valley of the Kings",
+      "de": "Frage 49 über Valley of the Kings",
+      "nl": "Vraag 49 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Valley of the Kings",
+      "es": "Pregunta 50 sobre Valley of the Kings",
+      "de": "Frage 50 über Valley of the Kings",
+      "nl": "Vraag 50 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Valley of the Kings",
+      "es": "Pregunta 51 sobre Valley of the Kings",
+      "de": "Frage 51 über Valley of the Kings",
+      "nl": "Vraag 51 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Valley of the Kings",
+      "es": "Pregunta 52 sobre Valley of the Kings",
+      "de": "Frage 52 über Valley of the Kings",
+      "nl": "Vraag 52 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Valley of the Kings",
+      "es": "Pregunta 53 sobre Valley of the Kings",
+      "de": "Frage 53 über Valley of the Kings",
+      "nl": "Vraag 53 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Valley of the Kings",
+      "es": "Pregunta 54 sobre Valley of the Kings",
+      "de": "Frage 54 über Valley of the Kings",
+      "nl": "Vraag 54 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Valley of the Kings",
+      "es": "Pregunta 55 sobre Valley of the Kings",
+      "de": "Frage 55 über Valley of the Kings",
+      "nl": "Vraag 55 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Valley of the Kings",
+      "es": "Pregunta 56 sobre Valley of the Kings",
+      "de": "Frage 56 über Valley of the Kings",
+      "nl": "Vraag 56 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Valley of the Kings",
+      "es": "Pregunta 57 sobre Valley of the Kings",
+      "de": "Frage 57 über Valley of the Kings",
+      "nl": "Vraag 57 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Valley of the Kings",
+      "es": "Pregunta 58 sobre Valley of the Kings",
+      "de": "Frage 58 über Valley of the Kings",
+      "nl": "Vraag 58 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Valley of the Kings",
+      "es": "Pregunta 59 sobre Valley of the Kings",
+      "de": "Frage 59 über Valley of the Kings",
+      "nl": "Vraag 59 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Valley of the Kings",
+      "es": "Pregunta 60 sobre Valley of the Kings",
+      "de": "Frage 60 über Valley of the Kings",
+      "nl": "Vraag 60 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Valley of the Kings",
+      "es": "Pregunta 61 sobre Valley of the Kings",
+      "de": "Frage 61 über Valley of the Kings",
+      "nl": "Vraag 61 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Valley of the Kings",
+      "es": "Pregunta 62 sobre Valley of the Kings",
+      "de": "Frage 62 über Valley of the Kings",
+      "nl": "Vraag 62 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Valley of the Kings",
+      "es": "Pregunta 63 sobre Valley of the Kings",
+      "de": "Frage 63 über Valley of the Kings",
+      "nl": "Vraag 63 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Valley of the Kings",
+      "es": "Pregunta 64 sobre Valley of the Kings",
+      "de": "Frage 64 über Valley of the Kings",
+      "nl": "Vraag 64 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Valley of the Kings",
+      "es": "Pregunta 65 sobre Valley of the Kings",
+      "de": "Frage 65 über Valley of the Kings",
+      "nl": "Vraag 65 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Valley of the Kings",
+      "es": "Pregunta 66 sobre Valley of the Kings",
+      "de": "Frage 66 über Valley of the Kings",
+      "nl": "Vraag 66 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Valley of the Kings",
+      "es": "Pregunta 67 sobre Valley of the Kings",
+      "de": "Frage 67 über Valley of the Kings",
+      "nl": "Vraag 67 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Valley of the Kings",
+      "es": "Pregunta 68 sobre Valley of the Kings",
+      "de": "Frage 68 über Valley of the Kings",
+      "nl": "Vraag 68 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Valley of the Kings",
+      "es": "Pregunta 69 sobre Valley of the Kings",
+      "de": "Frage 69 über Valley of the Kings",
+      "nl": "Vraag 69 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Valley of the Kings",
+      "es": "Pregunta 70 sobre Valley of the Kings",
+      "de": "Frage 70 über Valley of the Kings",
+      "nl": "Vraag 70 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Valley of the Kings",
+      "es": "Pregunta 71 sobre Valley of the Kings",
+      "de": "Frage 71 über Valley of the Kings",
+      "nl": "Vraag 71 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Valley of the Kings",
+      "es": "Pregunta 72 sobre Valley of the Kings",
+      "de": "Frage 72 über Valley of the Kings",
+      "nl": "Vraag 72 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Valley of the Kings",
+      "es": "Pregunta 73 sobre Valley of the Kings",
+      "de": "Frage 73 über Valley of the Kings",
+      "nl": "Vraag 73 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Valley of the Kings",
+      "es": "Pregunta 74 sobre Valley of the Kings",
+      "de": "Frage 74 über Valley of the Kings",
+      "nl": "Vraag 74 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Valley of the Kings",
+      "es": "Pregunta 75 sobre Valley of the Kings",
+      "de": "Frage 75 über Valley of the Kings",
+      "nl": "Vraag 75 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Valley of the Kings",
+      "es": "Pregunta 76 sobre Valley of the Kings",
+      "de": "Frage 76 über Valley of the Kings",
+      "nl": "Vraag 76 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Valley of the Kings",
+      "es": "Pregunta 77 sobre Valley of the Kings",
+      "de": "Frage 77 über Valley of the Kings",
+      "nl": "Vraag 77 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Valley of the Kings",
+      "es": "Pregunta 78 sobre Valley of the Kings",
+      "de": "Frage 78 über Valley of the Kings",
+      "nl": "Vraag 78 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Valley of the Kings",
+      "es": "Pregunta 79 sobre Valley of the Kings",
+      "de": "Frage 79 über Valley of the Kings",
+      "nl": "Vraag 79 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Valley of the Kings",
+      "es": "Pregunta 80 sobre Valley of the Kings",
+      "de": "Frage 80 über Valley of the Kings",
+      "nl": "Vraag 80 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Valley of the Kings",
+      "es": "Pregunta 81 sobre Valley of the Kings",
+      "de": "Frage 81 über Valley of the Kings",
+      "nl": "Vraag 81 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Valley of the Kings",
+      "es": "Pregunta 82 sobre Valley of the Kings",
+      "de": "Frage 82 über Valley of the Kings",
+      "nl": "Vraag 82 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Valley of the Kings",
+      "es": "Pregunta 83 sobre Valley of the Kings",
+      "de": "Frage 83 über Valley of the Kings",
+      "nl": "Vraag 83 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Valley of the Kings",
+      "es": "Pregunta 84 sobre Valley of the Kings",
+      "de": "Frage 84 über Valley of the Kings",
+      "nl": "Vraag 84 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Valley of the Kings",
+      "es": "Pregunta 85 sobre Valley of the Kings",
+      "de": "Frage 85 über Valley of the Kings",
+      "nl": "Vraag 85 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Valley of the Kings",
+      "es": "Pregunta 86 sobre Valley of the Kings",
+      "de": "Frage 86 über Valley of the Kings",
+      "nl": "Vraag 86 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Valley of the Kings",
+      "es": "Pregunta 87 sobre Valley of the Kings",
+      "de": "Frage 87 über Valley of the Kings",
+      "nl": "Vraag 87 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Valley of the Kings",
+      "es": "Pregunta 88 sobre Valley of the Kings",
+      "de": "Frage 88 über Valley of the Kings",
+      "nl": "Vraag 88 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Valley of the Kings",
+      "es": "Pregunta 89 sobre Valley of the Kings",
+      "de": "Frage 89 über Valley of the Kings",
+      "nl": "Vraag 89 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Valley of the Kings",
+      "es": "Pregunta 90 sobre Valley of the Kings",
+      "de": "Frage 90 über Valley of the Kings",
+      "nl": "Vraag 90 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Valley of the Kings",
+      "es": "Pregunta 91 sobre Valley of the Kings",
+      "de": "Frage 91 über Valley of the Kings",
+      "nl": "Vraag 91 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Valley of the Kings",
+      "es": "Pregunta 92 sobre Valley of the Kings",
+      "de": "Frage 92 über Valley of the Kings",
+      "nl": "Vraag 92 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Valley of the Kings",
+      "es": "Pregunta 93 sobre Valley of the Kings",
+      "de": "Frage 93 über Valley of the Kings",
+      "nl": "Vraag 93 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Valley of the Kings",
+      "es": "Pregunta 94 sobre Valley of the Kings",
+      "de": "Frage 94 über Valley of the Kings",
+      "nl": "Vraag 94 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Valley of the Kings",
+      "es": "Pregunta 95 sobre Valley of the Kings",
+      "de": "Frage 95 über Valley of the Kings",
+      "nl": "Vraag 95 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Valley of the Kings",
+      "es": "Pregunta 96 sobre Valley of the Kings",
+      "de": "Frage 96 über Valley of the Kings",
+      "nl": "Vraag 96 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Valley of the Kings",
+      "es": "Pregunta 97 sobre Valley of the Kings",
+      "de": "Frage 97 über Valley of the Kings",
+      "nl": "Vraag 97 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Valley of the Kings",
+      "es": "Pregunta 98 sobre Valley of the Kings",
+      "de": "Frage 98 über Valley of the Kings",
+      "nl": "Vraag 98 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Valley of the Kings",
+      "es": "Pregunta 99 sobre Valley of the Kings",
+      "de": "Frage 99 über Valley of the Kings",
+      "nl": "Vraag 99 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Valley of the Kings",
+      "es": "Pregunta 100 sobre Valley of the Kings",
+      "de": "Frage 100 über Valley of the Kings",
+      "nl": "Vraag 100 over Valley of the Kings"
+    },
+    "options": [
+      {
+        "en": "Answer A for Valley of the Kings",
+        "es": "Respuesta A para Valley of the Kings",
+        "de": "Antwort A für Valley of the Kings",
+        "nl": "Antwoord A voor Valley of the Kings"
+      },
+      {
+        "en": "Answer B for Valley of the Kings",
+        "es": "Respuesta B para Valley of the Kings",
+        "de": "Antwort B für Valley of the Kings",
+        "nl": "Antwoord B voor Valley of the Kings"
+      },
+      {
+        "en": "Answer C for Valley of the Kings",
+        "es": "Respuesta C para Valley of the Kings",
+        "de": "Antwort C für Valley of the Kings",
+        "nl": "Antwoord C voor Valley of the Kings"
+      },
+      {
+        "en": "Answer D for Valley of the Kings",
+        "es": "Respuesta D para Valley of the Kings",
+        "de": "Antwort D für Valley of the Kings",
+        "nl": "Antwoord D voor Valley of the Kings"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Valley of the Kings.",
+      "es": "Esta es la respuesta correcta sobre Valley of the Kings.",
+      "de": "Dies ist die richtige Antwort über Valley of the Kings.",
+      "nl": "Dit is het juiste antwoord over Valley of the Kings."
+    }
   }
-})();
+]
+};

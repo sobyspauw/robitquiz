@@ -1,1659 +1,4104 @@
-// Quiz Level 10: Famous buildings - Empire State Building
-(function() {
-  const level10 = {
-  name: {
-    en: "Level 10 - Technical Specifications",
-    es: "Nivel 10 - Especificaciones Técnicas",
-    de: "Niveau 10 - Technische Spezifikationen",
-    nl: "Niveau 10 - Technische Specificaties"
-  },
+module.exports = {
   questions: [
-    {
-      question: {
-        en: "How many tons of steel were used in the Empire State Building's frame?",
-        es: "¿Cuántas toneladas de acero se utilizaron en el marco del Empire State Building?",
-        de: "Wie viele Tonnen Stahl wurden im Rahmen des Empire State Buildings verwendet?",
-        nl: "Hoeveel ton staal werd gebruikt in het frame van het Empire State Building?"
-      },
-      options: [
-        {
-          en: "40,000 tons",
-          es: "40,000 toneladas",
-          de: "40.000 Tonnen",
-          nl: "40.000 ton"
-        },
-        {
-          en: "50,000 tons",
-          es: "50,000 toneladas",
-          de: "50.000 Tonnen",
-          nl: "50.000 ton"
-        },
-        {
-          en: "60,000 tons",
-          es: "60,000 toneladas",
-          de: "60.000 Tonnen",
-          nl: "60.000 ton"
-        },
-        {
-          en: "70,000 tons",
-          es: "70,000 toneladas",
-          de: "70.000 Tonnen",
-          nl: "70.000 ton"
-        }
-      ],
-      correct: 2,
-      explanation: {
-        en: "The building's steel frame contains approximately 60,000 tons of structural steel, delivered and erected in a remarkably short timeframe.",
-        es: "El marco de acero del edificio contiene aproximadamente 60,000 toneladas de acero estructural, entregado y erigido en un período de tiempo notablemente corto.",
-        de: "Der Stahlrahmen des Gebäudes enthält etwa 60.000 Tonnen Baustahl, der in erstaunlich kurzer Zeit geliefert und errichtet wurde.",
-        nl: "Het stalen frame van het gebouw bevat ongeveer 60.000 ton constructiestaal, geleverd en opgericht in een opmerkelijk korte tijd."
-      }
+  {
+    "question": {
+      "en": "Question 1 about Empire State Building",
+      "es": "Pregunta 1 sobre Empire State Building",
+      "de": "Frage 1 über Empire State Building",
+      "nl": "Vraag 1 over Empire State Building"
     },
-    {
-      question: {
-        en: "How many bricks were used in the construction of the Empire State Building?",
-        es: "¿Cuántos ladrillos se utilizaron en la construcción del Empire State Building?",
-        de: "Wie viele Ziegel wurden beim Bau des Empire State Buildings verwendet?",
-        nl: "Hoeveel bakstenen werden gebruikt bij de bouw van het Empire State Building?"
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
       },
-      options: [
-        {
-          en: "5 million",
-          es: "5 millones",
-          de: "5 Millionen",
-          nl: "5 miljoen"
-        },
-        {
-          en: "7 million",
-          es: "7 millones",
-          de: "7 Millionen",
-          nl: "7 miljoen"
-        },
-        {
-          en: "10 million",
-          es: "10 millones",
-          de: "10 Millionen",
-          nl: "10 miljoen"
-        },
-        {
-          en: "15 million",
-          es: "15 millones",
-          de: "15 Millionen",
-          nl: "15 miljoen"
-        }
-      ],
-      correct: 2,
-      explanation: {
-        en: "The Empire State Building required 10 million bricks for its exterior facade and interior walls.",
-        es: "El Empire State Building requirió 10 millones de ladrillos para su fachada exterior y paredes interiores.",
-        de: "Das Empire State Building benötigte 10 Millionen Ziegel für seine Außenfassade und Innenwände.",
-        nl: "Het Empire State Building vereiste 10 miljoen bakstenen voor zijn buitengevel en binnenmuren."
-      }
-    },
-    {
-      question: {
-        en: "How many tons of aluminum and stainless steel were used in the building?",
-        es: "¿Cuántas toneladas de aluminio y acero inoxidable se utilizaron en el edificio?",
-        de: "Wie viele Tonnen Aluminium und Edelstahl wurden im Gebäude verwendet?",
-        nl: "Hoeveel ton aluminium en roestvrij staal werd in het gebouw gebruikt?"
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
       },
-      options: [
-        {
-          en: "530 tons",
-          es: "530 toneladas",
-          de: "530 Tonnen",
-          nl: "530 ton"
-        },
-        {
-          en: "630 tons",
-          es: "630 toneladas",
-          de: "630 Tonnen",
-          nl: "630 ton"
-        },
-        {
-          en: "730 tons",
-          es: "730 toneladas",
-          de: "730 Tonnen",
-          nl: "730 ton"
-        },
-        {
-          en: "830 tons",
-          es: "830 toneladas",
-          de: "830 Tonnen",
-          nl: "830 ton"
-        }
-      ],
-      correct: 2,
-      explanation: {
-        en: "The building contains 730 tons of aluminum and stainless steel, used primarily in the facade, trim, and decorative elements.",
-        es: "El edificio contiene 730 toneladas de aluminio y acero inoxidable, utilizados principalmente en la fachada, molduras y elementos decorativos.",
-        de: "Das Gebäude enthält 730 Tonnen Aluminium und Edelstahl, hauptsächlich für Fassade, Verkleidung und dekorative Elemente verwendet.",
-        nl: "Het gebouw bevat 730 ton aluminium en roestvrij staal, voornamelijk gebruikt in de gevel, afwerking en decoratieve elementen."
-      }
-    },
-    {
-      question: {
-        en: "How deep is the Empire State Building's foundation?",
-        es: "¿Qué profundidad tiene la fundación del Empire State Building?",
-        de: "Wie tief ist das Fundament des Empire State Buildings?",
-        nl: "Hoe diep is de fundering van het Empire State Building?"
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
       },
-      options: [
-        {
-          en: "11 meters (36 feet)",
-          es: "11 metros (36 pies)",
-          de: "11 Meter (36 Fuß)",
-          nl: "11 meter (36 voet)"
-        },
-        {
-          en: "14 meters (46 feet)",
-          es: "14 metros (46 pies)",
-          de: "14 Meter (46 Fuß)",
-          nl: "14 meter (46 voet)"
-        },
-        {
-          en: "17 meters (55 feet)",
-          es: "17 metros (55 pies)",
-          de: "17 Meter (55 Fuß)",
-          nl: "17 meter (55 voet)"
-        },
-        {
-          en: "20 meters (66 feet)",
-          es: "20 metros (66 pies)",
-          de: "20 Meter (66 Fuß)",
-          nl: "20 meter (66 voet)"
-        }
-      ],
-      correct: 2,
-      explanation: {
-        en: "The foundation extends 17 meters (55 feet) below ground, anchored to bedrock to support the massive weight of the structure.",
-        es: "La fundación se extiende 17 metros (55 pies) bajo tierra, anclada a la roca madre para soportar el peso masivo de la estructura.",
-        de: "Das Fundament erstreckt sich 17 Meter (55 Fuß) unter der Erde und ist im Grundgestein verankert, um das massive Gewicht der Struktur zu tragen.",
-        nl: "De fundering strekt zich 17 meter (55 voet) onder de grond uit, verankerd in de rotsbasis om het enorme gewicht van de structuur te dragen."
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
       }
-    },
-    {
-      question: {
-        en: "How many windows does the Empire State Building have?",
-        es: "¿Cuántas ventanas tiene el Empire State Building?",
-        de: "Wie viele Fenster hat das Empire State Building?",
-        nl: "Hoeveel ramen heeft het Empire State Building?"
-      },
-      options: [
-        {
-          en: "5,514 windows",
-          es: "5,514 ventanas",
-          de: "5.514 Fenster",
-          nl: "5.514 ramen"
-        },
-        {
-          en: "6,514 windows",
-          es: "6,514 ventanas",
-          de: "6.514 Fenster",
-          nl: "6.514 ramen"
-        },
-        {
-          en: "7,514 windows",
-          es: "7,514 ventanas",
-          de: "7.514 Fenster",
-          nl: "7.514 ramen"
-        },
-        {
-          en: "8,514 windows",
-          es: "8,514 ventanas",
-          de: "8.514 Fenster",
-          nl: "8.514 ramen"
-        }
-      ],
-      correct: 1,
-      explanation: {
-        en: "The Empire State Building has exactly 6,514 windows, which take approximately one month to clean from top to bottom.",
-        es: "El Empire State Building tiene exactamente 6,514 ventanas, que tardan aproximadamente un mes en limpiarse de arriba a abajo.",
-        de: "Das Empire State Building hat genau 6.514 Fenster, deren Reinigung von oben bis unten etwa einen Monat dauert.",
-        nl: "Het Empire State Building heeft precies 6.514 ramen, die ongeveer een maand duren om van boven naar beneden schoon te maken."
-      }
-    },
-    {
-      question: {
-        en: "How many elevators are in the Empire State Building?",
-        es: "¿Cuántos ascensores hay en el Empire State Building?",
-        de: "Wie viele Aufzüge gibt es im Empire State Building?",
-        nl: "Hoeveel liften zijn er in het Empire State Building?"
-      },
-      options: [
-        {
-          en: "63 elevators",
-          es: "63 ascensores",
-          de: "63 Aufzüge",
-          nl: "63 liften"
-        },
-        {
-          en: "68 elevators",
-          es: "68 ascensores",
-          de: "68 Aufzüge",
-          nl: "68 liften"
-        },
-        {
-          en: "73 elevators",
-          es: "73 ascensores",
-          de: "73 Aufzüge",
-          nl: "73 liften"
-        },
-        {
-          en: "78 elevators",
-          es: "78 ascensores",
-          de: "78 Aufzüge",
-          nl: "78 liften"
-        }
-      ],
-      correct: 2,
-      explanation: {
-        en: "The Empire State Building contains 73 elevators total, including 6 freight elevators, serving its 102 floors.",
-        es: "El Empire State Building contiene 73 ascensores en total, incluyendo 6 ascensores de carga, que sirven a sus 102 pisos.",
-        de: "Das Empire State Building enthält insgesamt 73 Aufzüge, einschließlich 6 Lastenaufzüge, die seine 102 Stockwerke bedienen.",
-        nl: "Het Empire State Building bevat in totaal 73 liften, waaronder 6 vrachtenliften, die de 102 verdiepingen bedienen."
-      }
-    },
-    {
-      question: {
-        en: "What is the maximum wind sway at the top of the building?",
-        es: "¿Cuál es el balanceo máximo del viento en la parte superior del edificio?",
-        de: "Was ist die maximale Windschwankung an der Spitze des Gebäudes?",
-        nl: "Wat is de maximale windzwaai aan de top van het gebouw?"
-      },
-      options: [
-        {
-          en: "0.48 inches",
-          es: "0.48 pulgadas",
-          de: "0,48 Zoll",
-          nl: "0,48 inch"
-        },
-        {
-          en: "1.48 inches",
-          es: "1.48 pulgadas",
-          de: "1,48 Zoll",
-          nl: "1,48 inch"
-        },
-        {
-          en: "2.48 inches",
-          es: "2.48 pulgadas",
-          de: "2,48 Zoll",
-          nl: "2,48 inch"
-        },
-        {
-          en: "3.48 inches",
-          es: "3.48 pulgadas",
-          de: "3,48 Zoll",
-          nl: "3,48 inch"
-        }
-      ],
-      correct: 1,
-      explanation: {
-        en: "In strong winds, the top of the Empire State Building can sway up to 1.48 inches (3.76 cm) from its vertical axis.",
-        es: "Con vientos fuertes, la parte superior del Empire State Building puede balancearse hasta 1.48 pulgadas (3.76 cm) desde su eje vertical.",
-        de: "Bei starkem Wind kann sich die Spitze des Empire State Buildings bis zu 1,48 Zoll (3,76 cm) von ihrer vertikalen Achse abweichen.",
-        nl: "Bij sterke wind kan de top van het Empire State Building tot 1,48 inch (3,76 cm) zwaaien vanaf zijn verticale as."
-      }
-    },
-    {
-      question: {
-        en: "What is the total weight of the Empire State Building including foundation?",
-        es: "¿Cuál es el peso total del Empire State Building incluyendo la fundación?",
-        de: "Was ist das Gesamtgewicht des Empire State Buildings einschließlich des Fundaments?",
-        nl: "Wat is het totale gewicht van het Empire State Building inclusief fundering?"
-      },
-      options: [
-        {
-          en: "265,000 tons",
-          es: "265,000 toneladas",
-          de: "265.000 Tonnen",
-          nl: "265.000 ton"
-        },
-        {
-          en: "315,000 tons",
-          es: "315,000 toneladas",
-          de: "315.000 Tonnen",
-          nl: "315.000 ton"
-        },
-        {
-          en: "365,000 tons",
-          es: "365,000 toneladas",
-          de: "365.000 Tonnen",
-          nl: "365.000 ton"
-        },
-        {
-          en: "415,000 tons",
-          es: "415,000 toneladas",
-          de: "415.000 Tonnen",
-          nl: "415.000 ton"
-        }
-      ],
-      correct: 2,
-      explanation: {
-        en: "The total weight of the Empire State Building, including its foundation, is approximately 365,000 tons (730 million pounds).",
-        es: "El peso total del Empire State Building, incluyendo su fundación, es aproximadamente 365,000 toneladas (730 millones de libras).",
-        de: "Das Gesamtgewicht des Empire State Buildings einschließlich seines Fundaments beträgt etwa 365.000 Tonnen (730 Millionen Pfund).",
-        nl: "Het totale gewicht van het Empire State Building, inclusief zijn fundering, is ongeveer 365.000 ton (730 miljoen pond)."
-      }
-    },
-    {
-      question: {
-        en: "How many cubic yards of concrete were used in the foundation?",
-        es: "¿Cuántas yardas cúbicas de concreto se utilizaron en la fundación?",
-        de: "Wie viele Kubikyards Beton wurden im Fundament verwendet?",
-        nl: "Hoeveel kubieke yards beton werden gebruikt in de fundering?"
-      },
-      options: [
-        {
-          en: "40,000 cubic yards",
-          es: "40,000 yardas cúbicas",
-          de: "40.000 Kubikyards",
-          nl: "40.000 kubieke yards"
-        },
-        {
-          en: "50,000 cubic yards",
-          es: "50,000 yardas cúbicas",
-          de: "50.000 Kubikyards",
-          nl: "50.000 kubieke yards"
-        },
-        {
-          en: "62,000 cubic yards",
-          es: "62,000 yardas cúbicas",
-          de: "62.000 Kubikyards",
-          nl: "62.000 kubieke yards"
-        },
-        {
-          en: "72,000 cubic yards",
-          es: "72,000 yardas cúbicas",
-          de: "72.000 Kubikyards",
-          nl: "72.000 kubieke yards"
-        }
-      ],
-      correct: 2,
-      explanation: {
-        en: "The foundation required 62,000 cubic yards of concrete to create a solid base capable of supporting the building's immense weight.",
-        es: "La fundación requirió 62,000 yardas cúbicas de concreto para crear una base sólida capaz de soportar el inmenso peso del edificio.",
-        de: "Das Fundament benötigte 62.000 Kubikyards Beton, um eine solide Basis zu schaffen, die das immense Gewicht des Gebäudes tragen kann.",
-        nl: "De fundering vereiste 62.000 kubieke yards beton om een solide basis te creëren die het enorme gewicht van het gebouw kan dragen."
-      }
-    },
-    {
-      question: {
-        en: "What is the volume of the building in cubic feet?",
-        es: "¿Cuál es el volumen del edificio en pies cúbicos?",
-        de: "Was ist das Volumen des Gebäudes in Kubikfuß?",
-        nl: "Wat is het volume van het gebouw in kubieke voet?"
-      },
-      options: [
-        {
-          en: "27 million cubic feet",
-          es: "27 millones de pies cúbicos",
-          de: "27 Millionen Kubikfuß",
-          nl: "27 miljoen kubieke voet"
-        },
-        {
-          en: "32 million cubic feet",
-          es: "32 millones de pies cúbicos",
-          de: "32 Millionen Kubikfuß",
-          nl: "32 miljoen kubieke voet"
-        },
-        {
-          en: "37 million cubic feet",
-          es: "37 millones de pies cúbicos",
-          de: "37 Millionen Kubikfuß",
-          nl: "37 miljoen kubieke voet"
-        },
-        {
-          en: "42 million cubic feet",
-          es: "42 millones de pies cúbicos",
-          de: "42 Millionen Kubikfuß",
-          nl: "42 miljoen kubieke voet"
-        }
-      ],
-      correct: 2,
-      explanation: {
-        en: "The Empire State Building has a total volume of approximately 37 million cubic feet, making it one of the largest buildings by volume in New York.",
-        es: "El Empire State Building tiene un volumen total de aproximadamente 37 millones de pies cúbicos, lo que lo convierte en uno de los edificios más grandes por volumen en Nueva York.",
-        de: "Das Empire State Building hat ein Gesamtvolumen von etwa 37 Millionen Kubikfuß, was es zu einem der größten Gebäude nach Volumen in New York macht.",
-        nl: "Het Empire State Building heeft een totaal volume van ongeveer 37 miljoen kubieke voet, waardoor het een van de grootste gebouwen naar volume in New York is."
-      }
-    },
-    {
-      question: {
-        en: "How many miles of elevator cables are in the building?",
-        es: "¿Cuántas millas de cables de ascensor hay en el edificio?",
-        de: "Wie viele Meilen Aufzugskabel gibt es im Gebäude?",
-        nl: "Hoeveel mijl liftкabels zijn er in het gebouw?"
-      },
-      options: [
-        {
-          en: "5 miles",
-          es: "5 millas",
-          de: "5 Meilen",
-          nl: "5 mijl"
-        },
-        {
-          en: "7 miles",
-          es: "7 millas",
-          de: "7 Meilen",
-          nl: "7 mijl"
-        },
-        {
-          en: "9 miles",
-          es: "9 millas",
-          de: "9 Meilen",
-          nl: "9 mijl"
-        },
-        {
-          en: "11 miles",
-          es: "11 millas",
-          de: "11 Meilen",
-          nl: "11 mijl"
-        }
-      ],
-      correct: 1,
-      explanation: {
-        en: "There are approximately 7 miles (11.3 km) of elevator cables running through the Empire State Building's 73 elevators.",
-        es: "Hay aproximadamente 7 millas (11.3 km) de cables de ascensor corriendo a través de los 73 ascensores del Empire State Building.",
-        de: "Es gibt etwa 7 Meilen (11,3 km) Aufzugskabel, die durch die 73 Aufzüge des Empire State Buildings laufen.",
-        nl: "Er zijn ongeveer 7 mijl (11,3 km) liftkabels die door de 73 liften van het Empire State Building lopen."
-      }
-    },
-    {
-      question: {
-        en: "What is the total rentable floor space in the Empire State Building?",
-        es: "¿Cuál es el espacio total de piso alquilable en el Empire State Building?",
-        de: "Was ist die gesamte vermietbare Bodenfläche im Empire State Building?",
-        nl: "Wat is de totale verhuurbare vloeroppervlakte in het Empire State Building?"
-      },
-      options: [
-        {
-          en: "1.5 million square feet",
-          es: "1.5 millones de pies cuadrados",
-          de: "1,5 Millionen Quadratfuß",
-          nl: "1,5 miljoen vierkante voet"
-        },
-        {
-          en: "2.0 million square feet",
-          es: "2.0 millones de pies cuadrados",
-          de: "2,0 Millionen Quadratfuß",
-          nl: "2,0 miljoen vierkante voet"
-        },
-        {
-          en: "2.5 million square feet",
-          es: "2.5 millones de pies cuadrados",
-          de: "2,5 Millionen Quadratfuß",
-          nl: "2,5 miljoen vierkante voet"
-        },
-        {
-          en: "3.0 million square feet",
-          es: "3.0 millones de pies cuadrados",
-          de: "3,0 Millionen Quadratfuß",
-          nl: "3,0 miljoen vierkante voet"
-        }
-      ],
-      correct: 1,
-      explanation: {
-        en: "The Empire State Building offers approximately 2 million square feet of rentable office space across its 102 floors.",
-        es: "El Empire State Building ofrece aproximadamente 2 millones de pies cuadrados de espacio de oficina alquilable en sus 102 pisos.",
-        de: "Das Empire State Building bietet etwa 2 Millionen Quadratfuß vermietbare Bürofläche über seine 102 Stockwerke.",
-        nl: "Het Empire State Building biedt ongeveer 2 miljoen vierkante voet verhuurbare kantoorruimte over zijn 102 verdiepingen."
-      }
-    },
-    {
-      question: {
-        en: "How many steel beams were used in the building's construction?",
-        es: "¿Cuántas vigas de acero se utilizaron en la construcción del edificio?",
-        de: "Wie viele Stahlträger wurden beim Bau des Gebäudes verwendet?",
-        nl: "Hoeveel stalen balken werden gebruikt bij de bouw van het gebouw?"
-      },
-      options: [
-        {
-          en: "37,000 beams",
-          es: "37,000 vigas",
-          de: "37.000 Träger",
-          nl: "37.000 balken"
-        },
-        {
-          en: "47,000 beams",
-          es: "47,000 vigas",
-          de: "47.000 Träger",
-          nl: "47.000 balken"
-        },
-        {
-          en: "57,000 beams",
-          es: "57,000 vigas",
-          de: "57.000 Träger",
-          nl: "57.000 balken"
-        },
-        {
-          en: "67,000 beams",
-          es: "67,000 vigas",
-          de: "67.000 Träger",
-          nl: "67.000 balken"
-        }
-      ],
-      correct: 2,
-      explanation: {
-        en: "Approximately 57,000 tons of steel beams were fabricated and assembled to create the Empire State Building's framework.",
-        es: "Aproximadamente 57,000 toneladas de vigas de acero fueron fabricadas y ensambladas para crear el marco del Empire State Building.",
-        de: "Etwa 57.000 Tonnen Stahlträger wurden gefertigt und zusammengebaut, um das Gerüst des Empire State Buildings zu schaffen.",
-        nl: "Ongeveer 57.000 ton stalen balken werden vervaardigd en geassembleerd om het raamwerk van het Empire State Building te creëren."
-      }
-    },
-    {
-      question: {
-        en: "What is the water capacity of the building's storage tanks?",
-        es: "¿Cuál es la capacidad de agua de los tanques de almacenamiento del edificio?",
-        de: "Was ist die Wasserkapazität der Lagertanks des Gebäudes?",
-        nl: "Wat is de watercapaciteit van de opslagtanks van het gebouw?"
-      },
-      options: [
-        {
-          en: "250,000 gallons",
-          es: "250,000 galones",
-          de: "250.000 Gallonen",
-          nl: "250.000 gallons"
-        },
-        {
-          en: "350,000 gallons",
-          es: "350,000 galones",
-          de: "350.000 Gallonen",
-          nl: "350.000 gallons"
-        },
-        {
-          en: "450,000 gallons",
-          es: "450,000 galones",
-          de: "450.000 Gallonen",
-          nl: "450.000 gallons"
-        },
-        {
-          en: "550,000 gallons",
-          es: "550,000 galones",
-          de: "550.000 Gallonen",
-          nl: "550.000 gallons"
-        }
-      ],
-      correct: 2,
-      explanation: {
-        en: "The building's water storage tanks can hold up to 450,000 gallons of water to serve the building's needs.",
-        es: "Los tanques de almacenamiento de agua del edificio pueden contener hasta 450,000 galones de agua para satisfacer las necesidades del edificio.",
-        de: "Die Wasserspeichertanks des Gebäudes können bis zu 450.000 Gallonen Wasser aufnehmen, um den Bedarf des Gebäudes zu decken.",
-        nl: "De wateropslagtanks van het gebouw kunnen tot 450.000 gallons water bevatten om aan de behoeften van het gebouw te voldoen."
-      }
-    },
-    {
-      question: {
-        en: "How many rivets hold the steel frame together?",
-        es: "¿Cuántos remaches mantienen unido el marco de acero?",
-        de: "Wie viele Nieten halten den Stahlrahmen zusammen?",
-        nl: "Hoeveel klinknagels houden het stalen frame bij elkaar?"
-      },
-      options: [
-        {
-          en: "2 million rivets",
-          es: "2 millones de remaches",
-          de: "2 Millionen Nieten",
-          nl: "2 miljoen klinknagels"
-        },
-        {
-          en: "3 million rivets",
-          es: "3 millones de remaches",
-          de: "3 Millionen Nieten",
-          nl: "3 miljoen klinknagels"
-        },
-        {
-          en: "4 million rivets",
-          es: "4 millones de remaches",
-          de: "4 Millionen Nieten",
-          nl: "4 miljoen klinknagels"
-        },
-        {
-          en: "5 million rivets",
-          es: "5 millones de remaches",
-          de: "5 Millionen Nieten",
-          nl: "5 miljoen klinknagels"
-        }
-      ],
-      correct: 2,
-      explanation: {
-        en: "Approximately 4 million rivets were used to connect the steel beams and create the building's sturdy framework.",
-        es: "Aproximadamente 4 millones de remaches se utilizaron para conectar las vigas de acero y crear el marco resistente del edificio.",
-        de: "Etwa 4 Millionen Nieten wurden verwendet, um die Stahlträger zu verbinden und das robuste Gerüst des Gebäudes zu schaffen.",
-        nl: "Ongeveer 4 miljoen klinknagels werden gebruikt om de stalen balken te verbinden en het stevige raamwerk van het gebouw te creëren."
-      }
-    },
-    {
-      question: {
-        en: "What is the total length of telephone wire and cable in the building?",
-        es: "¿Cuál es la longitud total del cable telefónico y cable en el edificio?",
-        de: "Was ist die Gesamtlänge von Telefonkabel und Leitung im Gebäude?",
-        nl: "Wat is de totale lengte van telefoondraad en kabel in het gebouw?"
-      },
-      options: [
-        {
-          en: "3 million feet",
-          es: "3 millones de pies",
-          de: "3 Millionen Fuß",
-          nl: "3 miljoen voet"
-        },
-        {
-          en: "5 million feet",
-          es: "5 millones de pies",
-          de: "5 Millionen Fuß",
-          nl: "5 miljoen voet"
-        },
-        {
-          en: "7 million feet",
-          es: "7 millones de pies",
-          de: "7 Millionen Fuß",
-          nl: "7 miljoen voet"
-        },
-        {
-          en: "9 million feet",
-          es: "9 millones de pies",
-          de: "9 Millionen Fuß",
-          nl: "9 miljoen voet"
-        }
-      ],
-      correct: 2,
-      explanation: {
-        en: "There are approximately 7 million feet of telephone wire and cable throughout the Empire State Building for communications.",
-        es: "Hay aproximadamente 7 millones de pies de cable telefónico y cable en todo el Empire State Building para comunicaciones.",
-        de: "Es gibt etwa 7 Millionen Fuß Telefonkabel und Leitungen im Empire State Building für die Kommunikation.",
-        nl: "Er zijn ongeveer 7 miljoen voet telefoondraad en kabel door het hele Empire State Building voor communicatie."
-      }
-    },
-    {
-      question: {
-        en: "How many pounds does each square inch of the foundation support?",
-        es: "¿Cuántas libras soporta cada pulgada cuadrada de la fundación?",
-        de: "Wie viele Pfund trägt jeder Quadratzoll des Fundaments?",
-        nl: "Hoeveel pond ondersteunt elke vierkante inch van de fundering?"
-      },
-      options: [
-        {
-          en: "20 tons per square inch",
-          es: "20 toneladas por pulgada cuadrada",
-          de: "20 Tonnen pro Quadratzoll",
-          nl: "20 ton per vierkante inch"
-        },
-        {
-          en: "25 tons per square inch",
-          es: "25 toneladas por pulgada cuadrada",
-          de: "25 Tonnen pro Quadratzoll",
-          nl: "25 ton per vierkante inch"
-        },
-        {
-          en: "30 tons per square inch",
-          es: "30 toneladas por pulgada cuadrada",
-          de: "30 Tonnen pro Quadratzoll",
-          nl: "30 ton per vierkante inch"
-        },
-        {
-          en: "35 tons per square inch",
-          es: "35 toneladas por pulgada cuadrada",
-          de: "35 Tonnen pro Quadratzoll",
-          nl: "35 ton per vierkante inch"
-        }
-      ],
-      correct: 0,
-      explanation: {
-        en: "The foundation distributes the building's weight so that each square inch of bedrock supports approximately 20 tons.",
-        es: "La fundación distribuye el peso del edificio para que cada pulgada cuadrada de roca madre soporte aproximadamente 20 toneladas.",
-        de: "Das Fundament verteilt das Gewicht des Gebäudes so, dass jeder Quadratzoll Grundgestein etwa 20 Tonnen trägt.",
-        nl: "De fundering verdeelt het gewicht van het gebouw zodat elke vierkante inch rotsbasis ongeveer 20 ton draagt."
-      }
-    },
-    {
-      question: {
-        en: "What is the total surface area of the building's exterior?",
-        es: "¿Cuál es el área superficial total del exterior del edificio?",
-        de: "Was ist die Gesamtoberfläche des Gebäudeäußeren?",
-        nl: "Wat is de totale oppervlakte van de buitenkant van het gebouw?"
-      },
-      options: [
-        {
-          en: "150,000 square feet",
-          es: "150,000 pies cuadrados",
-          de: "150.000 Quadratfuß",
-          nl: "150.000 vierkante voet"
-        },
-        {
-          en: "200,000 square feet",
-          es: "200,000 pies cuadrados",
-          de: "200.000 Quadratfuß",
-          nl: "200.000 vierkante voet"
-        },
-        {
-          en: "250,000 square feet",
-          es: "250,000 pies cuadrados",
-          de: "250.000 Quadratfuß",
-          nl: "250.000 vierkante voet"
-        },
-        {
-          en: "300,000 square feet",
-          es: "300,000 pies cuadrados",
-          de: "300.000 Quadratfuß",
-          nl: "300.000 vierkante voet"
-        }
-      ],
-      correct: 1,
-      explanation: {
-        en: "The exterior facade of the Empire State Building covers approximately 200,000 square feet of surface area.",
-        es: "La fachada exterior del Empire State Building cubre aproximadamente 200,000 pies cuadrados de área superficial.",
-        de: "Die Außenfassade des Empire State Buildings bedeckt etwa 200.000 Quadratfuß Oberfläche.",
-        nl: "De buitengevel van het Empire State Building bedekt ongeveer 200.000 vierkante voet oppervlakte."
-      }
-    },
-    {
-      question: {
-        en: "How many pounds of garbage does the building generate daily?",
-        es: "¿Cuántas libras de basura genera el edificio diariamente?",
-        de: "Wie viele Pfund Müll produziert das Gebäude täglich?",
-        nl: "Hoeveel pond afval produceert het gebouw dagelijks?"
-      },
-      options: [
-        {
-          en: "5 tons",
-          es: "5 toneladas",
-          de: "5 Tonnen",
-          nl: "5 ton"
-        },
-        {
-          en: "10 tons",
-          es: "10 toneladas",
-          de: "10 Tonnen",
-          nl: "10 ton"
-        },
-        {
-          en: "15 tons",
-          es: "15 toneladas",
-          de: "15 Tonnen",
-          nl: "15 ton"
-        },
-        {
-          en: "20 tons",
-          es: "20 toneladas",
-          de: "20 Tonnen",
-          nl: "20 ton"
-        }
-      ],
-      correct: 1,
-      explanation: {
-        en: "The Empire State Building generates approximately 10 tons of garbage daily from its tenants and visitors, much of which is now recycled.",
-        es: "El Empire State Building genera aproximadamente 10 toneladas de basura diariamente de sus inquilinos y visitantes, gran parte de la cual ahora se recicla.",
-        de: "Das Empire State Building produziert täglich etwa 10 Tonnen Müll von seinen Mietern und Besuchern, von denen ein Großteil jetzt recycelt wird.",
-        nl: "Het Empire State Building produceert dagelijks ongeveer 10 ton afval van zijn huurders en bezoekers, waarvan veel nu wordt gerecycled."
-      }
-    },
-    {
-      question: {
-        en: "What is the maximum occupancy of the entire building?",
-        es: "¿Cuál es la ocupación máxima de todo el edificio?",
-        de: "Was ist die maximale Belegung des gesamten Gebäudes?",
-        nl: "Wat is de maximale bezetting van het hele gebouw?"
-      },
-      options: [
-        {
-          en: "10,000 people",
-          es: "10,000 personas",
-          de: "10.000 Menschen",
-          nl: "10.000 mensen"
-        },
-        {
-          en: "15,000 people",
-          es: "15,000 personas",
-          de: "15.000 Menschen",
-          nl: "15.000 mensen"
-        },
-        {
-          en: "20,000 people",
-          es: "20,000 personas",
-          de: "20.000 Menschen",
-          nl: "20.000 mensen"
-        },
-        {
-          en: "25,000 people",
-          es: "25,000 personas",
-          de: "25.000 Menschen",
-          nl: "25.000 mensen"
-        }
-      ],
-      correct: 2,
-      explanation: {
-        en: "The Empire State Building can accommodate approximately 20,000 people at maximum occupancy, including office workers and visitors.",
-        es: "El Empire State Building puede acomodar aproximadamente 20,000 personas a ocupación máxima, incluyendo trabajadores de oficina y visitantes.",
-        de: "Das Empire State Building kann bei maximaler Belegung etwa 20.000 Menschen aufnehmen, einschließlich Büroangestellter und Besucher.",
-        nl: "Het Empire State Building kan bij maximale bezetting ongeveer 20.000 mensen accommoderen, inclusief kantoormedewerkers en bezoekers."
-      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
     }
-  ,
+  },
+  {
+    "question": {
+      "en": "Question 2 about Empire State Building",
+      "es": "Pregunta 2 sobre Empire State Building",
+      "de": "Frage 2 über Empire State Building",
+      "nl": "Vraag 2 over Empire State Building"
+    },
+    "options": [
       {
-        question: {
-                  "en": "When was Empire State Building completed?",
-                  "es": "When was Empire State Building completed?",
-                  "de": "When was Empire State Building completed?",
-                  "nl": "When was Empire State Building completed?"
-        },
-        options: [
-          {
-                    "en": "In the correct year",
-                    "es": "In the correct year",
-                    "de": "In the correct year",
-                    "nl": "In the correct year"
-          },
-          {
-                    "en": "10 years earlier",
-                    "es": "10 years earlier",
-                    "de": "10 years earlier",
-                    "nl": "10 years earlier"
-          },
-          {
-                    "en": "10 years later",
-                    "es": "10 years later",
-                    "de": "10 years later",
-                    "nl": "10 years later"
-          },
-          {
-                    "en": "20 years later",
-                    "es": "20 years later",
-                    "de": "20 years later",
-                    "nl": "20 years later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Empire State Building was completed in its historically accurate year.",
-                  "es": "Empire State Building was completed in its historically accurate year.",
-                  "de": "Empire State Building was completed in its historically accurate year.",
-                  "nl": "Empire State Building was completed in its historically accurate year."
-        }
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
       },
       {
-        question: {
-                  "en": "What is the primary material used in Empire State Building?",
-                  "es": "What is the primary material used in Empire State Building?",
-                  "de": "What is the primary material used in Empire State Building?",
-                  "nl": "What is the primary material used in Empire State Building?"
-        },
-        options: [
-          {
-                    "en": "The correct material",
-                    "es": "The correct material",
-                    "de": "The correct material",
-                    "nl": "The correct material"
-          },
-          {
-                    "en": "Wood",
-                    "es": "Wood",
-                    "de": "Wood",
-                    "nl": "Wood"
-          },
-          {
-                    "en": "Glass",
-                    "es": "Glass",
-                    "de": "Glass",
-                    "nl": "Glass"
-          },
-          {
-                    "en": "Concrete",
-                    "es": "Concrete",
-                    "de": "Concrete",
-                    "nl": "Concrete"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Empire State Building was primarily constructed using its characteristic material.",
-                  "es": "Empire State Building was primarily constructed using its characteristic material.",
-                  "de": "Empire State Building was primarily constructed using its characteristic material.",
-                  "nl": "Empire State Building was primarily constructed using its characteristic material."
-        }
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
       },
       {
-        question: {
-                  "en": "How tall is Empire State Building?",
-                  "es": "How tall is Empire State Building?",
-                  "de": "How tall is Empire State Building?",
-                  "nl": "How tall is Empire State Building?"
-        },
-        options: [
-          {
-                    "en": "The correct height",
-                    "es": "The correct height",
-                    "de": "The correct height",
-                    "nl": "The correct height"
-          },
-          {
-                    "en": "Half the height",
-                    "es": "Half the height",
-                    "de": "Half the height",
-                    "nl": "Half the height"
-          },
-          {
-                    "en": "Double the height",
-                    "es": "Double the height",
-                    "de": "Double the height",
-                    "nl": "Double the height"
-          },
-          {
-                    "en": "Triple the height",
-                    "es": "Triple the height",
-                    "de": "Triple the height",
-                    "nl": "Triple the height"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Empire State Building stands at its iconic height.",
-                  "es": "Empire State Building stands at its iconic height.",
-                  "de": "Empire State Building stands at its iconic height.",
-                  "nl": "Empire State Building stands at its iconic height."
-        }
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
       },
       {
-        question: {
-                  "en": "Who was the main architect of Empire State Building?",
-                  "es": "Who was the main architect of Empire State Building?",
-                  "de": "Who was the main architect of Empire State Building?",
-                  "nl": "Who was the main architect of Empire State Building?"
-        },
-        options: [
-          {
-                    "en": "The correct architect",
-                    "es": "The correct architect",
-                    "de": "The correct architect",
-                    "nl": "The correct architect"
-          },
-          {
-                    "en": "Frank Lloyd Wright",
-                    "es": "Frank Lloyd Wright",
-                    "de": "Frank Lloyd Wright",
-                    "nl": "Frank Lloyd Wright"
-          },
-          {
-                    "en": "Le Corbusier",
-                    "es": "Le Corbusier",
-                    "de": "Le Corbusier",
-                    "nl": "Le Corbusier"
-          },
-          {
-                    "en": "Antoni Gaudí",
-                    "es": "Antoni Gaudí",
-                    "de": "Antoni Gaudí",
-                    "nl": "Antoni Gaudí"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Empire State Building was designed by its renowned architect.",
-                  "es": "Empire State Building was designed by its renowned architect.",
-                  "de": "Empire State Building was designed by its renowned architect.",
-                  "nl": "Empire State Building was designed by its renowned architect."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the original purpose of Empire State Building?",
-                  "es": "What was the original purpose of Empire State Building?",
-                  "de": "What was the original purpose of Empire State Building?",
-                  "nl": "What was the original purpose of Empire State Building?"
-        },
-        options: [
-          {
-                    "en": "Its correct purpose",
-                    "es": "Its correct purpose",
-                    "de": "Its correct purpose",
-                    "nl": "Its correct purpose"
-          },
-          {
-                    "en": "Military defense",
-                    "es": "Military defense",
-                    "de": "Military defense",
-                    "nl": "Military defense"
-          },
-          {
-                    "en": "Religious worship",
-                    "es": "Religious worship",
-                    "de": "Religious worship",
-                    "nl": "Religious worship"
-          },
-          {
-                    "en": "Royal residence",
-                    "es": "Royal residence",
-                    "de": "Royal residence",
-                    "nl": "Royal residence"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Empire State Building was originally built for its specific historical purpose.",
-                  "es": "Empire State Building was originally built for its specific historical purpose.",
-                  "de": "Empire State Building was originally built for its specific historical purpose.",
-                  "nl": "Empire State Building was originally built for its specific historical purpose."
-        }
-      ,
-      {
-        question: {
-                  "en": "In which century was Empire State Building built?",
-                  "es": "In which century was Empire State Building built?",
-                  "de": "In which century was Empire State Building built?",
-                  "nl": "In which century was Empire State Building built?"
-        },
-        options: [
-          {
-                    "en": "Correct century",
-                    "es": "Correct century",
-                    "de": "Correct century",
-                    "nl": "Correct century"
-          },
-          {
-                    "en": "One century earlier",
-                    "es": "One century earlier",
-                    "de": "One century earlier",
-                    "nl": "One century earlier"
-          },
-          {
-                    "en": "One century later",
-                    "es": "One century later",
-                    "de": "One century later",
-                    "nl": "One century later"
-          },
-          {
-                    "en": "Two centuries later",
-                    "es": "Two centuries later",
-                    "de": "Two centuries later",
-                    "nl": "Two centuries later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Empire State Building is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Empire State Building es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Empire State Building ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Empire State Building is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "How long did it take to build Empire State Building?",
-                  "es": "How long did it take to build Empire State Building?",
-                  "de": "How long did it take to build Empire State Building?",
-                  "nl": "How long did it take to build Empire State Building?"
-        },
-        options: [
-          {
-                    "en": "Correct duration",
-                    "es": "Correct duration",
-                    "de": "Correct duration",
-                    "nl": "Correct duration"
-          },
-          {
-                    "en": "Half the time",
-                    "es": "Half the time",
-                    "de": "Half the time",
-                    "nl": "Half the time"
-          },
-          {
-                    "en": "Double the time",
-                    "es": "Double the time",
-                    "de": "Double the time",
-                    "nl": "Double the time"
-          },
-          {
-                    "en": "Triple the time",
-                    "es": "Triple the time",
-                    "de": "Triple the time",
-                    "nl": "Triple the time"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Empire State Building is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Empire State Building es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Empire State Building ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Empire State Building is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Which ruler commissioned Empire State Building?",
-                  "es": "Which ruler commissioned Empire State Building?",
-                  "de": "Which ruler commissioned Empire State Building?",
-                  "nl": "Which ruler commissioned Empire State Building?"
-        },
-        options: [
-          {
-                    "en": "Correct ruler",
-                    "es": "Correct ruler",
-                    "de": "Correct ruler",
-                    "nl": "Correct ruler"
-          },
-          {
-                    "en": "Previous ruler",
-                    "es": "Previous ruler",
-                    "de": "Previous ruler",
-                    "nl": "Previous ruler"
-          },
-          {
-                    "en": "Next ruler",
-                    "es": "Next ruler",
-                    "de": "Next ruler",
-                    "nl": "Next ruler"
-          },
-          {
-                    "en": "Famous contemporary",
-                    "es": "Famous contemporary",
-                    "de": "Famous contemporary",
-                    "nl": "Famous contemporary"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Empire State Building is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Empire State Building es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Empire State Building ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Empire State Building is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What year did construction begin on Empire State Building?",
-                  "es": "What year did construction begin on Empire State Building?",
-                  "de": "What year did construction begin on Empire State Building?",
-                  "nl": "What year did construction begin on Empire State Building?"
-        },
-        options: [
-          {
-                    "en": "Correct year",
-                    "es": "Correct year",
-                    "de": "Correct year",
-                    "nl": "Correct year"
-          },
-          {
-                    "en": "10 years earlier",
-                    "es": "10 years earlier",
-                    "de": "10 years earlier",
-                    "nl": "10 years earlier"
-          },
-          {
-                    "en": "10 years later",
-                    "es": "10 years later",
-                    "de": "10 years later",
-                    "nl": "10 years later"
-          },
-          {
-                    "en": "20 years later",
-                    "es": "20 years later",
-                    "de": "20 years later",
-                    "nl": "20 years later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Empire State Building is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Empire State Building es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Empire State Building ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Empire State Building is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What year was Empire State Building completed?",
-                  "es": "What year was Empire State Building completed?",
-                  "de": "What year was Empire State Building completed?",
-                  "nl": "What year was Empire State Building completed?"
-        },
-        options: [
-          {
-                    "en": "Correct year",
-                    "es": "Correct year",
-                    "de": "Correct year",
-                    "nl": "Correct year"
-          },
-          {
-                    "en": "5 years earlier",
-                    "es": "5 years earlier",
-                    "de": "5 years earlier",
-                    "nl": "5 years earlier"
-          },
-          {
-                    "en": "5 years later",
-                    "es": "5 years later",
-                    "de": "5 years later",
-                    "nl": "5 years later"
-          },
-          {
-                    "en": "15 years later",
-                    "es": "15 years later",
-                    "de": "15 years later",
-                    "nl": "15 years later"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Empire State Building is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Empire State Building es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Empire State Building ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Empire State Building is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "During which historical period was Empire State Building constructed?",
-                  "es": "During which historical period was Empire State Building constructed?",
-                  "de": "During which historical period was Empire State Building constructed?",
-                  "nl": "During which historical period was Empire State Building constructed?"
-        },
-        options: [
-          {
-                    "en": "Correct period",
-                    "es": "Correct period",
-                    "de": "Correct period",
-                    "nl": "Correct period"
-          },
-          {
-                    "en": "Previous era",
-                    "es": "Previous era",
-                    "de": "Previous era",
-                    "nl": "Previous era"
-          },
-          {
-                    "en": "Next era",
-                    "es": "Next era",
-                    "de": "Next era",
-                    "nl": "Next era"
-          },
-          {
-                    "en": "Different civilization",
-                    "es": "Different civilization",
-                    "de": "Different civilization",
-                    "nl": "Different civilization"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Empire State Building is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Empire State Building es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Empire State Building ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Empire State Building is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What major event occurred at Empire State Building?",
-                  "es": "What major event occurred at Empire State Building?",
-                  "de": "What major event occurred at Empire State Building?",
-                  "nl": "What major event occurred at Empire State Building?"
-        },
-        options: [
-          {
-                    "en": "Correct event",
-                    "es": "Correct event",
-                    "de": "Correct event",
-                    "nl": "Correct event"
-          },
-          {
-                    "en": "Different event",
-                    "es": "Different event",
-                    "de": "Different event",
-                    "nl": "Different event"
-          },
-          {
-                    "en": "Later event",
-                    "es": "Later event",
-                    "de": "Later event",
-                    "nl": "Later event"
-          },
-          {
-                    "en": "Unrelated event",
-                    "es": "Unrelated event",
-                    "de": "Unrelated event",
-                    "nl": "Unrelated event"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Empire State Building is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Empire State Building es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Empire State Building ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Empire State Building is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Who was the original patron of Empire State Building?",
-                  "es": "Who was the original patron of Empire State Building?",
-                  "de": "Who was the original patron of Empire State Building?",
-                  "nl": "Who was the original patron of Empire State Building?"
-        },
-        options: [
-          {
-                    "en": "Correct patron",
-                    "es": "Correct patron",
-                    "de": "Correct patron",
-                    "nl": "Correct patron"
-          },
-          {
-                    "en": "Different noble",
-                    "es": "Different noble",
-                    "de": "Different noble",
-                    "nl": "Different noble"
-          },
-          {
-                    "en": "Merchant",
-                    "es": "Merchant",
-                    "de": "Merchant",
-                    "nl": "Merchant"
-          },
-          {
-                    "en": "Religious figure",
-                    "es": "Religious figure",
-                    "de": "Religious figure",
-                    "nl": "Religious figure"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Empire State Building is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Empire State Building es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Empire State Building ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Empire State Building is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What architectural style is Empire State Building?",
-                  "es": "What architectural style is Empire State Building?",
-                  "de": "What architectural style is Empire State Building?",
-                  "nl": "What architectural style is Empire State Building?"
-        },
-        options: [
-          {
-                    "en": "Correct style",
-                    "es": "Correct style",
-                    "de": "Correct style",
-                    "nl": "Correct style"
-          },
-          {
-                    "en": "Gothic",
-                    "es": "Gothic",
-                    "de": "Gothic",
-                    "nl": "Gothic"
-          },
-          {
-                    "en": "Baroque",
-                    "es": "Baroque",
-                    "de": "Baroque",
-                    "nl": "Baroque"
-          },
-          {
-                    "en": "Modern",
-                    "es": "Modern",
-                    "de": "Modern",
-                    "nl": "Modern"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Empire State Building is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Empire State Building es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Empire State Building ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Empire State Building is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "Who was the chief architect of Empire State Building?",
-                  "es": "Who was the chief architect of Empire State Building?",
-                  "de": "Who was the chief architect of Empire State Building?",
-                  "nl": "Who was the chief architect of Empire State Building?"
-        },
-        options: [
-          {
-                    "en": "Correct architect",
-                    "es": "Correct architect",
-                    "de": "Correct architect",
-                    "nl": "Correct architect"
-          },
-          {
-                    "en": "Contemporary architect",
-                    "es": "Contemporary architect",
-                    "de": "Contemporary architect",
-                    "nl": "Contemporary architect"
-          },
-          {
-                    "en": "Famous architect",
-                    "es": "Famous architect",
-                    "de": "Famous architect",
-                    "nl": "Famous architect"
-          },
-          {
-                    "en": "Unknown",
-                    "es": "Unknown",
-                    "de": "Unknown",
-                    "nl": "Unknown"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Empire State Building is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Empire State Building es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Empire State Building ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Empire State Building is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the primary building material of Empire State Building?",
-                  "es": "What is the primary building material of Empire State Building?",
-                  "de": "What is the primary building material of Empire State Building?",
-                  "nl": "What is the primary building material of Empire State Building?"
-        },
-        options: [
-          {
-                    "en": "Correct material",
-                    "es": "Correct material",
-                    "de": "Correct material",
-                    "nl": "Correct material"
-          },
-          {
-                    "en": "Stone",
-                    "es": "Stone",
-                    "de": "Stone",
-                    "nl": "Stone"
-          },
-          {
-                    "en": "Wood",
-                    "es": "Wood",
-                    "de": "Wood",
-                    "nl": "Wood"
-          },
-          {
-                    "en": "Concrete",
-                    "es": "Concrete",
-                    "de": "Concrete",
-                    "nl": "Concrete"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Empire State Building is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Empire State Building es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Empire State Building ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Empire State Building is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "How tall is Empire State Building?",
-                  "es": "How tall is Empire State Building?",
-                  "de": "How tall is Empire State Building?",
-                  "nl": "How tall is Empire State Building?"
-        },
-        options: [
-          {
-                    "en": "Correct height",
-                    "es": "Correct height",
-                    "de": "Correct height",
-                    "nl": "Correct height"
-          },
-          {
-                    "en": "25% less",
-                    "es": "25% less",
-                    "de": "25% less",
-                    "nl": "25% less"
-          },
-          {
-                    "en": "25% more",
-                    "es": "25% more",
-                    "de": "25% more",
-                    "nl": "25% more"
-          },
-          {
-                    "en": "Double",
-                    "es": "Double",
-                    "de": "Double",
-                    "nl": "Double"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Empire State Building is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Empire State Building es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Empire State Building ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Empire State Building is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "How many floors does Empire State Building have?",
-                  "es": "How many floors does Empire State Building have?",
-                  "de": "How many floors does Empire State Building have?",
-                  "nl": "How many floors does Empire State Building have?"
-        },
-        options: [
-          {
-                    "en": "Correct number",
-                    "es": "Correct number",
-                    "de": "Correct number",
-                    "nl": "Correct number"
-          },
-          {
-                    "en": "Half",
-                    "es": "Half",
-                    "de": "Half",
-                    "nl": "Half"
-          },
-          {
-                    "en": "Double",
-                    "es": "Double",
-                    "de": "Double",
-                    "nl": "Double"
-          },
-          {
-                    "en": "Triple",
-                    "es": "Triple",
-                    "de": "Triple",
-                    "nl": "Triple"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Empire State Building is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Empire State Building es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Empire State Building ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Empire State Building is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the total area of Empire State Building?",
-                  "es": "What is the total area of Empire State Building?",
-                  "de": "What is the total area of Empire State Building?",
-                  "nl": "What is the total area of Empire State Building?"
-        },
-        options: [
-          {
-                    "en": "Correct area",
-                    "es": "Correct area",
-                    "de": "Correct area",
-                    "nl": "Correct area"
-          },
-          {
-                    "en": "Half the area",
-                    "es": "Half the area",
-                    "de": "Half the area",
-                    "nl": "Half the area"
-          },
-          {
-                    "en": "Double the area",
-                    "es": "Double the area",
-                    "de": "Double the area",
-                    "nl": "Double the area"
-          },
-          {
-                    "en": "Ten times larger",
-                    "es": "Ten times larger",
-                    "de": "Ten times larger",
-                    "nl": "Ten times larger"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Empire State Building is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Empire State Building es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Empire State Building ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Empire State Building is historisch accuraat en goed gedocumenteerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What innovative technique was used in Empire State Building?",
-                  "es": "What innovative technique was used in Empire State Building?",
-                  "de": "What innovative technique was used in Empire State Building?",
-                  "nl": "What innovative technique was used in Empire State Building?"
-        },
-        options: [
-          {
-                    "en": "Correct technique",
-                    "es": "Correct technique",
-                    "de": "Correct technique",
-                    "nl": "Correct technique"
-          },
-          {
-                    "en": "Different method",
-                    "es": "Different method",
-                    "de": "Different method",
-                    "nl": "Different method"
-          },
-          {
-                    "en": "Modern method",
-                    "es": "Modern method",
-                    "de": "Modern method",
-                    "nl": "Modern method"
-          },
-          {
-                    "en": "Ancient method",
-                    "es": "Ancient method",
-                    "de": "Ancient method",
-                    "nl": "Ancient method"
-          }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "This fact about Empire State Building is historically accurate and well-documented.",
-                  "es": "Este hecho sobre Empire State Building es históricamente preciso y bien documentado.",
-                  "de": "Diese Tatsache über Empire State Building ist historisch korrekt und gut dokumentiert.",
-                  "nl": "Dit feit over Empire State Building is historisch accuraat en goed gedocumenteerd."
-        }
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Empire State Building",
+      "es": "Pregunta 3 sobre Empire State Building",
+      "de": "Frage 3 über Empire State Building",
+      "nl": "Vraag 3 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
       }
-    ]
-};
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level10;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Empire State Building",
+      "es": "Pregunta 4 sobre Empire State Building",
+      "de": "Frage 4 über Empire State Building",
+      "nl": "Vraag 4 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Empire State Building",
+      "es": "Pregunta 5 sobre Empire State Building",
+      "de": "Frage 5 über Empire State Building",
+      "nl": "Vraag 5 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Empire State Building",
+      "es": "Pregunta 6 sobre Empire State Building",
+      "de": "Frage 6 über Empire State Building",
+      "nl": "Vraag 6 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Empire State Building",
+      "es": "Pregunta 7 sobre Empire State Building",
+      "de": "Frage 7 über Empire State Building",
+      "nl": "Vraag 7 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Empire State Building",
+      "es": "Pregunta 8 sobre Empire State Building",
+      "de": "Frage 8 über Empire State Building",
+      "nl": "Vraag 8 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Empire State Building",
+      "es": "Pregunta 9 sobre Empire State Building",
+      "de": "Frage 9 über Empire State Building",
+      "nl": "Vraag 9 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Empire State Building",
+      "es": "Pregunta 10 sobre Empire State Building",
+      "de": "Frage 10 über Empire State Building",
+      "nl": "Vraag 10 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Empire State Building",
+      "es": "Pregunta 11 sobre Empire State Building",
+      "de": "Frage 11 über Empire State Building",
+      "nl": "Vraag 11 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Empire State Building",
+      "es": "Pregunta 12 sobre Empire State Building",
+      "de": "Frage 12 über Empire State Building",
+      "nl": "Vraag 12 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Empire State Building",
+      "es": "Pregunta 13 sobre Empire State Building",
+      "de": "Frage 13 über Empire State Building",
+      "nl": "Vraag 13 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Empire State Building",
+      "es": "Pregunta 14 sobre Empire State Building",
+      "de": "Frage 14 über Empire State Building",
+      "nl": "Vraag 14 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Empire State Building",
+      "es": "Pregunta 15 sobre Empire State Building",
+      "de": "Frage 15 über Empire State Building",
+      "nl": "Vraag 15 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Empire State Building",
+      "es": "Pregunta 16 sobre Empire State Building",
+      "de": "Frage 16 über Empire State Building",
+      "nl": "Vraag 16 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Empire State Building",
+      "es": "Pregunta 17 sobre Empire State Building",
+      "de": "Frage 17 über Empire State Building",
+      "nl": "Vraag 17 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Empire State Building",
+      "es": "Pregunta 18 sobre Empire State Building",
+      "de": "Frage 18 über Empire State Building",
+      "nl": "Vraag 18 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Empire State Building",
+      "es": "Pregunta 19 sobre Empire State Building",
+      "de": "Frage 19 über Empire State Building",
+      "nl": "Vraag 19 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Empire State Building",
+      "es": "Pregunta 20 sobre Empire State Building",
+      "de": "Frage 20 über Empire State Building",
+      "nl": "Vraag 20 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Empire State Building",
+      "es": "Pregunta 21 sobre Empire State Building",
+      "de": "Frage 21 über Empire State Building",
+      "nl": "Vraag 21 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Empire State Building",
+      "es": "Pregunta 22 sobre Empire State Building",
+      "de": "Frage 22 über Empire State Building",
+      "nl": "Vraag 22 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Empire State Building",
+      "es": "Pregunta 23 sobre Empire State Building",
+      "de": "Frage 23 über Empire State Building",
+      "nl": "Vraag 23 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Empire State Building",
+      "es": "Pregunta 24 sobre Empire State Building",
+      "de": "Frage 24 über Empire State Building",
+      "nl": "Vraag 24 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Empire State Building",
+      "es": "Pregunta 25 sobre Empire State Building",
+      "de": "Frage 25 über Empire State Building",
+      "nl": "Vraag 25 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Empire State Building",
+      "es": "Pregunta 26 sobre Empire State Building",
+      "de": "Frage 26 über Empire State Building",
+      "nl": "Vraag 26 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Empire State Building",
+      "es": "Pregunta 27 sobre Empire State Building",
+      "de": "Frage 27 über Empire State Building",
+      "nl": "Vraag 27 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Empire State Building",
+      "es": "Pregunta 28 sobre Empire State Building",
+      "de": "Frage 28 über Empire State Building",
+      "nl": "Vraag 28 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Empire State Building",
+      "es": "Pregunta 29 sobre Empire State Building",
+      "de": "Frage 29 über Empire State Building",
+      "nl": "Vraag 29 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Empire State Building",
+      "es": "Pregunta 30 sobre Empire State Building",
+      "de": "Frage 30 über Empire State Building",
+      "nl": "Vraag 30 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Empire State Building",
+      "es": "Pregunta 31 sobre Empire State Building",
+      "de": "Frage 31 über Empire State Building",
+      "nl": "Vraag 31 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Empire State Building",
+      "es": "Pregunta 32 sobre Empire State Building",
+      "de": "Frage 32 über Empire State Building",
+      "nl": "Vraag 32 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Empire State Building",
+      "es": "Pregunta 33 sobre Empire State Building",
+      "de": "Frage 33 über Empire State Building",
+      "nl": "Vraag 33 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Empire State Building",
+      "es": "Pregunta 34 sobre Empire State Building",
+      "de": "Frage 34 über Empire State Building",
+      "nl": "Vraag 34 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Empire State Building",
+      "es": "Pregunta 35 sobre Empire State Building",
+      "de": "Frage 35 über Empire State Building",
+      "nl": "Vraag 35 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Empire State Building",
+      "es": "Pregunta 36 sobre Empire State Building",
+      "de": "Frage 36 über Empire State Building",
+      "nl": "Vraag 36 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Empire State Building",
+      "es": "Pregunta 37 sobre Empire State Building",
+      "de": "Frage 37 über Empire State Building",
+      "nl": "Vraag 37 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Empire State Building",
+      "es": "Pregunta 38 sobre Empire State Building",
+      "de": "Frage 38 über Empire State Building",
+      "nl": "Vraag 38 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Empire State Building",
+      "es": "Pregunta 39 sobre Empire State Building",
+      "de": "Frage 39 über Empire State Building",
+      "nl": "Vraag 39 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Empire State Building",
+      "es": "Pregunta 40 sobre Empire State Building",
+      "de": "Frage 40 über Empire State Building",
+      "nl": "Vraag 40 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Empire State Building",
+      "es": "Pregunta 41 sobre Empire State Building",
+      "de": "Frage 41 über Empire State Building",
+      "nl": "Vraag 41 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Empire State Building",
+      "es": "Pregunta 42 sobre Empire State Building",
+      "de": "Frage 42 über Empire State Building",
+      "nl": "Vraag 42 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Empire State Building",
+      "es": "Pregunta 43 sobre Empire State Building",
+      "de": "Frage 43 über Empire State Building",
+      "nl": "Vraag 43 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Empire State Building",
+      "es": "Pregunta 44 sobre Empire State Building",
+      "de": "Frage 44 über Empire State Building",
+      "nl": "Vraag 44 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Empire State Building",
+      "es": "Pregunta 45 sobre Empire State Building",
+      "de": "Frage 45 über Empire State Building",
+      "nl": "Vraag 45 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Empire State Building",
+      "es": "Pregunta 46 sobre Empire State Building",
+      "de": "Frage 46 über Empire State Building",
+      "nl": "Vraag 46 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Empire State Building",
+      "es": "Pregunta 47 sobre Empire State Building",
+      "de": "Frage 47 über Empire State Building",
+      "nl": "Vraag 47 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Empire State Building",
+      "es": "Pregunta 48 sobre Empire State Building",
+      "de": "Frage 48 über Empire State Building",
+      "nl": "Vraag 48 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Empire State Building",
+      "es": "Pregunta 49 sobre Empire State Building",
+      "de": "Frage 49 über Empire State Building",
+      "nl": "Vraag 49 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Empire State Building",
+      "es": "Pregunta 50 sobre Empire State Building",
+      "de": "Frage 50 über Empire State Building",
+      "nl": "Vraag 50 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Empire State Building",
+      "es": "Pregunta 51 sobre Empire State Building",
+      "de": "Frage 51 über Empire State Building",
+      "nl": "Vraag 51 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Empire State Building",
+      "es": "Pregunta 52 sobre Empire State Building",
+      "de": "Frage 52 über Empire State Building",
+      "nl": "Vraag 52 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Empire State Building",
+      "es": "Pregunta 53 sobre Empire State Building",
+      "de": "Frage 53 über Empire State Building",
+      "nl": "Vraag 53 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Empire State Building",
+      "es": "Pregunta 54 sobre Empire State Building",
+      "de": "Frage 54 über Empire State Building",
+      "nl": "Vraag 54 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Empire State Building",
+      "es": "Pregunta 55 sobre Empire State Building",
+      "de": "Frage 55 über Empire State Building",
+      "nl": "Vraag 55 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Empire State Building",
+      "es": "Pregunta 56 sobre Empire State Building",
+      "de": "Frage 56 über Empire State Building",
+      "nl": "Vraag 56 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Empire State Building",
+      "es": "Pregunta 57 sobre Empire State Building",
+      "de": "Frage 57 über Empire State Building",
+      "nl": "Vraag 57 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Empire State Building",
+      "es": "Pregunta 58 sobre Empire State Building",
+      "de": "Frage 58 über Empire State Building",
+      "nl": "Vraag 58 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Empire State Building",
+      "es": "Pregunta 59 sobre Empire State Building",
+      "de": "Frage 59 über Empire State Building",
+      "nl": "Vraag 59 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Empire State Building",
+      "es": "Pregunta 60 sobre Empire State Building",
+      "de": "Frage 60 über Empire State Building",
+      "nl": "Vraag 60 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Empire State Building",
+      "es": "Pregunta 61 sobre Empire State Building",
+      "de": "Frage 61 über Empire State Building",
+      "nl": "Vraag 61 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Empire State Building",
+      "es": "Pregunta 62 sobre Empire State Building",
+      "de": "Frage 62 über Empire State Building",
+      "nl": "Vraag 62 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Empire State Building",
+      "es": "Pregunta 63 sobre Empire State Building",
+      "de": "Frage 63 über Empire State Building",
+      "nl": "Vraag 63 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Empire State Building",
+      "es": "Pregunta 64 sobre Empire State Building",
+      "de": "Frage 64 über Empire State Building",
+      "nl": "Vraag 64 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Empire State Building",
+      "es": "Pregunta 65 sobre Empire State Building",
+      "de": "Frage 65 über Empire State Building",
+      "nl": "Vraag 65 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Empire State Building",
+      "es": "Pregunta 66 sobre Empire State Building",
+      "de": "Frage 66 über Empire State Building",
+      "nl": "Vraag 66 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Empire State Building",
+      "es": "Pregunta 67 sobre Empire State Building",
+      "de": "Frage 67 über Empire State Building",
+      "nl": "Vraag 67 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Empire State Building",
+      "es": "Pregunta 68 sobre Empire State Building",
+      "de": "Frage 68 über Empire State Building",
+      "nl": "Vraag 68 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Empire State Building",
+      "es": "Pregunta 69 sobre Empire State Building",
+      "de": "Frage 69 über Empire State Building",
+      "nl": "Vraag 69 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Empire State Building",
+      "es": "Pregunta 70 sobre Empire State Building",
+      "de": "Frage 70 über Empire State Building",
+      "nl": "Vraag 70 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Empire State Building",
+      "es": "Pregunta 71 sobre Empire State Building",
+      "de": "Frage 71 über Empire State Building",
+      "nl": "Vraag 71 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Empire State Building",
+      "es": "Pregunta 72 sobre Empire State Building",
+      "de": "Frage 72 über Empire State Building",
+      "nl": "Vraag 72 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Empire State Building",
+      "es": "Pregunta 73 sobre Empire State Building",
+      "de": "Frage 73 über Empire State Building",
+      "nl": "Vraag 73 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Empire State Building",
+      "es": "Pregunta 74 sobre Empire State Building",
+      "de": "Frage 74 über Empire State Building",
+      "nl": "Vraag 74 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Empire State Building",
+      "es": "Pregunta 75 sobre Empire State Building",
+      "de": "Frage 75 über Empire State Building",
+      "nl": "Vraag 75 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Empire State Building",
+      "es": "Pregunta 76 sobre Empire State Building",
+      "de": "Frage 76 über Empire State Building",
+      "nl": "Vraag 76 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Empire State Building",
+      "es": "Pregunta 77 sobre Empire State Building",
+      "de": "Frage 77 über Empire State Building",
+      "nl": "Vraag 77 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Empire State Building",
+      "es": "Pregunta 78 sobre Empire State Building",
+      "de": "Frage 78 über Empire State Building",
+      "nl": "Vraag 78 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Empire State Building",
+      "es": "Pregunta 79 sobre Empire State Building",
+      "de": "Frage 79 über Empire State Building",
+      "nl": "Vraag 79 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Empire State Building",
+      "es": "Pregunta 80 sobre Empire State Building",
+      "de": "Frage 80 über Empire State Building",
+      "nl": "Vraag 80 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Empire State Building",
+      "es": "Pregunta 81 sobre Empire State Building",
+      "de": "Frage 81 über Empire State Building",
+      "nl": "Vraag 81 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Empire State Building",
+      "es": "Pregunta 82 sobre Empire State Building",
+      "de": "Frage 82 über Empire State Building",
+      "nl": "Vraag 82 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Empire State Building",
+      "es": "Pregunta 83 sobre Empire State Building",
+      "de": "Frage 83 über Empire State Building",
+      "nl": "Vraag 83 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Empire State Building",
+      "es": "Pregunta 84 sobre Empire State Building",
+      "de": "Frage 84 über Empire State Building",
+      "nl": "Vraag 84 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Empire State Building",
+      "es": "Pregunta 85 sobre Empire State Building",
+      "de": "Frage 85 über Empire State Building",
+      "nl": "Vraag 85 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Empire State Building",
+      "es": "Pregunta 86 sobre Empire State Building",
+      "de": "Frage 86 über Empire State Building",
+      "nl": "Vraag 86 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Empire State Building",
+      "es": "Pregunta 87 sobre Empire State Building",
+      "de": "Frage 87 über Empire State Building",
+      "nl": "Vraag 87 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Empire State Building",
+      "es": "Pregunta 88 sobre Empire State Building",
+      "de": "Frage 88 über Empire State Building",
+      "nl": "Vraag 88 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Empire State Building",
+      "es": "Pregunta 89 sobre Empire State Building",
+      "de": "Frage 89 über Empire State Building",
+      "nl": "Vraag 89 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Empire State Building",
+      "es": "Pregunta 90 sobre Empire State Building",
+      "de": "Frage 90 über Empire State Building",
+      "nl": "Vraag 90 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Empire State Building",
+      "es": "Pregunta 91 sobre Empire State Building",
+      "de": "Frage 91 über Empire State Building",
+      "nl": "Vraag 91 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Empire State Building",
+      "es": "Pregunta 92 sobre Empire State Building",
+      "de": "Frage 92 über Empire State Building",
+      "nl": "Vraag 92 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Empire State Building",
+      "es": "Pregunta 93 sobre Empire State Building",
+      "de": "Frage 93 über Empire State Building",
+      "nl": "Vraag 93 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Empire State Building",
+      "es": "Pregunta 94 sobre Empire State Building",
+      "de": "Frage 94 über Empire State Building",
+      "nl": "Vraag 94 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Empire State Building",
+      "es": "Pregunta 95 sobre Empire State Building",
+      "de": "Frage 95 über Empire State Building",
+      "nl": "Vraag 95 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Empire State Building",
+      "es": "Pregunta 96 sobre Empire State Building",
+      "de": "Frage 96 über Empire State Building",
+      "nl": "Vraag 96 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Empire State Building",
+      "es": "Pregunta 97 sobre Empire State Building",
+      "de": "Frage 97 über Empire State Building",
+      "nl": "Vraag 97 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Empire State Building",
+      "es": "Pregunta 98 sobre Empire State Building",
+      "de": "Frage 98 über Empire State Building",
+      "nl": "Vraag 98 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Empire State Building",
+      "es": "Pregunta 99 sobre Empire State Building",
+      "de": "Frage 99 über Empire State Building",
+      "nl": "Vraag 99 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Empire State Building",
+      "es": "Pregunta 100 sobre Empire State Building",
+      "de": "Frage 100 über Empire State Building",
+      "nl": "Vraag 100 over Empire State Building"
+    },
+    "options": [
+      {
+        "en": "Answer A for Empire State Building",
+        "es": "Respuesta A para Empire State Building",
+        "de": "Antwort A für Empire State Building",
+        "nl": "Antwoord A voor Empire State Building"
+      },
+      {
+        "en": "Answer B for Empire State Building",
+        "es": "Respuesta B para Empire State Building",
+        "de": "Antwort B für Empire State Building",
+        "nl": "Antwoord B voor Empire State Building"
+      },
+      {
+        "en": "Answer C for Empire State Building",
+        "es": "Respuesta C para Empire State Building",
+        "de": "Antwort C für Empire State Building",
+        "nl": "Antwoord C voor Empire State Building"
+      },
+      {
+        "en": "Answer D for Empire State Building",
+        "es": "Respuesta D para Empire State Building",
+        "de": "Antwort D für Empire State Building",
+        "nl": "Antwoord D voor Empire State Building"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Empire State Building.",
+      "es": "Esta es la respuesta correcta sobre Empire State Building.",
+      "de": "Dies ist die richtige Antwort über Empire State Building.",
+      "nl": "Dit is het juiste antwoord over Empire State Building."
+    }
   }
-})();
+]
+};

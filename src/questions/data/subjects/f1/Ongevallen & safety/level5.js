@@ -1,255 +1,4104 @@
-(function() {
-  const questions = [
-
+module.exports = {
+  questions: [
   {
-    question:{en:"What advanced crash test simulates real-world accident scenarios?",es:"¿Qué prueba de choque avanzada simula escenarios de accidente del mundo real?",de:"Welcher erweiterte Crashtest simuliert reale Unfall-Szenarien?",nl:"Welke geavanceerde crash test simuleert echte-wereld ongeluk scenario's?"},
-    options:["Dynamic sled tests with dummies","Static load only","Computer simulation","Visual inspection"],
-    correct:0,
-    explanation:{en:"FIA conducts dynamic sled tests using crash test dummies instrumented with sensors to measure forces experienced during impacts. These tests validate that crash structures and restraints work together to protect drivers. The data helps refine regulations and improve safety continuously.",es:"FIA realiza pruebas dinámicas de trineo usando maniquíes de prueba de choque instrumentados con sensores para medir fuerzas experimentadas durante impactos. Estas pruebas validan que estructuras de choque y restricciones trabajan juntas para proteger pilotos. Los datos ayudan a refinar regulaciones y mejorar seguridad continuamente.",de:"FIA führt dynamische Schlittentests mit Crashtest-Dummys durch die mit Sensoren instrumentiert sind um Kräfte während Aufprallen zu messen. Diese Tests validieren dass Crash-Strukturen und Rückhaltesysteme zusammenarbeiten um Fahrer zu schützen. Daten helfen Vorschriften zu verfeinern und Sicherheit kontinuierlich zu verbessern.",nl:"FIA voert dynamische slee testen uit met crash test dummies geïnstrumenteerd met sensoren om krachten te meten ervaren tijdens impacts. Deze testen valideren dat crash structuren en beperkingen samenwerken om coureurs te beschermen. De data helpt regulaties te verfijnen en veiligheid continu te verbeteren."}
+    "question": {
+      "en": "Question 1 about Ongevallen & safety",
+      "es": "Pregunta 1 sobre Ongevallen & safety",
+      "de": "Frage 1 über Ongevallen & safety",
+      "nl": "Vraag 1 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
   },
   {
-    question:{en:"How do circuits manage spectator evacuation during emergencies?",es:"¿Cómo gestionan los circuitos la evacuación de espectadores durante emergencias?",de:"Wie handhaben Strecken Zuschauer-Evakuierung während Notfällen?",nl:"Hoe beheren circuits toeschouwer evacuatie tijdens noodgevallen?"},
-    options:["Designated evacuation routes and marshals","No evacuation plan","Spontaneous exit","Single exit point"],
-    correct:0,
-    explanation:{en:"Circuits have detailed evacuation plans with designated routes, assembly points, and trained personnel to guide spectators. Routes are clearly marked and avoid crossing the track. Regular drills ensure staff can execute evacuations efficiently. Plans account for mobility-impaired spectators.",es:"Los circuitos tienen planes de evacuación detallados con rutas designadas, puntos de reunión y personal entrenado para guiar espectadores. Las rutas están claramente marcadas y evitan cruzar pista. Simulacros regulares aseguran que personal pueda ejecutar evacuaciones eficientemente. Los planes consideran espectadores con movilidad reducida.",de:"Strecken haben detaillierte Evakuierungspläne mit designierten Routen, Versammlungspunkten und geschultem Personal um Zuschauer zu führen. Routen sind klar markiert und vermeiden Streckenkreuzung. Regelmäßige Übungen stellen sicher dass Personal Evakuierungen effizient ausführen kann. Pläne berücksichtigen mobilitätseingeschränkte Zuschauer.",nl:"Circuits hebben gedetailleerde evacuatie plannen met aangewezen routes, verzamel punten en getraind personeel om toeschouwers te leiden. Routes zijn duidelijk gemarkeerd en vermijden circuit kruising. Regelmatige oefeningen verzekeren dat personeel evacuaties efficiënt kan uitvoeren. Plannen houden rekening met mobiliteit-beperkte toeschouwers."}
+    "question": {
+      "en": "Question 2 about Ongevallen & safety",
+      "es": "Pregunta 2 sobre Ongevallen & safety",
+      "de": "Frage 2 über Ongevallen & safety",
+      "nl": "Vraag 2 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
   },
   {
-    question:{en:"What safety feature prevents wheel guns from over-torquing wheel nuts?",es:"¿Qué característica de seguridad previene que pistolas de rueda aprieten demasiado tuercas de rueda?",de:"Welches Sicherheitsmerkmal verhindert dass Radmuttern-Schrauber Radmuttern überdrehen?",nl:"Welke veiligheids kenmerk voorkomt dat wiel pistolen wiel moeren te strak draaien?"},
-    options:["Torque-limited pneumatic guns","Manual tools","Unlimited torque","No limit"],
-    correct:0,
-    explanation:{en:"Pit crews use torque-limited pneumatic wheel guns that automatically stop at the correct torque setting. This prevents over-tightening that could damage wheel studs or make wheels difficult to remove in subsequent stops. Teams calibrate guns before each session.",es:"Los equipos de pit usan pistolas de rueda neumáticas limitadas por torque que automáticamente se detienen en el ajuste de torque correcto. Esto previene apriete excesivo que podría dañar espárragos de rueda o hacer ruedas difíciles de quitar en paradas subsecuentes. Los equipos calibran pistolas antes de cada sesión.",de:"Box-Crews nutzen drehmomentbegrenzte pneumatische Radschrauber die automatisch bei korrekter Drehmoment-Einstellung stoppen. Dies verhindert Überdrehen das Radbolzen beschädigen oder Räder schwer zu entfernen in nachfolgenden Stopps machen könnte. Teams kalibrieren Schrauber vor jeder Sitzung.",nl:"Pit crews gebruiken koppel-gelimiteerde pneumatische wiel pistolen die automatisch stoppen bij de correcte koppel instelling. Dit voorkomt te strak draaien dat wiel bouten zou kunnen beschadigen of wielen moeilijk te verwijderen maken bij volgende stops. Teams kalibreren pistolen voor elke sessie."}
+    "question": {
+      "en": "Question 3 about Ongevallen & safety",
+      "es": "Pregunta 3 sobre Ongevallen & safety",
+      "de": "Frage 3 über Ongevallen & safety",
+      "nl": "Vraag 3 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
   },
   {
-    question:{en:"What medical imaging capability must trackside facilities provide?",es:"¿Qué capacidad de imágenes médicas deben proporcionar las instalaciones al lado de pista?",de:"Welche medizinische Bildgebungs-Fähigkeit müssen Streckeneinrichtungen bieten?",nl:"Welke medische beeldvorming capaciteit moeten circuit faciliteiten bieden?"},
-    options:["X-ray and CT scan capability","X-ray only","No imaging","Visual examination"],
-    correct:0,
-    explanation:{en:"Trackside medical centers must have X-ray and CT scanning equipment to diagnose injuries immediately. This allows doctors to identify fractures, internal injuries, or head trauma before transport. Rapid imaging can be critical for treatment decisions and determining if helicopter transport is needed.",es:"Los centros médicos al lado de pista deben tener equipo de rayos X y escaneo CT para diagnosticar lesiones inmediatamente. Esto permite a doctores identificar fracturas, lesiones internas o trauma craneal antes de transporte. Imágenes rápidas pueden ser críticas para decisiones de tratamiento y determinar si se necesita transporte en helicóptero.",de:"Streckenmedizinische Zentren müssen Röntgen- und CT-Scan-Ausrüstung haben um Verletzungen sofort zu diagnostizieren. Dies erlaubt Ärzten Frakturen, innere Verletzungen oder Kopftrauma vor Transport zu identifizieren. Schnelle Bildgebung kann kritisch für Behandlungsentscheidungen sein und bestimmen ob Hubschraubertransport nötig ist.",nl:"Circuit medische centra moeten röntgen en CT scan uitrusting hebben om verwondingen onmiddellijk te diagnosticeren. Dit staat artsen toe breuken, interne verwondingen of hoofd trauma te identificeren voor transport. Snelle beeldvorming kan kritiek zijn voor behandelings beslissingen en bepalen of helikopter transport nodig is."}
+    "question": {
+      "en": "Question 4 about Ongevallen & safety",
+      "es": "Pregunta 4 sobre Ongevallen & safety",
+      "de": "Frage 4 über Ongevallen & safety",
+      "nl": "Vraag 4 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
   },
   {
-    question:{en:"How do frontal load tests validate nose cone strength?",es:"¿Cómo validan las pruebas de carga frontal la resistencia del cono de nariz?",de:"Wie validieren frontale Belastungstests Nasenkegel-Festigkeit?",nl:"Hoe valideren frontale belasting testen neus kegel sterkte?"},
-    options:["Progressive loading to 80 kN","Single static load","Visual inspection","No frontal test"],
-    correct:0,
-    explanation:{en:"Nose structures undergo progressive loading tests up to 80 kN to verify they can absorb frontal impact energy. The test measures deformation and energy absorption at various load levels. Structures must absorb energy progressively without sudden catastrophic failure.",es:"Las estructuras de nariz pasan pruebas de carga progresiva hasta 80 kN para verificar que pueden absorber energía de impacto frontal. La prueba mide deformación y absorción de energía en varios niveles de carga. Las estructuras deben absorber energía progresivamente sin fallo catastrófico repentino.",de:"Nasenstrukturen durchlaufen progressive Belastungstests bis 80 kN um zu verifizieren dass sie frontale Aufprallenergie absorbieren können. Test misst Verformung und Energieabsorption bei verschiedenen Lastniveaus. Strukturen müssen Energie progressiv absorbieren ohne plötzliches katastrophales Versagen.",nl:"Neus structuren ondergaan progressieve belasting testen tot 80 kN om te verifiëren dat ze frontale impact energie kunnen absorberen. De test meet vervorming en energie absorptie bij verschillende belasting niveaus. Structuren moeten energie progressief absorberen zonder plotselinge catastrofale storing."}
+    "question": {
+      "en": "Question 5 about Ongevallen & safety",
+      "es": "Pregunta 5 sobre Ongevallen & safety",
+      "de": "Frage 5 über Ongevallen & safety",
+      "nl": "Vraag 5 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
   },
   {
-    question:{en:"What circuit inspection frequency ensures ongoing safety compliance?",es:"¿Qué frecuencia de inspección de circuito asegura cumplimiento continuo de seguridad?",de:"Welche Strecken-Inspektionsfrequenz stellt fortlaufende Sicherheitskonformität sicher?",nl:"Welke circuit inspectie frequentie verzekert voortdurende veiligheids naleving?"},
-    options:["Annual FIA inspection plus pre-race checks","One-time approval","No inspection","Visual only"],
-    correct:0,
-    explanation:{en:"Circuits undergo annual FIA safety inspections to maintain their Grade 1 license. Additional inspections occur before each race weekend to verify barrier condition, runoff areas, and safety equipment. Any circuit changes require FIA approval and re-inspection before use.",es:"Los circuitos pasan inspecciones de seguridad anuales de FIA para mantener su licencia Grado 1. Inspecciones adicionales ocurren antes de cada fin de semana de carrera para verificar condición de barrera, áreas de escape y equipo de seguridad. Cualquier cambio de circuito requiere aprobación de FIA y re-inspección antes de uso.",de:"Strecken durchlaufen jährliche FIA-Sicherheitsinspektionen um ihre Grad-1-Lizenz zu erhalten. Zusätzliche Inspektionen erfolgen vor jedem Rennwochenende um Barrierenzustand, Auslaufzonen und Sicherheitsausrüstung zu verifizieren. Jede Streckenänderung erfordert FIA-Genehmigung und Neuinspektion vor Nutzung.",nl:"Circuits ondergaan jaarlijkse FIA veiligheids inspecties om hun Graad 1 licentie te behouden. Aanvullende inspecties vinden plaats voor elk race weekend om barrière conditie, uitloop gebieden en veiligheids uitrusting te verifiëren. Elke circuit verandering vereist FIA goedkeuring en her-inspectie voor gebruik."}
+    "question": {
+      "en": "Question 6 about Ongevallen & safety",
+      "es": "Pregunta 6 sobre Ongevallen & safety",
+      "de": "Frage 6 über Ongevallen & safety",
+      "nl": "Vraag 6 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
   },
   {
-    question:{en:"What protection prevents debris from entering cockpit ventilation?",es:"¿Qué protección previene que escombros entren en ventilación de cockpit?",de:"Welcher Schutz verhindert dass Trümmer in Cockpit-Belüftung gelangen?",nl:"Welke bescherming voorkomt dat puin cockpit ventilatie binnenkomt?"},
-    options:["Fine mesh filters on air intakes","Open vents","Large openings","No protection"],
-    correct:0,
-    explanation:{en:"Cockpit air intakes use fine mesh filters that allow airflow while blocking debris. The filters prevent small particles from entering the driver's breathing space. They're designed to maintain airflow even if partially blocked, ensuring adequate ventilation throughout races.",es:"Las tomas de aire de cockpit usan filtros de malla fina que permiten flujo de aire mientras bloquean escombros. Los filtros previenen que partículas pequeñas entren en espacio de respiración de piloto. Están diseñados para mantener flujo de aire incluso si parcialmente bloqueados, asegurando ventilación adecuada durante carreras.",de:"Cockpit-Lufteinlässe nutzen feinmaschige Filter die Luftstrom erlauben während Trümmer blockiert werden. Filter verhindern dass kleine Partikel in Fahrer-Atemraum gelangen. Sie sind entwickelt um Luftstrom aufrechtzuerhalten selbst wenn teilweise blockiert, angemessene Belüftung während Rennen sicherstellend.",nl:"Cockpit lucht inlaten gebruiken fijne mesh filters die luchtstroom toestaan terwijl puin geblokkeerd wordt. De filters voorkomen dat kleine deeltjes coureur ademruimte binnenkomen. Ze zijn ontworpen om luchtstroom te behouden zelfs als gedeeltelijk geblokkeerd, adequate ventilatie tijdens races verzekerd."}
+    "question": {
+      "en": "Question 7 about Ongevallen & safety",
+      "es": "Pregunta 7 sobre Ongevallen & safety",
+      "de": "Frage 7 über Ongevallen & safety",
+      "nl": "Vraag 7 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
   },
   {
-    question:{en:"How do yellow flag sectors control racing during local incidents?",es:"¿Cómo controlan los sectores de bandera amarilla las carreras durante incidentes locales?",de:"Wie kontrollieren Gelbflaggen-Sektoren Rennen während lokaler Vorfälle?",nl:"Hoe controleren gele vlag sectoren racen tijdens lokale incidenten?"},
-    options:["Slow, no overtaking in flagged sector","Full speed allowed","Overtaking permitted","No restrictions"],
-    correct:0,
-    explanation:{en:"Tracks are divided into yellow flag sectors. When an incident occurs, only affected sectors show yellow flags requiring drivers to slow and prohibit overtaking. This allows racing to continue in safe sectors while protecting marshals working on incidents. Electronic systems monitor speed compliance.",es:"Las pistas están divididas en sectores de bandera amarilla. Cuando ocurre un incidente, solo sectores afectados muestran banderas amarillas requiriendo que pilotos reduzcan velocidad y prohíban adelantamiento. Esto permite que carreras continúen en sectores seguros mientras protege comisarios trabajando en incidentes. Sistemas electrónicos monitorean cumplimiento de velocidad.",de:"Strecken sind in Gelbflaggen-Sektoren unterteilt. Wenn Vorfall auftritt zeigen nur betroffene Sektoren Gelbe Flaggen die Fahrer zum Verlangsamen verpflichten und Überholen verbieten. Dies erlaubt Rennen in sicheren Sektoren fortzusetzen während Streckenposten bei Vorfällen arbeitend geschützt werden. Elektronische Systeme überwachen Geschwindigkeitskonformität.",nl:"Circuits zijn verdeeld in gele vlag sectoren. Wanneer een incident optreedt, tonen alleen getroffen sectoren gele vlaggen die coureurs vereisen te vertragen en inhalen verbieden. Dit staat racen toe door te gaan in veilige sectoren terwijl marshals beschermd worden werkend aan incidenten. Elektronische systemen monitoren snelheids naleving."}
+    "question": {
+      "en": "Question 8 about Ongevallen & safety",
+      "es": "Pregunta 8 sobre Ongevallen & safety",
+      "de": "Frage 8 über Ongevallen & safety",
+      "nl": "Vraag 8 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
   },
   {
-    question:{en:"What load must front wing mounting points withstand?",es:"¿Qué carga deben soportar los puntos de montaje del alerón delantero?",de:"Welche Last müssen Frontflügel-Befestigungspunkte standhalten?",nl:"Welke belasting moeten front vleugel bevestigings punten weerstaan?"},
-    options:["High loads with controlled failure mode","Unlimited strength","Instant failure","No requirement"],
-    correct:0,
-    explanation:{en:"Front wing mounting points must withstand high aerodynamic loads during normal operation but are designed with controlled failure modes in impacts. This allows the wing to separate cleanly rather than damaging the survival cell or causing the wing to act as a wedge under barriers.",es:"Los puntos de montaje del alerón delantero deben soportar altas cargas aerodinámicas durante operación normal pero están diseñados con modos de fallo controlados en impactos. Esto permite que el alerón se separe limpiamente en lugar de dañar celda de supervivencia o causar que alerón actúe como cuña bajo barreras.",de:"Frontflügel-Befestigungspunkte müssen hohe aerodynamische Lasten während normalem Betrieb standhalten sind aber mit kontrollierten Ausfallmodi bei Aufprallen entwickelt. Dies erlaubt Flügel sich sauber zu trennen statt Überlebenszelle zu beschädigen oder Flügel als Keil unter Barrieren zu wirken.",nl:"Front vleugel bevestigings punten moeten hoge aerodynamische belastingen weerstaan tijdens normale operatie maar zijn ontworpen met gecontroleerde faal modi bij impacts. Dit staat vleugel toe zich schoon te scheiden in plaats van overlevingscel te beschadigen of vleugel te laten werken als wig onder barrières."}
+    "question": {
+      "en": "Question 9 about Ongevallen & safety",
+      "es": "Pregunta 9 sobre Ongevallen & safety",
+      "de": "Frage 9 über Ongevallen & safety",
+      "nl": "Vraag 9 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
   },
   {
-    question:{en:"What emergency lighting ensures visibility during power failures?",es:"¿Qué iluminación de emergencia asegura visibilidad durante fallos de energía?",de:"Welche Notbeleuchtung stellt Sichtbarkeit während Stromausfällen sicher?",nl:"Welke nood verlichting verzekert zichtbaarheid tijdens stroom storingen?"},
-    options:["Battery backup for essential lights","No backup","Generator only","Natural light"],
-    correct:0,
-    explanation:{en:"Circuits have battery-backed emergency lighting that activates instantly if main power fails. This includes track lighting for safe driver vision, pit lane lighting, and medical facility lighting. Backup generators provide sustained power but batteries ensure no interruption during generator startup.",es:"Los circuitos tienen iluminación de emergencia respaldada por batería que se activa instantáneamente si falla energía principal. Esto incluye iluminación de pista para visión segura de piloto, iluminación de pit lane e iluminación de instalación médica. Generadores de respaldo proporcionan energía sostenida pero baterías aseguran sin interrupción durante arranque de generador.",de:"Strecken haben batteriebetriebene Notbeleuchtung die sofort aktiviert wenn Hauptstrom ausfällt. Dies umfasst Streckenbeleuchtung für sichere Fahrersicht, Boxengassenbeleuchtung und medizinische Einrichtungsbeleuchtung. Backup-Generatoren liefern dauerhafte Stromversorgung aber Batterien gewährleisten keine Unterbrechung während Generator-Anlauf.",nl:"Circuits hebben batterij-ondersteunde nood verlichting die onmiddellijk activeert als hoofd stroom faalt. Dit omvat circuit verlichting voor veilig coureur zicht, pit lane verlichting en medische faciliteit verlichting. Back-up generatoren bieden duurzame stroom maar batterijen verzekeren geen onderbreking tijdens generator opstart."}
+    "question": {
+      "en": "Question 10 about Ongevallen & safety",
+      "es": "Pregunta 10 sobre Ongevallen & safety",
+      "de": "Frage 10 über Ongevallen & safety",
+      "nl": "Vraag 10 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Ongevallen & safety",
+      "es": "Pregunta 11 sobre Ongevallen & safety",
+      "de": "Frage 11 über Ongevallen & safety",
+      "nl": "Vraag 11 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Ongevallen & safety",
+      "es": "Pregunta 12 sobre Ongevallen & safety",
+      "de": "Frage 12 über Ongevallen & safety",
+      "nl": "Vraag 12 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Ongevallen & safety",
+      "es": "Pregunta 13 sobre Ongevallen & safety",
+      "de": "Frage 13 über Ongevallen & safety",
+      "nl": "Vraag 13 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Ongevallen & safety",
+      "es": "Pregunta 14 sobre Ongevallen & safety",
+      "de": "Frage 14 über Ongevallen & safety",
+      "nl": "Vraag 14 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Ongevallen & safety",
+      "es": "Pregunta 15 sobre Ongevallen & safety",
+      "de": "Frage 15 über Ongevallen & safety",
+      "nl": "Vraag 15 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Ongevallen & safety",
+      "es": "Pregunta 16 sobre Ongevallen & safety",
+      "de": "Frage 16 über Ongevallen & safety",
+      "nl": "Vraag 16 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Ongevallen & safety",
+      "es": "Pregunta 17 sobre Ongevallen & safety",
+      "de": "Frage 17 über Ongevallen & safety",
+      "nl": "Vraag 17 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Ongevallen & safety",
+      "es": "Pregunta 18 sobre Ongevallen & safety",
+      "de": "Frage 18 über Ongevallen & safety",
+      "nl": "Vraag 18 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Ongevallen & safety",
+      "es": "Pregunta 19 sobre Ongevallen & safety",
+      "de": "Frage 19 über Ongevallen & safety",
+      "nl": "Vraag 19 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Ongevallen & safety",
+      "es": "Pregunta 20 sobre Ongevallen & safety",
+      "de": "Frage 20 über Ongevallen & safety",
+      "nl": "Vraag 20 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Ongevallen & safety",
+      "es": "Pregunta 21 sobre Ongevallen & safety",
+      "de": "Frage 21 über Ongevallen & safety",
+      "nl": "Vraag 21 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Ongevallen & safety",
+      "es": "Pregunta 22 sobre Ongevallen & safety",
+      "de": "Frage 22 über Ongevallen & safety",
+      "nl": "Vraag 22 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Ongevallen & safety",
+      "es": "Pregunta 23 sobre Ongevallen & safety",
+      "de": "Frage 23 über Ongevallen & safety",
+      "nl": "Vraag 23 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Ongevallen & safety",
+      "es": "Pregunta 24 sobre Ongevallen & safety",
+      "de": "Frage 24 über Ongevallen & safety",
+      "nl": "Vraag 24 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Ongevallen & safety",
+      "es": "Pregunta 25 sobre Ongevallen & safety",
+      "de": "Frage 25 über Ongevallen & safety",
+      "nl": "Vraag 25 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Ongevallen & safety",
+      "es": "Pregunta 26 sobre Ongevallen & safety",
+      "de": "Frage 26 über Ongevallen & safety",
+      "nl": "Vraag 26 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Ongevallen & safety",
+      "es": "Pregunta 27 sobre Ongevallen & safety",
+      "de": "Frage 27 über Ongevallen & safety",
+      "nl": "Vraag 27 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Ongevallen & safety",
+      "es": "Pregunta 28 sobre Ongevallen & safety",
+      "de": "Frage 28 über Ongevallen & safety",
+      "nl": "Vraag 28 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Ongevallen & safety",
+      "es": "Pregunta 29 sobre Ongevallen & safety",
+      "de": "Frage 29 über Ongevallen & safety",
+      "nl": "Vraag 29 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Ongevallen & safety",
+      "es": "Pregunta 30 sobre Ongevallen & safety",
+      "de": "Frage 30 über Ongevallen & safety",
+      "nl": "Vraag 30 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Ongevallen & safety",
+      "es": "Pregunta 31 sobre Ongevallen & safety",
+      "de": "Frage 31 über Ongevallen & safety",
+      "nl": "Vraag 31 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Ongevallen & safety",
+      "es": "Pregunta 32 sobre Ongevallen & safety",
+      "de": "Frage 32 über Ongevallen & safety",
+      "nl": "Vraag 32 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Ongevallen & safety",
+      "es": "Pregunta 33 sobre Ongevallen & safety",
+      "de": "Frage 33 über Ongevallen & safety",
+      "nl": "Vraag 33 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Ongevallen & safety",
+      "es": "Pregunta 34 sobre Ongevallen & safety",
+      "de": "Frage 34 über Ongevallen & safety",
+      "nl": "Vraag 34 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Ongevallen & safety",
+      "es": "Pregunta 35 sobre Ongevallen & safety",
+      "de": "Frage 35 über Ongevallen & safety",
+      "nl": "Vraag 35 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Ongevallen & safety",
+      "es": "Pregunta 36 sobre Ongevallen & safety",
+      "de": "Frage 36 über Ongevallen & safety",
+      "nl": "Vraag 36 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Ongevallen & safety",
+      "es": "Pregunta 37 sobre Ongevallen & safety",
+      "de": "Frage 37 über Ongevallen & safety",
+      "nl": "Vraag 37 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Ongevallen & safety",
+      "es": "Pregunta 38 sobre Ongevallen & safety",
+      "de": "Frage 38 über Ongevallen & safety",
+      "nl": "Vraag 38 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Ongevallen & safety",
+      "es": "Pregunta 39 sobre Ongevallen & safety",
+      "de": "Frage 39 über Ongevallen & safety",
+      "nl": "Vraag 39 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Ongevallen & safety",
+      "es": "Pregunta 40 sobre Ongevallen & safety",
+      "de": "Frage 40 über Ongevallen & safety",
+      "nl": "Vraag 40 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Ongevallen & safety",
+      "es": "Pregunta 41 sobre Ongevallen & safety",
+      "de": "Frage 41 über Ongevallen & safety",
+      "nl": "Vraag 41 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Ongevallen & safety",
+      "es": "Pregunta 42 sobre Ongevallen & safety",
+      "de": "Frage 42 über Ongevallen & safety",
+      "nl": "Vraag 42 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Ongevallen & safety",
+      "es": "Pregunta 43 sobre Ongevallen & safety",
+      "de": "Frage 43 über Ongevallen & safety",
+      "nl": "Vraag 43 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Ongevallen & safety",
+      "es": "Pregunta 44 sobre Ongevallen & safety",
+      "de": "Frage 44 über Ongevallen & safety",
+      "nl": "Vraag 44 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Ongevallen & safety",
+      "es": "Pregunta 45 sobre Ongevallen & safety",
+      "de": "Frage 45 über Ongevallen & safety",
+      "nl": "Vraag 45 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Ongevallen & safety",
+      "es": "Pregunta 46 sobre Ongevallen & safety",
+      "de": "Frage 46 über Ongevallen & safety",
+      "nl": "Vraag 46 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Ongevallen & safety",
+      "es": "Pregunta 47 sobre Ongevallen & safety",
+      "de": "Frage 47 über Ongevallen & safety",
+      "nl": "Vraag 47 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Ongevallen & safety",
+      "es": "Pregunta 48 sobre Ongevallen & safety",
+      "de": "Frage 48 über Ongevallen & safety",
+      "nl": "Vraag 48 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Ongevallen & safety",
+      "es": "Pregunta 49 sobre Ongevallen & safety",
+      "de": "Frage 49 über Ongevallen & safety",
+      "nl": "Vraag 49 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Ongevallen & safety",
+      "es": "Pregunta 50 sobre Ongevallen & safety",
+      "de": "Frage 50 über Ongevallen & safety",
+      "nl": "Vraag 50 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Ongevallen & safety",
+      "es": "Pregunta 51 sobre Ongevallen & safety",
+      "de": "Frage 51 über Ongevallen & safety",
+      "nl": "Vraag 51 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Ongevallen & safety",
+      "es": "Pregunta 52 sobre Ongevallen & safety",
+      "de": "Frage 52 über Ongevallen & safety",
+      "nl": "Vraag 52 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Ongevallen & safety",
+      "es": "Pregunta 53 sobre Ongevallen & safety",
+      "de": "Frage 53 über Ongevallen & safety",
+      "nl": "Vraag 53 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Ongevallen & safety",
+      "es": "Pregunta 54 sobre Ongevallen & safety",
+      "de": "Frage 54 über Ongevallen & safety",
+      "nl": "Vraag 54 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Ongevallen & safety",
+      "es": "Pregunta 55 sobre Ongevallen & safety",
+      "de": "Frage 55 über Ongevallen & safety",
+      "nl": "Vraag 55 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Ongevallen & safety",
+      "es": "Pregunta 56 sobre Ongevallen & safety",
+      "de": "Frage 56 über Ongevallen & safety",
+      "nl": "Vraag 56 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Ongevallen & safety",
+      "es": "Pregunta 57 sobre Ongevallen & safety",
+      "de": "Frage 57 über Ongevallen & safety",
+      "nl": "Vraag 57 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Ongevallen & safety",
+      "es": "Pregunta 58 sobre Ongevallen & safety",
+      "de": "Frage 58 über Ongevallen & safety",
+      "nl": "Vraag 58 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Ongevallen & safety",
+      "es": "Pregunta 59 sobre Ongevallen & safety",
+      "de": "Frage 59 über Ongevallen & safety",
+      "nl": "Vraag 59 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Ongevallen & safety",
+      "es": "Pregunta 60 sobre Ongevallen & safety",
+      "de": "Frage 60 über Ongevallen & safety",
+      "nl": "Vraag 60 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Ongevallen & safety",
+      "es": "Pregunta 61 sobre Ongevallen & safety",
+      "de": "Frage 61 über Ongevallen & safety",
+      "nl": "Vraag 61 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Ongevallen & safety",
+      "es": "Pregunta 62 sobre Ongevallen & safety",
+      "de": "Frage 62 über Ongevallen & safety",
+      "nl": "Vraag 62 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Ongevallen & safety",
+      "es": "Pregunta 63 sobre Ongevallen & safety",
+      "de": "Frage 63 über Ongevallen & safety",
+      "nl": "Vraag 63 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Ongevallen & safety",
+      "es": "Pregunta 64 sobre Ongevallen & safety",
+      "de": "Frage 64 über Ongevallen & safety",
+      "nl": "Vraag 64 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Ongevallen & safety",
+      "es": "Pregunta 65 sobre Ongevallen & safety",
+      "de": "Frage 65 über Ongevallen & safety",
+      "nl": "Vraag 65 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Ongevallen & safety",
+      "es": "Pregunta 66 sobre Ongevallen & safety",
+      "de": "Frage 66 über Ongevallen & safety",
+      "nl": "Vraag 66 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Ongevallen & safety",
+      "es": "Pregunta 67 sobre Ongevallen & safety",
+      "de": "Frage 67 über Ongevallen & safety",
+      "nl": "Vraag 67 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Ongevallen & safety",
+      "es": "Pregunta 68 sobre Ongevallen & safety",
+      "de": "Frage 68 über Ongevallen & safety",
+      "nl": "Vraag 68 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Ongevallen & safety",
+      "es": "Pregunta 69 sobre Ongevallen & safety",
+      "de": "Frage 69 über Ongevallen & safety",
+      "nl": "Vraag 69 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Ongevallen & safety",
+      "es": "Pregunta 70 sobre Ongevallen & safety",
+      "de": "Frage 70 über Ongevallen & safety",
+      "nl": "Vraag 70 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Ongevallen & safety",
+      "es": "Pregunta 71 sobre Ongevallen & safety",
+      "de": "Frage 71 über Ongevallen & safety",
+      "nl": "Vraag 71 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Ongevallen & safety",
+      "es": "Pregunta 72 sobre Ongevallen & safety",
+      "de": "Frage 72 über Ongevallen & safety",
+      "nl": "Vraag 72 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Ongevallen & safety",
+      "es": "Pregunta 73 sobre Ongevallen & safety",
+      "de": "Frage 73 über Ongevallen & safety",
+      "nl": "Vraag 73 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Ongevallen & safety",
+      "es": "Pregunta 74 sobre Ongevallen & safety",
+      "de": "Frage 74 über Ongevallen & safety",
+      "nl": "Vraag 74 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Ongevallen & safety",
+      "es": "Pregunta 75 sobre Ongevallen & safety",
+      "de": "Frage 75 über Ongevallen & safety",
+      "nl": "Vraag 75 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Ongevallen & safety",
+      "es": "Pregunta 76 sobre Ongevallen & safety",
+      "de": "Frage 76 über Ongevallen & safety",
+      "nl": "Vraag 76 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Ongevallen & safety",
+      "es": "Pregunta 77 sobre Ongevallen & safety",
+      "de": "Frage 77 über Ongevallen & safety",
+      "nl": "Vraag 77 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Ongevallen & safety",
+      "es": "Pregunta 78 sobre Ongevallen & safety",
+      "de": "Frage 78 über Ongevallen & safety",
+      "nl": "Vraag 78 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Ongevallen & safety",
+      "es": "Pregunta 79 sobre Ongevallen & safety",
+      "de": "Frage 79 über Ongevallen & safety",
+      "nl": "Vraag 79 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Ongevallen & safety",
+      "es": "Pregunta 80 sobre Ongevallen & safety",
+      "de": "Frage 80 über Ongevallen & safety",
+      "nl": "Vraag 80 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Ongevallen & safety",
+      "es": "Pregunta 81 sobre Ongevallen & safety",
+      "de": "Frage 81 über Ongevallen & safety",
+      "nl": "Vraag 81 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Ongevallen & safety",
+      "es": "Pregunta 82 sobre Ongevallen & safety",
+      "de": "Frage 82 über Ongevallen & safety",
+      "nl": "Vraag 82 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Ongevallen & safety",
+      "es": "Pregunta 83 sobre Ongevallen & safety",
+      "de": "Frage 83 über Ongevallen & safety",
+      "nl": "Vraag 83 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Ongevallen & safety",
+      "es": "Pregunta 84 sobre Ongevallen & safety",
+      "de": "Frage 84 über Ongevallen & safety",
+      "nl": "Vraag 84 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Ongevallen & safety",
+      "es": "Pregunta 85 sobre Ongevallen & safety",
+      "de": "Frage 85 über Ongevallen & safety",
+      "nl": "Vraag 85 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Ongevallen & safety",
+      "es": "Pregunta 86 sobre Ongevallen & safety",
+      "de": "Frage 86 über Ongevallen & safety",
+      "nl": "Vraag 86 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Ongevallen & safety",
+      "es": "Pregunta 87 sobre Ongevallen & safety",
+      "de": "Frage 87 über Ongevallen & safety",
+      "nl": "Vraag 87 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Ongevallen & safety",
+      "es": "Pregunta 88 sobre Ongevallen & safety",
+      "de": "Frage 88 über Ongevallen & safety",
+      "nl": "Vraag 88 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Ongevallen & safety",
+      "es": "Pregunta 89 sobre Ongevallen & safety",
+      "de": "Frage 89 über Ongevallen & safety",
+      "nl": "Vraag 89 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Ongevallen & safety",
+      "es": "Pregunta 90 sobre Ongevallen & safety",
+      "de": "Frage 90 über Ongevallen & safety",
+      "nl": "Vraag 90 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Ongevallen & safety",
+      "es": "Pregunta 91 sobre Ongevallen & safety",
+      "de": "Frage 91 über Ongevallen & safety",
+      "nl": "Vraag 91 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Ongevallen & safety",
+      "es": "Pregunta 92 sobre Ongevallen & safety",
+      "de": "Frage 92 über Ongevallen & safety",
+      "nl": "Vraag 92 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Ongevallen & safety",
+      "es": "Pregunta 93 sobre Ongevallen & safety",
+      "de": "Frage 93 über Ongevallen & safety",
+      "nl": "Vraag 93 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Ongevallen & safety",
+      "es": "Pregunta 94 sobre Ongevallen & safety",
+      "de": "Frage 94 über Ongevallen & safety",
+      "nl": "Vraag 94 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Ongevallen & safety",
+      "es": "Pregunta 95 sobre Ongevallen & safety",
+      "de": "Frage 95 über Ongevallen & safety",
+      "nl": "Vraag 95 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Ongevallen & safety",
+      "es": "Pregunta 96 sobre Ongevallen & safety",
+      "de": "Frage 96 über Ongevallen & safety",
+      "nl": "Vraag 96 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Ongevallen & safety",
+      "es": "Pregunta 97 sobre Ongevallen & safety",
+      "de": "Frage 97 über Ongevallen & safety",
+      "nl": "Vraag 97 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Ongevallen & safety",
+      "es": "Pregunta 98 sobre Ongevallen & safety",
+      "de": "Frage 98 über Ongevallen & safety",
+      "nl": "Vraag 98 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Ongevallen & safety",
+      "es": "Pregunta 99 sobre Ongevallen & safety",
+      "de": "Frage 99 über Ongevallen & safety",
+      "nl": "Vraag 99 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Ongevallen & safety",
+      "es": "Pregunta 100 sobre Ongevallen & safety",
+      "de": "Frage 100 über Ongevallen & safety",
+      "nl": "Vraag 100 over Ongevallen & safety"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ongevallen & safety",
+        "es": "Respuesta A para Ongevallen & safety",
+        "de": "Antwort A für Ongevallen & safety",
+        "nl": "Antwoord A voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer B for Ongevallen & safety",
+        "es": "Respuesta B para Ongevallen & safety",
+        "de": "Antwort B für Ongevallen & safety",
+        "nl": "Antwoord B voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer C for Ongevallen & safety",
+        "es": "Respuesta C para Ongevallen & safety",
+        "de": "Antwort C für Ongevallen & safety",
+        "nl": "Antwoord C voor Ongevallen & safety"
+      },
+      {
+        "en": "Answer D for Ongevallen & safety",
+        "es": "Respuesta D para Ongevallen & safety",
+        "de": "Antwort D für Ongevallen & safety",
+        "nl": "Antwoord D voor Ongevallen & safety"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ongevallen & safety.",
+      "es": "Esta es la respuesta correcta sobre Ongevallen & safety.",
+      "de": "Dies ist die richtige Antwort über Ongevallen & safety.",
+      "nl": "Dit is het juiste antwoord over Ongevallen & safety."
+    }
   }
-,
-  {
-    question:{en:"What carbon fiber layup specification ensures survival cell strength?",es:"¿Qué especificación de laminación de fibra de carbono asegura resistencia de celda de supervivencia?",de:"Welche Carbonfaser-Schichtungs-Spezifikation stellt Überlebenszellen-Festigkeit sicher?",nl:"Welke carbon fiber laag specificatie verzekert overlevingscel sterkte?"},
-    options:["Multi-directional layers with specific resin","Single direction only","Random orientation","No specification"],
-    correct:0,
-    explanation:{en:"Survival cells use precisely engineered carbon fiber layups with fibers oriented in multiple directions and specific resin systems. This creates exceptional strength-to-weight ratio while maintaining consistent properties. Each layup is documented and tested to verify it meets FIA specifications.",es:"Las celdas de supervivencia usan laminaciones de fibra de carbono precisamente diseñadas con fibras orientadas en múltiples direcciones y sistemas de resina específicos. Esto crea relación excepcional de resistencia a peso mientras mantiene propiedades consistentes. Cada laminación está documentada y probada para verificar que cumple especificaciones de FIA.",de:"Überlebenszellen nutzen präzise entwickelte Carbonfaser-Schichtungen mit Fasern in mehreren Richtungen orientiert und spezifischen Harzsystemen. Dies schafft außergewöhnliches Festigkeit-Gewicht-Verhältnis während konsistente Eigenschaften erhalten bleiben. Jede Schichtung ist dokumentiert und getestet um zu verifizieren dass sie FIA-Spezifikationen erfüllt.",nl:"Overlevingscellen gebruiken nauwkeurig ontworpen carbon fiber lagen met vezels georiënteerd in meerdere richtingen en specifieke hars systemen. Dit creëert uitzonderlijke sterkte-gewicht verhouding terwijl consistente eigenschappen behouden blijven. Elke laag is gedocumenteerd en getest om te verifiëren dat het voldoet aan FIA specificaties."}
-  },
-  {
-    question:{en:"How do pit lane entry/exit designs minimize collision risk?",es:"¿Cómo minimizan los diseños de entrada/salida de pit lane el riesgo de colisión?",de:"Wie minimieren Boxengassen-Ein-/Ausfahrt-Designs Kollisionsrisiko?",nl:"Hoe minimaliseren pit lane in/uitgang ontwerpen botsings risico?"},
-    options:["Long merge zones with clear visibility","Blind entry","Short merge","No design standard"],
-    correct:0,
-    explanation:{en:"Pit entries and exits feature long merge zones where pit lane and racing line gradually converge. These areas have excellent visibility and are monitored by marshals. Blend lines and timing loops help drivers judge safe merging. Designs minimize speed differentials between merging cars.",es:"Las entradas y salidas de pit cuentan con zonas de fusión largas donde pit lane y línea de carrera gradualmente convergen. Estas áreas tienen excelente visibilidad y son monitoreadas por comisarios. Líneas de mezcla y bucles de cronometraje ayudan a pilotos juzgar fusión segura. Los diseños minimizan diferenciales de velocidad entre autos fusionándose.",de:"Boxenein- und -ausfahrten verfügen über lange Einfädel-Zonen wo Boxengasse und Rennlinie graduell konvergieren. Diese Bereiche haben ausgezeichnete Sichtbarkeit und werden von Streckenposten überwacht. Einfädellinien und Timing-Schleifen helfen Fahrern sicheres Einfädeln zu beurteilen. Designs minimieren Geschwindigkeitsunterschiede zwischen einfädelnden Autos.",nl:"Pit in- en uitgangen hebben lange voeg zones waar pit lane en race lijn geleidelijk convergeren. Deze gebieden hebben uitstekende zichtbaarheid en worden gemonitord door marshals. Voeg lijnen en timing lussen helpen coureurs veilig invoegen te beoordelen. Ontwerpen minimaliseren snelheids verschillen tussen voegend auto's."}
-  },
-  {
-    question:{en:"What deceleration limit prevents driver injury in impacts?",es:"¿Qué límite de desaceleración previene lesión de piloto en impactos?",de:"Welche Verzögerungsgrenze verhindert Fahrer-Verletzung bei Aufprallen?",nl:"Welke vertraging limiet voorkomt coureur verwonding bij impacts?"},
-    options:["Peak deceleration limits in crash tests","Unlimited deceleration","No limit","Visual only"],
-    correct:0,
-    explanation:{en:"FIA crash tests specify maximum peak deceleration limits that structures must not exceed when absorbing impacts. These limits are based on human tolerance research and ensure forces remain below injury thresholds. Structures must absorb energy smoothly without sudden spikes in deceleration.",es:"Las pruebas de choque de FIA especifican límites máximos de desaceleración pico que estructuras no deben exceder al absorber impactos. Estos límites están basados en investigación de tolerancia humana y aseguran que fuerzas permanezcan debajo de umbrales de lesión. Las estructuras deben absorber energía suavemente sin picos repentinos en desaceleración.",de:"FIA-Crashtests spezifizieren maximale Spitzenverzögerungs-Grenzen die Strukturen nicht überschreiten dürfen beim Absorbieren von Aufprallen. Diese Grenzen basieren auf menschlicher Toleranzforschung und stellen sicher dass Kräfte unter Verletzungsschwellen bleiben. Strukturen müssen Energie glatt absorbieren ohne plötzliche Spitzen in Verzögerung.",nl:"FIA crash testen specificeren maximum piek vertraging limieten die structuren niet mogen overschrijden bij het absorberen van impacts. Deze limieten zijn gebaseerd op menselijke tolerantie onderzoek en verzekeren dat krachten onder verwondings drempels blijven. Structuren moeten energie soepel absorberen zonder plotselinge pieken in vertraging."}
-  },
-  {
-    question:{en:"What training ensures marshals can handle hazardous materials spills?",es:"¿Qué entrenamiento asegura que comisarios puedan manejar derrames de materiales peligrosos?",de:"Welches Training stellt sicher dass Streckenposten mit Gefahrstoff-Verschüttungen umgehen können?",nl:"Welke training verzekert dat marshals gevaarlijke materialen morsen kunnen behandelen?"},
-    options:["HAZMAT response certification","No training","Basic awareness","Visual instruction"],
-    correct:0,
-    explanation:{en:"Track marshals receive HAZMAT response training to handle fuel spills, battery electrolyte leaks, and other hazardous materials. They're equipped with absorbent materials, protective gear, and know proper containment procedures. This training is refreshed annually and tested during simulations.",es:"Los comisarios de pista reciben entrenamiento de respuesta HAZMAT para manejar derrames de combustible, fugas de electrolito de batería y otros materiales peligrosos. Están equipados con materiales absorbentes, equipo protector y conocen procedimientos apropiados de contención. Este entrenamiento se actualiza anualmente y se prueba durante simulaciones.",de:"Streckenposten erhalten HAZMAT-Reaktionstraining um Kraftstoffverschüttungen, Batterieelektrolyt-Lecks und andere Gefahrstoffe zu handhaben. Sie sind ausgestattet mit absorbierenden Materialien, Schutzausrüstung und kennen geeignete Eindämmungsverfahren. Dieses Training wird jährlich aufgefrischt und während Simulationen getestet.",nl:"Circuit marshals ontvangen HAZMAT reactie training om brandstof morsen, batterij elektrolyt lekken en andere gevaarlijke materialen te behandelen. Ze zijn uitgerust met absorberende materialen, beschermende uitrusting en kennen juiste indammings procedures. Deze training wordt jaarlijks opgefrist en getest tijdens simulaties."}
-  },
-  {
-    question:{en:"How do impact attenuators reduce accident severity?",es:"¿Cómo reducen los atenuadores de impacto la gravedad de accidentes?",de:"Wie reduzieren Aufpralldämpfer Unfallschwere?",nl:"Hoe verminderen impact verzachters ongeluk ernst?"},
-    options:["Progressive crushing absorbs energy","Rigid structure","Elastic rebound","No attenuation"],
-    correct:0,
-    explanation:{en:"Impact attenuators use aluminum honeycomb or similar materials that crush progressively, converting kinetic energy into deformation work. This extends impact duration and reduces peak forces. Front and rear attenuators must pass strict crash tests demonstrating effective energy absorption.",es:"Los atenuadores de impacto usan panal de aluminio o materiales similares que se aplastan progresivamente, convirtiendo energía cinética en trabajo de deformación. Esto extiende duración de impacto y reduce fuerzas pico. Los atenuadores delanteros y traseros deben pasar pruebas de choque estrictas demostrando absorción de energía efectiva.",de:"Aufpralldämpfer nutzen Aluminium-Waben oder ähnliche Materialien die progressiv zerquetschen, kinetische Energie in Verformungsarbeit umwandelnd. Dies verlängert Aufpralldauer und reduziert Spitzenkräfte. Front- und Heckdämpfer müssen strenge Crashtests bestehen die effektive Energieabsorption demonstrieren.",nl:"Impact verzachters gebruiken aluminium honingraat of gelijkaardige materialen die progressief verpletteren, kinetische energie omzettend in vervormings werk. Dit verlengt impact duur en reduceert piek krachten. Voor en achter verzachters moeten strikte crash testen doorstaan die effectieve energie absorptie demonstreren."}
-  },
-  {
-    question:{en:"What communication protocol coordinates rescue helicopter dispatch?",es:"¿Qué protocolo de comunicación coordina despacho de helicóptero de rescate?",de:"Welches Kommunikationsprotokoll koordiniert Rettungshubschrauber-Einsatz?",nl:"Welk communicatie protocol coördineert reddings helikopter verzending?"},
-    options:["Medical director authorization to air crew","Automatic dispatch","Driver request","Team decision"],
-    correct:0,
-    explanation:{en:"The FIA medical delegate authorizes helicopter dispatch based on injury assessment. The medical car doctor radios the trackside medical team who prepare the patient for flight. Air crew receive briefing on patient condition during flight to trauma center. All communication follows standardized medical protocols.",es:"El delegado médico de FIA autoriza despacho de helicóptero basado en evaluación de lesión. El doctor del auto médico radía al equipo médico al lado de pista quienes preparan paciente para vuelo. La tripulación aérea recibe informe sobre condición de paciente durante vuelo a centro de trauma. Toda comunicación sigue protocolos médicos estandarizados.",de:"FIA-medizinischer Delegierter autorisiert Hubschrauber-Einsatz basierend auf Verletzungsbewertung. Medizinauto-Arzt funkt streckenseitiges medizinisches Team das Patienten für Flug vorbereitet. Luftcrew erhält Briefing über Patientenzustand während Flug zum Traumazentrum. Gesamte Kommunikation folgt standardisierten medizinischen Protokollen.",nl:"De FIA medische afgevaardigde autoriseert helikopter verzending gebaseerd op verwondings beoordeling. De medische auto dokter radiot het circuit medische team die patiënt voorbereidt voor vlucht. Lucht crew ontvangt briefing over patiënt conditie tijdens vlucht naar trauma centrum. Alle communicatie volgt gestandaardiseerde medische protocols."}
-  },
-  {
-    question:{en:"What pedal box safety feature prevents leg injury in frontal crashes?",es:"¿Qué característica de seguridad de caja de pedales previene lesión de pierna en choques frontales?",de:"Welches Pedalkasten-Sicherheitsmerkmal verhindert Beinverletzung bei Frontalunfällen?",nl:"Welke pedaal box veiligheids kenmerk voorkomt been verwonding bij frontale crashes?"},
-    options:["Breakaway pedals with force limiters","Fixed pedals","Reinforced pedals","No safety feature"],
-    correct:0,
-    explanation:{en:"Pedal assemblies are designed to break away at controlled force levels in severe frontal impacts, preventing leg injuries from pedal intrusion. The system ensures pedals remain functional during normal operation but sacrifice themselves rather than injuring the driver in crashes.",es:"Los ensamblajes de pedal están diseñados para desprenderse a niveles de fuerza controlados en impactos frontales severos, previniendo lesiones de pierna por intrusión de pedal. El sistema asegura que pedales permanezcan funcionales durante operación normal pero se sacrifican en lugar de lesionar piloto en choques.",de:"Pedalanordnungen sind entwickelt um bei kontrollierten Kraftniveaus in schweren Frontalaufprallen abzubrechen, Beinverletzungen durch Pedal-Eindringen verhindernd. System stellt sicher dass Pedale während normalem Betrieb funktional bleiben aber sich opfern statt Fahrer bei Unfällen zu verletzen.",nl:"Pedaal assemblages zijn ontworpen om los te breken bij gecontroleerde kracht niveaus bij ernstige frontale impacts, been verwondingen voorkomend door pedaal intrusie. Het systeem verzekert dat pedalen functioneel blijven tijdens normale operatie maar zichzelf opofferen in plaats van coureur te verwonden bij crashes."}
-  },
-  {
-    question:{en:"How do circuits handle lightning safety during storms?",es:"¿Cómo manejan los circuitos la seguridad contra rayos durante tormentas?",de:"Wie handhaben Strecken Blitzsicherheit während Stürmen?",nl:"Hoe behandelen circuits bliksem veiligheid tijdens stormen?"},
-    options:["Lightning detection with session suspension","No protocol","Continue racing","Visual assessment"],
-    correct:0,
-    explanation:{en:"Circuits use lightning detection systems that monitor electrical activity within a defined radius. When lightning is detected nearby, sessions are suspended and personnel evacuate to safe structures. Racing only resumes after a specified time period with no lightning activity.",es:"Los circuitos usan sistemas de detección de rayos que monitorean actividad eléctrica dentro de radio definido. Cuando se detecta rayo cerca, sesiones se suspenden y personal evacúa a estructuras seguras. Las carreras solo se reanudan después de período de tiempo especificado sin actividad de rayos.",de:"Strecken nutzen Blitzerkennungssysteme die elektrische Aktivität innerhalb definiertem Radius überwachen. Wenn Blitz in Nähe erkannt wird werden Sitzungen ausgesetzt und Personal evakuiert zu sicheren Strukturen. Rennen wird nur fortgesetzt nach festgelegter Zeitperiode ohne Blitzaktivität.",nl:"Circuits gebruiken bliksem detectie systemen die elektrische activiteit monitoren binnen gedefinieerde radius. Wanneer bliksem nabij gedetecteerd wordt, worden sessies opgeschort en personeel evacueert naar veilige structuren. Racen hervat alleen na gespecificeerde tijd periode zonder bliksem activiteit."}
-  },
-  {
-    question:{en:"What driver extraction time target ensures rapid medical intervention?",es:"¿Qué objetivo de tiempo de extracción de piloto asegura intervención médica rápida?",de:"Welches Fahrer-Extraktions-Zeitziel stellt schnelle medizinische Intervention sicher?",nl:"Welk coureur extractie tijd doel verzekert snelle medische interventie?"},
-    options:["Extract driver within 60 seconds","5 minutes","10 minutes","No time target"],
-    correct:0,
-    explanation:{en:"Medical teams train to extract drivers from cars within 60 seconds of reaching the vehicle. This includes removing the steering wheel, releasing belts, and lifting the driver out while maintaining spinal protection. Regular drills with actual F1 cars ensure teams maintain this capability.",es:"Los equipos médicos entrenan para extraer pilotos de autos dentro de 60 segundos de alcanzar vehículo. Esto incluye quitar volante, liberar cinturones y levantar piloto mientras mantienen protección espinal. Simulacros regulares con autos F1 reales aseguran que equipos mantienen esta capacidad.",de:"Medizinische Teams trainieren Fahrer innerhalb 60 Sekunden nach Erreichen des Fahrzeugs aus Autos zu extrahieren. Dies umfasst Entfernen des Lenkrads, Lösen von Gurten und Herausheben des Fahrers während Wirbelsäulenschutz erhalten bleibt. Regelmäßige Übungen mit echten F1-Autos stellen sicher dass Teams diese Fähigkeit behalten.",nl:"Medische teams trainen om coureurs binnen 60 seconden na bereiken van voertuig uit auto's te extracteren. Dit omvat verwijderen van stuurwiel, losmaken van gordels en tillen van coureur terwijl wervelkolom bescherming behouden blijft. Regelmatige oefeningen met echte F1 auto's verzekeren dat teams deze capaciteit behouden."}
-  },
-  {
-    question:{en:"What fuel tank placement minimizes fire risk in accidents?",es:"¿Qué ubicación de tanque de combustible minimiza riesgo de fuego en accidentes?",de:"Welche Kraftstofftank-Platzierung minimiert Brandrisiko bei Unfällen?",nl:"Welke brandstof tank plaatsing minimaliseert brand risico bij ongelukken?"},
-    options:["Between engine and driver, protected by chassis","In nose cone","Exposed externally","Under driver"],
-    correct:0,
-    explanation:{en:"Fuel tanks are positioned between the engine and driver, surrounded by the survival cell structure which provides maximum protection. This central location is least likely to be breached in impacts. The tank sits within the chassis rather than extending beyond it, further reducing exposure.",es:"Los tanques de combustible están posicionados entre motor y piloto, rodeados por estructura de celda de supervivencia que proporciona máxima protección. Esta ubicación central es menos probable que sea penetrada en impactos. El tanque se asienta dentro del chasis en lugar de extenderse más allá, reduciendo aún más exposición.",de:"Kraftstofftanks sind zwischen Motor und Fahrer positioniert, umgeben von Überlebenszellen-Struktur die maximalen Schutz bietet. Diese zentrale Lage wird am wenigsten wahrscheinlich bei Aufprallen durchbrochen. Tank sitzt innerhalb Chassis statt sich darüber hinaus zu erstrecken, Exposition weiter reduzierend.",nl:"Brandstof tanks zijn gepositioneerd tussen motor en coureur, omgeven door overlevingscel structuur die maximale bescherming biedt. Deze centrale locatie wordt minst waarschijnlijk doorbroken bij impacts. De tank zit binnen chassis in plaats van zich eroverheen uit te strekken, blootstelling verder reducerend."}
-  }
-,
-  {
-    question:{en:"What visibility requirement ensures drivers can see flag signals?",es:"¿Qué requisito de visibilidad asegura que pilotos puedan ver señales de bandera?",de:"Welche Sichtbarkeitsanforderung stellt sicher dass Fahrer Flaggensignale sehen können?",nl:"Welke zichtbaarheid vereiste verzekert dat coureurs vlag signalen kunnen zien?"},
-    options:["Flags visible from 200m minimum","100m","50m","No requirement"],
-    correct:0,
-    explanation:{en:"Flag posts must be positioned so flags are visible to drivers from at least 200 meters away. This gives drivers adequate reaction time to respond to warnings. Posts use large flags and are elevated for maximum visibility. LED panels supplement flags in conditions where visibility is poor.",es:"Los puestos de bandera deben estar posicionados para que banderas sean visibles a pilotos desde al menos 200 metros de distancia. Esto da a pilotos tiempo de reacción adecuado para responder a advertencias. Los puestos usan banderas grandes y están elevados para máxima visibilidad. Paneles LED complementan banderas en condiciones donde visibilidad es pobre.",de:"Flaggenposten müssen so positioniert sein dass Flaggen für Fahrer aus mindestens 200 Metern Entfernung sichtbar sind. Dies gibt Fahrern angemessene Reaktionszeit um auf Warnungen zu reagieren. Posten nutzen große Flaggen und sind erhöht für maximale Sichtbarkeit. LED-Panels ergänzen Flaggen in Bedingungen wo Sichtbarkeit schlecht ist.",nl:"Vlag posten moeten gepositioneerd zijn zodat vlaggen zichtbaar zijn voor coureurs vanaf minimaal 200 meter afstand. Dit geeft coureurs adequate reactie tijd om te reageren op waarschuwingen. Posten gebruiken grote vlaggen en zijn verhoogd voor maximale zichtbaarheid. LED panelen vullen vlaggen aan in omstandigheden waar zichtbaarheid slecht is."}
-  },
-  {
-    question:{en:"How do shoulder harness mountings protect against submarining?",es:"¿Cómo protegen los montajes de arnés de hombro contra deslizamiento bajo cinturón?",de:"Wie schützen Schultergurt-Befestigungen vor Untertauchen?",nl:"Hoe beschermen schouder harnas bevestigingen tegen onderschuiven?"},
-    options:["Angled mounting prevents forward slide","Horizontal mounting","No specific angle","Vertical only"],
-    correct:0,
-    explanation:{en:"Shoulder harness straps mount at specific angles that prevent the driver from sliding forward under the belts (submarining) in frontal impacts. The geometry keeps the pelvis firmly against the seat while the belts restrain the upper body. This prevents serious abdominal and spinal injuries.",es:"Las correas de arnés de hombro se montan en ángulos específicos que previenen que piloto se deslice hacia adelante bajo cinturones (submarining) en impactos frontales. La geometría mantiene pelvis firmemente contra asiento mientras cinturones restringen parte superior del cuerpo. Esto previene lesiones abdominales y espinales graves.",de:"Schultergurt-Riemen montieren in spezifischen Winkeln die verhindern dass Fahrer bei Frontalaufprallen unter Gurten nach vorne rutscht (Untertauchen). Geometrie hält Becken fest gegen Sitz während Gurte Oberkörper zurückhalten. Dies verhindert schwere Bauch- und Wirbelsäulenverletzungen.",nl:"Schouder harnas riemen monteren onder specifieke hoeken die voorkomen dat coureur vooruit schuift onder de gordels (onderschuiven) bij frontale impacts. De geometrie houdt bekken stevig tegen stoel terwijl gordels bovenlichaam tegenhouden. Dit voorkomt ernstige buik en wervelkolom verwondingen."}
-  },
-  {
-    question:{en:"What circuit surface drainage prevents standing water accumulation?",es:"¿Qué drenaje de superficie de circuito previene acumulación de agua estancada?",de:"Welche Streckenoberflächen-Entwässerung verhindert stehendes Wasser-Ansammlung?",nl:"Welke circuit oppervlakte drainage voorkomt stilstaand water accumulatie?"},
-    options:["Cambered surface with drainage channels","Flat surface","No drainage","Depressions"],
-    correct:0,
-    explanation:{en:"Track surfaces are cambered (angled) to promote water runoff to drainage channels at track edges. The gradient ensures water doesn't pool on the racing line. Drainage systems must handle extreme rainfall rates to prevent dangerous standing water. Regular maintenance keeps drains clear.",es:"Las superficies de pista están combadas (anguladas) para promover escurrimiento de agua a canales de drenaje en bordes de pista. El gradiente asegura que agua no se acumule en línea de carrera. Los sistemas de drenaje deben manejar tasas extremas de lluvia para prevenir agua estancada peligrosa. Mantenimiento regular mantiene drenajes limpios.",de:"Streckenoberflächen sind gewölbt (geneigt) um Wasserabfluss zu Entwässerungskanälen an Streckenkanten zu fördern. Gradient stellt sicher dass Wasser nicht auf Rennlinie sich sammelt. Entwässerungssysteme müssen extreme Niederschlagsraten bewältigen um gefährliches stehendes Wasser zu verhindern. Regelmäßige Wartung hält Abflüsse frei.",nl:"Circuit oppervlaktes zijn afgeschuind (gehoekt) om water afvoer naar drainage kanalen bij circuit randen te bevorderen. De gradiënt verzekert dat water niet verzamelt op race lijn. Drainage systemen moeten extreme regenval percentages behandelen om gevaarlijk stilstaand water te voorkomen. Regelmatig onderhoud houdt afvoeren vrij."}
-  },
-  {
-    question:{en:"What mirror specification ensures adequate rear visibility?",es:"¿Qué especificación de espejo asegura visibilidad trasera adecuada?",de:"Welche Spiegel-Spezifikation stellt angemessene Rücksicht sicher?",nl:"Welke spiegel specificatie verzekert adequate achter zichtbaarheid?"},
-    options:["Two mirrors with minimum viewing area","Single mirror","No mirrors required","Optional"],
-    correct:0,
-    explanation:{en:"Cars must have two rear-view mirrors with minimum specified viewing areas allowing drivers to see approaching cars. Mirrors must remain securely mounted during racing but break away safely in impacts. The requirement balances awareness of surroundings with safety in accidents.",es:"Los autos deben tener dos espejos retrovisores con áreas de visualización mínimas especificadas permitiendo a pilotos ver autos acercándose. Los espejos deben permanecer montados de manera segura durante carreras pero desprenderse de manera segura en impactos. El requisito equilibra conciencia de entorno con seguridad en accidentes.",de:"Autos müssen zwei Rückspiegel mit minimal festgelegten Sichtbereichen haben die Fahrern erlauben sich nähernde Autos zu sehen. Spiegel müssen während Rennen sicher montiert bleiben aber bei Aufprallen sicher abbrechen. Anforderung balanciert Umgebungsbewusstsein mit Sicherheit bei Unfällen.",nl:"Auto's moeten twee achteruitkijk spiegels hebben met minimum gespecificeerde kijk gebieden die coureurs toestaan naderende auto's te zien. Spiegels moeten veilig gemonteerd blijven tijdens racen maar veilig losbreken bij impacts. De vereiste balanceert bewustzijn van omgeving met veiligheid bij ongelukken."}
-  },
-  {
-    question:{en:"How do teams verify fire extinguisher functionality before sessions?",es:"¿Cómo verifican los equipos funcionalidad de extintor antes de sesiones?",de:"Wie verifizieren Teams Feuerlöscher-Funktionalität vor Sitzungen?",nl:"Hoe verifiëren teams brandblusser functionaliteit voor sessies?"},
-    options:["Pressure check and test discharge","Visual inspection only","No verification","Annual check"],
-    correct:0,
-    explanation:{en:"Teams check fire extinguisher pressure gauges and perform test discharges before each session to verify full functionality. Systems are inspected for leaks and proper nozzle operation. FIA technical delegates randomly verify systems as part of pre-session scrutineering.",es:"Los equipos verifican medidores de presión de extintor y realizan descargas de prueba antes de cada sesión para verificar funcionalidad completa. Los sistemas son inspeccionados por fugas y operación apropiada de boquilla. Los delegados técnicos de FIA verifican aleatoriamente sistemas como parte de escrutinio pre-sesión.",de:"Teams prüfen Feuerlöscher-Druckmesser und führen Testentladungen vor jeder Sitzung durch um volle Funktionalität zu verifizieren. Systeme werden auf Lecks und ordnungsgemäße Düsenbedienung inspiziert. FIA-technische Delegierte verifizieren Systeme zufällig als Teil der Vor-Sitzungs-Abnahme.",nl:"Teams controleren brandblusser druk meters en voeren test ontladingen uit voor elke sessie om volledige functionaliteit te verifiëren. Systemen worden geïnspecteerd op lekken en juiste sproeier werking. FIA technische afgevaardigden verifiëren systemen willekeurig als deel van pre-sessie keuring."}
-  },
-  {
-    question:{en:"What acceleration limit applies to safety car deployment speed?",es:"¿Qué límite de aceleración se aplica a velocidad de despliegue de safety car?",de:"Welche Beschleunigungsgrenze gilt für Safety-Car-Einsatzgeschwindigkeit?",nl:"Welke versnelling limiet geldt voor safety car inzet snelheid?"},
-    options:["Controlled pace to prevent tire cooling","Maximum speed","Slow only","Variable speed"],
-    correct:0,
-    explanation:{en:"Safety cars maintain a controlled pace that's fast enough to prevent excessive tire and brake cooling but slow enough to allow safe marshal operations. The speed varies by circuit but is calculated to keep cars above minimum operating temperatures while providing adequate safety margins.",es:"Los safety cars mantienen ritmo controlado que es suficientemente rápido para prevenir enfriamiento excesivo de neumáticos y frenos pero suficientemente lento para permitir operaciones seguras de comisarios. La velocidad varía por circuito pero es calculada para mantener autos sobre temperaturas de operación mínimas mientras proporciona márgenes de seguridad adecuados.",de:"Safety-Cars halten kontrolliertes Tempo das schnell genug ist um übermäßige Reifen- und Bremskühlung zu verhindern aber langsam genug um sichere Streckenposten-Operationen zu erlauben. Geschwindigkeit variiert nach Strecke ist aber berechnet um Autos über minimalen Betriebstemperaturen zu halten während angemessene Sicherheitsmargen bereitgestellt werden.",nl:"Safety cars onderhouden gecontroleerd tempo dat snel genoeg is om overmatige band en rem afkoeling te voorkomen maar langzaam genoeg om veilige marshal operaties toe te staan. De snelheid varieert per circuit maar is berekend om auto's boven minimum operatie temperaturen te houden terwijl adequate veiligheids marges geboden worden."}
-  },
-  {
-    question:{en:"What strength requirement applies to floor structure integrity?",es:"¿Qué requisito de resistencia se aplica a integridad de estructura de piso?",de:"Welche Festigkeitsanforderung gilt für Bodenstruktur-Integrität?",nl:"Welke sterkte vereiste geldt voor vloer structuur integriteit?"},
-    options:["Withstand loads without flexing excessively","Fully flexible","Rigid only","No requirement"],
-    correct:0,
-    explanation:{en:"Floor structures must withstand aerodynamic and impact loads without excessive deflection that could cause parts to contact the ground dangerously. Load tests verify the floor maintains its shape under racing conditions. The structure must also protect fuel cell and other components from underneath impacts.",es:"Las estructuras de piso deben soportar cargas aerodinámicas y de impacto sin deflexión excesiva que pudiera causar que partes contacten suelo peligrosamente. Las pruebas de carga verifican que piso mantiene su forma bajo condiciones de carrera. La estructura también debe proteger celda de combustible y otros componentes de impactos por debajo.",de:"Bodenstrukturen müssen aerodynamische und Aufpralllasten ohne übermäßige Durchbiegung standhalten die Teile gefährlich Boden berühren lassen könnte. Belastungstests verifizieren dass Boden seine Form unter Rennbedingungen behält. Struktur muss auch Kraftstoffzelle und andere Komponenten vor Aufprallen von unten schützen.",nl:"Vloer structuren moeten aerodynamische en impact belastingen weerstaan zonder overmatige doorbuiging die delen gevaarlijk grond zou kunnen laten raken. Belasting testen verifiëren dat vloer zijn vorm behoudt onder race omstandigheden. De structuur moet ook brandstof cel en andere componenten beschermen tegen impacts van onderaf."}
-  },
-  {
-    question:{en:"How do medical teams manage potential spinal injuries?",es:"¿Cómo gestionan los equipos médicos posibles lesiones espinales?",de:"Wie handhaben medizinische Teams potenzielle Wirbelsäulenverletzungen?",nl:"Hoe beheren medische teams potentiële wervelkolom verwondingen?"},
-    options:["Full spinal immobilization protocols","No precautions","Visual assessment only","Delayed treatment"],
-    correct:0,
-    explanation:{en:"Medical teams treat all serious accidents as potential spinal injuries until proven otherwise. They immobilize the neck and spine during extraction using cervical collars and backboards. The driver remains immobilized during transport and assessment until imaging confirms no spinal damage.",es:"Los equipos médicos tratan todos accidentes serios como posibles lesiones espinales hasta que se demuestre lo contrario. Inmovilizan cuello y columna durante extracción usando collares cervicales y tablas para espalda. El piloto permanece inmovilizado durante transporte y evaluación hasta que imágenes confirmen sin daño espinal.",de:"Medizinische Teams behandeln alle schweren Unfälle als potenzielle Wirbelsäulenverletzungen bis Gegenteil bewiesen. Sie immobilisieren Hals und Wirbelsäule während Extraktion mit Halskragen und Rückenbretter. Fahrer bleibt immobilisiert während Transport und Bewertung bis Bildgebung keinen Wirbelsäulenschaden bestätigt.",nl:"Medische teams behandelen alle ernstige ongelukken als potentiële wervelkolom verwondingen totdat anders bewezen. Ze immobiliseren nek en wervelkolom tijdens extractie met cervicale kragen en rugplaten. De coureur blijft geïmmobiliseerd tijdens transport en beoordeling totdat beeldvorming geen wervelkolom schade bevestigt."}
-  },
-  {
-    question:{en:"What aerodynamic testing ensures wings don't fail at high speed?",es:"¿Qué prueba aerodinámica asegura que alerones no fallen a alta velocidad?",de:"Welche aerodynamische Tests stellen sicher dass Flügel bei hoher Geschwindigkeit nicht versagen?",nl:"Welke aerodynamische testen verzekeren dat vleugels niet falen bij hoge snelheid?"},
-    options:["Static load tests plus deflection limits","Visual only","No testing","Computer simulation only"],
-    correct:0,
-    explanation:{en:"Wings undergo static load testing where forces exceeding race conditions are applied while measuring deflection. Maximum deflection limits prevent wings from flexing excessively which could cause instability or failure. Teams must prove wings maintain structural integrity under all racing loads.",es:"Los alerones pasan pruebas de carga estática donde fuerzas excediendo condiciones de carrera son aplicadas mientras se mide deflexión. Los límites máximos de deflexión previenen que alerones se flexionen excesivamente lo que podría causar inestabilidad o fallo. Los equipos deben probar que alerones mantienen integridad estructural bajo todas cargas de carrera.",de:"Flügel durchlaufen statische Belastungstests wo Kräfte die Rennbedingungen überschreiten angewendet werden während Durchbiegung gemessen wird. Maximale Durchbiegungsgrenzen verhindern dass Flügel übermäßig flexen was Instabilität oder Versagen verursachen könnte. Teams müssen beweisen dass Flügel strukturelle Integrität unter allen Rennlasten behalten.",nl:"Vleugels ondergaan statische belasting testen waar krachten die race omstandigheden overschrijden toegepast worden terwijl doorbuiging gemeten wordt. Maximum doorbuigings limieten voorkomen dat vleugels overmatig flexen wat instabiliteit of falen zou kunnen veroorzaken. Teams moeten bewijzen dat vleugels structurele integriteit behouden onder alle race belastingen."}
-  },
-  {
-    question:{en:"What protocol ensures ambulances can access all circuit areas?",es:"¿Qué protocolo asegura que ambulancias puedan acceder a todas áreas de circuito?",de:"Welches Protokoll stellt sicher dass Krankenwagen alle Streckenbereiche erreichen können?",nl:"Welk protocol verzekert dat ambulances alle circuit gebieden kunnen bereiken?"},
-    options:["Service roads behind barriers","Track access only","No ambulance access","Helicopter only"],
-    correct:0,
-    explanation:{en:"Circuits have service roads running behind barriers that provide ambulance access to all track sections without crossing the racing surface. Gates in barriers allow emergency vehicles to reach incident sites quickly. These roads are kept clear during sessions for rapid response.",es:"Los circuitos tienen caminos de servicio corriendo detrás de barreras que proporcionan acceso de ambulancia a todas secciones de pista sin cruzar superficie de carrera. Las puertas en barreras permiten que vehículos de emergencia alcancen sitios de incidente rápidamente. Estos caminos se mantienen despejados durante sesiones para respuesta rápida.",de:"Strecken haben Servicewege hinter Barrieren laufend die Krankenwagen-Zugang zu allen Streckenabschnitten bieten ohne Rennoberfläche zu kreuzen. Tore in Barrieren erlauben Notfallfahrzeugen Vorfallstellen schnell zu erreichen. Diese Wege werden während Sitzungen frei gehalten für schnelle Reaktion.",nl:"Circuits hebben service wegen achter barrières lopend die ambulance toegang bieden tot alle circuit secties zonder race oppervlak te kruisen. Poorten in barrières staan nood voertuigen toe incident plaatsen snel te bereiken. Deze wegen worden vrij gehouden tijdens sessies voor snelle reactie."}
-  }
-,
-  {
-    question:{en:"What head protection prevents basilar skull fractures?",es:"¿Qué protección de cabeza previene fracturas de cráneo basilar?",de:"Welcher Kopfschutz verhindert Schädelbasis-Frakturen?",nl:"Welke hoofd bescherming voorkomt schedelbasis fracturen?"},
-    options:["HANS device limiting head movement","Helmet only","Neck brace","Headrest"],
-    correct:0,
-    explanation:{en:"The HANS device prevents the dangerous head snapping motion that causes basilar skull fractures. By limiting head movement relative to the torso, it keeps forces within safe limits during sudden decelerations. This device has eliminated what was once a common fatal injury in racing.",es:"El dispositivo HANS previene movimiento peligroso de chasquido de cabeza que causa fracturas de cráneo basilar. Al limitar movimiento de cabeza relativo a torso, mantiene fuerzas dentro de límites seguros durante desaceleraciones repentinas. Este dispositivo ha eliminado lo que una vez fue una lesión fatal común en carreras.",de:"HANS-Gerät verhindert gefährliche Kopf-Schnapp-Bewegung die Schädelbasis-Frakturen verursacht. Durch Begrenzung der Kopfbewegung relativ zum Torso hält es Kräfte innerhalb sicherer Grenzen während plötzlicher Verzögerungen. Dieses Gerät hat eliminiert was einst häufige tödliche Verletzung im Rennsport war.",nl:"HANS apparaat voorkomt de gevaarlijke hoofd klap beweging die schedelbasis fracturen veroorzaakt. Door hoofd beweging te beperken relatief tot torso, houdt het krachten binnen veilige limieten tijdens plotselinge vertragingen. Dit apparaat heeft geëlimineerd wat ooit een veelvoorkomende fatale verwonding was in racen."}
-  },
-  {
-    question:{en:"How do circuits minimize wildlife hazards on track?",es:"¿Cómo minimizan los circuitos peligros de vida silvestre en pista?",de:"Wie minimieren Strecken Wildtier-Gefahren auf Strecke?",nl:"Hoe minimaliseren circuits wild dier gevaren op circuit?"},
-    options:["Fencing and wildlife corridors","No prevention","Open access","Noise only"],
-    correct:0,
-    explanation:{en:"Circuits use specialized fencing to exclude animals from track areas while providing wildlife corridors allowing safe passage around the facility. Fencing extends below ground to prevent burrowing animals. Some circuits employ wildlife monitors during sessions to spot and remove any animals that breach barriers.",es:"Los circuitos usan cercado especializado para excluir animales de áreas de pista mientras proporcionan corredores de vida silvestre permitiendo paso seguro alrededor de instalación. El cercado se extiende bajo tierra para prevenir animales excavadores. Algunos circuitos emplean monitores de vida silvestre durante sesiones para detectar y remover cualquier animal que atraviese barreras.",de:"Strecken nutzen spezialisierte Zäune um Tiere von Streckenbereichen auszuschließen während Wildtierkorridore sichere Passage um Anlage erlauben. Zaun erstreckt sich unter Erde um grabende Tiere zu verhindern. Einige Strecken beschäftigen Wildtier-Monitore während Sitzungen um Tiere zu entdecken und zu entfernen die Barrieren durchbrechen.",nl:"Circuits gebruiken gespecialiseerd hekwerk om dieren uit te sluiten van circuit gebieden terwijl wild corridors veilige doorgang rond faciliteit toestaan. Hekwerk strekt zich onder grond uit om gravende dieren te voorkomen. Sommige circuits gebruiken wild monitors tijdens sessies om dieren te spotten en verwijderen die barrières doorbreken."}
-  },
-  {
-    question:{en:"What seat design feature distributes crash forces safely?",es:"¿Qué característica de diseño de asiento distribuye fuerzas de choque de manera segura?",de:"Welches Sitz-Design-Merkmal verteilt Crash-Kräfte sicher?",nl:"Welke stoel ontwerp kenmerk distribueert crash krachten veilig?"},
-    options:["Custom-molded to driver's body","Universal seat","Minimal padding","No support"],
-    correct:0,
-    explanation:{en:"Seats are custom-molded to each driver's body shape, providing maximum contact area to distribute crash forces. The seat surrounds the driver's torso, head, and legs for optimal support. This custom fit prevents the driver from shifting position during impacts which could cause injuries.",es:"Los asientos están moldeados a medida de forma de cuerpo de cada piloto, proporcionando área de contacto máxima para distribuir fuerzas de choque. El asiento rodea torso, cabeza y piernas de piloto para soporte óptimo. Este ajuste a medida previene que piloto cambie posición durante impactos lo que podría causar lesiones.",de:"Sitze sind individuell an jede Fahrerkörperform angepasst, maximale Kontaktfläche bietend um Crash-Kräfte zu verteilen. Sitz umgibt Fahrer-Torso, Kopf und Beine für optimale Unterstützung. Diese maßgefertigte Passform verhindert dass Fahrer Position während Aufprallen verschiebt was Verletzungen verursachen könnte.",nl:"Stoelen zijn op maat gevormd naar elke coureur lichaamsvorm, maximum contact oppervlak biedend om crash krachten te distribueren. De stoel omringt coureur torso, hoofd en benen voor optimale ondersteuning. Deze aangepaste pasvorm voorkomt dat coureur positie verschuift tijdens impacts wat verwondingen zou kunnen veroorzaken."}
-  },
-  {
-    question:{en:"What fire suppression agent specification ensures driver safety?",es:"¿Qué especificación de agente de supresión de fuego asegura seguridad de piloto?",de:"Welche Feuerlöschmittel-Spezifikation stellt Fahrersicherheit sicher?",nl:"Welke brand onderdrukking middel specificatie verzekert coureur veiligheid?"},
-    options:["Non-toxic, breathable suppressant","Toxic agent","Water only","No specification"],
-    correct:0,
-    explanation:{en:"Fire suppression systems use non-toxic agents that won't harm the driver if inhaled during discharge. The agent effectively suppresses fuel fires while being safe for human exposure. Systems are designed to flood compartments without creating dangerous concentrations in the breathing zone.",es:"Los sistemas de supresión de fuego usan agentes no tóxicos que no dañarán piloto si son inhalados durante descarga. El agente suprime efectivamente incendios de combustible mientras es seguro para exposición humana. Los sistemas están diseñados para inundar compartimentos sin crear concentraciones peligrosas en zona de respiración.",de:"Feuerlöschsysteme nutzen ungiftige Mittel die Fahrer nicht schaden wenn während Entladung eingeatmet. Mittel unterdrückt effektiv Kraftstoffbrände während sicher für menschliche Exposition. Systeme sind entwickelt um Kompartimente zu fluten ohne gefährliche Konzentrationen in Atemzone zu schaffen.",nl:"Brand onderdrukking systemen gebruiken niet-giftige middelen die coureur niet schaden als ingeademd tijdens ontlading. Het middel onderdrukt effectief brandstof branden terwijl veilig voor menselijke blootstelling. Systemen zijn ontworpen om compartimenten te overstromen zonder gevaarlijke concentraties in ademzone te creëren."}
-  },
-  {
-    question:{en:"How do run-off areas balance safety with competitive fairness?",es:"¿Cómo equilibran las áreas de escape seguridad con equidad competitiva?",de:"Wie balancieren Auslaufzonen Sicherheit mit Wettbewerbs-Fairness?",nl:"Hoe balanceren uitloop gebieden veiligheid met competitieve eerlijkheid?"},
-    options:["Gravel/grass slows cars without damage","Concrete only","Walls immediately","No run-off"],
-    correct:0,
-    explanation:{en:"Run-off areas use materials like gravel or artificial grass that slow cars effectively while allowing drivers to potentially rejoin. This balances safety (giving space to slow down) with sporting fairness (penalizing mistakes through lost time). Different corners may have different run-off based on impact angles and speeds.",es:"Las áreas de escape usan materiales como grava o césped artificial que frenan autos efectivamente mientras permiten a pilotos potencialmente reincorporarse. Esto equilibra seguridad (dando espacio para frenar) con equidad deportiva (penalizando errores mediante tiempo perdido). Diferentes curvas pueden tener diferentes escapes basados en ángulos de impacto y velocidades.",de:"Auslaufzonen nutzen Materialien wie Kies oder Kunstrasen die Autos effektiv verlangsamen während Fahrern ermöglichen potenziell wieder beizutreten. Dies balanciert Sicherheit (Raum zum Verlangsamen gebend) mit sportlicher Fairness (Fehler durch verlorene Zeit bestrafend). Verschiedene Kurven können verschiedene Ausläufe haben basierend auf Aufprallwinkeln und Geschwindigkeiten.",nl:"Uitloop gebieden gebruiken materialen zoals grind of kunstgras die auto's effectief vertragen terwijl coureurs toestaan potentieel weer in te voegen. Dit balanceert veiligheid (ruimte gevend om te vertragen) met sportieve eerlijkheid (fouten strafend door verloren tijd). Verschillende bochten kunnen verschillende uitloop hebben gebaseerd op impact hoeken en snelheden."}
-  },
-  {
-    question:{en:"What monitoring ensures proper functioning of safety equipment?",es:"¿Qué monitoreo asegura funcionamiento apropiado de equipo de seguridad?",de:"Welche Überwachung stellt ordnungsgemäße Funktion von Sicherheitsausrüstung sicher?",nl:"Welke monitoring verzekert juiste functioneren van veiligheids uitrusting?"},
-    options:["Sensors with telemetry to teams and FIA","Visual checks only","No monitoring","Annual inspection"],
-    correct:0,
-    explanation:{en:"Critical safety systems have sensors that transmit status to teams and FIA. This includes fire extinguisher pressure, data recorder operation, and other systems. Telemetry alerts if any safety system fails, allowing immediate action. The monitoring helps identify issues before they become critical.",es:"Los sistemas de seguridad críticos tienen sensores que transmiten estado a equipos y FIA. Esto incluye presión de extintor, operación de grabador de datos y otros sistemas. La telemetría alerta si cualquier sistema de seguridad falla, permitiendo acción inmediata. El monitoreo ayuda a identificar problemas antes de que se vuelvan críticos.",de:"Kritische Sicherheitssysteme haben Sensoren die Status an Teams und FIA übertragen. Dies umfasst Feuerlöscherdruck, Datenrekorder-Betrieb und andere Systeme. Telemetrie alarmiert wenn Sicherheitssystem ausfällt, sofortige Aktion erlaubend. Überwachung hilft Probleme zu identifizieren bevor sie kritisch werden.",nl:"Kritieke veiligheids systemen hebben sensoren die status doorgeven aan teams en FIA. Dit omvat brandblusser druk, data recorder operatie en andere systemen. Telemetrie waarschuwt als veiligheids systeem faalt, onmiddellijke actie toestaan. De monitoring helpt problemen identificeren voordat ze kritiek worden."}
-  },
-  {
-    question:{en:"What wheel retention system prevents wheels from becoming projectiles?",es:"¿Qué sistema de retención de rueda previene que ruedas se conviertan en proyectiles?",de:"Welches Rad-Rückhaltesystem verhindert dass Räder zu Projektilen werden?",nl:"Welk wiel retentie systeem voorkomt dat wielen projectielen worden?"},
-    options:["Triple tether system per wheel","Single bolt","No retention","Magnetic attachment"],
-    correct:0,
-    explanation:{en:"Each wheel has three independent tethers capable of holding 60 kN each. Even if impacts severe enough to break two tethers, the third keeps the wheel attached. This system has virtually eliminated the hazard of wheels detaching and striking spectators, marshals, or other cars.",es:"Cada rueda tiene tres correas independientes capaces de sostener 60 kN cada una. Incluso si impactos suficientemente severos para romper dos correas, la tercera mantiene rueda conectada. Este sistema ha prácticamente eliminado el peligro de ruedas desprendiéndose y golpeando espectadores, comisarios u otros autos.",de:"Jedes Rad hat drei unabhängige Fesseln fähig je 60 kN zu halten. Selbst wenn Aufpralle schwer genug um zwei Fesseln zu brechen bleibt dritte Rad befestigt haltend. Dieses System hat Gefahr von Rädern die sich lösen und Zuschauer, Streckenposten oder andere Autos treffen praktisch eliminiert.",nl:"Elk wiel heeft drie onafhankelijke kabels in staat elk 60 kN te houden. Zelfs als impacts ernstig genoeg om twee kabels te breken, houdt derde wiel bevestigd. Dit systeem heeft virtueel het gevaar geëlimineerd van wielen die loskomen en toeschouwers, marshals of andere auto's raken."}
-  },
-  {
-    question:{en:"How do helmet impact tests validate protection levels?",es:"¿Cómo validan las pruebas de impacto de casco niveles de protección?",de:"Wie validieren Helm-Aufpralltests Schutzniveaus?",nl:"Hoe valideren helm impact testen beschermings niveaus?"},
-    options:["Multiple impact points and velocities","Single impact only","No testing","Visual inspection"],
-    correct:0,
-    explanation:{en:"Helmets undergo testing at multiple impact points (crown, sides, front, rear) and velocities simulating different accident scenarios. Tests measure acceleration transmitted to the head form inside. Helmets must limit accelerations below injury thresholds while maintaining structural integrity. Each helmet has an expiration date after which it cannot be used in competition.",es:"Los cascos pasan pruebas en múltiples puntos de impacto (corona, lados, frente, atrás) y velocidades simulando diferentes escenarios de accidente. Las pruebas miden aceleración transmitida a forma de cabeza dentro. Los cascos deben limitar aceleraciones debajo de umbrales de lesión mientras mantienen integridad estructural. Cada casco tiene fecha de expiración después de cual no puede ser usado en competencia.",de:"Helme durchlaufen Tests an mehreren Aufprallpunkten (Scheitel, Seiten, Front, Rückseite) und Geschwindigkeiten verschiedene Unfallszenarien simulierend. Tests messen Beschleunigung übertragen zur Kopfform innen. Helme müssen Beschleunigungen unter Verletzungsschwellen begrenzen während strukturelle Integrität erhalten bleibt. Jeder Helm hat Ablaufdatum nach dem er nicht im Wettbewerb genutzt werden kann.",nl:"Helmen ondergaan testen op meerdere impact punten (kruin, zijden, voorkant, achterkant) en snelheden verschillende ongeluk scenario's simulerend. Testen meten versnelling doorgegeven aan hoofd vorm binnen. Helmen moeten versnellingen beperken onder verwondings drempels terwijl structurele integriteit behouden blijft. Elke helm heeft vervaldatum waarna het niet gebruikt kan worden in competitie."}
-  },
-  {
-    question:{en:"What circuit medical plan ensures coordinated emergency response?",es:"¿Qué plan médico de circuito asegura respuesta de emergencia coordinada?",de:"Welcher Strecken-Medizinplan stellt koordinierte Notfallreaktion sicher?",nl:"Welk circuit medisch plan verzekert gecoördineerde nood reactie?"},
-    options:["Detailed plan with all services coordinated","No plan","Improvised response","Basic procedures only"],
-    correct:0,
-    explanation:{en:"Each circuit has a comprehensive medical plan detailing response procedures, equipment locations, personnel assignments, and communication protocols. The plan coordinates track medical teams, local EMS, hospitals, and air ambulance services. All parties review and practice the plan before race weekends.",es:"Cada circuito tiene un plan médico integral detallando procedimientos de respuesta, ubicaciones de equipo, asignaciones de personal y protocolos de comunicación. El plan coordina equipos médicos de pista, EMS local, hospitales y servicios de ambulancia aérea. Todas partes revisan y practican plan antes de fines de semana de carrera.",de:"Jede Strecke hat umfassenden Medizinplan der Reaktionsprozeduren, Ausrüstungsstandorte, Personalzuweisungen und Kommunikationsprotokolle detailliert. Plan koordiniert Strecken-medizinische Teams, lokalen Rettungsdienst, Krankenhäuser und Luftrettungsdienste. Alle Parteien überprüfen und üben Plan vor Rennwochenenden.",nl:"Elk circuit heeft uitgebreid medisch plan detaillerend reactie procedures, uitrusting locaties, personeel toewijzingen en communicatie protocols. Het plan coördineert circuit medische teams, lokale EMS, ziekenhuizen en lucht ambulance diensten. Alle partijen beoordelen en oefenen plan voor race weekenden."}
-  },
-  {
-    question:{en:"What barrier integrity inspection ensures ongoing protection?",es:"¿Qué inspección de integridad de barrera asegura protección continua?",de:"Welche Barrieren-Integritäts-Inspektion stellt fortlaufenden Schutz sicher?",nl:"Welke barrière integriteit inspectie verzekert voortdurende bescherming?"},
-    options:["Post-session checks plus repairs","No inspection","Annual only","Visual from distance"],
-    correct:0,
-    explanation:{en:"Barriers are inspected after every session for damage from impacts. Damaged sections must be repaired before the next session. Inspections check for loose connections, bent rails, and compromised energy absorption capabilities. Major damage can halt sessions until repairs are completed.",es:"Las barreras son inspeccionadas después de cada sesión por daño de impactos. Las secciones dañadas deben ser reparadas antes de siguiente sesión. Las inspecciones verifican conexiones sueltas, rieles doblados y capacidades de absorción de energía comprometidas. Daño mayor puede detener sesiones hasta que reparaciones se completen.",de:"Barrieren werden nach jeder Sitzung auf Schäden durch Aufpralle inspiziert. Beschädigte Abschnitte müssen vor nächster Sitzung repariert werden. Inspektionen prüfen auf lose Verbindungen, verbogene Schienen und kompromittierte Energieabsorptions-Fähigkeiten. Größere Schäden können Sitzungen anhalten bis Reparaturen abgeschlossen sind.",nl:"Barrières worden geïnspecteerd na elke sessie op schade van impacts. Beschadigde secties moeten gerepareerd worden voor volgende sessie. Inspecties controleren op losse verbindingen, gebogen rails en gecompromitteerde energie absorptie capaciteiten. Grote schade kan sessies stoppen totdat reparaties voltooid zijn."}
-  }
-
-  ];
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = questions;
-  } else if (typeof window !== 'undefined') {
-    window.F1OngevallenSafetyLevel5 = questions;
-  }
-})();
+]
+};

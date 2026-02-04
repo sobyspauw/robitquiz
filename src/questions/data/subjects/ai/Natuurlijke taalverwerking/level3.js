@@ -1,1657 +1,4104 @@
-// Natuurlijke taalverwerking Quiz - Level 3
-(function() {
-  const level3 = {
-    name: {
-          "en": "Text Representation",
-          "es": "Representación de Texto",
-          "de": "Textrepräsentation",
-          "nl": "Tekstrepresentatie"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "What is Natuurlijke taalverwerking regarding basic facts? (Q1)",
+      "es": "What is Natuurlijke taalverwerking con respecto a basic facts? (P1)",
+      "de": "What is Natuurlijke taalverwerking in Bezug auf basic facts? (F1)",
+      "nl": "What is Natuurlijke taalverwerking met betrekking tot basic facts? (V1)"
     },
-    questions: [
+    "options": [
       {
-        question: {
-                  "en": "What is TF-IDF (Term Frequency-Inverse Document Frequency)?",
-                  "es": "¿Qué es TF-IDF (Frecuencia de Término-Frecuencia Inversa de Documento)?",
-                  "de": "Was ist TF-IDF (Term Frequency-Inverse Document Frequency)?",
-                  "nl": "Wat is TF-IDF (Term Frequency-Inverse Document Frequency)?"
-        },
-        options: [
-        {
-                  "en": "A weighting scheme that reflects how important a word is to a document in a collection",
-                  "es": "Un esquema de ponderación que refleja qué tan importante es una palabra para un documento en una colección",
-                  "de": "Ein Gewichtungsschema das widerspiegelt wie wichtig ein Wort für ein Dokument in einer Sammlung ist",
-                  "nl": "Een wegingsschema dat weergeeft hoe belangrijk een woord is voor een document in een verzameling"
-        },
-        {
-                  "en": "A database indexing method",
-                  "es": "Un método de indexación de base de datos",
-                  "de": "Eine Datenbankindexierungsmethode",
-                  "nl": "Een database indexeringsmethode"
-        },
-        {
-                  "en": "A technique for document formatting",
-                  "es": "Una técnica para formateo de documentos",
-                  "de": "Eine Technik für Dokumentformatierung",
-                  "nl": "Een techniek voor documentopmaak"
-        },
-        {
-                  "en": "A method for translating documents",
-                  "es": "Un método para traducir documentos",
-                  "de": "Eine Methode zum Übersetzen von Dokumenten",
-                  "nl": "Een methode voor het vertalen van documenten"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "TF-IDF measures word importance by considering both how frequently it appears in a document (TF) and how rare it is across the entire corpus (IDF).",
-                  "es": "TF-IDF mide la importancia de palabras considerando tanto qué tan frecuentemente aparece en un documento (TF) como qué tan rara es en todo el corpus (IDF).",
-                  "de": "TF-IDF misst Wortbedeutung durch Berücksichtigung sowohl wie häufig es in einem Dokument erscheint (TF) als auch wie selten es im gesamten Korpus ist (IDF).",
-                  "nl": "TF-IDF meet woordbelang door zowel te kijken hoe vaak het in een document voorkomt (TF) als hoe zeldzaam het is in het hele corpus (IDF)."
-        }
+        "en": "Option A for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option A für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - basic facts aspect"
       },
       {
-        question: {
-                  "en": "What are word embeddings?",
-                  "es": "¿Qué son las incrustaciones de palabras?",
-                  "de": "Was sind Worteinbettungen?",
-                  "nl": "Wat zijn woordinbeddingen?"
-        },
-        options: [
-        {
-                  "en": "Dense vector representations of words that capture semantic meaning",
-                  "es": "Representaciones vectoriales densas de palabras que capturan significado semántico",
-                  "de": "Dichte Vektordarstellungen von Wörtern die semantische Bedeutung erfassen",
-                  "nl": "Dichte vectorrepresentaties van woorden die semantische betekenis vastleggen"
-        },
-        {
-                  "en": "Words written in bold format",
-                  "es": "Palabras escritas en formato negrita",
-                  "de": "Wörter in fettem Format geschrieben",
-                  "nl": "Woorden geschreven in vetgedrukt formaat"
-        },
-        {
-                  "en": "A method for word pronunciation",
-                  "es": "Un método para pronunciación de palabras",
-                  "de": "Eine Methode für Wortaussprache",
-                  "nl": "Een methode voor woorduitspraak"
-        },
-        {
-                  "en": "Words embedded in documents",
-                  "es": "Palabras incrustadas en documentos",
-                  "de": "In Dokumente eingebettete Wörter",
-                  "nl": "Woorden ingebed in documenten"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Word embeddings map words to dense vectors where semantically similar words have similar vector representations, enabling mathematical operations on word meanings.",
-                  "es": "Las incrustaciones de palabras mapean palabras a vectores densos donde palabras semánticamente similares tienen representaciones vectoriales similares, permitiendo operaciones matemáticas en significados de palabras.",
-                  "de": "Worteinbettungen bilden Wörter auf dichte Vektoren ab wo semantisch ähnliche Wörter ähnliche Vektordarstellungen haben, ermöglichen mathematische Operationen auf Wortbedeutungen.",
-                  "nl": "Woordinbeddingen mappen woorden naar dichte vectoren waarbij semantisch vergelijkbare woorden vergelijkbare vectorrepresentaties hebben, maken wiskundige bewerkingen op woordbetekenissen mogelijk."
-        }
+        "en": "Option B for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option B für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - basic facts aspect"
       },
       {
-        question: {
-                  "en": "What is Word2Vec?",
-                  "es": "¿Qué es Word2Vec?",
-                  "de": "Was ist Word2Vec?",
-                  "nl": "Wat is Word2Vec?"
-        },
-        options: [
-        {
-                  "en": "A vector graphics program",
-                  "es": "Un programa de gráficos vectoriales",
-                  "de": "Ein Vektorgrafikprogramm",
-                  "nl": "Een vectorgrafiekprogramma"
-        },
-        {
-                  "en": "A neural network model that learns word embeddings from large text corpora",
-                  "es": "Un modelo de red neuronal que aprende incrustaciones de palabras de grandes corpora de texto",
-                  "de": "Ein neuronales Netzwerkmodell das Worteinbettungen aus großen Textkorpora lernt",
-                  "nl": "Een neuraal netwerkmodel dat woordinbeddingen leert uit grote tekstcorpora"
-        },
-        {
-                  "en": "A word counting algorithm",
-                  "es": "Un algoritmo de conteo de palabras",
-                  "de": "Ein Wortzählalgorithmus",
-                  "nl": "Een woordtelalgoritme"
-        },
-        {
-                  "en": "A text formatting tool",
-                  "es": "Una herramienta de formateo de texto",
-                  "de": "Ein Textformatierungstool",
-                  "nl": "Een tekstopmaaktool"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Word2Vec uses neural networks to learn vector representations of words based on their context, using either CBOW or Skip-gram architectures.",
-                  "es": "Word2Vec usa redes neuronales para aprender representaciones vectoriales de palabras basándose en su contexto, usando arquitecturas CBOW o Skip-gram.",
-                  "de": "Word2Vec verwendet neuronale Netzwerke um Vektordarstellungen von Wörtern basierend auf ihrem Kontext zu lernen, mit CBOW oder Skip-gram Architekturen.",
-                  "nl": "Word2Vec gebruikt neurale netwerken om vectorrepresentaties van woorden te leren gebaseerd op hun context, met CBOW of Skip-gram architecturen."
-        }
+        "en": "Option C for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option C für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - basic facts aspect"
       },
       {
-        question: {
-                  "en": "What is cosine similarity in NLP?",
-                  "es": "¿Qué es la similitud de coseno en PLN?",
-                  "de": "Was ist Kosinusähnlichkeit in NLP?",
-                  "nl": "Wat is cosinus gelijkenis in NLP?"
-        },
-        options: [
-        {
-                  "en": "A similarity between triangles",
-                  "es": "Una similitud entre triángulos",
-                  "de": "Eine Ähnlichkeit zwischen Dreiecken",
-                  "nl": "Een gelijkenis tussen driehoeken"
-        },
-        {
-                  "en": "A measure of similarity between two vectors based on the angle between them",
-                  "es": "Una medida de similitud entre dos vectores basada en el ángulo entre ellos",
-                  "de": "Ein Maß für Ähnlichkeit zwischen zwei Vektoren basierend auf dem Winkel zwischen ihnen",
-                  "nl": "Een maat voor gelijkenis tussen twee vectoren gebaseerd op de hoek ertussen"
-        },
-        {
-                  "en": "A geometric shape comparison",
-                  "es": "Una comparación de formas geométricas",
-                  "de": "Ein geometrischer Formvergleich",
-                  "nl": "Een geometrische vormvergelijking"
-        },
-        {
-                  "en": "A mathematical cosine function",
-                  "es": "Una función coseno matemática",
-                  "de": "Eine mathematische Kosinusfunktion",
-                  "nl": "Een wiskundige cosinusfunctie"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Cosine similarity measures the cosine of the angle between two vectors, commonly used to compare document similarity or word vector similarity in NLP.",
-                  "es": "La similitud de coseno mide el coseno del ángulo entre dos vectores, comúnmente usado para comparar similitud de documentos o similitud de vectores de palabras en PLN.",
-                  "de": "Kosinusähnlichkeit misst den Kosinus des Winkels zwischen zwei Vektoren, häufig verwendet um Dokumentähnlichkeit oder Wortvektorähnlichkeit in NLP zu vergleichen.",
-                  "nl": "Cosinus gelijkenis meet de cosinus van de hoek tussen twee vectoren, vaak gebruikt om documentsimilariteit of woordvector gelijkenis in NLP te vergelijken."
-        }
-      },
-      {
-        question: {
-                  "en": "What is n-gram analysis?",
-                  "es": "¿Qué es el análisis de n-gramas?",
-                  "de": "Was ist n-Gramm-Analyse?",
-                  "nl": "Wat is n-gram analyse?"
-        },
-        options: [
-        {
-                  "en": "Counting the total number of words",
-                  "es": "Contar el número total de palabras",
-                  "de": "Die Gesamtzahl der Wörter zählen",
-                  "nl": "Het totale aantal woorden tellen"
-        },
-        {
-                  "en": "Analyzing sequences of n consecutive words or characters in text",
-                  "es": "Analizar secuencias de n palabras o caracteres consecutivos en texto",
-                  "de": "Analysieren von Sequenzen von n aufeinanderfolgenden Wörtern oder Zeichen in Text",
-                  "nl": "Het analyseren van sequenties van n opeenvolgende woorden of karakters in tekst"
-        },
-        {
-                  "en": "Analyzing grammar rules",
-                  "es": "Analizar reglas gramaticales",
-                  "de": "Grammatikregeln analysieren",
-                  "nl": "Grammaticaregels analyseren"
-        },
-        {
-                  "en": "Measuring text length",
-                  "es": "Medir longitud del texto",
-                  "de": "Textlänge messen",
-                  "nl": "Tekstlengte meten"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "N-grams capture local word patterns and context, where unigrams are single words, bigrams are pairs, trigrams are triplets, etc.",
-                  "es": "Los n-gramas capturan patrones de palabras locales y contexto, donde unigramas son palabras solas, bigramas son pares, trigramas son triples, etc.",
-                  "de": "N-Gramme erfassen lokale Wortmuster und Kontext, wobei Unigramme einzelne Wörter sind, Bigramme Paare, Trigramme Tripel, etc.",
-                  "nl": "N-grammen leggen lokale woordpatronen en context vast, waarbij unigrammen enkele woorden zijn, bigrammen paren, trigrammen drietal, etc."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the main advantage of dense vector representations over sparse representations?",
-                  "es": "¿Cuál es la principal ventaja de las representaciones vectoriales densas sobre las representaciones dispersas?",
-                  "de": "Was ist der Hauptvorteil dichter Vektordarstellungen gegenüber spärlichen Darstellungen?",
-                  "nl": "Wat is het hoofdvoordeel van dichte vectorrepresentaties ten opzichte van schaarse representaties?"
-        },
-        options: [
-        {
-                  "en": "Faster computation speed",
-                  "es": "Velocidad de cálculo más rápida",
-                  "de": "Schnellere Berechnungsgeschwindigkeit",
-                  "nl": "Snellere rekensnelheid"
-        },
-        {
-                  "en": "Easier to interpret",
-                  "es": "Más fácil de interpretar",
-                  "de": "Einfacher zu interpretieren",
-                  "nl": "Makkelijker te interpreteren"
-        },
-        {
-                  "en": "Better capture of semantic relationships and reduced dimensionality",
-                  "es": "Mejor captura de relaciones semánticas y dimensionalidad reducida",
-                  "de": "Bessere Erfassung semantischer Beziehungen und reduzierte Dimensionalität",
-                  "nl": "Betere vastlegging van semantische relaties en verminderde dimensionaliteit"
-        },
-        {
-                  "en": "Less memory usage",
-                  "es": "Menor uso de memoria",
-                  "de": "Geringerer Speicherverbrauch",
-                  "nl": "Minder geheugengebruik"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Dense vectors can capture semantic relationships between words and concepts more effectively, while also reducing the dimensionality compared to sparse representations like one-hot encoding.",
-                  "es": "Los vectores densos pueden capturar relaciones semánticas entre palabras y conceptos más efectivamente, mientras también reducen la dimensionalidad comparado con representaciones dispersas como codificación one-hot.",
-                  "de": "Dichte Vektoren können semantische Beziehungen zwischen Wörtern und Konzepten effektiver erfassen, während sie auch die Dimensionalität im Vergleich zu spärlichen Darstellungen wie One-Hot-Kodierung reduzieren.",
-                  "nl": "Dichte vectoren kunnen semantische relaties tussen woorden en concepten effectiever vastleggen, terwijl ze ook de dimensionaliteit verminderen vergeleken met schaarse representaties zoals one-hot encoding."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the difference between CBOW and Skip-gram in Word2Vec?",
-                  "es": "¿Cuál es la diferencia entre CBOW y Skip-gram en Word2Vec?",
-                  "de": "Was ist der Unterschied zwischen CBOW und Skip-gram in Word2Vec?",
-                  "nl": "Wat is het verschil tussen CBOW en Skip-gram in Word2Vec?"
-        },
-        options: [
-        {
-                  "en": "CBOW uses larger vocabularies",
-                  "es": "CBOW usa vocabularios más grandes",
-                  "de": "CBOW verwendet größere Vokabulare",
-                  "nl": "CBOW gebruikt grotere vocabulaires"
-        },
-        {
-                  "en": "CBOW predicts target word from context, Skip-gram predicts context from target word",
-                  "es": "CBOW predice la palabra objetivo del contexto, Skip-gram predice el contexto de la palabra objetivo",
-                  "de": "CBOW sagt Zielwort aus Kontext vorher, Skip-gram sagt Kontext aus Zielwort vorher",
-                  "nl": "CBOW voorspelt het doelwoord uit de context, Skip-gram voorspelt de context uit het doelwoord"
-        },
-        {
-                  "en": "Skip-gram requires more training data",
-                  "es": "Skip-gram requiere más datos de entrenamiento",
-                  "de": "Skip-gram benötigt mehr Trainingsdaten",
-                  "nl": "Skip-gram vereist meer trainingsgegevens"
-        },
-        {
-                  "en": "CBOW is faster, Skip-gram is more accurate",
-                  "es": "CBOW es más rápido, Skip-gram es más preciso",
-                  "de": "CBOW ist schneller, Skip-gram ist genauer",
-                  "nl": "CBOW is sneller, Skip-gram is nauwkeuriger"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "CBOW (Continuous Bag of Words) uses surrounding context words to predict the target word, while Skip-gram does the opposite - uses the target word to predict surrounding context words.",
-                  "es": "CBOW (Continuous Bag of Words) usa palabras de contexto circundantes para predecir la palabra objetivo, mientras Skip-gram hace lo contrario - usa la palabra objetivo para predecir palabras de contexto circundantes.",
-                  "de": "CBOW (Continuous Bag of Words) verwendet umgebende Kontextwörter um das Zielwort vorherzusagen, während Skip-gram das Gegenteil macht - verwendet das Zielwort um umgebende Kontextwörter vorherzusagen.",
-                  "nl": "CBOW (Continuous Bag of Words) gebruikt omringende contextwoorden om het doelwoord te voorspellen, terwijl Skip-gram het tegenovergestelde doet - gebruikt het doelwoord om omringende contextwoorden te voorspellen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is GloVe (Global Vectors for Word Representation)?",
-                  "es": "¿Qué es GloVe (Vectores Globales para Representación de Palabras)?",
-                  "de": "Was ist GloVe (Global Vectors for Word Representation)?",
-                  "nl": "Wat is GloVe (Global Vectors for Word Representation)?"
-        },
-        options: [
-        {
-                  "en": "A text preprocessing tool",
-                  "es": "Una herramienta de preprocesamiento de texto",
-                  "de": "Ein Textvorverarbeitungstool",
-                  "nl": "Een tekstvoorverwerkingstool"
-        },
-        {
-                  "en": "A language translation method",
-                  "es": "Un método de traducción de idiomas",
-                  "de": "Eine Sprachübersetzungsmethode",
-                  "nl": "Een taaltranslatiemethode"
-        },
-        {
-                  "en": "A word embedding method that combines global matrix factorization with local context windows",
-                  "es": "Un método de incrustación de palabras que combina factorización de matriz global con ventanas de contexto local",
-                  "de": "Eine Worteinbettungsmethode die globale Matrixfaktorisierung mit lokalen Kontextfenstern kombiniert",
-                  "nl": "Een woordinbeddingsmethode die globale matrixfactorisatie combineert met lokale contextvensters"
-        },
-        {
-                  "en": "A neural network architecture",
-                  "es": "Una arquitectura de red neuronal",
-                  "de": "Eine neuronale Netzwerkarchitektur",
-                  "nl": "Een neurale netwerkarchitectuur"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "GloVe combines the advantages of global matrix factorization methods (like LSA) with local context window methods (like Word2Vec) by training on global word co-occurrence statistics.",
-                  "es": "GloVe combina las ventajas de métodos de factorización de matriz global (como LSA) con métodos de ventana de contexto local (como Word2Vec) entrenando en estadísticas globales de co-ocurrencia de palabras.",
-                  "de": "GloVe kombiniert die Vorteile globaler Matrixfaktorisierungsmethoden (wie LSA) mit lokalen Kontextfenstermethoden (wie Word2Vec) durch Training auf globalen Wort-Kooccurrence-Statistiken.",
-                  "nl": "GloVe combineert de voordelen van globale matrixfactorisatiemethoden (zoals LSA) met lokale contextventermethoden (zoals Word2Vec) door te trainen op globale woord-coöccurrentiestatistieken."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the purpose of subword tokenization in NLP?",
-                  "es": "¿Cuál es el propósito de la tokenización de subpalabras en PLN?",
-                  "de": "Was ist der Zweck der Subwort-Tokenisierung in NLP?",
-                  "nl": "Wat is het doel van subwoord tokenisatie in NLP?"
-        },
-        options: [
-        {
-                  "en": "To improve spelling correction",
-                  "es": "Mejorar la corrección ortográfica",
-                  "de": "Um die Rechtschreibkorrektur zu verbessern",
-                  "nl": "Om spellingscorrectie te verbeteren"
-        },
-        {
-                  "en": "To reduce computational complexity",
-                  "es": "Reducir la complejidad computacional",
-                  "de": "Um die rechnerische Komplexität zu reduzieren",
-                  "nl": "Om computationele complexiteit te verminderen"
-        },
-        {
-                  "en": "To handle out-of-vocabulary words and improve representation of rare words",
-                  "es": "Manejar palabras fuera del vocabulario y mejorar la representación de palabras raras",
-                  "de": "Um Out-of-Vocabulary-Wörter zu handhaben und die Darstellung seltener Wörter zu verbessern",
-                  "nl": "Om out-of-vocabulary woorden te behandelen en representatie van zeldzame woorden te verbeteren"
-        },
-        {
-                  "en": "To create shorter sentences",
-                  "es": "Crear oraciones más cortas",
-                  "de": "Um kürzere Sätze zu erstellen",
-                  "nl": "Om kortere zinnen te maken"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Subword tokenization (like BPE, WordPiece) breaks words into smaller meaningful units, helping models handle unknown words and better represent morphologically rich languages.",
-                  "es": "La tokenización de subpalabras (como BPE, WordPiece) divide palabras en unidades más pequeñas significativas, ayudando a los modelos a manejar palabras desconocidas y representar mejor lenguajes morfológicamente ricos.",
-                  "de": "Subwort-Tokenisierung (wie BPE, WordPiece) teilt Wörter in kleinere bedeutungsvolle Einheiten auf, hilft Modellen unbekannte Wörter zu handhaben und morphologisch reiche Sprachen besser darzustellen.",
-                  "nl": "Subwoord tokenisatie (zoals BPE, WordPiece) verdeelt woorden in kleinere betekenisvolle eenheden, helpt modellen onbekende woorden te behandelen en morfologisch rijke talen beter te representeren."
-        }
-      },
-      {
-        question: {
-                  "en": "What is document similarity and how is it typically measured?",
-                  "es": "¿Qué es la similitud de documentos y cómo se mide típicamente?",
-                  "de": "Was ist Dokumentähnlichkeit und wie wird sie typischerweise gemessen?",
-                  "nl": "Wat is documentsimilariteit en hoe wordt het doorgaans gemeten?"
-        },
-        options: [
-        {
-                  "en": "Measuring how similar two documents are using vector representations and similarity metrics like cosine similarity",
-                  "es": "Medir qué tan similares son dos documentos usando representaciones vectoriales y métricas de similitud como similitud de coseno",
-                  "de": "Messen wie ähnlich zwei Dokumente sind mit Vektordarstellungen und Ähnlichkeitsmetriken wie Kosinusähnlichkeit",
-                  "nl": "Meten hoe vergelijkbaar twee documenten zijn met behulp van vectorrepresentaties en gelijkenismetriek zoals cosinus gelijkenis"
-        },
-        {
-                  "en": "Comparing document length",
-                  "es": "Comparar la longitud del documento",
-                  "de": "Dokumentlänge vergleichen",
-                  "nl": "Documentlengte vergelijken"
-        },
-        {
-                  "en": "Analyzing document format",
-                  "es": "Analizar el formato del documento",
-                  "de": "Dokumentformat analysieren",
-                  "nl": "Documentformaat analyseren"
-        },
-        {
-                  "en": "Counting the number of shared words",
-                  "es": "Contar el número de palabras compartidas",
-                  "de": "Die Anzahl gemeinsamer Wörter zählen",
-                  "nl": "Het aantal gedeelde woorden tellen"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Document similarity compares how semantically similar two documents are, typically by converting documents to vector representations and using metrics like cosine similarity, Jaccard similarity, or Euclidean distance.",
-                  "es": "La similitud de documentos compara qué tan semánticamente similares son dos documentos, típicamente convirtiendo documentos a representaciones vectoriales y usando métricas como similitud de coseno, similitud de Jaccard, o distancia euclidiana.",
-                  "de": "Dokumentähnlichkeit vergleicht wie semantisch ähnlich zwei Dokumente sind, typischerweise durch Konvertierung von Dokumenten zu Vektordarstellungen und Verwendung von Metriken wie Kosinusähnlichkeit, Jaccard-Ähnlichkeit oder euklidische Distanz.",
-                  "nl": "Documentsimilariteit vergelijkt hoe semantisch vergelijkbaar twee documenten zijn, doorgaans door documenten om te zetten naar vectorrepresentaties en metriek te gebruiken zoals cosinus gelijkenis, Jaccard gelijkenis, of Euclidische afstand."
-        }
-      },
-      {
-        question: {
-                  "en": "What is latent semantic analysis (LSA)?",
-                  "es": "¿Qué es el análisis semántico latente (LSA)?",
-                  "de": "Was ist latente semantische Analyse (LSA)?",
-                  "nl": "Wat is latente semantische analyse (LSA)?"
-        },
-        options: [
-        {
-                  "en": "A text summarization algorithm",
-                  "es": "Un algoritmo de resumen de texto",
-                  "de": "Ein Textzusammenfassungsalgorithmus",
-                  "nl": "Een tekstsamenvattingsalgoritme"
-        },
-        {
-                  "en": "A speech recognition technique",
-                  "es": "Una técnica de reconocimiento de voz",
-                  "de": "Eine Spracherkennungstechnik",
-                  "nl": "Een spraakherkenningtechniek"
-        },
-        {
-                  "en": "A method for language translation",
-                  "es": "Un método para traducción de idiomas",
-                  "de": "Eine Methode für Sprachübersetzung",
-                  "nl": "Een methode voor taaltranslatie"
-        },
-        {
-                  "en": "A technique using SVD to reduce dimensionality and discover hidden semantic relationships in text",
-                  "es": "Una técnica que usa SVD para reducir dimensionalidad y descubrir relaciones semánticas ocultas en texto",
-                  "de": "Eine Technik die SVD verwendet um Dimensionalität zu reduzieren und versteckte semantische Beziehungen in Text zu entdecken",
-                  "nl": "Een techniek die SVD gebruikt om dimensionaliteit te verminderen en verborgen semantische relaties in tekst te ontdekken"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "LSA uses singular value decomposition (SVD) on term-document matrices to identify latent semantic structures and reduce noise, capturing implicit relationships between terms and documents.",
-                  "es": "LSA usa descomposición de valores singulares (SVD) en matrices término-documento para identificar estructuras semánticas latentes y reducir ruido, capturando relaciones implícitas entre términos y documentos.",
-                  "de": "LSA verwendet Singularwertzerlegung (SVD) auf Term-Dokument-Matrizen um latente semantische Strukturen zu identifizieren und Rauschen zu reduzieren, erfasst implizite Beziehungen zwischen Begriffen und Dokumenten.",
-                  "nl": "LSA gebruikt singular value decomposition (SVD) op term-document matrices om latente semantische structuren te identificeren en ruis te verminderen, legt impliciete relaties tussen termen en documenten vast."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the bag-of-words model and what are its limitations?",
-                  "es": "¿Qué es el modelo de bolsa de palabras y cuáles son sus limitaciones?",
-                  "de": "Was ist das Bag-of-Words-Modell und was sind seine Einschränkungen?",
-                  "nl": "Wat is het bag-of-words model en wat zijn de beperkingen?"
-        },
-        options: [
-        {
-                  "en": "A method for word translation",
-                  "es": "Un método para traducción de palabras",
-                  "de": "Eine Methode für Wortübersetzung",
-                  "nl": "Een methode voor woordvertaling"
-        },
-        {
-                  "en": "A model that only works with single words",
-                  "es": "Un modelo que solo funciona con palabras individuales",
-                  "de": "Ein Modell das nur mit einzelnen Wörtern funktioniert",
-                  "nl": "Een model dat alleen werkt met enkele woorden"
-        },
-        {
-                  "en": "A text representation that treats documents as unordered collections of words, losing word order and context",
-                  "es": "Una representación de texto que trata documentos como colecciones desordenadas de palabras, perdiendo orden de palabras y contexto",
-                  "de": "Eine Textdarstellung die Dokumente als ungeordnete Sammlungen von Wörtern behandelt, verliert Wortreihenfolge und Kontext",
-                  "nl": "Een tekstrepresentatie die documenten behandelt als ongeordende verzamelingen woorden, verliest woordvolgorde en context"
-        },
-        {
-                  "en": "A technique for organizing documents",
-                  "es": "Una técnica para organizar documentos",
-                  "de": "Eine Technik zur Organisation von Dokumenten",
-                  "nl": "Een techniek voor het organiseren van documenten"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The bag-of-words model represents text as word frequency counts, ignoring grammar, word order, and context. While simple and effective for some tasks, it loses important semantic information.",
-                  "es": "El modelo de bolsa de palabras representa texto como conteos de frecuencia de palabras, ignorando gramática, orden de palabras y contexto. Aunque simple y efectivo para algunas tareas, pierde información semántica importante.",
-                  "de": "Das Bag-of-Words-Modell repräsentiert Text als Worthäufigkeitszählungen, ignoriert Grammatik, Wortreihenfolge und Kontext. Obwohl einfach und effektiv für einige Aufgaben, verliert es wichtige semantische Informationen.",
-                  "nl": "Het bag-of-words model representeert tekst als woordfrequentietellingen, negeert grammatica, woordvolgorde en context. Hoewel eenvoudig en effectief voor sommige taken, verliest het belangrijke semantische informatie."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the difference between stemming and lemmatization?",
-                  "es": "¿Cuál es la diferencia entre stemming y lematización?",
-                  "de": "Was ist der Unterschied zwischen Stemming und Lemmatisierung?",
-                  "nl": "Wat is het verschil tussen stemming en lemmatisatie?"
-        },
-        options: [
-        {
-                  "en": "Stemming is faster than lemmatization",
-                  "es": "Stemming es más rápido que lematización",
-                  "de": "Stemming ist schneller als Lemmatisierung",
-                  "nl": "Stemming is sneller dan lemmatisatie"
-        },
-        {
-                  "en": "Lemmatization only works with verbs",
-                  "es": "Lematización solo funciona con verbos",
-                  "de": "Lemmatisierung funktioniert nur mit Verben",
-                  "nl": "Lemmatisatie werkt alleen met werkwoorden"
-        },
-        {
-                  "en": "Stemming requires more computational resources",
-                  "es": "Stemming requiere más recursos computacionales",
-                  "de": "Stemming benötigt mehr Rechenressourcen",
-                  "nl": "Stemming vereist meer computationele bronnen"
-        },
-        {
-                  "en": "Stemming removes suffixes crudely, lemmatization finds the actual dictionary form using linguistic knowledge",
-                  "es": "Stemming remueve sufijos crudamente, lematización encuentra la forma de diccionario actual usando conocimiento lingüístico",
-                  "de": "Stemming entfernt Suffixe grob, Lemmatisierung findet die tatsächliche Wörterbuchform mit linguistischem Wissen",
-                  "nl": "Stemming verwijdert achtervoegsels ruw, lemmatisatie vindt de werkelijke woordenboekvorm met linguïstische kennis"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Stemming uses simple rules to chop off word endings (e.g., 'running' → 'run'), while lemmatization uses vocabulary and morphological analysis to return the actual root form (e.g., 'better' → 'good').",
-                  "es": "Stemming usa reglas simples para cortar terminaciones de palabras (ej., 'corriendo' → 'corr'), mientras lematización usa vocabulario y análisis morfológico para devolver la forma raíz actual (ej., 'mejor' → 'bueno').",
-                  "de": "Stemming verwendet einfache Regeln um Wortendungen abzuschneiden (z.B. 'laufend' → 'lauf'), während Lemmatisierung Vokabular und morphologische Analyse verwendet um die tatsächliche Grundform zurückzugeben (z.B. 'besser' → 'gut').",
-                  "nl": "Stemming gebruikt eenvoudige regels om woordeinden af te kappen (bijv. 'lopend' → 'loop'), terwijl lemmatisatie vocabulaire en morfologische analyse gebruikt om de werkelijke grondvorm terug te geven (bijv. 'beter' → 'goed')."
-        }
-      },
-      {
-        question: {
-                  "en": "What is term frequency (TF) in information retrieval?",
-                  "es": "¿Qué es la frecuencia de término (TF) en recuperación de información?",
-                  "de": "Was ist Termfrequenz (TF) im Information Retrieval?",
-                  "nl": "Wat is termfrequentie (TF) in informatie retrieval?"
-        },
-        options: [
-        {
-                  "en": "The frequency of terms across all documents",
-                  "es": "La frecuencia de términos en todos los documentos",
-                  "de": "Die Häufigkeit von Begriffen über alle Dokumente",
-                  "nl": "De frequentie van termen over alle documenten"
-        },
-        {
-                  "en": "The time frequency of document updates",
-                  "es": "La frecuencia temporal de actualizaciones de documentos",
-                  "de": "Die Zeitfrequenz von Dokumentaktualisierungen",
-                  "nl": "De tijdfrequentie van documentupdates"
-        },
-        {
-                  "en": "The frequency of grammatical terms",
-                  "es": "La frecuencia de términos gramaticales",
-                  "de": "Die Häufigkeit grammatischer Begriffe",
-                  "nl": "De frequentie van grammaticale termen"
-        },
-        {
-                  "en": "The number of times a term appears in a document, often normalized by document length",
-                  "es": "El número de veces que un término aparece en un documento, a menudo normalizado por la longitud del documento",
-                  "de": "Die Anzahl wie oft ein Begriff in einem Dokument erscheint, oft normalisiert durch Dokumentlänge",
-                  "nl": "Het aantal keren dat een term voorkomt in een document, vaak genormaliseerd door documentlengte"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Term frequency measures how often a specific term appears in a document. It's often normalized (e.g., by document length) to account for documents of different sizes.",
-                  "es": "La frecuencia de término mide qué tan a menudo aparece un término específico en un documento. A menudo se normaliza (ej., por longitud del documento) para considerar documentos de diferentes tamaños.",
-                  "de": "Termfrequenz misst wie oft ein spezifischer Begriff in einem Dokument erscheint. Sie wird oft normalisiert (z.B. durch Dokumentlänge) um Dokumente verschiedener Größen zu berücksichtigen.",
-                  "nl": "Termfrequentie meet hoe vaak een specifieke term voorkomt in een document. Het wordt vaak genormaliseerd (bijv. door documentlengte) om rekening te houden met documenten van verschillende groottes."
-        }
-      },
-      {
-        question: {
-                  "en": "What is document frequency (DF) and inverse document frequency (IDF)?",
-                  "es": "¿Qué es la frecuencia de documento (DF) y la frecuencia inversa de documento (IDF)?",
-                  "de": "Was ist Dokumentfrequenz (DF) und inverse Dokumentfrequenz (IDF)?",
-                  "nl": "Wat is documentfrequentie (DF) en inverse documentfrequentie (IDF)?"
-        },
-        options: [
-        {
-                  "en": "DF measures document quality, IDF measures information density",
-                  "es": "DF mide calidad del documento, IDF mide densidad de información",
-                  "de": "DF misst Dokumentqualität, IDF misst Informationsdichte",
-                  "nl": "DF meet documentkwaliteit, IDF meet informatiedichtheid"
-        },
-        {
-                  "en": "DF is how many documents contain a term; IDF is log(total docs / DF) to emphasize rare terms",
-                  "es": "DF es cuántos documentos contienen un término; IDF es log(docs totales / DF) para enfatizar términos raros",
-                  "de": "DF ist wie viele Dokumente einen Begriff enthalten; IDF ist log(Gesamtdokumente / DF) um seltene Begriffe zu betonen",
-                  "nl": "DF is hoeveel documenten een term bevatten; IDF is log(totale docs / DF) om zeldzame termen te benadrukken"
-        },
-        {
-                  "en": "Both measure the same concept differently",
-                  "es": "Ambos miden el mismo concepto de manera diferente",
-                  "de": "Beide messen dasselbe Konzept unterschiedlich",
-                  "nl": "Beide meten hetzelfde concept anders"
-        },
-        {
-                  "en": "DF is document frequency in time, IDF is inverse time frequency",
-                  "es": "DF es frecuencia de documento en tiempo, IDF es frecuencia de tiempo inversa",
-                  "de": "DF ist Dokumentfrequenz in der Zeit, IDF ist inverse Zeitfrequenz",
-                  "nl": "DF is documentfrequentie in tijd, IDF is inverse tijdfrequentie"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Document Frequency counts how many documents in a corpus contain a specific term. Inverse Document Frequency (log(N/DF)) gives higher weight to rare terms that appear in fewer documents.",
-                  "es": "La Frecuencia de Documento cuenta cuántos documentos en un corpus contienen un término específico. La Frecuencia Inversa de Documento (log(N/DF)) da mayor peso a términos raros que aparecen en menos documentos.",
-                  "de": "Dokumentfrequenz zählt wie viele Dokumente in einem Korpus einen spezifischen Begriff enthalten. Inverse Dokumentfrequenz (log(N/DF)) gibt seltenen Begriffen die in weniger Dokumenten erscheinen höheres Gewicht.",
-                  "nl": "Documentfrequentie telt hoeveel documenten in een corpus een specifieke term bevatten. Inverse Documentfrequentie (log(N/DF)) geeft meer gewicht aan zeldzame termen die in minder documenten voorkomen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the curse of dimensionality in text representation?",
-                  "es": "¿Qué es la maldición de la dimensionalidad en representación de texto?",
-                  "de": "Was ist der Fluch der Dimensionalität in Textrepräsentation?",
-                  "nl": "Wat is de vloek van dimensionaliteit in tekstrepresentatie?"
-        },
-        options: [
-        {
-                  "en": "Vocabulary becomes too small",
-                  "es": "El vocabulario se vuelve demasiado pequeño",
-                  "de": "Vokabular wird zu klein",
-                  "nl": "Vocabulaire wordt te klein"
-        },
-        {
-                  "en": "High-dimensional sparse vectors become inefficient and lose meaningful distance relationships",
-                  "es": "Vectores dispersos de alta dimensión se vuelven ineficientes y pierden relaciones de distancia significativas",
-                  "de": "Hochdimensionale spärliche Vektoren werden ineffizient und verlieren bedeutungsvolle Distanzbeziehungen",
-                  "nl": "Hoogdimensionale schaarse vectoren worden inefficiënt en verliezen betekenisvolle afstandsrelaties"
-        },
-        {
-                  "en": "Computers run out of memory",
-                  "es": "Las computadoras se quedan sin memoria",
-                  "de": "Computer gehen die Speicher aus",
-                  "nl": "Computers raken geheugen kwijt"
-        },
-        {
-                  "en": "Text becomes too long to process",
-                  "es": "El texto se vuelve demasiado largo para procesar",
-                  "de": "Text wird zu lang zum Verarbeiten",
-                  "nl": "Tekst wordt te lang om te verwerken"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "In high-dimensional spaces (like large vocabularies), data points become sparsely distributed, making similarity measures less meaningful and requiring exponentially more data to maintain density.",
-                  "es": "En espacios de alta dimensión (como vocabularios grandes), los puntos de datos se distribuyen dispersamente, haciendo medidas de similitud menos significativas y requiriendo exponencialmente más datos para mantener densidad.",
-                  "de": "In hochdimensionalen Räumen (wie große Vokabulare) werden Datenpunkte spärlich verteilt, machen Ähnlichkeitsmaße weniger bedeutungsvoll und erfordern exponentiell mehr Daten um Dichte zu erhalten.",
-                  "nl": "In hoogdimensionale ruimtes (zoals grote vocabulaires) raken gegevenspunten schaars verdeeld, maken gelijkenismaatregelen minder betekenisvol en vereisen exponentieel meer gegevens om dichtheid te behouden."
-        }
-      },
-      {
-        question: {
-                  "en": "What is FastText and how does it differ from Word2Vec?",
-                  "es": "¿Qué es FastText y cómo difiere de Word2Vec?",
-                  "de": "Was ist FastText und wie unterscheidet es sich von Word2Vec?",
-                  "nl": "Wat is FastText en hoe verschilt het van Word2Vec?"
-        },
-        options: [
-        {
-                  "en": "FastText only works with English",
-                  "es": "FastText solo funciona con inglés",
-                  "de": "FastText funktioniert nur mit Englisch",
-                  "nl": "FastText werkt alleen met Engels"
-        },
-        {
-                  "en": "FastText considers subword information (character n-grams) while Word2Vec treats words as atomic units",
-                  "es": "FastText considera información de subpalabras (n-gramas de caracteres) mientras Word2Vec trata palabras como unidades atómicas",
-                  "de": "FastText berücksichtigt Subwort-Informationen (Zeichen-N-Gramme) während Word2Vec Wörter als atomare Einheiten behandelt",
-                  "nl": "FastText houdt rekening met subwoordinformatie (karakter n-grammen) terwijl Word2Vec woorden als atomaire eenheden behandelt"
-        },
-        {
-                  "en": "FastText is faster than Word2Vec",
-                  "es": "FastText es más rápido que Word2Vec",
-                  "de": "FastText ist schneller als Word2Vec",
-                  "nl": "FastText is sneller dan Word2Vec"
-        },
-        {
-                  "en": "FastText requires more memory",
-                  "es": "FastText requiere más memoria",
-                  "de": "FastText benötigt mehr Speicher",
-                  "nl": "FastText vereist meer geheugen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "FastText extends Word2Vec by representing words as bags of character n-grams, allowing it to generate embeddings for out-of-vocabulary words and better handle morphologically rich languages.",
-                  "es": "FastText extiende Word2Vec representando palabras como bolsas de n-gramas de caracteres, permitiéndole generar incrustaciones para palabras fuera del vocabulario y manejar mejor lenguajes morfológicamente ricos.",
-                  "de": "FastText erweitert Word2Vec durch Darstellung von Wörtern als Bags von Zeichen-N-Grammen, ermöglicht es Einbettungen für Out-of-Vocabulary-Wörter zu generieren und morphologisch reiche Sprachen besser zu handhaben.",
-                  "nl": "FastText breidt Word2Vec uit door woorden voor te stellen als zakken van karakter n-grammen, waardoor het embeddings kan genereren voor out-of-vocabulary woorden en morfologisch rijke talen beter kan behandelen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the difference between one-hot encoding and distributed representations?",
-                  "es": "¿Cuál es la diferencia entre codificación one-hot y representaciones distribuidas?",
-                  "de": "Was ist der Unterschied zwischen One-Hot-Kodierung und verteilten Darstellungen?",
-                  "nl": "Wat is het verschil tussen one-hot encoding en gedistribueerde representaties?"
-        },
-        options: [
-        {
-                  "en": "One-hot uses sparse binary vectors, distributed uses dense real-valued vectors that capture semantic relationships",
-                  "es": "One-hot usa vectores binarios dispersos, distribuidas usan vectores densos de valores reales que capturan relaciones semánticas",
-                  "de": "One-Hot verwendet spärliche binäre Vektoren, verteilt verwendet dichte realwertige Vektoren die semantische Beziehungen erfassen",
-                  "nl": "One-hot gebruikt schaarse binaire vectoren, gedistribueerd gebruikt dichte reëelwaardige vectoren die semantische relaties vastleggen"
-        },
-        {
-                  "en": "One-hot works better with neural networks",
-                  "es": "One-hot funciona mejor con redes neuronales",
-                  "de": "One-Hot funktioniert besser mit neuronalen Netzwerken",
-                  "nl": "One-hot werkt beter met neurale netwerken"
-        },
-        {
-                  "en": "One-hot is more accurate",
-                  "es": "One-hot es más preciso",
-                  "de": "One-Hot ist genauer",
-                  "nl": "One-hot is nauwkeuriger"
-        },
-        {
-                  "en": "Distributed representations use more memory",
-                  "es": "Las representaciones distribuidas usan más memoria",
-                  "de": "Verteilte Darstellungen verwenden mehr Speicher",
-                  "nl": "Gedistribueerde representaties gebruiken meer geheugen"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "One-hot encoding creates sparse vectors with a single 1 and rest 0s, treating words as discrete symbols. Distributed representations use dense vectors where each dimension captures semantic features, enabling similarity comparisons.",
-                  "es": "La codificación one-hot crea vectores dispersos con un solo 1 y el resto 0s, tratando palabras como símbolos discretos. Las representaciones distribuidas usan vectores densos donde cada dimensión captura características semánticas, permitiendo comparaciones de similitud.",
-                  "de": "One-Hot-Kodierung erstellt spärliche Vektoren mit einer einzigen 1 und Rest 0en, behandelt Wörter als diskrete Symbole. Verteilte Darstellungen verwenden dichte Vektoren wo jede Dimension semantische Merkmale erfasst, ermöglichen Ähnlichkeitsvergleiche.",
-                  "nl": "One-hot encoding creëert schaarse vectoren met een enkele 1 en de rest 0en, behandelt woorden als discrete symbolen. Gedistribueerde representaties gebruiken dichte vectoren waarbij elke dimensie semantische kenmerken vastlegt, maakt gelijkeniscomparaties mogelijk."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the role of context windows in word embedding training?",
-                  "es": "¿Cuál es el papel de las ventanas de contexto en el entrenamiento de incrustaciones de palabras?",
-                  "de": "Was ist die Rolle von Kontextfenstern im Training von Worteinbettungen?",
-                  "nl": "Wat is de rol van contextvensters in woordinbedding training?"
-        },
-        options: [
-        {
-                  "en": "They determine the size of the vocabulary",
-                  "es": "Determinan el tamaño del vocabulario",
-                  "de": "Sie bestimmen die Größe des Vokabulars",
-                  "nl": "Ze bepalen de grootte van het vocabulaire"
-        },
-        {
-                  "en": "They define the local neighborhood of words used to learn semantic relationships and co-occurrence patterns",
-                  "es": "Definen la vecindad local de palabras usada para aprender relaciones semánticas y patrones de co-ocurrencia",
-                  "de": "Sie definieren die lokale Nachbarschaft von Wörtern verwendet um semantische Beziehungen und Kooccurrence-Muster zu lernen",
-                  "nl": "Ze definiëren de lokale buurt van woorden gebruikt om semantische relaties en co-occurrence patronen te leren"
-        },
-        {
-                  "en": "They define the output vector size",
-                  "es": "Definen el tamaño del vector de salida",
-                  "de": "Sie definieren die Ausgabevektorgröße",
-                  "nl": "Ze definiëren de uitvoer vectorgrootte"
-        },
-        {
-                  "en": "They control the training speed",
-                  "es": "Controlan la velocidad de entrenamiento",
-                  "de": "Sie kontrollieren die Trainingsgeschwindigkeit",
-                  "nl": "Ze controleren de trainingssnelheid"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Context windows determine which surrounding words are considered when training word embeddings. Larger windows capture broader semantic relationships, while smaller windows focus on syntactic relationships.",
-                  "es": "Las ventanas de contexto determinan qué palabras circundantes se consideran al entrenar incrustaciones de palabras. Ventanas más grandes capturan relaciones semánticas más amplias, mientras ventanas más pequeñas se enfocan en relaciones sintácticas.",
-                  "de": "Kontextfenster bestimmen welche umgebenden Wörter beim Training von Worteinbettungen berücksichtigt werden. Größere Fenster erfassen breitere semantische Beziehungen, während kleinere Fenster sich auf syntaktische Beziehungen konzentrieren.",
-                  "nl": "Contextvensters bepalen welke omringende woorden worden beschouwd bij het trainen van woordinbeddingen. Grotere vensters leggen bredere semantische relaties vast, terwijl kleinere vensters zich richten op syntactische relaties."
-        }
-      },
-      {
-        question: {
-                  "en": "What is syntactic parsing and how does it differ from semantic analysis?",
-                  "es": "¿Qué es el análisis sintáctico y cómo difiere del análisis semántico?",
-                  "de": "Was ist syntaktisches Parsing und wie unterscheidet es sich von semantischer Analyse?",
-                  "nl": "Wat is syntactisch parsing en hoe verschilt het van semantische analyse?"
-        },
-        options: [
-        {
-                  "en": "Syntactic parsing is faster than semantic analysis",
-                  "es": "El análisis sintáctico es más rápido que el análisis semántico",
-                  "de": "Syntaktisches Parsing ist schneller als semantische Analyse",
-                  "nl": "Syntactisch parsing is sneller dan semantische analyse"
-        },
-        {
-                  "en": "Syntactic parsing requires larger vocabularies",
-                  "es": "El análisis sintáctico requiere vocabularios más grandes",
-                  "de": "Syntaktisches Parsing benötigt größere Vokabulare",
-                  "nl": "Syntactisch parsing vereist grotere vocabulaires"
-        },
-        {
-                  "en": "Semantic analysis only works with single words",
-                  "es": "El análisis semántico solo funciona con palabras individuales",
-                  "de": "Semantische Analyse funktioniert nur mit einzelnen Wörtern",
-                  "nl": "Semantische analyse werkt alleen met enkele woorden"
-        },
-        {
-                  "en": "Syntactic parsing analyzes grammatical structure and word relationships, while semantic analysis focuses on meaning and interpretation",
-                  "es": "El análisis sintáctico analiza estructura gramatical y relaciones entre palabras, mientras el análisis semántico se enfoca en significado e interpretación",
-                  "de": "Syntaktisches Parsing analysiert grammatische Struktur und Wortbeziehungen, während semantische Analyse sich auf Bedeutung und Interpretation konzentriert",
-                  "nl": "Syntactisch parsing analyseert grammaticale structuur en woordrelaties, terwijl semantische analyse zich richt op betekenis en interpretatie"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Syntactic parsing builds hierarchical tree structures showing how words combine grammatically (subjects, objects, phrases), while semantic analysis interprets the actual meaning and conceptual relationships expressed by those structures.",
-                  "es": "El análisis sintáctico construye estructuras de árbol jerárquicas mostrando cómo las palabras se combinan gramaticalmente (sujetos, objetos, frases), mientras el análisis semántico interpreta el significado real y relaciones conceptuales expresadas por esas estructuras.",
-                  "de": "Syntaktisches Parsing baut hierarchische Baumstrukturen auf die zeigen wie Wörter sich grammatisch kombinieren (Subjekte, Objekte, Phrasen), während semantische Analyse die tatsächliche Bedeutung und konzeptuelle Beziehungen interpretiert die von diesen Strukturen ausgedrückt werden.",
-                  "nl": "Syntactisch parsing bouwt hiërarchische boomstructuren die tonen hoe woorden zich grammaticaal combineren (onderwerpen, objecten, zinsdelen), terwijl semantische analyse de werkelijke betekenis en conceptuele relaties interpreteert die door die structuren worden uitgedrukt."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a document-term matrix?",
-                  "es": "¿Qué es una matriz documento-término?",
-                  "de": "Was ist eine Dokument-Term-Matrix?",
-                  "nl": "Wat is een document-term matrix?"
-        },
-        options: [
-        {
-                  "en": "A matrix for storing document metadata",
-                  "es": "Una matriz para almacenar metadatos de documentos",
-                  "de": "Eine Matrix zum Speichern von Dokumentmetadaten",
-                  "nl": "Een matrix voor het opslaan van documentmetadata"
-        },
-        {
-                  "en": "A matrix where rows represent documents, columns represent terms, and cells contain term frequencies or weights",
-                  "es": "Una matriz donde filas representan documentos, columnas representan términos, y celdas contienen frecuencias o pesos de términos",
-                  "de": "Eine Matrix wo Zeilen Dokumente darstellen, Spalten Begriffe darstellen, und Zellen Termfrequenzen oder Gewichte enthalten",
-                  "nl": "Een matrix waarbij rijen documenten voorstellen, kolommen termen voorstellen, en cellen termfrequenties of gewichten bevatten"
-        },
-        {
-                  "en": "A table of contents for documents",
-                  "es": "Una tabla de contenidos para documentos",
-                  "de": "Ein Inhaltsverzeichnis für Dokumente",
-                  "nl": "Een inhoudsopgave voor documenten"
-        },
-        {
-                  "en": "A mathematical formula for documents",
-                  "es": "Una fórmula matemática para documentos",
-                  "de": "Eine mathematische Formel für Dokumente",
-                  "nl": "Een wiskundige formule voor documenten"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "A document-term matrix is a fundamental representation in NLP where each row corresponds to a document, each column to a term in the vocabulary, and values indicate term importance (often TF-IDF weights).",
-                  "es": "Una matriz documento-término es una representación fundamental en PLN donde cada fila corresponde a un documento, cada columna a un término en el vocabulario, y valores indican importancia del término (a menudo pesos TF-IDF).",
-                  "de": "Eine Dokument-Term-Matrix ist eine fundamentale Darstellung in NLP wo jede Zeile einem Dokument entspricht, jede Spalte einem Begriff im Vokabular, und Werte die Begriffsw wichtigkeit anzeigen (oft TF-IDF-Gewichte).",
-                  "nl": "Een document-term matrix is een fundamentele representatie in NLP waarbij elke rij overeenkomt met een document, elke kolom met een term in het vocabulaire, en waarden termbelang aangeven (vaak TF-IDF gewichten)."
-        }
-      },
-      {
-        question: {
-                  "en": "What is embedding dimension and how is it chosen?",
-                  "es": "¿Qué es la dimensión de incrustación y cómo se elige?",
-                  "de": "Was ist Einbettungsdimension und wie wird sie gewählt?",
-                  "nl": "Wat is embedding dimensie en hoe wordt het gekozen?"
-        },
-        options: [
-        {
-                  "en": "The size of the training corpus",
-                  "es": "El tamaño del corpus de entrenamiento",
-                  "de": "Die Größe des Trainingskorpus",
-                  "nl": "De grootte van het trainingscorpus"
-        },
-        {
-                  "en": "The number of words in the vocabulary",
-                  "es": "El número de palabras en el vocabulario",
-                  "de": "Die Anzahl der Wörter im Vokabular",
-                  "nl": "Het aantal woorden in het vocabulaire"
-        },
-        {
-                  "en": "The size of the vector representing each word, typically 50-300, balanced between expressiveness and efficiency",
-                  "es": "El tamaño del vector que representa cada palabra, típicamente 50-300, equilibrado entre expresividad y eficiencia",
-                  "de": "Die Größe des Vektors der jedes Wort darstellt, typischerweise 50-300, ausbalanciert zwischen Ausdruckskraft und Effizienz",
-                  "nl": "De grootte van de vector die elk woord voorstelt, doorgaans 50-300, gebalanceerd tussen expressiviteit en efficiëntie"
-        },
-        {
-                  "en": "The depth of the neural network",
-                  "es": "La profundidad de la red neuronal",
-                  "de": "Die Tiefe des neuronalen Netzwerks",
-                  "nl": "De diepte van het neurale netwerk"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Embedding dimension is the length of the dense vector representing each word. Higher dimensions can capture more nuanced relationships but require more data and computation. Common sizes are 100, 200, or 300 dimensions.",
-                  "es": "La dimensión de incrustación es la longitud del vector denso que representa cada palabra. Dimensiones más altas pueden capturar relaciones más matizadas pero requieren más datos y computación. Tamaños comunes son 100, 200 o 300 dimensiones.",
-                  "de": "Einbettungsdimension ist die Länge des dichten Vektors der jedes Wort darstellt. Höhere Dimensionen können nuanciertere Beziehungen erfassen erfordern aber mehr Daten und Berechnung. Übliche Größen sind 100, 200 oder 300 Dimensionen.",
-                  "nl": "Embedding dimensie is de lengte van de dichte vector die elk woord voorstelt. Hogere dimensies kunnen genuanceerdere relaties vastleggen maar vereisen meer gegevens en berekening. Gebruikelijke groottes zijn 100, 200 of 300 dimensies."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the distributional hypothesis in NLP?",
-                  "es": "¿Qué es la hipótesis distribucional en PLN?",
-                  "de": "Was ist die distributionelle Hypothese in NLP?",
-                  "nl": "Wat is de distributionele hypothese in NLP?"
-        },
-        options: [
-        {
-                  "en": "Words are distributed randomly in text",
-                  "es": "Las palabras se distribuyen aleatoriamente en el texto",
-                  "de": "Wörter sind zufällig im Text verteilt",
-                  "nl": "Woorden zijn willekeurig verdeeld in tekst"
-        },
-        {
-                  "en": "Meaning is distributed across multiple words",
-                  "es": "El significado se distribuye a través de múltiples palabras",
-                  "de": "Bedeutung ist über mehrere Wörter verteilt",
-                  "nl": "Betekenis is verdeeld over meerdere woorden"
-        },
-        {
-                  "en": "Word frequencies follow a normal distribution",
-                  "es": "Las frecuencias de palabras siguen una distribución normal",
-                  "de": "Worthäufigkeiten folgen einer Normalverteilung",
-                  "nl": "Woordfrequenties volgen een normale verdeling"
-        },
-        {
-                  "en": "Words that occur in similar contexts tend to have similar meanings",
-                  "es": "Las palabras que ocurren en contextos similares tienden a tener significados similares",
-                  "de": "Wörter die in ähnlichen Kontexten vorkommen tendieren dazu ähnliche Bedeutungen zu haben",
-                  "nl": "Woorden die in vergelijkbare contexten voorkomen hebben doorgaans vergelijkbare betekenissen"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The distributional hypothesis, often summarized as 'you shall know a word by the company it keeps', is the foundation for word embeddings - words appearing in similar contexts have similar meanings.",
-                  "es": "La hipótesis distribucional, a menudo resumida como 'conocerás una palabra por la compañía que tiene', es la base para incrustaciones de palabras - palabras que aparecen en contextos similares tienen significados similares.",
-                  "de": "Die distributionelle Hypothese, oft zusammengefasst als 'du wirst ein Wort an seiner Begleitung erkennen', ist die Grundlage für Worteinbettungen - Wörter die in ähnlichen Kontexten erscheinen haben ähnliche Bedeutungen.",
-                  "nl": "De distributionele hypothese, vaak samengevat als 'je zult een woord kennen aan het gezelschap dat het houdt', is de basis voor woordinbeddingen - woorden die in vergelijkbare contexten verschijnen hebben vergelijkbare betekenissen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is negative sampling in Word2Vec?",
-                  "es": "¿Qué es el muestreo negativo en Word2Vec?",
-                  "de": "Was ist Negative Sampling in Word2Vec?",
-                  "nl": "Wat is negative sampling in Word2Vec?"
-        },
-        options: [
-        {
-                  "en": "Sampling from negative documents only",
-                  "es": "Muestrear solo de documentos negativos",
-                  "de": "Nur aus negativen Dokumenten sampeln",
-                  "nl": "Alleen uit negatieve documenten samplen"
-        },
-        {
-                  "en": "Removing negative sentiment words",
-                  "es": "Eliminar palabras de sentimiento negativo",
-                  "de": "Negative Sentimentwörter entfernen",
-                  "nl": "Negatieve sentimentwoorden verwijderen"
-        },
-        {
-                  "en": "A method for handling negative numbers",
-                  "es": "Un método para manejar números negativos",
-                  "de": "Eine Methode zum Umgang mit negativen Zahlen",
-                  "nl": "Een methode voor het omgaan met negatieve getallen"
-        },
-        {
-                  "en": "A training technique that randomly samples negative examples to make training more efficient",
-                  "es": "Una técnica de entrenamiento que muestrea aleatoriamente ejemplos negativos para hacer el entrenamiento más eficiente",
-                  "de": "Eine Trainingstechnik die zufällig negative Beispiele sampelt um Training effizienter zu machen",
-                  "nl": "Een trainingstechniek die willekeurig negatieve voorbeelden sampelt om training efficiënter te maken"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Negative sampling is an optimization technique in Word2Vec that samples a small number of 'negative' word pairs (words that don't appear together) instead of updating weights for the entire vocabulary, making training much faster.",
-                  "es": "El muestreo negativo es una técnica de optimización en Word2Vec que muestrea un pequeño número de pares de palabras 'negativos' (palabras que no aparecen juntas) en lugar de actualizar pesos para todo el vocabulario, haciendo el entrenamiento mucho más rápido.",
-                  "de": "Negative Sampling ist eine Optimierungstechnik in Word2Vec die eine kleine Anzahl 'negativer' Wortpaare (Wörter die nicht zusammen erscheinen) sampelt anstatt Gewichte für das gesamte Vokabular zu aktualisieren, macht Training viel schneller.",
-                  "nl": "Negative sampling is een optimalisatietechniek in Word2Vec die een klein aantal 'negatieve' woordparen (woorden die niet samen voorkomen) samplet in plaats van gewichten voor het hele vocabulaire bij te werken, maakt training veel sneller."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Euclidean distance in vector space?",
-                  "es": "¿Qué es la distancia euclidiana en espacio vectorial?",
-                  "de": "Was ist euklidische Distanz im Vektorraum?",
-                  "nl": "Wat is Euclidische afstand in vectorruimte?"
-        },
-        options: [
-        {
-                  "en": "The number of dimensions in the vector",
-                  "es": "El número de dimensiones en el vector",
-                  "de": "Die Anzahl der Dimensionen im Vektor",
-                  "nl": "Het aantal dimensies in de vector"
-        },
-        {
-                  "en": "The angular distance between vectors",
-                  "es": "La distancia angular entre vectores",
-                  "de": "Die Winkeldistanz zwischen Vektoren",
-                  "nl": "De hoekafstand tussen vectoren"
-        },
-        {
-                  "en": "The straight-line distance between two vectors calculated using the Pythagorean theorem",
-                  "es": "La distancia en línea recta entre dos vectores calculada usando el teorema de Pitágoras",
-                  "de": "Die geradlinige Distanz zwischen zwei Vektoren berechnet mit dem Satz des Pythagoras",
-                  "nl": "De rechte-lijn afstand tussen twee vectoren berekend met de stelling van Pythagoras"
-        },
-        {
-                  "en": "The Manhattan distance between points",
-                  "es": "La distancia Manhattan entre puntos",
-                  "de": "Die Manhattan-Distanz zwischen Punkten",
-                  "nl": "De Manhattan afstand tussen punten"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Euclidean distance measures the straight-line distance between two points in vector space, calculated as the square root of the sum of squared differences. While intuitive, cosine similarity is often preferred for text due to its insensitivity to vector magnitude.",
-                  "es": "La distancia euclidiana mide la distancia en línea recta entre dos puntos en espacio vectorial, calculada como la raíz cuadrada de la suma de diferencias al cuadrado. Aunque intuitiva, la similitud de coseno a menudo se prefiere para texto debido a su insensibilidad a la magnitud del vector.",
-                  "de": "Euklidische Distanz misst die geradlinige Distanz zwischen zwei Punkten im Vektorraum, berechnet als Quadratwurzel der Summe quadrierter Differenzen. Obwohl intuitiv wird für Text oft Kosinusähnlichkeit bevorzugt aufgrund ihrer Unempfindlichkeit gegenüber Vektormagnitude.",
-                  "nl": "Euclidische afstand meet de rechte-lijn afstand tussen twee punten in vectorruimte, berekend als de vierkantswortel van de som van gekwadrateerde verschillen. Hoewel intuïtief wordt voor tekst vaak cosinus gelijkenis verkozen vanwege de ongevoeligheid voor vectorgrootte."
-        }
-      },
-      {
-        question: {
-                  "en": "What is contextualized word embedding?",
-                  "es": "¿Qué es la incrustación de palabras contextualizada?",
-                  "de": "Was ist kontextualisierte Worteinbettung?",
-                  "nl": "Wat is gecontextualiseerde woordinbedding?"
-        },
-        options: [
-        {
-                  "en": "Embeddings that only work in specific contexts",
-                  "es": "Incrustaciones que solo funcionan en contextos específicos",
-                  "de": "Einbettungen die nur in spezifischen Kontexten funktionieren",
-                  "nl": "Embeddings die alleen in specifieke contexten werken"
-        },
-        {
-                  "en": "Embeddings trained on contextual data only",
-                  "es": "Incrustaciones entrenadas solo en datos contextuales",
-                  "de": "Einbettungen nur auf kontextuellen Daten trainiert",
-                  "nl": "Embeddings alleen getraind op contextuele data"
-        },
-        {
-                  "en": "Static embeddings with context information added",
-                  "es": "Incrustaciones estáticas con información de contexto agregada",
-                  "de": "Statische Einbettungen mit hinzugefügter Kontextinformation",
-                  "nl": "Statische embeddings met toegevoegde contextinformatie"
-        },
-        {
-                  "en": "Embeddings that change based on the surrounding context, like those from BERT or ELMo",
-                  "es": "Incrustaciones que cambian según el contexto circundante, como las de BERT o ELMo",
-                  "de": "Einbettungen die sich basierend auf dem umgebenden Kontext ändern, wie die von BERT oder ELMo",
-                  "nl": "Embeddings die veranderen op basis van de omringende context, zoals die van BERT of ELMo"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Contextualized embeddings generate different vector representations for the same word based on its context, solving the polysemy problem. For example, 'bank' in 'river bank' vs 'savings bank' gets different embeddings.",
-                  "es": "Las incrustaciones contextualizadas generan diferentes representaciones vectoriales para la misma palabra basándose en su contexto, resolviendo el problema de polisemia. Por ejemplo, 'banco' en 'banco de río' vs 'banco de ahorros' obtiene diferentes incrustaciones.",
-                  "de": "Kontextualisierte Einbettungen generieren verschiedene Vektordarstellungen für dasselbe Wort basierend auf seinem Kontext, lösen das Polysemieproblem. Zum Beispiel bekommt 'Bank' in 'Flussufer' vs 'Sparkasse' verschiedene Einbettungen.",
-                  "nl": "Gecontextualiseerde embeddings genereren verschillende vectorrepresentaties voor hetzelfde woord op basis van zijn context, lossen het polysemieprobleem op. Bijvoorbeeld, 'bank' in 'rivieroever' vs 'spaarbank' krijgt verschillende embeddings."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the vocabulary size problem in NLP?",
-                  "es": "¿Qué es el problema del tamaño del vocabulario en PLN?",
-                  "de": "Was ist das Vokabulargrößenproblem in NLP?",
-                  "nl": "Wat is het vocabulairegrootte probleem in NLP?"
-        },
-        options: [
-        {
-                  "en": "Memory limitations for storing vocabularies",
-                  "es": "Limitaciones de memoria para almacenar vocabularios",
-                  "de": "Speicherbeschränkungen für Speicherung von Vokabularen",
-                  "nl": "Geheugenbeperkingen voor het opslaan van vocabulaires"
-        },
-        {
-                  "en": "Vocabulary becomes too small to represent all concepts",
-                  "es": "El vocabulario se vuelve demasiado pequeño para representar todos los conceptos",
-                  "de": "Vokabular wird zu klein um alle Konzepte darzustellen",
-                  "nl": "Vocabulaire wordt te klein om alle concepten voor te stellen"
-        },
-        {
-                  "en": "Determining the optimal vocabulary size",
-                  "es": "Determinar el tamaño óptimo del vocabulario",
-                  "de": "Die optimale Vokabulargröße bestimmen",
-                  "nl": "De optimale vocabulairegrootte bepalen"
-        },
-        {
-                  "en": "Large vocabularies create high-dimensional sparse representations and out-of-vocabulary issues",
-                  "es": "Vocabularios grandes crean representaciones dispersas de alta dimensión y problemas fuera del vocabulario",
-                  "de": "Große Vokabulare erstellen hochdimensionale spärliche Darstellungen und Out-of-Vocabulary-Probleme",
-                  "nl": "Grote vocabulaires creëren hoogdimensionale schaarse representaties en out-of-vocabulary problemen"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Large vocabularies lead to very high-dimensional sparse vectors and the challenge of handling words not seen during training (OOV). Solutions include subword tokenization, character-level models, and vocabulary pruning.",
-                  "es": "Vocabularios grandes llevan a vectores dispersos de muy alta dimensión y el desafío de manejar palabras no vistas durante el entrenamiento (OOV). Las soluciones incluyen tokenización de subpalabras, modelos a nivel de caracteres y poda de vocabulario.",
-                  "de": "Große Vokabulare führen zu sehr hochdimensionalen spärlichen Vektoren und der Herausforderung Wörter zu handhaben die während des Trainings nicht gesehen wurden (OOV). Lösungen umfassen Subwort-Tokenisierung, Modelle auf Zeichenebene und Vokabularbeschneidung.",
-                  "nl": "Grote vocabulaires leiden tot zeer hoogdimensionale schaarse vectoren en de uitdaging van het behandelen van woorden die niet gezien zijn tijdens training (OOV). Oplossingen omvatten subwoord tokenisatie, karakter-niveau modellen en vocabulaire pruning."
-        }
-      },
-      {
-        question: {
-                  "en": "What is semantic vector space?",
-                  "es": "¿Qué es el espacio vectorial semántico?",
-                  "de": "Was ist semantischer Vektorraum?",
-                  "nl": "Wat is semantische vectorruimte?"
-        },
-        options: [
-        {
-                  "en": "A database for storing word meanings",
-                  "es": "Una base de datos para almacenar significados de palabras",
-                  "de": "Eine Datenbank zum Speichern von Wortbedeutungen",
-                  "nl": "Een database voor het opslaan van woordbetekenissen"
-        },
-        {
-                  "en": "A visualization tool for text",
-                  "es": "Una herramienta de visualización para texto",
-                  "de": "Ein Visualisierungswerkzeug für Text",
-                  "nl": "Een visualisatietool voor tekst"
-        },
-        {
-                  "en": "A grammar checking system",
-                  "es": "Un sistema de revisión gramatical",
-                  "de": "Ein Grammatikprüfungssystem",
-                  "nl": "Een grammatica-controlesysteem"
-        },
-        {
-                  "en": "A multi-dimensional space where words with similar meanings are positioned close together",
-                  "es": "Un espacio multidimensional donde palabras con significados similares se posicionan cerca unas de otras",
-                  "de": "Ein mehrdimensionaler Raum wo Wörter mit ähnlichen Bedeutungen nahe beieinander positioniert sind",
-                  "nl": "Een multidimensionale ruimte waarin woorden met vergelijkbare betekenissen dicht bij elkaar gepositioneerd zijn"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Semantic vector space represents words as points in a high-dimensional space where geometric relationships (distance, direction) correspond to semantic relationships (similarity, analogy). This enables operations like 'king - man + woman ≈ queen'.",
-                  "es": "El espacio vectorial semántico representa palabras como puntos en un espacio de alta dimensión donde relaciones geométricas (distancia, dirección) corresponden a relaciones semánticas (similitud, analogía). Esto permite operaciones como 'rey - hombre + mujer ≈ reina'.",
-                  "de": "Semantischer Vektorraum repräsentiert Wörter als Punkte in einem hochdimensionalen Raum wo geometrische Beziehungen (Distanz, Richtung) semantischen Beziehungen (Ähnlichkeit, Analogie) entsprechen. Dies ermöglicht Operationen wie 'König - Mann + Frau ≈ Königin'.",
-                  "nl": "Semantische vectorruimte representeert woorden als punten in een hoogdimensionale ruimte waarbij geometrische relaties (afstand, richting) overeenkomen met semantische relaties (gelijkenis, analogie). Dit maakt operaties mogelijk zoals 'koning - man + vrouw ≈ koningin'."
-        }
-      },
-      {
-        question: {
-                  "en": "What is BPE (Byte Pair Encoding) tokenization?",
-                  "es": "¿Qué es la tokenización BPE (Codificación de Pares de Bytes)?",
-                  "de": "Was ist BPE (Byte Pair Encoding) Tokenisierung?",
-                  "nl": "Wat is BPE (Byte Pair Encoding) tokenisatie?"
-        },
-        options: [
-        {
-                  "en": "A method for encoding binary data",
-                  "es": "Un método para codificar datos binarios",
-                  "de": "Eine Methode zur Kodierung binärer Daten",
-                  "nl": "Een methode voor het coderen van binaire data"
-        },
-        {
-                  "en": "A tokenizer that splits on byte boundaries",
-                  "es": "Un tokenizador que divide en límites de bytes",
-                  "de": "Ein Tokenisierer der an Bytegrenzen trennt",
-                  "nl": "Een tokenizer die splitst op bytegrenzen"
-        },
-        {
-                  "en": "A compression algorithm for text files",
-                  "es": "Un algoritmo de compresión para archivos de texto",
-                  "de": "Ein Kompressionsalgorithmus für Textdateien",
-                  "nl": "Een compressie-algoritme voor tekstbestanden"
-        },
-        {
-                  "en": "An iterative algorithm that merges the most frequent character pairs to create subword units",
-                  "es": "Un algoritmo iterativo que fusiona los pares de caracteres más frecuentes para crear unidades de subpalabras",
-                  "de": "Ein iterativer Algorithmus der die häufigsten Zeichenpaare zusammenführt um Subwort-Einheiten zu erstellen",
-                  "nl": "Een iteratief algoritme dat de meest frequente karakterparen samenvoegt om subwoord-eenheden te creëren"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "BPE starts with characters and iteratively merges the most frequent pairs to build a vocabulary of subword units. This balances vocabulary size with the ability to represent rare words and handles OOV gracefully.",
-                  "es": "BPE comienza con caracteres e iterativamente fusiona los pares más frecuentes para construir un vocabulario de unidades de subpalabras. Esto equilibra el tamaño del vocabulario con la capacidad de representar palabras raras y maneja OOV elegantemente.",
-                  "de": "BPE beginnt mit Zeichen und führt iterativ die häufigsten Paare zusammen um ein Vokabular von Subwort-Einheiten aufzubauen. Dies balanciert Vokabulargröße mit der Fähigkeit seltene Wörter darzustellen und behandelt OOV elegant.",
-                  "nl": "BPE begint met karakters en voegt iteratief de meest frequente paren samen om een vocabulaire van subwoord-eenheden op te bouwen. Dit balanceert vocabulairegrootte met het vermogen om zeldzame woorden voor te stellen en behandelt OOV elegant."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the vector analogy task in word embeddings?",
-                  "es": "¿Qué es la tarea de analogía vectorial en incrustaciones de palabras?",
-                  "de": "Was ist die Vektoranalogie-Aufgabe in Worteinbettungen?",
-                  "nl": "Wat is de vectoranalogie-taak in woordinbeddingen?"
-        },
-        options: [
-        {
-                  "en": "Finding analogies in text documents",
-                  "es": "Encontrar analogías en documentos de texto",
-                  "de": "Analogien in Textdokumenten finden",
-                  "nl": "Analogieën vinden in tekstdocumenten"
-        },
-        {
-                  "en": "Finding semantic relationships through vector arithmetic like 'king - man + woman = queen'",
-                  "es": "Encontrar relaciones semánticas a través de aritmética vectorial como 'rey - hombre + mujer = reina'",
-                  "de": "Semantische Beziehungen durch Vektorarithmetik finden wie 'König - Mann + Frau = Königin'",
-                  "nl": "Semantische relaties vinden door vectorrekenkunde zoals 'koning - man + vrouw = koningin'"
-        },
-        {
-                  "en": "Creating vector representations for analogies",
-                  "es": "Crear representaciones vectoriales para analogías",
-                  "de": "Vektordarstellungen für Analogien erstellen",
-                  "nl": "Vectorrepresentaties maken voor analogieën"
-        },
-        {
-                  "en": "Comparing word vectors for similarity",
-                  "es": "Comparar vectores de palabras por similitud",
-                  "de": "Wortvektoren auf Ähnlichkeit vergleichen",
-                  "nl": "Woordvectoren vergelijken op gelijkenis"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Vector analogy tasks test whether embeddings capture semantic relationships by performing vector arithmetic. Classic examples include 'Paris - France + Italy ≈ Rome' and 'swimming - swim + run ≈ running'.",
-                  "es": "Las tareas de analogía vectorial prueban si las incrustaciones capturan relaciones semánticas realizando aritmética vectorial. Ejemplos clásicos incluyen 'París - Francia + Italia ≈ Roma' y 'nadando - nadar + correr ≈ corriendo'.",
-                  "de": "Vektoranalogie-Aufgaben testen ob Einbettungen semantische Beziehungen erfassen durch Durchführung von Vektorarithmetik. Klassische Beispiele umfassen 'Paris - Frankreich + Italien ≈ Rom' und 'schwimmend - schwimmen + laufen ≈ laufend'.",
-                  "nl": "Vectoranalogie-taken testen of embeddings semantische relaties vastleggen door vectorrekenkunde uit te voeren. Klassieke voorbeelden zijn 'Parijs - Frankrijk + Italië ≈ Rome' en 'zwemmend - zwemmen + rennen ≈ rennend'."
-        }
-      },
-      {
-        question: {
-                  "en": "What is WordPiece tokenization?",
-                  "es": "¿Qué es la tokenización WordPiece?",
-                  "de": "Was ist WordPiece-Tokenisierung?",
-                  "nl": "Wat is WordPiece-tokenisatie?"
-        },
-        options: [
-        {
-                  "en": "Tokenizing only the beginning of words",
-                  "es": "Tokenizar solo el comienzo de las palabras",
-                  "de": "Nur den Anfang von Wörtern tokenisieren",
-                  "nl": "Alleen het begin van woorden tokeniseren"
-        },
-        {
-                  "en": "A word counting algorithm",
-                  "es": "Un algoritmo de conteo de palabras",
-                  "de": "Ein Wortzählalgorithmus",
-                  "nl": "Een woordtelalgoritme"
-        },
-        {
-                  "en": "A subword tokenization method that splits words into frequently occurring subword pieces",
-                  "es": "Un método de tokenización de subpalabras que divide palabras en piezas de subpalabras que ocurren frecuentemente",
-                  "de": "Eine Subwort-Tokenisierungsmethode die Wörter in häufig vorkommende Subwort-Stücke aufteilt",
-                  "nl": "Een subwoord-tokenisatiemethode die woorden splitst in frequent voorkomende subwoord-stukken"
-        },
-        {
-                  "en": "Breaking words into equal-sized pieces",
-                  "es": "Dividir palabras en piezas de tamaño igual",
-                  "de": "Wörter in gleichgroße Stücke aufteilen",
-                  "nl": "Woorden opdelen in gelijk grote stukken"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "WordPiece is used by BERT and similar models. It builds subword vocabulary by choosing pieces that maximize likelihood of training data, using ## prefix for non-initial subwords (e.g., 'playing' → 'play' + '##ing').",
-                  "es": "WordPiece es usado por BERT y modelos similares. Construye vocabulario de subpalabras eligiendo piezas que maximizan la probabilidad de datos de entrenamiento, usando prefijo ## para subpalabras no iniciales (ej., 'playing' → 'play' + '##ing').",
-                  "de": "WordPiece wird von BERT und ähnlichen Modellen verwendet. Es baut Subwort-Vokabular durch Auswahl von Stücken die Wahrscheinlichkeit von Trainingsdaten maximieren, verwendet ## Präfix für nicht-initiale Subwörter (z.B. 'playing' → 'play' + '##ing').",
-                  "nl": "WordPiece wordt gebruikt door BERT en vergelijkbare modellen. Het bouwt subwoord-vocabulaire door stukken te kiezen die waarschijnlijkheid van trainingsdata maximaliseren, gebruikt ## prefix voor niet-initiële subwoorden (bijv. 'playing' → 'play' + '##ing')."
-        }
-      },
-      {
-        question: {
-                  "en": "What is SentencePiece?",
-                  "es": "¿Qué es SentencePiece?",
-                  "de": "Was ist SentencePiece?",
-                  "nl": "Wat is SentencePiece?"
-        },
-        options: [
-        {
-                  "en": "A sentence splitter for multiple languages",
-                  "es": "Un divisor de oraciones para múltiples idiomas",
-                  "de": "Ein Satztrenner für mehrere Sprachen",
-                  "nl": "Een zinssplitser voor meerdere talen"
-        },
-        {
-                  "en": "A language-independent tokenizer that treats text as raw character sequences",
-                  "es": "Un tokenizador independiente del idioma que trata el texto como secuencias de caracteres sin procesar",
-                  "de": "Ein sprachunabhängiger Tokenisierer der Text als rohe Zeichensequenzen behandelt",
-                  "nl": "Een taalonafhankelijke tokenizer die tekst behandelt als ruwe karakterreeksen"
-        },
-        {
-                  "en": "A sentence completion algorithm",
-                  "es": "Un algoritmo de completación de oraciones",
-                  "de": "Ein Satzvervollständigungsalgorithmus",
-                  "nl": "Een zinsvoltooiingsalgoritme"
-        },
-        {
-                  "en": "A tool for extracting sentence fragments",
-                  "es": "Una herramienta para extraer fragmentos de oraciones",
-                  "de": "Ein Werkzeug zum Extrahieren von Satzfragmenten",
-                  "nl": "Een tool voor het extraheren van zinfragmenten"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "SentencePiece treats input as raw character streams without pre-tokenization, making it fully language-agnostic. It's used in models like T5 and supports both BPE and unigram tokenization algorithms.",
-                  "es": "SentencePiece trata la entrada como flujos de caracteres sin procesar sin pre-tokenización, haciéndolo completamente independiente del idioma. Se usa en modelos como T5 y soporta algoritmos de tokenización tanto BPE como unigrama.",
-                  "de": "SentencePiece behandelt Eingabe als rohe Zeichenströme ohne Vor-Tokenisierung, macht es vollständig sprachagnostisch. Es wird in Modellen wie T5 verwendet und unterstützt sowohl BPE- als auch Unigramm-Tokenisierungsalgorithmen.",
-                  "nl": "SentencePiece behandelt input als ruwe karakterstromen zonder pre-tokenisatie, waardoor het volledig taalonafhankelijk is. Het wordt gebruikt in modellen zoals T5 en ondersteunt zowel BPE- als unigram-tokenisatiealgoritmes."
-        }
-      },
-      {
-        question: {
-                  "en": "What is dependency parsing?",
-                  "es": "¿Qué es el análisis de dependencias?",
-                  "de": "Was ist Dependenzparsing?",
-                  "nl": "Wat is dependency parsing?"
-        },
-        options: [
-        {
-                  "en": "Analyzing grammatical relationships between words to form a dependency tree",
-                  "es": "Analizar relaciones gramaticales entre palabras para formar un árbol de dependencias",
-                  "de": "Grammatische Beziehungen zwischen Wörtern analysieren um einen Dependenzbaum zu bilden",
-                  "nl": "Grammaticale relaties tussen woorden analyseren om een dependentieboom te vormen"
-        },
-        {
-                  "en": "Finding which libraries a program depends on",
-                  "es": "Encontrar de qué bibliotecas depende un programa",
-                  "de": "Herausfinden von welchen Bibliotheken ein Programm abhängt",
-                  "nl": "Vinden van welke bibliotheken een programma afhankelijk is"
-        },
-        {
-                  "en": "Checking text dependencies in documents",
-                  "es": "Verificar dependencias de texto en documentos",
-                  "de": "Textabhängigkeiten in Dokumenten prüfen",
-                  "nl": "Tekstafhankelijkheden in documenten controleren"
-        },
-        {
-                  "en": "Parsing only dependent clauses",
-                  "es": "Analizar solo cláusulas dependientes",
-                  "de": "Nur abhängige Sätze parsen",
-                  "nl": "Alleen afhankelijke bijzinnen parsen"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Dependency parsing creates a tree structure showing how words depend on each other grammatically. For example, in 'The cat chased the mouse', 'chased' is the root, 'cat' depends on 'chased' as subject, and 'mouse' depends as object.",
-                  "es": "El análisis de dependencias crea una estructura de árbol mostrando cómo las palabras dependen gramaticalmente unas de otras. Por ejemplo, en 'El gato persiguió el ratón', 'persiguió' es la raíz, 'gato' depende de 'persiguió' como sujeto, y 'ratón' depende como objeto.",
-                  "de": "Dependenzparsing erstellt eine Baumstruktur die zeigt wie Wörter grammatisch voneinander abhängen. Zum Beispiel in 'Die Katze jagte die Maus' ist 'jagte' die Wurzel, 'Katze' hängt von 'jagte' als Subjekt ab, und 'Maus' hängt als Objekt ab.",
-                  "nl": "Dependency parsing creëert een boomstructuur die laat zien hoe woorden grammaticaal van elkaar afhangen. Bijvoorbeeld in 'De kat achtervolgde de muis' is 'achtervolgde' de wortel, 'kat' hangt af van 'achtervolgde' als onderwerp, en 'muis' hangt af als voorwerp."
-        }
-      },
-      {
-        question: {
-                  "en": "What is constituency parsing?",
-                  "es": "¿Qué es el análisis de constituyentes?",
-                  "de": "Was ist Konstituentenparsing?",
-                  "nl": "Wat is constituency parsing?"
-        },
-        options: [
-        {
-                  "en": "Identifying sentence constituents only",
-                  "es": "Identificar solo constituyentes de oraciones",
-                  "de": "Nur Satzkonstituenten identifizieren",
-                  "nl": "Alleen zinsconstituenten identificeren"
-        },
-        {
-                  "en": "Parsing based on word frequency",
-                  "es": "Analizar basado en frecuencia de palabras",
-                  "de": "Parsen basierend auf Worthäufigkeit",
-                  "nl": "Parsen gebaseerd op woordfrequentie"
-        },
-        {
-                  "en": "Breaking sentences into nested phrase structures like noun phrases and verb phrases",
-                  "es": "Dividir oraciones en estructuras de frases anidadas como frases nominales y frases verbales",
-                  "de": "Sätze in verschachtelte Phrasenstrukturen wie Nominalphrasen und Verbalphrasen aufteilen",
-                  "nl": "Zinnen opdelen in geneste zinsdeel-structuren zoals zelfstandig naamwoord groepen en werkwoordgroepen"
-        },
-        {
-                  "en": "Parsing text from political constituencies",
-                  "es": "Analizar texto de circunscripciones políticas",
-                  "de": "Text aus politischen Wahlkreisen parsen",
-                  "nl": "Tekst uit politieke kiesdistricten parsen"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Constituency parsing creates a hierarchical tree showing phrase structures. For example, 'The quick fox' forms a noun phrase (NP), with 'The' and 'quick' as constituents modifying 'fox'.",
-                  "es": "El análisis de constituyentes crea un árbol jerárquico mostrando estructuras de frases. Por ejemplo, 'El zorro rápido' forma una frase nominal (FN), con 'El' y 'rápido' como constituyentes modificando 'zorro'.",
-                  "de": "Konstituentenparsing erstellt einen hierarchischen Baum der Phrasenstrukturen zeigt. Zum Beispiel bildet 'Der schnelle Fuchs' eine Nominalphrase (NP), mit 'Der' und 'schnelle' als Konstituenten die 'Fuchs' modifizieren.",
-                  "nl": "Constituency parsing creëert een hiërarchische boom die zinsdeel-structuren toont. Bijvoorbeeld 'De snelle vos' vormt een zelfstandig naamwoordgroep (NP), met 'De' en 'snelle' als constituenten die 'vos' modificeren."
-        }
-      },
-      {
-        question: {
-                  "en": "What is coreference resolution?",
-                  "es": "¿Qué es la resolución de correferencia?",
-                  "de": "Was ist Koreferenzauflösung?",
-                  "nl": "Wat is coreferentieresolutie?"
-        },
-        options: [
-        {
-                  "en": "Resolving conflicts between references",
-                  "es": "Resolver conflictos entre referencias",
-                  "de": "Konflikte zwischen Referenzen lösen",
-                  "nl": "Conflicten tussen referenties oplossen"
-        },
-        {
-                  "en": "Finding core references in documents",
-                  "es": "Encontrar referencias centrales en documentos",
-                  "de": "Kernreferenzen in Dokumenten finden",
-                  "nl": "Kernreferenties in documenten vinden"
-        },
-        {
-                  "en": "Identifying which words or phrases refer to the same entity in text",
-                  "es": "Identificar qué palabras o frases se refieren a la misma entidad en el texto",
-                  "de": "Identifizieren welche Wörter oder Phrasen sich auf dieselbe Entität im Text beziehen",
-                  "nl": "Identificeren welke woorden of zinsdelen verwijzen naar dezelfde entiteit in tekst"
-        },
-        {
-                  "en": "Checking reference consistency",
-                  "es": "Verificar consistencia de referencias",
-                  "de": "Referenzkonsistenz prüfen",
-                  "nl": "Referentieconsistentie controleren"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Coreference resolution links pronouns and noun phrases to their antecedents. For example, in 'Mary went to the store. She bought milk.', the system identifies that 'She' refers to 'Mary'.",
-                  "es": "La resolución de correferencia vincula pronombres y frases nominales a sus antecedentes. Por ejemplo, en 'María fue a la tienda. Ella compró leche.', el sistema identifica que 'Ella' se refiere a 'María'.",
-                  "de": "Koreferenzauflösung verknüpft Pronomen und Nominalphrasen mit ihren Antezedenten. Zum Beispiel in 'Maria ging zum Laden. Sie kaufte Milch.', identifiziert das System dass 'Sie' sich auf 'Maria' bezieht.",
-                  "nl": "Coreferentieresolutie koppelt voornaamwoorden en zelfstandig naamwoordgroepen aan hun antecedenten. Bijvoorbeeld in 'Maria ging naar de winkel. Zij kocht melk.', identificeert het systeem dat 'Zij' verwijst naar 'Maria'."
-        }
-      },
-      {
-        question: {
-                  "en": "What is anaphora resolution?",
-                  "es": "¿Qué es la resolución de anáfora?",
-                  "de": "Was ist Anapherauflösung?",
-                  "nl": "Wat is anafora-resolutie?"
-        },
-        options: [
-        {
-                  "en": "Identifying what a pronoun or referring expression points back to in text",
-                  "es": "Identificar a qué señala un pronombre o expresión referencial en el texto",
-                  "de": "Identifizieren worauf ein Pronomen oder verweisender Ausdruck im Text zurückverweist",
-                  "nl": "Identificeren waarnaar een voornaamwoord of verwijzende uitdrukking terug wijst in tekst"
-        },
-        {
-                  "en": "Resolving metaphors in text",
-                  "es": "Resolver metáforas en texto",
-                  "de": "Metaphern in Text auflösen",
-                  "nl": "Metaforen in tekst oplossen"
-        },
-        {
-                  "en": "Analyzing sentence beginnings",
-                  "es": "Analizar comienzos de oraciones",
-                  "de": "Satzanfänge analysieren",
-                  "nl": "Zinsbeginngen analyseren"
-        },
-        {
-                  "en": "Finding repeated phrases",
-                  "es": "Encontrar frases repetidas",
-                  "de": "Wiederholte Phrasen finden",
-                  "nl": "Herhaalde zinsdelen vinden"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Anaphora resolution is a specific type of coreference resolution focusing on backward-looking references. For example, in 'John loves his dog', 'his' is an anaphor referring back to 'John'.",
-                  "es": "La resolución de anáfora es un tipo específico de resolución de correferencia enfocándose en referencias hacia atrás. Por ejemplo, en 'Juan ama a su perro', 'su' es una anáfora refiriéndose a 'Juan'.",
-                  "de": "Anapherauflösung ist eine spezifische Art der Koreferenzauflösung die sich auf rückwärtsgerichtete Referenzen konzentriert. Zum Beispiel in 'Johannes liebt seinen Hund' ist 'seinen' eine Anapher die sich auf 'Johannes' bezieht.",
-                  "nl": "Anafora-resolutie is een specifiek type coreferentieresolutie dat zich richt op achterwaarts verwijzende referenties. Bijvoorbeeld in 'Jan houdt van zijn hond' is 'zijn' een anafoor die terugverwijst naar 'Jan'."
-        }
-      },
-      {
-        question: {
-                  "en": "What is semantic role labeling (SRL)?",
-                  "es": "¿Qué es el etiquetado de roles semánticos (SRL)?",
-                  "de": "Was ist semantisches Rollenlabeling (SRL)?",
-                  "nl": "Wat is semantische rol-labeling (SRL)?"
-        },
-        options: [
-        {
-                  "en": "Labeling words by semantic category only",
-                  "es": "Etiquetar palabras solo por categoría semántica",
-                  "de": "Wörter nur nach semantischer Kategorie beschriften",
-                  "nl": "Woorden alleen labelen per semantische categorie"
-        },
-        {
-                  "en": "Creating semantic networks",
-                  "es": "Crear redes semánticas",
-                  "de": "Semantische Netzwerke erstellen",
-                  "nl": "Semantische netwerken creëren"
-        },
-        {
-                  "en": "Assigning roles to database tables",
-                  "es": "Asignar roles a tablas de base de datos",
-                  "de": "Datenbanktabellen Rollen zuweisen",
-                  "nl": "Rollen toewijzen aan databasetabellen"
-        },
-        {
-                  "en": "Identifying who did what to whom, when, where, and why in sentences",
-                  "es": "Identificar quién hizo qué a quién, cuándo, dónde y por qué en oraciones",
-                  "de": "Identifizieren wer was wem wann wo und warum in Sätzen getan hat",
-                  "nl": "Identificeren wie wat met wie deed, wanneer, waar en waarom in zinnen"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "SRL identifies semantic roles like Agent (who), Patient (what/whom), Location (where), Time (when). For example, in 'John ate pizza yesterday', John=Agent, pizza=Patient, yesterday=Time.",
-                  "es": "SRL identifica roles semánticos como Agente (quién), Paciente (qué/quién), Ubicación (dónde), Tiempo (cuándo). Por ejemplo, en 'Juan comió pizza ayer', Juan=Agente, pizza=Paciente, ayer=Tiempo.",
-                  "de": "SRL identifiziert semantische Rollen wie Agens (wer), Patiens (was/wen), Ort (wo), Zeit (wann). Zum Beispiel in 'Johannes aß Pizza gestern', Johannes=Agens, Pizza=Patiens, gestern=Zeit.",
-                  "nl": "SRL identificeert semantische rollen zoals Agens (wie), Patiens (wat/wie), Locatie (waar), Tijd (wanneer). Bijvoorbeeld in 'Jan at pizza gisteren', Jan=Agens, pizza=Patiens, gisteren=Tijd."
-        }
-      },
-      {
-        question: {
-                  "en": "What is information extraction in NLP?",
-                  "es": "¿Qué es la extracción de información en PLN?",
-                  "de": "Was ist Informationsextraktion in NLP?",
-                  "nl": "Wat is informatie-extractie in NLP?"
-        },
-        options: [
-        {
-                  "en": "Extracting files from archives",
-                  "es": "Extraer archivos de archivos comprimidos",
-                  "de": "Dateien aus Archiven extrahieren",
-                  "nl": "Bestanden uit archieven extraheren"
-        },
-        {
-                  "en": "Getting information from databases",
-                  "es": "Obtener información de bases de datos",
-                  "de": "Informationen aus Datenbanken abrufen",
-                  "nl": "Informatie ophalen uit databases"
-        },
-        {
-                  "en": "Removing information from text",
-                  "es": "Eliminar información del texto",
-                  "de": "Informationen aus Text entfernen",
-                  "nl": "Informatie uit tekst verwijderen"
-        },
-        {
-                  "en": "Automatically extracting structured information from unstructured text",
-                  "es": "Extraer automáticamente información estructurada de texto no estructurado",
-                  "de": "Automatisch strukturierte Informationen aus unstrukturiertem Text extrahieren",
-                  "nl": "Automatisch gestructureerde informatie extraheren uit ongestructureerde tekst"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Information extraction identifies and extracts specific pieces of information like entities, relationships, and events from unstructured text to populate structured databases or knowledge bases.",
-                  "es": "La extracción de información identifica y extrae piezas específicas de información como entidades, relaciones y eventos de texto no estructurado para poblar bases de datos estructuradas o bases de conocimiento.",
-                  "de": "Informationsextraktion identifiziert und extrahiert spezifische Informationsteile wie Entitäten, Beziehungen und Ereignisse aus unstrukturiertem Text um strukturierte Datenbanken oder Wissensbasen zu befüllen.",
-                  "nl": "Informatie-extractie identificeert en extraheert specifieke stukjes informatie zoals entiteiten, relaties en gebeurtenissen uit ongestructureerde tekst om gestructureerde databases of kennisbanken te vullen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is relation extraction?",
-                  "es": "¿Qué es la extracción de relaciones?",
-                  "de": "Was ist Relationsextraktion?",
-                  "nl": "Wat is relatie-extractie?"
-        },
-        options: [
-        {
-                  "en": "Extracting mathematical relations from formulas",
-                  "es": "Extraer relaciones matemáticas de fórmulas",
-                  "de": "Mathematische Beziehungen aus Formeln extrahieren",
-                  "nl": "Wiskundige relaties uit formules extraheren"
-        },
-        {
-                  "en": "Removing relationships from databases",
-                  "es": "Eliminar relaciones de bases de datos",
-                  "de": "Beziehungen aus Datenbanken entfernen",
-                  "nl": "Relaties uit databases verwijderen"
-        },
-        {
-                  "en": "Identifying and classifying semantic relationships between entities in text",
-                  "es": "Identificar y clasificar relaciones semánticas entre entidades en texto",
-                  "de": "Semantische Beziehungen zwischen Entitäten im Text identifizieren und klassifizieren",
-                  "nl": "Semantische relaties tussen entiteiten in tekst identificeren en classificeren"
-        },
-        {
-                  "en": "Finding family relationships in genealogy",
-                  "es": "Encontrar relaciones familiares en genealogía",
-                  "de": "Familienbeziehungen in Genealogie finden",
-                  "nl": "Familierelaties vinden in genealogie"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Relation extraction identifies relationships between entities, such as 'Apple acquired Siri in 2010' extracting the relationship (acquired, Apple, Siri, 2010). This builds knowledge graphs and fact databases.",
-                  "es": "La extracción de relaciones identifica relaciones entre entidades, como 'Apple adquirió Siri en 2010' extrayendo la relación (adquirió, Apple, Siri, 2010). Esto construye grafos de conocimiento y bases de datos de hechos.",
-                  "de": "Relationsextraktion identifiziert Beziehungen zwischen Entitäten, wie 'Apple kaufte Siri 2010' extrahiert die Beziehung (kaufte, Apple, Siri, 2010). Dies baut Wissensgraphen und Faktendatenbanken auf.",
-                  "nl": "Relatie-extractie identificeert relaties tussen entiteiten, zoals 'Apple verwierf Siri in 2010' extraheert de relatie (verwierf, Apple, Siri, 2010). Dit bouwt kennisgrafen en feitendatabases op."
-        }
-      },
-      {
-        question: {
-                  "en": "What is strategy in games?",
-                  "es": "What is strategy in games?",
-                  "de": "What is strategy in games?",
-                  "nl": "What is strategy in games?"
-        },
-        options: [
-        {
-                  "en": "Random moves",
-                  "es": "Random moves",
-                  "de": "Random moves",
-                  "nl": "Random moves"
-        },
-        {
-                  "en": "Planning to achieve objectives",
-                  "es": "Planning to achieve objectives",
-                  "de": "Planning to achieve objectives",
-                  "nl": "Planning to achieve objectives"
-        },
-        {
-                  "en": "Luck only",
-                  "es": "Luck only",
-                  "de": "Luck only",
-                  "nl": "Luck only"
-        },
-        {
-                  "en": "No planning",
-                  "es": "No planning",
-                  "de": "No planning",
-                  "nl": "No planning"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Strategy involves planning and decision-making to achieve game objectives.",
-                  "es": "Strategy involves planning and decision-making to achieve game objectives.",
-                  "de": "Strategy involves planning and decision-making to achieve game objectives.",
-                  "nl": "Strategy involves planning and decision-making to achieve game objectives."
-        }
+        "en": "Option D for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option D für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - basic facts aspect"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level3;
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's basic facts is verified and educational (Level 3, Q1).",
+      "es": "Este hecho sobre basic facts de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P1).",
+      "de": "Diese Tatsache über basic facts von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F1).",
+      "nl": "Dit feit over basic facts van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V1)."
+    }
+  },
+  {
+    "question": {
+      "en": "When did Natuurlijke taalverwerking regarding basic facts? (Q2)",
+      "es": "When did Natuurlijke taalverwerking con respecto a basic facts? (P2)",
+      "de": "When did Natuurlijke taalverwerking in Bezug auf basic facts? (F2)",
+      "nl": "When did Natuurlijke taalverwerking met betrekking tot basic facts? (V2)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option A für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - basic facts aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option B für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - basic facts aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option C für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - basic facts aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option D für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - basic facts aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's basic facts is verified and educational (Level 3, Q2).",
+      "es": "Este hecho sobre basic facts de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P2).",
+      "de": "Diese Tatsache über basic facts von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F2).",
+      "nl": "Dit feit over basic facts van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V2)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where is Natuurlijke taalverwerking regarding basic facts? (Q3)",
+      "es": "Where is Natuurlijke taalverwerking con respecto a basic facts? (P3)",
+      "de": "Where is Natuurlijke taalverwerking in Bezug auf basic facts? (F3)",
+      "nl": "Where is Natuurlijke taalverwerking met betrekking tot basic facts? (V3)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option A für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - basic facts aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option B für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - basic facts aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option C für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - basic facts aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option D für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - basic facts aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's basic facts is verified and educational (Level 3, Q3).",
+      "es": "Este hecho sobre basic facts de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P3).",
+      "de": "Diese Tatsache über basic facts von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F3).",
+      "nl": "Dit feit over basic facts van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V3)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who invented Natuurlijke taalverwerking regarding basic facts? (Q4)",
+      "es": "Who invented Natuurlijke taalverwerking con respecto a basic facts? (P4)",
+      "de": "Who invented Natuurlijke taalverwerking in Bezug auf basic facts? (F4)",
+      "nl": "Who invented Natuurlijke taalverwerking met betrekking tot basic facts? (V4)"
+    },
+    "options": [
+      {
+        "en": "Option C for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option C für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - basic facts aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option B für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - basic facts aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option D für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - basic facts aspect"
+      },
+      {
+        "en": "Option A for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option A für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - basic facts aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's basic facts is verified and educational (Level 3, Q4).",
+      "es": "Este hecho sobre basic facts de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P4).",
+      "de": "Diese Tatsache über basic facts von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F4).",
+      "nl": "Dit feit over basic facts van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V4)."
+    }
+  },
+  {
+    "question": {
+      "en": "How does Natuurlijke taalverwerking regarding basic facts? (Q5)",
+      "es": "How does Natuurlijke taalverwerking con respecto a basic facts? (P5)",
+      "de": "How does Natuurlijke taalverwerking in Bezug auf basic facts? (F5)",
+      "nl": "How does Natuurlijke taalverwerking met betrekking tot basic facts? (V5)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option A für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - basic facts aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option B für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - basic facts aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option C für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - basic facts aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option D für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - basic facts aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's basic facts is verified and educational (Level 3, Q5).",
+      "es": "Este hecho sobre basic facts de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P5).",
+      "de": "Diese Tatsache über basic facts von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F5).",
+      "nl": "Dit feit over basic facts van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V5)."
+    }
+  },
+  {
+    "question": {
+      "en": "Why is Natuurlijke taalverwerking regarding basic facts? (Q6)",
+      "es": "Why is Natuurlijke taalverwerking con respecto a basic facts? (P6)",
+      "de": "Why is Natuurlijke taalverwerking in Bezug auf basic facts? (F6)",
+      "nl": "Why is Natuurlijke taalverwerking met betrekking tot basic facts? (V6)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option A für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - basic facts aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option B für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - basic facts aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option C für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - basic facts aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option D für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - basic facts aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's basic facts is verified and educational (Level 3, Q6).",
+      "es": "Este hecho sobre basic facts de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P6).",
+      "de": "Diese Tatsache über basic facts von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F6).",
+      "nl": "Dit feit over basic facts van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V6)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which type of Natuurlijke taalverwerking regarding basic facts? (Q7)",
+      "es": "Which type of Natuurlijke taalverwerking con respecto a basic facts? (P7)",
+      "de": "Which type of Natuurlijke taalverwerking in Bezug auf basic facts? (F7)",
+      "nl": "Which type of Natuurlijke taalverwerking met betrekking tot basic facts? (V7)"
+    },
+    "options": [
+      {
+        "en": "Option D for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option D für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - basic facts aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option B für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - basic facts aspect"
+      },
+      {
+        "en": "Option A for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option A für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - basic facts aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option C für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - basic facts aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's basic facts is verified and educational (Level 3, Q7).",
+      "es": "Este hecho sobre basic facts de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P7).",
+      "de": "Diese Tatsache über basic facts von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F7).",
+      "nl": "Dit feit over basic facts van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V7)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many Natuurlijke taalverwerking regarding basic facts? (Q8)",
+      "es": "How many Natuurlijke taalverwerking con respecto a basic facts? (P8)",
+      "de": "How many Natuurlijke taalverwerking in Bezug auf basic facts? (F8)",
+      "nl": "How many Natuurlijke taalverwerking met betrekking tot basic facts? (V8)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option A für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - basic facts aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option B für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - basic facts aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option C für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - basic facts aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option D für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - basic facts aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's basic facts is verified and educational (Level 3, Q8).",
+      "es": "Este hecho sobre basic facts de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P8).",
+      "de": "Diese Tatsache über basic facts von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F8).",
+      "nl": "Dit feit over basic facts van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V8)."
+    }
+  },
+  {
+    "question": {
+      "en": "Key feature of Natuurlijke taalverwerking regarding basic facts? (Q9)",
+      "es": "Key feature of Natuurlijke taalverwerking con respecto a basic facts? (P9)",
+      "de": "Key feature of Natuurlijke taalverwerking in Bezug auf basic facts? (F9)",
+      "nl": "Key feature of Natuurlijke taalverwerking met betrekking tot basic facts? (V9)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option A für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - basic facts aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option B für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - basic facts aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option C für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - basic facts aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option D für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - basic facts aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's basic facts is verified and educational (Level 3, Q9).",
+      "es": "Este hecho sobre basic facts de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P9).",
+      "de": "Diese Tatsache über basic facts von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F9).",
+      "nl": "Dit feit over basic facts van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V9)."
+    }
+  },
+  {
+    "question": {
+      "en": "Compared to others Natuurlijke taalverwerking regarding basic facts? (Q10)",
+      "es": "Compared to others Natuurlijke taalverwerking con respecto a basic facts? (P10)",
+      "de": "Compared to others Natuurlijke taalverwerking in Bezug auf basic facts? (F10)",
+      "nl": "Compared to others Natuurlijke taalverwerking met betrekking tot basic facts? (V10)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option A für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - basic facts aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option B für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - basic facts aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option D für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - basic facts aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - basic facts aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto basic facts",
+        "de": "Option C für Natuurlijke taalverwerking - basic facts Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - basic facts aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's basic facts is verified and educational (Level 3, Q10).",
+      "es": "Este hecho sobre basic facts de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P10).",
+      "de": "Diese Tatsache über basic facts von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F10).",
+      "nl": "Dit feit over basic facts van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V10)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is Natuurlijke taalverwerking regarding history? (Q11)",
+      "es": "What is Natuurlijke taalverwerking con respecto a history? (P11)",
+      "de": "What is Natuurlijke taalverwerking in Bezug auf history? (F11)",
+      "nl": "What is Natuurlijke taalverwerking met betrekking tot history? (V11)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option A für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - history aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option B für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - history aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option C für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - history aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option D für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - history aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's history is verified and educational (Level 3, Q11).",
+      "es": "Este hecho sobre history de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P11).",
+      "de": "Diese Tatsache über history von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F11).",
+      "nl": "Dit feit over history van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V11)."
+    }
+  },
+  {
+    "question": {
+      "en": "When did Natuurlijke taalverwerking regarding history? (Q12)",
+      "es": "When did Natuurlijke taalverwerking con respecto a history? (P12)",
+      "de": "When did Natuurlijke taalverwerking in Bezug auf history? (F12)",
+      "nl": "When did Natuurlijke taalverwerking met betrekking tot history? (V12)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option A für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - history aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option B für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - history aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option C für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - history aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option D für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - history aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's history is verified and educational (Level 3, Q12).",
+      "es": "Este hecho sobre history de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P12).",
+      "de": "Diese Tatsache über history von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F12).",
+      "nl": "Dit feit over history van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V12)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where is Natuurlijke taalverwerking regarding history? (Q13)",
+      "es": "Where is Natuurlijke taalverwerking con respecto a history? (P13)",
+      "de": "Where is Natuurlijke taalverwerking in Bezug auf history? (F13)",
+      "nl": "Where is Natuurlijke taalverwerking met betrekking tot history? (V13)"
+    },
+    "options": [
+      {
+        "en": "Option D for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option D für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - history aspect"
+      },
+      {
+        "en": "Option A for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option A für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - history aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option B für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - history aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option C für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - history aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's history is verified and educational (Level 3, Q13).",
+      "es": "Este hecho sobre history de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P13).",
+      "de": "Diese Tatsache über history von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F13).",
+      "nl": "Dit feit over history van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V13)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who invented Natuurlijke taalverwerking regarding history? (Q14)",
+      "es": "Who invented Natuurlijke taalverwerking con respecto a history? (P14)",
+      "de": "Who invented Natuurlijke taalverwerking in Bezug auf history? (F14)",
+      "nl": "Who invented Natuurlijke taalverwerking met betrekking tot history? (V14)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option A für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - history aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option B für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - history aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option C für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - history aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option D für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - history aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's history is verified and educational (Level 3, Q14).",
+      "es": "Este hecho sobre history de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P14).",
+      "de": "Diese Tatsache über history von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F14).",
+      "nl": "Dit feit over history van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V14)."
+    }
+  },
+  {
+    "question": {
+      "en": "How does Natuurlijke taalverwerking regarding history? (Q15)",
+      "es": "How does Natuurlijke taalverwerking con respecto a history? (P15)",
+      "de": "How does Natuurlijke taalverwerking in Bezug auf history? (F15)",
+      "nl": "How does Natuurlijke taalverwerking met betrekking tot history? (V15)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option A für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - history aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option B für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - history aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option C für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - history aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option D für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - history aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's history is verified and educational (Level 3, Q15).",
+      "es": "Este hecho sobre history de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P15).",
+      "de": "Diese Tatsache über history von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F15).",
+      "nl": "Dit feit over history van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V15)."
+    }
+  },
+  {
+    "question": {
+      "en": "Why is Natuurlijke taalverwerking regarding history? (Q16)",
+      "es": "Why is Natuurlijke taalverwerking con respecto a history? (P16)",
+      "de": "Why is Natuurlijke taalverwerking in Bezug auf history? (F16)",
+      "nl": "Why is Natuurlijke taalverwerking met betrekking tot history? (V16)"
+    },
+    "options": [
+      {
+        "en": "Option D for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option D für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - history aspect"
+      },
+      {
+        "en": "Option A for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option A für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - history aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option B für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - history aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option C für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - history aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's history is verified and educational (Level 3, Q16).",
+      "es": "Este hecho sobre history de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P16).",
+      "de": "Diese Tatsache über history von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F16).",
+      "nl": "Dit feit over history van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V16)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which type of Natuurlijke taalverwerking regarding history? (Q17)",
+      "es": "Which type of Natuurlijke taalverwerking con respecto a history? (P17)",
+      "de": "Which type of Natuurlijke taalverwerking in Bezug auf history? (F17)",
+      "nl": "Which type of Natuurlijke taalverwerking met betrekking tot history? (V17)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option A für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - history aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option B für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - history aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option C für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - history aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option D für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - history aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's history is verified and educational (Level 3, Q17).",
+      "es": "Este hecho sobre history de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P17).",
+      "de": "Diese Tatsache über history von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F17).",
+      "nl": "Dit feit over history van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V17)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many Natuurlijke taalverwerking regarding history? (Q18)",
+      "es": "How many Natuurlijke taalverwerking con respecto a history? (P18)",
+      "de": "How many Natuurlijke taalverwerking in Bezug auf history? (F18)",
+      "nl": "How many Natuurlijke taalverwerking met betrekking tot history? (V18)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option A für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - history aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option B für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - history aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option C für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - history aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option D für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - history aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's history is verified and educational (Level 3, Q18).",
+      "es": "Este hecho sobre history de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P18).",
+      "de": "Diese Tatsache über history von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F18).",
+      "nl": "Dit feit over history van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V18)."
+    }
+  },
+  {
+    "question": {
+      "en": "Key feature of Natuurlijke taalverwerking regarding history? (Q19)",
+      "es": "Key feature of Natuurlijke taalverwerking con respecto a history? (P19)",
+      "de": "Key feature of Natuurlijke taalverwerking in Bezug auf history? (F19)",
+      "nl": "Key feature of Natuurlijke taalverwerking met betrekking tot history? (V19)"
+    },
+    "options": [
+      {
+        "en": "Option D for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option D für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - history aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option C für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - history aspect"
+      },
+      {
+        "en": "Option A for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option A für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - history aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option B für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - history aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's history is verified and educational (Level 3, Q19).",
+      "es": "Este hecho sobre history de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P19).",
+      "de": "Diese Tatsache über history von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F19).",
+      "nl": "Dit feit over history van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V19)."
+    }
+  },
+  {
+    "question": {
+      "en": "Compared to others Natuurlijke taalverwerking regarding history? (Q20)",
+      "es": "Compared to others Natuurlijke taalverwerking con respecto a history? (P20)",
+      "de": "Compared to others Natuurlijke taalverwerking in Bezug auf history? (F20)",
+      "nl": "Compared to others Natuurlijke taalverwerking met betrekking tot history? (V20)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option A für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - history aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option B für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - history aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option C für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - history aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - history aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto history",
+        "de": "Option D für Natuurlijke taalverwerking - history Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - history aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's history is verified and educational (Level 3, Q20).",
+      "es": "Este hecho sobre history de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P20).",
+      "de": "Diese Tatsache über history von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F20).",
+      "nl": "Dit feit over history van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V20)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is Natuurlijke taalverwerking regarding characteristics? (Q21)",
+      "es": "What is Natuurlijke taalverwerking con respecto a characteristics? (P21)",
+      "de": "What is Natuurlijke taalverwerking in Bezug auf characteristics? (F21)",
+      "nl": "What is Natuurlijke taalverwerking met betrekking tot characteristics? (V21)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option A für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - characteristics aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option B für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - characteristics aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option C für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - characteristics aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option D für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - characteristics aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's characteristics is verified and educational (Level 3, Q21).",
+      "es": "Este hecho sobre characteristics de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P21).",
+      "de": "Diese Tatsache über characteristics von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F21).",
+      "nl": "Dit feit over characteristics van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V21)."
+    }
+  },
+  {
+    "question": {
+      "en": "When did Natuurlijke taalverwerking regarding characteristics? (Q22)",
+      "es": "When did Natuurlijke taalverwerking con respecto a characteristics? (P22)",
+      "de": "When did Natuurlijke taalverwerking in Bezug auf characteristics? (F22)",
+      "nl": "When did Natuurlijke taalverwerking met betrekking tot characteristics? (V22)"
+    },
+    "options": [
+      {
+        "en": "Option D for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option D für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - characteristics aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option C für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - characteristics aspect"
+      },
+      {
+        "en": "Option A for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option A für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - characteristics aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option B für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - characteristics aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's characteristics is verified and educational (Level 3, Q22).",
+      "es": "Este hecho sobre characteristics de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P22).",
+      "de": "Diese Tatsache über characteristics von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F22).",
+      "nl": "Dit feit over characteristics van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V22)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where is Natuurlijke taalverwerking regarding characteristics? (Q23)",
+      "es": "Where is Natuurlijke taalverwerking con respecto a characteristics? (P23)",
+      "de": "Where is Natuurlijke taalverwerking in Bezug auf characteristics? (F23)",
+      "nl": "Where is Natuurlijke taalverwerking met betrekking tot characteristics? (V23)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option A für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - characteristics aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option B für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - characteristics aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option C für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - characteristics aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option D für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - characteristics aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's characteristics is verified and educational (Level 3, Q23).",
+      "es": "Este hecho sobre characteristics de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P23).",
+      "de": "Diese Tatsache über characteristics von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F23).",
+      "nl": "Dit feit over characteristics van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V23)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who invented Natuurlijke taalverwerking regarding characteristics? (Q24)",
+      "es": "Who invented Natuurlijke taalverwerking con respecto a characteristics? (P24)",
+      "de": "Who invented Natuurlijke taalverwerking in Bezug auf characteristics? (F24)",
+      "nl": "Who invented Natuurlijke taalverwerking met betrekking tot characteristics? (V24)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option A für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - characteristics aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option B für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - characteristics aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option C für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - characteristics aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option D für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - characteristics aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's characteristics is verified and educational (Level 3, Q24).",
+      "es": "Este hecho sobre characteristics de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P24).",
+      "de": "Diese Tatsache über characteristics von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F24).",
+      "nl": "Dit feit over characteristics van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V24)."
+    }
+  },
+  {
+    "question": {
+      "en": "How does Natuurlijke taalverwerking regarding characteristics? (Q25)",
+      "es": "How does Natuurlijke taalverwerking con respecto a characteristics? (P25)",
+      "de": "How does Natuurlijke taalverwerking in Bezug auf characteristics? (F25)",
+      "nl": "How does Natuurlijke taalverwerking met betrekking tot characteristics? (V25)"
+    },
+    "options": [
+      {
+        "en": "Option D for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option D für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - characteristics aspect"
+      },
+      {
+        "en": "Option A for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option A für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - characteristics aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option B für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - characteristics aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option C für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - characteristics aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's characteristics is verified and educational (Level 3, Q25).",
+      "es": "Este hecho sobre characteristics de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P25).",
+      "de": "Diese Tatsache über characteristics von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F25).",
+      "nl": "Dit feit over characteristics van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V25)."
+    }
+  },
+  {
+    "question": {
+      "en": "Why is Natuurlijke taalverwerking regarding characteristics? (Q26)",
+      "es": "Why is Natuurlijke taalverwerking con respecto a characteristics? (P26)",
+      "de": "Why is Natuurlijke taalverwerking in Bezug auf characteristics? (F26)",
+      "nl": "Why is Natuurlijke taalverwerking met betrekking tot characteristics? (V26)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option A für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - characteristics aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option B für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - characteristics aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option C für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - characteristics aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option D für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - characteristics aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's characteristics is verified and educational (Level 3, Q26).",
+      "es": "Este hecho sobre characteristics de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P26).",
+      "de": "Diese Tatsache über characteristics von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F26).",
+      "nl": "Dit feit over characteristics van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V26)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which type of Natuurlijke taalverwerking regarding characteristics? (Q27)",
+      "es": "Which type of Natuurlijke taalverwerking con respecto a characteristics? (P27)",
+      "de": "Which type of Natuurlijke taalverwerking in Bezug auf characteristics? (F27)",
+      "nl": "Which type of Natuurlijke taalverwerking met betrekking tot characteristics? (V27)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option A für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - characteristics aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option B für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - characteristics aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option C für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - characteristics aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option D für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - characteristics aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's characteristics is verified and educational (Level 3, Q27).",
+      "es": "Este hecho sobre characteristics de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P27).",
+      "de": "Diese Tatsache über characteristics von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F27).",
+      "nl": "Dit feit over characteristics van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V27)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many Natuurlijke taalverwerking regarding characteristics? (Q28)",
+      "es": "How many Natuurlijke taalverwerking con respecto a characteristics? (P28)",
+      "de": "How many Natuurlijke taalverwerking in Bezug auf characteristics? (F28)",
+      "nl": "How many Natuurlijke taalverwerking met betrekking tot characteristics? (V28)"
+    },
+    "options": [
+      {
+        "en": "Option C for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option C für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - characteristics aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option B für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - characteristics aspect"
+      },
+      {
+        "en": "Option A for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option A für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - characteristics aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option D für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - characteristics aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's characteristics is verified and educational (Level 3, Q28).",
+      "es": "Este hecho sobre characteristics de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P28).",
+      "de": "Diese Tatsache über characteristics von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F28).",
+      "nl": "Dit feit over characteristics van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V28)."
+    }
+  },
+  {
+    "question": {
+      "en": "Key feature of Natuurlijke taalverwerking regarding characteristics? (Q29)",
+      "es": "Key feature of Natuurlijke taalverwerking con respecto a characteristics? (P29)",
+      "de": "Key feature of Natuurlijke taalverwerking in Bezug auf characteristics? (F29)",
+      "nl": "Key feature of Natuurlijke taalverwerking met betrekking tot characteristics? (V29)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option A für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - characteristics aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option B für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - characteristics aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option C für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - characteristics aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option D für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - characteristics aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's characteristics is verified and educational (Level 3, Q29).",
+      "es": "Este hecho sobre characteristics de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P29).",
+      "de": "Diese Tatsache über characteristics von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F29).",
+      "nl": "Dit feit over characteristics van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V29)."
+    }
+  },
+  {
+    "question": {
+      "en": "Compared to others Natuurlijke taalverwerking regarding characteristics? (Q30)",
+      "es": "Compared to others Natuurlijke taalverwerking con respecto a characteristics? (P30)",
+      "de": "Compared to others Natuurlijke taalverwerking in Bezug auf characteristics? (F30)",
+      "nl": "Compared to others Natuurlijke taalverwerking met betrekking tot characteristics? (V30)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option A für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - characteristics aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option B für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - characteristics aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option C für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - characteristics aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - characteristics aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto characteristics",
+        "de": "Option D für Natuurlijke taalverwerking - characteristics Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - characteristics aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's characteristics is verified and educational (Level 3, Q30).",
+      "es": "Este hecho sobre characteristics de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P30).",
+      "de": "Diese Tatsache über characteristics von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F30).",
+      "nl": "Dit feit over characteristics van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V30)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is Natuurlijke taalverwerking regarding significance? (Q31)",
+      "es": "What is Natuurlijke taalverwerking con respecto a significance? (P31)",
+      "de": "What is Natuurlijke taalverwerking in Bezug auf significance? (F31)",
+      "nl": "What is Natuurlijke taalverwerking met betrekking tot significance? (V31)"
+    },
+    "options": [
+      {
+        "en": "Option D for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option D für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - significance aspect"
+      },
+      {
+        "en": "Option A for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option A für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - significance aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option B für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - significance aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option C für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - significance aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's significance is verified and educational (Level 3, Q31).",
+      "es": "Este hecho sobre significance de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P31).",
+      "de": "Diese Tatsache über significance von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F31).",
+      "nl": "Dit feit over significance van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V31)."
+    }
+  },
+  {
+    "question": {
+      "en": "When did Natuurlijke taalverwerking regarding significance? (Q32)",
+      "es": "When did Natuurlijke taalverwerking con respecto a significance? (P32)",
+      "de": "When did Natuurlijke taalverwerking in Bezug auf significance? (F32)",
+      "nl": "When did Natuurlijke taalverwerking met betrekking tot significance? (V32)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option A für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - significance aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option B für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - significance aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option C für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - significance aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option D für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - significance aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's significance is verified and educational (Level 3, Q32).",
+      "es": "Este hecho sobre significance de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P32).",
+      "de": "Diese Tatsache über significance von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F32).",
+      "nl": "Dit feit over significance van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V32)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where is Natuurlijke taalverwerking regarding significance? (Q33)",
+      "es": "Where is Natuurlijke taalverwerking con respecto a significance? (P33)",
+      "de": "Where is Natuurlijke taalverwerking in Bezug auf significance? (F33)",
+      "nl": "Where is Natuurlijke taalverwerking met betrekking tot significance? (V33)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option A für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - significance aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option B für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - significance aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option C für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - significance aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option D für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - significance aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's significance is verified and educational (Level 3, Q33).",
+      "es": "Este hecho sobre significance de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P33).",
+      "de": "Diese Tatsache über significance von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F33).",
+      "nl": "Dit feit over significance van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V33)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who invented Natuurlijke taalverwerking regarding significance? (Q34)",
+      "es": "Who invented Natuurlijke taalverwerking con respecto a significance? (P34)",
+      "de": "Who invented Natuurlijke taalverwerking in Bezug auf significance? (F34)",
+      "nl": "Who invented Natuurlijke taalverwerking met betrekking tot significance? (V34)"
+    },
+    "options": [
+      {
+        "en": "Option D for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option D für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - significance aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option C für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - significance aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option B für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - significance aspect"
+      },
+      {
+        "en": "Option A for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option A für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - significance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's significance is verified and educational (Level 3, Q34).",
+      "es": "Este hecho sobre significance de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P34).",
+      "de": "Diese Tatsache über significance von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F34).",
+      "nl": "Dit feit over significance van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V34)."
+    }
+  },
+  {
+    "question": {
+      "en": "How does Natuurlijke taalverwerking regarding significance? (Q35)",
+      "es": "How does Natuurlijke taalverwerking con respecto a significance? (P35)",
+      "de": "How does Natuurlijke taalverwerking in Bezug auf significance? (F35)",
+      "nl": "How does Natuurlijke taalverwerking met betrekking tot significance? (V35)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option A für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - significance aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option B für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - significance aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option C für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - significance aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option D für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - significance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's significance is verified and educational (Level 3, Q35).",
+      "es": "Este hecho sobre significance de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P35).",
+      "de": "Diese Tatsache über significance von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F35).",
+      "nl": "Dit feit over significance van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V35)."
+    }
+  },
+  {
+    "question": {
+      "en": "Why is Natuurlijke taalverwerking regarding significance? (Q36)",
+      "es": "Why is Natuurlijke taalverwerking con respecto a significance? (P36)",
+      "de": "Why is Natuurlijke taalverwerking in Bezug auf significance? (F36)",
+      "nl": "Why is Natuurlijke taalverwerking met betrekking tot significance? (V36)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option A für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - significance aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option B für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - significance aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option C für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - significance aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option D für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - significance aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's significance is verified and educational (Level 3, Q36).",
+      "es": "Este hecho sobre significance de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P36).",
+      "de": "Diese Tatsache über significance von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F36).",
+      "nl": "Dit feit over significance van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V36)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which type of Natuurlijke taalverwerking regarding significance? (Q37)",
+      "es": "Which type of Natuurlijke taalverwerking con respecto a significance? (P37)",
+      "de": "Which type of Natuurlijke taalverwerking in Bezug auf significance? (F37)",
+      "nl": "Which type of Natuurlijke taalverwerking met betrekking tot significance? (V37)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option A für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - significance aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option B für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - significance aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option D für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - significance aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option C für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - significance aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's significance is verified and educational (Level 3, Q37).",
+      "es": "Este hecho sobre significance de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P37).",
+      "de": "Diese Tatsache über significance von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F37).",
+      "nl": "Dit feit over significance van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V37)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many Natuurlijke taalverwerking regarding significance? (Q38)",
+      "es": "How many Natuurlijke taalverwerking con respecto a significance? (P38)",
+      "de": "How many Natuurlijke taalverwerking in Bezug auf significance? (F38)",
+      "nl": "How many Natuurlijke taalverwerking met betrekking tot significance? (V38)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option A für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - significance aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option B für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - significance aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option C für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - significance aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option D für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - significance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's significance is verified and educational (Level 3, Q38).",
+      "es": "Este hecho sobre significance de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P38).",
+      "de": "Diese Tatsache über significance von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F38).",
+      "nl": "Dit feit over significance van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V38)."
+    }
+  },
+  {
+    "question": {
+      "en": "Key feature of Natuurlijke taalverwerking regarding significance? (Q39)",
+      "es": "Key feature of Natuurlijke taalverwerking con respecto a significance? (P39)",
+      "de": "Key feature of Natuurlijke taalverwerking in Bezug auf significance? (F39)",
+      "nl": "Key feature of Natuurlijke taalverwerking met betrekking tot significance? (V39)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option A für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - significance aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option B für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - significance aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option C für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - significance aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option D für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - significance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's significance is verified and educational (Level 3, Q39).",
+      "es": "Este hecho sobre significance de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P39).",
+      "de": "Diese Tatsache über significance von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F39).",
+      "nl": "Dit feit over significance van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V39)."
+    }
+  },
+  {
+    "question": {
+      "en": "Compared to others Natuurlijke taalverwerking regarding significance? (Q40)",
+      "es": "Compared to others Natuurlijke taalverwerking con respecto a significance? (P40)",
+      "de": "Compared to others Natuurlijke taalverwerking in Bezug auf significance? (F40)",
+      "nl": "Compared to others Natuurlijke taalverwerking met betrekking tot significance? (V40)"
+    },
+    "options": [
+      {
+        "en": "Option D for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option D für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - significance aspect"
+      },
+      {
+        "en": "Option A for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option A für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - significance aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option B für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - significance aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - significance aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto significance",
+        "de": "Option C für Natuurlijke taalverwerking - significance Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - significance aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's significance is verified and educational (Level 3, Q40).",
+      "es": "Este hecho sobre significance de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P40).",
+      "de": "Diese Tatsache über significance von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F40).",
+      "nl": "Dit feit over significance van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V40)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is Natuurlijke taalverwerking regarding modern relevance? (Q41)",
+      "es": "What is Natuurlijke taalverwerking con respecto a modern relevance? (P41)",
+      "de": "What is Natuurlijke taalverwerking in Bezug auf modern relevance? (F41)",
+      "nl": "What is Natuurlijke taalverwerking met betrekking tot modern relevance? (V41)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option A für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option B für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option C für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option D für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - modern relevance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's modern relevance is verified and educational (Level 3, Q41).",
+      "es": "Este hecho sobre modern relevance de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P41).",
+      "de": "Diese Tatsache über modern relevance von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F41).",
+      "nl": "Dit feit over modern relevance van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V41)."
+    }
+  },
+  {
+    "question": {
+      "en": "When did Natuurlijke taalverwerking regarding modern relevance? (Q42)",
+      "es": "When did Natuurlijke taalverwerking con respecto a modern relevance? (P42)",
+      "de": "When did Natuurlijke taalverwerking in Bezug auf modern relevance? (F42)",
+      "nl": "When did Natuurlijke taalverwerking met betrekking tot modern relevance? (V42)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option A für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option B für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option C für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option D für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - modern relevance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's modern relevance is verified and educational (Level 3, Q42).",
+      "es": "Este hecho sobre modern relevance de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P42).",
+      "de": "Diese Tatsache über modern relevance von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F42).",
+      "nl": "Dit feit over modern relevance van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V42)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where is Natuurlijke taalverwerking regarding modern relevance? (Q43)",
+      "es": "Where is Natuurlijke taalverwerking con respecto a modern relevance? (P43)",
+      "de": "Where is Natuurlijke taalverwerking in Bezug auf modern relevance? (F43)",
+      "nl": "Where is Natuurlijke taalverwerking met betrekking tot modern relevance? (V43)"
+    },
+    "options": [
+      {
+        "en": "Option B for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option B für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option D für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - modern relevance aspect"
+      },
+      {
+        "en": "Option A for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option A für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option C für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - modern relevance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's modern relevance is verified and educational (Level 3, Q43).",
+      "es": "Este hecho sobre modern relevance de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P43).",
+      "de": "Diese Tatsache über modern relevance von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F43).",
+      "nl": "Dit feit over modern relevance van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V43)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who invented Natuurlijke taalverwerking regarding modern relevance? (Q44)",
+      "es": "Who invented Natuurlijke taalverwerking con respecto a modern relevance? (P44)",
+      "de": "Who invented Natuurlijke taalverwerking in Bezug auf modern relevance? (F44)",
+      "nl": "Who invented Natuurlijke taalverwerking met betrekking tot modern relevance? (V44)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option A für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option B für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option C für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option D für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - modern relevance aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's modern relevance is verified and educational (Level 3, Q44).",
+      "es": "Este hecho sobre modern relevance de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P44).",
+      "de": "Diese Tatsache über modern relevance von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F44).",
+      "nl": "Dit feit over modern relevance van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V44)."
+    }
+  },
+  {
+    "question": {
+      "en": "How does Natuurlijke taalverwerking regarding modern relevance? (Q45)",
+      "es": "How does Natuurlijke taalverwerking con respecto a modern relevance? (P45)",
+      "de": "How does Natuurlijke taalverwerking in Bezug auf modern relevance? (F45)",
+      "nl": "How does Natuurlijke taalverwerking met betrekking tot modern relevance? (V45)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option A für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option B für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option C für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option D für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - modern relevance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's modern relevance is verified and educational (Level 3, Q45).",
+      "es": "Este hecho sobre modern relevance de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P45).",
+      "de": "Diese Tatsache über modern relevance von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F45).",
+      "nl": "Dit feit over modern relevance van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V45)."
+    }
+  },
+  {
+    "question": {
+      "en": "Why is Natuurlijke taalverwerking regarding modern relevance? (Q46)",
+      "es": "Why is Natuurlijke taalverwerking con respecto a modern relevance? (P46)",
+      "de": "Why is Natuurlijke taalverwerking in Bezug auf modern relevance? (F46)",
+      "nl": "Why is Natuurlijke taalverwerking met betrekking tot modern relevance? (V46)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option A für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option B für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option C für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option D für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - modern relevance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's modern relevance is verified and educational (Level 3, Q46).",
+      "es": "Este hecho sobre modern relevance de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P46).",
+      "de": "Diese Tatsache über modern relevance von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F46).",
+      "nl": "Dit feit over modern relevance van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V46)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which type of Natuurlijke taalverwerking regarding modern relevance? (Q47)",
+      "es": "Which type of Natuurlijke taalverwerking con respecto a modern relevance? (P47)",
+      "de": "Which type of Natuurlijke taalverwerking in Bezug auf modern relevance? (F47)",
+      "nl": "Which type of Natuurlijke taalverwerking met betrekking tot modern relevance? (V47)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option A für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option B für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option C für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option D für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - modern relevance aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's modern relevance is verified and educational (Level 3, Q47).",
+      "es": "Este hecho sobre modern relevance de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P47).",
+      "de": "Diese Tatsache über modern relevance von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F47).",
+      "nl": "Dit feit over modern relevance van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V47)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many Natuurlijke taalverwerking regarding modern relevance? (Q48)",
+      "es": "How many Natuurlijke taalverwerking con respecto a modern relevance? (P48)",
+      "de": "How many Natuurlijke taalverwerking in Bezug auf modern relevance? (F48)",
+      "nl": "How many Natuurlijke taalverwerking met betrekking tot modern relevance? (V48)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option A für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option B für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option C für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option D für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - modern relevance aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's modern relevance is verified and educational (Level 3, Q48).",
+      "es": "Este hecho sobre modern relevance de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P48).",
+      "de": "Diese Tatsache über modern relevance von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F48).",
+      "nl": "Dit feit over modern relevance van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V48)."
+    }
+  },
+  {
+    "question": {
+      "en": "Key feature of Natuurlijke taalverwerking regarding modern relevance? (Q49)",
+      "es": "Key feature of Natuurlijke taalverwerking con respecto a modern relevance? (P49)",
+      "de": "Key feature of Natuurlijke taalverwerking in Bezug auf modern relevance? (F49)",
+      "nl": "Key feature of Natuurlijke taalverwerking met betrekking tot modern relevance? (V49)"
+    },
+    "options": [
+      {
+        "en": "Option D for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option D für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option B für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option C für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - modern relevance aspect"
+      },
+      {
+        "en": "Option A for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option A für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - modern relevance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's modern relevance is verified and educational (Level 3, Q49).",
+      "es": "Este hecho sobre modern relevance de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P49).",
+      "de": "Diese Tatsache über modern relevance von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F49).",
+      "nl": "Dit feit over modern relevance van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V49)."
+    }
+  },
+  {
+    "question": {
+      "en": "Compared to others Natuurlijke taalverwerking regarding modern relevance? (Q50)",
+      "es": "Compared to others Natuurlijke taalverwerking con respecto a modern relevance? (P50)",
+      "de": "Compared to others Natuurlijke taalverwerking in Bezug auf modern relevance? (F50)",
+      "nl": "Compared to others Natuurlijke taalverwerking met betrekking tot modern relevance? (V50)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option A für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option B für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option C für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - modern relevance aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto modern relevance",
+        "de": "Option D für Natuurlijke taalverwerking - modern relevance Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - modern relevance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's modern relevance is verified and educational (Level 3, Q50).",
+      "es": "Este hecho sobre modern relevance de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P50).",
+      "de": "Diese Tatsache über modern relevance von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F50).",
+      "nl": "Dit feit over modern relevance van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V50)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is Natuurlijke taalverwerking regarding cultural impact? (Q51)",
+      "es": "What is Natuurlijke taalverwerking con respecto a cultural impact? (P51)",
+      "de": "What is Natuurlijke taalverwerking in Bezug auf cultural impact? (F51)",
+      "nl": "What is Natuurlijke taalverwerking met betrekking tot cultural impact? (V51)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option A für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option B für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option C für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option D für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - cultural impact aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's cultural impact is verified and educational (Level 3, Q51).",
+      "es": "Este hecho sobre cultural impact de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P51).",
+      "de": "Diese Tatsache über cultural impact von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F51).",
+      "nl": "Dit feit over cultural impact van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V51)."
+    }
+  },
+  {
+    "question": {
+      "en": "When did Natuurlijke taalverwerking regarding cultural impact? (Q52)",
+      "es": "When did Natuurlijke taalverwerking con respecto a cultural impact? (P52)",
+      "de": "When did Natuurlijke taalverwerking in Bezug auf cultural impact? (F52)",
+      "nl": "When did Natuurlijke taalverwerking met betrekking tot cultural impact? (V52)"
+    },
+    "options": [
+      {
+        "en": "Option C for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option C für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - cultural impact aspect"
+      },
+      {
+        "en": "Option A for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option A für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option D für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option B für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - cultural impact aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's cultural impact is verified and educational (Level 3, Q52).",
+      "es": "Este hecho sobre cultural impact de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P52).",
+      "de": "Diese Tatsache über cultural impact von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F52).",
+      "nl": "Dit feit over cultural impact van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V52)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where is Natuurlijke taalverwerking regarding cultural impact? (Q53)",
+      "es": "Where is Natuurlijke taalverwerking con respecto a cultural impact? (P53)",
+      "de": "Where is Natuurlijke taalverwerking in Bezug auf cultural impact? (F53)",
+      "nl": "Where is Natuurlijke taalverwerking met betrekking tot cultural impact? (V53)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option A für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option B für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option C für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option D für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - cultural impact aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's cultural impact is verified and educational (Level 3, Q53).",
+      "es": "Este hecho sobre cultural impact de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P53).",
+      "de": "Diese Tatsache über cultural impact von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F53).",
+      "nl": "Dit feit over cultural impact van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V53)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who invented Natuurlijke taalverwerking regarding cultural impact? (Q54)",
+      "es": "Who invented Natuurlijke taalverwerking con respecto a cultural impact? (P54)",
+      "de": "Who invented Natuurlijke taalverwerking in Bezug auf cultural impact? (F54)",
+      "nl": "Who invented Natuurlijke taalverwerking met betrekking tot cultural impact? (V54)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option A für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option B für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option C für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option D für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - cultural impact aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's cultural impact is verified and educational (Level 3, Q54).",
+      "es": "Este hecho sobre cultural impact de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P54).",
+      "de": "Diese Tatsache über cultural impact von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F54).",
+      "nl": "Dit feit over cultural impact van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V54)."
+    }
+  },
+  {
+    "question": {
+      "en": "How does Natuurlijke taalverwerking regarding cultural impact? (Q55)",
+      "es": "How does Natuurlijke taalverwerking con respecto a cultural impact? (P55)",
+      "de": "How does Natuurlijke taalverwerking in Bezug auf cultural impact? (F55)",
+      "nl": "How does Natuurlijke taalverwerking met betrekking tot cultural impact? (V55)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option A für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option B für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option C für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option D für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - cultural impact aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's cultural impact is verified and educational (Level 3, Q55).",
+      "es": "Este hecho sobre cultural impact de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P55).",
+      "de": "Diese Tatsache über cultural impact von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F55).",
+      "nl": "Dit feit over cultural impact van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V55)."
+    }
+  },
+  {
+    "question": {
+      "en": "Why is Natuurlijke taalverwerking regarding cultural impact? (Q56)",
+      "es": "Why is Natuurlijke taalverwerking con respecto a cultural impact? (P56)",
+      "de": "Why is Natuurlijke taalverwerking in Bezug auf cultural impact? (F56)",
+      "nl": "Why is Natuurlijke taalverwerking met betrekking tot cultural impact? (V56)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option A für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option B für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option C für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option D für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - cultural impact aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's cultural impact is verified and educational (Level 3, Q56).",
+      "es": "Este hecho sobre cultural impact de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P56).",
+      "de": "Diese Tatsache über cultural impact von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F56).",
+      "nl": "Dit feit over cultural impact van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V56)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which type of Natuurlijke taalverwerking regarding cultural impact? (Q57)",
+      "es": "Which type of Natuurlijke taalverwerking con respecto a cultural impact? (P57)",
+      "de": "Which type of Natuurlijke taalverwerking in Bezug auf cultural impact? (F57)",
+      "nl": "Which type of Natuurlijke taalverwerking met betrekking tot cultural impact? (V57)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option A für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option B für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option C für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option D für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - cultural impact aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's cultural impact is verified and educational (Level 3, Q57).",
+      "es": "Este hecho sobre cultural impact de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P57).",
+      "de": "Diese Tatsache über cultural impact von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F57).",
+      "nl": "Dit feit over cultural impact van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V57)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many Natuurlijke taalverwerking regarding cultural impact? (Q58)",
+      "es": "How many Natuurlijke taalverwerking con respecto a cultural impact? (P58)",
+      "de": "How many Natuurlijke taalverwerking in Bezug auf cultural impact? (F58)",
+      "nl": "How many Natuurlijke taalverwerking met betrekking tot cultural impact? (V58)"
+    },
+    "options": [
+      {
+        "en": "Option C for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option C für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option B für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option D für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - cultural impact aspect"
+      },
+      {
+        "en": "Option A for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option A für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - cultural impact aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's cultural impact is verified and educational (Level 3, Q58).",
+      "es": "Este hecho sobre cultural impact de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P58).",
+      "de": "Diese Tatsache über cultural impact von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F58).",
+      "nl": "Dit feit over cultural impact van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V58)."
+    }
+  },
+  {
+    "question": {
+      "en": "Key feature of Natuurlijke taalverwerking regarding cultural impact? (Q59)",
+      "es": "Key feature of Natuurlijke taalverwerking con respecto a cultural impact? (P59)",
+      "de": "Key feature of Natuurlijke taalverwerking in Bezug auf cultural impact? (F59)",
+      "nl": "Key feature of Natuurlijke taalverwerking met betrekking tot cultural impact? (V59)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option A für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option B für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option C für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option D für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - cultural impact aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's cultural impact is verified and educational (Level 3, Q59).",
+      "es": "Este hecho sobre cultural impact de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P59).",
+      "de": "Diese Tatsache über cultural impact von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F59).",
+      "nl": "Dit feit over cultural impact van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V59)."
+    }
+  },
+  {
+    "question": {
+      "en": "Compared to others Natuurlijke taalverwerking regarding cultural impact? (Q60)",
+      "es": "Compared to others Natuurlijke taalverwerking con respecto a cultural impact? (P60)",
+      "de": "Compared to others Natuurlijke taalverwerking in Bezug auf cultural impact? (F60)",
+      "nl": "Compared to others Natuurlijke taalverwerking met betrekking tot cultural impact? (V60)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option A für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option B für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option C für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - cultural impact aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto cultural impact",
+        "de": "Option D für Natuurlijke taalverwerking - cultural impact Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - cultural impact aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's cultural impact is verified and educational (Level 3, Q60).",
+      "es": "Este hecho sobre cultural impact de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P60).",
+      "de": "Diese Tatsache über cultural impact von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F60).",
+      "nl": "Dit feit over cultural impact van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V60)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is Natuurlijke taalverwerking regarding technical details? (Q61)",
+      "es": "What is Natuurlijke taalverwerking con respecto a technical details? (P61)",
+      "de": "What is Natuurlijke taalverwerking in Bezug auf technical details? (F61)",
+      "nl": "What is Natuurlijke taalverwerking met betrekking tot technical details? (V61)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option A für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - technical details aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option B für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - technical details aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option D für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - technical details aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option C für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - technical details aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's technical details is verified and educational (Level 3, Q61).",
+      "es": "Este hecho sobre technical details de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P61).",
+      "de": "Diese Tatsache über technical details von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F61).",
+      "nl": "Dit feit over technical details van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V61)."
+    }
+  },
+  {
+    "question": {
+      "en": "When did Natuurlijke taalverwerking regarding technical details? (Q62)",
+      "es": "When did Natuurlijke taalverwerking con respecto a technical details? (P62)",
+      "de": "When did Natuurlijke taalverwerking in Bezug auf technical details? (F62)",
+      "nl": "When did Natuurlijke taalverwerking met betrekking tot technical details? (V62)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option A für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - technical details aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option B für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - technical details aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option C für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - technical details aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option D für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - technical details aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's technical details is verified and educational (Level 3, Q62).",
+      "es": "Este hecho sobre technical details de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P62).",
+      "de": "Diese Tatsache über technical details von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F62).",
+      "nl": "Dit feit over technical details van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V62)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where is Natuurlijke taalverwerking regarding technical details? (Q63)",
+      "es": "Where is Natuurlijke taalverwerking con respecto a technical details? (P63)",
+      "de": "Where is Natuurlijke taalverwerking in Bezug auf technical details? (F63)",
+      "nl": "Where is Natuurlijke taalverwerking met betrekking tot technical details? (V63)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option A für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - technical details aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option B für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - technical details aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option C für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - technical details aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option D für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - technical details aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's technical details is verified and educational (Level 3, Q63).",
+      "es": "Este hecho sobre technical details de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P63).",
+      "de": "Diese Tatsache über technical details von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F63).",
+      "nl": "Dit feit over technical details van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V63)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who invented Natuurlijke taalverwerking regarding technical details? (Q64)",
+      "es": "Who invented Natuurlijke taalverwerking con respecto a technical details? (P64)",
+      "de": "Who invented Natuurlijke taalverwerking in Bezug auf technical details? (F64)",
+      "nl": "Who invented Natuurlijke taalverwerking met betrekking tot technical details? (V64)"
+    },
+    "options": [
+      {
+        "en": "Option D for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option D für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - technical details aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option C für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - technical details aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option B für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - technical details aspect"
+      },
+      {
+        "en": "Option A for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option A für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - technical details aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's technical details is verified and educational (Level 3, Q64).",
+      "es": "Este hecho sobre technical details de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P64).",
+      "de": "Diese Tatsache über technical details von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F64).",
+      "nl": "Dit feit over technical details van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V64)."
+    }
+  },
+  {
+    "question": {
+      "en": "How does Natuurlijke taalverwerking regarding technical details? (Q65)",
+      "es": "How does Natuurlijke taalverwerking con respecto a technical details? (P65)",
+      "de": "How does Natuurlijke taalverwerking in Bezug auf technical details? (F65)",
+      "nl": "How does Natuurlijke taalverwerking met betrekking tot technical details? (V65)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option A für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - technical details aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option B für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - technical details aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option C für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - technical details aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option D für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - technical details aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's technical details is verified and educational (Level 3, Q65).",
+      "es": "Este hecho sobre technical details de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P65).",
+      "de": "Diese Tatsache über technical details von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F65).",
+      "nl": "Dit feit over technical details van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V65)."
+    }
+  },
+  {
+    "question": {
+      "en": "Why is Natuurlijke taalverwerking regarding technical details? (Q66)",
+      "es": "Why is Natuurlijke taalverwerking con respecto a technical details? (P66)",
+      "de": "Why is Natuurlijke taalverwerking in Bezug auf technical details? (F66)",
+      "nl": "Why is Natuurlijke taalverwerking met betrekking tot technical details? (V66)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option A für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - technical details aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option B für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - technical details aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option C für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - technical details aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option D für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - technical details aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's technical details is verified and educational (Level 3, Q66).",
+      "es": "Este hecho sobre technical details de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P66).",
+      "de": "Diese Tatsache über technical details von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F66).",
+      "nl": "Dit feit over technical details van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V66)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which type of Natuurlijke taalverwerking regarding technical details? (Q67)",
+      "es": "Which type of Natuurlijke taalverwerking con respecto a technical details? (P67)",
+      "de": "Which type of Natuurlijke taalverwerking in Bezug auf technical details? (F67)",
+      "nl": "Which type of Natuurlijke taalverwerking met betrekking tot technical details? (V67)"
+    },
+    "options": [
+      {
+        "en": "Option D for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option D für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - technical details aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option B für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - technical details aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option C für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - technical details aspect"
+      },
+      {
+        "en": "Option A for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option A für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - technical details aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's technical details is verified and educational (Level 3, Q67).",
+      "es": "Este hecho sobre technical details de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P67).",
+      "de": "Diese Tatsache über technical details von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F67).",
+      "nl": "Dit feit over technical details van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V67)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many Natuurlijke taalverwerking regarding technical details? (Q68)",
+      "es": "How many Natuurlijke taalverwerking con respecto a technical details? (P68)",
+      "de": "How many Natuurlijke taalverwerking in Bezug auf technical details? (F68)",
+      "nl": "How many Natuurlijke taalverwerking met betrekking tot technical details? (V68)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option A für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - technical details aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option B für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - technical details aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option C für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - technical details aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option D für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - technical details aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's technical details is verified and educational (Level 3, Q68).",
+      "es": "Este hecho sobre technical details de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P68).",
+      "de": "Diese Tatsache über technical details von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F68).",
+      "nl": "Dit feit over technical details van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V68)."
+    }
+  },
+  {
+    "question": {
+      "en": "Key feature of Natuurlijke taalverwerking regarding technical details? (Q69)",
+      "es": "Key feature of Natuurlijke taalverwerking con respecto a technical details? (P69)",
+      "de": "Key feature of Natuurlijke taalverwerking in Bezug auf technical details? (F69)",
+      "nl": "Key feature of Natuurlijke taalverwerking met betrekking tot technical details? (V69)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option A für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - technical details aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option B für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - technical details aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option C für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - technical details aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option D für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - technical details aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's technical details is verified and educational (Level 3, Q69).",
+      "es": "Este hecho sobre technical details de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P69).",
+      "de": "Diese Tatsache über technical details von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F69).",
+      "nl": "Dit feit over technical details van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V69)."
+    }
+  },
+  {
+    "question": {
+      "en": "Compared to others Natuurlijke taalverwerking regarding technical details? (Q70)",
+      "es": "Compared to others Natuurlijke taalverwerking con respecto a technical details? (P70)",
+      "de": "Compared to others Natuurlijke taalverwerking in Bezug auf technical details? (F70)",
+      "nl": "Compared to others Natuurlijke taalverwerking met betrekking tot technical details? (V70)"
+    },
+    "options": [
+      {
+        "en": "Option D for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option D für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - technical details aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option C für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - technical details aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option B für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - technical details aspect"
+      },
+      {
+        "en": "Option A for Natuurlijke taalverwerking - technical details aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto technical details",
+        "de": "Option A für Natuurlijke taalverwerking - technical details Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - technical details aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's technical details is verified and educational (Level 3, Q70).",
+      "es": "Este hecho sobre technical details de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P70).",
+      "de": "Diese Tatsache über technical details von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F70).",
+      "nl": "Dit feit over technical details van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V70)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is Natuurlijke taalverwerking regarding comparisons? (Q71)",
+      "es": "What is Natuurlijke taalverwerking con respecto a comparisons? (P71)",
+      "de": "What is Natuurlijke taalverwerking in Bezug auf comparisons? (F71)",
+      "nl": "What is Natuurlijke taalverwerking met betrekking tot comparisons? (V71)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option A für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - comparisons aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option B für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - comparisons aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option C für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - comparisons aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option D für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - comparisons aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's comparisons is verified and educational (Level 3, Q71).",
+      "es": "Este hecho sobre comparisons de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P71).",
+      "de": "Diese Tatsache über comparisons von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F71).",
+      "nl": "Dit feit over comparisons van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V71)."
+    }
+  },
+  {
+    "question": {
+      "en": "When did Natuurlijke taalverwerking regarding comparisons? (Q72)",
+      "es": "When did Natuurlijke taalverwerking con respecto a comparisons? (P72)",
+      "de": "When did Natuurlijke taalverwerking in Bezug auf comparisons? (F72)",
+      "nl": "When did Natuurlijke taalverwerking met betrekking tot comparisons? (V72)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option A für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - comparisons aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option B für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - comparisons aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option C für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - comparisons aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option D für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - comparisons aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's comparisons is verified and educational (Level 3, Q72).",
+      "es": "Este hecho sobre comparisons de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P72).",
+      "de": "Diese Tatsache über comparisons von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F72).",
+      "nl": "Dit feit over comparisons van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V72)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where is Natuurlijke taalverwerking regarding comparisons? (Q73)",
+      "es": "Where is Natuurlijke taalverwerking con respecto a comparisons? (P73)",
+      "de": "Where is Natuurlijke taalverwerking in Bezug auf comparisons? (F73)",
+      "nl": "Where is Natuurlijke taalverwerking met betrekking tot comparisons? (V73)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option A für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - comparisons aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option B für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - comparisons aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option C für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - comparisons aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option D für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - comparisons aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's comparisons is verified and educational (Level 3, Q73).",
+      "es": "Este hecho sobre comparisons de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P73).",
+      "de": "Diese Tatsache über comparisons von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F73).",
+      "nl": "Dit feit over comparisons van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V73)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who invented Natuurlijke taalverwerking regarding comparisons? (Q74)",
+      "es": "Who invented Natuurlijke taalverwerking con respecto a comparisons? (P74)",
+      "de": "Who invented Natuurlijke taalverwerking in Bezug auf comparisons? (F74)",
+      "nl": "Who invented Natuurlijke taalverwerking met betrekking tot comparisons? (V74)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option A für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - comparisons aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option B für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - comparisons aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option C für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - comparisons aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option D für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - comparisons aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's comparisons is verified and educational (Level 3, Q74).",
+      "es": "Este hecho sobre comparisons de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P74).",
+      "de": "Diese Tatsache über comparisons von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F74).",
+      "nl": "Dit feit over comparisons van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V74)."
+    }
+  },
+  {
+    "question": {
+      "en": "How does Natuurlijke taalverwerking regarding comparisons? (Q75)",
+      "es": "How does Natuurlijke taalverwerking con respecto a comparisons? (P75)",
+      "de": "How does Natuurlijke taalverwerking in Bezug auf comparisons? (F75)",
+      "nl": "How does Natuurlijke taalverwerking met betrekking tot comparisons? (V75)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option A für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - comparisons aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option B für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - comparisons aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option C für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - comparisons aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option D für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - comparisons aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's comparisons is verified and educational (Level 3, Q75).",
+      "es": "Este hecho sobre comparisons de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P75).",
+      "de": "Diese Tatsache über comparisons von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F75).",
+      "nl": "Dit feit over comparisons van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V75)."
+    }
+  },
+  {
+    "question": {
+      "en": "Why is Natuurlijke taalverwerking regarding comparisons? (Q76)",
+      "es": "Why is Natuurlijke taalverwerking con respecto a comparisons? (P76)",
+      "de": "Why is Natuurlijke taalverwerking in Bezug auf comparisons? (F76)",
+      "nl": "Why is Natuurlijke taalverwerking met betrekking tot comparisons? (V76)"
+    },
+    "options": [
+      {
+        "en": "Option D for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option D für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - comparisons aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option C für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - comparisons aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option B für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - comparisons aspect"
+      },
+      {
+        "en": "Option A for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option A für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - comparisons aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's comparisons is verified and educational (Level 3, Q76).",
+      "es": "Este hecho sobre comparisons de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P76).",
+      "de": "Diese Tatsache über comparisons von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F76).",
+      "nl": "Dit feit over comparisons van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V76)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which type of Natuurlijke taalverwerking regarding comparisons? (Q77)",
+      "es": "Which type of Natuurlijke taalverwerking con respecto a comparisons? (P77)",
+      "de": "Which type of Natuurlijke taalverwerking in Bezug auf comparisons? (F77)",
+      "nl": "Which type of Natuurlijke taalverwerking met betrekking tot comparisons? (V77)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option A für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - comparisons aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option B für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - comparisons aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option C für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - comparisons aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option D für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - comparisons aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's comparisons is verified and educational (Level 3, Q77).",
+      "es": "Este hecho sobre comparisons de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P77).",
+      "de": "Diese Tatsache über comparisons von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F77).",
+      "nl": "Dit feit over comparisons van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V77)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many Natuurlijke taalverwerking regarding comparisons? (Q78)",
+      "es": "How many Natuurlijke taalverwerking con respecto a comparisons? (P78)",
+      "de": "How many Natuurlijke taalverwerking in Bezug auf comparisons? (F78)",
+      "nl": "How many Natuurlijke taalverwerking met betrekking tot comparisons? (V78)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option A für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - comparisons aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option B für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - comparisons aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option C für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - comparisons aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option D für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - comparisons aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's comparisons is verified and educational (Level 3, Q78).",
+      "es": "Este hecho sobre comparisons de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P78).",
+      "de": "Diese Tatsache über comparisons von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F78).",
+      "nl": "Dit feit over comparisons van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V78)."
+    }
+  },
+  {
+    "question": {
+      "en": "Key feature of Natuurlijke taalverwerking regarding comparisons? (Q79)",
+      "es": "Key feature of Natuurlijke taalverwerking con respecto a comparisons? (P79)",
+      "de": "Key feature of Natuurlijke taalverwerking in Bezug auf comparisons? (F79)",
+      "nl": "Key feature of Natuurlijke taalverwerking met betrekking tot comparisons? (V79)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option A für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - comparisons aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option B für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - comparisons aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option D für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - comparisons aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option C für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - comparisons aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's comparisons is verified and educational (Level 3, Q79).",
+      "es": "Este hecho sobre comparisons de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P79).",
+      "de": "Diese Tatsache über comparisons von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F79).",
+      "nl": "Dit feit over comparisons van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V79)."
+    }
+  },
+  {
+    "question": {
+      "en": "Compared to others Natuurlijke taalverwerking regarding comparisons? (Q80)",
+      "es": "Compared to others Natuurlijke taalverwerking con respecto a comparisons? (P80)",
+      "de": "Compared to others Natuurlijke taalverwerking in Bezug auf comparisons? (F80)",
+      "nl": "Compared to others Natuurlijke taalverwerking met betrekking tot comparisons? (V80)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option A für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - comparisons aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option B für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - comparisons aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option C für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - comparisons aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - comparisons aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto comparisons",
+        "de": "Option D für Natuurlijke taalverwerking - comparisons Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - comparisons aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's comparisons is verified and educational (Level 3, Q80).",
+      "es": "Este hecho sobre comparisons de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P80).",
+      "de": "Diese Tatsache über comparisons von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F80).",
+      "nl": "Dit feit over comparisons van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V80)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is Natuurlijke taalverwerking regarding notable examples? (Q81)",
+      "es": "What is Natuurlijke taalverwerking con respecto a notable examples? (P81)",
+      "de": "What is Natuurlijke taalverwerking in Bezug auf notable examples? (F81)",
+      "nl": "What is Natuurlijke taalverwerking met betrekking tot notable examples? (V81)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option A für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - notable examples aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option B für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - notable examples aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option C für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - notable examples aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option D für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - notable examples aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's notable examples is verified and educational (Level 3, Q81).",
+      "es": "Este hecho sobre notable examples de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P81).",
+      "de": "Diese Tatsache über notable examples von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F81).",
+      "nl": "Dit feit over notable examples van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V81)."
+    }
+  },
+  {
+    "question": {
+      "en": "When did Natuurlijke taalverwerking regarding notable examples? (Q82)",
+      "es": "When did Natuurlijke taalverwerking con respecto a notable examples? (P82)",
+      "de": "When did Natuurlijke taalverwerking in Bezug auf notable examples? (F82)",
+      "nl": "When did Natuurlijke taalverwerking met betrekking tot notable examples? (V82)"
+    },
+    "options": [
+      {
+        "en": "Option C for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option C für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - notable examples aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option D für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - notable examples aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option B für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - notable examples aspect"
+      },
+      {
+        "en": "Option A for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option A für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - notable examples aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's notable examples is verified and educational (Level 3, Q82).",
+      "es": "Este hecho sobre notable examples de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P82).",
+      "de": "Diese Tatsache über notable examples von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F82).",
+      "nl": "Dit feit over notable examples van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V82)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where is Natuurlijke taalverwerking regarding notable examples? (Q83)",
+      "es": "Where is Natuurlijke taalverwerking con respecto a notable examples? (P83)",
+      "de": "Where is Natuurlijke taalverwerking in Bezug auf notable examples? (F83)",
+      "nl": "Where is Natuurlijke taalverwerking met betrekking tot notable examples? (V83)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option A für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - notable examples aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option B für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - notable examples aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option C für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - notable examples aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option D für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - notable examples aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's notable examples is verified and educational (Level 3, Q83).",
+      "es": "Este hecho sobre notable examples de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P83).",
+      "de": "Diese Tatsache über notable examples von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F83).",
+      "nl": "Dit feit over notable examples van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V83)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who invented Natuurlijke taalverwerking regarding notable examples? (Q84)",
+      "es": "Who invented Natuurlijke taalverwerking con respecto a notable examples? (P84)",
+      "de": "Who invented Natuurlijke taalverwerking in Bezug auf notable examples? (F84)",
+      "nl": "Who invented Natuurlijke taalverwerking met betrekking tot notable examples? (V84)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option A für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - notable examples aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option B für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - notable examples aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option C für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - notable examples aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option D für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - notable examples aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's notable examples is verified and educational (Level 3, Q84).",
+      "es": "Este hecho sobre notable examples de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P84).",
+      "de": "Diese Tatsache über notable examples von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F84).",
+      "nl": "Dit feit over notable examples van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V84)."
+    }
+  },
+  {
+    "question": {
+      "en": "How does Natuurlijke taalverwerking regarding notable examples? (Q85)",
+      "es": "How does Natuurlijke taalverwerking con respecto a notable examples? (P85)",
+      "de": "How does Natuurlijke taalverwerking in Bezug auf notable examples? (F85)",
+      "nl": "How does Natuurlijke taalverwerking met betrekking tot notable examples? (V85)"
+    },
+    "options": [
+      {
+        "en": "Option C for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option C für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - notable examples aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option D für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - notable examples aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option B für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - notable examples aspect"
+      },
+      {
+        "en": "Option A for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option A für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - notable examples aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's notable examples is verified and educational (Level 3, Q85).",
+      "es": "Este hecho sobre notable examples de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P85).",
+      "de": "Diese Tatsache über notable examples von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F85).",
+      "nl": "Dit feit over notable examples van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V85)."
+    }
+  },
+  {
+    "question": {
+      "en": "Why is Natuurlijke taalverwerking regarding notable examples? (Q86)",
+      "es": "Why is Natuurlijke taalverwerking con respecto a notable examples? (P86)",
+      "de": "Why is Natuurlijke taalverwerking in Bezug auf notable examples? (F86)",
+      "nl": "Why is Natuurlijke taalverwerking met betrekking tot notable examples? (V86)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option A für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - notable examples aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option B für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - notable examples aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option C für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - notable examples aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option D für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - notable examples aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's notable examples is verified and educational (Level 3, Q86).",
+      "es": "Este hecho sobre notable examples de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P86).",
+      "de": "Diese Tatsache über notable examples von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F86).",
+      "nl": "Dit feit over notable examples van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V86)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which type of Natuurlijke taalverwerking regarding notable examples? (Q87)",
+      "es": "Which type of Natuurlijke taalverwerking con respecto a notable examples? (P87)",
+      "de": "Which type of Natuurlijke taalverwerking in Bezug auf notable examples? (F87)",
+      "nl": "Which type of Natuurlijke taalverwerking met betrekking tot notable examples? (V87)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option A für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - notable examples aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option B für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - notable examples aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option C für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - notable examples aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option D für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - notable examples aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's notable examples is verified and educational (Level 3, Q87).",
+      "es": "Este hecho sobre notable examples de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P87).",
+      "de": "Diese Tatsache über notable examples von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F87).",
+      "nl": "Dit feit over notable examples van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V87)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many Natuurlijke taalverwerking regarding notable examples? (Q88)",
+      "es": "How many Natuurlijke taalverwerking con respecto a notable examples? (P88)",
+      "de": "How many Natuurlijke taalverwerking in Bezug auf notable examples? (F88)",
+      "nl": "How many Natuurlijke taalverwerking met betrekking tot notable examples? (V88)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option A für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - notable examples aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option B für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - notable examples aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option C für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - notable examples aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option D für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - notable examples aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's notable examples is verified and educational (Level 3, Q88).",
+      "es": "Este hecho sobre notable examples de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P88).",
+      "de": "Diese Tatsache über notable examples von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F88).",
+      "nl": "Dit feit over notable examples van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V88)."
+    }
+  },
+  {
+    "question": {
+      "en": "Key feature of Natuurlijke taalverwerking regarding notable examples? (Q89)",
+      "es": "Key feature of Natuurlijke taalverwerking con respecto a notable examples? (P89)",
+      "de": "Key feature of Natuurlijke taalverwerking in Bezug auf notable examples? (F89)",
+      "nl": "Key feature of Natuurlijke taalverwerking met betrekking tot notable examples? (V89)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option A für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - notable examples aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option B für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - notable examples aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option C für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - notable examples aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option D für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - notable examples aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's notable examples is verified and educational (Level 3, Q89).",
+      "es": "Este hecho sobre notable examples de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P89).",
+      "de": "Diese Tatsache über notable examples von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F89).",
+      "nl": "Dit feit over notable examples van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V89)."
+    }
+  },
+  {
+    "question": {
+      "en": "Compared to others Natuurlijke taalverwerking regarding notable examples? (Q90)",
+      "es": "Compared to others Natuurlijke taalverwerking con respecto a notable examples? (P90)",
+      "de": "Compared to others Natuurlijke taalverwerking in Bezug auf notable examples? (F90)",
+      "nl": "Compared to others Natuurlijke taalverwerking met betrekking tot notable examples? (V90)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option A für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - notable examples aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option B für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - notable examples aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option C für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - notable examples aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - notable examples aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto notable examples",
+        "de": "Option D für Natuurlijke taalverwerking - notable examples Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - notable examples aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's notable examples is verified and educational (Level 3, Q90).",
+      "es": "Este hecho sobre notable examples de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P90).",
+      "de": "Diese Tatsache über notable examples von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F90).",
+      "nl": "Dit feit over notable examples van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V90)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is Natuurlijke taalverwerking regarding future trends? (Q91)",
+      "es": "What is Natuurlijke taalverwerking con respecto a future trends? (P91)",
+      "de": "What is Natuurlijke taalverwerking in Bezug auf future trends? (F91)",
+      "nl": "What is Natuurlijke taalverwerking met betrekking tot future trends? (V91)"
+    },
+    "options": [
+      {
+        "en": "Option B for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option B für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - future trends aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option D für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - future trends aspect"
+      },
+      {
+        "en": "Option A for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option A für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - future trends aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option C für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - future trends aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's future trends is verified and educational (Level 3, Q91).",
+      "es": "Este hecho sobre future trends de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P91).",
+      "de": "Diese Tatsache über future trends von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F91).",
+      "nl": "Dit feit over future trends van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V91)."
+    }
+  },
+  {
+    "question": {
+      "en": "When did Natuurlijke taalverwerking regarding future trends? (Q92)",
+      "es": "When did Natuurlijke taalverwerking con respecto a future trends? (P92)",
+      "de": "When did Natuurlijke taalverwerking in Bezug auf future trends? (F92)",
+      "nl": "When did Natuurlijke taalverwerking met betrekking tot future trends? (V92)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option A für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - future trends aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option B für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - future trends aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option C für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - future trends aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option D für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - future trends aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's future trends is verified and educational (Level 3, Q92).",
+      "es": "Este hecho sobre future trends de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P92).",
+      "de": "Diese Tatsache über future trends von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F92).",
+      "nl": "Dit feit over future trends van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V92)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where is Natuurlijke taalverwerking regarding future trends? (Q93)",
+      "es": "Where is Natuurlijke taalverwerking con respecto a future trends? (P93)",
+      "de": "Where is Natuurlijke taalverwerking in Bezug auf future trends? (F93)",
+      "nl": "Where is Natuurlijke taalverwerking met betrekking tot future trends? (V93)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option A für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - future trends aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option B für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - future trends aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option C für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - future trends aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option D für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - future trends aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's future trends is verified and educational (Level 3, Q93).",
+      "es": "Este hecho sobre future trends de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P93).",
+      "de": "Diese Tatsache über future trends von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F93).",
+      "nl": "Dit feit over future trends van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V93)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who invented Natuurlijke taalverwerking regarding future trends? (Q94)",
+      "es": "Who invented Natuurlijke taalverwerking con respecto a future trends? (P94)",
+      "de": "Who invented Natuurlijke taalverwerking in Bezug auf future trends? (F94)",
+      "nl": "Who invented Natuurlijke taalverwerking met betrekking tot future trends? (V94)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option A für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - future trends aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option D für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - future trends aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option B für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - future trends aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option C für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - future trends aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's future trends is verified and educational (Level 3, Q94).",
+      "es": "Este hecho sobre future trends de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P94).",
+      "de": "Diese Tatsache über future trends von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F94).",
+      "nl": "Dit feit over future trends van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V94)."
+    }
+  },
+  {
+    "question": {
+      "en": "How does Natuurlijke taalverwerking regarding future trends? (Q95)",
+      "es": "How does Natuurlijke taalverwerking con respecto a future trends? (P95)",
+      "de": "How does Natuurlijke taalverwerking in Bezug auf future trends? (F95)",
+      "nl": "How does Natuurlijke taalverwerking met betrekking tot future trends? (V95)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option A für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - future trends aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option B für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - future trends aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option C für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - future trends aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option D für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - future trends aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's future trends is verified and educational (Level 3, Q95).",
+      "es": "Este hecho sobre future trends de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P95).",
+      "de": "Diese Tatsache über future trends von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F95).",
+      "nl": "Dit feit over future trends van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V95)."
+    }
+  },
+  {
+    "question": {
+      "en": "Why is Natuurlijke taalverwerking regarding future trends? (Q96)",
+      "es": "Why is Natuurlijke taalverwerking con respecto a future trends? (P96)",
+      "de": "Why is Natuurlijke taalverwerking in Bezug auf future trends? (F96)",
+      "nl": "Why is Natuurlijke taalverwerking met betrekking tot future trends? (V96)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option A für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - future trends aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option B für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - future trends aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option C für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - future trends aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option D für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - future trends aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's future trends is verified and educational (Level 3, Q96).",
+      "es": "Este hecho sobre future trends de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P96).",
+      "de": "Diese Tatsache über future trends von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F96).",
+      "nl": "Dit feit over future trends van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V96)."
+    }
+  },
+  {
+    "question": {
+      "en": "Which type of Natuurlijke taalverwerking regarding future trends? (Q97)",
+      "es": "Which type of Natuurlijke taalverwerking con respecto a future trends? (P97)",
+      "de": "Which type of Natuurlijke taalverwerking in Bezug auf future trends? (F97)",
+      "nl": "Which type of Natuurlijke taalverwerking met betrekking tot future trends? (V97)"
+    },
+    "options": [
+      {
+        "en": "Option D for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option D für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - future trends aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option C für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - future trends aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option B für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - future trends aspect"
+      },
+      {
+        "en": "Option A for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option A für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - future trends aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's future trends is verified and educational (Level 3, Q97).",
+      "es": "Este hecho sobre future trends de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P97).",
+      "de": "Diese Tatsache über future trends von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F97).",
+      "nl": "Dit feit over future trends van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V97)."
+    }
+  },
+  {
+    "question": {
+      "en": "How many Natuurlijke taalverwerking regarding future trends? (Q98)",
+      "es": "How many Natuurlijke taalverwerking con respecto a future trends? (P98)",
+      "de": "How many Natuurlijke taalverwerking in Bezug auf future trends? (F98)",
+      "nl": "How many Natuurlijke taalverwerking met betrekking tot future trends? (V98)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option A für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - future trends aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option B für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - future trends aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option C für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - future trends aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option D für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - future trends aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's future trends is verified and educational (Level 3, Q98).",
+      "es": "Este hecho sobre future trends de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P98).",
+      "de": "Diese Tatsache über future trends von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F98).",
+      "nl": "Dit feit over future trends van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V98)."
+    }
+  },
+  {
+    "question": {
+      "en": "Key feature of Natuurlijke taalverwerking regarding future trends? (Q99)",
+      "es": "Key feature of Natuurlijke taalverwerking con respecto a future trends? (P99)",
+      "de": "Key feature of Natuurlijke taalverwerking in Bezug auf future trends? (F99)",
+      "nl": "Key feature of Natuurlijke taalverwerking met betrekking tot future trends? (V99)"
+    },
+    "options": [
+      {
+        "en": "Option A for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option A für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - future trends aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option B für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - future trends aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option C für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - future trends aspect"
+      },
+      {
+        "en": "Option D for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option D für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - future trends aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's future trends is verified and educational (Level 3, Q99).",
+      "es": "Este hecho sobre future trends de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P99).",
+      "de": "Diese Tatsache über future trends von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F99).",
+      "nl": "Dit feit over future trends van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V99)."
+    }
+  },
+  {
+    "question": {
+      "en": "Compared to others Natuurlijke taalverwerking regarding future trends? (Q100)",
+      "es": "Compared to others Natuurlijke taalverwerking con respecto a future trends? (P100)",
+      "de": "Compared to others Natuurlijke taalverwerking in Bezug auf future trends? (F100)",
+      "nl": "Compared to others Natuurlijke taalverwerking met betrekking tot future trends? (V100)"
+    },
+    "options": [
+      {
+        "en": "Option D for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción D para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option D für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie D voor Natuurlijke taalverwerking - future trends aspect"
+      },
+      {
+        "en": "Option A for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción A para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option A für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie A voor Natuurlijke taalverwerking - future trends aspect"
+      },
+      {
+        "en": "Option C for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción C para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option C für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie C voor Natuurlijke taalverwerking - future trends aspect"
+      },
+      {
+        "en": "Option B for Natuurlijke taalverwerking - future trends aspect",
+        "es": "Opción B para Natuurlijke taalverwerking - aspecto future trends",
+        "de": "Option B für Natuurlijke taalverwerking - future trends Aspekt",
+        "nl": "Optie B voor Natuurlijke taalverwerking - future trends aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Natuurlijke taalverwerking's future trends is verified and educational (Level 3, Q100).",
+      "es": "Este hecho sobre future trends de Natuurlijke taalverwerking es verificado y educativo (Nivel 3, P100).",
+      "de": "Diese Tatsache über future trends von Natuurlijke taalverwerking ist verifiziert und lehrreich (Stufe 3, F100).",
+      "nl": "Dit feit over future trends van Natuurlijke taalverwerking is geverifieerd en educatief (Niveau 3, V100)."
+    }
   }
-})();
+]
+};

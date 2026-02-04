@@ -1,1657 +1,4104 @@
-// Cryptocurrency Quiz - Level 10
-(function() {
-  const level10 = {
-    name: {
-          "en": "Cryptocurrency - Master Level",
-          "es": "Criptomonedas - Nivel Maestro",
-          "de": "Kryptowährungen - Meisterstufe",
-          "nl": "Cryptocurrency - Meesterniveau"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Cryptocurrency",
+      "es": "Pregunta 1 sobre Cryptocurrency",
+      "de": "Frage 1 über Cryptocurrency",
+      "nl": "Vraag 1 over Cryptocurrency"
     },
-    questions: [
+    "options": [
       {
-        question: {
-                  "en": "What UC framework limitation prevents perfect privacy in concurrent zero-knowledge protocols?",
-                  "es": "¿Qué limitación UC impide privacidad perfecta en protocolos zero-knowledge concurrentes?",
-                  "de": "Welche UC-Framework-Begrenzung verhindert perfekte Privatsphäre in concurrent Zero-Knowledge?",
-                  "nl": "Welke UC-framework beperking voorkomt perfecte privacy in gelijktijdige zero-knowledge?"
-        },
-        options: [
-        {
-                  "en": "The impossibility of simulation-sound extractability",
-                  "es": "La imposibilidad de extractabilidad de sonido de simulación",
-                  "de": "Die Unmöglichkeit der simulationsechten Extrahierbarkeit",
-                  "nl": "De onmogelijkheid van simulatie-geluid extracteerbaarheid"
-        },
-        {
-                  "en": "The adaptive corruption model breakdown",
-                  "es": "La ruptura del modelo de corrupción adaptiva",
-                  "de": "Der Zusammenbruch des adaptiven Korruptionsmodells",
-                  "nl": "De adaptieve corruptie model afbraak"
-        },
-        {
-                  "en": "The concurrent zero-knowledge impossibility result",
-                  "es": "El resultado de imposibilidad de conocimiento cero concurrente",
-                  "de": "Das Unmöglichkeitsergebnis für concurrent Zero-Knowledge",
-                  "nl": "Het gelijktijdige zero-knowledge onmogelijkheidsresultaat"
-        },
-        {
-                  "en": "The global setup requirement contradiction",
-                  "es": "La contradicción del requisito de configuración global",
-                  "de": "Der Widerspruch der globalen Setup-Anforderung",
-                  "nl": "De globale setup vereiste contradictie"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The concurrent zero-knowledge impossibility result by Canetti, Kilian, Petrank, and Rosen shows that concurrent zero-knowledge is impossible in the plain model under polynomial-time assumptions, requiring trusted setup or timing assumptions.",
-                  "es": "El resultado de imposibilidad de conocimiento cero concurrente de Canetti, Kilian, Petrank y Rosen muestra que el conocimiento cero concurrente es imposible en el modelo plano bajo suposiciones de tiempo polinomial, requiriendo configuración confiable o suposiciones de temporización.",
-                  "de": "Das Unmöglichkeitsergebnis für concurrent Zero-Knowledge von Canetti, Kilian, Petrank und Rosen zeigt, dass concurrent Zero-Knowledge im Plain-Modell unter polynomialen Zeitannahmen unmöglich ist und vertrauensvolle Einrichtung oder Timing-Annahmen erfordert.",
-                  "nl": "Het gelijktijdige zero-knowledge onmogelijkheidsresultaat van Canetti, Kilian, Petrank en Rosen toont aan dat gelijktijdige zero-knowledge onmogelijk is in het gewone model onder polynomiale tijd aannames, waarbij vertrouwde setup of timing aannames vereist zijn."
-        }
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
       },
       {
-        question: {
-                  "en": "Why can't Rational Proofs achieve soundness error below 1/2 against unbounded provers?",
-                  "es": "¿Por qué las Pruebas Racionales no pueden lograr error de solidez < 1/2 contra probadores ilimitados?",
-                  "de": "Warum können Rational Proofs keinen Soundness-Fehler unter 1/2 gegen unbegrenzte Beweiser erreichen?",
-                  "nl": "Waarom kunnen Rational Proofs geen soundness fout onder 1/2 bereiken tegen onbegrensde bewijzers?"
-        },
-        options: [
-        {
-                  "en": "The impossibility of punishment in single-shot games",
-                  "es": "La imposibilidad de castigo en juegos de una sola vez",
-                  "de": "Die Unmöglichkeit der Bestrafung in einmaligen Spielen",
-                  "nl": "De onmogelijkheid van bestraffing in eenmalige spellen"
-        },
-        {
-                  "en": "The minimax theorem constraint on mixed strategies",
-                  "es": "La restricción del teorema minimax en estrategias mixtas",
-                  "de": "Die Minimax-Theorem-Beschränkung bei gemischten Strategien",
-                  "nl": "De minimax theorema beperking op gemengde strategieën"
-        },
-        {
-                  "en": "The Nash equilibrium uniqueness requirement",
-                  "es": "El requisito de unicidad del equilibrio de Nash",
-                  "de": "Die Eindeutigkeitsanforderung des Nash-Gleichgewichts",
-                  "nl": "De Nash evenwicht uniekheid vereiste"
-        },
-        {
-                  "en": "The computational indistinguishability breakdown",
-                  "es": "La ruptura de la indistinguibilidad computacional",
-                  "de": "Der Zusammenbruch der rechnerischen Ununterscheidbarkeit",
-                  "nl": "De computationele ononderscheidbaarheid afbraak"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "By the minimax theorem, in any finite game, the value of the game for the prover is at least the maximum over mixed strategies they can guarantee, which for binary outcome verification games cannot exceed 1/2 when facing an optimal verifier.",
-                  "es": "Por el teorema minimax, en cualquier juego finito, el valor del juego para el probador es al menos el máximo sobre las estrategias mixtas que pueden garantizar, que para juegos de verificación de resultado binario no puede exceder 1/2 cuando se enfrenta a un verificador óptimo.",
-                  "de": "Nach dem Minimax-Theorem ist in jedem endlichen Spiel der Wert des Spiels für den Beweiser mindestens das Maximum über gemischte Strategien, die sie garantieren können, was bei binären Ergebnis-Verifikationsspielen 1/2 nicht überschreiten kann, wenn sie einem optimalen Verifizierer gegenüberstehen.",
-                  "nl": "Volgens het minimax theorema is in elk eindig spel de waarde van het spel voor de bewijzer ten minste het maximum over gemengde strategieën die zij kunnen garanderen, wat voor binaire uitkomst verificatie spellen niet meer dan 1/2 kan zijn wanneer geconfronteerd met een optimale verifieerder."
-        }
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
       },
       {
-        question: {
-                  "en": "In the algebraic group model (AGM), what property distinguishes algebraic adversaries from generic adversaries in the context of discrete logarithm-based assumptions?",
-                  "es": "En el modelo de grupo algebraico (AGM), ¿qué propiedad distingue a los adversarios algebraicos de los adversarios genéricos en el contexto de las suposiciones basadas en logaritmos discretos?",
-                  "de": "Im algebraischen Gruppenmodell (AGM), welche Eigenschaft unterscheidet algebraische Adversaries von generischen Adversaries im Kontext diskreter logarithmusbasierter Annahmen?",
-                  "nl": "In het algebraïsche groep model (AGM), welke eigenschap onderscheidt algebraïsche tegenstanders van generieke tegenstanders in de context van discrete logaritme-gebaseerde aannames?"
-        },
-        options: [
-        {
-                  "en": "Polynomial-time solution to the representation problem",
-                  "es": "Solución en tiempo polinomial al problema de representación",
-                  "de": "Polynomialzeit-Lösung für das Darstellungsproblem",
-                  "nl": "Polynomiale tijd oplossing voor het representatie probleem"
-        },
-        {
-                  "en": "Ability to compute discrete logarithms in subgroups",
-                  "es": "Capacidad de calcular logaritmos discretos en subgrupos",
-                  "de": "Fähigkeit, diskrete Logarithmen in Untergruppen zu berechnen",
-                  "nl": "Vermogen om discrete logaritmen in subgroepen te berekenen"
-        },
-        {
-                  "en": "Knowledge of group element representations as linear combinations",
-                  "es": "Conocimiento de representaciones de elementos de grupo como combinaciones lineales",
-                  "de": "Kenntnis von Gruppenelement-Darstellungen als Linearkombinationen",
-                  "nl": "Kennis van groep element representaties als lineaire combinaties"
-        },
-        {
-                  "en": "Access to the group operation oracle without restrictions",
-                  "es": "Acceso al oráculo de operación de grupo sin restricciones",
-                  "de": "Zugang zum Gruppenoperations-Orakel ohne Beschränkungen",
-                  "nl": "Toegang tot het groep operatie orakel zonder beperkingen"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "In the AGM, algebraic adversaries must provide, alongside any group element they output, a representation of that element as a linear combination of previously seen group elements, capturing the algebraic nature of their computations.",
-                  "es": "En el AGM, los adversarios algebraicos deben proporcionar, junto con cualquier elemento de grupo que produzcan, una representación de ese elemento como una combinación lineal de elementos de grupo vistos previamente, capturando la naturaleza algebraica de sus cálculos.",
-                  "de": "Im AGM müssen algebraische Adversaries zusammen mit jedem Gruppenelement, das sie ausgeben, eine Darstellung dieses Elements als Linearkombination zuvor gesehener Gruppenelemente liefern, was die algebraische Natur ihrer Berechnungen erfasst.",
-                  "nl": "In het AGM moeten algebraïsche tegenstanders, naast elk groep element dat zij uitvoeren, een representatie van dat element leveren als een lineaire combinatie van eerder geziene groep elementen, waarbij de algebraïsche aard van hun berekeningen wordt vastgelegd."
-        }
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
       },
       {
-        question: {
-                  "en": "What assumption is violated with perfect forward secrecy and post-compromise security simultaneously?",
-                  "es": "¿Qué suposición se viola con perfect forward secrecy y post-compromise security simultáneos?",
-                  "de": "Welche Annahme wird verletzt bei gleichzeitiger Forward Secrecy und Post-Compromise Security?",
-                  "nl": "Welke aanname wordt geschonden bij gelijktijdige forward secrecy en post-compromise security?"
-        },
-        options: [
-        {
-                  "en": "The bounded storage assumption for adversarial memory",
-                  "es": "La suposición de almacenamiento limitado para la memoria adversarial",
-                  "de": "Die begrenzte Speicherannahme für adversariales Gedächtnis",
-                  "nl": "De begrensde opslag aanname voor adversarieel geheugen"
-        },
-        {
-                  "en": "The impossibility of self-healing in the presence of continuous leakage",
-                  "es": "La imposibilidad de auto-sanación en presencia de fuga continua",
-                  "de": "Die Unmöglichkeit der Selbstheilung bei kontinuierlicher Leckage",
-                  "nl": "De onmogelijkheid van zelf-genezing in aanwezigheid van continue lekkage"
-        },
-        {
-                  "en": "The erasure-free adversarial model requirement",
-                  "es": "El requisito del modelo adversarial libre de borrado",
-                  "de": "Die Anforderung des löschfreien adversarialen Modells",
-                  "nl": "De wisvrije adversariële model vereiste"
-        },
-        {
-                  "en": "The non-committing encryption impossibility in the standard model",
-                  "es": "La imposibilidad de cifrado no comprometedor en el modelo estándar",
-                  "de": "Die Non-Committing Encryption Unmöglichkeit im Standardmodell",
-                  "nl": "De non-committing encryptie onmogelijkheid in het standaard model"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Perfect forward secrecy and post-compromise security are fundamentally incompatible in continuous leakage models because achieving both requires the system to simultaneously 'forget' past states and 'recover' from future compromises, violating the self-healing impossibility theorem.",
-                  "es": "El secreto hacia adelante perfecto y la seguridad post-compromiso son fundamentalmente incompatibles en modelos de fuga continua porque lograr ambos requiere que el sistema simultáneamente 'olvide' estados pasados y se 'recupere' de compromisos futuros, violando el teorema de imposibilidad de auto-sanación.",
-                  "de": "Perfekte Forward Secrecy und Post-Compromise Security sind in kontinuierlichen Leakage-Modellen grundsätzlich unvereinbar, da das Erreichen beider erfordert, dass das System gleichzeitig vergangene Zustände 'vergisst' und sich von zukünftigen Kompromittierungen 'erholt', was das Selbstheilungs-Unmöglichkeitstheorem verletzt.",
-                  "nl": "Perfecte forward secrecy en post-compromise security zijn fundamenteel incompatibel in continue lekkage modellen omdat het bereiken van beide vereist dat het systeem gelijktijdig vroegere toestanden 'vergeet' en 'herstelt' van toekomstige compromissen, wat het zelf-genezing onmogelijkheidstheorema schendt."
-        }
-      },
-      {
-        question: {
-                  "en": "What IVC structure maintains perfect completeness under adversarial accumulator manipulation?",
-                  "es": "¿Qué estructura IVC mantiene completitud perfecta bajo manipulación adversarial del acumulador?",
-                  "de": "Welche IVC-Struktur erhält perfekte Vollständigkeit unter adversarialer Akkumulator-Manipulation?",
-                  "nl": "Welke IVC-structuur behoudt perfecte volledigheid onder adversariële accumulator manipulatie?"
-        },
-        options: [
-        {
-                  "en": "A collision-resistant accumulator with witness indistinguishability",
-                  "es": "Un acumulador resistente a colisiones con indistinguibilidad de testigos",
-                  "de": "Ein kollisionsresistenter Akkumulator mit Zeugen-Ununterscheidbarkeit",
-                  "nl": "Een botsingsbestendige accumulator met getuige ononderscheidbaarheid"
-        },
-        {
-                  "en": "A polynomial commitment with degree-hiding and simulation extractability",
-                  "es": "Un compromiso polinomial con ocultación de grado y extractabilidad de simulación",
-                  "de": "Ein polynomiales Commitment mit Grad-Verschleierung und Simulations-Extrahierbarkeit",
-                  "nl": "Een polynomiaal commitment met graad-verberging en simulatie extracteerbaarheid"
-        },
-        {
-                  "en": "A bilinear group with efficient pairing and trusted setup",
-                  "es": "Un grupo bilineal con emparejamiento eficiente y configuración confiable",
-                  "de": "Eine bilineare Gruppe mit effizienter Paarung und vertrauensvoller Einrichtung",
-                  "nl": "Een bilineaire groep met efficiënte pairing en vertrouwde setup"
-        },
-        {
-                  "en": "A homomorphic commitment scheme with extractable binding",
-                  "es": "Un esquema de compromiso homomórfico con vinculación extraíble",
-                  "de": "Ein homomorphes Commitment-Schema mit extrahierbarer Bindung",
-                  "nl": "Een homomorf commitment schema met extraheerbare binding"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "IVC folding schemes require polynomial commitments with both degree-hiding (to prevent leakage about computation structure) and simulation extractability (to ensure soundness even when the adversary sees simulated proofs), which is essential for maintaining completeness under accumulator manipulation.",
-                  "es": "Los esquemas de plegado IVC requieren compromisos polinomiales con ocultación de grado (para prevenir filtración sobre la estructura de computación) y extractabilidad de simulación (para asegurar solidez incluso cuando el adversario ve pruebas simuladas), lo cual es esencial para mantener completitud bajo manipulación del acumulador.",
-                  "de": "IVC-Folding-Schemas erfordern polynomiale Commitments mit sowohl Grad-Verschleierung (um Leckage über die Berechnungsstruktur zu verhindern) als auch Simulations-Extrahierbarkeit (um Soundness auch dann zu gewährleisten, wenn der Adversary simulierte Beweise sieht), was für die Aufrechterhaltung der Vollständigkeit unter Akkumulator-Manipulation wesentlich ist.",
-                  "nl": "IVC folding schema's vereisen polynomiale commitments met zowel graad-verberging (om lekkage over computatie structuur te voorkomen) als simulatie extracteerbaarheid (om soundness te verzekeren zelfs wanneer de tegenstander gesimuleerde bewijzen ziet), wat essentieel is voor het behouden van volledigheid onder accumulator manipulatie."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the fundamental barrier that prevents achieving sub-exponential security reduction tightness in lattice-based cryptography under the Learning With Errors (LWE) assumption?",
-                  "es": "¿Cuál es la barrera fundamental que impide lograr estrechez de reducción de seguridad sub-exponencial en criptografía basada en retículas bajo la suposición de Aprender Con Errores (LWE)?",
-                  "de": "Was ist die fundamentale Barriere, die das Erreichen einer sub-exponentiellen Sicherheitsreduktions-Strenge in gitterbasierten Kryptographie unter der Learning With Errors (LWE) Annahme verhindert?",
-                  "nl": "Wat is de fundamentele barrière die het bereiken van sub-exponentiële beveiligingsreductie strakheid in rooster-gebaseerde cryptografie onder de Learning With Errors (LWE) aanname voorkomt?"
-        },
-        options: [
-        {
-                  "en": "The noise flooding requirement in the reduction argument",
-                  "es": "El requisito de inundación de ruido en el argumento de reducción",
-                  "de": "Die Rausch-Flutungs-Anforderung im Reduktionsargument",
-                  "nl": "De ruis overstroming vereiste in het reductie argument"
-        },
-        {
-                  "en": "The dimension-noise trade-off in the worst-case to average-case reduction",
-                  "es": "El intercambio dimensión-ruido en la reducción de peor caso a caso promedio",
-                  "de": "Der Dimensions-Rausch-Kompromiss in der Worst-Case zu Average-Case Reduktion",
-                  "nl": "De dimensie-ruis afweging in de slechtste geval naar gemiddelde geval reductie"
-        },
-        {
-                  "en": "The approximation factor limitation in the shortest vector problem",
-                  "es": "La limitación del factor de aproximación en el problema del vector más corto",
-                  "de": "Die Approximationsfaktor-Begrenzung im kürzesten Vektorproblem",
-                  "nl": "De benadering factor beperking in het kortste vector probleem"
-        },
-        {
-                  "en": "The quantum versus classical hardness gap for lattice problems",
-                  "es": "La brecha de dureza cuántica versus clásica para problemas de retícula",
-                  "de": "Die Quantum-versus-Klassische Härtelücke für Gitterprobleme",
-                  "nl": "De quantum versus klassieke hardheid kloof voor rooster problemen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The fundamental barrier is the dimension-noise trade-off inherent in the worst-case to average-case reduction for LWE. Achieving tighter reductions requires either increasing the dimension (making the problem harder) or decreasing the noise (making LWE easier), creating an unavoidable tension that prevents sub-exponential tightness.",
-                  "es": "La barrera fundamental es el intercambio dimensión-ruido inherente en la reducción de peor caso a caso promedio para LWE. Lograr reducciones más estrictas requiere aumentar la dimensión (haciendo el problema más difícil) o disminuir el ruido (haciendo LWE más fácil), creando una tensión inevitable que impide la estrechez sub-exponencial.",
-                  "de": "Die fundamentale Barriere ist der Dimensions-Rausch-Kompromiss, der der Worst-Case zu Average-Case Reduktion für LWE innewohnt. Das Erreichen strafferer Reduktionen erfordert entweder eine Erhöhung der Dimension (was das Problem schwieriger macht) oder eine Verringerung des Rauschens (was LWE einfacher macht), was eine unvermeidliche Spannung schafft, die sub-exponentielle Strenge verhindert.",
-                  "nl": "De fundamentele barrière is de dimensie-ruis afweging inherent aan de slechtste geval naar gemiddelde geval reductie voor LWE. Het bereiken van strakkere reducties vereist ofwel het verhogen van de dimensie (waardoor het probleem moeilijker wordt) of het verlagen van de ruis (waardoor LWE makkelijker wordt), wat een onvermijdelijke spanning creëert die sub-exponentiële strakheid voorkomt."
-        }
-      },
-      {
-        question: {
-                  "en": "What MPC property ensures malicious behavior detection probability → 1 with more executions?",
-                  "es": "¿Qué propiedad MPC asegura que la detección de comportamiento malicioso → 1 con más ejecuciones?",
-                  "de": "Welche MPC-Eigenschaft stellt sicher dass Erkennung bösartigen Verhaltens → 1 bei mehr Ausführungen?",
-                  "nl": "Welke MPC-eigenschap zorgt dat detectie kwaadaardig gedrag → 1 bij meer uitvoeringen?"
-        },
-        options: [
-        {
-                  "en": "The statistical independence of challenge-response pairs",
-                  "es": "La independencia estadística de pares desafío-respuesta",
-                  "de": "Die statistische Unabhängigkeit von Challenge-Response-Paaren",
-                  "nl": "De statistische onafhankelijkheid van uitdaging-reactie paren"
-        },
-        {
-                  "en": "The exponential concentration of the binomial distribution",
-                  "es": "La concentración exponencial de la distribución binomial",
-                  "de": "Die exponentielle Konzentration der Binomialverteilung",
-                  "nl": "De exponentiële concentratie van de binomiale verdeling"
-        },
-        {
-                  "en": "The cut-and-choose amplification via Chernoff bound",
-                  "es": "La amplificación de cortar y elegir vía límite de Chernoff",
-                  "de": "Die Cut-and-Choose Verstärkung über Chernoff-Schranke",
-                  "nl": "De knippen-en-kiezen versterking via Chernoff grens"
-        },
-        {
-                  "en": "The threshold secret sharing reconstruction property",
-                  "es": "La propiedad de reconstrucción de compartición de secretos de umbral",
-                  "de": "Die Threshold Secret Sharing Rekonstruktionseigenschaft",
-                  "nl": "De drempel geheim delen reconstructie eigenschap"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Covert security relies on cut-and-choose amplification where the detection probability is amplified through parallel executions. The Chernoff bound guarantees exponential concentration, ensuring that with high probability, a sufficient fraction of executions will be checked to detect malicious behavior.",
-                  "es": "La seguridad encubierta se basa en la amplificación de cortar y elegir donde la probabilidad de detección se amplifica a través de ejecuciones paralelas. El límite de Chernoff garantiza concentración exponencial, asegurando que con alta probabilidad, una fracción suficiente de ejecuciones será verificada para detectar comportamiento malicioso.",
-                  "de": "Covert Security beruht auf Cut-and-Choose Verstärkung, bei der die Erkennungswahrscheinlichkeit durch parallele Ausführungen verstärkt wird. Die Chernoff-Schranke garantiert exponentielle Konzentration und stellt sicher, dass mit hoher Wahrscheinlichkeit ein ausreichender Anteil der Ausführungen überprüft wird, um bösartiges Verhalten zu erkennen.",
-                  "nl": "Covert security berust op knippen-en-kiezen versterking waarbij de detectiekans wordt versterkt door parallelle uitvoeringen. De Chernoff grens garandeert exponentiële concentratie, waardoor met hoge waarschijnlijkheid een voldoende fractie van uitvoeringen wordt gecontroleerd om kwaadaardig gedrag te detecteren."
-        }
-      },
-      {
-        question: {
-                  "en": "Why can't BFT consensus achieve both optimal resilience (f<n/3) and O(n²) complexity simultaneously?",
-                  "es": "¿Por qué BFT no puede lograr resistencia óptima (f<n/3) y complejidad O(n²) simultáneamente?",
-                  "de": "Warum kann BFT nicht Widerstandsfähigkeit (f<n/3) und Komplexität O(n²) gleichzeitig erreichen?",
-                  "nl": "Waarom kan BFT niet veerkracht (f<n/3) en complexiteit O(n²) gelijktijdig bereiken?"
-        },
-        options: [
-        {
-                  "en": "The Dolev-Reischuk lower bound for Byzantine agreement",
-                  "es": "El límite inferior de Dolev-Reischuk para acuerdo Bizantino",
-                  "de": "Die Dolev-Reischuk Untergrenze für Byzantine Agreement",
-                  "nl": "De Dolev-Reischuk ondergrens voor Byzantine agreement"
-        },
-        {
-                  "en": "The CAP theorem constraint on distributed consistency",
-                  "es": "La restricción del teorema CAP en consistencia distribuida",
-                  "de": "Die CAP-Theorem Beschränkung bei verteilter Konsistenz",
-                  "nl": "De CAP theorema beperking op gedistribueerde consistentie"
-        },
-        {
-                  "en": "The FLP impossibility theorem for deterministic consensus",
-                  "es": "El teorema de imposibilidad FLP para consenso determinístico",
-                  "de": "Das FLP-Unmöglichkeitstheorem für deterministischen Konsens",
-                  "nl": "Het FLP onmogelijkheidstheorema voor deterministische consensus"
-        },
-        {
-                  "en": "The impossibility of simultaneous broadcast in asynchronous systems",
-                  "es": "La imposibilidad de difusión simultánea en sistemas asíncronos",
-                  "de": "Die Unmöglichkeit simultaner Broadcast in asynchronen Systemen",
-                  "nl": "De onmogelijkheid van gelijktijdige broadcast in asynchrone systemen"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Dolev-Reischuk lower bound proves that any Byzantine agreement protocol that tolerates f failures requires Ω(n²) communication complexity in the worst case. This creates a fundamental trade-off: achieving optimal resilience f < n/3 while maintaining optimal communication O(n²) is impossible.",
-                  "es": "El límite inferior de Dolev-Reischuk prueba que cualquier protocolo de acuerdo Bizantino que tolere f fallas requiere complejidad de comunicación Ω(n²) en el peor caso. Esto crea un intercambio fundamental: lograr resistencia óptima f < n/3 mientras se mantiene comunicación óptima O(n²) es imposible.",
-                  "de": "Die Dolev-Reischuk Untergrenze beweist, dass jedes Byzantine Agreement Protokoll, das f Ausfälle toleriert, Ω(n²) Kommunikationskomplexität im schlimmsten Fall erfordert. Dies schafft einen fundamentalen Kompromiss: optimale Widerstandsfähigkeit f < n/3 bei gleichzeitiger Aufrechterhaltung optimaler Kommunikation O(n²) zu erreichen ist unmöglich.",
-                  "nl": "De Dolev-Reischuk ondergrens bewijst dat elk Byzantine agreement protocol dat f fouten tolereert Ω(n²) communicatie complexiteit vereist in het slechtste geval. Dit creëert een fundamentele afweging: het bereiken van optimale veerkracht f < n/3 terwijl optimale communicatie O(n²) wordt behouden is onmogelijk."
-        }
-      },
-      {
-        question: {
-                  "en": "In the context of Verifiable Delay Functions (VDFs), what cryptographic property ensures that parallel computation cannot significantly reduce the sequential work required?",
-                  "es": "En el contexto de Funciones de Retraso Verificables (VDFs), ¿qué propiedad criptográfica asegura que la computación paralela no pueda reducir significativamente el trabajo secuencial requerido?",
-                  "de": "Im Kontext von Verifiable Delay Functions (VDFs), welche kryptographische Eigenschaft stellt sicher, dass parallele Berechnung die erforderliche sequenzielle Arbeit nicht signifikant reduzieren kann?",
-                  "nl": "In de context van Verifiable Delay Functions (VDFs), welke cryptografische eigenschap zorgt ervoor dat parallelle berekening het vereiste sequentiële werk niet significant kan verminderen?"
-        },
-        options: [
-        {
-                  "en": "The inherent sequentiality of modular exponentiation chains",
-                  "es": "La secuencialidad inherente de las cadenas de exponenciación modular",
-                  "de": "Die inhärente Sequenzialität von modularen Exponentiationsketten",
-                  "nl": "De inherente sequentialiteit van modulaire exponentiatie ketens"
-        },
-        {
-                  "en": "The time-lock encryption with witness indistinguishability",
-                  "es": "El cifrado de bloqueo temporal con indistinguibilidad de testigos",
-                  "de": "Die Time-Lock Verschlüsselung mit Zeugen-Ununterscheidbarkeit",
-                  "nl": "De tijd-slot encryptie met getuige ononderscheidbaarheid"
-        },
-        {
-                  "en": "The random oracle assumption for sequential function evaluation",
-                  "es": "La suposición de oráculo aleatorio para evaluación de función secuencial",
-                  "de": "Die Random Oracle Annahme für sequenzielle Funktionsevaluierung",
-                  "nl": "De willekeurige orakel aanname voor sequentiële functie evaluatie"
-        },
-        {
-                  "en": "The computational depth versus parallel time separation",
-                  "es": "La separación de profundidad computacional versus tiempo paralelo",
-                  "de": "Die Trennung von Berechnungstiefe versus paralleler Zeit",
-                  "nl": "De scheiding van computationele diepte versus parallelle tijd"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "VDFs rely on the computational depth versus parallel time separation, meaning that even with unlimited parallelism, certain computations require a minimum sequential depth that cannot be parallelized, creating an inherent time delay that parallel computation cannot circumvent.",
-                  "es": "Los VDFs se basan en la separación de profundidad computacional versus tiempo paralelo, lo que significa que incluso con paralelismo ilimitado, ciertas computaciones requieren una profundidad secuencial mínima que no puede ser paralelizada, creando un retraso temporal inherente que la computación paralela no puede eludir.",
-                  "de": "VDFs beruhen auf der Trennung von Berechnungstiefe versus paralleler Zeit, was bedeutet, dass selbst bei unbegrenztem Parallelismus bestimmte Berechnungen eine minimale sequenzielle Tiefe erfordern, die nicht parallelisiert werden kann, wodurch eine inhärente Zeitverzögerung entsteht, die parallele Berechnung nicht umgehen kann.",
-                  "nl": "VDFs vertrouwen op de scheiding van computationele diepte versus parallelle tijd, wat betekent dat zelfs met onbeperkte parallellisatie, bepaalde berekeningen een minimale sequentiële diepte vereisen die niet geparallelliseerd kan worden, waardoor een inherente tijdvertraging ontstaat die parallelle berekening niet kan omzeilen."
-        }
-      },
-      {
-        question: {
-                  "en": "What mathematical structure underlies the impossibility of achieving adaptive security for Identity-Based Encryption (IBE) schemes without complexity leveraging or random oracles?",
-                  "es": "¿Qué estructura matemática subyace a la imposibilidad de lograr seguridad adaptiva para esquemas de Cifrado Basado en Identidad (IBE) sin aprovechamiento de complejidad u oráculos aleatorios?",
-                  "de": "Welche mathematische Struktur liegt der Unmöglichkeit zugrunde, adaptive Sicherheit für Identity-Based Encryption (IBE) Schemas ohne Komplexitätsleveraging oder Random Oracles zu erreichen?",
-                  "nl": "Welke wiskundige structuur ligt ten grondslag aan de onmogelijkheid om adaptieve beveiliging te bereiken voor Identity-Based Encryption (IBE) schema's zonder complexiteit leveraging of willekeurige orakels?"
-        },
-        options: [
-        {
-                  "en": "The committing versus non-committing encryption dichotomy",
-                  "es": "La dicotomía de cifrado comprometedor versus no comprometedor",
-                  "de": "Die Dichotomie zwischen Committing und Non-Committing Encryption",
-                  "nl": "De dichotomie tussen committing versus non-committing encryptie"
-        },
-        {
-                  "en": "The dual system encryption methodology limitation",
-                  "es": "La limitación de la metodología de cifrado de sistema dual",
-                  "de": "Die Begrenzung der Dual System Encryption Methodologie",
-                  "nl": "De dual systeem encryptie methodologie beperking"
-        },
-        {
-                  "en": "The partitioning strategy failure in the standard model",
-                  "es": "El fallo de la estrategia de particionamiento en el modelo estándar",
-                  "de": "Das Versagen der Partitionierungsstrategie im Standardmodell",
-                  "nl": "Het falen van de partitionering strategie in het standaard model"
-        },
-        {
-                  "en": "The selective versus adaptive indistinguishability gap",
-                  "es": "La brecha de indistinguibilidad selectiva versus adaptiva",
-                  "de": "Die Lücke zwischen selektiver und adaptiver Ununterscheidbarkeit",
-                  "nl": "De selectieve versus adaptieve ononderscheidbaarheid kloof"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The partitioning strategy failure in the standard model is the core mathematical barrier. IBE security proofs typically require partitioning the identity space, but adaptive adversaries can choose identities after seeing public parameters, making it impossible to guess which identities to prepare for without complexity leveraging.",
-                  "es": "El fallo de la estrategia de particionamiento en el modelo estándar es la barrera matemática central. Las pruebas de seguridad de IBE típicamente requieren particionar el espacio de identidades, pero los adversarios adaptativos pueden elegir identidades después de ver parámetros públicos, haciendo imposible adivinar para qué identidades prepararse sin aprovechamiento de complejidad.",
-                  "de": "Das Versagen der Partitionierungsstrategie im Standardmodell ist die zentrale mathematische Barriere. IBE-Sicherheitsbeweise erfordern typischerweise die Partitionierung des Identitätsraums, aber adaptive Adversaries können Identitäten nach dem Sehen öffentlicher Parameter wählen, was es unmöglich macht zu erraten, für welche Identitäten man sich ohne Komplexitätsleveraging vorbereiten sollte.",
-                  "nl": "Het falen van de partitionering strategie in het standaard model is de kernwiskundige barrière. IBE beveiligingsbewijzen vereisen typisch het partitioneren van de identiteitsruimte, maar adaptieve tegenstanders kunnen identiteiten kiezen na het zien van publieke parameters, waardoor het onmogelijk wordt te raden voor welke identiteiten men zich moet voorbereiden zonder complexiteit leveraging."
-        }
-      },
-      {
-        question: {
-                  "en": "What trade-off prevents CCA2 security and compact ciphertexts without assumptions beyond Ring-LWE?",
-                  "es": "¿Qué intercambio impide seguridad CCA2 y textos cifrados compactos sin suposiciones más allá de Ring-LWE?",
-                  "de": "Welcher Kompromiss verhindert CCA2-Sicherheit und kompakte Chiffretexte ohne Ring-LWE?",
-                  "nl": "Welke afweging voorkomt CCA2-beveiliging en compacte cijferteksten zonder Ring-LWE?"
-        },
-        options: [
-        {
-                  "en": "The noise growth in homomorphic evaluation chains",
-                  "es": "El crecimiento de ruido en cadenas de evaluación homomórfica",
-                  "de": "Das Rauschwachstum in homomorphen Evaluationsketten",
-                  "nl": "De ruis groei in homomorfische evaluatie ketens"
-        },
-        {
-                  "en": "The relinearization complexity versus security reduction tightness",
-                  "es": "La complejidad de relinealización versus estrechez de reducción de seguridad",
-                  "de": "Die Relinearisierungs-Komplexität versus Sicherheitsreduktions-Strenge",
-                  "nl": "De relinearisatie complexiteit versus beveiligingsreductie strakheid"
-        },
-        {
-                  "en": "The key-switching matrix size explosion",
-                  "es": "La explosión del tamaño de la matriz de cambio de clave",
-                  "de": "Die Key-Switching Matrix Größenexplosion",
-                  "nl": "De sleutel-wissel matrix grootte explosie"
-        },
-        {
-                  "en": "The decryption error versus ciphertext expansion dilemma",
-                  "es": "El dilema de error de descifrado versus expansión de texto cifrado",
-                  "de": "Das Entschlüsselungsfehler versus Chiffretext-Expansion Dilemma",
-                  "nl": "Het ontsleuteling fout versus cijfertekst uitbreiding dilemma"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The fundamental trade-off is between decryption error probability and ciphertext expansion. CCA2 security requires error-free decryption with high probability, but compact ciphertexts limit noise tolerance. This forces either larger ciphertexts or stronger structured assumptions like Module-LWE beyond Ring-LWE.",
-                  "es": "El intercambio fundamental es entre la probabilidad de error de descifrado y la expansión del texto cifrado. La seguridad CCA2 requiere descifrado sin errores con alta probabilidad, pero los textos cifrados compactos limitan la tolerancia al ruido. Esto fuerza textos cifrados más grandes o suposiciones estructuradas más fuertes como Module-LWE más allá de Ring-LWE.",
-                  "de": "Der fundamentale Kompromiss liegt zwischen Entschlüsselungsfehler-Wahrscheinlichkeit und Chiffretext-Expansion. CCA2-Sicherheit erfordert fehlerfreie Entschlüsselung mit hoher Wahrscheinlichkeit, aber kompakte Chiffretexte begrenzen die Rauschtoleranz. Dies erzwingt entweder größere Chiffretexte oder stärkere strukturierte Annahmen wie Module-LWE jenseits von Ring-LWE.",
-                  "nl": "De fundamentele afweging is tussen ontsleuteling fout waarschijnlijkheid en cijfertekst uitbreiding. CCA2 beveiliging vereist foutloze ontsleuteling met hoge waarschijnlijkheid, maar compacte cijferteksten beperken ruis tolerantie. Dit dwingt ofwel grotere cijferteksten of sterkere gestructureerde aannames zoals Module-LWE voorbij Ring-LWE."
-        }
-      },
-      {
-        question: {
-                  "en": "What information-theoretic limitation fundamentally constrains the efficiency of Zero-Knowledge Proofs of Knowledge (ZKPoK) for NP-complete problems in the plain model?",
-                  "es": "¿Qué limitación teórica de información limita fundamentalmente la eficiencia de las Pruebas de Conocimiento de Conocimiento Cero (ZKPoK) para problemas NP-completos en el modelo plano?",
-                  "de": "Welche informationstheoretische Begrenzung beschränkt fundamental die Effizienz von Zero-Knowledge Proofs of Knowledge (ZKPoK) für NP-vollständige Probleme im Plain-Modell?",
-                  "nl": "Welke informatietheorische beperking beperkt fundamenteel de efficiëntie van Zero-Knowledge Proofs of Knowledge (ZKPoK) voor NP-complete problemen in het gewone model?"
-        },
-        options: [
-        {
-                  "en": "The witness encoding versus simulation indistinguishability constraint",
-                  "es": "La restricción de codificación de testigos versus indistinguibilidad de simulación",
-                  "de": "Die Zeugen-Kodierung versus Simulations-Ununterscheidbarkeits-Beschränkung",
-                  "nl": "De getuige codering versus simulatie ononderscheidbaarheid beperking"
-        },
-        {
-                  "en": "The soundness error versus round complexity trade-off",
-                  "es": "El intercambio de error de solidez versus complejidad de rondas",
-                  "de": "Der Soundness-Fehler versus Rundenkomplexitäts-Kompromiss",
-                  "nl": "De soundness fout versus ronde complexiteit afweging"
-        },
-        {
-                  "en": "The communication complexity lower bound from query complexity",
-                  "es": "El límite inferior de complejidad de comunicación de la complejidad de consulta",
-                  "de": "Die Kommunikationskomplexitäts-Untergrenze aus der Query-Komplexität",
-                  "nl": "De communicatie complexiteit ondergrens van query complexiteit"
-        },
-        {
-                  "en": "The prover complexity versus verifier efficiency paradox",
-                  "es": "La paradoja de complejidad del probador versus eficiencia del verificador",
-                  "de": "Das Beweiser-Komplexität versus Verifizierer-Effizienz Paradox",
-                  "nl": "De bewijzer complexiteit versus verifieerder efficiëntie paradox"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The communication complexity lower bound derived from query complexity theory provides the fundamental constraint. For NP-complete problems, any ZKPoK must have communication proportional to the witness size in the worst case, as the verifier must gain enough information to be convinced while the zero-knowledge property limits information transfer.",
-                  "es": "El límite inferior de complejidad de comunicación derivado de la teoría de complejidad de consulta proporciona la restricción fundamental. Para problemas NP-completos, cualquier ZKPoK debe tener comunicación proporcional al tamaño del testigo en el peor caso, ya que el verificador debe obtener suficiente información para ser convencido mientras que la propiedad de conocimiento cero limita la transferencia de información.",
-                  "de": "Die Kommunikationskomplexitäts-Untergrenze, die aus der Query-Komplexitätstheorie abgeleitet wird, liefert die fundamentale Beschränkung. Für NP-vollständige Probleme muss jedes ZKPoK im schlimmsten Fall Kommunikation proportional zur Zeugengröße haben, da der Verifizierer genügend Informationen erhalten muss, um überzeugt zu werden, während die Zero-Knowledge-Eigenschaft den Informationstransfer begrenzt.",
-                  "nl": "De communicatie complexiteit ondergrens afgeleid van query complexiteit theorie biedt de fundamentele beperking. Voor NP-complete problemen moet elke ZKPoK communicatie hebben die proportioneel is aan de getuige grootte in het slechtste geval, omdat de verifieerder genoeg informatie moet krijgen om overtuigd te worden terwijl de zero-knowledge eigenschap informatieoverdracht beperkt."
-        }
-      },
-      {
-        question: {
-                  "en": "What barrier prevents simulation-based FE security without indistinguishability obfuscation?",
-                  "es": "¿Qué barrera impide seguridad basada en simulación en FE sin ofuscación de indistinguibilidad?",
-                  "de": "Welche Barriere verhindert simulationsbasierte FE-Sicherheit ohne Indistinguishability Obfuscation?",
-                  "nl": "Welke barrière voorkomt simulatiegebaseerde FE-beveiliging zonder indistinguishability obfuscation?"
-        },
-        options: [
-        {
-                  "en": "The impossibility of general virtual black-box obfuscation",
-                  "es": "La imposibilidad de ofuscación general de caja negra virtual",
-                  "de": "Die Unmöglichkeit der allgemeinen virtuellen Black-Box Obfuskation",
-                  "nl": "De onmogelijkheid van algemene virtuele black-box obfuscation"
-        },
-        {
-                  "en": "The selective versus adaptive security gap for functional keys",
-                  "es": "La brecha de seguridad selectiva versus adaptiva para claves funcionales",
-                  "de": "Die Lücke zwischen selektiver und adaptiver Sicherheit für funktionale Schlüssel",
-                  "nl": "De selectieve versus adaptieve beveiligingskloof voor functionele sleutels"
-        },
-        {
-                  "en": "The bounded collusion assumption versus unbounded adversaries",
-                  "es": "La suposición de colusión limitada versus adversarios ilimitados",
-                  "de": "Die begrenzte Kollusions-Annahme versus unbegrenzte Adversaries",
-                  "nl": "De begrensde samenzwering aanname versus onbegrensde tegenstanders"
-        },
-        {
-                  "en": "The simulation paradigm breakdown for complex functionalities",
-                  "es": "La ruptura del paradigma de simulación para funcionalidades complejas",
-                  "de": "Der Zusammenbruch des Simulationsparadigmas für komplexe Funktionalitäten",
-                  "nl": "De simulatie paradigma afbraak voor complexe functionaliteiten"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The simulation paradigm breakdown for complex functionalities is the core barrier. For general functions, a simulator must produce functional keys that enable the same computations as real keys but without access to the plaintext. This becomes impossible for complex functionalities without additional assumptions like iO.",
-                  "es": "La ruptura del paradigma de simulación para funcionalidades complejas es la barrera central. Para funciones generales, un simulador debe producir claves funcionales que permitan las mismas computaciones que las claves reales pero sin acceso al texto plano. Esto se vuelve imposible para funcionalidades complejas sin suposiciones adicionales como iO.",
-                  "de": "Der Zusammenbruch des Simulationsparadigmas für komplexe Funktionalitäten ist die zentrale Barriere. Für allgemeine Funktionen muss ein Simulator funktionale Schlüssel produzieren, die dieselben Berechnungen wie echte Schlüssel ermöglichen, aber ohne Zugang zum Klartext. Dies wird für komplexe Funktionalitäten ohne zusätzliche Annahmen wie iO unmöglich.",
-                  "nl": "De simulatie paradigma afbraak voor complexe functionaliteiten is de kernbarrière. Voor algemene functies moet een simulator functionele sleutels produceren die dezelfde berekeningen mogelijk maken als echte sleutels maar zonder toegang tot de platte tekst. Dit wordt onmogelijk voor complexe functionaliteiten zonder aanvullende aannames zoals iO."
-        }
-      },
-      {
-        question: {
-                  "en": "What assumption makes uSVP potentially easier than general SVP in high dimensions?",
-                  "es": "¿Qué suposición hace uSVP potencialmente más fácil que SVP general en altas dimensiones?",
-                  "de": "Welche Annahme macht uSVP potenziell einfacher als allgemeines SVP in hohen Dimensionen?",
-                  "nl": "Welke aanname maakt uSVP mogelijk makkelijker dan algemene SVP in hoge dimensies?"
-        },
-        options: [
-        {
-                  "en": "The existence of a unique shortest vector with polynomial gap",
-                  "es": "La existencia de un vector más corto único con brecha polinomial",
-                  "de": "Die Existenz eines eindeutigen kürzesten Vektors mit polynomialer Lücke",
-                  "nl": "Het bestaan van een unieke kortste vector met polynomiale kloof"
-        },
-        {
-                  "en": "The geometric series convergence in high-dimensional spheres",
-                  "es": "La convergencia de series geométricas en esferas de alta dimensión",
-                  "de": "Die geometrische Reihenkonvergenz in hochdimensionalen Sphären",
-                  "nl": "De geometrische reeks convergentie in hoogdimensionale sferen"
-        },
-        {
-                  "en": "The quantum versus classical approximation factor separation",
-                  "es": "La separación del factor de aproximación cuántico versus clásico",
-                  "de": "Die Quantum-versus-Klassische Approximationsfaktor-Trennung",
-                  "nl": "De quantum versus klassieke benadering factor scheiding"
-        },
-        {
-                  "en": "The lattice basis reduction algorithm efficiency improvement",
-                  "es": "La mejora de eficiencia del algoritmo de reducción de base de retícula",
-                  "de": "Die Effizienzverbesserung des Gitterbasis-Reduktionsalgorithmus",
-                  "nl": "De rooster basis reductie algoritme efficiëntie verbetering"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The uSVP assumption relies on the existence of a unique shortest vector with a polynomial gap, meaning the shortest vector is significantly shorter than all other vectors. This additional structure potentially makes the problem easier than general SVP, where multiple short vectors may exist without clear separation.",
-                  "es": "La suposición uSVP se basa en la existencia de un vector más corto único con una brecha polinomial, lo que significa que el vector más corto es significativamente más corto que todos los otros vectores. Esta estructura adicional potencialmente hace que el problema sea más fácil que el SVP general, donde pueden existir múltiples vectores cortos sin separación clara.",
-                  "de": "Die uSVP-Annahme beruht auf der Existenz eines eindeutigen kürzesten Vektors mit einer polynomialen Lücke, was bedeutet, dass der kürzeste Vektor deutlich kürzer ist als alle anderen Vektoren. Diese zusätzliche Struktur macht das Problem möglicherweise einfacher als das allgemeine SVP, wo mehrere kurze Vektoren ohne klare Trennung existieren können.",
-                  "nl": "De uSVP aanname berust op het bestaan van een unieke kortste vector met een polynomiale kloof, wat betekent dat de kortste vector significant korter is dan alle andere vectoren. Deze aanvullende structuur maakt het probleem mogelijk makkelijker dan algemene SVP, waar meerdere korte vectoren kunnen bestaan zonder duidelijke scheiding."
-        }
-      },
-      {
-        question: {
-                  "en": "What IOP limitation prevents polylogarithmic query complexity and constant soundness error simultaneously?",
-                  "es": "¿Qué limitación IOP impide complejidad de consulta polilogarítmica y error de solidez constante simultáneamente?",
-                  "de": "Welche IOP-Begrenzung verhindert polylogarithmische Query-Komplexität und konstanten Soundness-Fehler?",
-                  "nl": "Welke IOP-beperking voorkomt polylogaritmische query complexiteit en constante soundness fout?"
-        },
-        options: [
-        {
-                  "en": "The tension between local testability and global consistency",
-                  "es": "La tensión entre testabilidad local y consistencia global",
-                  "de": "Die Spannung zwischen lokaler Testbarkeit und globaler Konsistenz",
-                  "nl": "De spanning tussen lokale testbaarheid en globale consistentie"
-        },
-        {
-                  "en": "The interactive rounds versus non-adaptive query limitation",
-                  "es": "La limitación de rondas interactivas versus consulta no adaptiva",
-                  "de": "Die Begrenzung interaktiver Runden versus nicht-adaptiver Queries",
-                  "nl": "De interactieve rondes versus niet-adaptieve query beperking"
-        },
-        {
-                  "en": "The oracle access pattern versus randomness requirement trade-off",
-                  "es": "El intercambio del patrón de acceso al oráculo versus el requisito de aleatoriedad",
-                  "de": "Der Oracle-Zugriffsmuster versus Zufallsanforderungs-Kompromiss",
-                  "nl": "De orakel toegang patroon versus willekeurigheid vereiste afweging"
-        },
-        {
-                  "en": "The proof length versus verification time exponential gap",
-                  "es": "La brecha exponencial de longitud de prueba versus tiempo de verificación",
-                  "de": "Die exponentielle Lücke zwischen Beweis-Länge und Verifikationszeit",
-                  "nl": "De bewijs lengte versus verificatie tijd exponentiële kloof"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The fundamental tension is between local testability and global consistency. Achieving constant soundness error requires detecting inconsistencies with constant probability, but polylogarithmic queries can only probe a small fraction of the proof, making it hard to ensure global consistency from local tests.",
-                  "es": "La tensión fundamental es entre testabilidad local y consistencia global. Lograr error de solidez constante requiere detectar inconsistencias con probabilidad constante, pero las consultas polivalgarítmicas solo pueden sondear una pequeña fracción de la prueba, haciendo difícil asegurar consistencia global desde pruebas locales.",
-                  "de": "Die fundamentale Spannung liegt zwischen lokaler Testbarkeit und globaler Konsistenz. Das Erreichen konstanten Soundness-Fehlers erfordert die Erkennung von Inkonsistenzen mit konstanter Wahrscheinlichkeit, aber polylogarithmische Queries können nur einen kleinen Bruchteil des Beweises untersuchen, was es schwer macht, globale Konsistenz aus lokalen Tests zu gewährleisten.",
-                  "nl": "De fundamentele spanning is tussen lokale testbaarheid en globale consistentie. Het bereiken van constante soundness fout vereist het detecteren van inconsistenties met constante waarschijnlijkheid, maar polylogaritmische queries kunnen slechts een klein deel van het bewijs onderzoeken, waardoor het moeilijk wordt om globale consistentie van lokale tests te verzekeren."
-        }
-      },
-      {
-        question: {
-                  "en": "What game-theoretic property ensures that Proof-of-Stake consensus remains incentive-compatible under adaptive corruption with bounded rationality assumptions?",
-                  "es": "¿Qué propiedad teórica de juegos asegura que el consenso Proof-of-Stake permanezca compatible con incentivos bajo corrupción adaptiva con suposiciones de racionalidad limitada?",
-                  "de": "Welche spieltheoretische Eigenschaft stellt sicher, dass Proof-of-Stake Konsens unter adaptiver Korruption mit begrenzten Rationalitätsannahmen anreizkompatibel bleibt?",
-                  "nl": "Welke speltheoretische eigenschap zorgt ervoor dat Proof-of-Stake consensus incentief-compatibel blijft onder adaptieve corruptie met begrensde rationaliteit aannames?"
-        },
-        options: [
-        {
-                  "en": "The coalition-proof Nash equilibrium under bounded coalitions",
-                  "es": "El equilibrio de Nash a prueba de coalición bajo coaliciones limitadas",
-                  "de": "Das koalitionssichere Nash-Gleichgewicht unter begrenzten Koalitionen",
-                  "nl": "Het coalitie-proof Nash evenwicht onder begrensde coalities"
-        },
-        {
-                  "en": "The subgame perfect equilibrium with reputation effects",
-                  "es": "El equilibrio perfecto de subjuego con efectos de reputación",
-                  "de": "Das teilspielperfekte Gleichgewicht mit Reputationseffekten",
-                  "nl": "Het subspel perfecte evenwicht met reputatie effecten"
-        },
-        {
-                  "en": "The evolutionary stable strategy (ESS) equilibrium condition",
-                  "es": "La condición de equilibrio de estrategia evolutivamente estable (ESS)",
-                  "de": "Die evolutionär stabile Strategie (ESS) Gleichgewichtsbedingung",
-                  "nl": "De evolutionair stabiele strategie (ESS) evenwicht conditie"
-        },
-        {
-                  "en": "The mechanism design revelation principle with truthful reporting",
-                  "es": "El principio de revelación de diseño de mecanismo con reporte veraz",
-                  "de": "Das Mechanismus-Design Offenbarungsprinzip mit wahrheitsgemäßer Berichterstattung",
-                  "nl": "Het mechanisme ontwerp openbaringsprincipe met waarheidsgetrouwe rapportage"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Coalition-proof Nash equilibrium under bounded coalitions is essential for PoS security. It ensures that even when adversaries can adaptively corrupt validators and form coalitions, the honest strategy remains optimal as long as coalition size is bounded below the security threshold (typically 1/3 or 1/2).",
-                  "es": "El equilibrio de Nash a prueba de coalición bajo coaliciones limitadas es esencial para la seguridad de PoS. Asegura que incluso cuando los adversarios pueden corromper adaptativamente a los validadores y formar coaliciones, la estrategia honesta permanece óptima mientras el tamaño de la coalición esté limitado por debajo del umbral de seguridad (típicamente 1/3 o 1/2).",
-                  "de": "Das koalitionssichere Nash-Gleichgewicht unter begrenzten Koalitionen ist für die PoS-Sicherheit wesentlich. Es stellt sicher, dass selbst wenn Adversaries adaptiv Validatoren korrumpieren und Koalitionen bilden können, die ehrliche Strategie optimal bleibt, solange die Koalitionsgröße unter der Sicherheitsschwelle (typischerweise 1/3 oder 1/2) begrenzt ist.",
-                  "nl": "Coalitie-proof Nash evenwicht onder begrensde coalities is essentieel voor PoS beveiliging. Het zorgt ervoor dat zelfs wanneer tegenstanders adaptief validators kunnen corrumperen en coalities kunnen vormen, de eerlijke strategie optimaal blijft zolang de coalitie grootte begrensd is onder de beveiligingsdrempel (typisch 1/3 of 1/2)."
-        }
-      },
-      {
-        question: {
-                  "en": "What SNARK barrier prevents universal setup and post-quantum security simultaneously?",
-                  "es": "¿Qué barrera SNARK impide configuración universal y seguridad post-cuántica simultáneamente?",
-                  "de": "Welche SNARK-Barriere verhindert universelle Einrichtung und Post-Quanten-Sicherheit gleichzeitig?",
-                  "nl": "Welke SNARK-barrière voorkomt universele setup en post-quantum beveiliging gelijktijdig?"
-        },
-        options: [
-        {
-                  "en": "The knowledge soundness versus computational assumptions conflict",
-                  "es": "El conflicto de solidez de conocimiento versus suposiciones computacionales",
-                  "de": "Der Konflikt zwischen Wissens-Soundness und rechnerischen Annahmen",
-                  "nl": "Het kennis soundness versus computationele aannames conflict"
-        },
-        {
-                  "en": "The structured reference string dependency on bilinear groups",
-                  "es": "La dependencia de cadena de referencia estructurada en grupos bilineales",
-                  "de": "Die strukturierte Referenzstring-Abhängigkeit von bilinearen Gruppen",
-                  "nl": "De gestructureerde referentie string afhankelijkheid van bilineaire groepen"
-        },
-        {
-                  "en": "The trusted setup elimination versus proof size exponential growth",
-                  "es": "La eliminación de configuración confiable versus crecimiento exponencial del tamaño de prueba",
-                  "de": "Die Vertrauensvolle-Setup-Eliminierung versus exponentielles Beweisgröße-Wachstum",
-                  "nl": "De vertrouwde setup eliminatie versus bewijs grootte exponentiële groei"
-        },
-        {
-                  "en": "The polynomial commitment scheme quantum vulnerability",
-                  "es": "La vulnerabilidad cuántica del esquema de compromiso polinomial",
-                  "de": "Die Quanten-Verletzlichkeit des polynomialen Commitment-Schemas",
-                  "nl": "De polynomiale commitment schema quantum kwetsbaarheid"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The polynomial commitment scheme quantum vulnerability is the core barrier. Universal SNARKs typically rely on polynomial commitments like KZG which are based on discrete logarithm assumptions that are broken by quantum computers, making it impossible to achieve both universality and post-quantum security simultaneously.",
-                  "es": "La vulnerabilidad cuántica del esquema de compromiso polinomial es la barrera central. Los SNARKs universales típicamente dependen de compromisos polinomiales como KZG que se basan en suposiciones de logaritmo discreto que son rotas por computadoras cuánticas, haciendo imposible lograr tanto universalidad como seguridad post-cuántica simultáneamente.",
-                  "de": "Die Quanten-Verletzlichkeit des polynomialen Commitment-Schemas ist die zentrale Barriere. Universelle SNARKs beruhen typischerweise auf polynomialen Commitments wie KZG, die auf diskreten Logarithmusannahmen basieren, die von Quantencomputern gebrochen werden, was es unmöglich macht, sowohl Universalität als auch Post-Quanten-Sicherheit gleichzeitig zu erreichen.",
-                  "nl": "De polynomiale commitment schema quantum kwetsbaarheid is de kernbarrière. Universele SNARKs vertrouwen typisch op polynomiale commitments zoals KZG die gebaseerd zijn op discrete logaritme aannames die gebroken worden door quantumcomputers, waardoor het onmogelijk wordt om zowel universaliteit als post-quantum beveiliging gelijktijdig te bereiken."
-        }
-      },
-      {
-        question: {
-                  "en": "What information-theoretic bound limits the concrete efficiency of Multi-Party Computation protocols in the presence of malicious adversaries with abort capabilities?",
-                  "es": "¿Qué límite teórico de información limita la eficiencia concreta de los protocolos de Computación Multi-Parte en presencia de adversarios maliciosos con capacidades de aborto?",
-                  "de": "Welche informationstheoretische Schranke begrenzt die konkrete Effizienz von Multi-Party Computation Protokollen in Anwesenheit bösartiger Adversaries mit Abbruchfähigkeiten?",
-                  "nl": "Welke informatietheorische grens beperkt de concrete efficiëntie van Multi-Party Computation protocollen in aanwezigheid van kwaadaardige tegenstanders met afbreek mogelijkheden?"
-        },
-        options: [
-        {
-                  "en": "The binary entropy bound on secret sharing redundancy",
-                  "es": "El límite de entropía binaria en la redundancia de compartición de secretos",
-                  "de": "Die binäre Entropie-Schranke bei Secret Sharing Redundanz",
-                  "nl": "De binaire entropie grens op geheim delen redundantie"
-        },
-        {
-                  "en": "The channel capacity limitation in the secure channels model",
-                  "es": "La limitación de capacidad de canal en el modelo de canales seguros",
-                  "de": "Die Kanalkapazitäts-Begrenzung im Secure Channels Modell",
-                  "nl": "De kanaal capaciteit beperking in het veilige kanalen model"
-        },
-        {
-                  "en": "The mutual information preservation requirement for correctness",
-                  "es": "El requisito de preservación de información mutua para corrección",
-                  "de": "Die Anforderung der gegenseitigen Informationserhaltung für Korrektheit",
-                  "nl": "De wederzijdse informatie behoud vereiste voor correctheid"
-        },
-        {
-                  "en": "The min-entropy requirement for extractable randomness",
-                  "es": "El requisito de min-entropía para aleatoriedad extraíble",
-                  "de": "Die Min-Entropie-Anforderung für extrahierbare Zufälligkeit",
-                  "nl": "De min-entropie vereiste voor extraheerbare willekeurigheid"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The mutual information preservation requirement for correctness is the fundamental bound. In malicious MPC with abort, parties must maintain sufficient mutual information about the computation state to detect inconsistencies and ensure correctness, creating an unavoidable communication overhead proportional to the security parameter.",
-                  "es": "El requisito de preservación de información mutua para corrección es el límite fundamental. En MPC malicioso con aborto, las partes deben mantener información mutua suficiente sobre el estado de computación para detectar inconsistencias y asegurar corrección, creando una sobrecarga de comunicación inevitable proporcional al parámetro de seguridad.",
-                  "de": "Die Anforderung der gegenseitigen Informationserhaltung für Korrektheit ist die fundamentale Schranke. In bösartigem MPC mit Abbruch müssen die Parteien ausreichende gegenseitige Informationen über den Berechnungszustand aufrechterhalten, um Inkonsistenzen zu erkennen und Korrektheit zu gewährleisten, was einen unvermeidlichen Kommunikations-Overhead proportional zum Sicherheitsparameter schafft.",
-                  "nl": "De wederzijdse informatie behoud vereiste voor correctheid is de fundamentele grens. In kwaadaardige MPC met afbreking moeten partijen voldoende wederzijdse informatie over de computatie toestand behouden om inconsistenties te detecteren en correctheid te verzekeren, wat een onvermijdelijke communicatie overhead creëert die proportioneel is aan de beveiligingsparameter."
-        }
-      },
-      {
-        question: {
-                  "en": "What DKG impossibility arises when attempting non-interactive setup and adaptive security?",
-                  "es": "¿Qué imposibilidad DKG surge al intentar configuración no interactiva y seguridad adaptiva?",
-                  "de": "Welche DKG-Unmöglichkeit entsteht bei nicht-interaktiver Einrichtung und adaptiver Sicherheit?",
-                  "nl": "Welke DKG-onmogelijkheid ontstaat bij non-interactieve setup en adaptieve beveiliging?"
-        },
-        options: [
-        {
-                  "en": "The erasure assumption violation in adaptive corruption models",
-                  "es": "La violación de la suposición de borrado en modelos de corrupción adaptiva",
-                  "de": "Die Verletzung der Löschannahme in adaptiven Korruptionsmodellen",
-                  "nl": "De schending van de wisaanname in adaptieve corruptie modellen"
-        },
-        {
-                  "en": "The simulation-based security impossibility without trusted setup",
-                  "es": "La imposibilidad de seguridad basada en simulación sin configuración confiable",
-                  "de": "Die simulationsbasierte Sicherheitsunmöglichkeit ohne vertrauensvolle Einrichtung",
-                  "nl": "De simulatie-gebaseerde beveiligings onmogelijkheid zonder vertrouwde setup"
-        },
-        {
-                  "en": "The honest-majority assumption breakdown under adaptive adversaries",
-                  "es": "La ruptura de la suposición de mayoría honesta bajo adversarios adaptativos",
-                  "de": "Der Zusammenbruch der ehrlichen-Mehrheits-Annahme unter adaptiven Adversaries",
-                  "nl": "De eerlijke-meerderheid aanname afbraak onder adaptieve tegenstanders"
-        },
-        {
-                  "en": "The commitment-extractability trade-off in zero-knowledge proofs",
-                  "es": "El intercambio de compromiso-extractabilidad en pruebas de conocimiento cero",
-                  "de": "Der Commitment-Extrahierbarkeits-Kompromiss in Zero-Knowledge-Beweisen",
-                  "nl": "De commitment-extracteerbaarheid afweging in zero-knowledge bewijzen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Non-interactive DKG with adaptive security faces the fundamental barrier that simulation-based security requires the simulator to extract secrets before corruption occurs, but without interaction or trusted setup, there's no mechanism to perform this extraction, making the security proof impossible.",
-                  "es": "DKG no interactivo con seguridad adaptiva enfrenta la barrera fundamental de que la seguridad basada en simulación requiere que el simulador extraiga secretos antes de que ocurra la corrupción, pero sin interacción o configuración confiable, no hay mecanismo para realizar esta extracción, haciendo imposible la prueba de seguridad.",
-                  "de": "Nicht-interaktive DKG mit adaptiver Sicherheit steht vor der fundamentalen Barriere, dass simulationsbasierte Sicherheit erfordert, dass der Simulator Geheimnisse vor der Korruption extrahiert, aber ohne Interaktion oder vertrauensvolle Einrichtung gibt es keinen Mechanismus für diese Extraktion, was den Sicherheitsbeweis unmöglich macht.",
-                  "nl": "Non-interactieve DKG met adaptieve beveiliging staat voor de fundamentele barrière dat simulatie-gebaseerde beveiliging vereist dat de simulator geheimen extraheert voordat corruptie plaatsvindt, maar zonder interactie of vertrouwde setup is er geen mechanisme om deze extractie uit te voeren, waardoor het beveiligingsbewijs onmogelijk wordt."
-        }
-      },
-      {
-        question: {
-                  "en": "What cryptographic hardness assumption underlies the security of STARK (Scalable Transparent ARgument of Knowledge) systems that distinguishes them fundamentally from SNARKs?",
-                  "es": "¿Qué suposición de dureza criptográfica subyace a la seguridad de los sistemas STARK (Argumento Escalable Transparente de Conocimiento) que los distingue fundamentalmente de los SNARKs?",
-                  "de": "Welche kryptographische Härte-Annahme liegt der Sicherheit von STARK (Scalable Transparent ARgument of Knowledge) Systemen zugrunde, die sie fundamental von SNARKs unterscheidet?",
-                  "nl": "Welke cryptografische hardheid aanname ligt ten grondslag aan de beveiliging van STARK (Scalable Transparent ARgument of Knowledge) systemen die hen fundamenteel onderscheidt van SNARKs?"
-        },
-        options: [
-        {
-                  "en": "Polynomial commitment schemes with computational hiding",
-                  "es": "Esquemas de compromiso polinomial con ocultación computacional",
-                  "de": "Polynomiale Commitment-Schemas mit rechnerischer Verschleierung",
-                  "nl": "Polynomiale commitment schema's met computationele verberging"
-        },
-        {
-                  "en": "Collision-resistant hash functions without algebraic structure assumptions",
-                  "es": "Funciones hash resistentes a colisiones sin suposiciones de estructura algebraica",
-                  "de": "Kollisionsresistente Hash-Funktionen ohne algebraische Strukturannahmen",
-                  "nl": "Botsingsbestendige hash functies zonder algebraïsche structuur aannames"
-        },
-        {
-                  "en": "Lattice-based assumptions with quantum resistance guarantees",
-                  "es": "Suposiciones basadas en retículas con garantías de resistencia cuántica",
-                  "de": "Gitterbasierte Annahmen mit Quantenresistenz-Garantien",
-                  "nl": "Rooster-gebaseerde aannames met quantum weerstand garanties"
-        },
-        {
-                  "en": "Knowledge-of-exponent assumptions in bilinear groups",
-                  "es": "Suposiciones de conocimiento-de-exponente en grupos bilineales",
-                  "de": "Wissen-des-Exponenten-Annahmen in bilinearen Gruppen",
-                  "nl": "Kennis-van-exponent aannames in bilineaire groepen"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "STARKs rely solely on collision-resistant hash functions without requiring algebraic structure assumptions like bilinear pairings or knowledge-of-exponent assumptions, making them transparent (no trusted setup) and potentially post-quantum secure, fundamentally distinguishing them from SNARKs which depend on structured algebraic assumptions.",
-                  "es": "Los STARKs se basan únicamente en funciones hash resistentes a colisiones sin requerir suposiciones de estructura algebraica como emparejamientos bilineales o suposiciones de conocimiento-de-exponente, haciéndolos transparentes (sin configuración confiable) y potencialmente seguros post-cuánticos, distinguiéndolos fundamentalmente de los SNARKs que dependen de suposiciones algebraicas estructuradas.",
-                  "de": "STARKs verlassen sich ausschließlich auf kollisionsresistente Hash-Funktionen ohne algebraische Strukturannahmen wie bilineare Paarungen oder Wissen-des-Exponenten-Annahmen zu benötigen, was sie transparent macht (keine vertrauensvolle Einrichtung) und potenziell post-quanten-sicher, wodurch sie sich fundamental von SNARKs unterscheiden, die von strukturierten algebraischen Annahmen abhängen.",
-                  "nl": "STARKs vertrouwen uitsluitend op botsingsbestendige hash functies zonder algebraïsche structuur aannames te vereisen zoals bilineaire pairings of kennis-van-exponent aannames, waardoor ze transparant worden (geen vertrouwde setup) en mogelijk post-quantum veilig, waardoor ze fundamenteel verschillen van SNARKs die afhankelijk zijn van gestructureerde algebraïsche aannames."
-        }
-      },
-      {
-        question: {
-                  "en": "Who created Bitcoin?",
-                  "es": "Who created Bitcoin?",
-                  "de": "Who created Bitcoin?",
-                  "nl": "Who created Bitcoin?"
-        },
-        options: [
-        {
-                  "en": "Satoshi Nakamoto",
-                  "es": "Satoshi Nakamoto",
-                  "de": "Satoshi Nakamoto",
-                  "nl": "Satoshi Nakamoto"
-        },
-        {
-                  "en": "Vitalik Buterin",
-                  "es": "Vitalik Buterin",
-                  "de": "Vitalik Buterin",
-                  "nl": "Vitalik Buterin"
-        },
-        {
-                  "en": "Gavin Andresen",
-                  "es": "Gavin Andresen",
-                  "de": "Gavin Andresen",
-                  "nl": "Gavin Andresen"
-        },
-        {
-                  "en": "Charlie Lee",
-                  "es": "Charlie Lee",
-                  "de": "Charlie Lee",
-                  "nl": "Charlie Lee"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Satoshi Nakamoto is the pseudonymous creator of Bitcoin, first released in 2009.",
-                  "es": "Satoshi Nakamoto is the pseudonymous creator of Bitcoin, first released in 2009.",
-                  "de": "Satoshi Nakamoto is the pseudonymous creator of Bitcoin, first released in 2009.",
-                  "nl": "Satoshi Nakamoto is the pseudonymous creator of Bitcoin, first released in 2009."
-        }
-      },
-      {
-        question: {
-                  "en": "What is Ethereum's native cryptocurrency?",
-                  "es": "What is Ethereum's native cryptocurrency?",
-                  "de": "What is Ethereum's native cryptocurrency?",
-                  "nl": "What is Ethereum's native cryptocurrency?"
-        },
-        options: [
-        {
-                  "en": "Ether (ETH)",
-                  "es": "Ether (ETH)",
-                  "de": "Ether (ETH)",
-                  "nl": "Ether (ETH)"
-        },
-        {
-                  "en": "Ripple (XRP)",
-                  "es": "Ripple (XRP)",
-                  "de": "Ripple (XRP)",
-                  "nl": "Ripple (XRP)"
-        },
-        {
-                  "en": "Bitcoin (BTC)",
-                  "es": "Bitcoin (BTC)",
-                  "de": "Bitcoin (BTC)",
-                  "nl": "Bitcoin (BTC)"
-        },
-        {
-                  "en": "Litecoin (LTC)",
-                  "es": "Litecoin (LTC)",
-                  "de": "Litecoin (LTC)",
-                  "nl": "Litecoin (LTC)"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Ether (ETH) is the native cryptocurrency of the Ethereum blockchain launched in 2015.",
-                  "es": "Ether (ETH) is the native cryptocurrency of the Ethereum blockchain launched in 2015.",
-                  "de": "Ether (ETH) is the native cryptocurrency of the Ethereum blockchain launched in 2015.",
-                  "nl": "Ether (ETH) is the native cryptocurrency of the Ethereum blockchain launched in 2015."
-        }
-      },
-      {
-        question: {
-                  "en": "What consensus mechanism does Bitcoin use?",
-                  "es": "What consensus mechanism does Bitcoin use?",
-                  "de": "What consensus mechanism does Bitcoin use?",
-                  "nl": "What consensus mechanism does Bitcoin use?"
-        },
-        options: [
-        {
-                  "en": "Proof of Stake",
-                  "es": "Proof of Stake",
-                  "de": "Proof of Stake",
-                  "nl": "Proof of Stake"
-        },
-        {
-                  "en": "Delegated Proof of Stake",
-                  "es": "Delegated Proof of Stake",
-                  "de": "Delegated Proof of Stake",
-                  "nl": "Delegated Proof of Stake"
-        },
-        {
-                  "en": "Proof of Work",
-                  "es": "Proof of Work",
-                  "de": "Proof of Work",
-                  "nl": "Proof of Work"
-        },
-        {
-                  "en": "Proof of Authority",
-                  "es": "Proof of Authority",
-                  "de": "Proof of Authority",
-                  "nl": "Proof of Authority"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Bitcoin uses Proof of Work consensus requiring miners to solve cryptographic puzzles.",
-                  "es": "Bitcoin uses Proof of Work consensus requiring miners to solve cryptographic puzzles.",
-                  "de": "Bitcoin uses Proof of Work consensus requiring miners to solve cryptographic puzzles.",
-                  "nl": "Bitcoin uses Proof of Work consensus requiring miners to solve cryptographic puzzles."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a blockchain?",
-                  "es": "What is a blockchain?",
-                  "de": "What is a blockchain?",
-                  "nl": "What is a blockchain?"
-        },
-        options: [
-        {
-                  "en": "Cloud storage",
-                  "es": "Cloud storage",
-                  "de": "Cloud storage",
-                  "nl": "Cloud storage"
-        },
-        {
-                  "en": "Centralized database",
-                  "es": "Centralized database",
-                  "de": "Centralized database",
-                  "nl": "Centralized database"
-        },
-        {
-                  "en": "Payment processor",
-                  "es": "Payment processor",
-                  "de": "Payment processor",
-                  "nl": "Payment processor"
-        },
-        {
-                  "en": "Distributed ledger of transactions",
-                  "es": "Distributed ledger of transactions",
-                  "de": "Distributed ledger of transactions",
-                  "nl": "Distributed ledger of transactions"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "A blockchain is a distributed ledger that records transactions across multiple computers.",
-                  "es": "A blockchain is a distributed ledger that records transactions across multiple computers.",
-                  "de": "A blockchain is a distributed ledger that records transactions across multiple computers.",
-                  "nl": "A blockchain is a distributed ledger that records transactions across multiple computers."
-        }
-      },
-      {
-        question: {
-                  "en": "What is cryptocurrency mining?",
-                  "es": "What is cryptocurrency mining?",
-                  "de": "What is cryptocurrency mining?",
-                  "nl": "What is cryptocurrency mining?"
-        },
-        options: [
-        {
-                  "en": "Validating transactions and creating new coins",
-                  "es": "Validating transactions and creating new coins",
-                  "de": "Validating transactions and creating new coins",
-                  "nl": "Validating transactions and creating new coins"
-        },
-        {
-                  "en": "Storing coins in wallets",
-                  "es": "Storing coins in wallets",
-                  "de": "Storing coins in wallets",
-                  "nl": "Storing coins in wallets"
-        },
-        {
-                  "en": "Buying coins on exchanges",
-                  "es": "Buying coins on exchanges",
-                  "de": "Buying coins on exchanges",
-                  "nl": "Buying coins on exchanges"
-        },
-        {
-                  "en": "Trading coins for profit",
-                  "es": "Trading coins for profit",
-                  "de": "Trading coins for profit",
-                  "nl": "Trading coins for profit"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Cryptocurrency mining involves validating transactions and being rewarded with new coins.",
-                  "es": "Cryptocurrency mining involves validating transactions and being rewarded with new coins.",
-                  "de": "Cryptocurrency mining involves validating transactions and being rewarded with new coins.",
-                  "nl": "Cryptocurrency mining involves validating transactions and being rewarded with new coins."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a cryptocurrency wallet?",
-                  "es": "What is a cryptocurrency wallet?",
-                  "de": "What is a cryptocurrency wallet?",
-                  "nl": "What is a cryptocurrency wallet?"
-        },
-        options: [
-        {
-                  "en": "Software storing private keys",
-                  "es": "Software storing private keys",
-                  "de": "Software storing private keys",
-                  "nl": "Software storing private keys"
-        },
-        {
-                  "en": "Physical coin storage",
-                  "es": "Physical coin storage",
-                  "de": "Physical coin storage",
-                  "nl": "Physical coin storage"
-        },
-        {
-                  "en": "Bank account",
-                  "es": "Bank account",
-                  "de": "Bank account",
-                  "nl": "Bank account"
-        },
-        {
-                  "en": "Trading platform",
-                  "es": "Trading platform",
-                  "de": "Trading platform",
-                  "nl": "Trading platform"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "A cryptocurrency wallet is software that stores the private keys needed to access your coins.",
-                  "es": "A cryptocurrency wallet is software that stores the private keys needed to access your coins.",
-                  "de": "A cryptocurrency wallet is software that stores the private keys needed to access your coins.",
-                  "nl": "A cryptocurrency wallet is software that stores the private keys needed to access your coins."
-        }
-      },
-      {
-        question: {
-                  "en": "What is an altcoin?",
-                  "es": "What is an altcoin?",
-                  "de": "What is an altcoin?",
-                  "nl": "What is an altcoin?"
-        },
-        options: [
-        {
-                  "en": "Only Bitcoin",
-                  "es": "Only Bitcoin",
-                  "de": "Only Bitcoin",
-                  "nl": "Only Bitcoin"
-        },
-        {
-                  "en": "Physical coins",
-                  "es": "Physical coins",
-                  "de": "Physical coins",
-                  "nl": "Physical coins"
-        },
-        {
-                  "en": "Government currencies",
-                  "es": "Government currencies",
-                  "de": "Government currencies",
-                  "nl": "Government currencies"
-        },
-        {
-                  "en": "Any cryptocurrency other than Bitcoin",
-                  "es": "Any cryptocurrency other than Bitcoin",
-                  "de": "Any cryptocurrency other than Bitcoin",
-                  "nl": "Any cryptocurrency other than Bitcoin"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "An altcoin is any cryptocurrency alternative to Bitcoin, such as Ethereum or Litecoin.",
-                  "es": "An altcoin is any cryptocurrency alternative to Bitcoin, such as Ethereum or Litecoin.",
-                  "de": "An altcoin is any cryptocurrency alternative to Bitcoin, such as Ethereum or Litecoin.",
-                  "nl": "An altcoin is any cryptocurrency alternative to Bitcoin, such as Ethereum or Litecoin."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a cryptocurrency exchange?",
-                  "es": "What is a cryptocurrency exchange?",
-                  "de": "What is a cryptocurrency exchange?",
-                  "nl": "What is a cryptocurrency exchange?"
-        },
-        options: [
-        {
-                  "en": "Mining operation",
-                  "es": "Mining operation",
-                  "de": "Mining operation",
-                  "nl": "Mining operation"
-        },
-        {
-                  "en": "Wallet provider",
-                  "es": "Wallet provider",
-                  "de": "Wallet provider",
-                  "nl": "Wallet provider"
-        },
-        {
-                  "en": "Blockchain network",
-                  "es": "Blockchain network",
-                  "de": "Blockchain network",
-                  "nl": "Blockchain network"
-        },
-        {
-                  "en": "Platform for buying and selling crypto",
-                  "es": "Platform for buying and selling crypto",
-                  "de": "Platform for buying and selling crypto",
-                  "nl": "Platform for buying and selling crypto"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "A cryptocurrency exchange is a platform where users can buy, sell, and trade cryptocurrencies.",
-                  "es": "A cryptocurrency exchange is a platform where users can buy, sell, and trade cryptocurrencies.",
-                  "de": "A cryptocurrency exchange is a platform where users can buy, sell, and trade cryptocurrencies.",
-                  "nl": "A cryptocurrency exchange is a platform where users can buy, sell, and trade cryptocurrencies."
-        }
-      },
-      {
-        question: {
-                  "en": "What does ICO stand for?",
-                  "es": "What does ICO stand for?",
-                  "de": "What does ICO stand for?",
-                  "nl": "What does ICO stand for?"
-        },
-        options: [
-        {
-                  "en": "International Crypto Organization",
-                  "es": "International Crypto Organization",
-                  "de": "International Crypto Organization",
-                  "nl": "International Crypto Organization"
-        },
-        {
-                  "en": "Internet Currency Option",
-                  "es": "Internet Currency Option",
-                  "de": "Internet Currency Option",
-                  "nl": "Internet Currency Option"
-        },
-        {
-                  "en": "Initial Coin Offering",
-                  "es": "Initial Coin Offering",
-                  "de": "Initial Coin Offering",
-                  "nl": "Initial Coin Offering"
-        },
-        {
-                  "en": "Investment Coin Operation",
-                  "es": "Investment Coin Operation",
-                  "de": "Investment Coin Operation",
-                  "nl": "Investment Coin Operation"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "ICO stands for Initial Coin Offering, a fundraising method for new cryptocurrencies.",
-                  "es": "ICO stands for Initial Coin Offering, a fundraising method for new cryptocurrencies.",
-                  "de": "ICO stands for Initial Coin Offering, a fundraising method for new cryptocurrencies.",
-                  "nl": "ICO stands for Initial Coin Offering, a fundraising method for new cryptocurrencies."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a private key?",
-                  "es": "What is a private key?",
-                  "de": "What is a private key?",
-                  "nl": "What is a private key?"
-        },
-        options: [
-        {
-                  "en": "Exchange password",
-                  "es": "Exchange password",
-                  "de": "Exchange password",
-                  "nl": "Exchange password"
-        },
-        {
-                  "en": "Public wallet address",
-                  "es": "Public wallet address",
-                  "de": "Public wallet address",
-                  "nl": "Public wallet address"
-        },
-        {
-                  "en": "Mining equipment",
-                  "es": "Mining equipment",
-                  "de": "Mining equipment",
-                  "nl": "Mining equipment"
-        },
-        {
-                  "en": "Secret code accessing your cryptocurrency",
-                  "es": "Secret code accessing your cryptocurrency",
-                  "de": "Secret code accessing your cryptocurrency",
-                  "nl": "Secret code accessing your cryptocurrency"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "A private key is a secret alphanumeric code that allows you to access and spend your cryptocurrency.",
-                  "es": "A private key is a secret alphanumeric code that allows you to access and spend your cryptocurrency.",
-                  "de": "A private key is a secret alphanumeric code that allows you to access and spend your cryptocurrency.",
-                  "nl": "A private key is a secret alphanumeric code that allows you to access and spend your cryptocurrency."
-        }
-      },
-      {
-        question: {
-                  "en": "What is market capitalization in crypto?",
-                  "es": "What is market capitalization in crypto?",
-                  "de": "What is market capitalization in crypto?",
-                  "nl": "What is market capitalization in crypto?"
-        },
-        options: [
-        {
-                  "en": "Number of coins mined",
-                  "es": "Number of coins mined",
-                  "de": "Number of coins mined",
-                  "nl": "Number of coins mined"
-        },
-        {
-                  "en": "Total value of all coins in circulation",
-                  "es": "Total value of all coins in circulation",
-                  "de": "Total value of all coins in circulation",
-                  "nl": "Total value of all coins in circulation"
-        },
-        {
-                  "en": "Exchange listing price",
-                  "es": "Exchange listing price",
-                  "de": "Exchange listing price",
-                  "nl": "Exchange listing price"
-        },
-        {
-                  "en": "Daily trading volume",
-                  "es": "Daily trading volume",
-                  "de": "Daily trading volume",
-                  "nl": "Daily trading volume"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Market cap is calculated by multiplying the current price by the total number of coins in circulation.",
-                  "es": "Market cap is calculated by multiplying the current price by the total number of coins in circulation.",
-                  "de": "Market cap is calculated by multiplying the current price by the total number of coins in circulation.",
-                  "nl": "Market cap is calculated by multiplying the current price by the total number of coins in circulation."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a stablecoin?",
-                  "es": "What is a stablecoin?",
-                  "de": "What is a stablecoin?",
-                  "nl": "What is a stablecoin?"
-        },
-        options: [
-        {
-                  "en": "Government-issued crypto",
-                  "es": "Government-issued crypto",
-                  "de": "Government-issued crypto",
-                  "nl": "Government-issued crypto"
-        },
-        {
-                  "en": "Cryptocurrency pegged to stable asset",
-                  "es": "Cryptocurrency pegged to stable asset",
-                  "de": "Cryptocurrency pegged to stable asset",
-                  "nl": "Cryptocurrency pegged to stable asset"
-        },
-        {
-                  "en": "Most valuable coin",
-                  "es": "Most valuable coin",
-                  "de": "Most valuable coin",
-                  "nl": "Most valuable coin"
-        },
-        {
-                  "en": "Very old cryptocurrency",
-                  "es": "Very old cryptocurrency",
-                  "de": "Very old cryptocurrency",
-                  "nl": "Very old cryptocurrency"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "A stablecoin is cryptocurrency designed to maintain stable value by being pegged to assets like USD.",
-                  "es": "A stablecoin is cryptocurrency designed to maintain stable value by being pegged to assets like USD.",
-                  "de": "A stablecoin is cryptocurrency designed to maintain stable value by being pegged to assets like USD.",
-                  "nl": "A stablecoin is cryptocurrency designed to maintain stable value by being pegged to assets like USD."
-        }
-      },
-      {
-        question: {
-                  "en": "What is DeFi?",
-                  "es": "What is DeFi?",
-                  "de": "What is DeFi?",
-                  "nl": "What is DeFi?"
-        },
-        options: [
-        {
-                  "en": "Digital Finance",
-                  "es": "Digital Finance",
-                  "de": "Digital Finance",
-                  "nl": "Digital Finance"
-        },
-        {
-                  "en": "Distributed Finance",
-                  "es": "Distributed Finance",
-                  "de": "Distributed Finance",
-                  "nl": "Distributed Finance"
-        },
-        {
-                  "en": "Decentralized Finance",
-                  "es": "Decentralized Finance",
-                  "de": "Decentralized Finance",
-                  "nl": "Decentralized Finance"
-        },
-        {
-                  "en": "Direct Finance",
-                  "es": "Direct Finance",
-                  "de": "Direct Finance",
-                  "nl": "Direct Finance"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "DeFi (Decentralized Finance) refers to financial services built on blockchain without intermediaries.",
-                  "es": "DeFi (Decentralized Finance) refers to financial services built on blockchain without intermediaries.",
-                  "de": "DeFi (Decentralized Finance) refers to financial services built on blockchain without intermediaries.",
-                  "nl": "DeFi (Decentralized Finance) refers to financial services built on blockchain without intermediaries."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a smart contract?",
-                  "es": "What is a smart contract?",
-                  "de": "What is a smart contract?",
-                  "nl": "What is a smart contract?"
-        },
-        options: [
-        {
-                  "en": "Paper contract",
-                  "es": "Paper contract",
-                  "de": "Paper contract",
-                  "nl": "Paper contract"
-        },
-        {
-                  "en": "Trading bot",
-                  "es": "Trading bot",
-                  "de": "Trading bot",
-                  "nl": "Trading bot"
-        },
-        {
-                  "en": "Self-executing contract on blockchain",
-                  "es": "Self-executing contract on blockchain",
-                  "de": "Self-executing contract on blockchain",
-                  "nl": "Self-executing contract on blockchain"
-        },
-        {
-                  "en": "Lawyer agreement",
-                  "es": "Lawyer agreement",
-                  "de": "Lawyer agreement",
-                  "nl": "Lawyer agreement"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "A smart contract is self-executing code on blockchain that automatically enforces agreement terms.",
-                  "es": "A smart contract is self-executing code on blockchain that automatically enforces agreement terms.",
-                  "de": "A smart contract is self-executing code on blockchain that automatically enforces agreement terms.",
-                  "nl": "A smart contract is self-executing code on blockchain that automatically enforces agreement terms."
-        }
-      },
-      {
-        question: {
-                  "en": "What is cryptocurrency halving?",
-                  "es": "What is cryptocurrency halving?",
-                  "de": "What is cryptocurrency halving?",
-                  "nl": "What is cryptocurrency halving?"
-        },
-        options: [
-        {
-                  "en": "Exchange closure",
-                  "es": "Exchange closure",
-                  "de": "Exchange closure",
-                  "nl": "Exchange closure"
-        },
-        {
-                  "en": "Splitting coins in half",
-                  "es": "Splitting coins in half",
-                  "de": "Splitting coins in half",
-                  "nl": "Splitting coins in half"
-        },
-        {
-                  "en": "Reduction in mining rewards",
-                  "es": "Reduction in mining rewards",
-                  "de": "Reduction in mining rewards",
-                  "nl": "Reduction in mining rewards"
-        },
-        {
-                  "en": "Market crash",
-                  "es": "Market crash",
-                  "de": "Market crash",
-                  "nl": "Market crash"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Halving is when mining rewards are cut in half, occurring approximately every four years for Bitcoin.",
-                  "es": "Halving is when mining rewards are cut in half, occurring approximately every four years for Bitcoin.",
-                  "de": "Halving is when mining rewards are cut in half, occurring approximately every four years for Bitcoin.",
-                  "nl": "Halving is when mining rewards are cut in half, occurring approximately every four years for Bitcoin."
-        }
-      },
-      {
-        question: {
-                  "en": "What does HODL mean?",
-                  "es": "What does HODL mean?",
-                  "de": "What does HODL mean?",
-                  "nl": "What does HODL mean?"
-        },
-        options: [
-        {
-                  "en": "Sell cryptocurrency",
-                  "es": "Sell cryptocurrency",
-                  "de": "Sell cryptocurrency",
-                  "nl": "Sell cryptocurrency"
-        },
-        {
-                  "en": "Mine cryptocurrency",
-                  "es": "Mine cryptocurrency",
-                  "de": "Mine cryptocurrency",
-                  "nl": "Mine cryptocurrency"
-        },
-        {
-                  "en": "Buy cryptocurrency",
-                  "es": "Buy cryptocurrency",
-                  "de": "Buy cryptocurrency",
-                  "nl": "Buy cryptocurrency"
-        },
-        {
-                  "en": "Hold cryptocurrency long-term",
-                  "es": "Hold cryptocurrency long-term",
-                  "de": "Hold cryptocurrency long-term",
-                  "nl": "Hold cryptocurrency long-term"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "HODL originated from a misspelled 'hold' and means holding cryptocurrency long-term despite volatility.",
-                  "es": "HODL originated from a misspelled 'hold' and means holding cryptocurrency long-term despite volatility.",
-                  "de": "HODL originated from a misspelled 'hold' and means holding cryptocurrency long-term despite volatility.",
-                  "nl": "HODL originated from a misspelled 'hold' and means holding cryptocurrency long-term despite volatility."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a cryptocurrency fork?",
-                  "es": "What is a cryptocurrency fork?",
-                  "de": "What is a cryptocurrency fork?",
-                  "nl": "What is a cryptocurrency fork?"
-        },
-        options: [
-        {
-                  "en": "Wallet type",
-                  "es": "Wallet type",
-                  "de": "Wallet type",
-                  "nl": "Wallet type"
-        },
-        {
-                  "en": "Trading strategy",
-                  "es": "Trading strategy",
-                  "de": "Trading strategy",
-                  "nl": "Trading strategy"
-        },
-        {
-                  "en": "Mining tool",
-                  "es": "Mining tool",
-                  "de": "Mining tool",
-                  "nl": "Mining tool"
-        },
-        {
-                  "en": "Split creating new blockchain version",
-                  "es": "Split creating new blockchain version",
-                  "de": "Split creating new blockchain version",
-                  "nl": "Split creating new blockchain version"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "A fork occurs when a blockchain splits into two separate chains with different rules.",
-                  "es": "A fork occurs when a blockchain splits into two separate chains with different rules.",
-                  "de": "A fork occurs when a blockchain splits into two separate chains with different rules.",
-                  "nl": "A fork occurs when a blockchain splits into two separate chains with different rules."
-        }
-      },
-      {
-        question: {
-                  "en": "What is gas fee in Ethereum?",
-                  "es": "What is gas fee in Ethereum?",
-                  "de": "What is gas fee in Ethereum?",
-                  "nl": "What is gas fee in Ethereum?"
-        },
-        options: [
-        {
-                  "en": "Storage cost",
-                  "es": "Storage cost",
-                  "de": "Storage cost",
-                  "nl": "Storage cost"
-        },
-        {
-                  "en": "Mining reward",
-                  "es": "Mining reward",
-                  "de": "Mining reward",
-                  "nl": "Mining reward"
-        },
-        {
-                  "en": "Transaction processing cost",
-                  "es": "Transaction processing cost",
-                  "de": "Transaction processing cost",
-                  "nl": "Transaction processing cost"
-        },
-        {
-                  "en": "Wallet fee",
-                  "es": "Wallet fee",
-                  "de": "Wallet fee",
-                  "nl": "Wallet fee"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Gas fees are payments made to compensate for computing energy required to process Ethereum transactions.",
-                  "es": "Gas fees are payments made to compensate for computing energy required to process Ethereum transactions.",
-                  "de": "Gas fees are payments made to compensate for computing energy required to process Ethereum transactions.",
-                  "nl": "Gas fees are payments made to compensate for computing energy required to process Ethereum transactions."
-        }
-      },
-      {
-        question: {
-                  "en": "What is an NFT?",
-                  "es": "What is an NFT?",
-                  "de": "What is an NFT?",
-                  "nl": "What is an NFT?"
-        },
-        options: [
-        {
-                  "en": "Non-Fungible Token",
-                  "es": "Non-Fungible Token",
-                  "de": "Non-Fungible Token",
-                  "nl": "Non-Fungible Token"
-        },
-        {
-                  "en": "New Finance Token",
-                  "es": "New Finance Token",
-                  "de": "New Finance Token",
-                  "nl": "New Finance Token"
-        },
-        {
-                  "en": "National Fund Token",
-                  "es": "National Fund Token",
-                  "de": "National Fund Token",
-                  "nl": "National Fund Token"
-        },
-        {
-                  "en": "Network Function Token",
-                  "es": "Network Function Token",
-                  "de": "Network Function Token",
-                  "nl": "Network Function Token"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "NFT (Non-Fungible Token) represents unique digital assets on blockchain, unlike fungible cryptocurrencies.",
-                  "es": "NFT (Non-Fungible Token) represents unique digital assets on blockchain, unlike fungible cryptocurrencies.",
-                  "de": "NFT (Non-Fungible Token) represents unique digital assets on blockchain, unlike fungible cryptocurrencies.",
-                  "nl": "NFT (Non-Fungible Token) represents unique digital assets on blockchain, unlike fungible cryptocurrencies."
-        }
-      },
-      {
-        question: {
-                  "en": "What is cryptocurrency volatility?",
-                  "es": "What is cryptocurrency volatility?",
-                  "de": "What is cryptocurrency volatility?",
-                  "nl": "What is cryptocurrency volatility?"
-        },
-        options: [
-        {
-                  "en": "Mining difficulty",
-                  "es": "Mining difficulty",
-                  "de": "Mining difficulty",
-                  "nl": "Mining difficulty"
-        },
-        {
-                  "en": "Price fluctuation intensity",
-                  "es": "Price fluctuation intensity",
-                  "de": "Price fluctuation intensity",
-                  "nl": "Price fluctuation intensity"
-        },
-        {
-                  "en": "Market size",
-                  "es": "Market size",
-                  "de": "Market size",
-                  "nl": "Market size"
-        },
-        {
-                  "en": "Transaction speed",
-                  "es": "Transaction speed",
-                  "de": "Transaction speed",
-                  "nl": "Transaction speed"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Volatility measures how much and how quickly cryptocurrency prices change over time.",
-                  "es": "Volatility measures how much and how quickly cryptocurrency prices change over time.",
-                  "de": "Volatility measures how much and how quickly cryptocurrency prices change over time.",
-                  "nl": "Volatility measures how much and how quickly cryptocurrency prices change over time."
-        }
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level10;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Cryptocurrency",
+      "es": "Pregunta 2 sobre Cryptocurrency",
+      "de": "Frage 2 über Cryptocurrency",
+      "nl": "Vraag 2 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Cryptocurrency",
+      "es": "Pregunta 3 sobre Cryptocurrency",
+      "de": "Frage 3 über Cryptocurrency",
+      "nl": "Vraag 3 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Cryptocurrency",
+      "es": "Pregunta 4 sobre Cryptocurrency",
+      "de": "Frage 4 über Cryptocurrency",
+      "nl": "Vraag 4 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Cryptocurrency",
+      "es": "Pregunta 5 sobre Cryptocurrency",
+      "de": "Frage 5 über Cryptocurrency",
+      "nl": "Vraag 5 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Cryptocurrency",
+      "es": "Pregunta 6 sobre Cryptocurrency",
+      "de": "Frage 6 über Cryptocurrency",
+      "nl": "Vraag 6 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Cryptocurrency",
+      "es": "Pregunta 7 sobre Cryptocurrency",
+      "de": "Frage 7 über Cryptocurrency",
+      "nl": "Vraag 7 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Cryptocurrency",
+      "es": "Pregunta 8 sobre Cryptocurrency",
+      "de": "Frage 8 über Cryptocurrency",
+      "nl": "Vraag 8 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Cryptocurrency",
+      "es": "Pregunta 9 sobre Cryptocurrency",
+      "de": "Frage 9 über Cryptocurrency",
+      "nl": "Vraag 9 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Cryptocurrency",
+      "es": "Pregunta 10 sobre Cryptocurrency",
+      "de": "Frage 10 über Cryptocurrency",
+      "nl": "Vraag 10 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Cryptocurrency",
+      "es": "Pregunta 11 sobre Cryptocurrency",
+      "de": "Frage 11 über Cryptocurrency",
+      "nl": "Vraag 11 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Cryptocurrency",
+      "es": "Pregunta 12 sobre Cryptocurrency",
+      "de": "Frage 12 über Cryptocurrency",
+      "nl": "Vraag 12 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Cryptocurrency",
+      "es": "Pregunta 13 sobre Cryptocurrency",
+      "de": "Frage 13 über Cryptocurrency",
+      "nl": "Vraag 13 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Cryptocurrency",
+      "es": "Pregunta 14 sobre Cryptocurrency",
+      "de": "Frage 14 über Cryptocurrency",
+      "nl": "Vraag 14 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Cryptocurrency",
+      "es": "Pregunta 15 sobre Cryptocurrency",
+      "de": "Frage 15 über Cryptocurrency",
+      "nl": "Vraag 15 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Cryptocurrency",
+      "es": "Pregunta 16 sobre Cryptocurrency",
+      "de": "Frage 16 über Cryptocurrency",
+      "nl": "Vraag 16 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Cryptocurrency",
+      "es": "Pregunta 17 sobre Cryptocurrency",
+      "de": "Frage 17 über Cryptocurrency",
+      "nl": "Vraag 17 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Cryptocurrency",
+      "es": "Pregunta 18 sobre Cryptocurrency",
+      "de": "Frage 18 über Cryptocurrency",
+      "nl": "Vraag 18 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Cryptocurrency",
+      "es": "Pregunta 19 sobre Cryptocurrency",
+      "de": "Frage 19 über Cryptocurrency",
+      "nl": "Vraag 19 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Cryptocurrency",
+      "es": "Pregunta 20 sobre Cryptocurrency",
+      "de": "Frage 20 über Cryptocurrency",
+      "nl": "Vraag 20 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Cryptocurrency",
+      "es": "Pregunta 21 sobre Cryptocurrency",
+      "de": "Frage 21 über Cryptocurrency",
+      "nl": "Vraag 21 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Cryptocurrency",
+      "es": "Pregunta 22 sobre Cryptocurrency",
+      "de": "Frage 22 über Cryptocurrency",
+      "nl": "Vraag 22 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Cryptocurrency",
+      "es": "Pregunta 23 sobre Cryptocurrency",
+      "de": "Frage 23 über Cryptocurrency",
+      "nl": "Vraag 23 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Cryptocurrency",
+      "es": "Pregunta 24 sobre Cryptocurrency",
+      "de": "Frage 24 über Cryptocurrency",
+      "nl": "Vraag 24 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Cryptocurrency",
+      "es": "Pregunta 25 sobre Cryptocurrency",
+      "de": "Frage 25 über Cryptocurrency",
+      "nl": "Vraag 25 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Cryptocurrency",
+      "es": "Pregunta 26 sobre Cryptocurrency",
+      "de": "Frage 26 über Cryptocurrency",
+      "nl": "Vraag 26 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Cryptocurrency",
+      "es": "Pregunta 27 sobre Cryptocurrency",
+      "de": "Frage 27 über Cryptocurrency",
+      "nl": "Vraag 27 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Cryptocurrency",
+      "es": "Pregunta 28 sobre Cryptocurrency",
+      "de": "Frage 28 über Cryptocurrency",
+      "nl": "Vraag 28 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Cryptocurrency",
+      "es": "Pregunta 29 sobre Cryptocurrency",
+      "de": "Frage 29 über Cryptocurrency",
+      "nl": "Vraag 29 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Cryptocurrency",
+      "es": "Pregunta 30 sobre Cryptocurrency",
+      "de": "Frage 30 über Cryptocurrency",
+      "nl": "Vraag 30 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Cryptocurrency",
+      "es": "Pregunta 31 sobre Cryptocurrency",
+      "de": "Frage 31 über Cryptocurrency",
+      "nl": "Vraag 31 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Cryptocurrency",
+      "es": "Pregunta 32 sobre Cryptocurrency",
+      "de": "Frage 32 über Cryptocurrency",
+      "nl": "Vraag 32 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Cryptocurrency",
+      "es": "Pregunta 33 sobre Cryptocurrency",
+      "de": "Frage 33 über Cryptocurrency",
+      "nl": "Vraag 33 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Cryptocurrency",
+      "es": "Pregunta 34 sobre Cryptocurrency",
+      "de": "Frage 34 über Cryptocurrency",
+      "nl": "Vraag 34 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Cryptocurrency",
+      "es": "Pregunta 35 sobre Cryptocurrency",
+      "de": "Frage 35 über Cryptocurrency",
+      "nl": "Vraag 35 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Cryptocurrency",
+      "es": "Pregunta 36 sobre Cryptocurrency",
+      "de": "Frage 36 über Cryptocurrency",
+      "nl": "Vraag 36 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Cryptocurrency",
+      "es": "Pregunta 37 sobre Cryptocurrency",
+      "de": "Frage 37 über Cryptocurrency",
+      "nl": "Vraag 37 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Cryptocurrency",
+      "es": "Pregunta 38 sobre Cryptocurrency",
+      "de": "Frage 38 über Cryptocurrency",
+      "nl": "Vraag 38 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Cryptocurrency",
+      "es": "Pregunta 39 sobre Cryptocurrency",
+      "de": "Frage 39 über Cryptocurrency",
+      "nl": "Vraag 39 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Cryptocurrency",
+      "es": "Pregunta 40 sobre Cryptocurrency",
+      "de": "Frage 40 über Cryptocurrency",
+      "nl": "Vraag 40 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Cryptocurrency",
+      "es": "Pregunta 41 sobre Cryptocurrency",
+      "de": "Frage 41 über Cryptocurrency",
+      "nl": "Vraag 41 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Cryptocurrency",
+      "es": "Pregunta 42 sobre Cryptocurrency",
+      "de": "Frage 42 über Cryptocurrency",
+      "nl": "Vraag 42 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Cryptocurrency",
+      "es": "Pregunta 43 sobre Cryptocurrency",
+      "de": "Frage 43 über Cryptocurrency",
+      "nl": "Vraag 43 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Cryptocurrency",
+      "es": "Pregunta 44 sobre Cryptocurrency",
+      "de": "Frage 44 über Cryptocurrency",
+      "nl": "Vraag 44 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Cryptocurrency",
+      "es": "Pregunta 45 sobre Cryptocurrency",
+      "de": "Frage 45 über Cryptocurrency",
+      "nl": "Vraag 45 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Cryptocurrency",
+      "es": "Pregunta 46 sobre Cryptocurrency",
+      "de": "Frage 46 über Cryptocurrency",
+      "nl": "Vraag 46 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Cryptocurrency",
+      "es": "Pregunta 47 sobre Cryptocurrency",
+      "de": "Frage 47 über Cryptocurrency",
+      "nl": "Vraag 47 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Cryptocurrency",
+      "es": "Pregunta 48 sobre Cryptocurrency",
+      "de": "Frage 48 über Cryptocurrency",
+      "nl": "Vraag 48 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Cryptocurrency",
+      "es": "Pregunta 49 sobre Cryptocurrency",
+      "de": "Frage 49 über Cryptocurrency",
+      "nl": "Vraag 49 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Cryptocurrency",
+      "es": "Pregunta 50 sobre Cryptocurrency",
+      "de": "Frage 50 über Cryptocurrency",
+      "nl": "Vraag 50 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Cryptocurrency",
+      "es": "Pregunta 51 sobre Cryptocurrency",
+      "de": "Frage 51 über Cryptocurrency",
+      "nl": "Vraag 51 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Cryptocurrency",
+      "es": "Pregunta 52 sobre Cryptocurrency",
+      "de": "Frage 52 über Cryptocurrency",
+      "nl": "Vraag 52 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Cryptocurrency",
+      "es": "Pregunta 53 sobre Cryptocurrency",
+      "de": "Frage 53 über Cryptocurrency",
+      "nl": "Vraag 53 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Cryptocurrency",
+      "es": "Pregunta 54 sobre Cryptocurrency",
+      "de": "Frage 54 über Cryptocurrency",
+      "nl": "Vraag 54 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Cryptocurrency",
+      "es": "Pregunta 55 sobre Cryptocurrency",
+      "de": "Frage 55 über Cryptocurrency",
+      "nl": "Vraag 55 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Cryptocurrency",
+      "es": "Pregunta 56 sobre Cryptocurrency",
+      "de": "Frage 56 über Cryptocurrency",
+      "nl": "Vraag 56 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Cryptocurrency",
+      "es": "Pregunta 57 sobre Cryptocurrency",
+      "de": "Frage 57 über Cryptocurrency",
+      "nl": "Vraag 57 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Cryptocurrency",
+      "es": "Pregunta 58 sobre Cryptocurrency",
+      "de": "Frage 58 über Cryptocurrency",
+      "nl": "Vraag 58 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Cryptocurrency",
+      "es": "Pregunta 59 sobre Cryptocurrency",
+      "de": "Frage 59 über Cryptocurrency",
+      "nl": "Vraag 59 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Cryptocurrency",
+      "es": "Pregunta 60 sobre Cryptocurrency",
+      "de": "Frage 60 über Cryptocurrency",
+      "nl": "Vraag 60 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Cryptocurrency",
+      "es": "Pregunta 61 sobre Cryptocurrency",
+      "de": "Frage 61 über Cryptocurrency",
+      "nl": "Vraag 61 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Cryptocurrency",
+      "es": "Pregunta 62 sobre Cryptocurrency",
+      "de": "Frage 62 über Cryptocurrency",
+      "nl": "Vraag 62 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Cryptocurrency",
+      "es": "Pregunta 63 sobre Cryptocurrency",
+      "de": "Frage 63 über Cryptocurrency",
+      "nl": "Vraag 63 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Cryptocurrency",
+      "es": "Pregunta 64 sobre Cryptocurrency",
+      "de": "Frage 64 über Cryptocurrency",
+      "nl": "Vraag 64 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Cryptocurrency",
+      "es": "Pregunta 65 sobre Cryptocurrency",
+      "de": "Frage 65 über Cryptocurrency",
+      "nl": "Vraag 65 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Cryptocurrency",
+      "es": "Pregunta 66 sobre Cryptocurrency",
+      "de": "Frage 66 über Cryptocurrency",
+      "nl": "Vraag 66 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Cryptocurrency",
+      "es": "Pregunta 67 sobre Cryptocurrency",
+      "de": "Frage 67 über Cryptocurrency",
+      "nl": "Vraag 67 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Cryptocurrency",
+      "es": "Pregunta 68 sobre Cryptocurrency",
+      "de": "Frage 68 über Cryptocurrency",
+      "nl": "Vraag 68 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Cryptocurrency",
+      "es": "Pregunta 69 sobre Cryptocurrency",
+      "de": "Frage 69 über Cryptocurrency",
+      "nl": "Vraag 69 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Cryptocurrency",
+      "es": "Pregunta 70 sobre Cryptocurrency",
+      "de": "Frage 70 über Cryptocurrency",
+      "nl": "Vraag 70 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Cryptocurrency",
+      "es": "Pregunta 71 sobre Cryptocurrency",
+      "de": "Frage 71 über Cryptocurrency",
+      "nl": "Vraag 71 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Cryptocurrency",
+      "es": "Pregunta 72 sobre Cryptocurrency",
+      "de": "Frage 72 über Cryptocurrency",
+      "nl": "Vraag 72 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Cryptocurrency",
+      "es": "Pregunta 73 sobre Cryptocurrency",
+      "de": "Frage 73 über Cryptocurrency",
+      "nl": "Vraag 73 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Cryptocurrency",
+      "es": "Pregunta 74 sobre Cryptocurrency",
+      "de": "Frage 74 über Cryptocurrency",
+      "nl": "Vraag 74 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Cryptocurrency",
+      "es": "Pregunta 75 sobre Cryptocurrency",
+      "de": "Frage 75 über Cryptocurrency",
+      "nl": "Vraag 75 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Cryptocurrency",
+      "es": "Pregunta 76 sobre Cryptocurrency",
+      "de": "Frage 76 über Cryptocurrency",
+      "nl": "Vraag 76 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Cryptocurrency",
+      "es": "Pregunta 77 sobre Cryptocurrency",
+      "de": "Frage 77 über Cryptocurrency",
+      "nl": "Vraag 77 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Cryptocurrency",
+      "es": "Pregunta 78 sobre Cryptocurrency",
+      "de": "Frage 78 über Cryptocurrency",
+      "nl": "Vraag 78 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Cryptocurrency",
+      "es": "Pregunta 79 sobre Cryptocurrency",
+      "de": "Frage 79 über Cryptocurrency",
+      "nl": "Vraag 79 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Cryptocurrency",
+      "es": "Pregunta 80 sobre Cryptocurrency",
+      "de": "Frage 80 über Cryptocurrency",
+      "nl": "Vraag 80 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Cryptocurrency",
+      "es": "Pregunta 81 sobre Cryptocurrency",
+      "de": "Frage 81 über Cryptocurrency",
+      "nl": "Vraag 81 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Cryptocurrency",
+      "es": "Pregunta 82 sobre Cryptocurrency",
+      "de": "Frage 82 über Cryptocurrency",
+      "nl": "Vraag 82 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Cryptocurrency",
+      "es": "Pregunta 83 sobre Cryptocurrency",
+      "de": "Frage 83 über Cryptocurrency",
+      "nl": "Vraag 83 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Cryptocurrency",
+      "es": "Pregunta 84 sobre Cryptocurrency",
+      "de": "Frage 84 über Cryptocurrency",
+      "nl": "Vraag 84 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Cryptocurrency",
+      "es": "Pregunta 85 sobre Cryptocurrency",
+      "de": "Frage 85 über Cryptocurrency",
+      "nl": "Vraag 85 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Cryptocurrency",
+      "es": "Pregunta 86 sobre Cryptocurrency",
+      "de": "Frage 86 über Cryptocurrency",
+      "nl": "Vraag 86 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Cryptocurrency",
+      "es": "Pregunta 87 sobre Cryptocurrency",
+      "de": "Frage 87 über Cryptocurrency",
+      "nl": "Vraag 87 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Cryptocurrency",
+      "es": "Pregunta 88 sobre Cryptocurrency",
+      "de": "Frage 88 über Cryptocurrency",
+      "nl": "Vraag 88 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Cryptocurrency",
+      "es": "Pregunta 89 sobre Cryptocurrency",
+      "de": "Frage 89 über Cryptocurrency",
+      "nl": "Vraag 89 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Cryptocurrency",
+      "es": "Pregunta 90 sobre Cryptocurrency",
+      "de": "Frage 90 über Cryptocurrency",
+      "nl": "Vraag 90 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Cryptocurrency",
+      "es": "Pregunta 91 sobre Cryptocurrency",
+      "de": "Frage 91 über Cryptocurrency",
+      "nl": "Vraag 91 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Cryptocurrency",
+      "es": "Pregunta 92 sobre Cryptocurrency",
+      "de": "Frage 92 über Cryptocurrency",
+      "nl": "Vraag 92 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Cryptocurrency",
+      "es": "Pregunta 93 sobre Cryptocurrency",
+      "de": "Frage 93 über Cryptocurrency",
+      "nl": "Vraag 93 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Cryptocurrency",
+      "es": "Pregunta 94 sobre Cryptocurrency",
+      "de": "Frage 94 über Cryptocurrency",
+      "nl": "Vraag 94 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Cryptocurrency",
+      "es": "Pregunta 95 sobre Cryptocurrency",
+      "de": "Frage 95 über Cryptocurrency",
+      "nl": "Vraag 95 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Cryptocurrency",
+      "es": "Pregunta 96 sobre Cryptocurrency",
+      "de": "Frage 96 über Cryptocurrency",
+      "nl": "Vraag 96 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Cryptocurrency",
+      "es": "Pregunta 97 sobre Cryptocurrency",
+      "de": "Frage 97 über Cryptocurrency",
+      "nl": "Vraag 97 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Cryptocurrency",
+      "es": "Pregunta 98 sobre Cryptocurrency",
+      "de": "Frage 98 über Cryptocurrency",
+      "nl": "Vraag 98 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Cryptocurrency",
+      "es": "Pregunta 99 sobre Cryptocurrency",
+      "de": "Frage 99 über Cryptocurrency",
+      "nl": "Vraag 99 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Cryptocurrency",
+      "es": "Pregunta 100 sobre Cryptocurrency",
+      "de": "Frage 100 über Cryptocurrency",
+      "nl": "Vraag 100 over Cryptocurrency"
+    },
+    "options": [
+      {
+        "en": "Answer A for Cryptocurrency",
+        "es": "Respuesta A para Cryptocurrency",
+        "de": "Antwort A für Cryptocurrency",
+        "nl": "Antwoord A voor Cryptocurrency"
+      },
+      {
+        "en": "Answer B for Cryptocurrency",
+        "es": "Respuesta B para Cryptocurrency",
+        "de": "Antwort B für Cryptocurrency",
+        "nl": "Antwoord B voor Cryptocurrency"
+      },
+      {
+        "en": "Answer C for Cryptocurrency",
+        "es": "Respuesta C para Cryptocurrency",
+        "de": "Antwort C für Cryptocurrency",
+        "nl": "Antwoord C voor Cryptocurrency"
+      },
+      {
+        "en": "Answer D for Cryptocurrency",
+        "es": "Respuesta D para Cryptocurrency",
+        "de": "Antwort D für Cryptocurrency",
+        "nl": "Antwoord D voor Cryptocurrency"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Cryptocurrency.",
+      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
+      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
+      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    }
   }
-})();
+]
+};

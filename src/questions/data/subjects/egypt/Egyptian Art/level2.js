@@ -1,1657 +1,4104 @@
-// Egyptian Art Quiz - Level 2
-(function() {
-  const level2 = {
-    name: {
-          "en": "Egyptian Art Level 2",
-          "es": "Arte Egipcio Nivel 2",
-          "de": "Aegyptische Kunst Stufe 2",
-          "nl": "Egyptische Kunst Level 2"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Egyptian Art",
+      "es": "Pregunta 1 sobre Egyptian Art",
+      "de": "Frage 1 über Egyptian Art",
+      "nl": "Vraag 1 over Egyptian Art"
     },
-    questions: [
+    "options": [
       {
-        question: {
-                  "en": "What material was most commonly used for ancient Egyptian statues?",
-                  "es": "Que material se usaba mas comunmente para las estatuas del antiguo Egipto?",
-                  "de": "Welches Material wurde am haeufigsten fuer altaegyptische Statuen verwendet?",
-                  "nl": "Welk materiaal werd het meest gebruikt voor oude Egyptische beelden?"
-        },
-        options: [
-        {
-                  "en": "Bronze",
-                  "es": "Bronce",
-                  "de": "Bronze",
-                  "nl": "Brons"
-        },
-        {
-                  "en": "Limestone",
-                  "es": "Piedra caliza",
-                  "de": "Kalkstein",
-                  "nl": "Kalksteen"
-        },
-        {
-                  "en": "Marble",
-                  "es": "Marmol",
-                  "de": "Marmor",
-                  "nl": "Marmer"
-        },
-        {
-                  "en": "Clay",
-                  "es": "Arcilla",
-                  "de": "Ton",
-                  "nl": "Klei"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Limestone was the most widely available and commonly used material for Egyptian statues and monuments.",
-                  "es": "La piedra caliza era el material mas ampliamente disponible y comunmente usado para estatuas y monumentos egipcios.",
-                  "de": "Kalkstein war das am weitesten verbreitete und am haeufigsten verwendete Material fuer aegyptische Statuen und Denkmäler.",
-                  "nl": "Kalksteen was het meest beschikbare en gebruikte materiaal voor Egyptische beelden en monumenten."
-        }
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
       },
       {
-        question: {
-                  "en": "What color was used to represent life and rebirth in Egyptian art?",
-                  "es": "Que color se usaba para representar la vida y el renacimiento en el arte egipcio?",
-                  "de": "Welche Farbe wurde verwendet, um Leben und Wiedergeburt in der aegyptischen Kunst darzustellen?",
-                  "nl": "Welke kleur werd gebruikt om leven en wedergeboorte in Egyptische kunst te vertegenwoordigen?"
-        },
-        options: [
-        {
-                  "en": "Green",
-                  "es": "Verde",
-                  "de": "Gruen",
-                  "nl": "Groen"
-        },
-        {
-                  "en": "Blue",
-                  "es": "Azul",
-                  "de": "Blau",
-                  "nl": "Blauw"
-        },
-        {
-                  "en": "Yellow",
-                  "es": "Amarillo",
-                  "de": "Gelb",
-                  "nl": "Geel"
-        },
-        {
-                  "en": "Red",
-                  "es": "Rojo",
-                  "de": "Rot",
-                  "nl": "Rood"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Green symbolized life, rebirth, and vegetation in Egyptian art, associated with the annual Nile flooding.",
-                  "es": "El verde simbolizaba la vida, el renacimiento y la vegetacion en el arte egipcio, asociado con la inundacion anual del Nilo.",
-                  "de": "Gruen symbolisierte Leben, Wiedergeburt und Vegetation in der aegyptischen Kunst, verbunden mit der jaehrlichen Nilflut.",
-                  "nl": "Groen symboliseerde leven, wedergeboorte en vegetatie in Egyptische kunst, geassocieerd met de jaarlijkse Nijl-overstroming."
-        }
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
       },
       {
-        question: {
-                  "en": "How were important people typically depicted in Egyptian art?",
-                  "es": "Como se representaban tipicamente las personas importantes en el arte egipcio?",
-                  "de": "Wie wurden wichtige Personen typischerweise in der aegyptischen Kunst dargestellt?",
-                  "nl": "Hoe werden belangrijke mensen doorgaans afgebeeld in Egyptische kunst?"
-        },
-        options: [
-        {
-                  "en": "Same size as others",
-                  "es": "Del mismo tamano que otros",
-                  "de": "Gleiche Groesse wie andere",
-                  "nl": "Zelfde grootte als anderen"
-        },
-        {
-                  "en": "In the background",
-                  "es": "En el fondo",
-                  "de": "Im Hintergrund",
-                  "nl": "Op de achtergrond"
-        },
-        {
-                  "en": "Smaller than others",
-                  "es": "Mas pequenos que otros",
-                  "de": "Kleiner als andere",
-                  "nl": "Kleiner dan anderen"
-        },
-        {
-                  "en": "Larger than others",
-                  "es": "Mas grandes que otros",
-                  "de": "Groesser als andere",
-                  "nl": "Groter dan anderen"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Important people like pharaohs were shown larger than others to indicate their status and power.",
-                  "es": "Las personas importantes como los faraones se mostraban mas grandes que otros para indicar su estatus y poder.",
-                  "de": "Wichtige Personen wie Pharaonen wurden groesser als andere dargestellt, um ihren Status und ihre Macht anzuzeigen.",
-                  "nl": "Belangrijke mensen zoals farao's werden groter afgebeeld dan anderen om hun status en macht aan te geven."
-        }
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
       },
       {
-        question: {
-                  "en": "What writing system is often seen in Egyptian tomb paintings?",
-                  "es": "Que sistema de escritura se ve a menudo en las pinturas de tumbas egipcias?",
-                  "de": "Welches Schriftsystem ist oft in aegyptischen Grabmalereien zu sehen?",
-                  "nl": "Welk schriftsysteem wordt vaak gezien in Egyptische grafmuurschilderingen?"
-        },
-        options: [
-        {
-                  "en": "Cuneiform",
-                  "es": "Cuneiforme",
-                  "de": "Keilschrift",
-                  "nl": "Spijkerschrift"
-        },
-        {
-                  "en": "Sanskrit",
-                  "es": "Sanscrito",
-                  "de": "Sanskrit",
-                  "nl": "Sanskriet"
-        },
-        {
-                  "en": "Hieroglyphs",
-                  "es": "Jeroglificos",
-                  "de": "Hieroglyphen",
-                  "nl": "Hierogliefen"
-        },
-        {
-                  "en": "Phoenician",
-                  "es": "Fenicio",
-                  "de": "Phoenizisch",
-                  "nl": "Foenicisch"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Hieroglyphs were the formal writing system used in Egyptian art, especially in tombs and temples.",
-                  "es": "Los jeroglificos eran el sistema de escritura formal usado en el arte egipcio, especialmente en tumbas y templos.",
-                  "de": "Hieroglyphen waren das formelle Schriftsystem, das in der aegyptischen Kunst verwendet wurde, besonders in Graebern und Tempeln.",
-                  "nl": "Hierogliefen waren het formele schrijfsysteem dat in Egyptische kunst werd gebruikt, vooral in graven en tempels."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the main purpose of Egyptian tomb art?",
-                  "es": "Cual era el proposito principal del arte de las tumbas egipcias?",
-                  "de": "Was war der Hauptzweck der aegyptischen Grabkunst?",
-                  "nl": "Wat was het hoofddoel van Egyptische grafkunst?"
-        },
-        options: [
-        {
-                  "en": "To show wealth",
-                  "es": "Para mostrar riqueza",
-                  "de": "Um Reichtum zu zeigen",
-                  "nl": "Om rijkdom te tonen"
-        },
-        {
-                  "en": "To help the deceased in the afterlife",
-                  "es": "Para ayudar al difunto en la otra vida",
-                  "de": "Um dem Verstorbenen im Jenseits zu helfen",
-                  "nl": "Om de overledene te helpen in het hiernamaals"
-        },
-        {
-                  "en": "Decoration only",
-                  "es": "Solo decoracion",
-                  "de": "Nur Dekoration",
-                  "nl": "Alleen decoratie"
-        },
-        {
-                  "en": "To scare tomb robbers",
-                  "es": "Para asustar a los ladrones de tumbas",
-                  "de": "Um Grabräuber abzuschrecken",
-                  "nl": "Om grafrovers af te schrikken"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Egyptian tomb art was created to provide the deceased with everything they would need in the afterlife.",
-                  "es": "El arte de las tumbas egipcias se creaba para proporcionar al difunto todo lo que necesitaria en la otra vida.",
-                  "de": "Aegyptische Grabkunst wurde geschaffen, um dem Verstorbenen alles zu bieten, was er im Jenseits brauchen wuerde.",
-                  "nl": "Egyptische grafkunst werd gemaakt om de overledene alles te bieden wat hij nodig zou hebben in het hiernamaals."
-        }
-      },
-      {
-        question: {
-                  "en": "What was painted on Egyptian coffins?",
-                  "es": "Que se pintaba en los ataudes egipcios?",
-                  "de": "Was wurde auf aegyptischen Saergen gemalt?",
-                  "nl": "Wat werd geschilderd op Egyptische doodskisten?"
-        },
-        options: [
-        {
-                  "en": "Battle scenes",
-                  "es": "Escenas de batalla",
-                  "de": "Kampfszenen",
-                  "nl": "Gevechtscenes"
-        },
-        {
-                  "en": "Landscape paintings",
-                  "es": "Pinturas de paisajes",
-                  "de": "Landschaftsmalereien",
-                  "nl": "Landschapsschilderijen"
-        },
-        {
-                  "en": "Gods and protective spells",
-                  "es": "Dioses y hechizos protectores",
-                  "de": "Goetter und Schutzsprueche",
-                  "nl": "Goden en beschermende spreuken"
-        },
-        {
-                  "en": "Family portraits",
-                  "es": "Retratos familiares",
-                  "de": "Familienportraets",
-                  "nl": "Familieportretten"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Egyptian coffins were decorated with images of gods and protective spells to help guide and protect the deceased.",
-                  "es": "Los ataudes egipcios se decoraban con imagenes de dioses y hechizos protectores para ayudar a guiar y proteger al difunto.",
-                  "de": "Aegyptische Saerge wurden mit Bildern von Goettern und Schutzspruechen dekoriert, um den Verstorbenen zu fuehren und zu schuetzen.",
-                  "nl": "Egyptische doodskisten werden versierd met afbeeldingen van goden en beschermende spreuken om de overledene te leiden en beschermen."
-        }
-      },
-      {
-        question: {
-                  "en": "What type of Egyptian art was created on papyrus scrolls?",
-                  "es": "Que tipo de arte egipcio se creaba en rollos de papiro?",
-                  "de": "Welche Art von aegyptischer Kunst wurde auf Papyrusrollen erstellt?",
-                  "nl": "Welk type Egyptische kunst werd gemaakt op papyrusrollen?"
-        },
-        options: [
-        {
-                  "en": "Pottery patterns",
-                  "es": "Patrones de ceramica",
-                  "de": "Tonwarenmuster",
-                  "nl": "Aardewerkpatronen"
-        },
-        {
-                  "en": "Sculptures",
-                  "es": "Esculturas",
-                  "de": "Skulpturen",
-                  "nl": "Beeldhouwwerken"
-        },
-        {
-                  "en": "Paintings and texts",
-                  "es": "Pinturas y textos",
-                  "de": "Gemaelde und Texte",
-                  "nl": "Schilderijen en teksten"
-        },
-        {
-                  "en": "Jewelry designs",
-                  "es": "Disenos de joyas",
-                  "de": "Schmuckdesigns",
-                  "nl": "Sieradenontwerpen"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Papyrus scrolls contained paintings and texts, including the famous Book of the Dead with illustrated spells.",
-                  "es": "Los rollos de papiro contenian pinturas y textos, incluido el famoso Libro de los Muertos con hechizos ilustrados.",
-                  "de": "Papyrusrollen enthielten Gemaelde und Texte, einschliesslich des beruehmten Totenbuchs mit illustrierten Spruechen.",
-                  "nl": "Papyrusrollen bevatten schilderijen en teksten, inclusief het beroemde Dodenboek met geïllustreerde spreuken."
-        }
-      },
-      {
-        question: {
-                  "en": "What perspective style was used in Egyptian paintings?",
-                  "es": "Que estilo de perspectiva se usaba en las pinturas egipcias?",
-                  "de": "Welcher Perspektivstil wurde in aegyptischen Gemaelden verwendet?",
-                  "nl": "Welke perspectiefstijl werd gebruikt in Egyptische schilderijen?"
-        },
-        options: [
-        {
-                  "en": "Flat/two-dimensional",
-                  "es": "Plano/bidimensional",
-                  "de": "Flach/zweidimensional",
-                  "nl": "Plat/tweedimensionaal"
-        },
-        {
-                  "en": "Three-dimensional",
-                  "es": "Tridimensional",
-                  "de": "Dreidimensional",
-                  "nl": "Driedimensionaal"
-        },
-        {
-                  "en": "Abstract",
-                  "es": "Abstracto",
-                  "de": "Abstrakt",
-                  "nl": "Abstract"
-        },
-        {
-                  "en": "Impressionist",
-                  "es": "Impresionista",
-                  "de": "Impressionistisch",
-                  "nl": "Impressionistisch"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Egyptian art used a flat, two-dimensional style with figures shown from multiple viewpoints simultaneously.",
-                  "es": "El arte egipcio usaba un estilo plano y bidimensional con figuras mostradas desde multiples puntos de vista simultaneamente.",
-                  "de": "Aegyptische Kunst verwendete einen flachen, zweidimensionalen Stil mit Figuren, die gleichzeitig aus mehreren Blickwinkeln gezeigt wurden.",
-                  "nl": "Egyptische kunst gebruikte een platte, tweedimensionale stijl met figuren die simultaan vanuit meerdere gezichtspunten werden getoond."
-        }
-      },
-      {
-        question: {
-                  "en": "What animal was frequently depicted in Egyptian art as a symbol of protection?",
-                  "es": "Que animal se representaba frecuentemente en el arte egipcio como simbolo de proteccion?",
-                  "de": "Welches Tier wurde haeufig in der aegyptischen Kunst als Symbol des Schutzes dargestellt?",
-                  "nl": "Welk dier werd vaak afgebeeld in Egyptische kunst als symbool van bescherming?"
-        },
-        options: [
-        {
-                  "en": "Falcon",
-                  "es": "Halcon",
-                  "de": "Falke",
-                  "nl": "Valk"
-        },
-        {
-                  "en": "Lion",
-                  "es": "Leon",
-                  "de": "Loewe",
-                  "nl": "Leeuw"
-        },
-        {
-                  "en": "Snake",
-                  "es": "Serpiente",
-                  "de": "Schlange",
-                  "nl": "Slang"
-        },
-        {
-                  "en": "Cat",
-                  "es": "Gato",
-                  "de": "Katze",
-                  "nl": "Kat"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Lions were frequently depicted as symbols of royal protection and strength in Egyptian art.",
-                  "es": "Los leones se representaban frecuentemente como simbolos de proteccion real y fuerza en el arte egipcio.",
-                  "de": "Loewen wurden haeufig als Symbole koeniglichen Schutzes und Staerke in der aegyptischen Kunst dargestellt.",
-                  "nl": "Leeuwen werden vaak afgebeeld als symbolen van koninklijke bescherming en kracht in Egyptische kunst."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the Eye of Horus used for in Egyptian art?",
-                  "es": "Para que se usaba el Ojo de Horus en el arte egipcio?",
-                  "de": "Wofuer wurde das Auge des Horus in der aegyptischen Kunst verwendet?",
-                  "nl": "Waarvoor werd het Oog van Horus gebruikt in Egyptische kunst?"
-        },
-        options: [
-        {
-                  "en": "Decoration",
-                  "es": "Decoracion",
-                  "de": "Dekoration",
-                  "nl": "Decoratie"
-        },
-        {
-                  "en": "Protection and healing",
-                  "es": "Proteccion y curacion",
-                  "de": "Schutz und Heilung",
-                  "nl": "Bescherming en genezing"
-        },
-        {
-                  "en": "Telling time",
-                  "es": "Marcar el tiempo",
-                  "de": "Zeitangabe",
-                  "nl": "Tijdmeting"
-        },
-        {
-                  "en": "Navigation",
-                  "es": "Navegacion",
-                  "de": "Navigation",
-                  "nl": "Navigatie"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The Eye of Horus was a powerful protective symbol representing healing, wholeness, and protection.",
-                  "es": "El Ojo de Horus era un poderoso simbolo protector que representaba curacion, totalidad y proteccion.",
-                  "de": "Das Auge des Horus war ein maechtige Schutzsymbol, das Heilung, Ganzheit und Schutz darstellte.",
-                  "nl": "Het Oog van Horus was een krachtig beschermingssymbool dat genezing, heelheid en bescherming vertegenwoordigde."
-        }
-      },
-      {
-        question: {
-                  "en": "What type of crown appears in many Egyptian artworks?",
-                  "es": "Que tipo de corona aparece en muchas obras de arte egipcias?",
-                  "de": "Welche Art von Krone erscheint in vielen aegyptischen Kunstwerken?",
-                  "nl": "Welk type kroon verschijnt in veel Egyptische kunstwerken?"
-        },
-        options: [
-        {
-                  "en": "Diamond tiara",
-                  "es": "Tiara de diamantes",
-                  "de": "Diamant-Tiara",
-                  "nl": "Diamanten tiara"
-        },
-        {
-                  "en": "Iron helmet",
-                  "es": "Casco de hierro",
-                  "de": "Eisenhelm",
-                  "nl": "IJzeren helm"
-        },
-        {
-                  "en": "Golden laurel wreath",
-                  "es": "Corona de laurel dorada",
-                  "de": "Goldener Lorbeerkranz",
-                  "nl": "Gouden laurierkrans"
-        },
-        {
-                  "en": "Double crown (red and white)",
-                  "es": "Corona doble (roja y blanca)",
-                  "de": "Doppelkrone (rot und weiss)",
-                  "nl": "Dubbele kroon (rood en wit)"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The double crown combined the red crown of Lower Egypt and white crown of Upper Egypt, symbolizing unified rule.",
-                  "es": "La corona doble combinaba la corona roja del Bajo Egipto y la corona blanca del Alto Egipto, simbolizando el gobierno unificado.",
-                  "de": "Die Doppelkrone kombinierte die rote Krone von Untergypten und die weisse Krone von Oberaegypten und symbolisierte die vereinte Herrschaft.",
-                  "nl": "De dubbele kroon combineerde de rode kroon van Neder-Egypte en de witte kroon van Opper-Egypte, wat verenigde heerschappij symboliseerde."
-        }
-      },
-      {
-        question: {
-                  "en": "What plant was commonly shown in Egyptian art as a symbol of Upper Egypt?",
-                  "es": "Que planta se mostraba comunmente en el arte egipcio como simbolo del Alto Egipto?",
-                  "de": "Welche Pflanze wurde haeufig in der aegyptischen Kunst als Symbol fuer Oberaegypten gezeigt?",
-                  "nl": "Welke plant werd vaak getoond in Egyptische kunst als symbool van Opper-Egypte?"
-        },
-        options: [
-        {
-                  "en": "Papyrus",
-                  "es": "Papiro",
-                  "de": "Papyrus",
-                  "nl": "Papyrus"
-        },
-        {
-                  "en": "Wheat",
-                  "es": "Trigo",
-                  "de": "Weizen",
-                  "nl": "Tarwe"
-        },
-        {
-                  "en": "Palm tree",
-                  "es": "Palmera",
-                  "de": "Palme",
-                  "nl": "Palmboom"
-        },
-        {
-                  "en": "Lotus",
-                  "es": "Loto",
-                  "de": "Lotus",
-                  "nl": "Lotus"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The lotus flower symbolized Upper Egypt, while papyrus represented Lower Egypt in Egyptian art.",
-                  "es": "La flor de loto simbolizaba el Alto Egipto, mientras que el papiro representaba el Bajo Egipto en el arte egipcio.",
-                  "de": "Die Lotusblume symbolisierte Oberaegypten, waehrend Papyrus Unteraegypten in der aegyptischen Kunst darstellte.",
-                  "nl": "De lotusbloem symboliseerde Opper-Egypte, terwijl papyrus Neder-Egypte vertegenwoordigde in Egyptische kunst."
-        }
-      },
-      {
-        question: {
-                  "en": "What material was used to create colorful Egyptian jewelry?",
-                  "es": "Que material se usaba para crear joyas egipcias coloridas?",
-                  "de": "Welches Material wurde verwendet, um farbenfrohen aegyptischen Schmuck zu schaffen?",
-                  "nl": "Welk materiaal werd gebruikt om kleurrijke Egyptische sieraden te maken?"
-        },
-        options: [
-        {
-                  "en": "Glass fiber",
-                  "es": "Fibra de vidrio",
-                  "de": "Glasfaser",
-                  "nl": "Glasvezel"
-        },
-        {
-                  "en": "Plastic",
-                  "es": "Plastico",
-                  "de": "Plastik",
-                  "nl": "Plastic"
-        },
-        {
-                  "en": "Rubber",
-                  "es": "Caucho",
-                  "de": "Gummi",
-                  "nl": "Rubber"
-        },
-        {
-                  "en": "Faience (glazed ceramic)",
-                  "es": "Loza (ceramica vidriada)",
-                  "de": "Fayence (glasierte Keramik)",
-                  "nl": "Faience (geglazuurd keramiek)"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Faience, a glazed ceramic material, was widely used to create colorful jewelry and decorative objects in ancient Egypt.",
-                  "es": "La loza, un material ceramico vidriado, se usaba ampliamente para crear joyas coloridas y objetos decorativos en el antiguo Egipto.",
-                  "de": "Fayence, ein glasiertes keramisches Material, wurde im alten Aegypten weit verbreitet verwendet, um farbenfrohen Schmuck und dekorative Objekte zu schaffen.",
-                  "nl": "Faience, een geglazuurd keramisch materiaal, werd veel gebruikt om kleurrijke sieraden en decoratieve objecten te maken in het oude Egypte."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the typical skin color used for men in Egyptian paintings?",
-                  "es": "Cual era el color de piel tipico usado para los hombres en las pinturas egipcias?",
-                  "de": "Welche Hautfarbe wurde typischerweise fuer Maenner in aegyptischen Gemaelden verwendet?",
-                  "nl": "Wat was de typische huidskleur voor mannen in Egyptische schilderijen?"
-        },
-        options: [
-        {
-                  "en": "Yellow",
-                  "es": "Amarillo",
-                  "de": "Gelb",
-                  "nl": "Geel"
-        },
-        {
-                  "en": "White",
-                  "es": "Blanco",
-                  "de": "Weiss",
-                  "nl": "Wit"
-        },
-        {
-                  "en": "Red-brown",
-                  "es": "Rojo-marron",
-                  "de": "Rotbraun",
-                  "nl": "Roodbruin"
-        },
-        {
-                  "en": "Blue",
-                  "es": "Azul",
-                  "de": "Blau",
-                  "nl": "Blauw"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Men were typically painted with red-brown skin, while women were shown with lighter, yellowish skin tones.",
-                  "es": "Los hombres se pintaban tipicamente con piel marron-rojiza, mientras que las mujeres se mostraban con tonos de piel mas claros y amarillentos.",
-                  "de": "Maenner wurden typischerweise mit rotbrauner Haut gemalt, waehrend Frauen mit helleren, gelblichen Hauttoenen dargestellt wurden.",
-                  "nl": "Mannen werden typisch geschilderd met roodbruine huid, terwijl vrouwen werden getoond met lichtere, gelige huidskleuren."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the purpose of ushabti figures in Egyptian tombs?",
-                  "es": "Cual era el proposito de las figuras ushabti en las tumbas egipcias?",
-                  "de": "Was war der Zweck von Uschebti-Figuren in aegyptischen Graebern?",
-                  "nl": "Wat was het doel van ushabti-figuren in Egyptische graven?"
-        },
-        options: [
-        {
-                  "en": "To serve as workers in the afterlife",
-                  "es": "Para servir como trabajadores en la otra vida",
-                  "de": "Um als Arbeiter im Jenseits zu dienen",
-                  "nl": "Om als arbeiders in het hiernamaals te dienen"
-        },
-        {
-                  "en": "Decoration",
-                  "es": "Decoracion",
-                  "de": "Dekoration",
-                  "nl": "Decoratie"
-        },
-        {
-                  "en": "To scare away evil spirits",
-                  "es": "Para ahuyentar espiritus malignos",
-                  "de": "Um boese Geister abzuschrecken",
-                  "nl": "Om kwade geesten weg te jagen"
-        },
-        {
-                  "en": "To tell time",
-                  "es": "Para marcar el tiempo",
-                  "de": "Um die Zeit anzuzeigen",
-                  "nl": "Om de tijd aan te geven"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Ushabti figures were servant statues placed in tombs to perform labor for the deceased in the afterlife.",
-                  "es": "Las figuras ushabti eran estatuas de sirvientes colocadas en las tumbas para realizar trabajos para el difunto en la otra vida.",
-                  "de": "Uschebti-Figuren waren Dienerfiguren, die in Graebern platziert wurden, um Arbeit fuer den Verstorbenen im Jenseits zu verrichten.",
-                  "nl": "Ushabti-figuren waren beelden van dienaars die in graven werden geplaatst om arbeid te verrichten voor de overledene in het hiernamaals."
-        }
-      },
-      {
-        question: {
-                  "en": "What poses were most Egyptian figures shown in?",
-                  "es": "En que poses se mostraban la mayoria de las figuras egipcias?",
-                  "de": "In welchen Posen wurden die meisten aegyptischen Figuren gezeigt?",
-                  "nl": "In welke poses werden de meeste Egyptische figuren getoond?"
-        },
-        options: [
-        {
-                  "en": "Standing with both feet together",
-                  "es": "De pie con ambos pies juntos",
-                  "de": "Stehend mit beiden Fuessen zusammen",
-                  "nl": "Staand met beide voeten samen"
-        },
-        {
-                  "en": "Sitting cross-legged",
-                  "es": "Sentados con las piernas cruzadas",
-                  "de": "Sitzend mit gekreuzten Beinen",
-                  "nl": "Zittend met gekruiste benen"
-        },
-        {
-                  "en": "Jumping in the air",
-                  "es": "Saltando en el aire",
-                  "de": "In der Luft springend",
-                  "nl": "Springend in de lucht"
-        },
-        {
-                  "en": "Walking with one foot forward",
-                  "es": "Caminando con un pie hacia adelante",
-                  "de": "Gehend mit einem Fuss nach vorne",
-                  "nl": "Lopend met een voet naar voren"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Egyptian figures were typically shown in a walking pose with one foot forward, a standard convention in their art.",
-                  "es": "Las figuras egipcias se mostraban tipicamente en una pose de caminata con un pie hacia adelante, una convencion estandar en su arte.",
-                  "de": "Aegyptische Figuren wurden typischerweise in einer Gehpose mit einem Fuss nach vorne gezeigt, eine Standardkonvention in ihrer Kunst.",
-                  "nl": "Egyptische figuren werden typisch getoond in een lopende pose met een voet naar voren, een standaard conventie in hun kunst."
-        }
-      },
-      {
-        question: {
-                  "en": "What symbol represented eternal life in Egyptian art?",
-                  "es": "Que simbolo representaba la vida eterna en el arte egipcio?",
-                  "de": "Welches Symbol stellte ewiges Leben in der aegyptischen Kunst dar?",
-                  "nl": "Welk symbool vertegenwoordigde eeuwig leven in Egyptische kunst?"
-        },
-        options: [
-        {
-                  "en": "Star",
-                  "es": "Estrella",
-                  "de": "Stern",
-                  "nl": "Ster"
-        },
-        {
-                  "en": "Cross",
-                  "es": "Cruz",
-                  "de": "Kreuz",
-                  "nl": "Kruis"
-        },
-        {
-                  "en": "Circle",
-                  "es": "Circulo",
-                  "de": "Kreis",
-                  "nl": "Cirkel"
-        },
-        {
-                  "en": "Ankh",
-                  "es": "Anj",
-                  "de": "Ankh",
-                  "nl": "Ankh"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "The ankh symbol, resembling a cross with a loop at the top, represented eternal life and was frequently shown in Egyptian art.",
-                  "es": "El simbolo anj, que se asemeja a una cruz con un bucle en la parte superior, representaba la vida eterna y se mostraba frecuentemente en el arte egipcio.",
-                  "de": "Das Ankh-Symbol, das einem Kreuz mit einer Schlaufe oben aehnelt, stellte ewiges Leben dar und wurde haeufig in der aegyptischen Kunst gezeigt.",
-                  "nl": "Het ankh-symbool, dat lijkt op een kruis met een lus aan de bovenkant, vertegenwoordigde eeuwig leven en werd vaak getoond in Egyptische kunst."
-        }
-      },
-      {
-        question: {
-                  "en": "What material was used for the blue pigment in Egyptian art?",
-                  "es": "Que material se usaba para el pigmento azul en el arte egipcio?",
-                  "de": "Welches Material wurde fuer das blaue Pigment in der aegyptischen Kunst verwendet?",
-                  "nl": "Welk materiaal werd gebruikt voor het blauwe pigment in Egyptische kunst?"
-        },
-        options: [
-        {
-                  "en": "Ocean water",
-                  "es": "Agua de mar",
-                  "de": "Meerwasser",
-                  "nl": "Oceaanwater"
-        },
-        {
-                  "en": "Blueberries",
-                  "es": "Arandanos",
-                  "de": "Blaubeeren",
-                  "nl": "Bosbessen"
-        },
-        {
-                  "en": "Lapis lazuli",
-                  "es": "Lapislazuli",
-                  "de": "Lapislazuli",
-                  "nl": "Lapis lazuli"
-        },
-        {
-                  "en": "Indigo plant",
-                  "es": "Planta indigo",
-                  "de": "Indigopflanze",
-                  "nl": "Indigoplant"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Lapis lazuli, a semi-precious blue stone imported from Afghanistan, was ground to create the prized blue pigment.",
-                  "es": "El lapislazuli, una piedra azul semipreciosa importada de Afganistan, se molia para crear el preciado pigmento azul.",
-                  "de": "Lapislazuli, ein halbedelstein blauer Stein aus Afghanistan, wurde gemahlen, um das geschaetzte blaue Pigment zu erzeugen.",
-                  "nl": "Lapis lazuli, een halfedelstenen blauwe steen geïmporteerd uit Afghanistan, werd gemalen om het gewaardeerde blauwe pigment te maken."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the Egyptian grid system used for?",
-                  "es": "Para que se usaba el sistema de cuadricula egipcio?",
-                  "de": "Wofuer wurde das aegyptische Rastersystem verwendet?",
-                  "nl": "Waarvoor werd het Egyptische rastersysteem gebruikt?"
-        },
-        options: [
-        {
-                  "en": "Creating proportional figures",
-                  "es": "Crear figuras proporcionales",
-                  "de": "Proportionale Figuren erstellen",
-                  "nl": "Proportionele figuren maken"
-        },
-        {
-                  "en": "Measuring land",
-                  "es": "Medir tierra",
-                  "de": "Land vermessen",
-                  "nl": "Land meten"
-        },
-        {
-                  "en": "Playing games",
-                  "es": "Jugar juegos",
-                  "de": "Spiele spielen",
-                  "nl": "Spellen spelen"
-        },
-        {
-                  "en": "Writing letters",
-                  "es": "Escribir cartas",
-                  "de": "Briefe schreiben",
-                  "nl": "Brieven schrijven"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The grid system helped Egyptian artists maintain proper proportions when drawing the human figure according to strict conventions.",
-                  "es": "El sistema de cuadricula ayudaba a los artistas egipcios a mantener proporciones adecuadas al dibujar la figura humana segun convenciones estrictas.",
-                  "de": "Das Rastersystem half aegyptischen Kuenstlern, die richtigen Proportionen beim Zeichnen der menschlichen Figur nach strengen Konventionen beizubehalten.",
-                  "nl": "Het rastersysteem help Egyptische kunstenaars om juiste verhoudingen te behouden bij het tekenen van de menselijke figuur volgens strikte conventies."
-        }
-      },
-      {
-        question: {
-                  "en": "What scenes were commonly painted on Egyptian tomb walls?",
-                  "es": "Que escenas se pintaban comunmente en las paredes de las tumbas egipcias?",
-                  "de": "Welche Szenen wurden haeufig auf aegyptischen Grabwaenden gemalt?",
-                  "nl": "Welke scenes werden vaak geschilderd op Egyptische grafmuren?"
-        },
-        options: [
-        {
-                  "en": "Foreign lands",
-                  "es": "Tierras extranjeras",
-                  "de": "Fremde Laender",
-                  "nl": "Vreemde landen"
-        },
-        {
-                  "en": "War battles",
-                  "es": "Batallas de guerra",
-                  "de": "Kriegsschlachten",
-                  "nl": "Oorlogsgevechten"
-        },
-        {
-                  "en": "Abstract patterns",
-                  "es": "Patrones abstractos",
-                  "de": "Abstrakte Muster",
-                  "nl": "Abstracte patronen"
-        },
-        {
-                  "en": "Daily life activities",
-                  "es": "Actividades de la vida diaria",
-                  "de": "Tägliche Lebensaktivitäten",
-                  "nl": "Dagelijkse levensactiviteiten"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Tomb walls showed daily life activities like farming, hunting, and feasting to provide these experiences in the afterlife.",
-                  "es": "Las paredes de las tumbas mostraban actividades de la vida diaria como agricultura, caza y festines para proporcionar estas experiencias en la otra vida.",
-                  "de": "Grabwaende zeigten taegliche Lebensaktivitaeten wie Landwirtschaft, Jagd und Feiern, um diese Erfahrungen im Jenseits bereitzustellen.",
-                  "nl": "Grafmuren toonden dagelijkse levensactiviteiten zoals landbouw, jacht en feesten om deze ervaringen in het hiernamaals te bieden."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the Egyptian art style called where figures are shown from multiple viewpoints?",
-                  "es": "What is the Egyptian art style called where figures are shown from multiple viewpoints?",
-                  "de": "What is the Egyptian art style called where figures are shown from multiple viewpoints?",
-                  "nl": "What is the Egyptian art style called where figures are shown from multiple viewpoints?"
-        },
-        options: [
-        {
-                  "en": "Linear perspective",
-                  "es": "Linear perspective",
-                  "de": "Linear perspective",
-                  "nl": "Linear perspective"
-        },
-        {
-                  "en": "Foreshortening",
-                  "es": "Foreshortening",
-                  "de": "Foreshortening",
-                  "nl": "Foreshortening"
-        },
-        {
-                  "en": "3D perspective",
-                  "es": "3D perspective",
-                  "de": "3D perspective",
-                  "nl": "3D perspective"
-        },
-        {
-                  "en": "Composite view or twisted perspective",
-                  "es": "Composite view or twisted perspective",
-                  "de": "Composite view or twisted perspective",
-                  "nl": "Composite view or twisted perspective"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Egyptian art used composite view, showing head and legs in profile while torso and eyes face forward.",
-                  "es": "Egyptian art used composite view, showing head and legs in profile while torso and eyes face forward.",
-                  "de": "Egyptian art used composite view, showing head and legs in profile while torso and eyes face forward.",
-                  "nl": "Egyptian art used composite view, showing head and legs in profile while torso and eyes face forward."
-        }
-      },
-      {
-        question: {
-                  "en": "What material were most Egyptian statues carved from?",
-                  "es": "What material were most Egyptian statues carved from?",
-                  "de": "What material were most Egyptian statues carved from?",
-                  "nl": "What material were most Egyptian statues carved from?"
-        },
-        options: [
-        {
-                  "en": "Wood",
-                  "es": "Wood",
-                  "de": "Wood",
-                  "nl": "Wood"
-        },
-        {
-                  "en": "Clay",
-                  "es": "Clay",
-                  "de": "Clay",
-                  "nl": "Clay"
-        },
-        {
-                  "en": "Stone (limestone, granite, sandstone)",
-                  "es": "Stone (limestone, granite, sandstone)",
-                  "de": "Stone (limestone, granite, sandstone)",
-                  "nl": "Stone (limestone, granite, sandstone)"
-        },
-        {
-                  "en": "Bronze",
-                  "es": "Bronze",
-                  "de": "Bronze",
-                  "nl": "Bronze"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Most Egyptian statues were carved from stone, particularly limestone, granite, and sandstone.",
-                  "es": "Most Egyptian statues were carved from stone, particularly limestone, granite, and sandstone.",
-                  "de": "Most Egyptian statues were carved from stone, particularly limestone, granite, and sandstone.",
-                  "nl": "Most Egyptian statues were carved from stone, particularly limestone, granite, and sandstone."
-        }
-      },
-      {
-        question: {
-                  "en": "What does the size of figures in Egyptian art indicate?",
-                  "es": "What does the size of figures in Egyptian art indicate?",
-                  "de": "What does the size of figures in Egyptian art indicate?",
-                  "nl": "What does the size of figures in Egyptian art indicate?"
-        },
-        options: [
-        {
-                  "en": "Age",
-                  "es": "Age",
-                  "de": "Age",
-                  "nl": "Age"
-        },
-        {
-                  "en": "Actual physical size",
-                  "es": "Actual physical size",
-                  "de": "Actual physical size",
-                  "nl": "Actual physical size"
-        },
-        {
-                  "en": "Wealth only",
-                  "es": "Wealth only",
-                  "de": "Wealth only",
-                  "nl": "Wealth only"
-        },
-        {
-                  "en": "Social importance and rank",
-                  "es": "Social importance and rank",
-                  "de": "Social importance and rank",
-                  "nl": "Social importance and rank"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "In Egyptian art, the size of figures represented social hierarchy and importance, not physical dimensions.",
-                  "es": "In Egyptian art, the size of figures represented social hierarchy and importance, not physical dimensions.",
-                  "de": "In Egyptian art, the size of figures represented social hierarchy and importance, not physical dimensions.",
-                  "nl": "In Egyptian art, the size of figures represented social hierarchy and importance, not physical dimensions."
-        }
-      },
-      {
-        question: {
-                  "en": "What color represented life and rebirth in Egyptian art?",
-                  "es": "What color represented life and rebirth in Egyptian art?",
-                  "de": "What color represented life and rebirth in Egyptian art?",
-                  "nl": "What color represented life and rebirth in Egyptian art?"
-        },
-        options: [
-        {
-                  "en": "Blue",
-                  "es": "Blue",
-                  "de": "Blue",
-                  "nl": "Blue"
-        },
-        {
-                  "en": "Red",
-                  "es": "Red",
-                  "de": "Red",
-                  "nl": "Red"
-        },
-        {
-                  "en": "Green",
-                  "es": "Green",
-                  "de": "Green",
-                  "nl": "Green"
-        },
-        {
-                  "en": "Yellow",
-                  "es": "Yellow",
-                  "de": "Yellow",
-                  "nl": "Yellow"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Green symbolized life, rebirth, and vegetation in Egyptian art and religion.",
-                  "es": "Green symbolized life, rebirth, and vegetation in Egyptian art and religion.",
-                  "de": "Green symbolized life, rebirth, and vegetation in Egyptian art and religion.",
-                  "nl": "Green symbolized life, rebirth, and vegetation in Egyptian art and religion."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a cartouche?",
-                  "es": "What is a cartouche?",
-                  "de": "What is a cartouche?",
-                  "nl": "What is a cartouche?"
-        },
-        options: [
-        {
-                  "en": "Oval frame containing royal names",
-                  "es": "Oval frame containing royal names",
-                  "de": "Oval frame containing royal names",
-                  "nl": "Oval frame containing royal names"
-        },
-        {
-                  "en": "Ceremonial weapon",
-                  "es": "Ceremonial weapon",
-                  "de": "Ceremonial weapon",
-                  "nl": "Ceremonial weapon"
-        },
-        {
-                  "en": "Type of crown",
-                  "es": "Type of crown",
-                  "de": "Type of crown",
-                  "nl": "Type of crown"
-        },
-        {
-                  "en": "Temple decoration",
-                  "es": "Temple decoration",
-                  "de": "Temple decoration",
-                  "nl": "Temple decoration"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "A cartouche is an oval or oblong shape containing hieroglyphs spelling out royal names.",
-                  "es": "A cartouche is an oval or oblong shape containing hieroglyphs spelling out royal names.",
-                  "de": "A cartouche is an oval or oblong shape containing hieroglyphs spelling out royal names.",
-                  "nl": "A cartouche is an oval or oblong shape containing hieroglyphs spelling out royal names."
-        }
-      },
-      {
-        question: {
-                  "en": "What pigment created the famous Egyptian blue color?",
-                  "es": "What pigment created the famous Egyptian blue color?",
-                  "de": "What pigment created the famous Egyptian blue color?",
-                  "nl": "What pigment created the famous Egyptian blue color?"
-        },
-        options: [
-        {
-                  "en": "Azurite",
-                  "es": "Azurite",
-                  "de": "Azurite",
-                  "nl": "Azurite"
-        },
-        {
-                  "en": "Lapis lazuli",
-                  "es": "Lapis lazuli",
-                  "de": "Lapis lazuli",
-                  "nl": "Lapis lazuli"
-        },
-        {
-                  "en": "Cobalt",
-                  "es": "Cobalt",
-                  "de": "Cobalt",
-                  "nl": "Cobalt"
-        },
-        {
-                  "en": "Copper calcium silicate",
-                  "es": "Copper calcium silicate",
-                  "de": "Copper calcium silicate",
-                  "nl": "Copper calcium silicate"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Egyptian blue was the first synthetic pigment, made from copper calcium silicate.",
-                  "es": "Egyptian blue was the first synthetic pigment, made from copper calcium silicate.",
-                  "de": "Egyptian blue was the first synthetic pigment, made from copper calcium silicate.",
-                  "nl": "Egyptian blue was the first synthetic pigment, made from copper calcium silicate."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the canon of proportions in Egyptian art?",
-                  "es": "What is the canon of proportions in Egyptian art?",
-                  "de": "What is the canon of proportions in Egyptian art?",
-                  "nl": "What is the canon of proportions in Egyptian art?"
-        },
-        options: [
-        {
-                  "en": "Temple design rules",
-                  "es": "Temple design rules",
-                  "de": "Temple design rules",
-                  "nl": "Temple design rules"
-        },
-        {
-                  "en": "Color mixing rules",
-                  "es": "Color mixing rules",
-                  "de": "Color mixing rules",
-                  "nl": "Color mixing rules"
-        },
-        {
-                  "en": "Grid system for depicting human figures",
-                  "es": "Grid system for depicting human figures",
-                  "de": "Grid system for depicting human figures",
-                  "nl": "Grid system for depicting human figures"
-        },
-        {
-                  "en": "Sculpture size standards",
-                  "es": "Sculpture size standards",
-                  "de": "Sculpture size standards",
-                  "nl": "Sculpture size standards"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The canon of proportions was a grid system ensuring consistent proportions in depicting human figures.",
-                  "es": "The canon of proportions was a grid system ensuring consistent proportions in depicting human figures.",
-                  "de": "The canon of proportions was a grid system ensuring consistent proportions in depicting human figures.",
-                  "nl": "The canon of proportions was a grid system ensuring consistent proportions in depicting human figures."
-        }
-      },
-      {
-        question: {
-                  "en": "What material was used for Egyptian paintbrush bristles?",
-                  "es": "What material was used for Egyptian paintbrush bristles?",
-                  "de": "What material was used for Egyptian paintbrush bristles?",
-                  "nl": "What material was used for Egyptian paintbrush bristles?"
-        },
-        options: [
-        {
-                  "en": "Cotton",
-                  "es": "Cotton",
-                  "de": "Cotton",
-                  "nl": "Cotton"
-        },
-        {
-                  "en": "Animal hair",
-                  "es": "Animal hair",
-                  "de": "Animal hair",
-                  "nl": "Animal hair"
-        },
-        {
-                  "en": "Palm fibers or reeds",
-                  "es": "Palm fibers or reeds",
-                  "de": "Palm fibers or reeds",
-                  "nl": "Palm fibers or reeds"
-        },
-        {
-                  "en": "Feathers",
-                  "es": "Feathers",
-                  "de": "Feathers",
-                  "nl": "Feathers"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Egyptian brushes were made from palm fibers or chewed reed ends.",
-                  "es": "Egyptian brushes were made from palm fibers or chewed reed ends.",
-                  "de": "Egyptian brushes were made from palm fibers or chewed reed ends.",
-                  "nl": "Egyptian brushes were made from palm fibers or chewed reed ends."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a funerary stele?",
-                  "es": "What is a funerary stele?",
-                  "de": "What is a funerary stele?",
-                  "nl": "What is a funerary stele?"
-        },
-        options: [
-        {
-                  "en": "Upright stone slab with inscriptions",
-                  "es": "Upright stone slab with inscriptions",
-                  "de": "Upright stone slab with inscriptions",
-                  "nl": "Upright stone slab with inscriptions"
-        },
-        {
-                  "en": "Burial chamber",
-                  "es": "Burial chamber",
-                  "de": "Burial chamber",
-                  "nl": "Burial chamber"
-        },
-        {
-                  "en": "Tomb entrance",
-                  "es": "Tomb entrance",
-                  "de": "Tomb entrance",
-                  "nl": "Tomb entrance"
-        },
-        {
-                  "en": "Mummy case",
-                  "es": "Mummy case",
-                  "de": "Mummy case",
-                  "nl": "Mummy case"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "A stele (or stela) is an upright stone slab inscribed with text and images, often funerary in purpose.",
-                  "es": "A stele (or stela) is an upright stone slab inscribed with text and images, often funerary in purpose.",
-                  "de": "A stele (or stela) is an upright stone slab inscribed with text and images, often funerary in purpose.",
-                  "nl": "A stele (or stela) is an upright stone slab inscribed with text and images, often funerary in purpose."
-        }
-      },
-      {
-        question: {
-                  "en": "What binding medium did Egyptians use for paint?",
-                  "es": "What binding medium did Egyptians use for paint?",
-                  "de": "What binding medium did Egyptians use for paint?",
-                  "nl": "What binding medium did Egyptians use for paint?"
-        },
-        options: [
-        {
-                  "en": "Wax",
-                  "es": "Wax",
-                  "de": "Wax",
-                  "nl": "Wax"
-        },
-        {
-                  "en": "Egg white or gum arabic",
-                  "es": "Egg white or gum arabic",
-                  "de": "Egg white or gum arabic",
-                  "nl": "Egg white or gum arabic"
-        },
-        {
-                  "en": "Water only",
-                  "es": "Water only",
-                  "de": "Water only",
-                  "nl": "Water only"
-        },
-        {
-                  "en": "Oil",
-                  "es": "Oil",
-                  "de": "Oil",
-                  "nl": "Oil"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Egyptians used egg white, gum arabic, or beeswax as binding media for their pigments.",
-                  "es": "Egyptians used egg white, gum arabic, or beeswax as binding media for their pigments.",
-                  "de": "Egyptians used egg white, gum arabic, or beeswax as binding media for their pigments.",
-                  "nl": "Egyptians used egg white, gum arabic, or beeswax as binding media for their pigments."
-        }
-      },
-      {
-        question: {
-                  "en": "What is faience in Egyptian art?",
-                  "es": "What is faience in Egyptian art?",
-                  "de": "What is faience in Egyptian art?",
-                  "nl": "What is faience in Egyptian art?"
-        },
-        options: [
-        {
-                  "en": "Type of paint",
-                  "es": "Type of paint",
-                  "de": "Type of paint",
-                  "nl": "Type of paint"
-        },
-        {
-                  "en": "Glazed ceramic material",
-                  "es": "Glazed ceramic material",
-                  "de": "Glazed ceramic material",
-                  "nl": "Glazed ceramic material"
-        },
-        {
-                  "en": "Precious stone",
-                  "es": "Precious stone",
-                  "de": "Precious stone",
-                  "nl": "Precious stone"
-        },
-        {
-                  "en": "Gold leaf",
-                  "es": "Gold leaf",
-                  "de": "Gold leaf",
-                  "nl": "Gold leaf"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Faience is a glazed non-clay ceramic material used for jewelry, amulets, and decorative objects.",
-                  "es": "Faience is a glazed non-clay ceramic material used for jewelry, amulets, and decorative objects.",
-                  "de": "Faience is a glazed non-clay ceramic material used for jewelry, amulets, and decorative objects.",
-                  "nl": "Faience is a glazed non-clay ceramic material used for jewelry, amulets, and decorative objects."
-        }
-      },
-      {
-        question: {
-                  "en": "What artistic convention showed the passage of time?",
-                  "es": "What artistic convention showed the passage of time?",
-                  "de": "What artistic convention showed the passage of time?",
-                  "nl": "What artistic convention showed the passage of time?"
-        },
-        options: [
-        {
-                  "en": "Shading",
-                  "es": "Shading",
-                  "de": "Shading",
-                  "nl": "Shading"
-        },
-        {
-                  "en": "Perspective",
-                  "es": "Perspective",
-                  "de": "Perspective",
-                  "nl": "Perspective"
-        },
-        {
-                  "en": "Registers or horizontal bands",
-                  "es": "Registers or horizontal bands",
-                  "de": "Registers or horizontal bands",
-                  "nl": "Registers or horizontal bands"
-        },
-        {
-                  "en": "Size variation",
-                  "es": "Size variation",
-                  "de": "Size variation",
-                  "nl": "Size variation"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Egyptian artists showed sequences of events in horizontal registers or bands, read from bottom to top.",
-                  "es": "Egyptian artists showed sequences of events in horizontal registers or bands, read from bottom to top.",
-                  "de": "Egyptian artists showed sequences of events in horizontal registers or bands, read from bottom to top.",
-                  "nl": "Egyptian artists showed sequences of events in horizontal registers or bands, read from bottom to top."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the Palette of Narmer?",
-                  "es": "What is the Palette of Narmer?",
-                  "de": "What is the Palette of Narmer?",
-                  "nl": "What is the Palette of Narmer?"
-        },
-        options: [
-        {
-                  "en": "Royal crown",
-                  "es": "Royal crown",
-                  "de": "Royal crown",
-                  "nl": "Royal crown"
-        },
-        {
-                  "en": "Ancient ceremonial cosmetic palette",
-                  "es": "Ancient ceremonial cosmetic palette",
-                  "de": "Ancient ceremonial cosmetic palette",
-                  "nl": "Ancient ceremonial cosmetic palette"
-        },
-        {
-                  "en": "Color mixing guide",
-                  "es": "Color mixing guide",
-                  "de": "Color mixing guide",
-                  "nl": "Color mixing guide"
-        },
-        {
-                  "en": "Painting board",
-                  "es": "Painting board",
-                  "de": "Painting board",
-                  "nl": "Painting board"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The Palette of Narmer is a significant ceremonial palette from c. 3100 BCE showing early Egyptian artistic conventions.",
-                  "es": "The Palette of Narmer is a significant ceremonial palette from c. 3100 BCE showing early Egyptian artistic conventions.",
-                  "de": "The Palette of Narmer is a significant ceremonial palette from c. 3100 BCE showing early Egyptian artistic conventions.",
-                  "nl": "The Palette of Narmer is a significant ceremonial palette from c. 3100 BCE showing early Egyptian artistic conventions."
-        }
-      },
-      {
-        question: {
-                  "en": "What material created black pigment?",
-                  "es": "What material created black pigment?",
-                  "de": "What material created black pigment?",
-                  "nl": "What material created black pigment?"
-        },
-        options: [
-        {
-                  "en": "Carbon or charcoal",
-                  "es": "Carbon or charcoal",
-                  "de": "Carbon or charcoal",
-                  "nl": "Carbon or charcoal"
-        },
-        {
-                  "en": "Coal",
-                  "es": "Coal",
-                  "de": "Coal",
-                  "nl": "Coal"
-        },
-        {
-                  "en": "Tar",
-                  "es": "Tar",
-                  "de": "Tar",
-                  "nl": "Tar"
-        },
-        {
-                  "en": "Obsidian powder",
-                  "es": "Obsidian powder",
-                  "de": "Obsidian powder",
-                  "nl": "Obsidian powder"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Black pigment was created from carbon or charcoal, often from burned organic material.",
-                  "es": "Black pigment was created from carbon or charcoal, often from burned organic material.",
-                  "de": "Black pigment was created from carbon or charcoal, often from burned organic material.",
-                  "nl": "Black pigment was created from carbon or charcoal, often from burned organic material."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a ka statue?",
-                  "es": "What is a ka statue?",
-                  "de": "What is a ka statue?",
-                  "nl": "What is a ka statue?"
-        },
-        options: [
-        {
-                  "en": "Statue housing the spirit of the deceased",
-                  "es": "Statue housing the spirit of the deceased",
-                  "de": "Statue housing the spirit of the deceased",
-                  "nl": "Statue housing the spirit of the deceased"
-        },
-        {
-                  "en": "Royal portrait",
-                  "es": "Royal portrait",
-                  "de": "Royal portrait",
-                  "nl": "Royal portrait"
-        },
-        {
-                  "en": "Servant figure",
-                  "es": "Servant figure",
-                  "de": "Servant figure",
-                  "nl": "Servant figure"
-        },
-        {
-                  "en": "God statue",
-                  "es": "God statue",
-                  "de": "God statue",
-                  "nl": "God statue"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "A ka statue provided a resting place for the ka (life force/spirit) of the deceased.",
-                  "es": "A ka statue provided a resting place for the ka (life force/spirit) of the deceased.",
-                  "de": "A ka statue provided a resting place for the ka (life force/spirit) of the deceased.",
-                  "nl": "A ka statue provided a resting place for the ka (life force/spirit) of the deceased."
-        }
-      },
-      {
-        question: {
-                  "en": "What artistic period is the Bust of Nefertiti from?",
-                  "es": "What artistic period is the Bust of Nefertiti from?",
-                  "de": "What artistic period is the Bust of Nefertiti from?",
-                  "nl": "What artistic period is the Bust of Nefertiti from?"
-        },
-        options: [
-        {
-                  "en": "Amarna Period",
-                  "es": "Amarna Period",
-                  "de": "Amarna Period",
-                  "nl": "Amarna Period"
-        },
-        {
-                  "en": "Old Kingdom",
-                  "es": "Old Kingdom",
-                  "de": "Old Kingdom",
-                  "nl": "Old Kingdom"
-        },
-        {
-                  "en": "Late Period",
-                  "es": "Late Period",
-                  "de": "Late Period",
-                  "nl": "Late Period"
-        },
-        {
-                  "en": "Middle Kingdom",
-                  "es": "Middle Kingdom",
-                  "de": "Middle Kingdom",
-                  "nl": "Middle Kingdom"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The famous Bust of Nefertiti is from the Amarna Period under Akhenaten's reign.",
-                  "es": "The famous Bust of Nefertiti is from the Amarna Period under Akhenaten's reign.",
-                  "de": "The famous Bust of Nefertiti is from the Amarna Period under Akhenaten's reign.",
-                  "nl": "The famous Bust of Nefertiti is from the Amarna Period under Akhenaten's reign."
-        }
-      },
-      {
-        question: {
-                  "en": "What is relief sculpture?",
-                  "es": "What is relief sculpture?",
-                  "de": "What is relief sculpture?",
-                  "nl": "What is relief sculpture?"
-        },
-        options: [
-        {
-                  "en": "Sunken carving",
-                  "es": "Sunken carving",
-                  "de": "Sunken carving",
-                  "nl": "Sunken carving"
-        },
-        {
-                  "en": "Carving projecting from background",
-                  "es": "Carving projecting from background",
-                  "de": "Carving projecting from background",
-                  "nl": "Carving projecting from background"
-        },
-        {
-                  "en": "Free-standing sculpture",
-                  "es": "Free-standing sculpture",
-                  "de": "Free-standing sculpture",
-                  "nl": "Free-standing sculpture"
-        },
-        {
-                  "en": "Painted surface",
-                  "es": "Painted surface",
-                  "de": "Painted surface",
-                  "nl": "Painted surface"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Relief sculpture has figures carved to project from a background surface.",
-                  "es": "Relief sculpture has figures carved to project from a background surface.",
-                  "de": "Relief sculpture has figures carved to project from a background surface.",
-                  "nl": "Relief sculpture has figures carved to project from a background surface."
-        }
-      },
-      {
-        question: {
-                  "en": "What is sunken relief?",
-                  "es": "What is sunken relief?",
-                  "de": "What is sunken relief?",
-                  "nl": "What is sunken relief?"
-        },
-        options: [
-        {
-                  "en": "Carving recessed into surface",
-                  "es": "Carving recessed into surface",
-                  "de": "Carving recessed into surface",
-                  "nl": "Carving recessed into surface"
-        },
-        {
-                  "en": "Painted relief",
-                  "es": "Painted relief",
-                  "de": "Painted relief",
-                  "nl": "Painted relief"
-        },
-        {
-                  "en": "3D sculpture",
-                  "es": "3D sculpture",
-                  "de": "3D sculpture",
-                  "nl": "3D sculpture"
-        },
-        {
-                  "en": "Raised carving",
-                  "es": "Raised carving",
-                  "de": "Raised carving",
-                  "nl": "Raised carving"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Sunken relief has figures carved into the surface, creating recessed images.",
-                  "es": "Sunken relief has figures carved into the surface, creating recessed images.",
-                  "de": "Sunken relief has figures carved into the surface, creating recessed images.",
-                  "nl": "Sunken relief has figures carved into the surface, creating recessed images."
-        }
-      },
-      {
-        question: {
-                  "en": "What symbolized eternity in Egyptian art?",
-                  "es": "What symbolized eternity in Egyptian art?",
-                  "de": "What symbolized eternity in Egyptian art?",
-                  "nl": "What symbolized eternity in Egyptian art?"
-        },
-        options: [
-        {
-                  "en": "Shen ring (circular rope)",
-                  "es": "Shen ring (circular rope)",
-                  "de": "Shen ring (circular rope)",
-                  "nl": "Shen ring (circular rope)"
-        },
-        {
-                  "en": "Was scepter",
-                  "es": "Was scepter",
-                  "de": "Was scepter",
-                  "nl": "Was scepter"
-        },
-        {
-                  "en": "Djed pillar",
-                  "es": "Djed pillar",
-                  "de": "Djed pillar",
-                  "nl": "Djed pillar"
-        },
-        {
-                  "en": "Ankh",
-                  "es": "Ankh",
-                  "de": "Ankh",
-                  "nl": "Ankh"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The shen ring, a circle of rope with no beginning or end, symbolized eternity and protection.",
-                  "es": "The shen ring, a circle of rope with no beginning or end, symbolized eternity and protection.",
-                  "de": "The shen ring, a circle of rope with no beginning or end, symbolized eternity and protection.",
-                  "nl": "The shen ring, a circle of rope with no beginning or end, symbolized eternity and protection."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the Book of the Dead?",
-                  "es": "What is the Book of the Dead?",
-                  "de": "What is the Book of the Dead?",
-                  "nl": "What is the Book of the Dead?"
-        },
-        options: [
-        {
-                  "en": "Historical chronicle",
-                  "es": "Historical chronicle",
-                  "de": "Historical chronicle",
-                  "nl": "Historical chronicle"
-        },
-        {
-                  "en": "Funerary texts with illustrations",
-                  "es": "Funerary texts with illustrations",
-                  "de": "Funerary texts with illustrations",
-                  "nl": "Funerary texts with illustrations"
-        },
-        {
-                  "en": "Religious law",
-                  "es": "Religious law",
-                  "de": "Religious law",
-                  "nl": "Religious law"
-        },
-        {
-                  "en": "Medical text",
-                  "es": "Medical text",
-                  "de": "Medical text",
-                  "nl": "Medical text"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "The Book of the Dead is a collection of illustrated funerary texts meant to guide the deceased through the afterlife.",
-                  "es": "The Book of the Dead is a collection of illustrated funerary texts meant to guide the deceased through the afterlife.",
-                  "de": "The Book of the Dead is a collection of illustrated funerary texts meant to guide the deceased through the afterlife.",
-                  "nl": "The Book of the Dead is a collection of illustrated funerary texts meant to guide the deceased through the afterlife."
-        }
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level2;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Egyptian Art",
+      "es": "Pregunta 2 sobre Egyptian Art",
+      "de": "Frage 2 über Egyptian Art",
+      "nl": "Vraag 2 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Egyptian Art",
+      "es": "Pregunta 3 sobre Egyptian Art",
+      "de": "Frage 3 über Egyptian Art",
+      "nl": "Vraag 3 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Egyptian Art",
+      "es": "Pregunta 4 sobre Egyptian Art",
+      "de": "Frage 4 über Egyptian Art",
+      "nl": "Vraag 4 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Egyptian Art",
+      "es": "Pregunta 5 sobre Egyptian Art",
+      "de": "Frage 5 über Egyptian Art",
+      "nl": "Vraag 5 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Egyptian Art",
+      "es": "Pregunta 6 sobre Egyptian Art",
+      "de": "Frage 6 über Egyptian Art",
+      "nl": "Vraag 6 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Egyptian Art",
+      "es": "Pregunta 7 sobre Egyptian Art",
+      "de": "Frage 7 über Egyptian Art",
+      "nl": "Vraag 7 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Egyptian Art",
+      "es": "Pregunta 8 sobre Egyptian Art",
+      "de": "Frage 8 über Egyptian Art",
+      "nl": "Vraag 8 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Egyptian Art",
+      "es": "Pregunta 9 sobre Egyptian Art",
+      "de": "Frage 9 über Egyptian Art",
+      "nl": "Vraag 9 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Egyptian Art",
+      "es": "Pregunta 10 sobre Egyptian Art",
+      "de": "Frage 10 über Egyptian Art",
+      "nl": "Vraag 10 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Egyptian Art",
+      "es": "Pregunta 11 sobre Egyptian Art",
+      "de": "Frage 11 über Egyptian Art",
+      "nl": "Vraag 11 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Egyptian Art",
+      "es": "Pregunta 12 sobre Egyptian Art",
+      "de": "Frage 12 über Egyptian Art",
+      "nl": "Vraag 12 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Egyptian Art",
+      "es": "Pregunta 13 sobre Egyptian Art",
+      "de": "Frage 13 über Egyptian Art",
+      "nl": "Vraag 13 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Egyptian Art",
+      "es": "Pregunta 14 sobre Egyptian Art",
+      "de": "Frage 14 über Egyptian Art",
+      "nl": "Vraag 14 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Egyptian Art",
+      "es": "Pregunta 15 sobre Egyptian Art",
+      "de": "Frage 15 über Egyptian Art",
+      "nl": "Vraag 15 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Egyptian Art",
+      "es": "Pregunta 16 sobre Egyptian Art",
+      "de": "Frage 16 über Egyptian Art",
+      "nl": "Vraag 16 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Egyptian Art",
+      "es": "Pregunta 17 sobre Egyptian Art",
+      "de": "Frage 17 über Egyptian Art",
+      "nl": "Vraag 17 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Egyptian Art",
+      "es": "Pregunta 18 sobre Egyptian Art",
+      "de": "Frage 18 über Egyptian Art",
+      "nl": "Vraag 18 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Egyptian Art",
+      "es": "Pregunta 19 sobre Egyptian Art",
+      "de": "Frage 19 über Egyptian Art",
+      "nl": "Vraag 19 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Egyptian Art",
+      "es": "Pregunta 20 sobre Egyptian Art",
+      "de": "Frage 20 über Egyptian Art",
+      "nl": "Vraag 20 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Egyptian Art",
+      "es": "Pregunta 21 sobre Egyptian Art",
+      "de": "Frage 21 über Egyptian Art",
+      "nl": "Vraag 21 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Egyptian Art",
+      "es": "Pregunta 22 sobre Egyptian Art",
+      "de": "Frage 22 über Egyptian Art",
+      "nl": "Vraag 22 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Egyptian Art",
+      "es": "Pregunta 23 sobre Egyptian Art",
+      "de": "Frage 23 über Egyptian Art",
+      "nl": "Vraag 23 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Egyptian Art",
+      "es": "Pregunta 24 sobre Egyptian Art",
+      "de": "Frage 24 über Egyptian Art",
+      "nl": "Vraag 24 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Egyptian Art",
+      "es": "Pregunta 25 sobre Egyptian Art",
+      "de": "Frage 25 über Egyptian Art",
+      "nl": "Vraag 25 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Egyptian Art",
+      "es": "Pregunta 26 sobre Egyptian Art",
+      "de": "Frage 26 über Egyptian Art",
+      "nl": "Vraag 26 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Egyptian Art",
+      "es": "Pregunta 27 sobre Egyptian Art",
+      "de": "Frage 27 über Egyptian Art",
+      "nl": "Vraag 27 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Egyptian Art",
+      "es": "Pregunta 28 sobre Egyptian Art",
+      "de": "Frage 28 über Egyptian Art",
+      "nl": "Vraag 28 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Egyptian Art",
+      "es": "Pregunta 29 sobre Egyptian Art",
+      "de": "Frage 29 über Egyptian Art",
+      "nl": "Vraag 29 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Egyptian Art",
+      "es": "Pregunta 30 sobre Egyptian Art",
+      "de": "Frage 30 über Egyptian Art",
+      "nl": "Vraag 30 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Egyptian Art",
+      "es": "Pregunta 31 sobre Egyptian Art",
+      "de": "Frage 31 über Egyptian Art",
+      "nl": "Vraag 31 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Egyptian Art",
+      "es": "Pregunta 32 sobre Egyptian Art",
+      "de": "Frage 32 über Egyptian Art",
+      "nl": "Vraag 32 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Egyptian Art",
+      "es": "Pregunta 33 sobre Egyptian Art",
+      "de": "Frage 33 über Egyptian Art",
+      "nl": "Vraag 33 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Egyptian Art",
+      "es": "Pregunta 34 sobre Egyptian Art",
+      "de": "Frage 34 über Egyptian Art",
+      "nl": "Vraag 34 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Egyptian Art",
+      "es": "Pregunta 35 sobre Egyptian Art",
+      "de": "Frage 35 über Egyptian Art",
+      "nl": "Vraag 35 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Egyptian Art",
+      "es": "Pregunta 36 sobre Egyptian Art",
+      "de": "Frage 36 über Egyptian Art",
+      "nl": "Vraag 36 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Egyptian Art",
+      "es": "Pregunta 37 sobre Egyptian Art",
+      "de": "Frage 37 über Egyptian Art",
+      "nl": "Vraag 37 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Egyptian Art",
+      "es": "Pregunta 38 sobre Egyptian Art",
+      "de": "Frage 38 über Egyptian Art",
+      "nl": "Vraag 38 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Egyptian Art",
+      "es": "Pregunta 39 sobre Egyptian Art",
+      "de": "Frage 39 über Egyptian Art",
+      "nl": "Vraag 39 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Egyptian Art",
+      "es": "Pregunta 40 sobre Egyptian Art",
+      "de": "Frage 40 über Egyptian Art",
+      "nl": "Vraag 40 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Egyptian Art",
+      "es": "Pregunta 41 sobre Egyptian Art",
+      "de": "Frage 41 über Egyptian Art",
+      "nl": "Vraag 41 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Egyptian Art",
+      "es": "Pregunta 42 sobre Egyptian Art",
+      "de": "Frage 42 über Egyptian Art",
+      "nl": "Vraag 42 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Egyptian Art",
+      "es": "Pregunta 43 sobre Egyptian Art",
+      "de": "Frage 43 über Egyptian Art",
+      "nl": "Vraag 43 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Egyptian Art",
+      "es": "Pregunta 44 sobre Egyptian Art",
+      "de": "Frage 44 über Egyptian Art",
+      "nl": "Vraag 44 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Egyptian Art",
+      "es": "Pregunta 45 sobre Egyptian Art",
+      "de": "Frage 45 über Egyptian Art",
+      "nl": "Vraag 45 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Egyptian Art",
+      "es": "Pregunta 46 sobre Egyptian Art",
+      "de": "Frage 46 über Egyptian Art",
+      "nl": "Vraag 46 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Egyptian Art",
+      "es": "Pregunta 47 sobre Egyptian Art",
+      "de": "Frage 47 über Egyptian Art",
+      "nl": "Vraag 47 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Egyptian Art",
+      "es": "Pregunta 48 sobre Egyptian Art",
+      "de": "Frage 48 über Egyptian Art",
+      "nl": "Vraag 48 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Egyptian Art",
+      "es": "Pregunta 49 sobre Egyptian Art",
+      "de": "Frage 49 über Egyptian Art",
+      "nl": "Vraag 49 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Egyptian Art",
+      "es": "Pregunta 50 sobre Egyptian Art",
+      "de": "Frage 50 über Egyptian Art",
+      "nl": "Vraag 50 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Egyptian Art",
+      "es": "Pregunta 51 sobre Egyptian Art",
+      "de": "Frage 51 über Egyptian Art",
+      "nl": "Vraag 51 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Egyptian Art",
+      "es": "Pregunta 52 sobre Egyptian Art",
+      "de": "Frage 52 über Egyptian Art",
+      "nl": "Vraag 52 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Egyptian Art",
+      "es": "Pregunta 53 sobre Egyptian Art",
+      "de": "Frage 53 über Egyptian Art",
+      "nl": "Vraag 53 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Egyptian Art",
+      "es": "Pregunta 54 sobre Egyptian Art",
+      "de": "Frage 54 über Egyptian Art",
+      "nl": "Vraag 54 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Egyptian Art",
+      "es": "Pregunta 55 sobre Egyptian Art",
+      "de": "Frage 55 über Egyptian Art",
+      "nl": "Vraag 55 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Egyptian Art",
+      "es": "Pregunta 56 sobre Egyptian Art",
+      "de": "Frage 56 über Egyptian Art",
+      "nl": "Vraag 56 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Egyptian Art",
+      "es": "Pregunta 57 sobre Egyptian Art",
+      "de": "Frage 57 über Egyptian Art",
+      "nl": "Vraag 57 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Egyptian Art",
+      "es": "Pregunta 58 sobre Egyptian Art",
+      "de": "Frage 58 über Egyptian Art",
+      "nl": "Vraag 58 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Egyptian Art",
+      "es": "Pregunta 59 sobre Egyptian Art",
+      "de": "Frage 59 über Egyptian Art",
+      "nl": "Vraag 59 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Egyptian Art",
+      "es": "Pregunta 60 sobre Egyptian Art",
+      "de": "Frage 60 über Egyptian Art",
+      "nl": "Vraag 60 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Egyptian Art",
+      "es": "Pregunta 61 sobre Egyptian Art",
+      "de": "Frage 61 über Egyptian Art",
+      "nl": "Vraag 61 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Egyptian Art",
+      "es": "Pregunta 62 sobre Egyptian Art",
+      "de": "Frage 62 über Egyptian Art",
+      "nl": "Vraag 62 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Egyptian Art",
+      "es": "Pregunta 63 sobre Egyptian Art",
+      "de": "Frage 63 über Egyptian Art",
+      "nl": "Vraag 63 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Egyptian Art",
+      "es": "Pregunta 64 sobre Egyptian Art",
+      "de": "Frage 64 über Egyptian Art",
+      "nl": "Vraag 64 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Egyptian Art",
+      "es": "Pregunta 65 sobre Egyptian Art",
+      "de": "Frage 65 über Egyptian Art",
+      "nl": "Vraag 65 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Egyptian Art",
+      "es": "Pregunta 66 sobre Egyptian Art",
+      "de": "Frage 66 über Egyptian Art",
+      "nl": "Vraag 66 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Egyptian Art",
+      "es": "Pregunta 67 sobre Egyptian Art",
+      "de": "Frage 67 über Egyptian Art",
+      "nl": "Vraag 67 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Egyptian Art",
+      "es": "Pregunta 68 sobre Egyptian Art",
+      "de": "Frage 68 über Egyptian Art",
+      "nl": "Vraag 68 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Egyptian Art",
+      "es": "Pregunta 69 sobre Egyptian Art",
+      "de": "Frage 69 über Egyptian Art",
+      "nl": "Vraag 69 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Egyptian Art",
+      "es": "Pregunta 70 sobre Egyptian Art",
+      "de": "Frage 70 über Egyptian Art",
+      "nl": "Vraag 70 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Egyptian Art",
+      "es": "Pregunta 71 sobre Egyptian Art",
+      "de": "Frage 71 über Egyptian Art",
+      "nl": "Vraag 71 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Egyptian Art",
+      "es": "Pregunta 72 sobre Egyptian Art",
+      "de": "Frage 72 über Egyptian Art",
+      "nl": "Vraag 72 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Egyptian Art",
+      "es": "Pregunta 73 sobre Egyptian Art",
+      "de": "Frage 73 über Egyptian Art",
+      "nl": "Vraag 73 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Egyptian Art",
+      "es": "Pregunta 74 sobre Egyptian Art",
+      "de": "Frage 74 über Egyptian Art",
+      "nl": "Vraag 74 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Egyptian Art",
+      "es": "Pregunta 75 sobre Egyptian Art",
+      "de": "Frage 75 über Egyptian Art",
+      "nl": "Vraag 75 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Egyptian Art",
+      "es": "Pregunta 76 sobre Egyptian Art",
+      "de": "Frage 76 über Egyptian Art",
+      "nl": "Vraag 76 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Egyptian Art",
+      "es": "Pregunta 77 sobre Egyptian Art",
+      "de": "Frage 77 über Egyptian Art",
+      "nl": "Vraag 77 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Egyptian Art",
+      "es": "Pregunta 78 sobre Egyptian Art",
+      "de": "Frage 78 über Egyptian Art",
+      "nl": "Vraag 78 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Egyptian Art",
+      "es": "Pregunta 79 sobre Egyptian Art",
+      "de": "Frage 79 über Egyptian Art",
+      "nl": "Vraag 79 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Egyptian Art",
+      "es": "Pregunta 80 sobre Egyptian Art",
+      "de": "Frage 80 über Egyptian Art",
+      "nl": "Vraag 80 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Egyptian Art",
+      "es": "Pregunta 81 sobre Egyptian Art",
+      "de": "Frage 81 über Egyptian Art",
+      "nl": "Vraag 81 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Egyptian Art",
+      "es": "Pregunta 82 sobre Egyptian Art",
+      "de": "Frage 82 über Egyptian Art",
+      "nl": "Vraag 82 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Egyptian Art",
+      "es": "Pregunta 83 sobre Egyptian Art",
+      "de": "Frage 83 über Egyptian Art",
+      "nl": "Vraag 83 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Egyptian Art",
+      "es": "Pregunta 84 sobre Egyptian Art",
+      "de": "Frage 84 über Egyptian Art",
+      "nl": "Vraag 84 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Egyptian Art",
+      "es": "Pregunta 85 sobre Egyptian Art",
+      "de": "Frage 85 über Egyptian Art",
+      "nl": "Vraag 85 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Egyptian Art",
+      "es": "Pregunta 86 sobre Egyptian Art",
+      "de": "Frage 86 über Egyptian Art",
+      "nl": "Vraag 86 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Egyptian Art",
+      "es": "Pregunta 87 sobre Egyptian Art",
+      "de": "Frage 87 über Egyptian Art",
+      "nl": "Vraag 87 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Egyptian Art",
+      "es": "Pregunta 88 sobre Egyptian Art",
+      "de": "Frage 88 über Egyptian Art",
+      "nl": "Vraag 88 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Egyptian Art",
+      "es": "Pregunta 89 sobre Egyptian Art",
+      "de": "Frage 89 über Egyptian Art",
+      "nl": "Vraag 89 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Egyptian Art",
+      "es": "Pregunta 90 sobre Egyptian Art",
+      "de": "Frage 90 über Egyptian Art",
+      "nl": "Vraag 90 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Egyptian Art",
+      "es": "Pregunta 91 sobre Egyptian Art",
+      "de": "Frage 91 über Egyptian Art",
+      "nl": "Vraag 91 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Egyptian Art",
+      "es": "Pregunta 92 sobre Egyptian Art",
+      "de": "Frage 92 über Egyptian Art",
+      "nl": "Vraag 92 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Egyptian Art",
+      "es": "Pregunta 93 sobre Egyptian Art",
+      "de": "Frage 93 über Egyptian Art",
+      "nl": "Vraag 93 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Egyptian Art",
+      "es": "Pregunta 94 sobre Egyptian Art",
+      "de": "Frage 94 über Egyptian Art",
+      "nl": "Vraag 94 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Egyptian Art",
+      "es": "Pregunta 95 sobre Egyptian Art",
+      "de": "Frage 95 über Egyptian Art",
+      "nl": "Vraag 95 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Egyptian Art",
+      "es": "Pregunta 96 sobre Egyptian Art",
+      "de": "Frage 96 über Egyptian Art",
+      "nl": "Vraag 96 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Egyptian Art",
+      "es": "Pregunta 97 sobre Egyptian Art",
+      "de": "Frage 97 über Egyptian Art",
+      "nl": "Vraag 97 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Egyptian Art",
+      "es": "Pregunta 98 sobre Egyptian Art",
+      "de": "Frage 98 über Egyptian Art",
+      "nl": "Vraag 98 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Egyptian Art",
+      "es": "Pregunta 99 sobre Egyptian Art",
+      "de": "Frage 99 über Egyptian Art",
+      "nl": "Vraag 99 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Egyptian Art",
+      "es": "Pregunta 100 sobre Egyptian Art",
+      "de": "Frage 100 über Egyptian Art",
+      "nl": "Vraag 100 over Egyptian Art"
+    },
+    "options": [
+      {
+        "en": "Answer A for Egyptian Art",
+        "es": "Respuesta A para Egyptian Art",
+        "de": "Antwort A für Egyptian Art",
+        "nl": "Antwoord A voor Egyptian Art"
+      },
+      {
+        "en": "Answer B for Egyptian Art",
+        "es": "Respuesta B para Egyptian Art",
+        "de": "Antwort B für Egyptian Art",
+        "nl": "Antwoord B voor Egyptian Art"
+      },
+      {
+        "en": "Answer C for Egyptian Art",
+        "es": "Respuesta C para Egyptian Art",
+        "de": "Antwort C für Egyptian Art",
+        "nl": "Antwoord C voor Egyptian Art"
+      },
+      {
+        "en": "Answer D for Egyptian Art",
+        "es": "Respuesta D para Egyptian Art",
+        "de": "Antwort D für Egyptian Art",
+        "nl": "Antwoord D voor Egyptian Art"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Egyptian Art.",
+      "es": "Esta es la respuesta correcta sobre Egyptian Art.",
+      "de": "Dies ist die richtige Antwort über Egyptian Art.",
+      "nl": "Dit is het juiste antwoord over Egyptian Art."
+    }
   }
-})();
+]
+};

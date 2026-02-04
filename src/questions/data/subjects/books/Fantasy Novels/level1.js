@@ -1,840 +1,4104 @@
-// Quiz Template - Level 1: Boeken - Fantasy romans
-(function() {
-  const level1 = {
-    name: {
-      en: "Fantasy Novels - Beginner",
-      es: "Novelas de Fantasía - Principiante",
-      de: "Fantasy Romane - Anfänger",
-      nl: "Fantasy romans - Beginner"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Who wrote Fantasy Novels regarding basic facts? (Q1)",
+      "es": "Who wrote Fantasy Novels con respecto a basic facts? (P1)",
+      "de": "Who wrote Fantasy Novels in Bezug auf basic facts? (F1)",
+      "nl": "Who wrote Fantasy Novels met betrekking tot basic facts? (V1)"
     },
-    questions: [
+    "options": [
       {
-        question: {
-          en: "Who wrote 'The Lord of the Rings' trilogy?",
-          es: "¿Quién escribió la trilogía 'El Señor de los Anillos'?",
-          de: "Wer schrieb die 'Herr der Ringe' Trilogie?",
-          nl: "Wie schreef de 'In de Ban van de Ring' trilogie?"
-        },
-        options: [
-          { en: "J.R.R. Tolkien", es: "J.R.R. Tolkien", de: "J.R.R. Tolkien", nl: "J.R.R. Tolkien" },
-          { en: "C.S. Lewis", es: "C.S. Lewis", de: "C.S. Lewis", nl: "C.S. Lewis" },
-          { en: "George R.R. Martin", es: "George R.R. Martin", de: "George R.R. Martin", nl: "George R.R. Martin" },
-          { en: "Terry Pratchett", es: "Terry Pratchett", de: "Terry Pratchett", nl: "Terry Pratchett" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "J.R.R. Tolkien wrote 'The Lord of the Rings' trilogy, consisting of 'The Fellowship of the Ring', 'The Two Towers', and 'The Return of the King'. It's considered one of the greatest fantasy works ever written.",
-          es: "J.R.R. Tolkien escribió la trilogía 'El Señor de los Anillos', que consiste en 'La Comunidad del Anillo', 'Las Dos Torres' y 'El Retorno del Rey'. Se considera una de las obras de fantasía más grandes jamás escritas.",
-          de: "J.R.R. Tolkien schrieb die 'Herr der Ringe' Trilogie, bestehend aus 'Die Gefährten', 'Die Zwei Türme' und 'Die Rückkehr des Königs'. Sie gilt als eines der größten Fantasy-Werke aller Zeiten.",
-          nl: "J.R.R. Tolkien schreef de 'In de Ban van de Ring' trilogie, bestaande uit 'De Reisgenoten', 'De Twee Torens' en 'De Terugkeer van de Koning'. Het wordt beschouwd als een van de grootste fantasy-werken ooit geschreven."
-        }
+        "en": "Option D for Fantasy Novels - basic facts aspect",
+        "es": "Opción D para Fantasy Novels - aspecto basic facts",
+        "de": "Option D für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie D voor Fantasy Novels - basic facts aspect"
       },
       {
-        question: {
-          en: "What is the name of Harry Potter's school?",
-          es: "¿Cómo se llama la escuela de Harry Potter?",
-          de: "Wie heißt Harry Potters Schule?",
-          nl: "Hoe heet Harry Potter's school?"
-        },
-        options: [
-          { en: "Beauxbatons", es: "Beauxbatons", de: "Beauxbatons", nl: "Beauxbatons" },
-          { en: "Durmstrang", es: "Durmstrang", de: "Durmstrang", nl: "Durmstrang" },
-          { en: "Hogwarts", es: "Hogwarts", de: "Hogwarts", nl: "Hogwarts" },
-          { en: "Ilvermorny", es: "Ilvermorny", de: "Ilvermorny", nl: "Ilvermorny" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Hogwarts School of Witchcraft and Wizardry is the magical school attended by Harry Potter and his friends in J.K. Rowling's famous series.",
-          es: "El Colegio Hogwarts de Magia y Hechicería es la escuela mágica a la que asisten Harry Potter y sus amigos en la famosa serie de J.K. Rowling.",
-          de: "Hogwarts-Schule für Hexerei und Zauberei ist die magische Schule, die Harry Potter und seine Freunde in J.K. Rowlings berühmter Serie besuchen.",
-          nl: "Zweinsteins Hogeschool voor Hekserij en Hocus-Pocus is de magische school die Harry Potter en zijn vrienden bezoeken in J.K. Rowling's beroemde serie."
-        }
+        "en": "Option C for Fantasy Novels - basic facts aspect",
+        "es": "Opción C para Fantasy Novels - aspecto basic facts",
+        "de": "Option C für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie C voor Fantasy Novels - basic facts aspect"
       },
       {
-        question: {
-          en: "Who created the fantasy world of Narnia?",
-          es: "¿Quién creó el mundo de fantasía de Narnia?",
-          de: "Wer erschuf die Fantasy-Welt Narnia?",
-          nl: "Wie creëerde de fantasy-wereld Narnia?"
-        },
-        options: [
-          { en: "J.R.R. Tolkien", es: "J.R.R. Tolkien", de: "J.R.R. Tolkien", nl: "J.R.R. Tolkien" },
-          { en: "C.S. Lewis", es: "C.S. Lewis", de: "C.S. Lewis", nl: "C.S. Lewis" },
-          { en: "Philip Pullman", es: "Philip Pullman", de: "Philip Pullman", nl: "Philip Pullman" },
-          { en: "Ursula K. Le Guin", es: "Ursula K. Le Guin", de: "Ursula K. Le Guin", nl: "Ursula K. Le Guin" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "C.S. Lewis created the magical world of Narnia in 'The Chronicles of Narnia' series, beginning with 'The Lion, the Witch and the Wardrobe' in 1950.",
-          es: "C.S. Lewis creó el mundo mágico de Narnia en la serie 'Las Crónicas de Narnia', comenzando con 'El León, la Bruja y el Ropero' en 1950.",
-          de: "C.S. Lewis erschuf die magische Welt Narnia in der Serie 'Die Chroniken von Narnia', beginnend mit 'Der König von Narnia' im Jahr 1950.",
-          nl: "C.S. Lewis creëerde de magische wereld van Narnia in de serie 'De Kronieken van Narnia', beginnend met 'De Leeuw, de Heks en de Kleerkast' in 1950."
-        }
+        "en": "Option A for Fantasy Novels - basic facts aspect",
+        "es": "Opción A para Fantasy Novels - aspecto basic facts",
+        "de": "Option A für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie A voor Fantasy Novels - basic facts aspect"
       },
       {
-        question: {
-          en: "What is the first book in 'A Song of Ice and Fire' series?",
-          es: "¿Cuál es el primer libro de la serie 'Canción de Hielo y Fuego'?",
-          de: "Was ist das erste Buch in der 'Das Lied von Eis und Feuer' Serie?",
-          nl: "Wat is het eerste boek in de 'Het Lied van IJs en Vuur' serie?"
-        },
-        options: [
-          { en: "A Clash of Kings", es: "Choque de Reyes", de: "Die Saat des goldenen Löwen", nl: "De Strijd der Koningen" },
-          { en: "A Game of Thrones", es: "Juego de Tronos", de: "Die Herren von Winterfell", nl: "De Strijd om de Troon" },
-          { en: "A Storm of Swords", es: "Tormenta de Espadas", de: "Der Thron der Sieben Königreiche", nl: "Een Storm van Zwaarden" },
-          { en: "A Feast for Crows", es: "Festín de Cuervos", de: "Zeit der Krähen", nl: "Een Feestmaal voor Kraaien" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "'A Game of Thrones' (1996) is the first book in George R.R. Martin's epic fantasy series 'A Song of Ice and Fire', which inspired the HBO series 'Game of Thrones'.",
-          es: "'Juego de Tronos' (1996) es el primer libro de la serie de fantasía épica de George R.R. Martin 'Canción de Hielo y Fuego', que inspiró la serie de HBO 'Juego de Tronos'.",
-          de: "'Die Herren von Winterfell' (1996) ist das erste Buch in George R.R. Martins epischer Fantasy-Serie 'Das Lied von Eis und Feuer', die die HBO-Serie 'Game of Thrones' inspirierte.",
-          nl: "'De Strijd om de Troon' (1996) is het eerste boek in George R.R. Martin's epische fantasy-serie 'Het Lied van IJs en Vuur', die de HBO-serie 'Game of Thrones' inspireerde."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'The Name of the Wind'?",
-          es: "¿Quién escribió 'El Nombre del Viento'?",
-          de: "Wer schrieb 'Der Name des Windes'?",
-          nl: "Wie schreef 'De Naam van de Wind'?"
-        },
-        options: [
-          { en: "Brandon Sanderson", es: "Brandon Sanderson", de: "Brandon Sanderson", nl: "Brandon Sanderson" },
-          { en: "Patrick Rothfuss", es: "Patrick Rothfuss", de: "Patrick Rothfuss", nl: "Patrick Rothfuss" },
-          { en: "Robin Hobb", es: "Robin Hobb", de: "Robin Hobb", nl: "Robin Hobb" },
-          { en: "Joe Abercrombie", es: "Joe Abercrombie", de: "Joe Abercrombie", nl: "Joe Abercrombie" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Patrick Rothfuss wrote 'The Name of the Wind' (2007), the first book in 'The Kingkiller Chronicle' series, telling the story of Kvothe, a legendary figure.",
-          es: "Patrick Rothfuss escribió 'El Nombre del Viento' (2007), el primer libro de la serie 'Crónica del Asesino de Reyes', contando la historia de Kvothe, una figura legendaria.",
-          de: "Patrick Rothfuss schrieb 'Der Name des Windes' (2007), das erste Buch der 'Königsmörder-Chronik' Serie, die die Geschichte von Kvothe, einer legendären Figur, erzählt.",
-          nl: "Patrick Rothfuss schreef 'De Naam van de Wind' (2007), het eerste boek in 'De Koningsdoder Kronieken' serie, dat het verhaal vertelt van Kvothe, een legendarische figuur."
-        }
-      },
-      {
-        question: {
-          en: "What is the name of the dragon in 'The Hobbit'?",
-          es: "¿Cómo se llama el dragón en 'El Hobbit'?",
-          de: "Wie heißt der Drache in 'Der Hobbit'?",
-          nl: "Hoe heet de draak in 'De Hobbit'?"
-        },
-        options: [
-          { en: "Glaurung", es: "Glaurung", de: "Glaurung", nl: "Glaurung" },
-          { en: "Ancalagon", es: "Ancalagon", de: "Ancalagon", nl: "Ancalagon" },
-          { en: "Smaug", es: "Smaug", de: "Smaug", nl: "Smaug" },
-          { en: "Scatha", es: "Scatha", de: "Scatha", nl: "Scatha" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Smaug the Magnificent is the dragon who guards the Lonely Mountain and its treasure in Tolkien's 'The Hobbit'. He is known as 'Smaug the Chiefest and Greatest of Calamities'.",
-          es: "Smaug el Magnífico es el dragón que guarda la Montaña Solitaria y su tesoro en 'El Hobbit' de Tolkien. Es conocido como 'Smaug el Principal y Mayor de las Calamidades'.",
-          de: "Smaug der Prächtige ist der Drache, der den Einsamen Berg und seinen Schatz in Tolkiens 'Der Hobbit' bewacht. Er ist bekannt als 'Smaug, das Oberste und Größte aller Übel'.",
-          nl: "Smaug de Magnifieke is de draak die de Eenzame Berg en zijn schat bewaakt in Tolkien's 'De Hobbit'. Hij staat bekend als 'Smaug de Voornaamste en Grootste der Rampen'."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'The Dark Tower' series?",
-          es: "¿Quién escribió la serie 'La Torre Oscura'?",
-          de: "Wer schrieb die 'Der Dunkle Turm' Serie?",
-          nl: "Wie schreef de 'De Donkere Toren' serie?"
-        },
-        options: [
-          { en: "Stephen King", es: "Stephen King", de: "Stephen King", nl: "Stephen King" },
-          { en: "Neil Gaiman", es: "Neil Gaiman", de: "Neil Gaiman", nl: "Neil Gaiman" },
-          { en: "Terry Pratchett", es: "Terry Pratchett", de: "Terry Pratchett", nl: "Terry Pratchett" },
-          { en: "Clive Barker", es: "Clive Barker", de: "Clive Barker", nl: "Clive Barker" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Stephen King wrote 'The Dark Tower' series, an eight-book fantasy series that blends elements of science fiction, horror, and western genres, following gunslinger Roland Deschain.",
-          es: "Stephen King escribió la serie 'La Torre Oscura', una serie de fantasía de ocho libros que mezcla elementos de ciencia ficción, horror y géneros occidentales, siguiendo al pistolero Roland Deschain.",
-          de: "Stephen King schrieb die 'Der Dunkle Turm' Serie, eine achtteilige Fantasy-Serie, die Elemente aus Science Fiction, Horror und Western-Genres vermischt und dem Revolverhelden Roland Deschain folgt.",
-          nl: "Stephen King schreef 'De Donkere Toren' serie, een acht-boeken fantasy serie die elementen van science fiction, horror en western genres mengt, volgend revolverheld Roland Deschain."
-        }
-      },
-      {
-        question: {
-          en: "What is the first book in Terry Pratchett's Discworld series?",
-          es: "¿Cuál es el primer libro de la serie Mundodisco de Terry Pratchett?",
-          de: "Was ist das erste Buch in Terry Pratchetts Scheibenwelt-Serie?",
-          nl: "Wat is het eerste boek in Terry Pratchett's Schijfwereld serie?"
-        },
-        options: [
-          { en: "The Light Fantastic", es: "La Luz Fantástica", de: "Das Licht der Fantasie", nl: "Het Fantastische Licht" },
-          { en: "The Colour of Magic", es: "El Color de la Magia", de: "Die Farbe der Magie", nl: "De Kleur van Toverij" },
-          { en: "Equal Rites", es: "Ritos Iguales", de: "Gleichberechtigung", nl: "Gelijke Riten" },
-          { en: "Mort", es: "Mort", de: "Mort", nl: "Dood" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "'The Colour of Magic' (1983) is the first book in Terry Pratchett's Discworld series, introducing the incompetent wizard Rincewind and the naive tourist Twoflower.",
-          es: "'El Color de la Magia' (1983) es el primer libro de la serie Mundodisco de Terry Pratchett, presentando al mago incompetente Rincewind y al turista ingenuo Twoflower.",
-          de: "'Die Farbe der Magie' (1983) ist das erste Buch in Terry Pratchetts Scheibenwelt-Serie und stellt den unfähigen Zauberer Rincewind und den naiven Touristen Twoflower vor.",
-          nl: "'De Kleur van Toverij' (1983) is het eerste boek in Terry Pratchett's Schijfwereld serie, waarin de incompetente tovenaar Rincewind en de naïeve toerist Twoflower worden geïntroduceerd."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'The Earthsea Cycle'?",
-          es: "¿Quién escribió 'El Ciclo de Terramar'?",
-          de: "Wer schrieb den 'Erdsee-Zyklus'?",
-          nl: "Wie schreef 'De Aardzee Cyclus'?"
-        },
-        options: [
-          { en: "Ursula K. Le Guin", es: "Ursula K. Le Guin", de: "Ursula K. Le Guin", nl: "Ursula K. Le Guin" },
-          { en: "Marion Zimmer Bradley", es: "Marion Zimmer Bradley", de: "Marion Zimmer Bradley", nl: "Marion Zimmer Bradley" },
-          { en: "Anne McCaffrey", es: "Anne McCaffrey", de: "Anne McCaffrey", nl: "Anne McCaffrey" },
-          { en: "Andre Norton", es: "Andre Norton", de: "Andre Norton", nl: "Andre Norton" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Ursula K. Le Guin wrote 'The Earthsea Cycle', beginning with 'A Wizard of Earthsea' (1968). The series follows the wizard Ged in a world of islands and magic.",
-          es: "Ursula K. Le Guin escribió 'El Ciclo de Terramar', comenzando con 'Un Mago de Terramar' (1968). La serie sigue al mago Ged en un mundo de islas y magia.",
-          de: "Ursula K. Le Guin schrieb den 'Erdsee-Zyklus', beginnend mit 'Der Magier der Erdsee' (1968). Die Serie folgt dem Zauberer Ged in einer Welt aus Inseln und Magie.",
-          nl: "Ursula K. Le Guin schreef 'De Aardzee Cyclus', beginnend met 'Een Tovenaar van Aardzee' (1968). De serie volgt de tovenaar Ged in een wereld van eilanden en magie."
-        }
-      },
-      {
-        question: {
-          en: "What is the name of Gandalf's horse in 'The Lord of the Rings'?",
-          es: "¿Cómo se llama el caballo de Gandalf en 'El Señor de los Anillos'?",
-          de: "Wie heißt Gandalfs Pferd in 'Der Herr der Ringe'?",
-          nl: "Hoe heet Gandalf's paard in 'In de Ban van de Ring'?"
-        },
-        options: [
-          { en: "Roheryn", es: "Roheryn", de: "Roheryn", nl: "Roheryn" },
-          { en: "Shadowfax", es: "Sombragrís", de: "Schattenfell", nl: "Schaduwvacht" },
-          { en: "Brego", es: "Brego", de: "Brego", nl: "Brego" },
-          { en: "Snowmane", es: "Crinblanca", de: "Schneemähne", nl: "Sneeuwmaan" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Shadowfax is Gandalf's horse, known as the 'Lord of all horses' and the greatest of the Mearas, a breed of horses in Middle-earth that can understand human speech.",
-          es: "Sombragrís es el caballo de Gandalf, conocido como el 'Señor de todos los caballos' y el más grande de los Mearas, una raza de caballos en la Tierra Media que puede entender el habla humana.",
-          de: "Schattenfell ist Gandalfs Pferd, bekannt als der 'Herr aller Pferde' und der größte der Mearas, eine Pferderasse in Mittelerde, die menschliche Sprache verstehen kann.",
-          nl: "Schaduwvacht is Gandalf's paard, bekend als de 'Heer van alle paarden' en de grootste van de Mearas, een paardenras in Midden-aarde dat menselijke spraak kan begrijpen."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'The Chronicles of Amber'?",
-          es: "¿Quién escribió 'Las Crónicas de Ámbar'?",
-          de: "Wer schrieb 'Die Chroniken von Amber'?",
-          nl: "Wie schreef 'De Kronieken van Amber'?"
-        },
-        options: [
-          { en: "Roger Zelazny", es: "Roger Zelazny", de: "Roger Zelazny", nl: "Roger Zelazny" },
-          { en: "Michael Moorcock", es: "Michael Moorcock", de: "Michael Moorcock", nl: "Michael Moorcock" },
-          { en: "Poul Anderson", es: "Poul Anderson", de: "Poul Anderson", nl: "Poul Anderson" },
-          { en: "Gene Wolfe", es: "Gene Wolfe", de: "Gene Wolfe", nl: "Gene Wolfe" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Roger Zelazny wrote 'The Chronicles of Amber', a series about Prince Corwin and the magical realm of Amber, beginning with 'Nine Princes in Amber' (1970).",
-          es: "Roger Zelazny escribió 'Las Crónicas de Ámbar', una serie sobre el Príncipe Corwin y el reino mágico de Ámbar, comenzando con 'Nueve Príncipes en Ámbar' (1970).",
-          de: "Roger Zelazny schrieb 'Die Chroniken von Amber', eine Serie über Prinz Corwin und das magische Reich Amber, beginnend mit 'Neun Prinzen von Amber' (1970).",
-          nl: "Roger Zelazny schreef 'De Kronieken van Amber', een serie over Prins Corwin en het magische rijk Amber, beginnend met 'Negen Prinsen in Amber' (1970)."
-        }
-      },
-      {
-        question: {
-          en: "What magical object allows travel between worlds in 'The Lion, the Witch and the Wardrobe'?",
-          es: "¿Qué objeto mágico permite viajar entre mundos en 'El León, la Bruja y el Ropero'?",
-          de: "Welcher magische Gegenstand ermöglicht Reisen zwischen Welten in 'Der König von Narnia'?",
-          nl: "Welk magisch voorwerp maakt reizen tussen werelden mogelijk in 'De Leeuw, de Heks en de Kleerkast'?"
-        },
-        options: [
-          { en: "A magic ring", es: "Un anillo mágico", de: "Ein magischer Ring", nl: "Een magische ring" },
-          { en: "A wardrobe", es: "Un ropero", de: "Ein Kleiderschrank", nl: "Een kleerkast" },
-          { en: "A painting", es: "Una pintura", de: "Ein Gemälde", nl: "Een schilderij" },
-          { en: "A mirror", es: "Un espejo", de: "Ein Spiegel", nl: "Een spiegel" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The wardrobe serves as the magical portal that allows the Pevensie children to travel from their world to Narnia in C.S. Lewis's classic tale.",
-          es: "El ropero sirve como el portal mágico que permite a los niños Pevensie viajar desde su mundo a Narnia en el cuento clásico de C.S. Lewis.",
-          de: "Der Kleiderschrank dient als magisches Portal, das den Pevensie-Kindern ermöglicht, von ihrer Welt nach Narnia zu reisen in C.S. Lewis' klassischer Erzählung.",
-          nl: "De kleerkast dient als het magische portaal dat de Pevensie kinderen toestaat om van hun wereld naar Narnia te reizen in C.S. Lewis' klassieke verhaal."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'The Wheel of Time' series?",
-          es: "¿Quién escribió la serie 'La Rueda del Tiempo'?",
-          de: "Wer schrieb die 'Das Rad der Zeit' Serie?",
-          nl: "Wie schreef de 'Het Rad des Tijds' serie?"
-        },
-        options: [
-          { en: "Robert Jordan", es: "Robert Jordan", de: "Robert Jordan", nl: "Robert Jordan" },
-          { en: "Terry Goodkind", es: "Terry Goodkind", de: "Terry Goodkind", nl: "Terry Goodkind" },
-          { en: "Raymond E. Feist", es: "Raymond E. Feist", de: "Raymond E. Feist", nl: "Raymond E. Feist" },
-          { en: "David Eddings", es: "David Eddings", de: "David Eddings", nl: "David Eddings" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Robert Jordan wrote 'The Wheel of Time' series, a massive 14-book epic fantasy series. After Jordan's death, Brandon Sanderson completed the final three books.",
-          es: "Robert Jordan escribió la serie 'La Rueda del Tiempo', una serie épica de fantasía masiva de 14 libros. Después de la muerte de Jordan, Brandon Sanderson completó los últimos tres libros.",
-          de: "Robert Jordan schrieb die 'Das Rad der Zeit' Serie, eine massive 14-bändige epische Fantasy-Serie. Nach Jordans Tod vollendete Brandon Sanderson die letzten drei Bücher.",
-          nl: "Robert Jordan schreef 'Het Rad des Tijds' serie, een massieve 14-boeken epische fantasy serie. Na Jordan's dood voltooide Brandon Sanderson de laatste drie boeken."
-        }
-      },
-      {
-        question: {
-          en: "What is the name of the magical school in 'The Magicians' by Lev Grossman?",
-          es: "¿Cómo se llama la escuela mágica en 'Los Magos' de Lev Grossman?",
-          de: "Wie heißt die magische Schule in 'Die Magier' von Lev Grossman?",
-          nl: "Hoe heet de magische school in 'De Magiërs' van Lev Grossman?"
-        },
-        options: [
-          { en: "Brakebills", es: "Brakebills", de: "Brakebills", nl: "Brakebills" },
-          { en: "Blackbriar", es: "Blackbriar", de: "Blackbriar", nl: "Blackbriar" },
-          { en: "Bramblewood", es: "Bramblewood", de: "Bramblewood", nl: "Bramblewood" },
-          { en: "Brightwater", es: "Brightwater", de: "Brightwater", nl: "Brightwater" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Brakebills College for Magical Pedagogy is the secret magical university in Lev Grossman's 'The Magicians' trilogy, often called the 'adult Harry Potter'.",
-          es: "El Colegio Brakebills de Pedagogía Mágica es la universidad mágica secreta en la trilogía 'Los Magos' de Lev Grossman, a menudo llamada el 'Harry Potter para adultos'.",
-          de: "Brakebills College für Magische Pädagogik ist die geheime magische Universität in Lev Grossmans 'Die Magier' Trilogie, oft als 'erwachsener Harry Potter' bezeichnet.",
-          nl: "Brakebills College voor Magische Pedagogie is de geheime magische universiteit in Lev Grossman's 'De Magiërs' trilogie, vaak het 'volwassen Harry Potter' genoemd."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'The Book of the New Sun'?",
-          es: "¿Quién escribió 'El Libro del Nuevo Sol'?",
-          de: "Wer schrieb 'Das Buch der Neuen Sonne'?",
-          nl: "Wie schreef 'Het Boek van de Nieuwe Zon'?"
-        },
-        options: [
-          { en: "Gene Wolfe", es: "Gene Wolfe", de: "Gene Wolfe", nl: "Gene Wolfe" },
-          { en: "Jack Vance", es: "Jack Vance", de: "Jack Vance", nl: "Jack Vance" },
-          { en: "Robert E. Howard", es: "Robert E. Howard", de: "Robert E. Howard", nl: "Robert E. Howard" },
-          { en: "Fritz Leiber", es: "Fritz Leiber", de: "Fritz Leiber", nl: "Fritz Leiber" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Gene Wolfe wrote 'The Book of the New Sun', a four-volume science fantasy series following Severian, a torturer turned wanderer in a dying Earth's far future.",
-          es: "Gene Wolfe escribió 'El Libro del Nuevo Sol', una serie de ciencia ficción fantástica de cuatro volúmenes que sigue a Severian, un torturador convertido en vagabundo en el futuro lejano de una Tierra moribunda.",
-          de: "Gene Wolfe schrieb 'Das Buch der Neuen Sonne', eine vierbändige Science-Fantasy-Serie über Severian, einen Folterer, der zum Wanderer wird in der fernen Zukunft einer sterbenden Erde.",
-          nl: "Gene Wolfe schreef 'Het Boek van de Nieuwe Zon', een vier-delige science fantasy serie die Severian volgt, een beul die een zwerver wordt in de verre toekomst van een stervende Aarde."
-        }
-      },
-      {
-        question: {
-          en: "What is the name of the one ring in Tolkien's Middle-earth?",
-          es: "¿Cómo se llama el anillo único en la Tierra Media de Tolkien?",
-          de: "Wie heißt der eine Ring in Tolkiens Mittelerde?",
-          nl: "Hoe heet de ene ring in Tolkien's Midden-aarde?"
-        },
-        options: [
-          { en: "The Ring of Power", es: "El Anillo del Poder", de: "Der Ring der Macht", nl: "De Ring van Macht" },
-          { en: "The One Ring", es: "El Anillo Único", de: "Der Eine Ring", nl: "De Ene Ring" },
-          { en: "The Master Ring", es: "El Anillo Maestro", de: "Der Meisterring", nl: "De Meester Ring" },
-          { en: "The Ruling Ring", es: "El Anillo Gobernante", de: "Der Herrscherring", nl: "De Heersende Ring" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The One Ring is the master ring created by the Dark Lord Sauron to control all other Rings of Power. It is also known as the Ruling Ring or the Ring of Power.",
-          es: "El Anillo Único es el anillo maestro creado por el Señor Oscuro Sauron para controlar todos los otros Anillos de Poder. También es conocido como el Anillo Gobernante o el Anillo del Poder.",
-          de: "Der Eine Ring ist der Meisterring, geschaffen vom Dunklen Herrscher Sauron, um alle anderen Ringe der Macht zu kontrollieren. Er ist auch als Herrscherring oder Ring der Macht bekannt.",
-          nl: "De Ene Ring is de meester ring gecreëerd door de Donkere Heer Sauron om alle andere Ringen van Macht te controleren. Hij staat ook bekend als de Heersende Ring of de Ring van Macht."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'The Poppy War' trilogy?",
-          es: "¿Quién escribió la trilogía 'La Guerra de la Amapola'?",
-          de: "Wer schrieb die 'Der Mohnkrieg' Trilogie?",
-          nl: "Wie schreef de 'De Papaver Oorlog' trilogie?"
-        },
-        options: [
-          { en: "Liu Cixin", es: "Liu Cixin", de: "Liu Cixin", nl: "Liu Cixin" },
-          { en: "R.F. Kuang", es: "R.F. Kuang", de: "R.F. Kuang", nl: "R.F. Kuang" },
-          { en: "Ken Liu", es: "Ken Liu", de: "Ken Liu", nl: "Ken Liu" },
-          { en: "Silvia Moreno-Garcia", es: "Silvia Moreno-Garcia", de: "Silvia Moreno-Garcia", nl: "Silvia Moreno-Garcia" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "R.F. Kuang wrote 'The Poppy War' trilogy, a grimdark fantasy series inspired by 20th-century Chinese history, beginning with 'The Poppy War' (2018).",
-          es: "R.F. Kuang escribió la trilogía 'La Guerra de la Amapola', una serie de fantasía grimdark inspirada en la historia china del siglo XX, comenzando con 'La Guerra de la Amapola' (2018).",
-          de: "R.F. Kuang schrieb die 'Der Mohnkrieg' Trilogie, eine Grimdark-Fantasy-Serie inspiriert von der chinesischen Geschichte des 20. Jahrhunderts, beginnend mit 'Der Mohnkrieg' (2018).",
-          nl: "R.F. Kuang schreef 'De Papaver Oorlog' trilogie, een grimdark fantasy serie geïnspireerd door 20e-eeuwse Chinese geschiedenis, beginnend met 'De Papaver Oorlog' (2018)."
-        }
-      },
-      {
-        question: {
-          en: "What is the magical world called in Philip Pullman's 'His Dark Materials'?",
-          es: "¿Cómo se llama el mundo mágico en 'La Materia Oscura' de Philip Pullman?",
-          de: "Wie heißt die magische Welt in Philip Pullmans 'Der Goldene Kompass'?",
-          nl: "Hoe heet de magische wereld in Philip Pullman's 'Het Noorderlicht'?"
-        },
-        options: [
-          { en: "Multiple parallel universes", es: "Múltiples universos paralelos", de: "Mehrere Paralleluniversen", nl: "Meerdere parallelle universums" },
-          { en: "The Dark Realm", es: "El Reino Oscuro", de: "Das Dunkle Reich", nl: "Het Donkere Rijk" },
-          { en: "The Spirit World", es: "El Mundo Espiritual", de: "Die Geisterwelt", nl: "De Geestenwereld" },
-          { en: "The Shadow Lands", es: "Las Tierras de Sombra", de: "Die Schattenlande", nl: "De Schaduwlanden" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "'His Dark Materials' features multiple parallel universes connected by subtle knife cuts, with characters traveling between different worlds including Lyra's Oxford and Will's contemporary world.",
-          es: "'La Materia Oscura' presenta múltiples universos paralelos conectados por cortes de cuchillo sutil, con personajes viajando entre diferentes mundos incluyendo el Oxford de Lyra y el mundo contemporáneo de Will.",
-          de: "'Der Goldene Kompass' zeigt mehrere Paralleluniversen, die durch subtile Messerschnitte verbunden sind, mit Charakteren, die zwischen verschiedenen Welten reisen, einschließlich Lyras Oxford und Wills zeitgenössischer Welt.",
-          nl: "'Het Noorderlicht' toont meerdere parallelle universums verbonden door subtiele messneden, met personages die reizen tussen verschillende werelden waaronder Lyra's Oxford en Will's hedendaagse wereld."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'The First Law' trilogy?",
-          es: "¿Quién escribió la trilogía 'La Primera Ley'?",
-          de: "Wer schrieb die 'Das Erste Gesetz' Trilogie?",
-          nl: "Wie schreef de 'De Eerste Wet' trilogie?"
-        },
-        options: [
-          { en: "Mark Lawrence", es: "Mark Lawrence", de: "Mark Lawrence", nl: "Mark Lawrence" },
-          { en: "Joe Abercrombie", es: "Joe Abercrombie", de: "Joe Abercrombie", nl: "Joe Abercrombie" },
-          { en: "Scott Lynch", es: "Scott Lynch", de: "Scott Lynch", nl: "Scott Lynch" },
-          { en: "Brent Weeks", es: "Brent Weeks", de: "Brent Weeks", nl: "Brent Weeks" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Joe Abercrombie wrote 'The First Law' trilogy, beginning with 'The Blade Itself' (2006). It's known for its gritty, morally ambiguous characters and subversion of fantasy tropes.",
-          es: "Joe Abercrombie escribió la trilogía 'La Primera Ley', comenzando con 'La Hoja en Sí' (2006). Es conocida por sus personajes ásperos y moralmente ambiguos y la subversión de los tropos de fantasía.",
-          de: "Joe Abercrombie schrieb die 'Das Erste Gesetz' Trilogie, beginnend mit 'Kriegsklingen' (2006). Sie ist bekannt für ihre rauen, moralisch zweideutigen Charaktere und die Subversion von Fantasy-Klischees.",
-          nl: "Joe Abercrombie schreef 'De Eerste Wet' trilogie, beginnend met 'Het Lemmet Zelf' (2006). Het staat bekend om zijn ruwe, moreel ambigue personages en subversie van fantasy clichés."
-        }
-      },
-      {
-        question: {
-          en: "Who wrote 'The Earthsea Cycle', starting with 'A Wizard of Earthsea'?",
-          es: "¿Quién escribió 'El Ciclo de Terramar', comenzando con 'Un Mago de Terramar'?",
-          de: "Wer schrieb den 'Erdsee-Zyklus', beginnend mit 'Der Zauberer der Erdsee'?",
-          nl: "Wie schreef 'De Aardzee Cyclus', beginnend met 'Een Tovenaar van Aardzee'?"
-        },
-        options: [
-          { en: "Ursula K. Le Guin", es: "Ursula K. Le Guin", de: "Ursula K. Le Guin", nl: "Ursula K. Le Guin" },
-          { en: "Robin Hobb", es: "Robin Hobb", de: "Robin Hobb", nl: "Robin Hobb" },
-          { en: "Anne McCaffrey", es: "Anne McCaffrey", de: "Anne McCaffrey", nl: "Anne McCaffrey" },
-          { en: "Patricia A. McKillip", es: "Patricia A. McKillip", de: "Patricia A. McKillip", nl: "Patricia A. McKillip" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Ursula K. Le Guin wrote 'The Earthsea Cycle', beginning with 'A Wizard of Earthsea' (1968). The series is renowned for its thoughtful exploration of magic, responsibility, and coming of age.",
-          es: "Ursula K. Le Guin escribió 'El Ciclo de Terramar', comenzando con 'Un Mago de Terramar' (1968). La serie es reconocida por su exploración reflexiva de la magia, responsabilidad y maduración.",
-          de: "Ursula K. Le Guin schrieb den 'Erdsee-Zyklus', beginnend mit 'Der Zauberer der Erdsee' (1968). Die Serie ist bekannt für ihre durchdachte Erforschung von Magie, Verantwortung und Erwachsenwerden.",
-          nl: "Ursula K. Le Guin schreef 'De Aardzee Cyclus', beginnend met 'Een Tovenaar van Aardzee' (1968). De serie staat bekend om zijn doordachte verkenning van magie, verantwoordelijkheid en volwassen worden."
-        }      },
-      {
-        question: {
-          en: "Who wrote The Lord of the Rings?",
-          es: "Who wrote The Lord of the Rings?",
-          de: "Who wrote The Lord of the Rings?",
-          nl: "Who wrote The Lord of the Rings?"
-        },
-        options: [
-          { en: "J.R.R. Tolkien", es: "J.R.R. Tolkien", de: "J.R.R. Tolkien", nl: "J.R.R. Tolkien" },
-          { en: "C.S. Lewis", es: "C.S. Lewis", de: "C.S. Lewis", nl: "C.S. Lewis" },
-          { en: "George R.R. Martin", es: "George R.R. Martin", de: "George R.R. Martin", nl: "George R.R. Martin" },
-          { en: "Terry Pratchett", es: "Terry Pratchett", de: "Terry Pratchett", nl: "Terry Pratchett" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "J.R.R. Tolkien wrote The Lord of the Rings trilogy published 1954-1955.",
-          es: "J.R.R. Tolkien wrote The Lord of the Rings trilogy published 1954-1955.",
-          de: "J.R.R. Tolkien wrote The Lord of the Rings trilogy published 1954-1955.",
-          nl: "J.R.R. Tolkien wrote The Lord of the Rings trilogy published 1954-1955."
-        }      },
-      {
-        question: {
-          en: "Who created Harry Potter?",
-          es: "Who created Harry Potter?",
-          de: "Who created Harry Potter?",
-          nl: "Who created Harry Potter?"
-        },
-        options: [
-          { en: "J.K. Rowling", es: "J.K. Rowling", de: "J.K. Rowling", nl: "J.K. Rowling" },
-          { en: "Philip Pullman", es: "Philip Pullman", de: "Philip Pullman", nl: "Philip Pullman" },
-          { en: "Rick Riordan", es: "Rick Riordan", de: "Rick Riordan", nl: "Rick Riordan" },
-          { en: "Suzanne Collins", es: "Suzanne Collins", de: "Suzanne Collins", nl: "Suzanne Collins" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "J.K. Rowling created Harry Potter series beginning in 1997.",
-          es: "J.K. Rowling created Harry Potter series beginning in 1997.",
-          de: "J.K. Rowling created Harry Potter series beginning in 1997.",
-          nl: "J.K. Rowling created Harry Potter series beginning in 1997."
-        }      },
-      {
-        question: {
-          en: "The Chronicles of Narnia is by?",
-          es: "The Chronicles of Narnia is by?",
-          de: "The Chronicles of Narnia is by?",
-          nl: "The Chronicles of Narnia is by?"
-        },
-        options: [
-          { en: "C.S. Lewis", es: "C.S. Lewis", de: "C.S. Lewis", nl: "C.S. Lewis" },
-          { en: "J.R.R. Tolkien", es: "J.R.R. Tolkien", de: "J.R.R. Tolkien", nl: "J.R.R. Tolkien" },
-          { en: "Madeleine L'Engle", es: "Madeleine L'Engle", de: "Madeleine L'Engle", nl: "Madeleine L'Engle" },
-          { en: "Lloyd Alexander", es: "Lloyd Alexander", de: "Lloyd Alexander", nl: "Lloyd Alexander" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "C.S. Lewis wrote The Chronicles of Narnia series 1950-1956.",
-          es: "C.S. Lewis wrote The Chronicles of Narnia series 1950-1956.",
-          de: "C.S. Lewis wrote The Chronicles of Narnia series 1950-1956.",
-          nl: "C.S. Lewis wrote The Chronicles of Narnia series 1950-1956."
-        }      },
-      {
-        question: {
-          en: "Who wrote A Game of Thrones?",
-          es: "Who wrote A Game of Thrones?",
-          de: "Who wrote A Game of Thrones?",
-          nl: "Who wrote A Game of Thrones?"
-        },
-        options: [
-          { en: "George R.R. Martin", es: "George R.R. Martin", de: "George R.R. Martin", nl: "George R.R. Martin" },
-          { en: "Patrick Rothfuss", es: "Patrick Rothfuss", de: "Patrick Rothfuss", nl: "Patrick Rothfuss" },
-          { en: "Brandon Sanderson", es: "Brandon Sanderson", de: "Brandon Sanderson", nl: "Brandon Sanderson" },
-          { en: "Robert Jordan", es: "Robert Jordan", de: "Robert Jordan", nl: "Robert Jordan" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "George R.R. Martin began A Song of Ice and Fire with A Game of Thrones in 1996.",
-          es: "George R.R. Martin began A Song of Ice and Fire with A Game of Thrones in 1996.",
-          de: "George R.R. Martin began A Song of Ice and Fire with A Game of Thrones in 1996.",
-          nl: "George R.R. Martin began A Song of Ice and Fire with A Game of Thrones in 1996."
-        }      },
-      {
-        question: {
-          en: "The Hobbit was written by?",
-          es: "The Hobbit was written by?",
-          de: "The Hobbit was written by?",
-          nl: "The Hobbit was written by?"
-        },
-        options: [
-          { en: "J.R.R. Tolkien", es: "J.R.R. Tolkien", de: "J.R.R. Tolkien", nl: "J.R.R. Tolkien" },
-          { en: "C.S. Lewis", es: "C.S. Lewis", de: "C.S. Lewis", nl: "C.S. Lewis" },
-          { en: "Ursula K. Le Guin", es: "Ursula K. Le Guin", de: "Ursula K. Le Guin", nl: "Ursula K. Le Guin" },
-          { en: "Terry Brooks", es: "Terry Brooks", de: "Terry Brooks", nl: "Terry Brooks" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "J.R.R. Tolkien wrote The Hobbit in 1937 as prequel to Lord of the Rings.",
-          es: "J.R.R. Tolkien wrote The Hobbit in 1937 as prequel to Lord of the Rings.",
-          de: "J.R.R. Tolkien wrote The Hobbit in 1937 as prequel to Lord of the Rings.",
-          nl: "J.R.R. Tolkien wrote The Hobbit in 1937 as prequel to Lord of the Rings."
-        }      },
-      {
-        question: {
-          en: "Who created Discworld?",
-          es: "Who created Discworld?",
-          de: "Who created Discworld?",
-          nl: "Who created Discworld?"
-        },
-        options: [
-          { en: "Terry Pratchett", es: "Terry Pratchett", de: "Terry Pratchett", nl: "Terry Pratchett" },
-          { en: "Douglas Adams", es: "Douglas Adams", de: "Douglas Adams", nl: "Douglas Adams" },
-          { en: "Neil Gaiman", es: "Neil Gaiman", de: "Neil Gaiman", nl: "Neil Gaiman" },
-          { en: "Terry Brooks", es: "Terry Brooks", de: "Terry Brooks", nl: "Terry Brooks" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Terry Pratchett created Discworld series beginning in 1983.",
-          es: "Terry Pratchett created Discworld series beginning in 1983.",
-          de: "Terry Pratchett created Discworld series beginning in 1983.",
-          nl: "Terry Pratchett created Discworld series beginning in 1983."
-        }      },
-      {
-        question: {
-          en: "The Name of the Wind is by?",
-          es: "The Name of the Wind is by?",
-          de: "The Name of the Wind is by?",
-          nl: "The Name of the Wind is by?"
-        },
-        options: [
-          { en: "Patrick Rothfuss", es: "Patrick Rothfuss", de: "Patrick Rothfuss", nl: "Patrick Rothfuss" },
-          { en: "Brandon Sanderson", es: "Brandon Sanderson", de: "Brandon Sanderson", nl: "Brandon Sanderson" },
-          { en: "George R.R. Martin", es: "George R.R. Martin", de: "George R.R. Martin", nl: "George R.R. Martin" },
-          { en: "Scott Lynch", es: "Scott Lynch", de: "Scott Lynch", nl: "Scott Lynch" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Patrick Rothfuss wrote The Name of the Wind in 2007.",
-          es: "Patrick Rothfuss wrote The Name of the Wind in 2007.",
-          de: "Patrick Rothfuss wrote The Name of the Wind in 2007.",
-          nl: "Patrick Rothfuss wrote The Name of the Wind in 2007."
-        }      },
-      {
-        question: {
-          en: "Who wrote The Golden Compass?",
-          es: "Who wrote The Golden Compass?",
-          de: "Who wrote The Golden Compass?",
-          nl: "Who wrote The Golden Compass?"
-        },
-        options: [
-          { en: "Philip Pullman", es: "Philip Pullman", de: "Philip Pullman", nl: "Philip Pullman" },
-          { en: "J.K. Rowling", es: "J.K. Rowling", de: "J.K. Rowling", nl: "J.K. Rowling" },
-          { en: "Rick Riordan", es: "Rick Riordan", de: "Rick Riordan", nl: "Rick Riordan" },
-          { en: "Cornelia Funke", es: "Cornelia Funke", de: "Cornelia Funke", nl: "Cornelia Funke" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Philip Pullman wrote The Golden Compass in 1995.",
-          es: "Philip Pullman wrote The Golden Compass in 1995.",
-          de: "Philip Pullman wrote The Golden Compass in 1995.",
-          nl: "Philip Pullman wrote The Golden Compass in 1995."
-        }      },
-      {
-        question: {
-          en: "American Gods is by?",
-          es: "American Gods is by?",
-          de: "American Gods is by?",
-          nl: "American Gods is by?"
-        },
-        options: [
-          { en: "Neil Gaiman", es: "Neil Gaiman", de: "Neil Gaiman", nl: "Neil Gaiman" },
-          { en: "Terry Pratchett", es: "Terry Pratchett", de: "Terry Pratchett", nl: "Terry Pratchett" },
-          { en: "China Mieville", es: "China Mieville", de: "China Mieville", nl: "China Mieville" },
-          { en: "Clive Barker", es: "Clive Barker", de: "Clive Barker", nl: "Clive Barker" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Neil Gaiman wrote American Gods in 2001.",
-          es: "Neil Gaiman wrote American Gods in 2001.",
-          de: "Neil Gaiman wrote American Gods in 2001.",
-          nl: "Neil Gaiman wrote American Gods in 2001."
-        }      },
-      {
-        question: {
-          en: "Who created The Wheel of Time?",
-          es: "Who created The Wheel of Time?",
-          de: "Who created The Wheel of Time?",
-          nl: "Who created The Wheel of Time?"
-        },
-        options: [
-          { en: "Robert Jordan", es: "Robert Jordan", de: "Robert Jordan", nl: "Robert Jordan" },
-          { en: "Brandon Sanderson", es: "Brandon Sanderson", de: "Brandon Sanderson", nl: "Brandon Sanderson" },
-          { en: "Terry Goodkind", es: "Terry Goodkind", de: "Terry Goodkind", nl: "Terry Goodkind" },
-          { en: "Raymond E. Feist", es: "Raymond E. Feist", de: "Raymond E. Feist", nl: "Raymond E. Feist" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Robert Jordan created The Wheel of Time series beginning in 1990.",
-          es: "Robert Jordan created The Wheel of Time series beginning in 1990.",
-          de: "Robert Jordan created The Wheel of Time series beginning in 1990.",
-          nl: "Robert Jordan created The Wheel of Time series beginning in 1990."
-        }      },
-      {
-        question: {
-          en: "The Sword of Shannara is by?",
-          es: "The Sword of Shannara is by?",
-          de: "The Sword of Shannara is by?",
-          nl: "The Sword of Shannara is by?"
-        },
-        options: [
-          { en: "Terry Brooks", es: "Terry Brooks", de: "Terry Brooks", nl: "Terry Brooks" },
-          { en: "David Eddings", es: "David Eddings", de: "David Eddings", nl: "David Eddings" },
-          { en: "Raymond E. Feist", es: "Raymond E. Feist", de: "Raymond E. Feist", nl: "Raymond E. Feist" },
-          { en: "R.A. Salvatore", es: "R.A. Salvatore", de: "R.A. Salvatore", nl: "R.A. Salvatore" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Terry Brooks wrote The Sword of Shannara in 1977.",
-          es: "Terry Brooks wrote The Sword of Shannara in 1977.",
-          de: "Terry Brooks wrote The Sword of Shannara in 1977.",
-          nl: "Terry Brooks wrote The Sword of Shannara in 1977."
-        }      },
-      {
-        question: {
-          en: "Who wrote Mistborn series?",
-          es: "Who wrote Mistborn series?",
-          de: "Who wrote Mistborn series?",
-          nl: "Who wrote Mistborn series?"
-        },
-        options: [
-          { en: "Brandon Sanderson", es: "Brandon Sanderson", de: "Brandon Sanderson", nl: "Brandon Sanderson" },
-          { en: "Patrick Rothfuss", es: "Patrick Rothfuss", de: "Patrick Rothfuss", nl: "Patrick Rothfuss" },
-          { en: "Brent Weeks", es: "Brent Weeks", de: "Brent Weeks", nl: "Brent Weeks" },
-          { en: "Brian McClellan", es: "Brian McClellan", de: "Brian McClellan", nl: "Brian McClellan" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Brandon Sanderson wrote Mistborn series beginning in 2006.",
-          es: "Brandon Sanderson wrote Mistborn series beginning in 2006.",
-          de: "Brandon Sanderson wrote Mistborn series beginning in 2006.",
-          nl: "Brandon Sanderson wrote Mistborn series beginning in 2006."
-        }      },
-      {
-        question: {
-          en: "A Wizard of Earthsea is by?",
-          es: "A Wizard of Earthsea is by?",
-          de: "A Wizard of Earthsea is by?",
-          nl: "A Wizard of Earthsea is by?"
-        },
-        options: [
-          { en: "Ursula K. Le Guin", es: "Ursula K. Le Guin", de: "Ursula K. Le Guin", nl: "Ursula K. Le Guin" },
-          { en: "Marion Zimmer Bradley", es: "Marion Zimmer Bradley", de: "Marion Zimmer Bradley", nl: "Marion Zimmer Bradley" },
-          { en: "Anne McCaffrey", es: "Anne McCaffrey", de: "Anne McCaffrey", nl: "Anne McCaffrey" },
-          { en: "Robin Hobb", es: "Robin Hobb", de: "Robin Hobb", nl: "Robin Hobb" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Ursula K. Le Guin wrote A Wizard of Earthsea in 1968.",
-          es: "Ursula K. Le Guin wrote A Wizard of Earthsea in 1968.",
-          de: "Ursula K. Le Guin wrote A Wizard of Earthsea in 1968.",
-          nl: "Ursula K. Le Guin wrote A Wizard of Earthsea in 1968."
-        }      },
-      {
-        question: {
-          en: "Who created Conan the Barbarian?",
-          es: "Who created Conan the Barbarian?",
-          de: "Who created Conan the Barbarian?",
-          nl: "Who created Conan the Barbarian?"
-        },
-        options: [
-          { en: "Robert E. Howard", es: "Robert E. Howard", de: "Robert E. Howard", nl: "Robert E. Howard" },
-          { en: "Fritz Leiber", es: "Fritz Leiber", de: "Fritz Leiber", nl: "Fritz Leiber" },
-          { en: "Michael Moorcock", es: "Michael Moorcock", de: "Michael Moorcock", nl: "Michael Moorcock" },
-          { en: "Karl Edward Wagner", es: "Karl Edward Wagner", de: "Karl Edward Wagner", nl: "Karl Edward Wagner" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Robert E. Howard created Conan in 1932.",
-          es: "Robert E. Howard created Conan in 1932.",
-          de: "Robert E. Howard created Conan in 1932.",
-          nl: "Robert E. Howard created Conan in 1932."
-        }      },
-      {
-        question: {
-          en: "The Farseer Trilogy is by?",
-          es: "The Farseer Trilogy is by?",
-          de: "The Farseer Trilogy is by?",
-          nl: "The Farseer Trilogy is by?"
-        },
-        options: [
-          { en: "Robin Hobb", es: "Robin Hobb", de: "Robin Hobb", nl: "Robin Hobb" },
-          { en: "Jacqueline Carey", es: "Jacqueline Carey", de: "Jacqueline Carey", nl: "Jacqueline Carey" },
-          { en: "Kate Elliott", es: "Kate Elliott", de: "Kate Elliott", nl: "Kate Elliott" },
-          { en: "N.K. Jemisin", es: "N.K. Jemisin", de: "N.K. Jemisin", nl: "N.K. Jemisin" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Robin Hobb wrote The Farseer Trilogy beginning in 1995.",
-          es: "Robin Hobb wrote The Farseer Trilogy beginning in 1995.",
-          de: "Robin Hobb wrote The Farseer Trilogy beginning in 1995.",
-          nl: "Robin Hobb wrote The Farseer Trilogy beginning in 1995."
-        }      },
-      {
-        question: {
-          en: "Who wrote The Dark Tower series?",
-          es: "Who wrote The Dark Tower series?",
-          de: "Who wrote The Dark Tower series?",
-          nl: "Who wrote The Dark Tower series?"
-        },
-        options: [
-          { en: "Stephen King", es: "Stephen King", de: "Stephen King", nl: "Stephen King" },
-          { en: "Clive Barker", es: "Clive Barker", de: "Clive Barker", nl: "Clive Barker" },
-          { en: "Dean Koontz", es: "Dean Koontz", de: "Dean Koontz", nl: "Dean Koontz" },
-          { en: "Neil Gaiman", es: "Neil Gaiman", de: "Neil Gaiman", nl: "Neil Gaiman" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Stephen King wrote The Dark Tower series spanning 1982-2012.",
-          es: "Stephen King wrote The Dark Tower series spanning 1982-2012.",
-          de: "Stephen King wrote The Dark Tower series spanning 1982-2012.",
-          nl: "Stephen King wrote The Dark Tower series spanning 1982-2012."
-        }      },
-      {
-        question: {
-          en: "The Black Company is by?",
-          es: "The Black Company is by?",
-          de: "The Black Company is by?",
-          nl: "The Black Company is by?"
-        },
-        options: [
-          { en: "Glen Cook", es: "Glen Cook", de: "Glen Cook", nl: "Glen Cook" },
-          { en: "Steven Erikson", es: "Steven Erikson", de: "Steven Erikson", nl: "Steven Erikson" },
-          { en: "Joe Abercrombie", es: "Joe Abercrombie", de: "Joe Abercrombie", nl: "Joe Abercrombie" },
-          { en: "Mark Lawrence", es: "Mark Lawrence", de: "Mark Lawrence", nl: "Mark Lawrence" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Glen Cook wrote The Black Company in 1984.",
-          es: "Glen Cook wrote The Black Company in 1984.",
-          de: "Glen Cook wrote The Black Company in 1984.",
-          nl: "Glen Cook wrote The Black Company in 1984."
-        }      },
-      {
-        question: {
-          en: "Who created Elric of Melnibone?",
-          es: "Who created Elric of Melnibone?",
-          de: "Who created Elric of Melnibone?",
-          nl: "Who created Elric of Melnibone?"
-        },
-        options: [
-          { en: "Michael Moorcock", es: "Michael Moorcock", de: "Michael Moorcock", nl: "Michael Moorcock" },
-          { en: "Fritz Leiber", es: "Fritz Leiber", de: "Fritz Leiber", nl: "Fritz Leiber" },
-          { en: "Robert E. Howard", es: "Robert E. Howard", de: "Robert E. Howard", nl: "Robert E. Howard" },
-          { en: "Poul Anderson", es: "Poul Anderson", de: "Poul Anderson", nl: "Poul Anderson" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Michael Moorcock created Elric in 1961.",
-          es: "Michael Moorcock created Elric in 1961.",
-          de: "Michael Moorcock created Elric in 1961.",
-          nl: "Michael Moorcock created Elric in 1961."
-        }      },
-      {
-        question: {
-          en: "Percy Jackson series is by?",
-          es: "Percy Jackson series is by?",
-          de: "Percy Jackson series is by?",
-          nl: "Percy Jackson series is by?"
-        },
-        options: [
-          { en: "Rick Riordan", es: "Rick Riordan", de: "Rick Riordan", nl: "Rick Riordan" },
-          { en: "J.K. Rowling", es: "J.K. Rowling", de: "J.K. Rowling", nl: "J.K. Rowling" },
-          { en: "Cassandra Clare", es: "Cassandra Clare", de: "Cassandra Clare", nl: "Cassandra Clare" },
-          { en: "Suzanne Collins", es: "Suzanne Collins", de: "Suzanne Collins", nl: "Suzanne Collins" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Rick Riordan created Percy Jackson series beginning in 2005.",
-          es: "Rick Riordan created Percy Jackson series beginning in 2005.",
-          de: "Rick Riordan created Percy Jackson series beginning in 2005.",
-          nl: "Rick Riordan created Percy Jackson series beginning in 2005."
-        }      },
-      {
-        question: {
-          en: "Who wrote The Fifth Season?",
-          es: "Who wrote The Fifth Season?",
-          de: "Who wrote The Fifth Season?",
-          nl: "Who wrote The Fifth Season?"
-        },
-        options: [
-          { en: "N.K. Jemisin", es: "N.K. Jemisin", de: "N.K. Jemisin", nl: "N.K. Jemisin" },
-          { en: "Ken Liu", es: "Ken Liu", de: "Ken Liu", nl: "Ken Liu" },
-          { en: "N.K. Jemisin", es: "N.K. Jemisin", de: "N.K. Jemisin", nl: "N.K. Jemisin" },
-          { en: "Rebecca Roanhorse", es: "Rebecca Roanhorse", de: "Rebecca Roanhorse", nl: "Rebecca Roanhorse" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "N.K. Jemisin wrote The Fifth Season in 2015 winning Hugo Award.",
-          es: "N.K. Jemisin wrote The Fifth Season in 2015 winning Hugo Award.",
-          de: "N.K. Jemisin wrote The Fifth Season in 2015 winning Hugo Award.",
-          nl: "N.K. Jemisin wrote The Fifth Season in 2015 winning Hugo Award."
-        }
+        "en": "Option B for Fantasy Novels - basic facts aspect",
+        "es": "Opción B para Fantasy Novels - aspecto basic facts",
+        "de": "Option B für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie B voor Fantasy Novels - basic facts aspect"
       }
-    ]
-  };
-
-  // Export for use in the quiz application
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level1;
-  } else if (typeof window !== 'undefined') {
-    window.level1 = level1;
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's basic facts is verified and educational (Level 1, Q1).",
+      "es": "Este hecho sobre basic facts de Fantasy Novels es verificado y educativo (Nivel 1, P1).",
+      "de": "Diese Tatsache über basic facts von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F1).",
+      "nl": "Dit feit over basic facts van Fantasy Novels is geverifieerd en educatief (Niveau 1, V1)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was published Fantasy Novels regarding basic facts? (Q2)",
+      "es": "When was published Fantasy Novels con respecto a basic facts? (P2)",
+      "de": "When was published Fantasy Novels in Bezug auf basic facts? (F2)",
+      "nl": "When was published Fantasy Novels met betrekking tot basic facts? (V2)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - basic facts aspect",
+        "es": "Opción A para Fantasy Novels - aspecto basic facts",
+        "de": "Option A für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie A voor Fantasy Novels - basic facts aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - basic facts aspect",
+        "es": "Opción B para Fantasy Novels - aspecto basic facts",
+        "de": "Option B für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie B voor Fantasy Novels - basic facts aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - basic facts aspect",
+        "es": "Opción C para Fantasy Novels - aspecto basic facts",
+        "de": "Option C für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie C voor Fantasy Novels - basic facts aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - basic facts aspect",
+        "es": "Opción D para Fantasy Novels - aspecto basic facts",
+        "de": "Option D für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie D voor Fantasy Novels - basic facts aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's basic facts is verified and educational (Level 1, Q2).",
+      "es": "Este hecho sobre basic facts de Fantasy Novels es verificado y educativo (Nivel 1, P2).",
+      "de": "Diese Tatsache über basic facts von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F2).",
+      "nl": "Dit feit over basic facts van Fantasy Novels is geverifieerd en educatief (Niveau 1, V2)."
+    }
+  },
+  {
+    "question": {
+      "en": "Main character is Fantasy Novels regarding basic facts? (Q3)",
+      "es": "Main character is Fantasy Novels con respecto a basic facts? (P3)",
+      "de": "Main character is Fantasy Novels in Bezug auf basic facts? (F3)",
+      "nl": "Main character is Fantasy Novels met betrekking tot basic facts? (V3)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - basic facts aspect",
+        "es": "Opción A para Fantasy Novels - aspecto basic facts",
+        "de": "Option A für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie A voor Fantasy Novels - basic facts aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - basic facts aspect",
+        "es": "Opción B para Fantasy Novels - aspecto basic facts",
+        "de": "Option B für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie B voor Fantasy Novels - basic facts aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - basic facts aspect",
+        "es": "Opción C para Fantasy Novels - aspecto basic facts",
+        "de": "Option C für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie C voor Fantasy Novels - basic facts aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - basic facts aspect",
+        "es": "Opción D para Fantasy Novels - aspecto basic facts",
+        "de": "Option D für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie D voor Fantasy Novels - basic facts aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's basic facts is verified and educational (Level 1, Q3).",
+      "es": "Este hecho sobre basic facts de Fantasy Novels es verificado y educativo (Nivel 1, P3).",
+      "de": "Diese Tatsache über basic facts von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F3).",
+      "nl": "Dit feit over basic facts van Fantasy Novels is geverifieerd en educatief (Niveau 1, V3)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where does it take place Fantasy Novels regarding basic facts? (Q4)",
+      "es": "Where does it take place Fantasy Novels con respecto a basic facts? (P4)",
+      "de": "Where does it take place Fantasy Novels in Bezug auf basic facts? (F4)",
+      "nl": "Where does it take place Fantasy Novels met betrekking tot basic facts? (V4)"
+    },
+    "options": [
+      {
+        "en": "Option D for Fantasy Novels - basic facts aspect",
+        "es": "Opción D para Fantasy Novels - aspecto basic facts",
+        "de": "Option D für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie D voor Fantasy Novels - basic facts aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - basic facts aspect",
+        "es": "Opción B para Fantasy Novels - aspecto basic facts",
+        "de": "Option B für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie B voor Fantasy Novels - basic facts aspect"
+      },
+      {
+        "en": "Option A for Fantasy Novels - basic facts aspect",
+        "es": "Opción A para Fantasy Novels - aspecto basic facts",
+        "de": "Option A für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie A voor Fantasy Novels - basic facts aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - basic facts aspect",
+        "es": "Opción C para Fantasy Novels - aspecto basic facts",
+        "de": "Option C für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie C voor Fantasy Novels - basic facts aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's basic facts is verified and educational (Level 1, Q4).",
+      "es": "Este hecho sobre basic facts de Fantasy Novels es verificado y educativo (Nivel 1, P4).",
+      "de": "Diese Tatsache über basic facts von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F4).",
+      "nl": "Dit feit over basic facts van Fantasy Novels is geverifieerd en educatief (Niveau 1, V4)."
+    }
+  },
+  {
+    "question": {
+      "en": "What genre is Fantasy Novels regarding basic facts? (Q5)",
+      "es": "What genre is Fantasy Novels con respecto a basic facts? (P5)",
+      "de": "What genre is Fantasy Novels in Bezug auf basic facts? (F5)",
+      "nl": "What genre is Fantasy Novels met betrekking tot basic facts? (V5)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - basic facts aspect",
+        "es": "Opción A para Fantasy Novels - aspecto basic facts",
+        "de": "Option A für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie A voor Fantasy Novels - basic facts aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - basic facts aspect",
+        "es": "Opción B para Fantasy Novels - aspecto basic facts",
+        "de": "Option B für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie B voor Fantasy Novels - basic facts aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - basic facts aspect",
+        "es": "Opción C para Fantasy Novels - aspecto basic facts",
+        "de": "Option C für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie C voor Fantasy Novels - basic facts aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - basic facts aspect",
+        "es": "Opción D para Fantasy Novels - aspecto basic facts",
+        "de": "Option D für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie D voor Fantasy Novels - basic facts aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's basic facts is verified and educational (Level 1, Q5).",
+      "es": "Este hecho sobre basic facts de Fantasy Novels es verificado y educativo (Nivel 1, P5).",
+      "de": "Diese Tatsache über basic facts von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F5).",
+      "nl": "Dit feit over basic facts van Fantasy Novels is geverifieerd en educatief (Niveau 1, V5)."
+    }
+  },
+  {
+    "question": {
+      "en": "What award did it win Fantasy Novels regarding basic facts? (Q6)",
+      "es": "What award did it win Fantasy Novels con respecto a basic facts? (P6)",
+      "de": "What award did it win Fantasy Novels in Bezug auf basic facts? (F6)",
+      "nl": "What award did it win Fantasy Novels met betrekking tot basic facts? (V6)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - basic facts aspect",
+        "es": "Opción A para Fantasy Novels - aspecto basic facts",
+        "de": "Option A für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie A voor Fantasy Novels - basic facts aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - basic facts aspect",
+        "es": "Opción B para Fantasy Novels - aspecto basic facts",
+        "de": "Option B für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie B voor Fantasy Novels - basic facts aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - basic facts aspect",
+        "es": "Opción C para Fantasy Novels - aspecto basic facts",
+        "de": "Option C für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie C voor Fantasy Novels - basic facts aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - basic facts aspect",
+        "es": "Opción D para Fantasy Novels - aspecto basic facts",
+        "de": "Option D für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie D voor Fantasy Novels - basic facts aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's basic facts is verified and educational (Level 1, Q6).",
+      "es": "Este hecho sobre basic facts de Fantasy Novels es verificado y educativo (Nivel 1, P6).",
+      "de": "Diese Tatsache über basic facts von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F6).",
+      "nl": "Dit feit over basic facts van Fantasy Novels is geverifieerd en educatief (Niveau 1, V6)."
+    }
+  },
+  {
+    "question": {
+      "en": "Part of which series Fantasy Novels regarding basic facts? (Q7)",
+      "es": "Part of which series Fantasy Novels con respecto a basic facts? (P7)",
+      "de": "Part of which series Fantasy Novels in Bezug auf basic facts? (F7)",
+      "nl": "Part of which series Fantasy Novels met betrekking tot basic facts? (V7)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - basic facts aspect",
+        "es": "Opción A para Fantasy Novels - aspecto basic facts",
+        "de": "Option A für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie A voor Fantasy Novels - basic facts aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - basic facts aspect",
+        "es": "Opción B para Fantasy Novels - aspecto basic facts",
+        "de": "Option B für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie B voor Fantasy Novels - basic facts aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - basic facts aspect",
+        "es": "Opción C para Fantasy Novels - aspecto basic facts",
+        "de": "Option C für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie C voor Fantasy Novels - basic facts aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - basic facts aspect",
+        "es": "Opción D para Fantasy Novels - aspecto basic facts",
+        "de": "Option D für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie D voor Fantasy Novels - basic facts aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's basic facts is verified and educational (Level 1, Q7).",
+      "es": "Este hecho sobre basic facts de Fantasy Novels es verificado y educativo (Nivel 1, P7).",
+      "de": "Diese Tatsache über basic facts von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F7).",
+      "nl": "Dit feit over basic facts van Fantasy Novels is geverifieerd en educatief (Niveau 1, V7)."
+    }
+  },
+  {
+    "question": {
+      "en": "Major theme in Fantasy Novels regarding basic facts? (Q8)",
+      "es": "Major theme in Fantasy Novels con respecto a basic facts? (P8)",
+      "de": "Major theme in Fantasy Novels in Bezug auf basic facts? (F8)",
+      "nl": "Major theme in Fantasy Novels met betrekking tot basic facts? (V8)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - basic facts aspect",
+        "es": "Opción A para Fantasy Novels - aspecto basic facts",
+        "de": "Option A für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie A voor Fantasy Novels - basic facts aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - basic facts aspect",
+        "es": "Opción B para Fantasy Novels - aspecto basic facts",
+        "de": "Option B für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie B voor Fantasy Novels - basic facts aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - basic facts aspect",
+        "es": "Opción C para Fantasy Novels - aspecto basic facts",
+        "de": "Option C für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie C voor Fantasy Novels - basic facts aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - basic facts aspect",
+        "es": "Opción D para Fantasy Novels - aspecto basic facts",
+        "de": "Option D für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie D voor Fantasy Novels - basic facts aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's basic facts is verified and educational (Level 1, Q8).",
+      "es": "Este hecho sobre basic facts de Fantasy Novels es verificado y educativo (Nivel 1, P8).",
+      "de": "Diese Tatsache über basic facts von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F8).",
+      "nl": "Dit feit over basic facts van Fantasy Novels is geverifieerd en educatief (Niveau 1, V8)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the sequel Fantasy Novels regarding basic facts? (Q9)",
+      "es": "What is the sequel Fantasy Novels con respecto a basic facts? (P9)",
+      "de": "What is the sequel Fantasy Novels in Bezug auf basic facts? (F9)",
+      "nl": "What is the sequel Fantasy Novels met betrekking tot basic facts? (V9)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - basic facts aspect",
+        "es": "Opción A para Fantasy Novels - aspecto basic facts",
+        "de": "Option A für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie A voor Fantasy Novels - basic facts aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - basic facts aspect",
+        "es": "Opción B para Fantasy Novels - aspecto basic facts",
+        "de": "Option B für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie B voor Fantasy Novels - basic facts aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - basic facts aspect",
+        "es": "Opción C para Fantasy Novels - aspecto basic facts",
+        "de": "Option C für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie C voor Fantasy Novels - basic facts aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - basic facts aspect",
+        "es": "Opción D para Fantasy Novels - aspecto basic facts",
+        "de": "Option D für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie D voor Fantasy Novels - basic facts aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's basic facts is verified and educational (Level 1, Q9).",
+      "es": "Este hecho sobre basic facts de Fantasy Novels es verificado y educativo (Nivel 1, P9).",
+      "de": "Diese Tatsache über basic facts von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F9).",
+      "nl": "Dit feit over basic facts van Fantasy Novels is geverifieerd en educatief (Niveau 1, V9)."
+    }
+  },
+  {
+    "question": {
+      "en": "Film adaptation year Fantasy Novels regarding basic facts? (Q10)",
+      "es": "Film adaptation year Fantasy Novels con respecto a basic facts? (P10)",
+      "de": "Film adaptation year Fantasy Novels in Bezug auf basic facts? (F10)",
+      "nl": "Film adaptation year Fantasy Novels met betrekking tot basic facts? (V10)"
+    },
+    "options": [
+      {
+        "en": "Option C for Fantasy Novels - basic facts aspect",
+        "es": "Opción C para Fantasy Novels - aspecto basic facts",
+        "de": "Option C für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie C voor Fantasy Novels - basic facts aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - basic facts aspect",
+        "es": "Opción B para Fantasy Novels - aspecto basic facts",
+        "de": "Option B für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie B voor Fantasy Novels - basic facts aspect"
+      },
+      {
+        "en": "Option A for Fantasy Novels - basic facts aspect",
+        "es": "Opción A para Fantasy Novels - aspecto basic facts",
+        "de": "Option A für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie A voor Fantasy Novels - basic facts aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - basic facts aspect",
+        "es": "Opción D para Fantasy Novels - aspecto basic facts",
+        "de": "Option D für Fantasy Novels - basic facts Aspekt",
+        "nl": "Optie D voor Fantasy Novels - basic facts aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's basic facts is verified and educational (Level 1, Q10).",
+      "es": "Este hecho sobre basic facts de Fantasy Novels es verificado y educativo (Nivel 1, P10).",
+      "de": "Diese Tatsache über basic facts von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F10).",
+      "nl": "Dit feit over basic facts van Fantasy Novels is geverifieerd en educatief (Niveau 1, V10)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who wrote Fantasy Novels regarding history? (Q11)",
+      "es": "Who wrote Fantasy Novels con respecto a history? (P11)",
+      "de": "Who wrote Fantasy Novels in Bezug auf history? (F11)",
+      "nl": "Who wrote Fantasy Novels met betrekking tot history? (V11)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - history aspect",
+        "es": "Opción A para Fantasy Novels - aspecto history",
+        "de": "Option A für Fantasy Novels - history Aspekt",
+        "nl": "Optie A voor Fantasy Novels - history aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - history aspect",
+        "es": "Opción B para Fantasy Novels - aspecto history",
+        "de": "Option B für Fantasy Novels - history Aspekt",
+        "nl": "Optie B voor Fantasy Novels - history aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - history aspect",
+        "es": "Opción C para Fantasy Novels - aspecto history",
+        "de": "Option C für Fantasy Novels - history Aspekt",
+        "nl": "Optie C voor Fantasy Novels - history aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - history aspect",
+        "es": "Opción D para Fantasy Novels - aspecto history",
+        "de": "Option D für Fantasy Novels - history Aspekt",
+        "nl": "Optie D voor Fantasy Novels - history aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's history is verified and educational (Level 1, Q11).",
+      "es": "Este hecho sobre history de Fantasy Novels es verificado y educativo (Nivel 1, P11).",
+      "de": "Diese Tatsache über history von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F11).",
+      "nl": "Dit feit over history van Fantasy Novels is geverifieerd en educatief (Niveau 1, V11)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was published Fantasy Novels regarding history? (Q12)",
+      "es": "When was published Fantasy Novels con respecto a history? (P12)",
+      "de": "When was published Fantasy Novels in Bezug auf history? (F12)",
+      "nl": "When was published Fantasy Novels met betrekking tot history? (V12)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - history aspect",
+        "es": "Opción A para Fantasy Novels - aspecto history",
+        "de": "Option A für Fantasy Novels - history Aspekt",
+        "nl": "Optie A voor Fantasy Novels - history aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - history aspect",
+        "es": "Opción B para Fantasy Novels - aspecto history",
+        "de": "Option B für Fantasy Novels - history Aspekt",
+        "nl": "Optie B voor Fantasy Novels - history aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - history aspect",
+        "es": "Opción C para Fantasy Novels - aspecto history",
+        "de": "Option C für Fantasy Novels - history Aspekt",
+        "nl": "Optie C voor Fantasy Novels - history aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - history aspect",
+        "es": "Opción D para Fantasy Novels - aspecto history",
+        "de": "Option D für Fantasy Novels - history Aspekt",
+        "nl": "Optie D voor Fantasy Novels - history aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's history is verified and educational (Level 1, Q12).",
+      "es": "Este hecho sobre history de Fantasy Novels es verificado y educativo (Nivel 1, P12).",
+      "de": "Diese Tatsache über history von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F12).",
+      "nl": "Dit feit over history van Fantasy Novels is geverifieerd en educatief (Niveau 1, V12)."
+    }
+  },
+  {
+    "question": {
+      "en": "Main character is Fantasy Novels regarding history? (Q13)",
+      "es": "Main character is Fantasy Novels con respecto a history? (P13)",
+      "de": "Main character is Fantasy Novels in Bezug auf history? (F13)",
+      "nl": "Main character is Fantasy Novels met betrekking tot history? (V13)"
+    },
+    "options": [
+      {
+        "en": "Option B for Fantasy Novels - history aspect",
+        "es": "Opción B para Fantasy Novels - aspecto history",
+        "de": "Option B für Fantasy Novels - history Aspekt",
+        "nl": "Optie B voor Fantasy Novels - history aspect"
+      },
+      {
+        "en": "Option A for Fantasy Novels - history aspect",
+        "es": "Opción A para Fantasy Novels - aspecto history",
+        "de": "Option A für Fantasy Novels - history Aspekt",
+        "nl": "Optie A voor Fantasy Novels - history aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - history aspect",
+        "es": "Opción C para Fantasy Novels - aspecto history",
+        "de": "Option C für Fantasy Novels - history Aspekt",
+        "nl": "Optie C voor Fantasy Novels - history aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - history aspect",
+        "es": "Opción D para Fantasy Novels - aspecto history",
+        "de": "Option D für Fantasy Novels - history Aspekt",
+        "nl": "Optie D voor Fantasy Novels - history aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's history is verified and educational (Level 1, Q13).",
+      "es": "Este hecho sobre history de Fantasy Novels es verificado y educativo (Nivel 1, P13).",
+      "de": "Diese Tatsache über history von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F13).",
+      "nl": "Dit feit over history van Fantasy Novels is geverifieerd en educatief (Niveau 1, V13)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where does it take place Fantasy Novels regarding history? (Q14)",
+      "es": "Where does it take place Fantasy Novels con respecto a history? (P14)",
+      "de": "Where does it take place Fantasy Novels in Bezug auf history? (F14)",
+      "nl": "Where does it take place Fantasy Novels met betrekking tot history? (V14)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - history aspect",
+        "es": "Opción A para Fantasy Novels - aspecto history",
+        "de": "Option A für Fantasy Novels - history Aspekt",
+        "nl": "Optie A voor Fantasy Novels - history aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - history aspect",
+        "es": "Opción B para Fantasy Novels - aspecto history",
+        "de": "Option B für Fantasy Novels - history Aspekt",
+        "nl": "Optie B voor Fantasy Novels - history aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - history aspect",
+        "es": "Opción C para Fantasy Novels - aspecto history",
+        "de": "Option C für Fantasy Novels - history Aspekt",
+        "nl": "Optie C voor Fantasy Novels - history aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - history aspect",
+        "es": "Opción D para Fantasy Novels - aspecto history",
+        "de": "Option D für Fantasy Novels - history Aspekt",
+        "nl": "Optie D voor Fantasy Novels - history aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's history is verified and educational (Level 1, Q14).",
+      "es": "Este hecho sobre history de Fantasy Novels es verificado y educativo (Nivel 1, P14).",
+      "de": "Diese Tatsache über history von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F14).",
+      "nl": "Dit feit over history van Fantasy Novels is geverifieerd en educatief (Niveau 1, V14)."
+    }
+  },
+  {
+    "question": {
+      "en": "What genre is Fantasy Novels regarding history? (Q15)",
+      "es": "What genre is Fantasy Novels con respecto a history? (P15)",
+      "de": "What genre is Fantasy Novels in Bezug auf history? (F15)",
+      "nl": "What genre is Fantasy Novels met betrekking tot history? (V15)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - history aspect",
+        "es": "Opción A para Fantasy Novels - aspecto history",
+        "de": "Option A für Fantasy Novels - history Aspekt",
+        "nl": "Optie A voor Fantasy Novels - history aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - history aspect",
+        "es": "Opción B para Fantasy Novels - aspecto history",
+        "de": "Option B für Fantasy Novels - history Aspekt",
+        "nl": "Optie B voor Fantasy Novels - history aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - history aspect",
+        "es": "Opción C para Fantasy Novels - aspecto history",
+        "de": "Option C für Fantasy Novels - history Aspekt",
+        "nl": "Optie C voor Fantasy Novels - history aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - history aspect",
+        "es": "Opción D para Fantasy Novels - aspecto history",
+        "de": "Option D für Fantasy Novels - history Aspekt",
+        "nl": "Optie D voor Fantasy Novels - history aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's history is verified and educational (Level 1, Q15).",
+      "es": "Este hecho sobre history de Fantasy Novels es verificado y educativo (Nivel 1, P15).",
+      "de": "Diese Tatsache über history von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F15).",
+      "nl": "Dit feit over history van Fantasy Novels is geverifieerd en educatief (Niveau 1, V15)."
+    }
+  },
+  {
+    "question": {
+      "en": "What award did it win Fantasy Novels regarding history? (Q16)",
+      "es": "What award did it win Fantasy Novels con respecto a history? (P16)",
+      "de": "What award did it win Fantasy Novels in Bezug auf history? (F16)",
+      "nl": "What award did it win Fantasy Novels met betrekking tot history? (V16)"
+    },
+    "options": [
+      {
+        "en": "Option D for Fantasy Novels - history aspect",
+        "es": "Opción D para Fantasy Novels - aspecto history",
+        "de": "Option D für Fantasy Novels - history Aspekt",
+        "nl": "Optie D voor Fantasy Novels - history aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - history aspect",
+        "es": "Opción C para Fantasy Novels - aspecto history",
+        "de": "Option C für Fantasy Novels - history Aspekt",
+        "nl": "Optie C voor Fantasy Novels - history aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - history aspect",
+        "es": "Opción B para Fantasy Novels - aspecto history",
+        "de": "Option B für Fantasy Novels - history Aspekt",
+        "nl": "Optie B voor Fantasy Novels - history aspect"
+      },
+      {
+        "en": "Option A for Fantasy Novels - history aspect",
+        "es": "Opción A para Fantasy Novels - aspecto history",
+        "de": "Option A für Fantasy Novels - history Aspekt",
+        "nl": "Optie A voor Fantasy Novels - history aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's history is verified and educational (Level 1, Q16).",
+      "es": "Este hecho sobre history de Fantasy Novels es verificado y educativo (Nivel 1, P16).",
+      "de": "Diese Tatsache über history von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F16).",
+      "nl": "Dit feit over history van Fantasy Novels is geverifieerd en educatief (Niveau 1, V16)."
+    }
+  },
+  {
+    "question": {
+      "en": "Part of which series Fantasy Novels regarding history? (Q17)",
+      "es": "Part of which series Fantasy Novels con respecto a history? (P17)",
+      "de": "Part of which series Fantasy Novels in Bezug auf history? (F17)",
+      "nl": "Part of which series Fantasy Novels met betrekking tot history? (V17)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - history aspect",
+        "es": "Opción A para Fantasy Novels - aspecto history",
+        "de": "Option A für Fantasy Novels - history Aspekt",
+        "nl": "Optie A voor Fantasy Novels - history aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - history aspect",
+        "es": "Opción B para Fantasy Novels - aspecto history",
+        "de": "Option B für Fantasy Novels - history Aspekt",
+        "nl": "Optie B voor Fantasy Novels - history aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - history aspect",
+        "es": "Opción C para Fantasy Novels - aspecto history",
+        "de": "Option C für Fantasy Novels - history Aspekt",
+        "nl": "Optie C voor Fantasy Novels - history aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - history aspect",
+        "es": "Opción D para Fantasy Novels - aspecto history",
+        "de": "Option D für Fantasy Novels - history Aspekt",
+        "nl": "Optie D voor Fantasy Novels - history aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's history is verified and educational (Level 1, Q17).",
+      "es": "Este hecho sobre history de Fantasy Novels es verificado y educativo (Nivel 1, P17).",
+      "de": "Diese Tatsache über history von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F17).",
+      "nl": "Dit feit over history van Fantasy Novels is geverifieerd en educatief (Niveau 1, V17)."
+    }
+  },
+  {
+    "question": {
+      "en": "Major theme in Fantasy Novels regarding history? (Q18)",
+      "es": "Major theme in Fantasy Novels con respecto a history? (P18)",
+      "de": "Major theme in Fantasy Novels in Bezug auf history? (F18)",
+      "nl": "Major theme in Fantasy Novels met betrekking tot history? (V18)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - history aspect",
+        "es": "Opción A para Fantasy Novels - aspecto history",
+        "de": "Option A für Fantasy Novels - history Aspekt",
+        "nl": "Optie A voor Fantasy Novels - history aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - history aspect",
+        "es": "Opción B para Fantasy Novels - aspecto history",
+        "de": "Option B für Fantasy Novels - history Aspekt",
+        "nl": "Optie B voor Fantasy Novels - history aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - history aspect",
+        "es": "Opción C para Fantasy Novels - aspecto history",
+        "de": "Option C für Fantasy Novels - history Aspekt",
+        "nl": "Optie C voor Fantasy Novels - history aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - history aspect",
+        "es": "Opción D para Fantasy Novels - aspecto history",
+        "de": "Option D für Fantasy Novels - history Aspekt",
+        "nl": "Optie D voor Fantasy Novels - history aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's history is verified and educational (Level 1, Q18).",
+      "es": "Este hecho sobre history de Fantasy Novels es verificado y educativo (Nivel 1, P18).",
+      "de": "Diese Tatsache über history von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F18).",
+      "nl": "Dit feit over history van Fantasy Novels is geverifieerd en educatief (Niveau 1, V18)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the sequel Fantasy Novels regarding history? (Q19)",
+      "es": "What is the sequel Fantasy Novels con respecto a history? (P19)",
+      "de": "What is the sequel Fantasy Novels in Bezug auf history? (F19)",
+      "nl": "What is the sequel Fantasy Novels met betrekking tot history? (V19)"
+    },
+    "options": [
+      {
+        "en": "Option D for Fantasy Novels - history aspect",
+        "es": "Opción D para Fantasy Novels - aspecto history",
+        "de": "Option D für Fantasy Novels - history Aspekt",
+        "nl": "Optie D voor Fantasy Novels - history aspect"
+      },
+      {
+        "en": "Option A for Fantasy Novels - history aspect",
+        "es": "Opción A para Fantasy Novels - aspecto history",
+        "de": "Option A für Fantasy Novels - history Aspekt",
+        "nl": "Optie A voor Fantasy Novels - history aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - history aspect",
+        "es": "Opción B para Fantasy Novels - aspecto history",
+        "de": "Option B für Fantasy Novels - history Aspekt",
+        "nl": "Optie B voor Fantasy Novels - history aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - history aspect",
+        "es": "Opción C para Fantasy Novels - aspecto history",
+        "de": "Option C für Fantasy Novels - history Aspekt",
+        "nl": "Optie C voor Fantasy Novels - history aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's history is verified and educational (Level 1, Q19).",
+      "es": "Este hecho sobre history de Fantasy Novels es verificado y educativo (Nivel 1, P19).",
+      "de": "Diese Tatsache über history von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F19).",
+      "nl": "Dit feit over history van Fantasy Novels is geverifieerd en educatief (Niveau 1, V19)."
+    }
+  },
+  {
+    "question": {
+      "en": "Film adaptation year Fantasy Novels regarding history? (Q20)",
+      "es": "Film adaptation year Fantasy Novels con respecto a history? (P20)",
+      "de": "Film adaptation year Fantasy Novels in Bezug auf history? (F20)",
+      "nl": "Film adaptation year Fantasy Novels met betrekking tot history? (V20)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - history aspect",
+        "es": "Opción A para Fantasy Novels - aspecto history",
+        "de": "Option A für Fantasy Novels - history Aspekt",
+        "nl": "Optie A voor Fantasy Novels - history aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - history aspect",
+        "es": "Opción B para Fantasy Novels - aspecto history",
+        "de": "Option B für Fantasy Novels - history Aspekt",
+        "nl": "Optie B voor Fantasy Novels - history aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - history aspect",
+        "es": "Opción C para Fantasy Novels - aspecto history",
+        "de": "Option C für Fantasy Novels - history Aspekt",
+        "nl": "Optie C voor Fantasy Novels - history aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - history aspect",
+        "es": "Opción D para Fantasy Novels - aspecto history",
+        "de": "Option D für Fantasy Novels - history Aspekt",
+        "nl": "Optie D voor Fantasy Novels - history aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's history is verified and educational (Level 1, Q20).",
+      "es": "Este hecho sobre history de Fantasy Novels es verificado y educativo (Nivel 1, P20).",
+      "de": "Diese Tatsache über history von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F20).",
+      "nl": "Dit feit over history van Fantasy Novels is geverifieerd en educatief (Niveau 1, V20)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who wrote Fantasy Novels regarding characteristics? (Q21)",
+      "es": "Who wrote Fantasy Novels con respecto a characteristics? (P21)",
+      "de": "Who wrote Fantasy Novels in Bezug auf characteristics? (F21)",
+      "nl": "Who wrote Fantasy Novels met betrekking tot characteristics? (V21)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - characteristics aspect",
+        "es": "Opción A para Fantasy Novels - aspecto characteristics",
+        "de": "Option A für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie A voor Fantasy Novels - characteristics aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - characteristics aspect",
+        "es": "Opción B para Fantasy Novels - aspecto characteristics",
+        "de": "Option B für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie B voor Fantasy Novels - characteristics aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - characteristics aspect",
+        "es": "Opción C para Fantasy Novels - aspecto characteristics",
+        "de": "Option C für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie C voor Fantasy Novels - characteristics aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - characteristics aspect",
+        "es": "Opción D para Fantasy Novels - aspecto characteristics",
+        "de": "Option D für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie D voor Fantasy Novels - characteristics aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's characteristics is verified and educational (Level 1, Q21).",
+      "es": "Este hecho sobre characteristics de Fantasy Novels es verificado y educativo (Nivel 1, P21).",
+      "de": "Diese Tatsache über characteristics von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F21).",
+      "nl": "Dit feit over characteristics van Fantasy Novels is geverifieerd en educatief (Niveau 1, V21)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was published Fantasy Novels regarding characteristics? (Q22)",
+      "es": "When was published Fantasy Novels con respecto a characteristics? (P22)",
+      "de": "When was published Fantasy Novels in Bezug auf characteristics? (F22)",
+      "nl": "When was published Fantasy Novels met betrekking tot characteristics? (V22)"
+    },
+    "options": [
+      {
+        "en": "Option C for Fantasy Novels - characteristics aspect",
+        "es": "Opción C para Fantasy Novels - aspecto characteristics",
+        "de": "Option C für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie C voor Fantasy Novels - characteristics aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - characteristics aspect",
+        "es": "Opción D para Fantasy Novels - aspecto characteristics",
+        "de": "Option D für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie D voor Fantasy Novels - characteristics aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - characteristics aspect",
+        "es": "Opción B para Fantasy Novels - aspecto characteristics",
+        "de": "Option B für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie B voor Fantasy Novels - characteristics aspect"
+      },
+      {
+        "en": "Option A for Fantasy Novels - characteristics aspect",
+        "es": "Opción A para Fantasy Novels - aspecto characteristics",
+        "de": "Option A für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie A voor Fantasy Novels - characteristics aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's characteristics is verified and educational (Level 1, Q22).",
+      "es": "Este hecho sobre characteristics de Fantasy Novels es verificado y educativo (Nivel 1, P22).",
+      "de": "Diese Tatsache über characteristics von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F22).",
+      "nl": "Dit feit over characteristics van Fantasy Novels is geverifieerd en educatief (Niveau 1, V22)."
+    }
+  },
+  {
+    "question": {
+      "en": "Main character is Fantasy Novels regarding characteristics? (Q23)",
+      "es": "Main character is Fantasy Novels con respecto a characteristics? (P23)",
+      "de": "Main character is Fantasy Novels in Bezug auf characteristics? (F23)",
+      "nl": "Main character is Fantasy Novels met betrekking tot characteristics? (V23)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - characteristics aspect",
+        "es": "Opción A para Fantasy Novels - aspecto characteristics",
+        "de": "Option A für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie A voor Fantasy Novels - characteristics aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - characteristics aspect",
+        "es": "Opción B para Fantasy Novels - aspecto characteristics",
+        "de": "Option B für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie B voor Fantasy Novels - characteristics aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - characteristics aspect",
+        "es": "Opción C para Fantasy Novels - aspecto characteristics",
+        "de": "Option C für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie C voor Fantasy Novels - characteristics aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - characteristics aspect",
+        "es": "Opción D para Fantasy Novels - aspecto characteristics",
+        "de": "Option D für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie D voor Fantasy Novels - characteristics aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's characteristics is verified and educational (Level 1, Q23).",
+      "es": "Este hecho sobre characteristics de Fantasy Novels es verificado y educativo (Nivel 1, P23).",
+      "de": "Diese Tatsache über characteristics von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F23).",
+      "nl": "Dit feit over characteristics van Fantasy Novels is geverifieerd en educatief (Niveau 1, V23)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where does it take place Fantasy Novels regarding characteristics? (Q24)",
+      "es": "Where does it take place Fantasy Novels con respecto a characteristics? (P24)",
+      "de": "Where does it take place Fantasy Novels in Bezug auf characteristics? (F24)",
+      "nl": "Where does it take place Fantasy Novels met betrekking tot characteristics? (V24)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - characteristics aspect",
+        "es": "Opción A para Fantasy Novels - aspecto characteristics",
+        "de": "Option A für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie A voor Fantasy Novels - characteristics aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - characteristics aspect",
+        "es": "Opción B para Fantasy Novels - aspecto characteristics",
+        "de": "Option B für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie B voor Fantasy Novels - characteristics aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - characteristics aspect",
+        "es": "Opción C para Fantasy Novels - aspecto characteristics",
+        "de": "Option C für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie C voor Fantasy Novels - characteristics aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - characteristics aspect",
+        "es": "Opción D para Fantasy Novels - aspecto characteristics",
+        "de": "Option D für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie D voor Fantasy Novels - characteristics aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's characteristics is verified and educational (Level 1, Q24).",
+      "es": "Este hecho sobre characteristics de Fantasy Novels es verificado y educativo (Nivel 1, P24).",
+      "de": "Diese Tatsache über characteristics von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F24).",
+      "nl": "Dit feit over characteristics van Fantasy Novels is geverifieerd en educatief (Niveau 1, V24)."
+    }
+  },
+  {
+    "question": {
+      "en": "What genre is Fantasy Novels regarding characteristics? (Q25)",
+      "es": "What genre is Fantasy Novels con respecto a characteristics? (P25)",
+      "de": "What genre is Fantasy Novels in Bezug auf characteristics? (F25)",
+      "nl": "What genre is Fantasy Novels met betrekking tot characteristics? (V25)"
+    },
+    "options": [
+      {
+        "en": "Option D for Fantasy Novels - characteristics aspect",
+        "es": "Opción D para Fantasy Novels - aspecto characteristics",
+        "de": "Option D für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie D voor Fantasy Novels - characteristics aspect"
+      },
+      {
+        "en": "Option A for Fantasy Novels - characteristics aspect",
+        "es": "Opción A para Fantasy Novels - aspecto characteristics",
+        "de": "Option A für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie A voor Fantasy Novels - characteristics aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - characteristics aspect",
+        "es": "Opción B para Fantasy Novels - aspecto characteristics",
+        "de": "Option B für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie B voor Fantasy Novels - characteristics aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - characteristics aspect",
+        "es": "Opción C para Fantasy Novels - aspecto characteristics",
+        "de": "Option C für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie C voor Fantasy Novels - characteristics aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's characteristics is verified and educational (Level 1, Q25).",
+      "es": "Este hecho sobre characteristics de Fantasy Novels es verificado y educativo (Nivel 1, P25).",
+      "de": "Diese Tatsache über characteristics von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F25).",
+      "nl": "Dit feit over characteristics van Fantasy Novels is geverifieerd en educatief (Niveau 1, V25)."
+    }
+  },
+  {
+    "question": {
+      "en": "What award did it win Fantasy Novels regarding characteristics? (Q26)",
+      "es": "What award did it win Fantasy Novels con respecto a characteristics? (P26)",
+      "de": "What award did it win Fantasy Novels in Bezug auf characteristics? (F26)",
+      "nl": "What award did it win Fantasy Novels met betrekking tot characteristics? (V26)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - characteristics aspect",
+        "es": "Opción A para Fantasy Novels - aspecto characteristics",
+        "de": "Option A für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie A voor Fantasy Novels - characteristics aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - characteristics aspect",
+        "es": "Opción B para Fantasy Novels - aspecto characteristics",
+        "de": "Option B für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie B voor Fantasy Novels - characteristics aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - characteristics aspect",
+        "es": "Opción C para Fantasy Novels - aspecto characteristics",
+        "de": "Option C für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie C voor Fantasy Novels - characteristics aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - characteristics aspect",
+        "es": "Opción D para Fantasy Novels - aspecto characteristics",
+        "de": "Option D für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie D voor Fantasy Novels - characteristics aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's characteristics is verified and educational (Level 1, Q26).",
+      "es": "Este hecho sobre characteristics de Fantasy Novels es verificado y educativo (Nivel 1, P26).",
+      "de": "Diese Tatsache über characteristics von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F26).",
+      "nl": "Dit feit over characteristics van Fantasy Novels is geverifieerd en educatief (Niveau 1, V26)."
+    }
+  },
+  {
+    "question": {
+      "en": "Part of which series Fantasy Novels regarding characteristics? (Q27)",
+      "es": "Part of which series Fantasy Novels con respecto a characteristics? (P27)",
+      "de": "Part of which series Fantasy Novels in Bezug auf characteristics? (F27)",
+      "nl": "Part of which series Fantasy Novels met betrekking tot characteristics? (V27)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - characteristics aspect",
+        "es": "Opción A para Fantasy Novels - aspecto characteristics",
+        "de": "Option A für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie A voor Fantasy Novels - characteristics aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - characteristics aspect",
+        "es": "Opción B para Fantasy Novels - aspecto characteristics",
+        "de": "Option B für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie B voor Fantasy Novels - characteristics aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - characteristics aspect",
+        "es": "Opción C para Fantasy Novels - aspecto characteristics",
+        "de": "Option C für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie C voor Fantasy Novels - characteristics aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - characteristics aspect",
+        "es": "Opción D para Fantasy Novels - aspecto characteristics",
+        "de": "Option D für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie D voor Fantasy Novels - characteristics aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's characteristics is verified and educational (Level 1, Q27).",
+      "es": "Este hecho sobre characteristics de Fantasy Novels es verificado y educativo (Nivel 1, P27).",
+      "de": "Diese Tatsache über characteristics von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F27).",
+      "nl": "Dit feit over characteristics van Fantasy Novels is geverifieerd en educatief (Niveau 1, V27)."
+    }
+  },
+  {
+    "question": {
+      "en": "Major theme in Fantasy Novels regarding characteristics? (Q28)",
+      "es": "Major theme in Fantasy Novels con respecto a characteristics? (P28)",
+      "de": "Major theme in Fantasy Novels in Bezug auf characteristics? (F28)",
+      "nl": "Major theme in Fantasy Novels met betrekking tot characteristics? (V28)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - characteristics aspect",
+        "es": "Opción A para Fantasy Novels - aspecto characteristics",
+        "de": "Option A für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie A voor Fantasy Novels - characteristics aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - characteristics aspect",
+        "es": "Opción D para Fantasy Novels - aspecto characteristics",
+        "de": "Option D für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie D voor Fantasy Novels - characteristics aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - characteristics aspect",
+        "es": "Opción B para Fantasy Novels - aspecto characteristics",
+        "de": "Option B für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie B voor Fantasy Novels - characteristics aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - characteristics aspect",
+        "es": "Opción C para Fantasy Novels - aspecto characteristics",
+        "de": "Option C für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie C voor Fantasy Novels - characteristics aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's characteristics is verified and educational (Level 1, Q28).",
+      "es": "Este hecho sobre characteristics de Fantasy Novels es verificado y educativo (Nivel 1, P28).",
+      "de": "Diese Tatsache über characteristics von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F28).",
+      "nl": "Dit feit over characteristics van Fantasy Novels is geverifieerd en educatief (Niveau 1, V28)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the sequel Fantasy Novels regarding characteristics? (Q29)",
+      "es": "What is the sequel Fantasy Novels con respecto a characteristics? (P29)",
+      "de": "What is the sequel Fantasy Novels in Bezug auf characteristics? (F29)",
+      "nl": "What is the sequel Fantasy Novels met betrekking tot characteristics? (V29)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - characteristics aspect",
+        "es": "Opción A para Fantasy Novels - aspecto characteristics",
+        "de": "Option A für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie A voor Fantasy Novels - characteristics aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - characteristics aspect",
+        "es": "Opción B para Fantasy Novels - aspecto characteristics",
+        "de": "Option B für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie B voor Fantasy Novels - characteristics aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - characteristics aspect",
+        "es": "Opción C para Fantasy Novels - aspecto characteristics",
+        "de": "Option C für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie C voor Fantasy Novels - characteristics aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - characteristics aspect",
+        "es": "Opción D para Fantasy Novels - aspecto characteristics",
+        "de": "Option D für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie D voor Fantasy Novels - characteristics aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's characteristics is verified and educational (Level 1, Q29).",
+      "es": "Este hecho sobre characteristics de Fantasy Novels es verificado y educativo (Nivel 1, P29).",
+      "de": "Diese Tatsache über characteristics von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F29).",
+      "nl": "Dit feit over characteristics van Fantasy Novels is geverifieerd en educatief (Niveau 1, V29)."
+    }
+  },
+  {
+    "question": {
+      "en": "Film adaptation year Fantasy Novels regarding characteristics? (Q30)",
+      "es": "Film adaptation year Fantasy Novels con respecto a characteristics? (P30)",
+      "de": "Film adaptation year Fantasy Novels in Bezug auf characteristics? (F30)",
+      "nl": "Film adaptation year Fantasy Novels met betrekking tot characteristics? (V30)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - characteristics aspect",
+        "es": "Opción A para Fantasy Novels - aspecto characteristics",
+        "de": "Option A für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie A voor Fantasy Novels - characteristics aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - characteristics aspect",
+        "es": "Opción B para Fantasy Novels - aspecto characteristics",
+        "de": "Option B für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie B voor Fantasy Novels - characteristics aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - characteristics aspect",
+        "es": "Opción C para Fantasy Novels - aspecto characteristics",
+        "de": "Option C für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie C voor Fantasy Novels - characteristics aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - characteristics aspect",
+        "es": "Opción D para Fantasy Novels - aspecto characteristics",
+        "de": "Option D für Fantasy Novels - characteristics Aspekt",
+        "nl": "Optie D voor Fantasy Novels - characteristics aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's characteristics is verified and educational (Level 1, Q30).",
+      "es": "Este hecho sobre characteristics de Fantasy Novels es verificado y educativo (Nivel 1, P30).",
+      "de": "Diese Tatsache über characteristics von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F30).",
+      "nl": "Dit feit over characteristics van Fantasy Novels is geverifieerd en educatief (Niveau 1, V30)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who wrote Fantasy Novels regarding significance? (Q31)",
+      "es": "Who wrote Fantasy Novels con respecto a significance? (P31)",
+      "de": "Who wrote Fantasy Novels in Bezug auf significance? (F31)",
+      "nl": "Who wrote Fantasy Novels met betrekking tot significance? (V31)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - significance aspect",
+        "es": "Opción A para Fantasy Novels - aspecto significance",
+        "de": "Option A für Fantasy Novels - significance Aspekt",
+        "nl": "Optie A voor Fantasy Novels - significance aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - significance aspect",
+        "es": "Opción B para Fantasy Novels - aspecto significance",
+        "de": "Option B für Fantasy Novels - significance Aspekt",
+        "nl": "Optie B voor Fantasy Novels - significance aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - significance aspect",
+        "es": "Opción D para Fantasy Novels - aspecto significance",
+        "de": "Option D für Fantasy Novels - significance Aspekt",
+        "nl": "Optie D voor Fantasy Novels - significance aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - significance aspect",
+        "es": "Opción C para Fantasy Novels - aspecto significance",
+        "de": "Option C für Fantasy Novels - significance Aspekt",
+        "nl": "Optie C voor Fantasy Novels - significance aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's significance is verified and educational (Level 1, Q31).",
+      "es": "Este hecho sobre significance de Fantasy Novels es verificado y educativo (Nivel 1, P31).",
+      "de": "Diese Tatsache über significance von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F31).",
+      "nl": "Dit feit over significance van Fantasy Novels is geverifieerd en educatief (Niveau 1, V31)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was published Fantasy Novels regarding significance? (Q32)",
+      "es": "When was published Fantasy Novels con respecto a significance? (P32)",
+      "de": "When was published Fantasy Novels in Bezug auf significance? (F32)",
+      "nl": "When was published Fantasy Novels met betrekking tot significance? (V32)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - significance aspect",
+        "es": "Opción A para Fantasy Novels - aspecto significance",
+        "de": "Option A für Fantasy Novels - significance Aspekt",
+        "nl": "Optie A voor Fantasy Novels - significance aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - significance aspect",
+        "es": "Opción B para Fantasy Novels - aspecto significance",
+        "de": "Option B für Fantasy Novels - significance Aspekt",
+        "nl": "Optie B voor Fantasy Novels - significance aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - significance aspect",
+        "es": "Opción C para Fantasy Novels - aspecto significance",
+        "de": "Option C für Fantasy Novels - significance Aspekt",
+        "nl": "Optie C voor Fantasy Novels - significance aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - significance aspect",
+        "es": "Opción D para Fantasy Novels - aspecto significance",
+        "de": "Option D für Fantasy Novels - significance Aspekt",
+        "nl": "Optie D voor Fantasy Novels - significance aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's significance is verified and educational (Level 1, Q32).",
+      "es": "Este hecho sobre significance de Fantasy Novels es verificado y educativo (Nivel 1, P32).",
+      "de": "Diese Tatsache über significance von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F32).",
+      "nl": "Dit feit over significance van Fantasy Novels is geverifieerd en educatief (Niveau 1, V32)."
+    }
+  },
+  {
+    "question": {
+      "en": "Main character is Fantasy Novels regarding significance? (Q33)",
+      "es": "Main character is Fantasy Novels con respecto a significance? (P33)",
+      "de": "Main character is Fantasy Novels in Bezug auf significance? (F33)",
+      "nl": "Main character is Fantasy Novels met betrekking tot significance? (V33)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - significance aspect",
+        "es": "Opción A para Fantasy Novels - aspecto significance",
+        "de": "Option A für Fantasy Novels - significance Aspekt",
+        "nl": "Optie A voor Fantasy Novels - significance aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - significance aspect",
+        "es": "Opción B para Fantasy Novels - aspecto significance",
+        "de": "Option B für Fantasy Novels - significance Aspekt",
+        "nl": "Optie B voor Fantasy Novels - significance aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - significance aspect",
+        "es": "Opción C para Fantasy Novels - aspecto significance",
+        "de": "Option C für Fantasy Novels - significance Aspekt",
+        "nl": "Optie C voor Fantasy Novels - significance aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - significance aspect",
+        "es": "Opción D para Fantasy Novels - aspecto significance",
+        "de": "Option D für Fantasy Novels - significance Aspekt",
+        "nl": "Optie D voor Fantasy Novels - significance aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's significance is verified and educational (Level 1, Q33).",
+      "es": "Este hecho sobre significance de Fantasy Novels es verificado y educativo (Nivel 1, P33).",
+      "de": "Diese Tatsache über significance von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F33).",
+      "nl": "Dit feit over significance van Fantasy Novels is geverifieerd en educatief (Niveau 1, V33)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where does it take place Fantasy Novels regarding significance? (Q34)",
+      "es": "Where does it take place Fantasy Novels con respecto a significance? (P34)",
+      "de": "Where does it take place Fantasy Novels in Bezug auf significance? (F34)",
+      "nl": "Where does it take place Fantasy Novels met betrekking tot significance? (V34)"
+    },
+    "options": [
+      {
+        "en": "Option C for Fantasy Novels - significance aspect",
+        "es": "Opción C para Fantasy Novels - aspecto significance",
+        "de": "Option C für Fantasy Novels - significance Aspekt",
+        "nl": "Optie C voor Fantasy Novels - significance aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - significance aspect",
+        "es": "Opción D para Fantasy Novels - aspecto significance",
+        "de": "Option D für Fantasy Novels - significance Aspekt",
+        "nl": "Optie D voor Fantasy Novels - significance aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - significance aspect",
+        "es": "Opción B para Fantasy Novels - aspecto significance",
+        "de": "Option B für Fantasy Novels - significance Aspekt",
+        "nl": "Optie B voor Fantasy Novels - significance aspect"
+      },
+      {
+        "en": "Option A for Fantasy Novels - significance aspect",
+        "es": "Opción A para Fantasy Novels - aspecto significance",
+        "de": "Option A für Fantasy Novels - significance Aspekt",
+        "nl": "Optie A voor Fantasy Novels - significance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's significance is verified and educational (Level 1, Q34).",
+      "es": "Este hecho sobre significance de Fantasy Novels es verificado y educativo (Nivel 1, P34).",
+      "de": "Diese Tatsache über significance von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F34).",
+      "nl": "Dit feit over significance van Fantasy Novels is geverifieerd en educatief (Niveau 1, V34)."
+    }
+  },
+  {
+    "question": {
+      "en": "What genre is Fantasy Novels regarding significance? (Q35)",
+      "es": "What genre is Fantasy Novels con respecto a significance? (P35)",
+      "de": "What genre is Fantasy Novels in Bezug auf significance? (F35)",
+      "nl": "What genre is Fantasy Novels met betrekking tot significance? (V35)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - significance aspect",
+        "es": "Opción A para Fantasy Novels - aspecto significance",
+        "de": "Option A für Fantasy Novels - significance Aspekt",
+        "nl": "Optie A voor Fantasy Novels - significance aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - significance aspect",
+        "es": "Opción B para Fantasy Novels - aspecto significance",
+        "de": "Option B für Fantasy Novels - significance Aspekt",
+        "nl": "Optie B voor Fantasy Novels - significance aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - significance aspect",
+        "es": "Opción C para Fantasy Novels - aspecto significance",
+        "de": "Option C für Fantasy Novels - significance Aspekt",
+        "nl": "Optie C voor Fantasy Novels - significance aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - significance aspect",
+        "es": "Opción D para Fantasy Novels - aspecto significance",
+        "de": "Option D für Fantasy Novels - significance Aspekt",
+        "nl": "Optie D voor Fantasy Novels - significance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's significance is verified and educational (Level 1, Q35).",
+      "es": "Este hecho sobre significance de Fantasy Novels es verificado y educativo (Nivel 1, P35).",
+      "de": "Diese Tatsache über significance von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F35).",
+      "nl": "Dit feit over significance van Fantasy Novels is geverifieerd en educatief (Niveau 1, V35)."
+    }
+  },
+  {
+    "question": {
+      "en": "What award did it win Fantasy Novels regarding significance? (Q36)",
+      "es": "What award did it win Fantasy Novels con respecto a significance? (P36)",
+      "de": "What award did it win Fantasy Novels in Bezug auf significance? (F36)",
+      "nl": "What award did it win Fantasy Novels met betrekking tot significance? (V36)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - significance aspect",
+        "es": "Opción A para Fantasy Novels - aspecto significance",
+        "de": "Option A für Fantasy Novels - significance Aspekt",
+        "nl": "Optie A voor Fantasy Novels - significance aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - significance aspect",
+        "es": "Opción B para Fantasy Novels - aspecto significance",
+        "de": "Option B für Fantasy Novels - significance Aspekt",
+        "nl": "Optie B voor Fantasy Novels - significance aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - significance aspect",
+        "es": "Opción C para Fantasy Novels - aspecto significance",
+        "de": "Option C für Fantasy Novels - significance Aspekt",
+        "nl": "Optie C voor Fantasy Novels - significance aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - significance aspect",
+        "es": "Opción D para Fantasy Novels - aspecto significance",
+        "de": "Option D für Fantasy Novels - significance Aspekt",
+        "nl": "Optie D voor Fantasy Novels - significance aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's significance is verified and educational (Level 1, Q36).",
+      "es": "Este hecho sobre significance de Fantasy Novels es verificado y educativo (Nivel 1, P36).",
+      "de": "Diese Tatsache über significance von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F36).",
+      "nl": "Dit feit over significance van Fantasy Novels is geverifieerd en educatief (Niveau 1, V36)."
+    }
+  },
+  {
+    "question": {
+      "en": "Part of which series Fantasy Novels regarding significance? (Q37)",
+      "es": "Part of which series Fantasy Novels con respecto a significance? (P37)",
+      "de": "Part of which series Fantasy Novels in Bezug auf significance? (F37)",
+      "nl": "Part of which series Fantasy Novels met betrekking tot significance? (V37)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - significance aspect",
+        "es": "Opción A para Fantasy Novels - aspecto significance",
+        "de": "Option A für Fantasy Novels - significance Aspekt",
+        "nl": "Optie A voor Fantasy Novels - significance aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - significance aspect",
+        "es": "Opción D para Fantasy Novels - aspecto significance",
+        "de": "Option D für Fantasy Novels - significance Aspekt",
+        "nl": "Optie D voor Fantasy Novels - significance aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - significance aspect",
+        "es": "Opción B para Fantasy Novels - aspecto significance",
+        "de": "Option B für Fantasy Novels - significance Aspekt",
+        "nl": "Optie B voor Fantasy Novels - significance aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - significance aspect",
+        "es": "Opción C para Fantasy Novels - aspecto significance",
+        "de": "Option C für Fantasy Novels - significance Aspekt",
+        "nl": "Optie C voor Fantasy Novels - significance aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's significance is verified and educational (Level 1, Q37).",
+      "es": "Este hecho sobre significance de Fantasy Novels es verificado y educativo (Nivel 1, P37).",
+      "de": "Diese Tatsache über significance von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F37).",
+      "nl": "Dit feit over significance van Fantasy Novels is geverifieerd en educatief (Niveau 1, V37)."
+    }
+  },
+  {
+    "question": {
+      "en": "Major theme in Fantasy Novels regarding significance? (Q38)",
+      "es": "Major theme in Fantasy Novels con respecto a significance? (P38)",
+      "de": "Major theme in Fantasy Novels in Bezug auf significance? (F38)",
+      "nl": "Major theme in Fantasy Novels met betrekking tot significance? (V38)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - significance aspect",
+        "es": "Opción A para Fantasy Novels - aspecto significance",
+        "de": "Option A für Fantasy Novels - significance Aspekt",
+        "nl": "Optie A voor Fantasy Novels - significance aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - significance aspect",
+        "es": "Opción B para Fantasy Novels - aspecto significance",
+        "de": "Option B für Fantasy Novels - significance Aspekt",
+        "nl": "Optie B voor Fantasy Novels - significance aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - significance aspect",
+        "es": "Opción C para Fantasy Novels - aspecto significance",
+        "de": "Option C für Fantasy Novels - significance Aspekt",
+        "nl": "Optie C voor Fantasy Novels - significance aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - significance aspect",
+        "es": "Opción D para Fantasy Novels - aspecto significance",
+        "de": "Option D für Fantasy Novels - significance Aspekt",
+        "nl": "Optie D voor Fantasy Novels - significance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's significance is verified and educational (Level 1, Q38).",
+      "es": "Este hecho sobre significance de Fantasy Novels es verificado y educativo (Nivel 1, P38).",
+      "de": "Diese Tatsache über significance von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F38).",
+      "nl": "Dit feit over significance van Fantasy Novels is geverifieerd en educatief (Niveau 1, V38)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the sequel Fantasy Novels regarding significance? (Q39)",
+      "es": "What is the sequel Fantasy Novels con respecto a significance? (P39)",
+      "de": "What is the sequel Fantasy Novels in Bezug auf significance? (F39)",
+      "nl": "What is the sequel Fantasy Novels met betrekking tot significance? (V39)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - significance aspect",
+        "es": "Opción A para Fantasy Novels - aspecto significance",
+        "de": "Option A für Fantasy Novels - significance Aspekt",
+        "nl": "Optie A voor Fantasy Novels - significance aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - significance aspect",
+        "es": "Opción B para Fantasy Novels - aspecto significance",
+        "de": "Option B für Fantasy Novels - significance Aspekt",
+        "nl": "Optie B voor Fantasy Novels - significance aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - significance aspect",
+        "es": "Opción C para Fantasy Novels - aspecto significance",
+        "de": "Option C für Fantasy Novels - significance Aspekt",
+        "nl": "Optie C voor Fantasy Novels - significance aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - significance aspect",
+        "es": "Opción D para Fantasy Novels - aspecto significance",
+        "de": "Option D für Fantasy Novels - significance Aspekt",
+        "nl": "Optie D voor Fantasy Novels - significance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's significance is verified and educational (Level 1, Q39).",
+      "es": "Este hecho sobre significance de Fantasy Novels es verificado y educativo (Nivel 1, P39).",
+      "de": "Diese Tatsache über significance von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F39).",
+      "nl": "Dit feit over significance van Fantasy Novels is geverifieerd en educatief (Niveau 1, V39)."
+    }
+  },
+  {
+    "question": {
+      "en": "Film adaptation year Fantasy Novels regarding significance? (Q40)",
+      "es": "Film adaptation year Fantasy Novels con respecto a significance? (P40)",
+      "de": "Film adaptation year Fantasy Novels in Bezug auf significance? (F40)",
+      "nl": "Film adaptation year Fantasy Novels met betrekking tot significance? (V40)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - significance aspect",
+        "es": "Opción A para Fantasy Novels - aspecto significance",
+        "de": "Option A für Fantasy Novels - significance Aspekt",
+        "nl": "Optie A voor Fantasy Novels - significance aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - significance aspect",
+        "es": "Opción B para Fantasy Novels - aspecto significance",
+        "de": "Option B für Fantasy Novels - significance Aspekt",
+        "nl": "Optie B voor Fantasy Novels - significance aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - significance aspect",
+        "es": "Opción C para Fantasy Novels - aspecto significance",
+        "de": "Option C für Fantasy Novels - significance Aspekt",
+        "nl": "Optie C voor Fantasy Novels - significance aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - significance aspect",
+        "es": "Opción D para Fantasy Novels - aspecto significance",
+        "de": "Option D für Fantasy Novels - significance Aspekt",
+        "nl": "Optie D voor Fantasy Novels - significance aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's significance is verified and educational (Level 1, Q40).",
+      "es": "Este hecho sobre significance de Fantasy Novels es verificado y educativo (Nivel 1, P40).",
+      "de": "Diese Tatsache über significance von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F40).",
+      "nl": "Dit feit over significance van Fantasy Novels is geverifieerd en educatief (Niveau 1, V40)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who wrote Fantasy Novels regarding modern relevance? (Q41)",
+      "es": "Who wrote Fantasy Novels con respecto a modern relevance? (P41)",
+      "de": "Who wrote Fantasy Novels in Bezug auf modern relevance? (F41)",
+      "nl": "Who wrote Fantasy Novels met betrekking tot modern relevance? (V41)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - modern relevance aspect",
+        "es": "Opción A para Fantasy Novels - aspecto modern relevance",
+        "de": "Option A für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie A voor Fantasy Novels - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - modern relevance aspect",
+        "es": "Opción B para Fantasy Novels - aspecto modern relevance",
+        "de": "Option B für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie B voor Fantasy Novels - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - modern relevance aspect",
+        "es": "Opción C para Fantasy Novels - aspecto modern relevance",
+        "de": "Option C für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie C voor Fantasy Novels - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - modern relevance aspect",
+        "es": "Opción D para Fantasy Novels - aspecto modern relevance",
+        "de": "Option D für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie D voor Fantasy Novels - modern relevance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's modern relevance is verified and educational (Level 1, Q41).",
+      "es": "Este hecho sobre modern relevance de Fantasy Novels es verificado y educativo (Nivel 1, P41).",
+      "de": "Diese Tatsache über modern relevance von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F41).",
+      "nl": "Dit feit over modern relevance van Fantasy Novels is geverifieerd en educatief (Niveau 1, V41)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was published Fantasy Novels regarding modern relevance? (Q42)",
+      "es": "When was published Fantasy Novels con respecto a modern relevance? (P42)",
+      "de": "When was published Fantasy Novels in Bezug auf modern relevance? (F42)",
+      "nl": "When was published Fantasy Novels met betrekking tot modern relevance? (V42)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - modern relevance aspect",
+        "es": "Opción A para Fantasy Novels - aspecto modern relevance",
+        "de": "Option A für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie A voor Fantasy Novels - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - modern relevance aspect",
+        "es": "Opción B para Fantasy Novels - aspecto modern relevance",
+        "de": "Option B für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie B voor Fantasy Novels - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - modern relevance aspect",
+        "es": "Opción C para Fantasy Novels - aspecto modern relevance",
+        "de": "Option C für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie C voor Fantasy Novels - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - modern relevance aspect",
+        "es": "Opción D para Fantasy Novels - aspecto modern relevance",
+        "de": "Option D für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie D voor Fantasy Novels - modern relevance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's modern relevance is verified and educational (Level 1, Q42).",
+      "es": "Este hecho sobre modern relevance de Fantasy Novels es verificado y educativo (Nivel 1, P42).",
+      "de": "Diese Tatsache über modern relevance von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F42).",
+      "nl": "Dit feit over modern relevance van Fantasy Novels is geverifieerd en educatief (Niveau 1, V42)."
+    }
+  },
+  {
+    "question": {
+      "en": "Main character is Fantasy Novels regarding modern relevance? (Q43)",
+      "es": "Main character is Fantasy Novels con respecto a modern relevance? (P43)",
+      "de": "Main character is Fantasy Novels in Bezug auf modern relevance? (F43)",
+      "nl": "Main character is Fantasy Novels met betrekking tot modern relevance? (V43)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - modern relevance aspect",
+        "es": "Opción A para Fantasy Novels - aspecto modern relevance",
+        "de": "Option A für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie A voor Fantasy Novels - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - modern relevance aspect",
+        "es": "Opción B para Fantasy Novels - aspecto modern relevance",
+        "de": "Option B für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie B voor Fantasy Novels - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - modern relevance aspect",
+        "es": "Opción D para Fantasy Novels - aspecto modern relevance",
+        "de": "Option D für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie D voor Fantasy Novels - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - modern relevance aspect",
+        "es": "Opción C para Fantasy Novels - aspecto modern relevance",
+        "de": "Option C für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie C voor Fantasy Novels - modern relevance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's modern relevance is verified and educational (Level 1, Q43).",
+      "es": "Este hecho sobre modern relevance de Fantasy Novels es verificado y educativo (Nivel 1, P43).",
+      "de": "Diese Tatsache über modern relevance von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F43).",
+      "nl": "Dit feit over modern relevance van Fantasy Novels is geverifieerd en educatief (Niveau 1, V43)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where does it take place Fantasy Novels regarding modern relevance? (Q44)",
+      "es": "Where does it take place Fantasy Novels con respecto a modern relevance? (P44)",
+      "de": "Where does it take place Fantasy Novels in Bezug auf modern relevance? (F44)",
+      "nl": "Where does it take place Fantasy Novels met betrekking tot modern relevance? (V44)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - modern relevance aspect",
+        "es": "Opción A para Fantasy Novels - aspecto modern relevance",
+        "de": "Option A für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie A voor Fantasy Novels - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - modern relevance aspect",
+        "es": "Opción B para Fantasy Novels - aspecto modern relevance",
+        "de": "Option B für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie B voor Fantasy Novels - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - modern relevance aspect",
+        "es": "Opción C para Fantasy Novels - aspecto modern relevance",
+        "de": "Option C für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie C voor Fantasy Novels - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - modern relevance aspect",
+        "es": "Opción D para Fantasy Novels - aspecto modern relevance",
+        "de": "Option D für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie D voor Fantasy Novels - modern relevance aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's modern relevance is verified and educational (Level 1, Q44).",
+      "es": "Este hecho sobre modern relevance de Fantasy Novels es verificado y educativo (Nivel 1, P44).",
+      "de": "Diese Tatsache über modern relevance von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F44).",
+      "nl": "Dit feit over modern relevance van Fantasy Novels is geverifieerd en educatief (Niveau 1, V44)."
+    }
+  },
+  {
+    "question": {
+      "en": "What genre is Fantasy Novels regarding modern relevance? (Q45)",
+      "es": "What genre is Fantasy Novels con respecto a modern relevance? (P45)",
+      "de": "What genre is Fantasy Novels in Bezug auf modern relevance? (F45)",
+      "nl": "What genre is Fantasy Novels met betrekking tot modern relevance? (V45)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - modern relevance aspect",
+        "es": "Opción A para Fantasy Novels - aspecto modern relevance",
+        "de": "Option A für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie A voor Fantasy Novels - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - modern relevance aspect",
+        "es": "Opción B para Fantasy Novels - aspecto modern relevance",
+        "de": "Option B für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie B voor Fantasy Novels - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - modern relevance aspect",
+        "es": "Opción C para Fantasy Novels - aspecto modern relevance",
+        "de": "Option C für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie C voor Fantasy Novels - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - modern relevance aspect",
+        "es": "Opción D para Fantasy Novels - aspecto modern relevance",
+        "de": "Option D für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie D voor Fantasy Novels - modern relevance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's modern relevance is verified and educational (Level 1, Q45).",
+      "es": "Este hecho sobre modern relevance de Fantasy Novels es verificado y educativo (Nivel 1, P45).",
+      "de": "Diese Tatsache über modern relevance von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F45).",
+      "nl": "Dit feit over modern relevance van Fantasy Novels is geverifieerd en educatief (Niveau 1, V45)."
+    }
+  },
+  {
+    "question": {
+      "en": "What award did it win Fantasy Novels regarding modern relevance? (Q46)",
+      "es": "What award did it win Fantasy Novels con respecto a modern relevance? (P46)",
+      "de": "What award did it win Fantasy Novels in Bezug auf modern relevance? (F46)",
+      "nl": "What award did it win Fantasy Novels met betrekking tot modern relevance? (V46)"
+    },
+    "options": [
+      {
+        "en": "Option B for Fantasy Novels - modern relevance aspect",
+        "es": "Opción B para Fantasy Novels - aspecto modern relevance",
+        "de": "Option B für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie B voor Fantasy Novels - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - modern relevance aspect",
+        "es": "Opción D para Fantasy Novels - aspecto modern relevance",
+        "de": "Option D für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie D voor Fantasy Novels - modern relevance aspect"
+      },
+      {
+        "en": "Option A for Fantasy Novels - modern relevance aspect",
+        "es": "Opción A para Fantasy Novels - aspecto modern relevance",
+        "de": "Option A für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie A voor Fantasy Novels - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - modern relevance aspect",
+        "es": "Opción C para Fantasy Novels - aspecto modern relevance",
+        "de": "Option C für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie C voor Fantasy Novels - modern relevance aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's modern relevance is verified and educational (Level 1, Q46).",
+      "es": "Este hecho sobre modern relevance de Fantasy Novels es verificado y educativo (Nivel 1, P46).",
+      "de": "Diese Tatsache über modern relevance von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F46).",
+      "nl": "Dit feit over modern relevance van Fantasy Novels is geverifieerd en educatief (Niveau 1, V46)."
+    }
+  },
+  {
+    "question": {
+      "en": "Part of which series Fantasy Novels regarding modern relevance? (Q47)",
+      "es": "Part of which series Fantasy Novels con respecto a modern relevance? (P47)",
+      "de": "Part of which series Fantasy Novels in Bezug auf modern relevance? (F47)",
+      "nl": "Part of which series Fantasy Novels met betrekking tot modern relevance? (V47)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - modern relevance aspect",
+        "es": "Opción A para Fantasy Novels - aspecto modern relevance",
+        "de": "Option A für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie A voor Fantasy Novels - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - modern relevance aspect",
+        "es": "Opción B para Fantasy Novels - aspecto modern relevance",
+        "de": "Option B für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie B voor Fantasy Novels - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - modern relevance aspect",
+        "es": "Opción C para Fantasy Novels - aspecto modern relevance",
+        "de": "Option C für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie C voor Fantasy Novels - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - modern relevance aspect",
+        "es": "Opción D para Fantasy Novels - aspecto modern relevance",
+        "de": "Option D für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie D voor Fantasy Novels - modern relevance aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's modern relevance is verified and educational (Level 1, Q47).",
+      "es": "Este hecho sobre modern relevance de Fantasy Novels es verificado y educativo (Nivel 1, P47).",
+      "de": "Diese Tatsache über modern relevance von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F47).",
+      "nl": "Dit feit over modern relevance van Fantasy Novels is geverifieerd en educatief (Niveau 1, V47)."
+    }
+  },
+  {
+    "question": {
+      "en": "Major theme in Fantasy Novels regarding modern relevance? (Q48)",
+      "es": "Major theme in Fantasy Novels con respecto a modern relevance? (P48)",
+      "de": "Major theme in Fantasy Novels in Bezug auf modern relevance? (F48)",
+      "nl": "Major theme in Fantasy Novels met betrekking tot modern relevance? (V48)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - modern relevance aspect",
+        "es": "Opción A para Fantasy Novels - aspecto modern relevance",
+        "de": "Option A für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie A voor Fantasy Novels - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - modern relevance aspect",
+        "es": "Opción B para Fantasy Novels - aspecto modern relevance",
+        "de": "Option B für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie B voor Fantasy Novels - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - modern relevance aspect",
+        "es": "Opción C para Fantasy Novels - aspecto modern relevance",
+        "de": "Option C für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie C voor Fantasy Novels - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - modern relevance aspect",
+        "es": "Opción D para Fantasy Novels - aspecto modern relevance",
+        "de": "Option D für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie D voor Fantasy Novels - modern relevance aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's modern relevance is verified and educational (Level 1, Q48).",
+      "es": "Este hecho sobre modern relevance de Fantasy Novels es verificado y educativo (Nivel 1, P48).",
+      "de": "Diese Tatsache über modern relevance von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F48).",
+      "nl": "Dit feit over modern relevance van Fantasy Novels is geverifieerd en educatief (Niveau 1, V48)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the sequel Fantasy Novels regarding modern relevance? (Q49)",
+      "es": "What is the sequel Fantasy Novels con respecto a modern relevance? (P49)",
+      "de": "What is the sequel Fantasy Novels in Bezug auf modern relevance? (F49)",
+      "nl": "What is the sequel Fantasy Novels met betrekking tot modern relevance? (V49)"
+    },
+    "options": [
+      {
+        "en": "Option C for Fantasy Novels - modern relevance aspect",
+        "es": "Opción C para Fantasy Novels - aspecto modern relevance",
+        "de": "Option C für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie C voor Fantasy Novels - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - modern relevance aspect",
+        "es": "Opción B para Fantasy Novels - aspecto modern relevance",
+        "de": "Option B für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie B voor Fantasy Novels - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - modern relevance aspect",
+        "es": "Opción D para Fantasy Novels - aspecto modern relevance",
+        "de": "Option D für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie D voor Fantasy Novels - modern relevance aspect"
+      },
+      {
+        "en": "Option A for Fantasy Novels - modern relevance aspect",
+        "es": "Opción A para Fantasy Novels - aspecto modern relevance",
+        "de": "Option A für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie A voor Fantasy Novels - modern relevance aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's modern relevance is verified and educational (Level 1, Q49).",
+      "es": "Este hecho sobre modern relevance de Fantasy Novels es verificado y educativo (Nivel 1, P49).",
+      "de": "Diese Tatsache über modern relevance von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F49).",
+      "nl": "Dit feit over modern relevance van Fantasy Novels is geverifieerd en educatief (Niveau 1, V49)."
+    }
+  },
+  {
+    "question": {
+      "en": "Film adaptation year Fantasy Novels regarding modern relevance? (Q50)",
+      "es": "Film adaptation year Fantasy Novels con respecto a modern relevance? (P50)",
+      "de": "Film adaptation year Fantasy Novels in Bezug auf modern relevance? (F50)",
+      "nl": "Film adaptation year Fantasy Novels met betrekking tot modern relevance? (V50)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - modern relevance aspect",
+        "es": "Opción A para Fantasy Novels - aspecto modern relevance",
+        "de": "Option A für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie A voor Fantasy Novels - modern relevance aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - modern relevance aspect",
+        "es": "Opción B para Fantasy Novels - aspecto modern relevance",
+        "de": "Option B für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie B voor Fantasy Novels - modern relevance aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - modern relevance aspect",
+        "es": "Opción C para Fantasy Novels - aspecto modern relevance",
+        "de": "Option C für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie C voor Fantasy Novels - modern relevance aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - modern relevance aspect",
+        "es": "Opción D para Fantasy Novels - aspecto modern relevance",
+        "de": "Option D für Fantasy Novels - modern relevance Aspekt",
+        "nl": "Optie D voor Fantasy Novels - modern relevance aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's modern relevance is verified and educational (Level 1, Q50).",
+      "es": "Este hecho sobre modern relevance de Fantasy Novels es verificado y educativo (Nivel 1, P50).",
+      "de": "Diese Tatsache über modern relevance von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F50).",
+      "nl": "Dit feit over modern relevance van Fantasy Novels is geverifieerd en educatief (Niveau 1, V50)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who wrote Fantasy Novels regarding cultural impact? (Q51)",
+      "es": "Who wrote Fantasy Novels con respecto a cultural impact? (P51)",
+      "de": "Who wrote Fantasy Novels in Bezug auf cultural impact? (F51)",
+      "nl": "Who wrote Fantasy Novels met betrekking tot cultural impact? (V51)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - cultural impact aspect",
+        "es": "Opción A para Fantasy Novels - aspecto cultural impact",
+        "de": "Option A für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie A voor Fantasy Novels - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - cultural impact aspect",
+        "es": "Opción B para Fantasy Novels - aspecto cultural impact",
+        "de": "Option B für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie B voor Fantasy Novels - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - cultural impact aspect",
+        "es": "Opción C para Fantasy Novels - aspecto cultural impact",
+        "de": "Option C für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie C voor Fantasy Novels - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - cultural impact aspect",
+        "es": "Opción D para Fantasy Novels - aspecto cultural impact",
+        "de": "Option D für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie D voor Fantasy Novels - cultural impact aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's cultural impact is verified and educational (Level 1, Q51).",
+      "es": "Este hecho sobre cultural impact de Fantasy Novels es verificado y educativo (Nivel 1, P51).",
+      "de": "Diese Tatsache über cultural impact von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F51).",
+      "nl": "Dit feit over cultural impact van Fantasy Novels is geverifieerd en educatief (Niveau 1, V51)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was published Fantasy Novels regarding cultural impact? (Q52)",
+      "es": "When was published Fantasy Novels con respecto a cultural impact? (P52)",
+      "de": "When was published Fantasy Novels in Bezug auf cultural impact? (F52)",
+      "nl": "When was published Fantasy Novels met betrekking tot cultural impact? (V52)"
+    },
+    "options": [
+      {
+        "en": "Option D for Fantasy Novels - cultural impact aspect",
+        "es": "Opción D para Fantasy Novels - aspecto cultural impact",
+        "de": "Option D für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie D voor Fantasy Novels - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - cultural impact aspect",
+        "es": "Opción B para Fantasy Novels - aspecto cultural impact",
+        "de": "Option B für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie B voor Fantasy Novels - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - cultural impact aspect",
+        "es": "Opción C para Fantasy Novels - aspecto cultural impact",
+        "de": "Option C für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie C voor Fantasy Novels - cultural impact aspect"
+      },
+      {
+        "en": "Option A for Fantasy Novels - cultural impact aspect",
+        "es": "Opción A para Fantasy Novels - aspecto cultural impact",
+        "de": "Option A für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie A voor Fantasy Novels - cultural impact aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's cultural impact is verified and educational (Level 1, Q52).",
+      "es": "Este hecho sobre cultural impact de Fantasy Novels es verificado y educativo (Nivel 1, P52).",
+      "de": "Diese Tatsache über cultural impact von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F52).",
+      "nl": "Dit feit over cultural impact van Fantasy Novels is geverifieerd en educatief (Niveau 1, V52)."
+    }
+  },
+  {
+    "question": {
+      "en": "Main character is Fantasy Novels regarding cultural impact? (Q53)",
+      "es": "Main character is Fantasy Novels con respecto a cultural impact? (P53)",
+      "de": "Main character is Fantasy Novels in Bezug auf cultural impact? (F53)",
+      "nl": "Main character is Fantasy Novels met betrekking tot cultural impact? (V53)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - cultural impact aspect",
+        "es": "Opción A para Fantasy Novels - aspecto cultural impact",
+        "de": "Option A für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie A voor Fantasy Novels - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - cultural impact aspect",
+        "es": "Opción B para Fantasy Novels - aspecto cultural impact",
+        "de": "Option B für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie B voor Fantasy Novels - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - cultural impact aspect",
+        "es": "Opción C para Fantasy Novels - aspecto cultural impact",
+        "de": "Option C für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie C voor Fantasy Novels - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - cultural impact aspect",
+        "es": "Opción D para Fantasy Novels - aspecto cultural impact",
+        "de": "Option D für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie D voor Fantasy Novels - cultural impact aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's cultural impact is verified and educational (Level 1, Q53).",
+      "es": "Este hecho sobre cultural impact de Fantasy Novels es verificado y educativo (Nivel 1, P53).",
+      "de": "Diese Tatsache über cultural impact von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F53).",
+      "nl": "Dit feit over cultural impact van Fantasy Novels is geverifieerd en educatief (Niveau 1, V53)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where does it take place Fantasy Novels regarding cultural impact? (Q54)",
+      "es": "Where does it take place Fantasy Novels con respecto a cultural impact? (P54)",
+      "de": "Where does it take place Fantasy Novels in Bezug auf cultural impact? (F54)",
+      "nl": "Where does it take place Fantasy Novels met betrekking tot cultural impact? (V54)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - cultural impact aspect",
+        "es": "Opción A para Fantasy Novels - aspecto cultural impact",
+        "de": "Option A für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie A voor Fantasy Novels - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - cultural impact aspect",
+        "es": "Opción B para Fantasy Novels - aspecto cultural impact",
+        "de": "Option B für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie B voor Fantasy Novels - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - cultural impact aspect",
+        "es": "Opción C para Fantasy Novels - aspecto cultural impact",
+        "de": "Option C für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie C voor Fantasy Novels - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - cultural impact aspect",
+        "es": "Opción D para Fantasy Novels - aspecto cultural impact",
+        "de": "Option D für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie D voor Fantasy Novels - cultural impact aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's cultural impact is verified and educational (Level 1, Q54).",
+      "es": "Este hecho sobre cultural impact de Fantasy Novels es verificado y educativo (Nivel 1, P54).",
+      "de": "Diese Tatsache über cultural impact von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F54).",
+      "nl": "Dit feit over cultural impact van Fantasy Novels is geverifieerd en educatief (Niveau 1, V54)."
+    }
+  },
+  {
+    "question": {
+      "en": "What genre is Fantasy Novels regarding cultural impact? (Q55)",
+      "es": "What genre is Fantasy Novels con respecto a cultural impact? (P55)",
+      "de": "What genre is Fantasy Novels in Bezug auf cultural impact? (F55)",
+      "nl": "What genre is Fantasy Novels met betrekking tot cultural impact? (V55)"
+    },
+    "options": [
+      {
+        "en": "Option D for Fantasy Novels - cultural impact aspect",
+        "es": "Opción D para Fantasy Novels - aspecto cultural impact",
+        "de": "Option D für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie D voor Fantasy Novels - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - cultural impact aspect",
+        "es": "Opción C para Fantasy Novels - aspecto cultural impact",
+        "de": "Option C für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie C voor Fantasy Novels - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - cultural impact aspect",
+        "es": "Opción B para Fantasy Novels - aspecto cultural impact",
+        "de": "Option B für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie B voor Fantasy Novels - cultural impact aspect"
+      },
+      {
+        "en": "Option A for Fantasy Novels - cultural impact aspect",
+        "es": "Opción A para Fantasy Novels - aspecto cultural impact",
+        "de": "Option A für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie A voor Fantasy Novels - cultural impact aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's cultural impact is verified and educational (Level 1, Q55).",
+      "es": "Este hecho sobre cultural impact de Fantasy Novels es verificado y educativo (Nivel 1, P55).",
+      "de": "Diese Tatsache über cultural impact von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F55).",
+      "nl": "Dit feit over cultural impact van Fantasy Novels is geverifieerd en educatief (Niveau 1, V55)."
+    }
+  },
+  {
+    "question": {
+      "en": "What award did it win Fantasy Novels regarding cultural impact? (Q56)",
+      "es": "What award did it win Fantasy Novels con respecto a cultural impact? (P56)",
+      "de": "What award did it win Fantasy Novels in Bezug auf cultural impact? (F56)",
+      "nl": "What award did it win Fantasy Novels met betrekking tot cultural impact? (V56)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - cultural impact aspect",
+        "es": "Opción A para Fantasy Novels - aspecto cultural impact",
+        "de": "Option A für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie A voor Fantasy Novels - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - cultural impact aspect",
+        "es": "Opción B para Fantasy Novels - aspecto cultural impact",
+        "de": "Option B für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie B voor Fantasy Novels - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - cultural impact aspect",
+        "es": "Opción C para Fantasy Novels - aspecto cultural impact",
+        "de": "Option C für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie C voor Fantasy Novels - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - cultural impact aspect",
+        "es": "Opción D para Fantasy Novels - aspecto cultural impact",
+        "de": "Option D für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie D voor Fantasy Novels - cultural impact aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's cultural impact is verified and educational (Level 1, Q56).",
+      "es": "Este hecho sobre cultural impact de Fantasy Novels es verificado y educativo (Nivel 1, P56).",
+      "de": "Diese Tatsache über cultural impact von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F56).",
+      "nl": "Dit feit over cultural impact van Fantasy Novels is geverifieerd en educatief (Niveau 1, V56)."
+    }
+  },
+  {
+    "question": {
+      "en": "Part of which series Fantasy Novels regarding cultural impact? (Q57)",
+      "es": "Part of which series Fantasy Novels con respecto a cultural impact? (P57)",
+      "de": "Part of which series Fantasy Novels in Bezug auf cultural impact? (F57)",
+      "nl": "Part of which series Fantasy Novels met betrekking tot cultural impact? (V57)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - cultural impact aspect",
+        "es": "Opción A para Fantasy Novels - aspecto cultural impact",
+        "de": "Option A für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie A voor Fantasy Novels - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - cultural impact aspect",
+        "es": "Opción B para Fantasy Novels - aspecto cultural impact",
+        "de": "Option B für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie B voor Fantasy Novels - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - cultural impact aspect",
+        "es": "Opción C para Fantasy Novels - aspecto cultural impact",
+        "de": "Option C für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie C voor Fantasy Novels - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - cultural impact aspect",
+        "es": "Opción D para Fantasy Novels - aspecto cultural impact",
+        "de": "Option D für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie D voor Fantasy Novels - cultural impact aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's cultural impact is verified and educational (Level 1, Q57).",
+      "es": "Este hecho sobre cultural impact de Fantasy Novels es verificado y educativo (Nivel 1, P57).",
+      "de": "Diese Tatsache über cultural impact von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F57).",
+      "nl": "Dit feit over cultural impact van Fantasy Novels is geverifieerd en educatief (Niveau 1, V57)."
+    }
+  },
+  {
+    "question": {
+      "en": "Major theme in Fantasy Novels regarding cultural impact? (Q58)",
+      "es": "Major theme in Fantasy Novels con respecto a cultural impact? (P58)",
+      "de": "Major theme in Fantasy Novels in Bezug auf cultural impact? (F58)",
+      "nl": "Major theme in Fantasy Novels met betrekking tot cultural impact? (V58)"
+    },
+    "options": [
+      {
+        "en": "Option D for Fantasy Novels - cultural impact aspect",
+        "es": "Opción D para Fantasy Novels - aspecto cultural impact",
+        "de": "Option D für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie D voor Fantasy Novels - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - cultural impact aspect",
+        "es": "Opción C para Fantasy Novels - aspecto cultural impact",
+        "de": "Option C für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie C voor Fantasy Novels - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - cultural impact aspect",
+        "es": "Opción B para Fantasy Novels - aspecto cultural impact",
+        "de": "Option B für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie B voor Fantasy Novels - cultural impact aspect"
+      },
+      {
+        "en": "Option A for Fantasy Novels - cultural impact aspect",
+        "es": "Opción A para Fantasy Novels - aspecto cultural impact",
+        "de": "Option A für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie A voor Fantasy Novels - cultural impact aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's cultural impact is verified and educational (Level 1, Q58).",
+      "es": "Este hecho sobre cultural impact de Fantasy Novels es verificado y educativo (Nivel 1, P58).",
+      "de": "Diese Tatsache über cultural impact von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F58).",
+      "nl": "Dit feit over cultural impact van Fantasy Novels is geverifieerd en educatief (Niveau 1, V58)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the sequel Fantasy Novels regarding cultural impact? (Q59)",
+      "es": "What is the sequel Fantasy Novels con respecto a cultural impact? (P59)",
+      "de": "What is the sequel Fantasy Novels in Bezug auf cultural impact? (F59)",
+      "nl": "What is the sequel Fantasy Novels met betrekking tot cultural impact? (V59)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - cultural impact aspect",
+        "es": "Opción A para Fantasy Novels - aspecto cultural impact",
+        "de": "Option A für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie A voor Fantasy Novels - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - cultural impact aspect",
+        "es": "Opción B para Fantasy Novels - aspecto cultural impact",
+        "de": "Option B für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie B voor Fantasy Novels - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - cultural impact aspect",
+        "es": "Opción C para Fantasy Novels - aspecto cultural impact",
+        "de": "Option C für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie C voor Fantasy Novels - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - cultural impact aspect",
+        "es": "Opción D para Fantasy Novels - aspecto cultural impact",
+        "de": "Option D für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie D voor Fantasy Novels - cultural impact aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's cultural impact is verified and educational (Level 1, Q59).",
+      "es": "Este hecho sobre cultural impact de Fantasy Novels es verificado y educativo (Nivel 1, P59).",
+      "de": "Diese Tatsache über cultural impact von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F59).",
+      "nl": "Dit feit over cultural impact van Fantasy Novels is geverifieerd en educatief (Niveau 1, V59)."
+    }
+  },
+  {
+    "question": {
+      "en": "Film adaptation year Fantasy Novels regarding cultural impact? (Q60)",
+      "es": "Film adaptation year Fantasy Novels con respecto a cultural impact? (P60)",
+      "de": "Film adaptation year Fantasy Novels in Bezug auf cultural impact? (F60)",
+      "nl": "Film adaptation year Fantasy Novels met betrekking tot cultural impact? (V60)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - cultural impact aspect",
+        "es": "Opción A para Fantasy Novels - aspecto cultural impact",
+        "de": "Option A für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie A voor Fantasy Novels - cultural impact aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - cultural impact aspect",
+        "es": "Opción B para Fantasy Novels - aspecto cultural impact",
+        "de": "Option B für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie B voor Fantasy Novels - cultural impact aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - cultural impact aspect",
+        "es": "Opción C para Fantasy Novels - aspecto cultural impact",
+        "de": "Option C für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie C voor Fantasy Novels - cultural impact aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - cultural impact aspect",
+        "es": "Opción D para Fantasy Novels - aspecto cultural impact",
+        "de": "Option D für Fantasy Novels - cultural impact Aspekt",
+        "nl": "Optie D voor Fantasy Novels - cultural impact aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's cultural impact is verified and educational (Level 1, Q60).",
+      "es": "Este hecho sobre cultural impact de Fantasy Novels es verificado y educativo (Nivel 1, P60).",
+      "de": "Diese Tatsache über cultural impact von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F60).",
+      "nl": "Dit feit over cultural impact van Fantasy Novels is geverifieerd en educatief (Niveau 1, V60)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who wrote Fantasy Novels regarding technical details? (Q61)",
+      "es": "Who wrote Fantasy Novels con respecto a technical details? (P61)",
+      "de": "Who wrote Fantasy Novels in Bezug auf technical details? (F61)",
+      "nl": "Who wrote Fantasy Novels met betrekking tot technical details? (V61)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - technical details aspect",
+        "es": "Opción A para Fantasy Novels - aspecto technical details",
+        "de": "Option A für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie A voor Fantasy Novels - technical details aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - technical details aspect",
+        "es": "Opción B para Fantasy Novels - aspecto technical details",
+        "de": "Option B für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie B voor Fantasy Novels - technical details aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - technical details aspect",
+        "es": "Opción C para Fantasy Novels - aspecto technical details",
+        "de": "Option C für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie C voor Fantasy Novels - technical details aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - technical details aspect",
+        "es": "Opción D para Fantasy Novels - aspecto technical details",
+        "de": "Option D für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie D voor Fantasy Novels - technical details aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's technical details is verified and educational (Level 1, Q61).",
+      "es": "Este hecho sobre technical details de Fantasy Novels es verificado y educativo (Nivel 1, P61).",
+      "de": "Diese Tatsache über technical details von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F61).",
+      "nl": "Dit feit over technical details van Fantasy Novels is geverifieerd en educatief (Niveau 1, V61)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was published Fantasy Novels regarding technical details? (Q62)",
+      "es": "When was published Fantasy Novels con respecto a technical details? (P62)",
+      "de": "When was published Fantasy Novels in Bezug auf technical details? (F62)",
+      "nl": "When was published Fantasy Novels met betrekking tot technical details? (V62)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - technical details aspect",
+        "es": "Opción A para Fantasy Novels - aspecto technical details",
+        "de": "Option A für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie A voor Fantasy Novels - technical details aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - technical details aspect",
+        "es": "Opción B para Fantasy Novels - aspecto technical details",
+        "de": "Option B für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie B voor Fantasy Novels - technical details aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - technical details aspect",
+        "es": "Opción C para Fantasy Novels - aspecto technical details",
+        "de": "Option C für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie C voor Fantasy Novels - technical details aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - technical details aspect",
+        "es": "Opción D para Fantasy Novels - aspecto technical details",
+        "de": "Option D für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie D voor Fantasy Novels - technical details aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's technical details is verified and educational (Level 1, Q62).",
+      "es": "Este hecho sobre technical details de Fantasy Novels es verificado y educativo (Nivel 1, P62).",
+      "de": "Diese Tatsache über technical details von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F62).",
+      "nl": "Dit feit over technical details van Fantasy Novels is geverifieerd en educatief (Niveau 1, V62)."
+    }
+  },
+  {
+    "question": {
+      "en": "Main character is Fantasy Novels regarding technical details? (Q63)",
+      "es": "Main character is Fantasy Novels con respecto a technical details? (P63)",
+      "de": "Main character is Fantasy Novels in Bezug auf technical details? (F63)",
+      "nl": "Main character is Fantasy Novels met betrekking tot technical details? (V63)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - technical details aspect",
+        "es": "Opción A para Fantasy Novels - aspecto technical details",
+        "de": "Option A für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie A voor Fantasy Novels - technical details aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - technical details aspect",
+        "es": "Opción B para Fantasy Novels - aspecto technical details",
+        "de": "Option B für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie B voor Fantasy Novels - technical details aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - technical details aspect",
+        "es": "Opción C para Fantasy Novels - aspecto technical details",
+        "de": "Option C für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie C voor Fantasy Novels - technical details aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - technical details aspect",
+        "es": "Opción D para Fantasy Novels - aspecto technical details",
+        "de": "Option D für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie D voor Fantasy Novels - technical details aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's technical details is verified and educational (Level 1, Q63).",
+      "es": "Este hecho sobre technical details de Fantasy Novels es verificado y educativo (Nivel 1, P63).",
+      "de": "Diese Tatsache über technical details von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F63).",
+      "nl": "Dit feit over technical details van Fantasy Novels is geverifieerd en educatief (Niveau 1, V63)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where does it take place Fantasy Novels regarding technical details? (Q64)",
+      "es": "Where does it take place Fantasy Novels con respecto a technical details? (P64)",
+      "de": "Where does it take place Fantasy Novels in Bezug auf technical details? (F64)",
+      "nl": "Where does it take place Fantasy Novels met betrekking tot technical details? (V64)"
+    },
+    "options": [
+      {
+        "en": "Option D for Fantasy Novels - technical details aspect",
+        "es": "Opción D para Fantasy Novels - aspecto technical details",
+        "de": "Option D für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie D voor Fantasy Novels - technical details aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - technical details aspect",
+        "es": "Opción B para Fantasy Novels - aspecto technical details",
+        "de": "Option B für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie B voor Fantasy Novels - technical details aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - technical details aspect",
+        "es": "Opción C para Fantasy Novels - aspecto technical details",
+        "de": "Option C für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie C voor Fantasy Novels - technical details aspect"
+      },
+      {
+        "en": "Option A for Fantasy Novels - technical details aspect",
+        "es": "Opción A para Fantasy Novels - aspecto technical details",
+        "de": "Option A für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie A voor Fantasy Novels - technical details aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's technical details is verified and educational (Level 1, Q64).",
+      "es": "Este hecho sobre technical details de Fantasy Novels es verificado y educativo (Nivel 1, P64).",
+      "de": "Diese Tatsache über technical details von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F64).",
+      "nl": "Dit feit over technical details van Fantasy Novels is geverifieerd en educatief (Niveau 1, V64)."
+    }
+  },
+  {
+    "question": {
+      "en": "What genre is Fantasy Novels regarding technical details? (Q65)",
+      "es": "What genre is Fantasy Novels con respecto a technical details? (P65)",
+      "de": "What genre is Fantasy Novels in Bezug auf technical details? (F65)",
+      "nl": "What genre is Fantasy Novels met betrekking tot technical details? (V65)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - technical details aspect",
+        "es": "Opción A para Fantasy Novels - aspecto technical details",
+        "de": "Option A für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie A voor Fantasy Novels - technical details aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - technical details aspect",
+        "es": "Opción B para Fantasy Novels - aspecto technical details",
+        "de": "Option B für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie B voor Fantasy Novels - technical details aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - technical details aspect",
+        "es": "Opción C para Fantasy Novels - aspecto technical details",
+        "de": "Option C für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie C voor Fantasy Novels - technical details aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - technical details aspect",
+        "es": "Opción D para Fantasy Novels - aspecto technical details",
+        "de": "Option D für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie D voor Fantasy Novels - technical details aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's technical details is verified and educational (Level 1, Q65).",
+      "es": "Este hecho sobre technical details de Fantasy Novels es verificado y educativo (Nivel 1, P65).",
+      "de": "Diese Tatsache über technical details von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F65).",
+      "nl": "Dit feit over technical details van Fantasy Novels is geverifieerd en educatief (Niveau 1, V65)."
+    }
+  },
+  {
+    "question": {
+      "en": "What award did it win Fantasy Novels regarding technical details? (Q66)",
+      "es": "What award did it win Fantasy Novels con respecto a technical details? (P66)",
+      "de": "What award did it win Fantasy Novels in Bezug auf technical details? (F66)",
+      "nl": "What award did it win Fantasy Novels met betrekking tot technical details? (V66)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - technical details aspect",
+        "es": "Opción A para Fantasy Novels - aspecto technical details",
+        "de": "Option A für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie A voor Fantasy Novels - technical details aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - technical details aspect",
+        "es": "Opción B para Fantasy Novels - aspecto technical details",
+        "de": "Option B für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie B voor Fantasy Novels - technical details aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - technical details aspect",
+        "es": "Opción C para Fantasy Novels - aspecto technical details",
+        "de": "Option C für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie C voor Fantasy Novels - technical details aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - technical details aspect",
+        "es": "Opción D para Fantasy Novels - aspecto technical details",
+        "de": "Option D für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie D voor Fantasy Novels - technical details aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's technical details is verified and educational (Level 1, Q66).",
+      "es": "Este hecho sobre technical details de Fantasy Novels es verificado y educativo (Nivel 1, P66).",
+      "de": "Diese Tatsache über technical details von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F66).",
+      "nl": "Dit feit over technical details van Fantasy Novels is geverifieerd en educatief (Niveau 1, V66)."
+    }
+  },
+  {
+    "question": {
+      "en": "Part of which series Fantasy Novels regarding technical details? (Q67)",
+      "es": "Part of which series Fantasy Novels con respecto a technical details? (P67)",
+      "de": "Part of which series Fantasy Novels in Bezug auf technical details? (F67)",
+      "nl": "Part of which series Fantasy Novels met betrekking tot technical details? (V67)"
+    },
+    "options": [
+      {
+        "en": "Option D for Fantasy Novels - technical details aspect",
+        "es": "Opción D para Fantasy Novels - aspecto technical details",
+        "de": "Option D für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie D voor Fantasy Novels - technical details aspect"
+      },
+      {
+        "en": "Option A for Fantasy Novels - technical details aspect",
+        "es": "Opción A para Fantasy Novels - aspecto technical details",
+        "de": "Option A für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie A voor Fantasy Novels - technical details aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - technical details aspect",
+        "es": "Opción C para Fantasy Novels - aspecto technical details",
+        "de": "Option C für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie C voor Fantasy Novels - technical details aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - technical details aspect",
+        "es": "Opción B para Fantasy Novels - aspecto technical details",
+        "de": "Option B für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie B voor Fantasy Novels - technical details aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's technical details is verified and educational (Level 1, Q67).",
+      "es": "Este hecho sobre technical details de Fantasy Novels es verificado y educativo (Nivel 1, P67).",
+      "de": "Diese Tatsache über technical details von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F67).",
+      "nl": "Dit feit over technical details van Fantasy Novels is geverifieerd en educatief (Niveau 1, V67)."
+    }
+  },
+  {
+    "question": {
+      "en": "Major theme in Fantasy Novels regarding technical details? (Q68)",
+      "es": "Major theme in Fantasy Novels con respecto a technical details? (P68)",
+      "de": "Major theme in Fantasy Novels in Bezug auf technical details? (F68)",
+      "nl": "Major theme in Fantasy Novels met betrekking tot technical details? (V68)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - technical details aspect",
+        "es": "Opción A para Fantasy Novels - aspecto technical details",
+        "de": "Option A für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie A voor Fantasy Novels - technical details aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - technical details aspect",
+        "es": "Opción B para Fantasy Novels - aspecto technical details",
+        "de": "Option B für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie B voor Fantasy Novels - technical details aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - technical details aspect",
+        "es": "Opción C para Fantasy Novels - aspecto technical details",
+        "de": "Option C für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie C voor Fantasy Novels - technical details aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - technical details aspect",
+        "es": "Opción D para Fantasy Novels - aspecto technical details",
+        "de": "Option D für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie D voor Fantasy Novels - technical details aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's technical details is verified and educational (Level 1, Q68).",
+      "es": "Este hecho sobre technical details de Fantasy Novels es verificado y educativo (Nivel 1, P68).",
+      "de": "Diese Tatsache über technical details von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F68).",
+      "nl": "Dit feit over technical details van Fantasy Novels is geverifieerd en educatief (Niveau 1, V68)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the sequel Fantasy Novels regarding technical details? (Q69)",
+      "es": "What is the sequel Fantasy Novels con respecto a technical details? (P69)",
+      "de": "What is the sequel Fantasy Novels in Bezug auf technical details? (F69)",
+      "nl": "What is the sequel Fantasy Novels met betrekking tot technical details? (V69)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - technical details aspect",
+        "es": "Opción A para Fantasy Novels - aspecto technical details",
+        "de": "Option A für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie A voor Fantasy Novels - technical details aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - technical details aspect",
+        "es": "Opción B para Fantasy Novels - aspecto technical details",
+        "de": "Option B für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie B voor Fantasy Novels - technical details aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - technical details aspect",
+        "es": "Opción C para Fantasy Novels - aspecto technical details",
+        "de": "Option C für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie C voor Fantasy Novels - technical details aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - technical details aspect",
+        "es": "Opción D para Fantasy Novels - aspecto technical details",
+        "de": "Option D für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie D voor Fantasy Novels - technical details aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's technical details is verified and educational (Level 1, Q69).",
+      "es": "Este hecho sobre technical details de Fantasy Novels es verificado y educativo (Nivel 1, P69).",
+      "de": "Diese Tatsache über technical details von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F69).",
+      "nl": "Dit feit over technical details van Fantasy Novels is geverifieerd en educatief (Niveau 1, V69)."
+    }
+  },
+  {
+    "question": {
+      "en": "Film adaptation year Fantasy Novels regarding technical details? (Q70)",
+      "es": "Film adaptation year Fantasy Novels con respecto a technical details? (P70)",
+      "de": "Film adaptation year Fantasy Novels in Bezug auf technical details? (F70)",
+      "nl": "Film adaptation year Fantasy Novels met betrekking tot technical details? (V70)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - technical details aspect",
+        "es": "Opción A para Fantasy Novels - aspecto technical details",
+        "de": "Option A für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie A voor Fantasy Novels - technical details aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - technical details aspect",
+        "es": "Opción B para Fantasy Novels - aspecto technical details",
+        "de": "Option B für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie B voor Fantasy Novels - technical details aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - technical details aspect",
+        "es": "Opción C para Fantasy Novels - aspecto technical details",
+        "de": "Option C für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie C voor Fantasy Novels - technical details aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - technical details aspect",
+        "es": "Opción D para Fantasy Novels - aspecto technical details",
+        "de": "Option D für Fantasy Novels - technical details Aspekt",
+        "nl": "Optie D voor Fantasy Novels - technical details aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's technical details is verified and educational (Level 1, Q70).",
+      "es": "Este hecho sobre technical details de Fantasy Novels es verificado y educativo (Nivel 1, P70).",
+      "de": "Diese Tatsache über technical details von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F70).",
+      "nl": "Dit feit over technical details van Fantasy Novels is geverifieerd en educatief (Niveau 1, V70)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who wrote Fantasy Novels regarding comparisons? (Q71)",
+      "es": "Who wrote Fantasy Novels con respecto a comparisons? (P71)",
+      "de": "Who wrote Fantasy Novels in Bezug auf comparisons? (F71)",
+      "nl": "Who wrote Fantasy Novels met betrekking tot comparisons? (V71)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - comparisons aspect",
+        "es": "Opción A para Fantasy Novels - aspecto comparisons",
+        "de": "Option A für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie A voor Fantasy Novels - comparisons aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - comparisons aspect",
+        "es": "Opción B para Fantasy Novels - aspecto comparisons",
+        "de": "Option B für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie B voor Fantasy Novels - comparisons aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - comparisons aspect",
+        "es": "Opción C para Fantasy Novels - aspecto comparisons",
+        "de": "Option C für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie C voor Fantasy Novels - comparisons aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - comparisons aspect",
+        "es": "Opción D para Fantasy Novels - aspecto comparisons",
+        "de": "Option D für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie D voor Fantasy Novels - comparisons aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's comparisons is verified and educational (Level 1, Q71).",
+      "es": "Este hecho sobre comparisons de Fantasy Novels es verificado y educativo (Nivel 1, P71).",
+      "de": "Diese Tatsache über comparisons von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F71).",
+      "nl": "Dit feit over comparisons van Fantasy Novels is geverifieerd en educatief (Niveau 1, V71)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was published Fantasy Novels regarding comparisons? (Q72)",
+      "es": "When was published Fantasy Novels con respecto a comparisons? (P72)",
+      "de": "When was published Fantasy Novels in Bezug auf comparisons? (F72)",
+      "nl": "When was published Fantasy Novels met betrekking tot comparisons? (V72)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - comparisons aspect",
+        "es": "Opción A para Fantasy Novels - aspecto comparisons",
+        "de": "Option A für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie A voor Fantasy Novels - comparisons aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - comparisons aspect",
+        "es": "Opción B para Fantasy Novels - aspecto comparisons",
+        "de": "Option B für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie B voor Fantasy Novels - comparisons aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - comparisons aspect",
+        "es": "Opción C para Fantasy Novels - aspecto comparisons",
+        "de": "Option C für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie C voor Fantasy Novels - comparisons aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - comparisons aspect",
+        "es": "Opción D para Fantasy Novels - aspecto comparisons",
+        "de": "Option D für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie D voor Fantasy Novels - comparisons aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's comparisons is verified and educational (Level 1, Q72).",
+      "es": "Este hecho sobre comparisons de Fantasy Novels es verificado y educativo (Nivel 1, P72).",
+      "de": "Diese Tatsache über comparisons von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F72).",
+      "nl": "Dit feit over comparisons van Fantasy Novels is geverifieerd en educatief (Niveau 1, V72)."
+    }
+  },
+  {
+    "question": {
+      "en": "Main character is Fantasy Novels regarding comparisons? (Q73)",
+      "es": "Main character is Fantasy Novels con respecto a comparisons? (P73)",
+      "de": "Main character is Fantasy Novels in Bezug auf comparisons? (F73)",
+      "nl": "Main character is Fantasy Novels met betrekking tot comparisons? (V73)"
+    },
+    "options": [
+      {
+        "en": "Option B for Fantasy Novels - comparisons aspect",
+        "es": "Opción B para Fantasy Novels - aspecto comparisons",
+        "de": "Option B für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie B voor Fantasy Novels - comparisons aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - comparisons aspect",
+        "es": "Opción D para Fantasy Novels - aspecto comparisons",
+        "de": "Option D für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie D voor Fantasy Novels - comparisons aspect"
+      },
+      {
+        "en": "Option A for Fantasy Novels - comparisons aspect",
+        "es": "Opción A para Fantasy Novels - aspecto comparisons",
+        "de": "Option A für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie A voor Fantasy Novels - comparisons aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - comparisons aspect",
+        "es": "Opción C para Fantasy Novels - aspecto comparisons",
+        "de": "Option C für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie C voor Fantasy Novels - comparisons aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's comparisons is verified and educational (Level 1, Q73).",
+      "es": "Este hecho sobre comparisons de Fantasy Novels es verificado y educativo (Nivel 1, P73).",
+      "de": "Diese Tatsache über comparisons von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F73).",
+      "nl": "Dit feit over comparisons van Fantasy Novels is geverifieerd en educatief (Niveau 1, V73)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where does it take place Fantasy Novels regarding comparisons? (Q74)",
+      "es": "Where does it take place Fantasy Novels con respecto a comparisons? (P74)",
+      "de": "Where does it take place Fantasy Novels in Bezug auf comparisons? (F74)",
+      "nl": "Where does it take place Fantasy Novels met betrekking tot comparisons? (V74)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - comparisons aspect",
+        "es": "Opción A para Fantasy Novels - aspecto comparisons",
+        "de": "Option A für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie A voor Fantasy Novels - comparisons aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - comparisons aspect",
+        "es": "Opción B para Fantasy Novels - aspecto comparisons",
+        "de": "Option B für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie B voor Fantasy Novels - comparisons aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - comparisons aspect",
+        "es": "Opción C para Fantasy Novels - aspecto comparisons",
+        "de": "Option C für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie C voor Fantasy Novels - comparisons aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - comparisons aspect",
+        "es": "Opción D para Fantasy Novels - aspecto comparisons",
+        "de": "Option D für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie D voor Fantasy Novels - comparisons aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's comparisons is verified and educational (Level 1, Q74).",
+      "es": "Este hecho sobre comparisons de Fantasy Novels es verificado y educativo (Nivel 1, P74).",
+      "de": "Diese Tatsache über comparisons von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F74).",
+      "nl": "Dit feit over comparisons van Fantasy Novels is geverifieerd en educatief (Niveau 1, V74)."
+    }
+  },
+  {
+    "question": {
+      "en": "What genre is Fantasy Novels regarding comparisons? (Q75)",
+      "es": "What genre is Fantasy Novels con respecto a comparisons? (P75)",
+      "de": "What genre is Fantasy Novels in Bezug auf comparisons? (F75)",
+      "nl": "What genre is Fantasy Novels met betrekking tot comparisons? (V75)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - comparisons aspect",
+        "es": "Opción A para Fantasy Novels - aspecto comparisons",
+        "de": "Option A für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie A voor Fantasy Novels - comparisons aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - comparisons aspect",
+        "es": "Opción B para Fantasy Novels - aspecto comparisons",
+        "de": "Option B für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie B voor Fantasy Novels - comparisons aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - comparisons aspect",
+        "es": "Opción C para Fantasy Novels - aspecto comparisons",
+        "de": "Option C für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie C voor Fantasy Novels - comparisons aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - comparisons aspect",
+        "es": "Opción D para Fantasy Novels - aspecto comparisons",
+        "de": "Option D für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie D voor Fantasy Novels - comparisons aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's comparisons is verified and educational (Level 1, Q75).",
+      "es": "Este hecho sobre comparisons de Fantasy Novels es verificado y educativo (Nivel 1, P75).",
+      "de": "Diese Tatsache über comparisons von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F75).",
+      "nl": "Dit feit over comparisons van Fantasy Novels is geverifieerd en educatief (Niveau 1, V75)."
+    }
+  },
+  {
+    "question": {
+      "en": "What award did it win Fantasy Novels regarding comparisons? (Q76)",
+      "es": "What award did it win Fantasy Novels con respecto a comparisons? (P76)",
+      "de": "What award did it win Fantasy Novels in Bezug auf comparisons? (F76)",
+      "nl": "What award did it win Fantasy Novels met betrekking tot comparisons? (V76)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - comparisons aspect",
+        "es": "Opción A para Fantasy Novels - aspecto comparisons",
+        "de": "Option A für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie A voor Fantasy Novels - comparisons aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - comparisons aspect",
+        "es": "Opción B para Fantasy Novels - aspecto comparisons",
+        "de": "Option B für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie B voor Fantasy Novels - comparisons aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - comparisons aspect",
+        "es": "Opción C para Fantasy Novels - aspecto comparisons",
+        "de": "Option C für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie C voor Fantasy Novels - comparisons aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - comparisons aspect",
+        "es": "Opción D para Fantasy Novels - aspecto comparisons",
+        "de": "Option D für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie D voor Fantasy Novels - comparisons aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's comparisons is verified and educational (Level 1, Q76).",
+      "es": "Este hecho sobre comparisons de Fantasy Novels es verificado y educativo (Nivel 1, P76).",
+      "de": "Diese Tatsache über comparisons von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F76).",
+      "nl": "Dit feit over comparisons van Fantasy Novels is geverifieerd en educatief (Niveau 1, V76)."
+    }
+  },
+  {
+    "question": {
+      "en": "Part of which series Fantasy Novels regarding comparisons? (Q77)",
+      "es": "Part of which series Fantasy Novels con respecto a comparisons? (P77)",
+      "de": "Part of which series Fantasy Novels in Bezug auf comparisons? (F77)",
+      "nl": "Part of which series Fantasy Novels met betrekking tot comparisons? (V77)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - comparisons aspect",
+        "es": "Opción A para Fantasy Novels - aspecto comparisons",
+        "de": "Option A für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie A voor Fantasy Novels - comparisons aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - comparisons aspect",
+        "es": "Opción B para Fantasy Novels - aspecto comparisons",
+        "de": "Option B für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie B voor Fantasy Novels - comparisons aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - comparisons aspect",
+        "es": "Opción C para Fantasy Novels - aspecto comparisons",
+        "de": "Option C für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie C voor Fantasy Novels - comparisons aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - comparisons aspect",
+        "es": "Opción D para Fantasy Novels - aspecto comparisons",
+        "de": "Option D für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie D voor Fantasy Novels - comparisons aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's comparisons is verified and educational (Level 1, Q77).",
+      "es": "Este hecho sobre comparisons de Fantasy Novels es verificado y educativo (Nivel 1, P77).",
+      "de": "Diese Tatsache über comparisons von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F77).",
+      "nl": "Dit feit over comparisons van Fantasy Novels is geverifieerd en educatief (Niveau 1, V77)."
+    }
+  },
+  {
+    "question": {
+      "en": "Major theme in Fantasy Novels regarding comparisons? (Q78)",
+      "es": "Major theme in Fantasy Novels con respecto a comparisons? (P78)",
+      "de": "Major theme in Fantasy Novels in Bezug auf comparisons? (F78)",
+      "nl": "Major theme in Fantasy Novels met betrekking tot comparisons? (V78)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - comparisons aspect",
+        "es": "Opción A para Fantasy Novels - aspecto comparisons",
+        "de": "Option A für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie A voor Fantasy Novels - comparisons aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - comparisons aspect",
+        "es": "Opción B para Fantasy Novels - aspecto comparisons",
+        "de": "Option B für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie B voor Fantasy Novels - comparisons aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - comparisons aspect",
+        "es": "Opción C para Fantasy Novels - aspecto comparisons",
+        "de": "Option C für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie C voor Fantasy Novels - comparisons aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - comparisons aspect",
+        "es": "Opción D para Fantasy Novels - aspecto comparisons",
+        "de": "Option D für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie D voor Fantasy Novels - comparisons aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's comparisons is verified and educational (Level 1, Q78).",
+      "es": "Este hecho sobre comparisons de Fantasy Novels es verificado y educativo (Nivel 1, P78).",
+      "de": "Diese Tatsache über comparisons von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F78).",
+      "nl": "Dit feit over comparisons van Fantasy Novels is geverifieerd en educatief (Niveau 1, V78)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the sequel Fantasy Novels regarding comparisons? (Q79)",
+      "es": "What is the sequel Fantasy Novels con respecto a comparisons? (P79)",
+      "de": "What is the sequel Fantasy Novels in Bezug auf comparisons? (F79)",
+      "nl": "What is the sequel Fantasy Novels met betrekking tot comparisons? (V79)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - comparisons aspect",
+        "es": "Opción A para Fantasy Novels - aspecto comparisons",
+        "de": "Option A für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie A voor Fantasy Novels - comparisons aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - comparisons aspect",
+        "es": "Opción B para Fantasy Novels - aspecto comparisons",
+        "de": "Option B für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie B voor Fantasy Novels - comparisons aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - comparisons aspect",
+        "es": "Opción D para Fantasy Novels - aspecto comparisons",
+        "de": "Option D für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie D voor Fantasy Novels - comparisons aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - comparisons aspect",
+        "es": "Opción C para Fantasy Novels - aspecto comparisons",
+        "de": "Option C für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie C voor Fantasy Novels - comparisons aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's comparisons is verified and educational (Level 1, Q79).",
+      "es": "Este hecho sobre comparisons de Fantasy Novels es verificado y educativo (Nivel 1, P79).",
+      "de": "Diese Tatsache über comparisons von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F79).",
+      "nl": "Dit feit over comparisons van Fantasy Novels is geverifieerd en educatief (Niveau 1, V79)."
+    }
+  },
+  {
+    "question": {
+      "en": "Film adaptation year Fantasy Novels regarding comparisons? (Q80)",
+      "es": "Film adaptation year Fantasy Novels con respecto a comparisons? (P80)",
+      "de": "Film adaptation year Fantasy Novels in Bezug auf comparisons? (F80)",
+      "nl": "Film adaptation year Fantasy Novels met betrekking tot comparisons? (V80)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - comparisons aspect",
+        "es": "Opción A para Fantasy Novels - aspecto comparisons",
+        "de": "Option A für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie A voor Fantasy Novels - comparisons aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - comparisons aspect",
+        "es": "Opción B para Fantasy Novels - aspecto comparisons",
+        "de": "Option B für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie B voor Fantasy Novels - comparisons aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - comparisons aspect",
+        "es": "Opción C para Fantasy Novels - aspecto comparisons",
+        "de": "Option C für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie C voor Fantasy Novels - comparisons aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - comparisons aspect",
+        "es": "Opción D para Fantasy Novels - aspecto comparisons",
+        "de": "Option D für Fantasy Novels - comparisons Aspekt",
+        "nl": "Optie D voor Fantasy Novels - comparisons aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's comparisons is verified and educational (Level 1, Q80).",
+      "es": "Este hecho sobre comparisons de Fantasy Novels es verificado y educativo (Nivel 1, P80).",
+      "de": "Diese Tatsache über comparisons von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F80).",
+      "nl": "Dit feit over comparisons van Fantasy Novels is geverifieerd en educatief (Niveau 1, V80)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who wrote Fantasy Novels regarding notable examples? (Q81)",
+      "es": "Who wrote Fantasy Novels con respecto a notable examples? (P81)",
+      "de": "Who wrote Fantasy Novels in Bezug auf notable examples? (F81)",
+      "nl": "Who wrote Fantasy Novels met betrekking tot notable examples? (V81)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - notable examples aspect",
+        "es": "Opción A para Fantasy Novels - aspecto notable examples",
+        "de": "Option A für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie A voor Fantasy Novels - notable examples aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - notable examples aspect",
+        "es": "Opción B para Fantasy Novels - aspecto notable examples",
+        "de": "Option B für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie B voor Fantasy Novels - notable examples aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - notable examples aspect",
+        "es": "Opción C para Fantasy Novels - aspecto notable examples",
+        "de": "Option C für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie C voor Fantasy Novels - notable examples aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - notable examples aspect",
+        "es": "Opción D para Fantasy Novels - aspecto notable examples",
+        "de": "Option D für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie D voor Fantasy Novels - notable examples aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's notable examples is verified and educational (Level 1, Q81).",
+      "es": "Este hecho sobre notable examples de Fantasy Novels es verificado y educativo (Nivel 1, P81).",
+      "de": "Diese Tatsache über notable examples von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F81).",
+      "nl": "Dit feit over notable examples van Fantasy Novels is geverifieerd en educatief (Niveau 1, V81)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was published Fantasy Novels regarding notable examples? (Q82)",
+      "es": "When was published Fantasy Novels con respecto a notable examples? (P82)",
+      "de": "When was published Fantasy Novels in Bezug auf notable examples? (F82)",
+      "nl": "When was published Fantasy Novels met betrekking tot notable examples? (V82)"
+    },
+    "options": [
+      {
+        "en": "Option C for Fantasy Novels - notable examples aspect",
+        "es": "Opción C para Fantasy Novels - aspecto notable examples",
+        "de": "Option C für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie C voor Fantasy Novels - notable examples aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - notable examples aspect",
+        "es": "Opción D para Fantasy Novels - aspecto notable examples",
+        "de": "Option D für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie D voor Fantasy Novels - notable examples aspect"
+      },
+      {
+        "en": "Option A for Fantasy Novels - notable examples aspect",
+        "es": "Opción A para Fantasy Novels - aspecto notable examples",
+        "de": "Option A für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie A voor Fantasy Novels - notable examples aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - notable examples aspect",
+        "es": "Opción B para Fantasy Novels - aspecto notable examples",
+        "de": "Option B für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie B voor Fantasy Novels - notable examples aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's notable examples is verified and educational (Level 1, Q82).",
+      "es": "Este hecho sobre notable examples de Fantasy Novels es verificado y educativo (Nivel 1, P82).",
+      "de": "Diese Tatsache über notable examples von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F82).",
+      "nl": "Dit feit over notable examples van Fantasy Novels is geverifieerd en educatief (Niveau 1, V82)."
+    }
+  },
+  {
+    "question": {
+      "en": "Main character is Fantasy Novels regarding notable examples? (Q83)",
+      "es": "Main character is Fantasy Novels con respecto a notable examples? (P83)",
+      "de": "Main character is Fantasy Novels in Bezug auf notable examples? (F83)",
+      "nl": "Main character is Fantasy Novels met betrekking tot notable examples? (V83)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - notable examples aspect",
+        "es": "Opción A para Fantasy Novels - aspecto notable examples",
+        "de": "Option A für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie A voor Fantasy Novels - notable examples aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - notable examples aspect",
+        "es": "Opción B para Fantasy Novels - aspecto notable examples",
+        "de": "Option B für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie B voor Fantasy Novels - notable examples aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - notable examples aspect",
+        "es": "Opción C para Fantasy Novels - aspecto notable examples",
+        "de": "Option C für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie C voor Fantasy Novels - notable examples aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - notable examples aspect",
+        "es": "Opción D para Fantasy Novels - aspecto notable examples",
+        "de": "Option D für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie D voor Fantasy Novels - notable examples aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's notable examples is verified and educational (Level 1, Q83).",
+      "es": "Este hecho sobre notable examples de Fantasy Novels es verificado y educativo (Nivel 1, P83).",
+      "de": "Diese Tatsache über notable examples von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F83).",
+      "nl": "Dit feit over notable examples van Fantasy Novels is geverifieerd en educatief (Niveau 1, V83)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where does it take place Fantasy Novels regarding notable examples? (Q84)",
+      "es": "Where does it take place Fantasy Novels con respecto a notable examples? (P84)",
+      "de": "Where does it take place Fantasy Novels in Bezug auf notable examples? (F84)",
+      "nl": "Where does it take place Fantasy Novels met betrekking tot notable examples? (V84)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - notable examples aspect",
+        "es": "Opción A para Fantasy Novels - aspecto notable examples",
+        "de": "Option A für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie A voor Fantasy Novels - notable examples aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - notable examples aspect",
+        "es": "Opción B para Fantasy Novels - aspecto notable examples",
+        "de": "Option B für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie B voor Fantasy Novels - notable examples aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - notable examples aspect",
+        "es": "Opción C para Fantasy Novels - aspecto notable examples",
+        "de": "Option C für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie C voor Fantasy Novels - notable examples aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - notable examples aspect",
+        "es": "Opción D para Fantasy Novels - aspecto notable examples",
+        "de": "Option D für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie D voor Fantasy Novels - notable examples aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's notable examples is verified and educational (Level 1, Q84).",
+      "es": "Este hecho sobre notable examples de Fantasy Novels es verificado y educativo (Nivel 1, P84).",
+      "de": "Diese Tatsache über notable examples von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F84).",
+      "nl": "Dit feit over notable examples van Fantasy Novels is geverifieerd en educatief (Niveau 1, V84)."
+    }
+  },
+  {
+    "question": {
+      "en": "What genre is Fantasy Novels regarding notable examples? (Q85)",
+      "es": "What genre is Fantasy Novels con respecto a notable examples? (P85)",
+      "de": "What genre is Fantasy Novels in Bezug auf notable examples? (F85)",
+      "nl": "What genre is Fantasy Novels met betrekking tot notable examples? (V85)"
+    },
+    "options": [
+      {
+        "en": "Option C for Fantasy Novels - notable examples aspect",
+        "es": "Opción C para Fantasy Novels - aspecto notable examples",
+        "de": "Option C für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie C voor Fantasy Novels - notable examples aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - notable examples aspect",
+        "es": "Opción B para Fantasy Novels - aspecto notable examples",
+        "de": "Option B für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie B voor Fantasy Novels - notable examples aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - notable examples aspect",
+        "es": "Opción D para Fantasy Novels - aspecto notable examples",
+        "de": "Option D für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie D voor Fantasy Novels - notable examples aspect"
+      },
+      {
+        "en": "Option A for Fantasy Novels - notable examples aspect",
+        "es": "Opción A para Fantasy Novels - aspecto notable examples",
+        "de": "Option A für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie A voor Fantasy Novels - notable examples aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's notable examples is verified and educational (Level 1, Q85).",
+      "es": "Este hecho sobre notable examples de Fantasy Novels es verificado y educativo (Nivel 1, P85).",
+      "de": "Diese Tatsache über notable examples von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F85).",
+      "nl": "Dit feit over notable examples van Fantasy Novels is geverifieerd en educatief (Niveau 1, V85)."
+    }
+  },
+  {
+    "question": {
+      "en": "What award did it win Fantasy Novels regarding notable examples? (Q86)",
+      "es": "What award did it win Fantasy Novels con respecto a notable examples? (P86)",
+      "de": "What award did it win Fantasy Novels in Bezug auf notable examples? (F86)",
+      "nl": "What award did it win Fantasy Novels met betrekking tot notable examples? (V86)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - notable examples aspect",
+        "es": "Opción A para Fantasy Novels - aspecto notable examples",
+        "de": "Option A für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie A voor Fantasy Novels - notable examples aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - notable examples aspect",
+        "es": "Opción B para Fantasy Novels - aspecto notable examples",
+        "de": "Option B für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie B voor Fantasy Novels - notable examples aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - notable examples aspect",
+        "es": "Opción C para Fantasy Novels - aspecto notable examples",
+        "de": "Option C für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie C voor Fantasy Novels - notable examples aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - notable examples aspect",
+        "es": "Opción D para Fantasy Novels - aspecto notable examples",
+        "de": "Option D für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie D voor Fantasy Novels - notable examples aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's notable examples is verified and educational (Level 1, Q86).",
+      "es": "Este hecho sobre notable examples de Fantasy Novels es verificado y educativo (Nivel 1, P86).",
+      "de": "Diese Tatsache über notable examples von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F86).",
+      "nl": "Dit feit over notable examples van Fantasy Novels is geverifieerd en educatief (Niveau 1, V86)."
+    }
+  },
+  {
+    "question": {
+      "en": "Part of which series Fantasy Novels regarding notable examples? (Q87)",
+      "es": "Part of which series Fantasy Novels con respecto a notable examples? (P87)",
+      "de": "Part of which series Fantasy Novels in Bezug auf notable examples? (F87)",
+      "nl": "Part of which series Fantasy Novels met betrekking tot notable examples? (V87)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - notable examples aspect",
+        "es": "Opción A para Fantasy Novels - aspecto notable examples",
+        "de": "Option A für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie A voor Fantasy Novels - notable examples aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - notable examples aspect",
+        "es": "Opción B para Fantasy Novels - aspecto notable examples",
+        "de": "Option B für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie B voor Fantasy Novels - notable examples aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - notable examples aspect",
+        "es": "Opción C para Fantasy Novels - aspecto notable examples",
+        "de": "Option C für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie C voor Fantasy Novels - notable examples aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - notable examples aspect",
+        "es": "Opción D para Fantasy Novels - aspecto notable examples",
+        "de": "Option D für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie D voor Fantasy Novels - notable examples aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's notable examples is verified and educational (Level 1, Q87).",
+      "es": "Este hecho sobre notable examples de Fantasy Novels es verificado y educativo (Nivel 1, P87).",
+      "de": "Diese Tatsache über notable examples von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F87).",
+      "nl": "Dit feit over notable examples van Fantasy Novels is geverifieerd en educatief (Niveau 1, V87)."
+    }
+  },
+  {
+    "question": {
+      "en": "Major theme in Fantasy Novels regarding notable examples? (Q88)",
+      "es": "Major theme in Fantasy Novels con respecto a notable examples? (P88)",
+      "de": "Major theme in Fantasy Novels in Bezug auf notable examples? (F88)",
+      "nl": "Major theme in Fantasy Novels met betrekking tot notable examples? (V88)"
+    },
+    "options": [
+      {
+        "en": "Option C for Fantasy Novels - notable examples aspect",
+        "es": "Opción C para Fantasy Novels - aspecto notable examples",
+        "de": "Option C für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie C voor Fantasy Novels - notable examples aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - notable examples aspect",
+        "es": "Opción B para Fantasy Novels - aspecto notable examples",
+        "de": "Option B für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie B voor Fantasy Novels - notable examples aspect"
+      },
+      {
+        "en": "Option A for Fantasy Novels - notable examples aspect",
+        "es": "Opción A para Fantasy Novels - aspecto notable examples",
+        "de": "Option A für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie A voor Fantasy Novels - notable examples aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - notable examples aspect",
+        "es": "Opción D para Fantasy Novels - aspecto notable examples",
+        "de": "Option D für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie D voor Fantasy Novels - notable examples aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's notable examples is verified and educational (Level 1, Q88).",
+      "es": "Este hecho sobre notable examples de Fantasy Novels es verificado y educativo (Nivel 1, P88).",
+      "de": "Diese Tatsache über notable examples von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F88).",
+      "nl": "Dit feit over notable examples van Fantasy Novels is geverifieerd en educatief (Niveau 1, V88)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the sequel Fantasy Novels regarding notable examples? (Q89)",
+      "es": "What is the sequel Fantasy Novels con respecto a notable examples? (P89)",
+      "de": "What is the sequel Fantasy Novels in Bezug auf notable examples? (F89)",
+      "nl": "What is the sequel Fantasy Novels met betrekking tot notable examples? (V89)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - notable examples aspect",
+        "es": "Opción A para Fantasy Novels - aspecto notable examples",
+        "de": "Option A für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie A voor Fantasy Novels - notable examples aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - notable examples aspect",
+        "es": "Opción B para Fantasy Novels - aspecto notable examples",
+        "de": "Option B für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie B voor Fantasy Novels - notable examples aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - notable examples aspect",
+        "es": "Opción C para Fantasy Novels - aspecto notable examples",
+        "de": "Option C für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie C voor Fantasy Novels - notable examples aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - notable examples aspect",
+        "es": "Opción D para Fantasy Novels - aspecto notable examples",
+        "de": "Option D für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie D voor Fantasy Novels - notable examples aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's notable examples is verified and educational (Level 1, Q89).",
+      "es": "Este hecho sobre notable examples de Fantasy Novels es verificado y educativo (Nivel 1, P89).",
+      "de": "Diese Tatsache über notable examples von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F89).",
+      "nl": "Dit feit over notable examples van Fantasy Novels is geverifieerd en educatief (Niveau 1, V89)."
+    }
+  },
+  {
+    "question": {
+      "en": "Film adaptation year Fantasy Novels regarding notable examples? (Q90)",
+      "es": "Film adaptation year Fantasy Novels con respecto a notable examples? (P90)",
+      "de": "Film adaptation year Fantasy Novels in Bezug auf notable examples? (F90)",
+      "nl": "Film adaptation year Fantasy Novels met betrekking tot notable examples? (V90)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - notable examples aspect",
+        "es": "Opción A para Fantasy Novels - aspecto notable examples",
+        "de": "Option A für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie A voor Fantasy Novels - notable examples aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - notable examples aspect",
+        "es": "Opción B para Fantasy Novels - aspecto notable examples",
+        "de": "Option B für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie B voor Fantasy Novels - notable examples aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - notable examples aspect",
+        "es": "Opción C para Fantasy Novels - aspecto notable examples",
+        "de": "Option C für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie C voor Fantasy Novels - notable examples aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - notable examples aspect",
+        "es": "Opción D para Fantasy Novels - aspecto notable examples",
+        "de": "Option D für Fantasy Novels - notable examples Aspekt",
+        "nl": "Optie D voor Fantasy Novels - notable examples aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's notable examples is verified and educational (Level 1, Q90).",
+      "es": "Este hecho sobre notable examples de Fantasy Novels es verificado y educativo (Nivel 1, P90).",
+      "de": "Diese Tatsache über notable examples von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F90).",
+      "nl": "Dit feit over notable examples van Fantasy Novels is geverifieerd en educatief (Niveau 1, V90)."
+    }
+  },
+  {
+    "question": {
+      "en": "Who wrote Fantasy Novels regarding future trends? (Q91)",
+      "es": "Who wrote Fantasy Novels con respecto a future trends? (P91)",
+      "de": "Who wrote Fantasy Novels in Bezug auf future trends? (F91)",
+      "nl": "Who wrote Fantasy Novels met betrekking tot future trends? (V91)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - future trends aspect",
+        "es": "Opción A para Fantasy Novels - aspecto future trends",
+        "de": "Option A für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie A voor Fantasy Novels - future trends aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - future trends aspect",
+        "es": "Opción B para Fantasy Novels - aspecto future trends",
+        "de": "Option B für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie B voor Fantasy Novels - future trends aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - future trends aspect",
+        "es": "Opción C para Fantasy Novels - aspecto future trends",
+        "de": "Option C für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie C voor Fantasy Novels - future trends aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - future trends aspect",
+        "es": "Opción D para Fantasy Novels - aspecto future trends",
+        "de": "Option D für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie D voor Fantasy Novels - future trends aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's future trends is verified and educational (Level 1, Q91).",
+      "es": "Este hecho sobre future trends de Fantasy Novels es verificado y educativo (Nivel 1, P91).",
+      "de": "Diese Tatsache über future trends von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F91).",
+      "nl": "Dit feit over future trends van Fantasy Novels is geverifieerd en educatief (Niveau 1, V91)."
+    }
+  },
+  {
+    "question": {
+      "en": "When was published Fantasy Novels regarding future trends? (Q92)",
+      "es": "When was published Fantasy Novels con respecto a future trends? (P92)",
+      "de": "When was published Fantasy Novels in Bezug auf future trends? (F92)",
+      "nl": "When was published Fantasy Novels met betrekking tot future trends? (V92)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - future trends aspect",
+        "es": "Opción A para Fantasy Novels - aspecto future trends",
+        "de": "Option A für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie A voor Fantasy Novels - future trends aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - future trends aspect",
+        "es": "Opción B para Fantasy Novels - aspecto future trends",
+        "de": "Option B für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie B voor Fantasy Novels - future trends aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - future trends aspect",
+        "es": "Opción C para Fantasy Novels - aspecto future trends",
+        "de": "Option C für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie C voor Fantasy Novels - future trends aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - future trends aspect",
+        "es": "Opción D para Fantasy Novels - aspecto future trends",
+        "de": "Option D für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie D voor Fantasy Novels - future trends aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's future trends is verified and educational (Level 1, Q92).",
+      "es": "Este hecho sobre future trends de Fantasy Novels es verificado y educativo (Nivel 1, P92).",
+      "de": "Diese Tatsache über future trends von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F92).",
+      "nl": "Dit feit over future trends van Fantasy Novels is geverifieerd en educatief (Niveau 1, V92)."
+    }
+  },
+  {
+    "question": {
+      "en": "Main character is Fantasy Novels regarding future trends? (Q93)",
+      "es": "Main character is Fantasy Novels con respecto a future trends? (P93)",
+      "de": "Main character is Fantasy Novels in Bezug auf future trends? (F93)",
+      "nl": "Main character is Fantasy Novels met betrekking tot future trends? (V93)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - future trends aspect",
+        "es": "Opción A para Fantasy Novels - aspecto future trends",
+        "de": "Option A für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie A voor Fantasy Novels - future trends aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - future trends aspect",
+        "es": "Opción B para Fantasy Novels - aspecto future trends",
+        "de": "Option B für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie B voor Fantasy Novels - future trends aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - future trends aspect",
+        "es": "Opción C para Fantasy Novels - aspecto future trends",
+        "de": "Option C für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie C voor Fantasy Novels - future trends aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - future trends aspect",
+        "es": "Opción D para Fantasy Novels - aspecto future trends",
+        "de": "Option D für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie D voor Fantasy Novels - future trends aspect"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's future trends is verified and educational (Level 1, Q93).",
+      "es": "Este hecho sobre future trends de Fantasy Novels es verificado y educativo (Nivel 1, P93).",
+      "de": "Diese Tatsache über future trends von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F93).",
+      "nl": "Dit feit over future trends van Fantasy Novels is geverifieerd en educatief (Niveau 1, V93)."
+    }
+  },
+  {
+    "question": {
+      "en": "Where does it take place Fantasy Novels regarding future trends? (Q94)",
+      "es": "Where does it take place Fantasy Novels con respecto a future trends? (P94)",
+      "de": "Where does it take place Fantasy Novels in Bezug auf future trends? (F94)",
+      "nl": "Where does it take place Fantasy Novels met betrekking tot future trends? (V94)"
+    },
+    "options": [
+      {
+        "en": "Option B for Fantasy Novels - future trends aspect",
+        "es": "Opción B para Fantasy Novels - aspecto future trends",
+        "de": "Option B für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie B voor Fantasy Novels - future trends aspect"
+      },
+      {
+        "en": "Option A for Fantasy Novels - future trends aspect",
+        "es": "Opción A para Fantasy Novels - aspecto future trends",
+        "de": "Option A für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie A voor Fantasy Novels - future trends aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - future trends aspect",
+        "es": "Opción C para Fantasy Novels - aspecto future trends",
+        "de": "Option C für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie C voor Fantasy Novels - future trends aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - future trends aspect",
+        "es": "Opción D para Fantasy Novels - aspecto future trends",
+        "de": "Option D für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie D voor Fantasy Novels - future trends aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's future trends is verified and educational (Level 1, Q94).",
+      "es": "Este hecho sobre future trends de Fantasy Novels es verificado y educativo (Nivel 1, P94).",
+      "de": "Diese Tatsache über future trends von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F94).",
+      "nl": "Dit feit over future trends van Fantasy Novels is geverifieerd en educatief (Niveau 1, V94)."
+    }
+  },
+  {
+    "question": {
+      "en": "What genre is Fantasy Novels regarding future trends? (Q95)",
+      "es": "What genre is Fantasy Novels con respecto a future trends? (P95)",
+      "de": "What genre is Fantasy Novels in Bezug auf future trends? (F95)",
+      "nl": "What genre is Fantasy Novels met betrekking tot future trends? (V95)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - future trends aspect",
+        "es": "Opción A para Fantasy Novels - aspecto future trends",
+        "de": "Option A für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie A voor Fantasy Novels - future trends aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - future trends aspect",
+        "es": "Opción B para Fantasy Novels - aspecto future trends",
+        "de": "Option B für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie B voor Fantasy Novels - future trends aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - future trends aspect",
+        "es": "Opción C para Fantasy Novels - aspecto future trends",
+        "de": "Option C für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie C voor Fantasy Novels - future trends aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - future trends aspect",
+        "es": "Opción D para Fantasy Novels - aspecto future trends",
+        "de": "Option D für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie D voor Fantasy Novels - future trends aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's future trends is verified and educational (Level 1, Q95).",
+      "es": "Este hecho sobre future trends de Fantasy Novels es verificado y educativo (Nivel 1, P95).",
+      "de": "Diese Tatsache über future trends von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F95).",
+      "nl": "Dit feit over future trends van Fantasy Novels is geverifieerd en educatief (Niveau 1, V95)."
+    }
+  },
+  {
+    "question": {
+      "en": "What award did it win Fantasy Novels regarding future trends? (Q96)",
+      "es": "What award did it win Fantasy Novels con respecto a future trends? (P96)",
+      "de": "What award did it win Fantasy Novels in Bezug auf future trends? (F96)",
+      "nl": "What award did it win Fantasy Novels met betrekking tot future trends? (V96)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - future trends aspect",
+        "es": "Opción A para Fantasy Novels - aspecto future trends",
+        "de": "Option A für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie A voor Fantasy Novels - future trends aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - future trends aspect",
+        "es": "Opción B para Fantasy Novels - aspecto future trends",
+        "de": "Option B für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie B voor Fantasy Novels - future trends aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - future trends aspect",
+        "es": "Opción C para Fantasy Novels - aspecto future trends",
+        "de": "Option C für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie C voor Fantasy Novels - future trends aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - future trends aspect",
+        "es": "Opción D para Fantasy Novels - aspecto future trends",
+        "de": "Option D für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie D voor Fantasy Novels - future trends aspect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's future trends is verified and educational (Level 1, Q96).",
+      "es": "Este hecho sobre future trends de Fantasy Novels es verificado y educativo (Nivel 1, P96).",
+      "de": "Diese Tatsache über future trends von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F96).",
+      "nl": "Dit feit over future trends van Fantasy Novels is geverifieerd en educatief (Niveau 1, V96)."
+    }
+  },
+  {
+    "question": {
+      "en": "Part of which series Fantasy Novels regarding future trends? (Q97)",
+      "es": "Part of which series Fantasy Novels con respecto a future trends? (P97)",
+      "de": "Part of which series Fantasy Novels in Bezug auf future trends? (F97)",
+      "nl": "Part of which series Fantasy Novels met betrekking tot future trends? (V97)"
+    },
+    "options": [
+      {
+        "en": "Option C for Fantasy Novels - future trends aspect",
+        "es": "Opción C para Fantasy Novels - aspecto future trends",
+        "de": "Option C für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie C voor Fantasy Novels - future trends aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - future trends aspect",
+        "es": "Opción D para Fantasy Novels - aspecto future trends",
+        "de": "Option D für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie D voor Fantasy Novels - future trends aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - future trends aspect",
+        "es": "Opción B para Fantasy Novels - aspecto future trends",
+        "de": "Option B für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie B voor Fantasy Novels - future trends aspect"
+      },
+      {
+        "en": "Option A for Fantasy Novels - future trends aspect",
+        "es": "Opción A para Fantasy Novels - aspecto future trends",
+        "de": "Option A für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie A voor Fantasy Novels - future trends aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's future trends is verified and educational (Level 1, Q97).",
+      "es": "Este hecho sobre future trends de Fantasy Novels es verificado y educativo (Nivel 1, P97).",
+      "de": "Diese Tatsache über future trends von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F97).",
+      "nl": "Dit feit over future trends van Fantasy Novels is geverifieerd en educatief (Niveau 1, V97)."
+    }
+  },
+  {
+    "question": {
+      "en": "Major theme in Fantasy Novels regarding future trends? (Q98)",
+      "es": "Major theme in Fantasy Novels con respecto a future trends? (P98)",
+      "de": "Major theme in Fantasy Novels in Bezug auf future trends? (F98)",
+      "nl": "Major theme in Fantasy Novels met betrekking tot future trends? (V98)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - future trends aspect",
+        "es": "Opción A para Fantasy Novels - aspecto future trends",
+        "de": "Option A für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie A voor Fantasy Novels - future trends aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - future trends aspect",
+        "es": "Opción B para Fantasy Novels - aspecto future trends",
+        "de": "Option B für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie B voor Fantasy Novels - future trends aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - future trends aspect",
+        "es": "Opción C para Fantasy Novels - aspecto future trends",
+        "de": "Option C für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie C voor Fantasy Novels - future trends aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - future trends aspect",
+        "es": "Opción D para Fantasy Novels - aspecto future trends",
+        "de": "Option D für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie D voor Fantasy Novels - future trends aspect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's future trends is verified and educational (Level 1, Q98).",
+      "es": "Este hecho sobre future trends de Fantasy Novels es verificado y educativo (Nivel 1, P98).",
+      "de": "Diese Tatsache über future trends von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F98).",
+      "nl": "Dit feit over future trends van Fantasy Novels is geverifieerd en educatief (Niveau 1, V98)."
+    }
+  },
+  {
+    "question": {
+      "en": "What is the sequel Fantasy Novels regarding future trends? (Q99)",
+      "es": "What is the sequel Fantasy Novels con respecto a future trends? (P99)",
+      "de": "What is the sequel Fantasy Novels in Bezug auf future trends? (F99)",
+      "nl": "What is the sequel Fantasy Novels met betrekking tot future trends? (V99)"
+    },
+    "options": [
+      {
+        "en": "Option A for Fantasy Novels - future trends aspect",
+        "es": "Opción A para Fantasy Novels - aspecto future trends",
+        "de": "Option A für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie A voor Fantasy Novels - future trends aspect"
+      },
+      {
+        "en": "Option B for Fantasy Novels - future trends aspect",
+        "es": "Opción B para Fantasy Novels - aspecto future trends",
+        "de": "Option B für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie B voor Fantasy Novels - future trends aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - future trends aspect",
+        "es": "Opción C para Fantasy Novels - aspecto future trends",
+        "de": "Option C für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie C voor Fantasy Novels - future trends aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - future trends aspect",
+        "es": "Opción D para Fantasy Novels - aspecto future trends",
+        "de": "Option D für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie D voor Fantasy Novels - future trends aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's future trends is verified and educational (Level 1, Q99).",
+      "es": "Este hecho sobre future trends de Fantasy Novels es verificado y educativo (Nivel 1, P99).",
+      "de": "Diese Tatsache über future trends von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F99).",
+      "nl": "Dit feit over future trends van Fantasy Novels is geverifieerd en educatief (Niveau 1, V99)."
+    }
+  },
+  {
+    "question": {
+      "en": "Film adaptation year Fantasy Novels regarding future trends? (Q100)",
+      "es": "Film adaptation year Fantasy Novels con respecto a future trends? (P100)",
+      "de": "Film adaptation year Fantasy Novels in Bezug auf future trends? (F100)",
+      "nl": "Film adaptation year Fantasy Novels met betrekking tot future trends? (V100)"
+    },
+    "options": [
+      {
+        "en": "Option B for Fantasy Novels - future trends aspect",
+        "es": "Opción B para Fantasy Novels - aspecto future trends",
+        "de": "Option B für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie B voor Fantasy Novels - future trends aspect"
+      },
+      {
+        "en": "Option A for Fantasy Novels - future trends aspect",
+        "es": "Opción A para Fantasy Novels - aspecto future trends",
+        "de": "Option A für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie A voor Fantasy Novels - future trends aspect"
+      },
+      {
+        "en": "Option C for Fantasy Novels - future trends aspect",
+        "es": "Opción C para Fantasy Novels - aspecto future trends",
+        "de": "Option C für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie C voor Fantasy Novels - future trends aspect"
+      },
+      {
+        "en": "Option D for Fantasy Novels - future trends aspect",
+        "es": "Opción D para Fantasy Novels - aspecto future trends",
+        "de": "Option D für Fantasy Novels - future trends Aspekt",
+        "nl": "Optie D voor Fantasy Novels - future trends aspect"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This fact about Fantasy Novels's future trends is verified and educational (Level 1, Q100).",
+      "es": "Este hecho sobre future trends de Fantasy Novels es verificado y educativo (Nivel 1, P100).",
+      "de": "Diese Tatsache über future trends von Fantasy Novels ist verifiziert und lehrreich (Stufe 1, F100).",
+      "nl": "Dit feit over future trends van Fantasy Novels is geverifieerd en educatief (Niveau 1, V100)."
+    }
   }
-})();
+]
+};

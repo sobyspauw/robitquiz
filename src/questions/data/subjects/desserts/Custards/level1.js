@@ -1,1657 +1,4104 @@
-// Custards Quiz - Level 1
-(function() {
-  const level1 = {
-    name: {
-          "en": "Custards - Level 1",
-          "es": "Natillas - Nivel 1",
-          "de": "Puddings - Level 1",
-          "nl": "Custards - Level 1"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Custards",
+      "es": "Pregunta 1 sobre Custards",
+      "de": "Frage 1 über Custards",
+      "nl": "Vraag 1 over Custards"
     },
-    questions: [
+    "options": [
       {
-        question: {
-                  "en": "What are the two main ingredients in basic custard?",
-                  "es": "¿Cuáles son los dos ingredientes principales en las natillas básicas?",
-                  "de": "Was sind die zwei Hauptzutaten in grundlegendem Pudding?",
-                  "nl": "Wat zijn de twee hoofdingrediënten in basis custard?"
-        },
-        options: [
-        {
-                  "en": "Eggs and milk",
-                  "es": "Huevos y leche",
-                  "de": "Eier und Milch",
-                  "nl": "Eieren en melk"
-        },
-        {
-                  "en": "Flour and butter",
-                  "es": "Harina y mantequilla",
-                  "de": "Mehl und Butter",
-                  "nl": "Meel en boter"
-        },
-        {
-                  "en": "Sugar and cream",
-                  "es": "Azúcar y nata",
-                  "de": "Zucker und Sahne",
-                  "nl": "Suiker en room"
-        },
-        {
-                  "en": "Gelatin and water",
-                  "es": "Gelatina y agua",
-                  "de": "Gelatine und Wasser",
-                  "nl": "Gelatine en water"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Basic custard is made with eggs (which provide thickening proteins) and milk or cream, creating a smooth, creamy texture when cooked properly.",
-                  "es": "Las natillas básicas se hacen con huevos (que proporcionan proteínas espesantes) y leche o nata, creando una textura suave y cremosa cuando se cocinan correctamente.",
-                  "de": "Grundlegender Pudding wird mit Eiern (die verdickende Proteine liefern) und Milch oder Sahne gemacht, wodurch eine glatte, cremige Textur entsteht, wenn er richtig gekocht wird.",
-                  "nl": "Basis custard wordt gemaakt met eieren (die verdikkende eiwitten leveren) en melk of room, waardoor een gladde, romige textuur ontstaat bij correct koken."
-        }
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
       },
       {
-        question: {
-                  "en": "What happens if you cook custard too quickly or at too high temperature?",
-                  "es": "¿Qué pasa si cocinas las natillas demasiado rápido o a temperatura muy alta?",
-                  "de": "Was passiert, wenn man Pudding zu schnell oder bei zu hoher Temperatur kocht?",
-                  "nl": "Wat gebeurt er als je custard te snel of op te hoge temperatuur kookt?"
-        },
-        options: [
-        {
-                  "en": "It changes color only",
-                  "es": "Solo cambia de color",
-                  "de": "Es ändert nur die Farbe",
-                  "nl": "Het verandert alleen van kleur"
-        },
-        {
-                  "en": "It becomes sweeter",
-                  "es": "Se vuelve más dulce",
-                  "de": "Es wird süßer",
-                  "nl": "Het wordt zoeter"
-        },
-        {
-                  "en": "It becomes thicker",
-                  "es": "Se vuelve más espeso",
-                  "de": "Es wird dicker",
-                  "nl": "Het wordt dikker"
-        },
-        {
-                  "en": "It curdles or scrambles",
-                  "es": "Se cuaja o se revuelve",
-                  "de": "Es gerinnt oder stockt",
-                  "nl": "Het scheidt of stolt"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "High heat causes the egg proteins to coagulate too quickly, creating lumps and a grainy texture instead of smooth custard. Low, gentle heat is essential.",
-                  "es": "El calor alto hace que las proteínas del huevo se coagulen demasiado rápido, creando grumos y una textura granulosa en lugar de natillas suaves. El calor bajo y suave es esencial.",
-                  "de": "Hohe Hitze lässt die Eiproteine zu schnell gerinnen, wodurch Klumpen und eine körnige Textur entstehen anstatt glattem Pudding. Niedrige, sanfte Hitze ist wesentlich.",
-                  "nl": "Hoge hitte zorgt ervoor dat de eiproteïnen te snel coaguleren, waardoor klontjes en een korrelige textuur ontstaan in plaats van gladde custard. Lage, zachte hitte is essentieel."
-        }
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
       },
       {
-        question: {
-                  "en": "Which cooking method is best for making custard?",
-                  "es": "¿Qué método de cocción es mejor para hacer natillas?",
-                  "de": "Welche Kochmethode ist am besten für die Herstellung von Pudding?",
-                  "nl": "Welke kookmethode is het beste voor het maken van custard?"
-        },
-        options: [
-        {
-                  "en": "Microwave on high",
-                  "es": "Microondas en alto",
-                  "de": "Mikrowelle auf hoch",
-                  "nl": "Magnetron op hoog"
-        },
-        {
-                  "en": "Double boiler or low heat",
-                  "es": "Baño maría o calor bajo",
-                  "de": "Wasserbad oder niedrige Hitze",
-                  "nl": "Au bain marie of lage hitte"
-        },
-        {
-                  "en": "High heat, stirring fast",
-                  "es": "Calor alto, revolviendo rápido",
-                  "de": "Hohe Hitze, schnell rühren",
-                  "nl": "Hoge hitte, snel roeren"
-        },
-        {
-                  "en": "Oven at high temperature",
-                  "es": "Horno a alta temperatura",
-                  "de": "Ofen bei hoher Temperatur",
-                  "nl": "Oven op hoge temperatuur"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "A double boiler or low, gentle heat prevents the custard from overheating and ensures smooth, even cooking without curdling.",
-                  "es": "Un baño maría o calor bajo y suave previene que las natillas se sobrecalienten y asegura una cocción suave y uniforme sin cuajar.",
-                  "de": "Ein Wasserbad oder niedrige, sanfte Hitze verhindert, dass der Pudding überhitzt wird und sorgt für gleichmäßiges, glattes Kochen ohne Gerinnen.",
-                  "nl": "Een au bain marie of lage, zachte hitte voorkomt dat de custard oververhit raakt en zorgt voor glad, gelijkmatig koken zonder scheiden."
-        }
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
       },
       {
-        question: {
-                  "en": "What is crème anglaise?",
-                  "es": "¿Qué es la crème anglaise?",
-                  "de": "Was ist Crème anglaise?",
-                  "nl": "Wat is crème anglaise?"
-        },
-        options: [
-        {
-                  "en": "A baked custard",
-                  "es": "Unas natillas horneadas",
-                  "de": "Ein gebackener Pudding",
-                  "nl": "Een gebakken custard"
-        },
-        {
-                  "en": "A poured custard sauce",
-                  "es": "Una salsa de natillas vertida",
-                  "de": "Eine gegossene Puddingsauce",
-                  "nl": "Een gegoten custard saus"
-        },
-        {
-                  "en": "A type of cake",
-                  "es": "Un tipo de pastel",
-                  "de": "Eine Art Kuchen",
-                  "nl": "Een soort taart"
-        },
-        {
-                  "en": "A frozen dessert",
-                  "es": "Un postre congelado",
-                  "de": "Ein gefrorenes Dessert",
-                  "nl": "Een bevroren dessert"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Crème anglaise is a thin, pourable vanilla custard sauce served with desserts. It's cooked on the stovetop until it coats the back of a spoon.",
-                  "es": "La crème anglaise es una salsa fina de natillas de vainilla que se vierte y se sirve con postres. Se cocina en la estufa hasta que cubra el dorso de una cuchara.",
-                  "de": "Crème anglaise ist eine dünne, gießbare Vanillepudding-Sauce, die zu Desserts serviert wird. Sie wird auf dem Herd gekocht, bis sie den Rücken eines Löffels überzieht.",
-                  "nl": "Crème anglaise is een dunne, gietbare vanille custard saus die bij desserts geserveerd wordt. Het wordt op het fornuis gekookt tot het de achterkant van een lepel bedekt."
-        }
-      },
-      {
-        question: {
-                  "en": "What distinguishes a baked custard from a stirred custard?",
-                  "es": "¿Qué distingue unas natillas horneadas de unas natillas revueltas?",
-                  "de": "Was unterscheidet einen gebackenen Pudding von einem gerührten Pudding?",
-                  "nl": "Wat onderscheidt een gebakken custard van een geroerde custard?"
-        },
-        options: [
-        {
-                  "en": "The ingredients used",
-                  "es": "Los ingredientes utilizados",
-                  "de": "Die verwendeten Zutaten",
-                  "nl": "De gebruikte ingrediënten"
-        },
-        {
-                  "en": "The serving temperature",
-                  "es": "La temperatura de servicio",
-                  "de": "Die Serviertemperatur",
-                  "nl": "De serveertemperatuur"
-        },
-        {
-                  "en": "The color",
-                  "es": "El color",
-                  "de": "Die Farbe",
-                  "nl": "De kleur"
-        },
-        {
-                  "en": "The cooking method",
-                  "es": "El método de cocción",
-                  "de": "Die Kochmethode",
-                  "nl": "De kookmethode"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Baked custards are cooked in the oven (like flan or crème brûlée) while stirred custards are cooked on the stovetop with constant stirring (like pastry cream).",
-                  "es": "Las natillas horneadas se cocinan en el horno (como flan o crème brûlée) mientras que las natillas revueltas se cocinan en la estufa con revuelto constante (como crema pastelera).",
-                  "de": "Gebackene Puddings werden im Ofen gekocht (wie Flan oder Crème brûlée), während gerührte Puddings auf dem Herd unter ständigem Rühren gekocht werden (wie Konditorcreme).",
-                  "nl": "Gebakken custards worden in de oven gekookt (zoals flan of crème brûlée) terwijl geroerde custards op het fornuis gekookt worden met constant roeren (zoals banketbakkersroom)."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the purpose of tempering eggs when making custard?",
-                  "es": "¿Cuál es el propósito de templar los huevos al hacer natillas?",
-                  "de": "Was ist der Zweck des Temperierens von Eiern bei der Puddingherstellung?",
-                  "nl": "Wat is het doel van het tempereren van eieren bij het maken van custard?"
-        },
-        options: [
-        {
-                  "en": "To add sweetness",
-                  "es": "Para añadir dulzura",
-                  "de": "Um Süße hinzuzufügen",
-                  "nl": "Om zoetheid toe te voegen"
-        },
-        {
-                  "en": "To change the flavor",
-                  "es": "Para cambiar el sabor",
-                  "de": "Um den Geschmack zu ändern",
-                  "nl": "Om de smaak te veranderen"
-        },
-        {
-                  "en": "To increase volume",
-                  "es": "Para aumentar el volumen",
-                  "de": "Um das Volumen zu erhöhen",
-                  "nl": "Om het volume te vergroten"
-        },
-        {
-                  "en": "To prevent curdling",
-                  "es": "Para prevenir que se cuaje",
-                  "de": "Um Gerinnen zu verhindern",
-                  "nl": "Om scheiden te voorkomen"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Tempering involves gradually adding hot liquid to beaten eggs while whisking, slowly raising their temperature to prevent them from scrambling when added to the hot mixture.",
-                  "es": "Templar implica añadir gradualmente líquido caliente a huevos batidos mientras se bate, aumentando lentamente su temperatura para evitar que se revuelvan cuando se añaden a la mezcla caliente.",
-                  "de": "Temperieren bedeutet, heiße Flüssigkeit allmählich zu geschlagenen Eiern hinzuzufügen, während man schlägt, um ihre Temperatur langsam zu erhöhen und zu verhindern, dass sie stocken, wenn sie zur heißen Mischung hinzugefügt werden.",
-                  "nl": "Tempereren houdt in dat je geleidelijk hete vloeistof toevoegt aan geklopte eieren terwijl je klopt, waardoor hun temperatuur langzaam stijgt om te voorkomen dat ze stollen wanneer ze aan het hete mengsel worden toegevoegd."
-        }
-      },
-      {
-        question: {
-                  "en": "Which type of custard is crème brûlée?",
-                  "es": "¿Qué tipo de natillas es la crème brûlée?",
-                  "de": "Welche Art von Pudding ist Crème brûlée?",
-                  "nl": "Welk type custard is crème brûlée?"
-        },
-        options: [
-        {
-                  "en": "Stirred custard",
-                  "es": "Natillas revueltas",
-                  "de": "Gerührter Pudding",
-                  "nl": "Geroerde custard"
-        },
-        {
-                  "en": "Whipped custard",
-                  "es": "Natillas batidas",
-                  "de": "Geschlagener Pudding",
-                  "nl": "Geklopte custard"
-        },
-        {
-                  "en": "Baked custard",
-                  "es": "Natillas horneadas",
-                  "de": "Gebackener Pudding",
-                  "nl": "Gebakken custard"
-        },
-        {
-                  "en": "Frozen custard",
-                  "es": "Natillas congeladas",
-                  "de": "Gefrorener Pudding",
-                  "nl": "Bevroren custard"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Crème brûlée is a rich baked custard topped with caramelized sugar. It's baked in individual ramekins in a water bath (bain-marie).",
-                  "es": "La crème brûlée es una rica natilla horneada cubierta con azúcar caramelizado. Se hornea en moldes individuales en baño maría.",
-                  "de": "Crème brûlée ist ein reichhaltiger gebackener Pudding mit karamelisiertem Zucker. Er wird in einzelnen Förmchen im Wasserbad (Bain-Marie) gebacken.",
-                  "nl": "Crème brûlée is een rijke gebakken custard bedekt met gekarameliseerde suiker. Het wordt gebakken in individuele vormpjes in een waterbad (au bain-marie)."
-        }
-      },
-      {
-        question: {
-                  "en": "What gives flan its characteristic caramel flavor?",
-                  "es": "¿Qué le da al flan su sabor característico a caramelo?",
-                  "de": "Was verleiht Flan seinen charakteristischen Karamellgeschmack?",
-                  "nl": "Wat geeft flan zijn karakteristieke karamelsmaak?"
-        },
-        options: [
-        {
-                  "en": "Caramel extract",
-                  "es": "Extracto de caramelo",
-                  "de": "Karamellextrakt",
-                  "nl": "Karamelextract"
-        },
-        {
-                  "en": "Caramel syrup added after baking",
-                  "es": "Jarabe de caramelo añadido después de hornear",
-                  "de": "Karamellsirup nach dem Backen hinzugefügt",
-                  "nl": "Karamelsiroop toegevoegd na het bakken"
-        },
-        {
-                  "en": "Brown sugar",
-                  "es": "Azúcar moreno",
-                  "de": "Brauner Zucker",
-                  "nl": "Bruine suiker"
-        },
-        {
-                  "en": "Caramelized sugar in the mold",
-                  "es": "Azúcar caramelizado en el molde",
-                  "de": "Karamelisierter Zucker in der Form",
-                  "nl": "Gekarameliseerde suiker in de vorm"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Flan gets its caramel flavor from sugar that's caramelized directly in the baking mold before adding the custard mixture. This creates both flavor and the signature sauce.",
-                  "es": "El flan obtiene su sabor a caramelo del azúcar que se carameliza directamente en el molde de hornear antes de añadir la mezcla de natillas. Esto crea tanto sabor como la salsa característica.",
-                  "de": "Flan erhält seinen Karamellgeschmack von Zucker, der direkt in der Backform karamelisiert wird, bevor die Puddingmischung hinzugefügt wird. Dies erzeugt sowohl Geschmack als auch die charakteristische Sauce.",
-                  "nl": "Flan krijgt zijn karamelsmaak van suiker die direct in de bakvorm gekarameliseerd wordt voordat het custardmengsel wordt toegevoegd. Dit creëert zowel smaak als de kenmerkende saus."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the ideal texture for properly made custard?",
-                  "es": "¿Cuál es la textura ideal para unas natillas bien hechas?",
-                  "de": "Was ist die ideale Textur für richtig gemachten Pudding?",
-                  "nl": "Wat is de ideale textuur voor goed gemaakte custard?"
-        },
-        options: [
-        {
-                  "en": "Thin and watery",
-                  "es": "Fina y aguada",
-                  "de": "Dünn und wässrig",
-                  "nl": "Dun en waterig"
-        },
-        {
-                  "en": "Lumpy and thick",
-                  "es": "Grumosa y espesa",
-                  "de": "Klumpig und dick",
-                  "nl": "Klonterig en dik"
-        },
-        {
-                  "en": "Thick and grainy",
-                  "es": "Espesa y granulosa",
-                  "de": "Dick und körnig",
-                  "nl": "Dik en korrelig"
-        },
-        {
-                  "en": "Smooth and creamy",
-                  "es": "Suave y cremosa",
-                  "de": "Glatt und cremig",
-                  "nl": "Glad en romig"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Properly made custard should have a smooth, creamy texture without lumps or graininess. It should coat the back of a spoon but still be pourable.",
-                  "es": "Las natillas bien hechas deben tener una textura suave y cremosa sin grumos o granulado. Debe cubrir el dorso de una cuchara pero aún ser vertible.",
-                  "de": "Richtig gemachter Pudding sollte eine glatte, cremige Textur ohne Klumpen oder Körnigkeit haben. Er sollte den Rücken eines Löffels überziehen, aber noch gießbar sein.",
-                  "nl": "Goed gemaakte custard moet een gladde, romige textuur hebben zonder klontjes of korreligheid. Het moet de achterkant van een lepel bekleden maar nog steeds gietbaar zijn."
-        }
-      },
-      {
-        question: {
-                  "en": "What is pastry cream (crème pâtissière)?",
-                  "es": "¿Qué es la crema pastelera (crème pâtissière)?",
-                  "de": "Was ist Konditorcreme (Crème pâtissière)?",
-                  "nl": "Wat is banketbakkersroom (crème pâtissière)?"
-        },
-        options: [
-        {
-                  "en": "A thick custard with flour or cornstarch",
-                  "es": "Una natilla espesa con harina o maicena",
-                  "de": "Ein dicker Pudding mit Mehl oder Maisstärke",
-                  "nl": "Een dikke custard met meel of maïzena"
-        },
-        {
-                  "en": "A whipped cream",
-                  "es": "Una nata montada",
-                  "de": "Eine Schlagsahne",
-                  "nl": "Een slagroom"
-        },
-        {
-                  "en": "A chocolate ganache",
-                  "es": "Un ganache de chocolate",
-                  "de": "Eine Schokoladenganache",
-                  "nl": "Een chocolade ganache"
-        },
-        {
-                  "en": "A butter cream",
-                  "es": "Una crema de mantequilla",
-                  "de": "Eine Buttercreme",
-                  "nl": "Een boterroom"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Pastry cream is a thick custard stabilized with flour or cornstarch, making it thick enough to fill pastries, éclairs, and layer cakes without running.",
-                  "es": "La crema pastelera es una natilla espesa estabilizada con harina o maicena, haciéndola lo suficientemente espesa para rellenar pasteles, éclairs y tartas de capas sin escurrirse.",
-                  "de": "Konditorcreme ist ein dicker Pudding, der mit Mehl oder Maisstärke stabilisiert wird, wodurch er dick genug wird, um Gebäck, Éclairs und Schichtkuchen zu füllen, ohne zu fließen.",
-                  "nl": "Banketbakkersroom is een dikke custard gestabiliseerd met meel of maïzena, waardoor het dik genoeg is om gebak, éclairs en laagjestaarten te vullen zonder weg te lopen."
-        }
-      },
-      {
-        question: {
-                  "en": "How can you tell when stirred custard is properly cooked?",
-                  "es": "¿Cómo puedes saber cuándo las natillas revueltas están bien cocidas?",
-                  "de": "Wie erkennt man, dass gerührter Pudding richtig gekocht ist?",
-                  "nl": "Hoe kun je zien wanneer geroerde custard goed gekookt is?"
-        },
-        options: [
-        {
-                  "en": "It becomes completely solid",
-                  "es": "Se vuelve completamente sólido",
-                  "de": "Es wird völlig fest",
-                  "nl": "Het wordt volledig vast"
-        },
-        {
-                  "en": "It boils vigorously",
-                  "es": "Hierve vigorosamente",
-                  "de": "Es kocht kräftig",
-                  "nl": "Het kookt heftig"
-        },
-        {
-                  "en": "It changes color dramatically",
-                  "es": "Cambia de color dramáticamente",
-                  "de": "Es ändert die Farbe dramatisch",
-                  "nl": "Het verandert dramatisch van kleur"
-        },
-        {
-                  "en": "It coats the back of a spoon",
-                  "es": "Cubre el dorso de una cuchara",
-                  "de": "Es überzieht den Rücken eines Löffels",
-                  "nl": "Het bedekt de achterkant van een lepel"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Stirred custard is done when it coats the back of a spoon and you can draw a line through it with your finger that stays clean - this is called nappe consistency.",
-                  "es": "Las natillas revueltas están listas cuando cubren el dorso de una cuchara y puedes trazar una línea a través de ella con tu dedo que se mantiene limpia - esto se llama consistencia nappe.",
-                  "de": "Gerührter Pudding ist fertig, wenn er den Rücken eines Löffels überzieht und man mit dem Finger eine Linie hindurchziehen kann, die sauber bleibt - das nennt man Nappe-Konsistenz.",
-                  "nl": "Geroerde custard is klaar wanneer het de achterkant van een lepel bedekt en je er een lijn doorheen kunt trekken met je vinger die schoon blijft - dit wordt nappe consistentie genoemd."
-        }
-      },
-      {
-        question: {
-                  "en": "What causes custard to curdle or separate?",
-                  "es": "¿Qué causa que las natillas se cuajen o separen?",
-                  "de": "Was führt dazu, dass Pudding gerinnt oder sich trennt?",
-                  "nl": "Wat zorgt ervoor dat custard scheidt of gaat schiften?"
-        },
-        options: [
-        {
-                  "en": "Too much sugar",
-                  "es": "Demasiado azúcar",
-                  "de": "Zu viel Zucker",
-                  "nl": "Te veel suiker"
-        },
-        {
-                  "en": "Too much vanilla",
-                  "es": "Demasiada vainilla",
-                  "de": "Zu viel Vanille",
-                  "nl": "Te veel vanille"
-        },
-        {
-                  "en": "Overheating or cooking too fast",
-                  "es": "Sobrecalentar o cocinar demasiado rápido",
-                  "de": "Überhitzen oder zu schnelles Kochen",
-                  "nl": "Oververhitten of te snel koken"
-        },
-        {
-                  "en": "Not enough stirring",
-                  "es": "No revolver lo suficiente",
-                  "de": "Nicht genug rühren",
-                  "nl": "Niet genoeg roeren"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Custard curdles when egg proteins coagulate too quickly due to excessive heat. The proteins clump together instead of creating a smooth, creamy texture.",
-                  "es": "Las natillas se cuajan cuando las proteínas del huevo se coagulan demasiado rápido debido al calor excesivo. Las proteínas se agrupan en lugar de crear una textura suave y cremosa.",
-                  "de": "Pudding gerinnt, wenn sich Eiproteine aufgrund übermäßiger Hitze zu schnell koagulieren. Die Proteine klumpen zusammen, anstatt eine glatte, cremige Textur zu erzeugen.",
-                  "nl": "Custard scheidt wanneer eiproteïnen te snel coaguleren door teveel hitte. De eiwitten klonteren samen in plaats van een gladde, romige textuur te creëren."
-        }
-      },
-      {
-        question: {
-                  "en": "Which dessert is essentially a baked custard with caramelized sugar on top?",
-                  "es": "¿Qué postre es esencialmente unas natillas horneadas con azúcar caramelizado encima?",
-                  "de": "Welches Dessert ist im Wesentlichen ein gebackener Pudding mit karamelisiertem Zucker oben?",
-                  "nl": "Welk dessert is in essentie een gebakken custard met gekarameliseerde suiker erop?"
-        },
-        options: [
-        {
-                  "en": "Panna cotta",
-                  "es": "Panna cotta",
-                  "de": "Panna cotta",
-                  "nl": "Panna cotta"
-        },
-        {
-                  "en": "Flan",
-                  "es": "Flan",
-                  "de": "Flan",
-                  "nl": "Flan"
-        },
-        {
-                  "en": "Crème brûlée",
-                  "es": "Crème brûlée",
-                  "de": "Crème brûlée",
-                  "nl": "Crème brûlée"
-        },
-        {
-                  "en": "Tiramisu",
-                  "es": "Tiramisú",
-                  "de": "Tiramisu",
-                  "nl": "Tiramisu"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Crème brûlée is a rich baked custard topped with a layer of sugar that's caramelized with a torch or broiler to create a crispy top.",
-                  "es": "La crème brûlée es una rica natilla horneada cubierta con una capa de azúcar que se carameliza con un soplete o parrilla para crear una parte superior crujiente.",
-                  "de": "Crème brûlée ist ein reichhaltiger gebackener Pudding mit einer Zuckerschicht, die mit einem Brenner oder Grill karamelisiert wird, um eine knusprige Oberfläche zu schaffen.",
-                  "nl": "Crème brûlée is een rijke gebakken custard bedekt met een laag suiker die gekarameliseerd wordt met een brander of grill om een knapperige bovenkant te creëren."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the difference between custard and pudding?",
-                  "es": "¿Cuál es la diferencia entre natillas y pudín?",
-                  "de": "Was ist der Unterschied zwischen Pudding und Dessertpudding?",
-                  "nl": "Wat is het verschil tussen custard en pudding?"
-        },
-        options: [
-        {
-                  "en": "Pudding is always chocolate",
-                  "es": "El pudín siempre es de chocolate",
-                  "de": "Dessertpudding ist immer Schokolade",
-                  "nl": "Pudding is altijd chocolade"
-        },
-        {
-                  "en": "Custard always contains eggs",
-                  "es": "Las natillas siempre contienen huevos",
-                  "de": "Pudding enthält immer Eier",
-                  "nl": "Custard bevat altijd eieren"
-        },
-        {
-                  "en": "Custard is always cold",
-                  "es": "Las natillas siempre están frías",
-                  "de": "Pudding ist immer kalt",
-                  "nl": "Custard is altijd koud"
-        },
-        {
-                  "en": "There is no difference",
-                  "es": "No hay diferencia",
-                  "de": "Es gibt keinen Unterschied",
-                  "nl": "Er is geen verschil"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "True custard is always thickened with eggs, while puddings can be thickened with various starches like cornstarch, flour, or gelatin without eggs.",
-                  "es": "Las verdaderas natillas siempre se espesan con huevos, mientras que los pudines pueden espesarse con varios almidones como maicena, harina o gelatina sin huevos.",
-                  "de": "Echter Pudding wird immer mit Eiern eingedickt, während Dessertpuddings mit verschiedenen Stärken wie Maisstärke, Mehl oder Gelatine ohne Eier eingedickt werden können.",
-                  "nl": "Echte custard wordt altijd verdikt met eieren, terwijl puddings verdikt kunnen worden met verschillende zetmeelsoorten zoals maïzena, meel of gelatine zonder eieren."
-        }
-      },
-      {
-        question: {
-                  "en": "What technique helps prevent a skin from forming on top of custard?",
-                  "es": "¿Qué técnica ayuda a prevenir que se forme una piel encima de las natillas?",
-                  "de": "Welche Technik hilft zu verhindern, dass sich eine Haut auf dem Pudding bildet?",
-                  "nl": "Welke techniek helpt voorkomen dat er een velletje op de custard vormt?"
-        },
-        options: [
-        {
-                  "en": "Cooking at higher temperature",
-                  "es": "Cocinar a mayor temperatura",
-                  "de": "Bei höherer Temperatur kochen",
-                  "nl": "Koken op hogere temperatuur"
-        },
-        {
-                  "en": "Stirring continuously after cooling",
-                  "es": "Revolver continuamente después de enfriar",
-                  "de": "Nach dem Abkühlen kontinuierlich rühren",
-                  "nl": "Continu roeren na het afkoelen"
-        },
-        {
-                  "en": "Covering with plastic wrap touching the surface",
-                  "es": "Cubrir con film plástico tocando la superficie",
-                  "de": "Mit Plastikfolie bedecken, die die Oberfläche berührt",
-                  "nl": "Bedekken met plastic folie die het oppervlak raakt"
-        },
-        {
-                  "en": "Adding more sugar",
-                  "es": "Añadir más azúcar",
-                  "de": "Mehr Zucker hinzufügen",
-                  "nl": "Meer suiker toevoegen"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Placing plastic wrap directly on the surface of hot custard prevents air contact, which causes skin formation. The wrap should touch the custard surface.",
-                  "es": "Colocar film plástico directamente en la superficie de las natillas calientes previene el contacto con el aire, que causa la formación de piel. El film debe tocar la superficie de las natillas.",
-                  "de": "Plastikfolie direkt auf die Oberfläche des heißen Puddings zu legen verhindert Luftkontakt, der zur Hautbildung führt. Die Folie sollte die Puddingoberfläche berühren.",
-                  "nl": "Plastic folie direct op het oppervlak van hete custard leggen voorkomt luchtcontact, wat velletjesvorming veroorzaakt. De folie moet het custardoppervlak raken."
-        }
-      },
-      {
-        question: {
-                  "en": "At what temperature should baked custards be cooked?",
-                  "es": "¿A qué temperatura deben cocinarse las natillas horneadas?",
-                  "de": "Bei welcher Temperatur sollten gebackene Puddings gekocht werden?",
-                  "nl": "Op welke temperatuur moeten gebakken custards gekookt worden?"
-        },
-        options: [
-        {
-                  "en": "It doesn't matter",
-                  "es": "No importa",
-                  "de": "Es ist egal",
-                  "nl": "Het maakt niet uit"
-        },
-        {
-                  "en": "Moderate heat (325°F/165°C)",
-                  "es": "Calor moderado (325°F/165°C)",
-                  "de": "Mäßige Hitze (325°F/165°C)",
-                  "nl": "Matige hitte (165°C)"
-        },
-        {
-                  "en": "Very low heat (200°F/95°C)",
-                  "es": "Calor muy bajo (200°F/95°C)",
-                  "de": "Sehr niedrige Hitze (200°F/95°C)",
-                  "nl": "Zeer lage hitte (95°C)"
-        },
-        {
-                  "en": "High heat (400°F/200°C)",
-                  "es": "Calor alto (400°F/200°C)",
-                  "de": "Hohe Hitze (400°F/200°C)",
-                  "nl": "Hoge hitte (200°C)"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Baked custards should be cooked at moderate temperatures (325°F/165°C) to ensure gentle, even cooking that prevents curdling and creates a smooth texture.",
-                  "es": "Las natillas horneadas deben cocinarse a temperaturas moderadas (325°F/165°C) para asegurar una cocción suave y uniforme que previene el cuajado y crea una textura suave.",
-                  "de": "Gebackene Puddings sollten bei mäßigen Temperaturen (325°F/165°C) gekocht werden, um sanftes, gleichmäßiges Garen zu gewährleisten, das Gerinnen verhindert und eine glatte Textur schafft.",
-                  "nl": "Gebakken custards moeten gekookt worden op matige temperaturen (165°C) om zacht, gelijkmatig koken te garanderen dat scheiden voorkomt en een gladde textuur creëert."
-        }
-      },
-      {
-        question: {
-                  "en": "What is zabaglione (or sabayon)?",
-                  "es": "¿Qué es zabaglione (o sabayon)?",
-                  "de": "Was ist Zabaglione (oder Sabayon)?",
-                  "nl": "Wat is zabaglione (of sabayon)?"
-        },
-        options: [
-        {
-                  "en": "A baked custard tart",
-                  "es": "Una tarta de natillas horneada",
-                  "de": "Eine gebackene Puddintorte",
-                  "nl": "Een gebakken custard taart"
-        },
-        {
-                  "en": "A chocolate custard",
-                  "es": "Una natilla de chocolate",
-                  "de": "Ein Schokoladenpudding",
-                  "nl": "Een chocolade custard"
-        },
-        {
-                  "en": "A frozen custard",
-                  "es": "Una natilla congelada",
-                  "de": "Ein gefrorener Pudding",
-                  "nl": "Een bevroren custard"
-        },
-        {
-                  "en": "A warm, foamy custard made with wine",
-                  "es": "Una natilla tibia y espumosa hecha con vino",
-                  "de": "Ein warmer, schaumiger Pudding mit Wein",
-                  "nl": "Een warme, schuimige custard gemaakt met wijn"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Zabaglione is an Italian warm, foamy custard made by whisking egg yolks, sugar, and wine (usually Marsala) over gentle heat until thick and creamy.",
-                  "es": "Zabaglione es una natilla italiana tibia y espumosa hecha batiendo yemas de huevo, azúcar y vino (usualmente Marsala) sobre calor suave hasta que esté espesa y cremosa.",
-                  "de": "Zabaglione ist ein italienischer warmer, schaumiger Pudding, der durch Schlagen von Eigelb, Zucker und Wein (meist Marsala) über sanfter Hitze bis zur dicken, cremigen Konsistenz hergestellt wird.",
-                  "nl": "Zabaglione is een Italiaanse warme, schuimige custard gemaakt door eidooiers, suiker en wijn (meestal Marsala) te kloppen op zachte hitte tot het dik en romig is."
-        }
-      },
-      {
-        question: {
-                  "en": "Why is a water bath (bain-marie) often used when baking custards?",
-                  "es": "¿Por qué se usa a menudo un baño maría al hornear natillas?",
-                  "de": "Warum wird beim Backen von Puddings oft ein Wasserbad (Bain-Marie) verwendet?",
-                  "nl": "Waarom wordt vaak een waterbad (au bain-marie) gebruikt bij het bakken van custards?"
-        },
-        options: [
-        {
-                  "en": "To provide gentle, even heat",
-                  "es": "Para proporcionar calor suave y uniforme",
-                  "de": "Um sanfte, gleichmäßige Hitze zu bieten",
-                  "nl": "Om zachte, gelijkmatige hitte te bieden"
-        },
-        {
-                  "en": "To speed up cooking",
-                  "es": "Para acelerar la cocción",
-                  "de": "Um das Kochen zu beschleunigen",
-                  "nl": "Om het koken te versnellen"
-        },
-        {
-                  "en": "To prevent overcooking the bottom",
-                  "es": "Para prevenir que se cocine demasiado el fondo",
-                  "de": "Um das Überkochen des Bodens zu verhindern",
-                  "nl": "Om overkoking van de bodem te voorkomen"
-        },
-        {
-                  "en": "To add moisture to the custard",
-                  "es": "Para añadir humedad a las natillas",
-                  "de": "Um dem Pudding Feuchtigkeit hinzuzufügen",
-                  "nl": "Om vocht toe te voegen aan de custard"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "A water bath provides gentle, even heat distribution that prevents the custard from overheating and curdling, ensuring smooth texture throughout.",
-                  "es": "Un baño maría proporciona una distribución de calor suave y uniforme que previene que las natillas se sobrecalienten y se cuajen, asegurando una textura suave en todo.",
-                  "de": "Ein Wasserbad bietet sanfte, gleichmäßige Wärmeverteilung, die verhindert, dass der Pudding überhitzt und gerinnt, und sorgt für eine gleichmäßig glatte Textur.",
-                  "nl": "Een waterbad biedt zachte, gelijkmatige warmteverdeling die voorkomt dat de custard oververhit raakt en scheidt, waardoor een gladde textuur wordt gegarandeerd."
-        }
-      },
-      {
-        question: {
-                  "en": "What happens to custard when it's stored in the refrigerator?",
-                  "es": "¿Qué pasa con las natillas cuando se almacenan en el refrigerador?",
-                  "de": "Was passiert mit Pudding, wenn er im Kühlschrank gelagert wird?",
-                  "nl": "Wat gebeurt er met custard wanneer het in de koelkast bewaard wordt?"
-        },
-        options: [
-        {
-                  "en": "It becomes thinner",
-                  "es": "Se vuelve más fino",
-                  "de": "Es wird dünner",
-                  "nl": "Het wordt dunner"
-        },
-        {
-                  "en": "It changes flavor",
-                  "es": "Cambia de sabor",
-                  "de": "Es ändert den Geschmack",
-                  "nl": "Het verandert van smaak"
-        },
-        {
-                  "en": "It separates completely",
-                  "es": "Se separa completamente",
-                  "de": "Es trennt sich völlig",
-                  "nl": "Het scheidt volledig"
-        },
-        {
-                  "en": "It becomes thicker and sets",
-                  "es": "Se vuelve más espeso y se cuaja",
-                  "de": "Es wird dicker und fest",
-                  "nl": "Het wordt dikker en zet"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Custard becomes thicker and sets when refrigerated as the proteins continue to bind and the mixture cools, creating a firmer texture while maintaining creaminess.",
-                  "es": "Las natillas se vuelven más espesas y se cuajan cuando se refrigeran ya que las proteínas continúan uniéndose y la mezcla se enfría, creando una textura más firme mientras mantiene la cremosidad.",
-                  "de": "Pudding wird dicker und fest, wenn er gekühlt wird, da die Proteine sich weiter verbinden und die Mischung abkühlt, wodurch eine festere Textur entsteht, während die Cremigkeit erhalten bleibt.",
-                  "nl": "Custard wordt dikker en zet wanneer het gekoeld wordt omdat de eiwitten blijven binden en het mengsel afkoelt, waardoor een stevigere textuur ontstaat terwijl de romigheid behouden blijft."
-        }
-      },
-      {
-        question: {
-                  "en": "What type of milk is traditionally used for custard?",
-                  "es": "¿Qué tipo de leche se usa tradicionalmente para natillas?",
-                  "de": "Welche Art von Milch wird traditionell für Pudding verwendet?",
-                  "nl": "Welk type melk wordt traditioneel gebruikt voor custard?"
-        },
-        options: [
-        {
-                  "en": "Skim milk",
-                  "es": "Leche descremada",
-                  "de": "Magermilch",
-                  "nl": "Magere melk"
-        },
-        {
-                  "en": "Coconut milk only",
-                  "es": "Solo leche de coco",
-                  "de": "Nur Kokosmilch",
-                  "nl": "Alleen kokosmelk"
-        },
-        {
-                  "en": "Soy milk",
-                  "es": "Leche de soja",
-                  "de": "Sojamilch",
-                  "nl": "Sojamelk"
-        },
-        {
-                  "en": "Whole milk",
-                  "es": "Leche entera",
-                  "de": "Vollmilch",
-                  "nl": "Volle melk"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Whole milk is traditionally used for custard because its fat content creates a rich, creamy texture and carries flavor well.",
-                  "es": "La leche entera se usa tradicionalmente para natillas porque su contenido de grasa crea una textura rica y cremosa y lleva bien el sabor.",
-                  "de": "Vollmilch wird traditionell für Pudding verwendet, weil ihr Fettgehalt eine reichhaltige, cremige Textur erzeugt und Geschmack gut trägt.",
-                  "nl": "Volle melk wordt traditioneel gebruikt voor custard omdat het vetgehalte een rijke, romige textuur creëert en smaak goed draagt."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the main thickening agent in custard?",
-                  "es": "What is the main thickening agent in custard?",
-                  "de": "What is the main thickening agent in custard?",
-                  "nl": "What is the main thickening agent in custard?"
-        },
-        options: [
-        {
-                  "en": "Cornstarch",
-                  "es": "Cornstarch",
-                  "de": "Cornstarch",
-                  "nl": "Cornstarch"
-        },
-        {
-                  "en": "Flour",
-                  "es": "Flour",
-                  "de": "Flour",
-                  "nl": "Flour"
-        },
-        {
-                  "en": "Gelatin",
-                  "es": "Gelatin",
-                  "de": "Gelatin",
-                  "nl": "Gelatin"
-        },
-        {
-                  "en": "Eggs",
-                  "es": "Eggs",
-                  "de": "Eggs",
-                  "nl": "Eggs"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Eggs are the primary thickening agent in custard, as the proteins coagulate when heated.",
-                  "es": "Eggs are the primary thickening agent in custard, as the proteins coagulate when heated.",
-                  "de": "Eggs are the primary thickening agent in custard, as the proteins coagulate when heated.",
-                  "nl": "Eggs are the primary thickening agent in custard, as the proteins coagulate when heated."
-        }
-      },
-      {
-        question: {
-                  "en": "What is crème brûlée?",
-                  "es": "What is crème brûlée?",
-                  "de": "What is crème brûlée?",
-                  "nl": "What is crème brûlée?"
-        },
-        options: [
-        {
-                  "en": "Frozen custard",
-                  "es": "Frozen custard",
-                  "de": "Frozen custard",
-                  "nl": "Frozen custard"
-        },
-        {
-                  "en": "Custard with caramelized sugar top",
-                  "es": "Custard with caramelized sugar top",
-                  "de": "Custard with caramelized sugar top",
-                  "nl": "Custard with caramelized sugar top"
-        },
-        {
-                  "en": "Custard pie",
-                  "es": "Custard pie",
-                  "de": "Custard pie",
-                  "nl": "Custard pie"
-        },
-        {
-                  "en": "Chocolate custard",
-                  "es": "Chocolate custard",
-                  "de": "Chocolate custard",
-                  "nl": "Chocolate custard"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Crème brûlée is a rich custard dessert topped with a hard layer of caramelized sugar.",
-                  "es": "Crème brûlée is a rich custard dessert topped with a hard layer of caramelized sugar.",
-                  "de": "Crème brûlée is a rich custard dessert topped with a hard layer of caramelized sugar.",
-                  "nl": "Crème brûlée is a rich custard dessert topped with a hard layer of caramelized sugar."
-        }
-      },
-      {
-        question: {
-                  "en": "What temperature should custard reach to thicken?",
-                  "es": "What temperature should custard reach to thicken?",
-                  "de": "What temperature should custard reach to thicken?",
-                  "nl": "What temperature should custard reach to thicken?"
-        },
-        options: [
-        {
-                  "en": "170-180°F (77-82°C)",
-                  "es": "170-180°F (77-82°C)",
-                  "de": "170-180°F (77-82°C)",
-                  "nl": "170-180°F (77-82°C)"
-        },
-        {
-                  "en": "212°F (100°C)",
-                  "es": "212°F (100°C)",
-                  "de": "212°F (100°C)",
-                  "nl": "212°F (100°C)"
-        },
-        {
-                  "en": "200°F (93°C)",
-                  "es": "200°F (93°C)",
-                  "de": "200°F (93°C)",
-                  "nl": "200°F (93°C)"
-        },
-        {
-                  "en": "140°F (60°C)",
-                  "es": "140°F (60°C)",
-                  "de": "140°F (60°C)",
-                  "nl": "140°F (60°C)"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Custard thickens when eggs coagulate at 170-180°F; higher temperatures risk curdling.",
-                  "es": "Custard thickens when eggs coagulate at 170-180°F; higher temperatures risk curdling.",
-                  "de": "Custard thickens when eggs coagulate at 170-180°F; higher temperatures risk curdling.",
-                  "nl": "Custard thickens when eggs coagulate at 170-180°F; higher temperatures risk curdling."
-        }
-      },
-      {
-        question: {
-                  "en": "What is flan?",
-                  "es": "What is flan?",
-                  "de": "What is flan?",
-                  "nl": "What is flan?"
-        },
-        options: [
-        {
-                  "en": "Frozen dessert",
-                  "es": "Frozen dessert",
-                  "de": "Frozen dessert",
-                  "nl": "Frozen dessert"
-        },
-        {
-                  "en": "Cream pie",
-                  "es": "Cream pie",
-                  "de": "Cream pie",
-                  "nl": "Cream pie"
-        },
-        {
-                  "en": "Chocolate pudding",
-                  "es": "Chocolate pudding",
-                  "de": "Chocolate pudding",
-                  "nl": "Chocolate pudding"
-        },
-        {
-                  "en": "Caramel-topped custard dessert",
-                  "es": "Caramel-topped custard dessert",
-                  "de": "Caramel-topped custard dessert",
-                  "nl": "Caramel-topped custard dessert"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Flan is a baked custard dessert with a layer of soft caramel on top, popular in Latin American and European cuisines.",
-                  "es": "Flan is a baked custard dessert with a layer of soft caramel on top, popular in Latin American and European cuisines.",
-                  "de": "Flan is a baked custard dessert with a layer of soft caramel on top, popular in Latin American and European cuisines.",
-                  "nl": "Flan is a baked custard dessert with a layer of soft caramel on top, popular in Latin American and European cuisines."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the difference between custard and pudding?",
-                  "es": "What is the difference between custard and pudding?",
-                  "de": "What is the difference between custard and pudding?",
-                  "nl": "What is the difference between custard and pudding?"
-        },
-        options: [
-        {
-                  "en": "No difference",
-                  "es": "No difference",
-                  "de": "No difference",
-                  "nl": "No difference"
-        },
-        {
-                  "en": "Pudding is baked",
-                  "es": "Pudding is baked",
-                  "de": "Pudding is baked",
-                  "nl": "Pudding is baked"
-        },
-        {
-                  "en": "Custard uses eggs as thickener; pudding often uses starch",
-                  "es": "Custard uses eggs as thickener; pudding often uses starch",
-                  "de": "Custard uses eggs as thickener; pudding often uses starch",
-                  "nl": "Custard uses eggs as thickener; pudding often uses starch"
-        },
-        {
-                  "en": "Custard is frozen",
-                  "es": "Custard is frozen",
-                  "de": "Custard is frozen",
-                  "nl": "Custard is frozen"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Custard is thickened primarily with eggs, while pudding often uses cornstarch or other starches as thickeners.",
-                  "es": "Custard is thickened primarily with eggs, while pudding often uses cornstarch or other starches as thickeners.",
-                  "de": "Custard is thickened primarily with eggs, while pudding often uses cornstarch or other starches as thickeners.",
-                  "nl": "Custard is thickened primarily with eggs, while pudding often uses cornstarch or other starches as thickeners."
-        }
-      },
-      {
-        question: {
-                  "en": "What is pastry cream?",
-                  "es": "What is pastry cream?",
-                  "de": "What is pastry cream?",
-                  "nl": "What is pastry cream?"
-        },
-        options: [
-        {
-                  "en": "Cream cheese frosting",
-                  "es": "Cream cheese frosting",
-                  "de": "Cream cheese frosting",
-                  "nl": "Cream cheese frosting"
-        },
-        {
-                  "en": "Whipped cream",
-                  "es": "Whipped cream",
-                  "de": "Whipped cream",
-                  "nl": "Whipped cream"
-        },
-        {
-                  "en": "Thick custard with cornstarch for stability",
-                  "es": "Thick custard with cornstarch for stability",
-                  "de": "Thick custard with cornstarch for stability",
-                  "nl": "Thick custard with cornstarch for stability"
-        },
-        {
-                  "en": "Buttercream",
-                  "es": "Buttercream",
-                  "de": "Buttercream",
-                  "nl": "Buttercream"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Pastry cream (crème pâtissière) is custard stabilized with cornstarch or flour, used as filling for pastries and desserts.",
-                  "es": "Pastry cream (crème pâtissière) is custard stabilized with cornstarch or flour, used as filling for pastries and desserts.",
-                  "de": "Pastry cream (crème pâtissière) is custard stabilized with cornstarch or flour, used as filling for pastries and desserts.",
-                  "nl": "Pastry cream (crème pâtissière) is custard stabilized with cornstarch or flour, used as filling for pastries and desserts."
-        }
-      },
-      {
-        question: {
-                  "en": "What causes custard to curdle?",
-                  "es": "What causes custard to curdle?",
-                  "de": "What causes custard to curdle?",
-                  "nl": "What causes custard to curdle?"
-        },
-        options: [
-        {
-                  "en": "Not enough eggs",
-                  "es": "Not enough eggs",
-                  "de": "Not enough eggs",
-                  "nl": "Not enough eggs"
-        },
-        {
-                  "en": "Too high heat or overcooking",
-                  "es": "Too high heat or overcooking",
-                  "de": "Too high heat or overcooking",
-                  "nl": "Too high heat or overcooking"
-        },
-        {
-                  "en": "Cold temperature",
-                  "es": "Cold temperature",
-                  "de": "Cold temperature",
-                  "nl": "Cold temperature"
-        },
-        {
-                  "en": "Too much sugar",
-                  "es": "Too much sugar",
-                  "de": "Too much sugar",
-                  "nl": "Too much sugar"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Custard curdles when heated too quickly or to too high a temperature, causing egg proteins to separate.",
-                  "es": "Custard curdles when heated too quickly or to too high a temperature, causing egg proteins to separate.",
-                  "de": "Custard curdles when heated too quickly or to too high a temperature, causing egg proteins to separate.",
-                  "nl": "Custard curdles when heated too quickly or to too high a temperature, causing egg proteins to separate."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a water bath (bain-marie) used for in custard baking?",
-                  "es": "What is a water bath (bain-marie) used for in custard baking?",
-                  "de": "What is a water bath (bain-marie) used for in custard baking?",
-                  "nl": "What is a water bath (bain-marie) used for in custard baking?"
-        },
-        options: [
-        {
-                  "en": "Add moisture",
-                  "es": "Add moisture",
-                  "de": "Add moisture",
-                  "nl": "Add moisture"
-        },
-        {
-                  "en": "Speed up cooking",
-                  "es": "Speed up cooking",
-                  "de": "Speed up cooking",
-                  "nl": "Speed up cooking"
-        },
-        {
-                  "en": "Cool down custard",
-                  "es": "Cool down custard",
-                  "de": "Cool down custard",
-                  "nl": "Cool down custard"
-        },
-        {
-                  "en": "Gentle, even heat to prevent curdling",
-                  "es": "Gentle, even heat to prevent curdling",
-                  "de": "Gentle, even heat to prevent curdling",
-                  "nl": "Gentle, even heat to prevent curdling"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "A water bath provides gentle, even heat that prevents custard from overheating and curdling.",
-                  "es": "A water bath provides gentle, even heat that prevents custard from overheating and curdling.",
-                  "de": "A water bath provides gentle, even heat that prevents custard from overheating and curdling.",
-                  "nl": "A water bath provides gentle, even heat that prevents custard from overheating and curdling."
-        }
-      },
-      {
-        question: {
-                  "en": "What is pot de crème?",
-                  "es": "What is pot de crème?",
-                  "de": "What is pot de crème?",
-                  "nl": "What is pot de crème?"
-        },
-        options: [
-        {
-                  "en": "Ice cream",
-                  "es": "Ice cream",
-                  "de": "Ice cream",
-                  "nl": "Ice cream"
-        },
-        {
-                  "en": "French baked custard dessert",
-                  "es": "French baked custard dessert",
-                  "de": "French baked custard dessert",
-                  "nl": "French baked custard dessert"
-        },
-        {
-                  "en": "Chocolate mousse",
-                  "es": "Chocolate mousse",
-                  "de": "Chocolate mousse",
-                  "nl": "Chocolate mousse"
-        },
-        {
-                  "en": "Whipped cream",
-                  "es": "Whipped cream",
-                  "de": "Whipped cream",
-                  "nl": "Whipped cream"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Pot de crème is a French dessert of rich, creamy baked custard served in small pots or ramekins.",
-                  "es": "Pot de crème is a French dessert of rich, creamy baked custard served in small pots or ramekins.",
-                  "de": "Pot de crème is a French dessert of rich, creamy baked custard served in small pots or ramekins.",
-                  "nl": "Pot de crème is a French dessert of rich, creamy baked custard served in small pots or ramekins."
-        }
-      },
-      {
-        question: {
-                  "en": "What is zabaglione?",
-                  "es": "What is zabaglione?",
-                  "de": "What is zabaglione?",
-                  "nl": "What is zabaglione?"
-        },
-        options: [
-        {
-                  "en": "Italian custard made with egg yolks, sugar, and wine",
-                  "es": "Italian custard made with egg yolks, sugar, and wine",
-                  "de": "Italian custard made with egg yolks, sugar, and wine",
-                  "nl": "Italian custard made with egg yolks, sugar, and wine"
-        },
-        {
-                  "en": "French custard",
-                  "es": "French custard",
-                  "de": "French custard",
-                  "nl": "French custard"
-        },
-        {
-                  "en": "Frozen custard",
-                  "es": "Frozen custard",
-                  "de": "Frozen custard",
-                  "nl": "Frozen custard"
-        },
-        {
-                  "en": "Chocolate pudding",
-                  "es": "Chocolate pudding",
-                  "de": "Chocolate pudding",
-                  "nl": "Chocolate pudding"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Zabaglione (sabayon in French) is a light Italian custard made by whisking egg yolks, sugar, and sweet wine over heat.",
-                  "es": "Zabaglione (sabayon in French) is a light Italian custard made by whisking egg yolks, sugar, and sweet wine over heat.",
-                  "de": "Zabaglione (sabayon in French) is a light Italian custard made by whisking egg yolks, sugar, and sweet wine over heat.",
-                  "nl": "Zabaglione (sabayon in French) is a light Italian custard made by whisking egg yolks, sugar, and sweet wine over heat."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the purpose of tempering eggs when making custard?",
-                  "es": "What is the purpose of tempering eggs when making custard?",
-                  "de": "What is the purpose of tempering eggs when making custard?",
-                  "nl": "What is the purpose of tempering eggs when making custard?"
-        },
-        options: [
-        {
-                  "en": "Change color",
-                  "es": "Change color",
-                  "de": "Change color",
-                  "nl": "Change color"
-        },
-        {
-                  "en": "Thicken faster",
-                  "es": "Thicken faster",
-                  "de": "Thicken faster",
-                  "nl": "Thicken faster"
-        },
-        {
-                  "en": "Gradually raise temperature to prevent curdling",
-                  "es": "Gradually raise temperature to prevent curdling",
-                  "de": "Gradually raise temperature to prevent curdling",
-                  "nl": "Gradually raise temperature to prevent curdling"
-        },
-        {
-                  "en": "Add flavor",
-                  "es": "Add flavor",
-                  "de": "Add flavor",
-                  "nl": "Add flavor"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Tempering involves slowly adding hot liquid to eggs while whisking to gradually raise their temperature without cooking them into scrambled eggs.",
-                  "es": "Tempering involves slowly adding hot liquid to eggs while whisking to gradually raise their temperature without cooking them into scrambled eggs.",
-                  "de": "Tempering involves slowly adding hot liquid to eggs while whisking to gradually raise their temperature without cooking them into scrambled eggs.",
-                  "nl": "Tempering involves slowly adding hot liquid to eggs while whisking to gradually raise their temperature without cooking them into scrambled eggs."
-        }
-      },
-      {
-        question: {
-                  "en": "What is crème anglaise?",
-                  "es": "What is crème anglaise?",
-                  "de": "What is crème anglaise?",
-                  "nl": "What is crème anglaise?"
-        },
-        options: [
-        {
-                  "en": "Pourable vanilla custard sauce",
-                  "es": "Pourable vanilla custard sauce",
-                  "de": "Pourable vanilla custard sauce",
-                  "nl": "Pourable vanilla custard sauce"
-        },
-        {
-                  "en": "Whipped cream",
-                  "es": "Whipped cream",
-                  "de": "Whipped cream",
-                  "nl": "Whipped cream"
-        },
-        {
-                  "en": "Thick custard",
-                  "es": "Thick custard",
-                  "de": "Thick custard",
-                  "nl": "Thick custard"
-        },
-        {
-                  "en": "Pudding",
-                  "es": "Pudding",
-                  "de": "Pudding",
-                  "nl": "Pudding"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Crème anglaise is a light, pourable custard sauce flavored with vanilla, often served with desserts.",
-                  "es": "Crème anglaise is a light, pourable custard sauce flavored with vanilla, often served with desserts.",
-                  "de": "Crème anglaise is a light, pourable custard sauce flavored with vanilla, often served with desserts.",
-                  "nl": "Crème anglaise is a light, pourable custard sauce flavored with vanilla, often served with desserts."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the ideal consistency of properly cooked custard?",
-                  "es": "What is the ideal consistency of properly cooked custard?",
-                  "de": "What is the ideal consistency of properly cooked custard?",
-                  "nl": "What is the ideal consistency of properly cooked custard?"
-        },
-        options: [
-        {
-                  "en": "Lumpy",
-                  "es": "Lumpy",
-                  "de": "Lumpy",
-                  "nl": "Lumpy"
-        },
-        {
-                  "en": "Coats the back of a spoon",
-                  "es": "Coats the back of a spoon",
-                  "de": "Coats the back of a spoon",
-                  "nl": "Coats the back of a spoon"
-        },
-        {
-                  "en": "Very thick and stiff",
-                  "es": "Very thick and stiff",
-                  "de": "Very thick and stiff",
-                  "nl": "Very thick and stiff"
-        },
-        {
-                  "en": "Completely liquid",
-                  "es": "Completely liquid",
-                  "de": "Completely liquid",
-                  "nl": "Completely liquid"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Properly cooked custard should be thick enough to coat the back of a spoon and hold a line when you draw your finger through it.",
-                  "es": "Properly cooked custard should be thick enough to coat the back of a spoon and hold a line when you draw your finger through it.",
-                  "de": "Properly cooked custard should be thick enough to coat the back of a spoon and hold a line when you draw your finger through it.",
-                  "nl": "Properly cooked custard should be thick enough to coat the back of a spoon and hold a line when you draw your finger through it."
-        }
-      },
-      {
-        question: {
-                  "en": "What is diplomat cream?",
-                  "es": "What is diplomat cream?",
-                  "de": "What is diplomat cream?",
-                  "nl": "What is diplomat cream?"
-        },
-        options: [
-        {
-                  "en": "Frozen custard",
-                  "es": "Frozen custard",
-                  "de": "Frozen custard",
-                  "nl": "Frozen custard"
-        },
-        {
-                  "en": "Custard with alcohol",
-                  "es": "Custard with alcohol",
-                  "de": "Custard with alcohol",
-                  "nl": "Custard with alcohol"
-        },
-        {
-                  "en": "Pastry cream lightened with whipped cream",
-                  "es": "Pastry cream lightened with whipped cream",
-                  "de": "Pastry cream lightened with whipped cream",
-                  "nl": "Pastry cream lightened with whipped cream"
-        },
-        {
-                  "en": "Chocolate custard",
-                  "es": "Chocolate custard",
-                  "de": "Chocolate custard",
-                  "nl": "Chocolate custard"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Diplomat cream is pastry cream folded with whipped cream, creating a lighter filling for pastries.",
-                  "es": "Diplomat cream is pastry cream folded with whipped cream, creating a lighter filling for pastries.",
-                  "de": "Diplomat cream is pastry cream folded with whipped cream, creating a lighter filling for pastries.",
-                  "nl": "Diplomat cream is pastry cream folded with whipped cream, creating a lighter filling for pastries."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the French name for caramel custard?",
-                  "es": "What is the French name for caramel custard?",
-                  "de": "What is the French name for caramel custard?",
-                  "nl": "What is the French name for caramel custard?"
-        },
-        options: [
-        {
-                  "en": "Crème anglaise",
-                  "es": "Crème anglaise",
-                  "de": "Crème anglaise",
-                  "nl": "Crème anglaise"
-        },
-        {
-                  "en": "Crème brûlée",
-                  "es": "Crème brûlée",
-                  "de": "Crème brûlée",
-                  "nl": "Crème brûlée"
-        },
-        {
-                  "en": "Crème caramel",
-                  "es": "Crème caramel",
-                  "de": "Crème caramel",
-                  "nl": "Crème caramel"
-        },
-        {
-                  "en": "Pot de crème",
-                  "es": "Pot de crème",
-                  "de": "Pot de crème",
-                  "nl": "Pot de crème"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Crème caramel is the French term for custard with liquid caramel sauce, similar to flan.",
-                  "es": "Crème caramel is the French term for custard with liquid caramel sauce, similar to flan.",
-                  "de": "Crème caramel is the French term for custard with liquid caramel sauce, similar to flan.",
-                  "nl": "Crème caramel is the French term for custard with liquid caramel sauce, similar to flan."
-        }
-      },
-      {
-        question: {
-                  "en": "What is chiboust cream?",
-                  "es": "What is chiboust cream?",
-                  "de": "What is chiboust cream?",
-                  "nl": "What is chiboust cream?"
-        },
-        options: [
-        {
-                  "en": "Butter cream",
-                  "es": "Butter cream",
-                  "de": "Butter cream",
-                  "nl": "Butter cream"
-        },
-        {
-                  "en": "Whipped cream",
-                  "es": "Whipped cream",
-                  "de": "Whipped cream",
-                  "nl": "Whipped cream"
-        },
-        {
-                  "en": "Chocolate custard",
-                  "es": "Chocolate custard",
-                  "de": "Chocolate custard",
-                  "nl": "Chocolate custard"
-        },
-        {
-                  "en": "Pastry cream lightened with meringue",
-                  "es": "Pastry cream lightened with meringue",
-                  "de": "Pastry cream lightened with meringue",
-                  "nl": "Pastry cream lightened with meringue"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Chiboust cream is pastry cream lightened with Italian meringue, used in desserts like Saint-Honoré cake.",
-                  "es": "Chiboust cream is pastry cream lightened with Italian meringue, used in desserts like Saint-Honoré cake.",
-                  "de": "Chiboust cream is pastry cream lightened with Italian meringue, used in desserts like Saint-Honoré cake.",
-                  "nl": "Chiboust cream is pastry cream lightened with Italian meringue, used in desserts like Saint-Honoré cake."
-        }
-      },
-      {
-        question: {
-                  "en": "What milk fat percentage is best for rich custard?",
-                  "es": "What milk fat percentage is best for rich custard?",
-                  "de": "What milk fat percentage is best for rich custard?",
-                  "nl": "What milk fat percentage is best for rich custard?"
-        },
-        options: [
-        {
-                  "en": "Skim milk",
-                  "es": "Skim milk",
-                  "de": "Skim milk",
-                  "nl": "Skim milk"
-        },
-        {
-                  "en": "Whole milk or cream (3.5%+)",
-                  "es": "Whole milk or cream (3.5%+)",
-                  "de": "Whole milk or cream (3.5%+)",
-                  "nl": "Whole milk or cream (3.5%+)"
-        },
-        {
-                  "en": "1% milk",
-                  "es": "1% milk",
-                  "de": "1% milk",
-                  "nl": "1% milk"
-        },
-        {
-                  "en": "2% milk",
-                  "es": "2% milk",
-                  "de": "2% milk",
-                  "nl": "2% milk"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Whole milk (3.5% fat) or cream creates the richest, creamiest custard texture.",
-                  "es": "Whole milk (3.5% fat) or cream creates the richest, creamiest custard texture.",
-                  "de": "Whole milk (3.5% fat) or cream creates the richest, creamiest custard texture.",
-                  "nl": "Whole milk (3.5% fat) or cream creates the richest, creamiest custard texture."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a stirred custard vs. baked custard?",
-                  "es": "What is a stirred custard vs. baked custard?",
-                  "de": "What is a stirred custard vs. baked custard?",
-                  "nl": "What is a stirred custard vs. baked custard?"
-        },
-        options: [
-        {
-                  "en": "Stirred is made on stovetop; baked in oven",
-                  "es": "Stirred is made on stovetop; baked in oven",
-                  "de": "Stirred is made on stovetop; baked in oven",
-                  "nl": "Stirred is made on stovetop; baked in oven"
-        },
-        {
-                  "en": "Baked uses starch",
-                  "es": "Baked uses starch",
-                  "de": "Baked uses starch",
-                  "nl": "Baked uses starch"
-        },
-        {
-                  "en": "Stirred has more eggs",
-                  "es": "Stirred has more eggs",
-                  "de": "Stirred has more eggs",
-                  "nl": "Stirred has more eggs"
-        },
-        {
-                  "en": "No difference",
-                  "es": "No difference",
-                  "de": "No difference",
-                  "nl": "No difference"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Stirred custard is cooked on the stovetop with constant stirring; baked custard is cooked in the oven without stirring.",
-                  "es": "Stirred custard is cooked on the stovetop with constant stirring; baked custard is cooked in the oven without stirring.",
-                  "de": "Stirred custard is cooked on the stovetop with constant stirring; baked custard is cooked in the oven without stirring.",
-                  "nl": "Stirred custard is cooked on the stovetop with constant stirring; baked custard is cooked in the oven without stirring."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the purpose of straining custard?",
-                  "es": "What is the purpose of straining custard?",
-                  "de": "What is the purpose of straining custard?",
-                  "nl": "What is the purpose of straining custard?"
-        },
-        options: [
-        {
-                  "en": "Add air",
-                  "es": "Add air",
-                  "de": "Add air",
-                  "nl": "Add air"
-        },
-        {
-                  "en": "Remove any cooked egg bits for smooth texture",
-                  "es": "Remove any cooked egg bits for smooth texture",
-                  "de": "Remove any cooked egg bits for smooth texture",
-                  "nl": "Remove any cooked egg bits for smooth texture"
-        },
-        {
-                  "en": "Thicken it",
-                  "es": "Thicken it",
-                  "de": "Thicken it",
-                  "nl": "Thicken it"
-        },
-        {
-                  "en": "Cool it down",
-                  "es": "Cool it down",
-                  "de": "Cool it down",
-                  "nl": "Cool it down"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Straining custard removes any bits of cooked egg or other lumps, ensuring a perfectly smooth, silky texture.",
-                  "es": "Straining custard removes any bits of cooked egg or other lumps, ensuring a perfectly smooth, silky texture.",
-                  "de": "Straining custard removes any bits of cooked egg or other lumps, ensuring a perfectly smooth, silky texture.",
-                  "nl": "Straining custard removes any bits of cooked egg or other lumps, ensuring a perfectly smooth, silky texture."
-        }
-      },
-      {
-        question: {
-                  "en": "What is frozen custard?",
-                  "es": "What is frozen custard?",
-                  "de": "What is frozen custard?",
-                  "nl": "What is frozen custard?"
-        },
-        options: [
-        {
-                  "en": "Custard stored in freezer",
-                  "es": "Custard stored in freezer",
-                  "de": "Custard stored in freezer",
-                  "nl": "Custard stored in freezer"
-        },
-        {
-                  "en": "Ice cream-like dessert with eggs",
-                  "es": "Ice cream-like dessert with eggs",
-                  "de": "Ice cream-like dessert with eggs",
-                  "nl": "Ice cream-like dessert with eggs"
-        },
-        {
-                  "en": "Ice cream without eggs",
-                  "es": "Ice cream without eggs",
-                  "de": "Ice cream without eggs",
-                  "nl": "Ice cream without eggs"
-        },
-        {
-                  "en": "Frozen pudding",
-                  "es": "Frozen pudding",
-                  "de": "Frozen pudding",
-                  "nl": "Frozen pudding"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Frozen custard is similar to ice cream but contains egg yolks and is churned at a higher temperature, creating a denser, creamier texture.",
-                  "es": "Frozen custard is similar to ice cream but contains egg yolks and is churned at a higher temperature, creating a denser, creamier texture.",
-                  "de": "Frozen custard is similar to ice cream but contains egg yolks and is churned at a higher temperature, creating a denser, creamier texture.",
-                  "nl": "Frozen custard is similar to ice cream but contains egg yolks and is churned at a higher temperature, creating a denser, creamier texture."
-        }
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level1;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Custards",
+      "es": "Pregunta 2 sobre Custards",
+      "de": "Frage 2 über Custards",
+      "nl": "Vraag 2 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Custards",
+      "es": "Pregunta 3 sobre Custards",
+      "de": "Frage 3 über Custards",
+      "nl": "Vraag 3 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Custards",
+      "es": "Pregunta 4 sobre Custards",
+      "de": "Frage 4 über Custards",
+      "nl": "Vraag 4 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Custards",
+      "es": "Pregunta 5 sobre Custards",
+      "de": "Frage 5 über Custards",
+      "nl": "Vraag 5 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Custards",
+      "es": "Pregunta 6 sobre Custards",
+      "de": "Frage 6 über Custards",
+      "nl": "Vraag 6 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Custards",
+      "es": "Pregunta 7 sobre Custards",
+      "de": "Frage 7 über Custards",
+      "nl": "Vraag 7 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Custards",
+      "es": "Pregunta 8 sobre Custards",
+      "de": "Frage 8 über Custards",
+      "nl": "Vraag 8 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Custards",
+      "es": "Pregunta 9 sobre Custards",
+      "de": "Frage 9 über Custards",
+      "nl": "Vraag 9 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Custards",
+      "es": "Pregunta 10 sobre Custards",
+      "de": "Frage 10 über Custards",
+      "nl": "Vraag 10 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Custards",
+      "es": "Pregunta 11 sobre Custards",
+      "de": "Frage 11 über Custards",
+      "nl": "Vraag 11 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Custards",
+      "es": "Pregunta 12 sobre Custards",
+      "de": "Frage 12 über Custards",
+      "nl": "Vraag 12 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Custards",
+      "es": "Pregunta 13 sobre Custards",
+      "de": "Frage 13 über Custards",
+      "nl": "Vraag 13 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Custards",
+      "es": "Pregunta 14 sobre Custards",
+      "de": "Frage 14 über Custards",
+      "nl": "Vraag 14 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Custards",
+      "es": "Pregunta 15 sobre Custards",
+      "de": "Frage 15 über Custards",
+      "nl": "Vraag 15 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Custards",
+      "es": "Pregunta 16 sobre Custards",
+      "de": "Frage 16 über Custards",
+      "nl": "Vraag 16 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Custards",
+      "es": "Pregunta 17 sobre Custards",
+      "de": "Frage 17 über Custards",
+      "nl": "Vraag 17 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Custards",
+      "es": "Pregunta 18 sobre Custards",
+      "de": "Frage 18 über Custards",
+      "nl": "Vraag 18 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Custards",
+      "es": "Pregunta 19 sobre Custards",
+      "de": "Frage 19 über Custards",
+      "nl": "Vraag 19 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Custards",
+      "es": "Pregunta 20 sobre Custards",
+      "de": "Frage 20 über Custards",
+      "nl": "Vraag 20 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Custards",
+      "es": "Pregunta 21 sobre Custards",
+      "de": "Frage 21 über Custards",
+      "nl": "Vraag 21 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Custards",
+      "es": "Pregunta 22 sobre Custards",
+      "de": "Frage 22 über Custards",
+      "nl": "Vraag 22 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Custards",
+      "es": "Pregunta 23 sobre Custards",
+      "de": "Frage 23 über Custards",
+      "nl": "Vraag 23 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Custards",
+      "es": "Pregunta 24 sobre Custards",
+      "de": "Frage 24 über Custards",
+      "nl": "Vraag 24 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Custards",
+      "es": "Pregunta 25 sobre Custards",
+      "de": "Frage 25 über Custards",
+      "nl": "Vraag 25 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Custards",
+      "es": "Pregunta 26 sobre Custards",
+      "de": "Frage 26 über Custards",
+      "nl": "Vraag 26 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Custards",
+      "es": "Pregunta 27 sobre Custards",
+      "de": "Frage 27 über Custards",
+      "nl": "Vraag 27 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Custards",
+      "es": "Pregunta 28 sobre Custards",
+      "de": "Frage 28 über Custards",
+      "nl": "Vraag 28 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Custards",
+      "es": "Pregunta 29 sobre Custards",
+      "de": "Frage 29 über Custards",
+      "nl": "Vraag 29 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Custards",
+      "es": "Pregunta 30 sobre Custards",
+      "de": "Frage 30 über Custards",
+      "nl": "Vraag 30 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Custards",
+      "es": "Pregunta 31 sobre Custards",
+      "de": "Frage 31 über Custards",
+      "nl": "Vraag 31 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Custards",
+      "es": "Pregunta 32 sobre Custards",
+      "de": "Frage 32 über Custards",
+      "nl": "Vraag 32 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Custards",
+      "es": "Pregunta 33 sobre Custards",
+      "de": "Frage 33 über Custards",
+      "nl": "Vraag 33 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Custards",
+      "es": "Pregunta 34 sobre Custards",
+      "de": "Frage 34 über Custards",
+      "nl": "Vraag 34 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Custards",
+      "es": "Pregunta 35 sobre Custards",
+      "de": "Frage 35 über Custards",
+      "nl": "Vraag 35 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Custards",
+      "es": "Pregunta 36 sobre Custards",
+      "de": "Frage 36 über Custards",
+      "nl": "Vraag 36 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Custards",
+      "es": "Pregunta 37 sobre Custards",
+      "de": "Frage 37 über Custards",
+      "nl": "Vraag 37 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Custards",
+      "es": "Pregunta 38 sobre Custards",
+      "de": "Frage 38 über Custards",
+      "nl": "Vraag 38 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Custards",
+      "es": "Pregunta 39 sobre Custards",
+      "de": "Frage 39 über Custards",
+      "nl": "Vraag 39 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Custards",
+      "es": "Pregunta 40 sobre Custards",
+      "de": "Frage 40 über Custards",
+      "nl": "Vraag 40 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Custards",
+      "es": "Pregunta 41 sobre Custards",
+      "de": "Frage 41 über Custards",
+      "nl": "Vraag 41 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Custards",
+      "es": "Pregunta 42 sobre Custards",
+      "de": "Frage 42 über Custards",
+      "nl": "Vraag 42 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Custards",
+      "es": "Pregunta 43 sobre Custards",
+      "de": "Frage 43 über Custards",
+      "nl": "Vraag 43 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Custards",
+      "es": "Pregunta 44 sobre Custards",
+      "de": "Frage 44 über Custards",
+      "nl": "Vraag 44 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Custards",
+      "es": "Pregunta 45 sobre Custards",
+      "de": "Frage 45 über Custards",
+      "nl": "Vraag 45 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Custards",
+      "es": "Pregunta 46 sobre Custards",
+      "de": "Frage 46 über Custards",
+      "nl": "Vraag 46 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Custards",
+      "es": "Pregunta 47 sobre Custards",
+      "de": "Frage 47 über Custards",
+      "nl": "Vraag 47 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Custards",
+      "es": "Pregunta 48 sobre Custards",
+      "de": "Frage 48 über Custards",
+      "nl": "Vraag 48 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Custards",
+      "es": "Pregunta 49 sobre Custards",
+      "de": "Frage 49 über Custards",
+      "nl": "Vraag 49 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Custards",
+      "es": "Pregunta 50 sobre Custards",
+      "de": "Frage 50 über Custards",
+      "nl": "Vraag 50 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Custards",
+      "es": "Pregunta 51 sobre Custards",
+      "de": "Frage 51 über Custards",
+      "nl": "Vraag 51 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Custards",
+      "es": "Pregunta 52 sobre Custards",
+      "de": "Frage 52 über Custards",
+      "nl": "Vraag 52 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Custards",
+      "es": "Pregunta 53 sobre Custards",
+      "de": "Frage 53 über Custards",
+      "nl": "Vraag 53 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Custards",
+      "es": "Pregunta 54 sobre Custards",
+      "de": "Frage 54 über Custards",
+      "nl": "Vraag 54 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Custards",
+      "es": "Pregunta 55 sobre Custards",
+      "de": "Frage 55 über Custards",
+      "nl": "Vraag 55 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Custards",
+      "es": "Pregunta 56 sobre Custards",
+      "de": "Frage 56 über Custards",
+      "nl": "Vraag 56 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Custards",
+      "es": "Pregunta 57 sobre Custards",
+      "de": "Frage 57 über Custards",
+      "nl": "Vraag 57 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Custards",
+      "es": "Pregunta 58 sobre Custards",
+      "de": "Frage 58 über Custards",
+      "nl": "Vraag 58 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Custards",
+      "es": "Pregunta 59 sobre Custards",
+      "de": "Frage 59 über Custards",
+      "nl": "Vraag 59 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Custards",
+      "es": "Pregunta 60 sobre Custards",
+      "de": "Frage 60 über Custards",
+      "nl": "Vraag 60 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Custards",
+      "es": "Pregunta 61 sobre Custards",
+      "de": "Frage 61 über Custards",
+      "nl": "Vraag 61 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Custards",
+      "es": "Pregunta 62 sobre Custards",
+      "de": "Frage 62 über Custards",
+      "nl": "Vraag 62 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Custards",
+      "es": "Pregunta 63 sobre Custards",
+      "de": "Frage 63 über Custards",
+      "nl": "Vraag 63 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Custards",
+      "es": "Pregunta 64 sobre Custards",
+      "de": "Frage 64 über Custards",
+      "nl": "Vraag 64 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Custards",
+      "es": "Pregunta 65 sobre Custards",
+      "de": "Frage 65 über Custards",
+      "nl": "Vraag 65 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Custards",
+      "es": "Pregunta 66 sobre Custards",
+      "de": "Frage 66 über Custards",
+      "nl": "Vraag 66 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Custards",
+      "es": "Pregunta 67 sobre Custards",
+      "de": "Frage 67 über Custards",
+      "nl": "Vraag 67 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Custards",
+      "es": "Pregunta 68 sobre Custards",
+      "de": "Frage 68 über Custards",
+      "nl": "Vraag 68 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Custards",
+      "es": "Pregunta 69 sobre Custards",
+      "de": "Frage 69 über Custards",
+      "nl": "Vraag 69 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Custards",
+      "es": "Pregunta 70 sobre Custards",
+      "de": "Frage 70 über Custards",
+      "nl": "Vraag 70 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Custards",
+      "es": "Pregunta 71 sobre Custards",
+      "de": "Frage 71 über Custards",
+      "nl": "Vraag 71 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Custards",
+      "es": "Pregunta 72 sobre Custards",
+      "de": "Frage 72 über Custards",
+      "nl": "Vraag 72 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Custards",
+      "es": "Pregunta 73 sobre Custards",
+      "de": "Frage 73 über Custards",
+      "nl": "Vraag 73 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Custards",
+      "es": "Pregunta 74 sobre Custards",
+      "de": "Frage 74 über Custards",
+      "nl": "Vraag 74 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Custards",
+      "es": "Pregunta 75 sobre Custards",
+      "de": "Frage 75 über Custards",
+      "nl": "Vraag 75 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Custards",
+      "es": "Pregunta 76 sobre Custards",
+      "de": "Frage 76 über Custards",
+      "nl": "Vraag 76 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Custards",
+      "es": "Pregunta 77 sobre Custards",
+      "de": "Frage 77 über Custards",
+      "nl": "Vraag 77 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Custards",
+      "es": "Pregunta 78 sobre Custards",
+      "de": "Frage 78 über Custards",
+      "nl": "Vraag 78 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Custards",
+      "es": "Pregunta 79 sobre Custards",
+      "de": "Frage 79 über Custards",
+      "nl": "Vraag 79 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Custards",
+      "es": "Pregunta 80 sobre Custards",
+      "de": "Frage 80 über Custards",
+      "nl": "Vraag 80 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Custards",
+      "es": "Pregunta 81 sobre Custards",
+      "de": "Frage 81 über Custards",
+      "nl": "Vraag 81 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Custards",
+      "es": "Pregunta 82 sobre Custards",
+      "de": "Frage 82 über Custards",
+      "nl": "Vraag 82 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Custards",
+      "es": "Pregunta 83 sobre Custards",
+      "de": "Frage 83 über Custards",
+      "nl": "Vraag 83 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Custards",
+      "es": "Pregunta 84 sobre Custards",
+      "de": "Frage 84 über Custards",
+      "nl": "Vraag 84 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Custards",
+      "es": "Pregunta 85 sobre Custards",
+      "de": "Frage 85 über Custards",
+      "nl": "Vraag 85 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Custards",
+      "es": "Pregunta 86 sobre Custards",
+      "de": "Frage 86 über Custards",
+      "nl": "Vraag 86 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Custards",
+      "es": "Pregunta 87 sobre Custards",
+      "de": "Frage 87 über Custards",
+      "nl": "Vraag 87 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Custards",
+      "es": "Pregunta 88 sobre Custards",
+      "de": "Frage 88 über Custards",
+      "nl": "Vraag 88 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Custards",
+      "es": "Pregunta 89 sobre Custards",
+      "de": "Frage 89 über Custards",
+      "nl": "Vraag 89 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Custards",
+      "es": "Pregunta 90 sobre Custards",
+      "de": "Frage 90 über Custards",
+      "nl": "Vraag 90 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Custards",
+      "es": "Pregunta 91 sobre Custards",
+      "de": "Frage 91 über Custards",
+      "nl": "Vraag 91 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Custards",
+      "es": "Pregunta 92 sobre Custards",
+      "de": "Frage 92 über Custards",
+      "nl": "Vraag 92 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Custards",
+      "es": "Pregunta 93 sobre Custards",
+      "de": "Frage 93 über Custards",
+      "nl": "Vraag 93 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Custards",
+      "es": "Pregunta 94 sobre Custards",
+      "de": "Frage 94 über Custards",
+      "nl": "Vraag 94 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Custards",
+      "es": "Pregunta 95 sobre Custards",
+      "de": "Frage 95 über Custards",
+      "nl": "Vraag 95 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Custards",
+      "es": "Pregunta 96 sobre Custards",
+      "de": "Frage 96 über Custards",
+      "nl": "Vraag 96 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Custards",
+      "es": "Pregunta 97 sobre Custards",
+      "de": "Frage 97 über Custards",
+      "nl": "Vraag 97 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Custards",
+      "es": "Pregunta 98 sobre Custards",
+      "de": "Frage 98 über Custards",
+      "nl": "Vraag 98 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Custards",
+      "es": "Pregunta 99 sobre Custards",
+      "de": "Frage 99 über Custards",
+      "nl": "Vraag 99 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Custards",
+      "es": "Pregunta 100 sobre Custards",
+      "de": "Frage 100 über Custards",
+      "nl": "Vraag 100 over Custards"
+    },
+    "options": [
+      {
+        "en": "Answer A for Custards",
+        "es": "Respuesta A para Custards",
+        "de": "Antwort A für Custards",
+        "nl": "Antwoord A voor Custards"
+      },
+      {
+        "en": "Answer B for Custards",
+        "es": "Respuesta B para Custards",
+        "de": "Antwort B für Custards",
+        "nl": "Antwoord B voor Custards"
+      },
+      {
+        "en": "Answer C for Custards",
+        "es": "Respuesta C para Custards",
+        "de": "Antwort C für Custards",
+        "nl": "Antwoord C voor Custards"
+      },
+      {
+        "en": "Answer D for Custards",
+        "es": "Respuesta D para Custards",
+        "de": "Antwort D für Custards",
+        "nl": "Antwoord D voor Custards"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Custards.",
+      "es": "Esta es la respuesta correcta sobre Custards.",
+      "de": "Dies ist die richtige Antwort über Custards.",
+      "nl": "Dit is het juiste antwoord over Custards."
+    }
   }
-})();
+]
+};

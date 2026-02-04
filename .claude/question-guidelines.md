@@ -1,17 +1,17 @@
 # RobitQuiz Question Guidelines
 
-## 🎯 PROMPT: Vragen Aanvullen van 20 naar 40
+## 🎯 PROMPT: Vragen Aanvullen van 40 naar 100
 
-**Taak:** De meeste level bestanden in `src/questions/data/subjects/` hebben momenteel 20 vragen, maar moeten worden aangevuld naar **40 vragen per level**.
+**Taak:** Alle level bestanden in `src/questions/data/subjects/` hebben momenteel 40 vragen, maar moeten worden uitgebreid naar **100 vragen per level**.
 
 **Instructies voor Claude:**
 
 1. **Analyseer het bestaande bestand:**
-   - Bekijk de huidige 20 vragen
+   - Bekijk de huidige 40 vragen
    - Identificeer het onderwerp en het difficulty level
    - Begrijp de stijl en scope van de vragen
 
-2. **Genereer 20 nieuwe vragen die:**
+2. **Genereer 60 nieuwe vragen die:**
    - ✅ Passen bij het difficulty level (zie sectie "Difficulty Levels")
    - ✅ Uniek zijn (geen duplicaten van bestaande vragen)
    - ✅ Hetzelfde onderwerp/thema behandelen
@@ -21,49 +21,40 @@
    - ✅ Correcte, verifieerbare informatie bevatten
 
 3. **Voeg de nieuwe vragen toe:**
-   - Append de 20 nieuwe vragen aan het `questions` array
+   - Append de 60 nieuwe vragen aan het `questions` array
    - Behoud exact dezelfde structuur/formatting
    - Zorg dat `correct:` index klopt (0-3 voor 4 opties)
    - Controleer dat alle translations compleet zijn
 
 4. **Finale check:**
-   - Totaal aantal vragen = 40
+   - Totaal aantal vragen = **minimaal 100** (meer is OK! Beter te veel dan te weinig)
    - Geen syntax errors
    - Alle vragen hebben question, options, correct, explanation
-   - Difficulty escaleert logisch binnen het level
+   - **Note:** Als er per ongeluk 101, 105, of zelfs 110 vragen zijn, is dat geen probleem 
 
----
+### ✅ VOLLEDIG AFGEROND (12 subjects, 1810 files):
+- **ai**: 160 files ✓ (100%)
+- **board-games**: 130 files ✓ (100%)
+- **books**: 110 files ✓ (100%)
+- **currencies**: 230 files ✓ (100%)
+- **desserts**: 180 files ✓ (100%)
+- **dinosaurs**: 180 files ✓ (100%)
+- **drinks**: 100 files ✓ (100%)
+- **egypt**: 240 files ✓ (100%)
+- **f1**: 120 files ✓ (100%)
+- **famous-buildings**: 120 files ✓ (100%)
+- **famous-people**: 100 files ✓ (100%)
+- **food**: 140 files ✓ (100%)
 
-## 📊 STATUS VOORTGANG (Laatst bijgewerkt: 2026-01-12 03:45)
+### 🎉 ALLE VRAGEN COMPLEET!
+- **Totaal**: 1,810 bestanden
+- **Compleet**: 1,810 bestanden (100%)
+- **Alle bestanden hebben 100+ vragen!**
 
-### ✅ VOLLEDIG AFGEROND (10 subjects, 920 files):
-- **ai**: 95 files ✓
-- **board-games**: 100 files ✓
-- **books**: 100 files ✓
-- **currencies**: 100 files ✓
-- **desserts**: 100 files ✓
-- **dinosaurs**: 100 files ✓
-- **drinks**: 80 files ✓
-- **egypt**: 98 files ✓
-- **f1**: 64 files ✓
-- **food**: 83 files ✓
+### 📈 Project Status:
+- **Update datum**: 2026-02-03
+- **Totale vragen**: ~181,000+ vragen (1,810 files × 100+ questions each)
 
-### ⚠️ IN UITVOERING (1 subject, 56 files):
-- **famous-people**: 16/56 files klaar (28.6%), **40 files nog te doen**
-  - ✅ KLAAR: Historical Figures (6/6), Actors and Actresses (10/10)
-  - ⏳ Gedeeltelijk: Artists (0/3 te doen), Authors (2/4 te doen), Entrepreneurs (2/5 te doen)
-  - ⏳ Nog starten: Musicians (0/8), Political Leaders (0/7), Scientists (0/7), Social Media Influencers (0/6), Sports Icons (0/7)
-
-### ⏳ NOG TE STARTEN (1 subject, 117 files):
-- **famous-buildings**: 0/117 files klaar, **117 files nog te doen**
-
-### 📈 Totaal voortgang:
-- **Klaar**: 936 files (85.6%)
-- **Te doen**: 157 files (14.4%)
-- **Totaal**: 1,093 files
-
-### 💡 Status:
-Excellent progress! Historical Figures en Actors and Actresses zijn compleet. De Task agents bereiken hun spending cap (reset 21:00), waardoor werk stopt. Resterende 157 files kunnen worden afgemaakt na spending cap reset of in volgende sessie.
 
 ---
 
@@ -184,6 +175,37 @@ explanation: {
 
 ---
 
+## 📁 Tijdelijke Bestanden & Werkwijze
+
+**Voor Claude/AI assistenten:**
+- ✅ **Maak tijdelijke bestanden in een aparte folder** (bijv. `/temp/`, `/tmp/`, of `/analysis/`)
+- ✅ **Gebruik duidelijke bestandsnamen** voor tijdelijke scripts:
+  - `temp_check_questions.js`
+  - `temp_analysis_report.py`
+  - `temp_fix_issues.js`
+- ✅ **Verwijder tijdelijke bestanden na gebruik** indien niet meer nodig
+- ❌ **GEEN tijdelijke bestanden in de hoofdmap**
+- ❌ **GEEN tijdelijke bestanden in src folders**
+
+**Voorbeeld workflow:**
+```bash
+# Maak temp folder indien nodig
+mkdir -p temp
+
+# Maak tijdelijk script
+cat > temp/check_questions.js << 'EOF'
+// tijdelijke check code
+EOF
+
+# Gebruik het script
+node temp/check_questions.js
+
+# Verwijder na gebruik (optioneel)
+rm temp/check_questions.js
+```
+
+---
+
 ## Te Vermijden
 
 ### ❌ Filosofische/onbeantwoordbare vragen
@@ -300,5 +322,5 @@ Bij het verkorten van te lange vragen:
 
 ---
 
-*Last updated: 2025-12-16*
+*Last updated: 2026-02-03*
 *Based on: Scenario "Soepel" for questions/options, "Ruim" for explanations*

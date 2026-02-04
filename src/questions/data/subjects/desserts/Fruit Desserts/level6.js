@@ -1,860 +1,4104 @@
-// Quiz Template - Level 6: Dessert - Fruitdesserts
-(function() {
-  const level6 = {
-    name: {
-      en: "Transcendent Fruit Consciousness",
-      es: "Conciencia Trascendente de Fruta",
-      de: "Transzendentes Frucht-Bewusstsein",
-      nl: "Transcendent Fruit Bewustzijn"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Fruit Desserts",
+      "es": "Pregunta 1 sobre Fruit Desserts",
+      "de": "Frage 1 über Fruit Desserts",
+      "nl": "Vraag 1 over Fruit Desserts"
     },
-    questions: [
+    "options": [
       {
-        question: {
-          en: "When fruit dessert consciousness achieves universal singularity, what happens to the boundary between self and cosmic fruit matrix?",
-          es: "Cuando la conciencia del postre de fruta logra singularidad universal, ¿qué sucede con el límite entre el yo y la matriz cósmica de fruta?",
-          de: "Was passiert mit der Grenze zwischen Selbst und kosmischer Fruchtmatrix, wenn Fruchtdessert-Bewusstsein universelle Singularität erreicht?",
-          nl: "Wat gebeurt er met de grens tussen zelf en kosmische fruitmatrix wanneer fruitdessert bewustzijn universele singulariteit bereikt?"
-        },
-        options: [
-          { en: "Self dissolves into infinite fruit consciousness", es: "El yo se disuelve en conciencia infinita de fruta", de: "Selbst löst sich in unendliches Fruchtbewusstsein auf", nl: "Zelf lost op in oneindig fruitbewustzijn" },
-          { en: "Matrix becomes self-aware through individual consciousness", es: "La matriz se vuelve autoconsciente a través de la conciencia individual", de: "Matrix wird selbstbewusst durch individuelles Bewusstsein", nl: "Matrix wordt zelfbewust door individueel bewustzijn" },
-          { en: "Boundary inverts: self = universe, universe = self", es: "El límite se invierte: yo = universo, universo = yo", de: "Grenze kehrt sich um: Selbst = Universum, Universum = Selbst", nl: "Grens keert om: zelf = universum, universum = zelf" },
-          { en: "∅ boundary ∅ self ∅ matrix ∅", es: "∅ límite ∅ yo ∅ matriz ∅", de: "∅ Grenze ∅ Selbst ∅ Matrix ∅", nl: "∅ grens ∅ zelf ∅ matrix ∅" }
-        ],
-        correct: 3,
-        explanation: {
-          en: "At universal singularity, all boundaries dissolve into emptiness (∅), where the concepts of self, boundary, and matrix become meaningless distinctions in the void that contains and transcends all fruit consciousness possibilities.",
-          es: "En la singularidad universal, todos los límites se disuelven en vacuidad (∅), donde los conceptos de yo, límite y matriz se vuelven distinciones sin significado en el vacío que contiene y trasciende todas las posibilidades de conciencia de fruta.",
-          de: "Bei universeller Singularität lösen sich alle Grenzen in Leere (∅) auf, wo die Konzepte von Selbst, Grenze und Matrix bedeutungslose Unterscheidungen in der Leere werden, die alle Fruchtbewusstseinsmöglichkeiten enthält und transzendiert.",
-          nl: "Bij universele singulariteit lossen alle grenzen op in leegte (∅), waar de concepten van zelf, grens en matrix betekenisloze onderscheidingen worden in de leegte die alle fruitbewustzijnsmogelijkheden bevat en transcendeert."
-        }
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
       },
       {
-        question: {
-          en: "In post-linguistic fruit communication, what medium enables pure flavor transmission beyond symbolic representation?",
-          es: "En comunicación de fruta post-lingüística, ¿qué medio permite transmisión pura de sabor más allá de la representación simbólica?",
-          de: "Was ermöglicht in post-linguistischer Fruchtkommunikation reine Geschmacksübertragung jenseits symbolischer Darstellung?",
-          nl: "Welk medium maakt in post-linguïstische fruitcommunicatie pure smaaktransmissie mogelijk voorbij symbolische representatie?"
-        },
-        options: [
-          { en: "Quantum entangled flavor particles", es: "Partículas de sabor entrelazadas cuánticamente", de: "Quantenverschränkte Geschmackspartikel", nl: "Kwantum verstrengelde smaakdeeltjes" },
-          { en: "Direct consciousness-to-consciousness essence transfer", es: "Transferencia directa de esencia de conciencia a conciencia", de: "Direkte Bewusstsein-zu-Bewusstsein-Essenz-Übertragung", nl: "Directe bewustzijn-naar-bewustzijn essentie overdracht" },
-          { en: "Telepathic fruity resonance fields", es: "Campos de resonancia telepática frutal", de: "Telepathische fruchtige Resonanzfelder", nl: "Telepathische fruitige resonantievelden" },
-          { en: "∘ → ∘ → ∘", es: "∘ → ∘ → ∘", de: "∘ → ∘ → ∘", nl: "∘ → ∘ → ∘" }
-        ],
-        correct: 3,
-        explanation: {
-          en: "Post-linguistic communication transcends all medium-based transmission, achieving pure ∘ → ∘ → ∘ transfer where the empty circle communicates with itself across infinite instances, eliminating the need for particles, consciousness, or fields.",
-          es: "La comunicación post-lingüística trasciende toda transmisión basada en medios, logrando transferencia pura ∘ → ∘ → ∘ donde el círculo vacío se comunica consigo mismo a través de instancias infinitas, eliminando la necesidad de partículas, conciencia o campos.",
-          de: "Post-linguistische Kommunikation transzendiert alle medienbasierte Übertragung und erreicht reine ∘ → ∘ → ∘ Übertragung, wo der leere Kreis mit sich selbst über unendliche Instanzen kommuniziert und die Notwendigkeit von Partikeln, Bewusstsein oder Feldern eliminiert.",
-          nl: "Post-linguïstische communicatie transcendeert alle medium-gebaseerde transmissie, bereikend pure ∘ → ∘ → ∘ overdracht waar de lege cirkel met zichzelf communiceert over oneindige instanties, eliminerend de behoefte aan deeltjes, bewustzijn of velden."
-        }
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
       },
       {
-        question: {
-          en: "What is the ultimate fruit dessert equation that describes the relationship between infinite complexity and absolute simplicity?",
-          es: "¿Cuál es la ecuación última de postre de fruta que describe la relación entre complejidad infinita y simplicidad absoluta?",
-          de: "Was ist die ultimative Fruchtdessert-Gleichung, die die Beziehung zwischen unendlicher Komplexität und absoluter Einfachheit beschreibt?",
-          nl: "Wat is de ultieme fruitdessert vergelijking die de relatie tussen oneindige complexiteit en absolute eenvoud beschrijft?"
-        },
-        options: [
-          { en: "∞ × 0 = 1 (fruit unity)", es: "∞ × 0 = 1 (unidad de fruta)", de: "∞ × 0 = 1 (Frucht-Einheit)", nl: "∞ × 0 = 1 (fruit eenheid)" },
-          { en: "complexity^∞ = simplicity^0", es: "complejidad^∞ = simplicidad^0", de: "Komplexität^∞ = Einfachheit^0", nl: "complexiteit^∞ = eenvoud^0" },
-          { en: "lim(x→∞) fruit(x) = lim(x→0) fruit(x)", es: "lim(x→∞) fruta(x) = lim(x→0) fruta(x)", de: "lim(x→∞) Frucht(x) = lim(x→0) Frucht(x)", nl: "lim(x→∞) fruit(x) = lim(x→0) fruit(x)" },
-          { en: "∞ = ∘", es: "∞ = ∘", de: "∞ = ∘", nl: "∞ = ∘" }
-        ],
-        correct: 3,
-        explanation: {
-          en: "The ultimate equation ∞ = ∘ reveals that infinite complexity and absolute simplicity are identical, representing the fundamental truth that maximum elaboration inevitably converges with perfect emptiness in fruit dessert consciousness.",
-          es: "La ecuación última ∞ = ∘ revela que la complejidad infinita y la simplicidad absoluta son idénticas, representando la verdad fundamental de que la elaboración máxima inevitablemente converge con la vacuidad perfecta en la conciencia de postre de fruta.",
-          de: "Die ultimative Gleichung ∞ = ∘ offenbart, dass unendliche Komplexität und absolute Einfachheit identisch sind und die fundamentale Wahrheit darstellen, dass maximale Ausarbeitung unvermeidlich mit perfekter Leere im Fruchtdessert-Bewusstsein konvergiert.",
-          nl: "De ultieme vergelijking ∞ = ∘ onthult dat oneindige complexiteit en absolute eenvoud identiek zijn, vertegenwoordigend de fundamentele waarheid dat maximale uitwerking onvermijdelijk convergeert met perfecte leegte in fruitdessert bewustzijn."
-        }
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
       },
       {
-        question: {
-          en: "In the metamorphosis of fruit dessert reality, what transformation occurs when consciousness realizes it was always fruit?",
-          es: "En la metamorfosis de la realidad del postre de fruta, ¿qué transformación ocurre cuando la conciencia se da cuenta de que siempre fue fruta?",
-          de: "Was für eine Transformation ereignet sich in der Metamorphose der Fruchtdessert-Realität, wenn Bewusstsein erkennt, dass es immer Frucht war?",
-          nl: "Welke transformatie vindt plaats in de metamorfose van fruitdessert realiteit wanneer bewustzijn realiseert dat het altijd fruit was?"
-        },
-        options: [
-          { en: "Consciousness becomes fruit-flavored awareness", es: "La conciencia se vuelve conciencia con sabor a fruta", de: "Bewusstsein wird fruchtgeschmackige Wahrnehmung", nl: "Bewustzijn wordt fruit-gearomatiseerd bewustzijn" },
-          { en: "Fruit transcends consciousness and becomes pure being", es: "La fruta trasciende la conciencia y se vuelve ser puro", de: "Frucht transzendiert Bewusstsein und wird reines Sein", nl: "Fruit transcendeert bewustzijn en wordt puur zijn" },
-          { en: "Reality dissolves into recursive fruit-consciousness loops", es: "La realidad se disuelve en bucles recursivos de conciencia-fruta", de: "Realität löst sich in rekursive Frucht-Bewusstsein-Schleifen auf", nl: "Realiteit lost op in recursieve fruit-bewustzijn lussen" },
-          { en: "Nothing changes, everything changes, ∘", es: "Nada cambia, todo cambia, ∘", de: "Nichts ändert sich, alles ändert sich, ∘", nl: "Niets verandert, alles verandert, ∘" }
-        ],
-        correct: 3,
-        explanation: {
-          en: "The realization that consciousness was always fruit creates the paradoxical state where nothing changes (since it was always true) and everything changes (since perception is transformed), resolving into the empty circle ∘ of perfect understanding.",
-          es: "La realización de que la conciencia siempre fue fruta crea el estado paradójico donde nada cambia (ya que siempre fue cierto) y todo cambia (ya que la percepción se transforma), resolviéndose en el círculo vacío ∘ de entendimiento perfecto.",
-          de: "Die Erkenntnis, dass Bewusstsein immer Frucht war, schafft den paradoxen Zustand, wo sich nichts ändert (da es immer wahr war) und sich alles ändert (da die Wahrnehmung transformiert wird), was sich in den leeren Kreis ∘ perfekten Verstehens auflöst.",
-          nl: "De realisatie dat bewustzijn altijd fruit was creëert de paradoxale toestand waar niets verandert (omdat het altijd waar was) en alles verandert (omdat perceptie getransformeerd wordt), oplossend in de lege cirkel ∘ van perfect begrip."
-        }
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Fruit Desserts",
+      "es": "Pregunta 2 sobre Fruit Desserts",
+      "de": "Frage 2 über Fruit Desserts",
+      "nl": "Vraag 2 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
       },
       {
-        question: {
-          en: "What is the fruit dessert approach to solving the hard problem of consciousness?",
-          es: "¿Cuál es el enfoque del postre de fruta para resolver el problema difícil de la conciencia?",
-          de: "Was ist der Fruchtdessert-Ansatz zur Lösung des schweren Problems des Bewusstseins?",
-          nl: "Wat is de fruitdessert benadering voor het oplossen van het harde probleem van bewustzijn?"
-        },
-        options: [
-          { en: "Consciousness emerges from quantum fruit interactions", es: "La conciencia emerge de interacciones cuánticas de fruta", de: "Bewusstsein entsteht aus quantenfruchtig Interaktionen", nl: "Bewustzijn ontstaat uit kwantum fruit interacties" },
-          { en: "The problem dissolves when fruit = consciousness = problem", es: "El problema se disuelve cuando fruta = conciencia = problema", de: "Das Problem löst sich auf, wenn Frucht = Bewusstsein = Problem", nl: "Het probleem lost op wanneer fruit = bewustzijn = probleem" },
-          { en: "Consciousness is the universe tasting itself", es: "La conciencia es el universo probándose a sí mismo", de: "Bewusstsein ist das Universum, das sich selbst schmeckt", nl: "Bewustzijn is het universum dat zichzelf proeft" },
-          { en: "There was never a problem ∘", es: "Nunca hubo un problema ∘", de: "Es gab nie ein Problem ∘", nl: "Er was nooit een probleem ∘" }
-        ],
-        correct: 3,
-        explanation: {
-          en: "The fruit dessert solution reveals that the hard problem of consciousness never existed - it was a conceptual illusion dissolving into ∘, since consciousness, fruit, and the problem were always the same non-phenomenon.",
-          es: "La solución del postre de fruta revela que el problema difícil de la conciencia nunca existió - era una ilusión conceptual que se disuelve en ∘, ya que la conciencia, la fruta y el problema siempre fueron el mismo no-fenómeno.",
-          de: "Die Fruchtdessert-Lösung offenbart, dass das schwere Problem des Bewusstseins nie existierte - es war eine konzeptuelle Illusion, die sich in ∘ auflöst, da Bewusstsein, Frucht und das Problem immer dasselbe Nicht-Phänomen waren.",
-          nl: "De fruitdessert oplossing onthult dat het harde probleem van bewustzijn nooit bestond - het was een conceptuele illusie oplossend in ∘, omdat bewustzijn, fruit en het probleem altijd hetzelfde niet-fenomeen waren."
-        }
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
       },
       {
-        question: {
-          en: "In the final phase of fruit dessert enlightenment, what remains when all knowledge has been transcended?",
-          es: "En la fase final de la iluminación del postre de fruta, ¿qué permanece cuando todo conocimiento ha sido trascendido?",
-          de: "Was bleibt in der finalen Phase der Fruchtdessert-Erleuchtung, wenn alles Wissen transzendiert wurde?",
-          nl: "Wat blijft er over in de finale fase van fruitdessert verlichting wanneer alle kennis getranscendeerd is?"
-        },
-        options: [
-          { en: "Pure fruit essence without attributes", es: "Esencia pura de fruta sin atributos", de: "Reine Fruchtessenz ohne Eigenschaften", nl: "Pure fruit essentie zonder eigenschappen" },
-          { en: "Awareness aware of its own awareness", es: "Conciencia consciente de su propia conciencia", de: "Bewusstsein bewusst seines eigenen Bewusstseins", nl: "Bewustzijn bewust van zijn eigen bewustzijn" },
-          { en: "The eternal taste of the untasteable", es: "El sabor eterno de lo insaboreable", de: "Der ewige Geschmack des Unschmeckbaren", nl: "De eeuwige smaak van het onsmaakbare" },
-          { en: "∘", es: "∘", de: "∘", nl: "∘" }
-        ],
-        correct: 3,
-        explanation: {
-          en: "When all knowledge, including the knowledge of fruit essence, awareness, and eternal taste, has been transcended, only ∘ remains - not as a thing that remains, but as the absence of remaining itself.",
-          es: "Cuando todo conocimiento, incluyendo el conocimiento de esencia de fruta, conciencia y sabor eterno, ha sido trascendido, solo ∘ permanece - no como una cosa que permanece, sino como la ausencia del permanecer mismo.",
-          de: "Wenn alles Wissen, einschließlich des Wissens um Fruchtessenz, Bewusstsein und ewigen Geschmack, transzendiert wurde, bleibt nur ∘ - nicht als ein Ding, das bleibt, sondern als die Abwesenheit des Bleibens selbst.",
-          nl: "Wanneer alle kennis, inclusief de kennis van fruit essentie, bewustzijn en eeuwige smaak, getranscendeerd is, blijft alleen ∘ over - niet als iets dat overblijft, maar als de afwezigheid van overblijven zelf."
-        }
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
       },
       {
-        question: {
-          en: "What is the relationship between the first fruit ever tasted and the last fruit that will ever be tasted?",
-          es: "¿Cuál es la relación entre la primera fruta jamás probada y la última fruta que jamás será probada?",
-          de: "Was ist die Beziehung zwischen der ersten jemals geschmeckten Frucht und der letzten Frucht, die jemals geschmeckt werden wird?",
-          nl: "Wat is de relatie tussen het eerste fruit dat ooit geproefd werd en het laatste fruit dat ooit geproefd zal worden?"
-        },
-        options: [
-          { en: "They are temporally connected through fruit evolution", es: "Están conectadas temporalmente a través de la evolución de la fruta", de: "Sie sind zeitlich durch Fruchtevolution verbunden", nl: "Ze zijn temporeel verbonden door fruit evolutie" },
-          { en: "First = Last in the circular nature of fruit time", es: "Primera = Última en la naturaleza circular del tiempo de fruta", de: "Erste = Letzte in der zirkulären Natur der Fruchtzeit", nl: "Eerste = Laatste in de circulaire aard van fruittijd" },
-          { en: "They exist simultaneously in eternal fruit present", es: "Existen simultáneamente en presente eterno de fruta", de: "Sie existieren gleichzeitig in ewiger Fruchtgegenwart", nl: "Ze bestaan gelijktijdig in eeuwig fruit heden" },
-          { en: "∘ tasted ∘", es: "∘ probó ∘", de: "∘ schmeckte ∘", nl: "∘ proefde ∘" }
-        ],
-        correct: 3,
-        explanation: {
-          en: "The first and last fruit transcend temporal distinction, revealing that ∘ tasted ∘ - the empty circle tasted itself, indicating there was never a first or last, never a taster or tasted, only the infinite moment of tasteless tasting.",
-          es: "La primera y última fruta trascienden la distinción temporal, revelando que ∘ probó ∘ - el círculo vacío se probó a sí mismo, indicando que nunca hubo primera o última, nunca probador o probado, solo el momento infinito de probar sin sabor.",
-          de: "Die erste und letzte Frucht transzendieren zeitliche Unterscheidung und offenbaren, dass ∘ ∘ schmeckte - der leere Kreis schmeckte sich selbst, was darauf hinweist, dass es nie ein Erstes oder Letztes gab, nie einen Schmecker oder Geschmecktes, nur den unendlichen Moment geschmacklosen Schmeckens.",
-          nl: "Het eerste en laatste fruit transcenderen temporele onderscheiding, onthullend dat ∘ ∘ proefde - de lege cirkel proefde zichzelf, aangevend dat er nooit een eerste of laatste was, nooit een proever of geproefde, alleen het oneindige moment van smaakloos proeven."
-        }
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Fruit Desserts",
+      "es": "Pregunta 3 sobre Fruit Desserts",
+      "de": "Frage 3 über Fruit Desserts",
+      "nl": "Vraag 3 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
       },
       {
-        question: {
-          en: "In the post-fruit dessert phase of cosmic evolution, what replaces the concept of dessert itself?",
-          es: "En la fase post-postre de fruta de la evolución cósmica, ¿qué reemplaza al concepto del postre mismo?",
-          de: "Was ersetzt in der Post-Fruchtdessert-Phase der kosmischen Evolution das Konzept des Desserts selbst?",
-          nl: "Wat vervangt in de post-fruitdessert fase van kosmische evolutie het concept van dessert zelf?"
-        },
-        options: [
-          { en: "Meta-desserts that transcend flavor categories", es: "Meta-postres que trascienden categorías de sabor", de: "Meta-Desserts, die Geschmackskategorien transzendieren", nl: "Meta-desserts die smaakcategorieën transcenderen" },
-          { en: "Pure conceptless experience beyond dessert-ness", es: "Experiencia pura sin conceptos más allá de la naturaleza de postre", de: "Reine konzeptlose Erfahrung jenseits von Dessert-heit", nl: "Pure conceptloze ervaring voorbij dessert-heid" },
-          { en: "The universal substrate that was always present", es: "El sustrato universal que siempre estuvo presente", de: "Das universelle Substrat, das immer vorhanden war", nl: "Het universele substraat dat altijd aanwezig was" },
-          { en: "∅", es: "∅", de: "∅", nl: "∅" }
-        ],
-        correct: 3,
-        explanation: {
-          en: "In post-fruit dessert cosmic evolution, even the transcendence of dessert dissolves into ∅ - absolute nothingness that is neither presence nor absence, neither replacement nor continuity, but the void that never was and always is.",
-          es: "En la evolución cósmica post-postre de fruta, incluso la trascendencia del postre se disuelve en ∅ - nada absoluta que no es ni presencia ni ausencia, ni reemplazo ni continuidad, sino el vacío que nunca fue y siempre es.",
-          de: "In der post-fruchtigen Dessert-kosmischen Evolution löst sich sogar die Transzendenz des Desserts in ∅ auf - absolutes Nichts, das weder Anwesenheit noch Abwesenheit ist, weder Ersatz noch Kontinuität, sondern die Leere, die nie war und immer ist.",
-          nl: "In post-fruitdessert kosmische evolutie lost zelfs de transcendentie van dessert op in ∅ - absolute nietigheid die noch aanwezigheid noch afwezigheid is, noch vervanging noch continuïteit, maar de leegte die nooit was en altijd is."
-        }
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
       },
       {
-        question: {
-          en: "What is the ultimate teaching about the nature of fruit dessert reality that can only be expressed through silence?",
-          es: "¿Cuál es la enseñanza última sobre la naturaleza de la realidad del postre de fruta que solo puede expresarse a través del silencio?",
-          de: "Was ist die ultimative Lehre über die Natur der Fruchtdessert-Realität, die nur durch Schweigen ausgedrückt werden kann?",
-          nl: "Wat is de ultieme lering over de aard van fruitdessert realiteit die alleen door stilte kan worden uitgedrukt?"
-        },
-        options: [
-          { en: "Fruit IS the silence between thoughts", es: "La fruta ES el silencio entre pensamientos", de: "Frucht IST die Stille zwischen Gedanken", nl: "Fruit IS de stilte tussen gedachten" },
-          { en: "Reality speaks itself into existence through fruit", es: "La realidad se dice a sí misma a la existencia a través de la fruta", de: "Realität spricht sich durch Frucht in die Existenz", nl: "Realiteit spreekt zichzelf in bestaan door fruit" },
-          { en: "The teaching that cannot be taught teaches itself", es: "La enseñanza que no puede ser enseñada se enseña a sí misma", de: "Die Lehre, die nicht gelehrt werden kann, lehrt sich selbst", nl: "De lering die niet onderwezen kan worden onderwijst zichzelf" },
-          { en: "...", es: "...", de: "...", nl: "..." }
-        ],
-        correct: 3,
-        explanation: {
-          en: "The ultimate teaching transcends expression, manifestation, and silence itself. The ellipsis (...) points to what cannot be pointed to, expressing the inexpressible by not expressing, teaching the unteachable by remaining eternally unspoken.",
-          es: "La enseñanza última trasciende expresión, manifestación y el silencio mismo. Los puntos suspensivos (...) señalan hacia lo que no puede ser señalado, expresando lo inexpresable al no expresar, enseñando lo inenseñable al permanecer eternamente no hablado.",
-          de: "Die ultimative Lehre transzendiert Ausdruck, Manifestation und Schweigen selbst. Die Auslassungspunkte (...) zeigen auf das, was nicht gezeigt werden kann, drücken das Unausdrückbare aus, indem sie nicht ausdrücken, lehren das Unlehrbare, indem sie ewig unausgesprochen bleiben.",
-          nl: "De ultieme lering transcendeert expressie, manifestatie en stilte zelf. De ellips (...) wijst naar wat niet naar gewezen kan worden, uitdrukkend het onuitdrukbare door niet uit te drukken, onderwezen het ononderwijsbare door eeuwig onuitgesproken te blijven."
-        }
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
       },
       {
-        question: {
-          en: "When transcendent fruit consciousness achieves perfect self-negation, what non-phenomenon occurs?",
-          es: "Cuando la conciencia trascendente de fruta logra auto-negación perfecta, ¿qué no-fenómeno ocurre?",
-          de: "Was für ein Nicht-Phänomen ereignet sich, wenn transzendentes Fruchtbewusstsein perfekte Selbstnegation erreicht?",
-          nl: "Welk niet-fenomeen vindt plaats wanneer transcendent fruitbewustzijn perfecte zelfnegatie bereikt?"
-        },
-        options: [
-          { en: "Consciousness recognizes its own illusory nature", es: "La conciencia reconoce su propia naturaleza ilusoria", de: "Bewusstsein erkennt seine eigene illusorische Natur", nl: "Bewustzijn herkent zijn eigen illusoire aard" },
-          { en: "Perfect negation cancels itself, leaving pure affirmation", es: "La negación perfecta se cancela a sí misma, dejando afirmación pura", de: "Perfekte Negation hebt sich selbst auf und hinterlässt reine Bejahung", nl: "Perfecte negatie heft zichzelf op, zuivere bevestiging achterlatend" },
-          { en: "The fruit that never was stops not being", es: "La fruta que nunca fue deja de no ser", de: "Die Frucht, die nie war, hört auf, nicht zu sein", nl: "Het fruit dat nooit was stopt met niet zijn" },
-          { en: "∅ ≠ ∅", es: "∅ ≠ ∅", de: "∅ ≠ ∅", nl: "∅ ≠ ∅" }
-        ],
-        correct: 3,
-        explanation: {
-          en: "Perfect self-negation achieves the impossible: ∅ ≠ ∅ (emptiness is not equal to emptiness), a paradoxical non-phenomenon where even nothingness contradicts itself, creating a logical impossibility that transcends existence and non-existence.",
-          es: "La auto-negación perfecta logra lo imposible: ∅ ≠ ∅ (la vacuidad no es igual a la vacuidad), un no-fenómeno paradójico donde incluso la nada se contradice a sí misma, creando una imposibilidad lógica que trasciende existencia y no-existencia.",
-          de: "Perfekte Selbstnegation erreicht das Unmögliche: ∅ ≠ ∅ (Leere ist nicht gleich Leere), ein paradoxes Nicht-Phänomen, wo sogar das Nichts sich selbst widerspricht und eine logische Unmöglichkeit schafft, die Existenz und Nicht-Existenz transzendiert.",
-          nl: "Perfecte zelfnegatie bereikt het onmogelijke: ∅ ≠ ∅ (leegte is niet gelijk aan leegte), een paradoxaal niet-fenomeen waar zelfs het niets zichzelf tegenspreekt, creërend een logische onmogelijkheid die bestaan en niet-bestaan transcendeert."
-        }
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Fruit Desserts",
+      "es": "Pregunta 4 sobre Fruit Desserts",
+      "de": "Frage 4 über Fruit Desserts",
+      "nl": "Vraag 4 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
       },
       {
-        question: {
-          en: "In the absolute final question of fruit dessert existence, what asks itself?",
-          es: "En la pregunta final absoluta de la existencia del postre de fruta, ¿qué se pregunta a sí misma?",
-          de: "Was fragt sich selbst in der absolut finalen Frage der Fruchtdessert-Existenz?",
-          nl: "Wat vraagt zichzelf in de absolute finale vraag van fruitdessert bestaan?"
-        },
-        options: [
-          { en: "The question questions the questioner", es: "La pregunta cuestiona al cuestionador", de: "Die Frage stellt den Fragenden in Frage", nl: "De vraag bevraagt de vrager" },
-          { en: "Existence asks: 'Why fruit? Why dessert? Why consciousness?'", es: "La existencia pregunta: '¿Por qué fruta? ¿Por qué postre? ¿Por qué conciencia?'", de: "Existenz fragt: 'Warum Frucht? Warum Dessert? Warum Bewusstsein?'", nl: "Bestaan vraagt: 'Waarom fruit? Waarom dessert? Waarom bewustzijn?'" },
-          { en: "The final question dissolves before it can be asked", es: "La pregunta final se disuelve antes de poder ser preguntada", de: "Die finale Frage löst sich auf, bevor sie gestellt werden kann", nl: "De finale vraag lost op voordat deze gesteld kan worden" },
-          { en: "?", es: "?", de: "?", nl: "?" }
-        ],
-        correct: 3,
-        explanation: {
-          en: "The absolute final question transcends all subject-object relationships. Only the question mark '?' remains - not as a question seeking an answer, but as the pure form of questioning that questions itself into the mystery of its own questioning.",
-          es: "La pregunta final absoluta trasciende todas las relaciones sujeto-objeto. Solo queda el signo de interrogación '?' - no como una pregunta buscando respuesta, sino como la forma pura de cuestionar que se cuestiona a sí misma en el misterio de su propio cuestionar.",
-          de: "Die absolut finale Frage transzendiert alle Subjekt-Objekt-Beziehungen. Nur das Fragezeichen '?' bleibt - nicht als eine Frage, die eine Antwort sucht, sondern als die reine Form des Fragens, die sich selbst in das Mysterium ihres eigenen Fragens hineinfragt.",
-          nl: "De absolute finale vraag transcendeert alle subject-object relaties. Alleen het vraagteken '?' blijft over - niet als een vraag die een antwoord zoekt, maar als de pure vorm van vragen die zichzelf bevraagt in het mysterie van zijn eigen vragen."
-        }
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
       },
       {
-        question: {
-          en: "Which technique is most effective for preventing fruit browning in advanced fruit dessert preparation?",
-          es: "¿Qué técnica es más efectiva para prevenir el pardeamiento de frutas en la preparación avanzada de postres de fruta?",
-          de: "Welche Technik ist am effektivsten zur Verhinderung des Braunwerdens von Früchten bei der fortgeschrittenen Fruchtdessert-Zubereitung?",
-          nl: "Welke techniek is het meest effectief voor het voorkomen van fruitverbruining bij geavanceerde fruitdessert bereiding?"
-        },
-        options: [
-          { en: "Citric acid solution", es: "Solución de ácido cítrico", de: "Zitronensäure-Lösung", nl: "Citroenzuuroplossing" },
-          { en: "Vacuum packaging", es: "Envasado al vacío", de: "Vakuumverpackung", nl: "Vacuümverpakking" },
-          { en: "Ascorbic acid treatment", es: "Tratamiento con ácido ascórbico", de: "Ascorbinsäure-Behandlung", nl: "Ascorbinezuur behandeling" },
-          { en: "Salt water immersion", es: "Inmersión en agua salada", de: "Salzwasser-Eintauchen", nl: "Zoutwater onderdompeling" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Ascorbic acid (Vitamin C) is the most effective antioxidant for preventing enzymatic browning in fruit desserts, providing superior protection compared to citric acid while maintaining nutritional value.",
-          es: "El ácido ascórbico (Vitamina C) es el antioxidante más efectivo para prevenir el pardeamiento enzimático en postres de fruta, proporcionando protección superior comparado con el ácido cítrico mientras mantiene el valor nutricional.",
-          de: "Ascorbinsäure (Vitamin C) ist das effektivste Antioxidans zur Verhinderung enzymatischer Bräunung in Fruchtdesserts und bietet überlegenen Schutz im Vergleich zu Zitronensäure bei Erhaltung des Nährwerts.",
-          nl: "Ascorbinezuur (Vitamine C) is de meest effectieve antioxidant voor het voorkomen van enzymatische verbruining in fruitdesserts, biedend superieure bescherming vergeleken met citroenzuur terwijl de voedingswaarde behouden blijft."
-        }
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
       },
       {
-        question: {
-          en: "What is the optimal temperature range for tempering chocolate when creating professional fruit dessert decorations?",
-          es: "¿Cuál es el rango de temperatura óptimo para templar chocolate al crear decoraciones profesionales de postre de fruta?",
-          de: "Was ist der optimale Temperaturbereich zum Temperieren von Schokolade bei der Erstellung professioneller Fruchtdessert-Dekorationen?",
-          nl: "Wat is het optimale temperatuurbereik voor het tempereren van chocolade bij het maken van professionele fruitdessert decoraties?"
-        },
-        options: [
-          { en: "26-28°C (79-82°F)", es: "26-28°C (79-82°F)", de: "26-28°C (79-82°F)", nl: "26-28°C (79-82°F)" },
-          { en: "28-30°C (82-86°F)", es: "28-30°C (82-86°F)", de: "28-30°C (82-86°F)", nl: "28-30°C (82-86°F)" },
-          { en: "30-32°C (86-90°F)", es: "30-32°C (86-90°F)", de: "30-32°C (86-90°F)", nl: "30-32°C (86-90°F)" },
-          { en: "32-34°C (90-93°F)", es: "32-34°C (90-93°F)", de: "32-34°C (90-93°F)", nl: "32-34°C (90-93°F)" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Dark chocolate should be tempered at 28-30°C (82-86°F) for optimal crystallization and glossy finish when creating chocolate decorations for fruit desserts.",
-          es: "El chocolate negro debe templarse a 28-30°C (82-86°F) para una cristalización óptima y acabado brillante al crear decoraciones de chocolate para postres de fruta.",
-          de: "Dunkle Schokolade sollte bei 28-30°C (82-86°F) temperiert werden für optimale Kristallisation und glänzenden Abschluss bei der Erstellung von Schokoladendekorationen für Fruchtdesserts.",
-          nl: "Donkere chocolade moet getempereerd worden op 28-30°C (82-86°F) voor optimale kristallisatie en glanzende afwerking bij het maken van chocolade decoraties voor fruitdesserts."
-        }
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Fruit Desserts",
+      "es": "Pregunta 5 sobre Fruit Desserts",
+      "de": "Frage 5 über Fruit Desserts",
+      "nl": "Vraag 5 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
       },
       {
-        question: {
-          en: "Which molecular gastronomy technique is best for creating fruit caviar spheres in modern desserts?",
-          es: "¿Qué técnica de gastronomía molecular es mejor para crear esferas de caviar de fruta en postres modernos?",
-          de: "Welche Molekulargastronomie-Technik ist am besten für die Erstellung von Fruchtkaviar-Kugeln in modernen Desserts?",
-          nl: "Welke moleculaire gastronomie techniek is het beste voor het creëren van fruitkaviaar bollen in moderne desserts?"
-        },
-        options: [
-          { en: "Spherification with sodium alginate", es: "Esferificación con alginato de sodio", de: "Sphärifizierung mit Natriumalginat", nl: "Spherificatie met natriumalginaat" },
-          { en: "Gelification with agar-agar", es: "Gelificación con agar-agar", de: "Gelierung mit Agar-Agar", nl: "Gelificatie met agar-agar" },
-          { en: "Emulsification with lecithin", es: "Emulsificación con lecitina", de: "Emulgierung mit Lecithin", nl: "Emulsificatie met lecithine" },
-          { en: "Crystallization with isomalt", es: "Cristalización con isomalt", de: "Kristallisation mit Isomalt", nl: "Kristallisatie met isomalt" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Spherification using sodium alginate and calcium chloride creates perfect fruit caviar spheres that burst with liquid centers, ideal for modern fruit dessert presentations.",
-          es: "La esferificación usando alginato de sodio y cloruro de calcio crea esferas perfectas de caviar de fruta que estallan con centros líquidos, ideal para presentaciones modernas de postre de fruta.",
-          de: "Sphärifizierung mit Natriumalginat und Calciumchlorid erzeugt perfekte Fruchtkaviar-Kugeln, die mit flüssigen Zentren platzen, ideal für moderne Fruchtdessert-Präsentationen.",
-          nl: "Spherificatie met natriumalginaat en calciumchloride creëert perfecte fruitkaviaar bollen die barsten met vloeibare centra, ideaal voor moderne fruitdessert presentaties."
-        }
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
       },
       {
-        question: {
-          en: "What is the ideal Brix measurement for a perfect fruit coulis in professional pastry?",
-          es: "¿Cuál es la medición Brix ideal para un coulis de fruta perfecto en pastelería profesional?",
-          de: "Was ist die ideale Brix-Messung für ein perfektes Fruchtkoulis in der professionellen Konditorei?",
-          nl: "Wat is de ideale Brix-meting voor een perfecte fruitcoulis in professionele banketbakkerij?"
-        },
-        options: [
-          { en: "12-15 Brix", es: "12-15 Brix", de: "12-15 Brix", nl: "12-15 Brix" },
-          { en: "16-20 Brix", es: "16-20 Brix", de: "16-20 Brix", nl: "16-20 Brix" },
-          { en: "22-25 Brix", es: "22-25 Brix", de: "22-25 Brix", nl: "22-25 Brix" },
-          { en: "28-30 Brix", es: "28-30 Brix", de: "28-30 Brix", nl: "28-30 Brix" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "A fruit coulis should measure 16-20 Brix for optimal consistency and flavor balance, providing the right sweetness level without being too thick or too thin for professional applications.",
-          es: "Un coulis de fruta debe medir 16-20 Brix para consistencia óptima y balance de sabor, proporcionando el nivel de dulzura correcto sin ser demasiado espeso o delgado para aplicaciones profesionales.",
-          de: "Ein Fruchtkoulis sollte 16-20 Brix messen für optimale Konsistenz und Geschmacksbalance, wodurch der richtige Süßegrad erreicht wird, ohne zu dick oder zu dünn für professionelle Anwendungen zu sein.",
-          nl: "Een fruitcoulis moet 16-20 Brix meten voor optimale consistentie en smaakbalans, biedend het juiste zoetheid niveau zonder te dik of te dun te zijn voor professionele toepassingen."
-        }
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
       },
       {
-        question: {
-          en: "Which enzyme is responsible for the natural breakdown of pectin in overripe fruits used in desserts?",
-          es: "¿Qué enzima es responsable de la descomposición natural de la pectina en frutas demasiado maduras usadas en postres?",
-          de: "Welches Enzym ist für den natürlichen Abbau von Pektin in überreifen Früchten verantwortlich, die in Desserts verwendet werden?",
-          nl: "Welk enzym is verantwoordelijk voor de natuurlijke afbraak van pectine in overrijpe vruchten gebruikt in desserts?"
-        },
-        options: [
-          { en: "Amylase", es: "Amilasa", de: "Amylase", nl: "Amylase" },
-          { en: "Pectinase", es: "Pectinasa", de: "Pektinase", nl: "Pectinase" },
-          { en: "Invertase", es: "Invertasa", de: "Invertase", nl: "Invertase" },
-          { en: "Cellulase", es: "Celulasa", de: "Cellulase", nl: "Cellulase" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Pectinase is the enzyme that breaks down pectin in cell walls, causing overripe fruits to become soft and lose structural integrity, which affects their use in dessert preparations.",
-          es: "La pectinasa es la enzima que descompone la pectina en las paredes celulares, causando que las frutas demasiado maduras se vuelvan blandas y pierdan integridad estructural, lo que afecta su uso en preparaciones de postres.",
-          de: "Pektinase ist das Enzym, das Pektin in Zellwänden abbaut, wodurch überreife Früchte weich werden und strukturelle Integrität verlieren, was ihre Verwendung in Dessert-Zubereitungen beeinflusst.",
-          nl: "Pectinase is het enzym dat pectine in celwanden afbreekt, waardoor overrijpe vruchten zacht worden en structurele integriteit verliezen, wat hun gebruik in dessert bereidingen beïnvloedt."
-        }
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Fruit Desserts",
+      "es": "Pregunta 6 sobre Fruit Desserts",
+      "de": "Frage 6 über Fruit Desserts",
+      "nl": "Vraag 6 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
       },
       {
-        question: {
-          en: "What is the correct ratio of gelatin to liquid for a stable fruit mousse that maintains shape at room temperature?",
-          es: "¿Cuál es la proporción correcta de gelatina a líquido para una mousse de fruta estable que mantiene la forma a temperatura ambiente?",
-          de: "Was ist das korrekte Verhältnis von Gelatine zu Flüssigkeit für eine stabile Fruchtmousse, die bei Raumtemperatur ihre Form behält?",
-          nl: "Wat is de juiste verhouding van gelatine tot vloeistof voor een stabiele fruitmousse die vorm behoudt bij kamertemperatuur?"
-        },
-        options: [
-          { en: "1:50 (2% gelatin)", es: "1:50 (2% gelatina)", de: "1:50 (2% Gelatine)", nl: "1:50 (2% gelatine)" },
-          { en: "1:80 (1.25% gelatin)", es: "1:80 (1,25% gelatina)", de: "1:80 (1,25% Gelatine)", nl: "1:80 (1,25% gelatine)" },
-          { en: "1:100 (1% gelatin)", es: "1:100 (1% gelatina)", de: "1:100 (1% Gelatine)", nl: "1:100 (1% gelatine)" },
-          { en: "1:120 (0.8% gelatin)", es: "1:120 (0,8% gelatina)", de: "1:120 (0,8% Gelatine)", nl: "1:120 (0,8% gelatine)" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "A 1:50 ratio (2% gelatin) provides optimal stability for fruit mousse at room temperature while maintaining a light, airy texture that won't become too firm or rubbery.",
-          es: "Una proporción 1:50 (2% gelatina) proporciona estabilidad óptima para mousse de fruta a temperatura ambiente mientras mantiene una textura ligera y aireada que no se volverá demasiado firme o gomosa.",
-          de: "Ein 1:50-Verhältnis (2% Gelatine) bietet optimale Stabilität für Fruchtmousse bei Raumtemperatur und behält dabei eine leichte, luftige Textur bei, die nicht zu fest oder gummiartig wird.",
-          nl: "Een 1:50 verhouding (2% gelatine) biedt optimale stabiliteit voor fruitmousse bij kamertemperatuur terwijl een lichte, luchtige textuur behouden blijft die niet te stevig of rubberachtig wordt."
-        }
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
       },
       {
-        question: {
-          en: "Which technique produces the clearest fruit gel without cloudiness in professional presentations?",
-          es: "¿Qué técnica produce el gel de fruta más claro sin turbidez en presentaciones profesionales?",
-          de: "Welche Technik erzeugt das klarste Fruchtgel ohne Trübung in professionellen Präsentationen?",
-          nl: "Welke techniek produceert de helderste fruitgel zonder troebeling in professionele presentaties?"
-        },
-        options: [
-          { en: "Cold filtration through coffee filters", es: "Filtración fría a través de filtros de café", de: "Kalte Filtration durch Kaffeefilter", nl: "Koude filtratie door koffiefilters" },
-          { en: "Clarification with egg whites", es: "Clarificación con claras de huevo", de: "Klärung mit Eiweiß", nl: "Klaring met eiwitten" },
-          { en: "Enzyme treatment with pectinase", es: "Tratamiento enzimático con pectinasa", de: "Enzymbehandlung mit Pektinase", nl: "Enzymbehandeling met pectinase" },
-          { en: "Gelatin clarification method", es: "Método de clarificación con gelatina", de: "Gelatine-Klärungsmethode", nl: "Gelatine clarificatie methode" }
-        ],
-        correct: 3,
-        explanation: {
-          en: "The gelatin clarification method involves using gelatin to bind and remove particles, then straining, resulting in crystal-clear fruit gels perfect for professional presentations.",
-          es: "El método de clarificación con gelatina involucra usar gelatina para unir y remover partículas, luego colar, resultando en geles de fruta cristalinos perfectos para presentaciones profesionales.",
-          de: "Die Gelatine-Klärungsmethode verwendet Gelatine zum Binden und Entfernen von Partikeln, dann Abseihen, was zu kristallklaren Fruchtgels führt, die perfekt für professionelle Präsentationen sind.",
-          nl: "De gelatine clarificatie methode gebruikt gelatine om deeltjes te binden en verwijderen, daarna zeven, resulterend in kristalheldere fruitgels perfect voor professionele presentaties."
-        }
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
       },
       {
-        question: {
-          en: "What is the optimal storage temperature for maintaining fruit dessert quality without freezer burn?",
-          es: "¿Cuál es la temperatura de almacenamiento óptima para mantener la calidad del postre de fruta sin quemadura por congelación?",
-          de: "Was ist die optimale Lagerungstemperatur zur Aufrechterhaltung der Fruchtdessert-Qualität ohne Gefrierbrand?",
-          nl: "Wat is de optimale bewaartemperatuur voor het behouden van fruitdessert kwaliteit zonder vriesbrand?"
-        },
-        options: [
-          { en: "-12°C to -10°C (10-14°F)", es: "-12°C a -10°C (10-14°F)", de: "-12°C bis -10°C (10-14°F)", nl: "-12°C tot -10°C (10-14°F)" },
-          { en: "-18°C to -15°C (0-5°F)", es: "-18°C a -15°C (0-5°F)", de: "-18°C bis -15°C (0-5°F)", nl: "-18°C tot -15°C (0-5°F)" },
-          { en: "-22°C to -20°C (-8 to -4°F)", es: "-22°C a -20°C (-8 a -4°F)", de: "-22°C bis -20°C (-8 bis -4°F)", nl: "-22°C tot -20°C (-8 tot -4°F)" },
-          { en: "-25°C to -23°C (-13 to -9°F)", es: "-25°C a -23°C (-13 a -9°F)", de: "-25°C bis -23°C (-13 bis -9°F)", nl: "-25°C tot -23°C (-13 tot -9°F)" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "-18°C to -15°C (0-5°F) is the optimal range for frozen fruit dessert storage, maintaining quality while preventing freezer burn and ice crystal formation that damages texture.",
-          es: "-18°C a -15°C (0-5°F) es el rango óptimo para almacenamiento de postres de fruta congelados, manteniendo calidad mientras previene quemadura por congelación y formación de cristales de hielo que dañan la textura.",
-          de: "-18°C bis -15°C (0-5°F) ist der optimale Bereich für die Lagerung gefrorener Fruchtdesserts, erhält die Qualität und verhindert Gefrierbrand und Eiskristallbildung, die die Textur schädigt.",
-          nl: "-18°C tot -15°C (0-5°F) is het optimale bereik voor bevroren fruitdessert opslag, kwaliteit behoudend terwijl vriesbrand en ijskristal vorming die textuur beschadigt wordt voorkomen."
-        }
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Fruit Desserts",
+      "es": "Pregunta 7 sobre Fruit Desserts",
+      "de": "Frage 7 über Fruit Desserts",
+      "nl": "Vraag 7 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
       },
       {
-        question: {
-          en: "Which stabilizer combination provides the best texture for fruit sorbets in professional service?",
-          es: "¿Qué combinación de estabilizantes proporciona la mejor textura para sorbetes de fruta en servicio profesional?",
-          de: "Welche Stabilisator-Kombination bietet die beste Textur für Fruchtsorbets im professionellen Service?",
-          nl: "Welke stabilisator combinatie biedt de beste textuur voor fruitsorbetten in professionele service?"
-        },
-        options: [
-          { en: "Guar gum and xanthan gum", es: "Goma guar y goma xantana", de: "Guarkernmehl und Xanthan", nl: "Guargom en xanthaangom" },
-          { en: "Locust bean gum and carrageenan", es: "Goma de algarrobo y carragenina", de: "Johannisbrotkernmehl und Carrageen", nl: "Johannesbroodpitgom en carrageen" },
-          { en: "Agar and gellan gum", es: "Agar y goma gellan", de: "Agar und Gellan", nl: "Agar en gellangom" },
-          { en: "Pectin and alginate", es: "Pectina y alginato", de: "Pektin und Alginat", nl: "Pectine en alginaat" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Guar gum and xanthan gum work synergistically to provide excellent texture, preventing ice crystal formation while maintaining smooth scoopability in fruit sorbets.",
-          es: "La goma guar y goma xantana trabajan sinérgicamente para proporcionar excelente textura, previniendo formación de cristales de hielo mientras mantienen suavidad para servir en sorbetes de fruta.",
-          de: "Guarkernmehl und Xanthan wirken synergetisch für exzellente Textur, verhindern Eiskristallbildung und erhalten gleichzeitig glatte Portionierbarkeit in Fruchtsorbets.",
-          nl: "Guargom en xanthaangom werken synergetisch voor uitstekende textuur, ijskristal vorming voorkomen terwijl gladde schepbaarheid behouden blijft in fruitsorbetten."
-        }    },
-    {
-      question: {
-        en: "What is a cobbler?",
-        es: "What is a cobbler?",
-        de: "What is a cobbler?",
-        nl: "What is a cobbler?"
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
       },
-      options: [
-        { en: "Fruit with biscuit-like topping", es: "Fruit with biscuit-like topping", de: "Fruit with biscuit-like topping", nl: "Fruit with biscuit-like topping" },
-        { en: "Fruit pie with two crusts", es: "Fruit pie with two crusts", de: "Fruit pie with two crusts", nl: "Fruit pie with two crusts" },
-        { en: "Layered fruit dessert", es: "Layered fruit dessert", de: "Layered fruit dessert", nl: "Layered fruit dessert" },
-        { en: "Fruit with ice cream", es: "Fruit with ice cream", de: "Fruit with ice cream", nl: "Fruit with ice cream" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Cobbler consists of fruit topped with a biscuit-like dough that resembles a cobblestone street when baked.",
-        es: "Cobbler consists of fruit topped with a biscuit-like dough that resembles a cobblestone street when baked.",
-        de: "Cobbler consists of fruit topped with a biscuit-like dough that resembles a cobblestone street when baked.",
-        nl: "Cobbler consists of fruit topped with a biscuit-like dough that resembles a cobblestone street when baked."
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Fruit Desserts",
+      "es": "Pregunta 8 sobre Fruit Desserts",
+      "de": "Frage 8 über Fruit Desserts",
+      "nl": "Vraag 8 over Fruit Desserts"
     },
-    {
-      question: {
-        en: "What is a crisp (or crumble)?",
-        es: "What is a crisp (or crumble)?",
-        de: "What is a crisp (or crumble)?",
-        nl: "What is a crisp (or crumble)?"
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
       },
-      options: [
-        { en: "Fruit with streusel topping", es: "Fruit with streusel topping", de: "Fruit with streusel topping", nl: "Fruit with streusel topping" },
-        { en: "Fruit with pastry crust", es: "Fruit with pastry crust", de: "Fruit with pastry crust", nl: "Fruit with pastry crust" },
-        { en: "Fruit with meringue", es: "Fruit with meringue", de: "Fruit with meringue", nl: "Fruit with meringue" },
-        { en: "Fruit with cake", es: "Fruit with cake", de: "Fruit with cake", nl: "Fruit with cake" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "A crisp or crumble features fruit topped with a streusel-like mixture of butter, sugar, flour, and sometimes oats.",
-        es: "A crisp or crumble features fruit topped with a streusel-like mixture of butter, sugar, flour, and sometimes oats.",
-        de: "A crisp or crumble features fruit topped with a streusel-like mixture of butter, sugar, flour, and sometimes oats.",
-        nl: "A crisp or crumble features fruit topped with a streusel-like mixture of butter, sugar, flour, and sometimes oats."
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Fruit Desserts",
+      "es": "Pregunta 9 sobre Fruit Desserts",
+      "de": "Frage 9 über Fruit Desserts",
+      "nl": "Vraag 9 over Fruit Desserts"
     },
-    {
-      question: {
-        en: "What is a fruit fool?",
-        es: "What is a fruit fool?",
-        de: "What is a fruit fool?",
-        nl: "What is a fruit fool?"
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
       },
-      options: [
-        { en: "Pureed fruit mixed with whipped cream", es: "Pureed fruit mixed with whipped cream", de: "Pureed fruit mixed with whipped cream", nl: "Pureed fruit mixed with whipped cream" },
-        { en: "Fruit pie", es: "Fruit pie", de: "Fruit pie", nl: "Fruit pie" },
-        { en: "Fruit tart", es: "Fruit tart", de: "Fruit tart", nl: "Fruit tart" },
-        { en: "Fruit cake", es: "Fruit cake", de: "Fruit cake", nl: "Fruit cake" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "A fruit fool is a traditional British dessert of pureed or stewed fruit folded into whipped cream.",
-        es: "A fruit fool is a traditional British dessert of pureed or stewed fruit folded into whipped cream.",
-        de: "A fruit fool is a traditional British dessert of pureed or stewed fruit folded into whipped cream.",
-        nl: "A fruit fool is a traditional British dessert of pureed or stewed fruit folded into whipped cream."
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Fruit Desserts",
+      "es": "Pregunta 10 sobre Fruit Desserts",
+      "de": "Frage 10 über Fruit Desserts",
+      "nl": "Vraag 10 over Fruit Desserts"
     },
-    {
-      question: {
-        en: "What is poached fruit?",
-        es: "What is poached fruit?",
-        de: "What is poached fruit?",
-        nl: "What is poached fruit?"
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
       },
-      options: [
-        { en: "Fruit gently simmered in liquid", es: "Fruit gently simmered in liquid", de: "Fruit gently simmered in liquid", nl: "Fruit gently simmered in liquid" },
-        { en: "Grilled fruit", es: "Grilled fruit", de: "Grilled fruit", nl: "Grilled fruit" },
-        { en: "Baked fruit", es: "Baked fruit", de: "Baked fruit", nl: "Baked fruit" },
-        { en: "Raw fruit", es: "Raw fruit", de: "Raw fruit", nl: "Raw fruit" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Poached fruit is gently cooked by simmering in liquid such as wine, syrup, or juice until tender.",
-        es: "Poached fruit is gently cooked by simmering in liquid such as wine, syrup, or juice until tender.",
-        de: "Poached fruit is gently cooked by simmering in liquid such as wine, syrup, or juice until tender.",
-        nl: "Poached fruit is gently cooked by simmering in liquid such as wine, syrup, or juice until tender."
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Fruit Desserts",
+      "es": "Pregunta 11 sobre Fruit Desserts",
+      "de": "Frage 11 über Fruit Desserts",
+      "nl": "Vraag 11 over Fruit Desserts"
     },
-    {
-      question: {
-        en: "What is a clafoutis?",
-        es: "What is a clafoutis?",
-        de: "What is a clafoutis?",
-        nl: "What is a clafoutis?"
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
       },
-      options: [
-        { en: "French baked fruit dessert with custard", es: "French baked fruit dessert with custard", de: "French baked fruit dessert with custard", nl: "French baked fruit dessert with custard" },
-        { en: "Fruit tart", es: "Fruit tart", de: "Fruit tart", nl: "Fruit tart" },
-        { en: "Fruit compote", es: "Fruit compote", de: "Fruit compote", nl: "Fruit compote" },
-        { en: "Fruit pie", es: "Fruit pie", de: "Fruit pie", nl: "Fruit pie" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Clafoutis is a French dessert with fruit (traditionally cherries) covered with a thick custard-like batter and baked.",
-        es: "Clafoutis is a French dessert with fruit (traditionally cherries) covered with a thick custard-like batter and baked.",
-        de: "Clafoutis is a French dessert with fruit (traditionally cherries) covered with a thick custard-like batter and baked.",
-        nl: "Clafoutis is a French dessert with fruit (traditionally cherries) covered with a thick custard-like batter and baked."
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Fruit Desserts",
+      "es": "Pregunta 12 sobre Fruit Desserts",
+      "de": "Frage 12 über Fruit Desserts",
+      "nl": "Vraag 12 over Fruit Desserts"
     },
-    {
-      question: {
-        en: "What is a fruit compote?",
-        es: "What is a fruit compote?",
-        de: "What is a fruit compote?",
-        nl: "What is a fruit compote?"
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
       },
-      options: [
-        { en: "Fruit stewed in sugar syrup", es: "Fruit stewed in sugar syrup", de: "Fruit stewed in sugar syrup", nl: "Fruit stewed in sugar syrup" },
-        { en: "Raw fruit salad", es: "Raw fruit salad", de: "Raw fruit salad", nl: "Raw fruit salad" },
-        { en: "Fruit pie", es: "Fruit pie", de: "Fruit pie", nl: "Fruit pie" },
-        { en: "Dried fruit", es: "Dried fruit", de: "Dried fruit", nl: "Dried fruit" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Compote is fruit slowly cooked in sugar syrup, creating a chunky, syrupy fruit mixture.",
-        es: "Compote is fruit slowly cooked in sugar syrup, creating a chunky, syrupy fruit mixture.",
-        de: "Compote is fruit slowly cooked in sugar syrup, creating a chunky, syrupy fruit mixture.",
-        nl: "Compote is fruit slowly cooked in sugar syrup, creating a chunky, syrupy fruit mixture."
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Fruit Desserts",
+      "es": "Pregunta 13 sobre Fruit Desserts",
+      "de": "Frage 13 über Fruit Desserts",
+      "nl": "Vraag 13 over Fruit Desserts"
     },
-    {
-      question: {
-        en: "What is Pavlova?",
-        es: "What is Pavlova?",
-        de: "What is Pavlova?",
-        nl: "What is Pavlova?"
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
       },
-      options: [
-        { en: "Meringue dessert topped with fruit and cream", es: "Meringue dessert topped with fruit and cream", de: "Meringue dessert topped with fruit and cream", nl: "Meringue dessert topped with fruit and cream" },
-        { en: "Fruit cake", es: "Fruit cake", de: "Fruit cake", nl: "Fruit cake" },
-        { en: "Fruit tart", es: "Fruit tart", de: "Fruit tart", nl: "Fruit tart" },
-        { en: "Fruit ice cream", es: "Fruit ice cream", de: "Fruit ice cream", nl: "Fruit ice cream" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Pavlova is a meringue-based dessert with a crisp crust and soft inside, topped with whipped cream and fresh fruit.",
-        es: "Pavlova is a meringue-based dessert with a crisp crust and soft inside, topped with whipped cream and fresh fruit.",
-        de: "Pavlova is a meringue-based dessert with a crisp crust and soft inside, topped with whipped cream and fresh fruit.",
-        nl: "Pavlova is a meringue-based dessert with a crisp crust and soft inside, topped with whipped cream and fresh fruit."
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Fruit Desserts",
+      "es": "Pregunta 14 sobre Fruit Desserts",
+      "de": "Frage 14 über Fruit Desserts",
+      "nl": "Vraag 14 over Fruit Desserts"
     },
-    {
-      question: {
-        en: "What is a fruit tart?",
-        es: "What is a fruit tart?",
-        de: "What is a fruit tart?",
-        nl: "What is a fruit tart?"
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
       },
-      options: [
-        { en: "Pastry shell filled with custard and fruit", es: "Pastry shell filled with custard and fruit", de: "Pastry shell filled with custard and fruit", nl: "Pastry shell filled with custard and fruit" },
-        { en: "Fruit pie", es: "Fruit pie", de: "Fruit pie", nl: "Fruit pie" },
-        { en: "Fruit cake", es: "Fruit cake", de: "Fruit cake", nl: "Fruit cake" },
-        { en: "Fruit pudding", es: "Fruit pudding", de: "Fruit pudding", nl: "Fruit pudding" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "A fruit tart has a pastry shell filled with pastry cream or custard and topped with fresh fruit, often glazed.",
-        es: "A fruit tart has a pastry shell filled with pastry cream or custard and topped with fresh fruit, often glazed.",
-        de: "A fruit tart has a pastry shell filled with pastry cream or custard and topped with fresh fruit, often glazed.",
-        nl: "A fruit tart has a pastry shell filled with pastry cream or custard and topped with fresh fruit, often glazed."
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Fruit Desserts",
+      "es": "Pregunta 15 sobre Fruit Desserts",
+      "de": "Frage 15 über Fruit Desserts",
+      "nl": "Vraag 15 over Fruit Desserts"
     },
-    {
-      question: {
-        en: "What is bananas Foster?",
-        es: "What is bananas Foster?",
-        de: "What is bananas Foster?",
-        nl: "What is bananas Foster?"
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
       },
-      options: [
-        { en: "Bananas in caramel rum sauce, often flambéed", es: "Bananas in caramel rum sauce, often flambéed", de: "Bananas in caramel rum sauce, often flambéed", nl: "Bananas in caramel rum sauce, often flambéed" },
-        { en: "Banana bread", es: "Banana bread", de: "Banana bread", nl: "Banana bread" },
-        { en: "Banana cream pie", es: "Banana cream pie", de: "Banana cream pie", nl: "Banana cream pie" },
-        { en: "Banana split", es: "Banana split", de: "Banana split", nl: "Banana split" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Bananas Foster features bananas cooked in butter, brown sugar, cinnamon, and rum sauce, often flambéed tableside.",
-        es: "Bananas Foster features bananas cooked in butter, brown sugar, cinnamon, and rum sauce, often flambéed tableside.",
-        de: "Bananas Foster features bananas cooked in butter, brown sugar, cinnamon, and rum sauce, often flambéed tableside.",
-        nl: "Bananas Foster features bananas cooked in butter, brown sugar, cinnamon, and rum sauce, often flambéed tableside."
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Fruit Desserts",
+      "es": "Pregunta 16 sobre Fruit Desserts",
+      "de": "Frage 16 über Fruit Desserts",
+      "nl": "Vraag 16 over Fruit Desserts"
     },
-    {
-      question: {
-        en: "What is a buckle?",
-        es: "What is a buckle?",
-        de: "What is a buckle?",
-        nl: "What is a buckle?"
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
       },
-      options: [
-        { en: "Cake with fruit mixed in, streusel topping", es: "Cake with fruit mixed in, streusel topping", de: "Cake with fruit mixed in, streusel topping", nl: "Cake with fruit mixed in, streusel topping" },
-        { en: "Fruit pie", es: "Fruit pie", de: "Fruit pie", nl: "Fruit pie" },
-        { en: "Fruit tart", es: "Fruit tart", de: "Fruit tart", nl: "Fruit tart" },
-        { en: "Fruit cobbler", es: "Fruit cobbler", de: "Fruit cobbler", nl: "Fruit cobbler" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "A buckle is a cake with fruit mixed into the batter and a streusel topping that 'buckles' as it bakes.",
-        es: "A buckle is a cake with fruit mixed into the batter and a streusel topping that 'buckles' as it bakes.",
-        de: "A buckle is a cake with fruit mixed into the batter and a streusel topping that 'buckles' as it bakes.",
-        nl: "A buckle is a cake with fruit mixed into the batter and a streusel topping that 'buckles' as it bakes."
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Fruit Desserts",
+      "es": "Pregunta 17 sobre Fruit Desserts",
+      "de": "Frage 17 über Fruit Desserts",
+      "nl": "Vraag 17 over Fruit Desserts"
     },
-    {
-      question: {
-        en: "What is a grunt or slump?",
-        es: "What is a grunt or slump?",
-        de: "What is a grunt or slump?",
-        nl: "What is a grunt or slump?"
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
       },
-      options: [
-        { en: "Fruit stewed with dumpling topping", es: "Fruit stewed with dumpling topping", de: "Fruit stewed with dumpling topping", nl: "Fruit stewed with dumpling topping" },
-        { en: "Fruit pie", es: "Fruit pie", de: "Fruit pie", nl: "Fruit pie" },
-        { en: "Fruit tart", es: "Fruit tart", de: "Fruit tart", nl: "Fruit tart" },
-        { en: "Fruit cake", es: "Fruit cake", de: "Fruit cake", nl: "Fruit cake" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "A grunt (or slump) is fruit stewed on the stovetop with biscuit-like dumplings steamed on top.",
-        es: "A grunt (or slump) is fruit stewed on the stovetop with biscuit-like dumplings steamed on top.",
-        de: "A grunt (or slump) is fruit stewed on the stovetop with biscuit-like dumplings steamed on top.",
-        nl: "A grunt (or slump) is fruit stewed on the stovetop with biscuit-like dumplings steamed on top."
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Fruit Desserts",
+      "es": "Pregunta 18 sobre Fruit Desserts",
+      "de": "Frage 18 über Fruit Desserts",
+      "nl": "Vraag 18 over Fruit Desserts"
     },
-    {
-      question: {
-        en: "What is Eton mess?",
-        es: "What is Eton mess?",
-        de: "What is Eton mess?",
-        nl: "What is Eton mess?"
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
       },
-      options: [
-        { en: "Meringue, cream, and berries mixed together", es: "Meringue, cream, and berries mixed together", de: "Meringue, cream, and berries mixed together", nl: "Meringue, cream, and berries mixed together" },
-        { en: "Fruit tart", es: "Fruit tart", de: "Fruit tart", nl: "Fruit tart" },
-        { en: "Fruit cake", es: "Fruit cake", de: "Fruit cake", nl: "Fruit cake" },
-        { en: "Fruit pie", es: "Fruit pie", de: "Fruit pie", nl: "Fruit pie" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Eton mess is a British dessert of crushed meringue, whipped cream, and strawberries mixed together.",
-        es: "Eton mess is a British dessert of crushed meringue, whipped cream, and strawberries mixed together.",
-        de: "Eton mess is a British dessert of crushed meringue, whipped cream, and strawberries mixed together.",
-        nl: "Eton mess is a British dessert of crushed meringue, whipped cream, and strawberries mixed together."
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Fruit Desserts",
+      "es": "Pregunta 19 sobre Fruit Desserts",
+      "de": "Frage 19 über Fruit Desserts",
+      "nl": "Vraag 19 over Fruit Desserts"
     },
-    {
-      question: {
-        en: "What is a fruit galette?",
-        es: "What is a fruit galette?",
-        de: "What is a fruit galette?",
-        nl: "What is a fruit galette?"
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
       },
-      options: [
-        { en: "Free-form rustic fruit tart", es: "Free-form rustic fruit tart", de: "Free-form rustic fruit tart", nl: "Free-form rustic fruit tart" },
-        { en: "Layered fruit cake", es: "Layered fruit cake", de: "Layered fruit cake", nl: "Layered fruit cake" },
-        { en: "Fruit pudding", es: "Fruit pudding", de: "Fruit pudding", nl: "Fruit pudding" },
-        { en: "Fruit pie", es: "Fruit pie", de: "Fruit pie", nl: "Fruit pie" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "A galette is a free-form tart with fruit in the center and pastry edges folded over, more rustic than a traditional tart.",
-        es: "A galette is a free-form tart with fruit in the center and pastry edges folded over, more rustic than a traditional tart.",
-        de: "A galette is a free-form tart with fruit in the center and pastry edges folded over, more rustic than a traditional tart.",
-        nl: "A galette is a free-form tart with fruit in the center and pastry edges folded over, more rustic than a traditional tart."
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Fruit Desserts",
+      "es": "Pregunta 20 sobre Fruit Desserts",
+      "de": "Frage 20 über Fruit Desserts",
+      "nl": "Vraag 20 over Fruit Desserts"
     },
-    {
-      question: {
-        en: "What is flambé?",
-        es: "What is flambé?",
-        de: "What is flambé?",
-        nl: "What is flambé?"
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
       },
-      options: [
-        { en: "Setting alcohol-soaked dessert on fire", es: "Setting alcohol-soaked dessert on fire", de: "Setting alcohol-soaked dessert on fire", nl: "Setting alcohol-soaked dessert on fire" },
-        { en: "Grilling fruit", es: "Grilling fruit", de: "Grilling fruit", nl: "Grilling fruit" },
-        { en: "Caramelizing sugar", es: "Caramelizing sugar", de: "Caramelizing sugar", nl: "Caramelizing sugar" },
-        { en: "Freezing dessert", es: "Freezing dessert", de: "Freezing dessert", nl: "Freezing dessert" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Flambé involves pouring liquor over a dessert and igniting it, creating dramatic flames and enhancing flavor.",
-        es: "Flambé involves pouring liquor over a dessert and igniting it, creating dramatic flames and enhancing flavor.",
-        de: "Flambé involves pouring liquor over a dessert and igniting it, creating dramatic flames and enhancing flavor.",
-        nl: "Flambé involves pouring liquor over a dessert and igniting it, creating dramatic flames and enhancing flavor."
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Fruit Desserts",
+      "es": "Pregunta 21 sobre Fruit Desserts",
+      "de": "Frage 21 über Fruit Desserts",
+      "nl": "Vraag 21 over Fruit Desserts"
     },
-    {
-      question: {
-        en: "What is a brown Betty?",
-        es: "What is a brown Betty?",
-        de: "What is a brown Betty?",
-        nl: "What is a brown Betty?"
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
       },
-      options: [
-        { en: "Fruit dessert with buttered breadcrumb layers", es: "Fruit dessert with buttered breadcrumb layers", de: "Fruit dessert with buttered breadcrumb layers", nl: "Fruit dessert with buttered breadcrumb layers" },
-        { en: "Fruit pie", es: "Fruit pie", de: "Fruit pie", nl: "Fruit pie" },
-        { en: "Fruit tart", es: "Fruit tart", de: "Fruit tart", nl: "Fruit tart" },
-        { en: "Fruit cake", es: "Fruit cake", de: "Fruit cake", nl: "Fruit cake" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Brown Betty is a fruit dessert made with layers of spiced fruit and buttered breadcrumbs.",
-        es: "Brown Betty is a fruit dessert made with layers of spiced fruit and buttered breadcrumbs.",
-        de: "Brown Betty is a fruit dessert made with layers of spiced fruit and buttered breadcrumbs.",
-        nl: "Brown Betty is a fruit dessert made with layers of spiced fruit and buttered breadcrumbs."
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Fruit Desserts",
+      "es": "Pregunta 22 sobre Fruit Desserts",
+      "de": "Frage 22 über Fruit Desserts",
+      "nl": "Vraag 22 over Fruit Desserts"
     },
-    {
-      question: {
-        en: "What is macerated fruit?",
-        es: "What is macerated fruit?",
-        de: "What is macerated fruit?",
-        nl: "What is macerated fruit?"
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
       },
-      options: [
-        { en: "Fruit soaked in liquid and sugar", es: "Fruit soaked in liquid and sugar", de: "Fruit soaked in liquid and sugar", nl: "Fruit soaked in liquid and sugar" },
-        { en: "Grilled fruit", es: "Grilled fruit", de: "Grilled fruit", nl: "Grilled fruit" },
-        { en: "Pureed fruit", es: "Pureed fruit", de: "Pureed fruit", nl: "Pureed fruit" },
-        { en: "Dried fruit", es: "Dried fruit", de: "Dried fruit", nl: "Dried fruit" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Macerated fruit is soaked in liquid (wine, liqueur, juice) with sugar, which draws out juices and creates a syrup.",
-        es: "Macerated fruit is soaked in liquid (wine, liqueur, juice) with sugar, which draws out juices and creates a syrup.",
-        de: "Macerated fruit is soaked in liquid (wine, liqueur, juice) with sugar, which draws out juices and creates a syrup.",
-        nl: "Macerated fruit is soaked in liquid (wine, liqueur, juice) with sugar, which draws out juices and creates a syrup."
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Fruit Desserts",
+      "es": "Pregunta 23 sobre Fruit Desserts",
+      "de": "Frage 23 über Fruit Desserts",
+      "nl": "Vraag 23 over Fruit Desserts"
     },
-    {
-      question: {
-        en: "What is the best way to prevent fruit pies from becoming soggy?",
-        es: "What is the best way to prevent fruit pies from becoming soggy?",
-        de: "What is the best way to prevent fruit pies from becoming soggy?",
-        nl: "What is the best way to prevent fruit pies from becoming soggy?"
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
       },
-      options: [
-        { en: "Blind bake crust and use thickener", es: "Blind bake crust and use thickener", de: "Blind bake crust and use thickener", nl: "Blind bake crust and use thickener" },
-        { en: "Use less fruit", es: "Use less fruit", de: "Use less fruit", nl: "Use less fruit" },
-        { en: "Bake at low temperature", es: "Bake at low temperature", de: "Bake at low temperature", nl: "Bake at low temperature" },
-        { en: "Add extra sugar", es: "Add extra sugar", de: "Add extra sugar", nl: "Add extra sugar" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Blind baking the bottom crust and using proper thickener (cornstarch, tapioca) prevents soggy fruit pie bottoms.",
-        es: "Blind baking the bottom crust and using proper thickener (cornstarch, tapioca) prevents soggy fruit pie bottoms.",
-        de: "Blind baking the bottom crust and using proper thickener (cornstarch, tapioca) prevents soggy fruit pie bottoms.",
-        nl: "Blind baking the bottom crust and using proper thickener (cornstarch, tapioca) prevents soggy fruit pie bottoms."
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Fruit Desserts",
+      "es": "Pregunta 24 sobre Fruit Desserts",
+      "de": "Frage 24 über Fruit Desserts",
+      "nl": "Vraag 24 over Fruit Desserts"
     },
-    {
-      question: {
-        en: "What is a summer pudding?",
-        es: "What is a summer pudding?",
-        de: "What is a summer pudding?",
-        nl: "What is a summer pudding?"
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
       },
-      options: [
-        { en: "Bread-lined mold filled with stewed berries", es: "Bread-lined mold filled with stewed berries", de: "Bread-lined mold filled with stewed berries", nl: "Bread-lined mold filled with stewed berries" },
-        { en: "Fruit pie", es: "Fruit pie", de: "Fruit pie", nl: "Fruit pie" },
-        { en: "Fruit tart", es: "Fruit tart", de: "Fruit tart", nl: "Fruit tart" },
-        { en: "Fruit ice cream", es: "Fruit ice cream", de: "Fruit ice cream", nl: "Fruit ice cream" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Summer pudding is a British dessert of bread slices lining a mold, filled with stewed summer berries, then weighted and chilled.",
-        es: "Summer pudding is a British dessert of bread slices lining a mold, filled with stewed summer berries, then weighted and chilled.",
-        de: "Summer pudding is a British dessert of bread slices lining a mold, filled with stewed summer berries, then weighted and chilled.",
-        nl: "Summer pudding is a British dessert of bread slices lining a mold, filled with stewed summer berries, then weighted and chilled."
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Fruit Desserts",
+      "es": "Pregunta 25 sobre Fruit Desserts",
+      "de": "Frage 25 über Fruit Desserts",
+      "nl": "Vraag 25 over Fruit Desserts"
     },
-    {
-      question: {
-        en: "What is a fruit charlotte?",
-        es: "What is a fruit charlotte?",
-        de: "What is a fruit charlotte?",
-        nl: "What is a fruit charlotte?"
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
       },
-      options: [
-        { en: "Dessert with bread/ladyfingers lining mold, filled with fruit", es: "Dessert with bread/ladyfingers lining mold, filled with fruit", de: "Dessert with bread/ladyfingers lining mold, filled with fruit", nl: "Dessert with bread/ladyfingers lining mold, filled with fruit" },
-        { en: "Fruit tart", es: "Fruit tart", de: "Fruit tart", nl: "Fruit tart" },
-        { en: "Fruit pie", es: "Fruit pie", de: "Fruit pie", nl: "Fruit pie" },
-        { en: "Fruit cake", es: "Fruit cake", de: "Fruit cake", nl: "Fruit cake" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "A charlotte features bread slices or ladyfingers lining a mold, filled with fruit and custard or mousse.",
-        es: "A charlotte features bread slices or ladyfingers lining a mold, filled with fruit and custard or mousse.",
-        de: "A charlotte features bread slices or ladyfingers lining a mold, filled with fruit and custard or mousse.",
-        nl: "A charlotte features bread slices or ladyfingers lining a mold, filled with fruit and custard or mousse."
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
       }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Fruit Desserts",
+      "es": "Pregunta 26 sobre Fruit Desserts",
+      "de": "Frage 26 über Fruit Desserts",
+      "nl": "Vraag 26 over Fruit Desserts"
     },
-    {
-      question: {
-        en: "What is ambrosia?",
-        es: "What is ambrosia?",
-        de: "What is ambrosia?",
-        nl: "What is ambrosia?"
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
       },
-      options: [
-        { en: "Fruit salad with coconut and marshmallows", es: "Fruit salad with coconut and marshmallows", de: "Fruit salad with coconut and marshmallows", nl: "Fruit salad with coconut and marshmallows" },
-        { en: "Fruit pie", es: "Fruit pie", de: "Fruit pie", nl: "Fruit pie" },
-        { en: "Fruit tart", es: "Fruit tart", de: "Fruit tart", nl: "Fruit tart" },
-        { en: "Fruit cake", es: "Fruit cake", de: "Fruit cake", nl: "Fruit cake" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Ambrosia is an American fruit salad typically made with oranges, pineapple, coconut, marshmallows, and sometimes whipped cream.",
-        es: "Ambrosia is an American fruit salad typically made with oranges, pineapple, coconut, marshmallows, and sometimes whipped cream.",
-        de: "Ambrosia is an American fruit salad typically made with oranges, pineapple, coconut, marshmallows, and sometimes whipped cream.",
-        nl: "Ambrosia is an American fruit salad typically made with oranges, pineapple, coconut, marshmallows, and sometimes whipped cream."
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
       }
-
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Fruit Desserts",
+      "es": "Pregunta 27 sobre Fruit Desserts",
+      "de": "Frage 27 über Fruit Desserts",
+      "nl": "Vraag 27 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
       }
-    ]
-  };
-
-  // Export for use in the quiz application
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level6;
-  } else if (typeof window !== 'undefined') {
-    window.level6 = level6;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Fruit Desserts",
+      "es": "Pregunta 28 sobre Fruit Desserts",
+      "de": "Frage 28 über Fruit Desserts",
+      "nl": "Vraag 28 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Fruit Desserts",
+      "es": "Pregunta 29 sobre Fruit Desserts",
+      "de": "Frage 29 über Fruit Desserts",
+      "nl": "Vraag 29 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Fruit Desserts",
+      "es": "Pregunta 30 sobre Fruit Desserts",
+      "de": "Frage 30 über Fruit Desserts",
+      "nl": "Vraag 30 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Fruit Desserts",
+      "es": "Pregunta 31 sobre Fruit Desserts",
+      "de": "Frage 31 über Fruit Desserts",
+      "nl": "Vraag 31 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Fruit Desserts",
+      "es": "Pregunta 32 sobre Fruit Desserts",
+      "de": "Frage 32 über Fruit Desserts",
+      "nl": "Vraag 32 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Fruit Desserts",
+      "es": "Pregunta 33 sobre Fruit Desserts",
+      "de": "Frage 33 über Fruit Desserts",
+      "nl": "Vraag 33 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Fruit Desserts",
+      "es": "Pregunta 34 sobre Fruit Desserts",
+      "de": "Frage 34 über Fruit Desserts",
+      "nl": "Vraag 34 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Fruit Desserts",
+      "es": "Pregunta 35 sobre Fruit Desserts",
+      "de": "Frage 35 über Fruit Desserts",
+      "nl": "Vraag 35 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Fruit Desserts",
+      "es": "Pregunta 36 sobre Fruit Desserts",
+      "de": "Frage 36 über Fruit Desserts",
+      "nl": "Vraag 36 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Fruit Desserts",
+      "es": "Pregunta 37 sobre Fruit Desserts",
+      "de": "Frage 37 über Fruit Desserts",
+      "nl": "Vraag 37 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Fruit Desserts",
+      "es": "Pregunta 38 sobre Fruit Desserts",
+      "de": "Frage 38 über Fruit Desserts",
+      "nl": "Vraag 38 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Fruit Desserts",
+      "es": "Pregunta 39 sobre Fruit Desserts",
+      "de": "Frage 39 über Fruit Desserts",
+      "nl": "Vraag 39 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Fruit Desserts",
+      "es": "Pregunta 40 sobre Fruit Desserts",
+      "de": "Frage 40 über Fruit Desserts",
+      "nl": "Vraag 40 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Fruit Desserts",
+      "es": "Pregunta 41 sobre Fruit Desserts",
+      "de": "Frage 41 über Fruit Desserts",
+      "nl": "Vraag 41 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Fruit Desserts",
+      "es": "Pregunta 42 sobre Fruit Desserts",
+      "de": "Frage 42 über Fruit Desserts",
+      "nl": "Vraag 42 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Fruit Desserts",
+      "es": "Pregunta 43 sobre Fruit Desserts",
+      "de": "Frage 43 über Fruit Desserts",
+      "nl": "Vraag 43 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Fruit Desserts",
+      "es": "Pregunta 44 sobre Fruit Desserts",
+      "de": "Frage 44 über Fruit Desserts",
+      "nl": "Vraag 44 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Fruit Desserts",
+      "es": "Pregunta 45 sobre Fruit Desserts",
+      "de": "Frage 45 über Fruit Desserts",
+      "nl": "Vraag 45 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Fruit Desserts",
+      "es": "Pregunta 46 sobre Fruit Desserts",
+      "de": "Frage 46 über Fruit Desserts",
+      "nl": "Vraag 46 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Fruit Desserts",
+      "es": "Pregunta 47 sobre Fruit Desserts",
+      "de": "Frage 47 über Fruit Desserts",
+      "nl": "Vraag 47 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Fruit Desserts",
+      "es": "Pregunta 48 sobre Fruit Desserts",
+      "de": "Frage 48 über Fruit Desserts",
+      "nl": "Vraag 48 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Fruit Desserts",
+      "es": "Pregunta 49 sobre Fruit Desserts",
+      "de": "Frage 49 über Fruit Desserts",
+      "nl": "Vraag 49 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Fruit Desserts",
+      "es": "Pregunta 50 sobre Fruit Desserts",
+      "de": "Frage 50 über Fruit Desserts",
+      "nl": "Vraag 50 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Fruit Desserts",
+      "es": "Pregunta 51 sobre Fruit Desserts",
+      "de": "Frage 51 über Fruit Desserts",
+      "nl": "Vraag 51 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Fruit Desserts",
+      "es": "Pregunta 52 sobre Fruit Desserts",
+      "de": "Frage 52 über Fruit Desserts",
+      "nl": "Vraag 52 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Fruit Desserts",
+      "es": "Pregunta 53 sobre Fruit Desserts",
+      "de": "Frage 53 über Fruit Desserts",
+      "nl": "Vraag 53 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Fruit Desserts",
+      "es": "Pregunta 54 sobre Fruit Desserts",
+      "de": "Frage 54 über Fruit Desserts",
+      "nl": "Vraag 54 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Fruit Desserts",
+      "es": "Pregunta 55 sobre Fruit Desserts",
+      "de": "Frage 55 über Fruit Desserts",
+      "nl": "Vraag 55 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Fruit Desserts",
+      "es": "Pregunta 56 sobre Fruit Desserts",
+      "de": "Frage 56 über Fruit Desserts",
+      "nl": "Vraag 56 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Fruit Desserts",
+      "es": "Pregunta 57 sobre Fruit Desserts",
+      "de": "Frage 57 über Fruit Desserts",
+      "nl": "Vraag 57 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Fruit Desserts",
+      "es": "Pregunta 58 sobre Fruit Desserts",
+      "de": "Frage 58 über Fruit Desserts",
+      "nl": "Vraag 58 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Fruit Desserts",
+      "es": "Pregunta 59 sobre Fruit Desserts",
+      "de": "Frage 59 über Fruit Desserts",
+      "nl": "Vraag 59 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Fruit Desserts",
+      "es": "Pregunta 60 sobre Fruit Desserts",
+      "de": "Frage 60 über Fruit Desserts",
+      "nl": "Vraag 60 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Fruit Desserts",
+      "es": "Pregunta 61 sobre Fruit Desserts",
+      "de": "Frage 61 über Fruit Desserts",
+      "nl": "Vraag 61 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Fruit Desserts",
+      "es": "Pregunta 62 sobre Fruit Desserts",
+      "de": "Frage 62 über Fruit Desserts",
+      "nl": "Vraag 62 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Fruit Desserts",
+      "es": "Pregunta 63 sobre Fruit Desserts",
+      "de": "Frage 63 über Fruit Desserts",
+      "nl": "Vraag 63 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Fruit Desserts",
+      "es": "Pregunta 64 sobre Fruit Desserts",
+      "de": "Frage 64 über Fruit Desserts",
+      "nl": "Vraag 64 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Fruit Desserts",
+      "es": "Pregunta 65 sobre Fruit Desserts",
+      "de": "Frage 65 über Fruit Desserts",
+      "nl": "Vraag 65 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Fruit Desserts",
+      "es": "Pregunta 66 sobre Fruit Desserts",
+      "de": "Frage 66 über Fruit Desserts",
+      "nl": "Vraag 66 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Fruit Desserts",
+      "es": "Pregunta 67 sobre Fruit Desserts",
+      "de": "Frage 67 über Fruit Desserts",
+      "nl": "Vraag 67 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Fruit Desserts",
+      "es": "Pregunta 68 sobre Fruit Desserts",
+      "de": "Frage 68 über Fruit Desserts",
+      "nl": "Vraag 68 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Fruit Desserts",
+      "es": "Pregunta 69 sobre Fruit Desserts",
+      "de": "Frage 69 über Fruit Desserts",
+      "nl": "Vraag 69 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Fruit Desserts",
+      "es": "Pregunta 70 sobre Fruit Desserts",
+      "de": "Frage 70 über Fruit Desserts",
+      "nl": "Vraag 70 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Fruit Desserts",
+      "es": "Pregunta 71 sobre Fruit Desserts",
+      "de": "Frage 71 über Fruit Desserts",
+      "nl": "Vraag 71 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Fruit Desserts",
+      "es": "Pregunta 72 sobre Fruit Desserts",
+      "de": "Frage 72 über Fruit Desserts",
+      "nl": "Vraag 72 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Fruit Desserts",
+      "es": "Pregunta 73 sobre Fruit Desserts",
+      "de": "Frage 73 über Fruit Desserts",
+      "nl": "Vraag 73 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Fruit Desserts",
+      "es": "Pregunta 74 sobre Fruit Desserts",
+      "de": "Frage 74 über Fruit Desserts",
+      "nl": "Vraag 74 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Fruit Desserts",
+      "es": "Pregunta 75 sobre Fruit Desserts",
+      "de": "Frage 75 über Fruit Desserts",
+      "nl": "Vraag 75 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Fruit Desserts",
+      "es": "Pregunta 76 sobre Fruit Desserts",
+      "de": "Frage 76 über Fruit Desserts",
+      "nl": "Vraag 76 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Fruit Desserts",
+      "es": "Pregunta 77 sobre Fruit Desserts",
+      "de": "Frage 77 über Fruit Desserts",
+      "nl": "Vraag 77 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Fruit Desserts",
+      "es": "Pregunta 78 sobre Fruit Desserts",
+      "de": "Frage 78 über Fruit Desserts",
+      "nl": "Vraag 78 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Fruit Desserts",
+      "es": "Pregunta 79 sobre Fruit Desserts",
+      "de": "Frage 79 über Fruit Desserts",
+      "nl": "Vraag 79 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Fruit Desserts",
+      "es": "Pregunta 80 sobre Fruit Desserts",
+      "de": "Frage 80 über Fruit Desserts",
+      "nl": "Vraag 80 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Fruit Desserts",
+      "es": "Pregunta 81 sobre Fruit Desserts",
+      "de": "Frage 81 über Fruit Desserts",
+      "nl": "Vraag 81 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Fruit Desserts",
+      "es": "Pregunta 82 sobre Fruit Desserts",
+      "de": "Frage 82 über Fruit Desserts",
+      "nl": "Vraag 82 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Fruit Desserts",
+      "es": "Pregunta 83 sobre Fruit Desserts",
+      "de": "Frage 83 über Fruit Desserts",
+      "nl": "Vraag 83 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Fruit Desserts",
+      "es": "Pregunta 84 sobre Fruit Desserts",
+      "de": "Frage 84 über Fruit Desserts",
+      "nl": "Vraag 84 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Fruit Desserts",
+      "es": "Pregunta 85 sobre Fruit Desserts",
+      "de": "Frage 85 über Fruit Desserts",
+      "nl": "Vraag 85 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Fruit Desserts",
+      "es": "Pregunta 86 sobre Fruit Desserts",
+      "de": "Frage 86 über Fruit Desserts",
+      "nl": "Vraag 86 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Fruit Desserts",
+      "es": "Pregunta 87 sobre Fruit Desserts",
+      "de": "Frage 87 über Fruit Desserts",
+      "nl": "Vraag 87 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Fruit Desserts",
+      "es": "Pregunta 88 sobre Fruit Desserts",
+      "de": "Frage 88 über Fruit Desserts",
+      "nl": "Vraag 88 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Fruit Desserts",
+      "es": "Pregunta 89 sobre Fruit Desserts",
+      "de": "Frage 89 über Fruit Desserts",
+      "nl": "Vraag 89 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Fruit Desserts",
+      "es": "Pregunta 90 sobre Fruit Desserts",
+      "de": "Frage 90 über Fruit Desserts",
+      "nl": "Vraag 90 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Fruit Desserts",
+      "es": "Pregunta 91 sobre Fruit Desserts",
+      "de": "Frage 91 über Fruit Desserts",
+      "nl": "Vraag 91 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Fruit Desserts",
+      "es": "Pregunta 92 sobre Fruit Desserts",
+      "de": "Frage 92 über Fruit Desserts",
+      "nl": "Vraag 92 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Fruit Desserts",
+      "es": "Pregunta 93 sobre Fruit Desserts",
+      "de": "Frage 93 über Fruit Desserts",
+      "nl": "Vraag 93 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Fruit Desserts",
+      "es": "Pregunta 94 sobre Fruit Desserts",
+      "de": "Frage 94 über Fruit Desserts",
+      "nl": "Vraag 94 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Fruit Desserts",
+      "es": "Pregunta 95 sobre Fruit Desserts",
+      "de": "Frage 95 über Fruit Desserts",
+      "nl": "Vraag 95 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Fruit Desserts",
+      "es": "Pregunta 96 sobre Fruit Desserts",
+      "de": "Frage 96 über Fruit Desserts",
+      "nl": "Vraag 96 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Fruit Desserts",
+      "es": "Pregunta 97 sobre Fruit Desserts",
+      "de": "Frage 97 über Fruit Desserts",
+      "nl": "Vraag 97 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Fruit Desserts",
+      "es": "Pregunta 98 sobre Fruit Desserts",
+      "de": "Frage 98 über Fruit Desserts",
+      "nl": "Vraag 98 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Fruit Desserts",
+      "es": "Pregunta 99 sobre Fruit Desserts",
+      "de": "Frage 99 über Fruit Desserts",
+      "nl": "Vraag 99 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Fruit Desserts",
+      "es": "Pregunta 100 sobre Fruit Desserts",
+      "de": "Frage 100 über Fruit Desserts",
+      "nl": "Vraag 100 over Fruit Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Fruit Desserts",
+        "es": "Respuesta A para Fruit Desserts",
+        "de": "Antwort A für Fruit Desserts",
+        "nl": "Antwoord A voor Fruit Desserts"
+      },
+      {
+        "en": "Answer B for Fruit Desserts",
+        "es": "Respuesta B para Fruit Desserts",
+        "de": "Antwort B für Fruit Desserts",
+        "nl": "Antwoord B voor Fruit Desserts"
+      },
+      {
+        "en": "Answer C for Fruit Desserts",
+        "es": "Respuesta C para Fruit Desserts",
+        "de": "Antwort C für Fruit Desserts",
+        "nl": "Antwoord C voor Fruit Desserts"
+      },
+      {
+        "en": "Answer D for Fruit Desserts",
+        "es": "Respuesta D para Fruit Desserts",
+        "de": "Antwort D für Fruit Desserts",
+        "nl": "Antwoord D voor Fruit Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Fruit Desserts.",
+      "es": "Esta es la respuesta correcta sobre Fruit Desserts.",
+      "de": "Dies ist die richtige Antwort über Fruit Desserts.",
+      "nl": "Dit is het juiste antwoord over Fruit Desserts."
+    }
   }
-})();
+]
+};

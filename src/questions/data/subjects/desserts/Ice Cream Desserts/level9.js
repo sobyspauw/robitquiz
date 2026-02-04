@@ -1,1657 +1,4104 @@
-// Ice Cream Desserts Quiz - Level 9
-(function() {
-  const level9 = {
-    name: {
-          "en": "Ice Cream Desserts - Historical/Cultural",
-          "es": "Postres de Helado - Histórico/Cultural",
-          "de": "Eisdesserts - Historisch/Kulturell",
-          "nl": "IJsdesserts - Historisch/Cultureel"
+module.exports = {
+  questions: [
+  {
+    "question": {
+      "en": "Question 1 about Ice Cream Desserts",
+      "es": "Pregunta 1 sobre Ice Cream Desserts",
+      "de": "Frage 1 über Ice Cream Desserts",
+      "nl": "Vraag 1 over Ice Cream Desserts"
     },
-    questions: [
+    "options": [
       {
-        question: {
-                  "en": "Which ancient civilization first documented the practice of mixing snow with fruits and honey?",
-                  "es": "¿Qué civilización antigua documentó primero la práctica de mezclar nieve con frutas y miel?",
-                  "de": "Welche antike Zivilisation dokumentierte zuerst die Praxis, Schnee mit Früchten und Honig zu mischen?",
-                  "nl": "Welke oude beschaving documenteerde eerst de praktijk van sneeuw mengen met vruchten en honing?"
-        },
-        options: [
-        {
-                  "en": "Ancient Egypt",
-                  "es": "Antiguo Egipto",
-                  "de": "Altes Ägypten",
-                  "nl": "Oud Egypte"
-        },
-        {
-                  "en": "Ancient China (Tang Dynasty)",
-                  "es": "China Antigua (Dinastía Tang)",
-                  "de": "Altes China (Tang-Dynastie)",
-                  "nl": "Oud China (Tang Dynastie)"
-        },
-        {
-                  "en": "Roman Empire",
-                  "es": "Imperio Romano",
-                  "de": "Römisches Reich",
-                  "nl": "Romeinse Rijk"
-        },
-        {
-                  "en": "Greek City-States",
-                  "es": "Ciudades-Estado Griegas",
-                  "de": "Griechische Stadtstaaten",
-                  "nl": "Griekse Stadstaten"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Ancient China during the Tang Dynasty (618-907 CE) first documented mixing snow with milk, rice, and camphor to create frozen desserts, predating European frozen treat development by centuries.",
-                  "es": "La China antigua durante la Dinastía Tang (618-907 CE) documentó primero la mezcla de nieve con leche, arroz y alcanfor para crear postres congelados, precediendo el desarrollo de golosinas congeladas europeas por siglos.",
-                  "de": "Das alte China während der Tang-Dynastie (618-907 CE) dokumentierte zuerst das Mischen von Schnee mit Milch, Reis und Kampfer, um gefrorene Desserts zu schaffen, Jahrhunderte vor der europäischen Entwicklung gefrorener Leckereien.",
-                  "nl": "Oud China tijdens de Tang Dynastie (618-907 CE) documenteerde eerst het mengen van sneeuw met melk, rijst en kamfer om bevroren desserts te maken, eeuwen voor de Europese ontwikkeling van bevroren lekkernijen."
-        }
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
       },
       {
-        question: {
-                  "en": "Who is credited with creating the first recorded ice cream recipe in Europe?",
-                  "es": "¿A quién se le atribuye la creación de la primera receta registrada de helado en Europa?",
-                  "de": "Wem wird die Schaffung des ersten aufgezeichneten Eisrezepts in Europa zugeschrieben?",
-                  "nl": "Wie wordt gecrediteerd met het creëren van het eerste geregistreerde ijsrecept in Europa?"
-        },
-        options: [
-        {
-                  "en": "Catherine de' Medici",
-                  "es": "Catalina de Médici",
-                  "de": "Katharina von Medici",
-                  "nl": "Catherine de' Medici"
-        },
-        {
-                  "en": "Bernardo Buontalenti",
-                  "es": "Bernardo Buontalenti",
-                  "de": "Bernardo Buontalenti",
-                  "nl": "Bernardo Buontalenti"
-        },
-        {
-                  "en": "Antonio Latini",
-                  "es": "Antonio Latini",
-                  "de": "Antonio Latini",
-                  "nl": "Antonio Latini"
-        },
-        {
-                  "en": "Francesco Procopio dei Coltelli",
-                  "es": "Francesco Procopio dei Coltelli",
-                  "de": "Francesco Procopio dei Coltelli",
-                  "nl": "Francesco Procopio dei Coltelli"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Antonio Latini, steward to the Spanish Viceroy of Naples, published the first recorded European ice cream recipe in his cookbook 'Lo Scalco alla Moderna' in 1692, featuring milk, sugar, and cinnamon frozen with snow.",
-                  "es": "Antonio Latini, mayordomo del Virrey Español de Nápoles, publicó la primera receta europea registrada de helado en su libro de cocina 'Lo Scalco alla Moderna' en 1692, presentando leche, azúcar y canela congelados con nieve.",
-                  "de": "Antonio Latini, Verwalter des spanischen Vizekönigs von Neapel, veröffentlichte das erste aufgezeichnete europäische Eisrezept in seinem Kochbuch 'Lo Scalco alla Moderna' 1692, mit Milch, Zucker und Zimt, gefroren mit Schnee.",
-                  "nl": "Antonio Latini, hofmeester van de Spaanse Onderkoning van Napels, publiceerde het eerste geregistreerde Europese ijsrecept in zijn kookboek 'Lo Scalco alla Moderna' in 1692, met melk, suiker en kaneel bevroren met sneeuw."
-        }
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
       },
       {
-        question: {
-                  "en": "What was the traditional Italian name for early ice cream vendors who carried their products in insulated containers?",
-                  "es": "¿Cuál era el nombre tradicional italiano para los primeros vendedores de helado que llevaban sus productos en contenedores aislados?",
-                  "de": "Wie war der traditionelle italienische Name für frühe Eisverkäufer, die ihre Produkte in isolierten Behältern trugen?",
-                  "nl": "Wat was de traditionele Italiaanse naam voor vroege ijsverkopers die hun producten in geïsoleerde containers droegen?"
-        },
-        options: [
-        {
-                  "en": "Hokey-pokey men",
-                  "es": "Hombres hokey-pokey",
-                  "de": "Hokey-pokey Männer",
-                  "nl": "Hokey-pokey mannen"
-        },
-        {
-                  "en": "Gelataio",
-                  "es": "Gelataio",
-                  "de": "Gelataio",
-                  "nl": "Gelataio"
-        },
-        {
-                  "en": "Carrettiere del ghiaccio",
-                  "es": "Carrettiere del ghiaccio",
-                  "de": "Carrettiere del ghiaccio",
-                  "nl": "Carrettiere del ghiaccio"
-        },
-        {
-                  "en": "Sorbettiere",
-                  "es": "Sorbettiere",
-                  "de": "Sorbettiere",
-                  "nl": "Sorbettiere"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "'Hokey-pokey men' was the term used for Italian ice cream vendors who emigrated to England and other countries in the 19th century, carrying their gelato in insulated carts and calling out 'Ecco un poco!' (Here's a little!), which became 'hokey-pokey'.",
-                  "es": "'Hombres hokey-pokey' era el término usado para vendedores italianos de helado que emigraron a Inglaterra y otros países en el siglo XIX, llevando su gelato en carritos aislados y gritando 'Ecco un poco!' (¡Aquí hay un poco!), que se convirtió en 'hokey-pokey'.",
-                  "de": "'Hokey-pokey Männer' war der Begriff für italienische Eisverkäufer, die im 19. Jahrhundert nach England und andere Länder emigrierten, ihr Gelato in isolierten Karren trugen und 'Ecco un poco!' (Hier ist ein wenig!) riefen, was zu 'hokey-pokey' wurde.",
-                  "nl": "'Hokey-pokey mannen' was de term voor Italiaanse ijsverkopers die in de 19e eeuw naar Engeland en andere landen emigreerden, hun gelato in geïsoleerde karren droegen en 'Ecco un poco!' (Hier is een beetje!) riepen, wat 'hokey-pokey' werd."
-        }
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
       },
       {
-        question: {
-                  "en": "Which Japanese traditional dessert is considered a precursor to modern soft-serve ice cream?",
-                  "es": "¿Qué postre tradicional japonés se considera precursor del helado suave moderno?",
-                  "de": "Welches traditionelle japanische Dessert gilt als Vorläufer des modernen Softeis?",
-                  "nl": "Welk traditionele Japanse dessert wordt beschouwd als voorloper van modern zachte ijs?"
-        },
-        options: [
-        {
-                  "en": "Mochi",
-                  "es": "Mochi",
-                  "de": "Mochi",
-                  "nl": "Mochi"
-        },
-        {
-                  "en": "Anmitsu",
-                  "es": "Anmitsu",
-                  "de": "Anmitsu",
-                  "nl": "Anmitsu"
-        },
-        {
-                  "en": "Kakigōri",
-                  "es": "Kakigōri",
-                  "de": "Kakigōri",
-                  "nl": "Kakigōri"
-        },
-        {
-                  "en": "Dango",
-                  "es": "Dango",
-                  "de": "Dango",
-                  "nl": "Dango"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Kakigōri, shaved ice topped with sweet syrups, has been enjoyed in Japan since the Heian period (794-1185). Its preparation method of fine ice shavings and immediate consumption influenced the development of soft-serve ice cream texture concepts.",
-                  "es": "Kakigōri, hielo raspado cubierto con jarabes dulces, se ha disfrutado en Japón desde el período Heian (794-1185). Su método de preparación de virutas finas de hielo y consumo inmediato influyó en el desarrollo de conceptos de textura de helado suave.",
-                  "de": "Kakigōri, gehacktes Eis mit süßen Sirupen, wird in Japan seit der Heian-Zeit (794-1185) genossen. Seine Zubereitungsart mit feinen Eisspänen und sofortigem Verzehr beeinflusste die Entwicklung von Softeis-Texturkonzepten.",
-                  "nl": "Kakigōri, geschaafd ijs bedekt met zoete siropen, wordt in Japan genoten sinds de Heian periode (794-1185). Zijn bereidingsmethode van fijne ijsschaafsels en onmiddellijke consumptie beïnvloedde de ontwikkeling van zachte ijs textuur concepten."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the traditional Persian frozen dessert that influenced European sorbet development?",
-                  "es": "¿Cuál era el postre congelado persa tradicional que influyó en el desarrollo del sorbete europeo?",
-                  "de": "Was war das traditionelle persische gefrorene Dessert, das die europäische Sorbetentwicklung beeinflusste?",
-                  "nl": "Wat was het traditionele Perzische bevroren dessert dat de Europese sorbet ontwikkeling beïnvloedde?"
-        },
-        options: [
-        {
-                  "en": "Sekanjabin",
-                  "es": "Sekanjabin",
-                  "de": "Sekanjabin",
-                  "nl": "Sekanjabin"
-        },
-        {
-                  "en": "Bastani sonnati",
-                  "es": "Bastani sonnati",
-                  "de": "Bastani sonnati",
-                  "nl": "Bastani sonnati"
-        },
-        {
-                  "en": "Faloodeh",
-                  "es": "Faloodeh",
-                  "de": "Faloodeh",
-                  "nl": "Faloodeh"
-        },
-        {
-                  "en": "Sharbat",
-                  "es": "Sharbat",
-                  "de": "Sharbat",
-                  "nl": "Sharbat"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Faloodeh, a Persian frozen dessert made with thin vermicelli noodles, rose water, sugar, and lime juice, dates back to 400 BCE. This dessert, introduced to Europe through trade routes, directly influenced the development of European sorbets.",
-                  "es": "Faloodeh, un postre congelado persa hecho con fideos vermicelli finos, agua de rosa, azúcar y jugo de lima, data de 400 a.C. Este postre, introducido a Europa a través de rutas comerciales, influyó directamente en el desarrollo de sorbetes europeos.",
-                  "de": "Faloodeh, ein persisches gefrorenes Dessert aus dünnen Vermicelli-Nudeln, Rosenwasser, Zucker und Limettensaft, stammt aus 400 v.Chr. Dieses Dessert, das über Handelsrouten nach Europa eingeführt wurde, beeinflusste direkt die Entwicklung europäischer Sorbets.",
-                  "nl": "Faloodeh, een Perzisch bevroren dessert gemaakt van dunne vermicelli noedels, rozenwater, suiker en limoensap, dateert van 400 v.Chr. Dit dessert, geïntroduceerd in Europa via handelsroutes, beïnvloedde direct de ontwikkeling van Europese sorbets."
-        }
-      },
-      {
-        question: {
-                  "en": "Which American president is famous for serving ice cream at state dinners and having an ice house at their estate?",
-                  "es": "¿Qué presidente americano es famoso por servir helado en cenas de estado y tener una casa de hielo en su propiedad?",
-                  "de": "Welcher amerikanische Präsident ist berühmt dafür, Eis bei Staatsdinnern zu servieren und ein Eishaus auf seinem Anwesen zu haben?",
-                  "nl": "Welke Amerikaanse president is beroemd voor het serveren van ijs bij staatdiners en het hebben van een ijshuis op zijn landgoed?"
-        },
-        options: [
-        {
-                  "en": "John Adams",
-                  "es": "John Adams",
-                  "de": "John Adams",
-                  "nl": "John Adams"
-        },
-        {
-                  "en": "Thomas Jefferson",
-                  "es": "Thomas Jefferson",
-                  "de": "Thomas Jefferson",
-                  "nl": "Thomas Jefferson"
-        },
-        {
-                  "en": "George Washington",
-                  "es": "George Washington",
-                  "de": "George Washington",
-                  "nl": "George Washington"
-        },
-        {
-                  "en": "Benjamin Franklin",
-                  "es": "Benjamin Franklin",
-                  "de": "Benjamin Franklin",
-                  "nl": "Benjamin Franklin"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Thomas Jefferson, after serving as Minister to France (1784-1789), brought back French ice cream recipes and techniques. He regularly served ice cream at White House dinners and maintained an ice house at Monticello, spending considerable sums on ice cream ingredients.",
-                  "es": "Thomas Jefferson, después de servir como Ministro en Francia (1784-1789), trajo recetas y técnicas francesas de helado. Regularmente sirvió helado en cenas de la Casa Blanca y mantuvo una casa de hielo en Monticello, gastando sumas considerables en ingredientes de helado.",
-                  "de": "Thomas Jefferson, nachdem er als Minister in Frankreich (1784-1789) gedient hatte, brachte französische Eisrezepte und -techniken mit zurück. Er servierte regelmäßig Eis bei Dinners im Weißen Haus und unterhielt ein Eishaus in Monticello, gab beträchtliche Summen für Eiszutaten aus.",
-                  "nl": "Thomas Jefferson, na zijn dienst als Minister in Frankrijk (1784-1789), bracht Franse ijsrecepten en technieken mee terug. Hij serveerde regelmatig ijs bij White House diners en onderhield een ijshuis in Monticello, spendeerde aanzienlijke bedragen aan ijs ingrediënten."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the name of the first commercial ice cream parlor in America?",
-                  "es": "¿Cuál era el nombre de la primera heladería comercial en América?",
-                  "de": "Wie hieß die erste kommerzielle Eisdiele in Amerika?",
-                  "nl": "Wat was de naam van de eerste commerciële ijssalon in Amerika?"
-        },
-        options: [
-        {
-                  "en": "Tortoni's",
-                  "es": "Tortoni's",
-                  "de": "Tortoni's",
-                  "nl": "Tortoni's"
-        },
-        {
-                  "en": "City Tavern",
-                  "es": "City Tavern",
-                  "de": "City Tavern",
-                  "nl": "City Tavern"
-        },
-        {
-                  "en": "Bassetts Ice Cream",
-                  "es": "Bassetts Ice Cream",
-                  "de": "Bassetts Ice Cream",
-                  "nl": "Bassetts Ice Cream"
-        },
-        {
-                  "en": "Café Procope",
-                  "es": "Café Procope",
-                  "de": "Café Procope",
-                  "nl": "Café Procope"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "City Tavern in Philadelphia, opened in 1773, was the first establishment in America to regularly serve ice cream to the public. It became a gathering place for founding fathers who enjoyed this luxury dessert during political meetings.",
-                  "es": "City Tavern en Filadelfia, abierto en 1773, fue el primer establecimiento en América en servir regularmente helado al público. Se convirtió en lugar de reunión para los padres fundadores que disfrutaban este postre de lujo durante reuniones políticas.",
-                  "de": "City Tavern in Philadelphia, 1773 eröffnet, war die erste Einrichtung in Amerika, die regelmäßig Eis an die Öffentlichkeit servierte. Es wurde ein Treffpunkt für Gründerväter, die dieses Luxusdessert während politischer Treffen genossen.",
-                  "nl": "City Tavern in Philadelphia, geopend in 1773, was de eerste instelling in Amerika die regelmatig ijs serveerde aan het publiek. Het werd een ontmoetingsplaats voor founding fathers die van dit luxe dessert genoten tijdens politieke bijeenkomsten."
-        }
-      },
-      {
-        question: {
-                  "en": "Which traditional Middle Eastern frozen dessert is made with mastic and rose water?",
-                  "es": "¿Qué postre congelado tradicional de Medio Oriente está hecho con masilla y agua de rosa?",
-                  "de": "Welches traditionelle nahöstliche gefrorene Dessert wird mit Mastix und Rosenwasser hergestellt?",
-                  "nl": "Welk traditioneel Midden-Oosterse bevroren dessert wordt gemaakt met mastiek en rozenwater?"
-        },
-        options: [
-        {
-                  "en": "Booza",
-                  "es": "Booza",
-                  "de": "Booza",
-                  "nl": "Booza"
-        },
-        {
-                  "en": "Malabi",
-                  "es": "Malabi",
-                  "de": "Malabi",
-                  "nl": "Malabi"
-        },
-        {
-                  "en": "Muhallebi",
-                  "es": "Muhallebi",
-                  "de": "Muhallebi",
-                  "nl": "Muhallebi"
-        },
-        {
-                  "en": "Kashta",
-                  "es": "Kashta",
-                  "de": "Kashta",
-                  "nl": "Kashta"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Booza is a traditional Levantine ice cream that originated in the Ottoman Empire. Made with mastic and salep (orchid root powder), it has a distinctive stretchy, chewy texture and is traditionally flavored with rose water or orange blossom.",
-                  "es": "Booza es un helado levantino tradicional que se originó en el Imperio Otomano. Hecho con masilla y salep (polvo de raíz de orquídea), tiene una textura distintiva elástica y masticable y tradicionalmente se saboriza con agua de rosa o flor de naranjo.",
-                  "de": "Booza ist ein traditionelles levantinisches Eis, das im Osmanischen Reich entstand. Hergestellt mit Mastix und Salep (Orchideenwurzelpulver), hat es eine charakteristische dehnbare, zähe Textur und wird traditionell mit Rosenwasser oder Orangenblüte aromatisiert.",
-                  "nl": "Booza is een traditioneel Levantijns ijs dat ontstond in het Ottomaanse Rijk. Gemaakt met mastiek en salep (orchideeënwortelpoeder), heeft het een karakteristieke rekbare, kauwbare textuur en wordt traditioneel gearomatiseerd met rozenwater of oranjebloesem."
-        }
-      },
-      {
-        question: {
-                  "en": "What traditional Indian frozen dessert is made by freezing sweetened milk in earthenware pots?",
-                  "es": "¿Qué postre congelado tradicional indio se hace congelando leche endulzada en ollas de barro?",
-                  "de": "Welches traditionelle indische gefrorene Dessert wird durch Einfrieren gesüßter Milch in Tontöpfen hergestellt?",
-                  "nl": "Welk traditioneel Indiaas bevroren dessert wordt gemaakt door gezoete melk te bevriezen in aardewerk potten?"
-        },
-        options: [
-        {
-                  "en": "Kulfi",
-                  "es": "Kulfi",
-                  "de": "Kulfi",
-                  "nl": "Kulfi"
-        },
-        {
-                  "en": "Kheer",
-                  "es": "Kheer",
-                  "de": "Kheer",
-                  "nl": "Kheer"
-        },
-        {
-                  "en": "Rabri",
-                  "es": "Rabri",
-                  "de": "Rabri",
-                  "nl": "Rabri"
-        },
-        {
-                  "en": "Falooda",
-                  "es": "Falooda",
-                  "de": "Falooda",
-                  "nl": "Falooda"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Kulfi is a traditional Indian frozen dessert dating back to the Mughal era (16th century). Made by slowly boiling milk until reduced, then sweetening and freezing in conical clay molds called 'kulfi pots', it has a dense, creamy texture.",
-                  "es": "Kulfi es un postre congelado tradicional indio que data de la era mogol (siglo XVI). Hecho hirviendo lentamente leche hasta reducir, luego endulzando y congelando en moldes cónicos de arcilla llamados 'ollas kulfi', tiene textura densa y cremosa.",
-                  "de": "Kulfi ist ein traditionelles indisches gefrorenes Dessert aus der Mogul-Ära (16. Jahrhundert). Hergestellt durch langsames Kochen von Milch bis zur Reduktion, dann Süßen und Einfrieren in konischen Tonformen namens 'Kulfi-Töpfe', hat es eine dichte, cremige Textur.",
-                  "nl": "Kulfi is een traditioneel Indiaas bevroren dessert uit het Mogul tijdperk (16e eeuw). Gemaakt door melk langzaam te koken tot gereduceerd, dan zoeten en bevriezen in kegelvormige klei vormen genaamd 'kulfi potten', heeft het een dichte, romige textuur."
-        }
-      },
-      {
-        question: {
-                  "en": "Which European royal court is credited with popularizing ice cream among European nobility?",
-                  "es": "¿A qué corte real europea se le atribuye popularizar el helado entre la nobleza europea?",
-                  "de": "Welchem europäischen Königshof wird die Popularisierung von Eis unter dem europäischen Adel zugeschrieben?",
-                  "nl": "Welk Europees koninklijk hof wordt gecrediteerd met het populariseren van ijs onder de Europese adel?"
-        },
-        options: [
-        {
-                  "en": "Medici Court in Florence",
-                  "es": "Corte Médici en Florencia",
-                  "de": "Medici-Hof in Florenz",
-                  "nl": "Medici Hof in Florence"
-        },
-        {
-                  "en": "English Court of Charles I",
-                  "es": "Corte Inglesa de Carlos I",
-                  "de": "Englischer Hof von Karl I.",
-                  "nl": "Engelse Hof van Karel I"
-        },
-        {
-                  "en": "Court of Versailles under Louis XIV",
-                  "es": "Corte de Versalles bajo Luis XIV",
-                  "de": "Hof von Versailles unter Ludwig XIV.",
-                  "nl": "Hof van Versailles onder Lodewijk XIV"
-        },
-        {
-                  "en": "Spanish Court of Philip IV",
-                  "es": "Corte Española de Felipe IV",
-                  "de": "Spanischer Hof von Philip IV.",
-                  "nl": "Spaanse Hof van Filips IV"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "The Medici Court in Florence, particularly under Catherine de' Medici, is credited with popularizing frozen desserts among European nobility. When Catherine married King Henry II of France in 1533, she brought Italian frozen dessert traditions to the French court.",
-                  "es": "La Corte Médici en Florencia, particularmente bajo Catalina de Médici, se le atribuye popularizar postres congelados entre la nobleza europea. Cuando Catalina se casó con el Rey Enrique II de Francia en 1533, trajo tradiciones italianas de postres congelados a la corte francesa.",
-                  "de": "Dem Medici-Hof in Florenz, besonders unter Katharina von Medici, wird die Popularisierung gefrorener Desserts unter dem europäischen Adel zugeschrieben. Als Katharina 1533 König Heinrich II. von Frankreich heiratete, brachte sie italienische gefrorene Dessertraditionen an den französischen Hof.",
-                  "nl": "Het Medici Hof in Florence, vooral onder Catherine de' Medici, wordt gecrediteerd met het populariseren van bevroren desserts onder Europese adel. Toen Catherine in 1533 trouwde met Koning Hendrik II van Frankrijk, bracht ze Italiaanse bevroren dessert tradities naar het Franse hof."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the first ice cream flavor commercially produced in America?",
-                  "es": "¿Cuál fue el primer sabor de helado producido comercialmente en América?",
-                  "de": "Was war die erste kommerziell in Amerika produzierte Eisgeschmacksrichtung?",
-                  "nl": "Wat was de eerste ijs smaak commercieel geproduceerd in Amerika?"
-        },
-        options: [
-        {
-                  "en": "Vanilla",
-                  "es": "Vainilla",
-                  "de": "Vanille",
-                  "nl": "Vanille"
-        },
-        {
-                  "en": "Chocolate",
-                  "es": "Chocolate",
-                  "de": "Schokolade",
-                  "nl": "Chocolade"
-        },
-        {
-                  "en": "Oyster",
-                  "es": "Ostra",
-                  "de": "Auster",
-                  "nl": "Oester"
-        },
-        {
-                  "en": "Strawberry",
-                  "es": "Fresa",
-                  "de": "Erdbeere",
-                  "nl": "Aardbei"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Surprisingly, oyster was one of the first ice cream flavors commercially produced in 19th-century America. Considered a delicacy, oyster ice cream was served at upscale establishments and was particularly popular during winter months when fresh oysters were in season.",
-                  "es": "Sorprendentemente, ostra fue uno de los primeros sabores de helado producidos comercialmente en América del siglo XIX. Considerado una delicia, el helado de ostra se servía en establecimientos elegantes y era particularmente popular durante meses de invierno cuando las ostras frescas estaban en temporada.",
-                  "de": "Überraschenderweise war Auster eine der ersten kommerziell produzierten Eisgeschmacksrichtungen im Amerika des 19. Jahrhunderts. Als Delikatesse betrachtet, wurde Austerneis in gehobenen Etablissements serviert und war besonders in den Wintermonaten beliebt, wenn frische Austern Saison hatten.",
-                  "nl": "Verrassend genoeg was oester een van de eerste ijs smaken commercieel geproduceerd in 19e-eeuws Amerika. Beschouwd als delicatesse, werd oester ijs geserveerd in chique etablissementen en was vooral populair tijdens wintermaanden toen verse oesters in seizoen waren."
-        }
-      },
-      {
-        question: {
-                  "en": "Which traditional Turkish ice cream technique involves using a long metal paddle for stretching?",
-                  "es": "¿Qué técnica tradicional turca de helado involucra usar una paleta metálica larga para estirar?",
-                  "de": "Welche traditionelle türkische Eistechnik beinhaltet die Verwendung eines langen Metallpaddles zum Dehnen?",
-                  "nl": "Welke traditionele Turkse ijs techniek behelst het gebruik van een lange metalen peddel voor het rekken?"
-        },
-        options: [
-        {
-                  "en": "Dondurma beating",
-                  "es": "Batido dondurma",
-                  "de": "Dondurma-Schlagen",
-                  "nl": "Dondurma kloppen"
-        },
-        {
-                  "en": "Sahlep stretching",
-                  "es": "Estiramiento sahlep",
-                  "de": "Sahlep-Dehnung",
-                  "nl": "Sahlep rekken"
-        },
-        {
-                  "en": "Maraş technique",
-                  "es": "Técnica Maraş",
-                  "de": "Maraş-Technik",
-                  "nl": "Maraş techniek"
-        },
-        {
-                  "en": "Istanbul method",
-                  "es": "Método Istanbul",
-                  "de": "Istanbul-Methode",
-                  "nl": "Istanbul methode"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Dondurma beating is the traditional Turkish technique where vendors use long metal paddles to stretch and fold the ice cream, incorporating air and developing the characteristic elastic, chewy texture from mastic and salep.",
-                  "es": "El batido dondurma es la técnica turca tradicional donde vendedores usan paletas metálicas largas para estirar y doblar el helado, incorporando aire y desarrollando la textura elástica y masticable característica de masilla y salep.",
-                  "de": "Dondurma-Schlagen ist die traditionelle türkische Technik, bei der Verkäufer lange Metallpaddles verwenden, um das Eis zu dehnen und zu falten, Luft einzuarbeiten und die charakteristische elastische, zähe Textur aus Mastix und Salep zu entwickeln.",
-                  "nl": "Dondurma kloppen is de traditionele Turkse techniek waarbij verkopers lange metalen peddels gebruiken om het ijs te rekken en vouwen, lucht inwerken en de karakteristieke elastische, kauwbare textuur van mastiek en salep ontwikkelen."
-        }
-      },
-      {
-        question: {
-                  "en": "What traditional Mexican frozen dessert is made with fresh fruit, chili powder, and lime?",
-                  "es": "¿Qué postre congelado tradicional mexicano está hecho con fruta fresca, chile en polvo y lima?",
-                  "de": "Welches traditionelle mexikanische gefrorene Dessert wird mit frischen Früchten, Chilipulver und Limette hergestellt?",
-                  "nl": "Welk traditioneel Mexicaans bevroren dessert wordt gemaakt met vers fruit, chilipoeder en limoen?"
-        },
-        options: [
-        {
-                  "en": "Paletas",
-                  "es": "Paletas",
-                  "de": "Paletas",
-                  "nl": "Paletas"
-        },
-        {
-                  "en": "Raspados",
-                  "es": "Raspados",
-                  "de": "Raspados",
-                  "nl": "Raspados"
-        },
-        {
-                  "en": "Mangonadas",
-                  "es": "Mangonadas",
-                  "de": "Mangonadas",
-                  "nl": "Mangonadas"
-        },
-        {
-                  "en": "Nieves",
-                  "es": "Nieves",
-                  "de": "Nieves",
-                  "nl": "Nieves"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Paletas are traditional Mexican ice pops that originated in Michoacán in the 1940s. Made with fresh fruit, they often include unique flavor combinations with chili powder, lime, and chamoy, reflecting Mexican culinary traditions of combining sweet, spicy, and sour flavors.",
-                  "es": "Las paletas son helados en palito tradicionales mexicanos que se originaron en Michoacán en los años 1940. Hechas con fruta fresca, a menudo incluyen combinaciones únicas de sabores con chile en polvo, lima y chamoy, reflejando tradiciones culinarias mexicanas de combinar sabores dulces, picantes y agrios.",
-                  "de": "Paletas sind traditionelle mexikanische Eis am Stiel, die in Michoacán in den 1940er Jahren entstanden. Hergestellt mit frischen Früchten, enthalten sie oft einzigartige Geschmackskombinationen mit Chilipulver, Limette und Chamoy, die mexikanische kulinarische Traditionen widerspiegeln, süße, würzige und saure Geschmäcker zu kombinieren.",
-                  "nl": "Paletas zijn traditionele Mexicaanse ijslolly's die ontstonden in Michoacán in de jaren 1940. Gemaakt met vers fruit, bevatten ze vaak unieke smaak combinaties met chilipoeder, limoen en chamoy, reflecterend Mexicaanse culinaire tradities van het combineren van zoete, pittige en zure smaken."
-        }
-      },
-      {
-        question: {
-                  "en": "Which Russian traditional dessert is considered an ancestor of modern ice cream?",
-                  "es": "¿Qué postre tradicional ruso se considera ancestro del helado moderno?",
-                  "de": "Welches traditionelle russische Dessert gilt als Vorfahre des modernen Eises?",
-                  "nl": "Welk traditioneel Russisch dessert wordt beschouwd als voorouder van modern ijs?"
-        },
-        options: [
-        {
-                  "en": "Snegurochka",
-                  "es": "Snegurochka",
-                  "de": "Snegurochka",
-                  "nl": "Snegurochka"
-        },
-        {
-                  "en": "Plombir",
-                  "es": "Plombir",
-                  "de": "Plombir",
-                  "nl": "Plombir"
-        },
-        {
-                  "en": "Morozhenoe",
-                  "es": "Morozhenoe",
-                  "de": "Morozhenoe",
-                  "nl": "Morozhenoe"
-        },
-        {
-                  "en": "Smetana",
-                  "es": "Smetana",
-                  "de": "Smetana",
-                  "nl": "Smetana"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Snegurochka (Snow Maiden) was a traditional Russian dessert made by mixing snow with honey, berries, and sometimes sour cream. This practice dates back to medieval times and represents one of the earliest forms of frozen desserts in Slavic culture.",
-                  "es": "Snegurochka (Doncella de Nieve) era un postre ruso tradicional hecho mezclando nieve con miel, bayas y a veces crema agria. Esta práctica data de tiempos medievales y representa una de las primeras formas de postres congelados en cultura eslava.",
-                  "de": "Snegurochka (Schneejungfrau) war ein traditionelles russisches Dessert, das durch Mischen von Schnee mit Honig, Beeren und manchmal Sauerrahm hergestellt wurde. Diese Praxis stammt aus dem Mittelalter und stellt eine der frühesten Formen gefrorener Desserts in der slawischen Kultur dar.",
-                  "nl": "Snegurochka (Sneeuwmeisje) was een traditioneel Russisch dessert gemaakt door sneeuw te mengen met honing, bessen en soms zure room. Deze praktijk dateert uit middeleeuwen en vertegenwoordigt een van de vroegste vormen van bevroren desserts in Slavische cultuur."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the name of the first ice cream cone patent holder?",
-                  "es": "¿Cuál era el nombre del primer poseedor de patente del cono de helado?",
-                  "de": "Wie hieß der erste Inhaber des Patents für Eistüten?",
-                  "nl": "Wat was de naam van de eerste houder van het ijshoorntje patent?"
-        },
-        options: [
-        {
-                  "en": "Ernest Hamwi",
-                  "es": "Ernest Hamwi",
-                  "de": "Ernest Hamwi",
-                  "nl": "Ernest Hamwi"
-        },
-        {
-                  "en": "Charles Menches",
-                  "es": "Charles Menches",
-                  "de": "Charles Menches",
-                  "nl": "Charles Menches"
-        },
-        {
-                  "en": "Antonio Valvona",
-                  "es": "Antonio Valvona",
-                  "de": "Antonio Valvona",
-                  "nl": "Antonio Valvona"
-        },
-        {
-                  "en": "Italo Marchiony",
-                  "es": "Italo Marchiony",
-                  "de": "Italo Marchiony",
-                  "nl": "Italo Marchiony"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Italo Marchiony, an Italian immigrant, received U.S. Patent #746971 on December 15, 1903, for his 'mold for forming edible vessels for ice cream.' His invention predated the famous 1904 World's Fair story and revolutionized ice cream serving.",
-                  "es": "Italo Marchiony, inmigrante italiano, recibió la Patente U.S. #746971 el 15 de diciembre de 1903, por su 'molde para formar vasijas comestibles para helado.' Su invención fue anterior a la famosa historia de la Feria Mundial de 1904 y revolucionó el servicio de helado.",
-                  "de": "Italo Marchiony, ein italienischer Einwanderer, erhielt am 15. Dezember 1903 das US-Patent #746971 für seine 'Form zur Herstellung essbarer Gefäße für Eis.' Seine Erfindung war der berühmten Weltausstellungsgeschichte von 1904 voraus und revolutionierte das Eisservieren.",
-                  "nl": "Italo Marchiony, een Italiaanse immigrant, ontving U.S. Patent #746971 op 15 december 1903, voor zijn 'mal voor het vormen van eetbare vaten voor ijs.' Zijn uitvinding was eerder dan het beroemde 1904 World's Fair verhaal en revolutioneerde ijs serveren."
-        }
-      },
-      {
-        question: {
-                  "en": "Which traditional African dessert influenced ice cream development in colonial America?",
-                  "es": "¿Qué postre tradicional africano influyó en el desarrollo del helado en América colonial?",
-                  "de": "Welches traditionelle afrikanische Dessert beeinflusste die Eisentwicklung im kolonialen Amerika?",
-                  "nl": "Welk traditioneel Afrikaans dessert beïnvloedde ijs ontwikkeling in koloniaal Amerika?"
-        },
-        options: [
-        {
-                  "en": "Frozen palm wine",
-                  "es": "Vino de palma congelado",
-                  "de": "Gefrorener Palmwein",
-                  "nl": "Bevroren palmwijn"
-        },
-        {
-                  "en": "Tamarind ice",
-                  "es": "Hielo de tamarindo",
-                  "de": "Tamarinden-Eis",
-                  "nl": "Tamarinde ijs"
-        },
-        {
-                  "en": "Sorrel drink",
-                  "es": "Bebida de acedera",
-                  "de": "Sauerampfer-Getränk",
-                  "nl": "Zuring drank"
-        },
-        {
-                  "en": "Baobab fruit cooler",
-                  "es": "Refresco de fruta baobab",
-                  "de": "Baobab-Frucht-Kühler",
-                  "nl": "Baobab fruit koeler"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Enslaved Africans brought knowledge of tamarind ice preparation to colonial America. Tamarind was processed into cooling beverages and ices, contributing techniques for flavoring and preserving frozen treats that influenced early American ice cream development.",
-                  "es": "Africanos esclavizados trajeron conocimiento de preparación de hielo de tamarindo a América colonial. El tamarindo se procesaba en bebidas refrescantes y hielos, contribuyendo técnicas para saborizar y preservar golosinas congeladas que influyeron en el desarrollo temprano del helado americano.",
-                  "de": "Versklavte Afrikaner brachten Wissen über Tamarinden-Eis-Zubereitung ins koloniale Amerika. Tamarinde wurde zu kühlenden Getränken und Eis verarbeitet, trug Techniken zum Aromatisieren und Konservieren gefrorener Leckereien bei, die die frühe amerikanische Eisentwicklung beeinflussten.",
-                  "nl": "Tot slaaf gemaakte Afrikanen brachten kennis van tamarinde ijs bereiding naar koloniaal Amerika. Tamarinde werd verwerkt tot koelende dranken en ijs, bijdragend technieken voor smaak en het bewaren van bevroren lekkernijen die vroege Amerikaanse ijs ontwikkeling beïnvloedden."
-        }
-      },
-      {
-        question: {
-                  "en": "What traditional Scandinavian technique was used for preserving cream in winter before modern refrigeration?",
-                  "es": "¿Qué técnica escandinava tradicional se usaba para preservar crema en invierno antes de refrigeración moderna?",
-                  "de": "Welche traditionelle skandinavische Technik wurde verwendet, um Sahne im Winter vor moderner Kühlung zu konservieren?",
-                  "nl": "Welke traditionele Scandinavische techniek werd gebruikt voor het bewaren van room in winter voor moderne koeling?"
-        },
-        options: [
-        {
-                  "en": "Fermentation only",
-                  "es": "Solo fermentación",
-                  "de": "Nur Fermentation",
-                  "nl": "Alleen fermentatie"
-        },
-        {
-                  "en": "Natural freezing in snow cellars",
-                  "es": "Congelación natural en sótanos de nieve",
-                  "de": "Natürliches Gefrieren in Schneekellern",
-                  "nl": "Natuurlijke bevriezing in sneeuw kelders"
-        },
-        {
-                  "en": "Smoking process",
-                  "es": "Proceso de ahumado",
-                  "de": "Räucherprozess",
-                  "nl": "Rook proces"
-        },
-        {
-                  "en": "Salt curing",
-                  "es": "Curado con sal",
-                  "de": "Salzhärtung",
-                  "nl": "Zout uitharden"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Scandinavians developed sophisticated snow cellars and ice houses where dairy products were naturally frozen and preserved through winter months. This technique provided fresh cream for making butter and early frozen desserts throughout harsh Nordic winters.",
-                  "es": "Los escandinavos desarrollaron sótanos sofisticados de nieve y casas de hielo donde productos lácteos se congelaban y preservaban naturalmente durante meses de invierno. Esta técnica proporcionaba crema fresca para hacer mantequilla y primeros postres congelados durante duros inviernos nórdicos.",
-                  "de": "Skandinavier entwickelten ausgeklügelte Schneekeller und Eishäuser, wo Milchprodukte natürlich gefroren und über die Wintermonate konserviert wurden. Diese Technik lieferte frische Sahne zur Herstellung von Butter und frühen gefrorenen Desserts während harter nordischer Winter.",
-                  "nl": "Scandinaviërs ontwikkelden geavanceerde sneeuw kelders en ijshuizen waar zuivelproducten natuurlijk bevroren en bewaard werden gedurende wintermaanden. Deze techniek bood verse room voor het maken van boter en vroege bevroren desserts tijdens harde Noordse winters."
-        }
-      },
-      {
-        question: {
-                  "en": "Which traditional Filipino frozen dessert combines multiple ingredients including beans, fruits, and ice cream?",
-                  "es": "¿Qué postre congelado tradicional filipino combina múltiples ingredientes incluyendo frijoles, frutas y helado?",
-                  "de": "Welches traditionelle philippinische gefrorene Dessert kombiniert mehrere Zutaten einschließlich Bohnen, Früchte und Eis?",
-                  "nl": "Welk traditioneel Filipijns bevroren dessert combineert meerdere ingrediënten inclusief bonen, vruchten en ijs?"
-        },
-        options: [
-        {
-                  "en": "Taho",
-                  "es": "Taho",
-                  "de": "Taho",
-                  "nl": "Taho"
-        },
-        {
-                  "en": "Halo-halo",
-                  "es": "Halo-halo",
-                  "de": "Halo-halo",
-                  "nl": "Halo-halo"
-        },
-        {
-                  "en": "Buko pie",
-                  "es": "Buko pie",
-                  "de": "Buko pie",
-                  "nl": "Buko pie"
-        },
-        {
-                  "en": "Leche flan",
-                  "es": "Leche flan",
-                  "de": "Leche flan",
-                  "nl": "Leche flan"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Halo-halo, meaning 'mix-mix' in Tagalog, is a traditional Filipino shaved ice dessert that combines sweetened beans, jellies, fruits, ube, leche flan, and ice cream, creating a complex layered dessert with diverse textures and flavors.",
-                  "es": "Halo-halo, que significa 'mezcla-mezcla' en tagalo, es un postre tradicional filipino de hielo raspado que combina frijoles endulzados, gelatinas, frutas, ube, leche flan y helado, creando un postre complejo en capas con texturas y sabores diversos.",
-                  "de": "Halo-halo, was 'mischen-mischen' auf Tagalog bedeutet, ist ein traditionelles philippinisches geschabtes Eis-Dessert, das gesüßte Bohnen, Gelees, Früchte, Ube, Leche Flan und Eis kombiniert, wodurch ein komplexes geschichtetes Dessert mit verschiedenen Texturen und Geschmäckern entsteht.",
-                  "nl": "Halo-halo, betekenend 'mix-mix' in Tagalog, is een traditioneel Filipijns geschaafd ijs dessert dat gezoete bonen, gelei, vruchten, ube, leche flan en ijs combineert, creërend een complex gelaagd dessert met diverse texturen en smaken."
-        }
-      },
-      {
-        question: {
-                  "en": "What was the primary reason ice cream was initially considered a luxury item in 18th-century Europe?",
-                  "es": "¿Cuál era la razón principal por la que el helado inicialmente se consideraba un artículo de lujo en Europa del siglo XVIII?",
-                  "de": "Was war der Hauptgrund, warum Eis zunächst als Luxusartikel im Europa des 18. Jahrhunderts galt?",
-                  "nl": "Wat was de primaire reden dat ijs oorspronkelijk beschouwd werd als luxe item in 18e-eeuws Europa?"
-        },
-        options: [
-        {
-                  "en": "Limited ice availability and transportation",
-                  "es": "Disponibilidad limitada de hielo y transporte",
-                  "de": "Begrenzte Eisverfügbarkeit und Transport",
-                  "nl": "Beperkte ijs beschikbaarheid en transport"
-        },
-        {
-                  "en": "Rare dairy products",
-                  "es": "Productos lácteos raros",
-                  "de": "Seltene Milchprodukte",
-                  "nl": "Zeldzame zuivelproducten"
-        },
-        {
-                  "en": "Complex cooking techniques",
-                  "es": "Técnicas complejas de cocina",
-                  "de": "Komplexe Kochtechniken",
-                  "nl": "Complexe kook technieken"
-        },
-        {
-                  "en": "Expensive sugar imports",
-                  "es": "Importaciones caras de azúcar",
-                  "de": "Teure Zuckerimporte",
-                  "nl": "Dure suiker import"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Ice availability was the primary limiting factor. Before mechanical refrigeration, ice had to be harvested in winter, stored in ice houses with expensive insulation, and transported carefully. This made ice cream production extremely costly and limited to wealthy households and royalty.",
-                  "es": "La disponibilidad de hielo era el factor limitante principal. Antes de refrigeración mecánica, el hielo tenía que cosecharse en invierno, almacenarse en casas de hielo con aislamiento caro, y transportarse cuidadosamente. Esto hacía la producción de helado extremadamente costosa y limitada a hogares ricos y realeza.",
-                  "de": "Eisverfügbarkeit war der primäre begrenzende Faktor. Vor mechanischer Kühlung musste Eis im Winter geerntet, in Eishäusern mit teurer Isolierung gelagert und sorgfältig transportiert werden. Dies machte Eisproduktion extrem kostspielig und auf wohlhabende Haushalte und Königshäuser beschränkt.",
-                  "nl": "Ijs beschikbaarheid was de primaire beperkende factor. Voor mechanische koeling moest ijs in winter geoogst worden, opgeslagen in ijshuizen met dure isolatie, en zorgvuldig getransporteerd. Dit maakte ijs productie extreem duur en beperkt tot rijke huishoudens en koninklijke families."
-        }
-      },
-      {
-        question: {
-                  "en": "Which ancient Mesopotamian practice directly contributed to early ice preservation techniques used in ice cream development?",
-                  "es": "¿Qué práctica mesopotámica antigua contribuyó directamente a técnicas tempranas de preservación de hielo usadas en desarrollo de helado?",
-                  "de": "Welche antike mesopotamische Praxis trug direkt zu frühen Eiskonservierungstechniken bei, die in der Eisentwicklung verwendet wurden?",
-                  "nl": "Welke oude Mesopotamische praktijk droeg direct bij aan vroege ijs bewaring technieken gebruikt in ijs ontwikkeling?"
-        },
-        options: [
-        {
-                  "en": "Clay pot refrigeration",
-                  "es": "Refrigeración con ollas de barro",
-                  "de": "Tontopf-Kühlung",
-                  "nl": "Klei pot koeling"
-        },
-        {
-                  "en": "Salt-based preservation methods",
-                  "es": "Métodos de preservación basados en sal",
-                  "de": "Salzbasierte Konservierungsmethoden",
-                  "nl": "Zout-gebaseerde bewaring methoden"
-        },
-        {
-                  "en": "Building yakhchāl (ice houses) with double-walled construction",
-                  "es": "Construir yakhchāl (casas de hielo) con construcción de doble pared",
-                  "de": "Bau von Yakhchāl (Eishäuser) mit doppelwandiger Konstruktion",
-                  "nl": "Bouwen van yakhchāl (ijshuizen) met dubbelwandige constructie"
-        },
-        {
-                  "en": "Underground ice storage in qanat systems",
-                  "es": "Almacenamiento subterráneo de hielo en sistemas qanat",
-                  "de": "Unterirdische Eislagerung in Qanat-Systemen",
-                  "nl": "Ondergrondse ijs opslag in qanat systemen"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "The Persian yakhchāl were sophisticated ice houses with double-walled, domed construction and deep underground chambers that could preserve ice for months, even in desert climates. These architectural principles directly influenced ice house design across cultures and enabled early ice cream preservation.",
-                  "es": "Los yakhchāl persas eran casas de hielo sofisticadas con construcción abovedada de doble pared y cámaras subterráneas profundas que podían preservar hielo por meses, incluso en climas desérticos. Estos principios arquitectónicos influyeron directamente en diseño de casas de hielo a través de culturas y permitieron preservación temprana de helado.",
-                  "de": "Die persischen Yakhchāl waren ausgeklügelte Eishäuser mit doppelwandiger Kuppelkonstruktion und tiefen unterirdischen Kammern, die Eis monatelang bewahren konnten, selbst in Wüstenklimaten. Diese architektonischen Prinzipien beeinflussten direkt das Eishausdesign verschiedener Kulturen und ermöglichten frühe Eiskonservierung.",
-                  "nl": "De Perzische yakhchāl waren geavanceerde ijshuizen met dubbelwandige, koepelvormige constructie en diepe ondergrondse kamers die ijs maandenlang konden bewaren, zelfs in woestijn klimaten. Deze architectonische principes beïnvloedden direct ijshuis ontwerp over culturen heen en maakten vroege ijs bewaring mogelijk."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the difference between ice cream and gelato?",
-                  "es": "What is the difference between ice cream and gelato?",
-                  "de": "What is the difference between ice cream and gelato?",
-                  "nl": "What is the difference between ice cream and gelato?"
-        },
-        options: [
-        {
-                  "en": "Ice cream has no eggs",
-                  "es": "Ice cream has no eggs",
-                  "de": "Ice cream has no eggs",
-                  "nl": "Ice cream has no eggs"
-        },
-        {
-                  "en": "No difference",
-                  "es": "No difference",
-                  "de": "No difference",
-                  "nl": "No difference"
-        },
-        {
-                  "en": "Gelato has less air and fat, served warmer",
-                  "es": "Gelato has less air and fat, served warmer",
-                  "de": "Gelato has less air and fat, served warmer",
-                  "nl": "Gelato has less air and fat, served warmer"
-        },
-        {
-                  "en": "Gelato is frozen custard",
-                  "es": "Gelato is frozen custard",
-                  "de": "Gelato is frozen custard",
-                  "nl": "Gelato is frozen custard"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Gelato contains less air (churned slower) and fat than ice cream, and is served at a slightly warmer temperature for creamier texture.",
-                  "es": "Gelato contains less air (churned slower) and fat than ice cream, and is served at a slightly warmer temperature for creamier texture.",
-                  "de": "Gelato contains less air (churned slower) and fat than ice cream, and is served at a slightly warmer temperature for creamier texture.",
-                  "nl": "Gelato contains less air (churned slower) and fat than ice cream, and is served at a slightly warmer temperature for creamier texture."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a baked Alaska?",
-                  "es": "What is a baked Alaska?",
-                  "de": "What is a baked Alaska?",
-                  "nl": "What is a baked Alaska?"
-        },
-        options: [
-        {
-                  "en": "Ice cream and cake covered with meringue, baked briefly",
-                  "es": "Ice cream and cake covered with meringue, baked briefly",
-                  "de": "Ice cream and cake covered with meringue, baked briefly",
-                  "nl": "Ice cream and cake covered with meringue, baked briefly"
-        },
-        {
-                  "en": "Ice cream pie",
-                  "es": "Ice cream pie",
-                  "de": "Ice cream pie",
-                  "nl": "Ice cream pie"
-        },
-        {
-                  "en": "Layered ice cream",
-                  "es": "Layered ice cream",
-                  "de": "Layered ice cream",
-                  "nl": "Layered ice cream"
-        },
-        {
-                  "en": "Frozen cake",
-                  "es": "Frozen cake",
-                  "de": "Frozen cake",
-                  "nl": "Frozen cake"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Baked Alaska features ice cream and cake covered with meringue, briefly baked so meringue browns while ice cream stays frozen.",
-                  "es": "Baked Alaska features ice cream and cake covered with meringue, briefly baked so meringue browns while ice cream stays frozen.",
-                  "de": "Baked Alaska features ice cream and cake covered with meringue, briefly baked so meringue browns while ice cream stays frozen.",
-                  "nl": "Baked Alaska features ice cream and cake covered with meringue, briefly baked so meringue browns while ice cream stays frozen."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a sundae?",
-                  "es": "What is a sundae?",
-                  "de": "What is a sundae?",
-                  "nl": "What is a sundae?"
-        },
-        options: [
-        {
-                  "en": "Milkshake",
-                  "es": "Milkshake",
-                  "de": "Milkshake",
-                  "nl": "Milkshake"
-        },
-        {
-                  "en": "Ice cream cake",
-                  "es": "Ice cream cake",
-                  "de": "Ice cream cake",
-                  "nl": "Ice cream cake"
-        },
-        {
-                  "en": "Ice cream with toppings and sauce",
-                  "es": "Ice cream with toppings and sauce",
-                  "de": "Ice cream with toppings and sauce",
-                  "nl": "Ice cream with toppings and sauce"
-        },
-        {
-                  "en": "Frozen yogurt",
-                  "es": "Frozen yogurt",
-                  "de": "Frozen yogurt",
-                  "nl": "Frozen yogurt"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "A sundae is ice cream served with toppings like sauce, whipped cream, nuts, and a cherry.",
-                  "es": "A sundae is ice cream served with toppings like sauce, whipped cream, nuts, and a cherry.",
-                  "de": "A sundae is ice cream served with toppings like sauce, whipped cream, nuts, and a cherry.",
-                  "nl": "A sundae is ice cream served with toppings like sauce, whipped cream, nuts, and a cherry."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a parfait?",
-                  "es": "What is a parfait?",
-                  "de": "What is a parfait?",
-                  "nl": "What is a parfait?"
-        },
-        options: [
-        {
-                  "en": "Layered ice cream or yogurt dessert",
-                  "es": "Layered ice cream or yogurt dessert",
-                  "de": "Layered ice cream or yogurt dessert",
-                  "nl": "Layered ice cream or yogurt dessert"
-        },
-        {
-                  "en": "Ice cream sandwich",
-                  "es": "Ice cream sandwich",
-                  "de": "Ice cream sandwich",
-                  "nl": "Ice cream sandwich"
-        },
-        {
-                  "en": "Milkshake",
-                  "es": "Milkshake",
-                  "de": "Milkshake",
-                  "nl": "Milkshake"
-        },
-        {
-                  "en": "Ice cream cone",
-                  "es": "Ice cream cone",
-                  "de": "Ice cream cone",
-                  "nl": "Ice cream cone"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "A parfait is a dessert with layers of ice cream, yogurt, or mousse alternated with fruit, granola, or other ingredients.",
-                  "es": "A parfait is a dessert with layers of ice cream, yogurt, or mousse alternated with fruit, granola, or other ingredients.",
-                  "de": "A parfait is a dessert with layers of ice cream, yogurt, or mousse alternated with fruit, granola, or other ingredients.",
-                  "nl": "A parfait is a dessert with layers of ice cream, yogurt, or mousse alternated with fruit, granola, or other ingredients."
-        }
-      },
-      {
-        question: {
-                  "en": "What is gelato's origin?",
-                  "es": "What is gelato's origin?",
-                  "de": "What is gelato's origin?",
-                  "nl": "What is gelato's origin?"
-        },
-        options: [
-        {
-                  "en": "Switzerland",
-                  "es": "Switzerland",
-                  "de": "Switzerland",
-                  "nl": "Switzerland"
-        },
-        {
-                  "en": "United States",
-                  "es": "United States",
-                  "de": "United States",
-                  "nl": "United States"
-        },
-        {
-                  "en": "Italy",
-                  "es": "Italy",
-                  "de": "Italy",
-                  "nl": "Italy"
-        },
-        {
-                  "en": "France",
-                  "es": "France",
-                  "de": "France",
-                  "nl": "France"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Gelato originated in Italy and remains an important part of Italian culinary culture.",
-                  "es": "Gelato originated in Italy and remains an important part of Italian culinary culture.",
-                  "de": "Gelato originated in Italy and remains an important part of Italian culinary culture.",
-                  "nl": "Gelato originated in Italy and remains an important part of Italian culinary culture."
-        }
-      },
-      {
-        question: {
-                  "en": "What is sorbet?",
-                  "es": "What is sorbet?",
-                  "de": "What is sorbet?",
-                  "nl": "What is sorbet?"
-        },
-        options: [
-        {
-                  "en": "Gelato",
-                  "es": "Gelato",
-                  "de": "Gelato",
-                  "nl": "Gelato"
-        },
-        {
-                  "en": "Frozen yogurt",
-                  "es": "Frozen yogurt",
-                  "de": "Frozen yogurt",
-                  "nl": "Frozen yogurt"
-        },
-        {
-                  "en": "Ice cream",
-                  "es": "Ice cream",
-                  "de": "Ice cream",
-                  "nl": "Ice cream"
-        },
-        {
-                  "en": "Frozen dessert made from fruit and sugar, no dairy",
-                  "es": "Frozen dessert made from fruit and sugar, no dairy",
-                  "de": "Frozen dessert made from fruit and sugar, no dairy",
-                  "nl": "Frozen dessert made from fruit and sugar, no dairy"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Sorbet is a frozen dessert made from fruit puree and sugar with no dairy products.",
-                  "es": "Sorbet is a frozen dessert made from fruit puree and sugar with no dairy products.",
-                  "de": "Sorbet is a frozen dessert made from fruit puree and sugar with no dairy products.",
-                  "nl": "Sorbet is a frozen dessert made from fruit puree and sugar with no dairy products."
-        }
-      },
-      {
-        question: {
-                  "en": "What is an ice cream sandwich?",
-                  "es": "What is an ice cream sandwich?",
-                  "de": "What is an ice cream sandwich?",
-                  "nl": "What is an ice cream sandwich?"
-        },
-        options: [
-        {
-                  "en": "Ice cream cake",
-                  "es": "Ice cream cake",
-                  "de": "Ice cream cake",
-                  "nl": "Ice cream cake"
-        },
-        {
-                  "en": "Ice cream in a cone",
-                  "es": "Ice cream in a cone",
-                  "de": "Ice cream in a cone",
-                  "nl": "Ice cream in a cone"
-        },
-        {
-                  "en": "Ice cream between two cookies or wafers",
-                  "es": "Ice cream between two cookies or wafers",
-                  "de": "Ice cream between two cookies or wafers",
-                  "nl": "Ice cream between two cookies or wafers"
-        },
-        {
-                  "en": "Ice cream sundae",
-                  "es": "Ice cream sundae",
-                  "de": "Ice cream sundae",
-                  "nl": "Ice cream sundae"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "An ice cream sandwich consists of ice cream layered between two cookies, wafers, or cake layers.",
-                  "es": "An ice cream sandwich consists of ice cream layered between two cookies, wafers, or cake layers.",
-                  "de": "An ice cream sandwich consists of ice cream layered between two cookies, wafers, or cake layers.",
-                  "nl": "An ice cream sandwich consists of ice cream layered between two cookies, wafers, or cake layers."
-        }
-      },
-      {
-        question: {
-                  "en": "What is spumoni?",
-                  "es": "What is spumoni?",
-                  "de": "What is spumoni?",
-                  "nl": "What is spumoni?"
-        },
-        options: [
-        {
-                  "en": "Sorbet",
-                  "es": "Sorbet",
-                  "de": "Sorbet",
-                  "nl": "Sorbet"
-        },
-        {
-                  "en": "Ice cream sundae",
-                  "es": "Ice cream sundae",
-                  "de": "Ice cream sundae",
-                  "nl": "Ice cream sundae"
-        },
-        {
-                  "en": "Italian molded ice cream with layers and nuts/fruit",
-                  "es": "Italian molded ice cream with layers and nuts/fruit",
-                  "de": "Italian molded ice cream with layers and nuts/fruit",
-                  "nl": "Italian molded ice cream with layers and nuts/fruit"
-        },
-        {
-                  "en": "Gelato",
-                  "es": "Gelato",
-                  "de": "Gelato",
-                  "nl": "Gelato"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Spumoni is a molded Italian ice cream with layers of different flavors and colors, typically containing nuts and candied fruit.",
-                  "es": "Spumoni is a molded Italian ice cream with layers of different flavors and colors, typically containing nuts and candied fruit.",
-                  "de": "Spumoni is a molded Italian ice cream with layers of different flavors and colors, typically containing nuts and candied fruit.",
-                  "nl": "Spumoni is a molded Italian ice cream with layers of different flavors and colors, typically containing nuts and candied fruit."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the purpose of churning ice cream?",
-                  "es": "What is the purpose of churning ice cream?",
-                  "de": "What is the purpose of churning ice cream?",
-                  "nl": "What is the purpose of churning ice cream?"
-        },
-        options: [
-        {
-                  "en": "Change color",
-                  "es": "Change color",
-                  "de": "Change color",
-                  "nl": "Change color"
-        },
-        {
-                  "en": "Add flavor",
-                  "es": "Add flavor",
-                  "de": "Add flavor",
-                  "nl": "Add flavor"
-        },
-        {
-                  "en": "Incorporate air for smooth texture",
-                  "es": "Incorporate air for smooth texture",
-                  "de": "Incorporate air for smooth texture",
-                  "nl": "Incorporate air for smooth texture"
-        },
-        {
-                  "en": "Freeze it faster",
-                  "es": "Freeze it faster",
-                  "de": "Freeze it faster",
-                  "nl": "Freeze it faster"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Churning incorporates air into ice cream while freezing, preventing large ice crystals and creating smooth, scoopable texture.",
-                  "es": "Churning incorporates air into ice cream while freezing, preventing large ice crystals and creating smooth, scoopable texture.",
-                  "de": "Churning incorporates air into ice cream while freezing, preventing large ice crystals and creating smooth, scoopable texture.",
-                  "nl": "Churning incorporates air into ice cream while freezing, preventing large ice crystals and creating smooth, scoopable texture."
-        }
-      },
-      {
-        question: {
-                  "en": "What is sherbet?",
-                  "es": "What is sherbet?",
-                  "de": "What is sherbet?",
-                  "nl": "What is sherbet?"
-        },
-        options: [
-        {
-                  "en": "Gelato",
-                  "es": "Gelato",
-                  "de": "Gelato",
-                  "nl": "Gelato"
-        },
-        {
-                  "en": "Ice cream",
-                  "es": "Ice cream",
-                  "de": "Ice cream",
-                  "nl": "Ice cream"
-        },
-        {
-                  "en": "Frozen dessert with fruit and small amount of dairy",
-                  "es": "Frozen dessert with fruit and small amount of dairy",
-                  "de": "Frozen dessert with fruit and small amount of dairy",
-                  "nl": "Frozen dessert with fruit and small amount of dairy"
-        },
-        {
-                  "en": "Sorbet",
-                  "es": "Sorbet",
-                  "de": "Sorbet",
-                  "nl": "Sorbet"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "Sherbet contains fruit and a small amount of dairy (1-2% milk fat), making it creamier than sorbet but lighter than ice cream.",
-                  "es": "Sherbet contains fruit and a small amount of dairy (1-2% milk fat), making it creamier than sorbet but lighter than ice cream.",
-                  "de": "Sherbet contains fruit and a small amount of dairy (1-2% milk fat), making it creamier than sorbet but lighter than ice cream.",
-                  "nl": "Sherbet contains fruit and a small amount of dairy (1-2% milk fat), making it creamier than sorbet but lighter than ice cream."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a banana split?",
-                  "es": "What is a banana split?",
-                  "de": "What is a banana split?",
-                  "nl": "What is a banana split?"
-        },
-        options: [
-        {
-                  "en": "Milkshake",
-                  "es": "Milkshake",
-                  "de": "Milkshake",
-                  "nl": "Milkshake"
-        },
-        {
-                  "en": "Banana ice cream",
-                  "es": "Banana ice cream",
-                  "de": "Banana ice cream",
-                  "nl": "Banana ice cream"
-        },
-        {
-                  "en": "Ice cream sundae",
-                  "es": "Ice cream sundae",
-                  "de": "Ice cream sundae",
-                  "nl": "Ice cream sundae"
-        },
-        {
-                  "en": "Banana with scoops of ice cream, toppings, and sauces",
-                  "es": "Banana with scoops of ice cream, toppings, and sauces",
-                  "de": "Banana with scoops of ice cream, toppings, and sauces",
-                  "nl": "Banana with scoops of ice cream, toppings, and sauces"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "A banana split features a banana cut lengthwise with three scoops of ice cream, toppings, sauces, whipped cream, and a cherry.",
-                  "es": "A banana split features a banana cut lengthwise with three scoops of ice cream, toppings, sauces, whipped cream, and a cherry.",
-                  "de": "A banana split features a banana cut lengthwise with three scoops of ice cream, toppings, sauces, whipped cream, and a cherry.",
-                  "nl": "A banana split features a banana cut lengthwise with three scoops of ice cream, toppings, sauces, whipped cream, and a cherry."
-        }
-      },
-      {
-        question: {
-                  "en": "What is an affogato?",
-                  "es": "What is an affogato?",
-                  "de": "What is an affogato?",
-                  "nl": "What is an affogato?"
-        },
-        options: [
-        {
-                  "en": "Gelato or ice cream with hot espresso poured over",
-                  "es": "Gelato or ice cream with hot espresso poured over",
-                  "de": "Gelato or ice cream with hot espresso poured over",
-                  "nl": "Gelato or ice cream with hot espresso poured over"
-        },
-        {
-                  "en": "Coffee ice cream",
-                  "es": "Coffee ice cream",
-                  "de": "Coffee ice cream",
-                  "nl": "Coffee ice cream"
-        },
-        {
-                  "en": "Frozen coffee",
-                  "es": "Frozen coffee",
-                  "de": "Frozen coffee",
-                  "nl": "Frozen coffee"
-        },
-        {
-                  "en": "Iced coffee",
-                  "es": "Iced coffee",
-                  "de": "Iced coffee",
-                  "nl": "Iced coffee"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Affogato is Italian for 'drowned' - vanilla gelato or ice cream 'drowned' with a shot of hot espresso poured over it.",
-                  "es": "Affogato is Italian for 'drowned' - vanilla gelato or ice cream 'drowned' with a shot of hot espresso poured over it.",
-                  "de": "Affogato is Italian for 'drowned' - vanilla gelato or ice cream 'drowned' with a shot of hot espresso poured over it.",
-                  "nl": "Affogato is Italian for 'drowned' - vanilla gelato or ice cream 'drowned' with a shot of hot espresso poured over it."
-        }
-      },
-      {
-        question: {
-                  "en": "What causes ice crystals in homemade ice cream?",
-                  "es": "What causes ice crystals in homemade ice cream?",
-                  "de": "What causes ice crystals in homemade ice cream?",
-                  "nl": "What causes ice crystals in homemade ice cream?"
-        },
-        options: [
-        {
-                  "en": "Overchurning",
-                  "es": "Overchurning",
-                  "de": "Overchurning",
-                  "nl": "Overchurning"
-        },
-        {
-                  "en": "Not enough cream",
-                  "es": "Not enough cream",
-                  "de": "Not enough cream",
-                  "nl": "Not enough cream"
-        },
-        {
-                  "en": "Too much sugar",
-                  "es": "Too much sugar",
-                  "de": "Too much sugar",
-                  "nl": "Too much sugar"
-        },
-        {
-                  "en": "Slow freezing or temperature fluctuations",
-                  "es": "Slow freezing or temperature fluctuations",
-                  "de": "Slow freezing or temperature fluctuations",
-                  "nl": "Slow freezing or temperature fluctuations"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Ice crystals form when ice cream freezes too slowly or experiences temperature fluctuations, causing water to form large crystals.",
-                  "es": "Ice crystals form when ice cream freezes too slowly or experiences temperature fluctuations, causing water to form large crystals.",
-                  "de": "Ice crystals form when ice cream freezes too slowly or experiences temperature fluctuations, causing water to form large crystals.",
-                  "nl": "Ice crystals form when ice cream freezes too slowly or experiences temperature fluctuations, causing water to form large crystals."
-        }
-      },
-      {
-        question: {
-                  "en": "What is soft serve ice cream?",
-                  "es": "What is soft serve ice cream?",
-                  "de": "What is soft serve ice cream?",
-                  "nl": "What is soft serve ice cream?"
-        },
-        options: [
-        {
-                  "en": "Frozen yogurt",
-                  "es": "Frozen yogurt",
-                  "de": "Frozen yogurt",
-                  "nl": "Frozen yogurt"
-        },
-        {
-                  "en": "Ice cream served at warmer temperature, directly from machine",
-                  "es": "Ice cream served at warmer temperature, directly from machine",
-                  "de": "Ice cream served at warmer temperature, directly from machine",
-                  "nl": "Ice cream served at warmer temperature, directly from machine"
-        },
-        {
-                  "en": "Regular ice cream",
-                  "es": "Regular ice cream",
-                  "de": "Regular ice cream",
-                  "nl": "Regular ice cream"
-        },
-        {
-                  "en": "Gelato",
-                  "es": "Gelato",
-                  "de": "Gelato",
-                  "nl": "Gelato"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Soft serve is ice cream served immediately from the freezing machine at a warmer temperature, giving it a soft, creamy texture.",
-                  "es": "Soft serve is ice cream served immediately from the freezing machine at a warmer temperature, giving it a soft, creamy texture.",
-                  "de": "Soft serve is ice cream served immediately from the freezing machine at a warmer temperature, giving it a soft, creamy texture.",
-                  "nl": "Soft serve is ice cream served immediately from the freezing machine at a warmer temperature, giving it a soft, creamy texture."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a semifreddo?",
-                  "es": "What is a semifreddo?",
-                  "de": "What is a semifreddo?",
-                  "nl": "What is a semifreddo?"
-        },
-        options: [
-        {
-                  "en": "Ice cream",
-                  "es": "Ice cream",
-                  "de": "Ice cream",
-                  "nl": "Ice cream"
-        },
-        {
-                  "en": "Partially frozen Italian dessert",
-                  "es": "Partially frozen Italian dessert",
-                  "de": "Partially frozen Italian dessert",
-                  "nl": "Partially frozen Italian dessert"
-        },
-        {
-                  "en": "Gelato",
-                  "es": "Gelato",
-                  "de": "Gelato",
-                  "nl": "Gelato"
-        },
-        {
-                  "en": "Sorbet",
-                  "es": "Sorbet",
-                  "de": "Sorbet",
-                  "nl": "Sorbet"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Semifreddo means 'half-frozen' in Italian - a partially frozen dessert similar to frozen mousse, lighter than ice cream.",
-                  "es": "Semifreddo means 'half-frozen' in Italian - a partially frozen dessert similar to frozen mousse, lighter than ice cream.",
-                  "de": "Semifreddo means 'half-frozen' in Italian - a partially frozen dessert similar to frozen mousse, lighter than ice cream.",
-                  "nl": "Semifreddo means 'half-frozen' in Italian - a partially frozen dessert similar to frozen mousse, lighter than ice cream."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the ideal fat content for creamy ice cream?",
-                  "es": "What is the ideal fat content for creamy ice cream?",
-                  "de": "What is the ideal fat content for creamy ice cream?",
-                  "nl": "What is the ideal fat content for creamy ice cream?"
-        },
-        options: [
-        {
-                  "en": "5% milk fat",
-                  "es": "5% milk fat",
-                  "de": "5% milk fat",
-                  "nl": "5% milk fat"
-        },
-        {
-                  "en": "No fat needed",
-                  "es": "No fat needed",
-                  "de": "No fat needed",
-                  "nl": "No fat needed"
-        },
-        {
-                  "en": "20% milk fat",
-                  "es": "20% milk fat",
-                  "de": "20% milk fat",
-                  "nl": "20% milk fat"
-        },
-        {
-                  "en": "10-16% milk fat",
-                  "es": "10-16% milk fat",
-                  "de": "10-16% milk fat",
-                  "nl": "10-16% milk fat"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Premium ice cream typically contains 10-16% milk fat, which contributes to creamy texture and flavor.",
-                  "es": "Premium ice cream typically contains 10-16% milk fat, which contributes to creamy texture and flavor.",
-                  "de": "Premium ice cream typically contains 10-16% milk fat, which contributes to creamy texture and flavor.",
-                  "nl": "Premium ice cream typically contains 10-16% milk fat, which contributes to creamy texture and flavor."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a float?",
-                  "es": "What is a float?",
-                  "de": "What is a float?",
-                  "nl": "What is a float?"
-        },
-        options: [
-        {
-                  "en": "Milkshake",
-                  "es": "Milkshake",
-                  "de": "Milkshake",
-                  "nl": "Milkshake"
-        },
-        {
-                  "en": "Ice cream sundae",
-                  "es": "Ice cream sundae",
-                  "de": "Ice cream sundae",
-                  "nl": "Ice cream sundae"
-        },
-        {
-                  "en": "Ice cream in soda or beverage",
-                  "es": "Ice cream in soda or beverage",
-                  "de": "Ice cream in soda or beverage",
-                  "nl": "Ice cream in soda or beverage"
-        },
-        {
-                  "en": "Ice cream on cake",
-                  "es": "Ice cream on cake",
-                  "de": "Ice cream on cake",
-                  "nl": "Ice cream on cake"
-        }
-        ],
-        correct: 2,
-        explanation: {
-                  "en": "A float (or ice cream soda) is ice cream served in soda, root beer, or other carbonated beverage.",
-                  "es": "A float (or ice cream soda) is ice cream served in soda, root beer, or other carbonated beverage.",
-                  "de": "A float (or ice cream soda) is ice cream served in soda, root beer, or other carbonated beverage.",
-                  "nl": "A float (or ice cream soda) is ice cream served in soda, root beer, or other carbonated beverage."
-        }
-      },
-      {
-        question: {
-                  "en": "What is granita?",
-                  "es": "What is granita?",
-                  "de": "What is granita?",
-                  "nl": "What is granita?"
-        },
-        options: [
-        {
-                  "en": "Smooth sorbet",
-                  "es": "Smooth sorbet",
-                  "de": "Smooth sorbet",
-                  "nl": "Smooth sorbet"
-        },
-        {
-                  "en": "Ice cream",
-                  "es": "Ice cream",
-                  "de": "Ice cream",
-                  "nl": "Ice cream"
-        },
-        {
-                  "en": "Gelato",
-                  "es": "Gelato",
-                  "de": "Gelato",
-                  "nl": "Gelato"
-        },
-        {
-                  "en": "Italian semi-frozen dessert with granular texture",
-                  "es": "Italian semi-frozen dessert with granular texture",
-                  "de": "Italian semi-frozen dessert with granular texture",
-                  "nl": "Italian semi-frozen dessert with granular texture"
-        }
-        ],
-        correct: 3,
-        explanation: {
-                  "en": "Granita is a semi-frozen Italian dessert made from sugar, water, and flavorings, with a grainy, crystalline texture.",
-                  "es": "Granita is a semi-frozen Italian dessert made from sugar, water, and flavorings, with a grainy, crystalline texture.",
-                  "de": "Granita is a semi-frozen Italian dessert made from sugar, water, and flavorings, with a grainy, crystalline texture.",
-                  "nl": "Granita is a semi-frozen Italian dessert made from sugar, water, and flavorings, with a grainy, crystalline texture."
-        }
-      },
-      {
-        question: {
-                  "en": "What is the overrun in ice cream?",
-                  "es": "What is the overrun in ice cream?",
-                  "de": "What is the overrun in ice cream?",
-                  "nl": "What is the overrun in ice cream?"
-        },
-        options: [
-        {
-                  "en": "Melting rate",
-                  "es": "Melting rate",
-                  "de": "Melting rate",
-                  "nl": "Melting rate"
-        },
-        {
-                  "en": "Amount of air incorporated during churning",
-                  "es": "Amount of air incorporated during churning",
-                  "de": "Amount of air incorporated during churning",
-                  "nl": "Amount of air incorporated during churning"
-        },
-        {
-                  "en": "Freezing time",
-                  "es": "Freezing time",
-                  "de": "Freezing time",
-                  "nl": "Freezing time"
-        },
-        {
-                  "en": "Amount of sugar",
-                  "es": "Amount of sugar",
-                  "de": "Amount of sugar",
-                  "nl": "Amount of sugar"
-        }
-        ],
-        correct: 1,
-        explanation: {
-                  "en": "Overrun refers to the amount of air incorporated into ice cream during churning, expressed as a percentage of volume increase.",
-                  "es": "Overrun refers to the amount of air incorporated into ice cream during churning, expressed as a percentage of volume increase.",
-                  "de": "Overrun refers to the amount of air incorporated into ice cream during churning, expressed as a percentage of volume increase.",
-                  "nl": "Overrun refers to the amount of air incorporated into ice cream during churning, expressed as a percentage of volume increase."
-        }
-      },
-      {
-        question: {
-                  "en": "What is a Neapolitan ice cream?",
-                  "es": "What is a Neapolitan ice cream?",
-                  "de": "What is a Neapolitan ice cream?",
-                  "nl": "What is a Neapolitan ice cream?"
-        },
-        options: [
-        {
-                  "en": "Three-flavor layered ice cream (vanilla, chocolate, strawberry)",
-                  "es": "Three-flavor layered ice cream (vanilla, chocolate, strawberry)",
-                  "de": "Three-flavor layered ice cream (vanilla, chocolate, strawberry)",
-                  "nl": "Three-flavor layered ice cream (vanilla, chocolate, strawberry)"
-        },
-        {
-                  "en": "Molded ice cream",
-                  "es": "Molded ice cream",
-                  "de": "Molded ice cream",
-                  "nl": "Molded ice cream"
-        },
-        {
-                  "en": "Ice cream from Naples",
-                  "es": "Ice cream from Naples",
-                  "de": "Ice cream from Naples",
-                  "nl": "Ice cream from Naples"
-        },
-        {
-                  "en": "Italian ice cream",
-                  "es": "Italian ice cream",
-                  "de": "Italian ice cream",
-                  "nl": "Italian ice cream"
-        }
-        ],
-        correct: 0,
-        explanation: {
-                  "en": "Neapolitan ice cream features three distinct flavors in layers - traditionally vanilla, chocolate, and strawberry.",
-                  "es": "Neapolitan ice cream features three distinct flavors in layers - traditionally vanilla, chocolate, and strawberry.",
-                  "de": "Neapolitan ice cream features three distinct flavors in layers - traditionally vanilla, chocolate, and strawberry.",
-                  "nl": "Neapolitan ice cream features three distinct flavors in layers - traditionally vanilla, chocolate, and strawberry."
-        }
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
       }
-    ]
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = level9;
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 2 about Ice Cream Desserts",
+      "es": "Pregunta 2 sobre Ice Cream Desserts",
+      "de": "Frage 2 über Ice Cream Desserts",
+      "nl": "Vraag 2 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 3 about Ice Cream Desserts",
+      "es": "Pregunta 3 sobre Ice Cream Desserts",
+      "de": "Frage 3 über Ice Cream Desserts",
+      "nl": "Vraag 3 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 4 about Ice Cream Desserts",
+      "es": "Pregunta 4 sobre Ice Cream Desserts",
+      "de": "Frage 4 über Ice Cream Desserts",
+      "nl": "Vraag 4 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 5 about Ice Cream Desserts",
+      "es": "Pregunta 5 sobre Ice Cream Desserts",
+      "de": "Frage 5 über Ice Cream Desserts",
+      "nl": "Vraag 5 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 6 about Ice Cream Desserts",
+      "es": "Pregunta 6 sobre Ice Cream Desserts",
+      "de": "Frage 6 über Ice Cream Desserts",
+      "nl": "Vraag 6 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 7 about Ice Cream Desserts",
+      "es": "Pregunta 7 sobre Ice Cream Desserts",
+      "de": "Frage 7 über Ice Cream Desserts",
+      "nl": "Vraag 7 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 8 about Ice Cream Desserts",
+      "es": "Pregunta 8 sobre Ice Cream Desserts",
+      "de": "Frage 8 über Ice Cream Desserts",
+      "nl": "Vraag 8 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 9 about Ice Cream Desserts",
+      "es": "Pregunta 9 sobre Ice Cream Desserts",
+      "de": "Frage 9 über Ice Cream Desserts",
+      "nl": "Vraag 9 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 10 about Ice Cream Desserts",
+      "es": "Pregunta 10 sobre Ice Cream Desserts",
+      "de": "Frage 10 über Ice Cream Desserts",
+      "nl": "Vraag 10 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 11 about Ice Cream Desserts",
+      "es": "Pregunta 11 sobre Ice Cream Desserts",
+      "de": "Frage 11 über Ice Cream Desserts",
+      "nl": "Vraag 11 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 12 about Ice Cream Desserts",
+      "es": "Pregunta 12 sobre Ice Cream Desserts",
+      "de": "Frage 12 über Ice Cream Desserts",
+      "nl": "Vraag 12 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 13 about Ice Cream Desserts",
+      "es": "Pregunta 13 sobre Ice Cream Desserts",
+      "de": "Frage 13 über Ice Cream Desserts",
+      "nl": "Vraag 13 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 14 about Ice Cream Desserts",
+      "es": "Pregunta 14 sobre Ice Cream Desserts",
+      "de": "Frage 14 über Ice Cream Desserts",
+      "nl": "Vraag 14 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 15 about Ice Cream Desserts",
+      "es": "Pregunta 15 sobre Ice Cream Desserts",
+      "de": "Frage 15 über Ice Cream Desserts",
+      "nl": "Vraag 15 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 16 about Ice Cream Desserts",
+      "es": "Pregunta 16 sobre Ice Cream Desserts",
+      "de": "Frage 16 über Ice Cream Desserts",
+      "nl": "Vraag 16 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 17 about Ice Cream Desserts",
+      "es": "Pregunta 17 sobre Ice Cream Desserts",
+      "de": "Frage 17 über Ice Cream Desserts",
+      "nl": "Vraag 17 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 18 about Ice Cream Desserts",
+      "es": "Pregunta 18 sobre Ice Cream Desserts",
+      "de": "Frage 18 über Ice Cream Desserts",
+      "nl": "Vraag 18 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 19 about Ice Cream Desserts",
+      "es": "Pregunta 19 sobre Ice Cream Desserts",
+      "de": "Frage 19 über Ice Cream Desserts",
+      "nl": "Vraag 19 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 20 about Ice Cream Desserts",
+      "es": "Pregunta 20 sobre Ice Cream Desserts",
+      "de": "Frage 20 über Ice Cream Desserts",
+      "nl": "Vraag 20 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 21 about Ice Cream Desserts",
+      "es": "Pregunta 21 sobre Ice Cream Desserts",
+      "de": "Frage 21 über Ice Cream Desserts",
+      "nl": "Vraag 21 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 22 about Ice Cream Desserts",
+      "es": "Pregunta 22 sobre Ice Cream Desserts",
+      "de": "Frage 22 über Ice Cream Desserts",
+      "nl": "Vraag 22 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 23 about Ice Cream Desserts",
+      "es": "Pregunta 23 sobre Ice Cream Desserts",
+      "de": "Frage 23 über Ice Cream Desserts",
+      "nl": "Vraag 23 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 24 about Ice Cream Desserts",
+      "es": "Pregunta 24 sobre Ice Cream Desserts",
+      "de": "Frage 24 über Ice Cream Desserts",
+      "nl": "Vraag 24 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 25 about Ice Cream Desserts",
+      "es": "Pregunta 25 sobre Ice Cream Desserts",
+      "de": "Frage 25 über Ice Cream Desserts",
+      "nl": "Vraag 25 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 26 about Ice Cream Desserts",
+      "es": "Pregunta 26 sobre Ice Cream Desserts",
+      "de": "Frage 26 über Ice Cream Desserts",
+      "nl": "Vraag 26 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 27 about Ice Cream Desserts",
+      "es": "Pregunta 27 sobre Ice Cream Desserts",
+      "de": "Frage 27 über Ice Cream Desserts",
+      "nl": "Vraag 27 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 28 about Ice Cream Desserts",
+      "es": "Pregunta 28 sobre Ice Cream Desserts",
+      "de": "Frage 28 über Ice Cream Desserts",
+      "nl": "Vraag 28 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 29 about Ice Cream Desserts",
+      "es": "Pregunta 29 sobre Ice Cream Desserts",
+      "de": "Frage 29 über Ice Cream Desserts",
+      "nl": "Vraag 29 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 30 about Ice Cream Desserts",
+      "es": "Pregunta 30 sobre Ice Cream Desserts",
+      "de": "Frage 30 über Ice Cream Desserts",
+      "nl": "Vraag 30 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 31 about Ice Cream Desserts",
+      "es": "Pregunta 31 sobre Ice Cream Desserts",
+      "de": "Frage 31 über Ice Cream Desserts",
+      "nl": "Vraag 31 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 32 about Ice Cream Desserts",
+      "es": "Pregunta 32 sobre Ice Cream Desserts",
+      "de": "Frage 32 über Ice Cream Desserts",
+      "nl": "Vraag 32 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 33 about Ice Cream Desserts",
+      "es": "Pregunta 33 sobre Ice Cream Desserts",
+      "de": "Frage 33 über Ice Cream Desserts",
+      "nl": "Vraag 33 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 34 about Ice Cream Desserts",
+      "es": "Pregunta 34 sobre Ice Cream Desserts",
+      "de": "Frage 34 über Ice Cream Desserts",
+      "nl": "Vraag 34 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 35 about Ice Cream Desserts",
+      "es": "Pregunta 35 sobre Ice Cream Desserts",
+      "de": "Frage 35 über Ice Cream Desserts",
+      "nl": "Vraag 35 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 36 about Ice Cream Desserts",
+      "es": "Pregunta 36 sobre Ice Cream Desserts",
+      "de": "Frage 36 über Ice Cream Desserts",
+      "nl": "Vraag 36 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 37 about Ice Cream Desserts",
+      "es": "Pregunta 37 sobre Ice Cream Desserts",
+      "de": "Frage 37 über Ice Cream Desserts",
+      "nl": "Vraag 37 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 38 about Ice Cream Desserts",
+      "es": "Pregunta 38 sobre Ice Cream Desserts",
+      "de": "Frage 38 über Ice Cream Desserts",
+      "nl": "Vraag 38 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 39 about Ice Cream Desserts",
+      "es": "Pregunta 39 sobre Ice Cream Desserts",
+      "de": "Frage 39 über Ice Cream Desserts",
+      "nl": "Vraag 39 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 40 about Ice Cream Desserts",
+      "es": "Pregunta 40 sobre Ice Cream Desserts",
+      "de": "Frage 40 über Ice Cream Desserts",
+      "nl": "Vraag 40 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 41 about Ice Cream Desserts",
+      "es": "Pregunta 41 sobre Ice Cream Desserts",
+      "de": "Frage 41 über Ice Cream Desserts",
+      "nl": "Vraag 41 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 42 about Ice Cream Desserts",
+      "es": "Pregunta 42 sobre Ice Cream Desserts",
+      "de": "Frage 42 über Ice Cream Desserts",
+      "nl": "Vraag 42 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 43 about Ice Cream Desserts",
+      "es": "Pregunta 43 sobre Ice Cream Desserts",
+      "de": "Frage 43 über Ice Cream Desserts",
+      "nl": "Vraag 43 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 44 about Ice Cream Desserts",
+      "es": "Pregunta 44 sobre Ice Cream Desserts",
+      "de": "Frage 44 über Ice Cream Desserts",
+      "nl": "Vraag 44 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 45 about Ice Cream Desserts",
+      "es": "Pregunta 45 sobre Ice Cream Desserts",
+      "de": "Frage 45 über Ice Cream Desserts",
+      "nl": "Vraag 45 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 46 about Ice Cream Desserts",
+      "es": "Pregunta 46 sobre Ice Cream Desserts",
+      "de": "Frage 46 über Ice Cream Desserts",
+      "nl": "Vraag 46 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 47 about Ice Cream Desserts",
+      "es": "Pregunta 47 sobre Ice Cream Desserts",
+      "de": "Frage 47 über Ice Cream Desserts",
+      "nl": "Vraag 47 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 48 about Ice Cream Desserts",
+      "es": "Pregunta 48 sobre Ice Cream Desserts",
+      "de": "Frage 48 über Ice Cream Desserts",
+      "nl": "Vraag 48 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 49 about Ice Cream Desserts",
+      "es": "Pregunta 49 sobre Ice Cream Desserts",
+      "de": "Frage 49 über Ice Cream Desserts",
+      "nl": "Vraag 49 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 50 about Ice Cream Desserts",
+      "es": "Pregunta 50 sobre Ice Cream Desserts",
+      "de": "Frage 50 über Ice Cream Desserts",
+      "nl": "Vraag 50 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 51 about Ice Cream Desserts",
+      "es": "Pregunta 51 sobre Ice Cream Desserts",
+      "de": "Frage 51 über Ice Cream Desserts",
+      "nl": "Vraag 51 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 52 about Ice Cream Desserts",
+      "es": "Pregunta 52 sobre Ice Cream Desserts",
+      "de": "Frage 52 über Ice Cream Desserts",
+      "nl": "Vraag 52 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 53 about Ice Cream Desserts",
+      "es": "Pregunta 53 sobre Ice Cream Desserts",
+      "de": "Frage 53 über Ice Cream Desserts",
+      "nl": "Vraag 53 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 54 about Ice Cream Desserts",
+      "es": "Pregunta 54 sobre Ice Cream Desserts",
+      "de": "Frage 54 über Ice Cream Desserts",
+      "nl": "Vraag 54 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 55 about Ice Cream Desserts",
+      "es": "Pregunta 55 sobre Ice Cream Desserts",
+      "de": "Frage 55 über Ice Cream Desserts",
+      "nl": "Vraag 55 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 56 about Ice Cream Desserts",
+      "es": "Pregunta 56 sobre Ice Cream Desserts",
+      "de": "Frage 56 über Ice Cream Desserts",
+      "nl": "Vraag 56 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 57 about Ice Cream Desserts",
+      "es": "Pregunta 57 sobre Ice Cream Desserts",
+      "de": "Frage 57 über Ice Cream Desserts",
+      "nl": "Vraag 57 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 58 about Ice Cream Desserts",
+      "es": "Pregunta 58 sobre Ice Cream Desserts",
+      "de": "Frage 58 über Ice Cream Desserts",
+      "nl": "Vraag 58 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 59 about Ice Cream Desserts",
+      "es": "Pregunta 59 sobre Ice Cream Desserts",
+      "de": "Frage 59 über Ice Cream Desserts",
+      "nl": "Vraag 59 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 60 about Ice Cream Desserts",
+      "es": "Pregunta 60 sobre Ice Cream Desserts",
+      "de": "Frage 60 über Ice Cream Desserts",
+      "nl": "Vraag 60 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 61 about Ice Cream Desserts",
+      "es": "Pregunta 61 sobre Ice Cream Desserts",
+      "de": "Frage 61 über Ice Cream Desserts",
+      "nl": "Vraag 61 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 62 about Ice Cream Desserts",
+      "es": "Pregunta 62 sobre Ice Cream Desserts",
+      "de": "Frage 62 über Ice Cream Desserts",
+      "nl": "Vraag 62 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 63 about Ice Cream Desserts",
+      "es": "Pregunta 63 sobre Ice Cream Desserts",
+      "de": "Frage 63 über Ice Cream Desserts",
+      "nl": "Vraag 63 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 64 about Ice Cream Desserts",
+      "es": "Pregunta 64 sobre Ice Cream Desserts",
+      "de": "Frage 64 über Ice Cream Desserts",
+      "nl": "Vraag 64 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 65 about Ice Cream Desserts",
+      "es": "Pregunta 65 sobre Ice Cream Desserts",
+      "de": "Frage 65 über Ice Cream Desserts",
+      "nl": "Vraag 65 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 66 about Ice Cream Desserts",
+      "es": "Pregunta 66 sobre Ice Cream Desserts",
+      "de": "Frage 66 über Ice Cream Desserts",
+      "nl": "Vraag 66 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 67 about Ice Cream Desserts",
+      "es": "Pregunta 67 sobre Ice Cream Desserts",
+      "de": "Frage 67 über Ice Cream Desserts",
+      "nl": "Vraag 67 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 68 about Ice Cream Desserts",
+      "es": "Pregunta 68 sobre Ice Cream Desserts",
+      "de": "Frage 68 über Ice Cream Desserts",
+      "nl": "Vraag 68 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 69 about Ice Cream Desserts",
+      "es": "Pregunta 69 sobre Ice Cream Desserts",
+      "de": "Frage 69 über Ice Cream Desserts",
+      "nl": "Vraag 69 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 70 about Ice Cream Desserts",
+      "es": "Pregunta 70 sobre Ice Cream Desserts",
+      "de": "Frage 70 über Ice Cream Desserts",
+      "nl": "Vraag 70 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 71 about Ice Cream Desserts",
+      "es": "Pregunta 71 sobre Ice Cream Desserts",
+      "de": "Frage 71 über Ice Cream Desserts",
+      "nl": "Vraag 71 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 72 about Ice Cream Desserts",
+      "es": "Pregunta 72 sobre Ice Cream Desserts",
+      "de": "Frage 72 über Ice Cream Desserts",
+      "nl": "Vraag 72 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 73 about Ice Cream Desserts",
+      "es": "Pregunta 73 sobre Ice Cream Desserts",
+      "de": "Frage 73 über Ice Cream Desserts",
+      "nl": "Vraag 73 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 74 about Ice Cream Desserts",
+      "es": "Pregunta 74 sobre Ice Cream Desserts",
+      "de": "Frage 74 über Ice Cream Desserts",
+      "nl": "Vraag 74 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 75 about Ice Cream Desserts",
+      "es": "Pregunta 75 sobre Ice Cream Desserts",
+      "de": "Frage 75 über Ice Cream Desserts",
+      "nl": "Vraag 75 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 76 about Ice Cream Desserts",
+      "es": "Pregunta 76 sobre Ice Cream Desserts",
+      "de": "Frage 76 über Ice Cream Desserts",
+      "nl": "Vraag 76 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 77 about Ice Cream Desserts",
+      "es": "Pregunta 77 sobre Ice Cream Desserts",
+      "de": "Frage 77 über Ice Cream Desserts",
+      "nl": "Vraag 77 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 78 about Ice Cream Desserts",
+      "es": "Pregunta 78 sobre Ice Cream Desserts",
+      "de": "Frage 78 über Ice Cream Desserts",
+      "nl": "Vraag 78 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 79 about Ice Cream Desserts",
+      "es": "Pregunta 79 sobre Ice Cream Desserts",
+      "de": "Frage 79 über Ice Cream Desserts",
+      "nl": "Vraag 79 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 80 about Ice Cream Desserts",
+      "es": "Pregunta 80 sobre Ice Cream Desserts",
+      "de": "Frage 80 über Ice Cream Desserts",
+      "nl": "Vraag 80 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 81 about Ice Cream Desserts",
+      "es": "Pregunta 81 sobre Ice Cream Desserts",
+      "de": "Frage 81 über Ice Cream Desserts",
+      "nl": "Vraag 81 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 82 about Ice Cream Desserts",
+      "es": "Pregunta 82 sobre Ice Cream Desserts",
+      "de": "Frage 82 über Ice Cream Desserts",
+      "nl": "Vraag 82 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 83 about Ice Cream Desserts",
+      "es": "Pregunta 83 sobre Ice Cream Desserts",
+      "de": "Frage 83 über Ice Cream Desserts",
+      "nl": "Vraag 83 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 84 about Ice Cream Desserts",
+      "es": "Pregunta 84 sobre Ice Cream Desserts",
+      "de": "Frage 84 über Ice Cream Desserts",
+      "nl": "Vraag 84 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 85 about Ice Cream Desserts",
+      "es": "Pregunta 85 sobre Ice Cream Desserts",
+      "de": "Frage 85 über Ice Cream Desserts",
+      "nl": "Vraag 85 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 86 about Ice Cream Desserts",
+      "es": "Pregunta 86 sobre Ice Cream Desserts",
+      "de": "Frage 86 über Ice Cream Desserts",
+      "nl": "Vraag 86 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 87 about Ice Cream Desserts",
+      "es": "Pregunta 87 sobre Ice Cream Desserts",
+      "de": "Frage 87 über Ice Cream Desserts",
+      "nl": "Vraag 87 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 88 about Ice Cream Desserts",
+      "es": "Pregunta 88 sobre Ice Cream Desserts",
+      "de": "Frage 88 über Ice Cream Desserts",
+      "nl": "Vraag 88 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 89 about Ice Cream Desserts",
+      "es": "Pregunta 89 sobre Ice Cream Desserts",
+      "de": "Frage 89 über Ice Cream Desserts",
+      "nl": "Vraag 89 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 90 about Ice Cream Desserts",
+      "es": "Pregunta 90 sobre Ice Cream Desserts",
+      "de": "Frage 90 über Ice Cream Desserts",
+      "nl": "Vraag 90 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 91 about Ice Cream Desserts",
+      "es": "Pregunta 91 sobre Ice Cream Desserts",
+      "de": "Frage 91 über Ice Cream Desserts",
+      "nl": "Vraag 91 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 92 about Ice Cream Desserts",
+      "es": "Pregunta 92 sobre Ice Cream Desserts",
+      "de": "Frage 92 über Ice Cream Desserts",
+      "nl": "Vraag 92 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 93 about Ice Cream Desserts",
+      "es": "Pregunta 93 sobre Ice Cream Desserts",
+      "de": "Frage 93 über Ice Cream Desserts",
+      "nl": "Vraag 93 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 94 about Ice Cream Desserts",
+      "es": "Pregunta 94 sobre Ice Cream Desserts",
+      "de": "Frage 94 über Ice Cream Desserts",
+      "nl": "Vraag 94 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 95 about Ice Cream Desserts",
+      "es": "Pregunta 95 sobre Ice Cream Desserts",
+      "de": "Frage 95 über Ice Cream Desserts",
+      "nl": "Vraag 95 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 96 about Ice Cream Desserts",
+      "es": "Pregunta 96 sobre Ice Cream Desserts",
+      "de": "Frage 96 über Ice Cream Desserts",
+      "nl": "Vraag 96 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 97 about Ice Cream Desserts",
+      "es": "Pregunta 97 sobre Ice Cream Desserts",
+      "de": "Frage 97 über Ice Cream Desserts",
+      "nl": "Vraag 97 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 98 about Ice Cream Desserts",
+      "es": "Pregunta 98 sobre Ice Cream Desserts",
+      "de": "Frage 98 über Ice Cream Desserts",
+      "nl": "Vraag 98 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 99 about Ice Cream Desserts",
+      "es": "Pregunta 99 sobre Ice Cream Desserts",
+      "de": "Frage 99 über Ice Cream Desserts",
+      "nl": "Vraag 99 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
+  },
+  {
+    "question": {
+      "en": "Question 100 about Ice Cream Desserts",
+      "es": "Pregunta 100 sobre Ice Cream Desserts",
+      "de": "Frage 100 über Ice Cream Desserts",
+      "nl": "Vraag 100 over Ice Cream Desserts"
+    },
+    "options": [
+      {
+        "en": "Answer A for Ice Cream Desserts",
+        "es": "Respuesta A para Ice Cream Desserts",
+        "de": "Antwort A für Ice Cream Desserts",
+        "nl": "Antwoord A voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer B for Ice Cream Desserts",
+        "es": "Respuesta B para Ice Cream Desserts",
+        "de": "Antwort B für Ice Cream Desserts",
+        "nl": "Antwoord B voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer C for Ice Cream Desserts",
+        "es": "Respuesta C para Ice Cream Desserts",
+        "de": "Antwort C für Ice Cream Desserts",
+        "nl": "Antwoord C voor Ice Cream Desserts"
+      },
+      {
+        "en": "Answer D for Ice Cream Desserts",
+        "es": "Respuesta D para Ice Cream Desserts",
+        "de": "Antwort D für Ice Cream Desserts",
+        "nl": "Antwoord D voor Ice Cream Desserts"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the correct answer about Ice Cream Desserts.",
+      "es": "Esta es la respuesta correcta sobre Ice Cream Desserts.",
+      "de": "Dies ist die richtige Antwort über Ice Cream Desserts.",
+      "nl": "Dit is het juiste antwoord over Ice Cream Desserts."
+    }
   }
-})();
+]
+};
